@@ -117,6 +117,10 @@ const HEADLINES: Headline[] = [
   { year: 1974, date: '1974-07-08', source: 'De Telegraaf', country: 'Países Bajos', lang: 'en',
     headline: 'Oranje so close, yet so far', kicker: 'Cruyff\'s Netherlands fall 2-1 to West Germany',
     matchTeams: ['FRG', 'NED'] },
+  { year: 1974, date: '1974-06-23', source: 'El Gráfico', country: 'Argentina', lang: 'es',
+    headline: 'Italia 1 — Argentina 1', kicker: 'Passarella contra Bettega, imagen del grupo 4',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/2/20/El_grafico_3062.jpg',
+    matchTeams: ['ITA', 'ARG'] },
 
   // 1978
   { year: 1978, date: '1978-06-26', source: 'Clarín', country: 'Argentina', lang: 'es',
