@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
 import { ArrowUpRight } from 'lucide-react';
-import { TOURNAMENTS } from '@/lib/tournaments';
+import { getAllTournaments } from '@/lib/data/tournaments';
 import { routing, type Locale } from '@/i18n/routing';
 
 function withLocale(locale: Locale, href: string) {
@@ -11,9 +11,13 @@ function withLocale(locale: Locale, href: string) {
 
 export async function EditionsGrid({ locale }: { locale: Locale }) {
   const t = await getTranslations('home.editions');
+  const tournaments = await getAllTournaments(locale);
 
   return (
-    <section id="ediciones" className="relative mx-auto w-full max-w-[1400px] px-6 py-24 md:px-10 md:py-32">
+    <section
+      id="ediciones"
+      className="relative mx-auto w-full max-w-[1400px] px-6 py-24 md:px-10 md:py-32"
+    >
       <div className="flex flex-wrap items-end justify-between gap-6">
         <div>
           <div className="font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-pitch)]">
@@ -34,7 +38,7 @@ export async function EditionsGrid({ locale }: { locale: Locale }) {
       </div>
 
       <div className="mt-14 grid grid-cols-2 gap-px bg-[var(--color-border)] sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
-        {TOURNAMENTS.map((ed) => {
+        {tournaments.map((ed) => {
           const upcoming = ed.year >= 2026;
           return (
             <Link
@@ -45,7 +49,9 @@ export async function EditionsGrid({ locale }: { locale: Locale }) {
               <div
                 aria-hidden
                 className="absolute inset-x-0 top-0 h-1.5 transition-all duration-500 group-hover:h-2.5"
-                style={{ background: `linear-gradient(90deg, ${ed.palette.from}, ${ed.palette.to})` }}
+                style={{
+                  background: `linear-gradient(90deg, ${ed.palette.from}, ${ed.palette.to})`,
+                }}
               />
               <div className="flex items-start justify-between">
                 <span className="font-display text-3xl tab-num text-[var(--color-fg)] md:text-4xl">
