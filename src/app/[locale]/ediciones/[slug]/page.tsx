@@ -147,7 +147,7 @@ export default async function EditionPage({
         </div>
       </section>
 
-      <MatchesList year={t.year} />
+      <MatchesList year={t.year} slug={slug} locale={locale as Locale} />
     </div>
   );
 }

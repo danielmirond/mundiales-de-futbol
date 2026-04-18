@@ -1,5 +1,12 @@
+import Link from 'next/link';
 import { MapPin } from 'lucide-react';
 import { getMatchesForTournament, groupByStage, STAGE_LABEL_ES } from '@/lib/data/matches';
+import { routing, type Locale } from '@/i18n/routing';
+
+function withLocale(locale: Locale, href: string) {
+  if (locale === routing.defaultLocale) return href;
+  return `/${locale}${href === '/' ? '' : href}`;
+}
 
 function formatDate(iso: string, locale = 'es') {
   try {
@@ -14,7 +21,15 @@ function formatDate(iso: string, locale = 'es') {
   }
 }
 
-export async function MatchesList({ year }: { year: number }) {
+export async function MatchesList({
+  year,
+  slug,
+  locale,
+}: {
+  year: number;
+  slug: string;
+  locale: Locale;
+}) {
   const matches = await getMatchesForTournament(year);
   if (matches.length === 0) return null;
   const groups = groupByStage(matches);
@@ -46,8 +61,9 @@ export async function MatchesList({ year }: { year: number }) {
             </div>
             <div className="grid gap-px bg-[var(--color-border)] sm:grid-cols-2 lg:grid-cols-3">
               {matches.map((m) => (
-                <article
+                <Link
                   key={m.match_number}
+                  href={withLocale(locale, `/ediciones/${slug}/partido/${m.match_number}`)}
                   className="group flex flex-col gap-4 bg-[var(--color-bg)] p-5 transition-colors hover:bg-[var(--color-bg-2)]"
                 >
                   <div className="flex items-center justify-between text-[10px] uppercase tracking-[0.25em] text-[var(--color-fg-subtle)] font-mono">
@@ -106,7 +122,7 @@ export async function MatchesList({ year }: { year: number }) {
                       {m.referee?.full_name && <span>Árb · {m.referee.full_name}</span>}
                     </div>
                   )}
-                </article>
+                </Link>
               ))}
             </div>
           </div>
