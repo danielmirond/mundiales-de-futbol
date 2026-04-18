@@ -1,0 +1,177 @@
+{
+  "$schema": "https://schemas.figma.com/tokens/v1.json",
+  "name": "Mundiales de Fútbol",
+  "version": "1.0.0",
+  "description": "Design tokens. Drop into Figma Tokens plugin, Style Dictionary, or Tailwind v4 @theme.",
+  "color": {
+    "bg": {
+      "value": "#05060A",
+      "type": "color",
+      "description": "Fondo principal — negro profundo con tinte azul."
+    },
+    "bg-2": {
+      "value": "#0B0D14",
+      "type": "color",
+      "description": "Fondo secundario para cards y secciones alternas."
+    },
+    "surface": {
+      "value": "#101319",
+      "type": "color"
+    },
+    "fg": {
+      "value": "#F5F6F8",
+      "type": "color",
+      "description": "Texto principal (casi blanco)."
+    },
+    "fg-muted": {
+      "value": "#9EA3AD",
+      "type": "color",
+      "description": "Texto secundario."
+    },
+    "fg-subtle": {
+      "value": "#6B6F78",
+      "type": "color",
+      "description": "Texto terciario, placeholders, kickers."
+    },
+    "border": {
+      "value": "rgba(255,255,255,0.08)",
+      "type": "color"
+    },
+    "border-strong": {
+      "value": "rgba(255,255,255,0.18)",
+      "type": "color"
+    },
+    "pitch": {
+      "value": "#00FF85",
+      "type": "color",
+      "description": "Acento primario. Verde neón césped. CTA, destacados, líneas."
+    },
+    "pitch-deep": {
+      "value": "#00C266",
+      "type": "color"
+    },
+    "flame": {
+      "value": "#FF3B3B",
+      "type": "color",
+      "description": "Rojo vibrante — tarjetas rojas, destacados urgentes."
+    },
+    "sun": {
+      "value": "#FFD400",
+      "type": "color",
+      "description": "Amarillo — tarjetas amarillas, retro, acento."
+    }
+  },
+  "typography": {
+    "display": {
+      "family": "Bebas Neue",
+      "fallback": "Impact, system-ui, sans-serif",
+      "weights": [400],
+      "letterSpacing": "-0.01em"
+    },
+    "sans": {
+      "family": "Geist",
+      "fallback": "ui-sans-serif, system-ui, sans-serif",
+      "weights": [400, 500, 600, 700]
+    },
+    "mono": {
+      "family": "Geist Mono",
+      "fallback": "ui-monospace, monospace",
+      "weights": [400, 500]
+    },
+    "arabic": {
+      "family": "Noto Naskh Arabic",
+      "fallback": "serif"
+    },
+    "scale": {
+      "display": "clamp(3.5rem, 13vw, 14rem)",
+      "h1": "clamp(2.25rem, 5vw, 4.5rem)",
+      "h2": "clamp(1.75rem, 3.5vw, 3rem)",
+      "body-lg": "1.25rem",
+      "body": "1rem",
+      "body-sm": "0.875rem",
+      "kicker": "0.75rem",
+      "micro": "0.625rem"
+    },
+    "treatments": {
+      "kicker": {
+        "family": "mono",
+        "size": "kicker",
+        "transform": "uppercase",
+        "tracking": "0.3em",
+        "color": "pitch"
+      },
+      "hero": {
+        "family": "display",
+        "size": "display",
+        "transform": "uppercase",
+        "lineHeight": "0.88",
+        "tracking": "-0.035em"
+      },
+      "numeric-stat": {
+        "family": "display",
+        "size": "h1",
+        "fontVariantNumeric": "tabular-nums",
+        "lineHeight": "1"
+      }
+    }
+  },
+  "radius": {
+    "sm": "6px",
+    "md": "10px",
+    "lg": "18px",
+    "xl": "28px",
+    "full": "9999px"
+  },
+  "spacing": {
+    "section-y": "6rem",
+    "section-y-md": "8rem",
+    "gutter": "1.5rem",
+    "gutter-md": "2.5rem",
+    "max-width": "1400px"
+  },
+  "motion": {
+    "ease-swift": "cubic-bezier(0.22, 1, 0.36, 1)",
+    "duration-fast": "200ms",
+    "duration-normal": "400ms",
+    "duration-slow": "900ms",
+    "duration-spin": "40s"
+  },
+  "gradients": {
+    "hero-title": {
+      "value": "linear-gradient(90deg, #00FF85 0%, #FFD400 50%, #FF3B3B 100%)",
+      "description": "Se aplica sólo a la segunda línea del headline principal."
+    },
+    "hero-backdrop": {
+      "value": "conic-gradient(from 0deg at 50% 50%, rgba(0,255,133,0.35), rgba(255,59,59,0.35), rgba(255,212,0,0.35), rgba(0,255,133,0.35))",
+      "blur": "120px",
+      "opacity": 0.6
+    },
+    "pitch-glow": "radial-gradient(60% 50% at 50% 0%, rgba(0,255,133,0.18) 0%, transparent 70%)",
+    "flame-glow": "radial-gradient(40% 40% at 80% 10%, rgba(255,59,59,0.25) 0%, transparent 70%)"
+  },
+  "editionPalettes": {
+    "1930-uruguay": { "from": "#0A3D91", "to": "#F5E6B3" },
+    "1934-italia": { "from": "#0B6B3A", "to": "#E4002B" },
+    "1938-francia": { "from": "#002654", "to": "#ED2939" },
+    "1950-brasil": { "from": "#009739", "to": "#FEDD00" },
+    "1954-suiza": { "from": "#D52B1E", "to": "#FFFFFF" },
+    "1958-suecia": { "from": "#005B99", "to": "#FFCD00" },
+    "1962-chile": { "from": "#D52B1E", "to": "#0032A0" },
+    "1966-inglaterra": { "from": "#012169", "to": "#C8102E" },
+    "1970-mexico": { "from": "#006341", "to": "#C8102E" },
+    "1974-alemania": { "from": "#000000", "to": "#DD0000" },
+    "1978-argentina": { "from": "#75AADB", "to": "#F6B40E" },
+    "1982-espana": { "from": "#AA151B", "to": "#F1BF00" },
+    "1986-mexico": { "from": "#006341", "to": "#C8102E" },
+    "1990-italia": { "from": "#008C45", "to": "#CD212A" },
+    "1994-estados-unidos": { "from": "#002868", "to": "#BF0A30" },
+    "1998-francia": { "from": "#002654", "to": "#ED2939" },
+    "2002-corea-japon": { "from": "#C60C30", "to": "#003478" },
+    "2006-alemania": { "from": "#000000", "to": "#FFCE00" },
+    "2010-sudafrica": { "from": "#007749", "to": "#FFB81C" },
+    "2014-brasil": { "from": "#009739", "to": "#FEDD00" },
+    "2018-rusia": { "from": "#0039A6", "to": "#D52B1E" },
+    "2022-qatar": { "from": "#8A1538", "to": "#FFFFFF" },
+    "2026-norteamerica": { "from": "#0A5FD3", "to": "#FF3B3B" }
+  }
+}

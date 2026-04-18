@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Visual DNA · Mundiales de Fútbol</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Geist+Mono:wght@400;500&family=Geist:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #05060a;
+      --bg-2: #0b0d14;
+      --surface: #101319;
+      --fg: #f5f6f8;
+      --fg-muted: #9ea3ad;
+      --fg-subtle: #6b6f78;
+      --border: rgba(255,255,255,0.08);
+      --border-strong: rgba(255,255,255,0.18);
+      --pitch: #00ff85;
+      --pitch-deep: #00c266;
+      --flame: #ff3b3b;
+      --sun: #ffd400;
+      --display: "Bebas Neue", Impact, system-ui, sans-serif;
+      --sans: "Geist", ui-sans-serif, system-ui, sans-serif;
+      --mono: "Geist Mono", ui-monospace, monospace;
+    }
+    * { box-sizing: border-box; }
+    html, body { background: var(--bg); color: var(--fg); font-family: var(--sans); margin: 0; -webkit-font-smoothing: antialiased; }
+    body { padding: 0; line-height: 1.4; }
+    .wrap { max-width: 1200px; margin: 0 auto; padding: 64px 32px; }
+    section { padding-block: 80px; border-bottom: 1px solid var(--border); }
+    section:last-child { border-bottom: none; }
+    h1, h2, h3, h4 { margin: 0; }
+    .kicker { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.3em; color: var(--pitch); }
+    .display { font-family: var(--display); text-transform: uppercase; line-height: 0.88; letter-spacing: -0.02em; }
+    .mono { font-family: var(--mono); }
+    .tab-num { font-variant-numeric: tabular-nums; }
+    .muted { color: var(--fg-muted); }
+    .subtle { color: var(--fg-subtle); }
+
+    .hero {
+      position: relative;
+      padding: 160px 32px 128px;
+      overflow: hidden;
+      border-bottom: 1px solid var(--border);
+    }
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: -30%;
+      background: conic-gradient(from 0deg at 50% 50%, rgba(0,255,133,0.35), rgba(255,59,59,0.35), rgba(255,212,0,0.35), rgba(0,255,133,0.35));
+      filter: blur(120px);
+      opacity: 0.6;
+      z-index: 0;
+    }
+    .hero-content { position: relative; z-index: 1; max-width: 1200px; margin: 0 auto; }
+    .hero h1 { font-family: var(--display); text-transform: uppercase; font-size: clamp(3rem, 10vw, 9rem); line-height: 0.88; letter-spacing: -0.03em; margin-top: 16px; }
+    .hero h1 .grad { background: linear-gradient(90deg, var(--pitch), var(--sun), var(--flame)); -webkit-background-clip: text; background-clip: text; color: transparent; display: block; }
+    .hero p { max-width: 640px; margin-top: 24px; font-size: 20px; color: var(--fg-muted); }
+
+    /* Grid overlay */
+    .grid-bg {
+      background-image:
+        linear-gradient(to right, rgba(255,255,255,0.035) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(255,255,255,0.035) 1px, transparent 1px);
+      background-size: 64px 64px;
+    }
+
+    /* Color swatches */
+    .swatches { display: grid; gap: 1px; background: var(--border); grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); margin-top: 48px; }
+    .swatch { background: var(--bg); padding: 32px 20px; display: flex; flex-direction: column; gap: 8px; min-height: 140px; position: relative; overflow: hidden; }
+    .swatch-chip { width: 48px; height: 48px; border-radius: 12px; border: 1px solid var(--border); }
+    .swatch-name { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.2em; color: var(--fg-subtle); margin-top: 8px; }
+    .swatch-hex { font-family: var(--mono); font-size: 14px; color: var(--fg); }
+    .swatch-desc { font-size: 12px; color: var(--fg-muted); margin-top: 4px; }
+
+    /* Type samples */
+    .type-sample { margin-top: 32px; padding: 32px; border: 1px solid var(--border); border-radius: 28px; background: var(--bg-2); }
+    .type-sample .label { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.3em; color: var(--fg-subtle); margin-bottom: 16px; }
+    .type-display { font-family: var(--display); text-transform: uppercase; line-height: 0.88; letter-spacing: -0.025em; font-size: clamp(3rem, 8vw, 6rem); }
+    .type-h1 { font-family: var(--display); text-transform: uppercase; font-size: 56px; line-height: 1; }
+    .type-h2 { font-family: var(--sans); font-size: 36px; font-weight: 600; line-height: 1.1; }
+    .type-body { font-size: 18px; }
+    .type-mono { font-family: var(--mono); font-size: 14px; text-transform: uppercase; letter-spacing: 0.2em; }
+
+    /* Component grid */
+    .grid-2 { display: grid; gap: 24px; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); margin-top: 48px; }
+    .card { background: var(--bg-2); border: 1px solid var(--border); border-radius: 28px; padding: 28px; position: relative; overflow: hidden; transition: border-color 200ms; }
+    .card:hover { border-color: var(--border-strong); }
+    .card .topbar { position: absolute; top: 0; inset-inline: 0; height: 6px; }
+    .card .year { font-family: var(--display); font-size: 40px; color: var(--fg); }
+    .card .host { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.2em; color: var(--fg-muted); margin-top: 72px; }
+    .card .winner { font-size: 14px; margin-top: 6px; }
+    .card .stats { margin-top: 14px; display: flex; gap: 12px; font-family: var(--mono); font-size: 10px; text-transform: uppercase; letter-spacing: 0.2em; color: var(--fg-subtle); }
+
+    /* Button row */
+    .btn-row { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 48px; }
+    .btn { display: inline-flex; align-items: center; gap: 8px; border-radius: 9999px; padding: 14px 24px; font-size: 14px; font-weight: 500; cursor: pointer; transition: all 200ms; font-family: var(--sans); text-decoration: none; }
+    .btn-primary { background: var(--pitch); color: #000; border: none; }
+    .btn-primary:hover { background: var(--fg); transform: scale(1.02); }
+    .btn-secondary { background: transparent; color: var(--fg); border: 1px solid var(--border-strong); }
+    .btn-secondary:hover { border-color: var(--pitch); color: var(--pitch); }
+    .btn-ghost { background: transparent; color: var(--fg-muted); border: none; }
+
+    /* Stat band */
+    .stat-band { display: grid; gap: 1px; background: var(--border); grid-template-columns: repeat(5, 1fr); margin-top: 48px; border-radius: 28px; overflow: hidden; }
+    .stat { background: var(--bg-2); padding: 40px 24px; }
+    .stat .label { font-family: var(--mono); font-size: 10px; text-transform: uppercase; letter-spacing: 0.3em; color: var(--fg-subtle); margin-bottom: 24px; }
+    .stat .value { font-family: var(--display); font-size: 64px; line-height: 1; }
+
+    /* Palettes grid */
+    .palettes { display: grid; gap: 1px; background: var(--border); grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); margin-top: 48px; }
+    .pal { background: var(--bg); padding: 16px; min-height: 120px; display: flex; flex-direction: column; justify-content: space-between; position: relative; }
+    .pal .bar { position: absolute; inset-inline: 0; top: 0; height: 6px; }
+    .pal .year { font-family: var(--display); font-size: 28px; color: var(--fg); margin-top: 8px; }
+    .pal .host { font-family: var(--mono); font-size: 10px; text-transform: uppercase; letter-spacing: 0.2em; color: var(--fg-muted); }
+    .pal .colors { display: flex; gap: 4px; margin-top: 12px; font-family: var(--mono); font-size: 9px; color: var(--fg-subtle); }
+
+    /* Voice block */
+    .voice { display: grid; gap: 24px; grid-template-columns: 1fr 1fr; margin-top: 48px; }
+    .voice > div { background: var(--bg-2); padding: 28px; border-radius: 28px; border: 1px solid var(--border); }
+    .voice h4 { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.3em; color: var(--pitch); margin-bottom: 16px; }
+    .voice.no .h { color: var(--flame); }
+    .voice .sample { font-size: 17px; line-height: 1.5; color: var(--fg); }
+
+    /* Print */
+    @media print {
+      html, body { background: #fff; color: #000; }
+      section { page-break-after: always; }
+      .hero::before { display: none; }
+      .swatch, .card, .stat, .type-sample, .voice > div { border: 1px solid #ccc; background: #fff; }
+      .grid-bg { background-image: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero -->
+  <header class="hero">
+    <div class="hero-content">
+      <div class="kicker">Visual DNA · v1.0 · abril 2026</div>
+      <h1>
+        <span>Mundiales</span>
+        <span class="grad">de Fútbol</span>
+      </h1>
+      <p>Enciclopedia digital definitiva de las 22 Copas del Mundo masculinas (1930–2026), en cinco idiomas, con profundidad hasta el último pase.</p>
+    </div>
+  </header>
+
+  <div class="wrap grid-bg">
+
+    <!-- Logo -->
+    <section>
+      <div class="kicker">01 · Logo</div>
+      <h2 class="display" style="font-size: clamp(2rem, 5vw, 3.5rem); margin-top: 16px;">Logomark</h2>
+      <p class="muted" style="max-width: 640px; margin-top: 12px;">Círculo verde neón con el número 22 (ediciones) en Geist Mono negro. Escala de 32 a 128px. Favicon 32x32.</p>
+
+      <div class="grid-2" style="margin-top: 48px;">
+        <div class="card" style="display: flex; align-items: center; justify-content: center; min-height: 260px;">
+          <div style="width: 96px; height: 96px; border-radius: 50%; background: var(--pitch); display: flex; align-items: center; justify-content: center; font-family: var(--mono); font-size: 36px; color: #000; font-weight: 500;">22</div>
+        </div>
+        <div class="card" style="display: flex; align-items: center; gap: 16px; min-height: 260px; justify-content: center;">
+          <div style="width: 48px; height: 48px; border-radius: 50%; background: var(--pitch); display: flex; align-items: center; justify-content: center; font-family: var(--mono); font-size: 18px; color: #000;">22</div>
+          <div class="display" style="font-size: 36px;">Mundiales</div>
+        </div>
+        <div class="card" style="display: flex; align-items: center; justify-content: center; min-height: 260px; background: var(--pitch);">
+          <div style="width: 96px; height: 96px; border-radius: 50%; background: #000; display: flex; align-items: center; justify-content: center; font-family: var(--mono); font-size: 36px; color: var(--pitch);">22</div>
+        </div>
+        <div class="card" style="display: flex; align-items: center; justify-content: center; min-height: 260px; background: #fff;">
+          <div style="width: 96px; height: 96px; border-radius: 50%; background: #000; display: flex; align-items: center; justify-content: center; font-family: var(--mono); font-size: 36px; color: #fff;">22</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Color -->
+    <section>
+      <div class="kicker">02 · Color</div>
+      <h2 class="display" style="font-size: clamp(2rem, 5vw, 3.5rem); margin-top: 16px;">Paleta base</h2>
+      <p class="muted" style="max-width: 640px; margin-top: 12px;">Negro profundo + verde césped neón. Rojo y amarillo como acentos de tarjeta.</p>
+
+      <div class="swatches">
+        <div class="swatch"><div class="swatch-chip" style="background: #05060a;"></div><div class="swatch-name">bg</div><div class="swatch-hex">#05060A</div><div class="swatch-desc">Fondo principal</div></div>
+        <div class="swatch"><div class="swatch-chip" style="background: #0B0D14;"></div><div class="swatch-name">bg-2</div><div class="swatch-hex">#0B0D14</div><div class="swatch-desc">Cards / sección alterna</div></div>
+        <div class="swatch"><div class="swatch-chip" style="background: #F5F6F8;"></div><div class="swatch-name">fg</div><div class="swatch-hex">#F5F6F8</div><div class="swatch-desc">Texto principal</div></div>
+        <div class="swatch"><div class="swatch-chip" style="background: #9EA3AD;"></div><div class="swatch-name">fg-muted</div><div class="swatch-hex">#9EA3AD</div><div class="swatch-desc">Texto secundario</div></div>
+        <div class="swatch"><div class="swatch-chip" style="background: #00FF85; box-shadow: 0 0 40px rgba(0,255,133,0.35);"></div><div class="swatch-name">pitch</div><div class="swatch-hex">#00FF85</div><div class="swatch-desc">Acento primario</div></div>
+        <div class="swatch"><div class="swatch-chip" style="background: #FF3B3B;"></div><div class="swatch-name">flame</div><div class="swatch-hex">#FF3B3B</div><div class="swatch-desc">Tarjeta roja / urgente</div></div>
+        <div class="swatch"><div class="swatch-chip" style="background: #FFD400;"></div><div class="swatch-name">sun</div><div class="swatch-hex">#FFD400</div><div class="swatch-desc">Tarjeta amarilla / retro</div></div>
+      </div>
+
+      <h3 class="display" style="font-size: 32px; margin-top: 80px;">Paletas por mundial</h3>
+      <p class="muted" style="margin-top: 12px;">Cada edición tiene su gradiente de dos colores derivado de la bandera de la sede.</p>
+      <div class="palettes" id="palettes"></div>
+    </section>
+
+    <!-- Typography -->
+    <section>
+      <div class="kicker">03 · Tipografía</div>
+      <h2 class="display" style="font-size: clamp(2rem, 5vw, 3.5rem); margin-top: 16px;">Sistema</h2>
+
+      <div class="type-sample">
+        <div class="label">Display · Bebas Neue</div>
+        <div class="type-display">22 torneos. Una historia.</div>
+      </div>
+      <div class="type-sample">
+        <div class="label">Sans · Geist 600</div>
+        <div class="type-h2">La final más bonita de la historia</div>
+      </div>
+      <div class="type-sample">
+        <div class="label">Body · Geist 400 · 18px</div>
+        <p class="type-body">La enciclopedia definitiva del Mundial de Fútbol, con datos hasta el último pase. 147 partidos, 2.093 jugadores, 1.906 eventos y 3.904 tiros con xG ya indexados.</p>
+      </div>
+      <div class="type-sample">
+        <div class="label">Mono · Geist Mono · kicker</div>
+        <div class="type-mono">— 1930 · 2026 · Fifa World Cup</div>
+      </div>
+    </section>
+
+    <!-- Components -->
+    <section>
+      <div class="kicker">04 · Componentes</div>
+      <h2 class="display" style="font-size: clamp(2rem, 5vw, 3.5rem); margin-top: 16px;">Átomos y moléculas</h2>
+
+      <h3 class="mono" style="font-size: 11px; text-transform: uppercase; letter-spacing: 0.3em; color: var(--fg-muted); margin-top: 48px;">Botones</h3>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="#">Explorar ediciones →</a>
+        <a class="btn btn-secondary" href="#">Calendario 2026</a>
+        <a class="btn btn-ghost" href="#">Ver todas</a>
+      </div>
+
+      <h3 class="mono" style="font-size: 11px; text-transform: uppercase; letter-spacing: 0.3em; color: var(--fg-muted); margin-top: 64px;">Card de edición</h3>
+      <div class="grid-2">
+        <div class="card">
+          <div class="topbar" style="background: linear-gradient(90deg, #006341, #c8102e);"></div>
+          <div class="year">1986</div>
+          <div class="host">México</div>
+          <div class="winner">🏆 Argentina</div>
+          <div class="stats"><span>24T</span><span>52P</span><span>132G</span></div>
+        </div>
+        <div class="card">
+          <div class="topbar" style="background: linear-gradient(90deg, #8a1538, #ffffff);"></div>
+          <div class="year">2022</div>
+          <div class="host">Qatar</div>
+          <div class="winner">🏆 Argentina</div>
+          <div class="stats"><span>32T</span><span>64P</span><span>172G</span></div>
+        </div>
+        <div class="card">
+          <div class="topbar" style="background: linear-gradient(90deg, #0a5fd3, #ff3b3b);"></div>
+          <div class="year">2026</div>
+          <div class="host">EE.UU. · Canadá · México</div>
+          <div class="winner">—</div>
+          <div class="stats"><span>48T</span><span>104P</span></div>
+        </div>
+      </div>
+
+      <h3 class="mono" style="font-size: 11px; text-transform: uppercase; letter-spacing: 0.3em; color: var(--fg-muted); margin-top: 64px;">Stat band</h3>
+      <div class="stat-band">
+        <div class="stat"><div class="label">Ediciones</div><div class="value tab-num">22</div></div>
+        <div class="stat"><div class="label">Partidos</div><div class="value tab-num">964</div></div>
+        <div class="stat"><div class="label">Goles</div><div class="value tab-num">2720</div></div>
+        <div class="stat"><div class="label">Campeones</div><div class="value tab-num">8</div></div>
+        <div class="stat"><div class="label">2026</div><div class="value tab-num">48</div></div>
+      </div>
+    </section>
+
+    <!-- Voice -->
+    <section>
+      <div class="kicker">05 · Voz</div>
+      <h2 class="display" style="font-size: clamp(2rem, 5vw, 3.5rem); margin-top: 16px;">Copy writing</h2>
+
+      <div class="voice">
+        <div>
+          <h4>Sí</h4>
+          <p class="sample">"22 torneos. Una historia. Hasta el último pase."</p>
+          <p class="sample">"La enciclopedia definitiva. 8 campeones, 22 ediciones, 2.720 goles."</p>
+          <p class="sample">"El porqué detrás de los números."</p>
+        </div>
+        <div class="no">
+          <h4 class="h" style="color: var(--flame);">No</h4>
+          <p class="sample">"La mejor web oficial de la historia del fútbol mundial."</p>
+          <p class="sample">"Descubre gratis todos los goles."</p>
+          <p class="sample">"Vive la emoción del deporte rey."</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer style="padding-block: 48px 80px; text-align: center; color: var(--fg-subtle); font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.3em;">
+      Visual DNA · v1.0 · Mundiales de Fútbol · <a href="https://mundiales-de-futbol.com" style="color: var(--pitch); text-decoration: none;">mundiales-de-futbol.com</a>
+    </footer>
+
+  </div>
+
+  <script>
+    const PALETTES = [
+      { year: 1930, slug: "uruguay", from: "#0A3D91", to: "#F5E6B3" },
+      { year: 1934, slug: "italia", from: "#0B6B3A", to: "#E4002B" },
+      { year: 1938, slug: "francia", from: "#002654", to: "#ED2939" },
+      { year: 1950, slug: "brasil", from: "#009739", to: "#FEDD00" },
+      { year: 1954, slug: "suiza", from: "#D52B1E", to: "#FFFFFF" },
+      { year: 1958, slug: "suecia", from: "#005B99", to: "#FFCD00" },
+      { year: 1962, slug: "chile", from: "#D52B1E", to: "#0032A0" },
+      { year: 1966, slug: "inglaterra", from: "#012169", to: "#C8102E" },
+      { year: 1970, slug: "mexico", from: "#006341", to: "#C8102E" },
+      { year: 1974, slug: "alemania", from: "#000000", to: "#DD0000" },
+      { year: 1978, slug: "argentina", from: "#75AADB", to: "#F6B40E" },
+      { year: 1982, slug: "españa", from: "#AA151B", to: "#F1BF00" },
+      { year: 1986, slug: "méxico", from: "#006341", to: "#C8102E" },
+      { year: 1990, slug: "italia", from: "#008C45", to: "#CD212A" },
+      { year: 1994, slug: "ee.uu.", from: "#002868", to: "#BF0A30" },
+      { year: 1998, slug: "francia", from: "#002654", to: "#ED2939" },
+      { year: 2002, slug: "corea-japón", from: "#C60C30", to: "#003478" },
+      { year: 2006, slug: "alemania", from: "#000000", to: "#FFCE00" },
+      { year: 2010, slug: "sudáfrica", from: "#007749", to: "#FFB81C" },
+      { year: 2014, slug: "brasil", from: "#009739", to: "#FEDD00" },
+      { year: 2018, slug: "rusia", from: "#0039A6", to: "#D52B1E" },
+      { year: 2022, slug: "qatar", from: "#8A1538", to: "#FFFFFF" },
+      { year: 2026, slug: "norteamérica", from: "#0A5FD3", to: "#FF3B3B" }
+    ];
+    const root = document.getElementById("palettes");
+    PALETTES.forEach(p => {
+      const el = document.createElement("div");
+      el.className = "pal";
+      el.innerHTML = `
+        <div class="bar" style="background: linear-gradient(90deg, ${p.from}, ${p.to});"></div>
+        <div>
+          <div class="year">${p.year}</div>
+          <div class="host">${p.slug}</div>
+        </div>
+        <div class="colors"><span>${p.from}</span><span>${p.to}</span></div>
+      `;
+      root.appendChild(el);
+    });
+  </script>
+</body>
+</html>
