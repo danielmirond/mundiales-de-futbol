@@ -6,6 +6,7 @@ import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { LocaleSwitcher } from './locale-switcher';
+import { LogomarkSeal } from '@/components/brand/logomark-seal';
 import { routing, type Locale } from '@/i18n/routing';
 
 function withLocale(locale: Locale, href: string) {
@@ -48,10 +49,10 @@ export function SiteNav() {
           href={withLocale(locale, '/')}
           className="flex items-center gap-3 text-sm font-semibold uppercase tracking-[0.2em] text-[var(--color-fg)]"
         >
-          <span className="grid h-8 w-8 place-items-center rounded-full bg-[var(--color-pitch)] text-black tab-num">
-            22
+          <LogomarkSeal size={40} />
+          <span className="hidden font-display text-xl normal-case tracking-tight sm:inline">
+            Mundiales
           </span>
-          <span className="hidden sm:inline">Mundiales</span>
         </Link>
 
         <nav className="hidden items-center gap-1 lg:flex">

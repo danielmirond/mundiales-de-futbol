@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { useLocale, useTranslations } from 'next-intl';
 import { ArrowRight, Calendar } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { Trofeos } from '@/components/brand/trofeos';
 import { routing, type Locale } from '@/i18n/routing';
 
 function withLocale(locale: Locale, href: string) {
@@ -41,6 +42,11 @@ export function Hero() {
         <div className="absolute inset-0 pitch-glow" />
         <div className="absolute inset-0 flame-glow" />
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[var(--color-bg)]/30 to-[var(--color-bg)]" />
+      </div>
+
+      {/* Floating trofeos mark — top right of hero, subtle */}
+      <div className="pointer-events-none absolute right-6 top-24 z-0 hidden opacity-60 md:block md:right-10 md:top-32 lg:opacity-80">
+        <Trofeos size={280} showLabel={false} />
       </div>
 
       <div className="relative z-10 mx-auto w-full max-w-[1400px] px-6 md:px-10">

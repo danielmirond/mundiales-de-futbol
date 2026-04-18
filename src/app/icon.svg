@@ -1,0 +1,21 @@
+<svg width="32" height="32" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="200" fill="#05060A"/>
+  <g stroke="#00FF85" stroke-width="4" stroke-linecap="round">
+    <line x1="100" y1="8" x2="100" y2="24" transform="rotate(0 100 100)"/>
+    <line x1="100" y1="8" x2="100" y2="24" transform="rotate(30 100 100)"/>
+    <line x1="100" y1="8" x2="100" y2="24" transform="rotate(60 100 100)"/>
+    <line x1="100" y1="8" x2="100" y2="24" transform="rotate(90 100 100)"/>
+    <line x1="100" y1="8" x2="100" y2="24" transform="rotate(120 100 100)"/>
+    <line x1="100" y1="8" x2="100" y2="24" transform="rotate(150 100 100)"/>
+    <line x1="100" y1="8" x2="100" y2="24" transform="rotate(180 100 100)"/>
+    <line x1="100" y1="8" x2="100" y2="24" transform="rotate(210 100 100)"/>
+    <line x1="100" y1="8" x2="100" y2="24" transform="rotate(240 100 100)"/>
+    <line x1="100" y1="8" x2="100" y2="24" transform="rotate(270 100 100)"/>
+    <line x1="100" y1="8" x2="100" y2="24" transform="rotate(300 100 100)"/>
+    <line x1="100" y1="8" x2="100" y2="24" transform="rotate(330 100 100)"/>
+  </g>
+  <circle cx="100" cy="100" r="72" fill="#00FF85"/>
+  <text x="100" y="108" text-anchor="middle" dominant-baseline="central"
+        font-family="Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif"
+        font-weight="800" font-size="96" fill="#000">22</text>
+</svg>
