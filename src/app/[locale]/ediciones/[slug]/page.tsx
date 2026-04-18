@@ -4,6 +4,7 @@ import { setRequestLocale, getFormatter } from 'next-intl/server';
 import { ArrowLeft, Trophy, Users, Activity, Target, CalendarDays } from 'lucide-react';
 import { TOURNAMENTS, getTournament } from '@/lib/tournaments';
 import { routing, type Locale } from '@/i18n/routing';
+import { MatchesList } from '@/components/edition/matches-list';
 
 export function generateStaticParams() {
   return TOURNAMENTS.flatMap((t) =>
@@ -136,15 +137,17 @@ export default async function EditionPage({
               Próximamente
             </div>
             <ul className="mt-6 space-y-3 text-sm text-[var(--color-fg-muted)]">
-              <li>• Todos los partidos + eventos minuto a minuto</li>
               <li>• Plantillas de las {t.teams} selecciones</li>
-              <li>• Árbitros y estadios</li>
+              <li>• Eventos minuto a minuto (goles, tarjetas, cambios)</li>
+              <li>• Mapas de tiros con xG (StatsBomb)</li>
               <li>• Vídeos históricos (archive.org)</li>
-              <li>• Crónicas y galería</li>
+              <li>• Crónicas generadas por IA</li>
             </ul>
           </aside>
         </div>
       </section>
+
+      <MatchesList year={t.year} />
     </div>
   );
 }
