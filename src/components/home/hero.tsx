@@ -5,6 +5,7 @@ import { useLocale, useTranslations } from 'next-intl';
 import { ArrowRight, Calendar } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Trofeos } from '@/components/brand/trofeos';
+import { HeroImagery } from '@/components/home/hero-imagery';
 import { routing, type Locale } from '@/i18n/routing';
 
 function withLocale(locale: Locale, href: string) {
@@ -20,28 +21,29 @@ export function Hero() {
     <section className="relative flex min-h-[100svh] flex-col justify-end overflow-hidden pb-16 pt-32 md:pb-24 md:pt-40">
       {/* Background layers */}
       <div className="pointer-events-none absolute inset-0 z-0">
+        <HeroImagery />
         <video
           autoPlay
           muted
           loop
           playsInline
           preload="none"
-          className="absolute inset-0 h-full w-full object-cover opacity-35"
+          className="absolute inset-0 h-full w-full object-cover opacity-25"
         >
           <source src="/videos/hero.mp4" type="video/mp4" />
         </video>
         <div
-          className="absolute -inset-[30%] opacity-60 animate-slow-spin"
+          className="absolute -inset-[30%] opacity-40 animate-slow-spin mix-blend-screen"
           style={{
             background:
               'conic-gradient(from 0deg at 50% 50%, rgba(0,255,133,0.35), rgba(255,59,59,0.35), rgba(255,212,0,0.35), rgba(0,255,133,0.35))',
             filter: 'blur(120px)',
           }}
         />
-        <div className="absolute inset-0 grid-overlay opacity-40" />
-        <div className="absolute inset-0 pitch-glow" />
-        <div className="absolute inset-0 flame-glow" />
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[var(--color-bg)]/30 to-[var(--color-bg)]" />
+        <div className="absolute inset-0 grid-overlay opacity-30" />
+        <div className="absolute inset-0 pitch-glow opacity-60" />
+        <div className="absolute inset-0 flame-glow opacity-50" />
+        <div className="absolute inset-0 bg-gradient-to-b from-[var(--color-bg)]/30 via-[var(--color-bg)]/50 to-[var(--color-bg)]" />
       </div>
 
       {/* Floating trofeos mark — top right of hero, subtle */}
