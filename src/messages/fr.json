@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "title": "Mundiales de Fútbol",
+    "titleTemplate": "%s · Mundiales de Fútbol",
+    "description": "L'encyclopédie définitive des Coupes du Monde FIFA (1930–2026) : résultats, effectifs, événements minute par minute, arbitres, stades et chroniques en cinq langues."
+  },
+  "nav": {
+    "home": "Accueil",
+    "editions": "Éditions",
+    "players": "Joueurs",
+    "stadiums": "Stades",
+    "compare": "Comparateur",
+    "quiz": "Quiz",
+    "live2026": "2026 en direct",
+    "menu": "Menu",
+    "close": "Fermer"
+  },
+  "home": {
+    "hero": {
+      "kicker": "1930 — 2026",
+      "titleLine1": "22 tournois.",
+      "titleLine2": "Une histoire.",
+      "subtitle": "L'encyclopédie définitive de la Coupe du Monde, jusqu'à la dernière passe.",
+      "ctaPrimary": "Explorer les éditions",
+      "ctaSecondary": "Calendrier 2026",
+      "videoFallbackAlt": "Un stade de football vu du ciel"
+    },
+    "countdown": {
+      "label": "Dans",
+      "host": "avant Mexique · Canada · États-Unis 2026",
+      "days": "jours",
+      "hours": "h",
+      "minutes": "min",
+      "seconds": "s",
+      "liveNow": "La Coupe du Monde a commencé",
+      "ended": "Coupe du Monde terminée"
+    },
+    "stats": {
+      "editions": "Éditions",
+      "matches": "Matchs joués",
+      "goals": "Buts marqués",
+      "champions": "Champions différents",
+      "teams2026": "Sélections en 2026"
+    },
+    "editions": {
+      "title": "Les 22 éditions",
+      "subtitle": "De l'Uruguay 1930 à l'Amérique du Nord 2026",
+      "viewAll": "Tout voir"
+    },
+    "pillars": {
+      "title": "De la profondeur à chaque niveau",
+      "encyclopedia": {
+        "title": "Encyclopédie",
+        "text": "Effectifs, arbitres, stades, affluence et événements de tous les matchs de l'histoire de la Coupe."
+      },
+      "editorial": {
+        "title": "Récits",
+        "text": "Reportages, vidéos et chroniques qui racontent le pourquoi derrière les chiffres."
+      },
+      "interactive": {
+        "title": "Interactif",
+        "text": "Comparateurs de joueurs, simulateurs, quiz et jeu de pronostics pour 2026."
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Une bibliothèque vivante de la Coupe du Monde.",
+    "language": "Langue",
+    "credits": "Construit sur des données ouvertes de FIFA, Wikipedia, StatsBomb et des contributeurs."
+  }
+}

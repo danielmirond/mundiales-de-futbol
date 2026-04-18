@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "title": "Mundiales de Fútbol",
+    "titleTemplate": "%s · Mundiales de Fútbol",
+    "description": "The definitive encyclopedia of the FIFA Men's World Cup (1930–2026): results, squads, minute-by-minute events, referees, stadiums and coverage in five languages."
+  },
+  "nav": {
+    "home": "Home",
+    "editions": "Editions",
+    "players": "Players",
+    "stadiums": "Stadiums",
+    "compare": "Compare",
+    "quiz": "Quiz",
+    "live2026": "2026 Live",
+    "menu": "Menu",
+    "close": "Close"
+  },
+  "home": {
+    "hero": {
+      "kicker": "1930 — 2026",
+      "titleLine1": "22 tournaments.",
+      "titleLine2": "One story.",
+      "subtitle": "The definitive encyclopedia of the FIFA World Cup, down to the last pass.",
+      "ctaPrimary": "Explore editions",
+      "ctaSecondary": "2026 schedule",
+      "videoFallbackAlt": "A football stadium seen from above"
+    },
+    "countdown": {
+      "label": "In",
+      "host": "to Mexico · Canada · USA 2026",
+      "days": "days",
+      "hours": "hrs",
+      "minutes": "min",
+      "seconds": "sec",
+      "liveNow": "The World Cup has kicked off",
+      "ended": "World Cup finished"
+    },
+    "stats": {
+      "editions": "Editions",
+      "matches": "Matches played",
+      "goals": "Goals scored",
+      "champions": "Unique champions",
+      "teams2026": "Teams in 2026"
+    },
+    "editions": {
+      "title": "All 22 editions",
+      "subtitle": "From Uruguay 1930 to North America 2026",
+      "viewAll": "View all"
+    },
+    "pillars": {
+      "title": "Depth at every layer",
+      "encyclopedia": {
+        "title": "Encyclopedia",
+        "text": "Squads, referees, stadiums, attendance and events for every World Cup match in history."
+      },
+      "editorial": {
+        "title": "Storytelling",
+        "text": "Long reads, videos and reports that tell the why behind the numbers."
+      },
+      "interactive": {
+        "title": "Interactive",
+        "text": "Player comparators, simulators, quizzes and a prediction game for 2026."
+      }
+    }
+  },
+  "footer": {
+    "tagline": "A living library of the FIFA World Cup.",
+    "language": "Language",
+    "credits": "Built on open data from FIFA, Wikipedia, StatsBomb and contributors."
+  }
+}

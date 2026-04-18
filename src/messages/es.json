@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "title": "Mundiales de Fútbol",
+    "titleTemplate": "%s · Mundiales de Fútbol",
+    "description": "La enciclopedia definitiva de los Mundiales de Fútbol (1930–2026): resultados, plantillas, eventos minuto a minuto, árbitros, estadios y crónicas en cinco idiomas."
+  },
+  "nav": {
+    "home": "Inicio",
+    "editions": "Ediciones",
+    "players": "Jugadores",
+    "stadiums": "Estadios",
+    "compare": "Comparador",
+    "quiz": "Quiz",
+    "live2026": "2026 en vivo",
+    "menu": "Menú",
+    "close": "Cerrar"
+  },
+  "home": {
+    "hero": {
+      "kicker": "1930 — 2026",
+      "titleLine1": "22 torneos.",
+      "titleLine2": "Una historia.",
+      "subtitle": "La enciclopedia definitiva del Mundial de Fútbol, hasta el último pase.",
+      "ctaPrimary": "Explorar ediciones",
+      "ctaSecondary": "Calendario 2026",
+      "videoFallbackAlt": "Un estadio de fútbol visto desde lo alto"
+    },
+    "countdown": {
+      "label": "Faltan",
+      "host": "para México · Canadá · Estados Unidos 2026",
+      "days": "días",
+      "hours": "horas",
+      "minutes": "min",
+      "seconds": "seg",
+      "liveNow": "El Mundial ha comenzado",
+      "ended": "Mundial finalizado"
+    },
+    "stats": {
+      "editions": "Ediciones",
+      "matches": "Partidos jugados",
+      "goals": "Goles marcados",
+      "champions": "Campeones distintos",
+      "teams2026": "Selecciones en 2026"
+    },
+    "editions": {
+      "title": "Las 22 ediciones",
+      "subtitle": "De Uruguay 1930 a Norteamérica 2026",
+      "viewAll": "Ver todas"
+    },
+    "pillars": {
+      "title": "Profundidad en cada capa",
+      "encyclopedia": {
+        "title": "Enciclopedia",
+        "text": "Plantillas, árbitros, estadios, asistencia y eventos de cada partido de la historia del Mundial."
+      },
+      "editorial": {
+        "title": "Narrativa",
+        "text": "Crónicas, vídeos y reportajes que cuentan el porqué detrás de los números."
+      },
+      "interactive": {
+        "title": "Interactivo",
+        "text": "Comparadores de jugadores, simuladores, quiz y juego de predicciones para 2026."
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Una biblioteca viva del Mundial de Fútbol.",
+    "language": "Idioma",
+    "credits": "Hecho con datos abiertos de FIFA, Wikipedia, StatsBomb y colaboradores."
+  }
+}

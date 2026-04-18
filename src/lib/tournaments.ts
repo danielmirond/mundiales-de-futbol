@@ -1,0 +1,245 @@
+export type Tournament = {
+  year: number;
+  slug: string;
+  host: string;
+  hostCode: string;
+  hostCountries?: string[];
+  champion: string;
+  championCode: string;
+  teams: number;
+  matches: number;
+  goals: number;
+  attendance: number;
+  startDate: string;
+  endDate: string;
+  topScorer?: { name: string; goals: number; team: string };
+  palette: { from: string; to: string };
+  tagline: string;
+};
+
+export const TOURNAMENTS: Tournament[] = [
+  {
+    year: 1930, slug: '1930-uruguay', host: 'Uruguay', hostCode: 'UY',
+    champion: 'Uruguay', championCode: 'UY',
+    teams: 13, matches: 18, goals: 70, attendance: 590549,
+    startDate: '1930-07-13', endDate: '1930-07-30',
+    topScorer: { name: 'Guillermo Stábile', goals: 8, team: 'Argentina' },
+    palette: { from: '#0a3d91', to: '#f5e6b3' },
+    tagline: 'Donde todo empezó',
+  },
+  {
+    year: 1934, slug: '1934-italia', host: 'Italia', hostCode: 'IT',
+    champion: 'Italia', championCode: 'IT',
+    teams: 16, matches: 17, goals: 70, attendance: 363000,
+    startDate: '1934-05-27', endDate: '1934-06-10',
+    topScorer: { name: 'Oldřich Nejedlý', goals: 5, team: 'Checoslovaquia' },
+    palette: { from: '#0b6b3a', to: '#e4002b' },
+    tagline: 'El Mundial del Duce',
+  },
+  {
+    year: 1938, slug: '1938-francia', host: 'Francia', hostCode: 'FR',
+    champion: 'Italia', championCode: 'IT',
+    teams: 15, matches: 18, goals: 84, attendance: 374835,
+    startDate: '1938-06-04', endDate: '1938-06-19',
+    topScorer: { name: 'Leônidas', goals: 7, team: 'Brasil' },
+    palette: { from: '#002654', to: '#ed2939' },
+    tagline: 'El último antes de la guerra',
+  },
+  {
+    year: 1950, slug: '1950-brasil', host: 'Brasil', hostCode: 'BR',
+    champion: 'Uruguay', championCode: 'UY',
+    teams: 13, matches: 22, goals: 88, attendance: 1045246,
+    startDate: '1950-06-24', endDate: '1950-07-16',
+    topScorer: { name: 'Ademir', goals: 9, team: 'Brasil' },
+    palette: { from: '#009739', to: '#fedd00' },
+    tagline: 'Maracanazo',
+  },
+  {
+    year: 1954, slug: '1954-suiza', host: 'Suiza', hostCode: 'CH',
+    champion: 'Alemania Occidental', championCode: 'DE',
+    teams: 16, matches: 26, goals: 140, attendance: 768607,
+    startDate: '1954-06-16', endDate: '1954-07-04',
+    topScorer: { name: 'Sándor Kocsis', goals: 11, team: 'Hungría' },
+    palette: { from: '#d52b1e', to: '#ffffff' },
+    tagline: 'El Milagro de Berna',
+  },
+  {
+    year: 1958, slug: '1958-suecia', host: 'Suecia', hostCode: 'SE',
+    champion: 'Brasil', championCode: 'BR',
+    teams: 16, matches: 35, goals: 126, attendance: 819810,
+    startDate: '1958-06-08', endDate: '1958-06-29',
+    topScorer: { name: 'Just Fontaine', goals: 13, team: 'Francia' },
+    palette: { from: '#005b99', to: '#ffcd00' },
+    tagline: 'Nace Pelé',
+  },
+  {
+    year: 1962, slug: '1962-chile', host: 'Chile', hostCode: 'CL',
+    champion: 'Brasil', championCode: 'BR',
+    teams: 16, matches: 32, goals: 89, attendance: 893172,
+    startDate: '1962-05-30', endDate: '1962-06-17',
+    palette: { from: '#d52b1e', to: '#0032a0' },
+    tagline: 'La Batalla de Santiago',
+  },
+  {
+    year: 1966, slug: '1966-inglaterra', host: 'Inglaterra', hostCode: 'GB',
+    champion: 'Inglaterra', championCode: 'GB',
+    teams: 16, matches: 32, goals: 89, attendance: 1563135,
+    startDate: '1966-07-11', endDate: '1966-07-30',
+    topScorer: { name: 'Eusébio', goals: 9, team: 'Portugal' },
+    palette: { from: '#012169', to: '#c8102e' },
+    tagline: 'It came home',
+  },
+  {
+    year: 1970, slug: '1970-mexico', host: 'México', hostCode: 'MX',
+    champion: 'Brasil', championCode: 'BR',
+    teams: 16, matches: 32, goals: 95, attendance: 1603975,
+    startDate: '1970-05-31', endDate: '1970-06-21',
+    topScorer: { name: 'Gerd Müller', goals: 10, team: 'Alemania Occidental' },
+    palette: { from: '#006341', to: '#c8102e' },
+    tagline: 'La selección más bella de la historia',
+  },
+  {
+    year: 1974, slug: '1974-alemania', host: 'Alemania Occidental', hostCode: 'DE',
+    champion: 'Alemania Occidental', championCode: 'DE',
+    teams: 16, matches: 38, goals: 97, attendance: 1865753,
+    startDate: '1974-06-13', endDate: '1974-07-07',
+    topScorer: { name: 'Grzegorz Lato', goals: 7, team: 'Polonia' },
+    palette: { from: '#000000', to: '#dd0000' },
+    tagline: 'El fútbol total',
+  },
+  {
+    year: 1978, slug: '1978-argentina', host: 'Argentina', hostCode: 'AR',
+    champion: 'Argentina', championCode: 'AR',
+    teams: 16, matches: 38, goals: 102, attendance: 1545791,
+    startDate: '1978-06-01', endDate: '1978-06-25',
+    topScorer: { name: 'Mario Kempes', goals: 6, team: 'Argentina' },
+    palette: { from: '#75aadb', to: '#f6b40e' },
+    tagline: 'Kempes en casa',
+  },
+  {
+    year: 1982, slug: '1982-espana', host: 'España', hostCode: 'ES',
+    champion: 'Italia', championCode: 'IT',
+    teams: 24, matches: 52, goals: 146, attendance: 2109723,
+    startDate: '1982-06-13', endDate: '1982-07-11',
+    topScorer: { name: 'Paolo Rossi', goals: 6, team: 'Italia' },
+    palette: { from: '#aa151b', to: '#f1bf00' },
+    tagline: 'Paolo Rossi',
+  },
+  {
+    year: 1986, slug: '1986-mexico', host: 'México', hostCode: 'MX',
+    champion: 'Argentina', championCode: 'AR',
+    teams: 24, matches: 52, goals: 132, attendance: 2394031,
+    startDate: '1986-05-31', endDate: '1986-06-29',
+    topScorer: { name: 'Gary Lineker', goals: 6, team: 'Inglaterra' },
+    palette: { from: '#006341', to: '#c8102e' },
+    tagline: 'La mano de Dios',
+  },
+  {
+    year: 1990, slug: '1990-italia', host: 'Italia', hostCode: 'IT',
+    champion: 'Alemania Occidental', championCode: 'DE',
+    teams: 24, matches: 52, goals: 115, attendance: 2516215,
+    startDate: '1990-06-08', endDate: '1990-07-08',
+    topScorer: { name: 'Salvatore Schillaci', goals: 6, team: 'Italia' },
+    palette: { from: '#008c45', to: '#cd212a' },
+    tagline: 'Notti Magiche',
+  },
+  {
+    year: 1994, slug: '1994-estados-unidos', host: 'Estados Unidos', hostCode: 'US',
+    champion: 'Brasil', championCode: 'BR',
+    teams: 24, matches: 52, goals: 141, attendance: 3587538,
+    startDate: '1994-06-17', endDate: '1994-07-17',
+    topScorer: { name: 'Hristo Stoichkov / Oleg Salenko', goals: 6, team: '—' },
+    palette: { from: '#002868', to: '#bf0a30' },
+    tagline: 'Romário · Penales contra Italia',
+  },
+  {
+    year: 1998, slug: '1998-francia', host: 'Francia', hostCode: 'FR',
+    champion: 'Francia', championCode: 'FR',
+    teams: 32, matches: 64, goals: 171, attendance: 2785100,
+    startDate: '1998-06-10', endDate: '1998-07-12',
+    topScorer: { name: 'Davor Šuker', goals: 6, team: 'Croacia' },
+    palette: { from: '#002654', to: '#ed2939' },
+    tagline: 'Zidane vs. Ronaldo',
+  },
+  {
+    year: 2002, slug: '2002-corea-japon', host: 'Corea del Sur & Japón', hostCode: 'KR',
+    hostCountries: ['KR', 'JP'],
+    champion: 'Brasil', championCode: 'BR',
+    teams: 32, matches: 64, goals: 161, attendance: 2705197,
+    startDate: '2002-05-31', endDate: '2002-06-30',
+    topScorer: { name: 'Ronaldo', goals: 8, team: 'Brasil' },
+    palette: { from: '#c60c30', to: '#003478' },
+    tagline: 'Ronaldo redención',
+  },
+  {
+    year: 2006, slug: '2006-alemania', host: 'Alemania', hostCode: 'DE',
+    champion: 'Italia', championCode: 'IT',
+    teams: 32, matches: 64, goals: 147, attendance: 3359439,
+    startDate: '2006-06-09', endDate: '2006-07-09',
+    topScorer: { name: 'Miroslav Klose', goals: 5, team: 'Alemania' },
+    palette: { from: '#000000', to: '#ffce00' },
+    tagline: 'El cabezazo de Zidane',
+  },
+  {
+    year: 2010, slug: '2010-sudafrica', host: 'Sudáfrica', hostCode: 'ZA',
+    champion: 'España', championCode: 'ES',
+    teams: 32, matches: 64, goals: 145, attendance: 3178856,
+    startDate: '2010-06-11', endDate: '2010-07-11',
+    topScorer: { name: 'Thomas Müller / Villa / Sneijder / Forlán', goals: 5, team: '—' },
+    palette: { from: '#007749', to: '#ffb81c' },
+    tagline: 'Iniesta, de mi vida',
+  },
+  {
+    year: 2014, slug: '2014-brasil', host: 'Brasil', hostCode: 'BR',
+    champion: 'Alemania', championCode: 'DE',
+    teams: 32, matches: 64, goals: 171, attendance: 3429873,
+    startDate: '2014-06-12', endDate: '2014-07-13',
+    topScorer: { name: 'James Rodríguez', goals: 6, team: 'Colombia' },
+    palette: { from: '#009739', to: '#fedd00' },
+    tagline: '7–1 · El Mineirazo',
+  },
+  {
+    year: 2018, slug: '2018-rusia', host: 'Rusia', hostCode: 'RU',
+    champion: 'Francia', championCode: 'FR',
+    teams: 32, matches: 64, goals: 169, attendance: 3031768,
+    startDate: '2018-06-14', endDate: '2018-07-15',
+    topScorer: { name: 'Harry Kane', goals: 6, team: 'Inglaterra' },
+    palette: { from: '#0039a6', to: '#d52b1e' },
+    tagline: 'La Francia joven de Mbappé',
+  },
+  {
+    year: 2022, slug: '2022-qatar', host: 'Qatar', hostCode: 'QA',
+    champion: 'Argentina', championCode: 'AR',
+    teams: 32, matches: 64, goals: 172, attendance: 3404252,
+    startDate: '2022-11-20', endDate: '2022-12-18',
+    topScorer: { name: 'Kylian Mbappé', goals: 8, team: 'Francia' },
+    palette: { from: '#8a1538', to: '#ffffff' },
+    tagline: 'La final más bonita de la historia',
+  },
+  {
+    year: 2026, slug: '2026-norteamerica', host: 'EE.UU. · Canadá · México', hostCode: 'US',
+    hostCountries: ['US', 'CA', 'MX'],
+    champion: '—', championCode: 'TBD',
+    teams: 48, matches: 104, goals: 0, attendance: 0,
+    startDate: '2026-06-11', endDate: '2026-07-19',
+    palette: { from: '#0a5fd3', to: '#ff3b3b' },
+    tagline: 'El primero de tres sedes',
+  },
+];
+
+export function getTournament(slugOrYear: string | number): Tournament | undefined {
+  if (typeof slugOrYear === 'number') {
+    return TOURNAMENTS.find((t) => t.year === slugOrYear);
+  }
+  return TOURNAMENTS.find((t) => t.slug === slugOrYear || t.year.toString() === slugOrYear);
+}
+
+export const WORLD_CUP_2026_KICKOFF = new Date('2026-06-11T20:00:00-06:00');
+
+export const AGGREGATES = {
+  editions: TOURNAMENTS.filter((t) => t.year < 2026).length,
+  matches: TOURNAMENTS.filter((t) => t.year < 2026).reduce((s, t) => s + t.matches, 0),
+  goals: TOURNAMENTS.filter((t) => t.year < 2026).reduce((s, t) => s + t.goals, 0),
+  champions: new Set(TOURNAMENTS.filter((t) => t.year < 2026).map((t) => t.champion)).size,
+  teams2026: 48,
+};

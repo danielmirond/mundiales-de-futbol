@@ -1,0 +1,161 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #05060a;
+  --color-bg-2: #0b0d14;
+  --color-surface: #101319;
+  --color-border: rgba(255, 255, 255, 0.08);
+  --color-border-strong: rgba(255, 255, 255, 0.18);
+  --color-fg: #f5f6f8;
+  --color-fg-muted: #9ea3ad;
+  --color-fg-subtle: #6b6f78;
+
+  --color-pitch: #00ff85;
+  --color-pitch-deep: #00c266;
+  --color-flame: #ff3b3b;
+  --color-sun: #ffd400;
+
+  --font-display: var(--font-bebas), "BebasNeue", "Impact", system-ui, sans-serif;
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
+  --font-arabic: var(--font-noto-arabic), "Noto Naskh Arabic", serif;
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 18px;
+  --radius-xl: 28px;
+
+  --ease-swift: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  background: var(--color-bg);
+  color: var(--color-fg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+html[dir="rtl"] {
+  font-family: var(--font-arabic), var(--font-sans);
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-fg);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+::selection {
+  background: var(--color-pitch);
+  color: #000;
+}
+
+/* --- Typography helpers --- */
+
+.font-display {
+  font-family: var(--font-display);
+  letter-spacing: -0.01em;
+}
+
+.text-fluid-display {
+  font-size: clamp(3.5rem, 13vw, 14rem);
+  line-height: 0.88;
+  letter-spacing: -0.035em;
+}
+
+.text-fluid-h1 {
+  font-size: clamp(2.25rem, 5vw, 4.5rem);
+  line-height: 0.95;
+  letter-spacing: -0.03em;
+}
+
+.text-fluid-h2 {
+  font-size: clamp(1.75rem, 3.5vw, 3rem);
+  line-height: 1;
+  letter-spacing: -0.025em;
+}
+
+/* --- Backgrounds & overlays --- */
+
+.grid-overlay {
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
+  background-size: 64px 64px;
+}
+
+.noise {
+  position: relative;
+}
+.noise::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.35 0'/></filter><rect width='200' height='200' filter='url(%23n)'/></svg>");
+  mix-blend-mode: overlay;
+  opacity: 0.35;
+}
+
+.pitch-glow {
+  background: radial-gradient(60% 50% at 50% 0%, rgba(0, 255, 133, 0.18) 0%, transparent 70%);
+}
+
+.flame-glow {
+  background: radial-gradient(40% 40% at 80% 10%, rgba(255, 59, 59, 0.25) 0%, transparent 70%);
+}
+
+/* --- Marquee (edition ribbon) --- */
+
+@keyframes marquee-x {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+.marquee-track {
+  animation: marquee-x 60s linear infinite;
+}
+.marquee-track:hover { animation-play-state: paused; }
+html[dir="rtl"] .marquee-track { animation-direction: reverse; }
+
+/* --- Utility: thin border card --- */
+
+.card-hairline {
+  border: 1px solid var(--color-border);
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0) 40%);
+}
+
+.card-hairline:hover {
+  border-color: var(--color-border-strong);
+}
+
+/* --- Conic spin --- */
+
+@keyframes slow-spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.animate-slow-spin { animation: slow-spin 40s linear infinite; }
+
+/* --- Fade-up entrance animation --- */
+
+@keyframes fade-up {
+  from { opacity: 0; transform: translate3d(0, 32px, 0); }
+  to   { opacity: 1; transform: translate3d(0, 0, 0); }
+}
+
+.animate-fade-up {
+  animation: fade-up 0.9s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+/* --- Numeric / mono helpers --- */
+
+.tab-num {
+  font-variant-numeric: tabular-nums;
+}
