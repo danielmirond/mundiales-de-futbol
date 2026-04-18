@@ -55,7 +55,8 @@ function ArchiveCard({ item, locale }: { item: MediaItem; locale: string }) {
 }
 
 export async function ArchiveVideos({ year, locale }: { year: number; locale: string }) {
-  const items = await getMediaForTournament(year);
+  const all = await getMediaForTournament(year);
+  const items = all.filter((m) => m.kind === 'video');
   if (items.length === 0) return null;
 
   return (

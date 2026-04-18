@@ -6,6 +6,7 @@ import { TOURNAMENTS, getTournament } from '@/lib/tournaments';
 import { routing, type Locale } from '@/i18n/routing';
 import { MatchesList } from '@/components/edition/matches-list';
 import { ArchiveVideos } from '@/components/edition/archive-videos';
+import { PressWall } from '@/components/edition/press-wall';
 
 export function generateStaticParams() {
   return TOURNAMENTS.flatMap((t) =>
@@ -147,6 +148,8 @@ export default async function EditionPage({
           </aside>
         </div>
       </section>
+
+      <PressWall year={t.year} locale={locale} />
 
       <ArchiveVideos year={t.year} locale={locale} />
 
