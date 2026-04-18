@@ -5,6 +5,7 @@ import { ArrowLeft, Trophy, Users, Activity, Target, CalendarDays } from 'lucide
 import { TOURNAMENTS, getTournament } from '@/lib/tournaments';
 import { routing, type Locale } from '@/i18n/routing';
 import { MatchesList } from '@/components/edition/matches-list';
+import { ArchiveVideos } from '@/components/edition/archive-videos';
 
 export function generateStaticParams() {
   return TOURNAMENTS.flatMap((t) =>
@@ -146,6 +147,8 @@ export default async function EditionPage({
           </aside>
         </div>
       </section>
+
+      <ArchiveVideos year={t.year} locale={locale} />
 
       <MatchesList year={t.year} slug={slug} locale={locale as Locale} />
     </div>
