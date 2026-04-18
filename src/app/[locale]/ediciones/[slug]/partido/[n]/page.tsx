@@ -11,6 +11,7 @@ import {
 import { STAGE_LABEL_ES } from '@/lib/data/matches';
 import { StartingXI } from '@/components/edition/starting-xi';
 import { MatchTimeline } from '@/components/edition/match-timeline';
+import { PitchFormation } from '@/components/edition/pitch-formation';
 import { routing, type Locale } from '@/i18n/routing';
 
 function withLocale(locale: Locale, href: string) {
@@ -145,15 +146,33 @@ export default async function MatchDetailPage({
         </section>
       )}
 
-      {/* Lineups */}
+      {/* Lineups on the pitch */}
       {(homeLineups.length > 0 || awayLineups.length > 0) && (
         <section className="mx-auto w-full max-w-[1400px] px-6 py-16 md:px-10 md:py-24">
           <div className="font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-pitch)]">
-            Plantillas
+            Alineaciones
           </div>
           <h2 className="mt-3 font-display text-fluid-h2 uppercase leading-none">
-            XI titular
+            XI sobre el campo
           </h2>
+          <p className="mt-4 max-w-2xl text-sm text-[var(--color-fg-muted)]">
+            Formación detectada automáticamente a partir de la posición de cada jugador.
+          </p>
+
+          <div className="mt-10">
+            <PitchFormation
+              homeStarters={homeLineups.filter((l) => l.starter)}
+              awayStarters={awayLineups.filter((l) => l.starter)}
+              homeName={match.home_team?.name_official ?? match.home_code}
+              awayName={match.away_team?.name_official ?? match.away_code}
+              homeFlag={match.home_team?.flag_emoji ?? null}
+              awayFlag={match.away_team?.flag_emoji ?? null}
+              paletteFrom={tournament.palette.from}
+              paletteTo={tournament.palette.to}
+            />
+          </div>
+
+          {/* Bench + substitutions kept as collapsed lists */}
           <div className="mt-10 grid gap-6 md:grid-cols-2">
             {homeLineups.length > 0 && (
               <StartingXI

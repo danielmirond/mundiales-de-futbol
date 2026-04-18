@@ -58,19 +58,22 @@ const CYCLE_SEC = HERO_IMAGES.length * 8; // seconds per full loop
 export function HeroImagery() {
   return (
     <div className="pointer-events-none absolute inset-0">
-      {HERO_IMAGES.map((img, i) => (
-        <div
-          key={img.src}
-          className="hero-slide"
-          aria-hidden
-          style={{
-            backgroundImage: `url(${img.src})`,
-            backgroundPosition: img.focus ?? 'center',
-            animationDuration: `${CYCLE_SEC}s`,
-            animationDelay: `${i * 8}s`,
-          }}
-        />
-      ))}
+      {HERO_IMAGES.map((img, i) => {
+        const negative = i % 2 === 1; // alternate: normal / negative
+        return (
+          <div
+            key={img.src}
+            className={`hero-slide ${negative ? 'hero-slide-negative' : ''}`}
+            aria-hidden
+            style={{
+              backgroundImage: `url(${img.src})`,
+              backgroundPosition: img.focus ?? 'center',
+              animationDuration: `${CYCLE_SEC}s`,
+              animationDelay: `${i * 8}s`,
+            }}
+          />
+        );
+      })}
       <style>{`
         .hero-slide {
           position: absolute;
@@ -83,6 +86,10 @@ export function HeroImagery() {
           animation-iteration-count: infinite;
           animation-timing-function: ease-in-out;
           will-change: opacity;
+        }
+        .hero-slide-negative {
+          filter: grayscale(100%) invert(1) contrast(1.35) brightness(0.42);
+          mix-blend-mode: screen;
         }
         @keyframes hero-slide-fade {
           0%, 100% { opacity: 0; }

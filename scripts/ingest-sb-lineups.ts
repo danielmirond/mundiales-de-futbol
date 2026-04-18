@@ -173,7 +173,10 @@ async function main() {
         }
 
         const positions = p.positions;
-        const starter = positions.length > 0 && positions[0].from === '00:00:00';
+        const starter =
+          positions.length > 0 &&
+          (positions[0].from === '00:00' || positions[0].from === '00:00:00') &&
+          !positions[0].start_reason?.includes('Substitution');
         let minutes = 0;
         let subOn: number | null = null;
         let subOff: number | null = null;
@@ -181,10 +184,20 @@ async function main() {
           const fromS = parseTime(pos.from);
           const toS = pos.to ? parseTime(pos.to) : fromS;
           minutes += Math.max(0, (toS - fromS) / 60);
-          if (pos.start_reason?.includes('On') && subOn === null) {
+          // Only flag as "Substitution - On/Off" (real subs), not "Player On/Off"
+          // (temporary off for injury/blood/equipment).
+          if (
+            pos.start_reason?.includes('Substitution') &&
+            pos.start_reason?.includes('On') &&
+            subOn === null
+          ) {
             subOn = Math.round(fromS / 60);
           }
-          if (pos.end_reason?.includes('Off') && subOff === null) {
+          if (
+            pos.end_reason?.includes('Substitution') &&
+            pos.end_reason?.includes('Off') &&
+            subOff === null
+          ) {
             subOff = Math.round(toS / 60);
           }
         }
