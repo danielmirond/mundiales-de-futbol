@@ -12,6 +12,7 @@ import { STAGE_LABEL_ES } from '@/lib/data/matches';
 import { StartingXI } from '@/components/edition/starting-xi';
 import { MatchTimeline } from '@/components/edition/match-timeline';
 import { PitchFormation } from '@/components/edition/pitch-formation';
+import { MatchPressWall } from '@/components/edition/press-wall';
 import { routing, type Locale } from '@/i18n/routing';
 
 function withLocale(locale: Locale, href: string) {
@@ -145,6 +146,9 @@ export default async function MatchDetailPage({
           </div>
         </section>
       )}
+
+      {/* Historical press coverage for this match */}
+      <MatchPressWall matchId={match.id} locale={locale} />
 
       {/* Lineups on the pitch */}
       {(homeLineups.length > 0 || awayLineups.length > 0) && (
