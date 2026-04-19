@@ -25,7 +25,7 @@ const CONTENT: Record<string, Content> = {
         p: [
           'No requerimos registro ni formularios. La mayoría del contenido se sirve sin saber nada de ti.',
           'Lo único que podemos recoger automáticamente son: dirección IP (solo en los registros técnicos del proveedor de hosting, durante un máximo de 30 días), tipo de navegador y página visitada (para detectar errores y prevenir abuso).',
-          'Si aceptas las cookies analíticas, almacenamos métricas agregadas y anónimas del uso (páginas vistas, tiempo en página, origen geográfico agrupado por país).',
+          'Si aceptas las cookies analíticas, activamos Vercel Analytics: un servicio first-party que no usa cookies ni identificadores persistentes. Mide páginas vistas, dispositivo, país agregado y referencia de entrada. Los datos son anónimos y agregados; no es posible identificarte individualmente.',
         ],
       },
       {
@@ -45,10 +45,13 @@ const CONTENT: Record<string, Content> = {
         ],
       },
       {
-        h: '5. Destinatarios',
+        h: '5. Destinatarios y transferencias internacionales',
         p: [
-          'Los datos técnicos pasan por Vercel (hosting en la UE y Estados Unidos) y Supabase (base de datos en la UE). Ambos están sujetos a cláusulas contractuales tipo y a los principios GDPR.',
-          'No compartimos datos con redes publicitarias, ni con terceros con fines comerciales.',
+          'Los datos técnicos y de analítica se procesan por los siguientes subencargados:',
+          '· Vercel Inc. (hosting + Vercel Analytics) — servidores en la UE y Estados Unidos. Transferencia amparada por las Cláusulas Contractuales Tipo (SCC) aprobadas por la Comisión Europea.',
+          '· Supabase Inc. (base de datos PostgreSQL) — región seleccionada en la UE.',
+          '· Wikimedia Commons — servidor de imágenes CC/dominio público; su carga se realiza directamente desde el navegador del usuario.',
+          'No compartimos datos con redes publicitarias ni con terceros con fines comerciales. No existe venta de datos.',
         ],
       },
       {
@@ -102,7 +105,7 @@ const CONTENT: Record<string, Content> = {
         p: [
           'No registration or forms required. Most of the content is served without knowing anything about you.',
           'The only data we collect automatically: IP address (kept for up to 30 days in the hosting provider logs), browser type and page visited (for error detection and abuse prevention).',
-          'If you accept analytics cookies, we store aggregated, anonymous usage metrics (page views, time on page, country-level origin).',
+          'If you accept analytics cookies, Vercel Analytics is enabled: a first-party service that does not use cookies or persistent identifiers. It measures page views, device, aggregated country and entry referrer. Data is anonymous and aggregated; you cannot be individually identified.',
         ],
       },
       {
@@ -122,10 +125,13 @@ const CONTENT: Record<string, Content> = {
         ],
       },
       {
-        h: '5. Recipients',
+        h: '5. Recipients and international transfers',
         p: [
-          'Technical data flows through Vercel (EU and US hosting) and Supabase (EU database). Both are bound by Standard Contractual Clauses and GDPR principles.',
-          'We do not share data with ad networks or third parties for commercial purposes.',
+          'Technical and analytics data are processed by the following sub-processors:',
+          '· Vercel Inc. (hosting + Vercel Analytics) — servers in the EU and United States. International transfer is covered by the Standard Contractual Clauses (SCC) approved by the European Commission.',
+          '· Supabase Inc. (PostgreSQL database) — EU region selected.',
+          '· Wikimedia Commons — image CDN for CC / public-domain assets; loaded directly by the user\'s browser.',
+          'We do not share data with ad networks or third parties for commercial purposes. We do not sell data.',
         ],
       },
       {

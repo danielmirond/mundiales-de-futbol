@@ -51,10 +51,11 @@ const CONTENT: Record<string, Content> = {
     ],
     analytics: [
       {
-        name: '(pendiente)',
-        purpose: 'No hay analítica activa hoy. Si la añadimos (p.ej. Plausible o Vercel Analytics) actualizaremos este listado y volveremos a pedir tu consentimiento.',
-        lifetime: '—',
-        owner: '—',
+        name: 'Vercel Analytics (sin cookies)',
+        purpose:
+          'Medir páginas vistas, país de origen agregado y dispositivo. Es first-party, no usa cookies ni identificadores persistentes y no rastrea entre sitios.',
+        lifetime: 'Sesión única (sin almacenamiento)',
+        owner: 'Vercel Inc. (subprocesador)',
       },
     ],
     marketing: 'No utilizamos cookies de marketing ni publicidad. No compartimos datos con anunciantes.',
@@ -91,10 +92,11 @@ const CONTENT: Record<string, Content> = {
     ],
     analytics: [
       {
-        name: '(pending)',
-        purpose: 'No analytics are active today. If we add any (e.g. Plausible or Vercel Analytics) we will update this list and re-request your consent.',
-        lifetime: '—',
-        owner: '—',
+        name: 'Vercel Analytics (cookieless)',
+        purpose:
+          'Measures page views, aggregated country of origin and device. First-party, no cookies or persistent identifiers, no cross-site tracking.',
+        lifetime: 'Single session (no storage)',
+        owner: 'Vercel Inc. (sub-processor)',
       },
     ],
     marketing: 'We do not use marketing or advertising cookies. We do not share data with advertisers.',

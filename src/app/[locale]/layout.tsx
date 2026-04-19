@@ -7,6 +7,7 @@ import { routing, localeMeta, type Locale } from '@/i18n/routing';
 import { SiteNav } from '@/components/nav/site-nav';
 import { SiteFooter } from '@/components/nav/site-footer';
 import { CookieBanner } from '@/components/shared/cookie-banner';
+import { GatedAnalytics } from '@/components/shared/gated-analytics';
 import '../globals.css';
 
 const geistSans = Geist({ subsets: ['latin'], variable: '--font-geist-sans' });
@@ -78,6 +79,7 @@ export default async function LocaleLayout({
             <SiteFooter />
           </div>
           <CookieBanner />
+          <GatedAnalytics />
         </NextIntlClientProvider>
       </body>
     </html>

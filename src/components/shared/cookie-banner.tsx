@@ -30,6 +30,8 @@ function readConsent(): Consent | null {
 function writeConsent(c: Consent) {
   const value = encodeURIComponent(JSON.stringify(c));
   document.cookie = `${COOKIE_NAME}=${value}; path=/; max-age=${COOKIE_MAX_AGE}; samesite=lax`;
+  // Notify listeners (e.g. GatedAnalytics) so they can mount/unmount trackers.
+  window.dispatchEvent(new CustomEvent('mdf:consent-change', { detail: c }));
 }
 
 function withLocale(locale: Locale, href: string) {
