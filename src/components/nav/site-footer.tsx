@@ -43,6 +43,12 @@ export async function SiteFooter() {
           <span className="tab-num">© {new Date().getFullYear()} mundiales-de-futbol.com</span>
           <nav className="flex items-center gap-5 text-[11px] font-mono uppercase tracking-widest">
             <Link
+              href={withLocale(locale, '/contacto')}
+              className="transition-colors hover:text-[var(--color-fg)]"
+            >
+              {t('contact')}
+            </Link>
+            <Link
               href={withLocale(locale, '/privacidad')}
               className="transition-colors hover:text-[var(--color-fg)]"
             >

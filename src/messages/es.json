@@ -69,7 +69,28 @@
     "credits": "Hecho con datos abiertos de FIFA, Wikipedia, StatsBomb y colaboradores. Imágenes cortesía de Wikimedia Commons.",
     "legal": "Legal",
     "privacy": "Privacidad",
-    "cookies": "Cookies"
+    "cookies": "Cookies",
+    "contact": "Contacto"
+  },
+  "contact": {
+    "kicker": "Contacto",
+    "title": "Escríbenos",
+    "intro": "¿Tienes una corrección, un dato nuevo, quieres colaborar o ejercer tus derechos de protección de datos? Este formulario llega directo a nuestra bandeja.",
+    "form": {
+      "nameLabel": "Nombre",
+      "emailLabel": "Email",
+      "subjectLabel": "Asunto",
+      "messageLabel": "Mensaje",
+      "submit": "Enviar",
+      "sending": "Enviando…",
+      "consent": "He leído y acepto la",
+      "privacyLink": "política de privacidad",
+      "successTitle": "Recibido. Gracias.",
+      "successBody": "Tu mensaje llegó a nuestra bandeja. Te contestaremos en los próximos días.",
+      "errorRateLimit": "Demasiados envíos desde tu IP. Inténtalo de nuevo más tarde.",
+      "errorValidation": "Revisa los campos obligatorios.",
+      "errorGeneric": "Algo falló. Vuelve a intentarlo en unos minutos."
+    }
   },
   "cookies": {
     "title": "Esta web usa cookies",
