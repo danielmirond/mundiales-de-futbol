@@ -142,7 +142,12 @@ export default async function MatchDetailPage({
             {events.length} eventos
           </h2>
           <div className="mt-10">
-            <MatchTimeline events={events} homeCode={match.home_code} awayCode={match.away_code} />
+            <MatchTimeline
+              events={events}
+              homeCode={match.home_code}
+              awayCode={match.away_code}
+              locale={locale as Locale}
+            />
           </div>
         </section>
       )}
@@ -183,6 +188,7 @@ export default async function MatchDetailPage({
                 players={homeLineups}
                 teamName={match.home_team?.name_official ?? match.home_code}
                 flag={match.home_team?.flag_emoji ?? null}
+                locale={locale as Locale}
               />
             )}
             {awayLineups.length > 0 && (
@@ -190,6 +196,7 @@ export default async function MatchDetailPage({
                 players={awayLineups}
                 teamName={match.away_team?.name_official ?? match.away_code}
                 flag={match.away_team?.flag_emoji ?? null}
+                locale={locale as Locale}
               />
             )}
           </div>

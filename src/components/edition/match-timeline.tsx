@@ -1,5 +1,33 @@
+import Link from 'next/link';
 import { cn } from '@/lib/utils';
 import { displayName, type TimelineEvent } from '@/lib/data/match-detail';
+import { routing, type Locale } from '@/i18n/routing';
+
+function withLocale(locale: Locale, href: string) {
+  if (locale === routing.defaultLocale) return href;
+  return `/${locale}${href === '/' ? '' : href}`;
+}
+
+function PlayerLink({
+  player,
+  locale,
+  className,
+}: {
+  player: TimelineEvent['player'];
+  locale: Locale;
+  className?: string;
+}) {
+  const name = displayName(player);
+  if (!player?.slug) return <span className={className}>{name}</span>;
+  return (
+    <Link
+      href={withLocale(locale, `/jugadores/${player.slug}`)}
+      className={cn(className, 'transition-colors hover:text-[var(--color-pitch)]')}
+    >
+      {name}
+    </Link>
+  );
+}
 
 function Icon({ type }: { type: string }) {
   if (type === 'goal' || type === 'penalty_goal' || type === 'own_goal') {
@@ -36,10 +64,12 @@ export function MatchTimeline({
   events,
   homeCode,
   awayCode,
+  locale = 'es' as Locale,
 }: {
   events: TimelineEvent[];
   homeCode: string;
   awayCode: string;
+  locale?: Locale;
 }) {
   if (events.length === 0) return null;
 
@@ -66,12 +96,12 @@ export function MatchTimeline({
                       isGoal ? 'font-semibold text-[var(--color-fg)]' : 'text-[var(--color-fg-muted)]',
                     )}
                   >
-                    {displayName(e.player)}
+                    <PlayerLink player={e.player} locale={locale} />
                   </div>
                   {e.secondary_player && (
                     <div className="text-xs text-[var(--color-fg-subtle)]">
                       {e.event_type === 'sub' ? '↑ ' : 'asist · '}
-                      {displayName(e.secondary_player)}
+                      <PlayerLink player={e.secondary_player} locale={locale} />
                     </div>
                   )}
                   <div className="mt-1 font-mono text-[10px] uppercase tracking-widest text-[var(--color-fg-subtle)]">

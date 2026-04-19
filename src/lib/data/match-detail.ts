@@ -38,8 +38,8 @@ export type TimelineEvent = {
   event_type: string;
   team_code: string | null;
   detail: string | null;
-  player: { full_name: string; known_as: string | null } | null;
-  secondary_player: { full_name: string; known_as: string | null } | null;
+  player: { full_name: string; known_as: string | null; slug: string } | null;
+  secondary_player: { full_name: string; known_as: string | null; slug: string } | null;
 };
 
 export async function getMatchByNumber(
@@ -93,8 +93,8 @@ export async function getEventsForMatch(matchId: string): Promise<TimelineEvent[
       .from('match_events')
       .select(
         `id, minute, period, event_type, team_code, detail,
-         player:players!match_events_player_id_fkey(full_name, known_as),
-         secondary_player:players!match_events_secondary_player_id_fkey(full_name, known_as)`,
+         player:players!match_events_player_id_fkey(full_name, known_as, slug),
+         secondary_player:players!match_events_secondary_player_id_fkey(full_name, known_as, slug)`,
       )
       .eq('match_id', matchId)
       .order('minute', { ascending: true });

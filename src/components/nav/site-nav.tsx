@@ -32,7 +32,6 @@ export function SiteNav() {
     { href: '/jugadores', label: t('players') },
     { href: '/estadios', label: t('stadiums') },
     { href: '/comparador', label: t('compare') },
-    { href: '/quiz', label: t('quiz') },
   ];
 
   return (
