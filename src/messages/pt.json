@@ -66,6 +66,31 @@
   "footer": {
     "tagline": "Uma biblioteca viva da Copa do Mundo.",
     "language": "Idioma",
-    "credits": "Feito com dados abertos da FIFA, Wikipedia, StatsBomb e colaboradores."
+    "credits": "Feito com dados abertos da FIFA, Wikipedia, StatsBomb e colaboradores. Imagens via Wikimedia Commons.",
+    "legal": "Legal",
+    "privacy": "Privacidade",
+    "cookies": "Cookies"
+  },
+  "cookies": {
+    "title": "Este site usa cookies",
+    "intro": "Usamos cookies necessários para o funcionamento do site e, com o seu consentimento, cookies analíticos para medir o uso. Nenhum é compartilhado com anunciantes.",
+    "acceptAll": "Aceitar todos",
+    "rejectAll": "Rejeitar",
+    "configure": "Configurar",
+    "saveChoices": "Salvar escolhas",
+    "cookiesPolicyLink": "Política de cookies",
+    "privacyPolicyLink": "Privacidade",
+    "necessary": {
+      "title": "Necessários",
+      "desc": "Indispensáveis para o funcionamento do site. Não podem ser desativados."
+    },
+    "analytics": {
+      "title": "Analíticos",
+      "desc": "Nos ajudam a entender o que interessa. Anónimo e agregado."
+    },
+    "marketing": {
+      "title": "Marketing",
+      "desc": "Não usamos cookies de marketing atualmente."
+    }
   }
 }

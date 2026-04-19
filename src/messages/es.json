@@ -66,6 +66,31 @@
   "footer": {
     "tagline": "Una biblioteca viva del Mundial de Fútbol.",
     "language": "Idioma",
-    "credits": "Hecho con datos abiertos de FIFA, Wikipedia, StatsBomb y colaboradores. Imágenes cortesía de Wikimedia Commons."
+    "credits": "Hecho con datos abiertos de FIFA, Wikipedia, StatsBomb y colaboradores. Imágenes cortesía de Wikimedia Commons.",
+    "legal": "Legal",
+    "privacy": "Privacidad",
+    "cookies": "Cookies"
+  },
+  "cookies": {
+    "title": "Esta web usa cookies",
+    "intro": "Usamos cookies necesarias para el funcionamiento del sitio y, si las aceptas, cookies analíticas para medir su uso. Ninguna se comparte con anunciantes.",
+    "acceptAll": "Aceptar todas",
+    "rejectAll": "Rechazar",
+    "configure": "Configurar",
+    "saveChoices": "Guardar selección",
+    "cookiesPolicyLink": "Política de cookies",
+    "privacyPolicyLink": "Privacidad",
+    "necessary": {
+      "title": "Necesarias",
+      "desc": "Imprescindibles para que la web funcione. No se pueden desactivar."
+    },
+    "analytics": {
+      "title": "Analíticas",
+      "desc": "Nos ayudan a entender qué páginas interesan. Anónimo, agregado."
+    },
+    "marketing": {
+      "title": "Marketing",
+      "desc": "No usamos cookies de marketing a día de hoy."
+    }
   }
 }

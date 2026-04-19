@@ -6,6 +6,7 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { routing, localeMeta, type Locale } from '@/i18n/routing';
 import { SiteNav } from '@/components/nav/site-nav';
 import { SiteFooter } from '@/components/nav/site-footer';
+import { CookieBanner } from '@/components/shared/cookie-banner';
 import '../globals.css';
 
 const geistSans = Geist({ subsets: ['latin'], variable: '--font-geist-sans' });
@@ -76,6 +77,7 @@ export default async function LocaleLayout({
             <main className="flex-1">{children}</main>
             <SiteFooter />
           </div>
+          <CookieBanner />
         </NextIntlClientProvider>
       </body>
     </html>

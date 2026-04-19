@@ -66,6 +66,31 @@
   "footer": {
     "tagline": "A living library of the FIFA World Cup.",
     "language": "Language",
-    "credits": "Built on open data from FIFA, Wikipedia, StatsBomb and contributors. Imagery via Wikimedia Commons."
+    "credits": "Built on open data from FIFA, Wikipedia, StatsBomb and contributors. Imagery via Wikimedia Commons.",
+    "legal": "Legal",
+    "privacy": "Privacy",
+    "cookies": "Cookies"
+  },
+  "cookies": {
+    "title": "This site uses cookies",
+    "intro": "We use strictly necessary cookies for the site to work and, if you agree, analytics cookies to measure usage. None are shared with advertisers.",
+    "acceptAll": "Accept all",
+    "rejectAll": "Reject",
+    "configure": "Configure",
+    "saveChoices": "Save choices",
+    "cookiesPolicyLink": "Cookies policy",
+    "privacyPolicyLink": "Privacy",
+    "necessary": {
+      "title": "Necessary",
+      "desc": "Essential for the site to work. Cannot be turned off."
+    },
+    "analytics": {
+      "title": "Analytics",
+      "desc": "Help us understand which pages matter. Anonymous and aggregated."
+    },
+    "marketing": {
+      "title": "Marketing",
+      "desc": "We don't use any marketing cookies today."
+    }
   }
 }

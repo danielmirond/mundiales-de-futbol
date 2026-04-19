@@ -1,8 +1,16 @@
-import { getTranslations } from 'next-intl/server';
+import Link from 'next/link';
+import { getLocale, getTranslations } from 'next-intl/server';
 import { TimelineMark } from '@/components/brand/timeline';
+import { routing, type Locale } from '@/i18n/routing';
+
+function withLocale(locale: Locale, href: string) {
+  if (locale === routing.defaultLocale) return href;
+  return `/${locale}${href === '/' ? '' : href}`;
+}
 
 export async function SiteFooter() {
   const t = await getTranslations('footer');
+  const locale = (await getLocale()) as Locale;
   return (
     <footer className="relative mt-24 border-t border-[var(--color-border)] bg-[var(--color-bg-2)]">
       <div className="mx-auto grid w-full max-w-[1400px] gap-10 px-6 py-16 md:grid-cols-[2fr_1fr_1fr] md:px-10">
@@ -31,9 +39,23 @@ export async function SiteFooter() {
         </div>
       </div>
       <div className="border-t border-[var(--color-border)]">
-        <div className="mx-auto flex w-full max-w-[1400px] items-center justify-between px-6 py-6 text-xs text-[var(--color-fg-subtle)] md:px-10">
+        <div className="mx-auto flex w-full max-w-[1400px] flex-col items-start gap-4 px-6 py-6 text-xs text-[var(--color-fg-subtle)] md:flex-row md:items-center md:justify-between md:px-10">
           <span className="tab-num">© {new Date().getFullYear()} mundiales-de-futbol.com</span>
-          <span className="font-mono uppercase tracking-widest">v0.1 · alpha</span>
+          <nav className="flex items-center gap-5 text-[11px] font-mono uppercase tracking-widest">
+            <Link
+              href={withLocale(locale, '/privacidad')}
+              className="transition-colors hover:text-[var(--color-fg)]"
+            >
+              {t('privacy')}
+            </Link>
+            <Link
+              href={withLocale(locale, '/cookies')}
+              className="transition-colors hover:text-[var(--color-fg)]"
+            >
+              {t('cookies')}
+            </Link>
+            <span className="font-mono uppercase tracking-widest">v0.1 · alpha</span>
+          </nav>
         </div>
       </div>
     </footer>
