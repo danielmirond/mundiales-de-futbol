@@ -13,6 +13,7 @@ import { StartingXI } from '@/components/edition/starting-xi';
 import { MatchTimeline } from '@/components/edition/match-timeline';
 import { PitchFormation } from '@/components/edition/pitch-formation';
 import { MatchPressWall } from '@/components/edition/press-wall';
+import { ShotMap } from '@/components/edition/shot-map';
 import { routing, type Locale } from '@/i18n/routing';
 
 function withLocale(locale: Locale, href: string) {
@@ -151,6 +152,9 @@ export default async function MatchDetailPage({
           </div>
         </section>
       )}
+
+      {/* Shot map (xG visualisation) */}
+      <ShotMap matchId={match.id} homeCode={match.home_code} awayCode={match.away_code} />
 
       {/* Historical press coverage for this match */}
       <MatchPressWall matchId={match.id} locale={locale} />
