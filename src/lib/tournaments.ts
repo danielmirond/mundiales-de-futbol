@@ -15,6 +15,7 @@ export type Tournament = {
   topScorer?: { name: string; goals: number; team: string };
   palette: { from: string; to: string };
   tagline: string;
+  summary?: string;
 };
 
 export const TOURNAMENTS: Tournament[] = [

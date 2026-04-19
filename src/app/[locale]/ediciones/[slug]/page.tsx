@@ -7,6 +7,7 @@ import { routing, type Locale } from '@/i18n/routing';
 import { MatchesList } from '@/components/edition/matches-list';
 import { ArchiveVideos } from '@/components/edition/archive-videos';
 import { PressWall } from '@/components/edition/press-wall';
+import { EditionTimeline } from '@/components/edition/edition-timeline';
 
 export function generateStaticParams() {
   return TOURNAMENTS.flatMap((t) =>
@@ -72,11 +73,18 @@ export default async function EditionPage({
           <p className="mt-6 max-w-2xl text-xl leading-relaxed text-[var(--color-fg-muted)] md:text-2xl">
             {t.tagline}
           </p>
+          {t.summary && (
+            <p className="mt-3 max-w-2xl text-base italic leading-relaxed text-[var(--color-fg-subtle)]">
+              {t.summary}
+            </p>
+          )}
         </div>
       </section>
 
+      <EditionTimeline currentYear={t.year} locale={locale as Locale} />
+
       {/* Stats */}
-      <section className="mx-auto w-full max-w-[1400px] px-6 md:px-10">
+      <section className="mx-auto w-full max-w-[1400px] px-6 py-10 md:px-10">
         <div className="grid gap-px overflow-hidden rounded-3xl border border-[var(--color-border)] bg-[var(--color-border)] sm:grid-cols-2 lg:grid-cols-4">
           {[
             { Icon: Trophy, label: 'Campeón', value: upcoming ? '—' : t.champion },

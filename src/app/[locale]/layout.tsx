@@ -73,6 +73,7 @@ export default async function LocaleLayout({
     >
       <body className="bg-[var(--color-bg)] text-[var(--color-fg)] antialiased">
         <NextIntlClientProvider>
+          <div aria-hidden className="vignette-fixed" />
           <div className="relative flex min-h-screen flex-col">
             <SiteNav />
             <main className="flex-1">{children}</main>

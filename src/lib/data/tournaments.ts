@@ -19,6 +19,7 @@ export type TournamentRow = {
   palette_from: string | null;
   palette_to: string | null;
   tagline_i18n: Record<string, string> | null;
+  summary_i18n: Record<string, string> | null;
 };
 
 // Lookup by champion_code → localized display name (until we read from `teams`).
@@ -35,6 +36,10 @@ function rowToTournament(row: TournamentRow, locale: string): Tournament {
     row.tagline_i18n?.[locale] ??
     row.tagline_i18n?.es ??
     '';
+  const summary =
+    row.summary_i18n?.[locale] ??
+    row.summary_i18n?.es ??
+    undefined;
   return {
     year: row.year,
     slug: row.slug,
@@ -58,6 +63,7 @@ function rowToTournament(row: TournamentRow, locale: string): Tournament {
       to: row.palette_to ?? '#444',
     },
     tagline,
+    summary,
   };
 }
 
@@ -71,7 +77,7 @@ export async function getAllTournaments(locale = 'es'): Promise<Tournament[]> {
     const { data, error } = await supabase
       .from('tournaments')
       .select(
-        'year,slug,host_country,host_countries,champion_code,teams,matches_played,goals,attendance,start_date,end_date,top_scorer_name,top_scorer_goals,top_scorer_team,palette_from,palette_to,tagline_i18n',
+        'year,slug,host_country,host_countries,champion_code,teams,matches_played,goals,attendance,start_date,end_date,top_scorer_name,top_scorer_goals,top_scorer_team,palette_from,palette_to,tagline_i18n,summary_i18n',
       )
       .order('year', { ascending: true });
 
@@ -90,7 +96,7 @@ export async function getTournamentBySlug(slug: string, locale = 'es'): Promise<
     const { data, error } = await supabase
       .from('tournaments')
       .select(
-        'year,slug,host_country,host_countries,champion_code,teams,matches_played,goals,attendance,start_date,end_date,top_scorer_name,top_scorer_goals,top_scorer_team,palette_from,palette_to,tagline_i18n',
+        'year,slug,host_country,host_countries,champion_code,teams,matches_played,goals,attendance,start_date,end_date,top_scorer_name,top_scorer_goals,top_scorer_team,palette_from,palette_to,tagline_i18n,summary_i18n',
       )
       .eq('slug', slug)
       .maybeSingle();

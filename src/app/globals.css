@@ -10,10 +10,10 @@
   --color-fg-muted: #9ea3ad;
   --color-fg-subtle: #6b6f78;
 
-  --color-pitch: #00ff85;
-  --color-pitch-deep: #00c266;
-  --color-flame: #ff3b3b;
-  --color-sun: #ffd400;
+  --color-pitch: oklch(0.88 0.24 150);
+  --color-pitch-deep: oklch(0.72 0.22 150);
+  --color-flame: oklch(0.68 0.22 25);
+  --color-sun: oklch(0.88 0.18 92);
 
   --font-display: var(--font-bebas), "BebasNeue", "Impact", system-ui, sans-serif;
   --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
@@ -85,9 +85,24 @@ body {
 
 .grid-overlay {
   background-image:
-    linear-gradient(to right, rgba(255, 255, 255, 0.035) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
+    linear-gradient(to right, rgba(255, 255, 255, 0.045) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.045) 1px, transparent 1px);
   background-size: 64px 64px;
+  -webkit-mask-image: radial-gradient(ellipse at 50% 35%, #000 40%, transparent 100%);
+  mask-image: radial-gradient(ellipse at 50% 35%, #000 40%, transparent 100%);
+}
+
+/* Fixed page-wide vignette — sits above content but is pointer-none */
+.vignette-fixed {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1;
+  background:
+    radial-gradient(ellipse at 30% 0%, rgba(0, 255, 133, 0.06), transparent 55%),
+    radial-gradient(ellipse at 100% 100%, rgba(255, 59, 59, 0.05), transparent 55%),
+    radial-gradient(ellipse at 50% 50%, transparent 55%, rgba(0, 0, 0, 0.55) 100%);
+  mix-blend-mode: normal;
 }
 
 .noise {
