@@ -86,12 +86,15 @@ export default async function MatchDetailPage({
           </div>
 
           <div className="mt-6 flex flex-wrap items-center justify-center gap-6 md:gap-10">
-            <div className="flex flex-1 items-center justify-end gap-4 min-w-0">
+            <Link
+              href={withLocale(locale as Locale, `/selecciones/${match.home_code}`)}
+              className="flex flex-1 items-center justify-end gap-4 min-w-0 transition-colors hover:text-[var(--color-pitch)]"
+            >
               <span className="truncate font-display text-4xl uppercase leading-none text-[var(--color-fg)] md:text-6xl">
                 {match.home_team?.name_official ?? match.home_code}
               </span>
               <span className="text-5xl md:text-6xl">{match.home_team?.flag_emoji ?? '🏳️'}</span>
-            </div>
+            </Link>
             <div className="flex items-center gap-3 font-display text-6xl tab-num text-[var(--color-fg)] md:text-8xl">
               <span className={match.winner_code === match.home_code ? '' : 'opacity-60'}>
                 {match.home_score ?? '—'}
@@ -101,12 +104,15 @@ export default async function MatchDetailPage({
                 {match.away_score ?? '—'}
               </span>
             </div>
-            <div className="flex flex-1 items-center justify-start gap-4 min-w-0">
+            <Link
+              href={withLocale(locale as Locale, `/selecciones/${match.away_code}`)}
+              className="flex flex-1 items-center justify-start gap-4 min-w-0 transition-colors hover:text-[var(--color-pitch)]"
+            >
               <span className="text-5xl md:text-6xl">{match.away_team?.flag_emoji ?? '🏳️'}</span>
               <span className="truncate font-display text-4xl uppercase leading-none text-[var(--color-fg)] md:text-6xl">
                 {match.away_team?.name_official ?? match.away_code}
               </span>
-            </div>
+            </Link>
           </div>
 
           {match.home_score_pk !== null && match.away_score_pk !== null && (

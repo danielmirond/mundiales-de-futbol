@@ -29,9 +29,8 @@ export function SiteNav() {
 
   const links = [
     { href: '/ediciones', label: t('editions') },
+    { href: '/selecciones', label: t('selections') },
     { href: '/jugadores', label: t('players') },
-    { href: '/estadios', label: t('stadiums') },
-    { href: '/comparador', label: t('compare') },
   ];
 
   return (
