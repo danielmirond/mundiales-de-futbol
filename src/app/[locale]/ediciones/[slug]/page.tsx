@@ -17,6 +17,48 @@ export function generateStaticParams() {
   );
 }
 
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string; slug: string }>;
+}) {
+  const { locale, slug } = await params;
+  const t = await getTournamentBySlug(slug, locale);
+  if (!t) return {};
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://mundiales-de-futbol.com';
+  const title = `${t.year} · ${t.host} · Mundial de Fútbol`;
+  const description = t.summary
+    ? `${t.tagline}. ${t.summary}`
+    : t.tagline;
+  const url =
+    locale === routing.defaultLocale
+      ? `${siteUrl}/ediciones/${t.slug}`
+      : `${siteUrl}/${locale}/ediciones/${t.slug}`;
+  return {
+    title,
+    description,
+    alternates: {
+      canonical: url,
+      languages: Object.fromEntries(
+        routing.locales.map((l) => [
+          l,
+          l === routing.defaultLocale
+            ? `${siteUrl}/ediciones/${t.slug}`
+            : `${siteUrl}/${l}/ediciones/${t.slug}`,
+        ]),
+      ),
+    },
+    openGraph: {
+      type: 'article',
+      title,
+      description,
+      url,
+      images: t.heroImageUrl ? [{ url: t.heroImageUrl }] : undefined,
+    },
+    twitter: { card: 'summary_large_image', title, description },
+  };
+}
+
 function withLocale(locale: Locale, href: string) {
   if (locale === routing.defaultLocale) return href;
   return `/${locale}${href === '/' ? '' : href}`;

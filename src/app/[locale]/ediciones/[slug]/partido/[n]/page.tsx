@@ -14,6 +14,7 @@ import { MatchTimeline } from '@/components/edition/match-timeline';
 import { PitchFormation } from '@/components/edition/pitch-formation';
 import { MatchPressWall } from '@/components/edition/press-wall';
 import { ShotMap } from '@/components/edition/shot-map';
+import { JsonLd } from '@/lib/seo';
 import { routing, type Locale } from '@/i18n/routing';
 
 function withLocale(locale: Locale, href: string) {
@@ -58,8 +59,26 @@ export default async function MatchDetailPage({
   const homeLineups = lineups.filter((l) => l.team_code === match.home_code);
   const awayLineups = lineups.filter((l) => l.team_code === match.away_code);
 
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://mundiales-de-futbol.com';
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'SportsEvent',
+    name: `${match.home_team?.name_official ?? match.home_code} vs ${match.away_team?.name_official ?? match.away_code}`,
+    startDate: match.match_date,
+    sport: 'Football',
+    location: match.venue?.name
+      ? { '@type': 'Place', name: match.venue.name, address: match.venue.city ?? undefined }
+      : undefined,
+    homeTeam: { '@type': 'SportsTeam', name: match.home_team?.name_official ?? match.home_code },
+    awayTeam: { '@type': 'SportsTeam', name: match.away_team?.name_official ?? match.away_code },
+    url: `${siteUrl}/ediciones/${tournament.slug}/partido/${match.match_number}`,
+    description: `${tournament.year} FIFA World Cup ${match.stage ?? 'group'}: ${match.home_code} ${match.home_score}-${match.away_score} ${match.away_code}`,
+  };
+
   return (
     <div>
+      <JsonLd data={jsonLd} />
+
       {/* Hero */}
       <section className="relative overflow-hidden pb-16 pt-28 md:pt-36">
         <div className="pointer-events-none absolute inset-0">

@@ -10,6 +10,7 @@ import {
 } from '@/lib/data/players';
 import { getTournament } from '@/lib/tournaments';
 import { routing, type Locale } from '@/i18n/routing';
+import { JsonLd } from '@/lib/seo';
 import { STAGE_LABEL_ES } from '@/lib/data/matches';
 
 function withLocale(locale: Locale, href: string) {
@@ -35,6 +36,47 @@ function age(birth: string | null, death: string | null) {
   const end = death ? new Date(death) : new Date();
   const years = Math.floor((end.getTime() - b.getTime()) / (365.25 * 86400000));
   return years;
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string; slug: string }>;
+}) {
+  const { locale, slug } = await params;
+  const player = await getPlayerBySlug(slug);
+  if (!player) return {};
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://mundiales-de-futbol.com';
+  const name = displayPlayerName(player);
+  const title = `${name} · Mundial de Fútbol`;
+  const description = `${name}, ${player.nationality_code}, ${player.position ?? 'jugador'}. ${player.wc_count} Mundiales, ${player.goals} goles, ${player.total_minutes} minutos.`;
+  const url =
+    locale === routing.defaultLocale
+      ? `${siteUrl}/jugadores/${player.slug}`
+      : `${siteUrl}/${locale}/jugadores/${player.slug}`;
+  return {
+    title,
+    description,
+    alternates: {
+      canonical: url,
+      languages: Object.fromEntries(
+        routing.locales.map((l) => [
+          l,
+          l === routing.defaultLocale
+            ? `${siteUrl}/jugadores/${player.slug}`
+            : `${siteUrl}/${l}/jugadores/${player.slug}`,
+        ]),
+      ),
+    },
+    openGraph: {
+      type: 'profile',
+      title,
+      description,
+      url,
+      images: player.photo_url ? [{ url: player.photo_url }] : undefined,
+    },
+    twitter: { card: 'summary_large_image', title, description },
+  };
 }
 
 export default async function PlayerDetailPage({
@@ -76,8 +118,24 @@ export default async function PlayerDetailPage({
   const featuredTournament = byYear[0] ? getTournament(byYear[0].year) : null;
   const palette = featuredTournament?.palette ?? { from: '#00FF85', to: '#00C266' };
 
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://mundiales-de-futbol.com';
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Person',
+    name: displayPlayerName(player),
+    alternateName: player.full_name !== displayPlayerName(player) ? player.full_name : undefined,
+    jobTitle: player.position === 'GK' ? 'Goalkeeper' : 'Football player',
+    nationality: player.nationality_code,
+    birthDate: player.birth_date,
+    deathDate: player.death_date,
+    image: player.photo_url,
+    url: `${siteUrl}/jugadores/${player.slug}`,
+    description: `${player.wc_count} FIFA World Cups. ${player.goals} goals in ${career.length} matches.`,
+  };
+
   return (
     <div>
+      <JsonLd data={jsonLd} />
       {/* Hero */}
       <section className="relative overflow-hidden pb-16 pt-28 md:pt-36">
         <div className="pointer-events-none absolute inset-0">

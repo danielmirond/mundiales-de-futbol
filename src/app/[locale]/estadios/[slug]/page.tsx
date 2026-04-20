@@ -7,6 +7,7 @@ import { getVenueBySlug, getVenueMatches } from '@/lib/data/venues';
 import { getTournament } from '@/lib/tournaments';
 import { STAGE_LABEL_ES } from '@/lib/data/matches';
 import { routing, type Locale } from '@/i18n/routing';
+import { JsonLd } from '@/lib/seo';
 
 function withLocale(locale: Locale, href: string) {
   if (locale === routing.defaultLocale) return href;
@@ -23,6 +24,47 @@ function fmtDate(iso: string) {
   } catch {
     return iso;
   }
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string; slug: string }>;
+}) {
+  const { locale, slug } = await params;
+  const venue = await getVenueBySlug(slug);
+  if (!venue) return {};
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://mundiales-de-futbol.com';
+  const name = venue.name.trim();
+  const title = `${name} · Mundial de Fútbol`;
+  const description = `${name}${venue.city ? ` en ${venue.city.trim()}` : ''}, sede de partidos del Mundial.`;
+  const url =
+    locale === routing.defaultLocale
+      ? `${siteUrl}/estadios/${venue.slug}`
+      : `${siteUrl}/${locale}/estadios/${venue.slug}`;
+  return {
+    title,
+    description,
+    alternates: {
+      canonical: url,
+      languages: Object.fromEntries(
+        routing.locales.map((l) => [
+          l,
+          l === routing.defaultLocale
+            ? `${siteUrl}/estadios/${venue.slug}`
+            : `${siteUrl}/${l}/estadios/${venue.slug}`,
+        ]),
+      ),
+    },
+    openGraph: {
+      type: 'website',
+      title,
+      description,
+      url,
+      images: venue.hero_image_url ? [{ url: venue.hero_image_url }] : undefined,
+    },
+    twitter: { card: 'summary_large_image', title, description },
+  };
 }
 
 export default async function StadiumDetailPage({
@@ -42,8 +84,24 @@ export default async function StadiumDetailPage({
   const totalAttendance = matches.reduce((s, m) => s + (m.attendance ?? 0), 0);
   const years = [...new Set(matches.map((m) => m.tournament_year))].sort();
 
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://mundiales-de-futbol.com';
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'StadiumOrArena',
+    name: venue.name.trim(),
+    address: venue.city
+      ? { '@type': 'PostalAddress', addressLocality: venue.city.trim(), addressCountry: venue.country_code ?? undefined }
+      : undefined,
+    geo: venue.latitude && venue.longitude
+      ? { '@type': 'GeoCoordinates', latitude: venue.latitude, longitude: venue.longitude }
+      : undefined,
+    url: `${siteUrl}/estadios/${venue.slug}`,
+    image: venue.hero_image_url,
+  };
+
   return (
     <div>
+      <JsonLd data={jsonLd} />
       {/* Hero with full-bleed photo */}
       <section className="relative flex min-h-[60svh] items-end overflow-hidden pt-24">
         {venue.hero_image_url ? (

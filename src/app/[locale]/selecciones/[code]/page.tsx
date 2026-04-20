@@ -6,6 +6,7 @@ import { getTeamByCode, getTeamMatches, getTeamTopScorers, teamDisplayName } fro
 import { getTournament, TOURNAMENTS } from '@/lib/tournaments';
 import { STAGE_LABEL_ES } from '@/lib/data/matches';
 import { routing, type Locale } from '@/i18n/routing';
+import { JsonLd } from '@/lib/seo';
 
 function withLocale(locale: Locale, href: string) {
   if (locale === routing.defaultLocale) return href;
@@ -22,6 +23,41 @@ function fmtDate(iso: string) {
   } catch {
     return iso;
   }
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string; code: string }>;
+}) {
+  const { locale, code } = await params;
+  const team = await getTeamByCode(code);
+  if (!team) return {};
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://mundiales-de-futbol.com';
+  const name = teamDisplayName(team);
+  const title = `${name} en los Mundiales · ${team.titles} título${team.titles === 1 ? '' : 's'}`;
+  const description = `${name} ha disputado ${team.wc_count} Mundiales con ${team.matches_played} partidos y un récord de ${team.wins}-${team.draws}-${team.losses}.`;
+  const url =
+    locale === routing.defaultLocale
+      ? `${siteUrl}/selecciones/${team.code}`
+      : `${siteUrl}/${locale}/selecciones/${team.code}`;
+  return {
+    title,
+    description,
+    alternates: {
+      canonical: url,
+      languages: Object.fromEntries(
+        routing.locales.map((l) => [
+          l,
+          l === routing.defaultLocale
+            ? `${siteUrl}/selecciones/${team.code}`
+            : `${siteUrl}/${l}/selecciones/${team.code}`,
+        ]),
+      ),
+    },
+    openGraph: { type: 'website', title, description, url },
+    twitter: { card: 'summary_large_image', title, description },
+  };
 }
 
 export default async function SelectionDetailPage({
@@ -65,8 +101,23 @@ export default async function SelectionDetailPage({
   const accentFrom = '#00FF85';
   const accentTo = '#FFD400';
 
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://mundiales-de-futbol.com';
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'SportsTeam',
+    name: teamDisplayName(team),
+    alternateName: team.name_official,
+    sport: 'Football',
+    url: `${siteUrl}/selecciones/${team.code}`,
+    memberOf: team.confederation
+      ? { '@type': 'SportsOrganization', name: team.confederation }
+      : undefined,
+    award: team.titles > 0 ? `${team.titles}× FIFA World Cup champion` : undefined,
+  };
+
   return (
     <div>
+      <JsonLd data={jsonLd} />
       {/* Hero */}
       <section className="relative overflow-hidden pb-16 pt-28 md:pt-36">
         <div className="pointer-events-none absolute inset-0">
