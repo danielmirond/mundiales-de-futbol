@@ -7,6 +7,8 @@ import { getTournament } from '@/lib/tournaments';
 import { getAllVenues } from '@/lib/data/venues';
 import { routing, type Locale } from '@/i18n/routing';
 import { VENUES_2026, HOSTS, GROUPS_2026, PHASE_DATES } from '@/lib/wc-2026';
+import { WC2026Calendar } from '@/components/edition/wc2026-calendar';
+import { WC2026Bracket } from '@/components/edition/wc2026-bracket';
 
 function withLocale(locale: Locale, href: string) {
   if (locale === routing.defaultLocale) return href;
@@ -237,6 +239,9 @@ export default async function NorthAmerica2026Page({
           </div>
         </div>
       </section>
+
+      <WC2026Bracket />
+      <WC2026Calendar locale={locale as Locale} />
 
       <div className="mt-8 pb-24 flex justify-center">
         <Link

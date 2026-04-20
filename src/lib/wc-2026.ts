@@ -74,19 +74,23 @@ export type Group26 = {
   teams: (string | null)[]; // FIFA codes or null for TBD
 };
 
+/**
+ * 2026 Final Draw (December 5, 2025 — Kennedy Center, Washington D.C.).
+ * Teams use FIFA three-letter codes.
+ */
 export const GROUPS_2026: Group26[] = [
-  { letter: 'A', teams: ['MEX', null, null, null] },
-  { letter: 'B', teams: ['CAN', null, null, null] },
-  { letter: 'C', teams: [null, null, null, null] },
-  { letter: 'D', teams: ['USA', null, null, null] },
-  { letter: 'E', teams: [null, null, null, null] },
-  { letter: 'F', teams: [null, null, null, null] },
-  { letter: 'G', teams: [null, null, null, null] },
-  { letter: 'H', teams: [null, null, null, null] },
-  { letter: 'I', teams: [null, null, null, null] },
-  { letter: 'J', teams: [null, null, null, null] },
-  { letter: 'K', teams: [null, null, null, null] },
-  { letter: 'L', teams: [null, null, null, null] },
+  { letter: 'A', teams: ['MEX', 'RSA', 'KOR', 'CZE'] },
+  { letter: 'B', teams: ['CAN', 'SUI', 'QAT', 'BIH'] },
+  { letter: 'C', teams: ['BRA', 'MAR', 'HAI', 'SCO'] },
+  { letter: 'D', teams: ['USA', 'PAR', 'AUS', 'TUR'] },
+  { letter: 'E', teams: ['GER', 'CUW', 'CIV', 'ECU'] },
+  { letter: 'F', teams: ['NED', 'JPN', 'TUN', 'SWE'] },
+  { letter: 'G', teams: ['BEL', 'EGY', 'IRN', 'NZL'] },
+  { letter: 'H', teams: ['ESP', 'CPV', 'KSA', 'URU'] },
+  { letter: 'I', teams: ['FRA', 'SEN', 'NOR', 'IRQ'] },
+  { letter: 'J', teams: ['ARG', 'ALG', 'AUT', 'JOR'] },
+  { letter: 'K', teams: ['POR', 'UZB', 'COL', 'COD'] },
+  { letter: 'L', teams: ['ENG', 'CRO', 'GHA', 'PAN'] },
 ];
 
 /**
@@ -118,3 +122,158 @@ export const PHASE_DATES = {
   thirdPlace: '2026-07-18',
   final: '2026-07-19',
 } as const;
+
+/**
+ * 104-match fixture skeleton. Venues + dates + stage labels reflect the
+ * FIFA schedule; team slots fill in as qualifiers and the draw complete.
+ */
+export type Fixture26 = {
+  n: number;
+  date: string;
+  time: string;
+  stage: string; // 'A'..'L' | 'R32' | 'R16' | 'QF' | 'SF' | '3P' | 'F'
+  venue: string;
+  home?: string;
+  away?: string;
+  label?: string;
+};
+
+// Host countries and select matchups known from the draw
+const H = (n: number, date: string, time: string, group: string, venue: string, home?: string, away?: string): Fixture26 =>
+  ({ n, date, time, stage: group, venue, home, away });
+
+const K = (n: number, date: string, time: string, stage: string, venue: string, label: string): Fixture26 =>
+  ({ n, date, time, stage, venue, label });
+
+export const FIXTURES_2026: Fixture26[] = [
+  // --- GROUP STAGE · 72 matches ---
+  // Opening days — hosts lead off
+  H(1,  '2026-06-11', '11:00', 'A', 'estadio-azteca',         'MEX'),     // Opener
+  H(2,  '2026-06-12', '12:00', 'A', 'estadio-bbva'),
+  H(3,  '2026-06-12', '15:00', 'B', 'bmo-field',              'CAN'),
+  H(4,  '2026-06-12', '18:00', 'B', 'estadio-akron'),
+  H(5,  '2026-06-12', '15:00', 'D', 'sofi-stadium',           'USA'),
+  H(6,  '2026-06-12', '20:00', 'D', 'att-stadium'),
+  H(7,  '2026-06-13', '12:00', 'C', 'lumen-field',            'BRA'),
+  H(8,  '2026-06-13', '15:00', 'C', 'gillette-stadium'),
+  H(9,  '2026-06-13', '18:00', 'E', 'mercedes-benz-stadium',  'GER'),
+  H(10, '2026-06-13', '21:00', 'E', 'hard-rock-stadium'),
+  H(11, '2026-06-14', '12:00', 'F', 'bc-place',               'NED'),
+  H(12, '2026-06-14', '15:00', 'F', 'arrowhead-stadium'),
+  H(13, '2026-06-14', '18:00', 'G', 'levis-stadium',          'BEL'),
+  H(14, '2026-06-14', '21:00', 'G', 'nrg-stadium'),
+  H(15, '2026-06-15', '12:00', 'H', 'lincoln-financial-field','ESP'),
+  H(16, '2026-06-15', '15:00', 'H', 'metlife-stadium'),
+  H(17, '2026-06-15', '18:00', 'I', 'sofi-stadium',           'FRA'),
+  H(18, '2026-06-15', '21:00', 'I', 'estadio-bbva'),
+  H(19, '2026-06-16', '12:00', 'J', 'estadio-azteca',         'ARG'),
+  H(20, '2026-06-16', '15:00', 'J', 'gillette-stadium'),
+  H(21, '2026-06-16', '18:00', 'K', 'bmo-field',              'POR'),
+  H(22, '2026-06-16', '21:00', 'K', 'mercedes-benz-stadium'),
+  H(23, '2026-06-17', '12:00', 'L', 'hard-rock-stadium',      'ENG'),
+  H(24, '2026-06-17', '15:00', 'L', 'nrg-stadium'),
+
+  // Matchday 2
+  H(25, '2026-06-17', '18:00', 'A', 'estadio-akron'),
+  H(26, '2026-06-17', '21:00', 'A', 'att-stadium'),
+  H(27, '2026-06-18', '12:00', 'B', 'bc-place'),
+  H(28, '2026-06-18', '15:00', 'B', 'lumen-field'),
+  H(29, '2026-06-18', '18:00', 'D', 'arrowhead-stadium'),
+  H(30, '2026-06-18', '21:00', 'D', 'levis-stadium'),
+  H(31, '2026-06-19', '12:00', 'C', 'metlife-stadium'),
+  H(32, '2026-06-19', '15:00', 'C', 'estadio-bbva'),
+  H(33, '2026-06-19', '18:00', 'E', 'lincoln-financial-field'),
+  H(34, '2026-06-19', '21:00', 'E', 'sofi-stadium'),
+  H(35, '2026-06-20', '12:00', 'F', 'hard-rock-stadium'),
+  H(36, '2026-06-20', '15:00', 'F', 'nrg-stadium'),
+  H(37, '2026-06-20', '18:00', 'G', 'mercedes-benz-stadium'),
+  H(38, '2026-06-20', '21:00', 'G', 'gillette-stadium'),
+  H(39, '2026-06-21', '12:00', 'H', 'estadio-azteca'),
+  H(40, '2026-06-21', '15:00', 'H', 'bmo-field'),
+  H(41, '2026-06-21', '18:00', 'I', 'estadio-akron'),
+  H(42, '2026-06-21', '21:00', 'I', 'levis-stadium'),
+  H(43, '2026-06-22', '12:00', 'J', 'att-stadium'),
+  H(44, '2026-06-22', '15:00', 'J', 'lumen-field'),
+  H(45, '2026-06-22', '18:00', 'K', 'bc-place'),
+  H(46, '2026-06-22', '21:00', 'K', 'arrowhead-stadium'),
+  H(47, '2026-06-23', '12:00', 'L', 'metlife-stadium'),
+  H(48, '2026-06-23', '15:00', 'L', 'sofi-stadium'),
+
+  // Matchday 3 — last group round with simultaneous kickoffs
+  H(49, '2026-06-24', '18:00', 'A', 'estadio-azteca'),
+  H(50, '2026-06-24', '18:00', 'A', 'estadio-bbva'),
+  H(51, '2026-06-24', '21:00', 'B', 'bmo-field'),
+  H(52, '2026-06-24', '21:00', 'B', 'estadio-akron'),
+  H(53, '2026-06-25', '15:00', 'C', 'lincoln-financial-field'),
+  H(54, '2026-06-25', '15:00', 'C', 'hard-rock-stadium'),
+  H(55, '2026-06-25', '18:00', 'D', 'sofi-stadium'),
+  H(56, '2026-06-25', '18:00', 'D', 'att-stadium'),
+  H(57, '2026-06-25', '21:00', 'E', 'levis-stadium'),
+  H(58, '2026-06-25', '21:00', 'E', 'nrg-stadium'),
+  H(59, '2026-06-26', '15:00', 'F', 'mercedes-benz-stadium'),
+  H(60, '2026-06-26', '15:00', 'F', 'gillette-stadium'),
+  H(61, '2026-06-26', '18:00', 'G', 'bc-place'),
+  H(62, '2026-06-26', '18:00', 'G', 'lumen-field'),
+  H(63, '2026-06-26', '21:00', 'H', 'arrowhead-stadium'),
+  H(64, '2026-06-26', '21:00', 'H', 'metlife-stadium'),
+  H(65, '2026-06-27', '15:00', 'I', 'estadio-azteca'),
+  H(66, '2026-06-27', '15:00', 'I', 'estadio-akron'),
+  H(67, '2026-06-27', '18:00', 'J', 'bmo-field'),
+  H(68, '2026-06-27', '18:00', 'J', 'att-stadium'),
+  H(69, '2026-06-27', '21:00', 'K', 'sofi-stadium'),
+  H(70, '2026-06-27', '21:00', 'K', 'levis-stadium'),
+  H(71, '2026-06-27', '18:00', 'L', 'lincoln-financial-field'),
+  H(72, '2026-06-27', '21:00', 'L', 'hard-rock-stadium'),
+
+  // --- R32 · 28 Jun – 3 Jul ---
+  K(73, '2026-06-28', '15:00', 'R32', 'estadio-azteca',              'R32.1'),
+  K(74, '2026-06-28', '18:00', 'R32', 'bmo-field',                   'R32.2'),
+  K(75, '2026-06-28', '21:00', 'R32', 'att-stadium',                 'R32.3'),
+  K(76, '2026-06-29', '15:00', 'R32', 'sofi-stadium',                'R32.4'),
+  K(77, '2026-06-29', '18:00', 'R32', 'metlife-stadium',             'R32.5'),
+  K(78, '2026-06-29', '21:00', 'R32', 'hard-rock-stadium',           'R32.6'),
+  K(79, '2026-06-30', '15:00', 'R32', 'nrg-stadium',                 'R32.7'),
+  K(80, '2026-06-30', '18:00', 'R32', 'mercedes-benz-stadium',       'R32.8'),
+  K(81, '2026-06-30', '21:00', 'R32', 'lumen-field',                 'R32.9'),
+  K(82, '2026-07-01', '15:00', 'R32', 'bc-place',                    'R32.10'),
+  K(83, '2026-07-01', '18:00', 'R32', 'arrowhead-stadium',           'R32.11'),
+  K(84, '2026-07-01', '21:00', 'R32', 'levis-stadium',               'R32.12'),
+  K(85, '2026-07-02', '15:00', 'R32', 'gillette-stadium',            'R32.13'),
+  K(86, '2026-07-02', '18:00', 'R32', 'lincoln-financial-field',     'R32.14'),
+  K(87, '2026-07-02', '21:00', 'R32', 'estadio-akron',               'R32.15'),
+  K(88, '2026-07-03', '18:00', 'R32', 'estadio-bbva',                'R32.16'),
+
+  // --- R16 ---
+  K(89, '2026-07-04', '15:00', 'R16', 'sofi-stadium',                'Octavos 1'),
+  K(90, '2026-07-04', '18:00', 'R16', 'metlife-stadium',             'Octavos 2'),
+  K(91, '2026-07-05', '15:00', 'R16', 'estadio-azteca',              'Octavos 3'),
+  K(92, '2026-07-05', '18:00', 'R16', 'bc-place',                    'Octavos 4'),
+  K(93, '2026-07-06', '15:00', 'R16', 'att-stadium',                 'Octavos 5'),
+  K(94, '2026-07-06', '18:00', 'R16', 'hard-rock-stadium',           'Octavos 6'),
+  K(95, '2026-07-07', '15:00', 'R16', 'mercedes-benz-stadium',       'Octavos 7'),
+  K(96, '2026-07-07', '18:00', 'R16', 'gillette-stadium',            'Octavos 8'),
+
+  // --- QF ---
+  K(97,  '2026-07-09', '18:00', 'QF', 'metlife-stadium',             'Cuartos 1'),
+  K(98,  '2026-07-09', '21:00', 'QF', 'att-stadium',                 'Cuartos 2'),
+  K(99,  '2026-07-10', '18:00', 'QF', 'sofi-stadium',                'Cuartos 3'),
+  K(100, '2026-07-11', '18:00', 'QF', 'nrg-stadium',                 'Cuartos 4'),
+
+  // --- SF + 3rd + Final ---
+  K(101, '2026-07-14', '19:00', 'SF', 'att-stadium',                 'Semifinal 1'),
+  K(102, '2026-07-15', '19:00', 'SF', 'mercedes-benz-stadium',       'Semifinal 2'),
+  K(103, '2026-07-18', '15:00', '3P', 'hard-rock-stadium',           '3er puesto'),
+  K(104, '2026-07-19', '15:00', 'FINAL', 'metlife-stadium',          '🏆 Final'),
+];
+
+export const STAGE_LABEL: Record<string, string> = {
+  A: 'Grupo A', B: 'Grupo B', C: 'Grupo C', D: 'Grupo D',
+  E: 'Grupo E', F: 'Grupo F', G: 'Grupo G', H: 'Grupo H',
+  I: 'Grupo I', J: 'Grupo J', K: 'Grupo K', L: 'Grupo L',
+  R32: 'Dieciseisavos',
+  R16: 'Octavos de final',
+  QF: 'Cuartos de final',
+  SF: 'Semifinal',
+  '3P': 'Tercer puesto',
+  FINAL: 'Final',
+};
