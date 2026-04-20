@@ -4,6 +4,10 @@ export const routing = defineRouting({
   locales: ['es', 'en', 'pt', 'fr', 'ar'] as const,
   defaultLocale: 'es',
   localePrefix: 'as-needed',
+  // Don't auto-redirect based on Accept-Language. The default locale (es)
+  // is served at `/`, other locales only when the user opts in via the
+  // language switcher (which sets a preference cookie).
+  localeDetection: false,
 });
 
 export type Locale = (typeof routing.locales)[number];
