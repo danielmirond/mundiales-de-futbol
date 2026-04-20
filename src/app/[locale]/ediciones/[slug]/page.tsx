@@ -1,8 +1,10 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import { setRequestLocale, getFormatter } from 'next-intl/server';
 import { ArrowLeft, Trophy, Users, Activity, Target, CalendarDays } from 'lucide-react';
-import { TOURNAMENTS, getTournament } from '@/lib/tournaments';
+import { TOURNAMENTS } from '@/lib/tournaments';
+import { getTournamentBySlug } from '@/lib/data/tournaments';
 import { routing, type Locale } from '@/i18n/routing';
 import { MatchesList } from '@/components/edition/matches-list';
 import { ArchiveVideos } from '@/components/edition/archive-videos';
@@ -27,7 +29,7 @@ export default async function EditionPage({
 }) {
   const { locale, slug } = await params;
   setRequestLocale(locale);
-  const t = getTournament(slug);
+  const t = await getTournamentBySlug(slug, locale);
   if (!t) notFound();
 
   const format = await getFormatter();
@@ -38,6 +40,19 @@ export default async function EditionPage({
       {/* Hero */}
       <section className="relative flex min-h-[70svh] flex-col justify-end overflow-hidden pb-16 pt-28 md:pb-24 md:pt-36">
         <div className="pointer-events-none absolute inset-0">
+          {t.heroImageUrl && (
+            <div className="absolute right-[-6%] top-[14%] bottom-[14%] aspect-square opacity-35 md:right-[4%] md:opacity-60">
+              <Image
+                src={t.heroImageUrl}
+                alt=""
+                fill
+                sizes="(max-width: 768px) 80vw, 40vw"
+                className="object-contain"
+                style={{ filter: 'drop-shadow(0 0 40px rgba(0,0,0,0.3))' }}
+                unoptimized
+              />
+            </div>
+          )}
           <div
             className="absolute inset-0 opacity-40"
             style={{

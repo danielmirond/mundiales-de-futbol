@@ -1,7 +1,8 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import { setRequestLocale } from 'next-intl/server';
-import { ArrowLeft, Calendar, Flag, Activity, Target } from 'lucide-react';
+import { ArrowLeft, Calendar, Flag } from 'lucide-react';
 import {
   getPlayerBySlug,
   getPlayerCareer,
@@ -80,14 +81,27 @@ export default async function PlayerDetailPage({
       {/* Hero */}
       <section className="relative overflow-hidden pb-16 pt-28 md:pt-36">
         <div className="pointer-events-none absolute inset-0">
+          {player.photo_url && (
+            <div className="absolute inset-0">
+              <Image
+                src={player.photo_url}
+                alt=""
+                fill
+                sizes="100vw"
+                className="object-cover opacity-25"
+                style={{ filter: 'grayscale(70%) contrast(1.05)', objectPosition: 'center 20%' }}
+                unoptimized
+              />
+            </div>
+          )}
           <div
-            className="absolute inset-0 opacity-30"
+            className="absolute inset-0 opacity-40"
             style={{
               background: `linear-gradient(135deg, ${palette.from}44, ${palette.to}33, transparent 70%)`,
             }}
           />
           <div className="absolute inset-0 grid-overlay opacity-25" />
-          <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[var(--color-bg)]/40 to-[var(--color-bg)]" />
+          <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[var(--color-bg)]/60 to-[var(--color-bg)]" />
         </div>
 
         <div className="relative z-10 mx-auto w-full max-w-[1400px] px-6 md:px-10">
@@ -102,9 +116,27 @@ export default async function PlayerDetailPage({
             {player.nationality_code} · {player.position ?? 'Jugador'}
           </div>
 
-          <h1 className="mt-3 font-display text-fluid-display uppercase leading-[0.9]">
-            {displayPlayerName(player)}
-          </h1>
+          <div className="mt-3 flex items-end gap-6">
+            {player.photo_url && (
+              <div
+                className="relative hidden h-44 w-36 shrink-0 overflow-hidden rounded-2xl border border-[var(--color-border-strong)] md:block"
+                style={{ background: 'var(--color-bg-2)' }}
+              >
+                <Image
+                  src={player.photo_url}
+                  alt={displayPlayerName(player)}
+                  fill
+                  sizes="144px"
+                  className="object-cover"
+                  style={{ objectPosition: 'center 20%' }}
+                  unoptimized
+                />
+              </div>
+            )}
+            <h1 className="font-display text-fluid-display uppercase leading-[0.9]">
+              {displayPlayerName(player)}
+            </h1>
+          </div>
 
           {player.known_as && player.known_as !== player.full_name && (
             <p className="mt-4 text-lg italic text-[var(--color-fg-muted)]">

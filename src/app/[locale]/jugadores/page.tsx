@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { setRequestLocale } from 'next-intl/server';
 import { getTopPlayers, getTopScorers, displayPlayerName } from '@/lib/data/players';
 import { routing, type Locale } from '@/i18n/routing';
@@ -50,22 +51,36 @@ export default async function PlayersIndexPage({
               <Link
                 key={p.id}
                 href={withLocale(locale as Locale, `/jugadores/${p.slug}`)}
-                className="group relative flex flex-col gap-3 bg-[var(--color-bg)] p-5 transition-colors hover:bg-[var(--color-bg-2)]"
+                className="group relative aspect-[3/4] flex flex-col overflow-hidden bg-[var(--color-bg)] transition-colors hover:bg-[var(--color-bg-2)]"
               >
-                <div className="flex items-baseline justify-between">
-                  <span className="font-display text-4xl tab-num text-[var(--color-pitch)]">
-                    {p.goals}
-                  </span>
-                  <span className="font-mono text-[10px] uppercase tracking-widest text-[var(--color-fg-subtle)]">
-                    {p.nationality_code}
-                  </span>
-                </div>
-                <div>
-                  <div className="text-sm font-medium text-[var(--color-fg)]">
-                    {displayPlayerName(p)}
+                {p.photo_url ? (
+                  <Image
+                    src={p.photo_url}
+                    alt={displayPlayerName(p)}
+                    fill
+                    sizes="(max-width: 640px) 50vw, 20vw"
+                    className="object-cover opacity-60 transition-opacity group-hover:opacity-90"
+                    style={{ objectPosition: 'center 15%' }}
+                    unoptimized
+                  />
+                ) : null}
+                <div className="absolute inset-0 bg-gradient-to-t from-[var(--color-bg)] via-[var(--color-bg)]/40 to-transparent" />
+                <div className="relative z-10 flex h-full flex-col justify-between p-5">
+                  <div className="flex items-baseline justify-between">
+                    <span className="font-display text-5xl tab-num text-[var(--color-pitch)]">
+                      {p.goals}
+                    </span>
+                    <span className="font-mono text-[10px] uppercase tracking-widest text-[var(--color-fg-subtle)]">
+                      {p.nationality_code}
+                    </span>
                   </div>
-                  <div className="mt-1 font-mono text-[10px] uppercase tracking-widest text-[var(--color-fg-subtle)]">
-                    {p.wc_count}× mundial · {Math.round(p.total_minutes / 90)} partidos
+                  <div>
+                    <div className="text-sm font-medium text-[var(--color-fg)]">
+                      {displayPlayerName(p)}
+                    </div>
+                    <div className="mt-1 font-mono text-[10px] uppercase tracking-widest text-[var(--color-fg-subtle)]">
+                      {p.wc_count}× mundial
+                    </div>
                   </div>
                 </div>
               </Link>

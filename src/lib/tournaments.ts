@@ -16,6 +16,7 @@ export type Tournament = {
   palette: { from: string; to: string };
   tagline: string;
   summary?: string;
+  heroImageUrl?: string | null;
 };
 
 export const TOURNAMENTS: Tournament[] = [

@@ -20,6 +20,7 @@ export type TournamentRow = {
   palette_to: string | null;
   tagline_i18n: Record<string, string> | null;
   summary_i18n: Record<string, string> | null;
+  hero_image_url: string | null;
 };
 
 // Lookup by champion_code → localized display name (until we read from `teams`).
@@ -64,6 +65,7 @@ function rowToTournament(row: TournamentRow, locale: string): Tournament {
     },
     tagline,
     summary,
+    heroImageUrl: row.hero_image_url,
   };
 }
 
@@ -77,7 +79,7 @@ export async function getAllTournaments(locale = 'es'): Promise<Tournament[]> {
     const { data, error } = await supabase
       .from('tournaments')
       .select(
-        'year,slug,host_country,host_countries,champion_code,teams,matches_played,goals,attendance,start_date,end_date,top_scorer_name,top_scorer_goals,top_scorer_team,palette_from,palette_to,tagline_i18n,summary_i18n',
+        'year,slug,host_country,host_countries,champion_code,teams,matches_played,goals,attendance,start_date,end_date,top_scorer_name,top_scorer_goals,top_scorer_team,palette_from,palette_to,tagline_i18n,summary_i18n,hero_image_url',
       )
       .order('year', { ascending: true });
 
@@ -96,7 +98,7 @@ export async function getTournamentBySlug(slug: string, locale = 'es'): Promise<
     const { data, error } = await supabase
       .from('tournaments')
       .select(
-        'year,slug,host_country,host_countries,champion_code,teams,matches_played,goals,attendance,start_date,end_date,top_scorer_name,top_scorer_goals,top_scorer_team,palette_from,palette_to,tagline_i18n,summary_i18n',
+        'year,slug,host_country,host_countries,champion_code,teams,matches_played,goals,attendance,start_date,end_date,top_scorer_name,top_scorer_goals,top_scorer_team,palette_from,palette_to,tagline_i18n,summary_i18n,hero_image_url',
       )
       .eq('slug', slug)
       .maybeSingle();
