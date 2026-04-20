@@ -74,16 +74,74 @@ export async function getTeamByCode(code: string): Promise<TeamStats | null> {
   }
 }
 
-/** Every match this team has played, newest first. */
-export async function getTeamMatches(code: string): Promise<TeamMatchRow[]> {
+/**
+ * Returns the list of predecessor teams (historical codes that succeed
+ * into this team). For GER returns [FRG, GDR]; for RUS returns [URS];
+ * for CZE returns [TCH]; for SRB returns [YUG, SCG]. Empty otherwise.
+ */
+export async function getPredecessors(code: string): Promise<TeamStats[]> {
   try {
     const supabase = await createClient();
+    const { data, error } = await supabase
+      .from('team_stats')
+      .select(SELECT)
+      .eq('successor_code', code.toUpperCase());
+    if (error) throw error;
+    return (data ?? []) as unknown as TeamStats[];
+  } catch {
+    return [];
+  }
+}
+
+/** Aggregate predecessor + successor stats into a single synthesised entry. */
+export function combineLineage(
+  head: TeamStats,
+  predecessors: TeamStats[],
+): {
+  wc_count: number;
+  wc_years: number[];
+  titles: number;
+  runners_up: number;
+  matches_played: number;
+  wins: number;
+  draws: number;
+  losses: number;
+  goals_for: number;
+  goals_against: number;
+} {
+  const all = [head, ...predecessors];
+  const years = new Set<number>();
+  for (const t of all) for (const y of t.wc_years ?? []) years.add(y);
+  const sum = (k: keyof TeamStats) =>
+    all.reduce((s, t) => s + ((t[k] as number | undefined) ?? 0), 0);
+  return {
+    wc_count: years.size,
+    wc_years: [...years].sort((a, b) => a - b),
+    titles: sum('titles'),
+    runners_up: sum('runners_up'),
+    matches_played: sum('matches_played'),
+    wins: sum('wins'),
+    draws: sum('draws'),
+    losses: sum('losses'),
+    goals_for: sum('goals_for'),
+    goals_against: sum('goals_against'),
+  };
+}
+
+/** Every match this team has played, newest first. */
+export async function getTeamMatches(code: string, extraCodes: string[] = []): Promise<TeamMatchRow[]> {
+  const codes = [code.toUpperCase(), ...extraCodes.map((c) => c.toUpperCase())];
+  try {
+    const supabase = await createClient();
+    const or = codes
+      .flatMap((c) => [`home_code.eq.${c}`, `away_code.eq.${c}`])
+      .join(',');
     const { data, error } = await supabase
       .from('matches')
       .select(
         'id, tournament_year, match_number, stage, match_date, home_code, away_code, home_score, away_score, home_score_pk, away_score_pk, winner_code, status',
       )
-      .or(`home_code.eq.${code},away_code.eq.${code}`)
+      .or(or)
       .order('match_date', { ascending: false });
     if (error) throw error;
 
@@ -101,22 +159,24 @@ export async function getTeamMatches(code: string): Promise<TeamMatchRow[]> {
       status: string | null;
     };
 
+    const codeSet = new Set(codes);
     return ((data ?? []) as Raw[]).map((m) => {
-      const isHome = m.home_code === code;
+      const isHome = codeSet.has(m.home_code);
+      const teamCode = isHome ? m.home_code : m.away_code;
       const opponent = isHome ? m.away_code : m.home_code;
       const teamScore = isHome ? m.home_score : m.away_score;
       const oppScore = isHome ? m.away_score : m.home_score;
       let result: 'W' | 'D' | 'L' | '—' = '—';
-      if (m.winner_code === code) result = 'W';
+      if (codeSet.has(m.winner_code ?? '')) result = 'W';
       else if (m.winner_code === null && m.home_score !== null) result = 'D';
-      else if (m.winner_code && m.winner_code !== code) result = 'L';
+      else if (m.winner_code && !codeSet.has(m.winner_code)) result = 'L';
       return {
         id: m.id,
         tournament_year: m.tournament_year,
         match_number: m.match_number,
         stage: m.stage,
         match_date: m.match_date,
-        team_code: code,
+        team_code: teamCode,
         opponent_code: opponent,
         team_score: teamScore,
         opponent_score: oppScore,

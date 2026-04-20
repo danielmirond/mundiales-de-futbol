@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { setRequestLocale } from 'next-intl/server';
 import { ArrowLeft, Trophy } from 'lucide-react';
-import { getTeamByCode, getTeamMatches, getTeamTopScorers, teamDisplayName } from '@/lib/data/teams';
+import { getTeamByCode, getTeamMatches, getTeamTopScorers, teamDisplayName, getPredecessors, combineLineage } from '@/lib/data/teams';
 import { getTournament, TOURNAMENTS } from '@/lib/tournaments';
 import { STAGE_LABEL_ES } from '@/lib/data/matches';
 import { routing, type Locale } from '@/i18n/routing';
@@ -71,8 +71,15 @@ export default async function SelectionDetailPage({
   const team = await getTeamByCode(code);
   if (!team) notFound();
 
+  // If this team has predecessors (GER ← FRG/GDR, RUS ← URS, etc.),
+  // fetch them so we can show unified stats.
+  const predecessors = await getPredecessors(team.code);
+  const hasLineage = predecessors.length > 0;
+  const unified = hasLineage ? combineLineage(team, predecessors) : team;
+  const lineageCodes = [team.code, ...predecessors.map((p) => p.code)];
+
   const [matches, topScorers] = await Promise.all([
-    getTeamMatches(team.code),
+    getTeamMatches(team.code, predecessors.map((p) => p.code)),
     getTeamTopScorers(team.code, 10),
   ]);
 
@@ -157,15 +164,42 @@ export default async function SelectionDetailPage({
         </div>
       </section>
 
-      {/* Honors + record */}
-      <section className="mx-auto w-full max-w-[1400px] px-6 md:px-10">
+      {/* Lineage banner */}
+      {hasLineage && (
+        <section className="mx-auto w-full max-w-[1400px] px-6 md:px-10">
+          <div
+            className="flex flex-wrap items-center justify-between gap-4 rounded-3xl border px-6 py-4"
+            style={{
+              borderColor: 'color-mix(in oklch, var(--color-pitch) 30%, transparent)',
+              background: 'color-mix(in oklch, var(--color-pitch) 6%, transparent)',
+            }}
+          >
+            <div className="font-mono text-[11px] uppercase tracking-[0.25em] text-[var(--color-pitch)]">
+              Vista unificada · {lineageCodes.join(' + ')}
+            </div>
+            <div className="flex flex-wrap items-center gap-3 text-sm text-[var(--color-fg-muted)]">
+              Incluye:{' '}
+              {predecessors.map((p, i) => (
+                <span key={p.code} className="font-medium text-[var(--color-fg)]">
+                  {p.name_official}
+                  {p.dissolved_year ? ` (hasta ${p.dissolved_year})` : ''}
+                  {i < predecessors.length - 1 ? ' · ' : ''}
+                </span>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Honors + record (unified if lineage exists) */}
+      <section className="mx-auto w-full max-w-[1400px] px-6 mt-10 md:px-10">
         <div className="grid gap-px overflow-hidden rounded-3xl border border-[var(--color-border)] bg-[var(--color-border)] sm:grid-cols-2 lg:grid-cols-6">
-          <Stat label="Títulos" value={String(team.titles)} accent={team.titles > 0 ? 'var(--color-pitch)' : undefined} icon={team.titles > 0 ? Trophy : undefined} />
-          <Stat label="Subcampeón" value={String(team.runners_up)} />
-          <Stat label="Mundiales" value={String(team.wc_count)} />
-          <Stat label="Partidos" value={String(team.matches_played)} />
-          <Stat label="Récord" value={`${team.wins}-${team.draws}-${team.losses}`} small />
-          <Stat label="Goles" value={`${team.goals_for}/${team.goals_against}`} small />
+          <Stat label="Títulos" value={String(unified.titles)} accent={unified.titles > 0 ? 'var(--color-pitch)' : undefined} icon={unified.titles > 0 ? Trophy : undefined} />
+          <Stat label="Subcampeón" value={String(unified.runners_up)} />
+          <Stat label="Mundiales" value={String(unified.wc_count)} />
+          <Stat label="Partidos" value={String(unified.matches_played)} />
+          <Stat label="Récord" value={`${unified.wins}-${unified.draws}-${unified.losses}`} small />
+          <Stat label="Goles" value={`${unified.goals_for}/${unified.goals_against}`} small />
         </div>
       </section>
 
