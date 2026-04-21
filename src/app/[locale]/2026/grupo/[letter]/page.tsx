@@ -3,11 +3,11 @@ import { notFound } from 'next/navigation';
 import { setRequestLocale } from 'next-intl/server';
 import { ArrowLeft, ChevronLeft, ChevronRight, MapPin } from 'lucide-react';
 import { getTeamByCode, teamDisplayName, type TeamStats } from '@/lib/data/teams';
+import { computeGroupStandings } from '@/lib/data/standings';
 import {
   GROUPS_2026,
   FIXTURES_2026,
   VENUES_2026,
-  STAGE_LABEL,
 } from '@/lib/wc-2026';
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd } from '@/lib/seo';
@@ -69,18 +69,12 @@ export default async function GroupPage({
   const fixtures = FIXTURES_2026.filter((f) => f.stage === up);
   const venueBySlug = new Map(VENUES_2026.map((v) => [v.slug, v]));
 
-  // Pre-computed blank standings (all rows with 0s, ready to display once
-  // matches are played). Each team: MP, W, D, L, GF, GA, GD, Pts.
-  const standings = teams.map((t) => ({
-    team: t,
-    MP: 0,
-    W: 0,
-    D: 0,
-    L: 0,
-    GF: 0,
-    GA: 0,
-    GD: 0,
-    Pts: 0,
+  // Live standings — computed from matches table. Pre-tournament all zero.
+  const rawStandings = await computeGroupStandings(2026, up, codes);
+  const teamByCode = new Map(teams.map((t) => [t.code, t]));
+  const standings = rawStandings.map((s) => ({
+    ...s,
+    team: teamByCode.get(s.code)!,
   }));
 
   // Prev / next group navigation
@@ -172,9 +166,20 @@ export default async function GroupPage({
           Tabla del grupo
         </h2>
         <p className="mt-4 max-w-2xl text-sm text-[var(--color-fg-muted)]">
-          Se actualizará automáticamente con cada partido. Los 2 primeros clasifican a
+          Se actualiza automáticamente con cada partido. Los 2 primeros clasifican directo a
           dieciseisavos; los 8 mejores terceros entre los 12 grupos también avanzan.
         </p>
+        <div className="mt-4 flex flex-wrap gap-4 text-[10px] font-mono uppercase tracking-widest">
+          <span className="inline-flex items-center gap-2 text-[var(--color-fg-muted)]">
+            <span className="inline-block h-2 w-2 rounded-full bg-[var(--color-pitch)]" /> Clasificado
+          </span>
+          <span className="inline-flex items-center gap-2 text-[var(--color-fg-muted)]">
+            <span className="inline-block h-2 w-2 rounded-full bg-[var(--color-sun)]" /> Mejor 3º
+          </span>
+          <span className="inline-flex items-center gap-2 text-[var(--color-fg-muted)]">
+            <span className="inline-block h-2 w-2 rounded-full bg-[var(--color-border-strong)]" /> Eliminado
+          </span>
+        </div>
 
         <div className="mt-10 overflow-hidden rounded-3xl border border-[var(--color-border)]">
           <table className="w-full text-sm">
@@ -193,33 +198,47 @@ export default async function GroupPage({
               </tr>
             </thead>
             <tbody>
-              {standings.map((s, i) => (
-                <tr
-                  key={s.team.code}
-                  className="border-t border-[var(--color-border)] transition-colors hover:bg-[var(--color-bg-2)]"
-                >
-                  <td className="p-4 text-right font-mono text-[10px] text-[var(--color-fg-subtle)] tab-num">
-                    {i + 1}
-                  </td>
-                  <td className="p-4">
-                    <Link
-                      href={withLocale(locale as Locale, `/selecciones/${s.team.code}`)}
-                      className="flex items-center gap-2 font-medium text-[var(--color-fg)] transition-colors hover:text-[var(--color-pitch)]"
-                    >
-                      <span className="text-xl">{s.team.flag_emoji ?? '🏳️'}</span>
-                      {teamDisplayName(s.team)}
-                    </Link>
-                  </td>
-                  <td className="p-4 text-right tab-num text-[var(--color-fg-muted)]">{s.MP}</td>
-                  <td className="p-4 text-right tab-num text-[var(--color-fg-muted)]">{s.W}</td>
-                  <td className="p-4 text-right tab-num text-[var(--color-fg-muted)]">{s.D}</td>
-                  <td className="p-4 text-right tab-num text-[var(--color-fg-muted)]">{s.L}</td>
-                  <td className="p-4 text-right tab-num text-[var(--color-fg-muted)] hidden sm:table-cell">{s.GF}</td>
-                  <td className="p-4 text-right tab-num text-[var(--color-fg-muted)] hidden sm:table-cell">{s.GA}</td>
-                  <td className="p-4 text-right tab-num text-[var(--color-fg-muted)]">{s.GD >= 0 ? `+${s.GD}` : s.GD}</td>
-                  <td className="p-4 text-right tab-num font-bold text-[var(--color-fg)]">{s.Pts}</td>
-                </tr>
-              ))}
+              {standings.map((s, i) => {
+                const qualified = i < 2; // Top 2 clasifican directo
+                const possiblyQualified = i === 2; // 3er — 8 mejores entre los 12 grupos
+                return (
+                  <tr
+                    key={s.team.code}
+                    className="border-t border-[var(--color-border)] transition-colors hover:bg-[var(--color-bg-2)]"
+                  >
+                    <td className="p-4 text-right">
+                      <span
+                        className={`inline-flex h-6 w-6 items-center justify-center rounded-full font-mono text-[10px] tab-num ${
+                          qualified
+                            ? 'bg-[var(--color-pitch)]/20 text-[var(--color-pitch)]'
+                            : possiblyQualified
+                              ? 'bg-[var(--color-sun)]/20 text-[var(--color-sun)]'
+                              : 'text-[var(--color-fg-subtle)]'
+                        }`}
+                      >
+                        {i + 1}
+                      </span>
+                    </td>
+                    <td className="p-4">
+                      <Link
+                        href={withLocale(locale as Locale, `/selecciones/${s.team.code}`)}
+                        className="flex items-center gap-2 font-medium text-[var(--color-fg)] transition-colors hover:text-[var(--color-pitch)]"
+                      >
+                        <span className="text-xl">{s.team.flag_emoji ?? '🏳️'}</span>
+                        {teamDisplayName(s.team)}
+                      </Link>
+                    </td>
+                    <td className="p-4 text-right tab-num text-[var(--color-fg-muted)]">{s.MP}</td>
+                    <td className="p-4 text-right tab-num text-[var(--color-fg-muted)]">{s.W}</td>
+                    <td className="p-4 text-right tab-num text-[var(--color-fg-muted)]">{s.D}</td>
+                    <td className="p-4 text-right tab-num text-[var(--color-fg-muted)]">{s.L}</td>
+                    <td className="p-4 text-right tab-num text-[var(--color-fg-muted)] hidden sm:table-cell">{s.GF}</td>
+                    <td className="p-4 text-right tab-num text-[var(--color-fg-muted)] hidden sm:table-cell">{s.GA}</td>
+                    <td className="p-4 text-right tab-num text-[var(--color-fg-muted)]">{s.GD >= 0 ? `+${s.GD}` : s.GD}</td>
+                    <td className="p-4 text-right tab-num font-bold text-[var(--color-fg)]">{s.Pts}</td>
+                  </tr>
+                );
+              })}
             </tbody>
           </table>
         </div>
