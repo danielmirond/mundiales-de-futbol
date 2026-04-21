@@ -119,6 +119,96 @@ export function EditionStory({ year }: { year: number }) {
           </div>
         )}
       </div>
+
+      {/* Controversies — polémicas, escándalos, decisiones discutidas */}
+      {story.controversies && story.controversies.length > 0 && (
+        <div className="mt-16 rounded-3xl border border-[var(--color-border)] bg-[var(--color-bg-2)] p-8 md:p-12">
+          <div className="flex items-baseline gap-4">
+            <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-red-400/80">
+              Polémicas
+            </div>
+            <div className="h-px flex-1 bg-gradient-to-r from-red-500/40 to-transparent" />
+          </div>
+          <h3 className="mt-3 font-display text-fluid-h3 uppercase leading-none">
+            Lo que todavía se discute
+          </h3>
+          <ul className="mt-8 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+            {story.controversies.map((c, i) => (
+              <li
+                key={i}
+                className="relative border-l-2 border-red-500/40 pl-5"
+              >
+                <div className="absolute left-[-6px] top-1 h-[10px] w-[10px] rounded-full bg-red-500" />
+                <div className="font-display text-lg uppercase leading-tight text-[var(--color-fg)]">
+                  {c.title}
+                </div>
+                <p className="mt-2 text-sm leading-relaxed text-[var(--color-fg-muted)]">
+                  {c.text}
+                </p>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+
+      {/* Nostalgia — recuerdos sensoriales: narradores, jingles, cromos, rituales */}
+      {story.nostalgia && story.nostalgia.length > 0 && (
+        <div className="mt-12">
+          <div className="flex items-baseline gap-4">
+            <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-amber-400/80">
+              Añoranza
+            </div>
+            <div className="h-px flex-1 bg-gradient-to-r from-amber-500/40 to-transparent" />
+          </div>
+          <h3 className="mt-3 font-display text-fluid-h3 uppercase leading-none">
+            Así lo vivimos
+          </h3>
+          <p className="mt-2 max-w-2xl text-sm italic text-[var(--color-fg-subtle)]">
+            Jingles, narradores, cromos, rituales. Lo que quedó en la retina y en el oído.
+          </p>
+          <div className="mt-8 grid gap-px bg-[var(--color-border)] sm:grid-cols-2 lg:grid-cols-3">
+            {story.nostalgia.map((n, i) => (
+              <article
+                key={i}
+                className="flex flex-col gap-3 bg-[var(--color-bg-2)] p-6 md:p-8"
+              >
+                <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-amber-400/70">
+                  {String(i + 1).padStart(2, '0')}
+                </div>
+                <div className="font-display text-xl uppercase leading-tight text-[var(--color-fg)]">
+                  {n.title}
+                </div>
+                <p className="text-sm leading-relaxed text-[var(--color-fg-muted)]">
+                  {n.text}
+                </p>
+              </article>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Trivia — curiosidades rápidas */}
+      {story.trivia && story.trivia.length > 0 && (
+        <div className="mt-12 rounded-3xl border border-[var(--color-border)] p-8 md:p-10">
+          <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-pitch)]">
+            ¿Lo sabías?
+          </div>
+          <h3 className="mt-3 font-display text-fluid-h3 uppercase leading-none">
+            Para contar en la sobremesa
+          </h3>
+          <ul className="mt-6 grid gap-3 md:grid-cols-2">
+            {story.trivia.map((t, i) => (
+              <li
+                key={i}
+                className="flex gap-3 text-sm leading-relaxed text-[var(--color-fg-muted)]"
+              >
+                <span className="mt-1 inline-block h-1.5 w-1.5 flex-shrink-0 rounded-full bg-[var(--color-pitch)]" />
+                <span>{t}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
     </section>
   );
 }
