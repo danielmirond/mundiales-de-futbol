@@ -17,18 +17,47 @@ const HEADERS = {
   Accept: 'application/json',
 };
 
-async function fetchImage(title: string): Promise<string | null> {
-  try {
-    const t = encodeURIComponent(title.replace(/ /g, '_'));
-    const res = await fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${t}`, { headers: HEADERS });
-    if (!res.ok) return null;
-    const data = (await res.json()) as { originalimage?: { source: string }; thumbnail?: { source: string }; type?: string };
-    if (data.type === 'disambiguation') return null;
-    return data.originalimage?.source ?? data.thumbnail?.source ?? null;
-  } catch {
-    return null;
+async function fetchImage(...candidates: string[]): Promise<string | null> {
+  for (const title of candidates.filter(Boolean)) {
+    for (const host of ['en.wikipedia.org', 'es.wikipedia.org']) {
+      try {
+        const t = encodeURIComponent(title.replace(/ /g, '_'));
+        const res = await fetch(`https://${host}/api/rest_v1/page/summary/${t}`, {
+          headers: HEADERS,
+        });
+        if (!res.ok) continue;
+        const data = (await res.json()) as {
+          originalimage?: { source: string };
+          thumbnail?: { source: string };
+          type?: string;
+        };
+        if (data.type === 'disambiguation') continue;
+        const src = data.originalimage?.source ?? data.thumbnail?.source;
+        if (src) return src;
+      } catch {
+        continue;
+      }
+      await new Promise((r) => setTimeout(r, 80));
+    }
   }
+  return null;
 }
+
+// Per-year fallback title variations for items whose default title failed.
+const EXTRA_MASCOT_TITLES: Record<number, string[]> = {
+  1966: ['World Cup Willie', 'World_Cup_Willie', 'Willie (mascot)'],
+  1970: ['Juanito (1970 Mascot)', 'Juanito (football mascot)', 'Juanito_(mascota)', 'Copa Mundial de Fútbol de 1970'],
+  1974: ['Tip und Tap', 'Tip_und_Tap', 'Tip and Tap (mascots)', 'Copa Mundial de Fútbol de 1974'],
+  1982: ['Naranjito', 'Naranjito_(mascota)', 'Naranjito (mascot)'],
+  1994: ['Striker the World Cup Pup', 'Striker (1994 FIFA World Cup mascot)'],
+  1998: ['Footix', 'Footix_(mascota)'],
+  2026: ['Zayu', 'Maik (mascot)', 'Clutch (mascot)', 'Mascotas de la Copa Mundial de Fútbol de 2026'],
+};
+
+const EXTRA_BALL_TITLES: Record<number, string[]> = {
+  1990: ['Adidas Etrusco Unico', 'Adidas Etrusco', 'Etrusco Unico'],
+  2006: ['Adidas Teamgeist', '+Teamgeist', 'Adidas +Teamgeist'],
+};
 
 async function main() {
   console.log(`Fetching mascot + ball images for ${Object.keys(WIKIPEDIA_ASSET_TITLES).length} mundials…`);
@@ -37,17 +66,25 @@ async function main() {
   for (const [yearStr, titles] of Object.entries(WIKIPEDIA_ASSET_TITLES)) {
     const year = Number(yearStr);
     const entry: { mascot?: string; ball?: string } = {};
-    if (titles.mascot) {
-      const img = await fetchImage(titles.mascot);
+
+    const mascotTitles = [
+      ...(titles.mascot ? [titles.mascot] : []),
+      ...(EXTRA_MASCOT_TITLES[year] ?? []),
+    ];
+    const ballTitles = [
+      ...(titles.ball ? [titles.ball] : []),
+      ...(EXTRA_BALL_TITLES[year] ?? []),
+    ];
+
+    if (mascotTitles.length > 0) {
+      const img = await fetchImage(...mascotTitles);
       if (img) entry.mascot = img;
-      console.log(`  ${year} mascot: ${img ? '✓' : '✗'} ${titles.mascot}`);
-      await new Promise((r) => setTimeout(r, 120));
+      console.log(`  ${year} mascot: ${img ? '✓' : '✗'}`);
     }
-    if (titles.ball) {
-      const img = await fetchImage(titles.ball);
+    if (ballTitles.length > 0) {
+      const img = await fetchImage(...ballTitles);
       if (img) entry.ball = img;
-      console.log(`  ${year} ball:   ${img ? '✓' : '✗'} ${titles.ball}`);
-      await new Promise((r) => setTimeout(r, 120));
+      console.log(`  ${year} ball:   ${img ? '✓' : '✗'}`);
     }
     if (entry.mascot || entry.ball) out[year] = entry;
   }

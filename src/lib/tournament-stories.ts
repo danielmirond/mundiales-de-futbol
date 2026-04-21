@@ -234,6 +234,11 @@ export const STORIES: TournamentStory[] = [
 
   {
     year: 1990,
+    anthem: {
+      title: "Un'estate italiana",
+      artist: 'Edoardo Bennato & Gianna Nannini',
+      youtubeId: 'EvcvDGK6N3U',
+    },
     innovations: [
       'Balón Etrusco Unico — primer diseño multicolor.',
       'Mínimo histórico de goles/partido (2,21).',
@@ -263,6 +268,11 @@ export const STORIES: TournamentStory[] = [
 
   {
     year: 1998,
+    anthem: {
+      title: 'La Copa de la Vida',
+      artist: 'Ricky Martin',
+      youtubeId: 'pmU_xF4yWmY',
+    },
     innovations: [
       'Primer Mundial con 32 equipos (antes 24).',
       'Primer oro galo, contra Brasil 3-0.',
@@ -277,6 +287,11 @@ export const STORIES: TournamentStory[] = [
 
   {
     year: 2002,
+    anthem: {
+      title: 'Boom',
+      artist: 'Anastacia',
+      youtubeId: 'WdcuhpLedS8',
+    },
     innovations: [
       'Primer Mundial en Asia. Primer Mundial con dos países sede.',
       'Corea del Sur llega a semifinales (4º). Récord asiático.',
@@ -291,6 +306,11 @@ export const STORIES: TournamentStory[] = [
 
   {
     year: 2006,
+    anthem: {
+      title: 'The Time of Our Lives',
+      artist: 'Il Divo & Toni Braxton',
+      youtubeId: 'Xt5TGxnaBSc',
+    },
     innovations: [
       'Balón Teamgeist con 14 paneles (antes 32).',
       'Italia gana su 4º título, tras el escándalo del Calciopoli.',
@@ -305,6 +325,11 @@ export const STORIES: TournamentStory[] = [
 
   {
     year: 2010,
+    anthem: {
+      title: 'Waka Waka (This Time for Africa)',
+      artist: 'Shakira & Freshlyground',
+      youtubeId: 'pRpeEdMmmQ0',
+    },
     innovations: [
       'Primer Mundial en África.',
       'Vuvuzelas — el sonido que definió la Copa (para bien o mal).',
@@ -320,6 +345,11 @@ export const STORIES: TournamentStory[] = [
 
   {
     year: 2014,
+    anthem: {
+      title: 'We Are One (Ole Ola)',
+      artist: 'Pitbull, Jennifer Lopez & Claudia Leitte',
+      youtubeId: 'TGtWWb9emYI',
+    },
     innovations: [
       'Debut de la tecnología de gol en línea (goal-line technology).',
       'Spray evanescente para marcar barreras.',
@@ -334,6 +364,11 @@ export const STORIES: TournamentStory[] = [
 
   {
     year: 2018,
+    anthem: {
+      title: 'Live It Up',
+      artist: 'Nicky Jam, Will Smith & Era Istrefi',
+      youtubeId: 'CGyEd0aKWZE',
+    },
     innovations: [
       'Debut del VAR (Video Assistant Referee).',
       'Francia, jovencísima, con Mbappé (19) y Griezmann.',
@@ -348,6 +383,11 @@ export const STORIES: TournamentStory[] = [
 
   {
     year: 2022,
+    anthem: {
+      title: 'Hayya Hayya (Better Together)',
+      artist: 'Trinidad Cardona, Davido & AISHA',
+      youtubeId: 'Tx6_14yezXU',
+    },
     innovations: [
       'Primer Mundial en Oriente Medio.',
       'Primer Mundial en noviembre-diciembre (clima).',

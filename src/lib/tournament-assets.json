@@ -1,8 +1,13 @@
 {
+  "1966": {
+    "mascot": "https://upload.wikimedia.org/wikipedia/commons/f/f4/National_Football_Museum_Manchester_5697_%2814180312576%29.jpg"
+  },
   "1970": {
+    "mascot": "https://upload.wikimedia.org/wikipedia/commons/9/97/Juanito_Mexico_70.JPG",
     "ball": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Telstar_Durlast.jpg"
   },
   "1974": {
+    "mascot": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/FIFA_World_Cup_1974_-_emblem.svg/langes-960px-FIFA_World_Cup_1974_-_emblem.svg.png",
     "ball": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Telstar_Durlast.jpg"
   },
   "1978": {
@@ -10,6 +15,7 @@
     "ball": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Adidas_Tango.jpg"
   },
   "1982": {
+    "mascot": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Bar_el_Naranjito_a_la_Ronda_de_And%C3%BAjar_de_C%C3%B2rdova.jpg",
     "ball": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Adidas_Tango.jpg"
   },
   "1986": {
@@ -17,12 +23,14 @@
     "ball": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Adidas_Azteca.jpg"
   },
   "1990": {
-    "mascot": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/1990_FIFA_World_Cup.svg/500px-1990_FIFA_World_Cup.svg.png"
+    "mascot": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/1990_FIFA_World_Cup.svg/500px-1990_FIFA_World_Cup.svg.png",
+    "ball": "https://upload.wikimedia.org/wikipedia/commons/7/7a/World_Cup_1990_%26_Euro_1992_ball.JPG"
   },
   "1994": {
     "ball": "https://upload.wikimedia.org/wikipedia/commons/5/5f/1994_Questra.jpg"
   },
   "1998": {
+    "mascot": "https://upload.wikimedia.org/wikipedia/commons/6/65/Stamp_of_Albania_-_1998_-_Colnect_186191_-_Mascot_Footix.jpeg",
     "ball": "https://upload.wikimedia.org/wikipedia/commons/5/5c/1998_-_Tricolore_%28France%29_%284170715889%29.jpg"
   },
   "2002": {
@@ -30,7 +38,8 @@
     "ball": "https://upload.wikimedia.org/wikipedia/commons/b/be/Deutsches_Fu%C3%9Fballmuseum_2015_2-Fevernova.jpg"
   },
   "2006": {
-    "mascot": "https://upload.wikimedia.org/wikipedia/en/0/04/Goleo_and_Pille.png"
+    "mascot": "https://upload.wikimedia.org/wikipedia/en/0/04/Goleo_and_Pille.png",
+    "ball": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Teamgeist_Ball_World_Cup_2006_Brazil_vs._Croatia.jpg"
   },
   "2010": {
     "mascot": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/Zakumi.svg/330px-Zakumi.svg.png",
@@ -49,6 +58,7 @@
     "ball": "https://upload.wikimedia.org/wikipedia/commons/2/25/Al-Rihla_%28cropped%29.jpg"
   },
   "2026": {
+    "mascot": "https://upload.wikimedia.org/wikipedia/commons/9/92/%E8%A5%BF%E8%97%8F%E6%9E%97%E8%8A%9D-%E4%B8%8B%E5%AF%9F%E9%9A%85_-_panoramio.jpg",
     "ball": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Trionda_%28cropped%29.jpg"
   }
 }
