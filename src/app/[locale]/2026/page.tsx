@@ -180,9 +180,13 @@ export default async function NorthAmerica2026Page({
 
         <div className="mt-10 grid gap-px bg-[var(--color-border)] sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           {GROUPS_2026.map((g) => (
-            <div key={g.letter} className="flex flex-col gap-3 bg-[var(--color-bg)] p-5">
+            <Link
+              key={g.letter}
+              href={withLocale(locale as Locale, `/2026/grupo/${g.letter}`)}
+              className="group flex flex-col gap-3 bg-[var(--color-bg)] p-5 transition-colors hover:bg-[var(--color-bg-2)]"
+            >
               <div className="flex items-center justify-between">
-                <span className="font-display text-4xl uppercase text-[var(--color-fg)]">
+                <span className="font-display text-4xl uppercase text-[var(--color-fg)] transition-colors group-hover:text-[var(--color-pitch)]">
                   {g.letter}
                 </span>
                 <span className="font-mono text-[10px] uppercase tracking-widest text-[var(--color-fg-subtle)]">
@@ -196,19 +200,14 @@ export default async function NorthAmerica2026Page({
                       {i + 1}.
                     </span>
                     {code ? (
-                      <Link
-                        href={withLocale(locale as Locale, `/selecciones/${code}`)}
-                        className="text-[var(--color-fg)] hover:text-[var(--color-pitch)]"
-                      >
-                        {code}
-                      </Link>
+                      <span className="text-[var(--color-fg)]">{code}</span>
                     ) : (
                       <span className="text-[var(--color-fg-subtle)] italic">por decidir</span>
                     )}
                   </li>
                 ))}
               </ul>
-            </div>
+            </Link>
           ))}
         </div>
       </section>
