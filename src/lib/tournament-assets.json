@@ -1,0 +1,54 @@
+{
+  "1970": {
+    "ball": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Telstar_Durlast.jpg"
+  },
+  "1974": {
+    "ball": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Telstar_Durlast.jpg"
+  },
+  "1978": {
+    "mascot": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Logo_Mundial_78.svg/960px-Logo_Mundial_78.svg.png",
+    "ball": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Adidas_Tango.jpg"
+  },
+  "1982": {
+    "ball": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Adidas_Tango.jpg"
+  },
+  "1986": {
+    "mascot": "https://upload.wikimedia.org/wikipedia/en/thumb/7/77/1986_FIFA_World_Cup.svg/250px-1986_FIFA_World_Cup.svg.png",
+    "ball": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Adidas_Azteca.jpg"
+  },
+  "1990": {
+    "mascot": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/1990_FIFA_World_Cup.svg/500px-1990_FIFA_World_Cup.svg.png"
+  },
+  "1994": {
+    "ball": "https://upload.wikimedia.org/wikipedia/commons/5/5f/1994_Questra.jpg"
+  },
+  "1998": {
+    "ball": "https://upload.wikimedia.org/wikipedia/commons/5/5c/1998_-_Tricolore_%28France%29_%284170715889%29.jpg"
+  },
+  "2002": {
+    "mascot": "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/2002_FIFA_World_Cup_logo.svg/250px-2002_FIFA_World_Cup_logo.svg.png",
+    "ball": "https://upload.wikimedia.org/wikipedia/commons/b/be/Deutsches_Fu%C3%9Fballmuseum_2015_2-Fevernova.jpg"
+  },
+  "2006": {
+    "mascot": "https://upload.wikimedia.org/wikipedia/en/0/04/Goleo_and_Pille.png"
+  },
+  "2010": {
+    "mascot": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/Zakumi.svg/330px-Zakumi.svg.png",
+    "ball": "https://upload.wikimedia.org/wikipedia/commons/5/57/Adidas_Jabulani_Official_World_Cup_2010_%284158450149%29.jpg"
+  },
+  "2014": {
+    "mascot": "https://upload.wikimedia.org/wikipedia/en/b/b4/Fuleco.png",
+    "ball": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Brazil_and_Colombia_match_at_the_FIFA_World_Cup_2014-07-04_%2815%29_%28cropped%29.jpg"
+  },
+  "2018": {
+    "mascot": "https://upload.wikimedia.org/wikipedia/en/e/e0/Zabivaka_%28mascot%29.jpg",
+    "ball": "https://upload.wikimedia.org/wikipedia/commons/5/50/Adidas_Telstar_18_in_Russia_vs._Argentina.jpg"
+  },
+  "2022": {
+    "mascot": "https://upload.wikimedia.org/wikipedia/en/2/22/Laeeb_%28mascot%29.jpeg",
+    "ball": "https://upload.wikimedia.org/wikipedia/commons/2/25/Al-Rihla_%28cropped%29.jpg"
+  },
+  "2026": {
+    "ball": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Trionda_%28cropped%29.jpg"
+  }
+}

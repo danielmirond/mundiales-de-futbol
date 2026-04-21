@@ -10,6 +10,7 @@ import { MatchesList } from '@/components/edition/matches-list';
 import { ArchiveVideos } from '@/components/edition/archive-videos';
 import { PressWall } from '@/components/edition/press-wall';
 import { EditionTimeline } from '@/components/edition/edition-timeline';
+import { EditionStory } from '@/components/edition/edition-story';
 
 export function generateStaticParams() {
   return TOURNAMENTS.flatMap((t) =>
@@ -213,6 +214,8 @@ export default async function EditionPage({
           </aside>
         </div>
       </section>
+
+      <EditionStory year={t.year} />
 
       <PressWall year={t.year} locale={locale} />
 
