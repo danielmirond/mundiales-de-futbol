@@ -6,13 +6,38 @@ import { Countdown } from '@/components/home/countdown';
 import { getTournament } from '@/lib/tournaments';
 import { getAllVenues } from '@/lib/data/venues';
 import { routing, type Locale } from '@/i18n/routing';
-import { VENUES_2026, HOSTS, GROUPS_2026, PHASE_DATES } from '@/lib/wc-2026';
+import { VENUES_2026, HOSTS, GROUPS_2026, PHASE_DATES, WC_2026 } from '@/lib/wc-2026';
 import { WC2026Calendar } from '@/components/edition/wc2026-calendar';
 import { WC2026Bracket } from '@/components/edition/wc2026-bracket';
+import { JsonLd, pageMetadata, breadcrumbLd, localeUrl } from '@/lib/seo';
 
 function withLocale(locale: Locale, href: string) {
   if (locale === routing.defaultLocale) return href;
   return `/${locale}${href === '/' ? '' : href}`;
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  return pageMetadata({
+    locale,
+    path: '/2026',
+    title: 'Mundial 2026 · Calendario, sedes y grupos',
+    description:
+      'El primer Mundial de 48 selecciones, organizado por Estados Unidos, México y Canadá del 11 de junio al 19 de julio de 2026. Calendario completo, los 16 estadios, los 12 grupos y el bracket eliminatorio.',
+    keywords: [
+      'Mundial 2026',
+      'Copa del Mundo 2026',
+      'sedes Mundial 2026',
+      'calendario Mundial 2026',
+      'grupos Mundial 2026',
+      'Estados Unidos México Canadá',
+      'Estadio Azteca MetLife',
+    ],
+  });
 }
 
 export default async function NorthAmerica2026Page({
@@ -30,8 +55,41 @@ export default async function NorthAmerica2026Page({
     allVenues.map((v) => [v.slug, v.hero_image_url]),
   );
 
+  const eventLd = {
+    '@context': 'https://schema.org',
+    '@type': 'SportsEvent',
+    name: 'Copa Mundial de la FIFA 2026',
+    alternateName: ['FIFA World Cup 2026', 'Mundial 2026'],
+    sport: 'Football (Association)',
+    startDate: WC_2026.kickoff,
+    endDate: WC_2026.final,
+    eventStatus: 'https://schema.org/EventScheduled',
+    eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
+    location: HOSTS.map((h) => ({
+      '@type': 'Country',
+      name: h.name,
+    })),
+    organizer: {
+      '@type': 'Organization',
+      name: 'FIFA',
+      url: 'https://www.fifa.com',
+    },
+    url: localeUrl(locale, '/2026'),
+    description:
+      'Primer Mundial con 48 selecciones, organizado por Estados Unidos, México y Canadá del 11 de junio al 19 de julio de 2026.',
+  };
+
   return (
     <div>
+      <JsonLd
+        data={[
+          eventLd,
+          breadcrumbLd(locale, [
+            { name: 'Inicio', path: '/' },
+            { name: 'Mundial 2026', path: '/2026' },
+          ]),
+        ]}
+      />
       {/* Hero */}
       <section className="relative flex min-h-[80svh] flex-col justify-end overflow-hidden pb-16 pt-32 md:pb-24 md:pt-40">
         <div className="pointer-events-none absolute inset-0">

@@ -3,10 +3,33 @@ import Image from 'next/image';
 import { setRequestLocale } from 'next-intl/server';
 import { getAllVenues } from '@/lib/data/venues';
 import { routing, type Locale } from '@/i18n/routing';
+import { JsonLd, pageMetadata, breadcrumbLd, localeUrl, SEO } from '@/lib/seo';
 
 function withLocale(locale: Locale, href: string) {
   if (locale === routing.defaultLocale) return href;
   return `/${locale}${href === '/' ? '' : href}`;
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  return pageMetadata({
+    locale,
+    path: '/estadios',
+    title: 'Estadios · Sedes históricas de los Mundiales',
+    description:
+      'Todos los estadios que han albergado partidos de la Copa del Mundo, del Centenario de Montevideo al Estadio Azteca pasando por Wembley, Maracaná y Lusail.',
+    keywords: [
+      'estadios Mundiales',
+      'sedes Copa del Mundo',
+      'Estadio Azteca Maracaná Wembley',
+      'Lusail Stadium',
+      'Centenario Montevideo',
+    ],
+  });
 }
 
 export default async function StadiumsIndexPage({
@@ -18,8 +41,28 @@ export default async function StadiumsIndexPage({
   setRequestLocale(locale);
   const venues = await getAllVenues();
 
+  const collectionLd = {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: 'Estadios mundialistas',
+    url: localeUrl(locale, '/estadios'),
+    isPartOf: { '@type': 'WebSite', name: SEO.siteName, url: SEO.siteUrl },
+    inLanguage: locale,
+    numberOfItems: venues.length,
+    description: 'Listado de todos los estadios que han sido sede de partidos de la Copa del Mundo masculina.',
+  };
+
   return (
     <article className="pt-32">
+      <JsonLd
+        data={[
+          collectionLd,
+          breadcrumbLd(locale, [
+            { name: 'Inicio', path: '/' },
+            { name: 'Estadios', path: '/estadios' },
+          ]),
+        ]}
+      />
       <div className="mx-auto w-full max-w-[1400px] px-6 md:px-10">
         <div className="font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-pitch)]">
           Archivo · Estadios

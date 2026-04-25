@@ -3,10 +3,33 @@ import Image from 'next/image';
 import { setRequestLocale } from 'next-intl/server';
 import { getTopPlayers, getTopScorers, displayPlayerName } from '@/lib/data/players';
 import { routing, type Locale } from '@/i18n/routing';
+import { JsonLd, pageMetadata, breadcrumbLd, localeUrl, SEO } from '@/lib/seo';
 
 function withLocale(locale: Locale, href: string) {
   if (locale === routing.defaultLocale) return href;
   return `/${locale}${href === '/' ? '' : href}`;
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  return pageMetadata({
+    locale,
+    path: '/jugadores',
+    title: 'Jugadores · Top mundialistas y máximos goleadores',
+    description:
+      'Los jugadores con más participaciones en Copas del Mundo, los máximos goleadores históricos y los mundialistas que cambiaron el fútbol. Pelé, Maradona, Messi, Klose, Ronaldo y todos los demás.',
+    keywords: [
+      'jugadores Mundial',
+      'máximos goleadores Copa del Mundo',
+      'mundialistas',
+      'Pelé Maradona Messi',
+      'Bota de Oro Mundiales',
+    ],
+  });
 }
 
 export default async function PlayersIndexPage({
@@ -22,8 +45,28 @@ export default async function PlayersIndexPage({
     getTopScorers(20),
   ]);
 
+  const collectionLd = {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: 'Jugadores mundialistas',
+    url: localeUrl(locale, '/jugadores'),
+    isPartOf: { '@type': 'WebSite', name: SEO.siteName, url: SEO.siteUrl },
+    inLanguage: locale,
+    description:
+      'Listado de los jugadores con más participaciones en Copas del Mundo y los máximos goleadores históricos.',
+  };
+
   return (
     <article className="pt-32">
+      <JsonLd
+        data={[
+          collectionLd,
+          breadcrumbLd(locale, [
+            { name: 'Inicio', path: '/' },
+            { name: 'Jugadores', path: '/jugadores' },
+          ]),
+        ]}
+      />
       <div className="mx-auto w-full max-w-[1400px] px-6 md:px-10">
         <div className="font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-pitch)]">
           Archivo · Jugadores

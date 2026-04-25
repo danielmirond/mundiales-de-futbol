@@ -8,6 +8,8 @@ import { SiteNav } from '@/components/nav/site-nav';
 import { SiteFooter } from '@/components/nav/site-footer';
 import { CookieBanner } from '@/components/shared/cookie-banner';
 import { GatedAnalytics } from '@/components/shared/gated-analytics';
+import { GoogleAnalytics } from '@/components/shared/google-analytics';
+import { JsonLd, organizationLd, websiteLd, hreflangAlternates, SEO } from '@/lib/seo';
 import '../globals.css';
 
 const geistSans = Geist({ subsets: ['latin'], variable: '--font-geist-sans' });
@@ -32,22 +34,51 @@ export async function generateMetadata({
   const { locale } = await params;
   const validLocale = hasLocale(routing.locales, locale) ? locale : routing.defaultLocale;
   const t = await getTranslations({ locale: validLocale, namespace: 'meta' });
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://mundiales-de-futbol.com';
+  // Verification tokens — read from env so we don't hardcode them.
+  // Configura NEXT_PUBLIC_GSC_VERIFICATION y NEXT_PUBLIC_BING_VERIFICATION
+  // en Vercel para activar la verificación.
+  const verification: Metadata['verification'] = {};
+  const gsc = process.env.NEXT_PUBLIC_GSC_VERIFICATION;
+  const bing = process.env.NEXT_PUBLIC_BING_VERIFICATION;
+  if (gsc) verification.google = gsc;
+  if (bing) verification.other = { 'msvalidate.01': bing };
+
   return {
-    metadataBase: new URL(siteUrl),
+    metadataBase: new URL(SEO.siteUrl),
     title: { default: t('title'), template: t('titleTemplate') },
     description: t('description'),
+    verification,
+    // Universal Discover-friendly + SERP-friendly directives
+    robots: {
+      index: true,
+      follow: true,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+      'max-video-preview': -1,
+    },
+    alternates: {
+      languages: hreflangAlternates('/'),
+    },
     openGraph: {
       type: 'website',
       title: t('title'),
       description: t('description'),
       siteName: t('title'),
-      url: siteUrl,
+      url: SEO.siteUrl,
+      images: [
+        {
+          url: SEO.defaultOgImage,
+          width: 1200,
+          height: 630,
+          alt: t('title'),
+        },
+      ],
     },
     twitter: {
       card: 'summary_large_image',
       title: t('title'),
       description: t('description'),
+      images: [SEO.defaultOgImage],
     },
   };
 }
@@ -72,6 +103,7 @@ export default async function LocaleLayout({
       className={`${geistSans.variable} ${geistMono.variable} ${bebasNeue.variable} ${notoArabic.variable}`}
     >
       <body className="bg-[var(--color-bg)] text-[var(--color-fg)] antialiased">
+        <JsonLd data={[organizationLd(), websiteLd(locale as Locale)]} />
         <NextIntlClientProvider>
           <div aria-hidden className="vignette-fixed" />
           <div className="relative flex min-h-screen flex-col">
@@ -81,6 +113,7 @@ export default async function LocaleLayout({
           </div>
           <CookieBanner />
           <GatedAnalytics />
+          <GoogleAnalytics />
         </NextIntlClientProvider>
       </body>
     </html>

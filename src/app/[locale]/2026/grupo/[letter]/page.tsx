@@ -10,7 +10,7 @@ import {
   VENUES_2026,
 } from '@/lib/wc-2026';
 import { routing, type Locale } from '@/i18n/routing';
-import { JsonLd } from '@/lib/seo';
+import { JsonLd, pageMetadata, breadcrumbLd } from '@/lib/seo';
 
 function withLocale(locale: Locale, href: string) {
   if (locale === routing.defaultLocale) return href;
@@ -28,15 +28,22 @@ export async function generateMetadata({
 }: {
   params: Promise<{ locale: string; letter: string }>;
 }) {
-  const { letter } = await params;
+  const { locale, letter } = await params;
   const up = letter.toUpperCase();
   const g = GROUPS_2026.find((x) => x.letter === up);
   if (!g) return {};
   const teams = g.teams.filter(Boolean) as string[];
-  return {
+  return pageMetadata({
+    locale,
+    path: `/2026/grupo/${up.toLowerCase()}`,
     title: `Grupo ${up} · Mundial 2026`,
-    description: `Equipos, calendario y tabla del Grupo ${up}: ${teams.join(', ')}.`,
-  };
+    description: `Equipos, calendario, sedes y tabla del Grupo ${up} del Mundial 2026: ${teams.join(', ')}.`,
+    keywords: [
+      `Grupo ${up} Mundial 2026`,
+      ...teams.map((t) => `${t} Mundial 2026`),
+      'grupos Copa del Mundo 2026',
+    ],
+  });
 }
 
 function formatLongDate(iso: string) {

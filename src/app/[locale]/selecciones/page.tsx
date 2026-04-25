@@ -2,10 +2,33 @@ import Link from 'next/link';
 import { setRequestLocale } from 'next-intl/server';
 import { getAllTeamsRanked, teamDisplayName } from '@/lib/data/teams';
 import { routing, type Locale } from '@/i18n/routing';
+import { JsonLd, pageMetadata, breadcrumbLd, localeUrl, SEO } from '@/lib/seo';
 
 function withLocale(locale: Locale, href: string) {
   if (locale === routing.defaultLocale) return href;
   return `/${locale}${href === '/' ? '' : href}`;
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  return pageMetadata({
+    locale,
+    path: '/selecciones',
+    title: 'Selecciones · Todas las nacionales mundialistas',
+    description:
+      'Las selecciones que han disputado un Mundial de fútbol: campeones, finalistas y debutantes. De Brasil y Alemania a las selecciones que solo han tocado la copa una vez.',
+    keywords: [
+      'selecciones mundialistas',
+      'campeones Copa del Mundo',
+      'Brasil Mundial',
+      'Argentina Alemania Italia',
+      'naciones FIFA',
+    ],
+  });
 }
 
 export default async function SelectionsIndexPage({
@@ -20,8 +43,28 @@ export default async function SelectionsIndexPage({
   const champions = teams.filter((t) => t.titles > 0);
   const others = teams.filter((t) => t.titles === 0);
 
+  const collectionLd = {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: 'Selecciones mundialistas',
+    url: localeUrl(locale, '/selecciones'),
+    isPartOf: { '@type': 'WebSite', name: SEO.siteName, url: SEO.siteUrl },
+    inLanguage: locale,
+    numberOfItems: teams.length,
+    description: 'Listado de todas las selecciones nacionales que han participado en una Copa del Mundo.',
+  };
+
   return (
     <article className="pt-32">
+      <JsonLd
+        data={[
+          collectionLd,
+          breadcrumbLd(locale, [
+            { name: 'Inicio', path: '/' },
+            { name: 'Selecciones', path: '/selecciones' },
+          ]),
+        ]}
+      />
       <div className="mx-auto w-full max-w-[1400px] px-6 md:px-10">
         <div className="font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-pitch)]">
           Archivo · Selecciones
