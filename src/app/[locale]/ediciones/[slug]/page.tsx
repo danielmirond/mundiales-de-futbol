@@ -57,7 +57,7 @@ export async function generateMetadata({
       description,
       url,
       siteName: 'Mundial de Fútbol',
-      images: t.heroImageUrl ? [{ url: t.heroImageUrl, width: 1200, height: 630, alt: title }] : undefined,
+      images: t.heroImageUrl ? [{ url: t.heroImageUrl, width: 1200, height: 675, alt: title }] : undefined,
     },
     twitter: {
       card: 'summary_large_image',

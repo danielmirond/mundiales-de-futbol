@@ -65,20 +65,14 @@ export async function generateMetadata({
       description: t('description'),
       siteName: t('title'),
       url: SEO.siteUrl,
-      images: [
-        {
-          url: SEO.defaultOgImage,
-          width: 1200,
-          height: 630,
-          alt: t('title'),
-        },
-      ],
+      // El OG image lo aporta automáticamente
+      // src/app/[locale]/opengraph-image.tsx (1200×675).
     },
     twitter: {
       card: 'summary_large_image',
       title: t('title'),
       description: t('description'),
-      images: [SEO.defaultOgImage],
+      // Twitter image automático vía src/app/[locale]/twitter-image.tsx.
     },
   };
 }

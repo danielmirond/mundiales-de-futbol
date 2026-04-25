@@ -4,12 +4,18 @@ import { routing, type Locale } from '@/i18n/routing';
 const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL ?? 'https://mundiales-de-futbol.com';
 const SITE_NAME = 'Mundial de Fútbol';
-const DEFAULT_OG_IMAGE = `${SITE_URL}/og-default.jpg`; // 1200×630 fallback
+
+// Discover-friendly default ratio: 1200×675 (16:9). Matches the historias
+// covers and what Google Discover prefers. Si la página no aporta `image`,
+// Next.js sirve `app/[locale]/opengraph-image.tsx` automáticamente.
+const OG_DEFAULT_W = 1200;
+const OG_DEFAULT_H = 675;
 
 export const SEO = {
   siteUrl: SITE_URL,
   siteName: SITE_NAME,
-  defaultOgImage: DEFAULT_OG_IMAGE,
+  ogWidth: OG_DEFAULT_W,
+  ogHeight: OG_DEFAULT_H,
 };
 
 /** Render a JSON-LD `<script>` tag safely for App Router. */
@@ -70,17 +76,25 @@ export type PageMetadataOptions = {
  * Always emits:
  *   - canonical + hreflang alternates
  *   - robots with `max-image-preview: large` (Discover-friendly)
- *   - OG image (1200×630 fallback if none provided)
  *   - Twitter summary_large_image card
+ *
+ * Cuando `opts.image` no se aporta, NO se inyecta `openGraph.images`:
+ * Next.js usará automáticamente `app/[locale]/opengraph-image.tsx`
+ * (1200×675 brand fallback dinámico).
  */
 export function pageMetadata(opts: PageMetadataOptions): Metadata {
   const url = localeUrl(opts.locale, opts.path);
-  const image = opts.image ?? {
-    url: DEFAULT_OG_IMAGE,
-    width: 1200,
-    height: 630,
-    alt: SITE_NAME,
-  };
+
+  const ogImages = opts.image
+    ? [
+        {
+          url: opts.image.url,
+          width: opts.image.width ?? OG_DEFAULT_W,
+          height: opts.image.height ?? OG_DEFAULT_H,
+          alt: opts.image.alt ?? opts.title,
+        },
+      ]
+    : undefined;
 
   return {
     title: opts.title,
@@ -99,14 +113,7 @@ export function pageMetadata(opts: PageMetadataOptions): Metadata {
       description: opts.description,
       url,
       siteName: SITE_NAME,
-      images: [
-        {
-          url: image.url,
-          width: image.width ?? 1200,
-          height: image.height ?? 630,
-          alt: image.alt ?? opts.title,
-        },
-      ],
+      ...(ogImages ? { images: ogImages } : {}),
       ...(opts.type === 'article' && opts.publishedTime
         ? { publishedTime: opts.publishedTime }
         : {}),
@@ -121,7 +128,7 @@ export function pageMetadata(opts: PageMetadataOptions): Metadata {
       card: 'summary_large_image',
       title: opts.title,
       description: opts.description,
-      images: [image.url],
+      ...(opts.image ? { images: [opts.image.url] } : {}),
     },
   };
 }
