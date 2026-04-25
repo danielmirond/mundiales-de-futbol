@@ -15,6 +15,7 @@ import { PitchFormation } from '@/components/edition/pitch-formation';
 import { MatchPressWall } from '@/components/edition/press-wall';
 import { ShotMap } from '@/components/edition/shot-map';
 import { JsonLd, pageMetadata, breadcrumbLd } from '@/lib/seo';
+import { getIconicName } from '@/lib/match-iconic';
 import { routing, type Locale } from '@/i18n/routing';
 
 function withLocale(locale: Locale, href: string) {
@@ -54,10 +55,18 @@ export async function generateMetadata({
       ? `${match.home_score}-${match.away_score}`
       : '';
   const stage = match.stage ? STAGE_LABEL_ES[match.stage] ?? match.stage : '';
-  // Patrón SEO confirmado: "Argentina - Inglaterra | Mundial México 1986 partido de cuartos"
   const stageLower = stage.toLowerCase().replace('octavos de final', 'octavos').replace('cuartos de final', 'cuartos');
-  const title = `${home} - ${away} | Mundial ${tournament.host} ${tournament.year} partido de ${stageLower}`;
-  const description = `${home} ${score ? score + ' ' : ''}${away} en ${stage} del Mundial ${tournament.year} (${tournament.host}). Alineaciones, goles, eventos minuto a minuto y crónica del partido.`;
+
+  // Patrón confirmado:
+  //   normal: "Argentina - Inglaterra | Mundial México 1986 partido de cuartos"
+  //   iconic: "La Mano de Dios — Argentina 2-1 Inglaterra | Mundial 1986"
+  const iconic = getIconicName(tournament.year, matchNumber);
+  const title = iconic
+    ? `${iconic} — ${home} ${score} ${away} | Mundial ${tournament.year}`
+    : `${home} - ${away} | Mundial ${tournament.host} ${tournament.year} partido de ${stageLower}`;
+  const description = iconic
+    ? `${iconic}: ${home} ${score} ${away} en ${stage} del Mundial ${tournament.year} (${tournament.host}). Alineaciones, goles, eventos minuto a minuto y crónica del partido.`
+    : `${home} ${score ? score + ' ' : ''}${away} en ${stage} del Mundial ${tournament.year} (${tournament.host}). Alineaciones, goles, eventos minuto a minuto y crónica del partido.`;
   return pageMetadata({
     locale,
     path: `/ediciones/${slug}/partido/${n}`,

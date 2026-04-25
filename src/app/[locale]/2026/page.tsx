@@ -83,11 +83,50 @@ export default async function NorthAmerica2026Page({
       'Primer Mundial con 48 selecciones, organizado por Estados Unidos, México y Canadá del 11 de junio al 19 de julio de 2026.',
   };
 
+  // FAQPage schema — preguntas de alto volumen relacionadas con el Mundial 2026.
+  // Las respuestas también se renderizan visualmente abajo (FAQ visible).
+  const faq = [
+    {
+      q: '¿Cuándo empieza el Mundial 2026?',
+      a: 'El Mundial 2026 se inaugura el jueves 11 de junio de 2026 con el partido México-Sudáfrica en el Estadio Azteca de Ciudad de México (13:00 hora local).',
+    },
+    {
+      q: '¿Cuándo es la final del Mundial 2026?',
+      a: 'La final del Mundial 2026 se jugará el domingo 19 de julio de 2026 en el MetLife Stadium de Nueva Jersey (15:00 ET).',
+    },
+    {
+      q: '¿Dónde se juega el Mundial 2026?',
+      a: 'El Mundial 2026 se disputa en 16 estadios repartidos por tres países: 11 en Estados Unidos, 3 en México (Azteca, Akron y BBVA) y 2 en Canadá (BMO Field de Toronto y BC Place de Vancouver).',
+    },
+    {
+      q: '¿Cuántas selecciones participan en el Mundial 2026?',
+      a: 'Por primera vez en la historia, 48 selecciones disputan la fase final, repartidas en 12 grupos de 4 equipos. Antes eran 32.',
+    },
+    {
+      q: '¿En qué grupo está España en el Mundial 2026?',
+      a: 'España juega en el Grupo H junto a Uruguay, Arabia Saudí y Cabo Verde. Debuta el 15 de junio contra Cabo Verde en el Mercedes-Benz Stadium de Atlanta.',
+    },
+    {
+      q: '¿Cuántos partidos se juegan en el Mundial 2026?',
+      a: 'Se disputan 104 partidos en total: 72 de fase de grupos, 16 de dieciseisavos, 8 de octavos, 4 de cuartos, 2 semifinales, el partido por el tercer puesto y la final.',
+    },
+  ];
+  const faqLd = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faq.map(({ q, a }) => ({
+      '@type': 'Question',
+      name: q,
+      acceptedAnswer: { '@type': 'Answer', text: a },
+    })),
+  };
+
   return (
     <div>
       <JsonLd
         data={[
           eventLd,
+          faqLd,
           breadcrumbLd(locale, [
             { name: 'Inicio', path: '/' },
             { name: 'Mundial 2026', path: '/2026' },
@@ -303,6 +342,32 @@ export default async function NorthAmerica2026Page({
 
       <WC2026Bracket />
       <WC2026Calendar locale={locale as Locale} />
+
+      {/* FAQ — preguntas de alto volumen sobre el Mundial 2026.
+          Empareja con FAQPage JSON-LD para captar Rich Snippets. */}
+      <section className="mx-auto w-full max-w-[1100px] px-6 py-20 md:px-10 md:py-28">
+        <div className="font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-pitch)]">
+          Preguntas frecuentes · Mundial 2026
+        </div>
+        <h2 className="mt-4 font-display text-fluid-h2 uppercase leading-[0.95]">
+          Lo que más se busca sobre el Mundial 2026
+        </h2>
+        <div className="mt-10 divide-y divide-[var(--color-border)] border-t border-b border-[var(--color-border)]">
+          {faq.map(({ q, a }) => (
+            <details key={q} className="group py-5">
+              <summary className="flex cursor-pointer items-start justify-between gap-6 text-base md:text-lg">
+                <span className="font-medium text-[var(--color-fg)]">{q}</span>
+                <span className="mt-1 inline-flex h-5 w-5 flex-shrink-0 items-center justify-center font-mono text-sm text-[var(--color-fg-subtle)] transition-transform group-open:rotate-45">
+                  +
+                </span>
+              </summary>
+              <p className="mt-4 max-w-[68ch] text-base leading-relaxed text-[var(--color-fg-muted)]">
+                {a}
+              </p>
+            </details>
+          ))}
+        </div>
+      </section>
 
       <div className="mt-8 pb-24 flex justify-center">
         <Link
