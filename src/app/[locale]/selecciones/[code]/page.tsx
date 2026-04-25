@@ -7,6 +7,7 @@ import { getTournament, TOURNAMENTS } from '@/lib/tournaments';
 import { STAGE_LABEL_ES } from '@/lib/data/matches';
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd } from '@/lib/seo';
+import { TeamPhotoGallery } from '@/components/team/team-photo-gallery';
 
 function withLocale(locale: Locale, href: string) {
   if (locale === routing.defaultLocale) return href;
@@ -303,6 +304,9 @@ export default async function SelectionDetailPage({
           })}
         </div>
       </section>
+
+      {/* Galería de fotos icónicas (si hay) — Wikimedia Commons curado */}
+      <TeamPhotoGallery teamCode={team.code} teamName={teamDisplayName(team)} locale={locale} />
     </div>
   );
 }
