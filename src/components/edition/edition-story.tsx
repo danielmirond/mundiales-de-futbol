@@ -62,16 +62,33 @@ export function EditionStory({ year }: { year: number }) {
                 </div>
               </div>
               {story.anthem.youtubeId && (
-                <div className="mt-auto overflow-hidden rounded-2xl">
-                  <iframe
-                    src={`https://www.youtube-nocookie.com/embed/${story.anthem.youtubeId}`}
-                    title={story.anthem.title}
+                // FIFA bloquea embed en muchos vídeos. Tarjeta clickable
+                // con thumbnail → YouTube en pestaña nueva (siempre funciona).
+                <a
+                  href={`https://www.youtube.com/watch?v=${story.anthem.youtubeId}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group/anthem relative mt-auto block aspect-video w-full overflow-hidden rounded-2xl bg-black"
+                  aria-label={`Ver "${story.anthem.title}" en YouTube`}
+                >
+                  <img
+                    src={`https://i.ytimg.com/vi/${story.anthem.youtubeId}/hqdefault.jpg`}
+                    alt={story.anthem.title}
                     loading="lazy"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                    className="block aspect-video w-full"
+                    className="h-full w-full object-cover transition-transform group-hover/anthem:scale-105"
                   />
-                </div>
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <div className="flex h-14 w-14 items-center justify-center rounded-full bg-[var(--color-pitch)] text-black shadow-lg transition-transform group-hover/anthem:scale-110">
+                      <svg viewBox="0 0 24 24" className="h-6 w-6 fill-current ml-1">
+                        <path d="M8 5v14l11-7z" />
+                      </svg>
+                    </div>
+                  </div>
+                  <div className="absolute bottom-2 right-2 rounded-full bg-black/60 px-2.5 py-1 font-mono text-[9px] uppercase tracking-[0.2em] text-white backdrop-blur-sm">
+                    YouTube
+                  </div>
+                </a>
               )}
             </div>
           ) : null}
@@ -171,14 +188,32 @@ export function EditionStory({ year }: { year: number }) {
             {/* Video / visual side */}
             <div className="relative overflow-hidden rounded-2xl bg-black/40">
               {story.bestGoal.youtubeId ? (
-                <iframe
-                  src={`https://www.youtube-nocookie.com/embed/${story.bestGoal.youtubeId}`}
-                  title={story.bestGoal.title}
-                  loading="lazy"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                  className="block aspect-video w-full"
-                />
+                // FIFA bloquea embed → tarjeta clickable que abre YouTube
+                <a
+                  href={`https://www.youtube.com/watch?v=${story.bestGoal.youtubeId}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group/best relative block aspect-video w-full overflow-hidden bg-black"
+                  aria-label={`Ver "${story.bestGoal.title}" en YouTube`}
+                >
+                  <img
+                    src={`https://i.ytimg.com/vi/${story.bestGoal.youtubeId}/hqdefault.jpg`}
+                    alt={story.bestGoal.title}
+                    loading="lazy"
+                    className="h-full w-full object-cover transition-transform group-hover/best:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <div className="flex h-16 w-16 items-center justify-center rounded-full bg-emerald-400 text-black shadow-lg transition-transform group-hover/best:scale-110">
+                      <svg viewBox="0 0 24 24" className="h-7 w-7 fill-current ml-1">
+                        <path d="M8 5v14l11-7z" />
+                      </svg>
+                    </div>
+                  </div>
+                  <div className="absolute bottom-3 right-3 rounded-full bg-black/60 px-3 py-1 font-mono text-[10px] uppercase tracking-[0.2em] text-white backdrop-blur-sm">
+                    YouTube
+                  </div>
+                </a>
               ) : (
                 <div className="flex aspect-video w-full items-center justify-center bg-gradient-to-br from-emerald-500/10 via-transparent to-transparent p-8 text-center">
                   <div>
