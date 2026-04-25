@@ -73,6 +73,63 @@ export async function getTopPlayers(limit = 60): Promise<PlayerStats[]> {
   }
 }
 
+/** Players ordered by yellow cards received in World Cups. */
+export async function getPlayersByYellows(limit = 30): Promise<PlayerStats[]> {
+  try {
+    const supabase = await createClient();
+    const { data, error } = await supabase
+      .from('player_stats')
+      .select(SELECT_COLUMNS)
+      .gt('yellows', 0)
+      .order('yellows', { ascending: false })
+      .order('wc_count', { ascending: false })
+      .limit(limit);
+    if (error) throw error;
+    return (data ?? []) as unknown as PlayerStats[];
+  } catch (err) {
+    console.error('getPlayersByYellows:', err);
+    return [];
+  }
+}
+
+/** Players ordered by red cards received in World Cups. */
+export async function getPlayersByReds(limit = 30): Promise<PlayerStats[]> {
+  try {
+    const supabase = await createClient();
+    const { data, error } = await supabase
+      .from('player_stats')
+      .select(SELECT_COLUMNS)
+      .gt('reds', 0)
+      .order('reds', { ascending: false })
+      .order('yellows', { ascending: false })
+      .limit(limit);
+    if (error) throw error;
+    return (data ?? []) as unknown as PlayerStats[];
+  } catch (err) {
+    console.error('getPlayersByReds:', err);
+    return [];
+  }
+}
+
+/** Players ordered by own_goals scored. */
+export async function getPlayersByOwnGoals(limit = 30): Promise<PlayerStats[]> {
+  try {
+    const supabase = await createClient();
+    const { data, error } = await supabase
+      .from('player_stats')
+      .select(SELECT_COLUMNS)
+      .gt('own_goals', 0)
+      .order('own_goals', { ascending: false })
+      .order('wc_count', { ascending: false })
+      .limit(limit);
+    if (error) throw error;
+    return (data ?? []) as unknown as PlayerStats[];
+  } catch (err) {
+    console.error('getPlayersByOwnGoals:', err);
+    return [];
+  }
+}
+
 /** Players ordered by total minutes played in World Cups. */
 export async function getPlayersByMinutes(limit = 30): Promise<PlayerStats[]> {
   try {

@@ -70,7 +70,7 @@ const RECORDS = [
     badge: 'Top 20',
     color: 'text-yellow-300',
     accent: 'border-yellow-500/30 bg-yellow-500/5',
-    available: false,
+    available: true,
   },
   {
     slug: 'mas-rojas',
@@ -80,7 +80,7 @@ const RECORDS = [
     badge: 'Lista completa',
     color: 'text-red-300',
     accent: 'border-red-500/30 bg-red-500/5',
-    available: false,
+    available: true,
   },
   {
     slug: 'goles-en-propia',
@@ -90,7 +90,7 @@ const RECORDS = [
     badge: 'Lista completa',
     color: 'text-fuchsia-300',
     accent: 'border-fuchsia-500/30 bg-fuchsia-500/5',
-    available: false,
+    available: true,
   },
   {
     slug: 'selecciones-mas-tarjetas',
@@ -100,7 +100,7 @@ const RECORDS = [
     badge: 'Ranking',
     color: 'text-orange-300',
     accent: 'border-orange-500/30 bg-orange-500/5',
-    available: false,
+    available: true,
   },
 ];
 

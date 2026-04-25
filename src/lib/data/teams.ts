@@ -241,3 +241,65 @@ export async function getTeamTopScorers(code: string, limit = 10): Promise<TeamT
     return [];
   }
 }
+
+export type TeamCardsRow = {
+  team_code: string;
+  team_name: string;
+  yellows: number;
+  reds: number;
+  total: number;
+};
+
+/**
+ * Ranking de selecciones por tarjetas en Mundiales.
+ * Agrega match_events por team_code: yellows + reds.
+ * Ordenado por reds desc, después por yellows.
+ */
+export async function getTeamCardsRanking(limit = 30): Promise<TeamCardsRow[]> {
+  try {
+    const supabase = await createClient();
+    const { data, error } = await supabase
+      .from('match_events')
+      .select('team_code, event_type')
+      .in('event_type', ['yellow', 'red', 'yellow_red']);
+    if (error) throw error;
+
+    const counts = new Map<string, { yellows: number; reds: number }>();
+    for (const e of (data ?? []) as { team_code: string | null; event_type: string }[]) {
+      if (!e.team_code) continue;
+      const cur = counts.get(e.team_code) ?? { yellows: 0, reds: 0 };
+      if (e.event_type === 'yellow') cur.yellows++;
+      else if (e.event_type === 'red') cur.reds++;
+      else if (e.event_type === 'yellow_red') {
+        cur.yellows++;
+        cur.reds++;
+      }
+      counts.set(e.team_code, cur);
+    }
+
+    // Resolver nombres de equipo
+    const codes = [...counts.keys()];
+    const { data: teams } = await supabase
+      .from('teams')
+      .select('code, name_official, name_es')
+      .in('code', codes);
+    const nameByCode = new Map<string, string>();
+    for (const t of (teams ?? []) as { code: string; name_official: string | null; name_es: string | null }[]) {
+      nameByCode.set(t.code, t.name_es ?? t.name_official ?? t.code);
+    }
+
+    return [...counts.entries()]
+      .map(([code, c]) => ({
+        team_code: code,
+        team_name: nameByCode.get(code) ?? code,
+        yellows: c.yellows,
+        reds: c.reds,
+        total: c.yellows + c.reds,
+      }))
+      .sort((a, b) => b.reds - a.reds || b.yellows - a.yellows)
+      .slice(0, limit);
+  } catch (err) {
+    console.error('getTeamCardsRanking:', err);
+    return [];
+  }
+}
