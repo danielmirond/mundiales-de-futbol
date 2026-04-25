@@ -45,6 +45,24 @@ export const CATEGORY_LABELS: Record<HistoriaCategory, string> = {
   mixta: 'Mixta',
 };
 
+/**
+ * Imagen de portada — Discover-friendly.
+ * Servimos siempre 1200×675 (16:9) para que Google Discover, Open Graph
+ * y Twitter Cards reciban la misma proporción ideal.
+ *
+ * Fuentes preferentes (en orden):
+ *  1. Wikimedia Commons (license libre) → URL con `/thumb/.../1200px-...`
+ *  2. FIFA Digital Hub
+ *  3. Generación propia con tipografía sobre fondo neutro
+ */
+export type HistoriaCover = {
+  url: string; // 1200×675 idealmente
+  alt: string;
+  credit: string; // p.e. "Foto: Eduardo Longoni / dominio público"
+  license: string; // p.e. "CC BY-SA 4.0", "Public Domain", "Fair use"
+  source?: string; // URL a la página de origen (Wikimedia, etc.)
+};
+
 export type Historia = {
   n: number;
   slug: string;
@@ -61,6 +79,7 @@ export type Historia = {
   title: string;
   excerpt: string;
   body: string; // párrafos separados por \n\n
+  cover?: HistoriaCover;
 };
 
 export const HISTORIAS: Historia[] = [
@@ -87,6 +106,13 @@ export const HISTORIAS: Historia[] = [
     title: 'La Mano de Dios: la frase que convirtió un gol ilegal en mito',
     excerpt:
       'El 22 de junio de 1986 Maradona empujó el balón con la mano izquierda. Al día siguiente acuñó la frase más citada del deporte mundial.',
+    cover: {
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Maradona-Mundial_86_con_la_copa.JPG?width=1200',
+      alt: 'Diego Maradona levanta la Copa del Mundo en el Estadio Azteca, 29 de junio de 1986',
+      credit: 'Foto: El Gráfico, 1986',
+      license: 'Dominio público',
+      source: 'https://commons.wikimedia.org/wiki/File:Maradona-Mundial_86_con_la_copa.JPG',
+    },
     body: `El 22 de junio de 1986, en el Estadio Azteca, Diego Armando Maradona marcó dos goles que resumen toda la contradicción del fútbol. El más polémico y el más hermoso de la historia, separados por cuatro minutos, en el mismo partido. Argentina-Inglaterra, cuartos de final del Mundial de México. Para entender la dimensión moral de aquellos diez minutos hay que retroceder cuatro años: en abril de 1982, la junta militar argentina había invadido las islas Malvinas; en junio, el Reino Unido las recuperaba dejando 649 muertos argentinos y 255 británicos. Cuatro años después, los dos países se cruzaban por primera vez en una cancha. Maradona lo dijo con todas las letras tiempo después: «era como matar a un policía».
 
 El primer gol llegó al minuto 51. Steve Hodge despejó mal hacia su área, Maradona saltó contra el portero Peter Shilton —veinte centímetros más alto— y empujó el balón con la mano izquierda. El árbitro tunecino Ali Bin Nasser no lo vio. Su asistente búlgaro, Bogdan Dotchev, tampoco. Maradona corrió a celebrar mirando de reojo a sus compañeros, pidiéndoles con un gesto que le acompañasen para que el gol no se anulara. Sabía perfectamente lo que había hecho.
@@ -118,6 +144,13 @@ Cuarenta años después, la frase sigue siendo la más citada de la historia del
     title: 'Lineker y la profecía alemana: la frase que resumió tres décadas de fútbol',
     excerpt:
       'Italia 90, semifinal en Turín, Inglaterra eliminada en penales. Las palabras de Gary Lineker se convirtieron en ley universal del fútbol.',
+    cover: {
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Gary_Lineker_(cropped).jpg?width=1200',
+      alt: 'Retrato de Gary Lineker, exdelantero de la selección inglesa y autor de la profecía alemana',
+      credit: 'Foto: Liton Ali',
+      license: 'CC BY 2.0',
+      source: 'https://commons.wikimedia.org/wiki/File:Gary_Lineker_(cropped).jpg',
+    },
     body: `Cuando Gary Lineker pronunció esa frase a la salida del Stadio delle Alpi en julio de 1990, no estaba intentando ser ingenioso. Estaba describiendo lo que acababa de vivir. Inglaterra había empatado 1-1 con Alemania Federal en la semifinal del Mundial. Andreas Brehme había abierto el marcador con un disparo desviado por Paul Parker que se convirtió en parábola y descolocó a Peter Shilton. Lineker, a ocho minutos del final, marcó el empate tras una jugada larga y un pase de Parker. El tiempo extra terminó sin más goles. Y en los penales, Stuart Pearce y Chris Waddle fallaron. Alemania ganó 4-3 en la tanda. Inglaterra volvió a casa.
 
 La memoria colectiva inglesa de aquella noche está fijada por las lágrimas de Paul Gascoigne, llorando antes de los penales porque sabía que, si llegaban a la final, él no la jugaría por estar amonestado. Esa imagen, distribuida por la BBC en directo, cambió la percepción británica del fútbol: el juego dejó de ser cosa de hooligans y se volvió, también, cosa de sentimientos. Pero la frase definitiva no la pronunció ningún periodista, sino un futbolista que tenía 29 años, había sido máximo goleador del Mundial 86 con seis goles y conocía a los alemanes mejor que nadie en su selección.
@@ -149,6 +182,13 @@ Pero el fútbol también arruina sus propias reglas. En Brasil 2018, Alemania ca
     title: 'Maradona: «quiero volver a nacer y ser Diego Maradona»',
     excerpt:
       'Una frase de 1992 que Marca rescató como portada el día que murió. La autodefinición más honesta —y más insolente— de un dios.',
+    cover: {
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Maradona_diario_cronica_1971_copia.jpg?width=1200',
+      alt: 'Maradona niño con un balón, captado por el diario Crónica en noviembre de 1971',
+      credit: 'Foto: Diario Crónica, 1 de noviembre de 1971',
+      license: 'Dominio público',
+      source: 'https://commons.wikimedia.org/wiki/File:Maradona_diario_cronica_1971_copia.jpg',
+    },
     body: `Hay un género literario menor pero implacable: las frases que un futbolista dice en vida y que terminan, treinta años después, sirviendo de epitafio. Maradona, que era escritor además de futbolista, dijo la suya en 1992. Tenía 32 años. Acababa de pasar quince meses suspendido por su positivo de cocaína en el Nápoles, había vuelto a vivir a Argentina y firmaba con el Sevilla de Bilardo. La carrera, técnicamente, no había terminado. Pero la mejor parte sí. Y Maradona lo sabía.
 
 «Si me muero, quiero volver a nacer y ser futbolista, y quiero volver a ser Diego Maradona». La frase es una operación lingüística doble: primero acepta la posibilidad de la propia muerte; luego la convierte en privilegio. Volver a vivir, sugiere Maradona, solo tiene sentido si vuelves a ser el mismo. Cualquier otra biografía sería una rebaja. Cualquier otro talento, un consuelo. Cualquier otra época, una traición a la que vivió.
@@ -181,6 +221,13 @@ Hay una segunda lectura, más política, que también merece ser dicha. Maradona
     title: 'Barrilete cósmico: el relato que cambió la narración deportiva',
     excerpt:
       'Cincuenta y cinco segundos de Víctor Hugo Morales. El relato del Gol del Siglo es la pieza de radio más célebre de la historia del fútbol.',
+    cover: {
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Estadio_Azteca.jpg?width=1200',
+      alt: 'Estadio Azteca de Ciudad de México, escenario del Gol del Siglo el 22 de junio de 1986',
+      credit: 'Foto: Aalizul / Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+      source: 'https://commons.wikimedia.org/wiki/File:Estadio_Azteca.jpg',
+    },
     body: `El Gol del Siglo dura 10,8 segundos en el reloj. Maradona arranca desde su propio campo, sortea a Peter Beardsley y Peter Reid en mediocampo, encara a Terry Butcher, lo deja en el sitio, finta sobre Terry Fenwick y a continuación deja también atrás a Butcher, que vuelve corriendo. Llega al área, encara a Peter Shilton, abre el cuerpo y empuja el balón con el interior del pie izquierdo a la red vacía. Es el 22 de junio de 1986, minuto 55 del Argentina-Inglaterra. Cuatro minutos después de la Mano de Dios. La FIFA lo elegiría dieciséis años después como Gol del Siglo en una votación abierta entre aficionados de todo el mundo.
 
 Pero el gol no termina cuando entra. Termina cuando Víctor Hugo Morales, narrador uruguayo radicado en Argentina, encuentra las palabras desde la cabina de Radio Argentina. La narración empieza con la elevación de la voz a medida que Maradona avanza —«la tiene Maradona, lo marcan dos, pisa la pelota Maradona, arranca por la derecha el genio del fútbol mundial»— y se convierte progresivamente en un torrente: «deja al tercero y va a tocar para Burruchaga... ¡siempre Maradona! ¡Genio! ¡Genio! ¡Genio! ta-ta-ta-ta-ta-ta-ta». Cuando el balón entra: «Gooool. Gooool. ¡Quiero llorar, Dios santo! ¡Viva el fútbol! Golazooo, Diegoool, Maradonaaa».
@@ -213,6 +260,13 @@ Cuarenta años después, el audio sigue circulando en su versión original o rem
     title: '«Me cortaron las piernas»: el final del Maradona mundialista',
     excerpt:
       'Junio de 1994. Maradona da positivo por efedrina y queda fuera de USA 94. Pronuncia la frase que se convirtió en epitafio de su carrera con la albiceleste.',
+    cover: {
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Maradona_con_equipo_argentinos_jrs_1972.jpg?width=1200',
+      alt: 'Diego Maradona con el primer equipo de Argentinos Juniors, 1972, dos décadas antes del Mundial USA 94',
+      credit: 'Foto: Recuerdos de Buenos Aires, 1972',
+      license: 'Dominio público',
+      source: 'https://commons.wikimedia.org/wiki/File:Maradona_con_equipo_argentinos_jrs_1972.jpg',
+    },
     body: `Maradona llegó a USA 94 más delgado que nunca. Tenía 33 años, había pasado la suspensión por cocaína de 1991-92, había vuelto a entrenarse con su preparador físico personal Daniel Cerrini —no era el médico de la selección— y se presentaba al Mundial con una composición corporal imposible para alguien con su historial de excesos. Antes del torneo, en una entrevista, había advertido medio en broma medio en serio: «Si juego mal, pueden criticarme; si juego bien, también, pero ahora no se puede tirar abajo todo lo que estoy haciendo». La frase ya tenía un tono defensivo. Algo iba a pasar.
 
 Cerrini había diseñado un cóctel personalizado para que Maradona pudiera competir con el peso recuperado. Incluía efedrina, una sustancia que la FIFA había tolerado durante los años ochenta y que aplicaba ahora con criterios más estrictos. Hay versiones contradictorias sobre si Maradona conocía exactamente la composición de lo que tomaba. Lo que es seguro es que el médico oficial de la selección, Roberto Peidró, no estaba en el bucle.
@@ -245,6 +299,13 @@ La frase se ha citado durante treinta años como cierre de una trayectoria épic
     title: 'Cruyff: por qué el fútbol simple es el más difícil',
     excerpt:
       'La frase más cruyffista de todas. Aforismo, manifiesto y método al mismo tiempo. La filosofía que cambió el fútbol europeo.',
+    cover: {
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Johan_Cruyff_1975.jpg?width=1200',
+      alt: 'Johan Cruyff retratado en 1975, en su etapa final como jugador del FC Barcelona',
+      credit: 'Foto: Micivek / Wikimedia Commons',
+      license: 'CC BY 4.0',
+      source: 'https://commons.wikimedia.org/wiki/File:Johan_Cruyff_1975.jpg',
+    },
     body: `La frase es tan elegante que se entiende mal. La gente la cita como si fuera una boutade de holandés impertinente, una de esas declaraciones que Johan Cruyff lanzaba en rueda de prensa con cara de aburrimiento. Pero es exactamente lo contrario: una receta de cocina. Una receta exigente, casi imposible. «Jugar al fútbol es muy simple. Pero jugar un fútbol simple es lo más difícil que hay».
 
 Lo simple, para Cruyff, no era el fútbol básico. Era el fútbol decantado. Pase corto, espacio bien usado, posición geométrica, pase corto otra vez. Sin floreos individuales, sin laterales que se pierden buscando portería, sin centros desesperados al área. La simplicidad cuesta porque exige inteligencia colectiva. Once jugadores tomando decisiones casi idénticas en cada acción del partido. Cualquiera puede aprender un regate. Hacer que un equipo entero piense igual durante 90 minutos es lo difícil.
@@ -278,6 +339,13 @@ La frase funciona también como autorretrato. Cruyff fue jugador y técnico dura
     title: 'Obdulio Varela: el capitán que prefería perder el Maracanazo',
     excerpt:
       'El día que ganó el Maracaná, Obdulio Varela bebió con los brasileños vencidos. Después dijo la frase más generosa que ha pronunciado un campeón del mundo.',
+    cover: {
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Obdulio_Varela,_Estadio,_1950-07-15_(374).jpg?width=1200',
+      alt: 'Obdulio Varela, capitán de Uruguay en el Maracanazo, en una imagen del 15 de julio de 1950',
+      credit: 'Foto: Revista Estadio (Santiago, Zig-Zag), 1950',
+      license: 'Dominio público',
+      source: 'https://commons.wikimedia.org/wiki/File:Obdulio_Varela,_Estadio,_1950-07-15_(374).jpg',
+    },
     body: `Obdulio Varela tenía 33 años el 16 de julio de 1950. Era el capitán de Uruguay, mediocampista del Peñarol, hijo de un peón rural negro y una empleada doméstica blanca. Había crecido entre dos mundos, los dos pobres. Según los testigos, era el único hombre que parecía tranquilo cuando empezó la final del Mundial de Brasil contra el equipo local. El estadio Maracaná, recién inaugurado, estaba lleno con 173.850 personas oficialmente —según otras fuentes, casi 200.000—, en su mayoría brasileños esperando el primer título mundial de su selección. Las portadas de los diarios brasileños del día anterior ya celebraban la victoria. Jules Rimet, presidente de la FIFA, llevaba en el bolsillo un discurso preparado en portugués para felicitar al equipo brasileño.
 
 A Uruguay le bastaba con un empate para ser campeón —el formato de aquel Mundial era una liguilla final entre cuatro equipos, no eliminatorias—, pero el favoritismo brasileño era abrumador: en los partidos previos, Brasil había goleado 7-1 a Suecia y 6-1 a España. Uruguay había empatado contra España y ganado raspado a Suecia. Pocos apostaban por la celeste.

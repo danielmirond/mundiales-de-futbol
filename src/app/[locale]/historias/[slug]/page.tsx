@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { setRequestLocale } from 'next-intl/server';
@@ -61,9 +62,15 @@ export async function generateMetadata({
     locale === routing.defaultLocale
       ? `${siteUrl}/historias/${historia.slug}`
       : `${siteUrl}/${locale}/historias/${historia.slug}`;
+  const ogImages = historia.cover
+    ? [{ url: historia.cover.url, width: 1200, height: 675, alt: historia.cover.alt }]
+    : undefined;
   return {
     title,
     description,
+    // Discover-friendly: max-image-preview:large permite que Google muestre
+    // la imagen grande en Discover y SERP enriquecidas.
+    robots: { index: true, follow: true, 'max-image-preview': 'large' },
     alternates: {
       canonical: url,
       languages: Object.fromEntries(
@@ -80,11 +87,17 @@ export async function generateMetadata({
       title,
       description,
       url,
+      images: ogImages,
       publishedTime: historia.publishDate,
       authors: ['Mundial de Fútbol'],
       tags: [historia.protagonist, BLOCK_LABELS[historia.blockCode], CATEGORY_LABELS[historia.category]],
     },
-    twitter: { card: 'summary_large_image', title, description },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: historia.cover ? [historia.cover.url] : undefined,
+    },
   };
 }
 
@@ -107,18 +120,28 @@ export default async function HistoriaPage({
       ? `${siteUrl}/historias/${historia.slug}`
       : `${siteUrl}/${locale}/historias/${historia.slug}`;
 
-  const jsonLd = {
+  const jsonLd: Record<string, unknown> = {
     '@context': 'https://schema.org',
     '@type': 'NewsArticle',
     headline: historia.title,
     description: historia.excerpt,
     datePublished: historia.publishDate,
     dateModified: historia.publishDate,
-    author: { '@type': 'Organization', name: 'Mundial de Fútbol' },
+    author: {
+      '@type': 'Organization',
+      name: 'Mundial de Fútbol',
+      url: siteUrl,
+    },
     publisher: {
       '@type': 'Organization',
       name: 'Mundial de Fútbol',
       url: siteUrl,
+      logo: {
+        '@type': 'ImageObject',
+        url: `${siteUrl}/icon.svg`,
+        width: 512,
+        height: 512,
+      },
     },
     mainEntityOfPage: { '@type': 'WebPage', '@id': articleUrl },
     about: { '@type': 'Person', name: historia.protagonist },
@@ -126,6 +149,21 @@ export default async function HistoriaPage({
       ? [{ '@type': 'CreativeWork', name: historia.source.name, url: historia.source.url }]
       : undefined,
   };
+
+  // Discover-friendly: ImageObject 1200×675 ratio 16:9.
+  // Google Discover requiere imagen grande con licencia.
+  if (historia.cover) {
+    jsonLd.image = {
+      '@type': 'ImageObject',
+      url: historia.cover.url,
+      width: 1200,
+      height: 675,
+      caption: historia.cover.alt,
+      creditText: historia.cover.credit,
+      license: historia.cover.source,
+      acquireLicensePage: historia.cover.source,
+    };
+  }
 
   return (
     <article className="relative">
@@ -164,7 +202,27 @@ export default async function HistoriaPage({
             <span>#{String(historia.n).padStart(2, '0')}</span>
           </div>
 
-          <Quote className="mt-10 h-10 w-10 text-[var(--color-pitch)] opacity-50" />
+          {historia.cover && (
+            <figure className="mt-10 overflow-hidden rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg-2)]">
+              <div className="relative aspect-[1200/675]">
+                <Image
+                  src={historia.cover.url}
+                  alt={historia.cover.alt}
+                  fill
+                  priority
+                  sizes="(max-width: 1100px) 100vw, 1100px"
+                  className="object-cover"
+                  unoptimized
+                />
+              </div>
+              <figcaption className="flex flex-wrap items-center justify-between gap-x-6 gap-y-1 border-t border-[var(--color-border)] px-5 py-3 font-mono text-[10px] uppercase tracking-[0.2em] text-[var(--color-fg-subtle)]">
+                <span>{historia.cover.credit}</span>
+                <span>{historia.cover.license}</span>
+              </figcaption>
+            </figure>
+          )}
+
+          <Quote className="mt-12 h-10 w-10 text-[var(--color-pitch)] opacity-50" />
 
           <blockquote className="mt-4 font-display text-fluid-h1 leading-[1.05] tracking-[-0.02em] text-[var(--color-fg)]">
             «{historia.quote}»
