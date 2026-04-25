@@ -240,6 +240,42 @@ export default async function EditionPage({
               </dd>
               {!upcoming && (
                 <>
+                  {t.runnerUp && (
+                    <>
+                      <dt className="font-mono text-xs uppercase tracking-widest text-[var(--color-fg-subtle)]">
+                        Subcampeón
+                      </dt>
+                      <dd>{t.runnerUp}</dd>
+                    </>
+                  )}
+                  {t.finalResult && (
+                    <>
+                      <dt className="font-mono text-xs uppercase tracking-widest text-[var(--color-fg-subtle)]">
+                        Final
+                      </dt>
+                      <dd className="font-mono text-sm">
+                        {t.champion} {t.finalResult.score} {t.runnerUp}
+                        {t.finalResult.penalties && (
+                          <span className="ms-2 text-[var(--color-fg-muted)]">
+                            ({t.finalResult.penalties})
+                          </span>
+                        )}
+                        {t.finalResult.extraTime && !t.finalResult.penalties && (
+                          <span className="ms-2 text-[var(--color-fg-muted)]">(prórroga)</span>
+                        )}
+                      </dd>
+                    </>
+                  )}
+                  {(t.third || t.fourth) && (
+                    <>
+                      <dt className="font-mono text-xs uppercase tracking-widest text-[var(--color-fg-subtle)]">
+                        3.º · 4.º
+                      </dt>
+                      <dd>
+                        {t.third ?? '—'} · {t.fourth ?? '—'}
+                      </dd>
+                    </>
+                  )}
                   <dt className="font-mono text-xs uppercase tracking-widest text-[var(--color-fg-subtle)]">
                     Asistencia total
                   </dt>
@@ -251,6 +287,19 @@ export default async function EditionPage({
                       </dt>
                       <dd>
                         {t.topScorer.name} · <span className="text-[var(--color-fg-muted)]">{t.topScorer.team}</span> · {t.topScorer.goals} goles
+                      </dd>
+                    </>
+                  )}
+                  {t.bestPlayer && (
+                    <>
+                      <dt className="font-mono text-xs uppercase tracking-widest text-[var(--color-fg-subtle)]">
+                        {t.bestPlayer.official ? 'Balón de Oro' : 'Mejor jugador'}
+                      </dt>
+                      <dd>
+                        {t.bestPlayer.name} · <span className="text-[var(--color-fg-muted)]">{t.bestPlayer.team}</span>
+                        {!t.bestPlayer.official && (
+                          <span className="ms-2 text-xs text-[var(--color-fg-subtle)]">(antes del Balón de Oro oficial)</span>
+                        )}
                       </dd>
                     </>
                   )}

@@ -50,7 +50,7 @@ const RECORDS = [
     badge: 'Top 30',
     color: 'text-sky-300',
     accent: 'border-sky-500/30 bg-sky-500/5',
-    available: false,
+    available: true,
   },
   {
     slug: 'mas-minutos',
@@ -60,7 +60,7 @@ const RECORDS = [
     badge: 'Top 30',
     color: 'text-amber-300',
     accent: 'border-amber-500/30 bg-amber-500/5',
-    available: false,
+    available: true,
   },
   {
     slug: 'mas-amarillas',

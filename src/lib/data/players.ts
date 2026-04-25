@@ -73,6 +73,25 @@ export async function getTopPlayers(limit = 60): Promise<PlayerStats[]> {
   }
 }
 
+/** Players ordered by total minutes played in World Cups. */
+export async function getPlayersByMinutes(limit = 30): Promise<PlayerStats[]> {
+  try {
+    const supabase = await createClient();
+    const { data, error } = await supabase
+      .from('player_stats')
+      .select(SELECT_COLUMNS)
+      .gt('total_minutes', 0)
+      .order('total_minutes', { ascending: false })
+      .order('wc_count', { ascending: false })
+      .limit(limit);
+    if (error) throw error;
+    return (data ?? []) as unknown as PlayerStats[];
+  } catch (err) {
+    console.error('getPlayersByMinutes:', err);
+    return [];
+  }
+}
+
 /** Top goalscorers across World Cup history (in our data). */
 export async function getTopScorers(limit = 30): Promise<PlayerStats[]> {
   try {

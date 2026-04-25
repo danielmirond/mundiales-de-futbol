@@ -30,6 +30,30 @@ const STATIC_SEO_ICONIC: Record<number, string> = Object.fromEntries(
   STATIC_TOURNAMENTS.map((t) => [t.year, t.seoIconic]),
 );
 
+/**
+ * Lookup de campos de palmarés (runnerUp, third, fourth, finalResult, bestPlayer)
+ * desde el seed estático. Estos no existen en Supabase aún, así que los
+ * resolvemos por año con esta tabla derivada.
+ */
+const STATIC_PALMARES: Record<
+  number,
+  Pick<Tournament, 'runnerUp' | 'runnerUpCode' | 'third' | 'thirdCode' | 'fourth' | 'fourthCode' | 'finalResult' | 'bestPlayer'>
+> = Object.fromEntries(
+  STATIC_TOURNAMENTS.map((t) => [
+    t.year,
+    {
+      runnerUp: t.runnerUp,
+      runnerUpCode: t.runnerUpCode,
+      third: t.third,
+      thirdCode: t.thirdCode,
+      fourth: t.fourth,
+      fourthCode: t.fourthCode,
+      finalResult: t.finalResult,
+      bestPlayer: t.bestPlayer,
+    },
+  ]),
+);
+
 const TEAM_NAME_ES: Record<string, string> = {
   URU: 'Uruguay', ARG: 'Argentina', BRA: 'Brasil', ITA: 'Italia', FRA: 'Francia',
   GER: 'Alemania', FRG: 'Alemania Occidental', ENG: 'Inglaterra', ESP: 'España',
@@ -71,6 +95,7 @@ function rowToTournament(row: TournamentRow, locale: string): Tournament {
     },
     tagline,
     seoIconic: STATIC_SEO_ICONIC[row.year] ?? tagline,
+    ...(STATIC_PALMARES[row.year] ?? {}),
     summary,
     heroImageUrl: row.hero_image_url,
   };
