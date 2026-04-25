@@ -30,6 +30,27 @@ export type KeyMoment = {
   text: string;
 };
 
+export type BestGoal = {
+  /** Short title for the goal. */
+  title: string;
+  scorer: string;
+  /** FIFA code of the scoring team. */
+  team: string;
+  /** FIFA code of the opponent. */
+  against: string;
+  /** Stage label ("Final", "Cuartos", "Grupos", …). */
+  stage: string;
+  /** Match minute as displayed, optional. */
+  minute?: string;
+  /** Short narrative of why this goal is remembered. */
+  description: string;
+  /** Optional YouTube video ID for embed. When missing, the UI falls
+   *  back to a YouTube search link built from `youtubeSearch`. */
+  youtubeId?: string;
+  /** Search string used to link out to YouTube when no embed is set. */
+  youtubeSearch?: string;
+};
+
 export type TournamentStory = {
   year: number;
   mascot?: MascotInfo;
@@ -43,6 +64,8 @@ export type TournamentStory = {
   nostalgia?: KeyMoment[];
   /** Curiosidades rápidas — datos que se quedan grabados. */
   trivia?: string[];
+  /** The defining, canonical goal of the edition. */
+  bestGoal?: BestGoal;
 };
 
 /**
@@ -72,6 +95,17 @@ export const WIKIPEDIA_ASSET_TITLES: Record<number, { mascot?: string; ball?: st
 export const STORIES: TournamentStory[] = [
   {
     year: 1930,
+    bestGoal: {
+      title: 'El gol que iguala la primera final',
+      scorer: 'Pedro Cea',
+      team: 'URU',
+      against: 'ARG',
+      stage: 'Final',
+      minute: "57'",
+      description:
+        'Argentina iba 2-1 y mandaba. Cea empata en el 57 para Uruguay, que arrollaría después 4-2. El gol que encarriló el primer título mundial de la historia.',
+      youtubeSearch: 'Pedro Cea gol final Uruguay Argentina 1930',
+    },
     innovations: [
       'Primer Mundial de la historia. 13 equipos participantes, todos por invitación.',
       'Se construye el Estadio Centenario para albergar el torneo.',
@@ -98,6 +132,17 @@ export const STORIES: TournamentStory[] = [
 
   {
     year: 1934,
+    bestGoal: {
+      title: 'El gol que dio la prórroga',
+      scorer: 'Angelo Schiavio',
+      team: 'ITA',
+      against: 'TCH',
+      stage: 'Final',
+      minute: "95'",
+      description:
+        'Final 1-1. Schiavio culmina una internada central, casi sin fuerzas, y bate al portero Plánička en el minuto 95. Primer título italiano. Pozzo lloró en el banquillo.',
+      youtubeSearch: 'Schiavio gol final Italia Checoslovaquia 1934',
+    },
     innovations: [
       'Primer Mundial con formato de eliminación directa desde octavos.',
       'Italia clasifica por primera vez via eliminatorias clasificatorias.',
@@ -123,6 +168,16 @@ export const STORIES: TournamentStory[] = [
 
   {
     year: 1938,
+    bestGoal: {
+      title: 'La chilena del Hombre de Goma',
+      scorer: 'Leônidas da Silva',
+      team: 'BRA',
+      against: 'POL',
+      stage: 'Octavos',
+      description:
+        'Brasil-Polonia 6-5 en prórroga — uno de los mejores partidos de la historia. Leônidas marca con una chilena tras rompérsele la bota y seguir descalzo. Cuatro goles totales del acróbata brasileño.',
+      youtubeSearch: 'Leonidas chilena Brasil Polonia 1938',
+    },
     innovations: [
       'Último mundial antes de la Segunda Guerra Mundial (1939-1945).',
       'Austria se retira por la anexión nazi; se incorpora Suecia por invitación.',
@@ -149,6 +204,17 @@ export const STORIES: TournamentStory[] = [
 
   {
     year: 1950,
+    bestGoal: {
+      title: 'Ghiggia silencia al Maracaná',
+      scorer: 'Alcides Ghiggia',
+      team: 'URU',
+      against: 'BRA',
+      stage: 'Final (grupo final)',
+      minute: "79'",
+      description:
+        'Brasil 1-0, Maracaná delirante. Ghiggia se lleva una pared con Pérez, ve que Barbosa le anticipa el centro y remata al primer palo. 2-1 definitivo. 200.000 personas mudas. "Tres personas silenciaron el Maracaná: Frank Sinatra, Juan Pablo II y yo".',
+      youtubeSearch: 'Ghiggia gol Maracanazo Uruguay Brasil 1950',
+    },
     innovations: [
       'Primer Mundial tras la guerra. Alemania y Japón excluidos.',
       'Único Mundial que no tuvo final propiamente dicha: grupo final de 4 equipos.',
@@ -177,6 +243,17 @@ export const STORIES: TournamentStory[] = [
 
   {
     year: 1954,
+    bestGoal: {
+      title: '"Rahn schießt — TOR! TOR! TOR!"',
+      scorer: 'Helmut Rahn',
+      team: 'FRG',
+      against: 'HUN',
+      stage: 'Final',
+      minute: "84'",
+      description:
+        'Hungría 2-0 al cuarto de hora; Alemania empata y aguanta. En el 84, Schäfer centra, Lantos rechaza corto y Rahn remata cruzado desde 18 metros. El Milagro de Berna. Herbert Zimmermann entra a la leyenda con el grito a pelo en la radio alemana.',
+      youtubeSearch: 'Helmut Rahn Milagro Berna gol final 1954',
+    },
     innovations: [
       'Primer Mundial televisado en Europa.',
       'Récord histórico de goles por partido: 5,38.',
@@ -205,6 +282,17 @@ export const STORIES: TournamentStory[] = [
 
   {
     year: 1958,
+    bestGoal: {
+      title: 'Pelé levanta, gira, define',
+      scorer: 'Pelé',
+      team: 'BRA',
+      against: 'SWE',
+      stage: 'Final',
+      minute: "55'",
+      description:
+        'Pelé recibe de espaldas en el área, controla con el pecho, levanta el balón por encima de Bengt Gustavsson con el empeine y antes de que toque el suelo lo remata de volea al ángulo. 17 años. La final que lo convirtió en dios.',
+      youtubeSearch: 'Pele gol final Suecia 1958 control pecho volea',
+    },
     innovations: [
       'Primer Mundial con Pelé (17 años).',
       'Brasil usa por primera vez el 4-2-4 que revolucionaría el fútbol.',
@@ -232,6 +320,17 @@ export const STORIES: TournamentStory[] = [
 
   {
     year: 1962,
+    bestGoal: {
+      title: 'Garrincha sin Pelé',
+      scorer: 'Garrincha',
+      team: 'BRA',
+      against: 'ENG',
+      stage: 'Cuartos',
+      minute: "53'",
+      description:
+        'Con Pelé lesionado, Garrincha carga a Brasil. Disparo de exterior con efecto desde el borde del área que entra por la escuadra contrario. Segundo gol de su doblete; el tercero lo puso de cabeza. La Alegría del Pueblo humilla a la Inglaterra de Ramsey.',
+      youtubeSearch: 'Garrincha gol Inglaterra 1962 cuartos',
+    },
     innovations: [
       'Primer Mundial en un país devastado por terremoto (Chile, 1960).',
       'Pelé se lesiona en el grupo; Garrincha lidera el bi-campeonato de Brasil.',
@@ -259,6 +358,17 @@ export const STORIES: TournamentStory[] = [
 
   {
     year: 1966,
+    bestGoal: {
+      title: 'Eusébio derriba a Corea del Norte',
+      scorer: 'Eusébio',
+      team: 'POR',
+      against: 'PRK',
+      stage: 'Cuartos',
+      minute: "59'",
+      description:
+        'Portugal 0-3 a los 25 min en Goodison Park. Eusébio carga solo con la remontada: 4 goles consecutivos, dos de penal, dos en jugada. Su 4º fue un zurdazo desde la frontal, cruzado. Remontada 5-3. "La Pantera Negra" en su partido eterno.',
+      youtubeSearch: 'Eusebio four goals Portugal North Korea 1966',
+    },
     innovations: [
       'Primer Mundial con mascota oficial: World Cup Willie.',
       'Inglaterra campeón en casa, único título inglés hasta hoy.',
@@ -287,6 +397,17 @@ export const STORIES: TournamentStory[] = [
 
   {
     year: 1970,
+    bestGoal: {
+      title: 'El 4-1 perfecto — el mejor gol colectivo de la historia',
+      scorer: 'Carlos Alberto',
+      team: 'BRA',
+      against: 'ITA',
+      stage: 'Final',
+      minute: "86'",
+      description:
+        'Nueve pases tocan a ocho brasileños distintos. Clodoaldo recorre medio campo regateando a cuatro italianos, Rivelino abre a la izquierda, Jairzinho empuja al centro, Pelé da el pase ciego perfecto al vacío — sin mirar — y Carlos Alberto llega lanzado desde atrás para fusilar. El gol que define el Jogo Bonito y el fútbol total brasileño.',
+      youtubeSearch: 'Carlos Alberto gol final Brasil Italia 1970',
+    },
     innovations: [
       'Primer Mundial transmitido en color a nivel global.',
       'Primer uso de tarjetas amarilla y roja.',
@@ -317,6 +438,17 @@ export const STORIES: TournamentStory[] = [
 
   {
     year: 1974,
+    bestGoal: {
+      title: 'Alemania no había tocado el balón',
+      scorer: 'Johan Neeskens',
+      team: 'NED',
+      against: 'FRG',
+      stage: 'Final',
+      minute: "2'",
+      description:
+        'Kick-off, 16 pases holandeses, Cruyff baja hacia el área, Vogts le pone la pierna. Penal en el minuto 2. Neeskens lo clava contra el palo izquierdo de Maier. Alemania todavía no había tocado el balón — tuvo que sacar de centro para estrenar partido. Acabarían ganando 2-1.',
+      youtubeSearch: 'Neeskens penalty final Holanda Alemania 1974',
+    },
     innovations: [
       'Debut del actual trofeo FIFA World Cup (tras retirar la Jules Rimet).',
       'Primera transmisión por satélite en directo.',
@@ -345,6 +477,17 @@ export const STORIES: TournamentStory[] = [
 
   {
     year: 1978,
+    bestGoal: {
+      title: 'El Matador se inventa el 3-1',
+      scorer: 'Mario Kempes',
+      team: 'ARG',
+      against: 'NED',
+      stage: 'Final',
+      minute: "105'",
+      description:
+        'Prórroga. Bertoni encuentra a Kempes en el área; el Matador entra en carrera, el balón le bota por tres piernas holandesas, se recompone y define al palo largo superando a Jongbloed en el suelo. 3-1 que encarrila el primer título argentino. Pelo al viento, papelitos del Monumental. 115 minutos del desempate celebratorio más intenso del fútbol argentino.',
+      youtubeSearch: 'Kempes gol 3-1 final Argentina Holanda 1978',
+    },
     innovations: [
       'Dictadura militar argentina usa el Mundial como propaganda.',
       'Primera Copa con cámaras aéreas desde dirigibles.',
@@ -374,6 +517,17 @@ export const STORIES: TournamentStory[] = [
 
   {
     year: 1982,
+    bestGoal: {
+      title: "L'urlo di Tardelli",
+      scorer: 'Marco Tardelli',
+      team: 'ITA',
+      against: 'FRG',
+      stage: 'Final',
+      minute: "69'",
+      description:
+        'Scirea avanza, pared con Rossi, devolución a Tardelli que remata de zurda rozando el área. El gol es bonito pero la celebración se hace mito: Tardelli corre hacia el banquillo con los brazos al cielo, la boca abierta, gritando con todo el cuerpo. La foto del fútbol italiano. Pertini, el presidente, saltando en la tribuna.',
+      youtubeSearch: 'Tardelli gol celebración final Italia Alemania 1982',
+    },
     innovations: [
       'Primer Mundial con 24 equipos (antes 16).',
       'Primer uso de reloj electrónico en estadios.',
@@ -403,6 +557,17 @@ export const STORIES: TournamentStory[] = [
 
   {
     year: 1986,
+    bestGoal: {
+      title: 'El Gol del Siglo',
+      scorer: 'Diego Armando Maradona',
+      team: 'ARG',
+      against: 'ENG',
+      stage: 'Cuartos',
+      minute: "55'",
+      description:
+        'Recibe en su campo, se da media vuelta sobre Beardsley y Reid, acelera por la derecha regateando a Butcher (dos veces), Fenwick y define dejando a Shilton en el suelo. 11 segundos, 10 toques, 60 metros, 5 ingleses mareados. Víctor Hugo Morales narrando: "Barrilete cósmico, ¿de qué planeta viniste?". El mejor gol de la historia por elección FIFA en 2002. No hay debate.',
+      youtubeSearch: 'Maradona Gol del Siglo Inglaterra 1986',
+    },
     innovations: [
       'Estadio Azteca, primer estadio en albergar dos finales (1970 y 1986).',
       'Maradona define el Mundial con dos jugadas históricas en un mismo partido.',
@@ -438,6 +603,17 @@ export const STORIES: TournamentStory[] = [
       artist: 'Edoardo Bennato & Gianna Nannini',
       youtubeId: 'EvcvDGK6N3U',
     },
+    bestGoal: {
+      title: 'Maradona asiste, Caniggia define',
+      scorer: 'Claudio Caniggia',
+      team: 'ARG',
+      against: 'BRA',
+      stage: 'Octavos',
+      minute: "81'",
+      description:
+        'Brasil dominaba el partido. Maradona recibe en el centro del campo, regatea con el cuerpo a Alemão, Dunga y Ricardo Rocha en 25 metros, y mete pase en profundidad al hueco. Caniggia gana el mano a mano a Taffarel superándolo por la izquierda y define a puerta vacía. 1-0 definitivo. Argentina a cuartos eliminando a la favorita.',
+      youtubeSearch: 'Maradona asistencia Caniggia gol Argentina Brasil 1990',
+    },
     innovations: [
       'Balón Etrusco Unico — primer diseño multicolor.',
       'Mínimo histórico de goles/partido (2,21).',
@@ -469,6 +645,17 @@ export const STORIES: TournamentStory[] = [
 
   {
     year: 1994,
+    bestGoal: {
+      title: 'El Maradona árabe',
+      scorer: 'Saeed Al-Owairan',
+      team: 'KSA',
+      against: 'BEL',
+      stage: 'Grupos',
+      minute: "5'",
+      description:
+        'Al-Owairan recibe en su campo, se lleva por delante a 5 belgas (Van der Elst dos veces), atraviesa 70 metros sin que nadie le toque y define solo ante Preud\'homme. Arabia Saudí gana 1-0 y pasa por primera vez en su historia a octavos. El único gol mundialista comparable al Gol del Siglo de Maradona.',
+      youtubeSearch: 'Al Owairan gol Arabia Belgica 1994 Maradona arabe',
+    },
     innovations: [
       'Primer Mundial en Estados Unidos — país sin tradición futbolística.',
       'Récord absoluto de asistencia: 3,58 millones.',
@@ -506,6 +693,17 @@ export const STORIES: TournamentStory[] = [
       artist: 'Ricky Martin',
       youtubeId: 'pmU_xF4yWmY',
     },
+    bestGoal: {
+      title: 'Tres toques perfectos',
+      scorer: 'Dennis Bergkamp',
+      team: 'NED',
+      against: 'ARG',
+      stage: 'Cuartos',
+      minute: "89'",
+      description:
+        'Pase largo de 60 metros de Frank de Boer. Bergkamp lo controla con el exterior del pie derecho, lo desvía con el mismo pie para pasar a Ayala y, antes de que el balón toque el suelo, lo remata de volea también con la derecha al palo lejano. Tres toques con la misma pierna en cuatro segundos. Jack van Gelder, narrando en la TV holandesa, pierde la cabeza con un "DENNIS BERGKAMP!" que se vuelve meme.',
+      youtubeSearch: 'Bergkamp gol Holanda Argentina 1998 tres toques',
+    },
     innovations: [
       'Primer Mundial con 32 equipos (antes 24).',
       'Primer oro galo, contra Brasil 3-0.',
@@ -541,6 +739,17 @@ export const STORIES: TournamentStory[] = [
       title: 'Boom',
       artist: 'Anastacia',
       youtubeId: 'WdcuhpLedS8',
+    },
+    bestGoal: {
+      title: '¿Lanzamiento o centro?',
+      scorer: 'Ronaldinho',
+      team: 'BRA',
+      against: 'ENG',
+      stage: 'Cuartos',
+      minute: "50'",
+      description:
+        'Falta directa a 40 metros del área inglesa. Ronaldinho levanta el balón por encima de David Seaman, que está fuera de palos. Entra por el ángulo lejano. 2-1 para Brasil. "¿Lo tiraste o fue centro?" le preguntaron mil veces. Él siempre sonreía y nunca lo aclaró. Seaman se retiró meses después.',
+      youtubeSearch: 'Ronaldinho falta gol Seaman Inglaterra 2002',
     },
     innovations: [
       'Primer Mundial en Asia. Primer Mundial con dos países sede.',
@@ -578,6 +787,17 @@ export const STORIES: TournamentStory[] = [
       artist: 'Il Divo & Toni Braxton',
       youtubeId: 'Xt5TGxnaBSc',
     },
+    bestGoal: {
+      title: 'La pierna cambiada de Maxi',
+      scorer: 'Maxi Rodríguez',
+      team: 'ARG',
+      against: 'MEX',
+      stage: 'Octavos',
+      minute: "98'",
+      description:
+        'Octavos en prórroga, 1-1. Sorín centra desde la izquierda, Maxi espera el bote, controla con el pecho y remata de volea con pierna cambiada (zurda) al palo lejano superando a Sánchez. Clavado al ángulo. Maradona saltando en el palco como un pibe. Cada argentino recuerda dónde estaba ese instante.',
+      youtubeSearch: 'Maxi Rodriguez gol Mexico octavos Mundial 2006',
+    },
     innovations: [
       'Balón Teamgeist con 14 paneles (antes 32).',
       'Italia gana su 4º título, tras el escándalo del Calciopoli.',
@@ -613,6 +833,17 @@ export const STORIES: TournamentStory[] = [
       title: 'Waka Waka (This Time for Africa)',
       artist: 'Shakira & Freshlyground',
       youtubeId: 'pRpeEdMmmQ0',
+    },
+    bestGoal: {
+      title: 'El gol "de três dedos"',
+      scorer: 'Maicon',
+      team: 'BRA',
+      against: 'PRK',
+      stage: 'Grupos',
+      minute: "55'",
+      description:
+        'Maicon recibe en línea de fondo, con ángulo casi cerrado. Todos esperan el centro. El brasileño dispara con exterior del pie derecho ("três dedos"), el balón dibuja una parábola imposible y se cuela por el palo corto. Ri Myong-guk, el portero norcoreano, ni lo ve. "No lo intentó, le salió así" dijeron en Brasil — Maicon siempre juró que lo buscó.',
+      youtubeSearch: 'Maicon gol Corea Norte tres dedos Mundial 2010',
     },
     innovations: [
       'Primer Mundial en África.',
@@ -651,6 +882,17 @@ export const STORIES: TournamentStory[] = [
       artist: 'Pitbull, Jennifer Lopez & Claudia Leitte',
       youtubeId: 'TGtWWb9emYI',
     },
+    bestGoal: {
+      title: 'Control de pecho, media vuelta, volea al ángulo',
+      scorer: 'James Rodríguez',
+      team: 'COL',
+      against: 'URU',
+      stage: 'Octavos',
+      minute: "28'",
+      description:
+        'Abel Aguilar cabecea hacia atrás desde el borde del área. James, de espaldas a la portería, controla con el pecho dentro del círculo, se gira en el aire y, antes de que el balón toque el suelo, lo remata de volea al ángulo izquierdo de Muslera. El balón pega en el larguero y entra. Premio Puskás 2014. Fichaje al Madrid 10 días después por 80 millones.',
+      youtubeSearch: 'James Rodriguez gol Uruguay volea Puskas 2014',
+    },
     innovations: [
       'Debut de la tecnología de gol en línea (goal-line technology).',
       'Spray evanescente para marcar barreras.',
@@ -686,6 +928,17 @@ export const STORIES: TournamentStory[] = [
       artist: 'Nicky Jam, Will Smith & Era Istrefi',
       youtubeId: 'CGyEd0aKWZE',
     },
+    bestGoal: {
+      title: 'Pavard desempata desde la frontal',
+      scorer: 'Benjamin Pavard',
+      team: 'FRA',
+      against: 'ARG',
+      stage: 'Octavos',
+      minute: "57'",
+      description:
+        'Argentina ganaba 2-1. Lucas Hernández centra por bajo desde la izquierda, el balón viene cruzado y Pavard, con 22 años, conecta volea de pierna cambiada (derecha) desde la frontal del área. El balón dibuja una parábola que se cuela por la escuadra lejana de Armani. 2-2. Francia gana 4-3 con Mbappé desatado. Premio Puskás 2018.',
+      youtubeSearch: 'Pavard gol Argentina volea Puskas 2018',
+    },
     innovations: [
       'Debut del VAR (Video Assistant Referee).',
       'Francia, jovencísima, con Mbappé (19) y Griezmann.',
@@ -720,6 +973,17 @@ export const STORIES: TournamentStory[] = [
       title: 'Hayya Hayya (Better Together)',
       artist: 'Trinidad Cardona, Davido & AISHA',
       youtubeId: 'Tx6_14yezXU',
+    },
+    bestGoal: {
+      title: 'La chilena de Richarlison',
+      scorer: 'Richarlison',
+      team: 'BRA',
+      against: 'SRB',
+      stage: 'Grupos',
+      minute: "73'",
+      description:
+        'Vinicius Jr. centra desde la izquierda, Richarlison controla con el pecho de espaldas a la portería, deja botar el balón, salta y remata de chilena sobre su propio cuerpo. Entra pegado al palo izquierdo. El "Pombo" haciendo de Pelé en Lusail. Premio Puskás 2022.',
+      youtubeSearch: 'Richarlison chilena gol Serbia Puskas 2022',
     },
     innovations: [
       'Primer Mundial en Oriente Medio.',

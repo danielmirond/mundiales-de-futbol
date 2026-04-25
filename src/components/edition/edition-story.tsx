@@ -120,6 +120,82 @@ export function EditionStory({ year }: { year: number }) {
         )}
       </div>
 
+      {/* Best goal — defining goal of the edition */}
+      {story.bestGoal && (
+        <div className="mt-16">
+          <div className="flex items-baseline gap-4">
+            <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-emerald-400/80">
+              El gol del Mundial
+            </div>
+            <div className="h-px flex-1 bg-gradient-to-r from-emerald-500/40 to-transparent" />
+          </div>
+
+          <div className="mt-6 grid gap-10 overflow-hidden rounded-3xl border border-[var(--color-border)] bg-[var(--color-bg-2)] p-8 md:grid-cols-[1.3fr_1fr] md:gap-12 md:p-12">
+            {/* Copy side */}
+            <div>
+              <div className="flex flex-wrap items-center gap-2 text-[10px] font-mono uppercase tracking-[0.3em] text-[var(--color-fg-subtle)]">
+                <span className="rounded-full border border-emerald-500/40 bg-emerald-500/10 px-2.5 py-1 text-emerald-300">
+                  {story.bestGoal.stage}
+                </span>
+                <span>{story.bestGoal.team}</span>
+                <span>vs</span>
+                <span>{story.bestGoal.against}</span>
+                {story.bestGoal.minute && (
+                  <span className="tab-num text-[var(--color-fg-muted)]">· {story.bestGoal.minute}</span>
+                )}
+              </div>
+
+              <h3 className="mt-5 font-display text-fluid-h2 uppercase leading-[0.95] text-[var(--color-fg)]">
+                {story.bestGoal.title}
+              </h3>
+              <div className="mt-3 font-display text-xl uppercase leading-none text-emerald-300">
+                {story.bestGoal.scorer}
+              </div>
+
+              <p className="mt-6 text-base leading-relaxed text-[var(--color-fg-muted)]">
+                {story.bestGoal.description}
+              </p>
+
+              {!story.bestGoal.youtubeId && story.bestGoal.youtubeSearch && (
+                <a
+                  href={`https://www.youtube.com/results?search_query=${encodeURIComponent(story.bestGoal.youtubeSearch)}`}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="mt-6 inline-flex items-center gap-2 rounded-full border border-emerald-500/40 bg-emerald-500/10 px-4 py-2 font-mono text-[10px] uppercase tracking-[0.25em] text-emerald-300 transition-colors hover:bg-emerald-500/20"
+                >
+                  Buscar vídeo en YouTube →
+                </a>
+              )}
+            </div>
+
+            {/* Video / visual side */}
+            <div className="relative overflow-hidden rounded-2xl bg-black/40">
+              {story.bestGoal.youtubeId ? (
+                <iframe
+                  src={`https://www.youtube-nocookie.com/embed/${story.bestGoal.youtubeId}`}
+                  title={story.bestGoal.title}
+                  loading="lazy"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  className="block aspect-video w-full"
+                />
+              ) : (
+                <div className="flex aspect-video w-full items-center justify-center bg-gradient-to-br from-emerald-500/10 via-transparent to-transparent p-8 text-center">
+                  <div>
+                    <div className="font-display text-[clamp(3rem,8vw,6rem)] leading-none tracking-tight text-emerald-300/80">
+                      {story.year}
+                    </div>
+                    <div className="mt-3 font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-fg-subtle)]">
+                      {story.bestGoal.team} {story.bestGoal.minute ? `· ${story.bestGoal.minute}` : ''}
+                    </div>
+                  </div>
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
+      )}
+
       {/* Controversies — polémicas, escándalos, decisiones discutidas */}
       {story.controversies && story.controversies.length > 0 && (
         <div className="mt-16 rounded-3xl border border-[var(--color-border)] bg-[var(--color-bg-2)] p-8 md:p-12">
