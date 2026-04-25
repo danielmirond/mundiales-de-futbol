@@ -61,9 +61,9 @@ export async function generateMetadata({
       ? `${siteUrl}/historias`
       : `${siteUrl}/${locale}/historias`;
   return {
-    title: 'Historias del Mundial · Calendario editorial 2026',
+    title: 'Historias y anécdotas de los Mundiales de fútbol',
     description:
-      'Las frases, polémicas, profecías y narraciones que han definido la historia de los Mundiales de fútbol. Calendario editorial diario hasta el Mundial 2026.',
+      'Las frases, polémicas, profecías y narraciones que han definido la historia de los Mundiales: Mano de Dios, Maracanazo, gol de Iniesta, Lineker y los alemanes... Anécdota a anécdota, hasta el Mundial 2026.',
     alternates: {
       canonical: url,
       languages: Object.fromEntries(

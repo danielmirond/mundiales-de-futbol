@@ -15,6 +15,13 @@ export type Tournament = {
   topScorer?: { name: string; goals: number; team: string };
   palette: { from: string; to: string };
   tagline: string;
+  /**
+   * Descriptor SEO-friendly de cierre.
+   * Patrón de uso: «Mundial {host} {year} · Partidos, historia y {seoIconic}».
+   * Longer than `tagline`, optimizado para captar el cluster icónico
+   * (e.g. "Campeón del Mundial de Maradona", "el del Maracanazo").
+   */
+  seoIconic: string;
   summary?: string;
   heroImageUrl?: string | null;
 };
@@ -28,6 +35,7 @@ export const TOURNAMENTS: Tournament[] = [
     topScorer: { name: 'Guillermo Stábile', goals: 8, team: 'Argentina' },
     palette: { from: '#0a3d91', to: '#f5e6b3' },
     tagline: 'Donde todo empezó',
+    seoIconic: 'el primer Mundial de la historia',
   },
   {
     year: 1934, slug: '1934-italia', host: 'Italia', hostCode: 'IT',
@@ -37,6 +45,7 @@ export const TOURNAMENTS: Tournament[] = [
     topScorer: { name: 'Oldřich Nejedlý', goals: 5, team: 'Checoslovaquia' },
     palette: { from: '#0b6b3a', to: '#e4002b' },
     tagline: 'El Mundial del Duce',
+    seoIconic: 'Italia campeona en plena dictadura fascista',
   },
   {
     year: 1938, slug: '1938-francia', host: 'Francia', hostCode: 'FR',
@@ -46,6 +55,7 @@ export const TOURNAMENTS: Tournament[] = [
     topScorer: { name: 'Leônidas', goals: 7, team: 'Brasil' },
     palette: { from: '#002654', to: '#ed2939' },
     tagline: 'El último antes de la guerra',
+    seoIconic: 'el último Mundial antes de la Segunda Guerra Mundial',
   },
   {
     year: 1950, slug: '1950-brasil', host: 'Brasil', hostCode: 'BR',
@@ -55,6 +65,7 @@ export const TOURNAMENTS: Tournament[] = [
     topScorer: { name: 'Ademir', goals: 9, team: 'Brasil' },
     palette: { from: '#009739', to: '#fedd00' },
     tagline: 'Maracanazo',
+    seoIconic: 'el del Maracanazo y la final que silenció a Brasil',
   },
   {
     year: 1954, slug: '1954-suiza', host: 'Suiza', hostCode: 'CH',
@@ -64,6 +75,7 @@ export const TOURNAMENTS: Tournament[] = [
     topScorer: { name: 'Sándor Kocsis', goals: 11, team: 'Hungría' },
     palette: { from: '#d52b1e', to: '#ffffff' },
     tagline: 'El Milagro de Berna',
+    seoIconic: 'el del Milagro de Berna y la primera Alemania campeona',
   },
   {
     year: 1958, slug: '1958-suecia', host: 'Suecia', hostCode: 'SE',
@@ -73,6 +85,7 @@ export const TOURNAMENTS: Tournament[] = [
     topScorer: { name: 'Just Fontaine', goals: 13, team: 'Francia' },
     palette: { from: '#005b99', to: '#ffcd00' },
     tagline: 'Nace Pelé',
+    seoIconic: 'el debut mundial de Pelé con 17 años',
   },
   {
     year: 1962, slug: '1962-chile', host: 'Chile', hostCode: 'CL',
@@ -81,6 +94,7 @@ export const TOURNAMENTS: Tournament[] = [
     startDate: '1962-05-30', endDate: '1962-06-17',
     palette: { from: '#d52b1e', to: '#0032a0' },
     tagline: 'La Batalla de Santiago',
+    seoIconic: 'Brasil bicampeón sin Pelé y la Batalla de Santiago',
   },
   {
     year: 1966, slug: '1966-inglaterra', host: 'Inglaterra', hostCode: 'GB',
@@ -90,6 +104,7 @@ export const TOURNAMENTS: Tournament[] = [
     topScorer: { name: 'Eusébio', goals: 9, team: 'Portugal' },
     palette: { from: '#012169', to: '#c8102e' },
     tagline: 'It came home',
+    seoIconic: 'el del gol fantasma y el único título de Inglaterra',
   },
   {
     year: 1970, slug: '1970-mexico', host: 'México', hostCode: 'MX',
@@ -99,6 +114,7 @@ export const TOURNAMENTS: Tournament[] = [
     topScorer: { name: 'Gerd Müller', goals: 10, team: 'Alemania Occidental' },
     palette: { from: '#006341', to: '#c8102e' },
     tagline: 'La selección más bella de la historia',
+    seoIconic: 'el Brasil eterno de Pelé tricampeón en el Azteca',
   },
   {
     year: 1974, slug: '1974-alemania', host: 'Alemania Occidental', hostCode: 'DE',
@@ -108,6 +124,7 @@ export const TOURNAMENTS: Tournament[] = [
     topScorer: { name: 'Grzegorz Lato', goals: 7, team: 'Polonia' },
     palette: { from: '#000000', to: '#dd0000' },
     tagline: 'El fútbol total',
+    seoIconic: 'el del fútbol total holandés y el Beckenbauer campeón',
   },
   {
     year: 1978, slug: '1978-argentina', host: 'Argentina', hostCode: 'AR',
@@ -117,6 +134,7 @@ export const TOURNAMENTS: Tournament[] = [
     topScorer: { name: 'Mario Kempes', goals: 6, team: 'Argentina' },
     palette: { from: '#75aadb', to: '#f6b40e' },
     tagline: 'Kempes en casa',
+    seoIconic: 'Argentina campeón en casa con Kempes',
   },
   {
     year: 1982, slug: '1982-espana', host: 'España', hostCode: 'ES',
@@ -126,6 +144,7 @@ export const TOURNAMENTS: Tournament[] = [
     topScorer: { name: 'Paolo Rossi', goals: 6, team: 'Italia' },
     palette: { from: '#aa151b', to: '#f1bf00' },
     tagline: 'Paolo Rossi',
+    seoIconic: 'el del Italia campeón con Paolo Rossi',
   },
   {
     year: 1986, slug: '1986-mexico', host: 'México', hostCode: 'MX',
@@ -135,6 +154,7 @@ export const TOURNAMENTS: Tournament[] = [
     topScorer: { name: 'Gary Lineker', goals: 6, team: 'Inglaterra' },
     palette: { from: '#006341', to: '#c8102e' },
     tagline: 'La mano de Dios',
+    seoIconic: 'Campeón del Mundial de Maradona',
   },
   {
     year: 1990, slug: '1990-italia', host: 'Italia', hostCode: 'IT',
@@ -144,6 +164,7 @@ export const TOURNAMENTS: Tournament[] = [
     topScorer: { name: 'Salvatore Schillaci', goals: 6, team: 'Italia' },
     palette: { from: '#008c45', to: '#cd212a' },
     tagline: 'Notti Magiche',
+    seoIconic: 'el de las Notti Magiche y la última Alemania Occidental',
   },
   {
     year: 1994, slug: '1994-estados-unidos', host: 'Estados Unidos', hostCode: 'US',
@@ -153,6 +174,7 @@ export const TOURNAMENTS: Tournament[] = [
     topScorer: { name: 'Hristo Stoichkov / Oleg Salenko', goals: 6, team: '—' },
     palette: { from: '#002868', to: '#bf0a30' },
     tagline: 'Romário · Penales contra Italia',
+    seoIconic: 'Brasil tetracampeón con Romário en penales',
   },
   {
     year: 1998, slug: '1998-francia', host: 'Francia', hostCode: 'FR',
@@ -162,6 +184,7 @@ export const TOURNAMENTS: Tournament[] = [
     topScorer: { name: 'Davor Šuker', goals: 6, team: 'Croacia' },
     palette: { from: '#002654', to: '#ed2939' },
     tagline: 'Zidane vs. Ronaldo',
+    seoIconic: 'el primer título de Francia con Zidane',
   },
   {
     year: 2002, slug: '2002-corea-japon', host: 'Corea del Sur & Japón', hostCode: 'KR',
@@ -172,6 +195,7 @@ export const TOURNAMENTS: Tournament[] = [
     topScorer: { name: 'Ronaldo', goals: 8, team: 'Brasil' },
     palette: { from: '#c60c30', to: '#003478' },
     tagline: 'Ronaldo redención',
+    seoIconic: 'el primer Mundial asiático y la redención de Ronaldo',
   },
   {
     year: 2006, slug: '2006-alemania', host: 'Alemania', hostCode: 'DE',
@@ -181,6 +205,7 @@ export const TOURNAMENTS: Tournament[] = [
     topScorer: { name: 'Miroslav Klose', goals: 5, team: 'Alemania' },
     palette: { from: '#000000', to: '#ffce00' },
     tagline: 'El cabezazo de Zidane',
+    seoIconic: 'el del cabezazo de Zidane a Materazzi',
   },
   {
     year: 2010, slug: '2010-sudafrica', host: 'Sudáfrica', hostCode: 'ZA',
@@ -190,6 +215,7 @@ export const TOURNAMENTS: Tournament[] = [
     topScorer: { name: 'Thomas Müller / Villa / Sneijder / Forlán', goals: 5, team: '—' },
     palette: { from: '#007749', to: '#ffb81c' },
     tagline: 'Iniesta, de mi vida',
+    seoIconic: 'el de la primera estrella de España con el gol de Iniesta',
   },
   {
     year: 2014, slug: '2014-brasil', host: 'Brasil', hostCode: 'BR',
@@ -199,6 +225,7 @@ export const TOURNAMENTS: Tournament[] = [
     topScorer: { name: 'James Rodríguez', goals: 6, team: 'Colombia' },
     palette: { from: '#009739', to: '#fedd00' },
     tagline: '7–1 · El Mineirazo',
+    seoIconic: 'el del 7-1 de Alemania a Brasil',
   },
   {
     year: 2018, slug: '2018-rusia', host: 'Rusia', hostCode: 'RU',
@@ -208,6 +235,7 @@ export const TOURNAMENTS: Tournament[] = [
     topScorer: { name: 'Harry Kane', goals: 6, team: 'Inglaterra' },
     palette: { from: '#0039a6', to: '#d52b1e' },
     tagline: 'La Francia joven de Mbappé',
+    seoIconic: 'el de la Francia joven de Mbappé bicampeona',
   },
   {
     year: 2022, slug: '2022-qatar', host: 'Qatar', hostCode: 'QA',
@@ -217,6 +245,7 @@ export const TOURNAMENTS: Tournament[] = [
     topScorer: { name: 'Kylian Mbappé', goals: 8, team: 'Francia' },
     palette: { from: '#8a1538', to: '#ffffff' },
     tagline: 'La final más bonita de la historia',
+    seoIconic: 'el último Mundial de Messi y la final más dramática',
   },
   {
     year: 2026, slug: '2026-norteamerica', host: 'EE.UU. · Canadá · México', hostCode: 'US',
@@ -226,6 +255,7 @@ export const TOURNAMENTS: Tournament[] = [
     startDate: '2026-06-11', endDate: '2026-07-19',
     palette: { from: '#0a5fd3', to: '#ff3b3b' },
     tagline: 'El primero de tres sedes',
+    seoIconic: 'el primer Mundial de 48 selecciones en tres países',
   },
 ];
 

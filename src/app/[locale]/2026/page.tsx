@@ -25,17 +25,21 @@ export async function generateMetadata({
   return pageMetadata({
     locale,
     path: '/2026',
-    title: 'Mundial 2026 · Calendario, sedes y grupos',
+    // Patrón A SEO confirmado.
+    title: 'Mundial 2026 calendario completo · Sedes, grupos y horarios',
     description:
-      'El primer Mundial de 48 selecciones, organizado por Estados Unidos, México y Canadá del 11 de junio al 19 de julio de 2026. Calendario completo, los 16 estadios, los 12 grupos y el bracket eliminatorio.',
+      'Mundial 2026 (USA, México, Canadá): calendario completo de los 104 partidos, 16 estadios, 12 grupos. Cuándo empieza y cuándo es la final.',
     keywords: [
       'Mundial 2026',
-      'Copa del Mundo 2026',
-      'sedes Mundial 2026',
-      'calendario Mundial 2026',
-      'grupos Mundial 2026',
+      'Mundial 2026 calendario',
+      'Mundial 2026 fechas',
+      'Mundial 2026 horarios',
+      'Mundial 2026 grupos',
+      'Mundial 2026 sedes',
+      'Mundial 2026 estadios',
+      'cuándo empieza Mundial 2026',
+      'cuándo es la final Mundial 2026',
       'Estados Unidos México Canadá',
-      'Estadio Azteca MetLife',
     ],
   });
 }

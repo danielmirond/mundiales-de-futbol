@@ -13,17 +13,20 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: 'meta' });
   return pageMetadata({
     locale,
     path: '/',
-    title: t('title'),
-    description: t('description'),
+    // Patrón híbrido C: cubre cluster estructural + valor (calendario, historia,
+    // archivo) en menos de 60 caracteres.
+    title: 'Mundial de Fútbol: 1930-2026 · Calendario, historia y archivo',
+    description:
+      'Calendario Mundial 2026, historia de las 23 ediciones, ficha de cada jugador y estadio. La enciclopedia mundialista en 5 idiomas.',
     keywords: [
       'Mundial de Fútbol',
       'FIFA World Cup',
       'Mundial 2026',
       'Copa del Mundo',
+      'calendario Mundial',
       'historia de los Mundiales',
       'selecciones nacionales',
       'jugadores mundialistas',

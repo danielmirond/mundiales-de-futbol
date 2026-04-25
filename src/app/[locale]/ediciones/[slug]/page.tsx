@@ -28,10 +28,15 @@ export async function generateMetadata({
   const t = await getTournamentBySlug(slug, locale);
   if (!t) return {};
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://mundiales-de-futbol.com';
-  const title = `${t.year} · ${t.host} · Mundial de Fútbol`;
+  // Patrón SEO confirmado: "Mundial {host} {year} - Partidos, historia y {seoIconic}".
+  // Captura dos clusters: el estructural (Mundial 1986) y el icónico
+  // (Campeón del Mundial de Maradona, el del Maracanazo, etc.).
+  const tournamentRow = TOURNAMENTS.find((row) => row.slug === t.slug);
+  const seoIconic = tournamentRow?.seoIconic ?? t.tagline;
+  const title = `Mundial ${t.host} ${t.year} · Partidos, historia y ${seoIconic}`;
   const description = t.summary
     ? `${t.tagline}. ${t.summary}`
-    : t.tagline;
+    : `Mundial ${t.host} ${t.year}: ${seoIconic}. Calendario, plantillas, partidos y crónica.`;
   const url =
     locale === routing.defaultLocale
       ? `${siteUrl}/ediciones/${t.slug}`

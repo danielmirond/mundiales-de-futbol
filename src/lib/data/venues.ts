@@ -57,7 +57,7 @@ export async function getAllVenues(): Promise<VenueWithStats[]> {
   }
 }
 
-export async function getVenueBySlug(slug: string): Promise<Venue | null> {
+export async function getVenueBySlug(slug: string): Promise<VenueWithStats | null> {
   try {
     const supabase = await createClient();
     const { data, error } = await supabase
@@ -66,7 +66,17 @@ export async function getVenueBySlug(slug: string): Promise<Venue | null> {
       .eq('slug', slug)
       .maybeSingle();
     if (error) throw error;
-    return (data as Venue | null) ?? null;
+    if (!data) return null;
+    const venue = data as Venue;
+    // Pull WC years for this venue (used in metadata patterns).
+    const { data: matches } = await supabase
+      .from('matches')
+      .select('tournament_year')
+      .eq('venue_id', venue.id);
+    const years = Array.from(
+      new Set(((matches ?? []) as { tournament_year: number }[]).map((m) => m.tournament_year)),
+    ).sort((a, b) => a - b);
+    return { ...venue, matches_played: matches?.length ?? 0, wc_years: years };
   } catch (err) {
     console.error('getVenueBySlug:', err);
     return null;

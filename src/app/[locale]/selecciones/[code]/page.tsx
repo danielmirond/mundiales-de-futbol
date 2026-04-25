@@ -35,8 +35,13 @@ export async function generateMetadata({
   if (!team) return {};
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://mundiales-de-futbol.com';
   const name = teamDisplayName(team);
-  const title = `${name} en los Mundiales · ${team.titles} título${team.titles === 1 ? '' : 's'}`;
-  const description = `${name} ha disputado ${team.wc_count} Mundiales con ${team.matches_played} partidos y un récord de ${team.wins}-${team.draws}-${team.losses}.`;
+  // Patrón confirmado: "Brasil en los Mundiales · Cuántos ha ganado, plantillas y récords".
+  // Mismo título para los 103 países; el subtítulo H2 (en el componente)
+  // se adapta por tier (campeón / regular / debutante).
+  const title = `${name} en los Mundiales · Cuántos ha ganado, plantillas y récords`;
+  const description = team.titles > 0
+    ? `${name}: ${team.titles} ${team.titles === 1 ? 'título mundial' : 'títulos mundiales'}, ${team.wc_count} participaciones, ${team.matches_played} partidos. Plantillas históricas, récord (${team.wins}-${team.draws}-${team.losses}) y máximos goleadores.`
+    : `${name} en los Mundiales: ${team.wc_count} ${team.wc_count === 1 ? 'participación' : 'participaciones'}, ${team.matches_played} partidos, récord ${team.wins}-${team.draws}-${team.losses}. Plantillas, mejores actuaciones y máximos goleadores.`;
   const url =
     locale === routing.defaultLocale
       ? `${siteUrl}/selecciones/${team.code}`

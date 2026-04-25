@@ -36,8 +36,21 @@ export async function generateMetadata({
   if (!venue) return {};
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://mundiales-de-futbol.com';
   const name = venue.name.trim();
-  const title = `${name} · Mundial de Fútbol`;
-  const description = `${name}${venue.city ? ` en ${venue.city.trim()}` : ''}, sede de partidos del Mundial.`;
+  const city = venue.city?.trim() ?? '';
+  // Patrón confirmado: "Estadio Azteca · Ciudad de México · 5 Mundiales 1970-2026"
+  const years = (venue.wc_years ?? []).filter(Boolean).sort((a: number, b: number) => a - b);
+  const yearsLabel =
+    years.length === 0
+      ? ''
+      : years.length === 1
+      ? `Mundial ${years[0]}`
+      : years.length <= 3
+      ? `Mundial ${years.join(', ')}`
+      : `${years.length} Mundiales ${years[0]}-${years[years.length - 1]}`;
+  const title = [name, city, yearsLabel].filter(Boolean).join(' · ');
+  const description = years.length > 0
+    ? `${name}${city ? `, ${city}` : ''}: sede del ${years.length === 1 ? 'Mundial' : `Mundial en ${years.join(', ')}`}. Capacidad, historia, partidos disputados y curiosidades.`
+    : `${name}${city ? ` en ${city}` : ''}, estadio mundialista. Capacidad, historia y partidos disputados.`;
   const url =
     locale === routing.defaultLocale
       ? `${siteUrl}/estadios/${venue.slug}`

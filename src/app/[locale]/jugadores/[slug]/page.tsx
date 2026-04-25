@@ -48,8 +48,26 @@ export async function generateMetadata({
   if (!player) return {};
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://mundiales-de-futbol.com';
   const name = displayPlayerName(player);
-  const title = `${name} · Mundial de Fútbol`;
-  const description = `${name}, ${player.nationality_code}, ${player.position ?? 'jugador'}. ${player.wc_count} Mundiales, ${player.goals} goles, ${player.total_minutes} minutos.`;
+
+  // Patrón híbrido tier-based:
+  // · Legends (≥3 Mundiales o ≥6 goles): "Pelé mundialista — Brasil · 4 Mundiales · 12 goles"
+  // · Regulares (2 Mundiales): "Gerd Müller · Alemania · 2 Mundiales · 14 goles"
+  // · Single (1 Mundial): "James Rodríguez (Colombia) · Mundial 2014"
+  const isLegend = player.wc_count >= 3 || player.goals >= 6;
+  const isRegular = !isLegend && player.wc_count >= 2;
+
+  let title: string;
+  if (isLegend) {
+    const wcLabel = `${player.wc_count} Mundial${player.wc_count === 1 ? '' : 'es'}`;
+    const goalsLabel = player.goals > 0 ? ` · ${player.goals} gol${player.goals === 1 ? '' : 'es'}` : '';
+    title = `${name} mundialista — ${player.nationality_code} · ${wcLabel}${goalsLabel}`;
+  } else if (isRegular) {
+    const goalsLabel = player.goals > 0 ? ` · ${player.goals} gol${player.goals === 1 ? '' : 'es'}` : '';
+    title = `${name} · ${player.nationality_code} · ${player.wc_count} Mundiales${goalsLabel}`;
+  } else {
+    title = `${name} (${player.nationality_code}) · Mundial${player.wc_count > 0 ? '' : 'ista'}`;
+  }
+  const description = `${name}, ${player.nationality_code}${player.position ? `, ${player.position}` : ''}. ${player.wc_count} Mundial${player.wc_count === 1 ? '' : 'es'} disputado${player.wc_count === 1 ? '' : 's'}, ${player.goals} gol${player.goals === 1 ? '' : 'es'}, ${player.total_minutes} minutos. Estadísticas, plantillas y partidos.`;
   const url =
     locale === routing.defaultLocale
       ? `${siteUrl}/jugadores/${player.slug}`

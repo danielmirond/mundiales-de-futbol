@@ -52,10 +52,12 @@ export async function generateMetadata({
   const score =
     typeof match.home_score === 'number' && typeof match.away_score === 'number'
       ? `${match.home_score}-${match.away_score}`
-      : 'partido';
+      : '';
   const stage = match.stage ? STAGE_LABEL_ES[match.stage] ?? match.stage : '';
-  const title = `${home} ${score} ${away} · ${tournament.year} · ${stage}`;
-  const description = `${home} contra ${away} en ${stage} del Mundial ${tournament.year} (${tournament.host}). Alineaciones, goles, eventos minuto a minuto y crónica del partido.`;
+  // Patrón SEO confirmado: "Argentina - Inglaterra | Mundial México 1986 partido de cuartos"
+  const stageLower = stage.toLowerCase().replace('octavos de final', 'octavos').replace('cuartos de final', 'cuartos');
+  const title = `${home} - ${away} | Mundial ${tournament.host} ${tournament.year} partido de ${stageLower}`;
+  const description = `${home} ${score ? score + ' ' : ''}${away} en ${stage} del Mundial ${tournament.year} (${tournament.host}). Alineaciones, goles, eventos minuto a minuto y crónica del partido.`;
   return pageMetadata({
     locale,
     path: `/ediciones/${slug}/partido/${n}`,

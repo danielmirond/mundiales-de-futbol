@@ -24,6 +24,12 @@ export type TournamentRow = {
 };
 
 // Lookup by champion_code → localized display name (until we read from `teams`).
+// Lookup `seoIconic` (descriptor SEO largo) por año desde el seed estático,
+// porque Supabase aún no tiene esa columna.
+const STATIC_SEO_ICONIC: Record<number, string> = Object.fromEntries(
+  STATIC_TOURNAMENTS.map((t) => [t.year, t.seoIconic]),
+);
+
 const TEAM_NAME_ES: Record<string, string> = {
   URU: 'Uruguay', ARG: 'Argentina', BRA: 'Brasil', ITA: 'Italia', FRA: 'Francia',
   GER: 'Alemania', FRG: 'Alemania Occidental', ENG: 'Inglaterra', ESP: 'España',
@@ -64,6 +70,7 @@ function rowToTournament(row: TournamentRow, locale: string): Tournament {
       to: row.palette_to ?? '#444',
     },
     tagline,
+    seoIconic: STATIC_SEO_ICONIC[row.year] ?? tagline,
     summary,
     heroImageUrl: row.hero_image_url,
   };
