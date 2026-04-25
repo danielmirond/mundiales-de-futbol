@@ -369,7 +369,14 @@ export default async function NorthAmerica2026Page({
         </div>
       </section>
 
-      <div className="mt-8 pb-24 flex justify-center">
+      <div className="mt-8 pb-24 flex flex-wrap justify-center gap-3">
+        <Link
+          href={withLocale(locale as Locale, '/2026/entradas')}
+          className="group inline-flex items-center gap-2 rounded-full bg-[var(--color-pitch)] px-6 py-3 text-sm font-semibold text-black transition-opacity hover:opacity-90"
+        >
+          Entradas Mundial 2026
+          <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1 rtl:rotate-180" />
+        </Link>
         <Link
           href={withLocale(locale as Locale, '/ediciones/2026-norteamerica')}
           className="group inline-flex items-center gap-2 rounded-full border border-[var(--color-border-strong)] px-6 py-3 text-sm font-medium text-[var(--color-fg)] transition-colors hover:border-[var(--color-pitch)] hover:text-[var(--color-pitch)]"

@@ -68,6 +68,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   out.push(entry('/selecciones', now, 'weekly', 0.9));
   out.push(entry('/estadios', now, 'weekly', 0.8));
   out.push(entry('/2026', now, 'daily', 0.95));
+  out.push(entry('/2026/entradas', now, 'daily', 0.9));
   out.push(entry('/historias', now, 'daily', 0.9));
   out.push(entry('/contacto', now, 'yearly', 0.3));
   out.push(entry('/privacidad', now, 'yearly', 0.2));
