@@ -8,6 +8,8 @@ import { STAGE_LABEL_ES } from '@/lib/data/matches';
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd } from '@/lib/seo';
 import { TeamPhotoGallery } from '@/components/team/team-photo-gallery';
+import { AmazonProductGrid } from '@/components/affiliate/amazon-card';
+import { getProductsByTeam } from '@/lib/amazon-products';
 
 function withLocale(locale: Locale, href: string) {
   if (locale === routing.defaultLocale) return href;
@@ -307,6 +309,13 @@ export default async function SelectionDetailPage({
 
       {/* Galería de fotos icónicas (si hay) — Wikimedia Commons curado */}
       <TeamPhotoGallery teamCode={team.code} teamName={teamDisplayName(team)} locale={locale} />
+
+      {/* Productos relacionados Amazon (si hay) — afiliados */}
+      <AmazonProductGrid
+        products={getProductsByTeam(team.code)}
+        title={`Comprar ${teamDisplayName(team).toLowerCase()}`}
+        subtitle={`Camisetas, accesorios y merchandising oficial de ${teamDisplayName(team)} en Amazon. Selección curada — sin coste adicional para ti.`}
+      />
     </div>
   );
 }
