@@ -4,7 +4,9 @@ import { TOURNAMENTS } from '@/lib/tournaments';
 import { HISTORIAS } from '@/lib/historias';
 import { routing } from '@/i18n/routing';
 
-const SITE = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://mundiales-de-futbol.com';
+// Defensive `.trim()`: una env var con `\n` accidental rompía cada `<loc>`
+// del sitemap → 11k errores en GSC. Nunca más.
+const SITE = (process.env.NEXT_PUBLIC_SITE_URL ?? 'https://mundiales-de-futbol.com').trim();
 
 type Row = { slug?: string; code?: string; tournament_year?: number; match_number?: number };
 

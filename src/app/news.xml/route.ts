@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import { HISTORIAS } from '@/lib/historias';
 
-const SITE = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://mundiales-de-futbol.com';
+const SITE = (process.env.NEXT_PUBLIC_SITE_URL ?? 'https://mundiales-de-futbol.com').trim();
 
 /**
  * Google News Sitemap.

@@ -1,8 +1,11 @@
 import type { Metadata } from 'next';
 import { routing, type Locale } from '@/i18n/routing';
 
-const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL ?? 'https://mundiales-de-futbol.com';
+// Defensive `.trim()`: una env var con whitespace accidental (p.ej. \n)
+// rompía URLs en sitemap, OG tags y JSON-LD. Trim siempre.
+const SITE_URL = (
+  process.env.NEXT_PUBLIC_SITE_URL ?? 'https://mundiales-de-futbol.com'
+).trim();
 const SITE_NAME = 'Mundial de Fútbol';
 
 // Discover-friendly default ratio: 1200×675 (16:9). Matches the historias
