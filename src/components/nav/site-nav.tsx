@@ -32,6 +32,7 @@ export function SiteNav() {
     { href: '/selecciones', label: t('selections') },
     { href: '/jugadores', label: t('players') },
     { href: '/estadios', label: t('stadiums') },
+    { href: '/historias', label: t('stories') },
   ];
 
   return (

@@ -1,6 +1,7 @@
 import type { MetadataRoute } from 'next';
 import { createClient } from '@supabase/supabase-js';
 import { TOURNAMENTS } from '@/lib/tournaments';
+import { HISTORIAS } from '@/lib/historias';
 import { routing } from '@/i18n/routing';
 
 const SITE = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://mundiales-de-futbol.com';
@@ -67,6 +68,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   out.push(entry('/selecciones', now, 'weekly', 0.9));
   out.push(entry('/estadios', now, 'weekly', 0.8));
   out.push(entry('/2026', now, 'daily', 0.95));
+  out.push(entry('/historias', now, 'daily', 0.9));
   out.push(entry('/contacto', now, 'yearly', 0.3));
   out.push(entry('/privacidad', now, 'yearly', 0.2));
   out.push(entry('/cookies', now, 'yearly', 0.2));
@@ -74,6 +76,11 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // Editions
   for (const t of TOURNAMENTS) {
     out.push(entry(`/ediciones/${t.slug}`, now, 'monthly', 0.8));
+  }
+
+  // Historias (calendario editorial)
+  for (const h of HISTORIAS) {
+    out.push(entry(`/historias/${h.slug}`, new Date(h.publishDate), 'monthly', 0.7));
   }
 
   // Matches
