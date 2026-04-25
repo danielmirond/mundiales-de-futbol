@@ -14,7 +14,7 @@ import { MatchTimeline } from '@/components/edition/match-timeline';
 import { PitchFormation } from '@/components/edition/pitch-formation';
 import { MatchPressWall } from '@/components/edition/press-wall';
 import { ShotMap } from '@/components/edition/shot-map';
-import { JsonLd } from '@/lib/seo';
+import { JsonLd, pageMetadata, breadcrumbLd } from '@/lib/seo';
 import { routing, type Locale } from '@/i18n/routing';
 
 function withLocale(locale: Locale, href: string) {
@@ -34,6 +34,43 @@ function fmtDate(iso: string) {
   } catch {
     return iso;
   }
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string; slug: string; n: string }>;
+}) {
+  const { locale, slug, n } = await params;
+  const tournament = getTournament(slug);
+  if (!tournament) return {};
+  const matchNumber = parseInt(n, 10);
+  const match = await getMatchByNumber(tournament.year, matchNumber);
+  if (!match) return {};
+  const home = match.home_team?.name_official ?? match.home_code;
+  const away = match.away_team?.name_official ?? match.away_code;
+  const score =
+    typeof match.home_score === 'number' && typeof match.away_score === 'number'
+      ? `${match.home_score}-${match.away_score}`
+      : 'partido';
+  const stage = match.stage ? STAGE_LABEL_ES[match.stage] ?? match.stage : '';
+  const title = `${home} ${score} ${away} · ${tournament.year} · ${stage}`;
+  const description = `${home} contra ${away} en ${stage} del Mundial ${tournament.year} (${tournament.host}). Alineaciones, goles, eventos minuto a minuto y crónica del partido.`;
+  return pageMetadata({
+    locale,
+    path: `/ediciones/${slug}/partido/${n}`,
+    title,
+    description,
+    type: 'article',
+    publishedTime: match.match_date ?? undefined,
+    keywords: [
+      `${home} vs ${away}`,
+      `${home} ${tournament.year}`,
+      `${away} ${tournament.year}`,
+      `Mundial ${tournament.year}`,
+      stage,
+    ],
+  });
 }
 
 export default async function MatchDetailPage({
@@ -60,24 +97,55 @@ export default async function MatchDetailPage({
   const awayLineups = lineups.filter((l) => l.team_code === match.away_code);
 
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://mundiales-de-futbol.com';
-  const jsonLd = {
+  const homeName = match.home_team?.name_official ?? match.home_code;
+  const awayName = match.away_team?.name_official ?? match.away_code;
+  const stageLabel = match.stage ? STAGE_LABEL_ES[match.stage] ?? match.stage : 'Partido';
+
+  const eventLd = {
     '@context': 'https://schema.org',
     '@type': 'SportsEvent',
-    name: `${match.home_team?.name_official ?? match.home_code} vs ${match.away_team?.name_official ?? match.away_code}`,
+    name: `${homeName} vs ${awayName} · Mundial ${tournament.year}`,
     startDate: match.match_date,
-    sport: 'Football',
+    sport: 'Football (Association)',
+    eventStatus: 'https://schema.org/EventScheduled',
     location: match.venue?.name
-      ? { '@type': 'Place', name: match.venue.name, address: match.venue.city ?? undefined }
+      ? {
+          '@type': 'Place',
+          name: match.venue.name,
+          address: match.venue.city
+            ? { '@type': 'PostalAddress', addressLocality: match.venue.city }
+            : undefined,
+        }
       : undefined,
-    homeTeam: { '@type': 'SportsTeam', name: match.home_team?.name_official ?? match.home_code },
-    awayTeam: { '@type': 'SportsTeam', name: match.away_team?.name_official ?? match.away_code },
+    competitor: [
+      { '@type': 'SportsTeam', name: homeName },
+      { '@type': 'SportsTeam', name: awayName },
+    ],
+    homeTeam: { '@type': 'SportsTeam', name: homeName },
+    awayTeam: { '@type': 'SportsTeam', name: awayName },
+    superEvent: {
+      '@type': 'SportsEvent',
+      name: `Copa Mundial de la FIFA ${tournament.year}`,
+      url: `${siteUrl}/ediciones/${tournament.slug}`,
+    },
+    organizer: { '@type': 'Organization', name: 'FIFA', url: 'https://www.fifa.com' },
     url: `${siteUrl}/ediciones/${tournament.slug}/partido/${match.match_number}`,
-    description: `${tournament.year} FIFA World Cup ${match.stage ?? 'group'}: ${match.home_code} ${match.home_score}-${match.away_score} ${match.away_code}`,
+    description: `${stageLabel} del Mundial ${tournament.year}: ${homeName} ${match.home_score}-${match.away_score} ${awayName} en ${match.venue?.name ?? 'sede pendiente'}.`,
   };
 
   return (
     <div>
-      <JsonLd data={jsonLd} />
+      <JsonLd
+        data={[
+          eventLd,
+          breadcrumbLd(locale, [
+            { name: 'Inicio', path: '/' },
+            { name: 'Ediciones', path: '/ediciones' },
+            { name: `${tournament.year} · ${tournament.host}`, path: `/ediciones/${tournament.slug}` },
+            { name: `${homeName} vs ${awayName}`, path: `/ediciones/${tournament.slug}/partido/${match.match_number}` },
+          ]),
+        ]}
+      />
 
       {/* Hero */}
       <section className="relative overflow-hidden pb-16 pt-28 md:pt-36">

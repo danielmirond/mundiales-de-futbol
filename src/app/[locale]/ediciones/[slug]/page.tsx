@@ -11,6 +11,7 @@ import { ArchiveVideos } from '@/components/edition/archive-videos';
 import { PressWall } from '@/components/edition/press-wall';
 import { EditionTimeline } from '@/components/edition/edition-timeline';
 import { EditionStory } from '@/components/edition/edition-story';
+import { JsonLd, breadcrumbLd, SEO } from '@/lib/seo';
 
 export function generateStaticParams() {
   return TOURNAMENTS.flatMap((t) =>
@@ -49,14 +50,21 @@ export async function generateMetadata({
         ]),
       ),
     },
+    robots: { index: true, follow: true, 'max-image-preview': 'large' },
     openGraph: {
       type: 'article',
       title,
       description,
       url,
-      images: t.heroImageUrl ? [{ url: t.heroImageUrl }] : undefined,
+      siteName: 'Mundial de Fútbol',
+      images: t.heroImageUrl ? [{ url: t.heroImageUrl, width: 1200, height: 630, alt: title }] : undefined,
     },
-    twitter: { card: 'summary_large_image', title, description },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: t.heroImageUrl ? [t.heroImageUrl] : undefined,
+    },
   };
 }
 
@@ -78,8 +86,53 @@ export default async function EditionPage({
   const format = await getFormatter();
   const upcoming = t.year >= 2026;
 
+  const editionUrl =
+    locale === routing.defaultLocale
+      ? `${SEO.siteUrl}/ediciones/${t.slug}`
+      : `${SEO.siteUrl}/${locale}/ediciones/${t.slug}`;
+
+  // SportsEvent schema for the tournament. Discover-friendly fields:
+  // startDate/endDate, location, organizer, and (where applicable) winner.
+  const eventLd: Record<string, unknown> = {
+    '@context': 'https://schema.org',
+    '@type': 'SportsEvent',
+    name: `Copa Mundial de la FIFA ${t.year}`,
+    alternateName: [`FIFA World Cup ${t.year}`, `Mundial ${t.year}`],
+    sport: 'Football (Association)',
+    url: editionUrl,
+    description: t.summary ?? t.tagline,
+    startDate: t.startDate || `${t.year}-01-01`,
+    endDate: t.endDate || `${t.year}-12-31`,
+    eventStatus: upcoming
+      ? 'https://schema.org/EventScheduled'
+      : 'https://schema.org/EventScheduled',
+    location: {
+      '@type': 'Country',
+      name: t.host,
+    },
+    organizer: {
+      '@type': 'Organization',
+      name: 'FIFA',
+      url: 'https://www.fifa.com',
+    },
+    image: t.heroImageUrl,
+  };
+  if (!upcoming && t.champion && t.champion !== '—') {
+    eventLd.winner = { '@type': 'SportsTeam', name: t.champion };
+  }
+
   return (
     <div className="relative">
+      <JsonLd
+        data={[
+          eventLd,
+          breadcrumbLd(locale, [
+            { name: 'Inicio', path: '/' },
+            { name: 'Ediciones', path: '/ediciones' },
+            { name: `${t.year} · ${t.host}`, path: `/ediciones/${t.slug}` },
+          ]),
+        ]}
+      />
       {/* Hero */}
       <section className="relative flex min-h-[70svh] flex-col justify-end overflow-hidden pb-16 pt-28 md:pb-24 md:pt-36">
         <div className="pointer-events-none absolute inset-0">
