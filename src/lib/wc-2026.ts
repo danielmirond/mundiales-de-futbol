@@ -2,13 +2,13 @@
  * Static data for the 2026 FIFA World Cup — Mexico, Canada & USA.
  * First 48-team edition. 104 matches, 16 venues, 11 June → 19 July 2026.
  *
- * Groups and fixture dates reflect the FIFA schedule published ahead
- * of the tournament. Teams filled as qualifying + draw results come in.
+ * Times are LOCAL at the venue (not UTC/ET).
+ * Source: official FIFA / Sky Sports schedule published April 2026.
  */
 
 export const WC_2026 = {
-  kickoff: '2026-06-11T18:00:00-06:00',
-  final: '2026-07-19T15:00:00-05:00',
+  kickoff: '2026-06-11T13:00:00-06:00', // MEX vs RSA, Azteca, 13:00 CST
+  final:   '2026-07-19T15:00:00-04:00', // MetLife, 15:00 EDT
   totalTeams: 48,
   totalMatches: 104,
   totalGroups: 12,
@@ -24,9 +24,9 @@ export type HostCountry = {
 };
 
 export const HOSTS: HostCountry[] = [
-  { code: 'MEX', name: 'México',          flag: '🇲🇽', cityCount: 3,  matchCount: 13, accent: '#006341' },
-  { code: 'CAN', name: 'Canadá',          flag: '🇨🇦', cityCount: 2,  matchCount: 13, accent: '#ff3b3b' },
-  { code: 'USA', name: 'Estados Unidos',  flag: '🇺🇸', cityCount: 11, matchCount: 78, accent: '#0a5fd3' },
+  { code: 'MEX', name: 'México',         flag: '🇲🇽', cityCount: 3,  matchCount: 13, accent: '#006341' },
+  { code: 'CAN', name: 'Canadá',         flag: '🇨🇦', cityCount: 2,  matchCount: 13, accent: '#ff3b3b' },
+  { code: 'USA', name: 'Estados Unidos', flag: '🇺🇸', cityCount: 11, matchCount: 78, accent: '#0a5fd3' },
 ];
 
 export type Venue26 = {
@@ -36,48 +36,38 @@ export type Venue26 = {
   country: 'USA' | 'CAN' | 'MEX';
   capacity: number;
   openedYear: number;
-  role: string;       // e.g. "Opening match", "Final"
-  wikipedia: string;  // URL for fetching image
+  role: string;
+  wikipedia: string;
 };
 
 export const VENUES_2026: Venue26[] = [
   // Mexico
   { slug: 'estadio-azteca', name: 'Estadio Azteca', hostCity: 'Ciudad de México', country: 'MEX', capacity: 87523, openedYear: 1966, role: 'Partido inaugural', wikipedia: 'https://en.wikipedia.org/wiki/Estadio_Azteca' },
-  { slug: 'estadio-akron',  name: 'Estadio Akron',  hostCity: 'Guadalajara',      country: 'MEX', capacity: 46355, openedYear: 2010, role: '4 partidos',          wikipedia: 'https://en.wikipedia.org/wiki/Estadio_Akron' },
-  { slug: 'estadio-bbva',   name: 'Estadio BBVA',   hostCity: 'Monterrey',        country: 'MEX', capacity: 53500, openedYear: 2015, role: '4 partidos',          wikipedia: 'https://en.wikipedia.org/wiki/Estadio_BBVA' },
-
+  { slug: 'estadio-akron',  name: 'Estadio Akron',  hostCity: 'Guadalajara',      country: 'MEX', capacity: 46355, openedYear: 2010, role: '4 partidos',         wikipedia: 'https://en.wikipedia.org/wiki/Estadio_Akron' },
+  { slug: 'estadio-bbva',   name: 'Estadio BBVA',   hostCity: 'Monterrey',        country: 'MEX', capacity: 53500, openedYear: 2015, role: '4 partidos',         wikipedia: 'https://en.wikipedia.org/wiki/Estadio_BBVA' },
   // Canada
-  { slug: 'bc-place',       name: 'BC Place',       hostCity: 'Vancouver',        country: 'CAN', capacity: 54500, openedYear: 1983, role: '7 partidos',          wikipedia: 'https://en.wikipedia.org/wiki/BC_Place' },
-  { slug: 'bmo-field',      name: 'BMO Field',      hostCity: 'Toronto',          country: 'CAN', capacity: 45000, openedYear: 2007, role: '6 partidos',          wikipedia: 'https://en.wikipedia.org/wiki/BMO_Field' },
-
-  // United States — 11 venues
-  { slug: 'metlife-stadium',     name: 'MetLife Stadium',       hostCity: 'East Rutherford',  country: 'USA', capacity: 82500, openedYear: 2010, role: 'Final',          wikipedia: 'https://en.wikipedia.org/wiki/MetLife_Stadium' },
-  { slug: 'sofi-stadium',        name: 'SoFi Stadium',          hostCity: 'Inglewood',        country: 'USA', capacity: 70240, openedYear: 2020, role: '8 partidos',     wikipedia: 'https://en.wikipedia.org/wiki/SoFi_Stadium' },
-  { slug: 'att-stadium',         name: 'AT&T Stadium',          hostCity: 'Arlington',        country: 'USA', capacity: 80000, openedYear: 2009, role: '9 partidos',     wikipedia: 'https://en.wikipedia.org/wiki/AT%26T_Stadium' },
-  { slug: 'mercedes-benz-stadium',name:'Mercedes-Benz Stadium', hostCity: 'Atlanta',          country: 'USA', capacity: 71000, openedYear: 2017, role: '8 partidos',     wikipedia: 'https://en.wikipedia.org/wiki/Mercedes-Benz_Stadium' },
-  { slug: 'gillette-stadium',    name: 'Gillette Stadium',      hostCity: 'Foxborough',       country: 'USA', capacity: 65878, openedYear: 2002, role: '7 partidos',     wikipedia: 'https://en.wikipedia.org/wiki/Gillette_Stadium' },
-  { slug: 'nrg-stadium',         name: 'NRG Stadium',           hostCity: 'Houston',          country: 'USA', capacity: 72220, openedYear: 2002, role: '7 partidos',     wikipedia: 'https://en.wikipedia.org/wiki/NRG_Stadium' },
-  { slug: 'arrowhead-stadium',   name: 'Arrowhead Stadium',     hostCity: 'Kansas City',      country: 'USA', capacity: 76416, openedYear: 1972, role: '6 partidos',     wikipedia: 'https://en.wikipedia.org/wiki/Arrowhead_Stadium' },
-  { slug: 'hard-rock-stadium',   name: 'Hard Rock Stadium',     hostCity: 'Miami Gardens',    country: 'USA', capacity: 64767, openedYear: 1987, role: '7 partidos',     wikipedia: 'https://en.wikipedia.org/wiki/Hard_Rock_Stadium' },
-  { slug: 'lincoln-financial-field', name: 'Lincoln Financial Field', hostCity: 'Philadelphia', country: 'USA', capacity: 69796, openedYear: 2003, role: '6 partidos', wikipedia: 'https://en.wikipedia.org/wiki/Lincoln_Financial_Field' },
-  { slug: 'levis-stadium',       name: "Levi's Stadium",        hostCity: 'Santa Clara',      country: 'USA', capacity: 68500, openedYear: 2014, role: '6 partidos',     wikipedia: "https://en.wikipedia.org/wiki/Levi's_Stadium" },
-  { slug: 'lumen-field',         name: 'Lumen Field',           hostCity: 'Seattle',          country: 'USA', capacity: 68740, openedYear: 2002, role: '6 partidos',     wikipedia: 'https://en.wikipedia.org/wiki/Lumen_Field' },
+  { slug: 'bc-place',       name: 'BC Place',       hostCity: 'Vancouver',        country: 'CAN', capacity: 54500, openedYear: 1983, role: '7 partidos',         wikipedia: 'https://en.wikipedia.org/wiki/BC_Place' },
+  { slug: 'bmo-field',      name: 'BMO Field',      hostCity: 'Toronto',          country: 'CAN', capacity: 45000, openedYear: 2007, role: '6 partidos',         wikipedia: 'https://en.wikipedia.org/wiki/BMO_Field' },
+  // United States
+  { slug: 'metlife-stadium',          name: 'MetLife Stadium',          hostCity: 'East Rutherford', country: 'USA', capacity: 82500, openedYear: 2010, role: 'Final',          wikipedia: 'https://en.wikipedia.org/wiki/MetLife_Stadium' },
+  { slug: 'sofi-stadium',             name: 'SoFi Stadium',             hostCity: 'Inglewood',       country: 'USA', capacity: 70240, openedYear: 2020, role: '8 partidos',     wikipedia: 'https://en.wikipedia.org/wiki/SoFi_Stadium' },
+  { slug: 'att-stadium',              name: 'AT&T Stadium',             hostCity: 'Arlington',       country: 'USA', capacity: 80000, openedYear: 2009, role: '9 partidos',     wikipedia: 'https://en.wikipedia.org/wiki/AT%26T_Stadium' },
+  { slug: 'mercedes-benz-stadium',    name: 'Mercedes-Benz Stadium',    hostCity: 'Atlanta',         country: 'USA', capacity: 71000, openedYear: 2017, role: '8 partidos',     wikipedia: 'https://en.wikipedia.org/wiki/Mercedes-Benz_Stadium' },
+  { slug: 'gillette-stadium',         name: 'Gillette Stadium',         hostCity: 'Foxborough',      country: 'USA', capacity: 65878, openedYear: 2002, role: '7 partidos',     wikipedia: 'https://en.wikipedia.org/wiki/Gillette_Stadium' },
+  { slug: 'nrg-stadium',              name: 'NRG Stadium',              hostCity: 'Houston',         country: 'USA', capacity: 72220, openedYear: 2002, role: '7 partidos',     wikipedia: 'https://en.wikipedia.org/wiki/NRG_Stadium' },
+  { slug: 'arrowhead-stadium',        name: 'Arrowhead Stadium',        hostCity: 'Kansas City',     country: 'USA', capacity: 76416, openedYear: 1972, role: '6 partidos',     wikipedia: 'https://en.wikipedia.org/wiki/Arrowhead_Stadium' },
+  { slug: 'hard-rock-stadium',        name: 'Hard Rock Stadium',        hostCity: 'Miami Gardens',   country: 'USA', capacity: 64767, openedYear: 1987, role: '7 partidos',     wikipedia: 'https://en.wikipedia.org/wiki/Hard_Rock_Stadium' },
+  { slug: 'lincoln-financial-field',  name: 'Lincoln Financial Field',  hostCity: 'Philadelphia',    country: 'USA', capacity: 69796, openedYear: 2003, role: '6 partidos',     wikipedia: 'https://en.wikipedia.org/wiki/Lincoln_Financial_Field' },
+  { slug: 'levis-stadium',            name: "Levi's Stadium",           hostCity: 'Santa Clara',     country: 'USA', capacity: 68500, openedYear: 2014, role: '6 partidos',     wikipedia: "https://en.wikipedia.org/wiki/Levi's_Stadium" },
+  { slug: 'lumen-field',              name: 'Lumen Field',              hostCity: 'Seattle',         country: 'USA', capacity: 68740, openedYear: 2002, role: '6 partidos',     wikipedia: 'https://en.wikipedia.org/wiki/Lumen_Field' },
 ];
 
-/**
- * Groups A–L. Seed positions based on the confirmed host placement:
- * Mexico in Group A (opens tournament), Canada in Group B, USA in Group D.
- * Remaining slots filled by qualifiers as the draw completes.
- */
 export type Group26 = {
   letter: string;
-  teams: (string | null)[]; // FIFA codes or null for TBD
+  teams: (string | null)[];
 };
 
-/**
- * 2026 Final Draw (December 5, 2025 — Kennedy Center, Washington D.C.).
- * Teams use FIFA three-letter codes.
- */
+/** 2026 Final Draw — 5 December 2025, Kennedy Center, Washington D.C. */
 export const GROUPS_2026: Group26[] = [
   { letter: 'A', teams: ['MEX', 'RSA', 'KOR', 'CZE'] },
   { letter: 'B', teams: ['CAN', 'SUI', 'QAT', 'BIH'] },
@@ -93,187 +83,180 @@ export const GROUPS_2026: Group26[] = [
   { letter: 'L', teams: ['ENG', 'CRO', 'GHA', 'PAN'] },
 ];
 
-/**
- * Simplified fixture calendar. Spread across the 38-day tournament,
- * with dates reflecting the published FIFA schedule.
- */
-export type Fixture = {
-  matchNumber: number;
-  date: string; // ISO
-  stage: string; // 'group-a' .. 'group-l' | 'r32' | 'r16' | 'qf' | 'sf' | '3rd' | 'final'
-  venueSlug: string;
-  home: string | null;
-  away: string | null;
-  label?: string; // e.g. "Ganador Grupo A"
-};
-
-// Phase dates
 export const PHASE_DATES = {
-  groupStart: '2026-06-11',
-  groupEnd: '2026-06-27',
-  r32Start: '2026-06-28',
-  r32End: '2026-07-03',
-  r16Start: '2026-07-04',
-  r16End: '2026-07-07',
-  qfStart: '2026-07-09',
-  qfEnd: '2026-07-11',
-  sfStart: '2026-07-14',
-  sfEnd: '2026-07-15',
-  thirdPlace: '2026-07-18',
-  final: '2026-07-19',
+  groupStart:  '2026-06-11',
+  groupEnd:    '2026-06-27',
+  r32Start:    '2026-06-28',
+  r32End:      '2026-07-03',
+  r16Start:    '2026-07-04',
+  r16End:      '2026-07-07',
+  qfStart:     '2026-07-09',
+  qfEnd:       '2026-07-11',
+  sfStart:     '2026-07-14',
+  sfEnd:       '2026-07-15',
+  thirdPlace:  '2026-07-18',
+  final:       '2026-07-19',
 } as const;
 
-/**
- * 104-match fixture skeleton. Venues + dates + stage labels reflect the
- * FIFA schedule; team slots fill in as qualifiers and the draw complete.
- */
 export type Fixture26 = {
   n: number;
+  /** Local date at the venue (YYYY-MM-DD) */
   date: string;
+  /** Local kickoff time at the venue (HH:MM, 24h) */
   time: string;
-  stage: string; // 'A'..'L' | 'R32' | 'R16' | 'QF' | 'SF' | '3P' | 'F'
+  /** 'A'..'L' for group stage | 'R32' | 'R16' | 'QF' | 'SF' | '3P' | 'FINAL' */
+  stage: string;
   venue: string;
   home?: string;
   away?: string;
   label?: string;
 };
 
-// Host countries and select matchups known from the draw
-const H = (n: number, date: string, time: string, group: string, venue: string, home?: string, away?: string): Fixture26 =>
-  ({ n, date, time, stage: group, venue, home, away });
-
-const K = (n: number, date: string, time: string, stage: string, venue: string, label: string): Fixture26 =>
-  ({ n, date, time, stage, venue, label });
-
 export const FIXTURES_2026: Fixture26[] = [
-  // --- GROUP STAGE · 72 matches ---
-  // Opening days — hosts lead off
-  H(1,  '2026-06-11', '11:00', 'A', 'estadio-azteca',         'MEX'),     // Opener
-  H(2,  '2026-06-12', '12:00', 'A', 'estadio-bbva'),
-  H(3,  '2026-06-12', '15:00', 'B', 'bmo-field',              'CAN'),
-  H(4,  '2026-06-12', '18:00', 'B', 'estadio-akron'),
-  H(5,  '2026-06-12', '15:00', 'D', 'sofi-stadium',           'USA'),
-  H(6,  '2026-06-12', '20:00', 'D', 'att-stadium'),
-  H(7,  '2026-06-13', '12:00', 'C', 'lumen-field',            'BRA'),
-  H(8,  '2026-06-13', '15:00', 'C', 'gillette-stadium'),
-  H(9,  '2026-06-13', '18:00', 'E', 'mercedes-benz-stadium',  'GER'),
-  H(10, '2026-06-13', '21:00', 'E', 'hard-rock-stadium'),
-  H(11, '2026-06-14', '12:00', 'F', 'bc-place',               'NED'),
-  H(12, '2026-06-14', '15:00', 'F', 'arrowhead-stadium'),
-  H(13, '2026-06-14', '18:00', 'G', 'levis-stadium',          'BEL'),
-  H(14, '2026-06-14', '21:00', 'G', 'nrg-stadium'),
-  H(15, '2026-06-15', '12:00', 'H', 'lincoln-financial-field','ESP'),
-  H(16, '2026-06-15', '15:00', 'H', 'metlife-stadium'),
-  H(17, '2026-06-15', '18:00', 'I', 'sofi-stadium',           'FRA'),
-  H(18, '2026-06-15', '21:00', 'I', 'estadio-bbva'),
-  H(19, '2026-06-16', '12:00', 'J', 'estadio-azteca',         'ARG'),
-  H(20, '2026-06-16', '15:00', 'J', 'gillette-stadium'),
-  H(21, '2026-06-16', '18:00', 'K', 'bmo-field',              'POR'),
-  H(22, '2026-06-16', '21:00', 'K', 'mercedes-benz-stadium'),
-  H(23, '2026-06-17', '12:00', 'L', 'hard-rock-stadium',      'ENG'),
-  H(24, '2026-06-17', '15:00', 'L', 'nrg-stadium'),
+  // ─── GROUP STAGE · 72 matches ────────────────────────────────────────────
+  // All times LOCAL at the venue. Source: official FIFA schedule Apr 2026.
 
-  // Matchday 2
-  H(25, '2026-06-17', '18:00', 'A', 'estadio-akron'),
-  H(26, '2026-06-17', '21:00', 'A', 'att-stadium'),
-  H(27, '2026-06-18', '12:00', 'B', 'bc-place'),
-  H(28, '2026-06-18', '15:00', 'B', 'lumen-field'),
-  H(29, '2026-06-18', '18:00', 'D', 'arrowhead-stadium'),
-  H(30, '2026-06-18', '21:00', 'D', 'levis-stadium'),
-  H(31, '2026-06-19', '12:00', 'C', 'metlife-stadium'),
-  H(32, '2026-06-19', '15:00', 'C', 'estadio-bbva'),
-  H(33, '2026-06-19', '18:00', 'E', 'lincoln-financial-field'),
-  H(34, '2026-06-19', '21:00', 'E', 'sofi-stadium'),
-  H(35, '2026-06-20', '12:00', 'F', 'hard-rock-stadium'),
-  H(36, '2026-06-20', '15:00', 'F', 'nrg-stadium'),
-  H(37, '2026-06-20', '18:00', 'G', 'mercedes-benz-stadium'),
-  H(38, '2026-06-20', '21:00', 'G', 'gillette-stadium'),
-  H(39, '2026-06-21', '12:00', 'H', 'estadio-azteca'),
-  H(40, '2026-06-21', '15:00', 'H', 'bmo-field'),
-  H(41, '2026-06-21', '18:00', 'I', 'estadio-akron'),
-  H(42, '2026-06-21', '21:00', 'I', 'levis-stadium'),
-  H(43, '2026-06-22', '12:00', 'J', 'att-stadium'),
-  H(44, '2026-06-22', '15:00', 'J', 'lumen-field'),
-  H(45, '2026-06-22', '18:00', 'K', 'bc-place'),
-  H(46, '2026-06-22', '21:00', 'K', 'arrowhead-stadium'),
-  H(47, '2026-06-23', '12:00', 'L', 'metlife-stadium'),
-  H(48, '2026-06-23', '15:00', 'L', 'sofi-stadium'),
+  // ── Matchday 1 ──────────────────────────────────────────────
+  { n:  1, date:'2026-06-11', time:'13:00', stage:'A', venue:'estadio-azteca',         home:'MEX', away:'RSA' },
+  { n:  2, date:'2026-06-11', time:'20:00', stage:'A', venue:'estadio-akron',          home:'KOR', away:'CZE' },
+  { n:  3, date:'2026-06-12', time:'15:00', stage:'B', venue:'bmo-field',              home:'CAN', away:'BIH' },
+  { n:  4, date:'2026-06-12', time:'18:00', stage:'D', venue:'sofi-stadium',           home:'USA', away:'PAR' },
+  { n:  5, date:'2026-06-13', time:'12:00', stage:'B', venue:'levis-stadium',          home:'QAT', away:'SUI' },
+  { n:  6, date:'2026-06-13', time:'18:00', stage:'C', venue:'metlife-stadium',        home:'BRA', away:'MAR' },
+  { n:  7, date:'2026-06-13', time:'21:00', stage:'C', venue:'gillette-stadium',       home:'HAI', away:'SCO' },
+  { n:  8, date:'2026-06-13', time:'21:00', stage:'D', venue:'bc-place',               home:'AUS', away:'TUR' },
+  { n:  9, date:'2026-06-14', time:'12:00', stage:'E', venue:'nrg-stadium',            home:'GER', away:'CUW' },
+  { n: 10, date:'2026-06-14', time:'15:00', stage:'F', venue:'att-stadium',            home:'NED', away:'JPN' },
+  { n: 11, date:'2026-06-14', time:'19:00', stage:'E', venue:'lincoln-financial-field',home:'CIV', away:'ECU' },
+  { n: 12, date:'2026-06-14', time:'20:00', stage:'F', venue:'estadio-bbva',           home:'SWE', away:'TUN' },
+  { n: 13, date:'2026-06-15', time:'12:00', stage:'H', venue:'mercedes-benz-stadium',  home:'ESP', away:'CPV' },
+  { n: 14, date:'2026-06-15', time:'12:00', stage:'G', venue:'lumen-field',            home:'BEL', away:'EGY' },
+  { n: 15, date:'2026-06-15', time:'18:00', stage:'H', venue:'hard-rock-stadium',      home:'KSA', away:'URU' },
+  { n: 16, date:'2026-06-15', time:'18:00', stage:'G', venue:'sofi-stadium',           home:'IRN', away:'NZL' },
+  { n: 17, date:'2026-06-16', time:'15:00', stage:'I', venue:'metlife-stadium',        home:'FRA', away:'SEN' },
+  { n: 18, date:'2026-06-16', time:'18:00', stage:'I', venue:'gillette-stadium',       home:'IRQ', away:'NOR' },
+  { n: 19, date:'2026-06-16', time:'20:00', stage:'J', venue:'arrowhead-stadium',      home:'ARG', away:'ALG' },
+  { n: 20, date:'2026-06-16', time:'21:00', stage:'J', venue:'levis-stadium',          home:'AUT', away:'JOR' },
+  { n: 21, date:'2026-06-17', time:'12:00', stage:'K', venue:'nrg-stadium',            home:'POR', away:'COD' },
+  { n: 22, date:'2026-06-17', time:'15:00', stage:'L', venue:'att-stadium',            home:'ENG', away:'CRO' },
+  { n: 23, date:'2026-06-17', time:'19:00', stage:'L', venue:'bmo-field',              home:'GHA', away:'PAN' },
+  { n: 24, date:'2026-06-17', time:'20:00', stage:'K', venue:'estadio-azteca',         home:'UZB', away:'COL' },
 
-  // Matchday 3 — last group round with simultaneous kickoffs
-  H(49, '2026-06-24', '18:00', 'A', 'estadio-azteca'),
-  H(50, '2026-06-24', '18:00', 'A', 'estadio-bbva'),
-  H(51, '2026-06-24', '21:00', 'B', 'bmo-field'),
-  H(52, '2026-06-24', '21:00', 'B', 'estadio-akron'),
-  H(53, '2026-06-25', '15:00', 'C', 'lincoln-financial-field'),
-  H(54, '2026-06-25', '15:00', 'C', 'hard-rock-stadium'),
-  H(55, '2026-06-25', '18:00', 'D', 'sofi-stadium'),
-  H(56, '2026-06-25', '18:00', 'D', 'att-stadium'),
-  H(57, '2026-06-25', '21:00', 'E', 'levis-stadium'),
-  H(58, '2026-06-25', '21:00', 'E', 'nrg-stadium'),
-  H(59, '2026-06-26', '15:00', 'F', 'mercedes-benz-stadium'),
-  H(60, '2026-06-26', '15:00', 'F', 'gillette-stadium'),
-  H(61, '2026-06-26', '18:00', 'G', 'bc-place'),
-  H(62, '2026-06-26', '18:00', 'G', 'lumen-field'),
-  H(63, '2026-06-26', '21:00', 'H', 'arrowhead-stadium'),
-  H(64, '2026-06-26', '21:00', 'H', 'metlife-stadium'),
-  H(65, '2026-06-27', '15:00', 'I', 'estadio-azteca'),
-  H(66, '2026-06-27', '15:00', 'I', 'estadio-akron'),
-  H(67, '2026-06-27', '18:00', 'J', 'bmo-field'),
-  H(68, '2026-06-27', '18:00', 'J', 'att-stadium'),
-  H(69, '2026-06-27', '21:00', 'K', 'sofi-stadium'),
-  H(70, '2026-06-27', '21:00', 'K', 'levis-stadium'),
-  H(71, '2026-06-27', '18:00', 'L', 'lincoln-financial-field'),
-  H(72, '2026-06-27', '21:00', 'L', 'hard-rock-stadium'),
+  // ── Matchday 2 ──────────────────────────────────────────────
+  { n: 25, date:'2026-06-18', time:'12:00', stage:'A', venue:'mercedes-benz-stadium',  home:'CZE', away:'RSA' },
+  { n: 26, date:'2026-06-18', time:'12:00', stage:'B', venue:'sofi-stadium',           home:'SUI', away:'BIH' },
+  { n: 27, date:'2026-06-18', time:'15:00', stage:'B', venue:'bc-place',               home:'CAN', away:'QAT' },
+  { n: 28, date:'2026-06-18', time:'19:00', stage:'A', venue:'estadio-akron',          home:'MEX', away:'KOR' },
+  { n: 29, date:'2026-06-19', time:'12:00', stage:'D', venue:'lumen-field',            home:'USA', away:'AUS' },
+  { n: 30, date:'2026-06-19', time:'18:00', stage:'C', venue:'gillette-stadium',       home:'SCO', away:'MAR' },
+  { n: 31, date:'2026-06-19', time:'20:30', stage:'C', venue:'lincoln-financial-field',home:'BRA', away:'HAI' },
+  { n: 32, date:'2026-06-19', time:'20:00', stage:'D', venue:'levis-stadium',          home:'TUR', away:'PAR' },
+  { n: 33, date:'2026-06-21', time:'12:00', stage:'F', venue:'nrg-stadium',            home:'NED', away:'SWE' },
+  { n: 34, date:'2026-06-21', time:'16:00', stage:'E', venue:'bmo-field',              home:'GER', away:'CIV' },
+  { n: 35, date:'2026-06-21', time:'19:00', stage:'E', venue:'arrowhead-stadium',      home:'ECU', away:'CUW' },
+  { n: 36, date:'2026-06-21', time:'22:00', stage:'F', venue:'estadio-bbva',           home:'TUN', away:'JPN' },
+  { n: 37, date:'2026-06-22', time:'12:00', stage:'H', venue:'mercedes-benz-stadium',  home:'ESP', away:'KSA' },
+  { n: 38, date:'2026-06-22', time:'12:00', stage:'G', venue:'sofi-stadium',           home:'BEL', away:'IRN' },
+  { n: 39, date:'2026-06-22', time:'18:00', stage:'H', venue:'hard-rock-stadium',      home:'URU', away:'CPV' },
+  { n: 40, date:'2026-06-22', time:'18:00', stage:'G', venue:'bc-place',               home:'NZL', away:'EGY' },
+  { n: 41, date:'2026-06-23', time:'12:00', stage:'J', venue:'att-stadium',            home:'ARG', away:'AUT' },
+  { n: 42, date:'2026-06-23', time:'17:00', stage:'I', venue:'lincoln-financial-field',home:'FRA', away:'IRQ' },
+  { n: 43, date:'2026-06-23', time:'20:00', stage:'I', venue:'bmo-field',              home:'NOR', away:'SEN' },
+  { n: 44, date:'2026-06-23', time:'20:00', stage:'J', venue:'levis-stadium',          home:'JOR', away:'ALG' },
+  { n: 45, date:'2026-06-24', time:'12:00', stage:'K', venue:'nrg-stadium',            home:'POR', away:'UZB' },
+  { n: 46, date:'2026-06-24', time:'16:00', stage:'L', venue:'gillette-stadium',       home:'ENG', away:'GHA' },
+  { n: 47, date:'2026-06-24', time:'19:00', stage:'L', venue:'gillette-stadium',       home:'PAN', away:'CRO' },
+  { n: 48, date:'2026-06-24', time:'20:00', stage:'K', venue:'estadio-akron',          home:'COL', away:'COD' },
 
-  // --- R32 · 28 Jun – 3 Jul ---
-  K(73, '2026-06-28', '15:00', 'R32', 'estadio-azteca',              'R32.1'),
-  K(74, '2026-06-28', '18:00', 'R32', 'bmo-field',                   'R32.2'),
-  K(75, '2026-06-28', '21:00', 'R32', 'att-stadium',                 'R32.3'),
-  K(76, '2026-06-29', '15:00', 'R32', 'sofi-stadium',                'R32.4'),
-  K(77, '2026-06-29', '18:00', 'R32', 'metlife-stadium',             'R32.5'),
-  K(78, '2026-06-29', '21:00', 'R32', 'hard-rock-stadium',           'R32.6'),
-  K(79, '2026-06-30', '15:00', 'R32', 'nrg-stadium',                 'R32.7'),
-  K(80, '2026-06-30', '18:00', 'R32', 'mercedes-benz-stadium',       'R32.8'),
-  K(81, '2026-06-30', '21:00', 'R32', 'lumen-field',                 'R32.9'),
-  K(82, '2026-07-01', '15:00', 'R32', 'bc-place',                    'R32.10'),
-  K(83, '2026-07-01', '18:00', 'R32', 'arrowhead-stadium',           'R32.11'),
-  K(84, '2026-07-01', '21:00', 'R32', 'levis-stadium',               'R32.12'),
-  K(85, '2026-07-02', '15:00', 'R32', 'gillette-stadium',            'R32.13'),
-  K(86, '2026-07-02', '18:00', 'R32', 'lincoln-financial-field',     'R32.14'),
-  K(87, '2026-07-02', '21:00', 'R32', 'estadio-akron',               'R32.15'),
-  K(88, '2026-07-03', '18:00', 'R32', 'estadio-bbva',                'R32.16'),
+  // ── Matchday 3 · simultaneous dentro de cada grupo ──────────
+  // Grupo B — 12:00 PDT
+  { n: 49, date:'2026-06-24', time:'12:00', stage:'B', venue:'bc-place',               home:'SUI', away:'CAN' },
+  { n: 50, date:'2026-06-24', time:'12:00', stage:'B', venue:'lumen-field',            home:'BIH', away:'QAT' },
+  // Grupo C — 18:00 EDT
+  { n: 51, date:'2026-06-24', time:'18:00', stage:'C', venue:'mercedes-benz-stadium',  home:'MAR', away:'HAI' },
+  { n: 52, date:'2026-06-24', time:'18:00', stage:'C', venue:'hard-rock-stadium',      home:'SCO', away:'BRA' },
+  // Grupo A — 19:00 CST
+  { n: 53, date:'2026-06-24', time:'19:00', stage:'A', venue:'estadio-bbva',           home:'RSA', away:'KOR' },
+  { n: 54, date:'2026-06-24', time:'19:00', stage:'A', venue:'estadio-azteca',         home:'CZE', away:'MEX' },
+  // Grupo E — 16:00 EDT
+  { n: 55, date:'2026-06-25', time:'16:00', stage:'E', venue:'lincoln-financial-field',home:'CUW', away:'CIV' },
+  { n: 56, date:'2026-06-25', time:'16:00', stage:'E', venue:'metlife-stadium',        home:'ECU', away:'GER' },
+  // Grupo F — 18:00 CDT
+  { n: 57, date:'2026-06-25', time:'18:00', stage:'F', venue:'arrowhead-stadium',      home:'TUN', away:'NED' },
+  { n: 58, date:'2026-06-25', time:'18:00', stage:'F', venue:'att-stadium',            home:'JPN', away:'SWE' },
+  // Grupo D — 19:00 PDT
+  { n: 59, date:'2026-06-25', time:'19:00', stage:'D', venue:'sofi-stadium',           home:'TUR', away:'USA' },
+  { n: 60, date:'2026-06-25', time:'19:00', stage:'D', venue:'levis-stadium',          home:'PAR', away:'AUS' },
+  // Grupo I — 15:00 EDT
+  { n: 61, date:'2026-06-26', time:'15:00', stage:'I', venue:'gillette-stadium',       home:'NOR', away:'FRA' },
+  { n: 62, date:'2026-06-26', time:'15:00', stage:'I', venue:'bmo-field',              home:'SEN', away:'IRQ' },
+  // Grupo H — 19:00 CDT / 18:00 CST
+  { n: 63, date:'2026-06-26', time:'19:00', stage:'H', venue:'nrg-stadium',            home:'CPV', away:'KSA' },
+  { n: 64, date:'2026-06-26', time:'18:00', stage:'H', venue:'estadio-akron',          home:'URU', away:'ESP' },
+  // Grupo G — 20:00 PDT
+  { n: 65, date:'2026-06-26', time:'20:00', stage:'G', venue:'bc-place',               home:'NZL', away:'BEL' },
+  { n: 66, date:'2026-06-26', time:'20:00', stage:'G', venue:'lumen-field',            home:'EGY', away:'IRN' },
+  // Grupo L — 17:00 EDT
+  { n: 67, date:'2026-06-27', time:'17:00', stage:'L', venue:'metlife-stadium',        home:'PAN', away:'ENG' },
+  { n: 68, date:'2026-06-27', time:'17:00', stage:'L', venue:'lincoln-financial-field',home:'CRO', away:'GHA' },
+  // Grupo K — 19:30 EDT
+  { n: 69, date:'2026-06-27', time:'19:30', stage:'K', venue:'hard-rock-stadium',      home:'COL', away:'POR' },
+  { n: 70, date:'2026-06-27', time:'19:30', stage:'K', venue:'mercedes-benz-stadium',  home:'COD', away:'UZB' },
+  // Grupo J — 21:00 CDT
+  { n: 71, date:'2026-06-27', time:'21:00', stage:'J', venue:'arrowhead-stadium',      home:'ALG', away:'AUT' },
+  { n: 72, date:'2026-06-27', time:'21:00', stage:'J', venue:'att-stadium',            home:'JOR', away:'ARG' },
 
-  // --- R16 ---
-  K(89, '2026-07-04', '15:00', 'R16', 'sofi-stadium',                'Octavos 1'),
-  K(90, '2026-07-04', '18:00', 'R16', 'metlife-stadium',             'Octavos 2'),
-  K(91, '2026-07-05', '15:00', 'R16', 'estadio-azteca',              'Octavos 3'),
-  K(92, '2026-07-05', '18:00', 'R16', 'bc-place',                    'Octavos 4'),
-  K(93, '2026-07-06', '15:00', 'R16', 'att-stadium',                 'Octavos 5'),
-  K(94, '2026-07-06', '18:00', 'R16', 'hard-rock-stadium',           'Octavos 6'),
-  K(95, '2026-07-07', '15:00', 'R16', 'mercedes-benz-stadium',       'Octavos 7'),
-  K(96, '2026-07-07', '18:00', 'R16', 'gillette-stadium',            'Octavos 8'),
+  // ─── R32 · 16 matches ────────────────────────────────────────────────────
+  { n: 73, date:'2026-06-28', time:'12:00', stage:'R32', venue:'sofi-stadium',            label:'2º A · 2º B' },
+  { n: 74, date:'2026-06-29', time:'15:30', stage:'R32', venue:'gillette-stadium',        label:'1º E · 3er' },
+  { n: 75, date:'2026-06-29', time:'19:00', stage:'R32', venue:'estadio-bbva',            label:'1º F · 2º C' },
+  { n: 76, date:'2026-06-29', time:'12:00', stage:'R32', venue:'nrg-stadium',             label:'1º C · 2º F' },
+  { n: 77, date:'2026-06-30', time:'17:00', stage:'R32', venue:'metlife-stadium',         label:'1º I · 3er' },
+  { n: 78, date:'2026-06-30', time:'12:00', stage:'R32', venue:'att-stadium',             label:'2º E · 2º I' },
+  { n: 79, date:'2026-06-30', time:'19:00', stage:'R32', venue:'estadio-azteca',          label:'1º A · 3er' },
+  { n: 80, date:'2026-07-01', time:'12:00', stage:'R32', venue:'mercedes-benz-stadium',   label:'1º L · 3er' },
+  { n: 81, date:'2026-07-01', time:'17:00', stage:'R32', venue:'levis-stadium',           label:'1º D · 3er' },
+  { n: 82, date:'2026-07-01', time:'13:00', stage:'R32', venue:'lumen-field',             label:'1º G · 3er' },
+  { n: 83, date:'2026-07-02', time:'19:00', stage:'R32', venue:'bmo-field',               label:'2º K · 2º L' },
+  { n: 84, date:'2026-07-02', time:'12:00', stage:'R32', venue:'sofi-stadium',            label:'1º H · 2º J' },
+  { n: 85, date:'2026-07-02', time:'20:00', stage:'R32', venue:'bc-place',                label:'1º B · 3er' },
+  { n: 86, date:'2026-07-03', time:'18:00', stage:'R32', venue:'hard-rock-stadium',       label:'1º J · 2º H' },
+  { n: 87, date:'2026-07-03', time:'20:30', stage:'R32', venue:'arrowhead-stadium',       label:'1º K · 3er' },
+  { n: 88, date:'2026-07-03', time:'13:00', stage:'R32', venue:'att-stadium',             label:'2º D · 2º G' },
 
-  // --- QF ---
-  K(97,  '2026-07-09', '18:00', 'QF', 'metlife-stadium',             'Cuartos 1'),
-  K(98,  '2026-07-09', '21:00', 'QF', 'att-stadium',                 'Cuartos 2'),
-  K(99,  '2026-07-10', '18:00', 'QF', 'sofi-stadium',                'Cuartos 3'),
-  K(100, '2026-07-11', '18:00', 'QF', 'nrg-stadium',                 'Cuartos 4'),
+  // ─── R16 · 8 matches ─────────────────────────────────────────────────────
+  { n: 89, date:'2026-07-04', time:'17:00', stage:'R16', venue:'lincoln-financial-field', label:'G.M74 · G.M77' },
+  { n: 90, date:'2026-07-04', time:'12:00', stage:'R16', venue:'nrg-stadium',             label:'G.M73 · G.M75' },
+  { n: 91, date:'2026-07-05', time:'16:00', stage:'R16', venue:'metlife-stadium',         label:'G.M76 · G.M78' },
+  { n: 92, date:'2026-07-05', time:'18:00', stage:'R16', venue:'estadio-azteca',          label:'G.M79 · G.M80' },
+  { n: 93, date:'2026-07-06', time:'14:00', stage:'R16', venue:'att-stadium',             label:'G.M83 · G.M84' },
+  { n: 94, date:'2026-07-06', time:'17:00', stage:'R16', venue:'lumen-field',             label:'G.M81 · G.M82' },
+  { n: 95, date:'2026-07-07', time:'12:00', stage:'R16', venue:'mercedes-benz-stadium',   label:'G.M86 · G.M88' },
+  { n: 96, date:'2026-07-07', time:'13:00', stage:'R16', venue:'bc-place',                label:'G.M85 · G.M87' },
 
-  // --- SF + 3rd + Final ---
-  K(101, '2026-07-14', '19:00', 'SF', 'att-stadium',                 'Semifinal 1'),
-  K(102, '2026-07-15', '19:00', 'SF', 'mercedes-benz-stadium',       'Semifinal 2'),
-  K(103, '2026-07-18', '15:00', '3P', 'hard-rock-stadium',           '3er puesto'),
-  K(104, '2026-07-19', '15:00', 'FINAL', 'metlife-stadium',          '🏆 Final'),
+  // ─── Cuartos ─────────────────────────────────────────────────────────────
+  { n:  97, date:'2026-07-09', time:'16:00', stage:'QF', venue:'gillette-stadium',        label:'G.M89 · G.M90' },
+  { n:  98, date:'2026-07-10', time:'12:00', stage:'QF', venue:'sofi-stadium',            label:'G.M93 · G.M94' },
+  { n:  99, date:'2026-07-11', time:'17:00', stage:'QF', venue:'hard-rock-stadium',       label:'G.M91 · G.M92' },
+  { n: 100, date:'2026-07-11', time:'20:00', stage:'QF', venue:'arrowhead-stadium',       label:'G.M95 · G.M96' },
+
+  // ─── Semifinales ─────────────────────────────────────────────────────────
+  { n: 101, date:'2026-07-14', time:'14:00', stage:'SF', venue:'att-stadium',             label:'Semifinal 1' },
+  { n: 102, date:'2026-07-15', time:'15:00', stage:'SF', venue:'mercedes-benz-stadium',   label:'Semifinal 2' },
+
+  // ─── 3er puesto + Final ──────────────────────────────────────────────────
+  { n: 103, date:'2026-07-18', time:'17:00', stage:'3P',    venue:'hard-rock-stadium',    label:'3er puesto' },
+  { n: 104, date:'2026-07-19', time:'15:00', stage:'FINAL', venue:'metlife-stadium',      label:'🏆 Final' },
 ];
 
 export const STAGE_LABEL: Record<string, string> = {
   A: 'Grupo A', B: 'Grupo B', C: 'Grupo C', D: 'Grupo D',
   E: 'Grupo E', F: 'Grupo F', G: 'Grupo G', H: 'Grupo H',
   I: 'Grupo I', J: 'Grupo J', K: 'Grupo K', L: 'Grupo L',
-  R32: 'Dieciseisavos',
-  R16: 'Octavos de final',
-  QF: 'Cuartos de final',
-  SF: 'Semifinal',
-  '3P': 'Tercer puesto',
+  R32:   'Dieciseisavos',
+  R16:   'Octavos de final',
+  QF:    'Cuartos de final',
+  SF:    'Semifinal',
+  '3P':  'Tercer puesto',
   FINAL: 'Final',
 };
