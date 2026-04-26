@@ -37,14 +37,14 @@ export async function EditionsGrid({ locale }: { locale: Locale }) {
         </Link>
       </div>
 
-      <div className="mt-14 grid grid-cols-2 gap-px bg-[var(--color-border)] sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
+      <div className="mt-14 grid grid-cols-2 border-l border-t border-[var(--color-border)] sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
         {tournaments.map((ed) => {
           const upcoming = ed.year >= 2026;
           return (
             <Link
               key={ed.year}
               href={withLocale(locale, `/ediciones/${ed.slug}`)}
-              className="group relative flex aspect-[4/5] flex-col justify-between overflow-hidden bg-[var(--color-bg)] p-5 transition-colors hover:bg-[var(--color-bg-2)]"
+              className="group relative flex aspect-[4/5] flex-col justify-between overflow-hidden border-b border-r border-[var(--color-border)] bg-[var(--color-bg)] p-5 transition-colors hover:bg-[var(--color-bg-2)]"
             >
               <div
                 aria-hidden
