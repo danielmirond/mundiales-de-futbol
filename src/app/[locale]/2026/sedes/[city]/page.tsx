@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import { setRequestLocale } from 'next-intl/server';
 import {
@@ -17,6 +18,7 @@ import {
   getSedeBySlug,
   getVenueForSede,
 } from '@/lib/wc-2026-sedes';
+import { getVenueBySlug } from '@/lib/data/venues';
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl, SEO } from '@/lib/seo';
 
@@ -76,6 +78,13 @@ export default async function SedeCityPage({
   const sede = getSedeBySlug(city);
   if (!sede) notFound();
   const venue = getVenueForSede(sede);
+
+  // Reaprovechamos `hero_image_url` ya cargado en Supabase para los 16
+  // estadios del Mundial 2026 (seed: ingest-wikimedia-images.ts). Si no
+  // hay imagen, el OG dinámico de marca cubre la metadata y el hero
+  // queda con gradient + grid-overlay como fallback visual.
+  const dbVenue = await getVenueBySlug(sede.venueSlug);
+  const heroImage = dbVenue?.hero_image_url ?? null;
 
   const stadiumName = venue?.name ?? sede.venueSlug;
   const stadiumUrl = withLocale(locale as Locale, `/estadios/${sede.venueSlug}`);
@@ -143,51 +152,83 @@ export default async function SedeCityPage({
         ]}
       />
 
-      {/* Hero */}
-      <header className="mx-auto w-full max-w-[1400px] px-6 md:px-10">
-        <Link
-          href={withLocale(locale as Locale, '/2026/sedes')}
-          className="inline-flex items-center gap-2 font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-fg-muted)] transition-colors hover:text-[var(--color-fg)]"
-        >
-          <ArrowLeft className="h-3 w-3 rtl:rotate-180" /> 16 sedes
-        </Link>
+      {/* Hero con imagen del estadio (si está disponible) */}
+      <section className="relative -mt-32 flex min-h-[60svh] flex-col justify-end overflow-hidden pt-32">
+        {heroImage ? (
+          <>
+            <Image
+              src={heroImage}
+              alt={`${stadiumName}, sede del Mundial 2026 en ${sede.cityName}`}
+              fill
+              sizes="100vw"
+              className="object-cover"
+              unoptimized
+              priority
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-[var(--color-bg)] via-[var(--color-bg)]/60 to-[var(--color-bg)]/30" />
+          </>
+        ) : (
+          <div className="absolute inset-0 bg-gradient-to-br from-[var(--color-pitch)]/10 via-[var(--color-bg-2)] to-[var(--color-bg)]" />
+        )}
+        <div className="absolute inset-0 grid-overlay opacity-20" />
 
-        <div className="mt-6 flex flex-wrap items-center gap-x-4 gap-y-2 font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-pitch)]">
-          <span aria-hidden>{sede.flag}</span>
-          <span>{sede.countryName}</span>
-          <span className="text-[var(--color-fg-subtle)]">·</span>
-          <span className="text-[var(--color-fg-subtle)]">{sede.timezone}</span>
-          <span className="text-[var(--color-fg-subtle)]">·</span>
-          <span className="text-[var(--color-fg-subtle)]">{sede.airport.iata}</span>
-        </div>
+        <header className="relative z-10 mx-auto w-full max-w-[1400px] px-6 pb-16 md:px-10">
+          <Link
+            href={withLocale(locale as Locale, '/2026/sedes')}
+            className={`inline-flex items-center gap-2 font-mono text-xs uppercase tracking-[0.3em] transition-colors ${
+              heroImage
+                ? 'text-white/70 hover:text-white'
+                : 'text-[var(--color-fg-muted)] hover:text-[var(--color-fg)]'
+            }`}
+          >
+            <ArrowLeft className="h-3 w-3 rtl:rotate-180" /> 16 sedes
+          </Link>
 
-        <h1 className="mt-4 font-display text-fluid-display uppercase leading-[0.9]">
-          {sede.cityName}
-        </h1>
-        <p className="mt-4 max-w-3xl font-display text-2xl uppercase leading-tight text-[var(--color-fg-muted)] md:text-3xl">
-          {stadiumName}
-        </p>
+          <div className="mt-6 flex flex-wrap items-center gap-x-4 gap-y-2 font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-pitch)]">
+            <span aria-hidden>{sede.flag}</span>
+            <span>{sede.countryName}</span>
+            <span className={heroImage ? 'text-white/50' : 'text-[var(--color-fg-subtle)]'}>·</span>
+            <span className={heroImage ? 'text-white/70' : 'text-[var(--color-fg-subtle)]'}>{sede.timezone}</span>
+            <span className={heroImage ? 'text-white/50' : 'text-[var(--color-fg-subtle)]'}>·</span>
+            <span className={heroImage ? 'text-white/70' : 'text-[var(--color-fg-subtle)]'}>{sede.airport.iata}</span>
+          </div>
 
-        <div className="mt-8 flex flex-wrap items-center gap-3">
-          {venue?.role ? (
-            <span className="inline-flex items-center gap-2 rounded-full bg-[var(--color-pitch)]/10 px-4 py-1.5 font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-pitch)]">
-              {venue.role}
-            </span>
-          ) : null}
-          {venue?.capacity ? (
-            <span className="inline-flex items-center gap-2 rounded-full border border-[var(--color-border)] px-4 py-1.5 font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-fg-muted)]">
-              <Users className="h-3 w-3" />
-              {venue.capacity.toLocaleString('es-ES')} aforo
-            </span>
-          ) : null}
-          {venue?.openedYear ? (
-            <span className="inline-flex items-center gap-2 rounded-full border border-[var(--color-border)] px-4 py-1.5 font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-fg-muted)]">
-              <Building2 className="h-3 w-3" />
-              Abierto {venue.openedYear}
-            </span>
-          ) : null}
-        </div>
-      </header>
+          <h1 className={`mt-4 font-display text-fluid-display uppercase leading-[0.9] ${heroImage ? 'text-white' : ''}`}>
+            {sede.cityName}
+          </h1>
+          <p className={`mt-4 max-w-3xl font-display text-2xl uppercase leading-tight md:text-3xl ${heroImage ? 'text-white/85' : 'text-[var(--color-fg-muted)]'}`}>
+            {stadiumName}
+          </p>
+
+          <div className="mt-8 flex flex-wrap items-center gap-3">
+            {venue?.role ? (
+              <span className="inline-flex items-center gap-2 rounded-full bg-[var(--color-pitch)] px-4 py-1.5 font-mono text-[10px] uppercase tracking-[0.3em] text-black">
+                {venue.role}
+              </span>
+            ) : null}
+            {venue?.capacity ? (
+              <span className={`inline-flex items-center gap-2 rounded-full border px-4 py-1.5 font-mono text-[10px] uppercase tracking-[0.3em] ${
+                heroImage
+                  ? 'border-white/30 text-white/85 backdrop-blur-sm bg-black/20'
+                  : 'border-[var(--color-border)] text-[var(--color-fg-muted)]'
+              }`}>
+                <Users className="h-3 w-3" />
+                {venue.capacity.toLocaleString('es-ES')} aforo
+              </span>
+            ) : null}
+            {venue?.openedYear ? (
+              <span className={`inline-flex items-center gap-2 rounded-full border px-4 py-1.5 font-mono text-[10px] uppercase tracking-[0.3em] ${
+                heroImage
+                  ? 'border-white/30 text-white/85 backdrop-blur-sm bg-black/20'
+                  : 'border-[var(--color-border)] text-[var(--color-fg-muted)]'
+              }`}>
+                <Building2 className="h-3 w-3" />
+                Abierto {venue.openedYear}
+              </span>
+            ) : null}
+          </div>
+        </header>
+      </section>
 
       {/* Hero editorial */}
       <section className="mx-auto mt-16 w-full max-w-[900px] px-6 md:px-10">

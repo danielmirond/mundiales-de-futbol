@@ -276,16 +276,36 @@ export default async function NorthAmerica2026Page({
 
       {/* 12 groups */}
       <section className="mx-auto w-full max-w-[1400px] px-6 py-16 md:px-10 md:py-24">
-        <div className="font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-pitch)]">
-          Los 12 grupos · A – L
+        <div className="flex flex-wrap items-end justify-between gap-4">
+          <div>
+            <div className="font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-pitch)]">
+              Los 12 grupos · A, L
+            </div>
+            <h2 className="mt-3 font-display text-fluid-h2 uppercase leading-none">
+              Cada grupo, 4 selecciones
+            </h2>
+            <p className="mt-4 max-w-2xl text-sm text-[var(--color-fg-muted)]">
+              Los clasifican los 2 primeros + los 8 mejores terceros, avanzando a una R32 inédita en
+              Mundiales. México abre el torneo en el Grupo A, Canadá juega en B y Estados Unidos en D.
+            </p>
+          </div>
+          <div className="flex flex-wrap gap-2">
+            <Link
+              href={withLocale(locale as Locale, '/2026/grupos')}
+              className="group inline-flex items-center gap-2 rounded-full bg-[var(--color-pitch)] px-5 py-3 text-sm font-semibold text-black transition-opacity hover:opacity-90"
+            >
+              Todos los grupos
+              <ArrowRight className="h-4 w-4 rtl:rotate-180 transition-transform group-hover:translate-x-1" />
+            </Link>
+            <Link
+              href={withLocale(locale as Locale, '/2026/calendario')}
+              className="group inline-flex items-center gap-2 rounded-full border border-[var(--color-border-strong)] px-5 py-3 text-sm text-[var(--color-fg)] transition-colors hover:border-[var(--color-pitch)] hover:text-[var(--color-pitch)]"
+            >
+              Calendario por fase
+              <ArrowRight className="h-4 w-4 rtl:rotate-180 transition-transform group-hover:translate-x-1" />
+            </Link>
+          </div>
         </div>
-        <h2 className="mt-3 font-display text-fluid-h2 uppercase leading-none">
-          Cada grupo, 4 selecciones
-        </h2>
-        <p className="mt-4 max-w-2xl text-sm text-[var(--color-fg-muted)]">
-          Los clasifican los 2 primeros + los 8 mejores terceros, avanzando a una R32 inédita en
-          Mundiales. México abre el torneo en el Grupo A, Canadá juega en B y Estados Unidos en D.
-        </p>
 
         <div className="mt-10 grid gap-px bg-[var(--color-border)] sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           {GROUPS_2026.map((g) => (

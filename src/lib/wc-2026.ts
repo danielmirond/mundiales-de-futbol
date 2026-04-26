@@ -83,6 +83,83 @@ export const GROUPS_2026: Group26[] = [
   { letter: 'L', teams: ['ENG', 'CRO', 'GHA', 'PAN'] },
 ];
 
+/**
+ * Información estática de los 48 equipos clasificados al Mundial 2026.
+ * Datos: código FIFA, nombre en español, bandera emoji, confederación.
+ *
+ * Usado en /2026/grupos, /2026/calendario y otros componentes que
+ * necesitan render rápido sin tocar la DB. Para datos vivos (estadísticas,
+ * ranking, etc.) seguir usando `getTeamByCode`.
+ */
+export type Team2026 = {
+  code: string;
+  name: string;
+  flag: string;
+  conf: 'UEFA' | 'CONMEBOL' | 'CONCACAF' | 'CAF' | 'AFC' | 'OFC';
+};
+
+export const TEAMS_2026: Record<string, Team2026> = {
+  // Anfitriones
+  MEX: { code: 'MEX', name: 'México',           flag: '🇲🇽', conf: 'CONCACAF' },
+  USA: { code: 'USA', name: 'Estados Unidos',   flag: '🇺🇸', conf: 'CONCACAF' },
+  CAN: { code: 'CAN', name: 'Canadá',           flag: '🇨🇦', conf: 'CONCACAF' },
+  // CONCACAF resto
+  HAI: { code: 'HAI', name: 'Haití',            flag: '🇭🇹', conf: 'CONCACAF' },
+  PAN: { code: 'PAN', name: 'Panamá',           flag: '🇵🇦', conf: 'CONCACAF' },
+  CUW: { code: 'CUW', name: 'Curazao',          flag: '🇨🇼', conf: 'CONCACAF' },
+  // CONMEBOL
+  BRA: { code: 'BRA', name: 'Brasil',           flag: '🇧🇷', conf: 'CONMEBOL' },
+  ARG: { code: 'ARG', name: 'Argentina',        flag: '🇦🇷', conf: 'CONMEBOL' },
+  URU: { code: 'URU', name: 'Uruguay',          flag: '🇺🇾', conf: 'CONMEBOL' },
+  COL: { code: 'COL', name: 'Colombia',         flag: '🇨🇴', conf: 'CONMEBOL' },
+  ECU: { code: 'ECU', name: 'Ecuador',          flag: '🇪🇨', conf: 'CONMEBOL' },
+  PAR: { code: 'PAR', name: 'Paraguay',         flag: '🇵🇾', conf: 'CONMEBOL' },
+  // UEFA
+  ESP: { code: 'ESP', name: 'España',           flag: '🇪🇸', conf: 'UEFA' },
+  FRA: { code: 'FRA', name: 'Francia',          flag: '🇫🇷', conf: 'UEFA' },
+  ENG: { code: 'ENG', name: 'Inglaterra',       flag: '🏴󠁧󠁢󠁥󠁮󠁧󠁿', conf: 'UEFA' },
+  GER: { code: 'GER', name: 'Alemania',         flag: '🇩🇪', conf: 'UEFA' },
+  NED: { code: 'NED', name: 'Países Bajos',     flag: '🇳🇱', conf: 'UEFA' },
+  POR: { code: 'POR', name: 'Portugal',         flag: '🇵🇹', conf: 'UEFA' },
+  CRO: { code: 'CRO', name: 'Croacia',          flag: '🇭🇷', conf: 'UEFA' },
+  BEL: { code: 'BEL', name: 'Bélgica',          flag: '🇧🇪', conf: 'UEFA' },
+  SUI: { code: 'SUI', name: 'Suiza',            flag: '🇨🇭', conf: 'UEFA' },
+  AUT: { code: 'AUT', name: 'Austria',          flag: '🇦🇹', conf: 'UEFA' },
+  NOR: { code: 'NOR', name: 'Noruega',          flag: '🇳🇴', conf: 'UEFA' },
+  SWE: { code: 'SWE', name: 'Suecia',           flag: '🇸🇪', conf: 'UEFA' },
+  CZE: { code: 'CZE', name: 'Chequia',          flag: '🇨🇿', conf: 'UEFA' },
+  SCO: { code: 'SCO', name: 'Escocia',          flag: '🏴󠁧󠁢󠁳󠁣󠁴󠁿', conf: 'UEFA' },
+  BIH: { code: 'BIH', name: 'Bosnia',           flag: '🇧🇦', conf: 'UEFA' },
+  // CAF
+  MAR: { code: 'MAR', name: 'Marruecos',        flag: '🇲🇦', conf: 'CAF' },
+  SEN: { code: 'SEN', name: 'Senegal',          flag: '🇸🇳', conf: 'CAF' },
+  EGY: { code: 'EGY', name: 'Egipto',           flag: '🇪🇬', conf: 'CAF' },
+  TUN: { code: 'TUN', name: 'Túnez',            flag: '🇹🇳', conf: 'CAF' },
+  ALG: { code: 'ALG', name: 'Argelia',          flag: '🇩🇿', conf: 'CAF' },
+  GHA: { code: 'GHA', name: 'Ghana',            flag: '🇬🇭', conf: 'CAF' },
+  CIV: { code: 'CIV', name: 'Costa de Marfil',  flag: '🇨🇮', conf: 'CAF' },
+  RSA: { code: 'RSA', name: 'Sudáfrica',        flag: '🇿🇦', conf: 'CAF' },
+  COD: { code: 'COD', name: 'RD del Congo',     flag: '🇨🇩', conf: 'CAF' },
+  CPV: { code: 'CPV', name: 'Cabo Verde',       flag: '🇨🇻', conf: 'CAF' },
+  // AFC
+  JPN: { code: 'JPN', name: 'Japón',            flag: '🇯🇵', conf: 'AFC' },
+  KOR: { code: 'KOR', name: 'Corea del Sur',    flag: '🇰🇷', conf: 'AFC' },
+  IRN: { code: 'IRN', name: 'Irán',             flag: '🇮🇷', conf: 'AFC' },
+  AUS: { code: 'AUS', name: 'Australia',        flag: '🇦🇺', conf: 'AFC' },
+  KSA: { code: 'KSA', name: 'Arabia Saudí',     flag: '🇸🇦', conf: 'AFC' },
+  QAT: { code: 'QAT', name: 'Catar',            flag: '🇶🇦', conf: 'AFC' },
+  IRQ: { code: 'IRQ', name: 'Irak',             flag: '🇮🇶', conf: 'AFC' },
+  UZB: { code: 'UZB', name: 'Uzbekistán',       flag: '🇺🇿', conf: 'AFC' },
+  JOR: { code: 'JOR', name: 'Jordania',         flag: '🇯🇴', conf: 'AFC' },
+  TUR: { code: 'TUR', name: 'Turquía',          flag: '🇹🇷', conf: 'UEFA' },
+  // OFC
+  NZL: { code: 'NZL', name: 'Nueva Zelanda',    flag: '🇳🇿', conf: 'OFC' },
+};
+
+export function getTeam2026(code: string): Team2026 | undefined {
+  return TEAMS_2026[code];
+}
+
 export const PHASE_DATES = {
   groupStart:  '2026-06-11',
   groupEnd:    '2026-06-27',
