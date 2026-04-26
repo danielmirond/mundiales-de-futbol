@@ -75,7 +75,7 @@ export function StartingXI({
                 {list.map((p) => (
                   <li key={p.player_id} className="flex items-baseline gap-3 text-sm">
                     <span className="w-6 text-right font-mono text-[var(--color-fg-subtle)] tab-num">
-                      {p.shirt_number ?? '—'}
+                      {p.shirt_number ?? '-'}
                     </span>
                     <PlayerName player={p.player} locale={locale} />
                     {p.sub_off_minute !== null && (
@@ -100,7 +100,7 @@ export function StartingXI({
             {bench.map((p) => (
               <li key={p.player_id} className="flex items-baseline gap-3 text-sm text-[var(--color-fg-muted)]">
                 <span className="w-6 text-right font-mono text-[var(--color-fg-subtle)] tab-num">
-                  {p.shirt_number ?? '—'}
+                  {p.shirt_number ?? '-'}
                 </span>
                 <PlayerName player={p.player} locale={locale} />
                 {p.sub_on_minute !== null && (

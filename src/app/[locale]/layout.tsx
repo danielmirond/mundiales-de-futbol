@@ -34,7 +34,7 @@ export async function generateMetadata({
   const { locale } = await params;
   const validLocale = hasLocale(routing.locales, locale) ? locale : routing.defaultLocale;
   const t = await getTranslations({ locale: validLocale, namespace: 'meta' });
-  // Verification tokens — read from env so we don't hardcode them.
+  // Verification tokens, read from env so we don't hardcode them.
   // Configura NEXT_PUBLIC_GSC_VERIFICATION y NEXT_PUBLIC_BING_VERIFICATION
   // en Vercel para activar la verificación.
   const verification: Metadata['verification'] = {};

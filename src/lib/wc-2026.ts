@@ -1,5 +1,5 @@
 /**
- * Static data for the 2026 FIFA World Cup — Mexico, Canada & USA.
+ * Static data for the 2026 FIFA World Cup, Mexico, Canada & USA.
  * First 48-team edition. 104 matches, 16 venues, 11 June → 19 July 2026.
  *
  * Times are LOCAL at the venue (not UTC/ET).
@@ -67,7 +67,7 @@ export type Group26 = {
   teams: (string | null)[];
 };
 
-/** 2026 Final Draw — 5 December 2025, Kennedy Center, Washington D.C. */
+/** 2026 Final Draw, 5 December 2025, Kennedy Center, Washington D.C. */
 export const GROUPS_2026: Group26[] = [
   { letter: 'A', teams: ['MEX', 'RSA', 'KOR', 'CZE'] },
   { letter: 'B', teams: ['CAN', 'SUI', 'QAT', 'BIH'] },
@@ -169,40 +169,40 @@ export const FIXTURES_2026: Fixture26[] = [
   { n: 48, date:'2026-06-24', time:'20:00', stage:'K', venue:'estadio-akron',          home:'COL', away:'COD' },
 
   // ── Matchday 3 · simultaneous dentro de cada grupo ──────────
-  // Grupo B — 12:00 PDT
+  // Grupo B, 12:00 PDT
   { n: 49, date:'2026-06-24', time:'12:00', stage:'B', venue:'bc-place',               home:'SUI', away:'CAN' },
   { n: 50, date:'2026-06-24', time:'12:00', stage:'B', venue:'lumen-field',            home:'BIH', away:'QAT' },
-  // Grupo C — 18:00 EDT
+  // Grupo C, 18:00 EDT
   { n: 51, date:'2026-06-24', time:'18:00', stage:'C', venue:'mercedes-benz-stadium',  home:'MAR', away:'HAI' },
   { n: 52, date:'2026-06-24', time:'18:00', stage:'C', venue:'hard-rock-stadium',      home:'SCO', away:'BRA' },
-  // Grupo A — 19:00 CST
+  // Grupo A, 19:00 CST
   { n: 53, date:'2026-06-24', time:'19:00', stage:'A', venue:'estadio-bbva',           home:'RSA', away:'KOR' },
   { n: 54, date:'2026-06-24', time:'19:00', stage:'A', venue:'estadio-azteca',         home:'CZE', away:'MEX' },
-  // Grupo E — 16:00 EDT
+  // Grupo E, 16:00 EDT
   { n: 55, date:'2026-06-25', time:'16:00', stage:'E', venue:'lincoln-financial-field',home:'CUW', away:'CIV' },
   { n: 56, date:'2026-06-25', time:'16:00', stage:'E', venue:'metlife-stadium',        home:'ECU', away:'GER' },
-  // Grupo F — 18:00 CDT
+  // Grupo F, 18:00 CDT
   { n: 57, date:'2026-06-25', time:'18:00', stage:'F', venue:'arrowhead-stadium',      home:'TUN', away:'NED' },
   { n: 58, date:'2026-06-25', time:'18:00', stage:'F', venue:'att-stadium',            home:'JPN', away:'SWE' },
-  // Grupo D — 19:00 PDT
+  // Grupo D, 19:00 PDT
   { n: 59, date:'2026-06-25', time:'19:00', stage:'D', venue:'sofi-stadium',           home:'TUR', away:'USA' },
   { n: 60, date:'2026-06-25', time:'19:00', stage:'D', venue:'levis-stadium',          home:'PAR', away:'AUS' },
-  // Grupo I — 15:00 EDT
+  // Grupo I, 15:00 EDT
   { n: 61, date:'2026-06-26', time:'15:00', stage:'I', venue:'gillette-stadium',       home:'NOR', away:'FRA' },
   { n: 62, date:'2026-06-26', time:'15:00', stage:'I', venue:'bmo-field',              home:'SEN', away:'IRQ' },
-  // Grupo H — 19:00 CDT / 18:00 CST
+  // Grupo H, 19:00 CDT / 18:00 CST
   { n: 63, date:'2026-06-26', time:'19:00', stage:'H', venue:'nrg-stadium',            home:'CPV', away:'KSA' },
   { n: 64, date:'2026-06-26', time:'18:00', stage:'H', venue:'estadio-akron',          home:'URU', away:'ESP' },
-  // Grupo G — 20:00 PDT
+  // Grupo G, 20:00 PDT
   { n: 65, date:'2026-06-26', time:'20:00', stage:'G', venue:'bc-place',               home:'NZL', away:'BEL' },
   { n: 66, date:'2026-06-26', time:'20:00', stage:'G', venue:'lumen-field',            home:'EGY', away:'IRN' },
-  // Grupo L — 17:00 EDT
+  // Grupo L, 17:00 EDT
   { n: 67, date:'2026-06-27', time:'17:00', stage:'L', venue:'metlife-stadium',        home:'PAN', away:'ENG' },
   { n: 68, date:'2026-06-27', time:'17:00', stage:'L', venue:'lincoln-financial-field',home:'CRO', away:'GHA' },
-  // Grupo K — 19:30 EDT
+  // Grupo K, 19:30 EDT
   { n: 69, date:'2026-06-27', time:'19:30', stage:'K', venue:'hard-rock-stadium',      home:'COL', away:'POR' },
   { n: 70, date:'2026-06-27', time:'19:30', stage:'K', venue:'mercedes-benz-stadium',  home:'COD', away:'UZB' },
-  // Grupo J — 21:00 CDT
+  // Grupo J, 21:00 CDT
   { n: 71, date:'2026-06-27', time:'21:00', stage:'J', venue:'arrowhead-stadium',      home:'ALG', away:'AUT' },
   { n: 72, date:'2026-06-27', time:'21:00', stage:'J', venue:'att-stadium',            home:'JOR', away:'ARG' },
 

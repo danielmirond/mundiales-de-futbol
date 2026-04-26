@@ -4,11 +4,11 @@
 
 **Mundiales de Fútbol** es la enciclopedia digital definitiva de las 22 Copas del Mundo masculinas (Uruguay 1930 → Norteamérica 2026). Funciona en cinco capas simultáneas:
 
-1. **Archivo histórico profundo**: resultados, plantillas, árbitros, estadios, asistencia y eventos minuto a minuto — hasta coordenadas de tiros con xG para los mundiales más recientes.
+1. **Archivo histórico profundo**: resultados, plantillas, árbitros, estadios, asistencia y eventos minuto a minuto, hasta coordenadas de tiros con xG para los mundiales más recientes.
 2. **Videoteca viva**: cada edición embebe películas oficiales FIFA y noticieros de archive.org, del Mundial de Suecia 1958 al Mineirazo de Brasil 2014.
-3. **Narrativa editorial**: crónicas, reportajes y análisis generados con IA y curados por humanos.
+3. **Narrativa editorial**: crónicas, reportajes y análisis con voz propia.
 4. **Herramientas interactivas**: comparadores de jugadores, quiz, simuladores y un juego de predicciones para 2026.
-5. **Experiencia en vivo 2026**: calendario, partidos en directo, crónicas automáticas durante el Mundial de Norteamérica.
+5. **Experiencia en vivo 2026**: calendario, partidos en directo y crónicas durante el Mundial de Norteamérica.
 
 Todo en **cinco idiomas nativos**: español, inglés, portugués, francés y árabe (con maquetación RTL).
 
@@ -72,7 +72,7 @@ Global, no solo hispano. Mobile-first. Dark mode nativo.
 
 ### Gestos tipográficos característicos
 
-- Headlines en `clamp(3.5rem, 13vw, 14rem)` — **muy grandes**
+- Headlines en `clamp(3.5rem, 13vw, 14rem)`, **muy grandes**
 - Kickers en monospace mayúscula con tracking `0.3em` y color verde neón
 - Números siempre tabulares
 - Segunda línea del headline principal con gradiente `pitch → sun → flame`
@@ -150,12 +150,12 @@ Global, no solo hispano. Mobile-first. Dark mode nativo.
 
 ## Referencias que admiramos
 
-- **The Pudding** — narrativa de datos
-- **FiveThirtyEight** (época prime) — rigor + color
-- **Bloomberg Businessweek** — tipografía editorial valiente
-- **Rapha** — premium deportivo con fotografía dramática
-- **Copa Magazine** — fútbol retro elegante
-- **Pentagram work for NYC** — sistema tipográfico + color
+- **The Pudding**, narrativa de datos
+- **FiveThirtyEight** (época prime), rigor + color
+- **Bloomberg Businessweek**, tipografía editorial valiente
+- **Rapha**, premium deportivo con fotografía dramática
+- **Copa Magazine**, fútbol retro elegante
+- **Pentagram work for NYC**, sistema tipográfico + color
 
 ## Referencias que evitamos
 

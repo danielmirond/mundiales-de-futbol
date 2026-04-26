@@ -35,7 +35,7 @@ export function Countdown() {
     return () => clearInterval(id);
   }, []);
 
-  // Cell layout — días con énfasis visual, resto más compactos
+  // Cell layout, días con énfasis visual, resto más compactos
   const minorCells = [
     { value: state.hours, label: t('hours') },
     { value: state.minutes, label: t('minutes') },
@@ -78,9 +78,9 @@ export function Countdown() {
           </Link>
         </div>
 
-        {/* Cuenta atrás — días gigantes + resto en línea */}
+        {/* Cuenta atrás, días gigantes + resto en línea */}
         <div className="mt-12 grid gap-8 md:grid-cols-[1.5fr_1fr] md:gap-12 md:items-center">
-          {/* Días — número gigante */}
+          {/* Días, número gigante */}
           <div className="flex items-baseline gap-6">
             <span
               className="font-display tab-num text-[12rem] leading-[0.8] tracking-[-0.04em] text-[var(--color-pitch)] md:text-[16rem]"

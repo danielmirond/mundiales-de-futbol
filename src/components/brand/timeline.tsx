@@ -3,7 +3,7 @@ import { cn } from '@/lib/utils';
 type Props = { size?: number; className?: string; ticks?: number };
 
 /**
- * Variant 3 — "Línea de Tiempo Cinematográfica".
+ * Variant 3, "Línea de Tiempo Cinematográfica".
  * Wordmark above a dotted timeline ending with a glowing green dot ("now").
  */
 export function TimelineMark({ size = 64, className, ticks = 12 }: Props) {

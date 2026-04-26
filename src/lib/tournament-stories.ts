@@ -1,5 +1,5 @@
 /**
- * Rich editorial data per World Cup — mascot, match ball, anthem,
+ * Rich editorial data per World Cup, mascot, match ball, anthem,
  * innovations, key moments, controversies, nostalgia and curiosities.
  * Used by the "Historia" section on every /ediciones/[slug]. Image URLs
  * point to Wikimedia Commons where available; can be populated by an
@@ -62,7 +62,7 @@ export type TournamentStory = {
   controversies?: KeyMoment[];
   /** Recuerdos sensoriales: narradores, jingles, cromos, rituales, prensa. */
   nostalgia?: KeyMoment[];
-  /** Curiosidades rápidas — datos que se quedan grabados. */
+  /** Curiosidades rápidas, datos que se quedan grabados. */
   trivia?: string[];
   /** The defining, canonical goal of the edition. */
   bestGoal?: BestGoal;
@@ -124,7 +124,7 @@ export const STORIES: TournamentStory[] = [
       { title: 'El Conte Verde', text: 'Jules Rimet viajó 3 semanas en barco con la copa en su maleta. Rumanía, Francia, Bélgica y Yugoslavia embarcaron en el mismo trasatlántico: se entrenaban en cubierta.' },
     ],
     trivia: [
-      'Estados Unidos acabó 3º — último podio estadounidense hasta hoy.',
+      'Estados Unidos acabó 3º, último podio estadounidense hasta hoy.',
       'Lucien Laurent marcó el primer gol del primer Mundial a las 15:19 del 13 de julio de 1930.',
       'Bolivia viajó con camisetas que deletreaban "VIVA URUGUAY" una letra por jugador al formar fila.',
     ],
@@ -152,13 +152,13 @@ export const STORIES: TournamentStory[] = [
       { title: 'Final en prórroga', text: 'Italia 2-1 Checoslovaquia tras 90 min empatados 1-1. Schiavio marca en el 95.' },
     ],
     controversies: [
-      { title: 'El Mundial de Mussolini', text: 'Il Duce convirtió el torneo en escaparate fascista. Camisas negras en las gradas, saludo romano en las formaciones, y la sospecha —nunca probada pero recurrente— de que los árbitros de SF Italia-Austria y final Italia-Checoslovaquia recibieron "orientaciones" del régimen.' },
+      { title: 'El Mundial de Mussolini', text: 'Il Duce convirtió el torneo en escaparate fascista. Camisas negras en las gradas, saludo romano en las formaciones, y la sospecha -nunca probada pero recurrente- de que los árbitros de SF Italia-Austria y final Italia-Checoslovaquia recibieron "orientaciones" del régimen.' },
       { title: 'Uruguay no va', text: 'El campeón vigente se niega a defender el título. Represalia histórica por el plantón europeo en 1930. Único campeón que jamás disputó el Mundial siguiente.' },
-      { title: 'El anfitrión clasifica', text: 'Italia tuvo que jugar eliminatoria a pesar de ser anfitrión — única vez en la historia del torneo.' },
+      { title: 'El anfitrión clasifica', text: 'Italia tuvo que jugar eliminatoria a pesar de ser anfitrión, única vez en la historia del torneo.' },
     ],
     nostalgia: [
       { title: 'Radio a válvulas', text: 'Primeras transmisiones mundiales por radio simultánea a toda Europa. Familias enteras alrededor del aparato de madera, chistera EIAR (Italia) y BBC (GB) lanzando crónica en directo.' },
-      { title: 'Gli Azzurri de Pozzo', text: 'Vittorio Pozzo, técnico doble campeón, inmortaliza a Meazza, Schiavio y Orsi en la memoria italiana. La plantilla incluía "oriundi" —argentinos con pasaporte italiano como Monti, que había perdido la final de 1930 con Argentina—.' },
+      { title: 'Gli Azzurri de Pozzo', text: 'Vittorio Pozzo, técnico doble campeón, inmortaliza a Meazza, Schiavio y Orsi en la memoria italiana. La plantilla incluía "oriundi" -argentinos con pasaporte italiano como Monti, que había perdido la final de 1930 con Argentina-.' },
     ],
     trivia: [
       'Único Mundial sin ningún país latinoamericano en semifinales.',
@@ -175,7 +175,7 @@ export const STORIES: TournamentStory[] = [
       against: 'POL',
       stage: 'Octavos',
       description:
-        'Brasil-Polonia 6-5 en prórroga — uno de los mejores partidos de la historia. Leônidas marca con una chilena tras rompérsele la bota y seguir descalzo. Cuatro goles totales del acróbata brasileño.',
+        'Brasil-Polonia 6-5 en prórroga, uno de los mejores partidos de la historia. Leônidas marca con una chilena tras rompérsele la bota y seguir descalzo. Cuatro goles totales del acróbata brasileño.',
       youtubeSearch: 'Leonidas chilena Brasil Polonia 1938',
     },
     innovations: [
@@ -192,11 +192,11 @@ export const STORIES: TournamentStory[] = [
       { title: 'Italia de negro', text: 'Mussolini ordena a los azzurri jugar la semifinal con camiseta fascista negra. Los franceses del Parque de los Príncipes pitan al entrar; los italianos ganan igual.' },
     ],
     nostalgia: [
-      { title: 'Leônidas, el acróbata', text: 'El delantero brasileño popularizó la chilena —los narradores la llamaban "bicicleta"—. Jugaba con unas botas tan desgastadas que se le salían en pleno partido: contra Polonia marcó un gol descalzo.' },
+      { title: 'Leônidas, el acróbata', text: 'El delantero brasileño popularizó la chilena -los narradores la llamaban "bicicleta"-. Jugaba con unas botas tan desgastadas que se le salían en pleno partido: contra Polonia marcó un gol descalzo.' },
       { title: 'Última foto en placa', text: 'Las instantáneas de este Mundial serían las últimas en placa de vidrio. Cuando acabó el torneo, el mundo tenía un año exacto antes de que Hitler invadiera Polonia.' },
     ],
     trivia: [
-      'Cuba debutó y llegó a cuartos — única participación cubana en un Mundial.',
+      'Cuba debutó y llegó a cuartos, única participación cubana en un Mundial.',
       'Las Indias Orientales Neerlandesas (hoy Indonesia) debutaron y fueron eliminadas 6-0 por Hungría: único partido asiático del torneo durante 16 años.',
       'Vittorio Pozzo es, aún hoy, el único técnico bicampeón mundial.',
     ],
@@ -218,21 +218,21 @@ export const STORIES: TournamentStory[] = [
     innovations: [
       'Primer Mundial tras la guerra. Alemania y Japón excluidos.',
       'Único Mundial que no tuvo final propiamente dicha: grupo final de 4 equipos.',
-      'El "Maracanazo" — Uruguay gana la última jornada en el estadio más grande del mundo.',
+      'El "Maracanazo", Uruguay gana la última jornada en el estadio más grande del mundo.',
     ],
     moments: [
       { title: 'Maracanazo', text: 'Uruguay 2-1 Brasil ante 173.850 espectadores (oficial) / ~200.000 reales. Ghiggia marca en el min 79 el gol que enmudece al Maracaná.' },
       { title: 'Inglaterra elimina en grupos por USA 1-0', text: 'Uno de los mayores batacazos: Joe Gaetjens marca el gol histórico.' },
     ],
     controversies: [
-      { title: 'Escocia se queda en casa', text: 'Los escoceses renuncian a viajar porque no ganaron el British Home Championship — su asociación prometió ir solo si eran campeones británicos. Perdieron contra Inglaterra y cumplieron palabra.' },
+      { title: 'Escocia se queda en casa', text: 'Los escoceses renuncian a viajar porque no ganaron el British Home Championship, su asociación prometió ir solo si eran campeones británicos. Perdieron contra Inglaterra y cumplieron palabra.' },
       { title: 'India descalzos', text: 'India clasificó pero se retiró al prohibirle FIFA jugar sin botas. Sumado al retiro de Turquía y Escocia, el grupo de Uruguay quedó solo con Bolivia. Uruguay llega al grupo final habiendo jugado un partido.' },
       { title: 'La prensa carioca ya tenía el titular', text: 'O Mundo publicó al día siguiente "A mis amigos les mostraré la medalla de campeón del mundo" firmado por el alcalde de Río. Llegaron a prensar discos con el himno de la victoria brasileña.' },
     ],
     nostalgia: [
       { title: 'El silencio del Maracaná', text: '"Moacir Barbosa, guardameta marcado para toda la vida": 50 años después repitió su frase "la pena máxima en Brasil son 30 años, yo llevo 50". Ari Barroso, compositor en cabina, se calló para siempre. El país entró en luto colectivo y cambió su camiseta blanca por la amarilla.' },
-      { title: 'Radios Telefunken en cada café', text: 'Casi nadie tenía radio en casa. Brasil se amontonaba en cafés, bares y balcones pegados al aparato. La frase "2 a 1 — Uruguay campeón" se oyó en todas las ondas, pero en Río nadie quería creerla.' },
-      { title: '"Alcides Ghiggia"', text: 'Tres personas han silenciado el Maracaná, decía Ghiggia: Frank Sinatra, Juan Pablo II y yo. Su carrera entera se reduce —injustamente— a ese gol de 1950.' },
+      { title: 'Radios Telefunken en cada café', text: 'Casi nadie tenía radio en casa. Brasil se amontonaba en cafés, bares y balcones pegados al aparato. La frase "2 a 1, Uruguay campeón" se oyó en todas las ondas, pero en Río nadie quería creerla.' },
+      { title: '"Alcides Ghiggia"', text: 'Tres personas han silenciado el Maracaná, decía Ghiggia: Frank Sinatra, Juan Pablo II y yo. Su carrera entera se reduce -injustamente- a ese gol de 1950.' },
     ],
     trivia: [
       'Único Mundial sin final formal: se decidió en un grupo final de 4 equipos.',
@@ -244,7 +244,7 @@ export const STORIES: TournamentStory[] = [
   {
     year: 1954,
     bestGoal: {
-      title: '"Rahn schießt — TOR! TOR! TOR!"',
+      title: '"Rahn schießt, TOR! TOR! TOR!"',
       scorer: 'Helmut Rahn',
       team: 'FRG',
       against: 'HUN',
@@ -271,7 +271,7 @@ export const STORIES: TournamentStory[] = [
     nostalgia: [
       { title: '"Tor! Tor! Tor! Tor!"', text: 'Herbert Zimmermann narrando el gol de Rahn en el minuto 84 es la narración más reproducida de la radio alemana de posguerra. Una generación entera identifica ese grito con el renacer psicológico de Alemania Occidental.' },
       { title: 'Puskás, Kocsis y la Hungría mítica', text: 'La "Aranycsapat" (Equipo de Oro) húngara venía de 32 partidos invictos y la medalla olímpica de Helsinki 1952. La final perdida es, todavía hoy, herida nacional.' },
-      { title: 'Pocos televisores, muchos vecinos', text: 'Alemania tenía apenas 40.000 televisores. La gente se agolpaba en escaparates de electrodomésticos y cafés. Es el primer Mundial que quedó grabado en vídeo — algunos minutos todavía existen.' },
+      { title: 'Pocos televisores, muchos vecinos', text: 'Alemania tenía apenas 40.000 televisores. La gente se agolpaba en escaparates de electrodomésticos y cafés. Es el primer Mundial que quedó grabado en vídeo, algunos minutos todavía existen.' },
     ],
     trivia: [
       'Récord absoluto de goles por partido en un Mundial: 5,38 (140 goles en 26 partidos).',
@@ -314,7 +314,7 @@ export const STORIES: TournamentStory[] = [
     trivia: [
       'Único Mundial con los 4 semifinalistas representando 4 ligas distintas de 4 países distintos.',
       'Pelé es el futbolista más joven en ganar un Mundial: 17 años, 249 días.',
-      'Just Fontaine marcó en los 6 partidos que disputó — único en haberlo hecho.',
+      'Just Fontaine marcó en los 6 partidos que disputó, único en haberlo hecho.',
     ],
   },
 
@@ -351,7 +351,7 @@ export const STORIES: TournamentStory[] = [
     ],
     trivia: [
       'Ken Aston, el árbitro de la Batalla, inventaría 4 años después las tarjetas amarilla y roja tras ver un semáforo en Kensington High Street.',
-      'Brasil ganó la copa con Pelé jugando sólo 2 partidos — único campeón en haber "descansado" la final y la semifinal.',
+      'Brasil ganó la copa con Pelé jugando sólo 2 partidos, único campeón en haber "descansado" la final y la semifinal.',
       'Un perro invadió el campo en Inglaterra-Brasil y Jimmy Greaves le atrapó a cuatro patas. El perro se orinó encima del inglés.',
     ],
   },
@@ -380,16 +380,16 @@ export const STORIES: TournamentStory[] = [
     ],
     controversies: [
       { title: '¿Entró o no entró?', text: 'El 2-2 de Inglaterra-Alemania Oeste tras el remate de Hurst al larguero. Análisis Oxford 1995 y MIT 2016 dicen que NO entró. Hurst mantiene que sí hasta hoy. Los alemanes llaman a cualquier gol dudoso "Wembley-Tor" desde entonces.' },
-      { title: 'Rattín expulsado sin entender', text: 'Argentina-Inglaterra en cuartos: el capitán argentino Antonio Rattín, expulsado por "violencia de gestos" hacia el árbitro alemán Rudolf Kreitlein —sin tarjetas aún—. Rattín no hablaba alemán. La expulsión marcó el antagonismo Argentina-Inglaterra durante décadas.' },
+      { title: 'Rattín expulsado sin entender', text: 'Argentina-Inglaterra en cuartos: el capitán argentino Antonio Rattín, expulsado por "violencia de gestos" hacia el árbitro alemán Rudolf Kreitlein -sin tarjetas aún-. Rattín no hablaba alemán. La expulsión marcó el antagonismo Argentina-Inglaterra durante décadas.' },
       { title: 'La copa robada', text: 'La Jules Rimet desapareció del Westminster Central Hall cuatro meses antes del torneo. La encontró un perro collie llamado Pickles bajo un seto de Upper Norwood. Scotland Yard quedó en ridículo.' },
     ],
     nostalgia: [
-      { title: 'World Cup Willie, el primer merch', text: 'El león con la Union Jack fue la primera mascota de la historia. Peluches, tazas, figuritas, discos — el merchandising moderno nace aquí. Lonnie Donegan le dedicó una canción que sonó todo el verano del 66.' },
+      { title: 'World Cup Willie, el primer merch', text: 'El león con la Union Jack fue la primera mascota de la historia. Peluches, tazas, figuritas, discos, el merchandising moderno nace aquí. Lonnie Donegan le dedicó una canción que sonó todo el verano del 66.' },
       { title: 'Eusébio llora en semifinal', text: '"La Pantera Negra" de Mozambique jugaba por Portugal. Marcó 9 goles (bota de oro) y se fue entre lágrimas tras perder contra Inglaterra 1-2. Sigue siendo el momento más visto del fútbol portugués previo a Cristiano.' },
-      { title: 'La BBC en blanco y negro', text: 'Wolstenholme narrando para 32,3 millones de británicos —récord de audiencia TV en UK que duró hasta 1998—. "Some people are on the pitch, they think it\'s all over... IT IS NOW!" resonó en cada pub.' },
+      { title: 'La BBC en blanco y negro', text: 'Wolstenholme narrando para 32,3 millones de británicos -récord de audiencia TV en UK que duró hasta 1998-. "Some people are on the pitch, they think it\'s all over... IT IS NOW!" resonó en cada pub.' },
     ],
     trivia: [
-      'Corea del Norte eliminó a Italia 1-0 en fase de grupos — del trauma los italianos no se recuperaron hasta 1970.',
+      'Corea del Norte eliminó a Italia 1-0 en fase de grupos, del trauma los italianos no se recuperaron hasta 1970.',
       'Pickles, el perro que encontró la copa, murió 1 año después estrangulado al engancharse su correa persiguiendo a un gato.',
       'Hurst sigue siendo el único futbolista con hat-trick en una final de Mundial.',
     ],
@@ -398,21 +398,21 @@ export const STORIES: TournamentStory[] = [
   {
     year: 1970,
     bestGoal: {
-      title: 'El 4-1 perfecto — el mejor gol colectivo de la historia',
+      title: 'El 4-1 perfecto, el mejor gol colectivo de la historia',
       scorer: 'Carlos Alberto',
       team: 'BRA',
       against: 'ITA',
       stage: 'Final',
       minute: "86'",
       description:
-        'Nueve pases tocan a ocho brasileños distintos. Clodoaldo recorre medio campo regateando a cuatro italianos, Rivelino abre a la izquierda, Jairzinho empuja al centro, Pelé da el pase ciego perfecto al vacío — sin mirar — y Carlos Alberto llega lanzado desde atrás para fusilar. El gol que define el Jogo Bonito y el fútbol total brasileño.',
+        'Nueve pases tocan a ocho brasileños distintos. Clodoaldo recorre medio campo regateando a cuatro italianos, Rivelino abre a la izquierda, Jairzinho empuja al centro, Pelé da el pase ciego perfecto al vacío, sin mirar, y Carlos Alberto llega lanzado desde atrás para fusilar. El gol que define el Jogo Bonito y el fútbol total brasileño.',
       youtubeSearch: 'Carlos Alberto gol final Brasil Italia 1970',
     },
     innovations: [
       'Primer Mundial transmitido en color a nivel global.',
       'Primer uso de tarjetas amarilla y roja.',
       'Se estrena el cambio de jugadores (antes estaba prohibido).',
-      'Brasil tricampeón — se queda definitivamente con la Jules Rimet.',
+      'Brasil tricampeón, se queda definitivamente con la Jules Rimet.',
     ],
     moments: [
       { title: 'La mejor selección de la historia', text: 'Brasil arrasa con Pelé, Rivelino, Tostão, Gérson y Jairzinho. Final 4-1 Italia.' },
@@ -430,7 +430,7 @@ export const STORIES: TournamentStory[] = [
       { title: '"Partido del Siglo"', text: 'Italia-Alemania semi, 4-3 en prórroga. El Azteca tiene placa conmemorativa en el marcador: "Azteca dedica al fútbol este gran estadio en memoria del Partido del Siglo". Once goles en prórroga jamás vistos.' },
     ],
     trivia: [
-      'Brasil jugó con camiseta amarilla en TODOS sus partidos — primer campeón que no necesitó cambiarse de equipación.',
+      'Brasil jugó con camiseta amarilla en TODOS sus partidos, primer campeón que no necesitó cambiarse de equipación.',
       'Pelé: único jugador con 3 Mundiales ganados (1958, 1962, 1970). Récord que nadie ha igualado.',
       'Tarjetas amarilla y roja debutaron en el partido inaugural: Kurt Tschenscher (árbitro) no las mostró a nadie.',
     ],
@@ -446,7 +446,7 @@ export const STORIES: TournamentStory[] = [
       stage: 'Final',
       minute: "2'",
       description:
-        'Kick-off, 16 pases holandeses, Cruyff baja hacia el área, Vogts le pone la pierna. Penal en el minuto 2. Neeskens lo clava contra el palo izquierdo de Maier. Alemania todavía no había tocado el balón — tuvo que sacar de centro para estrenar partido. Acabarían ganando 2-1.',
+        'Kick-off, 16 pases holandeses, Cruyff baja hacia el área, Vogts le pone la pierna. Penal en el minuto 2. Neeskens lo clava contra el palo izquierdo de Maier. Alemania todavía no había tocado el balón, tuvo que sacar de centro para estrenar partido. Acabarían ganando 2-1.',
       youtubeSearch: 'Neeskens penalty final Holanda Alemania 1974',
     },
     innovations: [
@@ -464,12 +464,12 @@ export const STORIES: TournamentStory[] = [
       { title: 'Zaire, la humillación africana', text: 'Mwepu Ilunga despejó la barrera de una falta directa antes de que Brasil rematara. El árbitro pensó que no entendía las reglas. Años después reveló que lo hacía adrede: los jugadores zaireños no habían cobrado sus primas del dictador Mobutu.' },
     ],
     nostalgia: [
-      { title: 'La Naranja Mecánica', text: 'Cruyff 14, Neeskens, Rep, Rensenbrink — la camiseta naranja y el fútbol total se vuelven religión estética. "Ganar el corazón vale más que ganar la copa", dirán los holandeses en bucle. Oranje jamás la ganaría.' },
-      { title: 'El Cruyff Turn nace', text: 'Contra Suecia, Cruyff hace el giro sobre sí mismo dejando a Jan Olsson. Se reproduce en todos los patios del mundo. Olsson dice: "Estuve orgulloso ese día — me hizo famoso"'},
-      { title: 'Nuevo trofeo Silvio Gazzaniga', text: 'La copa FIFA que conocemos hoy debuta aquí. Más moderna, más abstracta. Gazzaniga cobró 75.000 liras por el encargo — los mismos italianos lloraron por no poder levantarla en la final.' },
+      { title: 'La Naranja Mecánica', text: 'Cruyff 14, Neeskens, Rep, Rensenbrink, la camiseta naranja y el fútbol total se vuelven religión estética. "Ganar el corazón vale más que ganar la copa", dirán los holandeses en bucle. Oranje jamás la ganaría.' },
+      { title: 'El Cruyff Turn nace', text: 'Contra Suecia, Cruyff hace el giro sobre sí mismo dejando a Jan Olsson. Se reproduce en todos los patios del mundo. Olsson dice: "Estuve orgulloso ese día, me hizo famoso"'},
+      { title: 'Nuevo trofeo Silvio Gazzaniga', text: 'La copa FIFA que conocemos hoy debuta aquí. Más moderna, más abstracta. Gazzaniga cobró 75.000 liras por el encargo, los mismos italianos lloraron por no poder levantarla en la final.' },
     ],
     trivia: [
-      'Cruyff llevaba el 14 porque el Ajax numeraba por orden alfabético de reserva — no por posición. Se convirtió en icono.',
+      'Cruyff llevaba el 14 porque el Ajax numeraba por orden alfabético de reserva, no por posición. Se convirtió en icono.',
       'Haití (primera participación mundial) perdió 0-7 con Polonia pero fue primer país caribeño en el torneo.',
       'Kazimierz Deyna (Polonia) fue el único jugador en anotar en los dos partidos contra las dos Alemanias.',
     ],
@@ -501,7 +501,7 @@ export const STORIES: TournamentStory[] = [
       { title: 'ESMA a cuatro cuadras del Monumental', text: 'Mientras Kempes levantaba la copa, a 400 metros del estadio funcionaba el mayor centro clandestino de detención y tortura de la dictadura de Videla. El fútbol tapó los vuelos de la muerte. Hoy la ESMA es Museo de Memoria y Sitio UNESCO.' },
       { title: 'Argentina 6-0 Perú, eternamente sospechoso', text: 'Argentina necesitaba ganar por 4+ goles para eliminar a Brasil y jugar la final. Marcó 6. El arquero peruano Ramón Quiroga era argentino naturalizado. Cuatro décadas después, excomandante peruano confirmó ante la justicia argentina un pacto: Videla envió 35.000 toneladas de grano gratis al régimen de Morales Bermúdez. Sigue sin cerrarse.' },
       { title: 'Cruyff no vino', text: 'Johan Cruyff, figura total del fútbol, renunció al Mundial. Durante décadas se atribuyó a protesta política; en 2008 reveló la verdad: había sufrido un intento de secuestro en Barcelona meses antes y no quiso separarse de su familia.' },
-      { title: 'Holanda no saluda a Videla', text: 'Rensenbrink y compañía se negaron a estrecharle la mano al dictador antes de la final. Rensenbrink estrelló un disparo al poste al minuto 90 — si entra, Argentina no gana su primer Mundial.' },
+      { title: 'Holanda no saluda a Videla', text: 'Rensenbrink y compañía se negaron a estrecharle la mano al dictador antes de la final. Rensenbrink estrelló un disparo al poste al minuto 90, si entra, Argentina no gana su primer Mundial.' },
     ],
     nostalgia: [
       { title: 'Los papelitos del Monumental', text: 'Argentina salió a la final bajo una lluvia de papelitos rotos de la tribuna. No se había visto antes. Hoy sigue siendo marca de identidad de la hinchada argentina cuando la "scaloneta" juega en el Monumental.' },
@@ -510,8 +510,8 @@ export const STORIES: TournamentStory[] = [
     ],
     trivia: [
       'Rob Rensenbrink (Holanda) marcó el gol oficialmente considerado número 1000 del Mundial.',
-      'Mario Kempes jugó con botas Puma sin logo — había firmado contrato con Adidas pero se negó a usarlas en el último momento.',
-      'Primer Mundial televisado en diferido en España — aún bajo control franquista hasta 1975, TVE tardó en liberalizar la emisión deportiva.',
+      'Mario Kempes jugó con botas Puma sin logo, había firmado contrato con Adidas pero se negó a usarlas en el último momento.',
+      'Primer Mundial televisado en diferido en España, aún bajo control franquista hasta 1975, TVE tardó en liberalizar la emisión deportiva.',
     ],
   },
 
@@ -540,18 +540,18 @@ export const STORIES: TournamentStory[] = [
     controversies: [
       { title: 'El Desastre de Gijón', text: 'Alemania 1-0 Austria: ambos equipos sabían que con ese resultado pasaban a costa de Argelia. Los alemanes marcan al 10\', y los 80 minutos restantes se jugaron a ralentí, con pases horizontales y público pitando. Los argelinos ondearon billetes en las gradas. A partir de 1986, FIFA obliga a jugar los últimos partidos de grupo simultáneos.' },
       { title: 'Schumacher destroza a Battiston', text: 'Alemania-Francia en SF: el portero Harald Schumacher embiste a Patrick Battiston sin mirar el balón. Brecha en la cara, 3 dientes perdidos, 3 vértebras dañadas, entrada en coma. El árbitro holandés Corver no mostró ni amarilla. Encuesta en Le Monde: Schumacher pasó a ser el alemán más odiado en Francia desde Hitler.' },
-      { title: 'El partido que paró el jeque', text: 'Kuwait-Francia: los franceses marcan un gol que los kuwaitíes no oyeron el pitido del árbitro. El jeque Fahad Al-Sabah (hermano del emir) entró al campo y ordenó retirar al equipo. El árbitro ruso Stupar anuló el gol — único caso de injerencia real aceptada por un árbitro en un Mundial.' },
+      { title: 'El partido que paró el jeque', text: 'Kuwait-Francia: los franceses marcan un gol que los kuwaitíes no oyeron el pitido del árbitro. El jeque Fahad Al-Sabah (hermano del emir) entró al campo y ordenó retirar al equipo. El árbitro ruso Stupar anuló el gol, único caso de injerencia real aceptada por un árbitro en un Mundial.' },
     ],
     nostalgia: [
       { title: 'Naranjito divide a España', text: 'La naranja antropomórfica vestida con el traje de la Roja fue adorada por los niños y abucheada por los adultos ("ridícula"). Tuvo dibujos animados, canción, comic y álbum. Hoy es icono retro de culto en España.' },
       { title: '"Mundial 82" suena en cada feria', text: 'El himno oficial cantado por Plácido Domingo y el popular "Vamos vamos al Mundial" de Juan Pardo se oyeron todo el verano. Estribillos que siguen saliendo en mercadillos y radio fórmula española.' },
       { title: 'Paolo Rossi, la leyenda del perdonado', text: 'Pablito venía suspendido 2 años por el escándalo "Totonero" (apuestas). Italia lo llevó igual. Sin un gol en las 4 primeras jornadas, explotó contra Brasil: triplete, gol en semi, gol en final. Bota de oro y Balón de Oro. Murió en 2020.' },
-      { title: 'Álbum Panini masivo', text: 'Primera gran oleada de cromos Panini en España. Los niños cambiaban figuritas en los patios y la palabra "repes" entró en el diccionario familiar. Santillana, Arconada, Juanito — el Panini del 82 hoy se paga en eBay a dos cifras por sobre.' },
+      { title: 'Álbum Panini masivo', text: 'Primera gran oleada de cromos Panini en España. Los niños cambiaban figuritas en los patios y la palabra "repes" entró en el diccionario familiar. Santillana, Arconada, Juanito, el Panini del 82 hoy se paga en eBay a dos cifras por sobre.' },
     ],
     trivia: [
-      'Primer Mundial a 24 equipos — dos fases de grupos, sin octavos aún.',
-      'Italia ganó la final con el portero Dino Zoff de 40 años — el más veterano en levantar la copa.',
-      'Arconada fue portada en España por no encajar con Inglaterra — pero Italia le metió tres en la final.',
+      'Primer Mundial a 24 equipos, dos fases de grupos, sin octavos aún.',
+      'Italia ganó la final con el portero Dino Zoff de 40 años, el más veterano en levantar la copa.',
+      'Arconada fue portada en España por no encajar con Inglaterra, pero Italia le metió tres en la final.',
     ],
   },
 
@@ -579,8 +579,8 @@ export const STORIES: TournamentStory[] = [
       { title: 'Final épica', text: 'Argentina 3-2 Alemania Occidental con Burruchaga marcando a 6 min del final.' },
     ],
     controversies: [
-      { title: 'Colombia renuncia, México hereda', text: 'Colombia tenía la sede. En 1982 renunció por crisis económica. FIFA adjudicó a México en 6 meses — a pesar de que el terremoto del 19 de septiembre de 1985 (>10.000 muertos) había destrozado la ciudad 8 meses antes del pitazo inicial.' },
-      { title: '"Yo no la vi", dijo el árbitro', text: 'Ali Bin Nasser (Túnez) reconoció años después que no vio la mano. El linier búlgaro Bogdan Dotchev se justificó: "El árbitro estaba más cerca que yo — si él validó, yo no podía anular". Maradona, en 2005: "La metí con la mano de Dios — y con la cabeza de Diego".' },
+      { title: 'Colombia renuncia, México hereda', text: 'Colombia tenía la sede. En 1982 renunció por crisis económica. FIFA adjudicó a México en 6 meses, a pesar de que el terremoto del 19 de septiembre de 1985 (>10.000 muertos) había destrozado la ciudad 8 meses antes del pitazo inicial.' },
+      { title: '"Yo no la vi", dijo el árbitro', text: 'Ali Bin Nasser (Túnez) reconoció años después que no vio la mano. El linier búlgaro Bogdan Dotchev se justificó: "El árbitro estaba más cerca que yo, si él validó, yo no podía anular". Maradona, en 2005: "La metí con la mano de Dios, y con la cabeza de Diego".' },
       { title: 'Argentina-Inglaterra: el partido político', text: 'Cuatro años después de la Guerra de las Malvinas. Maradona dijo después: "No era un partido de fútbol, era una revancha. Aunque dijéramos antes que el fútbol no tenía nada que ver, sabíamos que sí. Muchos pibes argentinos habían muerto allí".' },
     ],
     nostalgia: [
@@ -615,7 +615,7 @@ export const STORIES: TournamentStory[] = [
       youtubeSearch: 'Maradona asistencia Caniggia gol Argentina Brasil 1990',
     },
     innovations: [
-      'Balón Etrusco Unico — primer diseño multicolor.',
+      'Balón Etrusco Unico, primer diseño multicolor.',
       'Mínimo histórico de goles/partido (2,21).',
       'Se consolida el juego defensivo extremo ("catenaccio" italiano).',
     ],
@@ -625,21 +625,21 @@ export const STORIES: TournamentStory[] = [
       { title: 'Notti Magiche', text: 'El himno de Italia 90 queda en el imaginario colectivo como sinónimo de mundial romántico.' },
     ],
     controversies: [
-      { title: 'El Mundial más aburrido', text: '2,21 goles por partido — mínimo histórico. El pase atrás al portero todavía era legal y Alemania, Argentina e Inglaterra lo usaron con descaro. FIFA cambió la regla en 1992 por culpa de este torneo.' },
+      { title: 'El Mundial más aburrido', text: '2,21 goles por partido, mínimo histórico. El pase atrás al portero todavía era legal y Alemania, Argentina e Inglaterra lo usaron con descaro. FIFA cambió la regla en 1992 por culpa de este torneo.' },
       { title: 'El penal fantasma de Brehme', text: 'Final Argentina-Alemania: Rudi Völler cae en el área por un roce mínimo de Sensini al minuto 85. El árbitro Edgardo Codesal (mexicano) pita penal. Brehme marca. Maradona, en rueda de prensa, le dijo al árbitro "hijo de la gran puta" en directo. Sigue discutido.' },
       { title: 'Dos expulsados argentinos', text: 'Mismo partido, Monzón y Dezotti expulsados. Argentina acaba la final con 9 hombres. Primera vez que un equipo es expulsado en una final.' },
     ],
     nostalgia: [
       { title: '"Notti Magiche"', text: 'El himno Nannini-Bennato es el recuerdo sonoro que ata a los niños de los 80/90 al fútbol. "Notti magiche / inseguendo un gol / sotto il cielo / di un\'estate italiana". Se oye todavía en cada homenaje noventero italiano.' },
-      { title: '"Nessun Dorma" y la BBC', text: 'Pavarotti cantando "Nessun dorma" para la BBC como sintonía. El himno de Puccini se asocia para siempre con el fútbol en Reino Unido. El disco de Los 3 Tenores se vendió 14 millones de copias — récord de clásica.' },
-      { title: 'Schillaci, "occhi di pazzo"', text: 'Totò Schillaci — siciliano, suplente, 6 goles, bota de oro. Sus ojos desorbitados cada vez que marcaba son ICON de aquel verano. Italia lo perdió hace 1 año (2024) y el país lloró.' },
+      { title: '"Nessun Dorma" y la BBC', text: 'Pavarotti cantando "Nessun dorma" para la BBC como sintonía. El himno de Puccini se asocia para siempre con el fútbol en Reino Unido. El disco de Los 3 Tenores se vendió 14 millones de copias, récord de clásica.' },
+      { title: 'Schillaci, "occhi di pazzo"', text: 'Totò Schillaci, siciliano, suplente, 6 goles, bota de oro. Sus ojos desorbitados cada vez que marcaba son ICON de aquel verano. Italia lo perdió hace 1 año (2024) y el país lloró.' },
       { title: 'Roger Milla baila', text: 'El camerunés de 38 años marcaba goles y corría al banderín del córner a bailar makossa. Primera celebración coreografiada viralizada. Camerún en cuartos, insólito.' },
       { title: 'Gazza llora', text: 'Inglaterra-Alemania SF: Paul Gascoigne ve amarilla que le hubiera hecho perderse la final. Llora desconsolado. Gary Lineker mira al banquillo y hace el gesto "ojo al chico". La foto recorre el mundo y lanza el renacer del fútbol inglés moderno.' },
     ],
     trivia: [
       'Ciao, la mascota: un stick-man de cubos tricolores. La mascota más minimalista de la historia.',
       'Schillaci: bota de oro sin haber sido titular al principio.',
-      'Yugoslavia jugó su último Mundial como tal — 2 años después empezaría la guerra.',
+      'Yugoslavia jugó su último Mundial como tal, 2 años después empezaría la guerra.',
     ],
   },
 
@@ -657,7 +657,7 @@ export const STORIES: TournamentStory[] = [
       youtubeSearch: 'Al Owairan gol Arabia Belgica 1994 Maradona arabe',
     },
     innovations: [
-      'Primer Mundial en Estados Unidos — país sin tradición futbolística.',
+      'Primer Mundial en Estados Unidos, país sin tradición futbolística.',
       'Récord absoluto de asistencia: 3,58 millones.',
       'Primera final decidida por penales (Baggio falla el último).',
       'Tres puntos por victoria (antes 2) para animar el ataque.',
@@ -674,13 +674,13 @@ export const STORIES: TournamentStory[] = [
     ],
     nostalgia: [
       { title: 'Baggio mira al cielo', text: 'La imagen del Divino Codino de espaldas, cabeza agachada, tras fallar el penal decisivo. La final 0-0 es criticada pero la secuencia final resume todo: Baresi falla, Massaro falla, Baggio tira arriba. Brasil 3-2. Baggio: "Sigue siendo mi peor pesadilla".' },
-      { title: 'Bebeto mece al bebé', text: 'Brasil-Holanda cuartos. Bebeto marca y corre a la banda simulando mecer a un bebé —su hijo había nacido 2 días antes—. Romário y Mazinho se suman. Celebración replicada en patios escolares durante 30 años.' },
+      { title: 'Bebeto mece al bebé', text: 'Brasil-Holanda cuartos. Bebeto marca y corre a la banda simulando mecer a un bebé -su hijo había nacido 2 días antes-. Romário y Mazinho se suman. Celebración replicada en patios escolares durante 30 años.' },
       { title: 'El sol de Chicago, Dallas, Orlando', text: 'Mediodía, 40°C, humedad brutal. Los jugadores caían como moscas. Brasil-Holanda 3-2 en Dallas bajo temperaturas brutales. FIFA atendía al prime time europeo: 3am en Tokio, las 12 del mediodía en Texas.' },
       { title: 'El peinado de Valderrama', text: 'Carlos "El Pibe" Valderrama y su melena rubia encrespada como icono noventero. Pelo, cintas de colores, postal que quedó grabada. Colombia se fue en primera ronda, él sigue siendo recuerdo eterno.' },
       { title: 'USA 94 y el nacimiento de la MLS', text: 'Dos años después nace la Major League Soccer como condición de FIFA a EE.UU. para albergar el torneo. David Beckham llegó 13 años después y popularizó el fútbol en América como nunca.' },
     ],
     trivia: [
-      'Oleg Salenko (Rusia) marca 5 goles a Camerún — única vez en un Mundial. En toda su carrera marcó 40.',
+      'Oleg Salenko (Rusia) marca 5 goles a Camerún, única vez en un Mundial. En toda su carrera marcó 40.',
       'Récord de asistencia por partido: 68.991. En 2026 (48 equipos) podría superarse.',
       'Primera final de la historia sin goles en 120 minutos.',
     ],
@@ -715,7 +715,7 @@ export const STORIES: TournamentStory[] = [
       { title: 'Argentina-Inglaterra', text: 'Beckham expulsado por una patada boba. Owen marca gol antológico. Argentina pasa en penales.' },
     ],
     controversies: [
-      { title: 'El caso Ronaldo', text: 'A 4 horas de la final, Ronaldo sufre una convulsión. Lo dejan fuera. Zagallo lo mete tarde bajo presión —se rumorea— de Nike (contrato de 400M con la CBF). R9 juega en trance, Brasil pierde 0-3. 25 años después siguen saliendo teorías. El propio Ronaldo: "Nunca sabré qué me pasó ese día".' },
+      { title: 'El caso Ronaldo', text: 'A 4 horas de la final, Ronaldo sufre una convulsión. Lo dejan fuera. Zagallo lo mete tarde bajo presión -se rumorea- de Nike (contrato de 400M con la CBF). R9 juega en trance, Brasil pierde 0-3. 25 años después siguen saliendo teorías. El propio Ronaldo: "Nunca sabré qué me pasó ese día".' },
       { title: 'Beckham expulsado por Simeone', text: 'Argentina-Inglaterra octavos. Simeone entra fuerte; Beckham, en el suelo, le da una patadita al aire. Roja directa. Inglaterra pierde en penales. Durante meses, efigies de Beckham se queman en pubs ingleses. Su imagen pública sólo se salvaría años después en el Madrid.' },
       { title: 'Iván Zamorano se pone el "+"', text: 'Sin anécdota polémica pero sí visual: Zamorano se puso el dorsal "1+8" al ceder el 9 a Salas. Único dorsal sumatorio de la historia.' },
     ],
@@ -727,7 +727,7 @@ export const STORIES: TournamentStory[] = [
       { title: 'Footix y el gallo', text: 'El gallo azul con cresta roja en el pecho se convirtió en la mascota más exportada. Serie de dibujos animados, colonia, peluche, figuritas de M&M\'s. "Footix" sigue siendo término despectivo en francés para hincha oportunista.' },
     ],
     trivia: [
-      'Primer Mundial con 32 equipos — formato que durará 28 años (hasta 2026).',
+      'Primer Mundial con 32 equipos, formato que durará 28 años (hasta 2026).',
       'Laurent Blanc besaba la calva del portero Barthez antes de cada partido. Ritual famosísimo.',
       'Croacia debutó como país independiente (separada de Yugoslavia en 1991) y acabó 3º.',
     ],
@@ -767,8 +767,8 @@ export const STORIES: TournamentStory[] = [
       { title: 'Rivaldo, simulación para el Oscar', text: 'Brasil-Turquía: Unsal le pega un pelotazo a Rivaldo en la pierna. Rivaldo se tira al suelo agarrándose la cara. Unsal, rojo. Primera multa FIFA por simular de la historia.' },
     ],
     nostalgia: [
-      { title: '"Oh Necessary Oh"', text: 'El cántico de los "Red Devils" coreanos, 600.000 hinchas rojos en cada plaza, pintura roja en los rostros. Guus Hiddink como santo nacional. En Seúl la ciudad se paralizó durante semanas — parecía revolución pacífica.' },
-      { title: 'El corte de pelo de Ronaldo', text: 'R9 se rasuró una "M" en la frente para desviar la atención de la enfermedad de su hijo —dijo después—. Doblete en la final contra Alemania. 8 goles totales. Redención absoluta tras la convulsión del 98.' },
+      { title: '"Oh Necessary Oh"', text: 'El cántico de los "Red Devils" coreanos, 600.000 hinchas rojos en cada plaza, pintura roja en los rostros. Guus Hiddink como santo nacional. En Seúl la ciudad se paralizó durante semanas, parecía revolución pacífica.' },
+      { title: 'El corte de pelo de Ronaldo', text: 'R9 se rasuró una "M" en la frente para desviar la atención de la enfermedad de su hijo -dijo después-. Doblete en la final contra Alemania. 8 goles totales. Redención absoluta tras la convulsión del 98.' },
       { title: 'Kahn en el área', text: 'Oliver Kahn, guante dorado, concede su único error del torneo en la final. Suelta el balón, Ronaldo marca. La foto de Kahn sentado en el poste con la cabeza baja, solo, es una de las más tristes del fútbol moderno.' },
       { title: 'Partidos a horarios infernales', text: 'En Europa: 8:30 y 13:30. Las aulas y oficinas se llenaron de radios. En Argentina y Brasil: 4am y 7am. Los niños iban al cole tras haber visto el partido al alba.' },
     ],
@@ -810,7 +810,7 @@ export const STORIES: TournamentStory[] = [
     ],
     controversies: [
       { title: '"Préférerais tua sorella"', text: 'Final Italia-Francia: Materazzi agarra la camiseta a Zidane; intercambian palabras. "Preferirei tua sorella" (lectura labial confirmada años después). Zidane le da un cabezazo en el pecho. Roja. Último partido de su carrera terminó con él caminando al vestuario junto a la Copa y sin mirarla.' },
-      { title: '17 tarjetas en Portugal-Holanda', text: 'Arbitrado por el ruso Valentin Ivanov, el partido terminó con 16 amarillas y 4 rojas — récord mundialista. Sepp Blatter dijo: "Ivanov debería haberse mostrado una amarilla a sí mismo por no controlar el partido".' },
+      { title: '17 tarjetas en Portugal-Holanda', text: 'Arbitrado por el ruso Valentin Ivanov, el partido terminó con 16 amarillas y 4 rojas, récord mundialista. Sepp Blatter dijo: "Ivanov debería haberse mostrado una amarilla a sí mismo por no controlar el partido".' },
       { title: 'Calciopoli de fondo', text: 'Italia fue campeona mientras en Italia explotaba el escándalo Calciopoli (Juve, Milan, Lazio). Moggi, director de la Juve, había manipulado designaciones arbitrales. Cannavaro y Buffon venían de la Juve. El título se saboreó con gusto amargo.' },
       { title: 'El sobre FIFA', text: 'Años después (2015) saldría a la luz que Alemania pudo haber pagado 6,7M a FIFA para que le dieran la sede 2006. Beckenbauer imputado; falleció en 2024 con el caso sin resolver. El Sommermärchen tiene su sombra.' },
     ],
@@ -822,8 +822,8 @@ export const STORIES: TournamentStory[] = [
     ],
     trivia: [
       'Italia ganó la final por penales: Trezeguet (que marcó el Golden Goal en la Eurocopa 2000 contra Italia) falla. Revancha retardada.',
-      'Último Mundial de Zidane y Figo — también último de Ronaldo (R9, 3 participaciones 1998/2002/2006).',
-      'Portugal-Holanda: 4 rojas y 16 amarillas — récord absoluto.',
+      'Último Mundial de Zidane y Figo, también último de Ronaldo (R9, 3 participaciones 1998/2002/2006).',
+      'Portugal-Holanda: 4 rojas y 16 amarillas, récord absoluto.',
     ],
   },
 
@@ -842,12 +842,12 @@ export const STORIES: TournamentStory[] = [
       stage: 'Grupos',
       minute: "55'",
       description:
-        'Maicon recibe en línea de fondo, con ángulo casi cerrado. Todos esperan el centro. El brasileño dispara con exterior del pie derecho ("três dedos"), el balón dibuja una parábola imposible y se cuela por el palo corto. Ri Myong-guk, el portero norcoreano, ni lo ve. "No lo intentó, le salió así" dijeron en Brasil — Maicon siempre juró que lo buscó.',
+        'Maicon recibe en línea de fondo, con ángulo casi cerrado. Todos esperan el centro. El brasileño dispara con exterior del pie derecho ("três dedos"), el balón dibuja una parábola imposible y se cuela por el palo corto. Ri Myong-guk, el portero norcoreano, ni lo ve. "No lo intentó, le salió así" dijeron en Brasil, Maicon siempre juró que lo buscó.',
       youtubeSearch: 'Maicon gol Corea Norte tres dedos Mundial 2010',
     },
     innovations: [
       'Primer Mundial en África.',
-      'Vuvuzelas — el sonido que definió la Copa (para bien o mal).',
+      'Vuvuzelas, el sonido que definió la Copa (para bien o mal).',
       'Balón Jabulani, criticadísimo por porteros.',
       'España debuta como campeona mundial con fútbol de posesión.',
     ],
@@ -864,7 +864,7 @@ export const STORIES: TournamentStory[] = [
     nostalgia: [
       { title: '"Dani Jarque, siempre con nosotros"', text: 'Iniesta marca el gol de la final y se quita la camiseta: debajo, mensaje al compañero español Dani Jarque, muerto 11 meses antes con 26 años. El manchego celebra llorando. Amarilla del árbitro pero icono eterno del fútbol español.' },
       { title: 'Paul el pulpo', text: 'El pulpo de Oberhausen (Alemania) acertó los 8 partidos que le consultaron, incluida la final. Muere meses después. Convertido en meme pre-memes, tuvo homenajes oficiales y un "funeral" televisado. Marruecos pidió pulpos suyos en el 2022.' },
-      { title: '"Waka Waka" en cada boda', text: 'Shakira + Freshlyground crean el himno mundialista más reproducido de la historia — más de 3.500M de visitas en YouTube. El baile "Waka Waka" en cada verbena y boda del verano 2010 en el mundo entero.' },
+      { title: '"Waka Waka" en cada boda', text: 'Shakira + Freshlyground crean el himno mundialista más reproducido de la historia, más de 3.500M de visitas en YouTube. El baile "Waka Waka" en cada verbena y boda del verano 2010 en el mundo entero.' },
       { title: 'Forlán, Bota de Oro sin título', text: 'Diego Forlán lidera a Uruguay al 4º puesto, su mejor resultado en 40 años. Balón de Oro del torneo. Sin copa, pero con respeto eterno de todo el continente latinoamericano.' },
       { title: '8 culés en el once', text: 'España gana con 8 jugadores del Barça en el once tipo (Piqué, Puyol, Busquets, Xavi, Iniesta, Pedro, Villa, también Fàbregas del Arsenal). Récord imposible de igualar.' },
     ],
@@ -904,20 +904,20 @@ export const STORIES: TournamentStory[] = [
       { title: 'James, la revelación', text: 'Colombiano con 6 goles se lleva la bota de oro. Golazo de volea vs Uruguay en octavos.' },
     ],
     controversies: [
-      { title: 'El mordisco de Suárez a Chiellini', text: 'Uruguay-Italia primera ronda. Suárez muerde en el hombro a Chiellini — tercera vez que muerde en su carrera (Bakkal en el PSV, Ivanović en el Liverpool, Chiellini ahora). Sanción: 9 partidos y 4 meses. El uruguayo vio el partido siguiente por TV desde Barcelona recién fichado.' },
+      { title: 'El mordisco de Suárez a Chiellini', text: 'Uruguay-Italia primera ronda. Suárez muerde en el hombro a Chiellini, tercera vez que muerde en su carrera (Bakkal en el PSV, Ivanović en el Liverpool, Chiellini ahora). Sanción: 9 partidos y 4 meses. El uruguayo vio el partido siguiente por TV desde Barcelona recién fichado.' },
       { title: 'Protestas anti-Mundial', text: 'Brasil se llena de manifestaciones "Não vai ter Copa". Millones en las calles protestando por los 11.000M gastados en estadios mientras faltaban hospitales. El Mineirão, donde cayó el 1-7, fue símbolo del descontento.' },
       { title: 'El gol fantasma no-existente', text: 'Francia-Honduras: primer gol validado en la historia por goal-line technology. Karim Benzema marca, el balón pega en el larguero y rebota a manos del portero hondureño... que cae con el balón 15cm tras la línea. La tecnología lo captó.' },
     ],
     nostalgia: [
-      { title: 'Mineirazo, la herida abierta', text: '"1-7" se convierte en insulto en Brasil. El Mineirão asiste al peor día de la historia canarinho. Thiago Silva y Neymar ausentes. David Luiz llorando. Julio César que todavía no supera. En 2026 hubo "retorno simbólico" — ganaron 2-0 y la prensa tituló "2-0 no borra el 1-7".' },
+      { title: 'Mineirazo, la herida abierta', text: '"1-7" se convierte en insulto en Brasil. El Mineirão asiste al peor día de la historia canarinho. Thiago Silva y Neymar ausentes. David Luiz llorando. Julio César que todavía no supera. En 2026 hubo "retorno simbólico", ganaron 2-0 y la prensa tituló "2-0 no borra el 1-7".' },
       { title: 'Mascherano salva a Argentina', text: 'SF Holanda-Argentina, último segundo de prórroga: Robben va a marcar, Mascherano se tira a la pierna derecha y saca el balón. En el vestuario: "Hoy te convertís en héroe, loco". Quedó inmortalizado en el fútbol argentino.' },
-      { title: 'Fuleco armadillo', text: 'Mascota del armadillo de tres bandas, especie brasileña en peligro de extinción. Se vendieron millones de peluches pero su causa conservacionista quedó relegada — crítica de ambientalistas.' },
+      { title: 'Fuleco armadillo', text: 'Mascota del armadillo de tres bandas, especie brasileña en peligro de extinción. Se vendieron millones de peluches pero su causa conservacionista quedó relegada, crítica de ambientalistas.' },
       { title: 'James Rodríguez entra al mundo', text: 'Vs Uruguay: control de pecho, media vuelta, remate de volea al ángulo. Mejor gol del Mundial. Los colombianos lo bailaron con ritmo vallenato por semanas. Fichaje al Real Madrid 10 días después por 80M.' },
     ],
     trivia: [
       'Klose (16) supera a Ronaldo (15) como máximo goleador histórico de Mundiales.',
       'Alemania es la primera selección europea que gana un Mundial en Sudamérica.',
-      'Rojo, rojo: Argentina jugó con el rojo de visitante por primera vez desde 1993 — la final se jugó con su segunda equipación azul-oscura.',
+      'Rojo, rojo: Argentina jugó con el rojo de visitante por primera vez desde 1993, la final se jugó con su segunda equipación azul-oscura.',
     ],
   },
 
@@ -950,18 +950,18 @@ export const STORIES: TournamentStory[] = [
       { title: 'Rusia sorprende', text: 'Local elimina a España en penales. Cherchesov se vuelve héroe nacional.' },
     ],
     controversies: [
-      { title: 'Boicot diplomático a Rusia', text: 'Muchos líderes occidentales no asistieron por el envenenamiento del exespía Sergei Skripal (Salisbury, marzo 2018). Theresa May no viajó, Trump sí. Macron sólo fue a la final — y acabó en la foto bajo la lluvia besando la copa con Putin al lado.' },
-      { title: '20 penales pitados por el VAR', text: 'Récord histórico. El VAR debutó y multiplicó los penales. Cristiano vs España: 3-3, penal señalado por el VAR. Francia-Australia primer gol validado por VAR. Croacia sintió que varios penales concedidos a Francia fueron dudosos — incluida el del 2-1 en la final.' },
-      { title: 'Dopaje de estado ruso', text: 'Tras el informe McLaren (Sochi 2014) se destapó el dopaje estatal ruso. Sin embargo, los futbolistas rusos no fueron investigados; jugaron con normalidad. La selección anfitriona llegó a cuartos como milagro deportivo — sombra inevitable.' },
+      { title: 'Boicot diplomático a Rusia', text: 'Muchos líderes occidentales no asistieron por el envenenamiento del exespía Sergei Skripal (Salisbury, marzo 2018). Theresa May no viajó, Trump sí. Macron sólo fue a la final, y acabó en la foto bajo la lluvia besando la copa con Putin al lado.' },
+      { title: '20 penales pitados por el VAR', text: 'Récord histórico. El VAR debutó y multiplicó los penales. Cristiano vs España: 3-3, penal señalado por el VAR. Francia-Australia primer gol validado por VAR. Croacia sintió que varios penales concedidos a Francia fueron dudosos, incluida el del 2-1 en la final.' },
+      { title: 'Dopaje de estado ruso', text: 'Tras el informe McLaren (Sochi 2014) se destapó el dopaje estatal ruso. Sin embargo, los futbolistas rusos no fueron investigados; jugaron con normalidad. La selección anfitriona llegó a cuartos como milagro deportivo, sombra inevitable.' },
     ],
     nostalgia: [
-      { title: '"It\'s coming home"', text: 'Inglaterra en semifinal 28 años después. El himno de 1996 vuelve viral. Calvos, pintas y "It\'s coming home" en cada pub y cada bar de Magaluf. Pierden contra Croacia en prórroga. El meme quedó para siempre — todavía se usa cada vez que algo NO pasa.' },
-      { title: 'Modrić en el lodo', text: 'Croacia jugó 3 prórrogas en fase eliminatoria (Dinamarca, Rusia, Inglaterra). Modrić, 33 años, jugó todas. Llegó a la final agotado — perdieron 2-4 con Francia. Balón de Oro del torneo. Nadie ha vuelto a aguantar una carga tan brutal.' },
+      { title: '"It\'s coming home"', text: 'Inglaterra en semifinal 28 años después. El himno de 1996 vuelve viral. Calvos, pintas y "It\'s coming home" en cada pub y cada bar de Magaluf. Pierden contra Croacia en prórroga. El meme quedó para siempre, todavía se usa cada vez que algo NO pasa.' },
+      { title: 'Modrić en el lodo', text: 'Croacia jugó 3 prórrogas en fase eliminatoria (Dinamarca, Rusia, Inglaterra). Modrić, 33 años, jugó todas. Llegó a la final agotado, perdieron 2-4 con Francia. Balón de Oro del torneo. Nadie ha vuelto a aguantar una carga tan brutal.' },
       { title: 'Francia multicultural', text: 'Gol al francés Umtiti (hijo de cameruneses), Mbappé (camerunés-argelino), Kanté (mali), Pogba (guineano)... La celebración del Arco del Triunfo se sintió victoria de la banlieue. Debates culturales en Europa.' },
-      { title: 'Zabivaka y Moscú', text: 'El lobo con gafas de aviador inmortalizó la calidez rusa del torneo. Fan fests en la Plaza Roja; murales en cada estación del metro. Moscú quedó para muchos occidentales como ciudad amable — 3,5 años antes de la invasión a Ucrania.' },
+      { title: 'Zabivaka y Moscú', text: 'El lobo con gafas de aviador inmortalizó la calidez rusa del torneo. Fan fests en la Plaza Roja; murales en cada estación del metro. Moscú quedó para muchos occidentales como ciudad amable, 3,5 años antes de la invasión a Ucrania.' },
     ],
     trivia: [
-      'Alemania, vigente, eliminada en fase de grupos — primera vez desde 1938.',
+      'Alemania, vigente, eliminada en fase de grupos, primera vez desde 1938.',
       'Mbappé, 19 años: segundo adolescente en marcar en una final de un Mundial (el primero fue Pelé, 1958).',
       'Panamá debutó; Arabia Saudí perdió 0-5 con Rusia en el inaugural.',
     ],
@@ -988,7 +988,7 @@ export const STORIES: TournamentStory[] = [
     innovations: [
       'Primer Mundial en Oriente Medio.',
       'Primer Mundial en noviembre-diciembre (clima).',
-      'Semi-automatic offside — tecnología de fuera de juego con IA.',
+      'Semi-automatic offside, tecnología automatizada de fuera de juego.',
       'Estadio desmontable (974, hecho con contenedores).',
     ],
     moments: [
@@ -997,17 +997,17 @@ export const STORIES: TournamentStory[] = [
       { title: 'Marruecos, 4º', text: 'Primer país africano/árabe en llegar a semifinales. Elimina a España y Portugal.' },
     ],
     controversies: [
-      { title: 'Qatargate y los 6.500 muertos', text: 'Según The Guardian, 6.500 trabajadores migrantes murieron en obras desde 2010. Qatar cuestionó los datos. FIFA no los investigó. El torneo se celebró bajo escrutinio ético permanente — el recuerdo queda con esa mancha estructural.' },
-      { title: 'Brazalete arcoíris prohibido', text: 'FIFA amenazó con amarilla a capitanes que llevaran el brazalete "OneLove". Inglaterra, Alemania, Bélgica y otros 6 se plegaron. La selección alemana se tapó la boca en la foto oficial en protesta — perdieron con Japón el mismo día, titulares dijeron que fue "karma".' },
-      { title: 'La final más espectacular... con polémica', text: 'Di María cae al suelo en el 21\' y se pita penal que algunos discuten. Mbappé convierte tres goles. Argentina gana 4-2 en penales. Tras el pitazo final, Kolo Muani falló mano a mano y el Martínez tapó. La "Dibu" celebra el Globo de Oro con gesto obsceno — FIFA multa pero no le quita el premio.' },
+      { title: 'Qatargate y los 6.500 muertos', text: 'Según The Guardian, 6.500 trabajadores migrantes murieron en obras desde 2010. Qatar cuestionó los datos. FIFA no los investigó. El torneo se celebró bajo escrutinio ético permanente, el recuerdo queda con esa mancha estructural.' },
+      { title: 'Brazalete arcoíris prohibido', text: 'FIFA amenazó con amarilla a capitanes que llevaran el brazalete "OneLove". Inglaterra, Alemania, Bélgica y otros 6 se plegaron. La selección alemana se tapó la boca en la foto oficial en protesta, perdieron con Japón el mismo día, titulares dijeron que fue "karma".' },
+      { title: 'La final más espectacular... con polémica', text: 'Di María cae al suelo en el 21\' y se pita penal que algunos discuten. Mbappé convierte tres goles. Argentina gana 4-2 en penales. Tras el pitazo final, Kolo Muani falló mano a mano y el Martínez tapó. La "Dibu" celebra el Globo de Oro con gesto obsceno, FIFA multa pero no le quita el premio.' },
       { title: 'Corrupción FIFA (Qatargate europeo)', text: 'En diciembre de 2022, mientras se jugaba el Mundial, la policía belga detuvo a la eurodiputada Eva Kaili y otros por sobornos de Qatar. Tres dirigentes marroquíes cayeron también. El Mundial se vivió con ese telón de fondo de sobornos institucionales.' },
     ],
     nostalgia: [
       { title: '"Muchaaaachos, ahora nos volvimo\' a ilusionar"', text: 'El hit de La Mosca Tsé-Tsé versionado por Fernando Romero se convirtió en himno argentino absoluto. Se cantó en Doha, Buenos Aires y en cualquier esquina del mundo. Millones escucharon la canción una vez al día durante meses.' },
-      { title: 'Messi besa la copa', text: 'Diego Maradona murió en noviembre 2020. Messi gana 36 años después del último título (1986). En la entrega, alzó la Copa mientras Qatar le ponía un "bisht" (túnica árabe) — fotografía más vista del año 2022. Premio a Balón de Oro del torneo.' },
+      { title: 'Messi besa la copa', text: 'Diego Maradona murió en noviembre 2020. Messi gana 36 años después del último título (1986). En la entrega, alzó la Copa mientras Qatar le ponía un "bisht" (túnica árabe), fotografía más vista del año 2022. Premio a Balón de Oro del torneo.' },
       { title: 'Scaloneta y la figurita de Messi', text: 'El álbum Panini 2022 se agotó en Argentina 2 días antes de la inauguración del Mundial. La figurita de Messi se rematé por reventa a 35.000 pesos. Todos querían el "cromo del capitán".' },
       { title: 'Marruecos en semis', text: 'Primer país africano/árabe en llegar a semifinales. Tras cada victoria, jugadores abrazaban a sus madres en el campo. Bandera palestina en cada celebración. Escena que marcó al mundo árabe para una generación.' },
-      { title: '"Dibu" Martínez', text: 'Emiliano "Dibu" Martínez atajó el mano a mano final de Kolo Muani y dos penales en la tanda. Provocaba a los rivales con gestos inmortales. Personaje mitificado en Argentina — "al dibu no le gana nadie".' },
+      { title: '"Dibu" Martínez', text: 'Emiliano "Dibu" Martínez atajó el mano a mano final de Kolo Muani y dos penales en la tanda. Provocaba a los rivales con gestos inmortales. Personaje mitificado en Argentina, "al dibu no le gana nadie".' },
     ],
     trivia: [
       'Primer Mundial en noviembre-diciembre. El clima (40° en junio) obligó.',
@@ -1034,14 +1034,14 @@ export const STORIES: TournamentStory[] = [
       { title: 'Entradas más caras de la historia', text: 'Boleto más barato de la final: ~$2.000. Entrada de fase de grupos más barata: $60. FIFA criticada por elitización. Los estadios se llenarán de corporativos americanos, no de aficionados del fútbol-país.' },
     ],
     nostalgia: [
-      { title: 'El Azteca, el templo', text: 'Único estadio en albergar 3 Mundiales (1970, 1986, 2026). Donde Pelé levantó la copa por tercera vez y donde Maradona firmó el Gol del Siglo. Vuelve con 83.000 asientos y la mística intacta — "Cuauhtémoc" para los mexicanos.' },
+      { title: 'El Azteca, el templo', text: 'Único estadio en albergar 3 Mundiales (1970, 1986, 2026). Donde Pelé levantó la copa por tercera vez y donde Maradona firmó el Gol del Siglo. Vuelve con 83.000 asientos y la mística intacta, "Cuauhtémoc" para los mexicanos.' },
       { title: '¿La última de Messi?', text: 'El argentino tendría 39 años cumplidos. Declaró "probablemente no" pero la Scaloneta lo necesita. Cristiano, 41, también quiere jugar. Nunca dos "eras" se habían despedido en el mismo Mundial.' },
       { title: 'USA/México/Canadá', text: 'Continente americano unido por primera vez. 6 ciudades americanas, 3 mexicanas, 2 canadienses. Retro y moderno: Azteca y SoFi Stadium (Los Ángeles, donde se juega la Super Bowl).' },
     ],
     trivia: [
-      '104 partidos totales — récord absoluto.',
+      '104 partidos totales, récord absoluto.',
       'México inaugura el 11 de junio de 2026 en el Azteca; final en MetLife Stadium (Nueva Jersey) el 19 de julio.',
-      'Tres mascotas — una por país: Zayu (jaguar MEX), Clutch (águila USA), Maik (alce CAN).',
+      'Tres mascotas, una por país: Zayu (jaguar MEX), Clutch (águila USA), Maik (alce CAN).',
       'Toronto estreno como sede Mundial. Atlanta y Miami también.',
     ],
   },

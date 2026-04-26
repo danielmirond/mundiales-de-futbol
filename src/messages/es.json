@@ -20,7 +20,7 @@
   },
   "home": {
     "hero": {
-      "kicker": "1930 — 2026",
+      "kicker": "1930-2026",
       "titleLine1": "22 torneos.",
       "titleLine2": "Una historia.",
       "subtitle": "La enciclopedia definitiva del Mundial de Fútbol, hasta el último pase.",
@@ -166,11 +166,11 @@
       "description": "Una galería curada con las imágenes más icónicas de los Mundiales de fútbol. Equipos campeones, celebraciones, estadios y trofeos desde 1930 hasta 2026. Todas las fotos con licencia libre.",
       "h1Line1": "Galería de",
       "h1Line2": "los Mundiales",
-      "kicker": "Archivo visual · 1930 — 2026",
+      "kicker": "Archivo visual · 1930-2026",
       "intro": "Las imágenes que han contado la historia de las selecciones nacionales a lo largo de un siglo de Copa del Mundo. {n} fotos curadas, todas con licencia libre, atribuidas a sus autores originales."
     },
     "edicionesList": {
-      "title": "Ediciones · 1930 — 2026",
+      "title": "Ediciones · 1930-2026",
       "description": "Las 23 ediciones de la Copa del Mundo masculina, de Uruguay 1930 al Mundial 2026 de Estados Unidos, México y Canadá. Resultados, sedes, campeones y crónicas."
     },
     "jugadoresList": {

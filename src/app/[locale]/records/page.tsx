@@ -138,7 +138,7 @@ export default async function RecordsIndex({
       <header className="mx-auto w-full max-w-[1400px] px-6 md:px-10">
         <div className="flex items-center gap-3 font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-pitch)]">
           <Trophy className="h-4 w-4" />
-          <span>Récords · 1930 — 2026</span>
+          <span>Récords · 1930-2026</span>
         </div>
         <h1 className="mt-4 font-display text-fluid-display uppercase leading-[0.9]">
           Récords<br />mundialistas

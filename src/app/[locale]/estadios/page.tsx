@@ -104,7 +104,7 @@ export default async function StadiumsIndexPage({
                 </div>
                 <div className="mt-2 flex items-center justify-between font-mono text-[10px] uppercase tracking-widest text-white/70">
                   <span>
-                    {v.city?.trim() ?? ''} · {v.country_code ?? '—'}
+                    {v.city?.trim() ?? ''} · {v.country_code ?? '-'}
                   </span>
                   <span className="tab-num">
                     {v.matches_played} partidos

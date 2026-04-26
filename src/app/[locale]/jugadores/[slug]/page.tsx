@@ -50,7 +50,7 @@ export async function generateMetadata({
   const name = displayPlayerName(player);
 
   // Patrón híbrido tier-based:
-  // · Legends (≥3 Mundiales o ≥6 goles): "Pelé mundialista — Brasil · 4 Mundiales · 12 goles"
+  // · Legends (≥3 Mundiales o ≥6 goles): "Pelé mundialista, Brasil · 4 Mundiales · 12 goles"
   // · Regulares (2 Mundiales): "Gerd Müller · Alemania · 2 Mundiales · 14 goles"
   // · Single (1 Mundial): "James Rodríguez (Colombia) · Mundial 2014"
   const isLegend = player.wc_count >= 3 || player.goals >= 6;
@@ -60,7 +60,7 @@ export async function generateMetadata({
   if (isLegend) {
     const wcLabel = `${player.wc_count} Mundial${player.wc_count === 1 ? '' : 'es'}`;
     const goalsLabel = player.goals > 0 ? ` · ${player.goals} gol${player.goals === 1 ? '' : 'es'}` : '';
-    title = `${name} mundialista — ${player.nationality_code} · ${wcLabel}${goalsLabel}`;
+    title = `${name} mundialista, ${player.nationality_code} · ${wcLabel}${goalsLabel}`;
   } else if (isRegular) {
     const goalsLabel = player.goals > 0 ? ` · ${player.goals} gol${player.goals === 1 ? '' : 'es'}` : '';
     title = `${name} · ${player.nationality_code} · ${player.wc_count} Mundiales${goalsLabel}`;
@@ -305,7 +305,7 @@ export default async function PlayerDetailPage({
                           {m.team_code}
                         </div>
                         <div className="font-display text-2xl tab-num text-[var(--color-fg)]">
-                          {m.home_score ?? '—'} · {m.away_score ?? '—'}
+                          {m.home_score ?? '-'} · {m.away_score ?? '-'}
                         </div>
                         <div className="truncate text-sm text-[var(--color-fg-muted)]">
                           {m.opponent_code}

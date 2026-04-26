@@ -20,7 +20,7 @@
   },
   "home": {
     "hero": {
-      "kicker": "1930 — 2026",
+      "kicker": "1930-2026",
       "titleLine1": "22 torneios.",
       "titleLine2": "Uma história.",
       "subtitle": "A enciclopédia definitiva da Copa do Mundo, até o último passe.",
@@ -166,11 +166,11 @@
       "description": "Galeria curada com as imagens mais icônicas das Copas do Mundo. Times campeões, comemorações, estádios e troféus de 1930 a 2026. Todas as fotos com licença livre.",
       "h1Line1": "Galeria das",
       "h1Line2": "Copas do Mundo",
-      "kicker": "Arquivo visual · 1930 — 2026",
+      "kicker": "Arquivo visual · 1930-2026",
       "intro": "As imagens que contaram a história das seleções nacionais ao longo de um século de Copa do Mundo. {n} fotos curadas, todas com licença livre, creditadas aos autores originais."
     },
     "edicionesList": {
-      "title": "Edições · 1930 — 2026",
+      "title": "Edições · 1930-2026",
       "description": "As 23 edições da Copa do Mundo masculina, do Uruguai 1930 à Copa 2026 nos EUA, México e Canadá. Resultados, sedes, campeões e crônicas."
     },
     "jugadoresList": {

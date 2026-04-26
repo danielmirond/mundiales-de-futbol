@@ -1,5 +1,5 @@
 /**
- * Amazon Associates — productos curados para Mundiales de Fútbol.
+ * Amazon Associates, productos curados para Mundiales de Fútbol.
  *
  * El tag se inyecta vía env (`NEXT_PUBLIC_AMAZON_TAG`, fallback "nuus-21")
  * para no hardcodearlo y poder rotarlo sin redeploy de assets.
@@ -146,7 +146,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
   },
   {
     id: 6,
-    title: 'Nike Portugal Ronaldo Player tee — camiseta jugador CR7',
+    title: 'Nike Portugal Ronaldo Player tee, camiseta jugador CR7',
     asin: 'B0BDDXPDB9',
     verified: true,
     imageId: '41AEhuUyRqL',
@@ -253,7 +253,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
   // ── Camisetas retro icónicas (10%) ─────────────────────
   {
     id: 56,
-    title: 'Copa Football Maradona × Argentina 1986 — Camiseta retro Mundial',
+    title: 'Copa Football Maradona × Argentina 1986, Camiseta retro Mundial',
     asin: 'B0BHBYLSTL',
     verified: true,
     imageId: '41BMuZCHoNL',
@@ -338,10 +338,10 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     uses: 'Cross-sell moda. 10% comisión.',
     teamCode: 'ESP',
   },
-  // ── TVs y electrónica (3,5%) — Fan Zone Mundial 2026 ────────
+  // ── TVs y electrónica (3,5%), Fan Zone Mundial 2026 ────────
   {
     id: 13,
-    title: 'Hisense U6N 55" Mini-LED 4K Google TV — TV asequible para fútbol',
+    title: 'Hisense U6N 55" Mini-LED 4K Google TV, TV asequible para fútbol',
     asin: 'B0CY4X5M8D',
     verified: true,
     imageId: '719xQytFYFL',
@@ -355,7 +355,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
   },
   {
     id: 14,
-    title: 'Samsung QLED Q60D 65" 4K Smart TV — para ver el Mundial 2026',
+    title: 'Samsung QLED Q60D 65" 4K Smart TV, para ver el Mundial 2026',
     asin: 'B0CS6Z8RTB',
     verified: true,
     imageId: '81LlKvis56L',
@@ -369,7 +369,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
   },
   {
     id: 15,
-    title: 'LG OLED evo C4 55" 4K 144Hz Dolby Vision — premium para fútbol',
+    title: 'LG OLED evo C4 55" 4K 144Hz Dolby Vision, premium para fútbol',
     asin: 'B0CYCCS1HP',
     verified: true,
     imageId: '81kGmzJpGcL',
@@ -383,7 +383,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
   },
   {
     id: 16,
-    title: 'XGIMI Halo+ proyector portátil 1080p Google TV — fan zone móvil',
+    title: 'XGIMI Halo+ proyector portátil 1080p Google TV, fan zone móvil',
     asin: 'B09MD1R9QV',
     verified: true,
     imageId: '71N87RNWQSL',
@@ -396,7 +396,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
   },
   {
     id: 17,
-    title: 'Samsung HW-Q700C 3.1.2 Dolby Atmos — barra de sonido medio',
+    title: 'Samsung HW-Q700C 3.1.2 Dolby Atmos, barra de sonido medio',
     asin: 'B0BPY8V39Z',
     verified: true,
     imageId: '61-Hyt8iqhL',
@@ -409,7 +409,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
   },
   {
     id: 60,
-    title: 'Samsung HW-Q800D 5.1.2 Atmos 2024 — barra de sonido pro',
+    title: 'Samsung HW-Q800D 5.1.2 Atmos 2024, barra de sonido pro',
     asin: 'B0CZMD371L',
     verified: true,
     imageId: '51LIsrX2Q7L',
@@ -422,7 +422,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
   },
   {
     id: 61,
-    title: 'Samsung HW-Q990F 11.1.4 Atmos 2025 — barra premium',
+    title: 'Samsung HW-Q990F 11.1.4 Atmos 2025, barra premium',
     asin: 'B0F1D7VQJ3',
     verified: true,
     imageId: '71zupey2fiL',
@@ -430,12 +430,12 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     commission: 3.5,
     priceMin: 1500,
     priceMax: 1900,
-    uses: 'Tier premium. 11.1.4 canales — el gol se siente en 360°.',
+    uses: 'Tier premium. 11.1.4 canales, el gol se siente en 360°.',
     worldCupYear: 2026,
   },
   {
     id: 62,
-    title: 'Sony WH-1000XM5 auriculares cancelación ruido — fútbol nocturno',
+    title: 'Sony WH-1000XM5 auriculares cancelación ruido, fútbol nocturno',
     asin: 'B09Y2MYL5C',
     verified: true,
     imageId: '61fxPWFu6aL',
@@ -448,7 +448,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
   },
   {
     id: 63,
-    title: 'Apple TV 4K 64GB Wi-Fi 3ª gen — para apps de streaming',
+    title: 'Apple TV 4K 64GB Wi-Fi 3ª gen, para apps de streaming',
     asin: 'B0BJN9J51S',
     verified: true,
     imageId: '51QKvGxHl2L',
@@ -521,7 +521,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
   // ── Coleccionismo (7%) ─────────────────────────────────
   {
     id: 23,
-    title: 'Panini FIFA World Cup Qatar 2022 — álbum oficial + 25 sobres cromos',
+    title: 'Panini FIFA World Cup Qatar 2022, álbum oficial + 25 sobres cromos',
     asin: 'B0BBGVW8QY',
     verified: true,
     imageId: '615NjPkCS0L',
@@ -529,7 +529,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     commission: 7,
     priceMin: 12,
     priceMax: 25,
-    uses: 'Cromos Mundial Qatar 2022 — coleccionistas. Pre-2026 cuando salga el álbum oficial 2026 se actualiza.',
+    uses: 'Cromos Mundial Qatar 2022, coleccionistas. Pre-2026 cuando salga el álbum oficial 2026 se actualiza.',
     worldCupYear: 2022,
     featured: true,
   },
@@ -546,7 +546,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
   },
   {
     id: 25,
-    title: 'Funko Pop! Football PSG Lionel Messi — figura coleccionable',
+    title: 'Funko Pop! Football PSG Lionel Messi, figura coleccionable',
     asin: 'B09YDH36XR',
     verified: true,
     imageId: '51cTIkO-9jL',
@@ -634,7 +634,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
   // ── Libros (7%) ─────────────────────────────────
   {
     id: 33,
-    title: 'El historiador en el estadio — Toni Padilla — geopolítica del fútbol',
+    title: 'El historiador en el estadio, Toni Padilla, geopolítica del fútbol',
     asin: '8418216298',
     verified: true,
     imageId: '71GpxH3jLRL',
@@ -646,7 +646,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
   },
   {
     id: 34,
-    title: 'El fútbol a sol y a sombra — Eduardo Galeano (bolsillo)',
+    title: 'El fútbol a sol y a sombra, Eduardo Galeano (bolsillo)',
     asin: '843231255X',
     verified: true,
     category: 'libros',
@@ -657,7 +657,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
   },
   {
     id: 35,
-    title: 'Brasil 50 — Retratos del Mundial del Maracanazo · Toni Padilla',
+    title: 'Brasil 50, Retratos del Mundial del Maracanazo · Toni Padilla',
     asin: '8494216716',
     verified: true,
     category: 'libros',
@@ -699,7 +699,7 @@ export function buildAmazonImage(imageId: string, size = 500): string {
 
 /**
  * Construye URL Amazon. Si el producto no está verificado (asin caducado
- * o sin asignar), genera URL de búsqueda — Amazon nunca da 404 en /s
+ * o sin asignar), genera URL de búsqueda, Amazon nunca da 404 en /s
  * y la atribución de afiliado se mantiene si el usuario compra después.
  */
 export function buildAmazonUrl(

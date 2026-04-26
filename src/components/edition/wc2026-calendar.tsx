@@ -97,9 +97,9 @@ export function WC2026Calendar({ locale }: { locale: Locale }) {
                       </div>
                       <div className="font-display text-lg uppercase text-[var(--color-fg)]">
                         {f.home && f.away ? (
-                          <span>{f.home} — {f.away}</span>
+                          <span>{f.home}, {f.away}</span>
                         ) : f.home ? (
-                          <span>{f.home} <span className="text-[var(--color-fg-subtle)]">— TBD</span></span>
+                          <span>{f.home} <span className="text-[var(--color-fg-subtle)]">- TBD</span></span>
                         ) : f.label ? (
                           <span>{f.label}</span>
                         ) : (

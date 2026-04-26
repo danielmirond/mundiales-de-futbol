@@ -79,7 +79,7 @@ export function RecordTable({
                     {displayPlayerName(p)}
                   </div>
                   <div className="mt-1 font-mono text-[10px] uppercase tracking-[0.2em] text-[var(--color-fg-muted)]">
-                    {p.nationality_code} · {p.position ?? '—'}
+                    {p.nationality_code} · {p.position ?? '-'}
                   </div>
                 </div>
                 <div className="mt-3 flex items-baseline gap-2">

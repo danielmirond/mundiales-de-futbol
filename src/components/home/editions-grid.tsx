@@ -21,7 +21,7 @@ export async function EditionsGrid({ locale }: { locale: Locale }) {
       <div className="flex flex-wrap items-end justify-between gap-6">
         <div>
           <div className="font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-pitch)]">
-            1930 — 2026
+            1930-2026
           </div>
           <h2 className="mt-4 font-display text-fluid-h1 uppercase leading-[0.92]">
             {t('title')}
@@ -68,7 +68,7 @@ export async function EditionsGrid({ locale }: { locale: Locale }) {
                   {ed.host}
                 </div>
                 <div className="mt-1 text-sm text-[var(--color-fg)]">
-                  {upcoming ? '—' : `🏆 ${ed.champion}`}
+                  {upcoming ? '-' : `🏆 ${ed.champion}`}
                 </div>
                 <div className="mt-3 flex items-center gap-3 font-mono text-[10px] uppercase tracking-widest text-[var(--color-fg-subtle)]">
                   <span>{ed.teams}T</span>

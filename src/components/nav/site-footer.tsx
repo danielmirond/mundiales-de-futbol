@@ -22,7 +22,7 @@ export async function SiteFooter() {
         </div>
         <div className="text-sm text-[var(--color-fg-muted)]">
           <div className="font-mono text-xs uppercase tracking-widest text-[var(--color-fg-subtle)]">
-            1930 — 2026
+            1930-2026
           </div>
           <ul className="mt-4 space-y-2">
             <li>22 ediciones</li>

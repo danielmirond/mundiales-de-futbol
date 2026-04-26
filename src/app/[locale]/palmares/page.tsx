@@ -108,7 +108,7 @@ export default async function PalmaresPage({
       <header className="mx-auto w-full max-w-[1400px] px-6 md:px-10">
         <div className="flex items-center gap-3 font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-pitch)]">
           <Trophy className="h-4 w-4" />
-          <span>Palmarés · 1930 — 2022</span>
+          <span>Palmarés · 1930-2022</span>
         </div>
         <h1 className="mt-4 font-display text-fluid-display uppercase leading-[0.9]">
           Palmarés<br />Mundial
@@ -138,7 +138,7 @@ export default async function PalmaresPage({
             <tbody className="divide-y divide-[var(--color-border)]">
               {[...PLAYED].reverse().map((t) => {
                 const fr = t.finalResult;
-                const score = fr ? (fr.penalties ? `${fr.score} (${fr.penalties})` : fr.extraTime && !fr.penalties ? `${fr.score} (TC)` : fr.score) : '—';
+                const score = fr ? (fr.penalties ? `${fr.score} (${fr.penalties})` : fr.extraTime && !fr.penalties ? `${fr.score} (TC)` : fr.score) : '-';
                 return (
                   <tr key={t.year} className="hover:bg-[var(--color-bg-2)]/40">
                     <td className="px-4 py-4 font-display text-2xl tab-num text-[var(--color-fg)] md:text-3xl">
@@ -157,9 +157,9 @@ export default async function PalmaresPage({
                     <td className="px-4 py-4 font-mono text-xs text-[var(--color-fg-muted)] md:text-sm">
                       {score}
                     </td>
-                    <td className="px-4 py-4 text-[var(--color-fg-muted)]">{t.runnerUp ?? '—'}</td>
-                    <td className="hidden px-4 py-4 text-[var(--color-fg-muted)] lg:table-cell">{t.third ?? '—'}</td>
-                    <td className="hidden px-4 py-4 text-[var(--color-fg-muted)] lg:table-cell">{t.fourth ?? '—'}</td>
+                    <td className="px-4 py-4 text-[var(--color-fg-muted)]">{t.runnerUp ?? '-'}</td>
+                    <td className="hidden px-4 py-4 text-[var(--color-fg-muted)] lg:table-cell">{t.third ?? '-'}</td>
+                    <td className="hidden px-4 py-4 text-[var(--color-fg-muted)] lg:table-cell">{t.fourth ?? '-'}</td>
                     <td className="hidden px-4 py-4 xl:table-cell">
                       {t.topScorer ? (
                         <span className="text-[var(--color-fg-muted)]">
@@ -169,7 +169,7 @@ export default async function PalmaresPage({
                           </span>
                         </span>
                       ) : (
-                        '—'
+                        '-'
                       )}
                     </td>
                     <td className="hidden px-4 py-4 xl:table-cell">
@@ -181,7 +181,7 @@ export default async function PalmaresPage({
                           )}
                         </span>
                       ) : (
-                        '—'
+                        '-'
                       )}
                     </td>
                   </tr>

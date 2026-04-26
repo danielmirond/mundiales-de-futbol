@@ -92,7 +92,7 @@ body {
   mask-image: radial-gradient(ellipse at 50% 35%, #000 40%, transparent 100%);
 }
 
-/* Fixed page-wide vignette — sits above content but is pointer-none */
+/* Fixed page-wide vignette, sits above content but is pointer-none */
 .vignette-fixed {
   position: fixed;
   inset: 0;

@@ -85,7 +85,7 @@ export default async function MaxGoleadoresPage({
 
         <div className="mt-8 flex items-center gap-3 font-mono text-xs uppercase tracking-[0.3em] text-emerald-300">
           <Goal className="h-4 w-4" />
-          <span>Top 30 · 1930 — 2022</span>
+          <span>Top 30 · 1930-2022</span>
         </div>
         <h1 className="mt-4 font-display text-fluid-display uppercase leading-[0.9]">
           Máximos<br />goleadores

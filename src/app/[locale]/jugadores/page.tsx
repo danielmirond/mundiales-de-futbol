@@ -173,10 +173,10 @@ export default async function PlayersIndexPage({
                     </Link>
                   </td>
                   <td className="p-4 font-mono text-xs text-[var(--color-fg-muted)]">
-                    {p.nationality_code ?? '—'}
+                    {p.nationality_code ?? '-'}
                   </td>
                   <td className="p-4 hidden md:table-cell text-[var(--color-fg-muted)]">
-                    {p.position ?? '—'}
+                    {p.position ?? '-'}
                   </td>
                   <td className="p-4 hidden md:table-cell text-right tab-num text-[var(--color-fg)]">
                     {p.wc_count}
@@ -188,7 +188,7 @@ export default async function PlayersIndexPage({
                     {p.goals > 0 ? (
                       <span className="font-semibold text-[var(--color-pitch)]">{p.goals}</span>
                     ) : (
-                      <span className="text-[var(--color-fg-subtle)]">—</span>
+                      <span className="text-[var(--color-fg-subtle)]">-</span>
                     )}
                   </td>
                 </tr>

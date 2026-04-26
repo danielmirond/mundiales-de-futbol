@@ -155,7 +155,7 @@ export async function ShotMap({
                   strokeWidth="0.3"
                 >
                   <title>
-                    {s.player?.known_as ?? s.player?.full_name ?? '?'} — {outcomeLabel(s.outcome)} · xG {(s.xg ?? 0).toFixed(2)} · min {s.minute ?? '?'}
+                    {s.player?.known_as ?? s.player?.full_name ?? '?'}, {outcomeLabel(s.outcome)} · xG {(s.xg ?? 0).toFixed(2)} · min {s.minute ?? '?'}
                   </title>
                 </circle>
               );
@@ -179,7 +179,7 @@ export async function ShotMap({
                   strokeWidth="0.3"
                 >
                   <title>
-                    {s.player?.known_as ?? s.player?.full_name ?? '?'} — {outcomeLabel(s.outcome)} · xG {(s.xg ?? 0).toFixed(2)} · min {s.minute ?? '?'}
+                    {s.player?.known_as ?? s.player?.full_name ?? '?'}, {outcomeLabel(s.outcome)} · xG {(s.xg ?? 0).toFixed(2)} · min {s.minute ?? '?'}
                   </title>
                 </circle>
               );

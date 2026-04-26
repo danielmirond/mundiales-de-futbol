@@ -62,7 +62,7 @@ export function TeamPhotoGallery({
           </h2>
           <p className="mt-3 max-w-2xl text-sm text-[var(--color-fg-muted)] md:text-base">
             {totalPhotos} {totalPhotos === 1 ? 'foto verificada' : 'fotos verificadas'} en{' '}
-            {years.length} {years.length === 1 ? 'edición' : 'ediciones'} del torneo. Imágenes con licencia libre — Wikimedia Commons.
+            {years.length} {years.length === 1 ? 'edición' : 'ediciones'} del torneo. Imágenes con licencia libre, Wikimedia Commons.
           </p>
         </div>
       </div>

@@ -50,11 +50,11 @@ const FAQ = [
   },
   {
     q: '¿Qué pulgadas son ideales según el salón?',
-    a: 'La fórmula de THX y Society of Motion Picture Engineers: pulgadas = distancia en cm × 0.84 / 2.54 para 4K. En la práctica, 55" desde 2 metros, 65" desde 2.5 metros, 75" desde 3 metros, 85" desde 3.5 metros. La distancia mínima en el salón típico español favorece 55-65" — más allá puede ser excesivo en pisos urbanos.',
+    a: 'La fórmula de THX y Society of Motion Picture Engineers: pulgadas = distancia en cm × 0.84 / 2.54 para 4K. En la práctica, 55" desde 2 metros, 65" desde 2.5 metros, 75" desde 3 metros, 85" desde 3.5 metros. La distancia mínima en el salón típico español favorece 55-65", más allá puede ser excesivo en pisos urbanos.',
   },
   {
     q: '¿Hace falta una barra de sonido?',
-    a: 'Para un partido normal no, los altavoces de un TV moderno son aceptables. Pero el momento épico — un gol importante, la atmósfera del estadio, la voz del relator — se siente diferente con audio inmersivo. Una barra 3.1.2 con Dolby Atmos transforma cualquier TV en algo más cercano al estadio. Es la inversión más infravalorada del fan promedio.',
+    a: 'Para un partido normal no, los altavoces de un TV moderno son aceptables. Pero el momento épico, un gol importante, la atmósfera del estadio, la voz del relator, se siente diferente con audio inmersivo. Una barra 3.1.2 con Dolby Atmos transforma cualquier TV en algo más cercano al estadio. Es la inversión más infravalorada del fan promedio.',
   },
   {
     q: '¿Vale la pena un proyector para ver el Mundial?',
@@ -385,7 +385,7 @@ export default async function FanZonePage({
             <p>
               Un Apple TV 4K (o un Chromecast Ultra, o un Fire TV Stick 4K Max)
               soluciona el problema de raíz: app más rápida, mejor mando, y
-              acceso a las plataformas internacionales si viajas — Tubi, Peacock,
+              acceso a las plataformas internacionales si viajas, Tubi, Peacock,
               Fox Sports App. Ciento setenta euros que en el momento crítico
               valen mucho más.
             </p>

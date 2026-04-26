@@ -122,7 +122,7 @@ export default async function EditionPage({
     },
     image: t.heroImageUrl,
   };
-  if (!upcoming && t.champion && t.champion !== '—') {
+  if (!upcoming && t.champion && t.champion !== '-') {
     eventLd.winner = { '@type': 'SportsTeam', name: t.champion };
   }
 
@@ -169,7 +169,7 @@ export default async function EditionPage({
             href={withLocale(locale as Locale, '/ediciones')}
             className="inline-flex items-center gap-2 font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-fg-muted)] transition-colors hover:text-[var(--color-fg)]"
           >
-            <ArrowLeft className="h-3 w-3 rtl:rotate-180" /> 1930 — 2026
+            <ArrowLeft className="h-3 w-3 rtl:rotate-180" /> 1930-2026
           </Link>
           <div
             className="mt-6 font-mono text-xs uppercase tracking-[0.3em]"
@@ -203,10 +203,10 @@ export default async function EditionPage({
       <section className="mx-auto w-full max-w-[1400px] px-6 py-10 md:px-10">
         <div className="grid gap-px overflow-hidden rounded-3xl border border-[var(--color-border)] bg-[var(--color-border)] sm:grid-cols-2 lg:grid-cols-4">
           {[
-            { Icon: Trophy, label: 'Campeón', value: upcoming ? '—' : t.champion },
+            { Icon: Trophy, label: 'Campeón', value: upcoming ? '-' : t.champion },
             { Icon: Users, label: 'Selecciones', value: String(t.teams) },
-            { Icon: Activity, label: 'Partidos', value: t.matches ? format.number(t.matches) : '—' },
-            { Icon: Target, label: 'Goles', value: t.goals ? format.number(t.goals) : '—' },
+            { Icon: Activity, label: 'Partidos', value: t.matches ? format.number(t.matches) : '-' },
+            { Icon: Target, label: 'Goles', value: t.goals ? format.number(t.goals) : '-' },
           ].map(({ Icon, label, value }) => (
             <div key={label} className="flex flex-col gap-3 bg-[var(--color-bg-2)] p-6 md:p-8">
               <Icon className="h-5 w-5" style={{ color: t.palette.from }} />
@@ -236,7 +236,7 @@ export default async function EditionPage({
               </dt>
               <dd className="flex items-center gap-2">
                 <CalendarDays className="h-4 w-4 text-[var(--color-fg-muted)]" />
-                {t.startDate} — {t.endDate}
+                {t.startDate}, {t.endDate}
               </dd>
               {!upcoming && (
                 <>
@@ -272,7 +272,7 @@ export default async function EditionPage({
                         3.º · 4.º
                       </dt>
                       <dd>
-                        {t.third ?? '—'} · {t.fourth ?? '—'}
+                        {t.third ?? '-'} · {t.fourth ?? '-'}
                       </dd>
                     </>
                   )}
@@ -316,7 +316,7 @@ export default async function EditionPage({
               <li>• Eventos minuto a minuto (goles, tarjetas, cambios)</li>
               <li>• Mapas de tiros con xG (StatsBomb)</li>
               <li>• Vídeos históricos (archive.org)</li>
-              <li>• Crónicas generadas por IA</li>
+              <li>• Crónicas editoriales y reportajes</li>
             </ul>
           </aside>
         </div>

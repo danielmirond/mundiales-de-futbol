@@ -9,9 +9,9 @@ import { Resend } from 'resend';
  * Falls back to logging when no key is configured (dev mode).
  *
  * Env vars:
- *   RESEND_API_KEY       — Resend secret (re_xxx)
- *   CONTACT_TO_EMAIL     — inbox to receive messages (default daniel.mirond@gmail.com)
- *   CONTACT_FROM_EMAIL   — verified sender (default "Mundiales <hola@mundiales-de-futbol.com>")
+ *   RESEND_API_KEY      , Resend secret (re_xxx)
+ *   CONTACT_TO_EMAIL    , inbox to receive messages (default daniel.mirond@gmail.com)
+ *   CONTACT_FROM_EMAIL  , verified sender (default "Mundiales <hola@mundiales-de-futbol.com>")
  */
 
 const CONTACT_TO = process.env.CONTACT_TO_EMAIL ?? 'daniel.mirond@gmail.com';
@@ -88,14 +88,14 @@ export async function POST(req: NextRequest) {
       '',
       message,
       '',
-      '—',
+      '-',
       'Enviado desde mundiales-de-futbol.com · formulario de contacto',
     ].join('\n'),
   };
 
   const key = process.env.RESEND_API_KEY;
   if (!key) {
-    // Dev-mode fallback — print to server logs so you can test locally.
+    // Dev-mode fallback, print to server logs so you can test locally.
     console.log('[contact] (no RESEND_API_KEY)', payload);
     return NextResponse.json({ ok: true, delivered: false });
   }

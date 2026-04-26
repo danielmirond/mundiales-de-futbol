@@ -31,7 +31,7 @@ export type TeamMatchRow = {
   opponent_code: string;
   team_score: number | null;
   opponent_score: number | null;
-  result: 'W' | 'D' | 'L' | '—';
+  result: 'W' | 'D' | 'L' | '-';
 };
 
 const SELECT = 'code,iso_alpha3,name_official,name_common,flag_emoji,confederation,dissolved_year,successor_code,wc_count,wc_years,titles,runners_up,matches_played,wins,draws,losses,goals_for,goals_against';
@@ -166,7 +166,7 @@ export async function getTeamMatches(code: string, extraCodes: string[] = []): P
       const opponent = isHome ? m.away_code : m.home_code;
       const teamScore = isHome ? m.home_score : m.away_score;
       const oppScore = isHome ? m.away_score : m.home_score;
-      let result: 'W' | 'D' | 'L' | '—' = '—';
+      let result: 'W' | 'D' | 'L' | '-' = '-';
       if (codeSet.has(m.winner_code ?? '')) result = 'W';
       else if (m.winner_code === null && m.home_score !== null) result = 'D';
       else if (m.winner_code && !codeSet.has(m.winner_code)) result = 'L';

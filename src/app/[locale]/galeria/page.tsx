@@ -73,7 +73,7 @@ export default async function GaleriaPage({
 
       <header className="mx-auto w-full max-w-[1400px] px-6 md:px-10">
         <div className="font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-pitch)]">
-          Archivo visual · 1930 — 2026
+          Archivo visual · 1930-2026
         </div>
         <h1 className="mt-4 font-display text-fluid-display uppercase leading-[0.9]">
           Galería de<br />los Mundiales
@@ -86,7 +86,7 @@ export default async function GaleriaPage({
 
         <div className="mt-10 flex flex-wrap items-center gap-x-8 gap-y-3 font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-fg-subtle)]">
           <span>{GALLERY.length} imágenes</span>
-          <span>1930 — 2018</span>
+          <span>1930-2018</span>
           <span>Wikimedia · Bundesarchiv · Archivos PD</span>
         </div>
       </header>

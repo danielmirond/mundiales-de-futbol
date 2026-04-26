@@ -3,7 +3,7 @@ import { cn } from '@/lib/utils';
 type Props = { size?: number; className?: string };
 
 /**
- * Variant 2 — "Cronómetro Técnico".
+ * Variant 2, "Cronómetro Técnico".
  * Horizontal lockup with temporal data on the left and the wordmark on the right.
  */
 export function Cronometro({ size = 64, className }: Props) {

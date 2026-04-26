@@ -41,28 +41,28 @@ export async function generateMetadata({
 const PHASES = [
   {
     n: 1,
-    name: 'Phase 1 — Visa Presale Draw',
+    name: 'Phase 1, Visa Presale Draw',
     when: 'Octubre 2025',
     desc: 'Sorteo aleatorio reservado a titulares de tarjetas Visa.',
     closed: true,
   },
   {
     n: 2,
-    name: 'Phase 2 — Early Ticket Draw',
+    name: 'Phase 2, Early Ticket Draw',
     when: 'Noviembre 2025',
     desc: 'Segundo sorteo aleatorio antes de conocerse el resultado del sorteo de grupos.',
     closed: true,
   },
   {
     n: 3,
-    name: 'Phase 3 — Random Selection Draw',
-    when: 'Diciembre 2025 — enero 2026',
+    name: 'Phase 3, Random Selection Draw',
+    when: 'Diciembre 2025, enero 2026',
     desc: 'Tercer sorteo, ya con grupos conocidos. Asignación de partidos específicos por equipo.',
     closed: true,
   },
   {
     n: 4,
-    name: 'Phase 4 — Last-Minute Sales',
+    name: 'Phase 4, Last-Minute Sales',
     when: 'Desde 1 abril 2026 hasta la final (19 julio)',
     desc:
       'Venta continua por orden de llegada (no sorteo). Precios dinámicos en tiempo real según demanda. Disponibilidad para los 104 partidos sujeta a inventario.',
@@ -75,9 +75,9 @@ const PRICES = [
   { stage: 'Fase de grupos · Cat. 1', from: '300 $', to: '1.200 $', notes: 'Mejor zona del estadio. Cap superior según partido.' },
   { stage: 'Octavos', from: '180 $', to: '1.500 $', notes: 'Variación según partido y sede.' },
   { stage: 'Cuartos', from: '550 $', to: '2.500 $', notes: '' },
-  { stage: 'Semifinales · Cat. 3', from: '930 $', to: '—', notes: 'Cat. 3 desde 930 $; Cat. 1 supera los 4.000 $.' },
+  { stage: 'Semifinales · Cat. 3', from: '930 $', to: '-', notes: 'Cat. 3 desde 930 $; Cat. 1 supera los 4.000 $.' },
   { stage: 'Tercer puesto', from: '300 $', to: '1.500 $', notes: '' },
-  { stage: 'Final · Cat. 3', from: '1.490 $', to: '—', notes: 'Más asequible para la final.' },
+  { stage: 'Final · Cat. 3', from: '1.490 $', to: '-', notes: 'Más asequible para la final.' },
   { stage: 'Final · Cat. 1', from: '6.730 $', to: '7.875 $', notes: 'Tope oficial; reventa supera los 2 M $.' },
 ];
 
@@ -155,7 +155,7 @@ export default async function EntradasPage({
     })),
   };
 
-  // HowTo schema — guía paso a paso para comprar.
+  // HowTo schema, guía paso a paso para comprar.
   const howToLd = {
     '@context': 'https://schema.org',
     '@type': 'HowTo',

@@ -114,7 +114,7 @@ export const GALLERY: GalleryPhoto[] = [
     sourceUrl: wmSrc('Estadio_Centenario_1930.jpg'),
   },
 
-  // ─── 1950 Brasil — Maracanazo ────────────────────────────────
+  // ─── 1950 Brasil, Maracanazo ────────────────────────────────
   {
     id: '1950-varela',
     url: wm('Obdulio_Varela,_Estadio,_1950-07-15_(374).jpg'),
@@ -144,7 +144,7 @@ export const GALLERY: GalleryPhoto[] = [
     sourceUrl: wmSrc('Coupe_Jules_Rimet_-_1930-1970.jpg'),
   },
 
-  // ─── 1958 Suecia — irrupción de Pelé ─────────────────────────
+  // ─── 1958 Suecia, irrupción de Pelé ─────────────────────────
   {
     id: '1958-pele',
     url: wm('Pele_con_brasil_(cropped).jpg'),
@@ -160,7 +160,7 @@ export const GALLERY: GalleryPhoto[] = [
     sourceUrl: wmSrc('Pele_con_brasil_(cropped).jpg'),
   },
 
-  // ─── 1970 México — Brasil eterno ─────────────────────────────
+  // ─── 1970 México, Brasil eterno ─────────────────────────────
   {
     id: '1970-carlos-alberto',
     url: wm('Carlos_Alberto_1970.jpg'),
@@ -190,7 +190,7 @@ export const GALLERY: GalleryPhoto[] = [
     sourceUrl: wmSrc('Estadio_Azteca.jpg'),
   },
 
-  // ─── 1972 — Alemania, antesala del 74 ────────────────────────
+  // ─── 1972, Alemania, antesala del 74 ────────────────────────
   {
     id: '1972-beckenbauer',
     url: wm('Franz_Beckenbauer_1972.jpg'),
@@ -220,7 +220,7 @@ export const GALLERY: GalleryPhoto[] = [
     sourceUrl: wmSrc('Johan_Cruyff_1975.jpg'),
   },
 
-  // ─── 1986 México — Maradona ──────────────────────────────────
+  // ─── 1986 México, Maradona ──────────────────────────────────
   {
     id: '1986-maradona-cup',
     url: wm('Maradona-Mundial_86_con_la_copa.JPG'),
@@ -250,7 +250,7 @@ export const GALLERY: GalleryPhoto[] = [
     sourceUrl: wmSrc('Maradona_diario_cronica_1971_copia.jpg'),
   },
 
-  // ─── 1986/1990 — Lineker ─────────────────────────────────────
+  // ─── 1986/1990, Lineker ─────────────────────────────────────
   {
     id: '1990-lineker',
     url: wm('Gary_Lineker_(cropped).jpg'),
@@ -266,7 +266,7 @@ export const GALLERY: GalleryPhoto[] = [
     sourceUrl: wmSrc('Gary_Lineker_(cropped).jpg'),
   },
 
-  // ─── 2010 Sudáfrica — España campeona ────────────────────────
+  // ─── 2010 Sudáfrica, España campeona ────────────────────────
   {
     id: '2010-spain-cup',
     url: wm('FIFA_World_Cup_2010_Spain_with_cup.jpg'),
@@ -310,7 +310,7 @@ export const GALLERY: GalleryPhoto[] = [
     sourceUrl: wmSrc("2010_FIFA_World_Cup_South_Africa_Algeria_Vs_USA.jpg"),
   },
 
-  // ─── 2014 Brasil — Mineirazo y Maracaná ──────────────────────
+  // ─── 2014 Brasil, Mineirazo y Maracaná ──────────────────────
   {
     id: '2014-mineirao',
     url: wm('Mineirão_2014.jpg'),
@@ -340,7 +340,7 @@ export const GALLERY: GalleryPhoto[] = [
     sourceUrl: wmSrc('Maracanã_2014_b.jpg'),
   },
 
-  // ─── 2018 Rusia — Messi ──────────────────────────────────────
+  // ─── 2018 Rusia, Messi ──────────────────────────────────────
   {
     id: '2018-messi',
     url: wm('Lionel_Messi_2018.jpg'),

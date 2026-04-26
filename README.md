@@ -1,12 +1,12 @@
 # Mundiales de Fútbol
 
-The definitive encyclopedia of the FIFA Men's World Cup — 22 editions from Uruguay 1930 to North America 2026, delivered as a modern, disruptive web app in five languages (ES, EN, PT, FR, AR).
+The definitive encyclopedia of the FIFA Men's World Cup, 22 editions from Uruguay 1930 to North America 2026, delivered as a modern, disruptive web app in five languages (ES, EN, PT, FR, AR).
 
 Three layers running together:
 
-- **Encyclopedia** — tournaments, squads, referees, stadiums, minute-by-minute events.
-- **Editorial** — chronicles, videos (archive.org / YouTube), long reads.
-- **Interactive** — comparators, simulators, quiz, 2026 prediction game.
+- **Encyclopedia**, tournaments, squads, referees, stadiums, minute-by-minute events.
+- **Editorial**, chronicles, videos (archive.org / YouTube), long reads.
+- **Interactive**, comparators, simulators, quiz, 2026 prediction game.
 
 ---
 
@@ -27,7 +27,7 @@ cp .env.example .env.local   # then fill in Supabase URL and keys
 npm run dev
 ```
 
-Open http://localhost:3000 — the default locale (Spanish) serves on `/`, others on `/en`, `/pt`, `/fr`, `/ar`.
+Open http://localhost:3000, the default locale (Spanish) serves on `/`, others on `/en`, `/pt`, `/fr`, `/ar`.
 
 ## Project structure
 
@@ -52,7 +52,7 @@ supabase/
 
 ## Translations
 
-Content lives in `src/messages/{es,en,pt,fr,ar}.json`. Keep the shape consistent across locales. Arabic is RTL — the layout switches `dir="rtl"` automatically.
+Content lives in `src/messages/{es,en,pt,fr,ar}.json`. Keep the shape consistent across locales. Arabic is RTL, the layout switches `dir="rtl"` automatically.
 
 When adding a new key:
 
@@ -74,9 +74,9 @@ Vercel auto-deploys from `main`. Environment variables required in the Vercel da
 
 ## Roadmap
 
-- **Phase 0** ✓ Foundation — scaffold, i18n, theme, static home, DB schema.
-- **Phase 1** — Enciclopedia: ingest Wikidata + Wikipedia for all 22 editions.
-- **Phase 2** — Event-level data via StatsBomb open data.
-- **Phase 3** — Editorial: chronicles + curated archive.org videos.
-- **Phase 4** — Interactive: comparators, quiz, "¿Qué mundial eres?" test.
-- **Phase 5** — 2026 live: realtime match data, AI-generated chronicles, prediction game.
+- **Phase 0** ✓ Foundation, scaffold, i18n, theme, static home, DB schema.
+- **Phase 1**, Enciclopedia: ingest Wikidata + Wikipedia for all 22 editions.
+- **Phase 2**, Event-level data via StatsBomb open data.
+- **Phase 3**, Editorial: chronicles + curated archive.org videos.
+- **Phase 4**, Interactive: comparators, quiz, "¿Qué mundial eres?" test.
+- **Phase 5**, 2026 live: realtime match data, editorial chronicles, prediction game.

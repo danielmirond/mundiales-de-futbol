@@ -77,7 +77,7 @@ function rowToTournament(row: TournamentRow, locale: string): Tournament {
     host: row.host_country,
     hostCode: row.host_countries?.[0] ?? '',
     hostCountries: row.host_countries ?? undefined,
-    champion: row.champion_code ? (TEAM_NAME_ES[row.champion_code] ?? row.champion_code) : '—',
+    champion: row.champion_code ? (TEAM_NAME_ES[row.champion_code] ?? row.champion_code) : '-',
     championCode: row.champion_code ?? 'TBD',
     teams: row.teams ?? 0,
     matches: row.matches_played ?? 0,

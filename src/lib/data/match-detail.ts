@@ -106,6 +106,6 @@ export async function getEventsForMatch(matchId: string): Promise<TimelineEvent[
 }
 
 export function displayName(p: { full_name: string; known_as: string | null } | null): string {
-  if (!p) return '—';
+  if (!p) return '-';
   return p.known_as || p.full_name;
 }

@@ -1,4 +1,4 @@
-// Calendario editorial Mundial 2026 — 54 historias
+// Calendario editorial Mundial 2026, 54 historias
 // Bloque S1: Las frases que definieron a un campeón
 
 export type HistoriaCategory =
@@ -46,7 +46,7 @@ export const CATEGORY_LABELS: Record<HistoriaCategory, string> = {
 };
 
 /**
- * Imagen de portada — Discover-friendly.
+ * Imagen de portada, Discover-friendly.
  * Servimos siempre 1200×675 (16:9) para que Google Discover, Open Graph
  * y Twitter Cards reciban la misma proporción ideal.
  *
@@ -84,7 +84,7 @@ export type Historia = {
 
 export const HISTORIAS: Historia[] = [
   // ═══════════════════════════════════════════════════════════
-  // S1 — Las frases que definieron a un campeón (24-30 abril)
+  // S1, Las frases que definieron a un campeón (24-30 abril)
   // ═══════════════════════════════════════════════════════════
   {
     n: 1,
@@ -98,7 +98,7 @@ export const HISTORIAS: Historia[] = [
     context:
       'Cuartos de final del Mundial de México. Argentina-Inglaterra en el Estadio Azteca. Cuatro años después de la guerra de las Malvinas. Maradona acababa de marcar dos goles en cuatro minutos: el más polémico y el más bello de la historia del fútbol.',
     source: {
-      name: 'Wikipedia — La mano de Dios',
+      name: 'Wikipedia, La mano de Dios',
       url: 'https://es.wikipedia.org/wiki/La_mano_de_Dios',
     },
     sourceSecondary: 'Infobae · La Nación CR · Milenio',
@@ -115,13 +115,13 @@ export const HISTORIAS: Historia[] = [
     },
     body: `El 22 de junio de 1986, en el Estadio Azteca, Diego Armando Maradona marcó dos goles que resumen toda la contradicción del fútbol. El más polémico y el más hermoso de la historia, separados por cuatro minutos, en el mismo partido. Argentina-Inglaterra, cuartos de final del Mundial de México. Para entender la dimensión moral de aquellos diez minutos hay que retroceder cuatro años: en abril de 1982, la junta militar argentina había invadido las islas Malvinas; en junio, el Reino Unido las recuperaba dejando 649 muertos argentinos y 255 británicos. Cuatro años después, los dos países se cruzaban por primera vez en una cancha. Maradona lo dijo con todas las letras tiempo después: «era como matar a un policía».
 
-El primer gol llegó al minuto 51. Steve Hodge despejó mal hacia su área, Maradona saltó contra el portero Peter Shilton —veinte centímetros más alto— y empujó el balón con la mano izquierda. El árbitro tunecino Ali Bin Nasser no lo vio. Su asistente búlgaro, Bogdan Dotchev, tampoco. Maradona corrió a celebrar mirando de reojo a sus compañeros, pidiéndoles con un gesto que le acompañasen para que el gol no se anulara. Sabía perfectamente lo que había hecho.
+El primer gol llegó al minuto 51. Steve Hodge despejó mal hacia su área, Maradona saltó contra el portero Peter Shilton -veinte centímetros más alto- y empujó el balón con la mano izquierda. El árbitro tunecino Ali Bin Nasser no lo vio. Su asistente búlgaro, Bogdan Dotchev, tampoco. Maradona corrió a celebrar mirando de reojo a sus compañeros, pidiéndoles con un gesto que le acompañasen para que el gol no se anulara. Sabía perfectamente lo que había hecho.
 
 Al día siguiente, en rueda de prensa, llegó la frase: «Fue un poco con la cabeza de Maradona y un poco con la mano de Dios». La declaración no fue una disculpa ni una confesión. Fue algo más sofisticado: una mitología construida en tiempo real. Llamar a Dios como cómplice elevaba el asunto fuera del reglamento, fuera del campo, fuera de las posibilidades del periodismo deportivo convencional. Convertía la trampa en relato. Y el relato, en historia.
 
 Lo extraordinario es que ese gol no es siquiera el más recordado del partido. Cuatro minutos más tarde, en el minuto 55, Maradona arrancó desde su propio campo, sorteó a Beardsley, Reid, Butcher, Fenwick, dejó en el sitio a Shilton y empujó el balón hacia la red vacía. 10,8 segundos. La FIFA, en una votación abierta para el centenario, lo eligió Gol del Siglo. El segundo gol redime al primero, pero no lo cancela. Maradona necesitaba ambos: la astucia callejera y el genio puro, el tramposo y el santo.
 
-Cuarenta años después, la frase sigue siendo la más citada de la historia del deporte. Está en libros de filosofía, en clases de retórica, en titulares de prensa que ni siquiera hablan de fútbol. Cuando murió Maradona en noviembre de 2020, L'Équipe la condensó en su portada en tres palabras: «Dieu est mort». Dios ha muerto. La operación funcionó porque Maradona, treinta y cuatro años antes, ya se había nombrado a sí mismo. La Mano de Dios no fue solo una jugada ilegal: fue el momento en que un futbolista cogió el aparato simbólico de la cristiandad —el azar, la providencia, el milagro— y lo trasladó a una cancha de fútbol. Para siempre.`,
+Cuarenta años después, la frase sigue siendo la más citada de la historia del deporte. Está en libros de filosofía, en clases de retórica, en titulares de prensa que ni siquiera hablan de fútbol. Cuando murió Maradona en noviembre de 2020, L'Équipe la condensó en su portada en tres palabras: «Dieu est mort». Dios ha muerto. La operación funcionó porque Maradona, treinta y cuatro años antes, ya se había nombrado a sí mismo. La Mano de Dios no fue solo una jugada ilegal: fue el momento en que un futbolista cogió el aparato simbólico de la cristiandad -el azar, la providencia, el milagro- y lo trasladó a una cancha de fútbol. Para siempre.`,
   },
   {
     n: 2,
@@ -155,7 +155,7 @@ Cuarenta años después, la frase sigue siendo la más citada de la historia del
 
 La memoria colectiva inglesa de aquella noche está fijada por las lágrimas de Paul Gascoigne, llorando antes de los penales porque sabía que, si llegaban a la final, él no la jugaría por estar amonestado. Esa imagen, distribuida por la BBC en directo, cambió la percepción británica del fútbol: el juego dejó de ser cosa de hooligans y se volvió, también, cosa de sentimientos. Pero la frase definitiva no la pronunció ningún periodista, sino un futbolista que tenía 29 años, había sido máximo goleador del Mundial 86 con seis goles y conocía a los alemanes mejor que nadie en su selección.
 
-«El fútbol es un juego simple: 22 hombres persiguen una pelota durante 90 minutos y al final siempre gana Alemania». La frase tenía la elegancia del aforismo —estructura clásica, ritmo binario, golpe de efecto— pero estaba destilada de dolor. Alemania llegaría días después a ganar la final contra Argentina con un penal de Brehme y se confirmaría la regla.
+«El fútbol es un juego simple: 22 hombres persiguen una pelota durante 90 minutos y al final siempre gana Alemania». La frase tenía la elegancia del aforismo -estructura clásica, ritmo binario, golpe de efecto- pero estaba destilada de dolor. Alemania llegaría días después a ganar la final contra Argentina con un penal de Brehme y se confirmaría la regla.
 
 Durante tres décadas, esa cita funcionó como verdad estadística. Alemania había llegado a la final del Mundial en 1966, 1974, 1982, 1986, 1990. Llegaría también en 2002 y 2014. Ganó tres títulos en el periodo (1974, 1990, 2014). En la Eurocopa de 1996, en el propio Wembley, venció a Inglaterra otra vez en penales tras semifinal: «It's coming home», cantaban los ingleses; volvió a Berlín. En 2014 demolió a Brasil 7-1 en Belo Horizonte, en un Mundial brasileño, mejorando casi cualquier metáfora futbolística previa. La profecía de Lineker se cumplía partido tras partido. Cualquier columnista perezoso podía abrir su pieza con una variación: «Como decía Lineker...».
 
@@ -181,7 +181,7 @@ Pero el fútbol también arruina sus propias reglas. En Brasil 2018, Alemania ca
     certainty: 'Alta',
     title: 'Maradona: «quiero volver a nacer y ser Diego Maradona»',
     excerpt:
-      'Una frase de 1992 que Marca rescató como portada el día que murió. La autodefinición más honesta —y más insolente— de un dios.',
+      'Una frase de 1992 que Marca rescató como portada el día que murió. La autodefinición más honesta -y más insolente- de un dios.',
     cover: {
       url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Maradona_diario_cronica_1971_copia.jpg?width=1200',
       alt: 'Maradona niño con un balón, captado por el diario Crónica en noviembre de 1971',
@@ -199,7 +199,7 @@ Cuando Maradona murió el 25 de noviembre de 2020 en Tigre, los diarios del mund
 
 La elección no fue sentimental. Fue periodísticamente exacta. Ningún panegírico podía competir con la franqueza salvaje de aquella declaración: la única persona autorizada para juzgar la vida de Maradona era Maradona, y él ya había votado. Lo haría todo igual. La frase explica el barrio de Villa Fiorito, las drogas, los hijos no reconocidos, los años en Cuba en el centro de rehabilitación de Fidel, los goles imposibles, la mano contra los ingleses, las apariciones televisivas erráticas, la dirección del seleccionado argentino en 2010. Lo asume todo en una sola línea. Si tuviera que volver, volvería igual.
 
-Hay una segunda lectura, más política, que también merece ser dicha. Maradona se nombró a sí mismo en una época —los noventa— en la que el periodismo deportivo todavía no se atrevía a tratarlo como un personaje literario completo. Antes de Marca y de L'Équipe, el propio Diego se había reconocido como leyenda. Lo extraordinario es que tuviera razón. Volvió a ser él mismo durante treinta años más. Y cuando se fue, se fue habiendo escrito ya la portada.`,
+Hay una segunda lectura, más política, que también merece ser dicha. Maradona se nombró a sí mismo en una época -los noventa- en la que el periodismo deportivo todavía no se atrevía a tratarlo como un personaje literario completo. Antes de Marca y de L'Équipe, el propio Diego se había reconocido como leyenda. Lo extraordinario es que tuviera razón. Volvió a ser él mismo durante treinta años más. Y cuando se fue, se fue habiendo escrito ya la portada.`,
   },
   {
     n: 4,
@@ -230,7 +230,7 @@ Hay una segunda lectura, más política, que también merece ser dicha. Maradona
     },
     body: `El Gol del Siglo dura 10,8 segundos en el reloj. Maradona arranca desde su propio campo, sortea a Peter Beardsley y Peter Reid en mediocampo, encara a Terry Butcher, lo deja en el sitio, finta sobre Terry Fenwick y a continuación deja también atrás a Butcher, que vuelve corriendo. Llega al área, encara a Peter Shilton, abre el cuerpo y empuja el balón con el interior del pie izquierdo a la red vacía. Es el 22 de junio de 1986, minuto 55 del Argentina-Inglaterra. Cuatro minutos después de la Mano de Dios. La FIFA lo elegiría dieciséis años después como Gol del Siglo en una votación abierta entre aficionados de todo el mundo.
 
-Pero el gol no termina cuando entra. Termina cuando Víctor Hugo Morales, narrador uruguayo radicado en Argentina, encuentra las palabras desde la cabina de Radio Argentina. La narración empieza con la elevación de la voz a medida que Maradona avanza —«la tiene Maradona, lo marcan dos, pisa la pelota Maradona, arranca por la derecha el genio del fútbol mundial»— y se convierte progresivamente en un torrente: «deja al tercero y va a tocar para Burruchaga... ¡siempre Maradona! ¡Genio! ¡Genio! ¡Genio! ta-ta-ta-ta-ta-ta-ta». Cuando el balón entra: «Gooool. Gooool. ¡Quiero llorar, Dios santo! ¡Viva el fútbol! Golazooo, Diegoool, Maradonaaa».
+Pero el gol no termina cuando entra. Termina cuando Víctor Hugo Morales, narrador uruguayo radicado en Argentina, encuentra las palabras desde la cabina de Radio Argentina. La narración empieza con la elevación de la voz a medida que Maradona avanza -«la tiene Maradona, lo marcan dos, pisa la pelota Maradona, arranca por la derecha el genio del fútbol mundial»- y se convierte progresivamente en un torrente: «deja al tercero y va a tocar para Burruchaga... ¡siempre Maradona! ¡Genio! ¡Genio! ¡Genio! ta-ta-ta-ta-ta-ta-ta». Cuando el balón entra: «Gooool. Gooool. ¡Quiero llorar, Dios santo! ¡Viva el fútbol! Golazooo, Diegoool, Maradonaaa».
 
 Y entonces, después del rugido, viene la pregunta que sobreviviría al partido: «Es para llorar, perdónenme. Maradona, en una corrida memorable, en la jugada de todos los tiempos. Barrilete cósmico, ¿de qué planeta viniste para dejar en el camino a tanto inglés, para que el país sea un puño apretado gritando por Argentina?». La narración entera dura unos cincuenta y cinco segundos. Es el equivalente futbolístico de un texto literario de un solo aliento.
 
@@ -267,15 +267,15 @@ Cuarenta años después, el audio sigue circulando en su versión original o rem
       license: 'Dominio público',
       source: 'https://commons.wikimedia.org/wiki/File:Maradona_con_equipo_argentinos_jrs_1972.jpg',
     },
-    body: `Maradona llegó a USA 94 más delgado que nunca. Tenía 33 años, había pasado la suspensión por cocaína de 1991-92, había vuelto a entrenarse con su preparador físico personal Daniel Cerrini —no era el médico de la selección— y se presentaba al Mundial con una composición corporal imposible para alguien con su historial de excesos. Antes del torneo, en una entrevista, había advertido medio en broma medio en serio: «Si juego mal, pueden criticarme; si juego bien, también, pero ahora no se puede tirar abajo todo lo que estoy haciendo». La frase ya tenía un tono defensivo. Algo iba a pasar.
+    body: `Maradona llegó a USA 94 más delgado que nunca. Tenía 33 años, había pasado la suspensión por cocaína de 1991-92, había vuelto a entrenarse con su preparador físico personal Daniel Cerrini -no era el médico de la selección- y se presentaba al Mundial con una composición corporal imposible para alguien con su historial de excesos. Antes del torneo, en una entrevista, había advertido medio en broma medio en serio: «Si juego mal, pueden criticarme; si juego bien, también, pero ahora no se puede tirar abajo todo lo que estoy haciendo». La frase ya tenía un tono defensivo. Algo iba a pasar.
 
 Cerrini había diseñado un cóctel personalizado para que Maradona pudiera competir con el peso recuperado. Incluía efedrina, una sustancia que la FIFA había tolerado durante los años ochenta y que aplicaba ahora con criterios más estrictos. Hay versiones contradictorias sobre si Maradona conocía exactamente la composición de lo que tomaba. Lo que es seguro es que el médico oficial de la selección, Roberto Peidró, no estaba en el bucle.
 
 El primer partido contra Grecia, 25 de junio de 1994 en Foxborough, terminó 3-0. Maradona marcó al minuto 60 un gol espectacular: zurdazo cruzado desde la frontal, ángulo perfecto, celebración rabiosa frente a la cámara con los ojos abiertos como un poseído, gritando algo inaudible. La imagen, que daría la vuelta al mundo, condensa una década de la carrera de Diego: la furia y la genialidad indistinguibles. Cuatro días después, tras Argentina-Nigeria (2-1), llegó el control antidopaje. Maradona ya no aparecería en cancha. La FIFA lo retiró del Mundial.
 
-«No me drogué. Me cortaron las piernas». La frase es tan precisa que duele. Maradona no negaba la sustancia. Negaba la intención. Cortar las piernas a un futbolista es una metáfora boxística —Sandy Saddler hizo eso a Willie Pep en sus cuatro peleas históricas de 1948-1951—, pero también es una imagen de mutilación pura. La frase reposicionaba a Maradona como víctima, no como tramposo: alguien le había hecho algo, alguien tenía interés en sacarlo, alguien le había puesto la sustancia o no le había avisado. La FIFA, según esa versión, era el cirujano. Y en parte tenía razón.
+«No me drogué. Me cortaron las piernas». La frase es tan precisa que duele. Maradona no negaba la sustancia. Negaba la intención. Cortar las piernas a un futbolista es una metáfora boxística -Sandy Saddler hizo eso a Willie Pep en sus cuatro peleas históricas de 1948-1951-, pero también es una imagen de mutilación pura. La frase reposicionaba a Maradona como víctima, no como tramposo: alguien le había hecho algo, alguien tenía interés en sacarlo, alguien le había puesto la sustancia o no le había avisado. La FIFA, según esa versión, era el cirujano. Y en parte tenía razón.
 
-Argentina, sin Maradona, perdió contra Rumania en octavos (3-2) y se fue a casa. Hagi y Petrescu, quizá las dos últimas grandes generaciones rumanas, jugaron un Mundial de manual. Pero la imagen que quedó no fue la victoria rumana, sino el Maradona ausente. La selección argentina sin él volvió a ser, durante doce años, una colección de jugadores de talento esperando otro líder. Lo encontrarían sólo en 2010, con Messi —aunque entonces el entrenador era el propio Diego, y la cosa terminó otra vez en desastre.
+Argentina, sin Maradona, perdió contra Rumania en octavos (3-2) y se fue a casa. Hagi y Petrescu, quizá las dos últimas grandes generaciones rumanas, jugaron un Mundial de manual. Pero la imagen que quedó no fue la victoria rumana, sino el Maradona ausente. La selección argentina sin él volvió a ser, durante doce años, una colección de jugadores de talento esperando otro líder. Lo encontrarían sólo en 2010, con Messi -aunque entonces el entrenador era el propio Diego, y la cosa terminó otra vez en desastre.
 
 La frase se ha citado durante treinta años como cierre de una trayectoria épica. Pero también funciona como anuncio del Maradona posterior: el comentarista de televisión, el director técnico de Argentina en 2010, el hombre cada vez más roto que aparecía y desaparecía de la escena pública. A partir de 1994, el barrilete cósmico ya no jugaría. Solo recordaría que había jugado. Quizá por eso esta frase, más que la Mano de Dios o el Barrilete cósmico, es la que mejor explica al Diego de las dos últimas décadas: la víctima orgullosa que aceptaba la culpa pero exigía un culpable.`,
   },
@@ -291,7 +291,7 @@ La frase se ha citado durante treinta años como cierre de una trayectoria épic
     context:
       'Una de las 18 mejores frases de Cruyff seleccionadas por Panenka en abril de 2024. Resume la filosofía del fútbol total y el cruyffismo aplicado en el Barça de los noventa.',
     source: {
-      name: 'Panenka — 18 mejores frases de Cruyff',
+      name: 'Panenka, 18 mejores frases de Cruyff',
       url: 'https://www.panenka.org/pasaportes/en-un-momento-dado-las-18-mejores-frases-de-cruyff/',
     },
     sourceSecondary: 'Depor Perú · Revista Líbero',
@@ -312,9 +312,9 @@ Lo simple, para Cruyff, no era el fútbol básico. Era el fútbol decantado. Pas
 
 En Holanda, esa idea había nacido a finales de los sesenta con Rinus Michels en el Ajax. Total Football: cualquier jugador podía ocupar cualquier posición durante el partido, siempre que mantuviera la geometría del equipo. Cruyff fue el primer ejecutor del método sobre la cancha, y luego el primer apóstol de su filosofía como entrenador. Ganó la Eurocopa de 1988 con la Holanda de Van Basten, Gullit y Rijkaard. En 1989 llegó a Barcelona como técnico y refundó el club: el Dream Team de 1991-94 ganó cuatro Ligas seguidas y la primera Copa de Europa de la historia del Barça en Wembley, 1992. La filosofía pasó luego de Cruyff a Frank Rijkaard, de Rijkaard a Guardiola y, con Guardiola, al Bayern de Múnich, al Manchester City y, por reverberación, a casi todos los equipos europeos serios.
 
-España lo llevó al Mundial 2010 y lo ganó: ocho partidos, ocho goles a favor, dos en contra. Tiki-taka. Un equipo que jugaba como si fuera fácil. Andrés Iniesta, alumno de Guardiola, alumno de Cruyff, marcó el gol de la final en el minuto 116 de la prórroga contra Holanda —la propia patria del método, ironías del fútbol—. Cuando España revalidó la Eurocopa en 2012 con un 4-0 a Italia, Cruyff dijo en una columna que era «el equipo más cercano al fútbol total que se había visto desde el Ajax de Michels». Era su forma de aceptar la herencia.
+España lo llevó al Mundial 2010 y lo ganó: ocho partidos, ocho goles a favor, dos en contra. Tiki-taka. Un equipo que jugaba como si fuera fácil. Andrés Iniesta, alumno de Guardiola, alumno de Cruyff, marcó el gol de la final en el minuto 116 de la prórroga contra Holanda -la propia patria del método, ironías del fútbol-. Cuando España revalidó la Eurocopa en 2012 con un 4-0 a Italia, Cruyff dijo en una columna que era «el equipo más cercano al fútbol total que se había visto desde el Ajax de Michels». Era su forma de aceptar la herencia.
 
-Cuando Cruyff dijo aquello —en alguna entrevista perdida de los años noventa, durante su segunda etapa como entrenador del Barça— estaba justificando lo que se llamaba en su época un Barça aburrido. La gente decía que tocaba demasiado. Cruyff respondía que tocaban poco; que tocar bien siempre cuesta más que arriesgarse en una contra; que el verdadero esfuerzo está en aceptar que la jugada se haga en cinco pases en lugar de en uno. La paciencia colectiva como virtud técnica.
+Cuando Cruyff dijo aquello -en alguna entrevista perdida de los años noventa, durante su segunda etapa como entrenador del Barça- estaba justificando lo que se llamaba en su época un Barça aburrido. La gente decía que tocaba demasiado. Cruyff respondía que tocaban poco; que tocar bien siempre cuesta más que arriesgarse en una contra; que el verdadero esfuerzo está en aceptar que la jugada se haga en cinco pases en lugar de en uno. La paciencia colectiva como virtud técnica.
 
 La frase funciona también como autorretrato. Cruyff fue jugador y técnico durante cuarenta años. Hizo carrera entera de jugar simple, de pasar simple, de ordenar simple. Por eso fue Cruyff. Y por eso, ocho años después de su muerte, sigue siendo el filósofo más citado del fútbol europeo. Panenka, en su listado de las dieciocho frases canónicas publicado en abril de 2024, la incluyó como número uno. Es difícil no estar de acuerdo.`,
   },
@@ -334,7 +334,7 @@ La frase funciona también como autorretrato. Cruyff fue jugador y técnico dura
       name: 'Jot Down Cultural Magazine',
       url: 'https://www.jotdown.es/2014/02/mundial-1950-el-drama-de-maracana/',
     },
-    sourceSecondary: 'Toni Padilla — Mundial 1950 (Editorial Panenka)',
+    sourceSecondary: 'Toni Padilla, Mundial 1950 (Editorial Panenka)',
     certainty: 'Media-Alta',
     title: 'Obdulio Varela: el capitán que prefería perder el Maracanazo',
     excerpt:
@@ -346,11 +346,11 @@ La frase funciona también como autorretrato. Cruyff fue jugador y técnico dura
       license: 'Dominio público',
       source: 'https://commons.wikimedia.org/wiki/File:Obdulio_Varela,_Estadio,_1950-07-15_(374).jpg',
     },
-    body: `Obdulio Varela tenía 33 años el 16 de julio de 1950. Era el capitán de Uruguay, mediocampista del Peñarol, hijo de un peón rural negro y una empleada doméstica blanca. Había crecido entre dos mundos, los dos pobres. Según los testigos, era el único hombre que parecía tranquilo cuando empezó la final del Mundial de Brasil contra el equipo local. El estadio Maracaná, recién inaugurado, estaba lleno con 173.850 personas oficialmente —según otras fuentes, casi 200.000—, en su mayoría brasileños esperando el primer título mundial de su selección. Las portadas de los diarios brasileños del día anterior ya celebraban la victoria. Jules Rimet, presidente de la FIFA, llevaba en el bolsillo un discurso preparado en portugués para felicitar al equipo brasileño.
+    body: `Obdulio Varela tenía 33 años el 16 de julio de 1950. Era el capitán de Uruguay, mediocampista del Peñarol, hijo de un peón rural negro y una empleada doméstica blanca. Había crecido entre dos mundos, los dos pobres. Según los testigos, era el único hombre que parecía tranquilo cuando empezó la final del Mundial de Brasil contra el equipo local. El estadio Maracaná, recién inaugurado, estaba lleno con 173.850 personas oficialmente -según otras fuentes, casi 200.000-, en su mayoría brasileños esperando el primer título mundial de su selección. Las portadas de los diarios brasileños del día anterior ya celebraban la victoria. Jules Rimet, presidente de la FIFA, llevaba en el bolsillo un discurso preparado en portugués para felicitar al equipo brasileño.
 
-A Uruguay le bastaba con un empate para ser campeón —el formato de aquel Mundial era una liguilla final entre cuatro equipos, no eliminatorias—, pero el favoritismo brasileño era abrumador: en los partidos previos, Brasil había goleado 7-1 a Suecia y 6-1 a España. Uruguay había empatado contra España y ganado raspado a Suecia. Pocos apostaban por la celeste.
+A Uruguay le bastaba con un empate para ser campeón -el formato de aquel Mundial era una liguilla final entre cuatro equipos, no eliminatorias-, pero el favoritismo brasileño era abrumador: en los partidos previos, Brasil había goleado 7-1 a Suecia y 6-1 a España. Uruguay había empatado contra España y ganado raspado a Suecia. Pocos apostaban por la celeste.
 
-Brasil empezó ganando con gol de Friaça al minuto 2 del segundo tiempo (47'). Varela cogió el balón después del gol y caminó al centro del campo solo, despacio, sin levantar la cabeza. Es el gesto que cuenta la leyenda con más detalle: discutió con el árbitro inglés George Reader sobre un supuesto fuera de juego —no lo había—, ganó tres minutos de protesta, calmó a sus compañeros. La protesta fue una estratagema. Permitió que se enfriara el rugido del estadio. Cuando se reanudó el juego, Brasil ya no jugaba con la confianza del primer cuarto de hora. Schiaffino empató al 66 con un disparo que dejó a Barbosa sin reacción. Ghiggia, extremo derecho que ya había marcado contra Suecia y España, marcó el segundo al 79 tras una pared con Pérez. Maracanazo.
+Brasil empezó ganando con gol de Friaça al minuto 2 del segundo tiempo (47'). Varela cogió el balón después del gol y caminó al centro del campo solo, despacio, sin levantar la cabeza. Es el gesto que cuenta la leyenda con más detalle: discutió con el árbitro inglés George Reader sobre un supuesto fuera de juego -no lo había-, ganó tres minutos de protesta, calmó a sus compañeros. La protesta fue una estratagema. Permitió que se enfriara el rugido del estadio. Cuando se reanudó el juego, Brasil ya no jugaba con la confianza del primer cuarto de hora. Schiaffino empató al 66 con un disparo que dejó a Barbosa sin reacción. Ghiggia, extremo derecho que ya había marcado contra Suecia y España, marcó el segundo al 79 tras una pared con Pérez. Maracanazo.
 
 El silencio del Maracaná tras el gol de Ghiggia fue, según el cronista uruguayo Carlos Solé, «el silencio más largo del fútbol mundial». Hubo desmayos en las tribunas. Hubo, después del partido, dos infartos en el estadio. La pelota fue cogida por Ghiggia y guardada como reliquia. Jules Rimet, que había bajado al campo con la copa, no encontraba a nadie de la organización brasileña que le indicase a quién entregársela. La leyenda dice que la entregó a Varela «casi a escondidas», sin discurso, sin micrófono, en mitad del campo. La copa volvió a Sudamérica.
 

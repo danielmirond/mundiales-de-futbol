@@ -91,11 +91,11 @@ export async function MatchesList({
                     </div>
                     <div className="flex items-center gap-2 font-display text-3xl tab-num text-[var(--color-fg)] md:text-4xl">
                       <span className={m.winner_code === m.home_code ? '' : 'opacity-60'}>
-                        {m.home_score ?? '—'}
+                        {m.home_score ?? '-'}
                       </span>
                       <span className="text-[var(--color-fg-subtle)]">·</span>
                       <span className={m.winner_code === m.away_code ? '' : 'opacity-60'}>
-                        {m.away_score ?? '—'}
+                        {m.away_score ?? '-'}
                       </span>
                     </div>
                     <div className="flex items-center gap-3">
@@ -115,7 +115,7 @@ export async function MatchesList({
                   {(m.home_score_pk !== null || m.referee?.full_name) && (
                     <div className="flex items-center justify-between text-[10px] uppercase tracking-[0.2em] text-[var(--color-fg-subtle)] font-mono">
                       {m.home_score_pk !== null && m.away_score_pk !== null ? (
-                        <span>Penales {m.home_score_pk}—{m.away_score_pk}</span>
+                        <span>Penales {m.home_score_pk}-{m.away_score_pk}</span>
                       ) : (
                         <span />
                       )}

@@ -87,7 +87,7 @@ export default async function MasRojasPage({
           Más<br />expulsados
         </h1>
         <p className="mt-6 max-w-3xl text-lg leading-relaxed text-[var(--color-fg-muted)] md:text-xl">
-          La roja en un Mundial es casi siempre el final de un torneo. Solo unos pocos jugadores han sido expulsados en distintas ediciones —Rigobert Song es el caso más conocido—. Aquí están todos.
+          La roja en un Mundial es casi siempre el final de un torneo. Solo unos pocos jugadores han sido expulsados en distintas ediciones -Rigobert Song es el caso más conocido-. Aquí están todos.
         </p>
       </header>
 

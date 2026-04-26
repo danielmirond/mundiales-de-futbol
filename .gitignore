@@ -34,8 +34,11 @@ yarn-error.log*
 .env*
 !.env.example
 
-# Claude Code local preview config (worktree-specific)
+# local editor / preview configs
 .claude/
+.cursor/
+.aider*
+.continue/
 
 # vercel
 .vercel

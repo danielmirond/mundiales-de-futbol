@@ -59,10 +59,10 @@ export async function generateMetadata({
 
   // Patrón confirmado:
   //   normal: "Argentina - Inglaterra | Mundial México 1986 partido de cuartos"
-  //   iconic: "La Mano de Dios — Argentina 2-1 Inglaterra | Mundial 1986"
+  //   iconic: "La Mano de Dios, Argentina 2-1 Inglaterra | Mundial 1986"
   const iconic = getIconicName(tournament.year, matchNumber);
   const title = iconic
-    ? `${iconic} — ${home} ${score} ${away} | Mundial ${tournament.year}`
+    ? `${iconic}, ${home} ${score} ${away} | Mundial ${tournament.year}`
     : `${home} - ${away} | Mundial ${tournament.host} ${tournament.year} partido de ${stageLower}`;
   const description = iconic
     ? `${iconic}: ${home} ${score} ${away} en ${stage} del Mundial ${tournament.year} (${tournament.host}). Alineaciones, goles, eventos minuto a minuto y crónica del partido.`
@@ -195,11 +195,11 @@ export default async function MatchDetailPage({
             </Link>
             <div className="flex items-center gap-3 font-display text-6xl tab-num text-[var(--color-fg)] md:text-8xl">
               <span className={match.winner_code === match.home_code ? '' : 'opacity-60'}>
-                {match.home_score ?? '—'}
+                {match.home_score ?? '-'}
               </span>
               <span className="text-[var(--color-fg-subtle)]">·</span>
               <span className={match.winner_code === match.away_code ? '' : 'opacity-60'}>
-                {match.away_score ?? '—'}
+                {match.away_score ?? '-'}
               </span>
             </div>
             <Link
@@ -215,7 +215,7 @@ export default async function MatchDetailPage({
 
           {match.home_score_pk !== null && match.away_score_pk !== null && (
             <div className="mt-4 text-center font-mono text-xs uppercase tracking-widest text-[var(--color-pitch)]">
-              Penales {match.home_score_pk}—{match.away_score_pk}
+              Penales {match.home_score_pk}-{match.away_score_pk}
             </div>
           )}
 

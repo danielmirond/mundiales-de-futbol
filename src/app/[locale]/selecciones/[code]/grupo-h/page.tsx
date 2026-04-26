@@ -285,7 +285,7 @@ export default async function GrupoHPage({
                     {p.matchday}
                   </span>
                   <h3 className="font-display text-2xl uppercase text-[var(--color-fg)] md:text-3xl">
-                    España {p.home ? 'vs' : '—'} {p.rival}
+                    España {p.home ? 'vs' : '-'} {p.rival}
                   </h3>
                 </div>
                 <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-pitch)]">

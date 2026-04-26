@@ -7,7 +7,7 @@
     "bg": {
       "value": "#05060A",
       "type": "color",
-      "description": "Fondo principal — negro profundo con tinte azul."
+      "description": "Fondo principal, negro profundo con tinte azul."
     },
     "bg-2": {
       "value": "#0B0D14",
@@ -53,12 +53,12 @@
     "flame": {
       "value": "#FF3B3B",
       "type": "color",
-      "description": "Rojo vibrante — tarjetas rojas, destacados urgentes."
+      "description": "Rojo vibrante, tarjetas rojas, destacados urgentes."
     },
     "sun": {
       "value": "#FFD400",
       "type": "color",
-      "description": "Amarillo — tarjetas amarillas, retro, acento."
+      "description": "Amarillo, tarjetas amarillas, retro, acento."
     }
   },
   "typography": {

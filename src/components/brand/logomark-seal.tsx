@@ -7,7 +7,7 @@ type Props = {
 };
 
 /**
- * Variant 1 — "Sello Técnico de Datos".
+ * Variant 1, "Sello Técnico de Datos".
  * Chronograph-bezel inspired circle mark with 60 tick marks around the rim,
  * filled green disc, and the "22" numeral in bold display type.
  */
@@ -20,7 +20,7 @@ export function LogomarkSeal({ size = 48, className, variant = 'solid' }: Props)
       height={size}
       viewBox="0 0 200 200"
       role="img"
-      aria-label="Mundiales de Fútbol — 22 ediciones"
+      aria-label="Mundiales de Fútbol, 22 ediciones"
       className={cn('block', className)}
     >
       {/* Tick marks around the rim */}

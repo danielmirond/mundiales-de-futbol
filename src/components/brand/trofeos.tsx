@@ -3,7 +3,7 @@ import { cn } from '@/lib/utils';
 type Props = { size?: number; className?: string; showLabel?: boolean };
 
 /**
- * Variant 4 — "Trofeos Neón".
+ * Variant 4, "Trofeos Neón".
  * Original SVG shapes from the brand kit zip, rendered in neon green
  * outline with a soft glow drop-shadow.
  */
@@ -14,7 +14,7 @@ export function Trofeos({ size = 260, className, showLabel = true }: Props) {
         className="flex items-end gap-5"
         style={{ filter: 'drop-shadow(0 0 14px rgba(0,255,133,0.45))' }}
       >
-        {/* Trophy A — Jules Rimet silhouette */}
+        {/* Trophy A, Jules Rimet silhouette */}
         <svg
           width={size * 0.42}
           height={size * 0.68}
@@ -36,7 +36,7 @@ export function Trofeos({ size = 260, className, showLabel = true }: Props) {
           <path d="M26 20 L42 20" opacity="0.5" />
         </svg>
 
-        {/* Trophy B — modern FIFA World Cup silhouette */}
+        {/* Trophy B, modern FIFA World Cup silhouette */}
         <svg
           width={size * 0.42}
           height={size * 0.68}

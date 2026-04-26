@@ -82,7 +82,7 @@ export default async function NorthAmerica2026Page({
       'Primer Mundial con 48 selecciones, organizado por Estados Unidos, México y Canadá del 11 de junio al 19 de julio de 2026.',
   };
 
-  // FAQPage schema — preguntas de alto volumen relacionadas con el Mundial 2026.
+  // FAQPage schema, preguntas de alto volumen relacionadas con el Mundial 2026.
   // Las respuestas también se renderizan visualmente abajo (FAQ visible).
   const faq = [
     {
@@ -322,10 +322,10 @@ export default async function NorthAmerica2026Page({
         </h2>
 
         <div className="mt-10 grid gap-px bg-[var(--color-border)] overflow-hidden rounded-3xl border border-[var(--color-border)] md:grid-cols-5">
-          <Phase label="Fase de grupos"    dates="11 — 27 jun" count="72 partidos" />
-          <Phase label="R32 (nueva)"       dates="28 jun — 3 jul" count="16 partidos" />
-          <Phase label="Octavos / Cuartos" dates="4 — 11 jul" count="12 partidos" />
-          <Phase label="Semifinales"       dates="14 — 15 jul" count="2 partidos" />
+          <Phase label="Fase de grupos"    dates="11, 27 jun" count="72 partidos" />
+          <Phase label="R32 (nueva)"       dates="28 jun, 3 jul" count="16 partidos" />
+          <Phase label="Octavos / Cuartos" dates="4, 11 jul" count="12 partidos" />
+          <Phase label="Semifinales"       dates="14, 15 jul" count="2 partidos" />
           <Phase label="Tercero / Final"   dates={`${PHASE_DATES.thirdPlace.slice(8)} y ${PHASE_DATES.final.slice(8)} jul`} count="2 partidos" highlight />
         </div>
 
@@ -342,7 +342,7 @@ export default async function NorthAmerica2026Page({
       <WC2026Bracket />
       <WC2026Calendar locale={locale as Locale} />
 
-      {/* FAQ — preguntas de alto volumen sobre el Mundial 2026.
+      {/* FAQ, preguntas de alto volumen sobre el Mundial 2026.
           Empareja con FAQPage JSON-LD para captar Rich Snippets. */}
       <section className="mx-auto w-full max-w-[1100px] px-6 py-20 md:px-10 md:py-28">
         <div className="font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-pitch)]">

@@ -152,7 +152,7 @@ export default async function SelectionsIndexPage({
                     </Link>
                   </td>
                   <td className="p-4 hidden md:table-cell font-mono text-xs text-[var(--color-fg-muted)]">
-                    {t.confederation ?? '—'}
+                    {t.confederation ?? '-'}
                   </td>
                   <td className="p-4 text-right tab-num text-[var(--color-fg)]">{t.wc_count}</td>
                   <td className="p-4 text-right tab-num text-[var(--color-fg)]">{t.matches_played}</td>
@@ -166,7 +166,7 @@ export default async function SelectionsIndexPage({
                     {t.runners_up > 0 ? (
                       <span className="text-[var(--color-sun)]">{t.runners_up}</span>
                     ) : (
-                      <span className="text-[var(--color-fg-subtle)]">—</span>
+                      <span className="text-[var(--color-fg-subtle)]">-</span>
                     )}
                   </td>
                 </tr>

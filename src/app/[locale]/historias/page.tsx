@@ -111,7 +111,7 @@ export default async function HistoriasIndex({
     <div className="pt-32">
       <header className="mx-auto w-full max-w-[1400px] px-6 md:px-10">
         <div className="font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-pitch)]">
-          Calendario editorial · 24 abr — 30 jul 2026
+          Calendario editorial · 24 abr, 30 jul 2026
         </div>
         <h1 className="mt-4 font-display text-fluid-display uppercase leading-[0.9]">
           Historias del<br />Mundial

@@ -46,7 +46,7 @@ export function Hero() {
         <div className="absolute inset-0 bg-gradient-to-b from-[var(--color-bg)]/30 via-[var(--color-bg)]/50 to-[var(--color-bg)]" />
       </div>
 
-      {/* Floating trofeos mark — top right of hero, subtle */}
+      {/* Floating trofeos mark, top right of hero, subtle */}
       <div className="pointer-events-none absolute right-6 top-24 z-0 hidden opacity-60 md:block md:right-10 md:top-32 lg:opacity-80">
         <Trofeos size={280} showLabel={false} />
       </div>

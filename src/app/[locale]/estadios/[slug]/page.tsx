@@ -156,11 +156,11 @@ export default async function StadiumDetailPage({
           <Stat label="Mundiales" value={String(years.length)} />
           <Stat
             label="Asistencia total"
-            value={totalAttendance > 0 ? format.number(totalAttendance) : '—'}
+            value={totalAttendance > 0 ? format.number(totalAttendance) : '-'}
           />
           <Stat
             label="Años"
-            value={years.length ? `${years[0]}–${years[years.length - 1]}` : '—'}
+            value={years.length ? `${years[0]}–${years[years.length - 1]}` : '-'}
             small
           />
         </div>
@@ -180,7 +180,7 @@ export default async function StadiumDetailPage({
           </dt>
           <dd className="flex items-center gap-2">
             <MapPin className="h-4 w-4 text-[var(--color-fg-muted)]" />
-            {venue.city?.trim() ?? '—'}, {venue.country_code ?? '—'}
+            {venue.city?.trim() ?? '-'}, {venue.country_code ?? '-'}
           </dd>
           {venue.latitude && venue.longitude && (
             <>
@@ -222,7 +222,7 @@ export default async function StadiumDetailPage({
                   <div className="flex items-center gap-3 font-display text-xl md:text-2xl">
                     <span className="flex-1 truncate text-end">{m.home_code}</span>
                     <span className="font-mono tab-num">
-                      {m.home_score ?? '—'} — {m.away_score ?? '—'}
+                      {m.home_score ?? '-'}, {m.away_score ?? '-'}
                     </span>
                     <span className="flex-1 truncate">{m.away_code}</span>
                   </div>

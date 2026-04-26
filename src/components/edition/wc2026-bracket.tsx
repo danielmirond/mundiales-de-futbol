@@ -19,7 +19,7 @@ function slotsForStage(stage: string): Slot[] {
 }
 
 /**
- * Stylised KO bracket — R32 → R16 → QF → SF → Final.
+ * Stylised KO bracket, R32 → R16 → QF → SF → Final.
  * 3rd place sits separately below the main graph.
  * SVG-based, responsive via viewBox.
  */
@@ -208,10 +208,10 @@ export function WC2026Bracket() {
 
           {/* Column headers */}
           {[
-            { x: colX[0] + colWidth / 2, label: 'R32 · 28 JUN — 3 JUL' },
-            { x: colX[1] + colWidth / 2, label: 'OCTAVOS · 4 — 7 JUL' },
-            { x: colX[2] + colWidth / 2, label: 'CUARTOS · 9 — 11 JUL' },
-            { x: colX[3] + colWidth / 2, label: 'SEMIS · 14 — 15 JUL' },
+            { x: colX[0] + colWidth / 2, label: 'R32 · 28 JUN, 3 JUL' },
+            { x: colX[1] + colWidth / 2, label: 'OCTAVOS · 4, 7 JUL' },
+            { x: colX[2] + colWidth / 2, label: 'CUARTOS · 9, 11 JUL' },
+            { x: colX[3] + colWidth / 2, label: 'SEMIS · 14, 15 JUL' },
             { x: colX[4] + colWidth / 2, label: 'FINAL' },
           ].map((h, i) => (
             <text

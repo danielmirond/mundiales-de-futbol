@@ -19,7 +19,7 @@ function formationLabel(g: Record<Cat, LineupPlayer[]>) {
   const df = g.DF.length;
   const mf = g.MF.length;
   const fw = g.FW.length;
-  if (df + mf + fw === 0) return '—';
+  if (df + mf + fw === 0) return '-';
   return [df, mf, fw].filter((n) => n > 0).join('-');
 }
 

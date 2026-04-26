@@ -156,7 +156,7 @@ export default async function SelectionDetailPage({
             <span className="text-6xl md:text-7xl">{team.flag_emoji ?? '🏳️'}</span>
             <div>
               <div className="font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-pitch)]">
-                {team.confederation ?? '—'} · {team.code}
+                {team.confederation ?? '-'} · {team.code}
               </div>
               <h1 className="mt-2 font-display text-fluid-display uppercase leading-[0.9]">
                 {teamDisplayName(team)}
@@ -292,7 +292,7 @@ export default async function SelectionDetailPage({
                       <div className="flex items-center gap-3">
                         <ResultChip result={m.result} />
                         <span className="font-mono text-base tab-num">
-                          {m.team_score ?? '—'} — {m.opponent_score ?? '—'}
+                          {m.team_score ?? '-'}, {m.opponent_score ?? '-'}
                         </span>
                         <span className="ml-auto font-medium text-[var(--color-fg)]">
                           vs {m.opponent_code}
@@ -307,14 +307,14 @@ export default async function SelectionDetailPage({
         </div>
       </section>
 
-      {/* Galería de fotos icónicas (si hay) — Wikimedia Commons curado */}
+      {/* Galería de fotos icónicas (si hay), Wikimedia Commons curado */}
       <TeamPhotoGallery teamCode={team.code} teamName={teamDisplayName(team)} locale={locale} />
 
-      {/* Productos relacionados Amazon (si hay) — afiliados */}
+      {/* Productos relacionados Amazon (si hay), afiliados */}
       <AmazonProductGrid
         products={getProductsByTeam(team.code)}
         title={`Comprar ${teamDisplayName(team).toLowerCase()}`}
-        subtitle={`Camisetas, accesorios y merchandising oficial de ${teamDisplayName(team)} en Amazon. Selección curada — sin coste adicional para ti.`}
+        subtitle={`Camisetas, accesorios y merchandising oficial de ${teamDisplayName(team)} en Amazon. Selección curada, sin coste adicional para ti.`}
       />
     </div>
   );
@@ -351,10 +351,10 @@ function Stat({
   );
 }
 
-function ResultChip({ result }: { result: 'W' | 'D' | 'L' | '—' }) {
+function ResultChip({ result }: { result: 'W' | 'D' | 'L' | '-' }) {
   const color =
     result === 'W' ? 'var(--color-pitch)' : result === 'L' ? 'var(--color-flame)' : 'var(--color-fg-subtle)';
-  const label = result === 'W' ? 'G' : result === 'D' ? 'E' : result === 'L' ? 'P' : '—';
+  const label = result === 'W' ? 'G' : result === 'D' ? 'E' : result === 'L' ? 'P' : '-';
   return (
     <span
       className="inline-flex h-6 w-6 items-center justify-center rounded-full font-mono text-[10px] font-semibold"

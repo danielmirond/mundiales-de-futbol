@@ -192,7 +192,7 @@ export async function getPlayerCareer(playerId: string): Promise<PlayerMatchAppe
   try {
     const supabase = await createClient();
 
-    // Step 1 — pull lineup rows (one per match the player was in a squad for).
+    // Step 1, pull lineup rows (one per match the player was in a squad for).
     const { data: lineups, error: lErr } = await supabase
       .from('match_lineups')
       .select(
@@ -202,7 +202,7 @@ export async function getPlayerCareer(playerId: string): Promise<PlayerMatchAppe
       .eq('player_id', playerId);
     if (lErr) throw lErr;
 
-    // Step 2 — pull event totals per match for the player.
+    // Step 2, pull event totals per match for the player.
     const { data: events, error: eErr } = await supabase
       .from('match_events')
       .select('match_id, event_type')

@@ -20,7 +20,7 @@
   },
   "home": {
     "hero": {
-      "kicker": "1930 — 2026",
+      "kicker": "1930-2026",
       "titleLine1": "22 tournaments.",
       "titleLine2": "One story.",
       "subtitle": "The definitive encyclopedia of the FIFA World Cup, down to the last pass.",
@@ -166,11 +166,11 @@
       "description": "A curated gallery of the most iconic World Cup images. Champion squads, celebrations, stadiums and trophies from 1930 to 2026. Every photo released under a free licence.",
       "h1Line1": "World Cup",
       "h1Line2": "photo gallery",
-      "kicker": "Visual archive · 1930 — 2026",
+      "kicker": "Visual archive · 1930-2026",
       "intro": "The images that have told the story of the national teams across a century of World Cup football. {n} curated photos, all under free licence, credited to their original authors."
     },
     "edicionesList": {
-      "title": "Editions · 1930 — 2026",
+      "title": "Editions · 1930-2026",
       "description": "All 23 editions of the men's FIFA World Cup, from Uruguay 1930 to the 2026 tournament in the United States, Mexico and Canada. Results, hosts, champions and stories."
     },
     "jugadoresList": {

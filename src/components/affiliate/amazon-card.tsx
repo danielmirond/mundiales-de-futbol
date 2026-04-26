@@ -40,7 +40,7 @@ function ProductImage({ product }: { product: AmazonProduct }) {
         className="object-cover grayscale contrast-110 mix-blend-multiply transition-opacity duration-500 group-hover:opacity-0"
         unoptimized
       />
-      {/* Capa color real (fade-in en hover) — fondo blanco neutro */}
+      {/* Capa color real (fade-in en hover), fondo blanco neutro */}
       <div className="pointer-events-none absolute inset-0 bg-white opacity-0 transition-opacity duration-500 group-hover:opacity-100">
         <Image
           src={src}

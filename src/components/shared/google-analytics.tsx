@@ -60,7 +60,7 @@ export function GoogleAnalytics() {
           function gtag(){dataLayer.push(arguments);}
           window.gtag = gtag;
           gtag('js', new Date());
-          // Consent Mode v2 — analytics-only consent (no ads).
+          // Consent Mode v2, analytics-only consent (no ads).
           gtag('consent', 'default', {
             ad_storage: 'denied',
             ad_user_data: 'denied',

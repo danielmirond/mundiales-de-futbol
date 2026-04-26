@@ -20,7 +20,7 @@
   },
   "home": {
     "hero": {
-      "kicker": "1930 — 2026",
+      "kicker": "1930-2026",
       "titleLine1": "22 tournois.",
       "titleLine2": "Une histoire.",
       "subtitle": "L'encyclopédie définitive de la Coupe du Monde, jusqu'à la dernière passe.",
@@ -166,11 +166,11 @@
       "description": "Une galerie sélectionnée avec les images les plus emblématiques des Coupes du Monde. Équipes championnes, célébrations, stades et trophées de 1930 à 2026. Toutes les photos sous licence libre.",
       "h1Line1": "Galerie des",
       "h1Line2": "Coupes du Monde",
-      "kicker": "Archives visuelles · 1930 — 2026",
+      "kicker": "Archives visuelles · 1930-2026",
       "intro": "Les images qui ont raconté l'histoire des sélections nationales pendant un siècle de Coupe du Monde. {n} photos sélectionnées, toutes sous licence libre, créditées à leurs auteurs originaux."
     },
     "edicionesList": {
-      "title": "Éditions · 1930 — 2026",
+      "title": "Éditions · 1930-2026",
       "description": "Les 23 éditions de la Coupe du Monde masculine, de l'Uruguay 1930 à la Coupe 2026 aux États-Unis, Mexique et Canada. Résultats, hôtes, champions et chroniques."
     },
     "jugadoresList": {

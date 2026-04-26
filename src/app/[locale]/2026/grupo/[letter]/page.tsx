@@ -76,7 +76,7 @@ export default async function GroupPage({
   const fixtures = FIXTURES_2026.filter((f) => f.stage === up);
   const venueBySlug = new Map(VENUES_2026.map((v) => [v.slug, v]));
 
-  // Live standings — computed from matches table. Pre-tournament all zero.
+  // Live standings, computed from matches table. Pre-tournament all zero.
   const rawStandings = await computeGroupStandings(2026, up, codes);
   const teamByCode = new Map(teams.map((t) => [t.code, t]));
   // Algunas selecciones (debutantes como Cabo Verde) pueden no estar
@@ -176,7 +176,7 @@ export default async function GroupPage({
                   {teamDisplayName(t)}
                 </div>
                 <div className="mt-1 font-mono text-[10px] uppercase tracking-widest text-[var(--color-fg-subtle)]">
-                  {t.confederation ?? '—'} · {t.wc_count} mundial{t.wc_count === 1 ? '' : 'es'}
+                  {t.confederation ?? '-'} · {t.wc_count} mundial{t.wc_count === 1 ? '' : 'es'}
                   {t.titles > 0 ? ` · ${t.titles}★` : ''}
                 </div>
               </Link>
@@ -228,7 +228,7 @@ export default async function GroupPage({
             <tbody>
               {standings.map((s, i) => {
                 const qualified = i < 2; // Top 2 clasifican directo
-                const possiblyQualified = i === 2; // 3er — 8 mejores entre los 12 grupos
+                const possiblyQualified = i === 2; // 3er, 8 mejores entre los 12 grupos
                 return (
                   <tr
                     key={s.team.code}
@@ -300,9 +300,9 @@ export default async function GroupPage({
                 </div>
                 <div className="font-display text-xl uppercase text-[var(--color-fg)]">
                   {f.home && f.away ? (
-                    <span>{f.home} — {f.away}</span>
+                    <span>{f.home}, {f.away}</span>
                   ) : f.home ? (
-                    <span>{f.home} <span className="text-[var(--color-fg-subtle)]">— TBD</span></span>
+                    <span>{f.home} <span className="text-[var(--color-fg-subtle)]">- TBD</span></span>
                   ) : (
                     <span className="text-[var(--color-fg-subtle)] italic">
                       2 de {codes.join(' · ')}

@@ -22,7 +22,7 @@ export function EditionStory({ year }: { year: number }) {
         La edición por dentro
       </h2>
 
-      {/* Highlight tiles — mascot, ball, anthem */}
+      {/* Highlight tiles, mascot, ball, anthem */}
       {hasHighlight && (
         <div className="mt-10 grid gap-px bg-[var(--color-border)] md:grid-cols-3">
           {/* Mascot */}
@@ -137,7 +137,7 @@ export function EditionStory({ year }: { year: number }) {
         )}
       </div>
 
-      {/* Best goal — defining goal of the edition */}
+      {/* Best goal, defining goal of the edition */}
       {story.bestGoal && (
         <div className="mt-16">
           <div className="flex items-baseline gap-4">
@@ -231,7 +231,7 @@ export function EditionStory({ year }: { year: number }) {
         </div>
       )}
 
-      {/* Controversies — polémicas, escándalos, decisiones discutidas */}
+      {/* Controversies, polémicas, escándalos, decisiones discutidas */}
       {story.controversies && story.controversies.length > 0 && (
         <div className="mt-16 rounded-3xl border border-[var(--color-border)] bg-[var(--color-bg-2)] p-8 md:p-12">
           <div className="flex items-baseline gap-4">
@@ -262,7 +262,7 @@ export function EditionStory({ year }: { year: number }) {
         </div>
       )}
 
-      {/* Nostalgia — recuerdos sensoriales: narradores, jingles, cromos, rituales */}
+      {/* Nostalgia, recuerdos sensoriales: narradores, jingles, cromos, rituales */}
       {story.nostalgia && story.nostalgia.length > 0 && (
         <div className="mt-12">
           <div className="flex items-baseline gap-4">
@@ -298,7 +298,7 @@ export function EditionStory({ year }: { year: number }) {
         </div>
       )}
 
-      {/* Trivia — curiosidades rápidas */}
+      {/* Trivia, curiosidades rápidas */}
       {story.trivia && story.trivia.length > 0 && (
         <div className="mt-12 rounded-3xl border border-[var(--color-border)] p-8 md:p-10">
           <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-pitch)]">
@@ -421,14 +421,14 @@ function ballDescription(year: number): string {
       1970: 'Primer balón Adidas, con los icónicos 32 paneles blancos y negros pensados para televisión.',
       1974: 'Evolución del Telstar con cuero poliuretano Durlast, más durable.',
       1978: 'Primer Tango: 20 paneles "tríada" que dibujan círculos.',
-      1982: 'Tango España — última versión en cuero natural.',
+      1982: 'Tango España, última versión en cuero natural.',
       1986: 'Primer balón totalmente sintético de la historia. Más control en altitud.',
       1990: 'Primer balón multicolor, con detalles inspirados en el arte etrusco.',
       1994: 'Nuevo material espuma de alta energía para mayor velocidad.',
       1998: 'Primer balón del Mundial con más de un color (azul, rojo, blanco).',
       2002: 'Diseño futurista con estrella de cuatro puntas.',
       2006: 'Revoluciona con 14 paneles curvados (antes 32). Más esférico.',
-      2010: 'Jabulani — "celebrar" en zulú. Muy criticado por porteros por su vuelo errático.',
+      2010: 'Jabulani, "celebrar" en zulú. Muy criticado por porteros por su vuelo errático.',
       2014: 'Brazuca (nombre elegido por votación popular). 6 paneles grandes.',
       2018: 'Homenaje al Telstar original con diseño pixelado.',
       2022: 'Más rápido de la historia en aire. Primer balón con tecnología de sensor interno.',
@@ -448,13 +448,13 @@ function descriptionFromAssets(year: number, kind: 'mascot' | 'ball'): string {
         1982: 'Naranja antropomórfica con el traje de la selección española. Polémica estética.',
         1986: 'Chile mexicano con sombrero y bigote.',
         1990: 'Robot compuesto por cubos con los colores de la bandera italiana.',
-        1994: 'Perro deportista con balón — primera mascota animal americana.',
+        1994: 'Perro deportista con balón, primera mascota animal americana.',
         1998: 'Gallo azul con "France 98" en el pecho. Símbolo nacional francés.',
         2002: 'Tres seres futuristas llamados "The Spheriks" representando la era digital.',
-        2006: 'León con pantalones cortos — controvertido en Alemania.',
+        2006: 'León con pantalones cortos, controvertido en Alemania.',
         2010: 'Leopardo con melena verde; símbolo de la conservación africana.',
         2014: 'Armadillo de tres bandas, especie en peligro de extinción brasileña.',
-        2018: 'Lobo con gafas de vuelo — "el que marca" en ruso.',
+        2018: 'Lobo con gafas de vuelo, "el que marca" en ruso.',
         2022: 'Figura etérea inspirada en el "ghutrah" (pañuelo tradicional qatarí).',
         2026: 'Trío de mascotas representando las tres sedes: alce (Canadá), jaguar (México), águila (EE.UU.).',
       }[year] ?? ''

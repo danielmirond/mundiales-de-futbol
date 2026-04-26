@@ -1,10 +1,10 @@
-# Supabase — Mundiales de Fútbol
+# Supabase, Mundiales de Fútbol
 
 Database schema, migrations and seed data for the project.
 
 ## Apply the initial schema
 
-You don't need the Supabase CLI — the quickest path is the SQL editor:
+You don't need the Supabase CLI, the quickest path is the SQL editor:
 
 1. Open the Supabase dashboard → SQL editor.
 2. Paste the contents of `migrations/20260418000000_initial_schema.sql`.
@@ -28,7 +28,7 @@ For reproducibility, you can also install the CLI and run `supabase db push` aga
 | `match_shot_events` | StatsBomb-style events with xG + coords. |
 | `player_match_stats` | Denormalised stats for fast player pages. |
 | `articles` | Editorial: chronicles, features, profiles (i18n body). |
-| `media` | Video/image/audio assets — archive.org, YouTube, Wikimedia. |
+| `media` | Video/image/audio assets, archive.org, YouTube, Wikimedia. |
 
 ## Ingestion workflow (to be built)
 
