@@ -2,6 +2,7 @@ import type { MetadataRoute } from 'next';
 import { createClient } from '@supabase/supabase-js';
 import { TOURNAMENTS } from '@/lib/tournaments';
 import { HISTORIAS } from '@/lib/historias';
+import { SEDES_2026 } from '@/lib/wc-2026-sedes';
 import { routing } from '@/i18n/routing';
 
 // Defensive `.trim()`: una env var con `\n` accidental rompía cada `<loc>`
@@ -73,6 +74,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   out.push(entry('/2026/entradas', now, 'daily', 0.9));
   out.push(entry('/2026/donde-ver', now, 'daily', 0.9));
   out.push(entry('/2026/fan-zone', now, 'weekly', 0.85));
+  out.push(entry('/2026/sedes', now, 'weekly', 0.9));
   out.push(entry('/coleccionismo/panini-mundial-2026', now, 'weekly', 0.85));
   out.push(entry('/selecciones/ESP/grupo-h', now, 'weekly', 0.9));
   out.push(entry('/historias', now, 'daily', 0.9));
@@ -87,6 +89,11 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // Editions
   for (const t of TOURNAMENTS) {
     out.push(entry(`/ediciones/${t.slug}`, now, 'monthly', 0.8));
+  }
+
+  // Sedes 2026
+  for (const s of SEDES_2026) {
+    out.push(entry(`/2026/sedes/${s.citySlug}`, now, 'weekly', 0.85));
   }
 
   // Historias (calendario editorial)

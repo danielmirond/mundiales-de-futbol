@@ -219,13 +219,22 @@ export default async function NorthAmerica2026Page({
               Los estadios
             </h2>
           </div>
-          <Link
-            href={withLocale(locale as Locale, '/estadios')}
-            className="group inline-flex items-center gap-2 rounded-full border border-[var(--color-border-strong)] px-5 py-3 text-sm text-[var(--color-fg)] transition-colors hover:border-[var(--color-pitch)] hover:text-[var(--color-pitch)]"
-          >
-            Todos los estadios
-            <ArrowRight className="h-4 w-4 rtl:rotate-180 transition-transform group-hover:translate-x-1" />
-          </Link>
+          <div className="flex flex-wrap gap-2">
+            <Link
+              href={withLocale(locale as Locale, '/2026/sedes')}
+              className="group inline-flex items-center gap-2 rounded-full bg-[var(--color-pitch)] px-5 py-3 text-sm font-semibold text-black transition-opacity hover:opacity-90"
+            >
+              Guías de viaje por sede
+              <ArrowRight className="h-4 w-4 rtl:rotate-180 transition-transform group-hover:translate-x-1" />
+            </Link>
+            <Link
+              href={withLocale(locale as Locale, '/estadios')}
+              className="group inline-flex items-center gap-2 rounded-full border border-[var(--color-border-strong)] px-5 py-3 text-sm text-[var(--color-fg)] transition-colors hover:border-[var(--color-pitch)] hover:text-[var(--color-pitch)]"
+            >
+              Todos los estadios
+              <ArrowRight className="h-4 w-4 rtl:rotate-180 transition-transform group-hover:translate-x-1" />
+            </Link>
+          </div>
         </div>
 
         <div className="mt-10 grid gap-px bg-[var(--color-border)] sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">

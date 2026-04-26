@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import { useLocale, useTranslations } from 'next-intl';
-import { ArrowRight, Tv, Ticket, Sofa } from 'lucide-react';
+import { ArrowRight, Tv, Ticket, Sofa, MapPin } from 'lucide-react';
 import { WORLD_CUP_2026_KICKOFF } from '@/lib/tournaments';
 import { routing, type Locale } from '@/i18n/routing';
 
@@ -140,6 +140,14 @@ export function Countdown() {
           >
             <Sofa className="h-4 w-4" />
             Fan zone
+            <ArrowRight className="h-3 w-3 transition-transform group-hover:translate-x-1 rtl:rotate-180" />
+          </Link>
+          <Link
+            href={withLocale(locale, '/2026/sedes')}
+            className="group inline-flex items-center gap-2 rounded-full border border-[var(--color-border-strong)] px-5 py-2.5 text-sm font-medium text-[var(--color-fg)] transition-colors hover:border-[var(--color-pitch)] hover:text-[var(--color-pitch)]"
+          >
+            <MapPin className="h-4 w-4" />
+            16 sedes
             <ArrowRight className="h-3 w-3 transition-transform group-hover:translate-x-1 rtl:rotate-180" />
           </Link>
           <Link
