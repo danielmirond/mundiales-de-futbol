@@ -25,18 +25,32 @@ import {
  */
 function ProductImage({ product }: { product: AmazonProduct }) {
   if (!product.imageId) return null;
+  const src = buildAmazonImage(product.imageId, 500);
+  // Estrategia: imagen base con duotone verde (branding) por defecto;
+  // en hover, capa superior con la imagen original (colores reales)
+  // hace fade-in. Cero transición de filtros (smooth en cualquier GPU).
   return (
     <div className="relative aspect-square w-full overflow-hidden rounded-2xl bg-[var(--color-pitch)]">
+      {/* Capa duotone (visible por defecto) */}
       <Image
-        src={buildAmazonImage(product.imageId, 500)}
+        src={src}
         alt={product.title}
         fill
         sizes="(max-width: 768px) 100vw, 33vw"
-        className="object-cover grayscale contrast-110 mix-blend-multiply"
+        className="object-cover grayscale contrast-110 mix-blend-multiply transition-opacity duration-500 group-hover:opacity-0"
         unoptimized
       />
-      {/* Glow verde sutil en hover para reforzar branding */}
-      <div className="absolute inset-0 bg-[var(--color-pitch)]/20 mix-blend-overlay opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+      {/* Capa color real (fade-in en hover) — fondo blanco neutro */}
+      <div className="pointer-events-none absolute inset-0 bg-white opacity-0 transition-opacity duration-500 group-hover:opacity-100">
+        <Image
+          src={src}
+          alt=""
+          fill
+          sizes="(max-width: 768px) 100vw, 33vw"
+          className="object-cover"
+          unoptimized
+        />
+      </div>
     </div>
   );
 }
