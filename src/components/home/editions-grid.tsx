@@ -79,6 +79,18 @@ export async function EditionsGrid({ locale }: { locale: Locale }) {
             </Link>
           );
         })}
+        {/* Placeholders del mismo color de fondo para que la última fila
+            quede uniforme cuando 23 ediciones no encajan en 2/3/4/5 cols.
+            En base/sm/md (2/3/4 cols): 23+1=24 → completo con 1 hueco.
+            En lg (5 cols): 23+2=25 → necesita 2 huecos. */}
+        <div
+          aria-hidden
+          className="aspect-[4/5] border-b border-r border-[var(--color-border)] bg-[var(--color-bg)]"
+        />
+        <div
+          aria-hidden
+          className="hidden aspect-[4/5] border-b border-r border-[var(--color-border)] bg-[var(--color-bg)] lg:block"
+        />
       </div>
     </section>
   );
