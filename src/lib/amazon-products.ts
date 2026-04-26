@@ -62,6 +62,13 @@ export type AmazonProduct = {
   forKids?: boolean;
   /** Producto destacado */
   featured?: boolean;
+  /**
+   * ASIN verificado (existe en Amazon ES en el momento de añadirlo).
+   * Si false o ausente, el enlace se construye como búsqueda
+   * (`/s?k=<title>`) en lugar de `/dp/<asin>` para evitar 404s.
+   * Se sigue cobrando comisión por afiliación en search → conversion.
+   */
+  verified?: boolean;
 };
 
 export const AMAZON_PRODUCTS: AmazonProduct[] = [
@@ -485,8 +492,26 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
 // ─── Helpers ─────────────────────────────────────────────────────
 
 /** Construye URL final de afiliado con tag inyectado */
-export function buildAmazonUrl(asin: string, tag = AMAZON_TAG): string {
-  return `https://www.amazon.es/dp/${asin}/?tag=${tag}`;
+/**
+ * Construye URL Amazon. Si el producto no está verificado (asin caducado
+ * o sin asignar), genera URL de búsqueda — Amazon nunca da 404 en /s
+ * y la atribución de afiliado se mantiene si el usuario compra después.
+ */
+export function buildAmazonUrl(
+  productOrAsin: AmazonProduct | string,
+  tag = AMAZON_TAG,
+): string {
+  // Backwards compat: si recibe un string, asume ASIN verificado.
+  if (typeof productOrAsin === 'string') {
+    return `https://www.amazon.es/dp/${productOrAsin}/?tag=${tag}`;
+  }
+  const p = productOrAsin;
+  if (p.verified) {
+    return `https://www.amazon.es/dp/${p.asin}/?tag=${tag}`;
+  }
+  // ASIN no verificado → URL de búsqueda con el título.
+  const query = encodeURIComponent(p.title);
+  return `https://www.amazon.es/s?k=${query}&tag=${tag}`;
 }
 
 export function getProductsByTeam(teamCode: string): AmazonProduct[] {

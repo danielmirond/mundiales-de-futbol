@@ -24,7 +24,7 @@ export function AmazonCard({
   product: AmazonProduct;
   variant?: 'default' | 'compact' | 'featured';
 }) {
-  const url = buildAmazonUrl(product.asin);
+  const url = buildAmazonUrl(product);
   const priceLabel = formatPrice(product.priceMin, product.priceMax);
 
   if (variant === 'compact') {
