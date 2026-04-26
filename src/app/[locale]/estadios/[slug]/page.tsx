@@ -2,10 +2,12 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import { setRequestLocale, getFormatter } from 'next-intl/server';
-import { ArrowLeft, MapPin, Users as UsersIcon } from 'lucide-react';
+import { ArrowLeft, ArrowRight, MapPin, Users as UsersIcon, Plane, Hotel } from 'lucide-react';
 import { getVenueBySlug, getVenueMatches } from '@/lib/data/venues';
 import { getTournament } from '@/lib/tournaments';
 import { STAGE_LABEL_ES } from '@/lib/data/matches';
+import { getSedeByVenueSlug, getVenueForSede } from '@/lib/wc-2026-sedes';
+import { VENUES_2026 } from '@/lib/wc-2026';
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd } from '@/lib/seo';
 
@@ -94,6 +96,13 @@ export default async function StadiumDetailPage({
   const matches = await getVenueMatches(venue.id);
   const format = await getFormatter();
 
+  // Si este estadio es una de las 16 sedes del Mundial 2026, enlazamos
+  // a la guía de viaje de la sede (qué hacer, hoteles, cómo llegar).
+  const sede2026 = getSedeByVenueSlug(slug);
+  // Datos estáticos del estadio en el Mundial 2026 (capacidad oficial,
+  // año de apertura, rol). VENUES_2026 es la única fuente de verdad.
+  const venue26 = sede2026 ? getVenueForSede(sede2026) : VENUES_2026.find((v) => v.slug === slug);
+
   const totalAttendance = matches.reduce((s, m) => s + (m.attendance ?? 0), 0);
   const years = [...new Set(matches.map((m) => m.tournament_year))].sort();
 
@@ -166,6 +175,44 @@ export default async function StadiumDetailPage({
         </div>
       </section>
 
+      {/* Guía de viaje sede 2026 (solo si aplica) */}
+      {sede2026 && (
+        <section className="mx-auto mt-12 w-full max-w-[1400px] px-6 md:px-10">
+          <Link
+            href={withLocale(locale as Locale, `/2026/sedes/${sede2026.citySlug}`)}
+            className="group flex flex-col gap-4 rounded-3xl border border-[var(--color-pitch)]/30 bg-gradient-to-br from-[var(--color-pitch)]/8 via-[var(--color-bg-2)] to-[var(--color-bg-2)] p-8 transition-colors hover:border-[var(--color-pitch)] md:flex-row md:items-center md:justify-between md:p-10"
+          >
+            <div className="flex-1">
+              <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-pitch)]">
+                <span aria-hidden className="mr-2">{sede2026.flag}</span>
+                Sede del Mundial 2026
+              </div>
+              <h3 className="mt-2 font-display text-2xl uppercase leading-tight md:text-3xl">
+                Guía de viaje, {sede2026.cityName}
+              </h3>
+              <p className="mt-3 max-w-2xl text-sm text-[var(--color-fg-muted)] md:text-base">
+                {sede2026.shortIntro}
+              </p>
+              <div className="mt-4 flex flex-wrap gap-x-5 gap-y-2 font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--color-fg-subtle)]">
+                <span className="inline-flex items-center gap-1.5">
+                  <Plane className="h-3 w-3" /> {sede2026.airport.iata}
+                </span>
+                <span className="inline-flex items-center gap-1.5">
+                  <Hotel className="h-3 w-3" /> {sede2026.hotelAreas.length} zonas hoteleras
+                </span>
+                <span className="inline-flex items-center gap-1.5">
+                  <MapPin className="h-3 w-3" /> {sede2026.thingsToDo.length} planes en la ciudad
+                </span>
+              </div>
+            </div>
+            <span className="inline-flex shrink-0 items-center gap-2 self-start rounded-full bg-[var(--color-pitch)] px-5 py-2.5 text-sm font-semibold text-black transition-opacity group-hover:opacity-90 md:self-auto">
+              Ver la guía
+              <ArrowRight className="h-3 w-3 transition-transform group-hover:translate-x-1 rtl:rotate-180" />
+            </span>
+          </Link>
+        </section>
+      )}
+
       {/* Meta */}
       <section className="mx-auto w-full max-w-[1400px] px-6 py-16 md:px-10 md:py-24">
         <div className="font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-pitch)]">
@@ -182,6 +229,50 @@ export default async function StadiumDetailPage({
             <MapPin className="h-4 w-4 text-[var(--color-fg-muted)]" />
             {venue.city?.trim() ?? '-'}, {venue.country_code ?? '-'}
           </dd>
+          {venue26?.capacity ? (
+            <>
+              <dt className="font-mono text-xs uppercase tracking-widest text-[var(--color-fg-subtle)]">
+                Aforo Mundial
+              </dt>
+              <dd className="font-mono tab-num text-[var(--color-fg-muted)]">
+                {format.number(venue26.capacity)} espectadores
+              </dd>
+            </>
+          ) : null}
+          {venue26?.openedYear ? (
+            <>
+              <dt className="font-mono text-xs uppercase tracking-widest text-[var(--color-fg-subtle)]">
+                Inaugurado
+              </dt>
+              <dd className="font-mono tab-num text-[var(--color-fg-muted)]">
+                {venue26.openedYear}
+              </dd>
+            </>
+          ) : null}
+          {venue26?.role ? (
+            <>
+              <dt className="font-mono text-xs uppercase tracking-widest text-[var(--color-fg-subtle)]">
+                Rol en Mundial 2026
+              </dt>
+              <dd className="text-[var(--color-pitch)]">{venue26.role}</dd>
+            </>
+          ) : null}
+          {sede2026 ? (
+            <>
+              <dt className="font-mono text-xs uppercase tracking-widest text-[var(--color-fg-subtle)]">
+                Aeropuerto
+              </dt>
+              <dd className="font-mono text-[var(--color-fg-muted)]">
+                {sede2026.airport.iata} · {sede2026.airport.name}
+              </dd>
+              <dt className="font-mono text-xs uppercase tracking-widest text-[var(--color-fg-subtle)]">
+                Huso horario
+              </dt>
+              <dd className="font-mono text-[var(--color-fg-muted)]">
+                {sede2026.timezone} · {sede2026.utcOffset}
+              </dd>
+            </>
+          ) : null}
           {venue.latitude && venue.longitude && (
             <>
               <dt className="font-mono text-xs uppercase tracking-widest text-[var(--color-fg-subtle)]">
@@ -192,8 +283,40 @@ export default async function StadiumDetailPage({
               </dd>
             </>
           )}
+          {venue26?.wikipedia ? (
+            <>
+              <dt className="font-mono text-xs uppercase tracking-widest text-[var(--color-fg-subtle)]">
+                Más información
+              </dt>
+              <dd>
+                <a
+                  href={venue26.wikipedia}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[var(--color-fg-muted)] underline-offset-4 hover:text-[var(--color-pitch)] hover:underline"
+                >
+                  Wikipedia
+                </a>
+              </dd>
+            </>
+          ) : null}
         </dl>
       </section>
+
+      {/* Sobre el estadio en el Mundial 2026 (solo sedes 2026) */}
+      {sede2026?.aboutStadium && (
+        <section className="mx-auto w-full max-w-[1400px] px-6 py-16 md:px-10 md:py-24">
+          <div className="font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-pitch)]">
+            En el Mundial 2026
+          </div>
+          <h2 className="mt-3 font-display text-fluid-h2 uppercase leading-none">
+            El estadio durante el torneo
+          </h2>
+          <p className="mt-8 max-w-3xl text-base leading-relaxed text-[var(--color-fg-muted)] md:text-lg">
+            {sede2026.aboutStadium}
+          </p>
+        </section>
+      )}
 
       {/* Matches played here */}
       {matches.length > 0 && (

@@ -1060,6 +1060,12 @@ export function getSedeBySlug(slug: string): SedeCity | undefined {
   return SEDES_2026.find((s) => s.citySlug === slug);
 }
 
+/** Mapeo inverso: dado el slug del estadio, devuelve la sede que lo usa.
+ *  Útil para enlazar desde /estadios/[slug] hacia /2026/sedes/[city]. */
+export function getSedeByVenueSlug(venueSlug: string): SedeCity | undefined {
+  return SEDES_2026.find((s) => s.venueSlug === venueSlug);
+}
+
 export function getSedesByCountry(code: 'USA' | 'MEX' | 'CAN'): SedeCity[] {
   return SEDES_2026.filter((s) => s.countryCode === code);
 }

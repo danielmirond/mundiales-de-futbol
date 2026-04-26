@@ -2,6 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { getAllVenues } from '@/lib/data/venues';
+import { VENUES_2026 } from '@/lib/wc-2026';
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl, SEO } from '@/lib/seo';
 
@@ -79,40 +80,53 @@ export default async function StadiumsIndexPage({
 
       <section className="mx-auto w-full max-w-[1400px] px-6 py-16 md:px-10 md:py-24">
         <div className="grid gap-px bg-[var(--color-border)] sm:grid-cols-2 md:grid-cols-3">
-          {venues.map((v) => (
-            <Link
-              key={v.id}
-              href={withLocale(locale as Locale, `/estadios/${v.slug}`)}
-              className="group relative aspect-[4/3] flex flex-col justify-end overflow-hidden bg-[var(--color-bg)] transition-transform hover:scale-[1.01]"
-            >
-              {v.hero_image_url ? (
-                <Image
-                  src={v.hero_image_url}
-                  alt={v.name}
-                  fill
-                  sizes="(max-width: 640px) 100vw, 33vw"
-                  className="object-cover transition-all duration-500 group-hover:scale-105"
-                  unoptimized
-                />
-              ) : (
-                <div className="absolute inset-0 bg-[var(--color-bg-2)]" />
-              )}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent" />
-              <div className="relative z-10 p-5">
-                <div className="font-display text-xl uppercase leading-none text-white md:text-2xl">
-                  {v.name.trim()}
-                </div>
-                <div className="mt-2 flex items-center justify-between font-mono text-[10px] uppercase tracking-widest text-white/70">
-                  <span>
-                    {v.city?.trim() ?? ''} · {v.country_code ?? '-'}
+          {venues.map((v) => {
+            const v26 = VENUES_2026.find((x) => x.slug === v.slug);
+            return (
+              <Link
+                key={v.id}
+                href={withLocale(locale as Locale, `/estadios/${v.slug}`)}
+                className="group relative aspect-[4/3] flex flex-col justify-end overflow-hidden bg-[var(--color-bg)] transition-transform hover:scale-[1.01]"
+              >
+                {v.hero_image_url ? (
+                  <Image
+                    src={v.hero_image_url}
+                    alt={v.name}
+                    fill
+                    sizes="(max-width: 640px) 100vw, 33vw"
+                    className="object-cover transition-all duration-500 group-hover:scale-105"
+                    unoptimized
+                  />
+                ) : (
+                  <div className="absolute inset-0 bg-[var(--color-bg-2)]" />
+                )}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent" />
+                {v26 ? (
+                  <span className="absolute right-3 top-3 z-10 rounded-full bg-[var(--color-pitch)] px-2.5 py-1 font-mono text-[9px] uppercase tracking-[0.2em] text-black">
+                    Mundial 2026
                   </span>
-                  <span className="tab-num">
-                    {v.matches_played} partidos
-                  </span>
+                ) : null}
+                <div className="relative z-10 p-5">
+                  <div className="font-display text-xl uppercase leading-none text-white md:text-2xl">
+                    {v.name.trim()}
+                  </div>
+                  <div className="mt-2 flex flex-wrap items-center justify-between gap-x-3 gap-y-1 font-mono text-[10px] uppercase tracking-widest text-white/70">
+                    <span>
+                      {v.city?.trim() ?? ''} · {v.country_code ?? '-'}
+                    </span>
+                    <span className="tab-num">
+                      {v.matches_played} partidos
+                    </span>
+                  </div>
+                  {v26 ? (
+                    <div className="mt-1 font-mono text-[10px] uppercase tracking-widest text-[var(--color-pitch)]">
+                      {v26.capacity.toLocaleString('es-ES')} aforo · {v26.role}
+                    </div>
+                  ) : null}
                 </div>
-              </div>
-            </Link>
-          ))}
+              </Link>
+            );
+          })}
         </div>
       </section>
     </article>
