@@ -385,6 +385,13 @@ export default async function NorthAmerica2026Page({
           <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1 rtl:rotate-180" />
         </Link>
         <Link
+          href={withLocale(locale as Locale, '/2026/fan-zone')}
+          className="group inline-flex items-center gap-2 rounded-full border border-[var(--color-border-strong)] px-6 py-3 text-sm font-medium text-[var(--color-fg)] transition-colors hover:border-[var(--color-pitch)] hover:text-[var(--color-pitch)]"
+        >
+          Fan zone
+          <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1 rtl:rotate-180" />
+        </Link>
+        <Link
           href={withLocale(locale as Locale, '/coleccionismo/panini-mundial-2026')}
           className="group inline-flex items-center gap-2 rounded-full border border-[var(--color-border-strong)] px-6 py-3 text-sm font-medium text-[var(--color-fg)] transition-colors hover:border-[var(--color-pitch)] hover:text-[var(--color-pitch)]"
         >

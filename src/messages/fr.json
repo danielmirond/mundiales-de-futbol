@@ -116,5 +116,74 @@
       "title": "Marketing",
       "desc": "Nous n'utilisons aucun cookie marketing aujourd'hui."
     }
+  },
+  "pages": {
+    "wc2026": {
+      "title": "Coupe du Monde 2026 · Calendrier complet, stades, groupes et horaires",
+      "description": "Coupe du Monde 2026 (USA, Mexique, Canada) : calendrier complet des 104 matchs, 16 stades et 12 groupes. Date de début et date de la finale."
+    },
+    "dondeVer": {
+      "title": "Où voir la Coupe du Monde 2026 en Espagne · DAZN, Movistar Plus+ et options gratuites",
+      "description": "Comment voir tous les matchs de la Coupe du Monde 2026 en Espagne : Movistar Plus+ via DAZN, options gratuites, matchs de la sélection, calendrier et tarifs mis à jour avril 2026.",
+      "h1Line1": "Où voir",
+      "h1Line2": "la Coupe 2026",
+      "intro": "Comment voir les 104 matchs de la Coupe du Monde 2026 en Espagne : Movistar Plus+, DAZN, options gratuites et conseils pour suivre Espagne vs Cap-Vert et Uruguay sans rien manquer. Information mise à jour en avril 2026.",
+      "kicker": "Espagne · Coupe 2026",
+      "platformsKicker": "Plateformes avec droits",
+      "platformsTitle": "Les options réelles en Espagne",
+      "spainKicker": "La Roja · Groupe H",
+      "spainTitle": "Matchs de l'Espagne",
+      "abroadKicker": "Si vous voyagez",
+      "abroadTitle": "Suivre la Coupe depuis l'étranger",
+      "faqKicker": "Questions fréquentes",
+      "faqTitle": "Ce que les gens demandent le plus",
+      "fullSpainLink": "Fiche complète Espagne"
+    },
+    "entradas": {
+      "title": "Billets Coupe du Monde 2026 · Comment acheter, tarifs et phases de vente",
+      "description": "Guide complet pour acheter des billets de la Coupe 2026 : tarifs officiels par catégorie, Phase 4 ouverte jusqu'à la finale, packs hospitality et liens directs vers FIFA Tickets."
+    },
+    "panini": {
+      "title": "Panini Coupe du Monde 2026 · Album, pochettes et tarifs",
+      "description": "Tout sur l'album officiel Panini Coupe 2026 : date de sortie prévue, tarifs, vignettes les plus recherchées, éditions spéciales, où acheter en Espagne et communautés d'échange.",
+      "h1Line1": "Panini",
+      "h1Line2": "Coupe 2026",
+      "intro": "La collection officielle de vignettes du premier Mondial à 48 sélections. Date de sortie, tarifs, éditions spéciales, vignettes les plus convoitées et où les trouver en Espagne. Mis à jour avril 2026."
+    },
+    "grupoH": {
+      "title": "L'Espagne dans le Groupe H de la Coupe 2026 · Cap-Vert et Uruguay",
+      "description": "L'Espagne dans le Groupe H de la Coupe du Monde 2026 : adversaires (Cap-Vert, Uruguay), calendrier, stades (Atlanta et Guadalajara), pronostic, joueurs-clés et où voir.",
+      "h1Line1": "L'Espagne",
+      "h1Line2": "dans le Groupe H",
+      "intro": "Trois matchs, deux pays hôtes (USA et Mexique) et la première pierre vers une éventuelle récidive du titre 2010. Calendrier, adversaires, stades, joueurs et où regarder."
+    },
+    "historias": {
+      "title": "Histoires et anecdotes des Coupes du Monde",
+      "description": "Les phrases, polémiques, prophéties et récits qui ont défini l'histoire des Coupes du Monde : Main de Dieu, Maracanazo, but d'Iniesta, Lineker sur les Allemands… Anecdote par anecdote, jusqu'à la Coupe 2026."
+    },
+    "galeria": {
+      "title": "Galerie photo · Sélections au fil des Coupes du Monde",
+      "description": "Une galerie sélectionnée avec les images les plus emblématiques des Coupes du Monde. Équipes championnes, célébrations, stades et trophées de 1930 à 2026. Toutes les photos sous licence libre.",
+      "h1Line1": "Galerie des",
+      "h1Line2": "Coupes du Monde",
+      "kicker": "Archives visuelles · 1930 — 2026",
+      "intro": "Les images qui ont raconté l'histoire des sélections nationales pendant un siècle de Coupe du Monde. {n} photos sélectionnées, toutes sous licence libre, créditées à leurs auteurs originaux."
+    },
+    "edicionesList": {
+      "title": "Éditions · 1930 — 2026",
+      "description": "Les 23 éditions de la Coupe du Monde masculine, de l'Uruguay 1930 à la Coupe 2026 aux États-Unis, Mexique et Canada. Résultats, hôtes, champions et chroniques."
+    },
+    "jugadoresList": {
+      "title": "Joueurs · Top mondialistes et meilleurs buteurs",
+      "description": "Les joueurs ayant disputé le plus de Coupes du Monde, les meilleurs buteurs de l'histoire et les légendes qui ont changé le football. Pelé, Maradona, Messi, Klose, Ronaldo et tant d'autres."
+    },
+    "seleccionesList": {
+      "title": "Sélections · Toutes les nations mondialistes",
+      "description": "Les sélections qui ont disputé une Coupe du Monde : championnes, finalistes et débutantes. Du Brésil et de l'Allemagne aux nations qui n'ont touché le trophée qu'une fois."
+    },
+    "estadiosList": {
+      "title": "Stades · Sites historiques des Coupes du Monde",
+      "description": "Tous les stades ayant accueilli des matchs de Coupe du Monde, du Centenario de Montevideo à l'Azteca, en passant par Wembley, Maracanã et Lusail."
+    }
   }
 }

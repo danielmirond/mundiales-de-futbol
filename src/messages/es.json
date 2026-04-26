@@ -116,5 +116,74 @@
       "title": "Marketing",
       "desc": "No usamos cookies de marketing a día de hoy."
     }
+  },
+  "pages": {
+    "wc2026": {
+      "title": "Mundial 2026 calendario completo · Sedes, grupos y horarios",
+      "description": "Mundial 2026 (USA, México, Canadá): calendario completo de los 104 partidos, 16 estadios, 12 grupos. Cuándo empieza y cuándo es la final."
+    },
+    "dondeVer": {
+      "title": "Dónde ver el Mundial 2026 en España · DAZN, Movistar Plus+ y opciones gratis",
+      "description": "Cómo ver todos los partidos del Mundial 2026 en España: Movistar Plus+ vía DAZN, opciones gratis, partidos de la selección, calendario y precios actualizados a abril 2026.",
+      "h1Line1": "Dónde ver",
+      "h1Line2": "el Mundial 2026",
+      "intro": "Cómo ver los 104 partidos del Mundial 2026 en España: Movistar Plus+, DAZN, opciones gratis y consejos para ver España vs Cabo Verde y Uruguay sin perderte un minuto. Información actualizada a abril de 2026.",
+      "kicker": "España · Mundial 2026",
+      "platformsKicker": "Plataformas con derechos",
+      "platformsTitle": "Las opciones reales en España",
+      "spainKicker": "La Roja · Grupo H",
+      "spainTitle": "Partidos de España",
+      "abroadKicker": "Si estás de viaje",
+      "abroadTitle": "Ver el Mundial desde fuera de España",
+      "faqKicker": "Preguntas frecuentes",
+      "faqTitle": "Lo que más se pregunta",
+      "fullSpainLink": "Ficha completa España"
+    },
+    "entradas": {
+      "title": "Entradas Mundial 2026 · Cómo comprar, precios y fases de venta",
+      "description": "Guía completa para comprar entradas del Mundial 2026: precios oficiales por categoría, fase 4 de venta abierta hasta la final, paquetes de hospitality y enlaces directos a FIFA Tickets."
+    },
+    "panini": {
+      "title": "Panini Mundial 2026 · Álbum de cromos, sobres y precios",
+      "description": "Todo sobre el álbum Panini del Mundial 2026: fecha de salida prevista, precio, cromos más buscados, ediciones especiales, dónde comprarlo en España y comunidades de intercambio.",
+      "h1Line1": "Panini",
+      "h1Line2": "Mundial 2026",
+      "intro": "La colección oficial de cromos del primer Mundial de 48 selecciones. Fecha de salida, precios, ediciones especiales, cromos más buscados y dónde encontrarlos en España. Actualizado a abril 2026."
+    },
+    "grupoH": {
+      "title": "España en el Grupo H del Mundial 2026 · Cabo Verde y Uruguay",
+      "description": "España en el Grupo H del Mundial 2026: rivales (Cabo Verde, Uruguay), calendario, sedes (Atlanta y Guadalajara), pronóstico, jugadores clave y dónde ver los partidos.",
+      "h1Line1": "España",
+      "h1Line2": "en el Grupo H",
+      "intro": "Tres partidos, dos países anfitriones (USA y México) y la primera piedra para una posible reedición del título de 2010. Calendario, rivales, sedes, jugadores y dónde verlos."
+    },
+    "historias": {
+      "title": "Historias y anécdotas de los Mundiales de fútbol",
+      "description": "Las frases, polémicas, profecías y narraciones que han definido la historia de los Mundiales: Mano de Dios, Maracanazo, gol de Iniesta, Lineker y los alemanes... Anécdota a anécdota, hasta el Mundial 2026."
+    },
+    "galeria": {
+      "title": "Galería de fotos · Selecciones a lo largo de los Mundiales",
+      "description": "Una galería curada con las imágenes más icónicas de los Mundiales de fútbol. Equipos campeones, celebraciones, estadios y trofeos desde 1930 hasta 2026. Todas las fotos con licencia libre.",
+      "h1Line1": "Galería de",
+      "h1Line2": "los Mundiales",
+      "kicker": "Archivo visual · 1930 — 2026",
+      "intro": "Las imágenes que han contado la historia de las selecciones nacionales a lo largo de un siglo de Copa del Mundo. {n} fotos curadas, todas con licencia libre, atribuidas a sus autores originales."
+    },
+    "edicionesList": {
+      "title": "Ediciones · 1930 — 2026",
+      "description": "Las 23 ediciones de la Copa del Mundo masculina, de Uruguay 1930 al Mundial 2026 de Estados Unidos, México y Canadá. Resultados, sedes, campeones y crónicas."
+    },
+    "jugadoresList": {
+      "title": "Jugadores · Top mundialistas y máximos goleadores",
+      "description": "Los jugadores con más participaciones en Copas del Mundo, los máximos goleadores históricos y los mundialistas que cambiaron el fútbol. Pelé, Maradona, Messi, Klose, Ronaldo y todos los demás."
+    },
+    "seleccionesList": {
+      "title": "Selecciones · Todas las nacionales mundialistas",
+      "description": "Las selecciones que han disputado un Mundial de fútbol: campeones, finalistas y debutantes. De Brasil y Alemania a las selecciones que solo han tocado la copa una vez."
+    },
+    "estadiosList": {
+      "title": "Estadios · Sedes históricas de los Mundiales",
+      "description": "Todos los estadios que han albergado partidos de la Copa del Mundo, del Centenario de Montevideo al Estadio Azteca pasando por Wembley, Maracaná y Lusail."
+    }
   }
 }

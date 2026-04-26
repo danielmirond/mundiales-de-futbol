@@ -116,5 +116,74 @@
       "title": "Marketing",
       "desc": "We don't use any marketing cookies today."
     }
+  },
+  "pages": {
+    "wc2026": {
+      "title": "FIFA World Cup 2026 · Full schedule, venues, groups and kick-off times",
+      "description": "FIFA World Cup 2026 (USA, Mexico, Canada): complete schedule for all 104 matches, 16 stadiums and 12 groups. When it starts and when the final is played."
+    },
+    "dondeVer": {
+      "title": "Where to watch the 2026 World Cup in Spain · DAZN, Movistar Plus+ and free options",
+      "description": "How to watch every 2026 FIFA World Cup match in Spain: Movistar Plus+ via DAZN, free-to-air options, Spain national-team fixtures, schedule and prices updated April 2026.",
+      "h1Line1": "Where to watch",
+      "h1Line2": "the 2026 World Cup",
+      "intro": "How to watch all 104 matches of the 2026 World Cup in Spain: Movistar Plus+, DAZN, free options and tips to watch Spain vs Cape Verde and Uruguay without missing a minute. Information updated April 2026.",
+      "kicker": "Spain · 2026 World Cup",
+      "platformsKicker": "Platforms with rights",
+      "platformsTitle": "The actual options in Spain",
+      "spainKicker": "La Roja · Group H",
+      "spainTitle": "Spain's matches",
+      "abroadKicker": "If you are travelling",
+      "abroadTitle": "Watching the World Cup from outside Spain",
+      "faqKicker": "Frequently asked",
+      "faqTitle": "What people ask the most",
+      "fullSpainLink": "Full Spain page"
+    },
+    "entradas": {
+      "title": "2026 World Cup Tickets · How to buy, prices and sales phases",
+      "description": "Complete guide to buying 2026 FIFA World Cup tickets: official prices by category, Phase 4 sales open until the final, hospitality packages and direct links to FIFA Tickets."
+    },
+    "panini": {
+      "title": "Panini 2026 World Cup · Sticker album, packs and prices",
+      "description": "Everything about the official Panini 2026 World Cup sticker album: expected release date, price, most sought-after stickers, special editions, where to buy in Spain and trading communities.",
+      "h1Line1": "Panini",
+      "h1Line2": "2026 World Cup",
+      "intro": "The official sticker collection of the first 48-team World Cup. Release date, prices, special editions, most wanted stickers and where to find them in Spain. Updated April 2026."
+    },
+    "grupoH": {
+      "title": "Spain in Group H of the 2026 World Cup · Cape Verde and Uruguay",
+      "description": "Spain in Group H of the 2026 World Cup: opponents (Cape Verde, Uruguay), schedule, venues (Atlanta and Guadalajara), forecast, key players and where to watch.",
+      "h1Line1": "Spain",
+      "h1Line2": "in Group H",
+      "intro": "Three matches, two host countries (USA and Mexico) and the first step toward a possible repeat of the 2010 title. Schedule, opponents, venues, players and where to watch."
+    },
+    "historias": {
+      "title": "Stories and anecdotes from the FIFA World Cups",
+      "description": "The quotes, controversies, prophecies and narratives that have shaped the history of the World Cups: Hand of God, Maracanazo, Iniesta's goal, Lineker on the Germans… Anecdote by anecdote, all the way to the 2026 World Cup."
+    },
+    "galeria": {
+      "title": "Photo gallery · National teams across the World Cups",
+      "description": "A curated gallery of the most iconic World Cup images. Champion squads, celebrations, stadiums and trophies from 1930 to 2026. Every photo released under a free licence.",
+      "h1Line1": "World Cup",
+      "h1Line2": "photo gallery",
+      "kicker": "Visual archive · 1930 — 2026",
+      "intro": "The images that have told the story of the national teams across a century of World Cup football. {n} curated photos, all under free licence, credited to their original authors."
+    },
+    "edicionesList": {
+      "title": "Editions · 1930 — 2026",
+      "description": "All 23 editions of the men's FIFA World Cup, from Uruguay 1930 to the 2026 tournament in the United States, Mexico and Canada. Results, hosts, champions and stories."
+    },
+    "jugadoresList": {
+      "title": "Players · Top World Cup performers and all-time top scorers",
+      "description": "The players with the most World Cup appearances, the all-time top scorers and the legends who changed football. Pelé, Maradona, Messi, Klose, Ronaldo and the rest."
+    },
+    "seleccionesList": {
+      "title": "National teams · Every World Cup nation",
+      "description": "The national teams that have competed in a FIFA World Cup: champions, finalists and debutants. From Brazil and Germany to the sides that have only touched the trophy once."
+    },
+    "estadiosList": {
+      "title": "Stadiums · Historic World Cup venues",
+      "description": "Every stadium that has hosted World Cup matches, from Estadio Centenario in Montevideo to the Azteca, including Wembley, Maracanã and Lusail."
+    }
   }
 }

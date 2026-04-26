@@ -116,5 +116,74 @@
       "title": "Marketing",
       "desc": "Não usamos cookies de marketing atualmente."
     }
+  },
+  "pages": {
+    "wc2026": {
+      "title": "Copa do Mundo 2026 · Calendário completo, sedes, grupos e horários",
+      "description": "Copa do Mundo 2026 (EUA, México, Canadá): calendário completo dos 104 jogos, 16 estádios, 12 grupos. Quando começa e quando é a final."
+    },
+    "dondeVer": {
+      "title": "Onde ver a Copa do Mundo 2026 na Espanha · DAZN, Movistar Plus+ e opções grátis",
+      "description": "Como assistir todos os jogos da Copa do Mundo 2026 na Espanha: Movistar Plus+ via DAZN, opções grátis, partidas da seleção, calendário e preços atualizados em abril de 2026.",
+      "h1Line1": "Onde ver",
+      "h1Line2": "a Copa 2026",
+      "intro": "Como ver os 104 jogos da Copa do Mundo 2026 na Espanha: Movistar Plus+, DAZN, opções grátis e dicas para acompanhar Espanha vs Cabo Verde e Uruguai sem perder um minuto. Informação atualizada em abril de 2026.",
+      "kicker": "Espanha · Copa 2026",
+      "platformsKicker": "Plataformas com direitos",
+      "platformsTitle": "As opções reais na Espanha",
+      "spainKicker": "La Roja · Grupo H",
+      "spainTitle": "Jogos da Espanha",
+      "abroadKicker": "Se você estiver viajando",
+      "abroadTitle": "Ver a Copa fora da Espanha",
+      "faqKicker": "Perguntas frequentes",
+      "faqTitle": "O que as pessoas mais perguntam",
+      "fullSpainLink": "Ficha completa da Espanha"
+    },
+    "entradas": {
+      "title": "Ingressos Copa do Mundo 2026 · Como comprar, preços e fases de venda",
+      "description": "Guia completo para comprar ingressos da Copa 2026: preços oficiais por categoria, Fase 4 de venda aberta até a final, pacotes de hospitalidade e links diretos para a FIFA Tickets."
+    },
+    "panini": {
+      "title": "Panini Copa do Mundo 2026 · Álbum de figurinhas, pacotes e preços",
+      "description": "Tudo sobre o álbum Panini da Copa 2026: data de lançamento prevista, preço, figurinhas mais buscadas, edições especiais, onde comprar na Espanha e comunidades de troca.",
+      "h1Line1": "Panini",
+      "h1Line2": "Copa 2026",
+      "intro": "A coleção oficial de figurinhas da primeira Copa de 48 seleções. Data de lançamento, preços, edições especiais, figurinhas mais cobiçadas e onde encontrá-las na Espanha. Atualizado em abril de 2026."
+    },
+    "grupoH": {
+      "title": "Espanha no Grupo H da Copa 2026 · Cabo Verde e Uruguai",
+      "description": "Espanha no Grupo H da Copa do Mundo 2026: adversários (Cabo Verde, Uruguai), calendário, sedes (Atlanta e Guadalajara), prognóstico, jogadores-chave e onde ver os jogos.",
+      "h1Line1": "Espanha",
+      "h1Line2": "no Grupo H",
+      "intro": "Três jogos, dois países-sede (EUA e México) e a primeira pedra para uma possível reedição do título de 2010. Calendário, rivais, sedes, jogadores e onde ver."
+    },
+    "historias": {
+      "title": "Histórias e curiosidades das Copas do Mundo",
+      "description": "As frases, polêmicas, profecias e narrações que definiram a história das Copas: Mão de Deus, Maracanaço, gol de Iniesta, Lineker e os alemães… Anedota por anedota, até a Copa 2026."
+    },
+    "galeria": {
+      "title": "Galeria de fotos · Seleções ao longo das Copas",
+      "description": "Galeria curada com as imagens mais icônicas das Copas do Mundo. Times campeões, comemorações, estádios e troféus de 1930 a 2026. Todas as fotos com licença livre.",
+      "h1Line1": "Galeria das",
+      "h1Line2": "Copas do Mundo",
+      "kicker": "Arquivo visual · 1930 — 2026",
+      "intro": "As imagens que contaram a história das seleções nacionais ao longo de um século de Copa do Mundo. {n} fotos curadas, todas com licença livre, creditadas aos autores originais."
+    },
+    "edicionesList": {
+      "title": "Edições · 1930 — 2026",
+      "description": "As 23 edições da Copa do Mundo masculina, do Uruguai 1930 à Copa 2026 nos EUA, México e Canadá. Resultados, sedes, campeões e crônicas."
+    },
+    "jugadoresList": {
+      "title": "Jogadores · Top mundialistas e maiores artilheiros",
+      "description": "Os jogadores com mais participações em Copas, os maiores artilheiros históricos e os craques que mudaram o futebol. Pelé, Maradona, Messi, Klose, Ronaldo e muitos mais."
+    },
+    "seleccionesList": {
+      "title": "Seleções · Todas as nacionais mundialistas",
+      "description": "As seleções que disputaram uma Copa do Mundo: campeãs, finalistas e estreantes. Do Brasil e Alemanha às seleções que só tocaram a taça uma vez."
+    },
+    "estadiosList": {
+      "title": "Estádios · Sedes históricas das Copas",
+      "description": "Todos os estádios que receberam jogos da Copa do Mundo, do Centenário de Montevidéu ao Azteca, passando por Wembley, Maracanã e Lusail."
+    }
   }
 }
