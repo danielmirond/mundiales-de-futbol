@@ -184,6 +184,10 @@
     "estadiosList": {
       "title": "Estadios · Sedes históricas de los Mundiales",
       "description": "Todos los estadios que han albergado partidos de la Copa del Mundo, del Centenario de Montevideo al Estadio Azteca pasando por Wembley, Maracaná y Lusail."
+    },
+    "fanZone": {
+      "title": "Fan zone Mundial 2026 · Cómo preparar tu casa para los 64 partidos",
+      "description": "Cómo equipar tu casa para vivir el Mundial 2026: TVs 4K, barras de sonido, proyectores y rituales. La pantalla, el sonido y la gente que hacen del torneo más que un evento."
     }
   }
 }

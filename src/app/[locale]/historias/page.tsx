@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { setRequestLocale } from 'next-intl/server';
+import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { ArrowRight } from 'lucide-react';
 import {
   HISTORIAS,
@@ -55,15 +55,15 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'pages.historias' });
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://mundiales-de-futbol.com';
   const url =
     locale === routing.defaultLocale
       ? `${siteUrl}/historias`
       : `${siteUrl}/${locale}/historias`;
   return {
-    title: 'Historias y anécdotas de los Mundiales de fútbol',
-    description:
-      'Las frases, polémicas, profecías y narraciones que han definido la historia de los Mundiales: Mano de Dios, Maracanazo, gol de Iniesta, Lineker y los alemanes... Anécdota a anécdota, hasta el Mundial 2026.',
+    title: t('title'),
+    description: t('description'),
     alternates: {
       canonical: url,
       languages: Object.fromEntries(
@@ -77,9 +77,8 @@ export async function generateMetadata({
     },
     openGraph: {
       type: 'website',
-      title: 'Historias del Mundial · Calendario editorial 2026',
-      description:
-        'Frases que cambiaron la historia del fútbol mundialista. Una historia diaria hasta el Mundial 2026.',
+      title: t('title'),
+      description: t('description'),
       url,
     },
   };

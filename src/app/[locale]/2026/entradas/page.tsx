@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { setRequestLocale } from 'next-intl/server';
+import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { ArrowLeft, ExternalLink, Ticket, AlertTriangle } from 'lucide-react';
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl } from '@/lib/seo';
@@ -15,12 +15,13 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'pages.entradas' });
   return pageMetadata({
     locale,
     path: '/2026/entradas',
-    title: 'Entradas Mundial 2026 · Cómo comprar, precios y fases de venta',
+    title: t('title'),
     description:
-      'Guía completa para comprar entradas del Mundial 2026: precios oficiales por categoría, fase 4 de venta abierta hasta la final, paquetes de hospitality y enlaces directos a FIFA Tickets.',
+      t('description'),
     keywords: [
       'entradas Mundial 2026',
       'comprar entradas Mundial 2026',

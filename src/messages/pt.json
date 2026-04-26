@@ -184,6 +184,10 @@
     "estadiosList": {
       "title": "Estádios · Sedes históricas das Copas",
       "description": "Todos os estádios que receberam jogos da Copa do Mundo, do Centenário de Montevidéu ao Azteca, passando por Wembley, Maracanã e Lusail."
+    },
+    "fanZone": {
+      "title": "Fan zone Copa do Mundo 2026 · Como preparar sua casa para os 64 jogos",
+      "description": "Como equipar sua casa para a Copa 2026: TVs 4K, soundbars, projetores e rituais. A tela, o som e a galera que transformam o torneio em algo mais do que um evento."
     }
   }
 }

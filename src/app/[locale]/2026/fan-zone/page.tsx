@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { setRequestLocale } from 'next-intl/server';
+import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { ArrowLeft, ArrowRight, Sofa, Volume2, Headphones, Beer } from 'lucide-react';
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl } from '@/lib/seo';
@@ -19,12 +19,13 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'pages.fanZone' });
   return pageMetadata({
     locale,
     path: '/2026/fan-zone',
-    title: 'Fan zone Mundial 2026 · Cómo preparar tu casa para los 64 partidos',
+    title: t('title'),
     description:
-      'Cómo equipar tu casa para vivir el Mundial 2026: TVs 4K, barras de sonido, proyectores y rituales. La pantalla, el sonido y la gente que hacen del torneo más que un evento.',
+      t('description'),
     keywords: [
       'fan zone Mundial 2026',
       'cómo ver el Mundial 2026 en casa',

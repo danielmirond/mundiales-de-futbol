@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { setRequestLocale } from 'next-intl/server';
+import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { ArrowLeft, ArrowRight, Trophy, MapPin, Tv } from 'lucide-react';
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl } from '@/lib/seo';
@@ -24,13 +24,14 @@ export async function generateMetadata({
   params: Promise<{ locale: string; code: string }>;
 }) {
   const { locale, code } = await params;
+  const t = await getTranslations({ locale, namespace: 'pages.grupoH' });
   if (code !== 'ESP') return {};
   return pageMetadata({
     locale,
     path: '/selecciones/ESP/grupo-h',
-    title: 'España en el Grupo H del Mundial 2026 · Cabo Verde y Uruguay',
+    title: t('title'),
     description:
-      'España en el Grupo H del Mundial 2026: rivales (Cabo Verde, Uruguay), calendario, sedes (Atlanta y Guadalajara), pronóstico, jugadores clave y dónde ver los partidos.',
+      t('description'),
     keywords: [
       'España Grupo H Mundial 2026',
       'España Cabo Verde Mundial',

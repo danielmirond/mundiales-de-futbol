@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { setRequestLocale } from 'next-intl/server';
+import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { ArrowLeft, AlertTriangle, Sparkles } from 'lucide-react';
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl } from '@/lib/seo';
@@ -17,12 +17,13 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'pages.panini' });
   return pageMetadata({
     locale,
     path: '/coleccionismo/panini-mundial-2026',
-    title: 'Panini Mundial 2026 · Álbum de cromos, sobres y precios',
+    title: t('title'),
     description:
-      'Todo sobre el álbum Panini del Mundial 2026: fecha de salida prevista, precio, cromos más buscados, ediciones especiales, dónde comprarlo en España y comunidades de intercambio.',
+      t('description'),
     keywords: [
       'álbum Panini Mundial 2026',
       'cromos Mundial 2026',

@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { setRequestLocale } from 'next-intl/server';
+import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { getTopPlayers, getTopScorers, displayPlayerName } from '@/lib/data/players';
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl, SEO } from '@/lib/seo';
@@ -16,12 +16,13 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'pages.jugadoresList' });
   return pageMetadata({
     locale,
     path: '/jugadores',
-    title: 'Jugadores · Top mundialistas y máximos goleadores',
+    title: t('title'),
     description:
-      'Los jugadores con más participaciones en Copas del Mundo, los máximos goleadores históricos y los mundialistas que cambiaron el fútbol. Pelé, Maradona, Messi, Klose, Ronaldo y todos los demás.',
+      t('description'),
     keywords: [
       'jugadores Mundial',
       'máximos goleadores Copa del Mundo',

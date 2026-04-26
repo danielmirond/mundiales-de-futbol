@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { setRequestLocale } from 'next-intl/server';
+import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { ArrowLeft, ExternalLink, Tv, Globe, Wifi, AlertTriangle } from 'lucide-react';
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl } from '@/lib/seo';
@@ -15,12 +15,13 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'pages.dondeVer' });
   return pageMetadata({
     locale,
     path: '/2026/donde-ver',
-    title: 'Dónde ver el Mundial 2026 en España · DAZN, Movistar Plus+ y opciones gratis',
+    title: t('title'),
     description:
-      'Cómo ver todos los partidos del Mundial 2026 en España: Movistar Plus+ vía DAZN, opciones gratis, partidos de la selección, calendario y precios actualizados a abril 2026.',
+      t('description'),
     keywords: [
       'dónde ver el Mundial 2026',
       'Mundial 2026 España DAZN',

@@ -184,6 +184,10 @@
     "estadiosList": {
       "title": "Stades · Sites historiques des Coupes du Monde",
       "description": "Tous les stades ayant accueilli des matchs de Coupe du Monde, du Centenario de Montevideo à l'Azteca, en passant par Wembley, Maracanã et Lusail."
+    },
+    "fanZone": {
+      "title": "Fan zone Coupe du Monde 2026 · Comment préparer ta maison pour les 64 matchs",
+      "description": "Comment équiper ta maison pour la Coupe du Monde 2026 : TV 4K, barres de son, projecteurs et rituels. L'écran, le son et les gens qui font du tournoi plus qu'un événement."
     }
   }
 }

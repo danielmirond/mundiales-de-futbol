@@ -184,6 +184,10 @@
     "estadiosList": {
       "title": "Stadiums · Historic World Cup venues",
       "description": "Every stadium that has hosted World Cup matches, from Estadio Centenario in Montevideo to the Azteca, including Wembley, Maracanã and Lusail."
+    },
+    "fanZone": {
+      "title": "Fan zone 2026 World Cup · How to set up your home for the 64 matches",
+      "description": "How to gear up your home for the 2026 World Cup: 4K TVs, soundbars, projectors and rituals. The screen, the sound and the people that turn the tournament into something more than an event."
     }
   }
 }

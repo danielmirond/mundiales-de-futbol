@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { setRequestLocale } from 'next-intl/server';
+import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { getAllVenues } from '@/lib/data/venues';
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl, SEO } from '@/lib/seo';
@@ -16,12 +16,13 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'pages.estadiosList' });
   return pageMetadata({
     locale,
     path: '/estadios',
-    title: 'Estadios · Sedes históricas de los Mundiales',
+    title: t('title'),
     description:
-      'Todos los estadios que han albergado partidos de la Copa del Mundo, del Centenario de Montevideo al Estadio Azteca pasando por Wembley, Maracaná y Lusail.',
+      t('description'),
     keywords: [
       'estadios Mundiales',
       'sedes Copa del Mundo',

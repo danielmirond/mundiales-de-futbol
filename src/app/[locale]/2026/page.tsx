@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { setRequestLocale } from 'next-intl/server';
+import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { ArrowRight, MapPin, Trophy } from 'lucide-react';
 import { Countdown } from '@/components/home/countdown';
 import { getTournament } from '@/lib/tournaments';
@@ -22,13 +22,12 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'pages.wc2026' });
   return pageMetadata({
     locale,
     path: '/2026',
-    // Patrón A SEO confirmado.
-    title: 'Mundial 2026 calendario completo · Sedes, grupos y horarios',
-    description:
-      'Mundial 2026 (USA, México, Canadá): calendario completo de los 104 partidos, 16 estadios, 12 grupos. Cuándo empieza y cuándo es la final.',
+    title: t('title'),
+    description: t('description'),
     keywords: [
       'Mundial 2026',
       'Mundial 2026 calendario',

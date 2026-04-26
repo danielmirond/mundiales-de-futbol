@@ -1,4 +1,4 @@
-import { setRequestLocale } from 'next-intl/server';
+import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { PhotoGallery } from '@/components/gallery/photo-gallery';
 import { GALLERY } from '@/lib/gallery';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl } from '@/lib/seo';
@@ -9,12 +9,13 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'pages.galeria' });
   return pageMetadata({
     locale,
     path: '/galeria',
-    title: 'Galería de fotos · Selecciones a lo largo de los Mundiales',
+    title: t('title'),
     description:
-      'Una galería curada con las imágenes más icónicas de los Mundiales de fútbol. Equipos campeones, celebraciones, estadios y trofeos desde 1930 hasta 2026. Todas las fotos con licencia libre.',
+      t('description'),
     keywords: [
       'fotos históricas Mundiales',
       'imágenes Copa del Mundo',

@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { setRequestLocale } from 'next-intl/server';
+import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { getAllTeamsRanked, teamDisplayName } from '@/lib/data/teams';
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl, SEO } from '@/lib/seo';
@@ -15,12 +15,13 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'pages.seleccionesList' });
   return pageMetadata({
     locale,
     path: '/selecciones',
-    title: 'Selecciones · Todas las nacionales mundialistas',
+    title: t('title'),
     description:
-      'Las selecciones que han disputado un Mundial de fútbol: campeones, finalistas y debutantes. De Brasil y Alemania a las selecciones que solo han tocado la copa una vez.',
+      t('description'),
     keywords: [
       'selecciones mundialistas',
       'campeones Copa del Mundo',

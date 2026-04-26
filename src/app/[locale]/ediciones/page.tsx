@@ -9,13 +9,13 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: 'home.editions' });
+  const t = await getTranslations({ locale, namespace: 'pages.edicionesList' });
   return pageMetadata({
     locale,
     path: '/ediciones',
-    title: `${t('title')} · 1930 — 2026`,
+    title: t('title'),
     description:
-      'Las 23 ediciones de la Copa del Mundo masculina, de Uruguay 1930 al Mundial 2026 de Estados Unidos, México y Canadá. Resultados, sedes, campeones y crónicas.',
+      t('description'),
     keywords: [
       'ediciones Mundial',
       'historia Mundiales 1930-2026',
