@@ -69,6 +69,12 @@ export type AmazonProduct = {
    * Se sigue cobrando comisión por afiliación en search → conversion.
    */
   verified?: boolean;
+  /**
+   * ID de imagen Amazon (extraído de `data-old-hires` del HTML del producto).
+   * Patrón: m.media-amazon.com/images/I/<ID>._AC_SL{size}_.jpg
+   * Si está presente, la tarjeta muestra foto con filtro verde de marca.
+   */
+  imageId?: string;
 };
 
 export const AMAZON_PRODUCTS: AmazonProduct[] = [
@@ -78,6 +84,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     title: 'RFEF Camiseta Selección Española Eurocopa 2024 réplica oficial',
     asin: 'B0D58DR1DK',
     verified: true,
+    imageId: '71aw2bm6FrL',
     category: 'ropa',
     commission: 10,
     priceMin: 35,
@@ -91,6 +98,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     title: 'adidas Camiseta Argentina 3 estrellas campeón mundial',
     asin: 'B0C32MKKHJ',
     verified: true,
+    imageId: '51tWH6ycHgL',
     category: 'ropa',
     commission: 10,
     priceMin: 70,
@@ -104,6 +112,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     title: 'Nike CBF Brasil Dri-FIT Stadium camiseta selección hombre',
     asin: 'B0CFYH41T3',
     verified: true,
+    imageId: '61J2nSaSrzL',
     category: 'ropa',
     commission: 10,
     priceMin: 80,
@@ -140,6 +149,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     title: 'Nike Portugal Ronaldo Player tee — camiseta jugador CR7',
     asin: 'B0BDDXPDB9',
     verified: true,
+    imageId: '41AEhuUyRqL',
     category: 'ropa',
     commission: 10,
     priceMin: 60,
@@ -152,6 +162,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     title: 'adidas Mexico Away camiseta selección mexicana hombre',
     asin: 'B0BFKNN5PB',
     verified: true,
+    imageId: '71-mAfjAoML',
     category: 'ropa',
     commission: 10,
     priceMin: 50,
@@ -166,6 +177,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     title: 'adidas Italia 2024 Stadium camiseta selección hombre Azzurri',
     asin: 'B0DM3PHJF2',
     verified: true,
+    imageId: '71IspwF3h1L',
     category: 'ropa',
     commission: 10,
     priceMin: 60,
@@ -178,6 +190,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     title: 'Nike KNVB Holanda Países Bajos Dri-FIT Stadium camiseta',
     asin: 'B0BDF1LTSK',
     verified: true,
+    imageId: '616kwJGckSL',
     category: 'ropa',
     commission: 10,
     priceMin: 50,
@@ -190,6 +203,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     title: 'Nike Croacia Stadium Home camiseta selección hombre',
     asin: 'B0BMTMR92C',
     verified: true,
+    imageId: '51Gpwl-BoVL',
     category: 'ropa',
     commission: 10,
     priceMin: 55,
@@ -202,6 +216,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     title: 'PUMA Marruecos 2025 camiseta selección Atlas Lions hombre',
     asin: 'B0F2622LB4',
     verified: true,
+    imageId: '61xlZ81k5xL',
     category: 'ropa',
     commission: 10,
     priceMin: 50,
@@ -214,6 +229,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     title: 'adidas Japón Samurai Blue 2022 Home camiseta selección',
     asin: 'B0BN7MMNHN',
     verified: true,
+    imageId: '61eDGQ++TPL',
     category: 'ropa',
     commission: 10,
     priceMin: 45,
@@ -226,6 +242,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     title: 'adidas Bélgica Mundial 2022 Away Diables Rouges camiseta',
     asin: 'B0BMB52B5T',
     verified: true,
+    imageId: '41FEJmyaaQL',
     category: 'ropa',
     commission: 10,
     priceMin: 50,
@@ -239,6 +256,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     title: 'Copa Football Maradona × Argentina 1986 — Camiseta retro Mundial',
     asin: 'B0BHBYLSTL',
     verified: true,
+    imageId: '41BMuZCHoNL',
     category: 'ropa',
     commission: 10,
     priceMin: 60,
@@ -253,6 +271,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     title: 'Camiseta retro Pelé 1970 número 10 Brasil tributo Rey del fútbol',
     asin: 'B0DT2V2WP2',
     verified: true,
+    imageId: '51gVY8knOcL',
     category: 'ropa',
     commission: 10,
     priceMin: 25,
@@ -381,6 +400,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     title: 'adidas FIFA World Cup 26 Trionda Training balón Mundial 2026',
     asin: 'B0DLJD5K46',
     verified: true,
+    imageId: '71FYdVCqWeL',
     category: 'deportes',
     commission: 7,
     priceMin: 30,
@@ -439,6 +459,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     title: 'Panini FIFA World Cup Qatar 2022 — álbum oficial + 25 sobres cromos',
     asin: 'B0BBGVW8QY',
     verified: true,
+    imageId: '615NjPkCS0L',
     category: 'juguetes',
     commission: 7,
     priceMin: 12,
@@ -463,6 +484,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     title: 'Funko Pop! Football PSG Lionel Messi — figura coleccionable',
     asin: 'B09YDH36XR',
     verified: true,
+    imageId: '51cTIkO-9jL',
     category: 'juguetes',
     commission: 7,
     priceMin: 15,
@@ -550,6 +572,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     title: 'El historiador en el estadio — Toni Padilla — geopolítica del fútbol',
     asin: '8418216298',
     verified: true,
+    imageId: '71GpxH3jLRL',
     category: 'libros',
     commission: 7,
     priceMin: 18,
@@ -604,6 +627,11 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
 // ─── Helpers ─────────────────────────────────────────────────────
 
 /** Construye URL final de afiliado con tag inyectado */
+/** Construye URL de imagen Amazon CDN (sirve cualquier resolución). */
+export function buildAmazonImage(imageId: string, size = 500): string {
+  return `https://m.media-amazon.com/images/I/${imageId}._AC_SL${size}_.jpg`;
+}
+
 /**
  * Construye URL Amazon. Si el producto no está verificado (asin caducado
  * o sin asignar), genera URL de búsqueda — Amazon nunca da 404 en /s

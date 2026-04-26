@@ -1,6 +1,8 @@
+import Image from 'next/image';
 import { ExternalLink, ShoppingCart } from 'lucide-react';
 import {
   buildAmazonUrl,
+  buildAmazonImage,
   formatPrice,
   CATEGORY_LABELS,
   type AmazonProduct,
@@ -14,9 +16,31 @@ import {
  *    recomienda "sponsored" desde 2019, antes era solo "nofollow").
  *  - target="_blank" para no perder al usuario.
  *  - Disclosure visible: "Enlace de afiliado".
- *  - Sin imagen del producto (Amazon no permite hotlink directo de su CDN
- *    sin la API). Si en el futuro integramos PA-API, se puede añadir.
+ *
+ * Foto del producto (cuando existe `product.imageId`):
+ *  - Imagen Amazon CDN servida vía m.media-amazon.com
+ *  - Filtro duotone verde con la marca: imagen en grayscale + overlay
+ *    `var(--color-pitch)` con mix-blend-mode multiply. Mantiene la
+ *    silueta del producto reconocible mientras integra el branding.
  */
+function ProductImage({ product }: { product: AmazonProduct }) {
+  if (!product.imageId) return null;
+  return (
+    <div className="relative aspect-square w-full overflow-hidden rounded-2xl bg-[var(--color-pitch)]">
+      <Image
+        src={buildAmazonImage(product.imageId, 500)}
+        alt={product.title}
+        fill
+        sizes="(max-width: 768px) 100vw, 33vw"
+        className="object-cover grayscale contrast-110 mix-blend-multiply"
+        unoptimized
+      />
+      {/* Glow verde sutil en hover para reforzar branding */}
+      <div className="absolute inset-0 bg-[var(--color-pitch)]/20 mix-blend-overlay opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+    </div>
+  );
+}
+
 export function AmazonCard({
   product,
   variant = 'default',
@@ -63,10 +87,12 @@ export function AmazonCard({
       }`}
     >
       {variant === 'featured' && (
-        <span className="absolute right-5 top-5 rounded-full bg-[var(--color-pitch)] px-2.5 py-1 font-mono text-[9px] uppercase tracking-[0.2em] text-black">
+        <span className="absolute right-5 top-5 z-10 rounded-full bg-[var(--color-pitch)] px-2.5 py-1 font-mono text-[9px] uppercase tracking-[0.2em] text-black">
           Destacado
         </span>
       )}
+
+      <ProductImage product={product} />
 
       <div className="flex items-center gap-3">
         <ShoppingCart className="h-4 w-4 text-[var(--color-pitch)]" />
