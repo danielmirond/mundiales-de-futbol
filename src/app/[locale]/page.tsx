@@ -42,8 +42,8 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
   return (
     <>
       <Hero />
-      <StatsBand />
       <Countdown />
+      <StatsBand />
       <EditionsGrid locale={locale as Locale} />
       <Pillars />
     </>
