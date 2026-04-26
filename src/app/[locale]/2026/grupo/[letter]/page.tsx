@@ -79,10 +79,31 @@ export default async function GroupPage({
   // Live standings — computed from matches table. Pre-tournament all zero.
   const rawStandings = await computeGroupStandings(2026, up, codes);
   const teamByCode = new Map(teams.map((t) => [t.code, t]));
-  const standings = rawStandings.map((s) => ({
-    ...s,
-    team: teamByCode.get(s.code)!,
-  }));
+  // Algunas selecciones (debutantes como Cabo Verde) pueden no estar
+  // todavía en la tabla `teams`. Generamos un fallback ligero para que
+  // la página no reviente con 500.
+  const standings = rawStandings.map((s) => {
+    const team = teamByCode.get(s.code);
+    return {
+      ...s,
+      team: team ?? {
+        code: s.code,
+        name_official: s.code,
+        flag_emoji: null,
+        confederation: null,
+        titles: 0,
+        wc_count: 0,
+        matches_played: 0,
+        wins: 0,
+        draws: 0,
+        losses: 0,
+        goals_for: 0,
+        goals_against: 0,
+        dissolved_year: null,
+        successor_code: null,
+      } as TeamStats,
+    };
+  });
 
   // Prev / next group navigation
   const idx = GROUPS_2026.findIndex((g) => g.letter === up);
@@ -227,13 +248,21 @@ export default async function GroupPage({
                       </span>
                     </td>
                     <td className="p-4">
-                      <Link
-                        href={withLocale(locale as Locale, `/selecciones/${s.team.code}`)}
-                        className="flex items-center gap-2 font-medium text-[var(--color-fg)] transition-colors hover:text-[var(--color-pitch)]"
-                      >
-                        <span className="text-xl">{s.team.flag_emoji ?? '🏳️'}</span>
-                        {teamDisplayName(s.team)}
-                      </Link>
+                      {/* Si la selección está en BD, link clicable; si no, texto plano */}
+                      {teamByCode.has(s.team.code) ? (
+                        <Link
+                          href={withLocale(locale as Locale, `/selecciones/${s.team.code}`)}
+                          className="flex items-center gap-2 font-medium text-[var(--color-fg)] transition-colors hover:text-[var(--color-pitch)]"
+                        >
+                          <span className="text-xl">{s.team.flag_emoji ?? '🏳️'}</span>
+                          {teamDisplayName(s.team)}
+                        </Link>
+                      ) : (
+                        <span className="flex items-center gap-2 font-medium text-[var(--color-fg-muted)]">
+                          <span className="text-xl">{s.team.flag_emoji ?? '🏳️'}</span>
+                          {teamDisplayName(s.team)}
+                        </span>
+                      )}
                     </td>
                     <td className="p-4 text-right tab-num text-[var(--color-fg-muted)]">{s.MP}</td>
                     <td className="p-4 text-right tab-num text-[var(--color-fg-muted)]">{s.W}</td>
