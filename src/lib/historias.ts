@@ -174,7 +174,7 @@ Pero el fútbol también arruina sus propias reglas. En Brasil 2018, Alemania ca
     context:
       'Declaración de Maradona en 1992, durante una entrevista. Marca la usó como portada el día de su muerte, el 26 de noviembre de 2020, confirmando que era la mejor autodefinición que dio jamás.',
     source: {
-      name: 'Marca (portada 26/11/2020)',
+      name: 'Stadium Astro — recopilación de portadas tras la muerte de Maradona (Marca, L\'Équipe, Clarín, Daily Star…)',
       url: 'https://english.stadiumastro.com/football/diego-maradona-dies-newspaper-front-pages-pay-tribute-legend-180312',
     },
     sourceSecondary: 'Primicias Ecuador',
@@ -252,10 +252,10 @@ Cuarenta años después, el audio sigue circulando en su versión original o rem
     context:
       'Tras dar positivo por efedrina en el control antidopaje del Mundial USA 94. Maradona acababa de marcar contra Grecia y celebrar con la cámara. Argentina lo sacó del torneo y, tras esto, perdió contra Rumania.',
     source: {
-      name: 'La Nación (CR)',
-      url: 'https://www.nacion.com/cables/palabra-de-maradona-fue-la-mano-de-dios-o-la-/J226MQAQDVGHZGTAZBHR5AD4W4/story/',
+      name: 'Wikipedia, Diego Maradona — sección «Me cortaron las piernas»',
+      url: 'https://es.wikipedia.org/wiki/Diego_Maradona',
     },
-    sourceSecondary: 'Infobae · Primicias Ecuador',
+    sourceSecondary: 'Infobae · Primicias Ecuador · Clarín',
     certainty: 'Alta',
     title: '«Me cortaron las piernas»: el final del Maradona mundialista',
     excerpt:

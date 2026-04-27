@@ -231,7 +231,7 @@ export default async function DondeVerPage({
               key={p.name}
               href={p.url}
               target="_blank"
-              rel="noopener noreferrer nofollow"
+              rel="noopener noreferrer"
               className={`group flex flex-col gap-4 rounded-3xl border p-6 transition-colors md:p-7 ${
                 p.primary
                   ? 'border-[var(--color-pitch)]/30 bg-gradient-to-br from-[var(--color-pitch)]/5 via-[var(--color-bg-2)] to-[var(--color-bg-2)] hover:border-[var(--color-pitch)]/50'

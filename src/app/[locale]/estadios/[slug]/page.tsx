@@ -295,7 +295,7 @@ export default async function StadiumDetailPage({
                   rel="noopener noreferrer"
                   className="text-[var(--color-fg-muted)] underline-offset-4 hover:text-[var(--color-pitch)] hover:underline"
                 >
-                  Wikipedia
+                  Ficha de {venue26.name} en Wikipedia
                 </a>
               </dd>
             </>
