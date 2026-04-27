@@ -3,7 +3,22 @@ import { createClient } from '@supabase/supabase-js';
 import { TOURNAMENTS } from '@/lib/tournaments';
 import { HISTORIAS } from '@/lib/historias';
 import { SEDES_2026 } from '@/lib/wc-2026-sedes';
+import { GROUPS_2026 } from '@/lib/wc-2026';
 import { routing } from '@/i18n/routing';
+
+/**
+ * Páginas de récords disponibles en /records/[slug]. Lista cerrada
+ * porque son páginas explícitas con su propio file en `src/app`.
+ */
+const RECORD_PAGES = [
+  'maximos-goleadores',
+  'mas-amarillas',
+  'mas-rojas',
+  'mas-minutos',
+  'mas-mundiales-jugados',
+  'goles-en-propia',
+  'selecciones-mas-tarjetas',
+] as const;
 
 // Defensive `.trim()`: una env var con `\n` accidental rompía cada `<loc>`
 // del sitemap → 11k errores en GSC. Nunca más.
@@ -96,6 +111,16 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // Sedes 2026
   for (const s of SEDES_2026) {
     out.push(entry(`/2026/sedes/${s.citySlug}`, now, 'weekly', 0.85));
+  }
+
+  // Grupos 2026 (A-L)
+  for (const g of GROUPS_2026) {
+    out.push(entry(`/2026/grupo/${g.letter}`, now, 'weekly', 0.8));
+  }
+
+  // Records detallados
+  for (const slug of RECORD_PAGES) {
+    out.push(entry(`/records/${slug}`, now, 'weekly', 0.7));
   }
 
   // Historias (calendario editorial)
