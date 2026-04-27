@@ -31,9 +31,19 @@ export const HOSTS: HostCountry[] = [
 
 export type Venue26 = {
   slug: string;
+  /** Nombre comercial / habitual del estadio. */
   name: string;
+  /**
+   * Nombre que FIFA usa durante el torneo (sin patrocinadores).
+   * Fuente: Wikipedia "2026 FIFA World Cup" (consultado abr 2026).
+   */
+  fifaName: string;
   hostCity: string;
   country: 'USA' | 'CAN' | 'MEX';
+  /**
+   * Aforo oficial Mundial 2026 confirmado por FIFA.
+   * Fuente: Wikipedia "2026 FIFA World Cup" (cifras redondeadas FIFA).
+   */
   capacity: number;
   openedYear: number;
   role: string;
@@ -42,24 +52,24 @@ export type Venue26 = {
 
 export const VENUES_2026: Venue26[] = [
   // Mexico
-  { slug: 'estadio-azteca', name: 'Estadio Azteca', hostCity: 'Ciudad de México', country: 'MEX', capacity: 87523, openedYear: 1966, role: 'Partido inaugural', wikipedia: 'https://en.wikipedia.org/wiki/Estadio_Azteca' },
-  { slug: 'estadio-akron',  name: 'Estadio Akron',  hostCity: 'Guadalajara',      country: 'MEX', capacity: 46355, openedYear: 2010, role: '4 partidos',         wikipedia: 'https://en.wikipedia.org/wiki/Estadio_Akron' },
-  { slug: 'estadio-bbva',   name: 'Estadio BBVA',   hostCity: 'Monterrey',        country: 'MEX', capacity: 53500, openedYear: 2015, role: '4 partidos',         wikipedia: 'https://en.wikipedia.org/wiki/Estadio_BBVA' },
+  { slug: 'estadio-azteca', name: 'Estadio Azteca', fifaName: 'Mexico City Stadium', hostCity: 'Ciudad de México', country: 'MEX', capacity: 83000, openedYear: 1966, role: 'Partido inaugural', wikipedia: 'https://en.wikipedia.org/wiki/Estadio_Azteca' },
+  { slug: 'estadio-akron',  name: 'Estadio Akron',  fifaName: 'Estadio Guadalajara', hostCity: 'Guadalajara',      country: 'MEX', capacity: 48000, openedYear: 2010, role: '4 partidos',         wikipedia: 'https://en.wikipedia.org/wiki/Estadio_Akron' },
+  { slug: 'estadio-bbva',   name: 'Estadio BBVA',   fifaName: 'Estadio Monterrey',   hostCity: 'Monterrey',        country: 'MEX', capacity: 53500, openedYear: 2015, role: '4 partidos',         wikipedia: 'https://en.wikipedia.org/wiki/Estadio_BBVA' },
   // Canada
-  { slug: 'bc-place',       name: 'BC Place',       hostCity: 'Vancouver',        country: 'CAN', capacity: 54500, openedYear: 1983, role: '7 partidos',         wikipedia: 'https://en.wikipedia.org/wiki/BC_Place' },
-  { slug: 'bmo-field',      name: 'BMO Field',      hostCity: 'Toronto',          country: 'CAN', capacity: 45000, openedYear: 2007, role: '6 partidos',         wikipedia: 'https://en.wikipedia.org/wiki/BMO_Field' },
+  { slug: 'bc-place',       name: 'BC Place',       fifaName: 'BC Place Vancouver',  hostCity: 'Vancouver',        country: 'CAN', capacity: 54000, openedYear: 1983, role: '7 partidos',         wikipedia: 'https://en.wikipedia.org/wiki/BC_Place' },
+  { slug: 'bmo-field',      name: 'BMO Field',      fifaName: 'Toronto Stadium',     hostCity: 'Toronto',          country: 'CAN', capacity: 45000, openedYear: 2007, role: '6 partidos',         wikipedia: 'https://en.wikipedia.org/wiki/BMO_Field' },
   // United States
-  { slug: 'metlife-stadium',          name: 'MetLife Stadium',          hostCity: 'East Rutherford', country: 'USA', capacity: 82500, openedYear: 2010, role: 'Final',          wikipedia: 'https://en.wikipedia.org/wiki/MetLife_Stadium' },
-  { slug: 'sofi-stadium',             name: 'SoFi Stadium',             hostCity: 'Inglewood',       country: 'USA', capacity: 70240, openedYear: 2020, role: '8 partidos',     wikipedia: 'https://en.wikipedia.org/wiki/SoFi_Stadium' },
-  { slug: 'att-stadium',              name: 'AT&T Stadium',             hostCity: 'Arlington',       country: 'USA', capacity: 80000, openedYear: 2009, role: '9 partidos',     wikipedia: 'https://en.wikipedia.org/wiki/AT%26T_Stadium' },
-  { slug: 'mercedes-benz-stadium',    name: 'Mercedes-Benz Stadium',    hostCity: 'Atlanta',         country: 'USA', capacity: 71000, openedYear: 2017, role: '8 partidos',     wikipedia: 'https://en.wikipedia.org/wiki/Mercedes-Benz_Stadium' },
-  { slug: 'gillette-stadium',         name: 'Gillette Stadium',         hostCity: 'Foxborough',      country: 'USA', capacity: 65878, openedYear: 2002, role: '7 partidos',     wikipedia: 'https://en.wikipedia.org/wiki/Gillette_Stadium' },
-  { slug: 'nrg-stadium',              name: 'NRG Stadium',              hostCity: 'Houston',         country: 'USA', capacity: 72220, openedYear: 2002, role: '7 partidos',     wikipedia: 'https://en.wikipedia.org/wiki/NRG_Stadium' },
-  { slug: 'arrowhead-stadium',        name: 'Arrowhead Stadium',        hostCity: 'Kansas City',     country: 'USA', capacity: 76416, openedYear: 1972, role: '6 partidos',     wikipedia: 'https://en.wikipedia.org/wiki/Arrowhead_Stadium' },
-  { slug: 'hard-rock-stadium',        name: 'Hard Rock Stadium',        hostCity: 'Miami Gardens',   country: 'USA', capacity: 64767, openedYear: 1987, role: '7 partidos',     wikipedia: 'https://en.wikipedia.org/wiki/Hard_Rock_Stadium' },
-  { slug: 'lincoln-financial-field',  name: 'Lincoln Financial Field',  hostCity: 'Philadelphia',    country: 'USA', capacity: 69796, openedYear: 2003, role: '6 partidos',     wikipedia: 'https://en.wikipedia.org/wiki/Lincoln_Financial_Field' },
-  { slug: 'levis-stadium',            name: "Levi's Stadium",           hostCity: 'Santa Clara',     country: 'USA', capacity: 68500, openedYear: 2014, role: '6 partidos',     wikipedia: "https://en.wikipedia.org/wiki/Levi's_Stadium" },
-  { slug: 'lumen-field',              name: 'Lumen Field',              hostCity: 'Seattle',         country: 'USA', capacity: 68740, openedYear: 2002, role: '6 partidos',     wikipedia: 'https://en.wikipedia.org/wiki/Lumen_Field' },
+  { slug: 'metlife-stadium',          name: 'MetLife Stadium',          fifaName: 'New York New Jersey Stadium', hostCity: 'East Rutherford', country: 'USA', capacity: 82500, openedYear: 2010, role: 'Final',          wikipedia: 'https://en.wikipedia.org/wiki/MetLife_Stadium' },
+  { slug: 'sofi-stadium',             name: 'SoFi Stadium',             fifaName: 'Los Angeles Stadium',         hostCity: 'Inglewood',       country: 'USA', capacity: 70000, openedYear: 2020, role: '8 partidos',     wikipedia: 'https://en.wikipedia.org/wiki/SoFi_Stadium' },
+  { slug: 'att-stadium',              name: 'AT&T Stadium',             fifaName: 'Dallas Stadium',              hostCity: 'Arlington',       country: 'USA', capacity: 94000, openedYear: 2009, role: '9 partidos',     wikipedia: 'https://en.wikipedia.org/wiki/AT%26T_Stadium' },
+  { slug: 'mercedes-benz-stadium',    name: 'Mercedes-Benz Stadium',    fifaName: 'Atlanta Stadium',             hostCity: 'Atlanta',         country: 'USA', capacity: 75000, openedYear: 2017, role: '8 partidos',     wikipedia: 'https://en.wikipedia.org/wiki/Mercedes-Benz_Stadium' },
+  { slug: 'gillette-stadium',         name: 'Gillette Stadium',         fifaName: 'Boston Stadium',              hostCity: 'Foxborough',      country: 'USA', capacity: 65000, openedYear: 2002, role: '7 partidos',     wikipedia: 'https://en.wikipedia.org/wiki/Gillette_Stadium' },
+  { slug: 'nrg-stadium',              name: 'NRG Stadium',              fifaName: 'Houston Stadium',             hostCity: 'Houston',         country: 'USA', capacity: 72000, openedYear: 2002, role: '7 partidos',     wikipedia: 'https://en.wikipedia.org/wiki/NRG_Stadium' },
+  { slug: 'arrowhead-stadium',        name: 'Arrowhead Stadium',        fifaName: 'Kansas City Stadium',         hostCity: 'Kansas City',     country: 'USA', capacity: 73000, openedYear: 1972, role: '6 partidos',     wikipedia: 'https://en.wikipedia.org/wiki/Arrowhead_Stadium' },
+  { slug: 'hard-rock-stadium',        name: 'Hard Rock Stadium',        fifaName: 'Miami Stadium',               hostCity: 'Miami Gardens',   country: 'USA', capacity: 65000, openedYear: 1987, role: '7 partidos',     wikipedia: 'https://en.wikipedia.org/wiki/Hard_Rock_Stadium' },
+  { slug: 'lincoln-financial-field',  name: 'Lincoln Financial Field',  fifaName: 'Philadelphia Stadium',        hostCity: 'Philadelphia',    country: 'USA', capacity: 69000, openedYear: 2003, role: '6 partidos',     wikipedia: 'https://en.wikipedia.org/wiki/Lincoln_Financial_Field' },
+  { slug: 'levis-stadium',            name: "Levi's Stadium",           fifaName: 'San Francisco Bay Area Stadium', hostCity: 'Santa Clara',  country: 'USA', capacity: 71000, openedYear: 2014, role: '6 partidos',     wikipedia: "https://en.wikipedia.org/wiki/Levi's_Stadium" },
+  { slug: 'lumen-field',              name: 'Lumen Field',              fifaName: 'Seattle Stadium',             hostCity: 'Seattle',         country: 'USA', capacity: 69000, openedYear: 2002, role: '6 partidos',     wikipedia: 'https://en.wikipedia.org/wiki/Lumen_Field' },
 ];
 
 export type Group26 = {
@@ -130,6 +140,7 @@ export const TEAMS_2026: Record<string, Team2026> = {
   CZE: { code: 'CZE', name: 'Chequia',          flag: '🇨🇿', conf: 'UEFA' },
   SCO: { code: 'SCO', name: 'Escocia',          flag: '🏴󠁧󠁢󠁳󠁣󠁴󠁿', conf: 'UEFA' },
   BIH: { code: 'BIH', name: 'Bosnia',           flag: '🇧🇦', conf: 'UEFA' },
+  TUR: { code: 'TUR', name: 'Turquía',          flag: '🇹🇷', conf: 'UEFA' },
   // CAF
   MAR: { code: 'MAR', name: 'Marruecos',        flag: '🇲🇦', conf: 'CAF' },
   SEN: { code: 'SEN', name: 'Senegal',          flag: '🇸🇳', conf: 'CAF' },
@@ -151,7 +162,6 @@ export const TEAMS_2026: Record<string, Team2026> = {
   IRQ: { code: 'IRQ', name: 'Irak',             flag: '🇮🇶', conf: 'AFC' },
   UZB: { code: 'UZB', name: 'Uzbekistán',       flag: '🇺🇿', conf: 'AFC' },
   JOR: { code: 'JOR', name: 'Jordania',         flag: '🇯🇴', conf: 'AFC' },
-  TUR: { code: 'TUR', name: 'Turquía',          flag: '🇹🇷', conf: 'UEFA' },
   // OFC
   NZL: { code: 'NZL', name: 'Nueva Zelanda',    flag: '🇳🇿', conf: 'OFC' },
 };

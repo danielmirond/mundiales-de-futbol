@@ -66,7 +66,7 @@ export const SEDES_2026: SedeCity[] = [
     whyHere:
       'Si vas a ver a España en su debut, Atlanta es donde aterrizas. Es la sede más fácil de llegar desde Madrid sin escalas (Iberia, Delta) y la única donde puedes ir andando del metro al estadio. Si te quedas un par de días extras, la oferta gastronómica del barrio histórico de West End y el Atlanta BeltLine son de las mejores experiencias urbanas del torneo.',
     aboutStadium:
-      'Inaugurado en 2017, el Mercedes-Benz Stadium tiene una de las cubiertas retráctiles más vistosas del mundo: ocho pétalos de acero que se abren en menos de ocho minutos. Aforo Mundial: 71.000. Acoge 8 partidos: cinco de fase de grupos (incluido España-Cabo Verde), un dieciseisavos, un octavos y un cuartos. Es además casa habitual del Atlanta United (MLS), el club con más asistencia media de la liga estadounidense, y los Atlanta Falcons (NFL). En el partido España-Cabo Verde, el techo estará abierto si la temperatura permite (junio en Atlanta = 28-32°C).',
+      'Inaugurado en 2017, el Mercedes-Benz Stadium tiene una de las cubiertas retráctiles más vistosas del mundo: ocho pétalos de acero que se abren en menos de ocho minutos. Aforo Mundial: 75.000. Acoge 8 partidos: cinco de fase de grupos (incluido España-Cabo Verde), un dieciseisavos, un octavos y un cuartos. Es además casa habitual del Atlanta United (MLS), el club con más asistencia media de la liga estadounidense, y los Atlanta Falcons (NFL). En el partido España-Cabo Verde, el techo estará abierto si la temperatura permite (junio en Atlanta = 28-32°C).',
     thingsToDo: [
       {
         title: 'World of Coca-Cola',
@@ -128,7 +128,7 @@ export const SEDES_2026: SedeCity[] = [
     whyHere:
       'Boston es la sede con más peso cultural del Mundial. Camina por el Freedom Trail (sendero rojo de 4 km que une 16 sitios históricos), pasea por Harvard Yard (Cambridge), come en el North End italiano, y luego viajas al partido. Si te interesa el deporte y la historia americana, ninguna otra sede mezcla ambos como Boston.',
     aboutStadium:
-      'Gillette Stadium fue inaugurado en 2002 y reformado en 2023 con una nueva torre lighthouse al lado norte. Capacidad Mundial: 65.878. Acoge 7 partidos: seis de fase de grupos y un dieciseisavos. Es la casa de los New England Patriots (NFL, seis Super Bowls con Tom Brady) y los New England Revolution (MLS). El campo tiene césped natural reinstalado para el Mundial (es césped artificial el resto del año, pero la FIFA exige natural). El barrio de Foxborough es residencial-rural, no esperes ambiente de ciudad alrededor.',
+      'Gillette Stadium fue inaugurado en 2002 y reformado en 2023 con una nueva torre lighthouse al lado norte. Capacidad Mundial: 65.000. Acoge 7 partidos: seis de fase de grupos y un dieciseisavos. Es la casa de los New England Patriots (NFL, seis Super Bowls con Tom Brady) y los New England Revolution (MLS). El campo tiene césped natural reinstalado para el Mundial (es césped artificial el resto del año, pero la FIFA exige natural). El barrio de Foxborough es residencial-rural, no esperes ambiente de ciudad alrededor.',
     thingsToDo: [
       {
         title: 'Freedom Trail',
@@ -184,13 +184,13 @@ export const SEDES_2026: SedeCity[] = [
     coords: [32.7473, -97.0945],
     airport: { iata: 'DFW', name: 'Dallas/Fort Worth International' },
     shortIntro:
-      'Dallas (Arlington) recibe 9 partidos del Mundial 2026, el AT&T Stadium es la sede con más partidos del torneo. Aforo 80.000.',
+      'Dallas (Arlington) recibe 9 partidos del Mundial 2026, el AT&T Stadium es la sede con más partidos del torneo. Aforo Mundial 94.000 (FIFA lo nombra «Dallas Stadium»).',
     heroEditorial:
       'Si MetLife es la sede de la final y el Azteca la del partido inaugural, AT&T Stadium en Arlington es la sede que más partidos acoge: nueve, incluyendo una de las dos semifinales. Es el estadio más grande del mundo dedicado al fútbol americano y, ahora, también del Mundial. El barrio de Arlington (entre Dallas y Fort Worth) es prácticamente un complejo de estadios: AT&T Stadium para los Cowboys, Globe Life Field para los Texas Rangers (béisbol), y el AT&T Stadium recibe el Mundial. Es un sitio diseñado para grandes eventos con mucho aparcamiento, mucha gastronomía rápida, y un ambiente alejado del centro de Dallas en sí.',
     whyHere:
       'Dallas es probablemente la sede con la mejor relación temperatura-confort del Mundial. El AT&T Stadium tiene cubierta retráctil (clave en Texas en junio-julio) y aire acondicionado. Si vienes a ver una semifinal, esta sede ofrece una capacidad enorme y entradas más asequibles que NY o LA por la diferencia de demanda. La cultura tex-mex local añade un atractivo extra para el aficionado latino.',
     aboutStadium:
-      'AT&T Stadium fue inaugurado en 2009 y revolucionó la forma en que se construyen estadios modernos: la pantalla de vídeo central tiene 49 metros de ancho y es la más grande del mundo. La cubierta retráctil se cierra completamente en 12 minutos. Capacidad Mundial: 80.000 (puede ampliarse a 100.000 con butacas adicionales que sí se usan en Super Bowls). Acoge 9 partidos: cinco de fase de grupos, un dieciseisavos, un octavos, un cuartos y una semifinal el 14 de julio. Es propiedad del magnate Jerry Jones (Cowboys) y conocido por los aficionados como "Jerry World".',
+      'AT&T Stadium fue inaugurado en 2009 y revolucionó la forma en que se construyen estadios modernos: la pantalla de vídeo central tiene 49 metros de ancho y es la más grande del mundo. La cubierta retráctil se cierra completamente en 12 minutos. Capacidad Mundial: 94.000, la mayor de todo el torneo según FIFA, gracias a las butacas adicionales que sí se usan en Super Bowls. Acoge 9 partidos: cinco de fase de grupos, un dieciseisavos, un octavos, un cuartos y una semifinal el 14 de julio. Es propiedad del magnate Jerry Jones (Cowboys) y conocido por los aficionados como "Jerry World".',
     thingsToDo: [
       {
         title: 'Six Flags Over Texas',
@@ -252,7 +252,7 @@ export const SEDES_2026: SedeCity[] = [
     whyHere:
       'Si quieres una sede USA donde el español sea de uso diario y el ambiente festivo se note desde que aterrizas, Houston es la opción. La NASA está aquí (Space Center Houston), la cocina tex-mex original también, y los precios son más bajos que en NY/LA/Miami.',
     aboutStadium:
-      'NRG Stadium se inauguró en 2002 y fue el primer estadio de la NFL con cubierta retráctil. Capacidad Mundial: 72.220. Acoge 7 partidos: seis de fase de grupos y un dieciseisavos. Es casa de los Houston Texans (NFL) y se ubica en el complejo NRG Park, donde también se celebran cada año los Houston Livestock Show and Rodeo (la mayor feria ganadera del mundo). El partido tipo Mundial tendrá la cubierta cerrada, la temperatura interior se mantiene a 22°C.',
+      'NRG Stadium se inauguró en 2002 y fue el primer estadio de la NFL con cubierta retráctil. Capacidad Mundial: 72.000. Acoge 7 partidos: seis de fase de grupos y un dieciseisavos. Es casa de los Houston Texans (NFL) y se ubica en el complejo NRG Park, donde también se celebran cada año los Houston Livestock Show and Rodeo (la mayor feria ganadera del mundo). El partido tipo Mundial tendrá la cubierta cerrada, la temperatura interior se mantiene a 22°C.',
     thingsToDo: [
       {
         title: 'Space Center Houston',
@@ -314,7 +314,7 @@ export const SEDES_2026: SedeCity[] = [
     whyHere:
       'Kansas City es la sede menos turística del Mundial y por eso la más americana de raíz. Si quieres ver un partido sin las masas de fans europeos y latinos que llenarán LA, Miami o NY, ésta es tu opción. Comida brutal, precios accesibles y ambiente NFL puro.',
     aboutStadium:
-      'Arrowhead Stadium fue inaugurado en 1972 y reformado en 2010. Capacidad Mundial: 76.416 (la mayor entre las sedes de USA tras MetLife y AT&T). Acoge 6 partidos de fase de grupos. Es la casa de los Kansas City Chiefs, equipo dominante de la NFL en los últimos años (3 Super Bowls 2020-2024). El campo lleva césped natural, sin cubierta. La FIFA exige reformar el sistema de aspersión y temperatura de raíz para que el césped soporte el verano de Missouri.',
+      'Arrowhead Stadium fue inaugurado en 1972 y reformado en 2010. Capacidad Mundial: 73.000. Acoge 6 partidos de fase de grupos. Es la casa de los Kansas City Chiefs, equipo dominante de la NFL en los últimos años (3 Super Bowls 2020-2024). El campo lleva césped natural, sin cubierta. La FIFA exige reformar el sistema de aspersión y temperatura de raíz para que el césped soporte el verano de Missouri.',
     thingsToDo: [
       {
         title: 'Joe\'s Kansas City Bar-B-Que',
@@ -376,7 +376,7 @@ export const SEDES_2026: SedeCity[] = [
     whyHere:
       'Los Ángeles tiene de todo: estadio espectacular, ciudad mítica, playa, Hollywood y comunidad latina enorme. La oferta gastronómica latinoamericana es la mejor de USA. Pero también es la sede más cara: hoteles, comidas, taxis, todo sube en junio-julio.',
     aboutStadium:
-      'SoFi Stadium tiene capacidad Mundial de 70.240 personas. Acoge 8 partidos: cinco de fase de grupos, un dieciseisavos, un octavos y un cuartos. Es casa de dos equipos NFL (Rams y Chargers, único caso del torneo). El campo tiene césped natural (Field Turf el resto del año, FIFA exige natural). El Infinity Screen, la pantalla circular suspendida, es el elemento más comentado por los visitantes. La cubierta semi-abierta deja entrar luz natural pero protege de la lluvia (rara en LA en junio-julio).',
+      'SoFi Stadium tiene capacidad Mundial de 70.000 personas. Acoge 8 partidos: cinco de fase de grupos, un dieciseisavos, un octavos y un cuartos. Es casa de dos equipos NFL (Rams y Chargers, único caso del torneo). El campo tiene césped natural (Field Turf el resto del año, FIFA exige natural). El Infinity Screen, la pantalla circular suspendida, es el elemento más comentado por los visitantes. La cubierta semi-abierta deja entrar luz natural pero protege de la lluvia (rara en LA en junio-julio).',
     thingsToDo: [
       {
         title: 'Hollywood Walk of Fame',
@@ -443,7 +443,7 @@ export const SEDES_2026: SedeCity[] = [
     whyHere:
       'Miami es la sede más latina del Mundial 2026. Si vienes desde España o LATAM, te sentirás como en casa: idioma, comida, música. Si quieres rendir homenaje a Messi en su nueva ciudad, Inter Miami juega en el DRV PNK Stadium (no en Hard Rock), pero verás su imagen por todas partes.',
     aboutStadium:
-      'Hard Rock Stadium se inauguró en 1987 y se reformó completamente en 2016 con cubierta nueva. Capacidad Mundial: 64.767. Acoge 7 partidos: seis de fase de grupos y un cuartos. Es casa de los Miami Dolphins (NFL) y de la Copa Miami Open (tenis). El campo tiene césped natural reinstalado para el Mundial. El barrio de Miami Gardens, donde está, queda a 25 km al norte de South Beach.',
+      'Hard Rock Stadium se inauguró en 1987 y se reformó completamente en 2016 con cubierta nueva. Capacidad Mundial: 65.000. Acoge 7 partidos: seis de fase de grupos y un cuartos. Es casa de los Miami Dolphins (NFL) y de la Copa Miami Open (tenis). El campo tiene césped natural reinstalado para el Mundial. El barrio de Miami Gardens, donde está, queda a 25 km al norte de South Beach.',
     thingsToDo: [
       {
         title: 'South Beach',
@@ -572,7 +572,7 @@ export const SEDES_2026: SedeCity[] = [
     whyHere:
       'Philadelphia ofrece densidad histórica única en USA + ambiente fan auténtico + corredor noreste accesible (a 90 minutos de NY en tren). Si vas a la final en MetLife, hacer escala 2 noches en Filadelfia es razonable.',
     aboutStadium:
-      'Lincoln Financial Field se inauguró en 2003. Capacidad Mundial: 69.796. Acoge 6 partidos de fase de grupos. Es la casa de los Philadelphia Eagles (NFL, Super Bowl 2018) y se ubica en South Philadelphia, a 5 km del centro histórico. El campo tiene césped natural. La FIFA reforma el sistema de iluminación específicamente para el torneo (los partidos del Mundial requieren más lux que la NFL).',
+      'Lincoln Financial Field se inauguró en 2003. Capacidad Mundial: 69.000. Acoge 6 partidos de fase de grupos. Es la casa de los Philadelphia Eagles (NFL, Super Bowl 2018) y se ubica en South Philadelphia, a 5 km del centro histórico. El campo tiene césped natural. La FIFA reforma el sistema de iluminación específicamente para el torneo (los partidos del Mundial requieren más lux que la NFL).',
     thingsToDo: [
       {
         title: 'Independence Hall + Liberty Bell',
@@ -634,7 +634,7 @@ export const SEDES_2026: SedeCity[] = [
     whyHere:
       'La Bay Area junta lo mejor: SF es una de las ciudades más bonitas de USA, el Silicon Valley es un fenómeno cultural en sí mismo y Napa Valley queda a 90 minutos al norte para escapadas de vino. Si te gusta la tecnología o el vino, esta sede da más juego que el propio partido.',
     aboutStadium:
-      'Levi\'s Stadium se inauguró en 2014. Capacidad Mundial: 68.500. Acoge 6 partidos de fase de grupos. Es la casa de los San Francisco 49ers (NFL, el equipo más exitoso de la liga en los 80-90 con Joe Montana y Steve Young). El campo es césped natural y, a diferencia de la mayoría de los estadios, no tiene cubierta (clima Bay Area es predecible y seco). Junio-julio en Santa Clara: 23-28°C, sin lluvia. Condiciones perfectas.',
+      'Levi\'s Stadium se inauguró en 2014. Capacidad Mundial: 71.000. Acoge 6 partidos de fase de grupos. Es la casa de los San Francisco 49ers (NFL, el equipo más exitoso de la liga en los 80-90 con Joe Montana y Steve Young). El campo es césped natural y, a diferencia de la mayoría de los estadios, no tiene cubierta (clima Bay Area es predecible y seco). Junio-julio en Santa Clara: 23-28°C, sin lluvia. Condiciones perfectas.',
     thingsToDo: [
       {
         title: 'Golden Gate Bridge',
@@ -696,7 +696,7 @@ export const SEDES_2026: SedeCity[] = [
     whyHere:
       'Seattle es la sede del noroeste pacífico, única, con identidad propia, y combinable con Vancouver para hacer cluster Canadá-USA. Si te interesan la tecnología, el café, el grunge histórico, o las islas San Juan, ésta es tu sede.',
     aboutStadium:
-      'Lumen Field se inauguró en 2002 (entonces Qwest Field). Capacidad Mundial: 68.740. Acoge 6 partidos de fase de grupos. Es la casa de los Seattle Seahawks (NFL, Super Bowl 2014) y los Seattle Sounders FC (MLS). Tiene la mayor asistencia media de cualquier equipo de la MLS (~40.000), por lo que el ambiente futbolístico local es real. Cubierta parcial: cubre las gradas pero no el campo. El campo es césped natural, clima Pacific Northwest es ideal.',
+      'Lumen Field se inauguró en 2002 (entonces Qwest Field). Capacidad Mundial: 69.000. Acoge 6 partidos de fase de grupos. Es la casa de los Seattle Seahawks (NFL, Super Bowl 2014) y los Seattle Sounders FC (MLS). Tiene la mayor asistencia media de cualquier equipo de la MLS (~40.000), por lo que el ambiente futbolístico local es real. Cubierta parcial: cubre las gradas pero no el campo. El campo es césped natural, clima Pacific Northwest es ideal.',
     thingsToDo: [
       {
         title: 'Pike Place Market',
@@ -760,7 +760,7 @@ export const SEDES_2026: SedeCity[] = [
     whyHere:
       'CDMX es la sede ineludible del Mundial. Si solo vas a un partido del torneo, ve a la inauguración. La ciudad da más de lo que esperas: cocina fenomenal, museos brutales (Frida Kahlo, Antropología), arquitectura barroca, ambiente fan latino auténtico. Todo a precios un tercio de los de Nueva York.',
     aboutStadium:
-      'El Estadio Azteca se inauguró en 1966 con un partido amistoso México-Torino. Capacidad Mundial: 87.523 (la mayor del torneo). Acoge 5 partidos: el inaugural el 11 de junio, tres más de fase de grupos, un dieciseisavos, y un octavos. Es además casa de los Pumas UNAM ocasionalmente, y del América (Liga MX), uno de los clubes más populares de Latinoamérica. Está a 2.250 metros sobre el nivel del mar, una desventaja competitiva real para selecciones europeas que jueguen aquí.',
+      'El Estadio Azteca se inauguró en 1966 con un partido amistoso México-Torino. Capacidad Mundial: 83.000 (FIFA lo nombra «Mexico City Stadium» durante el torneo, sin marca Banorte). Acoge 5 partidos: el inaugural el 11 de junio, tres más de fase de grupos, un dieciseisavos, y un octavos. Es además casa de los Pumas UNAM ocasionalmente, y del América (Liga MX), uno de los clubes más populares de Latinoamérica. Está a 2.250 metros sobre el nivel del mar, una desventaja competitiva real para selecciones europeas que jueguen aquí.',
     thingsToDo: [
       {
         title: 'Centro Histórico',
@@ -822,7 +822,7 @@ export const SEDES_2026: SedeCity[] = [
     whyHere:
       'Si vas a ver España vs Uruguay, esta es tu sede. Guadalajara es además la mejor base para visitar Tequila (el pueblo, no la bebida) y Puerto Vallarta (a 4 horas). Más asequible que CDMX y con identidad única.',
     aboutStadium:
-      'El Estadio Akron (oficialmente Estadio Akron por patrocinio) se inauguró en 2010. Capacidad Mundial: 46.355, el más pequeño del Mundial 2026. Acoge 4 partidos de fase de grupos. Es la casa de las Chivas de Guadalajara (Liga MX) y conocido por su diseño moderno con cubierta verde inspirada en el agave. Está en Zapopan, a 25 km del centro de Guadalajara.',
+      'El Estadio Akron (oficialmente Estadio Akron por patrocinio) se inauguró en 2010. Capacidad Mundial: 48.000. Acoge 4 partidos de fase de grupos. Es la casa de las Chivas de Guadalajara (Liga MX) y conocido por su diseño moderno con cubierta verde inspirada en el agave. Está en Zapopan, a 25 km del centro de Guadalajara.',
     thingsToDo: [
       {
         title: 'Centro Histórico',
@@ -1010,7 +1010,7 @@ export const SEDES_2026: SedeCity[] = [
     whyHere:
       'Vancouver es la sede más bonita del Mundial 2026: naturaleza extrema en pleno centro urbano. Si te interesan los paisajes y combinar Mundial con escapada a Whistler o Alaska, ésta es tu base. Encaja muy bien con Seattle (160 km al sur, en USA).',
     aboutStadium:
-      'BC Place se inauguró en 1983 con un partido de Cosmos NY-Vancouver Whitecaps (sí, con Pelé jugando para Cosmos). Reformado en 2011 con cubierta retráctil. Capacidad Mundial: 54.500. Acoge 7 partidos: seis de fase de grupos y un dieciseisavos. Es la casa de los Vancouver Whitecaps FC (MLS) y los BC Lions (CFL). Su forma característica, cubierta blanca y abultada, es uno de los iconos visuales de la ciudad.',
+      'BC Place se inauguró en 1983 con un partido de Cosmos NY-Vancouver Whitecaps (sí, con Pelé jugando para Cosmos). Reformado en 2011 con cubierta retráctil. Capacidad Mundial: 54.000. Acoge 7 partidos: seis de fase de grupos y un dieciseisavos. Es la casa de los Vancouver Whitecaps FC (MLS) y los BC Lions (CFL). Su forma característica, cubierta blanca y abultada, es uno de los iconos visuales de la ciudad.',
     thingsToDo: [
       {
         title: 'Stanley Park',
