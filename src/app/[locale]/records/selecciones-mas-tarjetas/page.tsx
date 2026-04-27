@@ -124,6 +124,14 @@ export default async function SeleccionesTarjetasPage({
             </tbody>
           </table>
         </div>
+        <p className="mt-8 max-w-3xl text-xs leading-relaxed text-[var(--color-fg-subtle)]">
+          El ranking refleja el total acumulado, no la disciplina relativa.
+          Brasil, Argentina y Uruguay están en lo alto en parte porque son las
+          selecciones con más participaciones (22, 18 y 14 Mundiales jugados
+          respectivamente). La cobertura minute-by-minute de tarjetas es
+          completa desde 1994; en Mundiales anteriores los registros pueden
+          subestimar amonestaciones leves no recogidas en el reporte oficial.
+        </p>
       </section>
 
       <div className="h-24" />

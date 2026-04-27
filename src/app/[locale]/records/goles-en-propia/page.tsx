@@ -103,6 +103,13 @@ export default async function GolesPropiaPage({
             { label: 'Mund.', value: (p) => p.wc_count, hideOnMobile: true },
           ]}
         />
+        <p className="mt-8 max-w-3xl text-xs leading-relaxed text-[var(--color-fg-subtle)]">
+          Dato curioso: ningún jugador ha marcado más de un autogol en la
+          historia de los Mundiales. Sí hay quienes anotaron en su puerta y en
+          la contraria en el mismo torneo (Ernie Brandts en 1978, Ruud Krol en
+          1974, Marcelo en 2018). Rusia 2018 batió el récord de la edición con
+          12 autogoles; el total acumulado de 1930 a 2022 supera los 50.
+        </p>
       </section>
 
       <div className="h-24" />

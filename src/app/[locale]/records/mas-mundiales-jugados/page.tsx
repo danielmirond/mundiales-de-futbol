@@ -90,7 +90,7 @@ export default async function MasMundialesPage({
           Más Mundiales<br />jugados
         </h1>
         <p className="mt-6 max-w-3xl text-lg leading-relaxed text-[var(--color-fg-muted)] md:text-xl">
-          Solo cinco jugadores en la historia han disputado cinco Mundiales: Antonio Carbajal (México, 1950-1966), Lothar Matthäus (Alemania, 1982-1998), Rafael Márquez (México, 2002-2018), Lionel Messi (Argentina, 2006-2022) y Cristiano Ronaldo (Portugal, 2006-2022). Messi añade un sexto en 2026 si llega.
+          Solo seis jugadores en la historia han disputado cinco Mundiales: Antonio Carbajal (México, 1950-1966), Lothar Matthäus (Alemania, 1982-1998), Rafael Márquez (México, 2002-2018), Andrés Guardado (México, 2006-2022), Lionel Messi (Argentina, 2006-2022) y Cristiano Ronaldo (Portugal, 2006-2022). Messi y CR7 podrían sumar el sexto en 2026.
         </p>
       </header>
 
@@ -105,6 +105,13 @@ export default async function MasMundialesPage({
             { label: 'Min.', value: (p) => p.total_minutes, hideOnMobile: true },
           ]}
         />
+        <p className="mt-8 max-w-3xl text-xs leading-relaxed text-[var(--color-fg-subtle)]">
+          Récord absoluto: 6 jugadores con 5 Mundiales (lista arriba). En partidos
+          el ranking lo lidera Messi con 26, seguido de Matthäus con 25 y CR7
+          con 22. Si en la tabla no aparece alguno de los 6 con 5 Mundiales,
+          revisa su ficha individual: la convocatoria está, pero el agregado
+          puede tardar en sincronizar.
+        </p>
       </section>
 
       <section className="mx-auto mt-20 w-full max-w-[1400px] px-6 md:px-10">

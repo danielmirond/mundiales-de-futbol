@@ -358,6 +358,271 @@ Esa noche, Varela bajó al hotel del equipo brasileño y bebió con ellos. No fu
 
 Toni Padilla, en su libro sobre el Maracanazo publicado por Panenka en 2014, recuperó la cita y la contextualizó dentro del personaje completo de Varela: el sindicalista del Peñarol, el peón rural devenido capitán, el negro que jugó cuando casi no había negros en la selección uruguaya. Setenta y seis años después, sigue siendo lo más alto que ha dicho un capitán de selección sobre el día más feliz de su carrera. Y la prueba de que la grandeza deportiva, cuando es genuina, también es ética.`,
   },
+
+  // ───────────────────────────────────────────────────────────
+  // Bloque S2 · Profecías, predicciones y papelones (1-7 mayo 2026)
+  // Fuentes verificadas con WebFetch contra Wikipedia abr 2026.
+  // ───────────────────────────────────────────────────────────
+
+  {
+    n: 8,
+    slug: 'pak-doo-ik-italia-corea-1966',
+    publishDate: '2026-05-01',
+    blockCode: 'S2',
+    category: 'polemica',
+    protagonist: 'Pak Doo-ik / Italia',
+    quote: 'Volveremos a casa con la copa en el bolsillo',
+    quoteDate: '1966-07-15',
+    context:
+      'Mundial de Inglaterra 1966, fase de grupos. Italia llegaba como una de las grandes favoritas con Rivera, Mazzola y Facchetti. El 19 de julio, en Ayresome Park de Middlesbrough, Corea del Norte, debutante absoluta, ganó 1-0 con gol de Pak Doo-ik al minuto 42 y dejó a la Azzurra fuera en primera fase.',
+    source: {
+      name: 'Wikipedia, 1966 FIFA World Cup Group 4',
+      url: 'https://en.wikipedia.org/wiki/1966_FIFA_World_Cup_Group_4',
+    },
+    sourceSecondary: 'Wikipedia (Pak Doo-ik) · BBC Sport · La Gazzetta dello Sport',
+    certainty: 'Media-Alta',
+    title: 'Pak Doo-ik, el cabo del ejército que humilló a Italia en 1966',
+    excerpt:
+      'El 19 de julio de 1966 Corea del Norte ganó 1-0 a Italia en Middlesbrough. Pak Doo-ik marcó al 42 y mandó a casa a una de las favoritas del Mundial.',
+    cover: {
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/1966_world_cup.png?width=1200',
+      alt: 'Mapa oficial del Mundial de Inglaterra 1966, sede del histórico Italia 0-1 Corea del Norte',
+      credit: 'Foto: Wikimedia Commons',
+      license: 'Dominio público',
+      source: 'https://commons.wikimedia.org/wiki/File:1966_world_cup.png',
+    },
+    body: `Italia llegó al Mundial de Inglaterra en 1966 con la fanfarria habitual de las grandes potencias. Tenía a Gianni Rivera, a Sandro Mazzola, a Giacinto Facchetti, al portero Enrico Albertosi. Tenía dos Copas del Mundo en las vitrinas, las de 1934 y 1938, y un Calcio que era ya entonces el campeonato más rico de Europa. Las crónicas previas lo daban casi todo por descontado: la prensa italiana hablaba de la final de Wembley antes incluso del primer partido, y desde el staff azzurro circulaba la frase que iba a comerse media historia del torneo: «volveremos a casa con la copa en el bolsillo».
+
+Enfrente, en el último partido del Grupo 4, había una selección que casi nadie había visto jugar: Corea del Norte. Era su debut absoluto en un Mundial. Habían llegado tras un proceso clasificatorio caótico, después de que la FIFA agrupara África, Asia y Oceanía en una sola plaza y dieciséis selecciones africanas se retiraran en protesta. Los jugadores eran soldados del Ejército Popular de Corea con permiso especial para entrenarse durante meses como bloque. El cabo Pak Doo-ik, nacido en Pyongyang en 1943, era uno de ellos.
+
+El 19 de julio, en Ayresome Park de Middlesbrough, ante 17.829 espectadores, Pak marcó al minuto 42. Robó un balón en el centro del campo, avanzó unos metros y disparó cruzado con la pierna derecha. El portero italiano, Albertosi, no llegó. Italia atacó toda la segunda parte, pero el marcador no se movió. Corea del Norte pasaba como segunda de grupo. Italia volvía a casa eliminada en primera fase por una selección que la prensa italiana había bautizado, con suficiencia, como «los enanos amarillos».
+
+La vuelta a Italia es el otro capítulo del relato. La selección aterrizó en Génova en lugar de Roma para evitar Fiumicino, pero la noticia ya había corrido. Centenares de tifosi esperaban en el aeropuerto con tomates podridos y los lanzaron contra los jugadores y el seleccionador Edmondo Fabbri. La imagen del recibimiento se convirtió en la primera prueba documentada de un género que el fútbol italiano repetiría: la humillación pública del fracaso. Fabbri fue cesado de inmediato. Varios jugadores no volvieron a vestir la Azzurra.
+
+Pak Doo-ik tuvo una segunda vida menos fotográfica. Tras el Mundial fue ascendido a sargento, dejó el ejército y trabajó como profesor de educación física en Pyongyang. Durante años circuló en Italia la leyenda de que era dentista, una versión romántica que el periodismo italiano dio por buena durante décadas y que él mismo desmintió cuando la BBC lo localizó a finales de los noventa. En 2008 portó la antorcha olímpica de Pekín en su tramo norcoreano. La frase italiana, en cambio, sobrevivió a todo: cada vez que la Azzurra cae contra un rival modesto, Corea del Sur en 2002, Eslovaquia en 2010, Suecia en 2017, Macedonia del Norte en 2022, algún cronista la rescata. La copa, finalmente, no cabía en aquel bolsillo.`,
+  },
+  {
+    n: 9,
+    slug: 'pele-prediccion-africa-campeona',
+    publishDate: '2026-05-02',
+    blockCode: 'S2',
+    category: 'profetica',
+    protagonist: 'Pelé',
+    quote: 'Antes del año 2000, un país africano será campeón del mundo',
+    quoteDate: '1977-01-01',
+    context:
+      'Pelé pronunció la frase a finales de los años setenta, en plena gira con el New York Cosmos, durante una serie de entrevistas en las que se le pedía que pronosticara el futuro del fútbol. La predicción se ha repetido durante medio siglo cada vez que una selección africana llega lejos en un Mundial. Sigue sin cumplirse en 2026.',
+    source: {
+      name: 'Wikipedia, Confederation of African Football',
+      url: 'https://en.wikipedia.org/wiki/Confederation_of_African_Football',
+    },
+    sourceSecondary: 'The Guardian · BBC Sport · France Football',
+    certainty: 'Media',
+    title: 'Pelé y la profecía africana que ya tiene casi medio siglo de retraso',
+    excerpt:
+      'Pelé prometió que un país africano ganaría un Mundial antes del año 2000. Veintiséis años después de la fecha, ninguna selección africana ha jugado siquiera una final.',
+    cover: {
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Pel%C3%A9_1960.jpg?width=1200',
+      alt: 'Pelé fotografiado en 1960, en plena etapa con el Santos FC',
+      credit: 'Foto: Wikimedia Commons',
+      license: 'Dominio público',
+      source: 'https://commons.wikimedia.org/wiki/File:Pel%C3%A9_1960.jpg',
+    },
+    body: `Pelé dijo muchas cosas a lo largo de su vida y casi todas se le citaron mal. Pero ninguna ha sobrevivido tanto como aquella predicción de finales de los setenta: un país africano sería campeón del mundo antes del año 2000. La frase aparece atribuida en distintas entrevistas, en su gira con el New York Cosmos y en declaraciones a medios europeos durante el Mundial de Argentina 1978. La fecha exacta es difícil de fijar; el contenido, en cambio, no se ha movido nunca. Pelé estaba convencido. África venía, África estaba madurando, África iba a llegar.
+
+Las pruebas materiales que tenía Pelé en aquel momento eran reales. Marruecos había debutado en México 70 con dignidad. Zaire, en Alemania 74, fue una catástrofe, nueve goles encajados en tres partidos, pero abrió la puerta al continente. Túnez, en Argentina 78, ganó a México y empató con Alemania Federal. La FIFA, presionada por la propia CAF, había ampliado el cupo africano de una a dos plazas. Pelé, que era ya por entonces embajador de la propia FIFA, leyó la tendencia. Antes del año 2000, escribió, África ganaría una Copa del Mundo.
+
+La realidad fue más tozuda. En el medio siglo transcurrido desde la profecía, ninguna selección africana ha jugado una final del Mundial. Camerún hizo cuartos en Italia 90, hasta que Roger Milla y compañía cayeron contra una Inglaterra de Lineker en la prórroga. Senegal repitió cuartos en Corea-Japón 2002. Ghana llegó a un cuarto de final en Sudáfrica 2010 y se quedó ahí, en un penal fallado por Asamoah Gyan en el último minuto contra Uruguay después de que Suárez hubiera detenido un balón con la mano. El techo africano siempre fue el mismo: ocho equipos, ni uno menos, ni uno más.
+
+Marruecos rompió el muro en Qatar 2022. Llegó a semifinales eliminando a España y Portugal por el camino, terminó cuarta y se convirtió en la primera selección africana, y árabe, en pisar la antesala de la final. Walid Regragui había construido un equipo defensivo extraordinario, con Bono en portería, Hakimi en el lateral y un colectivo entero acostumbrado a sufrir. Pero el milagro se detuvo contra Francia. La final siguió siendo un territorio inaccesible.
+
+La profecía de Pelé está hoy en el lugar incómodo de las predicciones generosas que no envejecen bien. La pronunció con la mejor de las intenciones, un brasileño negro que entendía mejor que nadie la escasa visibilidad del fútbol africano, pero confundió la potencia del talento individual con la maquinaria de las federaciones. Las grandes ligas europeas se llevaron a los mejores futbolistas africanos antes de que pudieran consolidar selecciones competitivas en casa. La burocracia futbolística africana, plagada de escándalos, hizo el resto. La frase queda como un acto de fe a contracorriente: el día que un país africano levante la copa, alguien volverá a citarla. Pelé tendrá razón con cincuenta años de retraso. Pero todavía no.`,
+  },
+  {
+    n: 10,
+    slug: 'mineirazo-brasil-1-7-alemania-2014',
+    publishDate: '2026-05-03',
+    blockCode: 'S2',
+    category: 'tragica',
+    protagonist: 'Brasil 2014',
+    quote: 'Hexa! Hexa! Hexa!',
+    quoteDate: '2014-07-08',
+    context:
+      'Semifinal del Mundial de Brasil 2014, 8 de julio en Mineirão de Belo Horizonte. Brasil llegaba sin Neymar, lesionado en cuartos por Zúñiga, y sin Thiago Silva, sancionado. La afición había cantado todo el torneo el «Hexa», el sexto título mundial. Alemania marcó siete goles. Cinco de ellos en 18 minutos.',
+    source: {
+      name: 'Wikipedia, Brasil 1-7 Alemania',
+      url: 'https://es.wikipedia.org/wiki/Brasil_1-7_Alemania',
+    },
+    sourceSecondary: 'O Globo · Folha de São Paulo · The Guardian',
+    certainty: 'Alta',
+    title: 'Mineirazo: la noche en que Alemania apagó a Brasil en su propia casa',
+    excerpt:
+      'Brasil cantaba el «Hexa» antes del partido. Alemania marcó cinco goles en 18 minutos y firmó la mayor humillación deportiva del país anfitrión.',
+    cover: {
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Mineir%C3%A3o_2014.jpg?width=1200',
+      alt: 'Estadio Mineirão de Belo Horizonte durante el Mundial de Brasil 2014, escenario del 1-7 ante Alemania',
+      credit: 'Foto: Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+      source: 'https://commons.wikimedia.org/wiki/File:Mineir%C3%A3o_2014.jpg',
+    },
+    body: `Brasil había llegado a la semifinal del Mundial 2014 con un torneo accidentado pero suficiente. Había sufrido contra Chile en octavos, penales, había vencido a Colombia en cuartos pagando un precio doble: la lesión de vértebra de Neymar tras la entrada de Camilo Zúñiga y la segunda amarilla de Thiago Silva, que le dejaba fuera del siguiente partido. La selección de Luiz Felipe Scolari iba a jugar la semifinal contra Alemania sin su mejor jugador y sin su capitán defensivo. Aun así, en las calles de Belo Horizonte y en el propio Mineirão, el cántico era el de siempre: «Hexa, hexa, hexa», el sexto título mundial, el que Brasil llevaba doce años persiguiendo desde Corea-Japón 2002.
+
+Lo que pasó el 8 de julio de 2014, entre las 17:00 y las 18:50 hora local, no tiene comparación moderna. Thomas Müller marcó al minuto 11. Miroslav Klose, que con ese tanto se convirtió en máximo goleador histórico de Mundiales, superando a Ronaldo Nazário, al 23. Toni Kroos al 24 y al 26. Sami Khedira al 29. Cinco goles en 18 minutos. Cuatro de ellos en seis. Cuando se cumplió la primera media hora, Alemania ganaba 5-0 a Brasil en una semifinal del Mundial jugada en Brasil. La estadística parece un error tipográfico. No lo era.
+
+Las cámaras buscaron caras en las gradas y encontraron lo que buscaban: una niña llorando, un hombre tapándose los ojos, otro santiguándose, una pareja que se abrazaba sin mirar al campo. David Luiz, capitán esa noche en sustitución de Thiago Silva, gritaba a sus compañeros como un náufrago. Júlio César, en la portería, se había convertido en un espectador más. Scolari, en el banquillo, parecía un hombre al que estaban echando de su propia fiesta. El público, asombrosamente, comenzó a aplaudir a Alemania en el segundo tiempo. André Schürrle marcó dos más, al 69 y al 79. Óscar redujo distancias al 90. 1-7. El marcador final más doloroso de la historia del fútbol brasileño.
+
+La derrota tuvo varias capas. La primera, deportiva: la generación de Müller, Klose, Kroos, Khedira y Mats Hummels remataba un proceso de doce años iniciado por Jürgen Klinsmann y consolidado por Joachim Löw, y cuatro días después ganaría el Mundial contra Argentina con un gol de Mario Götze. Brasil, en cambio, perdió también el partido por el tercer puesto contra Holanda (3-0) y se fue del torneo eliminada por once goles en dos partidos. La segunda capa, simbólica: el Maracanazo de 1950 había sido una derrota silenciosa, y Brasil tardó décadas en hablar de él. El Mineirazo, en cambio, fue retransmitido en directo a 64 países, comentado en redes sociales en tiempo real, convertido en meme en cuestión de horas. La humillación llegó completa, instantánea y archivada para siempre.
+
+David Luiz salió del campo llorando, pidió disculpas a los aficionados a la salida del estadio y se convirtió en la imagen del desastre. «Quería darle felicidad al pueblo brasileño», dijo en zona mixta, sin poder mantener la voz. La frase, descontextualizada, viajó por el mundo. La selección no volvió a llamarse Hexa con la misma confianza. En 2018, en 2022, los cánticos eran más cautos. Algo se había roto en Belo Horizonte y nunca terminó de arreglarse: la convicción brasileña de que un Mundial en casa solo podía terminar de una manera. El fútbol, esa tarde, recordó a un país entero que su historia tenía dos finales posibles.`,
+  },
+  {
+    n: 11,
+    slug: 'its-coming-home-inglaterra-three-lions',
+    publishDate: '2026-05-04',
+    blockCode: 'S2',
+    category: 'humor',
+    protagonist: 'Inglaterra',
+    quote: "It's coming home",
+    quoteDate: '1996-05-20',
+    context:
+      'Estribillo de «Three Lions», canción compuesta por Ian Broudie (Lightning Seeds) con letra de los humoristas David Baddiel y Frank Skinner para la Eurocopa de 1996, jugada en Inglaterra. La canción fue número uno y se convirtió en el himno extraoficial del fútbol inglés. Treinta años después, la copa sigue sin venir a casa.',
+    source: {
+      name: 'Wikipedia, Three Lions (song)',
+      url: 'https://en.wikipedia.org/wiki/Three_Lions_(song)',
+    },
+    sourceSecondary: 'BBC Sport · The Guardian · NME',
+    certainty: 'Alta',
+    title: '«It\'s coming home»: la profecía inglesa que lleva treinta años sin cumplirse',
+    excerpt:
+      'En 1996, Skinner, Baddiel y Lightning Seeds prometieron que el fútbol volvía a casa. Inglaterra lleva siete torneos cayendo en finales y semifinales, casi todas en penales.',
+    cover: {
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Wembley_Stadium_closeup.jpg?width=1200',
+      alt: 'Wembley Stadium, sede emocional del fútbol inglés y de la Eurocopa de 1996',
+      credit: 'Foto: Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+      source: 'https://commons.wikimedia.org/wiki/File:Wembley_Stadium_closeup.jpg',
+    },
+    body: `Cuando Ian Broudie compuso «Three Lions» a principios de 1996, la Federación Inglesa le había hecho un encargo concreto: una canción para acompañar a la selección anfitriona durante la Eurocopa de aquel verano, la primera competición internacional grande que se jugaba en Inglaterra desde el Mundial de 1966. Broudie, líder de Lightning Seeds, descartó la idea inicial de que la cantaran los jugadores. Llamó a David Baddiel y Frank Skinner, dos humoristas que tenían un programa de comedia futbolística en la BBC, y les pidió la letra. La premisa era exacta: una canción de hincha, no de profesional. «Ser hincha del fútbol inglés es, el 90 % del tiempo, perder», dijo Broudie en una entrevista posterior. Había que partir de ahí.
+
+La letra, publicada el 20 de mayo de 1996, hablaba de Bobby Moore levantando la copa, de Bobby Charlton abriendo el cuerpo, de Nobby Stiles bailando, de la salvada de Gordon Banks en México 70. Listaba derrotas con resignación británica y aun así repetía un estribillo de cinco palabras: «It's coming home, it's coming home, football's coming home». El fútbol vuelve a casa. La frase tenía una doble lectura: porque la Eurocopa se jugaba en Inglaterra, donde había nacido el deporte, y porque, treinta años después de Wembley 66, igual era el momento de ganar otra vez.
+
+La Eurocopa terminó en penales. Inglaterra cayó en semifinales contra Alemania, en el propio Wembley, después de empatar 1-1 en la prórroga y fallar el sexto penalti, Gareth Southgate, futuro seleccionador, fue quien lo erró. Alemania ganó el torneo. La canción, sin embargo, llegó al número uno de listas. Los autores la actualizarían con una versión nueva en 1998, en 2018 y en 2022. La estructura emocional era siempre la misma: lista de derrotas, esperanza renovada, derrota nueva.
+
+Las cifras no han mejorado mucho. Después de Italia 90, semifinales perdidas en penales contra Alemania, las lágrimas de Gascoigne, la frase de Lineker, vinieron Eurocopa 96, Mundial 2002 y 2006 sin pasar de cuartos, Mundial 2010 humillación contra Alemania (4-1), Mundial 2014 fuera en primera fase, Eurocopa 2016 derrota contra Islandia. El siglo XXI inglés es un récord casi paródico de fracaso colectivo. Sólo Gareth Southgate, paradójicamente el hombre que falló aquel penalti de 1996, consiguió devolver la dignidad: semifinal en Rusia 2018, final de la Eurocopa 2020 perdida en penales contra Italia en Wembley, final de la Eurocopa 2024 perdida 2-1 contra España en Berlín.
+
+La canción ha cumplido treinta años sin que la copa haya llegado a casa. Skinner y Baddiel han hecho del estribillo una broma reconocible: cada vez que Inglaterra clasifica para algo, la frase reaparece en redes sociales con un guiño autocrítico. Es probablemente el caso más hermoso de profecía deportiva fallida del fútbol europeo: una canción que prometía la vuelta del título y que, en cambio, se convirtió en una crónica involuntaria de cómo Inglaterra perdía. Cuando la selección por fin gane algo grande, alguien tendrá que escribir otra canción. Esta ya está dedicada para siempre al género contrario.`,
+  },
+  {
+    n: 12,
+    slug: 'maracana-portadas-brasil-campeao-1950',
+    publishDate: '2026-05-05',
+    blockCode: 'S2',
+    category: 'tragica',
+    protagonist: 'Brasil 1950 / O Mundo',
+    quote: 'Brasil campeão del Mundial 1950',
+    quoteDate: '1950-07-16',
+    context:
+      'La mañana del 16 de julio de 1950 los diarios de Río ya celebraban el título brasileño. O Mundo titulaba a página completa con la foto del equipo y el rótulo «Brasil campeão». El alcalde de Río pronunció un discurso pregrabado dirigido a «los campeones del mundo». Por la tarde, Uruguay ganó 2-1 en el Maracaná.',
+    source: {
+      name: 'Wikipedia, Uruguay v Brazil (1950 FIFA World Cup)',
+      url: 'https://en.wikipedia.org/wiki/Uruguay_v_Brazil_(1950_FIFA_World_Cup)',
+    },
+    sourceSecondary: 'Jot Down · Toni Padilla, Mundial 1950 (Panenka) · Folha de São Paulo',
+    certainty: 'Alta',
+    title: 'Las portadas brasileñas que coronaron a un campeón antes de tiempo',
+    excerpt:
+      'El 16 de julio de 1950, Río amaneció con titulares celebrando un Mundial que aún no se había jugado. Por la tarde, Ghiggia silenció el Maracaná y enterró las medallas grabadas con los nombres equivocados.',
+    cover: {
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Maracan%C3%A3_panorama.jpg?width=1200',
+      alt: 'Vista panorámica del estadio Maracaná de Río de Janeiro, escenario del Maracanazo de 1950',
+      credit: 'Foto: Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+      source: 'https://commons.wikimedia.org/wiki/File:Maracan%C3%A3_panorama.jpg',
+    },
+    body: `El 16 de julio de 1950 amaneció en Río con la sensación de que la historia ya estaba escrita. El periódico O Mundo, uno de los diarios más leídos de la ciudad, había publicado en su edición matutina una portada gigante con la foto de la selección brasileña y un rótulo a toda página: «Estes são os campeões do mundo». A Brasil le bastaba con un empate contra Uruguay esa tarde para ser campeón, el formato del Mundial de 1950 era una liguilla final entre cuatro equipos, sin eliminatorias, y todo Río daba el partido por ganado. Los demás diarios competían en la misma dirección. La Diario de Notícias preparó una edición especial. La radio Tupi tenía listo el guion del programa de celebración.
+
+La logística institucional iba al mismo ritmo. La Confederación Brasileña de Deportes había encargado 22 medallas de oro con los nombres de los jugadores grabados al reverso, listas para entregar tras el partido. La FIFA había hecho imprimir 500.000 camisetas conmemorativas. Ángel Mendes de Moraes, alcalde de Río de Janeiro, llegó al estadio con un discurso preparado: «Vosotros, brasileños, a los que considero ya vencedores del campeonato mundial...». Lo leyó por megafonía antes del inicio. Jules Rimet, presidente de la FIFA, llevaba en el bolsillo otro discurso, redactado en portugués, para entregar la copa al capitán brasileño.
+
+El Maracaná, recién inaugurado para el Mundial, registró 173.850 espectadores oficiales, las estimaciones reales hablan de cerca de 200.000. Friaça abrió el marcador al minuto 47. Schiaffino empató al 66. Y Alcides Ghiggia, al 79, fusiló a Moacir Barbosa con un disparo cruzado en el primer palo. El estadio se quedó tan en silencio que el cronista uruguayo Carlos Solé describió aquel momento como «el silencio más largo del fútbol mundial». Hubo desmayos en las tribunas. Hubo dos infartos confirmados. Cuando Rimet bajó al campo para entregar la copa, no encontró a ningún brasileño organizando la ceremonia. Se la dio a Obdulio Varela en mitad del campo, casi a escondidas, sin discurso, sin micrófono.
+
+Las consecuencias del Maracanazo fueron geológicas. La camiseta blanca con cuello azul que vestía Brasil aquel día fue declarada «no patriótica» por la prensa. Tres años después, en 1953, el periódico Correio da Manhã convocó un concurso público para diseñar un nuevo uniforme. Ganó Aldyr Garcia Schlee, un joven de Pelotas, con la camiseta amarilla, el cuello verde y los pantalones azules. Brasil estrenó el conjunto en 1954 y nunca volvió a jugar de blanco. Las medallas de oro grabadas con los nombres de los jugadores se quedaron en cajas. Los discursos preparados quedaron en archivos. Y Moacir Barbosa, el portero, cargó durante medio siglo con la culpa del gol de Ghiggia hasta su muerte en 2000. «En Brasil, la condena máxima es de treinta años», dijo poco antes de morir. «Yo llevo cincuenta».
+
+La portada de O Mundo se conserva hoy en archivos de hemeroteca como el documento más célebre del periodismo deportivo brasileño. Es la prueba de que un país entero llegó a creer en una victoria que todavía no había ocurrido. Setenta y seis años después, Brasil ha ganado cinco Copas del Mundo. Pero la palabra Maracanazo sigue siendo el nombre que se le da a cualquier derrota imposible. Y los titulares que coronaron a un equipo antes del pitido inicial siguen siendo el ejemplo perfecto de por qué el fútbol no se gana en las imprentas.`,
+  },
+  {
+    n: 13,
+    slug: 'hungria-1954-magiares-magicos-final-perdida',
+    publishDate: '2026-05-06',
+    blockCode: 'S2',
+    category: 'tragica',
+    protagonist: 'Hungría / Ferenc Puskás',
+    quote: 'Imposible perder, somos invencibles',
+    quoteDate: '1954-07-04',
+    context:
+      'Hungría llegó a la final del Mundial 1954 con una racha de 33 partidos invicta y la fama de mejor selección del mundo. Tenía a Puskás, Hidegkuti, Kocsis, Czibor y Bozsik. En la fase de grupos había goleado 8-3 a la Alemania Federal. La final, jugada el 4 de julio en Berna bajo lluvia, terminó 3-2 para Alemania.',
+    source: {
+      name: 'Wikipedia, Final de la Copa Mundial de Fútbol de 1954',
+      url: 'https://es.wikipedia.org/wiki/Final_de_la_Copa_Mundial_de_F%C3%BAtbol_de_1954',
+    },
+    sourceSecondary: 'Wikipedia (1954 FIFA World Cup Final) · Der Spiegel · The Guardian',
+    certainty: 'Media-Alta',
+    title: 'Hungría 1954: el equipo invencible que aprendió a perder en Berna',
+    excerpt:
+      'Los Magiares Mágicos llegaban con 33 victorias seguidas. Helmut Rahn marcó al 84, la lluvia ayudó a Alemania y la mejor selección del siglo XX se quedó sin Mundial.',
+    cover: {
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Helmut_Rahn.jpg?width=1200',
+      alt: 'Helmut Rahn, autor del gol decisivo de la final del Mundial 1954 al minuto 84',
+      credit: 'Foto: Wikimedia Commons',
+      license: 'Dominio público',
+      source: 'https://commons.wikimedia.org/wiki/File:Helmut_Rahn.jpg',
+    },
+    body: `Los Magiares Mágicos eran, en el verano de 1954, el equipo más impresionante que el fútbol había producido hasta entonces. Hungría llevaba cuatro años sin perder un partido oficial: 33 encuentros sin derrota desde 1950, incluida una medalla de oro olímpica en Helsinki 52 y una victoria histórica en Wembley en noviembre de 1953, cuando humillaron 6-3 a Inglaterra en su propia casa. La alineación era una clase magistral colectiva: Gyula Grosics en portería, József Bozsik en mediocampo, Nándor Hidegkuti como delantero centro retrasado, el invento táctico que prefiguraba el falso 9 de Guardiola medio siglo más tarde, Sándor Kocsis y Zoltán Czibor en las bandas, y al frente Ferenc Puskás, capitán, comandante del Honvéd y máxima figura del fútbol europeo.
+
+En el Mundial de Suiza, Hungría arrasó. Goleó 9-0 a Corea del Sur. Y en el siguiente partido, contra Alemania Federal, ganó 8-3 con una exhibición que pareció dejar sentenciada cualquier conversación sobre el favorito del torneo. El detalle, nadie lo notó entonces, fue que el seleccionador alemán Sepp Herberger dejó descansar a sus titulares para guardarlos. Hungría siguió: 4-2 a Brasil en cuartos, en la llamada Batalla de Berna por la dureza del partido; 4-2 a Uruguay en semifinales, en la prórroga, primera derrota uruguaya en un Mundial. La final llegó como un trámite. En Budapest, las radios estatales ya hablaban del título. Una de las frases que circulaban en los vestuarios y en las gradas húngaras se ha citado mil veces: «imposible perder, somos invencibles».
+
+El 4 de julio de 1954, en el Wankdorfstadion de Berna, llovió torrencialmente toda la mañana. La lluvia favoreció a Alemania por una razón técnica: Adi Dassler, fundador de Adidas, había desarrollado para los jugadores alemanes un nuevo modelo de bota con tacos de tornillo intercambiables. En cancha mojada, la diferencia con las botas de tacos fijos húngaros era apreciable. Puskás, que llegaba lesionado tras una entrada brutal de Werner Liebrich en la fase de grupos, el alemán que ahora estaba en el banquillo titular, jugó la final cojeando.
+
+El partido empezó como predecía el papel. Puskás abrió el marcador al minuto 6. Czibor amplió al 8. 2-0 en ocho minutos: Hungría iba camino de la goleada esperada. Pero Max Morlock descontó al 10, Helmut Rahn empató al 18 y, sobre todo, Alemania no se rompió. Resistió en el segundo tiempo, aprovechó las contras y al minuto 84 Rahn fusiló a Grosics con un disparo cruzado desde la frontal. 3-2. El relator radiofónico Herbert Zimmermann pronunció a continuación la frase que se enseña en Alemania como ejemplo de narración deportiva: «Tor! Tor! Tor! Tor! Aus dem Hintergrund müsste Rahn schießen!». Puskás marcó al 87 lo que parecía el empate, pero el árbitro inglés Bill Griffiths lo anuló por fuera de juego en una decisión todavía discutida.
+
+El Milagro de Berna refundó la Alemania de posguerra. Para Hungría fue el principio del final. La derrota provocó manifestaciones espontáneas en Budapest, algunos historiadores las consideran germen de la revolución de 1956. Dos años más tarde, tras la entrada de los tanques soviéticos en la capital, Puskás pidió asilo en España y firmó por el Real Madrid. Hungría no volvió a jugar otra final mundial. Una sospecha persiguió a Alemania durante décadas: estudios académicos confirmaron en los años 2010 que varios jugadores alemanes habían recibido inyecciones presentadas como vitamina C que en realidad contenían pervitin, una metanfetamina muy usada por la Wehrmacht en la Segunda Guerra Mundial. Puskás llamó a su selección «los campeones morales». La frase, igual que la otra, también ha sobrevivido.`,
+  },
+  {
+    n: 14,
+    slug: 'usa-1-inglaterra-0-belo-horizonte-1950',
+    publishDate: '2026-05-07',
+    blockCode: 'S2',
+    category: 'polemica',
+    protagonist: 'Joe Gaetjens / Inglaterra',
+    quote: 'USA 1, England 0',
+    quoteDate: '1950-06-29',
+    context:
+      'El 29 de junio de 1950, en Belo Horizonte, Estados Unidos venció 1-0 a Inglaterra en el debut mundialista de los inventores del fútbol. El gol lo marcó Joe Gaetjens, delantero haitiano-estadounidense, al minuto 38. La leyenda dice que el Daily Mail leyó el telegrama como erratum y publicó USA 1, England 10. La leyenda no resiste la verificación.',
+    source: {
+      name: 'Wikipedia, United States v England (1950 FIFA World Cup)',
+      url: 'https://en.wikipedia.org/wiki/United_States_v_England_(1950_FIFA_World_Cup)',
+    },
+    sourceSecondary: 'Wikipedia (Joe Gaetjens) · The Guardian · BBC Sport',
+    certainty: 'Alta',
+    title: 'Belo Horizonte 1950: la sorpresa que enseñó a Inglaterra a perder un Mundial',
+    excerpt:
+      'Inglaterra debutaba en Mundiales como gran favorita. Un haitiano que lavaba platos en Nueva York marcó al 38 y enterró el mito de los maestros del fútbol.',
+    cover: {
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Jules_Rimet%2C_Estadio%2C_1950-07-08_%28373%29.jpg?width=1200',
+      alt: 'Jules Rimet en el Mundial de Brasil 1950, contexto del histórico USA 1-0 Inglaterra en Belo Horizonte',
+      credit: 'Foto: Wikimedia Commons',
+      license: 'Dominio público',
+      source: 'https://commons.wikimedia.org/wiki/File:Jules_Rimet,_Estadio,_1950-07-08_(373).jpg',
+    },
+    body: `Inglaterra llegó al Mundial de Brasil 1950 con setenta años de superioridad asumida. La Football Association, fundada en 1863, había considerado durante décadas que las primeras tres Copas del Mundo organizadas por la FIFA, 1930, 1934, 1938, eran asuntos menores indignos del país que había inventado el fútbol moderno. Inglaterra se había negado a participar y se había salido temporalmente de la FIFA por discrepancias sobre el amateurismo. Cuando volvió, tras la Segunda Guerra Mundial, lo hizo como favorita absoluta. Las casas de apuestas londinenses pagaban 3 a 1 por su victoria final. Las apuestas por Estados Unidos pagaban 500 a 1. La selección norteamericana había llegado a Brasil con jugadores semiprofesionales: un cartero, varios maestros, un conductor de coche fúnebre. La diferencia parecía caricaturesca.
+
+El partido se jugó el 29 de junio de 1950 en el Estádio Independência de Belo Horizonte. La cancha era pequeña, irregular, mucho menor que las que la selección inglesa estaba acostumbrada a usar. Inglaterra dominó desde el primer minuto. Stan Mortensen estrelló un disparo en el larguero. Tom Finney remató dos veces al palo. Wilf Mannion no acertó delante del portero estadounidense Frank Borghi, un sepulturero de St. Louis que había sido boxeador antes que portero. La proporción de tiros se cerró 30 a 6 a favor de Inglaterra. Pero al minuto 38 ocurrió lo imprevisible.
+
+Walter Bahr, capitán estadounidense, disparó desde 22 metros. El balón iba alto, ligeramente desviado. Joe Gaetjens, delantero centro nacido en Puerto Príncipe en 1924, se lanzó en plancha y desvió la pelota con la cabeza, casi por reflejo. Borghi quedó en el suelo. El balón entró por la escuadra. 1-0. Gaetjens estudiaba contabilidad en Columbia, jugaba en el Brookhattan de la liga semiprofesional neoyorquina, lavaba platos en un restaurante para completar el sueldo. Nunca había sido ciudadano estadounidense; jugaba con la selección porque las normas de la época lo permitían. Aquel gol sería el único que marcaría en un Mundial.
+
+La segunda parte fue un asedio inglés que terminó sin más goles. Inglaterra protestó al árbitro, pidió una hora más, no aceptó el resultado en zona mixta. La derrota se publicó en los diarios británicos del día siguiente con la incredulidad debida pero no, contra lo que sostiene la leyenda más célebre del fútbol, con un erratum tipográfico. Durante décadas se ha repetido que el Daily Mail recibió el telegrama con el resultado y, asumiendo que era un error, lo publicó como USA 1, England 10. La historia es vistosa pero no es cierta. El British Newspaper Archive ha confirmado que ningún diario británico de aquel 30 de junio publicó tal cifra. El erratum es un mito periodístico construido a posteriori, probablemente en los años setenta, cuando ya nadie podía verificarlo de primera mano.
+
+Lo que sí ocurrió fue un destino trágico. Inglaterra cayó eliminada en primera fase tras perder también contra España, regresó humillada y tardó dieciséis años en levantar su única Copa del Mundo, en Wembley 66. Joe Gaetjens regresó a Haití en 1953 para abrir una tintorería. Cuando François Duvalier ganó las elecciones de 1957 contra el familiar de Gaetjens, Louis Déjoie, los Tonton Macoutes, policía secreta del régimen, empezaron a vigilarlo. El 8 de julio de 1964 fue arrestado en su tintorería de Puerto Príncipe y encerrado en Fort Dimanche. Su cuerpo nunca apareció. El hombre que había marcado el gol más sorpresivo de la historia de los Mundiales fue víctima de una dictadura tropical sin que el fútbol mundial supiera dónde buscarlo. Fue introducido en el National Soccer Hall of Fame en 1976. La condecoración póstuma no lo trajo de vuelta.`,
+  },
 ];
 
 // ───────────────────────────────────────────────────────────

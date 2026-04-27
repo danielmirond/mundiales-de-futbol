@@ -87,7 +87,7 @@ export default async function MasMinutosPage({
           Más minutos<br />disputados
         </h1>
         <p className="mt-6 max-w-3xl text-lg leading-relaxed text-[var(--color-fg-muted)] md:text-xl">
-          Más allá de las convocatorias, los minutos reales en cancha. Lothar Matthäus mantiene el récord absoluto: 25 partidos y más de 2.000 minutos en cinco Mundiales (1982-1998). Messi y Cristiano Ronaldo se acercan después de Qatar 2022.
+          Más allá de las convocatorias, los minutos reales en cancha. Paolo Maldini mantuvo el récord histórico durante dos décadas con 2.217 minutos en 23 partidos (1990-2002), hasta que Lionel Messi lo superó en Qatar 2022. Lothar Matthäus, por su parte, conserva el récord de partidos jugados con 25 (1982-1998), ahora también empatado por Messi con 26.
         </p>
       </header>
 
@@ -102,6 +102,13 @@ export default async function MasMinutosPage({
             { label: 'Goles', value: (p) => p.goals, hideOnMobile: true },
           ]}
         />
+        <p className="mt-8 max-w-3xl text-xs leading-relaxed text-[var(--color-fg-subtle)]">
+          Récord absoluto: Lionel Messi (Argentina) superó en la final de Qatar
+          2022 los 2.217 minutos de Paolo Maldini. La cobertura minute-by-minute
+          de nuestra base es completa desde 1994; los Mundiales anteriores
+          pueden infraestimar minutos cuando el reporte oficial no detallaba
+          tiempos de sustitución.
+        </p>
       </section>
 
       <div className="h-24" />
