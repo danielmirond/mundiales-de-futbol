@@ -174,3 +174,54 @@ html[dir="rtl"] .marquee-track { animation-direction: reverse; }
 .tab-num {
   font-variant-numeric: tabular-nums;
 }
+
+/* --- Leaflet sedes map ---------------------------------------- */
+
+.sede-marker-pin {
+  display: block;
+  width: 16px;
+  height: 16px;
+  border-radius: 9999px;
+  border: 2px solid #fff;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.4), 0 2px 6px rgba(0, 0, 0, 0.4);
+  transition: transform 200ms ease;
+}
+.sede-marker:hover .sede-marker-pin {
+  transform: scale(1.3);
+}
+
+.sede-popup {
+  font-family: var(--font-sans, system-ui), sans-serif;
+  font-size: 13px;
+  line-height: 1.4;
+  text-align: center;
+  min-width: 140px;
+}
+.sede-popup-flag {
+  font-size: 22px;
+  margin-bottom: 4px;
+}
+.sede-popup-stadium {
+  text-transform: capitalize;
+  color: #555;
+  font-size: 11px;
+  margin-top: 2px;
+}
+.sede-popup-link {
+  display: inline-block;
+  margin-top: 8px;
+  color: #0a5fd3;
+  font-weight: 600;
+  text-decoration: none;
+}
+.sede-popup-link:hover {
+  text-decoration: underline;
+}
+
+/* Override leaflet default popup styling to be less heavy */
+.leaflet-popup-content-wrapper {
+  border-radius: 12px !important;
+}
+.leaflet-container {
+  font-family: var(--font-sans, system-ui), sans-serif;
+}

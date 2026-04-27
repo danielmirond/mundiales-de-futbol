@@ -18,7 +18,6 @@ import {
   getSedeBySlug,
   getVenueForSede,
 } from '@/lib/wc-2026-sedes';
-import { getVenueBySlug } from '@/lib/data/venues';
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl, SEO } from '@/lib/seo';
 
@@ -79,12 +78,9 @@ export default async function SedeCityPage({
   if (!sede) notFound();
   const venue = getVenueForSede(sede);
 
-  // Reaprovechamos `hero_image_url` ya cargado en Supabase para los 16
-  // estadios del Mundial 2026 (seed: ingest-wikimedia-images.ts). Si no
-  // hay imagen, el OG dinámico de marca cubre la metadata y el hero
-  // queda con gradient + grid-overlay como fallback visual.
-  const dbVenue = await getVenueBySlug(sede.venueSlug);
-  const heroImage = dbVenue?.hero_image_url ?? null;
+  // URL Wikimedia Commons hardcodeada en `wc-2026-sedes.ts` para mantener
+  // SSG en la página (no llamar a Supabase en request).
+  const heroImage = sede.heroImage;
 
   const stadiumName = venue?.name ?? sede.venueSlug;
   const stadiumUrl = withLocale(locale as Locale, `/estadios/${sede.venueSlug}`);

@@ -5,6 +5,7 @@ import { SEDES_2026, getVenueForSede } from '@/lib/wc-2026-sedes';
 import { HOSTS } from '@/lib/wc-2026';
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl, SEO } from '@/lib/seo';
+import { SedesMapClient } from '@/components/sedes/sedes-map-client';
 
 function withLocale(locale: Locale, href: string) {
   if (locale === routing.defaultLocale) return href;
@@ -113,6 +114,14 @@ export default async function SedesIndex({
           ))}
         </div>
       </header>
+
+      {/* Mapa interactivo Leaflet de las 16 sedes */}
+      <section className="mx-auto mt-12 w-full max-w-[1400px] px-6 md:px-10">
+        <SedesMapClient sedes={SEDES_2026} />
+        <p className="mt-3 font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--color-fg-subtle)]">
+          Toca un marcador para ver el estadio, partidos y guía de viaje. Verde MEX, azul USA, rojo CAN.
+        </p>
+      </section>
 
       <div className="mx-auto mt-16 w-full max-w-[1400px] px-6 md:px-10">
         {grouped.map(({ host, sedes }) => (

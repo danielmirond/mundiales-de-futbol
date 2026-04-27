@@ -28,6 +28,12 @@ export type SedeCity = {
   coords: [number, number];
   /** Aeropuerto principal IATA + nombre */
   airport: { iata: string; name: string };
+  /**
+   * URL Wikimedia Commons del estadio (usado como hero en
+   * `/2026/sedes/[city]` y como base del OG image dinámico).
+   * Verificadas contra Supabase venues.hero_image_url (abr 2026).
+   */
+  heroImage: string;
   /** Resumen breve para tarjetas de listado (130-160 chars) */
   shortIntro: string;
   /** Hero descriptivo de la sede en el contexto del Mundial (200-300 palabras) */
@@ -59,6 +65,7 @@ export const SEDES_2026: SedeCity[] = [
     utcOffset: 'UTC−4 (en jun-jul, horario de verano)',
     coords: [33.7553, -84.4006],
     airport: { iata: 'ATL', name: 'Hartsfield-Jackson Atlanta International' },
+    heroImage: 'https://upload.wikimedia.org/wikipedia/commons/1/10/Mercedes_Benz_Stadium_time_lapse_capture_2017-08-13.jpg',
     shortIntro:
       'Atlanta acoge el debut de España (vs Cabo Verde) y otros 7 partidos en el Mercedes-Benz Stadium, con tejado retráctil y conexión metro al estadio.',
     heroEditorial:
@@ -121,6 +128,7 @@ export const SEDES_2026: SedeCity[] = [
     utcOffset: 'UTC−4',
     coords: [42.0909, -71.2643],
     airport: { iata: 'BOS', name: 'Logan International' },
+    heroImage: 'https://upload.wikimedia.org/wikipedia/commons/d/db/Gillette_Stadium_%28Top_View%29.jpg',
     shortIntro:
       'Boston (Foxborough) acoge 7 partidos del Mundial 2026 en el Gillette Stadium, casa de los New England Patriots. Combina sede mundialista con uno de los centros culturales más densos de USA.',
     heroEditorial:
@@ -183,6 +191,7 @@ export const SEDES_2026: SedeCity[] = [
     utcOffset: 'UTC−5',
     coords: [32.7473, -97.0945],
     airport: { iata: 'DFW', name: 'Dallas/Fort Worth International' },
+    heroImage: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Arlington_June_2020_4_%28AT%26T_Stadium%29.jpg',
     shortIntro:
       'Dallas (Arlington) recibe 9 partidos del Mundial 2026, el AT&T Stadium es la sede con más partidos del torneo. Aforo Mundial 94.000 (FIFA lo nombra «Dallas Stadium»).',
     heroEditorial:
@@ -245,6 +254,7 @@ export const SEDES_2026: SedeCity[] = [
     utcOffset: 'UTC−5',
     coords: [29.6847, -95.4107],
     airport: { iata: 'IAH', name: 'George Bush Intercontinental' },
+    heroImage: 'https://upload.wikimedia.org/wikipedia/commons/3/3e/Nrg_stadium.jpg',
     shortIntro:
       'Houston acoge 7 partidos del Mundial 2026 en el NRG Stadium, casa de los Texans. La ciudad latina más grande de USA tras Miami.',
     heroEditorial:
@@ -307,6 +317,7 @@ export const SEDES_2026: SedeCity[] = [
     utcOffset: 'UTC−5',
     coords: [39.0489, -94.4839],
     airport: { iata: 'MCI', name: 'Kansas City International' },
+    heroImage: 'https://upload.wikimedia.org/wikipedia/commons/a/ac/Aerial_view_of_Arrowhead_Stadium_08-31-2013.jpg',
     shortIntro:
       'Kansas City acoge 6 partidos del Mundial 2026 en el Arrowhead Stadium, conocido por ser el más ruidoso de la NFL. Capital de la barbacoa americana.',
     heroEditorial:
@@ -369,6 +380,7 @@ export const SEDES_2026: SedeCity[] = [
     utcOffset: 'UTC−7',
     coords: [33.9534, -118.3387],
     airport: { iata: 'LAX', name: 'Los Angeles International' },
+    heroImage: 'https://upload.wikimedia.org/wikipedia/commons/b/b3/SoFi_Stadium_2023.jpg',
     shortIntro:
       'Los Ángeles acoge 8 partidos del Mundial 2026 en SoFi Stadium, el más caro jamás construido (5.000 millones $). Inglewood, junto al aeropuerto LAX.',
     heroEditorial:
@@ -436,6 +448,7 @@ export const SEDES_2026: SedeCity[] = [
     utcOffset: 'UTC−4',
     coords: [25.9579, -80.2389],
     airport: { iata: 'MIA', name: 'Miami International' },
+    heroImage: 'https://upload.wikimedia.org/wikipedia/commons/c/ce/Hard_Rock_Stadium_for_Super_Bowl_LIV_%2849606710103%29.jpg',
     shortIntro:
       'Miami (Miami Gardens) acoge 7 partidos del Mundial 2026 en el Hard Rock Stadium. Capital del fútbol latino en USA, casa de Lionel Messi (Inter Miami).',
     heroEditorial:
@@ -498,6 +511,7 @@ export const SEDES_2026: SedeCity[] = [
     utcOffset: 'UTC−4',
     coords: [40.8128, -74.0742],
     airport: { iata: 'EWR', name: 'Newark Liberty International' },
+    heroImage: 'https://upload.wikimedia.org/wikipedia/commons/0/04/Metlife_stadium_%28Aerial_view%29.jpg',
     shortIntro:
       'Nueva York/Nueva Jersey acoge 8 partidos del Mundial 2026 en el MetLife Stadium, INCLUIDA LA FINAL del 19 de julio. Aforo 82.500.',
     heroEditorial:
@@ -565,6 +579,7 @@ export const SEDES_2026: SedeCity[] = [
     utcOffset: 'UTC−4',
     coords: [39.9008, -75.1675],
     airport: { iata: 'PHL', name: 'Philadelphia International' },
+    heroImage: 'https://upload.wikimedia.org/wikipedia/commons/a/a1/Lincoln_Financial_Field_%28Aerial_view%29.jpg',
     shortIntro:
       'Philadelphia acoge 6 partidos del Mundial 2026 en el Lincoln Financial Field. Cuna histórica de USA, Filadelfia es la sede menos turística pero más densa culturalmente del corredor noreste.',
     heroEditorial:
@@ -627,6 +642,7 @@ export const SEDES_2026: SedeCity[] = [
     utcOffset: 'UTC−7',
     coords: [37.4031, -121.9697],
     airport: { iata: 'SFO', name: 'San Francisco International' },
+    heroImage: 'https://upload.wikimedia.org/wikipedia/commons/a/a6/Levi%27s_Stadium_in_February_2016_prior_to_Super_Bowl_50_%2824398261729%29.jpg',
     shortIntro:
       'San Francisco Bay Area acoge 6 partidos del Mundial 2026 en Levi\'s Stadium (Santa Clara), a 70 km de SF. Sede tecnológica del Silicon Valley.',
     heroEditorial:
@@ -689,6 +705,7 @@ export const SEDES_2026: SedeCity[] = [
     utcOffset: 'UTC−7',
     coords: [47.5952, -122.3316],
     airport: { iata: 'SEA', name: 'Seattle-Tacoma International' },
+    heroImage: 'https://upload.wikimedia.org/wikipedia/commons/5/53/Qwest_Field_North.jpg',
     shortIntro:
       'Seattle acoge 6 partidos del Mundial 2026 en Lumen Field, junto al T-Mobile Park y a 1 km del centro. La sede más cerca de Canadá del Mundial.',
     heroEditorial:
@@ -753,6 +770,7 @@ export const SEDES_2026: SedeCity[] = [
     utcOffset: 'UTC−6 (México no aplica horario de verano desde 2022)',
     coords: [19.3029, -99.1505],
     airport: { iata: 'MEX', name: 'Benito Juárez International' },
+    heroImage: 'https://upload.wikimedia.org/wikipedia/commons/4/4b/Estadio_Azteca_y_sus_alrededores_46.jpg',
     shortIntro:
       'Ciudad de México acoge la INAUGURACIÓN del Mundial 2026 en el Estadio Azteca el 11 de junio (México vs Sudáfrica). Tercer Mundial en este estadio (1970, 1986, 2026).',
     heroEditorial:
@@ -815,6 +833,7 @@ export const SEDES_2026: SedeCity[] = [
     utcOffset: 'UTC−6 (México no aplica horario de verano desde 2022)',
     coords: [20.6817, -103.4625],
     airport: { iata: 'GDL', name: 'Miguel Hidalgo y Costilla International' },
+    heroImage: 'https://upload.wikimedia.org/wikipedia/commons/1/10/Estadio_Akron_02-07-2022_cabecera_sur_lado_derecho_%283%29.jpg',
     shortIntro:
       'Guadalajara acoge 4 partidos del Mundial 2026 en el Estadio Akron, INCLUIDO Uruguay-España el 18 de junio. Cuna del mariachi y el tequila.',
     heroEditorial:
@@ -877,6 +896,7 @@ export const SEDES_2026: SedeCity[] = [
     utcOffset: 'UTC−6 (México no aplica horario de verano desde 2022)',
     coords: [25.6691, -100.2444],
     airport: { iata: 'MTY', name: 'General Mariano Escobedo International' },
+    heroImage: 'https://upload.wikimedia.org/wikipedia/commons/5/57/Mexico_Guadalupe_Monterrey_Estadio_BBVA_Bancomer_fifa_world_cup_2026_6.JPG',
     shortIntro:
       'Monterrey acoge 4 partidos del Mundial 2026 en el Estadio BBVA, conocido como "El Gigante de Acero". Capital industrial de México, junto a la Sierra Madre.',
     heroEditorial:
@@ -941,6 +961,7 @@ export const SEDES_2026: SedeCity[] = [
     utcOffset: 'UTC−4',
     coords: [43.6332, -79.4185],
     airport: { iata: 'YYZ', name: 'Toronto Pearson International' },
+    heroImage: 'https://upload.wikimedia.org/wikipedia/commons/9/91/Toronto_BMO_Field_in_2024.jpg',
     shortIntro:
       'Toronto acoge 6 partidos del Mundial 2026 en el BMO Field, junto al lago Ontario. Cuarta ciudad más grande de Norteamérica.',
     heroEditorial:
@@ -1003,6 +1024,7 @@ export const SEDES_2026: SedeCity[] = [
     utcOffset: 'UTC−7',
     coords: [49.2766, -123.1119],
     airport: { iata: 'YVR', name: 'Vancouver International' },
+    heroImage: 'https://upload.wikimedia.org/wikipedia/commons/f/ff/BC_Place_2015_Women%27s_FIFA_World_Cup.jpg',
     shortIntro:
       'Vancouver acoge 7 partidos del Mundial 2026 en BC Place, único estadio cubierto del torneo en la costa pacífica. La ciudad más bonita del Mundial.',
     heroEditorial:
