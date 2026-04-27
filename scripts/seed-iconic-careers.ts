@@ -34,10 +34,12 @@ const supabase = createClient(
 );
 
 type IconicCareer = {
-  /** Slug en `players.slug` para localizarlo en la base. */
-  slug: string;
-  /** Nombre completo (para fallback search si el slug no existe). */
+  /** Slug en `players.slug` (preferente). Si no existe, se busca por `searchName` con `ilike`. */
+  slug?: string;
+  /** Nombre completo (search). */
   fullName: string;
+  /** Patrón ilike para búsqueda flexible si slug falla. */
+  searchName?: string;
   /** Código FIFA del seleccionado (3 letras). */
   teamCode: string;
   /** Posición editorial. */
@@ -51,6 +53,7 @@ type IconicCareer = {
  * players who have appeared in multiple FIFA World Cups".
  */
 const ICONIC: IconicCareer[] = [
+  // ─── 6 jugadores con 5 Mundiales ────────────────────────────────
   {
     slug: 'antonio-carbajal-398145',
     fullName: 'Antonio Félix Carbajal Rodríguez',
@@ -93,21 +96,124 @@ const ICONIC: IconicCareer[] = [
     position: 'FW',
     years: [2006, 2010, 2014, 2018, 2022],
   },
+
+  // ─── Carreras con 4 Mundiales (presentes en BD) ─────────────────
+  {
+    slug: 'pele-39712',
+    fullName: 'Édson Arantes do Nascimento (Pelé)',
+    teamCode: 'BRA',
+    position: 'FW',
+    years: [1958, 1962, 1966, 1970],
+  },
+  {
+    slug: 'diego-armando-maradona-38641',
+    fullName: 'Diego Armando Maradona',
+    teamCode: 'ARG',
+    position: 'MF',
+    years: [1982, 1986, 1990, 1994],
+  },
+  {
+    slug: 'andres-iniesta-5216',
+    fullName: 'Andrés Iniesta Luján',
+    teamCode: 'ESP',
+    position: 'MF',
+    years: [2006, 2010, 2014, 2018],
+  },
+  {
+    slug: 'thomas-muller-5562',
+    fullName: 'Thomas Müller',
+    teamCode: 'GER',
+    position: 'FW',
+    years: [2010, 2014, 2018, 2022],
+  },
+  {
+    slug: 'luis-suarez-5246',
+    fullName: 'Luis Alberto Suárez Díaz',
+    teamCode: 'URU',
+    position: 'FW',
+    years: [2010, 2014, 2018, 2022],
+  },
+  {
+    slug: 'edinson-cavani-4319',
+    fullName: 'Edinson Roberto Cavani Gómez',
+    teamCode: 'URU',
+    position: 'FW',
+    years: [2010, 2014, 2018, 2022],
+  },
+
+  // ─── Carreras con 3 Mundiales (presentes en BD) ─────────────────
+  {
+    slug: 'franz-beckenbauer-38625',
+    fullName: 'Franz Beckenbauer',
+    // FIFA usa GER unificado tras la reunificación; en BD también GER.
+    teamCode: 'GER',
+    position: 'DF',
+    years: [1966, 1970, 1974],
+  },
+  {
+    slug: 'gerhard-muller-38612',
+    fullName: 'Gerhard «Der Bomber» Müller',
+    teamCode: 'GER',
+    position: 'FW',
+    years: [1970, 1974],
+  },
+  {
+    fullName: 'Neymar',
+    searchName: '%Neymar%',
+    teamCode: 'BRA',
+    position: 'FW',
+    years: [2014, 2018, 2022],
+  },
+  {
+    fullName: 'Luka Modrić',
+    searchName: '%Luka Modri%',
+    teamCode: 'CRO',
+    position: 'MF',
+    years: [2006, 2014, 2018, 2022],
+  },
+
+  // ─── Pendientes de añadir a `players` antes de poder seedear ────
+  // Casillas, Xavi, Puyol (ESP campeones 2010)
+  // Maldini, Buffon, Zidane, Ronaldo Naz, Ronaldinho, Klose, Gerrard
+  // No están en la tabla `players` por seed parcial. Cuando se ingieran,
+  // re-ejecutar este script y se aplicarán automáticamente.
 ];
 
 async function findPlayerId(c: IconicCareer): Promise<string | null> {
-  const { data: bySlug } = await supabase
-    .from('players')
-    .select('id')
-    .eq('slug', c.slug)
-    .maybeSingle();
-  if (bySlug?.id) return bySlug.id;
+  // 1. Slug exacto si está definido.
+  if (c.slug) {
+    const { data: bySlug } = await supabase
+      .from('players')
+      .select('id')
+      .eq('slug', c.slug)
+      .maybeSingle();
+    if (bySlug?.id) return bySlug.id;
+  }
 
-  // Fallback por nombre exacto (case-insensitive).
+  // 2. ilike `searchName` (más flexible). Filtramos por nacionalidad para
+  //    desambiguar homónimos (Ronaldo vs Cristiano Ronaldo, etc.).
+  if (c.searchName) {
+    const { data } = await supabase
+      .from('players')
+      .select('id, full_name')
+      .ilike('full_name', c.searchName)
+      .eq('nationality_code', c.teamCode)
+      .limit(2);
+    if (data && data.length === 1) return data[0].id;
+    if (data && data.length > 1) {
+      console.warn(
+        `⚠️  ${c.fullName}: ${data.length} candidatos (${data.map((d) => d.full_name).join(', ')})`,
+      );
+      return null;
+    }
+  }
+
+  // 3. Fallback exacto por full_name (legacy).
   const { data: byName } = await supabase
     .from('players')
     .select('id')
     .ilike('full_name', c.fullName)
+    .eq('nationality_code', c.teamCode)
     .maybeSingle();
   return byName?.id ?? null;
 }
