@@ -43,7 +43,7 @@ const FAQ = [
   },
   {
     q: '¿Cuánto costará el álbum del Mundial 2026?',
-    a: 'Los precios históricos: álbum tapa blanda 2-4 €, sobres 1 € (5 cromos), caja completa de 50 sobres 50-65 €. Para 2026 se espera continuidad con incrementos del 5-10%. La colección completa suele rondar los 670-700 cromos, con coste de coleccionar entera entre 300 € y 600 € según suerte.',
+    a: 'Los precios históricos: álbum tapa blanda 2-4 €, sobres 1 € (5 cromos), caja completa de 50 sobres 50-65 €. Para 2026 se espera continuidad con incrementos del 5-10 %. Panini ha confirmado que la colección 2026 tendrá 980 cromos repartidos en 112 páginas: la mayor de la historia. Coleccionarla entera puede costar entre 400 € y 800 € según suerte e intercambios.',
   },
   {
     q: '¿Dónde comprar cromos Panini Mundial 2026?',
@@ -183,7 +183,7 @@ export default async function PaniniMundial2026Page({
         <div className="mt-10 grid gap-px overflow-hidden rounded-3xl border border-[var(--color-border)] bg-[var(--color-border)] sm:grid-cols-2 lg:grid-cols-4">
           {[
             { label: 'Selecciones', value: '48' },
-            { label: 'Cromos previstos', value: '~700' },
+            { label: 'Cromos confirmados', value: '980' },
             { label: 'Sobres × cromos', value: '5' },
             { label: 'Precio sobre', value: '~1 €' },
           ].map((s) => (

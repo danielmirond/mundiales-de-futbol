@@ -38,11 +38,23 @@ export async function generateMetadata({
 
 // ─── Datos verificados (abril 2026) ───────────────────────────────
 
+// Cadena de derechos en España: Mediapro adquirió los derechos
+// de FIFA y sublicencia a RTVE (abierto), Movistar Plus+ y DAZN.
+// Verificación: comunicados Mediapro/RTVE (febrero 2026).
 const PLATAFORMAS = [
   {
+    name: 'RTVE',
+    sub: 'Acuerdo con Mediapro confirmado',
+    price: 'Gratis',
+    coverage: 'Inaugural, todos los partidos de España, un partido por jornada, octavos, cuartos, semifinales y final',
+    extras: 'Emisión en abierto en La 1 y RTVE Play. Comentarios en castellano.',
+    url: 'https://www.rtve.es',
+    primary: true,
+  },
+  {
     name: 'Movistar Plus+',
-    sub: 'Vía acuerdo con DAZN',
-    price: 'Desde 14 €/mes',
+    sub: 'Sublicencia con Mediapro',
+    price: 'Desde 14 €/mes (clientes Movistar) · 9,99 €/mes OTT',
     coverage: 'Los 104 partidos en directo + 4K HDR + audio Dolby',
     extras: 'Análisis previos y post-partido, contenido exclusivo',
     url: 'https://www.movistar.es/movistar-plus',
@@ -50,56 +62,49 @@ const PLATAFORMAS = [
   },
   {
     name: 'DAZN',
-    sub: 'Plataforma con derechos en España',
-    price: 'Desde 19,99 €/mes',
+    sub: 'Sublicencia con Mediapro',
+    price: 'Desde 19,99 €/mes (oferta 14,99 € jóvenes)',
     coverage: 'Todos los partidos del Mundial 2026',
     extras: 'App, navegador, smart TV. Múltiples dispositivos',
     url: 'https://www.dazn.com/es-ES/welcome',
-    primary: true,
-  },
-  {
-    name: 'RTVE',
-    sub: 'Pendiente confirmación',
-    price: 'Gratis',
-    coverage: 'Negociación abierta para partidos selección España',
-    extras: 'En FIFA hay obligación de partidos en abierto en países con selección',
-    url: 'https://www.rtve.es',
     primary: false,
   },
 ];
 
+// Calendario verificado contra FIXTURES_2026 (sorteo final 5 dic 2025).
+// Horarios: hora local de la sede.
 const PARTIDOS_ESPAÑA = [
   {
     matchday: 'J1',
-    fecha: '13 jun 2026',
+    fecha: '15 jun 2026',
     rival: 'España vs Cabo Verde',
-    sede: 'Atlanta · Mercedes-Benz Stadium',
-    intent: 'Partido inaugural de la Roja',
+    sede: 'Atlanta · Mercedes-Benz Stadium · 12:00 EDT',
+    intent: 'Debut de la Roja en el Mundial',
   },
   {
     matchday: 'J2',
-    fecha: '18 jun 2026',
-    rival: 'Uruguay vs España',
-    sede: 'Guadalajara · Estadio Akron',
-    intent: 'El partido más esperado del grupo',
+    fecha: '22 jun 2026',
+    rival: 'España vs Arabia Saudí',
+    sede: 'Atlanta · Mercedes-Benz Stadium · 12:00 EDT',
+    intent: 'Segunda jornada en suelo americano',
   },
   {
     matchday: 'J3',
-    fecha: '24 jun 2026',
-    rival: 'España vs ganador playoff',
-    sede: 'Por confirmar',
-    intent: 'Cierre de fase de grupos',
+    fecha: '26 jun 2026',
+    rival: 'Uruguay vs España',
+    sede: 'Guadalajara · Estadio Akron · 18:00 CST',
+    intent: 'El partido más esperado del grupo H',
   },
 ];
 
 const FAQ = [
   {
     q: '¿Quién tiene los derechos del Mundial 2026 en España?',
-    a: 'Movistar Plus+ ha adquirido los derechos para España vía acuerdo con DAZN. La FIFA también vendió derechos a DAZN para emisión global gratuita en su plataforma. La negociación con RTVE para partidos en abierto sigue abierta a abril de 2026.',
+    a: 'Mediapro adquirió los derechos del Mundial 2026 para España y los sublicencia a RTVE (en abierto), Movistar Plus+ y DAZN. RTVE emite el inaugural, todos los partidos de España, un partido por jornada de fase de grupos, octavos, cuartos, semifinales y la final. Movistar Plus+ y DAZN emiten los 104 partidos en directo. La FIFA también ofrece emisión global gratuita en su plataforma DAZN.',
   },
   {
     q: '¿Se podrán ver partidos del Mundial 2026 gratis en España?',
-    a: 'La normativa FIFA y la Ley General de Comunicación Audiovisual obligan a que ciertos partidos de la selección y la final se emitan en abierto. Históricamente RTVE ha asegurado al menos los partidos de España y la final. Confirmación final cuando se cierre el acuerdo.',
+    a: 'Sí. RTVE confirmó en febrero de 2026 el acuerdo con Mediapro: emite en abierto el partido inaugural, los tres partidos de España en fase de grupos, un partido más por jornada, los octavos, los cuartos, las dos semifinales y la final. La señal estará en La 1 y RTVE Play sin coste.',
   },
   {
     q: '¿Cuánto cuesta ver el Mundial 2026 en Movistar Plus+?',
@@ -107,7 +112,7 @@ const FAQ = [
   },
   {
     q: '¿Cuándo juega España en el Mundial 2026?',
-    a: 'España está en el Grupo H. El primer partido es el 13 de junio contra Cabo Verde en Atlanta (Mercedes-Benz Stadium). El segundo el 18 de junio contra Uruguay en Guadalajara (Estadio Akron). El tercero el 24 de junio contra el ganador del playoff intercontinental.',
+    a: 'España está en el Grupo H, junto a Uruguay, Arabia Saudí y Cabo Verde. El primer partido es el 15 de junio contra Cabo Verde en Atlanta (Mercedes-Benz Stadium) a las 12:00 EDT. El segundo el 22 de junio contra Arabia Saudí en Atlanta a las 12:00 EDT. El tercero y más esperado, el 26 de junio contra Uruguay en Guadalajara (Estadio Akron) a las 18:00 CST.',
   },
   {
     q: '¿Cómo ver el Mundial 2026 desde el extranjero siendo español?',
@@ -115,7 +120,7 @@ const FAQ = [
   },
   {
     q: '¿Cuándo es la final del Mundial 2026 y dónde verla?',
-    a: 'La final se juega el 19 de julio de 2026 a las 15:00 ET (21:00 hora peninsular española) en el MetLife Stadium de Nueva Jersey. Se emitirá en Movistar Plus+ y previsiblemente también en RTVE en abierto.',
+    a: 'La final se juega el 19 de julio de 2026 a las 15:00 ET (21:00 hora peninsular española) en el MetLife Stadium de Nueva Jersey, que FIFA renombra «New York New Jersey Stadium» durante el torneo. Se emitirá en abierto en RTVE (La 1 y RTVE Play) y también en Movistar Plus+ y DAZN.',
   },
   {
     q: '¿Cuántos partidos tiene el Mundial 2026?',
@@ -205,7 +210,7 @@ export default async function DondeVerPage({
 
           <p className="mt-6 max-w-2xl text-lg leading-relaxed text-[var(--color-fg-muted)] md:text-xl">
             Cómo ver los 104 partidos del Mundial 2026 en España: Movistar Plus+,
-            DAZN, opciones gratis y consejos para ver España vs Cabo Verde y Uruguay
+            RTVE en abierto, Movistar Plus+, DAZN y consejos para ver España vs Cabo Verde, Arabia Saudí y Uruguay
             sin perderte un minuto. Información actualizada a abril de 2026.
           </p>
         </div>

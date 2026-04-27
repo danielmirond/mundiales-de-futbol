@@ -671,7 +671,7 @@ export const SEDES_2026: SedeCity[] = [
       },
     ],
     gettingThere:
-      'Caltrain (tren) desde SF Downtown a Mountain View, después VTA Light Rail a Santa Clara: 90 minutos total. Lanzadera FIFA desde SF Downtown directa al estadio en días de partido. Coche: 70 km, 1-2 horas según tráfico.',
+      'Caltrain (tren) desde SF Downtown a Mountain View, después VTA Light Rail a Santa Clara: 90 minutos total. Si vienes en avión y solo te interesa el partido, San José Mineta (SJC) está a solo 6 km del estadio (vs 45 km de SFO). Lanzadera FIFA desde SF Downtown directa al estadio en días de partido. Coche: 70 km, 1-2 horas según tráfico.',
     tips: [
       'San Francisco es siempre fría, la temperatura media de junio es 18°C. Llevar abrigo de verdad.',
       'No alquilar coche en SF, caro, multas brutales, casi imposible aparcar.',
@@ -750,7 +750,7 @@ export const SEDES_2026: SedeCity[] = [
     countryName: 'México',
     flag: '🇲🇽',
     timezone: 'CST',
-    utcOffset: 'UTC−6',
+    utcOffset: 'UTC−6 (México no aplica horario de verano desde 2022)',
     coords: [19.3029, -99.1505],
     airport: { iata: 'MEX', name: 'Benito Juárez International' },
     shortIntro:
@@ -812,7 +812,7 @@ export const SEDES_2026: SedeCity[] = [
     countryName: 'México',
     flag: '🇲🇽',
     timezone: 'CST',
-    utcOffset: 'UTC−6',
+    utcOffset: 'UTC−6 (México no aplica horario de verano desde 2022)',
     coords: [20.6817, -103.4625],
     airport: { iata: 'GDL', name: 'Miguel Hidalgo y Costilla International' },
     shortIntro:
@@ -874,7 +874,7 @@ export const SEDES_2026: SedeCity[] = [
     countryName: 'México',
     flag: '🇲🇽',
     timezone: 'CST',
-    utcOffset: 'UTC−6',
+    utcOffset: 'UTC−6 (México no aplica horario de verano desde 2022)',
     coords: [25.6691, -100.2444],
     airport: { iata: 'MTY', name: 'General Mariano Escobedo International' },
     shortIntro:
