@@ -281,7 +281,7 @@ export const TOURNAMENTS: Tournament[] = [
     fourth: 'Bulgaria', fourthCode: 'BG',
     finalResult: { score: '0-0', extraTime: true, penalties: '3-2 pen' },
     bestPlayer: { name: 'Romário', team: 'Brasil', official: true },
-    teams: 24, matches: 52, goals: 141, attendance: 3587538,
+    teams: 24, matches: 52, goals: 141, attendance: 3597042,
     startDate: '1994-06-17', endDate: '1994-07-17',
     topScorer: { name: 'Hristo Stoichkov / Oleg Salenko', goals: 6, team: '-' },
     palette: { from: '#002868', to: '#bf0a30' },
