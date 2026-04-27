@@ -165,6 +165,10 @@ export const TOURNAMENTS: Tournament[] = [
     palette: { from: '#d52b1e', to: '#0032a0' },
     teams: 16, matches: 32, goals: 89, attendance: 893172,
     startDate: '1962-05-30', endDate: '1962-06-17',
+    // FIFA reconoció empate a 4 goles entre 6 jugadores: Garrincha y Vavá (Brasil),
+    // Leonel Sánchez (Chile), Flórián Albert (Hungría), Valentin Ivanov (URSS) y
+    // Dražan Jerković (Yugoslavia). Listamos a Garrincha como referencia del torneo.
+    topScorer: { name: 'Garrincha / Vavá / Sánchez / Albert / Ivanov / Jerković', goals: 4, team: '-' },
     tagline: 'La Batalla de Santiago',
     seoIconic: 'Brasil bicampeón sin Pelé y la Batalla de Santiago',
   },
@@ -344,7 +348,9 @@ export const TOURNAMENTS: Tournament[] = [
     bestPlayer: { name: 'Diego Forlán', team: 'Uruguay', official: true },
     teams: 32, matches: 64, goals: 145, attendance: 3178856,
     startDate: '2010-06-11', endDate: '2010-07-11',
-    topScorer: { name: 'Thomas Müller / Villa / Sneijder / Forlán', goals: 5, team: '-' },
+    // 4 jugadores empataron a 5 goles (Müller, Villa, Sneijder, Forlán). FIFA
+    // entregó la Bota de Oro a Müller por desempate (3 asistencias frente a 1).
+    topScorer: { name: 'Thomas Müller', goals: 5, team: 'Alemania' },
     palette: { from: '#007749', to: '#ffb81c' },
     tagline: 'Iniesta, de mi vida',
     seoIconic: 'el de la primera estrella de España con el gol de Iniesta',

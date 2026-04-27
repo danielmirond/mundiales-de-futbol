@@ -102,6 +102,12 @@ export default async function MasAmarillasPage({
             { label: 'Mund.', value: (p) => p.wc_count, hideOnMobile: true },
           ]}
         />
+        <p className="mt-8 max-w-3xl text-xs leading-relaxed text-[var(--color-fg-subtle)]">
+          Datos extraídos de los partidos con eventos minuto a minuto
+          registrados en nuestra base. La cobertura es completa desde el
+          Mundial 1994; los Mundiales anteriores pueden tener tarjetas no
+          contabilizadas si el reporte oficial era escueto.
+        </p>
       </section>
 
       <div className="h-24" />

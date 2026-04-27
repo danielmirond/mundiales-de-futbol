@@ -102,6 +102,13 @@ export default async function MasRojasPage({
             { label: 'Mund.', value: (p) => p.wc_count, hideOnMobile: true },
           ]}
         />
+        <p className="mt-8 max-w-3xl text-xs leading-relaxed text-[var(--color-fg-subtle)]">
+          Cobertura completa desde el Mundial 1994. Antes de esa edición las
+          expulsiones se registran solo cuando el reporte oficial está
+          disponible: jugadores como Rigobert Song (1994, 1998) y Zinedine
+          Zidane (1998, 2006), con dos rojas cada uno, son el techo histórico
+          conocido.
+        </p>
       </section>
 
       <div className="h-24" />
