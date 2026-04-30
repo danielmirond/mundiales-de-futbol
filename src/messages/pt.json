@@ -188,6 +188,66 @@
     "fanZone": {
       "title": "Fan zone Copa do Mundo 2026 · Como preparar sua casa para os 64 jogos",
       "description": "Como equipar sua casa para a Copa 2026: TVs 4K, soundbars, projetores e rituais. A tela, o som e a galera que transformam o torneio em algo mais do que um evento."
+    },
+    "sedes": {
+      "kicker": "16 cidades-sede · 3 países · 104 jogos",
+      "h1Line1": "As cidades-sede da",
+      "h1Line2": "Copa do Mundo 2026",
+      "intro": "Do Estádio Azteca, na Cidade do México, ao MetLife Stadium em Nova York/Nova Jersey, passando por Vancouver, Toronto, Atlanta, Dallas e outras 10 cidades-sede. Cada cidade tem seu estádio, calendário, plano de viagem, regiões hoteleiras e dicas práticas.",
+      "hostStats": "{cities} cidades · {matches} jogos",
+      "mapHint": "Toque em um marcador para ver o estádio, os jogos e o guia de viagem. Verde MEX, azul USA, vermelho CAN.",
+      "tournamentMatches": "{matches} jogos do torneio",
+      "sedesCount": "{count, plural, =1 {1 cidade-sede} other {# cidades-sede}}",
+      "sedeCardCta": "Guia da cidade-sede",
+      "back": "Copa do Mundo 2026"
+    },
+    "calendario": {
+      "title": "Calendário Copa do Mundo 2026: 104 jogos por fase, datas e horários",
+      "description": "Calendário completo da Copa do Mundo 2026 detalhado por fase: fase de grupos, trinta e dois avos, oitavas, quartas, semifinais, terceiro lugar e final. Datas, horários e cidades-sede.",
+      "kicker": "11 jun – 19 jul 2026 · 39 dias · 104 jogos",
+      "h1": "Calendário por fase",
+      "intro": "Estrutura da Copa do Mundo 2026: a primeira edição com 48 seleções introduz uma nova rodada de trinta e dois avos entre a fase de grupos e as oitavas clássicas. O torneio dura 39 dias, do jogo de abertura no Estádio Azteca à final no MetLife Stadium.",
+      "back": "Copa do Mundo 2026",
+      "phaseGroup": "Fase de grupos",
+      "phaseGroupDesc": "72 jogos em 12 grupos (round-robin de 6 jogos por grupo). Avançam os 2 primeiros + os 8 melhores terceiros, total de 32 seleções.",
+      "phaseR32": "Trinta e dois avos",
+      "phaseR32Desc": "16 confrontos eliminatórios inéditos em Copas: primeiro corte em jogo único, o vencedor vai às oitavas. Uma novidade do formato de 48 seleções.",
+      "phaseR16": "Oitavas de final",
+      "phaseR16Desc": "8 confrontos em jogo único. Aqui já estão os pesos pesados do torneio. Os vencedores vão às quartas.",
+      "phaseQF": "Quartas de final",
+      "phaseQFDesc": "4 confrontos eliminatórios. Após um dia de descanso, começa o sprint final do torneio.",
+      "phaseSF": "Semifinais",
+      "phaseSFDesc": "2 jogos em duas cidades diferentes. Os vencedores disputam a final, os perdedores o jogo do terceiro lugar.",
+      "phase3P": "Terceiro e quarto lugar",
+      "phase3PDesc": "O consolo dos semifinalistas eliminados.",
+      "phaseFinal": "Final",
+      "phaseFinalDesc": "19 de julho no MetLife Stadium (Nova York/Nova Jersey). A seleção campeã levanta a taça.",
+      "matchesCount": "{count, plural, =1 {1 jogo} other {# jogos}}",
+      "fixturesPending": "Os confrontos serão confirmados após o término da fase anterior.",
+      "showingFirst": "Mostrando os 16 primeiros jogos.",
+      "viewFullCalendar": "Ver calendário completo",
+      "ctaMore": "Mais da Copa do Mundo 2026"
+    },
+    "grupos": {
+      "title": "Grupos Copa do Mundo 2026: A-L com as 48 seleções, cidades-sede e calendário",
+      "description": "Os 12 grupos da Copa do Mundo 2026 (A-L) com as 48 seleções, bandeiras, cidades-sede de cada jogo e calendário completo da fase de grupos.",
+      "kicker": "12 grupos · 48 seleções · 72 jogos da fase de grupos",
+      "h1Line1": "Os 12 grupos da",
+      "h1Line2": "Copa do Mundo 2026",
+      "intro": "Sorteio final realizado em 5 de dezembro de 2025 no Kennedy Center, em Washington D.C. Avançam os 2 primeiros de cada grupo + os 8 melhores terceiros, total de 32 seleções para uma eliminatória de trinta e dois avos inédita em Copas.",
+      "back": "Copa do Mundo 2026",
+      "matchesCount": "{count, plural, =1 {1 jogo} other {# jogos}}",
+      "groupCardCta": "Calendário, tabela e cidades-sede",
+      "qualifyKicker": "Como se classificar para os trinta e dois avos",
+      "qualifyTitle": "48 seleções, 32 para a fase eliminatória",
+      "qualifyBody": "Cada grupo joga 6 partidas em um round-robin (todos contra todos). Avançam os <strong>2 primeiros</strong> de cada grupo (24 seleções) e os <strong>8 melhores terceiros</strong> do torneio (entre 12 candidatos). Total: 32 seleções para uma rodada de trinta e dois avos disputada de 28 de junho a 3 de julho."
+    },
+    "common": {
+      "back": "Voltar",
+      "fullSchedule": "Calendário completo",
+      "viewMore": "Ver mais",
+      "phase": "Fase",
+      "matches": "jogos"
     }
   }
 }

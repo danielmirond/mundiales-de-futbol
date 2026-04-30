@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { setRequestLocale } from 'next-intl/server';
+import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { ArrowLeft, ArrowRight, Calendar, MapPin, Trophy } from 'lucide-react';
 import {
   FIXTURES_2026,
@@ -22,12 +22,12 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'pages.calendario' });
   return pageMetadata({
     locale,
     path: '/2026/calendario',
-    title: 'Calendario Mundial 2026: 104 partidos por fase, fechas y horarios',
-    description:
-      'Calendario completo del Mundial 2026 desglosado por fase: grupos, dieciseisavos, octavos, cuartos, semifinales, tercer puesto y final. Fechas, horarios y sedes.',
+    title: t('title'),
+    description: t('description'),
     keywords: [
       'calendario Mundial 2026',
       'fechas Mundial 2026',
@@ -51,7 +51,7 @@ type PhaseGroup = {
   fixtures: Fixture26[];
 };
 
-function buildPhases(): PhaseGroup[] {
+function buildPhases(t: (key: string) => string): PhaseGroup[] {
   const groupStage = FIXTURES_2026.filter(
     (f) => /^[A-L]$/.test(f.stage),
   );
@@ -63,68 +63,13 @@ function buildPhases(): PhaseGroup[] {
   const fin = FIXTURES_2026.filter((f) => f.stage === 'FINAL');
 
   return [
-    {
-      key: 'group',
-      label: 'Fase de grupos',
-      description:
-        '72 partidos en 12 grupos (round-robin de 6 partidos por grupo). Pasan los 2 primeros + los 8 mejores terceros, total 32 equipos.',
-      rangeStart: PHASE_DATES.groupStart,
-      rangeEnd: PHASE_DATES.groupEnd,
-      fixtures: groupStage,
-    },
-    {
-      key: 'r32',
-      label: 'Dieciseisavos (R32)',
-      description:
-        '16 eliminatorias inéditas en Mundiales: primer cruce a partido único, ganador pasa a octavos. Una novedad del formato 48 equipos.',
-      rangeStart: PHASE_DATES.r32Start,
-      rangeEnd: PHASE_DATES.r32End,
-      fixtures: r32,
-    },
-    {
-      key: 'r16',
-      label: 'Octavos de final (R16)',
-      description:
-        '8 eliminatorias a partido único. Aquí ya están los grandes del torneo. Pasan a cuartos.',
-      rangeStart: PHASE_DATES.r16Start,
-      rangeEnd: PHASE_DATES.r16End,
-      fixtures: r16,
-    },
-    {
-      key: 'qf',
-      label: 'Cuartos de final',
-      description:
-        '4 eliminatorias. Tras una jornada de descanso, comienza el sprint final del torneo.',
-      rangeStart: PHASE_DATES.qfStart,
-      rangeEnd: PHASE_DATES.qfEnd,
-      fixtures: qf,
-    },
-    {
-      key: 'sf',
-      label: 'Semifinales',
-      description:
-        '2 partidos en dos sedes distintas. Los ganadores juegan la final, los perdedores el partido por el tercer puesto.',
-      rangeStart: PHASE_DATES.sfStart,
-      rangeEnd: PHASE_DATES.sfEnd,
-      fixtures: sf,
-    },
-    {
-      key: '3p',
-      label: 'Tercer y cuarto puesto',
-      description: 'El consuelo de los semifinalistas eliminados.',
-      rangeStart: PHASE_DATES.thirdPlace,
-      rangeEnd: PHASE_DATES.thirdPlace,
-      fixtures: tp,
-    },
-    {
-      key: 'final',
-      label: 'Final',
-      description:
-        '19 de julio en MetLife Stadium (Nueva York/Nueva Jersey). El equipo campeón levanta la copa.',
-      rangeStart: PHASE_DATES.final,
-      rangeEnd: PHASE_DATES.final,
-      fixtures: fin,
-    },
+    { key: 'group',  label: t('phaseGroup'),  description: t('phaseGroupDesc'),  rangeStart: PHASE_DATES.groupStart,  rangeEnd: PHASE_DATES.groupEnd,    fixtures: groupStage },
+    { key: 'r32',    label: t('phaseR32'),    description: t('phaseR32Desc'),    rangeStart: PHASE_DATES.r32Start,    rangeEnd: PHASE_DATES.r32End,      fixtures: r32 },
+    { key: 'r16',    label: t('phaseR16'),    description: t('phaseR16Desc'),    rangeStart: PHASE_DATES.r16Start,    rangeEnd: PHASE_DATES.r16End,      fixtures: r16 },
+    { key: 'qf',     label: t('phaseQF'),     description: t('phaseQFDesc'),     rangeStart: PHASE_DATES.qfStart,     rangeEnd: PHASE_DATES.qfEnd,       fixtures: qf },
+    { key: 'sf',     label: t('phaseSF'),     description: t('phaseSFDesc'),     rangeStart: PHASE_DATES.sfStart,     rangeEnd: PHASE_DATES.sfEnd,       fixtures: sf },
+    { key: '3p',     label: t('phase3P'),     description: t('phase3PDesc'),     rangeStart: PHASE_DATES.thirdPlace,  rangeEnd: PHASE_DATES.thirdPlace,  fixtures: tp },
+    { key: 'final',  label: t('phaseFinal'),  description: t('phaseFinalDesc'),  rangeStart: PHASE_DATES.final,       rangeEnd: PHASE_DATES.final,       fixtures: fin },
   ];
 }
 
@@ -152,8 +97,9 @@ export default async function Calendario2026({
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
+  const t = await getTranslations({ locale, namespace: 'pages.calendario' });
 
-  const phases = buildPhases();
+  const phases = buildPhases(t);
   const venueBySlug = new Map(VENUES_2026.map((v) => [v.slug, v]));
 
   const eventLd = {
@@ -192,20 +138,17 @@ export default async function Calendario2026({
           href={withLocale(locale as Locale, '/2026')}
           className="inline-flex items-center gap-2 font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-fg-muted)] transition-colors hover:text-[var(--color-fg)]"
         >
-          <ArrowLeft className="h-3 w-3 rtl:rotate-180" /> Mundial 2026
+          <ArrowLeft className="h-3 w-3 rtl:rotate-180" /> {t('back')}
         </Link>
 
         <div className="mt-6 font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-pitch)]">
-          11 jun, 19 jul 2026 · 39 días · 104 partidos
+          {t('kicker')}
         </div>
         <h1 className="mt-4 font-display text-fluid-display uppercase leading-[0.9]">
-          Calendario por fase
+          {t('h1')}
         </h1>
         <p className="mt-6 max-w-3xl text-lg leading-relaxed text-[var(--color-fg-muted)] md:text-xl">
-          Estructura del Mundial 2026: la primera edición con 48 equipos
-          introduce una ronda nueva de dieciseisavos (R32) entre la fase de
-          grupos y los octavos clásicos. El torneo dura 39 días, del partido
-          inaugural en el Estadio Azteca a la final en MetLife Stadium.
+          {t('intro')}
         </p>
       </header>
 

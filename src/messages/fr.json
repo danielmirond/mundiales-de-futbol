@@ -188,6 +188,66 @@
     "fanZone": {
       "title": "Fan zone Coupe du Monde 2026 · Comment préparer ta maison pour les 64 matchs",
       "description": "Comment équiper ta maison pour la Coupe du Monde 2026 : TV 4K, barres de son, projecteurs et rituels. L'écran, le son et les gens qui font du tournoi plus qu'un événement."
+    },
+    "sedes": {
+      "kicker": "16 villes hôtes · 3 pays · 104 matchs",
+      "h1Line1": "Les villes hôtes de",
+      "h1Line2": "la Coupe du Monde 2026",
+      "intro": "De l'Estadio Azteca de Mexico au MetLife Stadium de New York/New Jersey, en passant par Vancouver, Toronto, Atlanta, Dallas et 10 autres villes hôtes. Chaque site a son stade, son calendrier, son plan de voyage, ses quartiers d'hôtels et ses conseils pratiques.",
+      "hostStats": "{cities} villes · {matches} matchs",
+      "mapHint": "Touche un marqueur pour voir le stade, les matchs et le guide de voyage. Vert MEX, bleu USA, rouge CAN.",
+      "tournamentMatches": "{matches} matchs du tournoi",
+      "sedesCount": "{count, plural, =1 {1 ville hôte} other {# villes hôtes}}",
+      "sedeCardCta": "Guide de la ville hôte",
+      "back": "Coupe du Monde 2026"
+    },
+    "calendario": {
+      "title": "Calendrier Coupe du Monde 2026 : 104 matchs par phase, dates et horaires",
+      "description": "Calendrier complet de la Coupe du Monde 2026 détaillé par phase : groupes, seizièmes, huitièmes, quarts, demi-finales, match pour la troisième place et finale. Dates, horaires et villes hôtes.",
+      "kicker": "11 juin – 19 juillet 2026 · 39 jours · 104 matchs",
+      "h1": "Calendrier par phase",
+      "intro": "Structure de la Coupe du Monde 2026 : la première édition à 48 équipes introduit un nouveau tour de seizièmes de finale entre la phase de groupes et les huitièmes classiques. Le tournoi dure 39 jours, du match d'ouverture à l'Estadio Azteca à la finale au MetLife Stadium.",
+      "back": "Coupe du Monde 2026",
+      "phaseGroup": "Phase de groupes",
+      "phaseGroupDesc": "72 matchs répartis en 12 groupes (round-robin de 6 matchs par groupe). Les 2 premiers et les 8 meilleurs troisièmes passent, soit 32 équipes au total.",
+      "phaseR32": "Seizièmes de finale",
+      "phaseR32Desc": "16 éliminatoires inédites en Coupe du Monde : premier couperet en match unique, le vainqueur file en huitièmes. Une nouveauté du format à 48 équipes.",
+      "phaseR16": "Huitièmes de finale",
+      "phaseR16Desc": "8 éliminatoires en match unique. Les cadors du tournoi sont là. Les vainqueurs accèdent aux quarts.",
+      "phaseQF": "Quarts de finale",
+      "phaseQFDesc": "4 éliminatoires. Après un jour de repos, le sprint final du tournoi commence.",
+      "phaseSF": "Demi-finales",
+      "phaseSFDesc": "2 matchs dans deux villes différentes. Les vainqueurs disputent la finale, les perdants la petite finale.",
+      "phase3P": "Match pour la troisième place",
+      "phase3PDesc": "Le lot de consolation des demi-finalistes éliminés.",
+      "phaseFinal": "Finale",
+      "phaseFinalDesc": "19 juillet au MetLife Stadium (New York/New Jersey). L'équipe championne soulève le trophée.",
+      "matchesCount": "{count, plural, =1 {1 match} other {# matchs}}",
+      "fixturesPending": "Les affiches seront confirmées à l'issue de la phase précédente.",
+      "showingFirst": "Affichage des 16 premiers matchs.",
+      "viewFullCalendar": "Voir le calendrier complet",
+      "ctaMore": "Plus sur la Coupe du Monde 2026"
+    },
+    "grupos": {
+      "title": "Groupes Coupe du Monde 2026 : A-L avec les 48 équipes, villes hôtes et calendrier",
+      "description": "Les 12 groupes de la Coupe du Monde 2026 (A-L) avec les 48 équipes, drapeaux, villes hôtes de chaque match et calendrier complet de la phase de groupes.",
+      "kicker": "12 groupes · 48 équipes · 72 matchs de poules",
+      "h1Line1": "Les 12 groupes de",
+      "h1Line2": "la Coupe du Monde 2026",
+      "intro": "Tirage au sort final tenu le 5 décembre 2025 au Kennedy Center, à Washington D.C. Les 2 premiers de chaque groupe et les 8 meilleurs troisièmes passent, soit 32 équipes au total vers des seizièmes de finale inédits en Coupe du Monde.",
+      "back": "Coupe du Monde 2026",
+      "matchesCount": "{count, plural, =1 {1 match} other {# matchs}}",
+      "groupCardCta": "Calendrier, classement et villes hôtes",
+      "qualifyKicker": "Comment se qualifier pour les seizièmes",
+      "qualifyTitle": "48 équipes, 32 en phase à élimination directe",
+      "qualifyBody": "Chaque groupe joue 6 matchs en round-robin (tous contre tous). Passent les <strong>2 premiers</strong> de chaque groupe (24 équipes) et les <strong>8 meilleurs troisièmes</strong> du tournoi (parmi 12 candidats). Total : 32 équipes pour des seizièmes de finale disputés du 28 juin au 3 juillet."
+    },
+    "common": {
+      "back": "Retour",
+      "fullSchedule": "Calendrier complet",
+      "viewMore": "Voir plus",
+      "phase": "Phase",
+      "matches": "matchs"
     }
   }
 }

@@ -188,6 +188,66 @@
     "fanZone": {
       "title": "Fan zone 2026 World Cup · How to set up your home for the 64 matches",
       "description": "How to gear up your home for the 2026 World Cup: 4K TVs, soundbars, projectors and rituals. The screen, the sound and the people that turn the tournament into something more than an event."
+    },
+    "sedes": {
+      "kicker": "16 host cities · 3 countries · 104 matches",
+      "h1Line1": "The host cities of",
+      "h1Line2": "the 2026 World Cup",
+      "intro": "From the Estadio Azteca in Mexico City to MetLife Stadium in New York/New Jersey, plus Vancouver, Toronto, Atlanta, Dallas and ten more host cities. Each venue has its stadium, schedule, travel plan, hotel districts and on-the-ground tips.",
+      "hostStats": "{cities} cities · {matches} matches",
+      "mapHint": "Tap a marker to see the stadium, matches and travel guide. Green MEX, blue USA, red CAN.",
+      "tournamentMatches": "{matches} tournament matches",
+      "sedesCount": "{count, plural, =1 {1 host city} other {# host cities}}",
+      "sedeCardCta": "Host city guide",
+      "back": "2026 World Cup"
+    },
+    "calendario": {
+      "title": "2026 World Cup schedule: 104 matches by stage, dates and kick-off times",
+      "description": "Full 2026 World Cup schedule broken down by stage: groups, round of 32, round of 16, quarter-finals, semi-finals, third-place match and final. Dates, kick-off times and venues.",
+      "kicker": "11 Jun – 19 Jul 2026 · 39 days · 104 matches",
+      "h1": "Schedule by stage",
+      "intro": "Structure of the 2026 World Cup: the first edition with 48 teams introduces a new round of 32 between the group stage and the classic round of 16. The tournament runs for 39 days, from the opening match at the Estadio Azteca to the final at MetLife Stadium.",
+      "back": "2026 World Cup",
+      "phaseGroup": "Group stage",
+      "phaseGroupDesc": "72 matches across 12 groups (round-robin of 6 matches per group). The top 2 plus the 8 best third-placed sides go through, 32 teams in total.",
+      "phaseR32": "Round of 32",
+      "phaseR32Desc": "16 single-leg knockouts never seen before at a World Cup: the first cut-off, the winner advances to the round of 16. A novelty of the 48-team format.",
+      "phaseR16": "Round of 16",
+      "phaseR16Desc": "8 single-leg knockouts. By now the tournament's heavyweights are in. Winners head to the quarter-finals.",
+      "phaseQF": "Quarter-finals",
+      "phaseQFDesc": "4 knockout ties. After a rest day, the tournament's final sprint kicks off.",
+      "phaseSF": "Semi-finals",
+      "phaseSFDesc": "2 matches at two different venues. The winners play the final, the losers contest the third-place match.",
+      "phase3P": "Third-place play-off",
+      "phase3PDesc": "The consolation match for the eliminated semi-finalists.",
+      "phaseFinal": "Final",
+      "phaseFinalDesc": "19 July at MetLife Stadium (New York/New Jersey). The champions lift the trophy.",
+      "matchesCount": "{count, plural, =1 {1 match} other {# matches}}",
+      "fixturesPending": "Match-ups will be confirmed once the previous stage ends.",
+      "showingFirst": "Showing the first 16 matches.",
+      "viewFullCalendar": "View full schedule",
+      "ctaMore": "More on the 2026 World Cup"
+    },
+    "grupos": {
+      "title": "2026 World Cup groups: A-L with the 48 teams, host cities and schedule",
+      "description": "The 12 groups of the 2026 World Cup (A-L) with the 48 teams, flags, host cities for each match and full group-stage schedule.",
+      "kicker": "12 groups · 48 teams · 72 group matches",
+      "h1Line1": "The 12 groups of",
+      "h1Line2": "the 2026 World Cup",
+      "intro": "Final draw held on 5 December 2025 at the Kennedy Center in Washington D.C. The top 2 from each group plus the 8 best third-placed sides go through, 32 teams in total to a brand-new round of 32 never seen before at a World Cup.",
+      "back": "2026 World Cup",
+      "matchesCount": "{count, plural, =1 {1 match} other {# matches}}",
+      "groupCardCta": "Schedule, table and host cities",
+      "qualifyKicker": "How teams qualify for the round of 32",
+      "qualifyTitle": "48 teams, 32 to the knockout stage",
+      "qualifyBody": "Each group plays 6 matches in a round-robin (everyone vs everyone). The <strong>top 2</strong> from each group go through (24 teams) plus the <strong>8 best third-placed sides</strong> across the tournament (out of 12 candidates). Total: 32 teams to a round of 32 played from 28 June to 3 July."
+    },
+    "common": {
+      "back": "Back",
+      "fullSchedule": "Full schedule",
+      "viewMore": "View more",
+      "phase": "Stage",
+      "matches": "matches"
     }
   }
 }

@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { setRequestLocale } from 'next-intl/server';
+import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { ArrowLeft, ArrowRight, MapPin } from 'lucide-react';
 import {
   GROUPS_2026,
@@ -22,12 +22,12 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'pages.grupos' });
   return pageMetadata({
     locale,
     path: '/2026/grupos',
-    title: 'Grupos Mundial 2026: A-L con los 48 equipos, sedes y calendario',
-    description:
-      'Los 12 grupos del Mundial 2026 (A-L) con los 48 equipos, banderas, sedes de cada partido y calendario completo de la fase de grupos.',
+    title: t('title'),
+    description: t('description'),
     keywords: [
       'grupos Mundial 2026',
       'sorteo Mundial 2026',
@@ -59,6 +59,7 @@ export default async function GroupsIndex({
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
+  const t = await getTranslations({ locale, namespace: 'pages.grupos' });
 
   const venueBySlug = new Map(VENUES_2026.map((v) => [v.slug, v]));
 
@@ -96,20 +97,17 @@ export default async function GroupsIndex({
           href={withLocale(locale as Locale, '/2026')}
           className="inline-flex items-center gap-2 font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-fg-muted)] transition-colors hover:text-[var(--color-fg)]"
         >
-          <ArrowLeft className="h-3 w-3 rtl:rotate-180" /> Mundial 2026
+          <ArrowLeft className="h-3 w-3 rtl:rotate-180" /> {t('back')}
         </Link>
 
         <div className="mt-6 font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-pitch)]">
-          12 grupos · 48 equipos · 72 partidos de grupos
+          {t('kicker')}
         </div>
         <h1 className="mt-4 font-display text-fluid-display uppercase leading-[0.9]">
-          Los 12 grupos del<br />Mundial 2026
+          {t('h1Line1')}<br />{t('h1Line2')}
         </h1>
         <p className="mt-6 max-w-3xl text-lg leading-relaxed text-[var(--color-fg-muted)] md:text-xl">
-          Sorteo final celebrado el 5 de diciembre de 2025 en el Kennedy Center
-          de Washington D.C. Pasan los 2 primeros de cada grupo + los 8 mejores
-          terceros, total 32 equipos a una eliminatoria de dieciseisavos
-          (R32) inédita en Mundiales.
+          {t('intro')}
         </p>
       </header>
 
@@ -143,24 +141,24 @@ export default async function GroupsIndex({
                       {g.letter}
                     </span>
                     <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-fg-subtle)]">
-                      {groupFixtures.length} partidos
+                      {t('matchesCount', { count: groupFixtures.length })}
                     </span>
                   </div>
 
                   <ul className="flex flex-col gap-2.5">
-                    {teams.map((t) => (
+                    {teams.map((tm) => (
                       <li
-                        key={t!.code}
+                        key={tm!.code}
                         className="flex items-center gap-3"
                       >
                         <span aria-hidden className="text-xl">
-                          {t!.flag}
+                          {tm!.flag}
                         </span>
                         <span className="text-sm font-medium text-[var(--color-fg)]">
-                          {t!.name}
+                          {tm!.name}
                         </span>
                         <span className="ml-auto font-mono text-[9px] uppercase tracking-[0.3em] text-[var(--color-fg-subtle)]">
-                          {t!.conf}
+                          {tm!.conf}
                         </span>
                       </li>
                     ))}
@@ -180,7 +178,7 @@ export default async function GroupsIndex({
                   )}
 
                   <span className="inline-flex items-center gap-2 font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-fg-subtle)] transition-colors group-hover:text-[var(--color-pitch)]">
-                    Calendario, tabla y sedes
+                    {t('groupCardCta')}
                     <ArrowRight className="h-3 w-3 transition-transform group-hover:translate-x-1 rtl:rotate-180" />
                   </span>
                 </Link>
@@ -194,10 +192,10 @@ export default async function GroupsIndex({
       <section className="mx-auto mt-20 w-full max-w-[1400px] px-6 md:px-10">
         <div className="rounded-3xl border border-[var(--color-border)] bg-[var(--color-bg-2)] p-10 md:p-14">
           <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-pitch)]">
-            Cómo se clasifica a la R32
+            {t('qualifyKicker')}
           </div>
           <h2 className="mt-3 font-display text-3xl uppercase leading-tight md:text-4xl">
-            48 equipos, 32 a la fase de eliminación
+            {t('qualifyTitle')}
           </h2>
           <p className="mt-6 max-w-3xl text-base leading-relaxed text-[var(--color-fg-muted)] md:text-lg">
             Cada grupo juega 6 partidos en un round-robin (todos contra todos).

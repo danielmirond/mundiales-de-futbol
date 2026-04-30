@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { setRequestLocale } from 'next-intl/server';
+import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { ArrowLeft, ArrowRight, MapPin, Users } from 'lucide-react';
 import { SEDES_2026, getVenueForSede } from '@/lib/wc-2026-sedes';
 import { HOSTS } from '@/lib/wc-2026';
@@ -42,6 +42,7 @@ export default async function SedesIndex({
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
+  const t = await getTranslations({ locale, namespace: 'pages.sedes' });
 
   // Agrupado por país, en orden México → USA → Canadá (orden histórico-FIFA).
   const grouped = (['MEX', 'USA', 'CAN'] as const).map((code) => ({
@@ -89,27 +90,24 @@ export default async function SedesIndex({
           href={withLocale(locale as Locale, '/2026')}
           className="inline-flex items-center gap-2 font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-fg-muted)] transition-colors hover:text-[var(--color-fg)]"
         >
-          <ArrowLeft className="h-3 w-3 rtl:rotate-180" /> Mundial 2026
+          <ArrowLeft className="h-3 w-3 rtl:rotate-180" /> {t('back')}
         </Link>
 
         <div className="mt-6 font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-pitch)]">
-          16 sedes · 3 países · 104 partidos
+          {t('kicker')}
         </div>
         <h1 className="mt-4 font-display text-fluid-display uppercase leading-[0.9]">
-          Las sedes del<br />Mundial 2026
+          {t('h1Line1')}<br />{t('h1Line2')}
         </h1>
         <p className="mt-6 max-w-3xl text-lg leading-relaxed text-[var(--color-fg-muted)] md:text-xl">
-          Del Estadio Azteca de Ciudad de México al MetLife de Nueva York/Nueva
-          Jersey, pasando por Vancouver, Toronto, Atlanta, Dallas y otras 10
-          ciudades anfitrionas. Cada sede tiene estadio, calendario, plan de
-          viaje, zonas hoteleras y consejos prácticos.
+          {t('intro')}
         </p>
 
         <div className="mt-12 flex flex-wrap items-center gap-x-8 gap-y-3 font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-fg-subtle)]">
           {HOSTS.map((h) => (
             <span key={h.code} className="inline-flex items-center gap-2">
               <span aria-hidden>{h.flag}</span>
-              {h.name} · {h.cityCount} ciudades · {h.matchCount} partidos
+              {h.name} · {t('hostStats', { cities: h.cityCount, matches: h.matchCount })}
             </span>
           ))}
         </div>
@@ -119,7 +117,7 @@ export default async function SedesIndex({
       <section className="mx-auto mt-12 w-full max-w-[1400px] px-6 md:px-10">
         <SedesMapClient sedes={SEDES_2026} />
         <p className="mt-3 font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--color-fg-subtle)]">
-          Toca un marcador para ver el estadio, partidos y guía de viaje. Verde MEX, azul USA, rojo CAN.
+          {t('mapHint')}
         </p>
       </section>
 
@@ -135,10 +133,10 @@ export default async function SedesIndex({
                   {host.flag} {host.name}
                 </div>
                 <h2 className="mt-3 font-display text-3xl uppercase leading-[1] md:text-4xl">
-                  {sedes.length === 1 ? '1 sede' : `${sedes.length} sedes`}
+                  {t('sedesCount', { count: sedes.length })}
                 </h2>
                 <p className="mt-4 font-mono text-xs text-[var(--color-fg-subtle)]">
-                  {host.matchCount} partidos del torneo
+                  {t('tournamentMatches', { matches: host.matchCount })}
                 </p>
               </div>
 
@@ -186,7 +184,7 @@ export default async function SedesIndex({
                         </p>
 
                         <span className="mt-auto inline-flex items-center gap-2 font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-fg-subtle)] transition-colors group-hover:text-[var(--color-pitch)]">
-                          Guía de la sede
+                          {t('sedeCardCta')}
                           <ArrowRight className="h-3 w-3 transition-transform group-hover:translate-x-1 rtl:rotate-180" />
                         </span>
                       </Link>
