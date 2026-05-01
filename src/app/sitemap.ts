@@ -93,7 +93,16 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   out.push(entry('/2026/grupos', now, 'weekly', 0.9));
   out.push(entry('/2026/calendario', now, 'weekly', 0.9));
   out.push(entry('/2026/convocatorias', now, 'daily', 0.9));
-  out.push(entry('/coleccionismo/panini-mundial-2026', now, 'weekly', 0.85));
+  out.push(entry('/coleccionismo/panini-mundial-2026', now, 'weekly', 0.95));
+  // Cluster Panini Mundial 2026 (sub-páginas pilar)
+  out.push(entry('/coleccionismo/panini-mundial-2026/precio', now, 'weekly', 0.85));
+  out.push(entry('/coleccionismo/panini-mundial-2026/donde-comprar', now, 'weekly', 0.85));
+  out.push(entry('/coleccionismo/panini-mundial-2026/cuando-sale', now, 'weekly', 0.8));
+  out.push(entry('/coleccionismo/panini-mundial-2026/digital', now, 'weekly', 0.8));
+  out.push(entry('/coleccionismo/panini-mundial-2026/tapa-dura', now, 'monthly', 0.75));
+  out.push(entry('/coleccionismo/panini-mundial-2026/cromos-mas-caros', now, 'weekly', 0.85));
+  out.push(entry('/coleccionismo/panini-mundial-2026/coca-cola', now, 'weekly', 0.8));
+  out.push(entry('/coleccionismo/panini-mundial-2026/topps-vs-panini', now, 'monthly', 0.7));
   out.push(entry('/selecciones/ESP/grupo-h', now, 'weekly', 0.9));
   out.push(entry('/historias', now, 'daily', 0.9));
   out.push(entry('/galeria', now, 'weekly', 0.85));
