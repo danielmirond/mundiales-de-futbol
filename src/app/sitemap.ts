@@ -92,6 +92,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   out.push(entry('/2026/sedes', now, 'weekly', 0.9));
   out.push(entry('/2026/grupos', now, 'weekly', 0.9));
   out.push(entry('/2026/calendario', now, 'weekly', 0.9));
+  out.push(entry('/2026/convocatorias', now, 'daily', 0.9));
   out.push(entry('/coleccionismo/panini-mundial-2026', now, 'weekly', 0.85));
   out.push(entry('/selecciones/ESP/grupo-h', now, 'weekly', 0.9));
   out.push(entry('/historias', now, 'daily', 0.9));
