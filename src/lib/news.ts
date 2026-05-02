@@ -98,10 +98,10 @@ La fecha de salida (30 de abril en España y USA, 2 de mayo en LATAM) cumple el 
       { name: 'Sports Illustrated', url: 'https://www.si.com/soccer/2026-world-cup-sticker-album-what-when-comes-out-where-buy-how-works' },
     ],
     image: {
-      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Panini_stickers_Italia_90.jpg?width=1200',
-      alt: 'Cromos Panini de un Mundial de fútbol, ejemplo histórico',
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Troca%20de%20cromos%20da%20panini%20-%201.jpg?width=1200',
+      alt: 'Niños intercambiando cromos Panini del Mundial de fútbol',
       credit: 'Foto: Wikimedia Commons',
-      license: 'CC BY-SA',
+      license: 'CC BY-SA 4.0',
     },
   },
   {
@@ -129,10 +129,10 @@ La omisión también incrementa la presión sobre Endrick, Vinicius Jr. y Rodryg
       { name: 'Globo Esporte', url: 'https://ge.globo.com' },
     ],
     image: {
-      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Neymar_Brasil_Russia_2018.jpg?width=1200',
-      alt: 'Neymar Júnior con la camiseta de la selección brasileña',
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Neymar%20Junior%20Brazil%20Austria%20June%202018.jpg?width=1200',
+      alt: 'Neymar Júnior con la camiseta de la selección brasileña, junio 2018',
       credit: 'Foto: Wikimedia Commons',
-      license: 'CC BY-SA 3.0',
+      license: 'CC BY-SA 4.0',
     },
   },
   {
@@ -157,10 +157,10 @@ La canción está disponible en Spotify, Apple Music y YouTube desde el mediodí
     sourceLang: 'es',
     publishedAt: '2026-05-01T10:00:00+00:00',
     image: {
-      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Emilio_Estefan_2009.jpg?width=1200',
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Gloria%20Estefan%20and%20Emilio%20Estefan%20at%202014%20MIFF%20%28cropped%29.jpg?width=1200',
       alt: 'Emilio Estefan, productor musical cubano-estadounidense, autor de la canción oficial del Mundial 2026',
       credit: 'Foto: Wikimedia Commons',
-      license: 'CC BY 3.0',
+      license: 'CC BY-SA 2.0',
     },
   },
   {
@@ -185,10 +185,10 @@ Para los coleccionistas: los cromos «debut sénior» de los jóvenes escoceses 
     sourceLang: 'en',
     publishedAt: '2026-04-30T14:00:00+00:00',
     image: {
-      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Scotland_supporters_at_Hampden_Park.jpg?width=1200',
-      alt: 'Aficionados de Escocia en Hampden Park, Glasgow',
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Tartan%20Army%20Gibraltar%20V%20Scotland%2011%20October%202015%20%282%29.JPG?width=1200',
+      alt: 'Tartan Army, hinchada de la selección escocesa de fútbol',
       credit: 'Foto: Wikimedia Commons',
-      license: 'CC BY-SA',
+      license: 'CC BY-SA 4.0',
     },
   },
   {
@@ -212,10 +212,10 @@ Las federaciones top suelen publicar la lista provisional en la primera semana d
     sourceLang: 'en',
     publishedAt: '2026-04-29T09:00:00+00:00',
     image: {
-      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/FIFA_World_Cup_Trophy_2018.jpg?width=1200',
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/FIFA%20World%20Cup%20Trophy%20%28Ank%20Kumar%2C%20Infosys%20Limited%29%2003.jpg?width=1200',
       alt: 'Trofeo de la Copa Mundial de la FIFA',
-      credit: 'Foto: Kremlin.ru / Wikimedia Commons',
-      license: 'CC BY 4.0',
+      credit: 'Foto: Ank Kumar (Infosys) / Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
     },
   },
   {
@@ -269,7 +269,7 @@ Brasil debuta en el Grupo C el 13 de junio contra Marruecos en MetLife Stadium (
     sourceLang: 'pt',
     publishedAt: '2026-04-29T18:00:00+00:00',
     image: {
-      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Carlo_Ancelotti_2018.jpg?width=1200',
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Carlo%20Ancelotti%202016%20%28cropped%29.jpg?width=1200',
       alt: 'Carlo Ancelotti, seleccionador de Brasil para el Mundial 2026',
       credit: 'Foto: Wikimedia Commons',
       license: 'CC BY-SA 4.0',
@@ -306,10 +306,10 @@ A día de hoy quedan disponibles entradas para más del 60 % de los partidos de 
     sourceLang: 'en',
     publishedAt: '2026-04-25T10:00:00+00:00',
     image: {
-      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/MetLife_Stadium_(8159818407).jpg?width=1200',
-      alt: 'MetLife Stadium, sede de la final del Mundial 2026',
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/MetLife%20Stadium%202022.jpg?width=1200',
+      alt: 'MetLife Stadium en East Rutherford, sede de la final del Mundial 2026',
       credit: 'Foto: Wikimedia Commons',
-      license: 'CC BY 2.0',
+      license: 'CC BY-SA 4.0',
     },
   },
   {
@@ -360,10 +360,10 @@ La señal estará disponible en La 1 en formato lineal y en RTVE Play como strea
     sourceLang: 'es',
     publishedAt: '2026-02-15T09:00:00+00:00',
     image: {
-      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Logotipo_de_RTVE.svg?width=1200',
-      alt: 'Logotipo de RTVE, televisión pública española',
-      credit: 'RTVE',
-      license: 'Trademark',
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Logo%20RTVE%20%281991-2008%29.svg?width=1200',
+      alt: 'Logotipo histórico de RTVE, Radiotelevisión Española',
+      credit: 'Wikimedia Commons',
+      license: 'Public Domain',
     },
   },
 ];
