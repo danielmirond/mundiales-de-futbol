@@ -1,6 +1,7 @@
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Hero } from '@/components/home/hero';
 import { Countdown } from '@/components/home/countdown';
+import { DailyNews } from '@/components/home/daily-news';
 import { StatsBand } from '@/components/home/stats-band';
 import { EditionsGrid } from '@/components/home/editions-grid';
 import { Pillars } from '@/components/home/pillars';
@@ -43,6 +44,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
     <>
       <Hero />
       <Countdown />
+      <DailyNews />
       <StatsBand />
       <EditionsGrid locale={locale as Locale} />
       <Pillars />
