@@ -10,6 +10,8 @@ import { JsonLd } from '@/lib/seo';
 import { TeamPhotoGallery } from '@/components/team/team-photo-gallery';
 import { AmazonProductGrid } from '@/components/affiliate/amazon-card';
 import { getProductsByTeam } from '@/lib/amazon-products';
+import { getJerseyHistory } from '@/lib/wc-jerseys';
+import { Shirt, ArrowRight } from 'lucide-react';
 
 function withLocale(locale: Locale, href: string) {
   if (locale === routing.defaultLocale) return href;
@@ -210,6 +212,33 @@ export default async function SelectionDetailPage({
           <Stat label="Goles" value={`${unified.goals_for}/${unified.goals_against}`} small />
         </div>
       </section>
+
+      {/* Camisetas - link a evolución si hay historia disponible */}
+      {getJerseyHistory(team.code) && (
+        <section className="mx-auto w-full max-w-[1400px] px-6 mt-10 md:px-10">
+          <Link
+            href={withLocale(locale as Locale, `/selecciones/${team.code}/camisetas`)}
+            className="group flex flex-col gap-3 rounded-3xl border border-[var(--color-pitch)]/30 bg-gradient-to-br from-[var(--color-pitch)]/8 via-[var(--color-bg-2)] to-[var(--color-bg-2)] p-7 transition-colors hover:border-[var(--color-pitch)] md:flex-row md:items-center md:justify-between md:p-8"
+          >
+            <div className="flex-1">
+              <div className="flex items-center gap-3 font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-pitch)]">
+                <Shirt className="h-3 w-3" />
+                <span>Evolución de la camiseta</span>
+              </div>
+              <h2 className="mt-2 font-display text-2xl uppercase leading-tight md:text-3xl">
+                Las camisetas de {teamDisplayName(team)} en cada Mundial
+              </h2>
+              <p className="mt-2 max-w-2xl text-sm text-[var(--color-fg-muted)]">
+                {getJerseyHistory(team.code)?.intro.slice(0, 160)}…
+              </p>
+            </div>
+            <span className="inline-flex shrink-0 items-center gap-2 self-start rounded-full bg-[var(--color-pitch)] px-5 py-2.5 text-sm font-semibold text-black transition-opacity group-hover:opacity-90 md:self-auto">
+              Ver evolución
+              <ArrowRight className="h-3 w-3 transition-transform group-hover:translate-x-1 rtl:rotate-180" />
+            </span>
+          </Link>
+        </section>
+      )}
 
       {/* Top scorers */}
       {topScorers.length > 0 && (

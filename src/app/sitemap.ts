@@ -6,6 +6,7 @@ import { SEDES_2026 } from '@/lib/wc-2026-sedes';
 import { GROUPS_2026 } from '@/lib/wc-2026';
 import { NEWS_ITEMS } from '@/lib/news';
 import { SQUADS_2026 } from '@/lib/wc-2026-squads';
+import { JERSEY_HISTORIES } from '@/lib/wc-jerseys';
 import { routing } from '@/i18n/routing';
 
 /**
@@ -130,6 +131,11 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // Listas 2026 (48 selecciones)
   for (const sq of SQUADS_2026) {
     out.push(entry(`/2026/listas/${sq.teamCode}`, now, 'daily', 0.8));
+  }
+
+  // Camisetas por selección (cluster editorial)
+  for (const h of JERSEY_HISTORIES) {
+    out.push(entry(`/selecciones/${h.teamCode}/camisetas`, now, 'monthly', 0.8));
   }
 
   // Grupos 2026 (A-L)
