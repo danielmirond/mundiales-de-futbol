@@ -23,19 +23,21 @@ function withLocale(locale: Locale, href: string) {
 }
 
 /**
- * Módulo de noticias diarias en la home. Renderiza las 6 más recientes
- * con enlace interno al artículo editorial propio en `/noticias/[slug]`.
+ * Carrusel de noticias diarias en la home. Renderiza las 8 más recientes
+ * en scroll horizontal con `scroll-snap` nativo CSS (sin JS, server-only).
  *
- * Cada noticia tiene body editorial propio (200-400 palabras) que cita
- * y enlaza a la fuente original.
+ * Cada card enlaza al artículo editorial propio en `/noticias/[slug]`.
+ * En desktop: 3 cards visibles; en mobile: 1 card snap centro con peek
+ * de las adyacentes. Sin librerías de carrusel: gestos táctiles nativos
+ * + scroll wheel + arrastre con cursor (rueda de Magic Mouse, trackpad).
  */
 export function DailyNews({ locale }: { locale: Locale }) {
-  const items = getLatestNews(6);
+  const items = getLatestNews(8);
   if (items.length === 0) return null;
 
   return (
     <section className="relative border-y border-[var(--color-border)] bg-[var(--color-bg-2)]">
-      <div className="mx-auto w-full max-w-[1400px] px-6 py-16 md:px-10 md:py-20">
+      <div className="mx-auto w-full max-w-[1400px] px-6 pt-12 pb-6 md:px-10 md:pt-16 md:pb-8">
         <div className="flex flex-wrap items-end justify-between gap-4">
           <div>
             <div className="flex items-center gap-2 font-mono text-[11px] uppercase tracking-[0.3em] text-[var(--color-pitch)]">
@@ -45,10 +47,6 @@ export function DailyNews({ locale }: { locale: Locale }) {
             <h2 className="mt-3 font-display text-3xl uppercase leading-[0.95] text-[var(--color-fg)] md:text-4xl">
               Noticias del día
             </h2>
-            <p className="mt-3 max-w-2xl text-sm text-[var(--color-fg-muted)] md:text-base">
-              Cobertura editorial propia con datos verificados y citas a
-              fuentes originales.
-            </p>
           </div>
           <Link
             href={withLocale(locale, '/noticias')}
@@ -58,10 +56,22 @@ export function DailyNews({ locale }: { locale: Locale }) {
             <ArrowRight className="h-3 w-3 transition-transform group-hover:translate-x-1 rtl:rotate-180" />
           </Link>
         </div>
+      </div>
 
-        <ul className="mt-12 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+      {/* Carrusel · scroll horizontal con snap */}
+      <div
+        className="news-carousel relative pb-12 md:pb-16"
+        aria-label="Carrusel de noticias del Mundial 2026"
+      >
+        <ul
+          className="flex snap-x snap-mandatory gap-4 overflow-x-auto scroll-smooth px-6 pb-4 md:px-10 md:gap-6 [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden"
+          role="list"
+        >
           {items.map((n) => (
-            <li key={n.slug}>
+            <li
+              key={n.slug}
+              className="snap-start shrink-0 basis-[85%] sm:basis-[55%] md:basis-[44%] lg:basis-[32%] xl:basis-[26%]"
+            >
               <Link
                 href={withLocale(locale, `/noticias/${n.slug}`)}
                 className="group flex h-full flex-col gap-4 rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg)] p-6 transition-colors hover:border-[var(--color-pitch)]/40 hover:bg-[var(--color-bg-2)]"
@@ -79,20 +89,25 @@ export function DailyNews({ locale }: { locale: Locale }) {
                   {n.title}
                 </h3>
 
-                <p className="text-sm leading-relaxed text-[var(--color-fg-muted)]">
+                <p className="text-sm leading-relaxed text-[var(--color-fg-muted)] line-clamp-4">
                   {n.summary}
                 </p>
 
                 <div className="mt-auto flex items-center justify-between gap-3 border-t border-[var(--color-border)] pt-4">
-                  <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-fg-subtle)]">
+                  <span className="truncate font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-fg-subtle)]">
                     Fuente · {n.sourceName}
                   </span>
-                  <ArrowRight className="h-3 w-3 text-[var(--color-fg-subtle)] transition-all group-hover:translate-x-1 group-hover:text-[var(--color-pitch)]" />
+                  <ArrowRight className="h-3 w-3 flex-shrink-0 text-[var(--color-fg-subtle)] transition-all group-hover:translate-x-1 group-hover:text-[var(--color-pitch)]" />
                 </div>
               </Link>
             </li>
           ))}
         </ul>
+
+        {/* Hint mobile: arrastra para ver más */}
+        <p className="mt-2 px-6 font-mono text-[9px] uppercase tracking-[0.3em] text-[var(--color-fg-subtle)] md:hidden">
+          Desliza para ver más →
+        </p>
       </div>
     </section>
   );
