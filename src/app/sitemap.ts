@@ -5,6 +5,7 @@ import { HISTORIAS } from '@/lib/historias';
 import { SEDES_2026 } from '@/lib/wc-2026-sedes';
 import { GROUPS_2026 } from '@/lib/wc-2026';
 import { NEWS_ITEMS } from '@/lib/news';
+import { SQUADS_2026 } from '@/lib/wc-2026-squads';
 import { routing } from '@/i18n/routing';
 
 /**
@@ -94,6 +95,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   out.push(entry('/2026/grupos', now, 'weekly', 0.9));
   out.push(entry('/2026/calendario', now, 'weekly', 0.9));
   out.push(entry('/2026/convocatorias', now, 'daily', 0.9));
+  out.push(entry('/2026/listas', now, 'daily', 0.9));
+  out.push(entry('/2026/mascotas', now, 'monthly', 0.8));
   out.push(entry('/coleccionismo/panini-mundial-2026', now, 'weekly', 0.95));
   // Cluster Panini Mundial 2026 (sub-páginas pilar)
   out.push(entry('/coleccionismo/panini-mundial-2026/precio', now, 'weekly', 0.85));
@@ -122,6 +125,11 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // Sedes 2026
   for (const s of SEDES_2026) {
     out.push(entry(`/2026/sedes/${s.citySlug}`, now, 'weekly', 0.85));
+  }
+
+  // Listas 2026 (48 selecciones)
+  for (const sq of SQUADS_2026) {
+    out.push(entry(`/2026/listas/${sq.teamCode}`, now, 'daily', 0.8));
   }
 
   // Grupos 2026 (A-L)
