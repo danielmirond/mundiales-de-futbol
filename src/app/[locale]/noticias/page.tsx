@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { setRequestLocale } from 'next-intl/server';
 import { ArrowLeft, ArrowRight, Newspaper } from 'lucide-react';
 import { NEWS_ITEMS, relativeTimeEs, type NewsCategory } from '@/lib/news';
@@ -116,29 +117,44 @@ export default async function NoticiasIndex({
           <li key={n.slug} className="bg-[var(--color-bg)]">
             <Link
               href={withLocale(locale as Locale, `/noticias/${n.slug}`)}
-              className="group flex h-full flex-col gap-4 p-6 transition-colors hover:bg-[var(--color-bg-2)] md:p-7"
+              className="group flex h-full flex-col overflow-hidden transition-colors hover:bg-[var(--color-bg-2)]"
             >
-              <div className="flex items-center justify-between gap-3 font-mono text-[10px] uppercase tracking-[0.3em]">
-                <span className="rounded-full bg-[var(--color-pitch)]/10 px-2.5 py-1 text-[var(--color-pitch)]">
+              <div className="relative aspect-[16/9] w-full overflow-hidden bg-gradient-to-br from-[var(--color-pitch)]/10 via-[var(--color-bg-2)] to-[var(--color-bg)]">
+                {n.image ? (
+                  <Image
+                    src={n.image.url}
+                    alt={n.image.alt}
+                    fill
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    className="object-cover transition-transform duration-500 group-hover:scale-105"
+                    unoptimized
+                  />
+                ) : (
+                  <div className="absolute inset-0 grid-overlay opacity-30" />
+                )}
+                <span className="absolute left-3 top-3 rounded-full bg-[var(--color-pitch)] px-2.5 py-1 font-mono text-[9px] uppercase tracking-[0.3em] text-black">
                   {CATEGORY_LABELS[n.category]}
-                </span>
-                <span className="text-[var(--color-fg-subtle)]">
-                  {relativeTimeEs(n.publishedAt)}
                 </span>
               </div>
 
-              <h2 className="font-display text-lg uppercase leading-tight text-[var(--color-fg)] group-hover:text-[var(--color-pitch)] transition-colors md:text-xl">
-                {n.title}
-              </h2>
+              <div className="flex flex-1 flex-col gap-3 p-6 md:p-7">
+                <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-fg-subtle)]">
+                  {relativeTimeEs(n.publishedAt)}
+                </span>
 
-              <p className="text-sm leading-relaxed text-[var(--color-fg-muted)]">
-                {n.summary}
-              </p>
+                <h2 className="font-display text-lg uppercase leading-tight text-[var(--color-fg)] group-hover:text-[var(--color-pitch)] transition-colors md:text-xl">
+                  {n.title}
+                </h2>
 
-              <span className="mt-auto inline-flex items-center gap-2 font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-fg-subtle)] transition-colors group-hover:text-[var(--color-pitch)]">
-                Leer artículo completo
-                <ArrowRight className="h-3 w-3 transition-transform group-hover:translate-x-1 rtl:rotate-180" />
-              </span>
+                <p className="text-sm leading-relaxed text-[var(--color-fg-muted)] line-clamp-3">
+                  {n.summary}
+                </p>
+
+                <span className="mt-auto inline-flex items-center gap-2 font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-fg-subtle)] transition-colors group-hover:text-[var(--color-pitch)]">
+                  Leer artículo completo
+                  <ArrowRight className="h-3 w-3 transition-transform group-hover:translate-x-1 rtl:rotate-180" />
+                </span>
+              </div>
             </Link>
           </li>
         ))}

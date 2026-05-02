@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { ArrowRight, Newspaper } from 'lucide-react';
 import { getLatestNews, relativeTimeEs, type NewsItem } from '@/lib/news';
 import { routing, type Locale } from '@/i18n/routing';
@@ -74,30 +75,46 @@ export function DailyNews({ locale }: { locale: Locale }) {
             >
               <Link
                 href={withLocale(locale, `/noticias/${n.slug}`)}
-                className="group flex h-full flex-col gap-4 rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg)] p-6 transition-colors hover:border-[var(--color-pitch)]/40 hover:bg-[var(--color-bg-2)]"
+                className="group flex h-full flex-col overflow-hidden rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg)] transition-colors hover:border-[var(--color-pitch)]/40 hover:bg-[var(--color-bg-2)]"
               >
-                <div className="flex items-center justify-between gap-3 font-mono text-[10px] uppercase tracking-[0.3em]">
-                  <span className="rounded-full bg-[var(--color-pitch)]/10 px-2.5 py-1 text-[var(--color-pitch)]">
+                {/* Imagen 16:9 con fallback a gradient verde de marca */}
+                <div className="relative aspect-[16/9] w-full overflow-hidden bg-gradient-to-br from-[var(--color-pitch)]/10 via-[var(--color-bg-2)] to-[var(--color-bg)]">
+                  {n.image ? (
+                    <Image
+                      src={n.image.url}
+                      alt={n.image.alt}
+                      fill
+                      sizes="(max-width: 640px) 85vw, (max-width: 1024px) 44vw, 32vw"
+                      className="object-cover transition-transform duration-500 group-hover:scale-105"
+                      unoptimized
+                    />
+                  ) : (
+                    <div className="absolute inset-0 grid-overlay opacity-30" />
+                  )}
+                  <span className="absolute left-3 top-3 rounded-full bg-[var(--color-pitch)] px-2.5 py-1 font-mono text-[9px] uppercase tracking-[0.3em] text-black">
                     {CATEGORY_LABELS[n.category]}
-                  </span>
-                  <span className="text-[var(--color-fg-subtle)]">
-                    {relativeTimeEs(n.publishedAt)}
                   </span>
                 </div>
 
-                <h3 className="font-display text-lg uppercase leading-tight text-[var(--color-fg)] transition-colors group-hover:text-[var(--color-pitch)] md:text-xl">
-                  {n.title}
-                </h3>
-
-                <p className="text-sm leading-relaxed text-[var(--color-fg-muted)] line-clamp-4">
-                  {n.summary}
-                </p>
-
-                <div className="mt-auto flex items-center justify-between gap-3 border-t border-[var(--color-border)] pt-4">
-                  <span className="truncate font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-fg-subtle)]">
-                    Fuente · {n.sourceName}
+                <div className="flex flex-1 flex-col gap-3 p-5 md:p-6">
+                  <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-fg-subtle)]">
+                    {relativeTimeEs(n.publishedAt)}
                   </span>
-                  <ArrowRight className="h-3 w-3 flex-shrink-0 text-[var(--color-fg-subtle)] transition-all group-hover:translate-x-1 group-hover:text-[var(--color-pitch)]" />
+
+                  <h3 className="font-display text-lg uppercase leading-tight text-[var(--color-fg)] transition-colors group-hover:text-[var(--color-pitch)] md:text-xl">
+                    {n.title}
+                  </h3>
+
+                  <p className="text-sm leading-relaxed text-[var(--color-fg-muted)] line-clamp-3">
+                    {n.summary}
+                  </p>
+
+                  <div className="mt-auto flex items-center justify-between gap-3 border-t border-[var(--color-border)] pt-3">
+                    <span className="truncate font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-fg-subtle)]">
+                      Fuente · {n.sourceName}
+                    </span>
+                    <ArrowRight className="h-3 w-3 flex-shrink-0 text-[var(--color-fg-subtle)] transition-all group-hover:translate-x-1 group-hover:text-[var(--color-pitch)]" />
+                  </div>
                 </div>
               </Link>
             </li>

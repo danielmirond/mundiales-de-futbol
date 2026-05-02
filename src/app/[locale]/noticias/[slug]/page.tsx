@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import { setRequestLocale } from 'next-intl/server';
 import {
@@ -59,6 +60,14 @@ export async function generateMetadata({
     type: 'article',
     publishedTime: item.publishedAt,
     modifiedTime: item.modifiedAt ?? item.publishedAt,
+    image: item.image
+      ? {
+          url: item.image.url,
+          width: 1200,
+          height: 675,
+          alt: item.image.alt,
+        }
+      : undefined,
     keywords: [
       `Mundial 2026 ${CATEGORY_LABELS[item.category]}`,
       'noticias Mundial 2026',
@@ -92,6 +101,9 @@ export default async function NoticiaDetail({
     inLanguage: locale,
     url,
     mainEntityOfPage: url,
+    image: item.image
+      ? [{ '@type': 'ImageObject', url: item.image.url, width: 1200, height: 675 }]
+      : undefined,
     publisher: {
       '@type': 'Organization',
       name: SEO.siteName,
@@ -166,6 +178,30 @@ export default async function NoticiaDetail({
           {item.summary}
         </p>
       </header>
+
+      {/* Hero image (16:9) */}
+      {item.image && (
+        <figure className="mx-auto mt-12 w-full max-w-[1100px] px-6 md:px-10">
+          <div className="relative aspect-[16/9] w-full overflow-hidden rounded-3xl border border-[var(--color-border)]">
+            <Image
+              src={item.image.url}
+              alt={item.image.alt}
+              fill
+              sizes="(max-width: 1100px) 100vw, 1100px"
+              className="object-cover"
+              unoptimized
+              priority
+            />
+          </div>
+          {(item.image.credit || item.image.license) && (
+            <figcaption className="mt-3 px-2 font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--color-fg-subtle)]">
+              {item.image.credit}
+              {item.image.credit && item.image.license ? ' · ' : ''}
+              {item.image.license}
+            </figcaption>
+          )}
+        </figure>
+      )}
 
       {/* Body */}
       <section className="mx-auto mt-12 w-full max-w-[900px] px-6 md:px-10">

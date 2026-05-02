@@ -58,6 +58,17 @@ export type NewsItem = {
   modifiedAt?: string;
   /** Fuentes secundarias (atribución adicional, para verificación cruzada). */
   sourcesSecondary?: { name: string; url: string }[];
+  /**
+   * Imagen de portada (1200×675 ideal Discover-friendly).
+   * Recomendado: Wikimedia Commons via `Special:FilePath` con licencia libre.
+   * Si se omite, se usa el OG dinámico de marca como fallback.
+   */
+  image?: {
+    url: string;
+    alt: string;
+    credit?: string;
+    license?: string;
+  };
 };
 
 export const NEWS_ITEMS: NewsItem[] = [
@@ -86,6 +97,12 @@ La fecha de salida (30 de abril en España y USA, 2 de mayo en LATAM) cumple el 
       { name: 'Panini.es', url: 'https://www.panini.es/shp_esp_es/fifa-world-cup-2026-official-sticker-collection-lbum-colecci-n-oficial-panini-005460aew-es01.html' },
       { name: 'Sports Illustrated', url: 'https://www.si.com/soccer/2026-world-cup-sticker-album-what-when-comes-out-where-buy-how-works' },
     ],
+    image: {
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Panini_stickers_Italia_90.jpg?width=1200',
+      alt: 'Cromos Panini de un Mundial de fútbol, ejemplo histórico',
+      credit: 'Foto: Wikimedia Commons',
+      license: 'CC BY-SA',
+    },
   },
   {
     slug: 'neymar-omitido-album-panini-mundial-2026',
@@ -111,6 +128,12 @@ La omisión también incrementa la presión sobre Endrick, Vinicius Jr. y Rodryg
       { name: 'The Guardian', url: 'https://www.theguardian.com/football/2026/apr/29/panini-football-stickers-1000-pounds-48-team-world-cup' },
       { name: 'Globo Esporte', url: 'https://ge.globo.com' },
     ],
+    image: {
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Neymar_Brasil_Russia_2018.jpg?width=1200',
+      alt: 'Neymar Júnior con la camiseta de la selección brasileña',
+      credit: 'Foto: Wikimedia Commons',
+      license: 'CC BY-SA 3.0',
+    },
   },
   {
     slug: 'love-always-wins-emilio-estefan-cancion-oficial-mundial-2026',
@@ -133,6 +156,12 @@ La canción está disponible en Spotify, Apple Music y YouTube desde el mediodí
       'https://www.lavanguardia.com/gente/20260501/11527408/emilio-estefan-presenta-love-always-wins-cancion-album-musical-mundial-2026.amp.html',
     sourceLang: 'es',
     publishedAt: '2026-05-01T10:00:00+00:00',
+    image: {
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Emilio_Estefan_2009.jpg?width=1200',
+      alt: 'Emilio Estefan, productor musical cubano-estadounidense, autor de la canción oficial del Mundial 2026',
+      credit: 'Foto: Wikimedia Commons',
+      license: 'CC BY 3.0',
+    },
   },
   {
     slug: 'escocia-vuelve-album-panini-mundial-2026',
@@ -155,6 +184,12 @@ Para los coleccionistas: los cromos «debut sénior» de los jóvenes escoceses 
       'https://www.scotsman.com/sport/football/international/panini-world-cup-2026-sticker-album-released-as-scotland-return-to-collection-heres-everything-you-need-to-know-8290414',
     sourceLang: 'en',
     publishedAt: '2026-04-30T14:00:00+00:00',
+    image: {
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Scotland_supporters_at_Hampden_Park.jpg?width=1200',
+      alt: 'Aficionados de Escocia en Hampden Park, Glasgow',
+      credit: 'Foto: Wikimedia Commons',
+      license: 'CC BY-SA',
+    },
   },
   {
     slug: 'fechas-fifa-listas-mundial-2026-11-mayo-1-junio',
@@ -176,6 +211,12 @@ Las federaciones top suelen publicar la lista provisional en la primera semana d
     sourceUrl: 'https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads',
     sourceLang: 'en',
     publishedAt: '2026-04-29T09:00:00+00:00',
+    image: {
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/FIFA_World_Cup_Trophy_2018.jpg?width=1200',
+      alt: 'Trofeo de la Copa Mundial de la FIFA',
+      credit: 'Foto: Kremlin.ru / Wikimedia Commons',
+      license: 'CC BY 4.0',
+    },
   },
   {
     slug: 'coca-cola-12-cromos-exclusivos-panini-mundial-2026',
@@ -200,6 +241,12 @@ La operación responde a la lógica del coleccionismo extremo: si quieres llenar
       'https://www.si.com/soccer/2026-world-cup-sticker-album-what-when-comes-out-where-buy-how-works',
     sourceLang: 'en',
     publishedAt: '2026-04-30T16:00:00+00:00',
+    image: {
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Coca-Cola_logo.svg?width=1200',
+      alt: 'Logotipo de Coca-Cola, partner oficial FIFA',
+      credit: 'Coca-Cola Company',
+      license: 'Trademark',
+    },
   },
   {
     slug: 'ancelotti-confirma-lista-brasil-mundial-2026-18-mayo',
@@ -221,6 +268,12 @@ Brasil debuta en el Grupo C el 13 de junio contra Marruecos en MetLife Stadium (
     sourceUrl: 'https://www.cbf.com.br',
     sourceLang: 'pt',
     publishedAt: '2026-04-29T18:00:00+00:00',
+    image: {
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Carlo_Ancelotti_2018.jpg?width=1200',
+      alt: 'Carlo Ancelotti, seleccionador de Brasil para el Mundial 2026',
+      credit: 'Foto: Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
   },
   {
     slug: 'phase-4-fifa-tickets-mundial-2026-abierta',
@@ -252,6 +305,12 @@ A día de hoy quedan disponibles entradas para más del 60 % de los partidos de 
     sourceUrl: 'https://www.fifa.com/tickets',
     sourceLang: 'en',
     publishedAt: '2026-04-25T10:00:00+00:00',
+    image: {
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/MetLife_Stadium_(8159818407).jpg?width=1200',
+      alt: 'MetLife Stadium, sede de la final del Mundial 2026',
+      credit: 'Foto: Wikimedia Commons',
+      license: 'CC BY 2.0',
+    },
   },
   {
     slug: 'estadio-azteca-renombrado-mexico-city-stadium-fifa',
@@ -273,6 +332,12 @@ Para el aficionado mexicano, la denominación oficial FIFA es solo eso: oficial.
     sourceUrl: 'https://en.wikipedia.org/wiki/2026_FIFA_World_Cup',
     sourceLang: 'en',
     publishedAt: '2026-04-28T12:00:00+00:00',
+    image: {
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Estadio_Azteca.jpg?width=1200',
+      alt: 'Estadio Azteca de Ciudad de México, conocido por FIFA en 2026 como «Mexico City Stadium»',
+      credit: 'Foto: Wikimedia Commons',
+      license: 'CC BY-SA',
+    },
   },
   {
     slug: 'rtve-confirma-mundial-2026-en-abierto-mediapro',
@@ -294,6 +359,12 @@ La señal estará disponible en La 1 en formato lineal y en RTVE Play como strea
     sourceUrl: 'https://www.eldiario.es/vertele',
     sourceLang: 'es',
     publishedAt: '2026-02-15T09:00:00+00:00',
+    image: {
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Logotipo_de_RTVE.svg?width=1200',
+      alt: 'Logotipo de RTVE, televisión pública española',
+      credit: 'RTVE',
+      license: 'Trademark',
+    },
   },
 ];
 
