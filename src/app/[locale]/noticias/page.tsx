@@ -1,0 +1,150 @@
+import Link from 'next/link';
+import { setRequestLocale } from 'next-intl/server';
+import { ArrowLeft, ArrowRight, Newspaper } from 'lucide-react';
+import { NEWS_ITEMS, relativeTimeEs, type NewsCategory } from '@/lib/news';
+import { routing, type Locale } from '@/i18n/routing';
+import { JsonLd, pageMetadata, breadcrumbLd, localeUrl, SEO } from '@/lib/seo';
+
+function withLocale(locale: Locale, href: string) {
+  if (locale === routing.defaultLocale) return href;
+  return `/${locale}${href === '/' ? '' : href}`;
+}
+
+const CATEGORY_LABELS: Record<NewsCategory, string> = {
+  panini: 'Panini',
+  convocatorias: 'Convocatorias',
+  sedes: 'Sedes',
+  entradas: 'Entradas',
+  jugadores: 'Jugadores',
+  mascotas: 'Mascotas',
+  ceremonia: 'Ceremonia',
+  polemica: 'Polémica',
+  tv: 'TV / Streaming',
+  patrocinios: 'Patrocinios',
+  general: 'General',
+};
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  return pageMetadata({
+    locale,
+    path: '/noticias',
+    title:
+      'Noticias Mundial 2026: Panini, convocatorias, sedes, TV y mucho más',
+    description:
+      'Lo último del Mundial 2026 contado en propio: convocatorias, álbum Panini, sedes, entradas, partido inaugural, derechos de TV y polémicas. Resumen editorial con citas a fuentes verificadas.',
+    keywords: [
+      'noticias Mundial 2026',
+      'últimas noticias Copa Mundial 2026',
+      'novedades Mundial 2026',
+      'álbum Panini Mundial 2026 noticia',
+      'convocatoria Mundial 2026 noticia',
+      'partido inaugural Mundial 2026',
+    ],
+  });
+}
+
+export default async function NoticiasIndex({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+
+  const items = [...NEWS_ITEMS].sort((a, b) =>
+    b.publishedAt.localeCompare(a.publishedAt),
+  );
+
+  const collectionLd = {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: 'Noticias Mundial 2026',
+    url: localeUrl(locale, '/noticias'),
+    isPartOf: { '@type': 'WebSite', name: SEO.siteName, url: SEO.siteUrl },
+    inLanguage: locale,
+    description:
+      'Cobertura editorial diaria de noticias del Mundial de Fútbol 2026 (Norteamérica).',
+    hasPart: items.map((n) => ({
+      '@type': 'NewsArticle',
+      headline: n.title,
+      datePublished: n.publishedAt,
+      url: localeUrl(locale, `/noticias/${n.slug}`),
+    })),
+  };
+
+  return (
+    <div className="pt-32">
+      <JsonLd
+        data={[
+          collectionLd,
+          breadcrumbLd(locale, [
+            { name: 'Inicio', path: '/' },
+            { name: 'Noticias', path: '/noticias' },
+          ]),
+        ]}
+      />
+
+      <header className="mx-auto w-full max-w-[1400px] px-6 md:px-10">
+        <Link
+          href={withLocale(locale as Locale, '/')}
+          className="inline-flex items-center gap-2 font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-fg-muted)] transition-colors hover:text-[var(--color-fg)]"
+        >
+          <ArrowLeft className="h-3 w-3 rtl:rotate-180" /> Inicio
+        </Link>
+
+        <div className="mt-8 flex items-center gap-3 font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-pitch)]">
+          <Newspaper className="h-4 w-4" />
+          <span>Noticias · Mundial 2026</span>
+        </div>
+        <h1 className="mt-4 font-display text-fluid-display uppercase leading-[0.9]">
+          Noticias del<br />Mundial 2026
+        </h1>
+        <p className="mt-6 max-w-3xl text-lg leading-relaxed text-[var(--color-fg-muted)] md:text-xl">
+          Lo último del Mundial 2026 contado en formato editorial propio.
+          Convocatorias, álbum Panini, sedes, derechos de TV, polémicas y
+          datos verificados con citas a las fuentes originales.
+        </p>
+      </header>
+
+      <ul className="mx-auto mt-16 grid w-full max-w-[1400px] gap-px overflow-hidden rounded-2xl border border-[var(--color-border)] bg-[var(--color-border)] px-6 sm:grid-cols-2 md:px-10 lg:grid-cols-3">
+        {items.map((n) => (
+          <li key={n.slug} className="bg-[var(--color-bg)]">
+            <Link
+              href={withLocale(locale as Locale, `/noticias/${n.slug}`)}
+              className="group flex h-full flex-col gap-4 p-6 transition-colors hover:bg-[var(--color-bg-2)] md:p-7"
+            >
+              <div className="flex items-center justify-between gap-3 font-mono text-[10px] uppercase tracking-[0.3em]">
+                <span className="rounded-full bg-[var(--color-pitch)]/10 px-2.5 py-1 text-[var(--color-pitch)]">
+                  {CATEGORY_LABELS[n.category]}
+                </span>
+                <span className="text-[var(--color-fg-subtle)]">
+                  {relativeTimeEs(n.publishedAt)}
+                </span>
+              </div>
+
+              <h2 className="font-display text-lg uppercase leading-tight text-[var(--color-fg)] group-hover:text-[var(--color-pitch)] transition-colors md:text-xl">
+                {n.title}
+              </h2>
+
+              <p className="text-sm leading-relaxed text-[var(--color-fg-muted)]">
+                {n.summary}
+              </p>
+
+              <span className="mt-auto inline-flex items-center gap-2 font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-fg-subtle)] transition-colors group-hover:text-[var(--color-pitch)]">
+                Leer artículo completo
+                <ArrowRight className="h-3 w-3 transition-transform group-hover:translate-x-1 rtl:rotate-180" />
+              </span>
+            </Link>
+          </li>
+        ))}
+      </ul>
+
+      <div className="h-24" />
+    </div>
+  );
+}

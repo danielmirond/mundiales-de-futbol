@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server';
 import { HISTORIAS } from '@/lib/historias';
+import { NEWS_ITEMS } from '@/lib/news';
 
 const SITE = (process.env.NEXT_PUBLIC_SITE_URL ?? 'https://mundiales-de-futbol.com').trim();
 
@@ -136,14 +137,25 @@ export async function GET() {
     title: h.title,
   }));
 
-  // 2. Guías pillar con publishDate dentro de la ventana de 48h.
+  // 2. Noticias editoriales propias (NewsArticle) publicadas en últimas 48h.
+  const recentNewsItems: NewsItem[] = NEWS_ITEMS.filter((n) => {
+    const pubIso = n.publishedAt.slice(0, 10);
+    if (pubIso > today) return false;
+    return new Date(n.publishedAt).getTime() >= cutoff.getTime();
+  }).map((n) => ({
+    loc: `${SITE}/noticias/${n.slug}`,
+    publishDate: n.publishedAt.slice(0, 10),
+    title: n.title,
+  }));
+
+  // 3. Guías pillar con publishDate dentro de la ventana de 48h.
   const recentGuides: NewsItem[] = FEATURED_GUIDES.filter((g) => {
     if (g.publishDate > today) return false;
     const pub = new Date(g.publishDate + 'T08:00:00Z');
     return pub >= cutoff;
   });
 
-  const urls = [...recentHistorias, ...recentGuides]
+  const urls = [...recentHistorias, ...recentNewsItems, ...recentGuides]
     .sort((a, b) => b.publishDate.localeCompare(a.publishDate))
     .map(renderNewsUrl)
     .join('\n');

@@ -1,5 +1,7 @@
-import { ExternalLink, Newspaper } from 'lucide-react';
+import Link from 'next/link';
+import { ArrowRight, Newspaper } from 'lucide-react';
 import { getLatestNews, relativeTimeEs, type NewsItem } from '@/lib/news';
+import { routing, type Locale } from '@/i18n/routing';
 
 const CATEGORY_LABELS: Record<NewsItem['category'], string> = {
   panini: 'Panini',
@@ -15,14 +17,19 @@ const CATEGORY_LABELS: Record<NewsItem['category'], string> = {
   general: 'General',
 };
 
+function withLocale(locale: Locale, href: string) {
+  if (locale === routing.defaultLocale) return href;
+  return `/${locale}${href === '/' ? '' : href}`;
+}
+
 /**
- * Módulo de noticias diarias en la home. Server Component puro: lee
- * `NEWS_ITEMS` estático y renderiza las 6 más recientes.
+ * Módulo de noticias diarias en la home. Renderiza las 6 más recientes
+ * con enlace interno al artículo editorial propio en `/noticias/[slug]`.
  *
- * No reproducimos contenido del medio. Solo título original (citado) +
- * resumen propio + link externo con `rel="noopener noreferrer"`.
+ * Cada noticia tiene body editorial propio (200-400 palabras) que cita
+ * y enlaza a la fuente original.
  */
-export function DailyNews() {
+export function DailyNews({ locale }: { locale: Locale }) {
   const items = getLatestNews(6);
   if (items.length === 0) return null;
 
@@ -39,20 +46,24 @@ export function DailyNews() {
               Noticias del día
             </h2>
             <p className="mt-3 max-w-2xl text-sm text-[var(--color-fg-muted)] md:text-base">
-              Selección curada de noticias publicadas en medios deportivos
-              relevantes. Resumen editorial propio · enlaces externos al medio
-              original.
+              Cobertura editorial propia con datos verificados y citas a
+              fuentes originales.
             </p>
           </div>
+          <Link
+            href={withLocale(locale, '/noticias')}
+            className="group inline-flex items-center gap-2 rounded-full border border-[var(--color-border-strong)] px-4 py-2 font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-fg)] transition-colors hover:border-[var(--color-pitch)] hover:text-[var(--color-pitch)]"
+          >
+            Todas las noticias
+            <ArrowRight className="h-3 w-3 transition-transform group-hover:translate-x-1 rtl:rotate-180" />
+          </Link>
         </div>
 
         <ul className="mt-12 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
           {items.map((n) => (
             <li key={n.slug}>
-              <a
-                href={n.sourceUrl}
-                target="_blank"
-                rel="noopener noreferrer"
+              <Link
+                href={withLocale(locale, `/noticias/${n.slug}`)}
                 className="group flex h-full flex-col gap-4 rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg)] p-6 transition-colors hover:border-[var(--color-pitch)]/40 hover:bg-[var(--color-bg-2)]"
               >
                 <div className="flex items-center justify-between gap-3 font-mono text-[10px] uppercase tracking-[0.3em]">
@@ -74,20 +85,14 @@ export function DailyNews() {
 
                 <div className="mt-auto flex items-center justify-between gap-3 border-t border-[var(--color-border)] pt-4">
                   <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-fg-subtle)]">
-                    {n.sourceName}
+                    Fuente · {n.sourceName}
                   </span>
-                  <ExternalLink className="h-3 w-3 text-[var(--color-fg-subtle)] transition-colors group-hover:text-[var(--color-pitch)]" />
+                  <ArrowRight className="h-3 w-3 text-[var(--color-fg-subtle)] transition-all group-hover:translate-x-1 group-hover:text-[var(--color-pitch)]" />
                 </div>
-              </a>
+              </Link>
             </li>
           ))}
         </ul>
-
-        <p className="mt-10 max-w-3xl font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--color-fg-subtle)]">
-          Citamos titulares textuales y enlazamos al medio original. Los
-          resúmenes son editorial propio. Mundial de Fútbol no se hace
-          responsable del contenido externo.
-        </p>
       </div>
     </section>
   );

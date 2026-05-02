@@ -4,6 +4,7 @@ import { TOURNAMENTS } from '@/lib/tournaments';
 import { HISTORIAS } from '@/lib/historias';
 import { SEDES_2026 } from '@/lib/wc-2026-sedes';
 import { GROUPS_2026 } from '@/lib/wc-2026';
+import { NEWS_ITEMS } from '@/lib/news';
 import { routing } from '@/i18n/routing';
 
 /**
@@ -136,6 +137,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // Historias (calendario editorial)
   for (const h of HISTORIAS) {
     out.push(entry(`/historias/${h.slug}`, new Date(h.publishDate), 'monthly', 0.7));
+  }
+
+  // Noticias del Mundial 2026 (cobertura editorial diaria)
+  out.push(entry('/noticias', now, 'daily', 0.9));
+  for (const n of NEWS_ITEMS) {
+    out.push(entry(`/noticias/${n.slug}`, new Date(n.publishedAt), 'weekly', 0.75));
   }
 
   // Matches
