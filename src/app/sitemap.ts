@@ -100,6 +100,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   out.push(entry('/2026/listas', now, 'daily', 0.9));
   out.push(entry('/2026/mascotas', now, 'monthly', 0.8));
   out.push(entry('/coleccionismo/panini-mundial-2026', now, 'weekly', 0.95));
+  out.push(entry('/coleccionismo/lego-mundial-2026', now, 'weekly', 0.9));
   // Cluster Panini Mundial 2026 (sub-páginas pilar)
   out.push(entry('/coleccionismo/panini-mundial-2026/precio', now, 'weekly', 0.85));
   out.push(entry('/coleccionismo/panini-mundial-2026/donde-comprar', now, 'weekly', 0.85));

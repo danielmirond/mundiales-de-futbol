@@ -73,6 +73,50 @@ export type NewsItem = {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'lego-mundial-2026-coleccion-9-sets-messi-ronaldo-mbappe-vinicius',
+    title:
+      'LEGO presenta su colección Mundial 2026: nueve sets con Messi, Ronaldo, Mbappé y Vinícius Jr. desde 24,99 dólares',
+    summary:
+      'LEGO entra de lleno en el merchandising oficial de la Copa del Mundo con nueve sets que combinan ladrillos AFOL y partner FIFA. La gama va de los 24,99 $ del emblema oficial al set premium de 1.427 piezas dedicado a Messi (199,99 $). Pre-órdenes abiertas, llegada a tiendas el 1 de mayo y el Messi Celebration aterriza el 1 de junio, justo antes de la inauguración del Mundial.',
+    body: `LEGO ha lanzado su colección oficial vinculada al Mundial 2026, su mayor incursión en merchandising deportivo desde la línea Sports descontinuada en 2009. La gama, anunciada bajo el sello LEGO Editions, está compuesta por nueve sets que cubren los tres tipos de coleccionista: el casual ($24,99), el AFOL (Adult Fan Of LEGO) intermedio ($79,99) y el premium ($199,99).
+
+**Los protagonistas son los Big Four**. Los buildable display de la línea «Football Legend» están dedicados a Cristiano Ronaldo (set 43016) y Lionel Messi (43015) por 79,99 $ cada uno: figuras articuladas de unos 25 cm con base personalizada y placa identificativa. La línea «Football Highlights» a 29,99 $ retrata escenas icónicas de Messi (43011) celebrando con la copa, Cristiano (43012), Mbappé (43013) y Vinícius Jr. (43027) en sus ejecuciones más reconocibles.
+
+**El plato fuerte llega en junio**. El set Messi Celebration de 1.427 piezas, valorado en 199,99 $, reproduce el momento del 18 de diciembre de 2022 cuando Messi alza la Copa del Mundo en Doha. Es la pieza más ambiciosa del catálogo, formato wall-art, y se reserva para coleccionistas adultos. Llega el 1 de junio, diez días antes del partido inaugural del Mundial 2026 en el Estadio Azteca.
+
+**Dos sets «entrada» a 24,99 dólares cierran la gama**: el FIFA World Cup 2026 Official Emblem (set 43032, 298 piezas) reproduce el logo oficial del torneo, y el U.S. Soccer National Team Jersey (167 piezas) la camiseta titular de Estados Unidos en formato display. Ambos pensados para regalo y para iniciar a niños mayores de 10 años en la colección.
+
+**Disponibilidad**. Pre-orders ya abiertas en LEGO.com (España, USA, México, Brasil) con envío garantizado para el 1 de mayo (excepto el Messi Celebration). Amazon España, El Corte Inglés y FNAC empezarán a recibir stock entre el 5 y el 15 de mayo. La distribución LATAM (México, Argentina, Brasil) llega 1-2 semanas más tarde. Como la mayoría de releases LEGO de partner, los precios se mantienen oficiales sin descuentos durante las primeras 6-8 semanas.
+
+**Lo que LEGO lograr aquí es un golpe doble**: monetiza la fiebre Mundial sin pisar los terrenos exclusivos de Panini (cromos) ni Funko (figuras), y posiciona la marca en el escaparate del próximo Mundial con cuatro de los rostros más buscados en redes sociales. Es la primera línea LEGO donde Messi y Ronaldo coexisten oficialmente.`,
+    category: 'patrocinios',
+    sourceName: 'NJ.com (Newsweek media)',
+    sourceUrl:
+      'https://www.nj.com/shopping-deals/2026/04/lego-unveils-fifa-world-cup-2026-collection-with-sets-that-are-surprisingly-affordable.html',
+    sourceLang: 'en',
+    publishedAt: '2026-05-04T08:00:00Z',
+    sourcesSecondary: [
+      {
+        name: 'TechRadar · pre-orders',
+        url: 'https://www.techradar.com/seasonal-sales/legos-fifa-world-cup-2026-sets-are-up-for-preorder-yes-theres-a-brick-built-lionel-messi',
+      },
+      {
+        name: 'The Brick Fan · LEGO Editions May 2026',
+        url: 'https://www.thebrickfan.com/lego-editions-may-2026-sets-officially-announced/',
+      },
+      {
+        name: 'LEGO.com · FIFA World Cup 2026 Emblem 43032',
+        url: 'https://www.lego.com/en-us/product/fifa-world-cup-2026-official-emblem-43032',
+      },
+    ],
+    image: {
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/LEGO_logo.svg?width=1200',
+      alt: 'Logo oficial de LEGO, marca que ha lanzado su colección de nueve sets dedicada al Mundial 2026 con Messi, Ronaldo, Mbappé y Vinicius Jr.',
+      credit: 'LEGO Group · vía Wikimedia Commons',
+      license: 'Trademark fair use',
+    },
+  },
+  {
     slug: 'espana-mundial-2026-opciones-pronosticos-grupo-h-yamal-rodri',
     title:
       'España al Mundial 2026: cuántas opciones reales tiene la campeona de Europa',
