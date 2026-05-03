@@ -484,12 +484,19 @@ export default async function PaniniMundial2026Page({
         </h2>
         <ul className="mt-10 grid gap-px overflow-hidden rounded-2xl border border-[var(--color-border)] bg-[var(--color-border)] sm:grid-cols-2 lg:grid-cols-4">
           {[
+            { href: '/coleccionismo/panini-mundial-2026/cuantos-cromos-tiene', kicker: 'Desglose', title: '980 cromos · qué incluye' },
             { href: '/coleccionismo/panini-mundial-2026/precio', kicker: 'Precio', title: 'Cuánto cuesta en cada país' },
             { href: '/coleccionismo/panini-mundial-2026/donde-comprar', kicker: 'Tiendas', title: 'Dónde comprar (7 países)' },
+            { href: '/coleccionismo/panini-mundial-2026/donde-comprar/mexico', kicker: 'México', title: 'Costco, Sam’s, Oxxo, Walmart' },
+            { href: '/coleccionismo/panini-mundial-2026/donde-comprar/brasil', kicker: 'Brasil', title: 'Panini.com.br, livrarias, bancas' },
+            { href: '/coleccionismo/panini-mundial-2026/figurinhas-copa-2026', kicker: 'Brasil', title: 'Figurinhas Copa 2026' },
+            { href: '/coleccionismo/panini-mundial-2026/caja-50-sobres', kicker: 'Caja', title: 'Caja 50 sobres · ROI' },
             { href: '/coleccionismo/panini-mundial-2026/cuando-sale', kicker: 'Calendario', title: 'Fechas por mercado' },
             { href: '/coleccionismo/panini-mundial-2026/digital', kicker: 'App', title: 'Álbum digital + códigos' },
             { href: '/coleccionismo/panini-mundial-2026/tapa-dura', kicker: 'Premium', title: 'Tapa dura, oro y XXL' },
+            { href: '/coleccionismo/panini-mundial-2026/edicion-dorada', kicker: 'Edición especial', title: 'Álbum dorado y lujo' },
             { href: '/coleccionismo/panini-mundial-2026/cromos-mas-caros', kicker: 'Top 10', title: 'Cromos más caros' },
+            { href: '/coleccionismo/panini-mundial-2026/check-list-cromos', kicker: 'Check list', title: '980 cromos numerados' },
             { href: '/coleccionismo/panini-mundial-2026/coca-cola', kicker: 'Promo', title: '12 cromos Coca-Cola' },
             { href: '/coleccionismo/panini-mundial-2026/topps-vs-panini', kicker: 'Comparativa', title: 'Topps vs Panini 2026' },
           ].map((s) => (

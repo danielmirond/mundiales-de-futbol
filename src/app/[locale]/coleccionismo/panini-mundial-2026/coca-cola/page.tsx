@@ -1,6 +1,7 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { setRequestLocale } from 'next-intl/server';
-import { ArrowLeft, GlassWater } from 'lucide-react';
+import { ArrowLeft, GlassWater, MapPin, QrCode } from 'lucide-react';
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl, SEO } from '@/lib/seo';
 
@@ -19,14 +20,20 @@ export async function generateMetadata({
     locale,
     path: '/coleccionismo/panini-mundial-2026/coca-cola',
     title:
-      'Promo Coca-Cola Panini Mundial 2026: 12 cromos exclusivos en botellas',
+      'Cromos Coca-Cola Panini Mundial 2026: 12 figuritas exclusivas en botellas',
     description:
-      'Cómo conseguir los 12 cromos exclusivos Panini × Coca-Cola Mundial 2026 escondidos dentro de etiquetas de botella desde mediados de mayo. Países donde aplica, formato y consejos para completar la doble página.',
+      'Cómo conseguir los 12 cromos exclusivos Panini × Coca-Cola Mundial 2026 escondidos dentro de etiquetas de botella desde mediados de mayo de 2026. Países donde aplica (España, México, Brasil, USA, Argentina), formato del cromo, código QR y galería visual.',
     keywords: [
+      'cromos coca cola',
+      'cromos coca cola mundial 2026',
+      'cromos coca cola panini',
+      'figuritas coca cola mundial 2026',
+      'logo coca cola',
       'álbum panini mundial 2026 coca cola',
       'promoción coca cola panini 2026',
       'cromos exclusivos coca cola mundial',
       'doble página coca cola panini',
+      'botella coca cola mundial 2026',
     ],
     type: 'article',
   });
@@ -88,6 +95,80 @@ export default async function CocaColaPromo({ params }: { params: Promise<{ loca
             <div key={s.label} className="rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg-2)] p-6 md:p-8">
               <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-fg-subtle)]">{s.label}</span>
               <span className="mt-3 block font-display text-4xl text-[var(--color-fg)] md:text-5xl">{s.value}</span>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section className="mx-auto mt-20 w-full max-w-[1100px] px-6 md:px-10">
+        <div className="grid gap-8 md:grid-cols-[1fr_1fr] md:items-center">
+          <div className="relative aspect-square overflow-hidden rounded-3xl border border-[var(--color-border)] bg-gradient-to-br from-red-700 via-red-600 to-red-800">
+            <Image
+              src="https://commons.wikimedia.org/wiki/Special:FilePath/Coca-Cola_logo.svg?width=600"
+              alt="Logo oficial de Coca-Cola, partner FIFA del Mundial 2026 con la promoción de 12 cromos exclusivos"
+              fill
+              sizes="(max-width: 768px) 100vw, 50vw"
+              className="object-contain p-12"
+              unoptimized
+            />
+            <span className="absolute right-4 top-4 inline-flex items-center gap-2 rounded-full bg-white px-3 py-1.5 font-mono text-[10px] uppercase tracking-[0.3em] text-red-700">
+              <GlassWater className="h-3 w-3" />
+              Partner FIFA
+            </span>
+          </div>
+          <div>
+            <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-pitch)]">
+              <QrCode className="inline h-3 w-3 mr-1" />
+              Cómo se obtienen
+            </div>
+            <h2 className="mt-3 font-display text-3xl uppercase">
+              Cromos dentro de la etiqueta
+            </h2>
+            <p className="mt-4 text-[var(--color-fg-muted)]">
+              Cada botella promocional Coca-Cola Mundial 2026 (500 ml a 1,5 L) lleva un cromo Panini exclusivo dentro de la etiqueta y un código QR adicional. El código QR activa contenido digital en la app FIFA Panini Digital Album: 1 cromo digital extra por botella, además del físico.
+            </p>
+            <ul className="mt-4 space-y-2 text-sm text-[var(--color-fg-muted)]">
+              <li>· <strong className="text-[var(--color-fg)]">12 diseños distintos</strong> en doble página exclusiva</li>
+              <li>· <strong className="text-[var(--color-fg)]">Solo botellas</strong> 500 ml a 1,5 L (no latas, no formato pequeño)</li>
+              <li>· <strong className="text-[var(--color-fg)]">Código QR</strong> en la etiqueta → cromo digital adicional</li>
+              <li>· <strong className="text-[var(--color-fg)]">Selo holográfico</strong> autentica el cromo Panini original</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section className="mx-auto mt-20 w-full max-w-[1100px] px-6 md:px-10">
+        <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-pitch)]">
+          <MapPin className="inline h-3 w-3 mr-1" />
+          Países donde aplica
+        </div>
+        <h2 className="mt-3 font-display text-3xl uppercase">Distribución global</h2>
+        <p className="mt-4 max-w-3xl text-[var(--color-fg-muted)]">
+          La promoción Panini × Coca-Cola Mundial 2026 está activa en más de 20 países. Cada mercado tiene un calendario de rotación distinto, normalmente 6-8 semanas:
+        </p>
+        <div className="mt-6 grid gap-3 md:grid-cols-3 lg:grid-cols-4">
+          {[
+            { pais: 'España', start: 'Mayo 2026' },
+            { pais: 'México', start: 'Mayo 2026' },
+            { pais: 'USA', start: 'Mayo 2026' },
+            { pais: 'Brasil', start: 'Mayo 2026' },
+            { pais: 'Argentina', start: 'Junio 2026' },
+            { pais: 'Colombia', start: 'Mayo 2026' },
+            { pais: 'Reino Unido', start: 'Junio 2026' },
+            { pais: 'Alemania', start: 'Junio 2026' },
+            { pais: 'Francia', start: 'Junio 2026' },
+            { pais: 'Italia', start: 'Junio 2026' },
+            { pais: 'Japón', start: 'Junio 2026' },
+            { pais: 'Marruecos', start: 'Junio 2026' },
+          ].map((c) => (
+            <div
+              key={c.pais}
+              className="rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg-2)] p-4"
+            >
+              <div className="font-display text-base">{c.pais}</div>
+              <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-fg-subtle)]">
+                {c.start}
+              </div>
             </div>
           ))}
         </div>

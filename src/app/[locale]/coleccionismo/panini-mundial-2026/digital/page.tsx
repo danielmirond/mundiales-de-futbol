@@ -18,16 +18,22 @@ export async function generateMetadata({
   return pageMetadata({
     locale,
     path: '/coleccionismo/panini-mundial-2026/digital',
-    title: 'Álbum Panini Mundial 2026 digital: app, códigos virtuales y cómo funciona',
+    title: 'Álbum digital Panini Mundial 2026: app, códigos promocionales y my.panini.com',
     description:
-      'Cómo funciona el álbum Panini Mundial 2026 digital: app oficial FIFA Panini Digital Album, códigos virtuales gratis incluidos en sobres físicos, intercambios online, Dream Team y contenido exclusivo. Guía actualizada.',
+      'Guía actualizada del álbum digital Panini Mundial 2026: app oficial FIFA Panini Digital Album (gratis iOS/Android), código promocional en cada sobre físico, my.panini.com, álbum virtual con cromos exclusivos, Dream Team, intercambios globales y dónde conseguir packs de códigos comunitarios.',
     keywords: [
-      'álbum panini mundial 2026 digital',
-      'app panini mundial 2026',
-      'códigos cromos virtuales mundial 2026',
-      'panini digital album fifa',
-      'álbum virtual mundial 2026',
-      'codigos sobres gratis panini 2026',
+      'codigos album virtual mundial 2026',
+      'codigos promocionales album mundial 2026',
+      'codigo promocional panini digital collection',
+      'panini digital collection',
+      'my panini',
+      'my.panini.com',
+      'album virtual mundial 2026',
+      'panini virtual',
+      'aplicativo panini',
+      'fifa panini collection',
+      'codigos panini digital collection',
+      'codigos del album del mundial 2026',
     ],
     type: 'article',
   });
@@ -121,21 +127,58 @@ export default async function DigitalPanini({ params }: { params: Promise<{ loca
       <section className="mx-auto mt-20 w-full max-w-[1100px] px-6 md:px-10">
         <div className="rounded-3xl border border-[var(--color-pitch)]/30 bg-[var(--color-pitch)]/5 p-7 md:p-10">
           <div className="flex items-center gap-3 font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-pitch)]">
-            <Code className="h-4 w-4" /><span>Códigos comunitarios</span>
+            <Code className="h-4 w-4" />
+            <span>Cómo funciona my.panini.com</span>
           </div>
-          <h2 className="mt-3 font-display text-2xl uppercase md:text-3xl">Dónde encontrar códigos gratis</h2>
+          <h2 className="mt-3 font-display text-2xl uppercase md:text-3xl">
+            Códigos promocionales paso a paso
+          </h2>
+          <ol className="mt-6 space-y-4 text-sm leading-relaxed text-[var(--color-fg-muted)] md:text-base">
+            <li>
+              <strong className="text-[var(--color-fg)]">1. Descarga la app</strong> «FIFA Panini Digital Album» en iOS o Android. Es gratuita.
+            </li>
+            <li>
+              <strong className="text-[var(--color-fg)]">2. Crea tu cuenta</strong> en my.panini.com con email + contraseña. Esa misma cuenta sincroniza con la app.
+            </li>
+            <li>
+              <strong className="text-[var(--color-fg)]">3. Cada sobre físico</strong> incluye un código alfanumérico de 12-16 caracteres en su interior, junto a los cromos.
+            </li>
+            <li>
+              <strong className="text-[var(--color-fg)]">4. Canjea el código</strong> en la sección «Promo Codes» o «Códigos» dentro de la app, o en my.panini.com → mi cuenta → canjear.
+            </li>
+            <li>
+              <strong className="text-[var(--color-fg)]">5. Recibes 3-5 cromos digitales</strong> por código (incluye chance de obtener cromos exclusivos digitales que no están en el álbum físico).
+            </li>
+            <li>
+              <strong className="text-[var(--color-fg)]">6. Códigos comunitarios</strong>: además de los del sobre, Panini y FIFA publican códigos públicos en eventos especiales (cada gol del Mundial real activa un código mundial el día siguiente).
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section className="mx-auto mt-12 w-full max-w-[1100px] px-6 md:px-10">
+        <div className="rounded-3xl border border-[var(--color-border)] bg-[var(--color-bg-2)] p-7 md:p-10">
+          <div className="flex items-center gap-3 font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-pitch)]">
+            <Code className="h-4 w-4" />
+            <span>Códigos comunitarios y promo</span>
+          </div>
+          <h2 className="mt-3 font-display text-2xl uppercase md:text-3xl">
+            Dónde encontrar códigos gratis
+          </h2>
           <p className="mt-4 text-sm leading-relaxed text-[var(--color-fg-muted)] md:text-base">
-            Aparte de los códigos que vienen en cada sobre físico, hay packs de códigos promocionales públicos que se publican periódicamente:
+            Aparte de los códigos que vienen en cada sobre físico, hay packs de códigos promocionales públicos que se publican periódicamente. Los códigos comunitarios suelen tener vida útil limitada (24-72 h) — canjéalos en cuanto los veas:
           </p>
           <ul className="mt-4 grid gap-2 md:grid-cols-2 text-sm text-[var(--color-fg-muted)]">
-            <li>· Sporting News (web internacional)</li>
-            <li>· TyC Sports (Argentina)</li>
-            <li>· La Nación (Argentina)</li>
-            <li>· Olé (Argentina)</li>
-            <li>· FIFA en redes sociales</li>
-            <li>· Panini Twitter/X global</li>
-            <li>· Subreddit r/PaniniWC2026</li>
-            <li>· Grupo Telegram «Panini Mundial 2026 ES»</li>
+            <li>· <strong className="text-[var(--color-fg)]">Panini X / Twitter global</strong> (@officialpanini)</li>
+            <li>· <strong className="text-[var(--color-fg)]">FIFA redes sociales</strong> en eventos del Mundial</li>
+            <li>· <strong className="text-[var(--color-fg)]">my.panini.com newsletters</strong> (suscríbete con tu email)</li>
+            <li>· <strong className="text-[var(--color-fg)]">Sporting News</strong> publica un pack semanal</li>
+            <li>· <strong className="text-[var(--color-fg)]">TyC Sports / La Nación / Olé</strong> (Argentina)</li>
+            <li>· <strong className="text-[var(--color-fg)]">Globo Esporte</strong> (Brasil)</li>
+            <li>· <strong className="text-[var(--color-fg)]">r/PaniniWC2026</strong> subreddit</li>
+            <li>· <strong className="text-[var(--color-fg)]">Telegram «Panini Mundial 2026 ES»</strong></li>
+            <li>· <strong className="text-[var(--color-fg)]">Promo Coca-Cola</strong>: códigos QR en botellas → 1 cromo digital extra</li>
+            <li>· <strong className="text-[var(--color-fg)]">Eventos partido a partido</strong>: cada gol del Mundial real activa un código de 24h</li>
           </ul>
         </div>
       </section>
