@@ -14,10 +14,12 @@ function withLocale(locale: Locale, href: string) {
 const LEGO_CATEGORY_URL =
   'https://www.lego.com/en-us/categories/football/football-gifts-toys';
 
-// Helper Amazon Associates con tag nuus-21 (programa propio del proyecto).
+// Helper Amazon Associates con tag nuus-21 (programa propio del proyecto, Amazon España).
+// Si el ASIN no existe en amazon.es, Amazon redirige automáticamente a la búsqueda
+// del producto. Los productos LEGO oficiales suelen estar disponibles en Amazon España.
 const AMAZON_TAG = 'nuus-21';
 function amazon(asin: string): string {
-  return `https://www.amazon.com/dp/${asin}?tag=${AMAZON_TAG}`;
+  return `https://www.amazon.es/dp/${asin}?tag=${AMAZON_TAG}`;
 }
 
 export async function generateMetadata({
@@ -439,7 +441,7 @@ export default async function LegoMundial2026({
         </div>
 
         <p className="mt-6 text-xs text-[var(--color-fg-subtle)]">
-          Enlaces a Amazon España con afiliación nuus-21 cuando hay ASIN confirmado, y a LEGO.com en el resto. Precios y disponibilidad pueden variar por región.
+          Enlaces a Amazon España con afiliación nuus-21. Los ASINs son globales (mismos en .com/.es/.de) pero la disponibilidad puede variar; si Amazon.es no tiene stock, te redirige a la búsqueda del producto. Para los exclusivos LEGO.com (emblema 43032 y camiseta USA 43033) el botón va directo a la tienda oficial.
         </p>
       </section>
 
