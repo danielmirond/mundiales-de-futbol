@@ -7,8 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "research": "tsx scripts/research/report.ts",
-    "research:dry": "tsx scripts/research/report.ts --dry"
+    "research": "tsx --env-file-if-exists=.env.local scripts/research/report.ts",
+    "research:dry": "tsx --env-file-if-exists=.env.local scripts/research/report.ts --dry"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.15",
