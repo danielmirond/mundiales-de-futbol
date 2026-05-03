@@ -1,0 +1,130 @@
+{
+  "generatedAt": "2026-05-03T13:50:15.747Z",
+  "date": "2026-05-03",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "luis suárez díaz",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Cuando una patada que recibió Luis Suárez le dolió a todo un país",
+          "url": "https://espndeportes.espn.com/futbol/uruguay/nota/_/id/6931669/luis-suarez-patada-liverpool-paul-dummett-premier-league-newcastle-previa-mundial-brasil-2014",
+          "source": "ESPN Deportes"
+        },
+        {
+          "title": "Luis Díaz recibió dura patada en Alemania y preocupó a toda Colombia",
+          "url": "https://www.winsports.co/futbol-internacional/noticias/luis-diaz-recibio-dura-patada-en-alemania-y-preocupo-a-toda-colombia-427681",
+          "source": "Win Sports"
+        },
+        {
+          "title": "Selección Colombia, en alerta por riesgo de lesiones: Luis Suárez y Luis Díaz, los jugadores que llegan con más minutos en las piernas al Mundial 2026",
+          "url": "https://www.eltiempo.com/deportes/futbol-internacional/seleccion-colombia-en-alerta-por-riesgo-de-lesiones-luis-suarez-y-luis-diaz-los-jugadores-que-llegan-con-mas-minutos-en-las-piernas-al-mundial-3552524",
+          "source": "ELTIEMPO.COM"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "es": [
+      {
+        "query": "luis suárez díaz",
+        "score": 180,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "luis suárez díaz",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Cuando una patada que recibió Luis Suárez le dolió a todo un país",
+                "url": "https://espndeportes.espn.com/futbol/uruguay/nota/_/id/6931669/luis-suarez-patada-liverpool-paul-dummett-premier-league-newcastle-previa-mundial-brasil-2014",
+                "source": "ESPN Deportes"
+              },
+              {
+                "title": "Luis Díaz recibió dura patada en Alemania y preocupó a toda Colombia",
+                "url": "https://www.winsports.co/futbol-internacional/noticias/luis-diaz-recibio-dura-patada-en-alemania-y-preocupo-a-toda-colombia-427681",
+                "source": "Win Sports"
+              },
+              {
+                "title": "Selección Colombia, en alerta por riesgo de lesiones: Luis Suárez y Luis Díaz, los jugadores que llegan con más minutos en las piernas al Mundial 2026",
+                "url": "https://www.eltiempo.com/deportes/futbol-internacional/seleccion-colombia-en-alerta-por-riesgo-de-lesiones-luis-suarez-y-luis-diaz-los-jugadores-que-llegan-con-mas-minutos-en-las-piernas-al-mundial-3552524",
+                "source": "ELTIEMPO.COM"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "topic": "luis suárez díaz",
+      "type": "noticia",
+      "slugSuggestion": "luis-suarez-diaz",
+      "language": "es",
+      "geos": [
+        "UY"
+      ],
+      "score": 216,
+      "reason": "Google Trends daily UY con 200 búsquedas · 3 artículos noticiosos referenciando \"luis suárez díaz\"",
+      "proposedPath": "/noticias/luis-suarez-diaz",
+      "evidence": [
+        {
+          "query": "luis suárez díaz",
+          "geo": "UY",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Cuando una patada que recibió Luis Suárez le dolió a todo un país",
+              "url": "https://espndeportes.espn.com/futbol/uruguay/nota/_/id/6931669/luis-suarez-patada-liverpool-paul-dummett-premier-league-newcastle-previa-mundial-brasil-2014",
+              "source": "ESPN Deportes"
+            },
+            {
+              "title": "Luis Díaz recibió dura patada en Alemania y preocupó a toda Colombia",
+              "url": "https://www.winsports.co/futbol-internacional/noticias/luis-diaz-recibio-dura-patada-en-alemania-y-preocupo-a-toda-colombia-427681",
+              "source": "Win Sports"
+            },
+            {
+              "title": "Selección Colombia, en alerta por riesgo de lesiones: Luis Suárez y Luis Díaz, los jugadores que llegan con más minutos en las piernas al Mundial 2026",
+              "url": "https://www.eltiempo.com/deportes/futbol-internacional/seleccion-colombia-en-alerta-por-riesgo-de-lesiones-luis-suarez-y-luis-diaz-los-jugadores-que-llegan-con-mas-minutos-en-las-piernas-al-mundial-3552524",
+              "source": "ELTIEMPO.COM"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alreadyCovered": []
+}
