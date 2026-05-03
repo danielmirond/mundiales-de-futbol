@@ -10,13 +10,13 @@ function withLocale(locale: Locale, href: string) {
   return `/${locale}${href === '/' ? '' : href}`;
 }
 
-// Enlace afiliado oficial LEGO (código CMP del programa partner)
+// Enlace LEGO oficial. Cuando tengas tu propio código de partner LEGO Affiliate,
+// añade `?CMP=...` con tu identificador. Hasta entonces, enlace limpio.
 const LEGO_AFFILIATE =
-  'https://www.lego.com/en-us/categories/football/football-gifts-toys?CMP=AFC-AffiliateEU-TnL5HPStwNw-2116208-1706080-10';
+  'https://www.lego.com/en-us/categories/football/football-gifts-toys';
 
-const LEGO_PRODUCT_BASE =
-  'https://www.lego.com/en-us/product/';
-const LEGO_AFFILIATE_QS = '?CMP=AFC-AffiliateEU-TnL5HPStwNw-2116208-1706080-10';
+const LEGO_PRODUCT_BASE = 'https://www.lego.com/en-us/product/';
+const LEGO_AFFILIATE_QS = '';
 
 export async function generateMetadata({
   params,
@@ -288,7 +288,7 @@ export default async function LegoMundial2026({
           <a
             href={LEGO_AFFILIATE}
             target="_blank"
-            rel="sponsored noopener noreferrer"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-full bg-[var(--color-pitch)] px-5 py-3 font-semibold text-black transition-opacity hover:opacity-90"
           >
             Ver toda la colección en LEGO.com
@@ -388,7 +388,7 @@ export default async function LegoMundial2026({
               <a
                 href={`${LEGO_PRODUCT_BASE}fifa-world-cup-2026-${s.id}${LEGO_AFFILIATE_QS}`}
                 target="_blank"
-                rel="sponsored noopener noreferrer"
+                rel="noopener noreferrer"
                 className="mt-5 inline-flex items-center gap-2 rounded-full border border-[var(--color-border-strong)] px-4 py-2 font-mono text-xs uppercase tracking-[0.3em] transition-colors hover:border-[var(--color-pitch)] hover:text-[var(--color-pitch)]"
               >
                 Comprar en LEGO.com
@@ -399,7 +399,7 @@ export default async function LegoMundial2026({
         </div>
 
         <p className="mt-6 text-xs text-[var(--color-fg-subtle)]">
-          Algunos enlaces son de afiliación oficial LEGO. Si compras a través de ellos, recibimos una pequeña comisión sin coste adicional para ti.
+          Enlaces directos a la tienda oficial LEGO.com. Precios y disponibilidad pueden variar por región.
         </p>
       </section>
 
@@ -481,7 +481,7 @@ export default async function LegoMundial2026({
           <a
             href={LEGO_AFFILIATE}
             target="_blank"
-            rel="sponsored noopener noreferrer"
+            rel="noopener noreferrer"
             className="mt-6 inline-flex items-center gap-2 rounded-full bg-[var(--color-pitch)] px-6 py-3 font-semibold text-black transition-opacity hover:opacity-90"
           >
             Ver colección Mundial 2026
