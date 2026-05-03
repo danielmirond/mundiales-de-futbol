@@ -10,13 +10,15 @@ function withLocale(locale: Locale, href: string) {
   return `/${locale}${href === '/' ? '' : href}`;
 }
 
-// Enlace LEGO oficial. Cuando tengas tu propio código de partner LEGO Affiliate,
-// añade `?CMP=...` con tu identificador. Hasta entonces, enlace limpio.
-const LEGO_AFFILIATE =
+// Enlace a la categoría LEGO oficial (sin afiliado externo).
+const LEGO_CATEGORY_URL =
   'https://www.lego.com/en-us/categories/football/football-gifts-toys';
 
-const LEGO_PRODUCT_BASE = 'https://www.lego.com/en-us/product/';
-const LEGO_AFFILIATE_QS = '';
+// Helper Amazon Associates con tag nuus-21 (programa propio del proyecto).
+const AMAZON_TAG = 'nuus-21';
+function amazon(asin: string): string {
+  return `https://www.amazon.com/dp/${asin}?tag=${AMAZON_TAG}`;
+}
 
 export async function generateMetadata({
   params,
@@ -61,6 +63,8 @@ type LegoSet = {
   release: string;
   description: string;
   legoSlug?: string;
+  /** ASIN Amazon (cuando esté confirmado). Si presente, prefiere link Amazon. */
+  asin?: string;
   iconic?: boolean;
 };
 
@@ -172,17 +176,18 @@ const LEGO_SETS: LegoSet[] = [
       'Reproducción de la camiseta titular de Estados Unidos para el Mundial 2026 (anfitriones) en formato wall display. 167 piezas. Pensado para mercado USA pero coleccionable como pieza temática del torneo.',
   },
   {
-    id: 43050,
+    id: 43020,
     category: 'premium',
-    title: 'Messi Celebration · Wall Display',
-    subtitle: 'Set premium 1.427 piezas',
-    pieces: 1427,
-    price: '199,99 $',
+    title: 'FIFA World Cup · Official Trophy',
+    subtitle: 'Réplica 1:1 del trofeo · 2.842 piezas',
+    pieces: 2842,
+    price: '199,99 $ / 179,99 €',
     priceUSD: 199.99,
-    ages: '18+',
-    release: '1 junio 2026',
+    ages: '12+',
+    release: 'Marzo 2026 (pre-order activa)',
     description:
-      'El set tope de gama: 1.427 piezas que reproducen el momento del 18 de diciembre de 2022 cuando Messi alzó la Copa del Mundo en Doha. Formato wall-art (gran panel para colgar). Llega 10 días antes del partido inaugural del Mundial 2026. Pieza pensada para AFOL (Adult Fan Of LEGO) y fans del Mundial 2022.',
+      'Réplica 1:1 del Trofeo de la Copa del Mundo FIFA con 36 cm de altura y 2.842 piezas. Compartimento secreto en la esfera superior con el logo del Mundial 2026 dentro. Minifigura LEGO exclusiva con mini-trofeo y placa con todos los campeones desde 1974. Es la primera vez que LEGO usa tantas piezas en color oro real (laqueado y moldeado) en un solo set.',
+    asin: 'B0FMYYGFQF',
     iconic: true,
   },
 ];
@@ -190,27 +195,27 @@ const LEGO_SETS: LegoSet[] = [
 const FAQ = [
   {
     q: '¿Cuántos sets LEGO Mundial 2026 hay?',
-    a: 'Nueve sets oficiales en la colección LEGO Editions FIFA World Cup 2026. Se dividen en cuatro categorías: dos «Football Legend» (figuras articuladas, 79,99 $), cuatro «Football Highlights» (dioramas, 29,99 $), dos sets de merchandising temático (emblema y camiseta USA, 24,99 $) y un set premium wall display de Messi Celebration (1.427 piezas, 199,99 $).',
+    a: 'Nueve sets oficiales en la colección LEGO Editions FIFA World Cup 2026. Se dividen en cuatro categorías: dos «Football Legend» (figuras articuladas, 79,99 $), cuatro «Football Highlights» (dioramas, 29,99 $), dos sets de merchandising temático (emblema y camiseta USA, 24,99 $) y un set premium «Official Trophy» (43020) con 2.842 piezas en réplica 1:1 a 199,99 $ / 179,99 €.',
   },
   {
     q: '¿Cuándo salen los LEGO del Mundial 2026?',
-    a: 'La pre-venta abrió el 25 de abril de 2026. Ocho de los nueve sets llegan a tiendas el 1 de mayo. El Messi Celebration de 1.427 piezas se reserva al 1 de junio, diez días antes del partido inaugural del Mundial. Distribución global: USA, España, Reino Unido y Alemania primero; LATAM (México, Argentina, Brasil) 1-2 semanas más tarde.',
+    a: 'El Trophy 43020 abrió pre-order en marzo de 2026. Los ocho sets restantes (Football Legend, Highlights, emblema y camiseta USA) llegan el 1 de mayo de 2026. Distribución global: USA, España, Reino Unido y Alemania primero; LATAM (México, Argentina, Brasil) 1-2 semanas más tarde.',
   },
   {
     q: '¿Cuánto cuesta el set LEGO de Messi?',
-    a: 'Messi tiene tres sets en la colección: el «Football Highlights» 43011 a 29,99 $, el «Football Legend» 43015 a 79,99 $ (figura articulada de 25 cm) y el premium «Messi Celebration» wall display a 199,99 $ con 1.427 piezas. La línea Cristiano Ronaldo tiene equivalencia con sus sets 43012 (29,99 $) y 43016 (79,99 $).',
+    a: 'Messi tiene dos sets en la colección: el «Football Highlights» 43011 a 29,99 $ (diorama escena icónica) y el «Football Legend» 43015 a 79,99 $ (figura articulada de 25 cm). El set tope de gama, el LEGO Trophy oficial (43020), no es de Messi sino una réplica 1:1 del trofeo del Mundial: 2.842 piezas a 199,99 $.',
   },
   {
     q: '¿Dónde comprar los LEGO del Mundial 2026?',
-    a: 'LEGO.com es el canal oficial principal con stock garantizado y exclusivas (el Messi Celebration solo aquí). Amazon España, FNAC, El Corte Inglés y Toys’R’Us reciben stock a partir del 5-15 de mayo. En México: Liverpool, Sears y Costco. En Brasil: Ri Happy y Lojas Americanas. En Argentina: Distribuidores oficiales de LEGO.',
+    a: 'LEGO.com es el canal oficial principal con stock garantizado. Amazon España, FNAC, El Corte Inglés y Toys’R’Us reciben stock a partir del 5-15 de mayo. En México: Liverpool, Sears y Costco. En Brasil: Ri Happy y Lojas Americanas. En Argentina: Distribuidores oficiales de LEGO.',
   },
   {
     q: '¿Cuál es el LEGO más caro y más barato del Mundial 2026?',
-    a: 'El más caro es el Messi Celebration wall display de 1.427 piezas a 199,99 $ (≈185 €), llega el 1 de junio. Los más asequibles son el FIFA World Cup 2026 Official Emblem (43032, 298 piezas) y la camiseta USA, ambos a 24,99 $ (≈23 €). En el rango medio están las figuras Football Legend de Messi y Cristiano (79,99 $) y los dioramas Football Highlights (29,99 $).',
+    a: 'El más caro es el Trophy oficial 43020 (réplica 1:1 con 2.842 piezas) a 199,99 $ / 179,99 €. Los más asequibles son el FIFA World Cup 2026 Official Emblem (43032, 298 piezas) y la camiseta USA, ambos a 24,99 $ (≈23 €). En el rango medio están las figuras Football Legend de Messi y Cristiano (79,99 $) y los dioramas Football Highlights (29,99 $).',
   },
   {
-    q: '¿Cuántas piezas tiene el set Messi Celebration?',
-    a: '1.427 piezas. Es el set LEGO más grande dedicado a un jugador de fútbol en la historia de la marca. Reproduce el momento del 18 de diciembre de 2022 (Messi alzando la Copa del Mundo en Doha) en formato wall-art. Recomendado 18+ por su complejidad.',
+    q: '¿Cuántas piezas tiene el set LEGO Trophy 43020?',
+    a: '2.842 piezas. Es la primera vez en la historia de LEGO que se utilizan tantas piezas en color oro real (laqueado y moldeado) en un solo set. Mide 36 cm de altura, recomendado para 12+. Incluye un compartimento secreto en la esfera superior con el logo del Mundial 2026 dentro y una placa con todos los campeones desde 1974.',
   },
   {
     q: '¿Qué jugadores aparecen en LEGO Mundial 2026?',
@@ -286,7 +291,7 @@ export default async function LegoMundial2026({
 
         <div className="mt-8 flex flex-wrap gap-3">
           <a
-            href={LEGO_AFFILIATE}
+            href={LEGO_CATEGORY_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-full bg-[var(--color-pitch)] px-5 py-3 font-semibold text-black transition-opacity hover:opacity-90"
@@ -300,7 +305,7 @@ export default async function LegoMundial2026({
           {[
             { label: 'Sets totales', value: '9' },
             { label: 'Precio mínimo', value: '24,99 $' },
-            { label: 'Premium Messi', value: '1.427 piezas' },
+            { label: 'Trophy 1:1', value: '2.842 piezas' },
             { label: 'Lanzamiento', value: '1 mayo 2026' },
           ].map((f) => (
             <li
@@ -385,21 +390,33 @@ export default async function LegoMundial2026({
                 {s.description}
               </p>
 
-              <a
-                href={`${LEGO_PRODUCT_BASE}fifa-world-cup-2026-${s.id}${LEGO_AFFILIATE_QS}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-5 inline-flex items-center gap-2 rounded-full border border-[var(--color-border-strong)] px-4 py-2 font-mono text-xs uppercase tracking-[0.3em] transition-colors hover:border-[var(--color-pitch)] hover:text-[var(--color-pitch)]"
-              >
-                Comprar en LEGO.com
-                <ExternalLink className="h-3 w-3" />
-              </a>
+              {s.asin ? (
+                <a
+                  href={amazon(s.asin)}
+                  target="_blank"
+                  rel="sponsored noopener noreferrer"
+                  className="mt-5 inline-flex items-center gap-2 rounded-full border border-[var(--color-border-strong)] px-4 py-2 font-mono text-xs uppercase tracking-[0.3em] transition-colors hover:border-[var(--color-pitch)] hover:text-[var(--color-pitch)]"
+                >
+                  Comprar en Amazon
+                  <ExternalLink className="h-3 w-3" />
+                </a>
+              ) : (
+                <a
+                  href={LEGO_CATEGORY_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-5 inline-flex items-center gap-2 rounded-full border border-[var(--color-border-strong)] px-4 py-2 font-mono text-xs uppercase tracking-[0.3em] transition-colors hover:border-[var(--color-pitch)] hover:text-[var(--color-pitch)]"
+                >
+                  Ver en LEGO.com
+                  <ExternalLink className="h-3 w-3" />
+                </a>
+              )}
             </article>
           ))}
         </div>
 
         <p className="mt-6 text-xs text-[var(--color-fg-subtle)]">
-          Enlaces directos a la tienda oficial LEGO.com. Precios y disponibilidad pueden variar por región.
+          Enlaces a Amazon España con afiliación nuus-21 cuando hay ASIN confirmado, y a LEGO.com en el resto. Precios y disponibilidad pueden variar por región.
         </p>
       </section>
 
@@ -425,10 +442,10 @@ export default async function LegoMundial2026({
               detail: 'Emblema oficial 43032 y camiseta USA.',
             },
             {
-              label: 'Premium Wall Art',
+              label: 'Premium Trophy 1:1',
               count: 1,
               price: '199,99 $',
-              detail: 'Messi Celebration 1.427 piezas. Llega 1 junio.',
+              detail: 'Réplica del trofeo, 2.842 piezas, 36 cm. Set 43020.',
             },
           ].map((c) => (
             <div
@@ -479,7 +496,7 @@ export default async function LegoMundial2026({
             Stock garantizado del catálogo completo y exclusiva del Messi Celebration. Envío oficial LEGO con tracking.
           </p>
           <a
-            href={LEGO_AFFILIATE}
+            href={LEGO_CATEGORY_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="mt-6 inline-flex items-center gap-2 rounded-full bg-[var(--color-pitch)] px-6 py-3 font-semibold text-black transition-opacity hover:opacity-90"

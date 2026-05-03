@@ -77,18 +77,18 @@ export const NEWS_ITEMS: NewsItem[] = [
     title:
       'LEGO presenta su colección Mundial 2026: nueve sets con Messi, Ronaldo, Mbappé y Vinícius Jr. desde 24,99 dólares',
     summary:
-      'LEGO entra de lleno en el merchandising oficial de la Copa del Mundo con nueve sets que combinan ladrillos AFOL y partner FIFA. La gama va de los 24,99 $ del emblema oficial al set premium de 1.427 piezas dedicado a Messi (199,99 $). Pre-órdenes abiertas, llegada a tiendas el 1 de mayo y el Messi Celebration aterriza el 1 de junio, justo antes de la inauguración del Mundial.',
+      'LEGO entra de lleno en el merchandising oficial de la Copa del Mundo con nueve sets que cubren el espectro completo de coleccionista. La gama va de los 24,99 $ del emblema oficial 43032 al set premium «Official Trophy» 43020: una réplica 1:1 del trofeo con 2.842 piezas, 36 cm de altura y la primera vez que LEGO usa tantas piezas en color oro real en un mismo set. Pre-orders activas, llegada a tiendas el 1 de mayo.',
     body: `LEGO ha lanzado su colección oficial vinculada al Mundial 2026, su mayor incursión en merchandising deportivo desde la línea Sports descontinuada en 2009. La gama, anunciada bajo el sello LEGO Editions, está compuesta por nueve sets que cubren los tres tipos de coleccionista: el casual ($24,99), el AFOL (Adult Fan Of LEGO) intermedio ($79,99) y el premium ($199,99).
 
 **Los protagonistas son los Big Four**. Los buildable display de la línea «Football Legend» están dedicados a Cristiano Ronaldo (set 43016) y Lionel Messi (43015) por 79,99 $ cada uno: figuras articuladas de unos 25 cm con base personalizada y placa identificativa. La línea «Football Highlights» a 29,99 $ retrata escenas icónicas de Messi (43011) celebrando con la copa, Cristiano (43012), Mbappé (43013) y Vinícius Jr. (43027) en sus ejecuciones más reconocibles.
 
-**El plato fuerte llega en junio**. El set Messi Celebration de 1.427 piezas, valorado en 199,99 $, reproduce el momento del 18 de diciembre de 2022 cuando Messi alza la Copa del Mundo en Doha. Es la pieza más ambiciosa del catálogo, formato wall-art, y se reserva para coleccionistas adultos. Llega el 1 de junio, diez días antes del partido inaugural del Mundial 2026 en el Estadio Azteca.
+**El plato fuerte es la réplica del trofeo**. El set 43020 «FIFA World Cup Official Trophy» reproduce el trofeo a escala 1:1 con 2.842 piezas, 36 cm de altura y un precio de 199,99 $ / 179,99 €. Esconde una sorpresa: un compartimento secreto en la esfera superior con el logo del Mundial 2026 dentro. Incluye una minifigura LEGO exclusiva con un mini-trofeo y una placa en la base con todos los campeones del mundo desde 1974. Es la primera vez que LEGO utiliza tantas piezas en color oro real (combinación de laqueado y moldeado) en un solo set.
 
 **Dos sets «entrada» a 24,99 dólares cierran la gama**: el FIFA World Cup 2026 Official Emblem (set 43032, 298 piezas) reproduce el logo oficial del torneo, y el U.S. Soccer National Team Jersey (167 piezas) la camiseta titular de Estados Unidos en formato display. Ambos pensados para regalo y para iniciar a niños mayores de 10 años en la colección.
 
-**Disponibilidad**. Pre-orders ya abiertas en LEGO.com (España, USA, México, Brasil) con envío garantizado para el 1 de mayo (excepto el Messi Celebration). Amazon España, El Corte Inglés y FNAC empezarán a recibir stock entre el 5 y el 15 de mayo. La distribución LATAM (México, Argentina, Brasil) llega 1-2 semanas más tarde. Como la mayoría de releases LEGO de partner, los precios se mantienen oficiales sin descuentos durante las primeras 6-8 semanas.
+**Disponibilidad**. El Trophy 43020 abrió pre-order en marzo de 2026 (la primera pieza de la colección anunciada). Los ocho sets restantes llegan el 1 de mayo a LEGO.com (España, USA, México, Brasil). Amazon España, El Corte Inglés y FNAC empiezan a recibir stock entre el 5 y el 15 de mayo. La distribución LATAM (México, Argentina, Brasil) llega 1-2 semanas más tarde. Como la mayoría de releases LEGO de partner, los precios se mantienen oficiales sin descuentos durante las primeras 6-8 semanas.
 
-**Lo que LEGO lograr aquí es un golpe doble**: monetiza la fiebre Mundial sin pisar los terrenos exclusivos de Panini (cromos) ni Funko (figuras), y posiciona la marca en el escaparate del próximo Mundial con cuatro de los rostros más buscados en redes sociales. Es la primera línea LEGO donde Messi y Ronaldo coexisten oficialmente.`,
+**Lo que LEGO logra aquí es un golpe doble**: monetiza la fiebre Mundial sin pisar los terrenos exclusivos de Panini (cromos) ni Funko (figuras), y posiciona la marca en el escaparate del próximo Mundial con cuatro de los rostros más buscados en redes sociales. Es la primera línea LEGO donde Messi y Ronaldo coexisten oficialmente.`,
     category: 'patrocinios',
     sourceName: 'NJ.com (Newsweek media)',
     sourceUrl:
@@ -96,6 +96,10 @@ export const NEWS_ITEMS: NewsItem[] = [
     sourceLang: 'en',
     publishedAt: '2026-05-04T08:00:00Z',
     sourcesSecondary: [
+      {
+        name: 'LEGO.com · Official Trophy 43020',
+        url: 'https://www.lego.com/en-us/aboutus/news/2025/december/lego-editions-fifa-world-cup-official-trophy',
+      },
       {
         name: 'TechRadar · pre-orders',
         url: 'https://www.techradar.com/seasonal-sales/legos-fifa-world-cup-2026-sets-are-up-for-preorder-yes-theres-a-brick-built-lionel-messi',
