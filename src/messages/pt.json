@@ -199,7 +199,9 @@
       "tournamentMatches": "{matches} jogos do torneio",
       "sedesCount": "{count, plural, =1 {1 cidade-sede} other {# cidades-sede}}",
       "sedeCardCta": "Guia da cidade-sede",
-      "back": "Copa do Mundo 2026"
+      "back": "Copa do Mundo 2026",
+      "title": "Cidades-sede Copa do Mundo 2026: as 16 cidades anfitriãs, jogos e guia de viagem",
+      "description": "As 16 cidades-sede da Copa do Mundo 2026 nos EUA, México e Canadá. Calendário por cidade, estádio, capacidade, o que fazer, onde se hospedar e como chegar."
     },
     "calendario": {
       "title": "Calendário Copa do Mundo 2026: 104 jogos por fase, datas e horários",
@@ -366,6 +368,26 @@
       "teamCardsH1Line2": "mais expulsas",
       "teamCardsIntro": "O Brasil lidera o recorde histórico de expulsões (10 vermelhos em 22 Copas disputadas). Argentina (9) e Uruguai (8) completam o pódio sul-americano. Cada jogo conta: o total é cumulativo, não por edição.",
       "teamCardsDisclaimer": "O ranking reflete o total acumulado, não a disciplina relativa. Brasil, Argentina e Uruguai estão no topo em parte porque são as seleções com mais participações (22, 18 e 14 Copas disputadas respetivamente). A cobertura minuto a minuto de cartões é completa desde 1994; em Mundiais anteriores os registos podem subestimar amarelos leves não recolhidos no relatório oficial."
+    },
+    "mascotas": {
+      "title": "Mascotes Copa do Mundo 2026: Maple, Zayu e Clutch · Canadá, México e EUA",
+      "description": "Os três mascotes oficiais da Copa do Mundo 2026 representam os países anfitriões: Maple (alce, Canadá), Zayu (onça-pintada, México) e Clutch (águia-careca, EUA). História, simbolismo e design FIFA.",
+      "kicker": "Mascotes oficiais · 3 anfitriões",
+      "h1Line1": "Maple, Zayu",
+      "h1Line2": "e Clutch",
+      "intro": "Pela primeira vez na história, a Copa do Mundo tem três mascotes oficiais, um por país anfitrião. Um alce, uma onça-pintada e uma águia-careca representam Canadá, México e Estados Unidos no primeiro torneio com 48 seleções. Design FIFA apresentado em setembro de 2025.",
+      "back": "Copa do Mundo 2026",
+      "breadcrumbHome": "Início",
+      "breadcrumbHub": "Copa do Mundo 2026",
+      "breadcrumbSelf": "Mascotes",
+      "symbolismLabel": "Simbolismo",
+      "funFactLabel": "Curiosidade",
+      "historyKicker": "História da Copa",
+      "historyHeading": "Os mascotes que vieram antes",
+      "moreHeading": "Mais sobre a Copa 2026",
+      "moreCta1": "Hub Copa 2026",
+      "moreCta2": "16 cidades-sede",
+      "moreCta3": "Álbum Panini"
     }
   }
 }

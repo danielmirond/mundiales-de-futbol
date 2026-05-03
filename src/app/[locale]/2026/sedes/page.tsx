@@ -18,19 +18,21 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'pages.sedes' });
   return pageMetadata({
     locale,
     path: '/2026/sedes',
-    title: 'Sedes Mundial 2026: las 16 ciudades anfitrionas, partidos y guía de viaje',
-    description:
-      'Las 16 sedes del Mundial 2026 en USA, México y Canadá. Calendario por ciudad, estadio, capacidad, qué hacer, dónde alojarse y cómo llegar.',
+    title: t('title'),
+    description: t('description'),
     keywords: [
       'sedes Mundial 2026',
       'ciudades Mundial 2026',
+      'host cities World Cup 2026',
+      'World Cup 2026 host cities',
+      'cidades-sede Copa do Mundo 2026',
+      'villes hôtes Coupe du Monde 2026',
       'estadios Mundial 2026',
       'guía viaje Mundial 2026',
-      'partidos por ciudad Mundial 2026',
-      'host cities FIFA World Cup 2026',
     ],
   });
 }

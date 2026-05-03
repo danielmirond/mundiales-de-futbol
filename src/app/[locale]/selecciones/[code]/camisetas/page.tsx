@@ -25,6 +25,36 @@ export function generateStaticParams() {
   );
 }
 
+function camisetasMeta(locale: string, history: { teamName: string; nickname: string }) {
+  switch (locale) {
+    case 'en':
+      return {
+        title: `${history.teamName} World Cup jerseys: full history 1930-2026`,
+        description: `History and evolution of the ${history.teamName} (${history.nickname}) shirts at every World Cup: kit manufacturer, colours, iconic players and retro models. From their debut to the 2026 World Cup.`,
+      };
+    case 'pt':
+      return {
+        title: `Camisas da ${history.teamName} em Copas do Mundo: evolução 1930-2026`,
+        description: `História e evolução das camisas da ${history.teamName} (${history.nickname}) em cada Copa do Mundo: fabricante, cores, jogadores icônicos e modelos retrô. Da estreia até a Copa 2026.`,
+      };
+    case 'fr':
+      return {
+        title: `Maillots ${history.teamName} en Coupe du Monde : évolution 1930-2026`,
+        description: `Histoire et évolution des maillots de ${history.teamName} (${history.nickname}) à chaque Coupe du Monde : équipementier, couleurs, joueurs emblématiques et modèles rétro. Des débuts à la Coupe du Monde 2026.`,
+      };
+    case 'ar':
+      return {
+        title: `قمصان ${history.teamName} في كأس العالم: التطور 1930-2026`,
+        description: `تاريخ وتطور قمصان ${history.teamName} (${history.nickname}) في كل كأس عالم: المصنع، الألوان، اللاعبون الأيقونيون والنماذج الكلاسيكية. من البداية حتى كأس العالم 2026.`,
+      };
+    default:
+      return {
+        title: `Camisetas ${history.teamName} en Mundiales: evolución 1930-2026`,
+        description: `Historia y evolución de las camisetas de ${history.teamName} (${history.nickname}) en cada Mundial: marca técnica, color, jugadores icónicos y modelos retro. Desde el debut hasta el Mundial 2026.`,
+      };
+  }
+}
+
 export async function generateMetadata({
   params,
 }: {
@@ -34,8 +64,7 @@ export async function generateMetadata({
   const history = getJerseyHistory(code);
   if (!history) return {};
 
-  const title = `Camisetas ${history.teamName} en Mundiales: evolución 1930-2026`;
-  const description = `Historia y evolución de las camisetas de ${history.teamName} (${history.nickname}) en cada Mundial: marca técnica, color, jugadores icónicos y modelos retro. Desde el debut hasta el Mundial 2026.`;
+  const { title, description } = camisetasMeta(locale, history);
 
   return pageMetadata({
     locale,
@@ -44,10 +73,12 @@ export async function generateMetadata({
     description,
     keywords: [
       `camisetas ${history.teamName} Mundial`,
-      `evolución camiseta ${history.teamName}`,
-      `${history.nickname} historia camisetas`,
-      `camiseta retro ${history.teamName}`,
+      `${history.teamName} World Cup jersey`,
+      `camisas ${history.teamName} Copa do Mundo`,
+      `maillot ${history.teamName} Coupe du Monde`,
+      `${history.nickname} jersey history`,
       `kit ${history.teamName} 2026`,
+      `camiseta retro ${history.teamName}`,
     ],
     type: 'article',
   });

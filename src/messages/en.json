@@ -199,7 +199,9 @@
       "tournamentMatches": "{matches} tournament matches",
       "sedesCount": "{count, plural, =1 {1 host city} other {# host cities}}",
       "sedeCardCta": "Host city guide",
-      "back": "2026 World Cup"
+      "back": "2026 World Cup",
+      "title": "World Cup 2026 host cities: all 16 venues, matches and travel guide",
+      "description": "All 16 host cities of the 2026 FIFA World Cup across the USA, Mexico and Canada. Schedule by city, stadium, capacity, what to do, where to stay and how to get there."
     },
     "calendario": {
       "title": "2026 World Cup schedule: 104 matches by stage, dates and kick-off times",
@@ -366,6 +368,26 @@
       "teamCardsH1Line2": "national teams",
       "teamCardsIntro": "Brazil leads the all-time sendings-off record (10 reds across 22 World Cups played). Argentina (9) and Uruguay (8) complete the South American podium. Every match counts: the total is cumulative, not per edition.",
       "teamCardsDisclaimer": "The ranking reflects the cumulative total, not relative discipline. Brazil, Argentina and Uruguay sit at the top in part because they have the most appearances (22, 18 and 14 World Cups respectively). Minute-by-minute card coverage is complete from 1994; in earlier tournaments the records may underestimate light bookings not captured in the official report."
+    },
+    "mascotas": {
+      "title": "2026 World Cup mascots: Maple, Zayu and Clutch · Canada, Mexico and USA",
+      "description": "The three official mascots of the 2026 FIFA World Cup represent the host countries: Maple (moose, Canada), Zayu (jaguar, Mexico) and Clutch (bald eagle, USA). History, symbolism and FIFA design.",
+      "kicker": "Official mascots · 3 hosts",
+      "h1Line1": "Maple, Zayu",
+      "h1Line2": "and Clutch",
+      "intro": "For the first time in history, the World Cup has three official mascots — one per host country. A moose, a jaguar and a bald eagle represent Canada, Mexico and the United States in the first 48-team tournament. FIFA design unveiled in September 2025.",
+      "back": "2026 World Cup",
+      "breadcrumbHome": "Home",
+      "breadcrumbHub": "2026 World Cup",
+      "breadcrumbSelf": "Mascots",
+      "symbolismLabel": "Symbolism",
+      "funFactLabel": "Fun fact",
+      "historyKicker": "World Cup history",
+      "historyHeading": "The mascots that came before",
+      "moreHeading": "More on the 2026 World Cup",
+      "moreCta1": "2026 World Cup hub",
+      "moreCta2": "16 host cities",
+      "moreCta3": "Panini album"
     }
   }
 }

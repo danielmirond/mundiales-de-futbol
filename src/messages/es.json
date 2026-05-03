@@ -199,7 +199,9 @@
       "tournamentMatches": "{matches} partidos del torneo",
       "sedesCount": "{count, plural, =1 {1 sede} other {# sedes}}",
       "sedeCardCta": "Guía de la sede",
-      "back": "Mundial 2026"
+      "back": "Mundial 2026",
+      "title": "Sedes Mundial 2026: las 16 ciudades anfitrionas, partidos y guía de viaje",
+      "description": "Las 16 sedes del Mundial 2026 en USA, México y Canadá. Calendario por ciudad, estadio, capacidad, qué hacer, dónde alojarse y cómo llegar."
     },
     "calendario": {
       "title": "Calendario Mundial 2026: 104 partidos por fase, fechas y horarios",
@@ -366,6 +368,26 @@
       "teamCardsH1Line2": "más expulsadas",
       "teamCardsIntro": "Brasil lidera el récord histórico de expulsiones (10 rojas en 22 Mundiales jugados). Argentina (9) y Uruguay (8) completan el podio sudamericano. Cada partido cuenta: el agregado es total, no por edición.",
       "teamCardsDisclaimer": "El ranking refleja el total acumulado, no la disciplina relativa. Brasil, Argentina y Uruguay están en lo alto en parte porque son las selecciones con más participaciones (22, 18 y 14 Mundiales jugados respectivamente). La cobertura minute-by-minute de tarjetas es completa desde 1994; en Mundiales anteriores los registros pueden subestimar amonestaciones leves no recogidas en el reporte oficial."
+    },
+    "mascotas": {
+      "title": "Mascotas Mundial 2026: Maple, Zayu y Clutch · Canadá, México y EE. UU.",
+      "description": "Las tres mascotas oficiales del Mundial 2026 representan a los países anfitriones: Maple (alce, Canadá), Zayu (jaguar, México) y Clutch (águila calva, EE. UU.). Historia, simbolismo y diseño FIFA.",
+      "kicker": "Mascotas oficiales · 3 anfitriones",
+      "h1Line1": "Maple, Zayu",
+      "h1Line2": "y Clutch",
+      "intro": "Por primera vez en la historia, el Mundial tiene tres mascotas oficiales, una por país anfitrión. Un alce, un jaguar y un águila calva representan a Canadá, México y Estados Unidos en el primer torneo de 48 selecciones. Diseño FIFA presentado en septiembre de 2025.",
+      "back": "Mundial 2026",
+      "breadcrumbHome": "Inicio",
+      "breadcrumbHub": "Mundial 2026",
+      "breadcrumbSelf": "Mascotas",
+      "symbolismLabel": "Simbolismo",
+      "funFactLabel": "Dato curioso",
+      "historyKicker": "Historia mundialista",
+      "historyHeading": "Las mascotas que llegaron antes",
+      "moreHeading": "Más del Mundial 2026",
+      "moreCta1": "Hub Mundial 2026",
+      "moreCta2": "16 sedes",
+      "moreCta3": "Álbum Panini"
     }
   }
 }

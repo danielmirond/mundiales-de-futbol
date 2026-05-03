@@ -82,16 +82,119 @@ const SITE_PATHS: string[] = (() => {
 // Cobertura
 // ────────────────────────────────────────────────────────────────────────────
 
+/**
+ * Diccionario de sinónimos cross-language. Mapea términos en inglés/portugués/
+ * francés/alemán/italiano/japonés/coreano a sus equivalentes en español, que
+ * es el idioma de los slugs internos del site.
+ *
+ * Esto reduce los falsos negativos: "world cup 2026 schedule" debe
+ * considerarse cubierto por `/2026/calendario`, no como un gap nuevo.
+ */
+const CROSS_LANG_MAP: Record<string, string> = {
+  // Generic World Cup references
+  'world cup': 'mundial',
+  'fifa world cup': 'mundial',
+  'copa do mundo': 'mundial',
+  'copa mundo': 'mundial',
+  'coupe du monde': 'mundial',
+  'mondiali': 'mundial',
+  'wm': 'mundial',
+  'wereldbeker': 'mundial',
+  // Schedule / calendar
+  schedule: 'calendario',
+  fixtures: 'calendario',
+  calendário: 'calendario',
+  calendrier: 'calendario',
+  spielplan: 'calendario',
+  // Host cities / venues
+  'host cities': 'sedes',
+  'host city': 'sedes',
+  venues: 'sedes',
+  stadiums: 'estadios',
+  'cidades-sede': 'sedes',
+  'villes hôtes': 'sedes',
+  'villes hotes': 'sedes',
+  // Tickets
+  tickets: 'entradas',
+  ticket: 'entradas',
+  ingresso: 'entradas',
+  ingressos: 'entradas',
+  billets: 'entradas',
+  biglietti: 'entradas',
+  // Mascots
+  mascot: 'mascotas',
+  mascots: 'mascotas',
+  mascote: 'mascotas',
+  mascotes: 'mascotas',
+  mascotte: 'mascotas',
+  mascottes: 'mascotas',
+  maskottchen: 'mascotas',
+  // Groups
+  groups: 'grupos',
+  'group draw': 'grupos sorteo',
+  groupes: 'grupos',
+  gruppen: 'grupos',
+  // Squad lists
+  squad: 'lista',
+  squads: 'listas',
+  lineup: 'lista',
+  'liste équipe': 'lista',
+  kader: 'lista',
+  convocação: 'convocatoria',
+  convocações: 'convocatorias',
+  // Jerseys
+  jersey: 'camiseta',
+  jerseys: 'camisetas',
+  shirt: 'camiseta',
+  kit: 'camiseta',
+  camisa: 'camiseta',
+  camisas: 'camisetas',
+  maillot: 'camiseta',
+  trikot: 'camiseta',
+  // Teams hosts
+  usa: 'estados-unidos',
+  canada: 'canada',
+  // Stickers
+  stickers: 'cromos',
+  figurinhas: 'cromos',
+  vignettes: 'cromos',
+  // Country names common
+  spain: 'espana',
+  brazil: 'brasil',
+  argentina: 'argentina',
+  germany: 'alemania',
+  france: 'francia',
+  england: 'inglaterra',
+  italy: 'italia',
+  netherlands: 'paises-bajos',
+};
+
+/**
+ * Aplica el mapa de sinónimos a un texto: reemplaza cada llave (frase EN/PT/FR/…)
+ * por su equivalente ES, en orden de longitud descendente para evitar
+ * solapamientos.
+ */
+function translateForCoverage(query: string): string {
+  let q = query.toLowerCase();
+  const entries = Object.entries(CROSS_LANG_MAP).sort((a, b) => b[0].length - a[0].length);
+  for (const [from, to] of entries) {
+    q = q.replaceAll(from, to);
+  }
+  return q;
+}
+
 function alreadyCovered(query: string): string | null {
-  const slug = slugify(query);
-  const tokens = slug.split('-').filter((t) => t.length >= 4);
-  if (tokens.length === 0) return null;
-  // Heurística simple: si todos los tokens significativos del query están
-  // contenidos en algún path interno → ya cubierto.
-  for (const path of SITE_PATHS) {
-    const lp = path.toLowerCase();
-    const hits = tokens.filter((t) => lp.includes(t)).length;
-    if (hits >= Math.min(2, tokens.length)) return path;
+  // Variante normalizada por slug y otra cross-language traducida a ES.
+  const variants = [slugify(query), slugify(translateForCoverage(query))];
+  for (const slug of variants) {
+    const tokens = slug.split('-').filter((t) => t.length >= 4);
+    if (tokens.length === 0) continue;
+    for (const path of SITE_PATHS) {
+      const lp = path.toLowerCase();
+      const hits = tokens.filter((t) => lp.includes(t)).length;
+      // 2+ tokens significativos coincidentes → cubierto
+      if (hits >= Math.min(2, tokens.length)) return path;
+    }
   }
   return null;
 }

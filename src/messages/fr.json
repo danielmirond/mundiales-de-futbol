@@ -199,7 +199,9 @@
       "tournamentMatches": "{matches} matchs du tournoi",
       "sedesCount": "{count, plural, =1 {1 ville hôte} other {# villes hôtes}}",
       "sedeCardCta": "Guide de la ville hôte",
-      "back": "Coupe du Monde 2026"
+      "back": "Coupe du Monde 2026",
+      "title": "Villes hôtes Coupe du Monde 2026 : les 16 villes, matchs et guide de voyage",
+      "description": "Les 16 villes hôtes de la Coupe du Monde 2026 aux États-Unis, au Mexique et au Canada. Calendrier par ville, stade, capacité, que faire, où loger et comment s'y rendre."
     },
     "calendario": {
       "title": "Calendrier Coupe du Monde 2026 : 104 matchs par phase, dates et horaires",
@@ -366,6 +368,26 @@
       "teamCardsH1Line2": "les plus expulsées",
       "teamCardsIntro": "Le Brésil détient le record historique d'expulsions (10 rouges en 22 Coupes du Monde disputées). L'Argentine (9) et l'Uruguay (8) complètent le podium sud-américain. Chaque match compte : le total est cumulé, pas par édition.",
       "teamCardsDisclaimer": "Le classement reflète le total cumulé, pas la discipline relative. Brésil, Argentine et Uruguay sont en haut en partie parce que ce sont les sélections avec le plus de participations (22, 18 et 14 Coupes du Monde respectivement). La couverture minute par minute des cartons est complète depuis 1994 ; lors des Mondiaux antérieurs, les enregistrements peuvent sous-estimer les avertissements légers non repris dans le rapport officiel."
+    },
+    "mascotas": {
+      "title": "Mascottes Coupe du Monde 2026 : Maple, Zayu et Clutch · Canada, Mexique et USA",
+      "description": "Les trois mascottes officielles de la Coupe du Monde 2026 représentent les pays hôtes : Maple (élan, Canada), Zayu (jaguar, Mexique) et Clutch (pygargue à tête blanche, USA). Histoire, symbolisme et design FIFA.",
+      "kicker": "Mascottes officielles · 3 hôtes",
+      "h1Line1": "Maple, Zayu",
+      "h1Line2": "et Clutch",
+      "intro": "Pour la première fois dans l'histoire, la Coupe du Monde a trois mascottes officielles, une par pays hôte. Un élan, un jaguar et un pygargue à tête blanche représentent le Canada, le Mexique et les États-Unis dans le premier tournoi à 48 équipes. Design FIFA présenté en septembre 2025.",
+      "back": "Coupe du Monde 2026",
+      "breadcrumbHome": "Accueil",
+      "breadcrumbHub": "Coupe du Monde 2026",
+      "breadcrumbSelf": "Mascottes",
+      "symbolismLabel": "Symbolisme",
+      "funFactLabel": "Anecdote",
+      "historyKicker": "Histoire de la Coupe",
+      "historyHeading": "Les mascottes qui ont précédé",
+      "moreHeading": "Plus sur la Coupe du Monde 2026",
+      "moreCta1": "Hub Coupe du Monde 2026",
+      "moreCta2": "16 villes hôtes",
+      "moreCta3": "Album Panini"
     }
   }
 }

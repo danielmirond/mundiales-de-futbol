@@ -106,6 +106,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   out.push(entry('/coleccionismo/panini-mundial-2026/digital', now, 'weekly', 0.8));
   out.push(entry('/coleccionismo/panini-mundial-2026/tapa-dura', now, 'monthly', 0.75));
   out.push(entry('/coleccionismo/panini-mundial-2026/cromos-mas-caros', now, 'weekly', 0.85));
+  out.push(entry('/coleccionismo/panini-mundial-2026/figurinhas-copa-2026', now, 'weekly', 0.9));
   out.push(entry('/coleccionismo/panini-mundial-2026/coca-cola', now, 'weekly', 0.8));
   out.push(entry('/coleccionismo/panini-mundial-2026/topps-vs-panini', now, 'monthly', 0.7));
   out.push(entry('/selecciones/ESP/grupo-h', now, 'weekly', 0.9));

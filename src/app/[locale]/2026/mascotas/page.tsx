@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { setRequestLocale } from 'next-intl/server';
-import { ArrowLeft, ArrowRight, Sparkles } from 'lucide-react';
+import { setRequestLocale, getTranslations } from 'next-intl/server';
+import { ArrowLeft, Sparkles } from 'lucide-react';
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl, SEO } from '@/lib/seo';
 
@@ -16,20 +16,20 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'pages.mascotas' });
   return pageMetadata({
     locale,
     path: '/2026/mascotas',
-    title:
-      'Mascotas Mundial 2026: Maple, Zayu y Clutch · Canadá, México y EE. UU.',
-    description:
-      'Las tres mascotas oficiales del Mundial 2026 representan a los países anfitriones: Maple (alce, Canadá), Zayu (jaguar, México) y Clutch (águila calva, EE. UU.). Historia, simbolismo y diseño FIFA.',
+    title: t('title'),
+    description: t('description'),
     keywords: [
       'mascotas Mundial 2026',
+      'World Cup 2026 mascots',
+      'mascotes Copa do Mundo 2026',
+      'mascottes Coupe du Monde 2026',
       'Maple Zayu Clutch FIFA',
-      'mascota oficial Mundial 2026',
       'jaguar México Mundial',
-      'alce Canadá Mundial',
-      'águila Estados Unidos Mundial',
+      'bald eagle USA World Cup',
     ],
     type: 'article',
   });
@@ -90,13 +90,13 @@ export default async function Mascotas({
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
+  const t = await getTranslations({ locale, namespace: 'pages.mascotas' });
 
   const articleLd = {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline: 'Mascotas Mundial 2026: Maple, Zayu y Clutch',
-    description:
-      'Las tres mascotas oficiales del Mundial 2026 (Maple/Canadá, Zayu/México, Clutch/EE.UU.): historia, simbolismo, diseño FIFA y posición.',
+    headline: t('title'),
+    description: t('description'),
     publisher: { '@type': 'Organization', name: SEO.siteName, url: SEO.siteUrl },
     datePublished: '2026-05-02',
     dateModified: '2026-05-02',
@@ -115,9 +115,9 @@ export default async function Mascotas({
         data={[
           articleLd,
           breadcrumbLd(locale, [
-            { name: 'Inicio', path: '/' },
-            { name: 'Mundial 2026', path: '/2026' },
-            { name: 'Mascotas', path: '/2026/mascotas' },
+            { name: t('breadcrumbHome'), path: '/' },
+            { name: t('breadcrumbHub'), path: '/2026' },
+            { name: t('breadcrumbSelf'), path: '/2026/mascotas' },
           ]),
         ]}
       />
@@ -127,22 +127,18 @@ export default async function Mascotas({
           href={withLocale(locale as Locale, '/2026')}
           className="inline-flex items-center gap-2 font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-fg-muted)] transition-colors hover:text-[var(--color-fg)]"
         >
-          <ArrowLeft className="h-3 w-3 rtl:rotate-180" /> Mundial 2026
+          <ArrowLeft className="h-3 w-3 rtl:rotate-180" /> {t('back')}
         </Link>
 
         <div className="mt-8 flex items-center gap-3 font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-pitch)]">
           <Sparkles className="h-4 w-4" />
-          <span>Mascotas oficiales · 3 anfitriones</span>
+          <span>{t('kicker')}</span>
         </div>
         <h1 className="mt-4 font-display text-fluid-display uppercase leading-[0.9]">
-          Maple, Zayu<br />y Clutch
+          {t('h1Line1')}<br />{t('h1Line2')}
         </h1>
         <p className="mt-6 max-w-3xl text-lg leading-relaxed text-[var(--color-fg-muted)] md:text-xl">
-          Por primera vez en la historia, el Mundial tiene tres mascotas
-          oficiales, una por país anfitrión. Un alce, un jaguar y un águila
-          calva representan a Canadá, México y Estados Unidos en el primer
-          torneo de 48 selecciones. Diseño FIFA presentado en septiembre de
-          2025.
+          {t('intro')}
         </p>
       </header>
 
@@ -192,14 +188,14 @@ export default async function Mascotas({
               </p>
 
               <h3 className="mt-8 font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-pitch)]">
-                Simbolismo
+                {t('symbolismLabel')}
               </h3>
               <p className="mt-3 text-sm leading-relaxed text-[var(--color-fg-muted)] md:text-base">
                 {m.symbolism}
               </p>
 
               <h3 className="mt-8 font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-pitch)]">
-                Dato curioso
+                {t('funFactLabel')}
               </h3>
               <p className="mt-3 text-sm leading-relaxed text-[var(--color-fg-muted)] md:text-base">
                 {m.funFact}
@@ -212,10 +208,10 @@ export default async function Mascotas({
       <section className="mx-auto mt-20 w-full max-w-[1200px] px-6 md:px-10">
         <div className="rounded-3xl border border-[var(--color-border)] bg-[var(--color-bg-2)] p-10 md:p-14">
           <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-pitch)]">
-            Historia mundialista
+            {t('historyKicker')}
           </div>
           <h2 className="mt-3 font-display text-3xl uppercase md:text-4xl">
-            Las mascotas que llegaron antes
+            {t('historyHeading')}
           </h2>
           <ul className="mt-8 grid gap-3 text-sm md:grid-cols-2 md:text-base">
             <li><strong className="text-[var(--color-fg)]">1966 · Willie</strong> (Inglaterra). El primer mascota mundialista. León con uniforme de la Union Jack.</li>
@@ -232,11 +228,11 @@ export default async function Mascotas({
 
       <section className="mx-auto mt-16 mb-24 w-full max-w-[1200px] px-6 md:px-10">
         <div className="rounded-3xl border border-[var(--color-border)] bg-gradient-to-br from-[var(--color-pitch)]/8 via-[var(--color-bg-2)] to-[var(--color-bg-2)] p-10 md:p-14">
-          <h2 className="font-display text-2xl uppercase">Más del Mundial 2026</h2>
+          <h2 className="font-display text-2xl uppercase">{t('moreHeading')}</h2>
           <div className="mt-6 flex flex-wrap gap-3">
-            <Link href={withLocale(locale as Locale, '/2026')} className="rounded-full bg-[var(--color-pitch)] px-5 py-2.5 text-sm font-semibold text-black">Hub Mundial 2026</Link>
-            <Link href={withLocale(locale as Locale, '/2026/sedes')} className="rounded-full border border-[var(--color-border-strong)] px-5 py-2.5 text-sm">16 sedes</Link>
-            <Link href={withLocale(locale as Locale, '/coleccionismo/panini-mundial-2026')} className="rounded-full border border-[var(--color-border-strong)] px-5 py-2.5 text-sm">Álbum Panini</Link>
+            <Link href={withLocale(locale as Locale, '/2026')} className="rounded-full bg-[var(--color-pitch)] px-5 py-2.5 text-sm font-semibold text-black">{t('moreCta1')}</Link>
+            <Link href={withLocale(locale as Locale, '/2026/sedes')} className="rounded-full border border-[var(--color-border-strong)] px-5 py-2.5 text-sm">{t('moreCta2')}</Link>
+            <Link href={withLocale(locale as Locale, '/coleccionismo/panini-mundial-2026')} className="rounded-full border border-[var(--color-border-strong)] px-5 py-2.5 text-sm">{t('moreCta3')}</Link>
           </div>
         </div>
       </section>
