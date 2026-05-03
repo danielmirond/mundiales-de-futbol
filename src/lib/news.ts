@@ -73,6 +73,40 @@ export type NewsItem = {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'espana-mundial-2026-opciones-pronosticos-grupo-h-yamal-rodri',
+    title:
+      'España al Mundial 2026: cuántas opciones reales tiene la campeona de Europa',
+    summary:
+      'Con Lamine Yamal y Pedri en plenitud, Rodri recuperando ritmo tras la lesión y Luis de la Fuente apuntalando el banquillo, España llega al Mundial 2026 con su mejor generación desde 2010. Las casas de apuestas la sitúan tercera o cuarta favorita, por detrás de Argentina, Francia y Brasil. El Grupo H —Cabo Verde, Arabia Saudí y Uruguay— es el único obstáculo serio antes de los cruces.',
+    body: `España llega al Mundial 2026 como campeona vigente de la Eurocopa 2024 y con la generación más prometedora desde el ciclo Sudáfrica 2010. La pregunta no es si compite por el título, sino contra quién y en qué momento.
+
+**El equipo de la campeona europea**. Lamine Yamal, máximo goleador de Eurocopa con 17 años, llega al Mundial con 19 años recién cumplidos y dos temporadas a 50+ partidos en el Barça. Pedri vuelve sin lesiones en condiciones de lanzar el centro del campo. Rodri, Balón de Oro 2024, recuperó ritmo competitivo en abril tras la rotura de cruzados que lo apartó casi un año. Por delante, Nico Williams, Dani Olmo y Mikel Oyarzabal completan un ataque rápido y vertical, distinto al de la posesión clásica de Xavi-Iniesta.
+
+**El Grupo H, asequible pero no de oficio**. España debuta el 15 de junio contra Cabo Verde en el Mercedes-Benz Stadium de Atlanta (jornada 1, 12:00 CDT). El segundo partido es contra Arabia Saudí el 22 de junio en la misma sede. El cruce decisivo: Uruguay el 26 de junio en el Estadio Akron de Guadalajara. Tres puntos de los nueve previsibles deberían sellar el primer puesto, pero la altitud y el calor mexicanos en pleno verano son una variable que España no controla en su preparación.
+
+**Las apuestas la sitúan top-4**. Las casas británicas (Bet365, William Hill) dan a España cuotas de 7-8 a 1 para ganar el torneo, sólo por detrás de Argentina (5-6 a 1), Francia (5-7 a 1) y Brasil (6-8 a 1). Es la mejor cotización española desde 2014, cuando llegó como campeona en ejercicio. La Inglaterra de Bellingham y la Alemania anfitriona del 2024 quedan medio escalón por debajo.
+
+**El cruce hipotético en octavos**: el segundo del Grupo G (Bélgica, Irán, Egipto o Nueva Zelanda) o un tercero de los grupos D-E-F (España jugaría contra el segundo del G por estructura del cuadro). En cuartos podría aparecer Argentina o Brasil, dependiendo de cómo crucen. La travesía está, pero el camino se complica desde semifinales para arriba como lo hace para todos.
+
+**Pronóstico realista**. Cuartos de final como suelo y semifinales como techo razonable. Para repetir 2010 hay que ganar siete eliminatorias seguidas en 39 días contra los mejores del planeta, y eso siempre depende de momentos específicos: un penalti, una lesión, un día concreto. España tiene jugadores para llegar; lo difícil es que coincidan en su mejor versión durante el mes y medio del torneo.`,
+    category: 'jugadores',
+    sourceName: 'Marca',
+    sourceUrl: 'https://www.marca.com/futbol/seleccion/2026/05/01/espana-mundial-2026-opciones-yamal-rodri.html',
+    sourceLang: 'es',
+    publishedAt: '2026-05-03T08:00:00Z',
+    sourcesSecondary: [
+      { name: 'AS · La Eurocopa de Yamal', url: 'https://as.com/futbol/seleccion/2024/07/14/lamine-yamal-eurocopa-2024-final.html' },
+      { name: 'OneFootball · Cuotas Mundial 2026', url: 'https://onefootball.com/en/news/world-cup-2026-betting-favourites-2026-04-25' },
+      { name: 'BBC Sport · Spain at the Euros', url: 'https://www.bbc.com/sport/football/articles/euro-2024-spain-champions' },
+    ],
+    image: {
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Senyera_Sud-àfrica_Xavi_i_Puyol.JPG?width=1200',
+      alt: 'Xavi Hernández y Carles Puyol con la senyera tras la victoria de España en el Mundial de Sudáfrica 2010, la última vez que España ganó la Copa del Mundo',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA',
+    },
+  },
+  {
     slug: 'panini-album-mundial-2026-980-cromos-salida-30-abril',
     title:
       'El álbum más largo de la historia de Panini: 980 cromos para un Mundial de 48 selecciones',
