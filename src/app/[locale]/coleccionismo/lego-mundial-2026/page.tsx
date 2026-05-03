@@ -14,12 +14,20 @@ function withLocale(locale: Locale, href: string) {
 const LEGO_CATEGORY_URL =
   'https://www.lego.com/en-us/categories/football/football-gifts-toys';
 
-// Helper Amazon Associates con tag nuus-21 (programa propio del proyecto, Amazon España).
-// Si el ASIN no existe en amazon.es, Amazon redirige automáticamente a la búsqueda
-// del producto. Los productos LEGO oficiales suelen estar disponibles en Amazon España.
+// Helper Amazon Associates con tag nuus-21 (Amazon España).
+// Los ASINs son DIFERENTES entre Amazon.com (USA) y Amazon.es (España):
+// el mismo set tiene un ASIN distinto en cada marketplace. Para los sets con ASIN
+// .es confirmado, enlace directo. Para el resto, búsqueda en .es por número de set
+// (siempre funciona y conserva el tracking de afiliación).
 const AMAZON_TAG = 'nuus-21';
-function amazon(asin: string): string {
+function amazonByAsin(asin: string): string {
   return `https://www.amazon.es/dp/${asin}?tag=${AMAZON_TAG}`;
+}
+function amazonSearch(setNumber: number): string {
+  return `https://www.amazon.es/s?k=lego+${setNumber}+mundial&tag=${AMAZON_TAG}`;
+}
+function amazonForSet(set: { id: number; asin?: string }): string {
+  return set.asin ? amazonByAsin(set.asin) : amazonSearch(set.id);
 }
 
 export async function generateMetadata({
@@ -85,7 +93,6 @@ const LEGO_SETS: LegoSet[] = [
     release: 'Marzo 2026 (pre-order activa)',
     description:
       'Réplica 1:1 del Trofeo de la Copa del Mundo FIFA con 36 cm de altura y 2.842 piezas. Compartimento secreto en la esfera superior con el logo del Mundial 2026 dentro. Minifigura LEGO exclusiva con mini-trofeo y placa con todos los campeones desde 1974. Es la primera vez que LEGO usa tantas piezas en color oro real (laqueado y moldeado) en un solo set.',
-    asin: 'B0FMYYGFQF',
     iconic: true,
   },
   {
@@ -100,7 +107,6 @@ const LEGO_SETS: LegoSet[] = [
     release: '1 junio 2026',
     description:
       'El segundo set tope de gama de la colección: Messi Celebration en formato wall display. Reproduce el momento del 18 de diciembre de 2022 cuando Messi alza la Copa del Mundo en Doha. Pieza pensada para AFOL y fans del Mundial 2022. Llega 10 días antes del partido inaugural en el Estadio Azteca.',
-    asin: 'B0G2SWCV7Q',
     iconic: true,
   },
   {
@@ -115,7 +121,6 @@ const LEGO_SETS: LegoSet[] = [
     release: '1 mayo 2026',
     description:
       'Figura buildable de Messi en pose de victoria apuntando al cielo (gol marcado) o en pose de regate dinámico. 958 piezas. Base con la albiceleste argentina, placa con firma y CR-style stats. Set complementario al 43016 (Cristiano).',
-    asin: 'B0FR5XN7CF',
     iconic: true,
   },
   {
@@ -130,7 +135,6 @@ const LEGO_SETS: LegoSet[] = [
     release: '1 mayo 2026',
     description:
       'Figura buildable de Cristiano de 25 × 23 × 13 cm con dos posibilidades de construcción: pose «Siuuu» de celebración o chilena (bicycle kick). 854 piezas. Cara co-moldeada, dorsal 7, balón nuevo elemento, gran fondo CR7 y placa de firma. Es la primera vez que Cristiano y Messi coexisten oficialmente en LEGO.',
-    asin: 'B0FR64MCMN',
     iconic: true,
   },
   {
@@ -145,7 +149,6 @@ const LEGO_SETS: LegoSet[] = [
     release: '1 mayo 2026',
     description:
       'Escena con base que forma la inicial de Messi, los colores de la albiceleste argentina, dorsal 10 grande, red de portería y mini-construcción de hitos de carrera. Minifigura Messi en pose goleadora y placa con stats. Easter eggs ocultos por toda la pieza. 500 piezas, 13 cm alto × 24 cm ancho.',
-    asin: 'B0FNXC51RH',
   },
   {
     id: 43012,
@@ -159,7 +162,7 @@ const LEGO_SETS: LegoSet[] = [
     release: '1 mayo 2026',
     description:
       'Escena «Siuuu» con Cristiano celebrando un gol. Base con forma de letra en colores portugueses. Minifigura LEGO con la 7 al pecho y placa identificativa con stats.',
-    asin: 'B0FNXM77MD',
+    asin: 'B0FPXGJL6H',
   },
   {
     id: 43013,
@@ -173,7 +176,6 @@ const LEGO_SETS: LegoSet[] = [
     release: '1 mayo 2026',
     description:
       'Escena de Mbappé en carrera explosiva con la 10 de Francia. Base con la inicial de Mbappé, colores azules de Les Bleus y dorsal 10 buildable. Minifigura LEGO en pose goleadora con placa de stats y firma. 490 piezas.',
-    asin: 'B0FNXBLVQL',
   },
   {
     id: 43027,
@@ -187,7 +189,6 @@ const LEGO_SETS: LegoSet[] = [
     release: '1 mayo 2026',
     description:
       'Escena de Vini Jr con base en forma de la inicial V, colores verde-amarillo de Brasil y dorsal 7. Minifigura LEGO con su corte característico, pose goleadora y placa con stats y firma. Easter eggs de su carrera. 510 piezas.',
-    asin: 'B0FQCSLVRY',
   },
   {
     id: 43032,
@@ -415,24 +416,24 @@ export default async function LegoMundial2026({
                 {s.description}
               </p>
 
-              {s.asin ? (
-                <a
-                  href={amazon(s.asin)}
-                  target="_blank"
-                  rel="sponsored noopener noreferrer"
-                  className="mt-5 inline-flex items-center gap-2 rounded-full border border-[var(--color-border-strong)] px-4 py-2 font-mono text-xs uppercase tracking-[0.3em] transition-colors hover:border-[var(--color-pitch)] hover:text-[var(--color-pitch)]"
-                >
-                  Comprar en Amazon
-                  <ExternalLink className="h-3 w-3" />
-                </a>
-              ) : (
+              {s.category === 'merch' ? (
                 <a
                   href={LEGO_CATEGORY_URL}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="mt-5 inline-flex items-center gap-2 rounded-full border border-[var(--color-border-strong)] px-4 py-2 font-mono text-xs uppercase tracking-[0.3em] transition-colors hover:border-[var(--color-pitch)] hover:text-[var(--color-pitch)]"
                 >
-                  Ver en LEGO.com
+                  Exclusiva LEGO.com
+                  <ExternalLink className="h-3 w-3" />
+                </a>
+              ) : (
+                <a
+                  href={amazonForSet(s)}
+                  target="_blank"
+                  rel="sponsored noopener noreferrer"
+                  className="mt-5 inline-flex items-center gap-2 rounded-full border border-[var(--color-border-strong)] px-4 py-2 font-mono text-xs uppercase tracking-[0.3em] transition-colors hover:border-[var(--color-pitch)] hover:text-[var(--color-pitch)]"
+                >
+                  {s.asin ? 'Comprar en Amazon.es' : 'Ver en Amazon.es'}
                   <ExternalLink className="h-3 w-3" />
                 </a>
               )}
