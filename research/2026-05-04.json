@@ -1,0 +1,130 @@
+{
+  "generatedAt": "2026-05-04T09:04:18.068Z",
+  "date": "2026-05-04",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "pachuca",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Golazo de Enner y triunfo clave de Pachuca en casa de Toluca",
+          "url": "https://www.ecuagol.com/noticias/ecuatorianos-exterior/golazo-de-enner-y-triunfo-clave-de-pachuca-en-casa-de-toluca/222991/",
+          "source": "Ecuagol"
+        },
+        {
+          "title": "Calienta para el Mundial 2026: El golazo directo al ángulo de Enner Valencia con el Pachuca",
+          "url": "https://www.eldiario.ec/deportes/calienta-para-el-mundial-2026-el-golazo-directo-al-angulo-de-enner-valencia-con-el-pachuca-03052026/",
+          "source": "El Diario Ecuador"
+        },
+        {
+          "title": "Hernán Galíndez: \"En Argentina no voy a jugar en otro equipo que no sea Huracán\"",
+          "url": "https://www.aficioncentral.com/noticias/ecuatorianos-exterior/hernan-galindez-en-argentina-no-voy-a-jugar-en-otro-equipo-que-no-sea-huracan/47290/",
+          "source": "Afición Central"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "es": [
+      {
+        "query": "pachuca",
+        "score": 400,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "pachuca",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Golazo de Enner y triunfo clave de Pachuca en casa de Toluca",
+                "url": "https://www.ecuagol.com/noticias/ecuatorianos-exterior/golazo-de-enner-y-triunfo-clave-de-pachuca-en-casa-de-toluca/222991/",
+                "source": "Ecuagol"
+              },
+              {
+                "title": "Calienta para el Mundial 2026: El golazo directo al ángulo de Enner Valencia con el Pachuca",
+                "url": "https://www.eldiario.ec/deportes/calienta-para-el-mundial-2026-el-golazo-directo-al-angulo-de-enner-valencia-con-el-pachuca-03052026/",
+                "source": "El Diario Ecuador"
+              },
+              {
+                "title": "Hernán Galíndez: \"En Argentina no voy a jugar en otro equipo que no sea Huracán\"",
+                "url": "https://www.aficioncentral.com/noticias/ecuatorianos-exterior/hernan-galindez-en-argentina-no-voy-a-jugar-en-otro-equipo-que-no-sea-huracan/47290/",
+                "source": "Afición Central"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "topic": "pachuca",
+      "type": "noticia",
+      "slugSuggestion": "pachuca",
+      "language": "es",
+      "geos": [
+        "EC"
+      ],
+      "score": 480,
+      "reason": "Google Trends daily EC con 500 búsquedas · 3 artículos noticiosos referenciando \"pachuca\"",
+      "proposedPath": "/noticias/pachuca",
+      "evidence": [
+        {
+          "query": "pachuca",
+          "geo": "EC",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 500,
+          "articles": [
+            {
+              "title": "Golazo de Enner y triunfo clave de Pachuca en casa de Toluca",
+              "url": "https://www.ecuagol.com/noticias/ecuatorianos-exterior/golazo-de-enner-y-triunfo-clave-de-pachuca-en-casa-de-toluca/222991/",
+              "source": "Ecuagol"
+            },
+            {
+              "title": "Calienta para el Mundial 2026: El golazo directo al ángulo de Enner Valencia con el Pachuca",
+              "url": "https://www.eldiario.ec/deportes/calienta-para-el-mundial-2026-el-golazo-directo-al-angulo-de-enner-valencia-con-el-pachuca-03052026/",
+              "source": "El Diario Ecuador"
+            },
+            {
+              "title": "Hernán Galíndez: \"En Argentina no voy a jugar en otro equipo que no sea Huracán\"",
+              "url": "https://www.aficioncentral.com/noticias/ecuatorianos-exterior/hernan-galindez-en-argentina-no-voy-a-jugar-en-otro-equipo-que-no-sea-huracan/47290/",
+              "source": "Afición Central"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alreadyCovered": []
+}
