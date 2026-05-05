@@ -1,0 +1,225 @@
+{
+  "generatedAt": "2026-05-05T08:33:07.002Z",
+  "date": "2026-05-05",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "betano",
+      "geo": "AR",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "AFA suma a Betano como nuevo Sponsor de la Selección Argentina en la antesala del Mundial 2026",
+          "url": "https://www.afa.com.ar/es/posts/afa-suma-a-betano-como-nuevo-sponsor-de-la-seleccion-argentina-en-la-antesala-del-mundial-2026",
+          "source": "AFA"
+        },
+        {
+          "title": "La Selección Argentina suma como sponsor oficial a una de las principales casas de apuestas del mundo",
+          "url": "https://www.clarin.com/informacion-general/seleccion-argentina-suma-sponsor-oficial-principales-casas-apuestas-mundo_0_WFKTDrIRgM.html",
+          "source": "Clarin.com"
+        },
+        {
+          "title": "Betano se convierte en sponsor oficial de la Selección Argentina de Fútbol",
+          "url": "https://www.yogonet.com/latinoamerica/noticias/2026/04/30/108726-betano-se-convierte-en-sponsor-oficial-de-la-seleccion-argentina-de-futbol",
+          "source": "Yogonet"
+        }
+      ]
+    },
+    {
+      "query": "selección de fútbol de uruguay",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Los dos días fundamentales que tiene este mes de mayo para la selección uruguaya de Marcelo Bielsa pensando en el Mundial 2026 y por qué",
+          "url": "https://www.elobservador.com.uy/seleccion/los-dos-dias-fundamentales-que-tiene-este-mes-mayo-la-seleccion-uruguaya-marcelo-bielsa-pensando-el-mundial-2026-y-que-n6042724",
+          "source": "El Observador"
+        },
+        {
+          "title": "Cuándo juegan Uruguay vs. España por el Mundial 2026: equipo, fecha, hora y TV en vivo",
+          "url": "https://www.espn.com.mx/futbol/mundial/nota/_/id/16611885/uruguay-vs-espana-grupo-h-tercera-fecha-mundial-2026-equipo-fecha-hora-tv-en-vivo",
+          "source": "ESPN México"
+        },
+        {
+          "title": "Uruguay en el Mundial 2026: grupo, rivales, partidos, calendario y resultados",
+          "url": "https://www.dazn.com/es-ES/news/f%C3%BAtbol/uruguay-en-el-mundial-2026-rivales-partidos-calendario-y-resultados/pwemwrzc9ass1nr8tjjt5dp58",
+          "source": "DAZN"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "es": [
+      {
+        "query": "betano",
+        "score": 650,
+        "geos": [
+          "AR"
+        ],
+        "samples": [
+          {
+            "query": "betano",
+            "geo": "AR",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "AFA suma a Betano como nuevo Sponsor de la Selección Argentina en la antesala del Mundial 2026",
+                "url": "https://www.afa.com.ar/es/posts/afa-suma-a-betano-como-nuevo-sponsor-de-la-seleccion-argentina-en-la-antesala-del-mundial-2026",
+                "source": "AFA"
+              },
+              {
+                "title": "La Selección Argentina suma como sponsor oficial a una de las principales casas de apuestas del mundo",
+                "url": "https://www.clarin.com/informacion-general/seleccion-argentina-suma-sponsor-oficial-principales-casas-apuestas-mundo_0_WFKTDrIRgM.html",
+                "source": "Clarin.com"
+              },
+              {
+                "title": "Betano se convierte en sponsor oficial de la Selección Argentina de Fútbol",
+                "url": "https://www.yogonet.com/latinoamerica/noticias/2026/04/30/108726-betano-se-convierte-en-sponsor-oficial-de-la-seleccion-argentina-de-futbol",
+                "source": "Yogonet"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "selección de fútbol de uruguay",
+        "score": 450,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "selección de fútbol de uruguay",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Los dos días fundamentales que tiene este mes de mayo para la selección uruguaya de Marcelo Bielsa pensando en el Mundial 2026 y por qué",
+                "url": "https://www.elobservador.com.uy/seleccion/los-dos-dias-fundamentales-que-tiene-este-mes-mayo-la-seleccion-uruguaya-marcelo-bielsa-pensando-el-mundial-2026-y-que-n6042724",
+                "source": "El Observador"
+              },
+              {
+                "title": "Cuándo juegan Uruguay vs. España por el Mundial 2026: equipo, fecha, hora y TV en vivo",
+                "url": "https://www.espn.com.mx/futbol/mundial/nota/_/id/16611885/uruguay-vs-espana-grupo-h-tercera-fecha-mundial-2026-equipo-fecha-hora-tv-en-vivo",
+                "source": "ESPN México"
+              },
+              {
+                "title": "Uruguay en el Mundial 2026: grupo, rivales, partidos, calendario y resultados",
+                "url": "https://www.dazn.com/es-ES/news/f%C3%BAtbol/uruguay-en-el-mundial-2026-rivales-partidos-calendario-y-resultados/pwemwrzc9ass1nr8tjjt5dp58",
+                "source": "DAZN"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "topic": "betano",
+      "type": "noticia",
+      "slugSuggestion": "betano",
+      "language": "es",
+      "geos": [
+        "AR"
+      ],
+      "score": 780,
+      "reason": "Google Trends daily AR con 500 búsquedas · 3 artículos noticiosos referenciando \"betano\"",
+      "proposedPath": "/noticias/betano",
+      "evidence": [
+        {
+          "query": "betano",
+          "geo": "AR",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 500,
+          "articles": [
+            {
+              "title": "AFA suma a Betano como nuevo Sponsor de la Selección Argentina en la antesala del Mundial 2026",
+              "url": "https://www.afa.com.ar/es/posts/afa-suma-a-betano-como-nuevo-sponsor-de-la-seleccion-argentina-en-la-antesala-del-mundial-2026",
+              "source": "AFA"
+            },
+            {
+              "title": "La Selección Argentina suma como sponsor oficial a una de las principales casas de apuestas del mundo",
+              "url": "https://www.clarin.com/informacion-general/seleccion-argentina-suma-sponsor-oficial-principales-casas-apuestas-mundo_0_WFKTDrIRgM.html",
+              "source": "Clarin.com"
+            },
+            {
+              "title": "Betano se convierte en sponsor oficial de la Selección Argentina de Fútbol",
+              "url": "https://www.yogonet.com/latinoamerica/noticias/2026/04/30/108726-betano-se-convierte-en-sponsor-oficial-de-la-seleccion-argentina-de-futbol",
+              "source": "Yogonet"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "selección de fútbol de uruguay",
+      "type": "noticia",
+      "slugSuggestion": "seleccion-de-futbol-de-uruguay",
+      "language": "es",
+      "geos": [
+        "UY"
+      ],
+      "score": 540,
+      "reason": "Google Trends daily UY con 500 búsquedas · 3 artículos noticiosos referenciando \"selección de fútbol de uruguay\"",
+      "proposedPath": "/noticias/seleccion-de-futbol-de-uruguay",
+      "evidence": [
+        {
+          "query": "selección de fútbol de uruguay",
+          "geo": "UY",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 500,
+          "articles": [
+            {
+              "title": "Los dos días fundamentales que tiene este mes de mayo para la selección uruguaya de Marcelo Bielsa pensando en el Mundial 2026 y por qué",
+              "url": "https://www.elobservador.com.uy/seleccion/los-dos-dias-fundamentales-que-tiene-este-mes-mayo-la-seleccion-uruguaya-marcelo-bielsa-pensando-el-mundial-2026-y-que-n6042724",
+              "source": "El Observador"
+            },
+            {
+              "title": "Cuándo juegan Uruguay vs. España por el Mundial 2026: equipo, fecha, hora y TV en vivo",
+              "url": "https://www.espn.com.mx/futbol/mundial/nota/_/id/16611885/uruguay-vs-espana-grupo-h-tercera-fecha-mundial-2026-equipo-fecha-hora-tv-en-vivo",
+              "source": "ESPN México"
+            },
+            {
+              "title": "Uruguay en el Mundial 2026: grupo, rivales, partidos, calendario y resultados",
+              "url": "https://www.dazn.com/es-ES/news/f%C3%BAtbol/uruguay-en-el-mundial-2026-rivales-partidos-calendario-y-resultados/pwemwrzc9ass1nr8tjjt5dp58",
+              "source": "DAZN"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alreadyCovered": []
+}
