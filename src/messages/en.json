@@ -587,6 +587,218 @@
       },
       "articleHeadline": "LEGO World Cup 2026: the 10 official sets with Messi, Ronaldo, Mbappé and Vinicius",
       "articleDescription": "Complete catalog and prices of the LEGO FIFA World Cup 2026 collection."
+    },
+    "favoritosGanarMundial": {
+      "meta": {
+        "title": "World Cup 2026 favorites: odds, ranking and analysis of the 12 contenders",
+        "description": "Who will win the 2026 World Cup: ranking of the 12 favorites by bookmakers (Bet365, William Hill, Pinnacle), squad analysis, group breakdown and a realistic forecast. Argentina, France, Brazil, Spain, England and the outsiders.",
+        "keywords": [
+          "world cup 2026 favorites",
+          "who will win world cup 2026",
+          "world cup 2026 odds",
+          "world cup 2026 winner odds",
+          "world cup 2026 betting",
+          "world cup 2026 predictions",
+          "world cup 2026 ranking",
+          "world cup 2026 favourites",
+          "argentina world cup 2026 win",
+          "brazil world cup 2026 win",
+          "france world cup 2026 win",
+          "england world cup 2026 chances"
+        ]
+      },
+      "back": "World Cup 2026",
+      "kicker": "Odds and ranking · 12 contenders",
+      "h1Line1": "Who will win",
+      "h1Line2": "the 2026 World Cup?",
+      "intro": "Argentina opens as favorite at <strong>5/1</strong> across the major bookmakers. France, Brazil, Spain and England round out the top-5. Here are the 12 serious title contenders, with their World Cup group, star player, key group-stage match and an honest read on strengths and risks.",
+      "stats": [
+        {
+          "label": "World Cup",
+          "value": "Jun 11 · Jul 19"
+        },
+        {
+          "label": "Teams",
+          "value": "48"
+        },
+        {
+          "label": "Matches",
+          "value": "104"
+        },
+        {
+          "label": "Venues",
+          "value": "16 cities"
+        }
+      ],
+      "ranking": {
+        "kicker": "Ranking",
+        "h2": "Top 12 favorites",
+        "intro": "Reference odds compiled from Bet365, William Hill, Pinnacle and Stake in May 2026. Odds update weekly as the tournament approaches and pre-World Cup friendlies feed information to the traders. Ranking sorted by lowest odds (highest implied probability).",
+        "tableRank": "#",
+        "tableTeam": "Team",
+        "tableGroup": "Group",
+        "tableOdds": "Odds",
+        "tableProbability": "Impl. prob.",
+        "tableStatus": "Status"
+      },
+      "statusLabels": {
+        "campeona": "🏆 Reigning champion",
+        "finalista": "🥈 2022 finalist",
+        "semifinalista": "🥉 2022 semis",
+        "cabeza-serie": "Top seed",
+        "anfitriona": "🇺🇸🇲🇽🇨🇦 Host",
+        "outsider": "Outsider"
+      },
+      "analysis": {
+        "kicker": "Team-by-team analysis",
+        "h2": "All 12 contenders in detail",
+        "fortalezaLabel": "Strength",
+        "riesgoLabel": "Risk",
+        "estrellaLabel": "Star",
+        "partidoClaveLabel": "Key match",
+        "groupOddsTpl": "Group {group} · Odds {cuota}",
+        "verPerfilTpl": "View {team} profile"
+      },
+      "favoritos": {
+        "ARG": {
+          "fortaleza": "Reigning champion with the Qatar 2022 core reinforced by a fully consolidated Julián Álvarez and Mac Allister at his best.",
+          "riesgo": "Messi turns 39 during the tournament. If he doesn't deliver like in Qatar, the team loses its main card on the moments that matter.",
+          "estrella": "Lionel Messi · possible World Cup farewell",
+          "partidoClave": "Jun 23 · Argentina-Austria · AT&T Stadium · Dallas"
+        },
+        "FRA": {
+          "fortaleza": "Mbappé arrives as PSG captain with 2 Champions League titles and 5 French league titles. Tchouaméni and Camavinga lock down the midfield.",
+          "riesgo": "The post-Varane defense is the weakest in three decades. Any opponent with pace up top can exploit the left side.",
+          "estrella": "Kylian Mbappé · captain and Qatar 2022 Golden Boot",
+          "partidoClave": "Jun 26 · France-Norway · Gillette Stadium · Boston"
+        },
+        "BRA": {
+          "fortaleza": "The Vinicius Jr / Rodrygo / Endrick / Raphinha generation is the deepest attacking pool since Ronaldo Naz / Ronaldinho in 2002.",
+          "riesgo": "Without a 100% Casemiro, the double pivot is brittle. Young center-backs haven't been through a major tournament with the responsibility of the Silva era.",
+          "estrella": "Vinícius Jr · captain and 2024 Ballon d'Or contender",
+          "partidoClave": "Jun 13 · Brazil-Morocco · MetLife · New York/NJ"
+        },
+        "ESP": {
+          "fortaleza": "Euro 2024 champion with Lamine Yamal in full flight, Pedri injury-free and Ballon d'Or Rodri back in form.",
+          "riesgo": "Heat and altitude in Guadalajara for the Uruguay match (J3) is the only variable Spain hasn't been able to simulate.",
+          "estrella": "Lamine Yamal · 19 years old, Champions and Euro on his shoulders",
+          "partidoClave": "Jun 26 · Uruguay-Spain · Estadio Akron · Guadalajara"
+        },
+        "ENG": {
+          "fortaleza": "Bellingham is the world's best #10 and Saka, Foden and Kane form England's most complete squad since 1990.",
+          "riesgo": "The recent record of penalty shootout exits still weighs heavily. Tuchel has to break the mental wall.",
+          "estrella": "Jude Bellingham · captain and 2024 La Liga winner with Real Madrid",
+          "partidoClave": "Jun 17 · England-Croatia · AT&T Stadium · Dallas"
+        },
+        "GER": {
+          "fortaleza": "Moral host of Euro 2024 (home semifinalist). Wirtz and Musiala bring creativity unseen in 20 years.",
+          "riesgo": "Rebuilding phase after the Qatar 2022 disaster. The new generation hasn't lifted an international tournament yet.",
+          "estrella": "Florian Wirtz · Bundesliga MVP and the new galáctico",
+          "partidoClave": "Jun 21 · Germany-Ivory Coast · BMO Field · Toronto"
+        },
+        "POR": {
+          "fortaleza": "Cristiano Ronaldo's last World Cup chance plus the rise of Bernardo Silva, Bruno Fernandes and the Leão / Conceição duo.",
+          "riesgo": "Coexistence between the historic CR7 ego and the new leaders. Any locker-room friction sinks the project.",
+          "estrella": "Cristiano Ronaldo · fifth and confirmed final World Cup",
+          "partidoClave": "Jun 27 · Colombia-Portugal · Hard Rock · Miami"
+        },
+        "NED": {
+          "fortaleza": "The 2010 generation reframed with Frenkie de Jong at his best, Gakpo and Simons leading the attack.",
+          "riesgo": "Post-Van Dijk central defense is vulnerable. A carbon copy of the historic pattern: top-tier attack, irregular defense.",
+          "estrella": "Cody Gakpo · Champions League finalist and Liverpool starter",
+          "partidoClave": "Jun 25 · Tunisia-Netherlands · Arrowhead · Kansas City"
+        },
+        "CRO": {
+          "fortaleza": "Modrić is still the tactical brain. The generational succession Sosa / Petković has improved through 2025-26.",
+          "riesgo": "The age of the historic spine. If Modrić can't go 90 minutes, the team drops 30% in attacking output.",
+          "estrella": "Luka Modrić · his last World Cup?",
+          "partidoClave": "Jun 17 · England-Croatia · AT&T · Dallas"
+        },
+        "BEL": {
+          "fortaleza": "Last generational shot for De Bruyne / Lukaku / Hazard. Doku adds the youthful explosiveness they lacked in Qatar.",
+          "riesgo": "The disconnect between veterans and young players in the 2025 qualifiers was obvious. Tedesco hasn't gelled the group.",
+          "estrella": "Kevin De Bruyne · brain and generational captain",
+          "partidoClave": "Group G is accessible if they top it"
+        },
+        "USA": {
+          "fortaleza": "Hosts with home-field advantage in a favorable bracket. Pulisic, Reyna and McKennie play at top European clubs.",
+          "riesgo": "No World Cup tradition for handling home pressure. FIFA may push them along, but they arrive at the World Cup without having won anything serious.",
+          "estrella": "Christian Pulisic · captain and Milan starter",
+          "partidoClave": "Jun 12 · USA-Paraguay · SoFi · Los Angeles · co-opening match"
+        },
+        "MEX": {
+          "fortaleza": "Opening with the inaugural match at Estadio Azteca, a unique scenario in their World Cup history. Edson Álvarez and Hugo Sánchez (assistant) are the emotional spine.",
+          "riesgo": "Same historic pattern: strong group stage, knocked out in round of 16. For 2026 they have to break «the curse of the 5th match».",
+          "estrella": "Edson Álvarez · captain and West Ham starter",
+          "partidoClave": "Jun 11 · Mexico-South Africa · Estadio Azteca · CDMX · opening match"
+        }
+      },
+      "pronostico": {
+        "kicker": "My forecast",
+        "h2": "Realistic forecast",
+        "items": [
+          {
+            "label": "Hypothetical final",
+            "text": "Argentina-France, an exact rerun of Qatar 2022. Favorable bracket for both sides until quarter-finals, where they'd meet Brazil and Spain respectively. Probability: 25-30%."
+          },
+          {
+            "label": "Most likely surprise",
+            "text": "Morocco reaching beyond the quarter-finals. They have a favorable bracket on Argentina's side (round-of-16 cross against the second-place finisher of an accessible group) and the 2022 generation is largely intact."
+          },
+          {
+            "label": "Team to avoid",
+            "text": "England. They're the 5th favorite but their recent record in finals tournaments (3 consecutive Euros, none won with a squad similar to the current one) hasn't shifted. Knockout-round pressure could break them again."
+          },
+          {
+            "label": "The host phenomenon",
+            "text": "USA and Mexico arrive with home-field advantage but their World Cup history doesn't back it up. Mexico has been knocked out in the round of 16 in 7 of the last 8 World Cups. The USA reached at most the quarter-finals in 2002. Hard to see them breaking that ceiling in 2026 even at home."
+          }
+        ]
+      },
+      "faq": {
+        "kicker": "Frequently asked",
+        "h2": "FAQ",
+        "items": [
+          {
+            "q": "Who is favorite to win the 2026 World Cup?",
+            "a": "Argentina is the main favorite according to bookmakers (5/1 at Bet365 and William Hill, May 2026), followed by France (6/1), Brazil (7/1) and Spain (8/1). England rounds out the top-5 at 9/1. These five teams account for 70% of the money wagered on the World Cup winner."
+          },
+          {
+            "q": "Why is Argentina the favorite?",
+            "a": "For three reasons: they are the reigning champion and keep the Qatar 2022 core, they have the consolidated Messi-Julián Álvarez double card, and a group (J: Algeria, Austria, Jordan) considered the most accessible among UEFA or CONMEBOL top-seeded groups. Everything points to a favorable bracket through to the quarter-finals."
+          },
+          {
+            "q": "When does each favorite kick off?",
+            "a": "Mexico opens the 2026 World Cup on June 11 at Estadio Azteca against South Africa. The USA debuts on June 12. Brazil plays on the 13th against Morocco at MetLife. Germany and the Netherlands on the 14th. Spain on the 15th in Atlanta. France and Argentina on the 16th. England on the 17th. The group stage ends on June 27."
+          },
+          {
+            "q": "Are bookmaker odds reliable as a ranking?",
+            "a": "They reflect the money wagered, not necessarily the real probability. They are useful as an expectation thermometer: odds <8/1 mean teams with real title chances; 10-30/1 are competitive teams with a semis ceiling; >30/1 are outsiders that need a favorable bracket and a perfect tournament."
+          },
+          {
+            "q": "Is this the first time the World Cup is played in 3 countries?",
+            "a": "Yes. The 2026 World Cup is the first ever hosted by three countries simultaneously (USA, Mexico, Canada). It's also the first with 48 teams (up from 32 since 1998), introduces a new round of 32 and lasts 39 days instead of the usual 32. The final will be played on July 19 at MetLife Stadium, New York/New Jersey."
+          },
+          {
+            "q": "Who is the dark horse of the 2026 World Cup?",
+            "a": "Morocco is the logical pick after their Qatar 2022 semifinal (40/1 odds). Senegal looks like a round-of-16 possibility thanks to their accessible group (France + Iraq + Norway). In CONMEBOL, Uruguay with the Núñez-Valverde-Pellistri generation can spring a surprise. And Cape Verde, an absolute debutant, arrives with all the sentimental factor."
+          }
+        ]
+      },
+      "related": {
+        "h2": "Keep exploring the 2026 World Cup",
+        "grupos": "The 12 groups · A-L",
+        "calendario": "Full schedule",
+        "sedes": "16 venues",
+        "analisisEspana": "Spain analysis"
+      },
+      "breadcrumb": {
+        "inicio": "Home",
+        "mundial": "World Cup 2026",
+        "favoritos": "Favorites"
+      },
+      "articleHeadline": "World Cup 2026 favorites: ranking, odds and analysis of the 12 contenders",
+      "articleDescription": "Who will win the 2026 World Cup according to bookmakers and editorial analysis: Argentina, France, Brazil, Spain, England and outsiders."
     }
   }
 }

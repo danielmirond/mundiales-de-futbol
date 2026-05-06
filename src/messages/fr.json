@@ -587,6 +587,218 @@
       },
       "articleHeadline": "LEGO Coupe du monde 2026 : les 10 sets officiels avec Messi, Ronaldo, Mbappé et Vinicius",
       "articleDescription": "Catalogue complet et prix de la collection LEGO FIFA World Cup 2026."
+    },
+    "favoritosGanarMundial": {
+      "meta": {
+        "title": "Favoris pour gagner la Coupe du monde 2026 : cotes, classement et analyse des 12 candidats",
+        "description": "Qui va gagner la Coupe du monde 2026 : classement des 12 favoris selon les bookmakers (Bet365, William Hill, Pinnacle), analyse de l'effectif, du groupe et pronostic réaliste. Argentine, France, Brésil, Espagne, Angleterre et les outsiders.",
+        "keywords": [
+          "favoris coupe du monde 2026",
+          "qui va gagner la coupe du monde 2026",
+          "cotes coupe du monde 2026",
+          "classement sélections coupe du monde 2026",
+          "paris coupe du monde 2026",
+          "pronostics coupe du monde 2026",
+          "favoris mondial 2026",
+          "world cup 2026 favourites",
+          "world cup 2026 odds",
+          "argentine coupe du monde 2026 gagner",
+          "brésil coupe du monde 2026 gagner",
+          "france coupe du monde 2026 gagner"
+        ]
+      },
+      "back": "Coupe du monde 2026",
+      "kicker": "Cotes et classement · 12 candidats",
+      "h1Line1": "Qui va gagner",
+      "h1Line2": "la Coupe du monde 2026 ?",
+      "intro": "L'Argentine part favorite avec une cote de <strong>5/1</strong> chez les grands bookmakers. La France, le Brésil, l'Espagne et l'Angleterre complètent le top 5. Voici les 12 candidats sérieux au titre, avec leur groupe de Coupe du monde, leur joueur vedette, leur match clé en phase de groupes et une analyse honnête de leurs forces et de leurs risques.",
+      "stats": [
+        {
+          "label": "Coupe du monde",
+          "value": "11 juin · 19 juil."
+        },
+        {
+          "label": "Sélections",
+          "value": "48"
+        },
+        {
+          "label": "Matchs",
+          "value": "104"
+        },
+        {
+          "label": "Sites",
+          "value": "16 villes"
+        }
+      ],
+      "ranking": {
+        "kicker": "Classement",
+        "h2": "Top 12 des favoris",
+        "intro": "Cotes de référence compilées chez Bet365, William Hill, Pinnacle et Stake en mai 2026. Les cotes sont mises à jour chaque semaine à l'approche du tournoi et les amicaux pré-Coupe du monde donnent des informations aux traders. Classement trié par cote la plus basse (probabilité implicite la plus élevée).",
+        "tableRank": "#",
+        "tableTeam": "Sélection",
+        "tableGroup": "Groupe",
+        "tableOdds": "Cote",
+        "tableProbability": "P. implicite",
+        "tableStatus": "Statut"
+      },
+      "statusLabels": {
+        "campeona": "🏆 Championne en titre",
+        "finalista": "🥈 Finaliste 2022",
+        "semifinalista": "🥉 Demi 2022",
+        "cabeza-serie": "Tête de série",
+        "anfitriona": "🇺🇸🇲🇽🇨🇦 Pays hôte",
+        "outsider": "Outsider"
+      },
+      "analysis": {
+        "kicker": "Analyse individuelle",
+        "h2": "Les 12 candidats en détail",
+        "fortalezaLabel": "Force",
+        "riesgoLabel": "Risque",
+        "estrellaLabel": "Vedette",
+        "partidoClaveLabel": "Match clé",
+        "groupOddsTpl": "Groupe {group} · Cote {cuota}",
+        "verPerfilTpl": "Voir le profil de {team}"
+      },
+      "favoritos": {
+        "ARG": {
+          "fortaleza": "Championne en titre avec le noyau du Qatar 2022 renforcé par Julián Álvarez confirmé et Mac Allister à son meilleur niveau.",
+          "riesgo": "Messi fête ses 39 ans pendant le tournoi. S'il ne rend pas comme au Qatar, l'équipe perd sa carte maîtresse dans les actions clés.",
+          "estrella": "Lionel Messi · possible adieu en Coupe du monde",
+          "partidoClave": "23 juin · Argentine-Autriche · AT&T Stadium · Dallas"
+        },
+        "FRA": {
+          "fortaleza": "Mbappé arrive en tant que capitaine du PSG avec 2 Champions et 5 Ligue 1. Tchouaméni et Camavinga consolident le milieu de terrain.",
+          "riesgo": "La défense post-Varane est la plus faible des trois dernières décennies. Tout adversaire avec de la vitesse en attaque peut exploiter le côté gauche.",
+          "estrella": "Kylian Mbappé · capitaine et Soulier d'or Qatar 2022",
+          "partidoClave": "26 juin · France-Norvège · Gillette Stadium · Boston"
+        },
+        "BRA": {
+          "fortaleza": "La génération Vinicius Jr / Rodrygo / Endrick / Raphinha est la plus profonde offensivement depuis Ronaldo Naz / Ronaldinho en 2002.",
+          "riesgo": "Sans Casemiro à 100 %, le double pivot est fragile. Les défenseurs centraux jeunes n'ont pas passé un grand tournoi avec la responsabilité des Silvas.",
+          "estrella": "Vinícius Jr · capitaine et candidat au Ballon d'or 2024",
+          "partidoClave": "13 juin · Brésil-Maroc · MetLife · New York/NJ"
+        },
+        "ESP": {
+          "fortaleza": "Championne d'Euro 2024 avec Lamine Yamal en pleine forme, Pedri sans blessures et Rodri Ballon d'or de retour.",
+          "riesgo": "La chaleur et l'altitude de Guadalajara lors du match contre l'Uruguay (J3) sont la seule variable que l'Espagne n'a pas pu simuler.",
+          "estrella": "Lamine Yamal · 19 ans, Champions et Euro sur les épaules",
+          "partidoClave": "26 juin · Uruguay-Espagne · Estadio Akron · Guadalajara"
+        },
+        "ENG": {
+          "fortaleza": "Bellingham est le meilleur numéro 10 du monde et Saka, Foden et Kane forment l'effectif le plus complet de l'Angleterre depuis 1990.",
+          "riesgo": "L'historique récent d'éliminations aux tirs au but pèse encore. Tuchel doit briser le mur mental.",
+          "estrella": "Jude Bellingham · capitaine et Liga 2024 avec le Real Madrid",
+          "partidoClave": "17 juin · Angleterre-Croatie · AT&T Stadium · Dallas"
+        },
+        "GER": {
+          "fortaleza": "Hôte moral de l'Euro 2024 (demi-finaliste à domicile). Wirtz et Musiala apportent une créativité qu'on n'avait pas vue depuis 20 ans.",
+          "riesgo": "Phase de reconstruction après le désastre du Qatar 2022. La nouvelle génération n'a pas encore soulevé un tournoi international.",
+          "estrella": "Florian Wirtz · MVP Bundesliga et nouveau galactique",
+          "partidoClave": "21 juin · Allemagne-Côte d'Ivoire · BMO Field · Toronto"
+        },
+        "POR": {
+          "fortaleza": "Dernière chance en Coupe du monde de Cristiano Ronaldo + montée en puissance de Bernardo Silva, Bruno Fernandes et du duo Leão / Conceição.",
+          "riesgo": "Cohabitation entre l'ego historique de CR7 et les nouveaux leaders. Tout conflit dans le vestiaire enterre le projet.",
+          "estrella": "Cristiano Ronaldo · cinquième et dernière Coupe du monde confirmée",
+          "partidoClave": "27 juin · Colombie-Portugal · Hard Rock · Miami"
+        },
+        "NED": {
+          "fortaleza": "Génération 2010 reformulée avec Frenkie de Jong à son meilleur niveau, Gakpo et Simons en attaque principale.",
+          "riesgo": "Défense centrale post-Van Dijk vulnérable. Calque du schéma historique : attaque au top et défense irrégulière.",
+          "estrella": "Cody Gakpo · finaliste Champions et renfort du Liverpool",
+          "partidoClave": "25 juin · Tunisie-Pays-Bas · Arrowhead · Kansas City"
+        },
+        "CRO": {
+          "fortaleza": "Modrić reste le cerveau tactique. La relève générationnelle Sosa / Petković s'est améliorée en 2025-26.",
+          "riesgo": "L'âge de l'épine dorsale historique. Si Modrić ne tient pas les 90 minutes, l'équipe chute de 30 % dans sa capacité offensive.",
+          "estrella": "Luka Modrić · sa dernière Coupe du monde ?",
+          "partidoClave": "17 juin · Angleterre-Croatie · AT&T · Dallas"
+        },
+        "BEL": {
+          "fortaleza": "Dernier rendez-vous générationnel De Bruyne / Lukaku / Hazard. Doku apporte l'explosion jeune qui leur a manqué au Qatar.",
+          "riesgo": "La déconnexion entre vétérans et jeunes lors des qualifications 2025 a été évidente. Tedesco n'a pas réussi à souder le groupe.",
+          "estrella": "Kevin De Bruyne · cerveau et capitaine générationnel",
+          "partidoClave": "Groupe G accessible s'ils passent en tête"
+        },
+        "USA": {
+          "fortaleza": "Pays hôtes avec le facteur terrain dans un tableau favorable. Pulisic, Reyna et McKennie sont dans des clubs européens de haut niveau.",
+          "riesgo": "Sans tradition en Coupe du monde pour gérer la pression locale. La FIFA peut les pousser, mais ils arrivent à la Coupe du monde sans avoir rien gagné de sérieux.",
+          "estrella": "Christian Pulisic · capitaine et figure de proue du Milan",
+          "partidoClave": "12 juin · USA-Paraguay · SoFi · Los Angeles · match d'ouverture partagé"
+        },
+        "MEX": {
+          "fortaleza": "Ouverture avec le match inaugural à l'Estadio Azteca, scénario unique dans son histoire en Coupe du monde. Edson Álvarez et Hugo Sánchez (assistant) sont la colonne émotionnelle.",
+          "riesgo": "Même schéma historique : grande phase de groupes, élimination en huitièmes de finale. Pour 2026, il faut briser « la malédiction du 5e match ».",
+          "estrella": "Edson Álvarez · capitaine et figure du West Ham",
+          "partidoClave": "11 juin · Mexique-Afrique du Sud · Estadio Azteca · CDMX · match d'ouverture"
+        }
+      },
+      "pronostico": {
+        "kicker": "Mon pronostic",
+        "h2": "Pronostic réaliste",
+        "items": [
+          {
+            "label": "Finale hypothétique",
+            "text": "Argentine-France, répétition exacte du Qatar 2022. Tableau favorable pour les deux jusqu'aux quarts de finale, où elles croiseraient respectivement le Brésil et l'Espagne. Probabilité : 25-30 %."
+          },
+          {
+            "label": "Surprise la plus probable",
+            "text": "Le Maroc passant les quarts de finale. Ils ont le tableau favorable du côté de l'Argentine (ils croisent en huitièmes de finale le deuxième d'un groupe accessible) et la génération 2022 reste presque intacte."
+          },
+          {
+            "label": "L'équipe à éviter",
+            "text": "L'Angleterre. Elle est la 5e favorite mais son historique récent en tournois finaux (3 Euros consécutifs, aucun gagné avec un effectif similaire à l'actuel) ne s'efface pas. La pression à élimination directe peut la briser à nouveau."
+          },
+          {
+            "label": "Le phénomène pays hôtes",
+            "text": "Les USA et le Mexique arrivent avec le facteur terrain mais leur historique en Coupe du monde ne suit pas. Le Mexique est tombé en huitièmes de finale lors de 7 des 8 dernières Coupes. Les USA ont au mieux atteint les quarts en 2002. Difficile qu'ils brisent ce plafond en 2026, même en jouant à domicile."
+          }
+        ]
+      },
+      "faq": {
+        "kicker": "Questions fréquentes",
+        "h2": "FAQ",
+        "items": [
+          {
+            "q": "Qui est favori pour gagner la Coupe du monde 2026 ?",
+            "a": "L'Argentine part comme principale favorite selon les bookmakers (cote 5/1 chez Bet365 et William Hill, mai 2026), suivie de la France (6/1), du Brésil (7/1) et de l'Espagne (8/1). L'Angleterre complète le top 5 avec une cote de 9/1. Ces cinq équipes concentrent 70 % de l'argent misé sur le vainqueur de la Coupe du monde."
+          },
+          {
+            "q": "Pourquoi l'Argentine est-elle la favorite ?",
+            "a": "Pour trois raisons : c'est la championne en titre et elle conserve le noyau du Qatar 2022, elle a la double carte Messi-Julián Álvarez bien en place, et un groupe (J : Algérie, Autriche, Jordanie) considéré comme le plus abordable des groupes avec tête de série UEFA ou CONMEBOL. Tout indique un tableau favorable jusqu'aux quarts de finale."
+          },
+          {
+            "q": "Quand débute chaque favorite ?",
+            "a": "Le Mexique ouvre la Coupe du monde 2026 le 11 juin à l'Estadio Azteca contre l'Afrique du Sud. Les USA débutent le 12 juin. Le Brésil le fait le 13 contre le Maroc au MetLife. L'Allemagne et les Pays-Bas le 14. L'Espagne le 15 à Atlanta. La France et l'Argentine le 16. L'Angleterre le 17. La phase de groupes se termine le 27 juin."
+          },
+          {
+            "q": "Les cotes des bookmakers sont-elles fiables comme classement ?",
+            "a": "Elles reflètent l'argent misé, pas nécessairement la probabilité réelle. Elles sont utiles comme thermomètre d'attentes : des cotes <8/1 indiquent des équipes avec une probabilité réelle d'être championnes ; des cotes 10-30/1 sont des équipes compétitives mais avec un plafond en demi-finale ; des cotes >30/1 sont des outsiders qui ont besoin d'un tirage favorable et d'un tournoi parfait."
+          },
+          {
+            "q": "Est-ce la première fois que la Coupe du monde se joue dans 3 pays ?",
+            "a": "Oui. La Coupe du monde 2026 est la première Coupe du monde organisée par trois pays simultanément (USA, Mexique, Canada). C'est aussi la première à 48 sélections (contre 32 depuis 1998), elle introduit un nouveau tour de seizièmes de finale et dure 39 jours au lieu des 32 habituels. La finale se jouera le 19 juillet au MetLife Stadium, New York/New Jersey."
+          },
+          {
+            "q": "Quelle sélection est l'outsider ou cheval noir de la Coupe du monde 2026 ?",
+            "a": "Le Maroc est le pari logique après sa demi-finale au Qatar 2022 (cotes 40/1). Le Sénégal apparaît avec un potentiel pour les huitièmes de finale grâce à son groupe accessible (France + Irak + Norvège). En CONMEBOL, l'Uruguay avec la génération Núñez-Valverde-Pellistri peut surprendre. Et le Cap-Vert, débutant absolu, arrive avec tout le facteur sentimental."
+          }
+        ]
+      },
+      "related": {
+        "h2": "Continuez à explorer la Coupe du monde 2026",
+        "grupos": "Les 12 groupes · A-L",
+        "calendario": "Calendrier complet",
+        "sedes": "16 sites",
+        "analisisEspana": "Analyse Espagne"
+      },
+      "breadcrumb": {
+        "inicio": "Accueil",
+        "mundial": "Coupe du monde 2026",
+        "favoritos": "Favoris"
+      },
+      "articleHeadline": "Favoris pour gagner la Coupe du monde 2026 : classement, cotes et analyse des 12 candidats",
+      "articleDescription": "Qui va gagner la Coupe du monde 2026 selon les bookmakers et l'analyse éditoriale : Argentine, France, Brésil, Espagne, Angleterre et outsiders."
     }
   }
 }

@@ -587,6 +587,218 @@
       },
       "articleHeadline": "LEGO Copa do Mundo 2026: os 10 sets oficiais com Messi, Ronaldo, Mbappé e Vinicius",
       "articleDescription": "Catálogo completo e preços da coleção LEGO FIFA World Cup 2026."
+    },
+    "favoritosGanarMundial": {
+      "meta": {
+        "title": "Favoritos para ganar a Copa do Mundo 2026: odds, ranking e análise dos 12 candidatos",
+        "description": "Quem vai ganhar a Copa do Mundo 2026: ranking dos 12 favoritos segundo as casas de apostas (Bet365, William Hill, Pinnacle), análise de elenco, grupo e prognóstico realista. Argentina, França, Brasil, Espanha, Inglaterra e os azarões.",
+        "keywords": [
+          "favoritos copa do mundo 2026",
+          "quem vai ganhar a copa do mundo 2026",
+          "odds copa do mundo 2026",
+          "ranking seleções copa do mundo 2026",
+          "apostas copa do mundo 2026",
+          "prognósticos copa do mundo 2026",
+          "favoritos mundial 2026",
+          "world cup 2026 favourites",
+          "world cup 2026 odds",
+          "argentina copa do mundo 2026 ganhar",
+          "brasil copa do mundo 2026 ganhar",
+          "frança copa do mundo 2026 ganhar"
+        ]
+      },
+      "back": "Copa do Mundo 2026",
+      "kicker": "Odds e ranking · 12 candidatos",
+      "h1Line1": "Quem vai ganhar",
+      "h1Line2": "a Copa do Mundo 2026?",
+      "intro": "A Argentina sai como favorita com odd <strong>5/1</strong> nas grandes casas de apostas. França, Brasil, Espanha e Inglaterra completam o top-5. Aqui estão os 12 candidatos sérios ao título, com seu grupo na Copa, jogador estrela, partida-chave da fase de grupos e uma análise honesta de forças e riscos.",
+      "stats": [
+        {
+          "label": "Copa do Mundo",
+          "value": "11 jun · 19 jul"
+        },
+        {
+          "label": "Seleções",
+          "value": "48"
+        },
+        {
+          "label": "Partidas",
+          "value": "104"
+        },
+        {
+          "label": "Sedes",
+          "value": "16 cidades"
+        }
+      ],
+      "ranking": {
+        "kicker": "Ranking",
+        "h2": "Top 12 favoritos",
+        "intro": "Odds de referência compiladas de Bet365, William Hill, Pinnacle e Stake em maio de 2026. As odds são atualizadas semanalmente conforme o torneio se aproxima e os amistosos pré-Copa dão informação aos traders. Ranking ordenado pela odd mais baixa (maior probabilidade implícita).",
+        "tableRank": "#",
+        "tableTeam": "Seleção",
+        "tableGroup": "Grupo",
+        "tableOdds": "Odd",
+        "tableProbability": "Prob. impl.",
+        "tableStatus": "Status"
+      },
+      "statusLabels": {
+        "campeona": "🏆 Atual campeã",
+        "finalista": "🥈 Finalista 2022",
+        "semifinalista": "🥉 Semis 2022",
+        "cabeza-serie": "Cabeça de chave",
+        "anfitriona": "🇺🇸🇲🇽🇨🇦 Anfitriã",
+        "outsider": "Azarão"
+      },
+      "analysis": {
+        "kicker": "Análise individual",
+        "h2": "Os 12 candidatos em detalhe",
+        "fortalezaLabel": "Força",
+        "riesgoLabel": "Risco",
+        "estrellaLabel": "Estrela",
+        "partidoClaveLabel": "Partida-chave",
+        "groupOddsTpl": "Grupo {group} · Odd {cuota}",
+        "verPerfilTpl": "Ver perfil de {team}"
+      },
+      "favoritos": {
+        "ARG": {
+          "fortaleza": "Atual campeã com o núcleo do Catar 2022 reforçado por Julián Álvarez consolidado e Mac Allister em sua melhor versão.",
+          "riesgo": "Messi completa 39 anos durante o torneio. Se não render como no Catar, o time perde sua carta principal nos lances decisivos.",
+          "estrella": "Lionel Messi · possível despedida em Copa do Mundo",
+          "partidoClave": "23 jun · Argentina-Áustria · AT&T Stadium · Dallas"
+        },
+        "FRA": {
+          "fortaleza": "Mbappé chega como capitão do PSG com 2 Champions e 5 títulos da liga francesa. Tchouaméni e Camavinga consolidam o meio-campo.",
+          "riesgo": "A defesa pós-Varane é a mais frágil das últimas três décadas. Qualquer adversário com velocidade no ataque pode explorar o lado esquerdo.",
+          "estrella": "Kylian Mbappé · capitão e Chuteira de Ouro Catar 2022",
+          "partidoClave": "26 jun · França-Noruega · Gillette Stadium · Boston"
+        },
+        "BRA": {
+          "fortaleza": "A geração Vinicius Jr / Rodrygo / Endrick / Raphinha é a mais profunda no ataque desde Ronaldo Naz / Ronaldinho de 2002.",
+          "riesgo": "Sem Casemiro a 100 %, o duplo pivô fica frágil. Zagueiros jovens não passaram por um torneio grande com a responsabilidade dos Silvas.",
+          "estrella": "Vinícius Jr · capitão e candidato à Bola de Ouro 2024",
+          "partidoClave": "13 jun · Brasil-Marrocos · MetLife · Nova York/NJ"
+        },
+        "ESP": {
+          "fortaleza": "Campeã da Eurocopa 2024 com Lamine Yamal em alta, Pedri sem lesões e Rodri Bola de Ouro recuperado.",
+          "riesgo": "Calor e altitude de Guadalajara na partida contra o Uruguai (J3) são a única variável que a Espanha não conseguiu simular.",
+          "estrella": "Lamine Yamal · 19 anos, Champions e Eurocopa nas costas",
+          "partidoClave": "26 jun · Uruguai-Espanha · Estadio Akron · Guadalajara"
+        },
+        "ENG": {
+          "fortaleza": "Bellingham é o melhor camisa 10 do mundo e Saka, Foden e Kane formam o elenco mais completo da Inglaterra desde 1990.",
+          "riesgo": "O histórico recente de eliminações nos pênaltis ainda pesa. Tuchel precisa romper o muro mental.",
+          "estrella": "Jude Bellingham · capitão e La Liga 2024 com o Real Madrid",
+          "partidoClave": "17 jun · Inglaterra-Croácia · AT&T Stadium · Dallas"
+        },
+        "GER": {
+          "fortaleza": "Anfitriã moral da Euro 2024 (semifinalista em casa). Wirtz e Musiala dão criatividade que não se via há 20 anos.",
+          "riesgo": "Fase de reconstrução após o desastre do Catar 2022. A nova geração ainda não levantou um torneio internacional.",
+          "estrella": "Florian Wirtz · MVP da Bundesliga e novo galáctico",
+          "partidoClave": "21 jun · Alemanha-Costa do Marfim · BMO Field · Toronto"
+        },
+        "POR": {
+          "fortaleza": "Última chance em Copa do Mundo de Cristiano Ronaldo + ascensão de Bernardo Silva, Bruno Fernandes e da dupla Leão / Conceição.",
+          "riesgo": "Convivência entre o ego histórico CR7 e os novos referentes. Qualquer conflito no vestiário afunda o projeto.",
+          "estrella": "Cristiano Ronaldo · quinta e última Copa do Mundo confirmada",
+          "partidoClave": "27 jun · Colômbia-Portugal · Hard Rock · Miami"
+        },
+        "NED": {
+          "fortaleza": "Geração 2010 reformulada com Frenkie de Jong em sua melhor versão, Gakpo e Simons como ataque principal.",
+          "riesgo": "Defesa central pós-Van Dijk vulnerável. Cópia do padrão histórico: ataque top e defesa irregular.",
+          "estrella": "Cody Gakpo · finalista da Champions e reforço do Liverpool",
+          "partidoClave": "25 jun · Tunísia-Países Baixos · Arrowhead · Kansas City"
+        },
+        "CRO": {
+          "fortaleza": "Modrić segue sendo o cérebro tático. Sucessão geracional Sosa / Petković melhorou em 2025-26.",
+          "riesgo": "Idade da coluna histórica. Se Modrić não completa os 90 minutos, o time cai 30 % na capacidade ofensiva.",
+          "estrella": "Luka Modrić · sua última Copa do Mundo?",
+          "partidoClave": "17 jun · Inglaterra-Croácia · AT&T · Dallas"
+        },
+        "BEL": {
+          "fortaleza": "Última chance geracional De Bruyne / Lukaku / Hazard. Doku traz a explosão jovem que faltou no Catar.",
+          "riesgo": "A desconexão entre veteranos e jovens nas eliminatórias 2025 foi evidente. Tedesco não conseguiu coesão.",
+          "estrella": "Kevin De Bruyne · cérebro e capitão geracional",
+          "partidoClave": "Grupo G acessível se passarem em primeiro"
+        },
+        "USA": {
+          "fortaleza": "Anfitriões com fator casa em chave favorável. Pulisic, Reyna e McKennie estão em clubes top europeus.",
+          "riesgo": "Sem tradição em Copa do Mundo para gerenciar a pressão local. A FIFA pode empurrá-los, mas chegam à Copa sem ter ganho nada sério.",
+          "estrella": "Christian Pulisic · capitão e referência do Milan",
+          "partidoClave": "12 jun · USA-Paraguai · SoFi · Los Angeles · partida inaugural compartilhada"
+        },
+        "MEX": {
+          "fortaleza": "Abertura com partida inaugural no Estadio Azteca, cenário único em sua história em Copas do Mundo. Edson Álvarez e Hugo Sánchez (auxiliar) são a coluna emocional.",
+          "riesgo": "Mesmo padrão histórico: grande fase de grupos, eliminação nas oitavas. Para 2026 é preciso quebrar «a maldição do 5º jogo».",
+          "estrella": "Edson Álvarez · capitão e referência do West Ham",
+          "partidoClave": "11 jun · México-África do Sul · Estadio Azteca · CDMX · partida inaugural"
+        }
+      },
+      "pronostico": {
+        "kicker": "Meu prognóstico",
+        "h2": "Prognóstico realista",
+        "items": [
+          {
+            "label": "Final hipotética",
+            "text": "Argentina-França, repetição exata do Catar 2022. Chave favorável para ambas até as quartas de final, onde cruzariam com Brasil e Espanha respectivamente. Probabilidade: 25-30 %."
+          },
+          {
+            "label": "Surpresa mais provável",
+            "text": "Marrocos passando das quartas. Têm chave favorável do lado da Argentina (cruzam nas oitavas com o segundo de um grupo acessível) e a geração 2022 segue praticamente intacta."
+          },
+          {
+            "label": "Time a evitar",
+            "text": "Inglaterra. É a 5ª favorita mas seu histórico recente em torneios finais (3 Eurocopas seguidas, nenhuma vencida com elenco similar ao atual) não foi superado. A pressão das eliminatórias pode quebrá-la novamente."
+          },
+          {
+            "label": "O fenômeno anfitriões",
+            "text": "EUA e México chegam com fator casa mas seu histórico em Copa do Mundo não respalda. O México caiu nas oitavas em 7 das últimas 8 Copas. Os EUA chegaram no máximo às quartas em 2002. Difícil que rompam esse teto em 2026 mesmo jogando em casa."
+          }
+        ]
+      },
+      "faq": {
+        "kicker": "Perguntas frequentes",
+        "h2": "FAQ",
+        "items": [
+          {
+            "q": "Quem é favorito para ganhar a Copa do Mundo 2026?",
+            "a": "A Argentina sai como principal favorita segundo as casas de apostas (odd 5/1 em Bet365 e William Hill, maio de 2026), seguida por França (6/1), Brasil (7/1) e Espanha (8/1). A Inglaterra completa o top-5 com odd 9/1. Estas cinco seleções concentram 70 % do dinheiro apostado no campeão da Copa do Mundo."
+          },
+          {
+            "q": "Por que a Argentina é a favorita?",
+            "a": "Por três razões: é a atual campeã e mantém o núcleo do Catar 2022, tem a dupla Messi-Julián Álvarez bem consolidada e um grupo (J: Argélia, Áustria, Jordânia) considerado o mais acessível entre os grupos com cabeça de chave da UEFA ou CONMEBOL. Tudo aponta para uma chave favorável até as quartas de final."
+          },
+          {
+            "q": "Quando estreia cada favorita?",
+            "a": "México abre a Copa do Mundo 2026 em 11 de junho no Estadio Azteca contra a África do Sul. EUA estreiam em 12 de junho. Brasil em 13 contra Marrocos no MetLife. Alemanha e Países Baixos no dia 14. Espanha no 15 em Atlanta. França e Argentina no 16. Inglaterra no 17. A fase de grupos termina em 27 de junho."
+          },
+          {
+            "q": "As odds das casas de apostas são confiáveis como ranking?",
+            "a": "Refletem o dinheiro apostado, não necessariamente a probabilidade real. São úteis como termômetro de expectativa: odds <8/1 indicam seleções com probabilidade real de campeonar; odds 10-30/1 são times competitivos com teto nas semis; odds >30/1 são azarões que precisam de chave favorável e torneio perfeito."
+          },
+          {
+            "q": "É a primeira vez que a Copa do Mundo é disputada em 3 países?",
+            "a": "Sim. A Copa 2026 é a primeira Copa do Mundo organizada por três países simultâneos (EUA, México, Canadá). Também é a primeira com 48 seleções (frente a 32 desde 1998), introduz uma nova rodada de 16 avos e dura 39 dias em vez dos 32 habituais. A final será disputada em 19 de julho no MetLife Stadium, Nova York/Nova Jersey."
+          },
+          {
+            "q": "Qual seleção é o azarão ou tapado da Copa do Mundo 2026?",
+            "a": "Marrocos é a aposta lógica após sua semifinal no Catar 2022 (odds 40/1). Senegal aparece com potencial de oitavas pelo grupo acessível (França + Iraque + Noruega). Na CONMEBOL, Uruguai com a geração Núñez-Valverde-Pellistri pode surpreender. E Cabo Verde, estreante absoluto, chega com todo o fator sentimental."
+          }
+        ]
+      },
+      "related": {
+        "h2": "Continue explorando a Copa do Mundo 2026",
+        "grupos": "Os 12 grupos · A-L",
+        "calendario": "Calendário completo",
+        "sedes": "16 sedes",
+        "analisisEspana": "Análise Espanha"
+      },
+      "breadcrumb": {
+        "inicio": "Início",
+        "mundial": "Copa do Mundo 2026",
+        "favoritos": "Favoritos"
+      },
+      "articleHeadline": "Favoritos para ganhar a Copa do Mundo 2026: ranking, odds e análise dos 12 candidatos",
+      "articleDescription": "Quem vai ganhar a Copa do Mundo 2026 segundo as casas de apostas e análise editorial: Argentina, França, Brasil, Espanha, Inglaterra e azarões."
     }
   }
 }
