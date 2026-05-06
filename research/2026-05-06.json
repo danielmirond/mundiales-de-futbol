@@ -1,0 +1,159 @@
+{
+  "generatedAt": "2026-05-06T09:12:23.141Z",
+  "date": "2026-05-06",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "album del mundial",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Cuánto cuesta llenar el álbum del Mundial: los cálculos de 3 matemáticos que permiten no comprar sobres de más y gastar menos",
+          "url": "https://www.infobae.com/sociedad/2026/05/05/cuanto-cuesta-llenar-el-album-del-mundial-los-calculos-de-3-matematicos-que-permiten-no-comprar-sobres-de-mas-y-gastar-menos/",
+          "source": "Infobae"
+        },
+        {
+          "title": "El truco para conseguir gratis los cromos de la Selección Argentina y completar el reto del Álbum Virtual P...",
+          "url": "https://bolavip.com/ar/mundial/el-truco-para-conseguir-gratis-los-cromos-de-la-seleccion-argentina-y-completar-el-reto-del-album-virtual-panini-del-mundial-2026",
+          "source": "Bolavip Argentina"
+        },
+        {
+          "title": "Llegó el álbum oficial de Panini de la Copa Mundial de la FIFA 2026 para Perú",
+          "url": "https://larepublica.pe/deportes/2026/05/04/llego-el-album-oficial-de-panini-de-la-copa-mundial-de-la-fifa-2026-para-peru-133648",
+          "source": "La República"
+        }
+      ]
+    },
+    {
+      "query": "world cup 2026",
+      "geo": "AU",
+      "language": "en",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Where to watch Saudi Arabia in the 2026 FIFA World Cup today? TV travel guide, free streams, VPNs, eSIMs",
+          "url": "https://www.goal.com/en-au/news/watch-live-stream-saudi-arabia-football/bltcee016f2785cea13",
+          "source": "Goal.com"
+        },
+        {
+          "title": "US must not insult IRGC during the World Cup: Iran’s football chief",
+          "url": "https://www.aljazeera.com/sports/2026/5/6/us-must-not-insult-irgc-during-the-world-cup-irans-football-chief",
+          "source": "Al Jazeera"
+        },
+        {
+          "title": "A money machine and Morocco on the rise: what we learned from Fifa congress",
+          "url": "https://www.theguardian.com/football/2026/may/04/a-money-machine-and-morocco-on-the-rise-what-we-learned-from-fifa-congress",
+          "source": "The Guardian"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "es": [
+      {
+        "query": "album del mundial",
+        "score": 90,
+        "geos": [
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "album del mundial",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Cuánto cuesta llenar el álbum del Mundial: los cálculos de 3 matemáticos que permiten no comprar sobres de más y gastar menos",
+                "url": "https://www.infobae.com/sociedad/2026/05/05/cuanto-cuesta-llenar-el-album-del-mundial-los-calculos-de-3-matematicos-que-permiten-no-comprar-sobres-de-mas-y-gastar-menos/",
+                "source": "Infobae"
+              },
+              {
+                "title": "El truco para conseguir gratis los cromos de la Selección Argentina y completar el reto del Álbum Virtual P...",
+                "url": "https://bolavip.com/ar/mundial/el-truco-para-conseguir-gratis-los-cromos-de-la-seleccion-argentina-y-completar-el-reto-del-album-virtual-panini-del-mundial-2026",
+                "source": "Bolavip Argentina"
+              },
+              {
+                "title": "Llegó el álbum oficial de Panini de la Copa Mundial de la FIFA 2026 para Perú",
+                "url": "https://larepublica.pe/deportes/2026/05/04/llego-el-album-oficial-de-panini-de-la-copa-mundial-de-la-fifa-2026-para-peru-133648",
+                "source": "La República"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "en": [
+      {
+        "query": "world cup 2026",
+        "score": 140,
+        "geos": [
+          "AU"
+        ],
+        "samples": [
+          {
+            "query": "world cup 2026",
+            "geo": "AU",
+            "language": "en",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Where to watch Saudi Arabia in the 2026 FIFA World Cup today? TV travel guide, free streams, VPNs, eSIMs",
+                "url": "https://www.goal.com/en-au/news/watch-live-stream-saudi-arabia-football/bltcee016f2785cea13",
+                "source": "Goal.com"
+              },
+              {
+                "title": "US must not insult IRGC during the World Cup: Iran’s football chief",
+                "url": "https://www.aljazeera.com/sports/2026/5/6/us-must-not-insult-irgc-during-the-world-cup-irans-football-chief",
+                "source": "Al Jazeera"
+              },
+              {
+                "title": "A money machine and Morocco on the rise: what we learned from Fifa congress",
+                "url": "https://www.theguardian.com/football/2026/may/04/a-money-machine-and-morocco-on-the-rise-what-we-learned-from-fifa-congress",
+                "source": "The Guardian"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [],
+  "alreadyCovered": [
+    {
+      "query": "album del mundial",
+      "matchUrl": "/noticias/panini-album-mundial-2026-980-cromos-salida-30-abril"
+    },
+    {
+      "query": "world cup 2026",
+      "matchUrl": "/coleccionismo/panini-mundial-2026"
+    }
+  ]
+}
