@@ -799,6 +799,161 @@
       },
       "articleHeadline": "Favoris pour gagner la Coupe du monde 2026 : classement, cotes et analyse des 12 candidats",
       "articleDescription": "Qui va gagner la Coupe du monde 2026 selon les bookmakers et l'analyse éditoriale : Argentine, France, Brésil, Espagne, Angleterre et outsiders."
+    },
+    "convocatorias2026": {
+      "meta": {
+        "title": "Listes Coupe du monde 2026 : provisoire 11 mai, définitive 1er juin",
+        "description": "Quand les 48 sélections publient leurs listes pour la Coupe du monde 2026. La FIFA fixe la liste préliminaire au 11 mai et la définitive au 1er juin. 26 joueurs par équipe, 3 gardiens obligatoires.",
+        "keywords": [
+          "liste Coupe du monde 2026",
+          "liste France Coupe du monde 2026",
+          "liste provisoire Coupe du monde 2026",
+          "liste définitive Coupe du monde 2026",
+          "quand sont publiées les listes du Mondial",
+          "liste Argentine Coupe du monde 2026",
+          "liste Brésil Coupe du monde 2026",
+          "26 joueurs Coupe du monde 2026",
+          "remplacement par blessure Coupe du monde 2026"
+        ]
+      },
+      "back": "Coupe du monde 2026",
+      "kicker": "Listes · Délais FIFA",
+      "h1Line1": "Listes",
+      "h1Line2": "Coupe du monde 2026",
+      "intro": "Les 48 sélections de la Coupe du monde 2026 remettent à la FIFA la liste provisoire le 11 mai et la définitive le 1er juin. Voici le calendrier officiel, la taille de la liste, les règles de remplacement par blessure et quand chaque fédération devrait annoncer sa liste publiquement.",
+      "timeline": {
+        "items": [
+          {
+            "date": "11 mai 2026",
+            "title": "Liste provisoire (release list)",
+            "detail": "Chaque fédération remet à la FIFA une liste de 35 à 55 joueurs. Elle est interne : la FIFA NE la rend PAS publique. Les sélectionneurs annoncent généralement leur liste préliminaire en conférence de presse les jours précédents."
+          },
+          {
+            "date": "1er juin 2026",
+            "title": "Liste définitive",
+            "detail": "Date limite pour remettre à la FIFA la liste finale : entre 23 et 26 joueurs, avec 3 gardiens obligatoires. La grande majorité des sélections publie cette liste le jour même de la remise."
+          },
+          {
+            "date": "11 juin 2026",
+            "title": "Match d'ouverture · Estadio Azteca",
+            "detail": "Mexique vs Afrique du Sud ouvre le tournoi. À partir de là, les remplacements pour blessure ne sont autorisés que jusqu'à 24 heures avant le PREMIER match de l'équipe concernée, validés par le médecin de la sélection et un médecin de la FIFA."
+          }
+        ]
+      },
+      "squad": {
+        "kicker": "Taille de l'effectif",
+        "h2": "26 joueurs par sélection",
+        "intro": "Entre 23 et 26 joueurs au total par liste, avec un minimum obligatoire de <strong>3 gardiens</strong>. C'est le même plafond appliqué pour la première fois au Qatar 2022. Jusqu'à la Russie 2018 incluse, les sélections pouvaient emmener au maximum 23 joueurs. L'élargissement a été introduit pendant la pandémie pour permettre plus de rotation, et la FIFA le maintient en 2026 avec un tournoi plus long et exigeant (le nouveau tour de seizièmes ajoute un match).",
+        "tableYear": "Coupe du monde",
+        "tableSize": "Plafond joueurs",
+        "tableNote": "Note",
+        "notes": {
+          "2022": "Pandémie : la FIFA a déjà élevé le plafond à 26 au Qatar.",
+          "2026": "Le plafond de 26 est maintenu pour 48 sélections."
+        }
+      },
+      "replacements": {
+        "kicker": "Remplacements",
+        "h2": "Règles de remplacement par blessure",
+        "allowedLabel": "Autorisé",
+        "allowedTitle": "Avant le premier match",
+        "allowedBody": "Jusqu'à 24 heures avant le premier match de l'équipe, la FIFA autorise le remplacement d'un joueur convoqué pour blessure ou maladie. Le médecin de la sélection certifie le cas et un médecin général de la FIFA le valide. Cela arrive régulièrement à chaque Coupe du monde : le dernier prêt du Bayern, du Real Madrid ou de Manchester laisse quelqu'un sur le carreau et le remplaçant qui figurait sur la liste provisoire entre.",
+        "forbiddenLabel": "Interdit",
+        "forbiddenTitle": "Une fois le tournoi commencé",
+        "forbiddenBody": "Une fois le premier match de l'équipe disputé, la FIFA N'admet PAS de remplacements. Même si un joueur tombe blessé en première journée, la sélection termine le tournoi avec les joueurs aptes restants. C'était le cas de l'Italie avec Cabrini en 1990, l'Argentine avec Caniggia et bien d'autres : une fois dedans, dedans jusqu'au bout."
+      },
+      "federations": {
+        "kicker": "Fédérations top",
+        "h2": "Quand chaque sélection annoncera",
+        "intro": "Estimation de la date et du lieu de l'annonce publique de la liste, basée sur le schéma de chaque fédération aux Coupes du monde précédentes. Les chiffres seront confirmés à mesure que chaque sélection les officialisera.",
+        "items": {
+          "ESP": {
+            "name": "Espagne",
+            "expected": "Première semaine de mai (Las Rozas, RFEF)"
+          },
+          "ARG": {
+            "name": "Argentine",
+            "expected": "Mi-mai (Ezeiza, AFA)"
+          },
+          "BRA": {
+            "name": "Brésil",
+            "expected": "Mi-mai (Granja Comary, CBF)"
+          },
+          "FRA": {
+            "name": "France",
+            "expected": "Première quinzaine de mai (Clairefontaine, FFF)"
+          },
+          "GER": {
+            "name": "Allemagne",
+            "expected": "Première quinzaine de mai (Francfort, DFB)"
+          },
+          "POR": {
+            "name": "Portugal",
+            "expected": "Première quinzaine de mai (Cidade do Futebol, FPF)"
+          },
+          "ENG": {
+            "name": "Angleterre",
+            "expected": "Première quinzaine de mai (St. George's Park, FA)"
+          },
+          "NED": {
+            "name": "Pays-Bas",
+            "expected": "Première quinzaine de mai (KNVB Campus, KNVB)"
+          }
+        }
+      },
+      "faq": {
+        "kicker": "Questions fréquentes",
+        "h2": "Ce qu'on demande le plus",
+        "items": [
+          {
+            "q": "Quand les sélections publient-elles la liste de la Coupe du monde 2026 ?",
+            "a": "La FIFA fixe deux délais : le 11 mai 2026 les fédérations remettent une liste provisoire de 35 à 55 joueurs (que la FIFA ne rend pas publique) et le 1er juin 2026 elles remettent la liste définitive de 23 à 26 joueurs. La plupart des sélections annonce les deux en conférence de presse le jour même de la remise à la FIFA ou les jours précédents."
+          },
+          {
+            "q": "Combien de joueurs vont par sélection à la Coupe du monde 2026 ?",
+            "a": "Entre 23 et 26 joueurs, avec 3 gardiens obligatoires. C'est le même format appliqué au Qatar 2022. Aux Coupes du monde précédentes jusqu'en 2018 le plafond était de 23 joueurs."
+          },
+          {
+            "q": "Quand la France donnera-t-elle sa liste pour la Coupe du monde 2026 ?",
+            "a": "La FFF publie traditionnellement sa liste provisoire en conférence de presse à Clairefontaine début mai. La date exacte n'est pas confirmée, mais elle est attendue entre le 5 et le 11 mai 2026, avant le délai FIFA. La liste définitive sera connue entre le 25 mai et le 1er juin."
+          },
+          {
+            "q": "Que se passe-t-il si un joueur se blesse après la publication de la liste ?",
+            "a": "Jusqu'à 24 heures avant le premier match de sa sélection, la FIFA autorise son remplacement si le médecin de l'équipe et un médecin de la FIFA certifient la blessure. Une fois le premier match disputé, aucun remplacement n'est permis : l'équipe termine le tournoi avec les joueurs aptes restants."
+          },
+          {
+            "q": "Pourquoi la liste comporte-t-elle 26 joueurs et non 23 comme avant ?",
+            "a": "La FIFA a élargi le plafond à 26 au Qatar 2022 par exception due à la pandémie et à la proximité avec la saison européenne. Pour 2026 le chiffre est maintenu : avec 48 sélections et un calendrier plus exigeant (seizièmes ajoutés), il est logique de permettre plus de rotation."
+          },
+          {
+            "q": "Peut-on modifier la liste entre le 1er et le 11 juin ?",
+            "a": "Oui, mais uniquement pour blessure ou maladie confirmées. Chaque changement nécessite un certificat du médecin de la sélection et la validation du médecin général de la FIFA. Aucun remplacement libre n'est possible."
+          },
+          {
+            "q": "Combien de gardiens doivent-ils emmener ?",
+            "a": "Trois gardiens obligatoires dans la fourchette 23-26. Si une sélection emmène 26 joueurs, elle aura 3 gardiens et 23 joueurs de champ. Si elle en emmène 23, elle aura 3 gardiens et 20 de champ."
+          },
+          {
+            "q": "Quand les numéros de maillot sont-ils publiés ?",
+            "a": "En même temps que la liste définitive du 1er juin. La FIFA exige que chaque joueur porte un numéro fixe de 1 à 26 pendant tout le tournoi, et la FFF, l'AFA, la RFEF et les autres fédérations les dévoilent généralement le jour même de l'annonce officielle."
+          }
+        ],
+        "sourceNote": "Source : « Regulations, FIFA World Cup 26 » (PDF, 19 mars 2026) · Wikipédia « 2026 FIFA World Cup squads ». Dernière vérification : avril 2026."
+      },
+      "ctaHub": {
+        "kicker": "Plus de la Coupe du monde 2026",
+        "calendario": "Calendrier par phase",
+        "grupos": "12 groupes",
+        "sedes": "16 sites",
+        "espGrupoH": "Espagne · Groupe H"
+      },
+      "breadcrumb": {
+        "inicio": "Accueil",
+        "mundial": "Coupe du monde 2026",
+        "convocatorias": "Listes"
+      },
+      "articleHeadline": "Listes Coupe du monde 2026 : provisoire 11 mai, définitive 1er juin",
+      "articleDescription": "Calendrier officiel FIFA pour que les 48 sélections publient leurs listes de la Coupe du monde 2026 : liste préliminaire le 11 mai, définitive le 1er juin."
     }
   }
 }

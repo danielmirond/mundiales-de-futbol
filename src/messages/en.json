@@ -799,6 +799,161 @@
       },
       "articleHeadline": "World Cup 2026 favorites: ranking, odds and analysis of the 12 contenders",
       "articleDescription": "Who will win the 2026 World Cup according to bookmakers and editorial analysis: Argentina, France, Brazil, Spain, England and outsiders."
+    },
+    "convocatorias2026": {
+      "meta": {
+        "title": "World Cup 2026 squads: provisional list May 11, final June 1",
+        "description": "When the 48 teams publish their World Cup 2026 squads. FIFA sets the preliminary list on May 11 and the final list on June 1. 26 players per team, 3 mandatory goalkeepers.",
+        "keywords": [
+          "world cup 2026 squads",
+          "spain world cup 2026 squad",
+          "world cup 2026 provisional squad",
+          "world cup 2026 final squad",
+          "when are world cup squads announced",
+          "argentina world cup 2026 squad",
+          "brazil world cup 2026 squad",
+          "26 players world cup 2026",
+          "world cup 2026 injury replacement"
+        ]
+      },
+      "back": "World Cup 2026",
+      "kicker": "Squads · FIFA deadlines",
+      "h1Line1": "Squads",
+      "h1Line2": "World Cup 2026",
+      "intro": "The 48 teams of the 2026 World Cup hand FIFA their provisional list on May 11 and the final one on June 1. Here's the official calendar, the squad size, the injury-replacement rules and when each federation is expected to announce its squad publicly.",
+      "timeline": {
+        "items": [
+          {
+            "date": "May 11, 2026",
+            "title": "Provisional list (release list)",
+            "detail": "Every federation submits a list of 35 to 55 players to FIFA. It is internal: FIFA does NOT publish it. National-team coaches usually announce their preliminary list at a press conference in the days leading up."
+          },
+          {
+            "date": "June 1, 2026",
+            "title": "Final list",
+            "detail": "Deadline to submit the final squad to FIFA: between 23 and 26 players, with 3 mandatory goalkeepers. Most federations release this list on the same day they submit it."
+          },
+          {
+            "date": "June 11, 2026",
+            "title": "Opening match · Estadio Azteca",
+            "detail": "Mexico vs South Africa kicks off the tournament. From this point on, injury replacements are only allowed up to 24 hours before each team's FIRST match, certified by the national-team doctor and a FIFA doctor."
+          }
+        ]
+      },
+      "squad": {
+        "kicker": "Squad size",
+        "h2": "26 players per team",
+        "intro": "Between 23 and 26 total players per squad, with a mandatory minimum of <strong>3 goalkeepers</strong>. It's the same cap that was applied for the first time at Qatar 2022. Up through Russia 2018, teams could bring at most 23 players. The expansion was introduced during the pandemic to allow more rotation, and FIFA keeps it for 2026 with a longer, more demanding tournament (the new round of 32 adds an extra match).",
+        "tableYear": "World Cup",
+        "tableSize": "Player cap",
+        "tableNote": "Note",
+        "notes": {
+          "2022": "Pandemic: FIFA raised the cap to 26 already in Qatar.",
+          "2026": "The 26-player cap stays for the 48-team format."
+        }
+      },
+      "replacements": {
+        "kicker": "Replacements",
+        "h2": "Injury replacement rules",
+        "allowedLabel": "Allowed",
+        "allowedTitle": "Before the first match",
+        "allowedBody": "Up to 24 hours before the team's first match, FIFA allows replacing a called-up player due to injury or illness. The team doctor certifies the case and a FIFA medical officer validates it. It happens at every World Cup: the last loan-back from Bayern, Madrid or Manchester leaves someone out and the substitute on the provisional list comes in.",
+        "forbiddenLabel": "Forbidden",
+        "forbiddenTitle": "Once the tournament has started",
+        "forbiddenBody": "Once the team's first match is played, FIFA does NOT allow substitutions. Even if a player gets injured on matchday one, the team finishes the tournament with the remaining fit players. That was Italy with Cabrini in 1990, Argentina with Caniggia and many others: once you're in, you're in until the end."
+      },
+      "federations": {
+        "kicker": "Top federations",
+        "h2": "When each team will announce",
+        "intro": "Estimated date and venue for the public squad announcement, based on each federation's pattern at previous World Cups. Numbers will be confirmed as each team makes them official.",
+        "items": {
+          "ESP": {
+            "name": "Spain",
+            "expected": "First week of May (Las Rozas, RFEF)"
+          },
+          "ARG": {
+            "name": "Argentina",
+            "expected": "Mid-May (Ezeiza, AFA)"
+          },
+          "BRA": {
+            "name": "Brazil",
+            "expected": "Mid-May (Granja Comary, CBF)"
+          },
+          "FRA": {
+            "name": "France",
+            "expected": "First half of May (Clairefontaine, FFF)"
+          },
+          "GER": {
+            "name": "Germany",
+            "expected": "First half of May (Frankfurt, DFB)"
+          },
+          "POR": {
+            "name": "Portugal",
+            "expected": "First half of May (Cidade do Futebol, FPF)"
+          },
+          "ENG": {
+            "name": "England",
+            "expected": "First half of May (St. George's Park, FA)"
+          },
+          "NED": {
+            "name": "Netherlands",
+            "expected": "First half of May (KNVB Campus, KNVB)"
+          }
+        }
+      },
+      "faq": {
+        "kicker": "Frequently asked",
+        "h2": "What everyone is asking",
+        "items": [
+          {
+            "q": "When do teams publish their World Cup 2026 squad?",
+            "a": "FIFA sets two deadlines: on May 11, 2026 federations submit a provisional list of 35 to 55 players (which FIFA does not publish), and on June 1, 2026 they hand in the final 23-to-26-player squad. Most teams announce both at a press conference on the same day they submit it to FIFA or in the days leading up."
+          },
+          {
+            "q": "How many players go per team to the 2026 World Cup?",
+            "a": "Between 23 and 26 players, with 3 mandatory goalkeepers. It's the same format used at Qatar 2022. At previous World Cups through 2018 the cap was 23 players."
+          },
+          {
+            "q": "When will Spain announce the World Cup 2026 squad?",
+            "a": "The RFEF traditionally publishes its provisional list at a press conference in Las Rozas in early May. The exact date is not confirmed, but it's expected between May 5 and 11, 2026, ahead of the FIFA deadline. The final squad will be known between May 25 and June 1."
+          },
+          {
+            "q": "What happens if a player gets injured after the squad is named?",
+            "a": "Up to 24 hours before the team's first match, FIFA allows replacing him if the team doctor and a FIFA doctor certify the injury. Once the first match is played, no substitutions are permitted: the team finishes the tournament with the remaining fit players."
+          },
+          {
+            "q": "Why is the squad 26 players and not 23 like before?",
+            "a": "FIFA expanded the cap to 26 at Qatar 2022 as a pandemic exception and given the closeness to the European season. For 2026 the figure stays: with 48 teams and a more demanding calendar (round of 32 added), it makes sense to allow more rotation."
+          },
+          {
+            "q": "Can the squad change between June 1 and June 11?",
+            "a": "Yes, but only for confirmed injury or illness. Each change requires a certificate from the national-team doctor and validation from the FIFA medical officer. There are no free substitutions."
+          },
+          {
+            "q": "How many goalkeepers must they bring?",
+            "a": "Three mandatory goalkeepers within the 23-26 range. If a team brings 26 players, it'll have 3 goalkeepers and 23 outfield players. If it brings 23, it'll have 3 goalkeepers and 20 outfield."
+          },
+          {
+            "q": "When are the shirt numbers published?",
+            "a": "Together with the final list on June 1. FIFA requires each player to wear a fixed number from 1 to 26 throughout the tournament, and the AFA, the RFEF and other federations usually reveal them on the same day as the official announcement."
+          }
+        ],
+        "sourceNote": "Source: «Regulations, FIFA World Cup 26» (PDF, March 19, 2026) · Wikipedia «2026 FIFA World Cup squads». Last verified: April 2026."
+      },
+      "ctaHub": {
+        "kicker": "More from the 2026 World Cup",
+        "calendario": "Schedule by stage",
+        "grupos": "12 groups",
+        "sedes": "16 venues",
+        "espGrupoH": "Spain · Group H"
+      },
+      "breadcrumb": {
+        "inicio": "Home",
+        "mundial": "World Cup 2026",
+        "convocatorias": "Squads"
+      },
+      "articleHeadline": "World Cup 2026 squads: provisional list May 11, final June 1",
+      "articleDescription": "Official FIFA calendar for the 48 teams to publish their 2026 World Cup squads: preliminary list May 11, final June 1."
     }
   }
 }
