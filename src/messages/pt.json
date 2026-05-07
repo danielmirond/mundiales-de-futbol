@@ -120,7 +120,124 @@
   "pages": {
     "wc2026": {
       "title": "Copa do Mundo 2026 · Calendário completo, sedes, grupos e horários",
-      "description": "Copa do Mundo 2026 (EUA, México, Canadá): calendário completo dos 104 jogos, 16 estádios, 12 grupos. Quando começa e quando é a final."
+      "description": "Copa do Mundo 2026 (EUA, México, Canadá): calendário completo dos 104 jogos, 16 estádios, 12 grupos. Quando começa e quando é a final.",
+      "keywords": [
+        "Copa do Mundo 2026",
+        "Copa do Mundo 2026 calendário",
+        "Copa do Mundo 2026 datas",
+        "Copa do Mundo 2026 horários",
+        "Copa do Mundo 2026 grupos",
+        "Copa do Mundo 2026 sedes",
+        "Copa do Mundo 2026 estádios",
+        "quando começa Copa do Mundo 2026",
+        "quando é a final Copa do Mundo 2026",
+        "Estados Unidos México Canadá"
+      ],
+      "hero": {
+        "kicker": "23ª edição · 11 junho → 19 julho 2026",
+        "h1Country": "América do Norte",
+        "h1Year": "2026",
+        "intro": "48 seleções. 104 jogos. 16 cidades. 3 países. A primeira Copa do Mundo no novo formato."
+      },
+      "hosts": {
+        "kicker": "Três sedes",
+        "h2": "Uma Copa em três países",
+        "citiesLabel": "Cidades",
+        "matchesLabel": "Jogos"
+      },
+      "venues": {
+        "kicker": "16 sedes",
+        "h2": "Os estádios",
+        "ctaGuide": "Guias de viagem por sede",
+        "ctaAll": "Todos os estádios"
+      },
+      "groups": {
+        "kicker": "Os 12 grupos · A, L",
+        "h2": "Cada grupo, 4 seleções",
+        "description": "Classificam-se os 2 primeiros + os 8 melhores terceiros, avançando para uma R32 inédita em Copas. O México abre o torneio no Grupo A, o Canadá joga no B e os Estados Unidos no D.",
+        "ctaAll": "Todos os grupos",
+        "ctaCalendar": "Calendário por fase",
+        "cardLabel": "Grupo",
+        "tbd": "a definir"
+      },
+      "phases": {
+        "kicker": "Calendário · 38 dias",
+        "h2": "Fases do torneio",
+        "items": {
+          "groups": {
+            "label": "Fase de grupos",
+            "dates": "11, 27 jun",
+            "count": "72 jogos"
+          },
+          "r32": {
+            "label": "R32 (nova)",
+            "dates": "28 jun, 3 jul",
+            "count": "16 jogos"
+          },
+          "r16qf": {
+            "label": "Oitavas / Quartas",
+            "dates": "4, 11 jul",
+            "count": "12 jogos"
+          },
+          "sf": {
+            "label": "Semifinais",
+            "dates": "14, 15 jul",
+            "count": "2 jogos"
+          },
+          "final": {
+            "label": "Terceiro / Final",
+            "datesSuffix": "jul",
+            "count": "2 jogos"
+          }
+        },
+        "finalPill": "Final · MetLife Stadium · Nova York"
+      },
+      "faq": {
+        "kicker": "Perguntas frequentes · Copa do Mundo 2026",
+        "h2": "O mais buscado sobre a Copa do Mundo 2026",
+        "items": [
+          {
+            "q": "Quando começa a Copa do Mundo 2026?",
+            "a": "A Copa do Mundo 2026 inaugura na quinta-feira 11 de junho de 2026 com o jogo México-África do Sul no Estádio Azteca da Cidade do México (13:00, hora local)."
+          },
+          {
+            "q": "Quando é a final da Copa do Mundo 2026?",
+            "a": "A final da Copa do Mundo 2026 será disputada no domingo 19 de julho de 2026 no MetLife Stadium de Nova Jersey (15:00 ET)."
+          },
+          {
+            "q": "Onde é disputada a Copa do Mundo 2026?",
+            "a": "A Copa do Mundo 2026 é disputada em 16 estádios em três países: 11 nos Estados Unidos, 3 no México (Azteca, Akron e BBVA) e 2 no Canadá (BMO Field em Toronto e BC Place em Vancouver)."
+          },
+          {
+            "q": "Quantas seleções participam da Copa do Mundo 2026?",
+            "a": "Pela primeira vez na história, 48 seleções disputam a fase final, divididas em 12 grupos de 4 equipes. Antes eram 32."
+          },
+          {
+            "q": "Em qual grupo está o Brasil na Copa do Mundo 2026?",
+            "a": "O Brasil joga no Grupo C junto com Marrocos, Costa Rica e Países Baixos. Estreia em 13 de junho contra Marrocos no MetLife Stadium de Nova York/Nova Jersey."
+          },
+          {
+            "q": "Quantos jogos são disputados na Copa do Mundo 2026?",
+            "a": "São disputados 104 jogos no total: 72 da fase de grupos, 16 das 32 avos, 8 das oitavas, 4 das quartas, 2 semifinais, a disputa pelo terceiro lugar e a final."
+          }
+        ]
+      },
+      "ctaBottom": {
+        "dondeVer": "Onde assistir à Copa do Mundo 2026",
+        "entradas": "Ingressos",
+        "convocatorias": "Convocações",
+        "listas": "Listas das 48 seleções",
+        "mascotas": "Mascotes",
+        "fanZone": "Fan zone",
+        "panini": "Panini 2026",
+        "ficha": "Ficha completa"
+      },
+      "breadcrumb": {
+        "inicio": "Início",
+        "mundial": "Copa do Mundo 2026"
+      },
+      "eventLdName": "Copa do Mundo da FIFA 2026",
+      "eventLdDescription": "Primeira Copa do Mundo com 48 seleções, organizada por Estados Unidos, México e Canadá de 11 de junho a 19 de julho de 2026."
     },
     "dondeVer": {
       "title": "Onde ver a Copa do Mundo 2026 na Espanha · DAZN, Movistar Plus+ e opções grátis",

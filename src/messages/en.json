@@ -120,7 +120,124 @@
   "pages": {
     "wc2026": {
       "title": "FIFA World Cup 2026 · Full schedule, venues, groups and kick-off times",
-      "description": "FIFA World Cup 2026 (USA, Mexico, Canada): complete schedule for all 104 matches, 16 stadiums and 12 groups. When it starts and when the final is played."
+      "description": "FIFA World Cup 2026 (USA, Mexico, Canada): complete schedule for all 104 matches, 16 stadiums and 12 groups. When it starts and when the final is played.",
+      "keywords": [
+        "World Cup 2026",
+        "World Cup 2026 schedule",
+        "World Cup 2026 dates",
+        "World Cup 2026 kickoff times",
+        "World Cup 2026 groups",
+        "World Cup 2026 venues",
+        "World Cup 2026 stadiums",
+        "when does the World Cup 2026 start",
+        "when is the World Cup 2026 final",
+        "United States Mexico Canada"
+      ],
+      "hero": {
+        "kicker": "23rd edition · Jun 11 → Jul 19, 2026",
+        "h1Country": "North America",
+        "h1Year": "2026",
+        "intro": "48 teams. 104 matches. 16 cities. 3 countries. The first World Cup in the new format."
+      },
+      "hosts": {
+        "kicker": "Three hosts",
+        "h2": "A three-country World Cup",
+        "citiesLabel": "Cities",
+        "matchesLabel": "Matches"
+      },
+      "venues": {
+        "kicker": "16 venues",
+        "h2": "The stadiums",
+        "ctaGuide": "Travel guides by venue",
+        "ctaAll": "All stadiums"
+      },
+      "groups": {
+        "kicker": "The 12 groups · A, L",
+        "h2": "Each group, 4 teams",
+        "description": "The top two plus the eight best third-placed teams qualify, advancing to a round of 32 unprecedented in World Cups. Mexico opens the tournament in Group A, Canada plays in B and the United States in D.",
+        "ctaAll": "All groups",
+        "ctaCalendar": "Schedule by stage",
+        "cardLabel": "Group",
+        "tbd": "to be decided"
+      },
+      "phases": {
+        "kicker": "Schedule · 38 days",
+        "h2": "Tournament stages",
+        "items": {
+          "groups": {
+            "label": "Group stage",
+            "dates": "Jun 11, 27",
+            "count": "72 matches"
+          },
+          "r32": {
+            "label": "R32 (new)",
+            "dates": "Jun 28, Jul 3",
+            "count": "16 matches"
+          },
+          "r16qf": {
+            "label": "Round of 16 / Quarter-finals",
+            "dates": "Jul 4, 11",
+            "count": "12 matches"
+          },
+          "sf": {
+            "label": "Semi-finals",
+            "dates": "Jul 14, 15",
+            "count": "2 matches"
+          },
+          "final": {
+            "label": "Third place / Final",
+            "datesSuffix": "Jul",
+            "count": "2 matches"
+          }
+        },
+        "finalPill": "Final · MetLife Stadium · New York"
+      },
+      "faq": {
+        "kicker": "Frequently asked · World Cup 2026",
+        "h2": "What people search most about the World Cup 2026",
+        "items": [
+          {
+            "q": "When does the World Cup 2026 start?",
+            "a": "The World Cup 2026 kicks off on Thursday, June 11, 2026 with Mexico vs South Africa at Estadio Azteca in Mexico City (1:00 PM local time)."
+          },
+          {
+            "q": "When is the World Cup 2026 final?",
+            "a": "The World Cup 2026 final will be played on Sunday, July 19, 2026 at MetLife Stadium in New Jersey (3:00 PM ET)."
+          },
+          {
+            "q": "Where is the World Cup 2026 played?",
+            "a": "The World Cup 2026 is held at 16 stadiums across three countries: 11 in the United States, 3 in Mexico (Azteca, Akron and BBVA) and 2 in Canada (BMO Field in Toronto and BC Place in Vancouver)."
+          },
+          {
+            "q": "How many teams are in the World Cup 2026?",
+            "a": "For the first time in history, 48 teams play the final tournament, split into 12 groups of 4. Previously there were 32."
+          },
+          {
+            "q": "What group is Spain in at the World Cup 2026?",
+            "a": "Spain plays in Group H along with Uruguay, Saudi Arabia and Cape Verde. Spain debuts on June 15 against Cape Verde at Mercedes-Benz Stadium in Atlanta."
+          },
+          {
+            "q": "How many matches are played at the World Cup 2026?",
+            "a": "104 matches in total: 72 group-stage, 16 round of 32, 8 round of 16, 4 quarter-finals, 2 semi-finals, the third-place match and the final."
+          }
+        ]
+      },
+      "ctaBottom": {
+        "dondeVer": "Where to watch the World Cup 2026",
+        "entradas": "Tickets",
+        "convocatorias": "Squads",
+        "listas": "All 48 squad lists",
+        "mascotas": "Mascots",
+        "fanZone": "Fan zone",
+        "panini": "Panini 2026",
+        "ficha": "Full edition file"
+      },
+      "breadcrumb": {
+        "inicio": "Home",
+        "mundial": "World Cup 2026"
+      },
+      "eventLdName": "FIFA World Cup 2026",
+      "eventLdDescription": "First World Cup with 48 teams, hosted by the United States, Mexico and Canada from June 11 to July 19, 2026."
     },
     "dondeVer": {
       "title": "Where to watch the 2026 World Cup in Spain · DAZN, Movistar Plus+ and free options",

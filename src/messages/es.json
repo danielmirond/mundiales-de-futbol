@@ -120,7 +120,124 @@
   "pages": {
     "wc2026": {
       "title": "Mundial 2026 calendario completo · Sedes, grupos y horarios",
-      "description": "Mundial 2026 (USA, México, Canadá): calendario completo de los 104 partidos, 16 estadios, 12 grupos. Cuándo empieza y cuándo es la final."
+      "description": "Mundial 2026 (USA, México, Canadá): calendario completo de los 104 partidos, 16 estadios, 12 grupos. Cuándo empieza y cuándo es la final.",
+      "keywords": [
+        "Mundial 2026",
+        "Mundial 2026 calendario",
+        "Mundial 2026 fechas",
+        "Mundial 2026 horarios",
+        "Mundial 2026 grupos",
+        "Mundial 2026 sedes",
+        "Mundial 2026 estadios",
+        "cuándo empieza Mundial 2026",
+        "cuándo es la final Mundial 2026",
+        "Estados Unidos México Canadá"
+      ],
+      "hero": {
+        "kicker": "23ᵃ edición · 11 junio → 19 julio 2026",
+        "h1Country": "Norteamérica",
+        "h1Year": "2026",
+        "intro": "48 selecciones. 104 partidos. 16 ciudades. 3 países. El primer Mundial del nuevo formato."
+      },
+      "hosts": {
+        "kicker": "Tres sedes",
+        "h2": "Un Mundial a tres bandas",
+        "citiesLabel": "Ciudades",
+        "matchesLabel": "Partidos"
+      },
+      "venues": {
+        "kicker": "16 sedes",
+        "h2": "Los estadios",
+        "ctaGuide": "Guías de viaje por sede",
+        "ctaAll": "Todos los estadios"
+      },
+      "groups": {
+        "kicker": "Los 12 grupos · A, L",
+        "h2": "Cada grupo, 4 selecciones",
+        "description": "Los clasifican los 2 primeros + los 8 mejores terceros, avanzando a una R32 inédita en Mundiales. México abre el torneo en el Grupo A, Canadá juega en B y Estados Unidos en D.",
+        "ctaAll": "Todos los grupos",
+        "ctaCalendar": "Calendario por fase",
+        "cardLabel": "Grupo",
+        "tbd": "por decidir"
+      },
+      "phases": {
+        "kicker": "Calendario · 38 días",
+        "h2": "Fases del torneo",
+        "items": {
+          "groups": {
+            "label": "Fase de grupos",
+            "dates": "11, 27 jun",
+            "count": "72 partidos"
+          },
+          "r32": {
+            "label": "R32 (nueva)",
+            "dates": "28 jun, 3 jul",
+            "count": "16 partidos"
+          },
+          "r16qf": {
+            "label": "Octavos / Cuartos",
+            "dates": "4, 11 jul",
+            "count": "12 partidos"
+          },
+          "sf": {
+            "label": "Semifinales",
+            "dates": "14, 15 jul",
+            "count": "2 partidos"
+          },
+          "final": {
+            "label": "Tercero / Final",
+            "datesSuffix": "jul",
+            "count": "2 partidos"
+          }
+        },
+        "finalPill": "Final · MetLife Stadium · Nueva York"
+      },
+      "faq": {
+        "kicker": "Preguntas frecuentes · Mundial 2026",
+        "h2": "Lo que más se busca sobre el Mundial 2026",
+        "items": [
+          {
+            "q": "¿Cuándo empieza el Mundial 2026?",
+            "a": "El Mundial 2026 se inaugura el jueves 11 de junio de 2026 con el partido México-Sudáfrica en el Estadio Azteca de Ciudad de México (13:00 hora local)."
+          },
+          {
+            "q": "¿Cuándo es la final del Mundial 2026?",
+            "a": "La final del Mundial 2026 se jugará el domingo 19 de julio de 2026 en el MetLife Stadium de Nueva Jersey (15:00 ET)."
+          },
+          {
+            "q": "¿Dónde se juega el Mundial 2026?",
+            "a": "El Mundial 2026 se disputa en 16 estadios repartidos por tres países: 11 en Estados Unidos, 3 en México (Azteca, Akron y BBVA) y 2 en Canadá (BMO Field de Toronto y BC Place de Vancouver)."
+          },
+          {
+            "q": "¿Cuántas selecciones participan en el Mundial 2026?",
+            "a": "Por primera vez en la historia, 48 selecciones disputan la fase final, repartidas en 12 grupos de 4 equipos. Antes eran 32."
+          },
+          {
+            "q": "¿En qué grupo está España en el Mundial 2026?",
+            "a": "España juega en el Grupo H junto a Uruguay, Arabia Saudí y Cabo Verde. Debuta el 15 de junio contra Cabo Verde en el Mercedes-Benz Stadium de Atlanta."
+          },
+          {
+            "q": "¿Cuántos partidos se juegan en el Mundial 2026?",
+            "a": "Se disputan 104 partidos en total: 72 de fase de grupos, 16 de dieciseisavos, 8 de octavos, 4 de cuartos, 2 semifinales, el partido por el tercer puesto y la final."
+          }
+        ]
+      },
+      "ctaBottom": {
+        "dondeVer": "Dónde ver el Mundial 2026",
+        "entradas": "Entradas",
+        "convocatorias": "Convocatorias",
+        "listas": "Listas 48 selecciones",
+        "mascotas": "Mascotas",
+        "fanZone": "Fan zone",
+        "panini": "Panini 2026",
+        "ficha": "Ficha completa"
+      },
+      "breadcrumb": {
+        "inicio": "Inicio",
+        "mundial": "Mundial 2026"
+      },
+      "eventLdName": "Copa Mundial de la FIFA 2026",
+      "eventLdDescription": "Primer Mundial con 48 selecciones, organizado por Estados Unidos, México y Canadá del 11 de junio al 19 de julio de 2026."
     },
     "dondeVer": {
       "title": "Dónde ver el Mundial 2026 en España · DAZN, Movistar Plus+ y opciones gratis",

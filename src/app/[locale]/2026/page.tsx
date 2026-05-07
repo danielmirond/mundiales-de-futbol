@@ -28,20 +28,11 @@ export async function generateMetadata({
     path: '/2026',
     title: t('title'),
     description: t('description'),
-    keywords: [
-      'Mundial 2026',
-      'Mundial 2026 calendario',
-      'Mundial 2026 fechas',
-      'Mundial 2026 horarios',
-      'Mundial 2026 grupos',
-      'Mundial 2026 sedes',
-      'Mundial 2026 estadios',
-      'cuándo empieza Mundial 2026',
-      'cuándo es la final Mundial 2026',
-      'Estados Unidos México Canadá',
-    ],
+    keywords: t.raw('keywords') as string[],
   });
 }
+
+type FaqItem = { q: string; a: string };
 
 export default async function NorthAmerica2026Page({
   params,
@@ -50,7 +41,8 @@ export default async function NorthAmerica2026Page({
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
-  const t = getTournament(2026)!;
+  const t = await getTranslations({ locale, namespace: 'pages.wc2026' });
+  const tournament = getTournament(2026)!;
 
   // Pull venue hero images from DB
   const allVenues = await getAllVenues();
@@ -58,10 +50,12 @@ export default async function NorthAmerica2026Page({
     allVenues.map((v) => [v.slug, v.hero_image_url]),
   );
 
+  const faqItems = (t.raw('faq.items') as FaqItem[]) ?? [];
+
   const eventLd = {
     '@context': 'https://schema.org',
     '@type': 'SportsEvent',
-    name: 'Copa Mundial de la FIFA 2026',
+    name: t('eventLdName'),
     alternateName: ['FIFA World Cup 2026', 'Mundial 2026'],
     sport: 'Football (Association)',
     startDate: WC_2026.kickoff,
@@ -78,42 +72,13 @@ export default async function NorthAmerica2026Page({
       url: 'https://www.fifa.com',
     },
     url: localeUrl(locale, '/2026'),
-    description:
-      'Primer Mundial con 48 selecciones, organizado por Estados Unidos, México y Canadá del 11 de junio al 19 de julio de 2026.',
+    description: t('eventLdDescription'),
   };
 
-  // FAQPage schema, preguntas de alto volumen relacionadas con el Mundial 2026.
-  // Las respuestas también se renderizan visualmente abajo (FAQ visible).
-  const faq = [
-    {
-      q: '¿Cuándo empieza el Mundial 2026?',
-      a: 'El Mundial 2026 se inaugura el jueves 11 de junio de 2026 con el partido México-Sudáfrica en el Estadio Azteca de Ciudad de México (13:00 hora local).',
-    },
-    {
-      q: '¿Cuándo es la final del Mundial 2026?',
-      a: 'La final del Mundial 2026 se jugará el domingo 19 de julio de 2026 en el MetLife Stadium de Nueva Jersey (15:00 ET).',
-    },
-    {
-      q: '¿Dónde se juega el Mundial 2026?',
-      a: 'El Mundial 2026 se disputa en 16 estadios repartidos por tres países: 11 en Estados Unidos, 3 en México (Azteca, Akron y BBVA) y 2 en Canadá (BMO Field de Toronto y BC Place de Vancouver).',
-    },
-    {
-      q: '¿Cuántas selecciones participan en el Mundial 2026?',
-      a: 'Por primera vez en la historia, 48 selecciones disputan la fase final, repartidas en 12 grupos de 4 equipos. Antes eran 32.',
-    },
-    {
-      q: '¿En qué grupo está España en el Mundial 2026?',
-      a: 'España juega en el Grupo H junto a Uruguay, Arabia Saudí y Cabo Verde. Debuta el 15 de junio contra Cabo Verde en el Mercedes-Benz Stadium de Atlanta.',
-    },
-    {
-      q: '¿Cuántos partidos se juegan en el Mundial 2026?',
-      a: 'Se disputan 104 partidos en total: 72 de fase de grupos, 16 de dieciseisavos, 8 de octavos, 4 de cuartos, 2 semifinales, el partido por el tercer puesto y la final.',
-    },
-  ];
   const faqLd = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
-    mainEntity: faq.map(({ q, a }) => ({
+    mainEntity: faqItems.map(({ q, a }) => ({
       '@type': 'Question',
       name: q,
       acceptedAnswer: { '@type': 'Answer', text: a },
@@ -127,8 +92,8 @@ export default async function NorthAmerica2026Page({
           eventLd,
           faqLd,
           breadcrumbLd(locale, [
-            { name: 'Inicio', path: '/' },
-            { name: 'Mundial 2026', path: '/2026' },
+            { name: t('breadcrumb.inicio'), path: '/' },
+            { name: t('breadcrumb.mundial'), path: '/2026' },
           ]),
         ]}
       />
@@ -138,7 +103,7 @@ export default async function NorthAmerica2026Page({
           <div
             className="absolute inset-0 opacity-50"
             style={{
-              background: `radial-gradient(60% 50% at 50% 0%, ${t.palette.from}55 0%, transparent 60%), radial-gradient(40% 60% at 90% 10%, ${t.palette.to}55 0%, transparent 60%)`,
+              background: `radial-gradient(60% 50% at 50% 0%, ${tournament.palette.from}55 0%, transparent 60%), radial-gradient(40% 60% at 90% 10%, ${tournament.palette.to}55 0%, transparent 60%)`,
             }}
           />
           <div className="absolute inset-0 grid-overlay opacity-40" />
@@ -147,19 +112,19 @@ export default async function NorthAmerica2026Page({
 
         <div className="relative z-10 mx-auto w-full max-w-[1400px] px-6 md:px-10">
           <div className="font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-pitch)]">
-            23ᵃ edición · 11 junio → 19 julio 2026
+            {t('hero.kicker')}
           </div>
           <h1 className="mt-4 font-display text-fluid-display uppercase leading-[0.88]">
-            <span className="block text-[var(--color-fg)]">Norteamérica</span>
+            <span className="block text-[var(--color-fg)]">{t('hero.h1Country')}</span>
             <span
               className="block bg-clip-text text-transparent"
-              style={{ backgroundImage: `linear-gradient(90deg, ${t.palette.from}, ${t.palette.to})` }}
+              style={{ backgroundImage: `linear-gradient(90deg, ${tournament.palette.from}, ${tournament.palette.to})` }}
             >
-              2026
+              {t('hero.h1Year')}
             </span>
           </h1>
           <p className="mt-6 max-w-2xl text-xl leading-relaxed text-[var(--color-fg-muted)] md:text-2xl">
-            48 selecciones. 104 partidos. 16 ciudades. 3 países. El primer Mundial del nuevo formato.
+            {t('hero.intro')}
           </p>
         </div>
       </section>
@@ -169,10 +134,10 @@ export default async function NorthAmerica2026Page({
       {/* Host countries */}
       <section className="mx-auto w-full max-w-[1400px] px-6 py-16 md:px-10 md:py-24">
         <div className="font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-pitch)]">
-          Tres sedes
+          {t('hosts.kicker')}
         </div>
         <h2 className="mt-3 font-display text-fluid-h2 uppercase leading-none">
-          Un Mundial a tres bandas
+          {t('hosts.h2')}
         </h2>
 
         <div className="mt-10 grid gap-px bg-[var(--color-border)] md:grid-cols-3">
@@ -191,13 +156,13 @@ export default async function NorthAmerica2026Page({
                 <div className="mt-10 grid grid-cols-2 gap-6">
                   <div>
                     <div className="font-mono text-[10px] uppercase tracking-widest text-[var(--color-fg-subtle)]">
-                      Ciudades
+                      {t('hosts.citiesLabel')}
                     </div>
                     <div className="mt-1 font-display text-5xl tab-num">{h.cityCount}</div>
                   </div>
                   <div>
                     <div className="font-mono text-[10px] uppercase tracking-widest text-[var(--color-fg-subtle)]">
-                      Partidos
+                      {t('hosts.matchesLabel')}
                     </div>
                     <div className="mt-1 font-display text-5xl tab-num">{h.matchCount}</div>
                   </div>
@@ -213,10 +178,10 @@ export default async function NorthAmerica2026Page({
         <div className="flex flex-wrap items-end justify-between gap-4">
           <div>
             <div className="font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-pitch)]">
-              16 sedes
+              {t('venues.kicker')}
             </div>
             <h2 className="mt-3 font-display text-fluid-h2 uppercase leading-none">
-              Los estadios
+              {t('venues.h2')}
             </h2>
           </div>
           <div className="flex flex-wrap gap-2">
@@ -224,14 +189,14 @@ export default async function NorthAmerica2026Page({
               href={withLocale(locale as Locale, '/2026/sedes')}
               className="group inline-flex items-center gap-2 rounded-full bg-[var(--color-pitch)] px-5 py-3 text-sm font-semibold text-black transition-opacity hover:opacity-90"
             >
-              Guías de viaje por sede
+              {t('venues.ctaGuide')}
               <ArrowRight className="h-4 w-4 rtl:rotate-180 transition-transform group-hover:translate-x-1" />
             </Link>
             <Link
               href={withLocale(locale as Locale, '/estadios')}
               className="group inline-flex items-center gap-2 rounded-full border border-[var(--color-border-strong)] px-5 py-3 text-sm text-[var(--color-fg)] transition-colors hover:border-[var(--color-pitch)] hover:text-[var(--color-pitch)]"
             >
-              Todos los estadios
+              {t('venues.ctaAll')}
               <ArrowRight className="h-4 w-4 rtl:rotate-180 transition-transform group-hover:translate-x-1" />
             </Link>
           </div>
@@ -279,14 +244,13 @@ export default async function NorthAmerica2026Page({
         <div className="flex flex-wrap items-end justify-between gap-4">
           <div>
             <div className="font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-pitch)]">
-              Los 12 grupos · A, L
+              {t('groups.kicker')}
             </div>
             <h2 className="mt-3 font-display text-fluid-h2 uppercase leading-none">
-              Cada grupo, 4 selecciones
+              {t('groups.h2')}
             </h2>
             <p className="mt-4 max-w-2xl text-sm text-[var(--color-fg-muted)]">
-              Los clasifican los 2 primeros + los 8 mejores terceros, avanzando a una R32 inédita en
-              Mundiales. México abre el torneo en el Grupo A, Canadá juega en B y Estados Unidos en D.
+              {t('groups.description')}
             </p>
           </div>
           <div className="flex flex-wrap gap-2">
@@ -294,14 +258,14 @@ export default async function NorthAmerica2026Page({
               href={withLocale(locale as Locale, '/2026/grupos')}
               className="group inline-flex items-center gap-2 rounded-full bg-[var(--color-pitch)] px-5 py-3 text-sm font-semibold text-black transition-opacity hover:opacity-90"
             >
-              Todos los grupos
+              {t('groups.ctaAll')}
               <ArrowRight className="h-4 w-4 rtl:rotate-180 transition-transform group-hover:translate-x-1" />
             </Link>
             <Link
               href={withLocale(locale as Locale, '/2026/calendario')}
               className="group inline-flex items-center gap-2 rounded-full border border-[var(--color-border-strong)] px-5 py-3 text-sm text-[var(--color-fg)] transition-colors hover:border-[var(--color-pitch)] hover:text-[var(--color-pitch)]"
             >
-              Calendario por fase
+              {t('groups.ctaCalendar')}
               <ArrowRight className="h-4 w-4 rtl:rotate-180 transition-transform group-hover:translate-x-1" />
             </Link>
           </div>
@@ -319,7 +283,7 @@ export default async function NorthAmerica2026Page({
                   {g.letter}
                 </span>
                 <span className="font-mono text-[10px] uppercase tracking-widest text-[var(--color-fg-subtle)]">
-                  Grupo
+                  {t('groups.cardLabel')}
                 </span>
               </div>
               <ul className="mt-2 space-y-1.5 text-sm">
@@ -331,7 +295,7 @@ export default async function NorthAmerica2026Page({
                     {code ? (
                       <span className="text-[var(--color-fg)]">{code}</span>
                     ) : (
-                      <span className="text-[var(--color-fg-subtle)] italic">por decidir</span>
+                      <span className="text-[var(--color-fg-subtle)] italic">{t('groups.tbd')}</span>
                     )}
                   </li>
                 ))}
@@ -344,25 +308,46 @@ export default async function NorthAmerica2026Page({
       {/* Phase timeline */}
       <section className="mx-auto w-full max-w-[1400px] px-6 py-16 md:px-10 md:py-24">
         <div className="font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-pitch)]">
-          Calendario · 38 días
+          {t('phases.kicker')}
         </div>
         <h2 className="mt-3 font-display text-fluid-h2 uppercase leading-none">
-          Fases del torneo
+          {t('phases.h2')}
         </h2>
 
         <div className="mt-10 grid gap-px bg-[var(--color-border)] overflow-hidden rounded-3xl border border-[var(--color-border)] md:grid-cols-5">
-          <Phase label="Fase de grupos"    dates="11, 27 jun" count="72 partidos" />
-          <Phase label="R32 (nueva)"       dates="28 jun, 3 jul" count="16 partidos" />
-          <Phase label="Octavos / Cuartos" dates="4, 11 jul" count="12 partidos" />
-          <Phase label="Semifinales"       dates="14, 15 jul" count="2 partidos" />
-          <Phase label="Tercero / Final"   dates={`${PHASE_DATES.thirdPlace.slice(8)} y ${PHASE_DATES.final.slice(8)} jul`} count="2 partidos" highlight />
+          <Phase
+            label={t('phases.items.groups.label')}
+            dates={t('phases.items.groups.dates')}
+            count={t('phases.items.groups.count')}
+          />
+          <Phase
+            label={t('phases.items.r32.label')}
+            dates={t('phases.items.r32.dates')}
+            count={t('phases.items.r32.count')}
+          />
+          <Phase
+            label={t('phases.items.r16qf.label')}
+            dates={t('phases.items.r16qf.dates')}
+            count={t('phases.items.r16qf.count')}
+          />
+          <Phase
+            label={t('phases.items.sf.label')}
+            dates={t('phases.items.sf.dates')}
+            count={t('phases.items.sf.count')}
+          />
+          <Phase
+            label={t('phases.items.final.label')}
+            dates={`${PHASE_DATES.thirdPlace.slice(8)} y ${PHASE_DATES.final.slice(8)} ${t('phases.items.final.datesSuffix')}`}
+            count={t('phases.items.final.count')}
+            highlight
+          />
         </div>
 
         <div className="mt-16 flex justify-center">
           <div className="inline-flex items-center gap-3 rounded-full border border-[var(--color-pitch)]/40 bg-[var(--color-pitch)]/10 px-6 py-4">
             <Trophy className="h-5 w-5 text-[var(--color-pitch)]" />
             <span className="font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-fg)]">
-              Final · MetLife Stadium · Nueva York
+              {t('phases.finalPill')}
             </span>
           </div>
         </div>
@@ -375,13 +360,13 @@ export default async function NorthAmerica2026Page({
           Empareja con FAQPage JSON-LD para captar Rich Snippets. */}
       <section className="mx-auto w-full max-w-[1100px] px-6 py-20 md:px-10 md:py-28">
         <div className="font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-pitch)]">
-          Preguntas frecuentes · Mundial 2026
+          {t('faq.kicker')}
         </div>
         <h2 className="mt-4 font-display text-fluid-h2 uppercase leading-[0.95]">
-          Lo que más se busca sobre el Mundial 2026
+          {t('faq.h2')}
         </h2>
         <div className="mt-10 divide-y divide-[var(--color-border)] border-t border-b border-[var(--color-border)]">
-          {faq.map(({ q, a }) => (
+          {faqItems.map(({ q, a }) => (
             <details key={q} className="group py-5">
               <summary className="flex cursor-pointer items-start justify-between gap-6 text-base md:text-lg">
                 <span className="font-medium text-[var(--color-fg)]">{q}</span>
@@ -402,56 +387,56 @@ export default async function NorthAmerica2026Page({
           href={withLocale(locale as Locale, '/2026/donde-ver')}
           className="group inline-flex items-center gap-2 rounded-full bg-[var(--color-pitch)] px-6 py-3 text-sm font-semibold text-black transition-opacity hover:opacity-90"
         >
-          Dónde ver el Mundial 2026
+          {t('ctaBottom.dondeVer')}
           <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1 rtl:rotate-180" />
         </Link>
         <Link
           href={withLocale(locale as Locale, '/2026/entradas')}
           className="group inline-flex items-center gap-2 rounded-full border border-[var(--color-border-strong)] px-6 py-3 text-sm font-medium text-[var(--color-fg)] transition-colors hover:border-[var(--color-pitch)] hover:text-[var(--color-pitch)]"
         >
-          Entradas
+          {t('ctaBottom.entradas')}
           <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1 rtl:rotate-180" />
         </Link>
         <Link
           href={withLocale(locale as Locale, '/2026/convocatorias')}
           className="group inline-flex items-center gap-2 rounded-full border border-[var(--color-border-strong)] px-6 py-3 text-sm font-medium text-[var(--color-fg)] transition-colors hover:border-[var(--color-pitch)] hover:text-[var(--color-pitch)]"
         >
-          Convocatorias
+          {t('ctaBottom.convocatorias')}
           <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1 rtl:rotate-180" />
         </Link>
         <Link
           href={withLocale(locale as Locale, '/2026/listas')}
           className="group inline-flex items-center gap-2 rounded-full border border-[var(--color-border-strong)] px-6 py-3 text-sm font-medium text-[var(--color-fg)] transition-colors hover:border-[var(--color-pitch)] hover:text-[var(--color-pitch)]"
         >
-          Listas 48 selecciones
+          {t('ctaBottom.listas')}
           <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1 rtl:rotate-180" />
         </Link>
         <Link
           href={withLocale(locale as Locale, '/2026/mascotas')}
           className="group inline-flex items-center gap-2 rounded-full border border-[var(--color-border-strong)] px-6 py-3 text-sm font-medium text-[var(--color-fg)] transition-colors hover:border-[var(--color-pitch)] hover:text-[var(--color-pitch)]"
         >
-          Mascotas
+          {t('ctaBottom.mascotas')}
           <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1 rtl:rotate-180" />
         </Link>
         <Link
           href={withLocale(locale as Locale, '/2026/fan-zone')}
           className="group inline-flex items-center gap-2 rounded-full border border-[var(--color-border-strong)] px-6 py-3 text-sm font-medium text-[var(--color-fg)] transition-colors hover:border-[var(--color-pitch)] hover:text-[var(--color-pitch)]"
         >
-          Fan zone
+          {t('ctaBottom.fanZone')}
           <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1 rtl:rotate-180" />
         </Link>
         <Link
           href={withLocale(locale as Locale, '/coleccionismo/panini-mundial-2026')}
           className="group inline-flex items-center gap-2 rounded-full border border-[var(--color-border-strong)] px-6 py-3 text-sm font-medium text-[var(--color-fg)] transition-colors hover:border-[var(--color-pitch)] hover:text-[var(--color-pitch)]"
         >
-          Panini 2026
+          {t('ctaBottom.panini')}
           <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1 rtl:rotate-180" />
         </Link>
         <Link
           href={withLocale(locale as Locale, '/ediciones/2026-norteamerica')}
           className="group inline-flex items-center gap-2 rounded-full border border-[var(--color-border-strong)] px-6 py-3 text-sm font-medium text-[var(--color-fg)] transition-colors hover:border-[var(--color-pitch)] hover:text-[var(--color-pitch)]"
         >
-          Ficha completa
+          {t('ctaBottom.ficha')}
           <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1 rtl:rotate-180" />
         </Link>
       </div>

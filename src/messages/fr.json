@@ -120,7 +120,124 @@
   "pages": {
     "wc2026": {
       "title": "Coupe du Monde 2026 · Calendrier complet, stades, groupes et horaires",
-      "description": "Coupe du Monde 2026 (USA, Mexique, Canada) : calendrier complet des 104 matchs, 16 stades et 12 groupes. Date de début et date de la finale."
+      "description": "Coupe du Monde 2026 (USA, Mexique, Canada) : calendrier complet des 104 matchs, 16 stades et 12 groupes. Date de début et date de la finale.",
+      "keywords": [
+        "Coupe du monde 2026",
+        "Coupe du monde 2026 calendrier",
+        "Coupe du monde 2026 dates",
+        "Coupe du monde 2026 horaires",
+        "Coupe du monde 2026 groupes",
+        "Coupe du monde 2026 sites",
+        "Coupe du monde 2026 stades",
+        "quand commence Coupe du monde 2026",
+        "quand est la finale Coupe du monde 2026",
+        "États-Unis Mexique Canada"
+      ],
+      "hero": {
+        "kicker": "23e édition · 11 juin → 19 juillet 2026",
+        "h1Country": "Amérique du Nord",
+        "h1Year": "2026",
+        "intro": "48 sélections. 104 matchs. 16 villes. 3 pays. La première Coupe du monde du nouveau format."
+      },
+      "hosts": {
+        "kicker": "Trois pays hôtes",
+        "h2": "Une Coupe du monde à trois bandes",
+        "citiesLabel": "Villes",
+        "matchesLabel": "Matchs"
+      },
+      "venues": {
+        "kicker": "16 sites",
+        "h2": "Les stades",
+        "ctaGuide": "Guides de voyage par site",
+        "ctaAll": "Tous les stades"
+      },
+      "groups": {
+        "kicker": "Les 12 groupes · A, L",
+        "h2": "Chaque groupe, 4 sélections",
+        "description": "Les 2 premiers + les 8 meilleurs troisièmes se qualifient, accédant à un tour de 32 inédit en Coupe du monde. Le Mexique ouvre le tournoi dans le groupe A, le Canada joue dans le B et les États-Unis dans le D.",
+        "ctaAll": "Tous les groupes",
+        "ctaCalendar": "Calendrier par phase",
+        "cardLabel": "Groupe",
+        "tbd": "à déterminer"
+      },
+      "phases": {
+        "kicker": "Calendrier · 38 jours",
+        "h2": "Phases du tournoi",
+        "items": {
+          "groups": {
+            "label": "Phase de groupes",
+            "dates": "11, 27 juin",
+            "count": "72 matchs"
+          },
+          "r32": {
+            "label": "Seizièmes (nouveau)",
+            "dates": "28 juin, 3 juil.",
+            "count": "16 matchs"
+          },
+          "r16qf": {
+            "label": "Huitièmes / Quarts",
+            "dates": "4, 11 juil.",
+            "count": "12 matchs"
+          },
+          "sf": {
+            "label": "Demi-finales",
+            "dates": "14, 15 juil.",
+            "count": "2 matchs"
+          },
+          "final": {
+            "label": "Petite finale / Finale",
+            "datesSuffix": "juil.",
+            "count": "2 matchs"
+          }
+        },
+        "finalPill": "Finale · MetLife Stadium · New York"
+      },
+      "faq": {
+        "kicker": "Questions fréquentes · Coupe du monde 2026",
+        "h2": "Ce qu'on cherche le plus sur la Coupe du monde 2026",
+        "items": [
+          {
+            "q": "Quand commence la Coupe du monde 2026 ?",
+            "a": "La Coupe du monde 2026 démarre le jeudi 11 juin 2026 avec le match Mexique-Afrique du Sud à l'Estadio Azteca de Mexico (13h00 heure locale)."
+          },
+          {
+            "q": "Quand a lieu la finale de la Coupe du monde 2026 ?",
+            "a": "La finale de la Coupe du monde 2026 se jouera le dimanche 19 juillet 2026 au MetLife Stadium du New Jersey (15h00 ET)."
+          },
+          {
+            "q": "Où se joue la Coupe du monde 2026 ?",
+            "a": "La Coupe du monde 2026 se dispute dans 16 stades répartis sur trois pays : 11 aux États-Unis, 3 au Mexique (Azteca, Akron et BBVA) et 2 au Canada (BMO Field de Toronto et BC Place de Vancouver)."
+          },
+          {
+            "q": "Combien de sélections participent à la Coupe du monde 2026 ?",
+            "a": "Pour la première fois de l'histoire, 48 sélections disputent la phase finale, réparties en 12 groupes de 4 équipes. Avant elles étaient 32."
+          },
+          {
+            "q": "Dans quel groupe est la France à la Coupe du monde 2026 ?",
+            "a": "La France joue dans le groupe I avec la Norvège, l'Iran et le Sénégal. Elle débute le 16 juin contre la Norvège au Gillette Stadium de Boston."
+          },
+          {
+            "q": "Combien de matchs sont disputés à la Coupe du monde 2026 ?",
+            "a": "104 matchs au total : 72 de phase de groupes, 16 de seizièmes de finale, 8 de huitièmes, 4 de quarts, 2 demi-finales, le match pour la troisième place et la finale."
+          }
+        ]
+      },
+      "ctaBottom": {
+        "dondeVer": "Où regarder la Coupe du monde 2026",
+        "entradas": "Billets",
+        "convocatorias": "Listes",
+        "listas": "Listes des 48 sélections",
+        "mascotas": "Mascottes",
+        "fanZone": "Fan zone",
+        "panini": "Panini 2026",
+        "ficha": "Fiche complète"
+      },
+      "breadcrumb": {
+        "inicio": "Accueil",
+        "mundial": "Coupe du monde 2026"
+      },
+      "eventLdName": "Coupe du monde de la FIFA 2026",
+      "eventLdDescription": "Première Coupe du monde à 48 sélections, organisée par les États-Unis, le Mexique et le Canada du 11 juin au 19 juillet 2026."
     },
     "dondeVer": {
       "title": "Où voir la Coupe du Monde 2026 en Espagne · DAZN, Movistar Plus+ et options gratuites",
