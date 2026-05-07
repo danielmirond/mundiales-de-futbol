@@ -242,10 +242,10 @@
     "dondeVer": {
       "title": "Onde ver a Copa do Mundo 2026 na Espanha · DAZN, Movistar Plus+ e opções grátis",
       "description": "Como assistir todos os jogos da Copa do Mundo 2026 na Espanha: Movistar Plus+ via DAZN, opções grátis, partidas da seleção, calendário e preços atualizados em abril de 2026.",
-      "h1Line1": "Onde ver",
-      "h1Line2": "a Copa 2026",
-      "intro": "Como ver os 104 jogos da Copa do Mundo 2026 na Espanha: Movistar Plus+, DAZN, opções grátis e dicas para acompanhar Espanha vs Cabo Verde e Uruguai sem perder um minuto. Informação atualizada em abril de 2026.",
-      "kicker": "Espanha · Copa 2026",
+      "h1Line1": "Onde assistir",
+      "h1Line2": "à Copa do Mundo 2026",
+      "intro": "Como assistir aos 104 jogos da Copa do Mundo 2026 no Brasil: Globo (TV aberta), SporTV, CazéTV e dicas para acompanhar o Brasil sem perder um minuto. Informação atualizada a abril de 2026.",
+      "kicker": "Brasil · Copa do Mundo 2026",
       "platformsKicker": "Plataformas com direitos",
       "platformsTitle": "As opções reais na Espanha",
       "spainKicker": "La Roja · Grupo H",
@@ -254,7 +254,125 @@
       "abroadTitle": "Ver a Copa fora da Espanha",
       "faqKicker": "Perguntas frequentes",
       "faqTitle": "O que as pessoas mais perguntam",
-      "fullSpainLink": "Ficha completa da Espanha"
+      "fullSpainLink": "Ficha completa da Espanha",
+      "keywords": [
+        "onde assistir Copa do Mundo 2026",
+        "Copa do Mundo 2026 Globo",
+        "Copa do Mundo 2026 SporTV",
+        "como assistir Brasil Copa do Mundo 2026",
+        "Copa do Mundo 2026 grátis",
+        "Copa do Mundo 2026 streaming",
+        "Globo Copa do Mundo 2026",
+        "CazéTV Copa do Mundo 2026",
+        "final Copa do Mundo 2026 TV"
+      ],
+      "back": "Copa do Mundo 2026",
+      "platforms": {
+        "kicker": "Detentoras de direitos",
+        "h2": "As opções reais no Brasil",
+        "primaryBadge": "Direitos confirmados",
+        "coverageLabel": "Cobertura",
+        "extrasLabel": "Extras",
+        "ctaSite": "Ir ao site oficial"
+      },
+      "platformsList": {
+        "rtve": {
+          "sub": "Acordo de TV aberta confirmado",
+          "price": "Grátis",
+          "coverage": "Abertura, todos os jogos do Brasil, um jogo por rodada, oitavas, quartas, semifinais e final",
+          "extras": "Transmissão aberta na Globo e Globoplay. Comentários em português."
+        },
+        "movistar": {
+          "sub": "TV por assinatura · Globo",
+          "price": "A partir de R$ 49/mês (planos SporTV)",
+          "coverage": "Os 104 jogos ao vivo + 4K HDR + áudio Dolby",
+          "extras": "Análises pré e pós-jogo, conteúdo exclusivo"
+        },
+        "dazn": {
+          "sub": "Streaming · CazéTV (YouTube)",
+          "price": "Grátis com anúncios",
+          "coverage": "Todos os jogos da Copa do Mundo 2026",
+          "extras": "App, navegador, smart TV. Múltiplos dispositivos"
+        }
+      },
+      "matches": {
+        "kicker": "Seleção · Grupo C",
+        "h2": "Jogos do Brasil",
+        "fichaCta": "Ficha completa Brasil →"
+      },
+      "matchesList": {
+        "m1": {
+          "rival": "Brasil vs Marrocos",
+          "sede": "Nova York/NJ · MetLife Stadium · 13:00 EDT",
+          "intent": "Estreia da Seleção na Copa"
+        },
+        "m2": {
+          "rival": "Brasil vs Costa Rica",
+          "sede": "Atlanta · Mercedes-Benz Stadium · 12:00 EDT",
+          "intent": "Segunda rodada em solo americano"
+        },
+        "m3": {
+          "rival": "Países Baixos vs Brasil",
+          "sede": "Filadélfia · Lincoln Financial Field · 18:00 EDT",
+          "intent": "O jogo mais esperado do grupo C"
+        }
+      },
+      "abroad": {
+        "kicker": "Se está viajando",
+        "h2": "Assistir à Copa de fora do Brasil",
+        "intro": "Se você vai para EUA/México/Canadá durante a Copa, há três caminhos práticos para não perder um jogo.",
+        "ueGeoportH3": "Globoplay com IP brasileiro",
+        "ueGeoportBody": "Para viagens curtas, a app pode funcionar em alguns países. Para uso continuado fora do Brasil, precisa-se de outra solução.",
+        "esimUsaH3": "eSIM brasileira nos EUA",
+        "esimUsaBody": "Holafly ou Airalo dão dados nos EUA com IP brasileiro em alguns planos. R$ 200-400 para toda a viagem.",
+        "localUsaH3": "Plataforma local nos EUA",
+        "localUsaBody": "Fox + Tubi (grátis com anúncios) em inglês. Telemundo / Universo + Peacock em espanhol. Pagar Peacock um mês (US$ 8) cobre todo o torneio."
+      },
+      "faq": {
+        "kicker": "Perguntas frequentes",
+        "h2": "O mais perguntado",
+        "items": [
+          {
+            "q": "Quem tem os direitos da Copa do Mundo 2026 no Brasil?",
+            "a": "A Globo detém os direitos abertos e por assinatura para o Brasil, transmitindo via TV Globo, SporTV (cabo/Globoplay) e GE.com. A CazéTV (YouTube) detém os direitos de streaming gratuito para os 104 jogos. A FIFA também oferece transmissão global gratuita em sua plataforma DAZN."
+          },
+          {
+            "q": "Vai dar para ver jogos da Copa do Mundo 2026 grátis no Brasil?",
+            "a": "Sim. A TV Globo transmite a abertura, todos os jogos do Brasil, um jogo por rodada, oitavas, quartas, semifinais e a final. A CazéTV transmite os 104 jogos gratuitamente no YouTube. A combinação cobre toda a Copa sem custo."
+          },
+          {
+            "q": "Quanto custa ver a Copa do Mundo 2026 no SporTV?",
+            "a": "O plano mais acessível com SporTV via Globoplay parte de cerca de R$ 49 ao mês. Os pacotes com todos os esportes (incluindo Brasileirão e Libertadores) ficam entre R$ 80 e R$ 150 ao mês conforme promoção."
+          },
+          {
+            "q": "Quando o Brasil joga na Copa do Mundo 2026?",
+            "a": "O Brasil está no Grupo C com Marrocos, Costa Rica e Países Baixos. O primeiro jogo é em 13 de junho contra Marrocos no MetLife Stadium em Nova York/NJ às 13:00 EDT. O segundo em 17 de junho contra a Costa Rica em Atlanta às 12:00 EDT. O terceiro e mais esperado em 22 de junho contra os Países Baixos na Filadélfia às 18:00 EDT."
+          },
+          {
+            "q": "Como assistir à Copa do Mundo 2026 do exterior sendo brasileiro?",
+            "a": "Assinantes do Globoplay podem assistir via app dentro do Brasil. Para fora, o mais limpo é contratar uma eSIM de dados local (Holafly, Airalo) e usar a app, ou se inscrever na plataforma local do país (Fox/Telemundo nos EUA, etc.)."
+          },
+          {
+            "q": "Quando é a final da Copa do Mundo 2026 e onde assistir?",
+            "a": "A final é em 19 de julho de 2026 às 15:00 ET (16:00 horário de Brasília) no MetLife Stadium de Nova Jersey, que a FIFA renomeia «New York New Jersey Stadium» durante o torneio. Será transmitida na TV Globo, SporTV, Globoplay e CazéTV (YouTube)."
+          },
+          {
+            "q": "Quantos jogos tem a Copa do Mundo 2026?",
+            "a": "Pela primeira vez na história são disputados 104 jogos: 72 da fase de grupos (12 grupos × 6 jogos), 16 das 32 avos, 8 das oitavas, 4 das quartas, 2 semifinais, jogo do terceiro lugar e final."
+          }
+        ]
+      },
+      "disclaimer": {
+        "strong": "Informação orientativa.",
+        "body": "Preços, planos e direitos de transmissão podem mudar. Antes de contratar, verifique diretamente no site oficial da plataforma. Os links para Globoplay, SporTV, CazéTV e demais são informação pública, ainda não afiliada."
+      },
+      "articleHeadline": "Onde assistir à Copa do Mundo 2026 no Brasil",
+      "articleDescription": "Guia completo de plataformas, preços e opções para ver todos os jogos da Copa do Mundo 2026 no Brasil.",
+      "breadcrumb": {
+        "inicio": "Início",
+        "mundial": "Copa do Mundo 2026",
+        "dondeVer": "Onde assistir"
+      }
     },
     "entradas": {
       "title": "Ingressos Copa do Mundo 2026 · Como comprar, preços e fases de venda",

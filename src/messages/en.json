@@ -244,8 +244,8 @@
       "description": "How to watch every 2026 FIFA World Cup match in Spain: Movistar Plus+ via DAZN, free-to-air options, Spain national-team fixtures, schedule and prices updated April 2026.",
       "h1Line1": "Where to watch",
       "h1Line2": "the 2026 World Cup",
-      "intro": "How to watch all 104 matches of the 2026 World Cup in Spain: Movistar Plus+, DAZN, free options and tips to watch Spain vs Cape Verde and Uruguay without missing a minute. Information updated April 2026.",
-      "kicker": "Spain · 2026 World Cup",
+      "intro": "How to watch all 104 matches of the 2026 World Cup in Spain: Movistar Plus+, free-to-air RTVE, DAZN and tips to follow Spain vs Cape Verde, Saudi Arabia and Uruguay without missing a minute. Updated to April 2026.",
+      "kicker": "Spain · World Cup 2026",
       "platformsKicker": "Platforms with rights",
       "platformsTitle": "The actual options in Spain",
       "spainKicker": "La Roja · Group H",
@@ -254,7 +254,125 @@
       "abroadTitle": "Watching the World Cup from outside Spain",
       "faqKicker": "Frequently asked",
       "faqTitle": "What people ask the most",
-      "fullSpainLink": "Full Spain page"
+      "fullSpainLink": "Full Spain page",
+      "keywords": [
+        "where to watch World Cup 2026",
+        "World Cup 2026 USA TV",
+        "World Cup 2026 streaming",
+        "how to watch USA Mexico World Cup 2026",
+        "World Cup 2026 free streaming",
+        "Fox World Cup 2026",
+        "Telemundo World Cup 2026",
+        "Peacock World Cup 2026",
+        "World Cup 2026 final TV"
+      ],
+      "back": "World Cup 2026",
+      "platforms": {
+        "kicker": "Rights holders",
+        "h2": "Real options in Spain",
+        "primaryBadge": "Confirmed rights",
+        "coverageLabel": "Coverage",
+        "extrasLabel": "Extras",
+        "ctaSite": "Go to official site"
+      },
+      "platformsList": {
+        "rtve": {
+          "sub": "Confirmed Mediapro deal",
+          "price": "Free",
+          "coverage": "Opening match, all Spain matches, one match per matchday, round of 16, quarter-finals, semi-finals and final",
+          "extras": "Free-to-air on La 1 and RTVE Play. Spanish-language commentary."
+        },
+        "movistar": {
+          "sub": "Mediapro sublicense",
+          "price": "From €14/month (Movistar customers) · €9.99/month OTT",
+          "coverage": "All 104 matches live + 4K HDR + Dolby audio",
+          "extras": "Pre- and post-match analysis, exclusive content"
+        },
+        "dazn": {
+          "sub": "Mediapro sublicense",
+          "price": "From €19.99/month (€14.99 youth offer)",
+          "coverage": "All World Cup 2026 matches",
+          "extras": "App, browser, smart TV. Multiple devices"
+        }
+      },
+      "matches": {
+        "kicker": "La Roja · Group H",
+        "h2": "Spain matches",
+        "fichaCta": "Full Spain profile →"
+      },
+      "matchesList": {
+        "m1": {
+          "rival": "Spain vs Cape Verde",
+          "sede": "Atlanta · Mercedes-Benz Stadium · 12:00 EDT",
+          "intent": "Spain's World Cup debut"
+        },
+        "m2": {
+          "rival": "Spain vs Saudi Arabia",
+          "sede": "Atlanta · Mercedes-Benz Stadium · 12:00 EDT",
+          "intent": "Matchday 2 on American soil"
+        },
+        "m3": {
+          "rival": "Uruguay vs Spain",
+          "sede": "Guadalajara · Estadio Akron · 18:00 CST",
+          "intent": "Group H's most awaited match"
+        }
+      },
+      "abroad": {
+        "kicker": "If you're traveling",
+        "h2": "Watching the World Cup from outside Spain",
+        "intro": "If you're traveling to USA / Mexico / Canada during the World Cup, here are three practical paths to not miss a match.",
+        "ueGeoportH3": "Movistar+ with EU geo-portability",
+        "ueGeoportBody": "If you travel to another EU country, the app works just like in Spain. Outside the EU you'll need another solution.",
+        "esimUsaH3": "Spanish eSIM in the US",
+        "esimUsaBody": "Holafly or Airalo give you data in the US with a Spanish IP on some plans. €30-70 for the whole trip.",
+        "localUsaH3": "US local platform",
+        "localUsaBody": "Fox + Tubi (free with ads) in English. Telemundo / Universo + Peacock in Spanish. Paying Peacock one month ($8) covers the entire tournament."
+      },
+      "faq": {
+        "kicker": "Frequently asked",
+        "h2": "What people ask most",
+        "items": [
+          {
+            "q": "Who has the World Cup 2026 rights in the US?",
+            "a": "Fox holds English-language rights and broadcasts every match on Fox/FS1 with free ad-supported access on Tubi. Telemundo / Universo carry Spanish-language broadcasts with on-demand replay on Peacock. Both options can be combined: Fox for English, Telemundo + Peacock for Spanish at $8/month."
+          },
+          {
+            "q": "Can the World Cup 2026 be watched for free in the US?",
+            "a": "Yes. Fox provides free over-the-air broadcast through local affiliates plus free streaming on Tubi (ad-supported). The Spanish-language Telemundo signal is also available over the air for households with an antenna."
+          },
+          {
+            "q": "How much does it cost to watch the World Cup 2026 on Peacock?",
+            "a": "Peacock Premium starts at $7.99/month. It includes Telemundo's full World Cup catalogue in Spanish plus on-demand replays. Paying a single month covers the entire tournament window."
+          },
+          {
+            "q": "When does Spain play at the 2026 World Cup?",
+            "a": "Spain is in Group H with Uruguay, Saudi Arabia and Cape Verde. The first match is on June 15 vs Cape Verde at Atlanta (Mercedes-Benz Stadium) at 12:00 EDT. The second is on June 22 vs Saudi Arabia in Atlanta at 12:00 EDT. The third and most awaited is June 26 vs Uruguay in Guadalajara (Estadio Akron) at 18:00 CST."
+          },
+          {
+            "q": "How do I watch the World Cup 2026 from abroad if I'm a US viewer?",
+            "a": "Fox and Peacock subscribers can use their app inside the US. Outside the US, the cleanest path is a local data eSIM and the local broadcaster's platform, or rely on FIFA's free global stream on its DAZN partnership where available."
+          },
+          {
+            "q": "When is the World Cup 2026 final and where to watch it?",
+            "a": "The final is on July 19, 2026 at 3:00 PM ET at MetLife Stadium in New Jersey, which FIFA renames «New York New Jersey Stadium» for the tournament. Free-to-air via Fox in English and Telemundo in Spanish, plus streaming on Tubi and Peacock."
+          },
+          {
+            "q": "How many matches are there at the World Cup 2026?",
+            "a": "For the first time, 104 matches are played: 72 group-stage (12 groups × 6 matches), 16 round of 32, 8 round of 16, 4 quarter-finals, 2 semi-finals, the third-place match and the final."
+          }
+        ]
+      },
+      "disclaimer": {
+        "strong": "Indicative information.",
+        "body": "Prices, plans and broadcast rights can change. Before subscribing, verify directly with the platform's official site. Links to Movistar+, DAZN, RTVE and others are public information, not affiliate links yet."
+      },
+      "articleHeadline": "Where to watch the 2026 World Cup",
+      "articleDescription": "Complete guide of platforms, prices and options to watch every match of the 2026 World Cup.",
+      "breadcrumb": {
+        "inicio": "Home",
+        "mundial": "World Cup 2026",
+        "dondeVer": "Where to watch"
+      }
     },
     "entradas": {
       "title": "2026 World Cup Tickets · How to buy, prices and sales phases",

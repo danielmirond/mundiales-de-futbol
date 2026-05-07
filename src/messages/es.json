@@ -244,7 +244,7 @@
       "description": "Cómo ver todos los partidos del Mundial 2026 en España: Movistar Plus+ vía DAZN, opciones gratis, partidos de la selección, calendario y precios actualizados a abril 2026.",
       "h1Line1": "Dónde ver",
       "h1Line2": "el Mundial 2026",
-      "intro": "Cómo ver los 104 partidos del Mundial 2026 en España: Movistar Plus+, DAZN, opciones gratis y consejos para ver España vs Cabo Verde y Uruguay sin perderte un minuto. Información actualizada a abril de 2026.",
+      "intro": "Cómo ver los 104 partidos del Mundial 2026 en España: Movistar Plus+, RTVE en abierto, DAZN y consejos para ver España vs Cabo Verde, Arabia Saudí y Uruguay sin perderte un minuto. Información actualizada a abril de 2026.",
       "kicker": "España · Mundial 2026",
       "platformsKicker": "Plataformas con derechos",
       "platformsTitle": "Las opciones reales en España",
@@ -254,7 +254,125 @@
       "abroadTitle": "Ver el Mundial desde fuera de España",
       "faqKicker": "Preguntas frecuentes",
       "faqTitle": "Lo que más se pregunta",
-      "fullSpainLink": "Ficha completa España"
+      "fullSpainLink": "Ficha completa España",
+      "keywords": [
+        "dónde ver el Mundial 2026",
+        "Mundial 2026 España DAZN",
+        "Movistar Plus Mundial 2026",
+        "cómo ver España Cabo Verde Mundial 2026",
+        "cómo ver España Uruguay Mundial 2026",
+        "Mundial 2026 gratis",
+        "Mundial 2026 RTVE",
+        "Mundial 2026 streaming",
+        "partidos selección España Mundial"
+      ],
+      "back": "Mundial 2026",
+      "platforms": {
+        "kicker": "Plataformas con derechos",
+        "h2": "Las opciones reales en España",
+        "primaryBadge": "Derechos confirmados",
+        "coverageLabel": "Cobertura",
+        "extrasLabel": "Extras",
+        "ctaSite": "Ir al sitio oficial"
+      },
+      "platformsList": {
+        "rtve": {
+          "sub": "Acuerdo con Mediapro confirmado",
+          "price": "Gratis",
+          "coverage": "Inaugural, todos los partidos de España, un partido por jornada, octavos, cuartos, semifinales y final",
+          "extras": "Emisión en abierto en La 1 y RTVE Play. Comentarios en castellano."
+        },
+        "movistar": {
+          "sub": "Sublicencia con Mediapro",
+          "price": "Desde 14 €/mes (clientes Movistar) · 9,99 €/mes OTT",
+          "coverage": "Los 104 partidos en directo + 4K HDR + audio Dolby",
+          "extras": "Análisis previos y post-partido, contenido exclusivo"
+        },
+        "dazn": {
+          "sub": "Sublicencia con Mediapro",
+          "price": "Desde 19,99 €/mes (oferta 14,99 € jóvenes)",
+          "coverage": "Todos los partidos del Mundial 2026",
+          "extras": "App, navegador, smart TV. Múltiples dispositivos"
+        }
+      },
+      "matches": {
+        "kicker": "La Roja · Grupo H",
+        "h2": "Partidos de España",
+        "fichaCta": "Ficha completa España →"
+      },
+      "matchesList": {
+        "m1": {
+          "rival": "España vs Cabo Verde",
+          "sede": "Atlanta · Mercedes-Benz Stadium · 12:00 EDT",
+          "intent": "Debut de la Roja en el Mundial"
+        },
+        "m2": {
+          "rival": "España vs Arabia Saudí",
+          "sede": "Atlanta · Mercedes-Benz Stadium · 12:00 EDT",
+          "intent": "Segunda jornada en suelo americano"
+        },
+        "m3": {
+          "rival": "Uruguay vs España",
+          "sede": "Guadalajara · Estadio Akron · 18:00 CST",
+          "intent": "El partido más esperado del grupo H"
+        }
+      },
+      "abroad": {
+        "kicker": "Si estás de viaje",
+        "h2": "Ver el Mundial desde fuera de España",
+        "intro": "Si vas a USA/México/Canadá durante el Mundial, hay tres caminos prácticos para no perderte un partido.",
+        "ueGeoportH3": "Movistar+ con geo-portabilidad UE",
+        "ueGeoportBody": "Si viajas a otro país de la UE, la app funciona igual que en España. Fuera de la UE necesitas otra solución.",
+        "esimUsaH3": "eSIM española en EE. UU.",
+        "esimUsaBody": "Holafly o Airalo te dan datos en USA con IP española en algunos planes. 30-70 € por todo el viaje.",
+        "localUsaH3": "Plataforma local USA",
+        "localUsaBody": "Fox + Tubi (gratis con anuncios) en inglés. Telemundo / Universo + Peacock en español. Pagar Peacock un mes (8 $) cubre todo el torneo."
+      },
+      "faq": {
+        "kicker": "Preguntas frecuentes",
+        "h2": "Lo que más se pregunta",
+        "items": [
+          {
+            "q": "¿Quién tiene los derechos del Mundial 2026 en España?",
+            "a": "Mediapro adquirió los derechos del Mundial 2026 para España y los sublicencia a RTVE (en abierto), Movistar Plus+ y DAZN. RTVE emite el inaugural, todos los partidos de España, un partido por jornada de fase de grupos, octavos, cuartos, semifinales y la final. Movistar Plus+ y DAZN emiten los 104 partidos en directo. La FIFA también ofrece emisión global gratuita en su plataforma DAZN."
+          },
+          {
+            "q": "¿Se podrán ver partidos del Mundial 2026 gratis en España?",
+            "a": "Sí. RTVE confirmó en febrero de 2026 el acuerdo con Mediapro: emite en abierto el partido inaugural, los tres partidos de España en fase de grupos, un partido más por jornada, los octavos, los cuartos, las dos semifinales y la final. La señal estará en La 1 y RTVE Play sin coste."
+          },
+          {
+            "q": "¿Cuánto cuesta ver el Mundial 2026 en Movistar Plus+?",
+            "a": "El plan más asequible que incluye Movistar Plus+ con cobertura del Mundial parte de unos 14 € al mes. Los planes con todo el deporte (incluyendo La Liga y Champions) están entre 30 y 60 € al mes según promoción."
+          },
+          {
+            "q": "¿Cuándo juega España en el Mundial 2026?",
+            "a": "España está en el Grupo H, junto a Uruguay, Arabia Saudí y Cabo Verde. El primer partido es el 15 de junio contra Cabo Verde en Atlanta (Mercedes-Benz Stadium) a las 12:00 EDT. El segundo el 22 de junio contra Arabia Saudí en Atlanta a las 12:00 EDT. El tercero y más esperado, el 26 de junio contra Uruguay en Guadalajara (Estadio Akron) a las 18:00 CST."
+          },
+          {
+            "q": "¿Cómo ver el Mundial 2026 desde el extranjero siendo español?",
+            "a": "Los suscriptores de Movistar Plus+ pueden ver contenidos vía la app dentro de la UE por geo-portabilidad. Para fuera de la UE, lo más limpio es contratar una eSIM de datos local (Holafly, Airalo) y usar la app, o suscribirse a la plataforma local del país (Fox/Telemundo en USA, etc.)."
+          },
+          {
+            "q": "¿Cuándo es la final del Mundial 2026 y dónde verla?",
+            "a": "La final se juega el 19 de julio de 2026 a las 15:00 ET (21:00 hora peninsular española) en el MetLife Stadium de Nueva Jersey, que FIFA renombra «New York New Jersey Stadium» durante el torneo. Se emitirá en abierto en RTVE (La 1 y RTVE Play) y también en Movistar Plus+ y DAZN."
+          },
+          {
+            "q": "¿Cuántos partidos tiene el Mundial 2026?",
+            "a": "Por primera vez en la historia se disputan 104 partidos: 72 de fase de grupos (12 grupos × 6 partidos), 16 dieciseisavos, 8 octavos, 4 cuartos, 2 semifinales, partido por el tercer puesto y la final."
+          }
+        ]
+      },
+      "disclaimer": {
+        "strong": "Información orientativa.",
+        "body": "Los precios, planes y derechos de emisión pueden cambiar. Antes de contratar, verifica directamente en la web oficial de la plataforma. Los enlaces a Movistar+, DAZN, RTVE y demás son de información pública, no de afiliación todavía."
+      },
+      "articleHeadline": "Dónde ver el Mundial 2026 en España",
+      "articleDescription": "Guía completa de plataformas, precios y opciones para ver todos los partidos del Mundial 2026 en España.",
+      "breadcrumb": {
+        "inicio": "Inicio",
+        "mundial": "Mundial 2026",
+        "dondeVer": "Dónde ver"
+      }
     },
     "entradas": {
       "title": "Entradas Mundial 2026 · Cómo comprar, precios y fases de venta",

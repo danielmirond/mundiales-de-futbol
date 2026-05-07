@@ -242,10 +242,10 @@
     "dondeVer": {
       "title": "Où voir la Coupe du Monde 2026 en Espagne · DAZN, Movistar Plus+ et options gratuites",
       "description": "Comment voir tous les matchs de la Coupe du Monde 2026 en Espagne : Movistar Plus+ via DAZN, options gratuites, matchs de la sélection, calendrier et tarifs mis à jour avril 2026.",
-      "h1Line1": "Où voir",
-      "h1Line2": "la Coupe 2026",
-      "intro": "Comment voir les 104 matchs de la Coupe du Monde 2026 en Espagne : Movistar Plus+, DAZN, options gratuites et conseils pour suivre Espagne vs Cap-Vert et Uruguay sans rien manquer. Information mise à jour en avril 2026.",
-      "kicker": "Espagne · Coupe 2026",
+      "h1Line1": "Où regarder",
+      "h1Line2": "la Coupe du monde 2026",
+      "intro": "Comment regarder les 104 matchs de la Coupe du monde 2026 en France : TF1 et M6 en clair, BeIN Sports pour la totalité, et conseils pour ne pas rater les matchs des Bleus contre la Norvège, l'Iran et le Sénégal. Information mise à jour en avril 2026.",
+      "kicker": "France · Coupe du monde 2026",
       "platformsKicker": "Plateformes avec droits",
       "platformsTitle": "Les options réelles en Espagne",
       "spainKicker": "La Roja · Groupe H",
@@ -254,7 +254,125 @@
       "abroadTitle": "Suivre la Coupe depuis l'étranger",
       "faqKicker": "Questions fréquentes",
       "faqTitle": "Ce que les gens demandent le plus",
-      "fullSpainLink": "Fiche complète Espagne"
+      "fullSpainLink": "Fiche complète Espagne",
+      "keywords": [
+        "où regarder la Coupe du monde 2026",
+        "Coupe du monde 2026 France TF1",
+        "Coupe du monde 2026 BeIN Sports",
+        "comment regarder France Coupe du monde 2026",
+        "Coupe du monde 2026 gratuit",
+        "Coupe du monde 2026 streaming",
+        "M6 Coupe du monde 2026",
+        "Coupe du monde 2026 finale TV",
+        "France Sénégal Coupe du monde"
+      ],
+      "back": "Coupe du monde 2026",
+      "platforms": {
+        "kicker": "Détenteurs des droits",
+        "h2": "Les options réelles en France",
+        "primaryBadge": "Droits confirmés",
+        "coverageLabel": "Couverture",
+        "extrasLabel": "Extras",
+        "ctaSite": "Aller au site officiel"
+      },
+      "platformsList": {
+        "rtve": {
+          "sub": "Accord en clair confirmé",
+          "price": "Gratuit",
+          "coverage": "Match d'ouverture, tous les matchs des Bleus, un match par journée, huitièmes, quarts, demi-finales et finale",
+          "extras": "Diffusion en clair sur TF1 et M6, plus replay sur TF1+ et 6play. Commentaire en français."
+        },
+        "movistar": {
+          "sub": "Détenteur intégral",
+          "price": "À partir de 12 €/mois",
+          "coverage": "Les 104 matchs en direct + 4K HDR + audio Dolby",
+          "extras": "Analyses avant et après-match, contenu exclusif"
+        },
+        "dazn": {
+          "sub": "Diffusion partielle",
+          "price": "À partir de 19,99 €/mois",
+          "coverage": "Sélection de matchs de la Coupe du monde 2026",
+          "extras": "App, navigateur, smart TV. Plusieurs appareils"
+        }
+      },
+      "matches": {
+        "kicker": "Les Bleus · Groupe I",
+        "h2": "Matchs de la France",
+        "fichaCta": "Fiche complète France →"
+      },
+      "matchesList": {
+        "m1": {
+          "rival": "France vs Norvège",
+          "sede": "Boston · Gillette Stadium · 12:00 EDT",
+          "intent": "Entrée des Bleus dans la Coupe"
+        },
+        "m2": {
+          "rival": "France vs Iran",
+          "sede": "Boston · Gillette Stadium · 12:00 EDT",
+          "intent": "Deuxième journée en sol américain"
+        },
+        "m3": {
+          "rival": "Sénégal vs France",
+          "sede": "Filadélfia · Lincoln Financial Field · 18:00 EDT",
+          "intent": "Le match le plus attendu du groupe I"
+        }
+      },
+      "abroad": {
+        "kicker": "En voyage",
+        "h2": "Regarder la Coupe du monde depuis l'étranger",
+        "intro": "Si vous partez aux USA / Mexique / Canada pendant la Coupe du monde, voici trois solutions pratiques pour ne pas rater un match.",
+        "ueGeoportH3": "TF1+ avec géo-portabilité UE",
+        "ueGeoportBody": "Si vous voyagez dans un autre pays de l'UE, l'app fonctionne comme en France. Hors UE il faut une autre solution.",
+        "esimUsaH3": "eSIM française aux USA",
+        "esimUsaBody": "Holafly ou Airalo offrent des données aux USA avec IP française sur certains forfaits. 30-70 € pour tout le voyage.",
+        "localUsaH3": "Plateforme locale aux USA",
+        "localUsaBody": "Fox + Tubi (gratuit avec pubs) en anglais. Telemundo / Universo + Peacock en espagnol. Payer Peacock un mois (8 $) couvre tout le tournoi."
+      },
+      "faq": {
+        "kicker": "Questions fréquentes",
+        "h2": "Ce qu'on demande le plus",
+        "items": [
+          {
+            "q": "Qui a les droits de la Coupe du monde 2026 en France ?",
+            "a": "TF1 et M6 partagent les droits en clair sur la France et BeIN Sports détient l'intégralité de la couverture des 104 matchs. TF1/M6 diffusent le match d'ouverture, tous les matchs des Bleus, un match par journée de phase de groupes, les huitièmes, les quarts, les demi-finales et la finale. La FIFA propose aussi une diffusion mondiale gratuite via DAZN."
+          },
+          {
+            "q": "Pourra-t-on regarder gratuitement la Coupe du monde 2026 en France ?",
+            "a": "Oui. TF1 et M6 confirment la diffusion en clair du match d'ouverture, des trois matchs des Bleus en phase de groupes, d'un match supplémentaire par journée, des huitièmes, des quarts, des deux demi-finales et de la finale. Le signal sera disponible sur TF1, TF1+, M6 et 6play sans coût."
+          },
+          {
+            "q": "Combien coûte regarder la Coupe du monde 2026 sur BeIN Sports ?",
+            "a": "Le forfait BeIN Sports le plus accessible démarre à environ 12 € par mois. Les forfaits avec tout le sport (Ligue 1, Champions League) sont entre 25 et 50 € par mois selon les promotions."
+          },
+          {
+            "q": "Quand joue la France à la Coupe du monde 2026 ?",
+            "a": "La France est dans le groupe I avec la Norvège, l'Iran et le Sénégal. Le premier match est le 16 juin contre la Norvège à Boston (Gillette Stadium) à 12:00 EDT. Le deuxième le 22 juin contre l'Iran à Boston à 12:00 EDT. Le troisième et le plus attendu le 26 juin contre le Sénégal à Philadelphie à 18:00 EDT."
+          },
+          {
+            "q": "Comment regarder la Coupe du monde 2026 depuis l'étranger en étant français ?",
+            "a": "Les abonnés TF1+ et BeIN peuvent regarder via l'app à l'intérieur de l'UE par géo-portabilité. Pour hors UE, le plus propre est de contracter une eSIM de données locale (Holafly, Airalo) et d'utiliser l'app, ou s'abonner à la plateforme locale du pays (Fox/Telemundo aux USA, etc.)."
+          },
+          {
+            "q": "Quand est la finale de la Coupe du monde 2026 et où la regarder ?",
+            "a": "La finale se joue le 19 juillet 2026 à 15h00 ET (21h00 heure de Paris) au MetLife Stadium du New Jersey, que la FIFA renomme « New York New Jersey Stadium » pendant le tournoi. Diffusée en clair sur TF1 et M6 et aussi sur BeIN Sports."
+          },
+          {
+            "q": "Combien de matchs y a-t-il à la Coupe du monde 2026 ?",
+            "a": "Pour la première fois de l'histoire, 104 matchs sont disputés : 72 de phase de groupes (12 groupes × 6 matchs), 16 seizièmes, 8 huitièmes, 4 quarts, 2 demi-finales, le match pour la troisième place et la finale."
+          }
+        ]
+      },
+      "disclaimer": {
+        "strong": "Information indicative.",
+        "body": "Les tarifs, les forfaits et les droits de diffusion peuvent changer. Avant de souscrire, vérifiez directement sur le site officiel de la plateforme. Les liens vers TF1, M6, BeIN Sports et autres sont à titre d'information publique, pas encore affiliés."
+      },
+      "articleHeadline": "Où regarder la Coupe du monde 2026 en France",
+      "articleDescription": "Guide complet des plateformes, tarifs et options pour regarder tous les matchs de la Coupe du monde 2026 en France.",
+      "breadcrumb": {
+        "inicio": "Accueil",
+        "mundial": "Coupe du monde 2026",
+        "dondeVer": "Où regarder"
+      }
     },
     "entradas": {
       "title": "Billets Coupe du Monde 2026 · Comment acheter, tarifs et phases de vente",
