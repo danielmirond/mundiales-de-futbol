@@ -258,7 +258,198 @@
     },
     "entradas": {
       "title": "2026 World Cup Tickets · How to buy, prices and sales phases",
-      "description": "Complete guide to buying 2026 FIFA World Cup tickets: official prices by category, Phase 4 sales open until the final, hospitality packages and direct links to FIFA Tickets."
+      "description": "Complete guide to buying 2026 FIFA World Cup tickets: official prices by category, Phase 4 sales open until the final, hospitality packages and direct links to FIFA Tickets.",
+      "keywords": [
+        "World Cup 2026 tickets",
+        "buy World Cup 2026 tickets",
+        "World Cup 2026 ticket prices",
+        "World Cup 2026 phase 4 tickets",
+        "how to buy World Cup 2026 tickets",
+        "FIFA tickets 2026",
+        "World Cup 2026 final tickets",
+        "World Cup 2026 opening match tickets",
+        "World Cup 2026 hospitality"
+      ],
+      "back": "World Cup 2026",
+      "kicker": "World Cup 2026 · USA · Mexico · Canada",
+      "h1Line1": "Tickets",
+      "h1Line2": "World Cup 2026",
+      "intro": "How to buy, what the prices are and which sales phases remain open for the 104 matches of the first 48-team World Cup. Guide updated to April 2026.",
+      "ctaPrimary": "Buy on FIFA Tickets",
+      "securityNotice": {
+        "strong": "FIFA is the only official seller.",
+        "body": "Any website offering tickets at face value outside of fifa.com/tickets is unauthorized resale or a scam. Your ticket can be canceled at the stadium gate."
+      },
+      "phasesSection": {
+        "kicker": "When sales happened and what's left",
+        "h2": "4 sales phases"
+      },
+      "phases": {
+        "p1": {
+          "name": "Phase 1, Visa Presale Draw",
+          "when": "October 2025",
+          "desc": "Random draw reserved for Visa cardholders."
+        },
+        "p2": {
+          "name": "Phase 2, Early Ticket Draw",
+          "when": "November 2025",
+          "desc": "Second random draw before the group-stage draw was known."
+        },
+        "p3": {
+          "name": "Phase 3, Random Selection Draw",
+          "when": "December 2025, January 2026",
+          "desc": "Third draw, with groups already known. Specific match assignment per team."
+        },
+        "p4": {
+          "name": "Phase 4, Last-Minute Sales",
+          "when": "From April 1, 2026 until the final (July 19)",
+          "desc": "Continuous first-come, first-served sales (no draw). Real-time dynamic pricing based on demand. Availability for the 104 matches subject to inventory."
+        }
+      },
+      "statusLabels": {
+        "closed": "Closed",
+        "open": "Open"
+      },
+      "pricesSection": {
+        "kicker": "Official rates · Phase 4 · April 2026",
+        "h2": "Prices by stage",
+        "intro": "Prices in US dollars, subject to FIFA's dynamic pricing: actual cost depends on the venue, the teams and demand at the moment of purchase.",
+        "footer": "There's a $60 Supporter Tier available only to accredited members of the official Fan Clubs of participating teams. Final-match resale has reached $2 million per ticket on secondary markets."
+      },
+      "pricesTable": {
+        "stage": "Stage",
+        "from": "From",
+        "to": "To",
+        "notes": "Notes"
+      },
+      "prices": {
+        "groupCat3": {
+          "stage": "Group stage · Cat. 3",
+          "notes": "Most affordable category. Prices rise with demand."
+        },
+        "groupCat1": {
+          "stage": "Group stage · Cat. 1",
+          "notes": "Best stadium zone. Upper cap varies by match."
+        },
+        "r16": {
+          "stage": "Round of 16",
+          "notes": "Varies by match and venue."
+        },
+        "qf": {
+          "stage": "Quarter-finals",
+          "notes": ""
+        },
+        "sfCat3": {
+          "stage": "Semi-finals · Cat. 3",
+          "notes": "Cat. 3 from $930; Cat. 1 exceeds $4,000."
+        },
+        "third": {
+          "stage": "Third place",
+          "notes": ""
+        },
+        "finalCat3": {
+          "stage": "Final · Cat. 3",
+          "notes": "Most affordable for the final."
+        },
+        "finalCat1": {
+          "stage": "Final · Cat. 1",
+          "notes": "Official cap; resale exceeds $2M."
+        }
+      },
+      "hospitalitySection": {
+        "kicker": "Premium packages",
+        "h2": "Hospitality",
+        "intro": "When affordable individual tickets are gone, official hospitality packages are the only way in. Sold on hospitality.fifa.com."
+      },
+      "hospitality": {
+        "fifaPavilion": {
+          "name": "FIFA Pavilion",
+          "perks": "Premium seat, shared lounge, fast-track entry."
+        },
+        "championsClub": {
+          "name": "Champions Club",
+          "perks": "Menus designed by local chefs, cocktails, climate-controlled lounge."
+        },
+        "pitchsideLounge": {
+          "name": "Pitchside Lounge",
+          "perks": "Almost field-side access, premium bar included."
+        },
+        "suitesPrivate": {
+          "name": "Private suites",
+          "perks": "Multi-match packages (incl. final) at MetLife and Azteca."
+        }
+      },
+      "faq": {
+        "kicker": "What people ask most",
+        "h2": "Frequently asked questions",
+        "items": [
+          {
+            "q": "Where do you buy World Cup 2026 tickets?",
+            "a": "Only on the official site fifa.com/tickets. FIFA is the sole authorized seller. Any other site offering tickets at face value is resale or, at worst, a scam."
+          },
+          {
+            "q": "Are tickets still available in April 2026?",
+            "a": "Yes. Phase 4 (Last-Minute Sales) opened on April 1, 2026 and stays active until the July 19 final. Purchases are first-come, first-served and prices are dynamic: they can rise or drop in real time based on demand."
+          },
+          {
+            "q": "How much does a 2026 World Cup ticket cost?",
+            "a": "The most affordable public tickets start at $120 (Cat. 3, group stage at lower-demand venues). The final costs from $1,490 in Cat. 3 up to $7,875 in Cat. 1. There is a $60 Supporter Tier but it is reserved for the official Fan Clubs of participating teams."
+          },
+          {
+            "q": "What is dynamic pricing?",
+            "a": "For the first time at a World Cup, FIFA applies dynamic pricing: the cost of a ticket changes in real time based on demand, the teams playing and the venue. A ticket that opens a phase at $200 can end up costing $350 before that same phase closes."
+          },
+          {
+            "q": "Can I buy tickets on the resale market?",
+            "a": "FIFA has an official resale platform inside fifa.com/tickets. It's the only legal and safe way to resell a ticket. Third-party sites (StubHub, Viagogo, etc.) are not authorized: tickets can be canceled at the stadium gate."
+          },
+          {
+            "q": "Do I need a visa to enter the US, Mexico or Canada with the ticket?",
+            "a": "The match ticket does not exempt you from immigration requirements. Each country applies its own rules: ESTA for the US, FMM for Mexico and eTA for Canada. Processing can take weeks, so handle it as soon as you have the ticket."
+          },
+          {
+            "q": "When is the opening match and when is the final?",
+            "a": "The opener is on June 11, 2026 at 1:00 PM Mexico time (Mexico vs South Africa) at Estadio Azteca. The final is on July 19, 2026 at 3:00 PM ET at MetLife Stadium in New Jersey."
+          }
+        ]
+      },
+      "ctaFinal": {
+        "h2": "Buy them on the official site",
+        "intro": "This page is informational: we don't sell or resell tickets. For a safe transaction always use fifa.com/tickets or FIFA's official resale system.",
+        "ctaTickets": "FIFA Tickets",
+        "ctaHospitality": "Official Hospitality"
+      },
+      "howTo": {
+        "name": "How to buy 2026 World Cup tickets",
+        "description": "Step-by-step guide to buying official 2026 World Cup tickets on fifa.com/tickets during sales phase 4.",
+        "steps": [
+          {
+            "name": "Create or sign in to your FIFA account",
+            "text": "Go to fifa.com/tickets and create an account with a verified email. Real name matching your ID document is required."
+          },
+          {
+            "name": "Pick the match",
+            "text": "On the «Matches» tab, filter by date, city or team. Availability is subject to inventory and dynamic pricing."
+          },
+          {
+            "name": "Select category and seat",
+            "text": "Choose between Cat. 1, 2 or 3. The Supporter option ($60) only appears if you are an accredited member of your team's Fan Club."
+          },
+          {
+            "name": "Pay with Visa or accepted card",
+            "text": "Visa is the official partner. Other cards also work but may have currency restrictions."
+          },
+          {
+            "name": "Get your digital ticket in your account",
+            "text": "Tickets are personal and digital (FIFA Mobile App). They cannot be printed or freely transferred."
+          }
+        ]
+      },
+      "breadcrumb": {
+        "inicio": "Home",
+        "mundial": "World Cup 2026",
+        "entradas": "Tickets"
+      }
     },
     "panini": {
       "title": "Panini 2026 World Cup · Sticker album, packs and prices",
