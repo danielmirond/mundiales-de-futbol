@@ -117,6 +117,102 @@ export const NEWS_ITEMS: NewsItem[] = [
     },
   },
   {
+    slug: 'precios-entradas-mundial-2026-trump-fifa-fse-demanda-ue',
+    title:
+      'Trump, Football Supporters Europe y la reventa de 2,3 millones: la FIFA defiende los precios dinámicos del Mundial 2026',
+    summary:
+      'La FIFA encara una doble ofensiva por los precios dinámicos del Mundial 2026. El 7 de mayo Donald Trump dijo que «yo tampoco los pagaría» refiriéndose a los mil dólares por USA-Paraguay del 12 de junio. Football Supporters Europe ha presentado denuncia formal ante la Comisión Europea por precios «abusivos». La reventa oficial llegó a marcar 2,3 millones de dólares por una entrada de la final.',
+    body: `**La doble ofensiva contra el precio dinámico.** La FIFA aplica por primera vez en una Copa del Mundo el sistema de dynamic pricing: cada entrada ajusta su precio en tiempo real según demanda, selecciones, sede y momento de compra. La fase 4 de venta (Last-Minute Sales) lleva activa desde el 1 de abril y ha disparado los precios de los partidos calientes muy por encima de la tabla oficial publicada por FIFA. El 7 de mayo, dos voces muy distintas confluyeron en la misma crítica.
+
+**Donald Trump: «yo tampoco los pagaría».** El presidente estadounidense, anfitrión moral del torneo, criticó públicamente los precios al ser preguntado por el partido inaugural compartido USA-Paraguay del 12 de junio en el SoFi Stadium de Los Ángeles. Dijo, textualmente, que ni él pagaría los mil dólares que cuesta hoy una entrada de categoría media para ese partido. La declaración, recogida por Tribuna y El Universal, llega tres días antes del cierre del plazo de listas y a un mes del inicio del torneo.
+
+**Football Supporters Europe demanda en Bruselas.** Más estructurada y potencialmente más seria es la ofensiva legal: la organización Football Supporters Europe (FSE), que agrupa a federaciones de aficionados de toda la UE, ha presentado denuncia formal ante la Comisión Europea calificando la estructura de precios como «abusiva» y como una «traición monumental» al modelo histórico del fútbol como deporte popular. La FSE pide a Bruselas que investigue si el sistema vulnera la regulación europea de prácticas comerciales.
+
+**El dato más comentado: 2,3 millones de dólares.** En la plataforma oficial de reventa de FIFA llegó a aparecer una entrada de la final del 19 de julio (MetLife Stadium) a 2,3 millones de dólares estadounidenses. En la venta directa, las categorías 1 de la final superan los 6.730-7.875 dólares, mientras que las más asequibles parten de 1.490 dólares (Cat. 3). Para comparar: la entrada media de fase de grupos en Qatar 2022 era de 105 dólares; en Norteamérica 2026 parte de 120 dólares en categoría 3 de las sedes con menor demanda.
+
+**La defensa de Infantino.** Gianni Infantino, presidente de FIFA, ha defendido el modelo argumentando que responde a las condiciones del mercado de entretenimiento estadounidense, donde los precios variables son habituales en NBA, NFL y conciertos. La organización ha insistido en que el Supporter Tier de 60 dólares (reservado a Fan Clubs oficiales de las selecciones) sigue siendo la vía asequible para aficionados acreditados.`,
+    category: 'polemica',
+    sourceName: 'Infobae · Estados Unidos',
+    sourceUrl:
+      'https://www.infobae.com/estados-unidos/2026/05/07/entradas-de-hasta-usd-23-millones-la-fifa-defendio-los-precios-de-los-tickets-para-el-mundial-2026/',
+    sourceLang: 'es',
+    publishedAt: '2026-05-08T08:00:00+00:00',
+    sourcesSecondary: [
+      {
+        name: 'Tribuna México · Trump critica',
+        url: 'https://tribuna.com.mx/mundo/2026/05/07/donald-trump-critica-altos-precios-de-boletos-para-el-mundial-2026-en-estados-unidos_527672/',
+      },
+      {
+        name: 'El Universal Colombia · Trump',
+        url: 'https://www.eluniversal.com.co/deportes/2026/05/07/la-polemica-declaracion-de-donald-trump-sobre-entradas-del-mundial-no-pagaria/',
+      },
+      {
+        name: 'Primicias Ecuador · ley del mercado dinámico',
+        url: 'https://www.primicias.ec/deportes/mundial-2026/fifa-ley-oferta-demanda-mercado-dinamico-reventa-precios-venta-entradas-partidos-estadios-122067/',
+      },
+      {
+        name: 'Emol Chile · polémica entradas',
+        url: 'https://www.emol.com/noticias/Deportes/2026/05/07/1199321/polemica-entradas-mundal.html',
+      },
+      {
+        name: 'Prensa Libre · Trump',
+        url: 'https://www.prensalibre.com/deportes/futbol-internacional/yo-tampoco-los-pagaria-trump-critica-los-precios-de-boletos-para-la-copa-mundial-del-2026/',
+      },
+    ],
+    image: {
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Official_Presidential_Portrait_of_President_Donald_J._Trump_(2025)_(cropped)(2).jpg?width=1200',
+      alt: 'Donald Trump, presidente de Estados Unidos y anfitrión moral del Mundial 2026, criticó públicamente los precios de las entradas',
+      credit: 'Retrato presidencial oficial 2025 · Wikimedia Commons',
+      license: 'Dominio público (obra del gobierno federal de EE. UU.)',
+    },
+  },
+  {
+    slug: 'lista-provisional-mundial-2026-fecha-tope-11-mayo-fifa',
+    title:
+      'Esta semana se cierra la lista provisional del Mundial 2026: cuándo dará España la suya y cómo lo hará la FIFA',
+    summary:
+      'Las 48 selecciones tienen hasta el lunes 11 de mayo para entregar a la FIFA la lista provisional de 35 a 55 jugadores, con 5 porteros mínimo. La RFEF la dará públicamente en Las Rozas. Argentina, Brasil, Francia y Portugal preparan anuncios entre el 9 y el 13 de mayo. La definitiva (23-26 jugadores) se cierra el 1 de junio, diez días antes del kickoff en el Estadio Azteca.',
+    body: `**El plazo se cierra el lunes.** Las 48 federaciones que disputarán el Mundial 2026 tienen hasta el final del 11 de mayo (lunes) para entregar a la FIFA la lista provisional —el llamado release list— compuesta por entre 35 y 55 jugadores, con un mínimo obligatorio de cinco porteros. Es una lista interna que la FIFA no hace pública, aunque la mayoría de federaciones aprovecha esos días para anunciar su prelista en rueda de prensa local. Es el punto de partida del calendario oficial de convocatorias publicado por FIFA.
+
+**La RFEF, en Las Rozas.** En España, la Real Federación Española de Fútbol publicará tradicionalmente su prelista en Las Rozas a inicios de mayo. La fecha exacta no está confirmada, pero el patrón histórico (1998, 2010, 2018, 2022) apunta a una rueda de prensa entre el 5 y el 11 de mayo, antes del cierre FIFA. La selección de Luis de la Fuente está en el Grupo H, junto a Uruguay, Arabia Saudí y Cabo Verde. El primer partido es el 15 de junio contra Cabo Verde en Atlanta.
+
+**Argentina, Brasil, Francia y Portugal.** Lionel Scaloni había presentado el 18 de marzo la última prelista previa antes del Mundial; ahora afina los detalles para entregar el listado oficial entre el 9 y el 13 de mayo. La CBF dará la lista provisional brasileña el 18 de mayo, según anuncio de Carlo Ancelotti del 29 de abril. Francia (Didier Deschamps en Clairefontaine) y Portugal (Roberto Martínez en Cidade do Futebol) cerrarán los suyos en la primera quincena de mayo. La lista definitiva, con entre 23 y 26 jugadores y 3 porteros obligatorios, se entrega entre el 25 de mayo y el 1 de junio.
+
+**El calendario completo.** El día siguiente al cierre definitivo (martes 2 de junio) FIFA dará a conocer los nombres de los 1.248 jugadores que disputarán el Mundial. Hasta 24 horas antes del primer partido del equipo, FIFA permite sustituir a un jugador convocado por lesión certificada por un médico de la federación y un médico FIFA. Una vez disputado el primer partido, no se admiten sustituciones: el equipo termina el torneo con los jugadores aptos restantes.
+
+**Lo que cambia respecto a 2022.** El tope de 26 jugadores —elevado por excepción durante Qatar 2022 por la pandemia y la cercanía con la temporada europea— se mantiene en 2026. Es la primera vez que se aplica en condiciones normales y con la nueva ronda de dieciseisavos añadida al calendario. La justificación: 48 selecciones, un torneo de 39 días en lugar de 32, y un partido extra por equipo eliminado en R32.`,
+    category: 'convocatorias',
+    sourceName: 'Olympics.com · FIFA',
+    sourceUrl:
+      'https://www.olympics.com/en/news/fifa-world-cup-2026-deadlines-national-team-squad-announcements',
+    sourceLang: 'en',
+    publishedAt: '2026-05-08T07:00:00+00:00',
+    sourcesSecondary: [
+      {
+        name: 'AFA · convocatorias Mundial 2026',
+        url: 'https://www.afa.com.ar/es/posts/todo-sobre-las-listas-de-convocatorias-de-la-copa-mundial-2026',
+      },
+      {
+        name: 'FIFA.com · listas convocatorias',
+        url: 'https://www.fifa.com/es/tournaments/mens/worldcup/canadamexicousa2026/articles/listas-convocatorias-copa-mundial-2026-cuantos-jugadores-cuando-se-entregan',
+      },
+      {
+        name: 'Sports Illustrated ES · fechas listas definitivas',
+        url: 'https://www.si.com/es-us/futbol/cuando-se-conoceran-las-listas-definitivas-del-mundial-2026-fechas-clave-de-las-convocatorias',
+      },
+      {
+        name: 'Infobae · Scaloni lista marzo',
+        url: 'https://www.infobae.com/deportes/2026/03/18/lionel-scaloni-dio-a-conocer-la-ultima-lista-de-la-seleccion-argentina-antes-del-mundial-2026-con-varias-sorpresas/',
+      },
+    ],
+    image: {
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/FIFA_logo_without_slogan.svg?width=1200',
+      alt: 'Logo de la FIFA, organismo que cierra el plazo de listas provisionales del Mundial 2026 el 11 de mayo',
+      credit: 'FIFA · vía Wikimedia Commons',
+      license: 'Trademark fair use',
+    },
+  },
+  {
     slug: 'lego-mundial-2026-coleccion-9-sets-messi-ronaldo-mbappe-vinicius',
     title:
       'LEGO presenta su colección Mundial 2026: nueve sets con Messi, Ronaldo, Mbappé y Vinícius Jr. desde 24,99 dólares',
