@@ -73,6 +73,58 @@ export type NewsItem = {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'messi-favoritos-mundial-2026-pollo-alvarez-francia-espana-brasil',
+    title:
+      'Messi pone a Francia, España y Brasil por encima de Argentina entre los favoritos al Mundial 2026',
+    summary:
+      'Lionel Messi habló de las opciones reales en una entrevista con Pollo Álvarez publicada el 8 de mayo en YouTube. Sitúa a Francia, España y Brasil por delante de Argentina, menciona en segundo escalón a Alemania e Inglaterra, y baja la euforia sobre la actual campeona del mundo: «llega bien, pero por delante nuestro hay otros favoritos que llegan mejor».',
+    body: `**El capitán argentino, lúcido sobre la jerarquía**. En una entrevista publicada el viernes 8 de mayo de 2026 en el canal de YouTube «Lo Del Pollo», conducido por el periodista Pollo Álvarez, Lionel Messi enumeró por nombre las selecciones que considera mejor armadas que la propia Argentina para ganar el Mundial que arranca dentro de 33 días en el Estadio Azteca. Tres favoritos por encima de la albiceleste: Francia, España y Brasil. Un segundo escalón con Alemania e Inglaterra. La cita textual de Messi sobre los franceses fue: «Hoy por hoy, Francia está muy bien otra vez, tiene muchísimos jugadores de un gran nivel». Sobre Brasil: «Si bien hace un tiempito que no está en su mejor momento, Brasil siempre es candidato y tiene los jugadores como para pelear en todas las competiciones oficiales». Sobre España, mencionada brevemente, no añadió análisis específico, pero la incluyó explícitamente en el grupo de cabeza.
+
+**Sobre Argentina, una rebaja deliberada**. Messi describió a la actual campeona del mundo, vigente desde el 18 de diciembre de 2022 en Doha, en términos prudentes. «El equipo llega bien», le dijo a Pollo Álvarez, «pero hay que ilusionarse como siempre hace el argentino, por delante nuestro hay otros favoritos que llegan mejor». Es una descripción muy distinta de la euforia popular del fútbol argentino tras Qatar. Messi conoce la presión, conoce las casas de apuestas (que aún sitúan a Argentina como tercera o cuarta favorita por detrás de Francia y por delante de Brasil) y conoce especialmente bien a las plantillas que menciona como mejores: enfrentó a Francia en la final de Doha, a España en el camino a la Eurocopa 2024 y a Brasil en cada eliminatoria sudamericana de los últimos cuatro años.
+
+**Sobre su propia edad y futuro**. Messi, que cumple 39 años durante el torneo (24 de junio, justo durante la fase de grupos), también minimizó cualquier preocupación sobre su rendimiento en el Mundial. «Me gusta lo que hago, amo jugar a la pelota y lo voy a hacer hasta que no pueda más», dijo. La frase fue interpretada en distintas redacciones argentinas como un anuncio implícito de que este será su quinto y último Mundial: si Argentina llega lejos, su carrera de selección se cierra en julio en Nueva Jersey. Messi no confirmó ni desmintió esa lectura. La entrevista de «Lo Del Pollo» —canal del exjugador devenido periodista deportivo Pollo Álvarez, con cerca de un millón de suscriptores— ha sido recogida por La Nación, Infobae, El Gráfico, Crónica y la agencia EFE, entre otros, y se ha viralizado a lo largo del fin de semana del 8 al 9 de mayo en redes argentinas.
+
+**Por qué la declaración importa más allá de Argentina**. Que el actual mejor jugador de la historia de los Mundiales (ocho Balones de Oro, Mundial 2022, Copa América 2021 y 2024) reconozca públicamente la jerarquía Francia-España-Brasil tres semanas antes del kickoff es un dato editorial relevante para el cluster de pronósticos. Las casas de apuestas británicas y europeas habían señalado precisamente esos tres equipos —junto con Argentina e Inglaterra— como el quinteto que reúne el 70 % del dinero apostado al ganador del torneo. Messi confirma con su autoridad técnica el ranking que el mercado ya estaba dibujando.`,
+    category: 'jugadores',
+    sourceName: 'La Nación',
+    sourceUrl:
+      'https://www.lanacion.com.ar/deportes/futbol/lionel-messi-dijo-cuales-son-sus-selecciones-favoritas-para-el-mundial-2026-y-como-ve-a-argentina-nid08052026/',
+    sourceLang: 'es',
+    publishedAt: '2026-05-09T07:00:00+00:00',
+    sourcesSecondary: [
+      {
+        name: 'Infobae · Hay que ilusionarse',
+        url: 'https://www.infobae.com/deportes/2026/05/08/lionel-messi-hablo-antes-del-mundial-hay-que-ilusionarse-pero-por-delante-nuestro-hay-otros-favoritos-que-llegan-mejor/',
+      },
+      {
+        name: 'Excélsior · Otros llegan mejor que Argentina',
+        url: 'https://www.excelsior.com.mx/deportes/lionel-messi-revela-favoritos-para-mundial-2026-hay-que-llegan-mejor-que-argentina',
+      },
+      {
+        name: 'El Gráfico · Entre el adiós y el Mundial',
+        url: 'https://www.elgrafico.com.ar/articulo/lionel-messi/99780/messi-entre-el-adios-y-el-mundial-2026-argentina-llega-bien-pero-otros-favoritos-llegan-mejor',
+      },
+      {
+        name: 'Minuto Uno · Bajó la euforia',
+        url: 'https://www.minutouno.com/deportes/lionel-messi-la-euforia-antes-del-mundial-2026-hay-otros-favoritos-que-llegan-mejor-n6275459',
+      },
+      {
+        name: 'Crónica · No es la favorita',
+        url: 'https://www.cronica.com.ar/depo/mundial2026/para-messi-la-seleccion-argentina-no-es-la-favorita-en-el-mundial-2026-otros-llegan-mejor/',
+      },
+      {
+        name: 'RPC TV Panamá',
+        url: 'https://www.rpctv.com/futbol-internacional/futbol/lionel-messi-revela-sus-favoritos-ganar-el-mundial-2026-n6078615',
+      },
+    ],
+    image: {
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Lionel-Messi-Argentina-2022-FIFA-World-Cup_(cropped).jpg?width=1200',
+      alt: 'Lionel Messi con la selección argentina en el Mundial de Qatar 2022. En mayo de 2026 puso a Francia, España y Brasil por encima de Argentina como favoritos al Mundial',
+      credit: 'Foto: Wikimedia Commons',
+      license: 'CC BY 3.0',
+    },
+  },
+  {
     slug: 'shakira-dai-dai-cancion-oficial-mundial-2026-burna-boy',
     title:
       '«Dai Dai»: Shakira firma el himno oficial del Mundial 2026 con Burna Boy 16 años después de «Waka Waka»',
