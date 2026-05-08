@@ -1,0 +1,96 @@
+{
+  "generatedAt": "2026-05-08T08:09:28.924Z",
+  "date": "2026-05-08",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "codigos album virtual mundial 2026",
+      "geo": "AR",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Ni Messi ni Maradona: la figurita más buscada era un defensor de Zaire",
+          "url": "https://tn.com.ar/deportes/mundial/2026/2026/05/07/engrudo-recreos-y-albumes-clandestinos-como-las-figuritas-del-mundial-se-volvieron-una-pasion-nacional/",
+          "source": "TN"
+        },
+        {
+          "title": "Kiosqueros denuncian faltante de figuritas del Mundial",
+          "url": "https://www.pagina12.com.ar/2026/05/05/kiosqueros-denuncian-faltante-de-figuritas-del-mundial/",
+          "source": "Página|12"
+        },
+        {
+          "title": "La obsesión no terminó en Qatar 2022: así es el mercado de figuritas del Mundial que sigue vivo cuatro años después",
+          "url": "https://www.lagaceta.com.ar/nota/1135686/deportes/obsesion-no-termino-qatar-2022-asi-mercado-figuritas-mundial-sigue-vivo-cuatro-anos-despues.html",
+          "source": "La Gaceta"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "es": [
+      {
+        "query": "codigos album virtual mundial 2026",
+        "score": 130,
+        "geos": [
+          "AR"
+        ],
+        "samples": [
+          {
+            "query": "codigos album virtual mundial 2026",
+            "geo": "AR",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Ni Messi ni Maradona: la figurita más buscada era un defensor de Zaire",
+                "url": "https://tn.com.ar/deportes/mundial/2026/2026/05/07/engrudo-recreos-y-albumes-clandestinos-como-las-figuritas-del-mundial-se-volvieron-una-pasion-nacional/",
+                "source": "TN"
+              },
+              {
+                "title": "Kiosqueros denuncian faltante de figuritas del Mundial",
+                "url": "https://www.pagina12.com.ar/2026/05/05/kiosqueros-denuncian-faltante-de-figuritas-del-mundial/",
+                "source": "Página|12"
+              },
+              {
+                "title": "La obsesión no terminó en Qatar 2022: así es el mercado de figuritas del Mundial que sigue vivo cuatro años después",
+                "url": "https://www.lagaceta.com.ar/nota/1135686/deportes/obsesion-no-termino-qatar-2022-asi-mercado-figuritas-mundial-sigue-vivo-cuatro-anos-despues.html",
+                "source": "La Gaceta"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [],
+  "alreadyCovered": [
+    {
+      "query": "codigos album virtual mundial 2026",
+      "matchUrl": "/coleccionismo/panini-mundial-2026"
+    }
+  ]
+}
