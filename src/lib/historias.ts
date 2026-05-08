@@ -667,6 +667,46 @@ La travesía fue larga. Los entrenamientos se hicieron en cubierta, en una zona 
 
 El barco atracó en el puerto de Montevideo el 4 de julio de 1930, nueve días antes de que arrancara el torneo. Las tres selecciones europeas y la brasileña desembarcaron en orden, escoltadas por una muchedumbre uruguaya que aplaudió en el muelle. Rimet bajó con la copa envuelta en papel de seda. Trece días más tarde, el 30 de julio, esa misma copa volvía a subir al podio del Estadio Centenario en manos de José Nasazzi, capitán uruguayo, después de que el equipo charrúa derrotara 4-2 a Argentina en la primera final mundial. El SS Conte Verde, mientras tanto, ya había emprendido el viaje de regreso. Dos años más tarde, su naviera quebró por la crisis del 29. El barco siguió en activo bajo otra empresa hasta 1943, cuando se hundió en Shanghái durante la Segunda Guerra Mundial. La travesía que hizo posible el primer Mundial es probablemente la página menos contada de la historia del fútbol.`,
   },
+  {
+    n: 16,
+    slug: 'pickles-perro-encontro-copa-mundial-robada-1966',
+    publishDate: '2026-05-10',
+    blockCode: 'S5',
+    category: 'humor',
+    protagonist: 'Pickles, collie inglés',
+    quote: 'El perro que salvó el Mundial.',
+    quoteDate: '1966-03-28',
+    context:
+      'Marzo de 1966. Inglaterra organiza su primer Mundial cuatro meses después y la Copa Jules Rimet, expuesta al público en una exposición de sellos en Westminster, es robada. Una semana de pánico nacional, Scotland Yard movilizado, prensa diaria, una nota de extorsión. El trofeo más buscado del planeta lo encontró un perro paseando con su dueño por un barrio del sur de Londres.',
+    source: {
+      name: 'Wikipedia · Pickles (dog)',
+      url: 'https://en.wikipedia.org/wiki/Pickles_(dog)',
+    },
+    sourceSecondary:
+      'Wikipedia (1966 theft of the Jules Rimet Trophy) · British Newspaper Archive · Londonist · National Football Museum · The Ringer',
+    certainty: 'Alta',
+    title: 'Pickles, el perro que encontró la Copa del Mundo robada en 1966',
+    excerpt:
+      'Domingo 27 de marzo de 1966, Beulah Hill, sur de Londres. Un collie blanco y negro de cuatro años husmea entre un seto y la rueda de un coche aparcado y desentierra el trofeo más buscado del fútbol. Una semana antes había sido robado en plena exhibición pública.',
+    cover: {
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Pickles_dog.jpg?width=1200',
+      alt: 'Pickles, el collie inglés blanco y negro que en marzo de 1966 encontró la Copa Jules Rimet del Mundial mientras paseaba con su dueño en el sur de Londres',
+      credit: 'Foto: Wikimedia Commons',
+      license: 'Dominio público',
+      source: 'https://commons.wikimedia.org/wiki/File:Pickles_dog.jpg',
+    },
+    body: `El 20 de marzo de 1966, cuando faltaban exactamente cuatro meses para el kickoff del primer Mundial organizado por Inglaterra, la Copa Jules Rimet de oro macizo —la copa diseñada por el escultor francés Abel Lafleur en 1929 y que llevaba el nombre del expresidente de la FIFA desde 1946— estaba expuesta al público en una vitrina de cristal del Methodist Central Hall de Westminster. La exposición no era de fútbol. Era una muestra de sellos llamada Stampex, organizada por la casa de subastas Stanley Gibbons. La FIFA había aceptado prestar el trofeo durante cinco días por una mezcla de propaganda nacional y vanidad institucional. Cuando los guardias volvieron al salón al final de la tarde del domingo, la copa ya no estaba.
+
+El robo desató una crisis nacional. Sir Stanley Rous, presidente de la FIFA, llegó esa noche a Londres furioso. La Football Association inglesa hizo declaraciones públicas pidiendo serenidad. La policía metropolitana abrió una investigación con el inspector jefe Charles Buggy al frente. Tres días después llegó al despacho del presidente de la FA un sobre con una etiqueta de la copa cortada y una nota anónima exigiendo 15.000 libras a cambio de la devolución del trofeo, con instrucciones para depositar el dinero en un parque público. La policía detuvo en una operación encubierta a un comerciante de coches usados llamado Edward Betchley, pero el trofeo no apareció.
+
+Los días siguientes fueron de pánico. La prensa británica publicó portadas diarias. Los tabloides llamaron a la operación Operation Stripes. Los políticos pidieron acelerar la investigación. La selección inglesa entrenaba en Lilleshall sin saber qué pasaría con la final. Si el trofeo no aparecía a tiempo, la FIFA tendría que improvisar una réplica de plata para la entrega del 30 de julio en Wembley. Inglaterra pasaría a la historia como el país anfitrión que perdió el trofeo en una exposición de sellos.
+
+El descubrimiento llegó el domingo 27 de marzo, siete días después del robo, en el barrio de Upper Norwood, sur de Londres. David Corbett, un trabajador del puerto del Támesis de 26 años, salió a pasear con su perro Pickles, un collie blanco y negro de cuatro años. En Beulah Hill, una calle residencial cualquiera, el perro se metió entre un seto y la rueda delantera de un coche aparcado. Olfateó. Sacó con la boca un paquete envuelto en papel de periódico atado con un cordel. Corbett lo abrió. Era la Copa Jules Rimet. Llamó a la policía. Lo detuvieron en comisaría durante varias horas mientras descartaban que fuera él el ladrón o un cómplice. Lo soltaron de madrugada con la copa custodiada y el héroe sin protagonismo.
+
+La compensación llegó después. Pickles fue invitado al banquete de la victoria de Inglaterra en el Royal Garden Hotel de Kensington la noche del 30 de julio, después del 4-2 contra Alemania. Pasó la noche oliendo platos sin probarlos. Le pusieron un collar conmemorativo con medallas regaladas por aficionados, incluida una otorgada por la Italian Canine Defence League. La revista Spillers lo nombró Perro del Año y le regaló comida gratis durante doce meses. Corbett recibió de la junta del Mundial inglés 5.000 libras como recompensa por encontrar el trofeo. Los jugadores ingleses, los campeones del mundo, recibieron 22.000 libras a repartir entre los veintidós convocados, lo que daba aproximadamente 1.000 libras por cabeza. Es decir: David Corbett y Pickles ganaron por encontrar la copa cinco veces lo que cada jugador inglés ganó por levantarla.
+
+La historia tuvo un epílogo trágico. En 1967, un año después del Mundial, los Corbett se mudaron a una casa en el campo de Surrey. Una tarde, paseando por el jardín, Pickles se lanzó a perseguir un gato hacia un seto. La correa de ahorcado que llevaba al cuello —una correa de adiestramiento de las llamadas choke chain, hoy prohibidas en muchos países— se enganchó en una rama gruesa. Para cuando David lo encontró, llevaba minutos sin respirar. Pickles está enterrado en el jardín trasero de aquella casa con una pequeña lápida que solo dice su nombre. Cuando los Corbett vendieron la casa, los nuevos dueños mantuvieron la lápida intacta. La FA inglesa, por lo demás, lo tiene homenajeado en el National Football Museum de Mánchester con un collar suyo y una placa que recuerda lo que el museo describe sin ironía como la mejor anécdota canina de la historia del fútbol mundial.`,
+  },
 ];
 
 // ───────────────────────────────────────────────────────────
