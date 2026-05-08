@@ -117,6 +117,56 @@ export const NEWS_ITEMS: NewsItem[] = [
     },
   },
   {
+    slug: 'mundial-2026-entradas-disponibilidad-17-partidos-agotados-mayo',
+    title:
+      '17 partidos agotados, 80 aún con stock: el mapa real de las entradas del Mundial 2026 a un mes del kickoff',
+    summary:
+      'A un mes del torneo, FIFA confirma 17 partidos de fase de grupos agotados, entre ellos el inaugural México-Sudáfrica, Brasil-Marruecos en MetLife y Escocia-Brasil en Miami. Más de 80 partidos siguen con stock en fase 4. Categoría 3 más asequible: 380 dólares en siete encuentros concretos. La más cara de la fase de grupos: 4.105 dólares para USA-Paraguay del 12 de junio en SoFi.',
+    body: `**El cuadro a un mes vista.** A pocas semanas del partido inaugural en el Estadio Azteca, FIFA mantiene activa la fase 4 (Last-Minute Sales) con un escenario mixto: 17 de los 72 partidos de fase de grupos están oficialmente agotados, mientras que más de 80 partidos siguen con inventario en fifa.com/tickets, según los datos publicados por la organización a principios de mayo. La paradoja explícita: Infantino dijo en enero que la demanda equivalía a «mil años de Copas del Mundo a la vez», y aun así hay disponibilidad amplia.
+
+**Los partidos agotados.** Entre los confirmados como sold out figuran los tres partidos de México (incluido el inaugural ante Sudáfrica, México-Corea del Sur en Guadalajara y México-Chequia en CDMX), Türkiye-USA en Los Ángeles, Brasil-Marruecos en MetLife (Nueva York/NJ) y Escocia-Brasil en Miami. La mayoría son partidos con anfitrión local, partidos de cabezas de serie con grandes diásporas en USA, o duelos morbosos como el Brasil de Vinícius Jr.
+
+**Los más caros, los más baratos.** El asiento más asequible disponible al público parte de 380 dólares y está reservado a siete partidos concretos: Austria-Jordania, Nueva Zelanda-Egipto, Jordania-Argelia, Cabo Verde-Arabia Saudí, Argelia-Austria, RD del Congo-Uzbekistán y Curaçao-Costa de Marfil. En el otro extremo, USA-Paraguay del 12 de junio en SoFi Stadium (partido inaugural compartido) llega a 4.105 dólares en Cat. 1 — el partido más caro de fase de grupos, por encima incluso de Argentina-Austria (2.925 USD), Ecuador-Alemania (2.550) y Uruguay-España (2.520).
+
+**Eliminatorias y final.** La semifinal en Atlanta se vende a 9.660 dólares en Cat. 1 frontal. La final del 19 de julio (MetLife) parte de 1.490 dólares en Cat. 3, llega oficialmente hasta 7.875 USD en Cat. 1, sube a 10.990 dólares en la nueva categoría Front 1 (frontal premium) y, en la plataforma de reventa oficial FIFA, ha aparecido marcada hasta los 2,3 millones de dólares por unidad. La hospitality oficial (paquetes premium en hospitality.fifa.com) sigue disponible para más de 100 partidos.
+
+**Cómo funciona la fase 4.** Desde el 1 de abril, FIFA libera lotes de inventario por orden de llegada (no por sorteo) cada vez que aparece nueva disponibilidad — sea por liberaciones del propio inventario, por entradas devueltas o por reventa oficial. La compra es por orden cronológico de llegada y los precios son dinámicos, ajustándose en tiempo real según la demanda de cada partido.`,
+    category: 'entradas',
+    sourceName: 'Yahoo Sports',
+    sourceUrl:
+      'https://sports.yahoo.com/soccer/article/fifa-claims-to-have-508-million-requests-for-7-million-available-tickets-so-why-are-plenty-of-tickets-still-available-235241494.html',
+    sourceLang: 'en',
+    publishedAt: '2026-05-08T09:00:00+00:00',
+    sourcesSecondary: [
+      {
+        name: 'FIFA · Last-Minute Sales fase 4',
+        url: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/last-minute-tickets-sales-phase-to-start-on-1-april',
+      },
+      {
+        name: 'FIFA · ticket drop 22 abril',
+        url: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/last-minute-sales-phase-new-ticket-drop-22-april',
+      },
+      {
+        name: 'FOX LA · pricing strategy backlash',
+        url: 'https://www.foxla.com/news/world-cup-2026-ticket-prices-fifa-strategy',
+      },
+      {
+        name: 'Líder en Deportes · entradas primeros partidos',
+        url: 'https://www.liderendeportes.com/noticias/futbol/internacional-football/mundial-2026-entradas-para-los-primeros-partidos-siguen-a-la-venta/',
+      },
+      {
+        name: 'El Mañana · precios hasta 4.105 USD',
+        url: 'https://www.elmanana.com/deportes/futbol/precios-de-entradas-mundial-2026-hasta-4105-dolares/6127327',
+      },
+    ],
+    image: {
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/MetLife_Stadium_(36436248206).jpg?width=1200',
+      alt: 'MetLife Stadium en Nueva Jersey, sede de la final del Mundial 2026 y de Brasil-Marruecos (partido agotado)',
+      credit: 'Foto: Wikimedia Commons',
+      license: 'CC BY-SA 2.0',
+    },
+  },
+  {
     slug: 'precios-entradas-mundial-2026-trump-fifa-fse-demanda-ue',
     title:
       'Trump, Football Supporters Europe y la reventa de 2,3 millones: la FIFA defiende los precios dinámicos del Mundial 2026',
@@ -164,6 +214,56 @@ export const NEWS_ITEMS: NewsItem[] = [
       alt: 'Donald Trump, presidente de Estados Unidos y anfitrión moral del Mundial 2026, criticó públicamente los precios de las entradas',
       credit: 'Retrato presidencial oficial 2025 · Wikimedia Commons',
       license: 'Dominio público (obra del gobierno federal de EE. UU.)',
+    },
+  },
+  {
+    slug: 'mundial-2026-entradas-estafas-4000-dominios-sospechosos-profeco',
+    title:
+      'La cara oscura del Mundial 2026: 4.000 dominios sospechosos detectados y alerta global por estafas con entradas',
+    summary:
+      'Check Point ha detectado más de 4.000 dominios web vinculados al Mundial 2026 creados para fraudes con boletos, transmisión ilegal y productos falsificados. La PROFECO mexicana emitió alerta a finales de abril. FIFA insiste: cualquier oferta fuera de fifa.com/tickets es estafa. Las modalidades más detectadas: webs que imitan al sitio oficial, ofertas en redes sociales y paquetes turísticos a precio sospechosamente bajo.',
+    body: `**El otro lado del Mundial.** Mientras FIFA defiende sus precios dinámicos en pleno escándalo público y libera lotes semanales de entradas en fase 4, la cara oscura del torneo se mueve a otra velocidad. La empresa de ciberseguridad Check Point Software Technologies informó que en apenas dos meses se han registrado más de 4.000 dominios web vinculados al Mundial 2026. La mayoría no son sitios legítimos de información o turismo: están diseñados para fraudes de boletos, transmisión ilegal de partidos y venta de productos falsificados.
+
+**Las modalidades más detectadas.** Los ciberdelincuentes operan en tres frentes principales. **Webs falsas que imitan a fifa.com/tickets**: usan extensiones .com, .online, .shop, .store y .football, copian el diseño oficial y capturan datos de tarjeta cuando el comprador intenta «comprar entradas» a precio asequible. **Ofertas en redes sociales**: posts pagados en Instagram, Facebook y X con precios «especiales» que llevan a chats privados de Telegram o WhatsApp donde piden transferencias bancarias inmediatas. **Paquetes turísticos sospechosos**: agencias inexistentes que venden vuelo + hotel + entrada por debajo del precio de la entrada oficial sola.
+
+**PROFECO México alerta.** La Procuraduría Federal del Consumidor mexicana emitió a finales de abril una alerta formal por el incremento en el número de denuncias por estafa con boletos del Mundial. En el territorio mexicano la reventa de boletos está prohibida, lo que añade una capa legal: comprar a un revendedor en México no solo es arriesgado, también puede ser sancionable.
+
+**FIFA, oficial y único.** La organización repite el mismo mensaje desde febrero de 2026: el único canal oficial es **fifa.com/tickets**. Cualquier otra fuente —incluso sitios que parezcan «socios» o «aliados»— está fuera del sistema. FIFA tiene además una plataforma oficial de reventa dentro de fifa.com/tickets, que es la única forma legal y segura de comprar entradas usadas. Webs de terceros como StubHub o Viagogo no están autorizadas: el ticket puede ser cancelado en la entrada del estadio.
+
+**Cómo no caer.** Las recomendaciones de las autoridades son consistentes: desconfiar de precios demasiado bajos o promociones urgentes, no comprar desde enlaces enviados por redes sociales o mensajería privada, no transferir dinero a cuentas particulares, no compartir códigos de verificación bancarios. Y, ante la duda, comprobar el dominio: el oficial es exactamente **fifa.com/tickets**, sin guiones, sin subdominios extraños, con candado SSL. Cualquier otra cosa, no.`,
+    category: 'polemica',
+    sourceName: 'Infobae · Tecno',
+    sourceUrl:
+      'https://www.infobae.com/tecno/2025/10/06/la-otra-cara-de-la-copa-mundial-fifa-2026-cibercriminales-robando-y-mas-de-4000-dominios-sospechosos/',
+    sourceLang: 'es',
+    publishedAt: '2026-05-08T06:00:00+00:00',
+    sourcesSecondary: [
+      {
+        name: 'PROFECO México · alerta estafas (Informador)',
+        url: 'https://www.informador.mx/deportes/mundial-2026-profeco-lanza-alerta-por-incremento-de-estafas-en-venta-de-boletos-20260423-0218.html',
+      },
+      {
+        name: 'Infobae · cómo operan los ciberdelincuentes',
+        url: 'https://www.infobae.com/tecno/2026/03/04/autoridades-alertan-por-fraudes-con-boletos-del-mundial-2026-como-operan-los-ciberdelincuentes/',
+      },
+      {
+        name: 'Semana · truco de los delincuentes',
+        url: 'https://www.semana.com/tecnologia/articulo/mucho-ojo-con-las-entradas-del-mundial-2026-expertos-lanzan-alerta-sobre-el-truco-que-estan-usando-delincuentes-para-estafar/202600/',
+      },
+      {
+        name: 'Sports Illustrated MX · boletos falsos',
+        url: 'https://www.si.com/mx/futbol/estafa-en-juego-advierten-sobre-boletos-falsos-para-el-mundial-2026',
+      },
+      {
+        name: 'Global Rescue · scams Mundial 2026',
+        url: 'https://www.globalrescue.com/common/blog/detail/2026-fifa-world-cup-scams',
+      },
+    ],
+    image: {
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Computer_security.jpg?width=1200',
+      alt: 'Imagen genérica de ciberseguridad. Check Point detectó más de 4.000 dominios sospechosos vinculados al Mundial 2026',
+      credit: 'Foto: Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
     },
   },
   {
