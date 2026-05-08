@@ -747,6 +747,44 @@ La federación argelina presentó queja oficial a la FIFA al día siguiente. La 
 
 El cambio llegó cuatro años después. La FIFA, presionada por la conmoción internacional y por el precedente que el Disastro había sentado, modificó el reglamento del Mundial 1986 de México: a partir de aquella edición, los dos partidos finales de cada grupo se jugarían simultáneamente en sedes distintas. La medida hacía técnicamente imposible que dos equipos calcularan aritméticamente un resultado sin saber en tiempo real qué estaba pasando en el otro estadio. Es la razón por la que, en cualquier Mundial actual, los terceros partidos del grupo se juegan al mismo minuto. Es también la razón por la que la sorpresa de Argelia 1982 no se tradujo en clasificación a octavos: la FIFA reconoció a posteriori que el reglamento de aquel torneo había permitido que dos selecciones se entendieran entre sí para eliminar a una tercera. Cambió la regla, pero no devolvió a Argelia los días que ya había perdido en Gijón.`,
   },
+  {
+    n: 18,
+    slug: 'cruyff-secuestro-barcelona-mundial-argentina-1978',
+    publishDate: '2026-05-12',
+    blockCode: 'S4',
+    category: 'mixta',
+    protagonist: 'Johan Cruyff',
+    quote: 'Alguien me puso un rifle en la cabeza, me ató y ató a mi mujer delante de los niños, en nuestro piso de Barcelona.',
+    quoteDate: '2008-04-10',
+    context:
+      'Durante treinta años, una de las mayores incógnitas del fútbol europeo fue por qué Johan Cruyff, el mejor jugador de su generación, capitán de la Naranja Mecánica subcampeona del Mundial 1974 y todavía en activo en el Barça en 1978, decidió no acudir a la Copa del Mundo de Argentina. La versión oficial fue siempre genérica: motivos personales. La auténtica razón se reveló en 2008.',
+    source: {
+      name: 'The Irish Times · Kidnapping attempt kept Cruyff away',
+      url: 'https://www.irishtimes.com/sport/kidnapping-attempt-kept-cruyff-away-from-1978-world-cup-1.914111',
+    },
+    sourceSecondary:
+      'Wikipedia (Johan Cruyff) · Catalunya Ràdio entrevista 2008 · Tribuna · Flashscore · The Daily Star · Football Whispers',
+    certainty: 'Alta',
+    title: 'El secuestro de Barcelona que dejó a Cruyff fuera del Mundial 1978',
+    excerpt:
+      'Noviembre de 1977, piso de los Cruyff en Barcelona. Hombres armados entran de noche, atan al matrimonio delante de los niños y exigen rescate. Treinta y un años después, en abril de 2008, Johan Cruyff explicó por primera vez por qué no había ido al Mundial de Argentina.',
+    cover: {
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Johan_Cruijff_(1974).jpg?width=1200',
+      alt: 'Johan Cruyff con la selección de Países Bajos en el Mundial 1974, la Naranja Mecánica que llegaría a la final. Cuatro años después no acudiría al Mundial de Argentina',
+      credit: 'Foto: Wikimedia Commons',
+      license: 'Dominio público',
+      source: 'https://commons.wikimedia.org/wiki/File:Johan_Cruijff_(1974).jpg',
+    },
+    body: `Durante tres décadas, la ausencia de Johan Cruyff en el Mundial de Argentina 1978 fue un misterio bien guardado. Cruyff tenía 31 años cuando arrancó el torneo. Un año antes había llevado al FC Barcelona a ganar la Copa del Generalísimo, todavía estaba en activo, llevaba el peso del fútbol total que había revolucionado dos Mundiales atrás con la Naranja Mecánica de Rinus Michels, y la KNVB —la federación holandesa— contaba con él para liderar al equipo en Argentina. Cuatro semanas antes del kickoff anunció su decisión: no iría. Las razones que ofreció fueron deliberadamente vagas. Los periodistas escribieron sobre el agotamiento físico, sobre desavenencias con los técnicos, sobre cuestiones contractuales pendientes. Algunos sugirieron que rechazaba ir a un país gobernado por la junta militar de Videla, en pleno auge de la represión; Cruyff había firmado en marzo de 1978 una carta colectiva contra la dictadura junta a otros jugadores europeos. La conversación quedó ahí. Holanda viajó a Argentina sin él, llegó otra vez a la final, perdió 3-1 ante los anfitriones con dos goles de Mario Kempes en el tiempo extra y volvió a casa con el subcampeonato repetido. Cruyff vio el partido por televisión.
+
+La verdad llegó en abril de 2008. En una entrevista con la cadena pública Catalunya Ràdio durante la promoción de un libro autobiográfico, Cruyff describió por primera vez en público el episodio que le hizo decidir no jugar el Mundial. Una noche de noviembre de 1977, en el piso familiar del barrio de Pedralbes en Barcelona, varios hombres armados entraron en la vivienda. Lo encontraron a él en el salón con su mujer, Danny Coster, y los tres niños pequeños. Le pusieron un rifle en la cabeza. Lo ataron. Ataron a Danny delante de las criaturas. Pidieron rescate. La operación se frustró por una llamada de teléfono que el matrimonio había acordado con un familiar como código de seguridad: si no respondían en hora, la familia avisaba a la policía. Los Mossos llegaron a tiempo y los asaltantes huyeron sin completar el secuestro. Nadie publicó la noticia entonces. La policía catalana la investigó como caso reservado durante meses sin llegar a identificar al grupo.
+
+Las consecuencias para la familia Cruyff fueron inmediatas y duraron meses. Los tres niños iban al colegio escoltados por la policía. Un agente armado dormía en la casa de Pedralbes durante tres o cuatro meses. Cruyff acudía a los entrenamientos del Barça y a los partidos del Camp Nou con guardaespaldas. Su mujer, según Cruyff explicó después, no volvió a estar tranquila. La decisión de no ir a Argentina, dijo Cruyff en aquella entrevista de 2008, no fue una decisión deportiva: fue la única manera de no separar de la familia durante un mes y medio en un país en pleno régimen militar. La frase exacta que pronunció en Catalunya Ràdio fue: «Alguien me puso un rifle en la cabeza, me ató y ató a mi mujer delante de los niños, en nuestro piso de Barcelona. Mi mujer y yo decidimos que necesitábamos parar el fútbol durante un tiempo».
+
+Las hipótesis sobre quién organizó el intento nunca se han cerrado de forma oficial. Periodistas españoles que cubrieron la información en su momento manejaron tres líneas. Una vinculaba el caso a delincuencia común catalana, sin connotación política, motivada por el patrimonio de la estrella del Barça. Otra apuntaba a la junta militar argentina, que en aquel entonces ya estaba presionando a la KNVB para que sus jugadores asistieran al Mundial pese a las protestas internacionales por las violaciones de derechos humanos: la teoría sugería que el secuestro buscaba intimidar a Cruyff para que no liderara una posible retirada del torneo. La tercera, ya descartada en su momento por la propia policía catalana, atribuía el intento al entorno de ETA en su fase política más activa de finales de los setenta. Ninguna de las tres se ha podido probar. Cruyff, en sus declaraciones de 2008, no señaló a ningún grupo concreto. Dijo solo que la experiencia le había hecho cambiar la perspectiva sobre la prioridad de su vida.
+
+El epílogo deportivo es triste. Holanda jugó la final del 25 de junio de 1978 en el Estadio Monumental de Buenos Aires. La selección, sin Cruyff y con la mitad del equipo cuestionando al técnico Ernst Happel, llegó al descanso 1-0 abajo, empató 1-1 al minuto 82 con un gol de Dick Nanninga, llegó a la prórroga, y Mario Kempes, jugador del Valencia y máximo goleador del Mundial, marcó dos goles para sentenciar el partido. Argentina celebró su primer título mundial, en pleno régimen militar, con la final más cuestionada de la historia. Holanda regresó a Ámsterdam con su segundo subcampeonato consecutivo. Cruyff lo vio desde Barcelona. Treinta años después, cuando finalmente contó por qué no había ido, pocos en Holanda le reprocharon la decisión. La mayoría había dado por hecho durante décadas que, fuera lo que fuera, sería más importante que un partido.`,
+  },
 ];
 
 // ───────────────────────────────────────────────────────────
