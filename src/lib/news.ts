@@ -73,6 +73,50 @@ export type NewsItem = {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'shakira-dai-dai-cancion-oficial-mundial-2026-burna-boy',
+    title:
+      '«Dai Dai»: Shakira firma el himno oficial del Mundial 2026 con Burna Boy 16 años después de «Waka Waka»',
+    summary:
+      'Shakira vuelve al himno mundialista 16 años después de «Waka Waka». Su nueva canción se llama «Dai Dai», la firma con el nigeriano Burna Boy y la presentó el 7 de mayo en un teaser grabado en el Maracaná. Estreno completo el 14 de mayo. Convive con «Love Always Wins» de Estefan, ahora reposicionada como banda sonora promocional latina.',
+    body: `**El regreso 16 años después.** Shakira oficializó la noche del 7 de mayo de 2026 su segundo himno oficial para una Copa del Mundo: «Dai Dai», una colaboración con el cantante nigeriano Burna Boy producida con el sello FIFA. La pieza se estrena por completo el 14 de mayo en plataformas de streaming, dejando un teaser de un minuto disponible desde el día del anuncio. Es la primera canción oficial de FIFA que firma Shakira desde «Waka Waka (This Time for Africa)» en Sudáfrica 2010, un tema que vendió más de cuatro millones de copias y se convirtió en uno de los temas comerciales más exitosos del catálogo mundialista.
+
+**Dónde y con quién.** El videoclip de presentación está grabado en el Estadio Maracaná de Río de Janeiro, no en una sede del Mundial 2026. La elección, fuera de protocolo (los himnos suelen presentarse en el país anfitrión o en estudio neutro), refuerza el pulso latino que FIFA ha impreso al torneo norteamericano. Burna Boy, ganador de un Grammy y figura clave de la fusión afrobeats global, aparece junto a Shakira en una coreografía con bailarines internacionales. La fusión musical mezcla reggaetón, afrobeats y percusión brasileña, con letra en español e inglés.
+
+**El nombre.** «Dai dai» es una expresión italiana que significa «vamos, vamos» y se usa en estadios europeos como cántico de aliento. La elección rompe con la tradición de títulos en español o en inglés americano y apunta directamente al mercado europeo del fútbol, no al norteamericano. Es una pista de que FIFA quiere que el himno funcione tanto en USA como en Italia, Inglaterra o Alemania.
+
+**Coexistencia con «Love Always Wins».** Este sitio publicó el 1 de mayo una nota sobre Emilio Estefan firmando «Love Always Wins» como canción del Mundial. La diferencia se aclara ahora: «Love Always Wins» queda como pieza promocional latina de la banda sonora oficial, mientras «Dai Dai» asume el rol de himno oficial global de FIFA. Es el modelo Qatar 2022, donde «Hayya Hayya» fue el himno mundial y otros temas circularon a nivel regional.`,
+    category: 'ceremonia',
+    sourceName: 'Olympics.com',
+    sourceUrl:
+      'https://www.olympics.com/en/news/shakira-2026-fifa-world-cup-anthem-dai-dai-teaser',
+    sourceLang: 'en',
+    publishedAt: '2026-05-08T10:00:00+00:00',
+    sourcesSecondary: [
+      {
+        name: 'Billboard',
+        url: 'https://www.billboard.com/music/latin/shakira-dai-dai-2026-fifa-world-cup-song-burna-boy-teaser-1236241647/',
+      },
+      {
+        name: 'Euronews',
+        url: 'https://www.euronews.com/culture/2026/05/08/dai-dai-shakira-teases-official-world-cup-2026-anthem',
+      },
+      {
+        name: 'Yahoo Sports',
+        url: 'https://sports.yahoo.com/articles/shakira-announces-long-awaited-fifa-170219112.html',
+      },
+      {
+        name: 'ESPN UK',
+        url: 'https://www.espn.co.uk/football/story/_/id/48710188/shakira-unveils-teaser-official-world-cup-anthem-burna-boy',
+      },
+    ],
+    image: {
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/2023-11-16_Gala_de_los_Latin_Grammy,_03_(cropped)02.jpg?width=1200',
+      alt: 'Shakira en la Gala de los Latin Grammy 2023, autora del himno oficial del Mundial 2026 «Dai Dai»',
+      credit: 'Foto: Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
     slug: 'lego-mundial-2026-coleccion-9-sets-messi-ronaldo-mbappe-vinicius',
     title:
       'LEGO presenta su colección Mundial 2026: nueve sets con Messi, Ronaldo, Mbappé y Vinícius Jr. desde 24,99 dólares',
