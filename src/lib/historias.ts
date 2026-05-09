@@ -785,6 +785,44 @@ Las hipótesis sobre quién organizó el intento nunca se han cerrado de forma o
 
 El epílogo deportivo es triste. Holanda jugó la final del 25 de junio de 1978 en el Estadio Monumental de Buenos Aires. La selección, sin Cruyff y con la mitad del equipo cuestionando al técnico Ernst Happel, llegó al descanso 1-0 abajo, empató 1-1 al minuto 82 con un gol de Dick Nanninga, llegó a la prórroga, y Mario Kempes, jugador del Valencia y máximo goleador del Mundial, marcó dos goles para sentenciar el partido. Argentina celebró su primer título mundial, en pleno régimen militar, con la final más cuestionada de la historia. Holanda regresó a Ámsterdam con su segundo subcampeonato consecutivo. Cruyff lo vio desde Barcelona. Treinta años después, cuando finalmente contó por qué no había ido, pocos en Holanda le reprocharon la decisión. La mayoría había dado por hecho durante décadas que, fuera lo que fuera, sería más importante que un partido.`,
   },
+  {
+    n: 19,
+    slug: 'sparwasser-rda-rfa-mundial-1974-stasi-desercion',
+    publishDate: '2026-05-13',
+    blockCode: 'S5',
+    category: 'historica',
+    protagonist: 'Jürgen Sparwasser',
+    quote: 'Cualquiera menos Sparwasser hubiera sido comprensible.',
+    quoteDate: '1988-01-15',
+    context:
+      '22 de junio de 1974. Volksparkstadion de Hamburgo. Primer y único partido oficial entre la República Federal de Alemania y la República Democrática Alemana. La RDA gana 1-0 con un gol de Jürgen Sparwasser al minuto 77. La RFA será campeona del mundo tres semanas después. La RDA nunca volverá a un Mundial.',
+    source: {
+      name: 'Wikipedia · East Germany v West Germany (1974 FIFA World Cup)',
+      url: 'https://en.wikipedia.org/wiki/East_Germany_v_West_Germany_(1974_FIFA_World_Cup)',
+    },
+    sourceSecondary:
+      'Wikipedia (Jürgen Sparwasser) · Bleacher Report · The Geopolitical Navigator · The Daily Star · These Football Times · Sports Illustrated · Champions Journal',
+    certainty: 'Media-Alta',
+    title: 'Sparwasser, el delantero que goleó a la RFA y desertó catorce años después',
+    excerpt:
+      '22 de junio de 1974, Hamburgo. La RDA gana 1-0 a la RFA en el único partido oficial entre las dos Alemanias en la historia. El goleador, Jürgen Sparwasser, desertó al Oeste en 1988. La Stasi nunca lo perdonó.',
+    cover: {
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv_Bild_183-P1017-0317,_Jürgen_Sparwasser.jpg?width=1200',
+      alt: 'Jürgen Sparwasser, delantero de la selección de la República Democrática Alemana, autor del gol que venció a la RFA en el Mundial 1974',
+      credit: 'Foto: Bundesarchiv · Wikimedia Commons',
+      license: 'CC BY-SA 3.0 Germany',
+      source: 'https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-P1017-0317,_J%C3%BCrgen_Sparwasser.jpg',
+    },
+    body: `El sorteo del Mundial 1974 emparejó por primera vez en la historia oficial a las dos Alemanias en el mismo grupo. La FIFA, presidida entonces por Stanley Rous, había aceptado que la RDA jugara su primera y única Copa del Mundo después de tres años de negociación diplomática que coincidió con la firma del Tratado Fundamental entre Bonn y Berlín Este de 1972. Los dos equipos compartirían el Grupo 1 de la fase final con Australia y Chile. La RFA era anfitriona, ostentaba el título europeo de 1972 y llegaba con Beckenbauer, Müller, Maier y Netzer en plenitud. La RDA llegaba con un equipo casi desconocido fuera del bloque del Este, formado por jugadores del FC Magdeburg, el Dynamo Dresden y el BFC Dynamo, entrenado por Georg Buschner, sin estrella mundial, sin contrato profesional individual, con sueldos administrados por el Estado. La aritmética era brutalmente clara: el último partido del grupo no decidía nada deportivamente porque ambos equipos ya estaban clasificados, pero decidía todo políticamente. Era el escaparate ideológico del bloque comunista frente a la Alemania occidental dentro de la Alemania occidental.
+
+El partido se jugó el sábado 22 de junio de 1974 en el Volksparkstadion de Hamburgo, a 60 kilómetros de la frontera con la RDA. La grada acogió a unos 60.000 espectadores, entre los que la Stasi había permitido viajar a aproximadamente 1.500 ciudadanos de la RDA en autobuses oficiales. La inmensa mayoría de aquellos viajeros eran agentes o colaboradores del Ministerio de Seguridad del Estado vestidos de civil, instruidos para entonar un cántico que repetía «¡siete, ocho, nueve, diez, super!» en alemán. Los servicios de inteligencia occidentales habían contado los autobuses al cruzar la frontera. La selección oriental llevaba además cinco oficiales de la Stasi en su delegación, entre médicos, fisios y traductores; una práctica habitual en cualquier viaje internacional de un equipo de la RDA.
+
+El gol llegó al minuto 77. Sparwasser, delantero del FC Magdeburg de 26 años, recibió un pase largo en el centro del campo, controló de pecho mientras avanzaba, golpeó el balón con la nariz para sortear a Berti Vogts y acabó por delante de Sepp Maier batiéndolo cruzado con la pierna izquierda. La acción tomó cuatro segundos. La grada de la RDA estalló. La RDA gana 1-0 a la RFA en territorio alemán occidental, en su único Mundial. La RFA cae al segundo lugar del grupo. Y aquí ocurre la paradoja más cruel: la derrota empuja a la RFA al cuadro fácil de octavos. Los alemanes occidentales avanzaron con menor presión, ganaron a Yugoslavia, Suecia, Polonia y Holanda en la final. La RDA, al ganar el grupo, fue emparejada con el cuadro duro de Brasil, Argentina y Holanda y quedó eliminada en la segunda fase sin pasar a semifinales. Sparwasser admitió años después la ironía: el gol que le hizo héroe nacional probablemente le costó a su selección la oportunidad de llegar a las semifinales del Mundial.
+
+El gobierno de la RDA gestionó la victoria con una incomodidad llamativa. Erich Honecker, secretario general del SED, no apareció en el banquete de celebración. La televisión estatal emitió una sola repetición del gol en el noticiero del lunes y luego desapareció del archivo público durante años. Las consignas oficiales pidieron «no exagerar» el resultado para no humillar diplomáticamente a la RFA, con la que la RDA había normalizado relaciones dos años antes. Sparwasser recibió un coche Wartburg, el modelo común para deportistas distinguidos del bloque, pero no la villa ni la pensión vitalicia que el rumor popular le atribuía. «Decían que me dieron coche, casa y prima en metálico», explicaría tres décadas después. «Solo recibí el Wartburg. El resto era mito.»
+
+El epílogo se cerró en enero de 1988. Sparwasser, retirado del fútbol y entrenando categorías inferiores en Magdeburgo, viajó a Saarbrücken al oeste para disputar un torneo de veteranos. No regresó. Cruzó la frontera con su esposa Karola y pidió asilo a la RFA. La Stasi gestionó la deserción como un golpe simbólico personal. Un coronel del Ministerio de Seguridad del Estado anotó en el expediente, según los archivos desclasificados tras la caída del Muro, una frase que se ha hecho famosa en la historiografía alemana: cualquiera menos Sparwasser hubiera sido comprensible. La RDA cayó once meses después, y con ella la propia razón por la que el gol existió. Sparwasser vive desde entonces en Frankfurt, ha dado decenas de entrevistas, y suele recordar lo mismo: marcó el gol más importante de su vida en un partido que su propio país prefirió olvidar.`,
+  },
 ];
 
 // ───────────────────────────────────────────────────────────
