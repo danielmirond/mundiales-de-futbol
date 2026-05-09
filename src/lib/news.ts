@@ -56,6 +56,21 @@ export type NewsItem = {
   /** Fechas de publicación / actualización (ISO 8601). */
   publishedAt: string;
   modifiedAt?: string;
+  /**
+   * ID del autor humano (clave del catálogo `AUTHORS` en `src/lib/authors.ts`).
+   * Si se omite, la pieza se firma como `Organization` (Mundial de Fútbol).
+   * La filtración Google API Content Warehouse (mayo 2024) confirma que
+   * Google valora autoría humana documentada con `sameAs` a perfiles
+   * públicos del autor (E-E-A-T). Recomendado para todas las piezas
+   * editoriales nuevas.
+   */
+  authorId?: string;
+  /**
+   * Claves de entidades del catálogo `WIKIDATA_ENTITIES` mencionadas
+   * en la pieza. El JSON-LD `mentions` apuntará a Wikidata + Wikipedia
+   * por cada una, conectando la pieza al Knowledge Graph de Google.
+   */
+  mentionsEntities?: string[];
   /** Fuentes secundarias (atribución adicional, para verificación cruzada). */
   sourcesSecondary?: { name: string; url: string }[];
   /**

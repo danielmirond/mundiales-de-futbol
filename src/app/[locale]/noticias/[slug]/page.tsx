@@ -17,6 +17,8 @@ import {
 } from '@/lib/news';
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl, SEO } from '@/lib/seo';
+import { authorJsonLd } from '@/lib/authors';
+import { sameAsForEntity, getEntity } from '@/lib/entities-wikidata';
 
 function withLocale(locale: Locale, href: string) {
   if (locale === routing.defaultLocale) return href;
@@ -90,8 +92,32 @@ export default async function NoticiaDetail({
   const related = getRelatedNews(slug, 3);
   const url = localeUrl(locale, `/noticias/${item.slug}`);
 
+  // Autor humano (E-E-A-T). Si la pieza no declara `authorId`, se usa
+  // el autor por defecto del catálogo. Filtración Content Warehouse
+  // mayo 2024: `QualityAuthorshipAuthorAttributions`.
+  const author = authorJsonLd(item.authorId);
+
+  // Entidades mencionadas con `sameAs` a Wikidata + Wikipedia.
+  // Conecta la pieza al Knowledge Graph (Webref Indexing Namespace).
+  const mentions = (item.mentionsEntities ?? [])
+    .map((key) => {
+      const e = getEntity(key);
+      if (!e) return null;
+      const sameAs = sameAsForEntity(key);
+      const schemaType =
+        e.kind === 'team'
+          ? 'SportsTeam'
+          : e.kind === 'tournament'
+            ? 'SportsEvent'
+            : e.kind === 'organization'
+              ? 'Organization'
+              : 'Person';
+      return { '@type': schemaType, name: e.name, sameAs };
+    })
+    .filter(Boolean);
+
   // NewsArticle JSON-LD (recomendado para Google News y Discover).
-  const newsArticleLd = {
+  const newsArticleLd: Record<string, unknown> = {
     '@context': 'https://schema.org',
     '@type': 'NewsArticle',
     headline: item.title,
@@ -113,11 +139,7 @@ export default async function NoticiaDetail({
         url: `${SEO.siteUrl}/icon.svg`,
       },
     },
-    author: {
-      '@type': 'Organization',
-      name: SEO.siteName,
-      url: SEO.siteUrl,
-    },
+    author,
     citation: [
       {
         '@type': 'CreativeWork',
@@ -137,6 +159,10 @@ export default async function NoticiaDetail({
       endDate: '2026-07-19',
     },
   };
+
+  if (mentions.length > 0) {
+    newsArticleLd.mentions = mentions;
+  }
 
   return (
     <article className="pt-32">
