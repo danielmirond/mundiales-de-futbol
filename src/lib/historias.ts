@@ -901,6 +901,44 @@ Brasil ganó 2-0 a la URSS. Garrincha desbordó dos veces a la defensa soviétic
 
 Carvalhaes, el psicólogo del informe, mantuvo su puesto en la federación brasileña hasta 1962 y luego pasó a equipos de club. Nunca quiso retractarse del informe sobre Pelé. En una entrevista de 1972 con la revista Placar, citada en biografías posteriores, dijo que su evaluación había sido correcta para los datos que tenía y que la decisión final correspondía al técnico, que había acertado. Vicente Feola murió en 1975 en São Paulo y dio pocas entrevistas sobre aquel Mundial; cuando le preguntaban por Pelé, prefería atribuir la decisión a la presión de los jugadores. Nilton Santos jugó el Mundial de 1962 (Brasil bicampeón con Garrincha como figura, Pelé lesionado en el segundo partido) y se retiró en 1964. Murió en 2013 en Río de Janeiro. Pelé, en distintas entrevistas, repitió siempre lo mismo: el Mundial que le hizo Pelé empezó porque un veterano del Botafogo se plantó delante del técnico una mañana de junio en Estocolmo.`,
   },
+  {
+    n: 22,
+    slug: 'pulpo-paul-oberhausen-oraculo-mundial-2010',
+    publishDate: '2026-05-16',
+    blockCode: 'S5',
+    category: 'humor',
+    protagonist: 'Pulpo Paul / Sea Life Oberhausen',
+    quote: 'Ocho de ocho. Eso ya no es estadística: es leyenda.',
+    quoteDate: '2010-07-11',
+    context:
+      'Verano de 2010. En el Sea Life Centre de Oberhausen, en la cuenca del Ruhr, un pulpo común nacido en Inglaterra dos años antes acierta una a una las siete predicciones de la selección alemana en el Mundial de Sudáfrica. La octava, la final entre España y Holanda del 11 de julio, también la borda. Ocho de ocho. Una probabilidad de 1/256 si se asume azar puro. El bicho se convierte en fenómeno televisivo global, en motivo de amenazas en Argentina, en oferta de protección estatal del presidente Zapatero y en ciudadano honorario de un pueblo gallego.',
+    source: {
+      name: 'BBC News · Paul the "psychic" octopus dies',
+      url: 'https://www.bbc.com/news/world-europe-11650213',
+    },
+    sourceSecondary:
+      'Wikipedia (Paul the Octopus) · Wikipedia (2010 FIFA World Cup) · The Guardian · El País · La Voz de Galicia · Reuters',
+    certainty: 'Alta',
+    title: 'El Pulpo Paul: el oráculo de Oberhausen que clavó las ocho predicciones del Mundial 2010',
+    excerpt:
+      'Un pulpo nacido en Weymouth y trasladado al Sea Life Centre de Oberhausen acertó las siete predicciones de Alemania y la final del Mundial 2010. Murió cuatro meses después con el listado más improbable del fútbol moderno: 8 de 8.',
+    cover: {
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Octopus2.jpg?width=1200',
+      alt: 'Pulpo común (Octopus vulgaris), la misma especie del Pulpo Paul, oráculo del Mundial 2010',
+      credit: 'Foto: Wikimedia Commons',
+      license: 'CC BY-SA',
+      source: 'https://commons.wikimedia.org/wiki/File:Octopus2.jpg',
+    },
+    body: `El Pulpo Paul nació el 26 de enero de 2008 en el Sea Life Centre de Weymouth, en la costa sur de Inglaterra. Octopus vulgaris, pulpo común mediterráneo. Pocas semanas después fue trasladado al Sea Life Centre de Oberhausen, en Renania del Norte-Westfalia, dentro del programa rotatorio de cesiones que la cadena británica Merlin Entertainments mantenía entre sus acuarios. En Oberhausen le pusieron Paul, en honor a un poema infantil alemán de Boy Lornsen titulado «Der Tintenfisch Paul Oktopus». Los cuidadores se dieron cuenta enseguida de que era un animal especialmente activo a la hora de elegir entre dos cajas idénticas. La idea de usarlo para predecir partidos de fútbol no fue planificada como campaña: surgió en la Eurocopa 2008 como atracción local para visitantes alemanes, con el equipo del acuario fotografiando al pulpo eligiendo entre la caja con la bandera de Alemania y la del rival.
+
+El método era estricto y siempre el mismo. Antes de cada partido, los cuidadores introducían en el tanque de Paul dos cajas transparentes idénticas, cada una con una bandera de uno de los dos equipos pegada en la cara frontal y un mejillón dentro como cebo. Las cajas se cerraban con una pinza. Paul, que veía perfectamente las banderas a través del cristal, descendía sobre una de ellas, abría la pinza con sus tentáculos y se comía el mejillón. Esa era la predicción. La operación se grababa en directo y se publicaba antes del partido. La predicción era pública, irrevocable y verificable. En la Eurocopa 2008 de Austria y Suiza, Paul acertó cuatro de los seis partidos de Alemania: cayeron Polonia, Croacia y Austria como acertó, falló contra Croacia en fase de grupos y, sobre todo, falló la final contra España (eligió Alemania, ganó España 1-0 con gol de Fernando Torres). Saldo: 4 de 6. Discreto.
+
+El Mundial de Sudáfrica 2010 fue otra historia. Alemania, dirigida por Joachim Löw, jugó siete partidos en aquel torneo y Paul acertó los siete. Acertó la victoria 4-0 sobre Australia el 13 de junio en Durban. Acertó la derrota 1-0 contra Serbia el 18 de junio en Port Elizabeth, la única que sufriría Alemania en aquel Mundial: Paul eligió Serbia y la grada del acuario hizo silencio. Acertó la victoria 1-0 contra Ghana el 23 de junio que clasificó a Alemania como primera del grupo D. Acertó el 4-1 a Inglaterra en octavos, el 4-0 a Argentina en cuartos —la primera predicción que generó respuesta diplomática internacional, con un canal argentino llegando a sugerir cocinar al pulpo en una receta de feria— y la derrota 1-0 frente a España en semifinales el 7 de julio en Durban. La selección de Maradona y la de Joaquín Caparrós oraban en redes para que Paul fallara. Falló su séptima papeleta solo en un sentido: contra Uruguay en el partido por el tercer puesto, eligió Alemania (que ganó 3-2 a Uruguay con goles de Müller, Jansen y Khedira), y la octava papeleta —la final del 11 de julio en el Soccer City de Johannesburg, entre España y Holanda— la acertó a favor de España. La Roja ganó 1-0 en la prórroga con gol de Iniesta al minuto 116. Paul cerró el Mundial con un balance imposible: 8 de 8 en Sudáfrica, 12 de 14 contando la Eurocopa, una probabilidad combinada del 0,39 % si se asume azar puro.
+
+Los efectos colaterales de aquel agosto fueron globales. La televisión española lo entrevistó en directo. El presidente del gobierno José Luis Rodríguez Zapatero, en rueda de prensa, ofreció en tono de broma «protección estatal española» al pulpo ante las amenazas argentinas. El alcalde de O Carballiño en Galicia, capital española del pulpo a feira, le concedió la ciudadanía honoraria del pueblo y propuso —sin ironía— traer al pulpo a Galicia. La cadena Sea Life rechazó la oferta. En Alemania, el director del acuario de Oberhausen, Stefan Porwoll, recibió docenas de propuestas comerciales y dijo en rueda de prensa que Paul se retiraba: no haría más predicciones, dedicaría su vida a hacer feliz a los niños del acuario. Paul tenía dos años y medio cuando se «retiró»: la esperanza de vida del pulpo común no supera los tres años.
+
+Tres meses y medio después del último acierto, en la madrugada del 26 de octubre de 2010, los cuidadores del Sea Life Centre encontraron a Paul muerto en su tanque. Causa: muerte natural por edad, la habitual en cefalópodos de su especie. El acuario emitió un comunicado breve. Las redes sociales —Twitter solo tenía cuatro años— se llenaron durante 48 horas de homenajes en seis idiomas. Sea Life Oberhausen levantó un pequeño memorial frente a la entrada con una placa, una urna conmemorativa y un mejillón de cerámica. El acuario llegó a vender, por unos meses, peluches del Pulpo Paul con bufanda alemana, agotando todo el stock antes de Navidades de 2010. Su sustituto, Paul II, también pulpo común aunque sin el carisma del primero, intentó predecir la Eurocopa 2012 sin éxito apreciable. Cuando murió, el acuario decidió no continuar la dinastía. La conclusión la dejó escrita el zoólogo alemán Volker Storch en una entrevista en Der Spiegel: «el azar fue extremadamente generoso con Paul, y nosotros, igualmente generosos en darle un significado que probablemente nunca tuvo». Pero el chico de Oberhausen había clavado la final de Iniesta. Y eso quedó.`,
+  },
 ];
 
 // ───────────────────────────────────────────────────────────
