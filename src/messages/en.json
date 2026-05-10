@@ -73,7 +73,26 @@
     "legal": "Legal",
     "privacy": "Privacy",
     "cookies": "Cookies",
-    "contact": "Contact"
+    "contact": "Contact",
+    "editorial": {
+      "heading": "Editorial",
+      "about": "About us",
+      "editorialPolicy": "Editorial policy",
+      "correctionsPolicy": "Corrections policy"
+    },
+    "content": {
+      "heading": "Content",
+      "stories": "Stories",
+      "news": "News",
+      "gallery": "Gallery"
+    },
+    "shop": {
+      "heading": "Collectibles",
+      "jerseys": "World Cup 2026 jerseys",
+      "panini": "Panini stickers",
+      "lego": "LEGO sets",
+      "disclosure": "Affiliate disclosure"
+    }
   },
   "contact": {
     "kicker": "Contact",

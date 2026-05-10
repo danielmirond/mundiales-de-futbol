@@ -73,7 +73,26 @@
     "legal": "Legal",
     "privacy": "Privacidade",
     "cookies": "Cookies",
-    "contact": "Contato"
+    "contact": "Contato",
+    "editorial": {
+      "heading": "Editorial",
+      "about": "Sobre nós",
+      "editorialPolicy": "Política editorial",
+      "correctionsPolicy": "Política de correções"
+    },
+    "content": {
+      "heading": "Conteúdo",
+      "stories": "Histórias",
+      "news": "Notícias",
+      "gallery": "Galeria"
+    },
+    "shop": {
+      "heading": "Colecionismo",
+      "jerseys": "Camisas Copa 2026",
+      "panini": "Figurinhas Panini",
+      "lego": "Sets LEGO",
+      "disclosure": "Aviso de afiliados"
+    }
   },
   "contact": {
     "kicker": "Contato",

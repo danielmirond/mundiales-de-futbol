@@ -73,7 +73,26 @@
     "legal": "قانوني",
     "privacy": "الخصوصية",
     "cookies": "الكوكيز",
-    "contact": "اتصل بنا"
+    "contact": "اتصل بنا",
+    "editorial": {
+      "heading": "التحرير",
+      "about": "من نحن",
+      "editorialPolicy": "السياسة التحريرية",
+      "correctionsPolicy": "سياسة التصحيحات"
+    },
+    "content": {
+      "heading": "المحتوى",
+      "stories": "قصص",
+      "news": "أخبار",
+      "gallery": "معرض الصور"
+    },
+    "shop": {
+      "heading": "المقتنيات",
+      "jerseys": "قمصان مونديال 2026",
+      "panini": "ملصقات Panini",
+      "lego": "مجموعات LEGO",
+      "disclosure": "إفصاح الانتساب"
+    }
   },
   "contact": {
     "kicker": "اتصل بنا",
