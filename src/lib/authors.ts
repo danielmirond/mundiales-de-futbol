@@ -76,25 +76,54 @@ export function getAuthor(authorId?: string): Author | undefined {
 }
 
 /**
+ * Nombre editorial bajo el que firman las piezas cuando no hay autor
+ * humano declarado. Mismo patrón que usan medios como BBC, Reuters,
+ * The Economist en su JSON-LD: la redacción del medio declarada como
+ * `NewsMediaOrganization` con políticas editoriales explícitas.
+ */
+const NEWSROOM_NAME = 'Redacción Mundial de Fútbol';
+
+/**
  * Construye el objeto JSON-LD para el campo `author`:
  *  - Si `authorId` corresponde a una entrada del catálogo CON `sameAs`
  *    rellenado, devuelve un `Person` enriquecido.
- *  - En cualquier otro caso (sin `authorId`, ID inexistente, o autor
- *    sin `sameAs`), devuelve un `Organization` con el sitio.
+ *  - En cualquier otro caso (caso por defecto), devuelve un
+ *    `NewsMediaOrganization` con políticas editoriales declaradas.
  *
- * No emite `Person` con `sameAs` vacío: para E-E-A-T es preferible
- * Organization que Person genérica (la filtración Content Warehouse
- * documenta que Google espera entidades resolubles).
+ * Por qué `NewsMediaOrganization` en lugar de `Organization`:
+ * Google distingue medios de noticias del resto de organizaciones.
+ * Las propiedades `ethicsPolicy`, `correctionsPolicy`,
+ * `ownershipFundingInfo` y `publishingPrinciples` son señales que la
+ * filtración Content Warehouse asocia con autoridad editorial. Las
+ * URLs apuntan a páginas reales del sitio.
+ *
+ * NOTA: el `name` legal del medio sigue siendo «Mundial de Fútbol»
+ * a efectos del `Organization` de cabecera (`organizationLd()` en
+ * `seo.tsx`). Aquí firmamos como `Redacción Mundial de Fútbol` que
+ * es la unidad editorial dentro del medio.
  */
 export function authorJsonLd(authorId?: string) {
   const a = getAuthor(authorId);
 
-  // Sin autor o autor sin perfiles → Organization.
+  // Sin autor o autor sin perfiles → NewsMediaOrganization (la
+  // redacción del sitio firma colectivamente, igual que BBC/Reuters).
   if (!a || a.sameAs.length === 0) {
     return {
-      '@type': 'Organization',
-      name: SITE_NAME,
+      '@type': 'NewsMediaOrganization',
+      name: NEWSROOM_NAME,
+      legalName: SITE_NAME,
       url: SITE_URL,
+      knowsAbout: [
+        'Mundiales de fútbol',
+        'Hemeroteca deportiva',
+        'Selecciones nacionales',
+        'Estadísticas FIFA',
+        'Historia del fútbol',
+      ],
+      ethicsPolicy: `${SITE_URL}/politica-editorial`,
+      correctionsPolicy: `${SITE_URL}/politica-correcciones`,
+      ownershipFundingInfo: `${SITE_URL}/sobre-nosotros`,
+      publishingPrinciples: `${SITE_URL}/politica-editorial`,
     };
   }
 
