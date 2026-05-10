@@ -979,6 +979,77 @@ export const TEAM_KITS_2026: Record<string, TeamKit2026> = {
 };
 
 // ───────────────────────────────────────────────────────────────────
+// Mapping completo de marca técnica para las 48 selecciones
+// ───────────────────────────────────────────────────────────────────
+
+/**
+ * Marca técnica de cada una de las 48 selecciones del Mundial 2026.
+ * Datos públicos según contratos vigentes a fecha del último review.
+ *
+ * Cubre las 48 incluso para las que aún no tienen drop verificado.
+ * Sirve para el hub `/coleccionismo/camisetas-mundial-2026` (mostrar
+ * todas las selecciones con su marca aunque no tengan precio aún).
+ */
+export const BRAND_BY_TEAM: Record<string, KitBrand> = {
+  // ─── Anfitriones ─────────────────────────────────────
+  MEX: 'adidas',
+  USA: 'Nike',
+  CAN: 'Nike',
+  // ─── CONCACAF resto ──────────────────────────────────
+  HAI: 'Federation',
+  PAN: 'New Balance',
+  CUW: 'Federation',
+  // ─── CONMEBOL ────────────────────────────────────────
+  BRA: 'Nike',
+  ARG: 'adidas',
+  URU: 'Puma',
+  COL: 'adidas',
+  ECU: 'Marathon',
+  PAR: 'adidas',
+  // ─── UEFA ────────────────────────────────────────────
+  ESP: 'adidas',
+  FRA: 'Nike',
+  ENG: 'Nike',
+  GER: 'adidas',
+  NED: 'Nike',
+  POR: 'Nike',
+  CRO: 'Nike',
+  BEL: 'adidas',
+  SUI: 'Puma',
+  AUT: 'Puma',
+  NOR: 'Nike',
+  SWE: 'adidas',
+  CZE: 'Puma',
+  SCO: 'adidas',
+  BIH: 'Puma',
+  TUR: 'Nike',
+  POL: 'Nike',
+  // ─── CAF ─────────────────────────────────────────────
+  MAR: 'Puma',
+  SEN: 'Puma',
+  EGY: 'adidas',
+  TUN: 'Kappa',
+  ALG: 'adidas',
+  GHA: 'Puma',
+  CIV: 'Puma',
+  RSA: 'Le Coq Sportif',
+  COD: 'Federation',
+  CPV: 'Macron',
+  // ─── AFC ─────────────────────────────────────────────
+  JPN: 'adidas',
+  KOR: 'Nike',
+  IRN: 'adidas',
+  AUS: 'Nike',
+  KSA: 'adidas',
+  QAT: 'Nike',
+  IRQ: 'Federation',
+  UZB: 'Federation',
+  JOR: 'adidas',
+  // ─── OFC ─────────────────────────────────────────────
+  NZL: 'Nike',
+};
+
+// ───────────────────────────────────────────────────────────────────
 // Helpers públicos
 // ───────────────────────────────────────────────────────────────────
 
@@ -999,6 +1070,20 @@ export function groupKitsByBrand(): Record<KitBrand, TeamKit2026[]> {
     out[k.brand].push(k);
   }
   return out;
+}
+
+/**
+ * Cuenta cuántas selecciones lleva cada marca técnica en las 48 del Mundial.
+ * Resultado ordenado descendente por número de selecciones.
+ */
+export function brandTeamCounts(): { brand: KitBrand; count: number }[] {
+  const counts = {} as Record<KitBrand, number>;
+  for (const brand of Object.values(BRAND_BY_TEAM)) {
+    counts[brand] = (counts[brand] ?? 0) + 1;
+  }
+  return Object.entries(counts)
+    .map(([brand, count]) => ({ brand: brand as KitBrand, count }))
+    .sort((a, b) => b.count - a.count);
 }
 
 /**
