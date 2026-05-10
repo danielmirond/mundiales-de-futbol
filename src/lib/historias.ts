@@ -823,6 +823,44 @@ El gobierno de la RDA gestionó la victoria con una incomodidad llamativa. Erich
 
 El epílogo se cerró en enero de 1988. Sparwasser, retirado del fútbol y entrenando categorías inferiores en Magdeburgo, viajó a Saarbrücken al oeste para disputar un torneo de veteranos. No regresó. Cruzó la frontera con su esposa Karola y pidió asilo a la RFA. La Stasi gestionó la deserción como un golpe simbólico personal. Un coronel del Ministerio de Seguridad del Estado anotó en el expediente, según los archivos desclasificados tras la caída del Muro, una frase que se ha hecho famosa en la historiografía alemana: cualquiera menos Sparwasser hubiera sido comprensible. La RDA cayó once meses después, y con ella la propia razón por la que el gol existió. Sparwasser vive desde entonces en Frankfurt, ha dado decenas de entrevistas, y suele recordar lo mismo: marcó el gol más importante de su vida en un partido que su propio país prefirió olvidar.`,
   },
+  {
+    n: 20,
+    slug: 'mwepu-ilunga-zaire-mobutu-amenaza-mundial-1974',
+    publishDate: '2026-05-14',
+    blockCode: 'S4',
+    category: 'tragica',
+    protagonist: 'Joseph Mwepu Ilunga / Mobutu Sese Seko',
+    quote: 'No voy a seguir en el campo arriesgándome a no volver a casa cuando los que se quedaron con nuestro dinero nos miran tranquilos desde la grada.',
+    quoteDate: '1974-06-22',
+    context:
+      '22 de junio de 1974. Mundial de Alemania, Parque dos Príncipes (París, escenario de la fase de grupos B en Gelsenkirchen). Brasil va ganando 3-0 a Zaire en el minuto 85. Brasil prepara un tiro libre. El defensa zaireño Mwepu Ilunga rompe la barrera, sale corriendo hacia la pelota y la patea fuera del campo antes de que el rival pueda lanzar. El árbitro le saca tarjeta amarilla. La grada europea ríe. La televisión occidental certifica que es ignorancia. La verdad es otra: la dictadura de Mobutu había amenazado al equipo si encajaba más goles.',
+    source: {
+      name: 'ESPN · Ilunga reveals Zaire issues in 1974',
+      url: 'https://www.espn.com/soccer/story/_/id/37370095/mwepu-ilunga-explains-zaire-dismal-1974-campaign',
+    },
+    sourceSecondary:
+      'Wikipedia (Mwepu Ilunga) · Vice Sports · Sky History · Tribuna · OneFootball · Some Green Grass and a Ball',
+    certainty: 'Alta',
+    title: 'Mwepu Ilunga, el chut absurdo de Zaire 1974 que era resistencia política a Mobutu',
+    excerpt:
+      'Junio de 1974. Un defensa de Zaire rompe la barrera y patea el balón antes de que Brasil pueda lanzar el tiro libre. El mundo lo recordó como ignorancia. Cincuenta años después, sabemos que era miedo: Mobutu había amenazado a los jugadores con desaparecerlos si volvían a perder por más de cuatro goles.',
+    cover: {
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Mobutu_Sese_Seko_1983-06-15.jpg?width=1200',
+      alt: 'Mobutu Sese Seko, dictador de Zaire entre 1965 y 1997. Su régimen amenazó a la selección de Zaire en el Mundial 1974 con desaparecer a los jugadores si encajaban más de cuatro goles contra Brasil',
+      credit: 'Foto: Wikimedia Commons',
+      license: 'Dominio público',
+      source: 'https://commons.wikimedia.org/wiki/File:Mobutu_Sese_Seko_1983-06-15.jpg',
+    },
+    body: `El primer Mundial de la era moderna en el que participó una selección del África subsahariana se jugó en la Alemania Federal de 1974. Zaire, que había clasificado tras eliminar al Marruecos de Said Ghandi y al Zambia de Bonford Tembo, llegaba a Europa como representación oficial del régimen de Mobutu Sese Seko, que llevaba nueve años en el poder y financiaba al equipo desde la propia presidencia. La camiseta verde con el leopardo del Movimiento Popular de la Revolución, el partido único de Mobutu, era el uniforme. La gira la pagaba el Estado. Los premios económicos los recibían los jugadores en mano de un funcionario del Ministerio de Deportes, en Kinshasa, antes del viaje. La promesa pública del Maréchal-Président era una casa, un coche y un puesto vitalicio para cualquier jugador que ganase un partido.
+
+Lo que ocurrió después es uno de los episodios más oscuros del fútbol mundialista. En el primer partido del grupo, en Dortmund el 14 de junio, Zaire perdió 2-0 contra Escocia. Pasable. En el segundo, contra Yugoslavia el 18 de junio en Gelsenkirchen, Zaire fue arrasada por 9-0 con goles de Bajević, Bogićević, Surjak y compañía. Es la mayor derrota de un debutante en un Mundial todavía hoy. La televisión zaireña cortó la retransmisión al sexto gol. El portero Kazadi fue sustituido al minuto 22. La delegación gubernamental que acompañaba al equipo se reunió esa misma noche en el hotel Concorde de Düsseldorf con los técnicos. Lo que pasó en aquella reunión nunca fue grabado. Lo que sí está documentado es la consecuencia: el día siguiente, los jugadores se enteraron de que la federación había recibido un telegrama firmado desde Kinshasa con una orden simple. Si en el siguiente partido, contra Brasil, encajaban más de cuatro goles, los jugadores no regresarían a casa. Distintas versiones recogidas por ESPN, Vice Sports y Sky History matizan el número exacto —algunas fuentes dicen tres, otras cuatro, otras cinco—, pero todas confirman el tono: la amenaza era de desaparición forzada.
+
+El partido contra Brasil se jugó el 22 de junio en el Parc des Princes de París, dentro del Grupo 2. Brasil llegaba como vigente campeón del mundo y favorita absoluta. Marcaron Jairzinho al minuto 12 y Rivellino al 66, y al minuto 79 llegó el tercero, de Valdomiro. Zaire iba 3-0 abajo. Y entonces, al minuto 85, Brasil obtuvo un tiro libre cerca del área zaireña. Los zaireños armaron la barrera. El árbitro colombiano Omar Delgado pitó para autorizar el lanzamiento. Antes de que Rivellino pudiese tocar la pelota, el defensa Joseph Mwepu Ilunga, de 25 años y jugador del TP Mazembe Englebert, salió corriendo desde la barrera, le pegó una patada al balón y lo envió fuera del campo. Delgado le sacó amarilla. La grada europea estalló en risas. La cámara de la televisión alemana enfocó la cara seria de Ilunga, que volvía a su posición sin discutir. El comentarista de la BBC describió la jugada como uno de los momentos más cómicos en la historia de los Mundiales.
+
+Cuarenta años después, en distintas entrevistas concedidas a ESPN y a la BBC entre 2010 y 2015, Ilunga explicó por primera vez qué había pasado dentro de su cabeza en aquellos veinte segundos. Él sabía que Brasil estaba a punto de lanzar otro disparo. Sabía que un cuarto gol podía significar la frontera del ultimátum recibido el día anterior. La mayoría del equipo había decidido sabotear el partido en silencio: jugar pasivo, no presionar, no provocar a Brasil. Ilunga decidió hacerlo más explícito. Quería ser expulsado, quería que el árbitro lo sacara del campo y que la responsabilidad del resultado dejara de recaer sobre él. La frase que repitió en distintas entrevistas era casi literal: «no voy a seguir en el campo arriesgándome a no volver a casa cuando los que se quedaron con nuestro dinero nos miran tranquilos desde la grada».
+
+El partido terminó 3-0. La cifra mágica no se rebasó. Zaire eliminada, pero los jugadores volvieron a casa. Ninguno fue ascendido. Las casas y los coches que Mobutu había prometido nunca llegaron. Los premios económicos del Mundial se quedaron en cuentas del Estado. El portero Kazadi fue retirado del fútbol profesional zaireño durante años. El defensa Bwanga Tshimen se exilió a Bélgica al cabo de unos meses. Mwepu Ilunga regresó al TP Mazembe, jugó dos temporadas más y se retiró sin contrato profesional. Murió en mayo de 2015 en Lubumbashi, casi en la indigencia, después de décadas dando entrevistas en las que repetía la misma frase: «no era estúpido. Estaba protestando». La televisión occidental, durante cuarenta años, había contado lo contrario.`,
+  },
 ];
 
 // ───────────────────────────────────────────────────────────
