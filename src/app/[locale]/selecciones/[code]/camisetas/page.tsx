@@ -13,6 +13,8 @@ import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl, SEO } from '@/lib/seo';
 import { AmazonProductGrid } from '@/components/affiliate/amazon-card';
 import { AMAZON_PRODUCTS } from '@/lib/amazon-products';
+import { Kit2026Shop } from '@/components/team/kit-2026-shop';
+import { getTeamKit2026 } from '@/lib/team-kit-2026';
 
 function withLocale(locale: Locale, href: string) {
   if (locale === routing.defaultLocale) return href;
@@ -174,6 +176,10 @@ export default async function CamisetasPorSeleccion({
   const team = TEAMS_2026[code];
   if (!history || !team) notFound();
 
+  // Kit oficial Mundial 2026 (si está catalogado y verificado). Se renderiza
+  // antes del histórico porque captura intent de compra alto.
+  const kit2026 = getTeamKit2026(code);
+
   // Productos Amazon relacionados (camisetas retro de la selección).
   const relatedJerseys = AMAZON_PRODUCTS.filter(
     (p) => p.teamCode === code && p.category === 'ropa',
@@ -234,7 +240,13 @@ export default async function CamisetasPorSeleccion({
         </p>
       </header>
 
+      {/* Kit oficial Mundial 2026 (CTA conversión, antes del histórico). */}
+      {kit2026 && <Kit2026Shop kit={kit2026} />}
+
       <section className="mx-auto mt-16 w-full max-w-[1100px] px-6 md:px-10 space-y-6">
+        <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-pitch)]">
+          Histórico de camisetas mundialistas
+        </div>
         {history.jerseys.map((j) => (
           <JerseyCard key={`${j.year}-${j.variant}`} j={j} baseColor={history.baseColor} />
         ))}
