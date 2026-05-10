@@ -73,6 +73,48 @@ export type NewsItem = {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'dsports-paramount-plus-mundial-2026-derechos-104-partidos-latinoamerica',
+    title:
+      'DSports y Paramount+ se reparten LATAM: los 104 partidos del Mundial 2026 en seis países',
+    summary:
+      'Paramount+ y DSports cierran un acuerdo de distribución multianual para emitir los 104 partidos del Mundial 2026 en Argentina, Chile, Colombia, Ecuador, Perú y Uruguay. Cobertura íntegra por las señales lineales DSports, DSports 2 y DSports+ y por la app de Paramount+. El acuerdo arranca el 1 de junio de 2026 y se extiende a LaLiga, Sudamericana y al 50 % de la Champions entre 2027 y 2031.',
+    body: `Paramount+ y DSports han anunciado este 7 de mayo una alianza estratégica multianual para repartirse los derechos del Mundial 2026 en seis mercados de Sudamérica: Argentina, Chile, Colombia, Ecuador, Perú y Uruguay. La cobertura será íntegra: los 104 partidos del torneo, la primera Copa del Mundo a 48 selecciones, se podrán ver en directo entre las señales lineales del paquete DSports (DSports, DSports 2 y DSports+) y la plataforma de streaming Paramount+. Los suscriptores de Paramount+ en estos países pasan a tener, además, acceso permanente a la programación deportiva de DSports, lo que incluye LaLiga y la Copa Sudamericana fuera del Mundial.
+
+**Por qué es relevante para el espectador**. Hasta hoy, el aficionado argentino, chileno, colombiano, ecuatoriano, peruano o uruguayo dependía de TV abierta (Telefe en Argentina, Chilevisión en Chile, Caracol en Colombia) más DirecTV Sports vía satélite o decodificador. La incorporación de Paramount+ añade una vía OTT 100 % digital, sin antena ni dependencia de operador, en seis países donde la tasa de cord-cutting supera ya el 30 % y donde el smart TV es la primera pantalla del partido. La llave Paramount+ desbloquea Mundial + LaLiga + Sudamericana en un único checkout mensual.
+
+**Las cifras del despliegue**. La operación incluye más de 900 horas de programación vinculada al torneo entre previas, partidos en directo, post-match analysis, especiales documentales y la fan zone digital. DSports anuncia enviados especiales a Estados Unidos, México y Canadá, las tres sedes del torneo, además de seguimiento a las 48 selecciones participantes durante toda la fase de preparación.
+
+**La cita oficial**. Hernán Bidegain, director de DSports, confirmó que «la operación contará con enviados especiales en Estados Unidos, México y Canadá, además de seguimiento permanente a todas las selecciones participantes». Augusto Rovegno, vicepresidente sénior de Contenido de Paramount+ LATAM, definió el acuerdo como una alianza para «ampliar el acceso al torneo más importante del fútbol a través de la plataforma de streaming». Ninguna de las dos compañías ha publicado precio de suscripción específico para el paquete del Mundial: la tarifa de Paramount+ se mantiene, en el momento del anuncio, en el rango habitual para LATAM (entre 4 y 7 USD/mes según país y plan).
+
+**Lo que va más allá del Mundial**. El acuerdo es de distribución multianual y va mucho más allá del verano de 2026. Paramount+ se asegura, dentro del mismo paquete, los derechos del 50 % de los partidos de la UEFA Champions League para el ciclo 2027-2031, lo que sitúa a la plataforma como un competidor serio frente a Disney+, ESPN y Apple TV+ en el catálogo deportivo de la región. La operación llega tras meses de negociación entre el grupo Paramount Skydance (formado tras la fusión cerrada en agosto de 2024) y el operador DirecTV Latin America, propietario de las señales DSports.
+
+**Lo que aún no se sabe**. Tres preguntas siguen abiertas tras el anuncio: si los partidos del Mundial estarán en 4K HDR (Paramount+ todavía no ofrece 4K en todos los planes LATAM), si habrá comentarios localizados por país (especialmente para Colombia, Ecuador y Perú, donde la audiencia pide voces propias), y si los suscriptores de DGO (la plataforma OTT del propio DirecTV) tendrán acceso al contenido sin pagar Paramount+ aparte. Las dos compañías han remitido las dudas operativas a un comunicado posterior previsto para finales de mayo, antes del kick-off del 11 de junio.`,
+    category: 'tv',
+    sourceName: 'La Sociedad del Contenido',
+    sourceUrl:
+      'https://lasociedaddelcontenido.com/2026/05/07/dsports-y-paramount-transmitiran-los-104-partidos-del-mundial-2026-en-seis-paises-de-america-latina/',
+    sourceLang: 'es',
+    publishedAt: '2026-05-07T10:00:00Z',
+    sourcesSecondary: [
+      {
+        name: 'PRODU · Paramount+ y DSPORTS se alían',
+        url: 'https://www.produ.com/television/noticias/paramount-dsports-alianza-transmitision-mundial-fifa-2026-argentina-chile-colombia-ecuador-peru-uruguay/',
+      },
+      {
+        name: 'TAVI Latam · Paramount+ añadirá las señales de DSports',
+        url: 'https://tavilatam.com/latinoamerica-paramount-anadira-las-senales-de-dsports-para-ofrecer-todo-el-mundial-2026-en-argentina-uruguay-chile-peru-colombia-y-ecuador/',
+      },
+      {
+        name: 'El Espectador · Paramount+ se une a la fiebre futbolera',
+        url: 'https://www.elespectador.com/deportes/mundial-2026/paramount-se-une-a-la-fiebre-futbolera-y-transmitira-la-copa-mundial-de-la-fifa-2026/',
+      },
+      {
+        name: 'Cveintiuno · Paramount adquiere derechos para LATAM',
+        url: 'https://cveintiuno.com/paramount-adquiere-los-derechos-completos-del-mundial-2026-para-argentina-chile-colombia-ecuador-peru-y-uruguay/',
+      },
+    ],
+  },
+  {
     slug: 'lego-mundial-2026-coleccion-9-sets-messi-ronaldo-mbappe-vinicius',
     title:
       'LEGO presenta su colección Mundial 2026: nueve sets con Messi, Ronaldo, Mbappé y Vinícius Jr. desde 24,99 dólares',
