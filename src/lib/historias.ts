@@ -1055,6 +1055,50 @@ En el partido por el tercer puesto del 7 de julio en Bari, Italia ganó 2-1 a In
 
 El epílogo, sin embargo, fue casi tan célebre como la cumbre. Schillaci jugó otros dos años en la Juventus, no volvió a marcar más de 16 goles en una temporada, fue traspasado al Inter en 1992 y al Júbilo Iwata japonés en 1994, donde ganó la Liga japonesa de 1997 y se retiró en 1999. Nunca volvió a la selección italiana después del Eurocopa 1992. La crítica especializada lo llamó después «el meteoro de Italia 90», expresión que él rechazó en repetidas entrevistas: «no fue un meteoro», dijo en una entrevista de 2014 con Sky Italia. «Era yo. Era yo siempre. Lo que pasó es que durante un mes me dejaron jugar y los demás meses no.» Schillaci abrió un restaurante en Palermo, dirigió un canal de YouTube de cocina siciliana en sus últimos años y murió en el hospital civil de Palermo el 18 de septiembre de 2024 a los 59 años, tras casi tres años de tratamiento por cáncer de colon. El presidente italiano Sergio Mattarella, en el comunicado oficial, recordó las Notti Magiche como «un verano que devolvió la sonrisa al país». La Gazzetta dello Sport tituló la portada del 19 de septiembre de 2024 con tres palabras y un gesto fotográfico: «Ciao Totò», con la imagen de los ojos abiertos como platos del Olimpico de Roma, treinta y cuatro años antes.`,
   },
+  {
+    n: 26,
+    slug: 'maracanazo-uruguay-brasil-final-1950-ghiggia-obdulio-varela',
+    publishDate: '2026-05-20',
+    blockCode: 'S6',
+    category: 'tragica',
+    protagonist: 'Obdulio Varela / Alcides Ghiggia / Moacir Barbosa',
+    quote: 'Los de afuera son de palo. Que el partido lo decidan los hombres del campo.',
+    quoteDate: '1950-07-16',
+    context:
+      '16 de julio de 1950. Estadio Maracaná de Río de Janeiro, 173.850 espectadores oficiales (probablemente más de 200.000 reales, récord absoluto de la historia del fútbol). Último partido del grupo final del Mundial. Brasil necesita solo empatar contra Uruguay para ser campeón. La prensa carioca ha imprimido medallas conmemorativas dos días antes. El alcalde de Río ha grabado un discurso de victoria. Y entonces, al minuto 79, Alcides Ghiggia mete un disparo seco al primer palo de Moacir Barbosa.',
+    source: {
+      name: 'FIFA · The Maracanazo: how Uruguay shocked Brazil in 1950',
+      url: 'https://www.fifa.com/en/tournaments/mens/worldcup/1950-brazil/articles/the-maracanazo-1950',
+    },
+    sourceSecondary:
+      'Wikipedia (Maracanazo) · Wikipedia (1950 FIFA World Cup) · El País (Uruguay) · O Globo · Folha de São Paulo · The Guardian',
+    certainty: 'Alta',
+    title: 'El Maracanazo: 16 de julio de 1950, el día que enmudeció Brasil',
+    excerpt:
+      '173.850 espectadores y un país entero esperando ser campeón del mundo. Uruguay ganaba 1-2 al minuto 79. Ghiggia disparó al primer palo. Y el Maracaná, según contaría el propio Ghiggia, dejó de existir durante varios minutos.',
+    cover: {
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Maracana_1950.jpg?width=1200',
+      alt: 'Estadio Maracaná de Río de Janeiro lleno en la final del Mundial 1950, 173.850 espectadores oficiales',
+      credit: 'Foto: Wikimedia Commons',
+      license: 'Dominio público',
+      source: 'https://commons.wikimedia.org/wiki/File:Maracana_1950.jpg',
+    },
+    body: `El Mundial de 1950 era, en términos políticos y simbólicos, un partido único: el primer Mundial después de la Segunda Guerra Mundial, el primero que se jugaba en Sudamérica desde 1930, y la primera oportunidad de Brasil de ganar la Copa del Mundo en su propia tierra. La Confederación Brasileña de Deportes había construido para la ocasión el Estadio Municipal del Maracaná, en el barrio de Tijuca de Río de Janeiro, con un aforo declarado de 200.000 espectadores (en aquel momento el más grande del mundo). El propio nombre venía de un afluente del río Tijuca, que pasaba bajo la zona de obra. La inauguración oficial fue el 16 de junio de 1950, con un partido entre selecciones de Río y São Paulo. Estaba listo justo a tiempo para el debut brasileño contra México del 24 de junio.
+
+El formato del Mundial de 1950 fue singular en la historia. La FIFA, ante la baja participación de selecciones europeas (Inglaterra debutaba en su primer Mundial, pero Alemania estaba sancionada y Austria había declinado), decidió que las cuatro semifinalistas disputaran un round-robin de seis partidos entre ellas en lugar de eliminatorias clásicas. No hubo final oficialmente, pero el último partido del grupo era de facto la final: Brasil contra Uruguay, el 16 de julio, en el Maracaná. La aritmética favorecía a Brasil. La Seleção llegaba al partido con seis puntos (victoria 7-1 ante Suecia y 6-1 ante España en jornadas anteriores), Uruguay con cinco (empate 2-2 con España, victoria 3-2 ante Suecia). Brasil necesitaba solo empatar para ser campeón. Uruguay tenía que ganar.
+
+La prensa brasileña ya celebraba. La Gazeta Esportiva de São Paulo había tirado 200.000 ejemplares de un suplemento especial con la portada «Brasil, campeão». La Confederación había encargado 22 medallas de oro con la inscripción «Para los campeones del mundo». El alcalde de Río, Mendes de Morais, había grabado un discurso radiado titulado «A los vencedores del mundo» que esperaba ser emitido al pitido final. Era un país preparándose para celebrar. La selección uruguaya, en concentración en el hotel Paissandu del barrio de Botafogo, recibió un mensaje del presidente uruguayo Luis Batlle Berres pidiendo «evitar una derrota digna» y «no humillar a Brasil». El capitán uruguayo Obdulio Varela, defensa central del Peñarol, leyó la nota delante del equipo, la rompió con las dos manos sobre la mesa del comedor y dijo la frase que ha quedado en cualquier libro sobre el Maracanazo: «si entramos a perder no salimos. Nosotros entramos a empatar y a ganar».
+
+El partido empezó a las 15:00 con 173.850 espectadores oficiales (cifra de la FIFA; los reales se estiman entre 200.000 y 210.000 contando entradas falsas e invitados sin asiento). Brasil sacó el clásico equipo dirigido por Flávio Costa: Moacir Barbosa en portería, Augusto, Juvenal y Bauer en defensa, Bigode y Danilo en el medio campo, Friaça, Zizinho, Ademir Menezes, Jair Rosa Pinto y Chico arriba. El primer tiempo fue 0-0 a pesar de la presión brasileña: Ademir y Chico tuvieron tres ocasiones claras pero Roque Máspoli, portero uruguayo, sostuvo. Al minuto 47 (segundo minuto del segundo tiempo), Friaça recibió un pase de Ademir y disparó cruzado al palo izquierdo: 1-0 Brasil. El Maracaná estalló. Era el resultado que necesitaba. Cualquier empate o más, también.
+
+Lo que pasó después es el momento más narrado de la historia del fútbol sudamericano. Obdulio Varela, según contaría en una entrevista de 1980 con la revista Goles, recogió el balón del fondo de su portería y caminó hasta el centro del campo deliberadamente despacio para enfriar el estadio. Discutió con el árbitro inglés George Reader sobre una falta inexistente. Cuando finalmente el partido se reanudó, había pasado un minuto entero. Uruguay equilibró el partido. Al minuto 66, Juan Schiaffino remató cruzado un centro de Ghiggia desde la derecha y la pelota entró por el primer palo de Barbosa. 1-1. El Maracaná silencio por primera vez en aquella tarde, pero todavía no estaba derrotado. Con un empate Brasil seguía siendo campeón.
+
+Al minuto 79 ocurrió la jugada que ha congelado la memoria brasileña. Alcides Ghiggia, extremo derecho del Peñarol, recibió un pase largo de Pérez por la banda derecha. Bigode, lateral izquierdo brasileño, le siguió tarde. Ghiggia se cargó del balón, se acercó al área y, en lugar de centrar como esperaba toda la defensa, disparó seco al primer palo. Moacir Barbosa, anticipando un centro, había dejado un espacio entre su cuerpo y el poste izquierdo. La pelota entró rasa por ese hueco. 1-2 Uruguay. Quedaban 11 minutos. Faltaban 11 minutos de un silencio total. «Tres personas en la historia, con su silencio, han hecho callar al Maracaná», diría Ghiggia décadas después en una entrevista con O Globo. «Frank Sinatra, el Papa Juan Pablo II y yo».
+
+Brasil intentó empatar pero no encontró la portería. Reader pitó el final. Los 173.850 brasileños no aplaudieron, no silbaron, no salieron. Se quedaron sentados. La radio CBN de Río informó que la salida del estadio tardó dos horas. La FIFA, ante el shock, decidió que el presidente Jules Rimet no entregara el trofeo en una ceremonia pública. Rimet bajó al campo, buscó a Obdulio Varela, y le entregó la Copa Rimet en un pasillo del Maracaná con muy pocos testigos. Las medallas grabadas para Brasil quedaron archivadas en la federación. El alcalde Mendes de Morais nunca emitió su discurso. La televisión brasileña, que retransmitía en directo, cortó la emisión sin comentarios.
+
+El epílogo brasileño fue tan oscuro como el partido. Moacir Barbosa, portero del 1-2 final, fue convertido en el chivo expiatorio nacional. Durante cuarenta y nueve años (de 1950 a 1999, cuando finalmente fue convidado a una ceremonia conmemorativa), Barbosa fue marginado del fútbol brasileño. Una vendedora del mercado de São Cristovão le señaló una vez a su hijo diciéndole: «mira, ese señor es el que hizo llorar a todo Brasil». Barbosa contaba esta anécdota en cada entrevista. Murió en abril de 2000, a los 79 años, en la pobreza, repitiendo siempre la misma frase: «en Brasil la pena máxima es de treinta años. Yo llevo cumpliendo cincuenta». En Uruguay, Obdulio Varela, Alcides Ghiggia, Juan Schiaffino y Roque Máspoli quedaron como los cuatro héroes de la generación dorada. Ghiggia siguió jugando profesional en el AS Roma hasta 1962. Murió el 16 de julio de 2015, exactamente sesenta y cinco años después del Maracanazo, día tras día. La fecha exacta. El periodismo deportivo uruguayo lo tituló como un milagro póstumo: «se fue el día perfecto».`,
+  },
 ];
 
 // ───────────────────────────────────────────────────────────
