@@ -1,0 +1,322 @@
+{
+  "generatedAt": "2026-05-11T10:07:32.028Z",
+  "date": "2026-05-11",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "lotenal",
+      "geo": "MX",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Lotería Nacional lanza su propio álbum Panini del Mundial 2026",
+          "url": "https://www.sinembargo.mx/4803090/loteria-nacional-lanza-su-propio-album-panini-del-mundial-2026/",
+          "source": "SinEmbargo"
+        },
+        {
+          "title": "Con billetes 7 y 8 del Álbum Retro de Lotenal, evocan momentos estelares",
+          "url": "https://mexico.quadratin.com.mx/con-billetes-7-y-8-del-album-retro-de-lotenal-evocan-momentos-estelares/",
+          "source": "Quadratín México"
+        },
+        {
+          "title": "Lotería Nacional revive la historia del fútbol con nuevos cachitos rumbo al Mundial 2026",
+          "url": "https://www.reporteindigo.com/nacional/loteria-nacional-revive-la-historia-del-futbol-con-nuevos-cachitos-rumbo-al-mundial-2026-20260510-0037.html",
+          "source": "Reporte Indigo"
+        }
+      ]
+    },
+    {
+      "query": "danny ocean",
+      "geo": "CL",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "CHV Noticias Central | Sábado 9 de mayo de 2026",
+          "url": "https://www.chilevision.cl/noticias/noticieros-completos/noticias-central/chv-noticias-central-sabado-9-de-mayo-de-2026/",
+          "source": "Chilevisión"
+        },
+        {
+          "title": "Mundial de fútbol: Un 50% verá partidos pese a ausencia de Chile y Francia y Brasil son los favoritos",
+          "url": "https://www.emol.com/noticias/Nacional/2026/05/08/1199362/black-white-mundial-futbol-chile.html",
+          "source": "Emol"
+        },
+        {
+          "title": "Ceremonia inaugural del Mundial 2026: Los artistas que se presentarán en México, Canadá y Estados Unidos",
+          "url": "https://www.t13.cl/noticia/deportes13/ceremonia-inaugural-del-mundial-2026-artistas-se-presentaran-mexico-canada-esta-9-5-2026",
+          "source": "Teletrece"
+        }
+      ]
+    },
+    {
+      "query": "world cup fixtures",
+      "geo": "GB",
+      "language": "en",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Best World Cup Betting Offers & Free Bets | Get 66/1 tournament special",
+          "url": "https://mybettingsites.co.uk/news/best-world-cup-betting-offers-free-bets-get-1-66-special-tournament/",
+          "source": "My Betting Sites"
+        },
+        {
+          "title": "World Cup Group L: Teams, Fixtures, Predictions & Odds",
+          "url": "https://footballwhispers.com/blog/world-cup-group-l-teams-fixtures-predictions-odds/",
+          "source": "Football Whispers"
+        },
+        {
+          "title": "FIFA World Cup 2026 Group B Complete Overview & Analysis",
+          "url": "https://www.tapmad.com/blog/fifa-world-cup-group-b-teams-overview-and-analysis/5695-7-0",
+          "source": "Tapmad"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "es": [
+      {
+        "query": "lotenal",
+        "score": 280,
+        "geos": [
+          "MX"
+        ],
+        "samples": [
+          {
+            "query": "lotenal",
+            "geo": "MX",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Lotería Nacional lanza su propio álbum Panini del Mundial 2026",
+                "url": "https://www.sinembargo.mx/4803090/loteria-nacional-lanza-su-propio-album-panini-del-mundial-2026/",
+                "source": "SinEmbargo"
+              },
+              {
+                "title": "Con billetes 7 y 8 del Álbum Retro de Lotenal, evocan momentos estelares",
+                "url": "https://mexico.quadratin.com.mx/con-billetes-7-y-8-del-album-retro-de-lotenal-evocan-momentos-estelares/",
+                "source": "Quadratín México"
+              },
+              {
+                "title": "Lotería Nacional revive la historia del fútbol con nuevos cachitos rumbo al Mundial 2026",
+                "url": "https://www.reporteindigo.com/nacional/loteria-nacional-revive-la-historia-del-futbol-con-nuevos-cachitos-rumbo-al-mundial-2026-20260510-0037.html",
+                "source": "Reporte Indigo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "danny ocean",
+        "score": 180,
+        "geos": [
+          "CL"
+        ],
+        "samples": [
+          {
+            "query": "danny ocean",
+            "geo": "CL",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "CHV Noticias Central | Sábado 9 de mayo de 2026",
+                "url": "https://www.chilevision.cl/noticias/noticieros-completos/noticias-central/chv-noticias-central-sabado-9-de-mayo-de-2026/",
+                "source": "Chilevisión"
+              },
+              {
+                "title": "Mundial de fútbol: Un 50% verá partidos pese a ausencia de Chile y Francia y Brasil son los favoritos",
+                "url": "https://www.emol.com/noticias/Nacional/2026/05/08/1199362/black-white-mundial-futbol-chile.html",
+                "source": "Emol"
+              },
+              {
+                "title": "Ceremonia inaugural del Mundial 2026: Los artistas que se presentarán en México, Canadá y Estados Unidos",
+                "url": "https://www.t13.cl/noticia/deportes13/ceremonia-inaugural-del-mundial-2026-artistas-se-presentaran-mexico-canada-esta-9-5-2026",
+                "source": "Teletrece"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "en": [
+      {
+        "query": "world cup fixtures",
+        "score": 220.00000000000003,
+        "geos": [
+          "GB"
+        ],
+        "samples": [
+          {
+            "query": "world cup fixtures",
+            "geo": "GB",
+            "language": "en",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Best World Cup Betting Offers & Free Bets | Get 66/1 tournament special",
+                "url": "https://mybettingsites.co.uk/news/best-world-cup-betting-offers-free-bets-get-1-66-special-tournament/",
+                "source": "My Betting Sites"
+              },
+              {
+                "title": "World Cup Group L: Teams, Fixtures, Predictions & Odds",
+                "url": "https://footballwhispers.com/blog/world-cup-group-l-teams-fixtures-predictions-odds/",
+                "source": "Football Whispers"
+              },
+              {
+                "title": "FIFA World Cup 2026 Group B Complete Overview & Analysis",
+                "url": "https://www.tapmad.com/blog/fifa-world-cup-group-b-teams-overview-and-analysis/5695-7-0",
+                "source": "Tapmad"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "topic": "lotenal",
+      "type": "noticia",
+      "slugSuggestion": "lotenal",
+      "language": "es",
+      "geos": [
+        "MX"
+      ],
+      "score": 336,
+      "reason": "Google Trends daily MX con 200 búsquedas · 3 artículos noticiosos referenciando \"lotenal\"",
+      "proposedPath": "/noticias/lotenal",
+      "evidence": [
+        {
+          "query": "lotenal",
+          "geo": "MX",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Lotería Nacional lanza su propio álbum Panini del Mundial 2026",
+              "url": "https://www.sinembargo.mx/4803090/loteria-nacional-lanza-su-propio-album-panini-del-mundial-2026/",
+              "source": "SinEmbargo"
+            },
+            {
+              "title": "Con billetes 7 y 8 del Álbum Retro de Lotenal, evocan momentos estelares",
+              "url": "https://mexico.quadratin.com.mx/con-billetes-7-y-8-del-album-retro-de-lotenal-evocan-momentos-estelares/",
+              "source": "Quadratín México"
+            },
+            {
+              "title": "Lotería Nacional revive la historia del fútbol con nuevos cachitos rumbo al Mundial 2026",
+              "url": "https://www.reporteindigo.com/nacional/loteria-nacional-revive-la-historia-del-futbol-con-nuevos-cachitos-rumbo-al-mundial-2026-20260510-0037.html",
+              "source": "Reporte Indigo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "world cup fixtures",
+      "type": "noticia",
+      "slugSuggestion": "world-cup-fixtures",
+      "language": "en",
+      "geos": [
+        "GB"
+      ],
+      "score": 264,
+      "reason": "Google Trends daily GB con 200 búsquedas · 3 artículos noticiosos referenciando \"world cup fixtures\"",
+      "proposedPath": "/noticias/world-cup-fixtures",
+      "evidence": [
+        {
+          "query": "world cup fixtures",
+          "geo": "GB",
+          "language": "en",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Best World Cup Betting Offers & Free Bets | Get 66/1 tournament special",
+              "url": "https://mybettingsites.co.uk/news/best-world-cup-betting-offers-free-bets-get-1-66-special-tournament/",
+              "source": "My Betting Sites"
+            },
+            {
+              "title": "World Cup Group L: Teams, Fixtures, Predictions & Odds",
+              "url": "https://footballwhispers.com/blog/world-cup-group-l-teams-fixtures-predictions-odds/",
+              "source": "Football Whispers"
+            },
+            {
+              "title": "FIFA World Cup 2026 Group B Complete Overview & Analysis",
+              "url": "https://www.tapmad.com/blog/fifa-world-cup-group-b-teams-overview-and-analysis/5695-7-0",
+              "source": "Tapmad"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "danny ocean",
+      "type": "noticia",
+      "slugSuggestion": "danny-ocean",
+      "language": "es",
+      "geos": [
+        "CL"
+      ],
+      "score": 216,
+      "reason": "Google Trends daily CL con 200 búsquedas · 3 artículos noticiosos referenciando \"danny ocean\"",
+      "proposedPath": "/noticias/danny-ocean",
+      "evidence": [
+        {
+          "query": "danny ocean",
+          "geo": "CL",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "CHV Noticias Central | Sábado 9 de mayo de 2026",
+              "url": "https://www.chilevision.cl/noticias/noticieros-completos/noticias-central/chv-noticias-central-sabado-9-de-mayo-de-2026/",
+              "source": "Chilevisión"
+            },
+            {
+              "title": "Mundial de fútbol: Un 50% verá partidos pese a ausencia de Chile y Francia y Brasil son los favoritos",
+              "url": "https://www.emol.com/noticias/Nacional/2026/05/08/1199362/black-white-mundial-futbol-chile.html",
+              "source": "Emol"
+            },
+            {
+              "title": "Ceremonia inaugural del Mundial 2026: Los artistas que se presentarán en México, Canadá y Estados Unidos",
+              "url": "https://www.t13.cl/noticia/deportes13/ceremonia-inaugural-del-mundial-2026-artistas-se-presentaran-mexico-canada-esta-9-5-2026",
+              "source": "Teletrece"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alreadyCovered": []
+}
