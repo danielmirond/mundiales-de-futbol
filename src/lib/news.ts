@@ -73,6 +73,92 @@ export type NewsItem = {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'prelista-brasil-mundial-2026-ancelotti-55-neymar-vinicius-rodrygo-fuera',
+    title:
+      'Brasil envía la prelista del Mundial: Ancelotti rescata a Neymar y deja fuera a Rodrygo y Militão',
+    summary:
+      'La CBF entregó este lunes a la FIFA los 55 nombres de Carlo Ancelotti. La sorpresa: el italiano incluye a Neymar pese a su recuperación de ligamentos, busca su cuarto Mundial. Rodrygo, Éder Militão y la joya del Chelsea Estêvão se quedan fuera por lesión. Vinicius Jr. aparece sin dudas. La lista definitiva de 26 se anuncia el 18 de mayo en el Museo del Mañana de Río de Janeiro.',
+    body: `La Confederação Brasileira de Futebol envió el lunes 11 de mayo a FIFA la prelista de 55 jugadores que Carlo Ancelotti maneja para el Mundial 2026. Es la primera lista oficial bajo la dirección del entrenador italiano, contratado en mayo de 2025, y la primera vez en la historia que la prelista es vinculante: cualquier convocatoria posterior por lesión solo podrá hacerse entre los 55 nombres entregados a FIFA.
+
+**Neymar entra, contra toda predicción reciente**. El delantero del Santos, recuperado de la rotura de ligamento cruzado y menisco sufrida en octubre de 2023, había jugado solo 13 partidos competitivos en los doce meses anteriores. Ancelotti lo mantiene en la prelista, en una decisión cargada de simbolismo: Neymar busca su cuarto Mundial (2014, 2018, 2022, 2026) y empatar el récord histórico brasileño que comparten Cafú, Ronaldo Nazário y Dida. La nómina definitiva de 26, que se anuncia el 18 de mayo en el Museo del Mañana de Río, es otra cosa. La continuidad física de Neymar en las próximas dos semanas determinará si llega o no al corte final.
+
+**Las bajas más sentidas**. Rodrygo Goes (Real Madrid) queda fuera por una lesión muscular que arrastra desde finales de abril. Éder Militão tampoco entra: el central blanco lleva tres temporadas marcadas por cruzados y sigue sin recuperar el ritmo competitivo que tenía en 2022. Pero la noticia más comentada es la baja de Estêvão Willian, la joya del Chelsea de 17 años que había explotado en los últimos meses de la Premier League: una lesión de grado 4 en el muslo derecho, detectada hace dos semanas, lo deja fuera de toda opción de Mundial.
+
+**Lo que sí está**. Vinicius Jr. encabeza la delantera brasileña sin discusión. Le acompañan Raphinha (Barça), Endrick (Real Madrid), Antony (Manchester United) y João Pedro (Brighton) como nombres prácticamente confirmados. En el centro del campo, Casemiro vuelve al radar de la selección tras una temporada consistente en el Manchester United, Bruno Guimarães (Newcastle) es indiscutible, y la sorpresa positiva es la inclusión de Andreas Pereira (Fulham), que regresa a la canarinha tras dos años de ausencia. El portero titular sigue siendo Alisson (Liverpool), con Ederson (Manchester City) como suplente histórico.
+
+**Lo que viene**. Brasil concentra a los 26 elegidos en la Granja Comary el 27 de mayo. Debut mundialista: 13 de junio contra Marruecos en el MetLife Stadium de Nueva Jersey, en una de las grandes piedras de toque del Grupo C. La pregunta de fondo, sin embargo, es si Brasil con Ancelotti italiano puede romper el techo de cuartos de final que arrastra desde el 2014 humillación 7-1 en el Mineirão.`,
+    category: 'convocatorias',
+    sourceName: 'Infobae · Deportes',
+    sourceUrl:
+      'https://www.infobae.com/deportes/2026/05/11/ancelotti-presento-la-prelista-de-la-seleccion-de-brasil-de-cara-al-mundial-2026-la-baja-sorpresiva-y-el-guino-a-neymar/',
+    sourceLang: 'es',
+    publishedAt: '2026-05-11T18:00:00Z',
+    sourcesSecondary: [
+      {
+        name: '442 (Perfil) · Neymar adentro, Rodrygo afuera',
+        url: 'https://442.perfil.com/noticias/mundial-2026/neymar-adentro-rodrygo-afuera-las-sorpresas-de-ancelotti-en-la-prelista-de-brasil-para-el-mundial-2026-a35.phtml',
+      },
+      {
+        name: 'El Gráfico · Carlo Ancelotti define el camino',
+        url: 'https://www.elgrafico.com.ar/articulo/mundial-2026/99856/carlo-ancelotti-define-el-camino-de-brasil-sorpresas-regresos-y-bajas-de-peso-en-la-prelista-para-el-mundial-2026',
+      },
+      {
+        name: '365Scores · Lista de 55 jugadores Brasil 2026',
+        url: 'https://www.365scores.com/es/news/brasil-pre-lista-convocados-mundial/',
+      },
+      {
+        name: 'Vanguardia · Neymar, la gran sorpresa',
+        url: 'https://www.vanguardia.com/deportes/futbol/2026/05/11/neymar-la-gran-sorpresa-de-carlo-ancelotti-asi-quedo-la-prelista-de-brasil-para-el-mundial-2026/',
+      },
+    ],
+  },
+  {
+    slug: 'prelista-espana-mundial-2026-de-la-fuente-55-yamal-pedri-rodri',
+    title:
+      'España manda su prelista a la FIFA: De la Fuente fija a Rodri, Pedri, Yamal y Olmo, no la hace pública',
+    summary:
+      'La RFEF entregó el lunes 11 de mayo a la FIFA la prelista de 55 jugadores de Luis de la Fuente para el Mundial 2026, sin publicarla. Es la primera vez que el documento es vinculante: cualquier sustitución por lesión deberá salir de esa lista. Fijos sin discusión: Rodri, Pedri, Zubimendi, Fabián Ruiz, Fermín, Dani Olmo, más Lamine Yamal, Nico Williams, Ferran Torres y Oyarzabal arriba. La convocatoria definitiva de 26 se anuncia el 25 de mayo.',
+    body: `La Federación Española de Fútbol envió el lunes 11 de mayo a la FIFA la prelista de 55 jugadores que Luis de la Fuente baraja para el Mundial 2026. A diferencia de Brasil, que sí publicó los 55 nombres el mismo día, España optó por no hacerla pública. La razón oficial, según fuentes federativas, es no facilitar mapas de presión a los rivales del Grupo H (Cabo Verde, Arabia Saudí y Uruguay). La razón oficiosa, más prosaica, es no exponer las dudas internas del cuerpo técnico ante la prensa durante las dos semanas que quedan hasta el corte final del 25 de mayo.
+
+**El cambio del reglamento**. La gran novedad del Mundial 2026 frente a torneos anteriores es que la prelista pasa a ser vinculante. Hasta Qatar 2022, las federaciones entregaban una lista preliminar abierta y el seleccionador podía sustituir jugadores lesionados por cualquier futbolista hasta 24 horas antes del primer partido. En el Mundial USA-Canadá-México las cosas cambian: si Lamine Yamal o Rodri sufren una lesión en la última semana, De la Fuente solo podrá sustituirlos por uno de los 54 nombres restantes de la prelista. Esto fuerza al seleccionador a incluir reservas de cada posición clave, no solo a sus 26 favoritos.
+
+**Los seis fijos centrales**. Según trabajos de Infobae, ElDesmarque y BeIN Sports, los seis nombres sin discusión en el centro del campo son Rodri (Manchester City, Balón de Oro 2024, recuperado de cruzados), Pedri (Barça, plenitud física tras dos años marcados por lesiones), Martín Zubimendi (Real Sociedad, pivote defensivo titular), Fabián Ruiz (PSG, conectividad y experiencia), Fermín López (Barça, juventud y desborde) y Dani Olmo (Barça, comodín ofensivo). Es la base que ganó la Eurocopa 2024 más Pedri y Rodri recuperados.
+
+**La delantera intocable**. Los cuatro nombres arriba están blindados: Lamine Yamal (Barça, 19 años recién cumplidos, máximo goleador de la Eurocopa 2024 con 17 años), Nico Williams (Athletic, autor del primer gol en la final de Eurocopa contra Inglaterra), Ferran Torres (Barça, recuperado del bajón anímico) y Mikel Oyarzabal (Real Sociedad, autor del gol del título en la final de Eurocopa). En portería la jerarquía está clara: Unai Simón (Athletic) titular, David Raya (Arsenal) suplente.
+
+**Las dudas reales**. El elemento más comentado de la prelista, según El Nacional y El Gol Digital, es la enorme presencia del Barça (nueve jugadores en distintas posiciones) y la escasez de Real Madrid (apenas un nombre, Joselu Mato del Al-Gharafa contado entre las posibles incorporaciones tardías). En defensa, Daniel Vivian, Pau Cubarsí y Robin Le Normand son las opciones más sólidas. El extremo Sergio Gómez (Manchester City), Yeremy Pino (Villarreal) y Jorge Brian de Frutos están en la conversación como cuartos delanteros. La sorpresa esperada es el navarro Iñigo Martínez Berasategi de la Real Sociedad.
+
+**Lo que viene**. España anuncia los 26 definitivos el 25 de mayo. Se concentra en Las Rozas el 26 de mayo. Debuta en el Mundial el 15 de junio contra Cabo Verde en el Mercedes-Benz Stadium de Atlanta, con kickoff a las 12:00 hora local CDT (19:00 hora peninsular).`,
+    category: 'convocatorias',
+    sourceName: 'Infobae · España',
+    sourceUrl:
+      'https://www.infobae.com/espana/deportes/2026/05/11/luis-de-la-fuente-y-la-prelista-de-55-jugadores-que-tiene-que-entregar-a-la-fifa-de-ahi-saldran-los-26-convocados-de-la-seleccion-espanola-para-el-mundial-2026/',
+    sourceLang: 'es',
+    publishedAt: '2026-05-11T19:30:00Z',
+    sourcesSecondary: [
+      {
+        name: 'Eurosport · Prelista enigmática de De la Fuente',
+        url: 'https://www.eurosport.es/futbol/mundial/2026/espana-de-la-fuente-prelista-55-jugadores_sto23298860/story.shtml',
+      },
+      {
+        name: 'beIN Sports · Lesiones, dudas y base intocable',
+        url: 'https://www.beinsports.com/es-us/football/copa-mundial-de-la-fifa-2026/articles/luis-de-la-fuente-define-su-prelista-con-espa%C3%B1a-para-la-copa-del-mundo-lesiones-dudas-y-una-base-casi-intocable-2026-05-12',
+      },
+      {
+        name: 'ElDesmarque · Fijos, dudas y posibles sorpresas',
+        url: 'https://www.eldesmarque.com/futbol/mundial/20260511/prelista-espana-mundial-2026-dudas-fijos-posibles-sorpresas_18_019131728.html',
+      },
+      {
+        name: 'El Nacional · Catalanes y Barça',
+        url: 'https://www.elnacional.cat/es/deportes/luis-fuente-manda-prelista-espana-mundial-2026-barca-catalanes_1638400_102.html',
+      },
+      {
+        name: 'El Gol Digital · Moleiro, Sergio Gómez y los tocados',
+        url: 'https://www.elgoldigital.com/futbol/seleccion-espana/espana-prelista-55-mundial-2026-moleiro/',
+      },
+    ],
+  },
+  {
     slug: 'lego-mundial-2026-coleccion-9-sets-messi-ronaldo-mbappe-vinicius',
     title:
       'LEGO presenta su colección Mundial 2026: nueve sets con Messi, Ronaldo, Mbappé y Vinícius Jr. desde 24,99 dólares',
