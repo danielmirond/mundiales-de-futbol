@@ -73,6 +73,60 @@ export type NewsItem = {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'suecia-lista-definitiva-26-mundial-2026-potter-isak-gyokeres-kulusevski-fuera',
+    title:
+      'Suecia se adelanta: Graham Potter publica los 26 definitivos del Mundial con Isak y Gyökeres dentro, Kulusevski fuera',
+    summary:
+      'La SvFF se convierte en la primera federación en saltarse el plazo de la prelista y anunciar directamente los 26 jugadores definitivos para el Mundial 2026. Graham Potter, ex Chelsea, mete a Alexander Isak (Liverpool, lesionado) y Viktor Gyökeres (Arsenal) en su primera gran convocatoria. Las bajas duras: Dejan Kulusevski (Tottenham) y Roony Bardghji (Barça). Suecia, 13ª participación mundialista, juega Grupo F contra Países Bajos, Japón y Túnez.',
+    body: `La Svenska Fotbollförbundet (SvFF) anunció este 12 de mayo los 26 jugadores definitivos que Suecia llevará al Mundial 2026, convirtiéndose en la primera federación del torneo en publicar la lista final apenas un día después del cierre del plazo para entregar la prelista de 55 nombres. La decisión, atribuida al estilo directo del seleccionador inglés Graham Potter —ex entrenador de Brighton y Chelsea, contratado por la SvFF en agosto de 2025 después del fracaso clasificatorio que casi se evita en el repechaje de marzo contra Ucrania y Polonia—, evita la fase de especulación pública que sí han alargado España, Brasil o Argentina.
+
+**El plantel**. El capitán es **Victor Lindelöf**, central del Aston Villa con 75 internacionalidades, una de las cifras más altas del fútbol sueco moderno. Le acompañan en defensa nombres habituales como Daniel Sundgren, Isak Hien (Atalanta) y Jens Cajuste. En el centro del campo, Lucas Bergvall (Tottenham, 19 años) y Anthony Elanga (Newcastle United) son los referentes generacionales. Pero el peso del equipo está arriba, con dos delanteros que cuestan en el mercado europeo más que el presupuesto de varias selecciones presentes.
+
+**Isak y Gyökeres, los dos delanteros récord**. **Alexander Isak** llega como jugador del Liverpool tras el fichaje récord de la pasada temporada (transferencia desde el Newcastle por una cifra cercana a los 130 millones de libras, fichaje más caro de la historia del fútbol inglés). Potter lo incluye pese a una lesión muscular reciente que lo ha apartado de los últimos partidos de la Premier League. La apuesta, dicen fuentes de la federación citadas por Sweden Herald y Yahoo Sports, es que llegue al primer partido del Mundial. **Viktor Gyökeres**, fichado por el Arsenal el verano pasado por unos 65 millones de libras desde el Sporting CP donde marcó 97 goles en 102 partidos, completa la dupla. Es la primera vez en la historia que Suecia lleva al Mundial dos delanteros con fichajes récord recientes en clubes top de Premier League.
+
+**Las bajas más comentadas**. **Dejan Kulusevski**, el extremo del Tottenham, queda fuera tras doce meses marcados por lesiones recurrentes. Según *Goal*, «el Mundial llegó demasiado pronto» para Kulusevski, que arrastra problemas de rodilla desde abril de 2025 y solo ha disputado siete partidos en la última temporada. La otra ausencia que ha sorprendido a la prensa sueca es la de **Roony Bardghji**, extremo de 20 años fichado por el Barça en verano de 2025, que ha disputado 26 partidos en todas las competiciones con el club catalán. Potter ha preferido no llamarlo «por consideraciones de adaptación táctica», según comunicado de la SvFF.
+
+**Lo que esto dice del calendario**. Siete jugadores incluidos en la lista de 26 no estuvieron disponibles para los repechajes de marzo contra Ucrania y Polonia, donde Suecia se ganó el billete al Mundial en condiciones límite. Esto sugiere que Potter está construyendo un equipo distinto al que clasificó, apoyándose ahora en jugadores recuperados de lesión que pueden ofrecerle el nivel competitivo que Suecia necesita para superar al menos la fase de grupos.
+
+**Grupo F y debut**. Suecia disputará la 13ª participación mundialista de su historia (la última fue Rusia 2018, cuartos de final). El grupo F es asequible para sus aspiraciones: Países Bajos (favorita), Japón (rival con calidad técnica), Túnez (rival accesible). Suecia debuta el 17 de junio contra Países Bajos en el Estadio NRG de Houston. La pregunta deportiva real es si Potter consigue trasladar al equipo el ADN ofensivo que prometía cuando llegó al banquillo el verano pasado, después de un primer ciclo en el que Suecia mostró tanto la solvencia clásica de su fútbol como destellos del talento de Isak y Gyökeres que aún no convierte en victorias consistentes ante rivales top.`,
+    category: 'convocatorias',
+    sourceName: 'Heavy.com Sports',
+    sourceUrl:
+      'https://heavy.com/sports/soccer/sweden-announces-squad-fifa-world-cup/',
+    sourceLang: 'en',
+    publishedAt: '2026-05-12T13:25:00Z',
+    sourcesSecondary: [
+      {
+        name: 'Flashscore · Potter names 26-man Sweden squad',
+        url: 'https://www.flashscore.com/news/soccer-world-cup-graham-potter-names-26-man-sweden-squad-for-the-world-cup/OjiHKnrg/',
+      },
+      {
+        name: 'Olympics.com · Sweden full squad list',
+        url: 'https://www.olympics.com/en/news/fifa-world-cup-2026-sweden-great-escape-graham-potter-all-players-full-squad-list-key-stats-schedule',
+      },
+      {
+        name: 'Yahoo Sports · Official Sweden squad',
+        url: 'https://sports.yahoo.com/articles/official-swedens-squad-world-cup-144500546.html',
+      },
+      {
+        name: 'NBC Dallas-Fort Worth · Sweden national team',
+        url: 'https://www.nbcdfw.com/news/local/swedish-national-team-announces-2026-fifa-world-cup-roster/4023045/',
+      },
+      {
+        name: 'Sweden Herald · Squad selected by Potter',
+        url: 'https://swedenherald.com/article/swedens-world-cup-squad-26-players-selected-by-graham-potter',
+      },
+      {
+        name: 'Fotmob · Isak headlines, Bardghji and Kulusevski out',
+        url: 'https://www.fotmob.com/news/1xjd2xary5ves19vtxv63t31pl-isak-headlines-swedens-world-cup-squad-bardghji-kulusevski-absent',
+      },
+      {
+        name: 'Goal · Kulusevski misses out',
+        url: 'https://www.goal.com/en-ca/lists/world-cup-dejan-kulusevski-injury-tottenham-sweden-viktor-gyokeres-alexander-isak/bltd56651aa57664624',
+      },
+    ],
+  },
+  {
     slug: 'fifa-panini-collection-app-mundial-2026-coca-cola-album-digital',
     title:
       'FIFA y Panini lanzan la app oficial del álbum 2026 con Coca-Cola: 528 cromos digitales, escaneo de etiquetas y packs diarios gratis',
