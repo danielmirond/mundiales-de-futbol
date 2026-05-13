@@ -3,6 +3,7 @@ import Image from 'next/image';
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { ArrowRight, MapPin, Trophy } from 'lucide-react';
 import { Countdown } from '@/components/home/countdown';
+import { Wc2026Dashboard } from '@/components/edition/wc2026-dashboard';
 import { getTournament } from '@/lib/tournaments';
 import { getAllVenues } from '@/lib/data/venues';
 import { routing, type Locale } from '@/i18n/routing';
@@ -165,6 +166,9 @@ export default async function NorthAmerica2026Page({
       </section>
 
       <Countdown />
+
+      {/* Dashboard 2026: próximo partido + mi selección + sub-hubs + chips fases */}
+      <Wc2026Dashboard locale={locale as Locale} />
 
       {/* Host countries */}
       <section className="mx-auto w-full max-w-[1400px] px-6 py-16 md:px-10 md:py-24">
