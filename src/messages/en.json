@@ -95,6 +95,21 @@
       "errorGeneric": "Something went wrong. Try again in a few minutes."
     }
   },
+  "wc2026Bar": {
+    "label": "World Cup 2026",
+    "live": "LIVE",
+    "groupStage": "Group stage",
+    "koStage": "Knockout stage",
+    "archive": "World Cup 2026 · archive",
+    "opener": "Opening match",
+    "postSubtitle": "Revisit the road to the title",
+    "calendar": "Schedule",
+    "groups": "Groups",
+    "tickets": "Tickets",
+    "dayShort": "d",
+    "hourShort": "h",
+    "minuteShort": "m"
+  },
   "cookies": {
     "title": "This site uses cookies",
     "intro": "We use strictly necessary cookies for the site to work and, if you agree, analytics cookies to measure usage. None are shared with advertisers.",

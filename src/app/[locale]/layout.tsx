@@ -6,6 +6,7 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { routing, localeMeta, type Locale } from '@/i18n/routing';
 import { SiteNav } from '@/components/nav/site-nav';
 import { SiteFooter } from '@/components/nav/site-footer';
+import { Wc2026Bar } from '@/components/nav/wc-2026-bar';
 import { CookieBanner } from '@/components/shared/cookie-banner';
 import { GatedAnalytics } from '@/components/shared/gated-analytics';
 import { GoogleAnalytics } from '@/components/shared/google-analytics';
@@ -102,6 +103,7 @@ export default async function LocaleLayout({
           <div aria-hidden className="vignette-fixed" />
           <div className="relative flex min-h-screen flex-col">
             <SiteNav />
+            <Wc2026Bar />
             <main className="flex-1">{children}</main>
             <SiteFooter />
           </div>

@@ -95,6 +95,21 @@
       "errorGeneric": "Algo falhou. Tente novamente em alguns minutos."
     }
   },
+  "wc2026Bar": {
+    "label": "Copa 2026",
+    "live": "AO VIVO",
+    "groupStage": "Fase de grupos",
+    "koStage": "Mata-mata",
+    "archive": "Copa 2026 · arquivo",
+    "opener": "Jogo de abertura",
+    "postSubtitle": "Reviva o caminho ao título",
+    "calendar": "Calendário",
+    "groups": "Grupos",
+    "tickets": "Ingressos",
+    "dayShort": "d",
+    "hourShort": "h",
+    "minuteShort": "m"
+  },
   "cookies": {
     "title": "Este site usa cookies",
     "intro": "Usamos cookies necessários para o funcionamento do site e, com o seu consentimento, cookies analíticos para medir o uso. Nenhum é compartilhado com anunciantes.",

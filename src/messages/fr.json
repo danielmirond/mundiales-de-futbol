@@ -95,6 +95,21 @@
       "errorGeneric": "Quelque chose a mal tourné. Réessayez dans quelques minutes."
     }
   },
+  "wc2026Bar": {
+    "label": "Coupe 2026",
+    "live": "EN DIRECT",
+    "groupStage": "Phase de groupes",
+    "koStage": "Phases finales",
+    "archive": "Coupe 2026 · archives",
+    "opener": "Match d'ouverture",
+    "postSubtitle": "Revivez la route du titre",
+    "calendar": "Calendrier",
+    "groups": "Groupes",
+    "tickets": "Billets",
+    "dayShort": "j",
+    "hourShort": "h",
+    "minuteShort": "m"
+  },
   "cookies": {
     "title": "Ce site utilise des cookies",
     "intro": "Nous utilisons des cookies strictement nécessaires au fonctionnement du site et, si vous acceptez, des cookies analytiques pour mesurer l'usage. Aucun n'est partagé avec des annonceurs.",

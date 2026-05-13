@@ -95,6 +95,21 @@
       "errorGeneric": "Algo falló. Vuelve a intentarlo en unos minutos."
     }
   },
+  "wc2026Bar": {
+    "label": "Mundial 2026",
+    "live": "EN VIVO",
+    "groupStage": "Fase de grupos",
+    "koStage": "Eliminatorias",
+    "archive": "Mundial 2026 · archivo",
+    "opener": "Partido inaugural",
+    "postSubtitle": "Revive el camino al título",
+    "calendar": "Calendario",
+    "groups": "Grupos",
+    "tickets": "Entradas",
+    "dayShort": "d",
+    "hourShort": "h",
+    "minuteShort": "m"
+  },
   "cookies": {
     "title": "Esta web usa cookies",
     "intro": "Usamos cookies necesarias para el funcionamiento del sitio y, si las aceptas, cookies analíticas para medir su uso. Ninguna se comparte con anunciantes.",
