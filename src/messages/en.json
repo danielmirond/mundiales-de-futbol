@@ -211,6 +211,20 @@
           "final": "Final"
         }
       },
+      "partido": {
+        "backToCalendar": "Full schedule",
+        "matchNumber": "Match {n}",
+        "localTime": "local time",
+        "whereToWatch": "Where to watch this match",
+        "tickets": "Official tickets",
+        "groupLabel": "Group",
+        "otherTeamsInGroup": "Other teams in the group",
+        "sameDay": "Same day",
+        "otherMatchesToday": "Other matches of the day",
+        "teamJourney": "{team} road in the World Cup",
+        "previousMatch": "Previous match",
+        "nextMatch": "Next match"
+      },
       "title": "FIFA World Cup 2026 · Full schedule, venues, groups and kick-off times",
       "description": "FIFA World Cup 2026 (USA, Mexico, Canada): complete schedule for all 104 matches, 16 stadiums and 12 groups. When it starts and when the final is played."
     },

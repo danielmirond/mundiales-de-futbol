@@ -212,6 +212,20 @@
           "sf": "Demies",
           "final": "Finale"
         }
+      },
+      "partido": {
+        "backToCalendar": "Calendrier complet",
+        "matchNumber": "Match {n}",
+        "localTime": "heure locale",
+        "whereToWatch": "Où regarder le match",
+        "tickets": "Billets officiels",
+        "groupLabel": "Groupe",
+        "otherTeamsInGroup": "Autres équipes du groupe",
+        "sameDay": "Même jour",
+        "otherMatchesToday": "Autres matchs du jour",
+        "teamJourney": "Le parcours de {team} en Coupe",
+        "previousMatch": "Match précédent",
+        "nextMatch": "Match suivant"
       }
     },
     "dondeVer": {

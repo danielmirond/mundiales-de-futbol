@@ -3,7 +3,7 @@ import { createClient } from '@supabase/supabase-js';
 import { TOURNAMENTS } from '@/lib/tournaments';
 import { HISTORIAS } from '@/lib/historias';
 import { SEDES_2026 } from '@/lib/wc-2026-sedes';
-import { GROUPS_2026 } from '@/lib/wc-2026';
+import { GROUPS_2026, FIXTURES_2026 } from '@/lib/wc-2026';
 import { NEWS_ITEMS } from '@/lib/news';
 import { SQUADS_2026 } from '@/lib/wc-2026-squads';
 import { JERSEY_HISTORIES } from '@/lib/wc-jerseys';
@@ -150,6 +150,11 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // Grupos 2026 (A-L)
   for (const g of GROUPS_2026) {
     out.push(entry(`/2026/grupo/${g.letter}`, now, 'weekly', 0.8));
+  }
+
+  // Partidos 2026 (104 fixtures con kickoff conocido)
+  for (const f of FIXTURES_2026) {
+    out.push(entry(`/2026/partido/${f.n}`, now, 'weekly', 0.85));
   }
 
   // Records detallados

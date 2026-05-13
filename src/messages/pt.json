@@ -212,6 +212,20 @@
           "sf": "Semis",
           "final": "Final"
         }
+      },
+      "partido": {
+        "backToCalendar": "Calendário completo",
+        "matchNumber": "Jogo {n}",
+        "localTime": "horário local",
+        "whereToWatch": "Onde assistir ao jogo",
+        "tickets": "Ingressos oficiais",
+        "groupLabel": "Grupo",
+        "otherTeamsInGroup": "Outras seleções do grupo",
+        "sameDay": "Mesmo dia",
+        "otherMatchesToday": "Outros jogos da rodada",
+        "teamJourney": "O caminho de {team} na Copa",
+        "previousMatch": "Jogo anterior",
+        "nextMatch": "Próximo jogo"
       }
     },
     "dondeVer": {

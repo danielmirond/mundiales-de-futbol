@@ -212,6 +212,20 @@
           "sf": "نصف النهائي",
           "final": "النهائي"
         }
+      },
+      "partido": {
+        "backToCalendar": "الجدول الكامل",
+        "matchNumber": "المباراة {n}",
+        "localTime": "بالتوقيت المحلي",
+        "whereToWatch": "أين تُشاهد المباراة",
+        "tickets": "التذاكر الرسمية",
+        "groupLabel": "المجموعة",
+        "otherTeamsInGroup": "المنتخبات الأخرى في المجموعة",
+        "sameDay": "اليوم نفسه",
+        "otherMatchesToday": "مباريات أخرى في اليوم",
+        "teamJourney": "مشوار {team} في كأس العالم",
+        "previousMatch": "المباراة السابقة",
+        "nextMatch": "المباراة التالية"
       }
     },
     "dondeVer": {
