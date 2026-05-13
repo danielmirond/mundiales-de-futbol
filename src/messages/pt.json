@@ -84,6 +84,26 @@
       }
     }
   },
+  "matchCard": {
+    "seeMatch": "Ver jogo",
+    "statusLive": "Ao vivo",
+    "statusFinished": "Encerrado",
+    "statusScheduled": "Agendado",
+    "tabs": {
+      "tablistLabel": "Informações do jogo",
+      "h2h": "Confronto direto",
+      "preview": "Antevisão",
+      "curiosity": "Curiosidade",
+      "h2hEmptyTitle": "Histórico entre {home} e {away}",
+      "h2hEmptyHint": "Em breve: confrontos prévios em outras Copas.",
+      "previewEmptyTitle": "Antevisão do jogo · {stage}",
+      "previewEmptyHint": "Ainda não há antevisão editorial publicada para este jogo.",
+      "curiosityEmptyTitle": "Sem curiosidade documentada",
+      "curiosityEmptyHint": "Quando este jogo tiver uma anedota ou história relevante, aparecerá aqui.",
+      "iconicNoStory": "Este jogo consta como icônico no nosso arquivo, mas ainda não temos história editorial estendida.",
+      "readStory": "Ler a história"
+    }
+  },
   "footer": {
     "tagline": "Uma biblioteca viva da Copa do Mundo.",
     "language": "Idioma",

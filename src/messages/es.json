@@ -84,6 +84,26 @@
       }
     }
   },
+  "matchCard": {
+    "seeMatch": "Ver partido",
+    "statusLive": "En vivo",
+    "statusFinished": "Finalizado",
+    "statusScheduled": "Programado",
+    "tabs": {
+      "tablistLabel": "Información del partido",
+      "h2h": "Cara a cara",
+      "preview": "Crónica",
+      "curiosity": "Curiosidad",
+      "h2hEmptyTitle": "Historial entre {home} y {away}",
+      "h2hEmptyHint": "Próximamente: enfrentamientos previos en otros Mundiales.",
+      "previewEmptyTitle": "Crónica del partido · {stage}",
+      "previewEmptyHint": "Aún no hay crónica editorial publicada para este partido.",
+      "curiosityEmptyTitle": "Sin curiosidad documentada",
+      "curiosityEmptyHint": "Cuando este partido tenga una anécdota o historia relevante, aparecerá aquí.",
+      "iconicNoStory": "Este partido figura como icónico en nuestro archivo, pero no tenemos historia editorial extendida todavía.",
+      "readStory": "Leer la historia"
+    }
+  },
   "footer": {
     "tagline": "Una biblioteca viva del Mundial de Fútbol.",
     "language": "Idioma",

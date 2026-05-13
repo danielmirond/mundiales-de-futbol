@@ -84,6 +84,26 @@
       }
     }
   },
+  "matchCard": {
+    "seeMatch": "عرض المباراة",
+    "statusLive": "مباشر",
+    "statusFinished": "انتهت",
+    "statusScheduled": "مُجدوَلة",
+    "tabs": {
+      "tablistLabel": "معلومات المباراة",
+      "h2h": "المواجهة المباشرة",
+      "preview": "مقدّمة المباراة",
+      "curiosity": "طرفة",
+      "h2hEmptyTitle": "سجل {home} و{away}",
+      "h2hEmptyHint": "قريبًا: المواجهات السابقة في كؤوس عالم أخرى.",
+      "previewEmptyTitle": "مقدّمة المباراة · {stage}",
+      "previewEmptyHint": "لا توجد مقدّمة تحريرية منشورة لهذه المباراة بعد.",
+      "curiosityEmptyTitle": "لا توجد طرفة موثّقة",
+      "curiosityEmptyHint": "حين تتوفّر حكاية أو طرفة لهذه المباراة، ستظهر هنا.",
+      "iconicNoStory": "هذه المباراة مدرَجة كأيقونية في أرشيفنا، لكن ليس لدينا حكاية تحريرية موسّعة بعد.",
+      "readStory": "اقرأ الحكاية"
+    }
+  },
   "footer": {
     "tagline": "مكتبة حية لكأس العالم.",
     "language": "اللغة",

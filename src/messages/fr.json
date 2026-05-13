@@ -84,6 +84,26 @@
       }
     }
   },
+  "matchCard": {
+    "seeMatch": "Voir le match",
+    "statusLive": "En direct",
+    "statusFinished": "Terminé",
+    "statusScheduled": "À venir",
+    "tabs": {
+      "tablistLabel": "Informations du match",
+      "h2h": "Face-à-face",
+      "preview": "Avant-match",
+      "curiosity": "Anecdote",
+      "h2hEmptyTitle": "Historique entre {home} et {away}",
+      "h2hEmptyHint": "Bientôt : confrontations précédentes dans d'autres Coupes.",
+      "previewEmptyTitle": "Avant-match · {stage}",
+      "previewEmptyHint": "Aucun avant-match éditorial publié pour cette rencontre.",
+      "curiosityEmptyTitle": "Aucune anecdote documentée",
+      "curiosityEmptyHint": "Quand ce match aura une anecdote ou histoire notable, elle apparaîtra ici.",
+      "iconicNoStory": "Ce match est référencé comme emblématique dans nos archives, mais nous n'avons pas encore d'histoire éditoriale étendue.",
+      "readStory": "Lire l'histoire"
+    }
+  },
   "footer": {
     "tagline": "Une bibliothèque vivante de la Coupe du Monde.",
     "language": "Langue",

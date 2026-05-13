@@ -84,6 +84,26 @@
       }
     }
   },
+  "matchCard": {
+    "seeMatch": "See match",
+    "statusLive": "Live",
+    "statusFinished": "Finished",
+    "statusScheduled": "Scheduled",
+    "tabs": {
+      "tablistLabel": "Match information",
+      "h2h": "Head-to-head",
+      "preview": "Preview",
+      "curiosity": "Curiosity",
+      "h2hEmptyTitle": "{home} vs {away} record",
+      "h2hEmptyHint": "Coming soon: previous matches in other World Cups.",
+      "previewEmptyTitle": "Match preview · {stage}",
+      "previewEmptyHint": "No editorial preview published for this match yet.",
+      "curiosityEmptyTitle": "No curiosity on file",
+      "curiosityEmptyHint": "When this match has a notable anecdote or story, it will appear here.",
+      "iconicNoStory": "This match is listed as iconic in our archive, but we don't have an extended story yet.",
+      "readStory": "Read the story"
+    }
+  },
   "footer": {
     "tagline": "A living library of the FIFA World Cup.",
     "language": "Language",
