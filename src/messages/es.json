@@ -45,6 +45,24 @@
       "champions": "Campeones distintos",
       "teams2026": "Selecciones en 2026"
     },
+    "groups": {
+      "kicker": "Fase de grupos · 11-27 jun",
+      "title": "Los 12 grupos del Mundial",
+      "groupLabel": "Grupo",
+      "host": "Anfitriona",
+      "hostLegend": "Anfitrionas",
+      "clickHint": "Click bandera → ficha de selección",
+      "seeAll": "Ver grupos completos"
+    },
+    "todayHistory": {
+      "kicker": "Hoy en la historia",
+      "title": "La pieza del día",
+      "read": "Leer historia",
+      "yesterday": "Ayer",
+      "tomorrow": "Mañana",
+      "quoteOfTheDay": "La frase del día",
+      "viewAll": "Ver calendario"
+    },
     "editions": {
       "title": "Las 22 ediciones",
       "subtitle": "De Uruguay 1930 a Norteamérica 2026",

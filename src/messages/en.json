@@ -45,6 +45,24 @@
       "champions": "Unique champions",
       "teams2026": "Teams in 2026"
     },
+    "groups": {
+      "kicker": "Group stage · 11-27 Jun",
+      "title": "The 12 groups of the World Cup",
+      "groupLabel": "Group",
+      "host": "Host",
+      "hostLegend": "Host nations",
+      "clickHint": "Click flag → team profile",
+      "seeAll": "View full groups"
+    },
+    "todayHistory": {
+      "kicker": "Today in history",
+      "title": "Today's story",
+      "read": "Read story",
+      "yesterday": "Yesterday",
+      "tomorrow": "Tomorrow",
+      "quoteOfTheDay": "Quote of the day",
+      "viewAll": "View calendar"
+    },
     "editions": {
       "title": "All 22 editions",
       "subtitle": "From Uruguay 1930 to North America 2026",

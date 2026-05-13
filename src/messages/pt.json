@@ -45,6 +45,24 @@
       "champions": "Campeões distintos",
       "teams2026": "Seleções em 2026"
     },
+    "groups": {
+      "kicker": "Fase de grupos · 11-27 jun",
+      "title": "Os 12 grupos da Copa",
+      "groupLabel": "Grupo",
+      "host": "Sede",
+      "hostLegend": "Anfitriões",
+      "clickHint": "Clique na bandeira → perfil da seleção",
+      "seeAll": "Ver grupos completos"
+    },
+    "todayHistory": {
+      "kicker": "Hoje na história",
+      "title": "A história do dia",
+      "read": "Ler história",
+      "yesterday": "Ontem",
+      "tomorrow": "Amanhã",
+      "quoteOfTheDay": "Frase do dia",
+      "viewAll": "Ver calendário"
+    },
     "editions": {
       "title": "As 22 edições",
       "subtitle": "De Uruguai 1930 a América do Norte 2026",

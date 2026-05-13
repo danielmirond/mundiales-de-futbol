@@ -5,6 +5,8 @@ import { DailyNews } from '@/components/home/daily-news';
 import { StatsBand } from '@/components/home/stats-band';
 import { EditionsGrid } from '@/components/home/editions-grid';
 import { Pillars } from '@/components/home/pillars';
+import { GroupsHeatmap } from '@/components/home/groups-heatmap';
+import { TodayInHistory } from '@/components/home/today-in-history';
 import type { Locale } from '@/i18n/routing';
 import { pageMetadata } from '@/lib/seo';
 
@@ -45,6 +47,8 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
       <Hero />
       <Countdown />
       <DailyNews locale={locale as Locale} />
+      <GroupsHeatmap locale={locale as Locale} />
+      <TodayInHistory locale={locale as Locale} />
       <StatsBand />
       <EditionsGrid locale={locale as Locale} />
       <Pillars />
