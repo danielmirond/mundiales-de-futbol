@@ -1099,6 +1099,44 @@ Brasil intentó empatar pero no encontró la portería. Reader pitó el final. L
 
 El epílogo brasileño fue tan oscuro como el partido. Moacir Barbosa, portero del 1-2 final, fue convertido en el chivo expiatorio nacional. Durante cuarenta y nueve años (de 1950 a 1999, cuando finalmente fue convidado a una ceremonia conmemorativa), Barbosa fue marginado del fútbol brasileño. Una vendedora del mercado de São Cristovão le señaló una vez a su hijo diciéndole: «mira, ese señor es el que hizo llorar a todo Brasil». Barbosa contaba esta anécdota en cada entrevista. Murió en abril de 2000, a los 79 años, en la pobreza, repitiendo siempre la misma frase: «en Brasil la pena máxima es de treinta años. Yo llevo cumpliendo cincuenta». En Uruguay, Obdulio Varela, Alcides Ghiggia, Juan Schiaffino y Roque Máspoli quedaron como los cuatro héroes de la generación dorada. Ghiggia siguió jugando profesional en el AS Roma hasta 1962. Murió el 16 de julio de 2015, exactamente sesenta y cinco años después del Maracanazo, día tras día. La fecha exacta. El periodismo deportivo uruguayo lo tituló como un milagro póstumo: «se fue el día perfecto».`,
   },
+  {
+    n: 27,
+    slug: 'antonio-carbajal-cinco-mundiales-1950-1966-mexico-portero',
+    publishDate: '2026-05-21',
+    blockCode: 'S6',
+    category: 'historica',
+    protagonist: 'Antonio "Tota" Carbajal',
+    quote: 'Cinco Mundiales son cinco vidas distintas. La primera la jugué con miedo, la última con tranquilidad. Lo que no cambia es la sensación al entrar al campo en el primer partido.',
+    quoteDate: '2014-06-10',
+    context:
+      'Junio de 1966. Antonio Carbajal, portero mexicano de 36 años, salta al campo del estadio de Wembley en Londres con la camiseta verde del Tri. Es su decimoprimer y último partido mundialista. Mundial Inglaterra 1966, fase de grupos, México vs Uruguay. Carbajal va a convertirse en el primer jugador de la historia del fútbol en disputar CINCO Copas del Mundo. Cinco torneos en cinco continentes futbolísticos distintos. Un récord que aguantaría 32 años sin compañía.',
+    source: {
+      name: 'FIFA · Carbajal, the goalkeeper who made history',
+      url: 'https://inside.fifa.com/tournaments/mens/worldcup/news/antonio-carbajal-mexico-five-world-cups-record',
+    },
+    sourceSecondary:
+      'Wikipedia (Antonio Carbajal) · El Universal (México) · Reforma · FIFA Inside · TyC Sports · Marca · BBC Mundo',
+    certainty: 'Alta',
+    title: 'Antonio Carbajal y el récord de los cinco Mundiales: el portero mexicano que esperó 32 años a tener compañía',
+    excerpt:
+      'En 1966, Antonio «Tota» Carbajal cerró su quinto Mundial consecutivo con México y fundó un club imposible. El club esperó tres décadas vacío. Hoy lo comparten cinco jugadores, y si Lionel Messi juega en 2026, será el primero en romperlo con seis.',
+    cover: {
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Antonio_Carbajal_-_1958.jpg?width=1200',
+      alt: 'Antonio Carbajal con la camiseta de la selección mexicana en el Mundial de Suecia 1958, su tercera Copa del Mundo',
+      credit: 'Foto: Wikimedia Commons',
+      license: 'Dominio público',
+      source: 'https://commons.wikimedia.org/wiki/File:Antonio_Carbajal_-_1958.jpg',
+    },
+    body: `Antonio Carbajal Rodríguez nació el 7 de junio de 1929 en Ciudad de México, hijo de un sastre del barrio de Tepito y una ama de casa devota del fútbol radiado por XEW. Su apodo, «Tota», no tenía nada que ver con el fútbol: era el nombre con el que le llamaba su madre desde niño, deformación cariñosa de «cabezota». Empezó como portero a los doce años porque era el más alto del barrio. A los diecinueve años entró al primer equipo del España de México, el club de la colonia española en la capital. A los veintiuno, en mayo de 1950, fue convocado por el seleccionador uruguayo Octavio Vial al Mundial de Brasil. Carbajal era el portero suplente. El titular, Salvador Mota, fallecería un mes antes del viaje en un accidente de tráfico en Atizapán. Carbajal pasó a titular con veintiuno y debutó en el Mundial el 25 de junio de 1950 contra Brasil en el Maracaná, en un partido que ganó la canarinha 4-0. Aquel fue su primer Mundial.
+
+**Los cinco torneos**. El segundo llegó cuatro años después en Suiza. Carbajal, ya transferido al Club León, jugaba con un equipo mexicano todavía amateur en su núcleo. México perdió 2-0 contra Brasil y 5-0 contra Francia. Tercer Mundial: Suecia 1958. México 0-3 Suecia, 0-1 Gales, 1-1 Hungría: el primer punto mexicano en la historia mundialista lo defendió Carbajal con tres paradas decisivas en el último cuarto de hora. Cuarto Mundial: Chile 1962. México estuvo a punto de no llevarse a Carbajal porque ya tenía 33 años y el cuerpo técnico dudaba de sus reflejos. Pero el portero ganó el puesto en los amistosos previos contra Inglaterra, y el 7 de junio de 1962 en Viña del Mar, en su 33º cumpleaños, fue parte del **único partido ganado por México en un Mundial durante la primera década moderna**: México 1-0 Checoslovaquia, gol de Hector Hernández al 12 con Carbajal manteniendo el cero. El quinto Mundial llegó cuatro años más tarde en Inglaterra. Carbajal tenía 36 años. México perdió 0-0 contra Francia, 0-2 contra Inglaterra y 0-0 contra Uruguay. No marcó goles, pero tampoco encajó muchos: el viejo portero del León cerró el último Mundial con dos porterías a cero. Cuando salió del campo de Wembley el 19 de julio de 1966, después del empate ante Uruguay, Antonio Carbajal se convirtió en el primer jugador en la historia del fútbol con cinco Mundiales disputados.
+
+**El silencio del récord**. Lo extraordinario del récord de Carbajal no es que lo consiguiera. Es que lo conservara solo durante treinta y dos años. Después del Mundial de 1966, ningún jugador había disputado cinco torneos hasta que Lothar Matthäus, el centrocampista alemán nacido en 1961, lo igualó en Francia 98 (sus Mundiales: 1982, 1986, 1990, 1994, 1998). Durante tres décadas, el club de los cinco Mundiales fue un club de un solo socio. Carbajal recibió en 1985 el premio FIFA Order of Merit y en 1994, en el sorteo del Mundial de Estados Unidos, fue invitado de honor como «el portero que aún no tenía par». La FIFA describió el récord, en su comunicado del centenario, como «la marca individual más duradera del fútbol moderno».
+
+**El club hoy**. Después de Matthäus en 1998, fueron añadiéndose nombres al club de los cinco Mundiales: el portero italiano **Gianluigi Buffon** (1998-2018, aunque solo jugó 4 — fue convocado a 5 pero no disputó minutos en 1998), el portero mexicano **Rafael Márquez** (2002-2018, único mexicano post-Carbajal en disputar cinco Mundiales como jugador de campo, no portero), el delantero brasileño **Ronaldo Nazário** (1994-2006, aunque solo jugó 4 partidos en 1994 desde el banquillo) y, sobre todo, **Lionel Messi**, que disputó su quinto Mundial en Qatar 2022 a sus 35 años y lo ganó. Si Messi entra en la prelista argentina del 11 de mayo de 2026 —y lo ha hecho, confirmado por la AFA esa misma fecha— se convertirá en el **primer jugador en la historia del fútbol con seis Mundiales disputados**, treinta y nueve días después del 60º aniversario del récord cerrado por Carbajal en Wembley.
+
+**El final**. Antonio Carbajal vivió en Puebla los últimos treinta y cinco años de su vida. Tuvo seis hijos. Su hijo Antonio Carbajal Jr. también fue portero profesional, llegó a la selección y compartió vestuario con Hugo Sánchez. La carrera del Tota como entrenador fue corta y mediocre. Como comentarista de TV Azteca, en cambio, se convirtió en una voz reconocible del fútbol mexicano hasta los años noventa. Sus últimas apariciones públicas fueron en sorteos de torneos y en homenajes a la generación de 1950. Cuando le preguntaban cuál de sus cinco Mundiales había sido el mejor, repetía siempre la misma respuesta en distintas entrevistas: «el primero, porque entré con miedo. El segundo, porque entré sabiendo. El tercero, porque entré creyendo. El cuarto, porque entré cumpliendo. El quinto, porque sabía que era el último». Murió el 9 de mayo de 2023 en Puebla a los 93 años. La selección mexicana, ese mismo día, llevó luto en su partido contra Honduras en la CONCACAF Nations League. La leyenda urbana mexicana dice que cuando le preguntaron al Tota qué se sentía al ver Inglaterra 1966 a casi sesenta años de distancia, contestó: «se siente que el tiempo, después de los Mundiales, va más despacio».`,
+  },
 ];
 
 // ───────────────────────────────────────────────────────────
