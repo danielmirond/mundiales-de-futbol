@@ -73,6 +73,57 @@ export type NewsItem = {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'hospitality-mundial-2026-on-location-precios-single-match-2500-venue-series-private-suites',
+    title:
+      'Hospitality oficial Mundial 2026: Single Match desde 2.500 USD, Follow My Team y Private Suites hasta 500.000 USD por On Location',
+    summary:
+      'El portal oficial FIFA Hospitality, operado en exclusiva por On Location, abre la venta para el Mundial 2026 con 7 productos. Single Match arranca en 2.500 USD por persona, Venue Series desde 8.275 USD y las Private Suites llegan a 500.000 USD por toda la serie en estadios premium como MetLife o el Azteca. Hemos mapeado producto a producto y sede a sede en el cluster [/2026/hospitality](/2026/hospitality).',
+    body: `On Location, el operador exclusivo de FIFA para hospitalidad oficial, ha confirmado los precios y la estructura completa de paquetes para el Mundial 2026. La venta está abierta desde el portal fifaworldcup26.hospitality.fifa.com con tres versiones por país (USA, Canadá y México) y cinco idiomas (inglés, español, francés, alemán y árabe).
+
+**Cluster completo**. Hemos desglosado el catálogo en un pillar con 6 sub-páginas y 64 rutas dinámicas: [hospitality Mundial 2026](/2026/hospitality). Productos, precios por sede y Follow My Team por selección.
+
+**Siete productos oficiales**. El portal organiza la oferta en siete tipologías con audiencia y precio claramente diferenciados:
+
+- **MEL — Match Experience Light**: la versión más asequible (1.800 USD/persona). Asiento Category 1 + acceso a un lounge con buffet ligero. Sin barra libre completa ni regalos conmemorativos.
+- **SM — Single Match**: el producto de entrada al hospitality completo. Desde 2.500 USD por persona, incluye asiento premium garantizado, lounge con catering chef-driven, barra libre 3 h antes y 1 h después del partido, programa de entretenimiento y regalo conmemorativo oficial.
+- **VS — Venue Series**: asiento garantizado en TODOS los partidos del mismo estadio. Desde 8.275 USD por persona. Ideal para residentes o viajeros que se quedan toda la fase en una ciudad.
+- **FMT — Follow My Team**: sigue a tu selección desde la fase de grupos hasta donde llegue. 48 selecciones disponibles. Desde 6.500 USD por persona. Si tu equipo cae en grupos, mantienes los 3 partidos garantizados pero pierdes los partidos posteriores.
+- **MM — Multi-Match Bundle**: 2-5 partidos elegidos a la carta, con descuento del 10-15 % vs Single Match individual.
+- **PS — Private Suites**: suites privadas en el estadio para 8-20 personas. Desde 43.200 USD por partido, hasta 250.000 USD por toda la Venue Series.
+- **PPS — PP-Suites (Pitch Premium)**: el escalón corporate con acceso a vestuarios y túnel pre-partido. Desde 120.000 USD por partido, reservado a patrocinadores y partners FIFA.
+
+**Por sede, los precios varían**. El Single Match más barato es Toronto y Vancouver (2.200 USD), seguidos de Guadalajara y Monterrey (2.000 USD), aunque las sedes mexicanas pueden subir según partido. El estadio más caro es MetLife (Nueva York / NJ), sede de la **final**, donde el Single Match arranca en 4.500 USD. La sede del partido inaugural (Estadio Azteca) parte de 3.500 USD. Hemos publicado la tabla completa en [/2026/hospitality/precios](/2026/hospitality/precios).
+
+**On Location, único proveedor oficial**. FIFA ha cedido la operación de hospitalidad en exclusiva a On Location (anteriormente Match Hospitality AG en mundiales previos). Cualquier venta de hospitality por fuera del portal oficial es **reventa de riesgo** y puede invalidar el acceso al estadio. Algunos clubes (NYCFC en Estados Unidos, Boston FWC26 Committee) son «Official Hospitality Sales Partners» con licencia oficial, pero la operativa pasa siempre por On Location.
+
+**Plan de pagos y cancelación**. Los paquetes superiores a 5.000 USD admiten pago en 3-6 cuotas SIN intereses, con primer pago del 30 % no reembolsable. La cancelación tras la segunda cuota implica pérdida del 50 % de lo pagado. La política completa está en la [FAQ hospitality](/2026/hospitality/faq).
+
+**Lo que NO incluye**. Vuelo y hotel se gestionan aparte. Para esa parte del viaje hemos puesto cards de Booking, Skyscanner y GetYourGuide en cada [ficha de sede](/2026/hospitality/sedes) para que el viaje completo sea un solo flujo.`,
+    category: 'entradas',
+    sourceName: 'FIFA Hospitality (On Location)',
+    sourceUrl: 'https://fifaworldcup26.hospitality.fifa.com/',
+    sourceLang: 'en',
+    publishedAt: '2026-05-14T09:00:00Z',
+    sourcesSecondary: [
+      {
+        name: 'FIFA · Hospitality packages available - all host countries',
+        url: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/hospitality-packages-available-all-host-countries',
+      },
+      {
+        name: 'Goal.com US · How to get World Cup 2026 hospitality packages',
+        url: 'https://www.goal.com/en-us/news/world-cup-hospitality-tickets/blt0a8b0a1dcfe3fb2d',
+      },
+      {
+        name: 'Jetpac Global · FIFA World Cup 2026 Ticket Packages',
+        url: 'https://www.jetpacglobal.com/blog/fifa-world-cup-2026-ticket-package/',
+      },
+      {
+        name: 'World Cup Boston · Hospitality and Ticketing',
+        url: 'https://bostonfwc26.com/hospitality-and-ticketing/',
+      },
+    ],
+  },
+  {
     slug: 'mundial-2026-estadios-codigo-conducta-items-prohibidos-clear-bag-policy',
     title:
       'FIFA publica el código de conducta del Mundial 2026: clear bag única para los 16 estadios, 22 items prohibidos, sin selfie-sticks ni botellas llenas',
