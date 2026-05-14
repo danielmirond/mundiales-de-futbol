@@ -99,6 +99,14 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   out.push(entry('/2026/convocatorias', now, 'daily', 0.9));
   out.push(entry('/2026/listas', now, 'daily', 0.9));
   out.push(entry('/2026/mascotas', now, 'monthly', 0.8));
+  // Cluster Normas Estadios Mundial 2026 (pillar + 6 sub-páginas)
+  out.push(entry('/2026/normas-estadios', now, 'weekly', 0.95));
+  out.push(entry('/2026/normas-estadios/mochila-transparente', now, 'weekly', 0.85));
+  out.push(entry('/2026/normas-estadios/items-prohibidos', now, 'weekly', 0.85));
+  out.push(entry('/2026/normas-estadios/que-puedes-llevar', now, 'weekly', 0.85));
+  out.push(entry('/2026/normas-estadios/alcohol-por-pais', now, 'weekly', 0.85));
+  out.push(entry('/2026/normas-estadios/banderas-y-mensajes', now, 'weekly', 0.85));
+  out.push(entry('/2026/normas-estadios/sanciones', now, 'weekly', 0.8));
   out.push(entry('/coleccionismo/panini-mundial-2026', now, 'weekly', 0.95));
   out.push(entry('/coleccionismo/lego-mundial-2026', now, 'weekly', 0.9));
   // Cluster Panini Mundial 2026 (sub-páginas pilar)
