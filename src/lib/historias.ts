@@ -707,6 +707,46 @@ La compensación llegó después. Pickles fue invitado al banquete de la victori
 
 La historia tuvo un epílogo trágico. En 1967, un año después del Mundial, los Corbett se mudaron a una casa en el campo de Surrey. Una tarde, paseando por el jardín, Pickles se lanzó a perseguir un gato hacia un seto. La correa de ahorcado que llevaba al cuello —una correa de adiestramiento de las llamadas choke chain, hoy prohibidas en muchos países— se enganchó en una rama gruesa. Para cuando David lo encontró, llevaba minutos sin respirar. Pickles está enterrado en el jardín trasero de aquella casa con una pequeña lápida que solo dice su nombre. Cuando los Corbett vendieron la casa, los nuevos dueños mantuvieron la lápida intacta. La FA inglesa, por lo demás, lo tiene homenajeado en el National Football Museum de Mánchester con un collar suyo y una placa que recuerda lo que el museo describe sin ironía como la mejor anécdota canina de la historia del fútbol mundial.`,
   },
+  {
+    n: 17,
+    slug: 'disastro-gijon-rfa-austria-1982-pacto-no-agresion',
+    publishDate: '2026-05-11',
+    blockCode: 'S4',
+    category: 'polemica',
+    protagonist: 'RFA / Austria / Argelia',
+    quote: 'Apaguen las televisiones.',
+    quoteDate: '1982-06-25',
+    context:
+      '25 de junio de 1982. Estadio El Molinón, Gijón. Última jornada del Grupo 2 del Mundial de España. Argelia, que había vencido a la RFA en su debut, está fuera si Alemania gana a Austria por uno o dos goles. Eso es exactamente lo que ocurre. Lo que viene después es ochenta minutos de pase entre dos equipos europeos sin que nadie ataque. Los austriacos lo llamaron Schande von Gijón. Los alemanes, Nichtangriffspakt: pacto de no agresión.',
+    source: {
+      name: 'Wikipedia · Disgrace of Gijón',
+      url: 'https://en.wikipedia.org/wiki/Disgrace_of_Gij%C3%B3n',
+    },
+    sourceSecondary:
+      'Yahoo Sports · The Football History Boys · Planet Football · Bleacher Report · Middle East Eye',
+    certainty: 'Alta',
+    title: 'El Disastro de Gijón: el partido que obligó a la FIFA a cambiar el reglamento del Mundial',
+    excerpt:
+      '25 de junio de 1982. Alemania gana 1-0 a Austria al minuto 10 y los dos equipos pasan los siguientes ochenta minutos pasándose la pelota sin atacar. Argelia queda eliminada. Cuatro años después, la FIFA cambió el reglamento del Mundial.',
+    cover: {
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Interior_de_El_Molinón.JPG?width=1200',
+      alt: 'Interior del estadio El Molinón de Gijón, escenario del Disastro de Gijón entre RFA y Austria en el Mundial 1982',
+      credit: 'Foto: Wikimedia Commons',
+      license: 'CC BY-SA',
+      source: 'https://commons.wikimedia.org/wiki/File:Interior_de_El_Molinón.JPG',
+    },
+    body: `Una semana antes del último partido del Grupo 2, Argelia había hecho la mayor sorpresa del Mundial de España. El 16 de junio de 1982 en Gijón, una selección argelina compuesta por jugadores del campeonato local y debutante absoluta en una Copa del Mundo había vencido 2-1 a la República Federal de Alemania, vigente campeona de Europa de 1980 y subcampeona del mundo de 1974 y 1978. Lakhdar Belloumi marcó el gol de la victoria al minuto 67 sobre un pase magistral de Rabah Madjer. Los alemanes salieron silbados del estadio. La prensa europea la etiquetó como una de las cinco mayores sorpresas en la historia de los Mundiales. Diez días después, el mismo grupo se cerraba con un partido aritméticamente perverso.
+
+La situación al cierre de la fase de grupos era la siguiente. Argelia había jugado su tercer partido el 24 de junio, ganando 3-2 a Chile. Cerraba con cuatro puntos y una diferencia de goles de cero. Austria llevaba dos victorias consecutivas y cuatro puntos con diferencia más dos. La RFA había perdido contra Argelia y goleado a Chile (4-1), tenía dos puntos y diferencia más dos. Solo quedaba el RFA-Austria del 25 de junio. La aritmética de la clasificación era brutalmente clara: si la RFA ganaba a Austria por uno o dos goles, los dos europeos pasaban a la siguiente ronda y Argelia quedaba eliminada por diferencia de goles. Cualquier otro resultado, incluida una victoria alemana por tres o más goles, dejaba fuera a Austria; un empate o una victoria austriaca pasaban a Austria y Argelia. La FIFA había permitido que Argelia jugara el día anterior, lo que significaba que ambos equipos europeos sabían exactamente lo que necesitaban para eliminarla.
+
+El partido se jugó en El Molinón de Gijón ante 41.000 espectadores. Al minuto 10, Horst Hrubesch marcó de cabeza el 1-0. La grada celebró. Y a partir de ahí no pasó nada más. Los alemanes y los austriacos pasaron los siguientes ochenta minutos pasándose la pelota entre líneas, sin presión, sin ataque, sin disparo. Cuando algún jugador se acercaba al área rival lo hacía despacio, esperando que el balón le saliera o que el rival lo recuperara. La grada del Molinón empezó a silbar al minuto quince. A los treinta, los aficionados argelinos que se habían quedado a ver el partido decisivo para ellos arrojaron billetes de banco al campo en señal de protesta, gritando «¡soborno!» en árabe y francés. Los pañuelos blancos llenaron el estadio. El árbitro alemán-suizo Bob Valentine no podía detener un partido por aburrimiento.
+
+La transmisión en directo se descompuso en paralelo. Eberhard Stanjek, comentarista de la cadena pública alemana ARD, paró su narración a mitad de la segunda parte y se negó a seguir comentando lo que veía. Al otro lado de la frontera, Robert Seeger, comentarista del canal estatal austriaco ORF, dijo a sus espectadores que apagaran las televisiones porque lo que estaba pasando no merecía más cobertura. Los telediarios alemanes y austriacos del día siguiente abrieron con la imagen del partido, no con el resultado. La prensa austriaca acuñó el término Schande von Gijón, vergüenza de Gijón. La alemana lo bautizó como Nichtangriffspakt von Gijón, pacto de no agresión, en referencia tristemente irónica al pacto germano-soviético de 1939. La prensa española, fiel al país anfitrión, optó por el término que más cala: el Disastro de Gijón.
+
+La federación argelina presentó queja oficial a la FIFA al día siguiente. La FIFA, presidida entonces por João Havelange, examinó las grabaciones, tomó declaración a los técnicos Jupp Derwall (RFA) y Georg Schmidt (Austria) y emitió una resolución corta: no se había vulnerado ninguna norma del reglamento. El partido, dijeron desde Zúrich, era legal. La protesta argelina quedó archivada. Los dos equipos europeos continuaron a la segunda fase: la RFA llegaría hasta la final, donde perdió contra Italia por 3-1 con Paolo Rossi de figura; Austria fue eliminada por Francia. Argelia volvió a casa.
+
+El cambio llegó cuatro años después. La FIFA, presionada por la conmoción internacional y por el precedente que el Disastro había sentado, modificó el reglamento del Mundial 1986 de México: a partir de aquella edición, los dos partidos finales de cada grupo se jugarían simultáneamente en sedes distintas. La medida hacía técnicamente imposible que dos equipos calcularan aritméticamente un resultado sin saber en tiempo real qué estaba pasando en el otro estadio. Es la razón por la que, en cualquier Mundial actual, los terceros partidos del grupo se juegan al mismo minuto. Es también la razón por la que la sorpresa de Argelia 1982 no se tradujo en clasificación a octavos: la FIFA reconoció a posteriori que el reglamento de aquel torneo había permitido que dos selecciones se entendieran entre sí para eliminar a una tercera. Cambió la regla, pero no devolvió a Argelia los días que ya había perdido en Gijón.`,
+  },
 ];
 
 // ───────────────────────────────────────────────────────────
