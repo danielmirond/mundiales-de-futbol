@@ -799,6 +799,161 @@
       },
       "articleHeadline": "Favoritos para ganhar a Copa do Mundo 2026: ranking, odds e análise dos 12 candidatos",
       "articleDescription": "Quem vai ganhar a Copa do Mundo 2026 segundo as casas de apostas e análise editorial: Argentina, França, Brasil, Espanha, Inglaterra e azarões."
+    },
+    "convocatorias2026": {
+      "meta": {
+        "title": "Convocações Copa do Mundo 2026: lista provisória 11 maio, definitiva 1 junho",
+        "description": "Quando as 48 seleções publicam suas listas para a Copa do Mundo 2026. A FIFA fixa a lista preliminar em 11 de maio e a definitiva em 1 de junho. 26 jogadores por equipe, 3 goleiros obrigatórios.",
+        "keywords": [
+          "convocação Copa do Mundo 2026",
+          "lista Brasil Copa do Mundo 2026",
+          "lista provisória Copa do Mundo 2026",
+          "lista definitiva Copa do Mundo 2026",
+          "quando são divulgadas as listas da Copa",
+          "convocação Argentina Copa do Mundo 2026",
+          "convocação Espanha Copa do Mundo 2026",
+          "26 jogadores Copa do Mundo 2026",
+          "substituição por lesão Copa do Mundo 2026"
+        ]
+      },
+      "back": "Copa do Mundo 2026",
+      "kicker": "Convocações · Prazos FIFA",
+      "h1Line1": "Listas",
+      "h1Line2": "Copa do Mundo 2026",
+      "intro": "As 48 seleções da Copa do Mundo 2026 entregam à FIFA a lista provisória em 11 de maio e a definitiva em 1 de junho. Aqui o calendário oficial, o tamanho do elenco, as regras de substituição por lesão e quando se espera o anúncio público de cada federação.",
+      "timeline": {
+        "items": [
+          {
+            "date": "11 maio 2026",
+            "title": "Lista provisória (release list)",
+            "detail": "Cada federação entrega à FIFA uma lista de 35 a 55 jogadores. É interna: a FIFA NÃO a torna pública. Os técnicos costumam anunciar sua lista preliminar em coletiva nos dias anteriores."
+          },
+          {
+            "date": "1 junho 2026",
+            "title": "Lista definitiva",
+            "detail": "Prazo final para entregar à FIFA a convocação definitiva: entre 23 e 26 jogadores, com 3 goleiros obrigatórios. A grande maioria das seleções publica essa lista no mesmo dia da entrega."
+          },
+          {
+            "date": "11 junho 2026",
+            "title": "Partida inaugural · Estádio Azteca",
+            "detail": "México x África do Sul abre o torneio. A partir daqui, as substituições por lesão só são permitidas até 24 horas antes da PRIMEIRA partida da própria equipe, validadas pelo médico da seleção e por um médico da FIFA."
+          }
+        ]
+      },
+      "squad": {
+        "kicker": "Tamanho do elenco",
+        "h2": "26 jogadores por seleção",
+        "intro": "Entre 23 e 26 jogadores totais por convocação, com um mínimo obrigatório de <strong>3 goleiros</strong>. É o mesmo limite aplicado pela primeira vez no Catar 2022. Até a Rússia 2018 inclusive, as seleções podiam levar no máximo 23 jogadores. A ampliação foi introduzida durante a pandemia para dar mais rodízio, e a FIFA a consolida em 2026 com um torneio mais longo e exigente (a nova rodada de 32 avos adiciona uma partida).",
+        "tableYear": "Copa",
+        "tableSize": "Limite de jogadores",
+        "tableNote": "Nota",
+        "notes": {
+          "2022": "Pandemia: a FIFA elevou o limite a 26 já no Catar.",
+          "2026": "Mantém-se o limite de 26 para 48 seleções."
+        }
+      },
+      "replacements": {
+        "kicker": "Substituições",
+        "h2": "Regras de substituição por lesão",
+        "allowedLabel": "Permitido",
+        "allowedTitle": "Antes da primeira partida",
+        "allowedBody": "Até 24 horas antes da primeira partida da equipe, a FIFA permite substituir um jogador convocado por lesão ou doença. O médico da seleção certifica o caso e um médico geral da FIFA valida. Ocorre regularmente em cada Copa: a última cessão do Bayern, Madrid ou Manchester deixa alguém de fora e entra o suplente que estava na lista provisória.",
+        "forbiddenLabel": "Proibido",
+        "forbiddenTitle": "Uma vez iniciado o torneio",
+        "forbiddenBody": "Disputada a primeira partida da equipe, a FIFA NÃO admite substituições. Mesmo que um jogador caia lesionado na primeira rodada, a seleção termina o torneio com os jogadores aptos restantes. Foi a situação da Itália com Cabrini em 1990, Argentina com Caniggia e muitas outras: uma vez dentro, dentro até o fim."
+      },
+      "federations": {
+        "kicker": "Federações top",
+        "h2": "Quando cada seleção vai anunciar",
+        "intro": "Estimativa de data e local do anúncio público da lista, baseada no padrão de cada federação em Copas anteriores. Os números serão confirmados conforme cada seleção os tornar oficiais.",
+        "items": {
+          "ESP": {
+            "name": "Espanha",
+            "expected": "Primeira semana de maio (Las Rozas, RFEF)"
+          },
+          "ARG": {
+            "name": "Argentina",
+            "expected": "Meados de maio (Ezeiza, AFA)"
+          },
+          "BRA": {
+            "name": "Brasil",
+            "expected": "Meados de maio (Granja Comary, CBF)"
+          },
+          "FRA": {
+            "name": "França",
+            "expected": "Primeira quinzena de maio (Clairefontaine, FFF)"
+          },
+          "GER": {
+            "name": "Alemanha",
+            "expected": "Primeira quinzena de maio (Frankfurt, DFB)"
+          },
+          "POR": {
+            "name": "Portugal",
+            "expected": "Primeira quinzena de maio (Cidade do Futebol, FPF)"
+          },
+          "ENG": {
+            "name": "Inglaterra",
+            "expected": "Primeira quinzena de maio (St. George's Park, FA)"
+          },
+          "NED": {
+            "name": "Países Baixos",
+            "expected": "Primeira quinzena de maio (KNVB Campus, KNVB)"
+          }
+        }
+      },
+      "faq": {
+        "kicker": "Perguntas frequentes",
+        "h2": "O que mais perguntam",
+        "items": [
+          {
+            "q": "Quando as seleções publicam a lista da Copa do Mundo 2026?",
+            "a": "A FIFA fixa dois prazos: em 11 de maio de 2026 as federações enviam uma lista provisória de 35 a 55 jogadores (que a FIFA não torna pública) e em 1 de junho de 2026 entregam a lista definitiva de 23 a 26 jogadores. A maioria das seleções anuncia ambas em coletiva no mesmo dia do envio à FIFA ou nos dias anteriores."
+          },
+          {
+            "q": "Quantos jogadores vão por seleção à Copa do Mundo 2026?",
+            "a": "Entre 23 e 26 jogadores, com 3 goleiros obrigatórios. É o mesmo formato aplicado no Catar 2022. Em Copas anteriores até 2018 o limite era 23 jogadores."
+          },
+          {
+            "q": "Quando a Brasil divulgará a lista para a Copa do Mundo 2026?",
+            "a": "A CBF tradicionalmente publica sua lista provisória em coletiva na Granja Comary em meados de maio. A data exata não está confirmada, mas se espera entre 11 e 20 de maio de 2026, antes do prazo da FIFA. A lista definitiva será conhecida entre 25 de maio e 1 de junho."
+          },
+          {
+            "q": "O que acontece se um jogador se lesiona depois de divulgar a lista?",
+            "a": "Até 24 horas antes da primeira partida de sua seleção, a FIFA permite substituí-lo se o médico da equipe e um médico da FIFA certificarem a lesão. Uma vez disputada a primeira partida, não há substituições permitidas: a equipe termina o torneio com os jogadores aptos restantes."
+          },
+          {
+            "q": "Por que a lista é de 26 jogadores e não de 23 como antes?",
+            "a": "A FIFA ampliou o limite a 26 no Catar 2022 como exceção pela pandemia e pela proximidade com a temporada europeia. Para 2026 mantém-se o número: com 48 seleções e calendário mais exigente (32 avos adicionados), faz sentido permitir mais rodízio."
+          },
+          {
+            "q": "Podem mudar a lista entre 1 e 11 de junho?",
+            "a": "Sim, mas só por lesão ou doença confirmadas. Cada mudança requer atestado do médico da seleção e validação do médico geral da FIFA. Não há substituições livres."
+          },
+          {
+            "q": "Quantos goleiros têm que levar?",
+            "a": "Três goleiros obrigatórios dentro do intervalo 23-26. Se uma seleção leva 26 jogadores, terá 3 goleiros e 23 jogadores de linha. Se levar 23, terá 3 goleiros e 20 de linha."
+          },
+          {
+            "q": "Quando são divulgadas as numerações (números das camisas)?",
+            "a": "Junto com a lista definitiva de 1 de junho. A FIFA exige que cada jogador use um número fixo de 1 a 26 durante todo o torneio, e a CBF, a AFA, a RFEF e demais federações costumam revelá-los no mesmo dia do anúncio oficial."
+          }
+        ],
+        "sourceNote": "Fonte: «Regulations, FIFA World Cup 26» (PDF, 19 março 2026) · Wikipedia «2026 FIFA World Cup squads». Última verificação: abril 2026."
+      },
+      "ctaHub": {
+        "kicker": "Mais da Copa do Mundo 2026",
+        "calendario": "Calendário por fase",
+        "grupos": "12 grupos",
+        "sedes": "16 sedes",
+        "espGrupoH": "Espanha · Grupo H"
+      },
+      "breadcrumb": {
+        "inicio": "Início",
+        "mundial": "Copa do Mundo 2026",
+        "convocatorias": "Convocações"
+      },
+      "articleHeadline": "Convocações Copa do Mundo 2026: lista provisória 11 maio, definitiva 1 junho",
+      "articleDescription": "Calendário oficial FIFA para que as 48 seleções publiquem suas listas da Copa do Mundo 2026: lista preliminar em 11 de maio, definitiva em 1 de junho."
     }
   }
 }
