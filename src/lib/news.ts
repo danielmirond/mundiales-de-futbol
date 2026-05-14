@@ -73,6 +73,108 @@ export type NewsItem = {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'fifa-panini-collection-app-mundial-2026-coca-cola-album-digital',
+    title:
+      'FIFA y Panini lanzan la app oficial del álbum 2026 con Coca-Cola: 528 cromos digitales, escaneo de etiquetas y packs diarios gratis',
+    summary:
+      'La aplicación «FIFA Panini Collection by Coca-Cola» abre una pasarela digital al álbum oficial: 48 selecciones, 528 cromos de jugadores, logos, mascotas y trofeos. Cada día regala packs gratis a quien escanee etiquetas de Coca-Cola, sobres físicos Panini y portadas de álbum. Plazo para completar la colección: 30 de septiembre de 2026. iOS y Android.',
+    body: `FIFA y Panini activaron oficialmente la app «FIFA Panini Collection by Coca-Cola», su versión digital del álbum 2026, disponible desde esta semana en iOS y Android sin coste de descarga. Es la primera vez que el álbum oficial de un Mundial nace en paralelo en versión física y app desde el primer día, una integración acordada en el marco del contrato Panini-FIFA renovado en 2024 y reforzado con la sponsorship principal de Coca-Cola como Marketing Partner del torneo.
+
+**Lo que contiene**. La app trae las 48 selecciones participantes, **528 cromos de jugadores** (11 por selección), además de **logos**, **mascotas** (Maple, Zayu y Clutch) y **trofeos** asociados al torneo. La mecánica básica es la misma del álbum físico: abrir sobres con cromos aleatorios, pegarlos al álbum digital y completar páginas y secciones para desbloquear recompensas.
+
+**Cómo se consiguen los packs**. La novedad respecto a colecciones digitales anteriores de Panini está en la integración multimarca: el usuario puede escanear con la cámara del teléfono tres tipos de elementos físicos para conseguir packs gratis cada día.
+
+- Etiquetas y latas de **Coca-Cola** con el branding FIFA 2026
+- **Sobres físicos** de Panini comprados en kiosco
+- **Portadas de álbum** Panini físico
+
+A esto se suman códigos promocionales puntuales que se reparten en campañas de **Panini, FIFA, Coca-Cola y McDonald's** (uno de los sponsors visibles del torneo) para cromos especiales.
+
+**Modelo de negocio**. La descarga es gratuita y la dinámica de packs diarios refuerza el engagement sin pago directo. La monetización clave está en los códigos físicos (mantiene la venta del álbum y sobres en kiosco) y, según fuentes consultadas, en futuras opciones de pago dentro de la app para acelerar la colección, aunque la app respeta el principio de "el que escanea, completa".
+
+**Plazo**. La colección estará viva hasta el **30 de septiembre de 2026**, fecha en que se cierran las recompensas y se publica la galería final. Después seguirá disponible como archivo digital pero ya sin actividad de packs ni códigos.
+
+**Por qué importa**. La conversión generacional del álbum Panini al móvil llevaba años discutiéndose. Con esta app y el respaldo Coca-Cola, FIFA institucionaliza por primera vez un coleccionable digital con la misma marca que el coleccionable físico, sin la fragmentación que sufrió la categoría con Topps + StickerStar + apps no oficiales en Mundiales anteriores. Para el aficionado, el atractivo es la posibilidad real de completar la colección sin pagar: una hora de paseo por el supermercado escaneando etiquetas durante el verano puede equivaler a 60-80 sobres físicos.`,
+    category: 'panini',
+    sourceName: 'FIFA · Panini Collection app',
+    sourceUrl:
+      'https://www.fifa.com/es/tournaments/mens/worldcup/canadamexicousa2026/articles/fifa-panini-coleccion-aplicacion-app',
+    sourceLang: 'es',
+    publishedAt: '2026-05-11T14:00:00Z',
+    sourcesSecondary: [
+      {
+        name: 'App Store · FIFA Panini Collection',
+        url: 'https://apps.apple.com/us/app/fifa-panini-collection/id6752864987',
+      },
+      {
+        name: 'Google Play · FIFA Panini Collection',
+        url: 'https://play.google.com/store/apps/details?id=it.panini.fifacollection',
+      },
+      {
+        name: 'Coca-Cola US · FIFA Panini packs',
+        url: 'https://www.coca-cola.com/us/en/offerings/fifa-world-cup-26/panini',
+      },
+      {
+        name: 'FIFA Collect · Panini hub',
+        url: 'https://collect.fifa.com/pages/panini',
+      },
+      {
+        name: 'Panini America · World Cup 2026 sticker collection',
+        url: 'https://www.paniniamerica.net/sticker-collections/sticker-collection/fifa-world-cup-2026tm.html',
+      },
+    ],
+  },
+  {
+    slug: 'prelista-argentina-mundial-2026-scaloni-55-messi-dybala-fuera-mastantuono-echeverri',
+    title:
+      'Argentina entrega su prelista del Mundial: Messi sí, Dybala no, Mastantuono y Echeverri irrumpen',
+    summary:
+      'La AFA envió este lunes a la FIFA los 55 nombres de Lionel Scaloni. Messi entra rumbo a su último Mundial, acompañado por 20 campeones de Qatar 2022. Las bajas dolorosas: Dybala (40 caps), Ángel Correa (Tigres) y Valentín Castellanos (West Ham). Las sorpresas: Franco Mastantuono (Real Madrid) y Claudio Echeverri (Girona) entran con menos de 20 años. La lista definitiva de 26 se anuncia antes del 30 de mayo.',
+    body: `La Asociación del Fútbol Argentino entregó el lunes 11 de mayo a la FIFA la prelista de 55 jugadores que Lionel Scaloni maneja para el Mundial 2026. Completa la tríada del mismo día con Brasil y España, en el plazo máximo permitido por el nuevo reglamento FIFA que convierte las prelistas en vinculantes: cualquier sustitución posterior por lesión deberá salir exclusivamente de estos 55 nombres.
+
+**Messi confirmado**. Lionel Messi entra en la prelista en lo que se anticipa como su último Mundial. El capitán cumplirá 39 años el 24 de junio, en plena fase de grupos, y Scaloni le confirma su sitio sin necesidad de evaluación competitiva final. Acompañan al diez **20 campeones de Qatar 2022**: Emiliano Martínez (Aston Villa), Cuti Romero (Tottenham), Nicolás Otamendi (Benfica), Lisandro Martínez (Manchester United), Rodrigo De Paul (Atlético), Enzo Fernández (Chelsea), Alexis Mac Allister (Liverpool), Julián Álvarez (Manchester City), Lautaro Martínez (Inter) y Ángel Di María (Benfica) entre los más prominentes.
+
+**Las bajas más comentadas**. **Paulo Dybala**, con 40 internacionalidades y goleador en la final de la Copa América 2021 contra Brasil en el Maracaná, queda fuera por una temporada irregular en la Roma marcada por lesiones recurrentes. **Ángel Correa**, ex-Atlético hoy en Tigres UANL de México, tampoco entra: la cláusula tácita del jugador argentino en clubes menos exigentes lo penaliza frente a Scaloni. **Valentín Castellanos**, delantero del West Ham, se queda fuera tras una temporada con cifras goleadoras flojas en Premier League.
+
+**Las sorpresas generacionales**. Scaloni hace un guiño explícito al recambio incluyendo a **Franco Mastantuono**, el extremo de 18 años recién fichado por Real Madrid en enero por 45 millones de euros, y a **Claudio Echeverri**, el ex-River hoy en Girona, también de 18 años. Ambos entran como apuesta de futuro y como cobertura de banda si alguno de los titulares se cae. La presencia de jóvenes refuerza el mensaje generacional que la AFA quiere dar tras Qatar: campeones consolidados arropados por la siguiente camada, no un vestuario cerrado al recambio.
+
+**Reparto por club**. Seis jugadores de **River Plate** (Lanzini, Acuña posible, Quintero, Borja entre los nombres en circulación) y cuatro de **Boca Juniors** son la base local de la prelista. El núcleo europeo principal sigue siendo Manchester City (Julián Álvarez), Inter Milán (Lautaro Martínez), Tottenham (Romero), Manchester United (Lisandro Martínez), Aston Villa (Dibu Martínez) y PSG (no hay incorporaciones nuevas, pero salieron Paredes y Di María en años recientes).
+
+**Lo que viene**. Argentina anuncia los **26 definitivos antes del 30 de mayo**. Concentración previa: a confirmar, probablemente entre el 1 y 5 de junio en Estados Unidos. **Debut**: 16 de junio contra el ganador del repechaje intercontinental (probablemente Bolivia o un equipo del rep AFC) en el SoFi Stadium de Inglewood, Los Ángeles. La defensa del título empieza por dos rivales asequibles antes de un cruce probable contra una potencia europea en octavos.`,
+    category: 'convocatorias',
+    sourceName: 'FIFA · Argentina lista 55 jugadores Copa Mundial 2026',
+    sourceUrl:
+      'https://www.fifa.com/es/tournaments/mens/worldcup/canadamexicousa2026/articles/argentina-lista-55-jugadores-copa-mundial-2026',
+    sourceLang: 'es',
+    publishedAt: '2026-05-11T17:00:00Z',
+    sourcesSecondary: [
+      {
+        name: 'Infobae · 6 de River, 4 de Boca',
+        url: 'https://www.infobae.com/deportes/2026/05/11/con-6-jugadores-de-river-y-4-de-boca-afa-anuncio-la-prelista-de-55-jugadores-de-la-seleccion-argentina-para-el-mundial/',
+      },
+      {
+        name: 'Ámbito · Scaloni presenta la prelista',
+        url: 'https://www.ambito.com/deportes/mundial-2026-lionel-scaloni-presento-la-prelista-55-jugadores-la-seleccion-argentina-n6276122',
+      },
+      {
+        name: 'Goal · Messi named in provisional squad',
+        url: 'https://www.goal.com/en-us/lists/lionel-messi-argentina-world-cup-squad-alejandro-garnacho-lisandro-martinez/blta1814607e6572f83',
+      },
+      {
+        name: 'La Nación · Los nombres de la prelista',
+        url: 'https://www.lanacion.com.ar/deportes/futbol/la-prelista-de-55-jugadores-para-el-mundial-2026-estos-son-los-nombres-nid11052026/',
+      },
+      {
+        name: 'Infobae · Grandes ausentes y sorpresas',
+        url: 'https://www.infobae.com/deportes/2026/05/11/los-grandes-ausentes-y-las-sorpresas-de-la-prelista-para-el-mundial-de-la-seleccion-argentina/',
+      },
+      {
+        name: 'CNN Español · Seis campeones ausentes',
+        url: 'https://cnnespanol.cnn.com/2026/05/11/deportes/prelista-seleccion-argentina-scaloni-mundial-orix',
+      },
+    ],
+  },
+  {
     slug: 'prelista-brasil-mundial-2026-ancelotti-55-neymar-vinicius-rodrygo-fuera',
     title:
       'Brasil envía la prelista del Mundial: Ancelotti rescata a Neymar y deja fuera a Rodrygo y Militão',
