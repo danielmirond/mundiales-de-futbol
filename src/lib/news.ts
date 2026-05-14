@@ -77,8 +77,19 @@ export const NEWS_ITEMS: NewsItem[] = [
     title:
       'FIFA publica el código de conducta del Mundial 2026: clear bag única para los 16 estadios, 22 items prohibidos, sin selfie-sticks ni botellas llenas',
     summary:
-      'FIFA ha publicado el documento oficial «Stadium Code of Conduct» que rige las 16 sedes del Mundial 2026 en USA, Canadá y México. Política unificada de bolsa transparente de 12×6×12 pulgadas, lista de 22 items prohibidos (drones, GoPro, palos selfie, banderas con asta, botellas llenas, megáfonos, bengalas) y derecho de admisión final reservado por FIFA. Las camisetas de selección y banderas sin asta sí están permitidas.',
+      'FIFA ha publicado el documento oficial «Stadium Code of Conduct» que rige las 16 sedes del Mundial 2026 en USA, Canadá y México. Política unificada de bolsa transparente de 12×6×12 pulgadas, lista de 22 items prohibidos (drones, GoPro, palos selfie, banderas con asta, botellas llenas, megáfonos, bengalas) y derecho de admisión final reservado por FIFA. Las camisetas de selección y banderas sin asta sí están permitidas. Hemos desglosado el reglamento completo en un cluster pilar: [/2026/normas-estadios](/2026/normas-estadios).',
     body: `FIFA ha publicado el documento oficial del «Stadium Code of Conduct» que rige el acceso a las 16 sedes del Mundial 2026 en Estados Unidos, Canadá y México. La política, anunciada en el portal oficial del torneo y detallada en un PDF de FIFA Digital Hub, es el primer reglamento unificado para un Mundial repartido entre tres países anfitriones y marca una diferencia importante con el modelo descentralizado de Qatar 2022.
+
+**Guía completa**. Hemos desglosado las 100 páginas del reglamento en un pillar con 6 sub-páginas especializadas: [normas estadios Mundial 2026](/2026/normas-estadios). Cada apartado clave tiene su propia ficha:
+
+- [Mochila y clear bag policy](/2026/normas-estadios/mochila-transparente): tamaño máximo 12×6×12 pulgadas
+- [Items prohibidos](/2026/normas-estadios/items-prohibidos): los 22 vetos de FIFA, por qué y dónde dejarlos
+- [Items permitidos](/2026/normas-estadios/que-puedes-llevar): lo que sí entra
+- [Alcohol por país](/2026/normas-estadios/alcohol-por-pais): permitido USA/CAN, prohibido MEX
+- [Banderas y mensajes políticos](/2026/normas-estadios/banderas-y-mensajes): la zona gris del reglamento
+- [Sanciones](/2026/normas-estadios/sanciones): decomiso, expulsión sin reembolso, denuncia
+
+Lo que cuenta esta noticia es el resumen ejecutivo de lo más relevante para el viajero del Mundial.
 
 **Clear bag policy unificada para los 16 estadios**. Por primera vez en la historia mundialista, las tres federaciones anfitrionas (US Soccer, Canada Soccer, FMF) acuerdan una política idéntica de bolsas. Solo se permiten bolsas **completamente transparentes** —de plástico, vinilo o PVC— con un tamaño máximo de **12 × 6 × 12 pulgadas** (aproximadamente 30 × 15 × 30 cm). Se permiten también clutch o monederos no transparentes pero «aproximadamente del tamaño de una mano», con un máximo de 4,5 × 6,5 pulgadas. Mochilas convencionales, riñoneras, bolsas opacas o de tela tienen que quedarse en el coche o en consigna externa. El objetivo declarado por FIFA es triple: acelerar las colas de entrada, permitir inspecciones visuales sin abrir bolsas y armonizar la operativa entre los tres países.
 
