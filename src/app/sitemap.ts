@@ -7,6 +7,7 @@ import { GROUPS_2026 } from '@/lib/wc-2026';
 import { NEWS_ITEMS } from '@/lib/news';
 import { SQUADS_2026 } from '@/lib/wc-2026-squads';
 import { JERSEY_HISTORIES } from '@/lib/wc-jerseys';
+import { HOSPITALITY_CITIES, FMT_TEAM_PARAMS } from '@/lib/wc-2026-hospitality';
 import { routing } from '@/i18n/routing';
 
 /**
@@ -107,6 +108,20 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   out.push(entry('/2026/normas-estadios/alcohol-por-pais', now, 'weekly', 0.85));
   out.push(entry('/2026/normas-estadios/banderas-y-mensajes', now, 'weekly', 0.85));
   out.push(entry('/2026/normas-estadios/sanciones', now, 'weekly', 0.8));
+  // Cluster Hospitality Mundial 2026 (pillar + 6 fijas + 2 índices)
+  out.push(entry('/2026/hospitality', now, 'weekly', 0.95));
+  out.push(entry('/2026/hospitality/productos', now, 'weekly', 0.9));
+  out.push(entry('/2026/hospitality/precios', now, 'weekly', 0.9));
+  out.push(entry('/2026/hospitality/private-suites', now, 'weekly', 0.85));
+  out.push(entry('/2026/hospitality/faq', now, 'weekly', 0.75));
+  out.push(entry('/2026/hospitality/sedes', now, 'weekly', 0.9));
+  out.push(entry('/2026/hospitality/selecciones', now, 'weekly', 0.9));
+  for (const c of HOSPITALITY_CITIES) {
+    out.push(entry(`/2026/hospitality/sedes/${c.citySlug}`, now, 'weekly', 0.8));
+  }
+  for (const code of Object.keys(FMT_TEAM_PARAMS)) {
+    out.push(entry(`/2026/hospitality/selecciones/${code}`, now, 'weekly', 0.75));
+  }
   out.push(entry('/coleccionismo/panini-mundial-2026', now, 'weekly', 0.95));
   out.push(entry('/coleccionismo/lego-mundial-2026', now, 'weekly', 0.9));
   // Cluster Panini Mundial 2026 (sub-páginas pilar)
