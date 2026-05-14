@@ -861,6 +861,46 @@ Cuarenta años después, en distintas entrevistas concedidas a ESPN y a la BBC e
 
 El partido terminó 3-0. La cifra mágica no se rebasó. Zaire eliminada, pero los jugadores volvieron a casa. Ninguno fue ascendido. Las casas y los coches que Mobutu había prometido nunca llegaron. Los premios económicos del Mundial se quedaron en cuentas del Estado. El portero Kazadi fue retirado del fútbol profesional zaireño durante años. El defensa Bwanga Tshimen se exilió a Bélgica al cabo de unos meses. Mwepu Ilunga regresó al TP Mazembe, jugó dos temporadas más y se retiró sin contrato profesional. Murió en mayo de 2015 en Lubumbashi, casi en la indigencia, después de décadas dando entrevistas en las que repetía la misma frase: «no era estúpido. Estaba protestando». La televisión occidental, durante cuarenta años, había contado lo contrario.`,
   },
+  {
+    n: 21,
+    slug: 'pele-llegada-accidente-mundial-suecia-1958-rebelion-nilton-santos',
+    publishDate: '2026-05-15',
+    blockCode: 'S5',
+    category: 'epica',
+    protagonist: 'Pelé / Nilton Santos / Vicente Feola',
+    quote: 'Si no juega ese chico, no juego yo.',
+    quoteDate: '1958-06-15',
+    context:
+      'Mayo de 1958. Brasil viaja a Suecia con un atacante de 17 años llamado Edson Arantes do Nascimento, ya conocido como Pelé. Llega lesionado de la rodilla derecha tras un amistoso. El médico de la selección y el psicólogo del equipo recomiendan dejarlo fuera. El técnico Vicente Feola lo veta para los dos primeros partidos del Mundial. Brasil empata 0-0 contra Inglaterra. Y entonces el vestuario se rebela.',
+    source: {
+      name: 'FIFA Inside · Behind the World Cup record: Pelé',
+      url: 'https://inside.fifa.com/tournaments/mens/worldcup/1958sweden/news/behind-the-world-cup-record-pele-2852661',
+    },
+    sourceSecondary:
+      'Wikipedia (Pelé) · Wikipedia (1958 FIFA World Cup) · Flashscore · These Football Times · Carol\'s Morning Echo',
+    certainty: 'Alta',
+    title: 'Pelé llegó por accidente: el informe psicológico que casi le impide jugar el Mundial 58',
+    excerpt:
+      '15 de junio de 1958. El psicólogo de la selección brasileña ha entregado un informe oficial pidiendo dejar fuera del Mundial a un chico de 17 años llamado Pelé. El veterano Nilton Santos lidera entonces una rebelión de vestuario que cambia la historia del fútbol.',
+    cover: {
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Pele_con_brasil_(cropped).jpg?width=1200',
+      alt: 'Pelé con la camiseta de la selección brasileña, finales de los años cincuenta, edad cercana a su debut mundialista de 1958',
+      credit: 'Foto: Wikimedia Commons',
+      license: 'Dominio público',
+      source: 'https://commons.wikimedia.org/wiki/File:Pele_con_brasil_(cropped).jpg',
+    },
+    body: `La selección brasileña que viajó a Suecia en mayo de 1958 lo hacía con la presión más asfixiante de su historia. Brasil había perdido la final del Maracaná en su propia casa ocho años antes y desde entonces no había vuelto a competir en una semifinal. La Confederação Brasileira de Desportos había decidido que esta vez iba todo: técnico nuevo (Vicente Feola, recomendado por João Havelange), psicólogo del equipo (Dr. João Carvalhaes), médico personal por jugador, dietista, dentista, pavlovianos test psicotécnicos en la concentración. Era la primera selección moderna en el sentido contemporáneo del término. La idea era ganar el Mundial con metodología, no con improvisación.
+
+El choque vino con dos jugadores. El primero era un extremo derecho de 24 años, irregular en el plano físico, con piernas distintas, juego callejero, llamado Manuel Francisco dos Santos pero conocido como Garrincha. El segundo era un atacante de 17 años recién cumplidos, llegado del Santos, llamado Edson Arantes do Nascimento pero apodado Pelé. Ambos habían sido sometidos a la batería de tests psicotécnicos diseñada por Carvalhaes. Sobre Pelé, Carvalhaes redactó un informe que sigue siendo citado en cualquier libro sobre psicología deportiva. Lo describió como «obviamente infantil», «no posee el sentido de responsabilidad necesario para un juego de equipo» y recomendó explícitamente que no se le alineara en el Mundial. Sobre Garrincha, Carvalhaes escribió que «no apto para responder al estrés competitivo» y recomendó descartar también su titularidad. Vicente Feola aceptó el informe y diseñó los dos primeros partidos sin ninguno de los dos.
+
+Brasil debutó el 8 de junio en Uddevalla y ganó 3-0 a Austria con goles de Mazzola, Santos y Nilton Santos. El segundo partido, el 11 de junio en Gotemburgo, fue contra Inglaterra: empate 0-0, primera vez en la historia que un partido del Mundial terminaba sin goles. Brasil sumaba tres puntos pero no convencía. Las crónicas brasileñas que recibía Río describían al equipo como rígido, predecible, demasiado europeo. Aún quedaba el tercer partido, contra la Unión Soviética, una de las favoritas. Si Brasil no ganaba, podía quedar fuera en primera fase como en 1954.
+
+Lo que pasó la mañana del 15 de junio en el hotel de la concentración brasileña no llegó a la prensa de la época pero sí ha sido reconstruido después en biografías de Pelé, en entrevistas de Nilton Santos y en archivos de FIFA. Nilton Santos, defensa zurdo del Botafogo, 33 años, capitán moral del equipo y voz veterana de aquel vestuario, fue al despacho de Vicente Feola con dos compañeros. Le dijo que el equipo había perdido la fe en el modelo. Le dijo que jugar contra la URSS sin Garrincha y sin Pelé era condenarse al patrón de los dos primeros partidos. Le dijo que el resto del equipo respaldaba la inclusión. La frase, atribuida en distintas fuentes con pequeñas variantes, ha quedado para la historia: «si no juega ese chico, no juego yo». Feola aceptó. Convocó a Pelé y a Garrincha al partido del 15 de junio.
+
+Brasil ganó 2-0 a la URSS. Garrincha desbordó dos veces a la defensa soviética. Pelé pegó al palo en su primer balón. Vavá marcó los dos goles, asistido en uno por Garrincha y en el segundo por una pared con Pelé. La televisión sueca, que retransmitía el Mundial por primera vez en directo a Europa, destacó el partido como uno de los mejor jugados del torneo. Lo que vino después está en cualquier libro de fútbol. En cuartos contra Gales, Pelé marcó su primer gol en un Mundial al minuto 66 (sigue siendo el goleador más joven de la historia, con 17 años y 239 días). En semifinales contra Francia metió un hat-trick: 5-2. En la final contra Suecia, el 29 de junio en el Råsunda Stadium de Estocolmo, marcó dos goles, incluido el famoso «sombrero» con el que dejó sentado a Bengt Gustavsson antes de fusilar de volea. Brasil ganó 5-2. Su primer Mundial. El primer Mundial ganado fuera del propio continente. La carrera de Pelé empezó aquella tarde en Estocolmo.
+
+Carvalhaes, el psicólogo del informe, mantuvo su puesto en la federación brasileña hasta 1962 y luego pasó a equipos de club. Nunca quiso retractarse del informe sobre Pelé. En una entrevista de 1972 con la revista Placar, citada en biografías posteriores, dijo que su evaluación había sido correcta para los datos que tenía y que la decisión final correspondía al técnico, que había acertado. Vicente Feola murió en 1975 en São Paulo y dio pocas entrevistas sobre aquel Mundial; cuando le preguntaban por Pelé, prefería atribuir la decisión a la presión de los jugadores. Nilton Santos jugó el Mundial de 1962 (Brasil bicampeón con Garrincha como figura, Pelé lesionado en el segundo partido) y se retiró en 1964. Murió en 2013 en Río de Janeiro. Pelé, en distintas entrevistas, repitió siempre lo mismo: el Mundial que le hizo Pelé empezó porque un veterano del Botafogo se plantó delante del técnico una mañana de junio en Estocolmo.`,
+  },
 ];
 
 // ───────────────────────────────────────────────────────────
