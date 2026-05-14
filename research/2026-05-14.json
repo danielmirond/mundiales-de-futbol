@@ -1,0 +1,354 @@
+{
+  "generatedAt": "2026-05-14T09:16:03.079Z",
+  "date": "2026-05-14",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "fifa world cup 2026",
+      "geo": "CA",
+      "language": "en",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Shakira, Madonna and BTS to headline 2026 World Cup Final halftime show",
+          "url": "https://www.cnn.com/2026/05/14/sport/world-cup-final-halftime-show-headliners-hnk",
+          "source": "CNN"
+        },
+        {
+          "title": "FIFA announces Super Bowl-style World Cup final halftime show featuring Madonna, Shakira and BTS",
+          "url": "https://www.winnipegfreepress.com/sports/soccer/2026/05/14/fifa-announces-super-bowl-style-world-cup-final-halftime-show-featuring-madonna-shakira-and-bts",
+          "source": "Winnipeg Free Press"
+        },
+        {
+          "title": "Shakira, Madonna & BTS announced as headliners for 2026 World Cup final halftime show",
+          "url": "https://ca.sports.yahoo.com/news/shakira-madonna-bts-announced-headliners-052348625.html",
+          "source": "Yahoo Sports Canada"
+        }
+      ]
+    },
+    {
+      "query": "luis suárez díaz",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "La decisión que tomó Marcelo Bielsa tras la sorpresiva candidatura de Luis Suárez para el Mundial 2026",
+          "url": "https://www.infobae.com/deportes/2026/05/12/la-decision-que-tomo-marcelo-bielsa-tras-la-sorpresiva-candidatura-de-luis-suarez-para-el-mundial-2026/",
+          "source": "Infobae"
+        },
+        {
+          "title": "El país dividido por Luis Suárez, conocé cuántos uruguayos quieren su regreso a la selección que dirige Marcelo Bielsa",
+          "url": "https://www.elobservador.com.uy/referi/el-pais-partido-luis-suarez-conoce-cuantos-uruguayos-quieren-su-regreso-la-seleccion-n6043798",
+          "source": "El Observador"
+        },
+        {
+          "title": "Luis Suárez quedó afuera de la prelista de Uruguay para el Mundial 2026: Bielsa no lo convocó.",
+          "url": "https://cadenadelmar.uy/deporte/luis-suarez-quedo-afuera-de-la-prelista-de-uruguay-para-el-mundial-2026-bielsa-no-lo-convoco-19768",
+          "source": "Cadena del Mar"
+        }
+      ]
+    },
+    {
+      "query": "coupe du monde de la fifa 2026™",
+      "geo": "FR",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 5000,
+      "articles": [
+        {
+          "title": "Thiago Silva présélectionné pour la Coupe du Monde 2026 avec le Brésil, Marquinhos et Endrick aussi présents",
+          "url": "https://www.lequipe.fr/Football/Actualites/Thiago-silva-preselectionne-pour-la-coupe-du-monde-2026-avec-le-bresil-marquinhos-et-endrick-aussi-presents/1675281",
+          "source": "L&apos;Équipe"
+        },
+        {
+          "title": "« Ça ne dépend que de lui » : Carlo Ancelotti ne ferme pas la porte du Brésil à Neymar pour la Coupe du monde 2026",
+          "url": "https://www.leparisien.fr/sports/football/coupe-du-monde/ca-ne-depend-que-de-lui-carlo-ancelotti-ne-ferme-pas-la-porte-du-bresil-a-neymar-pour-la-coupe-du-monde-2026-14-05-2026-MG6IOBW4Q5HPRDAUGF4AW54ENQ.php",
+          "source": "Le Parisien"
+        },
+        {
+          "title": "Sélections : Un premier joueur du PSG privé de Coupe du monde",
+          "url": "https://www.culturepsg.com/news/selections/un-premier-joueur-du-psg-prive-de-coupe-du-monde/59574",
+          "source": "CulturePSG"
+        }
+      ]
+    },
+    {
+      "query": "luis alberto suárez",
+      "geo": "PT",
+      "language": "pt",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Luis Suarez reverses Uruguay retirement ahead of World Cup: ‘I apologised to those I needed to’ - The Athletic",
+          "url": "https://www.nytimes.com/athletic/7264629/2026/05/08/luis-suarez-uruguay-world-cup-retirement/",
+          "source": "The New York Times"
+        },
+        {
+          "title": "Luis Suarez: Former Uruguay forward &apos;would never say no&apos; to Fifa World Cup return",
+          "url": "https://www.bbc.com/sport/football/articles/c0m29je332wo",
+          "source": "BBC"
+        },
+        {
+          "title": "Luis Suárez questioned Miami benching, says it made him calmer",
+          "url": "https://www.espn.com/soccer/story/_/id/48694648/luis-suarez-inter-miami-javier-mascherano-mls",
+          "source": "ESPN"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "en": [
+      {
+        "query": "fifa world cup 2026",
+        "score": 240,
+        "geos": [
+          "CA"
+        ],
+        "samples": [
+          {
+            "query": "fifa world cup 2026",
+            "geo": "CA",
+            "language": "en",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Shakira, Madonna and BTS to headline 2026 World Cup Final halftime show",
+                "url": "https://www.cnn.com/2026/05/14/sport/world-cup-final-halftime-show-headliners-hnk",
+                "source": "CNN"
+              },
+              {
+                "title": "FIFA announces Super Bowl-style World Cup final halftime show featuring Madonna, Shakira and BTS",
+                "url": "https://www.winnipegfreepress.com/sports/soccer/2026/05/14/fifa-announces-super-bowl-style-world-cup-final-halftime-show-featuring-madonna-shakira-and-bts",
+                "source": "Winnipeg Free Press"
+              },
+              {
+                "title": "Shakira, Madonna & BTS announced as headliners for 2026 World Cup final halftime show",
+                "url": "https://ca.sports.yahoo.com/news/shakira-madonna-bts-announced-headliners-052348625.html",
+                "source": "Yahoo Sports Canada"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "es": [
+      {
+        "query": "luis suárez díaz",
+        "score": 180,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "luis suárez díaz",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "La decisión que tomó Marcelo Bielsa tras la sorpresiva candidatura de Luis Suárez para el Mundial 2026",
+                "url": "https://www.infobae.com/deportes/2026/05/12/la-decision-que-tomo-marcelo-bielsa-tras-la-sorpresiva-candidatura-de-luis-suarez-para-el-mundial-2026/",
+                "source": "Infobae"
+              },
+              {
+                "title": "El país dividido por Luis Suárez, conocé cuántos uruguayos quieren su regreso a la selección que dirige Marcelo Bielsa",
+                "url": "https://www.elobservador.com.uy/referi/el-pais-partido-luis-suarez-conoce-cuantos-uruguayos-quieren-su-regreso-la-seleccion-n6043798",
+                "source": "El Observador"
+              },
+              {
+                "title": "Luis Suárez quedó afuera de la prelista de Uruguay para el Mundial 2026: Bielsa no lo convocó.",
+                "url": "https://cadenadelmar.uy/deporte/luis-suarez-quedo-afuera-de-la-prelista-de-uruguay-para-el-mundial-2026-bielsa-no-lo-convoco-19768",
+                "source": "Cadena del Mar"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "fr": [
+      {
+        "query": "coupe du monde de la fifa 2026™",
+        "score": 5000,
+        "geos": [
+          "FR"
+        ],
+        "samples": [
+          {
+            "query": "coupe du monde de la fifa 2026™",
+            "geo": "FR",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 5000,
+            "articles": [
+              {
+                "title": "Thiago Silva présélectionné pour la Coupe du Monde 2026 avec le Brésil, Marquinhos et Endrick aussi présents",
+                "url": "https://www.lequipe.fr/Football/Actualites/Thiago-silva-preselectionne-pour-la-coupe-du-monde-2026-avec-le-bresil-marquinhos-et-endrick-aussi-presents/1675281",
+                "source": "L&apos;Équipe"
+              },
+              {
+                "title": "« Ça ne dépend que de lui » : Carlo Ancelotti ne ferme pas la porte du Brésil à Neymar pour la Coupe du monde 2026",
+                "url": "https://www.leparisien.fr/sports/football/coupe-du-monde/ca-ne-depend-que-de-lui-carlo-ancelotti-ne-ferme-pas-la-porte-du-bresil-a-neymar-pour-la-coupe-du-monde-2026-14-05-2026-MG6IOBW4Q5HPRDAUGF4AW54ENQ.php",
+                "source": "Le Parisien"
+              },
+              {
+                "title": "Sélections : Un premier joueur du PSG privé de Coupe du monde",
+                "url": "https://www.culturepsg.com/news/selections/un-premier-joueur-du-psg-prive-de-coupe-du-monde/59574",
+                "source": "CulturePSG"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "pt": [
+      {
+        "query": "luis alberto suárez",
+        "score": 200,
+        "geos": [
+          "PT"
+        ],
+        "samples": [
+          {
+            "query": "luis alberto suárez",
+            "geo": "PT",
+            "language": "pt",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Luis Suarez reverses Uruguay retirement ahead of World Cup: ‘I apologised to those I needed to’ - The Athletic",
+                "url": "https://www.nytimes.com/athletic/7264629/2026/05/08/luis-suarez-uruguay-world-cup-retirement/",
+                "source": "The New York Times"
+              },
+              {
+                "title": "Luis Suarez: Former Uruguay forward &apos;would never say no&apos; to Fifa World Cup return",
+                "url": "https://www.bbc.com/sport/football/articles/c0m29je332wo",
+                "source": "BBC"
+              },
+              {
+                "title": "Luis Suárez questioned Miami benching, says it made him calmer",
+                "url": "https://www.espn.com/soccer/story/_/id/48694648/luis-suarez-inter-miami-javier-mascherano-mls",
+                "source": "ESPN"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "topic": "luis alberto suárez",
+      "type": "noticia",
+      "slugSuggestion": "luis-alberto-suarez",
+      "language": "pt",
+      "geos": [
+        "PT"
+      ],
+      "score": 240,
+      "reason": "Google Trends daily PT con 200 búsquedas · 3 artículos noticiosos referenciando \"luis alberto suárez\"",
+      "proposedPath": "/noticias/luis-alberto-suarez",
+      "evidence": [
+        {
+          "query": "luis alberto suárez",
+          "geo": "PT",
+          "language": "pt",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Luis Suarez reverses Uruguay retirement ahead of World Cup: ‘I apologised to those I needed to’ - The Athletic",
+              "url": "https://www.nytimes.com/athletic/7264629/2026/05/08/luis-suarez-uruguay-world-cup-retirement/",
+              "source": "The New York Times"
+            },
+            {
+              "title": "Luis Suarez: Former Uruguay forward &apos;would never say no&apos; to Fifa World Cup return",
+              "url": "https://www.bbc.com/sport/football/articles/c0m29je332wo",
+              "source": "BBC"
+            },
+            {
+              "title": "Luis Suárez questioned Miami benching, says it made him calmer",
+              "url": "https://www.espn.com/soccer/story/_/id/48694648/luis-suarez-inter-miami-javier-mascherano-mls",
+              "source": "ESPN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "luis suárez díaz",
+      "type": "noticia",
+      "slugSuggestion": "luis-suarez-diaz",
+      "language": "es",
+      "geos": [
+        "UY"
+      ],
+      "score": 216,
+      "reason": "Google Trends daily UY con 200 búsquedas · 3 artículos noticiosos referenciando \"luis suárez díaz\"",
+      "proposedPath": "/noticias/luis-suarez-diaz",
+      "evidence": [
+        {
+          "query": "luis suárez díaz",
+          "geo": "UY",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "La decisión que tomó Marcelo Bielsa tras la sorpresiva candidatura de Luis Suárez para el Mundial 2026",
+              "url": "https://www.infobae.com/deportes/2026/05/12/la-decision-que-tomo-marcelo-bielsa-tras-la-sorpresiva-candidatura-de-luis-suarez-para-el-mundial-2026/",
+              "source": "Infobae"
+            },
+            {
+              "title": "El país dividido por Luis Suárez, conocé cuántos uruguayos quieren su regreso a la selección que dirige Marcelo Bielsa",
+              "url": "https://www.elobservador.com.uy/referi/el-pais-partido-luis-suarez-conoce-cuantos-uruguayos-quieren-su-regreso-la-seleccion-n6043798",
+              "source": "El Observador"
+            },
+            {
+              "title": "Luis Suárez quedó afuera de la prelista de Uruguay para el Mundial 2026: Bielsa no lo convocó.",
+              "url": "https://cadenadelmar.uy/deporte/luis-suarez-quedo-afuera-de-la-prelista-de-uruguay-para-el-mundial-2026-bielsa-no-lo-convoco-19768",
+              "source": "Cadena del Mar"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alreadyCovered": [
+    {
+      "query": "fifa world cup 2026",
+      "matchUrl": "/noticias/fifa-panini-collection-app-mundial-2026-coca-cola-album-digital"
+    },
+    {
+      "query": "coupe du monde de la fifa 2026™",
+      "matchUrl": "/noticias/fifa-panini-collection-app-mundial-2026-coca-cola-album-digital"
+    }
+  ]
+}
