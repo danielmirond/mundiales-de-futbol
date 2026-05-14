@@ -125,6 +125,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   out.push(entry('/coleccionismo/panini-mundial-2026/donde-comprar/brasil', now, 'weekly', 0.85));
   out.push(entry('/coleccionismo/panini-mundial-2026/coca-cola', now, 'weekly', 0.8));
   out.push(entry('/coleccionismo/panini-mundial-2026/topps-vs-panini', now, 'monthly', 0.7));
+  // Cluster Camisetas Mundial 2026 (pillar + 5 sub-páginas)
+  out.push(entry('/coleccionismo/camisetas-mundial-2026', now, 'weekly', 0.95));
+  out.push(entry('/coleccionismo/camisetas-mundial-2026/comprar', now, 'weekly', 0.9));
+  out.push(entry('/coleccionismo/camisetas-mundial-2026/precio', now, 'weekly', 0.9));
+  out.push(entry('/coleccionismo/camisetas-mundial-2026/authentic-vs-replica', now, 'weekly', 0.85));
+  out.push(entry('/coleccionismo/camisetas-mundial-2026/tallas', now, 'weekly', 0.85));
+  out.push(entry('/coleccionismo/camisetas-mundial-2026/falsificaciones', now, 'weekly', 0.85));
   out.push(entry('/selecciones/ESP/grupo-h', now, 'weekly', 0.9));
   out.push(entry('/historias', now, 'daily', 0.9));
   out.push(entry('/galeria', now, 'weekly', 0.85));
