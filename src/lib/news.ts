@@ -73,6 +73,54 @@ export type NewsItem = {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'halftime-show-final-mundial-2026-shakira-bts-madonna-chris-martin-metlife-19-julio',
+    title:
+      'Shakira, BTS y Madonna encabezarán el primer halftime show en la historia de una final de Mundial: 19 de julio en el MetLife, comisariado por Chris Martin',
+    summary:
+      'FIFA ha anunciado el primer halftime show de la historia en una final de Mundial: Shakira, BTS y Madonna actuarán el 19 de julio de 2026 durante el descanso del partido decisivo en MetLife Stadium (Nueva York / New Jersey). Comisariado por Chris Martin (Coldplay), el espectáculo recaudará fondos para el FIFA Global Citizen Education Fund. Aparecerán también los Muppets de Sesame Street.',
+    body: `FIFA ha anunciado este 14 de mayo el line-up del primer halftime show en la historia de una final de Mundial. **Shakira, BTS y Madonna** coencabezarán el espectáculo del 19 de julio de 2026 en el descanso de la final, que se jugará en el [MetLife Stadium de Nueva York / New Jersey](/2026/sedes/nueva-york). El anuncio lo difundió en simultáneo la propia FIFA, Global Citizen y la mayoría de medios internacionales —Bleacher Report, Washington Post, Billboard, CNN, Yahoo Sports, OutKick— en una operación de comunicación cuidadosamente orquestada.
+
+**Quién lo comisaría**. El director artístico del show es **Chris Martin**, líder de Coldplay y cara visible de la cobertura musical reciente de FIFA. Martin ya había aparecido en la mini-puesta en escena del descanso del FIFA Club World Cup 2025 en MetLife —el ensayo general operativo del concepto— junto a **J Balvin, Doja Cat, Tems y el propio Coldplay**. La organización ha confirmado además la presencia de **los Muppets** de Sesame Street, una guiño infantil y multicultural que rebaja el peso únicamente pop del cartel principal.
+
+**Para qué se hace**. El recaudo del show no es comercial estricto: los fondos generados van al **FIFA Global Citizen Education Fund**, un nuevo vehículo de cooperación entre FIFA y Global Citizen orientado a programas educativos en países en desarrollo. Es la misma fórmula que Global Citizen lleva utilizando desde 2012 en sus festivales benéficos: convertir un evento de máxima audiencia en una palanca de financiación para causas globales. La cifra esperada de audiencia de la final del Mundial 2026 supera con holgura los **1.500 millones de espectadores** del Super Bowl, por lo que el potencial de visibilidad para la causa es ya histórico.
+
+**Por qué es nuevo**. El halftime show ha sido durante décadas seña de identidad del Super Bowl, del Día de Acción de Gracias en la NFL o del UEFA Champions League opening, pero nunca se había producido uno en el descanso de una final de Mundial. La razón es práctica: el descanso reglamentario de FIFA es de **15 minutos**, y montar + ejecutar + desmontar un escenario pop necesita habitualmente 25-30 minutos como hace la NFL. La operativa del 19 de julio implicará por tanto ampliar el descanso a una duración aún por confirmar oficialmente, con la dificultad añadida de mantener el césped del MetLife en condiciones de juego para los 45 minutos siguientes y la posible prórroga.
+
+**El cartel y por qué tiene sentido**. Las tres cabezas de cartel no son aleatorias. **Shakira** es ya artista vinculada al Mundial 2026: hace tres días firmó con Burna Boy la canción oficial del torneo, *[Dai Dai](/noticias/shakira-dai-dai-cancion-oficial-mundial-2026-burna-boy)*, y representa el bloque latinoamericano del torneo (México, anfitrión, además del peso de Brasil, Argentina, Colombia y Uruguay como selecciones favoritas). **BTS** aporta el público asiático —Corea del Sur clasificada, Japón clasificada, además del mercado global del K-pop— y resuelve la papeleta de cuotas de Asia en un Mundial geográficamente centrado en Norteamérica. **Madonna** es el guiño cultural anglosajón sin ser un acto puramente americano: estrella global, multilingüe en sus colaboraciones recientes y veterana del *halftime* (Super Bowl 2012). La elección combina pop latinoamericano + pop asiático + icono global anglosajón, una arquitectura de cartel poco frecuente fuera del propio Mundial.
+
+**Lo que queda por confirmar**. FIFA no ha publicado todavía la duración exacta del descanso ampliado, ni el orden de actuación, ni si habrá colaboraciones entre los headliners (lo más previsible), ni si Burna Boy o Coldplay aparecerán como artistas adicionales. Tampoco ha confirmado dónde se transmitirá en exclusiva en cada mercado: en USA el broadcast natural es FOX + Telemundo (que ya tienen los derechos del Mundial), pero el formato halftime puede tener un sponsor independiente —Apple Music ha sido patrocinador del Super Bowl halftime show desde 2023 y la negociación con FIFA para el Mundial 2026 es la operación de patrocinio musical más cara que se rumorea ahora mismo en el sector.
+
+**Cómo verlo en directo**. La final del Mundial 2026 se juega el **19 de julio a las 19:00 ET (01:00 CEST del 20 de julio)** en el MetLife Stadium. El halftime show será visible en la misma señal de retransmisión del partido y a través de los streams oficiales de Global Citizen. Las entradas para asistir al estadio van desde los **2.500 USD** en Single Match estándar y desde los **4.500 USD** en [hospitality oficial](/2026/hospitality/sedes/nueva-york) (FIFA + On Location). Los paquetes Private Suite del MetLife para la final superan ya los **500.000 USD** según el desglose oficial.`,
+    category: 'ceremonia',
+    sourceName: 'Bleacher Report',
+    sourceUrl:
+      'https://bleacherreport.com/articles/25427703-shakira-bts-madonna-headline-2026-world-cup-final-halftime-show',
+    sourceLang: 'en',
+    publishedAt: '2026-05-14T14:00:00Z',
+    sourcesSecondary: [
+      {
+        name: 'Global Citizen · FIFA World Cup™ 2026 Final Half-Time Show',
+        url: 'https://www.globalcitizen.org/en/events-broadcasts/fifa-world-cup-final-half-time-show/',
+      },
+      {
+        name: 'CNN · Shakira, Madonna and BTS to headline 2026 World Cup Final halftime show',
+        url: 'https://www.cnn.com/2026/05/14/sport/world-cup-final-halftime-show-headliners-hnk',
+      },
+      {
+        name: 'Billboard · Madonna, Shakira & BTS to Headline 2026 World Cup Final Halftime Show',
+        url: 'https://www.billboard.com/music/music-news/world-cup-halftime-bts-madonna-shakira-1236247959/',
+      },
+      {
+        name: 'Washington Post · World Cup halftime show to feature Shakira, Madonna, BTS',
+        url: 'https://www.washingtonpost.com/entertainment/music/2026/05/14/shakira-madonna-bts-headline-fifa-world-cup-2026-halftime-show/',
+      },
+      {
+        name: 'FIFA Inside · Football and music superstars to deliver nonstop spectacle at FIFA Club World Cup™ Final (precedente operativo 2025)',
+        url: 'https://inside.fifa.com/media-releases/football-music-superstars-nonstop-spectacle-club-world-cup-final',
+      },
+    ],
+  },
+  {
     slug: 'hospitality-mundial-2026-on-location-precios-single-match-2500-venue-series-private-suites',
     title:
       'Hospitality oficial Mundial 2026: Single Match desde 2.500 USD, Follow My Team y Private Suites hasta 500.000 USD por On Location',
