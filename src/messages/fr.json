@@ -258,7 +258,198 @@
     },
     "entradas": {
       "title": "Billets Coupe du Monde 2026 · Comment acheter, tarifs et phases de vente",
-      "description": "Guide complet pour acheter des billets de la Coupe 2026 : tarifs officiels par catégorie, Phase 4 ouverte jusqu'à la finale, packs hospitality et liens directs vers FIFA Tickets."
+      "description": "Guide complet pour acheter des billets de la Coupe 2026 : tarifs officiels par catégorie, Phase 4 ouverte jusqu'à la finale, packs hospitality et liens directs vers FIFA Tickets.",
+      "keywords": [
+        "billets Coupe du monde 2026",
+        "acheter billets Coupe du monde 2026",
+        "tarifs billets Coupe du monde 2026",
+        "Coupe du monde 2026 phase 4 billets",
+        "comment acheter billets Coupe du monde 2026",
+        "FIFA tickets 2026",
+        "billets finale Coupe du monde 2026",
+        "billets ouverture Coupe du monde 2026",
+        "hospitality Coupe du monde 2026"
+      ],
+      "back": "Coupe du monde 2026",
+      "kicker": "Coupe du monde 2026 · USA · Mexique · Canada",
+      "h1Line1": "Billets",
+      "h1Line2": "Coupe du monde 2026",
+      "intro": "Comment acheter, quels sont les tarifs et quelles phases de vente restent ouvertes pour les 104 matchs de la première Coupe du monde à 48 sélections. Guide mis à jour en avril 2026.",
+      "ctaPrimary": "Acheter sur FIFA Tickets",
+      "securityNotice": {
+        "strong": "La FIFA est la seule vendeuse officielle.",
+        "body": "Tout site qui propose des billets au prix nominal en dehors de fifa.com/tickets est une revente non autorisée ou une arnaque. Votre billet peut être annulé à l'entrée du stade."
+      },
+      "phasesSection": {
+        "kicker": "Quand les ventes ont eu lieu et ce qu'il reste",
+        "h2": "4 phases de vente"
+      },
+      "phases": {
+        "p1": {
+          "name": "Phase 1, Visa Presale Draw",
+          "when": "Octobre 2025",
+          "desc": "Tirage au sort réservé aux titulaires de cartes Visa."
+        },
+        "p2": {
+          "name": "Phase 2, Early Ticket Draw",
+          "when": "Novembre 2025",
+          "desc": "Deuxième tirage aléatoire avant que le résultat du tirage des groupes ne soit connu."
+        },
+        "p3": {
+          "name": "Phase 3, Random Selection Draw",
+          "when": "Décembre 2025, janvier 2026",
+          "desc": "Troisième tirage, groupes déjà connus. Attribution de matchs spécifiques par équipe."
+        },
+        "p4": {
+          "name": "Phase 4, Last-Minute Sales",
+          "when": "À partir du 1er avril 2026 jusqu'à la finale (19 juillet)",
+          "desc": "Vente continue par ordre d'arrivée (pas de tirage). Tarification dynamique en temps réel selon la demande. Disponibilité pour les 104 matchs sous réserve d'inventaire."
+        }
+      },
+      "statusLabels": {
+        "closed": "Fermée",
+        "open": "Ouverte"
+      },
+      "pricesSection": {
+        "kicker": "Tarifs officiels · Phase 4 · Avril 2026",
+        "h2": "Tarifs par phase",
+        "intro": "Tarifs en dollars américains, soumis à la tarification dynamique de la FIFA : le coût réel dépend du site, des équipes et de la demande au moment de l'achat.",
+        "footer": "Il existe un Supporter Tier à 60 $ disponible uniquement pour les membres accrédités des Fan Clubs officiels des sélections. La revente de billets pour la finale a atteint 2 millions de dollars par billet sur les marchés secondaires."
+      },
+      "pricesTable": {
+        "stage": "Phase",
+        "from": "À partir de",
+        "to": "Jusqu'à",
+        "notes": "Notes"
+      },
+      "prices": {
+        "groupCat3": {
+          "stage": "Phase de groupes · Cat. 3",
+          "notes": "Catégorie la plus accessible. Tarifs montent avec la demande."
+        },
+        "groupCat1": {
+          "stage": "Phase de groupes · Cat. 1",
+          "notes": "Meilleure zone du stade. Plafond supérieur selon le match."
+        },
+        "r16": {
+          "stage": "Huitièmes de finale",
+          "notes": "Variation selon le match et le site."
+        },
+        "qf": {
+          "stage": "Quarts de finale",
+          "notes": ""
+        },
+        "sfCat3": {
+          "stage": "Demi-finales · Cat. 3",
+          "notes": "Cat. 3 dès 930 $ ; Cat. 1 dépasse 4 000 $."
+        },
+        "third": {
+          "stage": "Petite finale",
+          "notes": ""
+        },
+        "finalCat3": {
+          "stage": "Finale · Cat. 3",
+          "notes": "La plus accessible pour la finale."
+        },
+        "finalCat1": {
+          "stage": "Finale · Cat. 1",
+          "notes": "Plafond officiel ; revente dépasse 2 M $."
+        }
+      },
+      "hospitalitySection": {
+        "kicker": "Packs premium",
+        "h2": "Hospitality",
+        "intro": "Quand il n'y a plus de billets individuels accessibles, les packs hospitality officiels sont la seule voie pour assister. Vendus sur hospitality.fifa.com."
+      },
+      "hospitality": {
+        "fifaPavilion": {
+          "name": "FIFA Pavilion",
+          "perks": "Siège premium, lounge partagé, entrée rapide."
+        },
+        "championsClub": {
+          "name": "Champions Club",
+          "perks": "Menus signés par des chefs locaux, cocktails, lounge climatisé."
+        },
+        "pitchsideLounge": {
+          "name": "Pitchside Lounge",
+          "perks": "Accès quasi au bord du terrain, bar premium inclus."
+        },
+        "suitesPrivate": {
+          "name": "Suites privées",
+          "perks": "Packs multi-matchs (incl. finale) au MetLife et à l'Azteca."
+        }
+      },
+      "faq": {
+        "kicker": "Ce qu'on demande le plus",
+        "h2": "Questions fréquentes",
+        "items": [
+          {
+            "q": "Où achète-t-on les billets de la Coupe du monde 2026 ?",
+            "a": "Uniquement sur le site officiel fifa.com/tickets. La FIFA est la seule vendeuse autorisée. Tout autre site qui propose des billets au prix nominal est une revente ou, dans le pire des cas, une arnaque."
+          },
+          {
+            "q": "Les billets sont-ils encore disponibles en avril 2026 ?",
+            "a": "Oui. La Phase 4 (Last-Minute Sales) a ouvert le 1er avril 2026 et reste active jusqu'à la finale du 19 juillet. L'achat se fait par ordre d'arrivée et les tarifs sont dynamiques : ils peuvent monter ou baisser en temps réel selon la demande."
+          },
+          {
+            "q": "Combien coûte un billet de la Coupe du monde 2026 ?",
+            "a": "Les billets les plus accessibles au public démarrent à 120 $ (Cat. 3, phase de groupes dans des sites à faible demande). La finale coûte à partir de 1 490 $ en Cat. 3 et jusqu'à 7 875 $ en Cat. 1. Il existe un Supporter Tier à 60 $ mais réservé aux groupes officiels de supporters des sélections participantes."
+          },
+          {
+            "q": "Qu'est-ce que la tarification dynamique ?",
+            "a": "Pour la première fois lors d'une Coupe du monde, la FIFA applique des tarifs dynamiques : le coût d'un billet change en temps réel selon la demande, les sélections qui jouent et le site. Un billet qui ouvre une phase à 200 $ peut finir à 350 $ avant la fin de cette même phase."
+          },
+          {
+            "q": "Puis-je acheter des billets en revente ?",
+            "a": "La FIFA dispose d'une plateforme officielle de revente intégrée à fifa.com/tickets. C'est la seule façon légale et sûre de revendre un billet. Les sites tiers (StubHub, Viagogo, etc.) ne sont pas autorisés : le billet peut être annulé à l'entrée du stade."
+          },
+          {
+            "q": "Faut-il un visa pour entrer aux États-Unis, au Mexique ou au Canada avec le billet ?",
+            "a": "Le billet de match ne dispense pas des exigences migratoires. Chaque pays applique ses règles : la France a besoin d'un ESTA pour les États-Unis, d'une FMM pour le Mexique et d'une eTA pour le Canada. Les délais de traitement peuvent être de plusieurs semaines, autant régler ça dès que vous avez le billet."
+          },
+          {
+            "q": "Quand a lieu le match d'ouverture et quand la finale ?",
+            "a": "L'ouverture est le 11 juin 2026 à 13h00 heure du Mexique (Mexique vs Afrique du Sud) à l'Estadio Azteca. La finale est le 19 juillet 2026 à 15h00 ET au MetLife Stadium du New Jersey."
+          }
+        ]
+      },
+      "ctaFinal": {
+        "h2": "Achetez-les sur le site officiel",
+        "intro": "Cette page est informative : nous ne vendons ni ne revendons de billets. Pour une transaction sûre, utilisez toujours fifa.com/tickets ou le système officiel de revente de la FIFA.",
+        "ctaTickets": "FIFA Tickets",
+        "ctaHospitality": "Hospitality officiel"
+      },
+      "howTo": {
+        "name": "Comment acheter des billets pour la Coupe du monde 2026",
+        "description": "Guide étape par étape pour acheter des billets officiels de la Coupe du monde 2026 sur fifa.com/tickets pendant la phase 4 de vente.",
+        "steps": [
+          {
+            "name": "Créez ou connectez-vous à votre compte FIFA",
+            "text": "Allez sur fifa.com/tickets et créez un compte avec un email vérifié. Le nom réel correspondant au document d'identité est obligatoire."
+          },
+          {
+            "name": "Choisissez le match",
+            "text": "Dans l'onglet « Matchs », filtrez par date, ville ou sélection. Disponibilité soumise à l'inventaire et à la tarification dynamique."
+          },
+          {
+            "name": "Sélectionnez catégorie et siège",
+            "text": "Choisissez entre Cat. 1, 2 ou 3. L'option Supporter (60 $) n'apparaît que si vous êtes membre accrédité du Fan Club de votre sélection."
+          },
+          {
+            "name": "Payez avec Visa ou carte acceptée",
+            "text": "Visa est partenaire officiel. D'autres cartes fonctionnent aussi mais peuvent avoir des restrictions de devise."
+          },
+          {
+            "name": "Recevez le billet digital sur votre compte",
+            "text": "Les billets sont nominatifs et numériques (FIFA Mobile App). Ils ne peuvent être ni imprimés ni transférés librement."
+          }
+        ]
+      },
+      "breadcrumb": {
+        "inicio": "Accueil",
+        "mundial": "Coupe du monde 2026",
+        "entradas": "Billets"
+      }
     },
     "panini": {
       "title": "Panini Coupe du Monde 2026 · Album, pochettes et tarifs",

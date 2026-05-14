@@ -258,7 +258,198 @@
     },
     "entradas": {
       "title": "Entradas Mundial 2026 · Cómo comprar, precios y fases de venta",
-      "description": "Guía completa para comprar entradas del Mundial 2026: precios oficiales por categoría, fase 4 de venta abierta hasta la final, paquetes de hospitality y enlaces directos a FIFA Tickets."
+      "description": "Guía completa para comprar entradas del Mundial 2026: precios oficiales por categoría, fase 4 de venta abierta hasta la final, paquetes de hospitality y enlaces directos a FIFA Tickets.",
+      "keywords": [
+        "entradas Mundial 2026",
+        "comprar entradas Mundial 2026",
+        "precios entradas Mundial 2026",
+        "Mundial 2026 fase 4 entradas",
+        "cómo comprar boletos Mundial 2026",
+        "FIFA tickets 2026",
+        "entradas final Mundial 2026",
+        "entradas inauguración Mundial 2026",
+        "hospitality Mundial 2026"
+      ],
+      "back": "Mundial 2026",
+      "kicker": "Mundial 2026 · USA · México · Canadá",
+      "h1Line1": "Entradas",
+      "h1Line2": "Mundial 2026",
+      "intro": "Cómo comprar, qué precios hay y qué fases de venta siguen abiertas para los 104 partidos del primer Mundial de 48 selecciones. Guía actualizada a abril de 2026.",
+      "ctaPrimary": "Comprar en FIFA Tickets",
+      "securityNotice": {
+        "strong": "FIFA es la única vendedora oficial.",
+        "body": "Cualquier web que ofrezca entradas a precio nominal fuera de fifa.com/tickets es reventa no autorizada o estafa. Tu entrada puede ser cancelada en la puerta del estadio."
+      },
+      "phasesSection": {
+        "kicker": "Cuándo se vendieron y qué queda",
+        "h2": "4 fases de venta"
+      },
+      "phases": {
+        "p1": {
+          "name": "Fase 1, Visa Presale Draw",
+          "when": "Octubre 2025",
+          "desc": "Sorteo aleatorio reservado a titulares de tarjetas Visa."
+        },
+        "p2": {
+          "name": "Fase 2, Early Ticket Draw",
+          "when": "Noviembre 2025",
+          "desc": "Segundo sorteo aleatorio antes de conocerse el resultado del sorteo de grupos."
+        },
+        "p3": {
+          "name": "Fase 3, Random Selection Draw",
+          "when": "Diciembre 2025, enero 2026",
+          "desc": "Tercer sorteo, ya con grupos conocidos. Asignación de partidos específicos por equipo."
+        },
+        "p4": {
+          "name": "Fase 4, Last-Minute Sales",
+          "when": "Desde 1 abril 2026 hasta la final (19 julio)",
+          "desc": "Venta continua por orden de llegada (no sorteo). Precios dinámicos en tiempo real según demanda. Disponibilidad para los 104 partidos sujeta a inventario."
+        }
+      },
+      "statusLabels": {
+        "closed": "Cerrada",
+        "open": "Abierta"
+      },
+      "pricesSection": {
+        "kicker": "Tarifas oficiales · Phase 4 · Abril 2026",
+        "h2": "Precios por etapa",
+        "intro": "Precios en dólares estadounidenses, sujetos a precio dinámico de FIFA: el coste real depende de la sede, los equipos y la demanda en el momento de la compra.",
+        "footer": "Hay un Supporter Tier de 60 $ disponible solo para miembros acreditados de los Fan Clubs oficiales de las selecciones. La reventa de entradas para la final ha alcanzado los 2 millones de dólares por unidad en mercados secundarios."
+      },
+      "pricesTable": {
+        "stage": "Etapa",
+        "from": "Desde",
+        "to": "Hasta",
+        "notes": "Notas"
+      },
+      "prices": {
+        "groupCat3": {
+          "stage": "Fase de grupos · Cat. 3",
+          "notes": "Categoría más asequible. Precios suben con demanda."
+        },
+        "groupCat1": {
+          "stage": "Fase de grupos · Cat. 1",
+          "notes": "Mejor zona del estadio. Cap superior según partido."
+        },
+        "r16": {
+          "stage": "Octavos",
+          "notes": "Variación según partido y sede."
+        },
+        "qf": {
+          "stage": "Cuartos",
+          "notes": ""
+        },
+        "sfCat3": {
+          "stage": "Semifinales · Cat. 3",
+          "notes": "Cat. 3 desde 930 $; Cat. 1 supera los 4.000 $."
+        },
+        "third": {
+          "stage": "Tercer puesto",
+          "notes": ""
+        },
+        "finalCat3": {
+          "stage": "Final · Cat. 3",
+          "notes": "Más asequible para la final."
+        },
+        "finalCat1": {
+          "stage": "Final · Cat. 1",
+          "notes": "Tope oficial; reventa supera los 2 M $."
+        }
+      },
+      "hospitalitySection": {
+        "kicker": "Paquetes premium",
+        "h2": "Hospitality",
+        "intro": "Cuando ya no hay entradas individuales asequibles, los paquetes oficiales de hospitalidad son la única vía para asistir. Se compran en hospitality.fifa.com."
+      },
+      "hospitality": {
+        "fifaPavilion": {
+          "name": "FIFA Pavilion",
+          "perks": "Asiento premium, lounge compartido, entrada rápida."
+        },
+        "championsClub": {
+          "name": "Champions Club",
+          "perks": "Menús firmados por chefs locales, cócteles, lounge climatizado."
+        },
+        "pitchsideLounge": {
+          "name": "Pitchside Lounge",
+          "perks": "Acceso casi al borde del campo, barra premium incluida."
+        },
+        "suitesPrivate": {
+          "name": "Suites privadas",
+          "perks": "Paquetes multipartido (incl. final) en MetLife y Azteca."
+        }
+      },
+      "faq": {
+        "kicker": "Lo que más se pregunta",
+        "h2": "Preguntas frecuentes",
+        "items": [
+          {
+            "q": "¿Dónde se compran las entradas del Mundial 2026?",
+            "a": "Solo en la web oficial fifa.com/tickets. FIFA es la única vendedora autorizada. Cualquier otro sitio que ofrezca entradas a precio nominal es una reventa o, en el peor caso, una estafa."
+          },
+          {
+            "q": "¿Las entradas siguen disponibles en abril de 2026?",
+            "a": "Sí. La Phase 4 (Last-Minute Sales) abrió el 1 de abril de 2026 y permanece activa hasta la final del 19 de julio. La compra es por orden de llegada y los precios son dinámicos: pueden subir o bajar en tiempo real según la demanda."
+          },
+          {
+            "q": "¿Cuánto cuesta una entrada del Mundial 2026?",
+            "a": "Las entradas más asequibles para el público parten de 120 $ (Cat. 3, fase de grupos en sedes de menor demanda). La final cuesta desde 1.490 $ en Cat. 3 y hasta 7.875 $ en Cat. 1. Existe un Supporter Tier de 60 $ pero está reservado a los grupos oficiales de aficionados de las selecciones participantes."
+          },
+          {
+            "q": "¿Qué es el precio dinámico?",
+            "a": "Por primera vez en un Mundial, FIFA aplica precios dinámicos: el coste de una entrada cambia en tiempo real según la demanda, las selecciones que jueguen y la sede. Una entrada que abre fase a 200 $ puede acabar costando 350 $ antes de cerrarse esa misma fase."
+          },
+          {
+            "q": "¿Puedo comprar entradas en la reventa?",
+            "a": "FIFA tiene una plataforma oficial de reventa dentro de fifa.com/tickets. Es la única forma legal y segura de revender una entrada. Webs de terceros (StubHub, Viagogo, etc.) no están autorizadas: el ticket puede ser cancelado en la entrada del estadio."
+          },
+          {
+            "q": "¿Necesito visado para entrar a EE. UU., México o Canadá con la entrada?",
+            "a": "La entrada al Mundial no exime de los requisitos migratorios. Cada país aplica sus normas: España requiere ESTA para EE. UU., FMM para México y eTA para Canadá. Los plazos de tramitación pueden ser de semanas, así que conviene resolverlo cuanto antes una vez tengas la entrada."
+          },
+          {
+            "q": "¿Cuándo es el partido inaugural y cuándo la final?",
+            "a": "La inauguración es el 11 de junio de 2026 a las 13:00 hora de México (México vs Sudáfrica) en el Estadio Azteca. La final es el 19 de julio de 2026 a las 15:00 ET en el MetLife Stadium de Nueva Jersey."
+          }
+        ]
+      },
+      "ctaFinal": {
+        "h2": "Cómpralas en la web oficial",
+        "intro": "Esta página es informativa: no vendemos ni revendemos entradas. Para una transacción segura usa siempre fifa.com/tickets o el sistema oficial de reventa de FIFA.",
+        "ctaTickets": "FIFA Tickets",
+        "ctaHospitality": "Hospitality oficial"
+      },
+      "howTo": {
+        "name": "Cómo comprar entradas para el Mundial 2026",
+        "description": "Guía paso a paso para comprar entradas oficiales del Mundial 2026 en fifa.com/tickets durante la fase 4 de venta.",
+        "steps": [
+          {
+            "name": "Crea o accede a tu cuenta FIFA",
+            "text": "Entra en fifa.com/tickets y crea una cuenta con email verificado. Imprescindible nombre real coincidiendo con el documento de identidad."
+          },
+          {
+            "name": "Elige el partido",
+            "text": "En la pestaña «Partidos» filtra por fecha, ciudad o selección. Disponibilidad sujeta a inventario y precio dinámico."
+          },
+          {
+            "name": "Selecciona categoría y asiento",
+            "text": "Elige entre Cat. 1, 2 o 3. La opción Supporter (60 $) solo aparece si eres miembro acreditado del Fan Club de tu selección."
+          },
+          {
+            "name": "Paga con Visa o tarjeta admitida",
+            "text": "Visa es socio oficial. Otras tarjetas también funcionan pero pueden tener restricciones de divisa."
+          },
+          {
+            "name": "Recibe la entrada digital en tu cuenta",
+            "text": "Las entradas son nominativas y digitales (FIFA Mobile App). No se pueden imprimir ni transferir libremente."
+          }
+        ]
+      },
+      "breadcrumb": {
+        "inicio": "Inicio",
+        "mundial": "Mundial 2026",
+        "entradas": "Entradas"
+      }
     },
     "panini": {
       "title": "Panini Mundial 2026 · Álbum de cromos, sobres y precios",
