@@ -80,7 +80,7 @@ export const NEWS_ITEMS: NewsItem[] = [
       'FIFA ha anunciado el primer halftime show de la historia en una final de Mundial: Shakira, BTS y Madonna actuarán el 19 de julio de 2026 durante el descanso del partido decisivo en MetLife Stadium (Nueva York / New Jersey). Comisariado por Chris Martin (Coldplay), el espectáculo recaudará fondos para el FIFA Global Citizen Education Fund. Aparecerán también los Muppets de Sesame Street.',
     body: `FIFA ha anunciado este 14 de mayo el line-up del primer halftime show en la historia de una final de Mundial. **Shakira, BTS y Madonna** coencabezarán el espectáculo del 19 de julio de 2026 en el descanso de la final, que se jugará en el [MetLife Stadium de Nueva York / New Jersey](/2026/sedes/nueva-york). El anuncio lo difundió en simultáneo la propia FIFA, Global Citizen y la mayoría de medios internacionales —Bleacher Report, Washington Post, Billboard, CNN, Yahoo Sports, OutKick— en una operación de comunicación cuidadosamente orquestada.
 
-**Quién lo comisaría**. El director artístico del show es **Chris Martin**, líder de Coldplay y cara visible de la cobertura musical reciente de FIFA. Martin ya había aparecido en la mini-puesta en escena del descanso del FIFA Club World Cup 2025 en MetLife —el ensayo general operativo del concepto— junto a **J Balvin, Doja Cat, Tems y el propio Coldplay**. La organización ha confirmado además la presencia de **los Muppets** de Sesame Street, una guiño infantil y multicultural que rebaja el peso únicamente pop del cartel principal.
+**Quién lo comisaría**. El director artístico del show es **Chris Martin**, líder de Coldplay y cara visible de la cobertura musical reciente de FIFA. Su rol es de **dirección creativa, no de actuación**: ni Coldplay como banda ni el propio Martin actuarán en el descanso del 19 de julio. NBC News y Awful Announcing han confirmado en las horas siguientes al anuncio que Coldplay produce el formato y selecciona los artistas, pero la banda no toca. Martin sí había aparecido en la mini-puesta en escena del descanso del FIFA Club World Cup 2025 en MetLife —el ensayo general operativo del concepto— junto a **J Balvin, Doja Cat, Tems y Coldplay**, esa vez como performers reales. La organización ha confirmado además la presencia de **los Muppets** de Sesame Street, un guiño infantil y multicultural que rebaja el peso únicamente pop del cartel principal.
 
 **Para qué se hace**. El recaudo del show no es comercial estricto: los fondos generados van al **FIFA Global Citizen Education Fund**, un nuevo vehículo de cooperación entre FIFA y Global Citizen orientado a programas educativos en países en desarrollo. Es la misma fórmula que Global Citizen lleva utilizando desde 2012 en sus festivales benéficos: convertir un evento de máxima audiencia en una palanca de financiación para causas globales. La cifra esperada de audiencia de la final del Mundial 2026 supera con holgura los **1.500 millones de espectadores** del Super Bowl, por lo que el potencial de visibilidad para la causa es ya histórico.
 
@@ -117,6 +117,14 @@ export const NEWS_ITEMS: NewsItem[] = [
       {
         name: 'FIFA Inside · Football and music superstars to deliver nonstop spectacle at FIFA Club World Cup™ Final (precedente operativo 2025)',
         url: 'https://inside.fifa.com/media-releases/football-music-superstars-nonstop-spectacle-club-world-cup-final',
+      },
+      {
+        name: 'NBC News · Coldplay working with FIFA to produce halftime show (no actúa)',
+        url: 'https://www.nbcnews.com/sports/soccer/coldplay-working-fifa-produce-first-ever-world-cup-final-halftime-show-rcna194950',
+      },
+      {
+        name: 'Awful Announcing · Chris Martin leads, multiple artists perform',
+        url: 'https://awfulannouncing.com/soccer/fifa-world-cup-final-halftime-show-coldplay-chris-martin-2026.html',
       },
     ],
   },
