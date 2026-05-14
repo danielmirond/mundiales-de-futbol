@@ -111,6 +111,41 @@ export const FEEDS: FeedSource[] = [
     scope: 'soccer',
     weight: 1.2,
   },
+
+  // ──────────────────────────────────────────
+  // Europa continental
+  // ──────────────────────────────────────────
+  {
+    id: 'gazzetta-mondiali',
+    name: 'Gazzetta dello Sport · Mondiali',
+    url: 'https://www.gazzetta.it/rss/Mondiali.xml',
+    lang: 'it',
+    region: 'IT',
+    scope: 'wc-2026',
+    weight: 1.8,
+  },
+  {
+    id: 'gazzetta-home',
+    name: 'Gazzetta dello Sport · Home',
+    url: 'https://www.gazzetta.it/rss/home.xml',
+    lang: 'it',
+    region: 'IT',
+    scope: 'general-sport',
+    weight: 1.0,
+  },
+
+  // ──────────────────────────────────────────
+  // CONCACAF + sudamérica adicional
+  // ──────────────────────────────────────────
+  {
+    id: 'infobae-deportes',
+    name: 'Infobae · Deportes',
+    url: 'https://www.infobae.com/arc/outboundfeeds/rss/category/deportes/',
+    lang: 'es',
+    region: 'AR',
+    scope: 'soccer',
+    weight: 1.1,
+  },
 ];
 
 /**
@@ -199,24 +234,14 @@ export const FEEDS_BROKEN: (FeedSource & { broken: string })[] = [
     broken: '404 — Goal descontinuó RSS.',
   },
   {
-    id: 'infobae-deportes',
-    name: 'Infobae · Deportes',
-    url: 'https://www.infobae.com/feeds/rss/deportes/',
-    lang: 'es',
-    region: 'AR',
-    scope: 'soccer',
-    weight: 1.0,
-    broken: '404',
-  },
-  {
-    id: 'gazzetta-it',
-    name: 'Gazzetta dello Sport · Calcio',
+    id: 'gazzetta-calcio',
+    name: 'Gazzetta · Calcio (sección)',
     url: 'https://www.gazzetta.it/rss/Calcio.xml',
     lang: 'it',
     region: 'IT',
     scope: 'soccer',
     weight: 1.0,
-    broken: '404',
+    broken: '404 — la URL específica de Calcio no existe. Cubrimos con Mondiali + Home (ambos activos)',
   },
   {
     id: 'medio-tiempo-mx',
