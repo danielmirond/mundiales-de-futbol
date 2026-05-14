@@ -60,14 +60,12 @@ export async function generateMetadata({
     type: 'article',
     publishedTime: item.publishedAt,
     modifiedTime: item.modifiedAt ?? item.publishedAt,
-    image: item.image
-      ? {
-          url: item.image.url,
-          width: 1200,
-          height: 675,
-          alt: item.image.alt,
-        }
-      : undefined,
+    // No declaramos `image` aquí: Next.js auto-detecta el archivo
+    // adyacente `opengraph-image.tsx` y lo sirve como og:image y
+    // twitter:image con tamaño 1200×675 garantizado. La URL Wikimedia
+    // de `item.image` se usa solo como hero visual dentro del cuerpo
+    // del artículo (la mayoría no son 16:9 y mentir sobre el tamaño
+    // descalifica la pieza para Google Discover).
     keywords: [
       `Mundial 2026 ${CATEGORY_LABELS[item.category]}`,
       'noticias Mundial 2026',
@@ -91,6 +89,14 @@ export default async function NoticiaDetail({
   const url = localeUrl(locale, `/noticias/${item.slug}`);
 
   // NewsArticle JSON-LD (recomendado para Google News y Discover).
+  // image: usamos la URL del OG dinámico (opengraph-image.tsx adyacente)
+  // que garantiza 1200×675, en lugar de la URL Wikimedia original que
+  // conserva el aspect ratio del archivo y suele NO ser 16:9.
+  const ogImageUrl = `${SEO.siteUrl}${
+    locale === routing.defaultLocale
+      ? `/noticias/${item.slug}/opengraph-image`
+      : `/${locale}/noticias/${item.slug}/opengraph-image`
+  }`;
   const newsArticleLd = {
     '@context': 'https://schema.org',
     '@type': 'NewsArticle',
@@ -101,9 +107,7 @@ export default async function NoticiaDetail({
     inLanguage: locale,
     url,
     mainEntityOfPage: url,
-    image: item.image
-      ? [{ '@type': 'ImageObject', url: item.image.url, width: 1200, height: 675 }]
-      : undefined,
+    image: [{ '@type': 'ImageObject', url: ogImageUrl, width: 1200, height: 675 }],
     publisher: {
       '@type': 'Organization',
       name: SEO.siteName,
