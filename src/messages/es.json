@@ -73,7 +73,26 @@
     "legal": "Legal",
     "privacy": "Privacidad",
     "cookies": "Cookies",
-    "contact": "Contacto"
+    "contact": "Contacto",
+    "editorial": {
+      "heading": "Editorial",
+      "about": "Sobre nosotros",
+      "editorialPolicy": "Política editorial",
+      "correctionsPolicy": "Política de correcciones"
+    },
+    "content": {
+      "heading": "Contenido",
+      "stories": "Historias",
+      "news": "Noticias",
+      "gallery": "Galería"
+    },
+    "shop": {
+      "heading": "Coleccionismo",
+      "jerseys": "Camisetas Mundial 2026",
+      "panini": "Cromos Panini",
+      "lego": "Sets LEGO",
+      "disclosure": "Aviso de afiliados"
+    }
   },
   "contact": {
     "kicker": "Contacto",

@@ -73,7 +73,26 @@
     "legal": "Mentions légales",
     "privacy": "Confidentialité",
     "cookies": "Cookies",
-    "contact": "Contact"
+    "contact": "Contact",
+    "editorial": {
+      "heading": "Éditorial",
+      "about": "À propos",
+      "editorialPolicy": "Politique éditoriale",
+      "correctionsPolicy": "Politique de corrections"
+    },
+    "content": {
+      "heading": "Contenu",
+      "stories": "Histoires",
+      "news": "Actualités",
+      "gallery": "Galerie"
+    },
+    "shop": {
+      "heading": "Collection",
+      "jerseys": "Maillots Coupe du Monde 2026",
+      "panini": "Vignettes Panini",
+      "lego": "Sets LEGO",
+      "disclosure": "Mentions affiliés"
+    }
   },
   "contact": {
     "kicker": "Contact",
