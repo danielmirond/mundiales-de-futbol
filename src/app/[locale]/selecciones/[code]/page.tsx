@@ -12,6 +12,7 @@ import { AmazonProductGrid } from '@/components/affiliate/amazon-card';
 import { getProductsByTeam } from '@/lib/amazon-products';
 import { getJerseyHistory } from '@/lib/wc-jerseys';
 import { Shirt, ArrowRight } from 'lucide-react';
+import { TeamKitShop } from '@/components/team/team-kit-shop';
 
 function withLocale(locale: Locale, href: string) {
   if (locale === routing.defaultLocale) return href;
@@ -212,6 +213,14 @@ export default async function SelectionDetailPage({
           <Stat label="Goles" value={`${unified.goals_for}/${unified.goals_against}`} small />
         </div>
       </section>
+
+      {/* Camiseta y equipación · Mundial 2026 (marca técnica oficial) */}
+      <TeamKitShop
+        teamCode={team.code}
+        teamName={teamDisplayName(team)}
+        locale={locale as Locale}
+        hasJerseyHistory={!!getJerseyHistory(team.code)}
+      />
 
       {/* Camisetas - link a evolución si hay historia disponible */}
       {getJerseyHistory(team.code) && (
