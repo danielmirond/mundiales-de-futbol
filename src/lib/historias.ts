@@ -623,6 +623,50 @@ La segunda parte fue un asedio inglés que terminó sin más goles. Inglaterra p
 
 Lo que sí ocurrió fue un destino trágico. Inglaterra cayó eliminada en primera fase tras perder también contra España, regresó humillada y tardó dieciséis años en levantar su única Copa del Mundo, en Wembley 66. Joe Gaetjens regresó a Haití en 1953 para abrir una tintorería. Cuando François Duvalier ganó las elecciones de 1957 contra el familiar de Gaetjens, Louis Déjoie, los Tonton Macoutes, policía secreta del régimen, empezaron a vigilarlo. El 8 de julio de 1964 fue arrestado en su tintorería de Puerto Príncipe y encerrado en Fort Dimanche. Su cuerpo nunca apareció. El hombre que había marcado el gol más sorpresivo de la historia de los Mundiales fue víctima de una dictadura tropical sin que el fútbol mundial supiera dónde buscarlo. Fue introducido en el National Soccer Hall of Fame en 1976. La condecoración póstuma no lo trajo de vuelta.`,
   },
+  {
+    n: 15,
+    slug: 'conte-verde-barco-tres-selecciones-mundial-1930',
+    publishDate: '2026-05-09',
+    blockCode: 'S5',
+    category: 'historica',
+    protagonist: 'SS Conte Verde / Jules Rimet',
+    quote: 'El balón es la única lengua común entre los hombres.',
+    quoteDate: '1930-07-30',
+    context:
+      'Junio de 1930. La FIFA ha concedido la organización del primer Mundial a Uruguay y casi ninguna selección europea quiere viajar. Las Federaciones inglesas no se hablan con FIFA, Italia y Alemania no envían equipo, Hungría declina. Para que el Mundial pueda jugarse, Jules Rimet necesita un barco. Lo encontró en el SS Conte Verde, un transatlántico de la naviera Lloyd Sabaudo nombrado en honor a Amadeo VI de Saboya, conde verde del siglo XIV.',
+    source: {
+      name: 'Wikipedia · 1930 FIFA World Cup',
+      url: 'https://en.wikipedia.org/wiki/1930_FIFA_World_Cup',
+    },
+    sourceSecondary:
+      'Wikipedia (SS Conte Verde) · The Irish Times · These Football Times · Yahoo Sports · L\'Équipe archives',
+    certainty: 'Alta',
+    title: 'El Conte Verde, el barco que llevó tres selecciones al primer Mundial de la historia',
+    excerpt:
+      '21 de junio de 1930. Un transatlántico italiano zarpa de Génova rumbo a Montevideo con tres selecciones europeas a bordo, la Copa Jules Rimet y el árbitro de la final. Quince días de travesía decidieron que el primer Mundial pudiera jugarse.',
+    cover: {
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Conte_Verde_nel_1923.jpg?width=1200',
+      alt: 'El SS Conte Verde fotografiado en 1923, transatlántico italiano que llevó a tres selecciones europeas al primer Mundial de fútbol en Uruguay 1930',
+      credit: 'Foto: Wikimedia Commons',
+      license: 'Dominio público',
+      source: 'https://commons.wikimedia.org/wiki/File:Conte_Verde_nel_1923.jpg',
+    },
+    body: `Cuando la FIFA, en su congreso de Barcelona de 1929, votó que Uruguay sería sede del primer Mundial de la historia, lo hizo casi por descarte. La candidatura europea de Italia se había caído por la oposición de Mussolini a financiar la cita. Holanda, Suecia, Hungría y la propia España habían retirado sus ofertas a cambio de promesas para futuras ediciones. Uruguay, que celebraba el centenario de su Constitución y acababa de ganar dos oros olímpicos consecutivos en París 1924 y Ámsterdam 1928, presentó la única candidatura viable. Con una pega: tres semanas de travesía atlántica para cualquier selección europea que se atreviera a participar.
+
+El recelo fue inmediato. Las cuatro federaciones británicas, retiradas de la FIFA desde 1928 por discrepancias sobre el amateurismo, no se plantearon ir. Italia y Alemania declinaron. Hungría, una de las potencias del fútbol europeo de los años veinte, dijo que no por motivos económicos. Austria, Suecia, Suiza, Holanda y España hicieron lo mismo. Cuando llegó la primavera de 1930, Jules Rimet, presidente de la FIFA, sólo tenía un país europeo confirmado: Francia. Y aun así no estaba claro cómo viajarían los franceses. Sin un transatlántico organizado por la propia FIFA, no habría primer Mundial.
+
+La solución apareció con un acuerdo de la naviera genovesa Lloyd Sabaudo. Su buque insignia transatlántico, el SS Conte Verde, una nave de 170 metros y 18.700 toneladas botada en 1922 y bautizada en honor a Amadeo VI de Saboya, conocido como el Conte Verde, conde verde del siglo XIV, hacía la línea regular Génova-Buenos Aires con escala en Río de Janeiro. La travesía duraba quince días y la naviera aceptó habilitar los espacios necesarios para acoger a tres selecciones europeas que habían confirmado in extremis su participación en el Mundial: Rumanía, Francia y Bélgica.
+
+La presencia de Rumanía fue obra directa de su rey. Carol II, monarca recientemente restaurado y aficionado al fútbol, dictó un decreto laboral que obligaba a las empresas a conceder permiso pagado a los jugadores convocados por la federación. La medida estaba pensada explícitamente para evitar el problema que estaban teniendo Bélgica y Francia: que las empresas privadas no liberaran a los futbolistas. Carol II personalmente seleccionó a parte de la convocatoria. Era el primer caso documentado en la historia del fútbol de un jefe de Estado interviniendo en una lista de selección.
+
+El embarque se distribuyó en tres puertos. Los rumanos subieron en Génova, donde el Conte Verde tenía su base. Los franceses lo hicieron el 21 de junio en Villefranche-sur-Mer, en la Riviera francesa. Los belgas, los últimos en sumarse al barco, embarcaron en Barcelona. Yugoslavia, que también había confirmado in extremis su participación, no entró en el Conte Verde porque cuando lo intentaron el barco ya estaba completo. Tuvieron que viajar por separado, en un tren a Marsella y desde allí en el vapor postal Florida, que llegó a Montevideo dos días antes que el Conte Verde.
+
+Con las tres selecciones a bordo, además del propio Jules Rimet y de los tres árbitros designados para la fase final del torneo —los belgas John Langenus y Henri Christophe, y un parisino llamado Thomas Balvay del que la FIFA nunca pudo confirmar si era inglés o francés—, el barco zarpó hacia el Atlántico Sur. Rimet llevaba en su camarote, en una caja de madera forrada, la Copa que años antes había encargado al escultor Abel Lafleur y que entonces se llamaba simplemente la Coupe du Monde. Décadas después, en 1946, la FIFA la rebautizaría con el nombre de su impulsor.
+
+La travesía fue larga. Los entrenamientos se hicieron en cubierta, en una zona habilitada para el ejercicio físico. Los rumanos compartían tablero de ajedrez con los franceses. Los belgas, los más retraídos, comieron por separado durante los primeros días. La temperatura subió en la zona ecuatorial y el equipo médico francés tuvo que tratar mareos persistentes en varios jugadores. Cuando el Conte Verde hizo escala en Río de Janeiro, el 29 de junio, subió la cuarta selección de la travesía: Brasil. La selección brasileña aprovechó las dos jornadas hasta Montevideo para hacer un pequeño campamento de aclimatación con los europeos.
+
+El barco atracó en el puerto de Montevideo el 4 de julio de 1930, nueve días antes de que arrancara el torneo. Las tres selecciones europeas y la brasileña desembarcaron en orden, escoltadas por una muchedumbre uruguaya que aplaudió en el muelle. Rimet bajó con la copa envuelta en papel de seda. Trece días más tarde, el 30 de julio, esa misma copa volvía a subir al podio del Estadio Centenario en manos de José Nasazzi, capitán uruguayo, después de que el equipo charrúa derrotara 4-2 a Argentina en la primera final mundial. El SS Conte Verde, mientras tanto, ya había emprendido el viaje de regreso. Dos años más tarde, su naviera quebró por la crisis del 29. El barco siguió en activo bajo otra empresa hasta 1943, cuando se hundió en Shanghái durante la Segunda Guerra Mundial. La travesía que hizo posible el primer Mundial es probablemente la página menos contada de la historia del fútbol.`,
+  },
 ];
 
 // ───────────────────────────────────────────────────────────
