@@ -73,6 +73,246 @@ export type NewsItem = {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'shakira-dai-dai-cancion-oficial-mundial-2026-burna-boy',
+    title:
+      '«Dai Dai»: Shakira firma el himno oficial del Mundial 2026 con Burna Boy 16 años después de «Waka Waka»',
+    summary:
+      'Shakira vuelve al himno mundialista 16 años después de «Waka Waka». Su nueva canción se llama «Dai Dai», la firma con el nigeriano Burna Boy y la presentó el 7 de mayo en un teaser grabado en el Maracaná. Estreno completo el 14 de mayo. Convive con «Love Always Wins» de Estefan, ahora reposicionada como banda sonora promocional latina.',
+    body: `**El regreso 16 años después.** Shakira oficializó la noche del 7 de mayo de 2026 su segundo himno oficial para una Copa del Mundo: «Dai Dai», una colaboración con el cantante nigeriano Burna Boy producida con el sello FIFA. La pieza se estrena por completo el 14 de mayo en plataformas de streaming, dejando un teaser de un minuto disponible desde el día del anuncio. Es la primera canción oficial de FIFA que firma Shakira desde «Waka Waka (This Time for Africa)» en Sudáfrica 2010, un tema que vendió más de cuatro millones de copias y se convirtió en uno de los temas comerciales más exitosos del catálogo mundialista.
+
+**Dónde y con quién.** El videoclip de presentación está grabado en el Estadio Maracaná de Río de Janeiro, no en una sede del Mundial 2026. La elección, fuera de protocolo (los himnos suelen presentarse en el país anfitrión o en estudio neutro), refuerza el pulso latino que FIFA ha impreso al torneo norteamericano. Burna Boy, ganador de un Grammy y figura clave de la fusión afrobeats global, aparece junto a Shakira en una coreografía con bailarines internacionales. La fusión musical mezcla reggaetón, afrobeats y percusión brasileña, con letra en español e inglés.
+
+**El nombre.** «Dai dai» es una expresión italiana que significa «vamos, vamos» y se usa en estadios europeos como cántico de aliento. La elección rompe con la tradición de títulos en español o en inglés americano y apunta directamente al mercado europeo del fútbol, no al norteamericano. Es una pista de que FIFA quiere que el himno funcione tanto en USA como en Italia, Inglaterra o Alemania.
+
+**Coexistencia con «Love Always Wins».** Este sitio publicó el 1 de mayo una nota sobre Emilio Estefan firmando «Love Always Wins» como canción del Mundial. La diferencia se aclara ahora: «Love Always Wins» queda como pieza promocional latina de la banda sonora oficial, mientras «Dai Dai» asume el rol de himno oficial global de FIFA. Es el modelo Qatar 2022, donde «Hayya Hayya» fue el himno mundial y otros temas circularon a nivel regional.`,
+    category: 'ceremonia',
+    sourceName: 'Olympics.com',
+    sourceUrl:
+      'https://www.olympics.com/en/news/shakira-2026-fifa-world-cup-anthem-dai-dai-teaser',
+    sourceLang: 'en',
+    publishedAt: '2026-05-08T10:00:00+00:00',
+    sourcesSecondary: [
+      {
+        name: 'Billboard',
+        url: 'https://www.billboard.com/music/latin/shakira-dai-dai-2026-fifa-world-cup-song-burna-boy-teaser-1236241647/',
+      },
+      {
+        name: 'Euronews',
+        url: 'https://www.euronews.com/culture/2026/05/08/dai-dai-shakira-teases-official-world-cup-2026-anthem',
+      },
+      {
+        name: 'Yahoo Sports',
+        url: 'https://sports.yahoo.com/articles/shakira-announces-long-awaited-fifa-170219112.html',
+      },
+      {
+        name: 'ESPN UK',
+        url: 'https://www.espn.co.uk/football/story/_/id/48710188/shakira-unveils-teaser-official-world-cup-anthem-burna-boy',
+      },
+    ],
+    image: {
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/2023-11-16_Gala_de_los_Latin_Grammy,_03_(cropped)02.jpg?width=1200',
+      alt: 'Shakira en la Gala de los Latin Grammy 2023, autora del himno oficial del Mundial 2026 «Dai Dai»',
+      credit: 'Foto: Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'mundial-2026-entradas-disponibilidad-17-partidos-agotados-mayo',
+    title:
+      '17 partidos agotados, 80 aún con stock: el mapa real de las entradas del Mundial 2026 a un mes del kickoff',
+    summary:
+      'A un mes del torneo, FIFA confirma 17 partidos de fase de grupos agotados, entre ellos el inaugural México-Sudáfrica, Brasil-Marruecos en MetLife y Escocia-Brasil en Miami. Más de 80 partidos siguen con stock en fase 4. Categoría 3 más asequible: 380 dólares en siete encuentros concretos. La más cara de la fase de grupos: 4.105 dólares para USA-Paraguay del 12 de junio en SoFi.',
+    body: `**El cuadro a un mes vista.** A pocas semanas del partido inaugural en el Estadio Azteca, FIFA mantiene activa la fase 4 (Last-Minute Sales) con un escenario mixto: 17 de los 72 partidos de fase de grupos están oficialmente agotados, mientras que más de 80 partidos siguen con inventario en fifa.com/tickets, según los datos publicados por la organización a principios de mayo. La paradoja explícita: Infantino dijo en enero que la demanda equivalía a «mil años de Copas del Mundo a la vez», y aun así hay disponibilidad amplia.
+
+**Los partidos agotados.** Entre los confirmados como sold out figuran los tres partidos de México (incluido el inaugural ante Sudáfrica, México-Corea del Sur en Guadalajara y México-Chequia en CDMX), Türkiye-USA en Los Ángeles, Brasil-Marruecos en MetLife (Nueva York/NJ) y Escocia-Brasil en Miami. La mayoría son partidos con anfitrión local, partidos de cabezas de serie con grandes diásporas en USA, o duelos morbosos como el Brasil de Vinícius Jr.
+
+**Los más caros, los más baratos.** El asiento más asequible disponible al público parte de 380 dólares y está reservado a siete partidos concretos: Austria-Jordania, Nueva Zelanda-Egipto, Jordania-Argelia, Cabo Verde-Arabia Saudí, Argelia-Austria, RD del Congo-Uzbekistán y Curaçao-Costa de Marfil. En el otro extremo, USA-Paraguay del 12 de junio en SoFi Stadium (partido inaugural compartido) llega a 4.105 dólares en Cat. 1 — el partido más caro de fase de grupos, por encima incluso de Argentina-Austria (2.925 USD), Ecuador-Alemania (2.550) y Uruguay-España (2.520).
+
+**Eliminatorias y final.** La semifinal en Atlanta se vende a 9.660 dólares en Cat. 1 frontal. La final del 19 de julio (MetLife) parte de 1.490 dólares en Cat. 3, llega oficialmente hasta 7.875 USD en Cat. 1, sube a 10.990 dólares en la nueva categoría Front 1 (frontal premium) y, en la plataforma de reventa oficial FIFA, ha aparecido marcada hasta los 2,3 millones de dólares por unidad. La hospitality oficial (paquetes premium en hospitality.fifa.com) sigue disponible para más de 100 partidos.
+
+**Cómo funciona la fase 4.** Desde el 1 de abril, FIFA libera lotes de inventario por orden de llegada (no por sorteo) cada vez que aparece nueva disponibilidad — sea por liberaciones del propio inventario, por entradas devueltas o por reventa oficial. La compra es por orden cronológico de llegada y los precios son dinámicos, ajustándose en tiempo real según la demanda de cada partido.`,
+    category: 'entradas',
+    sourceName: 'Yahoo Sports',
+    sourceUrl:
+      'https://sports.yahoo.com/soccer/article/fifa-claims-to-have-508-million-requests-for-7-million-available-tickets-so-why-are-plenty-of-tickets-still-available-235241494.html',
+    sourceLang: 'en',
+    publishedAt: '2026-05-08T09:00:00+00:00',
+    sourcesSecondary: [
+      {
+        name: 'FIFA · Last-Minute Sales fase 4',
+        url: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/last-minute-tickets-sales-phase-to-start-on-1-april',
+      },
+      {
+        name: 'FIFA · ticket drop 22 abril',
+        url: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/last-minute-sales-phase-new-ticket-drop-22-april',
+      },
+      {
+        name: 'FOX LA · pricing strategy backlash',
+        url: 'https://www.foxla.com/news/world-cup-2026-ticket-prices-fifa-strategy',
+      },
+      {
+        name: 'Líder en Deportes · entradas primeros partidos',
+        url: 'https://www.liderendeportes.com/noticias/futbol/internacional-football/mundial-2026-entradas-para-los-primeros-partidos-siguen-a-la-venta/',
+      },
+      {
+        name: 'El Mañana · precios hasta 4.105 USD',
+        url: 'https://www.elmanana.com/deportes/futbol/precios-de-entradas-mundial-2026-hasta-4105-dolares/6127327',
+      },
+    ],
+    image: {
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/MetLife_Stadium_(36436248206).jpg?width=1200',
+      alt: 'MetLife Stadium en Nueva Jersey, sede de la final del Mundial 2026 y de Brasil-Marruecos (partido agotado)',
+      credit: 'Foto: Wikimedia Commons',
+      license: 'CC BY-SA 2.0',
+    },
+  },
+  {
+    slug: 'precios-entradas-mundial-2026-trump-fifa-fse-demanda-ue',
+    title:
+      'Trump, Football Supporters Europe y la reventa de 2,3 millones: la FIFA defiende los precios dinámicos del Mundial 2026',
+    summary:
+      'La FIFA encara una doble ofensiva por los precios dinámicos del Mundial 2026. El 7 de mayo Donald Trump dijo que «yo tampoco los pagaría» refiriéndose a los mil dólares por USA-Paraguay del 12 de junio. Football Supporters Europe ha presentado denuncia formal ante la Comisión Europea por precios «abusivos». La reventa oficial llegó a marcar 2,3 millones de dólares por una entrada de la final.',
+    body: `**La doble ofensiva contra el precio dinámico.** La FIFA aplica por primera vez en una Copa del Mundo el sistema de dynamic pricing: cada entrada ajusta su precio en tiempo real según demanda, selecciones, sede y momento de compra. La fase 4 de venta (Last-Minute Sales) lleva activa desde el 1 de abril y ha disparado los precios de los partidos calientes muy por encima de la tabla oficial publicada por FIFA. El 7 de mayo, dos voces muy distintas confluyeron en la misma crítica.
+
+**Donald Trump: «yo tampoco los pagaría».** El presidente estadounidense, anfitrión moral del torneo, criticó públicamente los precios al ser preguntado por el partido inaugural compartido USA-Paraguay del 12 de junio en el SoFi Stadium de Los Ángeles. Dijo, textualmente, que ni él pagaría los mil dólares que cuesta hoy una entrada de categoría media para ese partido. La declaración, recogida por Tribuna y El Universal, llega tres días antes del cierre del plazo de listas y a un mes del inicio del torneo.
+
+**Football Supporters Europe demanda en Bruselas.** Más estructurada y potencialmente más seria es la ofensiva legal: la organización Football Supporters Europe (FSE), que agrupa a federaciones de aficionados de toda la UE, ha presentado denuncia formal ante la Comisión Europea calificando la estructura de precios como «abusiva» y como una «traición monumental» al modelo histórico del fútbol como deporte popular. La FSE pide a Bruselas que investigue si el sistema vulnera la regulación europea de prácticas comerciales.
+
+**El dato más comentado: 2,3 millones de dólares.** En la plataforma oficial de reventa de FIFA llegó a aparecer una entrada de la final del 19 de julio (MetLife Stadium) a 2,3 millones de dólares estadounidenses. En la venta directa, las categorías 1 de la final superan los 6.730-7.875 dólares, mientras que las más asequibles parten de 1.490 dólares (Cat. 3). Para comparar: la entrada media de fase de grupos en Qatar 2022 era de 105 dólares; en Norteamérica 2026 parte de 120 dólares en categoría 3 de las sedes con menor demanda.
+
+**La defensa de Infantino.** Gianni Infantino, presidente de FIFA, ha defendido el modelo argumentando que responde a las condiciones del mercado de entretenimiento estadounidense, donde los precios variables son habituales en NBA, NFL y conciertos. La organización ha insistido en que el Supporter Tier de 60 dólares (reservado a Fan Clubs oficiales de las selecciones) sigue siendo la vía asequible para aficionados acreditados.`,
+    category: 'polemica',
+    sourceName: 'Infobae · Estados Unidos',
+    sourceUrl:
+      'https://www.infobae.com/estados-unidos/2026/05/07/entradas-de-hasta-usd-23-millones-la-fifa-defendio-los-precios-de-los-tickets-para-el-mundial-2026/',
+    sourceLang: 'es',
+    publishedAt: '2026-05-08T08:00:00+00:00',
+    sourcesSecondary: [
+      {
+        name: 'Tribuna México · Trump critica',
+        url: 'https://tribuna.com.mx/mundo/2026/05/07/donald-trump-critica-altos-precios-de-boletos-para-el-mundial-2026-en-estados-unidos_527672/',
+      },
+      {
+        name: 'El Universal Colombia · Trump',
+        url: 'https://www.eluniversal.com.co/deportes/2026/05/07/la-polemica-declaracion-de-donald-trump-sobre-entradas-del-mundial-no-pagaria/',
+      },
+      {
+        name: 'Primicias Ecuador · ley del mercado dinámico',
+        url: 'https://www.primicias.ec/deportes/mundial-2026/fifa-ley-oferta-demanda-mercado-dinamico-reventa-precios-venta-entradas-partidos-estadios-122067/',
+      },
+      {
+        name: 'Emol Chile · polémica entradas',
+        url: 'https://www.emol.com/noticias/Deportes/2026/05/07/1199321/polemica-entradas-mundal.html',
+      },
+      {
+        name: 'Prensa Libre · Trump',
+        url: 'https://www.prensalibre.com/deportes/futbol-internacional/yo-tampoco-los-pagaria-trump-critica-los-precios-de-boletos-para-la-copa-mundial-del-2026/',
+      },
+    ],
+    image: {
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Official_Presidential_Portrait_of_President_Donald_J._Trump_(2025)_(cropped)(2).jpg?width=1200',
+      alt: 'Donald Trump, presidente de Estados Unidos y anfitrión moral del Mundial 2026, criticó públicamente los precios de las entradas',
+      credit: 'Retrato presidencial oficial 2025 · Wikimedia Commons',
+      license: 'Dominio público (obra del gobierno federal de EE. UU.)',
+    },
+  },
+  {
+    slug: 'mundial-2026-entradas-estafas-4000-dominios-sospechosos-profeco',
+    title:
+      'La cara oscura del Mundial 2026: 4.000 dominios sospechosos detectados y alerta global por estafas con entradas',
+    summary:
+      'Check Point ha detectado más de 4.000 dominios web vinculados al Mundial 2026 creados para fraudes con boletos, transmisión ilegal y productos falsificados. La PROFECO mexicana emitió alerta a finales de abril. FIFA insiste: cualquier oferta fuera de fifa.com/tickets es estafa. Las modalidades más detectadas: webs que imitan al sitio oficial, ofertas en redes sociales y paquetes turísticos a precio sospechosamente bajo.',
+    body: `**El otro lado del Mundial.** Mientras FIFA defiende sus precios dinámicos en pleno escándalo público y libera lotes semanales de entradas en fase 4, la cara oscura del torneo se mueve a otra velocidad. La empresa de ciberseguridad Check Point Software Technologies informó que en apenas dos meses se han registrado más de 4.000 dominios web vinculados al Mundial 2026. La mayoría no son sitios legítimos de información o turismo: están diseñados para fraudes de boletos, transmisión ilegal de partidos y venta de productos falsificados.
+
+**Las modalidades más detectadas.** Los ciberdelincuentes operan en tres frentes principales. **Webs falsas que imitan a fifa.com/tickets**: usan extensiones .com, .online, .shop, .store y .football, copian el diseño oficial y capturan datos de tarjeta cuando el comprador intenta «comprar entradas» a precio asequible. **Ofertas en redes sociales**: posts pagados en Instagram, Facebook y X con precios «especiales» que llevan a chats privados de Telegram o WhatsApp donde piden transferencias bancarias inmediatas. **Paquetes turísticos sospechosos**: agencias inexistentes que venden vuelo + hotel + entrada por debajo del precio de la entrada oficial sola.
+
+**PROFECO México alerta.** La Procuraduría Federal del Consumidor mexicana emitió a finales de abril una alerta formal por el incremento en el número de denuncias por estafa con boletos del Mundial. En el territorio mexicano la reventa de boletos está prohibida, lo que añade una capa legal: comprar a un revendedor en México no solo es arriesgado, también puede ser sancionable.
+
+**FIFA, oficial y único.** La organización repite el mismo mensaje desde febrero de 2026: el único canal oficial es **fifa.com/tickets**. Cualquier otra fuente —incluso sitios que parezcan «socios» o «aliados»— está fuera del sistema. FIFA tiene además una plataforma oficial de reventa dentro de fifa.com/tickets, que es la única forma legal y segura de comprar entradas usadas. Webs de terceros como StubHub o Viagogo no están autorizadas: el ticket puede ser cancelado en la entrada del estadio.
+
+**Cómo no caer.** Las recomendaciones de las autoridades son consistentes: desconfiar de precios demasiado bajos o promociones urgentes, no comprar desde enlaces enviados por redes sociales o mensajería privada, no transferir dinero a cuentas particulares, no compartir códigos de verificación bancarios. Y, ante la duda, comprobar el dominio: el oficial es exactamente **fifa.com/tickets**, sin guiones, sin subdominios extraños, con candado SSL. Cualquier otra cosa, no.`,
+    category: 'polemica',
+    sourceName: 'Infobae · Tecno',
+    sourceUrl:
+      'https://www.infobae.com/tecno/2025/10/06/la-otra-cara-de-la-copa-mundial-fifa-2026-cibercriminales-robando-y-mas-de-4000-dominios-sospechosos/',
+    sourceLang: 'es',
+    publishedAt: '2026-05-08T06:00:00+00:00',
+    sourcesSecondary: [
+      {
+        name: 'PROFECO México · alerta estafas (Informador)',
+        url: 'https://www.informador.mx/deportes/mundial-2026-profeco-lanza-alerta-por-incremento-de-estafas-en-venta-de-boletos-20260423-0218.html',
+      },
+      {
+        name: 'Infobae · cómo operan los ciberdelincuentes',
+        url: 'https://www.infobae.com/tecno/2026/03/04/autoridades-alertan-por-fraudes-con-boletos-del-mundial-2026-como-operan-los-ciberdelincuentes/',
+      },
+      {
+        name: 'Semana · truco de los delincuentes',
+        url: 'https://www.semana.com/tecnologia/articulo/mucho-ojo-con-las-entradas-del-mundial-2026-expertos-lanzan-alerta-sobre-el-truco-que-estan-usando-delincuentes-para-estafar/202600/',
+      },
+      {
+        name: 'Sports Illustrated MX · boletos falsos',
+        url: 'https://www.si.com/mx/futbol/estafa-en-juego-advierten-sobre-boletos-falsos-para-el-mundial-2026',
+      },
+      {
+        name: 'Global Rescue · scams Mundial 2026',
+        url: 'https://www.globalrescue.com/common/blog/detail/2026-fifa-world-cup-scams',
+      },
+    ],
+    image: {
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Computer_security.jpg?width=1200',
+      alt: 'Imagen genérica de ciberseguridad. Check Point detectó más de 4.000 dominios sospechosos vinculados al Mundial 2026',
+      credit: 'Foto: Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'lista-provisional-mundial-2026-fecha-tope-11-mayo-fifa',
+    title:
+      'Esta semana se cierra la lista provisional del Mundial 2026: cuándo dará España la suya y cómo lo hará la FIFA',
+    summary:
+      'Las 48 selecciones tienen hasta el lunes 11 de mayo para entregar a la FIFA la lista provisional de 35 a 55 jugadores, con 5 porteros mínimo. La RFEF la dará públicamente en Las Rozas. Argentina, Brasil, Francia y Portugal preparan anuncios entre el 9 y el 13 de mayo. La definitiva (23-26 jugadores) se cierra el 1 de junio, diez días antes del kickoff en el Estadio Azteca.',
+    body: `**El plazo se cierra el lunes.** Las 48 federaciones que disputarán el Mundial 2026 tienen hasta el final del 11 de mayo (lunes) para entregar a la FIFA la lista provisional —el llamado release list— compuesta por entre 35 y 55 jugadores, con un mínimo obligatorio de cinco porteros. Es una lista interna que la FIFA no hace pública, aunque la mayoría de federaciones aprovecha esos días para anunciar su prelista en rueda de prensa local. Es el punto de partida del calendario oficial de convocatorias publicado por FIFA.
+
+**La RFEF, en Las Rozas.** En España, la Real Federación Española de Fútbol publicará tradicionalmente su prelista en Las Rozas a inicios de mayo. La fecha exacta no está confirmada, pero el patrón histórico (1998, 2010, 2018, 2022) apunta a una rueda de prensa entre el 5 y el 11 de mayo, antes del cierre FIFA. La selección de Luis de la Fuente está en el Grupo H, junto a Uruguay, Arabia Saudí y Cabo Verde. El primer partido es el 15 de junio contra Cabo Verde en Atlanta.
+
+**Argentina, Brasil, Francia y Portugal.** Lionel Scaloni había presentado el 18 de marzo la última prelista previa antes del Mundial; ahora afina los detalles para entregar el listado oficial entre el 9 y el 13 de mayo. La CBF dará la lista provisional brasileña el 18 de mayo, según anuncio de Carlo Ancelotti del 29 de abril. Francia (Didier Deschamps en Clairefontaine) y Portugal (Roberto Martínez en Cidade do Futebol) cerrarán los suyos en la primera quincena de mayo. La lista definitiva, con entre 23 y 26 jugadores y 3 porteros obligatorios, se entrega entre el 25 de mayo y el 1 de junio.
+
+**El calendario completo.** El día siguiente al cierre definitivo (martes 2 de junio) FIFA dará a conocer los nombres de los 1.248 jugadores que disputarán el Mundial. Hasta 24 horas antes del primer partido del equipo, FIFA permite sustituir a un jugador convocado por lesión certificada por un médico de la federación y un médico FIFA. Una vez disputado el primer partido, no se admiten sustituciones: el equipo termina el torneo con los jugadores aptos restantes.
+
+**Lo que cambia respecto a 2022.** El tope de 26 jugadores —elevado por excepción durante Qatar 2022 por la pandemia y la cercanía con la temporada europea— se mantiene en 2026. Es la primera vez que se aplica en condiciones normales y con la nueva ronda de dieciseisavos añadida al calendario. La justificación: 48 selecciones, un torneo de 39 días en lugar de 32, y un partido extra por equipo eliminado en R32.`,
+    category: 'convocatorias',
+    sourceName: 'Olympics.com · FIFA',
+    sourceUrl:
+      'https://www.olympics.com/en/news/fifa-world-cup-2026-deadlines-national-team-squad-announcements',
+    sourceLang: 'en',
+    publishedAt: '2026-05-08T07:00:00+00:00',
+    sourcesSecondary: [
+      {
+        name: 'AFA · convocatorias Mundial 2026',
+        url: 'https://www.afa.com.ar/es/posts/todo-sobre-las-listas-de-convocatorias-de-la-copa-mundial-2026',
+      },
+      {
+        name: 'FIFA.com · listas convocatorias',
+        url: 'https://www.fifa.com/es/tournaments/mens/worldcup/canadamexicousa2026/articles/listas-convocatorias-copa-mundial-2026-cuantos-jugadores-cuando-se-entregan',
+      },
+      {
+        name: 'Sports Illustrated ES · fechas listas definitivas',
+        url: 'https://www.si.com/es-us/futbol/cuando-se-conoceran-las-listas-definitivas-del-mundial-2026-fechas-clave-de-las-convocatorias',
+      },
+      {
+        name: 'Infobae · Scaloni lista marzo',
+        url: 'https://www.infobae.com/deportes/2026/03/18/lionel-scaloni-dio-a-conocer-la-ultima-lista-de-la-seleccion-argentina-antes-del-mundial-2026-con-varias-sorpresas/',
+      },
+    ],
+    image: {
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/FIFA_logo_without_slogan.svg?width=1200',
+      alt: 'Logo de la FIFA, organismo que cierra el plazo de listas provisionales del Mundial 2026 el 11 de mayo',
+      credit: 'FIFA · vía Wikimedia Commons',
+      license: 'Trademark fair use',
+    },
+  },
+  {
     slug: 'lego-mundial-2026-coleccion-9-sets-messi-ronaldo-mbappe-vinicius',
     title:
       'LEGO presenta su colección Mundial 2026: nueve sets con Messi, Ronaldo, Mbappé y Vinícius Jr. desde 24,99 dólares',
