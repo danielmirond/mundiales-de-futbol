@@ -153,7 +153,46 @@
   "pages": {
     "wc2026": {
       "title": "Coupe du Monde 2026 · Calendrier complet, stades, groupes et horaires",
-      "description": "Coupe du Monde 2026 (USA, Mexique, Canada) : calendrier complet des 104 matchs, 16 stades et 12 groupes. Date de début et date de la finale."
+      "description": "Coupe du Monde 2026 (USA, Mexique, Canada) : calendrier complet des 104 matchs, 16 stades et 12 groupes. Date de début et date de la finale.",
+      "dashboard": {
+        "nextMatch": {
+          "heading": "Prochain match",
+          "opener": "Match d'ouverture",
+          "days": "jours",
+          "hours": "heures",
+          "minutes": "min",
+          "seconds": "sec",
+          "cta": "Voir la fiche du match"
+        },
+        "mySelection": {
+          "heading": "Ma sélection",
+          "placeholder": "Choisissez votre équipe favorite",
+          "choose": "Votre équipe de la Coupe 2026",
+          "change": "Changer",
+          "group": "Groupe",
+          "seeProfile": "Voir la fiche de l'équipe",
+          "seeJersey": "Voir le maillot officiel 2026"
+        },
+        "hubs": {
+          "heading": "Cluster 2026",
+          "title": "Sous-hubs de la Coupe",
+          "calendar": "Calendrier par phase",
+          "groups": "Groupes A-L",
+          "venues": "Les 16 stades",
+          "tickets": "Billets",
+          "tv": "Où regarder",
+          "rosters": "Listes et effectifs"
+        },
+        "phases": {
+          "label": "Aller à la phase",
+          "group": "Groupes",
+          "r32": "32es",
+          "r16": "8es",
+          "qf": "Quarts",
+          "sf": "Demies",
+          "final": "Finale"
+        }
+      }
     },
     "dondeVer": {
       "title": "Où voir la Coupe du Monde 2026 en Espagne · DAZN, Movistar Plus+ et options gratuites",

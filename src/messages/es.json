@@ -153,7 +153,46 @@
   "pages": {
     "wc2026": {
       "title": "Mundial 2026 calendario completo · Sedes, grupos y horarios",
-      "description": "Mundial 2026 (USA, México, Canadá): calendario completo de los 104 partidos, 16 estadios, 12 grupos. Cuándo empieza y cuándo es la final."
+      "description": "Mundial 2026 (USA, México, Canadá): calendario completo de los 104 partidos, 16 estadios, 12 grupos. Cuándo empieza y cuándo es la final.",
+      "dashboard": {
+        "nextMatch": {
+          "heading": "Próximo partido",
+          "opener": "Partido inaugural",
+          "days": "días",
+          "hours": "horas",
+          "minutes": "min",
+          "seconds": "seg",
+          "cta": "Ver ficha del partido"
+        },
+        "mySelection": {
+          "heading": "Mi selección",
+          "placeholder": "Elige tu selección favorita",
+          "choose": "Tu selección del Mundial 2026",
+          "change": "Cambiar",
+          "group": "Grupo",
+          "seeProfile": "Ver ficha de la selección",
+          "seeJersey": "Ver camiseta oficial 2026"
+        },
+        "hubs": {
+          "heading": "Cluster 2026",
+          "title": "Sub-hubs del Mundial",
+          "calendar": "Calendario por fase",
+          "groups": "Grupos A-L",
+          "venues": "Las 16 sedes",
+          "tickets": "Entradas",
+          "tv": "Dónde ver",
+          "rosters": "Listas y plantillas"
+        },
+        "phases": {
+          "label": "Saltar a fase",
+          "group": "Grupos",
+          "r32": "32avos",
+          "r16": "Octavos",
+          "qf": "Cuartos",
+          "sf": "Semis",
+          "final": "Final"
+        }
+      }
     },
     "dondeVer": {
       "title": "Dónde ver el Mundial 2026 en España · DAZN, Movistar Plus+ y opciones gratis",
