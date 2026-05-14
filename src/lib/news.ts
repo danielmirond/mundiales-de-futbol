@@ -73,6 +73,147 @@ export type NewsItem = {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'suecia-lista-definitiva-26-mundial-2026-potter-isak-gyokeres-kulusevski-fuera',
+    title:
+      'Suecia se adelanta: Graham Potter publica los 26 definitivos del Mundial con Isak y Gyökeres dentro, Kulusevski fuera',
+    summary:
+      'La SvFF se convierte en la primera federación en saltarse el plazo de la prelista y anunciar directamente los 26 jugadores definitivos para el Mundial 2026. Graham Potter, ex Chelsea, mete a Alexander Isak (Liverpool, lesionado) y Viktor Gyökeres (Arsenal) en su primera gran convocatoria. Las bajas duras: Dejan Kulusevski (Tottenham) y Roony Bardghji (Barça). Suecia, 13ª participación mundialista, juega Grupo F contra Países Bajos, Japón y Túnez.',
+    body: `La Svenska Fotbollförbundet (SvFF) anunció este 12 de mayo los 26 jugadores definitivos que Suecia llevará al Mundial 2026, convirtiéndose en la primera federación del torneo en publicar la lista final apenas un día después del cierre del plazo para entregar la prelista de 55 nombres. La decisión, atribuida al estilo directo del seleccionador inglés Graham Potter —ex entrenador de Brighton y Chelsea, contratado por la SvFF en agosto de 2025 después del fracaso clasificatorio que casi se evita en el repechaje de marzo contra Ucrania y Polonia—, evita la fase de especulación pública que sí han alargado España, Brasil o Argentina.
+
+**El plantel**. El capitán es **Victor Lindelöf**, central del Aston Villa con 75 internacionalidades. **Alexander Isak** llega como jugador del Liverpool tras el fichaje récord de 130 millones de libras (el más caro de la historia del fútbol inglés). Potter lo incluye pese a una lesión muscular reciente. **Viktor Gyökeres**, fichado por el Arsenal el verano pasado por 65 millones desde el Sporting CP, completa la dupla.
+
+**Las bajas más comentadas**. **Dejan Kulusevski** (Tottenham) queda fuera tras doce meses marcados por lesiones recurrentes. **Roony Bardghji**, extremo de 20 años del Barça que ha disputado 26 partidos esta temporada, también queda fuera por «consideraciones de adaptación táctica» según comunicado SvFF.
+
+**Lo que viene**. Suecia disputará la 13ª participación mundialista de su historia (la última fue Rusia 2018, cuartos de final). Grupo F asequible: Países Bajos (favorita), Japón, Túnez. Debut el 17 de junio contra Países Bajos en el Estadio NRG de Houston.`,
+    category: 'convocatorias',
+    sourceName: 'Heavy.com Sports',
+    sourceUrl: 'https://heavy.com/sports/soccer/sweden-announces-squad-fifa-world-cup/',
+    sourceLang: 'en',
+    publishedAt: '2026-05-12T13:25:00Z',
+    sourcesSecondary: [
+      { name: 'Flashscore · Potter names 26-man Sweden squad', url: 'https://www.flashscore.com/news/soccer-world-cup-graham-potter-names-26-man-sweden-squad-for-the-world-cup/OjiHKnrg/' },
+      { name: 'Olympics.com · Sweden full squad list', url: 'https://www.olympics.com/en/news/fifa-world-cup-2026-sweden-great-escape-graham-potter-all-players-full-squad-list-key-stats-schedule' },
+      { name: 'Yahoo Sports · Official Sweden squad', url: 'https://sports.yahoo.com/articles/official-swedens-squad-world-cup-144500546.html' },
+      { name: 'Sweden Herald · Squad selected by Potter', url: 'https://swedenherald.com/article/swedens-world-cup-squad-26-players-selected-by-graham-potter' },
+      { name: 'Goal · Kulusevski misses out', url: 'https://www.goal.com/en-ca/lists/world-cup-dejan-kulusevski-injury-tottenham-sweden-viktor-gyokeres-alexander-isak/bltd56651aa57664624' },
+    ],
+  },
+  {
+    slug: 'prelista-espana-mundial-2026-de-la-fuente-55-yamal-pedri-rodri',
+    title:
+      'España manda su prelista a la FIFA: De la Fuente fija a Rodri, Pedri, Yamal y Olmo, no la hace pública',
+    summary:
+      'La RFEF entregó el lunes 11 de mayo a la FIFA la prelista de 55 jugadores de Luis de la Fuente para el Mundial 2026, sin publicarla. Es la primera vez que el documento es vinculante: cualquier sustitución por lesión deberá salir de esa lista. Fijos sin discusión: Rodri, Pedri, Zubimendi, Fabián Ruiz, Fermín, Dani Olmo, más Lamine Yamal, Nico Williams, Ferran Torres y Oyarzabal arriba. La convocatoria definitiva de 26 se anuncia el 25 de mayo.',
+    body: `La Federación Española de Fútbol envió el lunes 11 de mayo a la FIFA la prelista de 55 jugadores que Luis de la Fuente baraja para el Mundial 2026. A diferencia de Brasil, España optó por no hacerla pública. La razón oficial: no facilitar mapas de presión a los rivales del Grupo H (Cabo Verde, Arabia Saudí y Uruguay).
+
+**El cambio del reglamento**. La gran novedad del Mundial 2026 es que la prelista pasa a ser vinculante. Si Lamine Yamal o Rodri sufren una lesión en la última semana, De la Fuente solo podrá sustituirlos por uno de los 54 nombres restantes.
+
+**Los seis fijos centrales**. Rodri (Manchester City, Balón de Oro 2024, recuperado de cruzados), Pedri (Barça), Martín Zubimendi (Real Sociedad), Fabián Ruiz (PSG), Fermín López (Barça) y Dani Olmo (Barça). Es la base que ganó la Eurocopa 2024 más Pedri y Rodri recuperados.
+
+**La delantera intocable**. Lamine Yamal (Barça), Nico Williams (Athletic), Ferran Torres (Barça) y Mikel Oyarzabal (Real Sociedad). En portería: Unai Simón titular, David Raya suplente.
+
+**Las dudas reales**. La enorme presencia del Barça (9 jugadores) y la escasez del Real Madrid (apenas un nombre) es el tema editorial caliente. España anuncia los 26 definitivos el 25 de mayo. Debuta el 15 de junio contra Cabo Verde en Atlanta.`,
+    category: 'convocatorias',
+    sourceName: 'Infobae · España',
+    sourceUrl: 'https://www.infobae.com/espana/deportes/2026/05/11/luis-de-la-fuente-y-la-prelista-de-55-jugadores-que-tiene-que-entregar-a-la-fifa-de-ahi-saldran-los-26-convocados-de-la-seleccion-espanola-para-el-mundial-2026/',
+    sourceLang: 'es',
+    publishedAt: '2026-05-11T19:30:00Z',
+    sourcesSecondary: [
+      { name: 'Eurosport · Prelista enigmática de De la Fuente', url: 'https://www.eurosport.es/futbol/mundial/2026/espana-de-la-fuente-prelista-55-jugadores_sto23298860/story.shtml' },
+      { name: 'beIN Sports · Lesiones, dudas y base intocable', url: 'https://www.beinsports.com/es-us/football/copa-mundial-de-la-fifa-2026/articles/luis-de-la-fuente-define-su-prelista-con-espa%C3%B1a-para-la-copa-del-mundo-lesiones-dudas-y-una-base-casi-intocable-2026-05-12' },
+      { name: 'ElDesmarque · Fijos, dudas y posibles sorpresas', url: 'https://www.eldesmarque.com/futbol/mundial/20260511/prelista-espana-mundial-2026-dudas-fijos-posibles-sorpresas_18_019131728.html' },
+      { name: 'El Nacional · Catalanes y Barça', url: 'https://www.elnacional.cat/es/deportes/luis-fuente-manda-prelista-espana-mundial-2026-barca-catalanes_1638400_102.html' },
+    ],
+  },
+  {
+    slug: 'prelista-brasil-mundial-2026-ancelotti-55-neymar-vinicius-rodrygo-fuera',
+    title:
+      'Brasil envía la prelista del Mundial: Ancelotti rescata a Neymar y deja fuera a Rodrygo y Militão',
+    summary:
+      'La CBF entregó este lunes a la FIFA los 55 nombres de Carlo Ancelotti. La sorpresa: el italiano incluye a Neymar pese a su recuperación de ligamentos, busca su cuarto Mundial. Rodrygo, Éder Militão y la joya del Chelsea Estêvão se quedan fuera por lesión. Vinicius Jr. aparece sin dudas. La lista definitiva de 26 se anuncia el 18 de mayo en el Museo del Mañana de Río de Janeiro.',
+    body: `La Confederação Brasileira de Futebol envió el lunes 11 de mayo a FIFA la prelista de 55 jugadores que Carlo Ancelotti maneja para el Mundial 2026. Es la primera lista oficial bajo la dirección del entrenador italiano, contratado en mayo de 2025.
+
+**Neymar entra, contra toda predicción**. El delantero del Santos, recuperado de la rotura de ligamento cruzado y menisco sufrida en octubre de 2023, busca su cuarto Mundial (2014, 2018, 2022, 2026) y empatar el récord histórico brasileño que comparten Cafú, Ronaldo Nazário y Dida. La continuidad física de Neymar en las próximas dos semanas determinará si llega o no al corte final.
+
+**Las bajas más sentidas**. Rodrygo Goes (Real Madrid) queda fuera por una lesión muscular. Éder Militão tampoco entra. La noticia más comentada es la baja de Estêvão Willian, la joya del Chelsea de 17 años: lesión de grado 4 en el muslo derecho.
+
+**Lo que sí está**. Vinicius Jr. encabeza la delantera. Le acompañan Raphinha (Barça), Endrick (Real Madrid), Antony (Manchester United) y João Pedro (Brighton). El portero titular: Alisson (Liverpool). Brasil concentra a los 26 elegidos en la Granja Comary el 27 de mayo. Debut: 13 de junio contra Marruecos en el MetLife Stadium de Nueva Jersey.`,
+    category: 'convocatorias',
+    sourceName: 'Infobae · Deportes',
+    sourceUrl: 'https://www.infobae.com/deportes/2026/05/11/ancelotti-presento-la-prelista-de-la-seleccion-de-brasil-de-cara-al-mundial-2026-la-baja-sorpresiva-y-el-guino-a-neymar/',
+    sourceLang: 'es',
+    publishedAt: '2026-05-11T18:00:00Z',
+    sourcesSecondary: [
+      { name: '442 (Perfil) · Neymar adentro, Rodrygo afuera', url: 'https://442.perfil.com/noticias/mundial-2026/neymar-adentro-rodrygo-afuera-las-sorpresas-de-ancelotti-en-la-prelista-de-brasil-para-el-mundial-2026-a35.phtml' },
+      { name: 'El Gráfico · Carlo Ancelotti define el camino', url: 'https://www.elgrafico.com.ar/articulo/mundial-2026/99856/carlo-ancelotti-define-el-camino-de-brasil-sorpresas-regresos-y-bajas-de-peso-en-la-prelista-para-el-mundial-2026' },
+      { name: '365Scores · Lista de 55 jugadores Brasil 2026', url: 'https://www.365scores.com/es/news/brasil-pre-lista-convocados-mundial/' },
+    ],
+  },
+  {
+    slug: 'prelista-argentina-mundial-2026-scaloni-55-messi-dybala-fuera-mastantuono-echeverri',
+    title:
+      'Argentina entrega su prelista del Mundial: Messi sí, Dybala no, Mastantuono y Echeverri irrumpen',
+    summary:
+      'La AFA envió este lunes a la FIFA los 55 nombres de Lionel Scaloni. Messi entra rumbo a su último Mundial, acompañado por 20 campeones de Qatar 2022. Las bajas dolorosas: Dybala (40 caps), Ángel Correa (Tigres) y Valentín Castellanos (West Ham). Las sorpresas: Franco Mastantuono (Real Madrid) y Claudio Echeverri (Girona) entran con menos de 20 años. La lista definitiva de 26 se anuncia antes del 30 de mayo.',
+    body: `La Asociación del Fútbol Argentino entregó el lunes 11 de mayo a la FIFA la prelista de 55 jugadores que Lionel Scaloni maneja para el Mundial 2026. Completa la tríada del mismo día con Brasil y España.
+
+**Messi confirmado**. Lionel Messi entra en la prelista en lo que se anticipa como su último Mundial. El capitán cumplirá 39 años el 24 de junio, en plena fase de grupos. Si entra en la lista de 26, se convertirá en el primer jugador con seis Mundiales disputados en la historia del fútbol (Carbajal, Matthäus, Buffon, Ronaldo Nazário y Casillas/Márquez comparten el récord de 5).
+
+**20 campeones de Qatar 2022** acompañan a Messi: Emiliano Martínez (Aston Villa), Cuti Romero (Tottenham), Otamendi (Benfica), Lisandro Martínez (Manchester United), De Paul (Atlético), Enzo Fernández (Chelsea), Mac Allister (Liverpool), Julián Álvarez (Manchester City), Lautaro Martínez (Inter) y Ángel Di María (Benfica).
+
+**Las bajas más comentadas**. Paulo Dybala (Roma, 40 internacionalidades, goleador final Copa América 2021) queda fuera. Ángel Correa (Tigres UANL) y Valentín Castellanos (West Ham) tampoco entran.
+
+**Las sorpresas generacionales**. Franco Mastantuono (Real Madrid, 18 años, fichaje 45M EUR en enero) y Claudio Echeverri (Girona, 18 años). 6 jugadores de River, 4 de Boca. Lista 26 definitiva antes del 30 de mayo. Debut: 16 de junio contra el ganador del repechaje intercontinental en el SoFi Stadium de Los Ángeles.`,
+    category: 'convocatorias',
+    sourceName: 'FIFA · Argentina lista 55 jugadores Copa Mundial 2026',
+    sourceUrl: 'https://www.fifa.com/es/tournaments/mens/worldcup/canadamexicousa2026/articles/argentina-lista-55-jugadores-copa-mundial-2026',
+    sourceLang: 'es',
+    publishedAt: '2026-05-11T17:00:00Z',
+    sourcesSecondary: [
+      { name: 'Infobae · 6 de River, 4 de Boca', url: 'https://www.infobae.com/deportes/2026/05/11/con-6-jugadores-de-river-y-4-de-boca-afa-anuncio-la-prelista-de-55-jugadores-de-la-seleccion-argentina-para-el-mundial/' },
+      { name: 'Ámbito · Scaloni presenta la prelista', url: 'https://www.ambito.com/deportes/mundial-2026-lionel-scaloni-presento-la-prelista-55-jugadores-la-seleccion-argentina-n6276122' },
+      { name: 'Goal · Messi named in provisional squad', url: 'https://www.goal.com/en-us/lists/lionel-messi-argentina-world-cup-squad-alejandro-garnacho-lisandro-martinez/blta1814607e6572f83' },
+      { name: 'La Nación · Los nombres de la prelista', url: 'https://www.lanacion.com.ar/deportes/futbol/la-prelista-de-55-jugadores-para-el-mundial-2026-estos-son-los-nombres-nid11052026/' },
+      { name: 'CNN Español · Seis campeones ausentes', url: 'https://cnnespanol.cnn.com/2026/05/11/deportes/prelista-seleccion-argentina-scaloni-mundial-orix' },
+    ],
+  },
+  {
+    slug: 'fifa-panini-collection-app-mundial-2026-coca-cola-album-digital',
+    title:
+      'FIFA y Panini lanzan la app oficial del álbum 2026 con Coca-Cola: 528 cromos digitales, escaneo de etiquetas y packs diarios gratis',
+    summary:
+      'La aplicación «FIFA Panini Collection by Coca-Cola» abre una pasarela digital al álbum oficial: 48 selecciones, 528 cromos de jugadores, logos, mascotas y trofeos. Cada día regala packs gratis a quien escanee etiquetas de Coca-Cola, sobres físicos Panini y portadas de álbum. Plazo para completar la colección: 30 de septiembre de 2026. iOS y Android.',
+    body: `FIFA y Panini activaron oficialmente la app «FIFA Panini Collection by Coca-Cola», su versión digital del álbum 2026, disponible desde esta semana en iOS y Android sin coste de descarga. Es la primera vez que el álbum oficial de un Mundial nace en paralelo en versión física y app desde el primer día, una integración acordada en el marco del contrato Panini-FIFA renovado en 2024 y reforzado con la sponsorship principal de Coca-Cola como Marketing Partner del torneo.
+
+**Lo que contiene**. 48 selecciones participantes, **528 cromos de jugadores** (11 por selección), además de **logos**, **mascotas** (Maple, Zayu y Clutch) y **trofeos** asociados al torneo.
+
+**Cómo se consiguen los packs**. La novedad respecto a colecciones digitales anteriores de Panini está en la integración multimarca: el usuario puede escanear con la cámara del teléfono tres tipos de elementos físicos para conseguir packs gratis cada día.
+
+- Etiquetas y latas de **Coca-Cola** con el branding FIFA 2026
+- **Sobres físicos** de Panini comprados en kiosco
+- **Portadas de álbum** Panini físico
+
+A esto se suman códigos promocionales puntuales que se reparten en campañas de **Panini, FIFA, Coca-Cola y McDonald's**.
+
+**Modelo de negocio**. La descarga es gratuita. La monetización clave está en los códigos físicos (mantiene la venta del álbum y sobres en kiosco) y, según fuentes consultadas, en futuras opciones de pago dentro de la app para acelerar la colección.
+
+**Plazo**. La colección estará viva hasta el **30 de septiembre de 2026**, fecha en que se cierran las recompensas y se publica la galería final.
+
+**Por qué importa**. La conversión generacional del álbum Panini al móvil llevaba años discutiéndose. Con esta app y el respaldo Coca-Cola, FIFA institucionaliza por primera vez un coleccionable digital con la misma marca que el coleccionable físico. Una hora de paseo por el supermercado escaneando etiquetas durante el verano puede equivaler a 60-80 sobres físicos gratis.`,
+    category: 'panini',
+    sourceName: 'FIFA · Panini Collection app',
+    sourceUrl: 'https://www.fifa.com/es/tournaments/mens/worldcup/canadamexicousa2026/articles/fifa-panini-coleccion-aplicacion-app',
+    sourceLang: 'es',
+    publishedAt: '2026-05-11T14:00:00Z',
+    sourcesSecondary: [
+      { name: 'App Store · FIFA Panini Collection', url: 'https://apps.apple.com/us/app/fifa-panini-collection/id6752864987' },
+      { name: 'Google Play · FIFA Panini Collection', url: 'https://play.google.com/store/apps/details?id=it.panini.fifacollection' },
+      { name: 'Coca-Cola US · FIFA Panini packs', url: 'https://www.coca-cola.com/us/en/offerings/fifa-world-cup-26/panini' },
+      { name: 'FIFA Collect · Panini hub', url: 'https://collect.fifa.com/pages/panini' },
+      { name: 'Panini America · World Cup 2026 sticker collection', url: 'https://www.paniniamerica.net/sticker-collections/sticker-collection/fifa-world-cup-2026tm.html' },
+    ],
+  },
+  {
     slug: 'shakira-dai-dai-cancion-oficial-mundial-2026-burna-boy',
     title:
       '«Dai Dai»: Shakira firma el himno oficial del Mundial 2026 con Burna Boy 16 años después de «Waka Waka»',
