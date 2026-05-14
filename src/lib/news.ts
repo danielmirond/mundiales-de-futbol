@@ -73,6 +73,71 @@ export type NewsItem = {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'mundial-2026-estadios-codigo-conducta-items-prohibidos-clear-bag-policy',
+    title:
+      'FIFA publica el código de conducta del Mundial 2026: clear bag única para los 16 estadios, 22 items prohibidos, sin selfie-sticks ni botellas llenas',
+    summary:
+      'FIFA ha publicado el documento oficial «Stadium Code of Conduct» que rige las 16 sedes del Mundial 2026 en USA, Canadá y México. Política unificada de bolsa transparente de 12×6×12 pulgadas, lista de 22 items prohibidos (drones, GoPro, palos selfie, banderas con asta, botellas llenas, megáfonos, bengalas) y derecho de admisión final reservado por FIFA. Las camisetas de selección y banderas sin asta sí están permitidas.',
+    body: `FIFA ha publicado el documento oficial del «Stadium Code of Conduct» que rige el acceso a las 16 sedes del Mundial 2026 en Estados Unidos, Canadá y México. La política, anunciada en el portal oficial del torneo y detallada en un PDF de FIFA Digital Hub, es el primer reglamento unificado para un Mundial repartido entre tres países anfitriones y marca una diferencia importante con el modelo descentralizado de Qatar 2022.
+
+**Clear bag policy unificada para los 16 estadios**. Por primera vez en la historia mundialista, las tres federaciones anfitrionas (US Soccer, Canada Soccer, FMF) acuerdan una política idéntica de bolsas. Solo se permiten bolsas **completamente transparentes** —de plástico, vinilo o PVC— con un tamaño máximo de **12 × 6 × 12 pulgadas** (aproximadamente 30 × 15 × 30 cm). Se permiten también clutch o monederos no transparentes pero «aproximadamente del tamaño de una mano», con un máximo de 4,5 × 6,5 pulgadas. Mochilas convencionales, riñoneras, bolsas opacas o de tela tienen que quedarse en el coche o en consigna externa. El objetivo declarado por FIFA es triple: acelerar las colas de entrada, permitir inspecciones visuales sin abrir bolsas y armonizar la operativa entre los tres países.
+
+**Los 22 items prohibidos**. La lista combina restricciones de seguridad clásicas con prohibiciones modernas vinculadas a la era de contenido digital. Quedan **expresamente prohibidos**:
+
+- **Tecnología audiovisual**: drones, GoPro y cámaras de acción, cámaras profesionales con lente desmontable, trípodes, monopods y **palos selfie**.
+- **Pirotecnia y ruido**: bengalas, fuegos artificiales, **megáfonos**, bocinas de aire (air horns), silbatos.
+- **Objetos lanzables**: globos, balones de playa, balones inflables y cualquier objeto que pueda lanzarse al césped.
+- **Banderas con asta**: las **banderas y pancartas con palo o asta** están prohibidas. Las banderas **sin asta**, llevadas con la mano o sobre los hombros, sí están permitidas.
+- **Bebidas y comida**: **botellas llenas** (sí se permiten reutilizables vacías que se rellenan dentro), **comida** preparada del exterior, **paraguas**.
+- **Otros**: armas (cualquier tipo), sustancias ilegales, láseres, **muñecos hinchables**, símbolos políticos no relacionados con el deporte.
+
+**Lo que sí entra**. Teléfono móvil, auriculares, **camisetas oficiales de cualquier selección** (sin restricción), **banderas sin asta**, **cargadores portátiles**, productos de higiene personal (gel hidroalcohólico incluido), **botellas reutilizables vacías**, sombreros, medicación personal con receta, asientos especiales si hay discapacidad documentada.
+
+**Camisetas, banderas y mensaje político**. El reglamento confirma que «las camisetas de selección están completamente permitidas y son parte normal de la experiencia del aficionado». Pero diferencia entre **fan expression** —cantos, banderas, gritos del bloque— y **mensaje político activo**. FIFA, los gobiernos locales y la operativa de cada estadio pueden retirar pancartas con mensaje político no deportivo a su discreción. La cláusula es deliberadamente amplia y ha generado preguntas de aficionados que llevan banderas Palestina-Israel o LGBT+: la respuesta oficial de FIFA es que «cada caso se evalúa en el momento» y la decisión final corresponde a stewards del estadio.
+
+**Cómo se aplica en cada país**. El reglamento es unificado **en lo esencial** (clear bag, 22 prohibidos, código de conducta). Pero la **legislación local prevalece** en lo demás: el alcohol está permitido en zonas reservadas en los 11 estadios de USA y los 2 de Canadá, pero **prohibido en todo el recinto** en los 3 estadios de México (Azteca, Akron y BBVA) por reglamento federal mexicano. Las palomitas y refrescos «oficiales» se gestionan por concesiones de cada estadio, con Coca-Cola y McDonald's como partners principales del torneo.
+
+**Sanciones por incumplimiento**. La sanción por entrar con item prohibido va desde decomiso simple (lo más habitual) hasta **expulsión del estadio sin reembolso** y, en casos graves (armas, sustancias ilegales, conducta violenta), denuncia a las autoridades locales del país anfitrión. La operativa de seguridad la coordinan **DHS, Public Safety Canada y SEGOB México**, cada uno en sus respectivas sedes.
+
+**Lo que se sabrá más cerca del torneo**. FIFA ha anunciado que el documento del Stadium Code of Conduct **se actualizará en mayo y junio** con instrucciones específicas por sede (puertas abiertas, política de equipaje en transporte público, coordinación con FIFA Fan Festivals). El aficionado que viaje al Mundial debe consultar la guía **«Know Before You Go»** específica de su sede en los días previos al partido.`,
+    category: 'sedes',
+    sourceName: 'The Athletic (NYT)',
+    sourceUrl:
+      'https://www.nytimes.com/athletic/7273489/2026/05/12/world-cup-stadium-code-of-conduct-prohibited-items/',
+    sourceLang: 'en',
+    publishedAt: '2026-05-12T18:00:00Z',
+    sourcesSecondary: [
+      {
+        name: 'FIFA · Stadium Code of Conduct (PDF oficial)',
+        url: 'https://digitalhub.fifa.com/m/50ebae81c412b7d5/original/FIFA-World-Cup-2026-Stadium-Code-of-Conduct.pdf',
+      },
+      {
+        name: 'FIFA Tickets · ¿Hay restricciones para entrar al estadio?',
+        url: 'https://gpcustomersupportfwc2026.tickets.fifa.com/hc/en-gb/articles/30198151350813-4-Are-there-restrictions-on-what-I-can-bring-into-the-stadium',
+      },
+      {
+        name: 'FIFA · Hospitality Miami · Know Before You Go',
+        url: 'https://fifaworldcup26.hospitality.fifa.com/know-before-you-go/miami',
+      },
+      {
+        name: 'Legit.ng · 22 items que FIFA prohíbe',
+        url: 'https://www.legit.ng/sports/football/1700988-food-umbrella-20-items-allowed-fifa-2026-world-cup-stadium/',
+      },
+      {
+        name: 'Football Ground Guide · banned items list',
+        url: 'https://footballgroundguide.com/news/world-cup-stadium-banned-items-list-what-you-can-and-cant-bring.html',
+      },
+      {
+        name: 'Football Ground Guide · camisetas, banderas y cánticos',
+        url: 'https://footballgroundguide.com/news/are-football-shirts-flags-or-chants-restricted-at-the-2026-world-cup.html',
+      },
+      {
+        name: 'World Cup Trackers · clear bag policy',
+        url: 'https://worldcuptrackers.com/what-bags-allowed-fifa-world-cup-2026-clear-bag-policy/',
+      },
+    ],
+  },
+  {
     slug: 'suecia-lista-definitiva-26-mundial-2026-potter-isak-gyokeres-kulusevski-fuera',
     title:
       'Suecia se adelanta: Graham Potter publica los 26 definitivos del Mundial con Isak y Gyökeres dentro, Kulusevski fuera',
