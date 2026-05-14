@@ -11,6 +11,7 @@
     "research:dry": "tsx --env-file-if-exists=.env.local scripts/research/report.ts --dry"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.96.0",
     "@radix-ui/react-dialog": "^1.1.15",
     "@radix-ui/react-dropdown-menu": "^2.1.16",
     "@radix-ui/react-navigation-menu": "^1.2.14",
@@ -31,6 +32,7 @@
     "react-dom": "19.2.4",
     "react-leaflet": "^5.0.0",
     "resend": "^6.12.0",
+    "rss-parser": "^3.13.0",
     "tailwind-merge": "^3.5.0",
     "tailwindcss-animate": "^1.0.7"
   },
