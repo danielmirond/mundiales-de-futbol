@@ -212,6 +212,20 @@
           "sf": "Semis",
           "final": "Final"
         }
+      },
+      "partido": {
+        "backToCalendar": "Calendario completo",
+        "matchNumber": "Partido {n}",
+        "localTime": "hora local",
+        "whereToWatch": "Dónde ver el partido",
+        "tickets": "Entradas oficiales",
+        "groupLabel": "Grupo",
+        "otherTeamsInGroup": "Las otras selecciones del grupo",
+        "sameDay": "Mismo día",
+        "otherMatchesToday": "Otros partidos de la jornada",
+        "teamJourney": "El camino de {team} en el Mundial",
+        "previousMatch": "Partido anterior",
+        "nextMatch": "Próximo partido"
       }
     },
     "dondeVer": {
