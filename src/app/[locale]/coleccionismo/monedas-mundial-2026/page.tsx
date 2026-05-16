@@ -1,9 +1,9 @@
 import Link from 'next/link';
 import { setRequestLocale } from 'next-intl/server';
-import { ArrowRight, Coins, ShieldCheck, Banknote } from 'lucide-react';
+import { ArrowRight, Coins, ShieldCheck, Banknote, ShoppingBag, Crown, Sparkles, Building2 } from 'lucide-react';
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl } from '@/lib/seo';
-import { COINS_MEXICO, COINS_CANADA, ALL_COINS, type CoinEdition } from '@/lib/wc-2026-coins';
+import { COINS_MEXICO, COINS_CANADA, ALL_COINS, CLUSTER_PAGES, type CoinEdition } from '@/lib/wc-2026-coins';
 
 function withLocale(locale: Locale, href: string) {
   if (locale === routing.defaultLocale) return href;
@@ -151,6 +151,37 @@ export default async function MonedasPillar({
               <div className="mt-1 text-sm text-[var(--color-fg-muted)]">{m.detail}</div>
             </div>
           ))}
+        </div>
+      </section>
+
+      {/* Sub-páginas del cluster */}
+      <section className="mx-auto mt-12 w-full max-w-[1100px] px-6 md:px-10">
+        <h2 className="font-display text-2xl uppercase">Explora el cluster</h2>
+        <div className="mt-5 grid gap-3 md:grid-cols-3">
+          {CLUSTER_PAGES.filter((p) => p.slug !== '').map((p) => {
+            const icons: Record<string, typeof ShoppingBag> = {
+              'donde-comprar': ShoppingBag,
+              precio: Banknote,
+              oro: Crown,
+              plata: Sparkles,
+              banxico: Building2,
+              canada: Coins,
+            };
+            const Icon = icons[p.slug] ?? Coins;
+            return (
+              <Link
+                key={p.slug}
+                href={withLocale(locale as Locale, p.path)}
+                className="group rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg-2)] p-5 transition-colors hover:border-[var(--color-pitch)]/60"
+              >
+                <Icon className="h-5 w-5 text-[var(--color-pitch)]" />
+                <div className="mt-3 font-display text-base uppercase">{p.title}</div>
+                <div className="mt-2 inline-flex items-center gap-1 font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--color-fg-subtle)] group-hover:text-[var(--color-pitch)]">
+                  Ver detalle <ArrowRight className="h-3 w-3 rtl:rotate-180" />
+                </div>
+              </Link>
+            );
+          })}
         </div>
       </section>
 
