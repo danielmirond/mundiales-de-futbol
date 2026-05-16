@@ -73,6 +73,60 @@ export type NewsItem = {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'banxico-12-monedas-conmemorativas-mundial-2026-mexico-bimetalicas-plata-oro-cdmx-guadalajara-monterrey',
+    title:
+      'Banxico lanza 12 monedas conmemorativas del Mundial 2026: 4 bimetálicas de $20, 4 de plata fina de $10 y 4 de oro de $25 dedicadas a CDMX, Guadalajara, Monterrey y México anfitrión',
+    summary:
+      'El Banco de México puso en circulación el 13 de mayo de 2026 una colección de 12 monedas conmemorativas del Mundial 2026 acuñadas por la Casa de Moneda de México. Bimetálicas $20 (5 millones por diseño), plata fina $10 (100.000 por diseño) y oro fino $25 (5.000 por diseño). Canadá emite además un loonie especial desde el 14 de mayo. Cluster completo en [/coleccionismo/monedas-mundial-2026](/coleccionismo/monedas-mundial-2026).',
+    body: `El **Banco de México (Banxico)** puso en circulación el martes 13 de mayo de 2026 una colección de **12 monedas conmemorativas** del Mundial 2026, acuñadas por la **Casa de Moneda de México**. Es la mayor emisión numismática mexicana en un evento deportivo desde el Mundial de México 1986, y se enmarca dentro de la estrategia de Banxico para celebrar el segundo Mundial que organiza el país (compartido en este caso con Estados Unidos y Canadá). Hemos publicado el cluster completo con las 13 monedas oficiales en [/coleccionismo/monedas-mundial-2026](/coleccionismo/monedas-mundial-2026).
+
+**Tres tipos de moneda, una arquitectura común**. La colección está formada por tres bloques de cuatro monedas cada uno, todos siguiendo la misma estructura temática: tres dedicadas a las ciudades sede mexicanas (**Ciudad de México**, **Guadalajara**, **Monterrey**) y una al país anfitrión en general.
+
+- **Bimetálicas de cuño corriente · $20 MXN**: la versión "popular" pensada para circular en el sistema bancario. Núcleo de cuproniquel y anillo de aluminio bronce. Tirada de 5 millones por diseño (20 millones en total). Estarán disponibles en bancos comerciales tres días hábiles después de su puesta en circulación.
+- **Plata fina · $10 MXN**: edición limitada en plata pura ley 0.999 con acabado proof (espejo), tirada de 100.000 piezas por diseño (400.000 en total). Valor de mercado real: ~60 USD por moneda según el precio actual de la plata + sobre-coste numismático.
+- **Oro fino · $25 MXN**: edición ultra-limitada en oro ley 0.999, peso ½ onza, acabado proof, tirada de **5.000 piezas por diseño** (20.000 en total). Valor de mercado: ~2.500 USD por moneda. La opción coleccionista premium.
+
+**Diseños emblemáticos por sede**. Cada moneda combina elementos identitarios de la ciudad sede con el simbolismo del Mundial. La de **Ciudad de México** representa el **Ángel de la Independencia** acompañado de un futbolista en posición de remate, integrando dos íconos máximos de la capital. La de **Guadalajara** muestra la escultura de la **Diosa Minerva** en su glorieta homónima del Paseo Chapultepec con un balón estilizado. La de **Monterrey** lleva la **Fuente de Crisol** del Paseo Santa Lucía con el **Cerro de la Silla** al fondo —los dos símbolos más reconocibles de la capital regiomontana. La cuarta moneda de cada serie ("México anfitrión") muestra un águila con un balón y el escudo oficial del Mundial 2026.
+
+**Dónde comprarlas**. Las bimetálicas de $20 llegan al sistema bancario regular a partir del 16-19 de mayo (tres días hábiles después de la circulación). Las versiones de plata y oro se venden a través de canales especializados: **Casa de Moneda de México** (tienda online y tienda física en CDMX), **Museo Interactivo de Economía (MIDE)** y distribuidores autorizados por Banxico. La lista actualizada de distribuidores está publicada en banxico.org.mx. Quienes quieran completar el set completo (12 piezas) tendrán que combinar bancos comerciales para las bimetálicas y canales numismáticos para plata y oro.
+
+**Canadá emite también su moneda**. La **Royal Canadian Mint** anunció el día siguiente, 14 de mayo, una emisión especial del **loonie de $1 CAD** con motivo del Mundial. La tirada total es de 3 millones de piezas: 1 millón en versión tradicional sin color y 2 millones en versión coloreada con un acabado tipo "popout" sobre el balón. Disponibles a través de bancos canadienses y la tienda online de la Royal Mint.
+
+**Estados Unidos: pendiente**. La **US Mint**, tercer organismo monetario del Mundial 2026, **no ha confirmado emisión** propia hasta la fecha. En el pasado USA ha emitido monedas conmemorativas para Juegos Olímpicos (LA28 ya aprobado por Coin Act 2024) pero el Mundial 2026 no aparece en su agenda anunciada para 2026. La FIFA podría presionar para que se sume al final.
+
+**Valor de inversión**. Las monedas bimetálicas $20 son producto de circulación: su valor recolectivo en mercado secundario rara vez excede el 50% del nominal. Las versiones de plata $10 mantienen el valor del metal (la plata cotiza a ~30 USD/onza en 2026) y suelen revalorizarse 10-20% en el primer año post-emisión por demanda numismática. Las de oro $25 son donde se concentra el valor real: a 2.500 USD/pieza, su revalorización dependerá del precio del oro y la rareza percibida del Mundial. Como referencia, las monedas Banxico del Mundial México 1986 (acuñadas hace 40 años) se subastan hoy entre 3.000 y 8.000 USD según conservación.
+
+**El precedente histórico**. Banxico ya emitió en 1985-1986 una serie similar para México 86, considerada una de las colecciones numismáticas más bellas del siglo XX por la simbiosis entre cultura prehispánica y deporte moderno. Las monedas de 1986 son hoy piezas de coleccionista mundial. Si Banxico mantiene el patrón histórico, las del Mundial 2026 son una apuesta segura para coleccionistas a 5-10 años vista.`,
+    category: 'general',
+    sourceName: 'El Financiero',
+    sourceUrl:
+      'https://www.elfinanciero.com.mx/economia/2026/05/13/banxico-lanza-monedas-conmemorativas-del-mundial-2026-asi-son-los-nuevos-disenos/',
+    sourceLang: 'es',
+    publishedAt: '2026-05-13T17:00:00Z',
+    sourcesSecondary: [
+      {
+        name: 'La Jornada · BdeM pone en circulación 12 monedas conmemorativas',
+        url: 'https://www.jornada.com.mx/noticia/2026/05/13/economia/bdem-pone-en-circulacion-12-monedas-conmemorativas-del-mundial-fifa-2026',
+      },
+      {
+        name: 'Reforma · Lanzan 12 monedas conmemorativas del Mundial 2026',
+        url: 'https://www.reforma.com/lanza-banxico-12-monedas-conmemorativas-del-mundial-2026/ar3203690',
+      },
+      {
+        name: 'Telemundo · Diseños oficiales',
+        url: 'https://www.telemundo.com/deportes/copa-mundial-de-la-fifa-2026/mexico-anuncia-las-monedas-conmemorativas-del-mundial-2026-y-sus-disen-rcna345061',
+      },
+      {
+        name: 'Mercado Negro · Monedas conmemorativas México + Canadá',
+        url: 'https://www.mercadonegro.pe/marketing/mundial-2026-monedas-conmemorativas/',
+      },
+      {
+        name: 'Milenio · Dónde comprar las monedas',
+        url: 'https://www.milenio.com/negocios/donde-comprar-monedas-conmemorativas-copa-mundial-fifa-2026-mexico',
+      },
+    ],
+  },
+  {
     slug: 'convocatoria-belgica-mundial-2026-rudi-garcia-courtois-de-bruyne-lukaku-matias-fernandez-pardo',
     title:
       'Bélgica anuncia su lista para el Mundial 2026: Courtois capitán, De Bruyne y Lukaku confirmados, y el español Matías Fernández-Pardo elige los Diablos Rojos',
