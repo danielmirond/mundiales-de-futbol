@@ -47,48 +47,48 @@ export async function generateMetadata({
 const PARTIDOS = [
   {
     matchday: 'J1',
-    fechaIso: '2026-06-13',
-    fecha: '13 jun 2026',
+    fechaIso: '2026-06-15',
+    fecha: '15 jun 2026',
     rival: 'Cabo Verde',
     rivalCode: 'CPV',
     home: true,
     sede: 'Mercedes-Benz Stadium',
     ciudad: 'Atlanta · USA',
     venueSlug: 'mercedes-benz-stadium',
-    horaLocal: '15:00 ET',
-    horaEspaña: '21:00',
+    horaLocal: '12:00 ET',
+    horaEspaña: '18:00',
     expectativa:
-      'Estreno de la Roja en su segundo Mundial post-La Roja. Cabo Verde llega como cenicienta, primer Mundial de su historia. Sobre el papel, gestión de minutos y posibles rotaciones.',
+      'Estreno de la Roja con Luis de la Fuente. Cabo Verde llega como cenicienta, primer Mundial de su historia. Sobre el papel, gestión de minutos y posibles rotaciones.',
   },
   {
     matchday: 'J2',
-    fechaIso: '2026-06-18',
-    fecha: '18 jun 2026',
+    fechaIso: '2026-06-21',
+    fecha: '21 jun 2026',
+    rival: 'Arabia Saudí',
+    rivalCode: 'KSA',
+    home: true,
+    sede: 'Mercedes-Benz Stadium',
+    ciudad: 'Atlanta · USA',
+    venueSlug: 'mercedes-benz-stadium',
+    horaLocal: '12:00 ET',
+    horaEspaña: '18:00',
+    expectativa:
+      'Segundo partido en Atlanta. Arabia Saudí, dirigida por Hervé Renard, llega con la lección de Qatar 2022 (donde derrotó a Argentina) muy presente. España no debería tener problemas si gestiona la presión inicial.',
+  },
+  {
+    matchday: 'J3',
+    fechaIso: '2026-06-26',
+    fecha: '26 jun 2026',
     rival: 'Uruguay',
     rivalCode: 'URU',
     home: false,
     sede: 'Estadio Akron',
     ciudad: 'Guadalajara · México',
     venueSlug: 'estadio-akron',
-    horaLocal: '20:00 CST',
-    horaEspaña: '04:00 (jueves madrugada)',
+    horaLocal: '18:00 CST',
+    horaEspaña: '02:00 (sábado madrugada)',
     expectativa:
-      'El partido del grupo. Uruguay viene del subcampeonato continental y mantiene el ADN charrúa. Choque clásico que recuerda al Mundial 2010 (España campeona, Uruguay 4ª).',
-  },
-  {
-    matchday: 'J3',
-    fechaIso: '2026-06-24',
-    fecha: '24 jun 2026',
-    rival: 'Ganador playoff',
-    rivalCode: 'TBD',
-    home: true,
-    sede: 'Por confirmar',
-    ciudad: 'Sede pendiente del sorteo',
-    venueSlug: null,
-    horaLocal: 'Por confirmar',
-    horaEspaña: 'Por confirmar',
-    expectativa:
-      'Cierre del grupo contra el ganador del playoff intercontinental. La identidad del rival se conocerá tras los repechajes de marzo de 2026.',
+      'El partido del grupo. Uruguay del Bielsa-Bento mantiene el ADN charrúa con Valverde, Araújo y Núñez. Choque clásico que recuerda al Mundial 2010 (España campeona, Uruguay 4ª).',
   },
 ];
 
@@ -112,32 +112,36 @@ const RIVALES = [
     historial: 'Cinco enfrentamientos previos en Mundiales, último en 2010. España y Uruguay nunca se han eliminado mutuamente.',
   },
   {
-    code: 'TBD',
-    name: 'Ganador playoff',
-    flag: '⚽',
+    code: 'KSA',
+    name: 'Arabia Saudí',
+    flag: '🇸🇦',
     historia:
-      'El playoff intercontinental de marzo 2026 reúne a 6 selecciones de las distintas confederaciones. Posibles candidatos: Bolivia, Surinam, Jamaica, RDC, Iraq, Nueva Caledonia.',
-    jugadoresClave: 'Por confirmar tras el playoff.',
-    historial: 'Por confirmar.',
+      'Sexto Mundial de Arabia Saudí, primero desde Qatar 2022 donde dio el campanazo derrotando a Argentina 2-1 en su debut. Dirigida por Hervé Renard, el seleccionador francés campeón de África con Costa de Marfil y Marruecos.',
+    jugadoresClave: 'Salem Al-Dawsari, Saud Abdulhamid, Salman Al-Faraj, Mohammed Kanno. Bloque sólido formado en la Saudi Pro League (Al-Hilal, Al-Nassr, Al-Ittihad).',
+    historial: 'Cuatro enfrentamientos previos en Mundiales (último Sudáfrica 2010, España campeona del mundo no jugó vs KSA). Saldo histórico: España 2 - Arabia Saudí 0.',
   },
 ];
 
 const FAQ = [
   {
     q: '¿En qué grupo está España en el Mundial 2026?',
-    a: 'España está en el Grupo H, junto a Cabo Verde, Uruguay y el ganador del playoff intercontinental. El sorteo se celebró el 5 de diciembre de 2025 en Las Vegas.',
+    a: 'España está en el Grupo H, junto a Cabo Verde, Arabia Saudí y Uruguay. El sorteo se celebró el 5 de diciembre de 2025 en Washington.',
   },
   {
     q: '¿Cuándo es el primer partido de España en el Mundial 2026?',
-    a: 'España debuta el 13 de junio de 2026 contra Cabo Verde en el Mercedes-Benz Stadium de Atlanta a las 21:00 hora peninsular española (15:00 ET).',
+    a: 'España debuta el 15 de junio de 2026 contra Cabo Verde en el Mercedes-Benz Stadium de Atlanta a las 18:00 hora peninsular española (12:00 ET).',
+  },
+  {
+    q: '¿Cuándo juega España contra Arabia Saudí?',
+    a: 'El España-Arabia Saudí se jugará el 21 de junio de 2026 en el Mercedes-Benz Stadium de Atlanta, mismo escenario que el debut. Hora local 12:00 ET (18:00 hora peninsular española).',
   },
   {
     q: '¿Cuándo juega España contra Uruguay?',
-    a: 'El España-Uruguay se jugará el 18 de junio de 2026 en el Estadio Akron de Guadalajara (México). Empieza a las 20:00 hora local CST, lo que equivale a las 04:00 de la madrugada del jueves 19 en hora peninsular española.',
+    a: 'El España-Uruguay se jugará el 26 de junio de 2026 en el Estadio Akron de Guadalajara (México), cierre de la fase de grupos. Empieza a las 18:00 hora local CST (8:00 PM ET), lo que equivale a las 02:00 de la madrugada del sábado 27 en hora peninsular española.',
   },
   {
     q: '¿Quién es el rival más fuerte del Grupo H?',
-    a: 'Sobre el papel, Uruguay. Es la única selección del grupo con dos títulos mundiales y cuarta posición reciente (2010). Cabo Verde llega como cenicienta y el ganador del playoff es por definición la selección más débil del grupo.',
+    a: 'Sobre el papel, Uruguay. Es la única selección del grupo con dos títulos mundiales y cuarta posición reciente (2010), con plantilla joven (Valverde, Araújo, Núñez, Ugarte). Cabo Verde llega como cenicienta en su primer Mundial, y Arabia Saudí queda como tercer favorito por su irregularidad en el ciclo post-Qatar 2022.',
   },
   {
     q: '¿Dónde ver los partidos de España en el Mundial 2026?',
@@ -257,9 +261,9 @@ export default async function GrupoHPage({
           </p>
 
           <div className="mt-10 flex flex-wrap items-center gap-x-6 gap-y-2 font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-fg-subtle)]">
-            <span>13 jun · vs Cabo Verde · Atlanta</span>
-            <span>18 jun · vs Uruguay · Guadalajara</span>
-            <span>24 jun · vs Playoff · Por confirmar</span>
+            <span>15 jun · vs Cabo Verde · Atlanta</span>
+            <span>21 jun · vs Arabia Saudí · Atlanta</span>
+            <span>26 jun · vs Uruguay · Guadalajara</span>
           </div>
         </div>
       </section>
