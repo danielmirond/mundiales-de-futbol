@@ -73,6 +73,91 @@ export type NewsItem = {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'convocatoria-francia-mundial-2026-deschamps-26-mbappe-dembele-camavinga-fuera-sorpresa',
+    title:
+      'Francia anuncia su lista oficial para el Mundial 2026: Deschamps confirma a Mbappé y Dembélé, deja fuera a Camavinga y Kolo Muani',
+    summary:
+      'Didier Deschamps ha anunciado este 14 de mayo los 26 convocados de Francia para el Mundial 2026. Mbappé (Real Madrid) lidera el ataque junto a Dembélé (Balón de Oro 2025), Doué, Olise y Cherki. La sorpresa es la ausencia de Eduardo Camavinga, que cae junto a Kolo Muani y Lucas Chevalier. Bicampeones del mundo en 1998 y 2018, los Bleus van a por su tercera estrella.',
+    body: `**Didier Deschamps** ha hecho oficial este 14 de mayo la convocatoria de 26 jugadores de [Francia](/selecciones/FRA) para el Mundial 2026. La lista, anunciada en la Federación Francesa de Fútbol en Clairefontaine, confirma el peso del eje **Mbappé + Dembélé** y la apuesta firme por la nueva generación PSG-Bayern (Doué, Olise, Cherki, Zaïre-Emery). La principal sorpresa es la ausencia de **Eduardo Camavinga**.
+
+**El ataque, blindado**. Kylian Mbappé (Real Madrid), Ousmane Dembélé (PSG, último Balón de Oro), Désiré Doué (PSG), Michael Olise (Bayern Múnich) y Rayan Cherki (Manchester City) componen una primera línea ofensiva impresionante. Como complementos, Marcus Thuram (Inter de Milán), Bradley Barcola (PSG), Maghnes Akliouche (Mónaco) y Jean-Philippe Mateta (Crystal Palace). El doble eje Mbappé-Dembélé, los dos goleadores del último ciclo de Eurocopa 2024 y Nations League 2025, es el bloque sobre el que Deschamps construye el sistema.
+
+**Mediocampo con Tchouaméni de ancla**. Aurélien Tchouaméni (Real Madrid) y Warren Zaïre-Emery (PSG) son las piezas titulares del centro del campo. Les acompañan **N'Golo Kanté** (Fenerbahçe), **Adrien Rabiot** (AC Milan) y **Manu Koné** (AS Roma). Es una mediocampo experimentado y técnico, pero la decisión más debatida fue dejar fuera a Eduardo Camavinga (Real Madrid). Deschamps justificó la decisión: *"Sale de una temporada difícil en la que ha jugado menos y ha tenido lesiones"*. Camavinga, que se había convertido en titular indiscutible en la Eurocopa 2024, no recupera su sitio.
+
+**Defensa con Saliba al frente**. William Saliba (Arsenal), Dayot Upamecano (Bayern Múnich), Ibrahima Konaté (Liverpool) y Jules Koundé (Barcelona) forman el cuarteto central. En los laterales, **Theo Hernández** (Al-Hilal) y **Lucas Hernández** (PSG) por la izquierda, con **Jules Koundé** y **Malo Gusto** (Chelsea) por la derecha. **Lucas Digne** (Aston Villa) cierra el lateral izquierdo de relevo. Bajo palos, **Mike Maignan** (Milan) sigue siendo el portero titular, con **Brice Samba** (Lens) y **Robin Risser** (Stuttgart) como suplentes.
+
+**Las ausencias que duelen**. Además de Camavinga, dos nombres fuertes quedan fuera. **Randal Kolo Muani** (Tottenham), de 27 años y ex-titular en Qatar 2022, no recibe la llamada tras una temporada irregular. **Lucas Chevalier**, recién campeón de la Ligue 1 con PSG, tampoco está en la lista de porteros: Deschamps mantiene la jerarquía Maignan-Samba a pesar del tirón mediático del joven portero parisino. Más figuras que se quedan: Aurélien Maupay, Lucas Paquetá (no es francés, ironía aparte) y los habituales descartados Boubacar Kamara y Eduardo Sarr.
+
+**El cuerpo técnico**. Deschamps, en su cuarto Mundial al frente de los Bleus tras 2014, 2018 (campeón) y 2022 (subcampeón), trabaja con **Guy Stéphan** como asistente histórico. **Franck Raviot** se mantiene como entrenador de porteros. Los preparadores físicos son **Cyril Moine** y **Clément Hazard**, y los analistas de vídeo **Thierry Marszalek** y **Erix Dubray**.
+
+**Camino al Mundial: tercera estrella en el horizonte**. Francia llega como bicampeona del mundo (1998, 2018) y vigente subcampeona (2022). La tercera estrella es el objetivo declarado de Deschamps, que renovó hasta este Mundial precisamente para conseguirlo antes de ceder el banquillo a Zinedine Zidane (acuerdo aún no oficial, pero descontado por todos los medios franceses). El primer partido de los Bleus está pendiente del sorteo del 5 de diciembre, pero las quinielas la sitúan como una de las máximas favoritas: [favoritos a ganar el Mundial](/2026/favoritos-ganar-mundial). Si quieres seguir a Francia partido a partido, el paquete [Follow My Team](/2026/hospitality/selecciones/FRA) de FIFA Hospitality arranca en 6.500 USD.
+
+**Calendario**. La lista definitiva debe entregarse a FIFA el **1 de junio**. Hasta entonces Deschamps puede hacer reemplazos por lesión sin justificación adicional. El [Mundial 2026 arranca el 11 de junio](/2026/calendario) en el Estadio Azteca con la inauguración México vs rival por confirmar. Francia, encuadrada en un grupo aún por sortear, debutará en su primer partido entre el 12 y el 14 de junio.`,
+    category: 'convocatorias',
+    sourceName: 'AS',
+    sourceUrl:
+      'https://as.com/futbol/internacional/lista-de-francia-en-directo-convocatoria-y-jugadores-de-la-seleccion-francesa-para-el-mundial-hoy-en-vivo-f202605-d/',
+    sourceLang: 'es',
+    publishedAt: '2026-05-14T13:00:00Z',
+    sourcesSecondary: [
+      {
+        name: 'DAZN · Convocatoria Francia Mundial 2026 (lista completa, dorsales, cuerpo técnico)',
+        url: 'https://www.dazn.com/es-MX/news/f%C3%BAtbol/convocatoria-francia-mundial-2026-lista-capitanes-dorsales-cuerpo-tecnico-didier-deschamps/1sxa5uwi7eetu1orz7em4ko4ck',
+      },
+      {
+        name: 'Infobae · La selección de Francia confirmó los 26 convocados',
+        url: 'https://www.infobae.com/deportes/2026/05/14/la-seleccion-de-francia-confirmo-la-lista-de-26-convocados-para-el-mundial-la-victima-de-argentina-que-se-queda-sin-revancha/',
+      },
+      {
+        name: 'La Nación · Camavinga, la gran ausencia',
+        url: 'https://www.lanacion.com.ar/deportes/futbol/francia-confirmo-a-sus-26-jugadores-convocados-para-el-mundial-2026-y-camavinga-es-la-gran-ausencia-nid14052026/',
+      },
+      {
+        name: 'beIN Sports · Mbappé, Dembélé y sorpresa con Camavinga',
+        url: 'https://www.beinsports.com/es-us/football/copa-mundial-de-la-fifa-2026/articles/la-lista-oficial-de-didier-deschamps-y-francia-para-la-copa-mundial-de-la-fifa-2026-2026-05-14',
+      },
+      {
+        name: 'FIFA · Convocados Francia Mundial 2026',
+        url: 'https://www.fifa.com/es/articles/convocados-francia-mundial-2026-lista-jugadores-elegidos-deschamps',
+      },
+      {
+        name: 'Bet365 News · Lista de convocados Francia',
+        url: 'https://news.bet365.es/es-es/article/copa-mundial-2026-lista-convocados-francia/2026051513434884843',
+      },
+    ],
+  },
+  {
+    slug: 'convocatoria-japon-mundial-2026-moriyasu-26-endo-kubo-mitoma-grupo-f-paises-bajos-tunez-suecia',
+    title:
+      'Japón anuncia su lista para el Mundial 2026: Wataru Endo capitán, Kubo y Mitoma confirmados, grupo F con Países Bajos, Túnez y Suecia',
+    summary:
+      'Hajime Moriyasu ha hecho oficial los 26 convocados de Japón para el Mundial 2026. Wataru Endo (Liverpool) sigue como capitán. La lista mezcla bloque europeo (Kubo, Mitoma, Doan, Kamada, Endo) con jugadores en J-League. Japón está en el Grupo F con Países Bajos, Túnez y Suecia, un cruce de calado europeo en su primera fase.',
+    body: `**Hajime Moriyasu** ha publicado este 14 de mayo la lista de 26 convocados de [Japón](/selecciones/JPN) para el Mundial 2026. La cita repite el formato del seleccionador desde Qatar 2022: bloque amplio de jugadores en Europa (20 de los 26 juegan fuera de Japón) y solo seis en J-League, con **Wataru Endo** (Liverpool) confirmado como capitán por tercer Mundial consecutivo.
+
+**Tres porteros**. **Tomoki Hayakawa** (Kashima Antlers) y **Keisuke Osako** (Sanfrecce Hiroshima) acompañan al titular **Zion Suzuki** (Parma Calcio 1913). Suzuki, hijo de la mítica generación Honda-Kagawa-Endo del Mundial 2010, ha sido el portero indiscutible de Moriyasu durante el último ciclo de Asian Cup 2024.
+
+**Defensa con Tomiyasu de regreso**. La línea defensiva incluye al veterano **Yuto Nagatomo** (FC Tokyo, 5º Mundial), **Shogo Taniguchi** (Sint-Truidense), **Kou Itakura** (Ajax), **Tsuyoshi Watanabe** (Feyenoord), **Takehiro Tomiyasu** (Ajax, vuelve tras lesión grave 2024-25), **Hiroki Ito** (Bayern Múnich), **Ayumu Seko** (Le Havre), **Yukinari Sugawara** (Werder Bremen) y **Junnosuke Suzuki** (FC Copenhagen). Tomiyasu, ex-Arsenal, recupera su sitio tras casi 14 meses fuera de combate.
+
+**Mediocampo y delantera europeos**. Aquí está el bloque más competitivo. **Wataru Endo** (Liverpool, capitán) actúa de ancla. Junto a él, **Junya Ito** (Genk), **Daichi Kamada** (Crystal Palace), **Koki Ogawa** (NEC), **Daizen Maeda** (Celtic), **Ritsu Doan** (Eintracht Frankfurt), **Ayase Ueda** (Feyenoord), **Ao Tanaka** (Leeds United), **Keito Nakamura** (Reims), **Kaishu Sano** (Mainz), **Takefusa Kubo** (Real Sociedad), **Yuito Suzuki** (Freiburg), **Kento Shiogai** (Wolfsburg) y **Keisuke Goto** (Sint-Truidense). Kubo es la cara mediática de la selección en España y la principal palanca creativa del equipo. Mitoma (Brighton) figuraba como duda por lesión, finalmente confirmado.
+
+**Cuerpo técnico continuista**. Moriyasu mantiene el equipo que llevó a Japón al octavos en Qatar 2022 (eliminada por Croacia en penales): **Toshihide Saito**, **Hiroshi Nanami**, **Ryoichi Maeda**, **Makoto Hasebe** (ex-jugador del Mundial 2014 y Eintracht Frankfurt) y **Shunsuke Nakamura** (ídolo histórico, ex-Celta de Vigo) como asistentes. **Takashi Shimoda** sigue como entrenador de porteros y **Ryoichi Matsumoto** como preparador físico.
+
+**Grupo F: cruce europeo de calado**. Japón ha quedado encuadrada en un grupo brutal: **Países Bajos** (semifinalista en Qatar 2022 si no fuera por la prórroga vs Argentina), **Suecia** (regreso al Mundial tras Rusia 2018) y **Túnez** (representante africano clásico). El sorteo del 5 de diciembre dejó al Sol Naciente con tres equipos europeos+africano, una de las llaves más complicadas del torneo. Países Bajos es claramente favorita en el grupo; Japón, Suecia y Túnez se disputan el segundo puesto y el repechaje hacia octavos.
+
+**Calendario y sedes**. Japón debutará entre el 12 y el 14 de junio (sedes pendientes del sorteo de cuartos de hora del 28 de mayo). El equipo entrenará en Los Ángeles los 7 días previos al primer partido, con base hotelera en Beverly Hills. La afición japonesa, una de las más numerosas del torneo (300.000 entradas vendidas según JFA), se ha distribuido por las sedes asignadas. Si quieres seguir a Japón por todo el Mundial, [Follow My Team Japan](/2026/hospitality/selecciones/JPN) arranca en 6.500 USD.
+
+**Lo que está en juego**. Japón firmó en Qatar 2022 una de las mayores sorpresas mundialistas al ganar a Alemania y España en la fase de grupos. La eliminación en octavos contra Croacia en penales dejó a Moriyasu con la sensación de "techo no superado". El objetivo declarado para este Mundial es **alcanzar cuartos de final por primera vez en la historia**, un hito que ninguna selección asiática ha logrado nunca (Corea del Sur llegó a semis en 2002 pero como anfitriona). Con la cuota de 16 selecciones AFC en el nuevo formato de 48, Japón es la única candidata seria a romper el techo histórico.
+
+**Lista definitiva**. La convocatoria que Moriyasu entregó a FIFA es la definitiva: el plazo del 1 de junio aplica solo a reemplazos por lesión. La J-League cierra su temporada el 23 de mayo y los jugadores se concentrarán en Tokio del 25 al 28 antes de volar a Los Ángeles.`,
+    category: 'convocatorias',
+    sourceName: 'DAZN',
+    sourceUrl:
+      'https://www.dazn.com/es-ES/news/f%C3%BAtbol/convocatoria-japon-mundial-2026-lista-capitanes-dorsales-cuerpo-tecnico-hajime-moriyasu/9d1uiytur0sr1wld6r6hjn4wj',
+    sourceLang: 'es',
+    publishedAt: '2026-05-14T10:00:00Z',
+    sourcesSecondary: [],
+  },
+  {
     slug: 'carvajal-fuera-prelista-espana-mundial-2026-morata-fabian-ruiz-real-madrid-3-jugadores',
     title:
       'Carvajal, Morata y Fabián Ruiz fuera de la prelista de España para el Mundial 2026: la lista de 55 de De la Fuente parte el ciclo del Real Madrid',
