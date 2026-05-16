@@ -73,6 +73,104 @@ export type NewsItem = {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'carvajal-fuera-prelista-espana-mundial-2026-morata-fabian-ruiz-real-madrid-3-jugadores',
+    title:
+      'Carvajal, Morata y Fabián Ruiz fuera de la prelista de España para el Mundial 2026: la lista de 55 de De la Fuente parte el ciclo del Real Madrid',
+    summary:
+      'Luis de la Fuente ha enviado a FIFA su prelista de 55 jugadores para el Mundial 2026 sin Dani Carvajal, Álvaro Morata ni Fabián Ruiz. La lista vinculante reduce a tres los representantes del Real Madrid frente a los nueve del FC Barcelona (Yamal, Pedri, Gavi, Olmo, Fermín, Ferran, Cubarsí, Éric García y Joan García). El recorte final a 26 se anuncia el 25 de mayo.',
+    body: `Luis de la Fuente entregó este lunes a FIFA la prelista de **55 futbolistas** vinculante para [España](/selecciones/ESP) en el Mundial 2026, y el titular ha sido la ausencia de **Dani Carvajal**. El lateral derecho del Real Madrid, con 52 internacionalidades y pieza fundamental en el ciclo que ganó la Eurocopa 2024, queda fuera del torneo del verano. Junto a él tampoco aparecen **Álvaro Morata** ni **Fabián Ruiz** —dos jugadores que han sido titulares regulares con la Roja en los últimos años.
+
+**Carvajal: la ausencia no era inesperada del todo**. El lateral se rompió el ligamento cruzado anterior en octubre de 2024 y, aunque volvió a jugar con el Real Madrid a finales de la temporada 2025-26, su rendimiento no alcanzó el nivel pre-lesión. De la Fuente había sondeado varias veces a su entorno y, según Cope, la decisión final se tomó en la concentración previa al Mundial, después de evaluar a sus alternativas: Pedro Porro, Pubill y un sorpresivo Fran García como suplente natural del lateral derecho.
+
+**Morata y Fabián, el otro recorte fuerte**. El delantero del Como, con 87 partidos y 38 goles con España, sale por bajo rendimiento sostenido la última temporada y la apuesta firme por la dupla **Toni Martínez + Joselu** como referencias del área. Fabián Ruiz, mediocampista del PSG, cae víctima de la sobreoferta de centrocampistas: con Pedri, Rodri, Mikel Merino, Fermín, Zubimendi y Aleix García en la lista, el cupo del medio se reduce.
+
+**Cambio de ciclo: Barça 9 - Real Madrid 3**. La lista marca la **inversión histórica del eje España-Real Madrid**. El FC Barcelona aporta nueve futbolistas (Lamine Yamal, Pedri, Gavi, Dani Olmo, Fermín López, Ferran Torres, Pau Cubarsí, Éric García y Joan García). El Real Madrid solo tres: Vinícius cobertura imposible al ser brasileño, Endrick lo mismo, Bellingham inglés. Quedan Aurélien Tchouaméni (no español tampoco), Rodrygo (no español)… la realidad de la plantilla madridista en términos de pasaporte español es magra. Confirmados del Madrid: **Joselu** (delantero), **Fran García** (lateral) y un tercer nombre que se descubrirá con la lista definitiva.
+
+**Los 'tocados' que sí están en la lista**. Lamine Yamal (lesión muscular reciente), Nico Williams (3 semanas de baja) y Rodri (recuperación de cruzado) sí entran en los 55. De la Fuente ha confirmado que el plan A es contar con los tres en el Mundial, pero tendrán hasta el último momento para demostrar estado físico. Mikel Merino (Arsenal, lesión muscular dudosa) también figura.
+
+**Otros 'no-listados' notables**. Junto al trío Carvajal/Morata/Fabián Ruiz, quedan fuera nombres como Pau Torres, Sergio Gómez, Víctor Gómez, Hugo Guillamón y Moleiro —este último cerca del corte. La COPE adelantó también que **Huijsen** (Real Madrid central, anteriormente Bournemouth) sí está en los 55, premiando su buena temporada.
+
+**El siguiente hito: el 25 de mayo**. El reglamento FIFA obliga a entregar la lista definitiva de **26 jugadores** (incluyendo 3 porteros obligatorios) el **1 de junio de 2026**. De la Fuente ha avanzado que su anuncio formal será una semana antes, el **lunes 25 de mayo en la Ciudad del Fútbol de Las Rozas**. Hasta ese día, los 55 estarán en alerta a una posible llamada y el cuerpo médico de la RFEF supervisará la evolución de los tocados día a día.
+
+**Debut de España en el Mundial**. La Selección abre el torneo el **11 de junio de 2026 en el Estadio Azteca de [Ciudad de México](/2026/sedes/ciudad-de-mexico)**, segundo partido del torneo inmediatamente después de la inauguración. Está encuadrada en el Grupo H con un rival aún por confirmar tras el [sorteo del 5 de diciembre](/2026/calendario). Los aficionados pueden seguir el camino completo de la Selección con [Follow My Team](/2026/hospitality/selecciones/ESP) (desde 6.500 USD) si planean viajar.`,
+    category: 'convocatorias',
+    sourceName: 'Marca · Selección España',
+    sourceUrl: 'https://www.marca.com/futbol/seleccion/2026/05/12/de-la-fuente-prelista-55-mundial-2026-carvajal-morata-fabian.html',
+    sourceLang: 'es',
+    publishedAt: '2026-05-14T11:00:00Z',
+    sourcesSecondary: [
+      {
+        name: 'Infobae · Los grandes olvidados de De la Fuente para el Mundial 2026',
+        url: 'https://www.infobae.com/espana/deportes/2026/05/14/los-grandes-olvidados-de-de-la-fuente-para-el-mundial-2026-la-prelista-de-55-marca-el-cambio-de-ciclo-en-la-seleccion-espanola/',
+      },
+      {
+        name: 'COPE · Carvajal no prelista 55, Huijsen sí',
+        url: 'https://www.cope.es/programas/tiempo-de-juego/noticias/carvajal-no-prelista-55-espana-huijsen-fran-garcia-gonzalo-lista-20260512_3362767.html',
+      },
+      {
+        name: 'El Debate · Carvajal sin Mundial',
+        url: 'https://www.eldebate.com/deportes/mundial-futbol-2026/20260512/carvajal-no-entra-prelista-luis-fuente-queda-opciones-mundial_416851.html',
+      },
+      {
+        name: 'Libertad Digital · Revolución de De la Fuente: Carvajal y Morata sin Mundial',
+        url: 'https://www.libertaddigital.com/deportes/futbol/2026-05-12/revolucion-de-de-la-fuente-carvajal-y-morata-se-quedan-sin-mundial-7403505/',
+      },
+      {
+        name: 'beIN Sports · Lesiones, dudas y una base casi intocable',
+        url: 'https://www.beinsports.com/es-us/football/copa-mundial-de-la-fifa-2026/articles/luis-de-la-fuente-define-su-prelista-con-espa%C3%B1a-para-la-copa-del-mundo-lesiones-dudas-y-una-base-casi-intocable-2026-05-12',
+      },
+    ],
+  },
+  {
+    slug: 'caminar-metlife-final-mundial-2026-nueva-york-guardian-george-washington-bridge-11-millas',
+    title:
+      'Caminar al MetLife desde Nueva York para la final del Mundial 2026: 11 millas, 4 horas y media, y FIFA prohíbe el acceso peatonal en game days',
+    summary:
+      '¿Se puede caminar al MetLife Stadium desde Manhattan para los partidos del Mundial 2026? Sí, son 11 millas (17 km) y 4 horas y media desde George Washington Bridge, pero hay aceras cerradas, tráfico denso y, sobre todo, FIFA ha confirmado que no se permitirá acceso peatonal en game days. NJ Transit cobra 150 USD ida y vuelta y se anticipa colapso del transporte público.',
+    body: `**¿Se puede caminar al [MetLife Stadium](/2026/sedes/nueva-york) desde Manhattan?** El periodista Mark McPartland de The Guardian se calzó las zapatillas y publicó el experimento en vídeo: salió de George Washington Bridge Park en Washington Heights, cruzó el puente George Washington, atravesó New Jersey por carreteras secundarias y, **cuatro horas y media después y 11 millas (17 kilómetros) después**, llegó al MetLife. Sí, es posible. Pero el experimento del Guardian acaba en sorpresa: **FIFA no lo va a permitir** durante los partidos del Mundial 2026.
+
+**Lo que cuenta el experimento**. La ruta más corta arranca cruzando el puente George Washington a pie —una opción que está abierta normalmente—. Después se entra a New Jersey por Fort Lee y se atraviesan Englewood y Hackensack en carreteras con cuestas pronunciadas, **aceras intermitentes** y secciones sin acera ninguna. El último tramo, alrededor del Meadowlands Sports Complex (donde está el MetLife), es directamente **autopista** con prohibición peatonal. McPartland tuvo que desviarse por callejones y zonas industriales para evitar la I-95 y la New Jersey Route 3.
+
+**El detalle que mata la idea**. La final del Mundial 2026 se juega el **19 de julio a las 20:00 ET**. Caminar la vuelta a Manhattan después del partido implica un trayecto **nocturno de 4-5 horas** atravesando New Jersey por una zona con escasa iluminación y tráfico de salida del estadio. Para un partido de fase de grupos a las 15:00 ET, la vuelta sí sería con luz natural. Pero el problema no es solo la dificultad: **FIFA ha confirmado que no se permitirá acceso peatonal a la zona del MetLife en game days**, según Front Row Soccer. La justificación oficial es de seguridad operativa: stewards y policía cierran perímetros amplios para controlar entradas con [clear bag policy](/2026/normas-estadios/mochila-transparente) y evitar acumulaciones en accesos no controlados.
+
+**¿Por qué la pregunta se ha vuelto trending?**. **NJ Transit cobra 150 USD ida y vuelta** para el shuttle desde Penn Station al MetLife durante el Mundial. La empresa ha justificado el precio en la demanda excepcional, pero la noticia ha generado indignación en redes —especialmente entre aficionados que no van a hospitality y que han pagado entradas estándar pensando que el transporte estaría incluido o asequible. La alternativa popular son los buses **Coach USA** desde Port Authority (~25 USD ida) y los **Uber/Lyft** (que aplicarán precio dinámico previsiblemente sobre los 100 USD en hora punta).
+
+**La opción "hospitality" elimina el problema**. Los paquetes [FIFA Hospitality oficial](/2026/hospitality/sedes/nueva-york) incluyen acceso a parking premium del estadio (con shuttle propio al lounge) y, en los productos Single Match desde 4.500 USD, **transfer privado desde un hotel de Manhattan**. Las Private Suites del MetLife llevan ese servicio incluido por defecto. Pero la realidad del aficionado de calle, que va con entrada estándar de 200-500 USD, es que se enfrenta al binomio NJ Transit a 150 USD o Uber a precio dinámico.
+
+**FIFA ha publicado guías oficiales**. La FIFA Fan Festival de Manhattan estará abierta los 13 días con partido en NY/NJ, y desde ella saldrán shuttles dedicados a un precio aún por anunciar (se espera que rondan los 40-60 USD ida y vuelta, mucho más barato que NJ Transit). Pero la capacidad será limitada por horarios y FIFA recomienda **salir 4-5 horas antes del kickoff** para evitar quedarse fuera.
+
+**Comparativa con otros sedes**. El problema del MetLife es excepcional dentro del Mundial. En [Los Angeles](/2026/hospitality/sedes/los-angeles), el SoFi Stadium tiene Metro Crenshaw a 10 minutos andando del estadio. En [Atlanta](/2026/hospitality/sedes/atlanta), MARTA conecta directo con el Mercedes-Benz Stadium. En el [Estadio Azteca](/2026/hospitality/sedes/ciudad-de-mexico) el Metro Línea 2 + cable car estarán reforzados para el Mundial. El MetLife es el caso más complicado de los 16 estadios por estar literalmente en una isla industrial de New Jersey rodeada de autopistas.
+
+**Conclusión práctica para el aficionado**. Si vas a un partido en NY/NJ, planifica el transporte ANTES de comprar la entrada. Las opciones reales son: NJ Transit (150 USD ida y vuelta, garantizado pero caro), Coach USA bus (25 USD ida, capacidad limitada), Uber/Lyft (precio dinámico 100-200 USD ida y vuelta), o paquete hospitality (transporte incluido pero precio entrada 5-10x). Caminar **no es una opción** legal durante game days.`,
+    category: 'sedes',
+    sourceName: 'The Guardian · Football',
+    sourceUrl: 'https://www.theguardian.com/football/video/2026/may/14/world-cup-2026-walk-metlife-stadium-from-new-york-city',
+    sourceLang: 'en',
+    publishedAt: '2026-05-14T15:00:00Z',
+    sourcesSecondary: [
+      {
+        name: 'Yahoo News · How to access World Cup final stadium',
+        url: 'https://travel.yahoo.com/articles/walk-metlife-stadium-york-city-175338850.html',
+      },
+      {
+        name: 'NBC New York · World Cup fans talking about walking to MetLife',
+        url: 'https://www.nbcnewyork.com/world-cup/can-you-walk-metlife-stadium-fifa-world-cup/6495352/',
+      },
+      {
+        name: 'Front Row Soccer · Fans no podrán caminar al MetLife',
+        url: 'https://www.frontrowsoccer.com/2026/04/21/not-that-way-fans-wont-be-allowed-to-walk-to-metlife-for-world-cup-games/',
+      },
+      {
+        name: 'MetLife Stadium · FIFA World Cup 2026 visitor info',
+        url: 'https://www.metlifestadium.com/events/fifa-world-cup-2026',
+      },
+      {
+        name: 'Time Out NY · World Cup 2026 New York guide',
+        url: 'https://www.timeout.com/newyork/things-to-do/fifa-world-cup-2026-new-york-new-jersey-guide',
+      },
+    ],
+  },
+  {
     slug: 'halftime-show-final-mundial-2026-shakira-bts-madonna-chris-martin-metlife-19-julio',
     title:
       'Shakira, BTS y Madonna encabezarán el primer halftime show en la historia de una final de Mundial: 19 de julio en el MetLife, comisariado por Chris Martin',
