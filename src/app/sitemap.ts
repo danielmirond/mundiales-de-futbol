@@ -140,7 +140,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   out.push(entry('/coleccionismo/panini-mundial-2026/donde-comprar/brasil', now, 'weekly', 0.85));
   out.push(entry('/coleccionismo/panini-mundial-2026/coca-cola', now, 'weekly', 0.8));
   out.push(entry('/coleccionismo/panini-mundial-2026/topps-vs-panini', now, 'monthly', 0.7));
-  out.push(entry('/coleccionismo/monedas-mundial-2026', now, 'weekly', 0.9));
+  out.push(entry('/coleccionismo/monedas-mundial-2026', now, 'weekly', 0.95));
+  out.push(entry('/coleccionismo/monedas-mundial-2026/donde-comprar', now, 'weekly', 0.85));
+  out.push(entry('/coleccionismo/monedas-mundial-2026/precio', now, 'weekly', 0.85));
+  out.push(entry('/coleccionismo/monedas-mundial-2026/oro', now, 'weekly', 0.85));
+  out.push(entry('/coleccionismo/monedas-mundial-2026/plata', now, 'weekly', 0.85));
+  out.push(entry('/coleccionismo/monedas-mundial-2026/banxico', now, 'weekly', 0.85));
+  out.push(entry('/coleccionismo/monedas-mundial-2026/canada', now, 'weekly', 0.8));
   // Cluster Camisetas Mundial 2026 (pillar + 5 sub-páginas)
   out.push(entry('/coleccionismo/camisetas-mundial-2026', now, 'weekly', 0.95));
   out.push(entry('/coleccionismo/camisetas-mundial-2026/comprar', now, 'weekly', 0.9));

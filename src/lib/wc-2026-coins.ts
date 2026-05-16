@@ -270,4 +270,46 @@ export const CLUSTER_PAGES = [
     description:
       'Las 13 monedas oficiales emitidas por México (Banxico) y Canadá (Royal Canadian Mint) para el Mundial 2026: diseño, denominación, tirada y dónde comprarlas.',
   },
+  {
+    slug: 'donde-comprar',
+    path: '/coleccionismo/monedas-mundial-2026/donde-comprar',
+    title: 'Dónde comprar las monedas del Mundial 2026',
+    description:
+      'Los canales oficiales para conseguir las monedas conmemorativas del Mundial 2026: bancos comerciales mexicanos, Casa de Moneda de México, Museo Interactivo de Economía (MIDE), Royal Canadian Mint y distribuidores autorizados.',
+  },
+  {
+    slug: 'precio',
+    path: '/coleccionismo/monedas-mundial-2026/precio',
+    title: 'Precio de las monedas del Mundial 2026',
+    description:
+      'Precio facial, valor de mercado y revalorización esperada de las 13 monedas conmemorativas del Mundial 2026. Desde $20 MXN (bimetálicas) hasta 2.500 USD (oro fino).',
+  },
+  {
+    slug: 'oro',
+    path: '/coleccionismo/monedas-mundial-2026/oro',
+    title: 'Monedas de oro Mundial 2026 · Banxico edición $25 MXN',
+    description:
+      'Las 4 monedas de oro fino ley 0.999 del Banco de México para el Mundial 2026: peso ½ onza, valor facial $25 MXN, tirada limitada de 5.000 piezas por diseño. La opción coleccionista premium.',
+  },
+  {
+    slug: 'plata',
+    path: '/coleccionismo/monedas-mundial-2026/plata',
+    title: 'Monedas de plata Mundial 2026 · Banxico edición $10 MXN',
+    description:
+      'Las 4 monedas de plata fina ley 0.999 del Banco de México para el Mundial 2026: acabado proof, valor facial $10 MXN, tirada de 100.000 piezas por diseño dedicadas a CDMX, Guadalajara, Monterrey y México anfitrión.',
+  },
+  {
+    slug: 'banxico',
+    path: '/coleccionismo/monedas-mundial-2026/banxico',
+    title: 'Monedas Banxico Mundial 2026 · Las 12 piezas oficiales',
+    description:
+      'Las 12 monedas conmemorativas del Banco de México para el Mundial 2026: 4 bimetálicas $20 MXN, 4 plata $10 MXN y 4 oro $25 MXN. Detalle por diseño, sede y especificación técnica.',
+  },
+  {
+    slug: 'canada',
+    path: '/coleccionismo/monedas-mundial-2026/canada',
+    title: 'Moneda Canadá Mundial 2026 · Loonie Royal Canadian Mint',
+    description:
+      'La moneda oficial canadiense del Mundial 2026 emitida por la Royal Canadian Mint: loonie $1 CAD en versión tradicional y coloreada, tirada de 3 millones de piezas. Cómo conseguirla.',
+  },
 ] as const;
