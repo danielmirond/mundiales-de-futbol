@@ -242,10 +242,10 @@ export const FIXTURES_2026: Fixture26[] = [
   { n: 34, date:'2026-06-21', time:'16:00', stage:'E', venue:'bmo-field',              home:'GER', away:'CIV' },
   { n: 35, date:'2026-06-21', time:'19:00', stage:'E', venue:'arrowhead-stadium',      home:'ECU', away:'CUW' },
   { n: 36, date:'2026-06-21', time:'22:00', stage:'F', venue:'estadio-bbva',           home:'TUN', away:'JPN' },
-  { n: 37, date:'2026-06-22', time:'12:00', stage:'H', venue:'mercedes-benz-stadium',  home:'ESP', away:'KSA' },
-  { n: 38, date:'2026-06-22', time:'12:00', stage:'G', venue:'sofi-stadium',           home:'BEL', away:'IRN' },
-  { n: 39, date:'2026-06-22', time:'18:00', stage:'H', venue:'hard-rock-stadium',      home:'URU', away:'CPV' },
-  { n: 40, date:'2026-06-22', time:'18:00', stage:'G', venue:'bc-place',               home:'NZL', away:'EGY' },
+  { n: 37, date:'2026-06-21', time:'12:00', stage:'H', venue:'mercedes-benz-stadium',  home:'ESP', away:'KSA' },
+  { n: 38, date:'2026-06-21', time:'12:00', stage:'G', venue:'sofi-stadium',           home:'BEL', away:'IRN' },
+  { n: 39, date:'2026-06-21', time:'18:00', stage:'H', venue:'hard-rock-stadium',      home:'URU', away:'CPV' },
+  { n: 40, date:'2026-06-21', time:'18:00', stage:'G', venue:'bc-place',               home:'NZL', away:'EGY' },
   { n: 41, date:'2026-06-23', time:'12:00', stage:'J', venue:'att-stadium',            home:'ARG', away:'AUT' },
   { n: 42, date:'2026-06-23', time:'17:00', stage:'I', venue:'lincoln-financial-field',home:'FRA', away:'IRQ' },
   { n: 43, date:'2026-06-23', time:'20:00', stage:'I', venue:'bmo-field',              home:'NOR', away:'SEN' },
@@ -279,7 +279,7 @@ export const FIXTURES_2026: Fixture26[] = [
   { n: 62, date:'2026-06-26', time:'15:00', stage:'I', venue:'bmo-field',              home:'SEN', away:'IRQ' },
   // Grupo H, 19:00 CDT / 18:00 CST
   { n: 63, date:'2026-06-26', time:'19:00', stage:'H', venue:'nrg-stadium',            home:'CPV', away:'KSA' },
-  { n: 64, date:'2026-06-26', time:'18:00', stage:'H', venue:'estadio-akron',          home:'URU', away:'ESP' },
+  { n: 64, date:'2026-06-26', time:'20:00', stage:'H', venue:'estadio-akron',          home:'URU', away:'ESP' },
   // Grupo G, 20:00 PDT
   { n: 65, date:'2026-06-26', time:'20:00', stage:'G', venue:'bc-place',               home:'NZL', away:'BEL' },
   { n: 66, date:'2026-06-26', time:'20:00', stage:'G', venue:'lumen-field',            home:'EGY', away:'IRN' },
