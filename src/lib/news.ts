@@ -73,6 +73,161 @@ export type NewsItem = {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'convocatoria-belgica-mundial-2026-rudi-garcia-courtois-de-bruyne-lukaku-matias-fernandez-pardo',
+    title:
+      'Bélgica anuncia su lista para el Mundial 2026: Courtois capitán, De Bruyne y Lukaku confirmados, y el español Matías Fernández-Pardo elige los Diablos Rojos',
+    summary:
+      'Rudi García ha anunciado los 26 convocados de Bélgica para el Mundial 2026 con Thibaut Courtois como capitán. La lista combina la generación dorada (De Bruyne, Lukaku, Courtois) con sangre nueva como Doku y el español Matías Fernández-Pardo, que tras meses de reflexión escoge a Bélgica al no ser convocado por Luis de la Fuente. Bélgica está en el Grupo con Egipto, Irán y Nueva Zelanda.',
+    body: `**Rudi García** ha hecho oficial este 15 de mayo la convocatoria de 26 jugadores de [Bélgica](/selecciones/BEL) para el Mundial 2026. La lista mantiene el bloque de la generación dorada (Courtois, De Bruyne, Lukaku, Trossard, Doku) y suma una incorporación llamativa: **Matías Fernández-Pardo**, extremo del Lille, jugador con doble nacionalidad española e italiana que tras "meses de reflexión" elige defender la camiseta de los Diablos Rojos.
+
+**Courtois capitán por sexto Mundial**. Thibaut Courtois (Real Madrid) repite como capitán de Bélgica por séptimo año consecutivo. El portero del Real Madrid, que en Qatar 2022 estaba lesionado, llega a su primer Mundial completo desde Rusia 2018 (donde Bélgica fue tercera). El brazalete refuerza la jerarquía del Madrid en una selección que combina cabezas de Premier League (Tottenham, Manchester City) con jugadores en LaLiga y Bundesliga.
+
+**El caso Fernández-Pardo**. La noticia más comentada es la elección de **Matías Fernández-Pardo**, de 21 años, extremo del Lille con nacionalidad española e italiana. Anteriormente había manifestado su intención de jugar siempre con España y formó parte de las categorías inferiores, pero Luis de la Fuente no lo incluyó ni en la [prelista de 55 de España](/noticias/carvajal-fuera-prelista-espana-mundial-2026-morata-fabian-ruiz-real-madrid-3-jugadores) ni en convocatorias previas de la absoluta. Tras "reflexionar largamente estos últimos meses", opta por Bélgica y se incorpora al cuerpo de extremos junto a Doku y Trossard. Es la baja simbólica más dolorosa para España y la sorpresa más positiva del cuerpo técnico belga.
+
+**Generación dorada + sangre nueva**. Junto a Courtois, De Bruyne (Manchester City) y Lukaku (Inter de Milán, capitán alternativo), aparecen los habituales Hans Vanaken, Yannick Carrasco y Axel Witsel. La nueva generación está representada por Jérémy Doku (Manchester City), Leandro Trossard (Arsenal), Charles De Ketelaere (Atalanta), Loïs Openda (Leipzig) y Romeo Lavia (Chelsea). Rudi García ha enfatizado el "equilibrio entre experiencia y juventud" en su rueda de prensa.
+
+**Grupo asequible**. Bélgica ha quedado encuadrada en un grupo cómodo: **Egipto**, **Irán** y **Nueva Zelanda**. Es el grupo más asequible de los Diablos Rojos en décadas y compensa parcialmente la decepción de Qatar 2022 (eliminada en fase de grupos por Marruecos y Croacia). El objetivo declarado es **superar octavos** y volver a la senda de Rusia 2018.
+
+**Camino al Mundial**. La selección se concentra el **22 de mayo** en Tubize y disputa dos amistosos antes del torneo: contra Eslovaquia el 6 de junio y contra Australia el 9 de junio. Si quieres seguir a Bélgica por todo el Mundial 2026, el paquete [Follow My Team Bélgica](/2026/hospitality/selecciones/BEL) de FIFA Hospitality arranca en 6.500 USD.`,
+    category: 'convocatorias',
+    sourceName: 'OK Diario',
+    sourceUrl:
+      'https://okdiario.com/mundial/belgica-da-lista-mundial-courtois-como-lider-espanol-matias-fernandez-pardo-16806051',
+    sourceLang: 'es',
+    publishedAt: '2026-05-15T11:00:00Z',
+    sourcesSecondary: [],
+  },
+  {
+    slug: 'prelista-colombia-mundial-2026-nestor-lorenzo-james-luis-diaz-ospina-falcao-fuera',
+    title:
+      'Colombia entrega su prelista para el Mundial 2026: Néstor Lorenzo cita a James, Luis Díaz y Ospina, deja fuera a Falcao por falta de continuidad',
+    summary:
+      'Néstor Lorenzo ha presentado la prelista de Colombia para el Mundial 2026 en la sede de la Federación Colombiana de Fútbol. James Rodríguez, Luis Díaz y David Ospina lideran un bloque cafetero que confirma el cambio de ciclo. Falcao queda fuera por falta de continuidad. La lista definitiva de 26 se anunciará el 26 de mayo en el partido amistoso vs Costa Rica en El Campín.',
+    body: `**Néstor Lorenzo** ha entregado este 14 de mayo a FIFA la prelista de [Colombia](/selecciones/COL) para el Mundial 2026. El anuncio se realizó en la sede de la Federación Colombiana de Fútbol (FCF) en Bogotá. La lista mantiene a los referentes históricos del ciclo —James Rodríguez (Rayo Vallecano), Luis Díaz (Liverpool) y David Ospina (Atlético Nacional)— pero confirma la **ausencia de Radamel Falcao García**, una decisión esperada pero dolorosa para el Tigre.
+
+**El caso Falcao**. El delantero del Millonarios, ídolo histórico del fútbol colombiano y máximo goleador de la Tricolor con 35 dianas, queda fuera de la lista por **falta de continuidad** en la temporada 2025-26. Lorenzo justificó: *"Yo lo pensé como jugador al principio del proceso, si hubiera tenido un nivel competitivo como el resto de compañeros que están en la lista, él estaría por lo que representa para el fútbol"*. Falcao, de 39 años, ha jugado pocos minutos esta temporada y no recibe la llamada al que habría sido su primer Mundial desde Rusia 2018 (Brasil 2014 lo perdió por lesión).
+
+**Eje James + Luis Díaz**. James Rodríguez (Rayo Vallecano), goleador histórico de Brasil 2014 con el Botín de Oro, sigue siendo el director de orquesta. Junto a él, **Luis Díaz** (Liverpool), tras una temporada irregular, recupera la titularidad por la banda izquierda. **Jhon Jáder Durán** (Aston Villa) y **Sebastián Villa** (Boca Juniors) son las sorpresas ofensivas — Villa especialmente, tras polémicas extradeportivas que parecían cerrarle la puerta. **Mateus Uribe** y **Jefferson Lerma** dominan el medio campo.
+
+**Defensa con Mina y Lucumí**. Yerry Mina (Cagliari), Davinson Sánchez (Galatasaray), Jhon Lucumí (Bologna), Daniel Muñoz (Crystal Palace) y Johan Mojica (Mallorca) configuran la línea defensiva. **David Ospina** (Atlético Nacional, 38 años) sigue siendo el portero indiscutible.
+
+**El siguiente hito: 26 mayo**. La lista definitiva de **26 convocados** se anunciará en un evento especial el **26 de mayo**, antes del partido amistoso de Colombia vs Costa Rica en el Estadio El Campín de Bogotá. James Rodríguez se incorporará a la concentración el **17 de mayo**. La fecha límite FIFA para entregar la lista definitiva es el 1 de junio.
+
+**Camino al Mundial**. Colombia, tercera en la Copa América 2024, llega al torneo como una de las máximas favoritas sudamericanas tras Brasil y Argentina. El sorteo dejó a la Tricolor en un grupo competitivo. Si quieres seguir a Colombia, el paquete [Follow My Team](/2026/hospitality/selecciones/COL) arranca en 6.500 USD.`,
+    category: 'convocatorias',
+    sourceName: 'Sport',
+    sourceUrl: 'https://www.sport.es/es/noticias/mundial-futbol/lista-colombia-mundial-2026-nestor-130244173',
+    sourceLang: 'es',
+    publishedAt: '2026-05-14T16:00:00Z',
+    sourcesSecondary: [
+      {
+        name: 'Semana · Prelista Selección Colombia Mundial 2026',
+        url: 'https://www.semana.com/deportes/articulo/prelista-de-la-seleccion-colombia-al-mundal-2026-nestor-lorenzo-confirmo-la-lista/202631/',
+      },
+      {
+        name: 'Infobae · Durán y Villa entre las sorpresas',
+        url: 'https://www.infobae.com/colombia/deportes/2026/05/14/nestor-lorenzo-dio-a-conocer-la-prelista-de-la-seleccion-colombia-de-cara-al-mundial-2026-estos-son-los-elegidos/',
+      },
+      {
+        name: 'FCF · Lista previa de convocados Colombia',
+        url: 'https://fcf.com.co/2026/05/14/seleccion-colombia-masculina-de-mayores-lista-previa-de-convocados-para-la-copa-mundial-de-la-fifa-2026/',
+      },
+      {
+        name: 'CNN · Sorpresas, ausencias y la polémica de Villa',
+        url: 'https://cnnespanol.cnn.com/2026/05/14/deportes/prelista-colombia-mundial-sorpresas-polemica-villa-orix',
+      },
+    ],
+  },
+  {
+    slug: 'haiti-lista-mundial-2026-sebastien-migne-bellegarde-isidor-nazon-grupo-c-brasil-escocia-marruecos',
+    title:
+      'Haití anuncia su lista para el Mundial 2026: primera Concacaf en revelarla, vuelve al torneo 52 años después y se mete en el "grupo de la muerte" con Brasil, Escocia y Marruecos',
+    summary:
+      'Sébastien Migné ha presentado los 26 convocados de Haití para el Mundial 2026, primera selección de Concacaf en hacerlo. Es la segunda participación de la historia de Haití en un Mundial tras Alemania 1974, hace 52 años. Bellegarde (Wolverhampton), Isidor (Sunderland) y Nazon lideran el plantel. El Grupo C es el más complicado: Brasil, Escocia y Marruecos.',
+    body: `**Sébastien Migné** ha hecho oficial los 26 convocados de [Haití](/selecciones/HAI) para el Mundial 2026. Es la **primera selección de la Concacaf en revelar la lista**, una decisión deliberada del cuerpo técnico para tener el máximo tiempo de preparación posible. Haití vuelve a un Mundial **52 años después de Alemania 1974**, su única participación previa.
+
+**El bloque europeo**. Cuatro jugadores de Premier League encabezan la lista: **Jean-Ricner Bellegarde** (Wolverhampton, mediocampista creativo) y **Wilson Isidor** (Sunderland, delantero centro) son las dos puntas del proyecto ofensivo. Junto a ellos, **Duckens Nazon** (rotación entre Ligue 2 francesa y MLS) y el portero veterano **Johny Placide** completan el bloque experimentado. Ricardo Adé y los hermanos Dorny refuerzan el medio.
+
+**El cuerpo técnico francés**. Migné, francés de 51 años, tomó las riendas de Haití en 2024 después de la decepción del 2023. Su declaración tras anunciar la lista marca el tono del proyecto: *"Este es un momento especial porque es el inicio de un nuevo roadmap para los 26 convocados"*. Migné apuesta por un bloque defensivo cohesionado y dos transiciones rápidas sobre Bellegarde e Isidor.
+
+**Grupo C, el "grupo de la muerte"**. Haití ha quedado en lo que la prensa internacional llama ya **el grupo más complicado del torneo**: debuta el **13 de junio vs Escocia**, el **19 de junio vs Brasil** y el **24 de junio vs Marruecos**. Tres rivales que en cualquier otro sorteo serían cabeza de serie de grupo. El objetivo declarado por Migné es **al menos llegar a la siguiente fase**: con el nuevo formato de 48 selecciones, hay repechaje a octavos para el tercer puesto si el rendimiento es alto.
+
+**Preparación en Florida**. Haití concentra desde el **24 de mayo en Florida** y disputa dos amistosos: el **2 de junio vs Nueva Zelanda** y el **5 de junio vs Perú**. La elección de Florida como base de entrenamiento responde a logística (proximidad a Puerto Príncipe y a Atlanta, sede de su primer partido) y a la presencia de una comunidad haitiana muy numerosa en Miami que se espera vuelva el ambiente del estadio en cada encuentro.
+
+**Lo que se juega Haití**. Más allá del resultado deportivo, Haití llega al Mundial 2026 como **historia social**. El país atraviesa una crisis política y humanitaria desde 2021, y la clasificación al torneo se ha convertido en un símbolo de resistencia nacional. La selección entrenó en exilio durante meses por la inseguridad en Puerto Príncipe. Cualquier resultado positivo, aunque sea un empate ante Escocia o un gol al MetLife Stadium en el partido vs Brasil, será celebrado como milagro. La AFP, Reuters y AP cubrirán cada movimiento con atención especial.
+
+**Calendario**. La lista de Migné es definitiva — el plazo del 1 de junio solo aplica a reemplazos por lesión. Si quieres seguir a Haití por su histórica vuelta al Mundial, el paquete [Follow My Team Haití](/2026/hospitality/selecciones/HAI) arranca en 6.500 USD aunque la operativa de la FCH (Federación Haitiana) recomienda canales independientes por la situación administrativa.`,
+    category: 'convocatorias',
+    sourceName: 'Marca · Mundial',
+    sourceUrl: 'https://www.marca.com/futbol/mundial/2026/05/15/cenicienta-haiti-anuncia-lista-mundial.html',
+    sourceLang: 'es',
+    publishedAt: '2026-05-15T10:00:00Z',
+    sourcesSecondary: [
+      {
+        name: 'beIN Sports · La lista oficial de Sébastien Migné y Haití',
+        url: 'https://www.beinsports.com/es-us/football/copa-mundial-de-la-fifa-2026/articles/la-lista-oficial-de-s%C3%A9bastien-mign%C3%A9-y-hait%C3%AD-para-la-copa-mundial-de-la-fifa-2026-2026-05-15',
+      },
+      {
+        name: 'Infobae · Isidor, Bellegarde y Nazon principales figuras',
+        url: 'https://www.infobae.com/america/agencias/2026/05/15/haiti-divulga-su-lista-de-26-con-isidor-bellegarde-y-nazon-como-principales-figuras/',
+      },
+      {
+        name: '442 (Perfil) · Primera selección Concacaf en revelar convocados',
+        url: 'https://442.perfil.com/noticias/futbol/haiti-es-la-primera-seleccion-de-concacaf-en-revelar-sus-convocados-para-el-mundial-2026.phtml',
+      },
+      {
+        name: 'NTN24 · Objetivo histórico en el "grupo de la muerte"',
+        url: 'https://www.ntn24.com/noticias-deportes/haiti-presenta-la-lista-de-convocados-para-el-mundial-y-tiene-como-objetivo-hacer-historia-en-el-grupo-de-la-muerte-622282',
+      },
+    ],
+  },
+  {
+    slug: 'convocatoria-costa-de-marfil-mundial-2026-emerse-fae-kessie-pepe-haller-fuera-grupo-e-alemania-ecuador-curazao',
+    title:
+      'Costa de Marfil anuncia su lista para el Mundial 2026: Kessié capitán, Pépé referente ofensivo y Sébastien Haller fuera de la lista pese a su gol en la Copa Africana 2024',
+    summary:
+      'Emerse Faé ha confirmado los 26 convocados de Costa de Marfil para el Mundial 2026. Franck Kessié lleva el brazalete, Nicolas Pépé es el referente ofensivo y Amad Diallo y Yan Diomande aportan juventud. Sébastien Haller, héroe de la Copa Africana 2024, queda fuera por bajo rendimiento. Los Elefantes vuelven al Mundial tras 12 años en el Grupo E con Alemania, Ecuador y Curazao.',
+    body: `**Emerse Faé** ha hecho oficial los 26 convocados de [Costa de Marfil](/selecciones/CIV) para el Mundial 2026. Los Elefantes vuelven a un Mundial **12 años después de Brasil 2014** —su última aparición— y lo hacen con el respaldo de la Copa Africana 2024 ganada en casa contra todo pronóstico. La lista mezcla experiencia (Kessié, Pépé, Haller... no, Haller fuera), talento emergente (Diomande, Diallo) y un equipo dirigido por el propio Faé, que asumió el banquillo tras la marcha de Jean-Louis Gasset.
+
+**El gran golpe: Haller fuera**. La gran sorpresa de la lista es la **ausencia de Sébastien Haller**, héroe nacional por marcar el gol decisivo en la final de la Copa Africana 2024 ante Nigeria. El delantero, ex-Borussia Dortmund que se recuperó de un cáncer testicular en 2022, no ha tenido continuidad en el ciclo post-Africana y Faé apuesta por la cantera: **Amad Diallo** (Manchester United) y **Yan Diomande** (RB Leipzig, revelación de la Bundesliga 2025-26) son los nuevos pilares ofensivos.
+
+**Kessié, capitán natural**. **Franck Kessié** (Al-Ahli), mediocampista de ida y vuelta con pasado en AC Milan y FC Barcelona, lleva el brazalete. Es el jugador con más experiencia internacional de los 26 (91 partidos, 19 goles, 8 asistencias) y la voz del vestuario. Junto a él en el medio, **Ibrahim Sangaré** (Nottingham Forest) y **Seko Fofana** (Al-Nassr) son los pivotes defensivos.
+
+**Pépé sigue en la ofensiva**. **Nicolas Pépé** (Trabzonspor), ex-Arsenal y figura referencial de la generación dorada de Costa de Marfil, sigue en la lista a sus 30 años pese a no jugar en una liga top. Es el principal proveedor de asistencias del equipo. **Simon Adingra** (Brighton), **Sébastien Bahoken** y **Yan Diomande** completan el cuerpo de extremos.
+
+**Defensa con Singo y Bailly**. **Wilfried Singo** (Monaco), **Eric Bailly** (Marsella) y **Willy Boly** (Nottingham Forest) son la columna defensiva. **Serge Aurier**, exterior derecho histórico, sigue al servicio del equipo a sus 33 años.
+
+**Grupo E: rival exigente**. Costa de Marfil ha quedado encuadrada en el **Grupo E con Alemania, Ecuador y Curazao**. Es un grupo desigual: Alemania favorita clarísima, Costa de Marfil y Ecuador disputándose el segundo puesto y Curazao como cenicienta. El primer partido es contra Ecuador.
+
+**El proyecto Faé**. Emerse Faé, ex-jugador y nuevo seleccionador, ha apostado por **construir desde la cantera**. La filosofía del cuerpo técnico mezcla la solidez defensiva clásica de Costa de Marfil con una transición ofensiva más vertical liderada por Diomande. El objetivo declarado es **superar la fase de grupos** —algo que Costa de Marfil solo logró en Brasil 2014— y llegar al menos a octavos.
+
+**Camino al Mundial**. La selección se concentra el **20 de mayo en Abidjan** y disputa dos amistosos: contra Marruecos el 4 de junio en Casablanca y contra Senegal el 9 de junio en Dakar. Si quieres seguir a Costa de Marfil, el paquete [Follow My Team](/2026/hospitality/selecciones/CIV) arranca en 6.500 USD.`,
+    category: 'convocatorias',
+    sourceName: 'FIFA',
+    sourceUrl:
+      'https://www.fifa.com/es/tournaments/mens/worldcup/canadamexicousa2026/articles/costa-de-marfil-convocatoria-emerse-fae',
+    sourceLang: 'es',
+    publishedAt: '2026-05-15T12:00:00Z',
+    sourcesSecondary: [
+      {
+        name: 'Telemundo · Kessié lidera una convocatoria poderosa',
+        url: 'https://www.telemundo.com/deportes/copa-mundial-de-la-fifa-2026/costa-de-marfil-kessie-lidera-una-convocatoria-poderosa-que-busca-hace-rcna345375',
+      },
+      {
+        name: 'El Diario Ec · Sin Haller, sorpresa por la cantera',
+        url: 'https://www.eldiario.ec/deportes/sin-sebastien-haller-la-sorpresiva-lista-de-costa-de-marfil-para-debutar-ante-ecuador-15052026/',
+      },
+      {
+        name: 'beIN Sports · Plantilla, figuras y todo lo que debes saber',
+        url: 'https://www.beinsports.com/es-us/football/copa-mundial-de-la-fifa-2026/articles/costa-de-marfil-en-el-mundial-2026-plantilla-figuras-y-todo-lo-que-debes-saber-2026-05-15',
+      },
+      {
+        name: 'Sporting News · Lista de convocados Marruecos (referencia previa)',
+        url: 'https://www.sportingnews.com/es/futbol/news/lista-convocados-marruecos-mundial-2026-plantilla-jugadores/bacb10d9761fa733469e58f1',
+      },
+    ],
+  },
+  {
     slug: 'convocatoria-francia-mundial-2026-deschamps-26-mbappe-dembele-camavinga-fuera-sorpresa',
     title:
       'Francia anuncia su lista oficial para el Mundial 2026: Deschamps confirma a Mbappé y Dembélé, deja fuera a Camavinga y Kolo Muani',
