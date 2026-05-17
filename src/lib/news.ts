@@ -73,6 +73,146 @@ export type NewsItem = {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'previa-convocatorias-mundial-2026-croacia-18-mayo-alemania-holanda-inglaterra-pendientes-17-mayo',
+    title:
+      'Convocatorias Mundial 2026: Croacia anuncia este lunes la suya, Alemania, Holanda e Inglaterra siguen sin pronunciarse a 16 días del primer partido',
+    summary:
+      'A 16 días del debut del Mundial 2026 (México vs Sudáfrica, 11 de junio en el Estadio Azteca), 12 selecciones ya han presentado prelista o lista definitiva. Quedan pendientes Alemania, Holanda, Inglaterra y Portugal entre las grandes, con plazo FIFA del 1 de junio. La próxima en anunciar es Croacia este lunes 18 de mayo.',
+    body: `A **16 días del debut del Mundial 2026** —jueves 11 de junio, México vs Sudáfrica en el [Estadio Azteca](/2026/sedes/ciudad-de-mexico)—, el calendario de convocatorias entra en su tramo decisivo. Doce selecciones ya han presentado lista (prelista de 55 o definitiva de 26) y el resto debe hacerlo antes del **1 de junio**, fecha límite que marca el reglamento FIFA para entregar la nómina oficial de 26 jugadores con tres porteros obligatorios.
+
+**Las 12 selecciones que ya han movido ficha**:
+
+- 🇧🇷 **Brasil** (11 may): prelista de 55 de Carlo Ancelotti con Neymar dentro y Rodrygo fuera.
+- 🇦🇷 **Argentina** (11 may): los 55 de Scaloni con Messi, sin Dybala, con Mastantuono y Echeverri como sorpresas.
+- 🇪🇸 **España** (11 may): los 55 de Luis de la Fuente con Yamal, Pedri y Rodri tocados pero dentro. [Carvajal fuera](/noticias/carvajal-fuera-prelista-espana-mundial-2026-morata-fabian-ruiz-real-madrid-3-jugadores).
+- 🇸🇪 **Suecia** (12 may): definitiva de 26 de Graham Potter sin Isak ni Gyökeres.
+- 🇫🇷 **Francia** (14 may): [los 26 de Deschamps](/noticias/convocatoria-francia-mundial-2026-deschamps-26-mbappe-dembele-camavinga-fuera-sorpresa) con Mbappé y Dembélé, Camavinga fuera.
+- 🇯🇵 **Japón** (14 may): los 26 de Moriyasu con Endo capitán.
+- 🇧🇪 **Bélgica** (15 may): [los 26 de Rudi García](/noticias/convocatoria-belgica-mundial-2026-rudi-garcia-courtois-de-bruyne-lukaku-matias-fernandez-pardo) con el español Matías Fernández-Pardo como sorpresa.
+- 🇨🇴 **Colombia** (14 may): prelista de Néstor Lorenzo con Falcao fuera.
+- 🇭🇹 **Haití** (15 may): los 26 de Sébastien Migné. Primera Concacaf en revelar definitiva.
+- 🇨🇮 **Costa de Marfil** (15 may): los 26 de Emerse Faé sin Haller.
+- 🇨🇭 **Suiza** (anunciada esta semana): 26 de Murat Yakin.
+- 🇹🇳 **Túnez** (15 may): 26 definitivos.
+
+**La próxima: Croacia este lunes 18 de mayo**. Zlatko Dalić ha confirmado que hará pública la lista de 26 de los subcampeones de Rusia 2018 el lunes a las 11:00 hora de Zagreb (10:00 hora peninsular española) en la sede de la HNS en Zagreb. Modrić, sin equipo desde su salida del Real Madrid y firmado por el Milan en marzo, está confirmado pese a sus 40 años: será su quinto Mundial consecutivo (récord). La duda principal en el medio es Brozović (Al-Nassr) por su edad y minutos.
+
+**Las grandes que faltan**. Entre las 48 selecciones del torneo, todavía no han pronunciado palabra oficial las siguientes potencias:
+
+- 🇩🇪 **Alemania**: Julian Nagelsmann anunciará entre el 22-24 de mayo. Toni Kroos retirado, Jamal Musiala duda por lesión muscular.
+- 🇳🇱 **Países Bajos**: Ronald Koeman tiene previsto el 21 de mayo. Memphis Depay regresa tras temporada irregular.
+- 🇬🇧 **Inglaterra**: Thomas Tuchel anunciará el 25 de mayo en Wembley. Foden, Bellingham y Saka confirmados; Harry Kane vuelve de lesión.
+- 🇵🇹 **Portugal**: Roberto Martínez tiene previsto el 23 de mayo. Cristiano Ronaldo confirmado para su sexto Mundial. Bernardo Silva, Bruno Fernandes y João Félix dentro.
+- 🇲🇽 **México** (anfitriona): Javier Aguirre anunciará el 26 de mayo en La Trinchera (Coapa). Tras la Copa América 2024 desastrosa, hay aire de cambio.
+- 🇺🇸 **Estados Unidos** (anfitriona): Mauricio Pochettino anunciará el 24 de mayo. Pulisic capitán confirmado, Yunus Musah y Antonee Robinson dentro.
+- 🇨🇦 **Canadá** (anfitriona): Jesse Marsch anunciará el 28 de mayo. Alphonso Davies como referente.
+
+**El cronograma del 25 mayo - 1 junio**. La fecha límite FIFA es el **1 de junio a las 23:59 UTC**. Las selecciones que ya entregaron prelista de 55 (España, Argentina, Brasil, Colombia) deben enviar la lista reducida a 26 antes de esa fecha. Las que aún no han enviado nada (Alemania, Inglaterra, Holanda, etc.) tienen hasta el 1 de junio para entregar directamente los 26 definitivos. La operativa FIFA permite **reemplazos por lesión hasta 24 horas antes** del primer partido de cada selección.
+
+**Lo que se sabrá esta semana**. Croacia (18 may) abre la rueda final. Le seguirán Holanda (21 may), Alemania (22-24 may), Portugal (23 may), USA (24 may), Inglaterra (25 may), España definitiva (25 may), México (26 may), Argentina definitiva (27 may) y Canadá (28 may). La última en pronunciarse será probablemente Catar (30 may) o Cabo Verde (31 may, primer Mundial de su historia y aún sin federación confirmando fecha).
+
+**Calendario completo del Mundial 2026** y previa de cada selección en [/2026/listas](/2026/listas) y [/2026/convocatorias](/2026/convocatorias). Si quieres seguir el camino de tu selección con [Follow My Team](/2026/hospitality), los paquetes hospitality oficiales arrancan en 6.500 USD.`,
+    category: 'convocatorias',
+    sourceName: 'BeSoccer',
+    sourceUrl: 'https://es.besoccer.com/noticia/convocatorias-listas-todas-selecciones-mundial-2026-1408032',
+    sourceLang: 'es',
+    publishedAt: '2026-05-17T10:00:00Z',
+    sourcesSecondary: [
+      {
+        name: 'El Financiero · Calendario de convocatorias Mundial 2026',
+        url: 'https://www.elfinanciero.com.mx/deportes/mundial-2026/2026/05/13/calendario-de-convocatorias-para-el-mundial-2026-cuando-anuncia-cada-seleccion-la-lista-definitiva/',
+      },
+      {
+        name: 'Olympics.com · Listas de las 48 selecciones',
+        url: 'https://www.olympics.com/es/noticias/mundial-2026-listas-48-selecciones',
+      },
+      {
+        name: 'Récord · Fechas clave de convocatorias',
+        url: 'https://www.record.com.mx/historia/mundial-2026-las-fechas-clave-para-conocer-a-los-convocados-de-cada-pais-2026051223050828938',
+      },
+      {
+        name: 'TUDN · Convocatorias y listas finales de las 48 selecciones',
+        url: 'https://www.tudn.com/mundial-2026/mundial-2026-todas-las-convocatorias-y-listas-finales-de-las-48-selecciones-para-la-copa-del-mundo',
+      },
+      {
+        name: 'ClaroSports · A un mes del Mundial 2026',
+        url: 'https://www.clarosports.com/futbol/mundial-2026/a-un-mes-del-mundial-2026-asi-avanzan-las-listas-oficiales-sedes-y-fechas-clave-rumbo-a-la-copa-del-mundo/',
+      },
+    ],
+  },
+  {
+    slug: 'fifa-triplica-precios-entradas-mundial-2026-categoria-1-final-32000-dolares-500-millones-solicitudes-amnistia',
+    title:
+      'FIFA triplica el precio de las mejores entradas para la final del Mundial 2026 hasta 32.000 USD y recibe 500 millones de solicitudes — diez veces más que Qatar 2022',
+    summary:
+      'FIFA ha confirmado que los boletos de Categoría 1 para la final del Mundial 2026 alcanzan los **32.000 USD** —tres veces el precio máximo en Qatar 2022— y revela que ha recibido más de **500 millones de solicitudes** durante la primera fase de venta. La demanda histórica obliga a una "amnistía" para regularizar peticiones duplicadas y rebajar la presión.',
+    body: `**FIFA ha confirmado oficialmente** los precios definitivos de la primera fase de venta de entradas para el Mundial 2026 y la cifra que ha generado más controversia es el techo: **32.000 USD por una entrada de Categoría 1 (Central VIP) para la final del 19 de julio** en el [MetLife Stadium de Nueva York/NJ](/2026/sedes/nueva-york). Es tres veces el precio máximo de Qatar 2022 (10.000 USD) y la mayor inflación de precios entre dos Mundiales consecutivos en la historia del torneo.
+
+**El abanico completo de precios**. La estructura tarifaria oficial publicada por FIFA en mayo de 2026:
+
+- **Categoría 4 (asiento más alejado, gradería superior)**: desde **60 USD** para partidos de grupos
+- **Categoría 3**: 120-300 USD grupos / 350-800 USD octavos-cuartos
+- **Categoría 2**: 300-700 USD grupos / 800-2.000 USD octavos-cuartos
+- **Categoría 1 (Central inferior, mejor ángulo)**: 700-1.500 USD grupos / 2.000-8.000 USD octavos-cuartos / 12.000-32.000 USD final
+
+El partido inaugural México-Sudáfrica en el Estadio Azteca tiene un techo de **2.300 USD** en Categoría 1. La final del 19 de julio es donde el pricing se dispara: **32.000 USD por asiento**. Y eso solo en venta oficial — la reventa autorizada en la plataforma FIFA Tickets supera ya los 50.000-70.000 USD para las mejores ubicaciones.
+
+**Demanda histórica: más de 500 millones de solicitudes**. La FIFA ha confirmado que la primera fase de venta ("Visa Presale Draw", abierta del 10 de septiembre al 19 de octubre de 2025) recibió **más de 500 millones de solicitudes de tickets**. Como referencia:
+
+- Qatar 2022: 23,5 millones de solicitudes
+- Rusia 2018: 18,7 millones de solicitudes
+- Brasil 2014: 11,1 millones de solicitudes
+
+El Mundial 2026 supera por **20-50 veces** la demanda de las ediciones anteriores. La razón es múltiple: 48 selecciones (vs 32) = más fans elegibles, tres países anfitriones con población combinada de 500 millones, primera celebración del centenario del Mundial (Uruguay 1930) y una operativa de comunicación inédita por parte de FIFA.
+
+**La "amnistía" FIFA**. Ante el caos administrativo, FIFA ha activado una **regularización de cuentas duplicadas** entre el 5 y el 20 de mayo: si un usuario abrió varias cuentas con el mismo nombre/email para multiplicar oportunidades en el sorteo, puede consolidarlas sin penalización antes del 20 de mayo. Después de esa fecha, las cuentas duplicadas serán **canceladas automáticamente** y los tickets en su poder devueltos al pool de venta.
+
+**Por qué los precios disparan tanto**. FIFA ha justificado el aumento con tres argumentos:
+
+1. **"Demanda real del mercado"**: con 500 millones de solicitudes y aforos limitados (la final tiene 82.500 asientos en MetLife), el equilibrio oferta-demanda obliga a precios altos. FIFA argumenta que la reventa en mercado secundario los superaría igualmente.
+2. **Inflación dolar 2022-2026**: ~16% de IPC acumulado. Pero el aumento de FIFA en Categoría 1 final es del **220%**, muy por encima de la inflación.
+3. **Costes operativos USA-CAN-MEX**: tres países, 16 sedes, operativa de seguridad triplicada, transporte intersede, alojamiento del staff FIFA, etc.
+
+**El argumento real**. El motivo no declarado pero evidente es que la final del Mundial es **el evento deportivo individual de mayor audiencia del mundo** (1.500-2.000 millones de espectadores) y FIFA tiene un monopolio absoluto. El mercado secundario validará los precios: si una entrada de 32.000 USD se revende a 50.000, FIFA ha quedado por debajo del valor de mercado.
+
+**Las próximas fases de venta**. Tras la presale Visa de septiembre-octubre 2025, FIFA ha abierto en mayo 2026 la **Random Selection Draw** (sorteo aleatorio para mayores de 18 años con FIFA ID activo y tarjeta Visa). Los seleccionados reciben confirmación a partir del **29 de mayo**. Los no seleccionados pasan a la **First-Come First-Served Sale** desde junio 2026 hasta agotar stock. La fase final de **Last-Minute Sales** se abre 24-48 horas antes de cada partido.
+
+**Cómo no caer en estafa**. FIFA repite el mensaje: **fifa.com/tickets es la única vía oficial**. El portal de hospitality fifaworldcup26.hospitality.fifa.com (gestionado por On Location) es el canal oficial para paquetes premium con catering y lounge. Cualquier otra plataforma de reventa es **mercado negro**: tickets cancelables en la puerta del estadio sin reembolso. Más detalle en nuestra guía [entradas Mundial 2026](/2026/entradas) y [hospitality oficial](/2026/hospitality).
+
+**Lo que viene**. El **calendario de venta oficial** publicado por FIFA marca **abril-mayo 2026** para sorteo aleatorio, **junio 2026** para venta directa, **julio** para últimas oportunidades. La final del 19 de julio se prevé sold out tres meses antes del partido. Las únicas vías de acceso garantizado en ese momento serán hospitality oficial (desde 4.500 USD/persona) y mercado secundario regulado por FIFA.`,
+    category: 'entradas',
+    sourceName: 'Telemundo',
+    sourceUrl: 'https://www.telemundopr.com/deportes-5/copa-mundial-fifa/fifa-triplica-precio-entradas-primera-categoria-copa-mundial-2026/2809854/',
+    sourceLang: 'es',
+    publishedAt: '2026-05-16T11:00:00Z',
+    sourcesSecondary: [
+      {
+        name: 'El Cronista · FIFA dicta amnistía y sube precio de entradas',
+        url: 'https://www.cronista.com/columnistas/mundial-2026-fifa-dicta-una-amnistia-y-sube-el-precio-de-las-entradas/',
+      },
+      {
+        name: 'Olympics.com · Boletos Mundial 2026: cuánto, dónde y cómo',
+        url: 'https://www.olympics.com/es/noticias/mundial-2026-cuanto-boletos-donde',
+      },
+      {
+        name: '365 Scores · Boletos Mundial 2026: Precios, sedes y compra',
+        url: 'https://www.365scores.com/es/news/entradas-mundial-2026-precios-compra/',
+      },
+      {
+        name: 'El Financiero · FIFA defiende el precio de los boletos',
+        url: 'https://www.elfinanciero.com.mx/deportes/mundial-2026/2026/05/06/fifa-defiende-el-precio-de-los-boletos-del-mundial-2026-los-compran-en-reventa-y-mas-caros/',
+      },
+      {
+        name: 'Vanguardia · Guía FIFA Pavilion Mundial 2026 hospitality',
+        url: 'https://vanguardia.com.mx/deportes/guia-fifa-pavilion-mundial-2026-precios-que-incluye-y-como-comprar-hospitality-en-las-16-sedes-oficiales-EC20113153',
+      },
+      {
+        name: 'Goal · Guía sobre fase de venta de última hora',
+        url: 'https://www.goal.com/en-us/news/how-to-buy-world-cup-tickets/blt13fd3078b4ca56ce',
+      },
+    ],
+  },
+  {
     slug: 'banxico-12-monedas-conmemorativas-mundial-2026-mexico-bimetalicas-plata-oro-cdmx-guadalajara-monterrey',
     title:
       'Banxico lanza 12 monedas conmemorativas del Mundial 2026: 4 bimetálicas de $20, 4 de plata fina de $10 y 4 de oro de $25 dedicadas a CDMX, Guadalajara, Monterrey y México anfitrión',
