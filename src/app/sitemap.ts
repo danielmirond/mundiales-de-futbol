@@ -65,17 +65,28 @@ function entry(
   lastMod: Date,
   changeFreq: 'daily' | 'weekly' | 'monthly' | 'yearly' = 'monthly',
   priority = 0.5,
+  /**
+   * Si true, NO declara alternates para otros idiomas. Útil para páginas
+   * que solo están traducidas a español (las nuevas de clusters
+   * coleccionismo / hospitality / normas-estadios). Evita que Google
+   * indexe `/en/...` con contenido en español → duplicate content.
+   */
+  esOnly = false,
 ): MetadataRoute.Sitemap[number] {
   return {
     url: `${SITE}${path}`,
     lastModified: lastMod,
     changeFrequency: changeFreq,
     priority,
-    alternates: {
-      languages: Object.fromEntries(
-        routing.locales.map((l) => [l, localeHref(l, path)]),
-      ),
-    },
+    ...(esOnly
+      ? {}
+      : {
+          alternates: {
+            languages: Object.fromEntries(
+              routing.locales.map((l) => [l, localeHref(l, path)]),
+            ),
+          },
+        }),
   };
 }
 
@@ -101,60 +112,60 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   out.push(entry('/2026/listas', now, 'daily', 0.9));
   out.push(entry('/2026/mascotas', now, 'monthly', 0.8));
   // Cluster Normas Estadios Mundial 2026 (pillar + 6 sub-páginas)
-  out.push(entry('/2026/normas-estadios', now, 'weekly', 0.95));
-  out.push(entry('/2026/normas-estadios/mochila-transparente', now, 'weekly', 0.85));
-  out.push(entry('/2026/normas-estadios/items-prohibidos', now, 'weekly', 0.85));
-  out.push(entry('/2026/normas-estadios/que-puedes-llevar', now, 'weekly', 0.85));
-  out.push(entry('/2026/normas-estadios/alcohol-por-pais', now, 'weekly', 0.85));
-  out.push(entry('/2026/normas-estadios/banderas-y-mensajes', now, 'weekly', 0.85));
-  out.push(entry('/2026/normas-estadios/sanciones', now, 'weekly', 0.8));
+  out.push(entry('/2026/normas-estadios', now, 'weekly', 0.95, true));
+  out.push(entry('/2026/normas-estadios/mochila-transparente', now, 'weekly', 0.85, true));
+  out.push(entry('/2026/normas-estadios/items-prohibidos', now, 'weekly', 0.85, true));
+  out.push(entry('/2026/normas-estadios/que-puedes-llevar', now, 'weekly', 0.85, true));
+  out.push(entry('/2026/normas-estadios/alcohol-por-pais', now, 'weekly', 0.85, true));
+  out.push(entry('/2026/normas-estadios/banderas-y-mensajes', now, 'weekly', 0.85, true));
+  out.push(entry('/2026/normas-estadios/sanciones', now, 'weekly', 0.8, true));
   // Cluster Hospitality Mundial 2026 (pillar + 6 fijas + 2 índices)
-  out.push(entry('/2026/hospitality', now, 'weekly', 0.95));
-  out.push(entry('/2026/hospitality/productos', now, 'weekly', 0.9));
-  out.push(entry('/2026/hospitality/precios', now, 'weekly', 0.9));
-  out.push(entry('/2026/hospitality/private-suites', now, 'weekly', 0.85));
-  out.push(entry('/2026/hospitality/faq', now, 'weekly', 0.75));
-  out.push(entry('/2026/hospitality/sedes', now, 'weekly', 0.9));
-  out.push(entry('/2026/hospitality/selecciones', now, 'weekly', 0.9));
+  out.push(entry('/2026/hospitality', now, 'weekly', 0.95, true));
+  out.push(entry('/2026/hospitality/productos', now, 'weekly', 0.9, true));
+  out.push(entry('/2026/hospitality/precios', now, 'weekly', 0.9, true));
+  out.push(entry('/2026/hospitality/private-suites', now, 'weekly', 0.85, true));
+  out.push(entry('/2026/hospitality/faq', now, 'weekly', 0.75, true));
+  out.push(entry('/2026/hospitality/sedes', now, 'weekly', 0.9, true));
+  out.push(entry('/2026/hospitality/selecciones', now, 'weekly', 0.9, true));
   for (const c of HOSPITALITY_CITIES) {
-    out.push(entry(`/2026/hospitality/sedes/${c.citySlug}`, now, 'weekly', 0.8));
+    out.push(entry(`/2026/hospitality/sedes/${c.citySlug}`, now, 'weekly', 0.8, true));
   }
   for (const code of Object.keys(FMT_TEAM_PARAMS)) {
-    out.push(entry(`/2026/hospitality/selecciones/${code}`, now, 'weekly', 0.75));
+    out.push(entry(`/2026/hospitality/selecciones/${code}`, now, 'weekly', 0.75, true));
   }
-  out.push(entry('/coleccionismo/panini-mundial-2026', now, 'weekly', 0.95));
+  out.push(entry('/coleccionismo/panini-mundial-2026', now, 'weekly', 0.95, true));
   out.push(entry('/coleccionismo/lego-mundial-2026', now, 'weekly', 0.9));
   // Cluster Panini Mundial 2026 (sub-páginas pilar)
-  out.push(entry('/coleccionismo/panini-mundial-2026/precio', now, 'weekly', 0.85));
-  out.push(entry('/coleccionismo/panini-mundial-2026/donde-comprar', now, 'weekly', 0.85));
-  out.push(entry('/coleccionismo/panini-mundial-2026/cuando-sale', now, 'weekly', 0.8));
-  out.push(entry('/coleccionismo/panini-mundial-2026/digital', now, 'weekly', 0.8));
-  out.push(entry('/coleccionismo/panini-mundial-2026/tapa-dura', now, 'monthly', 0.75));
-  out.push(entry('/coleccionismo/panini-mundial-2026/cromos-mas-caros', now, 'weekly', 0.85));
-  out.push(entry('/coleccionismo/panini-mundial-2026/figurinhas-copa-2026', now, 'weekly', 0.9));
-  out.push(entry('/coleccionismo/panini-mundial-2026/cuantos-cromos-tiene', now, 'weekly', 0.9));
-  out.push(entry('/coleccionismo/panini-mundial-2026/caja-50-sobres', now, 'weekly', 0.85));
-  out.push(entry('/coleccionismo/panini-mundial-2026/edicion-dorada', now, 'weekly', 0.8));
-  out.push(entry('/coleccionismo/panini-mundial-2026/check-list-cromos', now, 'weekly', 0.8));
-  out.push(entry('/coleccionismo/panini-mundial-2026/donde-comprar/mexico', now, 'weekly', 0.85));
-  out.push(entry('/coleccionismo/panini-mundial-2026/donde-comprar/brasil', now, 'weekly', 0.85));
-  out.push(entry('/coleccionismo/panini-mundial-2026/coca-cola', now, 'weekly', 0.8));
-  out.push(entry('/coleccionismo/panini-mundial-2026/topps-vs-panini', now, 'monthly', 0.7));
-  out.push(entry('/coleccionismo/monedas-mundial-2026', now, 'weekly', 0.95));
-  out.push(entry('/coleccionismo/monedas-mundial-2026/donde-comprar', now, 'weekly', 0.85));
-  out.push(entry('/coleccionismo/monedas-mundial-2026/precio', now, 'weekly', 0.85));
-  out.push(entry('/coleccionismo/monedas-mundial-2026/oro', now, 'weekly', 0.85));
-  out.push(entry('/coleccionismo/monedas-mundial-2026/plata', now, 'weekly', 0.85));
-  out.push(entry('/coleccionismo/monedas-mundial-2026/banxico', now, 'weekly', 0.85));
-  out.push(entry('/coleccionismo/monedas-mundial-2026/canada', now, 'weekly', 0.8));
+  out.push(entry('/coleccionismo/panini-mundial-2026/precio', now, 'weekly', 0.85, true));
+  out.push(entry('/coleccionismo/panini-mundial-2026/donde-comprar', now, 'weekly', 0.85, true));
+  out.push(entry('/coleccionismo/panini-mundial-2026/cuando-sale', now, 'weekly', 0.8, true));
+  out.push(entry('/coleccionismo/panini-mundial-2026/digital', now, 'weekly', 0.8, true));
+  out.push(entry('/coleccionismo/panini-mundial-2026/tapa-dura', now, 'monthly', 0.75, true));
+  out.push(entry('/coleccionismo/panini-mundial-2026/cromos-mas-caros', now, 'weekly', 0.85, true));
+  out.push(entry('/coleccionismo/panini-mundial-2026/figurinhas-copa-2026', now, 'weekly', 0.9, true));
+  out.push(entry('/coleccionismo/panini-mundial-2026/cuantos-cromos-tiene', now, 'weekly', 0.9, true));
+  out.push(entry('/coleccionismo/panini-mundial-2026/caja-50-sobres', now, 'weekly', 0.85, true));
+  out.push(entry('/coleccionismo/panini-mundial-2026/edicion-dorada', now, 'weekly', 0.8, true));
+  out.push(entry('/coleccionismo/panini-mundial-2026/check-list-cromos', now, 'weekly', 0.8, true));
+  out.push(entry('/coleccionismo/panini-mundial-2026/donde-comprar/mexico', now, 'weekly', 0.85, true));
+  out.push(entry('/coleccionismo/panini-mundial-2026/donde-comprar/brasil', now, 'weekly', 0.85, true));
+  out.push(entry('/coleccionismo/panini-mundial-2026/coca-cola', now, 'weekly', 0.8, true));
+  out.push(entry('/coleccionismo/panini-mundial-2026/topps-vs-panini', now, 'monthly', 0.7, true));
+  out.push(entry('/coleccionismo/monedas-mundial-2026', now, 'weekly', 0.95, true));
+  out.push(entry('/coleccionismo/monedas-mundial-2026/donde-comprar', now, 'weekly', 0.85, true));
+  out.push(entry('/coleccionismo/monedas-mundial-2026/precio', now, 'weekly', 0.85, true));
+  out.push(entry('/coleccionismo/monedas-mundial-2026/oro', now, 'weekly', 0.85, true));
+  out.push(entry('/coleccionismo/monedas-mundial-2026/plata', now, 'weekly', 0.85, true));
+  out.push(entry('/coleccionismo/monedas-mundial-2026/banxico', now, 'weekly', 0.85, true));
+  out.push(entry('/coleccionismo/monedas-mundial-2026/canada', now, 'weekly', 0.8, true));
   // Cluster Camisetas Mundial 2026 (pillar + 5 sub-páginas)
-  out.push(entry('/coleccionismo/camisetas-mundial-2026', now, 'weekly', 0.95));
-  out.push(entry('/coleccionismo/camisetas-mundial-2026/comprar', now, 'weekly', 0.9));
-  out.push(entry('/coleccionismo/camisetas-mundial-2026/precio', now, 'weekly', 0.9));
-  out.push(entry('/coleccionismo/camisetas-mundial-2026/authentic-vs-replica', now, 'weekly', 0.85));
-  out.push(entry('/coleccionismo/camisetas-mundial-2026/tallas', now, 'weekly', 0.85));
-  out.push(entry('/coleccionismo/camisetas-mundial-2026/falsificaciones', now, 'weekly', 0.85));
-  out.push(entry('/selecciones/ESP/grupo-h', now, 'weekly', 0.9));
+  out.push(entry('/coleccionismo/camisetas-mundial-2026', now, 'weekly', 0.95, true));
+  out.push(entry('/coleccionismo/camisetas-mundial-2026/comprar', now, 'weekly', 0.9, true));
+  out.push(entry('/coleccionismo/camisetas-mundial-2026/precio', now, 'weekly', 0.9, true));
+  out.push(entry('/coleccionismo/camisetas-mundial-2026/authentic-vs-replica', now, 'weekly', 0.85, true));
+  out.push(entry('/coleccionismo/camisetas-mundial-2026/tallas', now, 'weekly', 0.85, true));
+  out.push(entry('/coleccionismo/camisetas-mundial-2026/falsificaciones', now, 'weekly', 0.85, true));
+  out.push(entry('/selecciones/ESP/grupo-h', now, 'weekly', 0.9, true));
   out.push(entry('/historias', now, 'daily', 0.9));
   out.push(entry('/galeria', now, 'weekly', 0.85));
   out.push(entry('/aviso-afiliados', now, 'monthly', 0.4));
