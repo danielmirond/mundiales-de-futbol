@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { setRequestLocale, getTranslations } from 'next-intl/server';
-import { ArrowLeft, ExternalLink, Ticket, AlertTriangle } from 'lucide-react';
+import { ArrowLeft, Ticket, AlertTriangle } from 'lucide-react';
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl } from '@/lib/seo';
 
@@ -245,16 +245,10 @@ export default async function EntradasPage({
             Cómo comprar, qué precios hay y qué fases de venta siguen abiertas para los 104 partidos del primer Mundial de 48 selecciones. Guía actualizada a abril de 2026.
           </p>
 
-          <a
-            href="https://www.fifa.com/tickets"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mt-10 inline-flex items-center gap-3 rounded-full bg-[var(--color-pitch)] px-6 py-3 text-sm font-semibold text-black transition-opacity hover:opacity-90"
-          >
+          <p className="mt-10 inline-flex items-center gap-3 rounded-full border border-[var(--color-pitch)]/40 bg-[var(--color-pitch)]/10 px-5 py-2.5 text-sm font-mono uppercase tracking-[0.25em] text-[var(--color-pitch)]">
             <Ticket className="h-4 w-4" />
-            Comprar en FIFA Tickets
-            <ExternalLink className="h-3 w-3" />
-          </a>
+            Venta oficial: fifa.com/tickets
+          </p>
         </div>
       </section>
 
@@ -407,29 +401,14 @@ export default async function EntradasPage({
         <div className="rounded-3xl border border-[var(--color-border)] bg-[var(--color-bg-2)] p-8 text-center md:p-14">
           <Ticket className="mx-auto h-10 w-10 text-[var(--color-pitch)]" />
           <h2 className="mt-6 font-display text-3xl uppercase leading-tight md:text-4xl">
-            Cómpralas en la web oficial
+            Cómpralas siempre en la web oficial
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-sm leading-relaxed text-[var(--color-fg-muted)]">
-            Esta página es informativa: no vendemos ni revendemos entradas. Para una transacción segura usa siempre fifa.com/tickets o el sistema oficial de reventa de FIFA.
+            Esta página es informativa: no vendemos ni revendemos entradas. Las únicas
+            transacciones seguras son a través de <strong>fifa.com/tickets</strong> y el
+            portal oficial de hospitality <strong>fifaworldcup26.hospitality.fifa.com</strong>.
+            Cualquier otra fuente es reventa de riesgo.
           </p>
-          <div className="mt-8 flex flex-wrap justify-center gap-3">
-            <a
-              href="https://www.fifa.com/tickets"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 rounded-full bg-[var(--color-pitch)] px-6 py-3 text-sm font-semibold text-black transition-opacity hover:opacity-90"
-            >
-              FIFA Tickets <ExternalLink className="h-3 w-3" />
-            </a>
-            <a
-              href="https://hospitality.fifa.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 rounded-full border border-[var(--color-border-strong)] px-6 py-3 text-sm font-medium text-[var(--color-fg)] transition-colors hover:border-[var(--color-pitch)] hover:text-[var(--color-pitch)]"
-            >
-              Hospitality oficial <ExternalLink className="h-3 w-3" />
-            </a>
-          </div>
         </div>
       </section>
     </article>

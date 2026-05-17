@@ -240,24 +240,20 @@ export default async function CamisetasMundial2026Pillar({
           Dónde comprar
         </div>
         <h2 className="mt-2 font-display text-2xl uppercase md:text-3xl">
-          {RETAILERS.length} retailers verificados
+          Amazon España · Único retailer con afiliación activa
         </h2>
 
-        <div className="mt-8 grid gap-3 md:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-8 grid gap-3 md:grid-cols-2">
           {RETAILERS.map((r) => (
             <div
               key={r.id}
-              className={`rounded-2xl border bg-[var(--color-bg-2)] p-5 ${
-                r.affiliateActive ? 'border-[var(--color-pitch)]/40' : 'border-[var(--color-border)]'
-              }`}
+              className="rounded-2xl border border-[var(--color-pitch)]/40 bg-[var(--color-bg-2)] p-5"
             >
               <div className="flex items-baseline justify-between gap-3">
                 <h3 className="font-display text-base uppercase">{r.name}</h3>
-                {r.affiliateActive && (
-                  <span className="font-mono text-[9px] uppercase tracking-[0.3em] text-[var(--color-pitch)]">
-                    afiliación activa
-                  </span>
-                )}
+                <span className="font-mono text-[9px] uppercase tracking-[0.3em] text-[var(--color-pitch)]">
+                  afiliación activa
+                </span>
               </div>
               <p className="mt-2 text-xs text-[var(--color-fg-muted)] line-clamp-2">
                 {r.description}
@@ -274,7 +270,7 @@ export default async function CamisetasMundial2026Pillar({
           ))}
         </div>
         <p className="mt-5 text-[10px] font-mono uppercase tracking-[0.2em] text-[var(--color-fg-subtle)]">
-          Algunos enlaces son de afiliación. Si compras desde aquí recibimos una pequeña
+          Enlace de afiliación Amazon Associates. Si compras desde aquí recibimos una pequeña
           comisión que financia esta cobertura editorial. <Link className="underline" href={withLocale(locale as Locale, '/aviso-afiliados')}>Aviso completo</Link>.
         </p>
       </section>

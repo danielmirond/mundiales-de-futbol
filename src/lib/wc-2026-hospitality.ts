@@ -339,61 +339,31 @@ export const HOSPITALITY_FAQ: HospitalityFAQItem[] = [
 ];
 
 // ───────────────────────────────────────────────────────────────────
-// Afiliación cruzada (Booking, Skyscanner, GetYourGuide)
-// ───────────────────────────────────────────────────────────────────
-
-/**
- * Builders de URLs de afiliación con utm/tag aún sin activar.
- * Cuando demos de alta los programas, basta con tocar los AID / tag.
- *
- * Estado mayo 2026:
- *   - Booking Partner Network: alta pendiente (placeholder aid=xxxxxx)
- *   - Awin (Skyscanner, GetYourGuide): alta pendiente (placeholder)
- *   - Amazon Associates nuus-21: activo (no aplica aquí)
- */
-export const AFFILIATE_PLACEHOLDERS = {
-  booking_aid: 'TBA',
-  skyscanner_associateid: 'TBA',
-  getyourguide_partner: 'TBA',
-} as const;
-
-export function getBookingLink(city: HospitalityCity): string {
-  // Booking soporta ?ss=City+Name&aid=XXXXXX
-  const ss = encodeURIComponent(`${city.cityName} ${city.countryCode}`);
-  return `https://www.booking.com/searchresults.html?ss=${ss}&aid=${AFFILIATE_PLACEHOLDERS.booking_aid}`;
-}
-
-export function getSkyscannerLink(city: HospitalityCity, origin = 'MADR'): string {
-  // Skyscanner: /transport/flights/<origin>/<dest>/?associateid=XXX
-  return `https://www.skyscanner.es/transport/vuelos/${origin}/${city.iata}/?associateid=${AFFILIATE_PLACEHOLDERS.skyscanner_associateid}`;
-}
-
-export function getGetYourGuideLink(city: HospitalityCity): string {
-  const q = encodeURIComponent(city.cityName);
-  return `https://www.getyourguide.com/s/?q=${q}&partner_id=${AFFILIATE_PLACEHOLDERS.getyourguide_partner}`;
-}
-
-// ───────────────────────────────────────────────────────────────────
-// FIFA Hospitality URL builders
+// Política editorial: solo afiliación Amazon (`nuus-21`).
+// Sin CTAs externos a Booking, Skyscanner, GetYourGuide. La información
+// del producto se mantiene en el sitio (contenido editorial), pero no
+// enlazamos para vender.
+//
+// Los builders fifaProductUrl/fifaVenueUrl/fifaTeamUrl se mantienen para
+// referencia interna y para construir microdata JSON-LD, pero NO se usan
+// como CTA visible al usuario.
 // ───────────────────────────────────────────────────────────────────
 
 const FIFA_HOSPITALITY = 'https://fifaworldcup26.hospitality.fifa.com';
-const UTM = '?utm_source=mundiales-de-futbol&utm_medium=referral&utm_campaign=hospitality-cluster';
 
 export function fifaProductUrl(product: HospitalityProduct, locale: 'us' | 'ca' | 'mx' = 'us'): string {
-  // Reemplaza el primer /us/ por el locale objetivo
   const path = product.fifaPath.replace(/^\/(us|ca|mx)\//, `/${locale}/`);
-  return `${FIFA_HOSPITALITY}${path}${UTM.replace(/^\?/, path.includes('?') ? '&' : '?')}`;
+  return `${FIFA_HOSPITALITY}${path}`;
 }
 
 export function fifaVenueUrl(city: HospitalityCity): string {
-  return `${FIFA_HOSPITALITY}/venues/${city.fifaSlug}${UTM}`;
+  return `${FIFA_HOSPITALITY}/venues/${city.fifaSlug}`;
 }
 
 export function fifaTeamUrl(teamCode: string): string {
   const fmt = FMT_TEAM_PARAMS[teamCode];
   if (!fmt) return `${FIFA_HOSPITALITY}/us/en/choose-matches`;
-  return `${FIFA_HOSPITALITY}/${fmt.locale}/en/choose-matches?team=${fmt.fifaParam}&quantity=1${UTM.replace(/^\?/, '&')}`;
+  return `${FIFA_HOSPITALITY}/${fmt.locale}/en/choose-matches?team=${fmt.fifaParam}&quantity=1`;
 }
 
 // ───────────────────────────────────────────────────────────────────

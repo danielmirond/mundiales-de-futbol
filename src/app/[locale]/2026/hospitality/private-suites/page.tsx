@@ -1,9 +1,9 @@
 import Link from 'next/link';
 import { setRequestLocale } from 'next-intl/server';
-import { ArrowLeft, Crown, ArrowRight } from 'lucide-react';
+import { ArrowLeft, Crown } from 'lucide-react';
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl } from '@/lib/seo';
-import { HOSPITALITY_PRODUCTS, fifaProductUrl } from '@/lib/wc-2026-hospitality';
+import { HOSPITALITY_PRODUCTS } from '@/lib/wc-2026-hospitality';
 
 function withLocale(locale: Locale, href: string) {
   if (locale === routing.defaultLocale) return href;
@@ -109,16 +109,6 @@ export default async function PrivateSuitesPage({ params }: { params: Promise<{ 
                 ))}
               </ul>
             </div>
-
-            <a
-              href={fifaProductUrl(p)}
-              target="_blank"
-              rel="sponsored nofollow noopener noreferrer"
-              className="mt-5 inline-flex items-center gap-2 rounded-full bg-[var(--color-pitch)] px-5 py-2.5 text-sm font-semibold text-black transition-transform hover:scale-[1.02]"
-            >
-              Ver disponibilidad
-              <ArrowRight className="h-4 w-4 rtl:rotate-180" />
-            </a>
           </div>
         ))}
       </section>

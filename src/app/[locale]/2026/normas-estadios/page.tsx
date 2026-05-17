@@ -315,47 +315,11 @@ export default async function NormasEstadiosPillarPage({
           <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-pitch)]">
             Fuentes oficiales
           </div>
-          <ul className="mt-4 space-y-2 text-sm">
-            <li>
-              <a
-                href="https://digitalhub.fifa.com/m/50ebae81c412b7d5/original/FIFA-World-Cup-2026-Stadium-Code-of-Conduct.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="underline-offset-4 hover:text-[var(--color-pitch)] hover:underline"
-              >
-                FIFA · Stadium Code of Conduct (PDF oficial)
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://gpcustomersupportfwc2026.tickets.fifa.com/hc/en-gb/articles/30198151350813"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="underline-offset-4 hover:text-[var(--color-pitch)] hover:underline"
-              >
-                FIFA Tickets · restricciones para entrar al estadio
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://fifaworldcup26.hospitality.fifa.com/know-before-you-go/miami"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="underline-offset-4 hover:text-[var(--color-pitch)] hover:underline"
-              >
-                FIFA · Hospitality «Know Before You Go» (Miami como ejemplo)
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.nytimes.com/athletic/7273489/2026/05/12/world-cup-stadium-code-of-conduct-prohibited-items/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="underline-offset-4 hover:text-[var(--color-pitch)] hover:underline"
-              >
-                The Athletic (NYT) · World Cup stadium code of conduct (12 may 2026)
-              </a>
-            </li>
+          <ul className="mt-4 space-y-2 text-sm text-[var(--color-fg-muted)]">
+            <li>FIFA · Stadium Code of Conduct (PDF oficial, digitalhub.fifa.com)</li>
+            <li>FIFA Tickets · restricciones para entrar al estadio (FAQ oficial)</li>
+            <li>FIFA · Hospitality «Know Before You Go» (Miami como ejemplo)</li>
+            <li>The Athletic (NYT) · World Cup stadium code of conduct (12 may 2026)</li>
           </ul>
         </div>
       </section>
