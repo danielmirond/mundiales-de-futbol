@@ -1,0 +1,194 @@
+{
+  "generatedAt": "2026-05-17T08:37:30.488Z",
+  "date": "2026-05-17",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "messi",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "World Cup: Messi eyes Rivelino&apos;s record for goals scored from outside the box",
+          "url": "https://foot-africa.com/en/news/world-cup-messi-eyes-rivelinos-record-for-goals-scored-from-outside-the-box-1207247/",
+          "source": "Foot-Africa.com"
+        },
+        {
+          "title": "Messi tipped to outshine Ronaldo as Argentina target back‑to‑back World Cups",
+          "url": "https://www.dimsumdaily.hk/messi-tipped-to-outshine-ronaldo-as-argentina-target-back%E2%80%91to%E2%80%91back-world-cups/",
+          "source": "Dimsum Daily"
+        },
+        {
+          "title": "Messi and Ronaldo prepare for ‘Last Dance’ at FIFA World Cup 2026",
+          "url": "https://www.24newshd.tv/16-May-2026/messi-ronaldo",
+          "source": "24NewsHD"
+        }
+      ]
+    },
+    {
+      "query": "jornal record",
+      "geo": "PT",
+      "language": "pt",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Grátis com o Record no domingo: caderneta Panini do Mundial&apos;2026 com 8 cromos",
+          "url": "https://www.record.pt/iniciativas/detalhe/gratis-com-o-record-no-domingo-caderneta-panini-do-mundial-2026-com-8-cromos",
+          "source": "Record"
+        },
+        {
+          "title": "#cromados",
+          "url": "https://www.jn.pt/opiniao/artigo/cromados/18084679",
+          "source": "Jornal de Notícias"
+        },
+        {
+          "title": "Mundial de futebol faz disparar a procura por cadernetas e cromos",
+          "url": "https://www.rtp.pt/noticias/desporto/mundial-de-futebol-faz-disparar-a-procura-por-cadernetas-e-cromos_v1741738",
+          "source": "RTP"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "es": [
+      {
+        "query": "messi",
+        "score": 180,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "messi",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "World Cup: Messi eyes Rivelino&apos;s record for goals scored from outside the box",
+                "url": "https://foot-africa.com/en/news/world-cup-messi-eyes-rivelinos-record-for-goals-scored-from-outside-the-box-1207247/",
+                "source": "Foot-Africa.com"
+              },
+              {
+                "title": "Messi tipped to outshine Ronaldo as Argentina target back‑to‑back World Cups",
+                "url": "https://www.dimsumdaily.hk/messi-tipped-to-outshine-ronaldo-as-argentina-target-back%E2%80%91to%E2%80%91back-world-cups/",
+                "source": "Dimsum Daily"
+              },
+              {
+                "title": "Messi and Ronaldo prepare for ‘Last Dance’ at FIFA World Cup 2026",
+                "url": "https://www.24newshd.tv/16-May-2026/messi-ronaldo",
+                "source": "24NewsHD"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "pt": [
+      {
+        "query": "jornal record",
+        "score": 100,
+        "geos": [
+          "PT"
+        ],
+        "samples": [
+          {
+            "query": "jornal record",
+            "geo": "PT",
+            "language": "pt",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Grátis com o Record no domingo: caderneta Panini do Mundial&apos;2026 com 8 cromos",
+                "url": "https://www.record.pt/iniciativas/detalhe/gratis-com-o-record-no-domingo-caderneta-panini-do-mundial-2026-com-8-cromos",
+                "source": "Record"
+              },
+              {
+                "title": "#cromados",
+                "url": "https://www.jn.pt/opiniao/artigo/cromados/18084679",
+                "source": "Jornal de Notícias"
+              },
+              {
+                "title": "Mundial de futebol faz disparar a procura por cadernetas e cromos",
+                "url": "https://www.rtp.pt/noticias/desporto/mundial-de-futebol-faz-disparar-a-procura-por-cadernetas-e-cromos_v1741738",
+                "source": "RTP"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "topic": "jornal record",
+      "type": "noticia",
+      "slugSuggestion": "jornal-record",
+      "language": "pt",
+      "geos": [
+        "PT"
+      ],
+      "score": 120,
+      "reason": "Google Trends daily PT con 100 búsquedas · 3 artículos noticiosos referenciando \"jornal record\"",
+      "proposedPath": "/noticias/jornal-record",
+      "evidence": [
+        {
+          "query": "jornal record",
+          "geo": "PT",
+          "language": "pt",
+          "source": "google-trends-daily",
+          "score": 100,
+          "articles": [
+            {
+              "title": "Grátis com o Record no domingo: caderneta Panini do Mundial&apos;2026 com 8 cromos",
+              "url": "https://www.record.pt/iniciativas/detalhe/gratis-com-o-record-no-domingo-caderneta-panini-do-mundial-2026-com-8-cromos",
+              "source": "Record"
+            },
+            {
+              "title": "#cromados",
+              "url": "https://www.jn.pt/opiniao/artigo/cromados/18084679",
+              "source": "Jornal de Notícias"
+            },
+            {
+              "title": "Mundial de futebol faz disparar a procura por cadernetas e cromos",
+              "url": "https://www.rtp.pt/noticias/desporto/mundial-de-futebol-faz-disparar-a-procura-por-cadernetas-e-cromos_v1741738",
+              "source": "RTP"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alreadyCovered": [
+    {
+      "query": "messi",
+      "matchUrl": "/noticias/prelista-argentina-mundial-2026-scaloni-55-messi-dybala-fuera-mastantuono-echeverri"
+    }
+  ]
+}
