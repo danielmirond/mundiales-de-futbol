@@ -667,6 +667,143 @@ La travesía fue larga. Los entrenamientos se hicieron en cubierta, en una zona 
 
 El barco atracó en el puerto de Montevideo el 4 de julio de 1930, nueve días antes de que arrancara el torneo. Las tres selecciones europeas y la brasileña desembarcaron en orden, escoltadas por una muchedumbre uruguaya que aplaudió en el muelle. Rimet bajó con la copa envuelta en papel de seda. Trece días más tarde, el 30 de julio, esa misma copa volvía a subir al podio del Estadio Centenario en manos de José Nasazzi, capitán uruguayo, después de que el equipo charrúa derrotara 4-2 a Argentina en la primera final mundial. El SS Conte Verde, mientras tanto, ya había emprendido el viaje de regreso. Dos años más tarde, su naviera quebró por la crisis del 29. El barco siguió en activo bajo otra empresa hasta 1943, cuando se hundió en Shanghái durante la Segunda Guerra Mundial. La travesía que hizo posible el primer Mundial es probablemente la página menos contada de la historia del fútbol.`,
   },
+  {
+    n: 16,
+    slug: 'gol-fantasma-wembley-inglaterra-alemania-1966',
+    publishDate: '2026-05-16',
+    blockCode: 'S4',
+    category: 'polemica',
+    protagonist: 'Geoff Hurst / Tofiq Bahramov',
+    quote: 'They think it’s all over… it is now!',
+    quoteDate: '1966-07-30',
+    context:
+      'Final del Mundial de Inglaterra 1966 en Wembley. Inglaterra y Alemania Occidental empatan 2-2 al final del tiempo reglamentario. En el minuto 101 de la prórroga, Geoff Hurst remata a la cruceta, el balón pica contra la línea de gol y vuelve al campo. El árbitro suizo Gottfried Dienst consulta al juez de línea soviético Tofiq Bahramov, que asegura que el balón cruzó completamente la línea. Sesenta años después, la tecnología confirma que no entró.',
+    source: {
+      name: 'Wikipedia · 1966 FIFA World Cup Final',
+      url: 'https://en.wikipedia.org/wiki/1966_FIFA_World_Cup_Final',
+    },
+    sourceSecondary:
+      'BBC Sport · The Guardian · Der Spiegel · "Geoff Hurst Goal Analysis" Oxford University (1996) · L\'Équipe archives',
+    certainty: 'Alta',
+    title: 'El gol fantasma de Wembley: el remate de Hurst que decidió Inglaterra 4-2 Alemania 1966 y dividió al fútbol durante 60 años',
+    excerpt:
+      '30 de julio de 1966. Final del Mundial en Wembley, prórroga, 2-2 entre Inglaterra y Alemania. Geoff Hurst golpea al larguero, el balón pica detrás de la línea o delante de ella —nadie lo sabe seguro. Un juez de línea soviético sentencia. Inglaterra gana su único Mundial.',
+    cover: {
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Wembley_Stadium_1966.jpg?width=1200',
+      alt: 'Vista panorámica de Wembley Stadium durante la final del Mundial 1966, escenario del gol fantasma de Geoff Hurst que decidió el partido entre Inglaterra y Alemania Occidental',
+      credit: 'Foto: Wikimedia Commons',
+      license: 'Dominio público',
+    },
+    body: `30 de julio de 1966. Wembley Stadium, 96.924 espectadores, Inglaterra y Alemania Occidental empatan 2-2 al final del tiempo reglamentario después de que el delantero centroeuropeo Wolfgang Weber empatara en el minuto 89, en una jugada que dejó a un Inglaterra mentalizado para la victoria con un palmo de narices y la final empujada a la prórroga. La selección de Alf Ramsey, que había decidido jugar sin extremos puros —el famoso "wingless wonders" del 4-3-3—, dependía ahora de las piernas cansadas de Bobby Charlton, Bobby Moore y un delantero centro de 24 años que esa misma temporada había marcado solo 23 goles en la Primera División inglesa: Geoff Hurst.
+
+Hurst no era titular hasta semifinal. Jimmy Greaves, el goleador histórico del Tottenham, era el delantero de fe del seleccionador. Pero Greaves se había hecho un corte profundo en la espinilla en el partido contra Francia de la fase de grupos y Ramsey, con valentía táctica que sus críticos llamaron temeridad, decidió no devolverlo al once en cuartos contra Argentina (1-0, el partido de "los animales") ni en semifinal contra Portugal (2-1, doblete de Charlton). Hurst se quedó como titular. En cuartos había marcado el único gol contra Argentina. En semifinal, ninguno. La final era la prueba final.
+
+A los 13 minutos, un centro de Moore desde la izquierda encontró la cabeza de Helmut Haller, que se anticipó al cabezazo de Ray Wilson en la mejor zona del área alemana. 0-1. Wembley enmudeció. Veinte minutos después, una falta directa de Moore botada sobre el área alemana encontró a Hurst en posición de cabeza. 1-1. Volvió Wembley. En el minuto 78, Martin Peters cazó un rechace en el área pequeña y la voló al fondo. 2-1. Inglaterra estaba campeona. Hasta que llegó el minuto 89 y Weber.
+
+La prórroga arrancó con Inglaterra agarrotada y Alemania impulsada por la inercia del empate. Pero el remate llegó del otro bando. Minuto 101. Alan Ball centra desde la derecha al borde del área. Hurst, en posición central, se gira con un control orientado y golpea con la pierna derecha con todo su peso encima. El balón sale violentamente hacia arriba, golpea **el larguero**, baja vertical contra el suelo dentro del área pequeña, **pica** en algún punto exacto que sesenta años después sigue siendo objeto de debate, y **rebota hacia atrás al campo**. El defensor alemán Wolfgang Weber, el mismo del empate, despeja con la cabeza.
+
+El árbitro suizo Gottfried Dienst no había seguido el balón con claridad. Se giró al juez de línea más cercano, el soviético azerí **Tofiq Bahramov**, que estaba a unos veinte metros con poca visibilidad del impacto. Bahramov, sin dudar, levantó la bandera hacia el centro del campo y señaló: **gol**. Dienst aceptó la indicación. **3-2** para Inglaterra. Los alemanes protestaron durante varios minutos, encabezados por Uwe Seeler. Dienst no se movió. La final continuó.
+
+En el minuto 120, con Alemania volcada en busca del empate, Hurst recuperó el balón en su propio campo y emprendió una contraofensiva en solitario. El portero Manuel Schäfer salió a la desesperada. Hurst le pegó con la pierna izquierda al fondo: **4-2**. El comentarista de BBC Kenneth Wolstenholme acuñó en ese instante la frase más famosa de la historia del comentario futbolístico: *"They think it’s all over… it is now!"* —"creen que se ha acabado, ahora sí". Hurst se convirtió en el único jugador en la historia que ha marcado un hat-trick en una final de Mundial. Récord que aún no ha sido igualado.
+
+¿Entró o no entró el segundo gol? La pregunta se ha respondido y desautorizado varias veces a lo largo de seis décadas. En 1996, un estudio cinemático de la Universidad de Oxford con análisis fotograma a fotograma del único vídeo de calidad disponible determinó que la pelota **no había cruzado completamente la línea**: faltaron aproximadamente 6 centímetros. En 2016, los 50 aniversarios, una reconstrucción con tecnología Hawk-Eye basada en las imágenes de archivo de la BBC y el Pathé News confirmó el mismo veredicto: **no fue gol**. El balón rebotó contra el lado interior del larguero, picó **delante** de la línea de gol y volvió al campo. La realidad documental contradice la decisión del árbitro.
+
+Bahramov falleció en 1993 sin retractarse jamás. En su autobiografía, publicada en ruso en 1972, escribió que el balón "claramente había pasado la línea" y que vio "polvo levantarse del fondo de la red". Tres décadas después, los archivos de la Mosfilm soviética confirmaron que Bahramov había sido **invitado de honor de la federación inglesa** en los meses previos al Mundial, un detalle que ha alimentado teorías de soborno nunca probadas. En Bakú, su ciudad natal, hay hoy un estadio que lleva su nombre. Las cuatro selecciones que han disputado allí partidos europeos en las últimas décadas saben por qué el nombre les resulta familiar.
+
+Inglaterra es campeona del mundo en su única participación victoriosa de la historia. **It’s coming home** todavía espera otra vez, pero el episodio de Wembley 1966 marca el momento exacto en que el fútbol mundial se dividió en dos: los que creen que la tecnología debería haber existido siempre y los que mantienen que el factor humano del árbitro es parte del juego. La FIFA tardó **44 años** en aprobar la goal-line technology, después de un gol no concedido a Frank Lampard contra Alemania en Sudáfrica 2010 que sí cruzó claramente la línea. La justicia poética, dijeron los alemanes. **Sechzig sechs**, dijeron los ingleses.`,
+  },
+  {
+    n: 17,
+    slug: 'garrincha-piernas-torcidas-chile-1962-mundial-sin-pele',
+    publishDate: '2026-05-17',
+    blockCode: 'S5',
+    category: 'epica',
+    protagonist: 'Manuel Francisco dos Santos "Garrincha"',
+    quote: 'No te preocupes, Mané. Vamos a ganarlo nosotros.',
+    quoteDate: '1962-06-02',
+    context:
+      'Chile 1962. Brasil llega como vigente campeón con Pelé como estrella del torneo y "rey del fútbol mundial" tras su Mundial de Suecia 1958. En el segundo partido contra Checoslovaquia, Pelé se desgarra el muslo y queda fuera del Mundial. Brasil parece muerto. Pero la baja despierta al jugador con piernas torcidas, una pierna seis centímetros más corta que la otra y la mirada perdida del genio. Garrincha gana solo el Mundial.',
+    source: {
+      name: 'Wikipedia · 1962 FIFA World Cup',
+      url: 'https://en.wikipedia.org/wiki/1962_FIFA_World_Cup',
+    },
+    sourceSecondary:
+      'FIFA.com · Folha de São Paulo · Globo Esporte archives · "Estrela Solitária" (Ruy Castro, 1995) · O Estado de São Paulo',
+    certainty: 'Alta',
+    title: 'Garrincha 1962: el ángel de las piernas torcidas que ganó un Mundial sin Pelé',
+    excerpt:
+      'Chile 1962. Pelé cae lesionado en el segundo partido. Brasil parece eliminado. Pero Mané Garrincha, el extremo con piernas torcidas y la mirada de un niño, regatea solo a cuatro selecciones, gana la Bota de Oro y conquista el segundo Mundial brasileño en solitario. La historia menos contada del fútbol.',
+    cover: {
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Garrincha_1962.jpg?width=1200',
+      alt: 'Manuel Francisco dos Santos "Garrincha" durante el Mundial de Chile 1962, donde lideró a Brasil al segundo título consecutivo tras la lesión de Pelé',
+      credit: 'Foto: Wikimedia Commons',
+      license: 'Dominio público',
+    },
+    body: `Manuel Francisco dos Santos había nacido en Pau Grande, un pequeño pueblo industrial del estado de Río de Janeiro, en 1933. Vino al mundo con una **deformación congénita en las piernas**: la izquierda doblada hacia adentro, la derecha torcida hacia afuera, una pierna **seis centímetros más corta** que la otra y una desviación severa en la columna lumbar. Los médicos le dijeron a su madre, Doña Maria, que el niño nunca caminaría con normalidad. A los doce años, Mané —como le llamaban todos— corría por los maizales del pueblo con una velocidad que confundía a los pájaros. Su hermana Rosa, una niña diminuta a la que él perseguía cazando, le puso el apodo: *garrincha*, el nombre brasileño de un pequeño pájaro nervioso e impredecible que es imposible atrapar.
+
+Garrincha llegó al Botafogo a los veinte años por casualidad. En 1953 un veterano del club lo vio jugar en un partido entre obreros de la fábrica textil donde trabajaba su padre y le ofreció una prueba. En la prueba, Mané regateó **siete veces consecutivas** al lateral derecho titular del Botafogo, **Nilton Santos**, que más tarde sería su compañero en la selección. Nilton Santos, conmocionado, le dijo al entrenador: *"contrátalo. Si no, jugará contra nosotros y será peor"*. Botafogo le pagó la primera prima de su vida y firmó. Tres años después era titular indiscutible. Cinco años después, en Suecia 1958, marcaba la asistencia que abría el camino al primer Mundial brasileño.
+
+Cuatro años más tarde, en Chile 1962, llegó el Mundial donde Garrincha pasaría de ser **el segundo violín de Pelé** a **el genio absoluto en solitario**. Brasil debutó el 30 de mayo en Viña del Mar contra México. Ganó 2-0 con goles de Zagallo y Pelé. El siguiente partido era contra Checoslovaquia, en el mismo estadio. Empataron a cero pero la imagen del partido fue Pelé tirado en el suelo en el minuto 25, sujetándose el muslo derecho con una mueca de dolor. **Desgarro muscular severo**. El médico del equipo, el doctor Hilton Gosling, le dijo en el vestuario que no jugaría ningún partido más del Mundial.
+
+Brasil entró en pánico. Pelé era el jugador del torneo, el mejor del mundo, la promesa absoluta. Sin él, parecía un equipo sin dirección. En el viaje en autobús de vuelta al hotel, Garrincha se sentó al lado del capitán Mauro Ramos y le dijo, con esa mirada como ausente de los grandes melancólicos: *"No te preocupes, Mané. Vamos a ganarlo nosotros"*. Mané, hablando en tercera persona, llamándose a sí mismo Mané, profetizando una victoria contra el sentido común del momento. El capitán le respondió con un gesto de duda. Tres semanas después, Brasil era de nuevo campeón del mundo y Garrincha era el mejor jugador del torneo.
+
+Lo hizo regateando. Su técnica era tan particular que los entrenadores no sabían cómo enseñarla. Salía siempre por banda derecha, encaraba al lateral izquierdo del rival, **fingía un caño**, hacía un cambio de dirección imposible con la pierna corta apoyando todo el peso, y se iba por la línea de fondo dejando al defensor sentado en el césped. Lo hizo cinco veces seguidas a **Vlasov** de la Unión Soviética en cuartos de final. Hizo dos goles, uno de cabeza —milagro, dado que mide 1,69— y otro de zurda. Brasil ganó 3-1.
+
+En semifinal contra Chile, el anfitrión, Garrincha volvió a marcar dos veces. Uno de chilena. Otro de tiro libre con efecto que hizo describir al balón una trayectoria imposible. Brasil ganó 4-2. Pero al final del partido, después del pitido, Garrincha se cruzó con un seleccionado chileno —**Eladio Rojas**— que le había hecho una entrada por detrás durante el partido. Garrincha, normalmente pacífico, le devolvió una patada en el muslo. **Roja directa**. La FIFA lo expulsó del campeonato un partido. Y aquí entra el milagro político del Mundial.
+
+La final era contra Checoslovaquia. Sin Pelé y, ahora, sin Garrincha. Brasil parecía perdido por segunda vez. El presidente brasileño João Goulart envió al **embajador brasileño en la ONU**, en Chile el día previo a la final, a contactar con la FIFA y con la federación checoslovaca pidiendo **clemencia**. El presidente del comité de disciplina, **Stanley Rous** —el mismo que sería presidente de la FIFA en 1966—, hizo lo impensable: **levantó la sanción** sin razón técnica clara. Algunos historiadores dicen que recibió presión política brasileña, otros que la FIFA tenía miedo de un Mundial sin las dos estrellas del campeón. Garrincha jugó la final.
+
+17 de junio de 1962. Estadio Nacional de Santiago. Brasil 3, Checoslovaquia 1. Goles de Amarildo (sustituto de Pelé), Zito y Vavá. Garrincha no marcó pero fue **el motor del equipo** durante 90 minutos. La final terminó con Mauro Ramos levantando la Copa Jules Rimet por segundo año consecutivo brasileño. La historia oficial ha hecho del partido una victoria colectiva. La historia real es que **un jugador con las piernas torcidas, una columna desviada y la mirada perdida del genio sostuvo solo a un Mundial**, ganando la Bota de Oro junto a otros cinco delanteros que también marcaron cuatro goles cada uno.
+
+Garrincha murió en Río de Janeiro el 20 de enero de 1983. Alcohol, depresión, pobreza extrema en sus últimos años. Pelé no fue al entierro porque estaba grabando un anuncio en Roma. La familia lo enterró en Pau Grande, su pueblo. Cuatro décadas más tarde, el estadio del Botafogo, demolido en 1976, lleva su nombre: **Estádio Nilton Santos**, conocido popularmente como *Estádio do Engenhão*. Hay en Pau Grande, junto a su tumba, una placa que recoge las palabras de Joao Saldanha, periodista y luego seleccionador brasileño: *"Garrincha fue el último jugador que jugó por amor al juego. Lo demás vino después por accidente"*.`,
+  },
+  {
+    n: 18,
+    slug: 'zidane-cabezazo-materazzi-berlin-2006-final',
+    publishDate: '2026-05-18',
+    blockCode: 'S4',
+    category: 'tragica',
+    protagonist: 'Zinedine Zidane / Marco Materazzi',
+    quote: 'Prefiero recibir un puñetazo en la cara antes que oír eso.',
+    quoteDate: '2006-07-09',
+    context:
+      'Final del Mundial de Alemania 2006 en el Olímpico de Berlín. Francia e Italia empatan 1-1 al final del tiempo reglamentario. Minuto 110 de la prórroga. Zinedine Zidane, capitán francés, que había anunciado su retirada del fútbol al final del torneo, golpea con la cabeza al pecho de Marco Materazzi. El árbitro argentino Horacio Elizondo le saca la roja directa. Francia pierde en penaltis. Zidane se va del fútbol sin la copa, en la imagen más recordada de su carrera.',
+    source: {
+      name: 'Wikipedia · 2006 FIFA World Cup Final',
+      url: 'https://en.wikipedia.org/wiki/2006_FIFA_World_Cup_Final',
+    },
+    sourceSecondary:
+      'L\'Équipe · La Gazzetta dello Sport · Canal+ archives · "Zidane: A 21st Century Portrait" (Gordon/Parreno, 2006) · BBC Sport',
+    certainty: 'Alta',
+    title: 'El cabezazo de Zidane al pecho de Materazzi: Berlín 2006 y el final más triste de la historia',
+    excerpt:
+      '9 de julio de 2006. Olímpico de Berlín. Minuto 110 de la prórroga de la final del Mundial. Zidane, capitán francés que se retira al final del torneo, gira la cabeza y golpea al pecho a Marco Materazzi. Roja directa. Francia pierde en penaltis. Zidane se va del fútbol sin levantar la copa.',
+    cover: {
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Zinedine_Zidane_2006.jpg?width=1200',
+      alt: 'Zinedine Zidane durante la final del Mundial de Alemania 2006 entre Francia e Italia, donde el cabezazo a Marco Materazzi le valió la expulsión en el último partido de su carrera',
+      credit: 'Foto: Wikimedia Commons',
+      license: 'CC BY-SA 3.0',
+    },
+    body: `Zinedine Yazid Zidane se había anunciado **fuera del fútbol** seis meses antes del Mundial de Alemania 2006. El 30 de mayo de 2006 jugaría su último partido con el Real Madrid contra el Villarreal en el Santiago Bernabéu, y a continuación viajaría a Berlín para disputar el último torneo de su carrera. A sus 34 años, con dos Champions League, un Mundial (Francia 1998), una Eurocopa (Francia 2000) y tres Balones de Oro, el franco-argelino llegaba a Alemania como **el jugador más mediático del mundo**. La afición francesa esperaba **la despedida perfecta**: una segunda Copa del Mundo veinte años después del primer Maracanazo francés.
+
+Francia, sin embargo, llegó a Alemania **como un equipo agotado**. Eliminada en primera ronda de la Eurocopa 2004 en Portugal. Sin Lilian Thuram en la mejor forma. Con Patrick Vieira en el ocaso. Con Thierry Henry físicamente apagado tras una temporada larga con el Arsenal. Los franceses pasaron de grupos como segundos con un triste empate sin goles contra Suiza, otro 1-1 con Corea del Sur y un raquítico 2-0 a Togo. Los críticos parisinos hablaban de **fracaso anunciado**.
+
+Entonces empezó Zidane. En octavos, contra España, marcó el segundo gol del 3-1. En cuartos, contra Brasil —el rival de las pesadillas francesas— firmó el mejor partido individual del Mundial: asistencia a Henry y una actuación que dejó al equipo de Carlos Alberto Parreira sin reacción durante 90 minutos. Francia 1, Brasil 0. La prensa francesa hablaba ya del *"último baile del genio"*. En semifinal, contra Portugal de su compatriota Carlos Queiroz, marcó de penalti el único gol del partido. Zidane había metido a Francia en la final del Mundial **prácticamente solo**.
+
+La final del 9 de julio de 2006 en el Olímpico de Berlín se planteaba como **Zidane contra Italia**. El árbitro argentino Horacio Elizondo —elegido para su tercer partido del torneo, después de la inauguración y el cuartos Italia-Ucrania— sopló el pitido inicial a las 20:00 hora local. Zidane abrió el marcador en el minuto 7 con un **penalti de vaselina** que picó en el larguero, bajó al campo y entró por la línea. Era el penalti más arriesgado posible en la final de un Mundial. Los italianos no daban crédito. Diecinueve minutos después, Marco Materazzi, el central del Inter, igualaba de cabeza tras un córner de Pirlo. **1-1**. Y así se mantuvo durante los 64 minutos restantes y los primeros 20 de la prórroga.
+
+Minuto 110. Zidane había tenido una ocasión clarísima de gol cinco minutos antes con un cabezazo que Buffon sacó de manera milagrosa con la mano abierta. Era el segundo cabezazo importante de su partido. El cansancio se notaba en sus piernas. Materazzi venía de un duelo personal con él durante toda la final: cuatro o cinco encontronazos físicos en el área, un par de palabras intercambiadas en la pugna. En el minuto 110, en una jugada sin balón, Zidane se gira hacia atrás caminando y le dice algo a Materazzi. El italiano le responde. Zidane camina dos pasos. Se detiene. Se da la vuelta. **Golpea con la cabeza al pecho de Materazzi**. El italiano cae al suelo.
+
+El árbitro Elizondo no había visto la acción. Su asistente Darío García tampoco. El cuarto árbitro Luis Medina Cantalejo, en el monitor de la línea, sí vio el monitor de la cámara de televisión. Por el sistema de comunicación interna del cuarteto arbitral, le dijo a Elizondo lo que había sucedido. Elizondo se acercó al banquillo de Cantalejo durante dos minutos, recibió la confirmación, volvió al campo y **sacó la roja directa a Zidane**. Sin amarilla previa. Sin advertencia. Sin contemplación.
+
+El estadio enmudeció. Zidane caminó hacia el túnel sin mirar a nadie. **Pasó al lado de la Copa del Mundo** que ya estaba en el banquillo de la FIFA para la ceremonia de premiación. No la miró. Salió por el pasillo. Diez minutos después, Italia ganó en la tanda de penaltis 5-3. Trezeguet falló el único francés. Fabio Grosso anotó el último italiano. **Italia, campeona del mundo**. Cuarto título mundial de los azzurri.
+
+¿Qué le dijo Materazzi a Zidane? La pregunta dominó la conversación pública durante semanas. Materazzi negó haberlo insultado durante días. La prensa publicó una decena de versiones, casi todas ellas relacionadas con la familia de Zidane (su madre estaba ingresada en el hospital esa semana). Tres días después de la final, en una entrevista con la *Gazzetta dello Sport*, Materazzi admitió que había dicho *"prefiero ir con tu hermana puta"* en respuesta a una frase del francés. Zidane confirmó en *Canal+* dos semanas después que el insulto había sido contra su madre y su hermana, y que había repetido el comentario tres veces durante la jugada anterior al cabezazo. La FIFA sancionó a Materazzi con dos partidos por insulto. A Zidane con tres partidos y multa de 7.500 francos suizos, sin posibilidad de revertirla porque ya estaba retirado.
+
+Pierre Bergé, el publicista de Yves Saint Laurent y amigo personal de Zidane, dijo días después: *"Quería que su carrera terminara con la copa en la mano. Acabó con la cabeza baja. La tragedia perfecta"*. Catorce años más tarde, en septiembre de 2020, Materazzi y Zidane se encontraron en una gala benéfica en Marsella. Se dieron la mano, se abrazaron brevemente, posaron juntos para los fotógrafos sin hablar. Materazzi sigue jugando legendarios con el Inter retirados. Zidane fue luego seleccionador del Real Madrid y ganó tres Champions League consecutivas (2016, 2017, 2018). La imagen del cabezazo, sin embargo, sigue siendo la fotografía más vista de toda su carrera. Más que el penalti picado de Berlín. Más que la asistencia a Henry contra Brasil. Más que las dos volees con la zurda en la final de la Champions 2002 en Glasgow.
+
+*"Prefiero recibir un puñetazo en la cara antes que oír eso"*, dijo Zidane en *Canal+*. Es la única explicación que ha ofrecido en dos décadas.`,
+  },
 ];
 
 // ───────────────────────────────────────────────────────────
