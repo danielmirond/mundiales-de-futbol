@@ -35,83 +35,31 @@ export type Retailer = {
   commissionRange?: [number, number];
 };
 
+// Política editorial: solo monetizamos vía Amazon Associates (`nuus-21`).
+// No mantenemos CTAs de afiliación a otros retailers, aunque sean oficiales.
 export const RETAILERS: Retailer[] = [
   {
     id: 'amazon-es',
     name: 'Amazon España',
     affiliateNetwork: 'amazon-associates',
     affiliateActive: true,
-    hub: 'https://www.amazon.es/s?k=camiseta+seleccion+mundial+2026',
+    hub: 'https://www.amazon.es/s?k=camiseta+seleccion+mundial+2026&tag=nuus-21',
     description:
-      'Marketplace con todas las marcas técnicas. Envío Prime en 24-48h dentro de España. Tag `nuus-21` activo.',
-    pros: ['Envío 24h Prime', 'Devolución gratuita 30 días', 'Reseñas de compradores', 'Precios competitivos por descuentos puntuales'],
-    cons: ['Stock variable por talla', 'Algunas réplicas no oficiales (verificar vendedor)', 'Algunos sellers cobran envío internacional'],
-    countriesShipping: ['ES', 'FR', 'IT', 'DE', 'UK', 'PT (LATAM via Amazon.com.mx/.com.br)'],
+      'Único retailer con afiliación activa en mundiales-de-futbol.com. Marketplace con todas las marcas técnicas (adidas, Nike, Puma) en stock. Envío Prime en 24-48 h dentro de España.',
+    pros: [
+      'Envío 24-48 h con Prime',
+      'Devolución gratuita 30 días',
+      'Reseñas verificadas de compradores',
+      'Precios competitivos por descuentos puntuales',
+      'Marcas técnicas reales en stock (verificar siempre el vendedor)',
+    ],
+    cons: [
+      'Stock variable por talla',
+      'Verificar que el vendedor sea Amazon o la marca técnica (evitar réplicas)',
+      'Algunos productos de sellers internacionales (revisar plazo y origen)',
+    ],
+    countriesShipping: ['ES', 'FR', 'IT', 'DE', 'UK', 'PT'],
     commissionRange: [3, 10],
-  },
-  {
-    id: 'adidas-es',
-    name: 'adidas.es',
-    affiliateNetwork: 'awin',
-    affiliateActive: false,
-    hub: 'https://www.adidas.es/futbol-federations',
-    description:
-      'Tienda oficial de la marca con drops simultáneos a los de la federación. Catálogo más amplio que cualquier otro retailer.',
-    pros: ['Stock oficial 100% auténtico', 'Personalización de dorsales', 'Tallas de niño', 'Drops exclusivos en tienda online'],
-    cons: ['Sin descuentos durante drop semanas', 'Envío 3-5 días España, más fuera'],
-    countriesShipping: ['ES', 'FR', 'DE', 'UK', 'IT', 'PT'],
-    commissionRange: [6, 12],
-  },
-  {
-    id: 'nike-com',
-    name: 'Nike.com',
-    affiliateNetwork: 'cj',
-    affiliateActive: false,
-    hub: 'https://www.nike.com/es/futbol/camisetas-de-equipos-nacionales',
-    description:
-      'Tienda oficial Nike con todas las selecciones equipadas por Nike (Brasil, Inglaterra, Francia, Portugal, etc.).',
-    pros: ['Stock oficial', 'Personalización Nike By You', 'Camisetas Match Authentic ADV'],
-    cons: ['Algunos drops solo en Nike US (envío costoso)', 'Sin descuentos en drops oficiales'],
-    countriesShipping: ['ES', 'FR', 'DE', 'UK', 'IT', 'BR', 'MX', 'US'],
-    commissionRange: [8, 11],
-  },
-  {
-    id: 'puma-com',
-    name: 'Puma.com',
-    affiliateNetwork: 'awin',
-    affiliateActive: false,
-    hub: 'https://eu.puma.com/uk/en/football/national-teams',
-    description:
-      'Tienda oficial Puma para las selecciones que viste (Uruguay, Marruecos, Suiza, Senegal, Costa de Marfil, etc.).',
-    pros: ['Stock oficial', 'Tecnología ULTRAWEAVE en authentic', 'Catálogo más asequible (75-100€)'],
-    cons: ['Menos personalización que adidas/Nike', 'Stock limitado por talla'],
-    countriesShipping: ['UK', 'ES', 'FR', 'DE', 'IT', 'CH'],
-    commissionRange: [7, 10],
-  },
-  {
-    id: 'futbol-emotion',
-    name: 'Fútbol Emotion',
-    affiliateNetwork: 'awin',
-    affiliateActive: false,
-    hub: 'https://www.futbolemotion.com/es/equipaciones-futbol',
-    description:
-      'Retailer especializado en fútbol con tiendas físicas en España. Buen catálogo de camisetas selección.',
-    pros: ['Tiendas físicas para probar talla', 'Atención especializada en fútbol', 'Catálogo profundo replica + authentic'],
-    cons: ['Precios sin descuentos', 'Stock variable según tienda'],
-    countriesShipping: ['ES', 'PT', 'AND'],
-    commissionRange: [4, 7],
-  },
-  {
-    id: 'corner-football',
-    name: 'Corner Football Shop',
-    affiliateNetwork: 'direct',
-    affiliateActive: false,
-    hub: 'https://www.cornerfootball.com/',
-    description:
-      'Especialista en camisetas selección y retros. Atención cuidada al detalle.',
-    pros: ['Catálogo de retros amplio', 'Atención al cliente personalizada', 'Devolución sencilla'],
-    cons: ['Precios premium', 'Stock más limitado que grandes marketplaces'],
-    countriesShipping: ['ES', 'PT', 'EU'],
   },
 ];
 

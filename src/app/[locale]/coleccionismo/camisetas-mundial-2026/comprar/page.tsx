@@ -78,10 +78,10 @@ export default async function ComprarPage({
           Dónde comprar tu camiseta del Mundial 2026
         </h1>
         <p className="mt-6 max-w-3xl text-lg leading-relaxed text-[var(--color-fg-muted)]">
-          {RETAILERS.length} retailers verificados con envío a España. Solo
-          incluimos los que tienen stock oficial confirmado por la marca técnica
-          o por contrato de distribución. Si una camiseta sale a menos de 35 €,
-          es casi siempre falsificación: <Link href={withLocale(locale as Locale, '/coleccionismo/camisetas-mundial-2026/falsificaciones')} className="underline">cómo detectarlas</Link>.
+          Solo recomendamos un retailer con afiliación activa: <strong>Amazon España</strong>.
+          Tienen stock real de adidas, Nike y Puma a precios competitivos, envío 24-48 h con
+          Prime y devolución 30 días. Si una camiseta sale a menos de 35 €, es casi siempre
+          falsificación: <Link href={withLocale(locale as Locale, '/coleccionismo/camisetas-mundial-2026/falsificaciones')} className="underline">cómo detectarlas</Link>.
         </p>
       </header>
 

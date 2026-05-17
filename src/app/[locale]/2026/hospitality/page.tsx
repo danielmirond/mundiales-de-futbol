@@ -8,7 +8,6 @@ import {
   HOSPITALITY_CITIES,
   FMT_TEAM_PARAMS,
   CLUSTER_PAGES,
-  fifaProductUrl,
 } from '@/lib/wc-2026-hospitality';
 import { TEAMS_2026 } from '@/lib/wc-2026';
 
@@ -160,14 +159,6 @@ export default async function HospitalityPillar({
                 )}
               </div>
               <p className="mt-3 text-sm text-[var(--color-fg-muted)]">{p.description}</p>
-              <a
-                href={fifaProductUrl(p)}
-                target="_blank"
-                rel="sponsored nofollow noopener noreferrer"
-                className="mt-4 inline-flex items-center gap-2 font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--color-pitch)] hover:underline"
-              >
-                Ver en FIFA Hospitality <ArrowRight className="h-3 w-3 rtl:rotate-180" />
-              </a>
             </div>
           ))}
         </div>

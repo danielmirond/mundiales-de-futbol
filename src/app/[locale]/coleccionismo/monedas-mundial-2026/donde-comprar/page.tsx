@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { setRequestLocale } from 'next-intl/server';
-import { ArrowLeft, ArrowRight, ShoppingBag, ShieldCheck, MapPin, Globe } from 'lucide-react';
+import { ArrowLeft, ShoppingBag, ShieldCheck, MapPin, Globe } from 'lucide-react';
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl } from '@/lib/seo';
 
@@ -198,15 +198,9 @@ export default async function DondeComprarPage({ params }: { params: Promise<{ l
                   </ul>
                 </div>
               </div>
-              <a
-                href={c.url}
-                target="_blank"
-                rel="sponsored nofollow noopener noreferrer"
-                className="mt-5 inline-flex items-center gap-2 rounded-full bg-[var(--color-pitch)] px-5 py-2.5 text-sm font-semibold text-black transition-transform hover:scale-[1.02]"
-              >
-                Ir a {c.urlLabel}
-                <ArrowRight className="h-4 w-4 rtl:rotate-180" />
-              </a>
+              <div className="mt-5 font-mono text-[10px] uppercase tracking-[0.2em] text-[var(--color-fg-subtle)]">
+                Búsqueda directa: <span className="text-[var(--color-fg)]">{c.urlLabel}</span>
+              </div>
             </div>
           );
         })}
