@@ -73,6 +73,70 @@ export type NewsItem = {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'convocatorias-mundial-2026-bosnia-nueva-zelanda-tunez-croacia-18-mayo-actualizacion-listas-definitivas',
+    title:
+      'Convocatorias Mundial 2026: Bosnia, Nueva Zelanda y Túnez confirman 26 definitivos. Croacia anuncia hoy y Holanda esta semana',
+    summary:
+      'A las 24 horas del cierre de la semana decisiva de convocatorias, tres selecciones más han confirmado sus listas definitivas de 26 jugadores: Bosnia (Barbarez), Nueva Zelanda (Bazeley) y Túnez (Lamouchi). Croacia (Dalić) anuncia hoy con Modrić de capitán a sus 40 años. Holanda (Koeman) cierra la semana el jueves 21 de mayo.',
+    body: `Tres selecciones más han confirmado sus listas definitivas de 26 jugadores para el [Mundial 2026](/2026/calendario) en los últimos días: **Bosnia-Herzegovina** (con Sergej Barbarez), **Nueva Zelanda** (Darren Bazeley) y **Túnez** (Sabri Lamouchi). Con estos anuncios, suman **9 selecciones con lista definitiva** (Suecia, Francia, Japón, Bélgica, Haití, Costa de Marfil + las tres de esta noticia) y **9 más con prelista de 55** (España, Argentina, Brasil, Colombia, México, Corea del Sur, Chequia, Qatar, Paraguay, Uzbekistán). Quedan 30 selecciones pendientes a 14 días del [partido inaugural](/2026/sedes/ciudad-de-mexico) del 11 de junio.
+
+**🇧🇦 Bosnia-Herzegovina — Sergej Barbarez al mando**. Bosnia anunció su definitiva el 11 de mayo, una de las primeras Europa. El seleccionador **Sergej Barbarez** (ex Hamburgo, Bayer Leverkusen, Dortmund en su época de jugador) viaja al Mundial con un equipo de **transición generacional**. El capitán es **Edin Džeko** (Fenerbahçe), de 40 años, su quinto Mundial como capitán de la selección balcánica que debuta en su primer torneo desde Brasil 2014. Junto a él la nueva generación: **Adrian Leon Barišić** (Hajduk Split), **Amar Memić** (Borac) y **Said Hamulić** (Stade Brestois). En el medio, **Edin Višća** (Trabzonspor) y **Mladen Krstajić** retornan. Bosnia está encuadrada en el **Grupo B** con Canadá, Catar y Suiza.
+
+**🇳🇿 Nueva Zelanda — Bazeley apuesta por la juventud**. Los **All Whites** han presentado su definitiva el 14 de mayo. **Darren Bazeley**, seleccionador inglés en el cargo desde 2024, conserva la base del equipo que sorprendió en la clasificación OFC ganando los 6 partidos sin recibir gol. La estrella es **Chris Wood** (Nottingham Forest, 33 años), capitán y máximo goleador histórico de Nueva Zelanda con 47 goles. Junto a él, **Marko Stamenić** (Olympiakos), **Liberato Cacace** (Empoli) y el portero **Max Crocombe** (Eldense). La sorpresa: **Ben Old** (Saint-Étienne), de 21 años. Nueva Zelanda en el **Grupo G** con Bélgica, Egipto e Irán: el grupo más difícil de la historia para los kiwis. Objetivo declarado por Bazeley: **un punto**.
+
+**🇹🇳 Túnez — Lamouchi reencuentra el continente africano**. Túnez anunció el 15 de mayo con **Sabri Lamouchi**, ex jugador francés de origen tunecino y ex seleccionador de Costa de Marfil (2014-2016). La lista de 26 mantiene a los referentes **Aïssa Laïdouni** (Union Berlin), **Hannibal Mejbri** (Burnley), **Ali Maâloul** (Al-Ahli) y al portero **Aymen Dahmen** (Sfaxien). La sorpresa más comentada en Túnez ha sido la inclusión del juvenil **Elias Saad** (St. Pauli), nacido en Hamburgo y captado por la federación tunecina en 2024. Túnez está en el **Grupo F** con Países Bajos, Japón y Suecia, segundo grupo africano más complicado tras el de Cabo Verde.
+
+**🇭🇷 Croacia — Modrić y la última copa**. Croacia anuncia hoy **18 de mayo a las 11:00 hora de Zagreb** la lista de 26 de **Zlatko Dalić**, el seleccionador que llevó a los subcampeones a Rusia 2018 y al tercer puesto en Catar 2022. La estrella absoluta es **Luka Modrić**, que cumple 41 años el 9 de septiembre y disputa **su quinto y último Mundial consecutivo** (récord absoluto que igualan solo Carlos Cetenstein, Lothar Matthäus y Rafael Márquez). En medio campo le acompaña **Mateo Kovačić** (Manchester City) y **Mario Pašalić** (Atalanta). Una novedad fuerte: **Luka Vušković**, central de 18 años cedido por Tottenham al Hamburgo, que entra de manera inesperada en la lista definitiva al lado de **Joško Gvardiol** (City) y **Joško Šutalo** (Ajax). En el ataque, **Andrej Kramarić** (Hoffenheim), **Marko Pjaca** (Vinkovci) e **Igor Matanović** (Wolverhampton). Croacia está en el **Grupo L** con Inglaterra, Ghana y Panamá.
+
+**🇳🇱 Holanda — Koeman cierra la semana el 21 de mayo**. La próxima en anunciar es **Países Bajos**, donde **Ronald Koeman** tiene previsto presentar la definitiva de 26 el **jueves 21 de mayo a las 14:00 hora de Ámsterdam**. La duda principal es **Memphis Depay** (Corinthians, regresando tras temporada irregular en Brasil) y la inclusión del joven **Million Manhoef** (Stoke). Confirmados sin discusión: **Virgil van Dijk** (Liverpool, capitán), **Frenkie de Jong** (Barcelona), **Cody Gakpo** (Liverpool) y **Xavi Simons** (RB Leipzig).
+
+**Pendientes la próxima semana**. Tras Holanda el jueves, **Alemania** (Nagelsmann, prevista entre 22-24 mayo), **Portugal** (Roberto Martínez, 23 may), **USA** (Pochettino, 24 may), **Inglaterra** (Tuchel, 25 may, en Wembley), **España** definitiva (De la Fuente, 25 may en Las Rozas), **México** (Aguirre, 26 may en Coapa), **Argentina** definitiva (Scaloni, 27 may), **Canadá** (Marsch, 28 may).
+
+**El cronograma FIFA**. La fecha límite reglamentaria es el **1 de junio a las 23:59 UTC**. Las selecciones que ya entregaron prelista de 55 (España, Argentina, Brasil, Colombia, México, Corea del Sur, Chequia, Qatar, Paraguay, Uzbekistán) deben enviar lista reducida a 26 antes de esa fecha. Las que aún no han enviado nada tienen hasta el 1 de junio para entregar directamente los 26 definitivos. La operativa FIFA permite **reemplazos por lesión hasta 24 horas antes del primer partido** de cada selección.
+
+**Estado a 18 de mayo**:
+
+| Estado | Selecciones |
+|---|---|
+| ✅ Lista definitiva (26) | Bosnia, Suecia, NZ, Francia, Japón, Bélgica, Haití, C. Marfil, Túnez |
+| 📋 Prelista (55) | España, Argentina, Brasil, Colombia, México, Corea, Chequia, Qatar, Paraguay, Uzbekistán |
+| ⏳ Pendiente | Croacia (HOY), Holanda (21 may), Alemania, Inglaterra, Portugal, USA, Canadá, Italia (no clasificada), Marruecos, Senegal, Egipto, Argelia, Ghana, Sudáfrica, Australia, Irán, Arabia, Irak, Jordania, Cabo Verde, Curazao, Panamá, Escocia, Austria, Noruega, Turquía, Suiza, RD Congo, Ecuador, USA, Canadá
+
+**Calendario completo de cada selección** en [/2026/listas](/2026/listas) y previa rival en [/2026/convocatorias](/2026/convocatorias).`,
+    category: 'convocatorias',
+    sourceName: 'ESPN',
+    sourceUrl:
+      'https://www.espn.com/soccer/story/_/id/48757621/2026-world-cup-squad-lists-players-announced-all-48-teams',
+    sourceLang: 'en',
+    publishedAt: '2026-05-18T09:00:00Z',
+    sourcesSecondary: [
+      {
+        name: 'TUDN · Convocatorias y listas finales de las 48 selecciones',
+        url: 'https://www.tudn.com/mundial-2026/mundial-2026-todas-las-convocatorias-y-listas-finales-de-las-48-selecciones-para-la-copa-del-mundo',
+      },
+      {
+        name: 'BeSoccer · Convocatorias de las 48 selecciones',
+        url: 'https://es.besoccer.com/noticia/convocatorias-listas-todas-selecciones-mundial-2026-1408032',
+      },
+      {
+        name: 'Goal · Croacia squad World Cup 2026',
+        url: 'https://www.goal.com/en-us/lists/croatia-squad-world-cup-2026/blte475b4a9f48f3997',
+      },
+      {
+        name: 'Flashscore · Listas oficiales de 26 futbolistas',
+        url: 'https://www.flashscore.es/noticias/futbol-mundial-todas-las-listas-oficiales-de-26-jugadores-para-el-mundial-2026-de-la-fifa/Q7B15cVG/',
+      },
+      {
+        name: 'Sports Illustrated · 2026 World Cup Rosters: Full list of all official squads',
+        url: 'https://www.si.com/soccer/2026-world-cup-rosters-full-list-all-official-squads',
+      },
+      {
+        name: 'Mediotiempo · Croacia y Luka Modric en el último baile',
+        url: 'https://www.mediotiempo.com/futbol/copa-mundial/croacia-ultimo-baile-de-modric-y-una-generacion-de-oro',
+      },
+    ],
+  },
+  {
     slug: 'previa-convocatorias-mundial-2026-croacia-18-mayo-alemania-holanda-inglaterra-pendientes-17-mayo',
     title:
       'Convocatorias Mundial 2026: Croacia anuncia este lunes la suya, Alemania, Holanda e Inglaterra siguen sin pronunciarse a 16 días del primer partido',
