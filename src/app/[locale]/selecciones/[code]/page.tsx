@@ -11,8 +11,9 @@ import { TeamPhotoGallery } from '@/components/team/team-photo-gallery';
 import { AmazonProductGrid } from '@/components/affiliate/amazon-card';
 import { getProductsByTeam } from '@/lib/amazon-products';
 import { getJerseyHistory } from '@/lib/wc-jerseys';
-import { Shirt, ArrowRight } from 'lucide-react';
+import { Shirt, ArrowRight, Newspaper } from 'lucide-react';
 import { TeamKitShop } from '@/components/team/team-kit-shop';
+import { getNewsByTeam, relativeTimeEs } from '@/lib/news';
 
 function withLocale(locale: Locale, href: string) {
   if (locale === routing.defaultLocale) return href;
@@ -93,6 +94,9 @@ export default async function SelectionDetailPage({
     getTeamMatches(team.code, predecessors.map((p) => p.code)),
     getTeamTopScorers(team.code, 10),
   ]);
+
+  // Noticias recientes de la selección (detecta por keywords del slug).
+  const teamNews = getNewsByTeam(team.code, 4);
 
   // Group matches by tournament year for timeline presentation.
   type YearGroup = {
@@ -246,6 +250,51 @@ export default async function SelectionDetailPage({
               <ArrowRight className="h-3 w-3 transition-transform group-hover:translate-x-1 rtl:rotate-180" />
             </span>
           </Link>
+        </section>
+      )}
+
+      {/* Noticias recientes de la selección */}
+      {teamNews.length > 0 && (
+        <section className="mx-auto w-full max-w-[1400px] px-6 mt-12 md:px-10">
+          <div className="flex items-baseline justify-between gap-3">
+            <div>
+              <div className="flex items-center gap-2 font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-pitch)]">
+                <Newspaper className="h-3 w-3" />
+                <span>Noticias</span>
+              </div>
+              <h2 className="mt-2 font-display text-2xl uppercase leading-tight md:text-3xl">
+                Lo último sobre {teamDisplayName(team)}
+              </h2>
+            </div>
+            <Link
+              href={withLocale(locale as Locale, '/noticias')}
+              className="inline-flex items-center gap-1.5 font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--color-fg-subtle)] transition-colors hover:text-[var(--color-pitch)]"
+            >
+              Todas las noticias <ArrowRight className="h-3 w-3 rtl:rotate-180" />
+            </Link>
+          </div>
+          <div className="mt-6 grid gap-4 md:grid-cols-2">
+            {teamNews.map((n) => (
+              <Link
+                key={n.slug}
+                href={withLocale(locale as Locale, `/noticias/${n.slug}`)}
+                className="group rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg-2)] p-5 transition-colors hover:border-[var(--color-pitch)]/60"
+              >
+                <div className="font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--color-fg-subtle)]">
+                  {n.category} · {relativeTimeEs(n.publishedAt)}
+                </div>
+                <h3 className="mt-2 font-display text-base uppercase leading-tight group-hover:text-[var(--color-pitch)]">
+                  {n.title}
+                </h3>
+                <p className="mt-3 text-sm text-[var(--color-fg-muted)] line-clamp-3">
+                  {n.summary}
+                </p>
+                <div className="mt-3 inline-flex items-center gap-1 font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--color-pitch)] group-hover:underline">
+                  Leer <ArrowRight className="h-3 w-3 rtl:rotate-180" />
+                </div>
+              </Link>
+            ))}
+          </div>
         </section>
       )}
 

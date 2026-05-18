@@ -1629,6 +1629,68 @@ export function getNewsBySlug(slug: string): NewsItem | undefined {
   return NEWS_ITEMS.find((n) => n.slug === slug);
 }
 
+/**
+ * Mapeo de códigos FIFA → keywords que aparecen en el slug o título de
+ * una noticia para detectar a qué selección pertenece. Lista actualizable
+ * conforme se añadan noticias de más selecciones.
+ *
+ * Mantén las keywords en MINÚSCULAS, sin tildes, separadas por '-' como
+ * aparecen en los slugs. El matcher es case-insensitive y compara contra
+ * (slug + title) normalizados.
+ */
+const TEAM_NEWS_KEYWORDS: Record<string, string[]> = {
+  ARG: ['argentina', 'scaloni', 'messi', 'mastantuono', 'echeverri'],
+  BRA: ['brasil', 'brazil', 'ancelotti', 'neymar', 'vinicius', 'rodrygo'],
+  ESP: ['espana', 'espanola', 'espana,', 'spain', 'la-roja', 'de-la-fuente', 'yamal', 'pedri', 'rodri', 'carvajal', 'morata', 'fabian'],
+  FRA: ['francia', 'france', 'deschamps', 'mbappe', 'dembele', 'camavinga', 'kolo-muani', 'chevalier'],
+  JPN: ['japon', 'japan', 'moriyasu', 'endo', 'kubo', 'mitoma'],
+  BEL: ['belgica', 'belgium', 'rudi-garcia', 'courtois', 'de-bruyne', 'lukaku', 'fernandez-pardo'],
+  HAI: ['haiti', 'migne', 'bellegarde', 'isidor', 'nazon'],
+  CIV: ['costa-de-marfil', 'cote-divoire', 'emerse-fae', 'kessie', 'pepe', 'haller'],
+  COL: ['colombia', 'nestor-lorenzo', 'james', 'luis-diaz', 'ospina', 'falcao'],
+  BIH: ['bosnia', 'herzegovina', 'barbarez', 'dzeko'],
+  NZL: ['nueva-zelanda', 'new-zealand', 'bazeley'],
+  TUN: ['tunez', 'tunisia', 'lamouchi'],
+  CRO: ['croacia', 'croatia', 'modric', 'dalic', 'vuskovic'],
+  NED: ['holanda', 'netherlands', 'koeman', 'depay'],
+  GER: ['alemania', 'germany', 'nagelsmann', 'musiala', 'kroos'],
+  POR: ['portugal', 'roberto-martinez', 'cristiano', 'ronaldo'],
+  USA: ['estados-unidos', 'pochettino', 'pulisic'],
+  ENG: ['inglaterra', 'england', 'tuchel', 'bellingham', 'foden', 'saka'],
+  MEX: ['mexico', 'aguirre', 'azteca'],
+  CAN: ['canada', 'marsch', 'alphonso-davies'],
+  SWE: ['suecia', 'sweden', 'potter', 'isak', 'gyokeres', 'kulusevski'],
+  MAR: ['marruecos', 'morocco', 'regragui', 'hakimi'],
+  RSA: ['sudafrica', 'south-africa', 'bafana'],
+  URU: ['uruguay', 'bielsa', 'valverde', 'araujo'],
+  KSA: ['arabia-saudi', 'saudi-arabia', 'al-dawsari'],
+  CPV: ['cabo-verde', 'cape-verde'],
+  EGY: ['egipto', 'egypt', 'salah'],
+  IRN: ['iran'],
+  KOR: ['corea-del-sur', 'korea-republic', 'son'],
+};
+
+/**
+ * Devuelve las noticias relacionadas con una selección dada (por su
+ * código FIFA). Hace match contra keywords en slug/title.
+ *
+ * Útil para listar noticias en `/selecciones/[code]` y
+ * `/2026/listas/[code]`.
+ */
+export function getNewsByTeam(teamCode: string, limit = 5): NewsItem[] {
+  const keywords = TEAM_NEWS_KEYWORDS[teamCode];
+  if (!keywords || keywords.length === 0) return [];
+
+  const matches = NEWS_ITEMS.filter((n) => {
+    const haystack = (n.slug + ' ' + n.title).toLowerCase();
+    return keywords.some((kw) => haystack.includes(kw));
+  });
+
+  return matches
+    .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt))
+    .slice(0, limit);
+}
+
 /** Noticias relacionadas (misma categoría) excluyendo la actual. */
 export function getRelatedNews(slug: string, limit = 3): NewsItem[] {
   const current = getNewsBySlug(slug);
