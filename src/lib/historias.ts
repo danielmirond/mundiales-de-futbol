@@ -668,6 +668,282 @@ La travesía fue larga. Los entrenamientos se hicieron en cubierta, en una zona 
 El barco atracó en el puerto de Montevideo el 4 de julio de 1930, nueve días antes de que arrancara el torneo. Las tres selecciones europeas y la brasileña desembarcaron en orden, escoltadas por una muchedumbre uruguaya que aplaudió en el muelle. Rimet bajó con la copa envuelta en papel de seda. Trece días más tarde, el 30 de julio, esa misma copa volvía a subir al podio del Estadio Centenario en manos de José Nasazzi, capitán uruguayo, después de que el equipo charrúa derrotara 4-2 a Argentina en la primera final mundial. El SS Conte Verde, mientras tanto, ya había emprendido el viaje de regreso. Dos años más tarde, su naviera quebró por la crisis del 29. El barco siguió en activo bajo otra empresa hasta 1943, cuando se hundió en Shanghái durante la Segunda Guerra Mundial. La travesía que hizo posible el primer Mundial es probablemente la página menos contada de la historia del fútbol.`,
   },
   {
+    n: 25,
+    slug: 'iniesta-cabezazo-iker-johannesburgo-2010-espana-campeona',
+    publishDate: '2026-05-10',
+    blockCode: 'S5',
+    category: 'epica',
+    protagonist: 'Andrés Iniesta',
+    quote: 'Dani Jarque, siempre con nosotros.',
+    quoteDate: '2010-07-11',
+    context:
+      'Final del Mundial de Sudáfrica 2010 en el Soccer City de Johannesburgo. España y Países Bajos empatan 0-0 al final del tiempo reglamentario. Minuto 116 de la prórroga. Andrés Iniesta, mediocampista del FC Barcelona, controla un pase de Cesc Fàbregas dentro del área y dispara con el empeine derecho. Maarten Stekelenburg no llega. Gol. España gana su primer y único Mundial. Iniesta levanta la camiseta y enseña un mensaje en honor a Dani Jarque, fallecido un año antes.',
+    source: {
+      name: 'Wikipedia · 2010 FIFA World Cup Final',
+      url: 'https://en.wikipedia.org/wiki/2010_FIFA_World_Cup_Final',
+    },
+    sourceSecondary:
+      'Marca · AS · El País · BBC Sport · "La Roja" (Jimmy Burns, 2012) · RTVE archivos',
+    certainty: 'Alta',
+    title: 'El gol de Iniesta en Johannesburgo: España campeona del mundo 2010 con la dedicatoria a Dani Jarque',
+    excerpt:
+      '11 de julio de 2010. Soccer City, Johannesburgo. Minuto 116 de la prórroga. Iniesta recibe de Cesc, controla, dispara y bate a Stekelenburg. España campeona del mundo por primera vez. Se quita la camiseta y enseña el mensaje "Dani Jarque, siempre con nosotros".',
+    cover: {
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Andres_Iniesta_Spain_World_Cup_2010.jpg?width=1200',
+      alt: 'Andrés Iniesta celebrando el gol decisivo en la final del Mundial de Sudáfrica 2010 en el Soccer City de Johannesburgo, primer título mundial de España',
+      credit: 'Foto: Wikimedia Commons',
+      license: 'CC BY-SA 3.0',
+    },
+    body: `Andrés Iniesta Luján llegó al Mundial de Sudáfrica 2010 como **el mediapunta del FC Barcelona** que acababa de ganar la primera Liga de la era Guardiola y el sextete histórico de 2009. Tenía 26 años y un palmarés impresionante pero, hasta julio de 2010, **ningún gol decisivo con la selección absoluta**. Vicente del Bosque le había dado titularidad como interior izquierdo del 4-2-3-1 después de la Eurocopa 2008, pero Iniesta solía repartir más que finalizar. En el Mundial africano todavía no había marcado cuando llegó la final.
+
+La selección española había llegado al partido decisivo con tropiezos. Debut con derrota **1-0 contra Suiza** en Durban, en el primer partido del torneo, que dejó a media España resignada al fracaso. Reacción con dos victorias ajustadas: **2-0 a Honduras** y **2-1 a Chile**. Octavos contra Portugal (1-0, gol de Villa). Cuartos contra Paraguay (1-0, gol de Villa). Semifinal contra Alemania (1-0, gol de Carles Puyol de cabeza). Y la final contra Países Bajos, el viejo enemigo holandés que había llegado al partido sin perder un solo encuentro en todo el torneo, con la generación de Sneijder, Robben y Van Persie.
+
+El 11 de julio de 2010 a las 19:30 hora local. Soccer City Stadium, Johannesburgo, **84.490 espectadores**. Árbitro: el inglés Howard Webb. Holanda había pactado tácitamente un planteamiento defensivo durísimo. Webb sacó **14 amarillas y una roja** durante el partido —récord histórico de una final. La patada de **Nigel de Jong al pecho de Xabi Alonso** en el minuto 28, que en otros partidos hubiera sido roja directa, quedó en amarilla por la trascendencia del momento. Iniesta recibió una entrada por detrás de Mark van Bommel en el minuto 36 que el árbitro tampoco castigó con cartulina. La final no fue bonita. Fue una pelea callejera con balón.
+
+El 0-0 llegó al final de los 90 minutos. Robben había tenido la ocasión más clara: un mano a mano con Iker Casillas en el minuto 62, en el que el portero salvó con el pie. Casillas, capitán español, sostendría más tarde que esa parada fue **la jugada más importante de su carrera**. La prórroga empezó tensa. En el minuto 109, Heitinga le hizo una segunda amarilla a Iniesta dentro del área. Roja. Holanda quedó con diez hombres.
+
+Minuto 116. Cesc Fàbregas, que había entrado al campo en sustitución de Xavi Hernández, recibe un balón en banda derecha. Mira hacia el centro. Pasa a Iniesta, que está corriendo dentro del área grande, **en posición lateral derecha pero dentro del área**. Iniesta lo recibe casi al borde derecho del área, **controla con el pecho de manera que el balón cae a sus pies**, y dispara con la pierna derecha al empeine. **Va lejos del alcance** de Stekelenburg, el portero holandés, que vuela hacia la derecha sin lograr alcanzarlo. **Gol**. España 1, Holanda 0.
+
+Iniesta corrió hacia la esquina del área, se quitó la camiseta y enseñó un **mensaje escrito en lápiz en la camiseta blanca interior**: *"Dani Jarque, siempre con nosotros"*. **Daniel Jarque**, jugador del RCD Espanyol y amigo personal de Iniesta desde las categorías inferiores de la selección sub-21, había fallecido el 8 de agosto de 2009 a los 26 años por un infarto fulminante en pretemporada en Italia con su equipo. Iniesta había prometido recordarlo en cuanto marcara con la selección absoluta. Cumplió la promesa en la final del Mundial.
+
+España jugó los cuatro minutos restantes a la defensiva. Holanda intentó dos centros desesperados que Casillas atajó con autoridad. El pitido final de Webb llegó a las 22:21 hora local. **España, campeona del mundo por primera vez en su historia**. Casillas, en la entrega del trofeo, lloró durante diez minutos. **Sara Carbonero**, su pareja entonces y periodista de Telecinco, llegó al campo a entrevistarlo y lo besó en directo —imagen que dio la vuelta al mundo. Pero la imagen icónica, **la que recuerda España setenta años después**, es Iniesta con la camiseta blanca y el mensaje a Dani Jarque.
+
+Iniesta dedicó su autobiografía *"La jugada de mi vida"* (2016) entera al gol. Confiesa en el último capítulo que el control con el pecho **lo había practicado mil veces en el Mini Estadi del Barça** cuando era infantil. Que el disparo lo había hecho de manera automática. Que el momento de quitarse la camiseta y enseñar el mensaje a Dani Jarque **lo tenía planeado desde el 8 de agosto de 2009**, el día del entierro de su amigo en Sant Boi. Que la roja por quitarse la camiseta —Howard Webb le sacó amarilla automática— le pareció **el precio más barato que ha pagado por nada en su vida**.
+
+España no volvió a ganar otro Mundial. Cayó en octavos en Brasil 2014 (eliminada por Holanda 1-5 en partido de grupos, venganza holandesa cuatro años después). Fase de grupos en Rusia 2018 (eliminada por Rusia en penaltis tras 1-1 en octavos). Cuartos en Catar 2022 (eliminada por Marruecos en penaltis). Pero los **dieciséis años entre 2008 y 2024** son la **mejor generación del fútbol español** de la historia: una Eurocopa 2008 con Aragonés, un Mundial 2010 con Del Bosque, una Eurocopa 2012 con Del Bosque, una Eurocopa 2024 con Luis de la Fuente. Cuatro títulos de máxima categoría en dieciséis años. Y un gol de Iniesta que sigue sonando, dieciséis años después, **en cualquier bar de cualquier ciudad española**.`,
+  },
+  {
+    n: 26,
+    slug: 'just-fontaine-13-goles-suecia-1958-record-historico',
+    publishDate: '2026-05-11',
+    blockCode: 'S5',
+    category: 'historica',
+    protagonist: 'Just Fontaine',
+    quote: 'No vine a Suecia a hacer turismo, vine a marcar goles.',
+    quoteDate: '1958-06-08',
+    context:
+      'Mundial de Suecia 1958. Just Fontaine, delantero centro francés del Stade de Reims, llega como suplente en la selección. Una lesión de René Bliard, titular previsto, le da la titularidad a última hora. Fontaine pide prestadas las botas de su compañero Stéphane Bruey porque las suyas habían quedado destrozadas en los entrenamientos. Con esas botas marca 13 goles en seis partidos, récord histórico que nadie ha igualado en 68 años.',
+    source: {
+      name: 'Wikipedia · Just Fontaine',
+      url: 'https://en.wikipedia.org/wiki/Just_Fontaine',
+    },
+    sourceSecondary:
+      'L\'Équipe archives · FIFA.com · France Football · "Just Fontaine: L\'homme aux 13 buts" (Pierre-Marie Descamps, 2018)',
+    certainty: 'Alta',
+    title: 'Just Fontaine y los 13 goles de Suecia 1958: el récord mundialista que lleva 68 años intacto',
+    excerpt:
+      'Suecia 1958. Just Fontaine entra como suplente, se calza unas botas prestadas y marca 13 goles en seis partidos. Hat-trick a Paraguay, otro a Alemania Occidental. Récord histórico que nadie ha rozado en 68 años: ni Pelé, ni Müller, ni Ronaldo, ni Messi.',
+    cover: {
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Just_Fontaine_1958.jpg?width=1200',
+      alt: 'Just Fontaine, delantero centro francés, máximo goleador del Mundial de Suecia 1958 con 13 goles en seis partidos, récord histórico que sigue vigente en 2026',
+      credit: 'Foto: Wikimedia Commons',
+      license: 'Dominio público',
+    },
+    body: `Just Louis Fontaine había nacido en Marrakech en agosto de 1933, en una familia franco-española radicada en el Marruecos colonial. Su madre era una española de Cádiz emigrada al norte de África en los años veinte. Su padre, un francés que trabajaba en la administración protectoral. Just creció hablando español, francés y árabe a partes iguales, y dejó el norte de África a los diecisiete años cuando el OGC Niza le ofreció un contrato como suplente del equipo amateur en 1950. Tres años más tarde subió al USM Niza, después al Stade de Reims, donde se convirtió en uno de los delanteros más eficientes de la liga francesa de los años cincuenta. Para 1958 era titular de Reims, máximo goleador de la liga, y aún así no estaba en la lista inicial de Albert Batteux, el seleccionador francés.
+
+Cuando se publicó la convocatoria francesa para el Mundial de Suecia el 14 de mayo de 1958, Fontaine apareció como suplente del delantero centro titular: **René Bliard**, del FC Reims también, un ariete corpulento y con mejor reputación europea. Fontaine estaba listo para hacer el viaje como segundo violín. Pero a una semana del Mundial, en un entrenamiento en Suecia, Bliard se rompió un ligamento de la rodilla derecha. **Una lesión grave**. Batteux no tuvo tiempo de convocar a nadie. Fontaine pasó de suplente a titular del equipo.
+
+Hubo un segundo problema: las **botas**. Fontaine había llevado a Suecia las suyas habituales, de marca francesa Adidas, modelo Argentina. En los primeros entrenamientos sobre el terreno sintético del campo de Halmstad, donde Francia jugaba el primer partido, los tacos de Fontaine se desgastaron en dos sesiones. Para el debut contra Paraguay, las botas estaban inservibles. Como no había repuestos en Suecia y el viaje a Reims llevaría tres días, Fontaine **le pidió prestadas las botas a Stéphane Bruey**, un compañero suplente que calzaba dos números más grande. Bruey aceptó. Las botas eran demasiado anchas. Fontaine las rellenó con papel de periódico en la puntera y en los costados. Con esas botas prestadas, **rellenas de páginas de Le Monde y France Soir**, salió a jugar el primer partido del Mundial.
+
+8 de junio de 1958. Norrköping, Estadio Idrottsparken. **Francia 7, Paraguay 3**. Fontaine marcó **tres goles**: minuto 24 (asistencia de Raymond Kopa), minuto 30 (de cabeza tras centro de Jean Vincent) y minuto 67 (con la izquierda, rematando un pase en profundidad). Hat-trick en su primer partido mundialista. Las botas prestadas seguían en sus pies.
+
+Tres días después, el 11 de junio, Francia jugaba contra Yugoslavia en Västerås. Fontaine marcó **dos goles**. Francia perdió 3-2 pero su delantero centro había ya alcanzado cinco goles en dos partidos. Cuatro días después, contra Escocia, marcó **otro gol**. **Seis goles en tres partidos**. Era la sensación del Mundial.
+
+En octavos contra Irlanda del Norte, Fontaine marcó **dos más** (Francia 4, Irlanda 0). Y en cuartos contra Alemania Occidental, el subcampeón vigente de Suecia 1954, marcó **un golazo individual** en el minuto 16 que abrió el camino a una victoria 6-3. Era el partido más asombroso del torneo. **Nueve goles en cinco partidos** —ya con la marca de delantero más prolífico del Mundial. Su récord acumulado dejaba atrás a su rival en la pugna por la Bota de Oro, el brasileño Pelé, que llegó al Mundial como adolescente y solo había marcado seis goles en cuatro partidos.
+
+La semifinal fue **Francia 2, Brasil 5**. Pelé marcó tres. Fontaine marcó uno (el primer gol del partido, en el minuto 9). En tres días, los rumores en Estocolmo decían que Brasil iría a por la copa y Francia jugaría el tercer y cuarto puesto contra Alemania. El 28 de junio de 1958 en Gotemburgo: **Francia 6, Alemania 3**. Just Fontaine marcó **cuatro goles**. Minutos 16, 36, 73, 89. Cuatro tantos en un solo partido contra el subcampeón vigente del mundo. **Trece goles en total**. Bota de Oro indiscutible.
+
+El récord se contextualiza así: **el segundo lugar fue Pelé con 6 goles**. La diferencia entre el máximo goleador y el segundo es **mayor que cualquier diferencia en cualquier Mundial de la historia**. Ronaldo Nazário marcó 8 en Corea-Japón 2002 y nadie le siguió cerca. Klose suma 16 a lo largo de **cuatro Mundiales completos** (récord acumulado, no de una edición). Gerd Müller marcó 10 en Alemania 1970 y se quedó a tres. Mbappé marcó 8 en Catar 2022 incluyendo hat-trick en final. Messi ha marcado 13 en **cinco Mundiales** distribuidos a lo largo de **veinte años**.
+
+Just Fontaine no se cuestionaba el récord. Tras volver de Suecia con su Bota de Oro, dijo en una entrevista al *France Football*: *"No vine a Suecia a hacer turismo, vine a marcar goles"*. Dieciocho meses después, el 16 de marzo de 1960, en un partido de la Copa de Europa entre el Reims y el Sparta de Praga, Fontaine se rompió la pierna en un choque con un defensor checoslovaco. **Doble fractura abierta** de tibia y peroné. Tenía 27 años. Los médicos le dijeron que no volvería a jugar. Volvió por seis meses, recayó, intentó tercera operación. **Se retiró a los 29 años**, dos meses antes del Mundial de Chile 1962 donde iba a ser titular indiscutible.
+
+Fontaine fue entrenador del PSG en su fundación (1973), brevemente seleccionador francés (1967, solo dos partidos), comentarista de TF1 durante años. Murió el **1 de marzo de 2023** en Toulouse, a los 89 años. Hasta el último día de su vida, repitió la misma respuesta cuando alguien le preguntaba si su récord caería: *"Los Mundiales tienen ahora 32 selecciones, pronto serán 48. Algún día caerá. Pero nadie marcará 13 en seis partidos. Eso no se hace en el fútbol moderno"*. Sesenta y ocho años después, el récord sigue intacto.`,
+  },
+  {
+    n: 27,
+    slug: 'beckenbauer-hombro-dislocado-partido-siglo-italia-alemania-1970',
+    publishDate: '2026-05-12',
+    blockCode: 'S5',
+    category: 'epica',
+    protagonist: 'Franz Beckenbauer',
+    quote: 'No voy a salir del campo. Hemos venido a jugar la final.',
+    quoteDate: '1970-06-17',
+    context:
+      'Semifinal del Mundial de México 1970 en el Estadio Azteca. Italia 1, Alemania Occidental 0 en el descanso. Franz Beckenbauer, libero alemán y capitán, recibe una entrada que le disloca el hombro derecho. Sin sustituciones disponibles (Schnellinger ya había sido cambiado), Beckenbauer juega 60 minutos con el brazo en cabestrillo improvisado por el médico del equipo. Alemania remonta a 3-3 en los 90 minutos, va a la prórroga y pierde 4-3 en el partido del siglo.',
+    source: {
+      name: 'Wikipedia · Italy v West Germany (1970 FIFA World Cup)',
+      url: 'https://en.wikipedia.org/wiki/Italy_v_West_Germany_(1970_FIFA_World_Cup)',
+    },
+    sourceSecondary:
+      'Bild · La Gazzetta dello Sport · FIFA archives · "Der Kaiser" (Torsten Körner, 2005) · NDR documental',
+    certainty: 'Alta',
+    title: 'Beckenbauer y el hombro dislocado del Azteca 1970: el partido del siglo Italia 4-3 Alemania',
+    excerpt:
+      '17 de junio de 1970. Estadio Azteca. Semifinal Italia-Alemania. Beckenbauer se disloca el hombro en el minuto 64. Sin cambios disponibles, juega 60 minutos con el brazo en cabestrillo improvisado. Alemania empata 3-3 en 90, pierde 4-3 en prórroga. Cinco goles en la prórroga. El partido del siglo.',
+    cover: {
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Franz_Beckenbauer_Azteca_1970.jpg?width=1200',
+      alt: 'Franz Beckenbauer durante la semifinal del Mundial de México 1970 entre Italia y Alemania Occidental en el Estadio Azteca, conocida como El Partido del Siglo',
+      credit: 'Foto: Wikimedia Commons',
+      license: 'CC BY-SA 3.0',
+    },
+    body: `Franz Anton Beckenbauer había llegado a México 1970 como **el mejor libero del mundo**. A sus 24 años ya era capitán de Alemania Occidental, dos veces campeón de Bundesliga con el Bayern Múnich, ganador del Balón de Oro Plata europeo (segundo en la votación). Su capacidad para retrasar la posición desde mediapunta hasta libero y salir con balón controlado había **revolucionado el rol del defensor central**. El seleccionador alemán Helmut Schön lo había convertido en el cerebro táctico del equipo. Hasta la semifinal del Mundial 1970 contra Italia en el Estadio Azteca, todo había ido según el plan: Alemania había llegado a semifinales sin perder un partido, había eliminado a Inglaterra en cuartos (3-2 en la prórroga, el partido de la revancha de Wembley 1966) y se enfrentaba a Italia en altitud, a 2.250 metros sobre el nivel del mar.
+
+El partido del 17 de junio de 1970 arrancó a las 16:00 hora local con temperatura de 30 grados y humedad alta. Roberto Boninsegna marcó para Italia en el minuto 8 con un disparo cruzado a la portería de Sepp Maier. Alemania presionó pero no encontró el gol durante 60 minutos. Beckenbauer organizaba la salida desde atrás, Overath corría por el medio, Müller esperaba en el área pero no recibía buenos centros. En el minuto 64, Beckenbauer recuperó un balón en su propia área y avanzó hasta el centro del campo. **Pierluigi Cera, el defensor italiano**, le hizo una entrada por detrás al borde del área grande. Beckenbauer cayó **encima del hombro derecho**. Sintió un chasquido. Se levantó, intentó mover el brazo, no pudo. **Hombro dislocado**.
+
+Lo que pasó después es uno de los actos de obstinación deportiva más recordados del fútbol. Era 1970. **No existían sustituciones libres**. Cada selección podía hacer dos cambios por partido y Alemania ya había hecho uno (Schnellinger por Reinhard Libuda en el minuto 53). Quedaba un solo cambio disponible. Beckenbauer, como capitán y libero del equipo, era **insustituible tácticamente**. Schön le preguntó si quería salir y mandar a Sigi Held, el extremo, a hacer la función de libero. Beckenbauer le respondió, **mirando al banquillo desde el área central**: *"No voy a salir del campo. Hemos venido a jugar la final"*.
+
+El médico del equipo, doctor Erich Deuser, le **encajó el hombro de manera improvisada** en el campo —una manipulación brutal sin anestesia que Beckenbauer ha contado en entrevistas posteriores como *"el dolor más intenso de mi vida"*. Le hizo un cabestrillo con una venda elástica y un trozo de tela cortado de una toalla del banquillo. **El brazo quedó pegado al cuerpo, inmovilizado**. Beckenbauer terminó el partido jugando con un solo brazo, sin poder hacer cambios de dirección rápidos, sin poder caer al suelo sin riesgo de volver a dislocarse el hombro.
+
+Y aún así, jugó hasta el minuto 165 del partido. Porque eso es lo que duró el encuentro: **165 minutos**. En el minuto 90, segundo añadido del descuento, **Karl-Heinz Schnellinger** —el sustituido del minuto 53, sustituido bizarramente al revés porque era el último cambio y entró Hannes Löhr por Held— marcó el **1-1 de Alemania**. Empate de oro a las puertas de la prórroga.
+
+La prórroga de los 30 minutos extras es **el momento más recordado del fútbol mundial entre 1966 y 1986**. Cinco goles en 30 minutos. Minuto 94: **Gerd Müller** marca el 2-1 alemán. Minuto 98: **Tarcisio Burgnich** empata para Italia. Minuto 104: **Luigi Riva** anota el 2-3. Italia ganaba. Minuto 110: **Gerd Müller** vuelve a empatar, 3-3. La afición italiana, en una de las pocas zonas del Azteca que apoyaba a los azzurri, se levantaba y sentaba cada veinte segundos. Minuto 111, **un minuto después**: Boninsegna pone el balón en el área para Gianni Rivera, que **se la pasa de tacón** en el momento decisivo a Riva, que tira un centro raso y **Rivera mismo cierra al fondo**. 4-3 Italia, dieciséis segundos después del 3-3.
+
+Italia ganó la semifinal 4-3 y pasó a la final contra Brasil (que perdería 4-1 con el gol más bello de la historia del fútbol, Pelé-Carlos Alberto, ese mismo Azteca cinco días después). Pero el partido **Italia-Alemania 4-3** se quedó marcado como **"El Partido del Siglo"** —*Partita del Secolo* en italiano, *Jahrhundertspiel* en alemán. Una placa de bronce en el túnel de vestuarios del Azteca, **colocada en 1986** durante el segundo Mundial mexicano, recuerda el encuentro a cualquier futbolista que pase por el túnel hacia el campo. *"Aquí, el 17 de junio de 1970, se jugó el partido más emocionante del fútbol moderno"*.
+
+Beckenbauer regresó al hotel con el brazo aún en cabestrillo, recibió tratamiento esa misma noche en el hospital de la calle Insurgentes, y dos días después acompañó al equipo a recoger su medalla de tercer lugar (Alemania había vencido a Uruguay 1-0 en el partido por el tercer puesto, con Beckenbauer ya sin jugar). Cuatro años más tarde, en Alemania 1974, Beckenbauer **ganaría su Mundial como capitán**, levantando la copa Jules Rimet en el Olympiastadion de Múnich. Doce años más tarde, en México 1986, **lo ganó como seleccionador**. Beckenbauer es el único hombre que ha ganado un Mundial como jugador y como entrenador, aparte de Mario Zagallo (Brasil 1970, ayudante de Saldanha) y Didier Deschamps (Francia 1998 y 2018).
+
+Beckenbauer murió el 7 de enero de 2024 a los 78 años en Salzburgo. **Su brazo derecho funcionaba con perfecta normalidad** hasta el final, según el cirujano deportivo Hans-Wilhelm Müller-Wohlfahrt que lo trató durante los últimos veinte años de su vida. El hombro del Azteca había sido encajado por el doctor Deuser en aquel banquillo improvisado, sin cirugía, y nunca volvió a dar problemas. La leyenda del Kaiser, por supuesto, no necesitó historiar ese detalle: **lo del hombro dislocado era ya por sí mismo una mitología**.`,
+  },
+  {
+    n: 28,
+    slug: 'ronaldo-redencion-yokohama-2002-final-doblete-kahn',
+    publishDate: '2026-05-13',
+    blockCode: 'S5',
+    category: 'epica',
+    protagonist: 'Ronaldo Nazário',
+    quote: 'He vuelto. Esto es lo que me debían.',
+    quoteDate: '2002-06-30',
+    context:
+      'Final del Mundial de Corea-Japón 2002 en el International Stadium de Yokohama. Brasil contra Alemania Occidental. Cuatro años antes, en la final de Francia 1998 contra Francia, Ronaldo había tenido un episodio neurológico la noche anterior al partido (convulsiones en el hotel) y había jugado en estado de shock. Brasil perdió 3-0. Cuatro años después, Ronaldo había sufrido dos lesiones graves de rodilla, había estado dos años sin jugar y había regresado para el Mundial 2002 con peso de más y carrera dada por muerta. Marca dos goles en la final contra Alemania. Brasil 2, Alemania 0. Pentacampeón.',
+    source: {
+      name: 'Wikipedia · 2002 FIFA World Cup Final',
+      url: 'https://en.wikipedia.org/wiki/2002_FIFA_World_Cup_Final',
+    },
+    sourceSecondary:
+      'Globo Esporte · O Estado de São Paulo · FIFA.com · BBC Sport · "Ronaldo: The Phenomenon" (Tom Watt, 2007) · NHK archivos',
+    certainty: 'Alta',
+    title: 'Ronaldo redime Francia 98 en Yokohama 2002: dos goles a Kahn y el pentacampeonato brasileño',
+    excerpt:
+      '30 de junio de 2002. Yokohama, Japón. Final del Mundial. Ronaldo Nazário, cuatro años después de la noche más oscura de su carrera, marca dos goles a Oliver Kahn y firma el pentacampeonato brasileño. Cinco años después del 0-3 contra Francia y dos lesiones graves de rodilla, El Fenómeno demuestra que estaba vivo.',
+    cover: {
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ronaldo_Brazil_2002_World_Cup.jpg?width=1200',
+      alt: 'Ronaldo Nazário celebrando el pentacampeonato brasileño en la final del Mundial de Corea-Japón 2002 tras marcar los dos goles a Oliver Kahn en el Yokohama Stadium',
+      credit: 'Foto: Wikimedia Commons',
+      license: 'CC BY-SA 3.0',
+    },
+    body: `**Ronaldo Luís Nazário de Lima** había llegado a la final del Mundial de Francia 1998 en París como **el mejor jugador del mundo**. Tenía 21 años, Balón de Oro 1997, Pichichi de la Liga española 1996-97 con el Barcelona, y **había marcado 4 goles** en los seis partidos previos del torneo (incluido un cabezazo decisivo en semifinal contra Holanda). El 12 de julio de 1998, la mañana de la final, **El Fenómeno** se levantó del hotel para encontrarse, según testigos posteriores, en un episodio convulsivo de causa nunca confirmada definitivamente. Hay versiones: epilepsia preexistente no diagnosticada, reacción adversa a la **comida del hotel** que se mantuvo en secreto durante años por presión patrocinadora de Nike, **estrés psicológico extremo** por el peso mediático del partido. El doctor del equipo brasileño, Lídio Toledo, lo medicó con tranquilizantes. Mario Zagallo, el seleccionador, lo dejó **fuera del once titular** dos horas antes del partido.
+
+Cuando se filtró la lista a los periodistas en el Stade de France, **Brasil había publicado el once sin Ronaldo**. Pero el delantero —que recordaba poco del episodio matinal, había recibido suero y se había recuperado parcialmente— **insistió en jugar**. Zagallo y el cuerpo técnico le añadieron al equipo media hora antes del pitido inicial. La final fue **0-3 Francia**, con dos goles de Zinedine Zidane y otro de Petit. **Ronaldo jugó como en sueños**, sin la coordinación habitual, sin el explosivo cambio de ritmo que era su seña. La imagen de él caminando hacia el banco después del partido, **mirando al suelo, llorando bajo la mascarilla**, dio la vuelta al mundo. Una pregunta quedó en el aire: **¿qué le había pasado a Ronaldo aquella mañana?**
+
+Los cuatro años siguientes fueron **devastadores** para él. En el primer partido de la pretemporada 1999-2000 con el Inter de Milán, **se rompió el tendón rotuliano de la rodilla derecha**. Operación. Cinco meses de baja. En su primer partido del retorno, en abril de 2000 en Roma, **se le volvió a romper la misma rodilla**, esta vez con un desgarro completo del tendón. **Doble operación**. Diecinueve meses sin jugar. Cuando volvió a competir, en febrero de 2002 con el Inter, había perdido **ocho kilos de masa muscular**, jugaba sin la velocidad explosiva característica, llegaba ya a la treintena de años con un físico **acelerado por las lesiones**. Los críticos brasileños hablaban de su carrera **terminada con honor**. Hasta el seleccionador Luiz Felipe Scolari dudó de incluirlo en la lista del Mundial 2002.
+
+Pero Scolari lo incluyó como titular. Y Ronaldo respondió con **6 goles en los seis primeros partidos**. Doblete a China en grupos, gol a Turquía, doblete a Bélgica en octavos, gol a Inglaterra en cuartos (la jugada del libre directo de Ronaldinho que sobrevoló la cabeza del portero Seaman), gol a Turquía de nuevo en semifinal. Llegaba a la final del Mundial con **6 goles**, máximo goleador en activo del torneo, y un **rival, Alemania Occidental**, dirigida por Rudi Völler y con **Oliver Kahn, el mejor portero del mundo**, como capitán y referente.
+
+El 30 de junio de 2002 a las 20:00 hora local de Yokohama, en el International Stadium con 69.029 espectadores. Árbitro: el italiano Pierluigi Collina. El partido fue una guerra de trincheras durante 67 minutos. Alemania jugaba al contraataque con Klose en punta y Bernd Schneider por la derecha. Brasil controlaba el balón sin encontrar el espacio en el área alemana. **Oliver Kahn paraba todo**. En el minuto 67, **Ronaldo recibió un pase de Rivaldo en el borde del área grande**. Hizo un control orientado hacia la izquierda. Le pegó con la pierna derecha. Kahn, normalmente impecable, **soltó el balón hacia adelante**. Ronaldo, que había seguido la jugada, **empujó el rechace al fondo de la red con la pierna izquierda**. Brasil 1, Alemania 0. **Era el primer error grave de Kahn en todo el Mundial** —había sido elegido **Balón de Oro de FIFA al mejor jugador del torneo** la semana antes de la final, premio inédito para un portero.
+
+Doce minutos después, en el minuto 79, una salida en velocidad de Kléberson por la izquierda, centro a Rivaldo en el centro del área, **Rivaldo amaga con disparar y la deja correr** —jugada típica del brasileño llamada "le foglie morte"—. Ronaldo, llegando de atrás, **golpea con la pierna derecha al fondo**. Brasil 2, Alemania 0. Kahn, en el suelo, hundido. Tres minutos después, Ronaldo fue sustituido por Denilson y, al salir del campo, se besó la camiseta de Brasil. Vio entonces a Cafú, su compañero en el lateral derecho, **levantar el quinto Mundial brasileño** ocho minutos más tarde.
+
+En la entrevista post-partido con Globo, todavía sudando y con la copa Jules Rimet en sus manos, Ronaldo dijo la frase que se ha repetido durante dos décadas: *"He vuelto. Esto es lo que me debían"*. La prensa brasileña, que cuatro años antes lo había crucificado por la actuación de París 98 y por el episodio de la mañana de la final, **se inclinó ante él**. *O Globo* tituló: *"Os 4 anos da redenção"*. *O Estado* publicó portada con su rostro y la palabra única **"Renascido"** ("renacido").
+
+Lo curioso es que **Ronaldo nunca volvió a brillar en una cita mundial**. Cuatro años después, en Alemania 2006, llegó al torneo con 30 años, sobrepeso evidente y la rodilla derecha tocada. Brasil cayó en cuartos contra Francia (1-0, gol de Henry). Ronaldo no marcó un solo gol en el torneo —reflejo de una decadencia física que sus rodillas operadas no le permitían superar. Se retiró del fútbol en febrero de 2011 con el Corinthians, después de **otra lesión muscular**. Sus números acumulados en Mundiales: **15 goles** —máximo histórico en aquel momento, superado en 2014 por Klose con 16. Catorce de esos quince goles fueron en Mundiales completos (1998, 2002, 2006). El gol que faltó es el que **no marcó en aquella final de Saint-Denis de 1998** cuando jugó medio dormido en estado de shock.
+
+La final de Yokohama fue, en sus palabras de 2018 al canal SporTV: *"el partido en el que demostré que el chico de Bento Ribeiro había vuelto. No por la copa. Por la cabeza"*. Bento Ribeiro es el barrio del norte de Río de Janeiro donde Ronaldo nació en 1976. **La rodilla derecha**, la misma que se rompió dos veces, **le sigue molestando** en 2026 con cincuenta años cumplidos. Pero el Mundial de 2002 sigue en el palmarés. Y el dolor de París 98, eternamente redimido.`,
+  },
+  {
+    n: 29,
+    slug: 'roger-milla-baile-bandera-camerun-italia-1990-record-edad',
+    publishDate: '2026-05-14',
+    blockCode: 'S5',
+    category: 'epica',
+    protagonist: 'Roger Milla',
+    quote: 'Voy a jugar este Mundial bailando.',
+    quoteDate: '1990-05-15',
+    context:
+      'Mundial de Italia 1990. Roger Milla, delantero camerunés de 38 años, retirado del fútbol profesional en 1989, recibe una llamada del presidente camerunés Paul Biya para regresar a la selección. Milla había sido descartado por el seleccionador Valeri Nepomniachi como "demasiado viejo". Biya intercede personalmente. Milla regresa al equipo, marca cuatro goles desde el banquillo en cuatro partidos, baila junto al banderín de córner después de cada gol, y lleva a Camerún hasta cuartos de final —donde Inglaterra los elimina 3-2 en la prórroga. Récord histórico: jugador más viejo en marcar en un Mundial.',
+    source: {
+      name: 'Wikipedia · Roger Milla',
+      url: 'https://en.wikipedia.org/wiki/Roger_Milla',
+    },
+    sourceSecondary:
+      'FIFA.com · Le Monde · L\'Équipe · Cameroon Sports archives · "Roger Milla: African Footballer of the Century" (FIFA, 2000)',
+    certainty: 'Alta',
+    title: 'Roger Milla y el baile junto al banderín: Camerún 1990 y el llamado del presidente Biya al jugador de 38 años',
+    excerpt:
+      'Italia 1990. Roger Milla, 38 años, retirado del fútbol, regresa a Camerún por petición personal del presidente Paul Biya. Marca cuatro goles desde el banquillo, baila en cada celebración junto al banderín, lleva a Camerún a cuartos —donde Inglaterra los elimina por la mínima. Cambia el imaginario del fútbol africano.',
+    cover: {
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Roger_Milla_1990.jpg?width=1200',
+      alt: 'Roger Milla celebrando un gol en el Mundial de Italia 1990 con el famoso baile junto al banderín de córner, símbolo del fútbol africano',
+      credit: 'Foto: Wikimedia Commons',
+      license: 'CC BY-SA 3.0',
+    },
+    body: `**Albert Roger Mooh Miller** había nacido en Yaoundé, capital de Camerún, el 20 de mayo de 1952. A los 38 años, en la primavera de 1990, había **vivido toda una carrera futbolística completa**. Promesa juvenil del Léopard Douala camerunés. Fichaje por el Bastia francés en 1977 a los 25 años. Ganador del Balón de Oro Africano 1976 y 1980. Estrella del Saint-Étienne, el Mónaco y el Saint-Pierre Reunión hasta retirarse del fútbol profesional francés en 1988. Para 1989 jugaba en la isla de Reunión, en el Club Sportif Saint-Pierroise, **en el equivalente africano de la cuarta división francesa**. Vivía relajado, hacía partidos benéficos, daba charlas en escuelas de fútbol, pensaba abrir una academia infantil en Yaoundé. El Mundial de Italia 1990 no aparecía en ninguno de sus planes.
+
+Camerún sí estaba en sus planes —pero solo como aficionado. La selección camerunesa había clasificado a su segundo Mundial absoluto (el primero fue España 1982) bajo el seleccionador soviético **Valeri Nepomniachi**, contratado por la federación con un contrato que tradujo del francés un intérprete que ni hablaba ruso ni entendía bien las explicaciones técnicas. El equipo era joven, físicamente impresionante, técnicamente mediocre, con figuras como **André Kana-Biyik**, su hermano François Omam-Biyik, Thomas N'Kono (portero), Stephen Tataw (capitán). Nepomniachi había publicado la lista preliminar de 22 jugadores **sin incluir a Roger Milla**. Demasiado viejo, demasiado lento, demasiado fuera del fútbol profesional para el entrenador.
+
+Lo que cambió la historia fue una **llamada telefónica del presidente Paul Biya** —en el cargo desde 1982, dictador democrático del país— a la federación camerunesa el 15 de mayo de 1990. Biya, según la versión nunca desmentida oficialmente, dijo a la federación: *"Milla irá al Mundial. Si no lo lleváis vosotros, lo llevo yo personalmente"*. La presión fue inmediata. Nepomniachi añadió a Milla a la lista veinticuatro horas después. Milla recibió la noticia con un *"voy a jugar este Mundial bailando"* —frase que en aquel momento parecía tópica pero que tres semanas después se cumplió literalmente.
+
+Camerún debutó el 8 de junio de 1990 en Milán contra **Argentina, defensora del título**, con Maradona, Caniggia, Burruchaga. Era la inauguración del Mundial. **Camerún ganó 1-0** con gol del joven Omam-Biyik en el minuto 67, con seis camaruneses en el campo después de dos rojas a sus compañeros. La selección campeona del mundo había caído ante una selección africana que jugaba con NUEVE jugadores en los últimos veinte minutos. Roger Milla había estado en el banquillo desde el minuto cero. **No jugó ni un minuto** del partido más histórico del Mundial.
+
+Una semana después, **Camerún jugó contra Rumania**. 0-0 al descanso. Nepomniachi puso a Milla en el campo en el minuto 58 por Eugène Ekéké. **Cuarenta y dos segundos** después de pisar el campo, Milla recibió un balón profundo de Cyrille Makanaky, encaró al portero rumano Lung, recortó hacia la derecha y **definió con la zurda** al fondo. **1-0**. La televisión africana, que retransmitía el partido en diferido en 47 países, ardió. Milla corrió hacia el córner del Stadio San Paolo de Nápoles. Llegó al banderín. Se paró delante. Empezó a **mover las caderas en círculos** con los brazos en alto, como si estuviera bailando soca o salsa. La cámara enfocaba sus pies, su cintura, sus brazos en alto. El comentarista francés Thierry Roland gritaba al micrófono: *"Mais ce n'est pas vrai! Il danse, l'ancien!"* ("¡No es verdad! ¡Baila, el viejo!").
+
+Veinte minutos después marcó **otro gol** —un cabezazo tras córner—. Volvió al banderín. **Volvió a bailar**. Camerún ganó 2-1 a Rumania y se clasificó como ganador del grupo. Los dos goles de Roger Milla eran los **dos primeros goles** de Camerún en un Mundial fuera del partido inaugural. Y el baile junto al banderín se convirtió, **literalmente en cuarenta y ocho horas**, en el símbolo del fútbol africano en todo el mundo.
+
+En octavos contra Colombia, Milla volvió a entrar desde el banquillo. Marcó **dos goles más** en la prórroga: un disparo individual en el minuto 105 y un robo de balón al portero **René Higuita** —el portero colombiano que salía del área a jugar como libero, una innovación táctica famosa de la época— y definición al área vacía en el minuto 109. **Camerún 2, Colombia 1**. Cuartos de final. Roger Milla había marcado **cuatro goles en tres partidos** sin haber empezado ninguno.
+
+En cuartos contra Inglaterra, el equipo de Bobby Robson con Gary Lineker, Paul Gascoigne y David Platt, Camerún perdió 3-2 en la prórroga. Roger Milla **dio dos asistencias** —un pase en profundidad y una falta sacada que generó el gol de Kunde Kana-Biyik—. Inglaterra ganó por dos penaltis de Lineker (minutos 83 y 105) tras una entrada dudosa sobre Lineker dentro del área de N'Kono y una segunda entrada del propio N'Kono al jugador inglés Steve Bull. La justicia poética: Lineker, que había crecido como aficionado viendo a Roger Milla por televisión en los setentas, eliminaba al ídolo africano. **Camerún quedaba fuera en cuartos**. Primer equipo africano en llegar tan lejos. **Quinto lugar en la clasificación final del Mundial 1990**.
+
+Milla regresó a Camerún como héroe nacional. Biya le dio la **Medalla de Mérito Camerunesa**, la condecoración civil más alta del país. Cuatro años después, con 42 años cumplidos, Milla volvió a la selección para **Estados Unidos 1994** —decisión personal del presidente, esta vez con menos oposición—. Marcó **el primer gol** de Camerún en aquel Mundial, contra Rusia, a sus **42 años y 39 días**. Es el **jugador más viejo en marcar en un Mundial de la historia**. Récord que sigue intacto en 2026.
+
+Roger Milla cumplió 74 años el 20 de mayo de 2026, tres semanas antes del debut del Mundial Canadá-México-USA. Lleva veinte años retirado del fútbol activo. Su academia infantil en Yaoundé, **Académie de Football Roger Milla**, ha formado a más de quinientos jóvenes futbolistas cameruneses desde su apertura en 1994. Uno de ellos, **Carlos Kameni**, llegó a portero suplente del Espanyol en 2010. Otro, **Joel Matip**, fue central titular del Liverpool de Klopp y campeón de la Premier League. Roger Milla es, en términos puramente estadísticos, **el jugador más influyente del fútbol africano de la historia**. Su baile junto al banderín se repite en cualquier celebración de gol africano en cualquier liga europea desde 1990. **Bailaron de él, dieciséis años después, los hijos de los jugadores que lo enfrentaron**.`,
+  },
+  {
+    n: 30,
+    slug: 'schillaci-toto-italia-1990-bota-oro-sorpresa',
+    publishDate: '2026-05-15',
+    blockCode: 'S5',
+    category: 'epica',
+    protagonist: 'Salvatore "Totò" Schillaci',
+    quote: 'Sognavo un gol contro l\'Inghilterra. Ne ho fatti sei.',
+    quoteDate: '1990-07-09',
+    context:
+      'Mundial de Italia 1990. Salvatore "Totò" Schillaci, delantero centro siciliano de 25 años, llega como suplente del titular Gianluca Vialli. Es su primer Mundial absoluto. Toda la presión recae sobre Vialli, el ídolo italiano del Sampdoria. Pero Vialli no marca. Schillaci sí. Marca seis goles en siete partidos —incluido un gol decisivo en cuartos contra Irlanda y el último en la final del tercer puesto contra Inglaterra. Gana la Bota de Oro como tercero del torneo. Su carrera profesional posterior decae rápido: termina jugando en Japón con el Júbilo Iwata.',
+    source: {
+      name: 'Wikipedia · Salvatore Schillaci',
+      url: 'https://en.wikipedia.org/wiki/Salvatore_Schillaci',
+    },
+    sourceSecondary:
+      'La Gazzetta dello Sport · Corriere della Sera · RAI archivos · "Totò Schillaci: Notti Magiche" (Salvo Schillaci, 2021)',
+    certainty: 'Alta',
+    title: 'Totò Schillaci, la sorpresa de Italia 1990: seis goles, Bota de Oro y una carrera que se apagó dos años después',
+    excerpt:
+      'Italia 1990. Salvatore Schillaci llega como suplente de Vialli. Toda la presión es para el ídolo del Sampdoria. Pero Vialli no marca. Schillaci sí: seis goles en siete partidos, Bota de Oro, tercer puesto del Mundial. La sorpresa italiana que cambió la cara del torneo —y que se apagó dos años después.',
+    cover: {
+      url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Salvatore_Schillaci_1990.jpg?width=1200',
+      alt: 'Salvatore "Totò" Schillaci, delantero italiano, Bota de Oro del Mundial de Italia 1990 con seis goles desde el banquillo de los azzurri',
+      credit: 'Foto: Wikimedia Commons',
+      license: 'CC BY-SA 3.0',
+    },
+    body: `**Salvatore Schillaci** había nacido el 1 de diciembre de 1964 en **Palermo**, en una familia siciliana modesta. Su padre era albañil, su madre ama de casa. Schillaci empezó a jugar en las categorías inferiores del **AS Messina** a los 16 años. A los 23, en 1989, fichó por la **Juventus** —su primer club grande— por 6.000 millones de liras italianas. En su primera temporada en Turín marcó 15 goles. La prensa italiana lo llamaba *"il scoiattolo"* (la ardilla) por su pequeño tamaño y su velocidad explosiva. Y *"Totò"*, diminutivo de Salvatore, que se quedó.
+
+En la primavera de 1990, Italia se preparaba para ser anfitriona de su segundo Mundial (el primero fue 1934, ganado por los azzurri). El seleccionador **Azeglio Vicini** tenía el equipo estrella de su carrera: **Gianluca Vialli** como ariete titular, **Roberto Baggio** como mediapunta, **Roberto Donadoni** y **Giuseppe Giannini** por las bandas, **Walter Zenga** en la portería, **Franco Baresi** y **Paolo Maldini** en defensa. El proyecto estaba blindado en torno a Vialli, el goleador del Sampdoria que esa primavera había ganado la Coppa Italia y la Copa del Rey, y Toto Schillaci entraba en la lista de 22 como **suplente nominal**, sin protagonismo previsto.
+
+Italia debutó el 9 de junio de 1990 contra Austria en el **Estadio Olímpico de Roma**. 0-0 al descanso. Vicini puso a Schillaci en el minuto 75 por Andrea Carnevale. **Cuatro minutos** después, en el minuto 79, Schillaci recibió un balón en el área de Vialli, hizo un control orientado y **definió al fondo con la pierna derecha**. **Italia 1, Austria 0**. Su primer toque de balón en un Mundial era un gol. La afición italiana, que no conocía bien al ariete siciliano, **se preguntó quién era el joven** que había marcado el primer gol del Mundial italiano.
+
+Su segundo partido fue **Italia-EE.UU.** Marcó otro gol —cabezazo en el minuto 11—. Tercer partido contra Checoslovaquia, marcó otro —disparo cruzado al borde del área—. **Tres goles en tres partidos** desde el banquillo. Vicini, que veía cómo Vialli no marcaba (aún sin gol al final de la fase de grupos), tomó la decisión más impopular pero más necesaria del Mundial: **dejar a Vialli en el banquillo** y poner a Schillaci como titular en octavos.
+
+Italia 2, Uruguay 0. Schillaci marcó el primero. Italia 1, Irlanda 0 en cuartos. Schillaci marcó el único gol —disparo bajo al ángulo, una de las imágenes más icónicas del Mundial. **Cinco goles en cinco partidos consecutivos**. La afición italiana, que veneraba a Vialli como ídolo absoluto desde hacía cuatro años, **se volcó con el pequeño ariete siciliano** con un fervor que pocas figuras deportivas han recibido en la historia italiana. *"Totò! Totò! Totò!"* sonaba en cada estadio del Mundial. Los periodistas italianos llamaban al fenómeno **"le notti magiche"** —las noches mágicas— en honor a la canción oficial del Mundial italiano cantada por **Edoardo Bennato y Gianna Nannini**: *"Notti magiche, inseguendo un gol..."* —noches mágicas, persiguiendo un gol.
+
+La semifinal contra **Argentina** en Nápoles fue **el partido más complicado del torneo**. Maradona, que había vivido siete años en el Nápoles y era ídolo absoluto de la afición napolitana, jugaba contra Italia en el estadio donde había ganado dos *scudetti*. El estadio se dividió. Maradona, en una entrevista pre-partido, había dicho a los napolitanos: *"Si Italia gana, no celebren conmigo. Si gana Argentina, no me odien"*. Schillaci marcó el **primer gol** de Italia en el minuto 17 —cabezazo tras córner—. Argentina empató con Caniggia en el minuto 67. **0-0 en la prórroga**. Los penaltis fueron favorables a Argentina **4-3**. Italia eliminada en semifinal. **Schillaci no falló el suyo**.
+
+En el partido por el tercer puesto contra Inglaterra (3 de julio de 1990, Bari), Schillaci marcó **su sexto gol** del Mundial: un penalti perfecto al ángulo izquierdo del portero Peter Shilton en el minuto 86. **Italia 2, Inglaterra 1**. Tercer puesto del Mundial. **Bota de Oro** para Schillaci —seis goles, dos más que el segundo del torneo, Tomáš Skuhravý de Checoslovaquia. Balón de Oro del Mundial también para Schillaci (premio elegido por periodistas). Tres distinciones individuales en su primer y único Mundial.
+
+Lo curioso de la historia de Toto es lo que **vino después**. La Juventus le subió el contrato a 8.000 millones de liras. Schillaci ganó **2 goles** en toda la siguiente temporada 1990-91. **Lesión muscular** repetida. Pase al **Inter de Milán** en 1992. Otros 5 goles en dos temporadas. En 1994 fichó por el **Júbilo Iwata** japonés —entonces equipo modesto— para **escapar de la presión italiana**. Jugó tres temporadas en Japón sin volver a alcanzar nunca el nivel de 1990. Se retiró del fútbol profesional en 1999 con 35 años. Tenía **2 títulos italianos** en su palmarés. Lo único brillante de su carrera, según él mismo: el Mundial 1990.
+
+Schillaci falleció el **18 de septiembre de 2024** a los 59 años en Palermo, su ciudad natal, tras una larga batalla contra el cáncer de colon. Su funeral en la Cattedrale di Palermo congregó a **20.000 personas**. La RAI organizó un especial de tres horas con vídeos de archivos del Mundial 1990. Roberto Baggio, en un mensaje grabado, dijo: *"Totò era el alma de aquella selección. Lo que parecía un milagro estadístico era una alegría humana. Nos hizo creer que se podía ganar"*. Italia no ha ganado un Mundial desde 1990. Italia **no se ha clasificado** a los dos últimos —Rusia 2018 y Catar 2022—. Una generación entera de italianos nacidos en los noventa creció escuchando que **los milagros existieron**, que un suplente palermitano marcó seis goles en un Mundial, que las noches mágicas fueron reales aunque pareciera que no.
+
+En el museo del Stadio Olímpico de Roma, junto al banderín de córner donde Schillaci celebró su primer gol del Mundial 1990, hay una placa de bronce con la frase de la canción de Bennato y Nannini: *"Notti magiche, inseguendo un gol"*. Schillaci escribió debajo, en su autobiografía de 2021: *"Soñaba un gol contra Inglaterra. Marqué seis"*.`,
+  },
+  {
     n: 16,
     slug: 'gol-fantasma-wembley-inglaterra-alemania-1966',
     publishDate: '2026-05-16',
