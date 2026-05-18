@@ -1,0 +1,266 @@
+{
+  "generatedAt": "2026-05-18T10:47:14.387Z",
+  "date": "2026-05-18",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "betano",
+      "geo": "AR",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "PIF in as regional World Cup partner for North America and Asia",
+          "url": "https://www.sportcal.com/sponsorship/pif-in-as-regional-world-cup-partner-for-north-america-and-asia/",
+          "source": "Sportcal"
+        },
+        {
+          "title": "Betano unveiled as Tournament Supporter of FIFA World Cup 2026™ for Europe and South America",
+          "url": "https://www.igamingtoday.com/betano-unveiled-as-tournament-supporter-of-fifa-world-cup-2026-for-europe-and-south-america/",
+          "source": "iGamingToday.com"
+        },
+        {
+          "title": "The Saudi experiment: How autocrats, agents, and athletes engineered the world&apos;s most expensive sporting flop",
+          "url": "https://tribuna.com/en/blogs/the-saudi-experiment-how-autocrats-agents-and-athletes-engin/",
+          "source": "Tribuna.com"
+        }
+      ]
+    },
+    {
+      "query": "betano",
+      "geo": "CL",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "PIF in as regional World Cup partner for North America and Asia",
+          "url": "https://www.sportcal.com/sponsorship/pif-in-as-regional-world-cup-partner-for-north-america-and-asia/",
+          "source": "Sportcal"
+        },
+        {
+          "title": "Betano unveiled as Tournament Supporter of FIFA World Cup 2026™ for Europe and South America",
+          "url": "https://www.igamingtoday.com/betano-unveiled-as-tournament-supporter-of-fifa-world-cup-2026-for-europe-and-south-america/",
+          "source": "iGamingToday.com"
+        },
+        {
+          "title": "The Saudi experiment: How autocrats, agents, and athletes engineered the world&apos;s most expensive sporting flop",
+          "url": "https://tribuna.com/en/blogs/the-saudi-experiment-how-autocrats-agents-and-athletes-engin/",
+          "source": "Tribuna.com"
+        }
+      ]
+    },
+    {
+      "query": "convocatoria de españa para el mundial 2026",
+      "geo": "ES",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Luis de la Fuente anunciará los convocados para el Mundial el lunes 25 de mayo",
+          "url": "https://rfef.es/es/noticias/luis-de-la-fuente-anunciara-los-convocados-para-el-mundial-el-lunes-25-de-mayo",
+          "source": "RFEF"
+        },
+        {
+          "title": "Hacia nuevos liderazgos en la Selección",
+          "url": "https://as.com/opinion/hacia-nuevos-liderazgos-en-la-seleccion-f202605-n/",
+          "source": "Diario AS"
+        },
+        {
+          "title": "De la Fuente dará la convocatoria del Mundial el lunes 25 de mayo",
+          "url": "https://okdiario.com/mundial/fuente-dara-convocatoria-del-mundial-lunes-25-mayo-16817758",
+          "source": "OkDiario"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "es": [
+      {
+        "query": "betano",
+        "score": 1480,
+        "geos": [
+          "AR",
+          "CL"
+        ],
+        "samples": [
+          {
+            "query": "betano",
+            "geo": "AR",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "PIF in as regional World Cup partner for North America and Asia",
+                "url": "https://www.sportcal.com/sponsorship/pif-in-as-regional-world-cup-partner-for-north-america-and-asia/",
+                "source": "Sportcal"
+              },
+              {
+                "title": "Betano unveiled as Tournament Supporter of FIFA World Cup 2026™ for Europe and South America",
+                "url": "https://www.igamingtoday.com/betano-unveiled-as-tournament-supporter-of-fifa-world-cup-2026-for-europe-and-south-america/",
+                "source": "iGamingToday.com"
+              },
+              {
+                "title": "The Saudi experiment: How autocrats, agents, and athletes engineered the world&apos;s most expensive sporting flop",
+                "url": "https://tribuna.com/en/blogs/the-saudi-experiment-how-autocrats-agents-and-athletes-engin/",
+                "source": "Tribuna.com"
+              }
+            ]
+          },
+          {
+            "query": "betano",
+            "geo": "CL",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "PIF in as regional World Cup partner for North America and Asia",
+                "url": "https://www.sportcal.com/sponsorship/pif-in-as-regional-world-cup-partner-for-north-america-and-asia/",
+                "source": "Sportcal"
+              },
+              {
+                "title": "Betano unveiled as Tournament Supporter of FIFA World Cup 2026™ for Europe and South America",
+                "url": "https://www.igamingtoday.com/betano-unveiled-as-tournament-supporter-of-fifa-world-cup-2026-for-europe-and-south-america/",
+                "source": "iGamingToday.com"
+              },
+              {
+                "title": "The Saudi experiment: How autocrats, agents, and athletes engineered the world&apos;s most expensive sporting flop",
+                "url": "https://tribuna.com/en/blogs/the-saudi-experiment-how-autocrats-agents-and-athletes-engin/",
+                "source": "Tribuna.com"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "convocatoria de españa para el mundial 2026",
+        "score": 750,
+        "geos": [
+          "ES"
+        ],
+        "samples": [
+          {
+            "query": "convocatoria de españa para el mundial 2026",
+            "geo": "ES",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Luis de la Fuente anunciará los convocados para el Mundial el lunes 25 de mayo",
+                "url": "https://rfef.es/es/noticias/luis-de-la-fuente-anunciara-los-convocados-para-el-mundial-el-lunes-25-de-mayo",
+                "source": "RFEF"
+              },
+              {
+                "title": "Hacia nuevos liderazgos en la Selección",
+                "url": "https://as.com/opinion/hacia-nuevos-liderazgos-en-la-seleccion-f202605-n/",
+                "source": "Diario AS"
+              },
+              {
+                "title": "De la Fuente dará la convocatoria del Mundial el lunes 25 de mayo",
+                "url": "https://okdiario.com/mundial/fuente-dara-convocatoria-del-mundial-lunes-25-mayo-16817758",
+                "source": "OkDiario"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "topic": "betano",
+      "type": "noticia",
+      "slugSuggestion": "betano",
+      "language": "es",
+      "geos": [
+        "AR",
+        "CL"
+      ],
+      "score": 1776,
+      "reason": "Google Trends daily AR con 1,000 búsquedas · 3 artículos noticiosos referenciando \"betano\"",
+      "proposedPath": "/noticias/betano",
+      "evidence": [
+        {
+          "query": "betano",
+          "geo": "AR",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 1000,
+          "articles": [
+            {
+              "title": "PIF in as regional World Cup partner for North America and Asia",
+              "url": "https://www.sportcal.com/sponsorship/pif-in-as-regional-world-cup-partner-for-north-america-and-asia/",
+              "source": "Sportcal"
+            },
+            {
+              "title": "Betano unveiled as Tournament Supporter of FIFA World Cup 2026™ for Europe and South America",
+              "url": "https://www.igamingtoday.com/betano-unveiled-as-tournament-supporter-of-fifa-world-cup-2026-for-europe-and-south-america/",
+              "source": "iGamingToday.com"
+            },
+            {
+              "title": "The Saudi experiment: How autocrats, agents, and athletes engineered the world&apos;s most expensive sporting flop",
+              "url": "https://tribuna.com/en/blogs/the-saudi-experiment-how-autocrats-agents-and-athletes-engin/",
+              "source": "Tribuna.com"
+            }
+          ]
+        },
+        {
+          "query": "betano",
+          "geo": "CL",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "PIF in as regional World Cup partner for North America and Asia",
+              "url": "https://www.sportcal.com/sponsorship/pif-in-as-regional-world-cup-partner-for-north-america-and-asia/",
+              "source": "Sportcal"
+            },
+            {
+              "title": "Betano unveiled as Tournament Supporter of FIFA World Cup 2026™ for Europe and South America",
+              "url": "https://www.igamingtoday.com/betano-unveiled-as-tournament-supporter-of-fifa-world-cup-2026-for-europe-and-south-america/",
+              "source": "iGamingToday.com"
+            },
+            {
+              "title": "The Saudi experiment: How autocrats, agents, and athletes engineered the world&apos;s most expensive sporting flop",
+              "url": "https://tribuna.com/en/blogs/the-saudi-experiment-how-autocrats-agents-and-athletes-engin/",
+              "source": "Tribuna.com"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alreadyCovered": [
+    {
+      "query": "convocatoria de españa para el mundial 2026",
+      "matchUrl": "/2026/convocatorias"
+    }
+  ]
+}
