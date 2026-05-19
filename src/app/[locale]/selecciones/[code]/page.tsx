@@ -11,9 +11,11 @@ import { TeamPhotoGallery } from '@/components/team/team-photo-gallery';
 import { AmazonProductGrid } from '@/components/affiliate/amazon-card';
 import { getProductsByTeam } from '@/lib/amazon-products';
 import { getJerseyHistory } from '@/lib/wc-jerseys';
-import { Shirt, ArrowRight, Newspaper } from 'lucide-react';
+import { Shirt, ArrowRight, Newspaper, CalendarClock } from 'lucide-react';
 import { TeamKitShop } from '@/components/team/team-kit-shop';
 import { getNewsByTeam, relativeTimeEs } from '@/lib/news';
+import { getFriendliesByTeam } from '@/lib/wc-2026-pre-friendlies';
+import { TEAMS_2026 } from '@/lib/wc-2026';
 
 function withLocale(locale: Locale, href: string) {
   if (locale === routing.defaultLocale) return href;
@@ -97,6 +99,9 @@ export default async function SelectionDetailPage({
 
   // Noticias recientes de la selección (detecta por keywords del slug).
   const teamNews = getNewsByTeam(team.code, 4);
+
+  // Amistosos pre-Mundial 2026 de la selección.
+  const teamFriendlies = getFriendliesByTeam(team.code);
 
   // Group matches by tournament year for timeline presentation.
   type YearGroup = {
@@ -294,6 +299,76 @@ export default async function SelectionDetailPage({
                 </div>
               </Link>
             ))}
+          </div>
+        </section>
+      )}
+
+      {/* Amistosos pre-Mundial 2026 */}
+      {teamFriendlies.length > 0 && (
+        <section className="mx-auto w-full max-w-[1400px] px-6 mt-12 md:px-10">
+          <div className="flex items-baseline justify-between gap-3">
+            <div>
+              <div className="flex items-center gap-2 font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-pitch)]">
+                <CalendarClock className="h-3 w-3" />
+                <span>Amistosos pre-Mundial 2026</span>
+              </div>
+              <h2 className="mt-2 font-display text-2xl uppercase leading-tight md:text-3xl">
+                Últimas pruebas antes del torneo
+              </h2>
+            </div>
+          </div>
+          <div className="mt-6 grid gap-3 md:grid-cols-2">
+            {teamFriendlies.map((f) => {
+              const isHome = f.homeCode === team.code;
+              const opponentCode = isHome ? f.awayCode : f.homeCode;
+              const opponent = TEAMS_2026[opponentCode as keyof typeof TEAMS_2026];
+              const opponentName = opponent?.name ?? opponentCode;
+              const opponentFlag = opponent?.flag ?? '';
+              const date = new Date(f.date);
+              const dateLabel = date.toLocaleDateString('es-ES', {
+                day: 'numeric',
+                month: 'short',
+                year: 'numeric',
+              });
+              const timeLabel = date.toLocaleTimeString('es-ES', {
+                hour: '2-digit',
+                minute: '2-digit',
+                hour12: false,
+              });
+              return (
+                <div
+                  key={f.date + f.homeCode + f.awayCode}
+                  className="rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg-2)] p-5"
+                >
+                  <div className="flex items-baseline justify-between gap-3">
+                    <div className="font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--color-pitch)]">
+                      {isHome ? 'En casa' : 'Visitante'} · {dateLabel}
+                    </div>
+                    <div className="font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--color-fg-subtle)]">
+                      {timeLabel}
+                    </div>
+                  </div>
+                  <h3 className="mt-2 flex items-baseline gap-2 font-display text-lg uppercase">
+                    <span>vs</span>
+                    <span>{opponentFlag}</span>
+                    <span>{opponentName}</span>
+                  </h3>
+                  {(f.venue || f.city) && (
+                    <div className="mt-1 font-mono text-[10px] uppercase tracking-[0.2em] text-[var(--color-fg-subtle)]">
+                      {[f.venue, f.city, f.country].filter(Boolean).join(' · ')}
+                    </div>
+                  )}
+                  {f.notes && (
+                    <p className="mt-3 text-sm leading-relaxed text-[var(--color-fg-muted)]">{f.notes}</p>
+                  )}
+                  {f.result && (
+                    <div className="mt-3 font-mono text-sm text-[var(--color-pitch)]">
+                      Resultado: {f.result.home}-{f.result.away}
+                    </div>
+                  )}
+                </div>
+              );
+            })}
           </div>
         </section>
       )}

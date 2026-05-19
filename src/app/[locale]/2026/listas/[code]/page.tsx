@@ -4,6 +4,7 @@ import { setRequestLocale } from 'next-intl/server';
 import {
   ArrowLeft,
   ArrowRight,
+  CalendarClock,
   Clock,
   ExternalLink,
   Newspaper,
@@ -20,6 +21,7 @@ import { TEAMS_2026 } from '@/lib/wc-2026';
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl, SEO } from '@/lib/seo';
 import { getNewsByTeam, relativeTimeEs } from '@/lib/news';
+import { getFriendliesByTeam } from '@/lib/wc-2026-pre-friendlies';
 
 function withLocale(locale: Locale, href: string) {
   if (locale === routing.defaultLocale) return href;
@@ -298,6 +300,76 @@ export default async function SquadPage({
           </section>
         </>
       )}
+
+      {/* Amistosos pre-Mundial 2026 */}
+      {(() => {
+        const teamFriendlies = getFriendliesByTeam(code);
+        if (teamFriendlies.length === 0) return null;
+        return (
+          <section className="mx-auto mt-16 w-full max-w-[1100px] px-6 md:px-10">
+            <div className="flex items-baseline gap-2 font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-pitch)]">
+              <CalendarClock className="h-3 w-3" />
+              <span>Amistosos pre-Mundial 2026</span>
+            </div>
+            <h2 className="mt-2 font-display text-2xl uppercase leading-tight md:text-3xl">
+              Últimas pruebas antes del torneo
+            </h2>
+            <div className="mt-6 grid gap-3 md:grid-cols-2">
+              {teamFriendlies.map((f) => {
+                const isHome = f.homeCode === code;
+                const opponentCode = isHome ? f.awayCode : f.homeCode;
+                const opponent = TEAMS_2026[opponentCode as keyof typeof TEAMS_2026];
+                const opponentName = opponent?.name ?? opponentCode;
+                const opponentFlag = opponent?.flag ?? '';
+                const date = new Date(f.date);
+                const dateLabel = date.toLocaleDateString('es-ES', {
+                  day: 'numeric',
+                  month: 'short',
+                  year: 'numeric',
+                });
+                const timeLabel = date.toLocaleTimeString('es-ES', {
+                  hour: '2-digit',
+                  minute: '2-digit',
+                  hour12: false,
+                });
+                return (
+                  <div
+                    key={f.date + f.homeCode + f.awayCode}
+                    className="rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg-2)] p-5"
+                  >
+                    <div className="flex items-baseline justify-between gap-3">
+                      <div className="font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--color-pitch)]">
+                        {isHome ? 'En casa' : 'Visitante'} · {dateLabel}
+                      </div>
+                      <div className="font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--color-fg-subtle)]">
+                        {timeLabel}
+                      </div>
+                    </div>
+                    <h3 className="mt-2 flex items-baseline gap-2 font-display text-lg uppercase">
+                      <span>vs</span>
+                      <span>{opponentFlag}</span>
+                      <span>{opponentName}</span>
+                    </h3>
+                    {(f.venue || f.city) && (
+                      <div className="mt-1 font-mono text-[10px] uppercase tracking-[0.2em] text-[var(--color-fg-subtle)]">
+                        {[f.venue, f.city, f.country].filter(Boolean).join(' · ')}
+                      </div>
+                    )}
+                    {f.notes && (
+                      <p className="mt-3 text-sm leading-relaxed text-[var(--color-fg-muted)]">{f.notes}</p>
+                    )}
+                    {f.result && (
+                      <div className="mt-3 font-mono text-sm text-[var(--color-pitch)]">
+                        Resultado: {f.result.home}-{f.result.away}
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
+            </div>
+          </section>
+        );
+      })()}
 
       {/* Noticias de la selección */}
       {(() => {
