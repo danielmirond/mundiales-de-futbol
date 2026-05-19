@@ -159,6 +159,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   out.push(entry('/coleccionismo/monedas-mundial-2026/plata', now, 'weekly', 0.85, true));
   out.push(entry('/coleccionismo/monedas-mundial-2026/banxico', now, 'weekly', 0.85, true));
   out.push(entry('/coleccionismo/monedas-mundial-2026/canada', now, 'weekly', 0.8, true));
+  // Equipamiento audiovisual (TVs + proyectores con afiliación Amazon)
+  out.push(entry('/coleccionismo/televisores-mundial-2026', now, 'weekly', 0.9, true));
+  out.push(entry('/coleccionismo/proyectores-mundial-2026', now, 'weekly', 0.85, true));
   // Cluster Camisetas Mundial 2026 (pillar + 5 sub-páginas)
   out.push(entry('/coleccionismo/camisetas-mundial-2026', now, 'weekly', 0.95, true));
   out.push(entry('/coleccionismo/camisetas-mundial-2026/comprar', now, 'weekly', 0.9, true));
