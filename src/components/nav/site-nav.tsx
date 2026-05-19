@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { useLocale, useTranslations } from 'next-intl';
 import { useState, useEffect } from 'react';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, Tv } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { LocaleSwitcher } from './locale-switcher';
 import { LogomarkSeal } from '@/components/brand/logomark-seal';
@@ -67,8 +67,15 @@ export function SiteNav() {
             </Link>
           ))}
           <Link
+            href={withLocale(locale, '/2026/donde-ver')}
+            className="ms-2 inline-flex items-center gap-2 rounded-full border border-[var(--color-border-strong)] px-4 py-2 text-sm font-semibold text-[var(--color-fg)] transition-colors hover:border-[var(--color-pitch)] hover:text-[var(--color-pitch)]"
+          >
+            <Tv className="h-4 w-4" />
+            {t('whereToWatch')}
+          </Link>
+          <Link
             href={withLocale(locale, '/2026')}
-            className="ms-2 inline-flex items-center gap-2 rounded-full border border-[var(--color-pitch)]/30 bg-[var(--color-pitch)]/10 px-4 py-2 text-sm font-semibold text-[var(--color-pitch)] transition-colors hover:bg-[var(--color-pitch)]/20"
+            className="ms-1 inline-flex items-center gap-2 rounded-full border border-[var(--color-pitch)]/30 bg-[var(--color-pitch)]/10 px-4 py-2 text-sm font-semibold text-[var(--color-pitch)] transition-colors hover:bg-[var(--color-pitch)]/20"
           >
             <span className="relative flex h-2 w-2">
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[var(--color-pitch)] opacity-75" />
@@ -108,7 +115,11 @@ export function SiteNav() {
           </button>
         </div>
         <nav className="flex flex-col gap-1 px-6 pb-10 pt-8 md:px-10">
-          {[...links, { href: '/2026', label: t('live2026') }].map((l) => (
+          {[
+            ...links,
+            { href: '/2026/donde-ver', label: t('whereToWatch') },
+            { href: '/2026', label: t('live2026') },
+          ].map((l) => (
             <Link
               key={l.href}
               href={withLocale(locale, l.href)}

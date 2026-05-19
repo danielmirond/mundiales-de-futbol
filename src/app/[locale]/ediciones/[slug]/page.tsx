@@ -11,6 +11,7 @@ import { ArchiveVideos } from '@/components/edition/archive-videos';
 import { PressWall } from '@/components/edition/press-wall';
 import { EditionTimeline } from '@/components/edition/edition-timeline';
 import { EditionStory } from '@/components/edition/edition-story';
+import { EditionFamousGoals } from '@/components/edition/edition-famous-goals';
 import { JsonLd, breadcrumbLd, SEO } from '@/lib/seo';
 
 export function generateStaticParams() {
@@ -323,6 +324,8 @@ export default async function EditionPage({
       </section>
 
       <EditionStory year={t.year} />
+
+      <EditionFamousGoals year={t.year} tournamentSlug={t.slug} locale={locale} />
 
       <PressWall year={t.year} locale={locale} />
 
