@@ -393,6 +393,34 @@ export const FAMOUS_GOALS: FamousGoal[] = [
 ];
 
 // ───────────────────────────────────────────────────────────────────
+// Sidecar YouTube (generado por scripts/enrich-famous-goals.ts)
+// ───────────────────────────────────────────────────────────────────
+//
+// El sidecar contiene `videoId` + `durationSeconds` reales obtenidos
+// vía YouTube Data API. Se fusiona aquí en module-init para que el
+// resto del código (componentes, JSON-LD) lo vea de forma transparente
+// a través de `goal.youtubeId` / `goal.durationSeconds`.
+//
+// Política: el sidecar NUNCA pisa valores definidos a mano en el
+// catálogo. Solo rellena huecos. Si quieres forzar un videoId concreto
+// para un gol, edítalo arriba en `FAMOUS_GOALS` y se respetará.
+import ytSidecar from './wc-famous-goals.yt.json';
+
+type SidecarEntry = {
+  videoId: string;
+  durationSeconds: number;
+  channelTitle: string;
+};
+const SIDECAR = ytSidecar as Record<string, SidecarEntry>;
+
+for (const g of FAMOUS_GOALS) {
+  const s = SIDECAR[g.slug];
+  if (!s) continue;
+  if (!g.youtubeId) g.youtubeId = s.videoId;
+  if (!g.durationSeconds && s.durationSeconds > 0) g.durationSeconds = s.durationSeconds;
+}
+
+// ───────────────────────────────────────────────────────────────────
 // Helpers
 // ───────────────────────────────────────────────────────────────────
 
@@ -432,10 +460,41 @@ export function youtubeThumbnailUrl(videoId: string): string {
 }
 
 /**
+ * URL canónica de un gol famoso. Vive dentro de la edición del Mundial
+ * correspondiente (arquitectura "goles por edición primero"), no en el
+ * hub `/goles-famosos` (que es solo un índice transversal).
+ *
+ * Requiere conocer el slug de la edición: lo resolvemos desde
+ * `TOURNAMENTS` por año para no acoplar este módulo al de torneos en
+ * los tipos. Si el año no existe (no debería), devolvemos el hub como
+ * fallback.
+ */
+export function editionGoalUrl(
+  goal: Pick<FamousGoal, 'slug' | 'year'>,
+  tournamentSlug: string | undefined,
+  siteUrl: string,
+  locale?: string,
+): string {
+  const localePrefix = locale && locale !== 'es' ? `/${locale}` : '';
+  if (!tournamentSlug) {
+    return `${siteUrl}${localePrefix}/goles-famosos#${goal.slug}`;
+  }
+  return `${siteUrl}${localePrefix}/ediciones/${tournamentSlug}#gol-${goal.slug}`;
+}
+
+/**
  * Genera schema.org VideoObject para un gol.
  * Si no hay youtubeId, devuelve un objeto sin embedUrl/thumbnailUrl.
+ *
+ * `canonicalUrl` debe ser la URL de la edición (`/ediciones/{slug}#gol-...`)
+ * cuando se emite desde la página de la edición. Si no se pasa, se usa
+ * el hub `/goles-famosos` como fallback (legacy).
  */
-export function videoObjectLd(goal: FamousGoal, siteUrl: string) {
+export function videoObjectLd(
+  goal: FamousGoal,
+  siteUrl: string,
+  canonicalUrl?: string,
+) {
   const base: Record<string, unknown> = {
     '@context': 'https://schema.org',
     '@type': 'VideoObject',
@@ -451,6 +510,6 @@ export function videoObjectLd(goal: FamousGoal, siteUrl: string) {
   if (goal.durationSeconds) {
     base.duration = `PT${goal.durationSeconds}S`;
   }
-  base.url = `${siteUrl}/goles-famosos#${goal.slug}`;
+  base.url = canonicalUrl ?? `${siteUrl}/goles-famosos#${goal.slug}`;
   return base;
 }

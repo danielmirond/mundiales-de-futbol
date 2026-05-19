@@ -1,20 +1,30 @@
 import Link from 'next/link';
 import { setRequestLocale } from 'next-intl/server';
-import { ArrowLeft, ArrowRight, Play, Trophy } from 'lucide-react';
+import { ArrowRight, Play, Trophy } from 'lucide-react';
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl } from '@/lib/seo';
 import {
   FAMOUS_GOALS,
   youtubeSearchUrl,
   youtubeThumbnailUrl,
-  videoObjectLd,
   type FamousGoal,
 } from '@/lib/wc-famous-goals';
 import { TEAMS_2026 } from '@/lib/wc-2026';
+import { TOURNAMENTS } from '@/lib/tournaments';
 
 function withLocale(locale: Locale, href: string) {
   if (locale === routing.defaultLocale) return href;
   return `/${locale}${href === '/' ? '' : href}`;
+}
+
+/**
+ * Resuelve el slug del torneo (`1986-mexico`) a partir del año del gol.
+ * Si no existe, devolvemos null y la card pierde el enlace a la edición
+ * (en práctica nunca debería pasar — todos los goles del catálogo son
+ * de Mundiales jugados).
+ */
+function tournamentSlugFor(year: number): string | null {
+  return TOURNAMENTS.find((t) => t.year === year)?.slug ?? null;
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
@@ -40,29 +50,44 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   });
 }
 
-function GoalCard({ goal, locale }: { goal: FamousGoal; locale: string }) {
+function GoalHubCard({ goal, locale }: { goal: FamousGoal; locale: string }) {
   const team = TEAMS_2026[goal.teamCode as keyof typeof TEAMS_2026];
   const opp = TEAMS_2026[goal.opponentCode as keyof typeof TEAMS_2026];
-  const hasVideo = Boolean(goal.youtubeId);
   const thumbnail = goal.youtubeId ? youtubeThumbnailUrl(goal.youtubeId) : null;
   const watchUrl = goal.youtubeId
     ? `https://www.youtube.com/watch?v=${goal.youtubeId}`
     : youtubeSearchUrl(goal.youtubeQuery);
 
+  const tournamentSlug = tournamentSlugFor(goal.year);
+  // Cada card del hub enlaza a la edición canónica del gol. El hub es
+  // solo un índice — el contenido canónico vive en `/ediciones/{slug}`.
+  const canonicalHref = tournamentSlug
+    ? withLocale(locale as Locale, `/ediciones/${tournamentSlug}#gol-${goal.slug}`)
+    : null;
+
   return (
-    <article
-      id={goal.slug}
-      className="rounded-3xl border border-[var(--color-border)] bg-[var(--color-bg-2)] p-6 scroll-mt-32"
-    >
+    <article className="rounded-3xl border border-[var(--color-border)] bg-[var(--color-bg-2)] p-6">
       <div className="flex flex-wrap items-baseline justify-between gap-3">
         <div>
           <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-pitch)]">
             Mundial {goal.year} · {goal.stage.toUpperCase()} · min {goal.minute}
           </div>
-          <h2 className="mt-1 font-display text-2xl uppercase leading-tight">{goal.title}</h2>
+          <h2 className="mt-1 font-display text-2xl uppercase leading-tight">
+            {canonicalHref ? (
+              <Link href={canonicalHref} className="hover:text-[var(--color-pitch)]">
+                {goal.title}
+              </Link>
+            ) : (
+              goal.title
+            )}
+          </h2>
         </div>
         <div className="font-mono text-sm text-[var(--color-pitch)]">
-          {team?.flag} {goal.teamCode} <span className="text-[var(--color-fg-subtle)]">{goal.finalScore.team}-{goal.finalScore.opponent}</span> {goal.opponentCode} {opp?.flag}
+          {team?.flag} {goal.teamCode}{' '}
+          <span className="text-[var(--color-fg-subtle)]">
+            {goal.finalScore.team}-{goal.finalScore.opponent}
+          </span>{' '}
+          {goal.opponentCode} {opp?.flag}
         </div>
       </div>
 
@@ -74,7 +99,6 @@ function GoalCard({ goal, locale }: { goal: FamousGoal; locale: string }) {
         {goal.description}
       </p>
 
-      {/* Video thumbnail / link */}
       <a
         href={watchUrl}
         target="_blank"
@@ -83,6 +107,7 @@ function GoalCard({ goal, locale }: { goal: FamousGoal; locale: string }) {
       >
         {thumbnail ? (
           <>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={thumbnail}
               alt={`Vídeo del gol: ${goal.title}`}
@@ -110,22 +135,14 @@ function GoalCard({ goal, locale }: { goal: FamousGoal; locale: string }) {
         )}
       </a>
 
-      {/* Why iconic */}
-      <div className="mt-5 rounded-xl border border-[var(--color-pitch)]/30 bg-[var(--color-pitch)]/5 p-4">
-        <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-pitch)]">
-          Por qué es icónico
-        </div>
-        <p className="mt-1.5 text-sm text-[var(--color-fg-muted)]">{goal.whyIconic}</p>
-      </div>
-
-      {/* Related historia */}
-      {goal.relatedHistoriaSlug && (
-        <div className="mt-4">
+      {/* CTA principal: la página canónica del gol vive en la edición */}
+      {canonicalHref && (
+        <div className="mt-5">
           <Link
-            href={withLocale(locale as Locale, `/historias/${goal.relatedHistoriaSlug}`)}
+            href={canonicalHref}
             className="inline-flex items-center gap-2 font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--color-pitch)] hover:underline"
           >
-            Leer la historia completa <ArrowRight className="h-3 w-3 rtl:rotate-180" />
+            Ver en el Mundial {goal.year} <ArrowRight className="h-3 w-3 rtl:rotate-180" />
           </Link>
         </div>
       )}
@@ -141,7 +158,10 @@ export default async function GolesFamososPage({
   const { locale } = await params;
   setRequestLocale(locale);
 
-  const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL ?? 'https://mundiales-de-futbol.com').trim();
+  const siteUrl = (
+    process.env.NEXT_PUBLIC_SITE_URL ?? 'https://mundiales-de-futbol.com'
+  ).trim();
+  const localePrefix = locale !== routing.defaultLocale ? `/${locale}` : '';
 
   // Agrupar por década
   const decades = new Map<number, FamousGoal[]>();
@@ -152,9 +172,9 @@ export default async function GolesFamososPage({
   }
   const sortedDecades = [...decades.entries()].sort((a, b) => a[0] - b[0]);
 
-  // JSON-LD: VideoObject por cada gol + ItemList
-  const videoLds = FAMOUS_GOALS.map((g) => videoObjectLd(g, siteUrl));
-
+  // JSON-LD: solo ItemList. El VideoObject canónico de cada gol vive
+  // en su página de edición (`/ediciones/{slug}`) — no lo duplicamos
+  // aquí para evitar señales contradictorias de canonical.
   const itemListLd = {
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',
@@ -164,11 +184,18 @@ export default async function GolesFamososPage({
     mainEntity: {
       '@type': 'ItemList',
       numberOfItems: FAMOUS_GOALS.length,
-      itemListElement: FAMOUS_GOALS.map((g, i) => ({
-        '@type': 'ListItem',
-        position: i + 1,
-        name: g.title,
-      })),
+      itemListElement: FAMOUS_GOALS.map((g, i) => {
+        const slug = tournamentSlugFor(g.year);
+        const url = slug
+          ? `${siteUrl}${localePrefix}/ediciones/${slug}#gol-${g.slug}`
+          : `${siteUrl}${localePrefix}/goles-famosos#${g.slug}`;
+        return {
+          '@type': 'ListItem',
+          position: i + 1,
+          name: g.title,
+          url,
+        };
+      }),
     },
   };
 
@@ -177,7 +204,6 @@ export default async function GolesFamososPage({
       <JsonLd
         data={[
           itemListLd,
-          ...videoLds,
           breadcrumbLd(locale, [
             { name: 'Inicio', path: '/' },
             { name: 'Goles famosos', path: '/goles-famosos' },
@@ -194,22 +220,23 @@ export default async function GolesFamososPage({
         </h1>
         <p className="mt-6 max-w-3xl text-lg leading-relaxed text-[var(--color-fg-muted)]">
           Los <strong>{FAMOUS_GOALS.length} goles más icónicos</strong> de la historia
-          de la Copa del Mundo: la <strong>Mano de Dios</strong> y el <strong>gol del siglo</strong>{' '}
-          de Maradona, la chilena de <strong>Pelé</strong> en Suecia 1958, el <strong>gol de
-          Carlos Alberto</strong> en México 70 (FIFA lo declaró el mejor de la historia), el cabezazo
-          imposible de <strong>Iniesta</strong> en Johannesburgo 2010 que dio España al mundo,
-          la volea de <strong>Pavard</strong> en Rusia 2018 (Premio Puskas), la chilena de
-          <strong> Richarlison</strong> en Catar 2022 y el gol de <strong>Messi</strong> que
-          coronó a Argentina por tercera vez.
+          de la Copa del Mundo: la <strong>Mano de Dios</strong> y el{' '}
+          <strong>gol del siglo</strong> de Maradona, la chilena de{' '}
+          <strong>Pelé</strong> en Suecia 1958, el <strong>gol de Carlos Alberto</strong>{' '}
+          en México 70 (FIFA lo declaró el mejor de la historia), el cabezazo imposible
+          de <strong>Iniesta</strong> en Johannesburgo 2010, la volea de{' '}
+          <strong>Pavard</strong> en Rusia 2018 (Premio Puskas), la chilena de{' '}
+          <strong>Richarlison</strong> en Catar 2022 y el gol de <strong>Messi</strong>{' '}
+          que coronó a Argentina por tercera vez.
         </p>
         <p className="mt-4 max-w-3xl text-sm leading-relaxed text-[var(--color-fg-muted)]">
-          Cada gol incluye contexto del partido, jugada exacta, fecha y enlace al vídeo en
-          YouTube. Los goles están agrupados por década y enlazan a las historias editoriales
-          relacionadas en {' '}<Link href={withLocale(locale as Locale, '/historias')} className="underline">/historias</Link>.
+          Este índice agrupa los goles por década. Cada uno enlaza a la{' '}
+          <strong>página canónica del Mundial correspondiente</strong>, donde encontrarás
+          el contexto editorial completo, los partidos del torneo y el resto de la
+          crónica.
         </p>
       </header>
 
-      {/* Por década */}
       {sortedDecades.map(([decade, goals]) => (
         <section key={decade} className="mx-auto mt-14 w-full max-w-[1100px] px-6 md:px-10">
           <div className="flex items-baseline gap-3">
@@ -220,27 +247,38 @@ export default async function GolesFamososPage({
           </div>
           <div className="mt-6 space-y-5">
             {goals.map((g) => (
-              <GoalCard key={g.slug} goal={g} locale={locale} />
+              <GoalHubCard key={g.slug} goal={g} locale={locale} />
             ))}
           </div>
         </section>
       ))}
 
-      {/* CTAs */}
       <section className="mx-auto mt-16 w-full max-w-[1100px] px-6 md:px-10">
         <div className="rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg-2)] p-6">
           <h2 className="font-display text-lg uppercase">Sigue por aquí</h2>
           <div className="mt-4 flex flex-wrap gap-3">
-            <Link href={withLocale(locale as Locale, '/historias')} className="rounded-full border border-[var(--color-border-strong)] px-4 py-2 text-xs font-mono uppercase tracking-[0.2em] hover:border-[var(--color-pitch)] hover:text-[var(--color-pitch)]">
+            <Link
+              href={withLocale(locale as Locale, '/historias')}
+              className="rounded-full border border-[var(--color-border-strong)] px-4 py-2 text-xs font-mono uppercase tracking-[0.2em] hover:border-[var(--color-pitch)] hover:text-[var(--color-pitch)]"
+            >
               Historias editoriales
             </Link>
-            <Link href={withLocale(locale as Locale, '/ediciones')} className="rounded-full border border-[var(--color-border-strong)] px-4 py-2 text-xs font-mono uppercase tracking-[0.2em] hover:border-[var(--color-pitch)] hover:text-[var(--color-pitch)]">
+            <Link
+              href={withLocale(locale as Locale, '/ediciones')}
+              className="rounded-full border border-[var(--color-border-strong)] px-4 py-2 text-xs font-mono uppercase tracking-[0.2em] hover:border-[var(--color-pitch)] hover:text-[var(--color-pitch)]"
+            >
               22 Mundiales 1930-2022
             </Link>
-            <Link href={withLocale(locale as Locale, '/selecciones')} className="rounded-full border border-[var(--color-border-strong)] px-4 py-2 text-xs font-mono uppercase tracking-[0.2em] hover:border-[var(--color-pitch)] hover:text-[var(--color-pitch)]">
+            <Link
+              href={withLocale(locale as Locale, '/selecciones')}
+              className="rounded-full border border-[var(--color-border-strong)] px-4 py-2 text-xs font-mono uppercase tracking-[0.2em] hover:border-[var(--color-pitch)] hover:text-[var(--color-pitch)]"
+            >
               Selecciones históricas
             </Link>
-            <Link href={withLocale(locale as Locale, '/2026')} className="rounded-full border border-[var(--color-border-strong)] px-4 py-2 text-xs font-mono uppercase tracking-[0.2em] hover:border-[var(--color-pitch)] hover:text-[var(--color-pitch)]">
+            <Link
+              href={withLocale(locale as Locale, '/2026')}
+              className="rounded-full border border-[var(--color-border-strong)] px-4 py-2 text-xs font-mono uppercase tracking-[0.2em] hover:border-[var(--color-pitch)] hover:text-[var(--color-pitch)]"
+            >
               Mundial 2026
             </Link>
           </div>
