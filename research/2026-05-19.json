@@ -1,0 +1,194 @@
+{
+  "generatedAt": "2026-05-19T10:24:10.605Z",
+  "date": "2026-05-19",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "neymar",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "Mundial 2026: el futbolista uruguayo que Carlo Ancelotti citó a la selección de Brasil para la Copa del Mundo",
+          "url": "https://www.elpais.com.uy/ovacion/futbol/mundial-2026-el-futbolista-uruguayo-que-carlo-ancelotti-cito-a-la-seleccion-de-brasil-para-la-copa-del-mundo",
+          "source": "EL PAÍS Uruguay"
+        },
+        {
+          "title": "Neymar va al Mundial: Carlo Ancelotti confirmó la lista de Brasil",
+          "url": "https://ladiaria.com.uy/deporte/articulo/2026/5/neymar-va-al-mundial-carlo-ancelotti-confirmo-la-lista-de-brasil/",
+          "source": "la diaria"
+        },
+        {
+          "title": "Los grandes ausentes en la lista de Brasil para el Mundial: el delantero de los USD 120 millones al que desbancó Neymar",
+          "url": "https://www.infobae.com/deportes/2026/05/18/los-grandes-ausentes-en-la-lista-de-brasil-para-el-mundial-el-delantero-de-los-usd-120-millones-al-que-desbanco-neymar/",
+          "source": "Infobae"
+        }
+      ]
+    },
+    {
+      "query": "ross stewart",
+      "geo": "GB",
+      "language": "en",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "Watch: Scotland boss Steve Clarke names World Cup squad",
+          "url": "https://www.bbc.co.uk/sport/football/live/cgkpeex1x87t",
+          "source": "BBC"
+        },
+        {
+          "title": "World Cup 2026: Steve Clarke names Craig Gordon, Findlay Curtis, Ross Stewart in Scotland&apos;s 26-man squad",
+          "url": "https://www.skysports.com/football/news/12017/13545649/world-cup-2026-steve-clarke-names-craig-gordon-findlay-curtis-ross-stewart-in-scotlands-26-man-squad",
+          "source": "Sky Sports"
+        },
+        {
+          "title": "Middlesbrough handed major blow which could open door for Hull City star Oli McBurnie",
+          "url": "https://www.hulldailymail.co.uk/sport/football/football-news/middlesbrough-handed-major-blow-could-10971318",
+          "source": "Hull Live"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "es": [
+      {
+        "query": "neymar",
+        "score": 900,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "neymar",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "Mundial 2026: el futbolista uruguayo que Carlo Ancelotti citó a la selección de Brasil para la Copa del Mundo",
+                "url": "https://www.elpais.com.uy/ovacion/futbol/mundial-2026-el-futbolista-uruguayo-que-carlo-ancelotti-cito-a-la-seleccion-de-brasil-para-la-copa-del-mundo",
+                "source": "EL PAÍS Uruguay"
+              },
+              {
+                "title": "Neymar va al Mundial: Carlo Ancelotti confirmó la lista de Brasil",
+                "url": "https://ladiaria.com.uy/deporte/articulo/2026/5/neymar-va-al-mundial-carlo-ancelotti-confirmo-la-lista-de-brasil/",
+                "source": "la diaria"
+              },
+              {
+                "title": "Los grandes ausentes en la lista de Brasil para el Mundial: el delantero de los USD 120 millones al que desbancó Neymar",
+                "url": "https://www.infobae.com/deportes/2026/05/18/los-grandes-ausentes-en-la-lista-de-brasil-para-el-mundial-el-delantero-de-los-usd-120-millones-al-que-desbanco-neymar/",
+                "source": "Infobae"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "en": [
+      {
+        "query": "ross stewart",
+        "score": 2200,
+        "geos": [
+          "GB"
+        ],
+        "samples": [
+          {
+            "query": "ross stewart",
+            "geo": "GB",
+            "language": "en",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "Watch: Scotland boss Steve Clarke names World Cup squad",
+                "url": "https://www.bbc.co.uk/sport/football/live/cgkpeex1x87t",
+                "source": "BBC"
+              },
+              {
+                "title": "World Cup 2026: Steve Clarke names Craig Gordon, Findlay Curtis, Ross Stewart in Scotland&apos;s 26-man squad",
+                "url": "https://www.skysports.com/football/news/12017/13545649/world-cup-2026-steve-clarke-names-craig-gordon-findlay-curtis-ross-stewart-in-scotlands-26-man-squad",
+                "source": "Sky Sports"
+              },
+              {
+                "title": "Middlesbrough handed major blow which could open door for Hull City star Oli McBurnie",
+                "url": "https://www.hulldailymail.co.uk/sport/football/football-news/middlesbrough-handed-major-blow-could-10971318",
+                "source": "Hull Live"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "topic": "ross stewart",
+      "type": "noticia",
+      "slugSuggestion": "ross-stewart",
+      "language": "en",
+      "geos": [
+        "GB"
+      ],
+      "score": 2640,
+      "reason": "Google Trends daily GB con 2,000 búsquedas · 3 artículos noticiosos referenciando \"ross stewart\"",
+      "proposedPath": "/noticias/ross-stewart",
+      "evidence": [
+        {
+          "query": "ross stewart",
+          "geo": "GB",
+          "language": "en",
+          "source": "google-trends-daily",
+          "score": 2000,
+          "articles": [
+            {
+              "title": "Watch: Scotland boss Steve Clarke names World Cup squad",
+              "url": "https://www.bbc.co.uk/sport/football/live/cgkpeex1x87t",
+              "source": "BBC"
+            },
+            {
+              "title": "World Cup 2026: Steve Clarke names Craig Gordon, Findlay Curtis, Ross Stewart in Scotland&apos;s 26-man squad",
+              "url": "https://www.skysports.com/football/news/12017/13545649/world-cup-2026-steve-clarke-names-craig-gordon-findlay-curtis-ross-stewart-in-scotlands-26-man-squad",
+              "source": "Sky Sports"
+            },
+            {
+              "title": "Middlesbrough handed major blow which could open door for Hull City star Oli McBurnie",
+              "url": "https://www.hulldailymail.co.uk/sport/football/football-news/middlesbrough-handed-major-blow-could-10971318",
+              "source": "Hull Live"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alreadyCovered": [
+    {
+      "query": "neymar",
+      "matchUrl": "/noticias/convocatoria-brasil-mundial-2026-ancelotti-26-neymar-cuarto-mundial-rodrygo-fuera"
+    }
+  ]
+}
