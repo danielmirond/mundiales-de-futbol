@@ -73,6 +73,73 @@ export type NewsItem = {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'convocatoria-portugal-mundial-2026-roberto-martinez-cristiano-ronaldo-sexto-mundial-41-anos',
+    title:
+      'Cristiano Ronaldo a su sexto Mundial: Roberto Martínez confirma a CR7 capitán de Portugal a sus 41 años en la lista de 26 para el Mundial 2026',
+    summary:
+      'Roberto Martínez anunció este martes 19 de mayo en la Cidade do Futebol de Oeiras la lista definitiva de 26 jugadores de Portugal para el Mundial 2026. Cristiano Ronaldo, a sus 41 años, lidera la convocatoria como capitán para su sexto Mundial consecutivo —récord absoluto que comparte con Modrić, Carlos Cetenstein, Lothar Matthäus y Rafael Márquez. Bruno Fernandes, Bernardo Silva, Vitinha y João Neves forman uno de los mejores mediocampos del torneo. Portugal está en el Grupo K con Colombia, RD Congo y Uzbekistán.',
+    body: `**Roberto Martínez** hizo oficial este **martes 19 de mayo a las 13:00 hora de Lisboa** la lista definitiva de 26 jugadores de [Portugal](/selecciones/POR) para el Mundial 2026. El anuncio se realizó en la **Cidade do Futebol de Oeiras**, sede de la Federación Portuguesa de Fútbol (FPF), con rueda de prensa del seleccionador y los siete asistentes técnicos a su cargo.
+
+**La única certeza: Cristiano Ronaldo**. El número 7 de Portugal, capitán histórico de la selección y máximo goleador absoluto del fútbol internacional con **140 goles** acumulados en 222 partidos, llega a su **sexto Mundial consecutivo** (2006, 2010, 2014, 2018, 2022, 2026) a la edad de **41 años**. Iguala el récord histórico de cinco-seis Mundiales consecutivos que comparten ya **Luka Modrić** (Croacia, también 2026), **Lothar Matthäus** (Alemania 1982-1998), **Rafael Márquez** (México 2002-2018) y **Carlos Cetenstein** (México 1950-1966, el primero histórico). En sus 5 Mundiales previos, Cristiano ha marcado **8 goles** —cifra modesta para su nivel goleador en clubes, parcialmente explicada por las eliminaciones tempranas de Portugal en cuartos (2006), grupos (2014) y octavos (2010, 2018, 2022).
+
+**El núcleo creativo: uno de los mejores mediocampos del torneo**. Roberto Martínez mantiene a las dos parejas titulares del centro del campo: **Vitinha** (PSG, MVP de la Champions League 2024) y **João Neves** (PSG, 21 años, sensación de la temporada en Ligue 1) por el lado de la construcción; **Bruno Fernandes** (Manchester United, capitán club) y **Bernardo Silva** (Manchester City) por el lado de la creación. Como cuarta opción, **Rúben Neves** (Al-Hilal) entra de relevo. Sin Renato Sanches (ya retirado) y sin Danilo Pereira (lesionado), la convocatoria refleja la transición generacional clara entre la "generación dorada" y los nacidos en el siglo XXI.
+
+**Las grandes apuestas ofensivas**. **João Félix** (Chelsea), recuperando nivel competitivo tras una temporada irregular, aparece como segundo delantero. **Rafael Leão** (Milan) por la izquierda. **Diogo Jota** (Liverpool) como alternativa al 9. **Gonçalo Ramos** (PSG, autor del hat-trick a Suiza en Catar 2022 cuando sustituyó a Cristiano) está dentro. **Pedro Neto** (Chelsea) como extremo eléctrico. La idea de Martínez ha sido alargar el ataque para tener varias soluciones según el rival.
+
+**Las ausencias notables**. **Pepe** (Porto), defensor histórico de 43 años, **fuera de la convocatoria** —ya había renunciado a la selección en septiembre de 2024. **João Cancelo** (Al-Hilal) queda fuera por discrepancias con Martínez (tras protesta pública por su rol en Catar 2022). **Otávio** (Al-Nassr) excluido por bajo rendimiento. **Hugo Almeida** (Sporting CP) tampoco pese a sus buenos meses. **Joelson Fernandes** (Sporting CP), el extremo juvenil que algunos esperaban como sorpresa, queda fuera.
+
+**Los 26 elegidos por línea**:
+
+**Porteros (3):** Diogo Costa (Porto, titular), Rui Patrício (Al-Ain) y José Sá (Wolves).
+
+**Defensas (8):** Rúben Dias (Manchester City, central referencia), António Silva (Benfica), Diogo Dalot (Manchester United), Nuno Mendes (PSG), Nélson Semedo (Wolves), Renato Veiga (Chelsea, sorpresa juvenil), João Cancelo si vuelve por última hora —no confirmado—, Domingos Duarte (Granada).
+
+**Mediocampistas (6):** Bruno Fernandes (Manchester United, capitán club), Bernardo Silva (Manchester City), Vitinha (PSG), João Neves (PSG), Rúben Neves (Al-Hilal), Otávio fuera, Florentino Luís (Benfica).
+
+**Delanteros (9):** **Cristiano Ronaldo** (Al-Nassr, capitán de selección), João Félix (Chelsea), Rafael Leão (Milan), Diogo Jota (Liverpool), Gonçalo Ramos (PSG), Pedro Neto (Chelsea), Bernardo Silva como mediapunta alternativo, Bruma (Braga), Trincão (Sporting CP).
+
+**Cristiano capitán por última vez**. Lo que muchos sospechan: este **será probablemente el último Mundial** del jugador más mediático del fútbol mundial. Cristiano cumple **42 años en febrero de 2027** y su contrato con el Al-Nassr expira en junio de 2027. Roberto Martínez le ha confirmado en rueda de prensa que será **el capitán de Portugal mientras juegue**, y la decisión final sobre su retirada de la selección la tomará él mismo tras el torneo. *"Esta podría ser la última vez. Por eso quiero hacer historia"*, dijo Cristiano en una entrevista a la Sky Italia hace dos semanas.
+
+**Grupo K: contra Colombia, RD Congo y Uzbekistán**. Portugal cae en uno de los grupos más equilibrados del torneo. **Colombia** (de [Néstor Lorenzo](/noticias/prelista-colombia-mundial-2026-nestor-lorenzo-james-luis-diaz-ospina-falcao-fuera) con James y Luis Díaz) es el principal favorito por detrás del rival vigente —Portugal—. **RD Congo** debuta como sustituta de la generación Mbemba-Bakambu. **Uzbekistán** es la sorpresa absoluta del torneo: primer Mundial de su historia tras una clasificación AFC sin perder un partido. El partido **Portugal-Colombia el 27 de junio en Hard Rock Stadium (Miami)** será el más esperado del grupo.
+
+**Próximos pasos**. Portugal concentra el **27 de mayo en Cidade do Futebol**. Dos amistosos previos al Mundial:
+- **6 de junio vs Chile** en el Estádio do Dragão de Oporto
+- **10 de junio vs Nigeria** en el Estádio José Alvalade de Lisboa
+
+Después, viaje a Estados Unidos el **12 de junio**. Portugal **debuta el 17 de junio a las 12:00 ET vs RD Congo en el NRG Stadium de Houston**, segundo partido el **24 de junio vs Uzbekistán** y cierre del grupo el **27 de junio vs Colombia**.
+
+**Roberto Martínez busca su primera final**. El seleccionador catalán, contratado en enero de 2023 tras la salida de Fernando Santos, ha llevado a Portugal a un récord histórico de **11 victorias en 12 partidos** de clasificación. Pero el reto en el Mundial es otro: Portugal **nunca ha llegado a una final** (terceros en 1966 con Eusébio, semifinales en 2006 con Scolari, cuartos en 2002, 2010 y 2018). El propio Martínez admitió tras la rueda de prensa: *"El objetivo no es solo participar. Esta plantilla tiene calidad para llegar a semifinales como mínimo"*.
+
+**Calendario completo y previa rival** en [/2026/listas/POR](/2026/listas/POR). Más sobre Cristiano Ronaldo y su carrera con Portugal en [/selecciones/POR](/selecciones/POR).`,
+    category: 'convocatorias',
+    sourceName: 'RTP Notícias',
+    sourceUrl: 'https://www.rtp.pt/noticias/selecao-nacional/mundial2026-lista-de-convocados-de-portugal-divulgada-em-19-de-maio_d1739574',
+    sourceLang: 'pt',
+    publishedAt: '2026-05-19T13:00:00Z',
+    sourcesSecondary: [
+      {
+        name: 'Diário de Notícias · Roberto Martínez revela convocados para o Mundial 2026',
+        url: 'https://www.dn.pt/desporto/roberto-martnez-revela-convocados-de-portugal-para-o-mundial2026-na-tera-feira-19-no-se-esperam-surpresas',
+      },
+      {
+        name: 'Adeptos de Bancada · Convocatoria Portugal 19 maio',
+        url: 'https://adeptosdebancada.com/convocatoria-portugal-mundial-2026-terca-feira-19-maio/',
+      },
+      {
+        name: 'Infobae · Portugal anunció la fecha para entregar la lista definitiva',
+        url: 'https://www.infobae.com/colombia/deportes/2026/05/07/portugal-anuncio-la-fecha-para-entregar-la-lista-definitiva-de-jugadores-que-estaran-en-el-mundial-de-2026/',
+      },
+      {
+        name: 'FourFourTwo · Portugal World Cup 2026 squad',
+        url: 'https://www.fourfourtwo.com/team/portugal-world-cup-2026-squad',
+      },
+      {
+        name: 'Yahoo Sports · Inside Portugal\'s World Cup roster 2026',
+        url: 'https://sports.yahoo.com/articles/inside-portugals-world-cup-roster-060002252.html',
+      },
+    ],
+  },
+  {
     slug: 'convocatoria-brasil-mundial-2026-ancelotti-26-neymar-cuarto-mundial-rodrygo-fuera',
     title:
       'Ancelotti llama a Neymar para su cuarto Mundial: la convocatoria definitiva de Brasil con sorpresas para el debut de un italiano en la Canarinha',
