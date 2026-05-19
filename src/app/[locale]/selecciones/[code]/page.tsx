@@ -11,10 +11,15 @@ import { TeamPhotoGallery } from '@/components/team/team-photo-gallery';
 import { AmazonProductGrid } from '@/components/affiliate/amazon-card';
 import { getProductsByTeam } from '@/lib/amazon-products';
 import { getJerseyHistory } from '@/lib/wc-jerseys';
-import { Shirt, ArrowRight, Newspaper, CalendarClock } from 'lucide-react';
+import { Shirt, ArrowRight, Newspaper, CalendarClock, Play } from 'lucide-react';
 import { TeamKitShop } from '@/components/team/team-kit-shop';
 import { getNewsByTeam, relativeTimeEs } from '@/lib/news';
 import { getFriendliesByTeam } from '@/lib/wc-2026-pre-friendlies';
+import {
+  getGoalsByTeam,
+  youtubeSearchUrl,
+  youtubeThumbnailUrl,
+} from '@/lib/wc-famous-goals';
 import { TEAMS_2026 } from '@/lib/wc-2026';
 
 function withLocale(locale: Locale, href: string) {
@@ -102,6 +107,9 @@ export default async function SelectionDetailPage({
 
   // Amistosos pre-Mundial 2026 de la selección.
   const teamFriendlies = getFriendliesByTeam(team.code);
+
+  // Goles famosos en los que aparece la selección (como autora o víctima).
+  const teamGoals = getGoalsByTeam(team.code);
 
   // Group matches by tournament year for timeline presentation.
   type YearGroup = {
@@ -299,6 +307,74 @@ export default async function SelectionDetailPage({
                 </div>
               </Link>
             ))}
+          </div>
+        </section>
+      )}
+
+      {/* Goles famosos en los que aparece la selección */}
+      {teamGoals.length > 0 && (
+        <section className="mx-auto w-full max-w-[1400px] px-6 mt-12 md:px-10">
+          <div className="flex items-baseline justify-between gap-3">
+            <div>
+              <div className="flex items-center gap-2 font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-pitch)]">
+                <Play className="h-3 w-3 fill-current" />
+                <span>Goles famosos</span>
+              </div>
+              <h2 className="mt-2 font-display text-2xl uppercase leading-tight md:text-3xl">
+                {teamDisplayName(team)} en la antología mundialista
+              </h2>
+            </div>
+            <Link
+              href={withLocale(locale as Locale, '/goles-famosos')}
+              className="inline-flex items-center gap-1.5 font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--color-fg-subtle)] transition-colors hover:text-[var(--color-pitch)]"
+            >
+              Todos los goles <ArrowRight className="h-3 w-3 rtl:rotate-180" />
+            </Link>
+          </div>
+          <div className="mt-6 grid gap-4 md:grid-cols-2">
+            {teamGoals.slice(0, 4).map((g) => {
+              const isAuthor = g.teamCode === team.code;
+              const watchUrl = g.youtubeId
+                ? `https://www.youtube.com/watch?v=${g.youtubeId}`
+                : youtubeSearchUrl(g.youtubeQuery);
+              const thumbnail = g.youtubeId ? youtubeThumbnailUrl(g.youtubeId) : null;
+              return (
+                <Link
+                  key={g.slug}
+                  href={withLocale(locale as Locale, `/goles-famosos#${g.slug}`)}
+                  className="group rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg-2)] p-5 transition-colors hover:border-[var(--color-pitch)]/60"
+                >
+                  <div className="font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--color-fg-subtle)]">
+                    Mundial {g.year} · {g.stage.toUpperCase()} · {isAuthor ? 'autor' : 'víctima'}
+                  </div>
+                  <h3 className="mt-2 font-display text-base uppercase leading-tight group-hover:text-[var(--color-pitch)]">
+                    {g.title}
+                  </h3>
+                  {thumbnail && (
+                    <div className="mt-3 overflow-hidden rounded-lg">
+                      <img
+                        src={thumbnail}
+                        alt={`Vídeo del gol: ${g.title}`}
+                        loading="lazy"
+                        className="aspect-video w-full object-cover"
+                      />
+                    </div>
+                  )}
+                  <p className="mt-3 text-sm text-[var(--color-fg-muted)] line-clamp-3">
+                    {g.description}
+                  </p>
+                  <a
+                    href={watchUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={(e) => e.stopPropagation()}
+                    className="mt-3 inline-flex items-center gap-1.5 font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--color-pitch)] hover:underline"
+                  >
+                    <Play className="h-3 w-3 fill-current" /> Ver en YouTube
+                  </a>
+                </Link>
+              );
+            })}
           </div>
         </section>
       )}
