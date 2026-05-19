@@ -73,6 +73,65 @@ export type NewsItem = {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'convocatoria-brasil-mundial-2026-ancelotti-26-neymar-cuarto-mundial-rodrygo-fuera',
+    title:
+      'Ancelotti llama a Neymar para su cuarto Mundial: la convocatoria definitiva de Brasil con sorpresas para el debut de un italiano en la Canarinha',
+    summary:
+      'Carlo Ancelotti presentó este lunes en el Museu do Amanhã de Río la lista definitiva de 26 jugadores de Brasil para el Mundial 2026. Neymar está dentro tras meses de duda por su forma física. Rodrygo y Antony quedan fuera. Tres porteros (Alisson, Ederson, Weverton), Marquinhos capitán y cuatro debuts mundialistas: Igor Thiago, Wesley, Rayan y Luis Henrique. Brasil debuta el 13 de junio en Filadelfia.',
+    body: `Carlo Ancelotti hizo oficial este **lunes 18 de mayo** la **lista definitiva de 26 jugadores** que defenderán a [Brasil](/selecciones/BRA) en el Mundial 2026. El anuncio se realizó a las **16:00 hora de Brasilia** en el Museu do Amanhã de Río de Janeiro, en lo que es la primera convocatoria mundialista del entrenador italiano desde que llegó al banquillo brasileño en mayo de 2026 tras el contrato sin precedentes de la CBF con el técnico tetracampeón de Champions con el Real Madrid.
+
+**El primer Mundial de un entrenador extranjero al frente de Brasil.** Ancelotti es el **primer seleccionador no brasileño** que dirige a la Verdeamarela en una Copa del Mundo. La CBF rompió con la tradición tras dos Mundiales decepcionantes (eliminado en cuartos por Bélgica 2018 y por Croacia 2022) con la apuesta más mediática del fútbol mundial. Carlo trabaja con un cuerpo técnico mixto: **Davide Ancelotti** (su hijo) como asistente principal, **Mauro Tassotti** como segundo asistente y los brasileños **Cesar Sampaio** como puente con la cultura local y **Cleber Xavier** retenido del equipo de Dorival Júnior.
+
+**La gran noticia: Neymar dentro**. Las dudas sobre el capitán histórico se mantuvieron hasta el último día. Neymar Jr., de 34 años, vuelve a un Mundial **cuatro años después** de Catar 2022 (donde se lesionó el tobillo y tuvo que jugar limitado). Es su **cuarto Mundial** consecutivo (2014, 2018, 2022, 2026) y se acerca al récord de Cafú y Ronaldinho. El jugador, ahora en el **Santos** tras abandonar el Al-Hilal en febrero, había recuperado nivel competitivo en las últimas semanas con Vasco da Gama como punto de comparación —dos goles y tres asistencias en abril. Ancelotti zanjó la pregunta más comentada del fútbol brasileño: *"Neymar es un genio y un capitán. No podía dejarlo fuera"*.
+
+**Las grandes ausencias: Rodrygo y Antony**. El extremo del Real Madrid **Rodrygo Goes** queda fuera por segunda convocatoria consecutiva (también estaba fuera de la prelista de 55 publicada el 11 de mayo). Ancelotti, que lo entrenó en Madrid hasta su salida en mayo de 2025, ha decidido apostar por **Endrick** y **Vinícius Júnior** como referencias jóvenes ofensivas, dejando a Rodrygo como víctima de la sobreoferta. **Antony**, del Real Betis, tampoco recibe la llamada pese a su gran segunda mitad de temporada en LaLiga. Otros nombres ausentes notables: **Casimiro** (sí está), **Gabriel Jesús** (lesión rodilla larga, fuera del Mundial), **Bruno Henrique** y **Pedro** del Flamengo, **Richarlison** del Tottenham (forma irregular).
+
+**Los 26 elegidos por línea**:
+
+**Porteros (3):** Alisson Becker (Liverpool, titular indiscutible), Ederson Moraes (Manchester City) y Weverton (Palmeiras).
+
+**Defensas (10):** Alex Sandro (Flamengo), Bremer (Juventus), Danilo (Flamengo, ex-Manchester City), Douglas Santos (Zenit), Gabriel Magalhães (Arsenal), Roger Ibañez (Al-Ahli), Leo Pereira (Flamengo), Marquinhos (PSG, capitán confirmado), Wesley (Roma, debutante mundialista).
+
+**Mediocampistas (5):** Bruno Guimarães (Newcastle), Casemiro (Manchester United), Fabinho (Al-Ittihad), Lucas Paquetá (West Ham, regresa tras suspensión por apuestas levantada en marzo).
+
+**Delanteros (8):** Endrick (Real Madrid, 19 años), Gabriel Martinelli (Arsenal), Igor Thiago (Brentford, debutante), Luis Henrique (Olympique de Marsella, debutante), Matheus Cunha (Manchester United), Neymar (Santos, capitán emocional), Raphinha (Barcelona), Rayan (Vasco da Gama, 18 años debutante), Vinícius Júnior (Real Madrid).
+
+**Cuatro debutantes mundialistas: Wesley, Igor Thiago, Luis Henrique y Rayan**. La novedad más fuerte. **Wesley** llegó al Roma en enero de 2026 desde el Cruzeiro por 20 millones de euros y se convirtió en titular automático del lateral derecho. **Igor Thiago**, ariete del Brentford, recibe la llamada tras seis goles en cinco partidos de la Premier League en abril. **Luis Henrique**, extremo del Marsella, gana posición a Antony por su capacidad de jugar por izquierda o derecha. **Rayan**, juvenil del Vasco da Gama de 18 años, es la apuesta sorpresa de Ancelotti: el técnico italiano lo vio en febrero en un partido de Brasileirão y le dio entrada al grupo absoluto.
+
+**Marquinhos capitán, Neymar capitán emocional**. El defensor del PSG mantiene la cinta por decisión técnica. Pero Ancelotti ha confirmado que **Neymar** será **"el capitán dentro del campo cuando juegue"**, una formula híbrida que combina la jerarquía de Marquinhos con el peso mediático del 10. Es una decisión similar a la que Tite tomó en Catar 2022 con Thiago Silva-Neymar.
+
+**Próximos pasos**. Brasil concentra el **25 de mayo en Granja Comary** (Teresópolis, sede histórica). Los jugadores europeos llegan tras las finales de sus ligas (Liverpool, Manchester City, Arsenal, etc.). El **viaje a Estados Unidos** está previsto para el **3 de junio**, con base de entrenamiento en Orlando hasta el debut. Antes, dos amistosos: **vs Colombia el 27 de mayo** en el Maracaná de Río y **vs Suiza el 4 de junio** en Filadelfia.
+
+**Grupo C: debut el 13 de junio**. Brasil está encuadrada en el [Grupo C](/2026/grupo/C) con Marruecos, Escocia y Haití. **Debuta el 13 de junio a las 18:00 ET vs Marruecos** en el MetLife Stadium de Nueva York/NJ. El segundo partido es el **19 de junio vs Haití** en Lincoln Financial Field (Filadelfia), y el tercero el **24 de junio vs Escocia** en Hard Rock Stadium (Miami). Es un grupo competitivo: Marruecos llega como semifinalista de Catar 2022 con Hakimi y Ziyech.
+
+**El reto de Ancelotti**. Carlo Ancelotti llega al Mundial con **un objetivo declarado: ganarlo todo**. La frase la repitió en su rueda de prensa de presentación en mayo de 2025: *"Brasil no tiene techo. Si los jugadores creen, ganamos"*. Es el primer entrenador europeo que dirige a Brasil en un Mundial (cuatro previos europeos fueron asistentes: Albano de Trani 1934 con Cardetti, etc., pero ninguno como entrenador principal). El reto pesa: Brasil no gana un Mundial desde **2002** (24 años de sequía). Si Ancelotti lo consigue, sería el primer entrenador en ganar Champions League y Mundial. Lippi (Italia 2006 + Champions con Juventus 1996) lo hizo pero no las dos en años distantes.
+
+**Calendario completo de Brasil en Mundial 2026** en [/2026/listas/BRA](/2026/listas/BRA). Más sobre Neymar y su carrera con la Canarinha en [/selecciones/BRA](/selecciones/BRA).`,
+    category: 'convocatorias',
+    sourceName: 'Crónica',
+    sourceUrl: 'https://www.cronica.com.mx/deportes/2026/05/18/ancelotti-anuncia-convocatoria-de-brasil-para-el-mundial-2026-esta-neymar/',
+    sourceLang: 'es',
+    publishedAt: '2026-05-18T20:00:00Z',
+    sourcesSecondary: [
+      {
+        name: 'Semana · Ancelotti revela convocados de Brasil, decisión final con Neymar',
+        url: 'https://www.semana.com/deportes/articulo/carlo-ancelotti-revelo-convocados-de-brasil-para-el-mundial-decision-final-con-neymar/202602/',
+      },
+      {
+        name: 'Ahora · Brasil anuncia convocados al Mundial. Horario y dónde ver',
+        url: 'https://ahora.com.pe/deportes/brasil-anuncia-convocados-al-mundial-horario-y-donde-ver-la-lista',
+      },
+      {
+        name: 'Meridiano · Ancelotti publicará la convocatoria de Brasil',
+        url: 'https://meridiano.net/mundial-2026/carlo-ancelotti-publicara-la-convocatoria-de-brasil-para-el-mundial-de-2026-en-esta-fecha-202651718400',
+      },
+      {
+        name: 'El Mundo SV · Ancelotti anunciará convocatoria de Brasil el 18 mayo',
+        url: 'https://diario.elmundo.sv/deportes/ancelotti-anunciara-convocatoria-de-brasil-para-mundial-el-18-mayo',
+      },
+    ],
+  },
+  {
     slug: 'convocatorias-mundial-2026-bosnia-nueva-zelanda-tunez-croacia-18-mayo-actualizacion-listas-definitivas',
     title:
       'Convocatorias Mundial 2026: Bosnia, Nueva Zelanda y Túnez confirman 26 definitivos. Croacia anuncia hoy y Holanda esta semana',
