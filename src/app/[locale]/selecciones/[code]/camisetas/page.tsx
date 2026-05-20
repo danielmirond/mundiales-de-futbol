@@ -85,13 +85,25 @@ export async function generateMetadata({
 }
 
 function JerseyCard({ j, baseColor }: { j: JerseyEntry; baseColor: string }) {
+  // Cascada de imágenes para el hero visual:
+  //  1) Foto editorial Wikimedia (jugador con la camiseta) — la mejor.
+  //  2) Foto de producto Amazon (mannequin/flat) — útil para shop view.
+  //  3) Gradiente con los colores oficiales — fallback decente.
+  const heroSrc = j.imageUrl ?? j.amazonImageUrl ?? null;
+  const heroAlt = j.imageUrl
+    ? j.imageAlt ?? `Camiseta ${j.year}`
+    : j.amazonTitle ?? `Camiseta ${j.year}`;
+  // Si tenemos foto editorial Y producto Amazon, mostramos el producto
+  // como segunda imagen abajo en la columna info (card de compra).
+  const showAmazonAside = Boolean(j.imageUrl && j.amazonImageUrl);
+
   return (
     <article className="grid gap-6 rounded-3xl border border-[var(--color-border)] bg-[var(--color-bg-2)] p-7 md:grid-cols-[280px_1fr] md:p-8">
       <div className="relative aspect-[4/5] overflow-hidden rounded-2xl">
-        {j.imageUrl ? (
+        {heroSrc ? (
           <Image
-            src={j.imageUrl}
-            alt={j.imageAlt ?? `Camiseta ${j.year}`}
+            src={heroSrc}
+            alt={heroAlt}
             fill
             sizes="(max-width: 768px) 100vw, 280px"
             className="object-cover"
@@ -157,6 +169,68 @@ function JerseyCard({ j, baseColor }: { j: JerseyEntry; baseColor: string }) {
             </span>
           )}
         </div>
+
+        {/* Bloque Amazon: producto si lo tenemos, búsqueda si no */}
+        {(j.amazonProductUrl || j.amazonSearchUrl) && (
+          <div className="mt-6 flex flex-wrap items-center gap-3">
+            {j.amazonProductUrl && j.amazonTitle && (
+              <a
+                href={j.amazonProductUrl}
+                target="_blank"
+                rel="noopener noreferrer sponsored"
+                className="group inline-flex items-center gap-3 rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg)] p-2 pr-4 hover:border-[var(--color-pitch)]"
+              >
+                {j.amazonImageUrl && (
+                  <span className="relative block h-14 w-14 shrink-0 overflow-hidden rounded-lg bg-white">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src={j.amazonImageUrl}
+                      alt={j.amazonTitle}
+                      loading="lazy"
+                      className="h-full w-full object-contain"
+                    />
+                  </span>
+                )}
+                <span className="text-left">
+                  <span className="block font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--color-pitch)]">
+                    Réplica en Amazon
+                  </span>
+                  <span className="block max-w-[260px] truncate text-sm text-[var(--color-fg)] group-hover:text-[var(--color-pitch)]">
+                    {j.amazonTitle}
+                  </span>
+                </span>
+              </a>
+            )}
+            {j.amazonSearchUrl && (
+              <a
+                href={j.amazonSearchUrl}
+                target="_blank"
+                rel="noopener noreferrer sponsored"
+                className="font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--color-fg-muted)] underline-offset-4 hover:text-[var(--color-pitch)] hover:underline"
+              >
+                Ver opciones en Amazon →
+              </a>
+            )}
+          </div>
+        )}
+
+        {/* Segunda imagen (producto Amazon) si la editorial es de Wikimedia */}
+        {showAmazonAside && j.amazonImageUrl && (
+          <div className="mt-6 hidden md:block">
+            <div className="relative aspect-square max-w-[200px] overflow-hidden rounded-xl border border-[var(--color-border)] bg-white">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={j.amazonImageUrl}
+                alt={j.amazonTitle ?? `Réplica ${j.year}`}
+                loading="lazy"
+                className="h-full w-full object-contain"
+              />
+            </div>
+            <p className="mt-1 font-mono text-[9px] uppercase tracking-[0.3em] text-[var(--color-fg-subtle)]">
+              Réplica disponible · {j.brand}
+            </p>
+          </div>
+        )}
       </div>
     </article>
   );
