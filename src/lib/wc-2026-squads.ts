@@ -312,12 +312,66 @@ const SQUAD_METADATA: Record<string, SquadMeta> = {
  *
  * Última auditoría: 2026-05-20 (28 de 48 selecciones anunciadas).
  */
+// ───────────────────────────────────────────────────────────────────
+// Sidecar de jugadores (generado por research-agent, verificado a mano)
+// ───────────────────────────────────────────────────────────────────
+//
+// El sidecar `wc-2026-squads.players.json` contiene los 26 jugadores
+// por selección con datos cruzados de ESPN, federaciones oficiales,
+// Olympics.com y Wikipedia. Lo fusionamos aquí para que las páginas
+// `/2026/listas/{code}` rendericen las plantillas completas.
+//
+// Las federaciones suelen publicar los dorsales tarde (a veces el
+// día anterior al primer partido), así que `shirt` puede ser `null`
+// incluso con la lista cerrada — la UI muestra "—" en ese caso.
+import playerSidecar from './wc-2026-squads.players.json';
+// Sidecar de fotos generado por `scripts/fetch-player-photos.ts`. Vacío
+// es válido — la UI cae a un avatar con iniciales cuando no hay foto.
+import photoSidecar from './wc-2026-squads.photos.json';
+
+type PlayerSidecarRoster = {
+  captainName?: string;
+  players: Array<Omit<Player2026, 'note' | 'replacementFor'>>;
+};
+const PLAYER_SIDECAR = playerSidecar as Record<string, PlayerSidecarRoster | unknown>;
+
+function rosterFor(teamCode: string): PlayerSidecarRoster | null {
+  const entry = PLAYER_SIDECAR[teamCode];
+  if (
+    entry &&
+    typeof entry === 'object' &&
+    'players' in entry &&
+    Array.isArray((entry as PlayerSidecarRoster).players)
+  ) {
+    return entry as PlayerSidecarRoster;
+  }
+  return null;
+}
+
+type PhotoEntry = { photoUrl: string; sourceTitle?: string };
+const PHOTO_BY_SLUG = photoSidecar as Record<string, PhotoEntry | unknown>;
+function photoFor(playerSlug: string | undefined): string | undefined {
+  if (!playerSlug) return undefined;
+  const entry = PHOTO_BY_SLUG[playerSlug];
+  if (entry && typeof entry === 'object' && 'photoUrl' in entry) {
+    return (entry as PhotoEntry).photoUrl;
+  }
+  return undefined;
+}
+
 export const SQUADS_2026: Squad2026[] = Object.keys(TEAMS_2026).map(
   (teamCode) => {
     const meta = SQUAD_METADATA[teamCode];
+    const roster = rosterFor(teamCode);
+    // Hidrata cada jugador con su `photoUrl` del sidecar de fotos.
+    const players: Player2026[] = (roster?.players ?? []).map((p) => {
+      const photo = photoFor(p.playerSlug);
+      return photo ? { ...p, photoUrl: photo } : (p as Player2026);
+    });
     return {
       teamCode,
-      players: [],
+      players,
+      ...(roster?.captainName ? { captainName: roster.captainName } : {}),
       ...(meta ?? { status: 'pending' as const }),
     };
   },
