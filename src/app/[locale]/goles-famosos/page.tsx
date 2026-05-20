@@ -11,6 +11,7 @@ import {
 } from '@/lib/wc-famous-goals';
 import { TEAMS_2026 } from '@/lib/wc-2026';
 import { TOURNAMENTS } from '@/lib/tournaments';
+import { countryName } from '@/lib/country-names';
 
 function withLocale(locale: Locale, href: string) {
   if (locale === routing.defaultLocale) return href;
@@ -83,11 +84,11 @@ function GoalHubCard({ goal, locale }: { goal: FamousGoal; locale: string }) {
           </h2>
         </div>
         <div className="font-mono text-sm text-[var(--color-pitch)]">
-          {team?.flag} {goal.teamCode}{' '}
+          {team?.flag} {countryName(goal.teamCode)}{' '}
           <span className="text-[var(--color-fg-subtle)]">
             {goal.finalScore.team}-{goal.finalScore.opponent}
           </span>{' '}
-          {goal.opponentCode} {opp?.flag}
+          {countryName(goal.opponentCode)} {opp?.flag}
         </div>
       </div>
 

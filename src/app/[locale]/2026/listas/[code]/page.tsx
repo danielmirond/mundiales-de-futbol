@@ -18,6 +18,7 @@ import {
   type Player2026,
 } from '@/lib/wc-2026-squads';
 import { TEAMS_2026 } from '@/lib/wc-2026';
+import { countryName } from '@/lib/country-names';
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl, SEO } from '@/lib/seo';
 import { getNewsByTeam, relativeTimeEs } from '@/lib/news';
@@ -122,7 +123,7 @@ function PlayerRow({ p, locale }: { p: Player2026; locale: string }) {
         )}
       </div>
       <div className="truncate font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--color-fg-subtle)]">
-        {p.club} · {p.clubCountry} · {p.age} años
+        {p.club} · {countryName(p.clubCountry)} · {p.age} años
         {p.previousWcs > 0 && ` · ${p.previousWcs + 1}.ª Copa`}
       </div>
       {p.note && (

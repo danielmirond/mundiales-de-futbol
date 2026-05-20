@@ -10,6 +10,7 @@ import {
   type FamousGoal,
 } from '@/lib/wc-famous-goals';
 import { TEAMS_2026 } from '@/lib/wc-2026';
+import { countryName } from '@/lib/country-names';
 
 /**
  * Sección "Goles famosos" dentro de la página de una edición del Mundial.
@@ -95,11 +96,11 @@ function GoalCard({ goal, locale }: { goal: FamousGoal; locale: string }) {
           </h3>
         </div>
         <div className="font-mono text-sm text-[var(--color-pitch)]">
-          {team?.flag} {goal.teamCode}{' '}
+          {team?.flag} {countryName(goal.teamCode)}{' '}
           <span className="text-[var(--color-fg-subtle)]">
             {goal.finalScore.team}-{goal.finalScore.opponent}
           </span>{' '}
-          {goal.opponentCode} {opp?.flag}
+          {countryName(goal.opponentCode)} {opp?.flag}
         </div>
       </div>
 
