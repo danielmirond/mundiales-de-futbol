@@ -139,7 +139,7 @@ export default async function ListasIndex({
                 <span className="text-3xl" aria-hidden>
                   {team.flag}
                 </span>
-                <div className="flex-1">
+                <div className="flex-1 min-w-0">
                   <div className="font-display text-xl uppercase leading-none text-[var(--color-fg)] group-hover:text-[var(--color-pitch)] transition-colors">
                     {team.name}
                   </div>
@@ -151,6 +151,12 @@ export default async function ListasIndex({
                       <span className="opacity-70">· {s.players.length}</span>
                     )}
                   </div>
+                  {s.coach && (
+                    <div className="mt-2 truncate font-mono text-[10px] uppercase tracking-[0.2em] text-[var(--color-fg-subtle)]">
+                      {s.coach}
+                      {s.announcedAt && <span className="ml-2 opacity-60">· {s.announcedAt.slice(5)}</span>}
+                    </div>
+                  )}
                 </div>
                 <ArrowRight className="h-4 w-4 text-[var(--color-fg-subtle)] transition-all group-hover:translate-x-1 group-hover:text-[var(--color-pitch)] rtl:rotate-180" />
               </Link>
