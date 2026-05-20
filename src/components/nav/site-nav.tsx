@@ -39,7 +39,10 @@ export function SiteNav() {
   return (
     <header
       className={cn(
-        'fixed inset-x-0 top-0 z-40 transition-all duration-500',
+        // `pt-[env(safe-area-inset-top)]` empuja el contenido del header
+        // por debajo del notch/Dynamic Island en iPhone. El fondo/blur
+        // se extiende hasta arriba (queda detrás de la barra del sistema).
+        'fixed inset-x-0 top-0 z-40 pt-[env(safe-area-inset-top)] transition-all duration-500',
         scrolled
           ? 'border-b border-[var(--color-border)] bg-[var(--color-bg)]/80 backdrop-blur-xl'
           : 'border-b border-transparent bg-transparent',
@@ -100,7 +103,7 @@ export function SiteNav() {
       {/* Mobile drawer */}
       <div
         className={cn(
-          'fixed inset-0 z-50 flex flex-col bg-[var(--color-bg)] transition-transform duration-500',
+          'fixed inset-0 z-50 flex flex-col bg-[var(--color-bg)] pt-[env(safe-area-inset-top)] pb-[env(safe-area-inset-bottom)] transition-transform duration-500',
           open ? 'translate-x-0' : 'translate-x-full',
         )}
       >
