@@ -1,6 +1,7 @@
 import Link from 'next/link';
-import { ArrowRight, ExternalLink, Shirt } from 'lucide-react';
+import { ArrowRight, ExternalLink, ShoppingBag, Shirt } from 'lucide-react';
 import { getTeamKit, type KitBrand } from '@/lib/team-kit-2026';
+import { getAmazonKit2026 } from '@/lib/wc-jerseys';
 import { routing, type Locale } from '@/i18n/routing';
 
 /**
@@ -60,6 +61,10 @@ export function TeamKitShop({
 
   const gradient = BRAND_GRADIENT[kit.brand];
   const isEstimated = kit.verified === 'estimated';
+  // CTA Amazon afiliado para la camiseta 2026 de esta selección.
+  // `searchUrl` siempre; `product` solo cuando el script de enriquecimiento
+  // encontró un match verificado en Amazon ES.
+  const amazon = getAmazonKit2026(teamCode, teamName, kit.brand);
 
   return (
     <section className="mx-auto mt-16 w-full max-w-[1200px] px-6 md:px-10">
@@ -106,10 +111,26 @@ export function TeamKitShop({
                 <ExternalLink className="h-3 w-3" />
               </a>
 
+              {/* CTA Amazon afiliado: si tenemos match verificado mostramos
+                  el producto; si no, búsqueda genérica. `rel="sponsored"`
+                  por política Amazon Associates. */}
+              <a
+                href={amazon.product?.productUrl ?? amazon.searchUrl}
+                target="_blank"
+                rel="sponsored noopener noreferrer"
+                className="group inline-flex items-center justify-between gap-2 rounded-full border border-[var(--color-border-strong)] bg-[var(--color-bg)] px-5 py-3 font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-fg)] transition-colors hover:border-[var(--color-pitch)] hover:text-[var(--color-pitch)]"
+              >
+                <span className="inline-flex items-center gap-2">
+                  <ShoppingBag className="h-3 w-3" />
+                  {amazon.product ? 'Comprar en Amazon' : 'Buscar en Amazon'}
+                </span>
+                <ExternalLink className="h-3 w-3" />
+              </a>
+
               {hasJerseyHistory && (
                 <Link
                   href={withLocale(locale, `/selecciones/${teamCode}/camisetas`)}
-                  className="group inline-flex items-center justify-between gap-2 rounded-full border border-[var(--color-border-strong)] px-5 py-3 font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-fg)] transition-colors hover:border-[var(--color-pitch)] hover:text-[var(--color-pitch)]"
+                  className="group inline-flex items-center justify-between gap-2 rounded-full border border-[var(--color-border)] px-5 py-3 font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-fg-muted)] transition-colors hover:border-[var(--color-pitch)] hover:text-[var(--color-pitch)]"
                 >
                   Histórica camisetas
                   <ArrowRight className="h-3 w-3 transition-transform group-hover:translate-x-1 rtl:rotate-180" />
@@ -117,6 +138,42 @@ export function TeamKitShop({
               )}
             </div>
           </div>
+
+          {/* Mini-card del producto Amazon cuando hay match verificado.
+              Es la "vitrina" visual: foto + título + CTA explícito. */}
+          {amazon.product && (
+            <a
+              href={amazon.product.productUrl}
+              target="_blank"
+              rel="sponsored noopener noreferrer"
+              className="mt-7 group flex items-center gap-4 rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg)] p-3 pr-5 transition-colors hover:border-[var(--color-pitch)]"
+            >
+              <span className="relative block h-20 w-20 shrink-0 overflow-hidden rounded-xl bg-white">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={amazon.product.imageUrl}
+                  alt={amazon.product.title}
+                  loading="lazy"
+                  className="h-full w-full object-contain"
+                />
+              </span>
+              <span className="min-w-0 flex-1">
+                <span className="block font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--color-pitch)]">
+                  Réplica disponible
+                </span>
+                <span className="mt-0.5 block truncate text-sm font-medium text-[var(--color-fg)] group-hover:text-[var(--color-pitch)]">
+                  {amazon.product.title}
+                </span>
+                <span className="mt-1 block font-mono text-[10px] uppercase tracking-[0.2em] text-[var(--color-fg-subtle)]">
+                  Amazon · ASIN {amazon.product.asin}
+                </span>
+              </span>
+              <span className="hidden shrink-0 items-center gap-1 rounded-full bg-[var(--color-pitch)] px-3 py-1.5 text-[10px] font-mono uppercase tracking-[0.2em] text-black group-hover:opacity-90 md:inline-flex">
+                Comprar
+                <ExternalLink className="h-3 w-3" />
+              </span>
+            </a>
+          )}
         </div>
       </div>
 
