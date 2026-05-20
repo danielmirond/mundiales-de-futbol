@@ -595,6 +595,47 @@ export function getJerseyHistory(teamCode: string): JerseyHistory | undefined {
   return JERSEY_HISTORIES.find((h) => h.teamCode === teamCode);
 }
 
+/**
+ * Datos de afiliación Amazon para la camiseta del Mundial 2026 de una
+ * selección dada. Sirve a las CTAs de compra que aparecen en
+ * `/selecciones/[code]`:
+ *
+ *  - `searchUrl` SIEMPRE se devuelve (búsqueda con teamName + brand + 2026).
+ *  - `product` solo cuando existe match verificado en el sidecar Amazon.
+ *
+ * Funciona para las 48 selecciones, no solo las 10 con JERSEY_HISTORIES.
+ */
+export function getAmazonKit2026(
+  teamCode: string,
+  teamName: string,
+  brand: string,
+): {
+  searchUrl: string;
+  product?: { imageUrl: string; title: string; productUrl: string; asin: string };
+} {
+  const key = `${teamCode}-2026-home`;
+  const entry = AMZ_SIDECAR[key];
+  const searchUrl = amazonSearchUrl(teamName, 2026, brand);
+  if (
+    entry &&
+    typeof entry === 'object' &&
+    'imageUrl' in entry &&
+    'asin' in entry
+  ) {
+    const e = entry as AmazonEntry;
+    return {
+      searchUrl,
+      product: {
+        imageUrl: e.imageUrl,
+        title: e.title,
+        productUrl: e.productUrl,
+        asin: e.asin,
+      },
+    };
+  }
+  return { searchUrl };
+}
+
 /** Top camisetas icónicas (cross-team) ordenadas por año. */
 export function getIconicJerseys(): { history: JerseyHistory; jersey: JerseyEntry }[] {
   const result: { history: JerseyHistory; jersey: JerseyEntry }[] = [];
