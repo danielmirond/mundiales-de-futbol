@@ -25,6 +25,10 @@ export function generateStaticParams() {
 export const viewport: Viewport = {
   themeColor: '#05060a',
   colorScheme: 'dark',
+  // Necesario para que `env(safe-area-inset-top)` devuelva un valor > 0
+  // en iPhones con notch/Dynamic Island. Sin esto la cabecera fija queda
+  // tapada por la barra de estado del sistema.
+  viewportFit: 'cover',
 };
 
 export async function generateMetadata({
