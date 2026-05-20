@@ -85,31 +85,74 @@ export async function generateMetadata({
   });
 }
 
-function PlayerRow({ p }: { p: Player2026 }) {
+function PlayerRow({ p, locale }: { p: Player2026; locale: string }) {
+  const nameInitials = p.name
+    .split(/\s+/)
+    .slice(0, 2)
+    .map((s) => s[0]?.toUpperCase() ?? '')
+    .join('');
+
+  // Avatar: foto si la tenemos, fallback a iniciales sobre fondo.
+  const Avatar = (
+    <div className="relative h-12 w-12 shrink-0 overflow-hidden rounded-full border border-[var(--color-border)] bg-[var(--color-bg)]">
+      {p.photoUrl ? (
+        // eslint-disable-next-line @next/next/no-img-element
+        <img
+          src={p.photoUrl}
+          alt={`Foto de ${p.name}`}
+          loading="lazy"
+          className="h-full w-full object-cover"
+        />
+      ) : (
+        <div className="flex h-full w-full items-center justify-center font-mono text-xs text-[var(--color-fg-subtle)]">
+          {nameInitials || '?'}
+        </div>
+      )}
+    </div>
+  );
+
+  const NameBlock = (
+    <div className="min-w-0">
+      <div className="truncate font-medium text-[var(--color-fg)]">
+        {p.name}
+        {p.captain && (
+          <span className="ml-2 rounded bg-[var(--color-pitch)]/10 px-1.5 py-0.5 font-mono text-[9px] uppercase tracking-widest text-[var(--color-pitch)]">
+            C
+          </span>
+        )}
+      </div>
+      <div className="truncate font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--color-fg-subtle)]">
+        {p.club} · {p.clubCountry} · {p.age} años
+        {p.previousWcs > 0 && ` · ${p.previousWcs + 1}.ª Copa`}
+      </div>
+      {p.note && (
+        <div className="mt-1 text-xs text-[var(--color-fg-muted)]">{p.note}</div>
+      )}
+    </div>
+  );
+
+  // Si el jugador tiene `playerSlug`, hacemos toda la fila enlace a su ficha.
+  const inner = p.playerSlug ? (
+    <Link
+      href={withLocale(locale as Locale, `/jugadores/${p.playerSlug}`)}
+      className="contents"
+    >
+      {Avatar}
+      {NameBlock}
+    </Link>
+  ) : (
+    <>
+      {Avatar}
+      {NameBlock}
+    </>
+  );
+
   return (
-    <li className="grid grid-cols-[40px_1fr_auto] items-center gap-4 border-t border-[var(--color-border)] py-3">
+    <li className="grid grid-cols-[36px_52px_1fr_auto] items-center gap-3 border-t border-[var(--color-border)] py-3 first:border-t-0">
       <span className="font-mono tab-num text-[var(--color-fg-subtle)]">
         {p.shirt ?? '—'}
       </span>
-      <div>
-        <div className="font-medium text-[var(--color-fg)]">
-          {p.name}
-          {p.captain && (
-            <span className="ml-2 rounded bg-[var(--color-pitch)]/10 px-1.5 py-0.5 font-mono text-[9px] uppercase tracking-widest text-[var(--color-pitch)]">
-              C
-            </span>
-          )}
-        </div>
-        <div className="font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--color-fg-subtle)]">
-          {p.club} · {p.clubCountry} · {p.age} años
-          {p.previousWcs > 0 && ` · ${p.previousWcs}.ª Copa`}
-        </div>
-        {p.note && (
-          <div className="mt-1 text-xs text-[var(--color-fg-muted)]">
-            {p.note}
-          </div>
-        )}
-      </div>
+      {inner}
       <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-fg-subtle)]">
         {p.position}
       </span>
@@ -291,7 +334,7 @@ export default async function SquadPage({
                   </div>
                   <ul className="mt-4 rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg-2)] px-6">
                     {list.map((p, i) => (
-                      <PlayerRow key={`${p.name}-${i}`} p={p} />
+                      <PlayerRow key={`${p.name}-${i}`} p={p} locale={locale} />
                     ))}
                   </ul>
                 </div>
