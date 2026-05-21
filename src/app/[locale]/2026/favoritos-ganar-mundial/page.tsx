@@ -3,6 +3,7 @@ import { setRequestLocale } from 'next-intl/server';
 import { ArrowLeft, Trophy, TrendingUp, AlertCircle } from 'lucide-react';
 import { TEAMS_2026 } from '@/lib/wc-2026';
 import { routing, type Locale } from '@/i18n/routing';
+import { countryName } from '@/lib/country-names';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl, SEO } from '@/lib/seo';
 
 function withLocale(locale: Locale, href: string) {
@@ -359,7 +360,7 @@ export default async function FavoritosGanarMundial({
                         className="inline-flex items-center gap-2 hover:text-[var(--color-pitch)]"
                       >
                         <span aria-hidden>{team?.flag ?? ''}</span>
-                        <span className="font-medium">{team?.name ?? f.code}</span>
+                        <span className="font-medium">{team?.name ?? countryName(f.code)}</span>
                       </Link>
                     </td>
                     <td className="px-4 py-3 font-mono">

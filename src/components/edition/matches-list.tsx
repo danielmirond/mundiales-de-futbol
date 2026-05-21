@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { MapPin } from 'lucide-react';
 import { getMatchesForTournament, groupByStage, STAGE_LABEL_ES } from '@/lib/data/matches';
 import { routing, type Locale } from '@/i18n/routing';
+import { countryName } from '@/lib/country-names';
 
 function withLocale(locale: Locale, href: string) {
   if (locale === routing.defaultLocale) return href;
@@ -85,7 +86,7 @@ export async function MatchesList({
                             : 'text-[var(--color-fg-muted)]'
                         }`}
                       >
-                        {m.home_team?.name_official ?? m.home_code}
+                        {m.home_team?.name_official ?? countryName(m.home_code)}
                       </span>
                       <span className="text-2xl">{m.home_team?.flag_emoji ?? '🏳️'}</span>
                     </div>
@@ -107,7 +108,7 @@ export async function MatchesList({
                             : 'text-[var(--color-fg-muted)]'
                         }`}
                       >
-                        {m.away_team?.name_official ?? m.away_code}
+                        {m.away_team?.name_official ?? countryName(m.away_code)}
                       </span>
                     </div>
                   </div>
