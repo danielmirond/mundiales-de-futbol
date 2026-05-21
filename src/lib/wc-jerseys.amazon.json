@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdated": "2026-05-20",
+    "lastUpdated": "2026-05-21",
     "tag": "nuus-21"
   },
   "ARG-1986-home": {
@@ -19,6 +19,14 @@
     "title": "adidas Camiseta de fútbol para hombre Argentina 2022",
     "productUrl": "https://www.amazon.es/dp/B0BFC88XRY?tag=nuus-21"
   },
+  "BRA-1958-home": {
+    "key": "BRA-1958-home",
+    "query": "Brasil 1958 camiseta Athleta retro",
+    "asin": "B0CXY7Q5S7",
+    "imageUrl": "https://m.media-amazon.com/images/I/71ecf9g9oTL._AC_UL320_.jpg",
+    "title": "JL Sport Brasil 70 Camiseta de fútbol Verde Deportiva hincha admirador Retro Vintage",
+    "productUrl": "https://www.amazon.es/dp/B0CXY7Q5S7?tag=nuus-21"
+  },
   "BRA-1970-home": {
     "key": "BRA-1970-home",
     "query": "Brasil 1970 camiseta Athleta retro",
@@ -27,13 +35,21 @@
     "title": "JL Sport Brasil 70 Camiseta de fútbol Verde Deportiva hincha admirador Retro Vintage",
     "productUrl": "https://www.amazon.es/dp/B0CXY7Q5S7?tag=nuus-21"
   },
+  "BRA-2002-home": {
+    "key": "BRA-2002-home",
+    "query": "Brasil 2002 camiseta Nike retro",
+    "asin": "B0CXY7QD9M",
+    "imageUrl": "https://m.media-amazon.com/images/I/71ecf9g9oTL._AC_UL320_.jpg",
+    "title": "JL Sport Brasil 70 Camiseta de fútbol Verde Deportiva hincha admirador Retro Vintage",
+    "productUrl": "https://www.amazon.es/dp/B0CXY7QD9M?tag=nuus-21"
+  },
   "BRA-2022-home": {
     "key": "BRA-2022-home",
     "query": "Brasil 2022 camiseta Nike retro",
-    "asin": "B0CXY7YTMJ",
+    "asin": "B0CXY7Q5S7",
     "imageUrl": "https://m.media-amazon.com/images/I/71ecf9g9oTL._AC_UL320_.jpg",
     "title": "JL Sport Brasil 70 Camiseta de fútbol Verde Deportiva hincha admirador Retro Vintage",
-    "productUrl": "https://www.amazon.es/dp/B0CXY7YTMJ?tag=nuus-21"
+    "productUrl": "https://www.amazon.es/dp/B0CXY7Q5S7?tag=nuus-21"
   },
   "ESP-2026-home": {
     "key": "ESP-2026-home",
@@ -43,25 +59,25 @@
     "title": "adidas Camiseta JN4390 Primera Equipación España 2026",
     "productUrl": "https://www.amazon.es/dp/B0FD63P8QM?tag=nuus-21"
   },
+  "GER-1990-home": {
+    "key": "GER-1990-home",
+    "query": "Alemania 1990 camiseta Adidas retro",
+    "asin": "B0CYYGV76C",
+    "imageUrl": "https://m.media-amazon.com/images/I/71BE5e71FlL._AC_UL320_.jpg",
+    "title": "Galaxy Tees Camiseta de fútbol retro para hombre Alemania 1990",
+    "productUrl": "https://www.amazon.es/dp/B0CYYGV76C?tag=nuus-21"
+  },
   "GER-2022-home": {
     "key": "GER-2022-home",
     "query": "Alemania 2022 camiseta Adidas retro",
-    "asin": "B0BC6W3C8Y",
+    "asin": "B0BC6V2NXB",
     "imageUrl": "https://m.media-amazon.com/images/I/512BeVyxEIL._AC_UL320_.jpg",
     "title": "adidas Camiseta de fútbol juvenil Alemania 2022",
-    "productUrl": "https://www.amazon.es/dp/B0BC6W3C8Y?tag=nuus-21"
+    "productUrl": "https://www.amazon.es/dp/B0BC6V2NXB?tag=nuus-21"
   },
   "ITA-2006-home": {
     "key": "ITA-2006-home",
     "query": "Italia 2006 camiseta Puma retro",
-    "asin": "B0FH1V15BN",
-    "imageUrl": "https://m.media-amazon.com/images/I/61uhVwGnBwL._AC_UL320_.jpg",
-    "title": "2025 - Polo para hombre con bandera italiana, camiseta retro de Italia para hombre",
-    "productUrl": "https://www.amazon.es/dp/B0FH1V15BN?tag=nuus-21"
-  },
-  "ITA-2026-home": {
-    "key": "ITA-2026-home",
-    "query": "Italia 2026 camiseta Puma retro",
     "asin": "B08HCLY8B2",
     "imageUrl": "https://m.media-amazon.com/images/I/81U2ZUu8PwL._AC_UL320_.jpg",
     "title": "Retro Italia Fútbol Real Azul Ringer Adultos Camiseta Copa del Mundo Italia Italiano GLI Azzurri Fan - L254e",
@@ -74,14 +90,6 @@
     "imageUrl": "https://m.media-amazon.com/images/I/51WqDSl9gVL._AC_UL320_.jpg",
     "title": "Francia Camiseta de fútbol Zidane - Mundial 1998 - Niños y Adultos - Chico - Ropa de Futbol - Talla 128",
     "productUrl": "https://www.amazon.es/dp/B0FLQKZTHN?tag=nuus-21"
-  },
-  "ENG-1966-home": {
-    "key": "ENG-1966-home",
-    "query": "Inglaterra 1966 camiseta Umbro retro",
-    "asin": "B0CYYG1TSW",
-    "imageUrl": "https://m.media-amazon.com/images/I/71T55IzE-vL._AC_UL320_.jpg",
-    "title": "Galaxy Tees Camiseta de fútbol retro para hombre, Inglaterra 1966, campeones del mundo",
-    "productUrl": "https://www.amazon.es/dp/B0CYYG1TSW?tag=nuus-21"
   },
   "MEX-1998-home": {
     "key": "MEX-1998-home",
