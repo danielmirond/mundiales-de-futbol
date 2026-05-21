@@ -1,0 +1,192 @@
+{
+  "generatedAt": "2026-05-21T10:10:50.308Z",
+  "date": "2026-05-21",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "tarjeta roja fútbol",
+      "geo": "CO",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "“La tarjeta roja fue excesiva”, aseguró Zanetti sobre la expulsión de Beckham en el Mundial de Francia 1998",
+          "url": "https://www.infobae.com/deportes/2026/05/21/la-tarjeta-roja-fue-excesiva-aseguro-zanetti-sobre-la-expulsion-de-beckham-en-el-mundial-de-francia-1998/",
+          "source": "Infobae"
+        },
+        {
+          "title": "La inédita campaña de una reconocida pizzería para el Mundial con Estados Unidos como protagonista",
+          "url": "https://www.tycsports.com/mundial/una-reconocida-pizzeria-de-estados-unidos-hara-una-inedita-campana-para-el-mundial-id731674.html",
+          "source": "TyC Sports"
+        },
+        {
+          "title": "Domino’s regalará pizzas si la selección de Estados Unidos recibe una tarjeta roja en el Mundial 2026",
+          "url": "https://tribuna.com/es/blogs/dominos-regalara-pizzas-si-la-seleccion-de-estados-unidos-re/",
+          "source": "Tribuna.com"
+        }
+      ]
+    },
+    {
+      "query": "shakira",
+      "geo": "CL",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Shakira sumó a fenómeno viral de Uganda a su presentación en la final del Mundial",
+          "url": "https://www.cooperativa.cl/noticias/deportes/futbol/internacional/shakira-sumo-a-fenomeno-viral-de-uganda-a-su-presentacion-en-la-final/2026-05-19/143610.html",
+          "source": "Cooperativa.cl"
+        },
+        {
+          "title": "Madonna, Shakira y BTS encabezarán espectáculo de medio tiempo de la final del Mundial 2026",
+          "url": "https://www.billboard.com/espanol/noticias/madonna-shakira-bts-medio-tiempo-final-copa-mundial-fifa-2026-1236247965/",
+          "source": "Billboard"
+        },
+        {
+          "title": "Anuncio de BTS en el Mundial dispara las acciones de Hybe, la mayor agencia de K-pop de Corea del Sur",
+          "url": "https://www.latercera.com/pulso/noticia/anuncio-de-bts-en-el-mundial-dispara-las-acciones-de-hybe-la-mayor-agencia-de-k-pop-de-corea-del-sur/",
+          "source": "La Tercera"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "es": [
+      {
+        "query": "tarjeta roja fútbol",
+        "score": 100,
+        "geos": [
+          "CO"
+        ],
+        "samples": [
+          {
+            "query": "tarjeta roja fútbol",
+            "geo": "CO",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "“La tarjeta roja fue excesiva”, aseguró Zanetti sobre la expulsión de Beckham en el Mundial de Francia 1998",
+                "url": "https://www.infobae.com/deportes/2026/05/21/la-tarjeta-roja-fue-excesiva-aseguro-zanetti-sobre-la-expulsion-de-beckham-en-el-mundial-de-francia-1998/",
+                "source": "Infobae"
+              },
+              {
+                "title": "La inédita campaña de una reconocida pizzería para el Mundial con Estados Unidos como protagonista",
+                "url": "https://www.tycsports.com/mundial/una-reconocida-pizzeria-de-estados-unidos-hara-una-inedita-campana-para-el-mundial-id731674.html",
+                "source": "TyC Sports"
+              },
+              {
+                "title": "Domino’s regalará pizzas si la selección de Estados Unidos recibe una tarjeta roja en el Mundial 2026",
+                "url": "https://tribuna.com/es/blogs/dominos-regalara-pizzas-si-la-seleccion-de-estados-unidos-re/",
+                "source": "Tribuna.com"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "shakira",
+        "score": 90,
+        "geos": [
+          "CL"
+        ],
+        "samples": [
+          {
+            "query": "shakira",
+            "geo": "CL",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Shakira sumó a fenómeno viral de Uganda a su presentación en la final del Mundial",
+                "url": "https://www.cooperativa.cl/noticias/deportes/futbol/internacional/shakira-sumo-a-fenomeno-viral-de-uganda-a-su-presentacion-en-la-final/2026-05-19/143610.html",
+                "source": "Cooperativa.cl"
+              },
+              {
+                "title": "Madonna, Shakira y BTS encabezarán espectáculo de medio tiempo de la final del Mundial 2026",
+                "url": "https://www.billboard.com/espanol/noticias/madonna-shakira-bts-medio-tiempo-final-copa-mundial-fifa-2026-1236247965/",
+                "source": "Billboard"
+              },
+              {
+                "title": "Anuncio de BTS en el Mundial dispara las acciones de Hybe, la mayor agencia de K-pop de Corea del Sur",
+                "url": "https://www.latercera.com/pulso/noticia/anuncio-de-bts-en-el-mundial-dispara-las-acciones-de-hybe-la-mayor-agencia-de-k-pop-de-corea-del-sur/",
+                "source": "La Tercera"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "topic": "tarjeta roja fútbol",
+      "type": "noticia",
+      "slugSuggestion": "tarjeta-roja-futbol",
+      "language": "es",
+      "geos": [
+        "CO"
+      ],
+      "score": 120,
+      "reason": "Google Trends daily CO con 100 búsquedas · 3 artículos noticiosos referenciando \"tarjeta roja fútbol\"",
+      "proposedPath": "/noticias/tarjeta-roja-futbol",
+      "evidence": [
+        {
+          "query": "tarjeta roja fútbol",
+          "geo": "CO",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 100,
+          "articles": [
+            {
+              "title": "“La tarjeta roja fue excesiva”, aseguró Zanetti sobre la expulsión de Beckham en el Mundial de Francia 1998",
+              "url": "https://www.infobae.com/deportes/2026/05/21/la-tarjeta-roja-fue-excesiva-aseguro-zanetti-sobre-la-expulsion-de-beckham-en-el-mundial-de-francia-1998/",
+              "source": "Infobae"
+            },
+            {
+              "title": "La inédita campaña de una reconocida pizzería para el Mundial con Estados Unidos como protagonista",
+              "url": "https://www.tycsports.com/mundial/una-reconocida-pizzeria-de-estados-unidos-hara-una-inedita-campana-para-el-mundial-id731674.html",
+              "source": "TyC Sports"
+            },
+            {
+              "title": "Domino’s regalará pizzas si la selección de Estados Unidos recibe una tarjeta roja en el Mundial 2026",
+              "url": "https://tribuna.com/es/blogs/dominos-regalara-pizzas-si-la-seleccion-de-estados-unidos-re/",
+              "source": "Tribuna.com"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alreadyCovered": [
+    {
+      "query": "shakira",
+      "matchUrl": "/noticias/halftime-show-final-mundial-2026-shakira-bts-madonna-chris-martin-metlife-19-julio"
+    }
+  ]
+}
