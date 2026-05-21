@@ -5,6 +5,7 @@ import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl } from '@/lib/seo';
 import { getAllFriendlies, type PreFriendly } from '@/lib/wc-2026-pre-friendlies';
 import { TEAMS_2026 } from '@/lib/wc-2026';
+import { countryName } from '@/lib/country-names';
 
 function withLocale(locale: Locale, href: string) {
   if (locale === routing.defaultLocale) return href;
@@ -84,7 +85,7 @@ function FriendlyCard({
           className="flex items-baseline gap-2 font-display text-lg uppercase hover:text-[var(--color-pitch)]"
         >
           <span>{home?.flag ?? ''}</span>
-          <span>{home?.name ?? f.homeCode}</span>
+          <span>{home?.name ?? countryName(f.homeCode)}</span>
         </Link>
         <span className="font-mono text-xs text-[var(--color-fg-subtle)]">vs</span>
         <Link
@@ -92,7 +93,7 @@ function FriendlyCard({
           className="flex items-baseline gap-2 font-display text-lg uppercase hover:text-[var(--color-pitch)]"
         >
           <span>{away?.flag ?? ''}</span>
-          <span>{away?.name ?? f.awayCode}</span>
+          <span>{away?.name ?? countryName(f.awayCode)}</span>
         </Link>
       </div>
       {(f.venue || f.city) && (
@@ -135,7 +136,7 @@ export default async function AmistososPage({
         position: i + 1,
         item: {
           '@type': 'SportsEvent',
-          name: `${home?.name ?? f.homeCode} vs ${away?.name ?? f.awayCode}`,
+          name: `${home?.name ?? countryName(f.homeCode)} vs ${away?.name ?? countryName(f.awayCode)}`,
           startDate: f.date,
           sport: 'Football (Association)',
           eventStatus:
@@ -150,8 +151,8 @@ export default async function AmistososPage({
               }
             : undefined,
           competitor: [
-            { '@type': 'SportsTeam', name: home?.name ?? f.homeCode },
-            { '@type': 'SportsTeam', name: away?.name ?? f.awayCode },
+            { '@type': 'SportsTeam', name: home?.name ?? countryName(f.homeCode) },
+            { '@type': 'SportsTeam', name: away?.name ?? countryName(f.awayCode) },
           ],
         },
       };

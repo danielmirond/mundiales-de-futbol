@@ -363,7 +363,7 @@ export default async function SquadPage({
                 const isHome = f.homeCode === code;
                 const opponentCode = isHome ? f.awayCode : f.homeCode;
                 const opponent = TEAMS_2026[opponentCode as keyof typeof TEAMS_2026];
-                const opponentName = opponent?.name ?? opponentCode;
+                const opponentName = opponent?.name ?? countryName(opponentCode);
                 const opponentFlag = opponent?.flag ?? '';
                 const date = new Date(f.date);
                 const dateLabel = date.toLocaleDateString('es-ES', {

@@ -11,6 +11,7 @@ import {
 } from '@/lib/wc-2026';
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd, pageMetadata, breadcrumbLd } from '@/lib/seo';
+import { countryName } from '@/lib/country-names';
 
 function withLocale(locale: Locale, href: string) {
   if (locale === routing.defaultLocale) return href;
@@ -305,7 +306,7 @@ export default async function GroupPage({
                     <span>{f.home} <span className="text-[var(--color-fg-subtle)]">- TBD</span></span>
                   ) : (
                     <span className="text-[var(--color-fg-subtle)] italic">
-                      2 de {codes.join(' · ')}
+                      2 de {codes.map((c) => countryName(c)).join(' · ')}
                     </span>
                   )}
                 </div>
