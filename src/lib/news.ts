@@ -215,6 +215,12 @@ Después, viaje a Estados Unidos el **12 de junio**. Portugal **debuta el 17 de 
         url: 'https://sports.yahoo.com/articles/inside-portugals-world-cup-roster-060002252.html',
       },
     ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Cristiano_Ronaldo_2223.jpg/1280px-Cristiano_Ronaldo_2223.jpg',
+      alt: 'Cristiano Ronaldo con Portugal en clasificación al Mundial 2026 (Armenia-Portugal, 6 sep 2025)',
+      credit: 'YantsImages · Asatur Yesayants',
+      license: 'CC BY-SA 4.0 · Wikimedia Commons',
+    },
   },
   {
     slug: 'convocatoria-brasil-mundial-2026-ancelotti-26-neymar-cuarto-mundial-rodrygo-fuera',
