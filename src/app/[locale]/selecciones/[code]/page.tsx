@@ -339,27 +339,36 @@ export default async function SelectionDetailPage({
                 : youtubeSearchUrl(g.youtubeQuery);
               const thumbnail = g.youtubeId ? youtubeThumbnailUrl(g.youtubeId) : null;
               return (
-                <Link
+                // Estructura corregida: el outer NO es <Link> (Next 16 + HTML
+                // standard prohíben anidar <a> dentro de <a>). El Link al hub
+                // de goles famosos envuelve solo título+thumbnail; el link
+                // externo a YouTube es hermano, no hijo.
+                <article
                   key={g.slug}
-                  href={withLocale(locale as Locale, `/goles-famosos#${g.slug}`)}
                   className="group rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg-2)] p-5 transition-colors hover:border-[var(--color-pitch)]/60"
                 >
-                  <div className="font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--color-fg-subtle)]">
-                    Mundial {g.year} · {g.stage.toUpperCase()} · {isAuthor ? 'autor' : 'víctima'}
-                  </div>
-                  <h3 className="mt-2 font-display text-base uppercase leading-tight group-hover:text-[var(--color-pitch)]">
-                    {g.title}
-                  </h3>
-                  {thumbnail && (
-                    <div className="mt-3 overflow-hidden rounded-lg">
-                      <img
-                        src={thumbnail}
-                        alt={`Vídeo del gol: ${g.title}`}
-                        loading="lazy"
-                        className="aspect-video w-full object-cover"
-                      />
+                  <Link
+                    href={withLocale(locale as Locale, `/goles-famosos#${g.slug}`)}
+                    className="block"
+                  >
+                    <div className="font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--color-fg-subtle)]">
+                      Mundial {g.year} · {g.stage.toUpperCase()} · {isAuthor ? 'autor' : 'víctima'}
                     </div>
-                  )}
+                    <h3 className="mt-2 font-display text-base uppercase leading-tight group-hover:text-[var(--color-pitch)]">
+                      {g.title}
+                    </h3>
+                    {thumbnail && (
+                      <div className="mt-3 overflow-hidden rounded-lg">
+                        {/* eslint-disable-next-line @next/next/no-img-element */}
+                        <img
+                          src={thumbnail}
+                          alt={`Vídeo del gol: ${g.title}`}
+                          loading="lazy"
+                          className="aspect-video w-full object-cover"
+                        />
+                      </div>
+                    )}
+                  </Link>
                   <p className="mt-3 text-sm text-[var(--color-fg-muted)] line-clamp-3">
                     {g.description}
                   </p>
@@ -367,12 +376,11 @@ export default async function SelectionDetailPage({
                     href={watchUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    onClick={(e) => e.stopPropagation()}
                     className="mt-3 inline-flex items-center gap-1.5 font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--color-pitch)] hover:underline"
                   >
                     <Play className="h-3 w-3 fill-current" /> Ver en YouTube
                   </a>
-                </Link>
+                </article>
               );
             })}
           </div>

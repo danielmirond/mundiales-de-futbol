@@ -107,6 +107,12 @@ export const NEWS_ITEMS: NewsItem[] = [
         url: 'https://foot-africa.com/en/news/world-cup-2026-switzerland-announces-its-squad-list-1212590/',
       },
     ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Vista_a%C3%A9rea_del_Estadio_Azteca_-_2026_-_02.jpg/1280px-Vista_a%C3%A9rea_del_Estadio_Azteca_-_2026_-_02.jpg',
+      alt: 'Vista aérea del Estadio Azteca remodelado para el Mundial 2026',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
   },
   {
     slug: 'egipto-prelista-mundial-2026-mohamed-salah-segundo-mundial-hossam-hassan',
@@ -136,6 +142,12 @@ export const NEWS_ITEMS: NewsItem[] = [
         url: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/teams/egypt/team-news',
       },
     ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/4/4a/Mohamed_Salah_2018.jpg',
+      alt: 'Mohamed Salah, capitán de Egipto y delantero del Liverpool',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 3.0',
+    },
   },
   {
     slug: 'convocatoria-portugal-mundial-2026-roberto-martinez-cristiano-ronaldo-sexto-mundial-41-anos',
