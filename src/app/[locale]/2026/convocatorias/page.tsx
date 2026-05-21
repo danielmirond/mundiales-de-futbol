@@ -350,13 +350,8 @@ export default async function Convocatorias2026({
                 {f.flag}
               </span>
               <div className="flex-1">
-                <div className="flex items-baseline justify-between gap-3">
-                  <span className="font-display text-xl uppercase leading-none text-[var(--color-fg)]">
-                    {f.name}
-                  </span>
-                  <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-fg-subtle)]">
-                    {f.code}
-                  </span>
+                <div className="font-display text-xl uppercase leading-none text-[var(--color-fg)]">
+                  {f.name}
                 </div>
                 <p className="mt-2 text-sm text-[var(--color-fg-muted)]">
                   {f.expected}

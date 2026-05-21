@@ -170,7 +170,7 @@ export default async function GroupPage({
                 <div className="flex items-center justify-between">
                   <span className="text-4xl">{t.flag_emoji ?? '🏳️'}</span>
                   <span className="font-mono text-[10px] uppercase tracking-widest text-[var(--color-fg-subtle)]">
-                    {t.code}
+                    {t.confederation ?? ''}
                   </span>
                 </div>
                 <div className="mt-3 font-display text-2xl uppercase leading-none text-[var(--color-fg)] group-hover:text-[var(--color-pitch)]">
