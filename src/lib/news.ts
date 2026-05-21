@@ -73,6 +73,71 @@ export type NewsItem = {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'semana-cierre-convocatorias-mundial-2026-alemania-inglaterra-espana-paises-bajos-marruecos-noruega-deadline-1-junio',
+    title:
+      'Recta final de las convocatorias del Mundial 2026: Alemania, Marruecos y Noruega anuncian mañana; Inglaterra el viernes; España y Países Bajos cierran el 25 de mayo',
+    summary:
+      'Quedan once días para el cierre FIFA del 1 de junio y la mayoría de las grandes selecciones todavía no han revelado los 26 elegidos. Alemania de Julian Nagelsmann, Marruecos de Walid Regragui y Noruega de Ståle Solbakken cierran este jueves 21 de mayo. Inglaterra de Thomas Tuchel publica su lista el viernes 22. España (Luis de la Fuente) y Países Bajos (Ronald Koeman) esperan al lunes 25 de mayo. Egipto abrió hoy su prelista provisional de 27 jugadores con Mohamed Salah.',
+    body: `Hoy **miércoles 20 de mayo** marca el inicio de la **semana clave de cierres de convocatoria** del Mundial 2026. Faltan **once días** para la fecha límite que la FIFA fijó el **1 de junio** para que las 48 selecciones entreguen su lista definitiva de 26 jugadores. Hasta hoy, 19 selecciones tienen lista cerrada y 10 trabajan con prelista provisional —el resto, 19, todavía no ha pronunciado palabra oficial.
+
+**Mañana, jueves 21 de mayo**, tres pesos pesados rompen el silencio. **Alemania** —dirigida por **Julian Nagelsmann**, que llevó al equipo a las semifinales de la Eurocopa 2024 en casa— anuncia su lista en el centro de entrenamiento de Herzogenaurach. Su agenda incluye amistosos contra Suecia (3 de junio) y Croacia (7 de junio) antes del debut mundialista. **Marruecos**, semifinalista en Catar 2022, hace lo propio bajo **Walid Regragui** desde Salé. **Noruega**, en su primer Mundial desde 1998 con la generación de Erling Haaland, presenta a los 26 elegidos de **Ståle Solbakken** en Oslo.
+
+**El viernes 22 de mayo, Inglaterra**. **Thomas Tuchel**, contratado en otoño de 2024 tras la salida de Gareth Southgate, dará por fin su primera convocatoria mundialista al frente de los Tres Leones. El alemán enfrentará la decisión más complicada de su mandato: si llevar a Harry Kane (33 años, capitán y máximo goleador histórico) o apostar por la nueva generación liderada por Jude Bellingham, Cole Palmer y Bukayo Saka.
+
+**El lunes 25 de mayo cierran España y Países Bajos**, las dos selecciones europeas con calendario más tardío. **Luis de la Fuente** (campeón de la Eurocopa 2024) anunciará su lista en la Ciudad del Fútbol de Las Rozas tras los amistosos pre-Mundial de la última semana de mayo. **Ronald Koeman** y la *Oranje* hacen lo mismo en Zeist el mismo día.
+
+**Egipto abrió la jornada con prelista provisional** de **27 jugadores**, encabezada por **Mohamed Salah** (Liverpool), que viaja a su segundo Mundial a los 33 años tras la frustrante eliminación en cuartos de la AFCON 2026. Hossam Hassan, seleccionador, recortará a 26 antes del **29 de mayo**, fecha de la lista definitiva egipcia. Es la primera prelista africana publicada esta semana —Marruecos lo hará mañana en formato definitivo.
+
+**Lo que queda sin anunciar**: España, Inglaterra, Alemania, Marruecos, Países Bajos, Noruega, EE.UU., Canadá, Uruguay, Senegal, Ecuador, Argelia, Ghana, Panamá, Arabia Saudí, Sudáfrica, Australia, Irak, Paraguay.
+
+**Calendario completo de listas** en [/2026/listas](/2026/listas) y plazos FIFA en [/2026/convocatorias](/2026/convocatorias).`,
+    category: 'convocatorias',
+    sourceName: 'Sky Sports',
+    sourceUrl:
+      'https://www.skysports.com/football/news/11095/13543070/world-cup-2026-squad-lists-england-scotland-brazil-usa-spain-france-germany-netherlands-argentina-portugal-and-more',
+    sourceLang: 'en',
+    publishedAt: '2026-05-20T09:00:00Z',
+    sourcesSecondary: [
+      {
+        name: 'ESPN',
+        url: 'https://www.espn.com/soccer/story/_/id/48757621/2026-world-cup-squad-lists-players-announced-all-48-teams',
+      },
+      {
+        name: 'Foot Africa · Switzerland squad',
+        url: 'https://foot-africa.com/en/news/world-cup-2026-switzerland-announces-its-squad-list-1212590/',
+      },
+    ],
+  },
+  {
+    slug: 'egipto-prelista-mundial-2026-mohamed-salah-segundo-mundial-hossam-hassan',
+    title:
+      'Egipto inaugura la semana africana de listas: Hossam Hassan llama a 27 jugadores con Mohamed Salah como referencia para el Mundial 2026',
+    summary:
+      'La Federación Egipcia de Fútbol publicó este miércoles 20 de mayo la lista provisional de 27 jugadores convocados por Hossam Hassan para el Mundial 2026. Mohamed Salah, capitán y máximo goleador histórico de los Faraones, llega a su segundo Mundial a los 33 años. La definitiva se conocerá el 29 de mayo. Egipto debuta el 14 de junio en Boston contra Argelia en el Grupo F.',
+    body: `La **Federación Egipcia de Fútbol (EFA)** anunció este miércoles **20 de mayo** la **lista provisional de 27 jugadores** convocados por el seleccionador **Hossam Hassan** para el Mundial 2026. La noticia, esperada en El Cairo desde hace semanas, abre la fase final de cierres de convocatoria de las selecciones africanas que jugarán en Estados Unidos, Canadá y México.
+
+**Mohamed Salah, capitán y referencia**. El delantero del Liverpool, **33 años**, máximo goleador histórico de Egipto con **57 goles** en 99 partidos internacionales, viaja a su **segundo Mundial**. La primera vez fue en Rusia 2018, donde Egipto cayó eliminado en fase de grupos tras perder contra Uruguay y la anfitriona Rusia, en parte por la lesión de hombro que el propio Salah arrastraba desde la final de Champions con el Liverpool. Esta vez llega en plenitud y con un equipo más maduro: campeón de la AFCON 2026 ante Marruecos en febrero, semifinalista en 2023.
+
+**El núcleo del equipo más allá de Salah**. **Trezeguet** (Trabzonspor), **Mostafa Mohamed** (Nantes) e **Ibrahim Adel** (Pyramids) acompañan al egipcio del Liverpool por delante. En el medio, el regreso de **Mohamed Elneny** (Al-Jazira), recuperado de la lesión de larga duración, y la consolidación del joven **Emam Ashour** (Al-Ahly) como conductor. La defensa la lidera **Mahmoud Hamdy** "El Wensh" (Zamalek) junto a **Omar Kamal** (Pyramids). En el arco, **Mohamed El Shenawy** (Al-Ahly) repite titularidad.
+
+**La fecha clave: 29 de mayo**. Hossam Hassan reducirá la prelista de 27 a los 26 elegidos definitivos el viernes 29 de mayo, una semana antes de viajar a Norteamérica. Antes, Egipto disputará dos amistosos pre-Mundial: ante Cabo Verde en El Cairo (24 de mayo) y ante Túnez en Rades (29 de mayo).
+
+**Grupo F · Argelia, Egipto, Estados Unidos y Australia**. La selección faraónica debutará el **14 de junio en el Gillette Stadium de Foxborough (Boston)** contra Argelia, en el partido más comentado del grupo: dos potencias norteafricanas con rivalidad histórica. Después, Egipto se medirá a EE.UU. en Filadelfia (19 de junio) y cerrará contra Australia en Atlanta (23 de junio).
+
+**Más sobre la AFCON 2026 y el camino de Egipto** en [/selecciones/EGY](/selecciones/EGY) y los amistosos previos en [/2026/listas/EGY](/2026/listas/EGY).`,
+    category: 'convocatorias',
+    sourceName: 'Daily Sports',
+    sourceUrl: 'https://dailysports.net/news/egypts-squad-for-the-2026-world-cup/',
+    sourceLang: 'en',
+    publishedAt: '2026-05-20T11:30:00Z',
+    sourcesSecondary: [
+      {
+        name: 'FIFA · Egypt team news',
+        url: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/teams/egypt/team-news',
+      },
+    ],
+  },
+  {
     slug: 'convocatoria-portugal-mundial-2026-roberto-martinez-cristiano-ronaldo-sexto-mundial-41-anos',
     title:
       'Cristiano Ronaldo a su sexto Mundial: Roberto Martínez confirma a CR7 capitán de Portugal a sus 41 años en la lista de 26 para el Mundial 2026',
