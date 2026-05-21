@@ -6,7 +6,8 @@ import { Countdown } from '@/components/home/countdown';
 import { getTournament } from '@/lib/tournaments';
 import { getAllVenues } from '@/lib/data/venues';
 import { routing, type Locale } from '@/i18n/routing';
-import { VENUES_2026, HOSTS, GROUPS_2026, PHASE_DATES, WC_2026 } from '@/lib/wc-2026';
+import { VENUES_2026, HOSTS, GROUPS_2026, PHASE_DATES, WC_2026, TEAMS_2026 } from '@/lib/wc-2026';
+import { countryName } from '@/lib/country-names';
 import { WC2026Calendar } from '@/components/edition/wc2026-calendar';
 import { WC2026Bracket } from '@/components/edition/wc2026-bracket';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl } from '@/lib/seo';
@@ -323,18 +324,32 @@ export default async function NorthAmerica2026Page({
                 </span>
               </div>
               <ul className="mt-2 space-y-1.5 text-sm">
-                {g.teams.map((code, i) => (
-                  <li key={i} className="flex items-center gap-2">
-                    <span className="w-5 font-mono text-[10px] tab-num text-[var(--color-fg-subtle)]">
-                      {i + 1}.
-                    </span>
-                    {code ? (
-                      <span className="text-[var(--color-fg)]">{code}</span>
-                    ) : (
-                      <span className="text-[var(--color-fg-subtle)] italic">por decidir</span>
-                    )}
-                  </li>
-                ))}
+                {g.teams.map((code, i) => {
+                  const team = code ? TEAMS_2026[code] : null;
+                  return (
+                    <li key={i} className="flex items-center gap-2">
+                      <span className="w-5 font-mono text-[10px] tab-num text-[var(--color-fg-subtle)]">
+                        {i + 1}.
+                      </span>
+                      {code ? (
+                        <>
+                          {team?.flag && (
+                            <span aria-hidden className="text-base leading-none">
+                              {team.flag}
+                            </span>
+                          )}
+                          <span className="text-[var(--color-fg)]">
+                            {countryName(code)}
+                          </span>
+                        </>
+                      ) : (
+                        <span className="text-[var(--color-fg-subtle)] italic">
+                          por decidir
+                        </span>
+                      )}
+                    </li>
+                  );
+                })}
               </ul>
             </Link>
           ))}
