@@ -73,6 +73,68 @@ export type NewsItem = {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'lista-espana-mundial-2026-horario-canal-tv-donde-ver-luis-de-la-fuente-25-mayo-movistar-dazn',
+    title:
+      'Lista de España para el Mundial 2026: horario, canal y dónde ver en TV la convocatoria de Luis de la Fuente del lunes 25 de mayo',
+    summary:
+      'Luis de la Fuente desvelará la lista definitiva de 26 jugadores de la selección española para el Mundial 2026 este lunes 25 de mayo a las 12:30 del mediodía desde el Espacio Movistar de Gran Vía 28 en Madrid. El acto se emitirá en directo por DAZN, los canales de la RFEF y las redes sociales oficiales. Será la culminación de dos semanas de filtraciones, debate sobre la prelista y la duda sobre nombres como Ansu Fati, Pino o Pedri.',
+    body: `Falta menos de un día para que **Luis de la Fuente** desvele los **26 elegidos** que representarán a España en el **Mundial 2026**. Tras semanas de filtraciones, debate sobre la prelista de 35 jugadores entregada a FIFA el 11 de mayo y dudas sobre nombres clave (Ansu Fati, Pino, Pedri, Joselu), el seleccionador riojano cerrará por fin el ciclo este **lunes 25 de mayo**. Te contamos cuándo, dónde y cómo seguirlo en directo.
+
+## Fecha y hora exactas
+
+El **lunes 25 de mayo de 2026** a las **12:30 horas (hora peninsular española)**. La RFEF confirmó la fecha oficialmente el pasado 8 de mayo en una nota a medios. La hora elegida (mediodía) coincide con el horario habitual de las grandes convocatorias mundialistas españolas y maximiza la audiencia en programas deportivos del prime time televisivo.
+
+## Dónde se anuncia: el Espacio Movistar de Gran Vía
+
+El escenario será el **Espacio Movistar** dentro del histórico **Edificio Telefónica** de **Gran Vía 28, Madrid**. Es la primera vez que la RFEF utiliza este enclave para una convocatoria mundialista; en Catar 2022 el anuncio se hizo desde la Ciudad del Fútbol de Las Rozas. El cambio responde al patrocinio renovado con Movistar como **partner audiovisual oficial** de la selección desde enero de 2026.
+
+## Canal y dónde ver el anuncio en TV y streaming
+
+El acto se emitirá en directo a través de:
+
+- **DAZN España** (gratuito durante la emisión, sin suscripción): cobertura principal con previa desde las 12:00.
+- **Movistar Plus+ Deportes** (dial 53 / canal de pago): transmisión completa.
+- **Canal oficial de la RFEF** en YouTube y X (@SeFutbol): emisión sin coste con cobertura multicámara.
+- **Redes sociales oficiales** (Instagram @sefutbol, TikTok @selefutbol): clips destacados en directo.
+
+En el extranjero (Latinoamérica, EE.UU.), **DAZN** mantiene los derechos de emisión global; **TUDN** y **GolTV** retransmiten en mercado norteamericano.
+
+## Qué esperar de la lista
+
+De la Fuente parte de la **prelista de 55 jugadores entregada a FIFA el 11 de mayo** y debe recortar hasta 26 nombres (tres porteros obligatorios). Las decisiones más comentadas:
+
+- **¿Entra Ansu Fati?** El delantero del Mónaco ha sumado 12 goles en Ligue 1 y aparece en la prelista. Tres años después de su última convocatoria, regresar a la absoluta sería su primer Mundial.
+- **¿Vuelve Pedri tras la lesión?** El barcelonista ha completado solo cinco partidos en 2026 tras su lesión muscular de enero. De la Fuente lo defendió en la prelista pero el riesgo médico está en debate.
+- **El nueve referencia**: Morata (capitán, Galatasaray) tiene plaza asegurada. La duda es si entra Joselu como relevo o Borja Mayoral, en gran momento con el Getafe.
+- **El portero titular**: David Raya (Arsenal) o Unai Simón (Athletic Club). La temporada del primero ha sido superior.
+
+España debuta el **15 de junio en el Soldier Field de Chicago** contra **Cabo Verde**, dentro del Grupo H que completan Arabia Saudí y Uruguay. El calendario completo y la previa están en [/selecciones/ESP/grupo-h](/selecciones/ESP/grupo-h) y la **lista oficial se publicará en directo** en [/2026/listas/ESP](/2026/listas/ESP) en cuanto De la Fuente la confirme.`,
+    category: 'tv',
+    sourceName: 'Eurosport',
+    sourceUrl:
+      'https://www.eurosport.es/futbol/mundial/2026/cuando-anuncia-luis-de-la-fuente-lista-mundial-espana-convocados-seleccion-fecha-hora_sto23298648/story.shtml',
+    sourceLang: 'es',
+    publishedAt: '2026-05-22T13:30:00Z',
+    sourcesSecondary: [
+      {
+        name: 'RFEF · convocatoria 25 may',
+        url: 'https://rfef.es/en/noticias/Luis-de-la-Fuente-to-Announce-Spains-World-Cup-Squad-on-Monday-25-May',
+      },
+      {
+        name: 'DAZN · convocatoria España',
+        url: 'https://www.dazn.com/es-MX/news/f%C3%BAtbol/convocatoria-espana-mundial-2026-lista-capitanes-dorsales-cuerpo-tecnico-luis-de-la-fuente/5cdaee3cywhq18pqvgw3l4ep0',
+      },
+      {
+        name: 'Infobae · prelista 55',
+        url: 'https://www.infobae.com/espana/deportes/2026/05/11/luis-de-la-fuente-y-la-prelista-de-55-jugadores-que-tiene-que-entregar-a-la-fifa-de-ahi-saldran-los-26-convocados-de-la-seleccion-espanola-para-el-mundial-2026/',
+      },
+      {
+        name: 'El Español · diseña la lista',
+        url: 'https://www.elespanol.com/deportes/futbol/mundial/20260520/futbolistas-deben-convocados-espana-mundial-disena-lista-luis-fuente/1003744248264_32.html',
+      },
+    ],
+  },
+  {
     slug: 'neymar-mundial-2026-brasil-convocatoria-ancelotti-lesion-pantorrilla-recuperacion',
     title:
       '"Neymar va a jugar el Mundial 2026": Ancelotti lo mantiene en la lista pese a la lesión en la pantorrilla derecha',
