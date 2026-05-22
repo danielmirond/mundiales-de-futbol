@@ -73,6 +73,68 @@ export type NewsItem = {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'entradas-mundial-2026-precios-caen-24-por-ciento-reventa-paraguay-australia-140-dolares-cheaper',
+    title:
+      'Las entradas del Mundial 2026 se desploman un 24% en treinta días: Paraguay-Australia desde $140 y la entrada media de grupos cae de $720 a $560',
+    summary:
+      'Los precios de reventa del Mundial 2026 acumulan una caída del 24% en el último mes y un 8% solo en la última semana, según TicketData.com. La entrada de "get-in" media de fase de grupos ha bajado de $720 a $560. El partido más barato hoy es Paraguay-Australia ($140). Hasta el debut de EE.UU. en Los Ángeles (12 de junio) sigue sin vender, con reventa por debajo de $1.000. Causas: FIFA libera más stock, demanda más débil de lo esperado, encarecimiento de vuelos por la guerra de Irán y presión inflacionista.',
+    body: `Si llevas meses postergando la decisión de comprar entrada al Mundial 2026, la espera te ha salido rentable: los precios **están en caída libre**. Según el agregador de datos **TicketData.com**, los precios de reventa de **más del 90% de los partidos** han caído un **24% en los últimos 30 días** y un **8% solo en la última semana**. Es el primer derrumbe medible del torneo, y se debe a tres factores combinados.
+
+**Causa 1: FIFA libera más stock**. Cada lunes y jueves desde principios de mayo, FIFA descarga nuevas bolsas de inventario en *fifa.com/tickets* dentro de la **Phase 4 (Last-Minute Sales)** activa desde el 1 de abril. Esta liberación obliga a los revendedores (StubHub, SeatGeek, Viagogo) a **bajar sus precios** para seguir compitiendo. Aficionados que en marzo pagaron $1.500 por un asiento ahora ven que el mismo asiento en la oficial baja a $900.
+
+**Causa 2: demanda más débil de lo esperado**. FIFA contaba con vender el 98% del aforo total. Hoy, según fuentes del propio organismo, la cifra está en torno al **88-90%**. **Diecisiete de los 104 partidos** están agotados (la final, la inauguración, todos los choques de USA-Brasil-Argentina en sede norteamericana), pero el resto conserva disponibilidad y el ritmo de venta se ha ralentizado.
+
+**Causa 3: el coste del desplazamiento se ha disparado**. El conflicto en Irán ha disparado los precios del petróleo y, en consecuencia, los **billetes transatlánticos** llevan tres semanas con incrementos del 30-40% sobre tarifas de abril. Vuelos Madrid-Nueva York que en marzo costaban $700 hoy están en $980. Hoteles en host cities (NYC, Boston, Los Ángeles) han subido también, con habitaciones triple-room a partir de $1.200/noche en zonas próximas a estadio.
+
+**Cómo aprovechar la caída ahora mismo**:
+
+- **Entrada media de grupos**: el ticket de *get-in* (la más barata visible) ha bajado de **$720 a $560** en 30 días. Si esperas otra semana podría caer otros $50-80.
+- **El partido más barato del torneo**: **Paraguay-Australia** en el AT&T Stadium de Dallas, **$140** la entrada categoría 4. Es el partido menos demandado de toda la fase de grupos.
+- **EE.UU. en Los Ángeles (12 de junio)**: *no se ha vendido* y la reventa más barata está **por debajo de $1.000** —cifra impensable hace tres semanas.
+- **Sedes mexicanas son las más asequibles**: Estadio Akron (Guadalajara), BBVA (Monterrey) y Azteca (CDMX) cotizan entre $200 y $450 en fase de grupos. Cobertura completa por sede en [/2026/sedes](/2026/sedes).
+- **Supporter Tier de $60**: sigue disponible. Cada partido tiene una bolsa fija de unas 1.000-2.000 entradas a este precio. **Refresca fifa.com/tickets a medianoche hora del Este** (cuando suele caer nuevo stock).
+
+**Qué NO va a bajar**: la final del 19 de julio en MetLife (Front Category 1 sigue en **$10.990**), las semifinales y los partidos con Argentina o Brasil como cabecera. Esos siguen en máximo histórico y el resale autorizado por FIFA llegó a $2,3 millones por un asiento de la final hace dos semanas.
+
+**Una advertencia**: la **reventa fuera de FIFA** (StubHub, SeatGeek, Viagogo) ofrece entradas válidas pero **no garantizadas por FIFA** —si cambia la sede o fecha del partido, no hay reembolso. Las entradas oficiales **fifa.com/tickets** siguen siendo el camino más seguro aunque a veces más caro.
+
+Más detalle del sistema de venta en [/2026/entradas](/2026/entradas) y precios actualizados por sede en [/2026/sedes](/2026/sedes).`,
+    category: 'entradas',
+    sourceName: 'NBC News',
+    sourceUrl:
+      'https://www.nbcnews.com/business/consumer/world-cup-ticket-prices-resale-market-hotels-rcna344996',
+    sourceLang: 'en',
+    publishedAt: '2026-05-22T10:30:00Z',
+    sourcesSecondary: [
+      {
+        name: 'Consequence · 24% drop',
+        url: 'https://consequence.net/2026/05/fifa-world-cup-ticket-prices-dropping/',
+      },
+      {
+        name: 'Cassius Life · prices fall',
+        url: 'https://cassiuslife.com/1400433/fifa-world-cup-2026-ticket-prices-fall/',
+      },
+      {
+        name: 'NBC Bay Area · Bay Area cheapest',
+        url: 'https://www.nbcbayarea.com/news/local/world-cup-tickets-cheapest/4086857/',
+      },
+      {
+        name: 'KTVU · prices dropping',
+        url: 'https://www.ktvu.com/news/fifa-world-cup-ticket-prices-dropping-good-news-soccer-fans',
+      },
+      {
+        name: 'Gothamist · prices dropping',
+        url: 'https://gothamist.com/news/fifa-world-cup-ticket-prices-are-dropping-but-youll-still-pay-through-the-nose',
+      },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Arlington_June_2020_4_%28AT%26T_Stadium%29.jpg/1280px-Arlington_June_2020_4_%28AT%26T_Stadium%29.jpg',
+      alt: 'AT&T Stadium en Arlington (Dallas), sede del Paraguay-Australia más barato del torneo',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
     slug: 'entradas-mundial-2026-phase-4-last-minute-sales-dynamic-pricing-60-dolares-supporter-tier-mayo-2026',
     title:
       'Entradas Mundial 2026: la Phase 4 con precios dinámicos en tiempo real, $60 para fans y resale a $2,3 millones por la final',
