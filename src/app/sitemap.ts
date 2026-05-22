@@ -108,6 +108,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   out.push(entry('/2026/grupos', now, 'weekly', 0.9));
   out.push(entry('/2026/calendario', now, 'weekly', 0.9));
   out.push(entry('/2026/amistosos', now, 'daily', 0.9));
+  out.push(entry('/2026/cuando-empieza', now, 'weekly', 0.9));
   out.push(entry('/goles-famosos', now, 'monthly', 0.9));
   out.push(entry('/2026/favoritos-ganar-mundial', now, 'weekly', 0.95));
   out.push(entry('/2026/convocatorias', now, 'daily', 0.9));
@@ -151,6 +152,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   out.push(entry('/coleccionismo/panini-mundial-2026/check-list-cromos', now, 'weekly', 0.8, true));
   out.push(entry('/coleccionismo/panini-mundial-2026/donde-comprar/mexico', now, 'weekly', 0.85, true));
   out.push(entry('/coleccionismo/panini-mundial-2026/donde-comprar/brasil', now, 'weekly', 0.85, true));
+  out.push(entry('/coleccionismo/panini-mundial-2026/donde-comprar/usa', now, 'weekly', 0.85, true));
   out.push(entry('/coleccionismo/panini-mundial-2026/coca-cola', now, 'weekly', 0.8, true));
   out.push(entry('/coleccionismo/panini-mundial-2026/topps-vs-panini', now, 'monthly', 0.7, true));
   out.push(entry('/coleccionismo/monedas-mundial-2026', now, 'weekly', 0.95, true));

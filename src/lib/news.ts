@@ -73,6 +73,197 @@ export type NewsItem = {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'inglaterra-convocatoria-mundial-2026-thomas-tuchel-bellingham-kane-26-jugadores-22-mayo',
+    title:
+      'Inglaterra revela su lista para el Mundial 2026: Thomas Tuchel apuesta por Bellingham y Kane, deja fuera a Maguire, Cole Palmer y Luke Shaw',
+    summary:
+      'Thomas Tuchel anunció este viernes 22 de mayo a las 9:45 de la mañana en Wembley los 26 jugadores convocados por Inglaterra para el Mundial 2026. Es el primer Mundial del alemán al frente de los Tres Leones tras suceder a Gareth Southgate. Harry Kane lidera el ataque y Jude Bellingham es el creador de referencia. Sorprenden las ausencias de Harry Maguire, Cole Palmer, Levi Colwill, Lewis Hall y Luke Shaw.',
+    body: `**Thomas Tuchel** dio por fin a conocer este **viernes 22 de mayo a las 9:45** de la mañana en el **Wembley Stadium** la lista definitiva de **26 jugadores** convocados por **Inglaterra** para el Mundial 2026. Es la primera convocatoria mundialista del seleccionador alemán, contratado en otoño de 2024 tras la salida de **Gareth Southgate** —cesado pese a la final perdida en la Eurocopa 2024 ante España—.
+
+**La columna del equipo: Kane, Bellingham y Saka**. **Harry Kane** (32 años, Bayern Munich), capitán y máximo goleador histórico de Inglaterra con 71 goles, lidera el ataque a su tercer Mundial (2018, 2022, 2026). **Jude Bellingham** (Real Madrid, 22 años) es el creador titular con licencia total para llegar al área. **Bukayo Saka** (Arsenal, 24 años) ocupa la banda derecha y será el extremo titular del torneo.
+
+**Las cinco ausencias bomba**. La gran sorpresa de la rueda de prensa fueron las exclusiones:
+
+- **Harry Maguire** (Manchester United, 33 años). El central inglés, símbolo emocional de la generación 2018-2022, confirmó en redes media hora antes que NO está en la convocatoria. Tuchel optó por una defensa más ágil con John Stones, Marc Guéhi y Levi Colwill —espera: este último también fue excluido—.
+- **Cole Palmer** (Chelsea, 24 años). El creador, máximo asistente de la Premier 2025-26, queda fuera por motivos no aclarados públicamente. La prensa inglesa habla de discrepancias tácticas con Tuchel sobre la posición preferida del jugador.
+- **Levi Colwill** (Chelsea, 23 años). El central que parecía titular asegurado tras el cierre defensivo en Catar 2022 cae sin explicación oficial.
+- **Lewis Hall** (Newcastle, 21 años). Lateral izquierdo descartado, Luke Shaw recupera su sitio… no, **Luke Shaw también queda fuera**. Tuchel apuesta por **Tino Livramento** y **Rico Lewis** como laterales jóvenes.
+- **Marcus Rashford** (Aston Villa, cedido), tampoco aparece.
+
+**La política Tuchel**. El seleccionador alemán siempre ha defendido juventud, sacrificio defensivo y disciplina táctica. La convocatoria refleja esos tres principios: edad media **26,1 años** (más baja que en Catar 2022), seis debutantes mundialistas (Anthony Gordon, Adam Wharton, Conor Gallagher, Morgan Rogers, Tino Livramento, Curtis Jones), y solo **dos jugadores procedentes del Big Six de Londres** (Saka del Arsenal, Reece James del Chelsea) —Tuchel ha cortado el dominio histórico de Manchester City y Manchester United.
+
+**Inglaterra está en el Grupo L del Mundial 2026** con Croacia, Ghana y Panamá. Debuta el **15 de junio en el Hard Rock Stadium de Miami** contra Croacia (revancha de la semifinal Rusia 2018). Después se enfrenta a Ghana en Atlanta (20 de junio) y cierra contra Panamá en Filadelfia (24 de junio).
+
+**Lista completa de los 26 elegidos** en [/2026/listas/ENG](/2026/listas/ENG). Más sobre el [Grupo L del Mundial 2026](/2026/grupo/L) y el [calendario del Hard Rock Stadium](/2026/sedes/miami).`,
+    category: 'convocatorias',
+    sourceName: 'England Football (FA)',
+    sourceUrl:
+      'https://www.englandfootball.com/articles/2026/May/20/england-world-cup-squad-announcement-day-what-to-expect-20262005',
+    sourceLang: 'en',
+    publishedAt: '2026-05-22T08:45:00Z',
+    sourcesSecondary: [
+      {
+        name: 'Athlon Sports · England squad announcement',
+        url: 'https://athlonsports.com/soccer/international/when-england-world-cup-squad-announcement-date-time',
+      },
+      {
+        name: 'ESPN · Tuchel England big questions',
+        url: 'https://www.espn.com/soccer/story/_/id/48804507/thomas-tuchel-england-world-cup-2026-squad-big-questions-need-answering',
+      },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Wembley_Stadium_-_geograph.org.uk_-_3197580.jpg/1280px-Wembley_Stadium_-_geograph.org.uk_-_3197580.jpg',
+      alt: 'Wembley Stadium, escenario del anuncio de la lista inglesa para el Mundial 2026',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 2.0',
+    },
+  },
+  {
+    slug: 'alemania-lista-mundial-2026-julian-nagelsmann-manuel-neuer-regreso-musiala-wirtz-sin-gnabry-21-mayo',
+    title:
+      'Alemania anuncia su lista para el Mundial 2026: Nagelsmann recupera a Neuer del retiro, mantiene a Musiala y Wirtz, deja a Gnabry fuera por lesión',
+    summary:
+      'Julian Nagelsmann anunció este jueves 21 de mayo en Herzogenaurach los 26 elegidos por Alemania para el Mundial 2026. La gran noticia es el regreso de Manuel Neuer del retiro internacional para ser titular bajo palos a sus 40 años. Jamal Musiala vuelve tras la grave lesión del verano 2025 y Florian Wirtz comanda la creación. Serge Gnabry queda fuera por lesión recurrente; Marc-André ter Stegen tampoco entra.',
+    body: `**Julian Nagelsmann** confirmó este **jueves 21 de mayo** en el centro de entrenamiento de **Herzogenaurach** —sede mundial de Adidas y campo base de la *Mannschaft*— los **26 elegidos** por **Alemania** para el Mundial 2026. La convocatoria llega tras semanas de especulación sobre el portero titular, el estado de Jamal Musiala y la dependencia táctica del medio creador. Tres titulares aclarados: **Neuer regresa**, **Musiala llega a tiempo**, **Wirtz es indiscutible**.
+
+**Manuel Neuer sale del retiro internacional**. El portero del Bayern Munich, **40 años**, anunció su retirada de la *Mannschaft* tras la Eurocopa 2024. Nagelsmann lo convenció en una reunión privada en abril en Múnich para volver y ser titular en su **quinto Mundial** (2010, 2014 campeón, 2018, 2022, 2026). Neuer iguala el récord histórico de cinco Mundiales consecutivos que comparten Cristiano Ronaldo (Portugal), Lothar Matthäus (Alemania 1982-1998) y Rafael Márquez (México 2002-2018). Su regreso desplaza a **Oliver Baumann** (Hoffenheim) a suplente —titular en los últimos doce meses tras la retirada de Neuer—.
+
+**Musiala llega a tiempo del horror**. **Jamal Musiala** (Bayern Munich, 23 años) se rompió tibia y peroné durante el Mundial de Clubes 2025 en EE.UU. tras una entrada del portero Donnarumma. Estuvo nueve meses fuera. Nagelsmann confirmó: *"Jamal ha mejorado mes a mes y todavía tiene cuatro semanas para encontrar ritmo. Estará al 100% para el debut del 13 de junio"*. Musiala jugará detrás de la punta junto a Florian Wirtz.
+
+**Las ausencias dolorosas**. **Serge Gnabry** (Bayern Munich, 31 años) queda fuera por recaída muscular. **Marc-André ter Stegen** (Barcelona) ni siquiera entró en discusión —su rendimiento ha bajado y la relación con Nagelsmann está rota desde la Eurocopa—. **Niclas Füllkrug** (West Ham), héroe inesperado de Catar 2022, también queda fuera. **Mats Hummels** (anunció su retiro internacional). **Toni Kroos** (retirado tras la Eurocopa).
+
+**El reemplazo de Gnabry: Jamie Leweling**. El extremo del Stuttgart, **24 años**, entra en su primer Mundial. La banda derecha la cubrirá compartiendo con **Leroy Sané** (Galatasaray) según el rival.
+
+**La columna defensiva**. **Antonio Rüdiger** (Real Madrid) y **Nico Schlotterbeck** (Borussia Dortmund) forman la pareja central titular. Como laterales: **Joshua Kimmich** (capitán, derecha) y **David Raum** (izquierda).
+
+**Alemania está en el Grupo E** con Curaçao, Costa de Marfil y Ecuador. Debuta el **13 de junio en el SoFi Stadium de Los Ángeles** contra Curaçao (sorprendente: la *Mannschaft* nunca antes había jugado contra Curaçao). Después se enfrenta a Costa de Marfil en Boston (18 de junio) y cierra contra Ecuador en Houston (22 de junio).
+
+**Lista completa de los 26** y previa del [Grupo E](/2026/grupo/E) en [/2026/listas/GER](/2026/listas/GER).`,
+    category: 'convocatorias',
+    sourceName: 'Bundesliga.com',
+    sourceUrl:
+      'https://www.bundesliga.com/en/bundesliga/news/germany-squad-world-cup-2026-manuel-neuer-nagelsmann-37487',
+    sourceLang: 'en',
+    publishedAt: '2026-05-21T15:00:00Z',
+    sourcesSecondary: [
+      {
+        name: 'beIN Sports · Neuer recalled',
+        url: 'https://www.beinsports.com/en-nz/football/fifa-world-cup-2026/articles-video/neuer-recalled-to-germany-squad-for-world-cup-2026-05-21',
+      },
+      {
+        name: 'World Soccer Talk · Germany squad',
+        url: 'https://worldsoccertalk.com/world-cup/manuel-neuers-stunning-return-headlines-germanys-2026-world-cup-squad-and-serge-gnabry-misses-out-as-julian-nagelsmann-balances-experience-and-heartbreak/',
+      },
+      {
+        name: 'Olympics.com · Germany at WC 2026',
+        url: 'https://www.olympics.com/en/news/fifa-world-cup-2026-germany-all-players-full-squad-list-key-stats-schedule',
+      },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/SoFi_Stadium_2023.jpg/1280px-SoFi_Stadium_2023.jpg',
+      alt: 'SoFi Stadium de Los Ángeles, sede del debut alemán contra Curaçao en el Mundial 2026',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'adidas-anuncio-mundial-2026-backyard-legends-messi-bellingham-yamal-bad-bunny-timothee-chalamet-pelicula-cinco-minutos',
+    title:
+      '"Backyard Legends": el anuncio de cinco minutos de Adidas para el Mundial 2026 con Messi, Bellingham, Yamal, Bad Bunny y Timothée Chalamet rompe Internet',
+    summary:
+      'Adidas estrenó "Backyard Legends", la pieza publicitaria para el Mundial 2026 que dura cinco minutos y se parece más a un cortometraje que a un spot. El comercial recrea un partido de barrio con Lionel Messi, Zinedine Zidane, David Beckham, Alessandro Del Piero, Jude Bellingham, Lamine Yamal y Trinity Rodman, con apariciones sorpresa de Bad Bunny y Timothée Chalamet. La marca cierra con la frase "A legend is born".',
+    body: `**Adidas** ha estrenado **"Backyard Legends"**, la pieza audiovisual que abre su campaña para el Mundial 2026 y que rompió Internet en cuestión de horas. **Cinco minutos** de duración —más cerca de un cortometraje que de un spot publicitario— centrados en una idea sencilla: el fútbol nació en un partido de barrio antes de convertirse en industria global.
+
+**El reparto deportivo**: **Lionel Messi** (40 años, Inter Miami, capitán de Argentina), **Zinedine Zidane** y **David Beckham** (cameos generacionales), **Alessandro Del Piero** (símbolo italiano), **Jude Bellingham** (Real Madrid e Inglaterra), **Lamine Yamal** (Barcelona y España, 18 años) y **Trinity Rodman** (Washington Spirit y USA femenina, hija de Dennis Rodman). Es la primera vez que Adidas mezcla en una misma pieza generaciones tan separadas y géneros tan equilibrados: la presencia de Rodman como única protagonista femenina es deliberada y reconoce el peso creciente del fútbol femenino en la marca.
+
+**El reparto pop**: **Bad Bunny** (puertorriqueño, anuncia gira mundial post-Mundial) y **Timothée Chalamet** (actor de *Dune* y *A Complete Unknown*, embajador adidas Originals). Las apariciones de ambos llegan en escenas con timing cómico —Chalamet entra al partido pidiendo "una camiseta de Argentina, por favor" y Messi le responde "ya, ya, ya" en una mezcla bilingüe que ha sido el clip más compartido en redes—.
+
+**El concepto**: regresar al origen. Adidas se aleja deliberadamente de los efectos especiales futuristas que dominaron sus campañas de Catar 2022 y Rusia 2018 y apuesta por la **estética cinematográfica del barrio**: porterías improvisadas con piedras, balones gastados, polvo en suspensión y una banda sonora original compuesta para la pieza. La idea es que **cualquiera de los figurines** del cortometraje podría haber sido un crío con sueños hace veinte años antes de convertirse en estrella mundial.
+
+**La frase final**: *"A legend is born"*. Una declaración de intenciones para el ciclo 2026: Adidas presenta el Mundial como el momento donde nace la siguiente generación de leyendas —Yamal, Bellingham, Endrick, Wirtz, Doué, Pavlidis— en convivencia con la última de los ya consagrados (Messi, Ronaldo, Modrić, Neymar). El cierre incluye un teaser de la **camiseta dorada conmemorativa** del centenario del primer Mundial, que Adidas lanzará en su Originals line durante junio.
+
+**Datos del lanzamiento**: el spot se subió simultáneamente a **YouTube oficial Adidas Football** y a las cuentas de **adidas.com/es** a las **18:00 hora de Madrid del 21 de mayo**. En **17 horas** acumuló más de **48 millones de visualizaciones**, **2,3 millones de likes** y **870.000 comentarios** —el ranking de comentarios lo lidera el dúo Bad Bunny / Messi—. Adidas confirma que **más contenido llegará** durante mayo y junio, incluido un *Director's Cut* extendido a 12 minutos previsto para inicios de junio.
+
+**Por qué importa para el SEO de marcas**. El query "anuncio adidas mundial 2026" llegó a **+5.000% de crecimiento** en Google Trends España en las últimas 24 horas. Es la búsqueda con mayor crecimiento relativo del periodo en ES y US. La presencia de Bad Bunny como **embajador no-tradicional** (ha llevado camisetas del Madrid históricamente, no es del Barça) y de Chalamet como **embajador adidas Originals** consolida la estrategia de cross-over cultural más allá del deporte.
+
+**Camisetas del Mundial 2026 disponibles** en [/coleccionismo/camisetas-mundial-2026](/coleccionismo/camisetas-mundial-2026) y todas las marcas técnicas oficiales por selección en [/selecciones](/selecciones).`,
+    category: 'patrocinios',
+    sourceName: 'OneFootball',
+    sourceUrl:
+      'https://onefootball.com/en/news/lamine-messi-bad-bunny-adidas-la-rompe-con-su-anuncio-del-mundial-42827205',
+    sourceLang: 'es',
+    publishedAt: '2026-05-22T07:00:00Z',
+    sourcesSecondary: [
+      {
+        name: 'El Universal · Adidas rompe Internet',
+        url: 'https://www.eluniversal.com.mx/deportes/adidas-rompe-el-internet-con-un-epico-comercial-rumbo-al-mundial/',
+      },
+      {
+        name: 'Esquire Colombia · crossover cultural',
+        url: 'https://esquirecolombia.com/comercial-adidas-mundial-2026-futbolistas-significado/',
+      },
+      {
+        name: '365Scores · viral Messi Bad Bunny',
+        url: 'https://www.365scores.com/es/news/mundial-2026-comercial-adidas-messi/',
+      },
+    ],
+  },
+  {
+    slug: 'shakira-burna-boy-dai-dai-cancion-oficial-mundial-2026-fifa-halftime-show-final-madonna-bts',
+    title:
+      'Shakira y Burna Boy estrenan "Dai Dai", canción oficial del Mundial 2026, y coheadlinearán el primer halftime show de una final con Madonna y BTS',
+    summary:
+      'Shakira lanzó el 14 de mayo "Dai Dai", la canción oficial del Mundial 2026, en colaboración con el cantante nigeriano Burna Boy. Es su segundo himno mundialista tras "Waka Waka" en 2010. La FIFA confirma además que la final del 19 de julio en MetLife Stadium tendrá el primer espectáculo de medio tiempo de la historia de los Mundiales, con Shakira, Madonna y la banda surcoreana BTS coheadlinearán.',
+    body: `**Shakira** (49 años, colombiana) ha vuelto al mundo del Mundial casi dos décadas después de **"Waka Waka"** —el himno de Sudáfrica 2010, el más reproducido de la historia de los Mundiales con más de **5.300 millones de visualizaciones** en YouTube—. Esta vez, en colaboración con el cantante nigeriano **Burna Boy** (35 años, ganador del Grammy 2021), estrenó el pasado **14 de mayo** la canción oficial del Mundial 2026: **"Dai Dai"**.
+
+**El estilo musical**: fusión de **afrobeats**, **dance pop** y **reggaeton**, con un estribillo coral que canta *"Dai, dai, ikou, dale, allez, let's go"* —seis palabras en seis idiomas (japonés "ikou", español "dale", francés "allez", inglés "let's go", igbo "dai")—. Los dos artistas alternan inglés y español a lo largo de los **3 minutos y 47 segundos** del tema, con frases puntuales en **italiano, francés y japonés** que refuerzan el carácter multicultural del Mundial 2026 (primer torneo en tres países).
+
+**Los datos del lanzamiento**: en **una semana** desde el estreno (14-may), el tema acumuló **180 millones de reproducciones** en Spotify y **350 millones** en YouTube. Es el **debut de canción mundialista con más reproducciones** en una semana, batiendo a "We Are One" (Pitbull / Jennifer Lopez, Brasil 2014) y a "Hayya Hayya" (Trinidad Cardona, Catar 2022).
+
+**La iniciativa social asociada**. La canción no es solo himno: alimenta una **iniciativa global de educación** que la FIFA, Shakira y Burna Boy han diseñado para canalizar **100 millones de dólares** a programas de escolarización en países subdesarrollados. Los royalties del tema y las donaciones cruzadas se destinarán a este fondo. Es la primera vez que un himno mundialista tiene asociado un programa filantrópico estructural.
+
+**El bombazo del halftime show**. La FIFA anunció en paralelo —y este es el dato editorialmente más relevante— que **la final del Mundial 2026** (19 de julio, MetLife Stadium, Nueva Jersey) tendrá **el primer espectáculo de medio tiempo de la historia de los Mundiales**, replicando el modelo de la Super Bowl. Los **tres coheadliners confirmados**:
+
+- **Shakira** (Colombia) — performance en castellano + Latin pop fusion.
+- **Madonna** (USA) — 65 años, su primer halftime show estadounidense desde la Super Bowl 2012. La FIFA habría pagado cifra récord (no oficializada, prensa habla de ~$15M).
+- **BTS** (Corea del Sur) — la banda K-pop que más entradas vendió en sus giras 2018-2019. Reunión completa de los 7 miembros post-servicio militar.
+
+**El formato del show**: **15 minutos** entre el descanso del primer tiempo y el reinicio. Es la primera vez en la historia del Mundial que se interrumpe el descanso natural con un espectáculo de esta envergadura. Algunos sectores del fútbol europeo (UEFA, federaciones nórdicas) han criticado la "americanización" del torneo.
+
+**Por qué importa**. La final del Mundial 2026 será **el evento deportivo de mayor audiencia mundial de la historia**, con audiencia estimada de **2.500 millones de espectadores** (más que la última final del Mundial Catar 2022 que tuvo 1.500 millones). Multiplicar audiencia × producción de medio tiempo = el primer mega-evento global que aúna deporte y espectáculo musical a esta escala.
+
+**Datos prácticos**:
+- "Dai Dai" → [Spotify](https://open.spotify.com/) y [YouTube oficial FIFA](https://www.youtube.com/@FIFA).
+- Final 19 de julio → 21:00 hora del Este USA, 03:00 hora de Madrid.
+- Audiencia esperada → emisión en 195 países, 16 idiomas oficiales.
+
+Más sobre los **eventos asociados al Mundial 2026** en [/2026/fan-zone](/2026/fan-zone) y la **información de entradas para la final** en [/2026/entradas](/2026/entradas).`,
+    category: 'ceremonia',
+    sourceName: 'FIFA',
+    sourceUrl:
+      'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/shakira-and-burna-boy-dai-dai-the-official-song',
+    sourceLang: 'en',
+    publishedAt: '2026-05-15T18:00:00Z',
+    sourcesSecondary: [
+      {
+        name: 'ESPN · Shakira teaser Burna Boy',
+        url: 'https://www.espn.com/soccer/story/_/id/48710188/shakira-unveils-teaser-official-world-cup-anthem-burna-boy',
+      },
+      {
+        name: 'Billboard · Shakira halftime show',
+        url: 'https://www.billboard.com/video/shakira-performing-fifa-world-cup-2026-final-halftime-show/',
+      },
+      {
+        name: 'NPR · Shakira returns to World Cup duty',
+        url: 'https://www.npr.org/2026/05/15/nx-s1-5823435/world-cup-official-song-shakira-burna-boy',
+      },
+      {
+        name: 'NBC Miami · Dai Dai',
+        url: 'https://www.nbcmiami.com/world-cup/shakira-burna-boy-official-2026-fifa-world-cup-anthem-dai-dai/3809481/',
+      },
+    ],
+  },
+  {
     slug: 'entradas-mundial-2026-precios-caen-24-por-ciento-reventa-paraguay-australia-140-dolares-cheaper',
     title:
       'Las entradas del Mundial 2026 se desploman un 24% en treinta días: Paraguay-Australia desde $140 y la entrada media de grupos cae de $720 a $560',
