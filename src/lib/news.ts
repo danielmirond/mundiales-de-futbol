@@ -73,6 +73,64 @@ export type NewsItem = {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'entradas-mundial-2026-phase-4-last-minute-sales-dynamic-pricing-60-dolares-supporter-tier-mayo-2026',
+    title:
+      'Entradas Mundial 2026: la Phase 4 con precios dinámicos en tiempo real, $60 para fans y resale a $2,3 millones por la final',
+    summary:
+      'A 20 días del partido inaugural, FIFA mantiene activa desde el 1 de abril la Phase 4 (Last-Minute Sales) con venta directa first-come first-served en fifa.com/tickets. El sistema de precios dinámicos —estrenado este Mundial— mueve las tarifas en tiempo real según demanda. 17 partidos están agotados, más de 80 conservan inventario. El Supporter Tier de 60 dólares creado tras la presión del Congreso de EE.UU. está disponible para todos los partidos, incluida la final del 19 de julio.',
+    body: `A **20 días del partido inaugural** (México-Sudáfrica, 11 de junio en el Estadio Azteca), el sistema de venta de entradas del **Mundial 2026** entra en su tramo más complicado. FIFA mantiene activa desde el **1 de abril** la **Phase 4 (Last-Minute Sales)**, la cuarta y última fase de venta oficial antes y durante el torneo. Funciona como venta directa en **fifa.com/tickets**, sin sorteo ni lista de espera: *first-come, first-served*, con confirmación inmediata cuando hay stock.
+
+**Precios dinámicos: el cambio de modelo más comentado**. Por primera vez en la historia del Mundial, **los precios suben y bajan en tiempo real** según demanda, fase del torneo, selecciones confirmadas y sede del partido. Hace dos semanas, el ticket más barato del torneo era de **$380** para siete partidos concretos de fase de grupos —típicamente partidos con menor demanda comercial—. La entrada más cara registrada hasta hoy: **$4.105 para USA-Paraguay** en el SoFi Stadium de Los Ángeles el **12 de junio**. La final en MetLife Stadium del 19 de julio cotiza **hasta $10.990** en la categoría Front Category 1, mientras que la reventa oficial autorizada por FIFA ha llegado a registrar listados de **$2,3 millones por asiento**.
+
+**El Supporter Tier de $60: la concesión política**. Tras la **presión del Congreso de Estados Unidos** —69 congresistas firmaron en febrero una carta abierta a Gianni Infantino denunciando la inflación de precios— FIFA introdujo durante la Phase 3 el **Supporter Entry Tier**: una bolsa de entradas a **$60 USD planos**, válidas para **todos los partidos incluida la final**. Es la categoría más alejada del campo (parte alta del fondo) pero conserva visibilidad razonable. Disponibilidad muy limitada por partido (entre 500 y 2.000 entradas por estadio según fuente). FIFA no ha publicado el contador exacto restante.
+
+**Estado del inventario al 22 de mayo**. De los **104 partidos del Mundial 2026**, **17 están oficialmente agotados** según el panel de fifa.com/tickets —entre ellos la final, la inauguración y todos los choques con USA, Brasil y Argentina en sede norteamericana—. Más de **80 partidos** conservan disponibilidad pública, principalmente en fase de grupos y en sedes mexicanas (Estadio Azteca, Estadio Akron, Estadio BBVA), donde el precio dinámico tiende a estabilizarse en franjas más bajas que en USA.
+
+**Random Selection Draw ya cerrado**. La **Phase 3** del sistema FIFA —el *Random Selection Draw* o sorteo aleatorio— funcionó como ventana de aplicación entre el **11 de diciembre de 2025 y el 13 de enero de 2026**. Ya no admite nuevas solicitudes. Los aplicantes recibieron asignación entre marzo y abril; los no agraciados pasaron automáticamente a la lista de espera para la Phase 4 actual.
+
+**Cómo comprar hoy mismo**:
+
+1. Entra en **[fifa.com/tickets](https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/tickets)** o desde la **FIFA+ app**.
+2. Crea tu cuenta FIFA ID (DNI o pasaporte verificado obligatorio).
+3. Filtra por partido, sede o selección.
+4. **Vigila el precio dinámico**: refresca varias veces al día — el sistema rebaja en horas valle (madrugada hora local de la sede).
+5. Si tu objetivo es el Supporter Tier ($60), entra a las **00:00 GMT-5** (medianoche en Nueva York), franja en la que históricamente liberan más stock de esta categoría.
+
+**Reventa oficial autorizada**: solo a través del marketplace de FIFA. Cualquier otra plataforma (StubHub, Viagogo, Ticombo) puede tener entradas válidas pero **no garantizadas por FIFA**: en caso de cambio de sede o fecha, FIFA no reembolsa al comprador final.
+
+**Si quieres ahorrar**: prioriza partidos en **México** (Akron y BBVA tienen las tarifas más bajas del torneo) y evita los partidos con USA, Brasil o Argentina como local-aparente. Más detalle por sede y precios actuales en [/2026/entradas](/2026/entradas).`,
+    category: 'entradas',
+    sourceName: 'FIFA',
+    sourceUrl:
+      'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/sales-phases',
+    sourceLang: 'en',
+    publishedAt: '2026-05-22T09:00:00Z',
+    sourcesSecondary: [
+      {
+        name: 'FIFA · Last-Minute Sales Phase',
+        url: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/last-minute-tickets-sales-phase-to-start-on-1-april',
+      },
+      {
+        name: 'FIFA · New Supporter Entry Tier',
+        url: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/fifa-world-cup-2026-new-ticket-pricing-tier',
+      },
+      {
+        name: 'WorldCupWiki · Tickets May 2026',
+        url: 'https://worldcupwiki.com/tickets/',
+      },
+      {
+        name: 'Goal.com · Next Ticket Sale Guide',
+        url: 'https://www.goal.com/en-us/news/when-is-the-next-world-cup-ticket-sale-guide/blt6834d6a509343753',
+      },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Metlife_stadium_%28Aerial_view%29.jpg/1280px-Metlife_stadium_%28Aerial_view%29.jpg',
+      alt: 'Vista aérea del MetLife Stadium, sede de la final del Mundial 2026',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
     slug: 'semana-cierre-convocatorias-mundial-2026-alemania-inglaterra-espana-paises-bajos-marruecos-noruega-deadline-1-junio',
     title:
       'Recta final de las convocatorias del Mundial 2026: Alemania, Marruecos y Noruega anuncian mañana; Inglaterra el viernes; España y Países Bajos cierran el 25 de mayo',
