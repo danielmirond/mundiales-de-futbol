@@ -73,6 +73,111 @@ export type NewsItem = {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'neymar-mundial-2026-brasil-convocatoria-ancelotti-lesion-pantorrilla-recuperacion',
+    title:
+      '"Neymar va a jugar el Mundial 2026": Ancelotti lo mantiene en la lista pese a la lesión en la pantorrilla derecha',
+    summary:
+      'Una de las dudas más buscadas sobre el Mundial 2026 tiene respuesta: Carlo Ancelotti incluyó a Neymar en los 26 convocados de Brasil el pasado 18 de mayo, pero el delantero del Santos sufrió tres días después una lesión muscular en la pantorrilla derecha que le mantiene fuera entre 6 y 10 días. El cuerpo médico brasileño asegura que llegará al debut del 14 de junio contra Marruecos en el MetLife Stadium. Vinícius Júnior, Raphinha, Rodrygo y Endrick acompañan al 10 brasileño en el ataque.',
+    body: `**"¿Neymar va a jugar el Mundial 2026?"** Es la pregunta que más usuarios escriben en Google sobre Brasil estos días, con búsquedas en alza desde mediados de mayo. La respuesta corta es **sí, pero con interrogantes médicos**. La larga, abajo.
+
+**El 18 de mayo: Ancelotti lo convoca**. **Carlo Ancelotti**, seleccionador de Brasil desde febrero de 2026 tras el contrato más comentado del año (el Real Madrid le rescindió el contrato a sabiendas para que aceptara la CBF), publicó la lista oficial de 26 convocados desde la sede de Granja Comary. Neymar entró pese a llevar dos años sin disputar un partido oficial completo con la *Seleção*. El número 10 brasileño, hoy en el **Santos** (regresó en enero de 2025 tras siete años en PSG y Al-Hilal), llegó a la convocatoria gracias a 8 goles y 6 asistencias en el **Campeonato Paulista** y los primeros partidos del Brasileirão.
+
+**Los compañeros de ataque**: **Vinícius Júnior** (Real Madrid), **Raphinha** (Barcelona), **Rodrygo** (Real Madrid), **Endrick** (Olympique Lyonnais cedido por el Real Madrid) y **Matheus Cunha** (Manchester United). Es uno de los frentes ofensivos más profundos del torneo. **Gabriel Martinelli** (Arsenal) e **Igor Thiago** (Brentford) completan la rotación.
+
+**El 21 de mayo: la lesión**. Tres días después del anuncio, durante un entrenamiento del Santos previo al partido contra Mirassol, Neymar **sintió una molestia muscular en la pantorrilla derecha**. Las pruebas médicas confirmaron un **edema moderado** —no rotura, lesión muscular leve—. El médico del Santos, Murillo Wagner, declaró: *"Neymar atraviesa una lesión muscular pero, según nuestra planificación, su evolución le permitirá estar apto la próxima semana para integrarse a la selección"*.
+
+**El calendario aprieta**. El plazo médico estimado es de **6 a 10 días sin entrenamiento al máximo nivel**. Brasil concentra a partir del **26 de mayo** en Granja Comary; el primer amistoso pre-Mundial es el **3 de junio contra Croacia** en Sao Paulo; y el debut mundialista es el **14 de junio contra Marruecos** en el **MetLife Stadium de Nueva Jersey**. Los tiempos son ajustados pero realistas si la evolución es la prevista.
+
+**¿Por qué Ancelotti lo mantiene pese a la lesión?** Tres razones, según fuentes próximas al cuerpo técnico:
+
+1. **Reglas FIFA**. La normativa del Mundial 2026 permite reemplazos por lesión **hasta 24 horas antes del primer partido del equipo**. Si Neymar no llega, hay tiempo para sustituirlo. Mantenerlo en la lista no compromete el cupo de 26.
+2. **Liderazgo vestuario**. Neymar sigue siendo el referente emocional de la *Seleção* aunque su rendimiento haya bajado. Ancelotti, en sus conversaciones privadas con Marquinhos (capitán) y Casemiro, identificó que el equipo necesita a Neymar al menos como **mentor** para los más jóvenes (Endrick, Rayan).
+3. **El factor mediático**. La final del Mundial se juega el 19 de julio. Un Brasil **sin Neymar** en su quinto Mundial sería una historia de derrota generacional; un Brasil **con Neymar despidiéndose** es la historia de la temporada para el mercado norteamericano (cliente principal de FIFA en este Mundial).
+
+**Quiénes se quedan fuera por su presencia**. La sorpresa más comentada es la exclusión de **Pedro** (Flamengo), delantero centro de los $120 millones de tasación, descartado pese a temporada excelente en el club. **Gabriel Jesús** (Arsenal) sigue lesionado de cruzados desde enero 2025 y tampoco entra. **Hulk** (Atlético Mineiro, 39 años) era el outsider sentimental pero Ancelotti lo descartó por edad.
+
+**Brasil debuta el 14 de junio** contra Marruecos en MetLife. Después se enfrenta a Haití (San Francisco, 18 de junio) y cierra el Grupo C contra Escocia (Mercedes-Benz Stadium Atlanta, 22 de junio). Calendario y plantilla completa en [/2026/listas/BRA](/2026/listas/BRA) y previa del [Grupo C](/2026/grupo/C).`,
+    category: 'jugadores',
+    sourceName: 'CNN Español',
+    sourceUrl:
+      'https://cnnespanol.cnn.com/2026/05/18/deportes/neymar-lista-ancelotti-brasil-mundial-orix',
+    sourceLang: 'es',
+    publishedAt: '2026-05-22T08:00:00Z',
+    sourcesSecondary: [
+      {
+        name: 'La FM · alerta lesión Neymar',
+        url: 'https://www.lafm.com.co/deportes/neymar-convocatoria-brasil-mundial-2026-ancelotti-lesion-pantorrilla-santos-fm-399964',
+      },
+      {
+        name: 'El Colombiano · lesión pantorrilla',
+        url: 'https://www.elcolombiano.com/deportes/futbol/neymar-lesion-pantorilla-santos-mundial-brasil-EM36815652',
+      },
+      {
+        name: 'Infobae · ausencias Brasil',
+        url: 'https://www.infobae.com/deportes/2026/05/18/los-grandes-ausentes-en-la-lista-de-brasil-para-el-mundial-el-delantero-de-los-usd-120-millones-al-que-desbanco-neymar/',
+      },
+      {
+        name: 'Telemundo · nueva lesión',
+        url: 'https://www.telemundo.com/deportes/copa-mundial-de-la-fifa-2026/neymar-sufre-una-nueva-lesion-y-esto-dicen-los-doctores-sobre-el-mundi-rcna346212',
+      },
+    ],
+  },
+  {
+    slug: 'ansu-fati-prelista-mundial-2026-espana-monaco-renacimiento-luis-de-la-fuente',
+    title:
+      'Ansu Fati renace en el Mónaco: 12 goles, prelista del Mundial 2026 y la oportunidad de volver con España tres años después',
+    summary:
+      'Ansu Fati (22 años) ha marcado 12 goles en 34 partidos con el Mónaco en la temporada 2025-26, su mejor cifra goleadora desde la lesión de menisco en 2021. Luis de la Fuente lo incluyó en la prelista de 35 jugadores para el Mundial 2026 el 11 de mayo, tres años después de su última convocatoria con España. La lista definitiva se anuncia el 25 de mayo en Las Rozas. Si entra, sería su primer Mundial.',
+    body: `La historia de **Ansu Fati** y la selección española arrastraba dos años de silencio. La última convocatoria del delantero hispano-guineano fue en marzo de 2023, cuando aún militaba en el Barcelona y se debatía entre cesión y titularidad. El paso por **Brighton** (2023-24, cesión sin pena ni gloria) y la temporada irregular en el club barcelonista (2024-25) parecían haberlo apartado definitivamente del proyecto De la Fuente.
+
+**El Mónaco lo ha resucitado**. El traspaso al **AS Monaco** en agosto de 2025 por **38 millones de euros** —operación cerrada el último día del mercado tras la negativa del Barça a mantenerlo en plantilla— se ha convertido en el movimiento más rentable del fútbol francés esta temporada. Bajo la dirección táctica de **Adolf Hütter**, Fati ha pasado de ser un regateador de banda a **un finalizador de área**. Datos:
+
+- **12 goles** en 34 partidos de la Ligue 1 (su récord personal en una temporada).
+- **6 asistencias** y **2 goles en Champions League** (caída de Mónaco en cuartos contra el Bayern).
+- **xG/90 minutos** de 0,72 — segundo mejor de toda la Ligue 1 detrás de Mbappé en su etapa PSG.
+- **Edad: 22 años**. Cumplirá 23 el 31 de octubre, tres meses después de la final del Mundial.
+
+**La prelista del 11 de mayo: la gran sorpresa**. Luis de la Fuente, en su intervención en la Ciudad del Fútbol de Las Rozas, presentó la **prelista provisional de 35 jugadores** —cifra mínima exigida por FIFA—. Ansu Fati apareció entre los nombres tras semanas de filtraciones contradictorias. Las palabras del seleccionador: *"Ansu ha hecho una temporada extraordinaria. Es un jugador que conoce la selección, que sabe lo que pedimos. Si está aquí es porque entendemos que puede ayudar en cualquiera de los tres frentes ofensivos"*.
+
+**El debate interno: ¿quién cae para que entre?** España tiene una rotación ofensiva profundísima:
+
+- **Yamal** (Barcelona) — extremo derecho titular, intocable.
+- **Williams** (Athletic Club) — extremo izquierdo titular.
+- **Olmo** (Barcelona) — mediapunta titular.
+- **Morata** (Galatasaray, capitán) — nueve referencia.
+- **Joselu** (Al-Gharafa) — nueve relevo.
+- **Pino** (Crystal Palace) — extremo joven.
+- **Ferran Torres** (Barcelona) — versátil.
+- **Oyarzabal** (Real Sociedad) — segunda punta y banda izquierda.
+- **Ansu Fati** (Mónaco) — el resurrecto.
+
+**Solo cinco puestos** de delantero / extremo para nueve candidatos. La crítica es unánime: Fati ocupa el sitio que en marzo parecía reservado para **Pino** o **Oyarzabal**. Las apuestas de los analistas de Marca, AS y Sport convergen: Fati entra como **cuarto delantero**, por delante de Pino y Joselu.
+
+**El 25 de mayo: el momento de la verdad**. Luis de la Fuente confirmará el lunes 25 de mayo a las 13:00 en la Ciudad del Fútbol los **26 elegidos definitivos** para el Mundial. España viaja a EE.UU. el 7 de junio para concentrarse en Chicago, sede del debut del 15 de junio contra Cabo Verde.
+
+**Si Fati entra**: sería su **primer Mundial**. Estuvo en la prelista de Catar 2022 (Luis Enrique lo dejó fuera del corte final), no llegó a la Eurocopa 2024. El Mundial 2026, con 22 años, sería el momento de validar todo el talento que el Barcelona vio en él cuando lo subió al primer equipo con 16. Más sobre **España en el Mundial 2026** en [/selecciones/ESP/grupo-h](/selecciones/ESP/grupo-h) y la **lista definitiva** se publicará en [/2026/listas/ESP](/2026/listas/ESP) el lunes.`,
+    category: 'jugadores',
+    sourceName: 'VAVEL España',
+    sourceUrl:
+      'https://www.vavel.com/es/futbol/2026/05/19/fc-barcelona/1261219-ansu-fati-una-opcion-para-el-mundial.html',
+    sourceLang: 'es',
+    publishedAt: '2026-05-22T11:00:00Z',
+    sourcesSecondary: [
+      {
+        name: 'El Progresivo · Ansu Fati 2026 resurgimiento',
+        url: 'https://elprogresivo.com/2026/05/18/ansu-fati-2026-por-que-su-resurgimiento-en-el-monaco-redefine-su-valor-en-el-futbol-europeo/',
+      },
+      {
+        name: 'Infobae · sorpresas prelista España',
+        url: 'https://www.infobae.com/espana/deportes/2026/05/15/las-sorpresas-de-la-prelista-de-luis-de-la-fuente-para-el-mundial-2026-de-los-seis-porteros-a-los-jovenes-futbolistas/',
+      },
+      {
+        name: 'El Español · diseña la lista de De la Fuente',
+        url: 'https://www.elespanol.com/deportes/futbol/mundial/20260520/futbolistas-deben-convocados-espana-mundial-disena-lista-luis-fuente/1003744248264_32.html',
+      },
+    ],
+  },
+  {
     slug: 'inglaterra-convocatoria-mundial-2026-thomas-tuchel-bellingham-kane-26-jugadores-22-mayo',
     title:
       'Inglaterra revela su lista para el Mundial 2026: Thomas Tuchel apuesta por Bellingham y Kane, deja fuera a Maguire, Cole Palmer y Luke Shaw',
