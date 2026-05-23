@@ -73,6 +73,137 @@ export type NewsItem = {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'fermin-lopez-baja-mundial-2026-espana-lesion-fractura-quinto-metatarsiano-operacion-barcelona',
+    title:
+      'Mazazo para España: Fermín López se pierde el Mundial 2026 tras fracturarse el quinto metatarsiano frente al Betis',
+    summary:
+      'El centrocampista del Barcelona, oro olímpico en París 2024 y una de las apuestas de Luis de la Fuente para el Mundial 2026, se fracturó el quinto metatarsiano del pie derecho en el partido contra el Betis del 17 de mayo. Será operado y el plazo de recuperación de 6-8 semanas le impedirá llegar al debut de España contra Cabo Verde el 15 de junio. Pierde uno de los pulmones del banquillo a tres días de la convocatoria definitiva.',
+    body: `Mazazo definitivo para la selección española a apenas tres días de que **Luis de la Fuente** desvele la lista definitiva del Mundial 2026. **Fermín López** (22 años, Barcelona) se fracturó el **quinto metatarsiano del pie derecho** en el partido del **17 de mayo contra el Real Betis** —el penúltimo de la temporada barcelonista y el último en el Camp Nou reformado—. Será operado en las próximas horas y queda definitivamente **descartado del Mundial**.
+
+**Cómo ocurrió la lesión**. Fermín fue sustituido en el descanso del Camp Nou-Betis con molestias en el pie tras un mal apoyo en una jugada del minuto 38. Las pruebas médicas realizadas el lunes 18 confirmaron lo peor: fractura ósea limpia del quinto metatarsiano. Es la misma lesión que sufrió Cristiano Ronaldo antes de la Eurocopa 2008 y que apartó a David Beckham del Mundial 2002.
+
+**El comunicado del Barcelona**, publicado a primera hora del miércoles 20 de mayo: *"Fermín López ha sido intervenido con éxito de la fractura del quinto metatarsiano del pie derecho. La recuperación estimada es de entre seis y ocho semanas"*. Traducción: imposible llegar al debut de España del **15 de junio contra Cabo Verde** y muy difícil incluso para hipotéticas eliminatorias si España avanza —el centrocampista volvería entre el 30 de junio y el 15 de julio, cuando el Mundial ya estaría en cuartos o semifinales—.
+
+**Lo que pierde España**. Fermín, jugador del Mundial sub-20 2023 y oro olímpico en **París 2024** con la sub-23 española, ha completado su mejor temporada con el Barcelona: **13 goles y 17 asistencias** en 47 partidos. Es un centrocampista box-to-box con olfato goleador inusual desde la segunda línea —el perfil que De la Fuente buscaba como **relevo de Pedri** o segunda opción para el rol que Olmo ocupa con la absoluta—.
+
+**El recambio**. La RFEF tiene 24 horas para reemplazar a Fermín en la prelista provisional (entrega FIFA del 11 de mayo) antes del corte definitivo del 25-may. Las opciones que maneja De la Fuente:
+
+- **Carlos Soler** (West Ham) — perfil similar de box-to-box, en buen estado de forma.
+- **Aleix García** (Bayer Leverkusen) — el favorito mediático tras una temporada brillante.
+- **Brais Méndez** (Real Sociedad) — versión más defensiva.
+- **Álex Baena** (Atlético de Madrid) — la apuesta atrevida.
+
+**El antecedente histórico**. España ya sufrió la baja de un mediocentro joven justo antes de un Mundial: **Cesc Fàbregas** estuvo a punto de quedarse fuera de Sudáfrica 2010 por una microfractura en la tibia que terminó superando. La pegada de **Aleix García** o el momento de **Carlos Soler** marcarán la decisión final.
+
+**Lo que toca seguir**: el lunes 25 de mayo a las 12:30 desde el Espacio Movistar de Gran Vía, De la Fuente cerrará la lista de 26. Ya sin Fermín. Cobertura completa en [/2026/listas/ESP](/2026/listas/ESP) y previa del Grupo H en [/selecciones/ESP/grupo-h](/selecciones/ESP/grupo-h).`,
+    category: 'jugadores',
+    sourceName: 'Olympics.com',
+    sourceUrl:
+      'https://www.olympics.com/es/noticias/fermin-lopez-se-pierde-el-mundial-de-futbol-2026-con-espana-por-lesion',
+    sourceLang: 'es',
+    publishedAt: '2026-05-23T09:00:00Z',
+    sourcesSecondary: [
+      {
+        name: 'Excélsior · Fermín fractura',
+        url: 'https://www.excelsior.com.mx/deportes/baja-para-espana-fermin-lopez-fractura-y-queda-fuera-mundial-2026',
+      },
+      {
+        name: 'Milenio · operado con éxito',
+        url: 'https://www.milenio.com/futbol-internacional/mundial/fermin-lopez-operado-con-exito-se-confirma-su-baja-del-mundial-2026',
+      },
+      {
+        name: 'Fox Sports · Spain blow',
+        url: 'https://www.foxsports.com/stories/soccer/another-huge-injury-blow-for-spain-barcelonas-fermin-lopez-to-undergo-surgery-on-fractured-metatarsal-as-world-cup-dreams-dashed',
+      },
+    ],
+  },
+  {
+    slug: 'argentina-lista-mundial-2026-scaloni-26-jugadores-messi-prelista-55-cuando-anuncia',
+    title:
+      'Argentina cierra su lista del Mundial 2026: Scaloni anunciará a los 26 elegidos antes del 30 de mayo con Messi confirmado',
+    summary:
+      'Lionel Scaloni redujo a 35 jugadores la prelista provisional entregada a FIFA el 11 de mayo. La lista definitiva de 26 se conocerá antes del sábado 30 de mayo, fecha tope FIFA, porque la delegación viaja a Kansas el 1 de junio para iniciar la concentración pre-Mundial. Lionel Messi, Lautaro Martínez y Julián Álvarez son los tres intocables del ataque; Emiliano "Dibu" Martínez, Gerónimo Rulli y Juan Musso compondrán la tripleta de arqueros.',
+    body: `**Lionel Scaloni** ultima los últimos detalles de la **lista de 26 jugadores** que defenderán el título de Argentina en el Mundial 2026. El campeón vigente, tres veces ganador del torneo (1978, 1986, 2022), tiene la convocatoria casi cerrada después de **dos meses de pruebas, amistosos y recambios estructurales**. La fecha clave: **antes del sábado 30 de mayo**, tope que FIFA fija para las 48 selecciones. Argentina viaja a Kansas el 1 de junio.
+
+**Los intocables: Messi, Lautaro y Julián**. **Lionel Messi** (38 años, Inter Miami) no ha confirmado públicamente su presencia en el Mundial pero la AFA y el cuerpo técnico la dan por **segura**. Lo acompañan en el ataque **Lautaro Martínez** (Inter de Milán, capitán adjunto) y **Julián Álvarez** (Atlético de Madrid, máximo goleador argentino del último año). El frente ofensivo se completa con **Ángel Di María** (Benfica, su quinto Mundial despedida) y **Paulo Dybala** (Roma) como segunda alternativa, aunque la presencia del cordobés está en duda por su lesión de febrero.
+
+**La tripleta de arqueros**. **Emiliano "Dibu" Martínez** (Aston Villa) repite como **titular indiscutible** tras la magia de Catar 2022. Le acompañarán **Gerónimo Rulli** (Olympique de Marsella) y **Juan Musso** (Atalanta) como suplentes. Es la columna vertebral más estable de la *Albiceleste*: el mismo trío que ganó la Copa América 2024 y la Finalissima 2025.
+
+**El centro del campo: la mayor renovación**. El gran problema de Scaloni: el "MAC" (Mac Allister-De Paul-Enzo Fernández) que dominó Catar 2022 ya no tiene la misma frescura. **Alexis Mac Allister** (Liverpool) sigue como cerebro intocable. **Rodrigo De Paul** (Inter Miami, sigue a Messi al MLS) ha bajado nivel competitivo. **Enzo Fernández** (Chelsea) llega tras temporada irregular. El reemplazo generacional viene de:
+
+- **Nico Paz** (Como, 21 años) — la sensación de la Serie A.
+- **Valentín Carboni** (Inter de Milán, 21 años) — recuperado de lesión.
+- **Thiago Almada** (Botafogo, 25 años) — el creador con regate.
+
+**Las sorpresas de la prelista**: **Nicolás Capaldo** (Hamburgo SV) y **Zaid Romero** (Getafe CF) entran sin haber sido convocados previamente por Scaloni. Especialmente sorprendente Capaldo, que pasó de la Bundesliga 2 a la primera division alemana esta temporada con el Hamburgo recién ascendido.
+
+**La fecha del anuncio**. La AFA aún no ha confirmado el día exacto entre el **27 y el 30 de mayo**, pero las quinielas apuntan al **jueves 28 de mayo** desde el predio de Ezeiza, con conferencia de prensa de Scaloni. Argentina inicia la concentración en Kansas el 1 de junio y disputa amistoso contra **Honduras el 5 de junio** y contra **Suecia el 9 de junio**.
+
+**El debut mundialista**: Argentina abre el Grupo I el **15 de junio contra Senegal** en el AT&T Stadium de Dallas. Después se enfrenta a Noruega (Houston, 19 de junio) y cierra contra Irak (Atlanta, 23 de junio). Calendario completo y previa del **Grupo I** en [/2026/grupo/I](/2026/grupo/I) y datos de la albiceleste en [/2026/listas/ARG](/2026/listas/ARG).`,
+    category: 'convocatorias',
+    sourceName: 'La Nación',
+    sourceUrl:
+      'https://www.lanacion.com.ar/deportes/futbol/lista-de-convocados-de-la-seleccion-argentina-para-el-mundial-2026-cuando-sale-la-nomina-de-scaloni-nid20052026/',
+    sourceLang: 'es',
+    publishedAt: '2026-05-23T10:00:00Z',
+    sourcesSecondary: [
+      {
+        name: 'Infobae · Scaloni define lista',
+        url: 'https://www.infobae.com/deportes/2026/05/19/lionel-scaloni-define-la-lista-para-el-mundial-2026-cuando-se-conoceran-los-26-convocados-de-la-seleccion-argentina/',
+      },
+      {
+        name: 'Ámbito · cuándo entrega Scaloni',
+        url: 'https://www.ambito.com/deportes/cuando-entrega-la-seleccion-argentina-su-lista-definitiva-26-jugadores-el-mundial-2026-n6278546',
+      },
+      {
+        name: 'El Destape Web · lista 26 jugadores',
+        url: 'https://www.eldestapeweb.com/deportes/asi-esta-hoy-la-lista-de-26-jugadores-de-la-seleccion-para-el-mundial-2026325123056',
+      },
+    ],
+  },
+  {
+    slug: 'lennart-karl-bayern-munich-mundial-2026-alemania-nagelsmann-18-anos-sorpresa-sub-19',
+    title:
+      'Lennart Karl, la sorpresa de Alemania: el extremo del Bayern de 18 años entra en el Mundial 2026 tras su explosión en Champions',
+    summary:
+      'El joven extremo del Bayern Munich Lennart Karl (18 años) ha conseguido lo que parecía imposible hace seis meses: entrar en los 26 convocados de Alemania para el Mundial 2026. Anotó 9 goles y 8 asistencias entre Bundesliga y Champions, donde se convirtió en el goleador más joven en la historia del club bávaro en la competición, batiendo el récord que poseía Jamal Musiala. Nagelsmann lo eligió por delante de Serge Gnabry.',
+    body: `**Lennart Karl** ha entrado en la conversación de un Mundial antes de cumplir los 19 años. El extremo del **Bayern Munich**, nacido en Frankenthal (Renania-Palatinado) el **2 de febrero de 2008**, es la **gran sorpresa de los 26 convocados** por **Julian Nagelsmann** para el Mundial 2026 que se anunciaron el 21 de mayo desde Herzogenaurach.
+
+**Cómo llegó hasta aquí**. Karl fichó por la cantera del Bayern en 2023 procedente del Eintracht Frankfurt sub-15. Pasó dos años escalando categorías inferiores hasta que, en septiembre de 2025, **Vincent Kompany** —técnico del Bayern— lo subió al primer equipo a los 17 años recién cumplidos. Su explosión llegó en la fase de grupos de la Champions League: el **24 de octubre de 2025**, contra el Brujas en el Allianz Arena, marcó su primer gol en Champions con **17 años y 242 días**. **Batió el récord de Jamal Musiala** como goleador más joven del Bayern en la competición.
+
+**Los números de la temporada**: **9 goles + 8 asistencias** en 38 partidos entre Bundesliga y Champions. El Bayern fue campeón de Bundesliga y semifinalista de Champions (eliminado por el Manchester City). En la última jornada liguera, Karl marcó dos goles al Hoffenheim y selló el doblete (Bundesliga + Copa Alemana) del equipo bávaro.
+
+**La llamada de Nagelsmann**. El 19 de marzo de 2026, después de los amistosos contra Suiza y Ghana, Nagelsmann citó a Karl en su despacho del DFB-Campus para informarle que estaba en la prelista de 35. El joven extremo, conocido por su timidez, declaró días después: *"Lo único que importa es darlo todo en el Bayern. Solo entonces puedo esperar la llamada"*. La llamada llegó. El 21 de mayo, Karl recibió el SMS oficial: estaba entre los 26 elegidos para el Mundial 2026.
+
+**Por quién entra: la baja de Gnabry**. **Serge Gnabry** (Bayern Munich, 31 años) iba a ser el extremo titular de Alemania. Pero su recaída muscular de mayo lo dejó fuera. Nagelsmann eligió a Karl —compañero de Gnabry en el Bayern— por delante de **Jamie Leweling** (Stuttgart) y **Karim Adeyemi** (Borussia Dortmund). La decisión sorprendió a la prensa alemana porque Karl tiene menos minutos internacionales que sus rivales en el puesto.
+
+**Qué puede aportar a Alemania**. Karl es un **extremo izquierdo con perfil cerrado**: pierna derecha dominante, regate corto, capacidad para irse hacia dentro y buscar el remate. Su perfil completa el rol que Florian Wirtz ocupa por el centro y Leroy Sané por la derecha. Nagelsmann lo ha probado con éxito en los amistosos pre-Mundial: 65 minutos contra Suiza (con asistencia a Havertz) y 30 minutos contra Ghana.
+
+**El precedente**. La última vez que Alemania llevó a un jugador menor de 19 años al Mundial fue **Mesut Özil en Sudáfrica 2010** (21 años entonces, distinto perfil). Karl rompe la tradición de la *Mannschaft* de no apostar por adolescentes en torneos largos. Si De la Fuente lleva a **Yamal** (España) y Ancelotti a **Endrick** (Brasil), Nagelsmann no quiso quedarse sin su joya generacional.
+
+Plantilla completa y datos en [/2026/listas/GER](/2026/listas/GER) y previa del **Grupo E** en [/2026/grupo/E](/2026/grupo/E).`,
+    category: 'jugadores',
+    sourceName: 'Bavarian Football Works',
+    sourceUrl:
+      'https://www.bavarianfootballworks.com/germany-international-soccer/205547/a-dream-comes-true-for-lennart-karl-as-he-makes-germanys-world-cup-squad',
+    sourceLang: 'en',
+    publishedAt: '2026-05-22T18:00:00Z',
+    sourcesSecondary: [
+      {
+        name: 'FIFA · World Cup wonderkids',
+        url: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/world-cup-wonderkids-lennart-karl',
+      },
+      {
+        name: 'Bundesliga · Karl en squad',
+        url: 'https://www.bundesliga.com/en/bundesliga/news/lennart-karl-jonas-urbig-julian-nagelsmann-germany-squad-world-cup-friendly-matches-36526',
+      },
+      {
+        name: 'Sunday Guardian · Germany squad announced',
+        url: 'https://sundayguardianlive.com/sports/germany-fifa-world-cup-2026-squad-announced-jamal-musiala-lennart-karl-headline-julian-nagelsmanns-final-26-man-team-as-manuel-neuer-returns-full-list-195003/',
+      },
+    ],
+  },
+  {
     slug: 'lista-espana-mundial-2026-horario-canal-tv-donde-ver-luis-de-la-fuente-25-mayo-movistar-dazn',
     title:
       'Lista de España para el Mundial 2026: horario, canal y dónde ver en TV la convocatoria de Luis de la Fuente del lunes 25 de mayo',
