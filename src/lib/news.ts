@@ -72,6 +72,84 @@ export type NewsItem = {
 };
 
 export const NEWS_ITEMS: NewsItem[] = [
+  {
+    slug: 'neymar-album-panini-mundial-2026-por-que-no-aparece-figurita-update-set-cromo',
+    title:
+      'Por qué Neymar no está en el álbum Panini del Mundial 2026 (y cómo conseguir su cromo)',
+    summary:
+      'Cuando Panini cerró la impresión del álbum internacional del Mundial 2026, Neymar estaba lesionado de cruzados y nadie daba por hecha su presencia en la convocatoria. Carlo Ancelotti lo incluyó en la lista oficial el 18 de mayo, demasiado tarde para la tirada global. La solución: Panini lanzará un Update Set con su figurita y la de otros convocados de última hora un par de semanas después del arranque del torneo.',
+    body: `Es la duda más buscada estos días en Google sobre Panini: **¿por qué Neymar no está en el álbum del Mundial 2026?** La pregunta lleva semanas escalando posiciones en los buscadores españoles y latinoamericanos. Hay respuesta clara, oficial y con plan b incluido para los coleccionistas que ya están completando el álbum sin la figurita del 10 brasileño.
+
+## La razón principal: cronología contra Panini
+
+Panini cerró la **producción internacional masiva del álbum del Mundial 2026** en sus talleres de Modena, Italia, entre **enero y febrero de 2026**. En ese momento, Neymar (33 años, Santos) seguía en plena recuperación de la **rotura del ligamento cruzado anterior y menisco** que sufrió en octubre de 2023 con la selección brasileña. Su última convocatoria oficial era de hacía 18 meses. No había vuelto a entrar en ninguna lista de Dorival Júnior y la prensa brasileña daba por descartada su presencia en Norteamérica.
+
+Cuando Panini debe decidir qué jugadores entran en la impresión inicial, las federaciones envían los **24-30 nombres más probables** para cada selección. Brasil, en aquel momento, no incluyó a Neymar entre los suyos. La compañía italiana imprimió el álbum sin él. Decenas de millones de copias distribuidas por todo el mundo entre marzo y abril de 2026.
+
+## El giro inesperado: Ancelotti lo convoca el 18 de mayo
+
+La situación cambió cuando **Carlo Ancelotti**, sustituto de Dorival Júnior al frente de la *Seleção* desde febrero, lo incluyó en la prelista provisional el 11 de mayo y, sobre todo, en la **convocatoria definitiva de 26 jugadores el lunes 18 de mayo de 2026**. Neymar, con 8 goles y 6 asistencias en el Campeonato Paulista y los primeros partidos del Brasileirão, había recuperado nivel competitivo. Ancelotti lo blindó pese a las dudas del cuerpo médico (Neymar sufrió otra lesión muscular el 21 de mayo en la pantorrilla, pero el cuerpo técnico confía en su recuperación para el debut del 14 de junio contra Marruecos).
+
+Demasiado tarde para Panini. El álbum ya estaba imprimido y distribuido. Cambiar la tirada habría supuesto **40-50 millones de unidades a recolocar**, logísticamente imposible a tres semanas del Mundial.
+
+## La solución: Update Set (Set de Actualización)
+
+**Juan Pedro Martínez, director editorial de Panini España**, lo confirmó en *Cope* la semana pasada: *"Saldrá un pack con Neymar. Estamos trabajando en el Update Set que cubrirá las novedades de las convocatorias definitivas"*.
+
+El **Update Set** es una tradición Panini en cada Mundial. Históricamente se ha lanzado **un par de semanas después del inicio del torneo** (es decir, entre el 22 y el 30 de junio de 2026 para esta edición). Incluirá:
+
+- **Neymar** y su figurita destacada (probablemente edición especial dorada por marketing).
+- Otros convocados de última hora que entraron en las listas definitivas y no aparecían en la tirada original (Manuel Neuer, Lennart Karl, Ansu Fati si entra el 25-may, etc.).
+- Posibles correcciones de errores de impresión (clubes que cambiaron en mercado de invierno).
+
+El Update Set se vende **por separado** del álbum base. Precio estimado en España: **3-5 euros el pack**.
+
+## Diferencias por región: la versión latinoamericana sí podría tenerlo
+
+Hay otro matiz importante. **Panini Brasil** y **Panini Argentina** imprimen ediciones regionales del álbum **con tirada posterior** a la global. Estas ediciones suelen lanzarse en abril-mayo, no en febrero, y los criterios de inclusión los marca cada federación nacional. La **edición brasileña** del álbum (impresa por Panini Brasil en São Paulo) sí incluye un cromo de Neymar como referente histórico del seleccionado, aunque sea en formato "Leyenda" más que "Convocado". La internacional, distribuida en España, México, Colombia, Chile y otros mercados hispanos, **no lo trae**.
+
+## Cómo conseguir la figurita de Neymar
+
+Tres caminos posibles para los coleccionistas:
+
+1. **Esperar al Update Set Panini** (entre el 22 y el 30 de junio de 2026 en tiendas y kioscos). Es el camino oficial.
+2. **Importar el álbum brasileño**. Algunas tiendas online especializadas (Tcgfactory, Coleccionismo Madrid, Mercado Libre Brasil) lo venden a precios entre 25-40 euros, frente a los 9-15 euros del álbum estándar internacional.
+3. **Mercado secundario**. Apenas anunció Panini el Update Set, en eBay y Wallapop empezaron a aparecer cromos sueltos preventa de Neymar entre 15 y 80 euros (la versión dorada). Riesgo de fraude alto: confirmar que el vendedor entrega solo después del lanzamiento oficial.
+
+## El precedente: Lionel Messi 2014
+
+No es la primera vez que esto pasa. En el Mundial Brasil 2014, **Falcao** (Colombia) se rompió los cruzados en enero de 2014 y Panini cerró la impresión sin él. Cuando finalmente NO fue convocado por José Pékerman, su cromo nunca llegó al álbum oficial. La diferencia con Neymar es que él SÍ está convocado.
+
+Más sobre la convocatoria de Brasil en [/2026/listas/BRA](/2026/listas/BRA) y la guía completa del álbum Panini Mundial 2026 en [/coleccionismo/panini-mundial-2026](/coleccionismo/panini-mundial-2026).`,
+    category: 'panini',
+    sourceName: 'La Opinión',
+    sourceUrl:
+      'https://laopinion.com/2026/05/19/neymar-no-aparece-en-el-album-del-mundial-2026-puede-ser-incluido-ahora/',
+    sourceLang: 'es',
+    publishedAt: '2026-05-23T13:00:00Z',
+    sourcesSecondary: [
+      {
+        name: 'OneFootball · Neymar fuera del álbum',
+        url: 'https://onefootball.com/es/noticias/neymar-fuera-del-album-del-mundial-2026-en-la-version-global-de-panini-42771578',
+      },
+      {
+        name: 'Publimetro Chile · actualización láminas',
+        url: 'https://www.publimetro.cl/deportes/2026/05/19/panini-actualizaria-laminas-del-mundial-2026-neymar-seria-el-gran-caso-que-abriria-la-discusion/',
+      },
+      {
+        name: 'Bolavip · Panini sacaría lámina Neymar',
+        url: 'https://bolavip.com/mundial/panini-sacaria-la-lamina-de-neymar-como-conseguirla-para-el-album-del-mundial-2026',
+      },
+      {
+        name: 'El Universo · cómo conseguir lámina Neymar',
+        url: 'https://www.eluniverso.com/deportes/futbol/lamina-de-neymar-en-el-album-panini-del-mundial-2026-que-se-sabe-y-como-puedes-conseguirla-nota/',
+      },
+      {
+        name: 'Claro Sports · Panini actualizará',
+        url: 'https://www.clarosports.com/futbol/mundial-2026/panini-actualizara-su-album-luego-de-la-convocatoria-de-neymar-al-mundial-2026-esto-sabemos/',
+      },
+    ],
+  },
  {
  slug: 'fermin-lopez-baja-mundial-2026-espana-lesion-fractura-quinto-metatarsiano-operacion-barcelona',
     title:

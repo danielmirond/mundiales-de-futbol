@@ -244,8 +244,8 @@ export const TOURNAMENTS: Tournament[] = [
     startDate: '1982-06-13', endDate: '1982-07-11',
     topScorer: { name: 'Paolo Rossi', goals: 6, team: 'Italia' },
     palette: { from: '#aa151b', to: '#f1bf00' },
-    tagline: 'Paolo Rossi',
-    seoIconic: 'el del Italia campeón con Paolo Rossi',
+    tagline: 'Paolo Rossi y la noche del Sarrià',
+    seoIconic: 'Italia campeona, Rossi 6 goles y Gentile contra Maradona en el Sarrià',
   },
   {
     year: 1986, slug: '1986-mexico', host: 'México', hostCode: 'MX',
