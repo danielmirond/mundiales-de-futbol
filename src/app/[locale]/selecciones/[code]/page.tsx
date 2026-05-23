@@ -150,9 +150,66 @@ export default async function SelectionDetailPage({
     award: team.titles > 0 ? `${team.titles}× FIFA World Cup champion` : undefined,
   };
 
+  // FAQ schema con preguntas frecuentes específicas de la selección.
+  // Captura las queries 'cuantos goles/mundiales tiene X' que en GSC
+  // están en posición 6-11 con ~0% CTR por falta de answer directo.
+  const teamFaqLd = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: `¿Cuántos Mundiales ha ganado ${teamDisplayName(team)}?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: unified.titles > 0
+            ? `${teamDisplayName(team)} ha ganado ${unified.titles} Mundial${unified.titles === 1 ? '' : 'es'}. Ha disputado ${unified.wc_count} torneos en total con un balance de ${unified.wins} victorias, ${unified.draws} empates y ${unified.losses} derrotas.`
+            : `${teamDisplayName(team)} no ha ganado ningún Mundial. Ha disputado ${unified.wc_count} torneo${unified.wc_count === 1 ? '' : 's'} en su historia con un balance de ${unified.wins} victorias, ${unified.draws} empates y ${unified.losses} derrotas.`,
+        },
+      },
+      {
+        '@type': 'Question',
+        name: `¿Cuántos goles tiene ${teamDisplayName(team)} en los Mundiales?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `${teamDisplayName(team)} ha marcado ${unified.goals_for} goles a favor y recibido ${unified.goals_against} en sus ${unified.wc_count} participaciones mundialistas. Diferencia de goles: ${unified.goals_for - unified.goals_against >= 0 ? '+' : ''}${unified.goals_for - unified.goals_against}.`,
+        },
+      },
+      {
+        '@type': 'Question',
+        name: `¿Cuántos Mundiales ha jugado ${teamDisplayName(team)}?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `${teamDisplayName(team)} ha disputado ${unified.wc_count} Copas del Mundo a lo largo de la historia. Total de partidos jugados: ${unified.matches_played}.`,
+        },
+      },
+      ...(unified.titles > 0
+        ? [
+            {
+              '@type': 'Question',
+              name: `¿Cuándo ganó ${teamDisplayName(team)} su último Mundial?`,
+              acceptedAnswer: {
+                '@type': 'Answer',
+                text: `Consulta la lista completa de títulos de ${teamDisplayName(team)} en su histórico de palmarés y los partidos disputados en cada Mundial dentro de esta página.`,
+              },
+            },
+          ]
+        : [
+            {
+              '@type': 'Question',
+              name: `¿Cuál es el mejor resultado de ${teamDisplayName(team)} en un Mundial?`,
+              acceptedAnswer: {
+                '@type': 'Answer',
+                text: `${teamDisplayName(team)} nunca ha ganado un Mundial. Su mejor actuación histórica se puede consultar dentro de esta misma página en la sección de Mundiales disputados.`,
+              },
+            },
+          ]),
+    ],
+  };
+
   return (
     <div>
-      <JsonLd data={jsonLd} />
+      <JsonLd data={[jsonLd, teamFaqLd]} />
       {/* Hero */}
       <section className="relative overflow-hidden pb-16 pt-28 md:pt-36">
         <div className="pointer-events-none absolute inset-0">
