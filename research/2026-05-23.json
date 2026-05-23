@@ -1,0 +1,437 @@
+{
+  "generatedAt": "2026-05-23T08:35:55.833Z",
+  "date": "2026-05-23",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "sports",
+      "geo": "CA",
+      "language": "en",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "With all eyes on Vancouver, why is B.C. Sports Hall of Fame closed?",
+          "url": "https://theprovince.com/sports/soccer/mls/vancouver-whitecaps/with-the-worlds-stage-here-why-is-b-c-sports-hall-of-fame-closed",
+          "source": "The Province"
+        },
+        {
+          "title": "Letters to The Vancouver Sun: B.C. Sports Hall of Fame deserves better than to be ousted during World Cup",
+          "url": "https://vancouversun.com/opinion/op-ed/letters-to-the-vancouver-sun-b-c-sports-hall-of-fame-deserves-better-than-to-be-ousted-during-world-cup",
+          "source": "Vancouver Sun"
+        },
+        {
+          "title": "‘Disappointing’: Reaction to B.C. Sports Hall of Fame closing for FIFA World Cup",
+          "url": "https://globalnews.ca/news/11856219/reaction-bc-sports-hall-of-fame-closing-fifa-world-cup/",
+          "source": "Global News"
+        }
+      ]
+    },
+    {
+      "query": "mexico vs",
+      "geo": "CL",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "La historia detrás del México contra Ghana en Puebla",
+          "url": "https://www.espn.cl/futbol/selecciones/nota/_/id/16745739/mexico-vs-ghana-la-historia-detras-del-amistoso-en-puebla",
+          "source": "ESPN Chile"
+        },
+        {
+          "title": "Los tres amistosos que jugará México previo al Mundial 2026: rivales, días, horarios y sedes",
+          "url": "https://bolavip.com/mx/seleccionmexicana/los-tres-amistosos-que-jugara-mexico-previo-al-mundial-2026-rivales-dias-horarios-y-sedes",
+          "source": "Bolavip México"
+        },
+        {
+          "title": "¡Era el segundo! El Piojo Alvarado intenta de lejos pero el arquero lo detiene",
+          "url": "https://www.tudn.com/futbol/mexico/era-el-segundo-el-piojo-alvarado-intenta-de-lejos-pero-el-arquero-lo-detiene-video",
+          "source": "TUDN"
+        }
+      ]
+    },
+    {
+      "query": "méxico - ghana",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 5000,
+      "articles": [
+        {
+          "title": "Memote Martínez se luce en la victoria ante Ghana",
+          "url": "https://www.espn.com.ar/futbol/selecciones/nota/_/id/16747363/mexico-vs-ghana-resumen-goles-partido-amistoso-rumbo-al-mundial",
+          "source": "ESPN Deportes"
+        },
+        {
+          "title": "Canal 5 y TUDN televisaron el partido México 2-0 Ghana por amistoso del Mundial 2026",
+          "url": "https://gestion.pe/mix/sports/tudn-y-canal-5-en-vivo-por-internet-donde-ver-partido-mexico-vs-ghana-por-tv-abierta-y-futbol-online-nnda-nnrt-noticia/",
+          "source": "Diario Gestión"
+        },
+        {
+          "title": "México vs Ghana: ¿Por qué Carlos Queiroz no dirigirá?",
+          "url": "https://espndeportes.espn.com/futbol/selecciones/nota/_/id/16746762/mexico-vs-ghana-por-que-carlos-queiroz-no-dirigira-partido",
+          "source": "ESPN Deportes"
+        }
+      ]
+    },
+    {
+      "query": "mexico vs",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "México - Ghana, 23/05/2026 - Partidos amistosos - Informe del partido",
+          "url": "https://www.transfermarkt.es/spielbericht/index/spielbericht/4838710",
+          "source": "Transfermarkt"
+        },
+        {
+          "title": "¡Era el segundo! El Piojo Alvarado intenta de lejos pero el arquero lo detiene",
+          "url": "https://www.tudn.com/futbol/mexico/era-el-segundo-el-piojo-alvarado-intenta-de-lejos-pero-el-arquero-lo-detiene-video",
+          "source": "TUDN"
+        },
+        {
+          "title": "¿Cuándo y dónde jugará México su próximo partido de preparación rumbo al Mundial 2026?",
+          "url": "https://www.record.com.mx/historia/cuando-y-donde-jugara-mexico-su-proximo-partido-de-preparacion-rumbo-al-mundial-2026-2026052301064405638",
+          "source": "RÉCORD"
+        }
+      ]
+    },
+    {
+      "query": "amistosos",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Juega y elige la lista de convocados de Ecuador para el Mundial 2026",
+          "url": "https://www.primicias.ec/deportes/mundial-2026/seleccion-ecuador/lista-convocados-alineacion-director-tecnico-juego-simulador-122911/",
+          "source": "Primicias"
+        },
+        {
+          "title": "Luis Fragozo, una de las sorpresas de Ecuador para los amistosos previos al Mundial",
+          "url": "https://www.elcomercio.com/deportes/futbol/fragozo-aparece-preparacion-ecuador-rumbo-mundial/",
+          "source": "El Comercio"
+        },
+        {
+          "title": "Jeremy Arévalo jugará el Mundial con Ecuador, según reveló Stuttgart",
+          "url": "https://www.eluniverso.com/deportes/futbol/jeremy-arevalo-jugara-el-mundial-con-ecuador-segun-revelo-stuttgart-nota/",
+          "source": "El Universo"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "en": [
+      {
+        "query": "sports",
+        "score": 600,
+        "geos": [
+          "CA"
+        ],
+        "samples": [
+          {
+            "query": "sports",
+            "geo": "CA",
+            "language": "en",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "With all eyes on Vancouver, why is B.C. Sports Hall of Fame closed?",
+                "url": "https://theprovince.com/sports/soccer/mls/vancouver-whitecaps/with-the-worlds-stage-here-why-is-b-c-sports-hall-of-fame-closed",
+                "source": "The Province"
+              },
+              {
+                "title": "Letters to The Vancouver Sun: B.C. Sports Hall of Fame deserves better than to be ousted during World Cup",
+                "url": "https://vancouversun.com/opinion/op-ed/letters-to-the-vancouver-sun-b-c-sports-hall-of-fame-deserves-better-than-to-be-ousted-during-world-cup",
+                "source": "Vancouver Sun"
+              },
+              {
+                "title": "‘Disappointing’: Reaction to B.C. Sports Hall of Fame closing for FIFA World Cup",
+                "url": "https://globalnews.ca/news/11856219/reaction-bc-sports-hall-of-fame-closing-fifa-world-cup/",
+                "source": "Global News"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "es": [
+      {
+        "query": "méxico - ghana",
+        "score": 4500,
+        "geos": [
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "méxico - ghana",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 5000,
+            "articles": [
+              {
+                "title": "Memote Martínez se luce en la victoria ante Ghana",
+                "url": "https://www.espn.com.ar/futbol/selecciones/nota/_/id/16747363/mexico-vs-ghana-resumen-goles-partido-amistoso-rumbo-al-mundial",
+                "source": "ESPN Deportes"
+              },
+              {
+                "title": "Canal 5 y TUDN televisaron el partido México 2-0 Ghana por amistoso del Mundial 2026",
+                "url": "https://gestion.pe/mix/sports/tudn-y-canal-5-en-vivo-por-internet-donde-ver-partido-mexico-vs-ghana-por-tv-abierta-y-futbol-online-nnda-nnrt-noticia/",
+                "source": "Diario Gestión"
+              },
+              {
+                "title": "México vs Ghana: ¿Por qué Carlos Queiroz no dirigirá?",
+                "url": "https://espndeportes.espn.com/futbol/selecciones/nota/_/id/16746762/mexico-vs-ghana-por-que-carlos-queiroz-no-dirigira-partido",
+                "source": "ESPN Deportes"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "mexico vs",
+        "score": 580,
+        "geos": [
+          "CL",
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "mexico vs",
+            "geo": "CL",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "La historia detrás del México contra Ghana en Puebla",
+                "url": "https://www.espn.cl/futbol/selecciones/nota/_/id/16745739/mexico-vs-ghana-la-historia-detras-del-amistoso-en-puebla",
+                "source": "ESPN Chile"
+              },
+              {
+                "title": "Los tres amistosos que jugará México previo al Mundial 2026: rivales, días, horarios y sedes",
+                "url": "https://bolavip.com/mx/seleccionmexicana/los-tres-amistosos-que-jugara-mexico-previo-al-mundial-2026-rivales-dias-horarios-y-sedes",
+                "source": "Bolavip México"
+              },
+              {
+                "title": "¡Era el segundo! El Piojo Alvarado intenta de lejos pero el arquero lo detiene",
+                "url": "https://www.tudn.com/futbol/mexico/era-el-segundo-el-piojo-alvarado-intenta-de-lejos-pero-el-arquero-lo-detiene-video",
+                "source": "TUDN"
+              }
+            ]
+          },
+          {
+            "query": "mexico vs",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "México - Ghana, 23/05/2026 - Partidos amistosos - Informe del partido",
+                "url": "https://www.transfermarkt.es/spielbericht/index/spielbericht/4838710",
+                "source": "Transfermarkt"
+              },
+              {
+                "title": "¡Era el segundo! El Piojo Alvarado intenta de lejos pero el arquero lo detiene",
+                "url": "https://www.tudn.com/futbol/mexico/era-el-segundo-el-piojo-alvarado-intenta-de-lejos-pero-el-arquero-lo-detiene-video",
+                "source": "TUDN"
+              },
+              {
+                "title": "¿Cuándo y dónde jugará México su próximo partido de preparación rumbo al Mundial 2026?",
+                "url": "https://www.record.com.mx/historia/cuando-y-donde-jugara-mexico-su-proximo-partido-de-preparacion-rumbo-al-mundial-2026-2026052301064405638",
+                "source": "RÉCORD"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "amistosos",
+        "score": 400,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "amistosos",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Juega y elige la lista de convocados de Ecuador para el Mundial 2026",
+                "url": "https://www.primicias.ec/deportes/mundial-2026/seleccion-ecuador/lista-convocados-alineacion-director-tecnico-juego-simulador-122911/",
+                "source": "Primicias"
+              },
+              {
+                "title": "Luis Fragozo, una de las sorpresas de Ecuador para los amistosos previos al Mundial",
+                "url": "https://www.elcomercio.com/deportes/futbol/fragozo-aparece-preparacion-ecuador-rumbo-mundial/",
+                "source": "El Comercio"
+              },
+              {
+                "title": "Jeremy Arévalo jugará el Mundial con Ecuador, según reveló Stuttgart",
+                "url": "https://www.eluniverso.com/deportes/futbol/jeremy-arevalo-jugara-el-mundial-con-ecuador-segun-revelo-stuttgart-nota/",
+                "source": "El Universo"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "topic": "méxico - ghana",
+      "type": "noticia",
+      "slugSuggestion": "mexico-ghana",
+      "language": "es",
+      "geos": [
+        "PE"
+      ],
+      "score": 5400,
+      "reason": "Google Trends daily PE con 5,000 búsquedas · 3 artículos noticiosos referenciando \"méxico - ghana\"",
+      "proposedPath": "/noticias/mexico-ghana",
+      "evidence": [
+        {
+          "query": "méxico - ghana",
+          "geo": "PE",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 5000,
+          "articles": [
+            {
+              "title": "Memote Martínez se luce en la victoria ante Ghana",
+              "url": "https://www.espn.com.ar/futbol/selecciones/nota/_/id/16747363/mexico-vs-ghana-resumen-goles-partido-amistoso-rumbo-al-mundial",
+              "source": "ESPN Deportes"
+            },
+            {
+              "title": "Canal 5 y TUDN televisaron el partido México 2-0 Ghana por amistoso del Mundial 2026",
+              "url": "https://gestion.pe/mix/sports/tudn-y-canal-5-en-vivo-por-internet-donde-ver-partido-mexico-vs-ghana-por-tv-abierta-y-futbol-online-nnda-nnrt-noticia/",
+              "source": "Diario Gestión"
+            },
+            {
+              "title": "México vs Ghana: ¿Por qué Carlos Queiroz no dirigirá?",
+              "url": "https://espndeportes.espn.com/futbol/selecciones/nota/_/id/16746762/mexico-vs-ghana-por-que-carlos-queiroz-no-dirigira-partido",
+              "source": "ESPN Deportes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "sports",
+      "type": "noticia",
+      "slugSuggestion": "sports",
+      "language": "en",
+      "geos": [
+        "CA"
+      ],
+      "score": 720,
+      "reason": "Google Trends daily CA con 500 búsquedas · 3 artículos noticiosos referenciando \"sports\"",
+      "proposedPath": "/noticias/sports",
+      "evidence": [
+        {
+          "query": "sports",
+          "geo": "CA",
+          "language": "en",
+          "source": "google-trends-daily",
+          "score": 500,
+          "articles": [
+            {
+              "title": "With all eyes on Vancouver, why is B.C. Sports Hall of Fame closed?",
+              "url": "https://theprovince.com/sports/soccer/mls/vancouver-whitecaps/with-the-worlds-stage-here-why-is-b-c-sports-hall-of-fame-closed",
+              "source": "The Province"
+            },
+            {
+              "title": "Letters to The Vancouver Sun: B.C. Sports Hall of Fame deserves better than to be ousted during World Cup",
+              "url": "https://vancouversun.com/opinion/op-ed/letters-to-the-vancouver-sun-b-c-sports-hall-of-fame-deserves-better-than-to-be-ousted-during-world-cup",
+              "source": "Vancouver Sun"
+            },
+            {
+              "title": "‘Disappointing’: Reaction to B.C. Sports Hall of Fame closing for FIFA World Cup",
+              "url": "https://globalnews.ca/news/11856219/reaction-bc-sports-hall-of-fame-closing-fifa-world-cup/",
+              "source": "Global News"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "amistosos",
+      "type": "noticia",
+      "slugSuggestion": "amistosos",
+      "language": "es",
+      "geos": [
+        "EC"
+      ],
+      "score": 480,
+      "reason": "Google Trends daily EC con 500 búsquedas · 3 artículos noticiosos referenciando \"amistosos\"",
+      "proposedPath": "/noticias/amistosos",
+      "evidence": [
+        {
+          "query": "amistosos",
+          "geo": "EC",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 500,
+          "articles": [
+            {
+              "title": "Juega y elige la lista de convocados de Ecuador para el Mundial 2026",
+              "url": "https://www.primicias.ec/deportes/mundial-2026/seleccion-ecuador/lista-convocados-alineacion-director-tecnico-juego-simulador-122911/",
+              "source": "Primicias"
+            },
+            {
+              "title": "Luis Fragozo, una de las sorpresas de Ecuador para los amistosos previos al Mundial",
+              "url": "https://www.elcomercio.com/deportes/futbol/fragozo-aparece-preparacion-ecuador-rumbo-mundial/",
+              "source": "El Comercio"
+            },
+            {
+              "title": "Jeremy Arévalo jugará el Mundial con Ecuador, según reveló Stuttgart",
+              "url": "https://www.eluniverso.com/deportes/futbol/jeremy-arevalo-jugara-el-mundial-con-ecuador-segun-revelo-stuttgart-nota/",
+              "source": "El Universo"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alreadyCovered": [
+    {
+      "query": "mexico vs",
+      "matchUrl": "/ediciones/1970-mexico"
+    },
+    {
+      "query": "mexico vs",
+      "matchUrl": "/ediciones/1970-mexico"
+    }
+  ]
+}
