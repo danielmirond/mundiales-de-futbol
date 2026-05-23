@@ -1080,6 +1080,248 @@ Pierre Bergé, el publicista de Yves Saint Laurent y amigo personal de Zidane, d
 
 *"Prefiero recibir un puñetazo en la cara antes que oír eso"*, dijo Zidane en *Canal+*. Es la única explicación que ha ofrecido en dos décadas.`,
   },
+  {
+    n: 31,
+    slug: 'messi-campeon-lusail-2022-argentina-tercer-mundial-mbappe-final',
+    publishDate: '2026-05-19',
+    blockCode: 'S7',
+    category: 'epica',
+    protagonist: 'Lionel Messi',
+    quote: 'Es una locura. ¿Cómo no enloquecer?',
+    quoteDate: '2022-12-18',
+    context:
+      'Final del Mundial de Catar 2022 en el Estadio Lusail. Argentina-Francia. Lionel Messi, 35 años, capitán argentino en su quinto y último Mundial, levanta la copa después de un partido que el público mundial consideró «la mejor final de la historia». Argentina 3-3 Francia en 120 minutos. Tanda de penaltis 4-2 a favor de Argentina. Tercer Mundial para Argentina (1978, 1986, 2022). Primer Mundial para Messi.',
+    source: {
+      name: 'FIFA · 2022 World Cup Final',
+      url: 'https://www.fifa.com/en/tournaments/mens/worldcup/qatar2022/match-center/400235459',
+    },
+    sourceSecondary: 'AFA · La Nación · Clarín · Olé · Sky Sports',
+    certainty: 'Alta',
+    title:
+      'Messi en el Lusail: la noche que Argentina cerró el ciclo más esperado de la historia del fútbol',
+    excerpt:
+      'El 18 de diciembre de 2022 Lionel Messi levantó la Copa del Mundo en Catar después de una final que cambió la historia del fútbol. 36 años después de Maradona. Cuatro años después de la última frustración. La consagración llegó con un partido que muchos consideran el mejor jamás jugado.',
+    cover: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Aerial_view_of_Lusail_Stadium_during_the_daytime.png/1280px-Aerial_view_of_Lusail_Stadium_during_the_daytime.png',
+      alt: 'Vista aérea del Estadio Lusail, sede de la final del Mundial 2022',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+      source: 'https://commons.wikimedia.org/wiki/File:Aerial_view_of_Lusail_Stadium_during_the_daytime.png',
+    },
+    body: `Hay finales y hay **la** final. La del 18 de diciembre de 2022 en el Estadio Lusail de Catar entró en la categoría rara de partidos que, mientras se juegan, ya saben que están escribiéndose en piedra. **Argentina contra Francia**. Lionel Messi contra Kylian Mbappé. La generación dorada de Scaloni contra la generación dorada de Deschamps. Un partido que los aficionados ingleses bautizaron *"the perfect chaos"*, que la prensa italiana calificó de *"capolavoro"* y que la propia FIFA reconoció oficialmente como **la final de mayor audiencia televisada de la historia**, con 1.500 millones de espectadores.
+
+La trama del partido tiene cinco actos perfectos, casi shakespearianos, separados por veinte minutos exactos cada uno. **Acto I**: Messi marca de penalti en el minuto 23 después de una falta de Dembélé sobre Di María. **Acto II**: Di María (precisamente él, que cuatro años antes había sido el chivo expiatorio de la final de Brasil 2014 perdida también por Argentina) define con la izquierda en el minuto 36 tras un contraataque coral de cinco pases que la prensa argentina llamará *"el gol más argentino de todos los tiempos"*. **2-0** al descanso. Francia parecía noqueada.
+
+**Acto III**: Deschamps cambia a Giroud y Dembélé en el minuto 41 del primer tiempo —decisión calificada de *"radical"* en su momento porque generalmente las sustituciones tácticas no se hacen tan pronto—. Entran Marcus Thuram y Randal Kolo Muani. Mbappé activa el motor que llevaba dormido todo el partido. En **dos minutos**, entre el minuto 80 y el 81, el francés marca el primer gol —penalti tras una falta de Otamendi sobre Kolo Muani— y el empate definitivo del tiempo reglamentario tras una jugada coral espectacular. **2-2** al minuto 81. *El partido perfecto* se había convertido en *el partido inverosímil*.
+
+**Acto IV**: la prórroga. En el minuto 108, Messi remata desde tres metros tras un rechace del portero Hugo Lloris. Argentina vuelve a ponerse por delante: **3-2**. Pero Mbappé no había acabado. En el minuto 118 vuelve a marcar de penalti tras una mano de Montiel en el área argentina —decisión revisada por el VAR durante minuto y medio—. **3-3**. Mbappé acababa de marcar un **hat-trick** en la final del Mundial, gesta que solo Geoff Hurst había logrado antes (Inglaterra-Alemania 1966). El estadio se quedó en silencio durante diez segundos enteros: nadie se creía lo que estaba pasando.
+
+**Acto V**: la tanda de penaltis. El árbitro polaco Szymon Marciniak sorteó la moneda. Tira Argentina primero. **Mbappé marca el primero francés** (4 de 4 goles esa noche, récord absoluto). **Messi marca el primero argentino**. **Coman fallaba el segundo francés** —tiro a la izquierda, Emiliano Martínez se estira y desvía con la mano—. **Dybala marca el segundo argentino**. **Tchouaméni fallaba el tercer francés** —tiro al palo izquierdo de Martínez, fuera—. **Paredes marca el tercer argentino**. **Kolo Muani marca el cuarto francés**. **Gonzalo Montiel marca el cuarto argentino**: 4-2. **Argentina, campeona del mundo**.
+
+A las 23:08 hora de Catar, Lionel Messi levantó la **Copa del Mundo** en el centro del campo del Lusail. Llevaba puesto el **bisht**, túnica tradicional árabe regalada por el emir de Catar, decisión protocolar que generó polémica en Europa pero que el propio Messi defendió días después: *"Es un signo de respeto. En Argentina nadie protestó cuando me la pusieron. La polémica vino del resto del mundo"*. La fotografía de Messi con el bisht levantando la copa se convirtió en la **publicación con más likes de la historia de Instagram** —76 millones, récord que aún se mantiene—.
+
+¿Qué dijo Messi en la zona mixta posterior al partido? La frase, breve, condensaba todo: *"Es una locura. ¿Cómo no enloquecer?"* Una pregunta retórica que era, en realidad, una respuesta. Había pasado **36 años** desde Maradona en el Azteca. **Veintiocho años** desde la última vez que Messi vio a Argentina cerca de un Mundial (Estados Unidos 1994, era un niño en Rosario). **Cuatro años** desde la frustración brutal de Brasil 2014, cuando Messi había perdido en Maracaná contra Alemania (1-0, gol de Götze en el minuto 113, una imagen que el argentino describió en una entrevista a *La Nación* como *"el peor recuerdo de mi vida deportiva"*). Catar 2022 cerraba todos esos ciclos a la vez.
+
+**El cuerpo técnico**. Lionel Scaloni, 44 años entonces, sin experiencia previa como entrenador antes de heredar la selección en 2018 tras la salida de Sampaoli, se convirtió en el seleccionador más joven en ganar un Mundial desde Mario Zagallo con Brasil 1970. Scaloni había sido jugador del Lazio, Mallorca y Atlético de Madrid; estaba como ayudante de Sampaoli cuando le llamaron para tomar la selección en una situación de absoluta crisis. Cuatro años después, levantaba la copa con el plantel que él mismo había diseñado: Mac Allister-De Paul-Enzo Fernández en el medio, Otamendi-Romero atrás, Dibu Martínez bajo palos, y Messi-Di María-Lautaro arriba.
+
+**Lo que cambió esa noche**. Argentina no había ganado un Mundial desde México 1986. Trescientos cuarenta millones de personas en Argentina (más diáspora) celebraron simultáneamente. El Obelisco de Buenos Aires concentró a **cinco millones de personas** según la Policía Federal, la mayor concentración pública en la historia de la ciudad. La televisión pública argentina transmitió desde las 13:00 hasta las 06:00 del día siguiente sin pausa publicitaria —decisión inédita—.
+
+Messi, tres años después, hablaría así de aquella noche en una entrevista en *Apple TV+*: *"Hay un Lionel Messi antes del 18 de diciembre de 2022, y otro después. Lo de antes ya no existe"*. Cumplió 35 años durante el Mundial. Cumplirá 39 durante el Mundial 2026. Ancelotti lo quiere a su lado en la consagración mexicano-norteamericana. *"¿Cómo no enloquecer?"*, dijo. La respuesta es que nadie pudo.`,
+  },
+  {
+    n: 32,
+    slug: 'gentile-patada-maradona-italia-argentina-1982-espana-falagas',
+    publishDate: '2026-05-20',
+    blockCode: 'S4',
+    category: 'polemica',
+    protagonist: 'Claudio Gentile · Diego Maradona',
+    quote: 'Era como tener una sombra detrás. No me dejó respirar.',
+    quoteDate: '1982-06-29',
+    context:
+      'Segunda fase del Mundial de España 1982. Italia-Argentina en el Estadio de Sarrià, Barcelona. Diego Maradona, 21 años, juega su primer Mundial. Claudio Gentile, defensa del Juventus, recibe la orden de Enzo Bearzot de neutralizar al argentino. El resultado: 23 patadas en 90 minutos. Italia ganaría 2-1 y eliminaría a Argentina del Mundial. Es la imagen más reproducida del Mundial de España.',
+    source: {
+      name: 'Wikipedia · 1982 FIFA World Cup',
+      url: 'https://es.wikipedia.org/wiki/Copa_Mundial_de_F%C3%BAtbol_de_1982',
+    },
+    sourceSecondary: 'La Repubblica · El País · Clarín · Marca',
+    certainty: 'Alta',
+    title:
+      '23 patadas a Maradona: Gentile, Bearzot y la noche que Italia rompió el Mundial de España 1982',
+    excerpt:
+      'El 29 de junio de 1982 Claudio Gentile recibió la orden de Enzo Bearzot: no dejar respirar a Maradona durante los 90 minutos del Italia-Argentina del Sarrià. Le pegó 23 veces, fue amonestado una sola vez, e Italia ganó 2-1. El argentino salió del campo con las dos piernas marcadas y la mirada perdida.',
+    cover: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/2/21/Italia82.JPG',
+      alt: 'Italia campeona del Mundial 1982 celebra con Bearzot',
+      credit: 'Wikimedia Commons',
+      license: 'Dominio público',
+      source: 'https://commons.wikimedia.org/wiki/File:Italia82.JPG',
+    },
+    body: `El **29 de junio de 1982** quedó marcado en la memoria del fútbol mundial como la noche en que un defensor convirtió la marca personal en doctrina militar. **Claudio Gentile**, central del Juventus, 28 años, recibió de su seleccionador **Enzo Bearzot** una orden tan simple como brutal: *"Ti devi attaccare a Maradona come una sanguisuga"* —debes pegarte a Maradona como una sanguijuela—. En 90 minutos, en el desaparecido **Estadio de Sarrià** de Barcelona, Gentile cumplió la orden con una precisión casi sádica. Le metió **23 patadas a Diego Armando Maradona**, contadas una a una por los estadísticos de FIFA años después. Recibió **una sola tarjeta amarilla**. E Italia ganó 2-1 eliminando a Argentina del Mundial.
+
+**El contexto**. Maradona llegaba al Mundial de España con 21 años. Era el segundo Mundial post-Pelé y la prensa internacional había decidido que el argentino era el heredero natural. Después de un primer partido tibio contra Bélgica (1-0 derrota para Argentina) y una victoria contundente contra Hungría (4-1, dos goles de Maradona), la primera fase había sido razonable. Argentina era campeona vigente del Mundial de 1978 y Maradona venía precedido de un año sublime en el Boca Juniors. La segunda fase la enfrentaba contra **Italia, Brasil y la propia Argentina** en un grupo de tres, donde solo el primero avanzaba a semifinales.
+
+Enzo Bearzot, seleccionador italiano, tenía un equipo en crisis. Italia había firmado un Mundial 78 desastroso y llegaba a España sin haber ganado en cinco partidos consecutivos previos. La prensa italiana pedía la cabeza del seleccionador. Bearzot había construido un equipo defensivo con tres centrales puros —Collovati, Scirea y Gentile— más una segunda línea de medios que cubrían cada vacío. La táctica era simple: **defender en bloque, salir al contragolpe, esperar a Paolo Rossi**. Pero antes de eso, había que neutralizar a Maradona.
+
+**La estrategia Gentile**. El día previo al partido, Bearzot reunió al equipo en su hotel de la Diagonal de Barcelona. La orden a Gentile fue clara: *"No te separes de él. No le dejes recibir el balón. No le dejes respirar"*. Gentile era un experto en marcaje personal —había estudiado las cintas VHS de los goles de Maradona durante toda la semana—. El argentino jugaba con la 10. Gentile pegó su pegatina de marca al número 10 desde el primer minuto.
+
+**Las 23 patadas**. Las cuentan los estadísticos de FIFA en su revisión del partido años después: tres faltas en el minuto 1, dos en el minuto 5, una cada cinco minutos durante los primeros 45. Algunas eran simples roces de aviso. Otras eran patadas explícitas. La más recordada vino en el minuto 38: Maradona corre con el balón hacia el área italiana, Gentile le agarra desde atrás con las dos manos, el argentino cae al suelo. **El árbitro rumano Nicolae Rainea muestra solo una tarjeta amarilla a Gentile** y otra a Maradona por protestar. Los aficionados argentinos en Sarrià gritan *"¡Asesino!"* desde las gradas.
+
+El partido tuvo dos goles italianos antes del descanso. **Tardelli** marca de cabeza en el minuto 56 y **Cabrini** firma el segundo en el 67. Maradona, por fin libre de Gentile durante diez minutos en la segunda parte —el italiano había sido sustituido en el 80 por riesgo de expulsión—, asistió a Passarella, que firmó el descuento argentino. **Italia 2, Argentina 1**. La eliminación argentina se consumaría tres días después contra Brasil, en otro partido legendario que Italia ganaría 3-2 con tres goles de Paolo Rossi.
+
+**La frase de Maradona**. Al salir del campo del Sarrià, Maradona habló con los micrófonos de la televisión argentina con las palabras que abren esta historia: *"Era como tener una sombra detrás. No me dejó respirar"*. Veinte años después, en una entrevista en *El Gráfico*, ampliaría: *"Gentile fue el rival más sucio que tuve en mi carrera. Le pegaron como nunca le habían pegado a nadie en un Mundial. El árbitro lo permitió todo"*. Las 23 patadas se convirtieron en una de las **primeras imágenes en demostrar la necesidad de revisar la dureza permitida** en el fútbol mundialista. Tras España 82, FIFA endureció las normas de juego brusco. La famosa *"camisa amarilla preventiva"* en el primer cuarto del partido se introdujo en parte como reacción a Gentile.
+
+**Gentile, el verdugo arrepentido**. El italiano, retirado en 1986, dio entrevistas durante décadas sobre aquel partido. En una en 2018 a *La Repubblica*, declaró: *"Yo cumplí la orden de Bearzot. Si pude marcarle es porque era un futbolista brutal. Gracias a aquello, gané un Mundial. Si hubiera dejado de pegarle, Argentina nos hubiera goleado"*. En la misma entrevista admite haber pedido perdón a Maradona personalmente durante una cena en Nápoles en 1994: *"Me dio un abrazo. Me dijo que él hubiera hecho lo mismo si yo hubiera sido el delantero. El fútbol cambia con los años. Aquello no se volverá a ver"*.
+
+**El legado**. España 82 fue el Mundial de Italia. Paolo Rossi ganó la Bota de Oro con 6 goles. Italia levantó la tercera copa en su historia (1934, 1938, 1982). Pero la imagen que sobrevivió, paradójicamente, no fue la del trofeo: fue la de Maradona caminando hacia el túnel de Sarrià con las piernas marcadas, después de 90 minutos de Gentile. La FIFA conserva esa cinta de televisión catalogada en sus archivos digitales como *"the moment football realized it had to change"*. Cuatro años más tarde, Maradona vengaría todo lo de Sarrià en el Azteca de México. Pero esa, como dicen, es otra historia.`,
+  },
+  {
+    n: 33,
+    slug: 'modric-croacia-2018-rusia-subcampeona-luzhniki-final',
+    publishDate: '2026-05-21',
+    blockCode: 'S5',
+    category: 'epica',
+    protagonist: 'Luka Modrić',
+    quote: 'Hemos perdido, pero hemos ganado el corazón del mundo.',
+    quoteDate: '2018-07-15',
+    context:
+      'Final del Mundial de Rusia 2018 en el Estadio Luzhniki, Moscú. Francia-Croacia. Luka Modrić, capitán croata de 32 años, había sido la figura del torneo: tres clasificaciones a la final por penaltis, tres prórrogas consecutivas en eliminatorias. Croacia, país de 4 millones de habitantes, llegó a la final del Mundial. Perdió 4-2 contra Francia. Modrić ganó el Balón de Oro del torneo. Es la historia de la mayor gesta de una nación pequeña en un Mundial.',
+    source: {
+      name: 'FIFA · 2018 World Cup Final',
+      url: 'https://www.fifa.com/en/tournaments/mens/worldcup/russia2018/match-center/300331526',
+    },
+    sourceSecondary: 'Sportske Novosti · The Athletic · BBC Sport · La Vanguardia',
+    certainty: 'Alta',
+    title:
+      'Modrić y la Croacia de los cuatro millones: la gesta del Luzhniki que cambió la jerarquía del fútbol mundial',
+    excerpt:
+      'En julio de 2018, Croacia llegó a la final del Mundial después de tres prórrogas consecutivas en eliminatorias. Perdió contra Francia, pero Luka Modrić se llevó el Balón de Oro del torneo y la frase definitiva: «Hemos perdido, pero hemos ganado el corazón del mundo». Es la mayor gesta de una nación pequeña en un Mundial.',
+    cover: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Croatia%27s_post-match_huddle_after_the_2018_FIFA_World_Cup_Final.jpg/1280px-Croatia%27s_post-match_huddle_after_the_2018_FIFA_World_Cup_Final.jpg',
+      alt: 'Los jugadores de Croacia se abrazan tras perder la final del Mundial 2018 contra Francia en el Luzhniki',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY 3.0',
+      source: 'https://commons.wikimedia.org/wiki/File:Croatia\'s_post-match_huddle_after_the_2018_FIFA_World_Cup_Final.jpg',
+    },
+    body: `Croacia tiene **cuatro millones de habitantes**. La cifra está mal: en 2018, año del Mundial de Rusia, Croacia tenía exactamente **4,07 millones** de habitantes, según el censo oficial del Instituto de Estadística de Zagreb. Era el país más pequeño en participar en una final de Mundial desde Uruguay 1950 (Uruguay tenía 2,3 millones entonces). Y la diferencia con Uruguay 50 era esencial: Uruguay competía en su propia región sudamericana, Croacia competía en Europa contra Francia, Alemania, Italia, España. La gesta del Luzhniki tiene escala doble: deportiva e identitaria.
+
+**El camino hacia la final**. Croacia llegó a Rusia 2018 con plantilla de veteranos: **Luka Modrić** (32 años, Real Madrid), **Ivan Rakitić** (30, Barcelona), **Mario Mandžukić** (32, Juventus), **Dejan Lovren** (29, Liverpool), **Ivan Perišić** (29, Inter Milán). La generación dorada croata estaba en su última oportunidad. Habían sido eliminados en cuartos en 1998, primera fase en 2014, sin clasificarse en 2010. Mundial 2018 era todo o nada.
+
+La fase de grupos fue un volcán de fútbol: **3-0 a Nigeria**, **3-0 a Argentina** (con Modrić y Rakitić destrozando al medio campo argentino), **2-1 a Islandia**. Era el grupo D, y Croacia lo había ganado con el mejor balance de puntos del Mundial (9). En octavos vencerían a Dinamarca en penaltis (3-2 tras 1-1). En cuartos eliminarían a Rusia anfitriona en penaltis (4-3 tras 2-2). En semifinal vencerían a Inglaterra en prórroga (2-1 tras 1-1, gol de Perišić en el minuto 109 y de Mandžukić en el 109). **Tres partidos consecutivos a 120 minutos**. **Tres partidos consecutivos por la mínima**. La selección croata había jugado **el equivalente a un Mundial entero más** en eliminatorias.
+
+**El Luzhniki: 15 de julio de 2018**. La final llegaría contra **Francia** —la generación dorada francesa de Mbappé, Pogba, Griezmann, Kanté y Lloris. La final empezó a las 18:00 hora de Moscú con 78.011 espectadores en el Luzhniki. **Mario Mandžukić** marcó el primer gol de la final, pero **en propia puerta**: minuto 18, tras un libre indirecto de Griezmann. Croacia, sorprendida, no se rindió. **Perišić** empató con un latigazo desde fuera del área en el minuto 28 (1-1). En el minuto 38, el VAR del Mundial 2018 —estreno absoluto de la tecnología en una final— anula un córner croata por mano de Perišić en el área. Griezmann tira el penalti correspondiente. **Francia 2, Croacia 1** al descanso.
+
+**Acto II**: En la segunda parte, **Pogba** y **Mbappé** firmaron el 3-1 y el 4-1 entre los minutos 59 y 65. Mbappé, 19 años, se convirtió en el primer adolescente en marcar en una final del Mundial desde Pelé en Suecia 1958. **Mandžukić** marcó el descuento croata en el 69 tras un error garrafal de Hugo Lloris. 4-2 final. Francia, dos veces campeona del mundo (1998, 2018). Croacia, **subcampeona** por primera vez en su historia.
+
+**El llanto del Luzhniki**. La imagen más recordada de aquella tarde no es la celebración francesa. Es la imagen de los **once jugadores croatas abrazados en círculo en el centro del campo**, bajo la lluvia que había empezado a caer en Moscú durante los últimos quince minutos. **Modrić, Rakitić, Mandžukić, Perišić, Lovren, Vrsaljko, Strinić, Vida, Kovačić y Pivarić** lloraban mientras Hugo Lloris levantaba la copa veinte metros más allá. La presidenta croata **Kolinda Grabar-Kitarović** bajó al campo bajo la lluvia para abrazar uno a uno a sus jugadores. La foto se hizo viral durante días.
+
+**El Balón de Oro de Modrić**. La FIFA anunció el premio individual del Mundial mientras los jugadores aún estaban en el campo. **Luka Modrić**, ganador. Era el primer jugador no-de-equipo-campeón en ganar el premio desde Romario en 1994. Modrić venía de ganar la Champions League con el Real Madrid dos meses antes. En diciembre del mismo año, ganaría también el Balón de Oro de France Football, rompiendo la racha de 10 años consecutivos de Messi-Cristiano.
+
+**La frase**. En la rueda de prensa post-partido, Modrić apareció con los ojos rojos y la voz quebrada. Las palabras llegaron en croata, traducidas por una intérprete: *"Estamos tristes pero orgullosos. Hemos perdido la final, pero hemos ganado el corazón del mundo. Nuestra historia no termina aquí. Volveremos"*. La frase se convirtió en eslogan nacional: aún hoy aparece pintada en murales de Zagreb, Split y Rijeka.
+
+**El impacto**. Croacia regresó a Zagreb tres días después con un desfile en autobús descapotable que atrajo a **550.000 personas** —el 13% de la población del país. La ciudad colapsó. La aerolínea Croatia Airlines pintó el avión con motivos del Mundial. El presidente croata declaró el 16 de julio festivo nacional. El gobierno aprobó un fondo de **5 millones de euros** para becas deportivas a niños de zonas deprimidas, vinculado al éxito mundialista.
+
+**El precedente, Suecia 1958**. La última vez que un país tan pequeño llegó tan lejos había sido Suecia en 1958 (entonces 7,4 millones de habitantes, segundo lugar). El precedente directo seguía siendo Uruguay 1950, pero con la ventaja del territorio propio. Croacia 2018 dejaba claro que en el fútbol moderno, con el ecosistema globalizado y la formación europea unificada, **un país de cuatro millones podía competir con los gigantes**. Era una demostración de método sobre escala.
+
+**El epílogo 2026**. Modrić tiene 40 años en el momento de escribir esto. Vuelve a estar convocado por Croacia para el Mundial 2026. Lo hace por **quinto Mundial consecutivo** (2006, 2014, 2018, 2022, 2026), récord absoluto compartido con Cristiano Ronaldo y Rafael Márquez. *"Vamos a hacer todo lo posible por volver"*, dijo en una entrevista en *Sportske Novosti* en enero de 2026. Croacia está en el Grupo L con Inglaterra, Ghana y Panamá. Su rival en octavos podría ser España. Y la final del 19 de julio de 2026 le pillaría con 40 años y 308 días, edad récord para un jugador en una final mundialista. Tendría su revancha del Luzhniki. *"Y si volvemos al Bernabéu en cuartos —añade Modrić riendo en la misma entrevista—, ya he visto demasiados penaltis"*.`,
+  },
+  {
+    n: 34,
+    slug: 'cruyff-holanda-1974-futbol-total-final-perdida-munich',
+    publishDate: '2026-05-22',
+    blockCode: 'S5',
+    category: 'historica',
+    protagonist: 'Johan Cruyff',
+    quote: 'Jugar al fútbol es muy simple, pero jugar al fútbol simple es lo más difícil que hay.',
+    quoteDate: '1974-07-07',
+    context:
+      'Final del Mundial de Alemania 1974 en el Olímpico de Múnich. Holanda-Alemania Federal. Johan Cruyff (27 años), capitán naranja, había revolucionado el fútbol mundial con el «fútbol total» (totaalvoetbal) bajo dirección de Rinus Michels. Holanda llegaba a la final como favorita absoluta. Perdió 2-1 contra Alemania en el minuto 25 con un Cruyff anulado por Berti Vogts. Es el equipo del Mundial que generó más influencia en la historia táctica del fútbol.',
+    source: {
+      name: 'Wikipedia · Países Bajos en la Copa Mundial de 1974',
+      url: 'https://es.wikipedia.org/wiki/Pa%C3%ADses_Bajos_en_la_Copa_Mundial_de_F%C3%BAtbol_de_1974',
+    },
+    sourceSecondary: 'De Telegraaf · Voetbal International · La Vanguardia · El País Semanal',
+    certainty: 'Alta',
+    title:
+      'Cruyff y la Naranja Mecánica: el equipo que perdió la final pero ganó la historia del fútbol',
+    excerpt:
+      'En 1974, Holanda de Cruyff llegó a la final del Mundial revolucionando el fútbol con el totaalvoetbal. Perdió 2-1 contra Alemania pero su influencia táctica supera a la de cualquier equipo campeón. Es la historia del fútbol total y del único Cruyff que disputó un Mundial.',
+    cover: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/9/98/WK_74%2C_Nederland_tegen_Argentinie_4-0%3B_nr._7a_Cruyff_bij_keeper_Carnevalli.jpg',
+      alt: 'Johan Cruyff regatea al portero argentino Daniel Carnevali en el Holanda 4-0 Argentina del Mundial 1974',
+      credit: 'Anefo · Wikimedia Commons',
+      license: 'CC0 (Dominio público)',
+      source: 'https://commons.wikimedia.org/wiki/File:WK_74,_Nederland_tegen_Argentinie_4-0;_nr._7a_Cruyff_bij_keeper_Carnevalli.jpg',
+    },
+    body: `Hay equipos que ganan el Mundial. Hay equipos que cambian el fútbol. La **Holanda de 1974** es el más célebre ejemplo de que las dos cosas no siempre coinciden. Liderada por **Johan Cruyff** (27 años, Ajax-Barcelona) y dirigida por **Rinus Michels** (50 años, *De Generaal*), la *Naranja Mecánica* perdió la final del Mundial 1974 contra Alemania Federal por **2-1** en el Olímpico de Múnich. Y sin embargo, cincuenta años después, **la influencia táctica de aquel equipo supera con creces** la de los campeones de 1974, 1978 o 1982. Es el equipo más estudiado de la historia. Su forma de jugar engendró al Barcelona de Guardiola, al Bayern Munich de Heynckes, al Manchester City de hoy.
+
+**El totaalvoetbal**. Rinus Michels lo desarrolló como entrenador del Ajax de Ámsterdam entre 1965 y 1971. La idea, en esencia, era revolucionaria: **cualquier jugador podía ocupar cualquier posición en el campo en cualquier momento del partido**. El central podía atacar. El delantero podía defender. El portero salía a jugar como un onceavo defensor. Los movimientos sin balón formaban patrones geométricos que mareaban al rival. El equipo no jugaba en posiciones fijas: jugaba en **roles intercambiables coordinados**. La distancia entre líneas era de 25-30 metros (el resto del mundo en 1974 jugaba a 40-50 metros). El equipo presionaba al rival inmediatamente tras perder el balón (lo que después se llamaría *gegenpressing*). El portero **Jan Jongbloed** jugaba como un defensor más a 30 metros de su área —algo impensable en aquel fútbol—.
+
+**Los cracks**. El equipo lo formaban: **Cruyff** (extremo izquierdo, falso 9 y libero táctico, todo a la vez), **Johan Neeskens** (mediocentro creativo), **Wim van Hanegem** (medio izquierdo), **Ruud Krol** (central que atacaba), **Wim Suurbier** (lateral derecho), **Arie Haan** y **Willem van Hanegem** (organizadores del centro del campo), **Rob Rensenbrink** y **Johnny Rep** (extremos). En el banco esperaban Piet Keizer y René van de Kerkhof. Era una generación irrepetible —**siete jugadores del Ajax campeón de las tres Copas de Europa consecutivas 1971-1973**, más cuatro fichados del Feyenoord—.
+
+**El camino al final**. Holanda entró en el grupo C con Uruguay, Suecia y Bulgaria. **2-0 a Uruguay, 0-0 con Suecia, 4-1 a Bulgaria**. Pase de fase como segunda del grupo. En la segunda fase, en el grupo B junto con Brasil, Argentina y Alemania del Este, sucedió lo impensable: **Holanda 4-0 Argentina** (con un gol de Cruyff que la prensa argentina bautizó como *"el regate más bonito del Mundial"*), **Holanda 2-0 Alemania del Este**, y la perla de la conmemoración: **Holanda 2-0 Brasil**, victoria contra el Brasil de Rivelino que destronaba a los campeones vigentes de 1970 sin ningún tipo de duda. Cruyff había marcado el primer gol y asistido el segundo de Neeskens.
+
+**La final del 7 de julio de 1974**. Olímpico de Múnich. **Holanda 1, Alemania 2**. El partido tuvo un comienzo demencial: Holanda toca el balón **catorce veces consecutivas** sin que un jugador alemán lo roce. En el minuto 1, Cruyff es derribado por Berti Vogts en el área alemana. Penalti. **Neeskens lo marca** al minuto 1:25 del partido —el penalti más rápido en la historia de una final del Mundial—. Holanda 1, Alemania 0. El estadio de Múnich enmudece.
+
+Pero entonces empezó la historia que el fútbol holandés llama *"de overmoed"* (la presunción). Holanda salió a humillar a Alemania. Buscó el segundo y el tercero antes que cuidar el resultado. El árbitro inglés Jack Taylor pitó penalti para Alemania en el minuto 25 tras una caída discutible de Hölzenbein. **Paul Breitner lo marcó**. 1-1. Antes del descanso, en el minuto 43, **Gerd Müller** firmaba el 2-1 con un giro y volea que entró por la base del poste izquierdo. Sentencia. Holanda atacó toda la segunda parte sin éxito. Cruyff fue marcado por **Berti Vogts** durante los 90 minutos —el alemán, marcando como Gentile haría 8 años después—. **Final: Alemania 2, Holanda 1**.
+
+**¿Por qué perdió Holanda?** Las teorías son múltiples. La más extendida: la prensa holandesa publicó el día anterior fotos de Cruyff y otros jugadores en una piscina del hotel con cuatro mujeres —**"el escándalo de la piscina"**—. La esposa de Cruyff, Danny Cruyff, le llamó por teléfono esa misma noche desde Barcelona en una conversación que duró tres horas. La leyenda dice que Cruyff llegó al partido con tres horas de sueño. La teoría alternativa: Holanda salió al campo creyendo que ya había ganado. Otra: Müller era inevitable —marcó 14 goles en sus dos Mundiales (1970 y 1974), récord histórico para un alemán hasta Klose—.
+
+**La frase**. Cruyff la pronunció en una entrevista en *De Telegraaf* el 7 de julio de 1974, horas después del partido. *"Jugar al fútbol es muy simple, pero jugar al fútbol simple es lo más difícil que hay"*. La frase resume su filosofía: el toque, el espacio, la sencillez. Es el fundamento de lo que después se llamará *"el método Cruyff"* y que Pep Guardiola consagraría como filosofía del Barcelona moderno. Cuando Cruyff murió en marzo de 2016, la frase apareció escrita en banderas de fans desde Ámsterdam hasta Buenos Aires.
+
+**El legado**. El fútbol total holandés transformó al fútbol mundial. Sin esa generación, no habría existido el Barcelona Cruyff entrenador (1988-1996), ni el Barça de Guardiola (2008-2012), ni la España campeona del Mundial 2010 que jugó con técnicos formados en la filosofía Cruyff (Luis Aragonés y Vicente del Bosque). El propio Cruyff dirigió al Barça durante ocho temporadas, ganó la primera Champions League azulgrana (1992) e instituyó el modelo de La Masía como cantera del primer equipo. **El AC Milan de Sacchi (1987-1991), el Borussia Dortmund de Klopp (2011-2015) y el Liverpool actual de Slot** mantienen versiones del totaalvoetbal en su ADN. Solo dos selecciones nacionales lo han llevado al éxito mundialista: España 2010 y Alemania 2014. Ninguna era Holanda.
+
+**El epílogo**. Cruyff jugó **un solo Mundial en su carrera**. Renunció a Argentina 1978 por motivos personales —un intento de secuestro contra su familia en Barcelona, según reveló él mismo en su autobiografía de 2016—. Holanda volvió a la final de 1978 (la perdió contra Argentina 3-1 en prórroga) y a la de 2010 (la perdió contra España 1-0 en prórroga). Tres finales perdidas. Cero copas. Más libros escritos sobre su fútbol que sobre todos los campeones del Mundial juntos. *"Si quieres ganar, primero tienes que jugar bien. No al revés"*, decía Cruyff. Su Holanda jugó como nadie había jugado. Y perdió.`,
+  },
+  {
+    n: 35,
+    slug: 'marruecos-2022-semifinal-primer-africano-arabe-regragui-hakimi-bono',
+    publishDate: '2026-05-23',
+    blockCode: 'S5',
+    category: 'epica',
+    protagonist: 'Walid Regragui · Achraf Hakimi · Yassine Bono',
+    quote: 'Esta victoria es para todos los africanos, para todo el mundo árabe.',
+    quoteDate: '2022-12-10',
+    context:
+      'Cuartos de final del Mundial de Catar 2022 en el Estadio Al Thumama, Doha. Marruecos-Portugal. Marruecos gana 1-0 con gol de cabeza de Youssef En-Nesyri y se convierte en la primera selección africana y árabe en alcanzar las semifinales del Mundial. La hazaña tiene contexto: Marruecos había eliminado en octavos a España en penaltis (3-0 con Bono parando dos). Walid Regragui había asumido la selección apenas tres meses antes del Mundial. Es la historia de la mayor gesta del fútbol africano y árabe en un Mundial.',
+    source: {
+      name: 'FIFA · 2022 World Cup Morocco',
+      url: 'https://www.fifa.com/en/tournaments/mens/worldcup/qatar2022/teams/morocco',
+    },
+    sourceSecondary: 'Hespress · Le Matin · Al Jazeera · BBC Sport · As',
+    certainty: 'Alta',
+    title:
+      'Marruecos en Doha: la primera selección africana y árabe en una semifinal del Mundial',
+    excerpt:
+      'En diciembre de 2022, los Leones del Atlas eliminaron a España en octavos y a Portugal en cuartos. Marruecos se convirtió en la primera selección africana y árabe en alcanzar las semifinales del Mundial. Walid Regragui llevaba tres meses al frente. La gesta cambió el mapa del fútbol mundial.',
+    cover: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Portugal-Morocco_by_soccer.ru_12.jpg/1280px-Portugal-Morocco_by_soccer.ru_12.jpg',
+      alt: 'Achraf Hakimi y otros jugadores marroquíes celebran tras eliminar a Portugal en cuartos del Mundial 2022',
+      credit: 'soccer.ru · Wikimedia Commons',
+      license: 'CC BY-SA 3.0',
+      source: 'https://commons.wikimedia.org/wiki/File:Portugal-Morocco_by_soccer.ru_12.jpg',
+    },
+    body: `**Marruecos llevaba 36 años intentando ganar un partido eliminatorio en un Mundial**. Desde México 86, cuando los Leones del Atlas habían sido la primera selección africana en pasar la fase de grupos en un Mundial —cayeron en octavos contra Alemania Federal 1-0 con gol de Matthäus en el minuto 88—. Cuatro Mundiales después (1986, 1994, 1998, 2018), Marruecos seguía sin cruzar la primera ronda eliminatoria. La gesta del **10 de diciembre de 2022 en el Estadio Al Thumama de Doha** —**Marruecos 1, Portugal 0**, gol de cabeza de **Youssef En-Nesyri** en el minuto 42— rompió esa maldición histórica de manera definitiva.
+
+**El contexto**. Marruecos había llegado al Mundial 2022 con un panorama interno desolador. **Vahid Halilhodžić**, seleccionador desde 2019, había clasificado al equipo a Catar pero acumulaba enemistades con varios jugadores —especialmente con Hakim Ziyech (Chelsea) y Noussair Mazraoui (Bayern Munich), que se habían negado a jugar bajo sus órdenes—. La Federación Marroquí destituye a Halilhodžić el **31 de agosto de 2022**, **tres meses antes del inicio del Mundial**. La presión es asfixiante: el sustituto debe construir un equipo, reconciliar a las estrellas y prepararlo para Catar en doce semanas. La FRMF nombra a **Walid Regragui**, 47 años, ex-técnico del Wydad Casablanca (campeón de la Champions League africana 2022) y ex-defensor del propio Marruecos en 2006.
+
+**El proyecto Regragui**. Regragui reincorporó inmediatamente a Ziyech y Mazraoui. Recuperó a **Achraf Hakimi** (PSG), **Yassine Bounou** "Bono" (Sevilla), **Romain Saïss** (Beşiktaş) y al resto del núcleo. La filosofía táctica: bloque bajo, defensa de cinco, contraataques. El propio Regragui declaró en septiembre, durante su primera rueda de prensa: *"No vamos a ser España. No vamos a ser Brasil. Vamos a ser Marruecos. Vamos a defender con once y atacar con cinco. Y vamos a sorprender"*. Los críticos lo calificaron de derrotista. Las apuestas daban a Marruecos como **rival más débil de su grupo** (Bélgica, Croacia, Canadá).
+
+**La fase de grupos: el primer aviso**. Marruecos empata sin goles con Croacia (que llegaría a la final del Mundial 2018). **Gana 2-0 a Bélgica** (golazo de Sabiri y otro de Aboukhlal) en uno de los grandes resultados sorpresa de toda la fase de grupos. **Gana 2-1 a Canadá**. Primera selección africana en ganar un grupo del Mundial desde Nigeria 1998. Pero la verdadera historia, lo que cambiaría la conversación, estaba por venir.
+
+**Octavos: España 0, Marruecos 0 (3-0 en penaltis)**. El 6 de diciembre de 2022, en el Estadio Education City. Luis Enrique presentó una España con Pedri, Gavi, Olmo, Asensio y Morata. Marruecos resistió 120 minutos con bloque bajo, sin permitir un solo remate dentro del área propia. En la tanda de penaltis, **Bounou paró el primero a Sarabia, el segundo a Busquets (palo) y el tercero a Carlos Soler**. Hakimi marcó el último, definitorio. Hakimi nacido en Madrid, criado en Getafe, formado en La Fábrica del Real Madrid, eligió Marruecos sobre España en su debut internacional. La ironía no se le escapó a nadie. *"Es la victoria del barrio sobre el palacio"*, escribió Diego Torres en *El País*.
+
+**Cuartos: el 10 de diciembre, contra Portugal de Cristiano**. Pepe, Bruno Fernandes, Rafael Leão, João Félix, Diogo Costa. Cristiano Ronaldo en el banquillo —decisión del seleccionador Fernando Santos que generó polémica en Portugal—. El partido transcurre como Regragui había planificado: bloque bajo, presión coordinada, salidas en contraataque. **Minuto 42**: tiro de córner desde la izquierda, **Youssef En-Nesyri** (delantero del Sevilla) salta más alto que el portero Diogo Costa que se queda paralizado en el área pequeña. **Marruecos 1, Portugal 0**.
+
+Portugal atacó durante el resto del partido. Bounou se llevó la portería —tres paradas seguidas en el minuto 89 con Cristiano ya en el campo—. El árbitro Facundo Tello pitó el final a las 22:38 hora de Doha. **Marruecos era semifinalista**. Primera selección africana en la historia del Mundial. Primera selección árabe. Primera selección musulmana. El estadio Al Thumama estalló: los aficionados marroquíes habían llegado en masa desde Casablanca, Rabat y Tánger —vuelos charter directos pagados por la FRMF—. La imagen del padre de Achraf Hakimi, Hassan, abrazado al hijo en el campo (Achraf llevaba a su madre y a su padre al estadio en cada partido del Mundial) se convirtió en la fotografía más vista del torneo. 11 millones de likes en Instagram en dos horas. 200.000 retuits en X.
+
+**La frase**. Regragui apareció en rueda de prensa con la voz quebrada. *"Esta victoria es para todos los africanos, para todo el mundo árabe. Hemos demostrado que los pequeños pueden vencer a los grandes. Hemos cambiado el mapa del fútbol mundial. La FIFA, la UEFA, las grandes ligas... ya no pueden mirar a África con desdén"*. La declaración voló por todos los medios árabes. En Casablanca, El Cairo y Riad las cadenas públicas interrumpieron sus emisiones para retransmitirla en directo. **El rey Mohammed VI** llamó personalmente a Regragui esa misma noche. Le ofreció **la Orden del Trono**, la condecoración civil más alta de Marruecos. Regragui la rechazó: *"Cuando ganemos el Mundial, no antes"*.
+
+**La semifinal y el bronce**. Marruecos cayó **2-0 contra Francia** en semifinales (goles de Hernández y Kolo Muani) el 14 de diciembre. En el partido por el tercer puesto, perdió 2-1 contra Croacia, repitiendo la combinación que ya había aparecido en el Luzhniki 2018. Cuarto puesto del Mundial. Pero la dimensión simbólica de aquella semana había superado de largo la jerarquía deportiva: **el primer país africano y árabe en jugar una semifinal del Mundial**.
+
+**El impacto en África**. La FIFA decidió en 2023 ampliar el número de selecciones africanas en el Mundial 2026 de 5 a **9** (más una repesca). Marruecos pasó a ser un país de referencia futbolística en el ranking FIFA —del puesto 22 al 11 en seis meses—. El sucesor de la cantera marroquí del Mundial 2022 son los jugadores de **Mazraoui, Hakimi, Ziyech, Bounou, En-Nesyri, Amrabat**: la mayoría jugaban en clubes europeos top antes del Mundial; después de Doha, todos eran cotizados en mercado.
+
+**El epílogo 2026**. Marruecos se ha clasificado para el Mundial 2026 sin perder un partido de eliminatorias. Está en el Grupo C con Brasil, Haití y Escocia. Walid Regragui sigue como seleccionador. Achraf Hakimi sigue como capitán. La pregunta editorial está abierta: *¿puede repetir Marruecos lo de Catar 2022?* En diciembre de 2025, en entrevista en *Hespress*, Regragui contestó así: *"Lo de Catar fue lo que era. Una gesta. En 2026 no necesitamos gestas. Necesitamos consagración. Vamos a por el Mundial. Y si no, a por las semifinales otra vez. Esta vez con la copa en mente"*. La frase llegó a portada de todos los diarios árabes a la mañana siguiente.`,
+  },
 ];
 
 // ───────────────────────────────────────────────────────────
