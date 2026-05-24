@@ -1,0 +1,130 @@
+{
+  "generatedAt": "2026-05-24T09:06:03.621Z",
+  "date": "2026-05-24",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "arena monterrey",
+      "geo": "MX",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Así será el FIFA Fan Festival Monterrey",
+          "url": "https://www.mexicodesconocido.com.mx/fifa-fan-festival-monterrey.html",
+          "source": "México Desconocido"
+        },
+        {
+          "title": "Fan Fest Monterrey: ¿Cuánto cuesta ver a Chayanne y Grupo Firme?",
+          "url": "https://www.mediotiempo.com/futbol/copa-mundial/fan-fest-monterrey-cuanto-cuesta-ver-a-chayanne-imagine-dragons-y-grupo-firme",
+          "source": "Mediotiempo"
+        },
+        {
+          "title": "Conciertos en Monterrey para junio 2026: La agenda completa en Arena MTY, Escenario GNP y más",
+          "url": "https://www.reporteindigo.com/monterrey/conciertos-monterrey-hoy-junio-2026--20260523-0032.html",
+          "source": "Reporte Indigo"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "es": [
+      {
+        "query": "arena monterrey",
+        "score": 140,
+        "geos": [
+          "MX"
+        ],
+        "samples": [
+          {
+            "query": "arena monterrey",
+            "geo": "MX",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Así será el FIFA Fan Festival Monterrey",
+                "url": "https://www.mexicodesconocido.com.mx/fifa-fan-festival-monterrey.html",
+                "source": "México Desconocido"
+              },
+              {
+                "title": "Fan Fest Monterrey: ¿Cuánto cuesta ver a Chayanne y Grupo Firme?",
+                "url": "https://www.mediotiempo.com/futbol/copa-mundial/fan-fest-monterrey-cuanto-cuesta-ver-a-chayanne-imagine-dragons-y-grupo-firme",
+                "source": "Mediotiempo"
+              },
+              {
+                "title": "Conciertos en Monterrey para junio 2026: La agenda completa en Arena MTY, Escenario GNP y más",
+                "url": "https://www.reporteindigo.com/monterrey/conciertos-monterrey-hoy-junio-2026--20260523-0032.html",
+                "source": "Reporte Indigo"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "topic": "arena monterrey",
+      "type": "noticia",
+      "slugSuggestion": "arena-monterrey",
+      "language": "es",
+      "geos": [
+        "MX"
+      ],
+      "score": 168,
+      "reason": "Google Trends daily MX con 100 búsquedas · 3 artículos noticiosos referenciando \"arena monterrey\"",
+      "proposedPath": "/noticias/arena-monterrey",
+      "evidence": [
+        {
+          "query": "arena monterrey",
+          "geo": "MX",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 100,
+          "articles": [
+            {
+              "title": "Así será el FIFA Fan Festival Monterrey",
+              "url": "https://www.mexicodesconocido.com.mx/fifa-fan-festival-monterrey.html",
+              "source": "México Desconocido"
+            },
+            {
+              "title": "Fan Fest Monterrey: ¿Cuánto cuesta ver a Chayanne y Grupo Firme?",
+              "url": "https://www.mediotiempo.com/futbol/copa-mundial/fan-fest-monterrey-cuanto-cuesta-ver-a-chayanne-imagine-dragons-y-grupo-firme",
+              "source": "Mediotiempo"
+            },
+            {
+              "title": "Conciertos en Monterrey para junio 2026: La agenda completa en Arena MTY, Escenario GNP y más",
+              "url": "https://www.reporteindigo.com/monterrey/conciertos-monterrey-hoy-junio-2026--20260523-0032.html",
+              "source": "Reporte Indigo"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alreadyCovered": []
+}
