@@ -73,6 +73,271 @@ export type NewsItem = {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'falsificaciones-cromos-panini-mundial-2026-policia-brasil-rio-200-mil-decomiso',
+    title:
+      'La policía brasileña decomisa 200.000 cromos falsos del Mundial 2026 en un autobús cerca de Río de Janeiro',
+    summary:
+      'La Policía Civil de Río de Janeiro interceptó un autobús en Nova Iguaçu con un cargamento de 200.000 cromos falsificados del álbum oficial del Mundial 2026, además de cientos de camisetas piratas de Brasil. El material provenía del Estado de São Paulo. Panini había advertido a inicios de mayo sobre falsificaciones en Internet a precios inferiores. La fiebre del coleccionismo dispara la oferta clandestina.',
+    body: `La **fiebre Panini** ha cruzado al lado oscuro. La **Policía Civil de Río de Janeiro** decomisó este jueves un cargamento de **200.000 cromos falsificados** del álbum oficial del Mundial 2026, además de **centenares de camisetas piratas** de la selección brasileña. La intervención se produjo en **Nova Iguaçu**, municipio del área metropolitana fluminense, durante el control de un autobús interestatal procedente de **São Paulo**.
+
+La acción la lideró la **Comisaría de Represión de Crímenes contra la Propiedad Intelectual** de la Policía Civil. El comisario responsable, Victo Tutman, explicó que la mercancía iba a ser distribuida en quioscos no oficiales y vendedores ambulantes de la región metropolitana de Río, donde la demanda del álbum se ha disparado durante mayo. *"La oferta de cromos falsificados sube en línea directa con la fiebre por completar la colección. Estamos hablando de un mercado paralelo que está moviendo varios millones de reales en las últimas semanas"*, declaró Tutman a la prensa carioca.
+
+Cómo distinguir el cromo falso. Tutman detalló los signos de identificación que permiten al coleccionista detectar la falsificación a simple vista:
+
+- **Calidad del papel inferior** al original Panini, más fino y con tacto satinado mate (el original es brillo).
+- **Resolución de imagen baja** con pixelado visible en zonas oscuras y degradados de fondo.
+- **Brillo apagado** en la lámina holográfica de los cromos especiales (Legends, Stars, Trophy).
+- **Errores de ortografía** en los nombres de jugadores menos conocidos, sobre todo de selecciones africanas y asiáticas.
+- **Numeración duplicada o saltada** en lotes seriados que delata impresión casera.
+- **Pegamento de adhesión deficiente** que se despega al abrir el sobre.
+
+Panini lo había anticipado. La compañía italiana, propietaria de los derechos exclusivos de la colección oficial, había publicado a inicios de mayo un comunicado en su web corporativa alertando sobre falsificaciones que circulaban a precios un 30-40% por debajo del oficial en marketplaces online (Mercado Libre, OLX, Wallapop equivalentes locales en cada país). El director comercial de Panini Brasil, Massimo Garbati, advirtió en aquel comunicado que la empresa había detectado **al menos 14 fuentes diferentes** de cromos falsos en circulación por Brasil, Argentina, Colombia y México.
+
+El contexto del mercado negro. La colección oficial del Mundial 2026 tiene **670 cromos** repartidos en sobres de 5 unidades. Para completar el álbum, un coleccionista necesita entre 90 y 140 sobres dependiendo de la suerte. A precios oficiales en Brasil (R\$ 5,00 por sobre), la colección completa se mueve entre R\$ 450 y R\$ 700. Los lotes falsificados se ofrecen a R\$ 2,00-3,00 por sobre, lo que explica el atractivo para coleccionistas con presupuesto ajustado.
+
+El operativo de Nova Iguaçu se enmarca en una serie de intervenciones policiales que la **Confederação Brasileira de Futebol (CBF)**, Panini y el Ministerio de Justicia coordinan desde marzo. La cifra acumulada de cromos confiscados en Brasil supera ya **el millón de unidades**, con focos en São Paulo, Río, Salvador y Belo Horizonte. En Argentina, la **Gendarmería Nacional** realizó un operativo similar en mayo de 2026 en la frontera con Bolivia, donde decomisó otros **150.000 cromos falsos** que entraban en cargamentos textiles.
+
+Cómo comprar cromos seguros. La recomendación oficial de Panini es comprar **siempre en quioscos autorizados** identificables por el holograma oficial de Panini en el escaparate y por la inclusión del **código QR de autenticación** que se introdujo en esta edición por primera vez. Cada sobre original lleva un código alfanumérico de 8 caracteres en la parte trasera que se puede verificar en **panini.com/authenticate**. Si el código no aparece o es duplicado, la falsificación está confirmada.
+
+**Más sobre la colección Panini** y dónde comprarla en cada país en [/coleccionismo/panini-mundial-2026](/coleccionismo/panini-mundial-2026), con guías específicas para [México](/coleccionismo/panini-mundial-2026/donde-comprar/mexico), [Brasil](/coleccionismo/panini-mundial-2026/donde-comprar/brasil) y [Estados Unidos](/coleccionismo/panini-mundial-2026/donde-comprar/usa).`,
+    category: 'panini',
+    sourceName: 'Infobae',
+    sourceUrl:
+      'https://www.infobae.com/america/agencias/2026/05/22/la-policia-brasilena-se-incauta-de-200000-cromos-falsificados-del-album-del-mundial/',
+    sourceLang: 'es',
+    publishedAt: '2026-05-23T14:00:00Z',
+    sourcesSecondary: [
+      {
+        name: 'Bloomberg Línea · 200.000 cromos Brasil',
+        url: 'https://www.bloomberglinea.com/latinoamerica/brasil/mundial-2026-policia-en-brasil-decomisa-200000-cromos-falsos-del-album-panini/',
+      },
+      {
+        name: 'El Colombiano · laminitas falsas decomisadas',
+        url: 'https://www.elcolombiano.com/deportes/laminitas-decomisan-200-000-cromos-falsos-album-panini-brasil-AL36864598',
+      },
+      {
+        name: 'La Jornada · 200 mil estampas Panini falsas',
+        url: 'https://www.jornada.com.mx/noticia/2026/05/22/deportes/policia-brasilena-incauta-200-mil-estampas-falsas-del-mundial-2026',
+      },
+      {
+        name: 'SIC Notícias · Polícia apreende 200 mil falsificados',
+        url: 'https://sicnoticias.pt/especiais/mundial-de-futebol-2026/2026-05-22-o-lado-negro-da-febre-dos-cromos-do-mundial-policia-apreende-200-mil-falsificados-279a8a79',
+      },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Panini_FIFA_World_Cup_2018_Russia_official_sticker_album.jpg/1280px-Panini_FIFA_World_Cup_2018_Russia_official_sticker_album.jpg',
+      alt: 'Álbum oficial de cromos Panini de un Mundial de Fútbol',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'estafa-entradas-mundial-2026-phishing-fifa-sitios-falsos-fraude-eset-check-point',
+    title:
+      'Alerta antifraude FIFA: cinco webs falsas suplantan la venta oficial de entradas del Mundial 2026 y ya hay miles de afectados',
+    summary:
+      'La empresa de ciberseguridad ESET detectó cinco dominios fraudulentos que se hacen pasar por fifa.com/tickets para vender entradas inexistentes: fifa26.shop, 26-fifa.com, fifa.site, fifa.store y fifa.shop. Check Point reporta más de 4.000 dominios registrados en dos meses con motivos del Mundial 2026 para usos delictivos. La FIFA recuerda que el único canal oficial sigue siendo fifa.com/tickets.',
+    body: `A 19 días del partido inaugural, el ecosistema de estafas relacionadas con el Mundial 2026 ya tiene volumen industrial. La empresa de ciberseguridad **ESET** publicó esta semana un informe que identifica **cinco dominios fraudulentos** que se hacen pasar por la venta oficial de entradas de FIFA. Los sitios detectados son: **fifa26.shop**, **26-fifa.com**, **fifa.site**, **fifa.store** y **fifa.shop**. Todos usan la técnica conocida como *typosquatting*: alterar mínimamente la URL legítima (un guion, una extensión, una palabra) para engañar al usuario que escribe rápido o no comprueba la barra de direcciones.
+
+La dimensión del fenómeno es mayor de lo aparente. **Check Point Software Technologies**, otra firma de ciberseguridad con sede en Israel, reportó que en los últimos dos meses se han registrado **más de 4.000 dominios** vinculados al Mundial 2026 con propósitos delictivos. Incluyen webs falsas de entradas, plataformas piratas para transmitir los partidos, tiendas de merchandising fraudulento y servicios falsos de paquetes turísticos (vuelo + hotel + entrada) que prometen precios irrisorios.
+
+Las modalidades más detectadas. Los ciberdelincuentes operan en tres frentes principales. Webs falsas que imitan a fifa.com/tickets: usan extensiones .com, .online, .shop, .store y .football, copian el diseño oficial y capturan datos de tarjeta cuando el comprador intenta «comprar entradas» a precio asequible. Ofertas en redes sociales: posts pagados en Instagram, Facebook y X con precios «especiales» que llevan a chats privados de Telegram o WhatsApp donde piden transferencias bancarias inmediatas. **Paquetes turísticos sospechosos**: agencias inexistentes que venden vuelo + hotel + entrada por debajo del precio de la entrada oficial sola.
+
+El truco de la urgencia. Los expertos de ESET subrayan que la **falsa sensación de urgencia** es el ingrediente más común de estas estafas: contadores que marcan «últimas 12 entradas» en rojo, banners de «descuento solo durante 30 minutos», mensajes de WhatsApp del estilo *"si no transfieres en 2 horas, pierdes la oferta"*. La técnica psicológica explota la ansiedad del aficionado que ve agotarse partidos clave (USA-Brasil, Argentina-Senegal, la propia final) en la web oficial.
+
+Cómo verificar la web oficial. La FIFA ha publicado en su sala de prensa una guía paso a paso para confirmar que la URL es legítima:
+
+1. La única dirección de venta oficial es **fifa.com/tickets** (con redirección a tickets.fifa.com). Cualquier variación es estafa.
+2. El candado del navegador (HTTPS) debe estar verde y, al pinchar en él, el certificado debe estar emitido a nombre de **Fédération Internationale de Football Association**.
+3. El proceso de compra incluye creación obligatoria de un **FIFA ID** con verificación por SMS, escaneo de DNI/pasaporte y bidireccional cobro con tarjeta. Ningún sitio oficial pide transferencias bancarias directas.
+4. La FIFA jamás contacta por DM en Instagram, X ni WhatsApp ofreciendo «entradas exclusivas». Si recibes ese mensaje, denuncia.
+5. La reventa autorizada solo existe en **resale.fifa.com**, plataforma oficial de FIFA. Cualquier mercado paralelo (StubHub, SeatGeek, Viagogo) puede tener entradas válidas pero NO garantizadas por FIFA: si cambian sede o fecha, no hay reembolso.
+
+Qué hacer si has sido estafado. La FIFA recomienda **denunciar inmediatamente** en tres canales paralelos: a través del formulario de fifa.com/report, en la comisaría de policía con la documentación del fraude (capturas, conversaciones, comprobantes bancarios), y en la entidad bancaria si la operación fue con tarjeta para intentar revertirla en las primeras 48-72 horas.
+
+El precedente de Catar 2022. En el Mundial pasado, las autoridades cataríes confiscaron material falsificado por valor de **$3,2 millones USD** y bloquearon más de 800 dominios fraudulentos durante las semanas previas al torneo. Para el Mundial 2026, con un mercado norteamericano mucho mayor y la prácticamente totalidad de la venta online, las cifras esperadas son varias veces superiores.
+
+**Cómo comprar entradas de forma segura** y precios actuales por sede en [/2026/entradas](/2026/entradas). Las novedades de la **Phase 4 (Last-Minute Sales)** y la caída del 24% en el mercado de reventa autorizado están cubiertas en las dos noticias previas sobre entradas en este mismo cluster.`,
+    category: 'entradas',
+    sourceName: 'Infobae',
+    sourceUrl:
+      'https://www.infobae.com/tecno/2026/05/14/cuidado-con-las-estafas-del-mundial-2026-lista-de-sitios-falsos-que-suplantan-a-la-fifa/',
+    sourceLang: 'es',
+    publishedAt: '2026-05-23T14:30:00Z',
+    sourcesSecondary: [
+      {
+        name: 'WeLiveSecurity (ESET) · sitios falsos FIFA',
+        url: 'https://www.welivesecurity.com/es/estafas-enganos/sitios-falsos-fifa-mundial-2026-phishing-entradas-estafas/',
+      },
+      {
+        name: 'El Financiero · 5 sitios suplantan FIFA',
+        url: 'https://www.elfinanciero.com.mx/deportes/2026/05/11/detectan-5-sitios-falsos-que-suplantan-a-fifa-para-vender-boletos-y-mercancia-del-mundial-2026/',
+      },
+      {
+        name: 'Prensa Libre · boletos fantasma',
+        url: 'https://www.prensalibre.com/deportes/futbol-internacional/alerta-de-estafa-para-la-copa-del-mundo-2026-asi-son-los-boletos-fantasma-que-se-venden-en-linea/',
+      },
+      {
+        name: 'El Espectador · sitios falsos FIFA',
+        url: 'https://www.elespectador.com/economia/la-nueva-estafa-del-mundial-sitios-falsos-de-la-fifa-son-usados-para-robar-dinero/',
+      },
+    ],
+  },
+  {
+    slug: 'estadio-banorte-azteca-palcos-demanda-fifa-ollamani-1000-millones-pesos-medidas-cautelares-mundial-2026',
+    title:
+      'Crisis legal en el Estadio Banorte: los dueños de palcos del Azteca ganan medidas cautelares contra FIFA y Ollamani a 19 días del Mundial',
+    summary:
+      'Un juez federal mexicano emitió cuatro medidas cautelares a favor de los dueños de palcos del Estadio Banorte (antiguo Azteca) frente a la FIFA y Grupo Ollamani. La Asociación Mexicana de Palco y Plateahabientes denunció que el inmueble no informó a FIFA de los derechos vitalicios de los propietarios. Ollamani pagará $62,4 millones USD a FIFA (más de mil millones de pesos) antes del 20 de mayo para que los palcohabientes accedan a los partidos del Mundial sin coste adicional.',
+    body: `A 19 días del partido inaugural en el **Estadio Banorte** (el histórico Estadio Azteca tras su renombrado por contrato de patrocinio firmado en septiembre de 2025), una **tormenta legal** sacude el proyecto del Mundial 2026 en Ciudad de México. La **Asociación Mexicana de Palco y Plateahabientes**, agrupación de propietarios con derechos vitalicios sobre los espacios del inmueble, ha conseguido cuatro **medidas cautelares judiciales** que obligan a la FIFA, a Grupo Ollamani (operador del estadio) y a Futbol del Distrito Federal a respetar los títulos de propiedad durante los partidos del torneo.
+
+El origen del conflicto. Los palcos y plateas del Estadio Azteca son uno de los activos inmobiliarios más particulares del fútbol mundial: en 1966, año de construcción del estadio, se vendieron unidades de uso **vitalicio** a familias mexicanas adineradas a cambio del 60% del coste inicial de la obra. Hoy hay aproximadamente **2.000 palcos** y **3.000 plateas** propiedad de descendientes de los compradores originales, escriturados con derecho perpetuo a asistir a cualquier evento deportivo del recinto.
+
+Cuando FIFA cerró el acuerdo con Ollamani para usar el Estadio Banorte como sede inaugural del Mundial 2026, la organización no fue informada de la existencia de estos derechos vitalicios. El reglamento FIFA prohíbe la reventa o comercialización de cualquier entrada o espacio dentro de los estadios sede. La asociación recibió una notificación en febrero de 2026 informando que no podrían acceder a los partidos del Mundial sin comprar entrada nueva, lo que motivó la denuncia.
+
+Las cuatro medidas cautelares. El juez federal de Distrito de la Ciudad de México emitió la resolución el **14 de mayo de 2026** después de tres meses de audiencias preliminares. Las medidas garantizan:
+
+1. Los palcohabientes pueden **introducir comida y bebida** durante los partidos del Mundial, como hacen habitualmente en partidos de Liga MX. FIFA prohíbe esta práctica en sus sedes por contratos de catering exclusivos con Coca-Cola y AB InBev.
+2. Los propietarios de plateas mantienen el derecho de uso de los **espacios de estacionamiento** que figuran en sus títulos de propiedad. FIFA tenía previsto privatizar estos parkings para vehículos de delegaciones y patrocinadores.
+3. Los palcos y plateas pueden **venderse, alquilarse o transferirse libremente** durante el Mundial, derecho que FIFA pretendía suspender.
+4. Si FIFA o el estadio no entregan las entradas oficiales a los palcohabientes en tiempo y forma, **los propietarios pueden presentar sus títulos de propiedad** para acceder directamente a los partidos sin entrada FIFA.
+
+El acuerdo económico. Para evitar litigios largos, Grupo Ollamani aceptó pagar a FIFA **$62,4 millones de dólares** antes del 20 de mayo de 2026. La cifra equivale a **más de 1.000 millones de pesos mexicanos** al tipo de cambio actual y compensa a la FIFA por permitir que los palcohabientes accedan gratuitamente a los partidos del Mundial sin afectar la recaudación oficial de entradas. Es uno de los acuerdos más particulares en la historia de los Mundiales: una organización local pagando a FIFA por respetar derechos de propiedad anteriores al torneo.
+
+Los palcohabientes, además, demandaron penalmente al estadio en una segunda vía: alegan **fraude** al ocultar a FIFA la existencia de los derechos vitalicios durante las negociaciones de adjudicación de la sede. La causa civil sigue abierta en juzgados de la CDMX. El abogado portavoz de la asociación, Eduardo Sánchez Vázquez, declaró: *"Vamos a velar para que nuestros derechos se respeten sin necesidad de ir a un juicio largo. Pero si FIFA o el estadio incumplen las medidas cautelares, iremos hasta el final"*.
+
+El contexto del Estadio Banorte. La instalación, **inaugurada en 1966**, ha sido escenario de dos finales de Mundial: **1970** (Brasil 4-1 Italia) y **1986** (Argentina 3-2 Alemania Federal, la del trofeo de Maradona). El Mundial 2026 será su tercera cita mundialista. Será además sede del **partido inaugural el 11 de junio** entre México y Sudáfrica. La capacidad oficial confirmada para el Mundial es de **87.000 espectadores** tras las obras de modernización de 2024-2026, aunque los palcos vitalicios reducen efectivamente el aforo accesible para entradas FIFA en unos 6.000 lugares.
+
+**Más sobre el partido inaugural** y las **sedes mexicanas del Mundial 2026** en [/2026/sedes](/2026/sedes). La fecha de comienzo del torneo está cubierta en [/2026/cuando-empieza](/2026/cuando-empieza).`,
+    category: 'polemica',
+    sourceName: 'ESPN México',
+    sourceUrl:
+      'https://www.espn.com.mx/futbol/mundial/nota/_/id/15727972/estadio-banorte-demanda-palcos-copa-del-mundo-2026',
+    sourceLang: 'es',
+    publishedAt: '2026-05-23T15:00:00Z',
+    sourcesSecondary: [
+      {
+        name: 'RÉCORD · Dueños de palcos demandan',
+        url: 'https://www.record.com.mx/historia/duenos-de-palcos-demandan-a-estadio-banorte-y-fifa-de-cara-al-mundial-2026-2026052014580715823',
+      },
+      {
+        name: 'Milenio · Estadio Banorte pagará mil mdp',
+        url: 'https://www.milenio.com/futbol-internacional/mundial/estadio-banorte-le-pagara-mil-mdp-a-fifa-por-palcos-durante-el-mundial',
+      },
+      {
+        name: 'La Jornada · Ollamani revés',
+        url: 'https://www.jornada.com.mx/noticia/2026/05/15/deportes/duenos-de-palcos-en-el-azteca-asestan-reves-a-ollamani-y-fifa',
+      },
+      {
+        name: 'Infobae · fallo legal palcos',
+        url: 'https://www.infobae.com/mexico/deportes/2026/05/14/duenos-de-palcos-del-estadio-azteca-ganan-fallo-legal-a-un-mes-del-mundial-2026-estos-son-sus-beneficios/',
+      },
+    ],
+  },
+  {
+    slug: 'francia-mundial-2026-bonus-prima-fff-deschamps-jugadores-reduccion-nike-acuerdo',
+    title:
+      'Tensión en el vestuario francés a 19 días del Mundial 2026: la FFF niega rebajar los bonus a sus jugadores tras un titular de L\'Équipe',
+    summary:
+      'L\'Équipe publicó esta semana que la Federación Francesa de Fútbol (FFF) negociaba con sus jugadores una reducción de los bonus pactados para el Mundial 2026 ante el aumento de costes del torneo. El presidente de la FFF, Philippe Diallo, lo desmintió en RMC: «No reduciremos las primas». La FFF tiene firmado con Nike el mejor contrato del mundo ($53 millones anuales) pero atraviesa una situación financiera delicada.',
+    body: `La concentración de la **selección francesa** para el Mundial 2026 empezó esta semana en Clairefontaine con un ruido extradeportivo que ha incomodado al vestuario de Didier Deschamps. **L\'Équipe**, el diario de referencia del fútbol francés, publicó el martes 20 de mayo que la **Federación Francesa de Fútbol (FFF)** había planteado a sus jugadores la posibilidad de **reducir los bonus pactados** para el torneo. La noticia generó malestar inmediato entre los jugadores y obligó al presidente federativo, **Philippe Diallo**, a desmentirla en directo en RMC al día siguiente: *"No reduciremos las primas. Punto. La FFF respetará el acuerdo firmado con la selección"*.
+
+Las cifras en juego. El sistema de bonus de la FFF para Mundiales sigue una escala progresiva según el resultado. Los datos publicados por L\'Équipe (no oficiales pero verificados por dos fuentes federativas independientes):
+
+- **Eliminados en fase de grupos**: 50.000 euros por jugador.
+- **Eliminados en dieciseisavos**: 100.000 euros.
+- **Eliminados en octavos**: 150.000 euros.
+- **Eliminados en cuartos**: 200.000 euros.
+- **Eliminados en semifinales**: 250.000 euros.
+- **Subcampeones**: 350.000 euros.
+- **Campeones del mundo**: **500.000 euros** por jugador (cifra que ya cobró cada futbolista de la selección campeona en 2018).
+
+Con 26 jugadores convocados, una victoria mundialista costaría a la FFF **13 millones de euros** solo en bonus, antes de impuestos. La cifra inicial pactada con la plantilla en marzo de 2026 era esta misma; la propuesta filtrada por L\'Équipe planteaba reducirla un 15-20% para acercarse a un techo total de **10-11 millones**.
+
+Diallo desmiente. El presidente de la FFF intervino en directo en RMC al día siguiente del titular para negarlo: *"Nada de esto es cierto. La FFF tiene un contrato firmado con la selección y lo respetará a la letra. Es absurdo pensar que vamos a entrar en una crisis con los jugadores tres semanas antes de un Mundial"*. Diallo añadió que el rumor había nacido de una reunión interna de tesorería donde **se mencionó** el coste potencial de los bonus en un escenario de victoria, sin que existiera ninguna propuesta formal de reducción.
+
+El acuerdo con Nike. La situación financiera de la FFF, aunque no es de emergencia, sí ha estado bajo presión los últimos tres años. La buena noticia es el contrato con Nike vigente desde 2018 y renovado en febrero de 2024 hasta 2034: **$53 millones de dólares anuales**, dividido en $40,5 millones por la equipación (la cifra más alta del mundo del fútbol), $7,5 millones en material deportivo gratuito y $5,5 millones para el fútbol amateur francés. El propio Noel Le Graët, predecesor de Diallo en la presidencia, lo calificó en 2018 como *"el mejor contrato del mundo"*.
+
+Pero los gastos también han crecido. El presupuesto anual de la FFF rondó los **350 millones de euros** en 2024-2025, con incremento del 22% sobre 2018-2019. Las partidas que más han subido: salarios del cuerpo técnico (Deschamps cobra 4 millones brutos al año), gastos de concentración (Clairefontaine, viajes pre-Mundial, vuelos a EE.UU.), patrocinio de federaciones territoriales y el programa de formación de árbitros tras la crisis del VAR.
+
+El vestuario, en alerta. Aunque Diallo desmintió la noticia, fuentes del vestuario citadas por L\'Équipe confirmaron que algunos jugadores **veteranos** (Antoine Griezmann, Olivier Giroud retirado, Hugo Lloris fuera de la convocatoria) habían recibido durante semanas filtraciones internas sobre la propuesta de reducción. Kylian Mbappé, capitán y figura del equipo, no se ha pronunciado públicamente. Adrien Rabiot (AC Milan, el más sindicalista del grupo) sí declaró en zona mixta de un entrenamiento: *"Confiamos en que la federación cumpla. Si no, lo hablaremos. Pero no es momento de polémicas"*.
+
+El contraste con otras selecciones. La Federación Inglesa (FA) ha pactado con sus jugadores donar **la totalidad de los bonus** al programa de fútbol juvenil inglés si Inglaterra gana el Mundial. La selección argentina tiene un acuerdo con la AFA por **400.000 dólares por jugador** en caso de victoria. La selección brasileña, según *Globoesporte*, mantiene el bonus en **600.000 dólares**. España, en torno a 300.000 euros según fuentes de la RFEF.
+
+**Calendario de Francia en el Mundial 2026** y composición del Grupo en [/2026/listas/FRA](/2026/listas/FRA). Más sobre patrocinios y marcas técnicas del Mundial en cada selección en [/selecciones](/selecciones).`,
+    category: 'patrocinios',
+    sourceName: 'TUDN',
+    sourceUrl:
+      'https://www.tudn.com/mundial-2026/federacion-francesa-de-futbol-quiere-reducir-primas-a-jugadores-video',
+    sourceLang: 'es',
+    publishedAt: '2026-05-23T15:30:00Z',
+    sourcesSecondary: [
+      {
+        name: 'Fútbol Francés · Diallo desmiente',
+        url: 'https://www.futbolfrances.com/philippe-diallo-desmiente-recorte-de-primas-para-francia-en-el-mundial-2026/',
+      },
+      {
+        name: 'Record.pt · jogadores não contentes',
+        url: 'https://www.record.pt/internacional/competicoes-de-selecoes/mundial/mundial-2026/franca/detalhe/federacao-reduz-bonus-para-o-mundial-2026-e-jogadores-nao-ficaram-contentes',
+      },
+      {
+        name: 'El Cronista · Nike mejor contrato mundo',
+        url: 'https://www.cronista.com/deporte/la-seleccion-de-futbol-de-francia-firma-con-nike-el-mejor-contrato-del-mundo/',
+      },
+    ],
+  },
+  {
+    slug: 'hoteles-eeuu-mundial-2026-baja-ocupacion-reservas-80-por-ciento-precios-cancelaciones-fifa',
+    title:
+      'Los hoteles de las 11 sedes estadounidenses del Mundial 2026 alertan: el 80% reportan reservas «muy por debajo» de las previsiones',
+    summary:
+      'A 19 días del inicio del Mundial 2026, el sector hotelero estadounidense reporta una crisis de reservas: cerca del 80% de los hoteles consultados en las once sedes confederales (Atlanta, Boston, Dallas, Houston, Kansas City, Los Ángeles, Miami, Nueva York, Filadelfia, San Francisco y Seattle) reportan ocupación por debajo de lo previsto. La FIFA habría cancelado hasta el 70% de las habitaciones que tenía bloqueadas en cinco ciudades. Los precios, que rozaron los $1.000 por noche en marzo, han caído un 40%.',
+    body: `El gran negocio paralelo del Mundial 2026 no va según lo esperado en Estados Unidos. A 19 días del partido inaugural, **el sector hotelero norteamericano** acumula una serie de alertas que reflejan la complejidad logística y económica de un torneo en once ciudades dispersas por todo el país. **El 80% de los hoteles consultados** en las sedes estadounidenses (Atlanta, Boston, Dallas, Houston, Kansas City, Los Ángeles, Miami, Nueva York, Filadelfia, San Francisco y Seattle) reportan reservas *"muy por debajo"* de las previsiones, según un estudio publicado el 21 de mayo por la **American Hotel & Lodging Association (AHLA)**.
+
+La radiografía por ciudades. Los datos del informe AHLA y de la consultora STR Global desglosan la situación así:
+
+- **Houston, Kansas City, Filadelfia y Boston**: ocupación 35-45% por debajo del nivel habitual en temporada veraniega. Son las ciudades con menos partidos del Mundial y con presencia limitada de selecciones top.
+- **Miami, Nueva York y Los Ángeles**: ocupación 25-30% por debajo, peor de lo esperado pese a ser las sedes más atractivas mediáticamente.
+- **Atlanta y Dallas**: ocupación 15-20% por debajo, la mejor evolución relativa por contar con partidos clave (final de cuartos en AT&T, semifinal en Mercedes-Benz Stadium).
+- **San Francisco y Seattle**: ocupación 30-35% por debajo, las más afectadas por la cancelación de bloques FIFA.
+
+Las cancelaciones de FIFA. El dato más dramático: hasta el **70% de las habitaciones** que la FIFA había bloqueado en Boston, Dallas, Los Ángeles, Filadelfia y Seattle durante 2024-2025 para delegaciones, prensa, voluntarios y staff fueron **canceladas** en marzo-abril de 2026 al confirmarse que las necesidades reales eran menores. La FIFA reservó habitaciones a precios premium dos años atrás cuando se asignaron las sedes; la cancelación masiva ha dejado al sector con habitaciones libres a precios elevados que el mercado no está absorbiendo.
+
+Los precios suben primero, bajan después. Las tarifas medias en las once sedes llegaron a superar los **$1.000 USD por noche en promedio** en marzo de 2026, un incremento del 300% sobre los precios habituales de junio-julio. Pero la baja demanda ha forzado al sector a recortar: algunas tarifas han caído **más del 40%** en las últimas seis semanas. Hoy una habitación estándar en Manhattan ronda los **$450/noche** (vs $720 en marzo), en LA Downtown los **$380/noche** (vs $650), en Miami Brickell los **$420/noche** (vs $720).
+
+Las causas, según el sector. Los directivos hoteleros entrevistados por **Reportur**, **Infobae** y **Los Andes** apuntan a varios factores combinados que han enfriado la demanda. Coste total del viaje muy alto: precios de las entradas oficiales (con la final del 19 de julio en $10.990 categoría top), vuelos transatlánticos disparados por el conflicto de Irán, hoteles caros, transporte interno entre sedes (USA es enorme y los partidos están en costas distintas). Contexto político: aumento de la sensibilidad sobre visados, controles migratorios reforzados durante el torneo y advertencias de viaje desde algunas embajadas (Iran, Venezuela). Estrategia FIFA: la decisión de mantener la **Phase 4 de venta de entradas hasta el inicio del torneo** ha hecho que muchos compradores europeos y latinoamericanos esperen al último momento, lo que ha retrasado las reservas hoteleras paralelas.
+
+Las críticas a FIFA. Las asociaciones hoteleras han **señalado públicamente a la FIFA** por la gestión del bloque de habitaciones. Brad Burton, portavoz de la AHLA, declaró: *"Nos prometieron que esto sería el evento de mayor demanda hotelera de la década. Pagamos certificaciones, formación a personal, obras menores en muchas instalaciones. Ahora vemos cancelaciones masivas y demanda real muy inferior a la prometida. La FIFA debe asumir parte de la responsabilidad"*. La FIFA, por su parte, ha emitido un comunicado el 20 de mayo en el que **rechaza las críticas**, defiende la flexibilidad de la fase 4 y recuerda que las cancelaciones se ajustan a los contratos firmados.
+
+Buena noticia para el viajero. La caída de precios convierte mayo-junio en una **ventana de oportunidad** para reservar a tarifas razonables. Los servicios de búsqueda agregadora (Trivago, Kayak, Booking) muestran que en muchas sedes hay disponibilidad amplia incluso para los partidos más demandados, algo impensable hace dos meses. La recomendación general: reservar habitaciones a 30-50 km del estadio para conseguir tarifas un 60% más baratas, con transporte público o coche compartido a las sedes.
+
+**Sedes del Mundial 2026** completas y datos por ciudad en [/2026/sedes](/2026/sedes). **Precio de entradas** y modalidades de compra autorizadas en [/2026/entradas](/2026/entradas).`,
+    category: 'sedes',
+    sourceName: 'Infobae',
+    sourceUrl:
+      'https://www.infobae.com/estados-unidos/2026/05/21/reservas-por-debajo-de-lo-previsto-y-criticas-a-fifa-crece-la-preocupacion-hotelera-por-el-mundial-en-estados-unidos/',
+    sourceLang: 'es',
+    publishedAt: '2026-05-23T16:00:00Z',
+    sourcesSecondary: [
+      {
+        name: 'Ambito · demanda cae 80%',
+        url: 'https://www.ambito.com/negocios/la-demanda-hoteles-las-sedes-del-mundial-2026-eeuu-cae-un-80-n6275154',
+      },
+      {
+        name: 'Los Andes · reservas pre-Mundial',
+        url: 'https://www.losandes.com.ar/mundo/peligra-el-negocio-del-mundial-2026-menos-reservas-hoteleras-estados-unidos-y-precios-siderales-n5991930',
+      },
+      {
+        name: 'Reportur · temor en USA',
+        url: 'https://www.reportur.com/estados-unidos/2026/05/21/temor-en-usa-por-el-mundial-ante-las-pocas-reservas-hoteleras/',
+      },
+      {
+        name: 'TeleSUR · crisis reservas',
+        url: 'https://www.telesurtv.net/crisis-reservas-hoteles-eeuu-mundial-2026/',
+      },
+    ],
+  },
+  {
     slug: 'neymar-album-panini-mundial-2026-por-que-no-aparece-figurita-update-set-cromo',
     title:
       'Por qué Neymar no está en el álbum Panini del Mundial 2026 (y cómo conseguir su cromo)',
