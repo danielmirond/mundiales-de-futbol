@@ -1348,6 +1348,54 @@ Naranjito, mientras tanto, había sido el otro símbolo del verano del 82. La **
 
 Hay piezas de la historia del fútbol que solo se entienden cuando se les añade el contexto de su época. La final del Bernabéu del 11 de julio de 1982 es una de ellas. **Italia ganó un Mundial. España organizó un Mundial**. Pero lo que verdaderamente cerró aquella tarde no fue solo el torneo. Fue una época. Si el balón rodó bien, fue porque dos países que llevaban años no rodando del todo decidieron que era el momento de empezar otra vez.`,
   },
+  {
+    n: 37,
+    slug: 'zidane-doblete-final-francia-brasil-1998-saint-denis-stade-de-france',
+    publishDate: '2026-05-25',
+    blockCode: 'S7',
+    category: 'epica',
+    protagonist: 'Zinedine Zidane',
+    quote: 'Empecé a jugar al fútbol para que mi padre estuviera orgulloso de mí. Esa final fue para él.',
+    quoteDate: '1998-07-13',
+    context:
+      'Final del Mundial de Francia 1998 en el Stade de France de Saint-Denis. Francia gana 3-0 a Brasil con doblete de cabeza de Zinedine Zidane en el primer tiempo (minutos 27 y 45+1) y tercer gol de Emmanuel Petit en el descuento. Es la primera y única estrella de Francia en el escudo. Zidane, hijo de inmigrantes argelinos nacido en La Castellane (Marsella), se convierte en el héroe deportivo de una Francia multicultural. Brasil, defensor del título, juega con Ronaldo en un estado físico inexplicable que sigue siendo polémico tres décadas después.',
+    source: {
+      name: 'Wikipedia, 1998 FIFA World Cup Final',
+      url: 'https://en.wikipedia.org/wiki/1998_FIFA_World_Cup_Final',
+    },
+    sourceSecondary: 'L\'Équipe · So Foot · Le Monde · The Guardian · As',
+    certainty: 'Alta',
+    title:
+      'Zidane y los dos cabezazos del Stade de France: la primera estrella de Francia y la pregunta sin resolver de Ronaldo',
+    excerpt:
+      'El 12 de julio de 1998, en Saint-Denis, Zinedine Zidane marcó dos goles de cabeza a Brasil en una final del Mundial. Francia ganó 3-0 y conquistó la primera estrella de su historia. Brasil sigue preguntándose, tres décadas después, qué le pasó a Ronaldo aquella tarde.',
+    cover: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Zinedine_Zidane_2008.jpg/1280px-Zinedine_Zidane_2008.jpg',
+      alt: 'Zinedine Zidane, mediapunta francés y autor del doblete de la final del Mundial 1998 contra Brasil',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 3.0',
+      source: 'https://commons.wikimedia.org/wiki/File:Zinedine_Zidane_2008.jpg',
+    },
+    body: `Hay finales que entran en la conversación de cualquier país aficionado al fútbol. La del **12 de julio de 1998 en el Stade de France** lo hizo por partida doble: por la victoria francesa en su propia casa y por la incógnita brasileña que sigue abierta. **Francia 3, Brasil 0**. Doblete de Zinedine Zidane de cabeza en el primer tiempo, gol de Emmanuel Petit en el descuento. Era la primera vez que Francia ganaba un Mundial en cualquier formato. Era la primera vez que Brasil, campeón vigente, perdía una final mundial por más de un gol desde 1950. Y fue el partido que coronó a Zidane, hijo de inmigrantes argelinos nacido en el barrio marginal de **La Castellane (Marsella)**, como héroe deportivo de una Francia que ese verano se redescubrió a sí misma con el eslogan *"black, blanc, beur"* (negro, blanco, magrebí).
+
+La temporada previa francesa. La selección de **Aimé Jacquet**, criticada durante meses por la prensa francesa, había llegado al Mundial de su propia casa con dudas tácticas y un consenso periodístico tibio. *L\'Équipe*, el diario deportivo de referencia, escribió en mayo de 1998 una serie de artículos contra Jacquet en los que pedía abiertamente su destitución antes del torneo. La Federación Francesa lo mantuvo. Jacquet construyó el equipo alrededor de un trío de mediocentros (Petit, Deschamps, Karembeu), de una defensa atlética encabezada por Marcel Desailly y Lilian Thuram, de Zidane como creador y de Stéphane Guivarc\'h como nueve de referencia. Guivarc\'h marcaría cero goles en el torneo.
+
+El camino a la final tuvo dos momentos definitorios. En cuartos, Francia eliminó a Italia en penaltis después de un 0-0 agónico. En semifinales, contra Croacia (subcampeona, generación dorada de Šuker, Boban y Prosinečki), **Lilian Thuram marcó los dos goles** del partido, los únicos de su carrera internacional en 142 partidos con la selección. Thuram, defensor central que nunca remataba, había escrito el guion más improbable de un Mundial. Francia 2, Croacia 1. Final contra Brasil.
+
+Brasil llegaba como favorito absoluto. La selección de **Mario Zagallo**, con Ronaldo (21 años, Balón de Oro vigente, máximo goleador del Inter de Milán), Rivaldo (Barcelona), Roberto Carlos (Real Madrid), Cafú, Dunga, Bebeto y un Romário ausente por lesión, había sido tercera en cuartos contra Dinamarca y campeona en semifinales contra los Países Bajos en penaltis. **Ronaldo era el favorito a la Bota de Oro** del torneo con 4 goles previos.
+
+La mañana del 12 de julio de 1998. Lo que sucedió en el Hotel Concorde Lafayette de París las horas previas a la final sigue siendo uno de los grandes misterios del fútbol. Ronaldo sufrió un episodio convulsivo de origen nunca aclarado oficialmente. Hay versiones contradictorias: epilepsia preexistente no diagnosticada, reacción adversa a la comida del hotel mantenida en secreto por presión patrocinadora de Nike, estrés psicológico extremo por el peso mediático. El doctor del equipo brasileño, **Lídio Toledo**, lo medicó con tranquilizantes. **Zagallo dejó a Ronaldo fuera del once titular dos horas antes del partido**. Los periodistas vieron en el calentamiento al equipo brasileño sin Ronaldo. El número 9 era **Edmundo**.
+
+Pero entonces llegó la presión. Ronaldo, que había recuperado parcialmente la conciencia y se sentía mejor, insistió ante Zagallo en jugar. Algunas fuentes (entrevista de Roberto Carlos a *Globoesporte* en 2002, libro de Alex Bellos *Futebol* de 2002) apuntan también a una llamada directa de Nike a la CBF presionando por la inclusión del Balón de Oro vigente. **Zagallo lo readmitió al once cuarenta minutos antes del pitido inicial**. Ronaldo salió al campo pero jugó como un fantasma: sin la coordinación habitual, sin el cambio de ritmo característico, sin la decisión finalizadora que era su marca.
+
+El partido. **Minuto 27**: córner de Petit desde la derecha. Zidane, no especialmente alto (1,85m) pero con un timing y un cuello extraordinarios, saltó por delante de Leonardo y cabeceó al fondo de la portería de Taffarel. Francia 1, Brasil 0. **Minuto 45+1, último de la primera parte**: córner de Djorkaeff desde la izquierda. Zidane volvió a saltar, esta vez por delante de Dunga, y volvió a marcar de cabeza. Francia 2, Brasil 0 al descanso. Era inédito en la historia del Mundial: nadie había marcado dos goles de cabeza en una final.
+
+En la segunda parte, Brasil empujó sin precisión. Marcel Desailly fue expulsado en el minuto 68 por doble amarilla. Francia jugó los 22 minutos finales con diez hombres. Pero Brasil no encontró el camino. Ronaldo desapareció en cada balón. Roberto Carlos fue absorbido por Karembeu. Dunga gritaba sin que le escuchara nadie. En el minuto 90+3, contraataque francés rapidísimo iniciado por Vieira, asistencia a Petit, que la cruzó con la zurda y firmó el 3-0. Gol del descuento. Final del partido. Pitido del árbitro marroquí **Said Belqola**. **Francia, campeona del mundo por primera vez en su historia**.
+
+La escena posterior. En el palco, **Jacques Chirac**, presidente francés, sin levitismo ni protocolo, se abrazó con la madre de Zidane. La banda sonora del estadio, en bucle: *"On a gagné, on a gagné"*. Los Campos Elíseos colapsaron con **un millón y medio de personas**. Era la mayor concentración pública francesa desde la Liberación de París en 1944. Zidane, ya en zona mixta, declaró la frase que repetiría tres veces más durante la madrugada: *"Empecé a jugar al fútbol para que mi padre estuviera orgulloso de mí. Esa final fue para él"*.
+
+El epílogo brasileño. La investigación que abrió el Congreso brasileño sobre la final de 1998, dirigida por el diputado Aldo Rebelo, concluyó en el año 2001 sin determinar definitivamente qué le sucedió a Ronaldo aquella tarde. Doce páginas del informe se dedicaron al **doctor Lídio Toledo**. Cero responsables jurídicos. Ronaldo recuperaría su mejor versión solo cuatro años después en Yokohama 2002 cuando, con dos goles a Alemania, le devolvió a Brasil su quinta copa del mundo. Zidane, por su parte, ganaría también la Champions League con el Real Madrid en 2002 (con el gol de volea contra el Bayer Leverkusen) y volvería al Mundial en Alemania 2006 para una despedida amarga con el cabezazo a Materazzi. Pero la cabeza más célebre de su carrera siguió siendo la de Saint-Denis. La del padre orgulloso. La de la primera estrella francesa.`,
+  },
 ];
 
 // ───────────────────────────────────────────────────────────

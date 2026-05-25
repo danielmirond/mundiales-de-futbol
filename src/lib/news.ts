@@ -73,6 +73,162 @@ export type NewsItem = {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'lamine-yamal-mundial-2026-lesion-isquios-duda-debut-espana-cabo-verde-arabia-saudi',
+    title:
+      'Lamine Yamal y la duda del Mundial: la lesión muscular del crack de España puede retrasar su debut hasta el tercer partido de grupo',
+    summary:
+      'Lamine Yamal, autor de 22 goles y 18 asistencias con el Barcelona esta temporada, llega al Mundial 2026 arrastrando la lesión de isquios que sufrió el 22 de abril contra el Celta. Luis de la Fuente y el cuerpo médico evalúan retrasar su debut hasta el tercer partido de grupo contra Uruguay para asegurar su disponibilidad en la fase eliminatoria. Cumple 19 años el 13 de julio, durante la fase de cuartos del Mundial.',
+    body: `**Lamine Yamal** llega al Mundial 2026 con el dilema más comentado del banquillo español. El extremo del Barcelona, **18 años**, autor de **22 goles y 18 asistencias** entre Liga, Champions y Copa esta temporada con el club azulgrana, sufrió el pasado **22 de abril** una **rotura del tendón isquiotibial izquierdo** lanzando un penalti en el partido contra el Celta de Vigo. Una semana antes había firmado el primer hat-trick de su carrera en un 4-1 al Villarreal. La lesión, originalmente fijada en seis semanas de baja, lo apartó del tramo final de la temporada del Barcelona.
+
+El plazo de recuperación. Yamal volvió a entrenarse con normalidad la primera semana de mayo, pero el cuerpo médico de la RFEF y el del Barcelona acordaron mantener una **carga conservadora** hasta el inicio del Mundial. Las pruebas físicas finales se hicieron entre el 18 y el 22 de mayo en la Ciudad del Fútbol de Las Rozas. El diagnóstico, según fuentes médicas filtradas a *Marca*: el isquiotibial está clínicamente cicatrizado, pero la masa muscular sigue **3-4% por debajo** del nivel previo a la lesión. La recomendación: ritmos progresivos, evitar arranques explosivos durante los primeros 15-20 días.
+
+La decisión de De la Fuente. **Luis de la Fuente** mantuvo a Yamal en la prelista provisional del 11 de mayo y, este lunes, lo incluyó también en la lista definitiva de 26 jugadores. La pregunta abierta es cuándo lo hará jugar:
+
+- **Opción A: ahorrarlo en grupos**. El planteamiento más cauto sería no convocarlo al once en los dos primeros partidos del Grupo H (contra Cabo Verde el 15 de junio en Chicago, contra Arabia Saudí el 20 de junio en Atlanta), darle minutos breves en el tercero contra Uruguay el 25 de junio en Filadelfia, y reservarlo al 100% para la fase eliminatoria.
+- **Opción B: titular contra Uruguay**. Lo darían minutos como suplente en el primer partido (Cabo Verde, rival accesible), titularidad limitada contra Arabia Saudí y titularidad plena contra Uruguay, tercero del grupo.
+- **Opción C: titular desde el primer partido**. Solo si las pruebas de los próximos diez días confirman que el músculo aguanta. La menos probable según las fuentes consultadas por *AS*.
+
+El consenso periodístico apunta a la **opción A o B**. La opción A garantiza que Yamal esté disponible para octavos y, eventualmente, para el resto del torneo.
+
+Por qué importa Yamal. Las cifras del barcelonista esta temporada lo sitúan, según el agregador *FBref*, entre los **cinco mejores jugadores ofensivos del fútbol mundial** medido por xG + xA combinados. Sus números individuales (22 goles + 18 asistencias en 47 partidos, **xG/90 de 0,71**) son prácticamente equivalentes a la **suma** de los datos de Mbappé y Vinícius Júnior en sus respectivos clubes. Para una selección española que necesita talento creativo en banda derecha tras el retiro de Pedro Rodríguez y la baja de Carvajal por lesión, Yamal es el desequilibrio diferencial.
+
+El factor cumpleaños. Yamal **cumplirá 19 años el 13 de julio**, en plena fase de **cuartos de final** del Mundial. Si España avanza, podría celebrar el cumpleaños jugándose el pase a semifinales. Si España llega a la final del 19 de julio en MetLife Stadium, lo hará con **19 años y 6 días** cumplidos, siete días menos que la edad de Pelé en la final del 17-jun-1958 en Solna (17 años, 7 meses y 27 días, récord histórico que parecía imbatible).
+
+España debuta contra Cabo Verde el lunes 15 de junio en el Soldier Field de Chicago a las 21:00 hora de Madrid. Calendario completo del Grupo H y plantilla en [/selecciones/ESP/grupo-h](/selecciones/ESP/grupo-h) y la noticia de la convocatoria de hoy en [el feed de noticias](/noticias).`,
+    category: 'jugadores',
+    sourceName: 'Medio Tiempo',
+    sourceUrl:
+      'https://www.mediotiempo.com/futbol/copa-mundial/debutantes-en-el-mundial-2026-el-caso-de-lamine-yamal-con-espana',
+    sourceLang: 'es',
+    publishedAt: '2026-05-25T19:00:00Z',
+    sourcesSecondary: [
+      {
+        name: 'Transfermarkt · stats 25/26',
+        url: 'https://www.transfermarkt.us/lamine-yamal/leistungsdaten/spieler/937958',
+      },
+      {
+        name: 'UEFA · Yamal Champions',
+        url: 'https://es.uefa.com/uefachampionsleague/clubs/players/250176450--lamine-yamal/statistics/',
+      },
+      {
+        name: 'Enfoque Noticias · trayectoria',
+        url: 'https://enfoquenoticias.com.mx/fiesta-futbolera/lamine-yamal-el-camino-del-extremo-del-fc-barcelona-hacia-el-mundial-2026/',
+      },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Lamine_Yamal_2024.jpg/1280px-Lamine_Yamal_2024.jpg',
+      alt: 'Lamine Yamal, extremo del FC Barcelona y figura de la selección española, en un partido de la Eurocopa 2024',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'trionda-balon-oficial-mundial-2026-adidas-cuatro-paneles-chip-imu-precio-tecnologia',
+    title:
+      'Trionda, el balón del Mundial 2026: cuatro paneles, chip IMU integrado y guiños a México, Canadá y EE.UU. en un diseño hecho en Pakistán',
+    summary:
+      'Adidas presentó el 2 de octubre de 2025 el balón oficial del Mundial 2026, llamado Trionda. Fabricado con apenas cuatro paneles termosellados, lleva un chip IMU (Inertial Measurement Unit) integrado que envía datos en tiempo real al VAR. El nombre combina tri- (los tres países anfitriones) y onda. El balón se fabrica en Sialkot, Pakistán, en la misma fábrica que produjo el Al Rihla de Catar 2022.',
+    body: `**Adidas** presentó el pasado **2 de octubre de 2025** el **Trionda**, balón oficial del Mundial 2026. Es el decimoquinto balón consecutivo de la marca alemana para una cita mundialista (línea ininterrumpida desde el Telstar de Inglaterra 1966) y el primero que estrena un cambio de diseño tan radical: **solo cuatro paneles termosellados**, la cifra más baja en la historia de los Mundiales. La esfera reduce así las costuras visibles y mejora la aerodinámica.
+
+El nombre y el simbolismo. *Trionda* es la combinación del prefijo *tri-* (que significa «tres» en español, inglés y francés, los tres idiomas oficiales del torneo y de los tres países anfitriones) y la palabra *onda*. La traducción literal sería *triple ola*. Sobre la superficie del balón hay tres ondas geométricas en los colores de las tres banderas anfitrionas:
+
+- **Rojo y blanco** (México), con una **águila** estilizada.
+- **Blanco y azul** (Estados Unidos), con una **estrella**.
+- **Rojo y blanco** (Canadá), con una **hoja de arce**.
+
+Cada figura aparece en uno de los cuatro paneles del balón. El cuarto panel lo ocupa el escudo oficial de la **FIFA World Cup 2026** con detalles dorados que hacen referencia al trofeo Jules Rimet.
+
+La tecnología, lo nuevo. El gran salto del Trionda es el **chip IMU (Inertial Measurement Unit)** integrado en una de las cuatro membranas de poliuretano. Este sensor mide aceleración, rotación y posición del balón en tiempo real con un envío de **500 datos por segundo** al equipo arbitral. Sirve a tres funciones:
+
+1. **VAR de precisión**. Determinar si el balón ha cruzado la línea de fondo, ha tocado el larguero o ha sido tocado por una mano en el área en milisegundos.
+2. **Offset detection**. Detectar el punto exacto en que un atacante toca el balón para confirmar (o no) un fuera de juego.
+3. **Datos abiertos**. Algunos paquetes de retransmisión incluirán datos del balón en directo (velocidad del disparo, efecto de los lanzamientos de falta) para enriquecer la cobertura televisiva.
+
+El chip está alimentado por una **batería interna recargable** que dura **18 horas continuas**. El balón se carga de manera inalámbrica en un cuarto de hora. FIFA tendrá una flota de **120 balones Trionda** rotando durante el torneo, todos con el chip activo.
+
+Tecnología de la superficie. Adidas describe el panel de **textura debossada** (en relieve sobre el material base) con patrones macro y micro diseñados para **mejorar el agarre del jugador** en condiciones de humedad. Es un punto particularmente relevante para el Mundial 2026 porque las sedes incluyen **climas extremos opuestos**: el Estadio BBVA de Monterrey (verano caliente y seco), el Hard Rock Stadium de Miami (humedad tropical), el Mercedes-Benz Stadium de Atlanta (humedad subtropical), el AT&T Stadium de Dallas (calor extremo) y el Estadio Azteca de Ciudad de México (altitud + temperatura templada). El balón está diseñado para mantener el comportamiento en todos esos contextos.
+
+Dónde se fabrica. El Trionda lo produce la empresa **Forward Sports** en su factoría de **Sialkot (Pakistán)**, ciudad que concentra históricamente la producción de balones de fútbol del mundo. Es la misma planta que produjo el Al Rihla de Catar 2022, el Telstar 18 de Rusia 2018 y los balones de los últimos cinco Mundiales. Forward Sports tiene cerca de 7.000 empleados y está certificada por **Fair Labor Association** y **Better Cotton Initiative** tras décadas de presión internacional sobre las condiciones laborales en la industria del balón.
+
+Precios y dónde comprarlo. Adidas comercializa el Trionda en tres versiones:
+
+- **Trionda Pro Match Ball** (réplica idéntica del balón oficial, con chip): **$199 USD** en EE.UU., **170 €** en España.
+- **Trionda League** (versión sin chip, idéntica en diseño): **$59 USD**, **49 €** en España.
+- **Trionda Club** (versión de entrenamiento, panel cosido): **$29 USD**, **25 €** en España.
+
+Los puntos de venta principales son la propia adidas.com, Dick\'s Sporting Goods (USA), Innovasport (México), El Corte Inglés y Fnac (España), Amazon en todos los países y tiendas oficiales de FIFA en las sedes.
+
+Más sobre **patrocinadores y marcas técnicas del Mundial 2026** en [/selecciones](/selecciones). El **comercial Adidas «Backyard Legends»** que acompaña al lanzamiento del Trionda está cubierto en otra noticia de este cluster.`,
+    category: 'patrocinios',
+    sourceName: 'ESPN Deportes',
+    sourceUrl:
+      'https://espndeportes.espn.com/futbol/mundial/nota/_/id/15761023/mundial-2026-revelan-balon-adidas-trionda',
+    sourceLang: 'es',
+    publishedAt: '2026-05-25T14:00:00Z',
+    sourcesSecondary: [
+      {
+        name: 'Wikipedia · Adidas Trionda',
+        url: 'https://en.wikipedia.org/wiki/Adidas_Trionda',
+      },
+      {
+        name: 'Adidas USA · Trionda Pro Ball',
+        url: 'https://www.adidas.com/us/fifa-world-cup-26-trionda-pro-ball/JD8021.html',
+      },
+      {
+        name: 'Telemundo · Conoce a Trionda',
+        url: 'https://www.telemundo.com/deportes/copa-mundial-de-la-fifa-2026/conoce-a-trionda-el-balon-del-mundial-2026-rcna244893',
+      },
+    ],
+  },
+  {
+    slug: 'lista-espana-mundial-2026-luis-de-la-fuente-26-jugadores-rodri-cubarsi-pubill-huijsen-sin-morata-joselu',
+    title:
+      'Luis de la Fuente desvela la lista de España para el Mundial 2026: cuatro porteros, Rodri de vuelta y generación Cubarsí-Pubill-Huijsen, sin Morata ni Joselu',
+    summary:
+      'Luis de la Fuente anunció este lunes 25 de mayo a las 12:30 desde el Espacio Movistar de Gran Vía la lista de 26 jugadores de España para el Mundial 2026. La novedad: cuatro porteros (Unai Simón, David Raya, Álex Remiro, Joan García). Vuelve Rodri tras la lesión y pelean por ser pivote con Zubimendi. Generación nueva en defensa: Cubarsí, Pubill, Huijsen. Bajas dolorosas: Morata, Joselu y Carvajal (este último por lesión).',
+    body: `**Luis de la Fuente** desveló este lunes **25 de mayo a las 12:30** desde el Espacio Movistar de la Gran Vía madrileña la lista definitiva de **26 jugadores** convocados por España para el **Mundial 2026**. El acto, transmitido en directo por DAZN, Movistar Plus+ Deportes y los canales oficiales de la RFEF, cerró dos semanas de filtraciones y debate sobre nombres clave. El seleccionador riojano apostó por una mezcla de generaciones, **cuatro porteros** (una decisión inédita en convocatorias recientes españolas) y el regreso de **Rodri** tras la lesión de menisco que lo apartó del fútbol entre enero y marzo.
+
+Las novedades por línea. La rueda de prensa de De la Fuente repasó cada decisión:
+
+**Porteros (4)**. Unai Simón (Athletic Club, titular indiscutible), David Raya (Arsenal, principal opción de relevo tras una temporada brillante), Álex Remiro (Real Sociedad) y Joan García (Espanyol). La cuarta plaza para un portero es una decisión personal de De la Fuente para tener un perfil joven con experiencia de banquillo, dado que Joan García solo ha jugado 18 partidos internacionales en categorías inferiores.
+
+**Defensas (8)**. Marc Cucurella (Chelsea), Aymeric Laporte (Al-Nassr), Pau Cubarsí (Barcelona, 19 años), Robin Le Normand (Atlético de Madrid), Dani Vivian (Athletic Club), Marc Pubill (Almería), Dean Huijsen (Bournemouth, 21 años) y Pedro Porro (Tottenham). **La baja más sentida es Dani Carvajal** (Real Madrid), titular indiscutible desde 2014 que se rompió el ligamento cruzado anterior el pasado octubre y no llegará al Mundial. Le Normand y Cubarsí se perfilan como pareja central titular.
+
+**Centrocampistas (6)**. Rodri (Manchester City, regreso titular), Martín Zubimendi (Real Sociedad, pelea por ser pivote), Pedri (Barcelona, recuperado de su lesión muscular de enero), Fabián Ruiz (PSG), Mikel Merino (Real Madrid) y Aleix García (Bayer Leverkusen). **Sale de la lista Álex Baena** (Atlético, descartado por bajo rendimiento). **Fermín López** (Barcelona) queda fuera por la fractura del quinto metatarsiano del pasado 17 de mayo contra el Betis.
+
+**Delanteros (8)**. Lamine Yamal (Barcelona, 18 años, gestionando la recuperación de su lesión muscular de abril), Nico Williams (Athletic Club), Mikel Oyarzabal (Real Sociedad), Dani Olmo (Barcelona), Ferran Torres (Barcelona), Yeremy Pino (Crystal Palace), Borja Iglesias (Real Betis) y **Ansu Fati** (Mónaco, regresa a la selección absoluta tres años después). **Las bajas más sonadas son Álvaro Morata** (Galatasaray, capitán histórico desde la Eurocopa 2024) y **Joselu** (Al-Gharafa). De la Fuente: *"No es un debate de calidad, es de momento de forma"*.
+
+El nuevo capitán. Con Morata fuera, el brazalete pasa por primera vez en cuatro años a **Dani Olmo** (Barcelona). La elección no es protocolaria: refleja la apuesta de De la Fuente por el liderazgo silencioso y tecnificado del catalán antes que por capitanes de banquillo como Laporte. Olmo, 28 años, lleva cuatro temporadas en la selección absoluta y fue MVP de la final de la Eurocopa 2024 contra Inglaterra en Berlín.
+
+Las dudas tácticas. España va a competir en el Grupo H del Mundial 2026 con Cabo Verde, Arabia Saudí y Uruguay. El debut es el **lunes 15 de junio en el Soldier Field de Chicago** contra Cabo Verde a las 21:00 hora de Madrid (14:00 hora local). De la Fuente confirmó que mantiene el 4-2-3-1 como sistema base pero abrió la puerta a alternar con 4-3-3 según el rival: *"Tenemos jugadores de banda izquierda con perfil de extremo natural y otros con perfil de mediapunta. Vamos a aprovechar las dos variantes según convenga"*. La duda táctica más comentada: si Rodri llega al 100%, **¿Zubimendi entra al once como segundo pivote**, formando un doble cinco que liberaría a Pedri en posición más adelantada?
+
+La rueda de prensa cerró con la frase con que De la Fuente quiere arrancar el ciclo: *"Llegamos con la mejor generación de jugadores españoles desde 2008-2012. Tenemos talento, tenemos hambre y tenemos la responsabilidad de los campeones de la Eurocopa. Vamos a por el sexto título mundial español. Nada menos"*.
+
+La concentración española se inicia el **3 de junio** en Las Rozas. El primer amistoso pre-Mundial es contra **Suiza** el 7 de junio en San Mamés. España vuela a Estados Unidos el 9 de junio y se concentrará en Chicago hasta el partido inaugural del Grupo H.
+
+**Calendario completo de España** en el Mundial 2026 y previa del [Grupo H](/2026/grupo/H) en [/selecciones/ESP/grupo-h](/selecciones/ESP/grupo-h). Lista de los 26 elegidos detallada en [/2026/listas/ESP](/2026/listas/ESP).`,
+    category: 'convocatorias',
+    sourceName: 'Eurosport España',
+    sourceUrl:
+      'https://www.eurosport.es/futbol/mundial/2026/lista-definitiva-luis-de-la-fuente-espana-dudas-alternativas-lesionados-tocados_sto23300883/story.shtml',
+    sourceLang: 'es',
+    publishedAt: '2026-05-25T10:30:00Z',
+    sourcesSecondary: [
+      {
+        name: 'RFEF · convocatoria oficial',
+        url: 'https://rfef.es/',
+      },
+      {
+        name: 'DAZN · convocatoria España',
+        url: 'https://www.dazn.com/es-MX/news/f%C3%BAtbol/convocatoria-espana-mundial-2026-lista-capitanes-dorsales-cuerpo-tecnico-luis-de-la-fuente/5cdaee3cywhq18pqvgw3l4ep0',
+      },
+      {
+        name: 'Marca · análisis lista España',
+        url: 'https://amp.marca.com/futbol/seleccion/2026/05/21/fuente-levanta-cartas-elige-tus-26-espanoles-mundial-futbol.html',
+      },
+    ],
+  },
+  {
     slug: 'falsificaciones-cromos-panini-mundial-2026-policia-brasil-rio-200-mil-decomiso',
     title:
       'La policía brasileña decomisa 200.000 cromos falsos del Mundial 2026 en un autobús cerca de Río de Janeiro',
