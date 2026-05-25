@@ -56,6 +56,199 @@ export type FamousGoal = {
 };
 
 export const FAMOUS_GOALS: FamousGoal[] = [
+  // ─── 1930 URUGUAY ─────────────────────────────────────────
+  {
+    slug: 'lucien-laurent-primer-gol-historia-mundiales-1930-francia-mexico',
+    year: 1930,
+    matchDate: '1930-07-13',
+    stage: 'group',
+    minute: 19,
+    title: 'Lucien Laurent y el primer gol de la historia de los Mundiales: Francia 4-1 México',
+    player: 'Lucien Laurent',
+    teamCode: 'FRA',
+    opponentCode: 'MEX',
+    finalScore: { team: 4, opponent: 1 },
+    description:
+      'Estadio Pocitos de Montevideo, 13 de julio de 1930. Francia y México disputan uno de los dos partidos inaugurales de la historia de los Mundiales. Minuto 19. Centro de Ernest Liberati desde la derecha, control de Lucien Laurent dentro del área y volea de derecha al fondo de la red. Es el primer gol jamás marcado en una Copa del Mundo. Francia ganaría 4-1. Laurent, delantero del Cercle Athlétique de París, era amateur, trabajaba como ingeniero y no cobró ni un franco por el viaje. Vivió 87 años más sin imaginar que cada nuevo gol del Mundial llevaría su firma silenciosa.',
+    whyIconic: 'Primer gol de la historia de los Mundiales. Inicio absoluto del torneo más visto del planeta.',
+    youtubeQuery: 'lucien laurent first goal world cup 1930 france mexico',
+    durationSeconds: 20,
+  },
+
+  // ─── 1934 ITALIA ──────────────────────────────────────────
+  {
+    slug: 'angelo-schiavio-gol-final-1934-italia-checoslovaquia-prorroga',
+    year: 1934,
+    matchDate: '1934-06-10',
+    stage: 'final',
+    minute: 95,
+    title: 'Angelo Schiavio gana el primer Mundial italiano en la prórroga: 2-1 a Checoslovaquia',
+    player: 'Angelo Schiavio',
+    teamCode: 'ITA',
+    opponentCode: 'TCH',
+    finalScore: { team: 2, opponent: 1 },
+    description:
+      'Final del Mundial de Italia 1934 en el Stadio Nazionale del PNF de Roma, ante 50.000 espectadores y la presencia de Benito Mussolini en el palco. Italia y Checoslovaquia llegan empatadas a un gol al final del tiempo reglamentario. Minuto 95 de la prórroga. Enrique Guaita atraviesa el área con un pase a Schiavio, delantero del Bologna, que define con un latigazo cruzado de derecha por encima del portero František Plánička. 2-1 Italia. Vittorio Pozzo levantaba la primera Copa del Mundo italiana. Schiavio, capitán y máximo goleador histórico del Bologna con 242 goles, se retiraría dos años después y trabajaría como entrenador del propio club rossoblù hasta los años cincuenta.',
+    whyIconic: 'Gol que cierra el primer Mundial italiano. Decidido en prórroga en Roma con Mussolini en el palco.',
+    youtubeQuery: 'angelo schiavio goal final 1934 world cup italy czechoslovakia',
+    durationSeconds: 25,
+  },
+
+  // ─── 1938 FRANCIA ────────────────────────────────────────
+  {
+    slug: 'leonidas-diamante-negro-cuartos-1938-brasil-polonia',
+    year: 1938,
+    matchDate: '1938-06-05',
+    stage: 'r16',
+    minute: 93,
+    title: 'Leônidas, el Diamante Negro: hat-trick descalzo a Polonia en la prórroga de Estrasburgo',
+    player: 'Leônidas da Silva',
+    teamCode: 'BRA',
+    opponentCode: 'POL',
+    finalScore: { team: 6, opponent: 5 },
+    description:
+      'Octavos del Mundial de Francia 1938 en el Stade de la Meinau de Estrasburgo, 5 de junio de 1938. Brasil y Polonia disputan uno de los partidos más espectaculares de la historia mundialista. Llueve sin parar y el césped está empapado. Al final del tiempo reglamentario, 4-4. En la prórroga, Leônidas se descalza para mejorar el agarre y marca tres goles consecutivos. Brasil gana 6-5 con cuatro de Leônidas. La prensa francesa lo bautizaría como el Diamante Negro. Inventor reconocido de la chilena en el fútbol sudamericano, Leônidas terminaría el Mundial 38 como máximo goleador con siete goles, premio que entonces no existía oficialmente pero que la FIFA le concedería retrospectivamente medio siglo después.',
+    whyIconic: 'Hat-trick descalzo en prórroga. Origen del mito del Diamante Negro y de la primera estrella mundialista negra.',
+    youtubeQuery: 'leonidas brazil poland 1938 world cup diamond',
+    durationSeconds: 35,
+  },
+
+  // ─── 1950 BRASIL ─────────────────────────────────────────
+  {
+    slug: 'ghiggia-maracanazo-uruguay-brasil-1950-final-2-1',
+    year: 1950,
+    matchDate: '1950-07-16',
+    stage: 'final',
+    minute: 79,
+    title: 'Alcides Ghiggia y el silencio del Maracaná: Uruguay 2-1 Brasil',
+    player: 'Alcides Ghiggia',
+    teamCode: 'URU',
+    opponentCode: 'BRA',
+    finalScore: { team: 2, opponent: 1 },
+    description:
+      'Partido decisivo del Mundial de Brasil 1950 en el Estadio de Maracaná, 16 de julio. 199.854 espectadores oficiales (200.000 sin entrada según fuentes uruguayas). Brasil necesitaba un empate para ser campeón. Friaça abrió el marcador al minuto 47. Schiaffino empató en el 66. Minuto 79. Alcides Ghiggia, extremo derecho del Peñarol, encara al lateral Bigode por la banda y, en lugar de centrar como esperaba el portero Barbosa, dispara cruzado al palo corto. El balón entra y el Maracaná queda en silencio absoluto. Uruguay 2-1. Ghiggia diría décadas después: solo tres personas hicieron callar al Maracaná: Frank Sinatra, el Papa y yo. El Maracanazo.',
+    whyIconic: 'Gol que generó el Maracanazo, el partido más simbólico del fútbol sudamericano del siglo XX.',
+    youtubeQuery: 'ghiggia goal maracana 1950 uruguay brazil maracanazo',
+    relatedHistoriaSlug: 'obdulio-varela-mi-patria-es-la-gente-1950',
+    durationSeconds: 30,
+  },
+
+  // ─── 1954 SUIZA ──────────────────────────────────────────
+  {
+    slug: 'helmut-rahn-gol-final-1954-suiza-alemania-hungria-milagro-berna',
+    year: 1954,
+    matchDate: '1954-07-04',
+    stage: 'final',
+    minute: 84,
+    title: 'Helmut Rahn y el Milagro de Berna: Alemania 3-2 Hungría',
+    player: 'Helmut Rahn',
+    teamCode: 'GER',
+    opponentCode: 'HUN',
+    finalScore: { team: 3, opponent: 2 },
+    description:
+      'Estadio Wankdorf de Berna, 4 de julio de 1954. Hungría, la Aranycsapat (Equipo Dorado) invicta durante cuatro años con Puskás, Kocsis e Hidegkuti, era favorita absoluta. Se adelantaron 2-0 a los ocho minutos. Alemania empató 2-2 en el primer tiempo con Morlock y Rahn. Minuto 84. Lluvia constante en Berna. Hans Schäfer envía un centro pasado, Helmut Rahn recoge el rechace fuera del área, finta y dispara con la izquierda al palo corto del portero Grosics. 3-2 Alemania. Sepp Herberger levantaba la primera Copa del Mundo alemana y el país sellaba simbólicamente su renacimiento de posguerra. La frase del comentarista Herbert Zimmermann (Tor! Tor! Tor!) sigue siendo el audio deportivo más reproducido en la radio alemana.',
+    whyIconic: 'El Milagro de Berna. Gol decisivo de un Mundial que cambió la posguerra alemana y rompió la racha de Hungría.',
+    youtubeQuery: 'helmut rahn goal final 1954 germany hungary miracle bern',
+    durationSeconds: 30,
+  },
+
+  // ─── 1962 CHILE ──────────────────────────────────────────
+  {
+    slug: 'garrincha-doblete-cuartos-1962-brasil-inglaterra',
+    year: 1962,
+    matchDate: '1962-06-10',
+    stage: 'qf',
+    minute: 53,
+    title: 'Garrincha y el doblete en Viña del Mar: Brasil 3-1 Inglaterra',
+    player: 'Mané Garrincha',
+    teamCode: 'BRA',
+    opponentCode: 'ENG',
+    finalScore: { team: 3, opponent: 1 },
+    description:
+      'Cuartos del Mundial de Chile 1962 en el Estadio Sausalito de Viña del Mar, 10 de junio. Brasil disputa el partido sin Pelé, lesionado de muslo durante la fase de grupos. Mané Garrincha, el extremo de las piernas torcidas del Botafogo, asume el papel de líder ofensivo. Marca dos goles: el primero al minuto 31, control orientado dentro del área y disparo con la derecha al ángulo; el segundo al 53, jugada personal con regate dentro del área y volea cruzada. 3-1 Brasil. Garrincha repetiría magia en semifinal contra Chile (otro doblete) y Brasil ganaría el Mundial sin Pelé, con Garrincha como verdadero capitán natural del equipo. Bota de Plata del torneo. Su nombre estaría grabado en una placa en Viña del Mar más de cincuenta años después.',
+    whyIconic: 'El Mundial de Garrincha sin Pelé. Doblete técnico decisivo en cuartos contra Inglaterra.',
+    youtubeQuery: 'garrincha brazil england 1962 world cup quarter final two goals',
+    relatedHistoriaSlug: 'garrincha-piernas-torcidas-chile-1962-mundial-sin-pele',
+    durationSeconds: 35,
+  },
+
+  // ─── 1974 ALEMANIA ───────────────────────────────────────
+  {
+    slug: 'gerd-muller-gol-final-1974-alemania-holanda-final-munich',
+    year: 1974,
+    matchDate: '1974-07-07',
+    stage: 'final',
+    minute: 43,
+    title: 'Gerd Müller derriba a la Naranja Mecánica: Alemania 2-1 Holanda en Múnich',
+    player: 'Gerd Müller',
+    teamCode: 'GER',
+    opponentCode: 'NED',
+    finalScore: { team: 2, opponent: 1 },
+    description:
+      'Final del Mundial de Alemania 1974 en el Estadio Olímpico de Múnich, 7 de julio. Holanda de Cruyff había marcado un penalti de Neeskens a los 1:25 del partido (penalti más rápido de una final). Breitner empató desde los once metros. Minuto 43, último de la primera parte. Rainer Bonhof se va por la banda derecha, centro raso al borde del área. Gerd Müller, Der Bomber, controla con un giro a 180 grados y dispara con la izquierda al palo corto de Jongbloed. 2-1 Alemania. Müller terminaría con 14 goles totales en sus dos Mundiales (1970 y 1974), récord que solo superó Miroslav Klose 40 años después. Tras el partido, anunciaría su retiro de la selección a los 28 años, en pleno apogeo, decisión inédita entonces.',
+    whyIconic: 'Gol que derrota a la Naranja Mecánica y cierra el ciclo de Müller, el goleador más letal de su generación.',
+    youtubeQuery: 'gerd muller goal final 1974 world cup germany netherlands',
+    durationSeconds: 25,
+  },
+
+  // ─── 1978 ARGENTINA ──────────────────────────────────────
+  {
+    slug: 'kempes-doblete-final-1978-argentina-holanda-monumental',
+    year: 1978,
+    matchDate: '1978-06-25',
+    stage: 'final',
+    minute: 105,
+    title: 'Mario Kempes y la primera Copa argentina: doblete y prórroga en el Monumental',
+    player: 'Mario Kempes',
+    teamCode: 'ARG',
+    opponentCode: 'NED',
+    finalScore: { team: 3, opponent: 1 },
+    description:
+      'Final del Mundial de Argentina 1978 en el Estadio Monumental de Buenos Aires, 25 de junio. Holanda llegaba a su segunda final consecutiva sin Cruyff (renunció por motivos personales). Mario Kempes, único jugador del campeón que actuaba en Europa (Valencia), abrió el marcador al minuto 38 con un control con el pecho y disparo cruzado. Nanninga empató en el 82 de cabeza. Prórroga. Minuto 105, Kempes recibe un balón largo en el área, supera al portero Jongbloed con dos amagues y empuja al fondo de la red. Bertoni firmaría el 3-1 definitivo. Kempes ganó la Bota de Oro con 6 goles. Argentina, primera campeona del mundo bajo la presión de la dictadura militar. La copa la entregó Jorge Rafael Videla.',
+    whyIconic: 'Primer Mundial argentino. Doblete del Matador en una final marcada por la dictadura.',
+    youtubeQuery: 'kempes goals final 1978 world cup argentina netherlands monumental',
+    durationSeconds: 35,
+  },
+
+  // ─── 1982 ESPAÑA ─────────────────────────────────────────
+  {
+    slug: 'tardelli-grito-celebracion-final-1982-italia-alemania-bernabeu',
+    year: 1982,
+    matchDate: '1982-07-11',
+    stage: 'final',
+    minute: 69,
+    title: 'Marco Tardelli y el grito de Bernabéu: Italia 3-1 Alemania',
+    player: 'Marco Tardelli',
+    teamCode: 'ITA',
+    opponentCode: 'GER',
+    finalScore: { team: 3, opponent: 1 },
+    description:
+      'Final del Mundial de España 1982 en el Santiago Bernabéu de Madrid, 11 de julio. Italia ganaba 1-0 con gol de Paolo Rossi. Minuto 69. Antonio Cabrini envía un centro desde la izquierda al borde del área, Tardelli controla con el pecho y dispara con la zurda al fondo de la red. La celebración cambia la historia visual del fútbol: Tardelli corre hacia el banquillo italiano con los puños apretados, gritando con la boca completamente abierta y lágrimas saliendo de los ojos. El cámara de la RAI lo sigue durante 12 segundos. Es el primer plano emocional puro nunca grabado en una final del Mundial. Italia ganaría 3-1 con Altobelli al 81. Sandro Pertini, en el palco, hizo cinco minutos después su famoso gesto con la pipa.',
+    whyIconic: 'El Tardelli Scream. La celebración más imitada de la historia del fútbol.',
+    youtubeQuery: 'tardelli scream goal final 1982 world cup italy germany bernabeu',
+    relatedHistoriaSlug: 'naranjito-pertini-anos-de-plomo-espana-1982-italia-transicion-mundial',
+    durationSeconds: 30,
+  },
+
+  // ─── 1990 ITALIA ─────────────────────────────────────────
+  {
+    slug: 'caniggia-gol-octavos-1990-argentina-brasil-italia-90',
+    year: 1990,
+    matchDate: '1990-06-24',
+    stage: 'r16',
+    minute: 81,
+    title: 'Maradona-Caniggia: el gol contra Brasil que nadie esperaba en Italia 90',
+    player: 'Claudio Caniggia',
+    teamCode: 'ARG',
+    opponentCode: 'BRA',
+    finalScore: { team: 1, opponent: 0 },
+    description:
+      'Octavos del Mundial de Italia 1990 en el Estadio Delle Alpi de Turín, 24 de junio. Brasil dominaba el partido con autoridad, había estrellado dos balones contra los postes. Argentina jugaba sin recursos. Minuto 81. Maradona recibe un balón en el círculo central y arranca un slalom de 30 metros con tres rivales encima. Llega al borde del área brasileña y, cuando Müller y Dunga ya se cierran sobre él, asiste con un pase telegráfico hacia la izquierda donde Claudio Caniggia ha completado una carrera de 60 metros. El delantero del Atalanta define con un toque sutil entre las piernas de Taffarel. 1-0 Argentina. Brasil eliminada. Maradona, sin marcar, había producido la asistencia más imposible del Mundial. Argentina llegaría a la final donde caería 1-0 contra Alemania.',
+    whyIconic: 'Asistencia mítica de Maradona. Argentina elimina a Brasil con un solo gol en un partido completamente dominado por la verdeamarela.',
+    youtubeQuery: 'caniggia goal argentina brazil 1990 world cup maradona assist',
+    durationSeconds: 35,
+  },
+
   // ─── 1958 SUECIA ──────────────────────────────────────────
   {
     slug: 'pele-cabezazo-gol-final-1958-suecia',

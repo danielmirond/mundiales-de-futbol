@@ -1396,6 +1396,144 @@ La escena posterior. En el palco, **Jacques Chirac**, presidente francés, sin l
 
 El epílogo brasileño. La investigación que abrió el Congreso brasileño sobre la final de 1998, dirigida por el diputado Aldo Rebelo, concluyó en el año 2001 sin determinar definitivamente qué le sucedió a Ronaldo aquella tarde. Doce páginas del informe se dedicaron al **doctor Lídio Toledo**. Cero responsables jurídicos. Ronaldo recuperaría su mejor versión solo cuatro años después en Yokohama 2002 cuando, con dos goles a Alemania, le devolvió a Brasil su quinta copa del mundo. Zidane, por su parte, ganaría también la Champions League con el Real Madrid en 2002 (con el gol de volea contra el Bayer Leverkusen) y volvería al Mundial en Alemania 2006 para una despedida amarga con el cabezazo a Materazzi. Pero la cabeza más célebre de su carrera siguió siendo la de Saint-Denis. La del padre orgulloso. La de la primera estrella francesa.`,
   },
+  {
+    n: 38,
+    slug: 'vittorio-pozzo-dos-mundiales-italia-1934-1938-mussolini-fascismo',
+    publishDate: '2026-05-26',
+    blockCode: 'S5',
+    category: 'historica',
+    protagonist: 'Vittorio Pozzo',
+    quote: 'Vencer o morir.',
+    quoteDate: '1934-06-10',
+    context:
+      'Vittorio Pozzo dirigió a Italia en los Mundiales de 1934 (en casa) y 1938 (en Francia), ganando ambos. Es el único seleccionador de la historia que ha conquistado dos Copas del Mundo consecutivas. Su figura se mezcla con el contexto político del régimen fascista de Mussolini, que utilizó las dos victorias como propaganda del Estado. Pozzo siempre defendió que era un técnico, no un político, pero su selección jugó con saludos romanos antes de los partidos y con camisetas negras en una eliminatoria contra Francia en 1938.',
+    source: {
+      name: 'Wikipedia, Vittorio Pozzo',
+      url: 'https://es.wikipedia.org/wiki/Vittorio_Pozzo',
+    },
+    sourceSecondary: 'The Guardian · Repubblica · Storia del calcio italiano · ICR',
+    certainty: 'Alta',
+    title:
+      'Pozzo, el técnico que ganó dos Mundiales consecutivos con la sombra de Mussolini',
+    excerpt:
+      'Italia 1934 y Francia 1938. Vittorio Pozzo dirigió a la *Nazionale* y ganó las dos Copas del Mundo consecutivas, hazaña que ningún seleccionador ha repetido en 88 años. Lo hizo bajo el régimen de Mussolini, que utilizó las victorias como propaganda. La historia técnica más exitosa del fútbol italiano nació dentro de la sombra política más oscura del siglo XX.',
+    cover: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/2/21/Italia82.JPG',
+      alt: 'Trofeo Italia campeona del Mundo, simbolismo de la era Pozzo y de los títulos italianos',
+      credit: 'Wikimedia Commons',
+      license: 'Dominio público',
+      source: 'https://commons.wikimedia.org/wiki/File:Italia82.JPG',
+    },
+    body: `**Vittorio Pozzo** ostenta un récord absoluto que ningún seleccionador en la historia ha podido repetir: ganar **dos Copas del Mundo consecutivas**. Italia 1934 y Francia 1938. Han pasado **88 años** desde la segunda y la cifra sigue siendo un techo inalcanzado. Ni Sepp Herberger con Alemania (1954 y semifinal 1958), ni Mario Zagallo con Brasil (1958, 1962 como jugador y 1970 como entrenador), ni Carlos Bilardo (1986 ganada, 1990 final perdida), ni Luiz Felipe Scolari, ni Joachim Löw. Solo Pozzo, italiano nacido en Turín en 1886, ingeniero textil de formación, periodista deportivo y entrenador del Torino antes de tomar la *Nazionale*.
+
+El contexto político pesa sobre el legado. Italia gana sus dos Mundiales bajo el régimen fascista de **Benito Mussolini**, que vio en el deporte un instrumento de propaganda estatal masiva. El Mundial de 1934 fue **organizado en Italia** específicamente como vitrina del régimen. Los partidos se jugaron con la cruz lictoria del PNF visible en los estadios, con la Marcha Real y *Giovinezza* (el himno fascista) en cada inauguración. Antes de cada partido, los jugadores italianos hacían el saludo romano hacia el palco. En 1938 en Francia, la selección italiana saltó al campo de la final contra Hungría en el Stade Olympique de Colombes con **camiseta negra**, color del partido fascista, en una decisión que la propia Federación italiana defendió como provocación contra la prensa francesa antiitaliana de aquellos meses.
+
+Pozzo, sin embargo, siempre se mantuvo en una distancia cuidadosa con Mussolini. Negó públicamente ser fascista. Cumplió las exigencias protocolarias (el saludo romano era obligatorio para todos los deportistas italianos en eventos oficiales desde 1925) pero jamás aceptó cargos en el régimen. En privado, su biografía revela una posición ambigua: se opuso a Mussolini en algunos debates de fondo (la persecución a los oriundi judíos, la entrada en guerra en 1940), pero también se aprovechó del prestigio que le daba ser el seleccionador del Duce. *"Vincere o morire"* (vencer o morir) era el lema que el régimen impuso a los jugadores italianos antes del Mundial 34. Pozzo lo asumió como táctica psicológica.
+
+**El método Pozzo: el Metodo**. Tácticamente, Pozzo es uno de los entrenadores más influyentes de la historia del fútbol europeo. Su sistema, llamado **Metodo**, era una variante del WM clásico con dos *medios alas* avanzados, dos centrales sobre la línea de mediocampo y un único central puro (centromediano). Permitía que la selección italiana defendiera con seis jugadores y atacara con cuatro de manera coordinada. El método se basaba en disciplina táctica extrema, concentración mental, presión coordinada y eficacia ofensiva sin grandes individualidades. *Calcio razonado* lo llamaron en Italia. El propio Pozzo lo describió en su autobiografía de 1960: *"No me interesan los magos. Me interesan los soldados. Once soldados que sigan instrucciones milimétricas y pierdan la cabeza solo cuando yo lo permita"*.
+
+**Mundial 1934 en Italia**. Italia ganó 7-1 a Estados Unidos en octavos. Pasó a cuartos contra España en una eliminatoria brutal con dos partidos en 24 horas (1-1 en el primero, 1-0 en el segundo desempate). En semifinales eliminó a Austria de la *Wunderteam* de Hugo Meisl. En la final, en el Stadio Nazionale del PNF de Roma con 50.000 espectadores y Mussolini en el palco, ganó 2-1 a Checoslovaquia en la prórroga con gol decisivo de Angelo Schiavio al minuto 95. Pozzo levantó la Copa Rimet ofreciéndosela personalmente a Mussolini en el palco —imagen icónica del régimen—.
+
+**Mundial 1938 en Francia**. La gira más complicada de la Italia de Pozzo. El equipo viajaba a un país (Francia) que llevaba dos años recibiendo refugiados políticos italianos antifascistas. Los jugadores italianos fueron silbados en cada estadio donde se presentaron. Pozzo respondió con táctica férrea: empezó con un 2-1 sobre Noruega en cuartos preliminares, eliminó a la Francia anfitriona 3-1 en cuartos (partido jugado con el incidente de la camiseta negra), pasó a Brasil 2-1 en semifinal y ganó la final 4-2 a Hungría con dos goles de Gino Colaussi y dos de Silvio Piola. Italia, bicampeona consecutiva del mundo. Pozzo, leyenda definitiva.
+
+**El crepúsculo**. La Segunda Guerra Mundial interrumpió los Mundiales durante 12 años. Cuando volvieron en Brasil 1950, Italia ya no era la potencia que había sido. La selección sufrió en mayo de 1949 la tragedia del Superga (avión del Grande Torino estrellado en una colina cerca de Turín que mató a 18 jugadores incluyendo casi toda la columna vertebral de la *Nazionale*). Pozzo, que entonces tenía 63 años, viajó al Mundial de Brasil como **comentarista de la RAI** y vio a su selección caer en fase de grupos. Se retiró del fútbol activo poco después y trabajó como cronista deportivo hasta su muerte en 1968 a los 82 años.
+
+El veredicto histórico sobre Pozzo es complejo. Como técnico es indiscutible: dos Mundiales consecutivos, una Copa Internacional Europea (1930, 1935) y un oro olímpico (Berlín 1936). Como figura política, su asociación con el régimen mussoliniano lo deja en una zona gris que la historiografía italiana sigue revisitando. Lo único cierto es que su récord deportivo no se ha igualado en casi un siglo. Y que cualquier conversación sobre los mejores seleccionadores de la historia tiene que empezar, todavía, por su nombre.`,
+  },
+  {
+    n: 39,
+    slug: 'kempes-mundial-1978-argentina-dictadura-videla-final-monumental',
+    publishDate: '2026-05-27',
+    blockCode: 'S5',
+    category: 'mixta',
+    protagonist: 'Mario Kempes',
+    quote: 'Si no ganábamos, no salía nadie del Monumental.',
+    quoteDate: '2018-06-25',
+    context:
+      'Final del Mundial de Argentina 1978 en el Estadio Monumental de Buenos Aires, 25 de junio. Argentina y Países Bajos disputaban el segundo Mundial bajo dictadura militar después de Chile 1962. Jorge Rafael Videla, presidente de facto desde el golpe de 1976, presidió la entrega del trofeo. Mario Kempes, único jugador argentino que entonces actuaba en Europa (Valencia), marcó dos goles (el primero al 38, el segundo en la prórroga al 105) y ganó la Bota de Oro con seis tantos. Argentina, primer Mundial.',
+    source: {
+      name: 'Wikipedia, Copa Mundial 1978',
+      url: 'https://es.wikipedia.org/wiki/Copa_Mundial_de_F%C3%BAtbol_de_1978',
+    },
+    sourceSecondary: 'Página 12 · La Nación · El Gráfico · Clarín · The Guardian',
+    certainty: 'Alta',
+    title:
+      'Kempes, Videla y el Monumental: la final del Mundial 78 que Argentina recuerda con dolor y orgullo',
+    excerpt:
+      'El 25 de junio de 1978, Argentina ganó su primer Mundial en el Estadio Monumental con doblete de Mario Kempes y trofeo entregado por Videla. La selección celebraba un país que torturaba en la ESMA a 600 metros del estadio. Es la final más incómoda que la memoria argentina recuerda con dolor y orgullo a partes iguales.',
+    cover: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Estadio_Monumental_River_Plate.jpg/1280px-Estadio_Monumental_River_Plate.jpg',
+      alt: 'Estadio Monumental Núñez de Buenos Aires, sede de la final del Mundial 1978',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 3.0',
+      source: 'https://commons.wikimedia.org/wiki/File:Estadio_Monumental_River_Plate.jpg',
+    },
+    body: `**Argentina 1978**. El 25 de junio de 1978, a las 15:30 hora local, Argentina ganó su primer Mundial. **3-1 a Países Bajos** en el Estadio Monumental Núñez de Buenos Aires después de prórroga. Doblete de **Mario Kempes** (38 y 105), gol de Daniel Bertoni (115). La final más recordada de la historia argentina hasta Catar 2022. Y, también, la más incómoda. Porque a **seis cuadras del estadio**, en la Escuela de Mecánica de la Armada (ESMA), funcionaba durante las semanas del Mundial uno de los **centros clandestinos de tortura** más grandes del régimen militar que llevaba dos años gobernando el país.
+
+El golpe del 24 de marzo de 1976 había instalado una junta militar liderada por **Jorge Rafael Videla**. Cuando se inauguró el Mundial el 1 de junio de 1978, llevaba en el poder dos años y tres meses. La cifra estimada de **desaparecidos** que la Comisión Nacional sobre Desaparición de Personas (CONADEP) fijaría en su informe de 1984 alcanzaría los **30.000**. La ESMA funcionaba como centro clandestino de detención, tortura y vuelos de la muerte (víctimas arrojadas vivas al Río de la Plata desde aviones militares). Estaba en avenida Libertador, a **600 metros** en línea recta del Estadio Monumental donde se jugó la final.
+
+**El equipo técnico**. El seleccionador era **César Luis Menotti**, llamado *El Flaco*, izquierdista declarado, fumador empedernido, lector de poesía. Su equipo: Fillol; Olguín, Galván, Passarella, Tarantini; Ardiles, Gallego, Kempes; Bertoni, Luque, Ortiz. Mario Kempes era la novedad: jugaba en el **Valencia CF** desde 1976 (el primer argentino del Valencia desde Mario Mariscal en los años cincuenta), y Menotti lo trajo a la selección después de tres años fuera convencido de que sin él no había Mundial posible.
+
+**El recorrido en grupos**. Argentina ganó 2-1 a Hungría, 2-1 a Francia y perdió 0-1 con Italia en el primer triangular. Pasó a la segunda fase (entonces se jugaba en formato de grupos de cuatro para semifinales, sin eliminatorias directas) y disputó el grupo decisivo contra Polonia, Brasil y Perú. Ganó a Polonia 2-0 (doblete de Kempes), empató 0-0 con Brasil en un partido cargado de polémicas, y necesitaba ganar por al menos cuatro goles a Perú para pasar a la final. **Argentina ganó 6-0 a Perú**. El resultado, todavía hoy, está bajo sospecha histórica.
+
+**El partido contra Perú**. La selección peruana, dirigida por Marcos Calderón con figuras como Cubillas, Cueto y el portero Quiroga (curiosamente nacido argentino, naturalizado peruano), aceptó el sorprendente 6-0 sin demasiada resistencia. **Hay tres versiones documentadas** que el periodismo argentino y peruano ha trabajado durante décadas:
+
+1. **Soborno político**. En 2012, el senador peruano Genaro Ledesma denunció oficialmente que Videla habría enviado **35.000 toneladas de trigo gratis** a Perú y descongelado un préstamo bancario millonario a cambio del partido. La acusación nunca llegó a juicio formal porque los plazos prescribieron, pero el ex-canciller peruano Genaro Carrasco confirmó las negociaciones en una entrevista en 1996.
+
+2. **Pacto militar**. Las juntas militares de Argentina y Perú colaboraban en el Plan Cóndor (la coordinación represiva del cono sur). Hubo comunicación constante entre Videla y el dictador peruano Francisco Morales Bermúdez durante el Mundial.
+
+3. **Visita de Videla al vestuario peruano**. Documentada por múltiples fuentes (incluido el propio Quiroga), Videla habría entrado al vestuario peruano antes del partido para *desear suerte*. Sin pruebas concluyentes de soborno directo, pero con presencia política inaceptable según protocolos FIFA.
+
+**La final del 25 de junio**. Países Bajos llegaba a su segunda final consecutiva sin Cruyff, que renunció por motivos personales (un intento de secuestro contra su familia en Barcelona, revelado en su autobiografía de 2016). El partido se jugó con seis horas de retraso en el saque inicial: la nieve y el frío de junio porteño paralizaron Buenos Aires. Argentina, vestida con su tradicional camiseta a rayas celestes y blancas. Mario Kempes, número 10, melena oscura larga y barba sin afeitar (símbolo del jugador antiestablishment). Marcó el primer gol al minuto 38 con un control con el pecho y disparo cruzado. Nanninga empató al 82 de cabeza. **Prórroga**. Minuto 105: Kempes recibe un balón largo en el área, supera al portero Jongbloed con dos amagues y empuja al fondo de la red. Minuto 115: Bertoni firma el 3-1 definitivo.
+
+**La entrega del trofeo**. Videla entró al campo para entregar la Copa del Mundo al capitán **Daniel Passarella**. La foto siguió siendo durante décadas el símbolo más controvertido de la celebración argentina. Passarella diría décadas después en una entrevista a *Olé*: *"En ese momento no me planteé nada. Era el campeonato del mundo. Si lo hubiéramos perdido, habríamos quedado destrozados. Ese día solo pensaba en la copa"*. Kempes, más explícito: *"Si no ganábamos, no salía nadie del Monumental"*.
+
+**El legado discutido**. La selección de 1978 ganó el Mundial con fútbol. Ningún historiador serio sostiene que la final estuviera amañada. Kempes mereció su Bota de Oro. Menotti diseñó un equipo brillante con un mediocampo de Ardiles y Gallego que se adelantó tácticamente al fútbol moderno por una década. Y sin embargo, el contexto sigue pesando. Cuando Argentina ganó su segundo Mundial en México 1986 con Maradona y su tercero en Catar 2022 con Messi, las celebraciones populares fueron explícitamente más limpias, más libres. La de 1978, en cambio, sigue siendo la final que Argentina recuerda con la **doble emoción de la victoria deportiva y la pesadilla del régimen**. Cuarenta y ocho años después, Mario Kempes vive en Estados Unidos donde trabaja como comentarista deportivo en ESPN. En sus entrevistas, sigue defendiendo el título sin esquivar el contexto: *"Ganamos un Mundial con la dictadura encima. No la elegimos nosotros. Pero el Mundial sí lo elegimos. Y lo ganamos jugando"*.`,
+  },
+  {
+    n: 40,
+    slug: 'pozzo-mussolini-camiseta-negra-italia-francia-1938-saludo-romano',
+    publishDate: '2026-05-28',
+    blockCode: 'S5',
+    category: 'historica',
+    protagonist: 'Italia 1938',
+    quote: 'Vencer o morir.',
+    quoteDate: '1938-06-19',
+    context:
+      'Italia llegó al Mundial de Francia 1938 como campeona vigente y bajo el régimen fascista de Mussolini. En el cuartos contra Francia el 12 de junio, salió a jugar con camiseta negra (color del partido fascista) en respuesta a las protestas de la prensa francesa antiitaliana. Mussolini envió un telegrama a Vittorio Pozzo con la frase "Vincere o morire" antes del partido. Italia ganó 3-1 y avanzó a semifinal. Acabó ganando el Mundial bicampeona consecutiva (1934 y 1938). La final de Colombes contra Hungría se ganó 4-2.',
+    source: {
+      name: 'Wikipedia, Copa Mundial 1938',
+      url: 'https://es.wikipedia.org/wiki/Copa_Mundial_de_F%C3%BAtbol_de_1938',
+    },
+    sourceSecondary: 'La Repubblica · Le Monde · The Athletic · L\'Équipe historique',
+    certainty: 'Alta',
+    title:
+      'La camiseta negra de Mussolini: cómo Italia ganó su segundo Mundial en plena escalada hacia la guerra',
+    excerpt:
+      'El 12 de junio de 1938, Italia salió a jugar contra Francia en cuartos del Mundial con camiseta negra fascista. Mussolini envió un telegrama a Pozzo con la frase «vencer o morir». Italia ganó 3-1 y dos semanas después se proclamó bicampeona consecutiva. Quince meses más tarde estallaría la Segunda Guerra Mundial.',
+    cover: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Stade_de_France_-_Saint-Denis_RER_2018.jpg/1280px-Stade_de_France_-_Saint-Denis_RER_2018.jpg',
+      alt: 'Saint-Denis, escenario de la final del Mundial 1938 y la consagración italiana',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+      source: 'https://commons.wikimedia.org/wiki/File:Stade_de_France_-_Saint-Denis_RER_2018.jpg',
+    },
+    body: `Hay finales de Mundial que pertenecen al fútbol y solo al fútbol. La de **Francia 1938**, jugada el 19 de junio en el Stade Olympique de Colombes en las afueras de París, perteneció al fútbol y a la política con la misma intensidad. Italia, dirigida por **Vittorio Pozzo**, ganó 4-2 a Hungría y se proclamó **campeona del mundo por segunda vez consecutiva**, hazaña que ningún seleccionador ha repetido en 88 años. Pero el verdadero relato del Mundial 38 no está en la final. Está en el partido de cuartos del 12 de junio, cuando Italia salió al campo del Parc des Princes con **camiseta negra**, color del Partido Nacional Fascista (PNF), en plena ola antiitaliana en Francia y a quince meses del estallido de la Segunda Guerra Mundial.
+
+**El contexto**. En 1938, Europa estaba a un paso de la guerra. Hitler había anexionado Austria en marzo (el *Anschluss*) y exigía Sudetes a Checoslovaquia. Mussolini había firmado con Hitler el **Eje Roma-Berlín** en 1936 y había enviado tropas italianas a la Guerra Civil Española como apoyo a Franco. La población francesa veía con creciente hostilidad la presencia italiana: refugiados políticos antifascistas como Carlo Rosselli (asesinado en Francia por sicarios de la *Cagoule* en 1937), exiliados italianos huyendo del régimen, prensa francesa que cubría todos los días los abusos del *Squadrismo*. Cuando se anunció que Italia jugaba el Mundial en Francia, las **manifestaciones populares contra la presencia italiana** ya se habían convocado.
+
+**El partido inaugural italiano contra Noruega**. 5 de junio. Italia 2, Noruega 1 en prórroga. Antes del saque inicial, los jugadores italianos hicieron el **saludo romano** hacia el palco. El público francés respondió con silbidos y pitadas durante los noventa minutos. El primer ministro francés Édouard Daladier no acudió al estadio. Los diarios franceses publicaron al día siguiente fotos del saludo romano italiano en portada con titulares hostiles.
+
+**El partido contra Francia anfitriona**. 12 de junio, cuartos de final, Parc des Princes. Italia conocía la temperatura social. **Mussolini envió un telegrama personal a Pozzo** la noche anterior con la frase *"Vincere o morire"* (vencer o morir). El régimen también enviaba comunicación a la federación: la selección italiana debía jugar con **camiseta negra**, color simbólico del PNF, en lugar de la azul tradicional. La justificación oficial: era el segundo equipo italiano, color reglamentariamente alterno. La justificación política: provocar al público francés. Italia salió al campo de negro completo. Los aficionados franceses pitaron durante los noventa minutos. Italia ganó 3-1 con goles de Gino Colaussi (9), Silvio Piola (51) y Romeo (72). Heisserer marcó el descuento francés. **Italia eliminaba a Francia en su propia casa**.
+
+**Pozzo y su distancia ambigua**. El seleccionador tenía 52 años, era ingeniero textil de profesión, periodista deportivo en *La Stampa* de Turín y técnico del Torino antes de tomar la *Nazionale* en 1929. **Nunca se afilió al PNF**, pero cumplió las exigencias protocolarias del régimen (el saludo romano era obligatorio para todos los deportistas italianos desde 1925). Defendía públicamente la separación entre deporte y política. En privado, su biografía revela una posición complicada: aceptaba las medallas y honores del régimen, jugaba con camiseta negra cuando se le ordenaba, pero también protestaba internamente cuando consideraba que la presión política comprometía el resultado deportivo. En 1947, ya con Mussolini fusilado y la República italiana instaurada, Pozzo declaró a *Il Corriere della Sera*: *"Yo trabajaba para Italia, no para el régimen. Pero el régimen era Italia entonces. Las dos cosas eran inseparables y yo lo sabía"*.
+
+**Las semifinales y la final**. Italia eliminó a Brasil 2-1 en semis en Marsella. Brasil llegaba con **Leônidas**, el Diamante Negro, máximo goleador del Mundial con siete tantos. El seleccionador brasileño Adhemar Pimenta cometió un error histórico: dejó a Leônidas fuera del once titular *"para reservarlo para la final"*. Brasil perdió y Leônidas vio el partido desde el banquillo. La final, el 19 de junio en Colombes, fue Italia 4, Hungría 2. Doblete de Gino Colaussi (6 y 35) y doblete de Silvio Piola (16 y 82). Los goles húngaros, de Pál Titkos (8) y György Sárosi (70). El portero italiano Aldo Olivieri firmó una actuación memorable.
+
+**La copa con sombra de guerra**. Pozzo levantó la Copa Jules Rimet por segunda vez consecutiva. La fotografía del trofeo en el palco del Stade Olympique sigue siendo la imagen más reproducida del fútbol italiano pre-bélico. Pero el mundo cambiaba ya. Tres meses después del Mundial, en septiembre de 1938, Hitler firmaría con Chamberlain los **Acuerdos de Múnich**. Diez meses después, Hitler invadiría Polonia y empezaría la Segunda Guerra Mundial. Italia entraría en la guerra en junio de 1940. La selección italiana no jugaría otro Mundial hasta **1950 en Brasil** (Italia llegó como bicampeona vigente con el trofeo Jules Rimet, que durante la guerra el vicepresidente de FIFA Ottorino Barassi guardó escondido **debajo de su cama en una caja de zapatos** durante toda la ocupación nazi de Italia).
+
+**El olvido controlado**. En la historiografía italiana, el Mundial 38 está pendiente todavía de una rehabilitación equilibrada. La generación de Pozzo se reconoce deportivamente (los récords están ahí: dos Mundiales y un oro olímpico) pero se omite con cuidado el contexto político de las camisetas negras y los saludos romanos. La Federación Italiana de Fútbol nunca ha celebrado oficialmente un aniversario del Mundial 38 con la misma intensidad que celebra el 34 o el de 1982. El propio Pozzo murió en 1968 a los 82 años, en su casa de Turín, sin haber escrito unas memorias completas. Sus carpetas personales están en el archivo histórico del Museo del Risorgimento de Turín. Quien las consulte, encontrará que la frase *"Vincere o morire"* aparece subrayada en rojo en una nota al margen, con la fecha 12-06-1938. Italia ganó. Pozzo no escribió jamás si pensó en lo otro.`,
+  },
 ];
 
 // ───────────────────────────────────────────────────────────
