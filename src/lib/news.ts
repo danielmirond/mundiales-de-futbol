@@ -186,6 +186,12 @@ Más sobre **patrocinadores y marcas técnicas del Mundial 2026** en [/seleccion
         url: 'https://www.telemundo.com/deportes/copa-mundial-de-la-fifa-2026/conoce-a-trionda-el-balon-del-mundial-2026-rcna244893',
       },
     ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Adidas_Trionda_ball.jpg/1280px-Adidas_Trionda_ball.jpg',
+      alt: 'Adidas Trionda, el balón oficial del Mundial 2026, con guiños a las banderas de México, Canadá y Estados Unidos',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
   },
   {
     slug: 'lista-espana-mundial-2026-luis-de-la-fuente-26-jugadores-rodri-cubarsi-pubill-huijsen-sin-morata-joselu',
@@ -198,7 +204,7 @@ Más sobre **patrocinadores y marcas técnicas del Mundial 2026** en [/seleccion
 
 Los 26 elegidos, línea por línea. La rueda de prensa de De la Fuente confirmó la lista oficial:
 
-**Porteros (3)**. Unai Simón (Athletic Club, titular indiscutible), David Raya (Arsenal, segundo tras una temporada brillante con el club londinense) y **Joan García** (Espanyol, gran sorpresa: 24 años, asciende desde la sub-21 al primer Mundial). De la Fuente prescinde de Álex Remiro (Real Sociedad), que parecía la apuesta segura para tercer portero, y apuesta por el potencial de Joan García.
+**Porteros (3)**. Unai Simón (Athletic Club, titular indiscutible), David Raya (Arsenal, segundo tras una temporada brillante con el club londinense) y **Joan García** (Barcelona, gran sorpresa: 24 años, llegó al club azulgrana en verano de 2025 desde el Espanyol por 25 millones de euros tras la lesión de Ter Stegen, ahora va a su primer Mundial). De la Fuente prescinde de Álex Remiro (Real Sociedad), que parecía la apuesta segura para tercer portero, y apuesta por el potencial de Joan García.
 
 **Defensas (8)**. Marc Cucurella (Chelsea), Alejandro Grimaldo (Bayer Leverkusen), Pau Cubarsí (Barcelona, 19 años), Aymeric Laporte (Al-Nassr), **Marc Pubill** (Almería), **Eric García** (Barcelona, sorpresa: vuelve a la selección absoluta tras dos años fuera), Marcos Llorente (Atlético de Madrid) y Pedro Porro (Tottenham). **La baja más sentida es Dani Carvajal** (Real Madrid), titular indiscutible desde 2014, descartado por la lesión de cruzados que arrastra y la falta de continuidad con Xabi Alonso. Tampoco entra Robin Le Normand (Atlético de Madrid), pese a ser titular en la Eurocopa 2024. La pareja central probable: Cubarsí-Laporte. Llorente y Porro, laterales derechos en función del rival. Cucurella y Grimaldo, izquierdos.
 
@@ -237,6 +243,12 @@ España debuta el **lunes 15 de junio en el Mercedes-Benz Stadium de Atlanta** c
         url: 'https://amp.marca.com/futbol/seleccion/2026/05/21/fuente-levanta-cartas-elige-tus-26-espanoles-mundial-futbol.html',
       },
     ],
+    image: {
+      url: 'https://img.youtube.com/vi/982yoXq6Mgk/maxresdefault.jpg',
+      alt: 'Imagen del video oficial de la RFEF con los 26 jugadores de España convocados para el Mundial 2026 por Luis de la Fuente',
+      credit: 'RFEF · canal oficial YouTube',
+      license: 'Fair use',
+    },
   },
   {
     slug: 'falsificaciones-cromos-panini-mundial-2026-policia-brasil-rio-200-mil-decomiso',
@@ -348,6 +360,12 @@ El precedente de Catar 2022. En el Mundial pasado, las autoridades cataríes con
         url: 'https://www.elespectador.com/economia/la-nueva-estafa-del-mundial-sitios-falsos-de-la-fifa-son-usados-para-robar-dinero/',
       },
     ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Arlington_June_2020_4_%28AT%26T_Stadium%29.jpg/1280px-Arlington_June_2020_4_%28AT%26T_Stadium%29.jpg',
+      alt: 'AT&T Stadium en Arlington (Dallas), una de las once sedes USA del Mundial 2026',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
   },
   {
     slug: 'estadio-banorte-azteca-palcos-demanda-fifa-ollamani-1000-millones-pesos-medidas-cautelares-mundial-2026',
@@ -399,6 +417,12 @@ El contexto del Estadio Banorte. La instalación, **inaugurada en 1966**, ha sid
         url: 'https://www.infobae.com/mexico/deportes/2026/05/14/duenos-de-palcos-del-estadio-azteca-ganan-fallo-legal-a-un-mes-del-mundial-2026-estos-son-sus-beneficios/',
       },
     ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Vista_a%C3%A9rea_del_Estadio_Azteca_-_2026_-_02.jpg/1280px-Vista_a%C3%A9rea_del_Estadio_Azteca_-_2026_-_02.jpg',
+      alt: 'Vista aérea del Estadio Azteca (Estadio Banorte) remodelado para el Mundial 2026',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
   },
   {
     slug: 'francia-mundial-2026-bonus-prima-fff-deschamps-jugadores-reduccion-nike-acuerdo',
@@ -451,6 +475,12 @@ El contraste con otras selecciones. La Federación Inglesa (FA) ha pactado con s
         url: 'https://www.cronista.com/deporte/la-seleccion-de-futbol-de-francia-firma-con-nike-el-mejor-contrato-del-mundo/',
       },
     ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Stade_de_France_-_Saint-Denis_RER_2018.jpg/1280px-Stade_de_France_-_Saint-Denis_RER_2018.jpg',
+      alt: 'Stade de France de Saint-Denis, casa habitual de la selección francesa',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
   },
   {
     slug: 'hoteles-eeuu-mundial-2026-baja-ocupacion-reservas-80-por-ciento-precios-cancelaciones-fifa',
@@ -502,6 +532,12 @@ Buena noticia para el viajero. La caída de precios convierte mayo-junio en una 
         url: 'https://www.telesurtv.net/crisis-reservas-hoteles-eeuu-mundial-2026/',
       },
     ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Metlife_stadium_%28Aerial_view%29.jpg/1280px-Metlife_stadium_%28Aerial_view%29.jpg',
+      alt: 'MetLife Stadium en Nueva Jersey, sede de la final del Mundial 2026',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
   },
   {
     slug: 'neymar-album-panini-mundial-2026-por-que-no-aparece-figurita-update-set-cromo',
@@ -623,6 +659,12 @@ Lo que toca seguir: el lunes 25 de mayo a las 12:30 desde el Espacio Movistar de
         url: 'https://www.foxsports.com/stories/soccer/another-huge-injury-blow-for-spain-barcelonas-fermin-lopez-to-undergo-surgery-on-fractured-metatarsal-as-world-cup-dreams-dashed',
       },
     ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Camp_Nou_2018_panorama.jpg/1280px-Camp_Nou_2018_panorama.jpg',
+      alt: 'Camp Nou, casa del FC Barcelona donde Fermín López sufrió la fractura del quinto metatarsiano contra el Betis',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
   },
   {
     slug: 'argentina-lista-mundial-2026-scaloni-26-jugadores-messi-prelista-55-cuando-anuncia',
@@ -665,6 +707,12 @@ La fecha del anuncio. La AFA aún no ha confirmado el día exacto entre el **27 
         url: 'https://www.eldestapeweb.com/deportes/asi-esta-hoy-la-lista-de-26-jugadores-de-la-seleccion-para-el-mundial-2026325123056',
       },
     ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Aerial_view_of_Lusail_Stadium_during_the_daytime.png/1280px-Aerial_view_of_Lusail_Stadium_during_the_daytime.png',
+      alt: 'Vista aérea del Estadio Lusail, donde Argentina ganó el Mundial 2022 y donde Scaloni busca repetir',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
   },
   {
     slug: 'lennart-karl-bayern-munich-mundial-2026-alemania-nagelsmann-18-anos-sorpresa-sub-19',

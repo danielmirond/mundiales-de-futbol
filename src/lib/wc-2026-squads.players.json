@@ -379,7 +379,7 @@
     "players": [
       { "shirt": null, "name": "Unai Simón", "position": "GK", "club": "Athletic Club", "clubCountry": "ESP", "age": 29, "previousWcs": 1, "playerSlug": "unai-simon" },
       { "shirt": null, "name": "David Raya", "position": "GK", "club": "Arsenal", "clubCountry": "ENG", "age": 30, "previousWcs": 0, "playerSlug": "david-raya" },
-      { "shirt": null, "name": "Joan García", "position": "GK", "club": "Espanyol", "clubCountry": "ESP", "age": 24, "previousWcs": 0, "playerSlug": "joan-garcia" },
+      { "shirt": null, "name": "Joan García", "position": "GK", "club": "Barcelona", "clubCountry": "ESP", "age": 24, "previousWcs": 0, "playerSlug": "joan-garcia" },
       { "shirt": null, "name": "Marc Cucurella", "position": "DF", "club": "Chelsea", "clubCountry": "ENG", "age": 27, "previousWcs": 0, "playerSlug": "marc-cucurella" },
       { "shirt": null, "name": "Alejandro Grimaldo", "position": "DF", "club": "Bayer Leverkusen", "clubCountry": "GER", "age": 30, "previousWcs": 0, "playerSlug": "alejandro-grimaldo" },
       { "shirt": null, "name": "Pau Cubarsí", "position": "DF", "club": "Barcelona", "clubCountry": "ESP", "age": 19, "previousWcs": 0, "playerSlug": "pau-cubarsi" },

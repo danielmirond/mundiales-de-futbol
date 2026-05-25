@@ -121,7 +121,26 @@ async function resolvePlayer(
 }
 
 async function main() {
-  const out: Record<string, { photoUrl: string; sourceTitle: string }> = {};
+  // Modo aditivo: cargamos las fotos previas del sidecar para
+  // no perderlas si Wikipedia rate-limita a mitad de ejecución.
+  // Solo resolvemos los jugadores SIN foto previa.
+  const outPath = resolve(
+    process.cwd(),
+    'src/lib/wc-2026-squads.photos.json',
+  );
+  let out: Record<string, { photoUrl: string; sourceTitle: string }> = {};
+  try {
+    const prev = JSON.parse(readFileSync(outPath, 'utf8'));
+    for (const [k, v] of Object.entries(prev)) {
+      if (k === '_meta') continue;
+      if (v && typeof v === 'object' && 'photoUrl' in v) {
+        out[k] = v as { photoUrl: string; sourceTitle: string };
+      }
+    }
+    console.log(`📂 Cargadas ${Object.keys(out).length} fotos previas del sidecar`);
+  } catch {
+    console.log(`📂 Sin sidecar previo, empezando vacío`);
+  }
   const unresolved: string[] = [];
 
   for (const [code, entry] of Object.entries(sidecar)) {
@@ -134,8 +153,13 @@ async function main() {
       continue;
     }
     const squad = entry as Squad;
-    console.log(`\n=== ${code} (${squad.players.length} jugadores) ===`);
-    for (const p of squad.players) {
+    const pending = squad.players.filter((p) => !out[p.playerSlug]);
+    if (pending.length === 0) {
+      console.log(`\n=== ${code} (todos resueltos previamente) ===`);
+      continue;
+    }
+    console.log(`\n=== ${code} (${pending.length} pendientes de ${squad.players.length}) ===`);
+    for (const p of pending) {
       try {
         const res = await resolvePlayer(p);
         if (res) {
@@ -155,10 +179,6 @@ async function main() {
     }
   }
 
-  const outPath = resolve(
-    process.cwd(),
-    'src/lib/wc-2026-squads.photos.json',
-  );
   writeFileSync(
     outPath,
     JSON.stringify(
