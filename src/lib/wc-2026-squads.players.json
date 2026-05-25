@@ -373,5 +373,36 @@
       { "shirt": null, "name": "Michael Gregoritsch", "position": "FW", "club": "FC Augsburg", "clubCountry": "GER", "age": 32, "previousWcs": 0, "playerSlug": "michael-gregoritsch" },
       { "shirt": null, "name": "Saša Kalajdžić", "position": "FW", "club": "LASK Linz", "clubCountry": "AUT", "age": 28, "previousWcs": 0, "playerSlug": "sasa-kalajdzic" }
     ]
+  },
+  "ESP": {
+    "captainName": "Dani Olmo",
+    "players": [
+      { "shirt": null, "name": "Unai Simón", "position": "GK", "club": "Athletic Club", "clubCountry": "ESP", "age": 29, "previousWcs": 1, "playerSlug": "unai-simon" },
+      { "shirt": null, "name": "David Raya", "position": "GK", "club": "Arsenal", "clubCountry": "ENG", "age": 30, "previousWcs": 0, "playerSlug": "david-raya" },
+      { "shirt": null, "name": "Joan García", "position": "GK", "club": "Espanyol", "clubCountry": "ESP", "age": 24, "previousWcs": 0, "playerSlug": "joan-garcia" },
+      { "shirt": null, "name": "Marc Cucurella", "position": "DF", "club": "Chelsea", "clubCountry": "ENG", "age": 27, "previousWcs": 0, "playerSlug": "marc-cucurella" },
+      { "shirt": null, "name": "Alejandro Grimaldo", "position": "DF", "club": "Bayer Leverkusen", "clubCountry": "GER", "age": 30, "previousWcs": 0, "playerSlug": "alejandro-grimaldo" },
+      { "shirt": null, "name": "Pau Cubarsí", "position": "DF", "club": "Barcelona", "clubCountry": "ESP", "age": 19, "previousWcs": 0, "playerSlug": "pau-cubarsi" },
+      { "shirt": null, "name": "Aymeric Laporte", "position": "DF", "club": "Al-Nassr", "clubCountry": "SAU", "age": 32, "previousWcs": 0, "playerSlug": "aymeric-laporte" },
+      { "shirt": null, "name": "Marc Pubill", "position": "DF", "club": "Almería", "clubCountry": "ESP", "age": 22, "previousWcs": 0, "playerSlug": "marc-pubill" },
+      { "shirt": null, "name": "Eric García", "position": "DF", "club": "Barcelona", "clubCountry": "ESP", "age": 25, "previousWcs": 1, "playerSlug": "eric-garcia" },
+      { "shirt": null, "name": "Marcos Llorente", "position": "DF", "club": "Atlético de Madrid", "clubCountry": "ESP", "age": 31, "previousWcs": 1, "playerSlug": "marcos-llorente" },
+      { "shirt": null, "name": "Pedro Porro", "position": "DF", "club": "Tottenham", "clubCountry": "ENG", "age": 26, "previousWcs": 0, "playerSlug": "pedro-porro" },
+      { "shirt": null, "name": "Pedri", "position": "MF", "club": "Barcelona", "clubCountry": "ESP", "age": 23, "previousWcs": 1, "playerSlug": "pedri" },
+      { "shirt": null, "name": "Fabián Ruiz", "position": "MF", "club": "Paris Saint-Germain", "clubCountry": "FRA", "age": 30, "previousWcs": 1, "playerSlug": "fabian-ruiz" },
+      { "shirt": null, "name": "Martín Zubimendi", "position": "MF", "club": "Real Sociedad", "clubCountry": "ESP", "age": 27, "previousWcs": 0, "playerSlug": "martin-zubimendi" },
+      { "shirt": null, "name": "Gavi", "position": "MF", "club": "Barcelona", "clubCountry": "ESP", "age": 21, "previousWcs": 1, "playerSlug": "gavi" },
+      { "shirt": null, "name": "Rodri", "position": "MF", "club": "Manchester City", "clubCountry": "ENG", "age": 29, "previousWcs": 1, "playerSlug": "rodri" },
+      { "shirt": null, "name": "Álex Baena", "position": "MF", "club": "Atlético de Madrid", "clubCountry": "ESP", "age": 24, "previousWcs": 0, "playerSlug": "alex-baena" },
+      { "shirt": null, "name": "Mikel Merino", "position": "MF", "club": "Real Madrid", "clubCountry": "ESP", "age": 30, "previousWcs": 0, "playerSlug": "mikel-merino" },
+      { "shirt": null, "name": "Mikel Oyarzabal", "position": "FW", "club": "Real Sociedad", "clubCountry": "ESP", "age": 29, "previousWcs": 1, "playerSlug": "mikel-oyarzabal" },
+      { "shirt": null, "name": "Dani Olmo", "position": "FW", "club": "Barcelona", "clubCountry": "ESP", "age": 28, "previousWcs": 1, "captain": true, "playerSlug": "dani-olmo" },
+      { "shirt": null, "name": "Nico Williams", "position": "FW", "club": "Athletic Club", "clubCountry": "ESP", "age": 23, "previousWcs": 0, "playerSlug": "nico-williams" },
+      { "shirt": null, "name": "Yeremy Pino", "position": "FW", "club": "Crystal Palace", "clubCountry": "ENG", "age": 23, "previousWcs": 0, "playerSlug": "yeremy-pino" },
+      { "shirt": null, "name": "Ferran Torres", "position": "FW", "club": "Barcelona", "clubCountry": "ESP", "age": 26, "previousWcs": 1, "playerSlug": "ferran-torres" },
+      { "shirt": null, "name": "Borja Iglesias", "position": "FW", "club": "Real Betis", "clubCountry": "ESP", "age": 32, "previousWcs": 0, "playerSlug": "borja-iglesias" },
+      { "shirt": null, "name": "Víctor Muñoz", "position": "FW", "club": "Osasuna", "clubCountry": "ESP", "age": 22, "previousWcs": 0, "playerSlug": "victor-munoz" },
+      { "shirt": null, "name": "Lamine Yamal", "position": "FW", "club": "Barcelona", "clubCountry": "ESP", "age": 18, "previousWcs": 0, "playerSlug": "lamine-yamal" }
+    ]
   }
 }

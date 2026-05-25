@@ -233,6 +233,13 @@ const SQUAD_METADATA: Record<string, SquadMeta> = {
     announcementSourceName: 'FPF',
     announcementSource: 'https://www.fpf.pt/',
   },
+  ESP: {
+    status: 'final',
+    coach: 'Luis de la Fuente',
+    announcedAt: '2026-05-25',
+    announcementSourceName: 'RFEF',
+    announcementSource: 'https://rfef.es/',
+  },
 
   // ─── PRELISTAS (35-55 jugadores) ───────────────────────────────
   UZB: {
