@@ -3,6 +3,7 @@ import { Hero } from '@/components/home/hero';
 import { Countdown } from '@/components/home/countdown';
 import { DailyNews } from '@/components/home/daily-news';
 import { SquadAnnouncements } from '@/components/home/squad-announcements';
+import { FeaturedVideoStrip } from '@/components/home/featured-video-strip';
 import { StatsBand } from '@/components/home/stats-band';
 import { EditionsGrid } from '@/components/home/editions-grid';
 import { Pillars } from '@/components/home/pillars';
@@ -45,6 +46,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
     <>
       <Hero />
       <Countdown />
+      <FeaturedVideoStrip />
       <DailyNews locale={locale as Locale} />
       <SquadAnnouncements locale={locale as Locale} />
       <StatsBand />

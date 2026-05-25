@@ -207,6 +207,27 @@ export default async function NoticiaDetail({
         </figure>
       )}
 
+      {/* Video embed (si la noticia tiene youtubeVideoId) */}
+      {item.youtubeVideoId && (
+        <section className="mx-auto mt-10 w-full max-w-[900px] px-6 md:px-10">
+          <div className="overflow-hidden rounded-3xl border border-[var(--color-border)] bg-[var(--color-bg-2)]">
+            <div className="relative aspect-video w-full overflow-hidden bg-black">
+              <iframe
+                src={`https://www.youtube-nocookie.com/embed/${item.youtubeVideoId}?rel=0&modestbranding=1`}
+                title={item.title}
+                loading="lazy"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+                className="absolute inset-0 h-full w-full"
+              />
+            </div>
+            <p className="px-5 py-3 font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--color-fg-subtle)]">
+              Video oficial · YouTube
+            </p>
+          </div>
+        </section>
+      )}
+
       {/* Body */}
       <section className="mx-auto mt-12 w-full max-w-[900px] px-6 md:px-10">
         <div className="prose-base space-y-6 text-base leading-relaxed text-[var(--color-fg)] md:text-lg [&_strong]:text-[var(--color-fg)]">

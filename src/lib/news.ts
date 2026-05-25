@@ -69,6 +69,13 @@ export type NewsItem = {
  credit?: string;
  license?: string;
  };
+ /**
+  * ID de YouTube del video destacado de la noticia (sin URL completa,
+  * solo el ID, ej. '982yoXq6Mgk'). Si está presente, la página de la
+  * noticia renderiza un iframe del video justo antes del body, y la
+  * VideoObject schema queda asociada a la pieza.
+  */
+ youtubeVideoId?: string;
 };
 
 export const NEWS_ITEMS: NewsItem[] = [
@@ -182,6 +189,7 @@ Más sobre **patrocinadores y marcas técnicas del Mundial 2026** en [/seleccion
   },
   {
     slug: 'lista-espana-mundial-2026-luis-de-la-fuente-26-jugadores-rodri-cubarsi-pubill-huijsen-sin-morata-joselu',
+    youtubeVideoId: '982yoXq6Mgk',
     title:
       'Luis de la Fuente desvela la lista de España para el Mundial 2026: cuatro porteros, Rodri de vuelta y generación Cubarsí-Pubill-Huijsen, sin Morata ni Joselu',
     summary:
