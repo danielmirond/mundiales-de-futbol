@@ -2362,7 +2362,7 @@ Por qué importa. La conversión generacional del álbum Panini al móvil llevab
     sourceUrl:
       'https://www.olympics.com/en/news/shakira-2026-fifa-world-cup-anthem-dai-dai-teaser',
     sourceLang: 'en',
-    publishedAt: '2026-05-08T10:00:00+00:00',
+    publishedAt: '2026-05-08T10:00:00Z',
     sourcesSecondary: [
       {
         name: 'Billboard',
@@ -2408,7 +2408,7 @@ Por qué importa. La conversión generacional del álbum Panini al móvil llevab
     sourceUrl:
       'https://sports.yahoo.com/soccer/article/fifa-claims-to-have-508-million-requests-for-7-million-available-tickets-so-why-are-plenty-of-tickets-still-available-235241494.html',
     sourceLang: 'en',
-    publishedAt: '2026-05-08T09:00:00+00:00',
+    publishedAt: '2026-05-08T09:00:00Z',
     sourcesSecondary: [
       {
         name: 'FIFA · Last-Minute Sales fase 4',
@@ -2458,7 +2458,7 @@ Por qué importa. La conversión generacional del álbum Panini al móvil llevab
     sourceUrl:
       'https://www.infobae.com/estados-unidos/2026/05/07/entradas-de-hasta-usd-23-millones-la-fifa-defendio-los-precios-de-los-tickets-para-el-mundial-2026/',
     sourceLang: 'es',
-    publishedAt: '2026-05-08T08:00:00+00:00',
+    publishedAt: '2026-05-08T08:00:00Z',
     sourcesSecondary: [
       {
         name: 'Tribuna México · Trump critica',
@@ -2508,7 +2508,7 @@ Por qué importa. La conversión generacional del álbum Panini al móvil llevab
     sourceUrl:
       'https://www.infobae.com/tecno/2025/10/06/la-otra-cara-de-la-copa-mundial-fifa-2026-cibercriminales-robando-y-mas-de-4000-dominios-sospechosos/',
     sourceLang: 'es',
-    publishedAt: '2026-05-08T06:00:00+00:00',
+    publishedAt: '2026-05-08T06:00:00Z',
     sourcesSecondary: [
       {
         name: 'PROFECO México · alerta estafas (Informador)',
@@ -2558,7 +2558,7 @@ Por qué importa. La conversión generacional del álbum Panini al móvil llevab
     sourceUrl:
       'https://www.olympics.com/en/news/fifa-world-cup-2026-deadlines-national-team-squad-announcements',
     sourceLang: 'en',
-    publishedAt: '2026-05-08T07:00:00+00:00',
+    publishedAt: '2026-05-08T07:00:00Z',
     sourcesSecondary: [
       {
         name: 'AFA · convocatorias Mundial 2026',
@@ -2686,7 +2686,7 @@ La fecha de salida (30 de abril en España y USA, 2 de mayo en LATAM) cumple el 
     sourceUrl:
       'https://www.huffingtonpost.es/deporte/980-cromos-112-paginas-1000-euros-completar-album-mundial-2026-lamine-yamal-messi-costara-tres-cuartas-partes-smi-f202604.html',
     sourceLang: 'es',
-    publishedAt: '2026-04-30T08:00:00+00:00',
+    publishedAt: '2026-04-30T08:00:00Z',
     sourcesSecondary: [
       { name: 'Panini.es', url: 'https://www.panini.es/shp_esp_es/fifa-world-cup-2026-official-sticker-collection-lbum-colecci-n-oficial-panini-005460aew-es01.html' },
       { name: 'Sports Illustrated', url: 'https://www.si.com/soccer/2026-world-cup-sticker-album-what-when-comes-out-where-buy-how-works' },
@@ -2717,7 +2717,7 @@ La omisión también incrementa la presión sobre Endrick, Vinicius Jr. y Rodryg
     sourceUrl:
       'https://onefootball.com/en/news/neymar-omitted-from-2026-world-cup-sticker-album-as-panini-confirms-global-version-42771577',
     sourceLang: 'en',
-    publishedAt: '2026-04-30T17:00:00+00:00',
+    publishedAt: '2026-04-30T17:00:00Z',
     sourcesSecondary: [
       { name: 'The Guardian', url: 'https://www.theguardian.com/football/2026/apr/29/panini-football-stickers-1000-pounds-48-team-world-cup' },
       { name: 'Globo Esporte', url: 'https://ge.globo.com' },
@@ -2749,7 +2749,7 @@ La canción está disponible en Spotify, Apple Music y YouTube desde el mediodí
     sourceUrl:
       'https://www.lavanguardia.com/gente/20260501/11527408/emilio-estefan-presenta-love-always-wins-cancion-album-musical-mundial-2026.amp.html',
     sourceLang: 'es',
-    publishedAt: '2026-05-01T10:00:00+00:00',
+    publishedAt: '2026-05-01T10:00:00Z',
     image: {
       url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Gloria%20Estefan%20and%20Emilio%20Estefan%20at%202014%20MIFF%20%28cropped%29.jpg?width=1200',
       alt: 'Emilio Estefan, productor musical cubano-estadounidense, autor de la canción oficial del Mundial 2026',
@@ -2777,7 +2777,7 @@ Para los coleccionistas: los cromos «debut sénior» de los jóvenes escoceses 
     sourceUrl:
       'https://www.scotsman.com/sport/football/international/panini-world-cup-2026-sticker-album-released-as-scotland-return-to-collection-heres-everything-you-need-to-know-8290414',
     sourceLang: 'en',
-    publishedAt: '2026-04-30T14:00:00+00:00',
+    publishedAt: '2026-04-30T14:00:00Z',
     image: {
       url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Tartan%20Army%20Gibraltar%20V%20Scotland%2011%20October%202015%20%282%29.JPG?width=1200',
       alt: 'Tartan Army, hinchada de la selección escocesa de fútbol',
@@ -2804,7 +2804,7 @@ Las federaciones top suelen publicar la lista provisional en la primera semana d
     sourceName: 'FIFA Regulations · Wikipedia',
     sourceUrl: 'https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads',
     sourceLang: 'en',
-    publishedAt: '2026-04-29T09:00:00+00:00',
+    publishedAt: '2026-04-29T09:00:00Z',
     image: {
       url: 'https://commons.wikimedia.org/wiki/Special:FilePath/FIFA%20World%20Cup%20Trophy%20%28Ank%20Kumar%2C%20Infosys%20Limited%29%2003.jpg?width=1200',
       alt: 'Trofeo de la Copa Mundial de la FIFA',
@@ -2834,7 +2834,7 @@ La operación responde a la lógica del coleccionismo extremo: si quieres llenar
     sourceUrl:
       'https://www.si.com/soccer/2026-world-cup-sticker-album-what-when-comes-out-where-buy-how-works',
     sourceLang: 'en',
-    publishedAt: '2026-04-30T16:00:00+00:00',
+    publishedAt: '2026-04-30T16:00:00Z',
     image: {
       url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Coca-Cola_logo.svg?width=1200',
       alt: 'Logotipo de Coca-Cola, partner oficial FIFA',
@@ -2861,7 +2861,7 @@ Brasil debuta en el Grupo C el 13 de junio contra Marruecos en MetLife Stadium (
     sourceName: 'CBF / Globo Esporte',
     sourceUrl: 'https://www.cbf.com.br',
     sourceLang: 'pt',
-    publishedAt: '2026-04-29T18:00:00+00:00',
+    publishedAt: '2026-04-29T18:00:00Z',
     image: {
       url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Carlo%20Ancelotti%202016%20%28cropped%29.jpg?width=1200',
       alt: 'Carlo Ancelotti, seleccionador de Brasil para el Mundial 2026',
@@ -2898,7 +2898,7 @@ A día de hoy quedan disponibles entradas para más del 60 % de los partidos de 
     sourceName: 'FIFA Tickets',
     sourceUrl: 'https://www.fifa.com/tickets',
     sourceLang: 'en',
-    publishedAt: '2026-04-25T10:00:00+00:00',
+    publishedAt: '2026-04-25T10:00:00Z',
     image: {
       url: 'https://commons.wikimedia.org/wiki/Special:FilePath/MetLife%20Stadium%202022.jpg?width=1200',
       alt: 'MetLife Stadium en East Rutherford, sede de la final del Mundial 2026',
@@ -2925,7 +2925,7 @@ Para el aficionado mexicano, la denominación oficial FIFA es solo eso: oficial.
     sourceName: 'Wikipedia · 2026 FIFA World Cup',
     sourceUrl: 'https://en.wikipedia.org/wiki/2026_FIFA_World_Cup',
     sourceLang: 'en',
-    publishedAt: '2026-04-28T12:00:00+00:00',
+    publishedAt: '2026-04-28T12:00:00Z',
     image: {
       url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Estadio_Azteca.jpg?width=1200',
       alt: 'Estadio Azteca de Ciudad de México, conocido por FIFA en 2026 como «Mexico City Stadium»',
@@ -2952,7 +2952,7 @@ La señal estará disponible en La 1 en formato lineal y en RTVE Play como strea
     sourceName: 'eldiario.es / Vertele',
     sourceUrl: 'https://www.eldiario.es/vertele',
     sourceLang: 'es',
-    publishedAt: '2026-02-15T09:00:00+00:00',
+    publishedAt: '2026-02-15T09:00:00Z',
     image: {
       url: 'https://commons.wikimedia.org/wiki/Special:FilePath/Logo%20RTVE%20%281991-2008%29.svg?width=1200',
       alt: 'Logotipo histórico de RTVE, Radiotelevisión Española',

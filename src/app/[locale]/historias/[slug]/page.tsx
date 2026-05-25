@@ -91,6 +91,7 @@ export async function generateMetadata({
       description,
       url,
       publishedTime: historia.publishDate,
+      modifiedTime: historia.publishDate,
       authors: ['Mundial de Fútbol'],
       tags: [historia.protagonist, BLOCK_LABELS[historia.blockCode], CATEGORY_LABELS[historia.category]],
     },
