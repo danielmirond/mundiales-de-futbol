@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Mundiales de Fútbol",
-    "titleTemplate": "%s · Mundiales de Fútbol",
+    "title": "كؤوس العالم لكرة القدم",
+    "titleTemplate": "%s · كؤوس العالم لكرة القدم",
     "description": "الموسوعة الشاملة لكأس العالم للرجال من الفيفا (1930–2026): النتائج والتشكيلات والأحداث دقيقة بدقيقة والحكام والملاعب وتغطية صحفية بخمس لغات."
   },
   "nav": {
@@ -311,7 +311,7 @@
       "kickoffDate": "11 يونيو · Estadio Azteca",
       "ctaWatch": "أين تشاهد",
       "ctaTickets": "التذاكر",
-      "ctaFanZone": "Fan zone",
+      "ctaFanZone": "منطقة المشجعين",
       "ctaVenues": "16 مدينة مضيفة",
       "ctaGroups": "12 مجموعة",
       "ctaSpain": "إسبانيا · المجموعة H"
@@ -340,7 +340,7 @@
       "warningText": "أي موقع يعرض تذاكر بسعرها الاسمي خارج fifa.com/tickets هو إعادة بيع غير مصرّح به أو احتيال. قد تُلغى تذكرتك عند بوابة الملعب.",
       "phasesKicker": "مراحل البيع",
       "phasesTitle": "متى بِيعت وما المتبقي",
-      "ctaBuy": "FIFA Tickets",
+      "ctaBuy": "تذاكر فيفا",
       "ctaHospitality": "Hospitality الرسمي",
       "footerHeading": "اشترِها من الموقع الرسمي",
       "footerText": "هذه الصفحة معلوماتية: نحن لا نبيع التذاكر ولا نعيد بيعها. للمعاملة الآمنة استخدم دائماً fifa.com/tickets أو منصة إعادة البيع الرسمية لـ FIFA."
@@ -549,11 +549,11 @@
       "categories": {
         "desde": "ابتداءً من",
         "highlights": {
-          "label": "Football Highlights",
+          "label": "لحظات كرة القدم",
           "detail": "ديوراما لمن هم 10+ مع شخصية. ميسي وكريستيانو ومبابي وفينيسيوس."
         },
         "legend": {
-          "label": "Football Legend",
+          "label": "أسطورة كرة القدم",
           "detail": "شخصيات قابلة للتركيب من 854 إلى 958 قطعة. ميسي وكريستيانو."
         },
         "merch": {
@@ -561,7 +561,7 @@
           "detail": "الشعار (43032) وقميص الولايات المتحدة (43033). حصرية LEGO.com."
         },
         "premium": {
-          "label": "عرض متميز",
+          "label": "عرض بريميوم",
           "detail": "الكأس 1:1 (43020 · 2842 قطعة) و Messi Celebration (43018)."
         }
       },

@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Mundiales de Fútbol",
-    "titleTemplate": "%s · Mundiales de Fútbol",
+    "title": "Coupes du Monde de Football",
+    "titleTemplate": "%s · Coupes du Monde de Football",
     "description": "L'encyclopédie définitive des Coupes du Monde FIFA (1930–2026) : résultats, effectifs, événements minute par minute, arbitres, stades et chroniques en cinq langues."
   },
   "nav": {
@@ -91,7 +91,7 @@
       "heading": "Collection",
       "jerseys": "Maillots Coupe du Monde 2026",
       "panini": "Vignettes Panini",
-      "lego": "Sets LEGO",
+      "lego": "Coffrets LEGO",
       "disclosure": "Mentions affiliés"
     }
   },
@@ -311,7 +311,7 @@
       "kickoffDate": "11 juin · Estadio Azteca",
       "ctaWatch": "Où regarder",
       "ctaTickets": "Billets",
-      "ctaFanZone": "Fan zone",
+      "ctaFanZone": "Fan Zone",
       "ctaVenues": "16 villes hôtes",
       "ctaGroups": "12 groupes",
       "ctaSpain": "Espagne · Groupe H"
@@ -340,7 +340,7 @@
       "warningText": "Tout site qui propose des billets au prix nominal en dehors de fifa.com/tickets est de la revente non autorisée ou une arnaque. Votre billet peut être annulé à l'entrée du stade.",
       "phasesKicker": "Phases de vente",
       "phasesTitle": "Quand elles ont eu lieu et ce qu'il reste",
-      "ctaBuy": "FIFA Tickets",
+      "ctaBuy": "Billets FIFA",
       "ctaHospitality": "Hospitality officiel",
       "footerHeading": "Achetez-les sur le site officiel",
       "footerText": "Cette page est informative : nous ne vendons ni ne revendons de billets. Pour une transaction sûre utilisez toujours fifa.com/tickets ou la plateforme officielle de revente FIFA."
@@ -549,11 +549,11 @@
       "categories": {
         "desde": "à partir de",
         "highlights": {
-          "label": "Football Highlights",
+          "label": "Moments forts foot",
           "detail": "Dioramas pour 10+ avec minifigurine. Messi, Cristiano, Mbappé, Vinicius."
         },
         "legend": {
-          "label": "Football Legend",
+          "label": "Légende du foot",
           "detail": "Figurines buildable, 854-958 pièces. Messi et Cristiano."
         },
         "merch": {
@@ -561,7 +561,7 @@
           "detail": "Emblème (43032) et maillot USA (43033). Exclusivités LEGO.com."
         },
         "premium": {
-          "label": "Premium Display",
+          "label": "Vitrine premium",
           "detail": "Trophée 1:1 (43020 · 2 842 pièces) et Messi Celebration (43018)."
         }
       },

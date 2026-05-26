@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Mundiales de Fútbol",
-    "titleTemplate": "%s · Mundiales de Fútbol",
+    "title": "World Cups of Football",
+    "titleTemplate": "%s · World Cups of Football",
     "description": "The definitive encyclopedia of the FIFA Men's World Cup (1930–2026): results, squads, minute-by-minute events, referees, stadiums and coverage in five languages."
   },
   "nav": {
@@ -311,7 +311,7 @@
       "kickoffDate": "11 Jun · Estadio Azteca",
       "ctaWatch": "Where to watch",
       "ctaTickets": "Tickets",
-      "ctaFanZone": "Fan zone",
+      "ctaFanZone": "Fan Zone",
       "ctaVenues": "16 host cities",
       "ctaGroups": "12 groups",
       "ctaSpain": "Spain · Group H"

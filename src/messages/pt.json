@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Mundiales de Fútbol",
-    "titleTemplate": "%s · Mundiales de Fútbol",
+    "title": "Copas do Mundo de Futebol",
+    "titleTemplate": "%s · Copas do Mundo de Futebol",
     "description": "A enciclopédia definitiva das Copas do Mundo FIFA (1930–2026): resultados, escalações, eventos minuto a minuto, árbitros, estádios e crônicas em cinco idiomas."
   },
   "nav": {
@@ -308,10 +308,10 @@
       "groupLabel": "Grupo"
     },
     "countdownExtended": {
-      "kickoffDate": "11 jun · Estadio Azteca",
+      "kickoffDate": "11 jun · Estádio Asteca",
       "ctaWatch": "Onde assistir",
       "ctaTickets": "Ingressos",
-      "ctaFanZone": "Fan zone",
+      "ctaFanZone": "Fan Zone",
       "ctaVenues": "16 cidades-sede",
       "ctaGroups": "12 grupos",
       "ctaSpain": "Espanha · Grupo H"
@@ -340,7 +340,7 @@
       "warningText": "Qualquer site que ofereça ingressos a preço nominal fora de fifa.com/tickets é revenda não autorizada ou golpe. Seu ingresso pode ser cancelado na entrada do estádio.",
       "phasesKicker": "Fases de venda",
       "phasesTitle": "Quando foram vendidos e o que ainda resta",
-      "ctaBuy": "FIFA Tickets",
+      "ctaBuy": "Bilhetes FIFA",
       "ctaHospitality": "Hospitality oficial",
       "footerHeading": "Compre no site oficial",
       "footerText": "Esta página é informativa: não vendemos nem revendemos ingressos. Para uma transação segura use sempre fifa.com/tickets ou o sistema oficial de revenda da FIFA."
@@ -549,11 +549,11 @@
       "categories": {
         "desde": "a partir de",
         "highlights": {
-          "label": "Football Highlights",
+          "label": "Highlights de Futebol",
           "detail": "Dioramas para 10+ com minifigura. Messi, Cristiano, Mbappé, Vinicius."
         },
         "legend": {
-          "label": "Football Legend",
+          "label": "Lenda do Futebol",
           "detail": "Figuras buildable, 854-958 peças. Messi e Cristiano."
         },
         "merch": {
@@ -561,7 +561,7 @@
           "detail": "Emblema (43032) e camisa dos EUA (43033). Exclusivos LEGO.com."
         },
         "premium": {
-          "label": "Premium Display",
+          "label": "Vitrine Premium",
           "detail": "Troféu 1:1 (43020 · 2.842 peças) e Messi Celebration (43018)."
         }
       },
