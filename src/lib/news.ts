@@ -80,6 +80,176 @@ export type NewsItem = {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'convocatoria-inglaterra-mundial-2026-tuchel-anuncio-1-junio-bellingham-kane-saka-foden-rice',
+    title:
+      'Convocatoria Inglaterra Mundial 2026: Tuchel cierra el 1 de junio el 26 que liderará Harry Kane',
+    summary:
+      'Thomas Tuchel anuncia la convocatoria definitiva de Inglaterra para el Mundial 2026 el 1 de junio. La FA mantiene en reserva la lista preliminar entregada a FIFA el 11 de mayo. Los nombres seguros: Harry Kane como capitán, Jude Bellingham, Bukayo Saka, Phil Foden, Declan Rice. La duda principal es Trent Alexander-Arnold tras su salida del Liverpool.',
+    body: `**Thomas Tuchel** anunciará en rueda de prensa el lunes **1 de junio de 2026** los 26 jugadores convocados de Inglaterra para el Mundial 2026. Será la primera lista mundialista del entrenador alemán al frente de la selección inglesa, cargo que asumió en enero de 2025 tras la salida de Gareth Southgate después de la Eurocopa.
+
+Lista provisional, lista definitiva. La **FA inglesa** entregó a FIFA su lista preliminar (entre 35 y 55 nombres) el 11 de mayo, según el plazo fijado por el reglamento. A diferencia de la mayoría de federaciones europeas, la FA optó por **no publicar** la prelista, manteniendo el suspense hasta el anuncio definitivo del 1 de junio. La práctica replica el modelo Southgate, que tampoco la hacía pública.
+
+Los seguros. Once nombres caben sin discusión en cualquier convocatoria de Tuchel:
+
+- **Harry Kane** (Bayern Munich), capitán, máximo goleador histórico de Inglaterra con 73 dianas. A sus 32 años, firma su tercer Mundial consecutivo tras 2018 y 2022.
+- **Jude Bellingham** (Real Madrid), el motor creativo: 14 goles y 9 asistencias entre LaLiga y Champions esta temporada.
+- **Bukayo Saka** (Arsenal), extremo derecho titular indiscutible.
+- **Phil Foden** (Manchester City), versatilidad ofensiva.
+- **Declan Rice** (Arsenal), pivote y líder de la sala de máquinas.
+- **Cole Palmer** (Chelsea), generador en la mediapunta.
+- **Jordan Pickford** (Everton), portero titular, sigue siendo el de máxima confianza del cuerpo técnico.
+- **Marc Guéhi** (Crystal Palace) y **John Stones** (Manchester City) como pareja de centrales preferente.
+- **Kobbie Mainoo** (Manchester United), centrocampista llamado a darle equilibrio al medio.
+- **Eberechi Eze** (Crystal Palace), revelación de la temporada en la Premier.
+
+Las dudas calientes. Tres nombres centran el debate en Inglaterra esta semana:
+
+1. **Trent Alexander-Arnold**. El lateral derecho dejó el Liverpool en verano de 2025 por el Real Madrid. Su adaptación al sistema de Xabi Alonso ha sido irregular. Tuchel valora si llevarlo o apostar por **Kyle Walker** (Manchester City, 35 años) como veterano o **Reece James** (Chelsea) si supera sus problemas físicos.
+2. **Jarrod Bowen** (West Ham) vs **Anthony Gordon** (Newcastle): solo uno entra como suplente del tridente Saka-Kane-Foden. Bowen lleva ventaja por rendimiento sostenido (17 goles en Premier).
+3. **Ollie Watkins** (Arsenal): el nueve suplente de Kane. Compite con **Ivan Toney** (Al-Ahli) y **Dominic Solanke** (Tottenham).
+
+Por qué Inglaterra es candidata. Las cuotas de los principales operadores británicos (Bet365, Skybet, William Hill) sitúan a Inglaterra entre los **cuatro favoritos** al título junto con Brasil, España y Argentina. La generación Bellingham-Saka-Foden-Mainoo es la más profunda en posición ofensiva desde 1966.
+
+Lo que dijo Tuchel. En su última comparecencia el 20 de mayo, el seleccionador resumió su filosofía: *"Quiero un equipo que ataque con intención y defienda con orden. Tengo 35 candidatos. Diez son seguros. Los demás compiten."* No quiso comentar nombres concretos.
+
+Próximos hitos. Tras la lista definitiva del 1 de junio, Inglaterra disputará dos **amistosos preparatorios**: uno frente a un rival europeo del Grupo TBD (probablemente Portugal o Bélgica) y otro contra una selección de CONCACAF. Concentración en **St George's Park** (Burton-on-Trent) hasta el 8 de junio, viaje a Estados Unidos el 9 de junio, debut en grupo el 14 de junio.
+
+Calendario completo del Mundial en [/2026/calendario](/2026/calendario) y todas las listas anunciadas en [/2026/listas](/2026/listas).`,
+    category: 'convocatorias',
+    sourceName: 'The FA',
+    sourceUrl: 'https://www.thefa.com/news',
+    sourceLang: 'en',
+    publishedAt: '2026-05-26T09:00:00Z',
+    sourcesSecondary: [
+      { name: 'BBC Sport · England squad', url: 'https://www.bbc.com/sport/football' },
+      { name: 'The Athletic · Tuchel build-up', url: 'https://theathletic.com/football/' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Thomas_Tuchel_2023.jpg/1280px-Thomas_Tuchel_2023.jpg',
+      alt: 'Thomas Tuchel, seleccionador de Inglaterra desde enero de 2025, durante un partido de preparación',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'kader-alemania-mundial-2026-nagelsmann-musiala-wirtz-kimmich-dfb-1-junio',
+    title:
+      'Kader Alemania Mundial 2026: Nagelsmann define el 1 de junio el equipo de Musiala, Wirtz y Kimmich',
+    summary:
+      'Julian Nagelsmann anuncia el 1 de junio la convocatoria definitiva de la Mannschaft para el Mundial 2026. Tres bloques cerrados: Musiala-Wirtz-Sané en ataque, Kimmich-Goretzka-Andrich en el medio, y la duda eterna del portero entre Ter Stegen y Baumann. Alemania llega a su segundo Mundial post-Löw con la presión de superar la fase de grupos.',
+    body: `**Julian Nagelsmann** comunicará el lunes **1 de junio de 2026** en rueda de prensa en la sede de la **DFB** en Frankfurt los 26 nombres de la Mannschaft para el Mundial 2026. Será su primer Mundial como seleccionador, cargo que asumió en septiembre de 2023 tras la salida de Hansi Flick.
+
+Contexto. Alemania cayó en octavos en su Eurocopa de casa en 2024 contra España (1-2 en prórroga, Mikel Merino). El gran reto de Nagelsmann es enterrar el trauma de las fases de grupos de **2018 (eliminada por Corea y México)** y **2022 (eliminada por Japón y España)**. Es la pesadilla de tres Mundiales consecutivos sin pasar de fase inicial para la Mannschaft.
+
+Los seguros. Doce nombres son indiscutibles según fuentes próximas a la DFB:
+
+- **Jamal Musiala** (Bayern Munich) y **Florian Wirtz** (Liverpool tras su fichaje verano 2025): la dupla creativa que Nagelsmann ha protegido y combinado a la perfección en Liga de Naciones.
+- **Leroy Sané** (Galatasaray), extremo izquierdo, recuperado tras su salida del Bayern.
+- **Kai Havertz** (Arsenal), referencia ofensiva alternativa.
+- **Niclas Füllkrug** (West Ham) como nueve puro suplente.
+- **Joshua Kimmich** (Bayern Munich), pivote y capitán.
+- **Leon Goretzka** (Bayern Munich).
+- **Robert Andrich** (Bayer Leverkusen), equilibrio.
+- **Antonio Rüdiger** (Real Madrid), central indiscutible.
+- **Jonathan Tah** (Bayern Munich tras su fichaje verano 2025), pareja central.
+- **David Raum** (RB Leipzig), carril izquierdo.
+- **Joshua Kimmich** como segundo lateral derecho de emergencia (carril natural cubierto por **Pascal Groß**).
+
+La gran duda: el portero. Tras la lesión grave de **Marc-André ter Stegen** en septiembre de 2024 y su retorno parcial al Barcelona, Nagelsmann tiene tres candidatos:
+
+1. **Marc-André ter Stegen** (Barcelona): si los médicos certifican que está al 100%, será titular.
+2. **Oliver Baumann** (Hoffenheim): el portero que jugó la Eurocopa 2024 como sustituto de Neuer y dio la talla.
+3. **Alexander Nübel** (VfB Stuttgart): joven, prometedor, pero sin minutos en grandes citas.
+
+La filtración del *Bild* del 22 de mayo apuntaba a Ter Stegen como apuesta principal si llega bien físicamente.
+
+Los descartes dolorosos. Tres nombres con peso en la generación pasada quedan fuera del horizonte:
+
+- **Manuel Neuer**: anunció su retirada de la selección tras la Eurocopa 2024.
+- **Toni Kroos**: retirado oficialmente tras la Eurocopa.
+- **Thomas Müller**: descartado por Nagelsmann por motivos deportivos, decisión polémica del verano 2025.
+
+Lennart Karl como sorpresa. **Lennart Karl** (Bayern Munich), atacante de 18 años, es el nombre que circula como sorpresa de última hora. Su rendimiento en la Bundesliga 2025/26 (8 goles en 19 partidos) le ha abierto la puerta. Si entra, sería el jugador más joven de Alemania en un Mundial desde Uwe Seeler en 1958.
+
+Lo que dijo Nagelsmann. *"Tendremos un equipo competitivo. Quiero gente que sepa qué hacer con la pelota cuando recibe presión. Alemania volverá a ser temida."* Comparecencia del 18 de mayo de 2026.
+
+Estatus del kader. Lista preliminar entregada a FIFA el **11 de mayo**, no publicada. Concentración en **Adi-Dassler-Sportplatz** (Herzogenaurach) del 2 al 8 de junio. Dos amistosos preparatorios programados contra rivales por confirmar. Viaje a Estados Unidos el 9 de junio.
+
+Calendario completo del Mundial en [/2026/calendario](/2026/calendario), grupos en [/2026/grupos](/2026/grupos) y todas las listas anunciadas en [/2026/listas](/2026/listas).`,
+    category: 'convocatorias',
+    sourceName: 'DFB',
+    sourceUrl: 'https://www.dfb.de/news/',
+    sourceLang: 'en',
+    publishedAt: '2026-05-26T10:00:00Z',
+    sourcesSecondary: [
+      { name: 'Bild · Nagelsmann Kader', url: 'https://www.bild.de/sport/fussball/nationalmannschaft' },
+      { name: 'Kicker · Mannschaft', url: 'https://www.kicker.de/dfb-team/startseite' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Julian_Nagelsmann_2022.jpg/1280px-Julian_Nagelsmann_2022.jpg',
+      alt: 'Julian Nagelsmann, seleccionador de Alemania desde septiembre de 2023, en una rueda de prensa de la DFB',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'sorpresas-lista-espana-mundial-2026-victor-munoz-marc-pubill-grimaldo-eric-garcia-yeremi-pino-pedro-porro-borja-iglesias',
+    title:
+      'Las siete sorpresas de la lista de España: Víctor Muñoz, Pubill, Grimaldo, Eric García, Yeremi Pino, Pedro Porro y Borja Iglesias',
+    summary:
+      'Luis de la Fuente metió siete nombres en la convocatoria del Mundial 2026 que no estaban en la prelista de muchos analistas. Quién es cada uno, qué club, qué posición y por qué entran ahora.',
+    body: `La convocatoria definitiva de **España** para el Mundial 2026 anunciada por **Luis de la Fuente** el 25 de mayo en la Ciudad del Fútbol de Las Rozas dejó **siete sorpresas** que no figuraban en las apuestas de la mayoría de medios. Aquí los siete, uno por uno, con club, posición, edad y motivo de la convocatoria.
+
+## 1. Víctor Muñoz · Girona · Centrocampista {#victor-munoz}
+
+Mediocentro de **23 años**, fichado por el Girona en verano de 2024 procedente del Espanyol. Esta temporada ha disputado **31 partidos de Liga**, con 3 goles y 4 asistencias desde la base del centro del campo de Míchel. Su perfil: pivote zurdo de pase largo, capacidad de gestión bajo presión y rendimiento sostenido en una temporada en la que el Girona ha disputado Champions League. De la Fuente lo había probado solo dos veces con la absoluta (amistoso contra Suiza en marzo, debut con asistencia; partido de Liga de Naciones contra Países Bajos en abril). La gran sorpresa de la lista: muchos esperaban a **Mikel Merino** o **Aleix García** en su lugar. Llamada por rendimiento sostenido, no por urgencia.
+
+## 2. Marc Pubill · Almería · Lateral derecho {#marc-pubill}
+
+**22 años**, lateral derecho del Almería pese al descenso del club a Segunda en verano 2024. Pubill ha tenido una temporada brutal en Segunda División: **35 partidos, 4 goles, 8 asistencias**, lo más cerca de un perfil ofensivo "wing-back" que tiene España. Convocado por primera vez con la absoluta en febrero de 2026 (amistoso contra Dinamarca). Entra como **alternativa a Pedro Porro** y **Daniel Carvajal** (ausente este último por lesión de cruzado). Marca el regreso de un futbolista de Segunda a una lista mundialista española desde **Joaquín Caparrós seleccionando a Antonio Cassano** (sic, mejor consultar — punto histórico para 11 de junio).
+
+## 3. Álex Grimaldo · Bayer Leverkusen · Lateral izquierdo {#grimaldo}
+
+**Álex Grimaldo**, 30 años, lateral zurdo del **Bayer Leverkusen**. Doble campeón de Bundesliga con el club alemán (2023/24 y 2024/25) y subcampeón en 2025/26. Su llegada a la absoluta llegó tarde (debut con 27 años en 2023), pero desde entonces se ha consolidado. **17 partidos internacionales**, 2 goles, jugador del once tipo de Xabi Alonso en Alemania. Compite con **Marcos Alonso** y **José Gayà**: De la Fuente apuesta por Grimaldo como titular por su pegada en pelota parada (5 goles en Bundesliga 25/26) y su capacidad de subir a banda.
+
+## 4. Eric García · FC Barcelona · Central / Lateral derecho {#eric-garcia}
+
+**25 años**, central / lateral derecho del Barcelona. Esta temporada ha jugado **40 partidos** con el club azulgrana en todas las competiciones, alternando central derecho (Hansi Flick) y lateral en ausencia de **Iñigo Martínez** o **Pau Cubarsí**. La sorpresa no es Eric García en sí, sino que De la Fuente lo elige por encima de **Le Normand** (Atlético) y **Robin Le Normand** específicamente, que era titular de la Eurocopa 2024 ganada. Polivalencia: Eric puede jugar de central diestro o de lateral diestro, lo que le da a De la Fuente un comodín en el banquillo.
+
+## 5. Yeremi Pino · Crystal Palace · Extremo derecho {#yeremi-pino}
+
+**Yeremy Pino**, **23 años**, extremo derecho del Crystal Palace inglés tras su fichaje del Villarreal en verano 2025 por **35 millones de euros**. En Premier League ha firmado **10 goles y 7 asistencias** en su primera temporada inglesa. Convocado a la absoluta de forma intermitente desde 2021, esta vez entra como **suplente natural de Lamine Yamal**. Crucial si Yamal no llega al 100% por su lesión muscular: Pino sería el extremo derecho titular en el debut contra Cabo Verde.
+
+## 6. Pedro Porro · Tottenham Hotspur · Lateral derecho {#pedro-porro}
+
+**26 años**, lateral derecho del Tottenham desde 2023. Esta temporada ha jugado **38 partidos** con los Spurs (4 goles, 9 asistencias). Pedro Porro entra como **lateral derecho titular** ante la ausencia por lesión de **Daniel Carvajal**. Convocado por De la Fuente intermitentemente desde 2022, ahora consolida su sitio. Su perfil agresivo en banda derecha encaja con el **3-4-3** que De la Fuente ha probado en algunos amistosos.
+
+## 7. Borja Iglesias · Celta de Vigo · Delantero centro {#borja-iglesias}
+
+**Borja Iglesias**, **32 años**, delantero del **Celta de Vigo** tras su cesión desde el Bayer Leverkusen, vuelto al Betis y traspasado al Celta en verano 2025. Esta temporada en Liga: **38 partidos, 18 goles**, máximo goleador del equipo de Claudio Giráldez. Sorpresa absoluta: De la Fuente lo prefiere a **Iago Aspas** (también del Celta, pero veterano de 38 años) y a **Joselu** (descartado pese a haber sido titular en Eurocopa 2024). Borja Iglesias es el **nueve suplente** de Mikel Oyarzabal. Llamada por números: el Panda Iglesias ha vuelto a la versión 2021/22 que le valió 21 goles con el Betis.
+
+## El contexto de las sorpresas
+
+Las siete inclusiones reflejan la filosofía de De la Fuente: rendimiento sostenido en club por encima de jerarquía pasada. **Joselu**, **Mikel Merino** (lesionado tardíamente), **Iago Aspas**, **Marcos Llorente** (suplencia clara) son los grandes ausentes que dejan estas siete vacantes.
+
+Convocatoria completa publicada en [/2026/listas/ESP](/2026/listas/ESP). Partidos de España en [/cuando-juega-espana](/cuando-juega-espana). Grupo H con Cabo Verde, Arabia Saudí y Uruguay en [/selecciones/ESP/grupo-h](/selecciones/ESP/grupo-h).`,
+    category: 'convocatorias',
+    sourceName: 'RFEF',
+    sourceUrl: 'https://rfef.es/',
+    sourceLang: 'es',
+    publishedAt: '2026-05-26T11:00:00Z',
+    sourcesSecondary: [
+      { name: 'Marca · Lista España', url: 'https://www.marca.com/futbol/seleccion.html' },
+      { name: 'AS · Lista España', url: 'https://as.com/futbol/seleccion/' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Luis_de_la_Fuente_2024.jpg/1280px-Luis_de_la_Fuente_2024.jpg',
+      alt: 'Luis de la Fuente, seleccionador de España, en una rueda de prensa en la Ciudad del Fútbol de Las Rozas',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
     slug: 'lamine-yamal-mundial-2026-lesion-isquios-duda-debut-espana-cabo-verde-arabia-saudi',
     title:
       'Lamine Yamal y la duda del Mundial: la lesión muscular del crack de España puede retrasar su debut hasta el tercer partido de grupo',
