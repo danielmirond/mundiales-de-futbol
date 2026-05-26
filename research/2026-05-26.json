@@ -1,0 +1,253 @@
+{
+  "generatedAt": "2026-05-26T10:34:12.805Z",
+  "date": "2026-05-26",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "hora españa",
+      "geo": "CO",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Huijsen, ¿y una respuesta en redes?: comparte el once ideal coincidiendo con su ausencia en la lista mundialista",
+          "url": "https://www.marca.com/futbol/real-madrid/2026/05/25/huijsen-respuesta-redes-comparte-once-ideal-coincidiendo-ausencia-lista-mundialista.html",
+          "source": "MARCA"
+        },
+        {
+          "title": "Mundial 2026: España anunció su lista sin jugadores de Real Madrid",
+          "url": "https://www.espn.com.co/futbol/mundial/nota/_/id/16757234/mundial-2026-espana-lista-sin-jugadores-real-madrid",
+          "source": "ESPN Colombia"
+        },
+        {
+          "title": "Video | Luis de la Fuente, técnico de España, entregó el listado de 26 convocados al Mundial del 2026: hay sorpresas",
+          "url": "https://www.eltiempo.com/deportes/futbol-internacional/luis-de-la-fuente-tecnico-de-espana-entrego-el-listado-de-26-convocados-al-mundial-del-2026-hay-sorpresas-3558118",
+          "source": "ELTIEMPO.COM"
+        }
+      ]
+    },
+    {
+      "query": "peru vs españa",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Mundial 2026: España anunció su lista sin jugadores de Real Madrid",
+          "url": "https://www.espn.com.pe/futbol/mundial/nota/_/id/16757234/mundial-2026-espana-lista-sin-jugadores-real-madrid",
+          "source": "espn.com.pe"
+        },
+        {
+          "title": "Huijsen, ¿y una respuesta en redes?: comparte el once ideal coincidiendo con su ausencia en la lista mundialista",
+          "url": "https://www.marca.com/futbol/real-madrid/2026/05/25/huijsen-respuesta-redes-comparte-once-ideal-coincidiendo-ausencia-lista-mundialista.html",
+          "source": "MARCA"
+        },
+        {
+          "title": "¿Estás de acuerdo con la Selección de Luis de la Fuente para el Mundial de Fútbol?",
+          "url": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/05/25/6a142994e85ece5f128b4598.html",
+          "source": "El Mundo"
+        }
+      ]
+    },
+    {
+      "query": "noticia",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "“Una buena noticia” y “un alivio”: meteorólogo anuncia cómo será el inicio de la semana",
+          "url": "https://www.montevideo.com.uy/Noticias/-Una-buena-noticia-y-un-alivio--meteorologo-anuncia-como-sera-el-inicio-de-la-semana-uc962942",
+          "source": "Montevideo Portal"
+        },
+        {
+          "title": "Alivio: se anuncia cómo estará el clima en inicio de la semana",
+          "url": "https://diariocambio.com.uy/alivio-se-anuncia-como-estara-el-clima-en-inicio-de-la-semana",
+          "source": "Diario Cambio Salto"
+        },
+        {
+          "title": "Mundial 2026: Facundo Torres confirmó que no será parte del plantel de Uruguay",
+          "url": "https://www.montevideo.com.uy/Deportes/Mundial-2026-Facundo-Torres-confirmo-que-no-sera-parte-del-plantel-de-Uruguay-uc963095",
+          "source": "Montevideo Portal"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "es": [
+      {
+        "query": "peru vs españa",
+        "score": 450,
+        "geos": [
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "peru vs españa",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Mundial 2026: España anunció su lista sin jugadores de Real Madrid",
+                "url": "https://www.espn.com.pe/futbol/mundial/nota/_/id/16757234/mundial-2026-espana-lista-sin-jugadores-real-madrid",
+                "source": "espn.com.pe"
+              },
+              {
+                "title": "Huijsen, ¿y una respuesta en redes?: comparte el once ideal coincidiendo con su ausencia en la lista mundialista",
+                "url": "https://www.marca.com/futbol/real-madrid/2026/05/25/huijsen-respuesta-redes-comparte-once-ideal-coincidiendo-ausencia-lista-mundialista.html",
+                "source": "MARCA"
+              },
+              {
+                "title": "¿Estás de acuerdo con la Selección de Luis de la Fuente para el Mundial de Fútbol?",
+                "url": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/05/25/6a142994e85ece5f128b4598.html",
+                "source": "El Mundo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "hora españa",
+        "score": 100,
+        "geos": [
+          "CO"
+        ],
+        "samples": [
+          {
+            "query": "hora españa",
+            "geo": "CO",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Huijsen, ¿y una respuesta en redes?: comparte el once ideal coincidiendo con su ausencia en la lista mundialista",
+                "url": "https://www.marca.com/futbol/real-madrid/2026/05/25/huijsen-respuesta-redes-comparte-once-ideal-coincidiendo-ausencia-lista-mundialista.html",
+                "source": "MARCA"
+              },
+              {
+                "title": "Mundial 2026: España anunció su lista sin jugadores de Real Madrid",
+                "url": "https://www.espn.com.co/futbol/mundial/nota/_/id/16757234/mundial-2026-espana-lista-sin-jugadores-real-madrid",
+                "source": "ESPN Colombia"
+              },
+              {
+                "title": "Video | Luis de la Fuente, técnico de España, entregó el listado de 26 convocados al Mundial del 2026: hay sorpresas",
+                "url": "https://www.eltiempo.com/deportes/futbol-internacional/luis-de-la-fuente-tecnico-de-espana-entrego-el-listado-de-26-convocados-al-mundial-del-2026-hay-sorpresas-3558118",
+                "source": "ELTIEMPO.COM"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "noticia",
+        "score": 90,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "noticia",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "“Una buena noticia” y “un alivio”: meteorólogo anuncia cómo será el inicio de la semana",
+                "url": "https://www.montevideo.com.uy/Noticias/-Una-buena-noticia-y-un-alivio--meteorologo-anuncia-como-sera-el-inicio-de-la-semana-uc962942",
+                "source": "Montevideo Portal"
+              },
+              {
+                "title": "Alivio: se anuncia cómo estará el clima en inicio de la semana",
+                "url": "https://diariocambio.com.uy/alivio-se-anuncia-como-estara-el-clima-en-inicio-de-la-semana",
+                "source": "Diario Cambio Salto"
+              },
+              {
+                "title": "Mundial 2026: Facundo Torres confirmó que no será parte del plantel de Uruguay",
+                "url": "https://www.montevideo.com.uy/Deportes/Mundial-2026-Facundo-Torres-confirmo-que-no-sera-parte-del-plantel-de-Uruguay-uc963095",
+                "source": "Montevideo Portal"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "topic": "peru vs españa",
+      "type": "noticia",
+      "slugSuggestion": "peru-vs-espana",
+      "language": "es",
+      "geos": [
+        "PE"
+      ],
+      "score": 540,
+      "reason": "Google Trends daily PE con 500 búsquedas · 3 artículos noticiosos referenciando \"peru vs españa\"",
+      "proposedPath": "/noticias/peru-vs-espana",
+      "evidence": [
+        {
+          "query": "peru vs españa",
+          "geo": "PE",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 500,
+          "articles": [
+            {
+              "title": "Mundial 2026: España anunció su lista sin jugadores de Real Madrid",
+              "url": "https://www.espn.com.pe/futbol/mundial/nota/_/id/16757234/mundial-2026-espana-lista-sin-jugadores-real-madrid",
+              "source": "espn.com.pe"
+            },
+            {
+              "title": "Huijsen, ¿y una respuesta en redes?: comparte el once ideal coincidiendo con su ausencia en la lista mundialista",
+              "url": "https://www.marca.com/futbol/real-madrid/2026/05/25/huijsen-respuesta-redes-comparte-once-ideal-coincidiendo-ausencia-lista-mundialista.html",
+              "source": "MARCA"
+            },
+            {
+              "title": "¿Estás de acuerdo con la Selección de Luis de la Fuente para el Mundial de Fútbol?",
+              "url": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/05/25/6a142994e85ece5f128b4598.html",
+              "source": "El Mundo"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alreadyCovered": [
+    {
+      "query": "hora españa",
+      "matchUrl": "/noticias/lista-espana-mundial-2026-horario-canal-tv-donde-ver-luis-de-la-fuente-25-mayo-movistar-dazn"
+    },
+    {
+      "query": "noticia",
+      "matchUrl": "/noticias"
+    }
+  ]
+}
