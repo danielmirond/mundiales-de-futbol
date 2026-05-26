@@ -240,6 +240,21 @@ const SQUAD_METADATA: Record<string, SquadMeta> = {
     announcementSourceName: 'RFEF',
     announcementSource: 'https://rfef.es/',
   },
+  MAR: {
+    status: 'final',
+    coach: 'Mohamed Ouahbi',
+    announcedAt: '2026-05-26',
+    announcementSourceName: 'FRMF',
+    announcementSource: 'https://www.frmf.ma/',
+  },
+  USA: {
+    status: 'final',
+    coach: 'Mauricio Pochettino',
+    coachNationality: 'ARG',
+    announcedAt: '2026-05-26',
+    announcementSourceName: 'U.S. Soccer',
+    announcementSource: 'https://www.ussoccer.com/',
+  },
 
   // ─── PRELISTAS (35-55 jugadores) ───────────────────────────────
   UZB: {

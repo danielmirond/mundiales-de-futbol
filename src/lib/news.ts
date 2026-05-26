@@ -80,6 +80,107 @@ export type NewsItem = {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'convocatoria-marruecos-mundial-2026-ouahbi-26-jugadores-brahim-hakimi-aguerd-mazraoui-grupo-brasil',
+    title:
+      'Marruecos cierra los 26 del Mundial 2026: Mohamed Ouahbi mete a Hakimi pese a la lesión y confirma a Brahim Díaz',
+    summary:
+      'Mohamed Ouahbi, seleccionador desde marzo en sustitución de Walid Regragui, anuncia este 26 de mayo en Rabat los 26 convocados de Marruecos para el Mundial 2026. Hakimi entra pese a su lesión muscular reciente. Brahim Díaz, Aguerd, Mazraoui, Amrabat y Ounahi forman el bloque europeo. Marruecos debuta contra Brasil el 13 de junio en MetLife.',
+    body: `**Marruecos** confirmó este martes **26 de mayo de 2026** la lista definitiva de 26 jugadores para el Mundial 2026. El anuncio lo hizo el seleccionador **Mohamed Ouahbi** en rueda de prensa en la sede de la **FRMF** (Federación Real Marroquí de Fútbol) en Rabat. Es la primera lista mundialista de Ouahbi, que sustituyó a **Walid Regragui** en marzo de 2026 después de un mal arranque en la fase final de clasificación.
+
+El contexto. Marruecos llega al Mundial con la presión de **defender el semifinalista de Qatar 2022**, el mejor papel africano de la historia. El equipo cayó en semis contra Francia (2-0) y perdió el tercer puesto contra Croacia (2-1). La generación 2022 se mantiene casi intacta tres años y medio después.
+
+Las decisiones de Ouahbi. Tres apuestas marcan la lista:
+
+1. **Achraf Hakimi entra pese a la lesión muscular**. El capitán y lateral derecho del **Paris Saint-Germain** se rompió el muslo en abril. Ouahbi ha confirmado que llega "al 90% físicamente" y será titular en el primer partido.
+2. **Brahim Díaz consolida su lugar**. El madridista, que escogió jugar con Marruecos en 2024 tras pasar por las selecciones inferiores de España, será una de las referencias ofensivas junto a Ziyech.
+3. **Mantiene a la base europea**. Aguerd (Marsella), Mazraoui (Manchester United), Amrabat (Real Betis), Ounahi (Girona), El Kaabi (Olympiacos) y Ezzalzouli (Real Betis) componen el bloque de jugadores de primer nivel en Europa.
+
+Grupo C: el cruce contra Brasil. Marruecos comparte grupo con **Brasil**, **Haití** y **Escocia**. Los tres partidos:
+
+- **13 de junio · 18:00 ET · MetLife Stadium (Nueva Jersey)**: Brasil vs Marruecos. El partido que más expectación genera en el Grupo C, con Ancelotti enfrentándose al equipo magrebí.
+- **19 de junio · 18:00 ET · Gillette Stadium (Foxborough)**: Escocia vs Marruecos.
+- **24 de junio · 18:00 ET · Mercedes-Benz Stadium (Atlanta)**: Marruecos vs Haití.
+
+Próximos amistosos. La selección marroquí jugará dos amistosos preparatorios: contra Túnez el 31 de mayo en Rabat y contra Estados Unidos el 6 de junio en Filadelfia. Concentración en Casablanca hasta el 8 de junio, traslado a Estados Unidos el 9.
+
+Calendario completo en [/2026/calendario](/2026/calendario), grupos en [/2026/grupos](/2026/grupos), todas las listas confirmadas en [/2026/listas](/2026/listas) y la ficha del equipo en [/2026/listas/MAR](/2026/listas/MAR).`,
+    category: 'convocatorias',
+    sourceName: 'FRMF',
+    sourceUrl: 'https://www.frmf.ma/',
+    sourceLang: 'es',
+    publishedAt: '2026-05-26T15:00:00Z',
+    sourcesSecondary: [
+      { name: 'AS · Marruecos en directo', url: 'https://as.com/futbol/internacional/convocatoria-de-marruecos-en-directo-brahim-y-hakimi-al-mundial-2026-hoy-en-vivo-f202605-d/' },
+      { name: 'DAZN · Convocatoria Marruecos', url: 'https://www.dazn.com/es-MX/news/f%C3%BAtbol/convocatoria-marruecos-mundial-2026-lista-capitanes-dorsales-cuerpo-tecnico-mohamed-ouahbi/1knhhydsd38ck1n5tvhynk3h5t' },
+      { name: 'TUDN · Los 26 de Marruecos', url: 'https://www.tudn.com/mundial-2026/mundial-2026-marruecos-da-su-convocatoria-oficial-de-26-jugadores-a-la-copa-del-mundo-video' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Achraf_Hakimi_2024.jpg/1280px-Achraf_Hakimi_2024.jpg',
+      alt: 'Achraf Hakimi, capitán de Marruecos y lateral derecho del Paris Saint-Germain, durante un partido internacional',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'convocatoria-estados-unidos-mundial-2026-pochettino-26-jugadores-zendejas-pulisic-mckennie-grupo-paraguay-australia-turquia',
+    title:
+      'Estados Unidos cierra los 26 de Pochettino: Alex Zendejas sorprende, Diego Luna queda fuera y Pulisic lidera el equipo anfitrión',
+    summary:
+      'Mauricio Pochettino anunció este 26 de mayo en Nueva York la convocatoria definitiva de Estados Unidos para el Mundial 2026. La gran sorpresa: Alex Zendejas (América de la Liga MX). El gran ausente: Diego Luna. Christian Pulisic, Weston McKennie y Tyler Adams lideran al combinado anfitrión, que debuta el 12 de junio contra Paraguay en SoFi.',
+    body: `**Mauricio Pochettino** anunció este martes **26 de mayo de 2026** en una rueda de prensa en **Nueva York** la lista definitiva de 26 convocados de **Estados Unidos** para el Mundial 2026. Es la primera lista mundialista del entrenador argentino al frente del combinado norteamericano, cargo que asumió en septiembre de 2024 tras la salida de Gregg Berhalter después de la Copa América.
+
+El contexto anfitrión. Estados Unidos juega su Mundial en casa. Es co-anfitrión junto a Canadá y México, y abre el torneo el **12 de junio** en el partido inaugural en SoFi Stadium contra **Paraguay**. La expectativa interna es alcanzar **mínimo octavos de final**, objetivo que la afición y la USSF llevan tres años marcando.
+
+Los seguros. La columna vertebral del equipo de Pochettino se mantiene:
+
+- **Christian Pulisic** (AC Milan), capitán y referencia ofensiva.
+- **Weston McKennie** (Juventus), centrocampista box-to-box.
+- **Tyler Adams** (Bournemouth), pivote y líder de equilibrio.
+- **Antonee Robinson** (Fulham), lateral izquierdo.
+- **Sergiño Dest** (PSV Eindhoven), lateral derecho.
+- **Chris Richards** (Crystal Palace), central titular.
+- **Matt Turner** (Crystal Palace), portero titular si Freese no le supera.
+
+Los 26, por líneas, según anuncio oficial USSF:
+
+- **Porteros** (3): Matt Freese (NYCFC), Matt Turner (Crystal Palace), Chris Brady (Chicago Fire).
+- **Centrales** (5): Chris Richards (Crystal Palace), Tim Ream (Charlotte FC), Mark McKenzie (Toulouse), Auston Trusty (Celtic), Miles Robinson (Atlanta United).
+- **Laterales** (5): Antonee Robinson (Fulham), Sergiño Dest (PSV Eindhoven), Alex Freeman (Orlando City), Joe Scally (Borussia Mönchengladbach), Max Arfsten (Columbus Crew).
+- **Mediocentros** (4): Tyler Adams (Bournemouth), Weston McKennie (Juventus), Cristian Roldan (Seattle Sounders), Sebastian Berhalter (Vancouver Whitecaps).
+- **Mediapuntas / extremos** (6): Christian Pulisic (AC Milan, capitán), Tim Weah (Marsella), Brenden Aaronson (Leeds), Yunus Musah (Atalanta), Gio Reyna (Borussia Mönchengladbach), **Alex Zendejas (Club América)**.
+- **Delanteros** (3): Folarin Balogun (Mónaco), Josh Sargent (Norwich City), Haji Wright (Coventry City).
+
+La sorpresa: Zendejas. **Alex Zendejas** (27 años, América de la Liga MX) es la gran sorpresa de la lista. El extremo zurdo, formado en la cantera del FC Dallas y nacionalizado mexicano-estadounidense, optó por la selección de USA en 2022. No había sido llamado desde **octubre de 2025** y se quedó fuera de las tres últimas ventanas. Pochettino le da la confianza por su rendimiento en la Liguilla MX 2025/26 (8 goles y 7 asistencias con el América campeón).
+
+La gran ausencia: Diego Luna. **Diego Luna** (22 años, Real Salt Lake), centrocampista creativo que había sido habitual en las convocatorias del último año, se queda fuera. Pochettino prefiere la solidez veterana de Cristian Roldan y la juventud de Berhalter como cuarto mediocentro.
+
+Grupo D. Estados Unidos comparte grupo con **Paraguay**, **Australia** y **Turquía**. Los tres partidos:
+
+- **12 de junio · 17:00 PT · SoFi Stadium (Inglewood)**: Estados Unidos vs Paraguay. Partido inaugural del Mundial 2026, con ceremonia de apertura previa.
+- **19 de junio · 12:00 PT · Lumen Field (Seattle)**: Estados Unidos vs Australia.
+- **24 de junio · 18:00 CT · NRG Stadium (Houston)**: Estados Unidos vs Turquía.
+
+Próximos amistosos. Estados Unidos disputará dos preparatorios: contra **Marruecos** el 6 de junio en el **Lincoln Financial Field** de Filadelfia, y contra **Polonia** el 9 de junio en el **Mercedes-Benz Stadium** de Atlanta. Concentración en **Carson, California** (StubHub Center / Dignity Health Sports Park) hasta el 10 de junio, traslado a Los Ángeles ese mismo día.
+
+Calendario completo en [/2026/calendario](/2026/calendario), grupos en [/2026/grupos](/2026/grupos), ficha de Estados Unidos en [/2026/listas/USA](/2026/listas/USA) y todas las listas confirmadas en [/2026/listas](/2026/listas).`,
+    category: 'convocatorias',
+    sourceName: 'U.S. Soccer',
+    sourceUrl: 'https://www.ussoccer.com/',
+    sourceLang: 'es',
+    publishedAt: '2026-05-26T17:00:00Z',
+    sourcesSecondary: [
+      { name: 'AS · Listas Mundial 2026', url: 'https://as.com/futbol/mundial/listas-de-convocados-para-el-mundial-2026-selecciones-y-todos-los-jugadores-que-estaran-en-la-copa-del-mundo-f202605-n-5/' },
+      { name: 'Infobae · Pochettino confirma 26', url: 'https://www.infobae.com/deportes/2026/05/24/pochettino-confirma-la-lista-de-26-convocados-de-estados-unidos-para-el-mundial-2026/' },
+      { name: 'ClaroSports · Zendejas al Mundial', url: 'https://www.clarosports.com/futbol/mundial-2026/convocatoria-estados-unidos-mundial-2026/' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Christian_Pulisic_2022_USMNT.jpg/1280px-Christian_Pulisic_2022_USMNT.jpg',
+      alt: 'Christian Pulisic, capitán de Estados Unidos y extremo del AC Milan, en un partido de la selección estadounidense',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
     slug: 'convocatoria-inglaterra-mundial-2026-tuchel-anuncio-1-junio-bellingham-kane-saka-foden-rice',
     title:
       'Convocatoria Inglaterra Mundial 2026: Tuchel cierra el 1 de junio el 26 que liderará Harry Kane',
