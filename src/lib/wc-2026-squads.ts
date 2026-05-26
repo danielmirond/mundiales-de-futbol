@@ -255,6 +255,14 @@ const SQUAD_METADATA: Record<string, SquadMeta> = {
     announcementSourceName: 'U.S. Soccer',
     announcementSource: 'https://www.ussoccer.com/',
   },
+  PAN: {
+    status: 'final',
+    coach: 'Thomas Christiansen',
+    coachNationality: 'DEN',
+    announcedAt: '2026-05-26',
+    announcementSourceName: 'FEPAFUT',
+    announcementSource: 'https://fepafut.com/',
+  },
 
   // ─── PRELISTAS (35-55 jugadores) ───────────────────────────────
   UZB: {
@@ -324,6 +332,14 @@ const SQUAD_METADATA: Record<string, SquadMeta> = {
     announcedAt: '2026-05-18',
     announcementSourceName: 'TFF',
     announcementSource: 'https://www.tff.org/',
+  },
+  GHA: {
+    status: 'provisional',
+    coach: 'Carlos Queiroz',
+    coachNationality: 'POR',
+    announcedAt: '2026-05-26',
+    announcementSourceName: 'GFA',
+    announcementSource: 'https://ghanafa.org/',
   },
 };
 

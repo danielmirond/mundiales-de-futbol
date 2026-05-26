@@ -80,6 +80,107 @@ export type NewsItem = {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'convocatoria-panama-mundial-2026-christiansen-26-jugadores-anibal-godoy-quintero-grupo-inglaterra-croacia-ghana',
+    title:
+      'Panamá presenta los 26 de Christiansen en el Edificio del Canal: Aníbal Godoy capitán, Quintero recupera su Mundial y Kadir Barría queda fuera',
+    summary:
+      'Panamá oficializó este 26 de mayo en el Edificio de la Administración del Canal su lista definitiva de 26 jugadores para el Mundial 2026. Thomas Christiansen mantiene el bloque CONCACAF de los últimos cuatro años, capitanía a Aníbal Godoy. Alberto Quintero entra a sus 36 años tras perderse Rusia 2018. La gran ausencia: Kadir Barría (Botafogo). Grupo L con Inglaterra, Croacia y Ghana.',
+    body: `**Panamá** confirmó este martes **26 de mayo de 2026** la lista definitiva de 26 jugadores para el Mundial 2026 en un evento especial celebrado en el **Edificio de la Administración del Canal de Panamá**. El seleccionador danés-español **Thomas Christiansen**, en el cargo desde 2020, anunció su segunda lista mundialista tras la histórica clasificación canalera.
+
+El contexto. Panamá disputará su **segundo Mundial** tras el debut en Rusia 2018. La generación 2018 (Penedo, Murillo, Bárcenas, Avila) ya está fuera por edad, pero el bloque que ha consolidado a Panamá entre los mejores cuatro de CONCACAF se mantiene: Godoy, Carrasquilla, Murillo, Davis, Quintero. Christiansen apuesta por experiencia y química colectiva sobre talento individual emergente.
+
+Las decisiones de Christiansen. Tres notas en la lista:
+
+1. **Aníbal Godoy capitán**. El centrocampista del **Nashville SC**, 35 años, lleva el brazalete por sexto año consecutivo. Es la voz del vestuario y la referencia de Christiansen para gestionar la ansiedad mundialista.
+2. **Alberto Quintero recupera su Mundial**. **"Cabezón" Quintero** (36 años, Universitario de Perú) se perdió Rusia 2018 por lesión al pisar el campo del último entrenamiento previo. Christiansen le devuelve la convocatoria como gesto de justicia. Será probablemente suplente, pero su presencia simbólica vale.
+3. **Adalberto Carrasquilla, motor del equipo**. El centrocampista de **Pumas UNAM** (27 años) es el pulmón táctico. Su movilidad cubre las carencias defensivas del 4-3-3 panameño.
+
+Los 26 confirmados, por líneas (anuncio oficial FEPAFUT):
+
+- **Porteros** (3): Orlando Mosquera (CD Real Estelí), Luis Mejía (Vélez Sarsfield), César Samudio (Universitario).
+- **Defensas** (10): César Blackman (FC Vorskla Poltava), Jorge Gutiérrez (Sporting San Miguelito), Amir Murillo (Anderlecht), Fidel Escobar (Tijuana), Andrés Andrade (Colorado Rapids), Edgardo Fariña (Real Salt Lake), José Córdoba (CSKA Sofia), Eric Davis (DAC Dunajská Streda), Jiovany Ramos (Houston Dynamo), Roderick Miller (CD Universidad Católica).
+- **Mediocentros** (8): **Aníbal Godoy (Nashville SC, capitán)**, Adalberto Carrasquilla (Pumas UNAM), Carlos Harvey (Sporting Kansas City), Cristian Martínez (Independiente del Valle), José Luis Rodríguez (Atlas), César Yanis (CD San Francisco), Yoel Bárcenas (Cordón), **Alberto Quintero (Universitario de Perú)**.
+- **Delanteros** (5): Azarías Londoño (LD Alajuelense), Tomás Rodríguez (Plaza Amador), Cecilio Waterman (Coquimbo Unido), Ismael Díaz (León), José Fajardo (CAI).
+
+La gran ausencia: Kadir Barría. **Kadir Barría** (centrocampista del **Botafogo**, 22 años) era el nombre joven más solicitado por la prensa panameña. Sus 12 partidos en Brasileirão Serie A con el campeón de la Libertadores parecían suficientes para entrar, pero Christiansen le ha dejado fuera por motivos tácticos: prefiere veteranía en una posición donde Godoy y Carrasquilla son insustituibles.
+
+Grupo L: Inglaterra, Croacia, Ghana. Panamá comparte grupo con el equipo de Tuchel, el subcampeón mundial 2018 y los Black Stars. Los tres partidos:
+
+- **17 de junio · 19:00 ET · BMO Field (Toronto)**: Ghana vs Panamá. Debut canalero, partido considerado el más asequible del grupo.
+- **23 de junio · 19:00 ET · BMO Field (Toronto)**: Panamá vs Croacia. Cruce decisivo contra los subcampeones del mundo de Rusia 2018 (vencidos por Marruecos 2-1 en el tercer puesto de Qatar 2022).
+- **27 de junio · 17:00 ET · MetLife Stadium (Nueva Jersey)**: Panamá vs Inglaterra. El cierre contra el equipo de Bellingham, Kane y Saka.
+
+Próximos amistosos. Panamá disputará dos preparatorios: contra **El Salvador** el 5 de junio en Ciudad de Panamá y contra **Curazao** el 9 de junio en Atlanta. Concentración en **Ciudad de Panamá** hasta el 10 de junio, traslado a Estados Unidos / Canadá el 11.
+
+Calendario completo en [/2026/calendario](/2026/calendario), grupos en [/2026/grupos](/2026/grupos), ficha de Panamá en [/2026/listas/PAN](/2026/listas/PAN) y todas las listas confirmadas en [/2026/listas](/2026/listas).`,
+    category: 'convocatorias',
+    sourceName: 'FEPAFUT',
+    sourceUrl: 'https://fepafut.com/',
+    sourceLang: 'es',
+    publishedAt: '2026-05-26T19:00:00Z',
+    sourcesSecondary: [
+      { name: 'Olympics.com · Panama squad', url: 'https://www.olympics.com/en/news/fifa-world-cup-2026-panama-all-players-full-squad-list-key-stats-and-schedule' },
+      { name: 'beIN Sports · Christiansen squad', url: 'https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/thomas-christiansen-s-official-panama-squad-for-the-2026-fifa-world-cup-2026-05-26' },
+      { name: 'Flashscore · Panama 26-man', url: 'https://www.flashscore.com/news/soccer-world-cup-panama-pick-experienced-squad-as-they-chase-history-at-second-fifa-world-cup/j7IW9V9l/' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Panama_Canal_Administration_Building.jpg/1280px-Panama_Canal_Administration_Building.jpg',
+      alt: 'Edificio de la Administración del Canal de Panamá, sede del anuncio oficial de la convocatoria canalera para el Mundial 2026',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'prelista-ghana-mundial-2026-queiroz-28-jugadores-inaki-williams-thomas-partey-mumin-sibo-cardiff-kudus-fuera',
+    title:
+      'Ghana abre la concentración con 28: Queiroz convoca a Iñaki Williams y Thomas Partey, recupera a Baba Rahman y deja fuera a Kudus por lesión',
+    summary:
+      'Carlos Queiroz publica este 26 de mayo la prelista de 28 jugadores de Ghana para la concentración mundialista, con campamento en Cardiff y amistoso contra Gales antes de viajar a Norteamérica. Iñaki Williams, Thomas Partey, Abdul Mumin y Kwasi Sibo lideran el bloque español. Mohammed Kudus (Tottenham) queda fuera por lesión.',
+    body: `**Ghana** publicó este martes **26 de mayo de 2026** la prelista de **28 jugadores** convocados por el seleccionador **Carlos Queiroz** para la concentración previa al Mundial 2026. Los Black Stars empezaron a entrenar en **Cardiff** el 25 de mayo y disputarán un amistoso contra **Gales** antes de viajar a Norteamérica. La lista definitiva de 26 se entregará a FIFA el 1 de junio.
+
+El contexto. Ghana regresa al Mundial tras la decepción de Qatar 2022 (eliminada en fase de grupos con tres derrotas, en el grupo de Portugal, Corea del Sur y Uruguay). El gran objetivo de Queiroz es **superar octavos por primera vez desde 2010**, cuando Ghana cayó en cuartos contra Uruguay en el famoso penalti de Asamoah Gyan rechazado por el larguero y la mano de Suárez.
+
+Las decisiones de Queiroz. Cuatro apuestas marcan la prelista:
+
+1. **Iñaki Williams y Thomas Partey, columnas vertebrales**. El extremo del **Athletic Club de Bilbao** (32 años) y el centrocampista del **Villarreal** (32 años, tras su salida del Arsenal en 2024) son los dos referentes del equipo.
+2. **Baba Abdul Rahman vuelve**. El lateral izquierdo de **Reading**, 32 años, regresa a la selección tras casi **dos años de ausencia**. Su última convocatoria había sido en septiembre de 2024. Reduce la dependencia del joven Gideon Mensah en el carril zurdo.
+3. **Mohammed Kudus fuera por lesión**. El extremo del **Tottenham** (24 años), uno de los nombres más cotizados de África, se rompió el cruzado en abril. Está descartado. Es la gran baja deportiva.
+4. **Bloque español ampliado**. Iñaki Williams (Athletic), Mumin (Rayo Vallecano tras su cesión del Sporting CP), Sibo (Espanyol, mediocentro joven). LaLiga aporta tres titulares al combinado ghanés, situación inédita.
+
+Estructura de la prelista (5 porteros, 9 defensas, 7 mediocentros, 7 delanteros). Quedan dos cortes hasta llegar a los 26 definitivos. Los nombres principales:
+
+- **Porteros**: Lawrence Ati-Zigi (St. Gallen), Manaf Nurudeen (KAS Eupen), Joe Wollacott (Charlton), Frederick Asare (Bechem United), Benjamin Asare (Hearts of Oak).
+- **Defensas clave**: Abdul Mumin (Rayo Vallecano), Daniel Amartey (Hull City), Baba Abdul Rahman (Reading), Tariq Lamptey (Brighton), Alidu Seidu (Rennes).
+- **Mediocentros**: Thomas Partey (Villarreal), Mohammed Kudus **fuera por lesión**, Salis Abdul Samed (Lens), Kwasi Sibo (Espanyol), Elisha Owusu (Saint-Étienne), Mohammed Salisu (AS Monaco).
+- **Delanteros**: Iñaki Williams (Athletic), Jordan Ayew (Crystal Palace), Antoine Semenyo (Bournemouth), Ernest Nuamah (Olympique Lyonnais), Kamaldeen Sulemana (Atalanta).
+
+Grupo L: el cruce contra Iñaki vs Athletic. Ghana comparte grupo con **Inglaterra**, **Croacia** y **Panamá**. Los tres partidos:
+
+- **17 de junio · 19:00 ET · BMO Field (Toronto)**: Ghana vs Panamá. Debut con el rival considerado más accesible.
+- **23 de junio · 16:00 ET · Gillette Stadium (Foxborough)**: Inglaterra vs Ghana. El partido más exigente, contra el equipo de Tuchel.
+- **27 de junio · 17:00 ET · Lincoln Financial Field (Filadelfia)**: Croacia vs Ghana. Cierre contra los veteranos de Modrić.
+
+Próximos amistosos. Tras el partido contra Gales el **31 de mayo en Cardiff**, Ghana disputará un segundo amistoso preparatorio contra **Bolivia** el 6 de junio en Saint Louis. Concentración en Cardiff hasta el 1 de junio, traslado a Estados Unidos el 8.
+
+Calendario completo en [/2026/calendario](/2026/calendario), grupos en [/2026/grupos](/2026/grupos), ficha de Ghana en [/2026/listas/GHA](/2026/listas/GHA) y todas las listas confirmadas en [/2026/listas](/2026/listas).`,
+    category: 'convocatorias',
+    sourceName: 'GFA',
+    sourceUrl: 'https://ghanafa.org/',
+    sourceLang: 'es',
+    publishedAt: '2026-05-26T20:00:00Z',
+    sourcesSecondary: [
+      { name: 'Marca · Lista 28 Ghana Queiroz', url: 'https://www.marca.com/futbol/mundial/2026/05/26/inaki-williams-thomas-mumin-sibo-entran-lista-28-ghana-queiroz.html' },
+      { name: 'TUDN · Sin Kudus', url: 'https://www.tudn.com/mundial-2026/equipos/seleccion-ghana/con-28-jugadores-pero-sin-mohammed-kudus-ghana-da-a-conocer-prelista-mundial-2026' },
+      { name: 'Flashscore · Baba Rahman returns', url: 'https://www.flashscore.com/news/queiroz-names-28-man-ghana-squad-for-world-cup-camp-and-wales-friendly/vF19JFTN/' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/I%C3%B1aki_Williams_2024.jpg/1280px-I%C3%B1aki_Williams_2024.jpg',
+      alt: 'Iñaki Williams, delantero del Athletic Club de Bilbao y referente ofensivo de Ghana, en un partido reciente con los Black Stars',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
     slug: 'convocatoria-marruecos-mundial-2026-ouahbi-26-jugadores-brahim-hakimi-aguerd-mazraoui-grupo-brasil',
     title:
       'Marruecos cierra los 26 del Mundial 2026: Mohamed Ouahbi mete a Hakimi pese a la lesión y confirma a Brahim Díaz',
