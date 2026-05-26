@@ -1,4 +1,5 @@
 import { createClient } from '@/lib/supabase/server';
+import { getHistoricalMatches } from './matches';
 
 export type MatchDetail = {
   id: string;
@@ -42,10 +43,38 @@ export type TimelineEvent = {
   secondary_player: { full_name: string; known_as: string | null; slug: string } | null;
 };
 
+function historicalDetail(year: number, matchNumber: number): MatchDetail | null {
+  const rows = getHistoricalMatches(year);
+  const m = rows.find((r) => r.match_number === matchNumber);
+  if (!m) return null;
+  return {
+    id: `hist-${year}-${matchNumber}`,
+    match_number: m.match_number,
+    tournament_year: year,
+    stage: m.stage,
+    match_date: m.match_date,
+    home_code: m.home_code,
+    away_code: m.away_code,
+    home_score: m.home_score,
+    away_score: m.away_score,
+    home_score_pk: m.home_score_pk,
+    away_score_pk: m.away_score_pk,
+    winner_code: m.winner_code,
+    home_team: m.home_team,
+    away_team: m.away_team,
+    venue: m.venue,
+    referee: null,
+  };
+}
+
 export async function getMatchByNumber(
   year: number,
   matchNumber: number,
 ): Promise<MatchDetail | null> {
+  if (year < 2018) {
+    const hist = historicalDetail(year, matchNumber);
+    if (hist) return hist;
+  }
   try {
     const supabase = await createClient();
     const { data, error } = await supabase
