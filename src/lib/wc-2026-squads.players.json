@@ -404,5 +404,67 @@
       { "shirt": null, "name": "Víctor Muñoz", "position": "FW", "club": "Osasuna", "clubCountry": "ESP", "age": 22, "previousWcs": 0, "playerSlug": "victor-munoz" },
       { "shirt": null, "name": "Lamine Yamal", "position": "FW", "club": "Barcelona", "clubCountry": "ESP", "age": 18, "previousWcs": 0, "playerSlug": "lamine-yamal" }
     ]
+  },
+  "USA": {
+    "captainName": "Christian Pulisic",
+    "players": [
+      { "shirt": null, "name": "Matt Freese", "position": "GK", "club": "New York City FC", "clubCountry": "USA", "age": 27, "previousWcs": 0, "playerSlug": "matt-freese" },
+      { "shirt": null, "name": "Matt Turner", "position": "GK", "club": "Crystal Palace", "clubCountry": "ENG", "age": 32, "previousWcs": 1, "playerSlug": "matt-turner" },
+      { "shirt": null, "name": "Chris Brady", "position": "GK", "club": "Chicago Fire", "clubCountry": "USA", "age": 22, "previousWcs": 0, "playerSlug": "chris-brady" },
+      { "shirt": null, "name": "Chris Richards", "position": "DF", "club": "Crystal Palace", "clubCountry": "ENG", "age": 26, "previousWcs": 1, "playerSlug": "chris-richards" },
+      { "shirt": null, "name": "Tim Ream", "position": "DF", "club": "Charlotte FC", "clubCountry": "USA", "age": 38, "previousWcs": 1, "playerSlug": "tim-ream" },
+      { "shirt": null, "name": "Mark McKenzie", "position": "DF", "club": "Toulouse", "clubCountry": "FRA", "age": 27, "previousWcs": 1, "playerSlug": "mark-mckenzie" },
+      { "shirt": null, "name": "Auston Trusty", "position": "DF", "club": "Celtic", "clubCountry": "SCO", "age": 27, "previousWcs": 0, "playerSlug": "auston-trusty" },
+      { "shirt": null, "name": "Miles Robinson", "position": "DF", "club": "Atlanta United", "clubCountry": "USA", "age": 29, "previousWcs": 0, "playerSlug": "miles-robinson" },
+      { "shirt": null, "name": "Antonee Robinson", "position": "DF", "club": "Fulham", "clubCountry": "ENG", "age": 28, "previousWcs": 1, "playerSlug": "antonee-robinson" },
+      { "shirt": null, "name": "Sergiño Dest", "position": "DF", "club": "PSV Eindhoven", "clubCountry": "NED", "age": 25, "previousWcs": 1, "playerSlug": "sergino-dest" },
+      { "shirt": null, "name": "Alex Freeman", "position": "DF", "club": "Orlando City", "clubCountry": "USA", "age": 21, "previousWcs": 0, "playerSlug": "alex-freeman" },
+      { "shirt": null, "name": "Joe Scally", "position": "DF", "club": "Borussia Mönchengladbach", "clubCountry": "GER", "age": 23, "previousWcs": 0, "playerSlug": "joe-scally" },
+      { "shirt": null, "name": "Max Arfsten", "position": "DF", "club": "Columbus Crew", "clubCountry": "USA", "age": 24, "previousWcs": 0, "playerSlug": "max-arfsten" },
+      { "shirt": null, "name": "Tyler Adams", "position": "MF", "club": "Bournemouth", "clubCountry": "ENG", "age": 27, "previousWcs": 1, "playerSlug": "tyler-adams" },
+      { "shirt": null, "name": "Weston McKennie", "position": "MF", "club": "Juventus", "clubCountry": "ITA", "age": 27, "previousWcs": 1, "playerSlug": "weston-mckennie" },
+      { "shirt": null, "name": "Cristian Roldan", "position": "MF", "club": "Seattle Sounders", "clubCountry": "USA", "age": 30, "previousWcs": 1, "playerSlug": "cristian-roldan" },
+      { "shirt": null, "name": "Sebastian Berhalter", "position": "MF", "club": "Vancouver Whitecaps", "clubCountry": "CAN", "age": 25, "previousWcs": 0, "playerSlug": "sebastian-berhalter" },
+      { "shirt": null, "name": "Christian Pulisic", "position": "FW", "club": "AC Milan", "clubCountry": "ITA", "age": 27, "previousWcs": 1, "captain": true, "playerSlug": "christian-pulisic" },
+      { "shirt": null, "name": "Tim Weah", "position": "FW", "club": "Olympique de Marseille", "clubCountry": "FRA", "age": 26, "previousWcs": 1, "playerSlug": "tim-weah" },
+      { "shirt": null, "name": "Brenden Aaronson", "position": "FW", "club": "Leeds United", "clubCountry": "ENG", "age": 25, "previousWcs": 1, "playerSlug": "brenden-aaronson" },
+      { "shirt": null, "name": "Yunus Musah", "position": "FW", "club": "Atalanta", "clubCountry": "ITA", "age": 23, "previousWcs": 1, "playerSlug": "yunus-musah" },
+      { "shirt": null, "name": "Gio Reyna", "position": "FW", "club": "Borussia Mönchengladbach", "clubCountry": "GER", "age": 23, "previousWcs": 1, "playerSlug": "gio-reyna" },
+      { "shirt": null, "name": "Alex Zendejas", "position": "FW", "club": "Club América", "clubCountry": "MEX", "age": 27, "previousWcs": 0, "playerSlug": "alex-zendejas" },
+      { "shirt": null, "name": "Folarin Balogun", "position": "FW", "club": "Mónaco", "clubCountry": "FRA", "age": 25, "previousWcs": 0, "playerSlug": "folarin-balogun" },
+      { "shirt": null, "name": "Josh Sargent", "position": "FW", "club": "Norwich City", "clubCountry": "ENG", "age": 26, "previousWcs": 1, "playerSlug": "josh-sargent" },
+      { "shirt": null, "name": "Haji Wright", "position": "FW", "club": "Coventry City", "clubCountry": "ENG", "age": 28, "previousWcs": 1, "playerSlug": "haji-wright" }
+    ]
+  },
+  "PAN": {
+    "captainName": "Aníbal Godoy",
+    "players": [
+      { "shirt": null, "name": "Orlando Mosquera", "position": "GK", "club": "CD Real Estelí", "clubCountry": "NCA", "age": 36, "previousWcs": 1, "playerSlug": "orlando-mosquera" },
+      { "shirt": null, "name": "Luis Mejía", "position": "GK", "club": "Vélez Sarsfield", "clubCountry": "ARG", "age": 34, "previousWcs": 1, "playerSlug": "luis-mejia" },
+      { "shirt": null, "name": "César Samudio", "position": "GK", "club": "Universitario", "clubCountry": "PER", "age": 28, "previousWcs": 0, "playerSlug": "cesar-samudio" },
+      { "shirt": null, "name": "César Blackman", "position": "DF", "club": "Vorskla Poltava", "clubCountry": "UKR", "age": 27, "previousWcs": 0, "playerSlug": "cesar-blackman" },
+      { "shirt": null, "name": "Jorge Gutiérrez", "position": "DF", "club": "Sporting San Miguelito", "clubCountry": "PAN", "age": 28, "previousWcs": 0, "playerSlug": "jorge-gutierrez" },
+      { "shirt": null, "name": "Amir Murillo", "position": "DF", "club": "Anderlecht", "clubCountry": "BEL", "age": 30, "previousWcs": 1, "playerSlug": "amir-murillo" },
+      { "shirt": null, "name": "Fidel Escobar", "position": "DF", "club": "Tijuana", "clubCountry": "MEX", "age": 31, "previousWcs": 1, "playerSlug": "fidel-escobar" },
+      { "shirt": null, "name": "Andrés Andrade", "position": "DF", "club": "Colorado Rapids", "clubCountry": "USA", "age": 28, "previousWcs": 0, "playerSlug": "andres-andrade" },
+      { "shirt": null, "name": "Edgardo Fariña", "position": "DF", "club": "Real Salt Lake", "clubCountry": "USA", "age": 25, "previousWcs": 0, "playerSlug": "edgardo-farina" },
+      { "shirt": null, "name": "José Córdoba", "position": "DF", "club": "CSKA Sofia", "clubCountry": "BUL", "age": 25, "previousWcs": 0, "playerSlug": "jose-cordoba" },
+      { "shirt": null, "name": "Eric Davis", "position": "DF", "club": "DAC Dunajská Streda", "clubCountry": "SVK", "age": 34, "previousWcs": 1, "playerSlug": "eric-davis" },
+      { "shirt": null, "name": "Jiovany Ramos", "position": "DF", "club": "Houston Dynamo", "clubCountry": "USA", "age": 28, "previousWcs": 0, "playerSlug": "jiovany-ramos" },
+      { "shirt": null, "name": "Roderick Miller", "position": "DF", "club": "Universidad Católica", "clubCountry": "CHI", "age": 31, "previousWcs": 0, "playerSlug": "roderick-miller" },
+      { "shirt": null, "name": "Aníbal Godoy", "position": "MF", "club": "Nashville SC", "clubCountry": "USA", "age": 36, "previousWcs": 1, "captain": true, "playerSlug": "anibal-godoy" },
+      { "shirt": null, "name": "Adalberto Carrasquilla", "position": "MF", "club": "Pumas UNAM", "clubCountry": "MEX", "age": 27, "previousWcs": 0, "playerSlug": "adalberto-carrasquilla" },
+      { "shirt": null, "name": "Carlos Harvey", "position": "MF", "club": "Sporting Kansas City", "clubCountry": "USA", "age": 25, "previousWcs": 0, "playerSlug": "carlos-harvey" },
+      { "shirt": null, "name": "Cristian Martínez", "position": "MF", "club": "Independiente del Valle", "clubCountry": "ECU", "age": 25, "previousWcs": 0, "playerSlug": "cristian-martinez" },
+      { "shirt": null, "name": "José Luis Rodríguez", "position": "MF", "club": "Atlas", "clubCountry": "MEX", "age": 27, "previousWcs": 0, "playerSlug": "jose-luis-rodriguez" },
+      { "shirt": null, "name": "César Yanis", "position": "MF", "club": "CD San Francisco", "clubCountry": "PAN", "age": 25, "previousWcs": 0, "playerSlug": "cesar-yanis" },
+      { "shirt": null, "name": "Yoel Bárcenas", "position": "MF", "club": "Real Cartagena", "clubCountry": "COL", "age": 32, "previousWcs": 1, "playerSlug": "yoel-barcenas" },
+      { "shirt": null, "name": "Azarías Londoño", "position": "MF", "club": "LD Alajuelense", "clubCountry": "CRC", "age": 28, "previousWcs": 0, "playerSlug": "azarias-londono" },
+      { "shirt": null, "name": "Alberto Quintero", "position": "MF", "club": "Universitario", "clubCountry": "PER", "age": 36, "previousWcs": 0, "playerSlug": "alberto-quintero" },
+      { "shirt": null, "name": "Ismael Díaz", "position": "FW", "club": "León", "clubCountry": "MEX", "age": 28, "previousWcs": 0, "playerSlug": "ismael-diaz" },
+      { "shirt": null, "name": "Cecilio Waterman", "position": "FW", "club": "Coquimbo Unido", "clubCountry": "CHI", "age": 34, "previousWcs": 0, "playerSlug": "cecilio-waterman" },
+      { "shirt": null, "name": "José Fajardo", "position": "FW", "club": "CAI", "clubCountry": "PAN", "age": 30, "previousWcs": 0, "playerSlug": "jose-fajardo" },
+      { "shirt": null, "name": "Tomás Rodríguez", "position": "FW", "club": "Plaza Amador", "clubCountry": "PAN", "age": 25, "previousWcs": 0, "playerSlug": "tomas-rodriguez" }
+    ]
   }
 }
