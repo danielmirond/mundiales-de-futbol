@@ -36,6 +36,8 @@ export type SedeCity = {
   heroImage: string;
   /** Resumen breve para tarjetas de listado (130-160 chars) */
   shortIntro: string;
+  /** Traducción EN del shortIntro (opcional, fallback al original ES) */
+  shortIntroEn?: string;
   /** Hero descriptivo de la sede en el contexto del Mundial (200-300 palabras) */
   heroEditorial: string;
   /** Por qué viajar aquí para el Mundial (60-100 palabras) */
@@ -68,6 +70,8 @@ export const SEDES_2026: SedeCity[] = [
     heroImage: 'https://upload.wikimedia.org/wikipedia/commons/1/10/Mercedes_Benz_Stadium_time_lapse_capture_2017-08-13.jpg',
     shortIntro:
       'Atlanta acoge el debut de España (vs Cabo Verde) y otros 7 partidos en el Mercedes-Benz Stadium, con tejado retráctil y conexión metro al estadio.',
+    shortIntroEn:
+      'Atlanta hosts Spain\'s opener (vs Cape Verde) and 7 more matches at Mercedes-Benz Stadium, with a retractable roof and a direct subway link to the venue.',
     heroEditorial:
       'Atlanta es la sede más conectada del sur de Estados Unidos. Su aeropuerto Hartsfield-Jackson lleva años siendo el más transitado del mundo, así que es la entrada natural para fans europeos y latinoamericanos. Dentro de la ciudad, el Mercedes-Benz Stadium queda a pocos minutos del centro y conecta directamente por metro (línea MARTA, parada GWCC/CNN Center). Para España, además, es la sede del partido inaugural el 13 de junio: vs Cabo Verde a las 21:00 hora peninsular. La tarde del partido la avenida Centennial concentra una fan zone informal alrededor del Coca-Cola Museum y el Centennial Park.',
     whyHere:
@@ -131,6 +135,8 @@ export const SEDES_2026: SedeCity[] = [
     heroImage: 'https://upload.wikimedia.org/wikipedia/commons/d/db/Gillette_Stadium_%28Top_View%29.jpg',
     shortIntro:
       'Boston (Foxborough) acoge 7 partidos del Mundial 2026 en el Gillette Stadium, casa de los New England Patriots. Combina sede mundialista con uno de los centros culturales más densos de USA.',
+    shortIntroEn:
+      'Boston (Foxborough) hosts 7 matches at Gillette Stadium, home of the New England Patriots, pairing a World Cup venue with one of the densest cultural hubs in the United States.',
     heroEditorial:
       'Boston tiene una particularidad: la ciudad histórica está en Boston, pero el estadio está en Foxborough, a 47 km al sur. La hora de viaje en coche o en autobús lanzadera es parte del ritual del fan americano (Patriots y Revolution juegan ahí desde 2002). El partido en Gillette Stadium funciona distinto al de otras sedes: la mayoría del público llega en coche, lo que cambia los tiempos de entrada y salida y reduce la fan zone urbana clásica. Boston Common y Fenway Park son el sitio donde verás aficiones internacionales reunidas las horas previas.',
     whyHere:
@@ -194,6 +200,8 @@ export const SEDES_2026: SedeCity[] = [
     heroImage: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Arlington_June_2020_4_%28AT%26T_Stadium%29.jpg',
     shortIntro:
       'Dallas (Arlington) recibe 9 partidos del Mundial 2026, el AT&T Stadium es la sede con más partidos del torneo. Aforo Mundial 94.000 (FIFA lo nombra «Dallas Stadium»).',
+    shortIntroEn:
+      'Dallas (Arlington) hosts 9 matches at AT&T Stadium — the venue with the most matches of the tournament. World Cup capacity 94,000 (FIFA brands it "Dallas Stadium").',
     heroEditorial:
       'Si MetLife es la sede de la final y el Azteca la del partido inaugural, AT&T Stadium en Arlington es la sede que más partidos acoge: nueve, incluyendo una de las dos semifinales. Es el estadio más grande del mundo dedicado al fútbol americano y, ahora, también del Mundial. El barrio de Arlington (entre Dallas y Fort Worth) es prácticamente un complejo de estadios: AT&T Stadium para los Cowboys, Globe Life Field para los Texas Rangers (béisbol), y el AT&T Stadium recibe el Mundial. Es un sitio diseñado para grandes eventos con mucho aparcamiento, mucha gastronomía rápida, y un ambiente alejado del centro de Dallas en sí.',
     whyHere:
@@ -257,6 +265,8 @@ export const SEDES_2026: SedeCity[] = [
     heroImage: 'https://upload.wikimedia.org/wikipedia/commons/3/3e/Nrg_stadium.jpg',
     shortIntro:
       'Houston acoge 7 partidos del Mundial 2026 en el NRG Stadium, casa de los Texans. La ciudad latina más grande de USA tras Miami.',
+    shortIntroEn:
+      'Houston hosts 7 World Cup 2026 matches at NRG Stadium, home of the Texans. The largest Latino city in the United States after Miami.',
     heroEditorial:
       'Houston es la cuarta ciudad más grande de Estados Unidos y la más diversa: se hablan más de 145 idiomas en sus calles, una cuarta parte de la población es de origen latinoamericano, y la influencia mexicana es tan fuerte que muchas señales son bilingües. Esto hace de Houston, junto con Miami, la sede más cómoda para el aficionado hispanohablante: comer en español, hablar con taxistas en español, y encontrar peñas mundialistas en cada barrio es habitual. El NRG Stadium tiene cubierta retráctil, necesaria, porque junio-julio en Houston puede superar los 38°C con humedad oceánica.',
     whyHere:
@@ -320,6 +330,8 @@ export const SEDES_2026: SedeCity[] = [
     heroImage: 'https://upload.wikimedia.org/wikipedia/commons/a/ac/Aerial_view_of_Arrowhead_Stadium_08-31-2013.jpg',
     shortIntro:
       'Kansas City acoge 6 partidos del Mundial 2026 en el Arrowhead Stadium, conocido por ser el más ruidoso de la NFL. Capital de la barbacoa americana.',
+    shortIntroEn:
+      'Kansas City hosts 6 World Cup 2026 matches at Arrowhead Stadium, famous as the loudest venue in the NFL. The capital of American barbecue.',
     heroEditorial:
       'El Arrowhead Stadium tiene un récord Guinness por ruido en evento deportivo (142,2 dB en 2014, gracias a los Chiefs fans). Esto convierte a Kansas City en la sede del Mundial 2026 con mayor volumen ambiental garantizado. El estadio es de los más antiguos del torneo (1972) y el más característico estéticamente: gradas blancas en forma de flecha que dan nombre al sitio. Kansas City como ciudad es famosa por la barbacoa (KC-style barbecue es uno de los cuatro estilos clásicos de USA), el jazz histórico (en torno a la 18th & Vine), y por estar exactamente en el centro geográfico del país.',
     whyHere:
@@ -383,6 +395,8 @@ export const SEDES_2026: SedeCity[] = [
     heroImage: 'https://upload.wikimedia.org/wikipedia/commons/b/b3/SoFi_Stadium_2023.jpg',
     shortIntro:
       'Los Ángeles acoge 8 partidos del Mundial 2026 en SoFi Stadium, el más caro jamás construido (5.000 millones $). Inglewood, junto al aeropuerto LAX.',
+    shortIntroEn:
+      'Los Angeles hosts 8 World Cup 2026 matches at SoFi Stadium, the most expensive stadium ever built ($5 billion). Inglewood, next to LAX airport.',
     heroEditorial:
       'SoFi Stadium se inauguró en 2020 y costó 5.000 millones de dólares, más que cualquier estadio de la historia. Su diseño es revolucionario: cubierta semi-abierta de ETFE traslúcido (no es retráctil, está siempre semi-cerrada) y una pantalla central llamada Infinity Screen, anillo de vídeo de 360° con 80 metros de diámetro suspendido sobre el campo. Inglewood, donde está, queda a 8 km del aeropuerto LAX y a 15 km del centro de LA. Para el aficionado europeo, SoFi es probablemente la sede más fotogénica del Mundial: nada de lo que has visto antes en un partido se parece visualmente a esto.',
     whyHere:
@@ -451,6 +465,8 @@ export const SEDES_2026: SedeCity[] = [
     heroImage: 'https://upload.wikimedia.org/wikipedia/commons/c/ce/Hard_Rock_Stadium_for_Super_Bowl_LIV_%2849606710103%29.jpg',
     shortIntro:
       'Miami (Miami Gardens) acoge 7 partidos del Mundial 2026 en el Hard Rock Stadium. Capital del fútbol latino en USA, casa de Lionel Messi (Inter Miami).',
+    shortIntroEn:
+      'Miami (Miami Gardens) hosts 7 World Cup 2026 matches at Hard Rock Stadium. The capital of Latin football in the U.S. and the home of Lionel Messi (Inter Miami).',
     heroEditorial:
       'Si hay una sede americana donde el ambiente del Mundial 2026 va a sentirse más latino, es Miami. Tres cuartas partes de la población hablan español como primer idioma, el Inter Miami CF (con Messi desde 2023) ha cambiado el panorama futbolístico local, y el Hard Rock Stadium acoge históricamente final de la Copa América (2024 fue allí). Junio-julio en Miami es temporada de huracanes, el estadio tiene cubierta parcial (solo cubre las tribunas, no el campo), y los partidos de tarde pueden verse afectados por tormentas tropicales. La FIFA tiene protocolo específico de delay weather.',
     whyHere:
@@ -514,6 +530,8 @@ export const SEDES_2026: SedeCity[] = [
     heroImage: 'https://upload.wikimedia.org/wikipedia/commons/0/04/Metlife_stadium_%28Aerial_view%29.jpg',
     shortIntro:
       'Nueva York/Nueva Jersey acoge 8 partidos del Mundial 2026 en el MetLife Stadium, INCLUIDA LA FINAL del 19 de julio. Aforo 82.500.',
+    shortIntroEn:
+      'New York/New Jersey hosts 8 World Cup 2026 matches at MetLife Stadium, INCLUDING THE FINAL on July 19. Capacity 82,500.',
     heroEditorial:
       'MetLife Stadium es la sede de la final del Mundial 2026. El 19 de julio a las 15:00 ET (21:00 hora peninsular española), el equipo campeón levantará la copa en East Rutherford, Nueva Jersey, a 8 km en línea recta del Empire State Building. La elección no es casual: Nueva York es la marca global más reconocible, MetLife es uno de los pocos estadios del mundo capaz de acoger más de 80.000 personas con seguridad de Super Bowl, y la conexión transatlántica desde EWR/JFK es óptima. Para el aficionado, alojarse en Manhattan y desplazarse al estadio cada día es el plan más razonable: el bus dedicado tarda 25 minutos al Lincoln Tunnel.',
     whyHere:
@@ -582,6 +600,8 @@ export const SEDES_2026: SedeCity[] = [
     heroImage: 'https://upload.wikimedia.org/wikipedia/commons/a/a1/Lincoln_Financial_Field_%28Aerial_view%29.jpg',
     shortIntro:
       'Philadelphia acoge 6 partidos del Mundial 2026 en el Lincoln Financial Field. Cuna histórica de USA, Filadelfia es la sede menos turística pero más densa culturalmente del corredor noreste.',
+    shortIntroEn:
+      'Philadelphia hosts 6 World Cup 2026 matches at Lincoln Financial Field. The birthplace of the United States, Philly is the least touristic but most culturally dense venue on the Northeast corridor.',
     heroEditorial:
       'Filadelfia es la primera capital de Estados Unidos: aquí se firmó la Declaración de Independencia (1776) y la Constitución (1787). El Lincoln Financial Field, sede del Mundial 2026, está en el South Philadelphia Sports Complex, junto al estadio de los Phillies (béisbol) y el Wells Fargo Center (básquet, hockey). Es uno de los pocos lugares de USA donde tres deportes profesionales mayores se concentran en un mismo barrio. La ciudad es además el sitio de los Eagles fans, conocidos por ser los más intensos de la NFL, el ambiente del partido tipo Mundial heredará algo de esa intensidad local.',
     whyHere:
@@ -645,6 +665,8 @@ export const SEDES_2026: SedeCity[] = [
     heroImage: 'https://upload.wikimedia.org/wikipedia/commons/a/a6/Levi%27s_Stadium_in_February_2016_prior_to_Super_Bowl_50_%2824398261729%29.jpg',
     shortIntro:
       'San Francisco Bay Area acoge 6 partidos del Mundial 2026 en Levi\'s Stadium (Santa Clara), a 70 km de SF. Sede tecnológica del Silicon Valley.',
+    shortIntroEn:
+      'The San Francisco Bay Area hosts 6 World Cup 2026 matches at Levi\'s Stadium (Santa Clara), 70 km from SF. The tech-driven Silicon Valley host city.',
     heroEditorial:
       'Levi\'s Stadium se ubica en Santa Clara, en pleno Silicon Valley, a 70 km al sur de San Francisco. Es la sede más nueva de las que acogen el Mundial en California (2014, los Niners pasaron del Candlestick Park al Levi\'s) y el primer estadio profesional con certificación LEED Gold de eficiencia energética. Para el aficionado europeo, "ir al Mundial a San Francisco" requiere precisión geográfica: el estadio NO está en SF. Está más cerca de San José que de San Francisco. La opción razonable para el viajero es alojarse en SF y hacer el viaje en tren Caltrain (90 minutos) los días de partido.',
     whyHere:
@@ -708,6 +730,8 @@ export const SEDES_2026: SedeCity[] = [
     heroImage: 'https://upload.wikimedia.org/wikipedia/commons/5/53/Qwest_Field_North.jpg',
     shortIntro:
       'Seattle acoge 6 partidos del Mundial 2026 en Lumen Field, junto al T-Mobile Park y a 1 km del centro. La sede más cerca de Canadá del Mundial.',
+    shortIntroEn:
+      'Seattle hosts 6 World Cup 2026 matches at Lumen Field, next to T-Mobile Park and 1 km from downtown. The closest host city to Canada in the tournament.',
     heroEditorial:
       'Lumen Field está en pleno centro de Seattle, a 1 km de Pike Place Market y a 25 km del aeropuerto SEA. Es la sede del Mundial más caminable: del centro al estadio se llega andando en 15 minutos. Seattle es además la ciudad más cercana a Canadá del torneo (160 km a Vancouver) lo que crea un cluster norteño con BC Place. La cultura de Seattle es Starbucks, Amazon, Microsoft, Boeing y café de origen. Junio-julio: 22-26°C, sol intenso, sin lluvia (al revés del cliché, el verano es seco aquí).',
     whyHere:
@@ -773,6 +797,8 @@ export const SEDES_2026: SedeCity[] = [
     heroImage: 'https://upload.wikimedia.org/wikipedia/commons/4/4b/Estadio_Azteca_y_sus_alrededores_46.jpg',
     shortIntro:
       'Ciudad de México acoge la INAUGURACIÓN del Mundial 2026 en el Estadio Azteca el 11 de junio (México vs Sudáfrica). Tercer Mundial en este estadio (1970, 1986, 2026).',
+    shortIntroEn:
+      'Mexico City hosts the OPENING MATCH of the 2026 World Cup at Estadio Azteca on June 11 (Mexico vs South Africa). Third World Cup at this venue (1970, 1986, 2026).',
     heroEditorial:
       'El Estadio Azteca acoge el partido inaugural del Mundial 2026 el 11 de junio a las 13:00 hora local CST: México vs Sudáfrica. Será la tercera vez que el Azteca abre un Mundial, antes lo hizo en 1970 (México vs URSS, 0-0) y 1986 (Italia vs Bulgaria, 1-1). Ningún otro estadio del mundo ha acogido tres Mundiales. Para los aficionados es seguramente el único partido del torneo que reúne tres planos a la vez: el histórico (la cancha de la Mano de Dios, del Brasil eterno de 1970, del Gol del Siglo), el deportivo (México como anfitrión casi favorito por ambiente) y el urbano (Ciudad de México, una de las metrópolis más vibrantes del mundo).',
     whyHere:
@@ -836,6 +862,8 @@ export const SEDES_2026: SedeCity[] = [
     heroImage: 'https://upload.wikimedia.org/wikipedia/commons/1/10/Estadio_Akron_02-07-2022_cabecera_sur_lado_derecho_%283%29.jpg',
     shortIntro:
       'Guadalajara acoge 4 partidos del Mundial 2026 en el Estadio Akron, INCLUIDO Uruguay-España el 18 de junio. Cuna del mariachi y el tequila.',
+    shortIntroEn:
+      'Guadalajara hosts 4 World Cup 2026 matches at Estadio Akron, INCLUDING Uruguay vs Spain on June 18. The birthplace of mariachi and tequila.',
     heroEditorial:
       'El Estadio Akron en Zapopan, área metropolitana de Guadalajara, acoge el partido más esperado del Grupo H: Uruguay-España el 18 de junio a las 20:00 hora local CST (las 04:00 de la madrugada del jueves 19 en hora peninsular española). Para los aficionados de la Roja, esta es la segunda sede más importante del torneo. Guadalajara es la segunda ciudad más grande de México y la cuna de dos exportaciones cien por cien mexicanas: el mariachi y el tequila. Tlaquepaque y Tonalá son sub-municipios famosos por la artesanía. La cocina jalisciense (birria, tortas ahogadas, pozole rojo) es una de las más reconocidas del país.',
     whyHere:
@@ -899,6 +927,8 @@ export const SEDES_2026: SedeCity[] = [
     heroImage: 'https://upload.wikimedia.org/wikipedia/commons/5/57/Mexico_Guadalupe_Monterrey_Estadio_BBVA_Bancomer_fifa_world_cup_2026_6.JPG',
     shortIntro:
       'Monterrey acoge 4 partidos del Mundial 2026 en el Estadio BBVA, conocido como "El Gigante de Acero". Capital industrial de México, junto a la Sierra Madre.',
+    shortIntroEn:
+      'Monterrey hosts 4 World Cup 2026 matches at Estadio BBVA, known as "El Gigante de Acero" (The Steel Giant). Mexico\'s industrial capital, in the Sierra Madre foothills.',
     heroEditorial:
       'Estadio BBVA en Guadalupe, área metropolitana de Monterrey, es el segundo estadio más grande de México y uno de los más modernos de Latinoamérica (2015). Conocido como "El Gigante de Acero", tiene la fachada al sur abierta hacia el Cerro de la Silla, el monte que es el símbolo de Monterrey. Es la única sede del Mundial 2026 con vistas naturales tan distintivas. Monterrey es además la ciudad industrial más importante del norte de México (sede de FEMSA, CEMEX, Banorte), con un ambiente más moderno y americanizado que CDMX o Guadalajara.',
     whyHere:
@@ -964,6 +994,8 @@ export const SEDES_2026: SedeCity[] = [
     heroImage: 'https://upload.wikimedia.org/wikipedia/commons/9/91/Toronto_BMO_Field_in_2024.jpg',
     shortIntro:
       'Toronto acoge 6 partidos del Mundial 2026 en el BMO Field, junto al lago Ontario. Cuarta ciudad más grande de Norteamérica.',
+    shortIntroEn:
+      'Toronto hosts 6 World Cup 2026 matches at BMO Field on the shore of Lake Ontario. North America\'s fourth-largest city.',
     heroEditorial:
       'BMO Field se ubica en Exhibition Place, una zona ferial junto al lago Ontario, a 4 km del centro de Toronto. Es uno de los pocos estadios del Mundial 2026 que es exclusivamente de fútbol (la mayoría son NFL adaptados). El estadio se está expandiendo de su capacidad habitual de 30.000 a 45.000 específicamente para el Mundial, ampliación temporal con gradas modulares. Toronto es la ciudad más diversa del mundo según UNESCO: el 51% de sus residentes nacieron fuera de Canadá. Para el aficionado europeo o latinoamericano, es la sede del torneo donde más fácilmente se encuentra comunidad propia.',
     whyHere:
@@ -1027,6 +1059,8 @@ export const SEDES_2026: SedeCity[] = [
     heroImage: 'https://upload.wikimedia.org/wikipedia/commons/f/ff/BC_Place_2015_Women%27s_FIFA_World_Cup.jpg',
     shortIntro:
       'Vancouver acoge 7 partidos del Mundial 2026 en BC Place, único estadio cubierto del torneo en la costa pacífica. La ciudad más bonita del Mundial.',
+    shortIntroEn:
+      'Vancouver hosts 7 World Cup 2026 matches at BC Place, the only fully roofed stadium on the Pacific coast in the tournament. The most scenic host city of the World Cup.',
     heroEditorial:
       'BC Place está en pleno centro de Vancouver, junto a False Creek y a 10 minutos andando del puerto. Es uno de los pocos estadios del Mundial 2026 con cubierta retráctil 100%, pieza clave para el clima cambiante de la costa pacífica canadiense (junio puede ser lluvioso). Vancouver es regularmente votada como una de las cinco mejores ciudades para vivir del mundo: clima templado, montañas (Whistler está a 90 minutos), océano (Stanley Park, English Bay), bosques milenarios y cultura cosmopolita. Para muchos visitantes europeos, será su primer contacto con el Pacífico canadiense, y la entrada natural a Whistler para los que combinen Mundial con esquí de verano.',
     whyHere:
