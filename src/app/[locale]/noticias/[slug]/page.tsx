@@ -53,6 +53,8 @@ export async function generateMetadata({
   const item = getNewsBySlug(slug);
   if (!item) return {};
   const loc = getLocalizedNews(item, locale);
+  // Locales disponibles: siempre español + los que tengan i18n rellenado.
+  const availableLocales = ['es', ...Object.keys(item.i18n ?? {})];
 
   return pageMetadata({
     locale,
@@ -62,6 +64,7 @@ export async function generateMetadata({
     type: 'article',
     publishedTime: item.publishedAt,
     modifiedTime: item.modifiedAt ?? item.publishedAt,
+    availableLocales,
     keywords: [
       `Mundial 2026 ${CATEGORY_LABELS[item.category]}`,
       'noticias Mundial 2026',

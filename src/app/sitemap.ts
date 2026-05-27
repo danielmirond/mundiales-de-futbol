@@ -68,27 +68,34 @@ function entry(
   changeFreq: 'daily' | 'weekly' | 'monthly' | 'yearly' = 'monthly',
   priority = 0.5,
   /**
-   * Si true, NO declara alternates para otros idiomas. Útil para páginas
-   * que solo están traducidas a español (las nuevas de clusters
-   * coleccionismo / hospitality / normas-estadios). Evita que Google
-   * indexe `/en/...` con contenido en español → duplicate content.
+   * @deprecated Mantenemos por compat: si true, NO emite alternates.
+   * Equivale a pasar availableLocales = ['es'].
    */
   esOnly = false,
+  /**
+   * Locales con contenido REAL traducido. Por defecto sólo ES.
+   * Sólo se emiten `<xhtml:link>` alternates para los locales listados.
+   * NUNCA pases locales sin traducción real — Google penaliza hreflang
+   * apuntando a contenido duplicado.
+   */
+  availableLocales: readonly string[] = ['es'],
 ): MetadataRoute.Sitemap[number] {
+  const locales = esOnly ? ['es'] : availableLocales;
   return {
     url: `${SITE}${path}`,
     lastModified: lastMod,
     changeFrequency: changeFreq,
     priority,
-    ...(esOnly
-      ? {}
-      : {
+    // Sólo emite alternates si hay más de un locale real.
+    ...(locales.length > 1
+      ? {
           alternates: {
             languages: Object.fromEntries(
-              routing.locales.map((l) => [l, localeHref(l, path)]),
+              locales.map((l) => [l, localeHref(l, path)]),
             ),
           },
-        }),
+        }
+      : {}),
   };
 }
 
@@ -228,7 +235,18 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // Noticias del Mundial 2026 (cobertura editorial diaria)
   out.push(entry('/noticias', now, 'daily', 0.9));
   for (const n of NEWS_ITEMS) {
-    out.push(entry(`/noticias/${n.slug}`, new Date(n.publishedAt), 'weekly', 0.75));
+    // availableLocales = es siempre + los que tengan i18n rellenado.
+    const locales = ['es', ...Object.keys(n.i18n ?? {})];
+    out.push(
+      entry(
+        `/noticias/${n.slug}`,
+        new Date(n.publishedAt),
+        'weekly',
+        0.75,
+        false,
+        locales,
+      ),
+    );
   }
 
   // Matches
