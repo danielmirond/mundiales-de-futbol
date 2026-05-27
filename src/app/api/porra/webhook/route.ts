@@ -1,5 +1,5 @@
 import { NextResponse, type NextRequest } from 'next/server';
-import { stripe } from '@/lib/stripe';
+import { getStripe } from '@/lib/stripe';
 import { createClient as createServiceClient } from '@supabase/supabase-js';
 import type Stripe from 'stripe';
 
@@ -34,7 +34,7 @@ export async function POST(request: NextRequest) {
   let event: Stripe.Event;
 
   try {
-    event = stripe.webhooks.constructEvent(
+    event = getStripe().webhooks.constructEvent(
       rawBody,
       signature,
       process.env.STRIPE_WEBHOOK_SECRET!,

@@ -1,6 +1,10 @@
 import { NextResponse, type NextRequest } from 'next/server';
 import { createClient } from '@/lib/supabase/server';
-import { stripe, PORRA_PRICE } from '@/lib/stripe';
+import { getStripe, PORRA_PRICE } from '@/lib/stripe';
+
+// Don't try to pre-render or collect page data at build time.
+export const dynamic = 'force-dynamic';
+export const runtime = 'nodejs';
 
 /**
  * Creates a Stripe Checkout Session for the Pase Mundial 2026 (€2.99).
@@ -35,7 +39,7 @@ export async function POST(request: NextRequest) {
   // Reuse Stripe customer if we already have one
   let customerId = profile?.stripe_customer_id ?? undefined;
   if (!customerId && user.email) {
-    const customer = await stripe.customers.create({
+    const customer = await getStripe().customers.create({
       email: user.email,
       metadata: { supabase_user_id: user.id },
     });
@@ -46,7 +50,7 @@ export async function POST(request: NextRequest) {
       .eq('user_id', user.id);
   }
 
-  const session = await stripe.checkout.sessions.create({
+  const session = await getStripe().checkout.sessions.create({
     mode: 'payment',
     customer: customerId,
     line_items: [
