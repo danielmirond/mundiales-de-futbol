@@ -4,6 +4,10 @@ import { ArrowLeft, CheckCircle2 } from 'lucide-react';
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl } from '@/lib/seo';
 import { ALLOWED_ITEMS } from '@/lib/wc-2026-stadium-rules';
+import { AmazonCard } from '@/components/affiliate/amazon-card';
+import { AMAZON_PRODUCTS } from '@/lib/amazon-products';
+
+const PICK = (id: number) => AMAZON_PRODUCTS.find((p) => p.id === id)!;
 
 function withLocale(locale: Locale, href: string) {
   if (locale === routing.defaultLocale) return href;
@@ -118,6 +122,30 @@ export default async function AllowedPage({
             prohibido por ley federal).
           </p>
         </div>
+      </section>
+
+      {/* Imprescindibles para entrar al estadio */}
+      <section className="mx-auto mt-20 w-full max-w-[1100px] px-6 md:px-10">
+        <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-pitch)]">
+          Imprescindibles
+        </div>
+        <h2 className="mt-3 font-display text-2xl uppercase leading-tight md:text-3xl">
+          Lo que sí puedes —y debes— meter en la mochila
+        </h2>
+        <p className="mt-4 max-w-2xl text-base leading-relaxed text-[var(--color-fg-muted)]">
+          Cuatro productos que cumplen las normas FIFA y resuelven los problemas reales
+          de pasar 3-5 horas en una sede USA en julio: calor, hidratación, batería del móvil
+          y entrar sin que te paren en seguridad.
+        </p>
+        <div className="mt-8 grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+          <AmazonCard product={PICK(65)} variant="default" />
+          <AmazonCard product={PICK(68)} variant="default" />
+          <AmazonCard product={PICK(69)} variant="default" />
+          <AmazonCard product={PICK(67)} variant="default" />
+        </div>
+        <p className="mt-4 font-mono text-[9px] uppercase tracking-[0.25em] text-[var(--color-fg-subtle)]">
+          Enlaces afiliados · Cobramos comisión sin coste extra para ti
+        </p>
       </section>
 
       <section className="mx-auto mt-20 w-full max-w-[900px] px-6 md:px-10">

@@ -4,6 +4,10 @@ import { ArrowLeft, Briefcase, Check, X } from 'lucide-react';
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl } from '@/lib/seo';
 import { CLEAR_BAG_POLICY } from '@/lib/wc-2026-stadium-rules';
+import { AmazonCard } from '@/components/affiliate/amazon-card';
+import { AMAZON_PRODUCTS } from '@/lib/amazon-products';
+
+const PICK = (id: number) => AMAZON_PRODUCTS.find((p) => p.id === id)!;
 
 function withLocale(locale: Locale, href: string) {
   if (locale === routing.defaultLocale) return href;
@@ -197,6 +201,26 @@ export default async function MochilaPage({
           La recomendación FIFA: <strong>compra una clear bag antes de viajar</strong>.
           Las venden en supermercados Walmart, Target, Walgreens (USA) y Costco (CAN y
           MEX) por 5-15 USD.
+        </p>
+      </section>
+
+      {/* Producto recomendado: mochila transparente compliant */}
+      <section className="mx-auto mt-20 w-full max-w-[900px] px-6 md:px-10">
+        <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-pitch)]">
+          Producto recomendado
+        </div>
+        <h2 className="mt-3 font-display text-2xl uppercase leading-tight md:text-3xl">
+          Mochila transparente compliant FIFA Mundial 2026
+        </h2>
+        <p className="mt-4 max-w-2xl text-base leading-relaxed text-[var(--color-fg-muted)]">
+          Modelo dentro del tope 30×15×30 cm que FIFA exige en todas las sedes. Si vas al estadio,
+          es la única forma de entrar con cosas más allá de cartera y móvil.
+        </p>
+        <div className="mt-6 max-w-md">
+          <AmazonCard product={PICK(65)} variant="featured" />
+        </div>
+        <p className="mt-3 font-mono text-[9px] uppercase tracking-[0.25em] text-[var(--color-fg-subtle)]">
+          Enlace afiliado · Cobramos comisión sin coste extra para ti
         </p>
       </section>
 
