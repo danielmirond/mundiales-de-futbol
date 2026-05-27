@@ -1,4 +1,4 @@
-import { getTranslations, setRequestLocale } from 'next-intl/server';
+import { setRequestLocale } from 'next-intl/server';
 import { Hero } from '@/components/home/hero';
 import { Countdown } from '@/components/home/countdown';
 import { DailyNews } from '@/components/home/daily-news';
@@ -10,17 +10,9 @@ import { Pillars } from '@/components/home/pillars';
 import type { Locale } from '@/i18n/routing';
 import { pageMetadata } from '@/lib/seo';
 
-export async function generateMetadata({
-  params,
-}: {
-  params: Promise<{ locale: string }>;
-}) {
-  const { locale } = await params;
-  return pageMetadata({
-    locale,
-    path: '/',
-    // Patrón híbrido C: cubre cluster estructural + valor (calendario, historia,
-    // archivo) en menos de 60 caracteres.
+// Metadata por idioma. Child components ya usan useTranslations('home').
+const META: Record<string, { title: string; description: string; keywords: string[] }> = {
+  es: {
     title: 'Mundial de Fútbol: 1930-2026 · Calendario, historia y archivo',
     description:
       'Calendario Mundial 2026, historia de las 23 ediciones, ficha de cada jugador y estadio. La enciclopedia mundialista en 5 idiomas.',
@@ -35,6 +27,41 @@ export async function generateMetadata({
       'jugadores mundialistas',
       'estadios',
     ],
+  },
+  en: {
+    title: 'FIFA World Cup: 1930-2026 · Schedule, history and archive',
+    description:
+      '2026 World Cup schedule, the history of all 23 editions, profile of every player and stadium. The definitive World Cup encyclopedia in 5 languages.',
+    keywords: [
+      'FIFA World Cup',
+      'World Cup 2026',
+      '2026 World Cup schedule',
+      'World Cup history',
+      'national teams',
+      'World Cup players',
+      'World Cup stadiums',
+      'all World Cup editions',
+      'World Cup encyclopedia',
+    ],
+  },
+};
+
+const AVAILABLE: readonly string[] = ['es', 'en'];
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const m = META[locale] ?? META.es;
+  return pageMetadata({
+    locale,
+    path: '/',
+    title: m.title,
+    description: m.description,
+    keywords: m.keywords,
+    availableLocales: AVAILABLE,
   });
 }
 
