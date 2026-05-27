@@ -28,13 +28,24 @@ export async function generateMetadata({
     path: '/2026/grupos',
     title: t('title'),
     description: t('description'),
-    keywords: [
-      'grupos Mundial 2026',
-      'sorteo Mundial 2026',
-      'grupo A B C D Mundial 2026',
-      'equipos clasificados Mundial 2026',
-      'fase de grupos Mundial 2026',
-    ],
+    availableLocales: ['es', 'en'],
+    keywords:
+      locale === 'en'
+        ? [
+            '2026 World Cup groups',
+            'World Cup 2026 group stage',
+            '2026 World Cup draw',
+            'Group A B C D World Cup 2026',
+            '12 groups 48 teams 2026',
+            '2026 FIFA World Cup teams',
+          ]
+        : [
+            'grupos Mundial 2026',
+            'sorteo Mundial 2026',
+            'grupo A B C D Mundial 2026',
+            'equipos clasificados Mundial 2026',
+            'fase de grupos Mundial 2026',
+          ],
   });
 }
 
@@ -66,15 +77,17 @@ export default async function GroupsIndex({
   const collectionLd = {
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',
-    name: 'Grupos Mundial 2026',
+    name: locale === 'en' ? '2026 World Cup groups' : 'Grupos Mundial 2026',
     url: localeUrl(locale, '/2026/grupos'),
     isPartOf: { '@type': 'WebSite', name: SEO.siteName, url: SEO.siteUrl },
     inLanguage: locale,
     description:
-      'Los 12 grupos del Mundial 2026 con los 48 equipos clasificados, sedes y calendario de la fase de grupos.',
+      locale === 'en'
+        ? 'The 12 groups of the 2026 World Cup with all 48 qualified teams, host cities and group-stage schedule.'
+        : 'Los 12 grupos del Mundial 2026 con los 48 equipos clasificados, sedes y calendario de la fase de grupos.',
     hasPart: GROUPS_2026.map((g) => ({
       '@type': 'WebPage',
-      name: `Grupo ${g.letter}`,
+      name: (locale === 'en' ? 'Group ' : 'Grupo ') + g.letter,
       url: localeUrl(locale, `/2026/grupo/${g.letter}`),
     })),
   };
@@ -85,9 +98,9 @@ export default async function GroupsIndex({
         data={[
           collectionLd,
           breadcrumbLd(locale, [
-            { name: 'Inicio', path: '/' },
-            { name: 'Mundial 2026', path: '/2026' },
-            { name: 'Grupos', path: '/2026/grupos' },
+            { name: locale === 'en' ? 'Home' : 'Inicio', path: '/' },
+            { name: locale === 'en' ? 'World Cup 2026' : 'Mundial 2026', path: '/2026' },
+            { name: locale === 'en' ? 'Groups' : 'Grupos', path: '/2026/grupos' },
           ]),
         ]}
       />
@@ -197,28 +210,38 @@ export default async function GroupsIndex({
           <h2 className="mt-3 font-display text-3xl uppercase leading-tight md:text-4xl">
             {t('qualifyTitle')}
           </h2>
-          <p className="mt-6 max-w-3xl text-base leading-relaxed text-[var(--color-fg-muted)] md:text-lg">
-            Cada grupo juega 6 partidos en un round-robin (todos contra todos).
-            Pasan los <strong className="text-[var(--color-fg)]">2 primeros</strong>
-            de cada grupo (24 equipos) y los <strong className="text-[var(--color-fg)]">8 mejores terceros</strong>
-            del torneo (entre 12 posibles). Total: 32 equipos a una ronda
-            eliminatoria de dieciseisavos (R32) que se disputa del 28 de junio
-            al 3 de julio.
-          </p>
+          {locale === 'en' ? (
+            <p className="mt-6 max-w-3xl text-base leading-relaxed text-[var(--color-fg-muted)] md:text-lg">
+              Each group plays 6 matches in a round-robin (everyone vs everyone).
+              The <strong className="text-[var(--color-fg)]">top two</strong> of every
+              group (24 teams) and the <strong className="text-[var(--color-fg)]">eight best third-placed sides</strong>{' '}
+              across the 12 groups advance — 32 teams in total — to the new Round of
+              32, played from 28 June to 3 July.
+            </p>
+          ) : (
+            <p className="mt-6 max-w-3xl text-base leading-relaxed text-[var(--color-fg-muted)] md:text-lg">
+              Cada grupo juega 6 partidos en un round-robin (todos contra todos).
+              Pasan los <strong className="text-[var(--color-fg)]">2 primeros</strong>
+              de cada grupo (24 equipos) y los <strong className="text-[var(--color-fg)]">8 mejores terceros</strong>
+              del torneo (entre 12 posibles). Total: 32 equipos a una ronda
+              eliminatoria de dieciseisavos (R32) que se disputa del 28 de junio
+              al 3 de julio.
+            </p>
+          )}
 
           <div className="mt-8 flex flex-wrap gap-3">
             <Link
               href={withLocale(locale as Locale, '/2026/calendario')}
               className="group inline-flex items-center gap-2 rounded-full bg-[var(--color-pitch)] px-5 py-2.5 text-sm font-semibold text-black transition-opacity hover:opacity-90"
             >
-              Calendario por fase
+              {locale === 'en' ? 'Schedule by phase' : 'Calendario por fase'}
               <ArrowRight className="h-3 w-3 transition-transform group-hover:translate-x-1 rtl:rotate-180" />
             </Link>
             <Link
               href={withLocale(locale as Locale, '/2026/sedes')}
               className="group inline-flex items-center gap-2 rounded-full border border-[var(--color-border-strong)] px-5 py-2.5 text-sm font-medium text-[var(--color-fg)] transition-colors hover:border-[var(--color-pitch)] hover:text-[var(--color-pitch)]"
             >
-              16 sedes
+              {locale === 'en' ? '16 host venues' : '16 sedes'}
               <ArrowRight className="h-3 w-3 transition-transform group-hover:translate-x-1 rtl:rotate-180" />
             </Link>
           </div>
