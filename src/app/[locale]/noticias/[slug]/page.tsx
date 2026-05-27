@@ -11,6 +11,7 @@ import {
 import {
   NEWS_ITEMS,
   getNewsBySlug,
+  getLocalizedNews,
   getRelatedNews,
   relativeTimeEs,
   type NewsCategory,
@@ -51,25 +52,20 @@ export async function generateMetadata({
   const { locale, slug } = await params;
   const item = getNewsBySlug(slug);
   if (!item) return {};
+  const loc = getLocalizedNews(item, locale);
 
   return pageMetadata({
     locale,
     path: `/noticias/${item.slug}`,
-    title: item.title,
-    description: item.summary,
+    title: loc.title,
+    description: loc.summary,
     type: 'article',
     publishedTime: item.publishedAt,
     modifiedTime: item.modifiedAt ?? item.publishedAt,
-    // No declaramos `image` aquí: Next.js auto-detecta el archivo
-    // adyacente `opengraph-image.tsx` y lo sirve como og:image y
-    // twitter:image con tamaño 1200×675 garantizado. La URL Wikimedia
-    // de `item.image` se usa solo como hero visual dentro del cuerpo
-    // del artículo (la mayoría no son 16:9 y mentir sobre el tamaño
-    // descalifica la pieza para Google Discover).
     keywords: [
       `Mundial 2026 ${CATEGORY_LABELS[item.category]}`,
       'noticias Mundial 2026',
-      item.title.split(':')[0].trim(),
+      loc.title.split(':')[0].trim(),
     ],
   });
 }
@@ -85,6 +81,7 @@ export default async function NoticiaDetail({
   const item = getNewsBySlug(slug);
   if (!item) notFound();
 
+  const loc = getLocalizedNews(item, locale);
   const related = getRelatedNews(slug, 3);
   const url = localeUrl(locale, `/noticias/${item.slug}`);
 
@@ -100,8 +97,8 @@ export default async function NoticiaDetail({
   const newsArticleLd = {
     '@context': 'https://schema.org',
     '@type': 'NewsArticle',
-    headline: item.title,
-    description: item.summary,
+    headline: loc.title,
+    description: loc.summary,
     datePublished: item.publishedAt,
     dateModified: item.modifiedAt ?? item.publishedAt,
     inLanguage: locale,
@@ -150,7 +147,7 @@ export default async function NoticiaDetail({
           breadcrumbLd(locale, [
             { name: 'Inicio', path: '/' },
             { name: 'Noticias', path: '/noticias' },
-            { name: item.title, path: `/noticias/${item.slug}` },
+            { name: loc.title, path: `/noticias/${item.slug}` },
           ]),
         ]}
       />
@@ -175,11 +172,11 @@ export default async function NoticiaDetail({
         </div>
 
         <h1 className="mt-6 font-display text-4xl uppercase leading-[1] text-[var(--color-fg)] md:text-5xl">
-          {item.title}
+          {loc.title}
         </h1>
 
         <p className="mt-6 text-lg leading-relaxed text-[var(--color-fg-muted)] md:text-xl">
-          {item.summary}
+          {loc.summary}
         </p>
       </header>
 
@@ -214,7 +211,7 @@ export default async function NoticiaDetail({
             <div className="relative aspect-video w-full overflow-hidden bg-black">
               <iframe
                 src={`https://www.youtube-nocookie.com/embed/${item.youtubeVideoId}?rel=0&modestbranding=1`}
-                title={item.title}
+                title={loc.title}
                 loading="lazy"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowFullScreen
@@ -231,7 +228,7 @@ export default async function NoticiaDetail({
       {/* Body */}
       <section className="mx-auto mt-12 w-full max-w-[900px] px-6 md:px-10">
         <div className="prose-base space-y-6 text-base leading-relaxed text-[var(--color-fg)] md:text-lg [&_strong]:text-[var(--color-fg)]">
-          {item.body.split('\n\n').map((para, i) => (
+          {loc.body.split('\n\n').map((para, i) => (
             <p
               key={i}
               dangerouslySetInnerHTML={{

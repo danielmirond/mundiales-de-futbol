@@ -76,7 +76,32 @@ export type NewsItem = {
   * VideoObject schema queda asociada a la pieza.
   */
  youtubeVideoId?: string;
+ /**
+  * Traducciones del contenido editorial. La página `/[locale]/noticias/[slug]`
+  * usa `i18n[locale]` si existe; si no, cae al español de `title`/`summary`/`body`.
+  * Solo es necesario rellenar los locales en los que queremos publicar
+  * versión traducida (la mayoría se quedan en español por ahora).
+  */
+ i18n?: Partial<Record<'en' | 'fr' | 'pt' | 'ar', {
+   title: string;
+   summary: string;
+   body: string;
+ }>>;
 };
+
+/**
+ * Devuelve título, resumen y cuerpo en el locale solicitado. Cae a ES si
+ * no hay traducción para ese locale. Útil para componentes y páginas.
+ */
+export function getLocalizedNews(
+  item: NewsItem,
+  locale: string,
+): { title: string; summary: string; body: string } {
+  const localeKey = locale as 'en' | 'fr' | 'pt' | 'ar';
+  const t = item.i18n?.[localeKey];
+  if (t) return { title: t.title, summary: t.summary, body: t.body };
+  return { title: item.title, summary: item.summary, body: item.body };
+}
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
@@ -331,6 +356,80 @@ Calendario completo del Mundial en [/2026/calendario](/2026/calendario) y todas 
       alt: 'Thomas Tuchel, seleccionador de Inglaterra desde enero de 2025, durante un partido de preparación',
       credit: 'Wikimedia Commons',
       license: 'CC BY-SA 4.0',
+    },
+    i18n: {
+      en: {
+        title:
+          'England squad for the 2026 World Cup: Tuchel finalises on June 1 the 26 players led by captain Harry Kane',
+        summary:
+          'Thomas Tuchel will announce England\'s final 26-man squad for the 2026 World Cup on June 1. The FA kept the preliminary list submitted to FIFA on May 11 confidential. The locks: Harry Kane as captain, Jude Bellingham, Bukayo Saka, Phil Foden, Declan Rice. The main doubt is Trent Alexander-Arnold after his move to Real Madrid.',
+        body: `**Thomas Tuchel** will announce on Monday **June 1, 2026** the 26 players selected by England for the 2026 World Cup. It will be the German manager\'s first World Cup squad in charge of the Three Lions, a role he took on in January 2025 after Gareth Southgate\'s departure post-Euro 2024.
+
+Preliminary list, final list. The **English FA** submitted to FIFA its preliminary squad (between 35 and 55 names) on May 11, as required by the regulation. Unlike most European federations, the FA chose **not to publish** the preliminary list, keeping the suspense until the June 1 final reveal. The approach mirrors Southgate\'s, who never made it public either.
+
+The locks. Eleven names fit any Tuchel squad without question:
+
+- **Harry Kane** (Bayern Munich), captain, England\'s all-time top scorer with 73 goals. At 32, this will be his third consecutive World Cup after 2018 and 2022.
+- **Jude Bellingham** (Real Madrid), the creative engine: 14 goals and 9 assists across LaLiga and Champions this season.
+- **Bukayo Saka** (Arsenal), undisputed starter on the right wing.
+- **Phil Foden** (Manchester City), offensive versatility.
+- **Declan Rice** (Arsenal), holding midfielder and leader of the engine room.
+- **Cole Palmer** (Chelsea), creator in the number 10 role.
+- **Jordan Pickford** (Everton), starting goalkeeper, still the manager\'s top pick.
+- **Marc Guéhi** (Crystal Palace) and **John Stones** (Manchester City) as the preferred centre-back pairing.
+- **Kobbie Mainoo** (Manchester United), midfielder set to provide balance in the middle.
+- **Eberechi Eze** (Crystal Palace), the season\'s revelation in the Premier League.
+
+The hot doubts. Three names dominate this week\'s debate in England:
+
+1. **Trent Alexander-Arnold**. The right-back left Liverpool in the summer of 2025 for Real Madrid. His adaptation to Xabi Alonso\'s system has been uneven. Tuchel is weighing whether to take him or to go for **Kyle Walker** (Manchester City, 35) as the veteran or **Reece James** (Chelsea) if he overcomes his physical issues.
+2. **Jarrod Bowen** (West Ham) vs **Anthony Gordon** (Newcastle): only one enters as backup to the Saka-Kane-Foden front three. Bowen leads on sustained form (17 Premier League goals).
+3. **Ollie Watkins** (Arsenal): the backup nine to Kane. He competes with **Ivan Toney** (Al-Ahli) and **Dominic Solanke** (Tottenham).
+
+Why England are contenders. The major British operators\' odds (Bet365, Skybet, William Hill) place England among the **four favourites** for the title alongside Brazil, Spain and Argentina. The Bellingham-Saka-Foden-Mainoo generation is the deepest in attacking positions since 1966.
+
+What Tuchel said. In his last press conference on May 20, the manager summed up his philosophy: *"I want a team that attacks with intent and defends with order. I have 35 candidates. Ten are locks. The rest are competing."* He did not comment on specific names.
+
+Next milestones. After the June 1 final list, England will play two **warm-up friendlies**: one against a European Group TBD opponent (likely Portugal or Belgium) and another against a CONCACAF side. Camp at **St George\'s Park** (Burton-on-Trent) until June 8, flight to the United States on June 9, group stage debut on June 14.
+
+Full tournament schedule at [/en/2026/calendario](/en/2026/calendario) and all confirmed squads at [/en/2026/listas](/en/2026/listas).`,
+      },
+      pt: {
+        title:
+          'Convocação da Inglaterra para a Copa do Mundo 2026: Tuchel define em 1 de junho os 26 liderados por Harry Kane',
+        summary:
+          'Thomas Tuchel anuncia em 1 de junho a convocação definitiva da Inglaterra para a Copa do Mundo 2026. A FA manteve em sigilo a lista preliminar entregue à FIFA em 11 de maio. Nomes garantidos: Harry Kane como capitão, Jude Bellingham, Bukayo Saka, Phil Foden, Declan Rice. A principal dúvida é Trent Alexander-Arnold após a transferência ao Real Madrid.',
+        body: `**Thomas Tuchel** anunciará em entrevista coletiva na segunda-feira **1º de junho de 2026** os 26 jogadores convocados pela Inglaterra para a Copa do Mundo 2026. Será a primeira lista mundialista do treinador alemão à frente da seleção inglesa, cargo que assumiu em janeiro de 2025 após a saída de Gareth Southgate depois da Eurocopa 2024.
+
+Lista preliminar, lista definitiva. A **FA inglesa** entregou à FIFA sua lista preliminar (entre 35 e 55 nomes) em 11 de maio, conforme o prazo do regulamento. Diferentemente da maioria das federações europeias, a FA optou por **não publicar** a pré-lista, mantendo o suspense até o anúncio definitivo de 1º de junho. A prática repete o modelo Southgate, que também não a tornava pública.
+
+Os nomes garantidos. Onze jogadores cabem sem discussão em qualquer convocação de Tuchel:
+
+- **Harry Kane** (Bayern de Munique), capitão, maior artilheiro histórico da Inglaterra com 73 gols. Aos 32 anos, disputa sua terceira Copa do Mundo consecutiva após 2018 e 2022.
+- **Jude Bellingham** (Real Madrid), o motor criativo: 14 gols e 9 assistências entre LaLiga e Champions nesta temporada.
+- **Bukayo Saka** (Arsenal), ponta-direita titular indiscutível.
+- **Phil Foden** (Manchester City), versatilidade ofensiva.
+- **Declan Rice** (Arsenal), volante de marcação e líder do meio-campo.
+- **Cole Palmer** (Chelsea), criador na meia-armação.
+- **Jordan Pickford** (Everton), goleiro titular, continua sendo a primeira escolha do técnico.
+- **Marc Guéhi** (Crystal Palace) e **John Stones** (Manchester City) como dupla de zagueiros preferencial.
+- **Kobbie Mainoo** (Manchester United), meio-campista chamado a dar equilíbrio.
+- **Eberechi Eze** (Crystal Palace), a revelação da temporada na Premier League.
+
+As dúvidas quentes. Três nomes concentram o debate na Inglaterra nesta semana:
+
+1. **Trent Alexander-Arnold**. O lateral-direito deixou o Liverpool no verão de 2025 rumo ao Real Madrid. Sua adaptação ao sistema de Xabi Alonso tem sido irregular. Tuchel avalia se o leva ou aposta em **Kyle Walker** (Manchester City, 35 anos) como veterano ou **Reece James** (Chelsea) se superar os problemas físicos.
+2. **Jarrod Bowen** (West Ham) vs **Anthony Gordon** (Newcastle): somente um entra como reserva do tridente Saka-Kane-Foden. Bowen leva vantagem pelo rendimento sustentado (17 gols na Premier).
+3. **Ollie Watkins** (Arsenal): o nove reserva de Kane. Disputa com **Ivan Toney** (Al-Ahli) e **Dominic Solanke** (Tottenham).
+
+Por que a Inglaterra é candidata. As cotações dos principais operadores britânicos (Bet365, Skybet, William Hill) colocam a Inglaterra entre os **quatro favoritos** ao título junto com Brasil, Espanha e Argentina. A geração Bellingham-Saka-Foden-Mainoo é a mais profunda em posições ofensivas desde 1966.
+
+O que disse Tuchel. Em sua última coletiva em 20 de maio, o treinador resumiu sua filosofia: *"Quero um time que ataque com intenção e defenda com ordem. Tenho 35 candidatos. Dez são certos. Os demais competem."* Não quis comentar nomes específicos.
+
+Próximos passos. Após a lista definitiva de 1º de junho, a Inglaterra disputará dois **amistosos preparatórios**: um contra um rival europeu do Grupo TBD (provavelmente Portugal ou Bélgica) e outro contra uma seleção da CONCACAF. Concentração em **St George\'s Park** (Burton-on-Trent) até 8 de junho, viagem aos Estados Unidos em 9 de junho, estreia no grupo em 14 de junho.
+
+Calendário completo do Mundial em [/pt/2026/calendario](/pt/2026/calendario) e todas as listas confirmadas em [/pt/2026/listas](/pt/2026/listas).`,
+      },
     },
   },
   {
