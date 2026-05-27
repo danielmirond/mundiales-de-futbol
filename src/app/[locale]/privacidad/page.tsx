@@ -50,8 +50,18 @@ const CONTENT: Record<string, Content> = {
           'Los datos técnicos y de analítica se procesan por los siguientes subencargados:',
           '· Vercel Inc. (hosting + Vercel Analytics), servidores en la UE y Estados Unidos. Transferencia amparada por las Cláusulas Contractuales Tipo (SCC) aprobadas por la Comisión Europea.',
           '· Supabase Inc. (base de datos PostgreSQL), región seleccionada en la UE.',
+          '· Stripe Payments Europe, Ltd. (procesador de pagos para la Porra Premium, sociedad irlandesa con sede en Dublín). Tratamiento de datos de tarjeta y facturación bajo Cláusulas Contractuales Tipo (SCC) y estándar PCI-DSS Nivel 1. El prestador no almacena datos de tarjeta: solo ID de cliente y ID de sesión Stripe.',
           '· Wikimedia Commons, servidor de imágenes CC/dominio público; su carga se realiza directamente desde el navegador del usuario.',
           'No compartimos datos con redes publicitarias ni con terceros con fines comerciales. No existe venta de datos.',
+        ],
+      },
+      {
+        h: '5.bis Datos de pago (Porra Premium)',
+        p: [
+          'Si compras el Pase Mundial 2026 (2,99€), Stripe Payments Europe, Ltd. procesa los datos de tu tarjeta como encargado del tratamiento. El prestador (Mundiales de Fútbol) sólo recibe y almacena los siguientes datos asociados a tu compra: identificador de cliente Stripe (cus_xxx), identificador de sesión Stripe (cs_xxx), fecha de compra, importe y moneda. No tenemos acceso al número de tarjeta, CVV ni fecha de caducidad.',
+          'Los recibos de la compra se envían por Stripe directamente a tu email.',
+          'Conservación: los datos de la compra se conservan durante el plazo legal de seis años (art. 30 Código de Comercio) por motivos fiscales y contables.',
+          'Para ejercer tus derechos sobre datos de pago, contacta con privacidad@mundiales-de-futbol.com indicando el identificador Stripe.',
         ],
       },
       {

@@ -82,7 +82,7 @@ export async function POST(request: NextRequest) {
     custom_text: {
       terms_of_service_acceptance: {
         message:
-          'Acepto los [Términos y Condiciones](https://mundiales-de-futbol.com/es/legal/terminos) y la [Política de Privacidad](https://mundiales-de-futbol.com/es/legal/privacidad). Entiendo que el servicio comenzará inmediatamente y renuncio al derecho de desistimiento (art. 103.m TR-LGDCU).',
+          'Acepto los [Términos y Condiciones](https://mundiales-de-futbol.com/es/legal/terminos) y la [Política de Privacidad](https://mundiales-de-futbol.com/es/privacidad). Entiendo que el servicio comenzará inmediatamente y renuncio al derecho de desistimiento (art. 103.m TR-LGDCU).',
       },
     },
   });

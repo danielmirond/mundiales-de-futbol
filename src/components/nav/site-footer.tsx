@@ -129,6 +129,11 @@ export async function SiteFooter() {
                 </Link>
               </li>
               <li>
+                <Link href={withLocale(locale, '/legal/terminos')} className="text-[var(--color-fg-muted)] transition-colors hover:text-[var(--color-fg)]">
+                  Términos y condiciones
+                </Link>
+              </li>
+              <li>
                 <Link href={withLocale(locale, '/privacidad')} className="text-[var(--color-fg-muted)] transition-colors hover:text-[var(--color-fg)]">
                   {t('privacy')}
                 </Link>

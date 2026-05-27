@@ -122,7 +122,7 @@ export default async function PorraUpgradePage({
           Términos y Condiciones
         </Link>{' '}
         y la{' '}
-        <Link href={`/${locale}/legal/privacidad`} className="underline">
+        <Link href={`/${locale}/privacidad`} className="underline">
           Política de Privacidad
         </Link>
         .

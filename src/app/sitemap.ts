@@ -114,6 +114,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   out.push(entry('/cuando-juega-espana', now, 'daily', 0.9));
   out.push(entry('/porra', now, 'daily', 0.95));
   out.push(entry('/2026/cuadro', now, 'weekly', 0.9));
+  out.push(entry('/legal/terminos', now, 'monthly', 0.3));
   out.push(entry('/2026/sub-17-qatar', now, 'weekly', 0.85));
   out.push(entry('/2030', now, 'monthly', 0.85));
   out.push(entry('/goles-famosos', now, 'monthly', 0.9));
