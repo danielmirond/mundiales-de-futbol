@@ -38,21 +38,74 @@ export type SedeCity = {
   shortIntro: string;
   /** Traducción EN del shortIntro (opcional, fallback al original ES) */
   shortIntroEn?: string;
+  /** Override EN del cityName (Nueva York → New York / New Jersey, etc.) */
+  cityNameEn?: string;
+  /** Override EN del countryName (Estados Unidos → United States) */
+  countryNameEn?: string;
   /** Hero descriptivo de la sede en el contexto del Mundial (200-300 palabras) */
   heroEditorial: string;
+  /** Traducción EN del heroEditorial */
+  heroEditorialEn?: string;
   /** Por qué viajar aquí para el Mundial (60-100 palabras) */
   whyHere: string;
+  whyHereEn?: string;
   /** Sobre el estadio: historia, contexto deportivo, ambiente (150-200 palabras) */
   aboutStadium: string;
+  aboutStadiumEn?: string;
   /** Cosas que hacer en la ciudad: 4 bloques cortos */
   thingsToDo: { title: string; text: string }[];
+  thingsToDoEn?: { title: string; text: string }[];
   /** Zonas hoteleras recomendadas con orientación a Booking afiliado */
   hotelAreas: { name: string; profile: string; bookingHint: string }[];
+  hotelAreasEn?: { name: string; profile: string; bookingHint: string }[];
   /** Cómo llegar al estadio desde el centro / aeropuerto */
   gettingThere: string;
+  gettingThereEn?: string;
   /** Consejos prácticos / cosas a saber */
   tips: string[];
+  tipsEn?: string[];
 };
+
+/**
+ * Devuelve los campos de la sede en el locale solicitado, con fallback ES.
+ * Útil para evitar `locale === 'en' ? sede.fooEn ?? sede.foo : sede.foo` en cada
+ * uso en la página.
+ */
+export function getSedeLocalized(sede: SedeCity, locale: string): {
+  cityName: string;
+  countryName: string;
+  shortIntro: string;
+  heroEditorial: string;
+  whyHere: string;
+  aboutStadium: string;
+  thingsToDo: { title: string; text: string }[];
+  hotelAreas: { name: string; profile: string; bookingHint: string }[];
+  gettingThere: string;
+  tips: string[];
+} {
+  const en = locale === 'en';
+  return {
+    cityName: en && sede.cityNameEn ? sede.cityNameEn : sede.cityName,
+    countryName: en && sede.countryNameEn ? sede.countryNameEn : sede.countryName,
+    shortIntro: en && sede.shortIntroEn ? sede.shortIntroEn : sede.shortIntro,
+    heroEditorial: en && sede.heroEditorialEn ? sede.heroEditorialEn : sede.heroEditorial,
+    whyHere: en && sede.whyHereEn ? sede.whyHereEn : sede.whyHere,
+    aboutStadium: en && sede.aboutStadiumEn ? sede.aboutStadiumEn : sede.aboutStadium,
+    thingsToDo: en && sede.thingsToDoEn ? sede.thingsToDoEn : sede.thingsToDo,
+    hotelAreas: en && sede.hotelAreasEn ? sede.hotelAreasEn : sede.hotelAreas,
+    gettingThere: en && sede.gettingThereEn ? sede.gettingThereEn : sede.gettingThere,
+    tips: en && sede.tipsEn ? sede.tipsEn : sede.tips,
+  };
+}
+
+/**
+ * Devuelve los locales en los que la sede tiene contenido editorial real.
+ * Una sede tiene EN si los campos críticos (hero, why, stadium) están traducidos.
+ */
+export function sedeAvailableLocales(sede: SedeCity): readonly string[] {
+  const hasEn = !!(sede.heroEditorialEn && sede.whyHereEn && sede.aboutStadiumEn);
+  return hasEn ? ['es', 'en'] : ['es'];
+}
 
 export const SEDES_2026: SedeCity[] = [
   // ─── USA ──────────────────────────────────────────────────────
@@ -519,9 +572,11 @@ export const SEDES_2026: SedeCity[] = [
   {
     citySlug: 'nueva-york',
     cityName: 'Nueva York / Nueva Jersey',
+    cityNameEn: 'New York / New Jersey',
     venueSlug: 'metlife-stadium',
     countryCode: 'USA',
     countryName: 'Estados Unidos',
+    countryNameEn: 'United States',
     flag: '🇺🇸',
     timezone: 'EDT',
     utcOffset: 'UTC−4',
@@ -534,56 +589,53 @@ export const SEDES_2026: SedeCity[] = [
       'New York/New Jersey hosts 8 World Cup 2026 matches at MetLife Stadium, INCLUDING THE FINAL on July 19. Capacity 82,500.',
     heroEditorial:
       'MetLife Stadium es la sede de la final del Mundial 2026. El 19 de julio a las 15:00 ET (21:00 hora peninsular española), el equipo campeón levantará la copa en East Rutherford, Nueva Jersey, a 8 km en línea recta del Empire State Building. La elección no es casual: Nueva York es la marca global más reconocible, MetLife es uno de los pocos estadios del mundo capaz de acoger más de 80.000 personas con seguridad de Super Bowl, y la conexión transatlántica desde EWR/JFK es óptima. Para el aficionado, alojarse en Manhattan y desplazarse al estadio cada día es el plan más razonable: el bus dedicado tarda 25 minutos al Lincoln Tunnel.',
+    heroEditorialEn:
+      'MetLife Stadium is the venue of the 2026 World Cup final. On July 19 at 3:00 PM ET, the world champions will lift the trophy in East Rutherford, New Jersey, just 8 km in a straight line from the Empire State Building. The choice is no accident: New York is the world\'s most recognisable brand, MetLife is one of the few stadiums on the planet able to host more than 80,000 people at Super Bowl-grade security, and the transatlantic connection from EWR/JFK is unmatched. For the travelling fan, staying in Manhattan and commuting to the stadium each match day is the most reasonable plan: the dedicated bus takes 25 minutes through the Lincoln Tunnel.',
     whyHere:
       'Nueva York es la sede que cierra el torneo: la final y la ciudad icono del mundo a la vez. Si solo puedes permitirte un viaje al Mundial, apunta al MetLife: la final es siempre la final y la ciudad alrededor es Nueva York. El plan no es barato (350-700 $/noche en Manhattan en julio) pero es único.',
+    whyHereEn:
+      'New York is the host city that closes the tournament: the final and the world\'s iconic city in one trip. If you can only afford one World Cup trip, point it at MetLife: the final is always the final and the city around it is New York. It is not cheap ($350-700/night in Manhattan in July) but it is one of a kind.',
     aboutStadium:
       'MetLife Stadium se inauguró en 2010 reemplazando al Giants Stadium original. Capacidad Mundial: 82.500. Acoge 8 partidos: cinco de fase de grupos, un dieciseisavos, un cuartos y la final del 19 de julio. Es la casa de dos equipos de la NFL (Giants y Jets). FIFA ha negociado la reformación del nombre durante el torneo: oficialmente será "New York New Jersey Stadium" del 11 de junio al 19 de julio (la marca MetLife está prohibida en torneo FIFA). El campo es césped natural reinstalado.',
+    aboutStadiumEn:
+      'MetLife Stadium opened in 2010, replacing the original Giants Stadium. World Cup capacity: 82,500. It hosts 8 matches: five in the group stage, one Round of 32, one quarter-final and the final on July 19. The venue is the home of two NFL franchises (Giants and Jets). FIFA has negotiated a name change during the tournament: it will officially be the "New York New Jersey Stadium" from June 11 to July 19 (MetLife branding is banned at FIFA tournaments). The pitch is freshly laid natural grass.',
     thingsToDo: [
-      {
-        title: 'Times Square + Broadway',
-        text: 'Espectáculo nocturno + un musical al menos. Hamilton, Wicked, Lion King, reservar 2 meses antes.',
-      },
-      {
-        title: 'Central Park',
-        text: 'Pic-nic, Belvedere Castle, Bow Bridge. Mejor opción para escapar del calor.',
-      },
-      {
-        title: 'Brooklyn Bridge / DUMBO',
-        text: 'Cruzar el puente al amanecer. Dumbo brooklyn para fotos icónicas.',
-      },
-      {
-        title: 'High Line + Chelsea Market',
-        text: 'Parque elevado de 2,3 km en una antigua vía de tren. Termina en el Hudson.',
-      },
+      { title: 'Times Square + Broadway', text: 'Espectáculo nocturno + un musical al menos. Hamilton, Wicked, Lion King, reservar 2 meses antes.' },
+      { title: 'Central Park', text: 'Pic-nic, Belvedere Castle, Bow Bridge. Mejor opción para escapar del calor.' },
+      { title: 'Brooklyn Bridge / DUMBO', text: 'Cruzar el puente al amanecer. Dumbo brooklyn para fotos icónicas.' },
+      { title: 'High Line + Chelsea Market', text: 'Parque elevado de 2,3 km en una antigua vía de tren. Termina en el Hudson.' },
+    ],
+    thingsToDoEn: [
+      { title: 'Times Square + Broadway', text: 'Evening neon show plus at least one musical. Hamilton, Wicked, Lion King — book 2 months ahead.' },
+      { title: 'Central Park', text: 'Picnic, Belvedere Castle, Bow Bridge. The best way to escape the July heat.' },
+      { title: 'Brooklyn Bridge / DUMBO', text: 'Walk the bridge at sunrise. DUMBO Brooklyn for the iconic skyline shots.' },
+      { title: 'High Line + Chelsea Market', text: 'Elevated 2.3 km park on an old rail line, ends on the Hudson waterfront.' },
     ],
     hotelAreas: [
-      {
-        name: 'Midtown Manhattan',
-        profile: 'Times Square, Empire State, Broadway',
-        bookingHint: '350-700 $/noche en julio. Pico Mundial.',
-      },
-      {
-        name: 'Lower Manhattan / Financial District',
-        profile: 'Wall Street, World Trade Center',
-        bookingHint: '280-500 $/noche. Más calmo y bien conectado.',
-      },
-      {
-        name: 'Brooklyn (Williamsburg / DUMBO)',
-        profile: 'Más auténtico, hipster, vistas Manhattan',
-        bookingHint: '250-400 $/noche. 30 min en metro al estadio.',
-      },
-      {
-        name: 'Jersey City / Hoboken',
-        profile: 'Más cerca de MetLife, vistas a Manhattan',
-        bookingHint: '220-380 $/noche. La opción más práctica para el partido.',
-      },
+      { name: 'Midtown Manhattan', profile: 'Times Square, Empire State, Broadway', bookingHint: '350-700 $/noche en julio. Pico Mundial.' },
+      { name: 'Lower Manhattan / Financial District', profile: 'Wall Street, World Trade Center', bookingHint: '280-500 $/noche. Más calmo y bien conectado.' },
+      { name: 'Brooklyn (Williamsburg / DUMBO)', profile: 'Más auténtico, hipster, vistas Manhattan', bookingHint: '250-400 $/noche. 30 min en metro al estadio.' },
+      { name: 'Jersey City / Hoboken', profile: 'Más cerca de MetLife, vistas a Manhattan', bookingHint: '220-380 $/noche. La opción más práctica para el partido.' },
+    ],
+    hotelAreasEn: [
+      { name: 'Midtown Manhattan', profile: 'Times Square, Empire State, Broadway', bookingHint: '$350-700/night in July — World Cup peak.' },
+      { name: 'Lower Manhattan / Financial District', profile: 'Wall Street, World Trade Center', bookingHint: '$280-500/night. Calmer and well connected.' },
+      { name: 'Brooklyn (Williamsburg / DUMBO)', profile: 'More authentic, hip, Manhattan skyline views', bookingHint: '$250-400/night. 30 min by subway to the stadium.' },
+      { name: 'Jersey City / Hoboken', profile: 'Closer to MetLife, Manhattan skyline views', bookingHint: '$220-380/night. The most practical option for matchdays.' },
     ],
     gettingThere:
       'Tren NJ Transit Meadowlands Rail Line al estadio (solo días de partido), 25 minutos desde Penn Station por 5 $. La opción oficial. Coche: peajes y estacionamiento de 50-100 $. Uber: 80-150 $ por el peaje del Lincoln Tunnel.',
+    gettingThereEn:
+      'NJ Transit Meadowlands Rail Line straight to the stadium (matchdays only), 25 minutes from Penn Station for $5 — the official option. By car: tolls and parking $50-100. Uber: $80-150 including the Lincoln Tunnel toll.',
     tips: [
       'Reservar entradas para musicales, restaurantes, atracciones con 2-3 meses de adelanto.',
       'Comprar MetroCard al llegar y usar metro NYC + NJ Transit. Es la única forma sensata de moverse.',
       'Para la final del 19 jul, llegar al estadio 4 horas antes, controles de seguridad serán Super Bowl-level.',
+    ],
+    tipsEn: [
+      'Book musicals, restaurants and attractions 2-3 months in advance.',
+      'Buy a MetroCard on arrival and use NYC Subway + NJ Transit. It is the only sensible way to get around.',
+      'For the July 19 final, arrive at the stadium 4 hours early — security checks will be Super Bowl-grade.',
     ],
   },
   {
