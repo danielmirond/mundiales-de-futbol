@@ -437,3 +437,13 @@ export const STATUS_LABELS: Record<SquadStatus, string> = {
   provisional: 'Lista provisional',
   final: 'Lista definitiva',
 };
+
+export const STATUS_LABELS_EN: Record<SquadStatus, string> = {
+  pending: 'To be announced',
+  provisional: 'Preliminary list',
+  final: 'Final squad',
+};
+
+export function getStatusLabel(status: SquadStatus, locale: string): string {
+  return locale === 'en' ? STATUS_LABELS_EN[status] : STATUS_LABELS[status];
+}
