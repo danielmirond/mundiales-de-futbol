@@ -1,8 +1,9 @@
 import Link from 'next/link';
 import { setRequestLocale, getTranslations } from 'next-intl/server';
-import { ArrowLeft, ExternalLink, Tv, Globe, Wifi, AlertTriangle } from 'lucide-react';
+import { ArrowLeft, ArrowRight, ExternalLink, Tv, Globe, Wifi, AlertTriangle } from 'lucide-react';
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl } from '@/lib/seo';
+import { BROADCASTS_2026 } from '@/lib/wc-2026-broadcasts';
 
 function withLocale(locale: Locale, href: string) {
   if (locale === routing.defaultLocale) return href;
@@ -213,6 +214,35 @@ export default async function DondeVerPage({
             RTVE en abierto, Movistar Plus+, DAZN y consejos para ver España vs Cabo Verde, Arabia Saudí y Uruguay
             sin perderte un minuto. Información actualizada a abril de 2026.
           </p>
+        </div>
+      </section>
+
+      {/* Selector por países — hub de retransmisión global */}
+      <section className="mx-auto w-full max-w-[1100px] px-6 pt-4 pb-8 md:px-10 md:pt-6 md:pb-10">
+        <div className="rounded-3xl border border-[var(--color-border)] bg-[var(--color-bg-2)] p-6 md:p-8">
+          <div className="flex items-center gap-3 font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-pitch)]">
+            <Globe className="h-4 w-4" />
+            <span>Dónde ver el Mundial en otros países</span>
+          </div>
+          <h2 className="mt-3 font-display text-2xl uppercase leading-tight md:text-3xl">
+            Cobertura por país: TV abierta, streaming y precios
+          </h2>
+          <p className="mt-3 max-w-3xl text-sm leading-relaxed text-[var(--color-fg-muted)] md:text-base">
+            Esta página cubre los derechos en España. Para México, Brasil, Estados Unidos y el resto de mercados, abre la guía específica de cada país: cadenas con derechos, qué partidos se pueden ver gratis, qué planes de streaming cubren los 104 partidos, narradores y FAQs.
+          </p>
+          <div className="mt-6 flex flex-wrap gap-3">
+            {BROADCASTS_2026.map((b) => (
+              <Link
+                key={b.slug}
+                href={withLocale(locale as Locale, `/2026/donde-ver/${b.slug}`)}
+                className="group inline-flex items-center gap-2 rounded-full border border-[var(--color-border-strong)] px-4 py-2 text-sm font-medium text-[var(--color-fg)] transition-colors hover:border-[var(--color-pitch)] hover:text-[var(--color-pitch)]"
+              >
+                <span aria-hidden className="text-base">{b.flag}</span>
+                {b.name}
+                <ArrowRight className="h-3 w-3 transition-transform group-hover:translate-x-1 rtl:rotate-180" />
+              </Link>
+            ))}
+          </div>
         </div>
       </section>
 
