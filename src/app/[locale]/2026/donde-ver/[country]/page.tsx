@@ -55,13 +55,17 @@ export async function generateMetadata({
     title: l.title,
     description: l.description,
     keywords:
-      broadcast.slug === 'mexico'
-        ? ['donde ver mundial 2026 mexico', 'mundial 2026 televisa', 'mundial 2026 vix', 'mundial 2026 azteca', 'partido inaugural mexico 2026 donde ver']
-        : broadcast.slug === 'brasil'
-          ? ['onde assistir copa do mundo 2026', 'globo copa 2026', 'cazetv copa 2026', 'sportv copa do mundo 2026', 'globoplay copa 2026']
-          : broadcast.slug === 'usa'
-            ? ['where to watch World Cup 2026 USA', '2026 World Cup FOX', '2026 World Cup Telemundo', 'Peacock World Cup 2026', 'donde ver mundial 2026 estados unidos']
-            : [`donde ver mundial 2026 ${broadcast.name.toLowerCase()}`],
+      ({
+        mexico: ['donde ver mundial 2026 mexico', 'mundial 2026 televisa', 'mundial 2026 vix', 'mundial 2026 azteca', 'partido inaugural mexico 2026 donde ver'],
+        brasil: ['onde assistir copa do mundo 2026', 'globo copa 2026', 'cazetv copa 2026', 'sportv copa do mundo 2026', 'globoplay copa 2026'],
+        usa: ['where to watch World Cup 2026 USA', '2026 World Cup FOX', '2026 World Cup Telemundo', 'Peacock World Cup 2026', 'donde ver mundial 2026 estados unidos'],
+        argentina: ['donde ver mundial 2026 argentina', 'mundial 2026 tv publica', 'mundial 2026 telefe', 'mundial 2026 directv sports argentina', 'dgo mundial 2026'],
+        colombia: ['donde ver mundial 2026 colombia', 'caracol mundial 2026', 'rcn mundial 2026', 'win sports mundial 2026', 'directv sports colombia'],
+        chile: ['donde ver mundial 2026 chile', 'chilevision mundial 2026', 'tvn mundial', 'mega mundial 2026', 'dgo mundial 2026 chile'],
+        'reino-unido': ['where to watch 2026 World Cup UK', 'BBC World Cup 2026', 'ITV World Cup 2026', 'BBC iPlayer World Cup', 'ITVX World Cup'],
+        francia: ['où regarder coupe du monde 2026', 'TF1 coupe du monde 2026', 'beIN Sports coupe du monde', 'MyTF1 coupe monde 2026', 'beIN Connect'],
+        alemania: ['wo schauen wm 2026', 'ARD WM 2026', 'ZDF WM 2026', 'MagentaTV WM 2026', 'donde ver mundial 2026 alemania'],
+      }[broadcast.slug] ?? [`donde ver mundial 2026 ${broadcast.name.toLowerCase()}`]),
     type: 'article',
     availableLocales: available,
   });
