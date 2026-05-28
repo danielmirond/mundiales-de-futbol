@@ -214,7 +214,7 @@ export default async function Calendario2026({
                 </div>
               ) : (
                 <ul className="grid gap-px overflow-hidden rounded-2xl border border-[var(--color-border)] bg-[var(--color-border)] sm:grid-cols-2">
-                  {p.fixtures.slice(0, 16).map((f) => {
+                  {p.fixtures.map((f) => {
                     const home = f.home ? getTeam2026(f.home) : undefined;
                     const away = f.away ? getTeam2026(f.away) : undefined;
                     const venue = venueBySlug.get(f.venue);
@@ -268,17 +268,6 @@ export default async function Calendario2026({
               )}
             </div>
 
-            {p.fixtures.length > 16 ? (
-              <p className="mt-6 font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--color-fg-subtle)]">
-                {t('showingFirst')}{' '}
-                <Link
-                  href={withLocale(locale as Locale, '/2026')}
-                  className="text-[var(--color-pitch)] hover:underline"
-                >
-                  {t('viewFullCalendar')}
-                </Link>
-              </p>
-            ) : null}
           </section>
         ))}
       </div>
