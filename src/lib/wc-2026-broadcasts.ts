@@ -738,6 +738,28 @@ export const BROADCASTS_2026: CountryBroadcast[] = [
   },
 ];
 
+/**
+ * Mapping FIFA code → IANA timezone principal del país.
+ * Usado para mostrar match times en hora local del país visitado.
+ */
+const COUNTRY_TIMEZONES: Record<string, string> = {
+  ESP: 'Europe/Madrid',
+  MEX: 'America/Mexico_City',
+  BRA: 'America/Sao_Paulo',
+  USA: 'America/New_York',
+  ARG: 'America/Argentina/Buenos_Aires',
+  COL: 'America/Bogota',
+  CHL: 'America/Santiago',
+  GBR: 'Europe/London',
+  FRA: 'Europe/Paris',
+  DEU: 'Europe/Berlin',
+};
+
+/** Timezone principal de un país broadcast */
+export function getCountryTimezone(b: CountryBroadcast): string {
+  return COUNTRY_TIMEZONES[b.code] ?? 'UTC';
+}
+
 /** Devuelve el broadcast de un país por slug */
 export function getBroadcastBySlug(slug: string): CountryBroadcast | undefined {
   return BROADCASTS_2026.find((b) => b.slug === slug);

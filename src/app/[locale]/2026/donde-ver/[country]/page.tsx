@@ -5,10 +5,23 @@ import { ArrowLeft, ArrowRight, Tv, Radio, Smartphone, Play, AlertTriangle } fro
 import {
   BROADCASTS_2026,
   getBroadcastBySlug,
+  getCountryTimezone,
   type BroadcastChannel,
 } from '@/lib/wc-2026-broadcasts';
+import { FIXTURES_2026, VENUES_2026 } from '@/lib/wc-2026';
+import { fixtureToUTC } from '@/lib/wc-2026-fixture-utc';
+import { LiveCountdown } from '@/components/shared/live-countdown';
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl, SEO } from '@/lib/seo';
+
+/** Labels traducibles para LiveCountdown */
+const COUNTDOWN_LABELS: Record<string, { inX: string; live: string; ended: string; days: string; hours: string; minutes: string }> = {
+  es: { inX: 'en {X}', live: 'En directo', ended: 'Terminado', days: 'd', hours: 'h', minutes: 'm' },
+  en: { inX: 'in {X}', live: 'Live', ended: 'Ended', days: 'd', hours: 'h', minutes: 'm' },
+  pt: { inX: 'em {X}', live: 'Ao vivo', ended: 'Terminado', days: 'd', hours: 'h', minutes: 'm' },
+  fr: { inX: 'dans {X}', live: 'En direct', ended: 'Terminé', days: 'j', hours: 'h', minutes: 'min' },
+  ar: { inX: 'خلال {X}', live: 'مباشر', ended: 'انتهت', days: 'ي', hours: 'س', minutes: 'د' },
+};
 
 function withLocale(locale: Locale, href: string) {
   if (locale === routing.defaultLocale) return href;
@@ -159,12 +172,50 @@ export default async function DondeVerPaisPage({
     },
   };
 
+  // Fixtures del equipo de este país (vacío si no clasifica)
+  const teamFixtures = broadcast.inWorldCup
+    ? FIXTURES_2026.filter((f) => f.home === broadcast.code || f.away === broadcast.code)
+    : [];
+  const countryTz = getCountryTimezone(broadcast);
+  const countdownLabels = COUNTDOWN_LABELS[locale] ?? COUNTDOWN_LABELS.es;
+  const venueBySlug = new Map(VENUES_2026.map((v) => [v.slug, v]));
+
+  // SportsEvent JSON-LD por partido del equipo nacional
+  const eventLds = teamFixtures.map((f) => {
+    const venue = venueBySlug.get(f.venue);
+    const utc = fixtureToUTC(f);
+    return {
+      '@context': 'https://schema.org',
+      '@type': 'SportsEvent',
+      name: `${f.home ?? f.label} vs ${f.away ?? f.label} · Mundial 2026`,
+      startDate: utc,
+      eventStatus: 'https://schema.org/EventScheduled',
+      eventAttendanceMode: 'https://schema.org/MixedEventAttendanceMode',
+      location: venue ? {
+        '@type': 'StadiumOrArena',
+        name: venue.name,
+        address: { '@type': 'PostalAddress', addressLocality: venue.hostCity, addressCountry: venue.country },
+      } : undefined,
+      competitor: [
+        f.home && { '@type': 'SportsTeam', name: f.home },
+        f.away && { '@type': 'SportsTeam', name: f.away },
+      ].filter(Boolean),
+      organizer: { '@type': 'Organization', name: 'FIFA', url: 'https://www.fifa.com' },
+      offers: broadcast.channels.map((c) => ({
+        '@type': 'BroadcastService',
+        broadcastDisplayName: c.name,
+        url: c.url,
+      })),
+    };
+  });
+
   return (
     <article className="pt-32 pb-24">
       <JsonLd
         data={[
           articleLd,
           faqLd,
+          ...eventLds,
           breadcrumbLd(locale, [
             { name: isEn ? 'Home' : isPt ? 'Início' : 'Inicio', path: '/' },
             { name: isEn ? 'World Cup 2026' : isPt ? 'Copa do Mundo 2026' : 'Mundial 2026', path: '/2026' },
@@ -199,6 +250,67 @@ export default async function DondeVerPaisPage({
           </p>
         )}
       </header>
+
+      {/* Partidos del equipo nacional con hora local del país + countdown live */}
+      {teamFixtures.length > 0 && (
+        <section className="mx-auto mt-16 w-full max-w-[1100px] px-6 md:px-10">
+          <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-pitch)]">
+            {isEn ? 'Upcoming matches' : isPt ? 'Próximos jogos' : 'Próximos partidos de ' + broadcast.name}
+          </div>
+          <h2 className="mt-3 font-display text-3xl uppercase leading-[1] md:text-4xl">
+            {isEn ? `Schedule (${countryTz})` : isPt ? `Calendário (${countryTz})` : `Calendario (hora ${countryTz})`}
+          </h2>
+          <p className="mt-3 max-w-2xl text-sm text-[var(--color-fg-subtle)]">
+            {isEn
+              ? `Match times shown in ${broadcast.name} local time. Countdown updates with your device clock.`
+              : isPt
+                ? `Horários em ${broadcast.name}. A contagem regressiva atualiza com o relógio do seu dispositivo.`
+                : `Horarios mostrados en hora local de ${broadcast.name}. La cuenta atrás se actualiza con el reloj de tu dispositivo.`}
+          </p>
+
+          <ul className="mt-8 grid gap-3">
+            {teamFixtures.map((f) => {
+              const venue = venueBySlug.get(f.venue);
+              const utc = fixtureToUTC(f);
+              const wallTime = new Intl.DateTimeFormat(locale, {
+                timeZone: countryTz,
+                weekday: 'short',
+                day: 'numeric',
+                month: 'short',
+                hour: '2-digit',
+                minute: '2-digit',
+                hourCycle: 'h23',
+              }).format(new Date(utc));
+              const opponent = f.home === broadcast.code ? f.away : f.home;
+              const isHome = f.home === broadcast.code;
+              return (
+                <li
+                  key={f.n}
+                  className="flex items-center gap-4 rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg-2)] p-4 md:p-5"
+                >
+                  <div className="flex-1 min-w-0">
+                    <div className="flex flex-wrap items-center gap-2 font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--color-fg-subtle)]">
+                      <span>#{f.n}</span>
+                      <span>·</span>
+                      <span>{f.stage.length === 1 ? (isEn ? `Group ${f.stage}` : `Grupo ${f.stage}`) : f.stage}</span>
+                      {venue && <><span>·</span><span>{venue.hostCity}</span></>}
+                    </div>
+                    <div className="mt-1 font-display text-lg uppercase leading-tight">
+                      {isHome
+                        ? `${broadcast.name} vs ${opponent ?? f.label ?? '?'}`
+                        : `${opponent ?? f.label ?? '?'} vs ${broadcast.name}`}
+                    </div>
+                    <div className="mt-1.5 flex flex-wrap items-center gap-3 text-sm text-[var(--color-fg-muted)]">
+                      <span className="tab-num">{wallTime}</span>
+                      <LiveCountdown kickoffUtc={utc} labels={countdownLabels} />
+                    </div>
+                  </div>
+                </li>
+              );
+            })}
+          </ul>
+        </section>
+      )}
 
       <section className="mx-auto mt-16 w-full max-w-[1100px] px-6 md:px-10">
         <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-pitch)]">
@@ -314,6 +426,33 @@ export default async function DondeVerPaisPage({
                 <ArrowRight className="h-3 w-3 rtl:rotate-180" />
               </Link>
             ))}
+          </div>
+
+          {/* Cross-link al monográfico tvworldcup.com (versión multi-idioma + PWA) */}
+          <div className="mt-8 border-t border-[var(--color-border)] pt-6">
+            <a
+              href={`https://tvworldcup.com/${locale === 'es' ? '' : locale + '/'}country/${broadcast.slug}`}
+              target="_blank"
+              rel="noopener"
+              className="group flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-[var(--color-pitch)]/30 bg-[var(--color-pitch)]/5 p-4 transition-colors hover:bg-[var(--color-pitch)]/10"
+            >
+              <div className="flex-1 min-w-0">
+                <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-pitch)]">
+                  {isEn ? 'Multilang version · PWA' : isPt ? 'Versão multi-idioma · PWA' : 'Versión multi-idioma · PWA'}
+                </div>
+                <div className="mt-1.5 font-display text-base uppercase text-[var(--color-fg)]">
+                  tvworldcup.com/{broadcast.slug}
+                </div>
+                <p className="mt-1 text-xs text-[var(--color-fg-muted)]">
+                  {isEn
+                    ? 'Same data in 7 languages with offline access and push notifications.'
+                    : isPt
+                      ? 'Os mesmos dados em 7 idiomas com acesso offline e notificações push.'
+                      : 'Mismos datos en 7 idiomas con acceso offline y notificaciones push.'}
+                </p>
+              </div>
+              <ArrowRight className="h-4 w-4 text-[var(--color-pitch)] transition-transform group-hover:translate-x-1" />
+            </a>
           </div>
         </div>
       </section>
