@@ -263,6 +263,13 @@ const SQUAD_METADATA: Record<string, SquadMeta> = {
     announcementSourceName: 'FEPAFUT',
     announcementSource: 'https://fepafut.com/',
   },
+  NED: {
+    status: 'final',
+    coach: 'Ronald Koeman',
+    announcedAt: '2026-05-27',
+    announcementSourceName: 'KNVB',
+    announcementSource: 'https://www.knvb.nl/',
+  },
 
   // ─── PRELISTAS (35-55 jugadores) ───────────────────────────────
   UZB: {

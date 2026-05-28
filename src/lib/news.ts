@@ -105,6 +105,71 @@ export function getLocalizedNews(
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'convocatoria-paises-bajos-mundial-2026-koeman-26-jugadores-van-dijk-de-jong-depay-summerville-frimpong-fuera-grupo-japon',
+    title:
+      'Koeman cierra los 26 de Países Bajos: Van Dijk capitán, Depay a su cuarto Mundial y Summerville sorpresa por Frimpong',
+    summary:
+      'Ronald Koeman anunció este 27 de mayo en Zeist la convocatoria definitiva de Países Bajos para el Mundial 2026. Virgil van Dijk lleva el brazalete, Frenkie de Jong es el motor del medio y Memphis Depay regresa tras su fichaje por el Corinthians para disputar su cuarto Mundial. Sorpresa: Crysencio Summerville (Tottenham) entra y Jeremie Frimpong (Real Madrid) queda fuera. 14 jugadores militan en la Premier League.',
+    body: `**Ronald Koeman** anunció este miércoles **27 de mayo de 2026** en la sede de la **KNVB** en Zeist la lista definitiva de 26 jugadores de **Países Bajos** para el Mundial 2026. Es la segunda lista mundialista del seleccionador neerlandés, que volvió al cargo en 2023 tras la salida de Frank de Boer post-Eurocopa.
+
+El contexto. Países Bajos llega al Mundial con la obsesión histórica de **romper la maldición de las tres finales perdidas** (1974 vs Alemania, 1978 vs Argentina, 2010 vs España). Tras alcanzar las semifinales de la Eurocopa 2024 (eliminadas por Inglaterra), la generación que lidera Van Dijk acude a su última oportunidad real.
+
+Los seguros. Once nombres inamovibles en cualquier lista de Koeman:
+
+- **Virgil van Dijk** (Liverpool), capitán y líder defensivo. 34 años, su tercer Mundial.
+- **Frenkie de Jong** (Barcelona), motor creativo del medio. Llega con la mejor versión de su carrera tras temporada de récord en Champions.
+- **Memphis Depay** (Corinthians), recuperado físicamente tras su fichaje por el club brasileño en verano 2025. Cuarto Mundial consecutivo del máximo goleador histórico de Oranje.
+- **Cody Gakpo** (Liverpool), extremo titular.
+- **Tijjani Reijnders** (Manchester City tras su salida del Milan), centrocampista todo-terreno.
+- **Denzel Dumfries** (Inter de Milán), carril derecho ofensivo.
+- **Nathan Aké** (Manchester City), central versátil.
+- **Bart Verbruggen** (Brighton), portero titular.
+- **Justin Kluivert** (AFC Bournemouth), confirmado como suplente de Gakpo.
+
+Los 26 oficiales (anuncio KNVB):
+
+- **Porteros** (3): Bart Verbruggen (Brighton), Mark Flekken (Bayer Leverkusen tras su salida del Brentford), Nick Olij (Sparta Rotterdam).
+- **Defensas** (8): Virgil van Dijk (Liverpool, capitán), Nathan Aké (Manchester City), Denzel Dumfries (Inter de Milán), Matthijs de Ligt **descartado por Koeman**, Lutsharel Geertruida (Sunderland), Micky van de Ven (Tottenham), Jurriën Timber (Arsenal), Quilindschy Hartman (Burnley), Daley Blind (Girona).
+- **Mediocentros** (7): Frenkie de Jong (Barcelona), Tijjani Reijnders (Manchester City), Ryan Gravenberch (Liverpool), Jerdy Schouten (PSV Eindhoven), Mats Wieffer (Brighton), Quinten Timber (Feyenoord), Guus Til (PSV).
+- **Delanteros** (8): Memphis Depay (Corinthians), Cody Gakpo (Liverpool), Justin Kluivert (AFC Bournemouth), Donyell Malen (Aston Villa), Wout Weghorst (Ajax), Brian Brobbey (Sunderland), **Crysencio Summerville (Tottenham)** [sorpresa], Joshua Zirkzee **descartado**.
+
+La sorpresa: Summerville sí, Frimpong no. La decisión más comentada es la **ausencia de Jeremie Frimpong** (Real Madrid). El lateral derecho/extremo, traspasado al Real Madrid en verano 2025 por 40 millones, llegaba como una de las apuestas claras del once por su perfil ofensivo en el carril. Koeman optó por **Crysencio Summerville** (Tottenham) como séptimo extremo en su lugar, una decisión que la prensa neerlandesa atribuye a la "falta de explosividad" que Frimpong mostró en sus primeros meses en Madrid bajo Xabi Alonso.
+
+Las bajas dolorosas. Cinco nombres con peso fuera de la lista:
+
+- **Matthijs de Ligt** (Manchester United), central titular en Qatar 2022. Koeman ha priorizado a Timber y Van de Ven.
+- **Stefan de Vrij** (Inter de Milán), 33 años, fuera por bajón de rendimiento.
+- **Xavi Simons** (RB Leipzig), 23 años. La gran sorpresa por descarte: estuvo en la Eurocopa pero Koeman alega "rendimiento irregular" en Bundesliga.
+- **Joshua Zirkzee** (Manchester United), no entra en la rotación ofensiva.
+- **Georginio Wijnaldum** (Al-Ettifaq), retirado de la selección en 2024.
+
+Grupo F: Japón, Suecia, Túnez. Países Bajos comparte grupo con tres rivales europeo-asiático-africano:
+
+- **14 de junio · 15:00 CT · AT&T Stadium (Arlington/Dallas)**: Países Bajos vs Japón. Debut histórico contra el equipo de Hajime Moriyasu, semifinalista olímpico Tokio.
+- **20 de junio · 18:00 CT · NRG Stadium (Houston)**: Países Bajos vs Túnez.
+- **25 de junio · 12:00 CT · Arrowhead Stadium (Kansas City)**: Suecia vs Países Bajos.
+
+Próximos amistosos. Países Bajos disputa dos preparatorios: contra **Escocia** el 31 de mayo en Glasgow y contra **México** el 5 de junio en Atlanta. Concentración en Zeist hasta el 6 de junio, traslado a Estados Unidos el 7.
+
+Calendario completo del Mundial en [/2026/calendario](/2026/calendario), grupos en [/2026/grupos](/2026/grupos), ficha de Países Bajos en [/2026/listas/NED](/2026/listas/NED) y todas las listas confirmadas en [/2026/listas](/2026/listas).`,
+    category: 'convocatorias',
+    sourceName: 'KNVB',
+    sourceUrl: 'https://www.knvb.nl/',
+    sourceLang: 'en',
+    publishedAt: '2026-05-27T11:00:00Z',
+    sourcesSecondary: [
+      { name: 'FIFA · Depay selected', url: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/netherlands-ronald-koeman-squad-announced' },
+      { name: 'ESPN · Summerville picked Frimpong out', url: 'https://www.espn.co.uk/football/story/_/id/48890354/netherlands-confirm-world-cup-2026-squad-jeremie-frimpong-crysencio-summerville-picked' },
+      { name: 'Sky Sports · Squad lists', url: 'https://www.skysports.com/football/news/11095/13543070/world-cup-2026-squad-lists-england-scotland-brazil-usa-spain-france-germany-netherlands-argentina-portugal-and-more' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Virgil_van_Dijk_2024.jpg/1280px-Virgil_van_Dijk_2024.jpg',
+      alt: 'Virgil van Dijk, capitán de Países Bajos y central del Liverpool, en un partido reciente de Oranje',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
     slug: 'convocatoria-panama-mundial-2026-christiansen-26-jugadores-anibal-godoy-quintero-grupo-inglaterra-croacia-ghana',
     title:
       'Panamá presenta los 26 de Christiansen en el Edificio del Canal: Aníbal Godoy capitán, Quintero recupera su Mundial y Kadir Barría queda fuera',
