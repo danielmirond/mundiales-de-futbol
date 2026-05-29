@@ -281,11 +281,26 @@ const SQUAD_METADATA: Record<string, SquadMeta> = {
     announcementSource: 'https://uff.uz/',
   },
   ARG: {
-    status: 'provisional',
+    status: 'final',
     coach: 'Lionel Scaloni',
-    announcedAt: '2026-05-11',
+    announcedAt: '2026-05-28',
     announcementSourceName: 'AFA',
     announcementSource: 'https://www.afa.com.ar/',
+  },
+  ENG: {
+    status: 'final',
+    coach: 'Thomas Tuchel',
+    coachNationality: 'GER',
+    announcedAt: '2026-05-22',
+    announcementSourceName: 'The FA',
+    announcementSource: 'https://www.thefa.com/',
+  },
+  GER: {
+    status: 'final',
+    coach: 'Julian Nagelsmann',
+    announcedAt: '2026-05-21',
+    announcementSourceName: 'DFB',
+    announcementSource: 'https://www.dfb.de/',
   },
   MEX: {
     status: 'provisional',

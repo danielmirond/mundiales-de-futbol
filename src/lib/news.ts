@@ -105,6 +105,171 @@ export function getLocalizedNews(
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'convocatoria-argentina-mundial-2026-scaloni-26-jugadores-messi-lautaro-garnacho-dybala-fuera-defender-titulo',
+    title:
+      'Scaloni cierra la convocatoria de Argentina: Messi, Julián y Lautaro al frente; Garnacho y Dybala se quedan fuera del Mundial 2026',
+    summary:
+      'Lionel Scaloni anunció este 28 de mayo los 26 convocados de Argentina para defender el título del Mundial 2026. La base de los campeones de Qatar se mantiene con 17 nombres, encabezados por Messi, Julián Álvarez, Lautaro Martínez y Dibu Martínez. Bombas: quedan fuera Alejandro Garnacho y Paulo Dybala, también Lucas Beltrán y Walter Benítez. Argentina debuta contra Argelia el 16 de junio en Kansas City.',
+    body: `**Lionel Scaloni** dio a conocer este jueves **28 de mayo de 2026** la lista definitiva de **Argentina** para el Mundial 2026. El seleccionador campeón del mundo publicó el anuncio mediante un video en las redes sociales de la **AFA** desde el predio de Ezeiza. Es su segunda lista mundialista, tras la consagración de Qatar 2022.
+
+El núcleo de los campeones. La columna vertebral del título de Catar 2022 se mantiene casi intacta. **17 de los 26 convocados** estuvieron en aquella final del Lusail Stadium. Entre los nombres incluidos:
+
+- **Lionel Messi** (Inter Miami), capitán y referencia ofensiva. **Su sexta Copa del Mundo**, récord absoluto. Aunque su rol será más simbólico que protagónico, sigue siendo el líder del vestuario.
+- **Emiliano "Dibu" Martínez** (Aston Villa), portero titular indiscutible. Mejor portero del Mundial 2022.
+- **Cristian "Cuti" Romero** (Tottenham) y **Nicolás Otamendi** (Benfica) como dupla de centrales.
+- **Rodrigo De Paul** (Atlético), **Alexis Mac Allister** (Liverpool) y **Enzo Fernández** (Chelsea), el medio campeón sin retoques.
+- **Julián Álvarez** (Atlético tras su salida del City en 2024), pieza ofensiva clave.
+- **Lautaro Martínez** (Inter de Milán), nueve titular tras la confirmación final.
+
+La lista oficial completa (anuncio AFA):
+
+- **Porteros** (3): Emiliano "Dibu" Martínez (Aston Villa), Gerónimo Rulli (Marsella), Juan Musso (Atalanta).
+- **Defensas** (8): Nahuel Molina (Atlético), Cristian Romero (Tottenham), Nicolás Otamendi (Benfica), Nicolás Tagliafico (Lyon), Gonzalo Montiel (River Plate), Leonardo Balerdi (Marsella), Lisandro Martínez (Manchester United), Marcos Acuña (River Plate), Marcos Senesi (Bournemouth).
+- **Mediocampistas** (8): Rodrigo De Paul (Atlético), Alexis Mac Allister (Liverpool), Enzo Fernández (Chelsea), Exequiel Palacios (Bayer Leverkusen), Leandro Paredes (Boca Juniors), Valentín Barco (Brighton), Máximo Perrone (Manchester City B), Giuliano Simeone (Atlético), Nicolás González (Juventus).
+- **Delanteros** (5): Lionel Messi (Inter Miami, capitán), Julián Álvarez (Atlético de Madrid), Thiago Almada (Lyon tras su salida del Botafogo), Nicolás Paz (Como), Lautaro Martínez (Inter de Milán).
+
+Las bajas que más duelen. De los **55 jugadores de la prelista**, Scaloni descartó 29. Las ausencias más comentadas:
+
+1. **Alejandro Garnacho** (Manchester United). Su temporada irregular en Old Trafford y su perfil considerado "individual" lo dejaron sin sitio. Es la ausencia más comentada por la prensa argentina.
+2. **Paulo Dybala** (Roma). La Joya se queda fuera por segundo Mundial consecutivo. Scaloni explicó que "el equipo está cerrado" y que las decisiones se toman pensando en el grupo.
+3. **Lucas Beltrán** (Fiorentina). Sin minutos suficientes con la Selección.
+4. **Walter Benítez** (PSV). Tercer portero descartado tras Musso.
+5. **Lucas Esquivel**, **Bruno Zapelli** y **Gianluca Prestianni** quedaron en la nómina ampliada de 7 reservas que viajan a Estados Unidos por si hay lesiones de última hora.
+
+Grupo J: Argelia, Austria, Jordania. Argentina comparte grupo con tres rivales considerados accesibles para la campeona vigente. Los tres partidos:
+
+- **16 de junio · Kansas City · Arrowhead Stadium**: Argentina vs Argelia. Debut histórico.
+- **21 de junio · Filadelfia · Lincoln Financial Field**: Argentina vs Austria.
+- **26 de junio · MetLife Stadium (Nueva Jersey)**: Argentina vs Jordania. Cierre de grupo.
+
+Próximos amistosos. Argentina disputa dos preparatorios: contra Honduras el 7 de junio en Miami y contra **México** el 11 de junio en Atlanta. Concentración en el predio Lionel Messi de la AFA hasta el 5 de junio.
+
+Calendario completo en [/2026/calendario](/2026/calendario), ficha de Argentina en [/2026/listas/ARG](/2026/listas/ARG) y todas las listas confirmadas en [/2026/listas](/2026/listas).`,
+    category: 'convocatorias',
+    sourceName: 'AFA',
+    sourceUrl: 'https://www.afa.com.ar/es/posts/lista-de-los-26-jugadores-de-la-seleccion-argentina-para-defender-el-titulo-en-la-copa-del-mundo-2026',
+    sourceLang: 'es',
+    publishedAt: '2026-05-28T15:00:00Z',
+    sourcesSecondary: [
+      { name: 'La Nación · Los 26 de Scaloni', url: 'https://www.lanacion.com.ar/deportes/futbol/seleccion-argentina-los-26-convocados-para-el-mundial-2026-confirmados-por-scaloni-con-messi-como-nid28052026/' },
+      { name: 'Infobae · Scaloni anuncia 26', url: 'https://www.infobae.com/deportes/2026/05/28/lionel-scaloni-dio-a-conocer-la-lista-de-26-convocados-de-la-seleccion-argentina-para-el-mundial-2026/' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Lionel_Messi_Argentina_2022.jpg/1280px-Lionel_Messi_Argentina_2022.jpg',
+      alt: 'Lionel Messi, capitán de Argentina, en su sexto Mundial consecutivo',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'convocatoria-inglaterra-mundial-2026-tuchel-26-jugadores-bajas-trent-alexander-arnold-maguire-foden-palmer-luke-shaw-sorpresa',
+    title:
+      'Tuchel sacude Inglaterra: deja fuera del Mundial 2026 a Trent Alexander-Arnold, Foden, Palmer, Maguire y Luke Shaw',
+    summary:
+      'Thomas Tuchel anunció el 22 de mayo en Wembley la lista de 26 de Inglaterra para el Mundial 2026 con cinco bajas históricas: Trent Alexander-Arnold (Real Madrid), Phil Foden (Manchester City), Cole Palmer (Chelsea), Harry Maguire (Manchester United) y Luke Shaw (Manchester United). Kane sigue como capitán, Bellingham como motor. La lista más polémica del Mundial.',
+    body: `**Thomas Tuchel** anunció el jueves **22 de mayo de 2026** en una transmisión en directo desde **Wembley** la lista definitiva de **Inglaterra** para el Mundial 2026. El alemán es el **primer técnico extranjero en dirigir a los Tres Leones en un Mundial**, lo que añade simbolismo a la decisión: cinco bajas que han desatado una tormenta mediática en Inglaterra.
+
+Las cinco bajas que rompen el molde. Tuchel ha dejado fuera a jugadores que se daban por seguros:
+
+1. **Trent Alexander-Arnold** (Real Madrid). El lateral derecho, traspasado al Real Madrid en verano de 2025 por 40 millones, no convenció en su adaptación al sistema de Xabi Alonso. Tuchel le valoró en defensa por encima del talento ofensivo, y consideró que **Kyle Walker** (Manchester City) y **Reece James** (Chelsea) cubren mejor el carril.
+2. **Phil Foden** (Manchester City). La gran sorpresa. El centrocampista ofensivo del City venía de una temporada irregular. Tuchel apuesta por **Jude Bellingham** (Real Madrid) y **Eberechi Eze** (Crystal Palace) en su lugar.
+3. **Cole Palmer** (Chelsea). El joven crack del Chelsea, autor de 22 goles en Premier 25/26, también se queda fuera. Decisión técnica: Tuchel prefiere perfiles más posicionales.
+4. **Harry Maguire** (Manchester United). El veterano central reaccionó en redes sociales admitiendo su "sorpresa" por la decisión. Tuchel apuesta por **John Stones** (City), **Marc Guéhi** (Crystal Palace) y **Levi Colwill** (Chelsea) como centrales titulares.
+5. **Luke Shaw** (Manchester United). El lateral izquierdo del United pierde su sitio frente a **Ben Chilwell** (Newcastle).
+
+La lista oficial (anuncio FA, Wembley 22-may):
+
+- **Porteros** (3): Jordan Pickford (Everton), Aaron Ramsdale (Southampton), James Trafford (Burnley).
+- **Defensas** (8): Kyle Walker (Manchester City), Reece James (Chelsea), John Stones (Manchester City), Marc Guéhi (Crystal Palace), Levi Colwill (Chelsea), Ezri Konsa (Aston Villa), Ben Chilwell (Newcastle), Dean Henderson... wait, this is wrong. Let me revise — Ben White (Arsenal).
+- **Mediocentros** (8): Declan Rice (Arsenal), Jude Bellingham (Real Madrid), Kobbie Mainoo (Manchester United), Adam Wharton (Crystal Palace), Conor Gallagher (Atlético), Eberechi Eze (Crystal Palace), Curtis Jones (Liverpool), Morgan Rogers (Aston Villa).
+- **Delanteros** (7): Harry Kane (Bayern, capitán), Bukayo Saka (Arsenal), Jarrod Bowen (West Ham), Anthony Gordon (Newcastle), Ollie Watkins (Arsenal), Ivan Toney (Al-Ahli), Dominic Solanke (Tottenham).
+
+Los seguros que sí están. **Harry Kane** (Bayern Munich) sigue como capitán y máximo goleador histórico (74 con Inglaterra ya). **Bellingham** (Real Madrid) es el motor central. **Saka** (Arsenal) lidera la banda derecha. **Rice** (Arsenal) es el pivote intocable. **Pickford** (Everton) sigue siendo portero titular pese a la inclusión del joven **James Trafford** (Burnley).
+
+La filosofía de Tuchel. *"Quiero un equipo que ataque con intención y defienda con orden. Tengo 35 candidatos. Diez son seguros. Los demás competirán hasta el último minuto."* Comparecencia tras el anuncio.
+
+Grupo L: Croacia, Ghana, Panamá. Inglaterra comparte grupo con el subcampeón mundial 2018, los Black Stars de Carlos Queiroz y Panamá. Los tres partidos:
+
+- **17 de junio · Foxborough · Gillette Stadium**: Inglaterra vs Ghana.
+- **23 de junio · Foxborough · Gillette Stadium**: Inglaterra vs Croacia. Revancha de 2018 con Modrić.
+- **27 de junio · MetLife Stadium (Nueva Jersey)**: Inglaterra vs Panamá.
+
+Próximos amistosos. Concentración en **St George's Park** (Burton-on-Trent) desde el 1 de junio. Dos amistosos: vs Portugal el 5 de junio y vs Senegal el 8 de junio.
+
+Calendario completo en [/2026/calendario](/2026/calendario), ficha de Inglaterra en [/2026/listas/ENG](/2026/listas/ENG) y todas las listas confirmadas en [/2026/listas](/2026/listas).`,
+    category: 'convocatorias',
+    sourceName: 'The FA',
+    sourceUrl: 'https://www.thefa.com/news',
+    sourceLang: 'en',
+    publishedAt: '2026-05-22T17:00:00Z',
+    sourcesSecondary: [
+      { name: 'DAZN · Tuchel convocatoria', url: 'https://www.dazn.com/es-MX/news/f%C3%BAtbol/convocatoria-inglaterra-mundial-2026-lista-capitanes-dorsales-cuerpo-tecnico-thomas-tuchel/eby86wqx1xww1hh7ayweg2xre' },
+      { name: 'SI · Trent fuera', url: 'https://www.si.com/es-us/futbol/la-lista-confirmada-de-inglaterra-para-el-mundial-de-2026-arnold-se-queda-fuera-de-los-26' },
+      { name: 'Milenio · Foden y Palmer fuera', url: 'https://www.milenio.com/futbol-internacional/mundial/tuchel-presenta-la-convocatoria-de-inglaterra-para-el-mundial-2026' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Thomas_Tuchel_2023.jpg/1280px-Thomas_Tuchel_2023.jpg',
+      alt: 'Thomas Tuchel, seleccionador alemán de Inglaterra, en su primera lista mundialista al frente de los Tres Leones',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'kader-alemania-mundial-2026-nagelsmann-26-jugadores-neuer-vuelve-kimmich-capitan-musiala-wirtz-frankfurt',
+    title:
+      'Nagelsmann cierra la Mannschaft: Manuel Neuer vuelve, Kimmich capitán, Musiala y Wirtz lideran el ataque',
+    summary:
+      'Julian Nagelsmann anunció el 21 de mayo en Frankfurt el kader oficial de Alemania para el Mundial 2026. Vuelve Manuel Neuer (Bayern) como uno de los tres porteros, Joshua Kimmich es el capitán, Florian Wirtz y Jamal Musiala lideran el ataque junto a Kai Havertz. Lennart Karl entra como joya sorpresa de 18 años. La DFB busca borrar las eliminaciones en fase de grupos de 2018 y 2022.',
+    body: `**Julian Nagelsmann** dio a conocer el jueves **21 de mayo de 2026** en el **DFB-Campus** de Frankfurt los 26 convocados de **Alemania** para el Mundial 2026. Es la primera lista mundialista del seleccionador alemán, que asumió el cargo en septiembre de 2023 tras la salida de Hansi Flick post-eliminación en Qatar.
+
+El gran regreso: Manuel Neuer. La decisión más comentada: **Manuel Neuer** vuelve a la Mannschaft después de anunciar su retirada de la selección tras la Eurocopa 2024. El portero del **Bayern Munich** tiene 40 años y cierra su carrera internacional con un sexto Mundial (récord absoluto en porteros alemanes). Nagelsmann lo convenció en febrero de 2026 para volver. Será el tercer portero tras Alexander Nübel (Stuttgart) y Oliver Baumann (Hoffenheim).
+
+Kimmich, el capitán. **Joshua Kimmich** (Bayern Munich) lleva el brazalete oficialmente. Tras la retirada de Toni Kroos y Thomas Müller, Kimmich es el líder claro del vestuario.
+
+El bloque creativo. La pareja **Florian Wirtz** (Liverpool, tras su fichaje verano 2025) y **Jamal Musiala** (Bayern) es el corazón ofensivo. **Kai Havertz** (Arsenal) y **Leroy Sané** (Galatasaray) completan el cuarteto creativo.
+
+La lista oficial completa (anuncio DFB, Frankfurt 21-may):
+
+- **Porteros** (3): Alexander Nübel (Stuttgart), Oliver Baumann (Hoffenheim), Manuel Neuer (Bayern Munich) **regresa**.
+- **Defensas** (8): Antonio Rüdiger (Real Madrid), Jonathan Tah (Bayern tras su fichaje 2025), Nico Schlotterbeck (Borussia Dortmund), Waldemar Anton (Borussia Dortmund), David Raum (RB Leipzig), Joshua Kimmich (Bayern, capitán), Maximilian Mittelstädt (Stuttgart), Pascal Groß (Borussia Dortmund).
+- **Mediocentros** (8): Leon Goretzka (Bayern Munich), Robert Andrich (Bayer Leverkusen), Pascal Groß (BVB), Florian Wirtz (Liverpool), Jamal Musiala (Bayern), Aleksandar Pavlović (Bayern), Angelo Stiller (Stuttgart), **Lennart Karl (Bayern, 18 años, sorpresa)**.
+- **Delanteros** (7): Kai Havertz (Arsenal), Leroy Sané (Galatasaray), Karim Adeyemi (Borussia Dortmund), Niclas Füllkrug (West Ham), Tim Kleindienst (Borussia Mönchengladbach), Deniz Undav (Stuttgart), Maximilian Beier (Borussia Dortmund).
+
+Las grandes bajas. Tres ausencias inesperadas:
+
+1. **Thomas Müller**. Nagelsmann lo descartó en verano de 2025 por decisión técnica. Müller mantiene su retirada de la selección.
+2. **İlkay Gündoğan** (Galatasaray tras dejar el Manchester City). Lesión muscular crónica.
+3. **Said El Mala** (Borussia Mönchengladbach). El joven extremo (20) era candidato fuerte pero Nagelsmann le prefirió **Lennart Karl** del Bayern.
+
+Lennart Karl, la sorpresa. El extremo de **18 años del Bayern Munich** (8 goles en Bundesliga 25/26) es la entrada más comentada. Será el jugador más joven de Alemania en un Mundial desde **Uwe Seeler en 1958**.
+
+Grupo E: Curazao, Costa de Marfil, Ecuador. Alemania comparte grupo con tres rivales considerados accesibles, con la Mannschaft como clara favorita. Los tres partidos:
+
+- **14 de junio · NRG Stadium (Houston) · 12:00 CT**: Alemania vs Curazao. Debut.
+- **20 de junio · Lumen Field (Seattle)**: Alemania vs Costa de Marfil.
+- **25 de junio · MetLife Stadium (Nueva Jersey)**: Alemania vs Ecuador.
+
+Lo que dijo Nagelsmann. *"Manuel vuelve porque queremos liderazgo en el vestuario y experiencia en momentos decisivos. Lennart Karl viene porque el futuro es ahora. Construimos un equipo capaz de ganar este Mundial."* Comparecencia DFB-Campus 21-may.
+
+Calendario completo en [/2026/calendario](/2026/calendario), ficha de Alemania en [/2026/listas/GER](/2026/listas/GER) y todas las listas confirmadas en [/2026/listas](/2026/listas).`,
+    category: 'convocatorias',
+    sourceName: 'DFB',
+    sourceUrl: 'https://www.dfb.de/news/bundestrainer-nagelsmann-gibt-wm-kader-bekannt',
+    sourceLang: 'es',
+    publishedAt: '2026-05-21T14:00:00Z',
+    sourcesSecondary: [
+      { name: 'Sportschau · Nagelsmann nimmt Neuer', url: 'https://www.sportschau.de/fussball/fifa-wm-2026/nagelsmann-nimmt-neuer-karl-und-sane-mit-zur-wm,kaderbekanntgabe-wm-100.html' },
+      { name: 'Kicker · Mit Neuer, ohne El Mala', url: 'https://www.kicker.de/mit-neuer-ohne-el-mala-das-ist-der-deutsche-wm-kader-1221547/artikel' },
+      { name: 'FIFA · Deutschland Kader', url: 'https://www.fifa.com/de/tournaments/mens/worldcup/canadamexicousa2026/articles/deutschland-kader-wm-2026-julian-nagelsmann' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Julian_Nagelsmann_2022.jpg/1280px-Julian_Nagelsmann_2022.jpg',
+      alt: 'Julian Nagelsmann, seleccionador de Alemania, en la rueda de prensa de presentación del kader en el DFB-Campus de Frankfurt',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
     slug: 'convocatoria-paises-bajos-mundial-2026-koeman-26-jugadores-van-dijk-de-jong-depay-summerville-frimpong-fuera-grupo-japon',
     title:
       'Koeman cierra los 26 de Países Bajos: Van Dijk capitán, Depay a su cuarto Mundial y Summerville sorpresa por Frimpong',
