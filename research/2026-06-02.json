@@ -1,0 +1,225 @@
+{
+  "generatedAt": "2026-06-02T11:05:56.646Z",
+  "date": "2026-06-02",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "colombia - costa rica",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "Así fue el show de Camilo, Carlos Vives y Morat durante el partido de despedida de la selección colombiana",
+          "url": "https://www.eluniverso.com/entretenimiento/cultura/asi-fue-el-show-de-camilo-carlos-vives-y-morat-durante-el-partido-de-despedida-de-la-seleccion-colombiana-nota/",
+          "source": "El Universo"
+        },
+        {
+          "title": "Colombia 3-1 Costa Rica: Resultado, resumen y goles",
+          "url": "https://colombia.as.com/futbol/mundial/colombia-costa-rica-en-vivo-online-amistoso-internacional-en-directo-f202606-d/",
+          "source": "AS Colombia"
+        },
+        {
+          "title": "Colombia vence 3-1 a Costa Rica en partido de despedida en Bogotá antes del Mundial 2026",
+          "url": "https://www.teleamazonas.com/mundial/colombia-vence-3-1-costa-rica-partido-despedida-bogota-mundial-2026/",
+          "source": "Teleamazonas"
+        }
+      ]
+    },
+    {
+      "query": "liga pro 2026",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Mundial 2026: los grandes ausentes de Ecuador en la lista oficial de los 26 seleccionados",
+          "url": "https://www.teleamazonas.com/mundial/mundial-2026-grandes-ausentes-ecuador-lista-oficial-26-seleccionados/",
+          "source": "Teleamazonas"
+        },
+        {
+          "title": "Piero, Pacho, Independiente y la selección",
+          "url": "https://www.expreso.ec/opinion/futbol-ecuatoriano-modelo-formativo-impulsa-talento-y-desarrollo-deportivo-284144.html",
+          "source": "expreso.ec"
+        },
+        {
+          "title": "La liga de Brasil es la que más jugadores le aporta a la selección de Ecuador para el Mundial 2026",
+          "url": "https://www.eluniverso.com/deportes/futbol/la-liga-de-brasil-es-la-que-mas-jugadores-le-aporta-a-la-seleccion-de-ecuador-para-el-mundial-2026-nota/",
+          "source": "El Universo"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "es": [
+      {
+        "query": "colombia - costa rica",
+        "score": 1600,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "colombia - costa rica",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "Así fue el show de Camilo, Carlos Vives y Morat durante el partido de despedida de la selección colombiana",
+                "url": "https://www.eluniverso.com/entretenimiento/cultura/asi-fue-el-show-de-camilo-carlos-vives-y-morat-durante-el-partido-de-despedida-de-la-seleccion-colombiana-nota/",
+                "source": "El Universo"
+              },
+              {
+                "title": "Colombia 3-1 Costa Rica: Resultado, resumen y goles",
+                "url": "https://colombia.as.com/futbol/mundial/colombia-costa-rica-en-vivo-online-amistoso-internacional-en-directo-f202606-d/",
+                "source": "AS Colombia"
+              },
+              {
+                "title": "Colombia vence 3-1 a Costa Rica en partido de despedida en Bogotá antes del Mundial 2026",
+                "url": "https://www.teleamazonas.com/mundial/colombia-vence-3-1-costa-rica-partido-despedida-bogota-mundial-2026/",
+                "source": "Teleamazonas"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "liga pro 2026",
+        "score": 160,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "liga pro 2026",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Mundial 2026: los grandes ausentes de Ecuador en la lista oficial de los 26 seleccionados",
+                "url": "https://www.teleamazonas.com/mundial/mundial-2026-grandes-ausentes-ecuador-lista-oficial-26-seleccionados/",
+                "source": "Teleamazonas"
+              },
+              {
+                "title": "Piero, Pacho, Independiente y la selección",
+                "url": "https://www.expreso.ec/opinion/futbol-ecuatoriano-modelo-formativo-impulsa-talento-y-desarrollo-deportivo-284144.html",
+                "source": "expreso.ec"
+              },
+              {
+                "title": "La liga de Brasil es la que más jugadores le aporta a la selección de Ecuador para el Mundial 2026",
+                "url": "https://www.eluniverso.com/deportes/futbol/la-liga-de-brasil-es-la-que-mas-jugadores-le-aporta-a-la-seleccion-de-ecuador-para-el-mundial-2026-nota/",
+                "source": "El Universo"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "topic": "colombia - costa rica",
+      "type": "noticia",
+      "slugSuggestion": "colombia-costa-rica",
+      "language": "es",
+      "geos": [
+        "EC"
+      ],
+      "score": 1920,
+      "reason": "Google Trends daily EC con 2,000 búsquedas · 3 artículos noticiosos referenciando \"colombia - costa rica\"",
+      "proposedPath": "/noticias/colombia-costa-rica",
+      "evidence": [
+        {
+          "query": "colombia - costa rica",
+          "geo": "EC",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 2000,
+          "articles": [
+            {
+              "title": "Así fue el show de Camilo, Carlos Vives y Morat durante el partido de despedida de la selección colombiana",
+              "url": "https://www.eluniverso.com/entretenimiento/cultura/asi-fue-el-show-de-camilo-carlos-vives-y-morat-durante-el-partido-de-despedida-de-la-seleccion-colombiana-nota/",
+              "source": "El Universo"
+            },
+            {
+              "title": "Colombia 3-1 Costa Rica: Resultado, resumen y goles",
+              "url": "https://colombia.as.com/futbol/mundial/colombia-costa-rica-en-vivo-online-amistoso-internacional-en-directo-f202606-d/",
+              "source": "AS Colombia"
+            },
+            {
+              "title": "Colombia vence 3-1 a Costa Rica en partido de despedida en Bogotá antes del Mundial 2026",
+              "url": "https://www.teleamazonas.com/mundial/colombia-vence-3-1-costa-rica-partido-despedida-bogota-mundial-2026/",
+              "source": "Teleamazonas"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "liga pro 2026",
+      "type": "noticia",
+      "slugSuggestion": "liga-pro-2026",
+      "language": "es",
+      "geos": [
+        "EC"
+      ],
+      "score": 192,
+      "reason": "Google Trends daily EC con 200 búsquedas · 3 artículos noticiosos referenciando \"liga pro 2026\"",
+      "proposedPath": "/noticias/liga-pro-2026",
+      "evidence": [
+        {
+          "query": "liga pro 2026",
+          "geo": "EC",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Mundial 2026: los grandes ausentes de Ecuador en la lista oficial de los 26 seleccionados",
+              "url": "https://www.teleamazonas.com/mundial/mundial-2026-grandes-ausentes-ecuador-lista-oficial-26-seleccionados/",
+              "source": "Teleamazonas"
+            },
+            {
+              "title": "Piero, Pacho, Independiente y la selección",
+              "url": "https://www.expreso.ec/opinion/futbol-ecuatoriano-modelo-formativo-impulsa-talento-y-desarrollo-deportivo-284144.html",
+              "source": "expreso.ec"
+            },
+            {
+              "title": "La liga de Brasil es la que más jugadores le aporta a la selección de Ecuador para el Mundial 2026",
+              "url": "https://www.eluniverso.com/deportes/futbol/la-liga-de-brasil-es-la-que-mas-jugadores-le-aporta-a-la-seleccion-de-ecuador-para-el-mundial-2026-nota/",
+              "source": "El Universo"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alreadyCovered": []
+}
