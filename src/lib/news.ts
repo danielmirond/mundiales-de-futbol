@@ -11496,6 +11496,343 @@ Leo Messi, en lo que podría ser su partido de despedida mundialista, juega con 
       license: 'CC BY-SA 4.0',
     },
   },
+
+  {
+    slug: 'fifa-prohibe-botellas-reutilizables-mundial-2026',
+    title: 'FIFA prohíbe las botellas reutilizables en los estadios del Mundial con temperaturas de 32°C',
+    summary: 'FIFA actualizó su Código de Conducta el 2 de junio para prohibir las botellas reutilizables en todos los estadios del Mundial 2026, anulando una norma anterior que las permitía vacías hasta un litro. La decisión llega con el torneo a días de comenzar, en ciudades como Guadalajara, Monterrey o Atlanta donde se esperan más de 32°C. Expertos sanitarios y grupos de aficionados la califican de irresponsable.',
+    body: `FIFA actualizó su Código de Conducta de estadio el pasado 2 de junio con una línea que borra lo que antes era un derecho de los aficionados: llevar una botella reutilizable vacía al partido. El cambio llega a menos de dos semanas del inicio del torneo. Miles de seguidores ya habían planificado sus viajes con esa norma en la cabeza. BC Place, el estadio de Vancouver, tuvo que rectificar públicamente su comunicación previa, que aseguraba que las botellas sí estaban permitidas.
+
+## La decisión y la justificación de FIFA
+
+La justificación oficial es de manual: «seguridad». FIFA alega que las botellas representan un «riesgo de lesión para jugadores y asistentes» y señala que varios estadios asociados ya aplicaban restricciones similares. Lo que no explica es por qué durante semanas el reglamento decía lo contrario, ni por qué otros grandes eventos —incluyendo los Juegos Olímpicos de París 2024— permitieron botellas reutilizables sin incidentes.
+
+La organización promete «estaciones de hidratación, ventiladores, niebla y tiendas de refrigeración» en los accesos. No detalla qué pasa una vez dentro del estadio, donde los únicos puntos de venta de agua son los puestos comerciales del propio recinto. El precio de una botella de agua en un estadio de la NFL o la MLS suele oscilar entre cuatro y siete dólares.
+
+## El riesgo sanitario que niegan
+
+Catorce de los dieciséis estadios del Mundial registrarán temperaturas que los expertos en salud pública consideran peligrosas. Guadalajara, Monterrey, Dallas, Atlanta y Los Ángeles superarán los 32°C en las horas centrales del día durante las fases de grupos. The Guardian calificó la medida de «irresponsable» y recogió testimonios de especialistas en golpes de calor que advierten de riesgo real para mayores, niños y personas con condiciones cardiovasculares.
+
+El argumento de la «seguridad» aplicado a una botella de plástico blando de menos de un litro no convence a nadie que haya pisado un estadio en los últimos veinte años. Las botellas de vidrio o metal sí tienen precedentes como proyectil. El polietileno flexible, no.
+
+## Reacción de los aficionados
+
+El grupo Football Supporters Europe fue el primero en cargar contra FIFA de forma pública, recordando que la propia organización había dado garantías escritas sobre la botella vacía. En redes sociales, el hashtag «FIFA water ban» acumuló millones de impresiones en 48 horas. La ironía más repetida: una organización que cobra entre 200 y 2.000 dólares por entrada preocupada por la «seguridad» de una botella de Nalgene.
+
+Lo que sí está claro es quién se beneficia de la prohibición. La concesión de alimentos y bebidas en los estadios del Mundial 2026 es exclusiva de los patrocinadores oficiales. FIFA no ha respondido a las preguntas sobre si existe relación entre esa exclusividad comercial y la decisión de última hora.`,
+    category: 'polemica',
+    sourceName: 'The Guardian / BBC / Reuters',
+    sourceUrl: 'https://www.theguardian.com/football/2026/jun/04/fifa-bans-reusable-water-bottles-world-cup-stadiums',
+    sourceLang: 'en',
+    publishedAt: '2026-06-05T08:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/8/8b/FIFA_World_Cup_2026_host_cities.svg',
+      alt: 'Mapa ciudades sede Copa Mundial FIFA 2026',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'breel-embolo-vetado-entrada-eeuu-mundial-2026',
+    title: 'Embolo se queda en tierra: EE.UU. le bloquea la entrada por una condena de 2018',
+    summary: 'Breel Embolo, delantero titular de Suiza, no pudo subir al avión del equipo desde Zúrich a Los Ángeles porque las autoridades estadounidenses bloquearon su autorización de viaje. La causa: una condena por altercado verbal en Basilea en 2018, cuyo fallo quedó firme en abril. Embolo acudió de urgencia a la embajada y finalmente obtuvo el visado. Suiza debuta el 13 de junio.',
+    body: `Breel Embolo no viajó con el resto de la selección suiza cuando el equipo cogió el vuelo de Zúrich a Los Ángeles para preparar el Mundial 2026. Su ESTA —la autorización electrónica de viaje que usan los ciudadanos de países con acceso sin visado— había sido bloqueada sin previo aviso por las autoridades estadounidenses.
+
+## Por qué Embolo no podía entrar a EE.UU.
+
+El motivo: una condena penal por un altercado verbal en el centro de Basilea en 2018. El fallo fue recurrido, el recurso se desestimó en septiembre de 2025 y la sentencia quedó firme en abril de 2026, semanas antes del Mundial. Con una condena firme, el sistema ESTA bloquea automáticamente la entrada y exige un visado convencional con revisión consular.
+
+Embolo se presentó de urgencia en la embajada estadounidense en Berna. La Federación Suiza explicó que «las consultas de la embajada se centraron específicamente en si había habido violencia física». No la hubo. El altercado fue verbal. Con esa aclaración, el visado se aprobó en pocas horas. La federación confirmó: «Acabamos de saber que el visado de Breel Embolo ha sido aprobado».
+
+El episodio deja a Suiza con un problema logístico real: Embolo se incorpora al grupo con días de retraso y se pierde parte de la preparación en suelo americano. No es el mejor arranque para afrontar una fase de grupos con España y Alemania.
+
+## El impacto en el esquema de Murat Yakin
+
+Embolo es el nueve de referencia de Yakin. Con 27 años y una buena temporada en el Mónaco, era el nombre fijo en la punta del ataque. Su baja temporal no cambia la convocatoria, pero sí afecta la puesta a punto física y la cohesión con Xherdan Shaqiri o Ruben Vargas.
+
+Suiza debuta el 13 de junio. El caso Embolo ilustra un problema más amplio: la política de inmigración de EE.UU., endurecida en los últimos meses, choca de frente con la logística de un Mundial que acoge a cientos de futbolistas con historiales legales en sus países de origen. El caso Embolo probablemente no será el último.`,
+    category: 'general',
+    sourceName: 'Politico / ESPN',
+    sourceUrl: 'https://www.politico.eu/article/switzerlands-star-striker-breel-embolo-barred-from-entering-us-ahead-of-world-cup/',
+    sourceLang: 'en',
+    publishedAt: '2026-06-05T10:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/9/90/Sanae_Takaichi_FIFA_World_Cup_2026_trophy_tour_05.jpg',
+      alt: 'Trofeo Copa del Mundo FIFA 2026',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'nuevas-reglas-mundial-2026-tiempo-perdido-portero',
+    title: 'El Mundial 2026 prohíbe el timeout del portero lesionado y estrena el fuera de juego en tiempo real',
+    summary: 'FIFA e IFAB introducen los cambios reglamentarios más significativos en años. El portero que finja una lesión para que su equipo reciba instrucciones del banquillo será amonestado. El fuera de juego semiautomático emite señal inmediata cuando la ventaja supera diez centímetros. Y una nueva regla de sustitución temporal ya demostró su impacto en el amistoso Japón-Islandia, donde el combinado nipón marcó el gol de la victoria aprovechándola.',
+    body: `Cada edición del Mundial arrastra algún retoque reglamentario. El de 2026 trae los más sustanciales desde la introducción del VAR. FIFA e IFAB los aplicarán desde el primer partido del torneo, y algunos ya se han estrenado en amistosos preparatorios con resultados inmediatos.
+
+## La regla del portero lesionado que acaba hoy
+
+La escena es conocida. El portero cae al suelo sin que nadie le haya tocado. El árbitro para el juego. Los once jugadores del equipo se acercan al banquillo durante dos o tres minutos mientras el técnico habla. El portero se recupera milagrosamente en cuanto termina la charla.
+
+A partir del Mundial 2026, eso tiene consecuencias. Los árbitros serán proactivos en detectar estas situaciones y podrán mostrar tarjeta amarilla al portero. IFAB es explícito: «No permitiremos que los equipos se acerquen al banquillo cuando el portero esté tendido en el suelo». También hay una medida paralela que limita el tiempo de sustitución: el jugador sustituido tiene diez segundos para abandonar el terreno de juego.
+
+## El fuera de juego semiautomático llega al Mundial
+
+El VAR de fuera de juego ha sido, junto al tiempo añadido largo, la fuente de más quejas en Qatar 2022. Las esperas de tres y cuatro minutos para validar un gol con una línea de centímetros sobre el hombro de un defensa tensaron a aficionados de todo el mundo.
+
+El nuevo sistema cambia el protocolo. Cuando el fuera de juego supera diez centímetros, el asistente recibe una señal de audio inmediata y levanta el banderín sin esperar revisión posterior. La tecnología del balón inteligente —con chip que transmite datos 500 veces por segundo— determina el instante exacto de contacto del pie con el balón, eliminando el margen de error que generaba esas largas pausas.
+
+## El ejemplo del amistoso: Japón se beneficia
+
+La regla de sustitución temporal —que permite incorporar momentáneamente a un jugador mientras un compañero es atendido— ya tuvo protagonismo antes del torneo. En el amistoso Japón-Islandia, la nueva norma dejó al combinado islandés con diez hombres durante una atención médica. En ese intervalo, Japón construyó la jugada que terminó con el gol de la victoria en el minuto 87.
+
+El ejemplo es ilustrativo: las reglas no son neutras. Los equipos que las conozcan mejor y las gestionen más rápido van a tener ventaja real sobre el campo.`,
+    category: 'tecnico',
+    sourceName: 'TalkSPORT / BBC / IFAB',
+    sourceUrl: 'https://talksport.com/football/world-cup/4297570/new-world-cup-rule-player-stopped-entering-pitch/',
+    sourceLang: 'en',
+    publishedAt: '2026-06-05T12:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/9/90/Sanae_Takaichi_FIFA_World_Cup_2026_trophy_tour_05.jpg',
+      alt: 'Copa del Mundo FIFA 2026',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'luis-suarez-fuera-convocatoria-uruguay-mundial-2026',
+    title: 'Bielsa no lleva a Suárez al Mundial: el mayor goleador de Uruguay se queda en Miami',
+    summary: 'Marcelo Bielsa no incluyó a Luis Suárez en la convocatoria de Uruguay para el Mundial 2026. El delantero de 39 años, máximo goleador histórico charrúa con 69 tantos, había pedido volver de su retiro internacional y se disculpó con Bielsa tras criticarle en 2024. No fue suficiente. Será el primer Mundial desde 2006 en que Uruguay juegue sin él. Darwin Núñez lidera ahora el ataque.',
+    body: `Luis Suárez no estará en el Mundial 2026. Marcelo Bielsa anunció su lista de 26 jugadores y el nombre del máximo goleador de la historia de Uruguay brilló por su ausencia. Cuatro Mundiales —Alemania 2006, Sudáfrica 2010, Brasil 2014, Rusia 2018— y ahora el quinto se juega sin él.
+
+## El adiós que no pudo ser
+
+La relación entre Suárez y Bielsa se rompió en 2024 cuando el delantero, entonces en Inter Miami, criticó públicamente al técnico argentino, acusándole de fracturar el vestuario. Bielsa no le convocó más. Meses después, con el Mundial en el horizonte, Suárez dio marcha atrás: se disculpó, abrió la puerta a su regreso y dejó claro que quería despedirse en un gran torneo.
+
+Suárez lleva goles en su temporada con el Inter Miami. No son números de alguien que ha colgado las botas. Tiene 39 años y sigue siendo funcional en el área. Pero Bielsa no le vio en su proyecto. El técnico optó por solo tres delanteros en la lista, ninguno de ellos Suárez.
+
+El recuerdo más vivo en un Mundial sigue siendo Sudáfrica 2010: la parada con la mano en el área en el minuto 120 ante Ghana en cuartos, la expulsión, la tanda de penaltis ganada por Uruguay. Un gesto que divide a quienes lo ven como trampa y a quienes lo ven como sacrificio. Suárez nunca se disculpó por eso. Tampoco hacía falta.
+
+## Uruguay sin Suárez: las opciones de Bielsa
+
+Darwin Núñez es el nombre propio del ataque uruguayo para este Mundial. El delantero llega con 25 años, velocidad y una capacidad de presión alta que encaja perfectamente en el sistema de Bielsa. Junto a él, Facundo Torres y algunos perfiles jóvenes completan las opciones ofensivas.
+
+Uruguay juega el Grupo J junto a Argentina, Jordania y Argelia. El partido ante la Albiceleste será el más observado de esa fase. Sin Suárez, el peso emocional y goleador recae sobre Núñez. Es un relevo que lleva tiempo fraguándose. Este Mundial lo hace definitivo.`,
+    category: 'jugadores',
+    sourceName: 'Fabrizio Romano / Goal',
+    sourceUrl: 'https://x.com/FabrizioRomano/status/2061084284861939922',
+    sourceLang: 'en',
+    publishedAt: '2026-06-05T14:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/e/ee/Marcelo_Bielsa_OM_2015.jpg',
+      alt: 'Marcelo Bielsa, seleccionador de Uruguay',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'inteligencia-artificial-balon-mundial-2026-tecnologia',
+    title: 'El balón del Mundial 2026 tiene un chip que transmite datos 500 veces por segundo',
+    summary: 'El balón oficial del Mundial 2026 fabricado por Adidas lleva en su interior un sensor de movimiento con inteligencia artificial que registra velocidad, rotación, trayectoria y el instante exacto del contacto del pie. Se carga por inducción antes de cada partido y sus datos alimentan en tiempo real el sistema de fuera de juego semiautomático. Es la primera Copa del Mundo con esta tecnología integrada en el propio esférico.',
+    body: `Adidas le llama Trionda. Se carga como un móvil, piensa como un ordenador y juega como un balón. El esférico oficial del Mundial 2026 es el dispositivo más sofisticado que ha rodado por un campo de fútbol, y su influencia no se limita al plano estético: cambia cómo se arbitran los partidos.
+
+## Qué lleva el balón dentro
+
+En el interior del Trionda hay un chip sensor alojado en una capa especial construida dentro de uno de los cuatro paneles. Para compensar el peso y no alterar la aerodinámica, los otros tres paneles incorporan contrapesos calculados con precisión. El resultado es un balón que vuela igual que sus predecesores pero que, por dentro, transmite datos continuamente.
+
+El sensor registra hasta 500 lecturas por segundo. Cada una incluye velocidad de desplazamiento, velocidad de rotación, orientación en el espacio y posición exacta en el campo. Antes de cada partido, el balón se carga mediante inducción electromagnética para garantizar que el sensor funciona durante los 90 minutos y la eventual prórroga.
+
+Adidas desarrolló esta tecnología en colaboración con FIFA. No es la primera vez que se usa en competición profesional —la Bundesliga y la Serie A llevan temporadas con versiones más básicas— pero sí es la primera vez que un balón de esta capacidad se usa en una Copa del Mundo.
+
+## Cómo cambia el arbitraje
+
+El impacto más directo está en el fuera de juego. El sistema de detección semiautomático necesita saber con precisión milimétrica en qué momento exacto el jugador toca el balón para calcular si el receptor estaba en posición legal. Hasta ahora, ese momento se determinaba con cámaras externas y un proceso que podía durar varios minutos.
+
+Con el chip integrado, ese instante queda registrado con una precisión de milisegundos. Los datos se transmiten en tiempo real a la sala del VAR, donde el sistema cruza la información con las cámaras de rastreo de jugadores para generar el veredicto en segundos. Cuando la ventaja supera diez centímetros, el asistente recibe una señal de audio inmediata y levanta el banderín sin esperar la revisión completa.
+
+El mismo sensor también puede detectar contactos inadvertidos de mano en jugadas confusas. Si el balón roza un brazo antes de llegar al gol, el chip registra ese impacto aunque las cámaras no lo capten con claridad suficiente.`,
+    category: 'curiosa',
+    sourceName: 'SBS News / BBC News',
+    sourceUrl: 'https://www.sbs.com.au/news/article/fifa-tech-heavy-world-cup-chargeable-ball-ai-avatars/p9anynqpc',
+    sourceLang: 'en',
+    publishedAt: '2026-06-05T16:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/9/90/Sanae_Takaichi_FIFA_World_Cup_2026_trophy_tour_05.jpg',
+      alt: 'Trofeo FIFA Copa del Mundo 2026',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: '2300-hinchas-ingleses-escoceses-vetados-mundial-2026',
+    title: 'Más de 2.300 aficionados británicos deben entregar sus pasaportes para no viajar al Mundial',
+    summary: 'El Gobierno británico obliga a más de 2.300 personas con órdenes de alejamiento judiciales (football banning orders) a entregar su pasaporte antes del 2 de junio. El mecanismo impide que hinchas condenados por violencia viajen al Mundial de EE.UU., México y Canadá. Quien incumpla se enfrenta a multa ilimitada y hasta seis meses de cárcel. Es una de las cifras más altas registradas.',
+    body: `El 2 de junio fue la fecha límite. Más de 2.300 aficionados en Inglaterra y Gales con una football banning order activa tuvieron que entregar su pasaporte a la policía. Sin documento, sin Mundial. El mecanismo funciona: la policía retiene esos pasaportes hasta el 19 de julio, día de la final en MetLife Stadium.
+
+La medida no es nueva, pero el volumen sí llama la atención. Es una de las cifras más altas registradas de cara a un torneo internacional. El dato refleja que el número de órdenes de alejamiento relacionadas con el fútbol en el Reino Unido sigue siendo elevado, décadas después de los peores episodios del hooliganismo.
+
+## Qué es una banning order y por qué importa en un Mundial
+
+Una football banning order es una sanción judicial, no administrativa. La impone un tribunal y puede durar hasta diez años. No es una advertencia: es una condena que restringe la libertad de movimiento del afectado cada vez que la selección nacional o su club juega en el extranjero.
+
+Las causas que llevan a una banning order abarcan un espectro amplio: desórdenes públicos, violencia, tráfico de entradas, cánticos de odio, delitos de drogas relacionados con partidos y, más recientemente, delitos de odio cometidos en internet vinculados al fútbol. El sistema existe desde 1989, después del desastre de Hillsborough, y se reforzó tras los episodios de violencia en la Eurocopa de 2000.
+
+Quien incumple una banning order se enfrenta a una multa sin tope máximo y hasta seis meses de prisión.
+
+## El número más alto en años
+
+Se esperan alrededor de 65.000 aficionados británicos en el torneo, repartidos entre las sedes de EE.UU., México y Canadá. Frente a ese volumen, los 2.300 casos representan un porcentaje pequeño, pero la tendencia al alza preocupa a las autoridades.
+
+El Mundial de 2026 es, logísticamente, uno de los más complejos para gestionar estas restricciones. Con 16 sedes en tres países y partidos que pueden celebrarse con días de diferencia a miles de kilómetros, el control de quién entra y quién no requiere coordinación entre cuerpos policiales de distintas jurisdicciones.
+
+FIFA y UEFA llevan años presionando a los gobiernos para que amplíen este tipo de controles. El Mundial en suelo norteamericano, con toda la exposición mediática que conlleva, convierte el cumplimiento en una cuestión de imagen para el fútbol inglés, todavía perseguido por el fantasma de su pasado.`,
+    category: 'polemica',
+    sourceName: 'Sky Sports',
+    sourceUrl: 'https://www.skysports.com/football/news/11095/13549925/world-cup-2026-over-2-300-england-and-scotland-football-fans-banned-from-travelling-to-usa-canada-and-mexico',
+    sourceLang: 'en',
+    publishedAt: '2026-06-05T18:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/f/fa/Jude_Bellingham_WC2022.jpg',
+      alt: 'Jude Bellingham con la selección inglesa en el Mundial de Qatar 2022',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'matematico-aleman-predice-ganador-mundial-2026',
+    title: 'El matemático que acertó tres Mundiales seguidos apuesta ahora por Países Bajos',
+    summary: 'Joachim Klement, matemático alemán, predijo correctamente a Alemania en 2014, Francia en 2018 y Argentina en 2022. Su modelo, que combina PIB per cápita, población, peso social del fútbol y ranking FIFA, señala ahora a Países Bajos como ganador del Mundial 2026, con Portugal en la final. El propio Klement advierte: apostar basándose en su modelo es de locos.',
+    body: `Tres de tres. Joachim Klement predijo a Alemania en 2014, a Francia en 2018 y a Argentina en 2022. Los tres acertó. Ahora su modelo apunta a Países Bajos para levantar el trofeo en el MetLife Stadium el 19 de julio.
+
+Klement es matemático y economista alemán. No trabaja para ninguna federación ni para ningún club. Construyó su modelo hace años, casi como ejercicio intelectual, y la prensa deportiva lo ha convertido en un oráculo involuntario. Él mismo se encarga de desinflar las expectativas cada vez que alguien le pregunta.
+
+## Tres aciertos seguidos: ¿brujería o matemáticas?
+
+El modelo no predice resultados partido a partido. Calcula probabilidades a nivel de selección nacional a partir de cuatro variables principales: el PIB per cápita del país —como indicador de inversión en infraestructura deportiva—, el tamaño de la población, el peso social del fútbol en esa sociedad y la posición en el ranking FIFA. A eso se le añade, en palabras del propio Klement, «un elemento de azar».
+
+Que los tres últimos ganadores hayan coincidido con su pronóstico puede ser resultado del modelo, de la suerte, o de ambas. Klement lo sabe: «Es completamente irracional. Quien apueste basándose en mi predicción está más allá de toda ayuda».
+
+## Qué dice el modelo para 2026
+
+Para este torneo, el modelo sitúa a Países Bajos en la cima. El cuadro que traza Klement lleva a los neerlandeses a semifinales contra España, a la que eliminarían. En la otra semifinal, Portugal se impondría a Inglaterra. La final enfrentaría a Países Bajos contra Portugal.
+
+La elección de Países Bajos no carece de lógica deportiva. La selección de Ronald Koeman llega en un momento de construcción sólida, con una generación joven y con calidad para competir con cualquier equipo. El modelo de Klement no puntúa únicamente talento: puntúa contexto.
+
+Países Bajos tiene la condición de selección que nunca ha ganado un Mundial pese a haber disputado tres finales (1974, 1978, 2010). Si el modelo acierta por cuarta vez, la discusión sobre si Klement tiene un método o simplemente suerte se volverá mucho más interesante.`,
+    category: 'curiosa',
+    sourceName: 'beIN Sports',
+    sourceUrl: 'https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/the-german-mathematician-who-predicted-the-last-three-world-cup-champions-germany-france-and-argentina-2026-06-03',
+    sourceLang: 'en',
+    publishedAt: '2026-06-06T08:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/5/5d/20160604_AUT_NED_8876_%28cropped%29.jpg',
+      alt: 'Selección de Países Bajos en acción',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'argentina-messi-llegan-kansas-city-mundial-2026',
+    title: 'Argentina aterriza en Kansas City con Messi tocado y sirenas de tornado como bienvenida',
+    summary: 'El campeón del mundo llegó a su base del Mundial el 1 de junio. El vuelo charter llevaba el número 1978, homenaje al primer título argentino. Messi viajó por separado desde Florida con una sobrecarga en el isquiotibial izquierdo. La noche siguiente, sirenas de tornado despertaron al equipo en el hotel. Argentina debuta el 16 de junio ante Argelia en Arrowhead Stadium.',
+    body: `El avión tenía el número de vuelo 1978. No fue casualidad. El Airbus A330 de Aerolíneas Argentinas que transportó a la selección argentina a Kansas City llevaba pintados los colores nacionales y el dorsal 10 en la cola. El detalle lo dice todo sobre cómo Argentina llega a este torneo: con la carga de ser campeona del mundo y con la conciencia de que puede ser la última vez.
+
+La mayor parte del plantel llegó el 1 de junio al aeropuerto de Kansas City. Messi viajó aparte, en un vuelo desde Florida, y se unió al grupo unas horas después. Cientos de aficionados esperaban en el exterior del Origin Hotel, en el Berkley Riverfront, donde la selección tiene su sede.
+
+## Messi en Kansas City: la última vez
+
+Lionel Messi tiene 38 años y ha confirmado que este es su último Mundial. La frase ya la pronunció antes de Qatar 2022, pero esta vez parece definitiva. En Kansas City, la ciudad se ha paralizado en torno a su presencia de una forma que pocos eventos generan en Estados Unidos.
+
+El problema es físico. Messi llega con una sobrecarga muscular en el isquiotibial izquierdo. Su recuperación depende de «su evolución clínica y funcional», según el cuerpo técnico. En los primeros entrenamientos trabajó al margen del grupo principal. No jugará en los amistosos previos.
+
+El objetivo es tenerle al cien por cien para el 16 de junio, cuando Argentina debuta ante Argelia en Arrowhead Stadium, la casa de los Kansas City Chiefs.
+
+## Una ciudad que se para
+
+Kansas City espera 650.000 visitantes durante el torneo. Los hoteles reportan ocupaciones superiores al 50% en días de partido, con tarifas que han subido una media de 150 dólares respecto al año anterior.
+
+La mañana después de la llegada del equipo, la ciudad ofreció una bienvenida característica del Medio Oeste: truenos, lluvia intensa y sirenas de tornado. El sistema de alerta despertó a los jugadores en el hotel. Bienvenidos a Kansas City.
+
+La afición argentina también llegó por tierra. Tres ciclistas de Gualeguaychú completaron 10.000 kilómetros desde Argentina en 300 días para estar presentes en el debut. La imagen resume lo que representa este Mundial para los argentinos: no es solo un torneo, es una peregrinación.`,
+    category: 'general',
+    sourceName: 'ESPN / FOX4 Kansas City',
+    sourceUrl: 'https://www.espn.com/soccer/story/_/id/48930701/argentina-arrival-world-cup-doubles-messi-tribute',
+    sourceLang: 'en',
+    publishedAt: '2026-06-06T10:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/c/c4/Scaloni_-_ARG_v_CAN_-_2024-07-09.jpg',
+      alt: 'Lionel Scaloni dirige a Argentina durante la Copa América 2024',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'entradas-mundial-2026-sin-vender-canada-vancouver-toronto',
+    title: 'El Mundial llega a Canadá con miles de entradas sin vender y FIFA en conflicto con la ley de Ontario',
+    summary: 'A menos de dos semanas del inicio del torneo, quedan entradas para partidos en Toronto y Vancouver. Los precios se consideran prohibitivos para muchos canadienses. Ontario aprobó una ley que obliga a revender a precio de coste y FIFA retiró los tickets de Toronto de su plataforma de reventa. La tensión entre la organización y el gobierno provincial es abierta.',
+    body: `El Mundial empieza en menos de dos semanas y en Toronto y Vancouver todavía hay entradas. Las plataformas de venta oficial siguen mostrando disponibilidad para varios partidos de la fase de grupos en ambas ciudades canadienses. Para un torneo que se presenta como el más grande de la historia, la imagen no es la que FIFA esperaba en los mercados anfitriones.
+
+El diagnóstico es sencillo: los precios son demasiado altos para el aficionado local. Las organizaciones de seguidores llevan meses usando el adjetivo «extorsionador» para describir la estructura tarifaria de FIFA, que combina precios base elevados con una plataforma de reventa propia donde la organización cobra un 15% de comisión tanto al vendedor como al comprador.
+
+## Precios que ahuyentan a los anfitriones
+
+Las entradas de categoría más baja para partidos de fase de grupos en Toronto empezaron por encima de los 100 dólares canadienses. Las de categoría media superaban los 300. Para los partidos con mayor seguimiento, los precios de reventa llegaron a multiplicarse por diez antes de que Ontario interviniera.
+
+El resultado es que muchos canadienses, especialmente en ciudades con alto coste de vida como Toronto y Vancouver, simplemente no pueden permitirse ir al Mundial en su propio país. La paradoja es visible: Canadá es uno de los tres países anfitriones, tiene una selección que se ha clasificado con mérito propio y una afición creciente, y sin embargo los estadios corren el riesgo de llenarse principalmente con turistas extranjeros.
+
+Para algunos partidos en Tampa (Florida), los datos citados por medios canadienses apuntaban a más de 50.000 entradas sin colocar en determinados momentos de la preventa.
+
+## FIFA vs la ley de Ontario
+
+El gobierno de Ontario aprobó la Ley de Protección al Aficionado (Putting Fans First Act), que prohíbe la reventa de entradas por encima del precio de coste en eventos celebrados en la provincia. La respuesta de FIFA fue retirar temporalmente de su marketplace los tickets para los seis partidos en Toronto mientras «reconfiguraba» la plataforma para cumplir con la normativa local.
+
+El impacto es directo: quien compró una entrada de reventa a 1.200 dólares canadienses antes de la ley, y quiera venderla ahora, solo puede hacerlo al precio original. FIFA no respondió a las peticiones de comentario de los medios canadienses.
+
+A esto se suma otro frente: el gobierno de Ontario adquirió más de 3.500 entradas con dinero público para redistribuirlas. La oposición cuestionó el gasto y la transparencia del proceso. El gobierno afirma haber colocado la práctica totalidad de esas entradas. Los asientos vacíos hablarán por sí solos.`,
+    category: 'polemica',
+    sourceName: 'Global News / CBC',
+    sourceUrl: 'https://globalnews.ca/news/11876460/fifa-resale-law-non-compliance-warning/',
+    sourceLang: 'en',
+    publishedAt: '2026-06-06T12:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/BC_Place_2014.jpg/1280px-BC_Place_2014.jpg',
+      alt: 'BC Place de Vancouver, sede del Mundial 2026',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'cristiano-ronaldo-record-historico-mundiales-portugal-2026',
+    title: 'Ronaldo llega a su sexto Mundial con 41 años y la historia de Portugal en sus botas',
+    summary: 'Cristiano Ronaldo es el único jugador en la historia que ha marcado en cinco Mundiales consecutivos. En 2026 puede convertirse en el primero en hacerlo en seis. Sus 8 goles en 22 partidos mundialistas lo colocan como referencia histórica de Portugal, país que nunca ha ganado el trofeo. Necesita dos goles más para superar el récord de máximo goleador luso en Copas del Mundo.',
+    body: `Hay datos que el tiempo convierte en imposibles de ignorar. Cristiano Ronaldo tiene 41 años, más de 220 internacionalidades y 143 goles con Portugal. Es el jugador con más partidos y más goles en la historia del fútbol masculino de selecciones. Y este verano va a jugar su sexto Mundial.
+
+No hay otro jugador que haya disputado seis Copas del Mundo. Messi también llega a 2026 con ese número, igualando el récord. Que los dos mejores jugadores de su generación compartan ese hito en el que probablemente sea su último torneo convierte este Mundial en algo que no va a repetirse.
+
+## El último baile de Ronaldo
+
+Ronaldo lo ha confirmado: este es su último Mundial. En Qatar 2022, su gol de penalti ante Ghana fue el único de la fase de grupos. Portugal llegó a cuartos, donde cayó ante Marruecos (1-0). Ronaldo salió del campo llorando. Esa imagen tiene ahora un contexto diferente: en 2026, puede ser la despedida que él quiere escribir.
+
+Bruno Fernandes lleva el brazalete. Bernardo Silva y Joao Neves controlan el juego. Gonçalo Ramos es el delantero de referencia en el sistema. Ronaldo encaja como un nueve que no necesita muchas intervenciones para ser determinante: le basta un balón, un área y la capacidad para estar en el sitio correcto en el momento correcto.
+
+Portugal juega el Grupo K junto a Colombia, República Democrática del Congo y Uzbekistán. La proyección razonable lleva a la selección lusa a una fase eliminatoria en la que puede hacer daño a cualquiera.
+
+## Dos goles para la historia
+
+Los números de Ronaldo en los Mundiales: 22 partidos, 8 goles en cinco ediciones. En 2026, los registros que puede alcanzar son múltiples. El primero: convertirse en el primer jugador de la historia en marcar en seis Mundiales diferentes. El segundo: superar a Messi en número de partidos mundialistas —actualmente Messi acumula 26 en sus cinco participaciones anteriores; Ronaldo llega con 22—. Si Portugal avanza profundo, Ronaldo podría alcanzar o superar esa cifra.
+
+Hay un tercer récord que la aritmética convierte en posible pero que nadie se atreve a nombrar todavía: si Portugal llega a la final y Ronaldo juega, sería el futbolista de mayor edad en disputar una final del Mundial, superando a Dino Zoff, que tenía 40 años cuando Italia ganó el trofeo en 1982. Ronaldo tendría 41 años el día de la final. Si además marca, la historia queda escrita para siempre.`,
+    category: 'jugadores',
+    sourceName: 'ESPN / FIFA',
+    sourceUrl: 'https://x.com/TeamCRonaldo/status/2060720325424517276',
+    sourceLang: 'en',
+    publishedAt: '2026-06-06T14:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/6/6a/Cristiano_Ronaldo_Iran_vs_Portugal.jpg',
+      alt: 'Cristiano Ronaldo con la selección portuguesa',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
 ];
 
 /**
