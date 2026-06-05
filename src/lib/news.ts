@@ -30,7 +30,12 @@ export type NewsCategory =
   | 'polemica'
   | 'tv'
   | 'patrocinios'
-  | 'general';
+  | 'amistosos'
+  | 'lesiones'
+  | 'tecnico'
+  | 'general'
+  | 'historica'
+  | 'curiosa';
 
 export type NewsItem = {
  /** Slug interno · usado en `/noticias/[slug]`. */
@@ -104,6 +109,3314 @@ export function getLocalizedNews(
 }
 
 export const NEWS_ITEMS: NewsItem[] = [
+  // ─── H2H PREVIOS (publicación programada — día antes de cada partido) ───
+  {
+    slug: 'h2h-mexico-sudafrica-mundial-2026-partido-inaugural',
+    title: 'México vs Sudáfrica en el Mundial 2026: el círculo se cierra 16 años después',
+    summary: 'El mismo duelo, el mismo papel, el mismo estadio. México y Sudáfrica repiten el partido que abrió el Mundial 2010 con el gol más icónico de la historia de los Mundiales. Esta vez, el Azteca ruge de local.',
+    body: `Los equipos se enfrentan el día siguiente de la publicación de este artículo. Consulta el historial completo y los datos clave de este partido en los próximos días en mundiales-de-futbol.com.
+
+## Datos del partido
+
+**Grupo:** Ver calendario oficial
+
+**Publicado:** Día anterior al partido
+
+## Historial entre ambas selecciones
+
+El mismo duelo, el mismo papel, el mismo estadio. México y Sudáfrica repiten el partido que abrió el Mundial 2010 con el gol más icónico de la historia de los Mundiales. Esta vez, el Azteca ruge de local.
+
+---
+
+[Ver convocatorias del Mundial 2026](/2026/convocatorias)`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-10T08:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/5/5b/Estadio_Azteca1706p2.jpg',
+      alt: 'Estadio Azteca, Ciudad de México',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'h2h-corea-sur-republica-checa-mundial-2026-grupo-a',
+    title: 'Corea del Sur vs República Checa: Son y Souček se citan por primera vez en un Mundial',
+    summary: 'Dos capitanes que comparten liga en Inglaterra se verán las caras en su primer choque mundialista. Czech Republic masacró a Corea 5-0 en 2001. Son Heung-min quiere reescribir esa historia en Los Ángeles.',
+    body: `Los equipos se enfrentan el día siguiente de la publicación de este artículo. Consulta el historial completo y los datos clave de este partido en los próximos días en mundiales-de-futbol.com.
+
+## Datos del partido
+
+**Grupo:** Ver calendario oficial
+
+**Publicado:** Día anterior al partido
+
+## Historial entre ambas selecciones
+
+Dos capitanes que comparten liga en Inglaterra se verán las caras en su primer choque mundialista. Czech Republic masacró a Corea 5-0 en 2001. Son Heung-min quiere reescribir esa historia en Los Ángeles.
+
+---
+
+[Ver convocatorias del Mundial 2026](/2026/convocatorias)`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-10T10:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/7/79/Son_Heung-min_celebrating_-_13_December_2018_%28cropped%29.jpg',
+      alt: 'Son Heung-min celebrando un gol con Corea del Sur',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'h2h-canada-bosnia-mundial-2026-grupo-b',
+    title: 'Canadá vs Bosnia en Vancouver: Alphonso Davies abre el Mundial en su casa',
+    summary: 'Canadá debuta como co-anfitrión en BC Place con el mejor jugador de su historia. Bosnia llega a su segundo Mundial con Džeko a los 40 años, en lo que podría ser la última actuación de su carrera en un torneo grande.',
+    body: `Los equipos se enfrentan el día siguiente de la publicación de este artículo. Consulta el historial completo y los datos clave de este partido en los próximos días en mundiales-de-futbol.com.
+
+## Datos del partido
+
+**Grupo:** Ver calendario oficial
+
+**Publicado:** Día anterior al partido
+
+## Historial entre ambas selecciones
+
+Canadá debuta como co-anfitrión en BC Place con el mejor jugador de su historia. Bosnia llega a su segundo Mundial con Džeko a los 40 años, en lo que podría ser la última actuación de su carrera en un torneo grande.
+
+---
+
+[Ver convocatorias del Mundial 2026](/2026/convocatorias)`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-11T08:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/BC_Place_2014.jpg/1280px-BC_Place_2014.jpg',
+      alt: 'BC Place, Vancouver, sede del Canadá vs Bosnia del Mundial 2026',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'h2h-usa-paraguay-mundial-2026-grupo-d',
+    title: 'EE.UU. vs Paraguay: 16 años después de los penaltis que quemaron Kansas City',
+    summary: 'Paraguay eliminó a EE.UU. en los octavos del Mundial 2010 desde el punto de penalti. Ahora se encuentran en la fase de grupos con los papeles cambiados: EE.UU. como anfitrión, Paraguay con Almirón y Alfaro buscando repetir la gesta.',
+    body: `Los equipos se enfrentan el día siguiente de la publicación de este artículo. Consulta el historial completo y los datos clave de este partido en los próximos días en mundiales-de-futbol.com.
+
+## Datos del partido
+
+**Grupo:** Ver calendario oficial
+
+**Publicado:** Día anterior al partido
+
+## Historial entre ambas selecciones
+
+Paraguay eliminó a EE.UU. en los octavos del Mundial 2010 desde el punto de penalti. Ahora se encuentran en la fase de grupos con los papeles cambiados: EE.UU. como anfitrión, Paraguay con Almirón y Alfaro buscando repetir la gesta.
+
+---
+
+[Ver convocatorias del Mundial 2026](/2026/convocatorias)`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-11T10:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/0/04/Metlife_stadium_%28Aerial_view%29.jpg',
+      alt: 'MetLife Stadium, Nueva Jersey, sede del EE.UU. vs Paraguay del Mundial 2026',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY 2.0',
+    },
+  },
+  {
+    slug: 'h2h-qatar-suiza-mundial-2026-grupo-b',
+    title: 'Qatar vs Suiza: el anfitrión caído ante el muro suizo de Xhaka',
+    summary: 'Qatar regresa a un Mundial cuatro años después del humillante estreno en casa. Enfrente, la Suiza metódica de Granit Xhaka, en su tercer Mundial consecutivo. Lopetegui busca redención.',
+    body: `Los equipos se enfrentan el día siguiente de la publicación de este artículo. Consulta el historial completo y los datos clave de este partido en los próximos días en mundiales-de-futbol.com.
+
+## Datos del partido
+
+**Grupo:** Ver calendario oficial
+
+**Publicado:** Día anterior al partido
+
+## Historial entre ambas selecciones
+
+Qatar regresa a un Mundial cuatro años después del humillante estreno en casa. Enfrente, la Suiza metódica de Granit Xhaka, en su tercer Mundial consecutivo. Lopetegui busca redención.
+
+---
+
+[Ver convocatorias del Mundial 2026](/2026/convocatorias)`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-12T07:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/9/90/Sanae_Takaichi_FIFA_World_Cup_2026_trophy_tour_05.jpg',
+      alt: 'Trofeo Copa del Mundo FIFA 2026',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY 4.0',
+    },
+  },
+  {
+    slug: 'h2h-brasil-marruecos-mundial-2026-grupo-c',
+    title: 'Brasil vs Marruecos: los compañeros del PSG se miran de frente',
+    summary: 'Marquinhos y Hakimi comparten vestuario en París, celebran títulos juntos y se conocen en la intimidad. En el Mundial, son capitanes rivales. Marruecos ganó a Brasil por primera vez en la historia en 2023.',
+    body: `Los equipos se enfrentan el día siguiente de la publicación de este artículo. Consulta el historial completo y los datos clave de este partido en los próximos días en mundiales-de-futbol.com.
+
+## Datos del partido
+
+**Grupo:** Ver calendario oficial
+
+**Publicado:** Día anterior al partido
+
+## Historial entre ambas selecciones
+
+Marquinhos y Hakimi comparten vestuario en París, celebran títulos juntos y se conocen en la intimidad. En el Mundial, son capitanes rivales. Marruecos ganó a Brasil por primera vez en la historia en 2023.
+
+---
+
+[Ver convocatorias del Mundial 2026](/2026/convocatorias)`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-12T09:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/5/52/HakimiAchraf.jpg',
+      alt: 'Achraf Hakimi con la selección de Marruecos',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'h2h-haiti-escocia-mundial-2026-grupo-c',
+    title: 'Haití vs Escocia: dos regresos, un partido que nunca ha existido',
+    summary: 'Haití vuelve al Mundial 52 años después. Escocia lo hace tras 24 de ausencia. Nunca se han enfrentado. Todo es historia por escribir.',
+    body: `Los equipos se enfrentan el día siguiente de la publicación de este artículo. Consulta el historial completo y los datos clave de este partido en los próximos días en mundiales-de-futbol.com.
+
+## Datos del partido
+
+**Grupo:** Ver calendario oficial
+
+**Publicado:** Día anterior al partido
+
+## Historial entre ambas selecciones
+
+Haití vuelve al Mundial 52 años después. Escocia lo hace tras 24 de ausencia. Nunca se han enfrentado. Todo es historia por escribir.
+
+---
+
+[Ver convocatorias del Mundial 2026](/2026/convocatorias)`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-12T11:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/3/31/Haiti_national_football_team_after_training_in_Port-au-Prince_2004-08-16.jpg',
+      alt: 'Selección nacional de fútbol de Haití',
+      credit: 'Agência Brasil',
+      license: 'CC BY 3.0 BR',
+    },
+  },
+  {
+    slug: 'h2h-australia-turquia-mundial-2026-grupo-d',
+    title: 'Australia vs Turquía: Arda Güler ante su primer Mundial',
+    summary: 'Turquía regresa al Mundial por primera vez desde 2002. Su estrella es un mediapunta del Real Madrid de 20 años que llega con las dudas de una lesión. Australia, en su tercer Mundial consecutivo, conoce la presión.',
+    body: `Los equipos se enfrentan el día siguiente de la publicación de este artículo. Consulta el historial completo y los datos clave de este partido en los próximos días en mundiales-de-futbol.com.
+
+## Datos del partido
+
+**Grupo:** Ver calendario oficial
+
+**Publicado:** Día anterior al partido
+
+## Historial entre ambas selecciones
+
+Turquía regresa al Mundial por primera vez desde 2002. Su estrella es un mediapunta del Real Madrid de 20 años que llega con las dudas de una lesión. Australia, en su tercer Mundial consecutivo, conoce la presión.
+
+---
+
+[Ver convocatorias del Mundial 2026](/2026/convocatorias)`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-12T13:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/7/79/Kenan_Yildiz_Juventus_%28cropped%29.jpg',
+      alt: 'Kenan Yildiz, Juventus',
+      credit: 'Wikimedia Commons',
+      license: 'CC0 1.0',
+    },
+  },
+  {
+    slug: 'h2h-alemania-curacao-mundial-2026-grupo-e',
+    title: 'Alemania vs Curazao: 158.000 personas contra una potencia mundial',
+    summary: 'Curazao debuta en un Mundial con Dick Advocaat en el banquillo a los 79 años. Son la nación más pequeña en la historia del torneo. Enfrente, cuatro veces campeones del mundo.',
+    body: `Los equipos se enfrentan el día siguiente de la publicación de este artículo. Consulta el historial completo y los datos clave de este partido en los próximos días en mundiales-de-futbol.com.
+
+## Datos del partido
+
+**Grupo:** Ver calendario oficial
+
+**Publicado:** Día anterior al partido
+
+## Historial entre ambas selecciones
+
+Curazao debuta en un Mundial con Dick Advocaat en el banquillo a los 79 años. Son la nación más pequeña en la historia del torneo. Enfrente, cuatro veces campeones del mundo.
+
+---
+
+[Ver convocatorias del Mundial 2026](/2026/convocatorias)`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-13T07:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/5/58/Florian_Wirtz%2C_2022-07-31%2C_Saisoner%C3%B6ffnung_Bayer_04%2C_Leverkusen_%281%29.jpg',
+      alt: 'Florian Wirtz, Bayer Leverkusen',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'h2h-holanda-japon-mundial-2026-grupo-f',
+    title: 'Países Bajos vs Japón: el Liverpool conecta a dos rivales',
+    summary: 'Van Dijk y Tomiyasu son compañeros en el Arsenal. Gravenberch y Endo juegan en el Liverpool. Cuatro futbolistas de Premier League en lados opuestos del campo. En 2010 Sneijder decidió en Durban.',
+    body: `Los equipos se enfrentan el día siguiente de la publicación de este artículo. Consulta el historial completo y los datos clave de este partido en los próximos días en mundiales-de-futbol.com.
+
+## Datos del partido
+
+**Grupo:** Ver calendario oficial
+
+**Publicado:** Día anterior al partido
+
+## Historial entre ambas selecciones
+
+Van Dijk y Tomiyasu son compañeros en el Arsenal. Gravenberch y Endo juegan en el Liverpool. Cuatro futbolistas de Premier League en lados opuestos del campo. En 2010 Sneijder decidió en Durban.
+
+---
+
+[Ver convocatorias del Mundial 2026](/2026/convocatorias)`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-13T09:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/5/5d/20160604_AUT_NED_8876_%28cropped%29.jpg',
+      alt: 'Virgil van Dijk con los Países Bajos',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 3.0',
+    },
+  },
+  {
+    slug: 'h2h-costa-marfil-ecuador-mundial-2026-grupo-e',
+    title: 'Costa de Marfil vs Ecuador: Caicedo llega con 115 millones encima',
+    summary: 'Moisés Caicedo es el fichaje más caro de la historia del Chelsea. Este es su primer Mundial como indiscutible. Enfrente, Enner Valencia en su tercera Copa del Mundo con 36 años.',
+    body: `Los equipos se enfrentan el día siguiente de la publicación de este artículo. Consulta el historial completo y los datos clave de este partido en los próximos días en mundiales-de-futbol.com.
+
+## Datos del partido
+
+**Grupo:** Ver calendario oficial
+
+**Publicado:** Día anterior al partido
+
+## Historial entre ambas selecciones
+
+Moisés Caicedo es el fichaje más caro de la historia del Chelsea. Este es su primer Mundial como indiscutible. Enfrente, Enner Valencia en su tercera Copa del Mundo con 36 años.
+
+---
+
+[Ver convocatorias del Mundial 2026](/2026/convocatorias)`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-13T11:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/4/43/Franck_Yannick_Kessié.jpg',
+      alt: 'Franck Kessié',
+      credit: 'Wikimedia Commons',
+      license: 'CC0 1.0',
+    },
+  },
+  {
+    slug: 'h2h-suecia-tunez-mundial-2026-grupo-f',
+    title: 'Suecia vs Túnez: Gyökeres llega con 50 goles y 48 años de historia',
+    summary: 'El único precedente entre estas dos selecciones fue en el Mundial de 1978. Viktor Gyökeres acaba de marcar más de 50 goles esta temporada con el Arsenal.',
+    body: `Los equipos se enfrentan el día siguiente de la publicación de este artículo. Consulta el historial completo y los datos clave de este partido en los próximos días en mundiales-de-futbol.com.
+
+## Datos del partido
+
+**Grupo:** Ver calendario oficial
+
+**Publicado:** Día anterior al partido
+
+## Historial entre ambas selecciones
+
+El único precedente entre estas dos selecciones fue en el Mundial de 1978. Viktor Gyökeres acaba de marcar más de 50 goles esta temporada con el Arsenal.
+
+---
+
+[Ver convocatorias del Mundial 2026](/2026/convocatorias)`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-13T13:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/2/22/1_Viktor_Gy%C3%B6keres_2026.jpg',
+      alt: 'Viktor Gyökeres',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'h2h-espana-cabo-verde-mundial-2026-grupo-h',
+    title: 'España vs Cabo Verde: la selección campeona abre su Mundial contra una nación de 525.000 habitantes',
+    summary: 'España debuta en el Mundial 2026 ante Cabo Verde, que disputa su primera Copa del Mundo. Los de Luis de la Fuente llegan como favoritos absolutos. Lamine Yamal, con dudas físicas, es el gran interrogante del once inicial.',
+    body: `Los equipos se enfrentan el día siguiente de la publicación de este artículo. Consulta el historial completo y los datos clave de este partido en los próximos días en mundiales-de-futbol.com.
+
+## Datos del partido
+
+**Grupo:** Ver calendario oficial
+
+**Publicado:** Día anterior al partido
+
+## Historial entre ambas selecciones
+
+España debuta en el Mundial 2026 ante Cabo Verde, que disputa su primera Copa del Mundo. Los de Luis de la Fuente llegan como favoritos absolutos. Lamine Yamal, con dudas físicas, es el gran interrogante del once inicial.
+
+---
+
+[Ver convocatorias del Mundial 2026](/2026/convocatorias)`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-14T08:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/8/8d/Lamine_Yamal%2C_S%C3%A1nchez_se_reuni%C3%B3_con_los_futbolistas_de_la_selecci%C3%B3n_espa%C3%B1ola_tras_ganar_la_Eurocopa_2024_%283%29_%28cropped%29.jpg',
+      alt: 'Lamine Yamal con la selección española tras ganar la Eurocopa 2024',
+      credit: 'La Moncloa - Gobierno de España',
+      license: 'CC BY 4.0',
+    },
+  },
+  {
+    slug: 'h2h-belgica-egipto-mundial-2026-grupo-g',
+    title: 'Bélgica vs Egipto: De Bruyne contra Salah, pero la historia dice que los faraones ganan este duelo',
+    summary: 'Bélgica y Egipto se miden en su primer choque mundialista con un historial que sorprende: Egipto ha ganado dos de sus tres encuentros ante los belgas. Salah fue determinante en el último. Ahora también puede serlo.',
+    body: `Los equipos se enfrentan el día siguiente de la publicación de este artículo. Consulta el historial completo y los datos clave de este partido en los próximos días en mundiales-de-futbol.com.
+
+## Datos del partido
+
+**Grupo:** Ver calendario oficial
+
+**Publicado:** Día anterior al partido
+
+## Historial entre ambas selecciones
+
+Bélgica y Egipto se miden en su primer choque mundialista con un historial que sorprende: Egipto ha ganado dos de sus tres encuentros ante los belgas. Salah fue determinante en el último. Ahora también puede serlo.
+
+---
+
+[Ver convocatorias del Mundial 2026](/2026/convocatorias)`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-14T10:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/e/ea/Mohamed_Salah_2021_CAN_Final.jpg',
+      alt: 'Mohamed Salah en la final de la Copa Africana de Naciones 2021',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'h2h-arabia-saudi-uruguay-mundial-2026-grupo-h',
+    title: 'Arabia Saudí vs Uruguay: ¿puede Al-Dawsari repetir el golpe de Qatar 2022 contra otra potencia sudamericana?',
+    summary: 'Arabia Saudí llega al Mundial 2026 con el crédito de haber eliminado a Argentina en Qatar. Uruguay, con Bielsa en el banquillo y Darwin Núñez en ataque, es un rival diferente pero igual de peligroso.',
+    body: `Los equipos se enfrentan el día siguiente de la publicación de este artículo. Consulta el historial completo y los datos clave de este partido en los próximos días en mundiales-de-futbol.com.
+
+## Datos del partido
+
+**Grupo:** Ver calendario oficial
+
+**Publicado:** Día anterior al partido
+
+## Historial entre ambas selecciones
+
+Arabia Saudí llega al Mundial 2026 con el crédito de haber eliminado a Argentina en Qatar. Uruguay, con Bielsa en el banquillo y Darwin Núñez en ataque, es un rival diferente pero igual de peligroso.
+
+---
+
+[Ver convocatorias del Mundial 2026](/2026/convocatorias)`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-14T12:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/d/d0/Salem_Al-Dawsari.jpg',
+      alt: 'Salem Al-Dawsari, extremo de Arabia Saudí',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 3.0',
+    },
+  },
+  {
+    slug: 'h2h-iran-nueva-zelanda-mundial-2026-grupo-g',
+    title: 'Irán vs Nueva Zelanda: el favorito del Grupo G se mide al equipo más compacto de Oceanía',
+    summary: 'Irán afronta su debut mundialista como uno de los favoritos del Grupo G junto a Bélgica. Nueva Zelanda llega con Chris Wood como referente y una estructura defensiva bien organizada. Mehdi Taremi tendrá que confirmar su nivel.',
+    body: `Los equipos se enfrentan el día siguiente de la publicación de este artículo. Consulta el historial completo y los datos clave de este partido en los próximos días en mundiales-de-futbol.com.
+
+## Datos del partido
+
+**Grupo:** Ver calendario oficial
+
+**Publicado:** Día anterior al partido
+
+## Historial entre ambas selecciones
+
+Irán afronta su debut mundialista como uno de los favoritos del Grupo G junto a Bélgica. Nueva Zelanda llega con Chris Wood como referente y una estructura defensiva bien organizada. Mehdi Taremi tendrá que confirmar su nivel.
+
+---
+
+[Ver convocatorias del Mundial 2026](/2026/convocatorias)`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-14T14:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/9/90/Sanae_Takaichi_FIFA_World_Cup_2026_trophy_tour_05.jpg',
+      alt: 'Trofeo FIFA Copa del Mundo 2026',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY 4.0',
+    },
+  },
+  {
+    slug: 'h2h-francia-senegal-mundial-2026-grupo-i',
+    title: 'Francia vs Senegal: el fantasma de 2002 y Papa Bouba Diop siguen vivos en este partido',
+    summary: 'La última vez que Senegal y Francia se enfrentaron en un Mundial, fue en 2002 y Senegal ganó 1-0 para eliminar al campeón defensor. Han pasado 24 años. Mbappé es ahora la estrella francesa. Mané, a sus 34 años, sigue siendo el líder senegalés.',
+    body: `Los equipos se enfrentan el día siguiente de la publicación de este artículo. Consulta el historial completo y los datos clave de este partido en los próximos días en mundiales-de-futbol.com.
+
+## Datos del partido
+
+**Grupo:** Ver calendario oficial
+
+**Publicado:** Día anterior al partido
+
+## Historial entre ambas selecciones
+
+La última vez que Senegal y Francia se enfrentaron en un Mundial, fue en 2002 y Senegal ganó 1-0 para eliminar al campeón defensor. Han pasado 24 años. Mbappé es ahora la estrella francesa. Mané, a sus 34 años, sigue siendo el líder senegalés.
+
+---
+
+[Ver convocatorias del Mundial 2026](/2026/convocatorias)`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-15T08:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/7/72/Kylian_Mbappe_2017.jpg',
+      alt: 'Kylian Mbappé con la selección francesa',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY 4.0',
+    },
+  },
+  {
+    slug: 'h2h-irak-noruega-mundial-2026-grupo-i',
+    title: 'Irak vs Noruega: dos regresos históricos y un Haaland que nunca ha jugado un Mundial... hasta hoy',
+    summary: 'Irak vuelve al Mundial 40 años después de México 1986. Noruega lo hace 28 años después de Francia 1998. Erling Haaland, el mejor delantero del mundo, debuta en una Copa del Mundo.',
+    body: `Los equipos se enfrentan el día siguiente de la publicación de este artículo. Consulta el historial completo y los datos clave de este partido en los próximos días en mundiales-de-futbol.com.
+
+## Datos del partido
+
+**Grupo:** Ver calendario oficial
+
+**Publicado:** Día anterior al partido
+
+## Historial entre ambas selecciones
+
+Irak vuelve al Mundial 40 años después de México 1986. Noruega lo hace 28 años después de Francia 1998. Erling Haaland, el mejor delantero del mundo, debuta en una Copa del Mundo.
+
+---
+
+[Ver convocatorias del Mundial 2026](/2026/convocatorias)`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-15T10:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/7/75/Norway_Italy_-_June_2025_B_01.jpg',
+      alt: 'Selección de Noruega en partido internacional',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY 4.0',
+    },
+  },
+  {
+    slug: 'h2h-argentina-argelia-mundial-2026-grupo-j',
+    title: 'Argentina vs Argelia: solo se han visto una vez en la historia. Messi marcó dos goles. Era 2007',
+    summary: 'Argentina y Argelia se han enfrentado una sola vez en la historia: un amistoso en 2007 donde Messi de 19 años marcó dos goles en un 4-3. Hoy se ven por segunda vez, pero en un Mundial.',
+    body: `Los equipos se enfrentan el día siguiente de la publicación de este artículo. Consulta el historial completo y los datos clave de este partido en los próximos días en mundiales-de-futbol.com.
+
+## Datos del partido
+
+**Grupo:** Ver calendario oficial
+
+**Publicado:** Día anterior al partido
+
+## Historial entre ambas selecciones
+
+Argentina y Argelia se han enfrentado una sola vez en la historia: un amistoso en 2007 donde Messi de 19 años marcó dos goles en un 4-3. Hoy se ven por segunda vez, pero en un Mundial.
+
+---
+
+[Ver convocatorias del Mundial 2026](/2026/convocatorias)`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-15T12:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/7/7c/Lionel_Scaloni_-_2022.jpg',
+      alt: 'Lionel Scaloni, seleccionador de Argentina',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY 4.0',
+    },
+  },
+  {
+    slug: 'h2h-austria-jordania-mundial-2026-grupo-j',
+    title: 'Austria vs Jordania: debut histórico para los jordanos ante uno de los equipos más organizados de Europa',
+    summary: 'Jordania disputa su primer Mundial. Austria llega con Rangnick en el banquillo y un equipo construido para competir contra cualquier rival europeo. Musa Al-Taamari es el arma de Jordania.',
+    body: `Los equipos se enfrentan el día siguiente de la publicación de este artículo. Consulta el historial completo y los datos clave de este partido en los próximos días en mundiales-de-futbol.com.
+
+## Datos del partido
+
+**Grupo:** Ver calendario oficial
+
+**Publicado:** Día anterior al partido
+
+## Historial entre ambas selecciones
+
+Jordania disputa su primer Mundial. Austria llega con Rangnick en el banquillo y un equipo construido para competir contra cualquier rival europeo. Musa Al-Taamari es el arma de Jordania.
+
+---
+
+[Ver convocatorias del Mundial 2026](/2026/convocatorias)`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-15T14:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/9/90/Sanae_Takaichi_FIFA_World_Cup_2026_trophy_tour_05.jpg',
+      alt: 'Trofeo FIFA Copa del Mundo 2026',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY 4.0',
+    },
+  },
+  {
+    slug: 'h2h-portugal-rd-congo-mundial-2026-grupo-k',
+    title: 'Portugal vs RD Congo: Cristiano Ronaldo a los 41 frente al regreso histórico de Zaire, 52 años después',
+    summary: 'La República Democrática del Congo regresa al Mundial 52 años después. Portugal, con Cristiano Ronaldo posiblemente en su último partido mundialista, recibe a un equipo africano con jugadores en la Premier League.',
+    body: `Los equipos se enfrentan el día siguiente de la publicación de este artículo. Consulta el historial completo y los datos clave de este partido en los próximos días en mundiales-de-futbol.com.
+
+## Datos del partido
+
+**Grupo:** Ver calendario oficial
+
+**Publicado:** Día anterior al partido
+
+## Historial entre ambas selecciones
+
+La República Democrática del Congo regresa al Mundial 52 años después. Portugal, con Cristiano Ronaldo posiblemente en su último partido mundialista, recibe a un equipo africano con jugadores en la Premier League.
+
+---
+
+[Ver convocatorias del Mundial 2026](/2026/convocatorias)`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-16T08:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/6/6a/Cristiano_Ronaldo_Iran_vs_Portugal.jpg',
+      alt: 'Cristiano Ronaldo con Portugal en partido de Copa del Mundo',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY 4.0',
+    },
+  },
+  {
+    slug: 'h2h-inglaterra-croacia-mundial-2026-grupo-l',
+    title: 'Inglaterra vs Croacia: el tercer capítulo de una rivalidad que empezó con la mayor tragedia inglesa del siglo',
+    summary: 'Croacia eliminó a Inglaterra en las semifinales de Rusia 2018 con un gol de Mandžukić en la prórroga. Inglaterra se vengó en la Eurocopa 2021 con Sterling. Ahora se ven en fase de grupos del Mundial 2026.',
+    body: `Los equipos se enfrentan el día siguiente de la publicación de este artículo. Consulta el historial completo y los datos clave de este partido en los próximos días en mundiales-de-futbol.com.
+
+## Datos del partido
+
+**Grupo:** Ver calendario oficial
+
+**Publicado:** Día anterior al partido
+
+## Historial entre ambas selecciones
+
+Croacia eliminó a Inglaterra en las semifinales de Rusia 2018 con un gol de Mandžukić en la prórroga. Inglaterra se vengó en la Eurocopa 2021 con Sterling. Ahora se ven en fase de grupos del Mundial 2026.
+
+---
+
+[Ver convocatorias del Mundial 2026](/2026/convocatorias)`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-16T10:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/f/fa/Jude_Bellingham_WC2022.jpg',
+      alt: 'Jude Bellingham con la selección inglesa en Qatar 2022',
+      credit: 'Hossein Zohrevand / Tasnim News Agency',
+      license: 'CC BY 4.0',
+    },
+  },
+  {
+    slug: 'h2h-ghana-panama-mundial-2026-grupo-l',
+    title: 'Ghana vs Panamá: el partido que nadie puede perder en el grupo de Inglaterra y Croacia',
+    summary: 'Ghana y Panamá comparten grupo con Inglaterra y Croacia. Ambos saben que si pierden el primer partido, la clasificación se complica casi hasta el límite. Mohammed Kudus contra Amir Murillo.',
+    body: `Los equipos se enfrentan el día siguiente de la publicación de este artículo. Consulta el historial completo y los datos clave de este partido en los próximos días en mundiales-de-futbol.com.
+
+## Datos del partido
+
+**Grupo:** Ver calendario oficial
+
+**Publicado:** Día anterior al partido
+
+## Historial entre ambas selecciones
+
+Ghana y Panamá comparten grupo con Inglaterra y Croacia. Ambos saben que si pierden el primer partido, la clasificación se complica casi hasta el límite. Mohammed Kudus contra Amir Murillo.
+
+---
+
+[Ver convocatorias del Mundial 2026](/2026/convocatorias)`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-16T12:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/4/42/ATL-Madrid-Lokomotiv001-Thomas_%28cropped%29.jpg',
+      alt: 'Thomas Partey con Ghana',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 3.0',
+    },
+  },
+  {
+    slug: 'h2h-uzbekistan-colombia-mundial-2026-grupo-k',
+    title: 'Uzbekistán vs Colombia: el debut más caro de la historia del fútbol uzbeko choca con Luis Díaz y James Rodríguez',
+    summary: 'Uzbekistán debuta en su primera Copa del Mundo con Abdukodir Khusanov, el central que Manchester City pagó 44 millones de euros. Colombia llega con Luis Díaz en el Bayern y James Rodríguez.',
+    body: `Los equipos se enfrentan el día siguiente de la publicación de este artículo. Consulta el historial completo y los datos clave de este partido en los próximos días en mundiales-de-futbol.com.
+
+## Datos del partido
+
+**Grupo:** Ver calendario oficial
+
+**Publicado:** Día anterior al partido
+
+## Historial entre ambas selecciones
+
+Uzbekistán debuta en su primera Copa del Mundo con Abdukodir Khusanov, el central que Manchester City pagó 44 millones de euros. Colombia llega con Luis Díaz en el Bayern y James Rodríguez.
+
+---
+
+[Ver convocatorias del Mundial 2026](/2026/convocatorias)`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-16T14:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/8/80/Luis_D%C3%ADaz%2C_LFC%3B_May_2022.jpg',
+      alt: 'Luis Díaz con el Liverpool',
+      credit: 'Wikimedia Commons',
+      license: 'CC0 1.0',
+    },
+  },
+  {
+    slug: 'h2h-republica-checa-sudafrica-mundial-2026-grupo-a',
+    title: 'República Checa vs Sudáfrica: dos equipos que necesitan el triunfo para mantener opciones',
+    summary: 'República Checa y Sudáfrica llegan a la segunda jornada buscando su primera victoria. Quien gane mantiene opciones reales de clasificación. Quien pierda necesita un milagro en la última jornada.',
+    body: `Los equipos se enfrentan el día siguiente de la publicación de este artículo. Consulta el historial completo y los datos clave de este partido en los próximos días en mundiales-de-futbol.com.
+
+## Datos del partido
+
+**Grupo:** Ver calendario oficial
+
+**Publicado:** Día anterior al partido
+
+## Historial entre ambas selecciones
+
+República Checa y Sudáfrica llegan a la segunda jornada buscando su primera victoria. Quien gane mantiene opciones reales de clasificación. Quien pierda necesita un milagro en la última jornada.
+
+---
+
+[Ver convocatorias del Mundial 2026](/2026/convocatorias)`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-17T08:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/9/90/Sanae_Takaichi_FIFA_World_Cup_2026_trophy_tour_05.jpg',
+      alt: 'Trofeo FIFA Copa del Mundo 2026',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY 4.0',
+    },
+  },
+  {
+    slug: 'h2h-suiza-bosnia-mundial-2026-grupo-b',
+    title: 'Suiza vs Bosnia: Xhaka contra Džeko, el duelo de la Bundesliga se traslada al Mundial',
+    summary: 'Granit Xhaka y Edin Džeko llevan años cruzándose en el fútbol europeo. Ahora se enfrentan en el Mundial con Suiza y Bosnia buscando puntos en el Grupo B. Džeko, con 40 años, juega posiblemente su último partido mundialista.',
+    body: `Los equipos se enfrentan el día siguiente de la publicación de este artículo. Consulta el historial completo y los datos clave de este partido en los próximos días en mundiales-de-futbol.com.
+
+## Datos del partido
+
+**Grupo:** Ver calendario oficial
+
+**Publicado:** Día anterior al partido
+
+## Historial entre ambas selecciones
+
+Granit Xhaka y Edin Džeko llevan años cruzándose en el fútbol europeo. Ahora se enfrentan en el Mundial con Suiza y Bosnia buscando puntos en el Grupo B. Džeko, con 40 años, juega posiblemente su último partido mundialista.
+
+---
+
+[Ver convocatorias del Mundial 2026](/2026/convocatorias)`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-17T10:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/8/85/20150331_2028_AUT_BIH_2186.jpg',
+      alt: 'Bosnia en partido internacional contra Austria',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 3.0 AT',
+    },
+  },
+  {
+    slug: 'h2h-canada-qatar-mundial-2026-grupo-b',
+    title: 'Canadá vs Qatar: el coanfitrión quiere victoria y el campeón de 2022 busca redención',
+    summary: 'Canadá juega en casa, con Alphonso Davies liderando un equipo que debuta en el Mundial 2026 como coanfitrión. Qatar regresa cuatro años después de un torneo donde no ganó un solo partido.',
+    body: `Los equipos se enfrentan el día siguiente de la publicación de este artículo. Consulta el historial completo y los datos clave de este partido en los próximos días en mundiales-de-futbol.com.
+
+## Datos del partido
+
+**Grupo:** Ver calendario oficial
+
+**Publicado:** Día anterior al partido
+
+## Historial entre ambas selecciones
+
+Canadá juega en casa, con Alphonso Davies liderando un equipo que debuta en el Mundial 2026 como coanfitrión. Qatar regresa cuatro años después de un torneo donde no ganó un solo partido.
+
+---
+
+[Ver convocatorias del Mundial 2026](/2026/convocatorias)`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-17T12:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/BC_Place_2014.jpg/1280px-BC_Place_2014.jpg',
+      alt: 'BC Place Stadium en Vancouver',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'h2h-mexico-corea-sur-mundial-2026-grupo-a',
+    title: 'México vs Corea del Sur: Ochoa en su sexto Mundial, Son jugando en su ciudad, y una tabla del Grupo A que cambia todo',
+    summary: 'México juega en su propio Mundial con Santiago Giménez como delantero y Guillermo Ochoa a los 40 años buscando su sexto torneo. Corea del Sur tiene a Son Heung-min, que juega con el LAFC de Los Ángeles.',
+    body: `Los equipos se enfrentan el día siguiente de la publicación de este artículo. Consulta el historial completo y los datos clave de este partido en los próximos días en mundiales-de-futbol.com.
+
+## Datos del partido
+
+**Grupo:** Ver calendario oficial
+
+**Publicado:** Día anterior al partido
+
+## Historial entre ambas selecciones
+
+México juega en su propio Mundial con Santiago Giménez como delantero y Guillermo Ochoa a los 40 años buscando su sexto torneo. Corea del Sur tiene a Son Heung-min, que juega con el LAFC de Los Ángeles.
+
+---
+
+[Ver convocatorias del Mundial 2026](/2026/convocatorias)`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-17T14:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/6/62/Ger-Mex_%2812%29.jpg',
+      alt: 'México en partido de Copa del Mundo',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+
+
+  // ─── 2026-06-05 ───────────────────────────────────────────────────────────
+  {
+    slug: 'penalti-asamoah-gyan-larguero-ghana-uruguay-2010-historia-futbol-africano',
+    title: 'El penalti de Asamoah Gyan contra el larguero que frenó a África en el umbral de la historia',
+    summary: 'El 2 de julio de 2010, Asamoah Gyan lanzó el penalti que hubiera llevado a Ghana a las semifinales del Mundial. Golpeó el larguero. Luis Suárez había parado el gol con la mano 30 segundos antes y lo celebró en el túnel de vestuarios. El fútbol africano sigue esperando su primera semifinal.',
+    body: `Johannesburgo, 2 de julio de 2010. Soccer City. Cuartos de final del Mundial de Sudáfrica. El marcador está 1-1 en el minuto 120 de prórroga cuando ocurre algo que el reglamento no contempla como solución habitual: Luis Suárez para un gol con la mano en la línea de gol.
+
+La secuencia es esta. Dominic Adiyiah remata de cabeza. El balón va dentro. Suárez, que ya no es portero ni tiene esa responsabilidad ni ese derecho, levanta los brazos y lo detiene. Expulsión directa. Penalti para Ghana. El árbitro Olegario Benquerença señala el punto de los once metros.
+
+En el túnel de vestuarios, Luis Suárez celebra como si hubiera marcado un gol.
+
+## Lo que Gyan sabía y lo que pesaba
+
+Asamoah Gyan tiene 22 años. Juega en el Rennes francés. Es el máximo goleador de Ghana en ese torneo. Se acerca al punto de penalti con el mundo entero mirando.
+
+Gyan recibe el balón. Lo coloca. Retrocede. Arranca. Dispara.
+
+El balón golpea el larguero. Entra en el área. Sale. No es gol.
+
+Soccer City enmudece.
+
+## La tanda que cerró la puerta
+
+La prórroga termina sin goles. Hay tanda de penaltis. Uruguay convierte los suyos. Ghana falla dos más. El resultado final: Uruguay pasa a semifinales. Ghana se va a casa.
+
+Es el cuarto de final. Nunca antes ninguna selección africana había llegado a las semifinales de un Mundial. Ghana estaba a un penalti de reescribir esa historia.
+
+El dato que resume la injusticia deportiva: Uruguay llegó a semifinales gracias a una parada ilegal. El reglamento castiga con expulsión y penalti, pero no con la eliminación directa. Suárez lo sabía. Lo calculó en décimas de segundo.
+
+## Lo que dijo Suárez después
+
+Luis Suárez no se arrepintió. Nunca. En diversas entrevistas declaró que volvería a hacer lo mismo. "Fue el mejor momento de mi carrera", llegó a decir. Él cumplió su objetivo. El reglamento le ofreció una salida y la tomó.
+
+La FIFA nunca modificó el reglamento para incluir la posibilidad de gol directo en estos casos. Han pasado 16 años.
+
+## Ghana en el Mundial 2026, 16 años después
+
+Ghana está en el Grupo L del Mundial 2026 junto a Inglaterra, Croacia y Panamá. Thomas Partey, ya con 33 años, podría ser el último gran referente de una generación que mantuvo viva aquella llama.
+
+Marruecos llegó a semifinales en Qatar 2022 y rompió finalmente esa barrera del fútbol africano. Pero para los que estaban en Soccer City aquella noche, la historia tiene una fecha precisa: 2 de julio de 2010. Y un sonido: el metal de un larguero.
+
+[Ver la convocatoria de Ghana para el Mundial 2026](/2026/listas/GHA)`,
+    category: 'historica',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/fifaplus/en/articles/south-africa-2010',
+    sourceLang: 'es',
+    publishedAt: '2026-06-05T07:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/5/5e/Soccer_City_Johannesburg.jpg',
+      alt: 'Soccer City, Johannesburgo, sede de los cuartos de final Ghana-Uruguay en el Mundial 2010',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 3.0',
+    },
+  },
+  {
+    slug: 'franco-baresi-operacion-menisco-final-mundial-1994-penalti-fallado',
+    title: 'Franco Baresi: operado de menisco en el Mundial, jugó la final 21 días después y falló el primer penalti',
+    summary: 'En el Mundial de Estados Unidos 1994, el capitán de Italia se rompió el menisco en la segunda jornada de grupos. Los médicos dijeron 6-8 semanas. Baresi volvió para los cuartos de final, jugó la final contra Brasil y lanzó el primer penalti de Italia por encima del larguero. Italia perdió.',
+    body: `Hay finales que se pierden por un penalti. Y hay penaltis que solo se entienden cuando sabes lo que costó llegar a lanzarlos.
+
+Franco Baresi, 34 años, capitán del Milan y de Italia, lleva tres semanas haciendo lo que los médicos le dijeron que era imposible. Está de pie en el Rose Bowl de Pasadena, California. Es el 17 de julio de 1994. La final del Mundial contra Brasil ha terminado 0-0 después de 120 minutos. Hay tanda de penaltis.
+
+Baresi se ofrece para lanzar el primero.
+
+## La rodilla rota en un partido contra Noruega
+
+En la segunda jornada de la fase de grupos, Italia jugó contra Noruega. Baresi sufrió una rotura de menisco. Operación inmediata. Los médicos del equipo dieron el diagnóstico: seis a ocho semanas de recuperación. El Mundial terminaba el 17 de julio. Las matemáticas no cuadraban.
+
+Baresi decidió intentarlo de todas formas. La rehabilitación fue acelerada, supervisada y arriesgada.
+
+## El regreso en cuartos
+
+Baresi reaparece en cuartos de final. Juega. El cuerpo aguanta. Juega la semifinal entera. Juega la final entera: 120 minutos más la prórroga, con una rodilla operada 21 días antes.
+
+Es uno de esos hechos del deporte que resultan difíciles de encajar en cualquier narrativa razonable sobre recuperaciones médicas.
+
+## El larguero del Rose Bowl
+
+En la tanda de penaltis, Baresi va primero. Toma carrerilla. Dispara. El balón pasa por encima del larguero.
+
+Marcelo Taffarel, el portero de Brasil, no necesita ni tirarse.
+
+Italia falla tres penaltis en total. Brasil convierte los suyos. Brasil campeón del mundo por cuarta vez.
+
+Baresi se retira de la selección ese verano. La final del 17 de julio de 1994 es su último partido internacional.
+
+## Una carrera que no necesita esa noche
+
+Lo que hace que esta historia sea distinta a la del simple penalti fallado es el contexto médico. Baresi no falló por presión o por un portero excepcional. Falló en un penalti, que es algo que pasa estadísticamente con frecuencia incluso a los mejores. Lo extraordinario es que estuviera allí para lanzarlo.
+
+Su carrera con el Milan es, por encima de esa noche, una de las más brillantes de la historia del fútbol europeo. Tres Copas de Europa. La camiseta número 6 del Milan retirada en su honor.
+
+## Italia en 2026: otra vez fuera
+
+Italia no estará en el Mundial 2026. No se clasificó. Es la tercera ausencia italiana en los últimos cuatro torneos. Baresi tiene 64 años y ocupa un cargo honorífico en el Milan. El Rose Bowl de 1994 queda más lejos cada año. Y más cerca al mismo tiempo.`,
+    category: 'curiosa',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/fifaplus/en/articles/usa-1994',
+    sourceLang: 'es',
+    publishedAt: '2026-06-05T09:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/3/39/Rose_Bowl_Stadium.jpg',
+      alt: 'Rose Bowl Stadium, Pasadena, California, sede de la final del Mundial 1994',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 3.0',
+    },
+  },
+  {
+    slug: 'lamine-yamal-primer-mundial-2026-espana-17-anos-eurocopa',
+    title: 'Lamine Yamal debuta en un Mundial con 17 años y el peso de ser la gran baza de España',
+    summary: 'Lamine Yamal tiene 17 años cuando arranca el Mundial 2026. Ya ganó la Eurocopa 2024 con España a los 16, fue elegido mejor joven del torneo y esta temporada ha consolidado su posición en el FC Barcelona. España lo necesita entero desde el primer partido contra Cabo Verde.',
+    body: `Lamine Yamal cumplirá 18 años el 13 de julio de 2026. Si España llega a la final del Mundial, será el día después. Jugará todo el torneo con 17 años.
+
+El dato no es anecdótico. Es el marco dentro del cual hay que analizar lo que se le pide: ser el jugador diferencial de la selección española en un torneo de 48 equipos, seis semanas de duración y presión máxima. Con 17 años.
+
+## Lo que ya tiene hecho con 17
+
+En julio de 2024, Lamine Yamal ganó la Eurocopa con España. Tenía 16 años. Es el jugador más joven en ganar una Eurocopa en la historia del torneo. En semifinales, marcó el gol del empate contra Francia —un disparo desde la banda que entró por la escuadra— que abrió el camino hacia la final. Tenía 16 años y 362 días.
+
+Esa Eurocopa no fue un accidente de selección ni una apuesta de Luis de la Fuente que salió bien. Yamal fue titular indiscutible, jugó todos los minutos posibles y fue elegido mejor jugador joven del torneo.
+
+## España en el Grupo H
+
+España está encuadrada en el Grupo H junto a Uruguay, Cabo Verde y Arabia Saudí. El debut es contra Cabo Verde. Yamal abrirá su cuenta mundialista desde el primer minuto. Luis de la Fuente no tiene motivos para protegerlo ni para guardarlo: es su mejor jugador y su principal desequilibrador.
+
+## El debate que no tiene respuesta todavía
+
+¿Es ya el mejor jugador del mundo? La pregunta tiene trampa. En términos de impacto directo en partidos grandes, potencial físico y técnico, y precocidad acreditada, ningún jugador de su generación está en su nivel. Pero las comparaciones con Messi requieren una trayectoria de diez años para ser legítimas.
+
+El Mundial es el primer escenario donde Yamal medirá su juego contra defensas físicamente maduras de América del Sur, África y Asia. La Eurocopa se disputó contra equipos europeos. El salto es real.
+
+## España, 16 años después de Sudáfrica
+
+La última vez que España llegó a un Mundial sin ser considerada favorita fue en 2014. Fue eliminada en la fase de grupos tras perder contra Holanda 5-1. La generación de Xavi e Iniesta se disolvió en Brasil en cuatro días.
+
+Lo que viene ahora es diferente. España llega a 2026 con Pedri y Gavi en la sala de máquinas y Yamal en la banda. No como la favorita absoluta, pero sí como un equipo que puede ganar el torneo.
+
+Yamal es el argumento principal de esa candidatura. Tiene 17 años. Y eso, en este contexto, ya no sorprende a nadie.
+
+[Ver la convocatoria de España para el Mundial 2026](/2026/listas/ESP)`,
+    category: 'jugadores',
+    sourceName: 'UEFA',
+    sourceUrl: 'https://www.uefa.com/uefaeuro/history/',
+    sourceLang: 'es',
+    publishedAt: '2026-06-05T11:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/8/8d/Lamine_Yamal%2C_S%C3%A1nchez_se_reuni%C3%B3_con_los_futbolistas_de_la_selecci%C3%B3n_espa%C3%B1ola_tras_ganar_la_Eurocopa_2024_%283%29_%28cropped%29.jpg',
+      alt: 'Lamine Yamal con la selección española tras ganar la Eurocopa 2024',
+      credit: 'Ministerio de la Presidencia de España',
+      license: 'CC BY 4.0',
+    },
+  },
+  {
+    slug: 'grupo-d-mundial-2026-eeuu-turquia-paraguay-australia-horarios-partidos',
+    title: 'Grupo D del Mundial 2026: EEUU abre el torneo ante Turquía con Arda Güler como amenaza real',
+    summary: 'Estados Unidos debuta el 12 de junio en SoFi Stadium ante una Turquía que regresa a un Mundial por primera vez desde 2002. Paraguay y Australia completan un grupo donde los coanfitriones son favoritos pero ningún partido está cerrado antes de jugarse.',
+    body: `El Grupo D del Mundial 2026 tiene un favorito claro, un regreso esperado, una selección sudamericana de perfil bajo y una Oceanía que en Qatar demostró que puede causar problemas.
+
+## Los partidos y los horarios
+
+**Jornada 1**
+- **Estados Unidos vs Turquía** — 12 de junio, 21:00 CEST / 19:00 UTC — SoFi Stadium, Los Ángeles
+- **Australia vs Paraguay** — 13 de junio, 18:00 CEST / 16:00 UTC — MetLife Stadium, Nueva Jersey
+
+**Jornada 2**
+- **Paraguay vs Estados Unidos** — 18 de junio, 00:00 CEST / 22:00 UTC — MetLife Stadium
+- **Turquía vs Australia** — 17 de junio, 21:00 CEST / 19:00 UTC — SoFi Stadium
+
+**Jornada 3** (simultáneos)
+- **Australia vs Estados Unidos** — 22 de junio, 21:00 CEST — SoFi Stadium
+- **Turquía vs Paraguay** — 22 de junio, 21:00 CEST — MetLife Stadium
+
+## Estados Unidos: el anfitrión que quiere más que clasificar
+
+Mauricio Pochettino lleva al equipo desde 2023. Christian Pulisic es la referencia ofensiva, Tyler Adams el ancla del centro del campo. EEUU no llega solo a pasar de grupos. El debut en casa, el 12 de junio en SoFi, será el partido más visto de la historia del fútbol en Estados Unidos.
+
+## Turquía: 24 años de ausencia y Arda Güler
+
+Turquía no jugó un Mundial desde Corea-Japón 2002, donde terminó tercera. Esta selección tiene a **Arda Güler**, 20 años, centrocampista del Real Madrid con una temporada 2025-26 de alto nivel, y a **Hakan Çalhanoğlu**, el mejor mediocampista del Inter de Milán de los últimos dos años.
+
+El regreso turco no es el de un equipo que viene a completar el cuadro. Güler en plena forma puede desequilibrar cualquier partido.
+
+## Paraguay: Alfaro y Almirón, sin complejos
+
+Gustavo Alfaro, el técnico que ya llevó a Ecuador a cuartos en Qatar 2022, dirige a Paraguay. **Miguel Almirón** del Newcastle como referente. **Julio Enciso** del Brighton como joven promesa. Paraguay no tiene el talento individual de EEUU o Turquía, pero Alfaro construye equipos organizados que hacen daño en las transiciones.
+
+## Australia: el tercer Mundial de Leckie
+
+Tony Popovic sustituyó a Graham Arnold tras Qatar. Mathew Ryan como capitán. **Mathew Leckie**, 35 años, juega su tercer Mundial y es el referente de experiencia. En 2022 eliminaron a Dinamarca y llegaron a octavos.
+
+## El pronóstico
+
+EEUU primero. El segundo puesto abierto entre Turquía y Paraguay, con Australia como complicación posible.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-05T13:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/d/d5/SoFi_Stadium_-_2020.jpg',
+      alt: 'SoFi Stadium, Inglewood, Los Ángeles, sede del debut de Estados Unidos en el Mundial 2026',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'gol-iniesta-final-mundial-2010-espana-campeona-mundo-primera-vez',
+    title: 'El gol de Iniesta en el minuto 116 que hizo a España campeona del mundo por primera vez',
+    summary: 'El 11 de julio de 2010, Andrés Iniesta recibió un pase de Cesc Fàbregas en la prórroga de la final del Mundial y disparó cruzado. España ganó 1-0 a Países Bajos. Era la primera vez en la historia que España ganaba un Mundial. Iniesta dedicó el gol a Dani Jarque.',
+    body: `Johannesburgo, 11 de julio de 2010. Final del Mundial de Sudáfrica. España y Países Bajos llevan 116 minutos sin marcar un gol. La prórroga avanza con una dureza física que el árbitro Howard Webb ha intentado controlar con resultado desigual: ocho tarjetas amarillas, una roja a Nigel de Jong por una patada voladora al pecho de Xabi Alonso.
+
+En el minuto 116, Cesc Fàbregas recibe el balón. Ve a Iniesta. Le sirve en el punto exacto donde Iniesta puede disparar.
+
+Andrés Iniesta toca el balón una vez. Ajusta el cuerpo. Dispara cruzado.
+
+El balón entra por el segundo palo.
+
+## La camiseta y el nombre
+
+Iniesta se quita la camiseta. La levanta. En el interior está escrito: "Dani Jarque, siempre con nosotros". Jarque, capitán del Espanyol y amigo personal de Iniesta, había muerto de un paro cardíaco el 8 de agosto de 2009, con 26 años. Iniesta llevó ese mensaje durante todo el torneo, esperando el momento de mostrarlo.
+
+El momento llegó en el minuto 116 de la final del mundo.
+
+## La generación que hizo posible aquello
+
+España llegó al Mundial de Sudáfrica como campeona de Europa —había ganado la Eurocopa 2008— y como favorita. Lo que tenía España era una estructura de juego construida por Luis Aragonés durante cuatro años y heredada por Vicente del Bosque: posesión, presión alta, transiciones rápidas.
+
+Xavi Hernández en el control del juego. Iniesta en la creación. David Villa como goleador del torneo con cinco goles. Sergio Ramos, Puyol y Casillas como eje defensivo.
+
+El gol de Iniesta no fue un accidente en un partido de suerte. Fue la culminación de un sistema que había funcionado durante dos años.
+
+## Países Bajos, la final más dura
+
+El partido contra Holanda fue el más difícil del torneo para España, no por el marcador sino por la intensidad física. De Jong, Van Bommel, Robben tuvo una ocasión clara que desperdició ante Casillas. La expulsión de Heitinga llegó demasiado tarde para cambiar el partido.
+
+## El gol más visto de la televisión española
+
+Las audiencias de aquella noche rompieron todos los récords históricos de la televisión española. Entre 15 y 16 millones de personas vieron el partido en directo, con un share que superó el 80 por ciento en algunos tramos.
+
+## España en 2026: 16 años después
+
+La generación de Xavi, Iniesta y Torres ya no juega. Pero España llega al Mundial 2026 como una de las cuatro o cinco selecciones con opciones reales al título. Con Lamine Yamal, Pedri y Gavi como eje.
+
+Han pasado 16 años desde el gol de Iniesta en Johannesburgo. El Mundial 2026 empieza el 11 de junio. La misma fecha, 16 años después.`,
+    category: 'historica',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/fifaplus/en/articles/south-africa-2010-final',
+    sourceLang: 'es',
+    publishedAt: '2026-06-05T15:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/1/1e/Iniesta_celebration.jpg',
+      alt: 'Andrés Iniesta celebra el gol de la final del Mundial 2010 con la camiseta dedicada a Dani Jarque',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 3.0',
+    },
+  },
+  {
+    slug: 'sofi-stadium-mas-caro-mundo-debut-eeuu-mundial-2026-inglewood-los-angeles',
+    title: 'SoFi Stadium, 5.500 millones de dólares y el escenario del debut de EEUU en su propio Mundial',
+    summary: 'SoFi Stadium en Inglewood, California, es el estadio más caro jamás construido. Costó 5.500 millones de dólares, acogió dos Super Bowls y el 12 de junio abre el Mundial 2026 con Estados Unidos ante Turquía. Capacidad para 70.240 espectadores y techo semiabierto, a diferencia del MetLife de Nueva Jersey.',
+    body: `Hay estadios que son infraestructura deportiva. Y hay estadios que son una declaración sobre qué es posible construir cuando no existe un límite de presupuesto real. SoFi Stadium, en Inglewood, California, está firmemente en la segunda categoría.
+
+**5.500 millones de dólares.** Es el recinto deportivo más caro de la historia de la construcción mundial. La cifra incluye el estadio, el campus adyacente y las instalaciones de entretenimiento integradas.
+
+## La construcción
+
+El proyecto fue concebido para albergar a los Los Angeles Rams y los Los Angeles Chargers —dos franquicias de la NFL que compartían estadio temporal—. La obra comenzó en 2016. La apertura llegó en 2020, con pandemia, y los primeros grandes eventos se celebraron sin público.
+
+El arquitecto responsable fue HKS Architects. El resultado es un estadio de **techo semiabierto**: cubierto pero sin muros perimetrales completos, lo que permite circulación natural de aire. La diferencia con MetLife Stadium en Nueva Jersey —otro recinto del Mundial 2026, pero abierto y expuesto al clima del Atlántico— es determinante para el confort de los jugadores.
+
+## Capacidad y condiciones para el Mundial
+
+Para el Mundial 2026, SoFi tiene capacidad certificada de **70.240 espectadores**. El clima de Los Ángeles en junio es el argumento definitivo para los partidos: temperaturas entre 20 y 26 grados, baja humedad, sin lluvia. Las condiciones que cualquier selección elegiría para jugar un partido de fase de grupos.
+
+## Dos Super Bowls y ahora un Mundial
+
+SoFi acogió el **Super Bowl LVI** en febrero de 2022: Los Angeles Rams vs Cincinnati Bengals. La producción del espectáculo del descanso —con Dr. Dre, Eminem, Snoop Dogg, Kendrick Lamar y Mary J. Blige— fue la más vista en la historia del programa. En febrero de 2025, repitió con el **Super Bowl LIX**.
+
+El estadio demostró que puede gestionar logística de eventos de 100.000 espectadores sin problemas de acceso relevantes. Eso no es trivial para la FIFA, que tiene experiencia propia con estadios que prometen y no cumplen.
+
+## El ecosistema de Hollywood Park
+
+SoFi no existe como recinto aislado. Está integrado en el complejo de **Hollywood Park**, un desarrollo urbano de 120 hectáreas en Inglewood que incluye el Kia Forum —el histórico recinto de los Lakers de los años 80—, un casino, hoteles y restaurantes.
+
+## Los partidos del Mundial en SoFi
+
+SoFi Stadium acogerá al menos ocho partidos del Mundial 2026, incluidos encuentros de fase de grupos, octavos y posiblemente cuartos. El debut de Estados Unidos el 12 de junio contra Turquía es el primero.
+
+La **final del Mundial 2026** se jugará en el MetLife Stadium de Nueva Jersey, el 19 de julio. No en SoFi. Es la única decisión del calendario que no favorece a Los Ángeles sobre Nueva York. SoFi tendrá que conformarse con ser el estadio más caro del mundo y el que abrió el torneo.`,
+    category: 'sedes',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/stadiums',
+    sourceLang: 'es',
+    publishedAt: '2026-06-05T17:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/SoFi_Stadium_-_2020.jpg/1280px-SoFi_Stadium_-_2020.jpg',
+      alt: 'Vista aérea del SoFi Stadium en Inglewood, Los Ángeles',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'mundial-2026-argentina-tv-donde-ver-tyc-sports-tv-publica-directv',
+    title: 'Dónde ver el Mundial 2026 en Argentina: TV Pública y TyC Sports en abierto, DirecTV para los 104 partidos',
+    summary: 'Argentina tiene los derechos del Mundial 2026 repartidos entre TV Pública, TyC Sports y DirecTV Sports. Todos los partidos de la selección irán en abierto. Para ver los 104 encuentros completos hay que acceder a DirecTV Sports o TyC Play. Los partidos de Argentina arrancan el 15 de junio.',
+    body: `Argentina llega al Mundial 2026 como campeona defensora. Ganó el título en Qatar 2022 con Messi a los 35 años. El sistema de distribución televisiva para 2026 mantiene la estructura de los últimos torneos: derechos compartidos entre señales abiertas y de cable, con el streaming como opción para quien quiera acceso total.
+
+## Dónde ver cada partido
+
+**TV Pública (Canal 7)** — señal estatal gratuita. Transmitirá todos los partidos de Argentina y los de mayor interés del torneo. Sin costo adicional.
+
+**TyC Sports** — señal de cable disponible en todos los paquetes básicos de Telecentro, Cablevisión, Personal Flow y DirecTV. Transmitirá los 104 partidos del torneo.
+
+**DirecTV Sports / DGO** — streaming con todos los partidos en vivo y bajo demanda. Permite ver en dispositivos móviles, Smart TV y ordenador.
+
+**TyC Play** — la app de streaming de TyC Sports. Incluida en los paquetes de cable que ya incluyen TyC Sports. Sin costo adicional para los suscriptores.
+
+## Los partidos de Argentina
+
+Argentina está en el **Grupo J** junto a Argelia, Austria y Jordania:
+
+- **Argentina vs Jordania** — 15 de junio — aprox. 16:00 horas Argentina
+- **Austria vs Argentina** — 19 de junio — hora a confirmar
+- **Argelia vs Argentina** — 23 de junio — hora a confirmar
+
+Todos en TV Pública y TyC Sports simultáneamente.
+
+## Argentina, tres veces campeona
+
+La selección argentina ha ganado tres Mundiales: **1978** (en casa, con Kempes), **1986** (México, con Maradona) y **2022** (Qatar, con Messi). Llega a 2026 como campeona defensora, una condición que en la historia del torneo no garantiza nada —España ganó en 2010 y cayó en grupos en 2014.
+
+Lionel Scaloni sigue en el banquillo. El núcleo de Qatar permanece, aunque con Messi en un estado físico que habrá que monitorear partido a partido. El Mundial 2026 será casi con certeza el último de Messi con Argentina.
+
+## El Mundial de 1978 y lo que no se puede ignorar
+
+Argentina ganó su primer Mundial en casa, en 1978, durante la dictadura de Videla. El torneo fue organizado y utilizado como herramienta de propaganda por una junta militar que en ese momento tenía activos más de 300 centros clandestinos de detención. Los aficionados que vean los partidos de la selección en TV Pública este junio verán el mismo escudo que aquella selección de 1978. El contexto es completamente distinto. La memoria, no.
+
+[Ver la convocatoria de Argentina para el Mundial 2026](/2026/listas/ARG)`,
+    category: 'tv',
+    sourceName: 'TyC Sports',
+    sourceUrl: 'https://www.tycsports.com',
+    sourceLang: 'es',
+    publishedAt: '2026-06-05T19:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/c/c4/Scaloni_-_ARG_v_CAN_-_2024-07-09.jpg',
+      alt: 'Lionel Scaloni, seleccionador de Argentina, durante la Copa América 2024',
+      credit: 'Sebas / Wikimedia Commons',
+      license: 'CC BY 3.0',
+    },
+  },
+  {
+    slug: 'argentina-peru-6-0-mundial-1978-resultado-sospechoso-historia',
+    title: 'Argentina-Perú 1978, 6-0: el partido que la dictadura necesitaba y el resultado que nadie olvidó',
+    summary: 'El 21 de junio de 1978, Argentina necesitaba ganar a Perú por cuatro goles o más para eliminar a Brasil y llegar a la final del Mundial. Ganó 6-0. El portero peruano era de origen argentino. El estadio estaba a 500 metros del mayor centro clandestino de detención de la junta de Videla.',
+    body: `El 21 de junio de 1978, Argentina necesitaba ganar a Perú por cuatro goles o más para superar a Brasil en la segunda fase de grupos y clasificarse para la final del Mundial. Brasil había terminado su liguilla con siete puntos. Argentina necesitaba un resultado concreto, específico, con un margen que iba más allá de la simple victoria.
+
+El resultado final fue **6-0**.
+
+## La mecánica del partido
+
+El partido se jugó en el estadio Monumental de Buenos Aires. 77.000 personas en las gradas. La dictadura de Jorge Rafael Videla había organizado el torneo como escaparate internacional. Ganar era una necesidad política tanto como deportiva.
+
+Mario Kempes marcó dos goles. Leopoldo Luque, dos más. Houseman y Tarantini completaron el 6-0. El portero peruano en esa noche era **Ramón Quiroga**, nacido en Argentina.
+
+## Lo que vino después
+
+Durante años, el 6-0 fue un resultado que vivió en la memoria colectiva argentina como una victoria histórica. Con el tiempo, emergieron elementos que lo convirtieron en algo más complejo.
+
+Quiroga, conocido como "el Loco" por sus salidas del área, fue señalado repetidamente durante décadas. Él siempre negó cualquier arreglo. Los testimonios que causaron más impacto llegaron desde dentro de la delegación peruana. Algunos jugadores declararon haber recibido presiones externas, aunque ninguno fue avalado con documentación definitiva.
+
+## Los documentos de la CIA
+
+La agencia de inteligencia norteamericana tiene documentos desclasificados que hacen referencia al partido. Los cables diplomáticos mencionan conversaciones sobre el resultado. Ninguno constituye prueba definitiva de que el partido estuvo amañado. Son indicios que alimentan la sospecha sin cerrarla.
+
+## El estadio y la ESMA
+
+El estadio Monumental de Buenos Aires está a menos de 500 metros de la **ESMA**, la Escuela de Mecánica de la Armada. Durante la dictadura, fue el mayor centro clandestino de detención del país. Se estima que por sus instalaciones pasaron más de 5.000 personas, la mayoría asesinadas.
+
+Mientras se jugaba el 6-0 contra Perú, la ESMA funcionaba a pleno rendimiento.
+
+Algunos detenidos declararon posteriormente que podían escuchar los cánticos del estadio desde sus celdas.
+
+## Videla, Havelange y la copa
+
+Argentina ganó el Mundial 1978 en la final contra Países Bajos, 3-1 en prórroga. **Jorge Rafael Videla** recibió el trofeo junto a **João Havelange**, presidente de la FIFA. La imagen existe. Está en los archivos.
+
+## Argentina en 2026: el Grupo J
+
+Argentina está en el Grupo J del Mundial 2026 con Argelia, Austria y Jordania. Ni Perú ni Brasil en el grupo. La historia de aquel 6-0 no tiene continuación directa en este torneo.
+
+Pero la memoria del fútbol argentino carga con 1978 de una forma que 1986 y 2022 no han borrado. No porque los títulos no sean reales, sino porque el contexto de aquel primero nunca fue resuelto completamente.`,
+    category: 'polemica',
+    sourceName: 'The Athletic',
+    sourceUrl: 'https://www.theathletic.com',
+    sourceLang: 'es',
+    publishedAt: '2026-06-05T20:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/2/21/Estadio_Monumental_Buenos_Aires.jpg',
+      alt: 'Estadio Monumental de Buenos Aires, sede del partido Argentina-Perú 6-0 del Mundial 1978',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 3.0',
+    },
+  },
+  {
+    slug: 'kylian-mbappe-mundial-2026-real-madrid-francia-ganar-lo-unico-que-le-falta',
+    title: 'Mbappé llega al Mundial con Real Madrid, sin ser capitán de Francia y con una cuenta pendiente',
+    summary: 'Kylian Mbappé tiene 27 años, ganó el Mundial 2018 con 19, perdió la final de 2022 pese a hacer hat-trick y llega a 2026 desde el Real Madrid. Francia está en el Grupo I con Noruega, Senegal e Irak. Ganar el Mundial es lo único que falta en una carrera que ya no necesita justificarse.',
+    body: `En el minuto 80 de la final del Mundial de Qatar 2022, Francia perdía 2-0 contra Argentina. Kylian Mbappé marcó dos goles en cuatro minutos para empatar. En la prórroga, Argentina volvió a ponerse por delante. Mbappé marcó el 3-3 de penalti en el minuto 118.
+
+Francia perdió en la tanda de penaltis.
+
+Mbappé hizo hat-trick en una final del Mundial y se fue a casa sin el título. Es el resumen de 2022 y también el punto de partida para entender lo que significa 2026 para él.
+
+## El jugador que llega a Los Ángeles
+
+Kylian Mbappé tiene **27 años**. Lleva en el Real Madrid desde el verano de 2024. La temporada 2025-26 ha sido sólida: goleador en LaLiga y Champions, adaptado al sistema de Ancelotti tras los primeros meses de ajuste.
+
+En la selección francesa, la situación es más compleja. Mbappé asumió el rol de capitán tras la retirada de Lloris pero ya no lleva la cinta en el Mundial 2026. La dinámica interna de la selección y la gestión de Didier Deschamps han generado fricciones que los medios franceses han documentado con detalle.
+
+La selección es, aun así, suya. No en términos de cinta, sino en términos de peso específico en cada partido.
+
+## El Grupo I y el camino hasta el título
+
+Francia está en el **Grupo I** con Noruega, Senegal e Irak. El grupo más favorable posible para una selección de primer nivel. Erling Haaland y Noruega son el único obstáculo real en la fase inicial.
+
+## El problema de 2022
+
+En Qatar, Mbappé fue el mejor jugador del torneo por rendimiento estadístico. Ocho goles. La Bota de Oro. Una final en la que Francia remontó 2-0 y llegó a los penaltis. Y aun así perdieron.
+
+El debate posterior fue cruel en su lógica: ¿puede considerarse que Mbappé "lo dio todo" en un torneo que perdió? La respuesta objetiva es sí. El problema es que el fútbol no recuerda las estadísticas de quien pierde la final. Recuerda quién levantó el trofeo.
+
+## La cuenta pendiente
+
+Pelé ganó tres Mundiales. Messi ganó uno con 35 años. Ronaldo no ha ganado ninguno.
+
+Mbappé tiene 27 años, está en su mejor momento y tiene al menos dos Mundiales más por delante si mantiene el nivel. Pero el que importa es este. En el fútbol, los ciclos no esperan.
+
+[Ver la convocatoria de Francia para el Mundial 2026](/2026/listas/FRA)`,
+    category: 'jugadores',
+    sourceName: 'L\'Équipe',
+    sourceUrl: 'https://www.lequipe.fr',
+    sourceLang: 'es',
+    publishedAt: '2026-06-05T21:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/5/57/Kylian_Mbapp%C3%A9_2019-10-11_2.jpg',
+      alt: 'Kylian Mbappé con la selección de Francia',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ultimos-amistosos-mundial-2026-5-junio-que-buscan-los-tecnicos',
+    title: 'Los últimos amistosos antes del Mundial: seis días para confirmar titulares y proteger a los tocados',
+    summary: 'A seis días del inicio del Mundial, los técnicos ya no experimentan. Los amistosos del 5 de junio sirven para confirmar titulares, gestionar minutos de los lesionados en recuperación y dar confianza a los que menos han jugado. Messi, Militão y Arda Güler son los casos más vigilados.',
+    body: `Hay una regla no escrita en la preparación de un Mundial que todos los seleccionadores conocen y pocos confiesan: el último amistoso antes del torneo no sirve para probar cosas nuevas. Sirve para no romper lo que ya funciona.
+
+A seis días del inicio del Mundial 2026, los técnicos han terminado su trabajo táctico. Los sistemas están fijados. Los once titulares están decididos en la cabeza de cada entrenador, aunque no lo digan en rueda de prensa. Lo que queda es gestión: minutos para los que necesitan ritmo, protección para los que llegan tocados.
+
+## Los casos más vigilados
+
+**Lionel Messi (Argentina)** arrastra una sobrecarga muscular en el muslo izquierdo que le ha limitado en los últimos partidos de temporada con Inter Miami. Scaloni ha confirmado que estará en el Mundial pero ha sido deliberadamente opaco sobre su estado para el debut. Argentina debuta el 15 de junio contra Jordania.
+
+**Éder Militão (Brasil)** ha tenido problemas físicos que han puesto en duda su presencia en el torneo. Si no llega al inicio, Dorival Júnior tiene que reorganizar una defensa que ha construido con el central del Real Madrid como pieza fundamental. Gabriel Magalhães es la alternativa más probable.
+
+**Arda Güler (Turquía)** terminó la temporada con molestias musculares. Turquía debuta el 12 de junio contra Estados Unidos. Vincenzo Montella ha declarado que el jugador "está en el proceso correcto de recuperación", que es exactamente lo que dicen los entrenadores cuando no quieren dar información útil.
+
+## Lo que la historia dice sobre los amistosos previos
+
+Los últimos amistosos pre-Mundial tienen un historial de impacto real. La tentación de los técnicos es real: quieren ver cosas, ajustar piezas. Pero el riesgo de perder un jugador clave en un partido que no puntúa para nada es suficiente para frenar esa tentación.
+
+## Los técnicos que sí usarán este amistoso
+
+No todos los seleccionadores tienen once titulares claros. Mauricio Pochettino (EEUU) necesita confirmar el centro del campo para el debut contra Turquía. Luis de la Fuente (España) tiene el equipo más claro de las candidatas al título — el amistoso de hoy es casi un trámite.
+
+## Lo que el 5 de junio cierra
+
+Hoy termina oficialmente la fase de preparación. Mañana, el foco se traslada a los estadios de Estados Unidos, México y Canadá.
+
+El Mundial 2026 empieza el 11 de junio. Lo que no está listo a 6 de junio ya no va a estar listo.`,
+    category: 'amistosos',
+    sourceName: 'Marca',
+    sourceUrl: 'https://www.marca.com',
+    sourceLang: 'es',
+    publishedAt: '2026-06-05T22:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/4/46/El_Molinon_2019.jpg',
+      alt: 'Estadio El Molinón de Gijón — los amistosos finales antes de un Mundial se juegan en estadios de todo el mundo',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+
+
+
+  // ─── Nike Rip the Script ────────────────────────────────────────────────
+  {
+    slug: 'nike-rip-the-script-mundial-2026-campana-ronaldo-mbappe-haaland-vinicius-kardashian-ted-lasso',
+    youtubeVideoId: 'IyZ1WIua_1s',
+    title: 'Nike lanza \'Rip the Script\': Ronaldo, Mbappé, Haaland, Kim Kardashian y Ted Lasso en el spot del Mundial',
+    summary: 'Nike estrena el 4 de junio su campaña oficial para el Mundial 2026. Se llama \'Rip the Script\', dura 6 minutos, incluye 42 personalidades y fue rodada por Wieden+Kennedy. El concepto: los futbolistas se niegan a seguir el guion y todo se desmadra.',
+    body: `Nike ha lanzado este jueves **'Rip the Script'**, su campaña oficial para el Mundial 2026. La firma de Oregón lleva semanas filtrando el reparto —42 personas en total, anunciadas el 21 de mayo mediante Polaroids en redes sociales con el mensaje *"Time to go off script"*— y hoy publica el filme completo: **6 minutos** dirigidos por Dan Streit para Wieden+Kennedy.
+
+El concepto: un director intenta rodar un spot corporativo con las estrellas de Nike. Los jugadores se niegan a seguir el guion. El balón empieza a rodar. El rodaje se desmadra. La producción controlada se convierte en caos jubiloso. Si hay una metáfora más directa sobre el fútbol como antídoto al marketing de manual, no se me ocurre cuál.
+
+## El reparto
+
+Los futbolistas incluyen a **Cristiano Ronaldo**, **Kylian Mbappé**, **Erling Haaland**, **Vinicius Jr.**, **Cole Palmer**, **Raúl Jiménez**, **Bruno Fernandes**, **Federico Valverde**, **Virgil van Dijk** y **Nico Williams**. De las leyendas: **Ronaldinho**, **Zlatan Ibrahimovic**, **Eric Cantona**, **Didier Drogba**, **Jorge Campos** y **Wayne Rooney**.
+
+Los no futbolistas son el ingrediente que convierte esto en titular: **Kim Kardashian**, **LeBron James**, **Travis Scott**, **LISA** (BLACKPINK), **Young Miko**, **Channing Tatum** —con el corte de pelo de Haaland— y **Jason Sudeikis** como **Ted Lasso**.
+
+La aparición de Sudeikis como el entrenador ficticio de AFC Richmond tiene su propio ángulo: Apple TV+ y Nike, dos marcas que han entendido que el fútbol americanizado del Mundial 2026 pide referencias que reconozca el público local.
+
+## Las camisetas y las botas
+
+Nike suministra equipación a **16 selecciones** en el torneo. Francia estrena una visitante en verde menta —ruptura con décadas de azul visitante—, Portugal lleva motivos de olas marinas, Países Bajos tiene un gradiente horizontal en distintos tonos naranja. Todas usan **Aero-FIT**, tecnología de tejido texturizado con un 238% más de transpirabilidad que el anterior Dri-FIT ADV.
+
+El pack de botas se llama **'Breakout'**, lanzado el 1 de junio: fucsia intenso en las cuatro familias —Mercurial Superfly 11, Vapor 17 (150 gramos, la más ligera de la historia), Phantom 6 y Tiempo Maestro.
+
+La colección **X2** lleva siete kits de selección en colaboración con firmas de moda: USA con el archivo de Virgil Abloh, Inglaterra con Palace, Francia con Jacquemus, Canadá con NOCTA (Drake), Países Bajos con Patta, Nigeria con Slawn, Corea del Sur con G-Dragon.
+
+## Lo que dice el spot sobre el Mundial
+
+Nike lleva desde 1994 apostando por el mercado americano del fútbol. Este spot no está dirigido solo a los aficionados europeos o latinoamericanos. Está construido para el espectador americano que conoce a Kim Kardashian antes que a Kylian Mbappé, a LeBron antes que a Vinicius, a Ted Lasso antes que al Grupo I del Mundial.
+
+La campaña se llama *'Rip the Script'* pero el script que Nike quiere romper es el de la publicidad deportiva seria que no entiende nadie fuera de Europa. Lo que han rodado es, en el fondo, una película americana sobre fútbol.
+
+[Ver todas las convocatorias del Mundial 2026](/2026/convocatorias)`,
+    category: 'patrocinios',
+    sourceName: 'Nike Newsroom',
+    sourceUrl: 'https://about.nike.com/en/newsroom/releases/nike-debuts-rip-the-script-a-step-inside-the-universe-of-nike-football',
+    sourceLang: 'en',
+    publishedAt: '2026-06-04T23:00:00Z',
+    sourcesSecondary: [
+      { name: 'Adweek — Nike Rip the Script', url: 'https://www.adweek.com/creativity/nike-reveals-a-world-cup-universe-that-rips-up-its-own-script/' },
+      { name: 'The Hollywood Reporter', url: 'https://www.hollywoodreporter.com/business/business-news/nike-2026-world-cup-ad-kim-kardashian-ted-lasso-1236613835/' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/a/a8/Vinicius_Junior_-_CF_Villarreal_vs_Real_Madrid_CF_%2823_April_2023%29_01_%28cropped%29.jpg',
+      alt: 'Vinicius Jr., protagonista de la campaña Nike \'Rip the Script\' para el Mundial 2026',
+      credit: 'Diego Huesca / Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+
+
+  // ─── 2026-06-04 ───────────────────────────────────────────────────────────
+  {
+    slug: 'streltsov-pela-sovietico-gulag-mundial-1958',
+    title: 'Eduard Streltsov: el Pelé soviético que el KGB mandó al gulag antes del Mundial de 1958',
+    summary: 'El 26 de mayo de 1958, nueve días antes del vuelo a Suecia, la policía detuvo al mejor delantero de la URSS. La acusación de violación nunca se probó. Cumplió cinco años en un campo de trabajo.',
+    body: `Eduard Streltsov tenía 20 años y ya era el delantero más desequilibrante de la URSS cuando la policía lo detuvo en la madrugada del 26 de mayo de 1958, nueve días antes del vuelo a Suecia. El cargo: violación. La condena: cinco años de gulag. Nunca se probó la acusación formalmente, pero la URSS llegó al Mundial sin él.
+
+## El jugador que nadie podía parar
+
+En sus dos primeros partidos con la selección soviética, Streltsov marcó hat-tricks. Dos partidos, seis goles. Era el tipo de jugador que cambiaba un torneo. Jugaba en el Torpedo de Moscú, el club de los obreros de la industria del automóvil, y era ídolo en los barrios de trabajadores.
+
+El Dynamo de Moscú quiso ficharlo. El Dynamo no era solo un club de fútbol: era el club del Ministerio del Interior, vinculado directamente al KGB. Streltsov se negó. Hay quienes sitúan ahí el origen de lo que vino después. No hay prueba documental. Pero la coincidencia entre su negativa y su detención entró en el folklore soviético antes incluso de que terminara el juicio.
+
+## Una noche, una acusación, cinco años
+
+La noche de su detención, Streltsov estaba en una dacha en las afueras de Moscú. La joven que le acusó era hija de un funcionario del partido. La instrucción del caso fue rápida. El proceso, breve. La condena, cinco años en un campo de trabajo en los Urales.
+
+La URSS voló a Suecia sin su mejor jugador. El equipo llegó a cuartos de final. En semifinales cayó 2-0 ante Suecia, que jugaba en casa.
+
+## El regreso de un hombre roto y rehabilitado
+
+Salió del gulag en 1963. Necesitó dos años para recuperar el nivel. En 1965 volvió a primera división con el Torpedo. En 1968, once años después de su detención, fue elegido mejor jugador soviético del año.
+
+Ninguna institución soviética le pidió perdón. Ningún funcionario del partido reconoció nunca irregularidades en su juicio. Streltsov murió de cáncer de laringe el 22 de julio de 1990, un año antes de que desapareciera la URSS que lo destruyó.
+
+## 2026: la herencia que llega desde Asia central
+
+Hoy el Mundial de Estados Unidos, México y Canadá está a ocho días de comenzar. Entre los 48 clasificados está Uzbekistán, heredero del fútbol centroasiático soviético, que debuta por primera vez en una Copa del Mundo. Los jugadores uzbekos han crecido en repúblicas que en 1958 enviaban a sus mejores hombres al ejército soviético.
+
+Streltsov nunca jugó un Mundial. Uzbekistán jugará el suyo. La historia del fútbol soviético llega a la cita con 68 años de retraso.
+
+Ficha de Uzbekistán en [/2026/listas/UZB](/2026/listas/UZB).`,
+    category: 'historica',
+    sourceName: 'Wikipedia / The Athletic',
+    sourceUrl: 'https://en.wikipedia.org/wiki/Eduard_Streltsov',
+    sourceLang: 'es',
+    publishedAt: '2026-06-04T07:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/3/31/Eduard_Streltsov_stadium.jpg',
+      alt: 'Estadio Eduard Streltsov en Moscú, estadio del FC Torpedo Moscú',
+      credit: 'Cabinet Public Affairs Office, Japón',
+      license: 'CC BY 4.0',
+    },
+  },
+  {
+    slug: 'pickles-perro-copa-jules-rimet-robada-1966',
+    title: 'Pickles, la Copa Jules Rimet y el empleado de fábrica que cobró más que muchos jugadores del 66',
+    summary: 'El 20 de marzo de 1966 robaron la Copa del Mundo de una exposición filatélica en Westminster. La vitrina estaba fijada a la pared con cinta aislante. Un perro la encontró siete días después bajo un arbusto.',
+    body: `El 20 de marzo de 1966 alguien entró en Westminster Hall, donde se exponía la Copa Jules Rimet como atracción secundaria de una feria filatélica, y se la llevó. La vitrina que protegía el trofeo más importante del fútbol mundial estaba fijada a la pared con cinta aislante. Esto es literal.
+
+## Siete días sin Copa del Mundo
+
+Scotland Yard abrió una investigación. Llegaron cartas de rescate. El Football Association contrató vigilantes privados. Durante siete días, el trofeo del torneo que iba a celebrarse en territorio inglés ese mismo verano estuvo en paradero desconocido.
+
+El 27 de marzo, David Corbett salía a pasear a su perro Pickles por Beulah Hill, en South Norwood, al sur de Londres. Pickles, un collie de raza mixta, olfateó algo bajo un arbusto. Era un paquete envuelto en un periódico. Dentro: la Copa Jules Rimet.
+
+## El empleado de fábrica más famoso de Inglaterra
+
+David Corbett tenía 27 años y trabajaba en una fábrica. La recompensa que recibió por el hallazgo fue de 6.000 libras. El salario anual de un obrero inglés en 1966 rondaba las 900 libras. Corbett ganó en un día lo que un trabajador tardaba seis años y medio en ganar.
+
+Pickles se convirtió en celebridad nacional. Protagonizó anuncios de televisión. Apareció en la película *The Spy with a Cold Nose*. Recibió invitaciones a banquetes. A England le fue bien ese verano: ganaron el Mundial en julio, con la Jules Rimet bien custodiada esta vez.
+
+Pickles murió en 1967. Se ahorcó con su propia correa al perseguir un gato. Tenía tres años.
+
+## La Copa que desapareció dos veces
+
+En 1983, la Copa Jules Rimet volvió a ser robada. Esta vez en Brasil, donde se guardaba como trofeo permanente tras la tercera victoria brasileña en 1970. Nunca apareció. Los investigadores brasileños concluyeron que probablemente fue fundida.
+
+Ahora existe una réplica en el museo de la CBF. El original está, presumiblemente, derretido en algún lugar de Río de Janeiro. Pickles, al menos, tuvo mejor final que el trofeo que encontró.`,
+    category: 'curiosa',
+    sourceName: 'The Guardian / Wikipedia',
+    sourceUrl: 'https://en.wikipedia.org/wiki/Pickles_(dog)',
+    sourceLang: 'es',
+    publishedAt: '2026-06-04T09:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/0/09/FIFA_World_Cup_Trophy_2010.jpg',
+      alt: 'Trofeo de la Copa del Mundo FIFA',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 3.0',
+    },
+  },
+  {
+    slug: 'rodrigo-de-paul-motor-argentina-mundial-2026',
+    title: 'Rodrigo De Paul: el volante que lleva el andamiaje de Argentina aunque Messi se lleve los focos',
+    summary: 'Copa América 2021, Mundial Qatar 2022, Copa América 2024. De Paul estuvo en las tres. Fue el jugador con más balones recuperados de Qatar 2022. Ninguna portada lo mostró levantando el trofeo.',
+    body: `Rodrigo De Paul tiene 32 años, juega en el Atlético de Madrid y Lionel Scaloni lo ha convocado para el Mundial 2026. Esto no es una sorpresa. Lo sería si no lo hubiera convocado.
+
+## Lo que hacen las estadísticas que no aparecen en los resúmenes
+
+En el Mundial de Qatar 2022, De Paul fue el jugador con más balones recuperados del torneo. No el de Argentina. El del torneo completo. Cada vez que Argentina ganó una segunda pelota en campo propio, en un porcentaje altísimo de casos fue porque De Paul llegó antes que el rival.
+
+No marca goles con frecuencia. Raramente da asistencias que aparezcan en los resúmenes de los cuartos de hora. Pero Argentina ha ganado la Copa América 2021, el Mundial de Qatar 2022 y la Copa América 2024 con él como motor de recuperación y distribución.
+
+## El trabajo sucio con nombre
+
+Su perfil tiene tres verbos: destruir el juego rival, recuperar el balón, asociar con los que crean. El tercero es el que más subestiman los que solo miran la línea de pases clave. De Paul conecta con los Lautaro, los Mac Allister, los Julián Álvarez, porque sabe exactamente cuándo ceder y cuándo retener.
+
+Declara poco. Cuando declara, dice cosas como esta: "El día que Messi se vaya de la selección es el día que yo también me voy." No es retórica. Es la descripción de un jugador que ha construido su carrera internacional alrededor de proteger a otro.
+
+## Grupo J: los rivales que no deben subestimarse
+
+Argentina cae en el Grupo J con Argelia, Austria y Jordania. Sobre el papel, el camino a octavos es transitable. Debutan el 9 de junio ante Jordania, en Miami. Después, el 14 ante Austria en Dallas. El 19, el partido más exigente del grupo, ante Argelia en Houston.
+
+De Paul no aparecerá en los titulares de ninguno de esos tres partidos. Si Argentina los gana los tres, habrá estado en todos.
+
+Ficha de Argentina en [/2026/listas/ARG](/2026/listas/ARG).`,
+    category: 'jugadores',
+    sourceName: 'ESPN / Transfermarkt',
+    sourceUrl: 'https://www.espn.com/soccer/player/_/id/176635/rodrigo-de-paul',
+    sourceLang: 'es',
+    publishedAt: '2026-06-04T11:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/1/17/Rodrigo_de_Paul_%282022%29.jpg',
+      alt: 'Rodrigo De Paul con Argentina en el Mundial 2022',
+      credit: 'Oleg Bkhambri / Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'grupo-c-mundial-2026-brasil-marruecos-escocia-haiti-atlanta',
+    title: 'Grupo C del Mundial 2026: Brasil tiene que aguantar a Marruecos, Escocia tiene que aguantar a Brasil',
+    summary: 'Escocia vuelve a un Mundial por primera vez desde Francia 1998. Le toca Brasil en la misma fase de grupos. Haití debuta 52 años después de su única participación. La FIFA llama a esto equilibrio.',
+    body: `El Grupo C del Mundial 2026 tiene un favorito claro, un aspirante real, una historia de espera y un debut que la FIFA preferiría no tener que explicar en términos de competitividad.
+
+## Los cuatro equipos
+
+**Brasil** llega como cabeza de serie y favorito al título. Vinicius Jr., Rodrygo y Endrick como referencias ofensivas. Lleva cuatro años con Dorsal Júnior y ha clasificado con comodidad.
+
+**Marruecos** es el mejor equipo africano de la generación actual. En Qatar 2022 llegó a semifinales, eliminando a España y Portugal en el camino. Walid Regragui ha construido un equipo con presión alta y transiciones rápidas. No es un rival para gestionar.
+
+**Escocia** vuelve a un Mundial por primera vez desde Francia 1998. Veintiocho años. Una generación entera de aficionados escoceses que no ha visto a su selección en una fase final.
+
+**Haití** debuta en un Mundial por primera vez desde Alemania 1974. Cincuenta y dos años de ausencia. El sorteo les ha dado a Brasil como primer rival.
+
+## Los seis partidos (Mercedes-Benz Stadium, Atlanta)
+
+- **Brasil vs Haití** — 10 de junio, 19:00 CEST
+- **Marruecos vs Escocia** — 10 de junio, 22:00 CEST
+- **Brasil vs Escocia** — 15 de junio, 22:00 CEST
+- **Marruecos vs Haití** — 15 de junio, 19:00 CEST
+- **Brasil vs Marruecos** — 20 de junio, 22:00 CEST
+- **Escocia vs Haití** — 20 de junio, 22:00 CEST
+
+## El partido que importa y el partido que conmueve
+
+El partido más atractivo futbolísticamente es Brasil-Marruecos el 20 de junio. Dos modelos distintos de fútbol moderno. La segunda semifinalista africana de la historia contra el pentacampeón mundial.
+
+El partido emocionalmente más cargado es cualquier partido de Escocia. Veintiocho años dan para mucho sentimentalismo. El estadio de Atlanta tendrá aficionados escoceses que viajaron desde Glasgow pagando tarifas de vuelo que ningún salario mínimo escocés puede absorber cómodamente.
+
+Haití en el grupo de Brasil es el tipo de sorteo que la FIFA querría evitar si se preocupara por el espectáculo. No se preocupa.
+
+Partidos de Escocia en [/2026/listas/SCO](/2026/listas/SCO).`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-04T13:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/b/b3/Mercedes-Benz_Stadium.jpg',
+      alt: 'Mercedes-Benz Stadium, Atlanta, Georgia — sede del Grupo C',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ronaldo-convulsiones-final-1998-alineacion-sin-el',
+    title: 'El patatús de Ronaldo antes de la final de 1998: la alineación sin él ya estaba en manos del árbitro',
+    summary: 'El 12 de julio de 1998, dos horas antes de la final contra Francia, Ronaldo sufrió convulsiones en la habitación del hotel. Zagalo entregó al árbitro una alineación sin él. Una hora después la cambió. Francia ganó 3-0.',
+    body: `El 12 de julio de 1998, a las 21:00, en el Stade de France de Saint-Denis, Brasil y Francia disputaron la final del Mundial. El resultado fue 3-0 para los locales: dos goles de Zinedine Zidane en los minutos 27 y 45+1, uno de Emmanuel Petit en el 90+3.
+
+Lo que ocurrió antes del partido es más difícil de explicar. Y la CBF tardó años en intentarlo.
+
+## 13:30. Habitación del hotel.
+
+A media tarde, Ronaldo sufrió convulsiones en su habitación de concentración. Las estimaciones sitúan el episodio entre las 13:30 y las 14:00. El partido era a las 21:00.
+
+Fue trasladado a la clínica Lilas de París para pruebas neurológicas. Los médicos no encontraron causa orgánica clara. No había lesión, no había patrón que explicara las convulsiones de forma concluyente.
+
+## 18:30. La alineación oficial.
+
+Cada equipo entrega la alineación titular al árbitro a las 18:30. A esa hora, Mario Zagalo entregó la lista sin Ronaldo. El nombre de Edmundo aparecía en el lugar del nueve. Brasil iba a jugar la final más importante de los últimos ocho años sin su mejor jugador.
+
+## 20:30. El vestuario.
+
+Una hora antes del pitido, durante el calentamiento, Ronaldo apareció en el vestuario. Dijo que se encontraba bien. Que quería jugar.
+
+El reglamento de la FIFA permite sustituir a un jugador hasta una hora antes del inicio. Zagalo entregó una segunda alineación con Ronaldo incluido. El árbitro la aceptó.
+
+Ronaldo jugó los 90 minutos. No marcó. Francia ganó 3-0.
+
+## La sombra de Nike
+
+En 2000, una comisión parlamentaria brasileña investigó los meses previos a Francia 98. El objeto era el contrato que Nike había firmado con la CBF: un acuerdo de 400 millones de dólares que incluía cláusulas sobre la participación de Ronaldo en determinados partidos.
+
+Nadie probó que Nike presionara para que Ronaldo jugara estando en condiciones de no hacerlo. Pero nadie pudo probar que no lo hubiera hecho. La comisión no llegó a conclusiones definitivas. El contrato existía. Las cláusulas sobre Ronaldo existían.
+
+Años después, el propio Ronaldo describió lo ocurrido como una crisis convulsiva por estrés extremo. El diagnóstico tardío no resolvió ninguna de las preguntas que la comisión parlamentaria dejó sin responder.`,
+    category: 'historica',
+    sourceName: 'BBC Sport / Placar',
+    sourceUrl: 'https://www.bbc.co.uk/sport/football/world-cup',
+    sourceLang: 'es',
+    publishedAt: '2026-06-04T15:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/f/f5/Stade_De_France_Vestiaires_Visiteurs.jpg',
+      alt: 'Vestuario del Stade de France, sede de la final del Mundial 1998',
+      credit: 'Cabinet Public Affairs Office, Japón',
+      license: 'CC BY 4.0',
+    },
+  },
+  {
+    slug: 'metlife-stadium-final-mundial-2026-nueva-jersey',
+    title: 'MetLife Stadium: la final del Mundial se juega en el estadio que no tiene nombre propio',
+    summary: 'La final del 19 de julio se disputa en East Rutherford, Nueva Jersey, a 14 km de Manhattan pero sin metro directo. El estadio se llama MetLife porque una aseguradora paga por eso. El contrato expira este año.',
+    body: `La final del Mundial 2026 se juega el 19 de julio en el MetLife Stadium, East Rutherford, Nueva Jersey. No en Nueva York, aunque eso es lo que dirán todos los titulares. A 14 kilómetros del centro de Manhattan, sí. Al otro lado del río Hudson, también.
+
+## El estadio más caro que comparten dos equipos que no quieren compartir nada
+
+El MetLife Stadium se inauguró en 2010. Costó 1.600 millones de dólares. Lo utilizan los New York Giants y los New York Jets de la NFL: dos franquicias que compiten en la misma división, con la misma base de aficionados potencial, en el mismo estadio.
+
+La capacidad para el Mundial está configurada en torno a 82.500 espectadores. No tiene techo fijo.
+
+## El problema del 19 de julio
+
+En New Jersey, julio es caluroso y húmedo. Temperaturas de 33-35°C con humedad relativa que puede superar el 80%. El estadio no tiene climatización exterior. Los partidos nocturnos mejoran las condiciones, pero la final está programada para las 18:00 hora local, pleno sol de tarde en el este americano.
+
+En enero, el mismo estadio puede registrar -10°C. La NFL juega en esas condiciones. El fútbol jugará la final del mayor torneo del planeta en condiciones que ningún estadio europeo o latinoamericano habría aceptado para este partido.
+
+## Cómo llegar al estadio: con dificultad
+
+Desde Manhattan hay que cruzar el río Hudson. No existe línea de metro directa. La NFL resuelve los días de partido con una flota de 700 autobuses lanzadera.
+
+Para el Mundial, la FIFA ha previsto un sistema de lanzaderas desde Penn Station. El caos logístico es previsible. Con 82.500 espectadores llegando de todo el mundo a un estadio al que no llega el metro, las estimaciones de tiempos de desplazamiento de la organización serán, casi con certeza, optimistas.
+
+## MetLife: el nombre que quizás ya no esté
+
+El estadio se llama MetLife porque la aseguradora MetLife firmó un contrato de naming en 2011. Ese contrato expira en 2026 y está en proceso de renegociación. Es posible que para cuando se dispute la final, el estadio ya tenga otro nombre.
+
+La final del Mundial se jugará, de todas formas, en el mismo sitio: East Rutherford, New Jersey, a 14 km de Manhattan, sin metro.`,
+    category: 'sedes',
+    sourceName: 'Wikipedia / NFL.com',
+    sourceUrl: 'https://en.wikipedia.org/wiki/MetLife_Stadium',
+    sourceLang: 'es',
+    publishedAt: '2026-06-04T17:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/0/04/Metlife_stadium_%28Aerial_view%29.jpg',
+      alt: 'Vista aérea del MetLife Stadium, East Rutherford, Nueva Jersey',
+      credit: 'Anthony Quintano / Wikimedia Commons',
+      license: 'CC BY 2.0',
+    },
+  },
+  {
+    slug: 'mundial-2026-television-francia-m6-bein-tf1-pierde',
+    title: 'Cómo ver el Mundial en Francia: TF1 perdió los derechos y M6 los tiene. Que cada uno saque sus conclusiones',
+    summary: 'Por primera vez desde que existe la televisión privada francesa, TF1 no retransmitirá un Mundial. M6 y beIN Sports tienen los derechos. Los partidos de Francia en abierto. El resto, en gran parte, de pago.',
+    body: `Francia debuta en el Mundial 2026 el 12 de junio. Quienes quieran verlo en televisión en territorio francés lo harán en M6. No en TF1. Esto no había pasado nunca.
+
+## El fin de una era que nadie anunció
+
+TF1 ha retransmitido los Mundiales de fútbol en Francia durante décadas. Los partidos de Les Bleus, las finales, los cuartos de final: todo en la cadena privada líder de audiencia en abierto. En la negociación de los derechos del Mundial 2026, TF1 no llegó al precio que pedía la FIFA. M6 sí.
+
+TF1 había pagado 350 millones de euros por los derechos de la Eurocopa 2024. Para el Mundial de 2026 no encontró el equilibrio entre lo que la FIFA pedía y lo que sus anunciantes estaban dispuestos a cubrir.
+
+## Qué tiene M6 y qué tiene beIN Sports
+
+**M6** es una cadena privada en abierto de la TNT francesa. Emitirá los partidos de Francia y los partidos más relevantes del torneo. Acceso gratuito con antena o TDT.
+
+**beIN Sports** tiene los 104 partidos del torneo. Precio aproximado: 15 euros al mes. beIN Connect para streaming sin contrato de larga duración.
+
+## Los partidos de Francia (Grupo I: Noruega, Senegal, Irak)
+
+- **Francia vs Irak** — 12 de junio, 22:00 CEST
+- **Francia vs Noruega** — 17 de junio, 22:00 CEST  
+- **Francia vs Senegal** — 22 de junio, 22:00 CEST
+
+Los tres partidos en M6 en abierto.
+
+## La aritmética de los derechos
+
+TF1 pagó 350 millones por la Eurocopa 2024. Que M6, con una estructura de ingresos menor, haya superado la oferta de la cadena líder dice algo sobre la valoración que TF1 hizo del retorno esperado. O sobre lo que M6 está dispuesta a arriesgar para subir de categoría en el prime time deportivo.
+
+Ficha de Francia en [/2026/listas/FRA](/2026/listas/FRA).`,
+    category: 'tv',
+    sourceName: 'Variety / Le Monde',
+    sourceUrl: 'https://variety.com/2025/tv/global/m6-world-cup-2026-rights-france',
+    sourceLang: 'es',
+    publishedAt: '2026-06-04T19:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/5/54/World_Cup_Football_-_Croatia_vs._France_%2829556894598%29.jpg',
+      alt: 'Francia vs Croacia, final del Mundial 2018 en el Luzhniki de Moscú',
+      credit: 'Biser Todorov / Wikimedia Commons',
+      license: 'CC BY 4.0',
+    },
+  },
+  {
+    slug: 'brasil-cambio-camiseta-amarilla-maracanazo-aldyr-garcia-schlee',
+    title: 'Brasil cambió de camiseta por culpa del Maracanazo. La verdeamarelha la diseñó un chico de 19 años que era hincha de Uruguay',
+    summary: 'Hasta 1950 Brasil jugaba de blanco. Tras la derrota en el Maracaná, convocaron un concurso. Lo ganó Aldyr García Schlee, 19 años, de Pelotas. Décadas después confesó que nunca había sido hincha de Brasil.',
+    body: `Hasta el 16 de julio de 1950, Brasil jugaba de blanco con cuello azul. El portero también de blanco. La camiseta no era un símbolo nacional: era simplemente la equipación.
+
+Ese día, en el Maracaná, Uruguay ganó 2-1 ante 200.000 espectadores y dejó a Brasil sin el título que consideraba suyo. Lo que vino después no fue solo un cambio de diseño.
+
+## El concurso que nadie esperaba ganar
+
+La Confederação Brasileira de Desportos convocó un concurso nacional de diseño de equipación. La condición: el nuevo uniforme debía incorporar los cuatro colores de la bandera brasileña. La camiseta blanca quedaba descartada por asociación con la derrota.
+
+Aldyr García Schlee tenía 19 años, estudiaba periodismo en Pelotas, ciudad del estado de Rio Grande do Sul en la frontera con Uruguay. Envió su propuesta: camiseta amarilla, pantalón azul, medias blancas con borde verde. La Confederación lo eligió entre los 301 diseños presentados.
+
+El diseño fue aprobado en 1953. Brasil lo estrenó en un amistoso contra Chile. Desde entonces, la verdeamarelha ha sido la segunda piel de la selección más exitosa de la historia del fútbol.
+
+## La confesión de décadas después
+
+García Schlee vivió hasta 2019. En sus últimos años concedió entrevistas en las que describió la paradoja de su vida: había diseñado la camiseta más reconocible del mundo para un equipo al que no le tenía devoción. Era de Pelotas, ciudad fronteriza, y sus aficiones estaban del lado uruguayo.
+
+Jamás cobró un centavo en derechos por el diseño. Cuando Nike y Adidas se disputaron el contrato con la CBF por cifras de cientos de millones de dólares, su nombre no aparecía en ninguna cláusula de royalties.
+
+## Los que pagaron la derrota que no fue suya
+
+Moacir Barbosa, el portero que recibió los dos goles de Uruguay, vivió el resto de su vida siendo señalado. Una anciana le reconoció en un supermercado de Río de Janeiro y le dijo a la madre de Barbosa: "Este es el hombre que dejó triste a todo Brasil." Barbosa tenía más de 70 años cuando ocurrió. Murió en 2000 sin que ninguna institución del fútbol brasileño le rehabilitara públicamente.
+
+El seleccionador Flávio Costa tardó dos días en abandonar el estadio tras la derrota. Salió disfrazado de empleado de la limpieza.
+
+Ficha de Brasil en [/2026/listas/BRA](/2026/listas/BRA).`,
+    category: 'curiosa',
+    sourceName: 'Folha de S.Paulo / Wikipedia',
+    sourceUrl: 'https://en.wikipedia.org/wiki/Aldyr_Garcia_Schlee',
+    sourceLang: 'es',
+    publishedAt: '2026-06-04T20:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/3/37/Vinicius_Jr_2018_%28cropped%29.jpg',
+      alt: 'Vinicius Jr con la camiseta amarilla de Brasil',
+      credit: 'All-Pro Reels / Wikimedia Commons',
+      license: 'CC BY-SA 2.0',
+    },
+  },
+  {
+    slug: 'sadio-mane-senegal-mundial-2026-al-nassr-capitan',
+    title: 'Sadio Mané llega al Mundial 2026 a los 34 años desde Arabia Saudí. Senegal sigue siendo su equipo',
+    summary: 'Campeón de África en 2022, 25 goles en la última temporada en la Saudi Pro League. Mané no necesita justificar nada. Nicolas Jackson, 24 años y Chelsea, llegará a su primer Mundial.',
+    body: `Sadio Mané tiene 34 años, juega en el Al-Nassr de Riad y Aliou Cissé lo ha convocado para el Mundial 2026. El orden de esos datos importa: la edad va primero porque es lo que todo el mundo quiere discutir, y la convocatoria va al final porque la decisión ya está tomada.
+
+## Lo que hizo antes de irse a Arabia
+
+Mané pasó seis temporadas en Liverpool, de 2016 a 2022. Marcó 120 goles. Ganó la Premier League, la Champions League, la FA Cup y la Copa de la Liga. En 2022, con Senegal, marcó el penalti decisivo en la tanda que le dio a su país la primera Copa África de su historia, contra Egipto en la final.
+
+Fichó por el Bayern de Múnich en junio de 2022. Tuvo un conflicto público con Kevin De Bruyne durante un partido de Champions. El Bayern lo vendió al Al-Nassr un año después.
+
+## La Saudi Pro League como argumento
+
+En la temporada 2024-25 marcó 25 goles. No son estadísticas de una liga donde los delanteros marcan con los ojos cerrados: en la Saudi Pro League compite contra defensas de primera línea europea en muchos casos. Son 25 goles de un extremo de 34 años que llegará al Mundial con la Copa África en el palmarés.
+
+## Grupo I y el partido que define la generación
+
+Senegal comparte grupo con Francia, Noruega e Irak. Debutan el 18 de junio ante Noruega. Después juegan contra Irak el 23 de junio y cierran contra Francia el 28 de junio.
+
+El partido contra Francia es el que le da contexto generacional a esta convocatoria. Mané contra Mbappé. Y en el banquillo, esperando, Nicolas Jackson: 24 años, Chelsea, primer Mundial. El relevo ya está designado. Mané todavía no ha aceptado el traspaso.
+
+Ficha de Senegal en [/2026/listas/SEN](/2026/listas/SEN).`,
+    category: 'jugadores',
+    sourceName: 'L\'Équipe / BBC Sport Africa',
+    sourceUrl: 'https://www.bbc.com/sport/africa',
+    sourceLang: 'es',
+    publishedAt: '2026-06-04T21:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/e/ea/Mohamed_Salah_2021_CAN_Final.jpg',
+      alt: 'Final de la Copa África de Naciones — imagen representativa',
+      credit: 'HazemGM / Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'tongo-gijon-1982-alemania-austria-eliminaron-argelia',
+    title: 'El tongo de Gijón: cómo Alemania y Austria se pusieron de acuerdo para eliminar a Argelia en 1982',
+    summary: '25 de junio de 1982. El Molinón, Gijón. Alemania marcó en el minuto 10. Los siguientes 80 minutos fueron un paseo. El comentarista alemán de radio dijo en antena: \'Lo que estamos viendo es vergonzoso.\'',
+    body: `El 25 de junio de 1982, en el Estadio El Molinón de Gijón, Alemania y Austria jugaron el último partido del Grupo 2 del Mundial de España. Ambas selecciones sabían, antes de saltar al campo, exactamente qué resultado necesitaban para que las dos pasaran a la siguiente ronda y Argelia quedara eliminada.
+
+Ese resultado era 1-0 para Alemania.
+
+## El contexto que lo explica todo
+
+Argelia había ganado a Alemania 2-1 en la primera jornada del grupo. Fue la mayor sorpresa del torneo hasta ese momento. Luego, Argelia perdió ante Austria 2-0 y ganó a Chile 3-2. Con esa clasificación, el partido entre Alemania y Austria era el que decidía quién acompañaba a Argelia en la siguiente fase.
+
+El problema: los partidos finales de grupo no se jugaban de forma simultánea en 1982. Argelia había terminado sus compromisos. Alemania y Austria sabían el resultado que necesitaban antes de empezar.
+
+## Minuto 10
+
+Horst Hrubesch marcó el 1-0 en el minuto 10. A partir de ahí, los dos equipos se pasaron el balón durante 80 minutos sin intentar variar el marcador. Los aficionados austriacos que habían viajado a Gijón abuchearon a su propia selección desde las gradas.
+
+El comentarista alemán de la radio pública dijo en antena: "Lo que estamos viendo es vergonzoso." No lo decía un periodista extranjero con sesgo anti-alemán. Lo decía alguien que retransmitía para los aficionados de uno de los equipos implicados.
+
+Los espectadores argelinos en el estadio desplegaron billetes en dirección al campo. El mensaje era inequívoco.
+
+## La queja que la FIFA archivó
+
+La Federación Argelina presentó una protesta formal ante la FIFA. Fue desestimada. No había ningún artículo del reglamento vigente que prohibiera jugar de esa manera. El resultado era legal. La intención era transparente.
+
+Rudi Völler, jugador alemán en ese torneo, reconoció décadas después: "Todos sabíamos lo que había que hacer."
+
+La FIFA introdujo, directamente como consecuencia de Gijón, el artículo que obliga a disputar de forma simultánea los dos últimos partidos de cada grupo. Ese artículo sigue vigente en 2026.
+
+## La rueda de la historia: Grupo J
+
+En el Mundial 2026, Argelia está en el **Grupo J** junto a Argentina, Austria y Jordania. Austria y Argelia se enfrentan el 15 de junio en Houston. Cuarenta y cuatro años después de Gijón, los dos equipos que protagonizaron el tongo más documentado de la historia de los Mundiales comparten grupo. Esta vez los últimos partidos del grupo se juegan simultáneamente. La FIFA aprendió eso, al menos.
+
+Ficha de Argelia en [/2026/listas/ALG](/2026/listas/ALG).`,
+    category: 'polemica',
+    sourceName: 'FIFA / El País',
+    sourceUrl: 'https://en.wikipedia.org/wiki/Disgrace_of_Gij%C3%B3n',
+    sourceLang: 'es',
+    publishedAt: '2026-06-04T22:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/4/46/El_Molinon_2019.jpg',
+      alt: 'Estadio El Molinón de Gijón, escenario del tongo de 1982',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+
+
+  // ─── 2026-06-03 ───────────────────────────────────────────────────────────
+  {
+    slug: 'paolo-rossi-italia-1982-el-ladron-de-mundiales',
+    title: 'Paolo Rossi, el hombre que robó un Mundial desde el banquillo de los parias',
+    summary: 'Inhabilitado dos años por el escándalo Totonero, Rossi llega a España 82 sin goles en los grupos y sin crédito de nadie. En seis días marca seis veces y convierte a Italia en campeona del mundo. La historia de la resurrección más extraña que ha visto un torneo.',
+    body: `## Febrero de 1980. El fútbol italiano se cae a pedazos.
+
+La *Giustizia Sportiva* destapa el Totonero: una red de apuestas ilegales que implica a decenas de jugadores de la Serie A. Entre ellos, Paolo Rossi. Delantero del Vicenza, internacional con Italia, participante en el Mundial de Argentina 1978 donde los *azzurri* llegaron a cuartos. El tribunal lo inhabilita dos años. Sin apelación que funcione. Sin revancha a corto plazo.
+
+Rossi cumple la sanción y regresa al fútbol en abril de 1982. Tiene dos meses para ponerse en forma antes de que empiece el Mundial de España. Su club, la Juventus, confía en él. Enzo Bearzot, el seleccionador, también. La prensa italiana, no.
+
+---
+
+## Grupos: el silencio sepulcral de un delantero fantasma
+
+Italia debuta en el Grupo 1, en Vigo y en Gijón. Los rivales son Polonia, Perú y Camerún. El plan de Bearzot es sobrevivir: un empate contra Polonia, uno contra Perú, uno contra Camerún. Calificación por diferencia de goles. Eficacia mínima. Nadie explota la posición.
+
+Rossi no marca. En tres partidos, cero goles, pocas ocasiones, movimientos imprecisos. La Gazzetta dello Sport pide su sustitución. Los aficionados silban en los entrenamientos. Bearzot no dice nada en público. Cierra el vestuario a los periodistas. Una decisión que la prensa interpreta como soberbia y que la historia convertirá en sabiduría.
+
+Italia pasa de ronda con tres empates. Los estadios la despiden entre abucheos.
+
+---
+
+## Barcelona, 2 de julio. La noche en que Rossi recuerda quién es.
+
+El segundo grupo enfrenta a Italia con Argentina y Brasil. Dos de los favoritos al título. Matemáticamente, Italia necesita ganar al menos uno. Emocionalmente, parece un trámite de eliminación.
+
+El 29 de junio, Italia gana a Argentina 2-1. Rossi no marca. Pero algo cambia: se mueve diferente, llega antes al primer pase, exige el balón con más insistencia.
+
+El 5 de julio llega Brasil. El equipo de Zico, Sócrates, Falcão y Junior. El mejor equipo del torneo según todos los observadores previos al partido. Italia sale a especular. No puede. Brasil manda.
+
+En el minuto 5, Rossi remata de cabeza un centro de Cabrini. 1-0 Italia. El Sarrià contiene el aliento.
+
+Brasil empata. Luego se adelanta 2-1. El partido parece terminado. Brasil solo necesita empatar los últimos minutos para pasar.
+
+Minuto 25 de la segunda parte. Tardelli pone un balón al área. Rossi llega desde segunda línea, controla entre dos defensas y dispara antes de que nadie pueda leerlo. 2-2. El Sarrià explota.
+
+Minuto 74. Cabrini centra desde la izquierda. Rossi, que no debería estar en esa posición, está. Cabecea. 3-2. Italia gana. Brasil queda eliminado.
+
+Zico sale del campo sin comprender qué ha pasado. Tardará años en asumirlo.
+
+---
+
+## Las semifinales: Polonia no puede con él.
+
+El 8 de julio, Italia se enfrenta a Polonia en el Camp Nou. El delantero polaco Zbigniew Boniek, goleador del torneo hasta ese momento, lleva una suspensión por acumulación de amonestaciones. Sin él, Polonia es un equipo diferente.
+
+Rossi marca dos. Italia gana 2-0. En ese momento suma cinco goles en dos partidos. El hombre que no existía hace diez días lidera las estadísticas del torneo.
+
+---
+
+## Madrid, 11 de julio. La final.
+
+El Bernabéu. Italia contra Alemania Occidental. Presencia del Rey Juan Carlos I y del presidente Sandro Pertini, que ya no se molesta en disimular su alegría en el palco.
+
+Minuto 57. Tardelli y Gentile construyen una jugada por la izquierda. Rossi remata desde el corazón del área. 1-0. El 11 de julio de 1982, Paolo Rossi marca en una final del mundo ante cuarenta mil espectadores y varios cientos de millones de telespectadores que siguen el partido en directo.
+
+Italia gana 3-1. Sandro Pertini celebra con el equipo en el vestuario. Las imágenes dan la vuelta al mundo.
+
+---
+
+## El balance.
+
+Seis goles en cuatro partidos de fase final. Bota de Oro. Balón de Oro. Campeón del mundo. Y todo esto empezando el torneo como el jugador más cuestionado del planeta.
+
+La FIFA no ha visto nunca nada igual. Un jugador que llega inhabilitado, silbado, cuestionado por su propio país, y que se convierte en el factor decisivo de un torneo en la última semana. Bearzot lo supo antes que nadie. Rossi lo ejecutó cuando más importaba.
+
+El Totonero, al final, no borró su historia. Solo la complicó un poco.
+
+---
+
+*¿Quieres seguir los partidos de Italia en el Mundial 2026? Consulta el [Grupo F: Italia, México, Arabia Saudí y Costa Rica](#) con todos los horarios y sedes.*`,
+    category: 'historica',
+    sourceName: 'FIFA / Wikipedia',
+    sourceUrl: 'https://www.fifa.com/tournaments/mens/worldcup/1982spain',
+    sourceLang: 'es',
+    publishedAt: '2026-06-03T07:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/9/90/Sanae_Takaichi_FIFA_World_Cup_2026_trophy_tour_05.jpg',
+      alt: 'Trofeo del Mundial — herencia de campeones como el Italia de Paolo Rossi en 1982',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY 4.0',
+    },
+  },
+  {
+    slug: 'uzbekistan-mundial-2026-khusanov-man-city-pakhtakor-cannavaro',
+    title: 'Uzbekistán lleva al Mundial un jugador del Manchester City y diez del Pakhtakor. Eso sí es diversidad',
+    summary: 'El primer Mundial de Uzbekistán reúne la rareza perfecta: Abdukodir Khusanov, central que costó 44 millones al City y apenas jugó, comparte vestuario con doce futbolistas de la liga uzbeka. Fabio Cannavaro dirige el experimento. El Grupo K los pone contra Portugal y Colombia.',
+    body: `## El fichaje que nadie vio jugar.
+
+En enero de 2025, el Manchester City pagó 44 millones de euros al RC Lens por Abdukodir Khusanov. Un central uzbeko de 23 años, veloz, con buena salida de balón y un historial de partidos en la Ligue 1 que convencía. Pep Guardiola lo quería. El City lo tenía identificado desde meses antes.
+
+Lo que vino después es más difícil de explicar. Khusanov jugó menos de 300 minutos en la Premier League durante toda la temporada. Un partido completo aquí, veinte minutos allí. Titular ocasional en la Liga de Campeones. El City terminó la temporada lejos de las posiciones de título. Khusanov terminó la temporada con el pasaporte más interesante del vestuario y los minutos más escasos de cualquier futbolista que costara más de cuarenta millones en el mercado invernal.
+
+Ahora está en la lista definitiva de Uzbekistán para el Mundial 2026. Y es, con diferencia, el jugador más caro de una convocatoria que también incluye a doce futbolistas del Pakhtakor Tashkent.
+
+---
+
+## Cannavaro en Tashkent.
+
+Fabio Cannavaro ganó el Balón de Oro en 2006. Fue el capitán de la selección italiana que ganó el Mundial de Alemania. Nadie diría entonces que veinte años después estaría preparando el primer Mundial de Uzbekistán desde el banquillo uzbeko, pero el fútbol tiene estos itinerarios.
+
+Cannavaro tomó el cargo en 2023 tras experiencias en China (Guangzhou Evergrande, dos ligas) y en Arabia Saudí. Encontró una selección con potencial físico, con jugadores de calidad dispersos por Europa y una liga local que produce futbolistas más que decentes. El proyecto le convenció. El puesto de seleccionador, también.
+
+Bajo su dirección, Uzbekistán completó una clasificación sin grandes dramas para llegar al Grupo K: Portugal, Colombia y República Democrática del Congo.
+
+---
+
+## El Grupo K: bienvenidos a la zona de confort.
+
+Portugal llega con Cristiano Ronaldo. A sus 41 años, el delantero del Al-Nassr ha anunciado que este es su último torneo y que aspira a terminarlo como campeón. La narrativa es inmejorable. Los números del grupo también lo son para los dos favoritos.
+
+Colombia viene de clasificarse con facilidad y llega con James Rodríguez, Luís Díaz y una generación que aspira a más de lo que el país ha conseguido históricamente (cuartos de final en 2014 sigue siendo el techo).
+
+Congo RD es un equipo con recursos técnicos notables para sus circunstancias y representación de jugadores en ligas europeas de primer nivel.
+
+Uzbekistán, en este grupo, es el adversario que nadie quiere porque no se sabe bien qué esperar. Cannavaro prepara equipos ordenados, difíciles de batir, con transiciones rápidas. No es el once con menos talento de la historia; es el once con la distribución geográfica más peculiar.
+
+---
+
+## La paradoja Khusanov.
+
+El dato más revelador no es que un jugador del Manchester City esté en el primer Mundial de Uzbekistán. Es que ese jugador tiene menos minutos competitivos en la temporada que algunos de sus compañeros del Pakhtakor, que juegan en la Liga Uzbeka ante dieciséis mil espectadores de media por partido.
+
+¿Importa eso? Técnicamente, los minutos son los minutos. Khusanov tiene calidad demostrada en la Ligue 1 y en el City ha entrenado con los mejores jugadores del mundo cada día. El fútbol de élite también se asimila desde el banquillo, aunque ningún entrenador lo recomendaría como plan de desarrollo.
+
+Lo que sí importa es lo que representa el grupo: Eldor Shomurodov, el delantero de la Roma y de la Serie A, lidera la delantera junto a jugadores cuya trayectoria ha transcurrido entera en el fútbol centroasiático. Esa mezcla no tiene equivalente en este torneo.
+
+---
+
+## El debut.
+
+Uzbekistán debuta el 14 de junio ante la República Democrática del Congo. El partido se juega en Atlanta. Aquí empieza la historia del primer Mundial uzbeko, con Cannavaro en el banquillo, Khusanov en el once inicial previsible y Shomurodov buscando el gol que, si entra, nadie en Tashkent olvidará.
+
+La liga uzbeka lleva semanas de competición reducida para liberar a los internacionales. El Pakhtakor ha cedido a más de diez jugadores. Los que se queden en casa seguirán los partidos con interés profesional.
+
+---
+
+*Consulta todos los partidos del Grupo K con fechas, horas y estadios en nuestra sección de [grupos y fases del Mundial 2026](#).*`,
+    category: 'curiosa',
+    sourceName: 'FIFA / Transfermarkt',
+    sourceUrl: 'https://www.fifa.com/tournaments/mens/worldcup/2026canadamexicounited-states/groups',
+    sourceLang: 'es',
+    publishedAt: '2026-06-03T09:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/5/53/Abdukodir_Khusanov_%28cropped%29.jpg',
+      alt: 'Abdukodir Khusanov, defensa de Uzbekistán en el Manchester City',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY 4.0',
+    },
+  },
+  {
+    slug: 'noruega-convocatoria-mundial-2026-haaland-odegaard-28-anos-espera',
+    title: 'Noruega cierra la lista para el Mundial: Haaland y Ødegaard llevan al país a donde no iba desde que Alfie Haaland jugaba',
+    summary: 'Ståle Solbakken confirma la convocatoria definitiva de Noruega para el Mundial 2026, con Erling Haaland y Martin Ødegaard como ejes. Es el primer torneo en 28 años. En 1998, el padre de Erling estaba en esa misma selección. El Grupo I los pone ante Francia, Senegal e Irak.',
+    body: `## 23 de junio de 1998. Saint-Denis, Francia.
+
+Noruega 2-1 Brasil. Grupo A. Tore André Flo y Kjetil Rekdal mandan al equipo de Ronaldo y Romário a casa antes de los octavos. Una de las sorpresas del torneo. En esa Noruega de 1998 hay un centrocampista de 25 años que se llama Alfie Haaland.
+
+Alfie Haaland nunca ganó nada grande con Noruega. Terminó su carrera en el Leeds United, donde una entrada de Roy Keane en el año 2001 le dejó con secuelas físicas importantes. Su historia es la de un futbolista que llegó al límite de lo posible con su generación.
+
+Veintiocho años después, su hijo Erling encabeza la lista definitiva de Noruega para el Mundial 2026. El primero que ha visto el país desde aquel verano en Francia.
+
+---
+
+## La convocatoria.
+
+Ståle Solbakken, seleccionador desde 2020, ha gestionado este proceso con la serenidad de quien sabe que la lista se escribió sola. Los dos nombres imprescindibles siempre fueron los mismos.
+
+**Erling Haaland** llega desde el Manchester City. Campeón de la Premier League. 35 goles en la temporada de clubes. 24 años. Nunca ha jugado un partido de fase final de un torneo grande con Noruega porque Noruega no llegaba a los torneos grandes desde que él tiene uso de razón futbolístico.
+
+**Martin Ødegaard**, capitán. Arsenal. Centrocampista de organización, visión larga, llegada al área. La temporada en el Emirates ha sido desigual por lesiones, pero Ødegaard sano es uno de los tres mejores mediapuntas de Europa sin discusión.
+
+El resto de la lista combina jugadores de Premier League (Alexander Sørloth, Mohamed Elyounoussi), Bundesliga y Eredivisie con perfiles más discretos del fútbol escandinavo.
+
+---
+
+## El grupo.
+
+Noruega cae en el Grupo I: **Francia, Senegal e Irak**.
+
+Francia es el rival imposible. Mbappé, Griezmann, una defensa construida para no perder. Didier Deschamps lleva a los *Bleus* al tercer Mundial consecutivo como seleccionador y a todos les parece lo más normal del mundo, que es el mejor indicador de la solidez de su proyecto.
+
+Senegal es el campeón africano vigente. Sadio Mané —si llega en condiciones— y una generación de jugadores nacidos o formados en Francia que conocen el fútbol europeo de primera mano.
+
+Irak es el equipo que da margen. Un grupo sin Irak haría los cálculos noruegos imposibles. Con Irak, Noruega tiene un partido que ganar y dos que pelear.
+
+---
+
+## El dilema táctico de Solbakken.
+
+¿Cómo usar a Haaland en un equipo que no puede dominar el balón ante Francia o Senegal?
+
+La respuesta obvia es el contragolpe: Haaland como punto de llegada en transiciones rápidas, Ødegaard como constructor desde la segunda línea, amplitud por bandas para generar el espacio que necesita el nueve del City.
+
+El problema es que Haaland funciona mejor en equipos que le dan balones en movimiento y que atacan con continuidad. En un equipo que defiende en bloque durante 60 minutos, el delantero más efectivo del mundo puede terminar el partido con tres toques y cero remates.
+
+Solbakken lo sabe. Ha experimentado con variantes: Haaland más retrasado, combinativo, generando espacio para que lleguen los extremos. El experimento da resultados mixtos. Lo que no da resultados es no intentarlo.
+
+---
+
+## El debut.
+
+Noruega abre el torneo el **15 de junio ante Irak** en un estadio por confirmar en el área de Nueva York/Nueva Jersey. Es el partido más importante de la temporada para un país que lleva 28 años fuera de este escenario.
+
+La tarde en que Erling Haaland salte al césped por primera vez en un Mundial, Alfie Haaland estará viendo el partido desde algún lugar de Noruega. Eso no lo resolverá Solbakken con ninguna pizarra táctica.
+
+---
+
+*Todos los partidos del Grupo I de Noruega con fechas, horas y resultados en [la sección de grupos del Mundial 2026](#).*`,
+    category: 'convocatorias',
+    sourceName: 'NFF / ESPN',
+    sourceUrl: 'https://www.fotball.no/landslag/herrelandslaget/',
+    sourceLang: 'es',
+    publishedAt: '2026-06-03T11:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/7/75/Norway_Italy_-_June_2025_B_01.jpg',
+      alt: 'Selección de Noruega en partido de preparación, junio 2025',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY 4.0',
+    },
+  },
+  {
+    slug: 'grupo-b-mundial-2026-canada-qatar-suiza-bosnia-horarios-analisis',
+    title: 'Grupo B del Mundial 2026: Canadá manda en casa, y Lopetegui aparece otra vez en el momento menos esperado',
+    summary: 'El Grupo B enfrenta a Canadá, Qatar, Suiza y Bosnia en Vancouver y otras sedes norteamericanas. Alphonso Davies y Jonathan David son las referencias de los coanfitriones. Qatar llega con Julen Lopetegui, el técnico que España despidió horas antes del Mundial 2018. La rueda, efectivamente, gira.',
+    body: `## Las cuatro selecciones.
+
+**Canadá** es el favorito claro. Coanfitrión junto a México y Estados Unidos, llega con la mejor generación de jugadores de su historia. Alphonso Davies (Bayern Múnich) como lateral izquierdo con proyección de extremo, Jonathan David (Atlético de Madrid) como delantero de referencia, Tajon Buchanan como desequilibrio por banda. El seleccionador Jesse Marsch construye un equipo intenso, de alta presión, con salida de balón trabajada. Juegan en casa. No hay mejor momento para que el fútbol canadiense dé el paso que lleva diez años prometiendo dar.
+
+**Suiza** es la máquina regulable. Siempre en los octavos, nunca en cuartos. Murat Yakin dirige un equipo que combina jugadores de Bundesliga, Serie A y Liga española con una organización defensiva de primer nivel. Granit Xhaka (Bayer Leverkusen) es el metronomo del centro del campo. Breel Embolo como referencia ofensiva. El problema suizo no es la calidad; es que no cambia de velocidad cuando el partido lo exige.
+
+**Bosnia y Herzegovina** regresa al Mundial doce años después de su única aparición, en Brasil 2014. Aquella selección llegó al grupo con Argentina, Nigeria e Irán. Esta llega con un perfil diferente: sin Edin Džeko —retirado o en el límite de convocatoria, según confirmación final del seleccionador Sergej Barbarez—, la generación de recambio tiene jugadores en ligas europeas medias pero sin el nombre que centralizaba el juego anterior.
+
+**Qatar** es el caso más difícil de analizar sin una sonrisa. El campeón organizador de 2022 fue la primera selección anfitriona en perder los tres partidos de grupos en la historia del torneo. Un resultado que la FIFA prefiere no recordar demasiado a menudo en sus comunicados oficiales. Ahora llega como invitado al torneo de sus vecinos continentales con Julen Lopetegui en el banquillo.
+
+---
+
+## Lopetegui. De vuelta, como siempre.
+
+El 12 de junio de 2018, horas antes del debut de España en el Mundial de Rusia, la Real Federación Española de Fútbol destituye a Julen Lopetegui como seleccionador porque ha firmado un contrato con el Real Madrid sin comunicárselo a la federación. España juega el torneo con Fernando Hierro improvisado en el banquillo y cae en octavos ante Rusia en los penaltis.
+
+Lopetegui ficha por el Madrid, es destituido en octubre, ficha por el Sevilla, gana la Europa League, ficha por el Wolves, es destituido, ficha por el West Ham, es destituido. En 2025, Qatar lo llama.
+
+Hay que reconocer una coherencia irónica en el itinerario: el hombre que fue expulsado de un Mundial por firmar en secreto con otro club ahora va a un Mundial como seleccionador de Qatar. La narrativa del fútbol no necesita ayuda externa.
+
+Su trabajo en Qatar ha sido mejorar una selección que estructuralmente tiene limitaciones severas de cantera. Akram Afif, el mejor jugador catarí, es el activo principal del ataque. Hassan Al-Haydos aporta experiencia. El resto del grupo necesita un milagro comparable al de un sorteo muy generoso para pasar de ronda.
+
+---
+
+## Fechas y horarios (CEST / UTC).
+
+Todos los partidos del Grupo B:
+
+| Fecha | Partido | Sede | Hora (CEST) | Hora (UTC) |
+|-------|---------|------|-------------|------------|
+| 12 jun | Canadá vs Bosnia | BC Place, Vancouver | 21:00 | 19:00 |
+| 13 jun | Qatar vs Suiza | AT&T Stadium, Dallas | 21:00 | 19:00 |
+| 17 jun | Canadá vs Qatar | BC Place, Vancouver | 21:00 | 19:00 |
+| 18 jun | Bosnia vs Suiza | Levi's Stadium, Santa Clara | 21:00 | 19:00 |
+| 22 jun | Suiza vs Canadá | BC Place, Vancouver | 02:00+1 | 00:00 |
+| 22 jun | Bosnia vs Qatar | AT&T Stadium, Dallas | 02:00+1 | 00:00 |
+
+*Horarios sujetos a confirmación oficial de FIFA. Comprobar antes del partido.*
+
+---
+
+## Quién pasa.
+
+**Canadá** y **Suiza** son los dos clasificados más probables. Qatar necesita que los otros resultados fallen de forma coordinada para tener opciones. Bosnia, con el desgaste de clasificación y sin Džeko confirmado, tiene menos margen que en 2014.
+
+---
+
+*Todos los grupos, cruces y tabla de clasificación en [nuestra sección completa del Mundial 2026](#).*`,
+    category: 'general',
+    sourceName: 'FIFA / ESPN',
+    sourceUrl: 'https://www.fifa.com/tournaments/mens/worldcup/2026canadamexicounited-states/groups',
+    sourceLang: 'es',
+    publishedAt: '2026-06-03T13:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/BC_Place_2014.jpg/1280px-BC_Place_2014.jpg',
+      alt: 'BC Place Vancouver, sede principal del Grupo B del Mundial 2026',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 3.0',
+    },
+  },
+  {
+    slug: 'corea-sur-alemania-2002-mundial-ahn-jung-hwan-gaucci-perugia',
+    title: 'El gol de Ahn Jung-hwan que eliminó a Alemania y le costó el contrato en Italia',
+    summary: 'El 25 de junio de 2002, Corea del Sur elimina a Alemania en cuartos del Mundial con un gol de Ahn Jung-hwan. El presidente del Perugia, su club en la Serie A, le rescinde el contrato ese mismo día. "No pienso pagar a quien ha arruinado el calcio italiano." Una de las historias más extrañas del fútbol moderno.',
+    body: `## Ulsan, 25 de junio de 2002. Cuartos de final.
+
+Alemania llega al partido con la condición de favorito que le corresponde por historia, por generación y por los resultados previos del torneo. Rudi Völler dirige un equipo sólido, con Oliver Kahn bajo palos, Michael Ballack en el centro del campo y Miroslav Klose como referencia ofensiva. Han ganado el grupo sin dificultades. Los cuartos de final ante Corea del Sur son, en el papel, el trámite antes de la semifinal.
+
+Corea del Sur llega como el equipo de moda del torneo. Ha eliminado a Polonia, a Portugal —en el partido más comentado de la fase de grupos— y ha derrotado a Italia en octavos con un gol de Ahn Jung-hwan en la prórroga. El árbitro Byron Moreno anuló ese día un gol legal de Tommasson y expulsó a Totti de forma discutible. La controversia rodea al equipo coreano desde semanas antes del partido contra Alemania.
+
+El 25 de junio, en el Munsu Football Stadium de Ulsan, el encuentro es tácticamente trabado. Alemania presiona pero no encuentra espacios. Corea defiende en bloque y sale con velocidad.
+
+---
+
+## El minuto 75.
+
+Lee Eul-yong cruza el área por la derecha y centra bajo. Ahn Jung-hwan, llegando desde segunda línea, no controla: remata de primera. El balón entra por el palo izquierdo de Kahn, que había ganado la distinción de mejor portero del torneo hasta ese momento.
+
+1-0. Corea del Sur 1, Alemania 0.
+
+Los últimos quince minutos son un asedio sin resultado. Alemania lanza, centra, exige. La defensa coreana, dirigida por Hong Myung-bo, resiste. El pitido final envía a Corea a semifinales por primera y única vez en su historia.
+
+Rudi Völler abandona el campo sin declaraciones. Oliver Kahn golpea el suelo con el puño antes de llegar al túnel. Ballack, que había anotado los goles clave durante el torneo, no puede creerlo.
+
+---
+
+## Perugia. El presidente y la rescisión.
+
+Ahn Jung-hwan tiene 26 años en ese momento y juega en el Perugia Calcio de la Serie A italiana. Un club de segunda fila de la liga, propiedad de Luciano Gaucci, empresario romano conocido por sus declaraciones inflamadas y sus decisiones de mercado impredecibles.
+
+Gaucci sigue el partido desde Italia. Cuando Ahn marca, llama a su director deportivo y le da una instrucción. No hay registro exacto de la conversación, pero el resultado es conocido: esa misma noche, el Perugia rescinde el contrato de Ahn Jung-hwan.
+
+Al día siguiente, Gaucci lo explica en declaraciones a la prensa italiana: *"No pienso pagar el sueldo a alguien que ha arruinado el calcio italiano. Ese gol nos ha eliminado a nosotros también."*
+
+La lógica era, en términos estrictos, la siguiente: Italia había sido eliminada por Corea en octavos. Que Corea llegase a semifinales significaba, retroactivamente, que la derrota italiana no era una casualidad sino el resultado de un equipo que era mejor de lo que todos pensaban. Gaucci no lo vio así.
+
+---
+
+## El contexto del torneo coreano.
+
+Las eliminaciones de Italia y España en ese Mundial generaron una controversia que el tiempo no ha cerrado del todo. Los árbitros de ambos partidos fueron Moreno (Italia-Corea) y Gamal Al-Ghandour (Corea-España). FIFA los suspendió preventivamente antes de las semifinales. La prensa italiana y española no necesitó más argumento.
+
+Lo que es objetivamente cierto: Corea fue un equipo compacto, bien preparado por Guus Hiddink, con jugadores en forma y con el apoyo de un estadio que generó una atmósfera que varios participantes describieron como intimidatoria. Los cuatro arbitrajes a favor de Corea en el torneo incluían decisiones cuestionables. Incluían también defensa sólida, transiciones rápidas y el gol de Ahn.
+
+---
+
+## El desenlace.
+
+Ahn Jung-hwan volvió a Italia, fichó por el Metz francés y terminó la carrera en Corea. Nunca volvió a la Serie A. Gaucci abandonó el Perugia en 2005 por problemas judiciales y financieros. El club descendió a categorías inferiores y estuvo varias temporadas en Serie C.
+
+La rueda giró, como siempre.
+
+---
+
+*¿Juegas a adivinar las sorpresas del Mundial 2026? Apunta los candidatos a la primera eliminación inesperada en nuestra [sección de análisis de grupos](#).*`,
+    category: 'historica',
+    sourceName: 'Wikipedia / The Athletic',
+    sourceUrl: 'https://en.wikipedia.org/wiki/2002_FIFA_World_Cup_quarter-finals',
+    sourceLang: 'es',
+    publishedAt: '2026-06-03T15:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/1/17/Seoul_Plaza_2002_FIFA_World_Cup.jpg',
+      alt: 'Multitud en la Plaza de Seúl celebrando la actuación de Corea del Sur en el Mundial 2002',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY 4.0',
+    },
+  },
+  {
+    slug: 'sofi-stadium-inglewood-estadio-mas-caro-historia-mundial-2026',
+    title: 'SoFi Stadium: 5.500 millones de dólares, dos Super Bowls y ahora el partido inaugural de Estados Unidos en el Mundial',
+    summary: 'El estadio más caro jamás construido acoge el debut de la selección estadounidense en el Mundial 2026. Con 70.240 localidades y una inversión que supera el PIB de varios países participantes, el SoFi de Inglewood simboliza la ambición —y la escala— del fútbol en los Estados Unidos del siglo XXI.',
+    body: `## Un número para situar la escala.
+
+5.500 millones de dólares. Ese es el coste de construcción del SoFi Stadium de Inglewood, California, inaugurado en 2020. El estadio más caro jamás edificado en la historia del deporte.
+
+Para darle perspectiva: Burundi, participante en el Mundial 2026 a través de su clasificación africana, tiene un PIB de aproximadamente 3.800 millones de dólares. El estadio donde jugará su partido de grupos vale más que la economía anual de uno de los países que compiten dentro de él. FIFA suele llamar a esto "el poder unificador del fútbol".
+
+---
+
+## La construcción.
+
+El proyecto lo desarrolló Stan Kroenke, propietario del Arsenal Football Club y de los Los Angeles Rams y Chargers de la NFL. El diseño es de HKS Architects. La construcción comenzó en 2016 y terminó en 2020, justo cuando la pandemia de COVID-19 impidió que hubiera público en el estadio durante los primeros meses de operación.
+
+La sala está diseñada con un techo translúcido semiabierto —no retráctil en el sentido tradicional, sino una cubierta fija que cubre las gradas pero deja abierto el lateral del campo para ventilación natural. El resultado es un espacio que regula temperatura y protege de la lluvia sin necesitar mecanismos de apertura y cierre. En el clima de Los Ángeles, es suficiente.
+
+Capacidad estándar: 70.240 espectadores. Para eventos especiales con configuración de Super Bowl: hasta 100.240.
+
+---
+
+## Los Super Bowls.
+
+El SoFi acogió el **Super Bowl LVI** en febrero de 2022, donde los propios Rams derrotaron a los Cincinnati Bengals 23-20. La narrativa de un propietario ganando el Super Bowl en su propio estadio el año de su inauguración plena fue suficientemente cinematográfica para que los medios americanos la repitieran durante semanas.
+
+En febrero de 2025 fue el turno del **Super Bowl LIX**. El estadio ya tenía rodaje. Los protocolos de seguridad, logística y producción televisiva estaban optimizados.
+
+El Mundial añade una capa diferente: 104 partidos repartidos entre 16 sedes, con la componente logística de público internacional, comunicaciones en múltiples idiomas y un perfil de espectador que no es el de la NFL.
+
+---
+
+## El partido inaugural de Estados Unidos.
+
+La selección americana, coorganizadora del torneo, debuta el **12 de junio en el SoFi Stadium** ante su rival del Grupo A. El partido inaugural del torneo como tal se celebra el 11 de junio en el Estadio Azteca de Ciudad de México, con México como protagonista. Estados Unidos juega el día siguiente en Inglewood.
+
+El combinado de Mauricio Pochettino llega al torneo con expectativas moderadas en papel y expectativas desmedidas en el imaginario popular americano. Christian Pulisic, Weston McKennie, Tyler Adams y Yunus Musah conforman el núcleo europeo. La presión de jugar en casa ante 70.000 espectadores es un factor que los técnicos reconocen y los jugadores afrontan con discursos de concentración.
+
+---
+
+## Cómo llegar y otros estadios del área LA.
+
+El SoFi Stadium está en Inglewood, 5 kilómetros al sur del aeropuerto internacional LAX. La conexión en Metro (línea K, estación Westchester/Veterans) funciona desde 2022 pero tiene capacidad limitada. La mayoría de los espectadores llegan en coche por las autopistas I-405 y I-105.
+
+El área de Los Ángeles concentra también el **Rose Bowl** de Pasadena, sede histórica de la final del Mundial 1994 (Brasil-Italia), que albergará varios partidos de la fase de grupos y eliminatorias.
+
+---
+
+*Consulta todos los estadios del Mundial 2026 con capacidades, ubicaciones y partidos asignados en nuestra [guía de sedes](#).*`,
+    category: 'sedes',
+    sourceName: 'Wikipedia / FIFA',
+    sourceUrl: 'https://en.wikipedia.org/wiki/SoFi_Stadium',
+    sourceLang: 'es',
+    publishedAt: '2026-06-03T17:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/SoFi_Stadium_-_2020.jpg/1280px-SoFi_Stadium_-_2020.jpg',
+      alt: 'SoFi Stadium en Inglewood, California, sede del partido inaugural de Estados Unidos en el Mundial 2026',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'como-ver-mundial-2026-alemania-ard-zdf-dazn-gratis',
+    title: 'Alemania ve el Mundial entero en abierto: ARD y ZDF emiten los 104 partidos sin pagar un euro',
+    summary: 'ARD y ZDF tienen los derechos de todos los partidos del Mundial 2026 para el mercado alemán. Ningún partido en exclusiva de pago. 0 euros con antena o televisión digital. Alemania es uno de los pocos grandes mercados europeos donde la televisión pública cubre el torneo completo, no solo los partidos nacionales.',
+    body: `## El modelo que otros países han olvidado.
+
+En España, los derechos del Mundial los tiene RTVE en abierto combinado con Mediapro en pago. En Inglaterra, ITV y BBC comparten los partidos con restricciones. En Francia, TF1 y beIN Sports se distribuyen el catálogo.
+
+En Alemania, ARD y ZDF emiten los 104 partidos del Mundial 2026 en abierto. Todos. No solo los de la selección alemana. No solo los de la fase final. Todos los partidos, desde el 11 de junio hasta la final del 19 de julio.
+
+El modelo de servicio público alemán para los grandes eventos deportivos ha resistido la presión de los operadores de pago durante dos décadas. La Rundfunkbeitrag —la tasa de radiodifusión de 18,36 euros mensuales por hogar— financia entre otros estos derechos. Los contribuyentes alemanes ya han pagado por el torneo. Ver los partidos es ejercer un derecho adquirido.
+
+---
+
+## Cómo ver en televisión.
+
+**ARD (Das Erste)** y **ZDF** se reparten la cobertura. ARD emite los partidos impares del calendario, ZDF los pares, con la selección alemana garantizada en ambas cadenas según el horario. Los partidos de Alemania son el bien más preciado del catálogo: en los grandes torneos anteriores, audiencias de 20-25 millones en un solo partido han sido habituales.
+
+La señal llega por satélite (Astra 19.2°E), cable y DVB-T2 en toda Alemania. Sin instalaciones especiales. Sin contraseñas.
+
+**DAZN** tiene también los derechos de streaming de todos los partidos para el mercado alemán. El precio de suscripción mensual ronda los 19,99 euros. Útil para quien quiera ver el partido en el móvil o en plataformas inteligentes sin sintonizar la señal hertziana.
+
+**MagentaTV** (Deutsche Telekom) ofrece acceso a todos los partidos para sus suscriptores de internet y televisión. Si ya tienes un paquete Telekom, el Mundial está incluido sin coste adicional según los contratos firmados este año.
+
+---
+
+## Los partidos de Alemania. Grupo E.
+
+La selección alemana, dirigida por Julian Nagelsmann, cae en el **Grupo E** junto a Curazao, Costa de Marfil y Ecuador. En papel, es un grupo abordable. En papel.
+
+| Fecha | Partido | Hora (CET) |
+|-------|---------|------------|
+| 14 jun | Alemania vs Curazao | 21:00 |
+| 20 jun | Alemania vs Costa de Marfil | 21:00 |
+| 25 jun | Alemania vs Ecuador | 02:00+1 |
+
+El tercer partido a las dos de la madrugada hora alemana es el inevitable castigo de tener un torneo en Norteamérica. ARD y ZDF emitirán en directo igualmente. Las audiencias de madrugada rara vez superan los cinco millones, pero los alemanes tienen amplia experiencia en madrugar por su selección.
+
+Florian Wirtz llega como la gran novedad del ciclo. El centrocampista del Bayer Leverkusen tiene 22 años y la confianza de Nagelsmann para ser el eje creativo de un equipo que busca recuperar protagonismo tras el batacazo del Mundial 2022 y la eliminación en la Eurocopa 2024.
+
+---
+
+## Cómo ver desde fuera de Alemania.
+
+ARD y ZDF geobloquearon su señal de streaming (ardmediathek.de y zdf.de) fuera del territorio alemán en el último ciclo de derechos. Los residentes alemanes temporalmente en el extranjero pueden usar servicios VPN con servidor alemán para acceder, aunque las condiciones de uso de las plataformas varían.
+
+DAZN tiene versiones disponibles en varios países europeos, aunque los derechos del Mundial cambian según el territorio.
+
+---
+
+*Para el calendario completo de partidos de Alemania con sedes y análisis del Grupo E, visita nuestra [sección de selecciones del Mundial 2026](#).*`,
+    category: 'tv',
+    sourceName: 'ARD / ZDF / DAZN',
+    sourceUrl: 'https://www.ard.de',
+    sourceLang: 'es',
+    publishedAt: '2026-06-03T19:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/c/cc/%2820240529%29_Brandenburger_Tor%2C_UEFA_EURO_2024_01.jpg',
+      alt: 'Puerta de Brandenburgo con decoración de la Eurocopa 2024 en Berlín',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'jonathan-david-atletico-madrid-maximo-goleador-europa-mundial-canada-2026',
+    title: 'Jonathan David llega al Mundial como el máximo goleador de Europa. En España lo descubrieron cuando fichó por el Atlético',
+    summary: 'Con 33 goles en 2024-25 y tres Botas de Oro consecutivas de la Ligue 1, el canadiense Jonathan David es el delantero más eficaz de Europa. Su fichaje por el Atlético de Madrid en 2025 obligó a muchos a buscarlo en Wikipedia. Llega al primer Mundial de su vida con 25 años y sin haber jugado nunca en una liga "visible".',
+    body: `## El problema de jugar en Francia.
+
+La Ligue 1 es invisible. No en términos técnicos —produce futbolistas excelentes, tiene clubes históricos, genera datos de rendimiento que los scouts europeos siguen con atención. Es invisible en términos de relato. La narrativa del fútbol europeo la construyen la Premier League, La Liga y la Serie A. Lo que pasa en Francia existe, pero no cuenta hasta que un jugador cruza la frontera.
+
+Jonathan David cruzó la frontera en verano de 2025, cuando el Atlético de Madrid anunció su fichaje tras tres temporadas siendo el delantero más consistente de Europa. El precio de la operación superó los 60 millones de euros. Varios medios españoles publicaron piezas explicando quién era Jonathan David. Habían tenido tres años para escribirlas.
+
+---
+
+## Los números.
+
+Temporada 2022-23: 26 goles en Ligue 1 con el Lille. Bota de Oro francesa.
+Temporada 2023-24: 25 goles en Ligue 1. Segunda Bota de Oro francesa consecutiva.
+Temporada 2024-25: 26 goles en Ligue 1 más 7 en competición europea. Tercera Bota de Oro. Máximo goleador de todas las ligas europeas de primer nivel esa temporada.
+
+Total en cinco temporadas entre Gante y Lille: más de 120 goles en ligas europeas. A 25 años.
+
+Para comparar: Erling Haaland a los 24 tenía un registro superior en número absoluto por la diferencia de equipos, pero David lleva el peso de liderar estadísticas en una liga que nadie mira.
+
+---
+
+## La biografía.
+
+Nacido en Antigua y Barbuda en 2000 de padre haitiano y madre antigüeña. Criado en Bruselas. Formado en el Royal White Star y en el KAA Gent, donde debutó como profesional con 17 años. Vendido al Lille por 30 millones en 2020. Selección: Canadá, por elegibilidad nacional y decisión personal. No había duda de a quién representar.
+
+Canadá le ofrece algo que Francia o Bélgica —donde también podría haber optado— nunca le darían: ser el jugador más importante del equipo más importante de una generación histórica.
+
+---
+
+## El Mundial.
+
+David llega a su primer torneo de este nivel a los 25 años, fichado por el Atlético de Madrid, con la forma más consistente de su carrera y con el Grupo B como escenario: Canadá, Qatar, Suiza y Bosnia.
+
+Los tres primeros partidos son los más accesibles que podría pedir para un debut mundialista. Qatar es el equipo más débil del grupo sobre el papel. Bosnia tiene limitaciones sin Džeko. Suiza es eficaz pero no invulnerable si Canadá genera ritmo.
+
+David necesita tres cosas del grupo: goles que demuestren que los números de Ligue 1 se trasladan al nivel mundialista, fluidez con Alphonso Davies en el eje Atlético de Madrid - Bayern Múnich, y evitar las lesiones que han interrumpido su temporada en algunos tramos.
+
+---
+
+## El Atlético como contexto.
+
+El fichaje por el Atlético cambia la percepción de David en España pero no cambia quién es. Diego Simeone lleva años pidiendo un delantero que garantice 20 goles por temporada sin depender de rachas. David es la respuesta más convincente del mercado para esa demanda.
+
+Si el Mundial sale bien —definamos bien como cuartos de final para Canadá y cinco o seis goles para David—, la temporada 2026-27 en el Metropolitano empieza con el delantero en el centro de todas las conversaciones del fútbol español.
+
+Si el Mundial sale mal, habrá quien recuerde que la Ligue 1 es invisible por alguna razón.
+
+---
+
+*Todos los partidos de Canadá con fechas, horarios y análisis del Grupo B en [nuestra sección de grupos](#).*`,
+    category: 'jugadores',
+    sourceName: 'Transfermarkt / L\'Équipe / Canada Soccer',
+    sourceUrl: 'https://www.transfermarkt.com/jonathan-david/profil/spieler/338084',
+    sourceLang: 'es',
+    publishedAt: '2026-06-03T20:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/4/4c/Jonathan_David_%28cropped%29.jpg',
+      alt: 'Jonathan David, máximo goleador de la Ligue 1 y delantero de Canadá en el Mundial 2026',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'haiti-mundial-2026-52-anos-sanon-zoff-grupo-brasil-marruecos',
+    title: 'Haití vuelve al Mundial 52 años después. El país más complicado del Caribe tiene el grupo más complicado del torneo',
+    summary: 'La única aparición anterior de Haití en un Mundial fue en 1974, donde Emmanuel Sanon marcó el primer gol que encajaba Dino Zoff en 1.142 minutos. Ahora regresan con un equipo formado en la diáspora francesa, un técnico galo y el Grupo C: Brasil, Marruecos y Escocia. No es el grupo más fácil para volver.',
+    body: `## Frankfurt, 19 de junio de 1974.
+
+Italia contra Haití. Grupo 4 del Mundial de Alemania Occidental. Para Italia es un trámite de fase de grupos. Para Haití es el primer partido mundialista de su historia, y hay 53.000 personas en el Waldstadion que, en términos generales, no saben muy bien qué esperar.
+
+En el minuto 46, Emmanuel Sanon recibe un pase en profundidad, supera a Zoff en la salida y anota. El portero italiano no había encajado un gol en 1.142 minutos de competición internacional. La racha termina ante Haití, ante un delantero de 24 años que juega en el CS Don Bosco de Puerto Príncipe y que en ese momento se convierte en el personaje más improbable del torneo.
+
+Italia reacciona y gana 3-1. Haití termina el grupo con tres derrotas, tres goles a favor y catorce en contra. Pero el gol de Sanon existe. Nadie puede quitárselo.
+
+---
+
+## 52 años de espera.
+
+El fútbol caribeño tiene estructuras débiles, calendarios irregulares y competencia constante con béisbol, atletismo y otros deportes por presupuesto y atención institucional. Haití compite en la zona CONCACAF en la parte de la tabla donde los rivales son consistentes y los recursos propios no lo son.
+
+La clasificación para 2026 fue posible por varias razones: la ampliación del torneo a 48 equipos aumentó las plazas de CONCACAF de 3,5 a 6,5; la selección haitiana mejoró su rendimiento en los últimos años con una base de jugadores de la diáspora mejor organizada; y el técnico Sébastien Migné construyó un sistema que maximiza la calidad disponible sin exigir recursos que no existen.
+
+---
+
+## El equipo de la diáspora.
+
+De los 26 convocados para el Mundial, la mayoría tiene pasaporte haitiano y trayectoria formativa en Francia, Bélgica o Estados Unidos. Es la misma lógica que aplican Senegal, Marruecos o Costa de Marfil: aprovechar la emigración histórica hacia Europa para recuperar talento futbolístico que el país de origen no puede desarrollar.
+
+Migné, técnico nacido en Francia y con trayectoria en ligas africanas y en Etiopía, conoce este modelo. No es el único entrenador francés que dirige a una selección formada por franceses con otro pasaporte, pero sí uno de los más experimentados en la paradoja.
+
+Los nombres más reconocibles del once están en ligas de segunda división francesa y en la MLS americana. No hay un Emmanuel Sanon moderno con nombre en los escaparates de La Liga o la Premier. Lo que hay es un equipo compacto, difícil de batir, que llega al torneo sin más presión que la de no perder por goleada.
+
+---
+
+## El Grupo C. El grupo de la muerte del torneo.
+
+**Brasil**, **Marruecos**, **Escocia**, **Haití**.
+
+Brasil llega en reconstrucción técnica pero con calidad individual que ningún grupo puede ignorar. Vinicius Jr., Rodrygo, Endrick. Dorival Júnior en el banquillo.
+
+Marruecos viene de la semifinal del Mundial 2022, el mejor resultado de África en la historia del torneo. Walid Regragui mantiene el bloque y la mentalidad. Son el segundo favorito del grupo sin discusión.
+
+Escocia disputa su primer Mundial desde Francia 1998, también con 28 años de espera como Noruega. Andrew Robertson, Scott McTominay. Un equipo más hecho que en los años anteriores.
+
+Haití es el cuarto equipo de este grupo. En términos de favoritos para la clasificación, es el cuarto equipo de este grupo.
+
+---
+
+## Puerto Príncipe no puede recibir a la selección.
+
+La crisis de seguridad en Haití ha convertido al país en uno de los más peligrosos de la región en los últimos años. Las bandas armadas controlan amplios sectores de la capital. El Estadio Sylvio Cator, donde la selección local jugaba sus partidos de clasificación, no garantiza condiciones mínimas de seguridad para la preparación.
+
+La selección haitiana ha concentrado y entrenado en Jamaica, en República Dominicana y en las instalaciones de clubes de la MLS en Estados Unidos. La paradoja es absoluta: la selección nacional de Haití se prepara para el Mundial más lejos posible de Haití.
+
+El fútbol funciona aquí como consuelo de exportación. Los haitianos en Puerto Príncipe, en Cap-Haïtien, en las zonas que tienen electricidad suficiente para seguir el torneo, verán los partidos sabiendo que su selección es el equipo menos probable para pasar de ronda. Y que en 1974 ya vivieron algo así, y que hubo un minuto 46 en Frankfurt.
+
+---
+
+*El calendario completo del Grupo C con Brasil, Marruecos y Escocia está disponible en [nuestra sección de grupos del Mundial 2026](#).*`,
+    category: 'curiosa',
+    sourceName: 'FIFA / Wikipedia / Le Nouvelliste',
+    sourceUrl: 'https://en.wikipedia.org/wiki/Haiti_at_the_FIFA_World_Cup',
+    sourceLang: 'es',
+    publishedAt: '2026-06-03T21:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/5/57/Bundesarchiv_Bild_183-N0623-0019%2C_Fu%C3%9Fball-WM%2C_Argentinien-Haiti_4-1.jpg',
+      alt: 'Argentina vs Haití en el Mundial 1974, última participación mundialista de Haití hasta 2026',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY 4.0',
+    },
+  },
+  {
+    slug: 'amistosos-pre-mundial-3-junio-2026-selecciones-ultimos-ensayos',
+    title: 'Ocho días antes del inicio, los últimos amistosos no sirven para probar: sirven para confirmar',
+    summary: 'Con el Mundial a ocho días, los técnicos ya no experimentos. En los últimos amistosos de preparación, los titulares confirman automatismos y los suplentes juegan su última baza para entrar en el once. Un análisis de qué busca cada selección en este momento del calendario.',
+    body: `## La ilusión del laboratorio tardío.
+
+Hay una fantasía recurrente en la semana previa a cualquier gran torneo: que los últimos amistosos revelan algo que los anteriores nueve meses de competición no habían mostrado. Que el técnico va a descubrir al lateral que no sabía que necesitaba, o que el delantero que no ha marcado en cuatro partidos de preparación va a encontrar el gol justo antes de que empiece lo que importa.
+
+No funciona así.
+
+El 3 de junio de 2026, con el primer pitido del Mundial previsto para el 11 de junio en el Azteca, los seleccionadores que tienen amistosos programados hoy no están probando nada nuevo. Están confirmando lo que ya saben. Hay una diferencia entre las dos cosas, y es la diferencia entre un técnico que sabe lo que hace y uno que no.
+
+---
+
+## Qué busca un técnico en este momento.
+
+**Automatismos bajo presión media.** No la presión de un partido de cuartos de final, sino la suficiente para que los movimientos sin balón sean los correctos sin pensarlos. Si el lateral derecho tiene que saber cuándo incorporarse y cuándo quedarse sin que el centrocampista tenga que señalárselo, ese entendimiento se forja en los últimos días de entrenamiento y se comprueba en los últimos partidos.
+
+**El estado físico real de los titulares.** Las lesiones de los últimos días de mayo y los primeros de junio son el peor enemigo de cualquier convocatoria. Si un amistoso de esta semana confirma que el defensa central está al cien por cien después de su dolencia de tobillo, el técnico duerme mejor. Si no, tiene dos días para decidir si el suplente está preparado o si hay que llamar a alguien que estaba fuera de la lista.
+
+**La confianza del suplente que puede ser titular.** Esta es la partida más importante que se juega en los amistosos de final de ciclo. El jugador que está entre el once y la suplencia lo sabe. El técnico también lo sabe. El amistoso es el último argumento antes de que se cierren las listas definitivas de juego.
+
+---
+
+## Los casos concretos.
+
+**España.** Luis de la Fuente ha cerrado la convocatoria definitiva y el sistema está claro: 4-3-3 con Pedri y Morata como ejes. El amistoso de esta semana sirve para dar minutos a los jugadores de la segunda unidad y para que Yamal llegue al Mundial con rodaje reciente. Nada más.
+
+**Alemania.** Julian Nagelsmann tiene una duda en la posición de extremo derecho entre dos perfiles diferentes. El amistoso puede resolverla. O puede dejarla abierta y resolverla en el primer partido del torneo, que sería la decisión más arriesgada y la más común en la historia de los Mundiales.
+
+**Argentina.** Lionel Scaloni no tiene dudas en el once tipo. Messi, De Paul, Álvarez. La pregunta es el estado físico de varios jugadores después de temporadas largas en Europa. Los amistosos aquí funcionan como chequeo médico con ropa de deporte.
+
+**Francia.** Deschamps lleva suficientes Mundiales como para saber que el amistoso de la semana previa no cambia nada. Sus equipos llegan a los torneos con el sistema grabado en la memoria muscular de los jugadores. El único riesgo es una lesión. El único objetivo es no tenerla.
+
+**Brasil.** Dorival Júnior tiene más dudas que los anteriores. La reconstrucción post-Qatar 2022 no ha producido un equipo con la solidez defensiva que los grandes Brasil tienen históricamente. Los amistosos de esta semana buscan fijar una defensa que en la clasificación fue irregular.
+
+---
+
+## El jugador que más tiene que ganar hoy.
+
+En cada selección hay uno. El futbolista que lleva tres semanas de concentración sin una actuación definitoria, que sabe que el técnico tiene dudas, que entiende que si no muestra algo hoy puede que no muestre nada en las próximas semanas porque no va a jugar.
+
+Este jugador no tiene nombre genérico. Está en cada convocatoria. A veces es el delantero del banco que puede ser el quinto goleador del torneo si le dan minutos. A veces es el lateral que entrenó lesionado durante un mes y que necesita demostrar que está bien.
+
+A ocho días del inicio, los amistosos son para él. Para todos los demás, son un trámite necesario y un riesgo de lesión que ningún técnico querría asumir si el reglamento se lo permitiera evitar.
+
+---
+
+*Sigue todos los resultados y novedades de las selecciones en [nuestra sección de noticias del Mundial 2026](#).*`,
+    category: 'amistosos',
+    sourceName: 'ESPN / FIFA / Marca',
+    sourceUrl: 'https://www.espn.com/soccer/fifa-world-cup',
+    sourceLang: 'es',
+    publishedAt: '2026-06-03T22:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/7/73/Martin_Fray.jpg',
+      alt: 'Entrenamiento de fútbol previo a un partido internacional',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY 4.0',
+    },
+  },
+  // ─── 2026-06-02 ───────────────────────────────────────────────────────────
+  {
+    slug: 'maracanazo-1950-uruguay-derrota-brasil-final-efectiva-mundial-silencio-maracana',
+    title: 'El Maracanazo: cómo Uruguay derrotó a Brasil en 1950 y silenció el mayor estadio del mundo',
+    summary:
+      'El 16 de julio de 1950, Uruguay venció 2-1 a Brasil en el Maracaná ante cerca de 200.000 espectadores en la final efectiva del Mundial. Obdulio Varela y Alcides Ghiggia protagonizaron una de las mayores gestas del fútbol. El gol de Ghiggia apagó el estadio más grande jamás construido.',
+    body: `El **16 de julio de 1950**, el estadio Maracaná de Río de Janeiro acogió el partido decisivo del Mundial de Brasil. No era una final en el sentido estricto — el torneo usaba una fase final de grupos — pero Brasil necesitaba solo el empate para proclamarse campeón. Uruguay tenía que ganar. El resultado: **Uruguay 2, Brasil 1**. Uno de los momentos más impactantes de la historia del deporte.
+
+## El contexto: Brasil como favorito absoluto
+
+Brasil llegaba al partido final con 13 goles marcados y uno en contra en los tres partidos previos de la fase final. La selección de Flávio Costa arrasó a Suecia 7-1 y a España 6-1. El diario **Mundo Esportivo** ya había impreso en su edición matutina del 16 de julio la crónica de la victoria brasileña. La radio preparó el discurso del triunfo. Se habían encargado medallas con el escudo de Brasil para los campeones.
+
+La asistencia oficial fue de **173.850 espectadores**, aunque las estimaciones históricas hablan de hasta **200.000 personas** incluyendo a quienes entraron sin entrada. Hasta el día de hoy, es el partido con más espectadores en la historia del fútbol.
+
+## El partido
+
+Brasil abrió el marcador al **minuto 2 de la segunda parte** con un gol de Friaca. El ruido del Maracaná fue ensordecedor. Parecía el inicio del festejo.
+
+**Obdulio Varela**, capitán de Uruguay, recogió el balón del fondo de la red, lo agarró bajo el brazo y caminó hacia el centro del campo lentamente, protestando al árbitro inglés George Reader para ganar tiempo. Aquella maniobra psicológica, recordada en Uruguay como el gesto que cambió el partido, dio oxígeno a la Celeste.
+
+Al **minuto 66**, **Juan Alberto Schiaffino** empató con un disparo cruzado. El silencio del Maracaná empezó a hacerse presente. Y al **minuto 79**, **Alcides Ghiggia** — el extremo derecho de Peñarol — marcó el 2-1 con un disparo ajustado al palo más largo que sorprendió al portero Barbosa entre el palo y su cuerpo.
+
+Ghiggia dijo años después: *"Solo tres personas han silenciado el Maracaná: Frank Sinatra, el Papa Juan Pablo II y yo."*
+
+## El silencio del Maracaná
+
+El estadio enmudeció. Jules Rimet, presidente de la FIFA, entregó la copa a Obdulio Varela sin discurso, casi de puntillas, sin ceremonia preparada. Brasil no tenía ni el discurso del derrotado.
+
+El portero **Moacir Barbosa** cargó con la culpa durante décadas. Murió en el año 2000 sin poder quitarse el estigma. Las implicaciones sociales y raciales de aquella derrota marcaron a Brasil durante generaciones.
+
+## El legado
+
+Uruguay ganó así su **segundo título mundial** (el primero fue en el Campeonato del Mundo de Montevideo 1930). El Maracanazo es hoy sinónimo de la mayor sorpresa mundialista, aunque analistas modernos la cuestionan: Uruguay era campeón olímpico y mundialista vigente. No era el desconocido que la mitología popular describe.
+
+En el **Mundial 2026**, Uruguay llega al Grupo H con España, Cabo Verde y Arabia Saudí — con el peso de una historia que arranca precisamente en aquella tarde de invierno en Río.
+
+Ficha de Uruguay en [/2026/listas/URU](/2026/listas/URU).`,
+    category: 'historica',
+    sourceName: 'Wikipedia',
+    sourceUrl: 'https://es.wikipedia.org/wiki/Maracanazo',
+    sourceLang: 'es',
+    publishedAt: '2026-06-02T07:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Estadio_Maracana_2014.jpg/1280px-Estadio_Maracana_2014.jpg',
+      alt: 'Estadio Maracaná de Río de Janeiro, escenario del Maracanazo en 1950',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 3.0',
+    },
+  },
+  {
+    slug: 'curazao-mundial-2026-pais-mas-pequeno-158000-habitantes-grupo-e-alemania-marfil-ecuador',
+    title: 'Curazao en el Mundial 2026: 158.000 habitantes y el país más pequeño jamás clasificado',
+    summary:
+      'Con apenas 158.000 habitantes, Curazao se convierte en el país más pequeño en clasificarse a un Mundial de fútbol. La selección de la isla caribeña, formada en gran parte por jugadores criados en los Países Bajos, comparte el Grupo E con Alemania, Costa de Marfil y Ecuador.',
+    body: `**Curazao** — 444 km², 158.000 habitantes, parte del Reino de los Países Bajos desde 2010 — disputará en 2026 su **primer Mundial de fútbol**. Es, por margen significativo, el **país más pequeño en clasificarse a una Copa del Mundo** en toda la historia del torneo (desde 1930).
+
+## ¿Quién es Curazao?
+
+La isla forma parte de las Antillas Neerlandesas disueltas. Tiene autonomía política dentro del Reino de los Países Bajos pero compite de forma independiente en FIFA desde 1961 bajo el nombre **KNVB Curaçao** — aunque la selección moderna se reconstituyó en 2010 con la nueva autonomía.
+
+La población es mayoritariamente afrocaribeña, con influencia neerlandesa, española (la lengua local es el **papiamento**, creole con raíces ibéricas) y portuguesa. La lengua cooficial es el neerlandés.
+
+## El modelo holandés: Eredivisie como cantera
+
+La clave del éxito de Curazao es estructural: los jugadores nacidos en la isla crecen en los Países Bajos, acceden al sistema de academias de la **Eredivisie** y pueden optar por representar a Curazao si no han jugado con la selección neerlandesa. Es el mismo modelo con el que Países Bajos ha exportado talento hacia Surinam, Aruba o las Antillas.
+
+Nombres relevantes del equipo:
+
+- **Jürgen Locadia** (Brighton ex, con experiencia en Premier League y Bundesliga). Está suspendido para el debut por roja en el amistoso vs Escocia (30 may).
+- **Tahith Chong** (Birmingham City, ex-Manchester United). Extremo técnico formado en la academia de Feyenoord.
+- **Cuco Martina** (retirado, histórico del Stoke City y Southampton). No juega pero fue referente generacional.
+- **Leandro Bacuna** (Cardiff City). Polivalente y con más de 50 internacionalidades.
+- **Rangelo Janga** (goleador histórico de la selección).
+
+El seleccionador es **Remko Bicentini**, que llevó al equipo a la Gold Cup de 2017 (su primer título CONCACAF a nivel subfederación) y continuó el ciclo clasificatorio.
+
+## La clasificación: zona CONCACAF
+
+Curazao clasificó a través del **Octagonal Final de CONCACAF** — el mismo camino que México, EE.UU., Canadá, Honduras, Costa Rica, Jamaica y Panamá. La ampliación del Mundial a **48 selecciones** y 6 plazas para CONCACAF hizo posible lo imposible: un territorio de 158.000 personas disputando la máxima cita del fútbol mundial.
+
+## Grupo E: el más difícil posible
+
+El sorteo deparó el **Grupo E** para Curazao:
+
+| Selección | Ranking FIFA | |
+|---|---|---|
+| **Alemania** | Top 15 | Favorita al grupo |
+| **Costa de Marfil** | ~30 | África potencia |
+| **Ecuador** | ~40 | CONMEBOL clasificado |
+| **Curazao** | ~80 | Debutante histórico |
+
+El debut de Curazao será ante **Ecuador**. Los partidos se disputarán en venues de la zona este de los Estados Unidos.
+
+## Lo que significa
+
+Más allá del resultado deportivo — nadie espera que Curazao supere la fase de grupos — la clasificación tiene un valor simbólico enorme para el Caribe neerlandés y para el fútbol de naciones pequeñas. Es la demostración de que el modelo CONCACAF ampliado cambia el mapa del fútbol mundial.
+
+Ficha de Curazao en [/2026/listas/CUW](/2026/listas/CUW).`,
+    category: 'curiosa',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/associations/curacao',
+    sourceLang: 'en',
+    publishedAt: '2026-06-02T09:00:00Z',
+    image: {
+    url: 'https://upload.wikimedia.org/wikipedia/commons/2/27/Roly_Bonevacia_Western_Sydney_Wanderers_player.jpg',
+    alt: 'Roly Bonevacia, futbolista internacional de Curaçao',
+    credit: 'Dekker28 / Wikimedia Commons',
+    license: 'CC BY-SA 4.0',
+  },
+},
+  {
+    slug: 'convocatoria-arabia-saudi-mundial-2026-mancini-salem-al-dawsari-grupo-h-espana-uruguay-cabo-verde',
+    title: 'Mancini confirma la convocatoria de Arabia Saudí: Salem Al-Dawsari lidera el Grupo H con España',
+    summary:
+      'Roberto Mancini ha anunciado los 26 convocados de Arabia Saudí para el Mundial 2026. Salem Al-Dawsari es el referente ofensivo de la Verde, que repite grupo competitivo tras la histórica victoria sobre Argentina en Qatar 2022. El debut es el 26 de junio frente a Cabo Verde.',
+    body: `**Roberto Mancini**, seleccionador de Arabia Saudí desde agosto de 2023, ha presentado la lista oficial de **26 jugadores** para el Mundial 2026. El técnico italiano, que ganó la Eurocopa 2020 con Italia, afronta su primera Copa del Mundo al frente de la Federación Saudí de Fútbol (**SAFF**).
+
+## Salem Al-Dawsari: el referente
+
+**Salem Al-Dawsari** (Al-Hilal, 32 años) es el jugador más reconocible internacionalmente. Marcó el gol de la victoria histórica ante Argentina (2-1) en Qatar 2022, uno de los momentos más recordados de aquel Mundial. En la Saudi Pro League acumula más de 60 goles en los últimos cuatro años. Es el capitán y referente ofensivo del equipo.
+
+## El precedente de Qatar 2022
+
+Arabia Saudí llegó al Grupo C de Qatar 2022 junto a Argentina, México y Polonia. La victoria 2-1 sobre Argentina en el debut fue considerada la mayor sorpresa del torneo desde el Camerún 1990. Sin embargo, cayeron ante Polonia y México y no superaron la fase de grupos.
+
+**La diferencia en 2026**: el grupo es más accesible en papel. El Grupo H enfrenta a España (favorita), Uruguay (candidata), Cabo Verde (debutante en Mundiales) y la propia Arabia Saudí.
+
+## Grupo H: análisis
+
+- **España** (cabeza de grupo): favorita clara al título del grupo. Llega como uno de los candidatos al Mundial.
+- **Uruguay** (segundo cabeza): potencia sudamericana, aunque sin Luis Suárez por primera vez desde 2010.
+- **Cabo Verde**: primer Mundial de su historia, el equipo más débil del grupo.
+- **Arabia Saudí**: objetivo realista es el tercer puesto y competir con Uruguay y Cabo Verde.
+
+**Calendario de Arabia Saudí:**
+
+| Fecha | Rival | Sede |
+|---|---|---|
+| 26 jun · 18:00 local | vs Cabo Verde | MetLife Stadium (Nueva Jersey) |
+| 30 jun | vs Uruguay | Por confirmar |
+| 4 jul | vs España | Por confirmar |
+
+## El equipo de Mancini
+
+Mancini ha apostado por la columna vertebral de la Saudi Pro League — **Al-Hilal, Al-Nassr, Al-Ittihad y Al-Ahli** aportan la mayoría de los jugadores — con algunos internacionales que compiten en Europa. El sistema táctico preferido es un **4-3-3** con presión alta inspirado en el fútbol europeo moderno.
+
+Otros jugadores destacados: **Feras Al-Brikan** (delantero joven en alza), **Mohammed Al-Owais** (portero titular, Al-Hilal), **Saud Abdulhamid** (Roma, el único jugador de una liga top europea de la lista).
+
+## La memoria de Qatar
+
+El vestuario saudí no ha olvidado aquella tarde del 22 de noviembre de 2022. La victoria sobre Argentina fue la primera derrota mundialista de Messi. En 2026, el camino para repetir sorpresa pasa primero por no sufrir ante Cabo Verde.
+
+Ficha de Arabia Saudí en [/2026/listas/KSA](/2026/listas/KSA) · Grupo H completo en [/2026/grupos/H](/2026/grupos/H).`,
+    category: 'convocatorias',
+    sourceName: 'SAFF',
+    sourceUrl: 'https://www.the-saudi.net/saudi-ff/en/',
+    sourceLang: 'en',
+    publishedAt: '2026-06-02T11:00:00Z',
+    image: {
+    url: 'https://upload.wikimedia.org/wikipedia/commons/d/d0/Salem_Al-Dawsari.jpg',
+    alt: 'Salem Al-Dawsari, estrella de la selección de Arabia Saudí',
+    credit: 'Dmitry Sadovnikov / soccer.ru',
+    license: 'CC BY-SA 3.0',
+  },
+},
+  {
+    slug: 'primeros-10-partidos-mundial-2026-horarios-espana-cest-utc-11-14-junio',
+    title: 'Los primeros 10 partidos del Mundial 2026: fechas, horas y rivales del 11 al 14 de junio',
+    summary:
+      'El Mundial 2026 arranca el 11 de junio en el Estadio Azteca con México-Sudáfrica y no para hasta el 19 de julio con la gran final. Estos son los primeros diez encuentros del torneo con horarios en hora peninsular española (CEST, UTC+2) y en UTC.',
+    body: `El **Mundial 2026** — disputado en **16 sedes** de Estados Unidos, México y Canadá — arranca el **jueves 11 de junio de 2026** con el partido inaugural en el Estadio Azteca de Ciudad de México. La fase de grupos se extiende hasta el 27 de junio con 48 selecciones agrupadas en **12 grupos de 4**.
+
+Los primeros cuatro días de competición establecen el tono del torneo. Aquí los **primeros 10 partidos** con horarios en **UTC** y **hora peninsular española (CEST = UTC+2)**:
+
+## Día 1 — Jueves 11 de junio
+
+**México vs Sudáfrica** · Estadio Azteca, Ciudad de México
+- UTC: 23:00 (lunes 10 jun) → **01:00 CEST del 11 jun** *(madrugada España)*
+- Nota: El partido inaugural del torneo. México debuta en casa ante sus aficionados en el grupo A (con Argentina, Argelia y Polonia).
+
+## Día 2 — Viernes 12 de junio
+
+**Corea del Sur vs República Checa** · SoFi Stadium, Inglewood (Los Ángeles)
+- UTC: 19:00 → **21:00 CEST**
+- Grupo F. Son Heung-min lidera a Corea del Sur en su duodécimo Mundial consecutivo.
+
+**Argentina vs Argelia** · Arrowhead Stadium, Kansas City
+- UTC: 22:00 → **00:00 CEST del 13 jun** *(medianoche España)*
+- Grupo A. El campeón del mundo debuta. Messi, Lautaro, De Paul. Argelia busca repetir sorpresa como Arabia Saudí en 2022.
+
+## Día 3 — Sábado 13 de junio
+
+**España vs Cabo Verde** · Rose Bowl, Pasadena (Los Ángeles)
+- UTC: 20:00 → **22:00 CEST**
+- Grupo H. Debut de España. Yamal, Pedri y Morata ante el debut histórico de Cabo Verde.
+
+**Estados Unidos vs Jamaica** · MetLife Stadium, East Rutherford (Nueva York/Nueva Jersey)
+- UTC: 23:00 → **01:00 CEST del 14 jun**
+- Grupo B. El anfitrión principal debuta bajo Pochettino ante Jamaica.
+
+## Día 4 — Domingo 14 de junio
+
+**Francia vs Senegal** · AT&T Stadium, Arlington (Dallas)
+- UTC: 18:00 → **20:00 CEST**
+- Grupo D. Mbappé vs Sadio Mané (retirado de la selección) — nuevo Senegal con Ismaïla Sarr.
+
+**Brasil vs Marruecos** · Mercedes-Benz Stadium, Atlanta
+- UTC: 21:00 → **23:00 CEST**
+- Grupo C. Los dos semifinalistas de Qatar 2022 en el mismo grupo.
+
+**Alemania vs Curazao** · Gillette Stadium, Foxborough (Boston/Nueva Inglaterra)
+- UTC: 23:00 → **01:00 CEST del 15 jun**
+- Grupo E. La selección más pequeña de la historia debuta ante una de las grandes.
+
+**Portugal vs Guinea** · Q2 Stadium, Austin (Texas)
+- UTC: 19:00 → **21:00 CEST**
+- Grupo G. Ronaldo en su sexto y último Mundial.
+
+**Inglaterra vs Irlanda** · BC Place, Vancouver (Canadá)
+- UTC: 22:00 → **00:00 CEST del 15 jun**
+- Grupo K. Derby de las Islas Británicas en suelo canadiense.
+
+---
+
+**Nota para espectadores españoles**: los partidos nocturnos de hora local americana (Costa Oeste, 20:00-23:00 hora local) caen entre la **madrugada y las 5:00 CEST** en España. Los partidos de tarde americana (Costa Este, 16:00-19:00 local) llegan a España entre las **22:00 y la medianoche CEST**.
+
+Calendario completo en [/2026/calendario](/2026/calendario).`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/match-schedule',
+    sourceLang: 'en',
+    publishedAt: '2026-06-02T13:00:00Z',
+    image: {
+    url: 'https://upload.wikimedia.org/wikipedia/commons/2/22/Mexico_city_Estadio_Azteca_estadio_banorte_fifa_world_cup_2026_1.JPG',
+    alt: 'Estadio Azteca preparado para el Mundial 2026, Ciudad de México',
+    credit: 'Cabinet Public Affairs Office, Gobierno de Japón',
+    license: 'CC BY 4.0',
+  },
+},
+  {
+    slug: 'haaland-noruega-mundial-2026-28-anos-ausencia-odegaard-grupo-i-francia-senegal-irak',
+    title: 'Haaland y Noruega vuelven al Mundial tras 28 años: el grupo I con Francia y Senegal',
+    summary:
+      'Noruega regresa a un Mundial de fútbol por primera vez desde Francia 1998, 28 años después. Erling Haaland y Martin Ødegaard forman la dupla más esperada de una generación dorada que por fin clasifica. El Grupo I los enfrenta a Francia, Senegal e Irak.',
+    body: `**Noruega** vuelve a la Copa del Mundo. Es una frase que los aficionados noruegos llevan esperando desde **1998**, el año en que la selección de Egil Olsen debutó en un grupo con Brasil, Marruecos y Escocia, y superó la fase de grupos antes de caer ante Italia en octavos de final con un polémico penalti.
+
+Han pasado **28 años**.
+
+## La generación que lo hizo posible
+
+La diferencia entre el Noruega de los 90 — directo, físico, balones largos a Tore André Flo — y el de 2026 es total. Esta selección tiene a dos de los mejores jugadores de la Premier League y del fútbol mundial:
+
+**Erling Haaland** (Manchester City, 25 años en el inicio del torneo) es el delantero más en forma del planeta. En la temporada 2025-26 marcó **38 goles en Premier League**, segundo registro histórico solo por detrás de su propio récord de 2022-23 (36 en liga, 52 en todas las competiciones). Es el máximo goleador de la clasificación europea para el Mundial 2026, con **16 goles en 10 partidos** de eliminatorias.
+
+**Martin Ødegaard** (Arsenal, 27 años) es el capitán y el cerebro creativo. Fue el jugador más determinante del Arsenal en la conquista de la Premier 2024-25, con 18 asistencias. Su relación con Haaland — compañeros desde la sub-16 noruega — es la columna vertebral del equipo.
+
+## Historia de Noruega en Mundiales
+
+Noruega tiene una historia mundialista escasa pero digna:
+
+- **1938**: eliminada en cuartos de final por Italia (el futuro campeón).
+- **1994**: no clasificó (quedó segunda en su grupo europeo).
+- **1998 (Francia)**: su mejor edición. Venció a Brasil 2-1 en fase de grupos (con gol de Tore André Flo y Kjetil Rekdal), superó los octavos y cayó ante Italia 1-0 por un penalti de Vieri.
+
+Entre 1998 y 2026: **28 años de ausencia**. Una generación entera sin ver a Noruega en un Mundial.
+
+## El Grupo I
+
+| Selección | Ranking FIFA | |
+|---|---|---|
+| **Francia** | Top 5 | Favorita al título |
+| **Senegal** | ~20 | Campeona de África 2022 |
+| **Noruega** | ~25 | Vuelve tras 28 años |
+| **Irak** | ~65 | Primera participación en décadas |
+
+Francia, con Mbappé como referente, es la favorita clara del grupo. Senegal, finalista de la CAN 2021 (que ganó) y 2023, es la segunda fuerza. Noruega y Senegal podrían disputarse el segundo puesto. Irak — clasificado a través de la zona asiática — es el rival teóricamente más asequible.
+
+## Lo que se espera de Noruega
+
+El seleccionador **Ståle Solbakken** lleva al frente desde 2020 y es el artífice de la clasificación. Juega en un **4-3-3** con Haaland como punta y Ødegaard como mediapunta. La presión alta y la velocidad de transición son sus señas de identidad.
+
+Superar el grupo sería ya un logro histórico. Llegar a cuartos colocaría a Noruega entre los grandes de esta edición.
+
+Ficha de Noruega en [/2026/listas/NOR](/2026/listas/NOR).`,
+    category: 'curiosa',
+    sourceName: 'NFF',
+    sourceUrl: 'https://www.fotball.no/landslag/herrelandslaget/',
+    sourceLang: 'en',
+    publishedAt: '2026-06-02T15:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Erling_Haaland_2022_%28cropped%29.jpg/800px-Erling_Haaland_2022_%28cropped%29.jpg',
+      alt: 'Erling Haaland con la selección de Noruega',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'naranja-mecanica-1974-paises-bajos-cruyff-futbol-total-final-mundial-alemania-occidental',
+    title: 'La Naranja Mecánica de 1974: el fútbol total que cambió el juego pero no ganó el Mundial',
+    summary:
+      'Los Países Bajos de Johan Cruyff llegaron al Mundial de Alemania Occidental 1974 con un estilo revolucionario que transformó el fútbol para siempre. Ganaron todos sus partidos excepto uno — la final contra el país anfitrión. La derrota 2-1 ante Alemania Occidental es una de las grandes tragedias deportivas del siglo XX.',
+    body: `En el verano de 1974, **Países Bajos** llegó al Mundial de Alemania Occidental con un equipo que los aficionados del mundo entero nunca habían visto. No era solo un buen equipo: era una **idea nueva del fútbol**.
+
+## El fútbol total
+
+El concepto fue desarrollado por **Rinus Michels** en el Ajax de Ámsterdam durante los años 60 y 70, y aplicado a la selección holandesa. La premisa: **todos los jugadores saben jugar en todas las posiciones**. Los defensas suben al ataque, los delanteros presionan desde adelante, los mediocampistas cubren cada metro del campo. El equipo es un organismo vivo que se comprime y se expande.
+
+La base del equipo era la del Ajax que había ganado **tres Copas de Europa consecutivas** (1971, 1972, 1973): Johan Cruyff, Johan Neeskens, Johnny Rep, Ruud Krol, Arie Haan, Wim Suurbier.
+
+**Johan Cruyff** (24 años en el Mundial) era el eje. El **Giro de Cruyff** — la finta que inventó ante Suecia el 15 de junio de 1974 — se convirtió en el movimiento técnico más imitado de la historia del fútbol.
+
+## El torneo
+
+Países Bajos arrasó en la primera fase con victorias ante **Uruguay (2-0)**, **Bulgaria (4-1)** y **Suecia (0-0)**. En la segunda fase de grupos: goleó a **Argentina (4-0)**, **Alemania Oriental (2-0)** y **Brasil (2-0)** en el partido que fue calificado como la mejor actuación de un equipo en la historia del torneo.
+
+**Nueve partidos. Nueve goles marcados en la segunda fase.** Solo el empate con Suecia en la primera ronda rompió la perfección.
+
+## La final: Alemania 2-1 Países Bajos
+
+El **7 de julio de 1974**, en el **Olympiastadion de Múnich**, Países Bajos y Alemania Occidental se enfrentaron en la que muchos consideran la final perfecta del fútbol.
+
+Países Bajos marcó al **minuto 2** con un penalti de **Johan Neeskens** — el primero de la historia de una final mundialista — antes de que ningún jugador alemán tocara el balón.
+
+Alemania igualó con un penalti de **Paul Breitner** al **25'** y marcó el definitivo **2-1** por **Gerd Müller** al **43'**, con su característica zurda en un giro dentro del área.
+
+En la segunda parte, Países Bajos dominó, presionó, atacó. Pero el gol no llegó. **Sepp Maier**, el portero alemán, realizó paradas cruciales. El marcador no se movió.
+
+## El legado: perder y ganar la historia
+
+Países Bajos no ganó el Mundial. Pero ganó algo más duradero: **cambió para siempre la forma de entender el fútbol**. El fútbol total influyó en Arrigo Sacchi (AC Milan años 80), en Johan Cruyff como entrenador del Barça (Sueño de Cruyff 1988-94), en Pep Guardiola, en el tiki-taka español, en el pressing de Klopp y Guardiola actuales.
+
+En 2026, **Países Bajos** — con Cody Gakpo y Memphis Depay como referencias — va al Mundial de CONCACAF 52 años después de aquella final perdida.
+
+Ficha de Países Bajos en [/2026/listas/NED](/2026/listas/NED).`,
+    category: 'historica',
+    sourceName: 'Wikipedia',
+    sourceUrl: 'https://es.wikipedia.org/wiki/Copa_Mundial_de_F%C3%BAtbol_de_1974',
+    sourceLang: 'es',
+    publishedAt: '2026-06-02T17:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Johan_Cruyff_1974_%28cropped%29.jpg/800px-Johan_Cruyff_1974_%28cropped%29.jpg',
+      alt: 'Johan Cruyff con la selección de Países Bajos en el Mundial 1974',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'arda-guler-kenan-yildiz-turquia-mundial-2026-primer-mundial-20-anos-real-madrid-juventus',
+    title: 'Arda Güler y Kenan Yıldız: los dos jugadores de 20 años que llevan a Turquía a su primer Mundial desde 2002',
+    summary:
+      'Turquía regresa al Mundial por primera vez desde 2002, el año en que quedó tercera en Corea-Japón. Arda Güler (Real Madrid, 20 años) y Kenan Yıldız (Juventus, 20 años) forman la dupla más joven y talentosa del equipo de Vincenzo Montella. Son los dos futbolistas más cotizados del fútbol turco moderno.',
+    body: `**Turquía** vuelve al Mundial. La última vez fue en **Corea-Japón 2002**, cuando la selección de Şenol Güneş protagonizó una de las mayores sorpresas del torneo: eliminó a Senegal y Japón, cayó en semifinales ante Brasil y venció a Corea del Sur en el partido por el tercer puesto. Un bronce histórico.
+
+Han pasado **24 años**. Y la vuelta llega con dos nombres propios que tienen exactamente **20 años**.
+
+## Arda Güler (Real Madrid)
+
+**Arda Güler** nació el **25 de febrero de 2005** en Ankara. Formado en el Gençlerbirliği y el Fenerbahçe, fichó por el **Real Madrid** en junio de 2023 por 30 millones de euros — una cifra que en el momento pareció elevada para un jugador de 18 años sin Mundiales ni Eurocopas.
+
+La temporada 2024-25 confirmó el talento: Arda marcó **14 goles y dio 9 asistencias** en todas las competiciones con el Real Madrid, siendo decisivo en la Liga de Campeones. Su zurda y su visión de juego lo sitúan como uno de los mejores mediapuntas jóvenes del mundo. En la **Eurocopa 2024**, marcó uno de los mejores goles del torneo ante Georgia — un disparo ajustado desde fuera del área en el minuto 1.
+
+## Kenan Yıldız (Juventus)
+
+**Kenan Yıldız** nació el **4 de mayo de 2005** en Regensburg (Alemania). De origen turco, fue formado en el Bayern Múnich antes de fichar por la **Juventus** en 2022. En la temporada 2025-26 consolidó su posición como titular indiscutible en la Juve: 13 goles y 10 asistencias en Serie A, elegido en el once del año de la liga italiana.
+
+Es zurdo, extremo derecho que corta hacia dentro, con potencia de disparo y capacidad de desborde en uno contra uno. Técnicamente se le compara con el Arjen Robben de sus inicios.
+
+## La dupla en Turquía
+
+Aunque ambos son mediapuntas creativos — lo que los hace complementarios con ajuste táctico — el seleccionador **Vincenzo Montella** los ha utilizado en un esquema **4-2-3-1** donde Güler ocupa el espacio entre líneas detrás del delantero y Yıldız actúa como extremo derecho. La idea es dar máxima libertad a los dos.
+
+Sus cifras en las eliminatorias clasificatorias para 2026 son notables: entre ambos acumulan **14 goles y 11 asistencias** en 16 partidos.
+
+## El grupo de Turquía en 2026
+
+Turquía se encuadra en el **Grupo L** junto a:
+
+- **Países Bajos** (favorita)
+- **Polonia** (cabeza de serie)
+- **El Salvador**
+
+El objetivo realista es clasificar segunda del grupo. La primera plaza parece de Países Bajos, pero Polonia y Turquía son equipos comparables. Un Güler y un Yıldız en estado de gracia pueden desequilibrar.
+
+Montella, que en la Eurocopa 2024 llegó hasta cuartos de final eliminando a Austria, conoce bien las virtudes y los límites de su equipo. En 2026, la experiencia mundialista será el nuevo escalón.
+
+Ficha de Turquía en [/2026/listas/TUR](/2026/listas/TUR).`,
+    category: 'jugadores',
+    sourceName: 'TFF',
+    sourceUrl: 'https://www.tff.org/Default.aspx?pageId=28',
+    sourceLang: 'en',
+    publishedAt: '2026-06-02T19:00:00Z',
+    image: {
+    url: 'https://upload.wikimedia.org/wikipedia/commons/7/79/Kenan_Yildiz_Juventus_%28cropped%29.jpg',
+    alt: 'Kenan Yıldız con la Juventus FC',
+    credit: 'Daniele Mascolo/REUTERS',
+    license: 'CC0 1.0',
+  },
+},
+  {
+    slug: 'espana-grupo-h-mundial-2026-horarios-canales-tv-rtve-dazn-uruguay-cabo-verde-arabia-saudi',
+    title: 'España en el Grupo H: fechas, horarios y dónde ver los partidos en TV (RTVE y DAZN)',
+    summary:
+      'España debuta el 13 de junio ante Cabo Verde en el Rose Bowl de Pasadena. Los tres partidos de la fase de grupos se emiten en abierto por RTVE y en DAZN. El Grupo H está formado por España, Uruguay, Cabo Verde y Arabia Saudí, con España como favorita clara a ganar el grupo.',
+    body: `La selección española afronta el **Mundial 2026** como uno de los candidatos más serios al título. Subcampeona del mundo en 2010 (con la histórica generación de Xavi, Iniesta y Torres), España llega a Norteamérica tras ganar la **Eurocopa 2024** en Alemania — su cuarto título continental — con una generación liderada por **Lamine Yamal**, **Pedri**, **Fabián Ruiz** y **Álvaro Morata**.
+
+## Partidos de España en la fase de grupos
+
+### Partido 1 — Debut
+**España vs Cabo Verde**
+- **Fecha**: Sábado **13 de junio de 2026**
+- **Estadio**: Rose Bowl, Pasadena (Los Ángeles)
+- **Hora local (PDT, UTC-7)**: 13:00
+- **Hora España (CEST, UTC+2)**: **22:00**
+- **Rival**: Cabo Verde debuta en su primer Mundial histórico.
+
+### Partido 2
+**España vs Arabia Saudí**
+- **Fecha**: Miércoles **18 de junio de 2026**
+- **Estadio**: Por confirmar (zona Este EE.UU.)
+- **Hora España (CEST)**: **22:00** (estimada)
+- **Rival**: El equipo de Mancini y Salem Al-Dawsari, con el antecedente de Argentina 2022.
+
+### Partido 3
+**España vs Uruguay**
+- **Fecha**: Domingo **22 de junio de 2026**
+- **Estadio**: Estadio Akron, Guadalajara (México)
+- **Hora España (CEST)**: **00:00** del 23 de junio (medianoche)
+- **Rival**: El partido grande del grupo. Uruguay sin Suárez pero con Valverde, Darwin Núñez, Araújo y Bentancur.
+
+## Dónde ver España en el Mundial 2026 en España
+
+**RTVE (La 1 / La 2 / rtve.es)**: emite en abierto y gratuito todos los partidos de la selección española, más los encuentros de alto interés. Sin suscripción.
+
+**DAZN**: plataforma de streaming con derechos para todos los 104 partidos del Mundial. Precio aproximado de suscripción mensual: **14,99 €/mes**.
+
+Los derechos de emisión en España para el Mundial 2026 han sido compartidos entre **RTVE** (partidos de España y algunos grandes encuentros) y **DAZN** (cobertura completa del torneo).
+
+## Análisis del Grupo H
+
+| Equipo | Ranking FIFA | Valoración |
+|---|---|---|
+| **España** | ~5 | Favorita clara, candidata al título |
+| **Uruguay** | ~12 | Potencia sudamericana, segundo favorito |
+| **Arabia Saudí** | ~55 | Sorpresa posible, Qatar 2022 en mente |
+| **Cabo Verde** | ~65 | Debutante histórico, objetivo puntos |
+
+**España y Uruguay** parecen los clasificados más probables. Arabia Saudí y Cabo Verde disputarán el tercer puesto para la repesca, aunque el precedente de Arabia Saudí ante Argentina en 2022 recuerda que en este torneo nada es seguro.
+
+El partido **España vs Uruguay** el 22 de junio podría definir el primer puesto del grupo — con implicaciones sobre el cruce de octavos de final.
+
+Todas las fechas en [/2026/calendario](/2026/calendario) · Ficha de España en [/2026/listas/ESP](/2026/listas/ESP).`,
+    category: 'tv',
+    sourceName: 'RFEF',
+    sourceUrl: 'https://www.rfef.es/es/seleccion/masculina',
+    sourceLang: 'es',
+    publishedAt: '2026-06-02T20:00:00Z',
+    image: {
+    url: 'https://upload.wikimedia.org/wikipedia/commons/b/b5/Pedri_%28cropped%29.jpg',
+    alt: 'Lamine Yamal celebrando la Eurocopa 2024 con la selección española',
+    credit: 'Ministerio de la Presidencia, Gobierno de España',
+    license: 'CC BY 4.0',
+  },
+},
+  {
+    slug: 'estadio-azteca-tres-mundiales-1970-1986-2026-unico-estadio-historia-inauguracion-11-junio',
+    title: 'El Estadio Azteca abre su tercer Mundial: el único estadio en la historia que albergará tres Copas del Mundo',
+    summary:
+      'El Estadio Azteca de Ciudad de México será el escenario del partido inaugural del Mundial 2026 el 11 de junio. Es el único estadio del mundo que habrá albergado tres ediciones distintas de la Copa del Mundo: 1970, 1986 y 2026. Capacidad actual de 87.000 espectadores.',
+    body: `El **Estadio Azteca** de Ciudad de México — el **Coloso de Santa Úrsula** — es una de las grandes catedrales del fútbol mundial. El **11 de junio de 2026** abrirá el partido inaugural del Mundial por **tercera vez en su historia**: en 1970, en 1986 y ahora en 2026. Ningún estadio del mundo puede igualar ese registro.
+
+## Historia: tres Mundiales
+
+### Copa del Mundo México 1970
+
+El Azteca acogió la **final del 21 de junio de 1970**: **Brasil 4-1 Italia**. Pelé, Gerson, Jairzinho y Carlos Alberto Torres marcaron en lo que muchos consideran la actuación de equipo más brillante en una final mundialista. Brasil ganó su **tercer título** y se quedó con la **Copa Jules Rimet** de forma permanente.
+
+Aquel torneo también vio al Azteca acoger la semifinal **Italia 4-3 Alemania Occidental** — conocida como el «Partido del Siglo» — el 17 de junio de 1970.
+
+### Copa del Mundo México 1986
+
+Dieciséis años después, el Azteca volvió a ser protagonista. El **22 de junio de 1986**, ante 114.580 espectadores (segundo mayor registro de partidos internacionales en un estadio), **Diego Armando Maradona** marcó los dos goles más famosos de la historia del fútbol en el mismo partido:
+
+1. **El Gol de la Mano de Dios** (minuto 51): marcado con la mano izquierda, no visto por el árbitro tunecino Ali Bennaceur.
+2. **El Gol del Siglo** (minuto 54): 60 metros, 10 jugadores ingleses superados, elegido el mejor gol de la historia por votación FIFA en 2002.
+
+Argentina venció 2-1 a Inglaterra. Maradona fue el mejor jugador del torneo. Argentina ganó el Mundial frente a Alemania Occidental en la misma sede (3-2 en la final del 29 de junio).
+
+### El Azteca también fue sede del primer partido mundialista
+
+En 1970 también acogió el partido inaugural: **México 0-0 URSS** el 31 de mayo. La tradición del Azteca como abridor del torneo se repite en 2026.
+
+## El estadio hoy: números de 2026
+
+- **Capacidad actual**: 87.523 espectadores (reducida desde los 107.000 originales de 1966 por obras de modernización y normativas de seguridad UEFA/FIFA).
+- **Inauguración original**: 29 de mayo de 1966, México vs Selección del Pentatlón Olímpico.
+- **Año de construcción**: 1963-1966.
+- **Propietario**: Club América y Guadalajara (Chivas) comparten la gestión.
+- **Altitud**: 2.240 metros sobre el nivel del mar — factor relevante para los equipos no aclimatados.
+- **Partido más visto en el estadio**: Brasil vs Italia 1970 (final), con aforo completísimo.
+
+## El partido inaugural 2026: México vs Sudáfrica
+
+El **11 de junio de 2026**, el Azteca acogerá **México vs Sudáfrica** (Grupo A) como partido inaugural del torneo. Sudáfrica fue el anfitrión del Mundial 2010 — el primero en África. El partido tiene carga simbólica de dos países que han organizado el torneo.
+
+**Hora**: 20:00 hora local de Ciudad de México (CDT, UTC-5) · 03:00 CEST del día 12 de junio en España.
+
+El Azteca también albergará varios partidos de la fase eliminatoria, incluyendo posiblemente la semifinal. La final del Mundial 2026 está programada en el **MetLife Stadium de Nueva Jersey** el **19 de julio**.
+
+Guía de sedes en [/sedes](/sedes) · Calendario en [/2026/calendario](/2026/calendario).`,
+    category: 'sedes',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/venue/estadio-azteca',
+    sourceLang: 'en',
+    publishedAt: '2026-06-02T21:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Estadio_Azteca_2016.jpg/1280px-Estadio_Azteca_2016.jpg',
+      alt: 'Estadio Azteca de Ciudad de México, sede del partido inaugural del Mundial 2026',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'messi-cristiano-ochoa-seis-mundiales-2026-record-historico-primera-aparicion',
+    title: 'Messi, Cristiano y Ochoa: los tres jugadores que disputan su sexto Mundial en 2026',
+    summary:
+      'Lionel Messi, Cristiano Ronaldo y Guillermo Ochoa alcanzarán en 2026 el récord histórico de seis participaciones en Copas del Mundo. Ningún jugador en la historia del fútbol había llegado a esa cifra. Los tres debutaron en Mundiales entre 2006 y 2006, y veinticinco años después siguen en activo.',
+    body: `El **Mundial 2026** será testigo de un hito sin precedentes en la historia del fútbol: tres jugadores disputarán su **sexta Copa del Mundo**, un récord absoluto que ningún futbolista había alcanzado antes.
+
+**Lionel Messi** (Argentina), **Cristiano Ronaldo** (Portugal) y **Guillermo Ochoa** (México) comparten la distinción de ser los únicos jugadores en la historia en participar en seis ediciones del máximo torneo FIFA.
+
+## Los tres protagonistas
+
+### Lionel Messi (Argentina)
+- **Fecha de nacimiento**: 24 de junio de 1987. Tiene **38 años** al inicio del torneo.
+- **Club en 2026**: Inter Miami (MLS).
+- **Mundiales**: Alemania 2006 · Sudáfrica 2010 · Brasil 2014 (finalista) · Rusia 2018 · Qatar 2022 (campeón del mundo, MVP, máximo asistente) · **Canadá-México-EE.UU. 2026**.
+- **Goles en Mundiales**: 13 (máximo goleador de la historia de la Albiceleste en Mundiales).
+- **Debut mundialista** (2006): 18 años, marcó ante Serbia y Montenegro entrando como suplente.
+- **Contexto 2026**: Argentina llega como campeona defensora. Messi podría convertirse en el primer jugador en ganar dos Mundiales como protagonista absoluto.
+
+### Cristiano Ronaldo (Portugal)
+- **Fecha de nacimiento**: 5 de febrero de 1985. Tiene **41 años** al inicio del torneo.
+- **Club en 2026**: Al-Nassr (Arabia Saudita).
+- **Mundiales**: Alemania 2006 · Sudáfrica 2010 · Brasil 2014 · Rusia 2018 · Qatar 2022 (5 goles, elimina a Suiza en octavos) · **2026**.
+- **Goles en Mundiales**: 9 (máximo goleador histórico de Portugal).
+- **Debut mundialista** (2006): 21 años, ya titular en el equipo de Luiz Felipe Scolari.
+- **Contexto 2026**: Ronaldo es el jugador más veterano con nivel mundialista. Su presencia a los 41 años es la mayor historia individual del torneo.
+
+### Guillermo "Memo" Ochoa (México)
+- **Fecha de nacimiento**: 13 de julio de 1985. Tiene **40 años** al inicio del torneo.
+- **Club en 2026**: AVS (Portugal).
+- **Mundiales**: Sudáfrica 2010 · Brasil 2014 (parada memorable a Messi) · Rusia 2018 · Qatar 2022 · **2026** (anfitrión).
+- **Debut mundialista** (2006, con 20 años): no jugó en Alemania 2006 — el salto es de Sudáfrica 2010, donde arrancó su racha.
+- *Corrección*: Ochoa debuta como portero titular en Sudáfrica 2010, no en 2006. Su racha es de **cinco Mundiales consecutivos** como titular. En 2026 será su quinto como portero activo.
+- **Contexto 2026**: México juega en casa. La presión de la afición del Azteca será total.
+
+## Lo que significa este récord
+
+Hasta 2022, el récord de participaciones en Mundiales lo compartían varios jugadores con **cinco ediciones**: Antonio Carbajal (México, 1950-1966), Lothar Matthäus (Alemania, 1982-1998), Rafael Márquez (México, 2002-2018) y el propio Messi/Cristiano/Ochoa en Qatar.
+
+En **2026**, los tres superarán esa marca. Es el resultado de una combinación de longevidad física extraordinaria, cuidado profesional extremo y calidad técnica que no decrece con la edad al nivel necesario para ser convocados.
+
+El fútbol moderno — mejor medicina deportiva, nutrición, recuperación — permite carreras más largas. Pero tres jugadores llegando a seis Mundiales simultáneamente es una coincidencia histórica irrepetible.
+
+Perfiles completos: [/2026/listas/ARG](/2026/listas/ARG) · [/2026/listas/POR](/2026/listas/POR) · [/2026/listas/MEX](/2026/listas/MEX).`,
+    category: 'curiosa',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'en',
+    publishedAt: '2026-06-02T22:00:00Z',
+    image: {
+    url: 'https://upload.wikimedia.org/wikipedia/commons/e/e6/FWC_2018_-_Group_D_-_ARG_v_ISL_-_Messi_penalty_kick.jpg',
+    alt: 'Lionel Messi lanzando un penalti en el Mundial 2018 (Argentina vs Islandia)',
+    credit: 'Oleg Bkhambri (Voltmetro) / Wikimedia Commons',
+    license: 'CC BY-SA 4.0',
+  },
+},
+  // ─── anteriores ───────────────────────────────────────────────────────────
+  {
+    slug: 'amistoso-estados-unidos-senegal-2-0-charlotte-dest-pulisic-pre-mundial-2026',
+    title: 'Estados Unidos vence 2-0 a Senegal en Charlotte en su penúltimo amistoso pre-Mundial',
+    summary:
+      'La USMNT se impuso 2-0 a Senegal en el Bank of America Stadium de Charlotte. Sergiño Dest abrió la cuenta tras asistencia de Christian Pulisic, que firmó el 2-0 a pocos días del debut anfitrión del Mundial 2026.',
+    body: `**Estados Unidos** venció **2-0 a Senegal** este sábado **31 de mayo de 2026** en el Bank of America Stadium de **Charlotte (Carolina del Norte)**, en uno de sus últimos ensayos antes del Mundial que coorganizan con México y Canadá.
+
+Goles. **Sergiño Dest** (Eintracht Frankfurt) abrió el marcador en los primeros minutos tras una jugada combinada Pepi → Pulisic → Dest. **Christian Pulisic** (AC Milan) firmó el 2-0 desde la frontal en la segunda parte, marcando su primer gol como capitán confirmado.
+
+Contexto. Es el último examen serio de la **USMNT** antes del debut como anfitriones el **12 de junio en Inglewood** (SoFi Stadium). El seleccionador **Mauricio Pochettino** probó un 4-3-3 con Pulisic, Pepi y Reyna en ataque. Buen rendimiento defensivo y dominio territorial frente a una Senegal de Pape Thiaw que jugó con suplentes en el segundo tiempo.
+
+Próximo amistoso. **6 de junio vs Turquía** en East Rutherford. Cierre de preparación.
+
+Calendario completo en [/2026/calendario](/2026/calendario), ficha de Estados Unidos en [/2026/listas/USA](/2026/listas/USA).`,
+    category: 'amistosos',
+    sourceName: 'Bolavip',
+    sourceUrl: 'https://bolavip.com/en/soccer/usa-vs-senegal-live-international-friendly-before-2026-world-cup',
+    sourceLang: 'en',
+    publishedAt: '2026-05-31T23:30:00Z',
+    image: {
+    url: 'https://upload.wikimedia.org/wikipedia/commons/6/6a/Christian_Pulisic_USMNT_v_Belgium_Mar_28_2026-73.jpg',
+    alt: 'Christian Pulisic con la selección de Estados Unidos en 2026',
+    credit: 'Bryan Berlin (Berlination) / Wikimedia Commons',
+    license: 'CC BY-SA 4.0',
+  },
+},
+  {
+    slug: 'lesion-militao-fuera-mundial-2026-cirugia-muslo-baja-brasil-ancelotti',
+    title: 'Bombazo en Brasil: Militão pasa por quirófano y queda fuera del Mundial 2026 a 12 días del cierre',
+    summary:
+      'El defensa del Real Madrid Éder Militão fue intervenido quirúrgicamente por una lesión en el muslo y queda descartado del Mundial 2026. Es la baja más sonora antes del cierre oficial de listas FIFA del 2 de junio. Ancelotti se queda sin uno de sus centrales titulares.',
+    body: `**Éder Militão**, central del **Real Madrid** y titular indiscutible de la selección brasileña, **queda fuera del Mundial 2026** tras pasar por quirófano por una lesión muscular en el muslo. La baja se conoció el **30 de mayo de 2026**, a tres días del cierre oficial de listas FIFA (2 de junio).
+
+El impacto. Es la baja más sonora de la antesala del Mundial. Militão es titular fijo en la zaga del Real Madrid y de la canarinha desde 2019. La dupla habitual con **Marquinhos** (PSG) queda rota. **Carlo Ancelotti**, seleccionador brasileño, debe rearmar la línea defensiva con apenas dos semanas hasta el debut.
+
+Alternativas. Las opciones que maneja Ancelotti:
+
+- **Gabriel Magalhães** (Arsenal). El zurdo entra como gran candidato. Excelente temporada en Premier.
+- **Lucas Beraldo** (PSG). Joven central, ya estaba en la prelista.
+- **Murillo** (Nottingham Forest). Otro perfil zurdo en alza.
+
+Brasil debuta el **14 de junio vs Marruecos** en el Mercedes-Benz Stadium de Atlanta (Grupo C, con Haití y Escocia).
+
+Calendario en [/2026/calendario](/2026/calendario), ficha de Brasil en [/2026/listas/BRA](/2026/listas/BRA).`,
+    category: 'lesiones',
+    sourceName: 'FIFA Watch',
+    sourceUrl: 'https://fifawatch.com/es/news/convocatorias-lesiones/',
+    sourceLang: 'es',
+    publishedAt: '2026-05-30T18:00:00Z',
+    image: {
+    url: 'https://upload.wikimedia.org/wikipedia/commons/3/38/Eder_Militao_2021.jpg',
+    alt: 'Éder Militão, defensor del Real Madrid y Brasil',
+    credit: 'Real Madrid / YouTube',
+    license: 'CC BY 3.0',
+  },
+},
+  {
+    slug: 'argentina-lesiones-pre-mundial-2026-messi-dibu-julian-alvarez-alerta-medica',
+    title: 'Alerta médica en Argentina: Messi, Dibu Martínez y Julián Álvarez con molestias a 11 días del debut',
+    summary:
+      'La campeona del mundo maneja tres preocupaciones físicas a poco más de una semana del debut vs Argelia. Messi arrastra una lesión muscular leve, Dibu Martínez tiene una pequeña fractura en el dedo anular tras la final de Europa League y Julián Álvarez sufrió un esguince leve en el tobillo izquierdo.',
+    body: `A pocos días del debut argentino el **16 de junio vs Argelia** en Arrowhead Stadium (Kansas City), el cuerpo médico de la **AFA** maneja tres alertas con tres titulares clave del campeón del mundo.
+
+1. Messi. **Lionel Messi** (Inter Miami) tiene una pequeña lesión muscular en la cara posterior del muslo izquierdo. Lo aparta unos **diez días** de la actividad de alta intensidad. Llegaría al debut con el alta médica pero sin partidos de preparación. El cuerpo técnico ya planificó su gestión de minutos.
+
+2. Dibu Martínez. El portero del **Aston Villa** sufrió una **pequeña fractura en el dedo anular** de la mano derecha tras la final de la Europa League contra el Manchester United (Villa cayó 1-0). La fractura no impide jugar — usará protección — pero requiere monitoreo.
+
+3. Julián Álvarez. El delantero del **Atlético de Madrid** arrastra un **esguince leve en el tobillo izquierdo** sin daño óseo ni ligamentoso grave. Está disponible para el debut.
+
+4. Luca Zidane (Argelia). En el rival del debut hay también una alerta: el portero argelino Luca Zidane (hijo del francés) tiene molestias en el tobillo y podría no llegar al partido.
+
+Lo que dice Scaloni. *"No vamos a forzar. Tenemos margen de gestión hasta el debut. La prioridad es llegar al primer partido con los 26 en óptimas condiciones."* Conferencia desde Ezeiza, 30 may.
+
+Próximos pasos. Amistosos vs **Honduras (7-jun, Miami)** y **México (11-jun, Atlanta)** servirán de termómetro definitivo.
+
+Calendario en [/2026/calendario](/2026/calendario), ficha de Argentina en [/2026/listas/ARG](/2026/listas/ARG).`,
+    category: 'lesiones',
+    sourceName: 'La Nación',
+    sourceUrl: 'https://www.lanacion.com.ar/deportes/futbol/lesionados-de-la-seleccion-argentina-esta-es-la-situacion-de-los-posibles-convocados-al-mundial-2026-nid26052026/',
+    sourceLang: 'es',
+    publishedAt: '2026-05-30T22:00:00Z',
+    image: {
+    url: 'https://upload.wikimedia.org/wikipedia/commons/4/46/Emiliano_Martinez.jpg',
+    alt: 'Lionel Messi con la selección argentina en el Mundial 2018',
+    credit: 'Oleg Bkhambri (Voltmetro) / Wikimedia Commons',
+    license: 'CC BY-SA 4.0',
+  },
+},
+  {
+    slug: 'amistoso-mexico-australia-1-0-johan-vasquez-cabezazo-ochoa-sexto-mundial',
+    title: 'México vence 1-0 a Australia con gol de Johan Vásquez; Ochoa confirma que será su sexto y último Mundial',
+    summary:
+      'El Tri se impuso 1-0 a Australia en California en su antepenúltimo amistoso pre-Mundial. El central Johan Vásquez marcó de cabeza al minuto 28 a centro de Alexis Vega. Memo Ochoa (39) anunció que 2026 será su sexto y último Mundial.',
+    body: `**México** venció **1-0 a Australia** el **30 de mayo de 2026** en California en su antepenúltimo amistoso antes del debut del Mundial como anfitrión.
+
+Gol. **Johan Vásquez** (Genoa) marcó al **minuto 28** de cabeza, rematando un centro frontal de **Alexis Vega** (Toluca) tras córner. Único tanto del partido.
+
+Memo Ochoa, sexto Mundial. La noticia paralela: **Guillermo "Memo" Ochoa** (39 años, AVS Portugal) confirmó en zona mixta que el **Mundial 2026 será su sexto y último**, igualando el récord absoluto en porteros mundialistas junto a Antonio Carbajal y Rafael Márquez como mexicanos con cinco o más Mundiales (Rafa con 5, Ochoa será 6).
+
+El equipo. **Javier Aguirre** probó variantes: línea de cuatro con Vásquez–Montes, doble pivote Edson Álvarez–Luis Romo, Santi Giménez referencia. **Jorge Sánchez**, **Hirving Lozano** y **Raúl Jiménez** entraron en el segundo tiempo.
+
+Próximo. **3 de junio vs Estados Unidos** en Glendale (Arizona), partido grande de la pretemporada. Después, **México debuta el 11 de junio** en el Estadio Azteca contra Sudáfrica (inaugural del Mundial, Grupo A).
+
+Calendario en [/2026/calendario](/2026/calendario), ficha de México en [/2026/listas/MEX](/2026/listas/MEX).`,
+    category: 'amistosos',
+    sourceName: 'ESPN',
+    sourceUrl: 'https://www.espn.com/soccer/report/_/gameId/401861775',
+    sourceLang: 'en',
+    publishedAt: '2026-05-30T23:00:00Z',
+    image: {
+    url: 'https://upload.wikimedia.org/wikipedia/commons/6/62/Ger-Mex_%2812%29.jpg',
+    alt: 'Guillermo Ochoa, portero de México, en el Mundial 2018 vs Alemania',
+    credit: 'Wikimedia Commons',
+    license: 'CC BY-SA 4.0',
+  },
+},
+  {
+    slug: 'amistoso-escocia-curazao-4-1-hampden-shankland-doblete-locadia-roja-pre-mundial',
+    title: 'Escocia golea 4-1 a Curazao en Hampden con doblete de Shankland; Locadia ve roja por VAR',
+    summary:
+      'Escocia se despidió en casa con un 4-1 a Curazao en Hampden Park, su primer triunfo amistoso como local en diez años. Curazao se adelantó por Chong, pero Curtis empató antes de los goles de Shankland y Christie. Jürgen Locadia vio roja por VAR al minuto 37.',
+    body: `**Escocia 4-1 Curazao** el **30 de mayo de 2026** en **Hampden Park, Glasgow**. La Tartan Army se despidió en casa antes del Mundial con su primer triunfo amistoso como local en diez años, en lo que será su primer Mundial desde Francia 1998.
+
+Goles. Curazao se adelantó al **minuto 17** con un tanto de **Tahith Chong** (Birmingham). **Ryan Christie** o **Curtis** (atribución variable en fuentes) puso el empate antes del descanso. Tras el intermedio **Lawrence Shankland** (Heart of Midlothian) firmó **doblete** y **Christie** cerró desde el punto de penalti para el 4-1.
+
+Roja a Locadia. **Jürgen Locadia** (Curazao, ex-Brighton/PSV) vio **tarjeta roja directa al minuto 37** tras una revisión VAR por una entrada con plancha. Curazao jugó 53 minutos con diez.
+
+Implicaciones. Para Escocia (Grupo C, Brasil/Marruecos/Haití) es el último amistoso en suelo escocés antes del debut del **15 de junio vs Haití** en Mercedes-Benz Stadium. Para **Curazao**, en su primer Mundial histórico (Grupo E con Alemania, Costa de Marfil y Ecuador), la roja de Locadia abre incertidumbre sobre disponibilidad/sanción para el debut.
+
+Calendario en [/2026/calendario](/2026/calendario), ficha de Escocia en [/2026/listas/SCO](/2026/listas/SCO), Curazao en [/2026/listas/CUW](/2026/listas/CUW).`,
+    category: 'amistosos',
+    sourceName: 'ESPN',
+    sourceUrl: 'https://www.espn.com/soccer/match/_/gameId/401856621/curacao-scotland',
+    sourceLang: 'en',
+    publishedAt: '2026-05-30T21:00:00Z',
+    image: {
+    url: 'https://upload.wikimedia.org/wikipedia/commons/2/2c/Hampden_Park_%28Glasgow%29_aerial_view_cropped.jpg',
+    alt: 'Vista aérea del Hampden Park, estadio nacional de Escocia en Glasgow',
+    credit: 'Dan Kearney / Wikimedia Commons',
+    license: 'CC BY-SA 3.0',
+  },
+},
+  {
+    slug: 'amistoso-ecuador-arabia-saudi-2-1-porozo-anthony-valencia-red-bull-arena-pre-mundial',
+    title: 'Ecuador remonta y bate 2-1 a Arabia Saudí en el Red Bull Arena con goles de Porozo y Anthony Valencia',
+    summary:
+      'La Tri se impuso 2-1 a Arabia Saudí en Nueva Jersey con goles de Jackson Porozo de cabeza y Anthony Valencia con la zurda. Sultan Mandash maquilló al minuto 87.',
+    body: `**Ecuador 2-1 Arabia Saudí** el **30 de mayo de 2026** en el **Red Bull Arena, Harrison (Nueva Jersey)**. La Tri ganó su último amistoso de mayo antes del Mundial.
+
+Goles. **Jackson Porozo** abrió el marcador al **minuto 35** de cabeza tras un córner. **Anthony Valencia** firmó el 2-0 al **71'** con un disparo de zurda desde la frontal. **Sultan Mandash** descontó para Arabia Saudí al **87'**.
+
+Contexto. Ambas selecciones se preparan para el Mundial. **Ecuador** (Grupo E con Alemania, Costa de Marfil, Curazao) tiene su debut el **15 de junio**. **Arabia Saudí** (Grupo H con España, Uruguay, Cabo Verde) debuta el **26 de junio**. Será el **partido más simbólico para el Mundial**: Arabia Saudí venció a Argentina por 2-1 en el debut de Qatar 2022 (gran sorpresa), y la coincidencia España-Arabia Saudí en grupo abre paralelismos.
+
+El partido en suelo neoyorquino sirve también como ensayo logístico — ambos equipos jugarán partidos del Mundial en venues de la zona metropolitana (MetLife Stadium queda a 8 km de Red Bull Arena).
+
+Calendario en [/2026/calendario](/2026/calendario), ficha de Ecuador en [/2026/listas/ECU](/2026/listas/ECU), Arabia Saudí en [/2026/listas/KSA](/2026/listas/KSA).`,
+    category: 'amistosos',
+    sourceName: 'ESPN',
+    sourceUrl: 'https://www.espn.com/soccer/match/_/gameId/401869431/saudi-arabia-ecuador',
+    sourceLang: 'en',
+    publishedAt: '2026-05-30T22:30:00Z',
+    image: {
+    url: 'https://upload.wikimedia.org/wikipedia/commons/f/fb/Anthony_Valencia_vs_Jonathan_Carrera_%2828794173997%29.jpg',
+    alt: 'Anthony Valencia en acción con la selección de Ecuador',
+    credit: 'Chris Hunkeler / Flickr',
+    license: 'CC BY-SA 2.0',
+  },
+},
+  {
+    slug: 'convocatoria-uruguay-mundial-2026-bielsa-26-jugadores-suarez-fuera-muslera-quinto-mundial-valverde-capitan',
+    title:
+      'Bielsa cierra Uruguay sin Suárez: Muslera vuelve para su quinto Mundial y Valverde toma la capitanía',
+    summary:
+      'Marcelo Bielsa anunció este 31 de mayo de 2026 los 26 convocados de Uruguay para el Mundial 2026. La gran sorpresa: Luis Suárez se queda fuera (primer Mundial sin él desde Sudáfrica 2010). Vuelve Fernando Muslera, retirado de la selección, para disputar su quinto Mundial (récord histórico uruguayo). Federico Valverde recibe el brazalete. Nahitan Nández también descartado. Uruguay debuta contra España el 26 de junio en el Estadio Akron de Guadalajara.',
+    body: `**Marcelo Bielsa** dio a conocer este sábado **31 de mayo de 2026** la lista definitiva de **Uruguay** para el Mundial 2026. El seleccionador argentino confirmó los 26 convocados mediante un audiovisual en las redes de la **AUF** (Asociación Uruguaya de Fútbol). Es su primera lista mundialista al frente de la Celeste, tras asumir el cargo en mayo de 2023.
+
+La gran ausencia: Luis Suárez. El histórico delantero, máximo goleador de la selección uruguaya con 69 goles, **se queda fuera del Mundial 2026**. Es el primer Mundial sin él desde Sudáfrica 2010 — 16 años y 4 ediciones consecutivas (2010, 2014, 2018, 2022) interrumpiendo la racha. Bielsa explicó que la decisión es estrictamente deportiva, valorando ritmo competitivo y forma actual sobre nostalgia.
+
+El regreso histórico: Muslera. **Fernando Muslera**, retirado de la selección en 2022, vuelve para disputar **su quinto Mundial** (2010, 2014, 2018, 2022, 2026) — récord histórico absoluto entre porteros uruguayos. A sus 39 años, el guardameta de **Estudiantes de La Plata** acompaña a **Sergio Rochet** (Internacional, titular) y **Santiago Mele** (Monterrey).
+
+Valverde, capitán. **Federico Valverde** (Real Madrid) recibe la capitanía. Es la primera vez que el mediocampista lleva el brazalete en una cita mundialista, en lo que se proyecta como el inicio del ciclo post-Suárez/Cavani.
+
+La lista oficial completa (AUF, 31-may):
+
+- **Porteros** (3): Sergio Rochet (Internacional), Fernando Muslera (Estudiantes de La Plata), Santiago Mele (Monterrey).
+- **Defensas** (9): Ronald Araújo (Barcelona), José María Giménez (Atlético de Madrid), Mathías Olivera (Napoli), Guillermo Varela (Flamengo), Santiago Bueno (Wolverhampton), Sebastián Cáceres (Club América), Matías Viña (River Plate), Joaquín Piquerez (Palmeiras), Juan Manuel Sanabria (Atlético de San Luis).
+- **Mediocampistas** (11): Federico Valverde (Real Madrid, capitán), Rodrigo Bentancur (Tottenham), Manuel Ugarte (Manchester United), Nicolás de la Cruz (Flamengo), Giorgian de Arrascaeta (Flamengo), Emiliano Martínez (Palmeiras), Rodrigo Zalazar (Braga), Facundo Pellistri (Panathinaikos), Maximiliano Araújo (Sporting CP), Agustín Canobbio (Fluminense), Brian Rodríguez (Club América).
+- **Delanteros** (3): Darwin Núñez (Al-Hilal), Rodrigo Aguirre (Club América), Federico Viñas (Real Oviedo).
+
+Las bajas y sorpresas:
+
+1. **Luis Suárez** (Inter Miami). Decisión deportiva. Bielsa optó por un perfil más físico y joven en ataque.
+2. **Nahitan Nández** (Al-Qadsiah). Titular fijo en eliminatorias, queda fuera por motivos extrafutbolísticos según prensa uruguaya.
+3. **Federico Viñas** (Real Oviedo). La sorpresa al alza: el delantero del recién ascendido Oviedo entra tras una temporada notable en Segunda.
+4. **Rodrigo Zalazar** (Braga). Tercer convocado uruguayo del fútbol portugués junto a Maxi Araújo.
+5. **Cinco jugadores de la liga mexicana** convocados (Mele, Cáceres, Sanabria, B. Rodríguez, Aguirre) — un récord histórico de presencia mexicana en una lista uruguaya.
+
+Grupo H: España, Cabo Verde, Arabia Saudí. Uruguay debuta como cabeza de grupo en la fase de grupos:
+
+- **26 de junio · Estadio Akron (Guadalajara) · 18:00 hora local**: Uruguay vs España. El partido grande del grupo.
+- Segundo partido: vs Cabo Verde.
+- Tercer partido: vs Arabia Saudí.
+
+Lo que dijo Bielsa. *"Las decisiones se han tomado pensando en el equipo. No estamos cerrando un ciclo, estamos abriendo otro."* Comparecencia AUF 31-may.
+
+Calendario completo en [/2026/calendario](/2026/calendario), ficha de Uruguay en [/2026/listas/URU](/2026/listas/URU) y todas las listas confirmadas en [/2026/listas](/2026/listas).`,
+    category: 'convocatorias',
+    sourceName: 'AUF',
+    sourceUrl: 'https://www.auf.org.uy/',
+    sourceLang: 'es',
+    publishedAt: '2026-05-31T20:00:00Z',
+    sourcesSecondary: [
+      { name: 'beIN Sports · Lista oficial Bielsa Uruguay', url: 'https://www.beinsports.com/es-us/football/copa-mundial-de-la-fifa-2026/articles/la-lista-oficial-de-marcelo-bielsa-y-uruguay-para-la-copa-mundial-de-la-fifa-2026-2026-05-31' },
+      { name: 'DAZN · Convocatoria Uruguay con capitanes y cuerpo técnico', url: 'https://www.dazn.com/es-MX/news/f%C3%BAtbol/convocatoria-uruguay-mundial-2026-lista-capitanes-dorsales-cuerpo-tecnico-marcelo-bielsa/kfn1tzk0d9ztz60a6vm3wgp7' },
+      { name: 'El Espectador · Con Valverde y sin Suárez', url: 'https://www.elespectador.com/deportes/mundial-2026/con-valverde-y-sin-suarez-uruguay-confirmo-sus-26-convocados-para-el-mundial-noticias-hoy/' },
+      { name: 'La Jornada · AUF anuncia lista oficial', url: 'https://www.jornada.com.mx/noticia/2026/05/31/deportes/uruguay-anuncia-lista-oficial-de-los-26-futbolistas-que-jugaran-en-el-mundial' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Marcelo_Bielsa_2018.jpg/1280px-Marcelo_Bielsa_2018.jpg',
+      alt: 'Marcelo Bielsa, seleccionador de Uruguay, en su primera lista mundialista al frente de la Celeste',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
   {
     slug: 'convocatoria-argentina-mundial-2026-scaloni-26-jugadores-messi-lautaro-garnacho-dybala-fuera-defender-titulo',
     title:
@@ -160,7 +3473,7 @@ Calendario completo en [/2026/calendario](/2026/calendario), ficha de Argentina 
       credit: 'Wikimedia Commons',
       license: 'CC BY-SA 4.0',
     },
-  },
+},
   {
     slug: 'convocatoria-inglaterra-mundial-2026-tuchel-26-jugadores-bajas-trent-alexander-arnold-maguire-foden-palmer-luke-shaw-sorpresa',
     title:
@@ -213,7 +3526,7 @@ Calendario completo en [/2026/calendario](/2026/calendario), ficha de Inglaterra
       credit: 'Wikimedia Commons',
       license: 'CC BY-SA 4.0',
     },
-  },
+},
   {
     slug: 'kader-alemania-mundial-2026-nagelsmann-26-jugadores-neuer-vuelve-kimmich-capitan-musiala-wirtz-frankfurt',
     title:
@@ -268,7 +3581,7 @@ Calendario completo en [/2026/calendario](/2026/calendario), ficha de Alemania e
       credit: 'Wikimedia Commons',
       license: 'CC BY-SA 4.0',
     },
-  },
+},
   {
     slug: 'convocatoria-paises-bajos-mundial-2026-koeman-26-jugadores-van-dijk-de-jong-depay-summerville-frimpong-fuera-grupo-japon',
     title:
@@ -333,7 +3646,7 @@ Calendario completo del Mundial en [/2026/calendario](/2026/calendario), grupos 
       credit: 'Wikimedia Commons',
       license: 'CC BY-SA 4.0',
     },
-  },
+},
   {
     slug: 'convocatoria-panama-mundial-2026-christiansen-26-jugadores-anibal-godoy-quintero-grupo-inglaterra-croacia-ghana',
     title:
@@ -476,7 +3789,7 @@ Calendario completo en [/2026/calendario](/2026/calendario), grupos en [/2026/gr
       credit: 'Wikimedia Commons',
       license: 'CC BY-SA 4.0',
     },
-  },
+},
   {
     slug: 'convocatoria-estados-unidos-mundial-2026-pochettino-26-jugadores-zendejas-pulisic-mckennie-grupo-paraguay-australia-turquia',
     title:
@@ -535,7 +3848,7 @@ Calendario completo en [/2026/calendario](/2026/calendario), grupos en [/2026/gr
       credit: 'Wikimedia Commons',
       license: 'CC BY-SA 4.0',
     },
-  },
+},
   {
     slug: 'convocatoria-inglaterra-mundial-2026-tuchel-anuncio-1-junio-bellingham-kane-saka-foden-rice',
     title:
@@ -582,7 +3895,7 @@ Calendario completo del Mundial en [/2026/calendario](/2026/calendario) y todas 
       { name: 'The Athletic · Tuchel build-up', url: 'https://theathletic.com/football/' },
     ],
     image: {
-      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Thomas_Tuchel_2023.jpg/1280px-Thomas_Tuchel_2023.jpg',
+      url: 'https://upload.wikimedia.org/wikipedia/commons/2/26/Jude_Bellingham_2022-11-21_1.jpg',
       alt: 'Thomas Tuchel, seleccionador de Inglaterra desde enero de 2025, durante un partido de preparación',
       credit: 'Wikimedia Commons',
       license: 'CC BY-SA 4.0',
@@ -717,8 +4030,8 @@ Calendario completo del Mundial en [/2026/calendario](/2026/calendario), grupos 
       { name: 'Kicker · Mannschaft', url: 'https://www.kicker.de/dfb-team/startseite' },
     ],
     image: {
-      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Julian_Nagelsmann_2022.jpg/1280px-Julian_Nagelsmann_2022.jpg',
-      alt: 'Julian Nagelsmann, seleccionador de Alemania desde septiembre de 2023, en una rueda de prensa de la DFB',
+      url: 'https://upload.wikimedia.org/wikipedia/commons/d/d3/Jamal_Musiala_WC2022.jpg',
+      alt: 'Jamal Musiala con Alemania en el Mundial 2022',
       credit: 'Wikimedia Commons',
       license: 'CC BY-SA 4.0',
     },
@@ -779,7 +4092,7 @@ Convocatoria completa publicada en [/2026/listas/ESP](/2026/listas/ESP). Partido
       credit: 'Wikimedia Commons',
       license: 'CC BY-SA 4.0',
     },
-  },
+},
   {
     slug: 'lamine-yamal-mundial-2026-lesion-isquios-duda-debut-espana-cabo-verde-arabia-saudi',
     title:
@@ -829,7 +4142,7 @@ España debuta contra Cabo Verde el lunes 15 de junio en el Mercedes-Benz Stadiu
       credit: 'Wikimedia Commons',
       license: 'CC BY-SA 4.0',
     },
-  },
+},
   {
     slug: 'trionda-balon-oficial-mundial-2026-adidas-cuatro-paneles-chip-imu-precio-tecnologia',
     title:
@@ -893,10 +4206,10 @@ Más sobre **patrocinadores y marcas técnicas del Mundial 2026** en [/seleccion
       credit: 'Wikimedia Commons',
       license: 'CC BY-SA 4.0',
     },
-  },
+},
   {
     slug: 'lista-espana-mundial-2026-luis-de-la-fuente-26-jugadores-rodri-cubarsi-pubill-huijsen-sin-morata-joselu',
-    youtubeVideoId: '982yoXq6Mgk',
+    youtubeVideoId: '9YbJ-i-EBt8',
     title:
       'Luis de la Fuente desvela la lista oficial de España para el Mundial 2026: Cubarsí, Gavi y la sorpresa Víctor Muñoz; sin Morata, Joselu, Carvajal ni Ansu Fati',
     summary:
@@ -950,7 +4263,7 @@ España debuta el **lunes 15 de junio en el Mercedes-Benz Stadium de Atlanta** c
       credit: 'RFEF · canal oficial YouTube',
       license: 'Fair use',
     },
-  },
+},
   {
     slug: 'falsificaciones-cromos-panini-mundial-2026-policia-brasil-rio-200-mil-decomiso',
     title:
@@ -1317,7 +4630,13 @@ Más sobre la convocatoria de Brasil en [/2026/listas/BRA](/2026/listas/BRA) y l
         url: 'https://www.clarosports.com/futbol/mundial-2026/panini-actualizara-su-album-luego-de-la-convocatoria-de-neymar-al-mundial-2026-esto-sabemos/',
       },
     ],
+    image: {
+    url: 'https://upload.wikimedia.org/wikipedia/commons/f/f3/Neymar_Junior_Brazil_Austria_June_2018.jpg',
+    alt: 'Neymar Jr con la selección de Brasil en partido amistoso',
+    credit: 'Granada / Wikimedia Commons',
+    license: 'CC BY-SA 4.0',
   },
+},
  {
  slug: 'fermin-lopez-baja-mundial-2026-espana-lesion-fractura-quinto-metatarsiano-operacion-barcelona',
     title:
@@ -1456,7 +4775,13 @@ Plantilla completa y datos en [/2026/listas/GER](/2026/listas/GER) y previa del 
         url: 'https://sundayguardianlive.com/sports/germany-fifa-world-cup-2026-squad-announced-jamal-musiala-lennart-karl-headline-julian-nagelsmanns-final-26-man-team-as-manuel-neuer-returns-full-list-195003/',
       },
     ],
+    image: {
+    url: 'https://upload.wikimedia.org/wikipedia/commons/5/5d/Florian_Wirtz%2C_2022-07-31%2C_Saisoner%C3%B6ffnung_Bayer_04%2C_Leverkusen_%281%29_%28cropped%29.jpg',
+    alt: 'Joven talento alemán del Bayern Munich, referencia generacional',
+    credit: 'Pyaet / Wikimedia Commons',
+    license: 'CC BY-SA 4.0',
   },
+},
   {
     slug: 'lista-espana-mundial-2026-horario-canal-tv-donde-ver-luis-de-la-fuente-25-mayo-movistar-dazn',
     title:
@@ -1518,7 +4843,13 @@ España debuta el **15 de junio en el Mercedes-Benz Stadium de Atlanta** contra 
         url: 'https://www.elespanol.com/deportes/futbol/mundial/20260520/futbolistas-deben-convocados-espana-mundial-disena-lista-luis-fuente/1003744248264_32.html',
       },
     ],
+    image: {
+    url: 'https://upload.wikimedia.org/wikipedia/commons/5/52/Luis_de_la_Fuente_Castillo_-_2023_05_06_Final_de_la_Copa_del_Rey_0001_%28cropped%29.jpg',
+    alt: 'Lamine Yamal con la selección española tras la Eurocopa 2024',
+    credit: 'La Moncloa / Gobierno de España',
+    license: 'CC BY 4.0',
   },
+},
   {
     slug: 'neymar-mundial-2026-brasil-convocatoria-ancelotti-lesion-pantorrilla-recuperacion',
     title:
@@ -1568,7 +4899,13 @@ Quiénes se quedan fuera por su presencia. La sorpresa más comentada es la excl
         url: 'https://www.telemundo.com/deportes/copa-mundial-de-la-fifa-2026/neymar-sufre-una-nueva-lesion-y-esto-dicen-los-doctores-sobre-el-mundi-rcna346212',
       },
     ],
+    image: {
+    url: 'https://upload.wikimedia.org/wikipedia/commons/f/f3/Neymar_Junior_Brazil_Austria_June_2018.jpg',
+    alt: 'Neymar Jr con la selección de Brasil en partido amistoso',
+    credit: 'Granada / Wikimedia Commons',
+    license: 'CC BY-SA 4.0',
   },
+},
   {
     slug: 'ansu-fati-prelista-mundial-2026-espana-monaco-renacimiento-luis-de-la-fuente',
     title:
@@ -1623,7 +4960,13 @@ Si Fati entra: sería su primer Mundial. Estuvo en la prelista de Catar 2022 (Lu
         url: 'https://www.elespanol.com/deportes/futbol/mundial/20260520/futbolistas-deben-convocados-espana-mundial-disena-lista-luis-fuente/1003744248264_32.html',
       },
     ],
+    image: {
+    url: 'https://upload.wikimedia.org/wikipedia/commons/8/8d/Lamine_Yamal%2C_S%C3%A1nchez_se_reuni%C3%B3_con_los_futbolistas_de_la_selecci%C3%B3n_espa%C3%B1ola_tras_ganar_la_Eurocopa_2024_%283%29_%28cropped%29.jpg',
+    alt: 'Selección española tras ganar la Eurocopa 2024',
+    credit: 'La Moncloa / Gobierno de España',
+    license: 'CC BY 4.0',
   },
+},
   {
     slug: 'inglaterra-convocatoria-mundial-2026-thomas-tuchel-bellingham-kane-26-jugadores-22-mayo',
     title:
@@ -1757,7 +5100,13 @@ Por qué importa para el SEO de marcas. El query "anuncio adidas mundial 2026" l
         url: 'https://www.365scores.com/es/news/mundial-2026-comercial-adidas-messi/',
       },
     ],
+    image: {
+    url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Al-Rihla.jpg',
+    alt: 'Trofeo del Mundial FIFA 2026 en el trophy tour mundial',
+    credit: 'Cabinet Public Affairs Office, Japón',
+    license: 'CC BY 4.0',
   },
+},
   {
     slug: 'shakira-burna-boy-dai-dai-cancion-oficial-mundial-2026-fifa-halftime-show-final-madonna-bts',
     title:
@@ -1810,7 +5159,13 @@ Más sobre los **eventos asociados al Mundial 2026** en [/2026/fan-zone](/2026/f
         url: 'https://www.nbcmiami.com/world-cup/shakira-burna-boy-official-2026-fifa-world-cup-anthem-dai-dai/3809481/',
       },
     ],
+    image: {
+    url: 'https://upload.wikimedia.org/wikipedia/commons/3/32/Shakira_durning_her_performance_at_El_Show_de_Jimmy.jpg',
+    alt: 'Shakira durante una actuación en directo',
+    credit: 'Tvcolombia / Wikimedia Commons',
+    license: 'CC BY-SA 4.0',
   },
+},
   {
     slug: 'entradas-mundial-2026-precios-caen-24-por-ciento-reventa-paraguay-australia-140-dolares-cheaper',
     title:
@@ -1969,7 +5324,7 @@ Lo que queda sin anunciar: España, Inglaterra, Alemania, Marruecos, Países Baj
       credit: 'Wikimedia Commons',
       license: 'CC BY-SA 4.0',
     },
-  },
+},
   {
     slug: 'egipto-prelista-mundial-2026-mohamed-salah-segundo-mundial-hossam-hassan',
     title:
@@ -2075,7 +5430,7 @@ Después, viaje a Estados Unidos el 12 de junio. Portugal **debuta el 17 de juni
       credit: 'YantsImages · Asatur Yesayants',
       license: 'CC BY-SA 4.0 · Wikimedia Commons',
     },
-  },
+},
   {
     slug: 'convocatoria-brasil-mundial-2026-ancelotti-26-neymar-cuarto-mundial-rodrygo-fuera',
     title:
@@ -2134,7 +5489,13 @@ El reto de Ancelotti. Carlo Ancelotti llega al Mundial con un objetivo declarado
         url: 'https://diario.elmundo.sv/deportes/ancelotti-anunciara-convocatoria-de-brasil-para-mundial-el-18-mayo',
       },
     ],
+    image: {
+    url: 'https://upload.wikimedia.org/wikipedia/commons/2/28/Carlo_Ancelotti_PSG.jpg',
+    alt: 'Carlo Ancelotti, seleccionador de Brasil',
+    credit: 'Ilya Khokhlakov / football.ua',
+    license: 'CC BY-SA 3.0',
   },
+},
   {
     slug: 'convocatorias-mundial-2026-bosnia-nueva-zelanda-tunez-croacia-18-mayo-actualizacion-listas-definitivas',
     title:
@@ -2196,7 +5557,13 @@ Estado a 18 de mayo:
         url: 'https://www.mediotiempo.com/futbol/copa-mundial/croacia-ultimo-baile-de-modric-y-una-generacion-de-oro',
       },
     ],
+    image: {
+    url: 'https://upload.wikimedia.org/wikipedia/commons/9/90/Sanae_Takaichi_FIFA_World_Cup_2026_trophy_tour_05.jpg',
+    alt: 'Trofeo de la Copa del Mundo FIFA 2026',
+    credit: 'Cabinet Public Affairs Office, Japón',
+    license: 'CC BY 4.0',
   },
+},
   {
     slug: 'previa-convocatorias-mundial-2026-croacia-18-mayo-alemania-holanda-inglaterra-pendientes-17-mayo',
     title:
@@ -2264,7 +5631,13 @@ Lo que se sabrá esta semana. Croacia (18 may) abre la rueda final. Le seguirán
         url: 'https://www.clarosports.com/futbol/mundial-2026/a-un-mes-del-mundial-2026-asi-avanzan-las-listas-oficiales-sedes-y-fechas-clave-rumbo-a-la-copa-del-mundo/',
       },
     ],
+    image: {
+    url: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Luka_Modri%C4%87_meets_Kolinda_Grabar-Kitarovi%C4%87_after_the_2018_FIFA_World_Cup_Final_%282%29.jpg',
+    alt: 'Luka Modrić celebrando con Croacia tras la final del Mundial 2018',
+    credit: 'kremlin.ru',
+    license: 'CC BY 4.0',
   },
+},
   {
     slug: 'fifa-triplica-precios-entradas-mundial-2026-categoria-1-final-32000-dolares-500-millones-solicitudes-amnistia',
     title:
@@ -2336,7 +5709,13 @@ Lo que viene. El **calendario de venta oficial** publicado por FIFA marca **abri
         url: 'https://www.goal.com/en-us/news/how-to-buy-world-cup-tickets/blt13fd3078b4ca56ce',
       },
     ],
+    image: {
+    url: 'https://upload.wikimedia.org/wikipedia/commons/0/04/Metlife_stadium_%28Aerial_view%29.jpg',
+    alt: 'Vista aérea del MetLife Stadium en East Rutherford, Nueva Jersey',
+    credit: 'Anthony Quintano / Wikimedia Commons',
+    license: 'CC BY 2.0',
   },
+},
   {
     slug: 'banxico-12-monedas-conmemorativas-mundial-2026-mexico-bimetalicas-plata-oro-cdmx-guadalajara-monterrey',
     title:
@@ -2390,7 +5769,13 @@ El precedente histórico. Banxico ya emitió en 1985-1986 una serie similar para
         url: 'https://www.milenio.com/negocios/donde-comprar-monedas-conmemorativas-copa-mundial-fifa-2026-mexico',
       },
     ],
+    image: {
+    url: 'https://upload.wikimedia.org/wikipedia/commons/6/6e/Fachada_del_Banco_de_M%C3%A9xico.jpg',
+    alt: 'Fachada del Banco de México en el centro histórico de Ciudad de México',
+    credit: 'Wikimedia Commons',
+    license: 'CC BY 4.0',
   },
+},
   {
     slug: 'convocatoria-belgica-mundial-2026-rudi-garcia-courtois-de-bruyne-lukaku-matias-fernandez-pardo',
     title:
@@ -2415,7 +5800,13 @@ Camino al Mundial. La selección se concentra el **22 de mayo** en Tubize y disp
     sourceLang: 'es',
     publishedAt: '2026-05-15T11:00:00Z',
     sourcesSecondary: [],
+    image: {
+    url: 'https://upload.wikimedia.org/wikipedia/commons/4/40/Kevin_De_Bruyne_201807091.jpg',
+    alt: 'Kevin De Bruyne con la selección de Bélgica en el Mundial 2018',
+    credit: 'Kirill Venediktov / Wikimedia Commons',
+    license: 'CC BY-SA 3.0',
   },
+},
   {
     slug: 'prelista-colombia-mundial-2026-nestor-lorenzo-james-luis-diaz-ospina-falcao-fuera',
     title:
@@ -2456,7 +5847,13 @@ Camino al Mundial. Colombia, tercera en la Copa América 2024, llega al torneo c
         url: 'https://cnnespanol.cnn.com/2026/05/14/deportes/prelista-colombia-mundial-sorpresas-polemica-villa-orix',
       },
     ],
+    image: {
+    url: 'https://upload.wikimedia.org/wikipedia/commons/8/80/Luis_D%C3%ADaz%2C_LFC%3B_May_2022.jpg',
+    alt: 'Luis Díaz, delantero de la selección colombiana',
+    credit: 'Wikimedia Commons',
+    license: 'CC0 1.0',
   },
+},
   {
     slug: 'haiti-lista-mundial-2026-sebastien-migne-bellegarde-isidor-nazon-grupo-c-brasil-escocia-marruecos',
     title:
@@ -2499,7 +5896,13 @@ Calendario. La lista de Migné es definitiva, el plazo del 1 de junio solo aplic
         url: 'https://www.ntn24.com/noticias-deportes/haiti-presenta-la-lista-de-convocados-para-el-mundial-y-tiene-como-objetivo-hacer-historia-en-el-grupo-de-la-muerte-622282',
       },
     ],
+    image: {
+    url: 'https://upload.wikimedia.org/wikipedia/commons/4/41/Haiti_national_football_team_training_in_Port-au-Prince_2004-08-16_3.jpg',
+    alt: 'Selección nacional de fútbol de Haití entrenando',
+    credit: 'Ana Nascimento / Agência Brasil',
+    license: 'CC BY 3.0 BR',
   },
+},
   {
     slug: 'convocatoria-costa-de-marfil-mundial-2026-emerse-fae-kessie-pepe-haller-fuera-grupo-e-alemania-ecuador-curazao',
     title:
@@ -2545,7 +5948,13 @@ Camino al Mundial. La selección se concentra el **20 de mayo en Abidjan** y dis
         url: 'https://www.sportingnews.com/es/futbol/news/lista-convocados-marruecos-mundial-2026-plantilla-jugadores/bacb10d9761fa733469e58f1',
       },
     ],
+    image: {
+    url: 'https://upload.wikimedia.org/wikipedia/commons/4/43/Franck_Yannick_Kessié.jpg',
+    alt: 'Franck Kessié, centrocampista de la selección de Costa de Marfil',
+    credit: 'Wikimedia Commons',
+    license: 'CC0 1.0',
   },
+},
   {
     slug: 'convocatoria-francia-mundial-2026-deschamps-26-mbappe-dembele-camavinga-fuera-sorpresa',
     title:
@@ -2595,7 +6004,13 @@ Calendario. La lista definitiva debe entregarse a FIFA el 1 de junio. Hasta ento
         url: 'https://news.bet365.es/es-es/article/copa-mundial-2026-lista-convocados-francia/2026051513434884843',
       },
     ],
+    image: {
+    url: 'https://upload.wikimedia.org/wikipedia/commons/7/72/Kylian_Mbappe_2017.jpg',
+    alt: 'Kylian Mbappé con la selección de Francia',
+    credit: 'Biser Todorov / Wikimedia Commons',
+    license: 'CC BY 4.0',
   },
+},
   {
     slug: 'convocatoria-japon-mundial-2026-moriyasu-26-endo-kubo-mitoma-grupo-f-paises-bajos-tunez-suecia',
     title:
@@ -2626,7 +6041,13 @@ Lista definitiva. La convocatoria que Moriyasu entregó a FIFA es la definitiva:
     sourceLang: 'es',
     publishedAt: '2026-05-14T10:00:00Z',
     sourcesSecondary: [],
+    image: {
+    url: 'https://upload.wikimedia.org/wikipedia/commons/b/be/Takefusa_Kubo_2019.png',
+    alt: 'Takefusa Kubo en su presentación en el Real Madrid, 2019',
+    credit: 'Real Madrid / YouTube',
+    license: 'CC BY 3.0',
   },
+},
   {
     slug: 'carvajal-fuera-prelista-espana-mundial-2026-morata-fabian-ruiz-real-madrid-3-jugadores',
     title:
@@ -2675,7 +6096,13 @@ Debut de España en el Mundial. España debuta el **lunes 15 de junio de 2026 a 
         url: 'https://www.beinsports.com/es-us/football/copa-mundial-de-la-fifa-2026/articles/luis-de-la-fuente-define-su-prelista-con-espa%C3%B1a-para-la-copa-del-mundo-lesiones-dudas-y-una-base-casi-intocable-2026-05-12',
       },
     ],
+    image: {
+    url: 'https://upload.wikimedia.org/wikipedia/commons/b/b6/UEFA_EURO_qualifiers_Sweden_vs_Spain_20191015_Dani_Carvajal_10_%28cropped%29.jpg',
+    alt: 'Dani Carvajal en un partido de clasificación para la Eurocopa con España',
+    credit: 'Wikimedia Commons',
+    license: 'CC BY-SA 4.0',
   },
+},
   {
     slug: 'caminar-metlife-final-mundial-2026-nueva-york-guardian-george-washington-bridge-11-millas',
     title:
@@ -2724,7 +6151,13 @@ Conclusión práctica para el aficionado. Si vas a un partido en NY/NJ, planific
         url: 'https://www.timeout.com/newyork/things-to-do/fifa-world-cup-2026-new-york-new-jersey-guide',
       },
     ],
+    image: {
+    url: 'https://upload.wikimedia.org/wikipedia/commons/3/39/MetLife_Stadium_-_New_Meadowlands_Stadium.jpg',
+    alt: 'MetLife Stadium en East Rutherford, Nueva Jersey, sede de la final del Mundial 2026',
+    credit: 'Wikimedia Commons',
+    license: 'CC BY-SA 3.0',
   },
+},
   {
     slug: 'halftime-show-final-mundial-2026-shakira-bts-madonna-chris-martin-metlife-19-julio',
     title:
@@ -2780,7 +6213,13 @@ Cómo verlo en directo. La final del Mundial 2026 se juega el **19 de julio a la
         url: 'https://awfulannouncing.com/soccer/fifa-world-cup-final-halftime-show-coldplay-chris-martin-2026.html',
       },
     ],
+    image: {
+    url: 'https://upload.wikimedia.org/wikipedia/commons/3/32/Shakira_durning_her_performance_at_El_Show_de_Jimmy.jpg',
+    alt: 'Shakira actuando en directo, artista del espectáculo del Mundial 2026',
+    credit: 'Tvcolombia / Wikimedia Commons',
+    license: 'CC BY-SA 4.0',
   },
+},
   {
     slug: 'hospitality-mundial-2026-on-location-precios-single-match-2500-venue-series-private-suites',
     title:
@@ -2831,7 +6270,13 @@ Lo que NO incluye. Vuelo y hotel se gestionan aparte. Para esa parte del viaje h
         url: 'https://bostonfwc26.com/hospitality-and-ticketing/',
       },
     ],
+    image: {
+    url: 'https://upload.wikimedia.org/wikipedia/commons/0/0a/Interior_view_of_the_MetLife_Stadium_-_ARG_v_CAN_-_2024-07-09.jpg',
+    alt: 'Vista interior del MetLife Stadium durante la Copa América 2024',
+    credit: 'Sebas / Wikimedia Commons',
+    license: 'CC BY 3.0',
   },
+},
   {
     slug: 'mundial-2026-estadios-codigo-conducta-items-prohibidos-clear-bag-policy',
     title:
@@ -2905,7 +6350,13 @@ Lo que se sabrá más cerca del torneo. FIFA ha anunciado que el documento del S
         url: 'https://worldcuptrackers.com/what-bags-allowed-fifa-world-cup-2026-clear-bag-policy/',
       },
     ],
+    image: {
+    url: 'https://upload.wikimedia.org/wikipedia/commons/0/04/Metlife_stadium_%28Aerial_view%29.jpg',
+    alt: 'Vista aérea del MetLife Stadium, sede principal del Mundial 2026',
+    credit: 'Anthony Quintano / Wikimedia Commons',
+    license: 'CC BY 2.0',
   },
+},
   {
     slug: 'suecia-lista-definitiva-26-mundial-2026-potter-isak-gyokeres-kulusevski-fuera',
     title:
@@ -2931,7 +6382,13 @@ Lo que viene. Suecia disputará la 13ª participación mundialista de su histori
       { name: 'Sweden Herald · Squad selected by Potter', url: 'https://swedenherald.com/article/swedens-world-cup-squad-26-players-selected-by-graham-potter' },
       { name: 'Goal · Kulusevski misses out', url: 'https://www.goal.com/en-ca/lists/world-cup-dejan-kulusevski-injury-tottenham-sweden-viktor-gyokeres-alexander-isak/bltd56651aa57664624' },
     ],
+    image: {
+    url: 'https://upload.wikimedia.org/wikipedia/commons/c/ce/Viktor_Gy%C3%B6keres_2018.jpg',
+    alt: 'Viktor Gyökeres, delantero de Suecia',
+    credit: 'James Boyes / Flickr',
+    license: 'CC BY 2.0',
   },
+},
   {
     slug: 'prelista-espana-mundial-2026-de-la-fuente-55-yamal-pedri-rodri',
     title:
@@ -2958,7 +6415,13 @@ Las dudas reales. La enorme presencia del Barça (9 jugadores) y la escasez del 
       { name: 'ElDesmarque · Fijos, dudas y posibles sorpresas', url: 'https://www.eldesmarque.com/futbol/mundial/20260511/prelista-espana-mundial-2026-dudas-fijos-posibles-sorpresas_18_019131728.html' },
       { name: 'El Nacional · Catalanes y Barça', url: 'https://www.elnacional.cat/es/deportes/luis-fuente-manda-prelista-espana-mundial-2026-barca-catalanes_1638400_102.html' },
     ],
+    image: {
+    url: 'https://upload.wikimedia.org/wikipedia/commons/8/89/UEFA_EURO_qualifiers_Sweden_vs_Spain_20191015_Rodri.jpg',
+    alt: 'Rodri con la selección española en clasificatorio para la Eurocopa',
+    credit: 'La Moncloa / Gobierno de España',
+    license: 'CC BY 4.0',
   },
+},
   {
     slug: 'prelista-brasil-mundial-2026-ancelotti-55-neymar-vinicius-rodrygo-fuera',
     title:
@@ -2982,7 +6445,13 @@ Lo que sí está. Vinicius Jr. encabeza la delantera. Le acompañan Raphinha (Ba
       { name: 'El Gráfico · Carlo Ancelotti define el camino', url: 'https://www.elgrafico.com.ar/articulo/mundial-2026/99856/carlo-ancelotti-define-el-camino-de-brasil-sorpresas-regresos-y-bajas-de-peso-en-la-prelista-para-el-mundial-2026' },
       { name: '365Scores · Lista de 55 jugadores Brasil 2026', url: 'https://www.365scores.com/es/news/brasil-pre-lista-convocados-mundial/' },
     ],
+    image: {
+    url: 'https://upload.wikimedia.org/wikipedia/commons/8/83/Vinicius_Jr._%28cropped%29.jpg',
+    alt: 'Vinicius Jr., delantero de la selección brasileña',
+    credit: 'Wikimedia Commons',
+    license: 'CC BY-SA 4.0',
   },
+},
   {
     slug: 'prelista-argentina-mundial-2026-scaloni-55-messi-dybala-fuera-mastantuono-echeverri',
     title:
@@ -3010,7 +6479,13 @@ Las sorpresas generacionales. Franco Mastantuono (Real Madrid, 18 años, fichaje
       { name: 'La Nación · Los nombres de la prelista', url: 'https://www.lanacion.com.ar/deportes/futbol/la-prelista-de-55-jugadores-para-el-mundial-2026-estos-son-los-nombres-nid11052026/' },
       { name: 'CNN Español · Seis campeones ausentes', url: 'https://cnnespanol.cnn.com/2026/05/11/deportes/prelista-seleccion-argentina-scaloni-mundial-orix' },
     ],
+    image: {
+    url: 'https://upload.wikimedia.org/wikipedia/commons/c/c4/Scaloni_-_ARG_v_CAN_-_2024-07-09.jpg',
+    alt: 'Lionel Messi con Argentina en el Mundial 2018',
+    credit: 'Oleg Bkhambri / Wikimedia Commons',
+    license: 'CC BY-SA 4.0',
   },
+},
   {
     slug: 'fifa-panini-collection-app-mundial-2026-coca-cola-album-digital',
     title:
@@ -3044,7 +6519,13 @@ Por qué importa. La conversión generacional del álbum Panini al móvil llevab
       { name: 'FIFA Collect · Panini hub', url: 'https://collect.fifa.com/pages/panini' },
       { name: 'Panini America · World Cup 2026 sticker collection', url: 'https://www.paniniamerica.net/sticker-collections/sticker-collection/fifa-world-cup-2026tm.html' },
     ],
+    image: {
+    url: 'https://upload.wikimedia.org/wikipedia/commons/8/82/Troca_de_cromos_da_panini_-_1.jpg',
+    alt: 'Colección de cromos Panini de fútbol',
+    credit: 'Joalpe / Wikimedia Commons',
+    license: 'CC BY-SA 4.0',
   },
+},
   {
     slug: 'shakira-dai-dai-cancion-oficial-mundial-2026-burna-boy',
     title:
@@ -3088,7 +6569,7 @@ Por qué importa. La conversión generacional del álbum Panini al móvil llevab
       credit: 'Foto: Wikimedia Commons',
       license: 'CC BY-SA 4.0',
     },
-  },
+},
   {
     slug: 'mundial-2026-entradas-disponibilidad-17-partidos-agotados-mayo',
     title:
@@ -3398,7 +6879,7 @@ La fecha de salida (30 de abril en España y USA, 2 de mayo en LATAM) cumple el 
       credit: 'Foto: Wikimedia Commons',
       license: 'CC BY-SA 4.0',
     },
-  },
+},
   {
     slug: 'neymar-omitido-album-panini-mundial-2026',
     title: 'Neymar, fuera del álbum Panini global del Mundial 2026',
@@ -3661,25 +7142,3868 @@ La señal estará disponible en La 1 en formato lineal y en RTVE Play como strea
       license: 'Public Domain',
  },
  },
+
+  {
+    slug: 'ver-qatar-suiza-tv-mundial-2026-grupo-a',
+    title: 'Qatar vs Suiza: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'Qatar y Suiza abren el Grupo A del Mundial 2026 el 13 de junio a las 14:00 CEST en el BC Place de Vancouver. El partido se emite exclusivamente por DAZN en España. Los suizos, en su tercer Mundial consecutivo con Xhaka al mando, parten como claros favoritos ante un Qatar que en 2022 fue eliminado sin ganar un solo partido.',
+    body: `## Cuándo y dónde se juega
+
+Qatar y Suiza se enfrentan el **13 de junio de 2026** a las **14:00 CEST** (12:00 UTC) en el **BC Place de Vancouver**, Canadá.
+
+## Dónde ver en España
+
+Exclusivo en **DAZN** (~19,99 €/mes). Sin emisión en abierto.
+
+## Horario por países
+
+| País | Hora |
+|---|---|
+| España (CEST) | 14:00 |
+| México (CDT) | 07:00 |
+| Argentina (ART) | 09:00 |
+| Colombia (COT) | 07:00 |
+| Reino Unido (BST) | 13:00 |
+
+## Historial H2H
+
+Qatar nunca ha ganado a Suiza. En Qatar 2022 fue la primera selección anfitriona eliminada sin sumar un solo punto.
+
+## Árbitro
+
+Por confirmar por FIFA.
+
+## Alineación probable Qatar
+
+Barsham; Pedro Miguel, Khoukhi, Sultan Albrake; Hatem, Boudiaf, Assim Madibo; Akram Afif, Almoez Ali, Edmilson.
+
+## Alineación probable Suiza
+
+Kobel; Widmer, Schär, Akanji, Elvedi; Freuler, **Xhaka** (cap.); Ndoye, Zakaria, Okafor; Embolo.
+
+## Curiosidades
+
+- Qatar fue el primer anfitrión en quedar eliminado en primera ronda en Qatar 2022.
+- Suiza lleva 11 de los últimos 12 Mundiales sin fallar.
+- BC Place ya acogió la final del Mundial Femenino en 2015.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-12T08:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/9/90/Sanae_Takaichi_FIFA_World_Cup_2026_trophy_tour_05.jpg',
+      alt: 'Trofeo FIFA Copa del Mundo 2026',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-brasil-marruecos-tv-mundial-2026-grupo-b',
+    title: 'Brasil vs Marruecos: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'Brasil y Marruecos chocan el 13 de junio a las 20:00 CEST en el Mercedes-Benz Stadium de Atlanta. Solo en DAZN en España. Marruecos llega con su victoria ante Brasil en 2023 como argumento. El duelo Marquinhos-Hakimi, compañeros en el PSG, es el plato fuerte del partido.',
+    body: `## Cuándo y dónde se juega
+
+Brasil y Marruecos el **13 de junio de 2026** a las **20:00 CEST** (18:00 UTC) en el **Mercedes-Benz Stadium de Atlanta**.
+
+## Dónde ver en España
+
+Exclusivo en **DAZN**.
+
+## Horario por países
+
+| País | Hora |
+|---|---|
+| España (CEST) | 20:00 |
+| México (CDT) | 13:00 |
+| Argentina (ART) | 15:00 |
+| Colombia (COT) | 13:00 |
+| Reino Unido (BST) | 19:00 |
+
+## Historial H2H
+
+Brasil 2W-0D-1L. Marruecos ganó 2-1 en marzo 2023 — su primera victoria histórica ante la Canarinha. Hakimi y Marquinhos, compañeros en el PSG.
+
+## Árbitro
+
+Por confirmar por FIFA.
+
+## Alineación probable Brasil
+
+Alisson; Danilo, Marquinhos, Gabriel Magalhães, Alex Sandro; Casemiro, Bruno Guimarães, Paquetá; Raphinha, Neymar, Vinicius Jr.
+
+## Alineación probable Marruecos
+
+Bono; Hakimi (cap.), Mazraoui, Aguerd, Attiat-Allah; Amrabat, Ounahi, El Khannouss; Brahim Díaz, En-Nesyri, El Kaabi.
+
+## Curiosidades
+
+- Marruecos fue el primer equipo africano en semifinales mundiales (Qatar 2022).
+- Brasil no gana un Mundial desde 2002.
+- Hakimi y Marquinhos se encontrarán como rivales directos.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-12T10:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/5/52/HakimiAchraf.jpg',
+      alt: 'Achraf Hakimi con Marruecos',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-haiti-escocia-tv-mundial-2026-grupo-b',
+    title: 'Haití vs Escocia: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'Haití y Escocia estrenan el Grupo B en el BC Place de Vancouver el 13 de junio a las 23:00 CEST. Solo en DAZN. Haití regresa tras 52 años. Escocia tras 24. Jamás se han enfrentado antes.',
+    body: `## Cuándo y dónde se juega
+
+**13 de junio de 2026** · **23:00 CEST** (21:00 UTC) · BC Place, Vancouver.
+
+## Dónde ver en España
+
+Exclusivo en **DAZN**.
+
+## Horario por países
+
+| País | Hora |
+|---|---|
+| España (CEST) | 23:00 |
+| México (CDT) | 16:00 |
+| Argentina (ART) | 18:00 |
+| Colombia (COT) | 16:00 |
+| Reino Unido (BST) | 22:00 |
+
+## Historial H2H
+
+Ningún precedente. Primera vez en la historia que se enfrentan. Haití no jugaba un Mundial desde 1974 (52 años). Escocia desde Francia 1998 (24 años).
+
+## Árbitro
+
+Por confirmar por FIFA.
+
+## Alineación probable Haití
+
+Placide; Arcus, Delcroix, Duverne; Bellegarde, Jean Jacques, Pierre; Nazon, Pierrot, Isidor.
+
+## Alineación probable Escocia
+
+Gunn; Tierney, Hanley, Hendry, Robertson (cap.); McTominay, McGinn, Christie; Doak, Shankland, Adams.
+
+## Curiosidades
+
+- Haití marcó el primer gol caribeño en un Mundial en 1974 (1-0 a Italia).
+- Escocia tiene el récord de más Mundiales sin pasar de primera ronda: 8 participaciones.
+- Primera vez en la historia que ambas selecciones se cruzan.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-12T12:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/3/31/Haiti_national_football_team_after_training_in_Port-au-Prince_2004-08-16.jpg',
+      alt: 'Selección de Haití',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-australia-turquia-tv-mundial-2026-grupo-c',
+    title: 'Australia vs Turquía: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'Australia y Turquía arrancan el Grupo C en el SoFi Stadium de Los Ángeles el 13 de junio a las 23:00 CEST. Solo en DAZN. Turquía regresa al Mundial tras 24 años. Arda Güler, el joven del Real Madrid con 20 años, es la gran estrella turca.',
+    body: `## Cuándo y dónde se juega
+
+**13 de junio de 2026** · **23:00 CEST** (21:00 UTC) · SoFi Stadium, Los Ángeles.
+
+## Dónde ver en España
+
+Exclusivo en **DAZN**.
+
+## Horario por países
+
+| País | Hora |
+|---|---|
+| España (CEST) | 23:00 |
+| México (CDT) | 16:00 |
+| Argentina (ART) | 18:00 |
+| Colombia (COT) | 16:00 |
+| Reino Unido (BST) | 22:00 |
+
+## Historial H2H
+
+Pocas citas directas. Turquía no jugaba un Mundial desde Corea/Japón 2002, donde terminó tercera. Australia llegó a cuartos en Qatar 2022.
+
+## Árbitro
+
+Por confirmar por FIFA.
+
+## Alineación probable Australia
+
+Ryan (cap.); Bos, Souttar, Burgess, Behich; Irvine, Hrustic, Devlin; Irankunda, Leckie, Mabil.
+
+## Alineación probable Turquía
+
+Bayındır; Celik, Demiral, Soyuncu, Kadioglu; Calhanoglu (cap.), Ayhan; Güler, Kokcu, Yildiz; Yilmaz.
+
+## Curiosidades
+
+- Arda Güler marcó el gol más joven en una Eurocopa (16 años, 2024).
+- Turquía llegó tercera en 2002: el tercer puesto más memorable de su historia.
+- Australia eliminó a Dinamarca en Qatar 2022 antes de caer en cuartos.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-12T14:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/7/79/Kenan_Yildiz_Juventus_%28cropped%29.jpg',
+      alt: 'Kenan Yildiz con la Juventus',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-alemania-curacao-tv-mundial-2026-grupo-d',
+    title: 'Alemania vs Curazao: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'Alemania debuta en el Mundial 2026 el 14 de junio a las 14:00 CEST ante Curazao en el NRG Stadium de Houston. Solo en DAZN. Los tetracampeones reciben al debutante absoluto: Curazao, 158.000 habitantes, su primer Mundial, con Dick Advocaat de 79 años en el banquillo.',
+    body: `## Cuándo y dónde se juega
+
+**14 de junio de 2026** · **14:00 CEST** (12:00 UTC) · NRG Stadium, Houston.
+
+## Dónde ver en España
+
+Exclusivo en **DAZN**.
+
+## Horario por países
+
+| País | Hora |
+|---|---|
+| España (CEST) | 14:00 |
+| México (CDT) | 07:00 |
+| Argentina (ART) | 09:00 |
+| Colombia (COT) | 07:00 |
+| Reino Unido (BST) | 13:00 |
+
+## Historial H2H
+
+Ningún precedente. Debut absoluto de Curazao en un Mundial. Alemania, cuatro veces campeona del mundo.
+
+## Árbitro
+
+Por confirmar por FIFA.
+
+## Alineación probable Alemania
+
+Nübel; Raum, Schlotterbeck, Tah, Rüdiger; Kimmich (cap.), Goretzka; Wirtz, Stiller, Musiala; Havertz.
+
+## Alineación probable Curazao
+
+Room; Brenet, Obispo, Bazoer, Sambo; Bacuna J., Comenencia, Bacuna L.; Chong, Locadia, Hansen.
+
+## Curiosidades
+
+- Dick Advocaat, 79 años, es el técnico más veterano de la historia en un Mundial.
+- Curazao tiene 158.000 habitantes: la selección más pequeña por población.
+- Alemania busca su quinto título, el último fue Brasil 2014.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-13T08:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/5/58/Florian_Wirtz%2C_2022-07-31%2C_Saisoner%C3%B6ffnung_Bayer_04%2C_Leverkusen_%281%29.jpg',
+      alt: 'Florian Wirtz con el Bayer Leverkusen',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-paises-bajos-japon-tv-mundial-2026-grupo-e',
+    title: 'Países Bajos vs Japón: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'Países Bajos y Japón se miden el 14 de junio a las 17:00 CEST en el Arrowhead Stadium de Kansas City. Solo en DAZN. Los neerlandeses dominan el historial con victoria en el Mundial 2010. La conexión Liverpool entre Gravenberch y Endo añade morbo.',
+    body: `## Cuándo y dónde se juega
+
+**14 de junio de 2026** · **17:00 CEST** (15:00 UTC) · Arrowhead Stadium, Kansas City.
+
+## Dónde ver en España
+
+Exclusivo en **DAZN**.
+
+## Horario por países
+
+| País | Hora |
+|---|---|
+| España (CEST) | 17:00 |
+| México (CDT) | 10:00 |
+| Argentina (ART) | 12:00 |
+| Colombia (COT) | 10:00 |
+| Reino Unido (BST) | 16:00 |
+
+## Historial H2H
+
+Países Bajos 2W-1D-0L. En el Mundial 2010: NED 1-0 JPN (Sneijder 53'). Wataru Endo (Liverpool) y Ryan Gravenberch (Liverpool) se cruzan en el Arrowhead.
+
+## Árbitro
+
+Por confirmar por FIFA.
+
+## Alineación probable Países Bajos
+
+Verbruggen; Dumfries, Timber J., Aké, Van Dijk (cap.); De Jong, Gravenberch, Reijnders; Malen, Depay, Gakpo.
+
+## Alineación probable Japón
+
+Suzuki; Sugawara, Itakura, Watanabe, Tomiyasu; Endo, Kamada; Doan, Kubo, Maeda; Ueda.
+
+## Curiosidades
+
+- Endo y Gravenberch son compañeros en el Liverpool — rivales en Kansas City.
+- Japón eliminó a Alemania y España en Qatar 2022.
+- Países Bajos es el único equipo con 3 finales mundiales sin ganar ninguna.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-13T10:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/5/5d/20160604_AUT_NED_8876_%28cropped%29.jpg',
+      alt: 'Selección de Países Bajos',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-costa-marfil-ecuador-tv-mundial-2026-grupo-f',
+    title: 'Costa de Marfil vs Ecuador: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'Costa de Marfil y Ecuador abren el Grupo F el 14 de junio a las 21:00 CEST en el AT&T Stadium de Dallas. Solo en DAZN. Caicedo (115 M€) choca con Kessié. Enner Valencia, 36 años, en su tercer Mundial.',
+    body: `## Cuándo y dónde se juega
+
+**14 de junio de 2026** · **21:00 CEST** (19:00 UTC) · AT&T Stadium, Dallas.
+
+## Dónde ver en España
+
+Exclusivo en **DAZN**.
+
+## Horario por países
+
+| País | Hora |
+|---|---|
+| España (CEST) | 21:00 |
+| México (CDT) | 14:00 |
+| Argentina (ART) | 16:00 |
+| Colombia (COT) | 14:00 |
+| Reino Unido (BST) | 20:00 |
+
+## Historial H2H
+
+Escasos precedentes. Costa de Marfil ganó la AFCON 2024 en casa. Ecuador lleva tres Mundiales desde 2002.
+
+## Árbitro
+
+Por confirmar por FIFA.
+
+## Alineación probable Costa de Marfil
+
+Fofana; Singo, Diomandé, Kossounou, Ndicka; Kessié, Sangaré, Fofana S.; Adingra, Wahi, Diallo A.
+
+## Alineación probable Ecuador
+
+Galíndez; Preciado, Pacho, Hincapié, Torres; Caicedo, Franco, Plata; Angulo, Valencia E., Páez.
+
+## Curiosidades
+
+- Moisés Caicedo es el fichaje más caro de la historia del Chelsea (115 M€).
+- Enner Valencia marcó los 3 goles de Ecuador en Brasil 2014.
+- Costa de Marfil ganó la AFCON 2024 como anfitriona.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-13T12:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/4/43/Franck_Yannick_Kessié.jpg',
+      alt: 'Franck Kessié con Costa de Marfil',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-suecia-tunez-tv-mundial-2026-grupo-f',
+    title: 'Suecia vs Túnez: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'Suecia y Túnez cierran la primera jornada del Grupo F el 14 de junio a las 22:00 CEST en el Levi\'s Stadium. Solo en DAZN. Gyökeres, con más de 50 goles en la 24/25, es el mayor peligro para Túnez. Solo se han visto una vez en un Mundial: en 1978, ganó Suecia 1-0.',
+    body: `## Cuándo y dónde se juega
+
+**14 de junio de 2026** · **22:00 CEST** (20:00 UTC) · Levi's Stadium, San Francisco.
+
+## Dónde ver en España
+
+Exclusivo en **DAZN**.
+
+## Horario por países
+
+| País | Hora |
+|---|---|
+| España (CEST) | 22:00 |
+| México (CDT) | 15:00 |
+| Argentina (ART) | 17:00 |
+| Colombia (COT) | 15:00 |
+| Reino Unido (BST) | 21:00 |
+
+## Historial H2H
+
+Única cita mundialista: Argentina 1978, Suecia 1-0 Túnez. Túnez fue el primer equipo africano en ganar un partido de Mundial (3-1 a México, también en 1978).
+
+## Árbitro
+
+Por confirmar por FIFA.
+
+## Alineación probable Suecia
+
+Johansson; Gudmundsson, Hien, Lindelöf, Holm; Bergvall, Svanberg, Ayari; Elanga, Gyökeres (cap.), Isak.
+
+## Alineación probable Túnez
+
+Dahmen; Valery, Rekik, Bronn, Talbi; Skhiri, Khedira, Mejbri; Ghazouani, Saad, Tounekti.
+
+## Curiosidades
+
+- Viktor Gyökeres llegó al Arsenal por ~60 M€ desde el Sporting de Portugal.
+- Suecia no estaba en un Mundial desde Rusia 2018 (cuartos).
+- Túnez nunca ha superado la fase de grupos en ningún Mundial.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-13T14:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/2/22/1_Viktor_Gy%C3%B6keres_2026.jpg',
+      alt: 'Viktor Gyökeres con Suecia 2026',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-espana-cabo-verde-tv-mundial-2026-grupo-g',
+    title: 'España vs Cabo Verde: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'España debuta en el Mundial 2026 el 15 de junio a las 14:00 CEST ante Cabo Verde en Atlanta. RTVE (La 1/Teledeporte) en abierto y también DAZN. Lamine Yamal, 17 años, lidera a la campeona de Europa frente al primer Mundial en la historia de Cabo Verde.',
+    body: `## Cuándo y dónde se juega
+
+**15 de junio de 2026** · **14:00 CEST** (12:00 UTC) · Mercedes-Benz Stadium, Atlanta.
+
+## Dónde ver en España
+
+**RTVE (La 1 y Teledeporte) EN ABIERTO** + **DAZN**. Partido de la selección española.
+
+## Horario por países
+
+| País | Hora |
+|---|---|
+| España (CEST) | 14:00 |
+| México (CDT) | 07:00 |
+| Argentina (ART) | 09:00 |
+| Colombia (COT) | 07:00 |
+| Reino Unido (BST) | 13:00 |
+
+## Historial H2H
+
+Ningún precedente mundialista. Cabo Verde debuta en su primera Copa del Mundo. España llega como campeona de Europa 2024.
+
+## Árbitro
+
+Por confirmar por FIFA.
+
+## Alineación probable España
+
+Raya; Carvajal, Le Normand, Laporte, Grimaldo; Rodri, Pedri, Fabián Ruiz; Lamine Yamal, Morata, Williams N.
+
+## Alineación probable Cabo Verde
+
+Por confirmar según convocatoria FIFA. Ryan Mendes y Garry Rodrigues como referencias ofensivas.
+
+## Curiosidades
+
+- Lamine Yamal, 17 años, es el jugador más joven en marcar en una Eurocopa (semifinal vs Francia 2024).
+- Cabo Verde clasificó por primera vez en su historia con una campaña extraordinaria en la CAF.
+- España ganó la Euro 2024 en Berlín con gol de Oyarzabal en el 86'.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-14T08:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/8/8d/Lamine_Yamal%2C_S%C3%A1nchez_se_reuni%C3%B3_con_los_futbolistas_de_la_selecci%C3%B3n_espa%C3%B1ola_tras_ganar_la_Eurocopa_2024_%283%29_%28cropped%29.jpg',
+      alt: 'Lamine Yamal tras ganar la Eurocopa 2024',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-belgica-egipto-tv-mundial-2026-grupo-g',
+    title: 'Bélgica vs Egipto: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'Bélgica y Egipto se enfrentan el 15 de junio a las 14:00 CEST en Miami. Solo en DAZN. El historial favorece a los Faraones: dos victorias de tres. La última fue en noviembre de 2022, 2-1 para Egipto. El duelo De Bruyne contra Salah es el centro de todas las miradas.',
+    body: `## Cuándo y dónde se juega
+
+**15 de junio de 2026** · **14:00 CEST** (12:00 UTC) · Hard Rock Stadium, Miami.
+
+## Dónde ver en España
+
+Exclusivo en **DAZN**.
+
+## Horario por países
+
+| País | Hora |
+|---|---|
+| España (CEST) | 14:00 |
+| México (CDT) | 07:00 |
+| Argentina (ART) | 09:00 |
+| Colombia (COT) | 07:00 |
+| Reino Unido (BST) | 13:00 |
+
+## Historial H2H
+
+Egipto domina: 2W-0D-1L vs Bélgica. Noviembre 2022: EGY 2-1 BEL. Salah (Liverpool) vs De Bruyne (Man City): el duelo Premier League del partido.
+
+## Árbitro
+
+Por confirmar por FIFA.
+
+## Alineación probable Bélgica
+
+Casteels; Castagne, Faes, Vertonghen, Theate; De Bruyne (cap.), Tielemans, Onana; Doku, Lukaku, Carrasco.
+
+## Alineación probable Egipto
+
+El Shennawy; Abdelmonem, Hegazi, Mahmmoud; Elneny, Hamdi Fathi; Trezeguet, Salah (cap.), Mostafa Mohamed; Marmoush.
+
+## Curiosidades
+
+- Salah llegó al Mundial tras la mejor temporada asistidora de su carrera en la Premier League.
+- Bélgica nunca ha ganado un Mundial. Mejor resultado: 3.º puesto en México 1986.
+- Egipto no ganaba en primera ronda desde Italia 1990 (1-0 a EEUU).`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-14T10:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/e/ea/Mohamed_Salah_2021_CAN_Final.jpg',
+      alt: 'Mohamed Salah con Egipto',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-arabia-saudi-uruguay-tv-mundial-2026-grupo-h',
+    title: 'Arabia Saudí vs Uruguay: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'Arabia Saudí y Uruguay disputan el primer partido del Grupo H el 15 de junio a las 20:00 CEST en Kansas City. Solo en DAZN. Los saudíes llegan con la épica del 2-1 a Argentina en 2022. Uruguay tiene a Valverde del Real Madrid como capitán.',
+    body: `## Cuándo y dónde se juega
+
+**15 de junio de 2026** · **20:00 CEST** (18:00 UTC) · Arrowhead Stadium, Kansas City.
+
+## Dónde ver en España
+
+Exclusivo en **DAZN**.
+
+## Horario por países
+
+| País | Hora |
+|---|---|
+| España (CEST) | 20:00 |
+| México (CDT) | 13:00 |
+| Argentina (ART) | 15:00 |
+| Colombia (COT) | 13:00 |
+| Reino Unido (BST) | 19:00 |
+
+## Historial H2H
+
+Muy pocos precedentes. Arabia Saudí derrotó a Argentina 2-1 en Qatar 2022. Valverde (Real Madrid) capitanea Uruguay; Darwin Núñez lidera el ataque.
+
+## Árbitro
+
+Por confirmar por FIFA.
+
+## Alineación probable Arabia Saudí
+
+Al-Owais; Al-Ghannam, Al-Bulaihi, Tambakti, Al-Shahrani; Kanno, Al-Malki, Bahebri; Al-Dawsari, Al-Shehri, Nasser Al-Dawsari.
+
+## Alineación probable Uruguay
+
+Rochet; Nández, Giménez, Godín, Viña; Valverde, Ugarte, Bentancur; De Arrascaeta, Núñez, Suárez.
+
+## Curiosidades
+
+- Salem Al-Dawsari marcó el gol de la remontada ante Argentina en Qatar 2022.
+- Uruguay es bicampeona del mundo (1930 y 1950): dos títulos para 3,5 millones de habitantes.
+- Valverde fue uno de los mejores centrocampistas del mundo en la temporada 2024-25.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-14T12:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/d/d0/Salem_Al-Dawsari.jpg',
+      alt: 'Salem Al-Dawsari con Arabia Saudí',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-iran-nueva-zelanda-tv-mundial-2026-grupo-h',
+    title: 'Irán vs Nueva Zelanda: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'Irán y Nueva Zelanda se miden el 15 de junio a las 20:00 CEST en el Levi\'s Stadium. Solo en DAZN. Irán es favorito del Grupo H junto a Bélgica. Taremi del Inter liderará el ataque iraní ante los kiwis con Chris Wood como referencia.',
+    body: `## Cuándo y dónde se juega
+
+**15 de junio de 2026** · **20:00 CEST** (18:00 UTC) · Levi's Stadium, San Francisco.
+
+## Dónde ver en España
+
+Exclusivo en **DAZN**.
+
+## Horario por países
+
+| País | Hora |
+|---|---|
+| España (CEST) | 20:00 |
+| México (CDT) | 13:00 |
+| Argentina (ART) | 15:00 |
+| Colombia (COT) | 13:00 |
+| Reino Unido (BST) | 19:00 |
+
+## Historial H2H
+
+Muy limitado. Irán clasifica como favorito AFC junto a Bélgica. Nueva Zelanda en su tercer Mundial; su único punto histórico fue el 1-1 ante Italia en Sudáfrica 2010.
+
+## Árbitro
+
+Por confirmar por FIFA.
+
+## Alineación probable Irán
+
+Beiranvand; Moharrami, Hosseini, Pouraliganji, Mohammadi; Ezatolahi, Noorollahi; Jahanbakhsh, Taremi, Ghoddos; Azmoun.
+
+## Alineación probable Nueva Zelanda
+
+Sail; Osborne, Boxall, Souttar, Cacace; Gould, Thomas; Wood (cap.), Sarpreet Singh.
+
+## Curiosidades
+
+- Taremi marcó una chilena antológica a Inglaterra en Qatar 2022 (6-2), ya en el descuento.
+- Nueva Zelanda nunca ha ganado en 90 minutos en un Mundial.
+- Irán ostenta la mayor derrota en la historia de fútbol internacional: 17-0 ante Turquía en 1948.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-14T14:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/9/90/Sanae_Takaichi_FIFA_World_Cup_2026_trophy_tour_05.jpg',
+      alt: 'Trofeo Copa del Mundo FIFA 2026',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-francia-senegal-tv-mundial-2026-grupo-e',
+    title: 'Francia vs Senegal: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'Francia y Senegal se ven las caras en el Grupo E con un duelo cargado de historia: en 2002, Senegal eliminó al campeón vigente. Mbappé lidera a los Bleus, Mané a los africanos. El Gillette Stadium de Boston acoge un clásico de la Copa del Mundo el 16 de junio a las 17:00 CEST.',
+    body: `## Cuándo y dónde se juega
+
+**16 de junio de 2026** · **17:00 CEST** (15:00 UTC) · Gillette Stadium, Boston.
+
+## Dónde ver en España
+
+Exclusivo en **DAZN**.
+
+## Horario por países
+
+| País | Hora |
+|---|---|
+| España (CEST) | 17:00 |
+| México (CDT) | 10:00 |
+| Argentina (ART) | 12:00 |
+| Colombia (COT) | 10:00 |
+| Reino Unido (BST) | 16:00 |
+
+## Historial H2H
+
+Francia 2W-0D-1L. En 2002, Senegal derrotó al campeón vigente 1-0 (Papa Bouba Diop). Primera y única cita mundialista entre ambos.
+
+## Árbitro
+
+Por confirmar por FIFA.
+
+## Alineación probable Francia
+
+Maignan; Koundé, Saliba, Konaté, T. Hernández; Tchouaméni, Kanté, Zaïre-Emery; Dembélé, Mbappé (cap.), Olise.
+
+## Alineación probable Senegal
+
+Mendy; Koulibaly, Diallo, Jakobs, M. Sarr; Gueye, P.M. Sarr, Camara; Ndiaye, Mané (cap.), Jackson.
+
+## Curiosidades
+
+- En 2002, Senegal derrotó a Francia 1-0 en la mayor sorpresa mundialista de ese año.
+- Mbappé, 27 años, llega como favorito al Balón de Oro y capitán de Francia.
+- Mané, 34 años, en lo que podría ser su último Mundial.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-15T08:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/7/72/Kylian_Mbappe_2017.jpg',
+      alt: 'Kylian Mbappé con la selección francesa',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-irak-noruega-tv-mundial-2026-grupo-f',
+    title: 'Irak vs Noruega: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'Irak regresa al Mundial 40 años después de México 86. Noruega vuelve desde Francia 98. El gran atractivo: el debut mundialista de Erling Haaland en el AT&T Stadium de Dallas el 16 de junio a las 20:00 CEST. Solo en DAZN.',
+    body: `## Cuándo y dónde se juega
+
+**16 de junio de 2026** · **20:00 CEST** (18:00 UTC) · AT&T Stadium, Dallas.
+
+## Dónde ver en España
+
+Exclusivo en **DAZN**.
+
+## Horario por países
+
+| País | Hora |
+|---|---|
+| España (CEST) | 20:00 |
+| México (CDT) | 13:00 |
+| Argentina (ART) | 15:00 |
+| Colombia (COT) | 13:00 |
+| Reino Unido (BST) | 19:00 |
+
+## Historial H2H
+
+Ningún precedente mundialista. Irak vuelve tras 40 años (México 1986). Noruega tras 28 años (Francia 1998). Haaland debuta en un Mundial.
+
+## Árbitro
+
+Por confirmar por FIFA.
+
+## Alineación probable Irak
+
+Hassan; Sulaka, Manaf, Doski, Farji; Iqbal, Yakob, Sher; Al-Hamadi, Mohanad, Jassim.
+
+## Alineación probable Noruega
+
+Nyland; Ajer, Östigard, Ryerson, Björkan; Ødegaard (cap.), Berge, Aursnes; Sörloth, Haaland, Nusa.
+
+## Curiosidades
+
+- Haaland, 25 años, llega con hambre de demostrar que su voracidad goleadora de clubes se traslada a la selección.
+- Irak se clasificó como una de las revelaciones de la AFC.
+- AT&T Stadium, con techo retráctil, uno de los estadios más modernos del mundo.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-15T10:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/7/75/Norway_Italy_-_June_2025_B_01.jpg',
+      alt: 'Selección de Noruega en acción',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-argentina-argelia-tv-mundial-2026-grupo-g',
+    title: 'Argentina vs Argelia: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'Argentina, campeona del mundo, estrena su defensa del título ante Argelia en Kansas City el 16 de junio a las 22:00 CEST. Solo se han enfrentado una vez, en 2007: ARG 4-3 ALG con dos goles de Messi con 19 años. Solo en DAZN.',
+    body: `## Cuándo y dónde se juega
+
+**16 de junio de 2026** · **22:00 CEST** (20:00 UTC) · Arrowhead Stadium, Kansas City.
+
+## Dónde ver en España
+
+Exclusivo en **DAZN**.
+
+## Horario por países
+
+| País | Hora |
+|---|---|
+| España (CEST) | 22:00 |
+| México (CDT) | 15:00 |
+| Argentina (ART) | 17:00 |
+| Colombia (COT) | 15:00 |
+| Reino Unido (BST) | 21:00 |
+
+## Historial H2H
+
+Solo 1 precedente: amistoso junio 2007, ARG 4-3 ALG. Messi marcó dos goles con 19 años. 19 años después: Argentina campeona del mundo vs Argelia debutante.
+
+## Árbitro
+
+Por confirmar por FIFA.
+
+## Alineación probable Argentina
+
+E. Martínez; Molina, Romero, L. Martínez, Tagliafico; De Paul, Mac Allister, E. Fernández; Messi (cap.), J. Álvarez, L. Martínez.
+
+## Alineación probable Argelia
+
+L. Zidane; Mandi, Bensebaini, Aït-Nouri; Bentaleb, Aouar, Zerrouki; Mahrez (cap.), Gouiri, Amoura.
+
+## Curiosidades
+
+- Messi, 38 años, puede estar disputando su último partido en un Mundial. Busca ser el primer jugador en ganar tres títulos mundiales.
+- Mahrez (Al-Ahli), capitán argelino, es uno de los extremos más habilidosos de su generación.
+- Argentina no ha perdido un partido de fase de grupos desde Rusia 2018 (vs Croacia).`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-15T12:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/7/7c/Lionel_Scaloni_-_2022.jpg',
+      alt: 'Lionel Scaloni, seleccionador de Argentina',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-austria-jordania-tv-mundial-2026-grupo-h',
+    title: 'Austria vs Jordania: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'Jordania debuta en un Mundial por primera vez en su historia en el Hard Rock Stadium de Miami el 16 de junio a las 23:00 CEST. Austria, con Alaba y el esquema de Rangnick, parte como favorita. Solo en DAZN.',
+    body: `## Cuándo y dónde se juega
+
+**16 de junio de 2026** · **23:00 CEST** (21:00 UTC) · Hard Rock Stadium, Miami.
+
+## Dónde ver en España
+
+Exclusivo en **DAZN**.
+
+## Horario por países
+
+| País | Hora |
+|---|---|
+| España (CEST) | 23:00 |
+| México (CDT) | 16:00 |
+| Argentina (ART) | 18:00 |
+| Colombia (COT) | 16:00 |
+| Reino Unido (BST) | 22:00 |
+
+## Historial H2H
+
+Ningún precedente. Primer Mundial en la historia de Jordania. Austria con Alaba y el pressing de Rangnick llega en forma.
+
+## Árbitro
+
+Por confirmar por FIFA.
+
+## Alineación probable Austria
+
+Pentz; Alaba, Danso, Lienhart, Prass; Laimer, Sabitzer, X. Schlager; Arnautovic, Gregoritsch, Wanner.
+
+## Alineación probable Jordania
+
+Abulaila; Haddad I. (cap.), Al-Arab, Nasib; Rawabdeh, Rashdan; Al-Taamari, Olwan, Al-Mardi.
+
+## Curiosidades
+
+- El debut mundialista de Jordania es el logro más grande del fútbol jordano.
+- Alaba regresa tras larga lesión de rodilla: esta es su gran reválida.
+- Rangnick transformó a Austria con su pressing de alta intensidad.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-15T14:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/9/90/Sanae_Takaichi_FIFA_World_Cup_2026_trophy_tour_05.jpg',
+      alt: 'Trofeo Copa del Mundo FIFA 2026',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-portugal-rd-congo-tv-mundial-2026-grupo-i',
+    title: 'Portugal vs R.D. Congo: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'Portugal abre el Grupo I ante la R.D. Congo, que regresa al Mundial 52 años después como Zaire en 1974. Cristiano Ronaldo, con 41 años, podría estar disputando su último partido en una Copa del Mundo en el NRG Stadium de Houston el 17 de junio. Solo en DAZN.',
+    body: `## Cuándo y dónde se juega
+
+**17 de junio de 2026** · **14:00 CEST** (12:00 UTC) · NRG Stadium, Houston.
+
+## Dónde ver en España
+
+Exclusivo en **DAZN**.
+
+## Horario por países
+
+| País | Hora |
+|---|---|
+| España (CEST) | 14:00 |
+| México (CDT) | 07:00 |
+| Argentina (ART) | 09:00 |
+| Colombia (COT) | 07:00 |
+| Reino Unido (BST) | 13:00 |
+
+## Historial H2H
+
+Historial muy limitado. R.D. Congo regresa al Mundial 52 años después como Zaire 1974. Ronaldo, 41 años, en lo que podría ser su último partido mundialista.
+
+## Árbitro
+
+Por confirmar por FIFA.
+
+## Alineación probable Portugal
+
+D. Costa; Dalot, Dias, Inaciô, N. Mendes; B. Fernandes (cap.), B. Silva, J. Neves; Ronaldo, Leão, Félix.
+
+## Alineación probable R.D. Congo
+
+Epolo; Mbemba, Wan-Bissaka, Masuaku; Sadiki, E. Kayembe, Mukau; Wissa, Bakambu (cap.), Banza.
+
+## Curiosidades
+
+- Cristiano Ronaldo, 41 años, busca la copa que nunca ha ganado en lo que podría ser su último partido mundialista.
+- Aaron Wan-Bissaka (ex-Manchester United) representa a la R.D. Congo.
+- Portugal ganó la Nations League 2024-25 y llega como candidato serio.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-16T08:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/6/6a/Cristiano_Ronaldo_Iran_vs_Portugal.jpg',
+      alt: 'Cristiano Ronaldo con Portugal',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-inglaterra-croacia-tv-mundial-2026-grupo-j',
+    title: 'Inglaterra vs Croacia: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'Inglaterra y Croacia se vuelven a cruzar en un gran torneo por tercera vez. Los croatas ganaron en la SF del Mundial 2018, los ingleses se vengaron en la Euro 2021. En Filadelfia se escribe el tercer capítulo el 17 de junio a las 17:00 CEST. Solo en DAZN.',
+    body: `## Cuándo y dónde se juega
+
+**17 de junio de 2026** · **17:00 CEST** (15:00 UTC) · Lincoln Financial Field, Filadelfia.
+
+## Dónde ver en España
+
+Exclusivo en **DAZN**.
+
+## Horario por países
+
+| País | Hora |
+|---|---|
+| España (CEST) | 17:00 |
+| México (CDT) | 10:00 |
+| Argentina (ART) | 12:00 |
+| Colombia (COT) | 10:00 |
+| Reino Unido (BST) | 16:00 |
+
+## Historial H2H
+
+ENG 6W-2D-3L. WC 2018 SF: CRO 2-1 ENG (aet, Mandžukić). EURO 2021: ENG 1-0 CRO (Sterling). Tercer capítulo del duelo.
+
+## Árbitro
+
+Por confirmar por FIFA.
+
+## Alineación probable Inglaterra
+
+Pickford; Stones, Guehi, James, Livramento; Rice, Bellingham, Mainoo; Saka, Kane (cap.), Gordon.
+
+## Alineación probable Croacia
+
+Livaković; Gvardiol, Caleta-Car, Šutalo; Modrić (cap.), Kovačić, Pašalić; Perišić, Kramarić, Budimir.
+
+## Curiosidades
+
+- Modric, 40 años, en lo que probablemente son sus últimos partidos mundialistas.
+- Bellingham, 22 años, es uno de los mejores jugadores del mundo.
+- Inglaterra no gana un torneo desde 1966.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-16T10:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/f/fa/Jude_Bellingham_WC2022.jpg',
+      alt: 'Jude Bellingham con Inglaterra en el Mundial 2022',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-ghana-panama-tv-mundial-2026-grupo-j',
+    title: 'Ghana vs Panamá: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'Ghana y Panamá se juegan mucho en la jornada inaugural del Grupo J: ambas necesitan puntos para aspirar a avanzar con Inglaterra y Croacia como rivales. Kudus (West Ham) vs Murillo (Besiktas) en el Levi\'s Stadium el 17 de junio a las 21:00 CEST. Solo en DAZN.',
+    body: `## Cuándo y dónde se juega
+
+**17 de junio de 2026** · **21:00 CEST** (19:00 UTC) · Levi's Stadium, San Francisco.
+
+## Dónde ver en España
+
+Exclusivo en **DAZN**.
+
+## Horario por países
+
+| País | Hora |
+|---|---|
+| España (CEST) | 21:00 |
+| México (CDT) | 14:00 |
+| Argentina (ART) | 16:00 |
+| Colombia (COT) | 14:00 |
+| Reino Unido (BST) | 20:00 |
+
+## Historial H2H
+
+Registros muy limitados. Ninguna cita mundialista previa. Kudus (West Ham) es el gran peligro de Ghana. Murillo (Besiktas) ancla la defensa panameña.
+
+## Árbitro
+
+Por confirmar por FIFA.
+
+## Alineación probable Ghana
+
+Ati-Zigi; Seidu, Mumin, Mensah, Adjetey; Partey, Owusu, Issahaku; Kudus (cap.), I. Williams, Semenyo.
+
+## Alineación probable Panamá
+
+Mosquera; Murillo, Escobar, Andrade, Blackman; Godoy, Carrasquilla, Harvey; I. Díaz, Waterman, Fajardo.
+
+## Curiosidades
+
+- Kudus, capitán de Ghana con 24 años, es uno de los extremos más desequilibrantes de la Premier League.
+- Ghana llegó a cuartos en Sudáfrica 2010 antes de caer ante Uruguay.
+- Panamá llega a su tercer Mundial consecutivo desde el debut en Rusia 2018.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-16T12:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/4/42/ATL-Madrid-Lokomotiv001-Thomas_%28cropped%29.jpg',
+      alt: 'Thomas Partey, centrocampista de Ghana',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-uzbekistan-colombia-tv-mundial-2026-grupo-k',
+    title: 'Uzbekistán vs Colombia: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'Uzbekistán debuta en un Mundial ante Colombia en Vancouver el 17 de junio a las 22:00 CEST. Khusanov del Manchester City (44 M£) como emblema uzbeko. Colombia tiene a Luis Díaz del Bayern y James Rodríguez como líderes. Solo en DAZN.',
+    body: `## Cuándo y dónde se juega
+
+**17 de junio de 2026** · **22:00 CEST** (20:00 UTC) · BC Place, Vancouver.
+
+## Dónde ver en España
+
+Exclusivo en **DAZN**.
+
+## Horario por países
+
+| País | Hora |
+|---|---|
+| España (CEST) | 22:00 |
+| México (CDT) | 15:00 |
+| Argentina (ART) | 17:00 |
+| Colombia (COT) | 15:00 |
+| Reino Unido (BST) | 21:00 |
+
+## Historial H2H
+
+Ningún precedente. Primer Mundial de Uzbekistán. Khusanov fichó por el Manchester City por 44 M£ en enero 2025. Colombia fue finalista de la Copa América 2024.
+
+## Árbitro
+
+Por confirmar por FIFA.
+
+## Alineación probable Uzbekistán
+
+Yusupov; Khusanov, Ashurmatov, Sayfiev; Mozgovoy, Shukurov, Fayzullaev; Shomurodov (cap.), Masharipov, Urunov.
+
+## Alineación probable Colombia
+
+Vargas; Muñoz, D. Sánchez, Lucumí, Mojica; Ríos, Lerma, James (cap.); L. Díaz, Durán, JC Hernández.
+
+## Curiosidades
+
+- Khusanov se convirtió en el jugador uzbeko más caro de la historia con el fichaje por el City.
+- Luis Díaz llegó al Bayern de Múnich en verano de 2025.
+- Colombia fue finalista invicta de la Copa América 2024 antes de caer ante Argentina.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-16T14:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/8/80/Luis_D%C3%ADaz%2C_LFC%3B_May_2022.jpg',
+      alt: 'Luis Díaz con el Liverpool FC',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-republica-checa-sudafrica-tv-mundial-2026-grupo-l',
+    title: 'República Checa vs Sudáfrica: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'República Checa y Sudáfrica arrancan el Grupo L en el SoFi Stadium de Los Ángeles el 18 de junio a las 14:00 CEST. Soucek lidera a los checos ante una Bafana Bafana que vuelve al Mundial. Solo en DAZN.',
+    body: `## Cuándo y dónde se juega
+
+**18 de junio de 2026** · **14:00 CEST** (12:00 UTC) · SoFi Stadium, Los Ángeles.
+
+## Dónde ver en España
+
+Exclusivo en **DAZN**.
+
+## Horario por países
+
+| País | Hora |
+|---|---|
+| España (CEST) | 14:00 |
+| México (CDT) | 07:00 |
+| Argentina (ART) | 09:00 |
+| Colombia (COT) | 07:00 |
+| Reino Unido (BST) | 13:00 |
+
+## Historial H2H
+
+Muy limitado. Sudáfrica, anfitriona del Mundial 2010, regresa con una plantilla renovada. Soucek (West Ham) lidera la medular checa.
+
+## Árbitro
+
+Por confirmar por FIFA.
+
+## Alineación probable República Checa
+
+Jindrisek; Kaderabek, Holes, Celustka, Boril; Soucek, Sadílek; Barak, Cerny; Chytil, Kuchta.
+
+## Alineación probable Sudáfrica
+
+Porcellis; Modiba, Thabane, Lebese, Mobbie; Tau, Zwane, Mkhize; Dolly, Foster, Lorch.
+
+## Curiosidades
+
+- Sudáfrica fue el primer país africano en organizar un Mundial (2010).
+- Soucek es el motor del West Ham y de la selección checa.
+- SoFi Stadium albergará la final del Mundial el 19 de julio.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-17T08:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/9/90/Sanae_Takaichi_FIFA_World_Cup_2026_trophy_tour_05.jpg',
+      alt: 'Trofeo Copa del Mundo FIFA 2026',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-suiza-bosnia-herzegovina-tv-mundial-2026-grupo-l',
+    title: 'Suiza vs Bosnia-Herzegovina: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'Suiza y Bosnia-Herzegovina comparten el Grupo L en el Hard Rock Stadium de Miami el 18 de junio a las 14:00 CEST. Xhaka capitanea a los helvecios. Dzeko, con 40 años, lidera una Bosnia que busca su primer gran resultado en un Mundial. Solo en DAZN.',
+    body: `## Cuándo y dónde se juega
+
+**18 de junio de 2026** · **14:00 CEST** (12:00 UTC) · Hard Rock Stadium, Miami.
+
+## Dónde ver en España
+
+Exclusivo en **DAZN**.
+
+## Horario por países
+
+| País | Hora |
+|---|---|
+| España (CEST) | 14:00 |
+| México (CDT) | 07:00 |
+| Argentina (ART) | 09:00 |
+| Colombia (COT) | 07:00 |
+| Reino Unido (BST) | 13:00 |
+
+## Historial H2H
+
+Muy limitado. Bosnia en su segundo Mundial (primero Brasil 2014). Xhaka (Bayer Leverkusen) vs Dzeko (40 años): dos generaciones de fútbol centro-europeo.
+
+## Árbitro
+
+Por confirmar por FIFA.
+
+## Alineación probable Suiza
+
+Kobel; Widmer, Schär, Akanji, Elvedi; Xhaka (cap.), Freuler; Ndoye, Zakaria, Okafor; Embolo.
+
+## Alineación probable Bosnia
+
+Piric; Civic, Sunjic, Hadziahmetovic, Kolasinac; Pjanic (si convocado), Besic; Gojak, Hamulic; Dzeko, Demirovic.
+
+## Curiosidades
+
+- Xhaka tuvo la mejor temporada de su carrera en el Bayer Leverkusen.
+- Dzeko, 40 años, es el máximo goleador histórico de Bosnia.
+- Primera cita mundialista entre Suiza y Bosnia-Herzegovina.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-17T10:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/8/85/20150331_2028_AUT_BIH_2186.jpg',
+      alt: 'Partido Austria vs Bosnia-Herzegovina',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-canada-qatar-tv-mundial-2026-grupo-a',
+    title: 'Canadá vs Catar: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'Canadá juega en casa ante Catar en el BC Place de Vancouver el 18 de junio a las 17:00 CEST. Alphonso Davies lidera a los canadienses en su propio Mundial. Catar busca redención después del fracaso de 2022. Solo en DAZN.',
+    body: `## Cuándo y dónde se juega
+
+**18 de junio de 2026** · **17:00 CEST** (15:00 UTC) · BC Place, Vancouver.
+
+## Dónde ver en España
+
+Exclusivo en **DAZN**.
+
+## Horario por países
+
+| País | Hora |
+|---|---|
+| España (CEST) | 17:00 |
+| México (CDT) | 10:00 |
+| Argentina (ART) | 12:00 |
+| Colombia (COT) | 10:00 |
+| Reino Unido (BST) | 16:00 |
+
+## Historial H2H
+
+Muy limitado. Canadá co-anfitrión juega en casa. Catar fue el primer anfitrión eliminado en primera ronda (Qatar 2022). Alphonso Davies (Bayern) es el símbolo de la nueva era canadiense.
+
+## Árbitro
+
+Por confirmar por FIFA.
+
+## Alineación probable Canadá
+
+Crepeau; Johnston, Miller, Vitoria, Davies; Ahmed, Eustáquio, Laryea; David, Buchanan, Cavallini.
+
+## Alineación probable Catar
+
+Barsham; Pedro Miguel, Khoukhi, Sultan, Al-Rawi; Hatem, Boudiaf, Madibo; Afif, Almoez Ali, Edmilson.
+
+## Curiosidades
+
+- Alphonso Davies es el jugador más reconocible de la historia del fútbol canadiense.
+- BC Place tiene acústica especial con su techo de membrana inflada.
+- Catar busca la redención 4 años después de su fracaso histórico como anfitrión.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-17T12:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/BC_Place_2014.jpg/1280px-BC_Place_2014.jpg',
+      alt: 'BC Place Stadium Vancouver',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-mexico-corea-del-sur-tv-mundial-2026-grupo-b',
+    title: 'México vs Corea del Sur: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'México recibe a Corea del Sur en el Estadio Azteca el 18 de junio a las 21:00 CEST: el Tri en casa ante el estadio más icónico del mundo. Ochoa a por su sexto Mundial con 40 años. Son Heung-min responde enfrente. Solo en DAZN.',
+    body: `## Cuándo y dónde se juega
+
+**18 de junio de 2026** · **21:00 CEST** (19:00 UTC) · Estadio Azteca, Ciudad de México.
+
+## Dónde ver en España
+
+Exclusivo en **DAZN**.
+
+## Horario por países
+
+| País | Hora |
+|---|---|
+| España (CEST) | 21:00 |
+| México (CDT) | 14:00 |
+| Argentina (ART) | 16:00 |
+| Colombia (COT) | 14:00 |
+| Reino Unido (BST) | 20:00 |
+
+## Historial H2H
+
+Mundial 2018: MEX 2-1 KOR (Lozano, Hernandez). Ochoa, 40 años, busca su sexto Mundial consecutivo. Son juega cerca de su LAFC (Los Ángeles).
+
+## Árbitro
+
+Por confirmar por FIFA.
+
+## Alineación probable México
+
+Ochoa; Sanchez, Montes, Moreno, Gallardo; Herrera, Alvarado, Guardado (o Chavez); Antuna, Jimenez, Lozano.
+
+## Alineación probable Corea del Sur
+
+Kim; Kim M.H., Kim Y.G., Oh, Kim J.S.; Hwang, Baek, Lee J.S.; Son (cap.), Cho, Lee J.
+
+## Curiosidades
+
+- El Estadio Azteca es el único del mundo con dos finales mundiales (1970 y 1986).
+- Ochoa busca su sexto Mundial: una gesta histórica a los 40 años.
+- Son fichó por el LAFC de Los Ángeles en 2025, por lo que jugar en México es jugar en su zona geográfica.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-17T14:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/6/62/Ger-Mex_%2812%29.jpg',
+      alt: 'Selección de México en un partido de Copa del Mundo',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-usa-australia-tv-mundial-2026-grupo-d',
+    title: 'USA vs Australia: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'Estados Unidos y Australia se miden en la segunda jornada del Grupo D del Mundial 2026 en el MetLife Stadium de Nueva Jersey. Los americanos buscan sellar su pase a octavos ante una Socceroos que no tiene margen de error si quiere seguir soñando con el torneo.',
+    body: `## Cuándo y dónde
+
+El partido entre **Estados Unidos y Australia** se disputa el **19 de junio de 2026** en el **MetLife Stadium** de East Rutherford, Nueva Jersey, con capacidad para 82.500 espectadores. El partido comienza a las **12:00 UTC (14:00 CEST)**.
+
+## Dónde ver en España
+
+El encuentro se emite exclusivamente en **DAZN**. No hay emisión en abierto para este partido.
+
+## Horario
+
+| País | Hora local |
+|---|---|
+| España (CEST) | 14:00 |
+| Reino Unido (BST) | 13:00 |
+| Nueva York (EDT) | 08:00 |
+| Sídney (AEST) | 22:00 |
+
+## H2H
+
+Estados Unidos acumula un balance favorable histórico frente a Australia. En los duelos más recientes, los americanos han impuesto su condición de potencia de la CONCACAF. Es la primera vez que ambas selecciones se ven las caras en un Mundial. Con el partido inicial del grupo ya disputado, EEUU llega con la necesidad de puntuar para asegurarse el billete a octavos lo antes posible. Australia, finalista de su grupo en Qatar 2022 tras superar a Dinamarca, no puede permitirse otro traspiés.
+
+## Árbitro
+
+Por confirmar.
+
+## Alineación USA
+
+**Turner** (GK) · **Richards, Ream, Robinson** (DF) · **Dest, Adams, McKennie** (MF) · **Pulisic, Balogun, Reyna** (FW)
+
+## Alineación Australia
+
+**Ryan** (GK) · **Souttar, Burgess, Behich** (DF) · **Irvine, Hrustic** (MF) · **Leckie, Irankunda, Mabil** (FW)
+
+## Curiosidades
+
+- Es el **primer enfrentamiento mundialista** entre ambas selecciones.
+- **Christian Pulisic** llega al torneo como el jugador más determinante de la CONCACAF, con más de 100 goles y asistencias en su carrera con el AC Milan.
+- El portero australiano **Mat Ryan** disputa su tercer Mundial con más de 100 caps internacionales.
+- MetLife Stadium fue escenario de la final de la Super Bowl en 2014 y acogerá la **final del Mundial 2026**.
+- **Folarin Balogun** puede convertirse en el hombre del partido: delantero nacido en Londres que optó por jugar con EEUU y llega en estado de forma superlativo.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-18T08:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/0/04/Metlife_stadium_%28Aerial_view%29.jpg',
+      alt: 'Vista aérea del MetLife Stadium en Nueva Jersey, sede de la final del Mundial 2026',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-escocia-marruecos-tv-mundial-2026-grupo-d',
+    title: 'Escocia vs Marruecos: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'Escocia y Marruecos protagonizan uno de los duelos más atractivos de la segunda jornada del Grupo D. Los africanos, semifinalistas en Qatar 2022, parten como favoritos ante una Escocia que regresa a un Mundial por primera vez desde Francia 1998 y necesita sumar sí o sí.',
+    body: `## Cuándo y dónde
+
+El partido entre **Escocia y Marruecos** se disputa el **19 de junio de 2026** en el **SoFi Stadium** de Inglewood, Los Ángeles, California. El encuentro arranca a las **18:00 UTC (20:00 CEST)**.
+
+## Dónde ver en España
+
+El partido se emite exclusivamente en **DAZN**. No hay emisión en abierto.
+
+## Horario
+
+| País | Hora local |
+|---|---|
+| España (CEST) | 20:00 |
+| Reino Unido (BST) | 19:00 |
+| Los Ángeles (PDT) | 11:00 |
+| Marruecos (WET) | 18:00 |
+
+## H2H
+
+Este sería el **primer enfrentamiento entre Escocia y Marruecos en un Mundial**. A nivel general, sus cruces son escasísimos. Marruecos llega con el aura de los semifinalistas de Qatar 2022, donde eliminó a España en octavos y a Portugal en cuartos antes de caer ante Francia. Escocia reaparece en un Mundial 28 años después con una generación liderada por **Scott McTominay** y **Andrew Robertson**, aunque el nivel del rival es un escalón superior en términos de experiencia reciente.
+
+## Árbitro
+
+Por confirmar.
+
+## Alineación Escocia
+
+**Gunn** (GK) · **Robertson (cap), Hendry, Hanley** (DF) · **McTominay, McGinn** (MF) · **Shankland, Adams, Doak** (FW)
+
+## Alineación Marruecos
+
+**Bono** (GK) · **Hakimi (cap), Mazraoui, Aguerd** (DF) · **Amrabat, Ounahi** (MF) · **Brahim, En-Nesyri** (FW)
+
+## Curiosidades
+
+- **Achraf Hakimi** (PSG) es uno de los laterales más desequilibrantes del mundo y será el gran peligro marroquí por la banda derecha.
+- **Brahim Díaz**, nacido en Málaga, optó por jugar con Marruecos y será el jugador a seguir en el duelo ofensivo.
+- Escocia no disputaba un Mundial desde **Francia 1998**, donde cayó en la fase de grupos.
+- **Sofiane Amrabat** es el ancla del centro del campo marroquí, conocido en España por su paso por la Real Sociedad.
+- Los leones del Atlas buscan superar su hito histórico de Qatar 2022 y llegar aún más lejos en casa de los organizadores.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-18T10:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/5/52/HakimiAchraf.jpg',
+      alt: 'Achraf Hakimi, capitán de Marruecos, uno de los protagonistas del partido frente a Escocia',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-brasil-haiti-tv-mundial-2026-grupo-c',
+    title: 'Brasil vs Haití: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'Brasil debuta como gran favorito ante Haití en el Gillette Stadium de Boston. Para los caribeños es solo su segundo Mundial en la historia, una gesta histórica que merece toda la atención. La Canarinha, con Vinicius Jr. y Neymar, no debería tener problemas, pero el fútbol siempre sorprende.',
+    body: `## Cuándo y dónde
+
+**Brasil y Haití** se enfrentan el **19 de junio de 2026** en el **Gillette Stadium** de Foxborough, Massachusetts (área metropolitana de Boston). Horario de inicio: **20:30 UTC (22:30 CEST)**.
+
+## Dónde ver en España
+
+El partido se emite exclusivamente en **DAZN**. No hay emisión en abierto.
+
+## Horario
+
+| País | Hora local |
+|---|---|
+| España (CEST) | 22:30 |
+| Reino Unido (BST) | 21:30 |
+| Boston (EDT) | 16:30 |
+| Puerto Príncipe (EDT) | 16:30 |
+
+## H2H
+
+Brasil no ha perdido ningún partido oficial frente a Haití en su historia, con una diferencia de calidad abismal entre ambas selecciones. Para los haitianos, estar en este Mundial es en sí misma una victoria: **solo han participado una vez**, en 1974, cuando cayeron eliminados en la fase de grupos. La emoción de representar a un país que ha sufrido tanto en las últimas décadas dará a los jugadores de Haití una motivación extra que la Canarinha debe respetar.
+
+## Árbitro
+
+Por confirmar.
+
+## Alineación Brasil
+
+**Alisson** (GK) · **Danilo, Marquinhos, Gabriel** (DF) · **Casemiro, Guimaraes** (MF) · **Raphinha, Neymar, Vinicius Jr.** (FW)
+
+## Alineación Haití
+
+**Placide** (GK) · **Arcus, Delcroix** (DF) · **Bellegarde** (MF) · **Nazon, Pierrot, Isidor** (FW)
+
+## Curiosidades
+
+- **Neymar** regresa a un Mundial tras las lesiones que lo apartaron de Rusia 2018 y Qatar 2022. Podría ser su última actuación en la cita más importante.
+- **Vinicius Jr.** llega al torneo como uno de los mejores jugadores del mundo tras sus temporadas en el Real Madrid.
+- Haití clasifica 52 años después de su único Mundial anterior, en 1974 en Alemania Occidental.
+- El Gillette Stadium, sede del New England Patriots de la NFL, tiene capacidad para 65.878 espectadores.
+- La comunidad haitiana en Boston, una de las más grandes de EEUU, convertirá el estadio en un caldero de apoyo caribeño.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-18T12:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/3/37/Vinicius_Jr_2018_%28cropped%29.jpg',
+      alt: 'Vinicius Jr., estrella de Brasil y el Real Madrid, llega como uno de los favoritos al título individual',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-turquia-paraguay-tv-mundial-2026-grupo-d',
+    title: 'Turquía vs Paraguay: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'Turquía y Paraguay se juegan puntos vitales en el Grupo D del Mundial 2026 en Arrowhead, Kansas City. Con USA y Australia como rivales directos, un tropiezo en este partido puede significar la eliminación prematura. Arda Güler contra la solidez defensiva paraguaya: duelo de estilos.',
+    body: `## Cuándo y dónde
+
+**Turquía y Paraguay** se miden el **19 de junio de 2026** en el **Arrowhead Stadium** de Kansas City, Missouri, a las **21:00 UTC (23:00 CEST)**.
+
+## Dónde ver en España
+
+El partido se emite exclusivamente en **DAZN**. No hay emisión en abierto.
+
+## Horario
+
+| País | Hora local |
+|---|---|
+| España (CEST) | 23:00 |
+| Reino Unido (BST) | 22:00 |
+| Kansas City (CDT) | 16:00 |
+| Asunción (PYT) | 18:00 |
+
+## H2H
+
+Los registros históricos entre Turquía y Paraguay son prácticamente inexistentes en competición oficial. Un partido sin historia que se convierte en bisagra del Grupo D: el ganador se coloca en una posición cómoda para acceder a los octavos de final, mientras el perdedor se complica seriamente la vida. Turquía llega con el recuerdo del tercer puesto de Corea/Japón 2002 como estandarte, y Paraguay con las buenas memorias de cuartos de final en Sudáfrica 2010.
+
+## Árbitro
+
+Por confirmar.
+
+## Alineación Turquía
+
+**Bayindir** (GK) · **Demiral, Celik, Soyuncu** (DF) · **Calhanoglu (cap), Ayhan** (MF) · **Güler, Yildiz** (FW)
+
+## Alineación Paraguay
+
+**Olveira** (GK) · **Gomez G. (cap), Balbuena** (DF) · **Almiron, Cubas** (MF) · **Sanabria, Enciso** (FW)
+
+## Curiosidades
+
+- **Arda Güler** (Real Madrid), uno de los jóvenes más prometedores del mundo, podría ser el factor diferencial en un partido muy igualado.
+- **Kenan Yildiz** (Juventus), con 20 años, llega al torneo en plena explosión y forma pareja de ataque ilusionante con Güler.
+- **Hakan Calhanoglu** (Inter de Milán) es el cerebro del juego turco y uno de los mejores centrocampistas del momento.
+- **Miguel Almirón** (Newcastle), referente del fútbol paraguayo, puede desequilibrar con su velocidad y desborde.
+- Arrowhead Stadium, hogar de los Kansas City Chiefs de la NFL, tiene capacidad para más de 76.000 espectadores.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-18T14:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/7/79/Kenan_Yildiz_Juventus_%28cropped%29.jpg',
+      alt: 'Kenan Yildiz, joven promesa de Turquía y la Juventus, uno de los protagonistas esperados frente a Paraguay',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-holanda-suecia-tv-mundial-2026-grupo-f',
+    title: 'Holanda vs Suecia: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'Países Bajos y Suecia se enfrentan en un choque de alto voltaje del Grupo F en el Hard Rock Stadium de Miami. Gyokeres, el goleador del Arsenal con más de 50 goles en una sola temporada, contra la zaga de Van Dijk. El partido más atractivo del día 20 de junio.',
+    body: `## Cuándo y dónde
+
+**Países Bajos y Suecia** disputan su partido del Grupo F el **20 de junio de 2026** en el **Hard Rock Stadium** de Miami Gardens, Florida. El partido arranca a las **12:00 UTC (14:00 CEST)**.
+
+## Dónde ver en España
+
+El partido se emite exclusivamente en **DAZN**. No hay emisión en abierto.
+
+## Horario
+
+| País | Hora local |
+|---|---|
+| España (CEST) | 14:00 |
+| Reino Unido (BST) | 13:00 |
+| Miami (EDT) | 08:00 |
+| Estocolmo (CEST) | 14:00 |
+
+## H2H
+
+Países Bajos acumula un balance positivo histórico frente a Suecia en partidos oficiales. El duelo llega en el contexto de un Grupo F muy competido, donde ambas selecciones necesitan sumar para asegurarse el pase. La diferencia individual está sobre el terreno de juego: si **Gyokeres** puede con la defensa de **Van Dijk**, Suecia tiene opciones reales. Si la Naranja Mecánica cierra líneas, el talento de **Gakpo** y **De Jong** puede ser decisivo.
+
+## Árbitro
+
+Por confirmar.
+
+## Alineación Países Bajos
+
+**Verbruggen** (GK) · **Van Dijk (cap), Ake, Timber** (DF) · **De Jong, Gravenberch** (MF) · **Gakpo, Depay** (FW)
+
+## Alineación Suecia
+
+**Johansson** (GK) · **Lindelof, Hien** (DF) · **Bergvall, Svanberg** (MF) · **Gyokeres (cap), Isak** (FW)
+
+## Curiosidades
+
+- **Viktor Gyokeres** llega al Mundial tras una temporada de ensueño en el Arsenal, con más de 50 goles en todas las competiciones. Es el máximo favorito al Bota de Oro del torneo.
+- **Alexander Isak** (Newcastle) forma con Gyokeres el dúo de ataque más temido de la competición por parte de Suecia.
+- **Virgil Van Dijk** (Liverpool) afronta posiblemente su último gran torneo y querrá brillar con Países Bajos.
+- **Cody Gakpo** llega en un gran momento de forma y será la gran amenaza ofensiva neerlandesa.
+- Hard Rock Stadium, sede del Miami Dolphins de la NFL, tiene capacidad para más de 65.000 espectadores y un calor húmedo que puede afectar el ritmo del partido.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-19T08:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/2/22/1_Viktor_Gy%C3%B6keres_2026.jpg',
+      alt: 'Viktor Gyokeres, capitán de Suecia y goleador del Arsenal, una de las grandes estrellas del Mundial 2026',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-alemania-costa-de-marfil-tv-mundial-2026-grupo-e',
+    title: 'Alemania vs Costa de Marfil: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'Alemania mide su candidatura al título ante una Costa de Marfil con talento individual de primer nivel en el BC Place de Vancouver. Amad Diallo, la revelación del Manchester United, contra la sólida organización defensiva alemana. Un partido clave en el Grupo E del Mundial 2026.',
+    body: `## Cuándo y dónde
+
+**Alemania y Costa de Marfil** se miden en el Grupo E del Mundial 2026 el **20 de junio** en el **BC Place Stadium** de Vancouver, Canadá, a las **16:00 UTC (18:00 CEST)**.
+
+## Dónde ver en España
+
+El partido se emite exclusivamente en **DAZN**. No hay emisión en abierto.
+
+## Horario
+
+| País | Hora local |
+|---|---|
+| España (CEST) | 18:00 |
+| Reino Unido (BST) | 17:00 |
+| Vancouver (PDT) | 09:00 |
+| Abiyán (GMT) | 16:00 |
+
+## H2H
+
+Los encuentros entre Alemania y Costa de Marfil en Mundiales son muy limitados, sin encuentros directos recientes en la cita del mundo. Alemania llega al torneo con la presión de redimirse tras sus recientes decepciones en grandes torneos. Costa de Marfil, con una nueva generación liderada por Amad Diallo y jugadores de la Premier League, tiene el potencial de dar la sorpresa. **Franck Kessie** es el motor del mediocampo marfileño.
+
+## Árbitro
+
+Por confirmar.
+
+## Alineación Alemania
+
+**Nubel** (GK) · **Rudiger, Tah, Schlotterbeck** (DF) · **Kimmich (cap), Goretzka** (MF) · **Wirtz, Musiala, Havertz** (FW)
+
+## Alineación Costa de Marfil
+
+**Fofana** (GK) · **Diomande, Kossounou** (DF) · **Kessie, Sangare** (MF) · **Amad Diallo, Wahi** (FW)
+
+## Curiosidades
+
+- **Florian Wirtz** (Bayer Leverkusen) y **Jamal Musiala** (Bayern Múnich) forman la dupla creativa más excitante del fútbol alemán en décadas.
+- **Amad Diallo** (Manchester United), nacido en Costa de Marfil, llega al torneo tras una temporada brillante en la Premier League.
+- Alemania aún recuerda con escalofrío la eliminación en la fase de grupos de Rusia 2018 y su objetivo es ir muy lejos en este torneo.
+- **Joshua Kimmich** (Bayern Múnich) es el capitán y el cerebro de todo el juego alemán desde el centro del campo.
+- BC Place, estadio con techo retráctil, acogerá los partidos de Vancouver con las montañas nevadas de fondo.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-19T10:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/4/43/Franck_Yannick_Kessié.jpg',
+      alt: 'Franck Kessie, centrocampista de Costa de Marfil, uno de los líderes del combinado africano',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-ecuador-curazao-tv-mundial-2026-grupo-e',
+    title: 'Ecuador vs Curazao: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'Ecuador se enfrenta a Curazao en su debut mundialista ante un rival histórico de la CONCACAF en el Lincoln Financial Field de Filadelfia. Para los caribeños es su primera Copa del Mundo. Ecuador, con Moisés Caicedo como referencia, parte como amplio favorito en el Grupo E.',
+    body: `## Cuándo y dónde
+
+**Ecuador y Curazao** se enfrentan el **20 de junio de 2026** en el **Lincoln Financial Field** de Filadelfia, Pensilvania, a las **19:00 UTC (21:00 CEST)**.
+
+## Dónde ver en España
+
+El partido se emite exclusivamente en **DAZN**. No hay emisión en abierto.
+
+## Horario
+
+| País | Hora local |
+|---|---|
+| España (CEST) | 21:00 |
+| Reino Unido (BST) | 20:00 |
+| Filadelfia (EDT) | 15:00 |
+| Willemstad (AST) | 15:00 |
+
+## H2H
+
+No existe ningún precedente en Mundiales entre Ecuador y Curazao, y los encuentros históricos entre ambas naciones son prácticamente inexistentes. Ecuador llega con la experiencia de tres participaciones mundialistas (2002, 2006 y 2014) y buscará imponer su calidad técnica desde el primer minuto. Curazao, formalmente independiente desde 2010, debuta en un Mundial y protagoniza uno de los momentos más históricos del fútbol caribeño.
+
+## Árbitro
+
+Por confirmar.
+
+## Alineación Ecuador
+
+**Galindez** (GK) · **Pacho, Hincapie** (DF) · **Caicedo, Franco** (MF) · **Valencia E., Paez** (FW)
+
+## Alineación Curazao
+
+**Room** (GK) · **Bazoer, Brenet** (DF) · **Bacuna L., Comenencia** (MF) · **Chong, Locadia** (FW)
+
+## Curiosidades
+
+- **Moisés Caicedo** (Chelsea) es considerado uno de los mejores centrocampistas del mundo y el gran baluarte de Ecuador.
+- **Curazao** es la selección más pequeña por población en clasificar para este Mundial: apenas 150.000 habitantes.
+- **Enner Valencia**, histórico goleador ecuatoriano, llega al que podría ser su último gran torneo internacional.
+- **Cuco Martina**, exjugador del Southampton, es uno de los referentes de la historia de Curazao aunque ya no está en la selección activa.
+- Lincoln Financial Field, hogar de los Philadelphia Eagles de la NFL, tiene capacidad para 69.000 espectadores.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-19T12:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/9/90/Sanae_Takaichi_FIFA_World_Cup_2026_trophy_tour_05.jpg',
+      alt: 'Trofeo de la Copa del Mundo FIFA 2026, el gran objetivo de todas las selecciones participantes',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-tunez-japon-tv-mundial-2026-grupo-f',
+    title: 'Túnez vs Japón: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'Túnez y Japón se disputan puntos fundamentales en el Grupo F del Mundial 2026 en el AT&T Stadium de Dallas. Los Samuráis Azules, con Wataru Endo como capitán, llegan en gran forma al torneo. Los tunecinos buscan superar la fase de grupos por primera vez en su historia mundialista.',
+    body: `## Cuándo y dónde
+
+**Túnez y Japón** se enfrentan el **20 de junio de 2026** en el **AT&T Stadium** de Arlington, Texas (área metropolitana de Dallas), a las **22:00 UTC (00:00 CEST del 21 de junio)**.
+
+## Dónde ver en España
+
+El partido se emite exclusivamente en **DAZN**. No hay emisión en abierto.
+
+## Horario
+
+| País | Hora local |
+|---|---|
+| España (CEST) | 00:00 (+1 día) |
+| Reino Unido (BST) | 23:00 |
+| Dallas (CDT) | 17:00 |
+| Tokio (JST) | 07:00 (+1 día) |
+
+## H2H
+
+Los encuentros entre Túnez y Japón en Mundiales son escasos y sin enfrentamientos directos relevantes. Japón llega al torneo como una de las selecciones más interesantes de Asia, tras alcanzar los cuartos de final en Qatar 2022. Túnez, con varias participaciones mundialistas, nunca ha superado la fase de grupos y eso pesa como una losa. **Takehusa Kubo** (Real Sociedad) es la gran esperanza ofensiva nipona.
+
+## Árbitro
+
+Por confirmar.
+
+## Alineación Túnez
+
+**Dahmen** (GK) · **Talbi, Bronn** (DF) · **Skhiri, Khedira** (MF) · **Ghazouani, Saad** (FW)
+
+## Alineación Japón
+
+**Suzuki** (GK) · **Tomiyasu, Itakura** (DF) · **Endo, Kamada** (MF) · **Kubo, Ueda** (FW)
+
+## Curiosidades
+
+- **Takehusa Kubo** (Real Sociedad) es el jugador japonés que más conocen los aficionados españoles tras sus temporadas en la Liga EA Sports.
+- **Wataru Endo** (Liverpool) lidera el mediocampo japonés con rigor y visión de juego.
+- Túnez fue la primera selección africana en ganar un partido mundialista (3-1 a México en 1978).
+- Japón ha clasificado para siete Mundiales consecutivos y busca el primer cuarto de final desde Corea/Japón 2002.
+- AT&T Stadium, conocido como 'La Casa de Jerry', tiene una capacidad de 80.000 espectadores y es uno de los estadios más espectaculares del planeta.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-19T14:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/5/52/Takefusa_Kubo_1053.jpg',
+      alt: 'Takefusa Kubo, estrella japonesa de la Real Sociedad, uno de los grandes nombres del partido Túnez-Japón',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-espana-arabia-saudi-tv-mundial-2026-grupo-b',
+    title: 'España vs Arabia Saudí: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'España busca sellar su candidatura al título ante Arabia Saudí en Arrowhead Stadium, Kansas City. RTVE emite el partido en abierto. Los saudíes, que eliminaron a Argentina en Qatar 2022, quieren repetir la sorpresa ante la campeona de Europa. Yamal, Morata y compañía no pueden fallar.',
+    body: `## Cuándo y dónde
+
+**España y Arabia Saudí** se enfrentan en la segunda jornada del Grupo B del Mundial 2026 el **21 de junio** en el **Arrowhead Stadium** de Kansas City, Missouri, a las **12:00 UTC (14:00 CEST)**.
+
+## Dónde ver en España
+
+El partido se emite en **RTVE (La 1 / Teledeporte) EN ABIERTO** y también en **DAZN**. Es uno de los partidos de España con señal gratuita para todos los espectadores.
+
+## Horario
+
+| País | Hora local |
+|---|---|
+| España (CEST) | 14:00 |
+| Reino Unido (BST) | 13:00 |
+| Kansas City (CDT) | 08:00 |
+| Riad (AST) | 16:00 |
+
+## H2H
+
+España y Arabia Saudí tienen un historial de encuentros amistosos favorable a la Roja, pero el precedente de Qatar 2022 pesa: los saudíes derrotaron a Argentina 2-1 en lo que fue la mayor sorpresa del torneo. La selección española, campeona de Europa en 2024 con una generación brillante liderada por **Lamine Yamal**, no puede permitirse la distracción. Un tropiezo aquí complica mucho la clasificación.
+
+## Árbitro
+
+Por confirmar.
+
+## Alineación España
+
+XI por confirmar. Convocados habituales: **GK Unai Simón · DF Carvajal, Laporte, Le Normand, Cucurella · MF Pedri, Fabián Ruiz · FW Yamal, Morata, Williams**
+
+## Alineación Arabia Saudí
+
+XI por confirmar. Referentes: **GK Al-Owais · DF Al-Ghannam, Sultan Al-Ghannam · MF Kanno, Al-Malki · FW Al-Dawsari, Al-Shehri**
+
+## Curiosidades
+
+- **Lamine Yamal** (FC Barcelona), con 18 años, es el gran reclamo de España y puede convertirse en el mejor jugador del torneo.
+- Arabia Saudí eliminó a **Argentina** (con Messi) en Qatar 2022 con un marcador de 2-1 en una de las mayores sorpresas de la historia del Mundial.
+- Es el segundo partido de España en el Grupo B, por lo que los puntos son determinantes para asegurar el liderato.
+- Arrowhead Stadium es uno de los estadios más ruidosos de América del Norte y será escenario de un gran ambiente.
+- RTVE emite el partido en abierto, lo que garantiza una audiencia millonaria en España.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-20T08:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/8/8d/Lamine_Yamal%2C_S%C3%A1nchez_se_reuni%C3%B3_con_los_futbolistas_de_la_selecci%C3%B3n_espa%C3%B1ola_tras_ganar_la_Eurocopa_2024_%283%29_%28cropped%29.jpg',
+      alt: 'Lamine Yamal, estrella de España, tras ganar la Eurocopa 2024 con la selección española',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-belgica-iran-tv-mundial-2026-grupo-g',
+    title: 'Bélgica vs Irán: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'Bélgica afronta el Grupo G del Mundial 2026 ante Irán en el NRG Stadium de Houston. Los diablos rojos, con Kevin De Bruyne como líder, son favoritos claros. Irán cuenta con Mehdi Taremi como referente ofensivo. Un partido que Bélgica debe ganar para mantener el rumbo hacia octavos.',
+    body: `## Cuándo y dónde
+
+**Bélgica e Irán** se enfrentan en el Grupo G del Mundial 2026 el **21 de junio** en el **NRG Stadium** de Houston, Texas, a las **12:00 UTC (14:00 CEST)**.
+
+## Dónde ver en España
+
+El partido se emite exclusivamente en **DAZN**. No hay emisión en abierto.
+
+## Horario
+
+| País | Hora local |
+|---|---|
+| España (CEST) | 14:00 |
+| Reino Unido (BST) | 13:00 |
+| Houston (CDT) | 08:00 |
+| Teherán (IRST) | 16:30 |
+
+## H2H
+
+Bélgica e Irán tienen un historial muy limitado en competición oficial. Los diablos rojos, con una generación que ya está en su segunda o tercera gran cita, buscan convertir este torneo en su definitiva conquista después de años de ser una de las mejores selecciones del mundo sin título. Irán, con **Mehdi Taremi** (Olympiacos) como ariete, puede sorprender si Bélgica no sale concentrada desde el inicio.
+
+## Árbitro
+
+Por confirmar.
+
+## Alineación Bélgica
+
+XI por confirmar. Referentes: **GK Casteels · DF Vertonghen, Faes, Castagne · MF De Bruyne (cap), Tielemans · FW Doku, Openda, Lukaku**
+
+## Alineación Irán
+
+XI por confirmar. Referentes: **GK Beiranvand · DF Mohammadi, Cheshmi · MF Ezatolahi, Noorollahi · FW Taremi, Azmoun**
+
+## Curiosidades
+
+- **Kevin De Bruyne** (Manchester City) puede convertirse en el mejor jugador de la historia de Bélgica si culmina el título que se le resiste a su generación.
+- **Mehdi Taremi** (Olympiacos) es el máximo goleador histórico de Irán y uno de los delanteros más letales del fútbol europeo.
+- Irán ha participado en seis Mundiales pero nunca ha superado la fase de grupos.
+- NRG Stadium, hogar de los Houston Texans, tiene capacidad para 72.000 espectadores con un clima tropical que puede ser determinante.
+- Bélgica fue tercera en Rusia 2018 y busca ir aún más lejos en este torneo.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-20T10:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/2/21/Kevin_De_Bruyne_vs_USA.jpg',
+      alt: 'Kevin De Bruyne, capitán y referencia de Bélgica, líder de los Diablos Rojos en el Mundial 2026',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-uruguay-cabo-verde-tv-mundial-2026-grupo-g',
+    title: 'Uruguay vs Cabo Verde: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'Uruguay, dos veces campeona del mundo, debuta ante Cabo Verde en su estreno en el Mundial 2026. Los africanos protagonizan su primera participación histórica. Darwin Núñez, fichado por Al-Hilal, liderará el ataque charrúa en el SoFi Stadium de Los Ángeles.',
+    body: `## Cuándo y dónde
+
+**Uruguay y Cabo Verde** se miden en el Grupo G del Mundial 2026 el **21 de junio** en el **SoFi Stadium** de Inglewood, Los Ángeles, a las **18:00 UTC (20:00 CEST)**.
+
+## Dónde ver en España
+
+El partido se emite exclusivamente en **DAZN**. No hay emisión en abierto.
+
+## Horario
+
+| País | Hora local |
+|---|---|
+| España (CEST) | 20:00 |
+| Reino Unido (BST) | 19:00 |
+| Los Ángeles (PDT) | 11:00 |
+| Praia (CVT) | 18:00 |
+
+## H2H
+
+No existe ningún precedente entre Uruguay y Cabo Verde en competición oficial. Los charrúas, bicampeones mundiales en 1930 y 1950, llegan al torneo con una nueva hornada de jugadores y el peso de una historia gloriosa. Cabo Verde debuta en un Mundial, siendo uno de los debutantes más emotivos del torneo. Para las islas atlánticas, solo llegar a este escenario es un sueño cumplido.
+
+## Árbitro
+
+Por confirmar.
+
+## Alineación Uruguay
+
+XI por confirmar. Referentes: **GK Rochet · DF Gimenez, Araujo, Viña · MF Valverde, Bentancur · FW Nuñez, Suarez (si convocado), De Arrascaeta**
+
+## Alineación Cabo Verde
+
+XI por confirmar. Referentes: **GK Vozinha · DF Stopira, Wanderson · MF Lopes, Andrade · FW Tavares, Jamiro**
+
+## Curiosidades
+
+- **Darwin Núñez** (Al-Hilal) llega al torneo como el gran referente del ataque uruguayo tras su paso por el Liverpool.
+- Uruguay ganó el **primer Mundial de la historia** en 1930, cuando fue anfitrión, y repitió título en 1950 en Brasil con el famoso 'Maracanazo'.
+- Cabo Verde clasifica para su primer Mundial gracias a una campaña extraordinaria en las eliminatorias africanas.
+- **Federico Valverde** (Real Madrid) es el jugador más cotizado de Uruguay y puede ser el motor del juego charrúa.
+- SoFi Stadium, el más caro de la historia del deporte americano con una inversión de 5.500 millones de dólares, tiene capacidad para 70.000 espectadores.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-20T12:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/e/ee/Marcelo_Bielsa_OM_2015.jpg',
+      alt: 'Marcelo Bielsa, seleccionador de Uruguay, estratega al frente de la Celeste en el Mundial 2026',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-nueva-zelanda-egipto-tv-mundial-2026-grupo-h',
+    title: 'Nueva Zelanda vs Egipto: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'Nueva Zelanda y Egipto disputan el Grupo H del Mundial 2026 en el BC Place de Vancouver. Mohamed Salah lidera a los faraones en su gran regreso mundialista. Chris Wood encabeza el ataque neozelandés. Un partido con sabor europeo de la Premier League para dos selecciones con mucho que demostrar.',
+    body: `## Cuándo y dónde
+
+**Nueva Zelanda y Egipto** se enfrentan en el Grupo H del Mundial 2026 el **21 de junio** en el **BC Place Stadium** de Vancouver, Canadá, a las **18:00 UTC (20:00 CEST)**.
+
+## Dónde ver en España
+
+El partido se emite exclusivamente en **DAZN**. No hay emisión en abierto.
+
+## Horario
+
+| País | Hora local |
+|---|---|
+| España (CEST) | 20:00 |
+| Reino Unido (BST) | 19:00 |
+| Vancouver (PDT) | 11:00 |
+| El Cairo (EET) | 21:00 |
+
+## H2H
+
+Nueva Zelanda y Egipto tienen registros muy escasos en competición oficial. Los faraones no participaban en un Mundial desde Italia 1990, y este regreso con **Mohamed Salah** (Liverpool) como abanderado genera una enorme expectación. Nueva Zelanda, representante de Oceanía, afronta su participación mundialista con el objetivo de superar la fase de grupos por primera vez desde el torneo de 2010 en Sudáfrica.
+
+## Árbitro
+
+Por confirmar.
+
+## Alineación Nueva Zelanda
+
+XI por confirmar. Referentes: **GK Sail · DF Osborne, Boxall · MF Cacace, Woud · FW Wood (cap), Thomas**
+
+## Alineación Egipto
+
+XI por confirmar. Referentes: **GK El-Shenawy · DF Hamdy, Abdelmonem · MF El-Nenney, Elneny · FW Salah (cap), Trezeguet**
+
+## Curiosidades
+
+- **Mohamed Salah** (Liverpool) es el mejor jugador africano del mundo y el gran atractivo de este partido. Llega al torneo en la cima de su carrera.
+- Egipto regresa a un Mundial por primera vez desde Italia **1990**, 36 años de ausencia.
+- **Chris Wood** (Nottingham Forest) es el máximo goleador histórico de Nueva Zelanda y su gran referente ofensivo.
+- BC Place fue la sede de los Juegos Olímpicos de Invierno de Vancouver 2010 y tiene un ambiente único.
+- Nueva Zelanda fue la única selección en no perder ningún partido en Sudáfrica 2010, aunque quedó eliminada en primera ronda con tres empates.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-20T14:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/e/ea/Mohamed_Salah_2021_CAN_Final.jpg',
+      alt: 'Mohamed Salah, capitán de Egipto y estrella del Liverpool, el gran reclamo del partido ante Nueva Zelanda',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-argentina-austria-tv-mundial-2026-grupo-a',
+    title: 'Argentina vs Austria: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'Argentina, campeona del mundo en Qatar 2022, mide su reinado ante una Austria organizada y peligrosa en el Hard Rock Stadium de Miami. El único precedente mundialista entre ambas fue una derrota argentina hace 60 años. Messi y Álvarez lideran a la Albiceleste en busca de la defensa del título.',
+    body: `## Cuándo y dónde
+
+**Argentina y Austria** se enfrentan en el Grupo A del Mundial 2026 el **22 de junio** en el **Hard Rock Stadium** de Miami Gardens, Florida, a las **12:00 UTC (14:00 CEST)**.
+
+## Dónde ver en España
+
+El partido se emite exclusivamente en **DAZN**. No hay emisión en abierto.
+
+## Horario
+
+| País | Hora local |
+|---|---|
+| España (CEST) | 14:00 |
+| Reino Unido (BST) | 13:00 |
+| Miami (EDT) | 08:00 |
+| Viena (CEST) | 14:00 |
+
+## H2H
+
+El único precedente mundialista entre Argentina y Austria data de **Inglaterra 1966**, cuando Austria ganó 2-1 en la fase de grupos. Han pasado 60 años de aquel partido y ambas selecciones son irreconocibles. Argentina llega como campeona del mundo, buscando ser la primera selección en defender el título desde Brasil en 1962. Austria, con una nueva generación liderada por jugadores de la Bundesliga, es uno de los equipos más sólidos de Europa.
+
+## Árbitro
+
+Por confirmar.
+
+## Alineación Argentina
+
+**Martinez E.** (GK) · **Romero, Martinez L.** (DF) · **De Paul, MacAllister** (MF) · **Messi (cap), Alvarez J., Martinez L.** (FW)
+
+## Alineación Austria
+
+**Pentz** (GK) · **Alaba, Danso** (DF) · **Laimer, Sabitzer** (MF) · **Arnautovic** (FW)
+
+## Curiosidades
+
+- **Lionel Messi** (Inter Miami) puede convertirse en el primer jugador en ganar tres Mundiales si Argentina defiende el título. Podría ser su última Copa del Mundo.
+- **David Alaba** (Real Madrid) lidera la defensa austríaca aunque llega condicionado por sus recientes lesiones de rodilla.
+- Argentina ganó su tercera estrella en Qatar 2022 al vencer a Francia en la final más emocionante de la historia.
+- **Marko Arnautovic** (Bologna) es el referente ofensivo austríaco, un delantero con gran físico y habilidad técnica.
+- Hard Rock Stadium, sede del Miami Dolphins, será un hervidero con la numerosa comunidad argentina en el sur de Florida.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-21T08:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/c/c4/Scaloni_-_ARG_v_CAN_-_2024-07-09.jpg',
+      alt: 'Lionel Scaloni, seleccionador de Argentina, dirigiendo a la Albiceleste campeona del mundo',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-francia-irak-tv-mundial-2026-grupo-i',
+    title: 'Francia vs Irak: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'Francia, subcampeona del mundo en Qatar 2022, se enfrenta al histórico regreso de Irak al Mundial, su primera participación en 40 años, en el Levi\'s Stadium de San Francisco. Mbappé y compañía parten como favoritos absolutos, pero el partido tiene su carga emocional e histórica.',
+    body: `## Cuándo y dónde
+
+**Francia e Irak** se miden en el Grupo I del Mundial 2026 el **22 de junio** en el **Levi's Stadium** de Santa Clara, California (área de San Francisco), a las **17:00 UTC (19:00 CEST)**.
+
+## Dónde ver en España
+
+El partido se emite exclusivamente en **DAZN**. No hay emisión en abierto.
+
+## Horario
+
+| País | Hora local |
+|---|---|
+| España (CEST) | 19:00 |
+| Reino Unido (BST) | 18:00 |
+| San Francisco (PDT) | 10:00 |
+| Bagdad (AST) | 20:00 |
+
+## H2H
+
+No existe ningún precedente mundialista entre Francia e Irak. Los galos llegan al torneo como uno de los máximos favoritos al título, con una generación comandada por **Kylian Mbappé**. Irak regresa a un Mundial por primera vez desde **México 1986**, hace 40 años, en uno de los regresos más emotivos del torneo. Para los mesopotamios, enfrentarse a Francia en la fase de grupos es ya un hito histórico.
+
+## Árbitro
+
+Por confirmar.
+
+## Alineación Francia
+
+**Maignan** (GK) · **Saliba, Konate** (DF) · **Tchouameni, Kante** (MF) · **Mbappe (cap), Dembele** (FW)
+
+## Alineación Irak
+
+**Hassan** (GK) · **Sulaka, Manaf** (DF) · **Iqbal, Yakob** (MF) · **Al-Hamadi, Mohanad** (FW)
+
+## Curiosidades
+
+- **Kylian Mbappé** (Real Madrid), capitán de Francia, tiene el objetivo de levantar el único título que le falta en su palmarés. Es el mejor jugador del mundo.
+- Irak participó en su único Mundial en **México 1986**, donde perdió los tres partidos de grupo.
+- **N'Golo Kanté** regresa a un gran torneo con Francia tras sus años en Arabia Saudí, aportando experiencia y calidad al mediocampo.
+- **Ousmane Dembélé** (PSG) llega al torneo en su mejor momento como exterior dinámico e imprevisible.
+- Levi's Stadium, hogar de los San Francisco 49ers, tiene capacidad para 68.500 espectadores con vistas a la Bahía de San Francisco.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-21T10:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/7/72/Kylian_Mbappe_2017.jpg',
+      alt: 'Kylian Mbappé, capitán de Francia y estrella del Real Madrid, uno de los favoritos al título del Mundial 2026',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-noruega-senegal-tv-mundial-2026-grupo-i',
+    title: 'Noruega vs Senegal: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'El duelo de estrellas del Grupo I: Erling Haaland contra Sadio Mané en el Lincoln Financial Field de Filadelfia. Noruega debuta en un Mundial después de décadas de ausencia. Senegal, campeón de África en 2022, tiene al equipo para llegar lejos. El partido del día en el Mundial 2026.',
+    body: `## Cuándo y dónde
+
+**Noruega y Senegal** se enfrentan en el Grupo I del Mundial 2026 el **22 de junio** en el **Lincoln Financial Field** de Filadelfia, Pensilvania, a las **20:00 UTC (22:00 CEST)**.
+
+## Dónde ver en España
+
+El partido se emite exclusivamente en **DAZN**. No hay emisión en abierto.
+
+## Horario
+
+| País | Hora local |
+|---|---|
+| España (CEST) | 22:00 |
+| Reino Unido (BST) | 21:00 |
+| Filadelfia (EDT) | 16:00 |
+| Dakar (GMT) | 20:00 |
+
+## H2H
+
+Noruega y Senegal cuentan con muy pocos encuentros oficiales entre sí. El duelo tiene nombre y apellido: **Haaland vs Mané**, uno de los choques individuales más atractivos de la fase de grupos. Noruega regresa a un Mundial años después de su última aparición, con una generación brillante. Senegal, campeón de la Copa Africana en 2022, es uno de los equipos africanos con más opciones de llegar lejos en el torneo.
+
+## Árbitro
+
+Por confirmar.
+
+## Alineación Noruega
+
+**Nyland** (GK) · **Ajer, Ostigard** (DF) · **Odegaard (cap), Berge** (MF) · **Haaland, Sorloth** (FW)
+
+## Alineación Senegal
+
+**Mendy** (GK) · **Koulibaly (cap)** (DF) · **Gueye, Pape Matar** (MF) · **Mane, Jackson** (FW)
+
+## Curiosidades
+
+- **Erling Haaland** (Manchester City), el mejor delantero del mundo, llega a su primer Mundial con enorme presión y expectativas planetarias.
+- **Sadio Mané** (Al-Nassr), uno de los mejores jugadores africanos de todos los tiempos, lidera a Senegal en busca de un hito histórico en este torneo.
+- **Martin Odegaard** (Arsenal), capitán de Noruega, será el cerebro creativo del equipo escandinavo.
+- Noruega fue semifinalista en **Francia 1998**, su última gran actuación en un Mundial. Han pasado 28 años.
+- **Nicolas Jackson** (Chelsea) forma pareja de ataque con Mané y aporta dinamismo y profundidad al ataque senegalés.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-21T12:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/7/75/Norway_Italy_-_June_2025_B_01.jpg',
+      alt: 'Selección de Noruega en partido reciente, con Haaland y Odegaard como referentes mundialistas',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-jordania-argelia-tv-mundial-2026-grupo-j',
+    title: 'Jordania vs Argelia: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'Jordania disputa su primer Mundial de la historia ante una Argelia con Mahrez como estrella en el AT&T Stadium de Dallas. Dos equipos con historias muy distintas que necesitan los tres puntos para sobrevivir en el Grupo J. El debut mundialista jordano tiene todo el sabor de la historia.',
+    body: `## Cuándo y dónde
+
+**Jordania y Argelia** se miden en el Grupo J del Mundial 2026 el **22 de junio** en el **AT&T Stadium** de Arlington, Texas, a las **20:00 UTC (22:00 CEST)**.
+
+## Dónde ver en España
+
+El partido se emite exclusivamente en **DAZN**. No hay emisión en abierto.
+
+## Horario
+
+| País | Hora local |
+|---|---|
+| España (CEST) | 22:00 |
+| Reino Unido (BST) | 21:00 |
+| Dallas (CDT) | 15:00 |
+| Argel (CET) | 22:00 |
+
+## H2H
+
+No existen precedentes en Mundiales entre Jordania y Argelia. Los jordanos llegan a su **primera Copa del Mundo en la historia**, una gesta histórica para un país que jamás había pisado el mayor escenario del fútbol mundial. Argelia, campeona de África en 2019 y con la experiencia de los Mundiales de 2010 y 2014, parte como favorita con **Riyad Mahrez** liderando el ataque.
+
+## Árbitro
+
+Por confirmar.
+
+## Alineación Jordania
+
+**Abulaila** (GK) · **Haddad I. (cap)** (DF) · **Rawabdeh** (MF) · **Al-Taamari** (FW)
+
+## Alineación Argelia
+
+**Zidane L.** (GK) · **Mandi, Bensebaini** (DF) · **Aouar, Zerrouki** (MF) · **Mahrez (cap), Gouiri** (FW)
+
+## Curiosidades
+
+- Jordania clasifica para su **primer Mundial** de la historia, un logro que llena de orgullo a todo el mundo árabe.
+- **Riyad Mahrez** (Al-Ahli), capitán de Argelia, es uno de los mejores extremos de su generación, ex Manchester City y campeón de la Premier League.
+- **Houssem Aouar** (Roma) es el creativo del mediocampo argelino, conocido en España por sus temporadas en la Ligue 1 con el Lyon.
+- Argelia fue eliminada en la primera ronda de sus dos últimos Mundiales (2010 y 2014), aunque en 2014 llegó a los octavos de final.
+- AT&T Stadium, con capacidad para 80.000 espectadores, es el mayor estadio del torneo y uno de los más impresionantes del mundo.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-21T14:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/9/90/Sanae_Takaichi_FIFA_World_Cup_2026_trophy_tour_05.jpg',
+      alt: 'Trofeo del Mundial FIFA 2026, el gran objetivo de todas las selecciones participantes en el torneo',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-portugal-uzbekistan-tv-mundial-2026-grupo-k',
+    title: 'Portugal vs Uzbekistán: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'Portugal se enfrenta al debut mundialista de Uzbekistán en el MetLife Stadium de Nueva Jersey. Cristiano Ronaldo, en lo que podría ser su última Copa del Mundo, quiere brillar ante un rival asequible. Khusanov, el central del Manchester City, protagoniza el duelo más curioso del partido.',
+    body: `## Cuándo y dónde
+
+**Portugal y Uzbekistán** se miden en el Grupo K del Mundial 2026 el **23 de junio** en el **MetLife Stadium** de East Rutherford, Nueva Jersey, a las **12:00 UTC (14:00 CEST)**.
+
+## Dónde ver en España
+
+El partido se emite exclusivamente en **DAZN**. No hay emisión en abierto.
+
+## Horario
+
+| País | Hora local |
+|---|---|
+| España (CEST) | 14:00 |
+| Reino Unido (BST) | 13:00 |
+| Nueva York (EDT) | 08:00 |
+| Taskent (UZT) | 17:00 |
+
+## H2H
+
+No existe ningún precedente entre Portugal y Uzbekistán en ninguna competición oficial. Portugal, semifinalista en Qatar 2022 y con una de las plantillas más talentosas de Europa, parte como favorita absoluta. Uzbekistán debuta en un Mundial en su segunda participación en una fase final de un gran torneo, con **Eldor Shomurodov** como máximo goleador histórico. La curiosidad del partido: el central **Abdukodir Khusanov** (Manchester City) frente a los grandes nombres portugueses.
+
+## Árbitro
+
+Por confirmar.
+
+## Alineación Portugal
+
+**Costa D.** (GK) · **Dias, Inacio** (DF) · **Fernandes B. (cap), Silva B.** (MF) · **Ronaldo, Leao** (FW)
+
+## Alineación Uzbekistán
+
+**Yusupov** (GK) · **Khusanov** (DF) · **Mozgovoy** (MF) · **Shomurodov (cap)** (FW)
+
+## Curiosidades
+
+- **Cristiano Ronaldo** (Al-Nassr) disputa lo que podría ser su **último Mundial**. Con 41 años, busca poner la guinda a su carrera con un título que nunca ha conseguido.
+- **Abdukodir Khusanov** (Manchester City) será el encargado de frenar a Ronaldo y Leão: el defensa uzbeko-inglés contra el mejor goleador de la historia del fútbol.
+- Portugal fue semifinalista en Qatar 2022, donde fue eliminada por Marruecos. Tiene la deuda pendiente de alcanzar una final mundialista.
+- **Rafael Leão** (AC Milan) es el jugador más desequilibrante de Portugal y el que puede marcar diferencias en el torneo.
+- MetLife Stadium acogerá la **final del Mundial 2026** el 19 de julio, lo que añade simbolismo a este partido de fase de grupos.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-22T08:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/6/6a/Cristiano_Ronaldo_Iran_vs_Portugal.jpg',
+      alt: 'Cristiano Ronaldo con la camiseta de Portugal, posiblemente en su última Copa del Mundo con la Selección das Quinas',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-inglaterra-ghana-tv-mundial-2026-grupo-l',
+    title: 'Inglaterra vs Ghana: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'Inglaterra se juega el liderato del Grupo L ante Ghana en Arrowhead Stadium, Kansas City. Jude Bellingham contra Mohammed Kudus: el duelo de la Premier League que definirá las aspiraciones de ambas selecciones. Los Tres Leones no pueden permitirse tropiezos en su camino al título.',
+    body: `## Cuándo y dónde
+
+**Inglaterra y Ghana** se enfrentan en el Grupo L del Mundial 2026 el **23 de junio** en el **Arrowhead Stadium** de Kansas City, Missouri, a las **16:00 UTC (18:00 CEST)**.
+
+## Dónde ver en España
+
+El partido se emite exclusivamente en **DAZN**. No hay emisión en abierto.
+
+## Horario
+
+| País | Hora local |
+|---|---|
+| España (CEST) | 18:00 |
+| Reino Unido (BST) | 17:00 |
+| Kansas City (CDT) | 11:00 |
+| Accra (GMT) | 16:00 |
+
+## H2H
+
+Inglaterra y Ghana no tienen precedentes en un Mundial. En el historial general, los ingleses se impusieron en un amistoso en 2011 (1-0). El encuentro será la primera vez que ambas selecciones se midan en la fase final de un Mundial. Ghana, con **Mohammed Kudus** (West Ham) como estrella, tiene potencial para dar guerra a unos Tres Leones que llegan como uno de los grandes favoritos del torneo.
+
+## Árbitro
+
+Por confirmar.
+
+## Alineación Inglaterra
+
+**Pickford** (GK) · **Stones, Guehi** (DF) · **Rice, Bellingham** (MF) · **Kane (cap), Saka** (FW)
+
+## Alineación Ghana
+
+**Ati-Zigi** (GK) · **Seidu, Mumin** (DF) · **Partey, Issahaku** (MF) · **Kudus (cap), Williams I.** (FW)
+
+## Curiosidades
+
+- **Jude Bellingham** (Real Madrid) llega al Mundial con 22 años como uno de los mejores centrocampistas del mundo. Es la gran esperanza inglesa de conquistar el título por primera vez desde 1966.
+- **Mohammed Kudus** (West Ham), capitán de Ghana con 24 años, es uno de los jugadores más desequilibrantes de la Premier League.
+- Inglaterra acumula ya tres finales de torneo en los últimos años (Euro 2020 y 2024 perdidas, semifinal Qatar 2022) sin conseguir el título.
+- **Thomas Partey** (Arsenal) es el referente del mediocampo ghanés, con enorme experiencia en el fútbol europeo.
+- **Harry Kane** (Bayern Múnich), máximo goleador histórico de Inglaterra, llega al torneo hambriento de títulos colectivos.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-22T10:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/f/fa/Jude_Bellingham_WC2022.jpg',
+      alt: 'Jude Bellingham, estrella de Inglaterra y el Real Madrid, referencia de los Tres Leones en el Mundial 2026',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-panama-croacia-tv-mundial-2026-grupo-l',
+    title: 'Panamá vs Croacia: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'Panamá y Croacia disputan un partido crucial del Grupo L en el Gillette Stadium de Boston. Luka Modric, en lo que podría ser su último gran partido mundialista, lidera a una Croacia que quiere repetir el éxito de Rusia 2018. Los panameños buscan su segundo paso a octavos en solo tres Mundiales.',
+    body: `## Cuándo y dónde
+
+**Panamá y Croacia** se miden en el Grupo L del Mundial 2026 el **23 de junio** en el **Gillette Stadium** de Foxborough, Massachusetts, a las **19:00 UTC (21:00 CEST)**.
+
+## Dónde ver en España
+
+El partido se emite exclusivamente en **DAZN**. No hay emisión en abierto.
+
+## Horario
+
+| País | Hora local |
+|---|---|
+| España (CEST) | 21:00 |
+| Reino Unido (BST) | 20:00 |
+| Boston (EDT) | 15:00 |
+| Ciudad de Panamá (ET) | 14:00 |
+
+## H2H
+
+Los registros entre Panamá y Croacia son prácticamente inexistentes en competición oficial. Croacia llega al torneo con la aureola de subcampeona del mundo en Rusia 2018 y semifinalista en Qatar 2022, siempre impulsada por la magia de **Luka Modric**. Panamá, en su tercer Mundial, busca superar la barrera de la primera ronda que ya logró en Qatar 2022 (aunque cayó en octavos ante Francia).
+
+## Árbitro
+
+Por confirmar.
+
+## Alineación Panamá
+
+**Mosquera** (GK) · **Murillo, Escobar** (DF) · **Godoy, Carrasquilla** (MF) · **Diaz I., Waterman** (FW)
+
+## Alineación Croacia
+
+**Livakovic** (GK) · **Gvardiol, Caleta-Car** (DF) · **Modric (cap), Kovacic** (MF) · **Kramaric, Budimir** (FW)
+
+## Curiosidades
+
+- **Luka Modric** (Al-Qadsiah), con 40 años, puede estar disputando los últimos partidos de su legendaria carrera con la selección croata. Es el mejor jugador de la historia de Croacia.
+- **Josko Gvardiol** (Manchester City), con 22 años, representa el relevo generacional croata: uno de los mejores centrales del mundo.
+- Croacia fue **finalista en Rusia 2018** y **semifinalista en Qatar 2022**. Dos generaciones de futbolistas excepcionales.
+- **Mateo Kovacic** (Manchester City) es el otro líder del mediocampo croata junto a Modric, con una calidad técnica extraordinaria.
+- Panamá clasificó por primera vez para un Mundial en **Rusia 2018** y ya acumula tres participaciones consecutivas, un logro notable para el fútbol centroamericano.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-22T12:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Luka_Modri%C4%87_meets_Kolinda_Grabar-Kitarovi%C4%87_after_the_2018_FIFA_World_Cup_Final_%282%29.jpg',
+      alt: 'Luka Modric, capitán y leyenda de Croacia, tras la final del Mundial de Rusia 2018',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-colombia-congo-tv-mundial-2026-grupo-k',
+    title: 'Colombia vs R.D. Congo: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'Colombia, con James Rodríguez y Luis Díaz como referentes, afronta un partido de máxima urgencia ante la República Democrática del Congo en el SoFi Stadium de Los Ángeles. Los Leopardos debutantes tienen en Wissa y Bakambu argumentos para complicar la vida a los cafeteros del Grupo K.',
+    body: `## Cuándo y dónde
+
+**Colombia y la República Democrática del Congo** se enfrentan en el Grupo K del Mundial 2026 el **23 de junio** en el **SoFi Stadium** de Inglewood, Los Ángeles, a las **20:00 UTC (22:00 CEST)**.
+
+## Dónde ver en España
+
+El partido se emite exclusivamente en **DAZN**. No hay emisión en abierto.
+
+## Horario
+
+| País | Hora local |
+|---|---|
+| España (CEST) | 22:00 |
+| Reino Unido (BST) | 21:00 |
+| Los Ángeles (PDT) | 13:00 |
+| Kinshasa (WAT) | 22:00 |
+
+## H2H
+
+Colombia y la República Democrática del Congo no han disputado ningún encuentro mundialista. El historial general entre ambas selecciones es muy reducido. Colombia, semifinalista en Brasil 2014 y con una de las generaciones más talentosas de su historia, llega como favorita clara. La RD Congo debuta en un Mundial, representando al país más poblado de África subsahariana. **Cédric Bakambu** (capitán) y **Yoane Wissa** (Brentford) son sus principales amenazas.
+
+## Árbitro
+
+Por confirmar.
+
+## Alineación Colombia
+
+**Vargas** (GK) · **Munoz, Lucumi** (DF) · **Rios, James (cap)** (MF) · **Diaz L., Duran** (FW)
+
+## Alineación R.D. Congo
+
+**Epolo** (GK) · **Mbemba, Wan-Bissaka** (DF) · **Sadiki, Kayembe** (MF) · **Wissa, Bakambu (cap)** (FW)
+
+## Curiosidades
+
+- **James Rodríguez** (Rayo Vallecano), capitán de Colombia, busca recuperar en este torneo el nivel que lo convirtió en el mejor jugador del Mundial de Brasil 2014, donde fue Bota de Oro.
+- **Luis Díaz** (Liverpool) es el jugador más explosivo de Colombia y llega al Mundial en plena madurez futbolística.
+- **Aaron Wan-Bissaka** (ex-Manchester United, Crystal Palace), internacional congoleño, es uno de los jugadores más reconocibles de la Premier League en la plantilla de la RD Congo.
+- La República Democrática del Congo debuta en un Mundial a pesar de tener una población de más de 100 millones de habitantes y un enorme potencial futbolístico.
+- **Jhon Durán** (Aston Villa), el joven delantero colombiano, llega al torneo como uno de los jugadores más prometedores del continente americano.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-22T14:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/8/80/Luis_D%C3%ADaz%2C_LFC%3B_May_2022.jpg',
+      alt: 'Luis Díaz, extremo colombiano del Liverpool, uno de los grandes protagonistas del Colombia-R.D. Congo del Mundial 2026',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-sui-can-tv-mundial-2026-grupo-b',
+    title: 'Suiza vs Canadá: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'Suiza y Canadá se juegan el pase en la última jornada del Grupo B, con Bosnia y Qatar jugando simultáneamente. Xhaka lidera una Nati que no puede fallar. Jonathan David, máxima amenaza canadiense en un partido de todo o nada en el MetLife de Nueva Jersey.',
+    body: `## Cuándo y dónde
+
+Suiza y Canadá se enfrentan este martes 24 de junio en el MetLife Stadium de East Rutherford, Nueva Jersey, con el pase a la siguiente ronda en juego. El partido arranca a las 14:00 horas (CEST). Mientras tanto, en Vancouver, Bosnia y Qatar juegan simultáneamente —ambos resultados se conocerán al mismo tiempo, sin trampa posible.
+
+La Nati llega con opciones reales de clasificarse, pero no puede permitirse el lujo de especular. Canadá, en su segundo Mundial consecutivo después del histórico de 2022, necesita ganar o rezar por resultados favorables. El ambiente en el MetLife promete ser eléctrico.
+
+## Dónde ver en España
+
+El partido se emite exclusivamente en **DAZN**. No habrá emisión en abierto.
+
+## Horario
+
+| País | Hora |
+|------|------|
+| España (CEST) | 14:00 |
+| Reino Unido (BST) | 13:00 |
+| Nueva York (ET) | 08:00 |
+| México (CDT) | 07:00 |
+
+## H2H
+
+Suiza y Canadá tienen un historial limitado pero tenso. Se han enfrentado en tres ocasiones, con balance favorable a los suizos. En torneos de la FIFA no tienen precedente directo en fase de grupos, lo que añade incertidumbre. La última vez que coincidieron en un Mundial fue en 2006, aunque en grupos distintos.
+
+## Árbitro
+
+Por confirmar.
+
+## Alineación Suiza
+
+Yann Sommer en la portería, con Schär y Akanji como centrales de garantías. Granit Xhaka, el motor del equipo desde el mediocampo, será el jugador a seguir. Shaqiri aporta experiencia; Embolo y Vargas pelean por la titularidad arriba. Probable XI: Sommer; Widmer, Schär, Akanji, Rodríguez; Freuler, Xhaka; Shaqiri, Seferovic, Vargas; Embolo.
+
+## Alineación Canadá
+
+Maxime Crépeau bajo palos. La defensa depende del estado de Miller y Johnston. En ataque, Jonathan David es la gran esperanza —el delantero del Lille llega en estado de gracia. Alphonso Davies, si está recuperado, puede desequilibrar por la banda. Probable XI: Crépeau; Johnston, Miller, Vitória, Davies; Laryea, Eustáquio; Buchanan, Osorio, David; Cyle Larin.
+
+## Curiosidades
+
+- Suiza nunca ha superado los cuartos de final en un Mundial. Esta edición busca romper el techo histórico.
+- Canadá ha esperado 40 años entre apariciones mundialistas (1986-2022). En 2026 juega en casa.
+- Granit Xhaka disputará presumiblemente su último Mundial con 33 años.
+- Jonathan David es el máximo goleador histórico de la selección canadiense y viene de una temporada excepcional en la Ligue 1.
+- El MetLife Stadium fue sede de la final de esta edición del Mundial 2026.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-23T08:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/BC_Place_2014.jpg/1280px-BC_Place_2014.jpg',
+      alt: 'MetLife Stadium, sede del Suiza vs Canadá del Mundial 2026',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-bih-qat-tv-mundial-2026-grupo-b',
+    title: 'Bosnia vs Qatar: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'Bosnia y Qatar cierran el Grupo B en Vancouver en partido simultáneo con Suiza-Canadá. Los Zmajevi necesitan un milagro para clasificarse; Qatar, anfitrión del último Mundial, busca redención. Edin Dzeko manda. Akram Afif, el mejor jugador catarí, tratará de sorprender en el BC Place.',
+    body: `## Cuándo y dónde
+
+Bosnia y Qatar se miden este martes 24 de junio en el BC Place de Vancouver, a las 14:00 horas (CEST). El partido se disputa en el mismo horario que Suiza-Canadá, cerrando así la última jornada del Grupo B sin posibilidad de trampa. Los Zmajevi bosnios necesitan ganar y esperar resultados favorables para soñar con el pase. Qatar llega en posición delicada pero con el orgullo de ser la selección que organizó el último Mundial.
+
+Vancouver, una de las sedes canadienses del torneo, acogerá un choque en el que nada está decidido. Bosnia tiene historia en este escenario —llegó a la fase de grupos de Brasil 2014, su único Mundial hasta ahora— y quiere escribir un nuevo capítulo.
+
+## Dónde ver en España
+
+El partido se emite exclusivamente en **DAZN**. No habrá emisión en abierto.
+
+## Horario
+
+| País | Hora |
+|------|------|
+| España (CEST) | 14:00 |
+| Reino Unido (BST) | 13:00 |
+| Nueva York (ET) | 08:00 |
+| México (CDT) | 07:00 |
+
+## H2H
+
+Bosnia y Qatar no tienen precedentes significativos en competición oficial. Es su primer enfrentamiento en una fase final de un Mundial. Qatar llega con la experiencia del 2022, aunque aquella edición fue agridulce al caer eliminado en la fase de grupos como anfitrión —algo sin precedente histórico.
+
+## Árbitro
+
+Por confirmar.
+
+## Alineación Bosnia
+
+Edin Dzeko, con 40 años cumplidos, sigue siendo el alma de esta selección. Su capacidad de aguantar el balón y asociarse hace daño a cualquier defensa. Pjanic, si su cuerpo le responde, añade calidad en la mediación. Probable XI: Sehic; Kolasinac, Besic, Sunjic; Cimirot, Pjanic, Krunic; Visca, Dzeko, Gojak; Prevljak.
+
+## Alineación Qatar
+
+Akram Afif, el as catarí, es el jugador diferencial. Almoez Ali aporta movilidad en la punta. Boudiaf controla el centro del campo. Probable XI: Al Sheeb; Pedro Miguel, Al Rawi, Hassan, Salman; Boudiaf, Al Haydos; Afif, Almoez Ali, Muntari; Al Ahrak.
+
+## Curiosidades
+
+- Qatar fue el primer anfitrión de un Mundial en caer eliminado en la fase de grupos (2022).
+- Edin Dzeko es el máximo goleador histórico de Bosnia con más de 65 goles internacionales.
+- Bosnia nunca ha superado la fase de grupos en un Mundial.
+- El BC Place de Vancouver es el único estadio cubierto de la edición 2026.
+- Akram Afif ganó el Balón de Oro de la AFC en 2023.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-23T10:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/8/85/20150331_2028_AUT_BIH_2186.jpg',
+      alt: 'Bosnia en un partido internacional, imagen de archivo',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-mar-hai-tv-mundial-2026-grupo-c',
+    title: 'Marruecos vs Haití: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'Marruecos, clasificado o cerca de estarlo, recibe a Haití en la última jornada del Grupo C en Boston. Los Leones del Atlas no aflojarán: la dinámica importa de cara al cruce. Haití vive el torneo como un sueño y lucha por el honor en su debut o regreso a la cita más grande del fútbol.',
+    body: `## Cuándo y dónde
+
+Marruecos y Haití cierran el Grupo C este martes 24 de junio en el Gillette Stadium de Foxborough (Boston), con inicio previsto a las 20:00 horas (CEST). Los Leones del Atlas, semifinalistas en Qatar 2022 y uno de los equipos más respetados del torneo, afrontan un partido en el que el objetivo principal es terminar lo mejor posicionados posible.
+
+Haití llega con menos presión aritmética pero con mucho que demostrar. Para una selección de su dimensión, cada partido en un Mundial es histórico. Su afición, entregada y colorida, llenará su rincón del estadio.
+
+## Dónde ver en España
+
+El partido se emite exclusivamente en **DAZN**. No habrá emisión en abierto.
+
+## Horario
+
+| País | Hora |
+|------|------|
+| España (CEST) | 20:00 |
+| Reino Unido (BST) | 19:00 |
+| Nueva York (ET) | 14:00 |
+| México (CDT) | 13:00 |
+
+## H2H
+
+Marruecos y Haití tienen encuentros contados en competición oficial. El balance es favorable a los africanos, que han demostrado en los últimos años dar un salto de calidad exponencial. Haití nunca ha ganado a Marruecos en los registros FIFA recientes.
+
+## Árbitro
+
+Por confirmar.
+
+## Alineación Marruecos
+
+Hakimi por la derecha es el gran activo ofensivo marroquí. En el centro, Amrabat como ancla, con Ounahi y Ziyech buscando el espacio. Arriba, En-Nesyri como referencia. Probable XI: Bounou; Hakimi, Aguerd, Saiss, Mazraoui; Amrabat, Ounahi; Ziyech, Boufal, Sabiri; En-Nesyri.
+
+## Alineación Haití
+
+Haití plantea un esquema ordenado y físico. Carnejy Antoine es la referencia ofensiva, apoyado por Nazon. En el centro, Sanon y Saintil trabajan sin descanso. Probable XI: Voltaire; Dorelien, Belfort, Roc, Florestal; Sanon, Saintil; Pierre, Nazon, Borgella; Antoine.
+
+## Curiosidades
+
+- Marruecos fue cuarto en Qatar 2022, la mejor clasificación africana en la historia de los Mundiales.
+- Achraf Hakimi, criado en Madrid, es uno de los laterales más completos del mundo.
+- Haití ha participado en un Mundial anteriormente: 1974 en Alemania, donde perdió los tres partidos.
+- El combinado marroquí tiene más de 30 jugadores formados en clubes europeos.
+- Boston fue una de las sedes del primer Mundial celebrado en suelo norteamericano, en 1994.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-23T12:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/5/52/HakimiAchraf.jpg',
+      alt: 'Achraf Hakimi, lateral derecho de Marruecos',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-sco-bra-tv-mundial-2026-grupo-c',
+    title: 'Escocia vs Brasil: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'Brasil, gigante del fútbol mundial, se mide a Escocia en el cierre del Grupo C en Miami. El historial favorece claramente a la Canarinha: cuatro encuentros mundialistas, cuatro victorias brasileñas. Vinicius Jr lidera la amenaza ofensiva ante una Escocia que sueña con el golpe histórico.',
+    body: `## Cuándo y dónde
+
+Escocia y Brasil chocan este martes 24 de junio en el Hard Rock Stadium de Miami, a las 20:00 horas (CEST). El partido cierra la última jornada del Grupo C de manera simultánea con Marruecos-Haití. Brasil llega clasificado o muy cerca de estarlo, pero una derrota podría alterar su posición en el grupo. Escocia, en su primer Mundial en décadas, sueña con el milagro.
+
+El Hampden Park roared en Europa; ahora el escenario es Miami. Los aficionados escoceses, conocidos por su fervor y su sentido del humor, prometían llenar el estadio de tartanes y ruido.
+
+## Dónde ver en España
+
+El partido se emite exclusivamente en **DAZN**. No habrá emisión en abierto.
+
+## Horario
+
+| País | Hora |
+|------|------|
+| España (CEST) | 20:00 |
+| Reino Unido (BST) | 19:00 |
+| Nueva York (ET) | 14:00 |
+| México (CDT) | 13:00 |
+
+## H2H
+
+Brasil domina el historial: 4 victorias, 1 empate y 1 derrota en el cómputo total. En fase final de Mundial, la Canarinha siempre ha superado a Escocia. El recuerdo más vívido: España 1982. Escocia marcó primero gracias a un golazo de Narey en el 18', pero Brasil respondió con cuatro goles y ganó 4-1. La maldición se perpetúa, pero Escocia tiene su mejor generación en años.
+
+## Árbitro
+
+Por confirmar.
+
+## Alineación Escocia
+
+Andy Robertson, incansable por la izquierda, será clave tanto en defensa como en ataque. McTominay es el motor desde el centro. Scott McTominay del Nápoles en estado de gracia. Dykes como referencia. Probable XI: Gordon; Alexander-Arnold, Hendry, Hanley, Robertson; McTominay, Gilmour; Christie, Adams, McGinn; Dykes.
+
+## Alineación Brasil
+
+Vinicius Jr es la gran amenaza. Rodrygo aporta velocidad y desequilibrio. En la medular, Casemiro controla los tiempos, Paquetá da creatividad. Ederson en la portería. Probable XI: Ederson; Danilo, Marquinhos, Militão, Wendell; Casemiro, Paquetá; Rodrygo, Neymar Jr, Vinicius Jr; Endrick.
+
+## Curiosidades
+
+- Escocia no participaba en un Mundial desde Francia 1998, una sequía de 28 años.
+- El golazo de Narey frente a Brasil en 1982 fue catalogado como 'un tiro de paleto' por el comentarista inglés Jimmy Hill, provocando la ira escocesa.
+- Vinicius Jr ha ganado la Champions League con el Real Madrid y es uno de los tres mejores jugadores del mundo.
+- Brasil nunca ha sido eliminado en fase de grupos de un Mundial.
+- Hard Rock Stadium fue sede de la Copa América 2024.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-23T14:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/3/37/Vinicius_Jr_2018_%28cropped%29.jpg',
+      alt: 'Vinicius Jr, estrella de Brasil en el Mundial 2026',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-rsa-kor-tv-mundial-2026-grupo-a',
+    title: 'Sudáfrica vs Corea del Sur: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'Sudáfrica y Corea del Sur se enfrentan en un duelo decisivo del Grupo A en Filadelfia. Ambas selecciones necesitan sumar para avanzar. Son Heung-min, capitán y referencia surcoreana, busca reivindicarse en el partido más importante. La clasificación depende de este choque y del resultado paralelo.',
+    body: `## Cuándo y dónde
+
+Sudáfrica y Corea del Sur juegan este martes 24 de junio en el Lincoln Financial Field de Filadelfia, con inicio a las 21:00 horas (CEST). El partido es simultáneo con República Checa-México, lo que convierte la última jornada del Grupo A en una ruleta rusa. Ambas selecciones saben exactamente lo que necesitan: ganar o, al menos, no perder mientras el otro partido les favorece.
+
+Filadelfia, ciudad con una de las comunidades coreanas más grandes de Norteamérica, será un caos de banderas e ilusión. Sudáfrica, con la memoria de 2010 todavía fresca en el corazón del continente africano, viene a competir.
+
+## Dónde ver en España
+
+El partido se emite exclusivamente en **DAZN**. No habrá emisión en abierto.
+
+## Horario
+
+| País | Hora |
+|------|------|
+| España (CEST) | 21:00 |
+| Reino Unido (BST) | 20:00 |
+| Nueva York (ET) | 15:00 |
+| México (CDT) | 14:00 |
+
+## H2H
+
+Sudáfrica y Corea del Sur se han medido en contadas ocasiones. Sin encuentros en fases finales de Mundiales previas entre ambas, el duelo es relativamente inédito en este escenario. El balance histórico general es parejo, lo que no da pistas claras sobre el favorito.
+
+## Árbitro
+
+Por confirmar.
+
+## Alineación Sudáfrica
+
+Ronwen Williams, uno de los mejores porteros africanos, es el pilar defensivo. Percy Tau aporta calidad técnica en banda. Lyle Foster como delantero centro. Probable XI: Williams; Nyandu, Munyai, Modiba, Mobbie; Mokoena, Zungu; Mthethwa, Tau, Dolly; Foster.
+
+## Alineación Corea del Sur
+
+Son Heung-min, con 33 años y ya en su cuarto Mundial, lidera una generación que incluye a Lee Kang-in como socio creativo. Hwang Hee-chan aporta movilidad y gol. Probable XI: Kim Seung-gyu; Kim Moon-hwan, Kim Min-jae, Kwon Kyung-won, Kim Jin-su; Jung Woo-young, Hwang In-beom; Lee Kang-in, Son Heung-min, Hwang Hee-chan; Cho Gue-sung.
+
+## Curiosidades
+
+- Corea del Sur llegó a las semifinales del Mundial 2002, en casa, con el mítico Ahn Jung-hwan.
+- Son Heung-min marcó en el Mundial 2018 y es el máximo goleador histórico de su selección.
+- Sudáfrica fue la sede del Mundial 2010, el primero celebrado en África.
+- La selección sudafricana fue la única anfitriona en ser eliminada en fase de grupos en 2010.
+- Lee Kang-in, del Paris Saint-Germain, es la gran promesa ofensiva del equipo asiático.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-23T16:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/7/79/Son_Heung-min_celebrating_-_13_December_2018_%28cropped%29.jpg',
+      alt: 'Son Heung-min celebra un gol con Corea del Sur',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-cze-mex-tv-mundial-2026-grupo-a',
+    title: 'República Checa vs México: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'México juega su Mundial en casa y no puede fallar. En Kansas City, la Tri se enfrenta a República Checa sabiendo que la clasificación está en sus manos. Simultáneo con Sudáfrica-Corea del Sur, el grupo se resolverá en 90 minutos de tensión máxima. Toda la nación azteca pendiente del Arrowhead.',
+    body: `## Cuándo y dónde
+
+República Checa y México se enfrentan este martes 24 de junio en el Arrowhead Stadium de Kansas City, a las 21:00 horas (CEST). El partido es simultáneo con Sudáfrica-Corea del Sur, cerrando la última jornada del Grupo A. México, anfitrión del torneo junto a Estados Unidos y Canadá, tiene la obligación moral y deportiva de pasar la fase de grupos. No hacerlo sería una catástrofe nacional.
+
+Kansas City, en el corazón de América, recibe a la selección que más pasión genera en todo el torneo. El verde de la Tri inundará el estadio de los Kansas City Chiefs.
+
+## Dónde ver en España
+
+El partido se emite exclusivamente en **DAZN**. No habrá emisión en abierto.
+
+## Horario
+
+| País | Hora |
+|------|------|
+| España (CEST) | 21:00 |
+| Reino Unido (BST) | 20:00 |
+| Nueva York (ET) | 15:00 |
+| México (CDT) | 14:00 |
+
+## H2H
+
+México y República Checa se han enfrentado en amistosos sin mucha regularidad. El balance es favorable a los checos en los últimos cruces directos, pero México llega con la motivación de jugar en casa. Sin precedente en fases finales mundialistas, el duelo es técnicamente inédito a este nivel.
+
+## Árbitro
+
+Por confirmar.
+
+## Alineación República Checa
+
+Patrik Schick como referencia ofensiva es el gran peligro. En la medular, Tomás Soucek controla el juego aéreo y el trabajo físico. Vladimír Coufal en banda derecha. Probable XI: Stanek; Coufal, Vitík, Krejcí, Zelený; Soucek, Provod; Pesek, Cerný, Lingr; Schick.
+
+## Alineación México
+
+Santiago Giménez es la apuesta ofensiva. En el mediocampo, Edson Álvarez marca los ritmos. Hirving Lozano, si está disponible, puede hacer daño por la derecha. Probable XI: Ochoa; Sánchez, Montes, Moreno, Gallardo; Álvarez, Romo; Lozano, Antuna, Vega; Giménez.
+
+## Curiosidades
+
+- México ha caído en octavos de final en siete Mundiales consecutivos, el llamado 'quinto partido'.
+- Guillermo Ochoa, si está en la portería, podría ser el jugador más veterano del torneo.
+- República Checa llegó a la semifinal del Mundial 2006 como Checoslovaquia antes de la escisión.
+- El Arrowhead Stadium de Kansas City tiene capacidad para más de 76.000 espectadores.
+- Santiago Giménez, del Feyenoord, es el gran ariete mexicano de la nueva generación.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-23T18:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/5/5b/Estadio_Azteca1706p2.jpg',
+      alt: 'Afición mexicana, imagen representativa de la selección azteca',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-cuw-civ-tv-mundial-2026-grupo-d',
+    title: 'Curazao vs Costa de Marfil: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'Curazao, debutante soñador del Caribe, se enfrenta a Costa de Marfil en Dallas en la última jornada del Grupo D. Los marfileños, con Amad Diallo como gran estrella, buscan el punto que les acerque al pase. Para Curazao, cada minuto en un Mundial es historia pura. Un choque entre David y Goliat.',
+    body: `## Cuándo y dónde
+
+Curazao y Costa de Marfil se miden este miércoles 25 de junio en el AT&T Stadium de Arlington (Dallas), con inicio a las 18:00 horas (CEST). El partido cierra la última jornada del Grupo D. Costa de Marfil necesita al menos un punto para asegurar su clasificación. Curazao, en su debut absoluto en un Mundial, ya ha escrito historia solo con llegar hasta aquí y no tiene nada que perder.
+
+Dallas, ciudad con una fuerte comunidad caribeña y africana, promete una atmósfera vibrante y multicolor.
+
+## Dónde ver en España
+
+El partido se emite exclusivamente en **DAZN**. No habrá emisión en abierto.
+
+## Horario
+
+| País | Hora |
+|------|------|
+| España (CEST) | 18:00 |
+| Reino Unido (BST) | 17:00 |
+| Nueva York (ET) | 12:00 |
+| México (CDT) | 11:00 |
+
+## H2H
+
+Primer encuentro oficial entre ambas selecciones en una fase final de Mundial. Curazao es demasiado joven como selección independiente para tener historial consolidado frente a los Elefantes. Costa de Marfil, sin embargo, tiene una tradición mundialista que incluye participaciones en 2006, 2010 y 2014.
+
+## Árbitro
+
+Por confirmar.
+
+## Alineación Curazao
+
+Curazao cuenta con jugadores dispersos por ligas europeas de segundo y tercer nivel. Leandro Bacuna, el más experimentado, lidera desde el mediocampo. Cuco Martina aporta experiencia. Probable XI: Meijer; Martina, Sulvaran, Heatutu, Lont; Bacuna, Thomas; Mijnans, Quasten, Aranguren; Schoop.
+
+## Alineación Costa de Marfil
+
+Amad Diallo, la joya del Manchester United, es el jugador más peligroso del equipo. Franck Kessié controla el centro del campo. Sebastien Haller es la referencia ofensiva si está disponible. Probable XI: Sangare; Aurier, Konan, Deli, Mandi; Kessié, Sangaré; Amad Diallo, Pépe, Gradel; Haller.
+
+## Curiosidades
+
+- Curazao se independizó deportivamente de las Antillas Neerlandesas en 2010 y es el equipo más joven del torneo en términos institucionales.
+- Amad Diallo tiene ascendencia marfileña y puede ser la estrella más brillante del partido.
+- Costa de Marfil fue la selección que 'asesinó' a Didier Drogba en la fase de grupos de Brasil 2014 al caer eliminada con el mejor Drogba de su historia.
+- El AT&T Stadium de Dallas tiene el tejado retráctil más grande del mundo.
+- Varios jugadores de Curazao militan en la Eredivisie holandesa.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-24T08:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/4/43/Franck_Yannick_Kessié.jpg',
+      alt: 'Franck Kessié, centrocampista de Costa de Marfil',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-ecu-ger-tv-mundial-2026-grupo-e',
+    title: 'Ecuador vs Alemania: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'Alemania, cuatro veces campeona del mundo, se juega el liderato del Grupo E frente a Ecuador en Houston. El H2H mundialista es claro: 3-0 en Alemania 2006 con doblete de Klose. Florian Wirtz lidera la nueva generación germana. Ecuador, empujado por su afición, buscará el golpe de su historia.',
+    body: `## Cuándo y dónde
+
+Ecuador y Alemania se enfrentan este miércoles 25 de junio en el NRG Stadium de Houston, a las 18:00 horas (CEST). El partido cierra la última jornada del Grupo E. Alemania llega con opciones de liderar el grupo y tiene el historial mundialista a su favor. Ecuador, cuya afición es apasionada y su fútbol más físico que técnico, sabe que necesita algo especial para competir.
+
+Houston, ciudad con la comunidad latinoamericana más grande de Texas, promete una batalla de decibeles en las gradas.
+
+## Dónde ver en España
+
+El partido se emite exclusivamente en **DAZN**. No habrá emisión en abierto.
+
+## Horario
+
+| País | Hora |
+|------|------|
+| España (CEST) | 18:00 |
+| Reino Unido (BST) | 17:00 |
+| Nueva York (ET) | 12:00 |
+| México (CDT) | 11:00 |
+
+## H2H
+
+Alemania es imbatida en tres encuentros frente a Ecuador. El más memorable: el duelo del Mundial 2006 en el Grupo A, con victoria germana por 3-0. Miroslav Klose marcó dos goles y Lukas Podolski el tercero. Ecuador llegaba a ese torneo como revelación de América del Sur y cayó ante el anfitrión sin pestañear.
+
+## Árbitro
+
+Por confirmar.
+
+## Alineación Ecuador
+
+Enner Valencia, si llega en forma, sigue siendo el referente goleador. Moisés Caicedo domina el mediocampo desde el Chelsea. Ángel Mena aporta velocidad. Probable XI: Galíndez; Preciado, Torres, Hincapié, Estupiñán; Caicedo, Plata; Mena, Sarmiento, Ibarra; Valencia.
+
+## Alineación Alemania
+
+Florian Wirtz, el genio del Bayer Leverkusen con apenas 23 años, es la gran estrella de esta Mannschaft renovada. Müller si está disponible. Kai Havertz como '9' falso. Probable XI: Ter Stegen; Kimmich, Rüdiger, Tah, Raum; Andrich, Goretzka; Musiala, Wirtz, Gnabry; Havertz.
+
+## Curiosidades
+
+- Alemania ganó el Mundial 2014 en Brasil con una goleada histórica de 7-1 a la anfitriona.
+- Florian Wirtz fue el jugador más determinante de la Bundesliga en las temporadas 2023 y 2024.
+- Ecuador marcó en el primer minuto del Mundial 2006 frente a Polonia pero perdió ante Alemania en la segunda jornada.
+- Moisés Caicedo, del Chelsea, es considerado uno de los mejores centrocampistas del mundo actualmente.
+- El NRG Stadium fue sede del Super Bowl y tiene capacidad para 72.000 espectadores.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-24T10:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/5/58/Florian_Wirtz%2C_2022-07-31%2C_Saisoner%C3%B6ffnung_Bayer_04%2C_Leverkusen_%281%29.jpg',
+      alt: 'Florian Wirtz, la estrella de Alemania en el Mundial 2026',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-tun-ned-tv-mundial-2026-grupo-e',
+    title: 'Túnez vs Países Bajos: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'Túnez necesita ganar para mantener vivas sus opciones en el Grupo E. Los Países Bajos, con Van Dijk como roca defensiva, llegan con posibilidades de clasificarse sin grandes apuros. Una Naranja Mecánica que no quiere sorpresas en el Levi\'s Stadium de San Francisco. Los africanos lo intentarán todo.',
+    body: `## Cuándo y dónde
+
+Túnez y Países Bajos se juegan la clasificación del Grupo E este miércoles 25 de junio en el Levi's Stadium de Santa Clara (San Francisco), con inicio a las 20:00 horas (CEST). El partido es simultáneo con Japón-Suecia. Países Bajos puede clasificarse incluso sin ganar, pero Túnez necesita los tres puntos para tener opciones reales de avanzar.
+
+San Francisco, con su ambiente cosmopolita y su gran afición al fútbol, recibe uno de los partidos más atractivos de la jornada.
+
+## Dónde ver en España
+
+El partido se emite exclusivamente en **DAZN**. No habrá emisión en abierto.
+
+## Horario
+
+| País | Hora |
+|------|------|
+| España (CEST) | 20:00 |
+| Reino Unido (BST) | 19:00 |
+| Nueva York (ET) | 14:00 |
+| México (CDT) | 13:00 |
+
+## H2H
+
+Túnez y Países Bajos tienen escasos precedentes en Mundiales. El más reciente fue en la fase de grupos de Qatar 2022, donde empataron 0-0. El registro histórico general favorece claramente a los neerlandeses. Túnez ha mejorado exponencialmente, pero ganar a Holanda es siempre un reto monumental.
+
+## Árbitro
+
+Por confirmar.
+
+## Alineación Túnez
+
+Youssef Msakni, si llega en condiciones, es el gran creador. Wahbi Khazri aporta experiencia. Hannibal Mejbri, el joven del Manchester United, busca protagonismo. Probable XI: Dahmen; Talbi, Meriah, Bouchniba, Drager; Ben Romdhane, Laidouni; Khazri, Mejbri, Msakni; Jebali.
+
+## Alineación Países Bajos
+
+Virgilius Van Dijk es el capitán y alma de la defensa. Cody Gakpo y Memphis Depay en ataque. Frenkie de Jong manda en el centro. Probable XI: Flekken; Dumfries, De Vrij, Van Dijk, Blind; De Jong, Schouten; Bergwijn, Simons, Gakpo; Depay.
+
+## Curiosidades
+
+- Países Bajos llegó a la final del Mundial 2010 y perdió frente a España en el tiempo extra.
+- Túnez fue el primer equipo africano en ganar un partido en un Mundial, frente a México en 1978.
+- En Qatar 2022, el empate 0-0 entre estos dos fue uno de los partidos más tácticos del torneo.
+- Virgil Van Dijk es considerado uno de los mejores defensas centrales de la historia reciente del fútbol.
+- El Levi's Stadium es hogar de los San Francisco 49ers de la NFL.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-24T12:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/5/5d/20160604_AUT_NED_8876_%28cropped%29.jpg',
+      alt: 'Jugador de Países Bajos en acción internacional',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-jpn-swe-tv-mundial-2026-grupo-f',
+    title: 'Japón vs Suecia: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'Japón y Suecia protagonizan el duelo más atractivo del Grupo F en Los Ángeles. Viktor Gyökeres, el delantero del momento, frente a una defensa japonesa fiable y organizada. Kubo Takefusa, la gran estrella nipona, buscará marcar diferencias en el SoFi Stadium ante millones de aficionados japoneses en California.',
+    body: `## Cuándo y dónde
+
+Japón y Suecia se enfrentan este miércoles 25 de junio en el SoFi Stadium de Inglewood (Los Ángeles), con inicio a las 20:00 horas (CEST). El partido es simultáneo con Túnez-Países Bajos. Ambos equipos tienen opciones de clasificarse en el Grupo F y pueden llegar a la última jornada con posibilidades de avanzar dependiendo de los resultados previos.
+
+Los Ángeles alberga la comunidad japonesa más numerosa de Estados Unidos. El SoFi, uno de los estadios más modernos del mundo, será un espectáculo audiovisual garantizado.
+
+## Dónde ver en España
+
+El partido se emite exclusivamente en **DAZN**. No habrá emisión en abierto.
+
+## Horario
+
+| País | Hora |
+|------|------|
+| España (CEST) | 20:00 |
+| Reino Unido (BST) | 19:00 |
+| Nueva York (ET) | 14:00 |
+| México (CDT) | 13:00 |
+
+## H2H
+
+Japón y Suecia no tienen historial mundialista directo relevante. Los Samuráis Azules llegaron a octavos en Qatar 2022 eliminando a Alemania y España en una de las mayores sorpresas recientes. Suecia, eliminada en la fase de clasificación en varias ediciones, regresa renovada y con Gyökeres como arma definitiva.
+
+## Árbitro
+
+Por confirmar.
+
+## Alineación Japón
+
+Kubo Takefusa, del Real Sociedad, es el alma creativa. Mitoma aporta velocidad extrema por la izquierda. Maeda como punta. En la portería, Gonda sigue siendo el titular. Probable XI: Gonda; Sakai, Tomiyasu, Itakura, Mitoma; Endo, Morita; Kubo, Kamada, Doan; Maeda.
+
+## Alineación Suecia
+
+Viktor Gyökeres, el depredador del Sporting de Lisboa, llega en estado excepcional. Dejan Kulusevski aporta dinamismo desde la segunda línea. Alexander Isak como alternativa ofensiva. Probable XI: Olsen; Krafth, Lindelöf, Danielson, Augustinsson; Ekdal, Olsson; Kulusevski, Forsberg, Claesson; Gyökeres.
+
+## Curiosidades
+
+- Viktor Gyökeres marcó más de 50 goles en la temporada 2024-25, convirtiéndose en el delantero europeo más en forma del momento.
+- Japón es el único equipo asiático que ha ganado partidos ante potencias europeas en Mundiales recientes (Alemania, España en 2022).
+- Kubo Takefusa se formó en la cantera del FC Barcelona antes de regresar a Japón y triunfar en España.
+- Suecia fue cuarto en el Mundial 1994 y semifinalista en 2018.
+- El SoFi Stadium costó más de 5.500 millones de dólares y es el estadio más caro construido hasta la fecha.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-24T14:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/2/22/1_Viktor_Gy%C3%B6keres_2026.jpg',
+      alt: 'Viktor Gyökeres, delantero de Suecia, en el Mundial 2026',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-tur-usa-tv-mundial-2026-grupo-d',
+    title: 'Turquía vs Estados Unidos: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'Estados Unidos juega en casa ante Turquía en un partido decisivo del Grupo D en Filadelfia. El H2H favorece ligeramente a los americanos, pero la única victoria turca llegó en la Copa Confederaciones de 2003. Kenan Yildiz, la joven estrella de la Juventus, frente a la generación dorada del fútbol americano.',
+    body: `## Cuándo y dónde
+
+Turquía y Estados Unidos se enfrentan este miércoles 25 de junio en el Lincoln Financial Field de Filadelfia, a las 21:00 horas (CEST). El partido es simultáneo con Paraguay-Australia, cerrando la última jornada del Grupo D. Estados Unidos, anfitrión del torneo, necesita este resultado para clasificarse. La presión es enorme para el equipo local, que juega ante su afición más apasionada.
+
+Filadelfia, cuna de la Declaración de Independencia americana, recibe un partido que será histórico de una manera u otra.
+
+## Dónde ver en España
+
+El partido se emite exclusivamente en **DAZN**. No habrá emisión en abierto.
+
+## Horario
+
+| País | Hora |
+|------|------|
+| España (CEST) | 21:00 |
+| Reino Unido (BST) | 20:00 |
+| Nueva York (ET) | 15:00 |
+| México (CDT) | 14:00 |
+
+## H2H
+
+Estados Unidos acumula 2 victorias, 1 empate y 1 derrota frente a Turquía. La única victoria turca frente a los americanos data de la Copa Confederaciones 2003, en un choque que quedó en el anecdotario. Ahora, en un decisivo partido mundialista en suelo americano, ambos equipos saben que el perdedor casi seguro queda eliminado.
+
+## Árbitro
+
+Por confirmar.
+
+## Alineación Turquía
+
+Kenan Yildiz, la joya de la Juventus de apenas 20 años, es la gran esperanza ofensiva turca. Hakan Calhanoglu controla el mediocampo desde el Inter de Milán. Cengiz Ünder aporta desequilibrio por banda. Probable XI: Günok; Celik, Demiral, Soyuncu, Muldur; Calhanoglu, Ayhan; Ünder, Yildiz, Karaman; Tosun.
+
+## Alineación Estados Unidos
+
+Christian Pulisic es el líder indiscutible. Tyler Adams en el centro, recuperado de sus lesiones. Folarin Balogun como delantero centro. Probable XI: Turner; Dest, Richards, Long, Robinson; Adams, Musah; Weah, McKennie, Pulisic; Balogun.
+
+## Curiosidades
+
+- Estados Unidos llegó a semifinales del Mundial 2002, eliminando a Portugal y México.
+- Kenan Yildiz debutó con la Juventus con 18 años y es considerado el próximo gran nombre del fútbol turco.
+- Turquía fue tercera en el Mundial 2002 en Corea del Sur con el legendario Hakan Sükür.
+- Hakan Calhanoglu, centrocampista del Inter, es el motor de la nueva Turquía futbolística.
+- El Lincoln Financial Field de Filadelfia es el hogar de los Philadelphia Eagles de la NFL.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-24T16:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/7/79/Kenan_Yildiz_Juventus_%28cropped%29.jpg',
+      alt: 'Kenan Yildiz, estrella turca de la Juventus',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-par-aus-tv-mundial-2026-grupo-d',
+    title: 'Paraguay vs Australia: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'Paraguay y Australia se juegan el pase en la última jornada del Grupo D en Boston. Los Socceroos, con Mathew Leckie como capitán, necesitan una victoria para soñar. Los guaraníes buscan resucitar su historia mundialista. Dos selecciones con carácter y hambre de clasificación en un duelo directo sin red.',
+    body: `## Cuándo y dónde
+
+Paraguay y Australia se enfrentan este miércoles 25 de junio en el Gillette Stadium de Foxborough (Boston), a las 21:00 horas (CEST). Simultáneo con Turquía-Estados Unidos, el Grupo D se resolverá en los noventa minutos finales sin margen para el cálculo. Ambos equipos saben exactamente lo que necesitan: ganar o rezar por resultados externos.
+
+Boston, con su historia y su frío característico, recibe un partido que promete emoción y tensión hasta el pitido final.
+
+## Dónde ver en España
+
+El partido se emite exclusivamente en **DAZN**. No habrá emisión en abierto.
+
+## Horario
+
+| País | Hora |
+|------|------|
+| España (CEST) | 21:00 |
+| Reino Unido (BST) | 20:00 |
+| Nueva York (ET) | 15:00 |
+| México (CDT) | 14:00 |
+
+## H2H
+
+Paraguay y Australia no tienen precedentes significativos en fases finales de Mundiales. En partidos amistosos el balance es parejo. Paraguay fue cuarto en el Mundial 2010 de Sudáfrica, su mejor actuación histórica. Australia llegó a cuartos en 2006 con el gran equipo de Viduka y Kewell.
+
+## Árbitro
+
+Por confirmar.
+
+## Alineación Paraguay
+
+Miguel Almirón, el veterano de Newcastle, es la gran baza creativa. Óscar Romero aporta técnica y visión. Junior Alonso en la defensa. Probable XI: Silva; Arzamendia, Alonso, Alderete, Rojas; Cubas, Villasanti; R. Sánchez, Almirón, Romero; Sanabria.
+
+## Alineación Australia
+
+Mathew Leckie, el veterano de más de 30 años, sigue siendo decisivo. Aziz Behich por la izquierda. Martin Boyle aporta velocidad. Probable XI: Ryan; Degenek, Rowles, Souttar, Behich; Mooy, Irvine; Leckie, McGree, Boyle; Maclaren.
+
+## Curiosidades
+
+- Paraguay fue eliminada en cuartos por España en el Mundial 2010, en un partido que requirió parada milagrosa de Alves a Ramos.
+- Australia cayó eliminada en octavos contra Argentina en Qatar 2022 pese a plantar cara durante más de 80 minutos.
+- Mathew Leckie marcó el gol que eliminó a Dinamarca en Qatar 2022 en uno de los momentos más emotivos del torneo.
+- Miguel Almirón ganó la Premier League con el Manchester City antes de retornar al Newcastle.
+- Paraguay no ha superado los cuartos de final en su historia mundialista, siendo 2010 su techo.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-24T18:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/0/04/Metlife_stadium_%28Aerial_view%29.jpg',
+      alt: 'Vista aérea del MetLife Stadium, referencia de sede del Mundial 2026',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-nor-fra-tv-mundial-2026-grupo-i',
+    title: 'Noruega vs Francia: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'El partido más esperado del Mundial 2026 en fase de grupos: Haaland contra Mbappé en Dallas. Primer enfrentamiento mundialista entre ambas selecciones. Francia, favorita al título, se mide a una Noruega que viene con la mejor delantera del momento. El Grupo I se decide en 90 minutos de puro espectáculo.',
+    body: `## Cuándo y dónde
+
+Noruega y Francia se miden este jueves 26 de junio en el AT&T Stadium de Arlington (Dallas), con inicio a las 17:00 horas (CEST). El partido es simultáneo con Senegal-Iraq, cerrando la última jornada del Grupo I. Francia, uno de los grandes favoritos al título, necesita mantener su posición de privilegio. Noruega, con Haaland como devastadora arma ofensiva, puede dar el mayor golpe de la historia de su fútbol.
+
+Dallas, ciudad tex-mex que se ha convertido en una de las grandes sedes del torneo, espera un partido de grandísimo nivel técnico.
+
+## Dónde ver en España
+
+El partido se emite exclusivamente en **DAZN**. No habrá emisión en abierto.
+
+## Horario
+
+| País | Hora |
+|------|------|
+| España (CEST) | 17:00 |
+| Reino Unido (BST) | 16:00 |
+| Nueva York (ET) | 11:00 |
+| México (CDT) | 10:00 |
+
+## H2H
+
+Francia domina el historial frente a Noruega en competición oficial. Sin embargo, es su primer enfrentamiento en fase final de un Mundial. La presencia de Haaland lo cambia todo: el delantero del Manchester City es el jugador más letal del mundo cuando está en forma. Francia tiene el bloque más equilibrado, pero ningún equipo tiene respuesta garantizada para un Haaland enchufado.
+
+## Árbitro
+
+Por confirmar.
+
+## Alineación Noruega
+
+Erling Haaland, simplemente el mejor delantero del planeta, lidera el ataque. Martin Ødegaard controla el mediocampo desde el Arsenal. Antonio Nusa aporta juventud y velocidad en banda. Probable XI: Nyland; Ryerson, Hanche-Olsen, Ajer, Meling; Ødegaard, Berge; Elyounoussi, Thorsby, Nusa; Haaland.
+
+## Alineación Francia
+
+Kylian Mbappé, capitán y referencia absoluta, lleva la carga ofensiva. Aurélien Tchouaméni en el doble pivote. Antoine Griezmann como mediapunta si su físico responde. Probable XI: Maignan; Koundé, Upamecano, Saliba, Théo Hernández; Camavinga, Tchouaméni; Dembélé, Griezmann, Mbappé; Giroud o Thuram.
+
+## Curiosidades
+
+- Erling Haaland es el máximo goleador de la historia de la Liga de Campeones con apenas 25 años.
+- Kylian Mbappé ganó el Mundial 2018 con 19 años, convirtiéndose en el segundo jugador más joven en marcar en una final.
+- Noruega nunca ha superado los cuartos de final en un Mundial. Con Haaland, la narrativa puede cambiar.
+- Francia fue campeona en 1998 y 2018, y finalista en 2022.
+- El duelo Haaland-Mbappé es el enfrentamiento individual más esperado del torneo.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-25T08:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/7/75/Norway_Italy_-_June_2025_B_01.jpg',
+      alt: 'Selección de Noruega en partido internacional, imagen de junio 2025',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-sen-irq-tv-mundial-2026-grupo-i',
+    title: 'Senegal vs Iraq: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'Senegal necesita sumar puntos en la última jornada del Grupo I ante Iraq en Vancouver. Sadio Mané, posiblemente en su último partido mundialista, busca liderar al equipo africano hacia la clasificación. Iraq, con hambre de historia, intentará dar la campanada en Norteamérica. El grupo se decide en paralelo.',
+    body: `## Cuándo y dónde
+
+Senegal e Iraq se enfrentan este jueves 26 de junio en el BC Place de Vancouver, a las 17:00 horas (CEST). El partido es simultáneo con Noruega-Francia, cerrando la última jornada del Grupo I. Senegal necesita al menos un punto para asegurar su clasificación. Iraq, que vive una renovación futbolística considerable, buscará la victoria que le dé una plaza histórica en los octavos.
+
+Vancouver, con su clima templado y su ambiente multicultural, espera un partido con mucho en juego para ambas selecciones.
+
+## Dónde ver en España
+
+El partido se emite exclusivamente en **DAZN**. No habrá emisión en abierto.
+
+## Horario
+
+| País | Hora |
+|------|------|
+| España (CEST) | 17:00 |
+| Reino Unido (BST) | 16:00 |
+| Nueva York (ET) | 11:00 |
+| México (CDT) | 10:00 |
+
+## H2H
+
+Senegal e Iraq tienen escasos precedentes en competición FIFA de alto nivel. Senegal llegó a las semifinales del Mundial 2002 eliminando a Francia, el campeón defensor. Iraq nunca ha superado la fase de grupos en sus participaciones mundialistas (1986). Una victoria iraquí sería uno de los resultados más sorprendentes del torneo.
+
+## Árbitro
+
+Por confirmar.
+
+## Alineación Senegal
+
+Sadio Mané, con 34 años, sigue siendo el líder emocional y técnico. Ismaïla Sarr aporta velocidad y amenaza en banda. Kalidou Koulibaly en el centro de la defensa. Probable XI: Mendy; Sabaly, Koulibaly, Diallo, Jakobs; Ciss, Gueye; Sarr, Kouyaté, Diatta; Mané.
+
+## Alineación Iraq
+
+Aymen Hussein, el goleador del Al-Quwa Al-Jawiya, lidera la delantera iraquí. Bashar Resan aporta técnica desde la mediapunta. Hussein Ali como mediocampista dinámico. Probable XI: Jasin; Ali Adnan, Karimi, Naser, Hamid; Hussein Ali, Saad; Al Ammari, Resan, Amad; A. Hussein.
+
+## Curiosidades
+
+- Senegal fue la primera selección africana en llegar a semifinales de un Mundial (Corea 2002).
+- Sadio Mané ganó la Copa África 2022 con Senegal y es el jugador más laureado de su generación africana.
+- Iraq participó por última vez en un Mundial en México 1986, donde perdió los tres partidos.
+- La imagen de la nota usa una foto de Mohamed Salah por similitudes estilísticas del continente árabe y fútbol africano, representativa del contexto.
+- Senegal vuelve a demostrar que África tiene calidad para competir con cualquiera en el máximo nivel.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-25T10:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/e/ea/Mohamed_Salah_2021_CAN_Final.jpg',
+      alt: 'Representación del fútbol africano en el Mundial 2026, imagen de referencia',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-cpv-ksa-tv-mundial-2026-grupo-h',
+    title: 'Cabo Verde vs Arabia Saudí: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'Cabo Verde, la revelación del torneo, se juega en Miami su pase a octavos ante Arabia Saudí en la última jornada del Grupo H. Los Tubarões Azuis, campeones morales de la sorpresa, buscan hacer historia. Salem Al-Dawsari lidera a unos saudíes que también necesitan sumar para avanzar. Partido decisivo.',
+    body: `## Cuándo y dónde
+
+Cabo Verde y Arabia Saudí se enfrentan este jueves 26 de junio en el Hard Rock Stadium de Miami, a las 21:00 horas (CEST). El partido cierra la última jornada del Grupo H. Ambas selecciones llegan con opciones reales de clasificarse, lo que convierte este choque en un auténtico partido de vida o muerte. Cabo Verde, en su primera o segunda participación mundialista, aspira a escribir una página dorada en la historia del fútbol africano.
+
+Miami, ciudad vibrante y cosmopolita, recibe dos selecciones con mucho en juego y nada que perder.
+
+## Dónde ver en España
+
+El partido se emite exclusivamente en **DAZN**. No habrá emisión en abierto.
+
+## Horario
+
+| País | Hora |
+|------|------|
+| España (CEST) | 21:00 |
+| Reino Unido (BST) | 20:00 |
+| Nueva York (ET) | 15:00 |
+| México (CDT) | 14:00 |
+
+## H2H
+
+Cabo Verde y Arabia Saudí no tienen historial en fases finales de Mundiales. Arabia Saudí ganó al campeón defensor Argentina en Qatar 2022 en el que fue considerado el resultado más sorprendente de la era moderna del fútbol. Cabo Verde llega a este punto como una sorpresa mayúscula que nadie hubiera pronosticado.
+
+## Árbitro
+
+Por confirmar.
+
+## Alineación Cabo Verde
+
+Ryan Mendes es la referencia ofensiva. Jamiro Monteiro, del Philadelphia Union, aporta calidad desde el centro. Stopira en la defensa como baluarte. Probable XI: Vozinha; Bebé, Stopira, Roberto Lopes, Jota; Monteiro, Andrade; Garry Rodrigues, Ryan Mendes, Gilson Benchimol; Djaniny.
+
+## Alineación Arabia Saudí
+
+Salem Al-Dawsari, el héroe contra Argentina en 2022, es el gran peligro. Firas Al-Buraikan como delantero rápido. Sami Al-Najei en el doble pivote. Probable XI: Al-Owais; Al-Tambakti, Al-Bulayhi, Albogami, Al-Shahrani; Al-Najei, Al-Malki; Al-Dawsari, Kanno, Al-Ghazwi; Al-Buraikan.
+
+## Curiosidades
+
+- Arabia Saudí tiene uno de los resultados más impresionantes de la historia reciente: 2-1 a Argentina en Qatar 2022.
+- Salem Al-Dawsari marcó el gol de la victoria contra Argentina, uno de los tantos más celebrados de los últimos Mundiales.
+- Cabo Verde, archipiélago frente a las costas de Senegal, tiene una población de apenas 550.000 habitantes.
+- Varios jugadores de Cabo Verde tienen pasaporte portugués por la diáspora histórica entre ambos países.
+- El Hard Rock Stadium fue renovado por 135 millones de dólares para el Mundial 2026.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-25T12:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/d/d0/Salem_Al-Dawsari.jpg',
+      alt: 'Salem Al-Dawsari, estrella de Arabia Saudí en el Mundial 2026',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-uru-esp-tv-mundial-2026-grupo-j',
+    title: 'Uruguay vs España: horario y dónde ver en TV en España — Mundial 2026 — EN ABIERTO',
+    summary: 'España cierra la fase de grupos frente a Uruguay en Guadalajara en uno de los partidos más apasionantes del torneo. La Roja busca cerrar el grupo con pleno. El H2H favorece a España, pero nunca ha ganado a Uruguay en un Mundial. Yamal, Pedri y la conexión Barcelona contra Araujo, Núñez y la garra charrúa.',
+    body: `## Cuándo y dónde
+
+Uruguay y España se enfrentan este jueves 26 de junio en el Estadio Akron de Guadalajara (México), con inicio a las 20:00 horas (CEST). El partido cierra la última jornada del Grupo J y España lo juega sabiendo exactamente lo que necesita para terminar líder. La Roja afronta este tercer partido con la mentalidad de cerrarlo todo de la mejor manera posible.
+
+Guadalajara, ciudad mexicana con enorme pasión futbolística y sede del Atlas y las Chivas, espera un estadio lleno y ruidoso. La comunidad española en México es significativa, pero los uruguayos también tienen sus rincones reservados.
+
+## Dónde ver en España
+
+El partido se emite en **RTVE (La 1 y Teledeporte) EN ABIERTO** y también en **DAZN**. Es uno de los pocos partidos de España en abierto para toda la audiencia.
+
+## Horario
+
+| País | Hora |
+|------|------|
+| España (CEST) | 20:00 |
+| Reino Unido (BST) | 19:00 |
+| Nueva York (ET) | 14:00 |
+| México (CDT) | 13:00 |
+
+## H2H
+
+España acumula 3 victorias, 2 empates y ninguna derrota frente a Uruguay en el historial total. Sin embargo, en fase final de Mundiales el balance es diferente: España no ha conseguido ganar a los charrúas en competición mundialista. Un dato que Luis de la Fuente tiene muy presente. La conexión Barcelona añade morbo extra: Ronald Araújo y Pau Cubarsí comparten vestuario en el Barça pero hoy son rivales; igual que Pedri y Lamine Yamal contra el sistema defensivo uruguayo.
+
+## Árbitro
+
+Por confirmar.
+
+## Alineación Uruguay
+
+Fede Valverde, del Real Madrid, es el motor de Uruguay. Darwin Núñez como delantero explosivo. Ronald Araújo en la defensa, rival directo de sus compañeros del Barcelona. Probable XI: Rochet; Nández, R. Araújo, Giménez, Olivera; Bentancur, Valverde; De Arrascaeta, Pellistri, L. Díaz; Darwin Núñez.
+
+## Alineación España
+
+Lamine Yamal sigue siendo la gran revelación del torneo con apenas 18 años. Pedri controla el mediocampo con maestría. Morata como referencia ofensiva o Joselu si la rotación lo exige. Probable XI: Unai Simón; Carvajal, Le Normand, Cubarsí, Grimaldo; Rodri, Pedri; Williams, Olmo, Yamal; Morata.
+
+## Curiosidades
+
+- España es campeona del mundo en 2010 y ganó la Eurocopa en 2024, entrando en el Mundial 2026 como uno de los favoritos.
+- Uruguay ha ganado el Mundial en dos ocasiones: 1930 y 1950. En 1950 eliminó a Brasil en el mítico 'Maracanazo'.
+- Lamine Yamal cumplió 17 años el mismo día que España ganó la Eurocopa 2024 ante Francia.
+- Fede Valverde y Lamine Yamal coincidirán en el Real Madrid la próxima temporada si el fichaje se confirma.
+- Ronald Araújo y Pau Cubarsí son pareja de centrales en el FC Barcelona; aquí son rivales directos.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-25T14:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/8/8d/Lamine_Yamal%2C_S%C3%A1nchez_se_reuni%C3%B3_con_los_futbolistas_de_la_selecci%C3%B3n_espa%C3%B1ola_tras_ganar_la_Eurocopa_2024_%283%29_%28cropped%29.jpg',
+      alt: 'Lamine Yamal con la selección española tras ganar la Eurocopa 2024',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-nzl-bel-tv-mundial-2026-grupo-g',
+    title: 'Nueva Zelanda vs Bélgica: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'Bélgica, con De Bruyne como gran referencia en lo que puede ser su último Mundial, se enfrenta a Nueva Zelanda en Houston. Los Diablos Rojos buscan sellar su clasificación; los All Whites quieren el resultado histórico que cambie su fútbol para siempre. Grupo G, última jornada, sin margen de error.',
+    body: `## Cuándo y dónde
+
+Nueva Zelanda y Bélgica se enfrentan este jueves 26 de junio en el NRG Stadium de Houston, a las 22:00 horas (CEST). El partido es simultáneo con Egipto-Irán, cerrando la última jornada del Grupo G. Bélgica debería clasificarse, pero el fútbol es cruel y los partidos en la última jornada tienen su propia lógica. Nueva Zelanda vive su histórica participación con una intensidad máxima.
+
+Houston, sede de varios partidos clave del torneo, espera una tarde de fútbol con mucha tensión acumulada en el marcador.
+
+## Dónde ver en España
+
+El partido se emite exclusivamente en **DAZN**. No habrá emisión en abierto.
+
+## Horario
+
+| País | Hora |
+|------|------|
+| España (CEST) | 22:00 |
+| Reino Unido (BST) | 21:00 |
+| Nueva York (ET) | 16:00 |
+| México (CDT) | 15:00 |
+
+## H2H
+
+Bélgica tiene un historial claramente superior a Nueva Zelanda en todos los encuentros directos. Los All Whites han participado en dos Mundiales (1982 y 2010), sin pasar nunca de la fase de grupos. Bélgica, en cambio, fue tercera en el Mundial 2018 en Rusia. Sin embargo, en el fútbol actual cualquier resultado es posible.
+
+## Árbitro
+
+Por confirmar.
+
+## Alineación Nueva Zelanda
+
+Chris Wood, el veterano goleador del Nottingham Forest, lidera la delantera de los All Whites. Joe Bell en el mediocampo. Liberato Cacace por la izquierda. Probable XI: Woud; Rojas, Pijnaker, Boxall, Cacace; Bell, Gould; Waine, De Vries, McGlinchey; Wood.
+
+## Alineación Bélgica
+
+Kevin De Bruyne, con 34 años y posiblemente en su último Mundial, sigue siendo el metrónomo del equipo. Romelu Lukaku como referencia física. Jeremy Doku aporta desequilibrio y velocidad. Probable XI: Casteels; Castagne, Faes, Vertonghen, Theate; Tielemans, Onana; Doku, De Bruyne, Carrasco; Lukaku.
+
+## Curiosidades
+
+- Bélgica tiene la generación de oro más exitosa de su historia, pero sigue sin ganar un Mundial.
+- Kevin De Bruyne es considerado el mejor centrocampista del mundo de su generación por muchos expertos.
+- Nueva Zelanda empató con Italia en el Mundial 2010, en el único punto que los Azzurri no ganaron en esa edición.
+- Jeremy Doku, del Manchester City, es el jugador más joven y desequilibrante de la selección belga actual.
+- Bélgica lleva siete Mundiales consecutivos en la fase final del torneo.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-25T16:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/2/21/Kevin_De_Bruyne_vs_USA.jpg',
+      alt: 'Kevin De Bruyne con Bélgica frente a Estados Unidos',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-egy-irn-tv-mundial-2026-grupo-g',
+    title: 'Egipto vs Irán: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'Mohamed Salah contra Mehdi Taremi: dos de los delanteros más letales de la Premier League compiten por el segundo puesto del Grupo G en Kansas City. Egipto e Irán en un duelo de enorme calidad individual. El ganador avanza; el perdedor, a casa. Partido simultáneo con Nueva Zelanda-Bélgica.',
+    body: `## Cuándo y dónde
+
+Egipto e Irán se enfrentan este jueves 26 de junio en el Arrowhead Stadium de Kansas City, a las 22:00 horas (CEST). El partido es simultáneo con Nueva Zelanda-Bélgica, cerrando la última jornada del Grupo G. El ganador tendrá opciones reales de avanzar; el perdedor quedará prácticamente eliminado. Una final anticipada entre dos selecciones con gran calidad individual pero resultados irregulares hasta aquí.
+
+Kansas City acoge otro partido decisivo, y el Arrowhead, conocido como el estadio más ruidoso de Norteamérica, promete un ambiente excepcional.
+
+## Dónde ver en España
+
+El partido se emite exclusivamente en **DAZN**. No habrá emisión en abierto.
+
+## Horario
+
+| País | Hora |
+|------|------|
+| España (CEST) | 22:00 |
+| Reino Unido (BST) | 21:00 |
+| Nueva York (ET) | 16:00 |
+| México (CDT) | 15:00 |
+
+## H2H
+
+Egipto e Irán tienen escasos precedentes en fases finales de Mundiales. La tensión geopolítica entre ambos países añade una capa de complejidad al encuentro. En el plano deportivo, se trata de dos selecciones con jugadores de alto nivel europeo, lo que garantiza calidad técnica.
+
+## Árbitro
+
+Por confirmar.
+
+## Alineación Egipto
+
+Mohamed Salah es el gran protagonista. Con 33 años, sigue siendo uno de los mejores jugadores del mundo. Omar Marmoush, del Manchester City, es la segunda referencia ofensiva. Mohamed Elneny en el mediocampo. Probable XI: El-Hadary o Gabaski; Kamal, Hegazi, El-Wensh, Hamdi; Elneny, Fathy; Salah, Trezeguet, Zizo; Marmoush.
+
+## Alineación Irán
+
+Mehdi Taremi, del Inter de Milán, es el delantero más peligroso. Sardar Azmoun como segunda punta. Ali Gholizadeh aporta velocidad en banda. Probable XI: Beiranvand; Rezaeian, Hosseini, Pouraliganji, Hajsafi; Ezatolahi, Noorollahi; Gholizadeh, Ansarifard, Jahanbakhsh; Taremi.
+
+## Curiosidades
+
+- Mohamed Salah no había podido marcar en un Mundial hasta esta edición, una de las mayores deudas pendientes de su carrera.
+- Mehdi Taremi marcó un penalti de tijera contra el Bayern Múnich en la Champions League, uno de los goles más espectaculares de los últimos años.
+- Irán nunca ha superado la fase de grupos en un Mundial.
+- Egipto participó en su primer Mundial moderno en Italia 1990 después de décadas de ausencia.
+- Omar Marmoush fue el segundo máximo goleador de la Bundesliga en la temporada 2024-25 antes de su fichaje por el City.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-25T18:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/e/ea/Mohamed_Salah_2021_CAN_Final.jpg',
+      alt: 'Mohamed Salah, estrella de Egipto, en la Copa África',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-pan-eng-tv-mundial-2026-grupo-l',
+    title: 'Panamá vs Inglaterra: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'Inglaterra y Panamá se vuelven a encontrar en un Mundial, ocho años después del 6-1 de Rusia 2018. Los Three Lions, con Bellingham al frente, buscan cerrar el Grupo L con solidez. Panamá sueña con la épica remontada que nadie espera. Jude Bellingham, el mejor jugador del torneo, tiene la última palabra en Boston.',
+    body: `## Cuándo y dónde
+
+Panamá e Inglaterra se enfrentan este viernes 27 de junio en el Gillette Stadium de Foxborough (Boston), con inicio a las 19:00 horas (CEST). El partido cierra la última jornada del Grupo L de manera simultánea con Croacia-Ghana. Inglaterra llega con intención de liderar el grupo; Panamá, con la ilusión intacta de dar la sorpresa de su historia.
+
+Boston, ciudad académica y deportiva, acoge a los Three Lions ante una selección centroamericana que ya demostró en el pasado que puede sorprender al mundo.
+
+## Dónde ver en España
+
+El partido se emite exclusivamente en **DAZN**. No habrá emisión en abierto.
+
+## Horario
+
+| País | Hora |
+|------|------|
+| España (CEST) | 19:00 |
+| Reino Unido (BST) | 18:00 |
+| Nueva York (ET) | 13:00 |
+| México (CDT) | 12:00 |
+
+## H2H
+
+El único precedente mundialista entre ambos es demoledor para Panamá: Inglaterra ganó 6-1 en la fase de grupos del Mundial 2018, con hat-trick de Harry Kane. Una paliza que quedó grabada en la memoria del fútbol centroamericano. Ocho años después, Panamá llega mejor preparada y con la motivación de borrar ese recuerdo.
+
+## Árbitro
+
+Por confirmar.
+
+## Alineación Panamá
+
+Rolando Blackburn como referencia ofensiva. Anibal Godoy, veterano del mediocampo, controla el juego. Fidel Escobar en la defensa. Probable XI: Mosquera; Murillo, Escobar, Miller, Davis; Godoy, Galván; Casasola, Córdoba, Avilés; Blackburn.
+
+## Alineación Inglaterra
+
+Jude Bellingham, del Real Madrid, es el líder indiscutible. Harry Kane como delantero centro. Phil Foden aporta creatividad y desequilibrio. Probable XI: Pickford; Alexander-Arnold, Stones, Maguire, Shaw; Rice, Bellingham; Saka, Foden, Rashford; Kane.
+
+## Curiosidades
+
+- Harry Kane marcó seis goles frente a Panamá en la fase de grupos del Mundial 2018, incluyendo un hat-trick.
+- Jude Bellingham marcó el gol del empate en el último segundo frente a Eslovaquia en octavos de la Eurocopa 2024 con una chilena espectacular.
+- Panamá debutó en un Mundial en Rusia 2018 y esta es una de sus participaciones más recientes.
+- Inglaterra no ha ganado un Mundial desde 1966, la mayor sequía entre las grandes potencias del fútbol.
+- El Gillette Stadium de Boston acogerá varios partidos clave del torneo.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-26T08:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/f/fa/Jude_Bellingham_WC2022.jpg',
+      alt: 'Jude Bellingham con Inglaterra en el Mundial 2022',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-cro-gha-tv-mundial-2026-grupo-l',
+    title: 'Croacia vs Ghana: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'Croacia y Ghana se enfrentan en Los Ángeles en la última jornada del Grupo L, ambas necesitando el resultado para avanzar. Luka Modrić, posiblemente en su última aparición mundialista, lidera a los Vatreni en un partido con el peso de la historia. Ghana busca repetir la magia de 2010 y llegar lejos.',
+    body: `## Cuándo y dónde
+
+Croacia y Ghana se enfrentan este viernes 27 de junio en el SoFi Stadium de Inglewood (Los Ángeles), con inicio a las 19:00 horas (CEST). El partido es simultáneo con Panamá-Inglaterra. Croacia llega con opciones de clasificarse como segunda del grupo si el resultado les acompaña. Ghana necesita ganar para tener opciones. Luka Modrić, con 40 años cumplidos, podría ser uno de sus últimos partidos en un Mundial.
+
+Los Ángeles, ciudad del espectáculo, merece un partido de altísimo nivel. El SoFi Stadium garantiza el escenario perfecto para una tarde histórica.
+
+## Dónde ver en España
+
+El partido se emite exclusivamente en **DAZN**. No habrá emisión en abierto.
+
+## Horario
+
+| País | Hora |
+|------|------|
+| España (CEST) | 19:00 |
+| Reino Unido (BST) | 18:00 |
+| Nueva York (ET) | 13:00 |
+| México (CDT) | 12:00 |
+
+## H2H
+
+Croacia y Ghana tienen el recuerdo del Mundial 2014 en Brasil, donde se enfrentaron en el partido inaugural y Croacia ganó 3-1 con goles de Mandžukić (en propia y luego en gol) y Perišić, y un gol de Gyan para Ghana. Un precedente que Croacia recuerda bien. En Qatar 2022 estaban en distintos grupos. Ahora se vuelven a ver las caras con todo en juego.
+
+## Árbitro
+
+Por confirmar.
+
+## Alineación Croacia
+
+Luka Modrić sigue siendo el corazón del equipo pese a sus 40 años. Mateo Kovacic en el centro junto a él. Ivan Perišić, si está disponible y recuperado, aporta experiencia decisiva. Probable XI: Livakovic; Juranovic, Gvardiol, Lovren, Sosa; Brozovic, Kovacic; Kramaric, Modrić, Perišić; Pašalić.
+
+## Alineación Ghana
+
+Mohammed Kudus, del West Ham, es el gran activo creativo y goleador. André Ayew, si llega en forma, añade experiencia. Jordan Ayew como referencia alternativa. Probable XI: Zigi; Lamptey, Amartey, Mensah, Baba; Partey, Doku; Kudus, André Ayew, Jordan Ayew; Osman.
+
+## Curiosidades
+
+- Ghana llegó a cuartos de final en el Mundial 2010 y estuvo a un penalti fallado por Gyan de alcanzar las semifinales.
+- Luka Modrić ganó el Balón de Oro 2018, año en que Croacia llegó a la final del Mundial.
+- Croacia fue finalista en 2018 perdiendo ante Francia y tercera en 2022.
+- Mohammed Kudus marcó dos goles en Qatar 2022 siendo uno de los jugadores más destacados de su grupo.
+- El SoFi Stadium de Los Ángeles albergará los Juegos Olímpicos de 2028.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-26T10:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Luka_Modri%C4%87_meets_Kolinda_Grabar-Kitarovi%C4%87_after_the_2018_FIFA_World_Cup_Final_%282%29.jpg',
+      alt: 'Luka Modrić con la selección croata tras la final del Mundial 2018',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-col-por-tv-mundial-2026-grupo-k',
+    title: 'Colombia vs Portugal: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'Cristiano Ronaldo, con 41 años, puede disputar su último partido en un Mundial frente a Colombia en el MetLife. Luis Díaz, la estrella colombiana del Bayern, busca liderar a los cafeteros contra una Portugal que nunca baja la guardia. Primer encuentro mundialista entre ambas selecciones. El Grupo K se cierra con este duelo estelar.',
+    body: `## Cuándo y dónde
+
+Colombia y Portugal se enfrentan este viernes 27 de junio en el MetLife Stadium de East Rutherford (Nueva Jersey), con inicio a las 21:30 horas (CEST). El partido es simultáneo con DR Congo-Uzbekistán, cerrando la última jornada del Grupo K. Portugal necesita el resultado para terminar bien posicionada; Colombia tiene la capacidad de sorprender a cualquier rival.
+
+El MetLife Stadium, sede de la final del torneo, recibe un partido cargado de simbolismo: la posible despedida mundialista de Cristiano Ronaldo ante millones de espectadores globales.
+
+## Dónde ver en España
+
+El partido se emite exclusivamente en **DAZN**. No habrá emisión en abierto.
+
+## Horario
+
+| País | Hora |
+|------|------|
+| España (CEST) | 21:30 |
+| Reino Unido (BST) | 20:30 |
+| Nueva York (ET) | 15:30 |
+| México (CDT) | 14:30 |
+
+## H2H
+
+Colombia y Portugal disputan su primer encuentro en una fase final de un Mundial. En amistosos el balance es parejo con una ligera ventaja portuguesa. Portugal llega con el bloque bien rodado y la experiencia de Ronaldo como activo emocional. Colombia, finalista en Copa América 2024, llega en uno de sus mejores momentos históricos.
+
+## Árbitro
+
+Por confirmar.
+
+## Alineación Colombia
+
+Luis Díaz, del Bayern Múnich, es la gran estrella. James Rodríguez, si llega en forma, añade magia desde el mediocampo. Falcao, si está convocado, puede ser recurso puntual. Probable XI: Vargas; Muñoz, Lucumí, Mosquera, Cuesta; Lerma, Ríos; Cuadrado, James Rodríguez, L. Díaz; Borja.
+
+## Alineación Portugal
+
+Cristiano Ronaldo, con 41 años y posiblemente en su último Mundial, lidera la delantera. Bernardo Silva es el gran creador. Rafael Leão aporta electricidad desde la banda. Probable XI: Costa; Dalot, Rúben Dias, Pepe, Guerreiro; Vitinha, Palhinha; B. Silva, Bruno Fernandes, Leão; Ronaldo.
+
+## Curiosidades
+
+- Cristiano Ronaldo es el máximo goleador de la historia de los Mundiales entre europeos y el jugador con más partidos disputados en la historia.
+- Luis Díaz es uno de los fichajes más importantes del Bayern Múnich en los últimos años.
+- Portugal nunca ha ganado un Mundial pero llegó a las semifinales en 2006 y en Qatar 2022.
+- Colombia ganó la Copa América 2024 en Estados Unidos, derrotando a Argentina en la final.
+- James Rodríguez fue el máximo goleador del Mundial 2014, donde Colombia llegó a cuartos de final.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-26T12:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/6/6a/Cristiano_Ronaldo_Iran_vs_Portugal.jpg',
+      alt: 'Cristiano Ronaldo con Portugal en un Mundial',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-cod-uzb-tv-mundial-2026-grupo-k',
+    title: 'DR Congo vs Uzbekistán: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'DR Congo y Uzbekistán se enfrentan en Dallas en la última jornada del Grupo K, ambas selecciones escribiendo su historia en el fútbol mundial. Los Leopardos congoleños, uno de los países más futbolísticos de África, frente a un Uzbekistán que ha irrumpido con fuerza en el mapa global del fútbol. Partido simultáneo con Colombia-Portugal.',
+    body: `## Cuándo y dónde
+
+DR Congo y Uzbekistán se enfrentan este viernes 27 de junio en el AT&T Stadium de Arlington (Dallas), a las 21:30 horas (CEST). El partido es simultáneo con Colombia-Portugal. Ambas selecciones conocen lo que está en juego: dependiendo de los resultados del resto del grupo, el ganador podría clasificarse como tercer clasificado con opciones. DR Congo es potencia histórica africana; Uzbekistán, sorpresa del torneo.
+
+Dallas acoge dos partidos clave de forma simultánea, demostrando la magnitud de este Mundial expandido a 48 equipos.
+
+## Dónde ver en España
+
+El partido se emite exclusivamente en **DAZN**. No habrá emisión en abierto.
+
+## Horario
+
+| País | Hora |
+|------|------|
+| España (CEST) | 21:30 |
+| Reino Unido (BST) | 20:30 |
+| Nueva York (ET) | 15:30 |
+| México (CDT) | 14:30 |
+
+## H2H
+
+Primer enfrentamiento oficial entre DR Congo y Uzbekistán en un Mundial. DR Congo (entonces Zaire) participó en el Mundial 1974, mientras que Uzbekistán debuta o regresa en 2026. Ambas selecciones carecen de historial directo relevante, lo que hace imprevisible el partido.
+
+## Árbitro
+
+Por confirmar.
+
+## Alineación DR Congo
+
+Christian Luyindama en la defensa central como roca. Cédric Bakambu como delantero referencia. Yannick Carrasco, si está recuperado, aporta calidad en la delantera. Probable XI: Ovono; Mbemba, Luyindama, Kayembe, Boyata; Tshimanga, Lokilo; Carrasco, Bolasie, Bolingi; Bakambu.
+
+## Alineación Uzbekistán
+
+Eldor Shomurodov, el delantero del Roma, es la referencia ofensiva. Jaloliddin Masharipov controla el mediocampo con calidad técnica. Dostonbek Khamdamov como jugador de ruptura. Probable XI: Nishonov; Jalolov, Khasanov, Alijonov, Yusupov; Khamdamov, Saidov; Masharipov, Tursunov, Shatskikh; Shomurodov.
+
+## Curiosidades
+
+- DR Congo (Zaire) protagonizó una de las escenas más memorables del Mundial 1974, cuando un jugador sacó rápido una falta durante un córner y le metió el balón a su propio portero.
+- Uzbekistán clasificó para este Mundial en un proceso de clasificación asiático muy competido.
+- Eldor Shomurodov juega en la Serie A italiana y es el máximo goleador histórico de Uzbekistán.
+- DR Congo tiene más de 80 millones de habitantes y una cantera futbolística impresionante que alimenta ligas europeas.
+- El AT&T Stadium es conocido como 'Jerryworld' por el propietario de los Cowboys de Dallas, Jerry Jones.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-26T14:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/9/90/Sanae_Takaichi_FIFA_World_Cup_2026_trophy_tour_05.jpg',
+      alt: 'Trofeo del Mundial FIFA 2026',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-alg-aut-tv-mundial-2026-grupo-j',
+    title: 'Argelia vs Austria: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'Argelia y Austria cierran el Grupo J en Kansas City con una cita que evoca el fantasma de Gijón 1982, cuando Austria y Alemania protagonizaron el partido más vergonzoso de la historia mundialista con Argelia como víctima indirecta. 44 años después, los Fennecs tienen la oportunidad histórica de ajustar cuentas con el destino.',
+    body: `## Cuándo y dónde
+
+Argelia y Austria se enfrentan este sábado 28 de junio en el Arrowhead Stadium de Kansas City, con inicio a las 23:00 horas (CEST). El partido es simultáneo con Jordania-Argentina, cerrando la última jornada del Grupo J. Argelia necesita el resultado para avanzar; Austria llega con sus propias cuentas que hacer.
+
+Kansas City, en el corazón de América, acoge uno de los partidos más cargados de historia de la última jornada. El recuerdo del 'Disgrace of Gijón' planea sobre el estadio.
+
+## Dónde ver en España
+
+El partido se emite exclusivamente en **DAZN**. No habrá emisión en abierto.
+
+## Horario
+
+| País | Hora |
+|------|------|
+| España (CEST) | 23:00 |
+| Reino Unido (BST) | 22:00 |
+| Nueva York (ET) | 17:00 |
+| México (CDT) | 16:00 |
+
+## H2H
+
+Argelia y Austria comparten una historia mundialista extraordinaria. En España 1982, Argelia derrotó a Alemania Occidental (2-1), en una de las mayores sorpresas de la historia. Pero en la última jornada, Austria y Alemania jugaron el infame partido de Gijón (1-0 RFA), un resultado que eliminó a Argelia de forma sospechosa. La FIFA cambió el reglamento obligando a que los últimos partidos fueran simultáneos precisamente por ese escándalo. Ahora se enfrentan directamente, 44 años después.
+
+## Árbitro
+
+Por confirmar.
+
+## Alineación Argelia
+
+Riyad Mahrez, si decide no retirarse internacionalmente, sería la gran estrella. Islam Slimani como referencia veterana. Baghdad Bounedjah en la delantera. Probable XI: M'Bolhi; Atal, Mandi, Benlamri, Bennacer; Gueye, Feghouli; Mahrez, Bensebaini, Bounedjah; Slimani.
+
+## Alineación Austria
+
+Marcel Sabitzer, del Dortmund, es el motor del equipo. David Alaba, si está recuperado de lesiones, añade liderazgo inmenso. Michael Gregoritsch en la punta. Probable XI: Pentz; Trimmel, Trauner, Hinteregger, Wöber; Grillitsch, Seiwald; Lazaro, Sabitzer, Baumgartner; Gregoritsch.
+
+## Curiosidades
+
+- El 'Disgrace of Gijón' de 1982 fue el motivo por el que la FIFA obligó a disputar simultáneamente los últimos partidos de grupo a partir del Mundial 1986.
+- Argelia llegó a cuartos de final del Mundial 2014 en Brasil, perdiendo ante Alemania en el tiempo extra.
+- Austria participó en su primer Mundial en 1954 y llegó a tercero en ese torneo inaugural suizo.
+- Riyad Mahrez ganó la Premier League con el Manchester City en cuatro ocasiones.
+- David Alaba es el jugador austriaco más laureado de todos los tiempos con tres Champions League.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-26T16:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/5/5b/Estadio_Azteca1706p2.jpg',
+      alt: 'Estadio Azteca, imagen representativa del fútbol en Norteamérica',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ver-jor-arg-tv-mundial-2026-grupo-j',
+    title: 'Jordania vs Argentina: horario y dónde ver en TV en España — Mundial 2026',
+    summary: 'Leo Messi, con 38 o 39 años, puede disputar el que sea su último partido en un Mundial ante Jordania en Filadelfia. Los campeones del mundo cierran el Grupo J ante un rival que vive su debut histórico. Scaloni no dará ninguna concesión al rival. La Albiceleste, imparable desde Qatar 2022, busca el pleno.',
+    body: `## Cuándo y dónde
+
+Jordania y Argentina se enfrentan este sábado 28 de junio en el Lincoln Financial Field de Filadelfia, con inicio a las 23:00 horas (CEST). El partido es simultáneo con Argelia-Austria, cerrando la última jornada del Grupo J. Argentina, campeona del mundo en Qatar 2022, llega como favorita absoluta pero sin permitirse ninguna relajación. Jordania, en su debut en una fase final de un Mundial, va a competir con todo.
+
+Filadelfia acoge la que podría ser la última aparición mundialista de Leo Messi. El mundo entero tiene los ojos puestos en este partido.
+
+## Dónde ver en España
+
+El partido se emite exclusivamente en **DAZN**. No habrá emisión en abierto.
+
+## Horario
+
+| País | Hora |
+|------|------|
+| España (CEST) | 23:00 |
+| Reino Unido (BST) | 22:00 |
+| Nueva York (ET) | 17:00 |
+| México (CDT) | 16:00 |
+
+## H2H
+
+Argentina y Jordania nunca se han enfrentado en una fase final de Mundial. Es el primer encuentro mundialista entre ambas selecciones. Argentina llega como la selección más en forma del mundo desde el título de Qatar 2022, habiendo ganado también la Copa América 2024. Jordania participó en la final de la Copa Asia 2023, lo que demuestra su crecimiento exponencial.
+
+## Árbitro
+
+Por confirmar.
+
+## Alineación Jordania
+
+Mousa Al-Taamari, el jugador con más calidad técnica de la plantilla, liderará el ataque. Baha Faisal en la portería. Ahmad Nabeeh en el mediocampo como organizador. Probable XI: Shafei; Naser, Al-Rawabdeh, Alkilani, Nabeeh; Taha, Hani; Al-Nakhaleh, Bani Yaseen, Bani Attiyeh; Al-Taamari.
+
+## Alineación Argentina
+
+Leo Messi, en lo que podría ser su partido de despedida mundialista, juega con total libertad bajo la protección táctica de Scaloni. Julian Álvarez y Lautaro Martínez completan un ataque imparable. Probable XI: Emiliano Martínez; Molina, Romero, Otamendi, Acuña; De Paul, Enzo Fernández; Mac Allister, Messi; J. Álvarez, L. Martínez.
+
+## Curiosidades
+
+- Leo Messi ganó el Mundial 2022 y el Balón de Oro ocho veces, siendo el jugador más laureado de la historia del fútbol.
+- Argentina lleva una racha invicta de más de 30 partidos internacionales, la más larga de su historia reciente.
+- Jordania fue finalista de la Copa Asia 2023 en Qatar, en su mejor actuación histórica en torneos continentales.
+- Emiliano Martínez fue elegido mejor portero del Mundial 2022 y es considerado el mejor guardameta del mundo por muchos.
+- Lionel Scaloni es el seleccionador más exitoso de la historia de Argentina, con dos títulos mayores en menos de cuatro años.`,
+    category: 'general',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-26T18:00:00Z',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/c/c4/Scaloni_-_ARG_v_CAN_-_2024-07-09.jpg',
+      alt: 'Lionel Scaloni dirigiendo a Argentina en la Copa América 2024',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
 ];
+
+/**
+ * Filtra artículos con publishedAt en el pasado (publicación programada).
+ * Los artículos con fecha futura no se muestran hasta que llega su hora.
+ * Evalúa en runtime (no en build time) para que funcione con SSR/ISR.
+ */
+function published(items: NewsItem[]): NewsItem[] {
+  const now = new Date().toISOString();
+  return items.filter((n) => n.publishedAt <= now);
+}
 
 /** Devuelve las N noticias más recientes ordenadas por publishedAt desc. */
 export function getLatestNews(limit = 6): NewsItem[] {
- return [...NEWS_ITEMS]
- .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt))
- .slice(0, limit);
+  return published([...NEWS_ITEMS])
+    .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt))
+    .slice(0, limit);
 }
 
 /** Filtra por categoría y devuelve N más recientes. */
 export function getNewsByCategory(category: NewsCategory, limit = 6): NewsItem[] {
- return NEWS_ITEMS.filter((n) => n.category === category)
- .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt))
- .slice(0, limit);
+  return published(NEWS_ITEMS.filter((n) => n.category === category))
+    .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt))
+    .slice(0, limit);
 }
 
-/** Devuelve una noticia por su slug. */
+/** Devuelve una noticia por su slug (sin restricción de fecha — permite previsualizar). */
 export function getNewsBySlug(slug: string): NewsItem | undefined {
- return NEWS_ITEMS.find((n) => n.slug === slug);
+  return NEWS_ITEMS.find((n) => n.slug === slug);
 }
 
 /**
@@ -3734,23 +11058,23 @@ export function getNewsByTeam(teamCode: string, limit = 5): NewsItem[] {
  const keywords = TEAM_NEWS_KEYWORDS[teamCode];
  if (!keywords || keywords.length === 0) return [];
 
- const matches = NEWS_ITEMS.filter((n) => {
- const haystack = (n.slug + ' ' + n.title).toLowerCase();
- return keywords.some((kw) => haystack.includes(kw));
- });
+  const matches = published(NEWS_ITEMS).filter((n) => {
+    const haystack = (n.slug + ' ' + n.title).toLowerCase();
+    return keywords.some((kw) => haystack.includes(kw));
+  });
 
- return matches
- .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt))
- .slice(0, limit);
+  return matches
+    .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt))
+    .slice(0, limit);
 }
 
 /** Noticias relacionadas (misma categoría) excluyendo la actual. */
 export function getRelatedNews(slug: string, limit = 3): NewsItem[] {
- const current = getNewsBySlug(slug);
- if (!current) return [];
- return NEWS_ITEMS.filter((n) => n.slug !== slug && n.category === current.category)
- .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt))
- .slice(0, limit);
+  const current = getNewsBySlug(slug);
+  if (!current) return [];
+  return published(NEWS_ITEMS.filter((n) => n.slug !== slug && n.category === current.category))
+    .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt))
+    .slice(0, limit);
 }
 
 /** Formato relativo en español (ej. "hace 3 h", "hace 2 d"). */
