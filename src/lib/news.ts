@@ -7185,7 +7185,15 @@ Kobel; Widmer, Schär, Akanji, Elvedi; Freuler, **Xhaka** (cap.); Ndoye, Zakaria
 
 - Qatar fue el primer anfitrión en quedar eliminado en primera ronda en Qatar 2022.
 - Suiza lleva 11 de los últimos 12 Mundiales sin fallar.
-- BC Place ya acogió la final del Mundial Femenino en 2015.`,
+- BC Place ya acogió la final del Mundial Femenino en 2015.
+
+## Más información
+
+- **[Grupo A](/2026/grupo/a)** — clasificación, resultados y partidos del grupo
+- **[Sede: Vancouver](/2026/sedes/vancouver)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país
+- **Convocatorias**: [Catar](/2026/listas/QAT) · [Suiza](/2026/listas/SUI)`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -7240,7 +7248,15 @@ Bono; Hakimi (cap.), Mazraoui, Aguerd, Attiat-Allah; Amrabat, Ounahi, El Khannou
 
 - Marruecos fue el primer equipo africano en semifinales mundiales (Qatar 2022).
 - Brasil no gana un Mundial desde 2002.
-- Hakimi y Marquinhos se encontrarán como rivales directos.`,
+- Hakimi y Marquinhos se encontrarán como rivales directos.
+
+## Más información
+
+- **[Grupo B](/2026/grupo/b)** — clasificación, resultados y partidos del grupo
+- **[Sede: Atlanta](/2026/sedes/atlanta)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país
+- **Convocatorias**: [Brasil](/2026/listas/BRA) · [Marruecos](/2026/listas/MAR)`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -7295,7 +7311,15 @@ Gunn; Tierney, Hanley, Hendry, Robertson (cap.); McTominay, McGinn, Christie; Do
 
 - Haití marcó el primer gol caribeño en un Mundial en 1974 (1-0 a Italia).
 - Escocia tiene el récord de más Mundiales sin pasar de primera ronda: 8 participaciones.
-- Primera vez en la historia que ambas selecciones se cruzan.`,
+- Primera vez en la historia que ambas selecciones se cruzan.
+
+## Más información
+
+- **[Grupo B](/2026/grupo/b)** — clasificación, resultados y partidos del grupo
+- **[Sede: Vancouver](/2026/sedes/vancouver)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país
+- **Convocatorias**: [Haití](/2026/listas/HAI) · [Escocia](/2026/listas/SCO)`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -7350,7 +7374,15 @@ Bayındır; Celik, Demiral, Soyuncu, Kadioglu; Calhanoglu (cap.), Ayhan; Güler,
 
 - Arda Güler marcó el gol más joven en una Eurocopa (16 años, 2024).
 - Turquía llegó tercera en 2002: el tercer puesto más memorable de su historia.
-- Australia eliminó a Dinamarca en Qatar 2022 antes de caer en cuartos.`,
+- Australia eliminó a Dinamarca en Qatar 2022 antes de caer en cuartos.
+
+## Más información
+
+- **[Grupo C](/2026/grupo/c)** — clasificación, resultados y partidos del grupo
+- **[Sede: Los Ángeles](/2026/sedes/los-angeles)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país
+- **Convocatorias**: [Australia](/2026/listas/AUS) · [Turquía](/2026/listas/TUR)`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -7405,7 +7437,15 @@ Room; Brenet, Obispo, Bazoer, Sambo; Bacuna J., Comenencia, Bacuna L.; Chong, Lo
 
 - Dick Advocaat, 79 años, es el técnico más veterano de la historia en un Mundial.
 - Curazao tiene 158.000 habitantes: la selección más pequeña por población.
-- Alemania busca su quinto título, el último fue Brasil 2014.`,
+- Alemania busca su quinto título, el último fue Brasil 2014.
+
+## Más información
+
+- **[Grupo D](/2026/grupo/d)** — clasificación, resultados y partidos del grupo
+- **[Sede: Houston](/2026/sedes/houston)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país
+- **Convocatorias**: [Alemania](/2026/listas/GER) · [Curazao](/2026/listas/CUW)`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -7460,7 +7500,15 @@ Suzuki; Sugawara, Itakura, Watanabe, Tomiyasu; Endo, Kamada; Doan, Kubo, Maeda; 
 
 - Endo y Gravenberch son compañeros en el Liverpool — rivales en Kansas City.
 - Japón eliminó a Alemania y España en Qatar 2022.
-- Países Bajos es el único equipo con 3 finales mundiales sin ganar ninguna.`,
+- Países Bajos es el único equipo con 3 finales mundiales sin ganar ninguna.
+
+## Más información
+
+- **[Grupo E](/2026/grupo/e)** — clasificación, resultados y partidos del grupo
+- **[Sede: Kansas City](/2026/sedes/kansas-city)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país
+- **Convocatorias**: [Países Bajos](/2026/listas/NED) · [Japón](/2026/listas/JPN)`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -7515,7 +7563,15 @@ Galíndez; Preciado, Pacho, Hincapié, Torres; Caicedo, Franco, Plata; Angulo, V
 
 - Moisés Caicedo es el fichaje más caro de la historia del Chelsea (115 M€).
 - Enner Valencia marcó los 3 goles de Ecuador en Brasil 2014.
-- Costa de Marfil ganó la AFCON 2024 como anfitriona.`,
+- Costa de Marfil ganó la AFCON 2024 como anfitriona.
+
+## Más información
+
+- **[Grupo F](/2026/grupo/f)** — clasificación, resultados y partidos del grupo
+- **[Sede: Dallas](/2026/sedes/dallas)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país
+- **Convocatorias**: [Costa de Marfil](/2026/listas/CIV) · [Ecuador](/2026/listas/ECU)`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -7570,7 +7626,15 @@ Dahmen; Valery, Rekik, Bronn, Talbi; Skhiri, Khedira, Mejbri; Ghazouani, Saad, T
 
 - Viktor Gyökeres llegó al Arsenal por ~60 M€ desde el Sporting de Portugal.
 - Suecia no estaba en un Mundial desde Rusia 2018 (cuartos).
-- Túnez nunca ha superado la fase de grupos en ningún Mundial.`,
+- Túnez nunca ha superado la fase de grupos en ningún Mundial.
+
+## Más información
+
+- **[Grupo F](/2026/grupo/f)** — clasificación, resultados y partidos del grupo
+- **[Sede: San Francisco Bay Area](/2026/sedes/san-francisco-bay-area)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país
+- **Convocatorias**: [Suecia](/2026/listas/SWE) · [Túnez](/2026/listas/TUN)`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -7625,7 +7689,15 @@ Por confirmar según convocatoria FIFA. Ryan Mendes y Garry Rodrigues como refer
 
 - Lamine Yamal, 17 años, es el jugador más joven en marcar en una Eurocopa (semifinal vs Francia 2024).
 - Cabo Verde clasificó por primera vez en su historia con una campaña extraordinaria en la CAF.
-- España ganó la Euro 2024 en Berlín con gol de Oyarzabal en el 86'.`,
+- España ganó la Euro 2024 en Berlín con gol de Oyarzabal en el 86'.
+
+## Más información
+
+- **[Grupo G](/2026/grupo/g)** — clasificación, resultados y partidos del grupo
+- **[Sede: Atlanta](/2026/sedes/atlanta)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país
+- **Convocatorias**: [España](/2026/listas/ESP) · [Cabo Verde](/2026/listas/CPV)`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -7680,7 +7752,15 @@ El Shennawy; Abdelmonem, Hegazi, Mahmmoud; Elneny, Hamdi Fathi; Trezeguet, Salah
 
 - Salah llegó al Mundial tras la mejor temporada asistidora de su carrera en la Premier League.
 - Bélgica nunca ha ganado un Mundial. Mejor resultado: 3.º puesto en México 1986.
-- Egipto no ganaba en primera ronda desde Italia 1990 (1-0 a EEUU).`,
+- Egipto no ganaba en primera ronda desde Italia 1990 (1-0 a EEUU).
+
+## Más información
+
+- **[Grupo G](/2026/grupo/g)** — clasificación, resultados y partidos del grupo
+- **[Sede: Miami](/2026/sedes/miami)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país
+- **Convocatorias**: [Bélgica](/2026/listas/BEL) · [Egipto](/2026/listas/EGY)`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -7735,7 +7815,15 @@ Rochet; Nández, Giménez, Godín, Viña; Valverde, Ugarte, Bentancur; De Arrasc
 
 - Salem Al-Dawsari marcó el gol de la remontada ante Argentina en Qatar 2022.
 - Uruguay es bicampeona del mundo (1930 y 1950): dos títulos para 3,5 millones de habitantes.
-- Valverde fue uno de los mejores centrocampistas del mundo en la temporada 2024-25.`,
+- Valverde fue uno de los mejores centrocampistas del mundo en la temporada 2024-25.
+
+## Más información
+
+- **[Grupo H](/2026/grupo/h)** — clasificación, resultados y partidos del grupo
+- **[Sede: Kansas City](/2026/sedes/kansas-city)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país
+- **Convocatorias**: [Arabia Saudí](/2026/listas/KSA) · [Uruguay](/2026/listas/URU)`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -7790,7 +7878,15 @@ Sail; Osborne, Boxall, Souttar, Cacace; Gould, Thomas; Wood (cap.), Sarpreet Sin
 
 - Taremi marcó una chilena antológica a Inglaterra en Qatar 2022 (6-2), ya en el descuento.
 - Nueva Zelanda nunca ha ganado en 90 minutos en un Mundial.
-- Irán ostenta la mayor derrota en la historia de fútbol internacional: 17-0 ante Turquía en 1948.`,
+- Irán ostenta la mayor derrota en la historia de fútbol internacional: 17-0 ante Turquía en 1948.
+
+## Más información
+
+- **[Grupo H](/2026/grupo/h)** — clasificación, resultados y partidos del grupo
+- **[Sede: San Francisco Bay Area](/2026/sedes/san-francisco-bay-area)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país
+- **Convocatorias**: [Irán](/2026/listas/IRN) · [Nueva Zelanda](/2026/listas/NZL)`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -7845,7 +7941,15 @@ Mendy; Koulibaly, Diallo, Jakobs, M. Sarr; Gueye, P.M. Sarr, Camara; Ndiaye, Man
 
 - En 2002, Senegal derrotó a Francia 1-0 en la mayor sorpresa mundialista de ese año.
 - Mbappé, 27 años, llega como favorito al Balón de Oro y capitán de Francia.
-- Mané, 34 años, en lo que podría ser su último Mundial.`,
+- Mané, 34 años, en lo que podría ser su último Mundial.
+
+## Más información
+
+- **[Grupo E](/2026/grupo/e)** — clasificación, resultados y partidos del grupo
+- **[Sede: Boston](/2026/sedes/boston)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país
+- **Convocatorias**: [Francia](/2026/listas/FRA) · [Senegal](/2026/listas/SEN)`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -7900,7 +8004,15 @@ Nyland; Ajer, Östigard, Ryerson, Björkan; Ødegaard (cap.), Berge, Aursnes; S�
 
 - Haaland, 25 años, llega con hambre de demostrar que su voracidad goleadora de clubes se traslada a la selección.
 - Irak se clasificó como una de las revelaciones de la AFC.
-- AT&T Stadium, con techo retráctil, uno de los estadios más modernos del mundo.`,
+- AT&T Stadium, con techo retráctil, uno de los estadios más modernos del mundo.
+
+## Más información
+
+- **[Grupo F](/2026/grupo/f)** — clasificación, resultados y partidos del grupo
+- **[Sede: Dallas](/2026/sedes/dallas)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país
+- **Convocatorias**: [Irak](/2026/listas/IRQ) · [Noruega](/2026/listas/NOR)`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -7955,7 +8067,15 @@ L. Zidane; Mandi, Bensebaini, Aït-Nouri; Bentaleb, Aouar, Zerrouki; Mahrez (cap
 
 - Messi, 38 años, puede estar disputando su último partido en un Mundial. Busca ser el primer jugador en ganar tres títulos mundiales.
 - Mahrez (Al-Ahli), capitán argelino, es uno de los extremos más habilidosos de su generación.
-- Argentina no ha perdido un partido de fase de grupos desde Rusia 2018 (vs Croacia).`,
+- Argentina no ha perdido un partido de fase de grupos desde Rusia 2018 (vs Croacia).
+
+## Más información
+
+- **[Grupo G](/2026/grupo/g)** — clasificación, resultados y partidos del grupo
+- **[Sede: Kansas City](/2026/sedes/kansas-city)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país
+- **Convocatorias**: [Argentina](/2026/listas/ARG) · [Argelia](/2026/listas/ALG)`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -8010,7 +8130,15 @@ Abulaila; Haddad I. (cap.), Al-Arab, Nasib; Rawabdeh, Rashdan; Al-Taamari, Olwan
 
 - El debut mundialista de Jordania es el logro más grande del fútbol jordano.
 - Alaba regresa tras larga lesión de rodilla: esta es su gran reválida.
-- Rangnick transformó a Austria con su pressing de alta intensidad.`,
+- Rangnick transformó a Austria con su pressing de alta intensidad.
+
+## Más información
+
+- **[Grupo H](/2026/grupo/h)** — clasificación, resultados y partidos del grupo
+- **[Sede: Miami](/2026/sedes/miami)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país
+- **Convocatorias**: [Austria](/2026/listas/AUT) · [Jordania](/2026/listas/JOR)`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -8065,7 +8193,15 @@ Epolo; Mbemba, Wan-Bissaka, Masuaku; Sadiki, E. Kayembe, Mukau; Wissa, Bakambu (
 
 - Cristiano Ronaldo, 41 años, busca la copa que nunca ha ganado en lo que podría ser su último partido mundialista.
 - Aaron Wan-Bissaka (ex-Manchester United) representa a la R.D. Congo.
-- Portugal ganó la Nations League 2024-25 y llega como candidato serio.`,
+- Portugal ganó la Nations League 2024-25 y llega como candidato serio.
+
+## Más información
+
+- **[Grupo I](/2026/grupo/i)** — clasificación, resultados y partidos del grupo
+- **[Sede: Houston](/2026/sedes/houston)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país
+- **Convocatorias**: [Portugal](/2026/listas/POR) · [R.D. Congo](/2026/listas/COD)`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -8120,7 +8256,15 @@ Livaković; Gvardiol, Caleta-Car, Šutalo; Modrić (cap.), Kovačić, Pašalić;
 
 - Modric, 40 años, en lo que probablemente son sus últimos partidos mundialistas.
 - Bellingham, 22 años, es uno de los mejores jugadores del mundo.
-- Inglaterra no gana un torneo desde 1966.`,
+- Inglaterra no gana un torneo desde 1966.
+
+## Más información
+
+- **[Grupo J](/2026/grupo/j)** — clasificación, resultados y partidos del grupo
+- **[Sede: Filadelfia](/2026/sedes/philadelphia)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país
+- **Convocatorias**: [Inglaterra](/2026/listas/ENG) · [Croacia](/2026/listas/CRO)`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -8175,7 +8319,15 @@ Mosquera; Murillo, Escobar, Andrade, Blackman; Godoy, Carrasquilla, Harvey; I. D
 
 - Kudus, capitán de Ghana con 24 años, es uno de los extremos más desequilibrantes de la Premier League.
 - Ghana llegó a cuartos en Sudáfrica 2010 antes de caer ante Uruguay.
-- Panamá llega a su tercer Mundial consecutivo desde el debut en Rusia 2018.`,
+- Panamá llega a su tercer Mundial consecutivo desde el debut en Rusia 2018.
+
+## Más información
+
+- **[Grupo J](/2026/grupo/j)** — clasificación, resultados y partidos del grupo
+- **[Sede: San Francisco Bay Area](/2026/sedes/san-francisco-bay-area)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país
+- **Convocatorias**: [Ghana](/2026/listas/GHA) · [Panamá](/2026/listas/PAN)`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -8230,7 +8382,15 @@ Vargas; Muñoz, D. Sánchez, Lucumí, Mojica; Ríos, Lerma, James (cap.); L. Dí
 
 - Khusanov se convirtió en el jugador uzbeko más caro de la historia con el fichaje por el City.
 - Luis Díaz llegó al Bayern de Múnich en verano de 2025.
-- Colombia fue finalista invicta de la Copa América 2024 antes de caer ante Argentina.`,
+- Colombia fue finalista invicta de la Copa América 2024 antes de caer ante Argentina.
+
+## Más información
+
+- **[Grupo K](/2026/grupo/k)** — clasificación, resultados y partidos del grupo
+- **[Sede: Vancouver](/2026/sedes/vancouver)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país
+- **Convocatorias**: [Uzbekistán](/2026/listas/UZB) · [Colombia](/2026/listas/COL)`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -8285,7 +8445,15 @@ Porcellis; Modiba, Thabane, Lebese, Mobbie; Tau, Zwane, Mkhize; Dolly, Foster, L
 
 - Sudáfrica fue el primer país africano en organizar un Mundial (2010).
 - Soucek es el motor del West Ham y de la selección checa.
-- SoFi Stadium albergará la final del Mundial el 19 de julio.`,
+- SoFi Stadium albergará la final del Mundial el 19 de julio.
+
+## Más información
+
+- **[Grupo L](/2026/grupo/l)** — clasificación, resultados y partidos del grupo
+- **[Sede: Los Ángeles](/2026/sedes/los-angeles)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país
+- **Convocatorias**: [República Checa](/2026/listas/CZE) · [Sudáfrica](/2026/listas/RSA)`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -8340,7 +8508,15 @@ Piric; Civic, Sunjic, Hadziahmetovic, Kolasinac; Pjanic (si convocado), Besic; G
 
 - Xhaka tuvo la mejor temporada de su carrera en el Bayer Leverkusen.
 - Dzeko, 40 años, es el máximo goleador histórico de Bosnia.
-- Primera cita mundialista entre Suiza y Bosnia-Herzegovina.`,
+- Primera cita mundialista entre Suiza y Bosnia-Herzegovina.
+
+## Más información
+
+- **[Grupo L](/2026/grupo/l)** — clasificación, resultados y partidos del grupo
+- **[Sede: Miami](/2026/sedes/miami)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país
+- **Convocatorias**: [Suiza](/2026/listas/SUI) · [Bosnia-Herzegovina](/2026/listas/BIH)`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -8395,7 +8571,15 @@ Barsham; Pedro Miguel, Khoukhi, Sultan, Al-Rawi; Hatem, Boudiaf, Madibo; Afif, A
 
 - Alphonso Davies es el jugador más reconocible de la historia del fútbol canadiense.
 - BC Place tiene acústica especial con su techo de membrana inflada.
-- Catar busca la redención 4 años después de su fracaso histórico como anfitrión.`,
+- Catar busca la redención 4 años después de su fracaso histórico como anfitrión.
+
+## Más información
+
+- **[Grupo A](/2026/grupo/a)** — clasificación, resultados y partidos del grupo
+- **[Sede: Vancouver](/2026/sedes/vancouver)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país
+- **Convocatorias**: [Canadá](/2026/listas/CAN) · [Catar](/2026/listas/QAT)`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -8450,7 +8634,15 @@ Kim; Kim M.H., Kim Y.G., Oh, Kim J.S.; Hwang, Baek, Lee J.S.; Son (cap.), Cho, L
 
 - El Estadio Azteca es el único del mundo con dos finales mundiales (1970 y 1986).
 - Ochoa busca su sexto Mundial: una gesta histórica a los 40 años.
-- Son fichó por el LAFC de Los Ángeles en 2025, por lo que jugar en México es jugar en su zona geográfica.`,
+- Son fichó por el LAFC de Los Ángeles en 2025, por lo que jugar en México es jugar en su zona geográfica.
+
+## Más información
+
+- **[Grupo B](/2026/grupo/b)** — clasificación, resultados y partidos del grupo
+- **[Sede: Ciudad de México](/2026/sedes/ciudad-de-mexico)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país
+- **Convocatorias**: [México](/2026/listas/MEX) · [Corea del Sur](/2026/listas/KOR)`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -8506,7 +8698,15 @@ Por confirmar.
 - **Christian Pulisic** llega al torneo como el jugador más determinante de la CONCACAF, con más de 100 goles y asistencias en su carrera con el AC Milan.
 - El portero australiano **Mat Ryan** disputa su tercer Mundial con más de 100 caps internacionales.
 - MetLife Stadium fue escenario de la final de la Super Bowl en 2014 y acogerá la **final del Mundial 2026**.
-- **Folarin Balogun** puede convertirse en el hombre del partido: delantero nacido en Londres que optó por jugar con EEUU y llega en estado de forma superlativo.`,
+- **Folarin Balogun** puede convertirse en el hombre del partido: delantero nacido en Londres que optó por jugar con EEUU y llega en estado de forma superlativo.
+
+## Más información
+
+- **[Grupo D](/2026/grupo/d)** — clasificación, resultados y partidos del grupo
+- **[Sede: Nueva York / NJ](/2026/sedes/nueva-york)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país
+- **Convocatorias**: [Estados Unidos](/2026/listas/USA) · [Australia](/2026/listas/AUS)`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -8562,7 +8762,15 @@ Por confirmar.
 - **Brahim Díaz**, nacido en Málaga, optó por jugar con Marruecos y será el jugador a seguir en el duelo ofensivo.
 - Escocia no disputaba un Mundial desde **Francia 1998**, donde cayó en la fase de grupos.
 - **Sofiane Amrabat** es el ancla del centro del campo marroquí, conocido en España por su paso por la Real Sociedad.
-- Los leones del Atlas buscan superar su hito histórico de Qatar 2022 y llegar aún más lejos en casa de los organizadores.`,
+- Los leones del Atlas buscan superar su hito histórico de Qatar 2022 y llegar aún más lejos en casa de los organizadores.
+
+## Más información
+
+- **[Grupo D](/2026/grupo/d)** — clasificación, resultados y partidos del grupo
+- **[Sede: Los Ángeles](/2026/sedes/los-angeles)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país
+- **Convocatorias**: [Escocia](/2026/listas/SCO) · [Marruecos](/2026/listas/MAR)`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -8618,7 +8826,15 @@ Por confirmar.
 - **Vinicius Jr.** llega al torneo como uno de los mejores jugadores del mundo tras sus temporadas en el Real Madrid.
 - Haití clasifica 52 años después de su único Mundial anterior, en 1974 en Alemania Occidental.
 - El Gillette Stadium, sede del New England Patriots de la NFL, tiene capacidad para 65.878 espectadores.
-- La comunidad haitiana en Boston, una de las más grandes de EEUU, convertirá el estadio en un caldero de apoyo caribeño.`,
+- La comunidad haitiana en Boston, una de las más grandes de EEUU, convertirá el estadio en un caldero de apoyo caribeño.
+
+## Más información
+
+- **[Grupo C](/2026/grupo/c)** — clasificación, resultados y partidos del grupo
+- **[Sede: Boston](/2026/sedes/boston)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país
+- **Convocatorias**: [Brasil](/2026/listas/BRA) · [Haití](/2026/listas/HAI)`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -8674,7 +8890,15 @@ Por confirmar.
 - **Kenan Yildiz** (Juventus), con 20 años, llega al torneo en plena explosión y forma pareja de ataque ilusionante con Güler.
 - **Hakan Calhanoglu** (Inter de Milán) es el cerebro del juego turco y uno de los mejores centrocampistas del momento.
 - **Miguel Almirón** (Newcastle), referente del fútbol paraguayo, puede desequilibrar con su velocidad y desborde.
-- Arrowhead Stadium, hogar de los Kansas City Chiefs de la NFL, tiene capacidad para más de 76.000 espectadores.`,
+- Arrowhead Stadium, hogar de los Kansas City Chiefs de la NFL, tiene capacidad para más de 76.000 espectadores.
+
+## Más información
+
+- **[Grupo D](/2026/grupo/d)** — clasificación, resultados y partidos del grupo
+- **[Sede: Kansas City](/2026/sedes/kansas-city)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país
+- **Convocatorias**: [Turquía](/2026/listas/TUR) · [Paraguay](/2026/listas/PAR)`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -8730,7 +8954,15 @@ Por confirmar.
 - **Alexander Isak** (Newcastle) forma con Gyokeres el dúo de ataque más temido de la competición por parte de Suecia.
 - **Virgil Van Dijk** (Liverpool) afronta posiblemente su último gran torneo y querrá brillar con Países Bajos.
 - **Cody Gakpo** llega en un gran momento de forma y será la gran amenaza ofensiva neerlandesa.
-- Hard Rock Stadium, sede del Miami Dolphins de la NFL, tiene capacidad para más de 65.000 espectadores y un calor húmedo que puede afectar el ritmo del partido.`,
+- Hard Rock Stadium, sede del Miami Dolphins de la NFL, tiene capacidad para más de 65.000 espectadores y un calor húmedo que puede afectar el ritmo del partido.
+
+## Más información
+
+- **[Grupo F](/2026/grupo/f)** — clasificación, resultados y partidos del grupo
+- **[Sede: Miami](/2026/sedes/miami)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país
+- **Convocatorias**: [Países Bajos](/2026/listas/NED) · [Suecia](/2026/listas/SWE)`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -8786,7 +9018,15 @@ Por confirmar.
 - **Amad Diallo** (Manchester United), nacido en Costa de Marfil, llega al torneo tras una temporada brillante en la Premier League.
 - Alemania aún recuerda con escalofrío la eliminación en la fase de grupos de Rusia 2018 y su objetivo es ir muy lejos en este torneo.
 - **Joshua Kimmich** (Bayern Múnich) es el capitán y el cerebro de todo el juego alemán desde el centro del campo.
-- BC Place, estadio con techo retráctil, acogerá los partidos de Vancouver con las montañas nevadas de fondo.`,
+- BC Place, estadio con techo retráctil, acogerá los partidos de Vancouver con las montañas nevadas de fondo.
+
+## Más información
+
+- **[Grupo E](/2026/grupo/e)** — clasificación, resultados y partidos del grupo
+- **[Sede: Vancouver](/2026/sedes/vancouver)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país
+- **Convocatorias**: [Alemania](/2026/listas/GER) · [Costa de Marfil](/2026/listas/CIV)`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -8842,7 +9082,15 @@ Por confirmar.
 - **Curazao** es la selección más pequeña por población en clasificar para este Mundial: apenas 150.000 habitantes.
 - **Enner Valencia**, histórico goleador ecuatoriano, llega al que podría ser su último gran torneo internacional.
 - **Cuco Martina**, exjugador del Southampton, es uno de los referentes de la historia de Curazao aunque ya no está en la selección activa.
-- Lincoln Financial Field, hogar de los Philadelphia Eagles de la NFL, tiene capacidad para 69.000 espectadores.`,
+- Lincoln Financial Field, hogar de los Philadelphia Eagles de la NFL, tiene capacidad para 69.000 espectadores.
+
+## Más información
+
+- **[Grupo E](/2026/grupo/e)** — clasificación, resultados y partidos del grupo
+- **[Sede: Filadelfia](/2026/sedes/philadelphia)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país
+- **Convocatorias**: [Ecuador](/2026/listas/ECU) · [Curazao](/2026/listas/CUW)`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -8898,7 +9146,15 @@ Por confirmar.
 - **Wataru Endo** (Liverpool) lidera el mediocampo japonés con rigor y visión de juego.
 - Túnez fue la primera selección africana en ganar un partido mundialista (3-1 a México en 1978).
 - Japón ha clasificado para siete Mundiales consecutivos y busca el primer cuarto de final desde Corea/Japón 2002.
-- AT&T Stadium, conocido como 'La Casa de Jerry', tiene una capacidad de 80.000 espectadores y es uno de los estadios más espectaculares del planeta.`,
+- AT&T Stadium, conocido como 'La Casa de Jerry', tiene una capacidad de 80.000 espectadores y es uno de los estadios más espectaculares del planeta.
+
+## Más información
+
+- **[Grupo F](/2026/grupo/f)** — clasificación, resultados y partidos del grupo
+- **[Sede: Dallas](/2026/sedes/dallas)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país
+- **Convocatorias**: [Túnez](/2026/listas/TUN) · [Japón](/2026/listas/JPN)`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -8954,7 +9210,15 @@ XI por confirmar. Referentes: **GK Al-Owais · DF Al-Ghannam, Sultan Al-Ghannam 
 - Arabia Saudí eliminó a **Argentina** (con Messi) en Qatar 2022 con un marcador de 2-1 en una de las mayores sorpresas de la historia del Mundial.
 - Es el segundo partido de España en el Grupo B, por lo que los puntos son determinantes para asegurar el liderato.
 - Arrowhead Stadium es uno de los estadios más ruidosos de América del Norte y será escenario de un gran ambiente.
-- RTVE emite el partido en abierto, lo que garantiza una audiencia millonaria en España.`,
+- RTVE emite el partido en abierto, lo que garantiza una audiencia millonaria en España.
+
+## Más información
+
+- **[Grupo B](/2026/grupo/b)** — clasificación, resultados y partidos del grupo
+- **[Sede: Kansas City](/2026/sedes/kansas-city)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país
+- **Convocatorias**: [España](/2026/listas/ESP) · [Arabia Saudí](/2026/listas/KSA)`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -9010,7 +9274,15 @@ XI por confirmar. Referentes: **GK Beiranvand · DF Mohammadi, Cheshmi · MF Eza
 - **Mehdi Taremi** (Olympiacos) es el máximo goleador histórico de Irán y uno de los delanteros más letales del fútbol europeo.
 - Irán ha participado en seis Mundiales pero nunca ha superado la fase de grupos.
 - NRG Stadium, hogar de los Houston Texans, tiene capacidad para 72.000 espectadores con un clima tropical que puede ser determinante.
-- Bélgica fue tercera en Rusia 2018 y busca ir aún más lejos en este torneo.`,
+- Bélgica fue tercera en Rusia 2018 y busca ir aún más lejos en este torneo.
+
+## Más información
+
+- **[Grupo G](/2026/grupo/g)** — clasificación, resultados y partidos del grupo
+- **[Sede: Houston](/2026/sedes/houston)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país
+- **Convocatorias**: [Bélgica](/2026/listas/BEL) · [Irán](/2026/listas/IRN)`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -9066,7 +9338,15 @@ XI por confirmar. Referentes: **GK Vozinha · DF Stopira, Wanderson · MF Lopes,
 - Uruguay ganó el **primer Mundial de la historia** en 1930, cuando fue anfitrión, y repitió título en 1950 en Brasil con el famoso 'Maracanazo'.
 - Cabo Verde clasifica para su primer Mundial gracias a una campaña extraordinaria en las eliminatorias africanas.
 - **Federico Valverde** (Real Madrid) es el jugador más cotizado de Uruguay y puede ser el motor del juego charrúa.
-- SoFi Stadium, el más caro de la historia del deporte americano con una inversión de 5.500 millones de dólares, tiene capacidad para 70.000 espectadores.`,
+- SoFi Stadium, el más caro de la historia del deporte americano con una inversión de 5.500 millones de dólares, tiene capacidad para 70.000 espectadores.
+
+## Más información
+
+- **[Grupo G](/2026/grupo/g)** — clasificación, resultados y partidos del grupo
+- **[Sede: Los Ángeles](/2026/sedes/los-angeles)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país
+- **Convocatorias**: [Uruguay](/2026/listas/URU) · [Cabo Verde](/2026/listas/CPV)`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -9122,7 +9402,15 @@ XI por confirmar. Referentes: **GK El-Shenawy · DF Hamdy, Abdelmonem · MF El-N
 - Egipto regresa a un Mundial por primera vez desde Italia **1990**, 36 años de ausencia.
 - **Chris Wood** (Nottingham Forest) es el máximo goleador histórico de Nueva Zelanda y su gran referente ofensivo.
 - BC Place fue la sede de los Juegos Olímpicos de Invierno de Vancouver 2010 y tiene un ambiente único.
-- Nueva Zelanda fue la única selección en no perder ningún partido en Sudáfrica 2010, aunque quedó eliminada en primera ronda con tres empates.`,
+- Nueva Zelanda fue la única selección en no perder ningún partido en Sudáfrica 2010, aunque quedó eliminada en primera ronda con tres empates.
+
+## Más información
+
+- **[Grupo H](/2026/grupo/h)** — clasificación, resultados y partidos del grupo
+- **[Sede: Vancouver](/2026/sedes/vancouver)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país
+- **Convocatorias**: [Nueva Zelanda](/2026/listas/NZL) · [Egipto](/2026/listas/EGY)`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -9178,7 +9466,15 @@ Por confirmar.
 - **David Alaba** (Real Madrid) lidera la defensa austríaca aunque llega condicionado por sus recientes lesiones de rodilla.
 - Argentina ganó su tercera estrella en Qatar 2022 al vencer a Francia en la final más emocionante de la historia.
 - **Marko Arnautovic** (Bologna) es el referente ofensivo austríaco, un delantero con gran físico y habilidad técnica.
-- Hard Rock Stadium, sede del Miami Dolphins, será un hervidero con la numerosa comunidad argentina en el sur de Florida.`,
+- Hard Rock Stadium, sede del Miami Dolphins, será un hervidero con la numerosa comunidad argentina en el sur de Florida.
+
+## Más información
+
+- **[Grupo A](/2026/grupo/a)** — clasificación, resultados y partidos del grupo
+- **[Sede: Miami](/2026/sedes/miami)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país
+- **Convocatorias**: [Argentina](/2026/listas/ARG) · [Austria](/2026/listas/AUT)`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -9234,7 +9530,15 @@ Por confirmar.
 - Irak participó en su único Mundial en **México 1986**, donde perdió los tres partidos de grupo.
 - **N'Golo Kanté** regresa a un gran torneo con Francia tras sus años en Arabia Saudí, aportando experiencia y calidad al mediocampo.
 - **Ousmane Dembélé** (PSG) llega al torneo en su mejor momento como exterior dinámico e imprevisible.
-- Levi's Stadium, hogar de los San Francisco 49ers, tiene capacidad para 68.500 espectadores con vistas a la Bahía de San Francisco.`,
+- Levi's Stadium, hogar de los San Francisco 49ers, tiene capacidad para 68.500 espectadores con vistas a la Bahía de San Francisco.
+
+## Más información
+
+- **[Grupo I](/2026/grupo/i)** — clasificación, resultados y partidos del grupo
+- **[Sede: San Francisco Bay Area](/2026/sedes/san-francisco-bay-area)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país
+- **Convocatorias**: [Francia](/2026/listas/FRA) · [Irak](/2026/listas/IRQ)`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -9290,7 +9594,15 @@ Por confirmar.
 - **Sadio Mané** (Al-Nassr), uno de los mejores jugadores africanos de todos los tiempos, lidera a Senegal en busca de un hito histórico en este torneo.
 - **Martin Odegaard** (Arsenal), capitán de Noruega, será el cerebro creativo del equipo escandinavo.
 - Noruega fue semifinalista en **Francia 1998**, su última gran actuación en un Mundial. Han pasado 28 años.
-- **Nicolas Jackson** (Chelsea) forma pareja de ataque con Mané y aporta dinamismo y profundidad al ataque senegalés.`,
+- **Nicolas Jackson** (Chelsea) forma pareja de ataque con Mané y aporta dinamismo y profundidad al ataque senegalés.
+
+## Más información
+
+- **[Grupo I](/2026/grupo/i)** — clasificación, resultados y partidos del grupo
+- **[Sede: Filadelfia](/2026/sedes/philadelphia)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país
+- **Convocatorias**: [Noruega](/2026/listas/NOR) · [Senegal](/2026/listas/SEN)`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -9346,7 +9658,15 @@ Por confirmar.
 - **Riyad Mahrez** (Al-Ahli), capitán de Argelia, es uno de los mejores extremos de su generación, ex Manchester City y campeón de la Premier League.
 - **Houssem Aouar** (Roma) es el creativo del mediocampo argelino, conocido en España por sus temporadas en la Ligue 1 con el Lyon.
 - Argelia fue eliminada en la primera ronda de sus dos últimos Mundiales (2010 y 2014), aunque en 2014 llegó a los octavos de final.
-- AT&T Stadium, con capacidad para 80.000 espectadores, es el mayor estadio del torneo y uno de los más impresionantes del mundo.`,
+- AT&T Stadium, con capacidad para 80.000 espectadores, es el mayor estadio del torneo y uno de los más impresionantes del mundo.
+
+## Más información
+
+- **[Grupo J](/2026/grupo/j)** — clasificación, resultados y partidos del grupo
+- **[Sede: Dallas](/2026/sedes/dallas)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país
+- **Convocatorias**: [Jordania](/2026/listas/JOR) · [Argelia](/2026/listas/ALG)`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -9402,7 +9722,15 @@ Por confirmar.
 - **Abdukodir Khusanov** (Manchester City) será el encargado de frenar a Ronaldo y Leão: el defensa uzbeko-inglés contra el mejor goleador de la historia del fútbol.
 - Portugal fue semifinalista en Qatar 2022, donde fue eliminada por Marruecos. Tiene la deuda pendiente de alcanzar una final mundialista.
 - **Rafael Leão** (AC Milan) es el jugador más desequilibrante de Portugal y el que puede marcar diferencias en el torneo.
-- MetLife Stadium acogerá la **final del Mundial 2026** el 19 de julio, lo que añade simbolismo a este partido de fase de grupos.`,
+- MetLife Stadium acogerá la **final del Mundial 2026** el 19 de julio, lo que añade simbolismo a este partido de fase de grupos.
+
+## Más información
+
+- **[Grupo K](/2026/grupo/k)** — clasificación, resultados y partidos del grupo
+- **[Sede: Nueva York / NJ](/2026/sedes/nueva-york)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país
+- **Convocatorias**: [Portugal](/2026/listas/POR) · [Uzbekistán](/2026/listas/UZB)`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -9458,7 +9786,15 @@ Por confirmar.
 - **Mohammed Kudus** (West Ham), capitán de Ghana con 24 años, es uno de los jugadores más desequilibrantes de la Premier League.
 - Inglaterra acumula ya tres finales de torneo en los últimos años (Euro 2020 y 2024 perdidas, semifinal Qatar 2022) sin conseguir el título.
 - **Thomas Partey** (Arsenal) es el referente del mediocampo ghanés, con enorme experiencia en el fútbol europeo.
-- **Harry Kane** (Bayern Múnich), máximo goleador histórico de Inglaterra, llega al torneo hambriento de títulos colectivos.`,
+- **Harry Kane** (Bayern Múnich), máximo goleador histórico de Inglaterra, llega al torneo hambriento de títulos colectivos.
+
+## Más información
+
+- **[Grupo L](/2026/grupo/l)** — clasificación, resultados y partidos del grupo
+- **[Sede: Kansas City](/2026/sedes/kansas-city)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país
+- **Convocatorias**: [Inglaterra](/2026/listas/ENG) · [Ghana](/2026/listas/GHA)`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -9514,7 +9850,15 @@ Por confirmar.
 - **Josko Gvardiol** (Manchester City), con 22 años, representa el relevo generacional croata: uno de los mejores centrales del mundo.
 - Croacia fue **finalista en Rusia 2018** y **semifinalista en Qatar 2022**. Dos generaciones de futbolistas excepcionales.
 - **Mateo Kovacic** (Manchester City) es el otro líder del mediocampo croata junto a Modric, con una calidad técnica extraordinaria.
-- Panamá clasificó por primera vez para un Mundial en **Rusia 2018** y ya acumula tres participaciones consecutivas, un logro notable para el fútbol centroamericano.`,
+- Panamá clasificó por primera vez para un Mundial en **Rusia 2018** y ya acumula tres participaciones consecutivas, un logro notable para el fútbol centroamericano.
+
+## Más información
+
+- **[Grupo L](/2026/grupo/l)** — clasificación, resultados y partidos del grupo
+- **[Sede: Boston](/2026/sedes/boston)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país
+- **Convocatorias**: [Panamá](/2026/listas/PAN) · [Croacia](/2026/listas/CRO)`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -9570,7 +9914,15 @@ Por confirmar.
 - **Luis Díaz** (Liverpool) es el jugador más explosivo de Colombia y llega al Mundial en plena madurez futbolística.
 - **Aaron Wan-Bissaka** (ex-Manchester United, Crystal Palace), internacional congoleño, es uno de los jugadores más reconocibles de la Premier League en la plantilla de la RD Congo.
 - La República Democrática del Congo debuta en un Mundial a pesar de tener una población de más de 100 millones de habitantes y un enorme potencial futbolístico.
-- **Jhon Durán** (Aston Villa), el joven delantero colombiano, llega al torneo como uno de los jugadores más prometedores del continente americano.`,
+- **Jhon Durán** (Aston Villa), el joven delantero colombiano, llega al torneo como uno de los jugadores más prometedores del continente americano.
+
+## Más información
+
+- **[Grupo K](/2026/grupo/k)** — clasificación, resultados y partidos del grupo
+- **[Sede: Los Ángeles](/2026/sedes/los-angeles)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país
+- **Convocatorias**: [Colombia](/2026/listas/COL) · [R.D. Congo](/2026/listas/COD)`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -9628,7 +9980,14 @@ Maxime Crépeau bajo palos. La defensa depende del estado de Miller y Johnston. 
 - Canadá ha esperado 40 años entre apariciones mundialistas (1986-2022). En 2026 juega en casa.
 - Granit Xhaka disputará presumiblemente su último Mundial con 33 años.
 - Jonathan David es el máximo goleador histórico de la selección canadiense y viene de una temporada excepcional en la Ligue 1.
-- El MetLife Stadium fue sede de la final de esta edición del Mundial 2026.`,
+- El MetLife Stadium fue sede de la final de esta edición del Mundial 2026.
+
+## Más información
+
+- **[Grupo B](/2026/grupo/b)** — clasificación, resultados y partidos del grupo
+- **[Sede: Nueva York / NJ](/2026/sedes/nueva-york)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -9686,7 +10045,14 @@ Akram Afif, el as catarí, es el jugador diferencial. Almoez Ali aporta movilida
 - Edin Dzeko es el máximo goleador histórico de Bosnia con más de 65 goles internacionales.
 - Bosnia nunca ha superado la fase de grupos en un Mundial.
 - El BC Place de Vancouver es el único estadio cubierto de la edición 2026.
-- Akram Afif ganó el Balón de Oro de la AFC en 2023.`,
+- Akram Afif ganó el Balón de Oro de la AFC en 2023.
+
+## Más información
+
+- **[Grupo B](/2026/grupo/b)** — clasificación, resultados y partidos del grupo
+- **[Sede: Vancouver](/2026/sedes/vancouver)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -9744,7 +10110,14 @@ Haití plantea un esquema ordenado y físico. Carnejy Antoine es la referencia o
 - Achraf Hakimi, criado en Madrid, es uno de los laterales más completos del mundo.
 - Haití ha participado en un Mundial anteriormente: 1974 en Alemania, donde perdió los tres partidos.
 - El combinado marroquí tiene más de 30 jugadores formados en clubes europeos.
-- Boston fue una de las sedes del primer Mundial celebrado en suelo norteamericano, en 1994.`,
+- Boston fue una de las sedes del primer Mundial celebrado en suelo norteamericano, en 1994.
+
+## Más información
+
+- **[Grupo C](/2026/grupo/c)** — clasificación, resultados y partidos del grupo
+- **[Sede: Boston](/2026/sedes/boston)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -9802,7 +10175,14 @@ Vinicius Jr es la gran amenaza. Rodrygo aporta velocidad y desequilibrio. En la 
 - El golazo de Narey frente a Brasil en 1982 fue catalogado como 'un tiro de paleto' por el comentarista inglés Jimmy Hill, provocando la ira escocesa.
 - Vinicius Jr ha ganado la Champions League con el Real Madrid y es uno de los tres mejores jugadores del mundo.
 - Brasil nunca ha sido eliminado en fase de grupos de un Mundial.
-- Hard Rock Stadium fue sede de la Copa América 2024.`,
+- Hard Rock Stadium fue sede de la Copa América 2024.
+
+## Más información
+
+- **[Grupo C](/2026/grupo/c)** — clasificación, resultados y partidos del grupo
+- **[Sede: Miami](/2026/sedes/miami)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -9860,7 +10240,14 @@ Son Heung-min, con 33 años y ya en su cuarto Mundial, lidera una generación qu
 - Son Heung-min marcó en el Mundial 2018 y es el máximo goleador histórico de su selección.
 - Sudáfrica fue la sede del Mundial 2010, el primero celebrado en África.
 - La selección sudafricana fue la única anfitriona en ser eliminada en fase de grupos en 2010.
-- Lee Kang-in, del Paris Saint-Germain, es la gran promesa ofensiva del equipo asiático.`,
+- Lee Kang-in, del Paris Saint-Germain, es la gran promesa ofensiva del equipo asiático.
+
+## Más información
+
+- **[Grupo A](/2026/grupo/a)** — clasificación, resultados y partidos del grupo
+- **[Sede: Filadelfia](/2026/sedes/philadelphia)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -9918,7 +10305,14 @@ Santiago Giménez es la apuesta ofensiva. En el mediocampo, Edson Álvarez marca
 - Guillermo Ochoa, si está en la portería, podría ser el jugador más veterano del torneo.
 - República Checa llegó a la semifinal del Mundial 2006 como Checoslovaquia antes de la escisión.
 - El Arrowhead Stadium de Kansas City tiene capacidad para más de 76.000 espectadores.
-- Santiago Giménez, del Feyenoord, es el gran ariete mexicano de la nueva generación.`,
+- Santiago Giménez, del Feyenoord, es el gran ariete mexicano de la nueva generación.
+
+## Más información
+
+- **[Grupo A](/2026/grupo/a)** — clasificación, resultados y partidos del grupo
+- **[Sede: Kansas City](/2026/sedes/kansas-city)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -9976,7 +10370,14 @@ Amad Diallo, la joya del Manchester United, es el jugador más peligroso del equ
 - Amad Diallo tiene ascendencia marfileña y puede ser la estrella más brillante del partido.
 - Costa de Marfil fue la selección que 'asesinó' a Didier Drogba en la fase de grupos de Brasil 2014 al caer eliminada con el mejor Drogba de su historia.
 - El AT&T Stadium de Dallas tiene el tejado retráctil más grande del mundo.
-- Varios jugadores de Curazao militan en la Eredivisie holandesa.`,
+- Varios jugadores de Curazao militan en la Eredivisie holandesa.
+
+## Más información
+
+- **[Grupo D](/2026/grupo/d)** — clasificación, resultados y partidos del grupo
+- **[Sede: Dallas](/2026/sedes/dallas)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -10034,7 +10435,14 @@ Florian Wirtz, el genio del Bayer Leverkusen con apenas 23 años, es la gran est
 - Florian Wirtz fue el jugador más determinante de la Bundesliga en las temporadas 2023 y 2024.
 - Ecuador marcó en el primer minuto del Mundial 2006 frente a Polonia pero perdió ante Alemania en la segunda jornada.
 - Moisés Caicedo, del Chelsea, es considerado uno de los mejores centrocampistas del mundo actualmente.
-- El NRG Stadium fue sede del Super Bowl y tiene capacidad para 72.000 espectadores.`,
+- El NRG Stadium fue sede del Super Bowl y tiene capacidad para 72.000 espectadores.
+
+## Más información
+
+- **[Grupo E](/2026/grupo/e)** — clasificación, resultados y partidos del grupo
+- **[Sede: Houston](/2026/sedes/houston)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -10092,7 +10500,14 @@ Virgilius Van Dijk es el capitán y alma de la defensa. Cody Gakpo y Memphis Dep
 - Túnez fue el primer equipo africano en ganar un partido en un Mundial, frente a México en 1978.
 - En Qatar 2022, el empate 0-0 entre estos dos fue uno de los partidos más tácticos del torneo.
 - Virgil Van Dijk es considerado uno de los mejores defensas centrales de la historia reciente del fútbol.
-- El Levi's Stadium es hogar de los San Francisco 49ers de la NFL.`,
+- El Levi's Stadium es hogar de los San Francisco 49ers de la NFL.
+
+## Más información
+
+- **[Grupo E](/2026/grupo/e)** — clasificación, resultados y partidos del grupo
+- **[Sede: San Francisco Bay Area](/2026/sedes/san-francisco-bay-area)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -10150,7 +10565,14 @@ Viktor Gyökeres, el depredador del Sporting de Lisboa, llega en estado excepcio
 - Japón es el único equipo asiático que ha ganado partidos ante potencias europeas en Mundiales recientes (Alemania, España en 2022).
 - Kubo Takefusa se formó en la cantera del FC Barcelona antes de regresar a Japón y triunfar en España.
 - Suecia fue cuarto en el Mundial 1994 y semifinalista en 2018.
-- El SoFi Stadium costó más de 5.500 millones de dólares y es el estadio más caro construido hasta la fecha.`,
+- El SoFi Stadium costó más de 5.500 millones de dólares y es el estadio más caro construido hasta la fecha.
+
+## Más información
+
+- **[Grupo F](/2026/grupo/f)** — clasificación, resultados y partidos del grupo
+- **[Sede: Los Ángeles](/2026/sedes/los-angeles)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -10208,7 +10630,14 @@ Christian Pulisic es el líder indiscutible. Tyler Adams en el centro, recuperad
 - Kenan Yildiz debutó con la Juventus con 18 años y es considerado el próximo gran nombre del fútbol turco.
 - Turquía fue tercera en el Mundial 2002 en Corea del Sur con el legendario Hakan Sükür.
 - Hakan Calhanoglu, centrocampista del Inter, es el motor de la nueva Turquía futbolística.
-- El Lincoln Financial Field de Filadelfia es el hogar de los Philadelphia Eagles de la NFL.`,
+- El Lincoln Financial Field de Filadelfia es el hogar de los Philadelphia Eagles de la NFL.
+
+## Más información
+
+- **[Grupo D](/2026/grupo/d)** — clasificación, resultados y partidos del grupo
+- **[Sede: Filadelfia](/2026/sedes/philadelphia)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -10266,7 +10695,14 @@ Mathew Leckie, el veterano de más de 30 años, sigue siendo decisivo. Aziz Behi
 - Australia cayó eliminada en octavos contra Argentina en Qatar 2022 pese a plantar cara durante más de 80 minutos.
 - Mathew Leckie marcó el gol que eliminó a Dinamarca en Qatar 2022 en uno de los momentos más emotivos del torneo.
 - Miguel Almirón ganó la Premier League con el Manchester City antes de retornar al Newcastle.
-- Paraguay no ha superado los cuartos de final en su historia mundialista, siendo 2010 su techo.`,
+- Paraguay no ha superado los cuartos de final en su historia mundialista, siendo 2010 su techo.
+
+## Más información
+
+- **[Grupo D](/2026/grupo/d)** — clasificación, resultados y partidos del grupo
+- **[Sede: Boston](/2026/sedes/boston)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -10324,7 +10760,14 @@ Kylian Mbappé, capitán y referencia absoluta, lleva la carga ofensiva. Auréli
 - Kylian Mbappé ganó el Mundial 2018 con 19 años, convirtiéndose en el segundo jugador más joven en marcar en una final.
 - Noruega nunca ha superado los cuartos de final en un Mundial. Con Haaland, la narrativa puede cambiar.
 - Francia fue campeona en 1998 y 2018, y finalista en 2022.
-- El duelo Haaland-Mbappé es el enfrentamiento individual más esperado del torneo.`,
+- El duelo Haaland-Mbappé es el enfrentamiento individual más esperado del torneo.
+
+## Más información
+
+- **[Grupo I](/2026/grupo/i)** — clasificación, resultados y partidos del grupo
+- **[Sede: Dallas](/2026/sedes/dallas)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -10382,7 +10825,14 @@ Aymen Hussein, el goleador del Al-Quwa Al-Jawiya, lidera la delantera iraquí. B
 - Sadio Mané ganó la Copa África 2022 con Senegal y es el jugador más laureado de su generación africana.
 - Iraq participó por última vez en un Mundial en México 1986, donde perdió los tres partidos.
 - La imagen de la nota usa una foto de Mohamed Salah por similitudes estilísticas del continente árabe y fútbol africano, representativa del contexto.
-- Senegal vuelve a demostrar que África tiene calidad para competir con cualquiera en el máximo nivel.`,
+- Senegal vuelve a demostrar que África tiene calidad para competir con cualquiera en el máximo nivel.
+
+## Más información
+
+- **[Grupo I](/2026/grupo/i)** — clasificación, resultados y partidos del grupo
+- **[Sede: Vancouver](/2026/sedes/vancouver)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -10440,7 +10890,14 @@ Salem Al-Dawsari, el héroe contra Argentina en 2022, es el gran peligro. Firas 
 - Salem Al-Dawsari marcó el gol de la victoria contra Argentina, uno de los tantos más celebrados de los últimos Mundiales.
 - Cabo Verde, archipiélago frente a las costas de Senegal, tiene una población de apenas 550.000 habitantes.
 - Varios jugadores de Cabo Verde tienen pasaporte portugués por la diáspora histórica entre ambos países.
-- El Hard Rock Stadium fue renovado por 135 millones de dólares para el Mundial 2026.`,
+- El Hard Rock Stadium fue renovado por 135 millones de dólares para el Mundial 2026.
+
+## Más información
+
+- **[Grupo H](/2026/grupo/h)** — clasificación, resultados y partidos del grupo
+- **[Sede: Miami](/2026/sedes/miami)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -10498,7 +10955,15 @@ Lamine Yamal sigue siendo la gran revelación del torneo con apenas 18 años. Pe
 - Uruguay ha ganado el Mundial en dos ocasiones: 1930 y 1950. En 1950 eliminó a Brasil en el mítico 'Maracanazo'.
 - Lamine Yamal cumplió 17 años el mismo día que España ganó la Eurocopa 2024 ante Francia.
 - Fede Valverde y Lamine Yamal coincidirán en el Real Madrid la próxima temporada si el fichaje se confirma.
-- Ronald Araújo y Pau Cubarsí son pareja de centrales en el FC Barcelona; aquí son rivales directos.`,
+- Ronald Araújo y Pau Cubarsí son pareja de centrales en el FC Barcelona; aquí son rivales directos.
+
+## Más información
+
+- **[Grupo J](/2026/grupo/j)** — clasificación, resultados y partidos del grupo
+- **[Sede: Guadalajara](/2026/sedes/guadalajara)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país
+- **Convocatorias**: [Uruguay](/2026/listas/URU) · [España](/2026/listas/ESP)`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -10556,7 +11021,14 @@ Kevin De Bruyne, con 34 años y posiblemente en su último Mundial, sigue siendo
 - Kevin De Bruyne es considerado el mejor centrocampista del mundo de su generación por muchos expertos.
 - Nueva Zelanda empató con Italia en el Mundial 2010, en el único punto que los Azzurri no ganaron en esa edición.
 - Jeremy Doku, del Manchester City, es el jugador más joven y desequilibrante de la selección belga actual.
-- Bélgica lleva siete Mundiales consecutivos en la fase final del torneo.`,
+- Bélgica lleva siete Mundiales consecutivos en la fase final del torneo.
+
+## Más información
+
+- **[Grupo G](/2026/grupo/g)** — clasificación, resultados y partidos del grupo
+- **[Sede: Houston](/2026/sedes/houston)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -10614,7 +11086,14 @@ Mehdi Taremi, del Inter de Milán, es el delantero más peligroso. Sardar Azmoun
 - Mehdi Taremi marcó un penalti de tijera contra el Bayern Múnich en la Champions League, uno de los goles más espectaculares de los últimos años.
 - Irán nunca ha superado la fase de grupos en un Mundial.
 - Egipto participó en su primer Mundial moderno en Italia 1990 después de décadas de ausencia.
-- Omar Marmoush fue el segundo máximo goleador de la Bundesliga en la temporada 2024-25 antes de su fichaje por el City.`,
+- Omar Marmoush fue el segundo máximo goleador de la Bundesliga en la temporada 2024-25 antes de su fichaje por el City.
+
+## Más información
+
+- **[Grupo G](/2026/grupo/g)** — clasificación, resultados y partidos del grupo
+- **[Sede: Kansas City](/2026/sedes/kansas-city)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -10672,7 +11151,14 @@ Jude Bellingham, del Real Madrid, es el líder indiscutible. Harry Kane como del
 - Jude Bellingham marcó el gol del empate en el último segundo frente a Eslovaquia en octavos de la Eurocopa 2024 con una chilena espectacular.
 - Panamá debutó en un Mundial en Rusia 2018 y esta es una de sus participaciones más recientes.
 - Inglaterra no ha ganado un Mundial desde 1966, la mayor sequía entre las grandes potencias del fútbol.
-- El Gillette Stadium de Boston acogerá varios partidos clave del torneo.`,
+- El Gillette Stadium de Boston acogerá varios partidos clave del torneo.
+
+## Más información
+
+- **[Grupo L](/2026/grupo/l)** — clasificación, resultados y partidos del grupo
+- **[Sede: Boston](/2026/sedes/boston)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -10730,7 +11216,14 @@ Mohammed Kudus, del West Ham, es el gran activo creativo y goleador. André Ayew
 - Luka Modrić ganó el Balón de Oro 2018, año en que Croacia llegó a la final del Mundial.
 - Croacia fue finalista en 2018 perdiendo ante Francia y tercera en 2022.
 - Mohammed Kudus marcó dos goles en Qatar 2022 siendo uno de los jugadores más destacados de su grupo.
-- El SoFi Stadium de Los Ángeles albergará los Juegos Olímpicos de 2028.`,
+- El SoFi Stadium de Los Ángeles albergará los Juegos Olímpicos de 2028.
+
+## Más información
+
+- **[Grupo L](/2026/grupo/l)** — clasificación, resultados y partidos del grupo
+- **[Sede: Los Ángeles](/2026/sedes/los-angeles)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -10788,7 +11281,14 @@ Cristiano Ronaldo, con 41 años y posiblemente en su último Mundial, lidera la 
 - Luis Díaz es uno de los fichajes más importantes del Bayern Múnich en los últimos años.
 - Portugal nunca ha ganado un Mundial pero llegó a las semifinales en 2006 y en Qatar 2022.
 - Colombia ganó la Copa América 2024 en Estados Unidos, derrotando a Argentina en la final.
-- James Rodríguez fue el máximo goleador del Mundial 2014, donde Colombia llegó a cuartos de final.`,
+- James Rodríguez fue el máximo goleador del Mundial 2014, donde Colombia llegó a cuartos de final.
+
+## Más información
+
+- **[Grupo K](/2026/grupo/k)** — clasificación, resultados y partidos del grupo
+- **[Sede: Nueva York / NJ](/2026/sedes/nueva-york)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -10846,7 +11346,14 @@ Eldor Shomurodov, el delantero del Roma, es la referencia ofensiva. Jaloliddin M
 - Uzbekistán clasificó para este Mundial en un proceso de clasificación asiático muy competido.
 - Eldor Shomurodov juega en la Serie A italiana y es el máximo goleador histórico de Uzbekistán.
 - DR Congo tiene más de 80 millones de habitantes y una cantera futbolística impresionante que alimenta ligas europeas.
-- El AT&T Stadium es conocido como 'Jerryworld' por el propietario de los Cowboys de Dallas, Jerry Jones.`,
+- El AT&T Stadium es conocido como 'Jerryworld' por el propietario de los Cowboys de Dallas, Jerry Jones.
+
+## Más información
+
+- **[Grupo K](/2026/grupo/k)** — clasificación, resultados y partidos del grupo
+- **[Sede: Dallas](/2026/sedes/dallas)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -10904,7 +11411,14 @@ Marcel Sabitzer, del Dortmund, es el motor del equipo. David Alaba, si está rec
 - Argelia llegó a cuartos de final del Mundial 2014 en Brasil, perdiendo ante Alemania en el tiempo extra.
 - Austria participó en su primer Mundial en 1954 y llegó a tercero en ese torneo inaugural suizo.
 - Riyad Mahrez ganó la Premier League con el Manchester City en cuatro ocasiones.
-- David Alaba es el jugador austriaco más laureado de todos los tiempos con tres Champions League.`,
+- David Alaba es el jugador austriaco más laureado de todos los tiempos con tres Champions League.
+
+## Más información
+
+- **[Grupo J](/2026/grupo/j)** — clasificación, resultados y partidos del grupo
+- **[Sede: Kansas City](/2026/sedes/kansas-city)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
@@ -10962,7 +11476,14 @@ Leo Messi, en lo que podría ser su partido de despedida mundialista, juega con 
 - Argentina lleva una racha invicta de más de 30 partidos internacionales, la más larga de su historia reciente.
 - Jordania fue finalista de la Copa Asia 2023 en Qatar, en su mejor actuación histórica en torneos continentales.
 - Emiliano Martínez fue elegido mejor portero del Mundial 2022 y es considerado el mejor guardameta del mundo por muchos.
-- Lionel Scaloni es el seleccionador más exitoso de la historia de Argentina, con dos títulos mayores en menos de cuatro años.`,
+- Lionel Scaloni es el seleccionador más exitoso de la historia de Argentina, con dos títulos mayores en menos de cuatro años.
+
+## Más información
+
+- **[Grupo J](/2026/grupo/j)** — clasificación, resultados y partidos del grupo
+- **[Sede: Filadelfia](/2026/sedes/philadelphia)** — estadio, capacidad, cómo llegar
+- **[Calendario completo del Mundial 2026](/2026/calendario)** — todos los partidos y horarios
+- **[Dónde ver el Mundial en tu país](/2026/donde-ver)** — derechos de emisión por país`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
