@@ -11836,161 +11836,151 @@ Hay un tercer récord que la aritmética convierte en posible pero que nadie se 
 
   {
     slug: 'shakira-burna-boy-lisa-inauguracion-mundial-2026-mexico',
-    title: 'Shakira, Burna Boy, LISA y iShowSpeed actuarán en la inauguración del Mundial 2026 en el Azteca',
-    summary: 'FIFA confirma el lineup completo para la ceremonia del 11 de junio en el Estadio Azteca, justo antes de México vs Sudáfrica. Shakira repite en su tercer Mundial, Burna Boy lleva el sonido africano y el streamer iShowSpeed arrasa en redes con su canción oficial, superando en viralidad a la colombiana.',
-    body: `FIFA lo hizo oficial. La ceremonia de inauguración del Mundial 2026 tendrá lugar el 11 de junio en el Estadio Azteca de Ciudad de México, minutos antes del partido inaugural entre México y Sudáfrica, y el lineup que la organización ha confirmado es, cuanto menos, una declaración de intenciones sobre cómo el fútbol lleva décadas tratando de conquistar mercados que van mucho más allá del balón.
+    title: 'Shakira, Burna Boy y Lisa actuarán en las dos ceremonias inaugurales del Mundial 2026',
+    summary: 'FIFA confirma el lineup de las dos ceremonias de apertura del torneo. Shakira y Burna Boy actuarán en el Azteca el 11 de junio con su tema \'Dai Dai\'. Lisa de BLACKPINK encabezará la ceremonia de Los Ángeles el 12 de junio junto a Anitta y Rema con \'Goals\', la canción oficial del álbum FIFA 2026.',
+    body: `## El Mundial abre con dos escenarios, dos continentes musicales
 
-Cuatro nombres. Shakira, Burna Boy, LISA de BLACKPINK e iShowSpeed. Un mapa del mundo en cuatro artistas.
+La FIFA ha decidido que un solo concierto no basta para abrir el primer Mundial de 48 equipos de la historia. La ceremonia inaugural del torneo se celebrará el **11 de junio de 2026 en el Estadio Azteca de Ciudad de México**, y estará protagonizada por **Shakira** y el artista nigeriano de afrobeats **Burna Boy**. Los dos intérpretes presentarán en directo **«Dai Dai»**, su colaboración incluida en el álbum oficial de la FIFA para el Mundial 2026, un tema que ya ha alcanzado el top 50 en Suecia y el top 15 en Suiza desde su lanzamiento.
 
-## Quién actúa en la inauguración del Azteca
+No es la primera vez que Shakira actúa en una inauguración mundialista. En 2010, su *Waka Waka (This Time for Africa)* se convirtió en uno de los himnos deportivos más escuchados del siglo. Ahora, en el país que es sede de la primera jornada del torneo, la colombiana regresa al escenario más grande del fútbol.
 
-Shakira no necesita presentación en este contexto. La colombiana ya estuvo en Sudáfrica 2010 con *Waka Waka*, una de las canciones de Mundiales más escuchadas de la historia, y repitió en Brasil 2014. Su presencia en México 2026 la convierte en el vínculo emocional con generaciones de aficionados que asocian su voz al fútbol global. Es la garantía de FIFA: cuando no sabes qué poner, pones a Shakira.
+Burna Boy, por su parte, suma así otra actuación histórica a una carrera que ya acumula un Grammy y el título de artista africano más escuchado en plataformas digitales. Su presencia es también un guiño a los equipos africanos clasificados: Marruecos, Senegal, Costa de Marfil, Ghana y la propia Sudáfrica, rival del anfitrión en el partido inaugural.
 
-Burna Boy llega como el representante de una África que este Mundial tiene muy presente. Nigeria no estará en la fase de grupos, pero el artista de Port Harcourt es hoy uno de los nombres más relevantes de la música mundial, con un Grammy en el bolsillo y cifras de streaming que justifican su presencia sin necesidad de etiquetas geopolíticas. Su aparición es también un guiño a los equipos africanos clasificados: Marruecos, Senegal, Costa de Marfil, Ghana y la propia Sudáfrica, rival del anfitrión en el partido inaugural.
+## Lisa abre el partido de Estados Unidos con historia del K-pop
 
-LISA, exintegrante de BLACKPINK, representa el K-pop y el sudeste asiático en un Mundial que se juega en Norteamérica pero que FIFA quiere vender en todos los husos horarios. Tailandia no juega el Mundial, pero 500 millones de seguidores en redes sociales no necesitan visado.
+Un día después, el **12 de junio en Los Ángeles**, la ceremonia de apertura del partido inaugural de Estados Unidos correrá a cargo de **Lisa**, ex integrante de BLACKPINK, junto a la brasileña **Anitta** y el nigeriano **Rema**. Los tres artistas presentarán **«Goals»**, el sencillo lanzado el 21 de mayo que ejerce como canción principal del álbum oficial del torneo.
 
-Y luego está iShowSpeed. Streamer estadounidense, 25 millones de suscriptores en YouTube, conocido por sus reacciones al fútbol europeo y su devoción casi religiosa por Cristiano Ronaldo. Su canción para el Mundial forma parte del álbum oficial *FIFA World Cup 2026 Official Album* junto a los temas del resto del lineup.
+Lisa se convierte así en la **primera artista de K-pop y la primera artista tailandesa en encabezar una ceremonia inaugural de la FIFA**. Nacida en Bangkok, la cantante lleva años construyendo una carrera en solitario desde que BLACKPINK entró en pausa indefinida, y el Mundial le proporciona el escaparate global más grande posible.
 
-## La viralidad de iShowSpeed vs Shakira en redes
-
-Aquí es donde el relato se complica para los puristas. Según TyC Sports, la canción de iShowSpeed para el Mundial supera en viralidad en redes sociales a la de Shakira. No es un dato menor. Speed —así lo llaman sus seguidores— tiene una comunidad joven, ruidosa y completamente entregada que se mueve a una velocidad que los medios tradicionales todavía no han terminado de calibrar.
-
-La comparación no es un insulto a Shakira. Es un termómetro de cómo ha cambiado el consumo cultural en doce años. En 2014, la métrica era YouTube y las radios. En 2026, es TikTok, Twitch y los clips de diez segundos que se reproducen en bucle.
-
-FIFA, que lleva años intentando conectar con la Generación Z con resultados dispares, ha acertado con esta apuesta. iShowSpeed es el puente entre el fútbol como deporte y el fútbol como fenómeno de entretenimiento digital. El 11 de junio, el Azteca acogerá 87.000 personas antes del partido. Para los 5.000 millones que lo verán por televisión o streaming, la ceremonia será el arranque oficial de un mes que el fútbol lleva cuatro años esperando.`,
+La elección de tres artistas para la canción principal —una artista asiática, una latinoamericana y un africano— refleja con bastante literalidad la geografía del torneo: tres continentes, tres países anfitriones (México, Estados Unidos y Canadá), cuarenta y ocho selecciones. La industria del entretenimiento de FIFA, que lleva años intentando conectar con la Generación Z, ha dado con una fórmula que tiene más lógica de la que parece a primera vista.`,
     category: 'general',
-    sourceName: 'N+ México / TyC Sports',
+    sourceName: 'N+ México / FIFA / Billboard',
     sourceUrl: 'https://www.nmas.com.mx/ciudad-de-mexico/entretenimiento/shakira-y-burna-boy-estaran-inauguracion-mundial-2026',
     sourceLang: 'es',
     publishedAt: '2026-06-06T16:00:00Z',
     image: {
       url: 'https://upload.wikimedia.org/wikipedia/commons/9/90/Sanae_Takaichi_FIFA_World_Cup_2026_trophy_tour_05.jpg',
-      alt: 'Copa del Mundo FIFA 2026 - ceremonia inaugural en México',
+      alt: 'Trofeo de la Copa del Mundo FIFA 2026',
       credit: 'Wikimedia Commons',
       license: 'CC BY-SA 4.0',
     },
   },
   {
     slug: 'haiti-4-0-nueva-zelanda-amistoso-mundial-2026',
-    title: 'Haití golea 4-0 a Nueva Zelanda y llega al Mundial con la cabeza alta',
-    summary: 'La selección haitiana aplastó a los All Whites en Fort Lauderdale con más de 16.000 aficionados en las gradas. El capitán neozelandés Chris Wood reconoció que Haití jugó un partido de Mundial y ellos un amistoso. La historia de Woodensky Pierre, convocado que vivía en una zona controlada por pandillas en Puerto Príncipe, resume el viaje de este equipo.',
-    body: `El Chase Stadium de Fort Lauderdale, Florida, fue el escenario el 3 de junio de uno de los resultados más contundentes de la fase de preparación mundialista. Haití derrotó a Nueva Zelanda 4-0 ante más de 16.000 espectadores, con una actuación que envió un mensaje al resto de los participantes del Grupo F: los haitianos no van al Mundial de turistas.
+    title: 'Haití golea 4-0 a Nueva Zelanda y Chris Wood lo admite: \'Ellos jugaron un partido del Mundial, nosotros un amistoso\'',
+    summary: 'Haití aplastó a Nueva Zelanda en el Chase Stadium de Fort Lauderdale ante más de 16.000 espectadores. Providence, Joseph, Pierrot y Lacroix marcaron los goles. El capitán neozelandés Chris Wood lo reconoció sin excusas: los haitianos jugaron con otra intensidad. El grupo debuta el 13 de junio en Vancouver vs Escocia.',
+    body: `## Una goleada que deja en evidencia diferencias de motivación
 
-## Haití impone su ley en Fort Lauderdale
+El Chase Stadium de Fort Lauderdale albergó el **2 de junio de 2026** un partido de preparación mundialista que resultó ser mucho más que un amistoso para una de las dos selecciones. Haití venció a Nueva Zelanda por **4-0** con goles de **Ruben Providence** (12'), **Lenny Joseph** al inicio del segundo tiempo, **Frantzdy Pierrot** (62') y **Duke Lacroix** (80').
 
-El resultado habla por sí solo, pero lo que lo convierte en noticia es quién lo verbalizó mejor. Chris Wood, delantero del Nottingham Forest y capitán de los All Whites, no buscó excusas en el vestuario. Su diagnóstico fue quirúrgico: «They played a World Cup game, we played a friendly. They outfought us, they outmuscled us.»
+La derrota dejó una frase que lo resume todo. El capitán de los All Whites, **Chris Wood**, delantero del Nottingham Forest, no buscó excusas: «**Ellos nos superaron en pelea y en fuerza. Básicamente jugaron un partido del Mundial, nosotros jugamos un amistoso**». El mediocampista **Ryan Thomas** lo definió simplemente como «una pequeña decepción».
 
-No hay mejor definición de lo que ocurrió en Fort Lauderdale. Nueva Zelanda llegó al partido como lo que es: una selección que utiliza los amistosos para probar combinaciones y evitar lesiones. Haití llegó como lo que también es: un equipo con una cita histórica el 13 de junio en Vancouver contra Escocia y la necesidad de demostrar que merece estar en el torneo más importante del mundo.
+La explicación no requiere un análisis táctico profundo. Nueva Zelanda llegó al partido con la cabeza en otro sitio. Haití, que clasifica por primera vez al Mundial en **52 años**, llegó con el corazón en el pecho.
 
-La diferencia de actitud y de intensidad se tradujo en cuatro goles sin respuesta. La afición haitiana en Florida, numerosa y ruidosa durante los noventa minutos, convirtió el Chase Stadium en algo parecido a un partido en casa. Para un país que lleva años sufriendo una crisis política e institucional devastadora, cada partido de su selección tiene una carga emocional que va mucho más allá del fútbol.
+## 16.000 haitianos y el primer gol de cinco años
 
-## La historia de Woodensky Pierre: del barrio al Mundial
+El contexto importa. Haití no ha podido jugar en casa desde **junio de 2021** a causa de la crisis de seguridad que azota el país. Fort Lauderdale, con una comunidad haitiana de aproximadamente 520.000 personas, se convirtió en su estadio. La asistencia superó las 16.000 personas, y la atmósfera fue la de un equipo que juega en casa.
 
-Entre los convocados de Haití hay una historia que supera cualquier análisis táctico. Woodensky Pierre era el único jugador de la selección que aún residía en Puerto Príncipe, en una zona bajo control de pandillas armadas. Su situación era tan delicada que la obtención del visado estadounidense para incorporarse a la concentración se convirtió en una carrera contrarreloj.
+El delantero **Wilson Isidor** lo describió sin artificios: «**El público era simplemente increíble. El ruido cuando marcamos, nunca había experimentado nada igual en mi vida.**» El entrenador **Sébastien Migné** señaló que estaba «**contento de ver finalmente a los jugadores compartir sus emociones con una gran afición**».
 
-La federación haitiana realizó gestiones extraordinarias. El visado llegó a última hora. Lo que para cualquier otro jugador del mundo es un trámite burocrático menor —cruzar una frontera para jugar al fútbol— para Woodensky Pierre fue el resultado de semanas de incertidumbre y de la intervención directa de su federación.
-
-Haití debuta el 13 de junio en Vancouver contra Escocia. La selección caribeña no estará sola.`,
+Haití se medirá a **Brasil, Marruecos y Escocia** en la fase de grupos. Ninguno de los tres rivales esperará a un equipo que juegue con el hambre acumulada de cinco décadas de ausencia mundialista. Nueva Zelanda, con el recuerdo de este resultado, se prepara para un torneo donde el fútbol también importa.`,
     category: 'general',
-    sourceName: 'The Haitian Times / 1News New Zealand',
-    sourceUrl: 'https://haitiantimes.com/es/2026/06/03/Hait%C3%AD-vence-a-Nueva-Zelanda-4-0/',
+    sourceName: '1News New Zealand / The Haitian Times',
+    sourceUrl: 'https://www.1news.co.nz/2026/06/05/chris-wood-haiti-played-a-world-cup-game-we-played-a-friendly/',
     sourceLang: 'en',
     publishedAt: '2026-06-06T18:00:00Z',
     image: {
       url: 'https://upload.wikimedia.org/wikipedia/commons/3/31/Haiti_national_football_team_after_training_in_Port-au-Prince_2004-08-16.jpg',
-      alt: 'Selección de Haití entrenando',
+      alt: 'Selección de fútbol de Haití entrenando en Puerto Príncipe',
       credit: 'Wikimedia Commons',
       license: 'CC BY-SA 4.0',
     },
   },
   {
     slug: 'mexico-golea-serbia-amistoso-mundial-2026-raul-jimenez',
-    title: 'México golea a Serbia y Raúl Jiménez iguala a Borgetti en el Top 5 histórico del Tri',
-    summary: 'La selección mexicana cerró su preparación con una goleada ante Serbia en el Estadio Nemesio Díez de Toluca el 4 de junio. Raúl Jiménez marcó y alcanzó los 52 goles con el Tri, igualando a Javier Borgetti entre los máximos goleadores históricos. México debuta el 11 de junio en el Azteca contra Sudáfrica.',
-    body: `Seis días. Eso es lo que le queda a México para saltar al césped del Estadio Azteca y abrir su Mundial ante Sudáfrica. El 4 de junio, el Tri cerró su preparación con una goleada ante Serbia en el Estadio Nemesio Díez de Toluca, un partido que sirvió para reafirmar el buen momento colectivo del equipo y regalar a Raúl Jiménez un mojón en su historia personal con la camiseta verde.
+    title: 'México golea 5-1 a Serbia y Raúl Jiménez llega a 45 goles con la selección',
+    summary: 'México aplastó a Serbia por 5-1 en el Estadio Nemesio Díez de Toluca en su último amistoso antes del Mundial. Raúl Jiménez marcó y alcanzó los 45 goles internacionales, consolidándose como tercer máximo goleador histórico del Tri por detrás de Chicharito (52) y Borgetti (46). Aguirre tiene al equipo listo para el Azteca.',
+    body: `## Un ensayo general convincente antes del Mundial en casa
 
-## México vs Sudáfrica: 6 días después
+México despachó a Serbia por **5-1** el **4 de junio de 2026** en el **Estadio Nemesio Díez de Toluca**, en el que fue su último ensayo de preparación antes de afrontar el Mundial que se disputará en su propio territorio. El resultado era lo que el fútbol mexicano necesitaba ver: goles, fluidez y una lectura del partido que rara vez aparece en los meses previos a un torneo.
 
-El amistoso cumplió su función. México no levantó el pie del acelerador en ningún momento y la diferencia en el marcador reflejó con fidelidad lo que ocurrió sobre el campo. Brian Gutiérrez y Julián Quiñones fueron, según el análisis de Luis García para TV Azteca, dos de los nombres más destacados en la goleada. Ambos representan la nueva generación de una selección que tiene que aprovechar la condición de co-anfitrión para llegar más lejos de lo que ha llegado en décadas.
+**Raúl Jiménez** fue uno de los protagonistas del encuentro con un tanto que tiene valor estadístico. El delantero del Fulham llega a **45 goles internacionales** en **124 partidos** con la selección absoluta, lo que lo coloca como **tercer máximo goleador histórico de México**, por detrás únicamente de **Javier Hernández «Chicharito»** (52 goles, récord vigente) y **Jared Borgetti** (46 goles).
 
-La famosa quinta eliminatoria del Mundial, ese muro histórico que México nunca ha podido superar, pesa sobre cada partido del equipo desde hace cuatro años. El amistoso ante Serbia confirma que el Tri llega al Azteca con confianza máxima. El estadio, con sus 87.000 espectadores, hará el resto el 11 de junio.
+Jiménez tiene 33 años y lleva más de una década batallando lesiones, cambios de club y cuestionamientos sobre su continuidad en la selección. Que llegue al Mundial más importante de la historia mexicana —por primera vez en casa desde 1986— con estos números en el contador no es un accidente. Es una carrera construida con consistencia.
 
-## El récord de Jiménez y lo que falta para ser leyenda
+## Las cifras que ubican a Jiménez en la historia verde
 
-Raúl Jiménez marcó en la goleada ante Serbia y alcanzó los 52 goles con la selección mexicana, igualando a Javier Borgetti en el Top 5 de máximos goleadores históricos del Tri. Para quien ha seguido la carrera del delantero, el número tiene un valor especial: Jiménez volvió al fútbol de élite después de fracturarse el cráneo en noviembre de 2020 en un lance aéreo con David Luiz, una lesión que puso en riesgo no solo su carrera sino su vida.
+El recorrido goleador de Jiménez con México arrancó en 2013 y ha atravesado cuatro Mundiales, varias Copas Oro y una pandemia. Para llegar donde está ha tenido que superar, entre otras cosas, una fractura de cráneo en un partido de Premier League en noviembre de 2020 que parecía el final de su carrera de élite y que acabó siendo un paréntesis.
 
-Que cinco años después ese mismo delantero dispute un Mundial en su país y compita por un récord histórico es una de esas historias que el deporte produce de vez en cuando y que justifican por sí solas seguirlo.
+Borgetti, quien marcó sus 46 goles entre 1997 y 2008, fue el máximo goleador histórico de México durante casi una década. Jiménez está ya a **un gol de igualar esa marca histórica**. En un partido del Mundial, ese gol podría llegar en cualquier momento.
 
-El 11 de junio, el Azteca espera. México no tiene excusas, tiene el escenario ideal y tiene un delantero que lleva años recordando que al fútbol también se juega con la cabeza.`,
+El entrenador **Javier Aguirre** tiene al equipo en el mejor estado posible antes del debut. Un **5-1** ante una selección europea que llega al Mundial no es un resultado intrascendente. México tiene pendiente demostrar que puede competir en los octavos de final, el techo histórico que lleva décadas intentando romper. La goleada ante Serbia no garantiza nada, pero sí indica que el camino está bien orientado.`,
     category: 'general',
-    sourceName: 'Milenio / Récord México',
-    sourceUrl: 'https://www.milenio.com',
+    sourceName: 'Mediotiempo / Récord México',
+    sourceUrl: 'https://amp.mediotiempo.com/futbol/seleccion-mayor/mexico-vs-serbia-resumen-del-partido-amistoso-pre',
     sourceLang: 'es',
     publishedAt: '2026-06-06T20:00:00Z',
     image: {
       url: 'https://upload.wikimedia.org/wikipedia/commons/5/5b/Estadio_Azteca1706p2.jpg',
-      alt: 'Estadio Azteca, Ciudad de México, sede del partido inaugural del Mundial 2026',
+      alt: 'Estadio Azteca de Ciudad de México, sede del partido inaugural del Mundial 2026',
       credit: 'Wikimedia Commons',
       license: 'CC BY-SA 4.0',
     },
   },
   {
     slug: 'espana-1-1-irak-amistoso-de-la-fuente-once-mundial',
-    title: 'España empata 1-1 con Irak en una pachanga que no importa: De la Fuente ya tiene su once del Mundial',
-    summary: 'La selección española cerró su preparación con un empate intrascendente ante Irak en Riazor. El nivel fue tibio, Lamine Yamal jugó con cuentagotas y los titulares se mezclaron con suplentes. Nada de eso importa: De la Fuente ya sabe exactamente quién juega el 15 de junio en Atlanta contra Cabo Verde, con Unai Simón bajo los palos.',
-    body: `Llamarlo partido sería generoso. El empate 1-1 entre España e Irak en el Estadio de Riazor, La Coruña, el 5 de junio cumplió con su única función real: que los convocados lleguen al Mundial sin una lesión nueva en el expediente. El País lo calificó de «pachanga» y describió el nivel como «tibio». Hay que reconocerle a la prensa española que, en ocasiones, dice lo que ve.
+    title: 'España empata 1-1 con Irak en Riazor y De la Fuente confirma a David Raya como portero del Mundial',
+    summary: 'España igualó 1-1 con Irak en el Estadio Riazor de A Coruña ante 30.423 espectadores. Ferran Torres adelantó en el 16\', Doski empató en el 27\'. De la Fuente tiene decidido su once y confirma a David Raya —tres Golden Glove en la Premier League— como portero titular, por delante de Unai Simón.',
+    body: `## El ensayo de Riazor y las decisiones que ya están tomadas
 
-## El once que De la Fuente ya tiene en mente
+España empató **1-1 con Irak** el **4 de junio de 2026** en el **Estadio Riazor de A Coruña**, ante una entrada de **30.423 espectadores**. **Ferran Torres** adelantó a la selección en el minuto **16**, pero el delantero kurdo **Merchas Doski** empató en el **27** y el marcador ya no se movió.
 
-Lo relevante no ocurrió en el campo. Ocurrió, o más bien ya había ocurrido, en la cabeza de Luis de la Fuente. El seleccionador español lleva semanas con su alineación para el debut mundialista completamente decidida, y el amistoso ante Irak no iba a cambiar una sola pieza de ese puzzle.
+El resultado en sí importa relativamente poco. Los empates en amistosos de preparación no predicen nada, y ningún entrenador de primer nivel se juega su planteamiento titular en un partido sin consecuencias. Lo que sí importa es lo que De la Fuente ha ido resolviendo en las semanas previas al torneo.
 
-Según ABC, Unai Simón será el portero titular en el Mundial. No es una sorpresa. El guardameta del Athletic de Bilbao fue el titular en la Eurocopa 2024 y su regularidad durante la temporada no ha dado argumentos para un debate que en realidad nunca existió demasiado dentro del cuerpo técnico.
+## Raya titular, Yamal indiscutible
 
-Fabián Ruiz fue uno de los que anotó en Riazor, confirmando su rol en este equipo: centrocampista de llegada, con criterio y con el gol a tiro cuando el partido lo permite. Lamine Yamal, la gran estrella de esta generación española, tuvo minutos contados. No era necesario exponerlo más. El jugador del Barcelona llega al Mundial con 18 años y con la Eurocopa ganada en el bolsillo.
+La principal decisión que Luis de la Fuente ha cerrado de cara al Mundial es la portería. **David Raya**, guardameta del Arsenal que acaba de proclamarse campeón de la **Premier League 2025-26** y que acumula **tres Golden Glove consecutivos** en la liga inglesa, será el portero número 1. **Unai Simón**, titular en la Eurocopa de 2024, viaja al torneo como suplente.
 
-La ausencia del Real Madrid sigue siendo el único ruido real en torno a esta convocatoria. De la Fuente ha repetido que tiene la situación «clarísima» y que sus decisiones responden a criterios estrictamente deportivos. El debate continuará en las tertulias mientras España gane partidos.
+El ascenso de Raya a la titularidad está avalado por el rendimiento. El arquero vasco-catalán, nacido en Barcelona y formado en el Blackburn Rovers, ha vivido en los últimos dos años la mejor racha de su carrera. Arsenal ha construido sobre su seguridad bajo los palos gran parte de su solidez defensiva, y De la Fuente ha optado por trasladar esa confianza a la selección.
 
-## España va al Mundial como campeona de Europa
+En el otro extremo del campo, **Lamine Yamal** llega al torneo con 18 años como la referencia ofensiva de España. El extremo del Barcelona es el jugador que genera más peligro en el equipo y el que más presencia tiene en el grupo según el propio seleccionador, que lo ha definido como «**muy querido en el grupo que da alegría a todos**».
 
-Este es el dato que vertebra todo lo demás. España llega al Mundial 2026 como vigente campeona de Europa. El título conseguido en Berlín en julio de 2024, con una generación liderada por Lamine Yamal, Pedri, Rodri y Fabián Ruiz, convirtió a la Roja en una de las selecciones favoritas al título junto a Francia, Brasil y Argentina.
+La ausencia del Real Madrid sigue siendo el único ruido real en torno a esta convocatoria. De la Fuente ha repetido que tiene la situación «clarísima» y que sus decisiones responden a criterios estrictamente deportivos.
 
-De la Fuente no lo oculta. Antes de viajar a Georgia, el seleccionador dijo en La Voz de Galicia: «Si ganamos el Mundial, me gustaría ver a todo el país unido en la celebración.» Una declaración que, viniendo de un entrenador que ha ganado una Eurocopa sub-19, una Eurocopa sub-21 y la Eurocopa de mayores, no suena a petulancia sino a convicción.
-
-El 15 de junio en Atlanta, España abre su Mundial ante Cabo Verde. El rival es asequible sobre el papel, pero De la Fuente sabe que en un Mundial los partidos que parecen fáciles son los que más daño pueden hacer. La pachanga de Riazor ya es historia. Ahora empieza lo que importa.`,
+España debuta en el Mundial el **15 de junio** contra Cabo Verde en Atlanta. De la Fuente tiene claro su once. El empate con Irak en Riazor no ha cambiado ese mapa. Lo que queda por resolver es si España, campeona de Europa, puede también ser campeona del mundo.`,
     category: 'tecnico',
-    sourceName: 'El País / ABC España / Cadena SER',
-    sourceUrl: 'https://elpais.com',
+    sourceName: 'ABC España / Cadena SER',
+    sourceUrl: 'https://www.abc.es/deportes/futbol/mundial/fuente-decidido-portero-alineacion-mundial-20260603012028',
     sourceLang: 'es',
     publishedAt: '2026-06-06T22:00:00Z',
     image: {
       url: 'https://upload.wikimedia.org/wikipedia/commons/8/8d/Lamine_Yamal%2C_S%C3%A1nchez_se_reuni%C3%B3_con_los_futbolistas_de_la_selecci%C3%B3n_espa%C3%B1ola_tras_ganar_la_Eurocopa_2024_%283%29_%28cropped%29.jpg',
-      alt: 'Lamine Yamal tras ganar la Eurocopa 2024 con España',
+      alt: 'Lamine Yamal con la selección española tras ganar la Eurocopa 2024',
       credit: 'Wikimedia Commons',
       license: 'CC BY-SA 4.0',
     },
   },
   {
     slug: 'neymar-lesion-gemelo-no-viaja-brasil-cleveland',
-    title: 'Neymar no viaja a Cleveland: la lesión en el gemelo abre la primera crisis de Brasil en el Mundial',
-    summary: 'El delantero se queda en New Jersey recuperándose de una lesión muscular en el gemelo y no se desplaza con el resto de la selección brasileña para el partido preparatorio. Brasil debuta el 13 de junio contra Marruecos en Atlanta. Ancelotti lo convocó fiándose de su recuperación. El gemelo no opina lo mismo.',
-    body: `Neymar Jr. lleva dos años intentando volver al fútbol. Dos temporadas completas perdidas en el Al-Hilal por lesiones graves — primero el ligamento cruzado, luego la recaída — lo habían convertido en una figura ausente incluso en los estadios más permisivos del mundo. Carlo Ancelotti lo convocó de todas formas. Y ahora esto: una lesión en el gemelo izquierdo que le impide viajar con el grupo a Cleveland para el último ensayo antes del torneo.
+    title: 'Neymar no viaja a Cleveland: el gemelo vuelve a parar al 10 de Brasil antes del debut',
+    summary: 'Una lesión en el gemelo deja a Neymar fuera del desplazamiento de Brasil a Cleveland. Ancelotti confirmó que el jugador se somete a resonancia magnética y mantiene el tratamiento alejado del balón. João Pedro y Pedro siguen entrenando en alerta máxima por si el técnico los necesita. Brasil debuta el 13 de junio vs Marruecos.',
+    body: `## La misma historia, otra lesión
 
-La selección brasileña partió hacia Cleveland para su último ensayo de preparación. Neymar no subió al avión. Se queda en New Jersey, donde Brasil tiene su base de entrenamiento, continuando la recuperación de esa molestia muscular en la pantorrilla. No es la gran rotura. No es el cruzado. Pero en un jugador con su historial, cualquier señal del cuerpo pide atención.
+Neymar Jr. no viaja con Brasil a Cleveland. La selección canarinha se desplaza a Ohio para sus primeros compromisos del Mundial 2026 y el que durante años fue su figura más reconocible se queda en el hotel médico, sometido a tratamiento por una lesión en el gemelo. Carlo Ancelotti confirmó que el jugador pasará por **resonancia magnética** para determinar el alcance exacto del daño. Es el diagnóstico de siempre: esperar, confiar, rezar.
 
-## La semana que más dolía perderse
+Desde que en octubre de 2023 se rompiera el ligamento cruzado anterior de la rodilla izquierda jugando un partido de clasificación para este mismo Mundial, Neymar ha sido más noticia médica que deportiva. El regreso al campo con el Al-Hilal fue breve, frustrante y marcado por recaídas. Ahora, en el torneo que probablemente sea su última oportunidad de ganar una Copa del Mundo, el cuerpo vuelve a decir que no.
 
-Hay momentos en el fútbol que pesan más que otros. Esta semana, con el Mundial a menos de diez días, Brasil está ultimando detalles, ajustando la presión táctica, midiendo tiempos de sprint, construyendo la química que necesita un equipo para funcionar como unidad. Neymar no forma parte de ese proceso. Está en un gimnasio de New Jersey, en bicicleta estática, con el fisio encima.
+Brasil no ha querido dar plazos. Ancelotti, que asumió la selección con la misión implícita de ganar el Mundial, maneja la situación con su calma habitual: «Está recibiendo tratamiento». Ninguna promesa de retorno, ningún optimismo injustificado.
 
-Puma había montado una campaña a su alrededor. La marca patrocinadora lo presentó como «la estrella del circo», anticipando su «regreso al gran escenario». Es exactamente el tipo de campaña que se diseña cuando un jugador lleva mucho tiempo fuera y necesitas que el mercado crea que va a volver. La ironía es que la lesión en el gemelo llegó justo cuando el circo estaba montando la carpa.
+## João Pedro y Pedro, en guardia
 
-## ¿Llegará Neymar al debut?
+La ausencia de Neymar no deja a Brasil sin alternativas, pero sí reconfigura el peso emocional del equipo. En los últimos días, **João Pedro** y **Pedro** han continuado entrenando en solitario, según los medios brasileños que siguen la concentración. Ambos saben que pueden ser convocados a mayor protagonismo si Ancelotti decide prescindir definitivamente de Neymar para los primeros partidos.
 
-Brasil debuta el 13 de junio contra Marruecos en Atlanta. La pregunta ya no es si Neymar llegará al partido contra Cleveland — ese está descartado — sino si llegará en condiciones mínimas para ser útil contra los marroquíes.
+João Pedro, delantero del Brighton, ha tenido una temporada sólida en Europa. Pedro, del Flamengo, es el referente goleador del fútbol brasileño. Ninguno de los dos tiene el nombre de Neymar, pero ninguno arrastra tampoco su historial de lesiones.
 
-La Confederación Brasileña de Fútbol (CBF) no ha dado detalles sobre el tiempo estimado de recuperación. «Continúa su recuperación», dice el comunicado oficial. En el fútbol, esa frase puede significar cualquier cosa.
+El problema de Brasil con Neymar es ya estructural. La selección lleva tres años construyendo un discurso de renovación generacional, de equipo colectivo, de fútbol sin estrellas intocables. Pero cuando Neymar está disponible, la tentación de ponerlo en el campo siempre supera al discurso. Y cuando no está, el vacío no es solo táctico, es simbólico.
 
-Ancelotti tiene opciones. Brasil no es un equipo que dependa de un solo jugador. Vinicius Jr. puede cargar con el equipo. Rodrygo está en su mejor momento. Endrick llega con hambre. Pero el problema no es solo táctico. Neymar fue convocado con una justificación implícita: estaba listo. Si ahora se pierde el debut, o el torneo entero, la pregunta sobre si debía haber sido convocado se va a responder sola.`,
+En Cleveland, Brasil tendrá que demostrar que puede ganar partidos sin él. Vinicius Jr., Rodrygo y Raphinha cargan ahora con el peso ofensivo de una selección que, sobre el papel, dispone de uno de los ataques más talentosos del torneo.`,
     category: 'lesiones',
     sourceName: 'Mundo Deportivo / R7 Esportes',
     sourceUrl: 'https://www.mundodeportivo.com/futbol/mundial/20260604/1004191404/neymar-no-viajara-brasil-cleveland',
@@ -11998,110 +11988,108 @@ Ancelotti tiene opciones. Brasil no es un equipo que dependa de un solo jugador.
     publishedAt: '2026-06-07T08:00:00Z',
     image: {
       url: 'https://upload.wikimedia.org/wikipedia/commons/3/37/Vinicius_Jr_2018_%28cropped%29.jpg',
-      alt: 'Vinicius Jr, estrella de Brasil junto a Neymar en el Mundial',
+      alt: 'Vinicius Jr. con la camiseta de Brasil',
       credit: 'Wikimedia Commons',
       license: 'CC BY-SA 4.0',
     },
   },
   {
     slug: 'noruega-300-kilos-salmon-mundial-2026',
-    title: 'Noruega llega al Mundial con 300 kilos de salmón: Haaland no arriesga ni con la comida',
-    summary: 'La selección noruega viajó a su base de Greensboro, Carolina del Norte, con 300 kilogramos de salmón y productos pesqueros nacionales para garantizar la nutrición habitual de sus jugadores durante el torneo. Una decisión que revela el nivel de detalle con el que Noruega prepara su primera gran cita mundialista con Haaland al frente.',
-    body: `Hay equipos que llegan al Mundial con sus cuerpos técnicos, sus análisis de vídeo y sus protocolos de recuperación. Noruega llega con todo eso más 300 kilogramos de salmón. La Federación Noruega de Fútbol (NFF) confirmó que la selección viajó a su base en Greensboro, Carolina del Norte, con una cantidad considerable de pescado y otros productos del mar noruegos en el equipaje. La razón es tan simple como eficaz: que los jugadores coman lo mismo que comen en casa.
+    title: 'Noruega lleva 300 kilos de salmón al Mundial: cuando la dieta es también una declaración de principios',
+    summary: 'La selección noruega trasladó 300 kilogramos de salmón fresco a su base en Greensboro, Carolina del Norte. El personal de cocina prefiere no dejar en manos del mercado local la alimentación de sus jugadores. La misma federación que denuncia a Infantino no deja nada al azar: ni la política ni el salmón.',
+    body: `## 300 kilos de identidad nacional en una nevera de hotel
 
-No es un capricho. Es nutrición aplicada al alto rendimiento. Los equipos de élite llevan décadas estudiando el impacto del cambio de dieta en el rendimiento físico durante los grandes torneos. Japón viaja con arroz. Los países del Golfo con sus especias y proteínas habituales. Noruega, coherentemente, con salmón.
+Noruega llegó al Mundial 2026 con el plantel, el cuerpo técnico y 300 kilogramos de salmón. La delegación escandinava, con base en **Greensboro, Carolina del Norte**, no quiso dejar al azar uno de los pilares del rendimiento deportivo: la alimentación. El personal de cocina que acompaña a la selección noruega tomó la decisión de traer directamente desde casa el producto estrella de su dieta antes que depender del suministro local estadounidense.
 
-## El equipaje más inusual del Mundial
+No es una excentricidad. Es protocolo. Los equipos de élite llevan años controlando hasta el último gramo de lo que ingieren sus jugadores durante las concentraciones internacionales. Japón viaja con arroz. Los países del Golfo con sus especias y proteínas habituales. Noruega, coherentemente, con salmón.
 
-Greensboro, Carolina del Norte, no es exactamente un destino de moda en el fútbol internacional. Pero la NFF lo eligió como base de operaciones por razones logísticas y climáticas. Allí se instaló la selección, allí está el salmón y allí está Erling Haaland, el hombre que desde hace tres años no hace otra cosa que marcar goles a una cadencia que el fútbol no había visto en décadas.
+La logística no es trivial. Transportar 300 kilos de pescado fresco a través del Atlántico, mantener la cadena de frío y garantizar que llega en condiciones óptimas requiere planificación. La federación noruega no ha facilitado detalles sobre los costes, pero el gesto habla por sí solo.
 
-Haaland llega al Mundial en el mejor momento de su carrera. Manchester City lo tiene como la referencia goleadora absoluta del fútbol europeo. Y aunque el delantero de Leeds —nacido en la ciudad inglesa de un padre que también fue futbolista profesional— ha tenido que esperar para disputar una Copa del Mundo, la espera parece haber afilado las ganas.
+## Haaland en Greensboro, con salmón y sin precedentes mundialistas
 
-Noruega debuta el 16 de junio contra Irak en Dallas. El grupo incluye rivales asequibles sobre el papel, lo que convierte esta primera fase en una plataforma perfecta para que Haaland haga lo que mejor hace: marcar. Con salmón en el cuerpo o sin él.
+Greensboro fue asignada como base de Noruega para la fase de grupos. La ciudad de Carolina del Norte alberga la concentración de una de las selecciones más llamativas del torneo. El equipo que lidera **Erling Haaland**, uno de los delanteros más letales del planeta, llega al Mundial como invitado con aspiraciones reales.
 
-## Haaland y el salmón: la preparación noruega
-
-La imagen de una selección nacional desembarcando en suelo estadounidense con tres quintales de pescado podría leerse como anécdota pintoresca. Pero hay algo más detrás. Noruega es un equipo que trabaja con una metodología muy precisa. Nada se deja al azar. Ni los entrenamientos, ni la recuperación, ni la alimentación.
-
-Un cambio de dieta en mitad de un torneo no es inocuo. El intestino, el sueño, los niveles de energía: todo se desajusta cuando la alimentación cambia de golpe. El salmón noruego no es solo un alimento. Es estabilidad.
+Haaland es el motivo principal por el que el mundo del fútbol mira a Noruega con más atención de la habitual. El delantero del Manchester City promedió más de 35 goles por temporada en las últimas tres campañas en la Premier League. En la selección, sin embargo, el contexto es diferente: Noruega no había clasificado para una gran competición internacional desde el Mundial de Francia 1998.
 
 ## La Federación Noruega: siempre en el filo
 
-La NFF no es solo una federación con buen pescado. Es una de las más activas políticamente dentro del mundo FIFA. En diciembre de 2025, cuando Gianni Infantino entregó un premio de la paz a Donald Trump, Noruega fue una de las federaciones que respaldó formalmente la denuncia presentada contra el presidente de FIFA por violar las normas de neutralidad política del organismo.
+La NFF no es solo una federación con buen pescado. Es una de las más activas políticamente dentro del mundo FIFA. En diciembre de 2025, cuando Gianni Infantino entregó un premio de la paz a Donald Trump, **Noruega fue una de las federaciones que respaldó formalmente la denuncia** presentada contra el presidente de FIFA por violar las normas de neutralidad política del organismo.
 
-Esa coherencia política tiene un precio. No siempre sienta bien en los despachos de Zúrich hacer ruido sobre lo que otros prefieren guardar silencio. Pero la NFF lleva años con esa postura: primero los principios, luego la diplomacia. Con salmón y todo.`,
+La misma federación que lleva 300 kilos de salmón al Mundial lleva también la coherencia de quien no se calla cuando algo le parece mal. En un mundo del fútbol donde las posiciones políticas suelen guardarse en cajones, la NFF es una anomalía. Con salmón y todo.`,
     category: 'curiosa',
-    sourceName: 'Astro Awani / múltiples medios',
-    sourceUrl: 'https://www.astroawani.com/berita-sukan-terkini-dunia/norway-bawa-300kg-ikan-ke-piala-dunia-2026',
+    sourceName: 'WXII12 / Astro Awani',
+    sourceUrl: 'https://www.wxii12.com/article/norway-soccer-team-greensboro-nc-fifa-world-cup/71475991',
     sourceLang: 'en',
     publishedAt: '2026-06-07T10:00:00Z',
     image: {
       url: 'https://upload.wikimedia.org/wikipedia/commons/7/75/Norway_Italy_-_June_2025_B_01.jpg',
-      alt: 'Selección de Noruega con Haaland y Odegaard preparando el Mundial',
+      alt: 'Selección de Noruega en partido internacional con Haaland y Odegaard',
       credit: 'Wikimedia Commons',
       license: 'CC BY-SA 4.0',
     },
   },
   {
     slug: 'manchester-city-acciones-legales-real-madrid-haaland-riquelme',
-    title: 'Manchester City amenaza con acciones legales al candidato presidencial del Madrid que prometió fichar a Haaland',
-    summary: 'Enrique Riquelme mostró en El Hormiguero una camiseta del Real Madrid con el nombre y el 9 de Erling Haaland y prometió ficharlo si ganaba las elecciones del 8 de junio. Manchester City respondió: Haaland no tiene cláusula de rescisión y el club estudia medidas legales. Todo ocurre seis días antes del inicio del Mundial.',
-    body: `El calendario electoral del Real Madrid no podía haber encontrado un momento más caótico. Seis días antes del inicio del Mundial, con la selección española ya en América y el fútbol convertido en el centro del universo, el club más poderoso de Europa celebraba elecciones a la presidencia. Y uno de los candidatos, Enrique Riquelme, optó por presentar su programa en El Hormiguero con una camiseta del Real Madrid personalizada. Con el nombre de Haaland. Con el 9 en la espalda.
+    title: 'El City amenaza con acciones legales al candidato del Madrid por el circo de la camiseta de Haaland',
+    summary: 'Enrique Riquelme exhibió en televisión una camiseta del Real Madrid con el nombre de Haaland prometiendo su fichaje. Manchester City respondió con dureza: no existe ninguna cláusula, el padre del jugador y su agente Rafaela Pimenta lo desmintieron. Haaland renovó hasta 2034. El City estudia medidas legales.',
+    body: `## Un candidato, una camiseta y un problema diplomático
 
-Manchester City no tardó en responder. El club inglés publicó un comunicado oficial dejando claro que Erling Haaland no tiene cláusula de rescisión, que no está en venta y que la dirección del City estudia «tomar medidas legales» contra Riquelme por sus declaraciones. No es la primera vez que un candidato promete fichajes imposibles para ganar votos. Es la primera vez que el club afectado responde con amenaza de demanda.
+Enrique Riquelme apareció en un programa de televisión española con una camiseta del Real Madrid con el nombre de Haaland en la espalda. El candidato a la presidencia del club blanco prometió el fichaje del noruego si ganaba las elecciones previstas para el domingo. Lo que probablemente esperaba como un golpe de efecto electoral se convirtió en un problema diplomático con el Manchester City.
 
-## La camiseta de Haaland que encendió a Manchester City
+El club inglés no tardó en responder. Un portavoz emitió un comunicado sin margen para la ambigüedad: **«Las historias que han salido de España sobre el futuro de Erling Haaland no son ciertas. No hay ninguna posibilidad de que esto ocurra y no existe ninguna cláusula contractual que lo permita»**. El City añadió que estudia emprender acciones legales contra Riquelme por las declaraciones.
 
-Riquelme fue más allá de la camiseta. Además de la promesa de Haaland, prometió retener a Kylian Mbappé y articular un proyecto deportivo que devolvería al Real Madrid a la cima absoluta. Para reforzar la credibilidad de sus promesas, firmó ante notario un documento comprometiéndose a pagar las cuotas de todos los socios del club —más de 100.000— si no cumplía con los fichajes prometidos. El gesto tuvo impacto comunicativo innegable.
+La familia y el entorno del jugador se sumaron al desmentido. El padre del delantero, **Alfie Haaland**, y su agente, **Rafaela Pimenta**, declararon conjuntamente que lo afirmado por Riquelme **«no es verdad»**.
 
-El problema es que prometer fichar a un jugador que no tiene cláusula de rescisión no es una promesa deportiva. Es ficción. Manchester City no tiene obligación de vender a Haaland, que llega al Mundial como el mejor delantero del planeta, con contrato largo y sin ningún incentivo para marcharse. Que Riquelme salga en televisión con su camiseta puede ser marketing electoral. Pero desde la perspectiva legal, utilizar el nombre y la imagen de un jugador en activo para promocionar una candidatura tiene aristas complicadas. El City las está mirando.
+## Haaland firmó hasta 2034 y ya eligió el City antes que el Madrid
 
-## Las elecciones del Real Madrid en pleno arranque mundialista
+El contexto importa aquí. En enero de 2025, Haaland renovó su contrato con el Manchester City por nueve años y medio, una vinculación que le mantiene en el club inglés hasta **2034**. No es el contrato de alguien que busca la salida.
 
-Las elecciones se celebran el 8 de junio. El favorito es Florentino Pérez, que lleva décadas en el cargo. Riquelme, con el apoyo de Raúl González como figura madridista y con Iker Casillas y Fernando Hierro sumados a su candidatura, representa la alternativa más mediática. Mediático no es lo mismo que mayoritario.
+Más revelador aún: en 2022, cuando llegó al City desde el Borussia Dortmund, Haaland tuvo sobre la mesa la opción de fichar por el Real Madrid. Eligió Manchester. No fue un error de negociación ni una cuestión económica. Fue una decisión.
 
-Julen Lopetegui, seleccionador de Qatar en este Mundial, también reaccionó a la polémica. El técnico vasco tiene sus propias razones para seguir de cerca lo que pasa en el Real Madrid, club al que entrenó brevemente antes de ser destituido a las 24 horas de anunciarse su marcha a la Selección española en 2018.
+Riquelme también prometió el fichaje del centrocampista Rodri si accedía a la presidencia. La táctica electoral de prometer fichajes estrella en campaña no es nueva en el fútbol español, pero rara vez genera una respuesta tan directa y pública del club afectado.
 
-Mientras tanto, Haaland entrena en Greensboro, come salmón y prepara el debut de Noruega contra Irak. La camiseta con su nombre está en Madrid. Él está en otro sitio.`,
+La incorporación de **Íker Casillas** como apoyo al proyecto de Riquelme añade un componente sentimental a una candidatura que, en lo deportivo, ha chocado frontalmente con la realidad. Las elecciones se celebran el domingo. El City ya ha dicho lo que piensa. Y Haaland, mientras tanto, sigue siendo jugador del Manchester City con contrato hasta 2034.`,
     category: 'polemica',
-    sourceName: 'Al Jazeera / Cadena SER / RTVE',
+    sourceName: 'Al Jazeera / RTVE / Cadena SER',
     sourceUrl: 'https://www.aljazeera.com/sports/2026/6/4/man-city-threaten-legal-action-against-real-madrid-following-haaland-claim',
     sourceLang: 'en',
     publishedAt: '2026-06-07T12:00:00Z',
     image: {
       url: 'https://upload.wikimedia.org/wikipedia/commons/7/75/Norway_Italy_-_June_2025_B_01.jpg',
-      alt: 'Erling Haaland con la selección de Noruega, el protagonista involuntario de la polémica electoral del Real Madrid',
+      alt: 'Erling Haaland con la selección de Noruega, protagonista involuntario de la polémica electoral del Real Madrid',
       credit: 'Wikimedia Commons',
       license: 'CC BY-SA 4.0',
     },
   },
   {
     slug: 'beckham-estrella-hollywood-walk-of-fame-mundial-2026',
-    title: 'Beckham tendrá su estrella en Hollywood justo antes del Mundial: el verano americano que cierra el círculo',
-    summary: 'David Beckham recibirá una estrella en el Paseo de la Fama de Hollywood en una ceremonia previa al inicio del Mundial 2026. El ex capitán de Inglaterra y actual propietario del Inter Miami protagoniza el encuentro entre el fútbol y la cultura pop americana que lleva dos décadas construyendo.',
-    body: `Hay carreras futbolísticas y hay proyectos de vida. David Beckham siempre tuvo los dos, y siempre los gestionó con una precisión que sus críticos llamaban frialdad y sus admiradores llamaban inteligencia. Ganó la Champions con el Manchester United. Jugó en el Real Madrid. Fue capitán de Inglaterra. Se inventó a sí mismo como marca global antes de que eso tuviera nombre. Y ahora, en el verano de 2026, cuando el fútbol llega por primera vez en su forma más masiva a Estados Unidos, David Beckham recibirá una estrella en el Paseo de la Fama de Hollywood.
+    title: 'Beckham recibe su estrella en Hollywood el 12 de junio, el día que arranca el Mundial en suelo americano',
+    summary: 'Sir David Beckham recibirá su estrella en el Paseo de la Fama de Hollywood el 12 de junio de 2026, horas antes del primer partido del Mundial en Estados Unidos. A sus 51 años, Victoria Beckham y Tom Cruise estarán en la ceremonia. El ex capitán inglés que popularizó el fútbol en EE.UU. cierra así el círculo.',
+    body: `## El timing perfecto de un hombre que siempre supo de marketing
 
-La ceremonia se celebrará antes del inicio del Mundial. El anuncio lo hicieron los organizadores del Hollywood Walk of Fame, la franja de mármol de Vine Street que durante décadas ha reconocido a actores, músicos y personalidades que han dejado una huella duradera en la cultura popular americana. Beckham es el primer futbolista en recibir este reconocimiento. No es casualidad que sea él.
+Si David Beckham hubiera podido elegir la fecha de su estrella en el Paseo de la Fama de Hollywood, habría elegido exactamente el **12 de junio de 2026**. La ceremonia está fijada para ese día, pocas horas antes de que se dispute el primer partido del Mundial en suelo estadounidense. La Cámara de Comercio de Hollywood así lo ha anunciado. El timing no es casualidad.
 
-## La estrella que le faltaba en LA
+A sus **51 años**, Beckham recibe el reconocimiento en la categoría de Entretenimiento Deportivo. **Ana Martinez**, de la Cámara de Comercio de Hollywood, explicó la elección: «El papel de Beckham en elevar el perfil del fútbol en Estados Unidos y su influencia duradera en el deporte, el entretenimiento y la cultura global hacen que este honor sea especialmente significativo». Es una descripción precisa, no una hipérbole.
 
-Beckham llegó a Los Angeles en 2007 con una misión que el fútbol americano recibió con escepticismo: hacer que el soccer importara. Fichó por el LA Galaxy en una operación histórica que incluía el mayor contrato de la MLS hasta ese momento. Algunos lo vieron como un retiro dorado. Otros como un proyecto serio. La historia dio la razón a los segundos.
+**Victoria Beckham**, diseñadora de moda y exintegrante de las Spice Girls, y el actor **Tom Cruise** estarán presentes en el acto de inauguración.
 
-Su impacto en Los Angeles no fue solo estadístico. Fue cultural. Beckham entendió que para que el fútbol creciera en Estados Unidos necesitaba entrar por la puerta de la cultura popular, no por la de los resultados. Fue a los Oscars. Salió en portadas de revistas que no cubrían deporte. Y fue construyendo, año tras año, una presencia en la ciudad que va más allá del balón.
+## Una carrera que cambió cómo se vende el fútbol
 
-Ahora tiene el Inter Miami. El club que convenció a Leo Messi para acabar su carrera en la MLS y donde también milita Neymar, al menos cuando el gemelo lo permite. Beckham llegó a Los Angeles a vender fútbol. La estrella en el Paseo de la Fama es el recibo.
+Beckham jugó en el Manchester United, el Real Madrid, el AC Milan, el LA Galaxy y el Paris Saint-Germain antes de retirarse en 2013. Fue capitán de la selección inglesa. Ganó seis ligas con el United y una Champions. Pero la estadística que define su legado no está en los libros de récords goleadores: está en lo que hizo por el fútbol como industria global.
 
-## Beckham, el Mundial y la Argentina que no olvida
+Su etapa en el **LA Galaxy**, entre 2007 y 2012, fue la primera gran apuesta por convertir la MLS en un producto exportable. En ese momento, la liga americana era considerada un destino de retiro cómodo para europeos con las piernas cansadas. Beckham llegó con 32 años, sin estar retirado, y convirtió sus cinco temporadas en Los Ángeles en una lección de posicionamiento de marca.
 
-En la historia futbolística de Beckham hay un capítulo que los ingleses recuerdan con mezcla de dolor y leyenda. Saint-Étienne, 30 de junio de 1998. Argentina gana a Inglaterra en octavos de final del Mundial de Francia. En el minuto 47, Beckham recibe un pisotón de Diego Simeone, se gira desde el suelo y le da una patada. Tarjeta roja. Inglaterra termina con diez y pierde en los penaltis.
+En 2025, el rey Carlos III le concedió el título de **Sir**. Ese mismo año, **Inter Miami**, el club que cofundó y que fichó a Lionel Messi, ganó el campeonato de la MLS.
 
-Beckham pasó los meses siguientes siendo el hombre más odiado de Inglaterra. Los tabloides lo despedazaron. Fue el chivo expiatorio de una eliminación que tenía responsables colectivos pero necesitaba una cara. Respondió de la única manera que sabía: jugando. En el 2002 marcó el penalti contra Argentina que clasificó a Inglaterra. Nunca ganó el Mundial. Nunca estuvo cerca, en realidad.
+## Beckham y la Argentina que no olvida
 
-Esa ausencia es parte de la historia. Uno de los jugadores más reconocibles del siglo XXI, propietario de un club en el país que organiza este Mundial, receptor de una estrella en Hollywood, nunca levantó una Copa del Mundo. Jude Bellingham, que heredó el número 7 que Beckham popularizó con la selección inglesa, tiene ahora la oportunidad de hacer lo que su predecesor no pudo.
+En la historia futbolística de Beckham hay un capítulo que los ingleses recuerdan con mezcla de dolor y leyenda. Saint-Étienne, 30 de junio de 1998. En el minuto 47 contra Argentina en octavos del Mundial de Francia, Beckham recibe un pisotón de Diego Simeone, se gira desde el suelo y le da una patada. Tarjeta roja. Inglaterra termina con diez y pierde en los penaltis.
 
-El Paseo de la Fama, el Mundial y el Inter Miami. Todo coincide en el mismo verano americano. Beckham no improvisa nada.`,
+Beckham pasó los meses siguientes siendo el hombre más odiado de Inglaterra. Respondió de la única manera que sabía: jugando. En el 2002 marcó el penalti contra Argentina que clasificó a Inglaterra. Nunca ganó el Mundial.
+
+El Mundial 2026 arranca en un país que Beckham ayudó a preparar para el fútbol hace veinte años. La estrella en Hollywood el día de la inauguración es, en ese sentido, algo más que un reconocimiento personal. Es la industria americana del entretenimiento certificando que el proyecto funcionó.`,
     category: 'general',
-    sourceName: 'ITV News / RTE.ie',
+    sourceName: 'ITV News / RTÉ',
     sourceUrl: 'https://www.itv.com/news/granada/2026-06-04/sir-david-beckham-to-receive-hollywood-walk-of-fame-star',
     sourceLang: 'en',
     publishedAt: '2026-06-07T14:00:00Z',
