@@ -1,5 +1,5 @@
 import { setRequestLocale } from 'next-intl/server';
-import { ShoppingCart } from 'lucide-react';
+import { ShoppingCart, Tv2 } from 'lucide-react';
 import { pageMetadata } from '@/lib/seo';
 
 export async function generateMetadata({
@@ -98,6 +98,55 @@ export default async function AvisoAfiliadosPage({
           </p>
         </div>
 
+        {/* ── Movistar Plus+ / AWIN ── */}
+        <div className="mt-14 flex items-center gap-3 font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-fg-muted)]">
+          <Tv2 className="h-4 w-4" />
+          <span>Movistar Plus+ · AWIN</span>
+        </div>
+        <h2 className="mt-3 font-display text-2xl uppercase leading-tight md:text-3xl">
+          Afiliación Movistar Plus+
+        </h2>
+        <div className="mt-6 space-y-5 text-base leading-relaxed text-[var(--color-fg-muted)]">
+          <p>
+            Este sitio también participa en el{' '}
+            <strong className="text-[var(--color-fg)]">programa de afiliados de AWIN</strong>{' '}
+            en colaboración con <strong className="text-[var(--color-fg)]">Movistar Plus+</strong>{' '}
+            (ID de afiliado: 2898755 / anunciante: 114230).
+          </p>
+          <p>
+            Los botones y enlaces etiquetados como «Ver en Movistar Plus+»
+            apuntan a la web oficial de Movistar Plus+ a través de un enlace
+            de seguimiento AWIN. Si contratas un servicio a través de ese
+            enlace, recibimos una comisión.{' '}
+            <strong className="text-[var(--color-fg)]">
+              El precio que pagas es exactamente el mismo
+            </strong>{' '}
+            que si entraras directamente a movistarplus.es.
+          </p>
+          <p>
+            Los derechos audiovisuales del Mundial 2026 en España pertenecen a{' '}
+            <strong className="text-[var(--color-fg)]">RTVE</strong> (partidos de España, en abierto)
+            y a <strong className="text-[var(--color-fg)]">DAZN</strong> (resto de partidos).
+            Movistar Plus+ distribuye DAZN a través de su plataforma.
+            El acceso exacto a los canales depende del plan contratado; consulta
+            las condiciones actualizadas en la web de Movistar Plus+ antes de suscribirte.
+          </p>
+        </div>
+
+        <div className="mt-8 rounded-2xl border border-white/10 bg-black p-6 md:p-8">
+          <p className="font-mono text-[9px] uppercase tracking-[0.3em] text-white/40">
+            Condiciones · Movistar Plus+ / AWIN
+          </p>
+          <ul className="mt-4 space-y-2 text-sm leading-relaxed text-white/60">
+            <li>· Los precios y condiciones de suscripción pueden variar sin previo aviso.</li>
+            <li>· La disponibilidad de los partidos depende del plan contratado con Movistar Plus+.</li>
+            <li>· Este sitio no actúa como intermediario en la contratación: la relación contractual es directa entre el usuario y Movistar Plus+ (Telefónica de España, S.A.U.).</li>
+            <li>· Los enlaces de afiliado siguen la normativa AWIN y están marcados con <code className="rounded bg-white/10 px-1.5 py-0.5 font-mono text-[11px]">rel=&quot;sponsored nofollow noopener noreferrer&quot;</code>.</li>
+            <li>· Para ejercer derechos RGPD sobre los datos de seguimiento, consulta la política de privacidad de AWIN: <a href="https://www.awin.com/es/privacidad" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 opacity-70 hover:opacity-100 transition-opacity">awin.com/es/privacidad</a>.</li>
+          </ul>
+        </div>
+
+        {/* ── Amazon ── */}
         <div className="mt-14 rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg-2)] p-6 md:p-8">
           <p className="font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-pitch)]">
             Texto reglamentario Amazon
@@ -109,7 +158,7 @@ export default async function AvisoAfiliadosPage({
         </div>
 
         <p className="mt-10 font-mono text-xs uppercase tracking-[0.2em] text-[var(--color-fg-subtle)]">
-          Última actualización: abril 2026 · ID asociado nuus-21
+          Última actualización: junio 2026 · Amazon ID nuus-21 · AWIN 2898755
         </p>
       </div>
 

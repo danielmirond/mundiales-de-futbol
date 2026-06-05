@@ -10,6 +10,7 @@ import { Wc2026Bar } from '@/components/nav/wc-2026-bar';
 import { CookieBanner } from '@/components/shared/cookie-banner';
 import { GatedAnalytics } from '@/components/shared/gated-analytics';
 import { GoogleAnalytics } from '@/components/shared/google-analytics';
+import { MovistarStickyBar } from '@/components/affiliate/movistar-banner';
 import { JsonLd, organizationLd, websiteLd, hreflangAlternates, SEO } from '@/lib/seo';
 import '../globals.css';
 
@@ -114,6 +115,7 @@ export default async function LocaleLayout({
           <CookieBanner />
           <GatedAnalytics />
           <GoogleAnalytics />
+          <MovistarStickyBar />
         </NextIntlClientProvider>
       </body>
     </html>
