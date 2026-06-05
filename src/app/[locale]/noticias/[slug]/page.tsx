@@ -19,7 +19,7 @@ import {
 } from '@/lib/news';
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl, SEO } from '@/lib/seo';
-import { MovistarCard } from '@/components/affiliate/movistar-banner';
+import { MovistarCintillo } from '@/components/affiliate/movistar-banner';
 import { getMovistarLink } from '@/lib/movistar-match-links';
 
 function withLocale(locale: Locale, href: string) {
@@ -318,10 +318,10 @@ export default async function NoticiaDetail({
         />
       </section>
 
-      {/* Movistar Plus+ CTA — solo en artículos de horario/TV de partido */}
+      {/* Movistar Plus+ cintillo oficial — solo en artículos de horario/TV */}
       {showMovistarCard && (
         <section className="mx-auto mt-10 w-full max-w-[900px] px-6 md:px-10">
-          <MovistarCard
+          <MovistarCintillo
             href={movistarLink.href}
             context={movistarLink.label}
           />
