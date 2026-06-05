@@ -323,7 +323,8 @@ export default async function NoticiaDetail({
         <section className="mx-auto mt-10 w-full max-w-[900px] px-6 md:px-10">
           <MovistarCintillo
             href={movistarLink.href}
-            context={movistarLink.label}
+            context={movistarLink.label || undefined}
+            matchId={movistarLink.matchId}
           />
         </section>
       )}
