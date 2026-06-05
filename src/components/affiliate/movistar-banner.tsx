@@ -24,6 +24,16 @@ import { X, Tv2, Play } from 'lucide-react';
 const DEFAULT_HREF =
   'https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial';
 
+/**
+ * Datos verificados del PDF de prensa Movistar Plus+ (jun 2026):
+ *  - 104 partidos totales via DAZN en Movistar Plus+
+ *  - Precio OTT: 9,99 €/mes (sin necesidad de ser cliente Movistar)
+ *  - Tagline oficial: "La Casa del Fútbol"
+ *  - Incluye partidos de España (RTVE en abierto + DAZN)
+ */
+const M_PRICE = '9,99 €/mes';
+const M_TAGLINE = 'La Casa del Fútbol';
+
 const DISMISS_KEY = 'mdf_movistar_dismissed';
 const DISMISS_DAYS = 3; // reaparece a los 3 días
 
@@ -119,11 +129,11 @@ function StickyBanner({ href }: { href: string }) {
       {/* Copy */}
       <div className="flex min-w-0 flex-1 flex-col gap-0.5 sm:flex-row sm:items-center sm:gap-3">
         <span className="truncate text-sm font-semibold leading-tight text-white">
-          El Mundial entero en tu tele
+          104 partidos. Todos en Movistar Plus+
         </span>
         <span className="hidden text-xs text-white/50 sm:inline">·</span>
         <span className="truncate text-xs text-white/70">
-          104 partidos en Movistar Plus+. Ni uno te falta.
+          Vía DAZN · desde {M_PRICE} · {M_TAGLINE}
         </span>
       </div>
 
@@ -196,9 +206,19 @@ function CardBanner({
       <div className="px-5 pb-5 pt-1">
         <p className="text-sm leading-relaxed text-white/70">
           {context
-            ? `¿Quieres ver ${context} en vivo? Movistar Plus+ tiene todos los partidos del Mundial 2026. Así de fácil.`
-            : 'Los 104 partidos del Mundial 2026, sin excepción. ¿Cuándo te suscribes?'}
+            ? `¿Quieres ver ${context} en directo? Lo tienes en Movistar Plus+ vía DAZN. Todos los partidos del Mundial, sin excepciones.`
+            : `Los 104 partidos del Mundial 2026 a través de DAZN, en Movistar Plus+. Sin perderte uno. Desde ${M_PRICE}.`}
         </p>
+
+        {/* Price badge */}
+        <div className="mt-3 flex items-center gap-2">
+          <span className="rounded-full border border-white/15 px-2.5 py-1 font-mono text-[10px] uppercase tracking-[0.25em] text-white/50">
+            DAZN + Movistar Plus+
+          </span>
+          <span className="rounded-full bg-white/10 px-2.5 py-1 font-mono text-[10px] uppercase tracking-[0.25em] text-white/70">
+            desde {M_PRICE}
+          </span>
+        </div>
 
         <a
           href={href}
@@ -208,7 +228,7 @@ function CardBanner({
                      text-sm font-bold text-black transition-all hover:bg-white/90 active:scale-[.98]"
         >
           <Tv2 className="h-4 w-4" />
-          Ver en Movistar Plus+
+          {context ? `Ver ${context} en M+` : 'Suscribirse a Movistar Plus+'}
         </a>
 
         <TAndC className="mt-3 text-white/30" />
@@ -234,8 +254,8 @@ function StripBanner({ href, context }: { href: string; context?: string }) {
             </div>
             <p className="text-sm font-semibold text-white">
               {context
-                ? `Sigue ${context} en directo`
-                : '104 partidos. Todos en Movistar Plus+'}
+                ? `${context} en DAZN vía Movistar Plus+`
+                : `104 partidos via DAZN · desde ${M_PRICE}`}
             </p>
           </div>
         </div>

@@ -2,6 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import { setRequestLocale } from 'next-intl/server';
+import { marked } from 'marked';
 import {
   ArrowLeft,
   ArrowRight,
@@ -18,6 +19,8 @@ import {
 } from '@/lib/news';
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl, SEO } from '@/lib/seo';
+import { MovistarCard } from '@/components/affiliate/movistar-banner';
+import { getMovistarLink } from '@/lib/movistar-match-links';
 
 function withLocale(locale: Locale, href: string) {
   if (locale === routing.defaultLocale) return href;
@@ -35,7 +38,12 @@ const CATEGORY_LABELS: Record<NewsCategory, string> = {
   polemica: 'Polémica',
   tv: 'TV / Streaming',
   patrocinios: 'Patrocinios',
+  amistosos: 'Amistosos',
+  lesiones: 'Lesiones',
+  tecnico: 'Cuerpo técnico',
   general: 'General',
+  historica: 'Historia',
+  curiosa: 'Curiosidades',
 };
 
 export function generateStaticParams() {
@@ -88,6 +96,11 @@ export default async function NoticiaDetail({
   const related = getRelatedNews(slug, 3);
   const url = localeUrl(locale, `/noticias/${item.slug}`);
 
+  // Movistar Plus+ match link (specific ficha or generic fallback)
+  const movistarLink = getMovistarLink(slug);
+  // Show M+ card only on ver-en-TV match articles
+  const showMovistarCard = slug.startsWith('ver-') && slug.includes('-tv-');
+
   // NewsArticle JSON-LD (recomendado para Google News y Discover).
   // image: usamos la URL del OG dinámico (opengraph-image.tsx adyacente)
   // que garantiza 1200×675, en lugar de la URL Wikimedia original que
@@ -97,17 +110,52 @@ export default async function NoticiaDetail({
       ? `/noticias/${item.slug}/opengraph-image`
       : `/${locale}/noticias/${item.slug}/opengraph-image`
   }`;
+  // Mapeo de categoría → sección editorial (articleSection requerido por Google)
+  const ARTICLE_SECTIONS: Record<string, string> = {
+    convocatorias: 'Convocatorias',
+    historica: 'Historia del fútbol',
+    curiosa: 'Curiosidades',
+    sedes: 'Sedes y estadios',
+    tv: 'Televisión y streaming',
+    jugadores: 'Jugadores',
+    amistosos: 'Partidos y amistosos',
+    lesiones: 'Lesiones',
+    polemica: 'Polémicas',
+    patrocinios: 'Patrocinios',
+    panini: 'Álbum Panini',
+    entradas: 'Entradas',
+    general: 'Mundial 2026',
+  };
+
   const newsArticleLd = {
     '@context': 'https://schema.org',
     '@type': 'NewsArticle',
-    headline: loc.title,
+    // Campos obligatorios Google News
+    headline: loc.title,                              // máx 110 chars
     description: loc.summary,
-    datePublished: item.publishedAt,
+    datePublished: item.publishedAt,                  // ISO 8601 completo con Z
     dateModified: item.modifiedAt ?? item.publishedAt,
-    inLanguage: locale,
+    // Identificación
     url,
-    mainEntityOfPage: url,
-    image: [{ '@type': 'ImageObject', url: ogImageUrl, width: 1200, height: 675 }],
+    mainEntityOfPage: { '@type': 'WebPage', '@id': url },
+    inLanguage: locale,
+    // Imagen: OG dinámico 1200×675 garantizado — Google requiere ≥696px ancho
+    image: [
+      {
+        '@type': 'ImageObject',
+        url: ogImageUrl,
+        width: 1200,
+        height: 675,
+        representativeOfPage: true,
+      },
+      // Imagen real del artículo si existe (alternativa para Rich Results)
+      ...(item.image ? [{
+        '@type': 'ImageObject',
+        url: item.image.url,
+        caption: item.image.alt,
+      }] : []),
+    ],
+    // Publisher: Organization con logo válido (Google requiere logo ≤ 600×60)
     publisher: {
       '@type': 'Organization',
       name: SEO.siteName,
@@ -115,31 +163,47 @@ export default async function NoticiaDetail({
       logo: {
         '@type': 'ImageObject',
         url: `${SEO.siteUrl}/icon.svg`,
+        width: 60,
+        height: 60,
       },
+      sameAs: [SEO.siteUrl],
     },
-    author: {
-      '@type': 'Organization',
-      name: SEO.siteName,
-      url: SEO.siteUrl,
-    },
-    citation: [
+    // Author: Organization (redacción propia). Google acepta Person u Organization.
+    author: [
       {
-        '@type': 'CreativeWork',
-        name: item.sourceName,
-        url: item.sourceUrl,
+        '@type': 'Organization',
+        name: SEO.siteName,
+        url: SEO.siteUrl,
       },
-      ...(item.sourcesSecondary ?? []).map((s) => ({
-        '@type': 'CreativeWork',
-        name: s.name,
-        url: s.url,
-      })),
     ],
+    // Sección editorial (articleSection mejora clasificación en Google News)
+    articleSection: ARTICLE_SECTIONS[item.category] ?? 'Mundial 2026',
+    // Acceso libre (importante para Google News)
+    isAccessibleForFree: true,
+    // Tema principal
     about: {
       '@type': 'SportsEvent',
       name: 'FIFA World Cup 2026',
       startDate: '2026-06-11',
       endDate: '2026-07-19',
+      location: {
+        '@type': 'Country',
+        name: 'United States, Mexico, Canada',
+      },
     },
+    // Fuentes — usamos citation como array de CreativeWork (válido en schema.org)
+    citation: [
+      {
+        '@type': 'NewsArticle',
+        name: item.sourceName,
+        url: item.sourceUrl,
+      },
+      ...(item.sourcesSecondary ?? []).map((s) => ({
+        '@type': 'NewsArticle',
+        name: s.name,
+        url: s.url,
+      })),
+    ],
   };
 
   return (
@@ -230,19 +294,39 @@ export default async function NoticiaDetail({
 
       {/* Body */}
       <section className="mx-auto mt-12 w-full max-w-[900px] px-6 md:px-10">
-        <div className="prose-base space-y-6 text-base leading-relaxed text-[var(--color-fg)] md:text-lg [&_strong]:text-[var(--color-fg)]">
-          {loc.body.split('\n\n').map((para, i) => (
-            <p
-              key={i}
-              dangerouslySetInnerHTML={{
-                __html: para
-                  .trim()
-                  .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>'),
-              }}
-            />
-          ))}
-        </div>
+        <div
+          className="
+            article-body
+            text-base leading-relaxed text-[var(--color-fg)] md:text-lg
+            [&_h2]:mt-10 [&_h2]:mb-4 [&_h2]:font-display [&_h2]:text-2xl [&_h2]:uppercase [&_h2]:leading-tight [&_h2]:text-[var(--color-fg)] [&_h2]:md:text-3xl
+            [&_h3]:mt-8 [&_h3]:mb-3 [&_h3]:font-display [&_h3]:text-xl [&_h3]:uppercase [&_h3]:leading-tight [&_h3]:text-[var(--color-fg)]
+            [&_p]:mb-5 [&_p]:last:mb-0
+            [&_strong]:font-semibold [&_strong]:text-[var(--color-fg)]
+            [&_em]:italic [&_em]:text-[var(--color-fg-muted)]
+            [&_ul]:my-4 [&_ul]:space-y-2 [&_ul]:pl-0 [&_ul]:list-none
+            [&_ul_li]:flex [&_ul_li]:gap-2 [&_ul_li]:before:content-['—'] [&_ul_li]:before:text-[var(--color-pitch)] [&_ul_li]:before:flex-none
+            [&_ol]:my-4 [&_ol]:space-y-2 [&_ol]:pl-5 [&_ol]:list-decimal
+            [&_ol_li]:pl-1
+            [&_a]:text-[var(--color-pitch)] [&_a]:underline [&_a]:underline-offset-4 [&_a]:hover:opacity-80
+            [&_blockquote]:border-l-2 [&_blockquote]:border-[var(--color-pitch)] [&_blockquote]:pl-5 [&_blockquote]:italic [&_blockquote]:text-[var(--color-fg-muted)] [&_blockquote]:my-6
+            [&_hr]:my-8 [&_hr]:border-[var(--color-border)]
+            [&_code]:font-mono [&_code]:text-sm [&_code]:bg-[var(--color-bg-2)] [&_code]:px-1.5 [&_code]:py-0.5 [&_code]:rounded
+          "
+          dangerouslySetInnerHTML={{
+            __html: marked.parse(loc.body, { gfm: true, breaks: false }) as string,
+          }}
+        />
       </section>
+
+      {/* Movistar Plus+ CTA — solo en artículos de horario/TV de partido */}
+      {showMovistarCard && (
+        <section className="mx-auto mt-10 w-full max-w-[900px] px-6 md:px-10">
+          <MovistarCard
+            href={movistarLink.href}
+            context={movistarLink.label}
+          />
+        </section>
+      )}
 
       {/* Fuentes */}
       <section className="mx-auto mt-16 w-full max-w-[900px] px-6 md:px-10">
