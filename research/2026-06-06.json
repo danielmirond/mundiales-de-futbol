@@ -1,0 +1,812 @@
+{
+  "generatedAt": "2026-06-06T09:08:00.174Z",
+  "date": "2026-06-06",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "portugal vs",
+      "geo": "MX",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "Vicente Pizarro, crítico por presente de la Selección: \"Chile no puede seguir donde está\"",
+          "url": "https://www.espn.com.mx/futbol/mundial/nota/_/id/16802138/vicente-pizarro-critico-presente-seleccion-chilena-chile-vs-portugal",
+          "source": "ESPN México"
+        },
+        {
+          "title": "Beausejour recordó el día que Chile eliminó a Portugal: \"Lo mirábamos como un par en ese entonces\"",
+          "url": "https://espndeportes.espn.com/futbol/mundial/nota/_/id/16798301/jean-beausejour-recordo-dia-chile-elimino-portugal-copa-confederaciones-2017",
+          "source": "ESPN Deportes"
+        },
+        {
+          "title": "¿Quién transmite el partido de Portugal vs Chile? Canal y Horario Amistoso de Preparación Mundial 2026",
+          "url": "https://www.mediotiempo.com/futbol/amistosos/quien-transmite-portugal-vs-chile-horario-y-canal-partido-amistoso-rumbo-mundial-2026",
+          "source": "Mediotiempo"
+        }
+      ]
+    },
+    {
+      "query": "mexico 86",
+      "geo": "MX",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Regresa &apos;la ChiquitiBum&apos;, emblemática campaña de México 86, pero acompañada de coleccionables",
+          "url": "https://www.mediotiempo.com/actualidad/virales/regresa-chiquitibum-emblematica-campana-mexico-86-acompanada-coleccionables",
+          "source": "Mediotiempo"
+        },
+        {
+          "title": "Carta Blanca revive la ChiquitiBum y apuesta por la nostalgia en 2026",
+          "url": "https://www.informabtl.com/carta-blanca-chiquitibum-nostalgia-marketing-2026/",
+          "source": "InformaBTL"
+        },
+        {
+          "title": "Carta Blanca revive la ChiquitiBum: lanza jerseys edición limitada y lata especial por los 40 años de la icónica porra",
+          "url": "https://www.ejecentral.com.mx/nuestro-eje/carta-blanca-revive-la-chiquitibum-lanza-jerseys-edicion-limitada-y-lata-especial-por-los-40-anos-de-la-iconica-porra",
+          "source": "Eje Central"
+        }
+      ]
+    },
+    {
+      "query": "chequia - guatemala",
+      "geo": "CO",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Guatemala paga caro sus errores y República Checa se adjudica el triunfo",
+          "url": "https://www.espn.com.co/futbol/guatemala/nota/_/id/16798911/guatemala-paga-errores-republica-checa-triunfo-amistoso",
+          "source": "ESPN Colombia"
+        },
+        {
+          "title": "Goles y resumen Chequia vs. Guatemala: Luis Fernando Tena preocupa a Javier Aguirre a una semana del Mundial 2026",
+          "url": "https://www.marca.com/mx/futbol/mundial/cronica/2026/06/05/6a221b0722601d2c4a8b45f4.html",
+          "source": "MARCA"
+        },
+        {
+          "title": "¿Por qué están ausentes Rubio Rubín y Nathaniel Méndez-Laing? Luis Fernando Tena lo aclara",
+          "url": "https://espndeportes.espn.com/futbol/guatemala/nota/_/id/16795807/ausencia-rubio-rubin-nathaniel-mendez-laing-seleccion-guatemala-luis-fernando-tena",
+          "source": "ESPN Deportes"
+        }
+      ]
+    },
+    {
+      "query": "portugal vs",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "Vicente Pizarro, crítico por presente de la Selección: \"Chile no puede seguir donde está\"",
+          "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16802138/vicente-pizarro-critico-presente-seleccion-chilena-chile-vs-portugal",
+          "source": "ESPN Deportes"
+        },
+        {
+          "title": "¿A qué hora juega y en qué canal transmiten Portugal vs. Chile EN VIVO hoy por amistoso a la Copa Mundial 2026? Horarios y canales TV",
+          "url": "https://gestion.pe/mix/sports/a-que-hora-juega-y-en-que-canal-transmiten-portugal-vs-chile-en-vivo-hoy-por-amistoso-a-la-copa-mundial-2026-horarios-y-canales-tv-online-nnda-nnrt-noticia/",
+          "source": "Diario Gestión"
+        },
+        {
+          "title": "Amistoso internacional: Portugal y Chile juegan un duelo amistoso",
+          "url": "https://rpp.pe/futbol/ligas-internacionales/amistoso-internacional-portugal-y-chile-juegan-un-duelo-amistoso-noticia-1691653",
+          "source": "RPP"
+        }
+      ]
+    },
+    {
+      "query": "canadá - irlanda",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "Canadá empató con Irlanda previo al Mundial 2026",
+          "url": "https://www.ecuavisa.com/futbol-internacional/canada-empato-con-irlanda-previo-al-mundial-2026-20260605-0120.html",
+          "source": "Ecuavisa"
+        },
+        {
+          "title": "Debutarán el 12 de junio en Toronto",
+          "url": "https://fdpradio.com/debutaran-el-12-de-junio-en-toronto/",
+          "source": "FDP Radio"
+        },
+        {
+          "title": "Alineación del partido Canada vs Irlanda | Amistosos · 6 jun. 2026",
+          "url": "https://www.ysscores.com/es/lineup/5418305/Canada-vs-Republic-of-Ireland",
+          "source": "YSscores"
+        }
+      ]
+    },
+    {
+      "query": "paraguay vs",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "Paraguay 4-0 Nicaragua: Resumen, resultado y goles del partido | Amistosos Internacionales, en directo",
+          "url": "https://as.com/futbol/internacional/paraguay-nicaragua-en-directo-amistoso-internacional-hoy-en-directo-f202606-d/",
+          "source": "Diario AS"
+        },
+        {
+          "title": "Paraguay golea a Nicaragua en la despedida de su público antes del Mundial 2026",
+          "url": "https://www.teleamazonas.com/mundial/paraguay-golea-nicaragua-despedida-publico-mundial-2026/",
+          "source": "Teleamazonas"
+        },
+        {
+          "title": "Alineación confirmada de Paraguay ante Nicaragua: Alfaro sale con todo",
+          "url": "https://www.365scores.com/es/news/alineacion-lista-paraguay-vs-nicaragua/",
+          "source": "365Scores"
+        }
+      ]
+    },
+    {
+      "query": "rtm",
+      "geo": "KR",
+      "language": "ko",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Unifi TV To Broadcast All 104 FIFA World Cup 2026 Matches Live",
+          "url": "https://bernama.com/en/general/news.php?id=2565326",
+          "source": "Bernama"
+        },
+        {
+          "title": "MyGOV Malaysia app adds access to RTM&apos;s FIFA World Cup 2026 broadcast",
+          "url": "https://www.thestar.com.my/tech/tech-news/2026/06/05/mygov-malaysia-app-to-stream-world-cup-2026-matches",
+          "source": "The Star"
+        },
+        {
+          "title": "You will be able to watch the World Cup matches live on the MyGOV app",
+          "url": "https://technave.com/gadget/You-will-be-able-to-watch-the-World-Cup-matches-live-on-the-MyGOV-app-46794.html",
+          "source": "TechNave"
+        }
+      ]
+    },
+    {
+      "query": "كأس العالم fifa 2026™",
+      "geo": "MA",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "شراكة استراتيجية بين «طلبات» وTOD by beIN",
+          "url": "https://www.aljarida.com/article/133601",
+          "source": "جريدة الجريدة الكويتية"
+        },
+        {
+          "title": "تابع المونديال عبر تطبيق TOD.. مزايا وفرص للربح",
+          "url": "https://www.aljadeed.tv/watch/85217/%D8%AA%D8%A7%D8%A8%D8%B9-%D8%A7%D9%84%D9%85%D9%88%D9%86%D8%AF%D9%8A%D8%A7%D9%84-%D8%B9%D8%A8%D8%B1-%D8%AA%D8%B7%D8%A8%D9%8A%D9%82-tod-%D9%85%D8%B2%D8%A7%D9%8A%D8%A7-%D9%88%D9%81%D8%B1%D8%B5-%D9%84%D9%84%D8%B1%D8%A8%D8%AD",
+          "source": "aljadeed"
+        },
+        {
+          "title": "بالمونديال.. خلي عينك عالجديد!",
+          "url": "https://twaslnews1.twaslnews.com/1979980/",
+          "source": "شبكة تواصل الإخبارية"
+        }
+      ]
+    },
+    {
+      "query": "canada – irlande",
+      "geo": "MA",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Pronostic Canada vs Irlande 05 Juin 2026",
+          "url": "https://dailysports.net/fr/predictions/pronostic-pour-le-match-canada-irlande-les-equipes-sont-capables-doffrir-un-football-spectaculaire-06062026/",
+          "source": "DailySports.net"
+        },
+        {
+          "title": "Coupe du Monde de la FIFA 2026™ : Crépeau assure derrière une attaque peu convaincante",
+          "url": "https://www.rds.ca/soccer/coupe-du-monde/article/crepeau-donne-confiance-dans-un-match-nul-lors-de-la-derniere-repetition/",
+          "source": "RDS"
+        },
+        {
+          "title": "Canada-Irlande | Match historique au Stade Saputo: le Canada prêt pour le Mondial 2026",
+          "url": "https://www.985fm.ca/audio/782097/match-historique-au-stade-saputo-le-canada-pret-pour-le-mondial-2026",
+          "source": "98.5 Montréal"
+        }
+      ]
+    },
+    {
+      "query": "raja",
+      "geo": "MA",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "World Cup 2026: Why is Fifa giving clubs $355m during the tournament?",
+          "url": "https://www.bbc.com/sport/football/articles/c893ndl18y9o",
+          "source": "BBC"
+        },
+        {
+          "title": "Hull City set for share of £264m World Cup windfall in handy boost to coffers",
+          "url": "https://www.hulldailymail.co.uk/sport/football/transfer-news/hull-city-set-share-264m-10999023",
+          "source": "Hull Live"
+        },
+        {
+          "title": "PSG will hit the jackpot thanks to the World Cup",
+          "url": "https://frenchfootballweekly.com/2026/06/06/psg-will-hit-the-jackpot-thanks-to-the-world-cup/",
+          "source": "French Football Weekly"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "es": [
+      {
+        "query": "portugal vs",
+        "score": 4600,
+        "geos": [
+          "MX",
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "portugal vs",
+            "geo": "MX",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "Vicente Pizarro, crítico por presente de la Selección: \"Chile no puede seguir donde está\"",
+                "url": "https://www.espn.com.mx/futbol/mundial/nota/_/id/16802138/vicente-pizarro-critico-presente-seleccion-chilena-chile-vs-portugal",
+                "source": "ESPN México"
+              },
+              {
+                "title": "Beausejour recordó el día que Chile eliminó a Portugal: \"Lo mirábamos como un par en ese entonces\"",
+                "url": "https://espndeportes.espn.com/futbol/mundial/nota/_/id/16798301/jean-beausejour-recordo-dia-chile-elimino-portugal-copa-confederaciones-2017",
+                "source": "ESPN Deportes"
+              },
+              {
+                "title": "¿Quién transmite el partido de Portugal vs Chile? Canal y Horario Amistoso de Preparación Mundial 2026",
+                "url": "https://www.mediotiempo.com/futbol/amistosos/quien-transmite-portugal-vs-chile-horario-y-canal-partido-amistoso-rumbo-mundial-2026",
+                "source": "Mediotiempo"
+              }
+            ]
+          },
+          {
+            "query": "portugal vs",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "Vicente Pizarro, crítico por presente de la Selección: \"Chile no puede seguir donde está\"",
+                "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16802138/vicente-pizarro-critico-presente-seleccion-chilena-chile-vs-portugal",
+                "source": "ESPN Deportes"
+              },
+              {
+                "title": "¿A qué hora juega y en qué canal transmiten Portugal vs. Chile EN VIVO hoy por amistoso a la Copa Mundial 2026? Horarios y canales TV",
+                "url": "https://gestion.pe/mix/sports/a-que-hora-juega-y-en-que-canal-transmiten-portugal-vs-chile-en-vivo-hoy-por-amistoso-a-la-copa-mundial-2026-horarios-y-canales-tv-online-nnda-nnrt-noticia/",
+                "source": "Diario Gestión"
+              },
+              {
+                "title": "Amistoso internacional: Portugal y Chile juegan un duelo amistoso",
+                "url": "https://rpp.pe/futbol/ligas-internacionales/amistoso-internacional-portugal-y-chile-juegan-un-duelo-amistoso-noticia-1691653",
+                "source": "RPP"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "canadá - irlanda",
+        "score": 800,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "canadá - irlanda",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "Canadá empató con Irlanda previo al Mundial 2026",
+                "url": "https://www.ecuavisa.com/futbol-internacional/canada-empato-con-irlanda-previo-al-mundial-2026-20260605-0120.html",
+                "source": "Ecuavisa"
+              },
+              {
+                "title": "Debutarán el 12 de junio en Toronto",
+                "url": "https://fdpradio.com/debutaran-el-12-de-junio-en-toronto/",
+                "source": "FDP Radio"
+              },
+              {
+                "title": "Alineación del partido Canada vs Irlanda | Amistosos · 6 jun. 2026",
+                "url": "https://www.ysscores.com/es/lineup/5418305/Canada-vs-Republic-of-Ireland",
+                "source": "YSscores"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "paraguay vs",
+        "score": 800,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "paraguay vs",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "Paraguay 4-0 Nicaragua: Resumen, resultado y goles del partido | Amistosos Internacionales, en directo",
+                "url": "https://as.com/futbol/internacional/paraguay-nicaragua-en-directo-amistoso-internacional-hoy-en-directo-f202606-d/",
+                "source": "Diario AS"
+              },
+              {
+                "title": "Paraguay golea a Nicaragua en la despedida de su público antes del Mundial 2026",
+                "url": "https://www.teleamazonas.com/mundial/paraguay-golea-nicaragua-despedida-publico-mundial-2026/",
+                "source": "Teleamazonas"
+              },
+              {
+                "title": "Alineación confirmada de Paraguay ante Nicaragua: Alfaro sale con todo",
+                "url": "https://www.365scores.com/es/news/alineacion-lista-paraguay-vs-nicaragua/",
+                "source": "365Scores"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "mexico 86",
+        "score": 700,
+        "geos": [
+          "MX"
+        ],
+        "samples": [
+          {
+            "query": "mexico 86",
+            "geo": "MX",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Regresa &apos;la ChiquitiBum&apos;, emblemática campaña de México 86, pero acompañada de coleccionables",
+                "url": "https://www.mediotiempo.com/actualidad/virales/regresa-chiquitibum-emblematica-campana-mexico-86-acompanada-coleccionables",
+                "source": "Mediotiempo"
+              },
+              {
+                "title": "Carta Blanca revive la ChiquitiBum y apuesta por la nostalgia en 2026",
+                "url": "https://www.informabtl.com/carta-blanca-chiquitibum-nostalgia-marketing-2026/",
+                "source": "InformaBTL"
+              },
+              {
+                "title": "Carta Blanca revive la ChiquitiBum: lanza jerseys edición limitada y lata especial por los 40 años de la icónica porra",
+                "url": "https://www.ejecentral.com.mx/nuestro-eje/carta-blanca-revive-la-chiquitibum-lanza-jerseys-edicion-limitada-y-lata-especial-por-los-40-anos-de-la-iconica-porra",
+                "source": "Eje Central"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "chequia - guatemala",
+        "score": 200,
+        "geos": [
+          "CO"
+        ],
+        "samples": [
+          {
+            "query": "chequia - guatemala",
+            "geo": "CO",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Guatemala paga caro sus errores y República Checa se adjudica el triunfo",
+                "url": "https://www.espn.com.co/futbol/guatemala/nota/_/id/16798911/guatemala-paga-errores-republica-checa-triunfo-amistoso",
+                "source": "ESPN Colombia"
+              },
+              {
+                "title": "Goles y resumen Chequia vs. Guatemala: Luis Fernando Tena preocupa a Javier Aguirre a una semana del Mundial 2026",
+                "url": "https://www.marca.com/mx/futbol/mundial/cronica/2026/06/05/6a221b0722601d2c4a8b45f4.html",
+                "source": "MARCA"
+              },
+              {
+                "title": "¿Por qué están ausentes Rubio Rubín y Nathaniel Méndez-Laing? Luis Fernando Tena lo aclara",
+                "url": "https://espndeportes.espn.com/futbol/guatemala/nota/_/id/16795807/ausencia-rubio-rubin-nathaniel-mendez-laing-seleccion-guatemala-luis-fernando-tena",
+                "source": "ESPN Deportes"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ko": [
+      {
+        "query": "rtm",
+        "score": 70,
+        "geos": [
+          "KR"
+        ],
+        "samples": [
+          {
+            "query": "rtm",
+            "geo": "KR",
+            "language": "ko",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Unifi TV To Broadcast All 104 FIFA World Cup 2026 Matches Live",
+                "url": "https://bernama.com/en/general/news.php?id=2565326",
+                "source": "Bernama"
+              },
+              {
+                "title": "MyGOV Malaysia app adds access to RTM&apos;s FIFA World Cup 2026 broadcast",
+                "url": "https://www.thestar.com.my/tech/tech-news/2026/06/05/mygov-malaysia-app-to-stream-world-cup-2026-matches",
+                "source": "The Star"
+              },
+              {
+                "title": "You will be able to watch the World Cup matches live on the MyGOV app",
+                "url": "https://technave.com/gadget/You-will-be-able-to-watch-the-World-Cup-matches-live-on-the-MyGOV-app-46794.html",
+                "source": "TechNave"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "fr": [
+      {
+        "query": "كأس العالم fifa 2026™",
+        "score": 450,
+        "geos": [
+          "MA"
+        ],
+        "samples": [
+          {
+            "query": "كأس العالم fifa 2026™",
+            "geo": "MA",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "شراكة استراتيجية بين «طلبات» وTOD by beIN",
+                "url": "https://www.aljarida.com/article/133601",
+                "source": "جريدة الجريدة الكويتية"
+              },
+              {
+                "title": "تابع المونديال عبر تطبيق TOD.. مزايا وفرص للربح",
+                "url": "https://www.aljadeed.tv/watch/85217/%D8%AA%D8%A7%D8%A8%D8%B9-%D8%A7%D9%84%D9%85%D9%88%D9%86%D8%AF%D9%8A%D8%A7%D9%84-%D8%B9%D8%A8%D8%B1-%D8%AA%D8%B7%D8%A8%D9%8A%D9%82-tod-%D9%85%D8%B2%D8%A7%D9%8A%D8%A7-%D9%88%D9%81%D8%B1%D8%B5-%D9%84%D9%84%D8%B1%D8%A8%D8%AD",
+                "source": "aljadeed"
+              },
+              {
+                "title": "بالمونديال.. خلي عينك عالجديد!",
+                "url": "https://twaslnews1.twaslnews.com/1979980/",
+                "source": "شبكة تواصل الإخبارية"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "raja",
+        "score": 450,
+        "geos": [
+          "MA"
+        ],
+        "samples": [
+          {
+            "query": "raja",
+            "geo": "MA",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "World Cup 2026: Why is Fifa giving clubs $355m during the tournament?",
+                "url": "https://www.bbc.com/sport/football/articles/c893ndl18y9o",
+                "source": "BBC"
+              },
+              {
+                "title": "Hull City set for share of £264m World Cup windfall in handy boost to coffers",
+                "url": "https://www.hulldailymail.co.uk/sport/football/transfer-news/hull-city-set-share-264m-10999023",
+                "source": "Hull Live"
+              },
+              {
+                "title": "PSG will hit the jackpot thanks to the World Cup",
+                "url": "https://frenchfootballweekly.com/2026/06/06/psg-will-hit-the-jackpot-thanks-to-the-world-cup/",
+                "source": "French Football Weekly"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "canada – irlande",
+        "score": 90,
+        "geos": [
+          "MA"
+        ],
+        "samples": [
+          {
+            "query": "canada – irlande",
+            "geo": "MA",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Pronostic Canada vs Irlande 05 Juin 2026",
+                "url": "https://dailysports.net/fr/predictions/pronostic-pour-le-match-canada-irlande-les-equipes-sont-capables-doffrir-un-football-spectaculaire-06062026/",
+                "source": "DailySports.net"
+              },
+              {
+                "title": "Coupe du Monde de la FIFA 2026™ : Crépeau assure derrière une attaque peu convaincante",
+                "url": "https://www.rds.ca/soccer/coupe-du-monde/article/crepeau-donne-confiance-dans-un-match-nul-lors-de-la-derniere-repetition/",
+                "source": "RDS"
+              },
+              {
+                "title": "Canada-Irlande | Match historique au Stade Saputo: le Canada prêt pour le Mondial 2026",
+                "url": "https://www.985fm.ca/audio/782097/match-historique-au-stade-saputo-le-canada-pret-pour-le-mondial-2026",
+                "source": "98.5 Montréal"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "topic": "canadá - irlanda",
+      "type": "noticia",
+      "slugSuggestion": "canada-irlanda",
+      "language": "es",
+      "geos": [
+        "EC"
+      ],
+      "score": 960,
+      "reason": "Google Trends daily EC con 1,000 búsquedas · 3 artículos noticiosos referenciando \"canadá - irlanda\"",
+      "proposedPath": "/noticias/canada-irlanda",
+      "evidence": [
+        {
+          "query": "canadá - irlanda",
+          "geo": "EC",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 1000,
+          "articles": [
+            {
+              "title": "Canadá empató con Irlanda previo al Mundial 2026",
+              "url": "https://www.ecuavisa.com/futbol-internacional/canada-empato-con-irlanda-previo-al-mundial-2026-20260605-0120.html",
+              "source": "Ecuavisa"
+            },
+            {
+              "title": "Debutarán el 12 de junio en Toronto",
+              "url": "https://fdpradio.com/debutaran-el-12-de-junio-en-toronto/",
+              "source": "FDP Radio"
+            },
+            {
+              "title": "Alineación del partido Canada vs Irlanda | Amistosos · 6 jun. 2026",
+              "url": "https://www.ysscores.com/es/lineup/5418305/Canada-vs-Republic-of-Ireland",
+              "source": "YSscores"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "raja",
+      "type": "noticia",
+      "slugSuggestion": "raja",
+      "language": "fr",
+      "geos": [
+        "MA"
+      ],
+      "score": 540,
+      "reason": "Google Trends daily MA con 500 búsquedas · 3 artículos noticiosos referenciando \"raja\"",
+      "proposedPath": "/noticias/raja",
+      "evidence": [
+        {
+          "query": "raja",
+          "geo": "MA",
+          "language": "fr",
+          "source": "google-trends-daily",
+          "score": 500,
+          "articles": [
+            {
+              "title": "World Cup 2026: Why is Fifa giving clubs $355m during the tournament?",
+              "url": "https://www.bbc.com/sport/football/articles/c893ndl18y9o",
+              "source": "BBC"
+            },
+            {
+              "title": "Hull City set for share of £264m World Cup windfall in handy boost to coffers",
+              "url": "https://www.hulldailymail.co.uk/sport/football/transfer-news/hull-city-set-share-264m-10999023",
+              "source": "Hull Live"
+            },
+            {
+              "title": "PSG will hit the jackpot thanks to the World Cup",
+              "url": "https://frenchfootballweekly.com/2026/06/06/psg-will-hit-the-jackpot-thanks-to-the-world-cup/",
+              "source": "French Football Weekly"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "chequia - guatemala",
+      "type": "noticia",
+      "slugSuggestion": "chequia-guatemala",
+      "language": "es",
+      "geos": [
+        "CO"
+      ],
+      "score": 240,
+      "reason": "Google Trends daily CO con 200 búsquedas · 3 artículos noticiosos referenciando \"chequia - guatemala\"",
+      "proposedPath": "/noticias/chequia-guatemala",
+      "evidence": [
+        {
+          "query": "chequia - guatemala",
+          "geo": "CO",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Guatemala paga caro sus errores y República Checa se adjudica el triunfo",
+              "url": "https://www.espn.com.co/futbol/guatemala/nota/_/id/16798911/guatemala-paga-errores-republica-checa-triunfo-amistoso",
+              "source": "ESPN Colombia"
+            },
+            {
+              "title": "Goles y resumen Chequia vs. Guatemala: Luis Fernando Tena preocupa a Javier Aguirre a una semana del Mundial 2026",
+              "url": "https://www.marca.com/mx/futbol/mundial/cronica/2026/06/05/6a221b0722601d2c4a8b45f4.html",
+              "source": "MARCA"
+            },
+            {
+              "title": "¿Por qué están ausentes Rubio Rubín y Nathaniel Méndez-Laing? Luis Fernando Tena lo aclara",
+              "url": "https://espndeportes.espn.com/futbol/guatemala/nota/_/id/16795807/ausencia-rubio-rubin-nathaniel-mendez-laing-seleccion-guatemala-luis-fernando-tena",
+              "source": "ESPN Deportes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "canada – irlande",
+      "type": "noticia",
+      "slugSuggestion": "canada-irlande",
+      "language": "fr",
+      "geos": [
+        "MA"
+      ],
+      "score": 108,
+      "reason": "Google Trends daily MA con 100 búsquedas · 3 artículos noticiosos referenciando \"canada – irlande\"",
+      "proposedPath": "/noticias/canada-irlande",
+      "evidence": [
+        {
+          "query": "canada – irlande",
+          "geo": "MA",
+          "language": "fr",
+          "source": "google-trends-daily",
+          "score": 100,
+          "articles": [
+            {
+              "title": "Pronostic Canada vs Irlande 05 Juin 2026",
+              "url": "https://dailysports.net/fr/predictions/pronostic-pour-le-match-canada-irlande-les-equipes-sont-capables-doffrir-un-football-spectaculaire-06062026/",
+              "source": "DailySports.net"
+            },
+            {
+              "title": "Coupe du Monde de la FIFA 2026™ : Crépeau assure derrière une attaque peu convaincante",
+              "url": "https://www.rds.ca/soccer/coupe-du-monde/article/crepeau-donne-confiance-dans-un-match-nul-lors-de-la-derniere-repetition/",
+              "source": "RDS"
+            },
+            {
+              "title": "Canada-Irlande | Match historique au Stade Saputo: le Canada prêt pour le Mondial 2026",
+              "url": "https://www.985fm.ca/audio/782097/match-historique-au-stade-saputo-le-canada-pret-pour-le-mondial-2026",
+              "source": "98.5 Montréal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "rtm",
+      "type": "noticia",
+      "slugSuggestion": "rtm",
+      "language": "ko",
+      "geos": [
+        "KR"
+      ],
+      "score": 84,
+      "reason": "Google Trends daily KR con 100 búsquedas · 3 artículos noticiosos referenciando \"rtm\"",
+      "proposedPath": "/noticias/rtm",
+      "evidence": [
+        {
+          "query": "rtm",
+          "geo": "KR",
+          "language": "ko",
+          "source": "google-trends-daily",
+          "score": 100,
+          "articles": [
+            {
+              "title": "Unifi TV To Broadcast All 104 FIFA World Cup 2026 Matches Live",
+              "url": "https://bernama.com/en/general/news.php?id=2565326",
+              "source": "Bernama"
+            },
+            {
+              "title": "MyGOV Malaysia app adds access to RTM&apos;s FIFA World Cup 2026 broadcast",
+              "url": "https://www.thestar.com.my/tech/tech-news/2026/06/05/mygov-malaysia-app-to-stream-world-cup-2026-matches",
+              "source": "The Star"
+            },
+            {
+              "title": "You will be able to watch the World Cup matches live on the MyGOV app",
+              "url": "https://technave.com/gadget/You-will-be-able-to-watch-the-World-Cup-matches-live-on-the-MyGOV-app-46794.html",
+              "source": "TechNave"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alreadyCovered": [
+    {
+      "query": "portugal vs",
+      "matchUrl": "/noticias/h2h-portugal-rd-congo-mundial-2026-grupo-k"
+    },
+    {
+      "query": "mexico 86",
+      "matchUrl": "/ediciones/1970-mexico"
+    },
+    {
+      "query": "portugal vs",
+      "matchUrl": "/noticias/h2h-portugal-rd-congo-mundial-2026-grupo-k"
+    },
+    {
+      "query": "paraguay vs",
+      "matchUrl": "/noticias/h2h-usa-paraguay-mundial-2026-grupo-d"
+    },
+    {
+      "query": "كأس العالم fifa 2026™",
+      "matchUrl": "/noticias/estafa-entradas-mundial-2026-phishing-fifa-sitios-falsos-fraude-eset-check-point"
+    }
+  ]
+}
