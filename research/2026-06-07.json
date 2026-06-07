@@ -1,0 +1,1500 @@
+{
+  "generatedAt": "2026-06-07T09:46:58.848Z",
+  "date": "2026-06-07",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "selección de futbol sub 20 de méxico",
+      "geo": "MX",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 5000,
+      "articles": [
+        {
+          "title": "¡6 de Chivas convocados al Tri Sub-20 para disputar la Revelations Cup!",
+          "url": "https://www.chivasdecorazon.com.mx/es/noticias/41010/6-de-Chivas-convocados-al-Tri-Sub-20-para-disputar-la-Revelations-Cup",
+          "source": "Chivas"
+        },
+        {
+          "title": "Resultado del partido México Sub-20 vs Japón en el estadio Luis Pirata Fuente en Boca del Río - Diario de Xalapa",
+          "url": "https://oem.com.mx/diariodexalapa/deportes/resultado-del-partido-mexico-sub-20-vs-japon-en-el-estadio-luis-pirata-fuente-en-boca-del-rio-30391020",
+          "source": "El Sol de México"
+        },
+        {
+          "title": "México cae GOLEADO ante Japón a cinco días de la Copa Mundial de la FIFA 2026™",
+          "url": "https://www.tvazteca.com/aztecadeportes/mexico-sub-20-derrota-japon-mundial-2026/",
+          "source": "TV Azteca"
+        }
+      ]
+    },
+    {
+      "query": "curazao vs aruba",
+      "geo": "MX",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Curazao arrolló a Aruba tras el descanso y parece lista para el partido decisivo del Mundial contra Alemania",
+          "url": "https://www.goal.com/es-mx/noticias/curazao-arrollo-a-aruba-tras-el-descanso-y-parece-lista-para-el-partido-decisivo-del-mundial-contra-alemania/blt77135143e53ea79b",
+          "source": "Goal.com"
+        },
+        {
+          "title": "Mundial 2026| Curazao se despide de su gente con goleada y alegría",
+          "url": "https://www.tvn-2.com/tvmax/copa-mundial-fifa-2026/mundial-2026-resultado-curazao-aruba-partido-amistoso_1_2244703.html",
+          "source": "TVN Panamá"
+        },
+        {
+          "title": "El gol de Curazao para el 1-0 vs Aruba",
+          "url": "https://www.ole.com.ar/ecuador/internacional/gol-curazao-1-0-vs-aruba_3_yivF4tRaES.html",
+          "source": "Olé"
+        }
+      ]
+    },
+    {
+      "query": "aymen hussein",
+      "geo": "MX",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "Mundial 2026: Tensión migratoria para Irak en Estados Unidos",
+          "url": "https://www.espn.com.mx/futbol/mundial/nota/_/id/16807120/mundial-2026-seleccion-irak-aymen-hussein-retenido-estados-unidos",
+          "source": "ESPN México"
+        },
+        {
+          "title": "Retienen e interrogan por 7 horas a Hussein, figura de Irak, en aeropuerto de Chicago",
+          "url": "https://www.jornada.com.mx/noticia/2026/06/06/mundial/retienen-e-interrogan-por-7-horas-a-hussein-figura-de-irak-en-aeropuerto-de-chicago",
+          "source": "La Jornada"
+        },
+        {
+          "title": "Noticia destacada: un delantero iraquí, retenido durante horas por el ICE justo antes del Mundial",
+          "url": "https://www.goal.com/es-mx/noticias/noticia-destacada-un-delantero-iraqui-retenido-durante-horas-por-el-ice-justo-antes-del-mundial/blt53bb0077097aeea0",
+          "source": "Goal.com"
+        }
+      ]
+    },
+    {
+      "query": "vinícius júnior",
+      "geo": "MX",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "Mundial 2026: Ancelotti confía que Vinícius tendrá su mejor versión",
+          "url": "https://www.espn.com.mx/futbol/mundial/nota/_/id/16807263/mundial-2026-brasil-vs-egipto-carlo-ancelotti-vinicius-junior-mejor-version",
+          "source": "ESPN México"
+        },
+        {
+          "title": "“La idea es clara”: Carlo Ancelotti define la alineación de Brasil para su debut en el Mundial 2026",
+          "url": "https://oem.com.mx/esto/mundial-2026/carlo-ancelotti-revela-que-ya-tiene-la-alineacion-de-brasil-para-su-debut-en-el-mundial-2026-30406603",
+          "source": "El Sol de México"
+        },
+        {
+          "title": "Vinícius Jr, con el reto de liderar a la Selección de Brasil en el Mundial 2026",
+          "url": "https://www.milenio.com/futbol-internacional/mundial/vinicius-junior-el-jugador-a-seguir-de-brasil-en-el-mundial-2026",
+          "source": "Milenio"
+        }
+      ]
+    },
+    {
+      "query": "nicolás capaldo",
+      "geo": "AR",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "El futbolista que podría debutar en la selección argentina ante Honduras y sueña con integrar la lista definitiva para jugar el Mundial",
+          "url": "https://www.infobae.com/deportes/2026/06/06/el-futbolista-que-podria-debutar-en-la-seleccion-argentina-ante-honduras-y-suena-con-integrar-la-lista-definitiva-para-jugar-el-mundial/",
+          "source": "Infobae"
+        },
+        {
+          "title": "Capaldo, la gran sorpresa del primer once que paró Scaloni: ¿tiene chances de ir al Mundial?",
+          "url": "https://www.tycsports.com/seleccion-argentina/nicolas-capaldo-sorpresa-primer-once-scaloni-chances-mundial-id734165.html",
+          "source": "TyC Sports"
+        },
+        {
+          "title": "Mundial 2026 Ni Montiel ni Molina: Capaldo o Giay se disputan un lugar ante Honduras",
+          "url": "https://elintransigente.com/2026/06/scaloni-equipo-honduras-mundial-2026/",
+          "source": "El Intransigente"
+        }
+      ]
+    },
+    {
+      "query": "vinícius júnior",
+      "geo": "CO",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Copa do Mundo 2026 ganha versão LEGO com experiência interativa na Flórida",
+          "url": "https://www.acheiusa.com/Noticia/copa-do-mundo-2026-ganha-versao-lego-com-experiencia-interativa-na-florida-170632/",
+          "source": "AcheiUSA"
+        },
+        {
+          "title": "Elétrico da CARRIS em Lisboa recebe decoração LEGO dedicada ao futebol",
+          "url": "https://echoboomer.pt/eletrico-carris-recebe-decoracao-lego-futebol/",
+          "source": "Echo Boomer"
+        },
+        {
+          "title": "A LEGO invadiu Lisboa com Cristiano Ronaldo, Messi, Mbappé e Vini Jr. a bordo do elétrico mais famoso do País",
+          "url": "https://sapo.pt/artigo/a-lego-invadiu-lisboa-com-cristiano-ronaldo-messi-mbappe-e-vini-jr-a-bordo-do-eletrico-mais-famoso-do-pais-6a1f4995434934ab0487e630",
+          "source": "SAPO"
+        }
+      ]
+    },
+    {
+      "query": "ecuador vs guatemala",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 5000,
+      "articles": [
+        {
+          "title": "Ecuador vs. Guatemala: hora, canal y alineación del último amistoso de la Tri antes del Mundial 2026",
+          "url": "https://www.eluniverso.com/deportes/futbol/ecuador-vs-guatemala-hora-canal-y-alineacion-del-ultimo-amistoso-de-la-tri-antes-del-mundial-2026-nota/",
+          "source": "El Universo"
+        },
+        {
+          "title": "Así invitan los seleccionados de Ecuador a los hinchas al amistoso frente a Guatemala en Columbus, previo al Mundial 2026",
+          "url": "https://www.primicias.ec/deportes/mundial-2026/seleccion-ecuador/jugadores-tri-invitan-hinchas-partido-amistoso-guatemala-columbus-crew-ohio-124694/",
+          "source": "Primicias"
+        },
+        {
+          "title": "A qué hora juega Ecuador vs Guatemala: partido amistoso por fecha FIFA previo al Mundial 2026",
+          "url": "https://www.infobae.com/peru/deportes/2026/06/06/a-que-hora-juega-ecuador-vs-guatemala-hoy-partido-amistoso-columbus-fecha-fifa-2026-horario/",
+          "source": "Infobae"
+        }
+      ]
+    },
+    {
+      "query": "brazil vs egypt",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Brazil 2-1 Egypt (Jun 6, 2026) Game Analysis",
+          "url": "https://www.espn.com/soccer/report/_/gameId/401861998",
+          "source": "ESPN"
+        },
+        {
+          "title": "Brazil vs. Egypt in Cleveland: Huntington Bank Field turns into a 2026 FIFA World Cup Preview",
+          "url": "https://www.wkyc.com/article/sports/soccer/world-cup/brazil-vs-egypt-fifa-world-cup-friendly-match-in-cleveland-huntington-bank-field-cleveland-ohio/95-3f71b4d1-3764-48bd-b38e-27cff32e9e0c",
+          "source": "WKYC"
+        },
+        {
+          "title": "Endrick scores in Brazil’s last friendly before World Cup",
+          "url": "https://www.managingmadrid.com/real-madrid-cf-players/108611/endrick-scores-in-brazils-last-friendly-before-world-cup",
+          "source": "Managing Madrid"
+        }
+      ]
+    },
+    {
+      "query": "brasil vs",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 5000,
+      "articles": [
+        {
+          "title": "EN VIVO | Brasil vs. Marruecos: minuto a minuto del partido y resultado en el Mundial 2026",
+          "url": "https://www.expreso.ec/deportes/copa-mundial-de-futbol/vivo-brasil-vs-marruecos-minuto-minuto-partido-resultado-mundial-2026-284764.html",
+          "source": "expreso.ec"
+        },
+        {
+          "title": "Figura de Brasil se lesiona a siete días del Mundial y llora",
+          "url": "https://www.elcomercio.com/deportes/futbol/figura-brasil-lesion-siete-dias-mundial-wesley/",
+          "source": "El Comercio"
+        },
+        {
+          "title": "Endrick le dio el triunfo a Brasil sobre Egipto",
+          "url": "https://www.ecuagol.com/noticias/mundial-2026/endrick-le-dio-el-triunfo-a-brasil-sobre-egipto/223511/",
+          "source": "Ecuagol"
+        }
+      ]
+    },
+    {
+      "query": "uruguay vs",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Cacique Medina y su “enorme orgullo” por Fernando Muslera: “Personalidad y cabeza”",
+          "url": "https://www.montevideo.com.uy/Deportes/Cacique-Medina-y-su-enorme-orgullo-por-Fernando-Muslera--Personalidad-y-cabeza--uc964391",
+          "source": "Montevideo Portal"
+        },
+        {
+          "title": "La reacción de Luis Suárez al video de la selección uruguaya con la lista de 26 convocados de Marcelo Bielsa, tras confirmarse que no estará en el Mundial 2026",
+          "url": "https://www.elobservador.com.uy/mundial-2026/la-reaccion-luis-suarez-al-video-la-seleccion-uruguaya-la-lista-26-convocados-marcelo-bielsa-confirmarse-que-no-estara-el-mundial-2026-n6045927",
+          "source": "El Observador"
+        },
+        {
+          "title": "Vuelta a casa: Fernando Muslera y Maxi Araújo fueron homenajeados por Wanderers en el Viera",
+          "url": "https://www.elpais.com.uy/ovacion/futbol/vuelta-a-casa-fernando-muslera-y-maxi-araujo-fueron-homenajeados-por-wanderers-en-el-viera",
+          "source": "EL PAÍS Uruguay"
+        }
+      ]
+    },
+    {
+      "query": "amistosos",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "Uruguay escaló en el Ranking FIFA pese a no jugar amistosos antes del Mundial 2026: la razón y en qué puesto está",
+          "url": "https://www.elpais.com.uy/ovacion/futbol/uruguay-subio-un-puesto-en-el-ranking-fifa-a-pesar-de-no-jugar-amistosos-en-la-previa-al-mundial-2026-la-razon",
+          "source": "EL PAÍS Uruguay"
+        },
+        {
+          "title": "‘Lío’ para Ancelotti",
+          "url": "https://as.com/futbol/internacional/endrick-mete-en-un-lio-a-ancelotti-f202606-n/",
+          "source": "Diario AS"
+        },
+        {
+          "title": "Alerta en Brasil a 7 días del debut en el Mundial: una de las figuras pidió el cambio por lesión y se retiró entre lágrimas",
+          "url": "https://www.infobae.com/deportes/2026/06/06/alerta-en-brasil-a-7-dias-del-debut-en-el-mundial-un-futbolista-pidio-el-cambio-por-lesion-y-se-retiro-entre-lagrimas/",
+          "source": "Infobae"
+        }
+      ]
+    },
+    {
+      "query": "bolivia - escocia",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Escocia cierra con dos victorias su preparación hacia el Mundial 2026 tras vencer a Bolivia",
+          "url": "https://www.tudn.com/mundial-2026/escocia-cierra-con-dos-victorias-su-preparacion-hacia-el-mundial-2026-tras-vencer-a-bolivia-video",
+          "source": "TUDN"
+        },
+        {
+          "title": "Los jóvenes Ribera, Nacif y Viviani debutan en la Selección frente a Escocia",
+          "url": "https://www.vision360.bo/noticias/2026/06/06/51692-los-jovenes-ribera-nacif-y-viviani-debutan-en-la-seleccion-frente-a-escocia",
+          "source": "Visión 360"
+        },
+        {
+          "title": "Villegas: “Vamos a llegar más fuertes a la siguiente eliminatoria”",
+          "url": "https://eju.tv/2026/06/villegas-vamos-a-llegar-mas-fuertes-a-la-siguiente-eliminatoria/",
+          "source": "eju.tv"
+        }
+      ]
+    },
+    {
+      "query": "lamine yamal nasraoui ebana",
+      "geo": "ES",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "World Cup 2026: How Spain&apos;s Lamine Yamal is ignoring Lionel Messi comparisons",
+          "url": "https://www.bbc.com/sport/football/articles/cy82mpzg3n4o",
+          "source": "BBC"
+        },
+        {
+          "title": "Lamine Yamal and Nico Williams step up recovery ahead of World Cup opener",
+          "url": "https://www.besoccer.com/new/lamine-yamal-and-nico-williams-step-up-recovery-ahead-of-world-cup-opener-1413140",
+          "source": "BeSoccer Livescore"
+        },
+        {
+          "title": "Spain take cautious approach as Barcelona star set to miss Peru friendly",
+          "url": "https://barcauniversal.com/spain-take-cautious-approach-as-barcelona-star-set-to-miss-peru-friendly/",
+          "source": "Barca Universal"
+        }
+      ]
+    },
+    {
+      "query": "fußballnationalmannschaft von curaçao",
+      "geo": "DE",
+      "language": "de",
+      "source": "google-trends-daily",
+      "score": 10000,
+      "articles": [
+        {
+          "title": "WM 2026: Curacao feiert souveräne Generalprobe vor Auftakt gegen Deutschland",
+          "url": "https://www.bild.de/sport/fussball/wm-2026-curacao-feiert-souveraene-generalprobe-vor-auftakt-gegen-deutschland-6a25110db20db0d89b657e70",
+          "source": "BILD"
+        },
+        {
+          "title": "Kane trifft, Leao boxt (zu) wild: DFB-Gegner Curacao wendet Blamage furios ab",
+          "url": "https://www.n-tv.de/sport/fussball-wm/DFB-Gegner-Curacao-wendet-Blamage-furios-ab-id30900864.html",
+          "source": "Ntv"
+        },
+        {
+          "title": "Deutschlands Gegner: Curacao gewinnt letzten WM-Test gegen Aruba (Nummer 189 der Weltrangliste)",
+          "url": "https://www.welt.de/sport/fussball/article6a251042b20db0d89b657e60/deutschlands-gegner-curacao-gewinnt-letzten-wm-test-gegen-aruba-nummer-189-der-weltrangliste.html",
+          "source": "WELT"
+        }
+      ]
+    },
+    {
+      "query": "massimo gramellini",
+      "geo": "IT",
+      "language": "it",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Mondiali 2026: Mamdani cita a sorpresa Balotelli, &apos;uno dei più grandi&apos;",
+          "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/06/05/mondiali-mamdani-cita-a-sorpresa-balotelli-uno-dei-piu-grandi_ed88a65e-3a45-48d3-8d5a-cd509f7bfed3.html",
+          "source": "ANSA"
+        },
+        {
+          "title": "Il sindaco di New York Zohran Mamdani ha citato Mario Balotelli",
+          "url": "https://www.ilpost.it/flashes/sindaco-new-york-zohran-mamdani-mario-balotelli/",
+          "source": "Il Post"
+        },
+        {
+          "title": "Come disse Balotelli",
+          "url": "https://www.corriere.it/caffe-gramellini/26_giugno_06/come-disse-balotelli-a1abfcc7-8ce8-4983-84aa-f470b3e68xlk.shtml",
+          "source": "Corriere della Sera"
+        }
+      ]
+    },
+    {
+      "query": "emiliano martínez",
+      "geo": "IT",
+      "language": "it",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Mundial 2026, en vivo: victoria de la seleccion argentina y la preparación para el cruce con Islandia",
+          "url": "https://es-us.noticias.yahoo.com/deportes/mundial-2026-vivo-victoria-seleccion-063501671.html",
+          "source": "Yahoo"
+        },
+        {
+          "title": "Dibu Martínez no atajó vs Honduras pero encontró algo para hacer: agarró una cámara de fotos y después elogió a Beltrán tras su debut",
+          "url": "https://www.clarin.com/deportes/dibu-martinez-atajo-vs-honduras-encontro-hacer-agarro-camara-fotos-despues-elogio-beltran-debut_0_podhbeHktX.html",
+          "source": "Clarin.com"
+        },
+        {
+          "title": "La intimidad de la concentración",
+          "url": "https://www.eldia.com/deportes/la-intimidad-de-la-concentracion-deportes_1780723721",
+          "source": "Diario El Día de La Plata"
+        }
+      ]
+    },
+    {
+      "query": "maroc norvege",
+      "geo": "MA",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Coupe du Monde FIFA 2026: les Lions de l’Atlas poursuivent leur préparation",
+          "url": "https://frmf.ma/fr/articles/coupe-du-monde-fifa-2026-les-lions-de-latlas-poursuivent-leur-preparation",
+          "source": "الجامعة الملكية المغربية لكرة القدم"
+        },
+        {
+          "title": "Coupe du monde 2026. Quelles sont les chances du Maroc dans ce nouveau format ?",
+          "url": "https://medias24.com/2026/06/06/coupe-du-monde-2026-quelles-sont-les-chances-du-maroc-dans-ce-nouveau-format-1692807/",
+          "source": "Medias24"
+        },
+        {
+          "title": "Mondial 2026 : face à l’Europe et à l’Amérique du Sud, le Maroc à l’épreuve des styles",
+          "url": "https://mobile.telquel.ma/instant-t/2026/06/05/mondial-2026-face-a-leurope-et-a-lamerique-du-sud-le-maroc-a-lepreuve-des-styles_1992624/",
+          "source": "Telquel.ma"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "es": [
+      {
+        "query": "selección de futbol sub 20 de méxico",
+        "score": 7000,
+        "geos": [
+          "MX"
+        ],
+        "samples": [
+          {
+            "query": "selección de futbol sub 20 de méxico",
+            "geo": "MX",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 5000,
+            "articles": [
+              {
+                "title": "¡6 de Chivas convocados al Tri Sub-20 para disputar la Revelations Cup!",
+                "url": "https://www.chivasdecorazon.com.mx/es/noticias/41010/6-de-Chivas-convocados-al-Tri-Sub-20-para-disputar-la-Revelations-Cup",
+                "source": "Chivas"
+              },
+              {
+                "title": "Resultado del partido México Sub-20 vs Japón en el estadio Luis Pirata Fuente en Boca del Río - Diario de Xalapa",
+                "url": "https://oem.com.mx/diariodexalapa/deportes/resultado-del-partido-mexico-sub-20-vs-japon-en-el-estadio-luis-pirata-fuente-en-boca-del-rio-30391020",
+                "source": "El Sol de México"
+              },
+              {
+                "title": "México cae GOLEADO ante Japón a cinco días de la Copa Mundial de la FIFA 2026™",
+                "url": "https://www.tvazteca.com/aztecadeportes/mexico-sub-20-derrota-japon-mundial-2026/",
+                "source": "TV Azteca"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "ecuador vs guatemala",
+        "score": 4000,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "ecuador vs guatemala",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 5000,
+            "articles": [
+              {
+                "title": "Ecuador vs. Guatemala: hora, canal y alineación del último amistoso de la Tri antes del Mundial 2026",
+                "url": "https://www.eluniverso.com/deportes/futbol/ecuador-vs-guatemala-hora-canal-y-alineacion-del-ultimo-amistoso-de-la-tri-antes-del-mundial-2026-nota/",
+                "source": "El Universo"
+              },
+              {
+                "title": "Así invitan los seleccionados de Ecuador a los hinchas al amistoso frente a Guatemala en Columbus, previo al Mundial 2026",
+                "url": "https://www.primicias.ec/deportes/mundial-2026/seleccion-ecuador/jugadores-tri-invitan-hinchas-partido-amistoso-guatemala-columbus-crew-ohio-124694/",
+                "source": "Primicias"
+              },
+              {
+                "title": "A qué hora juega Ecuador vs Guatemala: partido amistoso por fecha FIFA previo al Mundial 2026",
+                "url": "https://www.infobae.com/peru/deportes/2026/06/06/a-que-hora-juega-ecuador-vs-guatemala-hoy-partido-amistoso-columbus-fecha-fifa-2026-horario/",
+                "source": "Infobae"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "brasil vs",
+        "score": 4000,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "brasil vs",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 5000,
+            "articles": [
+              {
+                "title": "EN VIVO | Brasil vs. Marruecos: minuto a minuto del partido y resultado en el Mundial 2026",
+                "url": "https://www.expreso.ec/deportes/copa-mundial-de-futbol/vivo-brasil-vs-marruecos-minuto-minuto-partido-resultado-mundial-2026-284764.html",
+                "source": "expreso.ec"
+              },
+              {
+                "title": "Figura de Brasil se lesiona a siete días del Mundial y llora",
+                "url": "https://www.elcomercio.com/deportes/futbol/figura-brasil-lesion-siete-dias-mundial-wesley/",
+                "source": "El Comercio"
+              },
+              {
+                "title": "Endrick le dio el triunfo a Brasil sobre Egipto",
+                "url": "https://www.ecuagol.com/noticias/mundial-2026/endrick-le-dio-el-triunfo-a-brasil-sobre-egipto/223511/",
+                "source": "Ecuagol"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "aymen hussein",
+        "score": 2800,
+        "geos": [
+          "MX"
+        ],
+        "samples": [
+          {
+            "query": "aymen hussein",
+            "geo": "MX",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "Mundial 2026: Tensión migratoria para Irak en Estados Unidos",
+                "url": "https://www.espn.com.mx/futbol/mundial/nota/_/id/16807120/mundial-2026-seleccion-irak-aymen-hussein-retenido-estados-unidos",
+                "source": "ESPN México"
+              },
+              {
+                "title": "Retienen e interrogan por 7 horas a Hussein, figura de Irak, en aeropuerto de Chicago",
+                "url": "https://www.jornada.com.mx/noticia/2026/06/06/mundial/retienen-e-interrogan-por-7-horas-a-hussein-figura-de-irak-en-aeropuerto-de-chicago",
+                "source": "La Jornada"
+              },
+              {
+                "title": "Noticia destacada: un delantero iraquí, retenido durante horas por el ICE justo antes del Mundial",
+                "url": "https://www.goal.com/es-mx/noticias/noticia-destacada-un-delantero-iraqui-retenido-durante-horas-por-el-ice-justo-antes-del-mundial/blt53bb0077097aeea0",
+                "source": "Goal.com"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "nicolás capaldo",
+        "score": 2600,
+        "geos": [
+          "AR"
+        ],
+        "samples": [
+          {
+            "query": "nicolás capaldo",
+            "geo": "AR",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "El futbolista que podría debutar en la selección argentina ante Honduras y sueña con integrar la lista definitiva para jugar el Mundial",
+                "url": "https://www.infobae.com/deportes/2026/06/06/el-futbolista-que-podria-debutar-en-la-seleccion-argentina-ante-honduras-y-suena-con-integrar-la-lista-definitiva-para-jugar-el-mundial/",
+                "source": "Infobae"
+              },
+              {
+                "title": "Capaldo, la gran sorpresa del primer once que paró Scaloni: ¿tiene chances de ir al Mundial?",
+                "url": "https://www.tycsports.com/seleccion-argentina/nicolas-capaldo-sorpresa-primer-once-scaloni-chances-mundial-id734165.html",
+                "source": "TyC Sports"
+              },
+              {
+                "title": "Mundial 2026 Ni Montiel ni Molina: Capaldo o Giay se disputan un lugar ante Honduras",
+                "url": "https://elintransigente.com/2026/06/scaloni-equipo-honduras-mundial-2026/",
+                "source": "El Intransigente"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "vinícius júnior",
+        "score": 1900,
+        "geos": [
+          "MX",
+          "CO"
+        ],
+        "samples": [
+          {
+            "query": "vinícius júnior",
+            "geo": "MX",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "Mundial 2026: Ancelotti confía que Vinícius tendrá su mejor versión",
+                "url": "https://www.espn.com.mx/futbol/mundial/nota/_/id/16807263/mundial-2026-brasil-vs-egipto-carlo-ancelotti-vinicius-junior-mejor-version",
+                "source": "ESPN México"
+              },
+              {
+                "title": "“La idea es clara”: Carlo Ancelotti define la alineación de Brasil para su debut en el Mundial 2026",
+                "url": "https://oem.com.mx/esto/mundial-2026/carlo-ancelotti-revela-que-ya-tiene-la-alineacion-de-brasil-para-su-debut-en-el-mundial-2026-30406603",
+                "source": "El Sol de México"
+              },
+              {
+                "title": "Vinícius Jr, con el reto de liderar a la Selección de Brasil en el Mundial 2026",
+                "url": "https://www.milenio.com/futbol-internacional/mundial/vinicius-junior-el-jugador-a-seguir-de-brasil-en-el-mundial-2026",
+                "source": "Milenio"
+              }
+            ]
+          },
+          {
+            "query": "vinícius júnior",
+            "geo": "CO",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Copa do Mundo 2026 ganha versão LEGO com experiência interativa na Flórida",
+                "url": "https://www.acheiusa.com/Noticia/copa-do-mundo-2026-ganha-versao-lego-com-experiencia-interativa-na-florida-170632/",
+                "source": "AcheiUSA"
+              },
+              {
+                "title": "Elétrico da CARRIS em Lisboa recebe decoração LEGO dedicada ao futebol",
+                "url": "https://echoboomer.pt/eletrico-carris-recebe-decoracao-lego-futebol/",
+                "source": "Echo Boomer"
+              },
+              {
+                "title": "A LEGO invadiu Lisboa com Cristiano Ronaldo, Messi, Mbappé e Vini Jr. a bordo do elétrico mais famoso do País",
+                "url": "https://sapo.pt/artigo/a-lego-invadiu-lisboa-com-cristiano-ronaldo-messi-mbappe-e-vini-jr-a-bordo-do-eletrico-mais-famoso-do-pais-6a1f4995434934ab0487e630",
+                "source": "SAPO"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "amistosos",
+        "score": 900,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "amistosos",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "Uruguay escaló en el Ranking FIFA pese a no jugar amistosos antes del Mundial 2026: la razón y en qué puesto está",
+                "url": "https://www.elpais.com.uy/ovacion/futbol/uruguay-subio-un-puesto-en-el-ranking-fifa-a-pesar-de-no-jugar-amistosos-en-la-previa-al-mundial-2026-la-razon",
+                "source": "EL PAÍS Uruguay"
+              },
+              {
+                "title": "‘Lío’ para Ancelotti",
+                "url": "https://as.com/futbol/internacional/endrick-mete-en-un-lio-a-ancelotti-f202606-n/",
+                "source": "Diario AS"
+              },
+              {
+                "title": "Alerta en Brasil a 7 días del debut en el Mundial: una de las figuras pidió el cambio por lesión y se retiró entre lágrimas",
+                "url": "https://www.infobae.com/deportes/2026/06/06/alerta-en-brasil-a-7-dias-del-debut-en-el-mundial-un-futbolista-pidio-el-cambio-por-lesion-y-se-retiro-entre-lagrimas/",
+                "source": "Infobae"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "uruguay vs",
+        "score": 450,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "uruguay vs",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Cacique Medina y su “enorme orgullo” por Fernando Muslera: “Personalidad y cabeza”",
+                "url": "https://www.montevideo.com.uy/Deportes/Cacique-Medina-y-su-enorme-orgullo-por-Fernando-Muslera--Personalidad-y-cabeza--uc964391",
+                "source": "Montevideo Portal"
+              },
+              {
+                "title": "La reacción de Luis Suárez al video de la selección uruguaya con la lista de 26 convocados de Marcelo Bielsa, tras confirmarse que no estará en el Mundial 2026",
+                "url": "https://www.elobservador.com.uy/mundial-2026/la-reaccion-luis-suarez-al-video-la-seleccion-uruguaya-la-lista-26-convocados-marcelo-bielsa-confirmarse-que-no-estara-el-mundial-2026-n6045927",
+                "source": "El Observador"
+              },
+              {
+                "title": "Vuelta a casa: Fernando Muslera y Maxi Araújo fueron homenajeados por Wanderers en el Viera",
+                "url": "https://www.elpais.com.uy/ovacion/futbol/vuelta-a-casa-fernando-muslera-y-maxi-araujo-fueron-homenajeados-por-wanderers-en-el-viera",
+                "source": "EL PAÍS Uruguay"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "bolivia - escocia",
+        "score": 450,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "bolivia - escocia",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Escocia cierra con dos victorias su preparación hacia el Mundial 2026 tras vencer a Bolivia",
+                "url": "https://www.tudn.com/mundial-2026/escocia-cierra-con-dos-victorias-su-preparacion-hacia-el-mundial-2026-tras-vencer-a-bolivia-video",
+                "source": "TUDN"
+              },
+              {
+                "title": "Los jóvenes Ribera, Nacif y Viviani debutan en la Selección frente a Escocia",
+                "url": "https://www.vision360.bo/noticias/2026/06/06/51692-los-jovenes-ribera-nacif-y-viviani-debutan-en-la-seleccion-frente-a-escocia",
+                "source": "Visión 360"
+              },
+              {
+                "title": "Villegas: “Vamos a llegar más fuertes a la siguiente eliminatoria”",
+                "url": "https://eju.tv/2026/06/villegas-vamos-a-llegar-mas-fuertes-a-la-siguiente-eliminatoria/",
+                "source": "eju.tv"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "lamine yamal nasraoui ebana",
+        "score": 300,
+        "geos": [
+          "ES"
+        ],
+        "samples": [
+          {
+            "query": "lamine yamal nasraoui ebana",
+            "geo": "ES",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "World Cup 2026: How Spain&apos;s Lamine Yamal is ignoring Lionel Messi comparisons",
+                "url": "https://www.bbc.com/sport/football/articles/cy82mpzg3n4o",
+                "source": "BBC"
+              },
+              {
+                "title": "Lamine Yamal and Nico Williams step up recovery ahead of World Cup opener",
+                "url": "https://www.besoccer.com/new/lamine-yamal-and-nico-williams-step-up-recovery-ahead-of-world-cup-opener-1413140",
+                "source": "BeSoccer Livescore"
+              },
+              {
+                "title": "Spain take cautious approach as Barcelona star set to miss Peru friendly",
+                "url": "https://barcauniversal.com/spain-take-cautious-approach-as-barcelona-star-set-to-miss-peru-friendly/",
+                "source": "Barca Universal"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "curazao vs aruba",
+        "score": 280,
+        "geos": [
+          "MX"
+        ],
+        "samples": [
+          {
+            "query": "curazao vs aruba",
+            "geo": "MX",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Curazao arrolló a Aruba tras el descanso y parece lista para el partido decisivo del Mundial contra Alemania",
+                "url": "https://www.goal.com/es-mx/noticias/curazao-arrollo-a-aruba-tras-el-descanso-y-parece-lista-para-el-partido-decisivo-del-mundial-contra-alemania/blt77135143e53ea79b",
+                "source": "Goal.com"
+              },
+              {
+                "title": "Mundial 2026| Curazao se despide de su gente con goleada y alegría",
+                "url": "https://www.tvn-2.com/tvmax/copa-mundial-fifa-2026/mundial-2026-resultado-curazao-aruba-partido-amistoso_1_2244703.html",
+                "source": "TVN Panamá"
+              },
+              {
+                "title": "El gol de Curazao para el 1-0 vs Aruba",
+                "url": "https://www.ole.com.ar/ecuador/internacional/gol-curazao-1-0-vs-aruba_3_yivF4tRaES.html",
+                "source": "Olé"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "brazil vs egypt",
+        "score": 160,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "brazil vs egypt",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Brazil 2-1 Egypt (Jun 6, 2026) Game Analysis",
+                "url": "https://www.espn.com/soccer/report/_/gameId/401861998",
+                "source": "ESPN"
+              },
+              {
+                "title": "Brazil vs. Egypt in Cleveland: Huntington Bank Field turns into a 2026 FIFA World Cup Preview",
+                "url": "https://www.wkyc.com/article/sports/soccer/world-cup/brazil-vs-egypt-fifa-world-cup-friendly-match-in-cleveland-huntington-bank-field-cleveland-ohio/95-3f71b4d1-3764-48bd-b38e-27cff32e9e0c",
+                "source": "WKYC"
+              },
+              {
+                "title": "Endrick scores in Brazil’s last friendly before World Cup",
+                "url": "https://www.managingmadrid.com/real-madrid-cf-players/108611/endrick-scores-in-brazils-last-friendly-before-world-cup",
+                "source": "Managing Madrid"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "de": [
+      {
+        "query": "fußballnationalmannschaft von curaçao",
+        "score": 10000,
+        "geos": [
+          "DE"
+        ],
+        "samples": [
+          {
+            "query": "fußballnationalmannschaft von curaçao",
+            "geo": "DE",
+            "language": "de",
+            "source": "google-trends-daily",
+            "score": 10000,
+            "articles": [
+              {
+                "title": "WM 2026: Curacao feiert souveräne Generalprobe vor Auftakt gegen Deutschland",
+                "url": "https://www.bild.de/sport/fussball/wm-2026-curacao-feiert-souveraene-generalprobe-vor-auftakt-gegen-deutschland-6a25110db20db0d89b657e70",
+                "source": "BILD"
+              },
+              {
+                "title": "Kane trifft, Leao boxt (zu) wild: DFB-Gegner Curacao wendet Blamage furios ab",
+                "url": "https://www.n-tv.de/sport/fussball-wm/DFB-Gegner-Curacao-wendet-Blamage-furios-ab-id30900864.html",
+                "source": "Ntv"
+              },
+              {
+                "title": "Deutschlands Gegner: Curacao gewinnt letzten WM-Test gegen Aruba (Nummer 189 der Weltrangliste)",
+                "url": "https://www.welt.de/sport/fussball/article6a251042b20db0d89b657e60/deutschlands-gegner-curacao-gewinnt-letzten-wm-test-gegen-aruba-nummer-189-der-weltrangliste.html",
+                "source": "WELT"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "it": [
+      {
+        "query": "massimo gramellini",
+        "score": 450,
+        "geos": [
+          "IT"
+        ],
+        "samples": [
+          {
+            "query": "massimo gramellini",
+            "geo": "IT",
+            "language": "it",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Mondiali 2026: Mamdani cita a sorpresa Balotelli, &apos;uno dei più grandi&apos;",
+                "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/06/05/mondiali-mamdani-cita-a-sorpresa-balotelli-uno-dei-piu-grandi_ed88a65e-3a45-48d3-8d5a-cd509f7bfed3.html",
+                "source": "ANSA"
+              },
+              {
+                "title": "Il sindaco di New York Zohran Mamdani ha citato Mario Balotelli",
+                "url": "https://www.ilpost.it/flashes/sindaco-new-york-zohran-mamdani-mario-balotelli/",
+                "source": "Il Post"
+              },
+              {
+                "title": "Come disse Balotelli",
+                "url": "https://www.corriere.it/caffe-gramellini/26_giugno_06/come-disse-balotelli-a1abfcc7-8ce8-4983-84aa-f470b3e68xlk.shtml",
+                "source": "Corriere della Sera"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "emiliano martínez",
+        "score": 180,
+        "geos": [
+          "IT"
+        ],
+        "samples": [
+          {
+            "query": "emiliano martínez",
+            "geo": "IT",
+            "language": "it",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Mundial 2026, en vivo: victoria de la seleccion argentina y la preparación para el cruce con Islandia",
+                "url": "https://es-us.noticias.yahoo.com/deportes/mundial-2026-vivo-victoria-seleccion-063501671.html",
+                "source": "Yahoo"
+              },
+              {
+                "title": "Dibu Martínez no atajó vs Honduras pero encontró algo para hacer: agarró una cámara de fotos y después elogió a Beltrán tras su debut",
+                "url": "https://www.clarin.com/deportes/dibu-martinez-atajo-vs-honduras-encontro-hacer-agarro-camara-fotos-despues-elogio-beltran-debut_0_podhbeHktX.html",
+                "source": "Clarin.com"
+              },
+              {
+                "title": "La intimidad de la concentración",
+                "url": "https://www.eldia.com/deportes/la-intimidad-de-la-concentracion-deportes_1780723721",
+                "source": "Diario El Día de La Plata"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "fr": [
+      {
+        "query": "maroc norvege",
+        "score": 180,
+        "geos": [
+          "MA"
+        ],
+        "samples": [
+          {
+            "query": "maroc norvege",
+            "geo": "MA",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Coupe du Monde FIFA 2026: les Lions de l’Atlas poursuivent leur préparation",
+                "url": "https://frmf.ma/fr/articles/coupe-du-monde-fifa-2026-les-lions-de-latlas-poursuivent-leur-preparation",
+                "source": "الجامعة الملكية المغربية لكرة القدم"
+              },
+              {
+                "title": "Coupe du monde 2026. Quelles sont les chances du Maroc dans ce nouveau format ?",
+                "url": "https://medias24.com/2026/06/06/coupe-du-monde-2026-quelles-sont-les-chances-du-maroc-dans-ce-nouveau-format-1692807/",
+                "source": "Medias24"
+              },
+              {
+                "title": "Mondial 2026 : face à l’Europe et à l’Amérique du Sud, le Maroc à l’épreuve des styles",
+                "url": "https://mobile.telquel.ma/instant-t/2026/06/05/mondial-2026-face-a-leurope-et-a-lamerique-du-sud-le-maroc-a-lepreuve-des-styles_1992624/",
+                "source": "Telquel.ma"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "topic": "fußballnationalmannschaft von curaçao",
+      "type": "noticia",
+      "slugSuggestion": "fu-ballnationalmannschaft-von-curacao",
+      "language": "de",
+      "geos": [
+        "DE"
+      ],
+      "score": 12000,
+      "reason": "Google Trends daily DE con 10,000 búsquedas · 3 artículos noticiosos referenciando \"fußballnationalmannschaft von curaçao\"",
+      "proposedPath": "/noticias/fu-ballnationalmannschaft-von-curacao",
+      "evidence": [
+        {
+          "query": "fußballnationalmannschaft von curaçao",
+          "geo": "DE",
+          "language": "de",
+          "source": "google-trends-daily",
+          "score": 10000,
+          "articles": [
+            {
+              "title": "WM 2026: Curacao feiert souveräne Generalprobe vor Auftakt gegen Deutschland",
+              "url": "https://www.bild.de/sport/fussball/wm-2026-curacao-feiert-souveraene-generalprobe-vor-auftakt-gegen-deutschland-6a25110db20db0d89b657e70",
+              "source": "BILD"
+            },
+            {
+              "title": "Kane trifft, Leao boxt (zu) wild: DFB-Gegner Curacao wendet Blamage furios ab",
+              "url": "https://www.n-tv.de/sport/fussball-wm/DFB-Gegner-Curacao-wendet-Blamage-furios-ab-id30900864.html",
+              "source": "Ntv"
+            },
+            {
+              "title": "Deutschlands Gegner: Curacao gewinnt letzten WM-Test gegen Aruba (Nummer 189 der Weltrangliste)",
+              "url": "https://www.welt.de/sport/fussball/article6a251042b20db0d89b657e60/deutschlands-gegner-curacao-gewinnt-letzten-wm-test-gegen-aruba-nummer-189-der-weltrangliste.html",
+              "source": "WELT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "selección de futbol sub 20 de méxico",
+      "type": "noticia",
+      "slugSuggestion": "seleccion-de-futbol-sub-20-de-mexico",
+      "language": "es",
+      "geos": [
+        "MX"
+      ],
+      "score": 8400,
+      "reason": "Google Trends daily MX con 5,000 búsquedas · 3 artículos noticiosos referenciando \"selección de futbol sub 20 de méxico\"",
+      "proposedPath": "/noticias/seleccion-de-futbol-sub-20-de-mexico",
+      "evidence": [
+        {
+          "query": "selección de futbol sub 20 de méxico",
+          "geo": "MX",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 5000,
+          "articles": [
+            {
+              "title": "¡6 de Chivas convocados al Tri Sub-20 para disputar la Revelations Cup!",
+              "url": "https://www.chivasdecorazon.com.mx/es/noticias/41010/6-de-Chivas-convocados-al-Tri-Sub-20-para-disputar-la-Revelations-Cup",
+              "source": "Chivas"
+            },
+            {
+              "title": "Resultado del partido México Sub-20 vs Japón en el estadio Luis Pirata Fuente en Boca del Río - Diario de Xalapa",
+              "url": "https://oem.com.mx/diariodexalapa/deportes/resultado-del-partido-mexico-sub-20-vs-japon-en-el-estadio-luis-pirata-fuente-en-boca-del-rio-30391020",
+              "source": "El Sol de México"
+            },
+            {
+              "title": "México cae GOLEADO ante Japón a cinco días de la Copa Mundial de la FIFA 2026™",
+              "url": "https://www.tvazteca.com/aztecadeportes/mexico-sub-20-derrota-japon-mundial-2026/",
+              "source": "TV Azteca"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "ecuador vs guatemala",
+      "type": "noticia",
+      "slugSuggestion": "ecuador-vs-guatemala",
+      "language": "es",
+      "geos": [
+        "EC"
+      ],
+      "score": 4800,
+      "reason": "Google Trends daily EC con 5,000 búsquedas · 3 artículos noticiosos referenciando \"ecuador vs guatemala\"",
+      "proposedPath": "/noticias/ecuador-vs-guatemala",
+      "evidence": [
+        {
+          "query": "ecuador vs guatemala",
+          "geo": "EC",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 5000,
+          "articles": [
+            {
+              "title": "Ecuador vs. Guatemala: hora, canal y alineación del último amistoso de la Tri antes del Mundial 2026",
+              "url": "https://www.eluniverso.com/deportes/futbol/ecuador-vs-guatemala-hora-canal-y-alineacion-del-ultimo-amistoso-de-la-tri-antes-del-mundial-2026-nota/",
+              "source": "El Universo"
+            },
+            {
+              "title": "Así invitan los seleccionados de Ecuador a los hinchas al amistoso frente a Guatemala en Columbus, previo al Mundial 2026",
+              "url": "https://www.primicias.ec/deportes/mundial-2026/seleccion-ecuador/jugadores-tri-invitan-hinchas-partido-amistoso-guatemala-columbus-crew-ohio-124694/",
+              "source": "Primicias"
+            },
+            {
+              "title": "A qué hora juega Ecuador vs Guatemala: partido amistoso por fecha FIFA previo al Mundial 2026",
+              "url": "https://www.infobae.com/peru/deportes/2026/06/06/a-que-hora-juega-ecuador-vs-guatemala-hoy-partido-amistoso-columbus-fecha-fifa-2026-horario/",
+              "source": "Infobae"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "aymen hussein",
+      "type": "noticia",
+      "slugSuggestion": "aymen-hussein",
+      "language": "es",
+      "geos": [
+        "MX"
+      ],
+      "score": 3360,
+      "reason": "Google Trends daily MX con 2,000 búsquedas · 3 artículos noticiosos referenciando \"aymen hussein\"",
+      "proposedPath": "/noticias/aymen-hussein",
+      "evidence": [
+        {
+          "query": "aymen hussein",
+          "geo": "MX",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 2000,
+          "articles": [
+            {
+              "title": "Mundial 2026: Tensión migratoria para Irak en Estados Unidos",
+              "url": "https://www.espn.com.mx/futbol/mundial/nota/_/id/16807120/mundial-2026-seleccion-irak-aymen-hussein-retenido-estados-unidos",
+              "source": "ESPN México"
+            },
+            {
+              "title": "Retienen e interrogan por 7 horas a Hussein, figura de Irak, en aeropuerto de Chicago",
+              "url": "https://www.jornada.com.mx/noticia/2026/06/06/mundial/retienen-e-interrogan-por-7-horas-a-hussein-figura-de-irak-en-aeropuerto-de-chicago",
+              "source": "La Jornada"
+            },
+            {
+              "title": "Noticia destacada: un delantero iraquí, retenido durante horas por el ICE justo antes del Mundial",
+              "url": "https://www.goal.com/es-mx/noticias/noticia-destacada-un-delantero-iraqui-retenido-durante-horas-por-el-ice-justo-antes-del-mundial/blt53bb0077097aeea0",
+              "source": "Goal.com"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "nicolás capaldo",
+      "type": "noticia",
+      "slugSuggestion": "nicolas-capaldo",
+      "language": "es",
+      "geos": [
+        "AR"
+      ],
+      "score": 3120,
+      "reason": "Google Trends daily AR con 2,000 búsquedas · 3 artículos noticiosos referenciando \"nicolás capaldo\"",
+      "proposedPath": "/noticias/nicolas-capaldo",
+      "evidence": [
+        {
+          "query": "nicolás capaldo",
+          "geo": "AR",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 2000,
+          "articles": [
+            {
+              "title": "El futbolista que podría debutar en la selección argentina ante Honduras y sueña con integrar la lista definitiva para jugar el Mundial",
+              "url": "https://www.infobae.com/deportes/2026/06/06/el-futbolista-que-podria-debutar-en-la-seleccion-argentina-ante-honduras-y-suena-con-integrar-la-lista-definitiva-para-jugar-el-mundial/",
+              "source": "Infobae"
+            },
+            {
+              "title": "Capaldo, la gran sorpresa del primer once que paró Scaloni: ¿tiene chances de ir al Mundial?",
+              "url": "https://www.tycsports.com/seleccion-argentina/nicolas-capaldo-sorpresa-primer-once-scaloni-chances-mundial-id734165.html",
+              "source": "TyC Sports"
+            },
+            {
+              "title": "Mundial 2026 Ni Montiel ni Molina: Capaldo o Giay se disputan un lugar ante Honduras",
+              "url": "https://elintransigente.com/2026/06/scaloni-equipo-honduras-mundial-2026/",
+              "source": "El Intransigente"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "vinícius júnior",
+      "type": "noticia",
+      "slugSuggestion": "vinicius-junior",
+      "language": "es",
+      "geos": [
+        "MX",
+        "CO"
+      ],
+      "score": 2280,
+      "reason": "Google Trends daily MX con 1,000 búsquedas · 3 artículos noticiosos referenciando \"vinícius júnior\"",
+      "proposedPath": "/noticias/vinicius-junior",
+      "evidence": [
+        {
+          "query": "vinícius júnior",
+          "geo": "MX",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 1000,
+          "articles": [
+            {
+              "title": "Mundial 2026: Ancelotti confía que Vinícius tendrá su mejor versión",
+              "url": "https://www.espn.com.mx/futbol/mundial/nota/_/id/16807263/mundial-2026-brasil-vs-egipto-carlo-ancelotti-vinicius-junior-mejor-version",
+              "source": "ESPN México"
+            },
+            {
+              "title": "“La idea es clara”: Carlo Ancelotti define la alineación de Brasil para su debut en el Mundial 2026",
+              "url": "https://oem.com.mx/esto/mundial-2026/carlo-ancelotti-revela-que-ya-tiene-la-alineacion-de-brasil-para-su-debut-en-el-mundial-2026-30406603",
+              "source": "El Sol de México"
+            },
+            {
+              "title": "Vinícius Jr, con el reto de liderar a la Selección de Brasil en el Mundial 2026",
+              "url": "https://www.milenio.com/futbol-internacional/mundial/vinicius-junior-el-jugador-a-seguir-de-brasil-en-el-mundial-2026",
+              "source": "Milenio"
+            }
+          ]
+        },
+        {
+          "query": "vinícius júnior",
+          "geo": "CO",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 500,
+          "articles": [
+            {
+              "title": "Copa do Mundo 2026 ganha versão LEGO com experiência interativa na Flórida",
+              "url": "https://www.acheiusa.com/Noticia/copa-do-mundo-2026-ganha-versao-lego-com-experiencia-interativa-na-florida-170632/",
+              "source": "AcheiUSA"
+            },
+            {
+              "title": "Elétrico da CARRIS em Lisboa recebe decoração LEGO dedicada ao futebol",
+              "url": "https://echoboomer.pt/eletrico-carris-recebe-decoracao-lego-futebol/",
+              "source": "Echo Boomer"
+            },
+            {
+              "title": "A LEGO invadiu Lisboa com Cristiano Ronaldo, Messi, Mbappé e Vini Jr. a bordo do elétrico mais famoso do País",
+              "url": "https://sapo.pt/artigo/a-lego-invadiu-lisboa-com-cristiano-ronaldo-messi-mbappe-e-vini-jr-a-bordo-do-eletrico-mais-famoso-do-pais-6a1f4995434934ab0487e630",
+              "source": "SAPO"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "bolivia - escocia",
+      "type": "noticia",
+      "slugSuggestion": "bolivia-escocia",
+      "language": "es",
+      "geos": [
+        "UY"
+      ],
+      "score": 540,
+      "reason": "Google Trends daily UY con 500 búsquedas · 3 artículos noticiosos referenciando \"bolivia - escocia\"",
+      "proposedPath": "/noticias/bolivia-escocia",
+      "evidence": [
+        {
+          "query": "bolivia - escocia",
+          "geo": "UY",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 500,
+          "articles": [
+            {
+              "title": "Escocia cierra con dos victorias su preparación hacia el Mundial 2026 tras vencer a Bolivia",
+              "url": "https://www.tudn.com/mundial-2026/escocia-cierra-con-dos-victorias-su-preparacion-hacia-el-mundial-2026-tras-vencer-a-bolivia-video",
+              "source": "TUDN"
+            },
+            {
+              "title": "Los jóvenes Ribera, Nacif y Viviani debutan en la Selección frente a Escocia",
+              "url": "https://www.vision360.bo/noticias/2026/06/06/51692-los-jovenes-ribera-nacif-y-viviani-debutan-en-la-seleccion-frente-a-escocia",
+              "source": "Visión 360"
+            },
+            {
+              "title": "Villegas: “Vamos a llegar más fuertes a la siguiente eliminatoria”",
+              "url": "https://eju.tv/2026/06/villegas-vamos-a-llegar-mas-fuertes-a-la-siguiente-eliminatoria/",
+              "source": "eju.tv"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "massimo gramellini",
+      "type": "noticia",
+      "slugSuggestion": "massimo-gramellini",
+      "language": "it",
+      "geos": [
+        "IT"
+      ],
+      "score": 540,
+      "reason": "Google Trends daily IT con 500 búsquedas · 3 artículos noticiosos referenciando \"massimo gramellini\"",
+      "proposedPath": "/noticias/massimo-gramellini",
+      "evidence": [
+        {
+          "query": "massimo gramellini",
+          "geo": "IT",
+          "language": "it",
+          "source": "google-trends-daily",
+          "score": 500,
+          "articles": [
+            {
+              "title": "Mondiali 2026: Mamdani cita a sorpresa Balotelli, &apos;uno dei più grandi&apos;",
+              "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/06/05/mondiali-mamdani-cita-a-sorpresa-balotelli-uno-dei-piu-grandi_ed88a65e-3a45-48d3-8d5a-cd509f7bfed3.html",
+              "source": "ANSA"
+            },
+            {
+              "title": "Il sindaco di New York Zohran Mamdani ha citato Mario Balotelli",
+              "url": "https://www.ilpost.it/flashes/sindaco-new-york-zohran-mamdani-mario-balotelli/",
+              "source": "Il Post"
+            },
+            {
+              "title": "Come disse Balotelli",
+              "url": "https://www.corriere.it/caffe-gramellini/26_giugno_06/come-disse-balotelli-a1abfcc7-8ce8-4983-84aa-f470b3e68xlk.shtml",
+              "source": "Corriere della Sera"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "curazao vs aruba",
+      "type": "noticia",
+      "slugSuggestion": "curazao-vs-aruba",
+      "language": "es",
+      "geos": [
+        "MX"
+      ],
+      "score": 336,
+      "reason": "Google Trends daily MX con 200 búsquedas · 3 artículos noticiosos referenciando \"curazao vs aruba\"",
+      "proposedPath": "/noticias/curazao-vs-aruba",
+      "evidence": [
+        {
+          "query": "curazao vs aruba",
+          "geo": "MX",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Curazao arrolló a Aruba tras el descanso y parece lista para el partido decisivo del Mundial contra Alemania",
+              "url": "https://www.goal.com/es-mx/noticias/curazao-arrollo-a-aruba-tras-el-descanso-y-parece-lista-para-el-partido-decisivo-del-mundial-contra-alemania/blt77135143e53ea79b",
+              "source": "Goal.com"
+            },
+            {
+              "title": "Mundial 2026| Curazao se despide de su gente con goleada y alegría",
+              "url": "https://www.tvn-2.com/tvmax/copa-mundial-fifa-2026/mundial-2026-resultado-curazao-aruba-partido-amistoso_1_2244703.html",
+              "source": "TVN Panamá"
+            },
+            {
+              "title": "El gol de Curazao para el 1-0 vs Aruba",
+              "url": "https://www.ole.com.ar/ecuador/internacional/gol-curazao-1-0-vs-aruba_3_yivF4tRaES.html",
+              "source": "Olé"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "emiliano martínez",
+      "type": "noticia",
+      "slugSuggestion": "emiliano-martinez",
+      "language": "it",
+      "geos": [
+        "IT"
+      ],
+      "score": 216,
+      "reason": "Google Trends daily IT con 200 búsquedas · 3 artículos noticiosos referenciando \"emiliano martínez\"",
+      "proposedPath": "/noticias/emiliano-martinez",
+      "evidence": [
+        {
+          "query": "emiliano martínez",
+          "geo": "IT",
+          "language": "it",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Mundial 2026, en vivo: victoria de la seleccion argentina y la preparación para el cruce con Islandia",
+              "url": "https://es-us.noticias.yahoo.com/deportes/mundial-2026-vivo-victoria-seleccion-063501671.html",
+              "source": "Yahoo"
+            },
+            {
+              "title": "Dibu Martínez no atajó vs Honduras pero encontró algo para hacer: agarró una cámara de fotos y después elogió a Beltrán tras su debut",
+              "url": "https://www.clarin.com/deportes/dibu-martinez-atajo-vs-honduras-encontro-hacer-agarro-camara-fotos-despues-elogio-beltran-debut_0_podhbeHktX.html",
+              "source": "Clarin.com"
+            },
+            {
+              "title": "La intimidad de la concentración",
+              "url": "https://www.eldia.com/deportes/la-intimidad-de-la-concentracion-deportes_1780723721",
+              "source": "Diario El Día de La Plata"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "maroc norvege",
+      "type": "noticia",
+      "slugSuggestion": "maroc-norvege",
+      "language": "fr",
+      "geos": [
+        "MA"
+      ],
+      "score": 216,
+      "reason": "Google Trends daily MA con 200 búsquedas · 3 artículos noticiosos referenciando \"maroc norvege\"",
+      "proposedPath": "/noticias/maroc-norvege",
+      "evidence": [
+        {
+          "query": "maroc norvege",
+          "geo": "MA",
+          "language": "fr",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Coupe du Monde FIFA 2026: les Lions de l’Atlas poursuivent leur préparation",
+              "url": "https://frmf.ma/fr/articles/coupe-du-monde-fifa-2026-les-lions-de-latlas-poursuivent-leur-preparation",
+              "source": "الجامعة الملكية المغربية لكرة القدم"
+            },
+            {
+              "title": "Coupe du monde 2026. Quelles sont les chances du Maroc dans ce nouveau format ?",
+              "url": "https://medias24.com/2026/06/06/coupe-du-monde-2026-quelles-sont-les-chances-du-maroc-dans-ce-nouveau-format-1692807/",
+              "source": "Medias24"
+            },
+            {
+              "title": "Mondial 2026 : face à l’Europe et à l’Amérique du Sud, le Maroc à l’épreuve des styles",
+              "url": "https://mobile.telquel.ma/instant-t/2026/06/05/mondial-2026-face-a-leurope-et-a-lamerique-du-sud-le-maroc-a-lepreuve-des-styles_1992624/",
+              "source": "Telquel.ma"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "brazil vs egypt",
+      "type": "noticia",
+      "slugSuggestion": "brazil-vs-egypt",
+      "language": "es",
+      "geos": [
+        "EC"
+      ],
+      "score": 192,
+      "reason": "Google Trends daily EC con 200 búsquedas · 3 artículos noticiosos referenciando \"brazil vs egypt\"",
+      "proposedPath": "/noticias/brazil-vs-egypt",
+      "evidence": [
+        {
+          "query": "brazil vs egypt",
+          "geo": "EC",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Brazil 2-1 Egypt (Jun 6, 2026) Game Analysis",
+              "url": "https://www.espn.com/soccer/report/_/gameId/401861998",
+              "source": "ESPN"
+            },
+            {
+              "title": "Brazil vs. Egypt in Cleveland: Huntington Bank Field turns into a 2026 FIFA World Cup Preview",
+              "url": "https://www.wkyc.com/article/sports/soccer/world-cup/brazil-vs-egypt-fifa-world-cup-friendly-match-in-cleveland-huntington-bank-field-cleveland-ohio/95-3f71b4d1-3764-48bd-b38e-27cff32e9e0c",
+              "source": "WKYC"
+            },
+            {
+              "title": "Endrick scores in Brazil’s last friendly before World Cup",
+              "url": "https://www.managingmadrid.com/real-madrid-cf-players/108611/endrick-scores-in-brazils-last-friendly-before-world-cup",
+              "source": "Managing Madrid"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alreadyCovered": [
+    {
+      "query": "brasil vs",
+      "matchUrl": "/ediciones/1950-brasil"
+    },
+    {
+      "query": "uruguay vs",
+      "matchUrl": "/ediciones/1930-uruguay"
+    },
+    {
+      "query": "amistosos",
+      "matchUrl": "/noticias/ultimos-amistosos-mundial-2026-5-junio-que-buscan-los-tecnicos"
+    },
+    {
+      "query": "lamine yamal nasraoui ebana",
+      "matchUrl": "/noticias/lamine-yamal-primer-mundial-2026-espana-17-anos-eurocopa"
+    }
+  ]
+}
