@@ -1,0 +1,999 @@
+{
+  "generatedAt": "2026-06-08T11:26:39.119Z",
+  "date": "2026-06-08",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "sudáfrica",
+      "geo": "MX",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "DT Sudáfrica: México juega como si quisiera ganar el Mundial 2026",
+          "url": "https://www.espn.com.mx/futbol/mundial/nota/_/id/16810718/mundial-2026-mexico-partido-inaugural-tecnico-sudafrica",
+          "source": "ESPN México"
+        },
+        {
+          "title": "Entrenador de Sudáfrica manda advertencia a México: ‘Lucharemos como leones’",
+          "url": "https://www.mediotiempo.com/futbol/copa-mundial/hugo-broos-dice-que-lucharan-por-sudafricanos-ante-mexico",
+          "source": "Mediotiempo"
+        },
+        {
+          "title": "Técnico de Sudáfrica reconoce fortaleza de México rumbo a la inauguración del Mundial",
+          "url": "https://lopezdoriga.com/mundial-2026/tecnico-de-sudafrica-reconoce-fortaleza-de-mexico-rumbo-a-la-inauguracion-del-mundial/",
+          "source": "López-Dóriga Digital"
+        }
+      ]
+    },
+    {
+      "query": "world cup schedule",
+      "geo": "CA",
+      "language": "en",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "What soccer games are today? World Cup friendlies schedule for Monday, June 8",
+          "url": "https://www.usatoday.com/story/sports/soccer/worldcup/2026/06/08/soccer-games-today-world-cup-friendlies-schedule-monday-june-8/90452597007/",
+          "source": "USA Today"
+        },
+        {
+          "title": "World Cup 2026 news as England, Scotland and USA gear up for friendlies: matchday live – as it happened",
+          "url": "https://www.theguardian.com/football/live/2026/jun/06/world-cup-2026-buildup-as-england-and-scotland-gear-up-for-friendlies-matchday-live",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Friendly Roundup: Wednesday + Thursday",
+          "url": "https://ligue1.com/en/articles/l1_article_5266-friendly-roundup-wednesday-thursday",
+          "source": "ligue1.com"
+        }
+      ]
+    },
+    {
+      "query": "mundial",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "El ABC del Mundial 2026, todo lo que debe saber antes del arranque del torneo de fútbol más grande de la historia",
+          "url": "https://www.primicias.ec/deportes/mundial-2026/abc-arranque-torneo-futbol-grupos-calendario-selecciones-fifa-historia-124739/",
+          "source": "Primicias"
+        },
+        {
+          "title": "El Mundial más duro de la historia: las cinco amenazas invisibles",
+          "url": "https://www.marca.com/futbol/seleccion/2026/06/07/mundial-duro-historia-cinco-amenazas-invisibles.html",
+          "source": "MARCA"
+        },
+        {
+          "title": "De Curazao a Cabo Verde: estos son los países que debutan en el Mundial 2026 y así les fue a otras selecciones",
+          "url": "https://as.com/futbol/mundial/de-curazao-a-cabo-verde-estos-son-los-paises-que-debutan-en-el-mundial-2026-y-asi-les-fue-a-otras-selecciones-en-su-estreno-f202606-n/",
+          "source": "Diario AS"
+        }
+      ]
+    },
+    {
+      "query": "jeremy arévalo",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Jeremy Arévalo tuvo su primera titularidad con Ecuador y destacó en la antesala del Mundial",
+          "url": "https://www.espn.com.mx/futbol/mundial/nota/_/id/16810412/jeremy-arevalo-titular-en-ecuador-vs-guatemala-amistoso-internacional",
+          "source": "ESPN México"
+        },
+        {
+          "title": "La Selección de Ecuador causa furor en EE.UU. antes del Mundial",
+          "url": "https://www.elcomercio.com/deportes/futbol/seleccion-ecuador-curor-eeuu-mundial-guatemala/",
+          "source": "El Comercio"
+        },
+        {
+          "title": "Esta es la expectativa de los periodistas ecuatorianos que cubren el Mundial 2026 en Estados Unidos sobre la Tri",
+          "url": "https://www.eluniverso.com/deportes/futbol/esta-es-la-expectativa-de-los-periodistas-ecuatorianos-que-cubren-el-mundial-2026-en-estados-unidos-sobre-la-seleccion-de-ecuador-nota/",
+          "source": "El Universo"
+        }
+      ]
+    },
+    {
+      "query": "jordy caicedo",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "Jordy Caicedo va al Mundial gracias a sus goles",
+          "url": "https://www.eltelegrafo.com.ec/noticias/fanatico-mundialista/212/jordy-caicedo-va-al-mundial-gracias-a-sus-goles",
+          "source": "El Telégrafo (por eliminar)"
+        },
+        {
+          "title": "Jordy Alcívar: \"Este equipo está para grandes cosas en el Mundial 2026\"",
+          "url": "https://www.ecuavisa.com/futbol-internacional/jordy-alcivar-ecuador-reacciones-zona-mixta-amistoso-guatemala-20260607-0037.html",
+          "source": "Ecuavisa"
+        },
+        {
+          "title": "Jordy Caicedo ilusiona a Ecuador: el delantero que quiere la titularidad en el Mundial 2026",
+          "url": "https://www.msn.com/es-xl/noticias/other/jordy-caicedo-ilusiona-a-ecuador-el-delantero-que-quiere-la-titularidad-en-el-mundial-2026/ar-AA253MYE",
+          "source": "MSN"
+        }
+      ]
+    },
+    {
+      "query": "mundial",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Amistosos pre Mundial de hoy, domingo 7 de junio: horario, dónde verlo en vivo y partidos",
+          "url": "https://www.tycsports.com/amistosos-de-selecciones/amistosos-pre-mundial-de-hoy-domingo-7-de-junio-hora-donde-ver-en-vivo-y-partidos-id734704.html",
+          "source": "TyC Sports"
+        },
+        {
+          "title": "Mundial 2026, EN VIVO: los partidos amistosos, el fixture y últimas noticias de la Copa del Mundo este domingo 7 de junio",
+          "url": "https://www.clarin.com/deportes/mundial-2026-vivo-partidos-amistosos-fixture-ultimas-noticias-copa-mundo-domingo-7-junio_0_AN1DxbnpTS.html",
+          "source": "Clarin.com"
+        },
+        {
+          "title": "Partidos de hoy domingo 7 de junio: Rueda el balón con partidos de preparación",
+          "url": "https://www.tudn.com/mundial-2026/partidos-de-hoy-domingo-7-de-junio-rueda-el-balon-con-partidos-de-preparacion",
+          "source": "TUDN"
+        }
+      ]
+    },
+    {
+      "query": "selección de fútbol de uruguay",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Mundial 2026: Ronald Araujo a España a tratar una lesión, y en duda para el debut",
+          "url": "https://www.montevideo.com.uy/Deportes/Mundial-2026-Ronald-Araujo-a-Espana-a-tratar-una-lesion-y-en-duda-para-el-debut-uc964518",
+          "source": "Montevideo Portal"
+        },
+        {
+          "title": "Del recuerdo de Qatar 2022 a la ilusión de su debut en un Mundial: horas clave para Ronald Araujo",
+          "url": "https://www.elpais.com.uy/ovacion/mundial/del-recuerdo-de-qatar-2022-a-la-ilusion-de-su-debut-en-un-mundial-horas-clave-para-ronald-araujo",
+          "source": "EL PAÍS Uruguay"
+        },
+        {
+          "title": "Ronald Araujo viajó a España para tratarse \"una molestia muscular\", vuelve este martes",
+          "url": "https://www.subrayado.com.uy/ronald-araujo-viajo-espana-tratarse-una-molestia-muscular-vuelve-este-martes-n1009748",
+          "source": "subrayado.com.uy"
+        }
+      ]
+    },
+    {
+      "query": "cabo verde",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Cabo Verde, rival de Uruguay en el Mundial, volvió a golear en su último amistoso disputado en Estados Unidos",
+          "url": "https://www.elpais.com.uy/ovacion/mundial/cabo-verde-rival-de-uruguay-en-el-mundial-volvio-a-golear-en-su-ultimo-amistoso-disputado-en-estados-unidos",
+          "source": "EL PAÍS Uruguay"
+        },
+        {
+          "title": "Mundial 2026: mirá cómo le fue a los rivales de Uruguay: Cabo Verde goleó otra vez y Arabia Saudita ganó con una buena diferencia",
+          "url": "https://www.elobservador.com.uy/mundial-2026/mundial-2026-mira-como-le-fue-los-rivales-uruguay-cabo-verde-goleo-otra-vez-y-arabia-saudita-gano-una-buena-diferencia-n6046603",
+          "source": "El Observador"
+        },
+        {
+          "title": "Mundial 2026: Cabo Verde, rival de Uruguay, goleó a Bermudas en su último amistoso",
+          "url": "https://www.montevideo.com.uy/Deportes/Mundial-2026-Cabo-Verde-rival-de-Uruguay-goleo-a-Bermudas-en-su-ultimo-amistoso-uc964458",
+          "source": "Montevideo Portal"
+        }
+      ]
+    },
+    {
+      "query": "copa do mundo 2026",
+      "geo": "BR",
+      "language": "pt",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "A Copa de Trump não ama as pessoas: Fifa cumprirá nos Estados Unidos mais uma etapa de seu flerte com o autoritarismo",
+          "url": "https://oglobo.globo.com/esportes/carlos-eduardo-mansur/noticia/2026/06/08/a-copa-de-trump-nao-ama-as-pessoas-fifa-cumprira-nos-estados-unidos-mais-uma-etapa-de-seu-flerte-com-o-autoritarismo.ghtml",
+          "source": "O GLOBO"
+        },
+        {
+          "title": "Fifa e a geopolítica colonialista do futebol",
+          "url": "https://outraspalavras.net/geopoliticaeguerra/fifa-e-a-geopolitica-colonialista-do-futebol/",
+          "source": "Outras Palavras"
+        },
+        {
+          "title": "13 países da Copa do Mundo estão envolvidos em conflitos armados; saiba quais",
+          "url": "https://guiadoestudante.abril.com.br/atualidades/13-paises-que-participam-da-copa-do-mundo-estao-envolvidos-em-conflitos-armados-saiba-quais/",
+          "source": "Guia do Estudante"
+        }
+      ]
+    },
+    {
+      "query": "abertura da copa do mundo 2026",
+      "geo": "BR",
+      "language": "pt",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "Globo tenta manter relevância na Copa contra CazéTV com maior renovação da história",
+          "url": "https://f5.folha.uol.com.br/colunistas/outro-canal/2026/06/globo-tenta-manter-relevancia-na-copa-contra-cazetv-com-maior-renovacao-da-historia.shtml",
+          "source": "UOL"
+        },
+        {
+          "title": "Quais seleções podem ser a \"zebra\" da Copa do Mundo?; veja lista",
+          "url": "https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/quais-selecoes-podem-ser-a-zebra-da-copa-do-mundo-veja-lista/",
+          "source": "CNN Brasil"
+        },
+        {
+          "title": "Copa do Mundo de 2026: veja as possíveis zebras e quem pode surpreender",
+          "url": "https://odia.ig.com.br/esporte/copa-do-mundo/2026/06/7261346-copa-do-mundo-de-2026-veja-as-possiveis-zebras-e-quem-pode-surpreender.html",
+          "source": "O Dia"
+        }
+      ]
+    },
+    {
+      "query": "abertura da copa",
+      "geo": "BR",
+      "language": "pt",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "Após amistosos, veja como chegam os adversários do Brasil na Copa do Mundo",
+          "url": "https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/apos-amistosos-veja-como-chegam-os-adversarios-do-brasil-na-copa-do-mundo/",
+          "source": "CNN Brasil"
+        },
+        {
+          "title": "Brasil na Copa do Mundo 2026: veja datas e horários dos jogos da seleção",
+          "url": "https://g1.globo.com/mundo/noticia/2026/06/06/brasil-copa-do-mundo-2026-datas-horarios-jogos-selecao.ghtml",
+          "source": "G1"
+        },
+        {
+          "title": "OPINIÃO: Como raios Brasil x Marrocos pode ter virado um jogo &apos;pau a pau&apos;?",
+          "url": "https://www.espn.com.br/futebol/selecao-brasileira/artigo/_/id/16800418/opiniao-como-raios-brasil-marrocos-virado-jogo-pau-a-pau",
+          "source": "ESPN Brasil"
+        }
+      ]
+    },
+    {
+      "query": "programme coupe du monde 2026",
+      "geo": "FR",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Calendrier de la Coupe du monde 2026 : à quelle heure et sur quelle chaîne suivre tous les matchs du grand rendez-vous du football mondial",
+          "url": "https://www.franceinfo.fr/coupe-du-monde/calendrier-de-la-coupe-du-monde-2026-a-quelle-heure-et-sur-quelle-chaine-suivre-tous-les-matchs-du-grand-rendez-vous-du-football-mondial_8040074.html",
+          "source": "franceinfo"
+        },
+        {
+          "title": "Comment départager les équipes à égalité de points à l&apos;issue de la phase de groupes à la Coupe du monde 2026",
+          "url": "https://www.lequipe.fr/Football/Actualites/Comment-departager-les-equipes-a-egalite-de-points-a-l-issue-de-la-phase-de-groupes-a-la-coupe-du-monde-2026/1682971",
+          "source": "L&apos;Équipe"
+        },
+        {
+          "title": "Coupe du monde 2026 : tout savoir sur la France dans le groupe I",
+          "url": "https://www.lemonde.fr/sport/article/2026/06/08/coupe-du-monde-2026-tout-savoir-sur-la-france-dans-le-groupe-i_6699301_3242.html",
+          "source": "Le Monde.fr"
+        }
+      ]
+    },
+    {
+      "query": "abde ezzalzouli",
+      "geo": "DE",
+      "language": "de",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Malas noticias para Abde: las primeras exploraciones dejan muy en el aire su presencia en el Mundial",
+          "url": "https://www.marca.com/futbol/mundial/2026/06/08/malas-noticias-abde-primeras-exploraciones-dejan-aire-presencia-mundial.html",
+          "source": "MARCA"
+        },
+        {
+          "title": "El Mundial se rompe antes de empezar: todas las bajas y dudas de última hora",
+          "url": "https://www.sport.es/es/noticias/mundial-futbol/mundial-rompe-empezar-bajas-dudas-131137456",
+          "source": "SPORT"
+        },
+        {
+          "title": "Marruecos sufre dos lesiones en empate ante Noruega a días del Mundial 2026",
+          "url": "https://www.tudn.com/mundial-2026/equipos/seleccion-marruecos/marruecos-sufre-dos-lesiones-en-empate-ante-noruega-dias-mundial-2026",
+          "source": "TUDN"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "es": [
+      {
+        "query": "mundial",
+        "score": 890,
+        "geos": [
+          "EC",
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "mundial",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "El ABC del Mundial 2026, todo lo que debe saber antes del arranque del torneo de fútbol más grande de la historia",
+                "url": "https://www.primicias.ec/deportes/mundial-2026/abc-arranque-torneo-futbol-grupos-calendario-selecciones-fifa-historia-124739/",
+                "source": "Primicias"
+              },
+              {
+                "title": "El Mundial más duro de la historia: las cinco amenazas invisibles",
+                "url": "https://www.marca.com/futbol/seleccion/2026/06/07/mundial-duro-historia-cinco-amenazas-invisibles.html",
+                "source": "MARCA"
+              },
+              {
+                "title": "De Curazao a Cabo Verde: estos son los países que debutan en el Mundial 2026 y así les fue a otras selecciones",
+                "url": "https://as.com/futbol/mundial/de-curazao-a-cabo-verde-estos-son-los-paises-que-debutan-en-el-mundial-2026-y-asi-les-fue-a-otras-selecciones-en-su-estreno-f202606-n/",
+                "source": "Diario AS"
+              }
+            ]
+          },
+          {
+            "query": "mundial",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Amistosos pre Mundial de hoy, domingo 7 de junio: horario, dónde verlo en vivo y partidos",
+                "url": "https://www.tycsports.com/amistosos-de-selecciones/amistosos-pre-mundial-de-hoy-domingo-7-de-junio-hora-donde-ver-en-vivo-y-partidos-id734704.html",
+                "source": "TyC Sports"
+              },
+              {
+                "title": "Mundial 2026, EN VIVO: los partidos amistosos, el fixture y últimas noticias de la Copa del Mundo este domingo 7 de junio",
+                "url": "https://www.clarin.com/deportes/mundial-2026-vivo-partidos-amistosos-fixture-ultimas-noticias-copa-mundo-domingo-7-junio_0_AN1DxbnpTS.html",
+                "source": "Clarin.com"
+              },
+              {
+                "title": "Partidos de hoy domingo 7 de junio: Rueda el balón con partidos de preparación",
+                "url": "https://www.tudn.com/mundial-2026/partidos-de-hoy-domingo-7-de-junio-rueda-el-balon-con-partidos-de-preparacion",
+                "source": "TUDN"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "jordy caicedo",
+        "score": 800,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "jordy caicedo",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "Jordy Caicedo va al Mundial gracias a sus goles",
+                "url": "https://www.eltelegrafo.com.ec/noticias/fanatico-mundialista/212/jordy-caicedo-va-al-mundial-gracias-a-sus-goles",
+                "source": "El Telégrafo (por eliminar)"
+              },
+              {
+                "title": "Jordy Alcívar: \"Este equipo está para grandes cosas en el Mundial 2026\"",
+                "url": "https://www.ecuavisa.com/futbol-internacional/jordy-alcivar-ecuador-reacciones-zona-mixta-amistoso-guatemala-20260607-0037.html",
+                "source": "Ecuavisa"
+              },
+              {
+                "title": "Jordy Caicedo ilusiona a Ecuador: el delantero que quiere la titularidad en el Mundial 2026",
+                "url": "https://www.msn.com/es-xl/noticias/other/jordy-caicedo-ilusiona-a-ecuador-el-delantero-que-quiere-la-titularidad-en-el-mundial-2026/ar-AA253MYE",
+                "source": "MSN"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "cabo verde",
+        "score": 450,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "cabo verde",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Cabo Verde, rival de Uruguay en el Mundial, volvió a golear en su último amistoso disputado en Estados Unidos",
+                "url": "https://www.elpais.com.uy/ovacion/mundial/cabo-verde-rival-de-uruguay-en-el-mundial-volvio-a-golear-en-su-ultimo-amistoso-disputado-en-estados-unidos",
+                "source": "EL PAÍS Uruguay"
+              },
+              {
+                "title": "Mundial 2026: mirá cómo le fue a los rivales de Uruguay: Cabo Verde goleó otra vez y Arabia Saudita ganó con una buena diferencia",
+                "url": "https://www.elobservador.com.uy/mundial-2026/mundial-2026-mira-como-le-fue-los-rivales-uruguay-cabo-verde-goleo-otra-vez-y-arabia-saudita-gano-una-buena-diferencia-n6046603",
+                "source": "El Observador"
+              },
+              {
+                "title": "Mundial 2026: Cabo Verde, rival de Uruguay, goleó a Bermudas en su último amistoso",
+                "url": "https://www.montevideo.com.uy/Deportes/Mundial-2026-Cabo-Verde-rival-de-Uruguay-goleo-a-Bermudas-en-su-ultimo-amistoso-uc964458",
+                "source": "Montevideo Portal"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "jeremy arévalo",
+        "score": 400,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "jeremy arévalo",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Jeremy Arévalo tuvo su primera titularidad con Ecuador y destacó en la antesala del Mundial",
+                "url": "https://www.espn.com.mx/futbol/mundial/nota/_/id/16810412/jeremy-arevalo-titular-en-ecuador-vs-guatemala-amistoso-internacional",
+                "source": "ESPN México"
+              },
+              {
+                "title": "La Selección de Ecuador causa furor en EE.UU. antes del Mundial",
+                "url": "https://www.elcomercio.com/deportes/futbol/seleccion-ecuador-curor-eeuu-mundial-guatemala/",
+                "source": "El Comercio"
+              },
+              {
+                "title": "Esta es la expectativa de los periodistas ecuatorianos que cubren el Mundial 2026 en Estados Unidos sobre la Tri",
+                "url": "https://www.eluniverso.com/deportes/futbol/esta-es-la-expectativa-de-los-periodistas-ecuatorianos-que-cubren-el-mundial-2026-en-estados-unidos-sobre-la-seleccion-de-ecuador-nota/",
+                "source": "El Universo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "sudáfrica",
+        "score": 280,
+        "geos": [
+          "MX"
+        ],
+        "samples": [
+          {
+            "query": "sudáfrica",
+            "geo": "MX",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "DT Sudáfrica: México juega como si quisiera ganar el Mundial 2026",
+                "url": "https://www.espn.com.mx/futbol/mundial/nota/_/id/16810718/mundial-2026-mexico-partido-inaugural-tecnico-sudafrica",
+                "source": "ESPN México"
+              },
+              {
+                "title": "Entrenador de Sudáfrica manda advertencia a México: ‘Lucharemos como leones’",
+                "url": "https://www.mediotiempo.com/futbol/copa-mundial/hugo-broos-dice-que-lucharan-por-sudafricanos-ante-mexico",
+                "source": "Mediotiempo"
+              },
+              {
+                "title": "Técnico de Sudáfrica reconoce fortaleza de México rumbo a la inauguración del Mundial",
+                "url": "https://lopezdoriga.com/mundial-2026/tecnico-de-sudafrica-reconoce-fortaleza-de-mexico-rumbo-a-la-inauguracion-del-mundial/",
+                "source": "López-Dóriga Digital"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "selección de fútbol de uruguay",
+        "score": 180,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "selección de fútbol de uruguay",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Mundial 2026: Ronald Araujo a España a tratar una lesión, y en duda para el debut",
+                "url": "https://www.montevideo.com.uy/Deportes/Mundial-2026-Ronald-Araujo-a-Espana-a-tratar-una-lesion-y-en-duda-para-el-debut-uc964518",
+                "source": "Montevideo Portal"
+              },
+              {
+                "title": "Del recuerdo de Qatar 2022 a la ilusión de su debut en un Mundial: horas clave para Ronald Araujo",
+                "url": "https://www.elpais.com.uy/ovacion/mundial/del-recuerdo-de-qatar-2022-a-la-ilusion-de-su-debut-en-un-mundial-horas-clave-para-ronald-araujo",
+                "source": "EL PAÍS Uruguay"
+              },
+              {
+                "title": "Ronald Araujo viajó a España para tratarse \"una molestia muscular\", vuelve este martes",
+                "url": "https://www.subrayado.com.uy/ronald-araujo-viajo-espana-tratarse-una-molestia-muscular-vuelve-este-martes-n1009748",
+                "source": "subrayado.com.uy"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "en": [
+      {
+        "query": "world cup schedule",
+        "score": 600,
+        "geos": [
+          "CA"
+        ],
+        "samples": [
+          {
+            "query": "world cup schedule",
+            "geo": "CA",
+            "language": "en",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "What soccer games are today? World Cup friendlies schedule for Monday, June 8",
+                "url": "https://www.usatoday.com/story/sports/soccer/worldcup/2026/06/08/soccer-games-today-world-cup-friendlies-schedule-monday-june-8/90452597007/",
+                "source": "USA Today"
+              },
+              {
+                "title": "World Cup 2026 news as England, Scotland and USA gear up for friendlies: matchday live – as it happened",
+                "url": "https://www.theguardian.com/football/live/2026/jun/06/world-cup-2026-buildup-as-england-and-scotland-gear-up-for-friendlies-matchday-live",
+                "source": "The Guardian"
+              },
+              {
+                "title": "Friendly Roundup: Wednesday + Thursday",
+                "url": "https://ligue1.com/en/articles/l1_article_5266-friendly-roundup-wednesday-thursday",
+                "source": "ligue1.com"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "pt": [
+      {
+        "query": "copa do mundo 2026",
+        "score": 2600,
+        "geos": [
+          "BR"
+        ],
+        "samples": [
+          {
+            "query": "copa do mundo 2026",
+            "geo": "BR",
+            "language": "pt",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "A Copa de Trump não ama as pessoas: Fifa cumprirá nos Estados Unidos mais uma etapa de seu flerte com o autoritarismo",
+                "url": "https://oglobo.globo.com/esportes/carlos-eduardo-mansur/noticia/2026/06/08/a-copa-de-trump-nao-ama-as-pessoas-fifa-cumprira-nos-estados-unidos-mais-uma-etapa-de-seu-flerte-com-o-autoritarismo.ghtml",
+                "source": "O GLOBO"
+              },
+              {
+                "title": "Fifa e a geopolítica colonialista do futebol",
+                "url": "https://outraspalavras.net/geopoliticaeguerra/fifa-e-a-geopolitica-colonialista-do-futebol/",
+                "source": "Outras Palavras"
+              },
+              {
+                "title": "13 países da Copa do Mundo estão envolvidos em conflitos armados; saiba quais",
+                "url": "https://guiadoestudante.abril.com.br/atualidades/13-paises-que-participam-da-copa-do-mundo-estao-envolvidos-em-conflitos-armados-saiba-quais/",
+                "source": "Guia do Estudante"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "abertura da copa do mundo 2026",
+        "score": 2600,
+        "geos": [
+          "BR"
+        ],
+        "samples": [
+          {
+            "query": "abertura da copa do mundo 2026",
+            "geo": "BR",
+            "language": "pt",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "Globo tenta manter relevância na Copa contra CazéTV com maior renovação da história",
+                "url": "https://f5.folha.uol.com.br/colunistas/outro-canal/2026/06/globo-tenta-manter-relevancia-na-copa-contra-cazetv-com-maior-renovacao-da-historia.shtml",
+                "source": "UOL"
+              },
+              {
+                "title": "Quais seleções podem ser a \"zebra\" da Copa do Mundo?; veja lista",
+                "url": "https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/quais-selecoes-podem-ser-a-zebra-da-copa-do-mundo-veja-lista/",
+                "source": "CNN Brasil"
+              },
+              {
+                "title": "Copa do Mundo de 2026: veja as possíveis zebras e quem pode surpreender",
+                "url": "https://odia.ig.com.br/esporte/copa-do-mundo/2026/06/7261346-copa-do-mundo-de-2026-veja-as-possiveis-zebras-e-quem-pode-surpreender.html",
+                "source": "O Dia"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "abertura da copa",
+        "score": 1300,
+        "geos": [
+          "BR"
+        ],
+        "samples": [
+          {
+            "query": "abertura da copa",
+            "geo": "BR",
+            "language": "pt",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "Após amistosos, veja como chegam os adversários do Brasil na Copa do Mundo",
+                "url": "https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/apos-amistosos-veja-como-chegam-os-adversarios-do-brasil-na-copa-do-mundo/",
+                "source": "CNN Brasil"
+              },
+              {
+                "title": "Brasil na Copa do Mundo 2026: veja datas e horários dos jogos da seleção",
+                "url": "https://g1.globo.com/mundo/noticia/2026/06/06/brasil-copa-do-mundo-2026-datas-horarios-jogos-selecao.ghtml",
+                "source": "G1"
+              },
+              {
+                "title": "OPINIÃO: Como raios Brasil x Marrocos pode ter virado um jogo &apos;pau a pau&apos;?",
+                "url": "https://www.espn.com.br/futebol/selecao-brasileira/artigo/_/id/16800418/opiniao-como-raios-brasil-marrocos-virado-jogo-pau-a-pau",
+                "source": "ESPN Brasil"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "fr": [
+      {
+        "query": "programme coupe du monde 2026",
+        "score": 500,
+        "geos": [
+          "FR"
+        ],
+        "samples": [
+          {
+            "query": "programme coupe du monde 2026",
+            "geo": "FR",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Calendrier de la Coupe du monde 2026 : à quelle heure et sur quelle chaîne suivre tous les matchs du grand rendez-vous du football mondial",
+                "url": "https://www.franceinfo.fr/coupe-du-monde/calendrier-de-la-coupe-du-monde-2026-a-quelle-heure-et-sur-quelle-chaine-suivre-tous-les-matchs-du-grand-rendez-vous-du-football-mondial_8040074.html",
+                "source": "franceinfo"
+              },
+              {
+                "title": "Comment départager les équipes à égalité de points à l&apos;issue de la phase de groupes à la Coupe du monde 2026",
+                "url": "https://www.lequipe.fr/Football/Actualites/Comment-departager-les-equipes-a-egalite-de-points-a-l-issue-de-la-phase-de-groupes-a-la-coupe-du-monde-2026/1682971",
+                "source": "L&apos;Équipe"
+              },
+              {
+                "title": "Coupe du monde 2026 : tout savoir sur la France dans le groupe I",
+                "url": "https://www.lemonde.fr/sport/article/2026/06/08/coupe-du-monde-2026-tout-savoir-sur-la-france-dans-le-groupe-i_6699301_3242.html",
+                "source": "Le Monde.fr"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "de": [
+      {
+        "query": "abde ezzalzouli",
+        "score": 200,
+        "geos": [
+          "DE"
+        ],
+        "samples": [
+          {
+            "query": "abde ezzalzouli",
+            "geo": "DE",
+            "language": "de",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Malas noticias para Abde: las primeras exploraciones dejan muy en el aire su presencia en el Mundial",
+                "url": "https://www.marca.com/futbol/mundial/2026/06/08/malas-noticias-abde-primeras-exploraciones-dejan-aire-presencia-mundial.html",
+                "source": "MARCA"
+              },
+              {
+                "title": "El Mundial se rompe antes de empezar: todas las bajas y dudas de última hora",
+                "url": "https://www.sport.es/es/noticias/mundial-futbol/mundial-rompe-empezar-bajas-dudas-131137456",
+                "source": "SPORT"
+              },
+              {
+                "title": "Marruecos sufre dos lesiones en empate ante Noruega a días del Mundial 2026",
+                "url": "https://www.tudn.com/mundial-2026/equipos/seleccion-marruecos/marruecos-sufre-dos-lesiones-en-empate-ante-noruega-dias-mundial-2026",
+                "source": "TUDN"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "topic": "abertura da copa",
+      "type": "noticia",
+      "slugSuggestion": "abertura-da-copa",
+      "language": "pt",
+      "geos": [
+        "BR"
+      ],
+      "score": 1560,
+      "reason": "Google Trends daily BR con 1,000 búsquedas · 3 artículos noticiosos referenciando \"abertura da copa\"",
+      "proposedPath": "/noticias/abertura-da-copa",
+      "evidence": [
+        {
+          "query": "abertura da copa",
+          "geo": "BR",
+          "language": "pt",
+          "source": "google-trends-daily",
+          "score": 1000,
+          "articles": [
+            {
+              "title": "Após amistosos, veja como chegam os adversários do Brasil na Copa do Mundo",
+              "url": "https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/apos-amistosos-veja-como-chegam-os-adversarios-do-brasil-na-copa-do-mundo/",
+              "source": "CNN Brasil"
+            },
+            {
+              "title": "Brasil na Copa do Mundo 2026: veja datas e horários dos jogos da seleção",
+              "url": "https://g1.globo.com/mundo/noticia/2026/06/06/brasil-copa-do-mundo-2026-datas-horarios-jogos-selecao.ghtml",
+              "source": "G1"
+            },
+            {
+              "title": "OPINIÃO: Como raios Brasil x Marrocos pode ter virado um jogo &apos;pau a pau&apos;?",
+              "url": "https://www.espn.com.br/futebol/selecao-brasileira/artigo/_/id/16800418/opiniao-como-raios-brasil-marrocos-virado-jogo-pau-a-pau",
+              "source": "ESPN Brasil"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "jordy caicedo",
+      "type": "noticia",
+      "slugSuggestion": "jordy-caicedo",
+      "language": "es",
+      "geos": [
+        "EC"
+      ],
+      "score": 960,
+      "reason": "Google Trends daily EC con 1,000 búsquedas · 3 artículos noticiosos referenciando \"jordy caicedo\"",
+      "proposedPath": "/noticias/jordy-caicedo",
+      "evidence": [
+        {
+          "query": "jordy caicedo",
+          "geo": "EC",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 1000,
+          "articles": [
+            {
+              "title": "Jordy Caicedo va al Mundial gracias a sus goles",
+              "url": "https://www.eltelegrafo.com.ec/noticias/fanatico-mundialista/212/jordy-caicedo-va-al-mundial-gracias-a-sus-goles",
+              "source": "El Telégrafo (por eliminar)"
+            },
+            {
+              "title": "Jordy Alcívar: \"Este equipo está para grandes cosas en el Mundial 2026\"",
+              "url": "https://www.ecuavisa.com/futbol-internacional/jordy-alcivar-ecuador-reacciones-zona-mixta-amistoso-guatemala-20260607-0037.html",
+              "source": "Ecuavisa"
+            },
+            {
+              "title": "Jordy Caicedo ilusiona a Ecuador: el delantero que quiere la titularidad en el Mundial 2026",
+              "url": "https://www.msn.com/es-xl/noticias/other/jordy-caicedo-ilusiona-a-ecuador-el-delantero-que-quiere-la-titularidad-en-el-mundial-2026/ar-AA253MYE",
+              "source": "MSN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "world cup schedule",
+      "type": "noticia",
+      "slugSuggestion": "world-cup-schedule",
+      "language": "en",
+      "geos": [
+        "CA"
+      ],
+      "score": 720,
+      "reason": "Google Trends daily CA con 500 búsquedas · 3 artículos noticiosos referenciando \"world cup schedule\"",
+      "proposedPath": "/noticias/world-cup-schedule",
+      "evidence": [
+        {
+          "query": "world cup schedule",
+          "geo": "CA",
+          "language": "en",
+          "source": "google-trends-daily",
+          "score": 500,
+          "articles": [
+            {
+              "title": "What soccer games are today? World Cup friendlies schedule for Monday, June 8",
+              "url": "https://www.usatoday.com/story/sports/soccer/worldcup/2026/06/08/soccer-games-today-world-cup-friendlies-schedule-monday-june-8/90452597007/",
+              "source": "USA Today"
+            },
+            {
+              "title": "World Cup 2026 news as England, Scotland and USA gear up for friendlies: matchday live – as it happened",
+              "url": "https://www.theguardian.com/football/live/2026/jun/06/world-cup-2026-buildup-as-england-and-scotland-gear-up-for-friendlies-matchday-live",
+              "source": "The Guardian"
+            },
+            {
+              "title": "Friendly Roundup: Wednesday + Thursday",
+              "url": "https://ligue1.com/en/articles/l1_article_5266-friendly-roundup-wednesday-thursday",
+              "source": "ligue1.com"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "jeremy arévalo",
+      "type": "noticia",
+      "slugSuggestion": "jeremy-arevalo",
+      "language": "es",
+      "geos": [
+        "EC"
+      ],
+      "score": 480,
+      "reason": "Google Trends daily EC con 500 búsquedas · 3 artículos noticiosos referenciando \"jeremy arévalo\"",
+      "proposedPath": "/noticias/jeremy-arevalo",
+      "evidence": [
+        {
+          "query": "jeremy arévalo",
+          "geo": "EC",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 500,
+          "articles": [
+            {
+              "title": "Jeremy Arévalo tuvo su primera titularidad con Ecuador y destacó en la antesala del Mundial",
+              "url": "https://www.espn.com.mx/futbol/mundial/nota/_/id/16810412/jeremy-arevalo-titular-en-ecuador-vs-guatemala-amistoso-internacional",
+              "source": "ESPN México"
+            },
+            {
+              "title": "La Selección de Ecuador causa furor en EE.UU. antes del Mundial",
+              "url": "https://www.elcomercio.com/deportes/futbol/seleccion-ecuador-curor-eeuu-mundial-guatemala/",
+              "source": "El Comercio"
+            },
+            {
+              "title": "Esta es la expectativa de los periodistas ecuatorianos que cubren el Mundial 2026 en Estados Unidos sobre la Tri",
+              "url": "https://www.eluniverso.com/deportes/futbol/esta-es-la-expectativa-de-los-periodistas-ecuatorianos-que-cubren-el-mundial-2026-en-estados-unidos-sobre-la-seleccion-de-ecuador-nota/",
+              "source": "El Universo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "abde ezzalzouli",
+      "type": "noticia",
+      "slugSuggestion": "abde-ezzalzouli",
+      "language": "de",
+      "geos": [
+        "DE"
+      ],
+      "score": 240,
+      "reason": "Google Trends daily DE con 200 búsquedas · 3 artículos noticiosos referenciando \"abde ezzalzouli\"",
+      "proposedPath": "/noticias/abde-ezzalzouli",
+      "evidence": [
+        {
+          "query": "abde ezzalzouli",
+          "geo": "DE",
+          "language": "de",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Malas noticias para Abde: las primeras exploraciones dejan muy en el aire su presencia en el Mundial",
+              "url": "https://www.marca.com/futbol/mundial/2026/06/08/malas-noticias-abde-primeras-exploraciones-dejan-aire-presencia-mundial.html",
+              "source": "MARCA"
+            },
+            {
+              "title": "El Mundial se rompe antes de empezar: todas las bajas y dudas de última hora",
+              "url": "https://www.sport.es/es/noticias/mundial-futbol/mundial-rompe-empezar-bajas-dudas-131137456",
+              "source": "SPORT"
+            },
+            {
+              "title": "Marruecos sufre dos lesiones en empate ante Noruega a días del Mundial 2026",
+              "url": "https://www.tudn.com/mundial-2026/equipos/seleccion-marruecos/marruecos-sufre-dos-lesiones-en-empate-ante-noruega-dias-mundial-2026",
+              "source": "TUDN"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alreadyCovered": [
+    {
+      "query": "sudáfrica",
+      "matchUrl": "/ediciones/2010-sudafrica"
+    },
+    {
+      "query": "mundial",
+      "matchUrl": "/coleccionismo/panini-mundial-2026"
+    },
+    {
+      "query": "mundial",
+      "matchUrl": "/coleccionismo/panini-mundial-2026"
+    },
+    {
+      "query": "selección de fútbol de uruguay",
+      "matchUrl": "/noticias/penalti-asamoah-gyan-larguero-ghana-uruguay-2010-historia-futbol-africano"
+    },
+    {
+      "query": "cabo verde",
+      "matchUrl": "/noticias/h2h-espana-cabo-verde-mundial-2026-grupo-h"
+    },
+    {
+      "query": "copa do mundo 2026",
+      "matchUrl": "/noticias/lamine-yamal-primer-mundial-2026-espana-17-anos-eurocopa"
+    },
+    {
+      "query": "abertura da copa do mundo 2026",
+      "matchUrl": "/noticias/lamine-yamal-primer-mundial-2026-espana-17-anos-eurocopa"
+    },
+    {
+      "query": "programme coupe du monde 2026",
+      "matchUrl": "/coleccionismo/panini-mundial-2026"
+    }
+  ]
+}
