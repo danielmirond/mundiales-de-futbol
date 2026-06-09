@@ -64,6 +64,9 @@ export async function generateMetadata({
     },
     alternates: {
       languages: hreflangAlternates('/'),
+      types: {
+        'application/rss+xml': `${SEO.siteUrl}/feed.xml`,
+      },
     },
     openGraph: {
       type: 'website',

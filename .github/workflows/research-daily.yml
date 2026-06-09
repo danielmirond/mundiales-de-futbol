@@ -19,7 +19,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: 1
+          # fetch-depth: 0 → historial completo, necesario para rebasear
+          # de forma fiable sobre el main más reciente antes del push.
+          fetch-depth: 0
           persist-credentials: true
 
       - name: Setup Node
@@ -41,6 +43,8 @@ jobs:
           set -e
           git config user.name "research-bot"
           git config user.email "research-bot@users.noreply.github.com"
+
+          # Solo tocamos research/ — nunca news.ts ni otro contenido.
           git add research/
           if git diff --staged --quiet; then
             echo "Sin cambios — no commit."
@@ -48,4 +52,18 @@ jobs:
           fi
           DATE=$(date -u +%F)
           git commit -m "research: report ${DATE}"
-          git push
+
+          # Push seguro con rebase: si main avanzó mientras corría el research
+          # (un push tuyo, un merge de PR…), rebaseamos nuestro commit
+          # —que solo contiene research/— encima del main más reciente en vez
+          # de empujar sobre una base obsoleta. Reintentos por si hay carrera.
+          for i in 1 2 3 4 5; do
+            if git pull --rebase origin "${GITHUB_REF_NAME}" && git push; then
+              echo "Push OK en intento ${i}."
+              exit 0
+            fi
+            echo "Push rechazado (intento ${i}); reintentando tras refrescar main…"
+            sleep 5
+          done
+          echo "::error::No se pudo empujar el report tras 5 intentos."
+          exit 1

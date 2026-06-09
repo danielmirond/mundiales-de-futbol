@@ -1,6 +1,7 @@
 import { setRequestLocale } from 'next-intl/server';
 import { Hero } from '@/components/home/hero';
 import { Countdown } from '@/components/home/countdown';
+import { MovistarHero } from '@/components/affiliate/movistar-banner';
 import { DailyNews } from '@/components/home/daily-news';
 import { SquadAnnouncements } from '@/components/home/squad-announcements';
 import { FeaturedVideoStrip } from '@/components/home/featured-video-strip';
@@ -9,6 +10,11 @@ import { EditionsGrid } from '@/components/home/editions-grid';
 import { Pillars } from '@/components/home/pillars';
 import type { Locale } from '@/i18n/routing';
 import { pageMetadata } from '@/lib/seo';
+
+// SSR: la home incluye noticias con publicación programada y el video
+// de convocatoria — necesita evaluarse en runtime, no en build time.
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
 
 // Metadata por idioma. Child components ya usan useTranslations('home').
 const META: Record<string, { title: string; description: string; keywords: string[] }> = {
@@ -73,6 +79,11 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
     <>
       <Hero />
       <Countdown />
+      <section className="relative overflow-hidden">
+        <div className="mx-auto w-full max-w-[1400px] px-4 py-8 md:px-8 md:py-12">
+          <MovistarHero />
+        </div>
+      </section>
       <FeaturedVideoStrip />
       <DailyNews locale={locale as Locale} />
       <SquadAnnouncements locale={locale as Locale} />
