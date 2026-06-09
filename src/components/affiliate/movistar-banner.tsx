@@ -58,7 +58,9 @@ const DEFAULT_HREF =
 
 // ── localStorage dismiss ──────────────────────────────────────────────────────
 
-const DISMISS_KEY  = 'mdf_movistar_dismissed';
+// v2: la barra se reubicó al top (bajo el nav). Subimos la versión de la key
+// para que quien ya la había cerrado abajo vuelva a verla en su nueva posición.
+const DISMISS_KEY  = 'mdf_movistar_dismissed_v2';
 const DISMISS_DAYS = 3;
 
 function isDismissed() {
