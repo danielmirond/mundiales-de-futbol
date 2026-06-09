@@ -363,9 +363,8 @@ function StickyBanner({ href }: { href: string }) {
 
   return (
     <div role="complementary" aria-label="Copa Mundial FIFA 2026™ en Movistar Plus+"
-      className="fixed bottom-0 left-0 right-0 z-50 flex items-center gap-3 border-t border-white/10
-                 bg-black px-4 py-3 shadow-2xl md:px-6"
-      style={{ paddingBottom: 'max(0.75rem, env(safe-area-inset-bottom))' }}>
+      className="fixed left-0 right-0 top-16 z-30 flex items-center gap-3 border-b border-white/10
+                 bg-black px-4 py-2.5 shadow-2xl md:top-20 md:px-6">
 
       {/* Logos de canal */}
       <div className="hidden shrink-0 gap-1.5 sm:flex">
