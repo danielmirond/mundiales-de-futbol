@@ -120,6 +120,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   out.push(entry('/2026/cuando-empieza', now, 'weekly', 0.9));
   out.push(entry('/cuando-juega-espana', now, 'daily', 0.9));
   out.push(entry('/porra', now, 'daily', 0.95));
+  out.push(entry('/2026/predicciones-mundial-2026', now, 'daily', 0.9));
   out.push(entry('/2026/cuadro', now, 'weekly', 0.9));
   // Hub Dónde ver por país
   out.push(entry('/2026/donde-ver/mexico', now, 'weekly', 0.9));

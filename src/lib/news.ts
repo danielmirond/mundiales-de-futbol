@@ -109,6 +109,82 @@ export function getLocalizedNews(
 }
 
 export const NEWS_ITEMS: NewsItem[] = [
+  {
+    slug: 'espana-3-1-peru-ultimo-amistoso-mundial-2026-oyarzabal-pedri-gallese',
+    title: 'España golea 3-1 a Perú en su último ensayo antes del Mundial 2026',
+    summary: 'España cerró su preparación con un cómodo 3-1 ante Perú en el Estadio Cuauhtémoc de Puebla. Oyarzabal marcó en el minuto 1, Pedri amplió cerca del descanso y un gol en propia puerta de Pedro Gallese sentenció. Jairo Vélez maquilló para Perú. De la Fuente perfila el once del debut contra Cabo Verde.',
+    body: `## Oyarzabal y Pedri encarrilan pronto el partido en Puebla
+
+España cerró su preparación para el Mundial 2026 con una **victoria por 3-1 sobre Perú** el **8 de junio de 2026** en el **Estadio Cuauhtémoc de Puebla (México)**, ante unos 51.000 espectadores. **Mikel Oyarzabal** abrió el marcador en el **primer minuto**, **Pedri** amplió la ventaja cerca del descanso y un **gol en propia puerta del portero peruano Pedro Gallese**, tras un centro de Yeremy Pino, sentenció pasada la hora de juego. **Jairo Vélez** maquilló el resultado para Perú en el **minuto 65**.
+
+El guion fue plácido para una España que, pese a jugar a miles de kilómetros de casa y en plena aclimatación al huso horario y la altitud mexicanos, dominó el ritmo de principio a fin. El resultado de un amistoso no predice gran cosa, pero el mensaje competitivo —golear al último rival de prueba sin despeinarse— es el que De la Fuente quería llevarse al estreno.
+
+## El once que De la Fuente perfila para el debut
+
+El seleccionador alineó un bloque muy parecido al que se espera para el estreno mundialista del **15 de junio contra Cabo Verde** en Atlanta, primer partido de España en el [Grupo H](/selecciones/ESP/grupo-h). En el centro del campo repitió el sello de siempre: **Rodri**, **Fabián Ruiz** y **Pedri**, con **Pau Cubarsí** y **Aymeric Laporte** como eje de la defensa y **Marc Cucurella** y **Marcos Llorente** en los laterales. Arriba, **Ferran Torres**, **Oyarzabal** y **Álex Baena**. En la portería defendió el marco **Unai Simón** en este último ensayo.
+
+La nómina de titulares apenas dejó dudas: salvo los lesionados, el once de Puebla se parece mucho al que abrirá el Mundial. De la Fuente lleva semanas repitiendo que tiene su plantel «clarísimo», y el amistoso ante Perú no hizo más que confirmarlo.
+
+## Las bajas y la única duda que queda
+
+España viajó a México sin tres nombres por lesión: **Lamine Yamal**, **Nico Williams** y **Víctor Muñoz**, que apuran su recuperación de cara al arranque del torneo. La presencia de Yamal, referencia ofensiva del equipo, es la que más expectación genera de aquí al debut.
+
+La gran incógnita de esta España no está en el ataque —de los más temidos del torneo— sino en el equilibrio del fondo, donde las crónicas señalaron algún desajuste pese al marcador holgado. Aun así, la sensación general es de una selección hecha, campeona de Europa y una de las grandes favoritas a levantar el título.
+
+España debuta el 15 de junio. Consulta el [calendario completo](/2026/calendario) y [dónde ver todos los partidos en España](/2026/donde-ver).`,
+    category: 'amistosos',
+    sourceName: 'TUDN / Al Jazeera',
+    sourceUrl: 'https://www.tudn.com/mundial-2026/equipos/seleccion-espana/espana-vs-peru-resultado-y-goles-del-partido-amistoso-contra-peru-en-el-estadio-cuauhtemoc-de-puebla',
+    sourceLang: 'es',
+    publishedAt: '2026-06-09T07:00:00Z',
+    sourcesSecondary: [
+      { name: 'Al Jazeera', url: 'https://www.aljazeera.com/sports/2026/6/9/spain-cruise-past-peru-in-final-world-cup-2026-warm-up-match' },
+      { name: 'El Comercio', url: 'https://elcomercio.pe/deporte-total/seleccion/alineaciones-de-peru-vs-espana-hoy-por-partido-amistoso-rumbo-al-mundial-2026-noticia/' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/b/b5/Pedri_%28cropped%29.jpg',
+      alt: 'Pedri, centrocampista de la selección española, autor de uno de los goles ante Perú',
+      credit: 'Biso / Wikimedia Commons',
+      license: 'CC BY 4.0',
+    },
+  },
+  {
+    slug: 'ceremonia-inauguracion-mundial-2026-hora-espana-donde-ver-shakira-azteca',
+    title: 'Ceremonia de inauguración del Mundial 2026: a qué hora en España, dónde verla y quién actúa',
+    summary: 'El Mundial 2026 arranca el 11 de junio en el Estadio Azteca. La ceremonia de inauguración será sobre las 19:30 hora de Madrid y el partido inaugural México-Sudáfrica, a las 21:00. Shakira, Burna Boy, J Balvin, Maná y un gran cartel latino protagonizan el show. Te contamos dónde verlo en España.',
+    body: `## A qué hora es la inauguración del Mundial 2026 en España
+
+El **Mundial 2026** echa a andar el **jueves 11 de junio** en el **Estadio Azteca de Ciudad de México**, el primer estadio de la historia que alberga tres partidos inaugurales de un Mundial (1970, 1986 y 2026). La **ceremonia de inauguración** —un espectáculo musical previo al partido— está prevista para las **11:30 hora de Ciudad de México**, lo que en **España son aproximadamente las 19:30 (hora de Madrid, CEST)**.
+
+El **partido inaugural, México-Sudáfrica**, arranca unos 90 minutos después: **13:00 en Ciudad de México**, es decir, **las 21:00 en España**. Conviene revisar la parrilla oficial los días previos, porque las horas de las galas y los actos protocolarios pueden ajustarse a última hora. Consulta también [cuándo empieza el Mundial y el horario por país](/2026/cuando-empieza).
+
+## Dónde ver la inauguración y el partido en España
+
+El partido inaugural se podrá ver **gratis y en abierto en RTVE** (La 1 y RTVE Play), que emite el estreno, los partidos de España, las semifinales, el tercer puesto y la final. El resto del torneo —la inmensa mayoría de los 104 partidos— es exclusiva de **DAZN**, accesible en España a través de **Movistar Plus+** y otros operadores.
+
+Si quieres seguir el Mundial al completo, lo más cómodo es tenerlo todo en un sitio: con **Movistar Plus+ vía DAZN** tienes los 104 partidos sin saltar de mando. Aquí te explicamos [dónde ver cada partido del Mundial en España](/2026/donde-ver), cadena por cadena.
+
+## Shakira, Burna Boy y un cartelazo latino
+
+El show de apertura lo encabeza **Shakira**, que interpretará junto a **Burna Boy** la canción oficial del torneo, *«Dai Dai»*. El cartel confirmado incluye además a **Tyla** (Sudáfrica), **J Balvin** (Colombia), **Maná** (México), **Belinda**, **Danny Ocean**, **Los Ángeles Azules** y **Lila Downs**, con **Alejandro Fernández** encargado del himno nacional mexicano.
+
+No será la única gala: el Mundial 2026 tendrá **tres ceremonias de apertura**. A la del Azteca le seguirán las de **Toronto y Los Ángeles el 12 de junio**, antes de los debuts de Canadá y Estados Unidos como anfitriones. Pero la cita grande, la que abre el telón de la primera Copa del Mundo de 48 selecciones, es la de México. A las 19:30 hora española, empieza el espectáculo.`,
+    category: 'ceremonia',
+    sourceName: 'Olympics.com / El Financiero',
+    sourceUrl: 'https://www.olympics.com/en/news/fifa-world-cup-2026-opening-ceremonies-everything-you-need-to-know',
+    sourceLang: 'es',
+    publishedAt: '2026-06-10T08:00:00Z',
+    sourcesSecondary: [
+      { name: 'El Financiero', url: 'https://www.elfinanciero.com.mx/deportes/mundial-2026/2026/06/08/show-de-inauguracion-de-la-copa-del-mundo-lo-que-debes-saber-del-concierto-con-shakira-y-belinda/' },
+      { name: 'Yahoo Sports', url: 'https://sports.yahoo.com/articles/watch-2026-world-cup-opening-145727820.html' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/4/4e/Shakira_-_Live_Paris_-_2010_%2811%29.jpg',
+      alt: 'Shakira en concierto, cabeza de cartel de la ceremonia de inauguración del Mundial 2026',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY 2.0',
+    },
+  },
   // ─── H2H PREVIOS (publicación programada — día antes de cada partido) ───
   {
     slug: 'h2h-mexico-sudafrica-mundial-2026-partido-inaugural',
