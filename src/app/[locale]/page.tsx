@@ -1,6 +1,7 @@
 import { setRequestLocale } from 'next-intl/server';
 import { Hero } from '@/components/home/hero';
-import { Countdown } from '@/components/home/countdown';
+import { HomeSchedule } from '@/components/home/home-schedule';
+import { HomeGroups } from '@/components/home/home-groups';
 import { MovistarHero } from '@/components/affiliate/movistar-banner';
 import { DailyNews } from '@/components/home/daily-news';
 import { SquadAnnouncements } from '@/components/home/squad-announcements';
@@ -78,7 +79,8 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
   return (
     <>
       <Hero />
-      <Countdown />
+      <HomeSchedule locale={locale as Locale} />
+      <HomeGroups locale={locale as Locale} />
       <section className="relative overflow-hidden">
         <div className="mx-auto w-full max-w-[1400px] px-4 py-8 md:px-8 md:py-12">
           <MovistarHero />
