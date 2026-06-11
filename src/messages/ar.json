@@ -17,7 +17,9 @@
     "menu": "القائمة",
     "close": "إغلاق",
     "stories": "حكايات",
-    "gallery": "معرض الصور"
+    "gallery": "معرض الصور",
+    "calendar": "الجدول",
+    "news": "أخبار"
   },
   "home": {
     "hero": {

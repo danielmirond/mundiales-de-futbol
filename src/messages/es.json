@@ -17,7 +17,9 @@
     "menu": "Menú",
     "close": "Cerrar",
     "stories": "Historias",
-    "gallery": "Galería"
+    "gallery": "Galería",
+    "calendar": "Calendario",
+    "news": "Noticias"
   },
   "home": {
     "hero": {

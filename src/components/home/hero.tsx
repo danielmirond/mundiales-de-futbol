@@ -1,11 +1,12 @@
 'use client';
 
 import Link from 'next/link';
-import { useLocale, useTranslations } from 'next-intl';
-import { ArrowRight, Calendar } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import { Trofeos } from '@/components/brand/trofeos';
+import { useEffect, useState } from 'react';
+import { useLocale } from 'next-intl';
+import { ArrowRight, Tv, CalendarDays, Target } from 'lucide-react';
 import { HeroImagery } from '@/components/home/hero-imagery';
+import { FIXTURES_2026, TEAMS_2026 } from '@/lib/wc-2026';
+import { fixtureToUTC } from '@/lib/wc-2026-fixture-utc';
 import { routing, type Locale } from '@/i18n/routing';
 
 function withLocale(locale: Locale, href: string) {
@@ -13,9 +14,79 @@ function withLocale(locale: Locale, href: string) {
   return `/${locale}${href === '/' ? '' : href}`;
 }
 
+// Precalculado una sola vez: todos los partidos con kickoff en epoch ms, ordenados.
+const SCHEDULE = FIXTURES_2026
+  .map((f) => ({ ...f, kickoff: new Date(fixtureToUTC(f)).getTime() }))
+  .sort((a, b) => a.kickoff - b.kickoff);
+
+const MATCH_MS = 115 * 60 * 1000; // duración aprox. de un partido (incl. descanso/añadido)
+
+type Picked = { match: (typeof SCHEDULE)[number]; live: boolean } | null;
+
+function pickMatch(now: number): Picked {
+  const live = SCHEDULE.find((m) => now >= m.kickoff && now < m.kickoff + MATCH_MS);
+  if (live) return { match: live, live: true };
+  const next = SCHEDULE.find((m) => m.kickoff > now);
+  return next ? { match: next, live: false } : null;
+}
+
+function countdown(target: number, now: number) {
+  const d = Math.max(0, target - now);
+  return {
+    days: Math.floor(d / 86_400_000),
+    hours: Math.floor((d / 3_600_000) % 24),
+    minutes: Math.floor((d / 60_000) % 60),
+    seconds: Math.floor((d / 1000) % 60),
+  };
+}
+
+const dateFmt = new Intl.DateTimeFormat('es-ES', {
+  timeZone: 'Europe/Madrid',
+  weekday: 'long',
+  day: 'numeric',
+  month: 'long',
+});
+const timeFmt = new Intl.DateTimeFormat('es-ES', {
+  timeZone: 'Europe/Madrid',
+  hour: '2-digit',
+  minute: '2-digit',
+});
+
+function Side({ code }: { code?: string }) {
+  const team = code ? TEAMS_2026[code] : undefined;
+  return (
+    <div className="flex flex-1 flex-col items-center gap-2 text-center">
+      <span className="text-5xl leading-none md:text-6xl" aria-hidden>
+        {team?.flag ?? '🏳️'}
+      </span>
+      <span className="font-display text-lg uppercase leading-tight text-[var(--color-fg)] md:text-2xl">
+        {team?.name ?? code ?? '—'}
+      </span>
+    </div>
+  );
+}
+
 export function Hero() {
-  const t = useTranslations('home.hero');
   const locale = useLocale() as Locale;
+  const [now, setNow] = useState<number | null>(null);
+
+  useEffect(() => {
+    setNow(Date.now());
+    const id = setInterval(() => setNow(Date.now()), 1000);
+    return () => clearInterval(id);
+  }, []);
+
+  const picked = pickMatch(now ?? SCHEDULE[0].kickoff);
+  const c = picked ? countdown(picked.match.kickoff, now ?? 0) : null;
+
+  const cells = c
+    ? [
+        { value: c.days, label: 'días' },
+        { value: c.hours, label: 'horas' },
+        { value: c.minutes, label: 'min' },
+        { value: c.seconds, label: 'seg' },
+      ]
+    : [];
 
   return (
     <section className="relative flex min-h-[100svh] flex-col justify-end overflow-hidden pb-16 pt-32 md:pb-24 md:pt-40">
@@ -46,49 +117,94 @@ export function Hero() {
         <div className="absolute inset-0 bg-gradient-to-b from-[var(--color-bg)]/30 via-[var(--color-bg)]/50 to-[var(--color-bg)]" />
       </div>
 
-      {/* Floating trofeos mark, top right of hero, subtle */}
-      <div className="pointer-events-none absolute right-6 top-24 z-0 hidden opacity-60 md:block md:right-10 md:top-32 lg:opacity-80">
-        <Trofeos size={280} showLabel={false} />
-      </div>
-
       <div className="relative z-10 mx-auto w-full max-w-[1400px] px-6 md:px-10">
-        <div
-          className="flex items-center gap-3 font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-pitch)]"
-        >
-          <span className="h-px w-10 bg-[var(--color-pitch)]" />
-          {t('kicker')}
+        <div className="flex items-center gap-3 font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-pitch)]">
+          <span className="relative flex h-2 w-2">
+            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[var(--color-pitch)] opacity-75" />
+            <span className="relative inline-flex h-2 w-2 rounded-full bg-[var(--color-pitch)]" />
+          </span>
+          {picked?.live ? 'En juego ahora' : 'El Mundial ya está aquí'}
         </div>
 
-        <h1
-          className="mt-6 font-display text-fluid-display uppercase"
-        >
-          <span className="block text-[var(--color-fg)]">{t('titleLine1')}</span>
+        <h1 className="mt-6 font-display text-fluid-display uppercase leading-[0.9]">
+          <span className="block text-[var(--color-fg)]">Mundial 2026</span>
           <span className="block bg-gradient-to-r from-[var(--color-pitch)] via-[var(--color-sun)] to-[var(--color-flame)] bg-clip-text text-transparent">
-            {t('titleLine2')}
+            en directo
           </span>
         </h1>
 
-        <p
-          className="mt-8 max-w-2xl text-lg leading-relaxed text-[var(--color-fg-muted)] md:text-xl"
-        >
-          {t('subtitle')}
-        </p>
+        {/* Tarjeta del partido en vivo / próximo */}
+        {picked && (
+          <div className="mt-10 w-full max-w-2xl rounded-3xl border border-[var(--color-border)] bg-[var(--color-surface)]/70 p-6 backdrop-blur md:p-8">
+            <div className="flex items-center justify-between font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-fg-subtle)]">
+              <span>{picked.live ? 'En vivo' : 'Próximo partido'}</span>
+              <span className="text-[var(--color-pitch)]">
+                {picked.match.stage.length === 1 ? `Grupo ${picked.match.stage}` : picked.match.stage}
+              </span>
+            </div>
 
-        <div
-          className="mt-10 flex flex-wrap items-center gap-3"
-        >
-          <Button asChild size="lg" variant="primary">
-            <Link href={withLocale(locale, '/ediciones')}>
-              {t('ctaPrimary')}
-              <ArrowRight className="h-4 w-4 rtl:rotate-180" />
-            </Link>
-          </Button>
-          <Button asChild size="lg" variant="secondary">
-            <Link href={withLocale(locale, '/2026')}>
-              <Calendar className="h-4 w-4" />
-              {t('ctaSecondary')}
-            </Link>
-          </Button>
+            <div className="mt-5 flex items-center gap-3">
+              <Side code={picked.match.home} />
+              <span className="font-display text-2xl text-[var(--color-fg-subtle)] md:text-3xl">
+                {picked.live ? '·' : 'vs'}
+              </span>
+              <Side code={picked.match.away} />
+            </div>
+
+            <div className="mt-5 text-center font-mono text-xs uppercase tracking-[0.2em] text-[var(--color-fg-muted)]">
+              {dateFmt.format(picked.match.kickoff)} · {timeFmt.format(picked.match.kickoff)} h (hora de Madrid)
+            </div>
+
+            {/* Cuenta atrás */}
+            {!picked.live && (
+              <div className="mt-6 grid grid-cols-4 divide-x divide-[var(--color-border)] overflow-hidden rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg-2)]/60 rtl:divide-x-reverse">
+                {cells.map((cell) => (
+                  <div key={cell.label} className="flex flex-col items-center justify-center px-1 py-4">
+                    <span
+                      className="font-display tab-num text-3xl leading-none text-[var(--color-fg)] md:text-4xl"
+                      suppressHydrationWarning
+                    >
+                      {now === null ? '--' : String(cell.value).padStart(2, '0')}
+                    </span>
+                    <span className="mt-1.5 font-mono text-[9px] uppercase tracking-[0.25em] text-[var(--color-fg-subtle)]">
+                      {cell.label}
+                    </span>
+                  </div>
+                ))}
+              </div>
+            )}
+            {picked.live && (
+              <div className="mt-6 rounded-2xl border border-[var(--color-pitch)]/30 bg-[var(--color-pitch)]/10 py-4 text-center font-display text-2xl uppercase text-[var(--color-pitch)]">
+                Partido en juego
+              </div>
+            )}
+          </div>
+        )}
+
+        {/* CTAs */}
+        <div className="mt-10 flex flex-wrap items-center gap-3">
+          <Link
+            href={withLocale(locale, '/2026/calendario')}
+            className="group inline-flex items-center gap-2 rounded-full bg-[var(--color-pitch)] px-6 py-3 text-sm font-bold text-black transition-opacity hover:opacity-90"
+          >
+            <CalendarDays className="h-4 w-4" />
+            Calendario
+            <ArrowRight className="h-3 w-3 transition-transform group-hover:translate-x-1 rtl:rotate-180" />
+          </Link>
+          <Link
+            href={withLocale(locale, '/2026/donde-ver')}
+            className="group inline-flex items-center gap-2 rounded-full border border-[var(--color-border-strong)] px-6 py-3 text-sm font-semibold text-[var(--color-fg)] transition-colors hover:border-[var(--color-pitch)] hover:text-[var(--color-pitch)]"
+          >
+            <Tv className="h-4 w-4" />
+            Dónde ver
+          </Link>
+          <Link
+            href={withLocale(locale, '/2026/predicciones-mundial-2026')}
+            className="group inline-flex items-center gap-2 rounded-full border border-[var(--color-border-strong)] px-6 py-3 text-sm font-semibold text-[var(--color-fg)] transition-colors hover:border-[var(--color-pitch)] hover:text-[var(--color-pitch)]"
+          >
+            <Target className="h-4 w-4" />
+            Haz tu porra
+          </Link>
         </div>
       </div>
     </section>

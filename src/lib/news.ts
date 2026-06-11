@@ -4892,7 +4892,7 @@ De la Fuente parte de la **prelista de 55 jugadores entregada a FIFA el 11 de ma
 - **¿Entra Ansu Fati?** El delantero del Mónaco ha sumado 12 goles en Ligue 1 y aparece en la prelista. Tres años después de su última convocatoria, regresar a la absoluta sería su primer Mundial.
 - **¿Vuelve Pedri tras la lesión?** El barcelonista ha completado solo cinco partidos en 2026 tras su lesión muscular de enero. De la Fuente lo defendió en la prelista pero el riesgo médico está en debate.
 - El nueve referencia: Morata (capitán, Galatasaray) tiene plaza asegurada. La duda es si entra Joselu como relevo o Borja Mayoral, en gran momento con el Getafe.
-- El portero titular: David Raya (Arsenal) o Unai Simón (Athletic Club). La temporada del primero ha sido superior.
+- El portero titular: Unai Simón (Athletic Club), por delante de David Raya (Arsenal) pese a la gran temporada del meta gunner.
 
 España debuta el **15 de junio en el Mercedes-Benz Stadium de Atlanta** contra **Cabo Verde**, dentro del Grupo H que completan Arabia Saudí y Uruguay. El calendario completo y la previa están en [/selecciones/ESP/grupo-h](/selecciones/ESP/grupo-h) y la **lista oficial se publicará en directo** en [/2026/listas/ESP](/2026/listas/ESP) en cuanto De la Fuente la confirme.`,
  category: 'tv',
@@ -12005,19 +12005,19 @@ El entrenador **Javier Aguirre** tiene al equipo en el mejor estado posible ante
   },
   {
     slug: 'espana-1-1-irak-amistoso-de-la-fuente-once-mundial',
-    title: 'España empata 1-1 con Irak en Riazor y De la Fuente confirma a David Raya como portero del Mundial',
-    summary: 'España igualó 1-1 con Irak en el Estadio Riazor de A Coruña ante 30.423 espectadores. Ferran Torres adelantó en el 16\', Doski empató en el 27\'. De la Fuente tiene decidido su once y confirma a David Raya —tres Golden Glove en la Premier League— como portero titular, por delante de Unai Simón.',
+    title: 'España empata 1-1 con Irak en Riazor y De la Fuente apuesta por Unai Simón en la portería del Mundial',
+    summary: 'España igualó 1-1 con Irak en el Estadio Riazor de A Coruña ante 30.423 espectadores. Ferran Torres adelantó en el 16\', Doski empató en el 27\'. De la Fuente tiene decidido su once y mantiene a Unai Simón como portero titular para el Mundial, por delante de David Raya.',
     body: `## El ensayo de Riazor y las decisiones que ya están tomadas
 
 España empató **1-1 con Irak** el **4 de junio de 2026** en el **Estadio Riazor de A Coruña**, ante una entrada de **30.423 espectadores**. **Ferran Torres** adelantó a la selección en el minuto **16**, pero el delantero kurdo **Merchas Doski** empató en el **27** y el marcador ya no se movió.
 
 El resultado en sí importa relativamente poco. Los empates en amistosos de preparación no predicen nada, y ningún entrenador de primer nivel se juega su planteamiento titular en un partido sin consecuencias. Lo que sí importa es lo que De la Fuente ha ido resolviendo en las semanas previas al torneo.
 
-## Raya titular, Yamal indiscutible
+## Unai Simón titular, Yamal indiscutible
 
-La principal decisión que Luis de la Fuente ha cerrado de cara al Mundial es la portería. **David Raya**, guardameta del Arsenal que acaba de proclamarse campeón de la **Premier League 2025-26** y que acumula **tres Golden Glove consecutivos** en la liga inglesa, será el portero número 1. **Unai Simón**, titular en la Eurocopa de 2024, viaja al torneo como suplente.
+La principal decisión que Luis de la Fuente ha cerrado de cara al Mundial es la portería. **Unai Simón**, guardameta del Athletic Club y portero de España en la Eurocopa de 2024, será el número 1. **David Raya**, que llega tras una gran temporada en el Arsenal —campeón de la **Premier League 2025-26**—, viaja al torneo como suplente de garantías.
 
-El ascenso de Raya a la titularidad está avalado por el rendimiento. El arquero vasco-catalán, nacido en Barcelona y formado en el Blackburn Rovers, ha vivido en los últimos dos años la mejor racha de su carrera. Arsenal ha construido sobre su seguridad bajo los palos gran parte de su solidez defensiva, y De la Fuente ha optado por trasladar esa confianza a la selección.
+La apuesta por Simón premia su continuidad y su peso en el grupo. El meta del Athletic acumula ya varios torneos como titular de la selección, y De la Fuente ha optado por mantener esa referencia bajo palos pese al gran curso de Raya en la Premier. La portería, una de las pocas dudas que se atribuían al seleccionador, queda así resuelta.
 
 En el otro extremo del campo, **Lamine Yamal** llega al torneo con 18 años como la referencia ofensiva de España. El extremo del Barcelona es el jugador que genera más peligro en el equipo y el que más presencia tiene en el grupo según el propio seleccionador, que lo ha definido como «**muy querido en el grupo que da alegría a todos**».
 

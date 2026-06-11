@@ -419,7 +419,7 @@ export function getTournament(slugOrYear: string | number): Tournament | undefin
   return TOURNAMENTS.find((t) => t.slug === slugOrYear || t.year.toString() === slugOrYear);
 }
 
-export const WORLD_CUP_2026_KICKOFF = new Date('2026-06-11T20:00:00-06:00');
+export const WORLD_CUP_2026_KICKOFF = new Date('2026-06-11T13:00:00-06:00');
 
 export const AGGREGATES = {
   editions: TOURNAMENTS.filter((t) => t.year < 2026).length,

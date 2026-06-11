@@ -50,7 +50,7 @@ const COPY: Record<string, Copy> = {
     metaTitle:
       '¿Cuándo empieza el Mundial 2026? Fechas, horario por país y partido inaugural · 11 jun – 19 jul',
     metaDescription:
-      'El Mundial 2026 empieza el jueves 11 de junio de 2026. Partido inaugural: México-Sudáfrica en el Estadio Azteca a las 12:00 hora de Ciudad de México (20:00 hora de Madrid). La final se juega el 19 de julio en MetLife Stadium. Calendario, horario por zona y debut de España, Argentina y todas las selecciones.',
+      'El Mundial 2026 empieza el jueves 11 de junio de 2026. Partido inaugural: México-Sudáfrica en el Estadio Azteca a las 13:00 hora de Ciudad de México (21:00 hora de Madrid). La final se juega el 19 de julio en MetLife Stadium. Calendario, horario por zona y debut de España, Argentina y todas las selecciones.',
     keywords: [
       'cuando empieza el Mundial 2026',
       'qué día empieza el Mundial de fútbol',
@@ -65,12 +65,12 @@ const COPY: Record<string, Copy> = {
     h1: '¿Cuándo empieza el Mundial 2026?',
     intro: (
       <>
-        El Mundial empieza el <strong className="text-[var(--color-fg)]">jueves 11 de junio de 2026</strong> con el partido inaugural <strong>México-Sudáfrica</strong> en el Estadio Azteca de Ciudad de México a las <strong>12:00 hora local</strong> (20:00 hora de Madrid). El torneo termina el <strong>domingo 19 de julio</strong> con la final en el MetLife Stadium de Nueva Jersey.
+        El Mundial empieza el <strong className="text-[var(--color-fg)]">jueves 11 de junio de 2026</strong> con el partido inaugural <strong>México-Sudáfrica</strong> en el Estadio Azteca de Ciudad de México a las <strong>13:00 hora local</strong> (21:00 hora de Madrid). El torneo termina el <strong>domingo 19 de julio</strong> con la final en el MetLife Stadium de Nueva Jersey.
       </>
     ),
     kickerKickoff: 'Partido inaugural · 11 jun 2026',
     h2Kickoff: 'México-Sudáfrica · Estadio Azteca · hora por ciudad',
-    utcNote: 'El kickoff es a las 12:00 hora de Ciudad de México (UTC -6).',
+    utcNote: 'El kickoff es a las 13:00 hora de Ciudad de México (UTC -6).',
     kickerKey: 'Fechas clave',
     h2Key: 'Calendario completo del Mundial 2026',
     kickerSpain: 'España en el Mundial 2026',
@@ -103,18 +103,18 @@ const COPY: Record<string, Copy> = {
     ],
     footnote: 'Fuente: FIFA · zona horaria del kickoff confirmada por la FMF y la FIFA.',
     cities: [
-      { key: 'mad', label: 'Madrid', date: '11 jun 2026 · 20:00' },
-      { key: 'cdmx', label: 'Ciudad de México', date: '11 jun 2026 · 12:00' },
-      { key: 'bue', label: 'Buenos Aires', date: '11 jun 2026 · 15:00' },
-      { key: 'bog', label: 'Bogotá', date: '11 jun 2026 · 13:00' },
-      { key: 'nyc', label: 'Nueva York', date: '11 jun 2026 · 14:00' },
-      { key: 'lax', label: 'Los Ángeles', date: '11 jun 2026 · 11:00' },
-      { key: 'tyo', label: 'Tokio', date: '12 jun 2026 · 03:00' },
-      { key: 'syd', label: 'Sídney', date: '12 jun 2026 · 04:00' },
+      { key: 'mad', label: 'Madrid', date: '11 jun 2026 · 21:00' },
+      { key: 'cdmx', label: 'Ciudad de México', date: '11 jun 2026 · 13:00' },
+      { key: 'bue', label: 'Buenos Aires', date: '11 jun 2026 · 16:00' },
+      { key: 'bog', label: 'Bogotá', date: '11 jun 2026 · 14:00' },
+      { key: 'nyc', label: 'Nueva York', date: '11 jun 2026 · 15:00' },
+      { key: 'lax', label: 'Los Ángeles', date: '11 jun 2026 · 12:00' },
+      { key: 'tyo', label: 'Tokio', date: '12 jun 2026 · 04:00' },
+      { key: 'syd', label: 'Sídney', date: '12 jun 2026 · 05:00' },
     ],
     keyDates: [
       { label: 'Sorteo del Mundial', date: '5 dic 2025', detail: 'Kennedy Center, Washington D.C. — 48 selecciones reparten en 12 grupos.' },
-      { label: 'Partido inaugural', date: '11 jun 2026', detail: 'México vs Sudáfrica · Estadio Azteca (Ciudad de México) · 12:00 hora local.' },
+      { label: 'Partido inaugural', date: '11 jun 2026', detail: 'México vs Sudáfrica · Estadio Azteca (Ciudad de México) · 13:00 hora local.' },
       { label: 'Fin de fase de grupos', date: '27 jun 2026', detail: 'Última jornada del Grupo L (Inglaterra · Croacia · Ghana · Panamá).' },
       { label: 'Inicio de dieciseisavos', date: '29 jun 2026', detail: 'Primera ronda eliminatoria de la historia del Mundial (formato 48 equipos).' },
       { label: 'Octavos', date: '4-7 jul 2026', detail: 'Ocho partidos clasificatorios para cuartos.' },
@@ -124,7 +124,7 @@ const COPY: Record<string, Copy> = {
       { label: 'FINAL', date: '19 jul 2026', detail: 'MetLife Stadium (East Rutherford, Nueva Jersey) · 15:00 hora del Este USA · 21:00 hora de Madrid.' },
     ],
     faq: [
-      { q: '¿Cuándo empieza el Mundial 2026?', a: 'El Mundial 2026 empieza el jueves 11 de junio de 2026 con el partido inaugural México-Sudáfrica en el Estadio Azteca de Ciudad de México a las 12:00 hora local (20:00 hora de Madrid).' },
+      { q: '¿Cuándo empieza el Mundial 2026?', a: 'El Mundial 2026 empieza el jueves 11 de junio de 2026 con el partido inaugural México-Sudáfrica en el Estadio Azteca de Ciudad de México a las 13:00 hora local (21:00 hora de Madrid).' },
       { q: '¿Cuándo es la final del Mundial 2026?', a: 'La final del Mundial 2026 se juega el domingo 19 de julio de 2026 en el MetLife Stadium de East Rutherford, Nueva Jersey. La hora de inicio es las 15:00 hora del Este de Estados Unidos (21:00 hora de Madrid).' },
       { q: '¿Cuándo juega España su primer partido en el Mundial 2026?', a: 'España debuta en el Mundial 2026 el lunes 15 de junio de 2026 en el Mercedes-Benz Stadium de Atlanta contra Cabo Verde, dentro del Grupo H. España juega también contra Arabia Saudí (Filadelfia, 20 de junio) y Uruguay (Guadalajara, 25 de junio) en la fase de grupos.' },
       { q: '¿Cuántos partidos tiene el Mundial 2026?', a: 'El Mundial 2026 tiene 104 partidos, frente a los 64 de Catar 2022. Es el primer Mundial con 48 selecciones, divididas en 12 grupos de 4. Pasan a dieciseisavos los dos primeros de cada grupo más los 8 mejores terceros.' },
@@ -138,7 +138,7 @@ const COPY: Record<string, Copy> = {
     metaTitle:
       'When does the 2026 World Cup start? Dates, kick-off times by country and opening match · Jun 11 – Jul 19',
     metaDescription:
-      'The 2026 World Cup starts on Thursday, June 11, 2026. Opening match: Mexico vs South Africa at Estadio Azteca at 12:00 PM Mexico City time (8:00 PM Madrid). The final is on July 19 at MetLife Stadium. Schedule, kick-off times by city and the debuts of Spain, Argentina, England and every nation.',
+      'The 2026 World Cup starts on Thursday, June 11, 2026. Opening match: Mexico vs South Africa at Estadio Azteca at 1:00 PM Mexico City time (9:00 PM Madrid). The final is on July 19 at MetLife Stadium. Schedule, kick-off times by city and the debuts of Spain, Argentina, England and every nation.',
     keywords: [
       'when does the World Cup 2026 start',
       '2026 World Cup start date',
@@ -153,12 +153,12 @@ const COPY: Record<string, Copy> = {
     h1: 'When does the 2026 World Cup start?',
     intro: (
       <>
-        The World Cup kicks off on <strong className="text-[var(--color-fg)]">Thursday, June 11, 2026</strong> with the opening match <strong>Mexico vs South Africa</strong> at Estadio Azteca in Mexico City at <strong>12:00 PM local time</strong> (8:00 PM Madrid). The tournament ends on <strong>Sunday, July 19</strong> with the final at MetLife Stadium in New Jersey.
+        The World Cup kicks off on <strong className="text-[var(--color-fg)]">Thursday, June 11, 2026</strong> with the opening match <strong>Mexico vs South Africa</strong> at Estadio Azteca in Mexico City at <strong>1:00 PM local time</strong> (9:00 PM Madrid). The tournament ends on <strong>Sunday, July 19</strong> with the final at MetLife Stadium in New Jersey.
       </>
     ),
     kickerKickoff: 'Opening match · Jun 11, 2026',
     h2Kickoff: 'Mexico vs South Africa · Estadio Azteca · kick-off times by city',
-    utcNote: 'Kick-off is at 12:00 PM Mexico City time (UTC -6).',
+    utcNote: 'Kick-off is at 1:00 PM Mexico City time (UTC -6).',
     kickerKey: 'Key dates',
     h2Key: 'Full 2026 World Cup schedule',
     kickerSpain: 'Spain at the 2026 World Cup',
@@ -191,18 +191,18 @@ const COPY: Record<string, Copy> = {
     ],
     footnote: 'Source: FIFA · kick-off time zone confirmed by FMF and FIFA.',
     cities: [
-      { key: 'mad', label: 'Madrid', date: 'Jun 11, 2026 · 8:00 PM' },
-      { key: 'cdmx', label: 'Mexico City', date: 'Jun 11, 2026 · 12:00 PM' },
-      { key: 'bue', label: 'Buenos Aires', date: 'Jun 11, 2026 · 3:00 PM' },
-      { key: 'bog', label: 'Bogotá', date: 'Jun 11, 2026 · 1:00 PM' },
-      { key: 'nyc', label: 'New York', date: 'Jun 11, 2026 · 2:00 PM' },
-      { key: 'lax', label: 'Los Angeles', date: 'Jun 11, 2026 · 11:00 AM' },
-      { key: 'tyo', label: 'Tokyo', date: 'Jun 12, 2026 · 3:00 AM' },
-      { key: 'syd', label: 'Sydney', date: 'Jun 12, 2026 · 4:00 AM' },
+      { key: 'mad', label: 'Madrid', date: 'Jun 11, 2026 · 9:00 PM' },
+      { key: 'cdmx', label: 'Mexico City', date: 'Jun 11, 2026 · 1:00 PM' },
+      { key: 'bue', label: 'Buenos Aires', date: 'Jun 11, 2026 · 4:00 PM' },
+      { key: 'bog', label: 'Bogotá', date: 'Jun 11, 2026 · 2:00 PM' },
+      { key: 'nyc', label: 'New York', date: 'Jun 11, 2026 · 3:00 PM' },
+      { key: 'lax', label: 'Los Angeles', date: 'Jun 11, 2026 · 12:00 PM' },
+      { key: 'tyo', label: 'Tokyo', date: 'Jun 12, 2026 · 4:00 AM' },
+      { key: 'syd', label: 'Sydney', date: 'Jun 12, 2026 · 5:00 AM' },
     ],
     keyDates: [
       { label: 'Final draw', date: 'Dec 5, 2025', detail: 'Kennedy Center, Washington D.C. — 48 teams drawn into 12 groups.' },
-      { label: 'Opening match', date: 'Jun 11, 2026', detail: 'Mexico vs South Africa · Estadio Azteca (Mexico City) · 12:00 PM local.' },
+      { label: 'Opening match', date: 'Jun 11, 2026', detail: 'Mexico vs South Africa · Estadio Azteca (Mexico City) · 1:00 PM local.' },
       { label: 'End of group stage', date: 'Jun 27, 2026', detail: 'Last matchday of Group L (England · Croatia · Ghana · Panama).' },
       { label: 'Round of 32 begins', date: 'Jun 29, 2026', detail: 'First-ever knockout round of 32 in World Cup history (48-team format).' },
       { label: 'Round of 16', date: 'Jul 4-7, 2026', detail: 'Eight matches to determine the quarter-finalists.' },
@@ -212,7 +212,7 @@ const COPY: Record<string, Copy> = {
       { label: 'FINAL', date: 'Jul 19, 2026', detail: 'MetLife Stadium (East Rutherford, New Jersey) · 3:00 PM ET · 9:00 PM Madrid.' },
     ],
     faq: [
-      { q: 'When does the 2026 World Cup start?', a: 'The 2026 World Cup starts on Thursday, June 11, 2026 with the opening match Mexico vs South Africa at Estadio Azteca in Mexico City at 12:00 PM local time (8:00 PM Madrid).' },
+      { q: 'When does the 2026 World Cup start?', a: 'The 2026 World Cup starts on Thursday, June 11, 2026 with the opening match Mexico vs South Africa at Estadio Azteca in Mexico City at 1:00 PM local time (9:00 PM Madrid).' },
       { q: 'When is the 2026 World Cup final?', a: 'The 2026 World Cup final is on Sunday, July 19, 2026 at MetLife Stadium in East Rutherford, New Jersey. Kick-off is 3:00 PM Eastern Time (9:00 PM Madrid).' },
       { q: 'When does Spain play its first match at the 2026 World Cup?', a: 'Spain debut on Monday, June 15, 2026 at Mercedes-Benz Stadium in Atlanta against Cape Verde in Group H. Spain also face Saudi Arabia (Philadelphia, June 20) and Uruguay (Guadalajara, June 25) in the group stage.' },
       { q: 'How many matches does the 2026 World Cup have?', a: 'The 2026 World Cup has 104 matches, up from 64 in Qatar 2022. It is the first World Cup with 48 teams, drawn into 12 groups of 4. The top two of every group plus the eight best third-placed sides advance to the Round of 32.' },

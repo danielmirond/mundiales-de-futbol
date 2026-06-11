@@ -27,14 +27,19 @@ export function SiteNav() {
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
 
+  // 2026 primero: el Mundial en curso lidera la navegación.
+  const calendarLink = { href: '/2026/calendario', label: t('calendar') };
   const links = [
-    { href: '/ediciones', label: t('editions') },
+    { href: '/noticias', label: t('news') },
     { href: '/selecciones', label: t('selections') },
     { href: '/jugadores', label: t('players') },
     { href: '/estadios', label: t('stadiums') },
+    { href: '/ediciones', label: t('editions') },
     { href: '/historias', label: t('stories') },
     { href: '/galeria', label: t('gallery') },
   ];
+  // Desktop muestra un subconjunto para no desbordar; el resto vive en el drawer móvil y el footer.
+  const desktopLinks = [calendarLink, ...links.slice(0, 5)];
 
   return (
     <header
@@ -60,7 +65,7 @@ export function SiteNav() {
         </Link>
 
         <nav className="hidden items-center gap-1 lg:flex">
-          {links.map((l) => (
+          {desktopLinks.map((l) => (
             <Link
               key={l.href}
               href={withLocale(locale, l.href)}
@@ -119,6 +124,7 @@ export function SiteNav() {
         </div>
         <nav className="flex flex-col gap-1 px-6 pb-10 pt-8 md:px-10">
           {[
+            calendarLink,
             ...links,
             { href: '/2026/donde-ver', label: t('whereToWatch') },
             { href: '/2026', label: t('live2026') },
