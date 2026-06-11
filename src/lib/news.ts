@@ -188,23 +188,25 @@ No será la única gala: el Mundial 2026 tendrá **tres ceremonias de apertura**
   // ─── H2H PREVIOS (publicación programada — día antes de cada partido) ───
   {
     slug: 'h2h-mexico-sudafrica-mundial-2026-partido-inaugural',
-    title: 'México vs Sudáfrica en el Mundial 2026: el círculo se cierra 16 años después',
-    summary: 'El mismo duelo, el mismo papel, el mismo estadio. México y Sudáfrica repiten el partido que abrió el Mundial 2010 con el gol más icónico de la historia de los Mundiales. Esta vez, el Azteca ruge de local.',
-    body: `Los equipos se enfrentan el día siguiente de la publicación de este artículo. Consulta el historial completo y los datos clave de este partido en los próximos días en mundiales-de-futbol.com.
+    title: 'México vs Sudáfrica: a qué hora y dónde ver el partido inaugural del Mundial 2026',
+    summary: 'El Mundial 2026 arranca con México-Sudáfrica en el Estadio Azteca el jueves 11 de junio, a las 21:00 hora de Madrid (13:00 en Ciudad de México). En abierto por RTVE y también en Movistar Plus+ vía DAZN. Y no es un duelo cualquiera: es el mismo que abrió el Mundial 2010.',
+    body: `## A qué hora es y dónde ver el partido inaugural
 
-## Datos del partido
+El **Mundial 2026** echa a andar con **México-Sudáfrica** el **jueves 11 de junio** en el **Estadio Azteca** de Ciudad de México, partido inaugural del **Grupo A**. El balón empieza a rodar a las **21:00 hora de Madrid** (13:00 en Ciudad de México), justo después de la ceremonia de inauguración, que arranca sobre las 19:30 hora española.
 
-**Grupo:** Ver calendario oficial
+En España lo puedes ver **gratis y en abierto en RTVE** (La 1 y RTVE Play), que emite el estreno del torneo. Y si quieres seguir el Mundial al completo —los 104 partidos— lo tienes en **Movistar Plus+ vía DAZN**. Te dejamos el detalle de [a qué hora empieza el Mundial por país](/2026/cuando-empieza) y de [dónde ver cada partido en España](/2026/donde-ver).
 
-**Publicado:** Día anterior al partido
+## El círculo que se cierra 16 años después
 
-## Historial entre ambas selecciones
+No es un emparejamiento inaugural cualquiera. México y Sudáfrica son, exactamente, las dos selecciones que **abrieron el Mundial de 2010**. Aquel 11 de junio, en Soccer City de Johannesburgo, **Siphiwe Tshabalala** firmó con un zurdazo a la escuadra el **primer gol** de aquel torneo —uno de los goles inaugurales más recordados de la historia— y **Rafael Márquez** empató para un 1-1 final.
 
-El mismo duelo, el mismo papel, el mismo estadio. México y Sudáfrica repiten el partido que abrió el Mundial 2010 con el gol más icónico de la historia de los Mundiales. Esta vez, el Azteca ruge de local.
+Dieciséis años después, los mismos dos rivales vuelven a levantar el telón. Pero esta vez el escenario es el **Azteca**, y México juega en casa. El mítico estadio de Ciudad de México hace historia: es el **primer recinto que alberga tres partidos inaugurales de un Mundial** (1970, 1986 y 2026).
 
----
+## Lo que se juega cada selección
 
-[Ver convocatorias del Mundial 2026](/2026/convocatorias)`,
+Para **México**, anfitrión junto a Estados Unidos y Canadá, el estreno es pura presión y pura fiesta: abrir su Mundial en el Azteca, con su gente, marca el tono de toda la campaña. Para **Sudáfrica**, que regresa a la gran cita, el reto es dar la sorpresa ante una de las anfitrionas en un Grupo A que se decidirá en los detalles.
+
+El Mundial 2026 es el primero con **48 selecciones y 104 partidos**, repartidos entre tres países hasta la final del 19 de julio. Y todo empieza aquí. Consulta el [calendario completo](/2026/calendario) y los [grupos del Mundial](/2026/grupos), y atrévete a [predecir los resultados en tu porra](/2026/predicciones-mundial-2026).`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
