@@ -20,35 +20,34 @@ export const revalidate = 0;
 // Metadata por idioma. Child components ya usan useTranslations('home').
 const META: Record<string, { title: string; description: string; keywords: string[] }> = {
   es: {
-    title: 'Mundial de Fútbol: 1930-2026 · Calendario, historia y archivo',
+    title: 'Mundial 2026 en vivo | Calendario, partidos, resultados y noticias',
     description:
-      'Calendario Mundial 2026, historia de las 23 ediciones, ficha de cada jugador y estadio. La enciclopedia mundialista en 5 idiomas.',
+      'Sigue el Mundial 2026 en directo: calendario completo, partidos del día, resultados, los 12 grupos, dónde ver en TV y todas las noticias. Toda la actualidad del Mundial de México, EE. UU. y Canadá.',
     keywords: [
-      'Mundial de Fútbol',
-      'FIFA World Cup',
+      'Mundial 2026 en vivo',
       'Mundial 2026',
-      'Copa del Mundo',
-      'calendario Mundial',
-      'historia de los Mundiales',
-      'selecciones nacionales',
-      'jugadores mundialistas',
-      'estadios',
+      'calendario Mundial 2026',
+      'partidos Mundial 2026',
+      'resultados Mundial 2026',
+      'grupos Mundial 2026',
+      'dónde ver Mundial 2026',
+      'noticias Mundial 2026',
+      'Copa del Mundo 2026',
     ],
   },
   en: {
-    title: 'FIFA World Cup: 1930-2026 · Schedule, history and archive',
+    title: 'FIFA World Cup 2026 live | Schedule, matches, results and news',
     description:
-      '2026 World Cup schedule, the history of all 23 editions, profile of every player and stadium. The definitive World Cup encyclopedia in 5 languages.',
+      'Follow the 2026 World Cup live: full schedule, today’s matches, results, the 12 groups, where to watch on TV and all the news. Everything on the Mexico, USA and Canada World Cup.',
     keywords: [
-      'FIFA World Cup',
+      'World Cup 2026 live',
       'World Cup 2026',
       '2026 World Cup schedule',
-      'World Cup history',
-      'national teams',
-      'World Cup players',
-      'World Cup stadiums',
-      'all World Cup editions',
-      'World Cup encyclopedia',
+      'World Cup 2026 matches',
+      'World Cup 2026 results',
+      'World Cup 2026 groups',
+      'where to watch World Cup 2026',
+      'World Cup 2026 news',
     ],
   },
 };
