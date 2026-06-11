@@ -98,8 +98,9 @@ export default async function NoticiaDetail({
 
   // Movistar Plus+ match link (specific ficha or generic fallback)
   const movistarLink = getMovistarLink(slug);
-  // Show M+ card only on ver-en-TV match articles
-  const showMovistarCard = slug.startsWith('ver-') && slug.includes('-tv-');
+  // El cintillo M+ se muestra en TODOS los artículos: en los de horario/TV
+  // con el link y thumbnail del partido, y en el resto con el cintillo general.
+  const showMovistarCard = true;
 
   // NewsArticle JSON-LD (recomendado para Google News y Discover).
   // image: usamos la URL del OG dinámico (opengraph-image.tsx adyacente)
@@ -318,7 +319,7 @@ export default async function NoticiaDetail({
         />
       </section>
 
-      {/* Movistar Plus+ cintillo oficial — solo en artículos de horario/TV */}
+      {/* Movistar Plus+ cintillo oficial — en todos los artículos */}
       {showMovistarCard && (
         <section className="mx-auto mt-10 w-full max-w-[900px] px-6 md:px-10">
           <MovistarCintillo
