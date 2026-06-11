@@ -243,12 +243,6 @@ function HeroBanner({ href, context }: { href: string; context?: string }) {
           >
             Suscribirse a Movistar Plus+
           </a>
-
-          {/* Precio */}
-          <div className="flex flex-col gap-0">
-            <span className="font-mono text-xs font-bold text-white">desde {COPY.priceOtt}</span>
-            <span className="font-mono text-[9px] text-white/40 uppercase tracking-[0.2em]">OTT sin fibra</span>
-          </div>
         </div>
 
         <TAndC className="mt-3 text-white/25" />
@@ -297,7 +291,7 @@ function CardBanner({ href, context, matchId }: { href: string; context?: string
         <p className="text-xs leading-relaxed text-white/65">
           {context
             ? `¿Quieres ver ${context}? En Movistar Plus+ vía DAZN. Canal 55, disponible con el paquete de Fútbol.`
-            : `Los ${COPY.matches} del Mundial 2026 en Movistar Plus+ vía DAZN. Desde ${COPY.priceOtt} (OTT).`}
+            : `Los ${COPY.matches} del Mundial 2026 en Movistar Plus+ vía DAZN.`}
         </p>
 
         <a href={href} target="_blank" rel="sponsored nofollow noopener noreferrer"
@@ -338,7 +332,7 @@ function StripBanner({ href, context }: { href: string; context?: string }) {
                 : 'La Copa Mundial FIFA 2026™ al completo'}
             </p>
             <p className="mt-0.5 text-xs text-white/55">
-              {COPY.matches} · {COPY.dial} · desde {COPY.priceOtt}
+              {COPY.matches} · {COPY.dial}
             </p>
           </div>
         </div>
@@ -383,7 +377,7 @@ function StickyBanner({ href }: { href: string }) {
         </span>
         <span className="hidden text-white/30 sm:inline">·</span>
         <span className="truncate text-xs text-white/55">
-          {COPY.matches} · Movistar Plus+ vía DAZN · desde {COPY.priceOtt}
+          {COPY.matches} · Movistar Plus+ vía DAZN
         </span>
       </div>
 
