@@ -7755,7 +7755,7 @@ Por confirmar por FIFA.
 
 ## Alineación probable España
 
-Raya; Carvajal, Le Normand, Laporte, Grimaldo; Rodri, Pedri, Fabián Ruiz; Lamine Yamal, Morata, Williams N.
+Unai Simón; Llorente, Cubarsí, Laporte, Cucurella; Rodri, Fabián Ruiz, Pedri; Lamine Yamal, Oyarzabal, Ferran Torres.
 
 ## Alineación probable Cabo Verde
 

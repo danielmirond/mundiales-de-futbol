@@ -23,13 +23,22 @@
   },
   "home": {
     "hero": {
-      "kicker": "1930-2026",
-      "titleLine1": "22 بطولة.",
-      "titleLine2": "قصة واحدة.",
+      "kicker": "كأس العالم هنا الآن",
+      "titleLine1": "كأس العالم 2026",
+      "titleLine2": "مباشر",
       "subtitle": "الموسوعة الشاملة لكأس العالم، حتى آخر تمريرة.",
       "ctaPrimary": "استكشف النسخ",
       "ctaSecondary": "مواعيد 2026",
-      "videoFallbackAlt": "ملعب كرة قدم من الأعلى"
+      "videoFallbackAlt": "ملعب كرة قدم من الأعلى",
+      "liveNow": "يُلعب الآن",
+      "nextMatch": "المباراة القادمة",
+      "live": "مباشر",
+      "madridTime": "بتوقيت مدريد",
+      "inPlay": "المباراة جارية",
+      "group": "المجموعة",
+      "ctaCalendar": "الجدول",
+      "ctaWhere": "أين تشاهد",
+      "ctaPorra": "توقّع النتائج"
     },
     "countdown": {
       "label": "باقي",

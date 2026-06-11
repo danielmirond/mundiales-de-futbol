@@ -23,13 +23,22 @@
   },
   "home": {
     "hero": {
-      "kicker": "1930-2026",
-      "titleLine1": "22 tournois.",
-      "titleLine2": "Une histoire.",
+      "kicker": "La Coupe du Monde est là",
+      "titleLine1": "Coupe du Monde 2026",
+      "titleLine2": "en direct",
       "subtitle": "L'encyclopédie définitive de la Coupe du Monde, jusqu'à la dernière passe.",
       "ctaPrimary": "Explorer les éditions",
       "ctaSecondary": "Calendrier 2026",
-      "videoFallbackAlt": "Un stade de football vu du ciel"
+      "videoFallbackAlt": "Un stade de football vu du ciel",
+      "liveNow": "En cours",
+      "nextMatch": "Prochain match",
+      "live": "En direct",
+      "madridTime": "heure de Madrid",
+      "inPlay": "Match en cours",
+      "group": "Groupe",
+      "ctaCalendar": "Calendrier",
+      "ctaWhere": "Où regarder",
+      "ctaPorra": "Faites vos pronostics"
     },
     "countdown": {
       "label": "Dans",

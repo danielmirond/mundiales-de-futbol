@@ -23,13 +23,22 @@
   },
   "home": {
     "hero": {
-      "kicker": "1930-2026",
-      "titleLine1": "22 tournaments.",
-      "titleLine2": "One story.",
+      "kicker": "The World Cup is here",
+      "titleLine1": "World Cup 2026",
+      "titleLine2": "live",
       "subtitle": "The definitive encyclopedia of the FIFA World Cup, down to the last pass.",
       "ctaPrimary": "Explore editions",
       "ctaSecondary": "2026 schedule",
-      "videoFallbackAlt": "A football stadium seen from above"
+      "videoFallbackAlt": "A football stadium seen from above",
+      "liveNow": "Playing now",
+      "nextMatch": "Next match",
+      "live": "Live",
+      "madridTime": "Madrid time",
+      "inPlay": "Match in play",
+      "group": "Group",
+      "ctaCalendar": "Schedule",
+      "ctaWhere": "Where to watch",
+      "ctaPorra": "Make your picks"
     },
     "countdown": {
       "label": "In",

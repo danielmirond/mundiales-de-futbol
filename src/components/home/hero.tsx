@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
-import { useLocale } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { ArrowRight, Tv, CalendarDays, Target } from 'lucide-react';
 import { HeroImagery } from '@/components/home/hero-imagery';
 import { FIXTURES_2026, TEAMS_2026 } from '@/lib/wc-2026';
@@ -13,6 +13,10 @@ function withLocale(locale: Locale, href: string) {
   if (locale === routing.defaultLocale) return href;
   return `/${locale}${href === '/' ? '' : href}`;
 }
+
+const INTL_LOCALE: Record<string, string> = {
+  es: 'es-ES', en: 'en-GB', fr: 'fr-FR', pt: 'pt-PT', ar: 'ar',
+};
 
 // Precalculado una sola vez: todos los partidos con kickoff en epoch ms, ordenados.
 const SCHEDULE = FIXTURES_2026
@@ -40,17 +44,22 @@ function countdown(target: number, now: number) {
   };
 }
 
-const dateFmt = new Intl.DateTimeFormat('es-ES', {
-  timeZone: 'Europe/Madrid',
-  weekday: 'long',
-  day: 'numeric',
-  month: 'long',
-});
-const timeFmt = new Intl.DateTimeFormat('es-ES', {
-  timeZone: 'Europe/Madrid',
-  hour: '2-digit',
-  minute: '2-digit',
-});
+function makeFormatters(locale: string) {
+  const intl = INTL_LOCALE[locale] ?? 'es-ES';
+  return {
+    dateFmt: new Intl.DateTimeFormat(intl, {
+      timeZone: 'Europe/Madrid',
+      weekday: 'long',
+      day: 'numeric',
+      month: 'long',
+    }),
+    timeFmt: new Intl.DateTimeFormat(intl, {
+      timeZone: 'Europe/Madrid',
+      hour: '2-digit',
+      minute: '2-digit',
+    }),
+  };
+}
 
 function Side({ code }: { code?: string }) {
   const team = code ? TEAMS_2026[code] : undefined;
@@ -68,6 +77,8 @@ function Side({ code }: { code?: string }) {
 
 export function Hero() {
   const locale = useLocale() as Locale;
+  const t = useTranslations('home.hero');
+  const tc = useTranslations('home.countdown');
   const [now, setNow] = useState<number | null>(null);
 
   useEffect(() => {
@@ -76,15 +87,16 @@ export function Hero() {
     return () => clearInterval(id);
   }, []);
 
+  const { dateFmt, timeFmt } = makeFormatters(locale);
   const picked = pickMatch(now ?? SCHEDULE[0].kickoff);
   const c = picked ? countdown(picked.match.kickoff, now ?? 0) : null;
 
   const cells = c
     ? [
-        { value: c.days, label: 'días' },
-        { value: c.hours, label: 'horas' },
-        { value: c.minutes, label: 'min' },
-        { value: c.seconds, label: 'seg' },
+        { value: c.days, label: tc('days') },
+        { value: c.hours, label: tc('hours') },
+        { value: c.minutes, label: tc('minutes') },
+        { value: c.seconds, label: tc('seconds') },
       ]
     : [];
 
@@ -123,13 +135,13 @@ export function Hero() {
             <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[var(--color-pitch)] opacity-75" />
             <span className="relative inline-flex h-2 w-2 rounded-full bg-[var(--color-pitch)]" />
           </span>
-          {picked?.live ? 'En juego ahora' : 'El Mundial ya está aquí'}
+          {picked?.live ? t('liveNow') : t('kicker')}
         </div>
 
         <h1 className="mt-6 font-display text-fluid-display uppercase leading-[0.9]">
-          <span className="block text-[var(--color-fg)]">Mundial 2026</span>
+          <span className="block text-[var(--color-fg)]">{t('titleLine1')}</span>
           <span className="block bg-gradient-to-r from-[var(--color-pitch)] via-[var(--color-sun)] to-[var(--color-flame)] bg-clip-text text-transparent">
-            en directo
+            {t('titleLine2')}
           </span>
         </h1>
 
@@ -137,9 +149,9 @@ export function Hero() {
         {picked && (
           <div className="mt-10 w-full max-w-2xl rounded-3xl border border-[var(--color-border)] bg-[var(--color-surface)]/70 p-6 backdrop-blur md:p-8">
             <div className="flex items-center justify-between font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-fg-subtle)]">
-              <span>{picked.live ? 'En vivo' : 'Próximo partido'}</span>
+              <span>{picked.live ? t('live') : t('nextMatch')}</span>
               <span className="text-[var(--color-pitch)]">
-                {picked.match.stage.length === 1 ? `Grupo ${picked.match.stage}` : picked.match.stage}
+                {picked.match.stage.length === 1 ? `${t('group')} ${picked.match.stage}` : picked.match.stage}
               </span>
             </div>
 
@@ -152,7 +164,7 @@ export function Hero() {
             </div>
 
             <div className="mt-5 text-center font-mono text-xs uppercase tracking-[0.2em] text-[var(--color-fg-muted)]">
-              {dateFmt.format(picked.match.kickoff)} · {timeFmt.format(picked.match.kickoff)} h (hora de Madrid)
+              {dateFmt.format(picked.match.kickoff)} · {timeFmt.format(picked.match.kickoff)} h ({t('madridTime')})
             </div>
 
             {/* Cuenta atrás */}
@@ -175,7 +187,7 @@ export function Hero() {
             )}
             {picked.live && (
               <div className="mt-6 rounded-2xl border border-[var(--color-pitch)]/30 bg-[var(--color-pitch)]/10 py-4 text-center font-display text-2xl uppercase text-[var(--color-pitch)]">
-                Partido en juego
+                {t('inPlay')}
               </div>
             )}
           </div>
@@ -188,7 +200,7 @@ export function Hero() {
             className="group inline-flex items-center gap-2 rounded-full bg-[var(--color-pitch)] px-6 py-3 text-sm font-bold text-black transition-opacity hover:opacity-90"
           >
             <CalendarDays className="h-4 w-4" />
-            Calendario
+            {t('ctaCalendar')}
             <ArrowRight className="h-3 w-3 transition-transform group-hover:translate-x-1 rtl:rotate-180" />
           </Link>
           <Link
@@ -196,14 +208,14 @@ export function Hero() {
             className="group inline-flex items-center gap-2 rounded-full border border-[var(--color-border-strong)] px-6 py-3 text-sm font-semibold text-[var(--color-fg)] transition-colors hover:border-[var(--color-pitch)] hover:text-[var(--color-pitch)]"
           >
             <Tv className="h-4 w-4" />
-            Dónde ver
+            {t('ctaWhere')}
           </Link>
           <Link
             href={withLocale(locale, '/2026/predicciones-mundial-2026')}
             className="group inline-flex items-center gap-2 rounded-full border border-[var(--color-border-strong)] px-6 py-3 text-sm font-semibold text-[var(--color-fg)] transition-colors hover:border-[var(--color-pitch)] hover:text-[var(--color-pitch)]"
           >
             <Target className="h-4 w-4" />
-            Haz tu porra
+            {t('ctaPorra')}
           </Link>
         </div>
       </div>

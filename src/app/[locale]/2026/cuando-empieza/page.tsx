@@ -77,7 +77,7 @@ const COPY: Record<string, Copy> = {
     h2Spain: '¿Cuándo juega España su primer partido?',
     spainIntro: (
       <>
-        España debuta el <strong className="text-[var(--color-fg)]">lunes 15 de junio</strong> en el <strong>Mercedes-Benz Stadium de Atlanta</strong> contra <strong>Cabo Verde</strong> a las <strong>21:00 hora de Madrid</strong>. Después se enfrenta a Arabia Saudí (Filadelfia, 20 de junio) y cierra la fase de grupos contra Uruguay (Guadalajara, 25 de junio). España está en el Grupo H.
+        España debuta el <strong className="text-[var(--color-fg)]">lunes 15 de junio</strong> en el <strong>Mercedes-Benz Stadium de Atlanta</strong> contra <strong>Cabo Verde</strong> a las <strong>18:00 hora de Madrid</strong> (12:00 hora del Este de EE. UU.). Después se enfrenta a Arabia Saudí (Filadelfia, 20 de junio) y cierra la fase de grupos contra Uruguay (Guadalajara, 25 de junio). España está en el Grupo H.
       </>
     ),
     spainCta1: 'Calendario completo de España',
@@ -165,7 +165,7 @@ const COPY: Record<string, Copy> = {
     h2Spain: 'When does Spain play its opener?',
     spainIntro: (
       <>
-        Spain debut on <strong className="text-[var(--color-fg)]">Monday, June 15</strong> at <strong>Mercedes-Benz Stadium in Atlanta</strong> against <strong>Cape Verde</strong> at <strong>12:00 PM ET</strong> (8:00 PM Madrid). Next come Saudi Arabia (Philadelphia, June 20) and Uruguay (Guadalajara, June 25) to close the group stage. Spain is in Group H.
+        Spain debut on <strong className="text-[var(--color-fg)]">Monday, June 15</strong> at <strong>Mercedes-Benz Stadium in Atlanta</strong> against <strong>Cape Verde</strong> at <strong>12:00 PM ET</strong> (6:00 PM Madrid). Next come Saudi Arabia (Philadelphia, June 20) and Uruguay (Guadalajara, June 25) to close the group stage. Spain is in Group H.
       </>
     ),
     spainCta1: 'Spain full schedule',

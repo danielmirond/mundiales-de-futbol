@@ -23,13 +23,22 @@
   },
   "home": {
     "hero": {
-      "kicker": "1930-2026",
-      "titleLine1": "22 torneos.",
-      "titleLine2": "Una historia.",
+      "kicker": "El Mundial ya está aquí",
+      "titleLine1": "Mundial 2026",
+      "titleLine2": "en directo",
       "subtitle": "La enciclopedia definitiva del Mundial de Fútbol, hasta el último pase.",
       "ctaPrimary": "Explorar ediciones",
       "ctaSecondary": "Calendario 2026",
-      "videoFallbackAlt": "Un estadio de fútbol visto desde lo alto"
+      "videoFallbackAlt": "Un estadio de fútbol visto desde lo alto",
+      "liveNow": "En juego ahora",
+      "nextMatch": "Próximo partido",
+      "live": "En vivo",
+      "madridTime": "hora de Madrid",
+      "inPlay": "Partido en juego",
+      "group": "Grupo",
+      "ctaCalendar": "Calendario",
+      "ctaWhere": "Dónde ver",
+      "ctaPorra": "Haz tu porra"
     },
     "countdown": {
       "label": "Faltan",
