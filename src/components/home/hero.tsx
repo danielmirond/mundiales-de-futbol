@@ -75,11 +75,17 @@ function Side({ code }: { code?: string }) {
   );
 }
 
+type LiveMatch = {
+  home: string; away: string; homeScore: number | null; awayScore: number | null;
+  state: 'pre' | 'in' | 'post'; status: string; clock: string | null;
+};
+
 export function Hero() {
   const locale = useLocale() as Locale;
   const t = useTranslations('home.hero');
   const tc = useTranslations('home.countdown');
   const [now, setNow] = useState<number | null>(null);
+  const [scores, setScores] = useState<LiveMatch[]>([]);
 
   useEffect(() => {
     setNow(Date.now());
@@ -87,9 +93,32 @@ export function Hero() {
     return () => clearInterval(id);
   }, []);
 
+  // Marcadores en vivo (ESPN vía /api/live-scores), refresco cada 30s.
+  useEffect(() => {
+    let alive = true;
+    const load = () => {
+      fetch('/api/live-scores')
+        .then((r) => r.json())
+        .then((d) => { if (alive && Array.isArray(d.matches)) setScores(d.matches); })
+        .catch(() => {});
+    };
+    load();
+    const id = setInterval(load, 30000);
+    return () => { alive = false; clearInterval(id); };
+  }, []);
+
   const { dateFmt, timeFmt } = makeFormatters(locale);
   const picked = pickMatch(now ?? SCHEDULE[0].kickoff);
   const c = picked ? countdown(picked.match.kickoff, now ?? 0) : null;
+
+  // ¿Hay marcador en vivo/final para el partido mostrado?
+  const live = picked
+    ? scores.find(
+        (m) => m.home === picked.match.home && m.away === picked.match.away,
+      )
+    : undefined;
+  const showScore = !!live && (live.state === 'in' || live.state === 'post') &&
+    live.homeScore !== null && live.awayScore !== null;
 
   const cells = c
     ? [
@@ -157,9 +186,15 @@ export function Hero() {
 
             <div className="mt-5 flex items-center gap-3">
               <Side code={picked.match.home} />
-              <span className="font-display text-2xl text-[var(--color-fg-subtle)] md:text-3xl">
-                {picked.live ? '·' : 'vs'}
-              </span>
+              {showScore ? (
+                <span className="font-display tab-num text-4xl leading-none text-[var(--color-fg)] md:text-5xl">
+                  {live!.homeScore} <span className="text-[var(--color-fg-subtle)]">-</span> {live!.awayScore}
+                </span>
+              ) : (
+                <span className="font-display text-2xl text-[var(--color-fg-subtle)] md:text-3xl">
+                  {picked.live ? '·' : 'vs'}
+                </span>
+              )}
               <Side code={picked.match.away} />
             </div>
 
@@ -167,8 +202,24 @@ export function Hero() {
               {dateFmt.format(picked.match.kickoff)} · {timeFmt.format(picked.match.kickoff)} h ({t('madridTime')})
             </div>
 
-            {/* Cuenta atrás */}
-            {!picked.live && (
+            {/* Estado: marcador en vivo · final · o cuenta atrás */}
+            {showScore && live!.state === 'in' ? (
+              <div className="mt-6 flex items-center justify-center gap-2 rounded-2xl border border-[var(--color-flame)]/40 bg-[var(--color-flame)]/10 py-4 text-center font-display text-xl uppercase text-[var(--color-flame)]">
+                <span className="relative flex h-2.5 w-2.5">
+                  <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[var(--color-flame)] opacity-75" />
+                  <span className="relative inline-flex h-2.5 w-2.5 rounded-full bg-[var(--color-flame)]" />
+                </span>
+                {t('live')}{(live!.clock || live!.status) ? ` · ${live!.clock || live!.status}` : ''}
+              </div>
+            ) : showScore && live!.state === 'post' ? (
+              <div className="mt-6 rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg-2)]/60 py-4 text-center font-display text-xl uppercase text-[var(--color-fg)]">
+                Final
+              </div>
+            ) : picked.live ? (
+              <div className="mt-6 rounded-2xl border border-[var(--color-pitch)]/30 bg-[var(--color-pitch)]/10 py-4 text-center font-display text-2xl uppercase text-[var(--color-pitch)]">
+                {t('inPlay')}
+              </div>
+            ) : (
               <div className="mt-6 grid grid-cols-4 divide-x divide-[var(--color-border)] overflow-hidden rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg-2)]/60 rtl:divide-x-reverse">
                 {cells.map((cell) => (
                   <div key={cell.label} className="flex flex-col items-center justify-center px-1 py-4">
@@ -183,11 +234,6 @@ export function Hero() {
                     </span>
                   </div>
                 ))}
-              </div>
-            )}
-            {picked.live && (
-              <div className="mt-6 rounded-2xl border border-[var(--color-pitch)]/30 bg-[var(--color-pitch)]/10 py-4 text-center font-display text-2xl uppercase text-[var(--color-pitch)]">
-                {t('inPlay')}
               </div>
             )}
           </div>
