@@ -1,0 +1,3279 @@
+{
+  "generatedAt": "2026-06-12T10:49:47.277Z",
+  "date": "2026-06-12",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "estados unidos",
+      "geo": "US",
+      "language": "en",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "EN VIVO: Estados Unidos arranca su participación en el Mundial 2026 ante Paraguay en el Los Angeles Stadium",
+          "url": "https://www.latimes.com/espanol/deportes/live/en-vivo-estados-unidos-arranca-su-participacion-en-el-mundial-2026-ante-paraguay-en-el-los-angeles-stadium",
+          "source": "Los Angeles Times"
+        },
+        {
+          "title": "Estados Unidos vs Paraguay: posibles alineaciones del partido",
+          "url": "https://espndeportes.espn.com/futbol/mundial/nota/_/id/16828212/estados-unidos-vs-paraguay-mundial-2026-alineaciones-horario-partido",
+          "source": "ESPN Deportes"
+        },
+        {
+          "title": "Estados Unidos inaugura su Mundial contra un serio rival en Los Ángeles. ¿Cuál es el pronóstico?",
+          "url": "https://www.elnuevoherald.com/deportes/futbol/copa-mundial-fifa/article316089526.html",
+          "source": "El Nuevo Herald"
+        }
+      ]
+    },
+    {
+      "query": "canada fc",
+      "geo": "AR",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Canadian soccer, finally on stable ground, tightens in anticipation of a historic World Cup",
+          "url": "https://www.theguardian.com/football/2026/jun/11/canada-world-cup-opening-game-jesse-marsch",
+          "source": "The Guardian"
+        },
+        {
+          "title": "How to watch Canada live at FIFA World Cup 2026: All games – full schedule",
+          "url": "https://www.olympics.com/en/news/how-to-watch-canada-live-fifa-world-cup-2026-all-games-full-schedule",
+          "source": "Olympics"
+        },
+        {
+          "title": "I spent five years getting to know these Canada players. Let me introduce them to you.",
+          "url": "https://www.nytimes.com/athletic/7348886/2026/06/12/meet-the-canada-squad-davies-david-buchanan/",
+          "source": "The New York Times"
+        }
+      ]
+    },
+    {
+      "query": "estados unidos vs paraguay",
+      "geo": "AR",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Pochettino vs Alfaro: se viene un duelo de entrenadores argentinos para abrir el Mundial en Estados Unidos",
+          "url": "https://www.clarin.com/deportes/pochettino-vs-alfaro-viene-duelo-entrenadores-argentinos-abrir-mundial-estados-unidos_0_07GX3AoBzD.html",
+          "source": "Clarin.com"
+        },
+        {
+          "title": "Estados Unidos vs Paraguay en VIVO y en DIRECTO: el anfitrión del Mundial 2026 busca el primer triunfo para su afición",
+          "url": "https://www.infobae.com/mexico/2026/06/12/estados-unidos-vs-paraguay-en-vivo-y-en-directo-el-anfitrion-del-mundial-2026-busca-el-primer-triunfo-para-su-aficion/",
+          "source": "Infobae"
+        },
+        {
+          "title": "Grupo D del Mundial 2026: resultados, posiciones y calendario de partidos",
+          "url": "https://www.tycsports.com/mundial/grupo-d-del-mundial-2026-resultados-posiciones-y-calendario-de-partidos-id734958.html",
+          "source": "TyC Sports"
+        }
+      ]
+    },
+    {
+      "query": "canada vs bosnia",
+      "geo": "AR",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "Canada v Bosnia-Herzegovina Prediction, Tips and Bet Builder",
+          "url": "https://news.bet365.com/en-gb/article/football-canada-bosnia-herzegovina-prediction-and-tips/2026061109084000661",
+          "source": "news.bet365.com"
+        },
+        {
+          "title": "FIFA World Cup: Press conference held ahead of group stage match between Canada, Bosnia and Herzegovina",
+          "url": "http://english.news.cn/20260612/6b91aa2374f54ea4bc96a538a0fb5bcd/c.html",
+          "source": "Xinhua"
+        },
+        {
+          "title": "World Cup Best Bets Today (Predictions for USA vs. Paraguay and Canada vs. Bosnia & Herzegovina",
+          "url": "https://www.si.com/betting/world-cup-best-bets-today-predictions-for-usa-vs-paraguay-and-canada-vs-bosnia-and-herzegovina",
+          "source": "Sports Illustrated"
+        }
+      ]
+    },
+    {
+      "query": "korea fc",
+      "geo": "AR",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "🎥 Tequila, fiesta, faces in South Africa... day one’s funniest bits 😂",
+          "url": "https://sports.yahoo.com/articles/tequila-fiesta-faces-south-africa-055200711.html",
+          "source": "Yahoo Sports"
+        },
+        {
+          "title": "World Cup latest – LIVE updates as tournament enters second day",
+          "url": "https://hayters.com/world-cup-latest-live-updates-as-tournament-enters-second-day/",
+          "source": "Hayters TV"
+        },
+        {
+          "title": "World Cup 2026 live: Team news, transfer targets to watch as tournament kicks off today",
+          "url": "https://www.caughtoffside.com/2026/06/11/world-cup-2026-live-news/",
+          "source": "CaughtOffside"
+        }
+      ]
+    },
+    {
+      "query": "japon",
+      "geo": "AR",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "Coupe du monde 2026 - Le capitaine du Japon Endo, touché au pied et forfait, annonce sa retraite internationale",
+          "url": "https://starsporttv.be/fr/content/coupe-du-monde-2026-le-capitaine-du-japon-endo-touche-au-pied-et-forfait-annonce-sa-retraite-internationale",
+          "source": "Starsporttv"
+        },
+        {
+          "title": "Le président de l’AFC souligne les ambitions de l’Asie pour une participation historique au Mondial 2026",
+          "url": "https://spa.gov.sa/fr/N2609692",
+          "source": "وكالة الأنباء السعودية"
+        },
+        {
+          "title": "L&apos;équipe nationale japonaise reçoit une mauvaise nouvelle avant son premier match de la Coupe du monde 2026.",
+          "url": "https://www.vietnam.vn/fr/tuyen-nhat-ban-nhan-tin-du-truoc-ngay-ra-quan-o-world-cup-2026",
+          "source": "Vietnam.vn"
+        }
+      ]
+    },
+    {
+      "query": "heung min son",
+      "geo": "AR",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Mundial 2026: escándalo con periodistas en un entrenamiento de la selección de Corea del Sur",
+          "url": "https://www.lanacion.com.ar/deportes/futbol/mundial-2026-escandalo-con-periodistas-en-un-entrenamiento-de-la-seleccion-de-corea-del-sur-nid11062026/",
+          "source": "La Nación"
+        },
+        {
+          "title": "Un micrófono abierto generó una inesperada polémica con la máxima figura de Corea del Sur, a horas de su debut en el Mundial",
+          "url": "https://www.infobae.com/deportes/2026/06/11/un-microfono-abierto-genero-una-inesperada-polemica-con-la-maxima-figura-de-corea-del-sur-a-horas-de-su-debut-en-el-mundial/",
+          "source": "Infobae"
+        },
+        {
+          "title": "Polémica en Corea del Sur: periodistas fueron grabados criticando a Son por el servicio militar",
+          "url": "https://www.ellitoral.com/deportes/heung-min-servicio-militar-polemica-corea-sur-microfono-controversia-periodistas_0_Wqt65qI0IC.html",
+          "source": "El Litoral"
+        }
+      ]
+    },
+    {
+      "query": "paraguay vs",
+      "geo": "CO",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "Estados Unidos vs Paraguay: posibles alineaciones del partido",
+          "url": "https://www.espn.com.co/futbol/mundial/nota/_/id/16828212/estados-unidos-vs-paraguay-mundial-2026-alineaciones-horario-partido",
+          "source": "ESPN Colombia"
+        },
+        {
+          "title": "EE UU abre el telón",
+          "url": "https://as.com/futbol/mundial/ee-uu-abre-el-telon-f202606-n/",
+          "source": "Diario AS"
+        },
+        {
+          "title": "Paraguay, el primer suramericano en entrar en competencia en el Mundial 2026; lo espera el anfitrión, Estados Unidos | Hora y TV",
+          "url": "https://www.eltiempo.com/deportes/futbol-internacional/paraguay-el-primer-suramericano-en-entrar-en-competencia-en-el-mundial-2026-lo-espera-el-anfitrion-estados-unidos-hora-y-tv-3563817",
+          "source": "ELTIEMPO.COM"
+        }
+      ]
+    },
+    {
+      "query": "canada vs bosnia",
+      "geo": "CO",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "Canada vs Bosnia-Herzegovina Prediction: World Cup 2026 Match Preview",
+          "url": "https://theanalyst.com/articles/canada-vs-bosnia-herzegovina-prediction-world-cup-2026-match-preview",
+          "source": "Opta Analyst"
+        },
+        {
+          "title": "World Cup Best Bets Today (Predictions for USA vs. Paraguay and Canada vs. Bosnia & Herzegovina",
+          "url": "https://www.si.com/betting/world-cup-best-bets-today-predictions-for-usa-vs-paraguay-and-canada-vs-bosnia-and-herzegovina",
+          "source": "Sports Illustrated"
+        },
+        {
+          "title": "Alphonso Davies suffers injury blow ahead of World Cup blow as Canada miss star player against Bosnia-Herzegovina",
+          "url": "https://www.goal.com/en-au/lists/world-cup-news-canada-alphonso-davies-injury-misses-opener/blt70b8865d97c189dc",
+          "source": "Goal.com"
+        }
+      ]
+    },
+    {
+      "query": "korea fc",
+      "geo": "CO",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "🎥 Tequila, fiesta, faces in South Africa... day one’s funniest bits 😂",
+          "url": "https://sports.yahoo.com/articles/tequila-fiesta-faces-south-africa-055200711.html",
+          "source": "Yahoo Sports"
+        },
+        {
+          "title": "World Cup latest – LIVE updates as tournament enters second day",
+          "url": "https://hayters.com/world-cup-latest-live-updates-as-tournament-enters-second-day/",
+          "source": "Hayters TV"
+        },
+        {
+          "title": "World Cup 2026 live: Team news, transfer targets to watch as tournament kicks off today",
+          "url": "https://www.caughtoffside.com/2026/06/11/world-cup-2026-live-news/",
+          "source": "CaughtOffside"
+        }
+      ]
+    },
+    {
+      "query": "canada vs bosnia",
+      "geo": "CL",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "World Cup day 2: USA, Canada begin – schedule, predictions and how to watch",
+          "url": "https://www.aljazeera.com/news/2026/6/12/world-cup-day-2-usa-canada-begin-schedule-predictions-and-how-to-watch",
+          "source": "Al Jazeera"
+        },
+        {
+          "title": "Bosnia Will Play with Hearts in World Cup Opener, Says Coach Barbarez",
+          "url": "https://english.aawsat.com/sports/5283152-bosnia-will-play-hearts-world-cup-opener-says-coach-barbarez",
+          "source": "Asharq Al-Awsat English"
+        },
+        {
+          "title": "FIFA World Cup: Press conference held ahead of group stage match between Canada, Bosnia and Herzegovina",
+          "url": "http://english.news.cn/20260612/6b91aa2374f54ea4bc96a538a0fb5bcd/c.html",
+          "source": "Xinhua"
+        }
+      ]
+    },
+    {
+      "query": "resultados mundial 2026",
+      "geo": "CL",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "Canadá vs Bosnia y Herzegovina: posibles alineaciones del partido",
+          "url": "https://www.espn.cl/futbol/mundial/nota/_/id/16827944/mundial-2026-canada-vs-bosnia-herzegovina-alineaciones-horario",
+          "source": "ESPN Chile"
+        },
+        {
+          "title": "Canadá buscará estrenar su Mundial en casa y evitar una sorpresa de Bosnia",
+          "url": "https://www.cooperativa.cl/noticias/deportes/mundial-2026/fase-grupal/canada-buscara-estrenar-su-mundial-en-casa-y-evitar-una-sorpresa-de/2026-06-11/231023.html",
+          "source": "Cooperativa"
+        },
+        {
+          "title": "Canadá vs Bosnia: a qué hora juega, TV, canal y cómo ver el partido del Mundial 2026",
+          "url": "https://chile.as.com/futbol/canada-vs-bosnia-a-que-hora-juega-tv-canal-y-como-ver-el-partido-del-mundial-2026-f202606-n/",
+          "source": "AS Chile"
+        }
+      ]
+    },
+    {
+      "query": "ladislav krejčí",
+      "geo": "CL",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Ladislav Krejci pays tribute to Tomas Rosicky with his World Cup celebration",
+          "url": "https://www.mundodeportivo.com/en/soccer/20260612/1004194178/ladislav-krejci-pays-tribute-to-tomas-rosicky-with-his-world-cup-celebration.html",
+          "source": "Mundo Deportivo"
+        },
+        {
+          "title": "Raúl Jiménez seals Mexico’s win against nine-man South Africa in World Cup opener",
+          "url": "https://www.theguardian.com/football/2026/jun/11/mexico-south-africa-world-cup-2026-group-a-match-report",
+          "source": "The Guardian"
+        },
+        {
+          "title": "World Cup 2026: Raul Jimenez completes comeback in Mexico win",
+          "url": "https://www.bbc.com/sport/football/articles/cm2dl67rljvo",
+          "source": "BBC"
+        }
+      ]
+    },
+    {
+      "query": "estados unidos vs",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "¡Se enciende el Mundial! Estados Unidos vs Paraguay EN VIVO: hora, canales y cómo ver el debut del anfitrión en la Copa del Mundo 2026",
+          "url": "https://trome.com/deportes/futbol-internacional/estados-unidos-vs-paraguay-en-vivo-hora-canales-y-como-ver-el-debut-del-anfitrion-en-la-copa-del-mundo-2026-dgo-paramount-disney-noticia/",
+          "source": "Trome.com"
+        },
+        {
+          "title": "Estados Unidos vs. Paraguay, por el Grupo D del Mundial 2026: previa, alineaciones, hora y cómo ver por TV e internet",
+          "url": "https://cnnespanol.cnn.com/2026/06/11/deportes/estados-unidos-paraguay-grupod-mundial-2026-orix",
+          "source": "CNN en Español"
+        },
+        {
+          "title": "¿Calor o condiciones ideales? El clima que se espera para el primer partido del Mundial 2026 en EE.UU.",
+          "url": "https://gestion.pe/mix/usa/calor-o-condiciones-ideales-el-clima-que-se-espera-para-el-primer-partido-del-mundial-2026-en-estados-unidos-nnda-nnni-noticia/",
+          "source": "Diario Gestión"
+        }
+      ]
+    },
+    {
+      "query": "canada vs bosnia",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "World Cup day 2: USA, Canada begin – schedule, predictions and how to watch",
+          "url": "https://www.aljazeera.com/news/2026/6/12/world-cup-day-2-usa-canada-begin-schedule-predictions-and-how-to-watch",
+          "source": "Al Jazeera"
+        },
+        {
+          "title": "Bosnia Will Play with Hearts in World Cup Opener, Says Coach Barbarez",
+          "url": "https://english.aawsat.com/sports/5283152-bosnia-will-play-hearts-world-cup-opener-says-coach-barbarez",
+          "source": "Asharq Al-Awsat English"
+        },
+        {
+          "title": "FIFA World Cup: Press conference held ahead of group stage match between Canada, Bosnia and Herzegovina",
+          "url": "http://english.news.cn/20260612/6b91aa2374f54ea4bc96a538a0fb5bcd/c.html",
+          "source": "Xinhua"
+        }
+      ]
+    },
+    {
+      "query": "korea fc",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "🎥 Tequila, fiesta, faces in South Africa... day one’s funniest bits 😂",
+          "url": "https://sports.yahoo.com/articles/tequila-fiesta-faces-south-africa-055200711.html",
+          "source": "Yahoo Sports"
+        },
+        {
+          "title": "World Cup latest – LIVE updates as tournament enters second day",
+          "url": "https://hayters.com/world-cup-latest-live-updates-as-tournament-enters-second-day/",
+          "source": "Hayters TV"
+        },
+        {
+          "title": "World Cup 2026 live: Team news, transfer targets to watch as tournament kicks off today",
+          "url": "https://www.caughtoffside.com/2026/06/11/world-cup-2026-live-news/",
+          "source": "CaughtOffside"
+        }
+      ]
+    },
+    {
+      "query": "ladislav krejčí",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Ladislav Krejci pays tribute to Tomas Rosicky with his World Cup celebration",
+          "url": "https://www.mundodeportivo.com/en/soccer/20260612/1004194178/ladislav-krejci-pays-tribute-to-tomas-rosicky-with-his-world-cup-celebration.html",
+          "source": "Mundo Deportivo"
+        },
+        {
+          "title": "¡Qué maestro! Hwang In-beom anotó el 1-1 de Corea del Sur tras un jugadón dentro del área",
+          "url": "https://rpp.pe/futbol/mundial-2026/ver-gol-hwang-in-beom-en-corea-del-sur-vs-republica-checa-anoto-el-1-1-tras-una-buena-jugada-dentro-del-area-partidos-de-hoy-noticia-1692701",
+          "source": "RPP"
+        },
+        {
+          "title": "Mundial 2026: empate parcial entre Corea del Sur y República Checa en la fase de grupos| Galería Fotográfica",
+          "url": "https://andina.pe/agencia/galeria-mundial-2026-empate-parcial-entre-corea-del-sur-y-republica-checa-la-fase-grupos-29668.aspx",
+          "source": "Agencia Peruana de Noticias | ANDINA"
+        }
+      ]
+    },
+    {
+      "query": "japon vs",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "Cuándo juegan Países Bajos vs. Japón por la primera fecha de la fase de grupos del Mundial 2026: equipo, fecha, hora y TV en vivo",
+          "url": "https://www.espn.com.pe/futbol/mundial/nota/_/id/16815117/paises-bajos-vs-japon-fase-de-grupos-mundial-2026-equipo-fecha-hora-y-tv-en-vivo",
+          "source": "espn.com.pe"
+        },
+        {
+          "title": "Análisis del Grupo F del Mundial 2026: Países Bajos, Japón, Suecia y Túnez van por los octavos de final",
+          "url": "https://rpp.pe/futbol/mundial-2026/analisis-del-grupo-f-del-mundial-2026-paises-bajos-japon-suecia-y-tunez-noticia-1692430",
+          "source": "RPP"
+        },
+        {
+          "title": "Pronósticos Países Bajos vs Japón: Las claves para un posible empate con goles",
+          "url": "https://depor.com/apuestas-deportivas/paises-bajos-vs-japon-pronosticos-apuestas-cuotas-14-06-2026/",
+          "source": "Depor"
+        }
+      ]
+    },
+    {
+      "query": "lee tae-seok",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "South Korea 2-1 Czech Republic LIVE: FIFA World Cup 2026 Group A: South Korea come from behind to win",
+          "url": "https://www.bbc.com/sport/football/live/ckg0vvrg70vt",
+          "source": "BBC"
+        },
+        {
+          "title": "South Korea 2-1 Czechia: World Cup 2026 – as it happened",
+          "url": "https://www.theguardian.com/football/live/2026/jun/12/fifa-world-cup-2026-live-south-korea-v-czechia-updates-kor-vs-cze-group-a-match-score-latest",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Bet365 Bonus Code: Bet $10, Get $365 in Bonus Bets for South Korea vs Czechia",
+          "url": "https://www.si.com/betting-promo/bet365-bonus-code-bet-10-get-365-in-bonus-bets-for-south-korea-vs-czechia-01ktvb9m7jk1",
+          "source": "Sports Illustrated"
+        }
+      ]
+    },
+    {
+      "query": "canada vs bosnia",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "World Cup day 2: USA, Canada begin – schedule, predictions and how to watch",
+          "url": "https://www.aljazeera.com/news/2026/6/12/world-cup-day-2-usa-canada-begin-schedule-predictions-and-how-to-watch",
+          "source": "Al Jazeera"
+        },
+        {
+          "title": "Bosnia Will Play with Hearts in World Cup Opener, Says Coach Barbarez",
+          "url": "https://english.aawsat.com/sports/5283152-bosnia-will-play-hearts-world-cup-opener-says-coach-barbarez",
+          "source": "Asharq Al-Awsat English"
+        },
+        {
+          "title": "FIFA World Cup: Press conference held ahead of group stage match between Canada, Bosnia and Herzegovina",
+          "url": "http://english.news.cn/20260612/6b91aa2374f54ea4bc96a538a0fb5bcd/c.html",
+          "source": "Xinhua"
+        }
+      ]
+    },
+    {
+      "query": "korea vs",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 10000,
+      "articles": [
+        {
+          "title": "South Korea overcome Czechia via Hwang In-Beom&apos;s brilliant display",
+          "url": "https://www.espn.com/soccer/story/_/id/49037668/south-korea-overcome-czechia-via-hwang-beom-brilliant-display-world-cup",
+          "source": "ESPN"
+        },
+        {
+          "title": "South Korea vs Czechia Highlights | 2026 FIFA World Cup™",
+          "url": "https://www.foxsports.com/watch/fmc-18j026gny6xn16jb",
+          "source": "FOX Sports"
+        },
+        {
+          "title": "World Cup Day 1 scores, results: Korea tops Czechia after wild finish, Mexico handles South Africa in ugly affair",
+          "url": "https://sports.yahoo.com/soccer/live/world-cup-day-1-scores-results-korea-tops-czechia-after-wild-finish-mexico-handles-south-africa-in-ugly-affair-150000044.html",
+          "source": "Yahoo Sports"
+        }
+      ]
+    },
+    {
+      "query": "selección de fútbol de costa de marfil",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Michael Oliver será el árbitro central para el debut de Ecuador ante Costa de Marfil en el Mundial 2026",
+          "url": "https://www.eluniverso.com/deportes/futbol/michael-oliver-sera-el-arbitro-central-para-el-debut-de-ecuador-ante-costa-de-marfil-en-el-mundial-2026-nota/",
+          "source": "El Universo"
+        },
+        {
+          "title": "Terna inglesa para el Ecuador vs Costa de Marfil, y ya puedes preguntarle al ChatBot todo sobre ellos",
+          "url": "https://www.futbolecuador.com/terna-inglesa-para-el-ecuador-vs-costa-de-marfila-y-ya-puedes-preguntarle-al-chatbot-todo-sobre-ellos/168907",
+          "source": "FutbolEcuador.com"
+        },
+        {
+          "title": "Ecuador debutará en el Mundial 2026 con pronóstico de lluvias",
+          "url": "https://www.elcomercio.com/actualidad/ecuador/ecuador-debutara-mundial-pronostico-lluvias/",
+          "source": "El Comercio"
+        }
+      ]
+    },
+    {
+      "query": "raul jimenez",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "World Cup 2026: Raul Jimenez completes comeback in Mexico win",
+          "url": "https://www.bbc.com/sport/football/articles/cm2dl67rljvo",
+          "source": "BBC"
+        },
+        {
+          "title": "Everything you missed from day one at World Cup 2026: Jimenez’s tears, hydration break controversy and empty seats",
+          "url": "https://www.independent.co.uk/sport/football/world-cup-2026-mexico-south-africa-south-korea-czech-republic-b2994371.html",
+          "source": "The Independent"
+        },
+        {
+          "title": "What happened to Raúl Jiménez&apos;s head and why does he play with a protective headband? A story of overcoming adversity",
+          "url": "https://www.marca.com/en/world-cup/2026/06/12/what-happened-to-raul-jimenez-s-head-and-why-does-he-play-with-a-protective-headband-a-story-of-overcoming-adversity.html",
+          "source": "MARCA"
+        }
+      ]
+    },
+    {
+      "query": "mexico vs south africa world cup 2026",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "FIFA World Cup: Memes Galore After 3 Red Cards Shown In Mexico vs South Africa Opener",
+          "url": "https://sports.ndtv.com/fifa-world-cup-2026/fifa-world-cup-memes-galore-after-3-red-cards-shown-in-mexico-vs-south-africa-opener-11625518",
+          "source": "NDTV Sports"
+        },
+        {
+          "title": "Who is Wilton Sampaio? Referee who issued three red cards in the FIFA World Cup opener between Mexico and South Africa | Football News",
+          "url": "https://www.hindustantimes.com/sports/football/who-is-wilton-sampaio-referee-who-issued-three-red-cards-in-the-fifa-world-cup-opener-between-mexico-and-south-africa-101781227298877.html",
+          "source": "Hindustan Times"
+        },
+        {
+          "title": "South Africa&apos;s red card confusion becomes World Cup&apos;s first viral meme",
+          "url": "https://www.euronews.com/2026/06/12/nobody-knew-what-the-ref-was-saying-and-the-internet-loved-it-world-cups-first-meme-is-alr",
+          "source": "Euronews"
+        }
+      ]
+    },
+    {
+      "query": "fifa",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "South Korea beats Czech Republic but why all the empty seats at World Cup’s second game?",
+          "url": "https://www.nytimes.com/athletic/7352470/2026/06/11/czech-republic-south-korea-empty-seats/",
+          "source": "The New York Times"
+        },
+        {
+          "title": "Empty seats on World Cup’s opening day renew ticket price concerns",
+          "url": "https://www.nbcnews.com/sports/soccer/empty-seats-world-cups-opening-day-renew-ticket-price-concerns-rcna349748",
+          "source": "NBC News"
+        },
+        {
+          "title": "Fifa World Cup match sees thousands of empty seats after ticket price controversy",
+          "url": "https://sports.yahoo.com/articles/fifa-world-cup-match-sees-041146066.html",
+          "source": "Yahoo Sports"
+        }
+      ]
+    },
+    {
+      "query": "fifa world cup",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "World ’Cup-onomics’ 2026: A More Diversified Economic Event",
+          "url": "https://www.investing.com/analysis/world-cuponomics-2026-a-more-diversified-economic-event-200682020",
+          "source": "Investing.com"
+        },
+        {
+          "title": "The World Cup is a big chance for retail media to prove itself to advertisers",
+          "url": "https://digiday.com/media/the-world-cup-is-a-big-chance-for-retail-media-to-prove-itself-to-advertisers/",
+          "source": "Digiday"
+        },
+        {
+          "title": "2026 World Cup: Billion-Dollar Growth Forecast for North American Hotels",
+          "url": "https://www.travelandtourworld.com/news/article/cvrapwk8t7uh/",
+          "source": "Travel And Tour World"
+        }
+      ]
+    },
+    {
+      "query": "tarjeta directa",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Las nuevas reglas que debes saber para este Mundial: guerra a las pérdidas de tiempo, cambio en el protocolo VAR...",
+          "url": "https://www.marca.com/futbol/mundial/2026/06/11/nuevas-reglas-mundial-guerra-perdidas-cambio-protocolo-var.html",
+          "source": "MARCA"
+        },
+        {
+          "title": "El Mundial 2026 estrena las nuevas reglas aprobadas por la IFAB",
+          "url": "https://www.elcomercio.com/deportes/futbol/mundial-estrena-nuevas-reglas-ifab/",
+          "source": "El Comercio"
+        },
+        {
+          "title": "La &apos;Ley Vinicius&apos; entra en vigor hoy: todas las novedades reglamentarias del Mundial 2026",
+          "url": "https://www.sport.es/es/noticias/mundial-futbol/ley-vinicius-entra-vigor-hoy-131280880",
+          "source": "SPORT"
+        }
+      ]
+    },
+    {
+      "query": "canada vs",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Canada and USA take centre stage on day two of World Cup 2026",
+          "url": "https://www.fifa.com/en/articles/preview-matchday-two",
+          "source": "FIFA"
+        },
+        {
+          "title": "Canada vs. Bosnia and Herzegovina odds, prediction, time: 2026 World Cup picks, bets by expert on 18-8 roll",
+          "url": "https://www.cbssports.com/soccer/news/canada-bosnia-and-herzegovina-odds-prediction-time-2026-world-cup-picks/",
+          "source": "CBS Sports"
+        },
+        {
+          "title": "PREVIEW Soccer-Canada&apos;s World Cup dreams face first test as injury-hit hosts meet Bosnia",
+          "url": "https://www.reuters.com/sports/soccer/canadas-world-cup-dreams-face-first-test-injury-hit-hosts-meet-bosnia-2026-06-10/",
+          "source": "Reuters"
+        }
+      ]
+    },
+    {
+      "query": "dazn",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "DAZN to Bring DSPORTS Network, Home of All FIFA World Cup 2026™ Matches, Across Five Latin American Countries",
+          "url": "https://dazngroup.com/press-room/dazn-to-bring-dsports-network-home-of-all-fifa-world-cup-2026-matches-across-five-latin-american-countries/",
+          "source": "DAZN Group"
+        },
+        {
+          "title": "DAZN, DirecTV Latin America strike sports channel deal ahead of World Cup",
+          "url": "https://www.reuters.com/sports/soccer/dazn-directv-latin-america-strike-sports-channel-deal-ahead-world-cup-2026-06-11/",
+          "source": "Reuters"
+        },
+        {
+          "title": "All World Cup matches are now available on one platform without restrictions",
+          "url": "https://russpain.com/en/news-3/dazn-opens-full-access-to-2026-world-cup-matches-for-19-99-euros-481940/",
+          "source": "russpain.com"
+        }
+      ]
+    },
+    {
+      "query": "korea",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "Licensable picture: FIFA World Cup 2026 - Group A - South Korea v Czech Republic",
+          "url": "https://www.reutersconnect.com/item/fifa-world-cup-2026-group-a-south-korea-v-czech-republic/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1VQMUVNNkMwQjNZOTM",
+          "source": "Reuters Connect"
+        },
+        {
+          "title": "Dad strength: S. Korean goalkeeper makes clutch saves after video call with newborn daughter",
+          "url": "https://www.koreatimes.co.kr/sports/20260612/dad-strength-s-korean-goalkeeper-makes-clutch-saves-after-video-call-with-newborn-daughter",
+          "source": "The Korea Times"
+        },
+        {
+          "title": "Bet365 Bonus Code: Bet $10, Get $365 in Bonus Bets for South Korea vs Czechia",
+          "url": "https://www.si.com/betting-promo/bet365-bonus-code-bet-10-get-365-in-bonus-bets-for-south-korea-vs-czechia-01ktvb9m7jk1",
+          "source": "Sports Illustrated"
+        }
+      ]
+    },
+    {
+      "query": "mundial hoy",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Mundial 2026: qué partidos se juegan hoy, 12 de junio, a qué hora y dónde se pueden ver en vivo",
+          "url": "https://www.elpais.com.uy/ovacion/mundial/mundial-2026-que-partidos-se-juegan-hoy-12-de-junio-a-que-hora-y-donde-se-pueden-ver-en-vivo",
+          "source": "EL PAÍS Uruguay"
+        },
+        {
+          "title": "En el segundo día del Mundial 2026 se juega Canadá-Bosnia y EEUU-Paraguay; detalles y dónde verlos",
+          "url": "https://ladiaria.com.uy/deporte/articulo/2026/6/locales-a-escena-el-viernes-se-estrenan-en-el-mundial-2026-canada-y-estados-unidos/",
+          "source": "la diaria"
+        },
+        {
+          "title": "Canadá vs. Bosnia-Herzegovina, EN VIVO por el Mundial 2026",
+          "url": "https://www.lanacion.com.ar/deportes/canada-vs-bosnia-herzegovina-en-vivo-por-el-mundial-2026-nid12062026/",
+          "source": "La Nación"
+        }
+      ]
+    },
+    {
+      "query": "partidos de copa mundial de fútbol",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 5000,
+      "articles": [
+        {
+          "title": "Para agendar: lista de partidos de fase de grupo del Mundial que transmitirá Canal 5",
+          "url": "https://mediospublicos.uy/mundial2026/",
+          "source": "Portal Medios Públicos"
+        },
+        {
+          "title": "Presentación de programación de Canal 5 y Antel TV para la Copa Mundial de la FIFA 2026",
+          "url": "https://www.gub.uy/presidencia/comunicacion/publicaciones/presentacion-programacion-canal-5-antel-tv-para-copa-mundial-fifa-2026",
+          "source": "GUB.UY"
+        },
+        {
+          "title": "Viví la Fan Fest oficial de la celeste en Montevideo",
+          "url": "https://montevideo.gub.uy/noticias/vivi-la-fan-fest-oficial-de-la-celeste-en-montevideo",
+          "source": "Intendencia de Montevideo"
+        }
+      ]
+    },
+    {
+      "query": "partidos del mundial",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 5000,
+      "articles": [
+        {
+          "title": "Mundial 2026 EN VIVO: seguí todo lo que pasa en la Copa del Mundo, minuto a minuto, en el blog de Referí",
+          "url": "https://www.elobservador.com.uy/mundial-2026/mundial-2026-vivo-segui-todo-lo-que-pasa-la-copa-del-mundo-minuto-minuto-el-blog-referi-n6047071",
+          "source": "El Observador"
+        },
+        {
+          "title": "Mundial 2026, en VIVO: últimas noticias de hoy, 12 de junio, el minuto a minuto, los partidos de la jornada y las perlitas del día",
+          "url": "https://www.infobae.com/deportes/2026/06/12/mundial-2026-en-vivo-ultimas-noticias-de-hoy-12-de-junio-el-minuto-a-minuto-los-partidos-de-la-jornada-y-las-perlitas-del-dia/",
+          "source": "Infobae"
+        },
+        {
+          "title": "Mundial 2026, hoy EN VIVO: Selección Argentina, primeros partidos y otras noticias del jueves 11 de junio",
+          "url": "https://www.ole.com.ar/mundial/mundial-2026/mundial-2026-noticias-jueves-11-junio-2026-seleccion-argentina-partido-inaugural-mexico-sudafrica_0_Yax79JEPZq.html",
+          "source": "Olé"
+        }
+      ]
+    },
+    {
+      "query": "méxico vs",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "El primer gol del Mundial 2026: Julián Quiñones se unió a Pelé, Klinsmann, Lahm y otros",
+          "url": "https://www.montevideo.com.uy/Deportes/El-primer-gol-del-Mundial-2026-Julian-Quinones-se-unio-a-Pele-Klinsmann-Lahm-y-otros-uc964933",
+          "source": "Montevideo Portal"
+        },
+        {
+          "title": "México ganó con autoridad en el partido inaugural",
+          "url": "https://www.eltelegrafo.com/2026/06/mexico-gano-con-autoridad-en-el-partido-inaugural/",
+          "source": "El Telégrafo"
+        },
+        {
+          "title": "El mismo baile: Quiñones imitó el festejo de Tshabalala al hacer el primer gol del Mundial en otro México-Sudáfrica",
+          "url": "https://www.elpais.com.uy/ovacion/mundial/el-mismo-baile-quinonez-imito-el-festejo-de-tshabalala-al-hacer-el-primer-gol-del-mundial-en-otro-mexico-sudafrica",
+          "source": "EL PAÍS Uruguay"
+        }
+      ]
+    },
+    {
+      "query": "korea fc",
+      "geo": "BR",
+      "language": "pt",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "🎥 Tequila, long faces in South Africa and... best of World Cup day 1 😂",
+          "url": "https://onefootball.com/fr/news/tequila-long-faces-in-south-africa-and-best-of-world-cup-day-1-42998329",
+          "source": "OneFootball"
+        },
+        {
+          "title": "World Cup latest – LIVE updates as tournament enters second day",
+          "url": "https://hayters.com/world-cup-latest-live-updates-as-tournament-enters-second-day/",
+          "source": "Hayters TV"
+        },
+        {
+          "title": "World Cup 2026 live: Team news, transfer targets to watch as tournament kicks off today",
+          "url": "https://www.caughtoffside.com/2026/06/11/world-cup-2026-live-news/",
+          "source": "CaughtOffside"
+        }
+      ]
+    },
+    {
+      "query": "galvão bueno",
+      "geo": "BR",
+      "language": "pt",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Sem Galvão Bueno e com Tiago Leifert, SBT tropeça na abertura da Copa",
+          "url": "https://veja.abril.com.br/esporte/sem-galvao-bueno-e-com-tiago-leifert-sbt-tropeca-na-abertura-da-copa/",
+          "source": "VEJA"
+        },
+        {
+          "title": "Primeira Copa sem &apos;voz nacional&apos;: o que será de 2026 sem Galvão na Globo",
+          "url": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/06/11/primeira-copa-sem-uma-voz-nacional-o-que-sera-2026-sem-galvao-na-globo.htm",
+          "source": "UOL"
+        },
+        {
+          "title": "Entenda por que Galvão Bueno não narrou o jogo de abertura da Copa do Mundo 2026 no SBT",
+          "url": "https://www.estadao.com.br/esportes/copa-do-mundo/entenda-por-que-galvao-bueno-nao-narrou-o-jogo-de-abertura-da-copa-do-mundo-2026-no-sbt-npres/",
+          "source": "Estadão"
+        }
+      ]
+    },
+    {
+      "query": "scott mctominay",
+      "geo": "GB",
+      "language": "en",
+      "source": "google-trends-daily",
+      "score": 5000,
+      "articles": [
+        {
+          "title": "Scott McTominay: Scotland midfielder not with team as they arrive at Boston hotel",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c78y50pmd2go",
+          "source": "BBC"
+        },
+        {
+          "title": "Fifa World Cup 2026: Watch Scotland training before Haiti match",
+          "url": "https://www.bbc.com/sport/football/live/cvg4wnxpppnt",
+          "source": "BBC"
+        },
+        {
+          "title": "McTominay should be fit for Scotland’s World Cup opener despite stomach bug",
+          "url": "https://www.theguardian.com/football/2026/jun/11/scott-mctominay-scotland-world-cup-opener-stomach-bug",
+          "source": "The Guardian"
+        }
+      ]
+    },
+    {
+      "query": "check24 trikot",
+      "geo": "DE",
+      "language": "de",
+      "source": "google-trends-daily",
+      "score": 10000,
+      "articles": [
+        {
+          "title": "Fußball-WM 2026: Welches WM-Trikot gefällt Ihnen am besten?",
+          "url": "https://www.spiegel.de/sport/fussball/fussball-wm-2026-welches-wm-trikot-gefaellt-ihnen-am-besten-a-3958b807-5055-4aaf-9b6d-509b213f67b7",
+          "source": "Spiegel"
+        },
+        {
+          "title": "Fußball-WM: Der Trikot-Boom und die Milliardengeschäfte mit Fan-Utensilien",
+          "url": "https://www.sueddeutsche.de/wirtschaft/wm-trikots-deutschland-adidas-nike-wechsel-li.3490065",
+          "source": "SZ.de"
+        },
+        {
+          "title": "Fußball-WM 2026: Das sind die schönsten Trikots des Turniers",
+          "url": "https://www.11freunde.de/wm/fussball-wm-2026-das-sind-die-schoensten-trikots-des-turniers-a-03a5120d-82aa-45b4-b76f-9c3a79a213be",
+          "source": "11Freunde"
+        }
+      ]
+    },
+    {
+      "query": "winston-salem",
+      "geo": "DE",
+      "language": "de",
+      "source": "google-trends-daily",
+      "score": 10000,
+      "articles": [
+        {
+          "title": "WM 2026: Deniz Undav führt durchs DFB-Hotel in den USA",
+          "url": "https://www.bild.de/sport/fussball/wm-2026-deniz-undav-fuehrt-durchs-dfb-hotel-in-den-usa-6a2abec9a8f463c23bad244a",
+          "source": "BILD"
+        },
+        {
+          "title": "Der Grundstein zur WM ist gelegt - auch dank Nationaltrainer Nagelsmann!",
+          "url": "https://sport.sky.de/fussball/artikel/der-grundstein-zur-wm-ist-gelegt-auch-dank-nationaltrainer-nagelsmann/13553237/34130",
+          "source": "Sky.de"
+        },
+        {
+          "title": "„Bruda, hier mache ich safe mal eine Arschbombe, wenn das Wetter mitspielt“",
+          "url": "https://www.welt.de/sport/fussball/wm/article6a2ae75bd5e382c003a7bca9/einblick-ins-wm-quartier-bruda-hier-mache-ich-safe-mal-eine-arschbombe-wenn-das-wetter-mitspielt.html",
+          "source": "WELT"
+        }
+      ]
+    },
+    {
+      "query": "fotmob",
+      "geo": "PT",
+      "language": "pt",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "This free Wear OS watch face is a must-have for World Cup fans",
+          "url": "https://www.androidauthority.com/facer-citizen-kick-it-world-cup-wear-os-watch-face-3676740/",
+          "source": "Android Authority"
+        },
+        {
+          "title": "This free Garmin watch face is perfect for World Cup fans — see every match and live scores at a glance",
+          "url": "https://www.tomsguide.com/wellness/smartwatches/this-free-garmin-watch-face-is-perfect-for-world-cup-fans-see-every-match-and-live-scores-at-a-glance",
+          "source": "Tom&apos;s Guide"
+        },
+        {
+          "title": "This Watch Face Brings Live FIFA World Cup 2026 Scores to Your Galaxy Watch",
+          "url": "https://sammyguru.com/kick-it-watch-face-fifa-world-cup/",
+          "source": "SammyGuru"
+        }
+      ]
+    },
+    {
+      "query": "south korea vs czechia",
+      "geo": "MA",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "South Korea 2-1 Czech Republic LIVE: FIFA World Cup 2026 Group A: South Korea come from behind to win",
+          "url": "https://www.bbc.com/sport/football/live/ckg0vvrg70vt",
+          "source": "BBC"
+        },
+        {
+          "title": "Dad strength: S. Korean goalkeeper makes clutch saves after video call with newborn daughter",
+          "url": "https://www.koreatimes.co.kr/sports/20260612/dad-strength-s-korean-goalkeeper-makes-clutch-saves-after-video-call-with-newborn-daughter",
+          "source": "The Korea Times"
+        },
+        {
+          "title": "Bet365 Bonus Code: Bet $10, Get $365 in Bonus Bets for South Korea vs Czechia",
+          "url": "https://www.si.com/betting-promo/bet365-bonus-code-bet-10-get-365-in-bonus-bets-for-south-korea-vs-czechia-01ktvb9m7jk1",
+          "source": "Sports Illustrated"
+        }
+      ]
+    },
+    {
+      "query": "world cup matches",
+      "geo": "MA",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "USMNT vs. Paraguay World Cup mega-preview: Predictions, odds, must-reads and more",
+          "url": "https://www.nytimes.com/athletic/7348861/2026/06/12/usmnt-paraguay-world-cup-preview-odds-predictions-lineups/",
+          "source": "The New York Times"
+        },
+        {
+          "title": "USA vs Paraguay: World Cup 2026 group match – Trump, schedule, lineups",
+          "url": "https://www.aljazeera.com/sports/2026/6/12/usa-vs-paraguay-world-cup-2026-group-match-trump-schedule-lineups",
+          "source": "Al Jazeera"
+        },
+        {
+          "title": "USA vs. Paraguay: Key Players, Projected Lineup, What To Know",
+          "url": "https://www.foxsports.com/stories/soccer/usa-vs-paraguay-key-players-projected-lineup-what-know",
+          "source": "FOX Sports"
+        }
+      ]
+    },
+    {
+      "query": "tyla",
+      "geo": "MA",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Tyla Performs in Jeffrey Campbell Heels at the 2026 FIFA World Cup Opening Ceremony",
+          "url": "https://wwd.com/footwear-news/shoe-trends/tyla-jeffrey-campbell-shoes-2026-fifa-world-cup-1239004537/",
+          "source": "WWD"
+        },
+        {
+          "title": "Inside Tyla’s custom &apos;RSA&apos; concept dress for the World Cup opening ceremony",
+          "url": "https://iol.co.za/fifa-world-cup-2026/updates/2026-06-12-inside-tylas-custom-rsa-concept-dress-for-the-world-cup-opening-ceremony/",
+          "source": "IOL"
+        },
+        {
+          "title": "Tyla and Becky G beam with smiles as they&apos;re spotted at World Cup opening match",
+          "url": "https://www.dailystar.co.uk/showbiz/tyla-becky-g-beam-smiles-37283296",
+          "source": "Daily Star"
+        }
+      ]
+    },
+    {
+      "query": "raul jimenez",
+      "geo": "MA",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "World Cup 2026: Raul Jimenez completes comeback in Mexico win",
+          "url": "https://www.bbc.com/sport/football/articles/cm2dl67rljvo",
+          "source": "BBC"
+        },
+        {
+          "title": "Everything you missed from day one at World Cup 2026: Jimenez’s tears, hydration break controversy and empty seats",
+          "url": "https://www.independent.co.uk/sport/football/world-cup-2026-mexico-south-africa-south-korea-czech-republic-b2994371.html",
+          "source": "The Independent"
+        },
+        {
+          "title": "What happened to Raúl Jiménez&apos;s head and why does he play with a protective headband? A story of overcoming adversity",
+          "url": "https://www.marca.com/en/world-cup/2026/06/12/what-happened-to-raul-jimenez-s-head-and-why-does-he-play-with-a-protective-headband-a-story-of-overcoming-adversity.html",
+          "source": "MARCA"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "en": [
+      {
+        "query": "scott mctominay",
+        "score": 5500,
+        "geos": [
+          "GB"
+        ],
+        "samples": [
+          {
+            "query": "scott mctominay",
+            "geo": "GB",
+            "language": "en",
+            "source": "google-trends-daily",
+            "score": 5000,
+            "articles": [
+              {
+                "title": "Scott McTominay: Scotland midfielder not with team as they arrive at Boston hotel",
+                "url": "https://www.bbc.co.uk/sport/football/articles/c78y50pmd2go",
+                "source": "BBC"
+              },
+              {
+                "title": "Fifa World Cup 2026: Watch Scotland training before Haiti match",
+                "url": "https://www.bbc.com/sport/football/live/cvg4wnxpppnt",
+                "source": "BBC"
+              },
+              {
+                "title": "McTominay should be fit for Scotland’s World Cup opener despite stomach bug",
+                "url": "https://www.theguardian.com/football/2026/jun/11/scott-mctominay-scotland-world-cup-opener-stomach-bug",
+                "source": "The Guardian"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "estados unidos",
+        "score": 700,
+        "geos": [
+          "US"
+        ],
+        "samples": [
+          {
+            "query": "estados unidos",
+            "geo": "US",
+            "language": "en",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "EN VIVO: Estados Unidos arranca su participación en el Mundial 2026 ante Paraguay en el Los Angeles Stadium",
+                "url": "https://www.latimes.com/espanol/deportes/live/en-vivo-estados-unidos-arranca-su-participacion-en-el-mundial-2026-ante-paraguay-en-el-los-angeles-stadium",
+                "source": "Los Angeles Times"
+              },
+              {
+                "title": "Estados Unidos vs Paraguay: posibles alineaciones del partido",
+                "url": "https://espndeportes.espn.com/futbol/mundial/nota/_/id/16828212/estados-unidos-vs-paraguay-mundial-2026-alineaciones-horario-partido",
+                "source": "ESPN Deportes"
+              },
+              {
+                "title": "Estados Unidos inaugura su Mundial contra un serio rival en Los Ángeles. ¿Cuál es el pronóstico?",
+                "url": "https://www.elnuevoherald.com/deportes/futbol/copa-mundial-fifa/article316089526.html",
+                "source": "El Nuevo Herald"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "es": [
+      {
+        "query": "korea vs",
+        "score": 8000,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "korea vs",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 10000,
+            "articles": [
+              {
+                "title": "South Korea overcome Czechia via Hwang In-Beom&apos;s brilliant display",
+                "url": "https://www.espn.com/soccer/story/_/id/49037668/south-korea-overcome-czechia-via-hwang-beom-brilliant-display-world-cup",
+                "source": "ESPN"
+              },
+              {
+                "title": "South Korea vs Czechia Highlights | 2026 FIFA World Cup™",
+                "url": "https://www.foxsports.com/watch/fmc-18j026gny6xn16jb",
+                "source": "FOX Sports"
+              },
+              {
+                "title": "World Cup Day 1 scores, results: Korea tops Czechia after wild finish, Mexico handles South Africa in ugly affair",
+                "url": "https://sports.yahoo.com/soccer/live/world-cup-day-1-scores-results-korea-tops-czechia-after-wild-finish-mexico-handles-south-africa-in-ugly-affair-150000044.html",
+                "source": "Yahoo Sports"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "canada vs bosnia",
+        "score": 6010,
+        "geos": [
+          "AR",
+          "CO",
+          "CL",
+          "PE",
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "canada vs bosnia",
+            "geo": "AR",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "Canada v Bosnia-Herzegovina Prediction, Tips and Bet Builder",
+                "url": "https://news.bet365.com/en-gb/article/football-canada-bosnia-herzegovina-prediction-and-tips/2026061109084000661",
+                "source": "news.bet365.com"
+              },
+              {
+                "title": "FIFA World Cup: Press conference held ahead of group stage match between Canada, Bosnia and Herzegovina",
+                "url": "http://english.news.cn/20260612/6b91aa2374f54ea4bc96a538a0fb5bcd/c.html",
+                "source": "Xinhua"
+              },
+              {
+                "title": "World Cup Best Bets Today (Predictions for USA vs. Paraguay and Canada vs. Bosnia & Herzegovina",
+                "url": "https://www.si.com/betting/world-cup-best-bets-today-predictions-for-usa-vs-paraguay-and-canada-vs-bosnia-and-herzegovina",
+                "source": "Sports Illustrated"
+              }
+            ]
+          },
+          {
+            "query": "canada vs bosnia",
+            "geo": "CO",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "Canada vs Bosnia-Herzegovina Prediction: World Cup 2026 Match Preview",
+                "url": "https://theanalyst.com/articles/canada-vs-bosnia-herzegovina-prediction-world-cup-2026-match-preview",
+                "source": "Opta Analyst"
+              },
+              {
+                "title": "World Cup Best Bets Today (Predictions for USA vs. Paraguay and Canada vs. Bosnia & Herzegovina",
+                "url": "https://www.si.com/betting/world-cup-best-bets-today-predictions-for-usa-vs-paraguay-and-canada-vs-bosnia-and-herzegovina",
+                "source": "Sports Illustrated"
+              },
+              {
+                "title": "Alphonso Davies suffers injury blow ahead of World Cup blow as Canada miss star player against Bosnia-Herzegovina",
+                "url": "https://www.goal.com/en-au/lists/world-cup-news-canada-alphonso-davies-injury-misses-opener/blt70b8865d97c189dc",
+                "source": "Goal.com"
+              }
+            ]
+          },
+          {
+            "query": "canada vs bosnia",
+            "geo": "CL",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "World Cup day 2: USA, Canada begin – schedule, predictions and how to watch",
+                "url": "https://www.aljazeera.com/news/2026/6/12/world-cup-day-2-usa-canada-begin-schedule-predictions-and-how-to-watch",
+                "source": "Al Jazeera"
+              },
+              {
+                "title": "Bosnia Will Play with Hearts in World Cup Opener, Says Coach Barbarez",
+                "url": "https://english.aawsat.com/sports/5283152-bosnia-will-play-hearts-world-cup-opener-says-coach-barbarez",
+                "source": "Asharq Al-Awsat English"
+              },
+              {
+                "title": "FIFA World Cup: Press conference held ahead of group stage match between Canada, Bosnia and Herzegovina",
+                "url": "http://english.news.cn/20260612/6b91aa2374f54ea4bc96a538a0fb5bcd/c.html",
+                "source": "Xinhua"
+              }
+            ]
+          },
+          {
+            "query": "canada vs bosnia",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "World Cup day 2: USA, Canada begin – schedule, predictions and how to watch",
+                "url": "https://www.aljazeera.com/news/2026/6/12/world-cup-day-2-usa-canada-begin-schedule-predictions-and-how-to-watch",
+                "source": "Al Jazeera"
+              },
+              {
+                "title": "Bosnia Will Play with Hearts in World Cup Opener, Says Coach Barbarez",
+                "url": "https://english.aawsat.com/sports/5283152-bosnia-will-play-hearts-world-cup-opener-says-coach-barbarez",
+                "source": "Asharq Al-Awsat English"
+              },
+              {
+                "title": "FIFA World Cup: Press conference held ahead of group stage match between Canada, Bosnia and Herzegovina",
+                "url": "http://english.news.cn/20260612/6b91aa2374f54ea4bc96a538a0fb5bcd/c.html",
+                "source": "Xinhua"
+              }
+            ]
+          },
+          {
+            "query": "canada vs bosnia",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "World Cup day 2: USA, Canada begin – schedule, predictions and how to watch",
+                "url": "https://www.aljazeera.com/news/2026/6/12/world-cup-day-2-usa-canada-begin-schedule-predictions-and-how-to-watch",
+                "source": "Al Jazeera"
+              },
+              {
+                "title": "Bosnia Will Play with Hearts in World Cup Opener, Says Coach Barbarez",
+                "url": "https://english.aawsat.com/sports/5283152-bosnia-will-play-hearts-world-cup-opener-says-coach-barbarez",
+                "source": "Asharq Al-Awsat English"
+              },
+              {
+                "title": "FIFA World Cup: Press conference held ahead of group stage match between Canada, Bosnia and Herzegovina",
+                "url": "http://english.news.cn/20260612/6b91aa2374f54ea4bc96a538a0fb5bcd/c.html",
+                "source": "Xinhua"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "partidos de copa mundial de fútbol",
+        "score": 4500,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "partidos de copa mundial de fútbol",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 5000,
+            "articles": [
+              {
+                "title": "Para agendar: lista de partidos de fase de grupo del Mundial que transmitirá Canal 5",
+                "url": "https://mediospublicos.uy/mundial2026/",
+                "source": "Portal Medios Públicos"
+              },
+              {
+                "title": "Presentación de programación de Canal 5 y Antel TV para la Copa Mundial de la FIFA 2026",
+                "url": "https://www.gub.uy/presidencia/comunicacion/publicaciones/presentacion-programacion-canal-5-antel-tv-para-copa-mundial-fifa-2026",
+                "source": "GUB.UY"
+              },
+              {
+                "title": "Viví la Fan Fest oficial de la celeste en Montevideo",
+                "url": "https://montevideo.gub.uy/noticias/vivi-la-fan-fest-oficial-de-la-celeste-en-montevideo",
+                "source": "Intendencia de Montevideo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "partidos del mundial",
+        "score": 4500,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "partidos del mundial",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 5000,
+            "articles": [
+              {
+                "title": "Mundial 2026 EN VIVO: seguí todo lo que pasa en la Copa del Mundo, minuto a minuto, en el blog de Referí",
+                "url": "https://www.elobservador.com.uy/mundial-2026/mundial-2026-vivo-segui-todo-lo-que-pasa-la-copa-del-mundo-minuto-minuto-el-blog-referi-n6047071",
+                "source": "El Observador"
+              },
+              {
+                "title": "Mundial 2026, en VIVO: últimas noticias de hoy, 12 de junio, el minuto a minuto, los partidos de la jornada y las perlitas del día",
+                "url": "https://www.infobae.com/deportes/2026/06/12/mundial-2026-en-vivo-ultimas-noticias-de-hoy-12-de-junio-el-minuto-a-minuto-los-partidos-de-la-jornada-y-las-perlitas-del-dia/",
+                "source": "Infobae"
+              },
+              {
+                "title": "Mundial 2026, hoy EN VIVO: Selección Argentina, primeros partidos y otras noticias del jueves 11 de junio",
+                "url": "https://www.ole.com.ar/mundial/mundial-2026/mundial-2026-noticias-jueves-11-junio-2026-seleccion-argentina-partido-inaugural-mexico-sudafrica_0_Yax79JEPZq.html",
+                "source": "Olé"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "korea fc",
+        "score": 1980,
+        "geos": [
+          "AR",
+          "CO",
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "korea fc",
+            "geo": "AR",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "🎥 Tequila, fiesta, faces in South Africa... day one’s funniest bits 😂",
+                "url": "https://sports.yahoo.com/articles/tequila-fiesta-faces-south-africa-055200711.html",
+                "source": "Yahoo Sports"
+              },
+              {
+                "title": "World Cup latest – LIVE updates as tournament enters second day",
+                "url": "https://hayters.com/world-cup-latest-live-updates-as-tournament-enters-second-day/",
+                "source": "Hayters TV"
+              },
+              {
+                "title": "World Cup 2026 live: Team news, transfer targets to watch as tournament kicks off today",
+                "url": "https://www.caughtoffside.com/2026/06/11/world-cup-2026-live-news/",
+                "source": "CaughtOffside"
+              }
+            ]
+          },
+          {
+            "query": "korea fc",
+            "geo": "CO",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "🎥 Tequila, fiesta, faces in South Africa... day one’s funniest bits 😂",
+                "url": "https://sports.yahoo.com/articles/tequila-fiesta-faces-south-africa-055200711.html",
+                "source": "Yahoo Sports"
+              },
+              {
+                "title": "World Cup latest – LIVE updates as tournament enters second day",
+                "url": "https://hayters.com/world-cup-latest-live-updates-as-tournament-enters-second-day/",
+                "source": "Hayters TV"
+              },
+              {
+                "title": "World Cup 2026 live: Team news, transfer targets to watch as tournament kicks off today",
+                "url": "https://www.caughtoffside.com/2026/06/11/world-cup-2026-live-news/",
+                "source": "CaughtOffside"
+              }
+            ]
+          },
+          {
+            "query": "korea fc",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "🎥 Tequila, fiesta, faces in South Africa... day one’s funniest bits 😂",
+                "url": "https://sports.yahoo.com/articles/tequila-fiesta-faces-south-africa-055200711.html",
+                "source": "Yahoo Sports"
+              },
+              {
+                "title": "World Cup latest – LIVE updates as tournament enters second day",
+                "url": "https://hayters.com/world-cup-latest-live-updates-as-tournament-enters-second-day/",
+                "source": "Hayters TV"
+              },
+              {
+                "title": "World Cup 2026 live: Team news, transfer targets to watch as tournament kicks off today",
+                "url": "https://www.caughtoffside.com/2026/06/11/world-cup-2026-live-news/",
+                "source": "CaughtOffside"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "estados unidos vs",
+        "score": 1800,
+        "geos": [
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "estados unidos vs",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "¡Se enciende el Mundial! Estados Unidos vs Paraguay EN VIVO: hora, canales y cómo ver el debut del anfitrión en la Copa del Mundo 2026",
+                "url": "https://trome.com/deportes/futbol-internacional/estados-unidos-vs-paraguay-en-vivo-hora-canales-y-como-ver-el-debut-del-anfitrion-en-la-copa-del-mundo-2026-dgo-paramount-disney-noticia/",
+                "source": "Trome.com"
+              },
+              {
+                "title": "Estados Unidos vs. Paraguay, por el Grupo D del Mundial 2026: previa, alineaciones, hora y cómo ver por TV e internet",
+                "url": "https://cnnespanol.cnn.com/2026/06/11/deportes/estados-unidos-paraguay-grupod-mundial-2026-orix",
+                "source": "CNN en Español"
+              },
+              {
+                "title": "¿Calor o condiciones ideales? El clima que se espera para el primer partido del Mundial 2026 en EE.UU.",
+                "url": "https://gestion.pe/mix/usa/calor-o-condiciones-ideales-el-clima-que-se-espera-para-el-primer-partido-del-mundial-2026-en-estados-unidos-nnda-nnni-noticia/",
+                "source": "Diario Gestión"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "japon vs",
+        "score": 1800,
+        "geos": [
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "japon vs",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "Cuándo juegan Países Bajos vs. Japón por la primera fecha de la fase de grupos del Mundial 2026: equipo, fecha, hora y TV en vivo",
+                "url": "https://www.espn.com.pe/futbol/mundial/nota/_/id/16815117/paises-bajos-vs-japon-fase-de-grupos-mundial-2026-equipo-fecha-hora-y-tv-en-vivo",
+                "source": "espn.com.pe"
+              },
+              {
+                "title": "Análisis del Grupo F del Mundial 2026: Países Bajos, Japón, Suecia y Túnez van por los octavos de final",
+                "url": "https://rpp.pe/futbol/mundial-2026/analisis-del-grupo-f-del-mundial-2026-paises-bajos-japon-suecia-y-tunez-noticia-1692430",
+                "source": "RPP"
+              },
+              {
+                "title": "Pronósticos Países Bajos vs Japón: Las claves para un posible empate con goles",
+                "url": "https://depor.com/apuestas-deportivas/paises-bajos-vs-japon-pronosticos-apuestas-cuotas-14-06-2026/",
+                "source": "Depor"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "korea",
+        "score": 1800,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "korea",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "Licensable picture: FIFA World Cup 2026 - Group A - South Korea v Czech Republic",
+                "url": "https://www.reutersconnect.com/item/fifa-world-cup-2026-group-a-south-korea-v-czech-republic/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1VQMUVNNkMwQjNZOTM",
+                "source": "Reuters Connect"
+              },
+              {
+                "title": "Dad strength: S. Korean goalkeeper makes clutch saves after video call with newborn daughter",
+                "url": "https://www.koreatimes.co.kr/sports/20260612/dad-strength-s-korean-goalkeeper-makes-clutch-saves-after-video-call-with-newborn-daughter",
+                "source": "The Korea Times"
+              },
+              {
+                "title": "Bet365 Bonus Code: Bet $10, Get $365 in Bonus Bets for South Korea vs Czechia",
+                "url": "https://www.si.com/betting-promo/bet365-bonus-code-bet-10-get-365-in-bonus-bets-for-south-korea-vs-czechia-01ktvb9m7jk1",
+                "source": "Sports Illustrated"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "japon",
+        "score": 1300,
+        "geos": [
+          "AR"
+        ],
+        "samples": [
+          {
+            "query": "japon",
+            "geo": "AR",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "Coupe du monde 2026 - Le capitaine du Japon Endo, touché au pied et forfait, annonce sa retraite internationale",
+                "url": "https://starsporttv.be/fr/content/coupe-du-monde-2026-le-capitaine-du-japon-endo-touche-au-pied-et-forfait-annonce-sa-retraite-internationale",
+                "source": "Starsporttv"
+              },
+              {
+                "title": "Le président de l’AFC souligne les ambitions de l’Asie pour une participation historique au Mondial 2026",
+                "url": "https://spa.gov.sa/fr/N2609692",
+                "source": "وكالة الأنباء السعودية"
+              },
+              {
+                "title": "L&apos;équipe nationale japonaise reçoit une mauvaise nouvelle avant son premier match de la Coupe du monde 2026.",
+                "url": "https://www.vietnam.vn/fr/tuyen-nhat-ban-nhan-tin-du-truoc-ngay-ra-quan-o-world-cup-2026",
+                "source": "Vietnam.vn"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "paraguay vs",
+        "score": 1000,
+        "geos": [
+          "CO"
+        ],
+        "samples": [
+          {
+            "query": "paraguay vs",
+            "geo": "CO",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "Estados Unidos vs Paraguay: posibles alineaciones del partido",
+                "url": "https://www.espn.com.co/futbol/mundial/nota/_/id/16828212/estados-unidos-vs-paraguay-mundial-2026-alineaciones-horario-partido",
+                "source": "ESPN Colombia"
+              },
+              {
+                "title": "EE UU abre el telón",
+                "url": "https://as.com/futbol/mundial/ee-uu-abre-el-telon-f202606-n/",
+                "source": "Diario AS"
+              },
+              {
+                "title": "Paraguay, el primer suramericano en entrar en competencia en el Mundial 2026; lo espera el anfitrión, Estados Unidos | Hora y TV",
+                "url": "https://www.eltiempo.com/deportes/futbol-internacional/paraguay-el-primer-suramericano-en-entrar-en-competencia-en-el-mundial-2026-lo-espera-el-anfitrion-estados-unidos-hora-y-tv-3563817",
+                "source": "ELTIEMPO.COM"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "resultados mundial 2026",
+        "score": 900,
+        "geos": [
+          "CL"
+        ],
+        "samples": [
+          {
+            "query": "resultados mundial 2026",
+            "geo": "CL",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "Canadá vs Bosnia y Herzegovina: posibles alineaciones del partido",
+                "url": "https://www.espn.cl/futbol/mundial/nota/_/id/16827944/mundial-2026-canada-vs-bosnia-herzegovina-alineaciones-horario",
+                "source": "ESPN Chile"
+              },
+              {
+                "title": "Canadá buscará estrenar su Mundial en casa y evitar una sorpresa de Bosnia",
+                "url": "https://www.cooperativa.cl/noticias/deportes/mundial-2026/fase-grupal/canada-buscara-estrenar-su-mundial-en-casa-y-evitar-una-sorpresa-de/2026-06-11/231023.html",
+                "source": "Cooperativa"
+              },
+              {
+                "title": "Canadá vs Bosnia: a qué hora juega, TV, canal y cómo ver el partido del Mundial 2026",
+                "url": "https://chile.as.com/futbol/canada-vs-bosnia-a-que-hora-juega-tv-canal-y-como-ver-el-partido-del-mundial-2026-f202606-n/",
+                "source": "AS Chile"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "méxico vs",
+        "score": 900,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "méxico vs",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "El primer gol del Mundial 2026: Julián Quiñones se unió a Pelé, Klinsmann, Lahm y otros",
+                "url": "https://www.montevideo.com.uy/Deportes/El-primer-gol-del-Mundial-2026-Julian-Quinones-se-unio-a-Pele-Klinsmann-Lahm-y-otros-uc964933",
+                "source": "Montevideo Portal"
+              },
+              {
+                "title": "México ganó con autoridad en el partido inaugural",
+                "url": "https://www.eltelegrafo.com/2026/06/mexico-gano-con-autoridad-en-el-partido-inaugural/",
+                "source": "El Telégrafo"
+              },
+              {
+                "title": "El mismo baile: Quiñones imitó el festejo de Tshabalala al hacer el primer gol del Mundial en otro México-Sudáfrica",
+                "url": "https://www.elpais.com.uy/ovacion/mundial/el-mismo-baile-quinonez-imito-el-festejo-de-tshabalala-al-hacer-el-primer-gol-del-mundial-en-otro-mexico-sudafrica",
+                "source": "EL PAÍS Uruguay"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "heung min son",
+        "score": 650,
+        "geos": [
+          "AR"
+        ],
+        "samples": [
+          {
+            "query": "heung min son",
+            "geo": "AR",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Mundial 2026: escándalo con periodistas en un entrenamiento de la selección de Corea del Sur",
+                "url": "https://www.lanacion.com.ar/deportes/futbol/mundial-2026-escandalo-con-periodistas-en-un-entrenamiento-de-la-seleccion-de-corea-del-sur-nid11062026/",
+                "source": "La Nación"
+              },
+              {
+                "title": "Un micrófono abierto generó una inesperada polémica con la máxima figura de Corea del Sur, a horas de su debut en el Mundial",
+                "url": "https://www.infobae.com/deportes/2026/06/11/un-microfono-abierto-genero-una-inesperada-polemica-con-la-maxima-figura-de-corea-del-sur-a-horas-de-su-debut-en-el-mundial/",
+                "source": "Infobae"
+              },
+              {
+                "title": "Polémica en Corea del Sur: periodistas fueron grabados criticando a Son por el servicio militar",
+                "url": "https://www.ellitoral.com/deportes/heung-min-servicio-militar-polemica-corea-sur-microfono-controversia-periodistas_0_Wqt65qI0IC.html",
+                "source": "El Litoral"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "ladislav krejčí",
+        "score": 630,
+        "geos": [
+          "CL",
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "ladislav krejčí",
+            "geo": "CL",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Ladislav Krejci pays tribute to Tomas Rosicky with his World Cup celebration",
+                "url": "https://www.mundodeportivo.com/en/soccer/20260612/1004194178/ladislav-krejci-pays-tribute-to-tomas-rosicky-with-his-world-cup-celebration.html",
+                "source": "Mundo Deportivo"
+              },
+              {
+                "title": "Raúl Jiménez seals Mexico’s win against nine-man South Africa in World Cup opener",
+                "url": "https://www.theguardian.com/football/2026/jun/11/mexico-south-africa-world-cup-2026-group-a-match-report",
+                "source": "The Guardian"
+              },
+              {
+                "title": "World Cup 2026: Raul Jimenez completes comeback in Mexico win",
+                "url": "https://www.bbc.com/sport/football/articles/cm2dl67rljvo",
+                "source": "BBC"
+              }
+            ]
+          },
+          {
+            "query": "ladislav krejčí",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Ladislav Krejci pays tribute to Tomas Rosicky with his World Cup celebration",
+                "url": "https://www.mundodeportivo.com/en/soccer/20260612/1004194178/ladislav-krejci-pays-tribute-to-tomas-rosicky-with-his-world-cup-celebration.html",
+                "source": "Mundo Deportivo"
+              },
+              {
+                "title": "¡Qué maestro! Hwang In-beom anotó el 1-1 de Corea del Sur tras un jugadón dentro del área",
+                "url": "https://rpp.pe/futbol/mundial-2026/ver-gol-hwang-in-beom-en-corea-del-sur-vs-republica-checa-anoto-el-1-1-tras-una-buena-jugada-dentro-del-area-partidos-de-hoy-noticia-1692701",
+                "source": "RPP"
+              },
+              {
+                "title": "Mundial 2026: empate parcial entre Corea del Sur y República Checa en la fase de grupos| Galería Fotográfica",
+                "url": "https://andina.pe/agencia/galeria-mundial-2026-empate-parcial-entre-corea-del-sur-y-republica-checa-la-fase-grupos-29668.aspx",
+                "source": "Agencia Peruana de Noticias | ANDINA"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "mundial hoy",
+        "score": 450,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "mundial hoy",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Mundial 2026: qué partidos se juegan hoy, 12 de junio, a qué hora y dónde se pueden ver en vivo",
+                "url": "https://www.elpais.com.uy/ovacion/mundial/mundial-2026-que-partidos-se-juegan-hoy-12-de-junio-a-que-hora-y-donde-se-pueden-ver-en-vivo",
+                "source": "EL PAÍS Uruguay"
+              },
+              {
+                "title": "En el segundo día del Mundial 2026 se juega Canadá-Bosnia y EEUU-Paraguay; detalles y dónde verlos",
+                "url": "https://ladiaria.com.uy/deporte/articulo/2026/6/locales-a-escena-el-viernes-se-estrenan-en-el-mundial-2026-canada-y-estados-unidos/",
+                "source": "la diaria"
+              },
+              {
+                "title": "Canadá vs. Bosnia-Herzegovina, EN VIVO por el Mundial 2026",
+                "url": "https://www.lanacion.com.ar/deportes/canada-vs-bosnia-herzegovina-en-vivo-por-el-mundial-2026-nid12062026/",
+                "source": "La Nación"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "selección de fútbol de costa de marfil",
+        "score": 400,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "selección de fútbol de costa de marfil",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Michael Oliver será el árbitro central para el debut de Ecuador ante Costa de Marfil en el Mundial 2026",
+                "url": "https://www.eluniverso.com/deportes/futbol/michael-oliver-sera-el-arbitro-central-para-el-debut-de-ecuador-ante-costa-de-marfil-en-el-mundial-2026-nota/",
+                "source": "El Universo"
+              },
+              {
+                "title": "Terna inglesa para el Ecuador vs Costa de Marfil, y ya puedes preguntarle al ChatBot todo sobre ellos",
+                "url": "https://www.futbolecuador.com/terna-inglesa-para-el-ecuador-vs-costa-de-marfila-y-ya-puedes-preguntarle-al-chatbot-todo-sobre-ellos/168907",
+                "source": "FutbolEcuador.com"
+              },
+              {
+                "title": "Ecuador debutará en el Mundial 2026 con pronóstico de lluvias",
+                "url": "https://www.elcomercio.com/actualidad/ecuador/ecuador-debutara-mundial-pronostico-lluvias/",
+                "source": "El Comercio"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "tarjeta directa",
+        "score": 400,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "tarjeta directa",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Las nuevas reglas que debes saber para este Mundial: guerra a las pérdidas de tiempo, cambio en el protocolo VAR...",
+                "url": "https://www.marca.com/futbol/mundial/2026/06/11/nuevas-reglas-mundial-guerra-perdidas-cambio-protocolo-var.html",
+                "source": "MARCA"
+              },
+              {
+                "title": "El Mundial 2026 estrena las nuevas reglas aprobadas por la IFAB",
+                "url": "https://www.elcomercio.com/deportes/futbol/mundial-estrena-nuevas-reglas-ifab/",
+                "source": "El Comercio"
+              },
+              {
+                "title": "La &apos;Ley Vinicius&apos; entra en vigor hoy: todas las novedades reglamentarias del Mundial 2026",
+                "url": "https://www.sport.es/es/noticias/mundial-futbol/ley-vinicius-entra-vigor-hoy-131280880",
+                "source": "SPORT"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "canada fc",
+        "score": 260,
+        "geos": [
+          "AR"
+        ],
+        "samples": [
+          {
+            "query": "canada fc",
+            "geo": "AR",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Canadian soccer, finally on stable ground, tightens in anticipation of a historic World Cup",
+                "url": "https://www.theguardian.com/football/2026/jun/11/canada-world-cup-opening-game-jesse-marsch",
+                "source": "The Guardian"
+              },
+              {
+                "title": "How to watch Canada live at FIFA World Cup 2026: All games – full schedule",
+                "url": "https://www.olympics.com/en/news/how-to-watch-canada-live-fifa-world-cup-2026-all-games-full-schedule",
+                "source": "Olympics"
+              },
+              {
+                "title": "I spent five years getting to know these Canada players. Let me introduce them to you.",
+                "url": "https://www.nytimes.com/athletic/7348886/2026/06/12/meet-the-canada-squad-davies-david-buchanan/",
+                "source": "The New York Times"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "estados unidos vs paraguay",
+        "score": 260,
+        "geos": [
+          "AR"
+        ],
+        "samples": [
+          {
+            "query": "estados unidos vs paraguay",
+            "geo": "AR",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Pochettino vs Alfaro: se viene un duelo de entrenadores argentinos para abrir el Mundial en Estados Unidos",
+                "url": "https://www.clarin.com/deportes/pochettino-vs-alfaro-viene-duelo-entrenadores-argentinos-abrir-mundial-estados-unidos_0_07GX3AoBzD.html",
+                "source": "Clarin.com"
+              },
+              {
+                "title": "Estados Unidos vs Paraguay en VIVO y en DIRECTO: el anfitrión del Mundial 2026 busca el primer triunfo para su afición",
+                "url": "https://www.infobae.com/mexico/2026/06/12/estados-unidos-vs-paraguay-en-vivo-y-en-directo-el-anfitrion-del-mundial-2026-busca-el-primer-triunfo-para-su-aficion/",
+                "source": "Infobae"
+              },
+              {
+                "title": "Grupo D del Mundial 2026: resultados, posiciones y calendario de partidos",
+                "url": "https://www.tycsports.com/mundial/grupo-d-del-mundial-2026-resultados-posiciones-y-calendario-de-partidos-id734958.html",
+                "source": "TyC Sports"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "lee tae-seok",
+        "score": 180,
+        "geos": [
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "lee tae-seok",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "South Korea 2-1 Czech Republic LIVE: FIFA World Cup 2026 Group A: South Korea come from behind to win",
+                "url": "https://www.bbc.com/sport/football/live/ckg0vvrg70vt",
+                "source": "BBC"
+              },
+              {
+                "title": "South Korea 2-1 Czechia: World Cup 2026 – as it happened",
+                "url": "https://www.theguardian.com/football/live/2026/jun/12/fifa-world-cup-2026-live-south-korea-v-czechia-updates-kor-vs-cze-group-a-match-score-latest",
+                "source": "The Guardian"
+              },
+              {
+                "title": "Bet365 Bonus Code: Bet $10, Get $365 in Bonus Bets for South Korea vs Czechia",
+                "url": "https://www.si.com/betting-promo/bet365-bonus-code-bet-10-get-365-in-bonus-bets-for-south-korea-vs-czechia-01ktvb9m7jk1",
+                "source": "Sports Illustrated"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "dazn",
+        "score": 180,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "dazn",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "DAZN to Bring DSPORTS Network, Home of All FIFA World Cup 2026™ Matches, Across Five Latin American Countries",
+                "url": "https://dazngroup.com/press-room/dazn-to-bring-dsports-network-home-of-all-fifa-world-cup-2026-matches-across-five-latin-american-countries/",
+                "source": "DAZN Group"
+              },
+              {
+                "title": "DAZN, DirecTV Latin America strike sports channel deal ahead of World Cup",
+                "url": "https://www.reuters.com/sports/soccer/dazn-directv-latin-america-strike-sports-channel-deal-ahead-world-cup-2026-06-11/",
+                "source": "Reuters"
+              },
+              {
+                "title": "All World Cup matches are now available on one platform without restrictions",
+                "url": "https://russpain.com/en/news-3/dazn-opens-full-access-to-2026-world-cup-matches-for-19-99-euros-481940/",
+                "source": "russpain.com"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "raul jimenez",
+        "score": 160,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "raul jimenez",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "World Cup 2026: Raul Jimenez completes comeback in Mexico win",
+                "url": "https://www.bbc.com/sport/football/articles/cm2dl67rljvo",
+                "source": "BBC"
+              },
+              {
+                "title": "Everything you missed from day one at World Cup 2026: Jimenez’s tears, hydration break controversy and empty seats",
+                "url": "https://www.independent.co.uk/sport/football/world-cup-2026-mexico-south-africa-south-korea-czech-republic-b2994371.html",
+                "source": "The Independent"
+              },
+              {
+                "title": "What happened to Raúl Jiménez&apos;s head and why does he play with a protective headband? A story of overcoming adversity",
+                "url": "https://www.marca.com/en/world-cup/2026/06/12/what-happened-to-raul-jimenez-s-head-and-why-does-he-play-with-a-protective-headband-a-story-of-overcoming-adversity.html",
+                "source": "MARCA"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "mexico vs south africa world cup 2026",
+        "score": 160,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "mexico vs south africa world cup 2026",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "FIFA World Cup: Memes Galore After 3 Red Cards Shown In Mexico vs South Africa Opener",
+                "url": "https://sports.ndtv.com/fifa-world-cup-2026/fifa-world-cup-memes-galore-after-3-red-cards-shown-in-mexico-vs-south-africa-opener-11625518",
+                "source": "NDTV Sports"
+              },
+              {
+                "title": "Who is Wilton Sampaio? Referee who issued three red cards in the FIFA World Cup opener between Mexico and South Africa | Football News",
+                "url": "https://www.hindustantimes.com/sports/football/who-is-wilton-sampaio-referee-who-issued-three-red-cards-in-the-fifa-world-cup-opener-between-mexico-and-south-africa-101781227298877.html",
+                "source": "Hindustan Times"
+              },
+              {
+                "title": "South Africa&apos;s red card confusion becomes World Cup&apos;s first viral meme",
+                "url": "https://www.euronews.com/2026/06/12/nobody-knew-what-the-ref-was-saying-and-the-internet-loved-it-world-cups-first-meme-is-alr",
+                "source": "Euronews"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "fifa",
+        "score": 160,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "fifa",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "South Korea beats Czech Republic but why all the empty seats at World Cup’s second game?",
+                "url": "https://www.nytimes.com/athletic/7352470/2026/06/11/czech-republic-south-korea-empty-seats/",
+                "source": "The New York Times"
+              },
+              {
+                "title": "Empty seats on World Cup’s opening day renew ticket price concerns",
+                "url": "https://www.nbcnews.com/sports/soccer/empty-seats-world-cups-opening-day-renew-ticket-price-concerns-rcna349748",
+                "source": "NBC News"
+              },
+              {
+                "title": "Fifa World Cup match sees thousands of empty seats after ticket price controversy",
+                "url": "https://sports.yahoo.com/articles/fifa-world-cup-match-sees-041146066.html",
+                "source": "Yahoo Sports"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "fifa world cup",
+        "score": 160,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "fifa world cup",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "World ’Cup-onomics’ 2026: A More Diversified Economic Event",
+                "url": "https://www.investing.com/analysis/world-cuponomics-2026-a-more-diversified-economic-event-200682020",
+                "source": "Investing.com"
+              },
+              {
+                "title": "The World Cup is a big chance for retail media to prove itself to advertisers",
+                "url": "https://digiday.com/media/the-world-cup-is-a-big-chance-for-retail-media-to-prove-itself-to-advertisers/",
+                "source": "Digiday"
+              },
+              {
+                "title": "2026 World Cup: Billion-Dollar Growth Forecast for North American Hotels",
+                "url": "https://www.travelandtourworld.com/news/article/cvrapwk8t7uh/",
+                "source": "Travel And Tour World"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "canada vs",
+        "score": 90,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "canada vs",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Canada and USA take centre stage on day two of World Cup 2026",
+                "url": "https://www.fifa.com/en/articles/preview-matchday-two",
+                "source": "FIFA"
+              },
+              {
+                "title": "Canada vs. Bosnia and Herzegovina odds, prediction, time: 2026 World Cup picks, bets by expert on 18-8 roll",
+                "url": "https://www.cbssports.com/soccer/news/canada-bosnia-and-herzegovina-odds-prediction-time-2026-world-cup-picks/",
+                "source": "CBS Sports"
+              },
+              {
+                "title": "PREVIEW Soccer-Canada&apos;s World Cup dreams face first test as injury-hit hosts meet Bosnia",
+                "url": "https://www.reuters.com/sports/soccer/canadas-world-cup-dreams-face-first-test-injury-hit-hosts-meet-bosnia-2026-06-10/",
+                "source": "Reuters"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "pt": [
+      {
+        "query": "korea fc",
+        "score": 650,
+        "geos": [
+          "BR"
+        ],
+        "samples": [
+          {
+            "query": "korea fc",
+            "geo": "BR",
+            "language": "pt",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "🎥 Tequila, long faces in South Africa and... best of World Cup day 1 😂",
+                "url": "https://onefootball.com/fr/news/tequila-long-faces-in-south-africa-and-best-of-world-cup-day-1-42998329",
+                "source": "OneFootball"
+              },
+              {
+                "title": "World Cup latest – LIVE updates as tournament enters second day",
+                "url": "https://hayters.com/world-cup-latest-live-updates-as-tournament-enters-second-day/",
+                "source": "Hayters TV"
+              },
+              {
+                "title": "World Cup 2026 live: Team news, transfer targets to watch as tournament kicks off today",
+                "url": "https://www.caughtoffside.com/2026/06/11/world-cup-2026-live-news/",
+                "source": "CaughtOffside"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "fotmob",
+        "score": 200,
+        "geos": [
+          "PT"
+        ],
+        "samples": [
+          {
+            "query": "fotmob",
+            "geo": "PT",
+            "language": "pt",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "This free Wear OS watch face is a must-have for World Cup fans",
+                "url": "https://www.androidauthority.com/facer-citizen-kick-it-world-cup-wear-os-watch-face-3676740/",
+                "source": "Android Authority"
+              },
+              {
+                "title": "This free Garmin watch face is perfect for World Cup fans — see every match and live scores at a glance",
+                "url": "https://www.tomsguide.com/wellness/smartwatches/this-free-garmin-watch-face-is-perfect-for-world-cup-fans-see-every-match-and-live-scores-at-a-glance",
+                "source": "Tom&apos;s Guide"
+              },
+              {
+                "title": "This Watch Face Brings Live FIFA World Cup 2026 Scores to Your Galaxy Watch",
+                "url": "https://sammyguru.com/kick-it-watch-face-fifa-world-cup/",
+                "source": "SammyGuru"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "galvão bueno",
+        "score": 130,
+        "geos": [
+          "BR"
+        ],
+        "samples": [
+          {
+            "query": "galvão bueno",
+            "geo": "BR",
+            "language": "pt",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Sem Galvão Bueno e com Tiago Leifert, SBT tropeça na abertura da Copa",
+                "url": "https://veja.abril.com.br/esporte/sem-galvao-bueno-e-com-tiago-leifert-sbt-tropeca-na-abertura-da-copa/",
+                "source": "VEJA"
+              },
+              {
+                "title": "Primeira Copa sem &apos;voz nacional&apos;: o que será de 2026 sem Galvão na Globo",
+                "url": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/06/11/primeira-copa-sem-uma-voz-nacional-o-que-sera-2026-sem-galvao-na-globo.htm",
+                "source": "UOL"
+              },
+              {
+                "title": "Entenda por que Galvão Bueno não narrou o jogo de abertura da Copa do Mundo 2026 no SBT",
+                "url": "https://www.estadao.com.br/esportes/copa-do-mundo/entenda-por-que-galvao-bueno-nao-narrou-o-jogo-de-abertura-da-copa-do-mundo-2026-no-sbt-npres/",
+                "source": "Estadão"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "de": [
+      {
+        "query": "check24 trikot",
+        "score": 10000,
+        "geos": [
+          "DE"
+        ],
+        "samples": [
+          {
+            "query": "check24 trikot",
+            "geo": "DE",
+            "language": "de",
+            "source": "google-trends-daily",
+            "score": 10000,
+            "articles": [
+              {
+                "title": "Fußball-WM 2026: Welches WM-Trikot gefällt Ihnen am besten?",
+                "url": "https://www.spiegel.de/sport/fussball/fussball-wm-2026-welches-wm-trikot-gefaellt-ihnen-am-besten-a-3958b807-5055-4aaf-9b6d-509b213f67b7",
+                "source": "Spiegel"
+              },
+              {
+                "title": "Fußball-WM: Der Trikot-Boom und die Milliardengeschäfte mit Fan-Utensilien",
+                "url": "https://www.sueddeutsche.de/wirtschaft/wm-trikots-deutschland-adidas-nike-wechsel-li.3490065",
+                "source": "SZ.de"
+              },
+              {
+                "title": "Fußball-WM 2026: Das sind die schönsten Trikots des Turniers",
+                "url": "https://www.11freunde.de/wm/fussball-wm-2026-das-sind-die-schoensten-trikots-des-turniers-a-03a5120d-82aa-45b4-b76f-9c3a79a213be",
+                "source": "11Freunde"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "winston-salem",
+        "score": 10000,
+        "geos": [
+          "DE"
+        ],
+        "samples": [
+          {
+            "query": "winston-salem",
+            "geo": "DE",
+            "language": "de",
+            "source": "google-trends-daily",
+            "score": 10000,
+            "articles": [
+              {
+                "title": "WM 2026: Deniz Undav führt durchs DFB-Hotel in den USA",
+                "url": "https://www.bild.de/sport/fussball/wm-2026-deniz-undav-fuehrt-durchs-dfb-hotel-in-den-usa-6a2abec9a8f463c23bad244a",
+                "source": "BILD"
+              },
+              {
+                "title": "Der Grundstein zur WM ist gelegt - auch dank Nationaltrainer Nagelsmann!",
+                "url": "https://sport.sky.de/fussball/artikel/der-grundstein-zur-wm-ist-gelegt-auch-dank-nationaltrainer-nagelsmann/13553237/34130",
+                "source": "Sky.de"
+              },
+              {
+                "title": "„Bruda, hier mache ich safe mal eine Arschbombe, wenn das Wetter mitspielt“",
+                "url": "https://www.welt.de/sport/fussball/wm/article6a2ae75bd5e382c003a7bca9/einblick-ins-wm-quartier-bruda-hier-mache-ich-safe-mal-eine-arschbombe-wenn-das-wetter-mitspielt.html",
+                "source": "WELT"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "fr": [
+      {
+        "query": "south korea vs czechia",
+        "score": 1800,
+        "geos": [
+          "MA"
+        ],
+        "samples": [
+          {
+            "query": "south korea vs czechia",
+            "geo": "MA",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "South Korea 2-1 Czech Republic LIVE: FIFA World Cup 2026 Group A: South Korea come from behind to win",
+                "url": "https://www.bbc.com/sport/football/live/ckg0vvrg70vt",
+                "source": "BBC"
+              },
+              {
+                "title": "Dad strength: S. Korean goalkeeper makes clutch saves after video call with newborn daughter",
+                "url": "https://www.koreatimes.co.kr/sports/20260612/dad-strength-s-korean-goalkeeper-makes-clutch-saves-after-video-call-with-newborn-daughter",
+                "source": "The Korea Times"
+              },
+              {
+                "title": "Bet365 Bonus Code: Bet $10, Get $365 in Bonus Bets for South Korea vs Czechia",
+                "url": "https://www.si.com/betting-promo/bet365-bonus-code-bet-10-get-365-in-bonus-bets-for-south-korea-vs-czechia-01ktvb9m7jk1",
+                "source": "Sports Illustrated"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "world cup matches",
+        "score": 180,
+        "geos": [
+          "MA"
+        ],
+        "samples": [
+          {
+            "query": "world cup matches",
+            "geo": "MA",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "USMNT vs. Paraguay World Cup mega-preview: Predictions, odds, must-reads and more",
+                "url": "https://www.nytimes.com/athletic/7348861/2026/06/12/usmnt-paraguay-world-cup-preview-odds-predictions-lineups/",
+                "source": "The New York Times"
+              },
+              {
+                "title": "USA vs Paraguay: World Cup 2026 group match – Trump, schedule, lineups",
+                "url": "https://www.aljazeera.com/sports/2026/6/12/usa-vs-paraguay-world-cup-2026-group-match-trump-schedule-lineups",
+                "source": "Al Jazeera"
+              },
+              {
+                "title": "USA vs. Paraguay: Key Players, Projected Lineup, What To Know",
+                "url": "https://www.foxsports.com/stories/soccer/usa-vs-paraguay-key-players-projected-lineup-what-know",
+                "source": "FOX Sports"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "raul jimenez",
+        "score": 180,
+        "geos": [
+          "MA"
+        ],
+        "samples": [
+          {
+            "query": "raul jimenez",
+            "geo": "MA",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "World Cup 2026: Raul Jimenez completes comeback in Mexico win",
+                "url": "https://www.bbc.com/sport/football/articles/cm2dl67rljvo",
+                "source": "BBC"
+              },
+              {
+                "title": "Everything you missed from day one at World Cup 2026: Jimenez’s tears, hydration break controversy and empty seats",
+                "url": "https://www.independent.co.uk/sport/football/world-cup-2026-mexico-south-africa-south-korea-czech-republic-b2994371.html",
+                "source": "The Independent"
+              },
+              {
+                "title": "What happened to Raúl Jiménez&apos;s head and why does he play with a protective headband? A story of overcoming adversity",
+                "url": "https://www.marca.com/en/world-cup/2026/06/12/what-happened-to-raul-jimenez-s-head-and-why-does-he-play-with-a-protective-headband-a-story-of-overcoming-adversity.html",
+                "source": "MARCA"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "tyla",
+        "score": 90,
+        "geos": [
+          "MA"
+        ],
+        "samples": [
+          {
+            "query": "tyla",
+            "geo": "MA",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Tyla Performs in Jeffrey Campbell Heels at the 2026 FIFA World Cup Opening Ceremony",
+                "url": "https://wwd.com/footwear-news/shoe-trends/tyla-jeffrey-campbell-shoes-2026-fifa-world-cup-1239004537/",
+                "source": "WWD"
+              },
+              {
+                "title": "Inside Tyla’s custom &apos;RSA&apos; concept dress for the World Cup opening ceremony",
+                "url": "https://iol.co.za/fifa-world-cup-2026/updates/2026-06-12-inside-tylas-custom-rsa-concept-dress-for-the-world-cup-opening-ceremony/",
+                "source": "IOL"
+              },
+              {
+                "title": "Tyla and Becky G beam with smiles as they&apos;re spotted at World Cup opening match",
+                "url": "https://www.dailystar.co.uk/showbiz/tyla-becky-g-beam-smiles-37283296",
+                "source": "Daily Star"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "topic": "check24 trikot",
+      "type": "noticia",
+      "slugSuggestion": "check24-trikot",
+      "language": "de",
+      "geos": [
+        "DE"
+      ],
+      "score": 12000,
+      "reason": "Google Trends daily DE con 10,000 búsquedas · 3 artículos noticiosos referenciando \"check24 trikot\"",
+      "proposedPath": "/noticias/check24-trikot",
+      "evidence": [
+        {
+          "query": "check24 trikot",
+          "geo": "DE",
+          "language": "de",
+          "source": "google-trends-daily",
+          "score": 10000,
+          "articles": [
+            {
+              "title": "Fußball-WM 2026: Welches WM-Trikot gefällt Ihnen am besten?",
+              "url": "https://www.spiegel.de/sport/fussball/fussball-wm-2026-welches-wm-trikot-gefaellt-ihnen-am-besten-a-3958b807-5055-4aaf-9b6d-509b213f67b7",
+              "source": "Spiegel"
+            },
+            {
+              "title": "Fußball-WM: Der Trikot-Boom und die Milliardengeschäfte mit Fan-Utensilien",
+              "url": "https://www.sueddeutsche.de/wirtschaft/wm-trikots-deutschland-adidas-nike-wechsel-li.3490065",
+              "source": "SZ.de"
+            },
+            {
+              "title": "Fußball-WM 2026: Das sind die schönsten Trikots des Turniers",
+              "url": "https://www.11freunde.de/wm/fussball-wm-2026-das-sind-die-schoensten-trikots-des-turniers-a-03a5120d-82aa-45b4-b76f-9c3a79a213be",
+              "source": "11Freunde"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "winston-salem",
+      "type": "noticia",
+      "slugSuggestion": "winston-salem",
+      "language": "de",
+      "geos": [
+        "DE"
+      ],
+      "score": 12000,
+      "reason": "Google Trends daily DE con 10,000 búsquedas · 3 artículos noticiosos referenciando \"winston-salem\"",
+      "proposedPath": "/noticias/winston-salem",
+      "evidence": [
+        {
+          "query": "winston-salem",
+          "geo": "DE",
+          "language": "de",
+          "source": "google-trends-daily",
+          "score": 10000,
+          "articles": [
+            {
+              "title": "WM 2026: Deniz Undav führt durchs DFB-Hotel in den USA",
+              "url": "https://www.bild.de/sport/fussball/wm-2026-deniz-undav-fuehrt-durchs-dfb-hotel-in-den-usa-6a2abec9a8f463c23bad244a",
+              "source": "BILD"
+            },
+            {
+              "title": "Der Grundstein zur WM ist gelegt - auch dank Nationaltrainer Nagelsmann!",
+              "url": "https://sport.sky.de/fussball/artikel/der-grundstein-zur-wm-ist-gelegt-auch-dank-nationaltrainer-nagelsmann/13553237/34130",
+              "source": "Sky.de"
+            },
+            {
+              "title": "„Bruda, hier mache ich safe mal eine Arschbombe, wenn das Wetter mitspielt“",
+              "url": "https://www.welt.de/sport/fussball/wm/article6a2ae75bd5e382c003a7bca9/einblick-ins-wm-quartier-bruda-hier-mache-ich-safe-mal-eine-arschbombe-wenn-das-wetter-mitspielt.html",
+              "source": "WELT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "korea vs",
+      "type": "noticia",
+      "slugSuggestion": "korea-vs",
+      "language": "es",
+      "geos": [
+        "EC"
+      ],
+      "score": 9600,
+      "reason": "Google Trends daily EC con 10,000 búsquedas · 3 artículos noticiosos referenciando \"korea vs\"",
+      "proposedPath": "/noticias/korea-vs",
+      "evidence": [
+        {
+          "query": "korea vs",
+          "geo": "EC",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 10000,
+          "articles": [
+            {
+              "title": "South Korea overcome Czechia via Hwang In-Beom&apos;s brilliant display",
+              "url": "https://www.espn.com/soccer/story/_/id/49037668/south-korea-overcome-czechia-via-hwang-beom-brilliant-display-world-cup",
+              "source": "ESPN"
+            },
+            {
+              "title": "South Korea vs Czechia Highlights | 2026 FIFA World Cup™",
+              "url": "https://www.foxsports.com/watch/fmc-18j026gny6xn16jb",
+              "source": "FOX Sports"
+            },
+            {
+              "title": "World Cup Day 1 scores, results: Korea tops Czechia after wild finish, Mexico handles South Africa in ugly affair",
+              "url": "https://sports.yahoo.com/soccer/live/world-cup-day-1-scores-results-korea-tops-czechia-after-wild-finish-mexico-handles-south-africa-in-ugly-affair-150000044.html",
+              "source": "Yahoo Sports"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "scott mctominay",
+      "type": "noticia",
+      "slugSuggestion": "scott-mctominay",
+      "language": "en",
+      "geos": [
+        "GB"
+      ],
+      "score": 6600,
+      "reason": "Google Trends daily GB con 5,000 búsquedas · 3 artículos noticiosos referenciando \"scott mctominay\"",
+      "proposedPath": "/noticias/scott-mctominay",
+      "evidence": [
+        {
+          "query": "scott mctominay",
+          "geo": "GB",
+          "language": "en",
+          "source": "google-trends-daily",
+          "score": 5000,
+          "articles": [
+            {
+              "title": "Scott McTominay: Scotland midfielder not with team as they arrive at Boston hotel",
+              "url": "https://www.bbc.co.uk/sport/football/articles/c78y50pmd2go",
+              "source": "BBC"
+            },
+            {
+              "title": "Fifa World Cup 2026: Watch Scotland training before Haiti match",
+              "url": "https://www.bbc.com/sport/football/live/cvg4wnxpppnt",
+              "source": "BBC"
+            },
+            {
+              "title": "McTominay should be fit for Scotland’s World Cup opener despite stomach bug",
+              "url": "https://www.theguardian.com/football/2026/jun/11/scott-mctominay-scotland-world-cup-opener-stomach-bug",
+              "source": "The Guardian"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "korea fc",
+      "type": "noticia",
+      "slugSuggestion": "korea-fc",
+      "language": "es",
+      "geos": [
+        "AR",
+        "CO",
+        "PE"
+      ],
+      "score": 2376,
+      "reason": "Google Trends daily AR con 1,000 búsquedas · 3 artículos noticiosos referenciando \"korea fc\"",
+      "proposedPath": "/noticias/korea-fc",
+      "evidence": [
+        {
+          "query": "korea fc",
+          "geo": "AR",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 1000,
+          "articles": [
+            {
+              "title": "🎥 Tequila, fiesta, faces in South Africa... day one’s funniest bits 😂",
+              "url": "https://sports.yahoo.com/articles/tequila-fiesta-faces-south-africa-055200711.html",
+              "source": "Yahoo Sports"
+            },
+            {
+              "title": "World Cup latest – LIVE updates as tournament enters second day",
+              "url": "https://hayters.com/world-cup-latest-live-updates-as-tournament-enters-second-day/",
+              "source": "Hayters TV"
+            },
+            {
+              "title": "World Cup 2026 live: Team news, transfer targets to watch as tournament kicks off today",
+              "url": "https://www.caughtoffside.com/2026/06/11/world-cup-2026-live-news/",
+              "source": "CaughtOffside"
+            }
+          ]
+        },
+        {
+          "query": "korea fc",
+          "geo": "CO",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 500,
+          "articles": [
+            {
+              "title": "🎥 Tequila, fiesta, faces in South Africa... day one’s funniest bits 😂",
+              "url": "https://sports.yahoo.com/articles/tequila-fiesta-faces-south-africa-055200711.html",
+              "source": "Yahoo Sports"
+            },
+            {
+              "title": "World Cup latest – LIVE updates as tournament enters second day",
+              "url": "https://hayters.com/world-cup-latest-live-updates-as-tournament-enters-second-day/",
+              "source": "Hayters TV"
+            },
+            {
+              "title": "World Cup 2026 live: Team news, transfer targets to watch as tournament kicks off today",
+              "url": "https://www.caughtoffside.com/2026/06/11/world-cup-2026-live-news/",
+              "source": "CaughtOffside"
+            }
+          ]
+        },
+        {
+          "query": "korea fc",
+          "geo": "PE",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "🎥 Tequila, fiesta, faces in South Africa... day one’s funniest bits 😂",
+              "url": "https://sports.yahoo.com/articles/tequila-fiesta-faces-south-africa-055200711.html",
+              "source": "Yahoo Sports"
+            },
+            {
+              "title": "World Cup latest – LIVE updates as tournament enters second day",
+              "url": "https://hayters.com/world-cup-latest-live-updates-as-tournament-enters-second-day/",
+              "source": "Hayters TV"
+            },
+            {
+              "title": "World Cup 2026 live: Team news, transfer targets to watch as tournament kicks off today",
+              "url": "https://www.caughtoffside.com/2026/06/11/world-cup-2026-live-news/",
+              "source": "CaughtOffside"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "korea",
+      "type": "noticia",
+      "slugSuggestion": "korea",
+      "language": "es",
+      "geos": [
+        "UY"
+      ],
+      "score": 2160,
+      "reason": "Google Trends daily UY con 2,000 búsquedas · 3 artículos noticiosos referenciando \"korea\"",
+      "proposedPath": "/noticias/korea",
+      "evidence": [
+        {
+          "query": "korea",
+          "geo": "UY",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 2000,
+          "articles": [
+            {
+              "title": "Licensable picture: FIFA World Cup 2026 - Group A - South Korea v Czech Republic",
+              "url": "https://www.reutersconnect.com/item/fifa-world-cup-2026-group-a-south-korea-v-czech-republic/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1VQMUVNNkMwQjNZOTM",
+              "source": "Reuters Connect"
+            },
+            {
+              "title": "Dad strength: S. Korean goalkeeper makes clutch saves after video call with newborn daughter",
+              "url": "https://www.koreatimes.co.kr/sports/20260612/dad-strength-s-korean-goalkeeper-makes-clutch-saves-after-video-call-with-newborn-daughter",
+              "source": "The Korea Times"
+            },
+            {
+              "title": "Bet365 Bonus Code: Bet $10, Get $365 in Bonus Bets for South Korea vs Czechia",
+              "url": "https://www.si.com/betting-promo/bet365-bonus-code-bet-10-get-365-in-bonus-bets-for-south-korea-vs-czechia-01ktvb9m7jk1",
+              "source": "Sports Illustrated"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "south korea vs czechia",
+      "type": "noticia",
+      "slugSuggestion": "south-korea-vs-czechia",
+      "language": "fr",
+      "geos": [
+        "MA"
+      ],
+      "score": 2160,
+      "reason": "Google Trends daily MA con 2,000 búsquedas · 3 artículos noticiosos referenciando \"south korea vs czechia\"",
+      "proposedPath": "/noticias/south-korea-vs-czechia",
+      "evidence": [
+        {
+          "query": "south korea vs czechia",
+          "geo": "MA",
+          "language": "fr",
+          "source": "google-trends-daily",
+          "score": 2000,
+          "articles": [
+            {
+              "title": "South Korea 2-1 Czech Republic LIVE: FIFA World Cup 2026 Group A: South Korea come from behind to win",
+              "url": "https://www.bbc.com/sport/football/live/ckg0vvrg70vt",
+              "source": "BBC"
+            },
+            {
+              "title": "Dad strength: S. Korean goalkeeper makes clutch saves after video call with newborn daughter",
+              "url": "https://www.koreatimes.co.kr/sports/20260612/dad-strength-s-korean-goalkeeper-makes-clutch-saves-after-video-call-with-newborn-daughter",
+              "source": "The Korea Times"
+            },
+            {
+              "title": "Bet365 Bonus Code: Bet $10, Get $365 in Bonus Bets for South Korea vs Czechia",
+              "url": "https://www.si.com/betting-promo/bet365-bonus-code-bet-10-get-365-in-bonus-bets-for-south-korea-vs-czechia-01ktvb9m7jk1",
+              "source": "Sports Illustrated"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "heung min son",
+      "type": "noticia",
+      "slugSuggestion": "heung-min-son",
+      "language": "es",
+      "geos": [
+        "AR"
+      ],
+      "score": 780,
+      "reason": "Google Trends daily AR con 500 búsquedas · 3 artículos noticiosos referenciando \"heung min son\"",
+      "proposedPath": "/noticias/heung-min-son",
+      "evidence": [
+        {
+          "query": "heung min son",
+          "geo": "AR",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 500,
+          "articles": [
+            {
+              "title": "Mundial 2026: escándalo con periodistas en un entrenamiento de la selección de Corea del Sur",
+              "url": "https://www.lanacion.com.ar/deportes/futbol/mundial-2026-escandalo-con-periodistas-en-un-entrenamiento-de-la-seleccion-de-corea-del-sur-nid11062026/",
+              "source": "La Nación"
+            },
+            {
+              "title": "Un micrófono abierto generó una inesperada polémica con la máxima figura de Corea del Sur, a horas de su debut en el Mundial",
+              "url": "https://www.infobae.com/deportes/2026/06/11/un-microfono-abierto-genero-una-inesperada-polemica-con-la-maxima-figura-de-corea-del-sur-a-horas-de-su-debut-en-el-mundial/",
+              "source": "Infobae"
+            },
+            {
+              "title": "Polémica en Corea del Sur: periodistas fueron grabados criticando a Son por el servicio militar",
+              "url": "https://www.ellitoral.com/deportes/heung-min-servicio-militar-polemica-corea-sur-microfono-controversia-periodistas_0_Wqt65qI0IC.html",
+              "source": "El Litoral"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "korea fc",
+      "type": "noticia",
+      "slugSuggestion": "korea-fc",
+      "language": "pt",
+      "geos": [
+        "BR"
+      ],
+      "score": 780,
+      "reason": "Google Trends daily BR con 500 búsquedas · 3 artículos noticiosos referenciando \"korea fc\"",
+      "proposedPath": "/noticias/korea-fc",
+      "evidence": [
+        {
+          "query": "korea fc",
+          "geo": "BR",
+          "language": "pt",
+          "source": "google-trends-daily",
+          "score": 500,
+          "articles": [
+            {
+              "title": "🎥 Tequila, long faces in South Africa and... best of World Cup day 1 😂",
+              "url": "https://onefootball.com/fr/news/tequila-long-faces-in-south-africa-and-best-of-world-cup-day-1-42998329",
+              "source": "OneFootball"
+            },
+            {
+              "title": "World Cup latest – LIVE updates as tournament enters second day",
+              "url": "https://hayters.com/world-cup-latest-live-updates-as-tournament-enters-second-day/",
+              "source": "Hayters TV"
+            },
+            {
+              "title": "World Cup 2026 live: Team news, transfer targets to watch as tournament kicks off today",
+              "url": "https://www.caughtoffside.com/2026/06/11/world-cup-2026-live-news/",
+              "source": "CaughtOffside"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "ladislav krejčí",
+      "type": "noticia",
+      "slugSuggestion": "ladislav-krejci",
+      "language": "es",
+      "geos": [
+        "CL",
+        "PE"
+      ],
+      "score": 756,
+      "reason": "Google Trends daily CL con 200 búsquedas · 3 artículos noticiosos referenciando \"ladislav krejčí\"",
+      "proposedPath": "/noticias/ladislav-krejci",
+      "evidence": [
+        {
+          "query": "ladislav krejčí",
+          "geo": "CL",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Ladislav Krejci pays tribute to Tomas Rosicky with his World Cup celebration",
+              "url": "https://www.mundodeportivo.com/en/soccer/20260612/1004194178/ladislav-krejci-pays-tribute-to-tomas-rosicky-with-his-world-cup-celebration.html",
+              "source": "Mundo Deportivo"
+            },
+            {
+              "title": "Raúl Jiménez seals Mexico’s win against nine-man South Africa in World Cup opener",
+              "url": "https://www.theguardian.com/football/2026/jun/11/mexico-south-africa-world-cup-2026-group-a-match-report",
+              "source": "The Guardian"
+            },
+            {
+              "title": "World Cup 2026: Raul Jimenez completes comeback in Mexico win",
+              "url": "https://www.bbc.com/sport/football/articles/cm2dl67rljvo",
+              "source": "BBC"
+            }
+          ]
+        },
+        {
+          "query": "ladislav krejčí",
+          "geo": "PE",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 500,
+          "articles": [
+            {
+              "title": "Ladislav Krejci pays tribute to Tomas Rosicky with his World Cup celebration",
+              "url": "https://www.mundodeportivo.com/en/soccer/20260612/1004194178/ladislav-krejci-pays-tribute-to-tomas-rosicky-with-his-world-cup-celebration.html",
+              "source": "Mundo Deportivo"
+            },
+            {
+              "title": "¡Qué maestro! Hwang In-beom anotó el 1-1 de Corea del Sur tras un jugadón dentro del área",
+              "url": "https://rpp.pe/futbol/mundial-2026/ver-gol-hwang-in-beom-en-corea-del-sur-vs-republica-checa-anoto-el-1-1-tras-una-buena-jugada-dentro-del-area-partidos-de-hoy-noticia-1692701",
+              "source": "RPP"
+            },
+            {
+              "title": "Mundial 2026: empate parcial entre Corea del Sur y República Checa en la fase de grupos| Galería Fotográfica",
+              "url": "https://andina.pe/agencia/galeria-mundial-2026-empate-parcial-entre-corea-del-sur-y-republica-checa-la-fase-grupos-29668.aspx",
+              "source": "Agencia Peruana de Noticias | ANDINA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "tarjeta directa",
+      "type": "noticia",
+      "slugSuggestion": "tarjeta-directa",
+      "language": "es",
+      "geos": [
+        "EC"
+      ],
+      "score": 480,
+      "reason": "Google Trends daily EC con 500 búsquedas · 3 artículos noticiosos referenciando \"tarjeta directa\"",
+      "proposedPath": "/noticias/tarjeta-directa",
+      "evidence": [
+        {
+          "query": "tarjeta directa",
+          "geo": "EC",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 500,
+          "articles": [
+            {
+              "title": "Las nuevas reglas que debes saber para este Mundial: guerra a las pérdidas de tiempo, cambio en el protocolo VAR...",
+              "url": "https://www.marca.com/futbol/mundial/2026/06/11/nuevas-reglas-mundial-guerra-perdidas-cambio-protocolo-var.html",
+              "source": "MARCA"
+            },
+            {
+              "title": "El Mundial 2026 estrena las nuevas reglas aprobadas por la IFAB",
+              "url": "https://www.elcomercio.com/deportes/futbol/mundial-estrena-nuevas-reglas-ifab/",
+              "source": "El Comercio"
+            },
+            {
+              "title": "La &apos;Ley Vinicius&apos; entra en vigor hoy: todas las novedades reglamentarias del Mundial 2026",
+              "url": "https://www.sport.es/es/noticias/mundial-futbol/ley-vinicius-entra-vigor-hoy-131280880",
+              "source": "SPORT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "fotmob",
+      "type": "noticia",
+      "slugSuggestion": "fotmob",
+      "language": "pt",
+      "geos": [
+        "PT"
+      ],
+      "score": 240,
+      "reason": "Google Trends daily PT con 200 búsquedas · 3 artículos noticiosos referenciando \"fotmob\"",
+      "proposedPath": "/noticias/fotmob",
+      "evidence": [
+        {
+          "query": "fotmob",
+          "geo": "PT",
+          "language": "pt",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "This free Wear OS watch face is a must-have for World Cup fans",
+              "url": "https://www.androidauthority.com/facer-citizen-kick-it-world-cup-wear-os-watch-face-3676740/",
+              "source": "Android Authority"
+            },
+            {
+              "title": "This free Garmin watch face is perfect for World Cup fans — see every match and live scores at a glance",
+              "url": "https://www.tomsguide.com/wellness/smartwatches/this-free-garmin-watch-face-is-perfect-for-world-cup-fans-see-every-match-and-live-scores-at-a-glance",
+              "source": "Tom&apos;s Guide"
+            },
+            {
+              "title": "This Watch Face Brings Live FIFA World Cup 2026 Scores to Your Galaxy Watch",
+              "url": "https://sammyguru.com/kick-it-watch-face-fifa-world-cup/",
+              "source": "SammyGuru"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "lee tae-seok",
+      "type": "noticia",
+      "slugSuggestion": "lee-tae-seok",
+      "language": "es",
+      "geos": [
+        "PE"
+      ],
+      "score": 216,
+      "reason": "Google Trends daily PE con 200 búsquedas · 3 artículos noticiosos referenciando \"lee tae-seok\"",
+      "proposedPath": "/noticias/lee-tae-seok",
+      "evidence": [
+        {
+          "query": "lee tae-seok",
+          "geo": "PE",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "South Korea 2-1 Czech Republic LIVE: FIFA World Cup 2026 Group A: South Korea come from behind to win",
+              "url": "https://www.bbc.com/sport/football/live/ckg0vvrg70vt",
+              "source": "BBC"
+            },
+            {
+              "title": "South Korea 2-1 Czechia: World Cup 2026 – as it happened",
+              "url": "https://www.theguardian.com/football/live/2026/jun/12/fifa-world-cup-2026-live-south-korea-v-czechia-updates-kor-vs-cze-group-a-match-score-latest",
+              "source": "The Guardian"
+            },
+            {
+              "title": "Bet365 Bonus Code: Bet $10, Get $365 in Bonus Bets for South Korea vs Czechia",
+              "url": "https://www.si.com/betting-promo/bet365-bonus-code-bet-10-get-365-in-bonus-bets-for-south-korea-vs-czechia-01ktvb9m7jk1",
+              "source": "Sports Illustrated"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "world cup matches",
+      "type": "noticia",
+      "slugSuggestion": "world-cup-matches",
+      "language": "fr",
+      "geos": [
+        "MA"
+      ],
+      "score": 216,
+      "reason": "Google Trends daily MA con 200 búsquedas · 3 artículos noticiosos referenciando \"world cup matches\"",
+      "proposedPath": "/noticias/world-cup-matches",
+      "evidence": [
+        {
+          "query": "world cup matches",
+          "geo": "MA",
+          "language": "fr",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "USMNT vs. Paraguay World Cup mega-preview: Predictions, odds, must-reads and more",
+              "url": "https://www.nytimes.com/athletic/7348861/2026/06/12/usmnt-paraguay-world-cup-preview-odds-predictions-lineups/",
+              "source": "The New York Times"
+            },
+            {
+              "title": "USA vs Paraguay: World Cup 2026 group match – Trump, schedule, lineups",
+              "url": "https://www.aljazeera.com/sports/2026/6/12/usa-vs-paraguay-world-cup-2026-group-match-trump-schedule-lineups",
+              "source": "Al Jazeera"
+            },
+            {
+              "title": "USA vs. Paraguay: Key Players, Projected Lineup, What To Know",
+              "url": "https://www.foxsports.com/stories/soccer/usa-vs-paraguay-key-players-projected-lineup-what-know",
+              "source": "FOX Sports"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "galvão bueno",
+      "type": "noticia",
+      "slugSuggestion": "galvao-bueno",
+      "language": "pt",
+      "geos": [
+        "BR"
+      ],
+      "score": 156,
+      "reason": "Google Trends daily BR con 100 búsquedas · 3 artículos noticiosos referenciando \"galvão bueno\"",
+      "proposedPath": "/noticias/galvao-bueno",
+      "evidence": [
+        {
+          "query": "galvão bueno",
+          "geo": "BR",
+          "language": "pt",
+          "source": "google-trends-daily",
+          "score": 100,
+          "articles": [
+            {
+              "title": "Sem Galvão Bueno e com Tiago Leifert, SBT tropeça na abertura da Copa",
+              "url": "https://veja.abril.com.br/esporte/sem-galvao-bueno-e-com-tiago-leifert-sbt-tropeca-na-abertura-da-copa/",
+              "source": "VEJA"
+            },
+            {
+              "title": "Primeira Copa sem &apos;voz nacional&apos;: o que será de 2026 sem Galvão na Globo",
+              "url": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/06/11/primeira-copa-sem-uma-voz-nacional-o-que-sera-2026-sem-galvao-na-globo.htm",
+              "source": "UOL"
+            },
+            {
+              "title": "Entenda por que Galvão Bueno não narrou o jogo de abertura da Copa do Mundo 2026 no SBT",
+              "url": "https://www.estadao.com.br/esportes/copa-do-mundo/entenda-por-que-galvao-bueno-nao-narrou-o-jogo-de-abertura-da-copa-do-mundo-2026-no-sbt-npres/",
+              "source": "Estadão"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "tyla",
+      "type": "noticia",
+      "slugSuggestion": "tyla",
+      "language": "fr",
+      "geos": [
+        "MA"
+      ],
+      "score": 108,
+      "reason": "Google Trends daily MA con 100 búsquedas · 3 artículos noticiosos referenciando \"tyla\"",
+      "proposedPath": "/noticias/tyla",
+      "evidence": [
+        {
+          "query": "tyla",
+          "geo": "MA",
+          "language": "fr",
+          "source": "google-trends-daily",
+          "score": 100,
+          "articles": [
+            {
+              "title": "Tyla Performs in Jeffrey Campbell Heels at the 2026 FIFA World Cup Opening Ceremony",
+              "url": "https://wwd.com/footwear-news/shoe-trends/tyla-jeffrey-campbell-shoes-2026-fifa-world-cup-1239004537/",
+              "source": "WWD"
+            },
+            {
+              "title": "Inside Tyla’s custom &apos;RSA&apos; concept dress for the World Cup opening ceremony",
+              "url": "https://iol.co.za/fifa-world-cup-2026/updates/2026-06-12-inside-tylas-custom-rsa-concept-dress-for-the-world-cup-opening-ceremony/",
+              "source": "IOL"
+            },
+            {
+              "title": "Tyla and Becky G beam with smiles as they&apos;re spotted at World Cup opening match",
+              "url": "https://www.dailystar.co.uk/showbiz/tyla-becky-g-beam-smiles-37283296",
+              "source": "Daily Star"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alreadyCovered": [
+    {
+      "query": "estados unidos",
+      "matchUrl": "/ediciones/1994-estados-unidos"
+    },
+    {
+      "query": "canada fc",
+      "matchUrl": "/noticias/h2h-canada-bosnia-mundial-2026-grupo-b"
+    },
+    {
+      "query": "estados unidos vs paraguay",
+      "matchUrl": "/ediciones/1994-estados-unidos"
+    },
+    {
+      "query": "canada vs bosnia",
+      "matchUrl": "/noticias/h2h-canada-bosnia-mundial-2026-grupo-b"
+    },
+    {
+      "query": "japon",
+      "matchUrl": "/ediciones/2002-corea-japon"
+    },
+    {
+      "query": "paraguay vs",
+      "matchUrl": "/noticias/h2h-usa-paraguay-mundial-2026-grupo-d"
+    },
+    {
+      "query": "canada vs bosnia",
+      "matchUrl": "/noticias/h2h-canada-bosnia-mundial-2026-grupo-b"
+    },
+    {
+      "query": "canada vs bosnia",
+      "matchUrl": "/noticias/h2h-canada-bosnia-mundial-2026-grupo-b"
+    },
+    {
+      "query": "resultados mundial 2026",
+      "matchUrl": "/coleccionismo/panini-mundial-2026"
+    },
+    {
+      "query": "estados unidos vs",
+      "matchUrl": "/ediciones/1994-estados-unidos"
+    },
+    {
+      "query": "canada vs bosnia",
+      "matchUrl": "/noticias/h2h-canada-bosnia-mundial-2026-grupo-b"
+    },
+    {
+      "query": "japon vs",
+      "matchUrl": "/ediciones/2002-corea-japon"
+    },
+    {
+      "query": "canada vs bosnia",
+      "matchUrl": "/noticias/h2h-canada-bosnia-mundial-2026-grupo-b"
+    },
+    {
+      "query": "selección de fútbol de costa de marfil",
+      "matchUrl": "/noticias/h2h-costa-marfil-ecuador-mundial-2026-grupo-e"
+    },
+    {
+      "query": "raul jimenez",
+      "matchUrl": "/noticias/mexico-golea-serbia-amistoso-mundial-2026-raul-jimenez"
+    },
+    {
+      "query": "mexico vs south africa world cup 2026",
+      "matchUrl": "/2026/sedes/ciudad-de-mexico"
+    },
+    {
+      "query": "fifa",
+      "matchUrl": "/noticias/estafa-entradas-mundial-2026-phishing-fifa-sitios-falsos-fraude-eset-check-point"
+    },
+    {
+      "query": "fifa world cup",
+      "matchUrl": "/coleccionismo/panini-mundial-2026"
+    },
+    {
+      "query": "canada vs",
+      "matchUrl": "/noticias/h2h-canada-bosnia-mundial-2026-grupo-b"
+    },
+    {
+      "query": "dazn",
+      "matchUrl": "/noticias/como-ver-mundial-2026-alemania-ard-zdf-dazn-gratis"
+    },
+    {
+      "query": "mundial hoy",
+      "matchUrl": "/coleccionismo/panini-mundial-2026"
+    },
+    {
+      "query": "partidos de copa mundial de fútbol",
+      "matchUrl": "/noticias/lamine-yamal-primer-mundial-2026-espana-17-anos-eurocopa"
+    },
+    {
+      "query": "partidos del mundial",
+      "matchUrl": "/noticias/grupo-d-mundial-2026-eeuu-turquia-paraguay-australia-horarios-partidos"
+    },
+    {
+      "query": "méxico vs",
+      "matchUrl": "/ediciones/1970-mexico"
+    },
+    {
+      "query": "raul jimenez",
+      "matchUrl": "/noticias/mexico-golea-serbia-amistoso-mundial-2026-raul-jimenez"
+    }
+  ]
+}
