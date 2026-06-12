@@ -110,6 +110,54 @@ export function getLocalizedNews(
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'memo-ochoa-sexto-mundial-2026-mexico-record-messi-cristiano',
+    title: 'Memo Ochoa y su sexto Mundial: el récord mexicano que solo comparten Messi y Cristiano',
+    summary: 'Guillermo Ochoa llega al Mundial 2026 a los 40 años y firma una marca histórica: es el primer mexicano en disputar seis Copas del Mundo, algo que en esta edición solo igualan Messi y Cristiano Ronaldo. Eso sí, vive el torneo en un papel nuevo: en el debut ante Sudáfrica (2-0) arrancó en el banquillo.',
+    body: `## Seis Mundiales: un club de tres
+
+Con la lista de México para el Mundial 2026, **Guillermo "Memo" Ochoa** entró en la historia: a sus **40 años** se convierte en el **primer futbolista mexicano que acude a seis Copas del Mundo**. Es una marca que en esta edición del torneo solo comparten otros dos nombres mayúsculos: **Lionel Messi** y **Cristiano Ronaldo**.
+
+El propio portero celebró el hito —"es un sueño"— y la **FIFA lo homenajeó** en la previa del torneo. No es para menos: muy pocos jugadores en la historia han alcanzado las seis citas mundialistas, y ninguno lo había hecho antes con la camiseta del Tri.
+
+México abrió el Mundial 2026 el 11 de junio en el Estadio Azteca, en el [Grupo A](/2026/grupo/a), con [victoria por 2-0 sobre Sudáfrica](/2026/partidos-hoy).
+
+## De Alemania 2006 al banquillo de 2026
+
+La travesía mundialista de Ochoa arrancó hace dos décadas y dice mucho de su longevidad:
+
+- **Alemania 2006:** convocado con 20 años, sin minutos.
+- **Sudáfrica 2010:** de nuevo en la lista, sin debutar.
+- **Brasil 2014:** su gran explosión: cuatro partidos y aquella actuación memorable ante la anfitriona.
+- **Rusia 2018:** otros cuatro encuentros bajo palos.
+- **Catar 2022:** tres partidos como titular.
+- **Mundial 2026:** el sexto, ya en territorio de récord.
+
+Esa progresión —de joven promesa a referente— explica por qué su nombre se ha vuelto sinónimo de los Mundiales de México.
+
+## Un papel nuevo: el del veterano suplente
+
+La gran diferencia respecto a sus últimas tres citas es el rol. Tras años como indiscutible, **Ochoa vive este Mundial como suplente**: en el estreno ante Sudáfrica empezó en el banquillo, una señal del relevo generacional en la portería mexicana.
+
+Su presencia, aun sin ser titular, tiene un peso evidente: liderazgo, experiencia y un vestuario que se apoya en un futbolista que lo ha visto todo. A los 40 años, la pregunta ya no es cuántos partidos jugará, sino si este sexto Mundial —en casa, con México como anfitrión— será el último capítulo de una carrera irrepetible.
+
+Sigue toda la actualidad de México y del resto de selecciones en el [calendario del Mundial 2026](/2026/calendario) y en [los partidos de hoy](/2026/partidos-hoy).`,
+    category: 'jugadores',
+    sourceName: 'Infobae / Medio Tiempo',
+    sourceUrl: 'https://www.infobae.com/mexico/deportes/2026/05/11/es-un-hecho-memo-ochoa-tendra-su-sexto-mundial-con-la-seleccion-mexicana/',
+    sourceLang: 'es',
+    publishedAt: '2026-06-12T13:00:00Z',
+    sourcesSecondary: [
+      { name: 'Medio Tiempo', url: 'https://www.mediotiempo.com/futbol/seleccion-mayor/memo-ochoa-acepta-su-rol-suplente-con-mexico-mundial-pero-no-pierde-la-esperanza-en-jugar' },
+      { name: 'Aristegui Noticias', url: 'https://aristeguinoticias.com/1106/deportes/mundial-2026-celebra-memo-ochoa-llegar-a-su-sexta-copa-del-mundo-video/' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/1/12/Francisco_Guillermo_Ochoa1_%28cropped%29.jpg',
+      alt: 'Guillermo "Memo" Ochoa, portero de la selección de México',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY 2.0',
+    },
+  },
+  {
     slug: 'espana-3-1-peru-ultimo-amistoso-mundial-2026-oyarzabal-pedri-gallese',
     title: 'España golea 3-1 a Perú en su último ensayo antes del Mundial 2026',
     summary: 'España cerró su preparación con un cómodo 3-1 ante Perú en el Estadio Cuauhtémoc de Puebla. Oyarzabal marcó en el minuto 1, Pedri amplió cerca del descanso y un gol en propia puerta de Pedro Gallese sentenció. Jairo Vélez maquilló para Perú. De la Fuente perfila el once del debut contra Cabo Verde.',
