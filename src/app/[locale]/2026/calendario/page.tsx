@@ -8,6 +8,7 @@ import {
   getTeam2026,
   type Fixture26,
 } from '@/lib/wc-2026';
+import { fixtureToUTC } from '@/lib/wc-2026-fixture-utc';
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl, SEO } from '@/lib/seo';
 
@@ -85,13 +86,17 @@ function buildPhases(t: (key: string) => string): PhaseGroup[] {
   ];
 }
 
-function fmtDayMonth(iso: string, locale: string) {
-  const d = new Date(iso + 'T00:00:00');
-  return new Intl.DateTimeFormat(locale, {
-    weekday: 'short',
-    day: 'numeric',
-    month: 'short',
-  }).format(d);
+// Fecha + hora de cada partido en hora de España (Europe/Madrid).
+function madridParts(f: Fixture26, locale: string) {
+  const ms = new Date(fixtureToUTC(f)).getTime();
+  return {
+    date: new Intl.DateTimeFormat(locale, {
+      timeZone: 'Europe/Madrid', weekday: 'short', day: 'numeric', month: 'short',
+    }).format(ms),
+    time: new Intl.DateTimeFormat('es-ES', {
+      timeZone: 'Europe/Madrid', hour: '2-digit', minute: '2-digit', hourCycle: 'h23',
+    }).format(ms),
+  };
 }
 
 function fmtRange(a: string, b: string, locale: string) {
@@ -218,11 +223,12 @@ export default async function Calendario2026({
                     const home = f.home ? getTeam2026(f.home) : undefined;
                     const away = f.away ? getTeam2026(f.away) : undefined;
                     const venue = venueBySlug.get(f.venue);
+                    const m = madridParts(f, locale);
                     return (
                       <li key={f.n} className="bg-[var(--color-bg)]">
                         <div className="flex flex-col gap-3 p-5">
                           <div className="flex items-center justify-between font-mono text-[9px] uppercase tracking-[0.25em] text-[var(--color-fg-subtle)]">
-                            <span>{fmtDayMonth(f.date, locale)} · {f.time}</span>
+                            <span>{m.date} · {m.time} h</span>
                             <span className="tab-num">#{f.n}</span>
                           </div>
                           <div className="flex items-center gap-3 font-display text-lg uppercase md:text-xl">
