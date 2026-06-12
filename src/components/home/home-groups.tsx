@@ -1,45 +1,12 @@
 import Link from 'next/link';
 import { ArrowRight, ListChecks } from 'lucide-react';
-import { GROUPS_2026, getTeam2026, FIXTURES_2026 } from '@/lib/wc-2026';
-import { fetchScores, buildScoreMap, scoreKey } from '@/lib/live-scores';
+import { GROUPS_2026, getTeam2026 } from '@/lib/wc-2026';
+import { fetchScores, buildScoreMap, groupStandings } from '@/lib/live-scores';
 import { routing, type Locale } from '@/i18n/routing';
 
 function withLocale(locale: Locale, href: string) {
   if (locale === routing.defaultLocale) return href;
   return `/${locale}${href === '/' ? '' : href}`;
-}
-
-type Row = { code: string; pj: number; pts: number; gf: number; ga: number };
-
-/** Clasificación de un grupo a partir de los resultados ya jugados. */
-function standings(letter: string, scoreMap: ReturnType<typeof buildScoreMap>): Row[] {
-  const group = GROUPS_2026.find((g) => g.letter === letter);
-  const table = new Map<string, Row>();
-  for (const code of (group?.teams ?? [])) {
-    if (code) table.set(code, { code, pj: 0, pts: 0, gf: 0, ga: 0 });
-  }
-  for (const f of FIXTURES_2026) {
-    if (f.stage !== letter || !f.home || !f.away) continue;
-    const sc = scoreMap.get(scoreKey(f.home, f.away));
-    if (!sc || sc.state === 'pre' || sc.homeScore === null || sc.awayScore === null) continue;
-    const h = table.get(f.home);
-    const a = table.get(f.away);
-    if (!h || !a) continue;
-    h.pj++; a.pj++;
-    h.gf += sc.homeScore; h.ga += sc.awayScore;
-    a.gf += sc.awayScore; a.ga += sc.homeScore;
-    if (sc.homeScore > sc.awayScore) h.pts += 3;
-    else if (sc.homeScore < sc.awayScore) a.pts += 3;
-    else { h.pts++; a.pts++; }
-  }
-  const rows = [...table.values()];
-  const anyPlayed = rows.some((r) => r.pj > 0);
-  if (anyPlayed) {
-    rows.sort((x, y) =>
-      y.pts - x.pts || (y.gf - y.ga) - (x.gf - x.ga) || y.gf - x.gf,
-    );
-  }
-  return rows;
 }
 
 /** Sección de la home: los 12 grupos con su clasificación (puntos). */
@@ -70,7 +37,7 @@ export async function HomeGroups({ locale }: { locale: Locale }) {
 
         <ul className="mt-10 grid gap-px overflow-hidden rounded-2xl border border-[var(--color-border)] bg-[var(--color-border)] sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {GROUPS_2026.map((g) => {
-            const rows = standings(g.letter, scoreMap);
+            const rows = groupStandings(g.letter, scoreMap);
             return (
               <li key={g.letter} className="bg-[var(--color-bg)]">
                 <Link

@@ -4,6 +4,8 @@
  * componentes de servidor (calendario, grupos).
  */
 
+import { GROUPS_2026, FIXTURES_2026 } from '@/lib/wc-2026';
+
 const ESPN = 'https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard';
 
 /** Rango completo del torneo (11 jun → 19 jul 2026) para traer todos los partidos. */
@@ -81,4 +83,41 @@ export function buildScoreMap(matches: LiveMatch[]): Map<string, LiveMatch> {
     if (m.home && m.away) map.set(scoreKey(m.home, m.away), m);
   }
   return map;
+}
+
+export type StandingRow = { code: string; pj: number; pts: number; gf: number; ga: number };
+
+/**
+ * Clasificación de un grupo a partir de los resultados ya jugados.
+ * Devuelve las filas ordenadas (por pts, diferencia de goles, goles a favor)
+ * si ya hay algún partido disputado; si no, en orden de sorteo.
+ */
+export function groupStandings(
+  letter: string,
+  scoreMap: Map<string, LiveMatch>,
+): StandingRow[] {
+  const group = GROUPS_2026.find((g) => g.letter === letter);
+  const table = new Map<string, StandingRow>();
+  for (const code of group?.teams ?? []) {
+    if (code) table.set(code, { code, pj: 0, pts: 0, gf: 0, ga: 0 });
+  }
+  for (const f of FIXTURES_2026) {
+    if (f.stage !== letter || !f.home || !f.away) continue;
+    const sc = scoreMap.get(scoreKey(f.home, f.away));
+    if (!sc || sc.state === 'pre' || sc.homeScore === null || sc.awayScore === null) continue;
+    const h = table.get(f.home);
+    const a = table.get(f.away);
+    if (!h || !a) continue;
+    h.pj++; a.pj++;
+    h.gf += sc.homeScore; h.ga += sc.awayScore;
+    a.gf += sc.awayScore; a.ga += sc.homeScore;
+    if (sc.homeScore > sc.awayScore) h.pts += 3;
+    else if (sc.homeScore < sc.awayScore) a.pts += 3;
+    else { h.pts++; a.pts++; }
+  }
+  const rows = [...table.values()];
+  if (rows.some((r) => r.pj > 0)) {
+    rows.sort((x, y) => y.pts - x.pts || (y.gf - y.ga) - (x.gf - x.ga) || y.gf - x.gf);
+  }
+  return rows;
 }

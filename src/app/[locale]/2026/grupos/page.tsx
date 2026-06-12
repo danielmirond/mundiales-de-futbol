@@ -8,6 +8,7 @@ import {
   TEAMS_2026,
   getTeam2026,
 } from '@/lib/wc-2026';
+import { fetchScores, buildScoreMap, groupStandings } from '@/lib/live-scores';
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl, SEO } from '@/lib/seo';
 
@@ -73,6 +74,7 @@ export default async function GroupsIndex({
   const t = await getTranslations({ locale, namespace: 'pages.grupos' });
 
   const venueBySlug = new Map(VENUES_2026.map((v) => [v.slug, v]));
+  const scoreMap = buildScoreMap(await fetchScores());
 
   const collectionLd = {
     '@context': 'https://schema.org',
@@ -127,9 +129,8 @@ export default async function GroupsIndex({
       <div className="mx-auto mt-16 w-full max-w-[1400px] px-6 md:px-10">
         <ul className="grid gap-px overflow-hidden rounded-2xl border border-[var(--color-border)] bg-[var(--color-border)] sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {GROUPS_2026.map((g) => {
-            const teams = (g.teams.filter(Boolean) as string[])
-              .map((c) => getTeam2026(c))
-              .filter(Boolean);
+            const rows = groupStandings(g.letter, scoreMap);
+            const played = rows.some((r) => r.pj > 0);
             const groupFixtures = FIXTURES_2026.filter(
               (f) => f.stage === g.letter,
             );
@@ -159,22 +160,41 @@ export default async function GroupsIndex({
                   </div>
 
                   <ul className="flex flex-col gap-2.5">
-                    {teams.map((tm) => (
-                      <li
-                        key={tm!.code}
-                        className="flex items-center gap-3"
-                      >
-                        <span aria-hidden className="text-xl">
-                          {tm!.flag}
-                        </span>
-                        <span className="text-sm font-medium text-[var(--color-fg)]">
-                          {tm!.name}
-                        </span>
-                        <span className="ml-auto font-mono text-[9px] uppercase tracking-[0.3em] text-[var(--color-fg-subtle)]">
-                          {tm!.conf}
-                        </span>
+                    {played && (
+                      <li className="flex items-center gap-3 font-mono text-[9px] uppercase tracking-[0.3em] text-[var(--color-fg-subtle)]">
+                        <span className="w-5" aria-hidden />
+                        <span className="flex-1" />
+                        <span className="w-6 text-end">PJ</span>
+                        <span className="w-6 text-end">Pts</span>
                       </li>
-                    ))}
+                    )}
+                    {rows.map((r) => {
+                      const tm = getTeam2026(r.code);
+                      return (
+                        <li key={r.code} className="flex items-center gap-3">
+                          <span aria-hidden className="text-xl">
+                            {tm?.flag}
+                          </span>
+                          <span className="flex-1 truncate text-sm font-medium text-[var(--color-fg)]">
+                            {tm?.name ?? r.code}
+                          </span>
+                          {played ? (
+                            <>
+                              <span className="w-6 text-end font-mono text-xs tab-num text-[var(--color-fg-subtle)]">
+                                {r.pj}
+                              </span>
+                              <span className="w-6 text-end font-mono text-sm font-bold tab-num text-[var(--color-fg)]">
+                                {r.pts}
+                              </span>
+                            </>
+                          ) : (
+                            <span className="font-mono text-[9px] uppercase tracking-[0.3em] text-[var(--color-fg-subtle)]">
+                              {tm?.conf}
+                            </span>
+                          )}
+                        </li>
+                      );
+                    })}
                   </ul>
 
                   {groupVenues.length > 0 && (
