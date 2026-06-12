@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { FIXTURES_2026, VENUES_2026, STAGE_LABEL } from '@/lib/wc-2026';
 import { fixtureToUTC } from '@/lib/wc-2026-fixture-utc';
+import { fetchScores, buildScoreMap, scoreKey } from '@/lib/live-scores';
 import { routing, type Locale } from '@/i18n/routing';
 
 function withLocale(locale: Locale, href: string) {
@@ -50,7 +51,9 @@ function Pill({ children, color }: { children: React.ReactNode; color?: string }
   );
 }
 
-export function WC2026Calendar({ locale }: { locale: Locale }) {
+export async function WC2026Calendar({ locale }: { locale: Locale }) {
+  const scoreMap = buildScoreMap(await fetchScores());
+
   // Agrupar por fecha en Madrid
   const byDate = new Map<string, Enriched[]>();
   for (const e of ENRICHED) {
@@ -104,6 +107,8 @@ export function WC2026Calendar({ locale }: { locale: Locale }) {
                   const venue = venueBySlug.get(f.venue);
                   const stageLabel = STAGE_LABEL[f.stage] ?? f.stage;
                   const isKO = ['R32', 'R16', 'QF', 'SF', '3P', 'F'].includes(f.stage);
+                  const sc = scoreMap.get(scoreKey(f.home, f.away));
+                  const played = sc && sc.state !== 'pre' && sc.homeScore !== null && sc.awayScore !== null;
                   return (
                     <div
                       key={f.n}
@@ -113,9 +118,20 @@ export function WC2026Calendar({ locale }: { locale: Locale }) {
                         <Pill color={isKO ? 'var(--color-pitch)' : undefined}>
                           {stageLabel}
                         </Pill>
-                        <span className="font-mono text-[10px] uppercase tracking-widest text-[var(--color-fg-subtle)] tab-num">
-                          {madridTime} h
-                        </span>
+                        {played ? (
+                          <span className="tab-num font-display text-base leading-none text-[var(--color-fg)]">
+                            {sc!.homeScore}<span className="text-[var(--color-fg-subtle)]">-</span>{sc!.awayScore}
+                            {sc!.state === 'in' && (
+                              <span className="ms-2 font-mono text-[9px] uppercase tracking-widest text-[var(--color-flame)]">
+                                {sc!.clock || 'EN VIVO'}
+                              </span>
+                            )}
+                          </span>
+                        ) : (
+                          <span className="font-mono text-[10px] uppercase tracking-widest text-[var(--color-fg-subtle)] tab-num">
+                            {madridTime} h
+                          </span>
+                        )}
                       </div>
                       <div className="font-display text-lg uppercase text-[var(--color-fg)]">
                         {f.home && f.away ? (
