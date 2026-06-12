@@ -15,6 +15,8 @@ import {
   getLocalizedNews,
   getRelatedNews,
   relativeTimeEs,
+  newsImageUrl,
+  newsImageAlt,
   type NewsCategory,
 } from '@/lib/news';
 import { routing, type Locale } from '@/i18n/routing';
@@ -248,29 +250,27 @@ export default async function NoticiaDetail({
         </p>
       </header>
 
-      {/* Hero image (16:9) */}
-      {item.image && (
-        <figure className="mx-auto mt-12 w-full max-w-[1100px] px-6 md:px-10">
-          <div className="relative aspect-[16/9] w-full overflow-hidden rounded-3xl border border-[var(--color-border)]">
-            <Image
-              src={item.image.url}
-              alt={item.image.alt}
-              fill
-              sizes="(max-width: 1100px) 100vw, 1100px"
-              className="object-cover"
-              unoptimized
-              priority
-            />
-          </div>
-          {(item.image.credit || item.image.license) && (
-            <figcaption className="mt-3 px-2 font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--color-fg-subtle)]">
-              {item.image.credit}
-              {item.image.credit && item.image.license ? ' · ' : ''}
-              {item.image.license}
-            </figcaption>
-          )}
-        </figure>
-      )}
+      {/* Hero image (16:9) — foto propia o tarjeta de marca generada */}
+      <figure className="mx-auto mt-12 w-full max-w-[1100px] px-6 md:px-10">
+        <div className="relative aspect-[16/9] w-full overflow-hidden rounded-3xl border border-[var(--color-border)]">
+          <Image
+            src={newsImageUrl(item)}
+            alt={newsImageAlt(item)}
+            fill
+            sizes="(max-width: 1100px) 100vw, 1100px"
+            className="object-cover"
+            unoptimized
+            priority
+          />
+        </div>
+        {(item.image?.credit || item.image?.license) && (
+          <figcaption className="mt-3 px-2 font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--color-fg-subtle)]">
+            {item.image.credit}
+            {item.image.credit && item.image.license ? ' · ' : ''}
+            {item.image.license}
+          </figcaption>
+        )}
+      </figure>
 
       {/* Video embed (si la noticia tiene youtubeVideoId) */}
       {item.youtubeVideoId && (

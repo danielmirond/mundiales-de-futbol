@@ -108,6 +108,21 @@ export function getLocalizedNews(
   return { title: item.title, summary: item.summary, body: item.body };
 }
 
+/**
+ * URL de imagen de una noticia, SIEMPRE con valor. Si la noticia no tiene
+ * foto propia (p. ej. piezas de horarios/listas), cae a la tarjeta de marca
+ * generada (el OG dinámico 1200×675 de la propia noticia). Así ninguna
+ * noticia se publica sin imagen.
+ */
+export function newsImageUrl(item: NewsItem): string {
+  return item.image?.url ?? `/noticias/${item.slug}/opengraph-image`;
+}
+
+/** Texto alternativo de la imagen de una noticia (cae al título). */
+export function newsImageAlt(item: NewsItem): string {
+  return item.image?.alt ?? item.title;
+}
+
 export const NEWS_ITEMS: NewsItem[] = [
   {
     slug: 'memo-ochoa-sexto-mundial-2026-mexico-record-messi-cristiano',
