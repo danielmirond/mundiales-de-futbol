@@ -107,6 +107,10 @@ export const MOVISTAR_MATCH_LINKS: Record<string, MovistarMatchLink> = {
 /** URL genérica del Mundial en M+ (fallback) */
 export const DEFAULT_MOVISTAR_HREF = awin('/deportes/futbol/mundial');
 
+/** Enlace de afiliado de DAZN (programa AWIN propio de DAZN, campaña Mundial 2026). */
+export const DAZN_AFFILIATE_HREF =
+  'https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026';
+
 export function getMovistarLink(slug: string): MovistarMatchLink {
   return MOVISTAR_MATCH_LINKS[slug] ?? { label: '', href: DEFAULT_MOVISTAR_HREF };
 }

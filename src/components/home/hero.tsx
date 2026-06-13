@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import { useLocale, useTranslations } from 'next-intl';
-import { ArrowRight, Tv, CalendarDays, Target } from 'lucide-react';
+import { ArrowRight, Tv, CalendarDays } from 'lucide-react';
 import { HeroImagery } from '@/components/home/hero-imagery';
 import { FIXTURES_2026, TEAMS_2026 } from '@/lib/wc-2026';
 import { fixtureToUTC } from '@/lib/wc-2026-fixture-utc';
@@ -255,13 +255,6 @@ export function Hero() {
           >
             <Tv className="h-4 w-4" />
             {t('ctaWhere')}
-          </Link>
-          <Link
-            href={withLocale(locale, '/2026/predicciones-mundial-2026')}
-            className="group inline-flex items-center gap-2 rounded-full border border-[var(--color-border-strong)] px-6 py-3 text-sm font-semibold text-[var(--color-fg)] transition-colors hover:border-[var(--color-pitch)] hover:text-[var(--color-pitch)]"
-          >
-            <Target className="h-4 w-4" />
-            {t('ctaPorra')}
           </Link>
         </div>
       </div>

@@ -149,7 +149,7 @@ Es una de las búsquedas del momento, así que vamos al grano: **el Mundial comp
 Tienes dos caminos:
 
 - **Movistar Plus+ vía DAZN** (recomendado si ya eres cliente de Movistar o quieres todo integrado): los canales del Mundial dentro de tu Movistar Plus+. Consulta **[precio y planes actualizados aquí](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**.
-- **DAZN directamente**, con su propio pase, si no tienes Movistar.
+- **[DAZN directamente](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, con su propio pase, si no tienes Movistar.
 
 En ambos casos accedes a los mismos partidos; la diferencia es la comodidad de tenerlo integrado con el resto de tu tele.
 
@@ -361,7 +361,7 @@ Dieciséis años después, los mismos dos rivales vuelven a levantar el telón. 
 
 Para **México**, anfitrión junto a Estados Unidos y Canadá, el estreno es pura presión y pura fiesta: abrir su Mundial en el Azteca, con su gente, marca el tono de toda la campaña. Para **Sudáfrica**, que regresa a la gran cita, el reto es dar la sorpresa ante una de las anfitrionas en un Grupo A que se decidirá en los detalles.
 
-El Mundial 2026 es el primero con **48 selecciones y 104 partidos**, repartidos entre tres países hasta la final del 19 de julio. Y todo empieza aquí. Consulta el [calendario completo](/2026/calendario) y los [grupos del Mundial](/2026/grupos), y atrévete a [predecir los resultados en tu porra](/2026/predicciones-mundial-2026).`,
+El Mundial 2026 es el primero con **48 selecciones y 104 partidos**, repartidos entre tres países hasta la final del 19 de julio. Y todo empieza aquí. Consulta el [calendario completo](/2026/calendario) y los [grupos del Mundial](/2026/grupos).`,
     category: 'general',
     sourceName: 'FIFA',
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',

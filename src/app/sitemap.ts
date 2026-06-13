@@ -119,8 +119,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   out.push(entry('/2026/amistosos', now, 'daily', 0.9));
   out.push(entry('/2026/cuando-empieza', now, 'weekly', 0.9));
   out.push(entry('/cuando-juega-espana', now, 'daily', 0.9));
-  out.push(entry('/porra', now, 'daily', 0.95));
-  out.push(entry('/2026/predicciones-mundial-2026', now, 'daily', 0.9));
   out.push(entry('/2026/partidos-hoy', now, 'daily', 0.95));
   // Página por partido (104)
   for (const f of FIXTURES_2026) {
