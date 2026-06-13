@@ -347,3 +347,31 @@ export const STAGE_LABEL: Record<string, string> = {
   '3P':  'Tercer puesto',
   FINAL: 'Final',
 };
+
+/** Convierte un nombre/código a slug URL (sin acentos, minúsculas). */
+function toSlug(s: string): string {
+  return s
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[̀-ͯ]/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/(^-|-$)/g, '');
+}
+
+/**
+ * Slug de un partido para `/2026/partido/[slug]`.
+ * Fase de grupos (con equipos): `mexico-sudafrica`.
+ * Eliminatorias sin equipos aún: `partido-<n>`.
+ */
+export function matchSlug(f: Fixture26): string {
+  if (f.home && f.away) {
+    const name = (c: string) => TEAMS_2026[c]?.name ?? c;
+    return `${toSlug(name(f.home))}-${toSlug(name(f.away))}`;
+  }
+  return `partido-${f.n}`;
+}
+
+/** Busca el fixture correspondiente a un slug de partido. */
+export function getFixtureBySlug(slug: string): Fixture26 | undefined {
+  return FIXTURES_2026.find((f) => matchSlug(f) === slug);
+}

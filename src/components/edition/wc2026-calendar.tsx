@@ -115,9 +115,13 @@ export async function WC2026Calendar({ locale }: { locale: Locale }) {
                       className="flex flex-col gap-3 bg-[var(--color-bg)] p-4 hover:bg-[var(--color-bg-2)] transition-colors"
                     >
                       <div className="flex items-center justify-between">
-                        <Pill color={isKO ? 'var(--color-pitch)' : undefined}>
-                          {stageLabel}
-                        </Pill>
+                        {f.stage.length === 1 ? (
+                          <Link href={withLocale(locale, `/2026/grupo/${f.stage.toLowerCase()}`)}>
+                            <Pill>{stageLabel}</Pill>
+                          </Link>
+                        ) : (
+                          <Pill color={isKO ? 'var(--color-pitch)' : undefined}>{stageLabel}</Pill>
+                        )}
                         {played ? (
                           <span className="tab-num font-display text-base leading-none text-[var(--color-fg)]">
                             {sc!.homeScore}<span className="text-[var(--color-fg-subtle)]">-</span>{sc!.awayScore}
@@ -135,7 +139,11 @@ export async function WC2026Calendar({ locale }: { locale: Locale }) {
                       </div>
                       <div className="font-display text-lg uppercase text-[var(--color-fg)]">
                         {f.home && f.away ? (
-                          <span>{f.home}, {f.away}</span>
+                          <span>
+                            <Link href={withLocale(locale, `/selecciones/${f.home}`)} className="hover:text-[var(--color-pitch)]">{f.home}</Link>
+                            <span className="text-[var(--color-fg-subtle)]">, </span>
+                            <Link href={withLocale(locale, `/selecciones/${f.away}`)} className="hover:text-[var(--color-pitch)]">{f.away}</Link>
+                          </span>
                         ) : f.home ? (
                           <span>{f.home} <span className="text-[var(--color-fg-subtle)]">- TBD</span></span>
                         ) : f.label ? (

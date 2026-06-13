@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { setRequestLocale } from 'next-intl/server';
 import { ArrowLeft, ArrowRight, CalendarDays, Tv, Radio } from 'lucide-react';
-import { FIXTURES_2026, TEAMS_2026, STAGE_LABEL } from '@/lib/wc-2026';
+import { FIXTURES_2026, TEAMS_2026, STAGE_LABEL, matchSlug } from '@/lib/wc-2026';
 import { fixtureToUTC } from '@/lib/wc-2026-fixture-utc';
 import { fetchScores, buildScoreMap, scoreKey } from '@/lib/live-scores';
 import { getMovistarLink } from '@/lib/movistar-match-links';
@@ -177,7 +177,10 @@ export default async function PartidosHoy({ params }: { params: Promise<{ locale
                   )}
                 </div>
 
-                <div className="flex flex-1 items-center gap-3 font-display uppercase">
+                <Link
+                  href={withLocale(locale as Locale, `/2026/partido/${matchSlug(f)}`)}
+                  className="flex flex-1 items-center gap-3 font-display uppercase transition-opacity hover:opacity-80"
+                >
                   <Team code={f.home} label={f.label} align="end" />
                   <span className="shrink-0 px-1">
                     {played ? (
@@ -189,7 +192,7 @@ export default async function PartidosHoy({ params }: { params: Promise<{ locale
                     )}
                   </span>
                   <Team code={f.away} align="start" />
-                </div>
+                </Link>
 
                 <a
                   href={mov.href}

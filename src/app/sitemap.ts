@@ -3,7 +3,7 @@ import { createClient } from '@supabase/supabase-js';
 import { TOURNAMENTS } from '@/lib/tournaments';
 import { HISTORIAS } from '@/lib/historias';
 import { SEDES_2026 } from '@/lib/wc-2026-sedes';
-import { GROUPS_2026 } from '@/lib/wc-2026';
+import { GROUPS_2026, FIXTURES_2026, matchSlug } from '@/lib/wc-2026';
 import { NEWS_ITEMS } from '@/lib/news';
 import { SQUADS_2026 } from '@/lib/wc-2026-squads';
 import { JERSEY_HISTORIES } from '@/lib/wc-jerseys';
@@ -122,6 +122,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   out.push(entry('/porra', now, 'daily', 0.95));
   out.push(entry('/2026/predicciones-mundial-2026', now, 'daily', 0.9));
   out.push(entry('/2026/partidos-hoy', now, 'daily', 0.95));
+  // Página por partido (104)
+  for (const f of FIXTURES_2026) {
+    out.push(entry(`/2026/partido/${matchSlug(f)}`, now, 'daily', 0.8));
+  }
   out.push(entry('/2026/cuadro', now, 'weekly', 0.9));
   // Hub Dónde ver por país
   out.push(entry('/2026/donde-ver/mexico', now, 'weekly', 0.9));
