@@ -125,6 +125,52 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'rtve-la1-partidos-mundial-2026-abierto-donde-ver-resto-dazn',
+    title: 'Qué partidos da RTVE (La 1) del Mundial 2026 además de los de España y dónde ver el resto',
+    summary: 'RTVE emite 34 partidos del Mundial 2026 gratis y en abierto en La 1 y RTVE Play: 17 de la fase de grupos (uno por jornada, más todos los de España) y 17 de las eliminatorias, incluida la final. El resto, hasta los 104, es exclusiva de DAZN. Te detallamos qué da cada uno.',
+    body: `## Cuántos partidos da RTVE en abierto (y cuáles)
+
+La buena noticia para quien no quiere pagar: **RTVE ofrece gratis y en abierto 34 partidos** de la **Copa Mundial de la FIFA 2026™** en **La 1** y en **RTVE Play**. No son solo los de España. El reparto es así:
+
+**Fase de grupos — 17 partidos.** RTVE emite **un partido por jornada** (eligiendo el más atractivo del día) y, por encima de todo, **todos los partidos de la selección española íntegros** en La 1. El [partido inaugural](/2026/partido/mexico-sudafrica) entra en ese paquete.
+
+**Eliminatorias — 17 partidos.** Aquí La 1 sube el ritmo y ofrece:
+
+- **6 partidos de dieciseisavos** de final (la primera ronda eliminatoria, novedad del formato de 48 selecciones).
+- **4 de octavos** de final.
+- **3 de cuartos** de final.
+- **Las 2 semifinales** completas.
+- **El partido por el tercer puesto.**
+- **La gran final** del 19 de julio.
+
+Es decir: más allá de España, en abierto tienes asegurados el estreno del torneo, un partido diario en la primera fase y prácticamente toda la chicha de las rondas finales.
+
+## Dónde ver el resto: los 104 partidos
+
+Los partidos que RTVE no emite —la mayoría de los de fase de grupos y parte de las eliminatorias— son **exclusiva de DAZN**, que tiene los derechos de los **104 partidos** del Mundial 2026 en directo y a la carta en España.
+
+La forma más cómoda de no perderte ni uno —incluidos los que sí da RTVE— es tenerlo todo en una sola plataforma: **Movistar Plus+ vía DAZN** reúne los 104 partidos sin saltar de mando, con la **Fanzone** y los canales del torneo. Si ya eres cliente de Movistar, lo tienes integrado; si no, puedes suscribirte directamente a Movistar Plus+.
+
+Tienes el detalle plataforma a plataforma en nuestra guía de [dónde ver el Mundial 2026 en España](/2026/donde-ver).
+
+## Resumen rápido para no perderte nada
+
+- **¿Solo quieres lo gratis?** La 1 y RTVE Play: la inauguración, **todos los de España**, un partido por jornada en la primera fase y casi todas las eliminatorias (incluida la final).
+- **¿Quieres los 104?** Necesitas **DAZN**, que en España va de la mano de **Movistar Plus+** y otros operadores.
+- **¿Cómo saber quién da cada partido hoy?** Consulta el [calendario completo](/2026/calendario) y los [partidos de hoy](/2026/partidos-hoy): cada encuentro indica cómo verlo.
+
+Con esta combinación —RTVE para lo grande y gratis, DAZN/Movistar Plus+ para el resto— no se te escapa ningún partido del Mundial 2026.`,
+    category: 'tv',
+    sourceName: 'El Español / elDiario (Vertele)',
+    sourceUrl: 'https://www.elespanol.com/corazon/bluper/20260611/ver-mundial-television-espana-fechas-horarios-partidos-rtve-retransmite-gratis/1003744282168_0.html',
+    sourceLang: 'es',
+    publishedAt: '2026-06-13T09:00:00Z',
+    sourcesSecondary: [
+      { name: 'elDiario · Vertele', url: 'https://www.eldiario.es/vertele/noticias/mundial-2026-calendario-partidos-fase-grupos-emitir-rtve-dazn_1_13293515.html' },
+      { name: 'ExtraDigital', url: 'https://www.extradigital.es/estos-son-los-17-partidos-que-rtve-emitira-en-abierto-del-mundial-de-futbol-2026-nac/' },
+    ],
+  },
+  {
     slug: 'memo-ochoa-sexto-mundial-2026-mexico-record-messi-cristiano',
     title: 'Memo Ochoa y su sexto Mundial: el récord mexicano que solo comparten Messi y Cristiano',
     summary: 'Guillermo Ochoa llega al Mundial 2026 a los 40 años y firma una marca histórica: es el primer mexicano en disputar seis Copas del Mundo, algo que en esta edición solo igualan Messi y Cristiano Ronaldo. Eso sí, vive el torneo en un papel nuevo: en el debut ante Sudáfrica (2-0) arrancó en el banquillo.',
