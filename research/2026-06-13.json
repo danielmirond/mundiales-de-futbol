@@ -1,0 +1,2366 @@
+{
+  "generatedAt": "2026-06-13T09:43:10.476Z",
+  "date": "2026-06-13",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "australia vs turquía",
+      "geo": "MX",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "¿Cuándo y dónde ver Australia vs Turquía?",
+          "url": "https://www.record.com.mx/historia/%C2%BFcuando-y-donde-ver-australia-vs-turquia-2026061304005492267",
+          "source": "Récord"
+        },
+        {
+          "title": "¿Quién transmite el partido de Australia vs Turquía? Canal y Horario Grupo D Mundial 2026",
+          "url": "https://www.mediotiempo.com/futbol/copa-mundial/quien-transmite-australia-vs-turquia-horario-y-canal-partido-mundial-2026",
+          "source": "Mediotiempo"
+        },
+        {
+          "title": "Choque de trenes en el Pacífico",
+          "url": "https://eldiariodecoahuila.com.mx/2026/06/12/choque-de-trenes-en-el-pacifico/",
+          "source": "El Diario de Coahuila"
+        }
+      ]
+    },
+    {
+      "query": "marruecos vs brasil",
+      "geo": "MX",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "Mundial 2026: Hakimi se declara listo para frenar a Vinicius",
+          "url": "https://www.espn.com.mx/futbol/mundial/nota/_/id/16832176/mundial-2026-hakimi-declara-listo-frenar-vinicius",
+          "source": "ESPN México"
+        },
+        {
+          "title": "Brasil vs Marruecos; ¿Dónde ver el partido EN VIVO? | Canal 5 Home | Canal5",
+          "url": "https://www.televisa.com/canal5/brasil-vs-marruecos-donde-ver-el-partido-en-vivo",
+          "source": "Televisa"
+        },
+        {
+          "title": "Ancelotti lanza advertencia a rivales previo al debut de Brasil en el Mundial 2026",
+          "url": "https://www.record.com.mx/historia/ancelotti-lanza-advertencia-a-rivales-previo-al-debut-de-brasil-en-el-mundial-2026-2026061222442449002",
+          "source": "Récord"
+        }
+      ]
+    },
+    {
+      "query": "paris hilton",
+      "geo": "AR",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "Britney Spears gets unexpected shout out from Paris Hilton in trying times",
+          "url": "https://www.geo.tv/latest/668550-britney-spears-gets-unexpected-shout-out-from-paris-hilton-in-trying-times",
+          "source": "Geo News"
+        },
+        {
+          "title": "Paris Hilton Honors Britney Spears With Sweet Shoutout at World Cup 2026",
+          "url": "https://www.eonline.com/videos/2503514691862/paris-hilton-honors-britney-spears-with-sweet-shoutout-at-world-cup-2026",
+          "source": "E! News"
+        },
+        {
+          "title": "Paris Hilton on football creating global unity at FIFA World Cup Opening Ceremony",
+          "url": "https://www.yahoo.com/entertainment/videos/paris-hilton-football-creating-global-021657715.html",
+          "source": "Yahoo"
+        }
+      ]
+    },
+    {
+      "query": "argentina vs argelia",
+      "geo": "AR",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "Con tres dudas, el once de Argentina para el debut ante Argelia",
+          "url": "https://www.tycsports.com/seleccion-argentina/las-dudas-de-lionel-scaloni-en-el-once-de-la-seleccion-argentina-ante-argelia-id735866.html",
+          "source": "TyC Sports"
+        },
+        {
+          "title": "🔴 Selección argentina, hoy: entrenamiento en Kansas, la posible formación con Argelia y últimas noticias en vivo",
+          "url": "https://tn.com.ar/deportes/mundial/2026/2026/06/13/seleccion-argentina-hoy-entrenamiento-la-posible-formacion-con-argelia-y-ultimas-noticias-en-vivo/",
+          "source": "TN"
+        },
+        {
+          "title": "Tagliafico se queda: su importancia en Argentina de cara al Mundial 2026",
+          "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16831586/tagliafico-se-queda-su-importancia-en-argentina-de-cara-al-mundial-2026",
+          "source": "ESPN Argentina"
+        }
+      ]
+    },
+    {
+      "query": "alex freeman",
+      "geo": "AR",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "From NFL bloodline to World Cup starter: Alex Freeman’s sudden rise with USMNT",
+          "url": "https://www.usatoday.com/story/sports/soccer/worldcup/2026/06/12/alex-freeman-usmnt-world-cup-antonio-son/90509612007/",
+          "source": "USA Today"
+        },
+        {
+          "title": "NFL legend&apos;s son to make FIFA World Cup debut on Friday",
+          "url": "https://www.msn.com/en-us/sports/fifa_world_cup/nfl-legends-son-to-make-fifa-world-cup-debut-on-friday/ar-AA25iROG",
+          "source": "MSN"
+        },
+        {
+          "title": "USMNT&apos;s Alex Freeman is son of &apos;Packers HOF&apos; WR Antonio",
+          "url": "https://www.espn.com/nfl/story/_/id/49029982/nfl-green-bay-packers-usmnt-world-cup-alex-freeman-antonio-freeman",
+          "source": "ESPN"
+        }
+      ]
+    },
+    {
+      "query": "australia vs turquía",
+      "geo": "CO",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "La Selecciones de Australia y Turquía encienden las emociones en su debut dentro del Mundial 2026",
+          "url": "https://www.eltiempo.com/deportes/futbol-internacional/la-seleccion-de-australia-y-turquia-encienden-las-emociones-en-su-debut-dentro-del-mundial-3563973",
+          "source": "ELTIEMPO.COM"
+        },
+        {
+          "title": "Australia y Turquía, pulso parejo en su debut mundialista",
+          "url": "https://laopinion.co/deportes/australia-y-turquia-pulso-parejo-en-su-debut-mundialista",
+          "source": "La Opinión Cúcuta"
+        },
+        {
+          "title": "Australia vs. Turquía: duelo parejo en la Copa del Mundo",
+          "url": "https://www.elheraldo.co/deportes/2026/06/12/australia-vs-turquia-duelo-parejo-en-la-copa-del-mundo/",
+          "source": "ELHERALDO.CO"
+        }
+      ]
+    },
+    {
+      "query": "qatar vs suiza",
+      "geo": "CO",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "El destino cruza a la Selección de Suiza y Catar en un debut con sabor a revancha en el Mundial 2026: día, hora y por dónde ver el partido",
+          "url": "https://www.eltiempo.com/deportes/futbol-internacional/el-destino-cruza-a-la-seleccion-de-suiza-y-catar-en-un-debut-con-sabor-a-revancha-en-el-mundial-2026-dia-hora-y-por-donde-ver-el-partido-3563924",
+          "source": "ELTIEMPO.COM"
+        },
+        {
+          "title": "Pronóstico de Qatar vs. Suiza: quién gana según las apuestas",
+          "url": "https://www.tycsports.com/mundial/pronostico-de-qatar-vs-suiza-quien-gana-segun-las-apuestas-id735590.html",
+          "source": "TyC Sports"
+        },
+        {
+          "title": "Qatar vs Suiza: Prográmese con el último partido de la fecha 1 del grupo B de la Copa del Mundo 2026",
+          "url": "https://caracol.com.co/2026/06/12/qatar-vs-suiza-programese-con-el-ultimo-partido-de-la-fecha-1-del-grupo-b-de-la-copa-del-mundo-2026/",
+          "source": "Caracol Radio"
+        }
+      ]
+    },
+    {
+      "query": "uruguay vs",
+      "geo": "CO",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Está confirmado el árbitro para el debut de Uruguay en el Mundial 2026",
+          "url": "https://www.espn.com.co/futbol/mundial/nota/_/id/16829889/uruguay-arabia-saudita-debut-quien-arbitra-es-maurizio-mariani-italiano",
+          "source": "ESPN Colombia"
+        },
+        {
+          "title": "Arabia Saudita vs. Uruguay, todo lo que tenés que saber del duelo del Mundial",
+          "url": "https://www.directvsports.com/futbol/arabia-saudita-vs.-uruguay-todo-lo-que-tenes-que-saber-del-duelo-del-mundial-20260612-0016.html",
+          "source": "dsports"
+        },
+        {
+          "title": "LAHORA DE LOS VIÑAS",
+          "url": "https://onefootball.com/es/noticias/lahora-de-los-vinas-42997478",
+          "source": "OneFootball"
+        }
+      ]
+    },
+    {
+      "query": "ricardo pepi",
+      "geo": "CO",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Zendejas, Brian, Obed: mexicoamericanos que llegaron al Mundial",
+          "url": "https://www.espn.com.co/futbol/mundial/nota/_/id/16812235/mundial-jugadores-mexicoamericanos-zendejas-gutierrez-obed-vargas",
+          "source": "ESPN Colombia"
+        },
+        {
+          "title": "RECHAZÓ a la Selección Mexicana por jugar con USA y fue IGNORADO en el debut de Mundial 2026",
+          "url": "https://www.tvazteca.com/aztecadeportes/rechazo-seleccion-mexicana-por-usa-ignorado-en-el-debut-mundial-2026/",
+          "source": "TV Azteca"
+        },
+        {
+          "title": "Alejandro Zendejas y Ricardo Pepi, ¿primeros fronterizos en jugar una Copa del Mundo?",
+          "url": "https://nortedigital.mx/alejandro-zendejas-y-ricardo-pepi-primeros-fronterizos-en-jugar-una-copa-del-mundo/",
+          "source": "Norte de Ciudad Juárez"
+        }
+      ]
+    },
+    {
+      "query": "paris hilton",
+      "geo": "CO",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "Britney Spears gets unexpected shout out from Paris Hilton in trying times",
+          "url": "https://www.geo.tv/latest/668550-britney-spears-gets-unexpected-shout-out-from-paris-hilton-in-trying-times",
+          "source": "Geo News"
+        },
+        {
+          "title": "Paris Hilton Honors Britney Spears With Sweet Shoutout at World Cup 2026",
+          "url": "https://www.eonline.com/videos/2503514691862/paris-hilton-honors-britney-spears-with-sweet-shoutout-at-world-cup-2026",
+          "source": "E! News"
+        },
+        {
+          "title": "Paris Hilton on football creating global unity at FIFA World Cup Opening Ceremony",
+          "url": "https://www.yahoo.com/entertainment/videos/paris-hilton-football-creating-global-021657715.html",
+          "source": "Yahoo"
+        }
+      ]
+    },
+    {
+      "query": "suiza vs",
+      "geo": "CL",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "En vivo: Catar y Suiza buscan comenzar de la mejor manera su actuación en Norteamérica 2026",
+          "url": "https://www.latercera.com/el-deportivo/noticia/en-vivo-catar-y-suiza-buscan-comenzar-de-la-mejor-manera-su-actuacion-en-norteamerica-2026/",
+          "source": "La Tercera"
+        },
+        {
+          "title": "Qatar - Suiza: a qué hora es el partido del Mundial 2026, horario y cómo verlo por TV",
+          "url": "https://www.adnradio.cl/2026/06/12/qatar-suiza-a-que-hora-es-el-partido-del-mundial-2026-horario-y-como-verlo-por-tv/",
+          "source": "ADN Radio"
+        },
+        {
+          "title": "Catar y Suiza se miden con la misión de un estreno positivo en el Grupo B del Mundial",
+          "url": "https://www.cooperativa.cl/noticias/deportes/mundial-2026/fase-grupal/catar-y-suiza-se-miden-con-la-mision-de-un-estreno-positivo-en-el-grupo/2026-06-13/005843.html",
+          "source": "Cooperativa"
+        }
+      ]
+    },
+    {
+      "query": "weah",
+      "geo": "CL",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "¿Por qué no juega Timothy Weah en Estados Unidos ante Paraguay en el Mundial 2026?",
+          "url": "https://bolavip.com/cl/mundial/por-que-no-juega-timothy-weah-en-estados-unidos-ante-paraguay-en-el-mundial-2026",
+          "source": "Bolavip Chile"
+        },
+        {
+          "title": "The American left has a favorite player - Live Updates",
+          "url": "https://www.politico.com/live-updates/2026/06/12/world-cup-2026/timothy-weah-usmnt-lefts-favorite-player-00961265",
+          "source": "Politico"
+        },
+        {
+          "title": "Why Timothy Weah is the new Pelé (by one definition)",
+          "url": "https://www.thetimes.com/us/news-today/article/timothy-weah-world-cup-music-qf3tfm5d3",
+          "source": "The Times"
+        }
+      ]
+    },
+    {
+      "query": "ricardo pepi",
+      "geo": "CL",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Zendejas, Brian, Obed: mexicoamericanos que llegaron al Mundial",
+          "url": "https://www.espn.cl/futbol/mundial/nota/_/id/16812235/mundial-jugadores-mexicoamericanos-zendejas-gutierrez-obed-vargas",
+          "source": "ESPN Chile"
+        },
+        {
+          "title": "RECHAZÓ a la Selección Mexicana por jugar con USA y fue IGNORADO en el debut de Mundial 2026",
+          "url": "https://www.tvazteca.com/aztecadeportes/rechazo-seleccion-mexicana-por-usa-ignorado-en-el-debut-mundial-2026/",
+          "source": "TV Azteca"
+        },
+        {
+          "title": "Alejandro Zendejas y Ricardo Pepi, ¿primeros fronterizos en jugar una Copa del Mundo?",
+          "url": "https://nortedigital.mx/alejandro-zendejas-y-ricardo-pepi-primeros-fronterizos-en-jugar-una-copa-del-mundo/",
+          "source": "Norte de Ciudad Juárez"
+        }
+      ]
+    },
+    {
+      "query": "paris hilton",
+      "geo": "CL",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Britney Spears gets unexpected shout out from Paris Hilton in trying times",
+          "url": "https://www.geo.tv/latest/668550-britney-spears-gets-unexpected-shout-out-from-paris-hilton-in-trying-times",
+          "source": "Geo News"
+        },
+        {
+          "title": "Paris Hilton Honors Britney Spears With Sweet Shoutout at World Cup 2026",
+          "url": "https://www.eonline.com/videos/2503514691862/paris-hilton-honors-britney-spears-with-sweet-shoutout-at-world-cup-2026",
+          "source": "E! News"
+        },
+        {
+          "title": "Paris Hilton on football creating global unity at FIFA World Cup Opening Ceremony",
+          "url": "https://www.yahoo.com/entertainment/videos/paris-hilton-football-creating-global-021657715.html",
+          "source": "Yahoo"
+        }
+      ]
+    },
+    {
+      "query": "australia vs",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Cuándo juegan Australia vs. Turquía por la primera fecha de la fase de grupos del Mundial 2026: equipo, fecha, hora y TV en vivo",
+          "url": "https://www.espn.com.pe/futbol/mundial/nota/_/id/16786080/australia-vs-turquia-fase-de-grupos-mundial-2026-equipo-fecha-hora-y-tv-en-vivo",
+          "source": "espn.com.pe"
+        },
+        {
+          "title": "¿A qué hora juega y en qué canal transmiten Australia vs. Turquía EN VIVO hoy por el Mundial de Fútbol 2026 en EE.UU. y México?",
+          "url": "https://gestion.pe/mix/sports/a-que-hora-juega-y-en-que-canal-transmiten-australia-vs-turquia-en-vivo-hoy-por-el-mundial-de-futbol-2026-en-eeuu-y-mexico-canales-tv-online-gratis-nnda-nnrt-noticia/",
+          "source": "Diario Gestión"
+        },
+        {
+          "title": "Australia vs Turquia: ¡Juega en el Torneo mundial y llega a La Cima del Fútbol con Meridianbet y Kashio!",
+          "url": "https://ovacion.pe/noticias/nota-promocional/australia-vs-turquia-juega-torneo-mundial-llega-cima-del-futbol",
+          "source": "ovacion.pe"
+        }
+      ]
+    },
+    {
+      "query": "qatar vs",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Julen Lopetegui’s Redemption at the FIFA World Cup 2026",
+          "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/julen-lopetegui-s-redemption-at-the-fifa-world-cup-2026-2026-06-12",
+          "source": "beIN SPORTS"
+        },
+        {
+          "title": "Director of national teams Pierluigi Tami: ‘We are there not only to participate at World Cup, but with ambitions’",
+          "url": "https://tribuna.com/en/news/2026-06-12-director-of-national-teams-pierluigi-tami-we-are-there-not-only-to-participate-at-world-c/",
+          "source": "Tribuna.com"
+        },
+        {
+          "title": "(SP)U.S.-SANTA CLARA-FOOTBALL-FIFA WORLD CUP-TEAM QATAR-PRESS CONFERENCE",
+          "url": "https://www.malaysiasun.com/news/279120173/spus-santa-clara-football-fifa-world-cup-team-qatar-press-conference",
+          "source": "www.malaysiasun.com"
+        }
+      ]
+    },
+    {
+      "query": "ricardo pepi",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Zendejas, Brian, Obed: mexicoamericanos que llegaron al Mundial",
+          "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16812235/mundial-jugadores-mexicoamericanos-zendejas-gutierrez-obed-vargas",
+          "source": "ESPN Argentina"
+        },
+        {
+          "title": "RECHAZÓ a la Selección Mexicana por jugar con USA y fue IGNORADO en el debut de Mundial 2026",
+          "url": "https://www.tvazteca.com/aztecadeportes/rechazo-seleccion-mexicana-por-usa-ignorado-en-el-debut-mundial-2026/",
+          "source": "TV Azteca"
+        },
+        {
+          "title": "Alejandro Zendejas y Ricardo Pepi, ¿primeros fronterizos en jugar una Copa del Mundo?",
+          "url": "https://nortedigital.mx/alejandro-zendejas-y-ricardo-pepi-primeros-fronterizos-en-jugar-una-copa-del-mundo/",
+          "source": "Norte de Ciudad Juárez"
+        }
+      ]
+    },
+    {
+      "query": "paris hilton",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Britney Spears gets unexpected shout out from Paris Hilton in trying times",
+          "url": "https://www.geo.tv/latest/668550-britney-spears-gets-unexpected-shout-out-from-paris-hilton-in-trying-times",
+          "source": "Geo News"
+        },
+        {
+          "title": "Paris Hilton Honors Britney Spears With Sweet Shoutout at World Cup 2026",
+          "url": "https://www.eonline.com/videos/2503514691862/paris-hilton-honors-britney-spears-with-sweet-shoutout-at-world-cup-2026",
+          "source": "E! News"
+        },
+        {
+          "title": "Paris Hilton on football creating global unity at FIFA World Cup Opening Ceremony",
+          "url": "https://www.yahoo.com/entertainment/videos/paris-hilton-football-creating-global-021657715.html",
+          "source": "Yahoo"
+        }
+      ]
+    },
+    {
+      "query": "paris hilton",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Britney Spears gets unexpected shout out from Paris Hilton in trying times",
+          "url": "https://www.geo.tv/latest/668550-britney-spears-gets-unexpected-shout-out-from-paris-hilton-in-trying-times",
+          "source": "Geo News"
+        },
+        {
+          "title": "Paris Hilton Honors Britney Spears With Sweet Shoutout at World Cup 2026",
+          "url": "https://www.eonline.com/videos/2503514691862/paris-hilton-honors-britney-spears-with-sweet-shoutout-at-world-cup-2026",
+          "source": "E! News"
+        },
+        {
+          "title": "Paris Hilton on football creating global unity at FIFA World Cup Opening Ceremony",
+          "url": "https://www.yahoo.com/entertainment/videos/paris-hilton-football-creating-global-021657715.html",
+          "source": "Yahoo"
+        }
+      ]
+    },
+    {
+      "query": "grupos mundial 2026",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "Dónde ver gratis el Mundial 2026 en Ecuador: canales de TV, streaming y opciones de pago",
+          "url": "https://www.eluniverso.com/deportes/futbol/opciones-para-ver-gratis-en-tv-y-streaming-el-mundial-2026-en-ecuador-nota/",
+          "source": "El Universo"
+        },
+        {
+          "title": "YouTube de Teleamazonas: una nueva forma de vivir el Mundial 2026",
+          "url": "https://www.teleamazonas.com/mundial/partidos-mundial-youtube-teleamazonas-119976/",
+          "source": "Teleamazonas"
+        },
+        {
+          "title": "Así llegan los equipos del grupo de Ecuador al debut del Mundial",
+          "url": "https://www.elcomercio.com/deportes/futbol/como-llegan-equipos-grupo-ecuador-debut-mundial/",
+          "source": "El Comercio"
+        }
+      ]
+    },
+    {
+      "query": "brasil vs marruecos",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "Achraf: “Somos la Brasil de África”",
+          "url": "https://as.com/futbol/mundial/achraf-somos-la-brasil-de-africa-f202606-n/",
+          "source": "Diario AS"
+        },
+        {
+          "title": "Ancelotti: \"Si no tienes miedo y te aparece un león, te puedes creer que es un gato\"",
+          "url": "https://www.marca.com/futbol/mundial/2026/06/12/ancelotti-tienes-miedo-te-aparece-leon-te-puedes-creer-gato.html",
+          "source": "MARCA"
+        },
+        {
+          "title": "Con quién juega Brasil mañana en su debut en el Mundial 2026 | Fútbol | Deportes",
+          "url": "https://www.eluniverso.com/deportes/futbol/brasil-vs-marruecos-en-el-mundial-2026-horario-en-ecuador-canal-y-donde-ver-en-vivo-nota/",
+          "source": "El Universo"
+        }
+      ]
+    },
+    {
+      "query": "copa mundial de fútbol",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Mundial 2026, en directo: noticias de la Copa del Mundo y última hora de las selecciones, hoy en vivo",
+          "url": "https://as.com/futbol/mundial/mundial-2026-en-directo-noticias-de-la-copa-del-mundo-y-ultima-hora-de-las-selecciones-hoy-en-vivo-f202606-d-4/",
+          "source": "Diario AS"
+        },
+        {
+          "title": "Encuentran un cadáver en el maletero de un coche aparcado frente al lugar de entrenamiento de la selección de Irán en México",
+          "url": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/06/13/6a2d0591e9cf4a300a8b458d.html",
+          "source": "El Mundo"
+        },
+        {
+          "title": "Hallan cuerpo sin vida cerca de sede de entrenamiento de la selección de Irán",
+          "url": "https://www.elimparcial.com/tij/policiaca/2026/06/13/hallan-cuerpo-sin-vida-cerca-de-sede-de-entrenamiento-de-la-seleccion-de-iran/",
+          "source": "El Imparcial"
+        }
+      ]
+    },
+    {
+      "query": "paris hilton",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Britney Spears gets unexpected shout out from Paris Hilton in trying times",
+          "url": "https://www.geo.tv/latest/668550-britney-spears-gets-unexpected-shout-out-from-paris-hilton-in-trying-times",
+          "source": "Geo News"
+        },
+        {
+          "title": "Paris Hilton Honors Britney Spears With Sweet Shoutout at World Cup 2026",
+          "url": "https://www.eonline.com/videos/2503514691862/paris-hilton-honors-britney-spears-with-sweet-shoutout-at-world-cup-2026",
+          "source": "E! News"
+        },
+        {
+          "title": "Paris Hilton on football creating global unity at FIFA World Cup Opening Ceremony",
+          "url": "https://www.yahoo.com/entertainment/videos/paris-hilton-football-creating-global-021657715.html",
+          "source": "Yahoo"
+        }
+      ]
+    },
+    {
+      "query": "rob lowe",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Rob Lowe Jokes He Has “Low Expectations” for Father’s Day at World Cup 2026",
+          "url": "https://www.eonline.com/videos/2503517251923/rob-lowe-jokes-he-has-low-expectations-for-fathers-day-at-world-cup-2026",
+          "source": "E! News"
+        },
+        {
+          "title": "Rob Lowe Jokes He Has “Low Expectations” for Father’s Day While Attending World Cup 2026",
+          "url": "https://www.eonline.com/news/1432953/world-cup-2026-rob-lowe-jokes-about-fathers-day-plans-with-sons",
+          "source": "E! News"
+        }
+      ]
+    },
+    {
+      "query": "usa vs",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "2026 World Cup scores, results: USMNT throttles Paraguay; Canada earns draw with Bosnia and Herzegovina",
+          "url": "https://sports.yahoo.com/soccer/live/2026-world-cup-scores-results-usmnt-throttles-paraguay-canada-earns-draw-with-bosnia-and-herzegovina-145258177.html",
+          "source": "Yahoo Sports"
+        },
+        {
+          "title": "United States’ Gio Reyna scores goal in extra time to seal win over Paraguay | 2026 FIFA World Cup",
+          "url": "https://www.foxsports.com/watch/fmc-yrxwptq8nk713hpe",
+          "source": "FOX Sports"
+        },
+        {
+          "title": "‘Dream come true’: World Cup fever ignites Los Angeles as USA beat Paraguay",
+          "url": "https://www.aljazeera.com/sports/2026/6/13/dream-come-true-world-cup-fever-ignites-los-angeles-as-usa-beat-paraguay",
+          "source": "Al Jazeera"
+        }
+      ]
+    },
+    {
+      "query": "pulisic",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "World Cup 2026: USMNT&apos;s Christian Pulisic subbed at halftime of historic win over Paraguay",
+          "url": "https://www.cbssports.com/soccer/news/world-cup-2026-usmnts-christian-pulisic-subbed-at-halftime-of-historic-win-over-paraguay/",
+          "source": "CBS Sports"
+        },
+        {
+          "title": "Captain America just gave the US a dream start to the World Cup",
+          "url": "https://www.msn.com/en-us/sports/soccer/captain-america-just-gave-the-us-a-dream-start-to-the-world-cup/ar-AA25x2u6",
+          "source": "MSN"
+        },
+        {
+          "title": "What happened to Christian Pulisic? Inside USMNT star&apos;s injury scare and World Cup future",
+          "url": "https://sports.yahoo.com/articles/happened-christian-pulisic-inside-usmnt-041838590.html",
+          "source": "Yahoo Sports"
+        }
+      ]
+    },
+    {
+      "query": "carlos del cerro grande",
+      "geo": "ES",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Lío arbitral con Del Cerro como protagonista: “El error del Mundial”",
+          "url": "https://as.com/futbol/mundial/lio-arbitral-con-del-cerro-como-protagonista-de-donde-se-han-sacado-esto-f202606-n/",
+          "source": "Diario AS"
+        },
+        {
+          "title": "Lo nunca visto en el VAR... con Del Cerro Grande al mando",
+          "url": "https://www.marca.com/futbol/mundial/2026/06/13/nunca-visto-var-cerro-grande-mando.html",
+          "source": "MARCA"
+        },
+        {
+          "title": "Mundial 2026: ¿Qué es el Mistaken Identity?",
+          "url": "https://espndeportes.espn.com/futbol/mundial/nota/_/id/16833192/mundial-2026-mistaken-identity-que-es-decision-arbitro-estados-unidos-vs-paraguay",
+          "source": "ESPN Deportes"
+        }
+      ]
+    },
+    {
+      "query": "angleterre",
+      "geo": "FR",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "EN DIRECT Coupe du monde 2026 : Neymar absent pour le choc face au Maroc... Les Anglais victimes d&apos;un vol...",
+          "url": "https://www.20minutes.fr/sport/4228807-20260612-direct-coupe-monde-2026-show-katy-perry-avant-celui-christian-pulisic-team-usa-suivez-nuit",
+          "source": "20 Minutes"
+        },
+        {
+          "title": "CdM 2026, Angleterre : énorme soulagement après le cambriolage",
+          "url": "https://www.footmercato.net/a9004642935770348866-cdm-2026-angleterre-enorme-soulagement-apres-le-cambriolage",
+          "source": "Foot Mercato"
+        },
+        {
+          "title": "Coupe du monde - Crampons et ballons disparus : l&apos;Angleterre victime d&apos;un vol à quelques jours de son entrée en lice",
+          "url": "https://www.eurosport.fr/football/coupe-du-monde/2026/coupe-du-monde-crampons-et-ballons-disparus-langleterre-victime-dun-vol-a-quelques-jours-de-son-entree-en-lice_sto23309135/story.shtml",
+          "source": "Eurosport"
+        }
+      ]
+    },
+    {
+      "query": "thomas tuchel",
+      "geo": "DE",
+      "language": "de",
+      "source": "google-trends-daily",
+      "score": 10000,
+      "articles": [
+        {
+          "title": "WM 2026: Thomas Tuchel und seine England-Stars beklaut – Zwei Festnahmen",
+          "url": "https://www.bild.de/sport/fussball/wm-2026-thomas-tuchel-und-seine-england-stars-beklaut-zwei-festnahmen-6a2ceff96bb5c7fe2e1c4679",
+          "source": "BILD"
+        },
+        {
+          "title": "WM 2026 im Live-Blog: Englands Nationalmannschaft beklaut!",
+          "url": "https://web.de/magazine/sport/fussball/wm/wm-2026-live-blog-englands-nationalmannschaft-beklaut-42378666",
+          "source": "WEB.DE"
+        },
+        {
+          "title": "(S+) Fußball-WM: Amerikanisches Sommermärchen? USA nährt Hoffnung",
+          "url": "https://www.spiegel.de/sport/fussball/wm-2026-news-heute-usa-besiegt-paraguay-a-d6d6ad1b-2325-4cdf-90bc-921743f2e54b",
+          "source": "Spiegel"
+        }
+      ]
+    },
+    {
+      "query": "usa foot",
+      "geo": "MA",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "États-Unis 4-1 Paraguay, Coupe du monde : match terminé",
+          "url": "https://www.lequipe.fr/Football/match-direct/coupe-du-monde/2026/etats-unis-paraguay-live/686920",
+          "source": "L&apos;Équipe"
+        },
+        {
+          "title": "Sacrés Américains, Brad Pitt et Katy Perry, Trump absent… Ce que vous avez raté cette nuit à la Coupe du monde",
+          "url": "https://www.lefigaro.fr/sports/football/coupe-du-monde/sacres-americains-brad-pitt-et-katy-perry-trump-absent-ce-que-vous-avez-rate-cette-nuit-a-la-coupe-du-monde-20260613",
+          "source": "Le Figaro"
+        },
+        {
+          "title": "Coupe du Monde 2026 : emmenés par un grand Balogun, les États-Unis démarrent très fort contre le Paraguay",
+          "url": "https://www.footmercato.net/a5698754636969516844-coupe-du-monde-2026-emmenes-par-un-grand-balogun-les-etats-unis-demarrent-tres-fort-contre-le-paraguay",
+          "source": "Foot Mercato"
+        }
+      ]
+    },
+    {
+      "query": "katy perry",
+      "geo": "MA",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "World Cup kicks off in the US with performances from Katy Perry, Future and Tyla",
+          "url": "https://www.bbc.com/news/articles/c4g9g9xy9y7o",
+          "source": "BBC"
+        },
+        {
+          "title": "Los Angeles conjures up irresistible spectacle as USA sparkle in opening act | Barney Ronay",
+          "url": "https://www.theguardian.com/football/2026/jun/13/los-angeles-conjures-up-irresistible-spectacle-as-usa-sparkle-in-opening-act-world-cup-2026",
+          "source": "The Guardian"
+        },
+        {
+          "title": "FIFA World Cup 2026 L.A. Red Carpet & Performances: Paris Hilton, Jaafar Jackson, Will Forte & More",
+          "url": "https://deadline.com/gallery/fifa-world-cup-2026-l-a-red-carpet-performances-paris-hilton-jaafar-jackson-rob-lowe-more/",
+          "source": "Deadline"
+        }
+      ]
+    },
+    {
+      "query": "ryan reynolds",
+      "geo": "MA",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Connor McDavid downs a glass of wine as he watches Canada open their 2026 World Cup with a draw against Bosnia and Herzegovina",
+          "url": "https://russianmachineneverbreaks.com/2026/06/12/connor-mcdavid-canada-2026-world-cup-drunk-wine-bosnia-herzegovina-draw/",
+          "source": "RMNB"
+        },
+        {
+          "title": "Larin&apos;s Contribution to the Canadian National Team and His Stats in Europe&apos;s Top Leagues",
+          "url": "https://russpain.com/en/news-3/canadian-forward-larin-prepares-for-home-world-cup-2026-after-successful-seasons-in-europe-483288/",
+          "source": "russpain.com"
+        },
+        {
+          "title": "World Cup 2026: Ryan Reynolds celebrates Canada&apos;s goal vs Bosnia",
+          "url": "https://www.bbc.com/sport/football/videos/cy9rq7q13z9o",
+          "source": "BBC"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "es": [
+      {
+        "query": "paris hilton",
+        "score": 4840,
+        "geos": [
+          "AR",
+          "CO",
+          "CL",
+          "PE",
+          "EC",
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "paris hilton",
+            "geo": "AR",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "Britney Spears gets unexpected shout out from Paris Hilton in trying times",
+                "url": "https://www.geo.tv/latest/668550-britney-spears-gets-unexpected-shout-out-from-paris-hilton-in-trying-times",
+                "source": "Geo News"
+              },
+              {
+                "title": "Paris Hilton Honors Britney Spears With Sweet Shoutout at World Cup 2026",
+                "url": "https://www.eonline.com/videos/2503514691862/paris-hilton-honors-britney-spears-with-sweet-shoutout-at-world-cup-2026",
+                "source": "E! News"
+              },
+              {
+                "title": "Paris Hilton on football creating global unity at FIFA World Cup Opening Ceremony",
+                "url": "https://www.yahoo.com/entertainment/videos/paris-hilton-football-creating-global-021657715.html",
+                "source": "Yahoo"
+              }
+            ]
+          },
+          {
+            "query": "paris hilton",
+            "geo": "CO",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "Britney Spears gets unexpected shout out from Paris Hilton in trying times",
+                "url": "https://www.geo.tv/latest/668550-britney-spears-gets-unexpected-shout-out-from-paris-hilton-in-trying-times",
+                "source": "Geo News"
+              },
+              {
+                "title": "Paris Hilton Honors Britney Spears With Sweet Shoutout at World Cup 2026",
+                "url": "https://www.eonline.com/videos/2503514691862/paris-hilton-honors-britney-spears-with-sweet-shoutout-at-world-cup-2026",
+                "source": "E! News"
+              },
+              {
+                "title": "Paris Hilton on football creating global unity at FIFA World Cup Opening Ceremony",
+                "url": "https://www.yahoo.com/entertainment/videos/paris-hilton-football-creating-global-021657715.html",
+                "source": "Yahoo"
+              }
+            ]
+          },
+          {
+            "query": "paris hilton",
+            "geo": "CL",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Britney Spears gets unexpected shout out from Paris Hilton in trying times",
+                "url": "https://www.geo.tv/latest/668550-britney-spears-gets-unexpected-shout-out-from-paris-hilton-in-trying-times",
+                "source": "Geo News"
+              },
+              {
+                "title": "Paris Hilton Honors Britney Spears With Sweet Shoutout at World Cup 2026",
+                "url": "https://www.eonline.com/videos/2503514691862/paris-hilton-honors-britney-spears-with-sweet-shoutout-at-world-cup-2026",
+                "source": "E! News"
+              },
+              {
+                "title": "Paris Hilton on football creating global unity at FIFA World Cup Opening Ceremony",
+                "url": "https://www.yahoo.com/entertainment/videos/paris-hilton-football-creating-global-021657715.html",
+                "source": "Yahoo"
+              }
+            ]
+          },
+          {
+            "query": "paris hilton",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Britney Spears gets unexpected shout out from Paris Hilton in trying times",
+                "url": "https://www.geo.tv/latest/668550-britney-spears-gets-unexpected-shout-out-from-paris-hilton-in-trying-times",
+                "source": "Geo News"
+              },
+              {
+                "title": "Paris Hilton Honors Britney Spears With Sweet Shoutout at World Cup 2026",
+                "url": "https://www.eonline.com/videos/2503514691862/paris-hilton-honors-britney-spears-with-sweet-shoutout-at-world-cup-2026",
+                "source": "E! News"
+              },
+              {
+                "title": "Paris Hilton on football creating global unity at FIFA World Cup Opening Ceremony",
+                "url": "https://www.yahoo.com/entertainment/videos/paris-hilton-football-creating-global-021657715.html",
+                "source": "Yahoo"
+              }
+            ]
+          },
+          {
+            "query": "paris hilton",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Britney Spears gets unexpected shout out from Paris Hilton in trying times",
+                "url": "https://www.geo.tv/latest/668550-britney-spears-gets-unexpected-shout-out-from-paris-hilton-in-trying-times",
+                "source": "Geo News"
+              },
+              {
+                "title": "Paris Hilton Honors Britney Spears With Sweet Shoutout at World Cup 2026",
+                "url": "https://www.eonline.com/videos/2503514691862/paris-hilton-honors-britney-spears-with-sweet-shoutout-at-world-cup-2026",
+                "source": "E! News"
+              },
+              {
+                "title": "Paris Hilton on football creating global unity at FIFA World Cup Opening Ceremony",
+                "url": "https://www.yahoo.com/entertainment/videos/paris-hilton-football-creating-global-021657715.html",
+                "source": "Yahoo"
+              }
+            ]
+          },
+          {
+            "query": "paris hilton",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Britney Spears gets unexpected shout out from Paris Hilton in trying times",
+                "url": "https://www.geo.tv/latest/668550-britney-spears-gets-unexpected-shout-out-from-paris-hilton-in-trying-times",
+                "source": "Geo News"
+              },
+              {
+                "title": "Paris Hilton Honors Britney Spears With Sweet Shoutout at World Cup 2026",
+                "url": "https://www.eonline.com/videos/2503514691862/paris-hilton-honors-britney-spears-with-sweet-shoutout-at-world-cup-2026",
+                "source": "E! News"
+              },
+              {
+                "title": "Paris Hilton on football creating global unity at FIFA World Cup Opening Ceremony",
+                "url": "https://www.yahoo.com/entertainment/videos/paris-hilton-football-creating-global-021657715.html",
+                "source": "Yahoo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "marruecos vs brasil",
+        "score": 2800,
+        "geos": [
+          "MX"
+        ],
+        "samples": [
+          {
+            "query": "marruecos vs brasil",
+            "geo": "MX",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "Mundial 2026: Hakimi se declara listo para frenar a Vinicius",
+                "url": "https://www.espn.com.mx/futbol/mundial/nota/_/id/16832176/mundial-2026-hakimi-declara-listo-frenar-vinicius",
+                "source": "ESPN México"
+              },
+              {
+                "title": "Brasil vs Marruecos; ¿Dónde ver el partido EN VIVO? | Canal 5 Home | Canal5",
+                "url": "https://www.televisa.com/canal5/brasil-vs-marruecos-donde-ver-el-partido-en-vivo",
+                "source": "Televisa"
+              },
+              {
+                "title": "Ancelotti lanza advertencia a rivales previo al debut de Brasil en el Mundial 2026",
+                "url": "https://www.record.com.mx/historia/ancelotti-lanza-advertencia-a-rivales-previo-al-debut-de-brasil-en-el-mundial-2026-2026061222442449002",
+                "source": "Récord"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "usa vs",
+        "score": 1800,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "usa vs",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "2026 World Cup scores, results: USMNT throttles Paraguay; Canada earns draw with Bosnia and Herzegovina",
+                "url": "https://sports.yahoo.com/soccer/live/2026-world-cup-scores-results-usmnt-throttles-paraguay-canada-earns-draw-with-bosnia-and-herzegovina-145258177.html",
+                "source": "Yahoo Sports"
+              },
+              {
+                "title": "United States’ Gio Reyna scores goal in extra time to seal win over Paraguay | 2026 FIFA World Cup",
+                "url": "https://www.foxsports.com/watch/fmc-yrxwptq8nk713hpe",
+                "source": "FOX Sports"
+              },
+              {
+                "title": "‘Dream come true’: World Cup fever ignites Los Angeles as USA beat Paraguay",
+                "url": "https://www.aljazeera.com/sports/2026/6/13/dream-come-true-world-cup-fever-ignites-los-angeles-as-usa-beat-paraguay",
+                "source": "Al Jazeera"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "grupos mundial 2026",
+        "score": 1600,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "grupos mundial 2026",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "Dónde ver gratis el Mundial 2026 en Ecuador: canales de TV, streaming y opciones de pago",
+                "url": "https://www.eluniverso.com/deportes/futbol/opciones-para-ver-gratis-en-tv-y-streaming-el-mundial-2026-en-ecuador-nota/",
+                "source": "El Universo"
+              },
+              {
+                "title": "YouTube de Teleamazonas: una nueva forma de vivir el Mundial 2026",
+                "url": "https://www.teleamazonas.com/mundial/partidos-mundial-youtube-teleamazonas-119976/",
+                "source": "Teleamazonas"
+              },
+              {
+                "title": "Así llegan los equipos del grupo de Ecuador al debut del Mundial",
+                "url": "https://www.elcomercio.com/deportes/futbol/como-llegan-equipos-grupo-ecuador-debut-mundial/",
+                "source": "El Comercio"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "brasil vs marruecos",
+        "score": 1600,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "brasil vs marruecos",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "Achraf: “Somos la Brasil de África”",
+                "url": "https://as.com/futbol/mundial/achraf-somos-la-brasil-de-africa-f202606-n/",
+                "source": "Diario AS"
+              },
+              {
+                "title": "Ancelotti: \"Si no tienes miedo y te aparece un león, te puedes creer que es un gato\"",
+                "url": "https://www.marca.com/futbol/mundial/2026/06/12/ancelotti-tienes-miedo-te-aparece-leon-te-puedes-creer-gato.html",
+                "source": "MARCA"
+              },
+              {
+                "title": "Con quién juega Brasil mañana en su debut en el Mundial 2026 | Fútbol | Deportes",
+                "url": "https://www.eluniverso.com/deportes/futbol/brasil-vs-marruecos-en-el-mundial-2026-horario-en-ecuador-canal-y-donde-ver-en-vivo-nota/",
+                "source": "El Universo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "argentina vs argelia",
+        "score": 1300,
+        "geos": [
+          "AR"
+        ],
+        "samples": [
+          {
+            "query": "argentina vs argelia",
+            "geo": "AR",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "Con tres dudas, el once de Argentina para el debut ante Argelia",
+                "url": "https://www.tycsports.com/seleccion-argentina/las-dudas-de-lionel-scaloni-en-el-once-de-la-seleccion-argentina-ante-argelia-id735866.html",
+                "source": "TyC Sports"
+              },
+              {
+                "title": "🔴 Selección argentina, hoy: entrenamiento en Kansas, la posible formación con Argelia y últimas noticias en vivo",
+                "url": "https://tn.com.ar/deportes/mundial/2026/2026/06/13/seleccion-argentina-hoy-entrenamiento-la-posible-formacion-con-argelia-y-ultimas-noticias-en-vivo/",
+                "source": "TN"
+              },
+              {
+                "title": "Tagliafico se queda: su importancia en Argentina de cara al Mundial 2026",
+                "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16831586/tagliafico-se-queda-su-importancia-en-argentina-de-cara-al-mundial-2026",
+                "source": "ESPN Argentina"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "australia vs turquía",
+        "score": 900,
+        "geos": [
+          "MX",
+          "CO"
+        ],
+        "samples": [
+          {
+            "query": "australia vs turquía",
+            "geo": "MX",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "¿Cuándo y dónde ver Australia vs Turquía?",
+                "url": "https://www.record.com.mx/historia/%C2%BFcuando-y-donde-ver-australia-vs-turquia-2026061304005492267",
+                "source": "Récord"
+              },
+              {
+                "title": "¿Quién transmite el partido de Australia vs Turquía? Canal y Horario Grupo D Mundial 2026",
+                "url": "https://www.mediotiempo.com/futbol/copa-mundial/quien-transmite-australia-vs-turquia-horario-y-canal-partido-mundial-2026",
+                "source": "Mediotiempo"
+              },
+              {
+                "title": "Choque de trenes en el Pacífico",
+                "url": "https://eldiariodecoahuila.com.mx/2026/06/12/choque-de-trenes-en-el-pacifico/",
+                "source": "El Diario de Coahuila"
+              }
+            ]
+          },
+          {
+            "query": "australia vs turquía",
+            "geo": "CO",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "La Selecciones de Australia y Turquía encienden las emociones en su debut dentro del Mundial 2026",
+                "url": "https://www.eltiempo.com/deportes/futbol-internacional/la-seleccion-de-australia-y-turquia-encienden-las-emociones-en-su-debut-dentro-del-mundial-3563973",
+                "source": "ELTIEMPO.COM"
+              },
+              {
+                "title": "Australia y Turquía, pulso parejo en su debut mundialista",
+                "url": "https://laopinion.co/deportes/australia-y-turquia-pulso-parejo-en-su-debut-mundialista",
+                "source": "La Opinión Cúcuta"
+              },
+              {
+                "title": "Australia vs. Turquía: duelo parejo en la Copa del Mundo",
+                "url": "https://www.elheraldo.co/deportes/2026/06/12/australia-vs-turquia-duelo-parejo-en-la-copa-del-mundo/",
+                "source": "ELHERALDO.CO"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "pulisic",
+        "score": 900,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "pulisic",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "World Cup 2026: USMNT&apos;s Christian Pulisic subbed at halftime of historic win over Paraguay",
+                "url": "https://www.cbssports.com/soccer/news/world-cup-2026-usmnts-christian-pulisic-subbed-at-halftime-of-historic-win-over-paraguay/",
+                "source": "CBS Sports"
+              },
+              {
+                "title": "Captain America just gave the US a dream start to the World Cup",
+                "url": "https://www.msn.com/en-us/sports/soccer/captain-america-just-gave-the-us-a-dream-start-to-the-world-cup/ar-AA25x2u6",
+                "source": "MSN"
+              },
+              {
+                "title": "What happened to Christian Pulisic? Inside USMNT star&apos;s injury scare and World Cup future",
+                "url": "https://sports.yahoo.com/articles/happened-christian-pulisic-inside-usmnt-041838590.html",
+                "source": "Yahoo Sports"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "alex freeman",
+        "score": 650,
+        "geos": [
+          "AR"
+        ],
+        "samples": [
+          {
+            "query": "alex freeman",
+            "geo": "AR",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "From NFL bloodline to World Cup starter: Alex Freeman’s sudden rise with USMNT",
+                "url": "https://www.usatoday.com/story/sports/soccer/worldcup/2026/06/12/alex-freeman-usmnt-world-cup-antonio-son/90509612007/",
+                "source": "USA Today"
+              },
+              {
+                "title": "NFL legend&apos;s son to make FIFA World Cup debut on Friday",
+                "url": "https://www.msn.com/en-us/sports/fifa_world_cup/nfl-legends-son-to-make-fifa-world-cup-debut-on-friday/ar-AA25iROG",
+                "source": "MSN"
+              },
+              {
+                "title": "USMNT&apos;s Alex Freeman is son of &apos;Packers HOF&apos; WR Antonio",
+                "url": "https://www.espn.com/nfl/story/_/id/49029982/nfl-green-bay-packers-usmnt-world-cup-alex-freeman-antonio-freeman",
+                "source": "ESPN"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "ricardo pepi",
+        "score": 560,
+        "geos": [
+          "CO",
+          "CL",
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "ricardo pepi",
+            "geo": "CO",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Zendejas, Brian, Obed: mexicoamericanos que llegaron al Mundial",
+                "url": "https://www.espn.com.co/futbol/mundial/nota/_/id/16812235/mundial-jugadores-mexicoamericanos-zendejas-gutierrez-obed-vargas",
+                "source": "ESPN Colombia"
+              },
+              {
+                "title": "RECHAZÓ a la Selección Mexicana por jugar con USA y fue IGNORADO en el debut de Mundial 2026",
+                "url": "https://www.tvazteca.com/aztecadeportes/rechazo-seleccion-mexicana-por-usa-ignorado-en-el-debut-mundial-2026/",
+                "source": "TV Azteca"
+              },
+              {
+                "title": "Alejandro Zendejas y Ricardo Pepi, ¿primeros fronterizos en jugar una Copa del Mundo?",
+                "url": "https://nortedigital.mx/alejandro-zendejas-y-ricardo-pepi-primeros-fronterizos-en-jugar-una-copa-del-mundo/",
+                "source": "Norte de Ciudad Juárez"
+              }
+            ]
+          },
+          {
+            "query": "ricardo pepi",
+            "geo": "CL",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Zendejas, Brian, Obed: mexicoamericanos que llegaron al Mundial",
+                "url": "https://www.espn.cl/futbol/mundial/nota/_/id/16812235/mundial-jugadores-mexicoamericanos-zendejas-gutierrez-obed-vargas",
+                "source": "ESPN Chile"
+              },
+              {
+                "title": "RECHAZÓ a la Selección Mexicana por jugar con USA y fue IGNORADO en el debut de Mundial 2026",
+                "url": "https://www.tvazteca.com/aztecadeportes/rechazo-seleccion-mexicana-por-usa-ignorado-en-el-debut-mundial-2026/",
+                "source": "TV Azteca"
+              },
+              {
+                "title": "Alejandro Zendejas y Ricardo Pepi, ¿primeros fronterizos en jugar una Copa del Mundo?",
+                "url": "https://nortedigital.mx/alejandro-zendejas-y-ricardo-pepi-primeros-fronterizos-en-jugar-una-copa-del-mundo/",
+                "source": "Norte de Ciudad Juárez"
+              }
+            ]
+          },
+          {
+            "query": "ricardo pepi",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Zendejas, Brian, Obed: mexicoamericanos que llegaron al Mundial",
+                "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16812235/mundial-jugadores-mexicoamericanos-zendejas-gutierrez-obed-vargas",
+                "source": "ESPN Argentina"
+              },
+              {
+                "title": "RECHAZÓ a la Selección Mexicana por jugar con USA y fue IGNORADO en el debut de Mundial 2026",
+                "url": "https://www.tvazteca.com/aztecadeportes/rechazo-seleccion-mexicana-por-usa-ignorado-en-el-debut-mundial-2026/",
+                "source": "TV Azteca"
+              },
+              {
+                "title": "Alejandro Zendejas y Ricardo Pepi, ¿primeros fronterizos en jugar una Copa del Mundo?",
+                "url": "https://nortedigital.mx/alejandro-zendejas-y-ricardo-pepi-primeros-fronterizos-en-jugar-una-copa-del-mundo/",
+                "source": "Norte de Ciudad Juárez"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "qatar vs suiza",
+        "score": 500,
+        "geos": [
+          "CO"
+        ],
+        "samples": [
+          {
+            "query": "qatar vs suiza",
+            "geo": "CO",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "El destino cruza a la Selección de Suiza y Catar en un debut con sabor a revancha en el Mundial 2026: día, hora y por dónde ver el partido",
+                "url": "https://www.eltiempo.com/deportes/futbol-internacional/el-destino-cruza-a-la-seleccion-de-suiza-y-catar-en-un-debut-con-sabor-a-revancha-en-el-mundial-2026-dia-hora-y-por-donde-ver-el-partido-3563924",
+                "source": "ELTIEMPO.COM"
+              },
+              {
+                "title": "Pronóstico de Qatar vs. Suiza: quién gana según las apuestas",
+                "url": "https://www.tycsports.com/mundial/pronostico-de-qatar-vs-suiza-quien-gana-segun-las-apuestas-id735590.html",
+                "source": "TyC Sports"
+              },
+              {
+                "title": "Qatar vs Suiza: Prográmese con el último partido de la fecha 1 del grupo B de la Copa del Mundo 2026",
+                "url": "https://caracol.com.co/2026/06/12/qatar-vs-suiza-programese-con-el-ultimo-partido-de-la-fecha-1-del-grupo-b-de-la-copa-del-mundo-2026/",
+                "source": "Caracol Radio"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "australia vs",
+        "score": 450,
+        "geos": [
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "australia vs",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Cuándo juegan Australia vs. Turquía por la primera fecha de la fase de grupos del Mundial 2026: equipo, fecha, hora y TV en vivo",
+                "url": "https://www.espn.com.pe/futbol/mundial/nota/_/id/16786080/australia-vs-turquia-fase-de-grupos-mundial-2026-equipo-fecha-hora-y-tv-en-vivo",
+                "source": "espn.com.pe"
+              },
+              {
+                "title": "¿A qué hora juega y en qué canal transmiten Australia vs. Turquía EN VIVO hoy por el Mundial de Fútbol 2026 en EE.UU. y México?",
+                "url": "https://gestion.pe/mix/sports/a-que-hora-juega-y-en-que-canal-transmiten-australia-vs-turquia-en-vivo-hoy-por-el-mundial-de-futbol-2026-en-eeuu-y-mexico-canales-tv-online-gratis-nnda-nnrt-noticia/",
+                "source": "Diario Gestión"
+              },
+              {
+                "title": "Australia vs Turquia: ¡Juega en el Torneo mundial y llega a La Cima del Fútbol con Meridianbet y Kashio!",
+                "url": "https://ovacion.pe/noticias/nota-promocional/australia-vs-turquia-juega-torneo-mundial-llega-cima-del-futbol",
+                "source": "ovacion.pe"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "qatar vs",
+        "score": 450,
+        "geos": [
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "qatar vs",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Julen Lopetegui’s Redemption at the FIFA World Cup 2026",
+                "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/julen-lopetegui-s-redemption-at-the-fifa-world-cup-2026-2026-06-12",
+                "source": "beIN SPORTS"
+              },
+              {
+                "title": "Director of national teams Pierluigi Tami: ‘We are there not only to participate at World Cup, but with ambitions’",
+                "url": "https://tribuna.com/en/news/2026-06-12-director-of-national-teams-pierluigi-tami-we-are-there-not-only-to-participate-at-world-c/",
+                "source": "Tribuna.com"
+              },
+              {
+                "title": "(SP)U.S.-SANTA CLARA-FOOTBALL-FIFA WORLD CUP-TEAM QATAR-PRESS CONFERENCE",
+                "url": "https://www.malaysiasun.com/news/279120173/spus-santa-clara-football-fifa-world-cup-team-qatar-press-conference",
+                "source": "www.malaysiasun.com"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "carlos del cerro grande",
+        "score": 300,
+        "geos": [
+          "ES"
+        ],
+        "samples": [
+          {
+            "query": "carlos del cerro grande",
+            "geo": "ES",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Lío arbitral con Del Cerro como protagonista: “El error del Mundial”",
+                "url": "https://as.com/futbol/mundial/lio-arbitral-con-del-cerro-como-protagonista-de-donde-se-han-sacado-esto-f202606-n/",
+                "source": "Diario AS"
+              },
+              {
+                "title": "Lo nunca visto en el VAR... con Del Cerro Grande al mando",
+                "url": "https://www.marca.com/futbol/mundial/2026/06/13/nunca-visto-var-cerro-grande-mando.html",
+                "source": "MARCA"
+              },
+              {
+                "title": "Mundial 2026: ¿Qué es el Mistaken Identity?",
+                "url": "https://espndeportes.espn.com/futbol/mundial/nota/_/id/16833192/mundial-2026-mistaken-identity-que-es-decision-arbitro-estados-unidos-vs-paraguay",
+                "source": "ESPN Deportes"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "uruguay vs",
+        "score": 200,
+        "geos": [
+          "CO"
+        ],
+        "samples": [
+          {
+            "query": "uruguay vs",
+            "geo": "CO",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Está confirmado el árbitro para el debut de Uruguay en el Mundial 2026",
+                "url": "https://www.espn.com.co/futbol/mundial/nota/_/id/16829889/uruguay-arabia-saudita-debut-quien-arbitra-es-maurizio-mariani-italiano",
+                "source": "ESPN Colombia"
+              },
+              {
+                "title": "Arabia Saudita vs. Uruguay, todo lo que tenés que saber del duelo del Mundial",
+                "url": "https://www.directvsports.com/futbol/arabia-saudita-vs.-uruguay-todo-lo-que-tenes-que-saber-del-duelo-del-mundial-20260612-0016.html",
+                "source": "dsports"
+              },
+              {
+                "title": "LAHORA DE LOS VIÑAS",
+                "url": "https://onefootball.com/es/noticias/lahora-de-los-vinas-42997478",
+                "source": "OneFootball"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "suiza vs",
+        "score": 180,
+        "geos": [
+          "CL"
+        ],
+        "samples": [
+          {
+            "query": "suiza vs",
+            "geo": "CL",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "En vivo: Catar y Suiza buscan comenzar de la mejor manera su actuación en Norteamérica 2026",
+                "url": "https://www.latercera.com/el-deportivo/noticia/en-vivo-catar-y-suiza-buscan-comenzar-de-la-mejor-manera-su-actuacion-en-norteamerica-2026/",
+                "source": "La Tercera"
+              },
+              {
+                "title": "Qatar - Suiza: a qué hora es el partido del Mundial 2026, horario y cómo verlo por TV",
+                "url": "https://www.adnradio.cl/2026/06/12/qatar-suiza-a-que-hora-es-el-partido-del-mundial-2026-horario-y-como-verlo-por-tv/",
+                "source": "ADN Radio"
+              },
+              {
+                "title": "Catar y Suiza se miden con la misión de un estreno positivo en el Grupo B del Mundial",
+                "url": "https://www.cooperativa.cl/noticias/deportes/mundial-2026/fase-grupal/catar-y-suiza-se-miden-con-la-mision-de-un-estreno-positivo-en-el-grupo/2026-06-13/005843.html",
+                "source": "Cooperativa"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "weah",
+        "score": 180,
+        "geos": [
+          "CL"
+        ],
+        "samples": [
+          {
+            "query": "weah",
+            "geo": "CL",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "¿Por qué no juega Timothy Weah en Estados Unidos ante Paraguay en el Mundial 2026?",
+                "url": "https://bolavip.com/cl/mundial/por-que-no-juega-timothy-weah-en-estados-unidos-ante-paraguay-en-el-mundial-2026",
+                "source": "Bolavip Chile"
+              },
+              {
+                "title": "The American left has a favorite player - Live Updates",
+                "url": "https://www.politico.com/live-updates/2026/06/12/world-cup-2026/timothy-weah-usmnt-lefts-favorite-player-00961265",
+                "source": "Politico"
+              },
+              {
+                "title": "Why Timothy Weah is the new Pelé (by one definition)",
+                "url": "https://www.thetimes.com/us/news-today/article/timothy-weah-world-cup-music-qf3tfm5d3",
+                "source": "The Times"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "copa mundial de fútbol",
+        "score": 180,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "copa mundial de fútbol",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Mundial 2026, en directo: noticias de la Copa del Mundo y última hora de las selecciones, hoy en vivo",
+                "url": "https://as.com/futbol/mundial/mundial-2026-en-directo-noticias-de-la-copa-del-mundo-y-ultima-hora-de-las-selecciones-hoy-en-vivo-f202606-d-4/",
+                "source": "Diario AS"
+              },
+              {
+                "title": "Encuentran un cadáver en el maletero de un coche aparcado frente al lugar de entrenamiento de la selección de Irán en México",
+                "url": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/06/13/6a2d0591e9cf4a300a8b458d.html",
+                "source": "El Mundo"
+              },
+              {
+                "title": "Hallan cuerpo sin vida cerca de sede de entrenamiento de la selección de Irán",
+                "url": "https://www.elimparcial.com/tij/policiaca/2026/06/13/hallan-cuerpo-sin-vida-cerca-de-sede-de-entrenamiento-de-la-seleccion-de-iran/",
+                "source": "El Imparcial"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "rob lowe",
+        "score": 180,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "rob lowe",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Rob Lowe Jokes He Has “Low Expectations” for Father’s Day at World Cup 2026",
+                "url": "https://www.eonline.com/videos/2503517251923/rob-lowe-jokes-he-has-low-expectations-for-fathers-day-at-world-cup-2026",
+                "source": "E! News"
+              },
+              {
+                "title": "Rob Lowe Jokes He Has “Low Expectations” for Father’s Day While Attending World Cup 2026",
+                "url": "https://www.eonline.com/news/1432953/world-cup-2026-rob-lowe-jokes-about-fathers-day-plans-with-sons",
+                "source": "E! News"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "fr": [
+      {
+        "query": "angleterre",
+        "score": 200,
+        "geos": [
+          "FR"
+        ],
+        "samples": [
+          {
+            "query": "angleterre",
+            "geo": "FR",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "EN DIRECT Coupe du monde 2026 : Neymar absent pour le choc face au Maroc... Les Anglais victimes d&apos;un vol...",
+                "url": "https://www.20minutes.fr/sport/4228807-20260612-direct-coupe-monde-2026-show-katy-perry-avant-celui-christian-pulisic-team-usa-suivez-nuit",
+                "source": "20 Minutes"
+              },
+              {
+                "title": "CdM 2026, Angleterre : énorme soulagement après le cambriolage",
+                "url": "https://www.footmercato.net/a9004642935770348866-cdm-2026-angleterre-enorme-soulagement-apres-le-cambriolage",
+                "source": "Foot Mercato"
+              },
+              {
+                "title": "Coupe du monde - Crampons et ballons disparus : l&apos;Angleterre victime d&apos;un vol à quelques jours de son entrée en lice",
+                "url": "https://www.eurosport.fr/football/coupe-du-monde/2026/coupe-du-monde-crampons-et-ballons-disparus-langleterre-victime-dun-vol-a-quelques-jours-de-son-entree-en-lice_sto23309135/story.shtml",
+                "source": "Eurosport"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "ryan reynolds",
+        "score": 180,
+        "geos": [
+          "MA"
+        ],
+        "samples": [
+          {
+            "query": "ryan reynolds",
+            "geo": "MA",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Connor McDavid downs a glass of wine as he watches Canada open their 2026 World Cup with a draw against Bosnia and Herzegovina",
+                "url": "https://russianmachineneverbreaks.com/2026/06/12/connor-mcdavid-canada-2026-world-cup-drunk-wine-bosnia-herzegovina-draw/",
+                "source": "RMNB"
+              },
+              {
+                "title": "Larin&apos;s Contribution to the Canadian National Team and His Stats in Europe&apos;s Top Leagues",
+                "url": "https://russpain.com/en/news-3/canadian-forward-larin-prepares-for-home-world-cup-2026-after-successful-seasons-in-europe-483288/",
+                "source": "russpain.com"
+              },
+              {
+                "title": "World Cup 2026: Ryan Reynolds celebrates Canada&apos;s goal vs Bosnia",
+                "url": "https://www.bbc.com/sport/football/videos/cy9rq7q13z9o",
+                "source": "BBC"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "usa foot",
+        "score": 90,
+        "geos": [
+          "MA"
+        ],
+        "samples": [
+          {
+            "query": "usa foot",
+            "geo": "MA",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "États-Unis 4-1 Paraguay, Coupe du monde : match terminé",
+                "url": "https://www.lequipe.fr/Football/match-direct/coupe-du-monde/2026/etats-unis-paraguay-live/686920",
+                "source": "L&apos;Équipe"
+              },
+              {
+                "title": "Sacrés Américains, Brad Pitt et Katy Perry, Trump absent… Ce que vous avez raté cette nuit à la Coupe du monde",
+                "url": "https://www.lefigaro.fr/sports/football/coupe-du-monde/sacres-americains-brad-pitt-et-katy-perry-trump-absent-ce-que-vous-avez-rate-cette-nuit-a-la-coupe-du-monde-20260613",
+                "source": "Le Figaro"
+              },
+              {
+                "title": "Coupe du Monde 2026 : emmenés par un grand Balogun, les États-Unis démarrent très fort contre le Paraguay",
+                "url": "https://www.footmercato.net/a5698754636969516844-coupe-du-monde-2026-emmenes-par-un-grand-balogun-les-etats-unis-demarrent-tres-fort-contre-le-paraguay",
+                "source": "Foot Mercato"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "katy perry",
+        "score": 90,
+        "geos": [
+          "MA"
+        ],
+        "samples": [
+          {
+            "query": "katy perry",
+            "geo": "MA",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "World Cup kicks off in the US with performances from Katy Perry, Future and Tyla",
+                "url": "https://www.bbc.com/news/articles/c4g9g9xy9y7o",
+                "source": "BBC"
+              },
+              {
+                "title": "Los Angeles conjures up irresistible spectacle as USA sparkle in opening act | Barney Ronay",
+                "url": "https://www.theguardian.com/football/2026/jun/13/los-angeles-conjures-up-irresistible-spectacle-as-usa-sparkle-in-opening-act-world-cup-2026",
+                "source": "The Guardian"
+              },
+              {
+                "title": "FIFA World Cup 2026 L.A. Red Carpet & Performances: Paris Hilton, Jaafar Jackson, Will Forte & More",
+                "url": "https://deadline.com/gallery/fifa-world-cup-2026-l-a-red-carpet-performances-paris-hilton-jaafar-jackson-rob-lowe-more/",
+                "source": "Deadline"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "de": [
+      {
+        "query": "thomas tuchel",
+        "score": 10000,
+        "geos": [
+          "DE"
+        ],
+        "samples": [
+          {
+            "query": "thomas tuchel",
+            "geo": "DE",
+            "language": "de",
+            "source": "google-trends-daily",
+            "score": 10000,
+            "articles": [
+              {
+                "title": "WM 2026: Thomas Tuchel und seine England-Stars beklaut – Zwei Festnahmen",
+                "url": "https://www.bild.de/sport/fussball/wm-2026-thomas-tuchel-und-seine-england-stars-beklaut-zwei-festnahmen-6a2ceff96bb5c7fe2e1c4679",
+                "source": "BILD"
+              },
+              {
+                "title": "WM 2026 im Live-Blog: Englands Nationalmannschaft beklaut!",
+                "url": "https://web.de/magazine/sport/fussball/wm/wm-2026-live-blog-englands-nationalmannschaft-beklaut-42378666",
+                "source": "WEB.DE"
+              },
+              {
+                "title": "(S+) Fußball-WM: Amerikanisches Sommermärchen? USA nährt Hoffnung",
+                "url": "https://www.spiegel.de/sport/fussball/wm-2026-news-heute-usa-besiegt-paraguay-a-d6d6ad1b-2325-4cdf-90bc-921743f2e54b",
+                "source": "Spiegel"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "topic": "paris hilton",
+      "type": "noticia",
+      "slugSuggestion": "paris-hilton",
+      "language": "es",
+      "geos": [
+        "AR",
+        "CO",
+        "CL",
+        "PE",
+        "EC",
+        "UY"
+      ],
+      "score": 5808,
+      "reason": "Google Trends daily AR con 2,000 búsquedas · 3 artículos noticiosos referenciando \"paris hilton\"",
+      "proposedPath": "/noticias/paris-hilton",
+      "evidence": [
+        {
+          "query": "paris hilton",
+          "geo": "AR",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 2000,
+          "articles": [
+            {
+              "title": "Britney Spears gets unexpected shout out from Paris Hilton in trying times",
+              "url": "https://www.geo.tv/latest/668550-britney-spears-gets-unexpected-shout-out-from-paris-hilton-in-trying-times",
+              "source": "Geo News"
+            },
+            {
+              "title": "Paris Hilton Honors Britney Spears With Sweet Shoutout at World Cup 2026",
+              "url": "https://www.eonline.com/videos/2503514691862/paris-hilton-honors-britney-spears-with-sweet-shoutout-at-world-cup-2026",
+              "source": "E! News"
+            },
+            {
+              "title": "Paris Hilton on football creating global unity at FIFA World Cup Opening Ceremony",
+              "url": "https://www.yahoo.com/entertainment/videos/paris-hilton-football-creating-global-021657715.html",
+              "source": "Yahoo"
+            }
+          ]
+        },
+        {
+          "query": "paris hilton",
+          "geo": "CO",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 1000,
+          "articles": [
+            {
+              "title": "Britney Spears gets unexpected shout out from Paris Hilton in trying times",
+              "url": "https://www.geo.tv/latest/668550-britney-spears-gets-unexpected-shout-out-from-paris-hilton-in-trying-times",
+              "source": "Geo News"
+            },
+            {
+              "title": "Paris Hilton Honors Britney Spears With Sweet Shoutout at World Cup 2026",
+              "url": "https://www.eonline.com/videos/2503514691862/paris-hilton-honors-britney-spears-with-sweet-shoutout-at-world-cup-2026",
+              "source": "E! News"
+            },
+            {
+              "title": "Paris Hilton on football creating global unity at FIFA World Cup Opening Ceremony",
+              "url": "https://www.yahoo.com/entertainment/videos/paris-hilton-football-creating-global-021657715.html",
+              "source": "Yahoo"
+            }
+          ]
+        },
+        {
+          "query": "paris hilton",
+          "geo": "CL",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 500,
+          "articles": [
+            {
+              "title": "Britney Spears gets unexpected shout out from Paris Hilton in trying times",
+              "url": "https://www.geo.tv/latest/668550-britney-spears-gets-unexpected-shout-out-from-paris-hilton-in-trying-times",
+              "source": "Geo News"
+            },
+            {
+              "title": "Paris Hilton Honors Britney Spears With Sweet Shoutout at World Cup 2026",
+              "url": "https://www.eonline.com/videos/2503514691862/paris-hilton-honors-britney-spears-with-sweet-shoutout-at-world-cup-2026",
+              "source": "E! News"
+            },
+            {
+              "title": "Paris Hilton on football creating global unity at FIFA World Cup Opening Ceremony",
+              "url": "https://www.yahoo.com/entertainment/videos/paris-hilton-football-creating-global-021657715.html",
+              "source": "Yahoo"
+            }
+          ]
+        },
+        {
+          "query": "paris hilton",
+          "geo": "PE",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 500,
+          "articles": [
+            {
+              "title": "Britney Spears gets unexpected shout out from Paris Hilton in trying times",
+              "url": "https://www.geo.tv/latest/668550-britney-spears-gets-unexpected-shout-out-from-paris-hilton-in-trying-times",
+              "source": "Geo News"
+            },
+            {
+              "title": "Paris Hilton Honors Britney Spears With Sweet Shoutout at World Cup 2026",
+              "url": "https://www.eonline.com/videos/2503514691862/paris-hilton-honors-britney-spears-with-sweet-shoutout-at-world-cup-2026",
+              "source": "E! News"
+            },
+            {
+              "title": "Paris Hilton on football creating global unity at FIFA World Cup Opening Ceremony",
+              "url": "https://www.yahoo.com/entertainment/videos/paris-hilton-football-creating-global-021657715.html",
+              "source": "Yahoo"
+            }
+          ]
+        },
+        {
+          "query": "paris hilton",
+          "geo": "EC",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Britney Spears gets unexpected shout out from Paris Hilton in trying times",
+              "url": "https://www.geo.tv/latest/668550-britney-spears-gets-unexpected-shout-out-from-paris-hilton-in-trying-times",
+              "source": "Geo News"
+            },
+            {
+              "title": "Paris Hilton Honors Britney Spears With Sweet Shoutout at World Cup 2026",
+              "url": "https://www.eonline.com/videos/2503514691862/paris-hilton-honors-britney-spears-with-sweet-shoutout-at-world-cup-2026",
+              "source": "E! News"
+            },
+            {
+              "title": "Paris Hilton on football creating global unity at FIFA World Cup Opening Ceremony",
+              "url": "https://www.yahoo.com/entertainment/videos/paris-hilton-football-creating-global-021657715.html",
+              "source": "Yahoo"
+            }
+          ]
+        },
+        {
+          "query": "paris hilton",
+          "geo": "UY",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Britney Spears gets unexpected shout out from Paris Hilton in trying times",
+              "url": "https://www.geo.tv/latest/668550-britney-spears-gets-unexpected-shout-out-from-paris-hilton-in-trying-times",
+              "source": "Geo News"
+            },
+            {
+              "title": "Paris Hilton Honors Britney Spears With Sweet Shoutout at World Cup 2026",
+              "url": "https://www.eonline.com/videos/2503514691862/paris-hilton-honors-britney-spears-with-sweet-shoutout-at-world-cup-2026",
+              "source": "E! News"
+            },
+            {
+              "title": "Paris Hilton on football creating global unity at FIFA World Cup Opening Ceremony",
+              "url": "https://www.yahoo.com/entertainment/videos/paris-hilton-football-creating-global-021657715.html",
+              "source": "Yahoo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "alex freeman",
+      "type": "noticia",
+      "slugSuggestion": "alex-freeman",
+      "language": "es",
+      "geos": [
+        "AR"
+      ],
+      "score": 780,
+      "reason": "Google Trends daily AR con 500 búsquedas · 3 artículos noticiosos referenciando \"alex freeman\"",
+      "proposedPath": "/noticias/alex-freeman",
+      "evidence": [
+        {
+          "query": "alex freeman",
+          "geo": "AR",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 500,
+          "articles": [
+            {
+              "title": "From NFL bloodline to World Cup starter: Alex Freeman’s sudden rise with USMNT",
+              "url": "https://www.usatoday.com/story/sports/soccer/worldcup/2026/06/12/alex-freeman-usmnt-world-cup-antonio-son/90509612007/",
+              "source": "USA Today"
+            },
+            {
+              "title": "NFL legend&apos;s son to make FIFA World Cup debut on Friday",
+              "url": "https://www.msn.com/en-us/sports/fifa_world_cup/nfl-legends-son-to-make-fifa-world-cup-debut-on-friday/ar-AA25iROG",
+              "source": "MSN"
+            },
+            {
+              "title": "USMNT&apos;s Alex Freeman is son of &apos;Packers HOF&apos; WR Antonio",
+              "url": "https://www.espn.com/nfl/story/_/id/49029982/nfl-green-bay-packers-usmnt-world-cup-alex-freeman-antonio-freeman",
+              "source": "ESPN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "ricardo pepi",
+      "type": "noticia",
+      "slugSuggestion": "ricardo-pepi",
+      "language": "es",
+      "geos": [
+        "CO",
+        "CL",
+        "PE"
+      ],
+      "score": 672,
+      "reason": "Google Trends daily CO con 200 búsquedas · 3 artículos noticiosos referenciando \"ricardo pepi\"",
+      "proposedPath": "/noticias/ricardo-pepi",
+      "evidence": [
+        {
+          "query": "ricardo pepi",
+          "geo": "CO",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Zendejas, Brian, Obed: mexicoamericanos que llegaron al Mundial",
+              "url": "https://www.espn.com.co/futbol/mundial/nota/_/id/16812235/mundial-jugadores-mexicoamericanos-zendejas-gutierrez-obed-vargas",
+              "source": "ESPN Colombia"
+            },
+            {
+              "title": "RECHAZÓ a la Selección Mexicana por jugar con USA y fue IGNORADO en el debut de Mundial 2026",
+              "url": "https://www.tvazteca.com/aztecadeportes/rechazo-seleccion-mexicana-por-usa-ignorado-en-el-debut-mundial-2026/",
+              "source": "TV Azteca"
+            },
+            {
+              "title": "Alejandro Zendejas y Ricardo Pepi, ¿primeros fronterizos en jugar una Copa del Mundo?",
+              "url": "https://nortedigital.mx/alejandro-zendejas-y-ricardo-pepi-primeros-fronterizos-en-jugar-una-copa-del-mundo/",
+              "source": "Norte de Ciudad Juárez"
+            }
+          ]
+        },
+        {
+          "query": "ricardo pepi",
+          "geo": "CL",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Zendejas, Brian, Obed: mexicoamericanos que llegaron al Mundial",
+              "url": "https://www.espn.cl/futbol/mundial/nota/_/id/16812235/mundial-jugadores-mexicoamericanos-zendejas-gutierrez-obed-vargas",
+              "source": "ESPN Chile"
+            },
+            {
+              "title": "RECHAZÓ a la Selección Mexicana por jugar con USA y fue IGNORADO en el debut de Mundial 2026",
+              "url": "https://www.tvazteca.com/aztecadeportes/rechazo-seleccion-mexicana-por-usa-ignorado-en-el-debut-mundial-2026/",
+              "source": "TV Azteca"
+            },
+            {
+              "title": "Alejandro Zendejas y Ricardo Pepi, ¿primeros fronterizos en jugar una Copa del Mundo?",
+              "url": "https://nortedigital.mx/alejandro-zendejas-y-ricardo-pepi-primeros-fronterizos-en-jugar-una-copa-del-mundo/",
+              "source": "Norte de Ciudad Juárez"
+            }
+          ]
+        },
+        {
+          "query": "ricardo pepi",
+          "geo": "PE",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Zendejas, Brian, Obed: mexicoamericanos que llegaron al Mundial",
+              "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16812235/mundial-jugadores-mexicoamericanos-zendejas-gutierrez-obed-vargas",
+              "source": "ESPN Argentina"
+            },
+            {
+              "title": "RECHAZÓ a la Selección Mexicana por jugar con USA y fue IGNORADO en el debut de Mundial 2026",
+              "url": "https://www.tvazteca.com/aztecadeportes/rechazo-seleccion-mexicana-por-usa-ignorado-en-el-debut-mundial-2026/",
+              "source": "TV Azteca"
+            },
+            {
+              "title": "Alejandro Zendejas y Ricardo Pepi, ¿primeros fronterizos en jugar una Copa del Mundo?",
+              "url": "https://nortedigital.mx/alejandro-zendejas-y-ricardo-pepi-primeros-fronterizos-en-jugar-una-copa-del-mundo/",
+              "source": "Norte de Ciudad Juárez"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "carlos del cerro grande",
+      "type": "noticia",
+      "slugSuggestion": "carlos-del-cerro-grande",
+      "language": "es",
+      "geos": [
+        "ES"
+      ],
+      "score": 360,
+      "reason": "Google Trends daily ES con 200 búsquedas · 3 artículos noticiosos referenciando \"carlos del cerro grande\"",
+      "proposedPath": "/noticias/carlos-del-cerro-grande",
+      "evidence": [
+        {
+          "query": "carlos del cerro grande",
+          "geo": "ES",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Lío arbitral con Del Cerro como protagonista: “El error del Mundial”",
+              "url": "https://as.com/futbol/mundial/lio-arbitral-con-del-cerro-como-protagonista-de-donde-se-han-sacado-esto-f202606-n/",
+              "source": "Diario AS"
+            },
+            {
+              "title": "Lo nunca visto en el VAR... con Del Cerro Grande al mando",
+              "url": "https://www.marca.com/futbol/mundial/2026/06/13/nunca-visto-var-cerro-grande-mando.html",
+              "source": "MARCA"
+            },
+            {
+              "title": "Mundial 2026: ¿Qué es el Mistaken Identity?",
+              "url": "https://espndeportes.espn.com/futbol/mundial/nota/_/id/16833192/mundial-2026-mistaken-identity-que-es-decision-arbitro-estados-unidos-vs-paraguay",
+              "source": "ESPN Deportes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "angleterre",
+      "type": "noticia",
+      "slugSuggestion": "angleterre",
+      "language": "fr",
+      "geos": [
+        "FR"
+      ],
+      "score": 240,
+      "reason": "Google Trends daily FR con 200 búsquedas · 3 artículos noticiosos referenciando \"angleterre\"",
+      "proposedPath": "/noticias/angleterre",
+      "evidence": [
+        {
+          "query": "angleterre",
+          "geo": "FR",
+          "language": "fr",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "EN DIRECT Coupe du monde 2026 : Neymar absent pour le choc face au Maroc... Les Anglais victimes d&apos;un vol...",
+              "url": "https://www.20minutes.fr/sport/4228807-20260612-direct-coupe-monde-2026-show-katy-perry-avant-celui-christian-pulisic-team-usa-suivez-nuit",
+              "source": "20 Minutes"
+            },
+            {
+              "title": "CdM 2026, Angleterre : énorme soulagement après le cambriolage",
+              "url": "https://www.footmercato.net/a9004642935770348866-cdm-2026-angleterre-enorme-soulagement-apres-le-cambriolage",
+              "source": "Foot Mercato"
+            },
+            {
+              "title": "Coupe du monde - Crampons et ballons disparus : l&apos;Angleterre victime d&apos;un vol à quelques jours de son entrée en lice",
+              "url": "https://www.eurosport.fr/football/coupe-du-monde/2026/coupe-du-monde-crampons-et-ballons-disparus-langleterre-victime-dun-vol-a-quelques-jours-de-son-entree-en-lice_sto23309135/story.shtml",
+              "source": "Eurosport"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "weah",
+      "type": "noticia",
+      "slugSuggestion": "weah",
+      "language": "es",
+      "geos": [
+        "CL"
+      ],
+      "score": 216,
+      "reason": "Google Trends daily CL con 200 búsquedas · 3 artículos noticiosos referenciando \"weah\"",
+      "proposedPath": "/noticias/weah",
+      "evidence": [
+        {
+          "query": "weah",
+          "geo": "CL",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "¿Por qué no juega Timothy Weah en Estados Unidos ante Paraguay en el Mundial 2026?",
+              "url": "https://bolavip.com/cl/mundial/por-que-no-juega-timothy-weah-en-estados-unidos-ante-paraguay-en-el-mundial-2026",
+              "source": "Bolavip Chile"
+            },
+            {
+              "title": "The American left has a favorite player - Live Updates",
+              "url": "https://www.politico.com/live-updates/2026/06/12/world-cup-2026/timothy-weah-usmnt-lefts-favorite-player-00961265",
+              "source": "Politico"
+            },
+            {
+              "title": "Why Timothy Weah is the new Pelé (by one definition)",
+              "url": "https://www.thetimes.com/us/news-today/article/timothy-weah-world-cup-music-qf3tfm5d3",
+              "source": "The Times"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "rob lowe",
+      "type": "noticia",
+      "slugSuggestion": "rob-lowe",
+      "language": "es",
+      "geos": [
+        "UY"
+      ],
+      "score": 216,
+      "reason": "Google Trends daily UY con 200 búsquedas · 2 artículos noticiosos referenciando \"rob lowe\"",
+      "proposedPath": "/noticias/rob-lowe",
+      "evidence": [
+        {
+          "query": "rob lowe",
+          "geo": "UY",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Rob Lowe Jokes He Has “Low Expectations” for Father’s Day at World Cup 2026",
+              "url": "https://www.eonline.com/videos/2503517251923/rob-lowe-jokes-he-has-low-expectations-for-fathers-day-at-world-cup-2026",
+              "source": "E! News"
+            },
+            {
+              "title": "Rob Lowe Jokes He Has “Low Expectations” for Father’s Day While Attending World Cup 2026",
+              "url": "https://www.eonline.com/news/1432953/world-cup-2026-rob-lowe-jokes-about-fathers-day-plans-with-sons",
+              "source": "E! News"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "ryan reynolds",
+      "type": "noticia",
+      "slugSuggestion": "ryan-reynolds",
+      "language": "fr",
+      "geos": [
+        "MA"
+      ],
+      "score": 216,
+      "reason": "Google Trends daily MA con 200 búsquedas · 3 artículos noticiosos referenciando \"ryan reynolds\"",
+      "proposedPath": "/noticias/ryan-reynolds",
+      "evidence": [
+        {
+          "query": "ryan reynolds",
+          "geo": "MA",
+          "language": "fr",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Connor McDavid downs a glass of wine as he watches Canada open their 2026 World Cup with a draw against Bosnia and Herzegovina",
+              "url": "https://russianmachineneverbreaks.com/2026/06/12/connor-mcdavid-canada-2026-world-cup-drunk-wine-bosnia-herzegovina-draw/",
+              "source": "RMNB"
+            },
+            {
+              "title": "Larin&apos;s Contribution to the Canadian National Team and His Stats in Europe&apos;s Top Leagues",
+              "url": "https://russpain.com/en/news-3/canadian-forward-larin-prepares-for-home-world-cup-2026-after-successful-seasons-in-europe-483288/",
+              "source": "russpain.com"
+            },
+            {
+              "title": "World Cup 2026: Ryan Reynolds celebrates Canada&apos;s goal vs Bosnia",
+              "url": "https://www.bbc.com/sport/football/videos/cy9rq7q13z9o",
+              "source": "BBC"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "katy perry",
+      "type": "noticia",
+      "slugSuggestion": "katy-perry",
+      "language": "fr",
+      "geos": [
+        "MA"
+      ],
+      "score": 108,
+      "reason": "Google Trends daily MA con 100 búsquedas · 3 artículos noticiosos referenciando \"katy perry\"",
+      "proposedPath": "/noticias/katy-perry",
+      "evidence": [
+        {
+          "query": "katy perry",
+          "geo": "MA",
+          "language": "fr",
+          "source": "google-trends-daily",
+          "score": 100,
+          "articles": [
+            {
+              "title": "World Cup kicks off in the US with performances from Katy Perry, Future and Tyla",
+              "url": "https://www.bbc.com/news/articles/c4g9g9xy9y7o",
+              "source": "BBC"
+            },
+            {
+              "title": "Los Angeles conjures up irresistible spectacle as USA sparkle in opening act | Barney Ronay",
+              "url": "https://www.theguardian.com/football/2026/jun/13/los-angeles-conjures-up-irresistible-spectacle-as-usa-sparkle-in-opening-act-world-cup-2026",
+              "source": "The Guardian"
+            },
+            {
+              "title": "FIFA World Cup 2026 L.A. Red Carpet & Performances: Paris Hilton, Jaafar Jackson, Will Forte & More",
+              "url": "https://deadline.com/gallery/fifa-world-cup-2026-l-a-red-carpet-performances-paris-hilton-jaafar-jackson-rob-lowe-more/",
+              "source": "Deadline"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alreadyCovered": [
+    {
+      "query": "australia vs turquía",
+      "matchUrl": "/noticias/h2h-australia-turquia-mundial-2026-grupo-d"
+    },
+    {
+      "query": "marruecos vs brasil",
+      "matchUrl": "/noticias/h2h-brasil-marruecos-mundial-2026-grupo-c"
+    },
+    {
+      "query": "argentina vs argelia",
+      "matchUrl": "/noticias/h2h-argentina-argelia-mundial-2026-grupo-j"
+    },
+    {
+      "query": "australia vs turquía",
+      "matchUrl": "/noticias/h2h-australia-turquia-mundial-2026-grupo-d"
+    },
+    {
+      "query": "qatar vs suiza",
+      "matchUrl": "/noticias/h2h-qatar-suiza-mundial-2026-grupo-b"
+    },
+    {
+      "query": "uruguay vs",
+      "matchUrl": "/ediciones/1930-uruguay"
+    },
+    {
+      "query": "suiza vs",
+      "matchUrl": "/ediciones/1954-suiza"
+    },
+    {
+      "query": "australia vs",
+      "matchUrl": "/noticias/h2h-australia-turquia-mundial-2026-grupo-d"
+    },
+    {
+      "query": "qatar vs",
+      "matchUrl": "/ediciones/2022-qatar"
+    },
+    {
+      "query": "grupos mundial 2026",
+      "matchUrl": "/2026/grupos"
+    },
+    {
+      "query": "brasil vs marruecos",
+      "matchUrl": "/noticias/h2h-brasil-marruecos-mundial-2026-grupo-c"
+    },
+    {
+      "query": "copa mundial de fútbol",
+      "matchUrl": "/noticias/lamine-yamal-primer-mundial-2026-espana-17-anos-eurocopa"
+    },
+    {
+      "query": "usa vs",
+      "matchUrl": "/ediciones/1994-estados-unidos"
+    },
+    {
+      "query": "pulisic",
+      "matchUrl": "/noticias/amistoso-estados-unidos-senegal-2-0-charlotte-dest-pulisic-pre-mundial-2026"
+    },
+    {
+      "query": "thomas tuchel",
+      "matchUrl": "/noticias/inglaterra-convocatoria-mundial-2026-thomas-tuchel-bellingham-kane-26-jugadores-22-mayo"
+    },
+    {
+      "query": "usa foot",
+      "matchUrl": "/ediciones/1994-estados-unidos"
+    }
+  ]
+}
