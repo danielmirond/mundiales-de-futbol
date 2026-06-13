@@ -125,6 +125,52 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'como-ver-mundial-2026-movistar-plus-dazn-todos-los-partidos-contratar',
+    title: 'Cómo ver el Mundial 2026 en Movistar Plus+ y DAZN: todos los partidos, qué incluye y cómo contratarlo',
+    summary: 'En España, los 104 partidos de la Copa Mundial de la FIFA 2026™ son exclusiva de DAZN, y la vía más cómoda para verlos todos es Movistar Plus+ vía DAZN. Te contamos qué incluye, en qué canales (DAZN Mundial y Fanzone), qué se ve gratis en RTVE y cómo contratarlo para no perderte ni un partido.',
+    body: `## Los 104 partidos: Movistar Plus+ vía DAZN
+
+En España, **todos los partidos del Mundial 2026 —los 104— están en DAZN**, que tiene los derechos en exclusiva de pago. Y la forma más cómoda de verlos sin saltar de plataforma es **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**: integra los canales del torneo dentro de tu descodificador y app de Movistar Plus+, sin apps sueltas.
+
+Dentro encontrarás los **canales dedicados al Mundial**: **DAZN Mundial** (con el partido principal de cada franja) y la **Fanzone**, el canal multipartido para seguir varios encuentros a la vez cuando se juegan en paralelo. Todo en directo y a la carta.
+
+Si quieres asegurarte el torneo completo, **[date de alta en Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)** y tendrás los 104 partidos en un único sitio.
+
+## Qué ves gratis (RTVE) y qué es de pago (DAZN)
+
+No todo es de pago. **RTVE emite 34 partidos gratis y en abierto** en La 1 y RTVE Play: el partido inaugural, **todos los de España**, un partido por jornada en la fase de grupos y casi todas las eliminatorias, incluida la final. Te lo detallamos en [qué partidos da RTVE del Mundial 2026](/noticias/rtve-la1-partidos-mundial-2026-abierto-donde-ver-resto-dazn).
+
+El **resto de partidos** —la mayoría de la fase de grupos y parte de las rondas finales— **solo se pueden ver en DAZN**. Por eso, quien no quiera depender de qué da RTVE cada día y prefiera tenerlo TODO, la solución es **Movistar Plus+ vía DAZN**.
+
+## ¿Se puede ver DAZN gratis? Cómo contratarlo
+
+Es una de las búsquedas del momento, así que vamos al grano: **el Mundial completo en DAZN no es gratis**. Lo gratuito en España es lo que ofrece **RTVE en abierto** (esos 34 partidos). Para los 104 necesitas una suscripción.
+
+Tienes dos caminos:
+
+- **Movistar Plus+ vía DAZN** (recomendado si ya eres cliente de Movistar o quieres todo integrado): los canales del Mundial dentro de tu Movistar Plus+. Consulta **[precio y planes actualizados aquí](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**.
+- **DAZN directamente**, con su propio pase, si no tienes Movistar.
+
+En ambos casos accedes a los mismos partidos; la diferencia es la comodidad de tenerlo integrado con el resto de tu tele.
+
+## Cómo no perderte ningún partido
+
+- **Lo gratis:** La 1 / RTVE Play (inauguración, España, un partido por jornada y eliminatorias).
+- **Todo (104):** **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**.
+- **Para saber quién da cada partido:** consulta el [calendario completo](/2026/calendario) y los [partidos de hoy](/2026/partidos-hoy) — cada encuentro indica cómo verlo y a qué hora (en hora de España).
+
+Con RTVE para lo grande y Movistar Plus+ vía DAZN para el resto, no se te escapa ni un minuto del Mundial 2026.`,
+    category: 'tv',
+    sourceName: 'Movistar Plus+ / DAZN / RTVE',
+    sourceUrl: 'https://www.movistarplus.es/deportes/futbol/mundial',
+    sourceLang: 'es',
+    publishedAt: '2026-06-13T11:00:00Z',
+    sourcesSecondary: [
+      { name: 'El Español', url: 'https://www.elespanol.com/corazon/bluper/20260611/ver-mundial-television-espana-fechas-horarios-partidos-rtve-retransmite-gratis/1003744282168_0.html' },
+      { name: 'Xataka', url: 'https://www.xataka.com/basics/donde-puedes-ver-mundial-2026-dependiendo-operador-que-tengas' },
+    ],
+  },
+  {
     slug: 'rtve-la1-partidos-mundial-2026-abierto-donde-ver-resto-dazn',
     title: 'Qué partidos da RTVE (La 1) del Mundial 2026 además de los de España y dónde ver el resto',
     summary: 'RTVE emite 34 partidos del Mundial 2026 gratis y en abierto en La 1 y RTVE Play: 17 de la fase de grupos (uno por jornada, más todos los de España) y 17 de las eliminatorias, incluida la final. El resto, hasta los 104, es exclusiva de DAZN. Te detallamos qué da cada uno.',

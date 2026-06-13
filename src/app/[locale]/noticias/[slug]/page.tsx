@@ -314,7 +314,12 @@ export default async function NoticiaDetail({
             [&_code]:font-mono [&_code]:text-sm [&_code]:bg-[var(--color-bg-2)] [&_code]:px-1.5 [&_code]:py-0.5 [&_code]:rounded
           "
           dangerouslySetInnerHTML={{
-            __html: marked.parse(loc.body, { gfm: true, breaks: false }) as string,
+            __html: (marked.parse(loc.body, { gfm: true, breaks: false }) as string)
+              // Enlaces de afiliado (AWIN/Movistar) → sponsored + nueva pestaña.
+              .replace(
+                /<a href="(https:\/\/www\.awin1\.com[^"]*)"/g,
+                '<a href="$1" target="_blank" rel="sponsored nofollow noopener noreferrer"',
+              ),
           }}
         />
       </section>
