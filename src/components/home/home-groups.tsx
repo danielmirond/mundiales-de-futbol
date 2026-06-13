@@ -39,39 +39,42 @@ export async function HomeGroups({ locale }: { locale: Locale }) {
           {GROUPS_2026.map((g) => {
             const rows = groupStandings(g.letter, scoreMap);
             return (
-              <li key={g.letter} className="bg-[var(--color-bg)]">
-                <Link
-                  href={withLocale(locale, `/2026/grupo/${g.letter}`)}
-                  className="group flex h-full flex-col gap-4 p-6 transition-colors hover:bg-[var(--color-bg-2)]"
-                >
-                  <div className="flex items-baseline justify-between">
-                    <span className="font-display text-3xl uppercase leading-none text-[var(--color-fg)] transition-colors group-hover:text-[var(--color-pitch)]">
-                      Grupo {g.letter}
-                    </span>
-                    <span className="font-mono text-[9px] uppercase tracking-[0.25em] text-[var(--color-fg-subtle)]">
-                      PJ · Pts
-                    </span>
-                  </div>
-                  <ul className="flex flex-col gap-2">
-                    {rows.map((r) => {
-                      const tm = getTeam2026(r.code);
-                      return (
-                        <li key={r.code} className="flex items-center gap-2.5">
+              <li key={g.letter} className="flex h-full flex-col gap-4 bg-[var(--color-bg)] p-6">
+                <div className="flex items-baseline justify-between">
+                  <Link
+                    href={withLocale(locale, `/2026/grupo/${g.letter}`)}
+                    className="font-display text-3xl uppercase leading-none text-[var(--color-fg)] transition-colors hover:text-[var(--color-pitch)]"
+                  >
+                    Grupo {g.letter}
+                  </Link>
+                  <span className="font-mono text-[9px] uppercase tracking-[0.25em] text-[var(--color-fg-subtle)]">
+                    PJ · Pts
+                  </span>
+                </div>
+                <ul className="flex flex-col gap-2">
+                  {rows.map((r) => {
+                    const tm = getTeam2026(r.code);
+                    return (
+                      <li key={r.code} className="flex items-center gap-2.5">
+                        <Link
+                          href={withLocale(locale, `/selecciones/${r.code}`)}
+                          className="flex min-w-0 flex-1 items-center gap-2.5 transition-colors hover:text-[var(--color-pitch)]"
+                        >
                           <span aria-hidden className="text-lg">{tm?.flag}</span>
                           <span className="truncate text-sm font-medium text-[var(--color-fg)]">
                             {tm?.name ?? r.code}
                           </span>
-                          <span className="ms-auto font-mono text-[11px] tab-num text-[var(--color-fg-subtle)]">
-                            {r.pj}
-                          </span>
-                          <span className="w-6 text-end font-mono text-sm font-bold tab-num text-[var(--color-fg)]">
-                            {r.pts}
-                          </span>
-                        </li>
-                      );
-                    })}
-                  </ul>
-                </Link>
+                        </Link>
+                        <span className="font-mono text-[11px] tab-num text-[var(--color-fg-subtle)]">
+                          {r.pj}
+                        </span>
+                        <span className="w-6 text-end font-mono text-sm font-bold tab-num text-[var(--color-fg)]">
+                          {r.pts}
+                        </span>
+                      </li>
+                    );
+                  })}
+                </ul>
               </li>
             );
           })}

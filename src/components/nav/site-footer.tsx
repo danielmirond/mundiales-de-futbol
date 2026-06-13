@@ -46,7 +46,39 @@ export async function SiteFooter() {
         páginas desde cualquier vista del sitio.
       */}
       <div className="border-t border-[var(--color-border)]">
-        <div className="mx-auto grid w-full max-w-[1400px] gap-8 px-6 py-10 sm:grid-cols-2 md:grid-cols-4 md:px-10">
+        <div className="mx-auto grid w-full max-w-[1400px] gap-8 px-6 py-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 md:px-10">
+          <div>
+            <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-pitch)]">
+              Mundial 2026 en directo
+            </div>
+            <ul className="mt-3 space-y-2 text-sm">
+              <li>
+                <Link href={withLocale(locale, '/2026/partidos-hoy')} className="text-[var(--color-fg-muted)] transition-colors hover:text-[var(--color-fg)]">
+                  Partidos de hoy
+                </Link>
+              </li>
+              <li>
+                <Link href={withLocale(locale, '/2026/calendario')} className="text-[var(--color-fg-muted)] transition-colors hover:text-[var(--color-fg)]">
+                  Calendario
+                </Link>
+              </li>
+              <li>
+                <Link href={withLocale(locale, '/2026/grupos')} className="text-[var(--color-fg-muted)] transition-colors hover:text-[var(--color-fg)]">
+                  Clasificación y grupos
+                </Link>
+              </li>
+              <li>
+                <Link href={withLocale(locale, '/selecciones/ESP/grupo-h')} className="text-[var(--color-fg-muted)] transition-colors hover:text-[var(--color-fg)]">
+                  Grupo de España
+                </Link>
+              </li>
+              <li>
+                <Link href={withLocale(locale, '/2026/donde-ver')} className="text-[var(--color-fg-muted)] transition-colors hover:text-[var(--color-fg)]">
+                  Dónde ver
+                </Link>
+              </li>
+            </ul>
+          </div>
           <div>
             <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-pitch)]">
               {t('editorial.heading')}

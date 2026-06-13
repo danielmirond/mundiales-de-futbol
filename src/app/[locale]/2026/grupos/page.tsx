@@ -142,18 +142,14 @@ export default async function GroupsIndex({
               .filter(Boolean);
 
             return (
-              <li key={g.letter} className="bg-[var(--color-bg)]">
-                <Link
-                  href={withLocale(
-                    locale as Locale,
-                    `/2026/grupo/${g.letter}`,
-                  )}
-                  className="group flex h-full flex-col gap-5 p-6 transition-colors hover:bg-[var(--color-bg-2)] md:p-7"
-                >
+              <li key={g.letter} className="flex h-full flex-col gap-5 bg-[var(--color-bg)] p-6 md:p-7">
                   <div className="flex items-baseline justify-between">
-                    <span className="font-display text-5xl uppercase leading-none text-[var(--color-fg)] transition-colors group-hover:text-[var(--color-pitch)] md:text-6xl">
+                    <Link
+                      href={withLocale(locale as Locale, `/2026/grupo/${g.letter}`)}
+                      className="font-display text-5xl uppercase leading-none text-[var(--color-fg)] transition-colors hover:text-[var(--color-pitch)] md:text-6xl"
+                    >
                       {g.letter}
-                    </span>
+                    </Link>
                     <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-fg-subtle)]">
                       {t('matchesCount', { count: groupFixtures.length })}
                     </span>
@@ -172,12 +168,15 @@ export default async function GroupsIndex({
                       const tm = getTeam2026(r.code);
                       return (
                         <li key={r.code} className="flex items-center gap-3">
-                          <span aria-hidden className="text-xl">
-                            {tm?.flag}
-                          </span>
-                          <span className="flex-1 truncate text-sm font-medium text-[var(--color-fg)]">
-                            {tm?.name ?? r.code}
-                          </span>
+                          <Link
+                            href={withLocale(locale as Locale, `/selecciones/${r.code}`)}
+                            className="flex min-w-0 flex-1 items-center gap-3 transition-colors hover:text-[var(--color-pitch)]"
+                          >
+                            <span aria-hidden className="text-xl">{tm?.flag}</span>
+                            <span className="flex-1 truncate text-sm font-medium text-[var(--color-fg)]">
+                              {tm?.name ?? r.code}
+                            </span>
+                          </Link>
                           {played ? (
                             <>
                               <span className="w-6 text-end font-mono text-xs tab-num text-[var(--color-fg-subtle)]">
@@ -210,11 +209,13 @@ export default async function GroupsIndex({
                     </div>
                   )}
 
-                  <span className="inline-flex items-center gap-2 font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-fg-subtle)] transition-colors group-hover:text-[var(--color-pitch)]">
+                  <Link
+                    href={withLocale(locale as Locale, `/2026/grupo/${g.letter}`)}
+                    className="group inline-flex items-center gap-2 font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-fg-subtle)] transition-colors hover:text-[var(--color-pitch)]"
+                  >
                     {t('groupCardCta')}
                     <ArrowRight className="h-3 w-3 transition-transform group-hover:translate-x-1 rtl:rotate-180" />
-                  </span>
-                </Link>
+                  </Link>
               </li>
             );
           })}
