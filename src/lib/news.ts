@@ -125,6 +125,105 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'grupo-b-mundial-2026-canada-suiza-qatar-bosnia',
+    title:
+      "Grupo B del Mundial 2026: Canadá, Suiza, Qatar y Bosnia completan el cuadro de la anfitriona",
+    summary:
+      "El sorteo del Mundial 2026 ha determinado el Grupo B, donde la anfitriona Canadá se enfrentará a Suiza, Qatar y Bosnia-Herzegovina. Un grupo equilibrado que promete emociones desde la primera jornada en suelo norteamericano.",
+    body: `El Grupo B del Mundial 2026 ya tiene forma definitiva. [Canadá](/selecciones/canada), una de las tres selecciones anfitrionas junto a Estados Unidos y México, conoce a sus rivales en la fase de grupos: [Suiza](/selecciones/suiza), [Qatar](/selecciones/qatar) y Bosnia-Herzegovina. Un cuadro que, sobre el papel, ofrece un equilibrio interesante entre veteranía europea, empuje asiático y ambición balcánica.
+
+Canadá llega a su segunda Copa del Mundo —la primera fue México 1986— con aspiraciones renovadas tras su brillante actuación en las eliminatorias de Concacaf. El respaldo de su afición será clave en estadios como el BC Place de Vancouver o el BMO Field de Toronto, que albergarán varios encuentros de esta llave. Suiza, por su parte, es un combinado que ha demostrado solidez en los últimos torneos: octavos en Rusia 2018 y cuartos en la Eurocopa 2020. Su disciplina táctica y veteranía la convierten en favorita del grupo.
+
+Qatar regresa al Mundial tras su experiencia como anfitrión en 2022, donde cayó en fase de grupos pero dejó entrever potencial ofensivo. Bosnia-Herzegovina, ausente desde Brasil 2014, vuelve con hambre y necesidad de reivindicarse en el escenario global. Será su oportunidad de mostrar que la generación post-Dzeko puede competir.
+
+El calendario exacto, con horarios y sedes confirmadas, se publicará próximamente en las páginas oficiales de la FIFA y en nuestro apartado de [sedes del Mundial 2026](/2026/sedes). Los aficionados que deseen asegurar su presencia en estos duelos pueden consultar los paquetes de [hospitalidad oficial](/2026/hospitality) para no perderse ningún detalle de un grupo que promete sorpresas desde el pitido inicial.`,
+    category: 'general',
+    sourceName: "Marca · Fútbol",
+    sourceUrl: "https://www.marca.com/futbol/mundial/2026/06/11/grupo-b-mundial-2026-selecciones-calendario-partidos-horarios-favoritos.html",
+    sourceLang: 'es',
+    publishedAt: '2026-06-11T10:57:56.000Z',
+  },
+  {
+    slug: 'estados-unidos-golea-paraguay-arranque-mundial-2026',
+    title:
+      "Estados Unidos arrasa a Paraguay 4-1 en su debut mundialista en Los Ángeles",
+    summary:
+      "La selección anfitriona destrozó a Paraguay en su primer partido del Mundial 2026 con una contundente victoria por 4-1. Mientras, Escocia se juega su credibilidad ante Haití tras un arranque irregular de su rival caribeño en la preparación.",
+    body: `Estados Unidos cumplió con las expectativas en su estreno como anfitrión del Mundial 2026, vapuleando 4-1 a Paraguay en un estadio angelino volcado con los locales. El resultado no solo confirma el favoritismo norteamericano en el Grupo D, sino que eleva la presión sobre el resto de aspirantes en una llave que promete disputarse hasta la última jornada.
+
+La goleada estadounidense contrasta con la incertidumbre que rodea a Escocia, cuyo debut ante Haití se perfila como un partido trampa. Los caribeños demostraron su peligro al destrozar 4-0 a Nueva Zelanda en un amistoso, aunque cayeron 2-1 ante [Perú](/selecciones/peru) días después. Steve Clarke sabe que su equipo parte como favorito, pero la irregularidad en los ensayos previos complica cualquier pronóstico.
+
+El centrocampista Declan Rice se perfila como pieza clave para [Inglaterra](/selecciones/england) en este torneo. Su capacidad para controlar el tempo y aportar equilibrio defensivo podría marcar la diferencia entre un fracaso más o la tan ansiada copa que los ingleses persiguen desde 1966. Los analistas coinciden en que su rendimiento será determinante para las aspiraciones de los Three Lions.
+
+Mientras tanto, se reportó un episodio insólito en el campamento inglés: el robo de botas de varios jugadores, un incidente menor pero que refleja la intensidad mediática y la presión que rodea a una de las selecciones más vigiladas del campeonato. La organización reforzó la seguridad en las instalaciones de entrenamiento tras el suceso.`,
+    category: 'general',
+    sourceName: "The Guardian · Football",
+    sourceUrl: "https://www.theguardian.com/football/live/2026/jun/13/world-cup-2026-usa-light-up-la-englands-boots-stolen-scotlands-big-return-live",
+    sourceLang: 'en',
+    publishedAt: '2026-06-13T09:35:33.000Z',
+  },
+  {
+    slug: 'espana-debuta-mundial-2026-cabo-verde-atlanta-calendario-fase-grupos',
+    title:
+      "España debuta en el Mundial 2026 ante Cabo Verde: calendario completo de La Roja en fase de grupos",
+    summary:
+      "La selección española arranca su participación en el Mundial 2026 el 15 de junio frente a Cabo Verde en Atlanta. Los de De la Fuente buscan revalidar su reinado europeo y aspirar al título mundial en suelo norteamericano.",
+    body: `La selección española ya conoce su hoja de ruta para el arranque del Mundial 2026. El combinado dirigido por Luis de la Fuente debutará el **15 de junio ante Cabo Verde** en el Mercedes-Benz Stadium de [Atlanta](/2026/hospitality/sedes/atlanta), una cita que marca el pistoletazo de salida de La Roja en tierras norteamericanas.
+
+España llega al torneo con el estatus de campeona de Europa tras su brillante actuación en la Eurocopa 2024, donde conquistó su cuarto título continental. Ese bagaje, sumado a la consolidación de una generación de futbolistas en plena madurez —Pedri, Gavi, Williams, Yamal—, sitúa a los españoles entre los máximos favoritos para levantar la Copa del Mundo por segunda vez en su historia, 16 años después de Sudáfrica 2010.
+
+El debut contra los caboverdianos representa un desafío de pronóstico favorable, pero el fútbol africano ha demostrado en ediciones recientes —Marruecos en Qatar 2022— que ningún rival puede tomarse a la ligera. La preparación física y la adaptación al horario y clima estadounidense serán claves para que [España](/2026/hospitality/selecciones/ESP) asegure un arranque con tres puntos.
+
+Además del partido inaugural, el calendario de la fase de grupos incluye dos compromisos más que definirán el futuro de La Roja en el torneo. Los técnicos federativos ya trabajan en la logística de concentración y desplazamientos, con especial atención a las [normas de estadios](/2026/normas-estadios) establecidas por la FIFA para esta edición conjunta entre Estados Unidos, Canadá y México.
+
+La expectación entre la afición española es máxima. Las [entradas](/2026/hospitality) para el debut ya registran alta demanda, y la delegación nacional confía en replicar el éxito continental en el escenario mundial. El 15 de junio, Atlanta será testigo del primer paso de España hacia la gloria.`,
+    category: 'convocatorias',
+    sourceName: "Marca · Selección España",
+    sourceUrl: "https://www.marca.com/futbol/mundial/2026/06/11/juega-espana-mundial-2026-calendario-completo-fechas-horarios-fase-grupos.html",
+    sourceLang: 'es',
+    publishedAt: '2026-06-11T17:56:22.000Z',
+  },
+  {
+    slug: 'horarios-completos-fase-grupos-mundial-2026',
+    title:
+      "Horarios definitivos de la fase de grupos del Mundial 2026: 104 partidos en tres países",
+    summary:
+      "La FIFA ha confirmado el calendario completo con los horarios de los 104 encuentros de la fase de grupos del Mundial 2026, que se disputará por primera vez en tres sedes: Estados Unidos, México y Canadá. Un torneo histórico con 48 selecciones.",
+    body: `El Mundial 2026 marca un antes y un después en la historia de la Copa del Mundo. Con 48 selecciones participantes —16 más que en ediciones anteriores—, el torneo se extiende a 104 partidos solo en la fase de grupos, distribuidos entre las sedes de [Estados Unidos](/2026/hospitality/selecciones/estados-unidos), [México](/2026/hospitality/selecciones/mexico) y [Canadá](/2026/hospitality/selecciones/canada).
+
+La confirmación de horarios por parte de la FIFA responde a la complejidad logística de coordinar tres husos horarios distintos. Los encuentros se disputarán en 16 ciudades anfitrionas, desde Vancouver en la costa oeste hasta Miami en la este, pasando por estadios emblemáticos en Ciudad de México y Guadalajara. Esta dispersión geográfica obliga a los aficionados a planificar con antelación sus desplazamientos y reservas de [hospitalidad oficial](/2026/hospitality).
+
+La nueva estructura del torneo contempla 12 grupos de cuatro equipos cada uno, con los dos primeros de cada grupo más los ocho mejores terceros avanzando a octavos de final. Este formato, inédito en Mundiales, garantiza más partidos pero también plantea dudas sobre el equilibrio competitivo y el desgaste físico de las selecciones.
+
+Para los seguidores españoles, conocer los horarios con exactitud resulta esencial dado el desfase horario de entre 6 y 9 horas respecto a la península. Los partidos vespertinos en la costa este de Estados Unidos se verán de madrugada en Europa, mientras que los encuentros en México y la costa oeste obligarán a trasnochar o madrugar según la franja.
+
+La publicación del calendario completo también activa el mercado secundario de entradas y los paquetes de viaje, con previsiones de récord de asistencia dado el tamaño del mercado norteamericano y la diáspora latinoamericana en la región.`,
+    category: 'general',
+    sourceName: "Marca · Selección España",
+    sourceUrl: "https://www.marca.com/futbol/mundial/2026/06/10/horarios-todos-partidos-mundial-2026-cuadro-completo-selecciones-fase-grupos.html",
+    sourceLang: 'es',
+    publishedAt: '2026-06-10T17:04:10.000Z',
+  },
+  {
+    slug: 'canada-empata-debut-eeuu-golea-paraguay-mundial-2026',
+    title:
+      "Canadá suma su primer punto en un Mundial y EEUU arrasa ante Paraguay",
+    summary:
+      "La segunda jornada del Mundial 2026 dejó dos resultados contrastantes para los anfitriones norteamericanos: Canadá rescató un valioso empate 1-1 ante Bosnia Herzegovina en su estreno histórico, mientras Estados Unidos goleó 4-1 a Paraguay en un partido donde demostró su potencial ofensivo.",
+    body: `El viernes 12 de junio quedará marcado en el calendario del fútbol canadiense. Por primera vez en su historia, la selección de las hojas de arce sumó puntos en una Copa del Mundo, tras empatar 1-1 contra Bosnia Herzegovina. El resultado, aunque modesto en apariencia, representa un hito para un combinado que nunca había superado la fase de grupos en su única participación mundialista previa, México 1986, donde cayó en los tres encuentros sin marcar un solo gol.
+
+El punto obtenido por [Canadá](/2026/hospitality/selecciones/canada) cobra mayor relevancia si se considera que Bosnia llegaba como una selección experimentada en citas mundialistas. Ahora, los canadienses tendrán la oportunidad de jugar ante su público en las próximas jornadas, buscando certificar su clasificación a octavos en un grupo que se presenta competido.
+
+Por su parte, [Estados Unidos](/2026/hospitality/selecciones/estados-unidos) exhibió su mejor versión ante [Paraguay](/2026/hospitality/selecciones/paraguay), con una contundente victoria por 4-1 que enciende las alarmas en el resto de selecciones. Los norteamericanos, que no pasaban de octavos desde 2010, mostraron una faceta ofensiva que había brillado por su ausencia en ediciones recientes. La goleada ante los guaraníes —históricos cuartofinalistas en 2010— demuestra que el combinado estadounidense no quiere conformarse con el papel de anfitrión.
+
+La jornada confirma que ambos países organizadores han comenzado el torneo con paso firme, aunque con estilos diferentes. Mientras Canadá apela a la solidez defensiva y el pragmatismo de quien debuta en casa, Estados Unidos apuesta por un juego vertical y directo que puede resultar decisivo en la fase eliminatoria. El próximo desafío para ambos será mantener la regularidad en un Mundial donde la presión local puede jugar a favor o en contra.`,
+    category: 'general',
+    sourceName: "Mundo Deportivo · Fútbol",
+    sourceUrl: "https://www.mundodeportivo.com/futbol/mundial/20260613/1004194511/resultados-partidos-hoy-mundial-2026-canada-historia-estados-unidos-sorprende.html",
+    sourceLang: 'es',
+    publishedAt: '2026-06-13T07:05:24.000Z',
+  },
+  {
     slug: 'como-ver-mundial-2026-movistar-plus-dazn-todos-los-partidos-contratar',
     title: 'Cómo ver el Mundial 2026 en Movistar Plus+ y DAZN: todos los partidos, qué incluye y cómo contratarlo',
     summary: 'En España, los 104 partidos de la Copa Mundial de la FIFA 2026™ son exclusiva de DAZN, y la vía más cómoda para verlos todos es Movistar Plus+ vía DAZN. Te contamos qué incluye, en qué canales (DAZN Mundial y Fanzone), qué se ve gratis en RTVE y cómo contratarlo para no perderte ni un partido.',
