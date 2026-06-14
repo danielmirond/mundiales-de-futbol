@@ -9,6 +9,7 @@ import {
   getTeam2026,
 } from '@/lib/wc-2026';
 import { fetchScores, buildScoreMap, groupStandings } from '@/lib/live-scores';
+import { DaznBanner } from '@/components/affiliate/dazn-banner';
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl, SEO } from '@/lib/seo';
 
@@ -126,7 +127,11 @@ export default async function GroupsIndex({
         </p>
       </header>
 
-      <div className="mx-auto mt-16 w-full max-w-[1400px] px-6 md:px-10">
+      <div className="mx-auto mt-10 w-full max-w-[1100px] px-6 md:px-10">
+        <DaznBanner creative="leaderboard" />
+      </div>
+
+      <div className="mx-auto mt-12 w-full max-w-[1400px] px-6 md:px-10">
         <ul className="grid gap-px overflow-hidden rounded-2xl border border-[var(--color-border)] bg-[var(--color-border)] sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {GROUPS_2026.map((g) => {
             const rows = groupStandings(g.letter, scoreMap);

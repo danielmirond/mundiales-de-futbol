@@ -10,6 +10,7 @@ import {
 } from '@/lib/wc-2026';
 import { fixtureToUTC } from '@/lib/wc-2026-fixture-utc';
 import { fetchScores, buildScoreMap, scoreKey } from '@/lib/live-scores';
+import { DaznBanner } from '@/components/affiliate/dazn-banner';
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl, SEO } from '@/lib/seo';
 
@@ -173,6 +174,10 @@ export default async function Calendario2026({
           {t('intro')}
         </p>
       </header>
+
+      <div className="mx-auto mt-10 w-full max-w-[1100px] px-6 md:px-10">
+        <DaznBanner creative="leaderboard" />
+      </div>
 
       {/* Mini-índice de fases */}
       <nav className="mx-auto mt-12 w-full max-w-[1400px] px-6 md:px-10">
