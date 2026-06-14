@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { ArrowRight, CalendarDays } from 'lucide-react';
-import { FIXTURES_2026, TEAMS_2026, STAGE_LABEL } from '@/lib/wc-2026';
+import { FIXTURES_2026, TEAMS_2026, STAGE_LABEL, matchSlug } from '@/lib/wc-2026';
 import { fixtureToUTC } from '@/lib/wc-2026-fixture-utc';
 import { fetchScores, buildScoreMap, scoreKey } from '@/lib/live-scores';
 import { routing, type Locale } from '@/i18n/routing';
@@ -30,35 +30,85 @@ const SCHED: Row[] = FIXTURES_2026
   })
   .sort((a, b) => a.ms - b.ms);
 
-function Team({ code, label }: { code?: string; label?: string }) {
+type ScoreMap = ReturnType<typeof buildScoreMap>;
+
+function TeamMini({ code, label }: { code?: string; label?: string }) {
   const team = code ? TEAMS_2026[code] : undefined;
   return (
-    <span className="flex min-w-0 items-center gap-2">
-      <span className="text-lg leading-none" aria-hidden>{team?.flag ?? '⚽'}</span>
-      <span className="truncate text-sm text-[var(--color-fg)]">
+    <span className="flex min-w-0 flex-col items-center gap-1 text-center">
+      <span className="text-2xl leading-none" aria-hidden>{team?.flag ?? '⚽'}</span>
+      <span className="w-full truncate text-xs font-medium text-[var(--color-fg)]">
         {team?.name ?? label ?? code ?? '—'}
       </span>
     </span>
   );
 }
 
-/** Calendario compacto de la home: partidos de hoy (con resultado) + próximos. */
+/** Tarjeta de partido para el carrusel. */
+function MatchCard({ row, scoreMap, locale }: { row: Row; scoreMap: ScoreMap; locale: Locale }) {
+  const { f, ms } = row;
+  const sc = scoreMap.get(scoreKey(f.home, f.away));
+  const played = sc && sc.state !== 'pre' && sc.homeScore !== null && sc.awayScore !== null;
+  const live = sc?.state === 'in';
+  const stage = f.stage.length === 1 ? `Gr. ${f.stage}` : (STAGE_LABEL[f.stage] ?? f.stage);
+  return (
+    <Link
+      href={withLocale(locale, `/2026/partido/${matchSlug(f)}`)}
+      className="flex w-[240px] shrink-0 snap-start flex-col gap-3 rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg)] p-4 transition-colors hover:border-[var(--color-pitch)]/40 hover:bg-[var(--color-bg-2)]"
+    >
+      <div className="flex items-center justify-between font-mono text-[9px] uppercase tracking-[0.25em] text-[var(--color-fg-subtle)]">
+        <span>{stage}</span>
+        {live ? (
+          <span className="inline-flex items-center gap-1 text-[var(--color-flame)]">
+            <span className="relative flex h-1.5 w-1.5">
+              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[var(--color-flame)] opacity-75" />
+              <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-[var(--color-flame)]" />
+            </span>
+            {sc!.clock || 'EN VIVO'}
+          </span>
+        ) : played ? (
+          <span>Final</span>
+        ) : (
+          <span className="tab-num">{timeFmt.format(ms)} h</span>
+        )}
+      </div>
+      <div className="flex items-start justify-between gap-2">
+        <TeamMini code={f.home} label={f.label} />
+        <span className="shrink-0 self-center px-1">
+          {played ? (
+            <span className="font-display tab-num text-2xl leading-none text-[var(--color-fg)]">
+              {sc!.homeScore}<span className="text-[var(--color-fg-subtle)]">-</span>{sc!.awayScore}
+            </span>
+          ) : (
+            <span className="font-mono text-xs text-[var(--color-fg-subtle)]">vs</span>
+          )}
+        </span>
+        <TeamMini code={f.away} />
+      </div>
+    </Link>
+  );
+}
+
+/** Calendario de la home: carrusel de los partidos de hoy + lista de próximos. */
 export async function HomeSchedule({ locale }: { locale: Locale }) {
   const scoreMap = buildScoreMap(await fetchScores());
   const now = Date.now();
   const todayKey = dateKeyFmt.format(now);
 
-  // Partidos de hoy (jugados, en vivo o por jugar) + próximos hasta ~9 en total.
-  const todays = SCHED.filter((s) => s.dateKey === todayKey);
-  const future = SCHED.filter((s) => s.dateKey !== todayKey && s.ms > now);
-  let list = [...todays, ...future].slice(0, Math.min(9, Math.max(6, todays.length)));
-  if (list.length === 0) list = future.slice(0, 6); // fallback (entre fases)
+  let carouselDay = todayKey;
+  let carousel = SCHED.filter((s) => s.dateKey === todayKey);
+  if (carousel.length === 0) {
+    const next = SCHED.find((s) => s.ms > now);
+    if (next) { carouselDay = next.dateKey; carousel = SCHED.filter((s) => s.dateKey === next.dateKey); }
+  }
+  const isToday = carouselDay === todayKey;
 
-  // Agrupar por día (Madrid) conservando orden
-  const groups: { key: string; rows: Row[] }[] = [];
-  for (const r of list) {
-    let g = groups.find((x) => x.key === r.dateKey);
-    if (!g) { g = { key: r.dateKey, rows: [] }; groups.push(g); }
+  // Lista de próximos días (siguientes a la jornada del carrusel), hasta ~8 partidos.
+  const upcoming = SCHED.filter((s) => s.dateKey > carouselDay && s.ms > now).slice(0, 8);
+  const upcomingDays: { key: string; rows: Row[] }[] = [];
+  for (const r of upcoming) {
+    let g = upcomingDays.find((x) => x.key === r.dateKey);
+    if (!g) { g = { key: r.dateKey, rows: [] }; upcomingDays.push(g); }
     g.rows.push(r);
   }
 
@@ -69,11 +119,16 @@ export async function HomeSchedule({ locale }: { locale: Locale }) {
           <div>
             <div className="flex items-center gap-2 font-mono text-[11px] uppercase tracking-[0.3em] text-[var(--color-pitch)]">
               <CalendarDays className="h-4 w-4" />
-              Calendario · hoy y próximos
+              {isToday ? 'Partidos de hoy' : 'Próxima jornada'}
             </div>
             <h2 className="mt-3 font-display text-4xl uppercase leading-[0.95] text-[var(--color-fg)] md:text-5xl">
-              Partidos del Mundial 2026
+              Mundial 2026 en directo
             </h2>
+            {carousel.length > 0 && (
+              <p className="mt-2 font-mono text-[11px] uppercase tracking-[0.2em] text-[var(--color-fg-subtle)]">
+                {dayFmt.format(carousel[0].ms)}
+              </p>
+            )}
           </div>
           <Link
             href={withLocale(locale, '/2026/calendario')}
@@ -84,56 +139,52 @@ export async function HomeSchedule({ locale }: { locale: Locale }) {
           </Link>
         </div>
 
-        <div className="mt-10 space-y-8">
-          {groups.map((g) => (
-            <div key={g.key}>
-              <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-fg-subtle)]">
-                {g.key === todayKey ? 'Hoy · ' : ''}{dayFmt.format(g.rows[0].ms)}
+        {/* Carrusel de partidos del día */}
+        {carousel.length > 0 && (
+          <div className="mt-8 flex snap-x snap-mandatory gap-3 overflow-x-auto pb-3 [scrollbar-width:thin]">
+            {carousel.map((row) => (
+              <MatchCard key={row.f.n} row={row} scoreMap={scoreMap} locale={locale} />
+            ))}
+          </div>
+        )}
+
+        {/* Próximos días */}
+        {upcomingDays.length > 0 && (
+          <div className="mt-10 space-y-6">
+            {upcomingDays.map((g) => (
+              <div key={g.key}>
+                <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-fg-subtle)]">
+                  {dayFmt.format(g.rows[0].ms)}
+                </div>
+                <ul className="mt-3 divide-y divide-[var(--color-border)] overflow-hidden rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg)]">
+                  {g.rows.map(({ f, ms }) => {
+                    const stage = f.stage.length === 1 ? `Gr. ${f.stage}` : (STAGE_LABEL[f.stage] ?? f.stage);
+                    return (
+                      <li key={f.n} className="flex items-center gap-3 px-4 py-3">
+                        <span className="w-14 shrink-0 text-center font-mono text-xs tab-num text-[var(--color-fg-muted)]">
+                          {timeFmt.format(ms)}
+                        </span>
+                        <Link
+                          href={withLocale(locale, `/2026/partido/${matchSlug(f)}`)}
+                          className="flex min-w-0 flex-1 items-center gap-2 text-sm transition-opacity hover:opacity-80"
+                        >
+                          <span aria-hidden className="text-base">{f.home ? TEAMS_2026[f.home]?.flag : '⚽'}</span>
+                          <span className="truncate text-[var(--color-fg)]">{f.home ? TEAMS_2026[f.home]?.name : f.label}</span>
+                          <span className="font-mono text-[10px] text-[var(--color-fg-subtle)]">vs</span>
+                          <span aria-hidden className="text-base">{f.away ? TEAMS_2026[f.away]?.flag : '⚽'}</span>
+                          <span className="truncate text-[var(--color-fg)]">{f.away ? TEAMS_2026[f.away]?.name : ''}</span>
+                        </Link>
+                        <span className="hidden shrink-0 font-mono text-[9px] uppercase tracking-[0.25em] text-[var(--color-fg-subtle)] sm:block">
+                          {stage}
+                        </span>
+                      </li>
+                    );
+                  })}
+                </ul>
               </div>
-              <ul className="mt-3 divide-y divide-[var(--color-border)] overflow-hidden rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg)]">
-                {g.rows.map(({ f, ms }) => {
-                  const sc = scoreMap.get(scoreKey(f.home, f.away));
-                  const played = sc && sc.state !== 'pre' && sc.homeScore !== null && sc.awayScore !== null;
-                  const live = sc?.state === 'in';
-                  const stage = f.stage.length === 1 ? `Gr. ${f.stage}` : (STAGE_LABEL[f.stage] ?? f.stage);
-                  return (
-                    <li key={f.n} className="flex items-center gap-3 px-4 py-3 md:px-5">
-                      {/* Hora / marcador */}
-                      <div className="w-14 shrink-0 text-center">
-                        {played ? (
-                          <span className="font-display text-lg tab-num leading-none text-[var(--color-fg)]">
-                            {sc!.homeScore}<span className="text-[var(--color-fg-subtle)]">-</span>{sc!.awayScore}
-                          </span>
-                        ) : (
-                          <span className="font-mono text-xs tab-num text-[var(--color-fg-muted)]">
-                            {timeFmt.format(ms)}
-                          </span>
-                        )}
-                        {live && (
-                          <div className="mt-0.5 font-mono text-[8px] uppercase tracking-widest text-[var(--color-flame)]">
-                            {sc!.clock || 'EN VIVO'}
-                          </div>
-                        )}
-                      </div>
-
-                      {/* Equipos */}
-                      <div className="flex min-w-0 flex-1 items-center gap-2">
-                        <Team code={f.home} label={f.label} />
-                        <span className="font-mono text-[10px] text-[var(--color-fg-subtle)]">vs</span>
-                        <Team code={f.away} />
-                      </div>
-
-                      {/* Fase */}
-                      <span className="hidden shrink-0 font-mono text-[9px] uppercase tracking-[0.25em] text-[var(--color-fg-subtle)] sm:block">
-                        {stage}
-                      </span>
-                    </li>
-                  );
-                })}
-              </ul>
-            </div>
-          ))}
-        </div>
+            ))}
+          </div>
+        )}
       </div>
     </section>
   );
