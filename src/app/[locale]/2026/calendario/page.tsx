@@ -9,8 +9,11 @@ import {
   type Fixture26,
 } from '@/lib/wc-2026';
 import { fixtureToUTC } from '@/lib/wc-2026-fixture-utc';
+import { fetchScores, buildScoreMap, scoreKey } from '@/lib/live-scores';
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl, SEO } from '@/lib/seo';
+
+export const dynamic = 'force-dynamic';
 
 function withLocale(locale: Locale, href: string) {
   if (locale === routing.defaultLocale) return href;
@@ -118,6 +121,7 @@ export default async function Calendario2026({
 
   const phases = buildPhases(t);
   const venueBySlug = new Map(VENUES_2026.map((v) => [v.slug, v]));
+  const scoreMap = buildScoreMap(await fetchScores());
 
   const eventLd = {
     '@context': 'https://schema.org',
@@ -224,11 +228,23 @@ export default async function Calendario2026({
                     const away = f.away ? getTeam2026(f.away) : undefined;
                     const venue = venueBySlug.get(f.venue);
                     const m = madridParts(f, locale);
+                    const sc = scoreMap.get(scoreKey(f.home, f.away));
+                    const played = sc && sc.state !== 'pre' && sc.homeScore !== null && sc.awayScore !== null;
+                    const live = sc?.state === 'in';
                     return (
                       <li key={f.n} className="bg-[var(--color-bg)]">
                         <div className="flex flex-col gap-3 p-5">
                           <div className="flex items-center justify-between font-mono text-[9px] uppercase tracking-[0.25em] text-[var(--color-fg-subtle)]">
-                            <span>{m.date} · {m.time} h</span>
+                            <span>
+                              {m.date} ·{' '}
+                              {live ? (
+                                <span className="text-[var(--color-flame)]">{sc!.clock || 'EN VIVO'}</span>
+                              ) : played ? (
+                                'Final'
+                              ) : (
+                                `${m.time} h`
+                              )}
+                            </span>
                             <span className="tab-num">#{f.n}</span>
                           </div>
                           <div className="flex items-center gap-3 font-display text-lg uppercase md:text-xl">
@@ -244,8 +260,14 @@ export default async function Calendario2026({
                                 </span>
                               )}
                             </span>
-                            <span className="font-mono text-[var(--color-fg-subtle)]">
-                              vs
+                            <span className="shrink-0 px-1 tab-num">
+                              {played ? (
+                                <span className="font-display text-xl text-[var(--color-fg)] md:text-2xl">
+                                  {sc!.homeScore}<span className="mx-1 text-[var(--color-fg-subtle)]">-</span>{sc!.awayScore}
+                                </span>
+                              ) : (
+                                <span className="font-mono text-[var(--color-fg-subtle)]">vs</span>
+                              )}
                             </span>
                             <span className="flex flex-1 items-center gap-2 truncate">
                               {away ? (
