@@ -125,6 +125,122 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'cuando-juega-inglaterra-mundial-2026-horarios-donde-ver-tv',
+    title: 'Cuándo juega Inglaterra en el Mundial 2026: horarios, cómo y dónde ver en TV a la selección de Tuchel',
+    summary: 'Inglaterra, dirigida por el alemán Thomas Tuchel, está en el Grupo L con Croacia, Ghana y Panamá. Sus tres partidos son a última hora de la noche en España. Aquí tienes los horarios en hora española y cómo ver a los Three Lions en TV, en DAZN vía Movistar Plus+.',
+    body: `Eterna candidata y eterna decepción, **Inglaterra** afronta el Mundial 2026 con un proyecto distinto: por primera vez la dirige un técnico extranjero, el alemán **Thomas Tuchel**. Los Three Lions comparten el **Grupo L** con Croacia, Ghana y Panamá.
+
+## Horarios de Inglaterra en la fase de grupos
+
+En **hora de España**, y todos a última hora:
+
+- **Croacia** — miércoles **17 de junio, 22:00 h** · AT&T Stadium (Dallas).
+- **Ghana** — martes **23 de junio, 22:00 h** · Gillette Stadium (Boston).
+- **Panamá** — sábado **27 de junio, 23:00 h** · MetLife Stadium (Nueva Jersey).
+
+Horarios de prime time noche para el aficionado español. Sigue el grupo en el [calendario del Mundial](/2026/calendario) y la ficha de [Inglaterra](/selecciones/ENG).
+
+## Cómo y dónde ver a Inglaterra en TV
+
+En España, los partidos de Inglaterra se ven en **DAZN**, accesible a través de **Movistar Plus+ vía DAZN**. RTVE podría llevarse a abierto el duelo ante Croacia como partido de la jornada, pero no está garantizado. Repasa el reparto en [dónde ver el Mundial 2026](/2026/donde-ver).
+
+## El duelo que marca el grupo
+
+El estreno ante **Croacia**, subcampeona en 2018 y siempre competitiva pese a la veteranía de su bloque, es la prueba de fuego. Si Inglaterra la supera, el Grupo L queda de cara. La pregunta de siempre sigue en el aire: ¿será esta, con Tuchel y una generación de talento ofensivo, la vez que Inglaterra rompa su maleficio en los grandes torneos?`,
+    category: 'tv',
+    sourceName: 'FIFA / DAZN',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-14T09:00:00Z',
+  },
+  {
+    slug: 'cuando-juega-alemania-mundial-2026-horarios-donde-ver-tv',
+    title: 'Cuándo juega Alemania en el Mundial 2026: horarios, cómo y dónde ver en TV a la Mannschaft de Nagelsmann',
+    summary: 'La Alemania de Julian Nagelsmann, cuatro veces campeona del mundo, abre su Mundial muy pronto: el 14 de junio ante Curazao en el Grupo E. Te damos los horarios en hora de España de la Mannschaft y cómo verla en TV, en DAZN vía Movistar Plus+.',
+    body: `Tras dos Mundiales para olvidar, **Alemania** quiere recuperar su sitio entre las grandes. La **Mannschaft** de **Julian Nagelsmann**, cuatro veces campeona del mundo, encabeza el **Grupo E** junto a Curazao, Costa de Marfil y Ecuador.
+
+## El calendario de Alemania, hora a hora
+
+En **hora de España**:
+
+- **Curazao** — domingo **14 de junio, 19:00 h** · NRG Stadium (Houston).
+- **Costa de Marfil** — sábado **20 de junio, 22:00 h** · BMO Field (Toronto).
+- **Ecuador** — jueves **25 de junio, 22:00 h** · MetLife Stadium (Nueva Jersey).
+
+El estreno ante Curazao —la selección más pequeña de la historia en un Mundial— es de los más madrugadores para una favorita. Sigue el grupo en el [calendario](/2026/calendario) y la ficha de [Alemania](/selecciones/GER).
+
+## Cómo y dónde ver a Alemania en TV
+
+En España, Alemania se ve en **DAZN** (de forma cómoda con **Movistar Plus+ vía DAZN**, los 104 partidos en un sitio). Para saber qué da RTVE en abierto cada jornada, consulta [qué partidos da RTVE](/noticias/rtve-la1-partidos-mundial-2026-abierto-donde-ver-resto-dazn) y [dónde ver el Mundial 2026](/2026/donde-ver).
+
+## El examen: Ecuador y Costa de Marfil
+
+Curazao debería ser un trámite, pero **Costa de Marfil** (campeona de África en 2024) y sobre todo **Ecuador**, en el cierre, son rivales serios. El último partido del grupo, ante una Ecuador físicamente potente, puede decidir el primer puesto. Alemania necesita demostrar desde ya que ha dejado atrás su travesía del desierto.`,
+    category: 'tv',
+    sourceName: 'FIFA / DAZN',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-14T09:10:00Z',
+  },
+  {
+    slug: 'cuando-juega-mexico-mundial-2026-horarios-donde-ver-tv',
+    title: 'Cuándo juega México en el Mundial 2026: horarios, cómo y dónde ver en TV al Tri de Javier Aguirre',
+    summary: 'México, anfitrión y ya con victoria en el debut (2-0 a Sudáfrica), busca el billete a octavos en el Grupo A. El Tri de Javier Aguirre juega de madrugada para España. Aquí tienes los horarios en hora española y cómo ver a México en TV.',
+    body: `El **Tri** vive su Mundial en casa. Como **anfitrión**, México abrió el torneo el 11 de junio en el mítico Estadio Azteca con **victoria por 2-0 sobre Sudáfrica**. La selección de **Javier Aguirre** lidera el **Grupo A** junto a Sudáfrica, Corea del Sur y Chequia.
+
+## Horarios de México (de madrugada para España)
+
+Por el huso horario mexicano, el aficionado español tendrá que trasnochar. En **hora de España**:
+
+- **Sudáfrica** — jueves 11 de junio · **jugado: México 2-0** (Estadio Azteca).
+- **Corea del Sur** — viernes **19 de junio, 03:00 h** · Estadio Akron (Guadalajara).
+- **Chequia** — jueves **25 de junio, 03:00 h** · Estadio Azteca (Ciudad de México).
+
+Sigue la clasificación en directo en el [Grupo A](/2026/grupos), el [calendario completo](/2026/calendario) y la ficha de [México](/selecciones/MEX).
+
+## Cómo y dónde ver a México en TV
+
+En España, los partidos de México se ven en **DAZN**, de la forma más cómoda con **Movistar Plus+ vía DAZN**. Es difícil que RTVE elija un partido del Tri en abierto salvo que coincida como encuentro de la jornada. Más detalles en [dónde ver el Mundial 2026](/2026/donde-ver).
+
+## El sueño del anfitrión
+
+Con el factor cancha, el calor del Azteca y un grupo asequible, México parte como favorito para ganar el Grupo A. El reto histórico está más allá: el Tri nunca ha pasado del famoso "quinto partido" (octavos). Jugar en casa es la gran oportunidad para, por fin, romper esa barrera.`,
+    category: 'tv',
+    sourceName: 'FIFA / DAZN',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-14T09:20:00Z',
+  },
+  {
+    slug: 'cuando-juega-portugal-mundial-2026-horarios-donde-ver-tv',
+    title: 'Cuándo juega Portugal en el Mundial 2026: horarios, cómo y dónde ver en TV a la selección de Roberto Martínez',
+    summary: 'Portugal, con Cristiano Ronaldo en su sexto y posiblemente último Mundial, está en el Grupo K con RD del Congo, Uzbekistán y Colombia. La dirige el español Roberto Martínez. Horarios en hora de España y cómo verla en TV, en DAZN vía Movistar Plus+.',
+    body: `**Portugal** llega al Mundial 2026 con una generación brutal y un protagonista de excepción: **Cristiano Ronaldo**, que afronta a sus 41 años su **sexta Copa del Mundo**. La dirige el español **Roberto Martínez** y está encuadrada en el **Grupo K** con RD del Congo, Uzbekistán y Colombia.
+
+## Los partidos de Portugal, hora a hora
+
+En **hora de España**:
+
+- **RD del Congo** — miércoles **17 de junio, 19:00 h** · NRG Stadium (Houston).
+- **Uzbekistán** — martes **23 de junio, 19:00 h** · NRG Stadium (Houston).
+- **Colombia** — domingo **28 de junio, 01:30 h** (madrugada) · Hard Rock Stadium (Miami).
+
+Los dos primeros, a media tarde-noche; el cierre ante Colombia toca trasnochar. Sigue el grupo en el [calendario](/2026/calendario) y la ficha de [Portugal](/selecciones/POR).
+
+## Cómo y dónde ver a Portugal en TV
+
+En España, Portugal se ve en **DAZN**, accesible vía **Movistar Plus+ vía DAZN**. El partidazo ante Colombia podría entrar en la selección de RTVE en abierto, pero no es seguro. Consulta [dónde ver el Mundial 2026](/2026/donde-ver).
+
+## El duelo grande: Colombia
+
+RD del Congo y Uzbekistán son rivales asumibles, pero el cierre ante **Colombia** —una de las selecciones de moda— promete y puede decidir el primer puesto del Grupo K. Para Cristiano y Portugal, el objetivo no es la fase de grupos: es, por fin, levantar la única gran copa que le falta a su generación.`,
+    category: 'tv',
+    sourceName: 'FIFA / DAZN',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-14T09:30:00Z',
+  },
+  {
     slug: 'cuando-juega-espana-mundial-2026-horarios-donde-ver-tv',
     title: 'Cuándo juega España en el Mundial 2026: horarios, cómo y dónde ver en TV a la selección de Luis de la Fuente',
     summary: 'La España de Luis de la Fuente, campeona de Europa, arranca su Mundial el 15 de junio ante Cabo Verde. Te contamos los horarios (en hora de España) de sus tres partidos del Grupo H y cómo y dónde verlos en TV: todos van en abierto por RTVE, además de en Movistar Plus+ vía DAZN.',
@@ -3341,40 +3457,39 @@ Ficha de Turquía en [/2026/listas/TUR](/2026/listas/TUR).`,
     slug: 'espana-grupo-h-mundial-2026-horarios-canales-tv-rtve-dazn-uruguay-cabo-verde-arabia-saudi',
     title: 'España en el Grupo H: fechas, horarios y dónde ver los partidos en TV (RTVE y DAZN)',
     summary:
-      'España debuta el 13 de junio ante Cabo Verde en el Rose Bowl de Pasadena. Los tres partidos de la fase de grupos se emiten en abierto por RTVE y en DAZN. El Grupo H está formado por España, Uruguay, Cabo Verde y Arabia Saudí, con España como favorita clara a ganar el grupo.',
+      'España debuta el 15 de junio ante Cabo Verde en el Mercedes-Benz Stadium de Atlanta. Los tres partidos de la fase de grupos se emiten en abierto por RTVE y en Movistar Plus+ vía DAZN. El Grupo H está formado por España, Uruguay, Cabo Verde y Arabia Saudí, con España como favorita clara a ganar el grupo.',
     body: `La selección española afronta el **Mundial 2026** como uno de los candidatos más serios al título. Subcampeona del mundo en 2010 (con la histórica generación de Xavi, Iniesta y Torres), España llega a Norteamérica tras ganar la **Eurocopa 2024** en Alemania — su cuarto título continental — con una generación liderada por **Lamine Yamal**, **Pedri**, **Fabián Ruiz** y **Álvaro Morata**.
 
 ## Partidos de España en la fase de grupos
 
 ### Partido 1 — Debut
 **España vs Cabo Verde**
-- **Fecha**: Sábado **13 de junio de 2026**
-- **Estadio**: Rose Bowl, Pasadena (Los Ángeles)
-- **Hora local (PDT, UTC-7)**: 13:00
-- **Hora España (CEST, UTC+2)**: **22:00**
+- **Fecha**: Lunes **15 de junio de 2026**
+- **Estadio**: Mercedes-Benz Stadium, Atlanta
+- **Hora España (CEST, UTC+2)**: **18:00**
 - **Rival**: Cabo Verde debuta en su primer Mundial histórico.
 
 ### Partido 2
 **España vs Arabia Saudí**
-- **Fecha**: Miércoles **18 de junio de 2026**
-- **Estadio**: Por confirmar (zona Este EE.UU.)
-- **Hora España (CEST)**: **22:00** (estimada)
-- **Rival**: El equipo de Mancini y Salem Al-Dawsari, con el antecedente de Argentina 2022.
+- **Fecha**: Domingo **21 de junio de 2026**
+- **Estadio**: Mercedes-Benz Stadium, Atlanta
+- **Hora España (CEST)**: **18:00**
+- **Rival**: El equipo de Salem Al-Dawsari, con el antecedente de Argentina 2022.
 
 ### Partido 3
 **España vs Uruguay**
-- **Fecha**: Domingo **22 de junio de 2026**
+- **Fecha**: Sábado **27 de junio de 2026**
 - **Estadio**: Estadio Akron, Guadalajara (México)
-- **Hora España (CEST)**: **00:00** del 23 de junio (medianoche)
-- **Rival**: El partido grande del grupo. Uruguay sin Suárez pero con Valverde, Darwin Núñez, Araújo y Bentancur.
+- **Hora España (CEST)**: **02:00** (madrugada)
+- **Rival**: El partido grande del grupo. Uruguay con Valverde, Darwin Núñez, Araújo y Bentancur.
 
 ## Dónde ver España en el Mundial 2026 en España
 
 **RTVE (La 1 / La 2 / rtve.es)**: emite en abierto y gratuito todos los partidos de la selección española, más los encuentros de alto interés. Sin suscripción.
 
-**DAZN**: plataforma de streaming con derechos para todos los 104 partidos del Mundial. Precio aproximado de suscripción mensual: **14,99 €/mes**.
+**Movistar Plus+ vía DAZN**: tiene los 104 partidos del Mundial. Es la vía cómoda para verlo todo, incluidos los de España.
 
-Los derechos de emisión en España para el Mundial 2026 han sido compartidos entre **RTVE** (partidos de España y algunos grandes encuentros) y **DAZN** (cobertura completa del torneo).
+Los derechos de emisión en España para el Mundial 2026 están repartidos entre **RTVE** (partidos de España y algunos grandes encuentros, en abierto) y **DAZN** (cobertura completa del torneo).
 
 ## Análisis del Grupo H
 
@@ -3387,7 +3502,7 @@ Los derechos de emisión en España para el Mundial 2026 han sido compartidos en
 
 **España y Uruguay** parecen los clasificados más probables. Arabia Saudí y Cabo Verde disputarán el tercer puesto para la repesca, aunque el precedente de Arabia Saudí ante Argentina en 2022 recuerda que en este torneo nada es seguro.
 
-El partido **España vs Uruguay** el 22 de junio podría definir el primer puesto del grupo — con implicaciones sobre el cruce de octavos de final.
+El partido **España vs Uruguay** del 27 de junio podría definir el primer puesto del grupo — con implicaciones sobre el cruce de octavos de final.
 
 Todas las fechas en [/2026/calendario](/2026/calendario) · Ficha de España en [/2026/listas/ESP](/2026/listas/ESP).`,
     category: 'tv',
@@ -3397,8 +3512,8 @@ Todas las fechas en [/2026/calendario](/2026/calendario) · Ficha de España en 
     publishedAt: '2026-06-02T20:00:00Z',
     image: {
     url: 'https://upload.wikimedia.org/wikipedia/commons/b/b5/Pedri_%28cropped%29.jpg',
-    alt: 'Lamine Yamal celebrando la Eurocopa 2024 con la selección española',
-    credit: 'Ministerio de la Presidencia, Gobierno de España',
+    alt: 'Pedri, centrocampista de la selección española',
+    credit: 'Biso / Wikimedia Commons',
     license: 'CC BY 4.0',
   },
 },
