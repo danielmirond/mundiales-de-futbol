@@ -22,6 +22,7 @@ import {
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl, SEO } from '@/lib/seo';
 import { MovistarCintillo } from '@/components/affiliate/movistar-banner';
+import { DaznBanner } from '@/components/affiliate/dazn-banner';
 import { getMovistarLink } from '@/lib/movistar-match-links';
 
 function withLocale(locale: Locale, href: string) {
@@ -332,6 +333,13 @@ export default async function NoticiaDetail({
             context={movistarLink.label || undefined}
             matchId={movistarLink.matchId}
           />
+        </section>
+      )}
+
+      {/* Banner DAZN — en las piezas de "cuándo juega" (dónde ver) */}
+      {slug.startsWith('cuando-juega-') && (
+        <section className="mx-auto mt-6 w-full max-w-[900px] px-6 md:px-10">
+          <DaznBanner creative="leaderboard" />
         </section>
       )}
 

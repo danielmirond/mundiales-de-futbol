@@ -125,6 +125,97 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'cuando-juega-espana-mundial-2026-horarios-donde-ver-tv',
+    title: 'Cuándo juega España en el Mundial 2026: horarios, cómo y dónde ver en TV a la selección de Luis de la Fuente',
+    summary: 'La España de Luis de la Fuente, campeona de Europa, arranca su Mundial el 15 de junio ante Cabo Verde. Te contamos los horarios (en hora de España) de sus tres partidos del Grupo H y cómo y dónde verlos en TV: todos van en abierto por RTVE, además de en Movistar Plus+ vía DAZN.',
+    body: `La selección española llega al Mundial 2026 con el cartel de **campeona de Europa** y como una de las favoritas. Está encuadrada en el **Grupo H** junto a Cabo Verde, Arabia Saudí y Uruguay, y su estreno se hace de rogar: España es de las últimas en debutar.
+
+## El calendario de España en la fase de grupos
+
+Estos son los tres partidos de la Roja, con su horario en **hora peninsular española**:
+
+- **Cabo Verde** — lunes **15 de junio, 18:00 h** · Mercedes-Benz Stadium (Atlanta).
+- **Arabia Saudí** — domingo **21 de junio, 18:00 h** · Mercedes-Benz Stadium (Atlanta).
+- **Uruguay** — sábado **27 de junio, 02:00 h** (madrugada del viernes al sábado) · Estadio Akron (Guadalajara, México).
+
+Los dos primeros, a media tarde, son ideales para verlos en familia; el tercero, ante Uruguay, toca madrugar. Puedes seguir la actualización en directo en el [calendario completo](/2026/calendario) y la clasificación del [Grupo H](/selecciones/ESP/grupo-h).
+
+## Cómo y dónde ver a España en TV
+
+Buena noticia para el bolsillo: **todos los partidos de España se emiten gratis y en abierto en RTVE** (La 1 y RTVE Play). Es una de las garantías del reparto de derechos en España.
+
+Si además quieres ver el resto del Mundial —los 104 partidos—, lo tienes en **Movistar Plus+ vía DAZN**. Te explicamos el reparto completo en [qué partidos da RTVE](/noticias/rtve-la1-partidos-mundial-2026-abierto-donde-ver-resto-dazn) y en la guía de [dónde ver el Mundial 2026 en España](/2026/donde-ver).
+
+## Qué se juega la Roja
+
+España parte como primera favorita de su grupo. El objetivo declarado es ganar el Grupo H para encarrilar un cuadro más amable en las eliminatorias. El duelo clave será el tercero, ante una Uruguay siempre incómoda, que puede decidir el primer puesto. Con un grupo asequible sobre el papel, el verdadero examen para los de De la Fuente llegará en la fase de eliminación directa, donde la campeona de Europa quiere demostrar que también puede ser campeona del mundo.`,
+    category: 'tv',
+    sourceName: 'FIFA / RTVE / DAZN',
+    sourceUrl: 'https://www.rtve.es/deportes/futbol/mundial/',
+    sourceLang: 'es',
+    publishedAt: '2026-06-14T08:00:00Z',
+  },
+  {
+    slug: 'cuando-juega-francia-mundial-2026-horarios-donde-ver-tv',
+    title: 'Cuándo juega Francia en el Mundial 2026: horarios, cómo y dónde ver en TV a la selección de Deschamps',
+    summary: 'Francia, una de las grandes candidatas con Mbappé al frente, debuta el 16 de junio ante Senegal en el Grupo I. Repasamos los horarios en hora de España de los tres partidos de Les Bleus y cómo verlos en TV: principalmente en DAZN (Movistar Plus+), con algún encuentro posible en abierto por RTVE.',
+    body: `Subcampeona del mundo en 2022 y finalista de las últimas grandes citas, **Francia** vuelve a aparecer en todas las quinielas de favoritos. Con **Kylian Mbappé** como bandera, Les Bleus de **Didier Deschamps** comparten el **Grupo I** con Senegal, Irak y Noruega.
+
+## Los partidos de Francia, hora a hora
+
+Calendario de la fase de grupos en **hora de España**:
+
+- **Senegal** — martes **16 de junio, 21:00 h** · MetLife Stadium (Nueva Jersey).
+- **Irak** — lunes **22 de junio, 23:00 h** · Lincoln Financial Field (Filadelfia).
+- **Noruega** — viernes **26 de junio, 21:00 h** · Gillette Stadium (Boston).
+
+Horarios cómodos de noche para España, sin necesidad de trasnochar. Sigue la evolución del grupo en el [calendario del Mundial](/2026/calendario) y en la ficha de [Francia](/selecciones/FRA).
+
+## Cómo y dónde ver a Francia en TV
+
+En España, los partidos de Francia se ven en **DAZN**, accesible de forma cómoda a través de **Movistar Plus+ vía DAZN**, que reúne los 104 partidos del torneo.
+
+¿Y en abierto? RTVE emite un partido por jornada además de los de España; alguno de Francia podría entrar en esa selección, pero no está garantizado. Lo seguro para no perderte ningún encuentro de Les Bleus es tenerlo en DAZN. Consulta el detalle en [dónde ver el Mundial 2026](/2026/donde-ver).
+
+## El gran test del grupo: Senegal
+
+El estreno ante **Senegal**, campeona de África en otras citas y rival físico y rápido, es el partido más exigente del grupo para Francia. Si Mbappé y compañía resuelven ese primer escollo, el camino hacia el primer puesto del Grupo I se allana. Francia no esconde su objetivo: pelear de nuevo por el título.`,
+    category: 'tv',
+    sourceName: 'FIFA / DAZN',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-14T08:10:00Z',
+  },
+  {
+    slug: 'cuando-juega-argentina-mundial-2026-horarios-donde-ver-tv',
+    title: 'Cuándo juega Argentina en el Mundial 2026: horarios, cómo y dónde ver en TV a la albiceleste de Scaloni',
+    summary: 'La Argentina de Scaloni, vigente campeona del mundo y con Messi, defiende su corona en el Grupo J. Aviso para España: todos sus partidos son de madrugada o noche. Aquí tienes los horarios en hora española y cómo ver a la albiceleste en TV, en DAZN vía Movistar Plus+.',
+    body: `La **albiceleste** vuelve a un Mundial como **vigente campeona del mundo**, con **Lionel Scaloni** en el banquillo y **Leo Messi** apurando, quizá, su última gran cita. Argentina cayó en el **Grupo J** junto a Argelia, Austria y Jordania.
+
+## Horarios de Argentina (atención, de madrugada)
+
+El gran inconveniente para el aficionado español: los partidos de Argentina caen de madrugada o noche cerrada. En **hora de España**:
+
+- **Argelia** — miércoles **17 de junio, 03:00 h** · Arrowhead Stadium (Kansas City).
+- **Austria** — lunes **22 de junio, 19:00 h** · AT&T Stadium (Dallas).
+- **Jordania** — domingo **28 de junio, 04:00 h** · AT&T Stadium (Dallas).
+
+Solo el segundo, ante Austria, tiene un horario amable; el debut y el cierre obligan a poner el despertador. Tienes el seguimiento en el [calendario completo](/2026/calendario) y en la ficha de [Argentina](/selecciones/ARG).
+
+## Cómo y dónde ver a Argentina en TV
+
+En España, Argentina se ve en **DAZN**, de la forma más cómoda con **Movistar Plus+ vía DAZN** (los 104 partidos del Mundial en un sitio). RTVE podría escoger algún partido de la albiceleste como su encuentro de la jornada, pero no es seguro; para no perderte ninguno, la vía es DAZN. Más detalles en [dónde ver el Mundial 2026](/2026/donde-ver).
+
+## La defensa del título
+
+Argentina llega con la vitola de campeona y un grupo, sobre el papel, accesible. El reto de Scaloni es gestionar las cargas de una plantilla veterana y el peso emocional de un Messi que podría estar despidiéndose. El objetivo: cerrar el primer puesto del Grupo J sin sustos y reservar fuerzas para una segunda fase donde todo se decide.`,
+    category: 'tv',
+    sourceName: 'FIFA / DAZN',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-14T08:20:00Z',
+  },
+  {
     slug: 'como-ver-mundial-2026-movistar-plus-dazn-todos-los-partidos-contratar',
     title: 'Cómo ver el Mundial 2026 en Movistar Plus+ y DAZN: todos los partidos, qué incluye y cómo contratarlo',
     summary: 'En España, los 104 partidos de la Copa Mundial de la FIFA 2026™ son exclusiva de DAZN, y la vía más cómoda para verlos todos es Movistar Plus+ vía DAZN. Te contamos qué incluye, en qué canales (DAZN Mundial y Fanzone), qué se ve gratis en RTVE y cómo contratarlo para no perderte ni un partido.',
