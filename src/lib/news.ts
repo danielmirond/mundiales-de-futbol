@@ -125,6 +125,209 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'cuando-juega-colombia-mundial-2026-horarios-donde-ver-tv',
+    title: 'Cuándo juega Colombia en el Mundial 2026: horarios, cómo y dónde ver en TV a la selección de Néstor Lorenzo',
+    summary: 'Colombia, una de las selecciones de moda con James y Luis Díaz, está en el Grupo K con Uzbekistán, RD del Congo y Portugal. Sus partidos son de madrugada para España. Aquí tienes los horarios en hora española y cómo ver a la Tricolor en TV, en DAZN vía Movistar Plus+.',
+    body: `Tras años de reconstrucción, la **Colombia** de **Néstor Lorenzo** llega al Mundial 2026 lanzada, con **James Rodríguez** recuperado y **Luis Díaz** en su mejor momento. La Tricolor cayó en el **Grupo K** junto a Uzbekistán, RD del Congo y Portugal.
+
+## Horarios de Colombia (de madrugada para España)
+
+En **hora de España**, todos de madrugada por el huso americano:
+
+- **Uzbekistán** — jueves **18 de junio, 04:00 h** · Estadio Azteca (Ciudad de México).
+- **RD del Congo** — miércoles **24 de junio, 04:00 h** · Estadio Akron (Guadalajara).
+- **Portugal** — domingo **28 de junio, 01:30 h** · Hard Rock Stadium (Miami).
+
+Habrá que madrugar para ver a la Tricolor. Sigue el grupo en el [calendario del Mundial](/2026/calendario) y la ficha de [Colombia](/selecciones/COL).
+
+## Cómo y dónde ver a Colombia en TV
+
+En España, los partidos de Colombia se ven en **DAZN**, de la forma más cómoda con **Movistar Plus+ vía DAZN** (los 104 partidos en un sitio). El platillo ante Portugal podría entrar en la selección de RTVE en abierto, aunque no está garantizado. Más detalles en [dónde ver el Mundial 2026](/2026/donde-ver).
+
+## El duelo estrella: Colombia-Portugal
+
+Uzbekistán y RD del Congo marcan el ritmo, pero el cierre ante **Portugal** —Cristiano incluido— es de los partidos más atractivos de toda la fase de grupos y puede valer el primer puesto del Grupo K. Colombia llega con galones para soñar con un papel grande en este Mundial.`,
+    category: 'tv',
+    sourceName: 'FIFA / DAZN',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-14T10:00:00Z',
+  },
+  {
+    slug: 'cuando-juega-marruecos-mundial-2026-horarios-donde-ver-tv',
+    title: 'Cuándo juega Marruecos en el Mundial 2026: horarios, cómo y dónde ver en TV a los Leones del Atlas de Regragui',
+    summary: 'Marruecos, semifinalista en Qatar 2022, vuelve con un debut durísimo ante Brasil en el Grupo C. Los Leones del Atlas de Walid Regragui, con Hakimi al frente, juegan a medianoche para España. Horarios en hora española y cómo verlos en TV, en DAZN vía Movistar Plus+.',
+    body: `La gran sorpresa de Qatar 2022 ya no sorprende a nadie: **Marruecos** es una potencia consolidada. Los **Leones del Atlas** de **Walid Regragui**, con **Achraf Hakimi** como bandera, afrontan un **Grupo C** exigente con Brasil, Escocia y Haití.
+
+## El calendario de Marruecos, hora a hora
+
+En **hora de España** (todos arrancan a medianoche):
+
+- **Brasil** — domingo **14 de junio, 00:00 h** · MetLife Stadium (Nueva Jersey).
+- **Escocia** — sábado **20 de junio, 00:00 h** · Gillette Stadium (Boston).
+- **Haití** — jueves **25 de junio, 00:00 h** · Mercedes-Benz Stadium (Atlanta).
+
+El debut ante Brasil, de madrugada del sábado al domingo, es un platazo. Sigue el grupo en el [calendario](/2026/calendario) y la ficha de [Marruecos](/selecciones/MAR).
+
+## Cómo y dónde ver a Marruecos en TV
+
+En España, Marruecos se ve en **DAZN**, accesible vía **Movistar Plus+ vía DAZN**. El Brasil-Marruecos, por su atractivo, es candidato a que RTVE lo lleve a abierto como partido de la jornada, pero no es seguro. Consulta [dónde ver el Mundial 2026](/2026/donde-ver).
+
+## El debut que lo dice todo
+
+Pocos estrenos tan duros: **Brasil**, nada menos, en el primer partido. Marruecos, cuarta en el último Mundial, quiere demostrar que aquello no fue flor de un día. Si arranca bien ante la Canarinha, el resto del Grupo C queda a su alcance.`,
+    category: 'tv',
+    sourceName: 'FIFA / DAZN',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-14T10:10:00Z',
+  },
+  {
+    slug: 'cuando-juega-paises-bajos-mundial-2026-horarios-donde-ver-tv',
+    title: 'Cuándo juega Países Bajos en el Mundial 2026: horarios, cómo y dónde ver en TV a la Oranje de Koeman',
+    summary: 'La Oranje de Ronald Koeman está en el Grupo F con Japón, Suecia y Túnez. Repasamos los horarios en hora de España de los tres partidos de Países Bajos y cómo verlos en TV, en DAZN vía Movistar Plus+.',
+    body: `Siempre candidata a dar la sorpresa, la **Oranje** de **Ronald Koeman** vuelve a un Mundial con una mezcla de veteranía y talento joven. Países Bajos comparte el **Grupo F** con Japón, Suecia y Túnez.
+
+## Horarios de Países Bajos en la fase de grupos
+
+En **hora de España**:
+
+- **Japón** — domingo **14 de junio, 22:00 h** · AT&T Stadium (Dallas).
+- **Suecia** — sábado **20 de junio, 19:00 h** · NRG Stadium (Houston).
+- **Túnez** — viernes **26 de junio, 01:00 h** · Arrowhead Stadium (Kansas City).
+
+Los dos primeros, en horario amable de tarde-noche; el cierre toca de madrugada. Sigue el grupo en el [calendario](/2026/calendario) y la ficha de [Países Bajos](/selecciones/NED).
+
+## Cómo y dónde ver a Países Bajos en TV
+
+En España, la Oranje se ve en **DAZN**, de forma cómoda con **Movistar Plus+ vía DAZN**. Para saber qué da RTVE en abierto cada jornada, consulta [dónde ver el Mundial 2026](/2026/donde-ver).
+
+## Un grupo abierto
+
+Japón, siempre incómoda y técnica, y una Suecia físicamente potente convierten el Grupo F en uno de los más igualados. Países Bajos parte como favorita, pero no tiene margen para relajarse: cualquier tropiezo puede complicar su clasificación.`,
+    category: 'tv',
+    sourceName: 'FIFA / DAZN',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-14T10:20:00Z',
+  },
+  {
+    slug: 'cuando-juega-ecuador-mundial-2026-horarios-donde-ver-tv',
+    title: 'Cuándo juega Ecuador en el Mundial 2026: horarios, cómo y dónde ver en TV a la Tri de Beccacece',
+    summary: 'Ecuador, joven y físico, está en el Grupo E con Costa de Marfil, Curazao y Alemania. La Tri de Sebastián Beccacece se mide a la Mannschaft en el cierre. Horarios en hora de España y cómo ver a Ecuador en TV, en DAZN vía Movistar Plus+.',
+    body: `Con una de las plantillas más jóvenes y físicas del torneo, **Ecuador** quiere confirmar su crecimiento. La **Tri** de **Sebastián Beccacece** está en el **Grupo E** junto a Costa de Marfil, Curazao y Alemania.
+
+## Horarios de Ecuador, hora a hora
+
+En **hora de España**:
+
+- **Costa de Marfil** — lunes **15 de junio, 01:00 h** · Lincoln Financial Field (Filadelfia).
+- **Curazao** — domingo **21 de junio, 02:00 h** · Arrowhead Stadium (Kansas City).
+- **Alemania** — jueves **25 de junio, 22:00 h** · MetLife Stadium (Nueva Jersey).
+
+Los dos primeros, de madrugada; el decisivo ante Alemania, en horario de noche cómodo. Sigue el grupo en el [calendario](/2026/calendario) y la ficha de [Ecuador](/selecciones/ECU).
+
+## Cómo y dónde ver a Ecuador en TV
+
+En España, los partidos de Ecuador se ven en **DAZN**, de forma cómoda con **Movistar Plus+ vía DAZN**. Consulta el reparto en [dónde ver el Mundial 2026](/2026/donde-ver).
+
+## El examen alemán
+
+El duelo que marca el grupo es el cierre ante **Alemania**: si Ecuador llega con opciones, puede dar la campanada y colarse por delante de una Mannschaft en reconstrucción. La Tri tiene piernas, intensidad y nada que perder.`,
+    category: 'tv',
+    sourceName: 'FIFA / DAZN',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-14T10:30:00Z',
+  },
+  {
+    slug: 'cuando-juega-tunez-mundial-2026-horarios-donde-ver-tv',
+    title: 'Cuándo juega Túnez en el Mundial 2026: horarios, cómo y dónde ver en TV a las Águilas de Cartago',
+    summary: 'Túnez afronta un Grupo F durísimo con Suecia, Japón y Países Bajos. Las Águilas de Cartago juegan sus dos primeros partidos en Monterrey, de madrugada para España. Horarios en hora española y cómo verlos en TV, en DAZN vía Movistar Plus+.',
+    body: `**Túnez**, una de las representantes africanas, llega al Mundial 2026 con la ilusión de superar por fin la fase de grupos. Las **Águilas de Cartago** lo tienen difícil: cayeron en el **Grupo F** con Suecia, Japón y Países Bajos.
+
+## El calendario de Túnez, hora a hora
+
+En **hora de España** (los dos primeros, en Monterrey, de madrugada):
+
+- **Suecia** — lunes **15 de junio, 04:00 h** · Estadio BBVA (Monterrey).
+- **Japón** — domingo **21 de junio, 06:00 h** · Estadio BBVA (Monterrey).
+- **Países Bajos** — viernes **26 de junio, 01:00 h** · Arrowhead Stadium (Kansas City).
+
+Madrugar será obligatorio para seguir a Túnez. Sigue el grupo en el [calendario](/2026/calendario) y la ficha de [Túnez](/selecciones/TUN).
+
+## Cómo y dónde ver a Túnez en TV
+
+En España, los partidos de Túnez se ven en **DAZN**, accesible vía **Movistar Plus+ vía DAZN**. Es poco probable que RTVE lleve un partido de Túnez al abierto, salvo coincidencia como encuentro de la jornada. Más detalles en [dónde ver el Mundial 2026](/2026/donde-ver).
+
+## Misión: la primera vez
+
+Túnez nunca ha pasado de la fase de grupos en un Mundial. En un grupo con Países Bajos como favorita y dos rivales tan exigentes como Suecia y Japón, las Águilas de Cartago necesitarán su mejor versión —y quizá un golpe de suerte— para hacer historia.`,
+    category: 'tv',
+    sourceName: 'FIFA / DAZN',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-14T10:40:00Z',
+  },
+  {
+    slug: 'cuando-juega-argelia-mundial-2026-horarios-donde-ver-tv',
+    title: 'Cuándo juega Argelia en el Mundial 2026: horarios, cómo y dónde ver en TV a los Fennecs',
+    summary: 'Argelia regresa al Mundial y debuta nada menos que ante la Argentina campeona en el Grupo J. Los Fennecs juegan de madrugada para España. Horarios en hora española y cómo verlos en TV, en DAZN vía Movistar Plus+.',
+    body: `**Argelia** vuelve a un Mundial tras años de ausencia y lo hace con un sorteo de fuego. Los **Fennecs** comparten el **Grupo J** con la Argentina campeona del mundo, Austria y Jordania.
+
+## Horarios de Argelia (de madrugada para España)
+
+En **hora de España**:
+
+- **Argentina** — miércoles **17 de junio, 03:00 h** · Arrowhead Stadium (Kansas City).
+- **Jordania** — martes **23 de junio, 05:00 h** · Levi's Stadium (Santa Clara).
+- **Austria** — domingo **28 de junio, 04:00 h** · Arrowhead Stadium (Kansas City).
+
+Tres partidos de madrugada cerrada para el aficionado español. Sigue el grupo en el [calendario](/2026/calendario) y la ficha de [Argelia](/selecciones/ALG).
+
+## Cómo y dónde ver a Argelia en TV
+
+En España, los partidos de Argelia se ven en **DAZN**, de forma cómoda con **Movistar Plus+ vía DAZN**. El debut ante Argentina podría entrar en la selección de RTVE en abierto por su atractivo, pero no está garantizado. Consulta [dónde ver el Mundial 2026](/2026/donde-ver).
+
+## Debut ante la campeona
+
+Pocos estrenos tan exigentes: medirse a **Argentina** y Messi de entrada. Pero Argelia ya sabe lo que es dar la sorpresa en un Mundial, y los duelos ante Jordania y Austria serán los que de verdad decidan sus opciones de clasificarse.`,
+    category: 'tv',
+    sourceName: 'FIFA / DAZN',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-14T10:50:00Z',
+  },
+  {
+    slug: 'cuando-juega-uruguay-mundial-2026-horarios-donde-ver-tv',
+    title: 'Cuándo juega Uruguay en el Mundial 2026: horarios, cómo y dónde ver en TV a la Celeste de Bielsa',
+    summary: 'La Uruguay de Marcelo Bielsa comparte el Grupo H con España, Cabo Verde y Arabia Saudí. El gran duelo: España-Uruguay en el cierre. Horarios en hora de España de la Celeste y cómo verla en TV, en DAZN vía Movistar Plus+.',
+    body: `La **Celeste** de **Marcelo Bielsa** es una de las selecciones más temidas: intensa, vertical y con una generación de oro (Valverde, Araújo, Darwin Núñez, Bentancur). Uruguay está en el **Grupo H**, el mismo que España, junto a Cabo Verde y Arabia Saudí.
+
+## El calendario de Uruguay, hora a hora
+
+En **hora de España**:
+
+- **Arabia Saudí** — martes **16 de junio, 00:00 h** · Hard Rock Stadium (Miami).
+- **Cabo Verde** — lunes **22 de junio, 00:00 h** · Hard Rock Stadium (Miami).
+- **España** — sábado **27 de junio, 02:00 h** (madrugada) · Estadio Akron (Guadalajara).
+
+Sigue el grupo en el [calendario](/2026/calendario), la clasificación del [Grupo H](/selecciones/ESP/grupo-h) y la ficha de [Uruguay](/selecciones/URU).
+
+## Cómo y dónde ver a Uruguay en TV
+
+En España, Uruguay se ve en **DAZN**, de forma cómoda con **Movistar Plus+ vía DAZN**. Su tercer partido, **ante España**, irá además gratis y en abierto por RTVE (como todos los de la Roja). Consulta [dónde ver el Mundial 2026](/2026/donde-ver).
+
+## El choque que define el grupo
+
+Todo apunta a que el **España-Uruguay** de la última jornada decidirá el primer puesto del Grupo H. Para Bielsa, un Mundial es la gran oportunidad de coronar a una generación que lleva años llamando a la puerta de los títulos. La Celeste va a competir hasta el final.`,
+    category: 'tv',
+    sourceName: 'FIFA / DAZN',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-14T11:00:00Z',
+  },
+  {
     slug: 'cuando-juega-inglaterra-mundial-2026-horarios-donde-ver-tv',
     title: 'Cuándo juega Inglaterra en el Mundial 2026: horarios, cómo y dónde ver en TV a la selección de Tuchel',
     summary: 'Inglaterra, dirigida por el alemán Thomas Tuchel, está en el Grupo L con Croacia, Ghana y Panamá. Sus tres partidos son a última hora de la noche en España. Aquí tienes los horarios en hora española y cómo ver a los Three Lions en TV, en DAZN vía Movistar Plus+.',
