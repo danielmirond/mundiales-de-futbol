@@ -40,6 +40,7 @@ const STORES_BY_COUNTRY = [
   {
     country: 'España',
     flag: '🇪🇸',
+    guide: '/coleccionismo/panini-mundial-2026/donde-comprar/espana',
     online: [
       { name: 'Panini.es', url: 'https://www.panini.es/shp_esp_es/fifa-world-cup-2026-official-sticker-collection-lbum-colecci-n-oficial-panini-005460aew-es01.html', note: 'Tienda oficial Panini · envío gratis península desde 20 €' },
       { name: 'Amazon España', url: 'https://www.amazon.es/s?k=panini+mundial+2026+album', note: 'Envío Prime 24-48 h · ASIN B0GWW5LTGR' },
@@ -57,6 +58,7 @@ const STORES_BY_COUNTRY = [
   {
     country: 'Estados Unidos',
     flag: '🇺🇸',
+    guide: '/coleccionismo/panini-mundial-2026/donde-comprar/usa',
     online: [
       { name: 'Panini America', url: 'https://store.paniniamerica.net', note: 'Tienda oficial USA, álbumes y starter packs' },
       { name: 'Amazon US', url: 'https://www.amazon.com/s?k=panini+world+cup+2026+sticker', note: 'Disponible con Prime' },
@@ -75,6 +77,7 @@ const STORES_BY_COUNTRY = [
   {
     country: 'México',
     flag: '🇲🇽',
+    guide: '/coleccionismo/panini-mundial-2026/donde-comprar/mexico',
     online: [
       { name: 'Mercado Libre MX', url: 'https://listado.mercadolibre.com.mx/panini-mundial-2026', note: 'Vendedores oficiales y particulares' },
       { name: 'Amazon México', url: 'https://www.amazon.com.mx/s?k=panini+mundial+2026', note: 'Envío Prime' },
@@ -268,6 +271,16 @@ export default async function DondeComprarPanini({
                 </ul>
               </div>
             </div>
+
+            {'guide' in country && country.guide && (
+              <Link
+                href={withLocale(locale as Locale, country.guide)}
+                className="group mt-8 inline-flex items-center gap-2 rounded-full bg-[var(--color-pitch)] px-5 py-2.5 text-sm font-semibold text-black"
+              >
+                Guía detallada de {country.country} con precios
+                <ArrowRight className="h-3 w-3 transition-transform group-hover:translate-x-1 rtl:rotate-180" />
+              </Link>
+            )}
           </section>
         ))}
       </div>
