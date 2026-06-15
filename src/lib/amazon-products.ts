@@ -720,8 +720,9 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
   },
   {
     id: 40,
-    title: 'Panini Mundial 2026 caja 50 sobres × 5 cromos',
-    asin: 'PANINI-WC2026-BOX',
+    title: 'Panini FIFA World Cup 2026 Colección Oficial Cromos Caja 50 sobres',
+    asin: 'B0G5QV5YLB',
+    verified: true,
     category: 'juguetes',
     commission: 7,
     priceMin: 50,
