@@ -125,6 +125,34 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'partidos-mundial-2026-hoy-2026-06-15',
+    title: "Partidos del Mundial 2026 hoy, Lunes 15 de junio: España juega, horarios (hora España) y dónde ver",
+    summary: "Calendario de los 4 partidos del Mundial 2026 de hoy, lunes 15 de junio: horarios en hora española, sedes y dónde verlos en TV. Destaca el España - Cabo Verde.",
+    body: `Día grande para el aficionado español: **España se mide a Cabo Verde** dentro de la jornada de hoy, lunes 15 de junio, en el Mundial 2026. En total se disputan **4 partidos**, con sus horarios en hora española y dónde verlos.
+
+## Partidos de hoy en el Mundial 2026 (hora de España)
+
+- **[Costa de Marfil - Ecuador](/2026/partido/costa-de-marfil-ecuador)** — 01:00 h · Grupo E · Lincoln Financial Field (Philadelphia).
+- **[Suecia - Túnez](/2026/partido/suecia-tunez)** — 04:00 h · Grupo F · Estadio BBVA (Monterrey).
+- **[España - Cabo Verde](/2026/partido/espana-cabo-verde)** — 18:00 h · Grupo H · Mercedes-Benz Stadium (Atlanta).
+- **[Bélgica - Egipto](/2026/partido/belgica-egipto)** — 21:00 h · Grupo G · Lumen Field (Seattle).
+
+Todos los horarios están convertidos a **hora peninsular española**. Puedes ver la jornada al completo, con resultados en directo, en la página de [partidos de hoy](/2026/partidos-hoy) y en el [calendario del Mundial](/2026/calendario).
+
+## El partido destacado del día
+
+De todo el cartel, el **España - Cabo Verde** es el duelo más llamativo de la jornada y el que más expectación levanta entre los aficionados. Sigue la clasificación y los grupos actualizados en [grupos y clasificación](/2026/grupos).
+
+## Dónde ver los partidos de hoy
+
+En España, el Mundial 2026 se ve en **DAZN**, con todos los partidos disponibles de la forma más cómoda a través de **Movistar Plus+ vía DAZN** (los 104 encuentros en un mismo sitio). Algunos partidos seleccionados se emiten además en abierto en **RTVE**. Tienes el desglose completo de plataformas y precios en [dónde ver el Mundial 2026](/2026/donde-ver).`,
+    category: 'tv',
+    sourceName: "Mundiales de Fútbol",
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-15T06:30:00Z',
+  },
+  {
     slug: 'partidos-mundial-2026-hoy-2026-06-14',
     title: "Partidos del Mundial 2026 hoy, Domingo 14 de junio: horarios (hora España), sedes y dónde ver",
     summary: "Calendario de los 5 partidos del Mundial 2026 de hoy, domingo 14 de junio: horarios en hora española, sedes y dónde verlos en TV. Destaca el Brasil - Marruecos.",
