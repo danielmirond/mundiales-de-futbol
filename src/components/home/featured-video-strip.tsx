@@ -18,13 +18,13 @@ import { FeaturedVideo } from '@/components/shared/featured-video';
  */
 
 const CURRENT_FEATURED = {
-  videoId: '982yoXq6Mgk',
-  title: 'Luis de la Fuente anuncia la lista de España para el Mundial 2026',
+  videoId: '9YbJ-i-EBt8',
+  title: 'La lista oficial de España para el Mundial 2026: los 26 convocados',
   description:
     'Rueda de prensa íntegra desde el Espacio Movistar de Gran Vía 28, Madrid. El seleccionador desvela los 26 jugadores convocados, los amistosos pre-Mundial contra Irak (4 jun, Riazor) y Perú (8 jun, Puebla) y la composición táctica del equipo para el debut del 15 de junio contra Cabo Verde en el Mercedes-Benz Stadium de Atlanta.',
   uploadDate: '2026-05-25T10:30:00Z',
   durationSeconds: 3600,
-  badge: 'Anuncio oficial · 25 may 2026',
+  badge: 'Lista oficial · España 2026',
 };
 
 export function FeaturedVideoStrip() {

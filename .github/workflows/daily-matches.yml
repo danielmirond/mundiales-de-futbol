@@ -1,0 +1,61 @@
+name: Pieza diaria de partidos (determinista)
+
+on:
+  schedule:
+    # 05:10 UTC todos los días (07:10 ES). Antes del research/news-bot.
+    - cron: '10 5 * * *'
+  workflow_dispatch:
+    inputs:
+      dry:
+        description: 'Dry-run (no escribe ni commitea)'
+        required: false
+        default: 'false'
+        type: choice
+        options:
+          - 'false'
+          - 'true'
+
+permissions:
+  contents: write
+
+jobs:
+  daily-matches:
+    name: Avance de los partidos del día
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          persist-credentials: true
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install
+        run: npm ci
+
+      - name: Generar pieza del día
+        env:
+          DAILY_DRY: ${{ github.event.inputs.dry == 'true' && '1' || '' }}
+        run: npx tsx scripts/daily-matches/build.ts
+
+      - name: Commit y push si hay cambios
+        if: ${{ github.event.inputs.dry != 'true' }}
+        run: |
+          set -e
+          if git diff --quiet src/lib/news.ts; then
+            echo "Sin cambios — no se publica nada (o ya existía la pieza del día)."
+            exit 0
+          fi
+          DATE=$(date -u +%F)
+          git config user.name "daily-matches-bot"
+          git config user.email "daily-matches-bot@users.noreply.github.com"
+          git add src/lib/news.ts
+          git commit -m "auto(partidos): avance de los partidos del día ${DATE}"
+          git push origin HEAD:main

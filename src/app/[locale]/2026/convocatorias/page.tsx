@@ -9,9 +9,12 @@ import {
   AlertTriangle,
   CheckCircle2,
   FileText,
+  Newspaper,
 } from 'lucide-react';
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl, SEO } from '@/lib/seo';
+import { SQUADS_2026 } from '@/lib/wc-2026-squads';
+import { NEWS_ITEMS } from '@/lib/news';
 
 function withLocale(locale: Locale, href: string) {
   if (locale === routing.defaultLocale) return href;
@@ -427,32 +430,153 @@ export default async function Convocatorias2026({
         </div>
       </section>
 
+      {/* ── Grid dinámico 48 selecciones ─────────────────────────────── */}
       <section className="mx-auto mt-20 w-full max-w-[1100px] px-6 md:px-10">
         <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-pitch)]">
-          {c.fedKicker}
+          <Users className="inline h-3 w-3 mr-2" />
+          {locale === 'en' ? 'All 48 squads' : 'Las 48 convocatorias'}
         </div>
         <h2 className="mt-3 font-display text-3xl uppercase leading-[1] md:text-4xl">
-          {c.fedH2}
+          {locale === 'en' ? 'Status by nation' : 'Estado por selección'}
         </h2>
-        <p className="mt-6 max-w-3xl text-base text-[var(--color-fg-muted)]">
-          {c.fedIntro}
+        <p className="mt-4 max-w-3xl text-sm text-[var(--color-fg-muted)]">
+          {locale === 'en'
+            ? 'Click any nation to see the full 26-player list, coach, captain and first match.'
+            : 'Haz clic en cualquier selección para ver la lista de 26, seleccionador, capitán y primer partido.'}
         </p>
 
-        <ul className="mt-10 grid gap-4 md:grid-cols-2">
-          {c.fed.map((f) => (
-            <li
-              key={f.code}
-              className="flex items-start gap-4 rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg-2)] p-5"
-            >
-              <span aria-hidden className="text-3xl">{f.flag}</span>
-              <div className="flex-1">
-                <div className="font-display text-xl uppercase leading-none text-[var(--color-fg)]">{f.name}</div>
-                <p className="mt-2 text-sm text-[var(--color-fg-muted)]">{f.expected}</p>
-              </div>
-            </li>
-          ))}
+        {/* Legend */}
+        <div className="mt-6 flex flex-wrap gap-4 font-mono text-[10px] uppercase tracking-[0.25em]">
+          <span className="flex items-center gap-1.5 text-emerald-400">
+            <span className="h-2 w-2 rounded-full bg-emerald-400 inline-block" />
+            {locale === 'en' ? 'Final' : 'Oficial'}
+          </span>
+          <span className="flex items-center gap-1.5 text-amber-400">
+            <span className="h-2 w-2 rounded-full bg-amber-400 inline-block" />
+            {locale === 'en' ? 'Provisional' : 'Provisional'}
+          </span>
+          <span className="flex items-center gap-1.5 text-[var(--color-fg-subtle)]">
+            <span className="h-2 w-2 rounded-full bg-[var(--color-border-strong)] inline-block" />
+            {locale === 'en' ? 'Pending' : 'Pendiente'}
+          </span>
+        </div>
+
+        <ul className="mt-8 grid gap-px overflow-hidden rounded-2xl border border-[var(--color-border)] bg-[var(--color-border)] sm:grid-cols-2 lg:grid-cols-3">
+          {SQUADS_2026.map((squad) => {
+            const statusColor =
+              squad.status === 'final'
+                ? 'text-emerald-400'
+                : squad.status === 'provisional'
+                ? 'text-amber-400'
+                : 'text-[var(--color-fg-subtle)]';
+            const statusDot =
+              squad.status === 'final'
+                ? 'bg-emerald-400'
+                : squad.status === 'provisional'
+                ? 'bg-amber-400'
+                : 'bg-[var(--color-border-strong)]';
+            const statusLabel =
+              squad.status === 'final'
+                ? locale === 'en' ? 'Final' : 'Oficial'
+                : squad.status === 'provisional'
+                ? locale === 'en' ? 'Provisional' : 'Provisional'
+                : locale === 'en' ? 'Pending' : 'Pendiente';
+            const playerCount = squad.players.length;
+            return (
+              <li key={squad.teamCode} className="bg-[var(--color-bg)]">
+                <Link
+                  href={withLocale(locale as Locale, `/2026/listas/${squad.teamCode}`)}
+                  className="group flex items-center gap-4 p-4 transition-colors hover:bg-[var(--color-bg-2)]"
+                >
+                  <div className="flex-1 min-w-0">
+                    <div className="flex items-center gap-2">
+                      <span
+                        className={`h-1.5 w-1.5 rounded-full flex-none ${statusDot}`}
+                      />
+                      <span className="font-mono text-[11px] font-bold tracking-wider text-[var(--color-fg)]">
+                        {squad.teamCode}
+                      </span>
+                      {squad.coach && (
+                        <span className="truncate text-[11px] text-[var(--color-fg-muted)]">
+                          · {squad.coach}
+                        </span>
+                      )}
+                    </div>
+                    <div className="mt-1 flex items-center gap-3">
+                      <span className={`font-mono text-[9px] uppercase tracking-[0.2em] ${statusColor}`}>
+                        {statusLabel}
+                      </span>
+                      {playerCount > 0 && (
+                        <span className="font-mono text-[9px] text-[var(--color-fg-subtle)]">
+                          {playerCount}/26 {locale === 'en' ? 'players' : 'jugadores'}
+                        </span>
+                      )}
+                    </div>
+                  </div>
+                  <ArrowRight className="h-3 w-3 flex-none text-[var(--color-fg-subtle)] transition-transform group-hover:translate-x-1 group-hover:text-[var(--color-pitch)]" />
+                </Link>
+              </li>
+            );
+          })}
         </ul>
+
+        {/* Stats bar */}
+        {(() => {
+          const final = SQUADS_2026.filter((s) => s.status === 'final').length;
+          const provisional = SQUADS_2026.filter((s) => s.status === 'provisional').length;
+          const pending = SQUADS_2026.filter((s) => s.status === 'pending').length;
+          return (
+            <div className="mt-6 flex flex-wrap gap-6 font-mono text-[11px] text-[var(--color-fg-muted)]">
+              <span className="text-emerald-400 font-semibold">{final} {locale === 'en' ? 'official' : 'oficiales'}</span>
+              <span className="text-amber-400 font-semibold">{provisional} {locale === 'en' ? 'provisional' : 'provisionales'}</span>
+              <span>{pending} {locale === 'en' ? 'pending' : 'pendientes'}</span>
+              <span>· {locale === 'en' ? 'Last updated' : 'Actualizado'} 2 jun 2026</span>
+            </div>
+          );
+        })()}
       </section>
+
+      {/* ── Noticias de convocatorias ─────────────────────────────────── */}
+      {(() => {
+        const convNoticias = NEWS_ITEMS
+          .filter((n) => n.category === 'convocatorias')
+          .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt))
+          .slice(0, 12);
+        if (!convNoticias.length) return null;
+        return (
+          <section className="mx-auto mt-20 w-full max-w-[1100px] px-6 md:px-10">
+            <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-pitch)]">
+              <Newspaper className="inline h-3 w-3 mr-2" />
+              {locale === 'en' ? 'Latest squad news' : 'Últimas noticias de convocatorias'}
+            </div>
+            <h2 className="mt-3 font-display text-3xl uppercase leading-[1] md:text-4xl">
+              {locale === 'en' ? 'Squad announcements' : 'Anuncios de convocatorias'}
+            </h2>
+            <ul className="mt-8 grid gap-px overflow-hidden rounded-2xl border border-[var(--color-border)] bg-[var(--color-border)] sm:grid-cols-2 lg:grid-cols-3">
+              {convNoticias.map((n) => (
+                <li key={n.slug} className="bg-[var(--color-bg)]">
+                  <Link
+                    href={withLocale(locale as Locale, `/noticias/${n.slug}`)}
+                    className="group flex h-full flex-col gap-2 p-5 transition-colors hover:bg-[var(--color-bg-2)]"
+                  >
+                    <span className="font-mono text-[9px] uppercase tracking-[0.2em] text-[var(--color-fg-subtle)]">
+                      {new Date(n.publishedAt).toLocaleDateString(locale === 'es' ? 'es-ES' : 'en-US', {
+                        day: 'numeric', month: 'short', year: 'numeric',
+                      })}
+                    </span>
+                    <span className="text-sm font-semibold leading-snug text-[var(--color-fg)] group-hover:text-[var(--color-pitch)] transition-colors line-clamp-2">
+                      {n.title}
+                    </span>
+                    <span className="mt-auto font-mono text-[9px] uppercase tracking-[0.2em] text-[var(--color-fg-subtle)] group-hover:text-[var(--color-pitch)] transition-colors">
+                      {locale === 'en' ? 'Read →' : 'Leer →'}
+                    </span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        );
+      })()}
 
       <section className="mx-auto mt-20 w-full max-w-[900px] px-6 md:px-10">
         <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-pitch)]">

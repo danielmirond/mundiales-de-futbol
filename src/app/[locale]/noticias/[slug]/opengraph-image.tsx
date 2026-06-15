@@ -35,7 +35,12 @@ const CATEGORY_LABEL: Record<NewsCategory, string> = {
   polemica: 'Polémica',
   tv: 'TV / Streaming',
   patrocinios: 'Patrocinios',
+  amistosos: 'Amistosos',
+  lesiones: 'Lesiones',
+  tecnico: 'Cuerpo técnico',
   general: 'General',
+  historica: 'Historia',
+  curiosa: 'Curiosidades',
 };
 
 // Gradient por categoría. Mantiene marca pero diferencia visualmente
@@ -51,7 +56,12 @@ const CATEGORY_GRADIENT: Record<NewsCategory, string> = {
   polemica: 'linear-gradient(135deg, #ef4444 0%, #f59e0b 100%)',
   tv: 'linear-gradient(135deg, #1a8cdf 0%, #c084fc 100%)',
   patrocinios: 'linear-gradient(135deg, #f59e0b 0%, #4ede80 100%)',
+  amistosos: 'linear-gradient(135deg, #1a8cdf 0%, #4ede80 100%)',
+  lesiones: 'linear-gradient(135deg, #ef4444 0%, #c084fc 100%)',
+  tecnico: 'linear-gradient(135deg, #06b6d4 0%, #1a8cdf 100%)',
   general: 'linear-gradient(135deg, #4ede80 0%, #1a8cdf 100%)',
+  historica: 'linear-gradient(135deg, #a16207 0%, #d97706 100%)',
+  curiosa: 'linear-gradient(135deg, #7c3aed 0%, #c084fc 100%)',
 };
 
 function formatDateEs(iso: string): string {

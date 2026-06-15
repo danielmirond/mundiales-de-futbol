@@ -21,6 +21,7 @@ import {
   youtubeThumbnailUrl,
 } from '@/lib/wc-famous-goals';
 import { TEAMS_2026 } from '@/lib/wc-2026';
+import { Squad2026Section } from '@/components/team/squad-2026';
 
 function withLocale(locale: Locale, href: string) {
   if (locale === routing.defaultLocale) return href;
@@ -287,6 +288,9 @@ export default async function SelectionDetailPage({
           <Stat label="Goles" value={`${unified.goals_for}/${unified.goals_against}`} small />
         </div>
       </section>
+
+      {/* ── CONVOCATORIA MUNDIAL 2026 — grupo, primer partido, lista de 26 ── */}
+      <Squad2026Section teamCode={team.code} locale={locale as Locale} />
 
       {/* Camiseta y equipación · Mundial 2026 (marca técnica oficial) */}
       <TeamKitShop

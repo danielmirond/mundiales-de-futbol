@@ -125,6 +125,102 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'partidos-mundial-2026-hoy-2026-06-14',
+    title: "Partidos del Mundial 2026 hoy, Domingo 14 de junio: horarios (hora España), sedes y dónde ver",
+    summary: "Calendario de los 5 partidos del Mundial 2026 de hoy, domingo 14 de junio: horarios en hora española, sedes y dónde verlos en TV. Destaca el Brasil - Marruecos.",
+    body: `El Mundial 2026 vive hoy, domingo 14 de junio, una jornada de **5 partidos**. Te dejamos todos los horarios en hora española, las sedes y dónde seguirlos, con el foco puesto en el **Brasil - Marruecos**.
+
+## Partidos de hoy en el Mundial 2026 (hora de España)
+
+- **[Brasil - Marruecos](/2026/partido/brasil-marruecos)** — 00:00 h · Grupo C · MetLife Stadium (East Rutherford).
+- **[Haití - Escocia](/2026/partido/haiti-escocia)** — 03:00 h · Grupo C · Gillette Stadium (Foxborough).
+- **[Australia - Turquía](/2026/partido/australia-turquia)** — 06:00 h · Grupo D · BC Place (Vancouver).
+- **[Alemania - Curazao](/2026/partido/alemania-curazao)** — 19:00 h · Grupo E · NRG Stadium (Houston).
+- **[Países Bajos - Japón](/2026/partido/paises-bajos-japon)** — 22:00 h · Grupo F · AT&T Stadium (Arlington).
+
+Todos los horarios están convertidos a **hora peninsular española**. Puedes ver la jornada al completo, con resultados en directo, en la página de [partidos de hoy](/2026/partidos-hoy) y en el [calendario del Mundial](/2026/calendario).
+
+## El partido destacado del día
+
+De todo el cartel, el **Brasil - Marruecos** es el duelo más llamativo de la jornada y el que más expectación levanta entre los aficionados. Sigue la clasificación y los grupos actualizados en [grupos y clasificación](/2026/grupos).
+
+## Dónde ver los partidos de hoy
+
+En España, el Mundial 2026 se ve en **DAZN**, con todos los partidos disponibles de la forma más cómoda a través de **Movistar Plus+ vía DAZN** (los 104 encuentros en un mismo sitio). Algunos partidos seleccionados se emiten además en abierto en **RTVE**. Tienes el desglose completo de plataformas y precios en [dónde ver el Mundial 2026](/2026/donde-ver).`,
+    category: 'tv',
+    sourceName: "Mundiales de Fútbol",
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-14T06:30:00Z',
+  },
+  {
+    slug: 'que-es-curazao-donde-esta-por-que-juega-mundial-2026',
+    title: 'Qué es Curazao, dónde está y por qué juega el Mundial 2026: la sorpresa que se estrena ante Alemania',
+    summary: 'El debut mundialista de Curazao ha disparado en España la pregunta "dónde está Curazao". Es una isla del Caribe, país del Reino de los Países Bajos, con apenas 155.000 habitantes: la nación menos poblada de la historia en llegar a un Mundial. Te contamos qué es, quiénes son sus jugadores y cómo verla en TV.',
+    body: `Si esta semana has tecleado "dónde está Curazao" en Google, no eres el único: el debut mundialista de la isla caribeña ha disparado la curiosidad en España. Curazao se estrena ante **Alemania** y, antes del pitido inicial, conviene saber quién es este rival diminuto que se ha colado entre las grandes sorpresas del torneo.
+
+## ¿Dónde está Curazao?
+
+Curazao es una isla del **mar Caribe**, a apenas 65 kilómetros de la costa de **Venezuela**. Forma parte del **Reino de los Países Bajos** como país constituyente —estatus que tiene desde 2010—, con gobierno propio pero bajo la corona neerlandesa. Su capital es **Willemstad**, cuyo casco histórico de fachadas de colores es Patrimonio de la Humanidad de la Unesco.
+
+## Un país de 155.000 habitantes en un Mundial
+
+Aquí está el dato que ha vuelto viral a Curazao: con unos **155.000 habitantes**, se convierte en **la nación menos poblada de la historia en clasificarse para un Mundial masculino**, por debajo del récord que tenía Islandia en 2018. Para hacerse una idea, cabe entera en un barrio grande de cualquier capital europea.
+
+En la isla se habla **papiamento** —una lengua criolla propia—, además de **neerlandés**, y el español y el inglés circulan con naturalidad por su pasado comercial y su cercanía a Sudamérica.
+
+## ¿Quiénes son los jugadores de Curazao?
+
+La selección no se nutre tanto de futbolistas criados en la isla como de jugadores **nacidos o formados en los Países Bajos** con raíces curazoleñas, que militan en ligas europeas. Por ahí asoman nombres como los hermanos **Bacuna**, **Tahith Chong** o **Jürgen Locadia**. Al frente del proyecto ha estado el veterano técnico neerlandés **Dick Advocaat**, que cerca de los 78 años firma una de las clasificaciones más improbables del fútbol reciente.
+
+## Curazao en el Mundial 2026: grupo y debut
+
+Curazao llega por la vía de la **Concacaf** y cayó en el **Grupo E**, uno de los más exigentes, junto a **Alemania**, **Ecuador** y **Costa de Marfil**. Su estreno es el plato fuerte: [Alemania-Curazao](/2026/partido/alemania-curazao), un duelo de máximos contrastes entre una tetracampeona del mundo y una debutante absoluta. Puedes seguir todo el grupo en el [calendario del Mundial](/2026/calendario) y consultar la ficha de [Curazao](/selecciones/CUW).
+
+## Dónde ver a Curazao en TV
+
+En España, los partidos de Curazao se ven en **DAZN**, de la forma más cómoda con **Movistar Plus+ vía DAZN**, que reúne los 104 partidos del torneo. El detalle de paquetes y opciones en abierto lo tienes en [dónde ver el Mundial 2026](/2026/donde-ver).
+
+Más allá del resultado ante Alemania —que parte como clarísima favorita—, la sola presencia de Curazao ya es una de las grandes historias de este Mundial: la prueba de que el fútbol todavía guarda sitio para los pequeños.`,
+    category: 'curiosa',
+    sourceName: 'Mundiales de Fútbol',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-14T11:00:00Z',
+  },
+  {
+    slug: 'cuantos-mundiales-tiene-cada-seleccion',
+    title: 'Cuántos mundiales tiene cada selección: el palmarés histórico del Mundial (Brasil, Alemania, Italia, Argentina...)',
+    summary: 'Solo ocho selecciones han ganado el Mundial desde 1930. Brasil manda con 5 títulos, por delante de Alemania e Italia (4), Argentina (3), Francia y Uruguay (2), e Inglaterra y España (1). Repasamos el palmarés completo antes del Mundial 2026.',
+    body: `Cada vez que arranca un Mundial vuelve la misma pregunta: ¿cuántos lo ha ganado cada selección? Solo **ocho países** han levantado la Copa del Mundo masculina desde 1930, y el reparto dice mucho de la historia del fútbol. Este es el palmarés completo antes del Mundial 2026.
+
+## El palmarés del Mundial, título a título
+
+- **Brasil — 5 títulos** (1958, 1962, 1970, 1994, 2002). La única selección que ha disputado todas las fases finales y la más laureada.
+- **Alemania — 4 títulos** (1954, 1974, 1990, 2014). Regularidad de hierro: cuatro estrellas y una colección interminable de finales.
+- **Italia — 4 títulos** (1934, 1938, 1982, 2006). Gran dominadora de la primera mitad de siglo… aunque se quedó fuera de 2026.
+- **Argentina — 3 títulos** (1978, 1986, 2022). La de Qatar, con Messi, devolvió a la Albiceleste a lo más alto.
+- **Francia — 2 títulos** (1998, 2018). La gran potencia del fútbol moderno, también finalista en 2022.
+- **Uruguay — 2 títulos** (1930, 1950). Campeón del primer Mundial y autor del histórico "Maracanazo".
+- **Inglaterra — 1 título** (1966). Su única estrella, lograda en casa.
+- **España — 1 título** (2010). Sudáfrica, gol de Iniesta y la única para la Roja.
+
+## Brasil, el rey; Europa, el continente dominador
+
+Sumando todo, **Europa acumula 12 Mundiales** (Alemania, Italia, Francia, Inglaterra y España) frente a los **10 de Sudamérica** (Brasil, Argentina y Uruguay). Ninguna selección de África, Asia, Concacaf u Oceanía lo ha ganado nunca, aunque el formato ampliado a 48 equipos en 2026 abre el torneo como jamás había estado.
+
+## Las favoritas del Mundial 2026
+
+Con Italia fuera, el palmarés se concentra en las habituales: **Brasil**, **Argentina**, **Francia**, **Alemania** y **España** llegan entre las candidatas a ampliar su cuenta. Puedes repasar todos los cruces en el [calendario del Mundial](/2026/calendario) y los [grupos del Mundial 2026](/2026/grupos).
+
+Un apunte para cerrar: ningún anfitrión fuera de Europa o Sudamérica ha ganado jamás un Mundial. En 2026, con **Estados Unidos**, **México** y **Canadá** como sedes, esa estadística tiene por primera vez una vacante esperando.`,
+    category: 'historica',
+    sourceName: 'Mundiales de Fútbol',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-14T09:00:00Z',
+  },
+  {
     slug: 'cuando-juega-colombia-mundial-2026-horarios-donde-ver-tv',
     title: 'Cuándo juega Colombia en el Mundial 2026: horarios, cómo y dónde ver en TV a la selección de Néstor Lorenzo',
     summary: 'Colombia, una de las selecciones de moda con James y Luis Díaz, está en el Grupo K con Uzbekistán, RD del Congo y Portugal. Sus partidos son de madrugada para España. Aquí tienes los horarios en hora española y cómo ver a la Tricolor en TV, en DAZN vía Movistar Plus+.',
