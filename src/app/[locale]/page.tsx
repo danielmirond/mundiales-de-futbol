@@ -20,7 +20,7 @@ export const revalidate = 0;
 // Metadata por idioma. Child components ya usan useTranslations('home').
 const META: Record<string, { title: string; description: string; keywords: string[] }> = {
   es: {
-    title: 'Mundial 2026 en vivo | Calendario, partidos, resultados y noticias',
+    title: 'Copa Mundial de la FIFA 2026 en vivo | Calendario, partidos, clasificación, grupos y última hora',
     description:
       'Sigue el Mundial 2026 en directo: calendario completo, partidos del día, resultados, los 12 grupos, dónde ver en TV y todas las noticias. Toda la actualidad del Mundial de México, EE. UU. y Canadá.',
     keywords: [
@@ -30,6 +30,8 @@ const META: Record<string, { title: string; description: string; keywords: strin
       'partidos Mundial 2026',
       'resultados Mundial 2026',
       'grupos Mundial 2026',
+      'clasificación Mundial 2026',
+      'Copa Mundial de la FIFA 2026',
       'dónde ver Mundial 2026',
       'noticias Mundial 2026',
       'Copa del Mundo 2026',
