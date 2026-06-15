@@ -125,6 +125,35 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'quien-es-vozinha-portero-cabo-verde-mundial-2026',
+    title: 'Quién es Vozinha, el portero de 40 años de Cabo Verde que dejó a cero a España en el Mundial 2026',
+    summary: 'Vozinha, guardameta de 40 años del Chaves de la Segunda División portuguesa, fue el gran héroe del 0-0 de Cabo Verde ante España. Te contamos quién es: su nombre real, la curiosa historia de su apodo (su padre quería llamarlo "Valdano"), su carrera de trotamundos y por qué su actuación es histórica.',
+    body: `Si una selección saca un empate de oro ante una de las favoritas al Mundial, suele haber un portero gigante detrás. En el **0-0 de Cabo Verde frente a España** ese hombre tuvo nombre propio: **Vozinha**, un guardameta de **40 años** que milita en la Segunda División de Portugal y que se ha convertido en el rostro de la gran sorpresa de la jornada.
+
+## ¿Quién es Vozinha?
+
+Su nombre real es **Josimar Dias**, aunque todo el mundo lo conoce por **Vozinha**. Nació el **3 de junio de 1986 en Mindelo** (Cabo Verde), mide 1,89 metros y defiende la portería del **GD Chaves**, en la **Segunda División de Portugal**. Lo más llamativo: cumplió **40 años apenas doce días antes** de disputar el primer partido mundialista de la historia de su país.
+
+## La curiosa historia de su apodo: el "Valdano" que no pudo ser
+
+Hay una anécdota deliciosa detrás de su sobrenombre. Según ESPN, su padre quería inscribirlo como **"Valdano"**, en honor al delantero y entrenador argentino **Jorge Valdano**, campeón del mundo en 1986. Las autoridades no lo permitieron, así que se quedó con Josimar… y fueron sus abuelos quienes le colgaron el cariñoso apodo de **Vozinha**, con el que ha hecho carrera.
+
+## Un trotamundos con casi 90 internacionalidades
+
+Vozinha es la definición de futbolista viajero. Su carrera lo ha llevado de Cabo Verde a **Angola**, **Moldavia** (Zimbru), **Portugal** (Gil Vicente y, ahora, Chaves), **Chipre** (AEL Limassol, donde levantó el único título grande de su carrera) y **Eslovaquia** (Trenčín). Con cerca de **90 partidos**, es uno de los jugadores con más internacionalidades en la historia de Cabo Verde y fue **capitán** durante la fase de clasificación que metió a los Tiburones Azules en su primer Mundial.
+
+## El muro ante España: 40 años y una noche histórica
+
+A una edad en la que casi todos sus compañeros de generación se han retirado, Vozinha se plantó ante el ataque de España y mantuvo su portería **a cero**, firmando uno de los grandes resultados de la corta historia futbolística de Cabo Verde. Con 40 años cumplidos, entra además en el selecto grupo de futbolistas que disputan un Mundial pasada esa frontera. Una historia de perseverancia que da sentido a eso de que el fútbol no entiende de favoritos.
+
+Su gesta fue, precisamente, la que dejó a la Roja sin premio: puedes leer [la crónica del España 0-0 Cabo Verde](/noticias/espana-cabo-verde-0-0-resultado-mundial-2026), consultar la ficha de [Cabo Verde](/selecciones/CPV) y seguir el [Grupo H](/2026/grupos) del Mundial 2026.`,
+    category: 'jugadores',
+    sourceName: 'Mundiales de Fútbol',
+    sourceUrl: 'https://es.wikipedia.org/wiki/Vozinha',
+    sourceLang: 'es',
+    publishedAt: '2026-06-15T20:00:00Z',
+  },
+  {
     slug: 'espana-cabo-verde-0-0-resultado-mundial-2026',
     title: 'España 0-0 Cabo Verde: la Roja pincha en su debut del Mundial 2026 (resultado y próximo partido)',
     summary: 'España no pasó del 0-0 ante Cabo Verde en su estreno en el Mundial 2026. La Roja suma su primer punto en el Grupo H, a la espera de Arabia Saudí-Uruguay. El próximo partido de España es el 21 de junio ante Arabia Saudí. Resultado, cómo queda el grupo y el precedente de 2010, que invita a la calma.',
