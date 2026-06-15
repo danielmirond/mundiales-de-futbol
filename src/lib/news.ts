@@ -125,6 +125,39 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'espana-cabo-verde-0-0-resultado-mundial-2026',
+    title: 'España 0-0 Cabo Verde: la Roja pincha en su debut del Mundial 2026 (resultado y próximo partido)',
+    summary: 'España no pasó del 0-0 ante Cabo Verde en su estreno en el Mundial 2026. La Roja suma su primer punto en el Grupo H, a la espera de Arabia Saudí-Uruguay. El próximo partido de España es el 21 de junio ante Arabia Saudí. Resultado, cómo queda el grupo y el precedente de 2010, que invita a la calma.',
+    body: `**España no pasó del 0-0 ante Cabo Verde** en su estreno en el Mundial 2026, un resultado que sabe a poco para la favorita del Grupo H y que deja un primer aviso: en este torneo no hay rival pequeño.
+
+## Un debut frío en Atlanta
+
+En el Mercedes-Benz Stadium de Atlanta, la Roja dominó el balón pero chocó una y otra vez contra un **Cabo Verde** ordenado, replegado y sin ningún complejo. A España le faltó profundidad, ritmo y, sobre todo, acierto en el último pase para romper a una defensa que protegió su área con disciplina. El 0-0 final refleja la frustración de un equipo que generó más, pero que nunca encontró el camino del gol.
+
+## Cómo queda el Grupo H
+
+Con el empate, **España suma su primer punto** y comparte provisionalmente la parte alta del **Grupo H** con Cabo Verde, a la espera de lo que hagan esta noche **Arabia Saudí y Uruguay**, que cierran la primera jornada del grupo. Nada está decidido: el grupo se presenta más abierto de lo que se esperaba. Sigue la clasificación actualizada en el [Grupo H de España](/selecciones/ESP/grupo-h) y en [grupos y clasificación](/2026/grupos).
+
+## Cuándo juega España el próximo partido
+
+La Roja tendrá pronto la oportunidad de resarcirse. El **próximo partido de España es ante Arabia Saudí**, el [domingo 21 de junio a las 18:00 h](/2026/partido/espana-arabia-saudi) (hora española), de nuevo en Atlanta. El grupo se cerrará el **26 de junio frente a Uruguay**. Tienes todas las fechas en el [calendario del Mundial](/2026/calendario) y en la ficha de [España](/selecciones/ESP).
+
+## El precedente de 2010 invita a la calma
+
+Antes de encender las alarmas, conviene recordar la historia: **en el Mundial de 2010, España perdió su primer partido** (0-1 ante Suiza) y, semanas después, levantó por primera y única vez la Copa del Mundo. Un tropiezo inicial —y un empate es menos que una derrota— no condena a nadie. La España de 2026 tiene margen y plantilla para reaccionar, igual que hizo aquella generación dorada.
+
+## Dónde ver a España en el Mundial 2026
+
+Los partidos de España se ven en **DAZN**, de la forma más cómoda con **Movistar Plus+ vía DAZN**, que reúne los 104 encuentros del torneo. Algunos choques seleccionados se emiten además en abierto en **RTVE**. Tienes el detalle en [dónde ver el Mundial 2026](/2026/donde-ver).
+
+El 0-0 no es el estreno soñado, pero el Mundial no ha hecho más que empezar: a España le quedan dos finales en su grupo y un precedente histórico que invita a no perder la fe.`,
+    category: 'general',
+    sourceName: 'Mundiales de Fútbol',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-15T19:30:00Z',
+  },
+  {
     slug: 'partidos-mundial-2026-hoy-2026-06-15',
     title: "Partidos del Mundial 2026 hoy, Lunes 15 de junio: España juega, horarios (hora España) y dónde ver",
     summary: "Calendario de los 4 partidos del Mundial 2026 de hoy, lunes 15 de junio: horarios en hora española, sedes y dónde verlos en TV. Destaca el España - Cabo Verde.",
