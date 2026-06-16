@@ -125,6 +125,41 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'cuando-juega-argentina-hoy-argelia-mundial-2026',
+    title: 'A qué hora juega Argentina hoy y contra quién: Argentina-Argelia, el debut de la Scaloneta en el Mundial 2026',
+    summary: 'Argentina, la campeona del mundo, debuta en el Mundial 2026 ante Argelia. El partido es hoy a las 22:00 (hora de Argentina) / 03:00 de la madrugada del 17 en España, en el Arrowhead Stadium de Kansas City. Horario, rival, el Grupo J, los próximos partidos de la Albiceleste y dónde verlo.',
+    body: `La defensa del título arranca. **Argentina**, campeona del mundo en Catar 2022, **debuta en el Mundial 2026 ante Argelia**, y medio continente busca lo mismo: a qué hora juega la Scaloneta y contra quién. Aquí lo tienes todo.
+
+## A qué hora juega Argentina hoy
+
+El **Argentina-Argelia** se disputa **hoy a las 22:00 (hora de Argentina)**, lo que equivale a las **03:00 de la madrugada del 17 de junio en España** (hora peninsular). El escenario es el **Arrowhead Stadium de Kansas City**. Es el partido que abre el camino de la Albiceleste de Lionel Scaloni y Lionel Messi en el torneo.
+
+## Contra quién juega y el Grupo J
+
+Argentina arranca ante **Argelia**, selección africana con buen pie y a la que no conviene subestimar —ya lo avisó el 0-0 de España ante Cabo Verde: en este Mundial no hay rivales fáciles—. La campeona está encuadrada en el **Grupo J** junto a Argelia, **Austria** y **Jordania**, un grupo asequible sobre el papel pero con trampas.
+
+## Próximos partidos de Argentina
+
+Estos son los tres partidos de Argentina en la fase de grupos:
+
+- **Argentina - Argelia** — hoy, 22:00 (ARG) / 03:00 (ESP) · Arrowhead Stadium, Kansas City.
+- **Argentina - Austria** — 22 de junio · AT&T Stadium, Arlington.
+- **Jordania - Argentina** — 27 de junio · AT&T Stadium, Arlington.
+
+Puedes seguir la ficha del debut en [Argentina-Argelia](/2026/partido/argentina-argelia), la clasificación en [grupos y clasificación](/2026/grupos) y todas las fechas en el [calendario del Mundial](/2026/calendario).
+
+## Dónde ver Argentina-Argelia
+
+En **Argentina**, los partidos de la selección se siguen, como es habitual en los Mundiales, por **televisión abierta** y por **cable (DSports)**. En **España**, el torneo se ve en **DAZN**, de la forma más cómoda con **Movistar Plus+ vía DAZN** (los 104 partidos), con algunos encuentros en abierto en **RTVE**; tienes el detalle en [dónde ver el Mundial 2026](/2026/donde-ver).
+
+La Argentina de Messi quiere empezar con paso firme la defensa de la corona. El estreno, esta noche, ante Argelia. Repasa a la campeona en la ficha de [Argentina](/selecciones/ARG).`,
+    category: 'tv',
+    sourceName: 'Mundiales de Fútbol',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-16T14:00:00Z',
+  },
+  {
     slug: 'camiseta-francia-jacquemus-nike-mundial-2026',
     title: 'La camiseta de Francia diseñada por Jacquemus: qué es, qué incluye y cuánto cuesta la colección viral del Mundial 2026',
     summary: 'La gran sensación de la previa del Mundial 2026 no es un gol, es una camiseta: la colección que el diseñador Jacquemus ha creado con Nike para la selección de Francia. Te contamos qué es (una cápsula lifestyle, no la equipación de partido), qué prendas incluye, sus precios (chaqueta 110 €, camiseta 70 €, zapatilla 200 €) y por qué ha arrasado en búsquedas.',
