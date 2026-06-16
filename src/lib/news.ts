@@ -125,6 +125,44 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'partidos-mundial-2026-hoy-2026-06-16',
+    title: "Partidos del Mundial 2026 hoy, Martes 16 de junio: horarios (hora España) y dónde ver, gratis en La 1 o en DAZN",
+    summary: "Calendario de los 3 partidos del Mundial 2026 de hoy, martes 16 de junio: horarios en hora española y dónde verlos. Hoy en abierto y gratis en La 1: Francia - Senegal. El resto, en DAZN / Movistar Plus+.",
+    body: `El Mundial 2026 vive hoy, martes 16 de junio, una jornada de **3 partidos**. Te dejamos todos los horarios en hora española, las sedes y dónde seguirlos, con el foco puesto en el **Francia - Senegal**.
+
+## Partidos de hoy en el Mundial 2026 (hora de España)
+
+- **[Arabia Saudí - Uruguay](/2026/partido/arabia-saudi-uruguay)** — 00:00 h · Grupo H · Hard Rock Stadium (Miami Gardens) · 📺 DAZN / Movistar Plus+.
+- **[Irán - Nueva Zelanda](/2026/partido/iran-nueva-zelanda)** — 03:00 h · Grupo G · SoFi Stadium (Inglewood) · 📺 DAZN / Movistar Plus+.
+- **[Francia - Senegal](/2026/partido/francia-senegal)** — 21:00 h · Grupo I · MetLife Stadium (East Rutherford) · 📺 🆓 La 1 (RTVE) y DAZN.
+
+Todos los horarios están convertidos a **hora peninsular española**. Puedes ver la jornada al completo, con resultados en directo, en la página de [partidos de hoy](/2026/partidos-hoy) y en el [calendario del Mundial](/2026/calendario).
+
+## El partido destacado del día
+
+De todo el cartel, el **Francia - Senegal** es el duelo más llamativo de la jornada y el que más expectación levanta entre los aficionados. Sigue la clasificación y los grupos actualizados en [grupos y clasificación](/2026/grupos).
+
+## Qué partidos se ven hoy gratis en La 1 (RTVE)
+
+RTVE emite hoy en **abierto y gratis** en **La 1** (también en RTVE Play, gratis online):
+
+- **Francia - Senegal** — 21:00 h.
+
+## Qué partidos son solo de pago (DAZN / Movistar Plus+)
+
+El resto de partidos de hoy solo se pueden ver en **DAZN**, disponible también a través de **Movistar Plus+ vía DAZN**:
+
+- **Arabia Saudí - Uruguay** — 00:00 h.
+- **Irán - Nueva Zelanda** — 03:00 h.
+
+RTVE emite **34 partidos gratis** en total del Mundial 2026: los 3 de España en la fase de grupos, un partido destacado por jornada y toda la fase eliminatoria desde dieciseisavos (incluida la final). Los **104 partidos** están en **DAZN**, también a través de **Movistar Plus+ vía DAZN**. Desglose completo de plataformas, precios y partidos en abierto en [dónde ver el Mundial 2026](/2026/donde-ver).`,
+    category: 'tv',
+    sourceName: "Mundiales de Fútbol",
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-16T06:30:00Z',
+  },
+  {
     slug: 'japon-shibuya-40-segundos-celebracion-mundial-2026',
     title: 'Japón celebró su empate ante Países Bajos en el cruce de Shibuya… pero solo 40 segundos (porque eso dura el semáforo)',
     summary: 'Tras el 2-2 de Japón ante Países Bajos en el Mundial 2026, miles de aficionados corrieron al famoso cruce de Shibuya en Tokio para celebrar. La euforia duró exactamente lo que el semáforo en verde: 40 segundos. Al ponerse en rojo, todos volvieron disciplinadamente a la acera. La celebración más japonesa posible.',
@@ -339,33 +377,6 @@ Sigue la ficha del partido en [Francia-Senegal](/2026/partido/francia-senegal) y
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
     sourceLang: 'es',
     publishedAt: '2026-06-16T11:30:00Z',
-  },
-  {
-    slug: 'partidos-mundial-2026-hoy-2026-06-16',
-    title: "Partidos del Mundial 2026 hoy, Martes 16 de junio: horarios (hora España), sedes y dónde ver",
-    summary: "Calendario de los 3 partidos del Mundial 2026 de hoy, martes 16 de junio: horarios en hora española, sedes y dónde verlos en TV. Destaca el Arabia Saudí - Uruguay.",
-    body: `El Mundial 2026 vive hoy, martes 16 de junio, una jornada de **3 partidos**. Te dejamos todos los horarios en hora española, las sedes y dónde seguirlos, con el foco puesto en el **Arabia Saudí - Uruguay**.
-
-## Partidos de hoy en el Mundial 2026 (hora de España)
-
-- **[Arabia Saudí - Uruguay](/2026/partido/arabia-saudi-uruguay)** — 00:00 h · Grupo H · Hard Rock Stadium (Miami Gardens).
-- **[Irán - Nueva Zelanda](/2026/partido/iran-nueva-zelanda)** — 03:00 h · Grupo G · SoFi Stadium (Inglewood).
-- **[Francia - Senegal](/2026/partido/francia-senegal)** — 21:00 h · Grupo I · MetLife Stadium (East Rutherford).
-
-Todos los horarios están convertidos a **hora peninsular española**. Puedes ver la jornada al completo, con resultados en directo, en la página de [partidos de hoy](/2026/partidos-hoy) y en el [calendario del Mundial](/2026/calendario).
-
-## El partido destacado del día
-
-De todo el cartel, el **Arabia Saudí - Uruguay** es el duelo más llamativo de la jornada y el que más expectación levanta entre los aficionados. Sigue la clasificación y los grupos actualizados en [grupos y clasificación](/2026/grupos).
-
-## Dónde ver los partidos de hoy
-
-En España, el Mundial 2026 se ve en **DAZN**, con todos los partidos disponibles de la forma más cómoda a través de **Movistar Plus+ vía DAZN** (los 104 encuentros en un mismo sitio). Algunos partidos seleccionados se emiten además en abierto en **RTVE**. Tienes el desglose completo de plataformas y precios en [dónde ver el Mundial 2026](/2026/donde-ver).`,
-    category: 'tv',
-    sourceName: "Mundiales de Fútbol",
-    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
-    sourceLang: 'es',
-    publishedAt: '2026-06-16T06:30:00Z',
   },
   {
     slug: 'quien-es-vozinha-portero-cabo-verde-mundial-2026',

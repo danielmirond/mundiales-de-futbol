@@ -46,6 +46,15 @@ const stageLabel = (stage: string) =>
 // Selecciones "ancla" para destacar el partido del día.
 const MARQUEE = ['ESP', 'BRA', 'ARG', 'FRA', 'ENG', 'GER', 'POR', 'NED', 'MEX', 'ITA', 'BEL', 'URU'];
 
+// Partidos que RTVE emite GRATIS y en abierto (La 1 + RTVE Play) en la fase de grupos.
+// Lista oficial RTVE (17 de fase de grupos): un partido destacado por jornada + los 3 de España.
+// Mapeados al número de partido (n) de FIXTURES_2026.
+//  1 MEX-RSA · 3 CAN-BIH · 6 BRA-MAR · 9 GER-CUW · 13 ESP-CPV · 17 FRA-SEN · 22 ENG-CRO
+//  26 SUI-BIH · 29 USA-AUS · 33 NED-SWE · 37 ESP-KSA · 41 ARG-AUT · 46 ENG-GHA · 52 SCO-BRA
+//  56 ECU-GER · 64 URU-ESP · 69 COL-POR
+const RTVE_FREE_N = new Set([1, 3, 6, 9, 13, 17, 22, 26, 29, 33, 37, 41, 46, 52, 56, 64, 69]);
+const isRtveFree = (n: number) => RTVE_FREE_N.has(n);
+
 type Row = { f: (typeof FIXTURES_2026)[number]; ms: number };
 
 function todaysRows(todayKey: string): Row[] {
@@ -61,8 +70,12 @@ function buildArticle(todayKey: string, rows: Row[]) {
   const n = rows.length;
   const onlyOne = n === 1;
 
-  // Partido destacado: el primero que involucre una selección ancla; si no, el último (suele ser el de prime time).
-  const marquee = rows.find((r) => MARQUEE.includes(r.f.home ?? '') || MARQUEE.includes(r.f.away ?? '')) ?? rows[n - 1];
+  // Partido destacado: el que RTVE elige en abierto (es "el partido del día"); si hoy no hay
+  // abierto, el primero con una selección ancla; en último caso, el de cierre (suele ser prime time).
+  const marquee =
+    rows.find((r) => isRtveFree(r.f.n)) ??
+    rows.find((r) => MARQUEE.includes(r.f.home ?? '') || MARQUEE.includes(r.f.away ?? '')) ??
+    rows[n - 1];
   const mHome = teamName(marquee.f.home, marquee.f.label);
   const mAway = teamName(marquee.f.away);
 
@@ -85,9 +98,28 @@ function buildArticle(todayKey: string, rows: Row[]) {
       const away = teamName(r.f.away);
       const venue = venueLabel(r.f.venue);
       const link = `/2026/partido/${matchSlug(r.f)}`;
-      return `- **[${home} - ${away}](${link})** — ${timeFmt.format(r.ms)} h · ${stageLabel(r.f.stage)}${venue ? ` · ${venue}` : ''}.`;
+      const tv = isRtveFree(r.f.n) ? '🆓 La 1 (RTVE) y DAZN' : 'DAZN / Movistar Plus+';
+      return `- **[${home} - ${away}](${link})** — ${timeFmt.format(r.ms)} h · ${stageLabel(r.f.stage)}${venue ? ` · ${venue}` : ''} · 📺 ${tv}.`;
     })
     .join('\n');
+
+  // Desglose abierto (La 1) vs pago (DAZN) para la jornada de hoy.
+  const freeRows = rows.filter((r) => isRtveFree(r.f.n));
+  const paidRows = rows.filter((r) => !isRtveFree(r.f.n));
+  const matchLine = (r: Row) =>
+    `- **${teamName(r.f.home, r.f.label)} - ${teamName(r.f.away)}** — ${timeFmt.format(r.ms)} h.`;
+
+  const freeBlock = freeRows.length
+    ? `RTVE emite hoy en **abierto y gratis** en **La 1** (también en RTVE Play, gratis online):
+
+${freeRows.map(matchLine).join('\n')}`
+    : `Hoy **RTVE no emite ningún partido en abierto**: todos los encuentros de la jornada son exclusiva de pago en DAZN.`;
+
+  const paidBlock = paidRows.length
+    ? `El resto de partidos de hoy solo se pueden ver en **DAZN**, disponible también a través de **Movistar Plus+ vía DAZN**:
+
+${paidRows.map(matchLine).join('\n')}`
+    : `Hoy **todos los partidos de la jornada se ven gratis en La 1**.`;
 
   const marqueeBlock = onlyOne
     ? `El ${mHome} - ${mAway} concentra hoy toda la atención: un buen aperitivo para ir calentando la jornada mundialista.`
@@ -105,17 +137,29 @@ Todos los horarios están convertidos a **hora peninsular española**. Puedes ve
 
 ${marqueeBlock} Sigue la clasificación y los grupos actualizados en [grupos y clasificación](/2026/grupos).
 
-## Dónde ver los partidos de hoy
+## Qué partidos se ven hoy gratis en La 1 (RTVE)
 
-En España, el Mundial 2026 se ve en **DAZN**, con todos los partidos disponibles de la forma más cómoda a través de **Movistar Plus+ vía DAZN** (los 104 encuentros en un mismo sitio). Algunos partidos seleccionados se emiten además en abierto en **RTVE**. Tienes el desglose completo de plataformas y precios en [dónde ver el Mundial 2026](/2026/donde-ver).`;
+${freeBlock}
 
+## Qué partidos son solo de pago (DAZN / Movistar Plus+)
+
+${paidBlock}
+
+RTVE emite **34 partidos gratis** en total del Mundial 2026: los 3 de España en la fase de grupos, un partido destacado por jornada y toda la fase eliminatoria desde dieciseisavos (incluida la final). Los **104 partidos** están en **DAZN**, también a través de **Movistar Plus+ vía DAZN**. Desglose completo de plataformas, precios y partidos en abierto en [dónde ver el Mundial 2026](/2026/donde-ver).`;
+
+  const freeTitle = freeRows.length
+    ? `${teamName(freeRows[0].f.home, freeRows[0].f.label)} - ${teamName(freeRows[0].f.away)}`
+    : '';
   const title = espana
-    ? `Partidos del Mundial 2026 hoy, ${dayTitle}: España juega, horarios (hora España) y dónde ver`
-    : `Partidos del Mundial 2026 hoy, ${dayTitle}: horarios (hora España), sedes y dónde ver`;
+    ? `Partidos del Mundial 2026 hoy, ${dayTitle}: España juega, horarios y dónde ver gratis (La 1) o en DAZN`
+    : `Partidos del Mundial 2026 hoy, ${dayTitle}: horarios (hora España) y dónde ver, gratis en La 1 o en DAZN`;
 
+  const tvSummary = freeRows.length
+    ? `Hoy en abierto y gratis en La 1: ${freeTitle}. El resto, en DAZN / Movistar Plus+.`
+    : `Hoy ningún partido en abierto en La 1: todos en DAZN / Movistar Plus+.`;
   const summary = onlyOne
-    ? `Hoy ${dayLong} se juega ${mHome} - ${mAway} en el Mundial 2026. Horario en hora española, sede y dónde verlo en TV (DAZN / Movistar Plus+).`
-    : `Calendario de los ${n} partidos del Mundial 2026 de hoy, ${dayLong}: horarios en hora española, sedes y dónde verlos en TV. Destaca el ${mHome} - ${mAway}.`;
+    ? `Hoy ${dayLong} se juega ${mHome} - ${mAway} en el Mundial 2026. Horario en hora española, sede y dónde verlo en TV. ${tvSummary}`
+    : `Calendario de los ${n} partidos del Mundial 2026 de hoy, ${dayLong}: horarios en hora española y dónde verlos. ${tvSummary}`;
 
   // publishedAt: 06:30 UTC del día (mañana en España). Determinista a partir del todayKey.
   const publishedAt = `${todayKey}T06:30:00Z`;
@@ -165,17 +209,17 @@ function main() {
   console.log(`[daily-matches] ${rows.length} partido(s) el ${todayKey}.`);
   console.log(`[daily-matches] slug: ${article.slug}`);
 
-  const src = readFileSync(NEWS_PATH, 'utf8');
-  if (src.includes(`slug: '${article.slug}'`)) {
-    console.log('[daily-matches] El artículo del día ya existe. Nada que hacer.');
-    return;
-  }
-
   if (DRY) {
     console.log('\n----- DRY RUN — artículo generado -----\n');
     console.log(`# ${article.title}\n`);
     console.log(`> ${article.summary}\n`);
     console.log(article.body);
+    return;
+  }
+
+  const src = readFileSync(NEWS_PATH, 'utf8');
+  if (src.includes(`slug: '${article.slug}'`)) {
+    console.log('[daily-matches] El artículo del día ya existe. Nada que hacer.');
     return;
   }
 
