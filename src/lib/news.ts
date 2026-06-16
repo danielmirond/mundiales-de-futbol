@@ -125,6 +125,44 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'camiseta-francia-jacquemus-nike-mundial-2026',
+    title: 'La camiseta de Francia diseñada por Jacquemus: qué es, qué incluye y cuánto cuesta la colección viral del Mundial 2026',
+    summary: 'La gran sensación de la previa del Mundial 2026 no es un gol, es una camiseta: la colección que el diseñador Jacquemus ha creado con Nike para la selección de Francia. Te contamos qué es (una cápsula lifestyle, no la equipación de partido), qué prendas incluye, sus precios (chaqueta 110 €, camiseta 70 €, zapatilla 200 €) y por qué ha arrasado en búsquedas.',
+    body: `El Mundial 2026 ha dejado claro que el fútbol y la moda ya juegan en el mismo equipo. La gran sensación de la previa no ha sido un gol ni un fichaje, sino una camiseta: la **colección que el diseñador francés Jacquemus ha creado junto a Nike** para la selección de [Francia](/selecciones/FRA), un fenómeno viral que ha disparado las búsquedas en medio mundo justo cuando los Bleus debutan.
+
+## Qué es exactamente: una cápsula lifestyle, no la camiseta de partido
+
+Conviene aclararlo de entrada, porque genera confusión: **no es la equipación con la que Francia jugará** los partidos. Se trata de una **colección cápsula lifestyle** —ropa de calle y de antes del partido, la llamada *pre-match*— que los jugadores lucirán al llegar al estadio y en los actos previos. Forma parte del programa **"X2" de Nike**, una iniciativa que empareja a federaciones nacionales con diseñadores de primer nivel para reinventar su imagen fuera del césped.
+
+## Quién es Jacquemus
+
+Detrás está **Simon Porte Jacquemus**, uno de los nombres más calientes de la moda francesa actual, célebre por sus bolsos diminutos y su estética minimalista y mediterránea. No es un recién llegado al universo Nike: su marca ya colaboró con la firma estadounidense desde 2022, reinterpretando modelos como las Air Humara, las J Force 1 o las Air Max 1. Ahora da el salto al fútbol con una declaración de amor: *"En Francia, el fútbol es más que un deporte… Significa todo para mí"*, ha afirmado el diseñador, que se ha inspirado en la cultura futbolística de los años 90 y en un viejo chándal Nike de su juventud.
+
+## Qué incluye la colección (y a qué precio)
+
+La cápsula combina prendas y calzado con los colores de *Les Bleus*:
+
+- **Chaqueta "Anthem France"** — en un llamativo blanco radiante, con el *swoosh* de Nike, el gallo galo y el logo de Jacquemus bordados tono sobre tono, y una banda tricolor (azul, blanco y rojo) en las mangas. Precio: **110 €**.
+- **Camisetas de calentamiento y de portero** — con rayas verticales azules y blancas (*pinstripes*) de aire vintage, tejido **Dri-FIT** de Nike, las dos estrellas de campeón (1998 y 2018), el gallo, la bandera francesa y la firma de Jacquemus. Precio: **70 €**.
+- **Zapatilla "Cryoshot"** — una reinvención de la mítica **Tiempo R10 de Ronaldinho** convertida en sneaker de calle: piel blanca premium y tacos originales sobre una suela transparente. Precio: **200 €**.
+- Completan la colección **chaquetas, pantalones de chándal y shorts** a juego.
+
+## Cuándo y dónde se ha lanzado
+
+El lanzamiento se hizo por fases: el **11 de junio de 2026** llegó a la tienda online de Jacquemus y a los canales de la Federación Francesa de Fútbol (FFF), y el **16 de junio** —el mismo día del debut de Francia ante Senegal— aterrizó en **Nike SNKRS** y en revendedores seleccionados. Su estreno sobre el terreno coincide, por tanto, con el primer partido de los Bleus en el torneo.
+
+## Por qué importa (más allá del hype)
+
+La operación tiene fondo: parte de la iniciativa se vincula a la asociación **Sport dans la Ville**, dedicada a la inserción de jóvenes a través del deporte. Pero, sobre todo, marca una tendencia: las grandes selecciones ya no compiten solo por títulos, también por **relato y estética**, y fichar a un diseñador de lujo para vestir a una selección nacional es un movimiento tan comercial como cultural.
+
+Si te interesa el universo de las equipaciones del torneo, échale un ojo a nuestra guía de [camisetas del Mundial 2026](/coleccionismo/camisetas-mundial-2026) y a la [previa del debut de Francia](/noticias/francia-senegal-previa-mundial-2026-debut). Entre el césped y la pasarela, Francia ya ha marcado el primer gol de la temporada… de moda.`,
+    category: 'patrocinios',
+    sourceName: 'Mundiales de Fútbol',
+    sourceUrl: 'https://fashionunited.es/noticias/moda/jacquemus-ha-firmado-con-nike-y-la-federacion-francesa-de-futbol/2026060349542',
+    sourceLang: 'es',
+    publishedAt: '2026-06-16T13:00:00Z',
+  },
+  {
     slug: 'noruega-haaland-comida-mundial-2026-pescado-queso-fruta',
     title: 'Noruega se planta en el Mundial 2026 con 300 kg de pescado, 116 kg de queso y 6.000 frutas',
     summary: 'La selección de Noruega, la de Erling Haaland, ha viajado a Estados Unidos para el Mundial 2026 con un cargamento de comida propio: 300 kg de pescado, 116 kg de queso noruego y más de 6.000 piezas de fruta. La razón, el calor y la obsesión por mantener sus hábitos alimentarios. Una de las grandes curiosidades del torneo.',
