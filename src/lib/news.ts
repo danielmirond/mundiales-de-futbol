@@ -125,6 +125,33 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'partidos-mundial-2026-hoy-2026-06-16',
+    title: "Partidos del Mundial 2026 hoy, Martes 16 de junio: horarios (hora España), sedes y dónde ver",
+    summary: "Calendario de los 3 partidos del Mundial 2026 de hoy, martes 16 de junio: horarios en hora española, sedes y dónde verlos en TV. Destaca el Arabia Saudí - Uruguay.",
+    body: `El Mundial 2026 vive hoy, martes 16 de junio, una jornada de **3 partidos**. Te dejamos todos los horarios en hora española, las sedes y dónde seguirlos, con el foco puesto en el **Arabia Saudí - Uruguay**.
+
+## Partidos de hoy en el Mundial 2026 (hora de España)
+
+- **[Arabia Saudí - Uruguay](/2026/partido/arabia-saudi-uruguay)** — 00:00 h · Grupo H · Hard Rock Stadium (Miami Gardens).
+- **[Irán - Nueva Zelanda](/2026/partido/iran-nueva-zelanda)** — 03:00 h · Grupo G · SoFi Stadium (Inglewood).
+- **[Francia - Senegal](/2026/partido/francia-senegal)** — 21:00 h · Grupo I · MetLife Stadium (East Rutherford).
+
+Todos los horarios están convertidos a **hora peninsular española**. Puedes ver la jornada al completo, con resultados en directo, en la página de [partidos de hoy](/2026/partidos-hoy) y en el [calendario del Mundial](/2026/calendario).
+
+## El partido destacado del día
+
+De todo el cartel, el **Arabia Saudí - Uruguay** es el duelo más llamativo de la jornada y el que más expectación levanta entre los aficionados. Sigue la clasificación y los grupos actualizados en [grupos y clasificación](/2026/grupos).
+
+## Dónde ver los partidos de hoy
+
+En España, el Mundial 2026 se ve en **DAZN**, con todos los partidos disponibles de la forma más cómoda a través de **Movistar Plus+ vía DAZN** (los 104 encuentros en un mismo sitio). Algunos partidos seleccionados se emiten además en abierto en **RTVE**. Tienes el desglose completo de plataformas y precios en [dónde ver el Mundial 2026](/2026/donde-ver).`,
+    category: 'tv',
+    sourceName: "Mundiales de Fútbol",
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-16T06:30:00Z',
+  },
+  {
     slug: 'quien-es-vozinha-portero-cabo-verde-mundial-2026',
     title: 'Quién es Vozinha, el portero de 40 años de Cabo Verde que dejó a cero a España en el Mundial 2026',
     summary: 'Vozinha, guardameta de 40 años del Chaves de la Segunda División portuguesa, fue el gran héroe del 0-0 de Cabo Verde ante España. Te contamos quién es: su nombre real, la curiosa historia de su apodo (su padre quería llamarlo "Valdano"), su carrera de trotamundos y por qué su actuación es histórica.',

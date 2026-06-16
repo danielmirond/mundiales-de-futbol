@@ -264,8 +264,8 @@ export default async function DondeComprarEspana({
 
       <AmazonProductGrid
         products={AMAZON_PRODUCTS.filter((p) =>
-          /panini|cromos|álbum mundial|sobres/i.test(p.title),
-        ).slice(0, 4)}
+          /panini|cromos|álbum mundial|sobres/i.test(p.title) && p.worldCupYear === 2026,
+        ).slice(0, 8)}
         title="Comprar online (Amazon España, envío Prime)"
         subtitle="Si tu tienda se queda sin stock de la caja o de la tapa dura, Amazon España la envía en 24-48 h. Afiliación."
       />
