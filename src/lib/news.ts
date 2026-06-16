@@ -132,9 +132,9 @@ export const NEWS_ITEMS: NewsItem[] = [
 
 ## Partidos de hoy en el Mundial 2026 (hora de España)
 
-- **[Arabia Saudí - Uruguay](/2026/partido/arabia-saudi-uruguay)** — 00:00 h · Grupo H · Hard Rock Stadium (Miami Gardens) · 📺 DAZN / Movistar Plus+.
-- **[Irán - Nueva Zelanda](/2026/partido/iran-nueva-zelanda)** — 03:00 h · Grupo G · SoFi Stadium (Inglewood) · 📺 DAZN / Movistar Plus+.
-- **[Francia - Senegal](/2026/partido/francia-senegal)** — 21:00 h · Grupo I · MetLife Stadium (East Rutherford) · 📺 🆓 La 1 (RTVE) y DAZN.
+- **[Arabia Saudí - Uruguay](/2026/partido/arabia-saudi-uruguay)** — 00:00 h · Grupo H · Hard Rock Stadium (Miami Gardens) · 📺 [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026) / [Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial).
+- **[Irán - Nueva Zelanda](/2026/partido/iran-nueva-zelanda)** — 03:00 h · Grupo G · SoFi Stadium (Inglewood) · 📺 [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026) / [Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial).
+- **[Francia - Senegal](/2026/partido/francia-senegal)** — 21:00 h · Grupo I · MetLife Stadium (East Rutherford) · 📺 🆓 La 1 (RTVE) y [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026).
 
 Todos los horarios están convertidos a **hora peninsular española**. Puedes ver la jornada al completo, con resultados en directo, en la página de [partidos de hoy](/2026/partidos-hoy) y en el [calendario del Mundial](/2026/calendario).
 
@@ -150,12 +150,12 @@ RTVE emite hoy en **abierto y gratis** en **La 1** (también en RTVE Play, grati
 
 ## Qué partidos son solo de pago (DAZN / Movistar Plus+)
 
-El resto de partidos de hoy solo se pueden ver en **DAZN**, disponible también a través de **Movistar Plus+ vía DAZN**:
+El resto de partidos de hoy solo se pueden ver en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, disponible también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**:
 
 - **Arabia Saudí - Uruguay** — 00:00 h.
 - **Irán - Nueva Zelanda** — 03:00 h.
 
-RTVE emite **34 partidos gratis** en total del Mundial 2026: los 3 de España en la fase de grupos, un partido destacado por jornada y toda la fase eliminatoria desde dieciseisavos (incluida la final). Los **104 partidos** están en **DAZN**, también a través de **Movistar Plus+ vía DAZN**. Desglose completo de plataformas, precios y partidos en abierto en [dónde ver el Mundial 2026](/2026/donde-ver).`,
+RTVE emite **34 partidos gratis** en total del Mundial 2026: los 3 de España en la fase de grupos, un partido destacado por jornada y toda la fase eliminatoria desde dieciseisavos (incluida la final). Los **104 partidos** están en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**. Desglose completo de plataformas, precios y partidos en abierto en [dónde ver el Mundial 2026](/2026/donde-ver).`,
     category: 'tv',
     sourceName: "Mundiales de Fútbol",
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',

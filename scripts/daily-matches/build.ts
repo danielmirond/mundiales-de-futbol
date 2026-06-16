@@ -55,6 +55,13 @@ const MARQUEE = ['ESP', 'BRA', 'ARG', 'FRA', 'ENG', 'GER', 'POR', 'NED', 'MEX', 
 const RTVE_FREE_N = new Set([1, 3, 6, 9, 13, 17, 22, 26, 29, 33, 37, 41, 46, 52, 56, 64, 69]);
 const isRtveFree = (n: number) => RTVE_FREE_N.has(n);
 
+// Enlaces de afiliación (Awin) — mismos que en la guía /2026/donde-ver.
+const DAZN_URL = 'https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026';
+const MOVISTAR_URL =
+  'https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial';
+const DAZN_LINK = `[DAZN](${DAZN_URL})`;
+const MOVISTAR_LINK = `[Movistar Plus+ vía DAZN](${MOVISTAR_URL})`;
+
 type Row = { f: (typeof FIXTURES_2026)[number]; ms: number };
 
 function todaysRows(todayKey: string): Row[] {
@@ -98,7 +105,7 @@ function buildArticle(todayKey: string, rows: Row[]) {
       const away = teamName(r.f.away);
       const venue = venueLabel(r.f.venue);
       const link = `/2026/partido/${matchSlug(r.f)}`;
-      const tv = isRtveFree(r.f.n) ? '🆓 La 1 (RTVE) y DAZN' : 'DAZN / Movistar Plus+';
+      const tv = isRtveFree(r.f.n) ? `🆓 La 1 (RTVE) y ${DAZN_LINK}` : `${DAZN_LINK} / ${MOVISTAR_LINK}`;
       return `- **[${home} - ${away}](${link})** — ${timeFmt.format(r.ms)} h · ${stageLabel(r.f.stage)}${venue ? ` · ${venue}` : ''} · 📺 ${tv}.`;
     })
     .join('\n');
@@ -116,7 +123,7 @@ ${freeRows.map(matchLine).join('\n')}`
     : `Hoy **RTVE no emite ningún partido en abierto**: todos los encuentros de la jornada son exclusiva de pago en DAZN.`;
 
   const paidBlock = paidRows.length
-    ? `El resto de partidos de hoy solo se pueden ver en **DAZN**, disponible también a través de **Movistar Plus+ vía DAZN**:
+    ? `El resto de partidos de hoy solo se pueden ver en **${DAZN_LINK}**, disponible también a través de **${MOVISTAR_LINK}**:
 
 ${paidRows.map(matchLine).join('\n')}`
     : `Hoy **todos los partidos de la jornada se ven gratis en La 1**.`;
@@ -145,7 +152,7 @@ ${freeBlock}
 
 ${paidBlock}
 
-RTVE emite **34 partidos gratis** en total del Mundial 2026: los 3 de España en la fase de grupos, un partido destacado por jornada y toda la fase eliminatoria desde dieciseisavos (incluida la final). Los **104 partidos** están en **DAZN**, también a través de **Movistar Plus+ vía DAZN**. Desglose completo de plataformas, precios y partidos en abierto en [dónde ver el Mundial 2026](/2026/donde-ver).`;
+RTVE emite **34 partidos gratis** en total del Mundial 2026: los 3 de España en la fase de grupos, un partido destacado por jornada y toda la fase eliminatoria desde dieciseisavos (incluida la final). Los **104 partidos** están en **${DAZN_LINK}**, también a través de **${MOVISTAR_LINK}**. Desglose completo de plataformas, precios y partidos en abierto en [dónde ver el Mundial 2026](/2026/donde-ver).`;
 
   const freeTitle = freeRows.length
     ? `${teamName(freeRows[0].f.home, freeRows[0].f.label)} - ${teamName(freeRows[0].f.away)}`
