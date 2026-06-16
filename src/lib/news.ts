@@ -125,6 +125,31 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'noruega-haaland-comida-mundial-2026-pescado-queso-fruta',
+    title: 'Noruega se planta en el Mundial 2026 con 300 kg de pescado, 116 kg de queso y 6.000 frutas',
+    summary: 'La selección de Noruega, la de Erling Haaland, ha viajado a Estados Unidos para el Mundial 2026 con un cargamento de comida propio: 300 kg de pescado, 116 kg de queso noruego y más de 6.000 piezas de fruta. La razón, el calor y la obsesión por mantener sus hábitos alimentarios. Una de las grandes curiosidades del torneo.',
+    body: `Hay selecciones que viajan con maletas y otras que viajan con una despensa entera. **Noruega**, una de las grandes sensaciones del Mundial 2026 con **Erling Haaland** al frente, se ha presentado en Estados Unidos con un cargamento de comida que ha dado la vuelta al mundo.
+
+## 300 kg de pescado, 116 kg de queso y 6.000 frutas
+
+Según ha trascendido, el combinado noruego llevó a su concentración **300 kilos de pescado** (salmón y especialidades locales), **116 kilos de *brunost*** —el característico queso marrón noruego— y **más de 6.000 piezas de fruta**, sobre todo naranjas, con las que exprimen alrededor de **15 litros de zumo al día**.
+
+## ¿Por qué tanta comida de casa?
+
+La explicación tiene dos patas. La primera, mantener intactos los **hábitos alimentarios** de los jugadores lejos de casa para no alterar su rendimiento. La segunda, el **calor**: Noruega se aloja en Greensboro, donde se esperan temperaturas por encima de los 35 ºC, de ahí la obsesión por la hidratación y el zumo natural. Cuidar hasta el último detalle nutricional se ha convertido en una seña de identidad de esta Noruega.
+
+## Una vuelta esperada 28 años después
+
+El cargamento es noticia porque Noruega vuelve a lo grande: regresa a una Copa del Mundo masculina **casi tres décadas después** de su última participación, en Francia 1998. Y lo hace con una generación encabezada por Haaland que ilusiona a todo un país. Los noruegos están encuadrados en el **Grupo I**, el mismo de **Francia**, a la que se medirán el 26 de junio en uno de los duelos más esperados de la fase de grupos.
+
+Puedes seguir al equipo de Haaland en la ficha de [Noruega](/selecciones/NOR), repasar su grupo en [grupos y clasificación](/2026/grupos) y leer la [previa del Francia-Senegal](/noticias/francia-senegal-previa-mundial-2026-debut), el otro gran nombre del Grupo I. Entre el salmón, el queso y los litros de zumo, Noruega ya ha ganado el premio a la preparación más curiosa del Mundial.`,
+    category: 'curiosa',
+    sourceName: 'Mundiales de Fútbol',
+    sourceUrl: 'https://www.eurosport.it/calcio/mondiali/2026/la-norvegia-di-erling-haaland-si-presenta-negli-stati-uniti-con-300kg-di-pesce-116kg-di-formaggio-e-oltre-6000-frutti_sto23308297/story.shtml',
+    sourceLang: 'es',
+    publishedAt: '2026-06-16T12:00:00Z',
+  },
+  {
     slug: 'francia-senegal-previa-mundial-2026-debut',
     title: 'Francia-Senegal: la previa del debut de los Bleus en el Mundial 2026 (horario, dónde ver y por qué no es un estreno fácil)',
     summary: 'Francia, una de las grandes favoritas, debuta en el Mundial 2026 ante un Senegal de mucho cuidado. El partido es hoy a las 21:00 (hora española) en el MetLife Stadium. Te contamos cómo llegan los Bleus de Mbappé, el Grupo I con Noruega y Haaland al acecho, y dónde verlo en TV.',
