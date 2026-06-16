@@ -125,6 +125,72 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'cesped-mundial-2026-tecnologia-maquinas-fifa',
+    title: "Ni un robot cortacésped cualquiera: la operación científica que mantiene el césped del Mundial 2026",
+    summary: "El césped del Mundial 2026 es el más vigilado de la historia: máquinas que cosen fibras sintéticas, torres de luces para los estadios con techo y balones disparados a 88 km/h para medir el bote. Detrás hay tres universidades y un ejército de tecnología.",
+    body: `Cada verano alguien imagina a un robot cortacésped recorriendo en solitario el campo de un estadio. La realidad del Mundial 2026 es bastante más sofisticada: el césped de esta Copa del Mundo es, probablemente, el más caro y monitorizado de la historia, y detrás no hay un solo robot, sino toda una operación científica.
+
+La FIFA ha trabajado durante años con tres universidades estadounidenses especializadas en céspedes deportivos: **Michigan State University** (con el profesor John "Trey" Rogers III), la **Universidad de Tennessee** (con el catedrático John Sorochan) y la **Universidad de Georgia** (con Gerald Henry). Su misión: que un balón bote igual en Dallas que en Vancouver o Ciudad de México, pese a climas radicalmente distintos.
+
+## El problema: estadios de fútbol americano y techos cerrados
+
+La mayoría de las sedes estadounidenses son estadios de la NFL diseñados para césped artificial, y varios tienen techo, lo que limita la luz solar que llega al terreno. El aviso llegó en la Copa América 2024: en Atlanta, los jugadores se quejaron de que el balón "saltaba como en una cama elástica". Para el Mundial, esos campos se han reconvertido a césped natural reforzado.
+
+## Coser el césped y darle luz artificial
+
+La solución pasa por un **césped híbrido**: unos cinco centímetros de hierba cultivada sobre una base de plástico, en la que una **máquina de costura inserta fibras sintéticas** que actúan como refuerzo estructural para que el tepe no se desgarre en los frenazos y cambios de dirección. Según la zona, se emplean variedades distintas: bermuda en los climas cálidos, céspedes de estación fría en el norte y una variedad de origen británico para los estadios techados.
+
+Para los recintos con poca luz, la tecnología es espectacular: el estadio de Dallas cuenta con **18 estructuras de luces de crecimiento** montadas en el techo, mientras que otras sedes utilizan entre 9 y 12 equipos móviles de iluminación que se desplazan por el campo simulando el sol.
+
+## Balones a 88 km/h y 50 zonas por campo
+
+El control de calidad es de laboratorio. Para comprobar que la superficie responde igual en todas partes, **se disparan balones a 55 millas por hora (unos 88 km/h) con un ángulo de 17 grados** y se mide el rebote. Cada terreno de juego tiene unas **50 zonas monitorizadas** de forma individual, según Tony Leonard, responsable del césped en Filadelfia, y Sorochan ha explicado que miden específicamente "bajo las estructuras de luz" para reducir la variabilidad.
+
+Incluso los propios estadios se han modificado para encajar el campo reglamentario: Dallas ha ampliado a nivel de terreno de juego, Kansas City ha retirado diez filas de asientos y Filadelfia ha eliminado butacas en las esquinas.
+
+Así que sí, hay automatización en el césped del Mundial 2026, pero no en forma de un cortacésped solitario: es un ecosistema de máquinas de costura, torres de luz y sensores que persigue un objetivo invisible para el espectador: que el balón ruede exactamente igual en las 16 sedes. Puedes ver el detalle de cada estadio en nuestra guía de [sedes del Mundial 2026](/2026/sedes).`,
+    category: 'sedes',
+    sourceName: 'Scientific American',
+    sourceUrl: 'https://www.scientificamerican.com/article/how-fifa-is-engineering-natural-grass-for-the-2026-world-cup/',
+    sourceLang: 'en',
+    publishedAt: '2026-06-16T13:00:00Z',
+    sourcesSecondary: [
+      { name: 'Michigan State University — Turfgrass para la FIFA', url: 'https://msutoday.msu.edu/turfgrass' },
+      { name: 'University of Tennessee — proyecto de céspedes WC 2026', url: 'https://research.utk.edu/oried/2024/05/10/ut-leads-research-project-to-create-the-perfect-pitches-for-fifa-world-cup-2026/' },
+    ],
+  },
+  {
+    slug: 'perros-robot-seguridad-estadios-mundial-2026',
+    title: "Perros robot patrullando el Mundial 2026: qué hacen de verdad (y qué no, pese a los bulos)",
+    summary: "El Mundial 2026 estrena perros robot cuadrúpedos para la seguridad de los estadios, capaces de enviar vídeo en directo a la policía. Circulan bulos sobre reconocimiento facial que Reuters ha desmentido. Te contamos qué hace de verdad esta tecnología.",
+    body: `El Mundial 2026 no solo será el primero con 48 selecciones y tres países anfitriones: también es el primero que despliega **perros robot** como parte del operativo de seguridad. Las imágenes de estos cuadrúpedos metálicos patrullando los alrededores de los estadios se han hecho virales, y con ellas también una buena dosis de desinformación.
+
+## Qué hacen los perros robot
+
+Según la información publicada, los robots cuadrúpedos se están utilizando en la **zona de Monterrey (México)** con fines de seguridad y patrulla. Su gran ventaja operativa es que pueden **transmitir vídeo en directo** a las fuerzas de seguridad y actuar como **primera intervención** en una incidencia sin exponer físicamente a los agentes: el robot entra, observa y envía lo que ve antes de que llegue una persona.
+
+No es ciencia ficción ni un capricho. Un torneo repartido entre Estados Unidos, México y Canadá, con 16 sedes y millones de aficionados desplazándose, plantea un reto de seguridad sin precedentes, y la robótica es una de las herramientas con las que las autoridades quieren cubrir más terreno con menos riesgo.
+
+## El bulo del reconocimiento facial
+
+Aquí conviene parar y separar el dato de la leyenda. En redes circuló la idea de que estos perros robot incorporaban **reconocimiento facial** para identificar aficionados. **Reuters publicó una verificación desmintiéndolo**: los robots no estaban destinados a esa función. Es un matiz importante, porque la diferencia entre un robot que patrulla y graba vídeo y uno que identifica rostros de forma automática es enorme en términos de privacidad.
+
+## No solo perros: la IA también vigila
+
+La tecnología del Mundial 2026 va mucho más allá de los cuadrúpedos. Hay **sistemas de inteligencia artificial** dedicados a moderar el odio en redes sociales: monitorizan comentarios abusivos dirigidos a jugadores y selecciones en plataformas como TikTok, YouTube, Instagram y Facebook, y son capaces de ocultar el contenido ofensivo "en segundos". Otros sistemas de IA se encargan de la **gestión de multitudes**, reduciendo la congestión y ordenando el movimiento dentro de los recintos.
+
+## El debate de fondo
+
+Que la seguridad de un gran evento se apoye en robots y algoritmos abre un debate legítimo sobre vigilancia y privacidad, sobre todo cuando los bulos van más rápido que los desmentidos. Lo razonable es exigir transparencia: saber qué graban estos dispositivos, quién accede a esas imágenes y durante cuánto tiempo se conservan.
+
+Mientras tanto, los perros robot ya forman parte del paisaje de este Mundial, tan novedoso fuera del campo como dentro. Si te interesan estas curiosidades del torneo, tienes más en nuestra sección de [noticias del Mundial 2026](/noticias).`,
+    category: 'curiosa',
+    sourceName: 'The Jerusalem Post',
+    sourceUrl: 'https://www.jpost.com/business-and-innovation/all-news/article-899268',
+    sourceLang: 'en',
+    publishedAt: '2026-06-16T13:30:00Z',
+  },
+  {
     slug: 'partidos-mundial-2026-hoy-2026-06-16',
     title: "Partidos del Mundial 2026 hoy, Martes 16 de junio: horarios (hora España) y dónde ver, gratis en La 1 o en DAZN",
     summary: "Calendario de los 3 partidos del Mundial 2026 de hoy, martes 16 de junio: horarios en hora española y dónde verlos. Hoy en abierto y gratis en La 1: Francia - Senegal. El resto, en DAZN / Movistar Plus+.",
