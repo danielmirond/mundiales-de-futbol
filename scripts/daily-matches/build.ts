@@ -151,7 +151,8 @@ function serialize(a: ReturnType<typeof buildArticle>): string {
 
 function main() {
   // "Hoy" en zona Madrid. (En el cron matinal coincide con el día natural español.)
-  const now = new Date();
+  // Override opcional para previsualizar/rellenar otro día: DAILY_DATE=YYYY-MM-DD.
+  const now = process.env.DAILY_DATE ? new Date(`${process.env.DAILY_DATE}T12:00:00Z`) : new Date();
   const todayKey = dateKeyFmt.format(now);
 
   const rows = todaysRows(todayKey);
