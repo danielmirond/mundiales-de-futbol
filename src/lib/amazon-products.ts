@@ -781,6 +781,19 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     worldCupYear: 2026,
   },
   {
+    id: 75,
+    title: 'Panini FIFA World Cup 2026 · caja de sobres (colección oficial)',
+    asin: 'B0GXFB4BJ5',
+    verified: true,
+    category: 'juguetes',
+    commission: 7,
+    priceMin: 60,
+    priceMax: 95,
+    uses: 'Caja/expositor de sobres de la colección oficial Panini del Mundial 2026. El formato que más cromos da de golpe para avanzar el álbum rápido.',
+    worldCupYear: 2026,
+    featured: true,
+  },
+  {
     id: 41,
     title: 'Camiseta Cabo Verde fútbol selección Tubarões Azuis 2026',
     asin: 'CPV-2026',
@@ -1177,4 +1190,12 @@ export function getFeaturedProducts(): AmazonProduct[] {
 export function formatPrice(min: number, max: number): string {
   if (min === max) return `${min} €`;
   return `${min}–${max} €`;
+}
+
+export function getProductByAsin(asin: string): AmazonProduct | undefined {
+  return AMAZON_PRODUCTS.find((p) => p.asin === asin);
+}
+
+export function getProductById(id: number): AmazonProduct | undefined {
+  return AMAZON_PRODUCTS.find((p) => p.id === id);
 }
