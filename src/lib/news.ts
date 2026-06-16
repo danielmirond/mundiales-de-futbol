@@ -134,17 +134,17 @@ La FIFA ha trabajado durante años con tres universidades estadounidenses especi
 
 ## El problema: estadios de fútbol americano y techos cerrados
 
-La mayoría de las sedes estadounidenses son estadios de la NFL diseñados para césped artificial, y varios tienen techo, lo que limita la luz solar que llega al terreno. El aviso llegó en la Copa América 2024: en Atlanta, los jugadores se quejaron de que el balón "saltaba como en una cama elástica". Para el Mundial, esos campos se han reconvertido a césped natural reforzado.
+La mayoría de las sedes estadounidenses son estadios de la NFL diseñados para césped artificial: **ocho de las dieciséis sedes** lo usan a día de hoy, y **cinco de ellas tienen techo**, lo que limita la luz solar que llega al terreno. El aviso llegó en la Copa América 2024: en Atlanta, los jugadores se quejaron de que el balón "saltaba como en una cama elástica". Para el Mundial, esos campos se han reconvertido a césped natural reforzado.
 
 ## Coser el césped y darle luz artificial
 
-La solución pasa por un **césped híbrido**: unos cinco centímetros de hierba cultivada sobre una base de plástico, en la que una **máquina de costura inserta fibras sintéticas** que actúan como refuerzo estructural para que el tepe no se desgarre en los frenazos y cambios de dirección. Según la zona, se emplean variedades distintas: bermuda en los climas cálidos, céspedes de estación fría en el norte y una variedad de origen británico para los estadios techados.
+La solución pasa por un **césped híbrido**: unos cinco centímetros de hierba cultivada sobre una base de plástico, en la que una **máquina de costura inserta fibras sintéticas** que actúan como refuerzo estructural para que el tepe no se desgarre en los frenazos y cambios de dirección. Ese detalle del plástico no es casual: el césped se cultiva fuera del estadio precisamente para poder **transportarlo y colocarlo sin que arraigue en el terreno**, como si fuera una alfombra de precisión. Según la zona, se emplean variedades distintas: bermuda en los climas cálidos, céspedes de estación fría en el norte y una variedad de origen británico para los estadios techados.
 
 Para los recintos con poca luz, la tecnología es espectacular: el estadio de Dallas cuenta con **18 estructuras de luces de crecimiento** montadas en el techo, mientras que otras sedes utilizan entre 9 y 12 equipos móviles de iluminación que se desplazan por el campo simulando el sol.
 
 ## Balones a 88 km/h y 50 zonas por campo
 
-El control de calidad es de laboratorio. Para comprobar que la superficie responde igual en todas partes, **se disparan balones a 55 millas por hora (unos 88 km/h) con un ángulo de 17 grados** y se mide el rebote. Cada terreno de juego tiene unas **50 zonas monitorizadas** de forma individual, según Tony Leonard, responsable del césped en Filadelfia, y Sorochan ha explicado que miden específicamente "bajo las estructuras de luz" para reducir la variabilidad.
+El control de calidad es de laboratorio. Para comprobar que la superficie responde igual en todas partes, **se disparan balones a 55 millas por hora (unos 88 km/h) con un ángulo de 17 grados** y se mide el rebote. Cada terreno de juego tiene unas **50 zonas monitorizadas** de forma individual, según Tony Leonard, responsable del césped en Filadelfia, y Sorochan ha explicado que miden específicamente "bajo las estructuras de luz" para reducir la variabilidad. A esa radiografía se suman pruebas constantes de **humedad y aireación** del suelo, porque un campo demasiado blando o demasiado seco cambia por completo cómo corre el balón y cómo apoyan los jugadores.
 
 Incluso los propios estadios se han modificado para encajar el campo reglamentario: Dallas ha ampliado a nivel de terreno de juego, Kansas City ha retirado diez filas de asientos y Filadelfia ha eliminado butacas en las esquinas.
 
@@ -161,19 +161,25 @@ Así que sí, hay automatización en el césped del Mundial 2026, pero no en for
   },
   {
     slug: 'perros-robot-seguridad-estadios-mundial-2026',
-    title: "Perros robot patrullando el Mundial 2026: qué hacen de verdad (y qué no, pese a los bulos)",
-    summary: "El Mundial 2026 estrena perros robot cuadrúpedos para la seguridad de los estadios, capaces de enviar vídeo en directo a la policía. Circulan bulos sobre reconocimiento facial que Reuters ha desmentido. Te contamos qué hace de verdad esta tecnología.",
+    title: "Perros robot 'Spot' patrullando el Mundial 2026: qué hacen de verdad (y qué no, pese a los bulos)",
+    summary: "El Mundial 2026 despliega los perros robot Spot de Boston Dynamics, de la mano de Hyundai, para vigilar estadios e instalaciones. Patrullan e inspeccionan de forma autónoma, pero NO llevan reconocimiento facial, pese a los bulos virales. Te contamos qué hace de verdad esta tecnología.",
     body: `El Mundial 2026 no solo será el primero con 48 selecciones y tres países anfitriones: también es el primero que despliega **perros robot** como parte del operativo de seguridad. Las imágenes de estos cuadrúpedos metálicos patrullando los alrededores de los estadios se han hecho virales, y con ellas también una buena dosis de desinformación.
+
+## Quién los pone: Boston Dynamics y Hyundai
+
+No son robots anónimos. Se trata del modelo **Spot, de Boston Dynamics** —la empresa de robótica que es filial del **Hyundai Motor Group**—, y **Hyundai es el socio oficial de robótica de la FIFA** para este Mundial. La marca coreana ha desplegado más de **1.500 vehículos avanzados y robots** para tareas de logística, seguridad y gestión de instalaciones a lo largo del torneo. Dicho de otro modo, los perros robot son solo la punta visible de una operación mucho mayor: detrás hay flotas de vehículos autónomos y sistemas automatizados moviéndose por aparcamientos, accesos y zonas internas que el aficionado nunca llega a ver.
+
+De los perros robot en concreto, se han confirmado **cuatro unidades Spot**, repartidas entre puntos sensibles como el **Centro Internacional de Radio y Televisión (IBC) de Dallas** y estadios de **Nueva York y Nueva Jersey**, dentro del operativo conjunto de Estados Unidos, Canadá y México.
 
 ## Qué hacen los perros robot
 
-Según la información publicada, los robots cuadrúpedos se están utilizando en la **zona de Monterrey (México)** con fines de seguridad y patrulla. Su gran ventaja operativa es que pueden **transmitir vídeo en directo** a las fuerzas de seguridad y actuar como **primera intervención** en una incidencia sin exponer físicamente a los agentes: el robot entra, observa y envía lo que ve antes de que llegue una persona.
+La gran ventaja de Spot es que puede **navegar de forma autónoma por espacios abarrotados y complejos**, realizar **patrullas e inspecciones en tiempo real** y vigilar zonas con grandes concentraciones de público. En la práctica funcionan como una primera línea de observación: el robot recorre un perímetro, transmite lo que ve y permite cubrir más terreno sin exponer físicamente a los agentes.
 
-No es ciencia ficción ni un capricho. Un torneo repartido entre Estados Unidos, México y Canadá, con 16 sedes y millones de aficionados desplazándose, plantea un reto de seguridad sin precedentes, y la robótica es una de las herramientas con las que las autoridades quieren cubrir más terreno con menos riesgo.
+No es ciencia ficción ni un capricho. Un torneo repartido entre tres países, con 16 sedes y millones de aficionados desplazándose, plantea un reto de seguridad sin precedentes, y la robótica es una de las herramientas con las que las autoridades quieren ganar ojos sobre el terreno.
 
 ## El bulo del reconocimiento facial
 
-Aquí conviene parar y separar el dato de la leyenda. En redes circuló la idea de que estos perros robot incorporaban **reconocimiento facial** para identificar aficionados. **Reuters publicó una verificación desmintiéndolo**: los robots no estaban destinados a esa función. Es un matiz importante, porque la diferencia entre un robot que patrulla y graba vídeo y uno que identifica rostros de forma automática es enorme en términos de privacidad.
+Aquí conviene parar y separar el dato de la leyenda. En redes circuló la idea de que estos perros robot incorporaban **reconocimiento facial** para identificar aficionados. Es falso: la información oficial es tajante en que **estos robots no tienen capacidad de escaneo ni de reconocimiento facial**, y agencias como Reuters han publicado verificaciones desmintiendo esa afirmación. El matiz es enorme: no es lo mismo un robot que patrulla y graba vídeo que uno que identifica rostros de forma automática.
 
 ## No solo perros: la IA también vigila
 
@@ -185,10 +191,13 @@ Que la seguridad de un gran evento se apoye en robots y algoritmos abre un debat
 
 Mientras tanto, los perros robot ya forman parte del paisaje de este Mundial, tan novedoso fuera del campo como dentro. Si te interesan estas curiosidades del torneo, tienes más en nuestra sección de [noticias del Mundial 2026](/noticias).`,
     category: 'curiosa',
-    sourceName: 'The Jerusalem Post',
-    sourceUrl: 'https://www.jpost.com/business-and-innovation/all-news/article-899268',
+    sourceName: 'Jordan News',
+    sourceUrl: 'https://www.jordannews.jo/Section-129/Technology/2026-World-Cup-Deploys-Robot-Dogs-to-Secure-Stadiums-52020',
     sourceLang: 'en',
     publishedAt: '2026-06-16T13:30:00Z',
+    sourcesSecondary: [
+      { name: 'The Jerusalem Post — IA y tecnología en el Mundial 2026', url: 'https://www.jpost.com/business-and-innovation/all-news/article-899268' },
+    ],
   },
   {
     slug: 'partidos-mundial-2026-hoy-2026-06-16',
