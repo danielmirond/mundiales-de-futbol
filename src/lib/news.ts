@@ -125,6 +125,64 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'jens-castrop-corea-primer-jugador-mestizo-mundial-2026',
+    title: 'Jens Castrop, el alemán que se hizo coreano: la historia del primer futbolista mestizo de Corea en un Mundial',
+    summary: 'Nacido en Alemania, hijo de padre alemán y madre coreana, Jens Castrop se ha convertido en una de las historias más bonitas del Mundial 2026: el primer jugador mestizo y nacido fuera del país en vestir la camiseta de Corea del Sur en una Copa del Mundo. Detrás, la historia de su madre, An Su-yeon, y de una infancia entre dos culturas.',
+    body: `No todas las historias del Mundial 2026 se cuentan con goles. La de **Jens Castrop** se cuenta con kimchi, bicicletas y dos banderas. Nacido en **Alemania**, hijo de padre alemán y madre coreana, Castrop se ha convertido en el **primer futbolista mestizo y nacido en el extranjero en vestir la camiseta de Corea del Sur en una Copa del Mundo**, un hito en un país de tradición futbolística muy homogénea.
+
+## Quién es Jens Castrop
+
+Castrop es un futbolista formado en el fútbol alemán que actúa en la **banda izquierda**, como carrilero. Llegó a la órbita de la selección de **Corea del Sur** que dirige **Hong Myung-bo** y se ganó su sitio en los últimos amistosos previos al torneo: disputó los partidos de preparación ante **Trinidad y Tobago** y **El Salvador** del 31 de mayo, donde dejó buenas sensaciones. Su convocatoria para el Mundial culmina un proceso de acercamiento al país de su madre.
+
+## La historia de su madre, An Su-yeon
+
+El verdadero corazón de esta historia está en **An Su-yeon**, su madre, originaria de **Sanpo, en Naju** (provincia de Jeolla del Sur). Segundo de tres hermanos, Jens creció en Alemania pero con **alma coreana**: su madre lo educó desde pequeño en los valores, la etiqueta y, sobre todo, la comida de su tierra. En casa de los Castrop no faltaba el **kimchi jjigae**, y el coreano convivía con el alemán como lengua del hogar.
+
+La prensa coreana ha rescatado además la infancia humilde de An Su-yeon, que de niña recorría a diario unos **8 kilómetros en bicicleta** para llegar a la escuela, y que hizo de aquella mentalidad resiliente y positiva una herencia que transmitió a su hijo. Esa mezcla —disciplina alemana y raíces coreanas— es la que hoy presume el seleccionador.
+
+## Por qué es un hito
+
+El caso de Castrop trasciende lo deportivo. Corea del Sur ha sido históricamente una selección formada casi en exclusiva por jugadores nacidos y criados en el país, y la llegada de un futbolista **nacido en Alemania y de origen mixto** marca un cambio simbólico: el reflejo de una sociedad cada vez más diversa y de una federación dispuesta a mirar más allá de sus fronteras para reforzar al equipo. En un Mundial de 48 selecciones, las historias de identidad como la suya se multiplican, pero pocas tan redondas como la del chico que creció comiendo kimchi en Alemania y ha acabado defendiendo a los *Guerreros Taeguk*.
+
+## Corea, en el Grupo A
+
+Corea del Sur arrancó su Mundial en el **Grupo A**, el de los anfitriones mexicanos, midiéndose a la **República Checa** en Guadalajara. Puedes seguir a la selección de Hong Myung-bo en la ficha de [Corea del Sur](/selecciones/KOR), repasar su grupo en [grupos y clasificación](/2026/grupos) y consultar el [calendario del Mundial](/2026/calendario). La de Jens Castrop es, probablemente, una de las historias humanas más bonitas de todo el torneo.`,
+    category: 'jugadores',
+    sourceName: 'Mundiales de Fútbol',
+    sourceUrl: 'https://v.daum.net/v/20260611170014394',
+    sourceLang: 'es',
+    publishedAt: '2026-06-16T15:00:00Z',
+  },
+  {
+    slug: 'oh-hyun-gyu-padres-restaurante-corea-mundial-2026',
+    title: 'Cerraron su restaurante tres semanas para verle y él les regaló el gol: la historia de Oh Hyun-gyu en el Mundial 2026',
+    summary: 'Los padres del delantero coreano Oh Hyun-gyu colgaron el cartel de "cerrado" en su restaurante del 8 al 30 de junio para irse a apoyarle al Mundial 2026. Su hijo se lo pagó con un gol de la remontada en el debut de Corea ante la República Checa. Una de las historias más emotivas del torneo.',
+    body: `El Mundial 2026 está dejando estampas que valen más que un resultado. Una de ellas tiene como protagonistas a **Oh Hyun-gyu**, delantero de la selección de Corea del Sur, y a sus padres, que tomaron una decisión de película para no perderse el debut de su hijo.
+
+## Un cartel de "cerrado" que lo dice todo
+
+Los padres de Oh Hyun-gyu regentan un restaurante en Corea. Cuando supieron que su hijo iba al Mundial, no lo dudaron: colgaron un cartel en la puerta del local que se ha hecho viral. *"Cerrado. Del 8 de junio al 30 de junio nos vamos a animar al Mundial"*, rezaba el aviso, con la promesa de reabrir el **1 de julio**. Es decir, **echaron el cierre casi un mes** —y renunciaron a las ganancias de tres semanas— solo para cruzar medio mundo y ver jugar a su hijo.
+
+## El hijo se lo pagó con un gol de la remontada
+
+La historia tenía pendiente su mejor capítulo, y llegó pronto. En el debut de Corea del Sur ante la **República Checa**, en la fase de grupos del Mundial 2026, Oh Hyun-gyu entró en escena en la segunda mitad y marcó un **gol decisivo de la remontada** (un *역전골*, "gol de la vuelta", como lo bautizó la prensa coreana) que encarriló una victoria épica de los *Guerreros Taeguk*. El sacrificio de unos padres que cerraron su negocio para estar ahí se transformó, sobre el césped, en uno de esos goles que se recuerdan para siempre.
+
+## Eva Popiel y el cariño popular
+
+La historia ha conmovido tanto en Corea que ha trascendido al propio futbolista. **Eva Popiel**, una conocida personalidad de origen británico que ha obtenido recientemente la nacionalidad surcoreana, se acercó hasta el restaurante cerrado de la familia para felicitarles y se hizo una foto frente al local, compartiendo la emoción del momento. El gesto convirtió el pequeño restaurante en un símbolo del Mundial vivido desde casa: el del aficionado anónimo que lo da todo por su selección.
+
+## Una historia muy de Mundial
+
+Más allá del marcador, lo de Oh Hyun-gyu resume el espíritu de una Copa del Mundo: familias que paran su vida durante un mes, negocios que bajan la persiana, padres que cruzan océanos. Y, de vez en cuando, el premio: un gol del hijo, en el debut, para que el viaje merezca la pena.
+
+Puedes seguir a la selección coreana en la ficha de [Corea del Sur](/selecciones/KOR), repasar el **Grupo A** en [grupos y clasificación](/2026/grupos) y consultar todos los partidos en el [calendario del Mundial](/2026/calendario).`,
+    category: 'curiosa',
+    sourceName: 'Mundiales de Fútbol',
+    sourceUrl: 'https://v.daum.net/v/20260613064700206',
+    sourceLang: 'es',
+    publishedAt: '2026-06-16T15:30:00Z',
+  },
+  {
     slug: 'cuando-juega-argentina-hoy-argelia-mundial-2026',
     title: 'A qué hora juega Argentina hoy y contra quién: Argentina-Argelia, el debut de la Scaloneta en el Mundial 2026',
     summary: 'Argentina, la campeona del mundo, debuta en el Mundial 2026 ante Argelia. El partido es hoy a las 22:00 (hora de Argentina) / 03:00 de la madrugada del 17 en España, en el Arrowhead Stadium de Kansas City. Horario, rival, el Grupo J, los próximos partidos de la Albiceleste y dónde verlo.',
