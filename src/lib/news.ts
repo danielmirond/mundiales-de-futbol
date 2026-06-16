@@ -125,6 +125,37 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'japon-shibuya-40-segundos-celebracion-mundial-2026',
+    title: 'Japón celebró su empate ante Países Bajos en el cruce de Shibuya… pero solo 40 segundos (porque eso dura el semáforo)',
+    summary: 'Tras el 2-2 de Japón ante Países Bajos en el Mundial 2026, miles de aficionados corrieron al famoso cruce de Shibuya en Tokio para celebrar. La euforia duró exactamente lo que el semáforo en verde: 40 segundos. Al ponerse en rojo, todos volvieron disciplinadamente a la acera. La celebración más japonesa posible.',
+    body: `El Mundial 2026 ya tiene su postal más entrañable, y no la firma un jugador, sino una multitud. Tras el **2-2 de Japón ante Países Bajos**, los aficionados nipones celebraron en el lugar más icónico de Tokio… durante exactamente **40 segundos**. Ni uno más.
+
+## Un puntazo de épica en el descuento
+
+El partido, disputado en el Dallas Stadium, fue de los más entretenidos de la primera fase. Países Bajos se adelantó con un tanto de **Virgil van Dijk (51')** y amplió por medio de **Crysencio Summerville (64')**, pero Japón nunca se rindió: **Keito Nakamura (57')** recortó distancias y **Daichi Kamada**, en el minuto **89'**, firmó el **2-2** definitivo. Un punto de oro arrancado a una de las favoritas, y la señal de que esta Japón vuelve a ir en serio.
+
+## La fiesta más corta (y más educada) del Mundial
+
+Como suele ocurrir con los grandes acontecimientos, miles de aficionados se lanzaron a la calle a celebrarlo. ¿El punto de encuentro? El **cruce de Shibuya**, el paso de peatones más famoso del planeta. Allí, la marea humana estalló de alegría… hasta que el semáforo cambió.
+
+Porque el verde para peatones en Shibuya dura **exactamente 40 segundos**. Y cuando se puso en rojo, los hinchas japoneses, en una estampa que ha dado la vuelta al mundo, **dejaron de celebrar y volvieron ordenadamente a la acera**. Ni una infracción, ni un cruce indebido: la euforia, eso sí, contenida dentro de las normas de tráfico.
+
+## Por qué Shibuya es el escenario perfecto
+
+El cruce de Shibuya no es un paso de peatones cualquiera: está considerado **el más concurrido del mundo**. En hora punta llegan a cruzarlo **hasta 3.000 personas a la vez** en un solo cambio de semáforo, y se calcula que por él pasan entre **250.000 y 500.000 peatones al día**. Es el corazón del Tokio moderno y el sitio donde la ciudad celebra (y llora) cualquier acontecimiento colectivo.
+
+De ahí que la imagen sea tan redonda: en el lugar más caótico imaginable, los aficionados japoneses ofrecieron una lección de civismo. *"La celebración más japonesa posible"*, resumió un comentarista: ni siquiera una fiesta espontánea de fútbol les hizo saltarse las reglas.
+
+## Japón, una favorita silenciosa
+
+Más allá de la anécdota, el empate confirma el buen momento de una **Japón** que lleva años acercándose a las grandes potencias y que sueña con romper su techo en este Mundial. Puedes seguir a los *Samuráis Azules* en la ficha de [Japón](/selecciones/JPN), revisar el resultado en la ficha de [Países Bajos-Japón](/2026/partido/paises-bajos-japon) y consultar su grupo en [grupos y clasificación](/2026/grupos). Cuarenta segundos de gloria, los justos: hasta para celebrar, Japón es campeona.`,
+    category: 'curiosa',
+    sourceName: 'Mundiales de Fútbol',
+    sourceUrl: 'https://www.antena3.ro/cupa-mondiala-2026/japonezii-s-au-bucurat-fix-40-de-secunde-pentru-egalul-cu-olanda-de-la-cm-2026-pentru-ca-atat-dureaza-verdele-in-intersectia-shibuya-792095.html',
+    sourceLang: 'es',
+    publishedAt: '2026-06-16T16:00:00Z',
+  },
+  {
     slug: 'jens-castrop-corea-primer-jugador-mestizo-mundial-2026',
     title: 'Jens Castrop, el alemán que se hizo coreano: la historia del primer futbolista mestizo de Corea en un Mundial',
     summary: 'Nacido en Alemania, hijo de padre alemán y madre coreana, Jens Castrop se ha convertido en una de las historias más bonitas del Mundial 2026: el primer jugador mestizo y nacido fuera del país en vestir la camiseta de Corea del Sur en una Copa del Mundo. Detrás, la historia de su madre, An Su-yeon, y de una infancia entre dos culturas.',
