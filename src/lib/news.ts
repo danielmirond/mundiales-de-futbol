@@ -125,6 +125,38 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'deschamps-espana-favorita-lamine-yamal-mundial-2026',
+    title: "Deschamps corona a España antes de debutar: \"El favorito absoluto es España, no tengo ninguna duda\"",
+    summary: "En la rueda de prensa previa al debut de Francia ante Senegal, Didier Deschamps quitó presión a su equipo señalando a España como gran favorita del Mundial 2026 y elogió sin reservas a Lamine Yamal. También salió en defensa de Mbappé. Repasamos sus frases.",
+    body: `Pocas veces el seleccionador de una candidata al título señala a otra como favorita en voz alta. Didier Deschamps lo hizo en la rueda de prensa previa al debut de **Francia ante Senegal** en el Mundial 2026, y el dedo apuntó directo a **España**.
+
+## "El favorito absoluto es España"
+
+El técnico francés no se anduvo con rodeos: **"El favorito absoluto es España, no tengo ninguna duda"**, afirmó, en una jugada clásica de quitar presión a su propio vestuario. Y fue más allá al rendirse a la gran estrella de La Roja: **"España, con Lamine Yamal, a quien veo seguir imponiéndose como uno de los mejores jugadores del mundo"**. Para Deschamps, el rendimiento español dependerá del estado del extremo del Barça: **"La Roja necesitará a un Lamine a su mejor nivel"**.
+
+## Francia, candidata pero "no superior a los demás"
+
+Pese a colocar a España por delante, Deschamps no renunció a las aspiraciones de su equipo, finalista en Catar 2022 y campeón en 2018: **"Francia tiene el potencial si se ven los últimos dos Mundiales"**. Eso sí, con los pies en el suelo: **"No voy a ver a Francia como un equipo superior a los demás"**.
+
+## Defensa cerrada de Mbappé
+
+El otro gran tema fue Kylian Mbappé, capitán y foco permanente de la conversación tanto en España, donde juega en el Real Madrid, como en Francia. Deschamps lo defendió de las críticas: **"Kylian siempre dará que hablar. Ya sea en España o con la selección francesa"**. Y apuntó al papel de las redes sociales en esa sobreexposición: **"El fenómeno se ha amplificado con la aparición de las redes sociales: se oye más a la minoría porque se expresa más fuerte, mientras que la mayoría permanece silenciosa"**.
+
+## El fantasma de 2002 y la despedida de Deschamps
+
+El duelo ante Senegal no es un debut cualquiera para Francia. El único antecedente mundialista entre ambos es el **1-0 que los senegaleses endosaron a los galos en la inauguración de Corea-Japón 2002**, con Francia como vigente campeona y posterior eliminación en la fase de grupos. Desde el lado senegalés, su seleccionador Hervé Renard ha reconocido que en su vestuario "solo se habla del partido de 2002".
+
+Además, este Mundial tiene un matiz de despedida: Deschamps ya ha confirmado que **dejará el cargo al término del torneo**, cerrando más de una década al frente de Les Bleus. Un motivo más para querer empezar con buen pie. El Francia-Senegal abre el Grupo I; puedes seguir la actualidad del torneo en nuestras [noticias del Mundial 2026](/noticias) y la clasificación en [grupos](/2026/grupos).`,
+    category: 'tecnico',
+    sourceName: 'RPP',
+    sourceUrl: 'https://rpp.pe/futbol/mundial-2026/el-gran-favorito-es-espana-no-tengo-duda-didier-deschamps-le-quita-presion-a-francia-antes-del-debut-noticia-1693266',
+    sourceLang: 'es',
+    publishedAt: '2026-06-16T16:00:00Z',
+    sourcesSecondary: [
+      { name: 'Soccerway — Hervé Renard y el recuerdo de 2002', url: 'https://pt.soccerway.com/noticias/futebol-campeonato-do-mundo-mundial-2026-senegal-so-fala-do-jogo-de-2002-contra-a-franca-garante-herve-renard/dx9F8xAD' },
+    ],
+  },
+  {
     slug: 'cesped-mundial-2026-tecnologia-maquinas-fifa',
     title: "Ni un robot cortacésped cualquiera: la operación científica que mantiene el césped del Mundial 2026",
     summary: "El césped del Mundial 2026 es el más vigilado de la historia: máquinas que cosen fibras sintéticas, torres de luces para los estadios con techo y balones disparados a 88 km/h para medir el bote. Detrás hay tres universidades y un ejército de tecnología.",
