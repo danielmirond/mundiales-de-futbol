@@ -125,6 +125,35 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'francia-senegal-previa-mundial-2026-debut',
+    title: 'Francia-Senegal: la previa del debut de los Bleus en el Mundial 2026 (horario, dónde ver y por qué no es un estreno fácil)',
+    summary: 'Francia, una de las grandes favoritas, debuta en el Mundial 2026 ante un Senegal de mucho cuidado. El partido es hoy a las 21:00 (hora española) en el MetLife Stadium. Te contamos cómo llegan los Bleus de Mbappé, el Grupo I con Noruega y Haaland al acecho, y dónde verlo en TV.',
+    body: `Una de las favoritas entra en escena. **Francia debuta en el Mundial 2026 ante Senegal** hoy a las **21:00 (hora española)** en el **MetLife Stadium**, el mismo estadio que acogerá la final. Los Bleus parten como candidatos al título, pero el sorteo no les ha regalado precisamente un estreno cómodo.
+
+## Un debut con trampa
+
+Senegal no es un rival menor: es una de las grandes potencias de África, con una generación physical y con experiencia europea que ya plantó cara en Catar 2022. Como recordó el pinchazo de España ante Cabo Verde, en este Mundial **no hay debuts fáciles**, y Francia lo sabe. El conjunto de **Kylian Mbappé** —su gran estrella y referente— necesitará arrancar con autoridad para no repetir sobresaltos.
+
+## El Grupo I: Senegal, Irak y la amenaza de Noruega
+
+Francia cayó en el **Grupo I**, uno de los más entretenidos del cuadro. Tras Senegal, los Bleus se medirán a **Irak** (22 de junio) y cerrarán la fase ante la **Noruega de Erling Haaland** (26 de junio), uno de los duelos más esperados de toda la primera ronda. Puedes seguir la clasificación en [grupos y clasificación](/2026/grupos) y todas las fechas en el [calendario del Mundial](/2026/calendario).
+
+## La camiseta de Francia, viral más allá del campo
+
+El estreno francés llega con un fenómeno paralelo: **la nueva camiseta de Francia para el Mundial 2026 se ha convertido en uno de los grandes virales** de la previa, disparando las búsquedas de aficionados que quieren hacerse con la equipación. El fútbol y la moda, de la mano, en el debut de los Bleus.
+
+## Dónde ver el Francia-Senegal
+
+En España, el partido se podrá ver a través de **DAZN**, de la forma más cómoda con **Movistar Plus+ vía DAZN**, que reúne los 104 encuentros del torneo. Los choques más destacados pueden entrar además en la señal en abierto de **RTVE**. Tienes el detalle en [dónde ver el Mundial 2026](/2026/donde-ver).
+
+Sigue la ficha del partido en [Francia-Senegal](/2026/partido/francia-senegal) y consulta a las protagonistas en [Francia](/selecciones/FRA) y [Senegal](/selecciones/SEN). El Mundial de los Bleus arranca esta noche.`,
+    category: 'general',
+    sourceName: 'Mundiales de Fútbol',
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-16T11:30:00Z',
+  },
+  {
     slug: 'partidos-mundial-2026-hoy-2026-06-16',
     title: "Partidos del Mundial 2026 hoy, Martes 16 de junio: horarios (hora España), sedes y dónde ver",
     summary: "Calendario de los 3 partidos del Mundial 2026 de hoy, martes 16 de junio: horarios en hora española, sedes y dónde verlos en TV. Destaca el Arabia Saudí - Uruguay.",
