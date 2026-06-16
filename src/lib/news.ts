@@ -125,6 +125,45 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'donde-esta-freddy-hincha-aleman-viral-mundial-2026',
+    title: "¿Dónde está Freddy? El hincha alemán viral que cruza Estados Unidos en el Mundial 2026",
+    summary: "Se le conoce como Freddy (@FreddyLA7) y se ha convertido en el personaje sorpresa del Mundial 2026: un aficionado alemán que recorre Estados Unidos siguiendo a su selección y maravillándose con todo, de la NASA a un Bass Pro Shops. Seguimos su viaje día a día.",
+    body: `Cada Mundial tiene su personaje inesperado. El del Mundial 2026 no es un jugador: es **Freddy**, un aficionado alemán que viaja por Estados Unidos siguiendo a su selección y que se ha hecho viral en redes —bajo el usuario **@FreddyLA7**— documentando un road trip tan entrañable como desternillante.
+
+La fórmula es sencilla y por eso engancha: Freddy y sus amigos siguen a Alemania de sede en sede, pero entre partido y partido se dedican a vivir **la experiencia americana más auténtica posible**, y él lo comparte con una mezcla de asombro genuino y humor que ha conquistado a medios de medio mundo. Hasta el *Washington Post* le ha dedicado una columna y *Barstool Sports* lo ha entrevistado.
+
+## El diario de Freddy, día a día
+
+- **9 de junio · Auburn (Alabama)** — Arranca la aventura con un amistoso de Alemania antes del torneo.
+- **Carretera por el Sur** — Tubing en un río de Tennessee, peregrinación a un **Bass Pro Shops** de Alabama (las megatiendas de caza y pesca que alucinan a cualquier europeo), Bourbon Street en **Nueva Orleans** y visita a las instalaciones de los Saints (NFL) y los Pelicans (NBA).
+- **Luisiana** — Parada en las instalaciones de **LSU** y, cómo no, un **Raising Cane's** (el templo del pollo frito del sur).
+- **Houston** — Noche de béisbol viendo a los **Astros** contra los Tigers en la MLB.
+- **14 de junio** — El plato fuerte deportivo: **Alemania golea 7-1 a Curazao** en su estreno mundialista.
+- **Texas · NASA** — El momento cumbre del viaje hasta ahora: un tour por la NASA guiado por la **astronauta Anne McClain**, con la cápsula Orión incluida.
+
+## "Lo más guay del mundo"
+
+Si hay una imagen que resume el fenómeno Freddy es la de su visita a la NASA. Allí soltó la frase que se hizo viral: *"This is the coolest thing ever. We're at NASA getting a tour from astronaut Anne McClain"* ("Esto es lo más guay del mundo. Estamos en la NASA, con un tour de la astronauta Anne McClain").
+
+Esa capacidad de **emocionarse con todo** —un centro comercial, una hamburguesería, un cohete— es justo lo que ha conectado con el público. En plena era de cinismo, Freddy es el recordatorio de que un Mundial también es eso: viajar, descubrir un país y dejarse sorprender.
+
+## Por qué ha conectado tanto
+
+El Mundial 2026, repartido entre Estados Unidos, Canadá y México, invita precisamente a esto: a los aficionados que cruzan medio continente para seguir a su equipo. Freddy ha puesto cara a ese "sueño americano" desde la mirada del recién llegado, y de paso ha hecho de embajador improvisado tanto de Alemania como del propio torneo.
+
+Nosotros vamos a **seguir su viaje día a día**: cada nueva parada, cada partido de Alemania y cada descubrimiento americano lo iremos añadiendo aquí. Mientras tanto, puedes seguir toda la actualidad en nuestras [noticias del Mundial 2026](/noticias) y consultar el [calendario](/2026/calendario) para saber cuándo vuelve a jugar la selección de Freddy.`,
+    category: 'curiosa',
+    sourceName: 'Yahoo Sports',
+    sourceUrl: 'https://ca.sports.yahoo.com/news/where-freddy-germany-fan-latest-183700391.html',
+    sourceLang: 'en',
+    publishedAt: '2026-06-16T18:30:00Z',
+    modifiedAt: '2026-06-16T18:30:00Z',
+    sourcesSecondary: [
+      { name: 'The Washington Post — el viaje viral de Freddy', url: 'https://www.washingtonpost.com/opinions/2026/06/15/viral-german-soccer-fan-freddy-travels-us-world-cup-marveling/' },
+      { name: 'Barstool Sports — entrevista a Freddy', url: 'https://www.barstoolsports.com/blog/3571389/the-american-dream-this-german-soccer-fan-documenting-his-road-trip-across-is' },
+    ],
+  },
+  {
     slug: 'deschamps-espana-favorita-lamine-yamal-mundial-2026',
     title: "Deschamps corona a España antes de debutar: \"El favorito absoluto es España, no tengo ninguna duda\"",
     summary: "En la rueda de prensa previa al debut de Francia ante Senegal, Didier Deschamps quitó presión a su equipo señalando a España como gran favorita del Mundial 2026 y elogió sin reservas a Lamine Yamal. También salió en defensa de Mbappé. Repasamos sus frases.",
@@ -1137,6 +1176,28 @@ La buena noticia para quien no quiere pagar: **RTVE ofrece gratis y en abierto 3
 
 **Fase de grupos — 17 partidos.** RTVE emite **un partido por jornada** (eligiendo el más atractivo del día) y, por encima de todo, **todos los partidos de la selección española íntegros** en La 1. El [partido inaugural](/2026/partido/mexico-sudafrica) entra en ese paquete.
 
+Esta es la **lista oficial de los 17 partidos de fase de grupos** que La 1 emite gratis y en abierto (en negrita, los de España):
+
+- **11 jun** · [México - Sudáfrica](/2026/partido/mexico-sudafrica) — inauguración
+- **12 jun** · Canadá - Bosnia y Herzegovina
+- **14 jun** · Brasil - Marruecos
+- **14 jun** · Alemania - Curazao
+- **15 jun** · 🇪🇸 **[España - Cabo Verde](/2026/partido/espana-cabo-verde)**
+- **16 jun** · [Francia - Senegal](/2026/partido/francia-senegal)
+- **17 jun** · Inglaterra - Croacia
+- **18 jun** · Suiza - Bosnia y Herzegovina
+- **19 jun** · Estados Unidos - Australia
+- **20 jun** · Países Bajos - Suecia
+- **21 jun** · 🇪🇸 **España - Arabia Saudí**
+- **22 jun** · Argentina - Austria
+- **23 jun** · Inglaterra - Ghana
+- **25 jun** · Escocia - Brasil
+- **25 jun** · Ecuador - Alemania
+- **27 jun** · 🇪🇸 **Uruguay - España**
+- **28 jun** · Colombia - Portugal
+
+Para saber cada día qué partido toca en abierto, lo tienes también en la pieza diaria de [partidos de hoy](/2026/partidos-hoy), con el desglose de qué se ve gratis en La 1 y qué solo en DAZN.
+
 **Eliminatorias — 17 partidos.** Aquí La 1 sube el ritmo y ofrece:
 
 - **6 partidos de dieciseisavos** de final (la primera ronda eliminatoria, novedad del formato de 48 selecciones).
@@ -1168,6 +1229,7 @@ Con esta combinación —RTVE para lo grande y gratis, DAZN/Movistar Plus+ para 
     sourceUrl: 'https://www.elespanol.com/corazon/bluper/20260611/ver-mundial-television-espana-fechas-horarios-partidos-rtve-retransmite-gratis/1003744282168_0.html',
     sourceLang: 'es',
     publishedAt: '2026-06-13T09:00:00Z',
+    modifiedAt: '2026-06-16T18:00:00Z',
     sourcesSecondary: [
       { name: 'elDiario · Vertele', url: 'https://www.eldiario.es/vertele/noticias/mundial-2026-calendario-partidos-fase-grupos-emitir-rtve-dazn_1_13293515.html' },
       { name: 'ExtraDigital', url: 'https://www.extradigital.es/estos-son-los-17-partidos-que-rtve-emitira-en-abierto-del-mundial-de-futbol-2026-nac/' },
