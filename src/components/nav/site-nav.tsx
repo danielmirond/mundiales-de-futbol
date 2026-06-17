@@ -82,7 +82,7 @@ export function SiteNav() {
             {t('whereToWatch')}
           </Link>
           <Link
-            href={withLocale(locale, '/2026')}
+            href={withLocale(locale, '/2026/partidos-hoy')}
             className="ms-1 inline-flex items-center gap-2 rounded-full border border-[var(--color-pitch)]/30 bg-[var(--color-pitch)]/10 px-4 py-2 text-sm font-semibold text-[var(--color-pitch)] transition-colors hover:bg-[var(--color-pitch)]/20"
           >
             <span className="relative flex h-2 w-2">
@@ -127,7 +127,7 @@ export function SiteNav() {
             calendarLink,
             ...links,
             { href: '/2026/donde-ver', label: t('whereToWatch') },
-            { href: '/2026', label: t('live2026') },
+            { href: '/2026/partidos-hoy', label: t('live2026') },
           ].map((l) => (
             <Link
               key={l.href}
