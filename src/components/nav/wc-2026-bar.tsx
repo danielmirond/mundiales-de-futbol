@@ -74,18 +74,52 @@ export function Wc2026Bar() {
     return () => clearInterval(id);
   }, []);
 
-  // Server-render: skeleton (sin tiempo) para evitar hydration mismatch.
+  // Quick-nav: 4 enlaces fijos. Se renderiza también en SSR / primer paint,
+  // así los enlaces están presentes en el HTML (crawleables, SEO).
+  const quickNav = (
+    <nav className="flex flex-wrap items-center justify-center gap-x-3 gap-y-1 font-mono uppercase tracking-[0.18em] text-[var(--color-fg-muted)]">
+      <Link
+        href={withLocale(locale, '/2026/partidos-hoy')}
+        className="font-semibold text-[var(--color-pitch)] transition-opacity hover:opacity-80"
+      >
+        {t('today')}
+      </Link>
+      <Link
+        href={withLocale(locale, '/noticias/rtve-la1-partidos-mundial-2026-abierto-donde-ver-resto-dazn')}
+        className="transition-colors hover:text-[var(--color-pitch)]"
+      >
+        {t('rtve')}
+      </Link>
+      <Link
+        href={withLocale(locale, '/2026/calendario')}
+        className="transition-colors hover:text-[var(--color-pitch)]"
+      >
+        {t('calendar')}
+      </Link>
+      <Link
+        href={withLocale(locale, '/2026/grupos')}
+        className="transition-colors hover:text-[var(--color-pitch)]"
+      >
+        {t('groups')}
+      </Link>
+    </nav>
+  );
+
+  // Server-render / primer paint: chip estático (sin countdown) para evitar
+  // hydration mismatch; el quick-nav SÍ va en el HTML.
   if (!mounted) {
     return (
       <div className="sticky top-0 z-40 border-b border-[var(--color-border)] bg-[var(--color-bg)]/85 backdrop-blur">
-        <div className="mx-auto flex w-full max-w-[1400px] items-center justify-between gap-4 px-6 py-2.5 text-xs md:px-10">
-          <span className="inline-flex items-center gap-2 font-mono uppercase tracking-[0.2em] text-[var(--color-pitch)]">
+        <div className="mx-auto flex w-full max-w-[1400px] flex-wrap items-center justify-between gap-x-6 gap-y-2 px-6 py-2.5 text-xs md:px-10">
+          <Link
+            href={withLocale(locale, '/2026')}
+            className="inline-flex items-center gap-2 font-mono uppercase tracking-[0.2em] text-[var(--color-pitch)] transition-opacity hover:opacity-80"
+            aria-label={t('label')}
+          >
             <span className="h-1.5 w-1.5 rounded-full bg-[var(--color-pitch)]" />
             {t('label')}
-          </span>
-          <span className="font-mono text-[var(--color-fg-subtle)]">
-            USA · CAN · MEX · 11 jun 2026
-          </span>
+          </Link>
+          {quickNav}
         </div>
       </div>
     );
@@ -161,32 +195,7 @@ export function Wc2026Bar() {
         </span>
 
         {/* Quick nav derecha */}
-        <nav className="flex items-center gap-3 font-mono uppercase tracking-[0.18em] text-[var(--color-fg-muted)]">
-          <Link
-            href={withLocale(locale, '/2026/partidos-hoy')}
-            className="font-semibold text-[var(--color-pitch)] transition-opacity hover:opacity-80"
-          >
-            {t('today')}
-          </Link>
-          <Link
-            href={withLocale(locale, '/2026/calendario')}
-            className="transition-colors hover:text-[var(--color-pitch)]"
-          >
-            {t('calendar')}
-          </Link>
-          <Link
-            href={withLocale(locale, '/2026/grupos')}
-            className="transition-colors hover:text-[var(--color-pitch)]"
-          >
-            {t('groups')}
-          </Link>
-          <Link
-            href={withLocale(locale, '/2026/entradas')}
-            className="hidden transition-colors hover:text-[var(--color-pitch)] sm:inline"
-          >
-            {t('tickets')}
-          </Link>
-        </nav>
+        {quickNav}
       </div>
     </div>
   );
