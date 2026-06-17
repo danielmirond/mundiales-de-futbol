@@ -137,6 +137,7 @@
     "calendar": "Schedule",
     "groups": "Groups",
     "tickets": "Tickets",
+    "today": "Today's matches",
     "dayShort": "d",
     "hourShort": "h",
     "minuteShort": "m"

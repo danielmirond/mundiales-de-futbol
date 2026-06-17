@@ -146,21 +146,28 @@ export function Wc2026Bar() {
               </span>
             </>
           )}
-          {phase === 'group' && (
-            <span className="font-mono text-[var(--color-fg-subtle)]">
-              {t('groupStage')}
-            </span>
-          )}
-          {phase === 'ko' && (
-            <span className="font-mono text-[var(--color-fg-subtle)]">
-              {t('koStage')}
-            </span>
+          {(phase === 'group' || phase === 'ko') && (
+            <Link
+              href={withLocale(locale, '/2026/partidos-hoy')}
+              className="inline-flex items-center gap-2 font-mono text-[var(--color-fg-muted)] transition-colors hover:text-[var(--color-pitch)]"
+            >
+              <span className="text-[var(--color-fg-subtle)]">
+                {phase === 'group' ? t('groupStage') : t('koStage')}
+              </span>
+              <span className="text-[var(--color-pitch)]">· {t('today')} →</span>
+            </Link>
           )}
           {phase === 'post' && t('postSubtitle')}
         </span>
 
         {/* Quick nav derecha */}
         <nav className="flex items-center gap-3 font-mono uppercase tracking-[0.18em] text-[var(--color-fg-muted)]">
+          <Link
+            href={withLocale(locale, '/2026/partidos-hoy')}
+            className="font-semibold text-[var(--color-pitch)] transition-opacity hover:opacity-80"
+          >
+            {t('today')}
+          </Link>
           <Link
             href={withLocale(locale, '/2026/calendario')}
             className="transition-colors hover:text-[var(--color-pitch)]"
