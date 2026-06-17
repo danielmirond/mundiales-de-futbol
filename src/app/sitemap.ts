@@ -4,6 +4,7 @@ import { TOURNAMENTS } from '@/lib/tournaments';
 import { HISTORIAS } from '@/lib/historias';
 import { SEDES_2026 } from '@/lib/wc-2026-sedes';
 import { GROUPS_2026, FIXTURES_2026, matchSlug } from '@/lib/wc-2026';
+import { allHeadToHeadSlugs } from '@/lib/wc-head-to-head';
 import { NEWS_ITEMS } from '@/lib/news';
 import { SQUADS_2026 } from '@/lib/wc-2026-squads';
 import { JERSEY_HISTORIES } from '@/lib/wc-jerseys';
@@ -123,6 +124,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // Página por partido (104)
   for (const f of FIXTURES_2026) {
     out.push(entry(`/2026/partido/${matchSlug(f)}`, now, 'daily', 0.8));
+  }
+  // Head-to-head (cara a cara) entre selecciones en los Mundiales (es).
+  for (const slug of allHeadToHeadSlugs()) {
+    out.push(entry(`/historial/${slug}`, now, 'monthly', 0.6));
   }
   out.push(entry('/2026/cuadro', now, 'weekly', 0.9));
   // Hub Dónde ver por país
