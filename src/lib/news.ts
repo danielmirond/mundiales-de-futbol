@@ -125,6 +125,48 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'partidos-mundial-2026-hoy-2026-06-17',
+    title: "Partidos del Mundial 2026 hoy, Miércoles 17 de junio: horarios (hora España) y dónde ver, gratis en La 1 o en DAZN",
+    summary: "Calendario de los 5 partidos del Mundial 2026 de hoy, miércoles 17 de junio: horarios en hora española y dónde verlos. Hoy en abierto y gratis en La 1: Inglaterra - Croacia. El resto, en DAZN / Movistar Plus+.",
+    body: `El Mundial 2026 vive hoy, miércoles 17 de junio, una jornada de **5 partidos**. Te dejamos todos los horarios en hora española, las sedes y dónde seguirlos, con el foco puesto en el **Inglaterra - Croacia**.
+
+## Partidos de hoy en el Mundial 2026 (hora de España)
+
+- **[Irak - Noruega](/2026/partido/irak-noruega)** — 00:00 h · Grupo I · Gillette Stadium (Foxborough) · 📺 [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026) / [Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial).
+- **[Argentina - Argelia](/2026/partido/argentina-argelia)** — 03:00 h · Grupo J · Arrowhead Stadium (Kansas City) · 📺 [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026) / [Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial).
+- **[Austria - Jordania](/2026/partido/austria-jordania)** — 06:00 h · Grupo J · Levi's Stadium (Santa Clara) · 📺 [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026) / [Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial).
+- **[Portugal - RD del Congo](/2026/partido/portugal-rd-del-congo)** — 19:00 h · Grupo K · NRG Stadium (Houston) · 📺 [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026) / [Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial).
+- **[Inglaterra - Croacia](/2026/partido/inglaterra-croacia)** — 22:00 h · Grupo L · AT&T Stadium (Arlington) · 📺 🆓 La 1 (RTVE) y [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026).
+
+Todos los horarios están convertidos a **hora peninsular española**. Puedes ver la jornada al completo, con resultados en directo, en la página de [partidos de hoy](/2026/partidos-hoy) y en el [calendario del Mundial](/2026/calendario).
+
+## El partido destacado del día
+
+De todo el cartel, el **Inglaterra - Croacia** es el duelo más llamativo de la jornada y el que más expectación levanta entre los aficionados. Sigue la clasificación y los grupos actualizados en [grupos y clasificación](/2026/grupos).
+
+## Qué partidos se ven hoy gratis en La 1 (RTVE)
+
+RTVE emite hoy en **abierto y gratis** en **La 1** (también en RTVE Play, gratis online):
+
+- **Inglaterra - Croacia** — 22:00 h.
+
+## Qué partidos son solo de pago (DAZN / Movistar Plus+)
+
+El resto de partidos de hoy solo se pueden ver en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, disponible también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**:
+
+- **Irak - Noruega** — 00:00 h.
+- **Argentina - Argelia** — 03:00 h.
+- **Austria - Jordania** — 06:00 h.
+- **Portugal - RD del Congo** — 19:00 h.
+
+RTVE emite **34 partidos gratis** en total del Mundial 2026: los 3 de España en la fase de grupos, un partido destacado por jornada y toda la fase eliminatoria desde dieciseisavos (incluida la final). Los **104 partidos** están en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**. Desglose completo de plataformas, precios y partidos en abierto en [dónde ver el Mundial 2026](/2026/donde-ver).`,
+    category: 'tv',
+    sourceName: "Mundiales de Fútbol",
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-17T06:30:00Z',
+  },
+  {
     slug: 'donde-esta-freddy-hincha-aleman-viral-mundial-2026',
     title: "¿Dónde está Freddy? El hincha alemán viral que cruza Estados Unidos en el Mundial 2026",
     summary: "Se le conoce como Freddy (@FreddyLA7) y se ha convertido en el personaje sorpresa del Mundial 2026: un aficionado alemán que recorre Estados Unidos siguiendo a su selección y maravillándose con todo, de la NASA a un Bass Pro Shops. Seguimos su viaje día a día.",
