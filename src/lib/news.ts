@@ -167,6 +167,115 @@ RTVE emite **34 partidos gratis** en total del Mundial 2026: los 3 de España en
     publishedAt: '2026-06-17T06:30:00Z',
   },
   {
+    slug: 'maracanazo-1950-obdulio-varela-uruguay-brasil-historia',
+    title: "El Maracanazo de 1950: cómo Obdulio Varela silenció a 200.000 brasileños",
+    summary: "El 16 de julio de 1950, Uruguay ganó 2-1 a Brasil en el Maracaná y firmó la mayor sorpresa de la historia de los Mundiales. Detrás estuvo un capitán de hielo, Obdulio Varela, y una arenga legendaria. Lo recuperamos del libro «Brasil 50».",
+    body: `Hay derrotas que un país no olvida nunca. La de Brasil en su propio Mundial, el 16 de julio de 1950, es la madre de todas ellas: el **Maracanazo**. Ante unos 200.000 espectadores en el estadio recién estrenado, **Uruguay remontó y ganó 2-1** el partido decisivo que coronaba campeona del mundo a la Brasil anfitriona. No hizo falta una final al uso —aquel Mundial se decidía en un grupo final—, pero el efecto fue el de la mayor pedrada de la historia del torneo.
+
+## El capitán que no se arrugó
+
+La gran figura no fue solo futbolística. El capitán uruguayo, **Obdulio Varela**, se convirtió en símbolo de sangre fría. Según relata el libro *Brasil 50*, la mañana del partido compró una veintena de ejemplares del diario *O Mundo* —que ya daba a Brasil por campeón, con foto de la selección local y todo— y los repartió por los urinarios del hotel para que sus compañeros hicieran con ellos lo que se imaginan. Pura guerra psicológica.
+
+Cuando el Maracaná rugía y los nervios apretaban, Varela frenó a los suyos con una idea sencilla y demoledora: **"No piensen en toda esa gente... el partido se juega abajo"**. Es decir, sobre el césped, once contra once, ajenos al tsunami de la grada.
+
+## Ghiggia, el tercer hombre que calló el estadio
+
+Brasil se adelantó tras el descanso, pero Uruguay no se vino abajo. El gol definitivo lo firmó **Alcides Ghiggia**, que batió al portero Barbosa por su palo tras una internada por la banda. El silencio que cayó sobre el Maracaná fue tan absoluto que el propio Ghiggia lo resumiría años después con sorna: solo tres personas, decía, habían conseguido enmudecer aquel estadio, y él era una de ellas.
+
+La derrota dejó cicatrices eternas en Brasil —del luto nacional a la "maldición" que persiguió a Barbosa— y empujó a la *canarinha* a cambiar incluso el color de su camiseta. El Mundial 2026, con su nuevo formato de 48 selecciones, multiplica las opciones de sorpresa; pero pocas igualarán jamás a aquel 2-1 que paró un país. Puedes repasar más historia del torneo en nuestras [noticias del Mundial 2026](/noticias).`,
+    category: 'historica',
+    sourceName: 'Libro «Brasil 50»',
+    sourceUrl: 'https://www.google.com/search?tbm=bks&q=%22Brasil+50%22+f%C3%BAtbol+maracanazo',
+    sourceLang: 'es',
+    publishedAt: '2026-06-17T08:00:00Z',
+  },
+  {
+    slug: 'mano-de-dios-maradona-1986-argentina-inglaterra-historia',
+    title: "La mano de Dios: el día que Maradona venció a Inglaterra cuatro años después de las Malvinas",
+    summary: "22 de junio de 1986, cuartos del Mundial de México: Argentina gana 2-1 a Inglaterra con los dos goles más famosos de la historia, la mano de Dios y el gol del siglo, ambos de Maradona. El contexto, la guerra de las Malvinas. Lo contamos con «Tantos mundiales, tantas historias».",
+    body: `Pocos partidos cargan con tanto peso fuera del campo como el **Argentina-Inglaterra de los cuartos de final del Mundial de México 1986**. Se jugó el 22 de junio en el Estadio Azteca, apenas **cuatro años después de la guerra de las Malvinas**, y enfrentó a dos países cuya rivalidad iba mucho más allá del fútbol. Argentina ganó 2-1, y lo hizo con los dos goles más comentados de la historia de las Copas del Mundo, firmados con cuatro minutos de diferencia por el mismo hombre: **Diego Armando Maradona**.
+
+## Minuto 51: la mano
+
+El primero fue trampa pura. Maradona saltó a por un balón dividido con el portero inglés Shilton y lo empujó **con la mano** a la red, a ojos de todos menos del árbitro. En la rueda de prensa, lejos de disculparse, Diego envolvió la jugada en una frase que se haría inmortal: el gol, dijo, lo había marcado **"con la cabeza de Maradona y la mano de Dios"**.
+
+## Minuto 54: el gol del siglo
+
+Cuatro minutos después llegó la otra cara de la moneda, la sublime. Maradona recogió el balón en su propio campo, se revolvió y **driblló a medio equipo inglés** en una carrera de sesenta metros antes de batir de nuevo a Shilton. La FIFA lo elegiría décadas más tarde como el mejor gol de la historia de los Mundiales. En apenas 240 segundos, el mismo jugador había resumido lo divino y lo humano del fútbol: la picaresca y el genio.
+
+## Más que un partido
+
+Para Argentina, aquel triunfo tuvo lectura de desquite tras un conflicto bélico que había dejado cientos de muertos. Maradona, que arrastraría a su país hasta el título en aquel Mundial, nunca renegó del primer gol; al contrario, lo reivindicó como una pequeña venganza. Es el ejemplo perfecto de cómo un Mundial puede convertirse en el escenario donde se juegan cosas que no caben en un acta arbitral. El relato está recogido en el libro *Tantos mundiales, tantas historias*; tienes más en nuestras [noticias del Mundial 2026](/noticias).`,
+    category: 'historica',
+    sourceName: 'Libro «Tantos mundiales, tantas historias»',
+    sourceUrl: 'https://www.google.com/search?tbm=bks&q=%22Tantos+mundiales,+tantas+historias%22',
+    sourceLang: 'es',
+    publishedAt: '2026-06-17T08:30:00Z',
+  },
+  {
+    slug: 'zarra-gol-inglaterra-1950-gol-de-farra-matias-prats-historia',
+    title: "\"¡Gol de Farra!\": el gol de Zarra a Inglaterra en 1950 que España escuchó mal a propósito",
+    summary: "En el Mundial de Brasil 1950, España ganó 1-0 a Inglaterra con un gol de Zarra en Maracaná. La narración de Matías Prats y la frase de un directivo sobre \"la pérfida Albión\" convirtieron aquel tanto en leyenda. Del libro «Brasil 50».",
+    body: `El gol más famoso del fútbol español antes de la era moderna no se marcó en una final, sino en una primera fase, y contra el rival perfecto. En el **Mundial de Brasil 1950**, **España venció 1-0 a Inglaterra** en el mismísimo Maracaná con un tanto de **Telmo Zarra**, el gran ariete del Athletic. Para una España aislada y gris de posguerra, ganar a los inventores del fútbol fue una fiesta nacional.
+
+## El seseo de Matías Prats y "el gol de Farra"
+
+La jugada tiene una coda deliciosa que rescata el libro *Brasil 50*. La narración radiofónica corrió a cargo de **Matías Prats**, locutor cordobés que, para disimular su seseo ante los más de diez millones de oyentes, sustituía sobre la marcha algunas "c" por "f". Resultado: media España escuchó aquello como **"¡Gol de Farra!"** en lugar de "Gol de Zarra". Una anécdota fonética que se quedó para siempre en la memoria colectiva.
+
+## "La pérfida Albión"
+
+El régimen no desaprovechó el triunfo. El presidente de la federación de la época, **Armando Muñoz Calero**, llegó a soltar ante el micrófono una frase de tintes propagandísticos que resume el ambiente: **"Excelencia, hemos vencido a la pérfida Albión"**, en alusión a Inglaterra y dirigida al jefe del Estado.
+
+España firmó en aquel Mundial su mejor papel hasta entonces, un cuarto puesto que tardaría décadas en mejorar. Pero más allá de la clasificación, el 1-0 a Inglaterra y el "gol de Farra" de Zarra quedaron como uno de esos momentos fundacionales que explican por qué un país entero se engancha a una Copa del Mundo. Tienes más historia mundialista en nuestras [noticias del Mundial 2026](/noticias).`,
+    category: 'historica',
+    sourceName: 'Libro «Brasil 50»',
+    sourceUrl: 'https://www.google.com/search?tbm=bks&q=%22Brasil+50%22+Zarra+Inglaterra',
+    sourceLang: 'es',
+    publishedAt: '2026-06-17T09:00:00Z',
+  },
+  {
+    slug: 'no-gol-cardenosa-espana-brasil-1978-historia-mundial',
+    title: "El no-gol de Cardeñosa ante Brasil (1978): el fallo que persiguió a un futbolista toda su vida",
+    summary: "En el Mundial de Argentina 1978, España empató 0-0 con Brasil y Julio Cardeñosa falló un gol cantado con la portería vacía. Aquel error se convirtió en sinónimo de ocasión perdida en España. Lo recuperamos del libro «Tantos mundiales, tantas historias».",
+    body: `Hay jugadores que pasan a la historia por un gol; Julio **Cardeñosa** pasó a la historia por **no** marcarlo. Ocurrió en el **Mundial de Argentina 1978**, en un **España 0-0 Brasil** disputado en Mar del Plata, y el lance se convirtió durante años en la metáfora perfecta de la ocasión perdida en el fútbol español.
+
+## El gol cantado que no fue
+
+La acción parecía sentencia: balón suelto en el área brasileña, portería a merced del delantero español y la defensa rendida. Pero, según relata *Tantos mundiales, tantas historias*, Cardeñosa quiso **asegurar en lugar de rematar de primeras**; el barro del terreno le retrasó una fracción de segundo y el central **Amaral despejó sobre la propia línea de gol**. La ocasión más clara del partido se esfumó, y con ella un triunfo histórico ante Brasil.
+
+## "Tan famoso" por fallar
+
+El nombre de Cardeñosa quedó marcado para siempre. Lejos de esconderse, el propio futbolista aprendió a convivir con ello e incluso a bromear: reconocía con ironía que, **"si hubiera marcado ese gol no sería tan famoso"**. Una forma elegante de gestionar el peso de un instante que se repitió en televisión durante décadas.
+
+El relato suele venir acompañado de otra estampa de aquella expedición: la selección se concentraba en *La Martona*, una finca a unos treinta kilómetros de Buenos Aires, gélida y sin apenas calefacción, que poco ayudó al ánimo del equipo. España cayó pronto, fiel a su tradición de entonces de prometer mucho y rendir poco en los Mundiales. Tienes más historia del torneo en nuestras [noticias del Mundial 2026](/noticias).`,
+    category: 'historica',
+    sourceName: 'Libro «Tantos mundiales, tantas historias»',
+    sourceUrl: 'https://www.google.com/search?tbm=bks&q=%22Tantos+mundiales,+tantas+historias%22+Carde%C3%B1osa',
+    sourceLang: 'es',
+    publishedAt: '2026-06-17T09:30:00Z',
+  },
+  {
+    slug: 'desastre-gijon-1982-alemania-austria-pacto-historia-mundial',
+    title: "El \"Anschluss de Gijón\" de 1982: el partido amañado que cambió las reglas de los Mundiales",
+    summary: "25 de junio de 1982, El Molinón: Alemania y Austria firmaron un 1-0 que clasificaba a ambas y eliminaba a Argelia. El pacto de no agresión fue tan escandaloso que la FIFA cambió el reglamento. Del libro «Tantos mundiales, tantas historias».",
+    body: `El **Mundial de España 1982** dejó uno de los episodios más vergonzosos —y más influyentes— de la historia del torneo: el partido entre **Alemania Federal y Austria** disputado el 25 de junio en **El Molinón de Gijón**. Pasó a la historia como el "desastre de Gijón" o el "pacto de no agresión", y obligó a cambiar las reglas para siempre.
+
+## Un gol y luego nada
+
+La aritmética era diabólica. Argelia, que ya había jugado su último partido del grupo, había dejado unos resultados que hacían que un **triunfo alemán por la mínima clasificara a alemanes y austriacos** y dejara fuera a los argelinos. Alemania marcó pronto, con un gol de **Hrubesch en el minuto 11**, y a partir de ahí ambos equipos se dedicaron a **pasarse el balón sin intención de atacar** durante más de una hora.
+
+El público de El Molinón, indignado, sacó **pañuelos blancos** y llegó a animar a Argelia; los propios comentaristas no ocultaron su bochorno y los argelinos protestaron, sin éxito, ante la FIFA. El amaño no escrito estaba a la vista de todos.
+
+## La confesión y el cambio de reglas
+
+Años después, como recoge *Tantos mundiales, tantas historias*, un jugador alemán admitió lo evidente: **"Tomamos la decisión entre todos, ellos y nosotros, de no estorbarnos demasiado"**. La consecuencia fue histórica: a partir de entonces, la FIFA dispuso que **los últimos partidos de cada grupo se jugaran de forma simultánea**, una norma que sigue vigente y que en el Mundial 2026, con doce grupos, es más necesaria que nunca. Tienes más historia mundialista en nuestras [noticias del Mundial 2026](/noticias).`,
+    category: 'historica',
+    sourceName: 'Libro «Tantos mundiales, tantas historias»',
+    sourceUrl: 'https://www.google.com/search?tbm=bks&q=%22Tantos+mundiales,+tantas+historias%22+Gij%C3%B3n+1982',
+    sourceLang: 'es',
+    publishedAt: '2026-06-17T10:00:00Z',
+  },
+  {
     slug: 'donde-esta-freddy-hincha-aleman-viral-mundial-2026',
     title: "¿Dónde está Freddy? El hincha alemán viral que cruza Estados Unidos en el Mundial 2026",
     summary: "Se le conoce como Freddy (@FreddyLA7) y se ha convertido en el personaje sorpresa del Mundial 2026: un aficionado alemán que recorre Estados Unidos siguiendo a su selección y maravillándose con todo, de la NASA a un Bass Pro Shops. Seguimos su viaje día a día.",
