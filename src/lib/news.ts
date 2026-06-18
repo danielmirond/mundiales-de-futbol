@@ -130,6 +130,32 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'chequia-sudafrica-resultado-mundial-2026',
+    title: "Chequia 1-1 Sudáfrica: resultado, goles y estadísticas | Mundial 2026",
+    summary: "Empate 1-1 entre Chequia y Sudáfrica en el Grupo A del Mundial 2026. Resultado, goles y estadísticas del partido.",
+    body: `**Chequia** y **Sudáfrica** firmaron un **empate 1-1** en su partido del **Grupo A** del Mundial 2026, disputado el jueves 18 de junio en el Mercedes-Benz Stadium (Atlanta).
+
+## Goles
+
+- **6'** Michal Sadílek (Chequia)
+
+## Estadísticas del partido
+
+- Posesión (%): **44.8** Chequia · **55.2** Sudáfrica
+- Tiros: **4** Chequia · **2** Sudáfrica
+- Tiros a puerta: **1** Chequia · **0** Sudáfrica
+- Córners: **2** Chequia · **1** Sudáfrica
+
+Tienes la **ficha completa** del partido —con alineaciones, todos los momentos clave y estadísticas ampliadas— en [Chequia - Sudáfrica](/2026/partido/chequia-sudafrica). Consulta también el [historial entre ambas selecciones](/historial/republica-checa-vs-sudafrica) y la clasificación actualizada en [grupos](/2026/grupos).
+
+El Mundial 2026 se puede ver en España en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**, con partidos seleccionados en abierto en La 1 (RTVE).`,
+    category: 'general',
+    sourceName: "Mundiales de Fútbol · datos ESPN",
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-18T18:00:00Z',
+  },
+  {
     slug: 'uzbekistan-colombia-resultado-mundial-2026',
     title: "Uzbekistán 1-3 Colombia: resultado, goles y estadísticas | Mundial 2026",
     summary: "Victoria de Colombia por 1-3 entre Uzbekistán y Colombia en el Grupo K del Mundial 2026. Resultado, goles y estadísticas del partido.",
