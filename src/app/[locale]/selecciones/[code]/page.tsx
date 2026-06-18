@@ -11,6 +11,7 @@ import { TeamPhotoGallery } from '@/components/team/team-photo-gallery';
 import { AmazonProductGrid } from '@/components/affiliate/amazon-card';
 import { getProductsByTeam } from '@/lib/amazon-products';
 import { getJerseyHistory } from '@/lib/wc-jerseys';
+import { headToHeadsForTeam } from '@/lib/wc-head-to-head';
 import { Shirt, ArrowRight, Newspaper, CalendarClock, Play } from 'lucide-react';
 import { TeamKitShop } from '@/components/team/team-kit-shop';
 import { getNewsByTeam, relativeTimeEs } from '@/lib/news';
@@ -97,6 +98,9 @@ export default async function SelectionDetailPage({
   const hasLineage = predecessors.length > 0;
   const unified = hasLineage ? combineLineage(team, predecessors) : team;
   const lineageCodes = [team.code, ...predecessors.map((p) => p.code)];
+
+  // Cara a cara: rivales en la historia de los Mundiales + rivales de 2026.
+  const teamH2H = headToHeadsForTeam(team.code);
 
   const [matches, topScorers] = await Promise.all([
     getTeamMatches(team.code, predecessors.map((p) => p.code)),
@@ -288,6 +292,44 @@ export default async function SelectionDetailPage({
           <Stat label="Goles" value={`${unified.goals_for}/${unified.goals_against}`} small />
         </div>
       </section>
+
+      {/* ── CARA A CARA — historial ante cada rival en los Mundiales ── */}
+      {teamH2H.length > 0 && (
+        <section className="mx-auto w-full max-w-[1400px] px-6 mt-12 md:px-10">
+          <div className="font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-pitch)]">
+            Cara a cara
+          </div>
+          <h2 className="mt-2 font-display text-2xl uppercase leading-tight md:text-3xl">
+            Historial de {teamDisplayName(team)} ante cada rival
+          </h2>
+          <p className="mt-2 max-w-2xl text-sm text-[var(--color-fg-muted)]">
+            Balance (victorias-empates-derrotas) en partidos de Copa del Mundo. Pulsa para ver todos
+            los enfrentamientos.
+          </p>
+          <div className="mt-6 grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
+            {teamH2H.map((o) => (
+              <Link
+                key={o.code}
+                href={withLocale(locale as Locale, `/historial/${o.slug}`)}
+                className="group flex items-center justify-between gap-3 rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg-2)] px-4 py-3 transition-colors hover:border-[var(--color-pitch)]/40"
+              >
+                <span className="min-w-0 flex-1 truncate text-sm font-medium text-[var(--color-fg)]">
+                  <span className="mr-1.5">{o.flag}</span>
+                  {o.name}
+                  {o.meets2026 && (
+                    <span className="ml-2 rounded-full bg-[var(--color-pitch)]/15 px-1.5 py-0.5 align-middle font-mono text-[8px] uppercase tracking-[0.15em] text-[var(--color-pitch)]">
+                      2026
+                    </span>
+                  )}
+                </span>
+                <span className="flex-shrink-0 font-mono text-xs tab-num text-[var(--color-fg-subtle)] group-hover:text-[var(--color-pitch)]">
+                  {o.total > 0 ? `${o.wins}-${o.draws}-${o.losses}` : '1ª vez'}
+                </span>
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
 
       {/* ── CONVOCATORIA MUNDIAL 2026 — grupo, primer partido, lista de 26 ── */}
       <Squad2026Section teamCode={team.code} locale={locale as Locale} />

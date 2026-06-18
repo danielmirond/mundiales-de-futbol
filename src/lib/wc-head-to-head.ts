@@ -125,6 +125,64 @@ export type HeadToHead = {
   fixture2026: { date: string; venue: string; stage: string; slug: string } | null;
 };
 
+export type TeamH2H = {
+  code: string;
+  name: string;
+  flag: string;
+  slug: string;
+  total: number;
+  wins: number;
+  losses: number;
+  draws: number;
+  meets2026: boolean;
+};
+
+/**
+ * Todos los cara a cara de una selección (rivales en Mundiales + rivales del
+ * Mundial 2026 aunque no se hayan visto nunca). Ordenado por nº de duelos.
+ */
+export function headToHeadsForTeam(code: string): TeamH2H[] {
+  const opps = new Map<string, { total: number; w: number; l: number; d: number }>();
+  for (const m of ALL) {
+    let opp: string | null = null;
+    if (m.home_code === code) opp = m.away_code;
+    else if (m.away_code === code) opp = m.home_code;
+    if (!opp || opp === code) continue;
+    const e = opps.get(opp) ?? { total: 0, w: 0, l: 0, d: 0 };
+    e.total++;
+    if (m.winner_code === code) e.w++;
+    else if (m.winner_code === opp) e.l++;
+    else e.d++;
+    opps.set(opp, e);
+  }
+  const fixtureOpps = new Set<string>();
+  for (const f of FIXTURES_2026) {
+    let opp: string | null = null;
+    if (f.home === code) opp = f.away ?? null;
+    else if (f.away === code) opp = f.home ?? null;
+    if (opp && opp !== code) {
+      fixtureOpps.add(opp);
+      if (!opps.has(opp)) opps.set(opp, { total: 0, w: 0, l: 0, d: 0 });
+    }
+  }
+  const out: TeamH2H[] = [];
+  for (const [opp, e] of opps) {
+    out.push({
+      code: opp,
+      name: teamName(opp),
+      flag: teamFlag(opp),
+      slug: pairSlug(code, opp),
+      total: e.total,
+      wins: e.w,
+      losses: e.l,
+      draws: e.d,
+      meets2026: fixtureOpps.has(opp),
+    });
+  }
+  out.sort((a, b) => b.total - a.total || a.name.localeCompare(b.name, 'es'));
+  return out;
+}
+
 export function getHeadToHead(slug: string): HeadToHead | null {
   const codes = slugToCodes.get(slug);
   if (!codes) return null;
