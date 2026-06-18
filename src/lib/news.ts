@@ -61,6 +61,11 @@ export type NewsItem = {
  /** Fechas de publicación / actualización (ISO 8601). */
  publishedAt: string;
  modifiedAt?: string;
+ /**
+  * Autor de la pieza (byline). Si es un nombre de persona se emite como
+  * `Person` en el schema (mejor E-E-A-T); si se omite, se usa la redacción.
+  */
+ author?: string;
  /** Fuentes secundarias (atribución adicional, para verificación cruzada). */
  sourcesSecondary?: { name: string; url: string }[];
  /**

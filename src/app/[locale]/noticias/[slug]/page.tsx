@@ -172,13 +172,11 @@ export default async function NoticiaDetail({
       },
       sameAs: [SEO.siteUrl],
     },
-    // Author: Organization (redacción propia). Google acepta Person u Organization.
+    // Author: Person si la pieza tiene firma; si no, la redacción (Organization).
     author: [
-      {
-        '@type': 'Organization',
-        name: SEO.siteName,
-        url: SEO.siteUrl,
-      },
+      item.author
+        ? { '@type': 'Person', name: item.author }
+        : { '@type': 'Organization', name: SEO.siteName, url: SEO.siteUrl },
     ],
     // Sección editorial (articleSection mejora clasificación en Google News)
     articleSection: ARTICLE_SECTIONS[item.category] ?? 'Mundial 2026',
@@ -239,6 +237,9 @@ export default async function NoticiaDetail({
           <span className="inline-flex items-center gap-1.5 text-[var(--color-fg-subtle)]">
             <Calendar className="h-3 w-3" />
             {relativeTimeEs(item.publishedAt)}
+          </span>
+          <span className="text-[var(--color-fg-subtle)]">
+            Por {item.author ?? 'Redacción de Mundiales de Fútbol'}
           </span>
         </div>
 
