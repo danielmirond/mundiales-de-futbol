@@ -130,6 +130,61 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'uzbekistan-colombia-resultado-mundial-2026',
+    title: "Uzbekistán 1-3 Colombia: resultado, goles y estadísticas | Mundial 2026",
+    summary: "Victoria de Colombia por 1-3 entre Uzbekistán y Colombia en el Grupo K del Mundial 2026. Resultado, goles y estadísticas del partido.",
+    body: `**Colombia** se impuso a **Uzbekistán** por **1-3** en el **Grupo K** del Mundial 2026, en un partido disputado el jueves 18 de junio en el Estadio Azteca (Ciudad de México).
+
+## Goles
+
+- **40'** Daniel Muñoz (Colombia)
+- **60'** Abbosbek Fayzullaev (Uzbekistán)
+- **65'** Luis Díaz (Colombia)
+- **90'+9'** Jáminton Campaz (Colombia)
+
+## Estadísticas del partido
+
+- Posesión (%): **38.6** Uzbekistán · **61.4** Colombia
+- Tiros: **8** Uzbekistán · **15** Colombia
+- Tiros a puerta: **2** Uzbekistán · **4** Colombia
+- Córners: **3** Uzbekistán · **4** Colombia
+
+Tienes la **ficha completa** del partido —con alineaciones, todos los momentos clave y estadísticas ampliadas— en [Uzbekistán - Colombia](/2026/partido/uzbekistan-colombia). Consulta también el [historial entre ambas selecciones](/historial/colombia-vs-uzbekistan) y la clasificación actualizada en [grupos](/2026/grupos).
+
+El Mundial 2026 se puede ver en España en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**, con partidos seleccionados en abierto en La 1 (RTVE).`,
+    category: 'general',
+    sourceName: "Mundiales de Fútbol · datos ESPN",
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-18T04:00:00Z',
+  },
+  {
+    slug: 'ghana-panama-resultado-mundial-2026',
+    title: "Ghana 1-0 Panamá: resultado, goles y estadísticas | Mundial 2026",
+    summary: "Victoria de Ghana por 1-0 entre Ghana y Panamá en el Grupo L del Mundial 2026. Resultado, goles y estadísticas del partido.",
+    body: `**Ghana** se impuso a **Panamá** por **1-0** en el **Grupo L** del Mundial 2026, en un partido disputado el jueves 18 de junio en el BMO Field (Toronto).
+
+## Goles
+
+- **90'+5'** Caleb Yirenkyi (Ghana)
+
+## Estadísticas del partido
+
+- Posesión (%): **37.9** Ghana · **62.1** Panamá
+- Tiros: **8** Ghana · **11** Panamá
+- Tiros a puerta: **2** Ghana · **4** Panamá
+- Córners: **2** Ghana · **2** Panamá
+
+Tienes la **ficha completa** del partido —con alineaciones, todos los momentos clave y estadísticas ampliadas— en [Ghana - Panamá](/2026/partido/ghana-panama). Consulta también el [historial entre ambas selecciones](/historial/ghana-vs-panama) y la clasificación actualizada en [grupos](/2026/grupos).
+
+El Mundial 2026 se puede ver en España en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**, con partidos seleccionados en abierto en La 1 (RTVE).`,
+    category: 'general',
+    sourceName: "Mundiales de Fútbol · datos ESPN",
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-18T01:00:00Z',
+  },
+  {
     slug: 'partidos-mundial-2026-hoy-2026-06-18',
     title: "Partidos del Mundial 2026 hoy, Jueves 18 de junio: horarios (hora España) y dónde ver, gratis en La 1 o en DAZN",
     summary: "Calendario de los 4 partidos del Mundial 2026 de hoy, jueves 18 de junio: horarios en hora española y dónde verlos. Hoy en abierto y gratis en La 1: Suiza - Bosnia. El resto, en DAZN / Movistar Plus+.",
