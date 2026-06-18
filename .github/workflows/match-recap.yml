@@ -1,0 +1,69 @@
+name: Crónica post-partido (determinista · ESPN)
+
+on:
+  schedule:
+    # Cada 30 min: en cuanto un partido termina, publica resultado+goles+stats
+    # (antes de que aparezca el AI Overview de Google). El script no hace nada
+    # si no hay partidos recién terminados, así que las pasadas vacías son baratas.
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+    inputs:
+      dry:
+        description: 'Dry-run (no escribe ni commitea)'
+        required: false
+        default: 'false'
+        type: choice
+        options:
+          - 'false'
+          - 'true'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: match-recap
+  cancel-in-progress: false
+
+jobs:
+  match-recap:
+    name: Crónica de los partidos terminados
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          persist-credentials: true
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install
+        run: npm ci
+
+      - name: Generar crónicas de los partidos terminados
+        env:
+          DAILY_DRY: ${{ github.event.inputs.dry == 'true' && '1' || '' }}
+        run: npx tsx scripts/match-recap/build.ts
+
+      - name: Commit y push si hay cambios
+        if: ${{ github.event.inputs.dry != 'true' }}
+        run: |
+          set -e
+          if git diff --quiet src/lib/news.ts; then
+            echo "Sin crónicas nuevas."
+            exit 0
+          fi
+          DATE=$(date -u +%FT%TZ)
+          git config user.name "match-recap-bot"
+          git config user.email "match-recap-bot@users.noreply.github.com"
+          # Rebase por si el bot diario u otro commit llegó antes.
+          git pull --rebase origin main || true
+          git add src/lib/news.ts
+          git commit -m "auto(cronica): resultados de partidos terminados ${DATE}"
+          git push origin HEAD:main
