@@ -64,7 +64,7 @@ function MatchCard({ row, scoreMap, locale }: { row: Row; scoreMap: ScoreMap; lo
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[var(--color-flame)] opacity-75" />
               <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-[var(--color-flame)]" />
             </span>
-            {sc!.clock || 'EN VIVO'}
+            EN DIRECTO{sc!.clock ? ` · ${sc!.clock}` : ''}
           </span>
         ) : played ? (
           <span>Final</span>

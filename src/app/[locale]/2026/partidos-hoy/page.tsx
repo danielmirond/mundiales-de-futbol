@@ -168,7 +168,7 @@ export default async function PartidosHoy({ params }: { params: Promise<{ locale
                         <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[var(--color-flame)] opacity-75" />
                         <span className="relative inline-flex h-2 w-2 rounded-full bg-[var(--color-flame)]" />
                       </span>
-                      {sc!.clock || 'EN VIVO'}
+                      EN DIRECTO{sc!.clock ? ` · ${sc!.clock}` : ''}
                     </span>
                   ) : played ? (
                     <span className="font-mono text-[10px] uppercase tracking-widest text-[var(--color-fg-subtle)]">Final</span>
