@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react';
 import { useLocale, useTranslations } from 'next-intl';
 import { ArrowRight, Tv, CalendarDays } from 'lucide-react';
 import { HeroImagery } from '@/components/home/hero-imagery';
-import { FIXTURES_2026, TEAMS_2026 } from '@/lib/wc-2026';
+import { FIXTURES_2026, TEAMS_2026, matchSlug } from '@/lib/wc-2026';
 import { fixtureToUTC } from '@/lib/wc-2026-fixture-utc';
 import { routing, type Locale } from '@/i18n/routing';
 
@@ -119,6 +119,8 @@ export function Hero() {
     : undefined;
   const showScore = !!live && (live.state === 'in' || live.state === 'post') &&
     live.homeScore !== null && live.awayScore !== null;
+  // Enlace a la ficha del partido (live-blog) mostrado en el hero.
+  const matchHref = picked ? withLocale(locale, `/2026/partido/${matchSlug(picked.match)}`) : null;
 
   const cells = c
     ? [
@@ -204,13 +206,17 @@ export function Hero() {
 
             {/* Estado: marcador en vivo · final · o cuenta atrás */}
             {showScore && live!.state === 'in' ? (
-              <div className="mt-6 flex items-center justify-center gap-2 rounded-2xl border border-[var(--color-flame)]/40 bg-[var(--color-flame)]/10 py-4 text-center font-display text-xl uppercase text-[var(--color-flame)]">
+              <Link
+                href={matchHref ?? '#'}
+                className="mt-6 flex items-center justify-center gap-2 rounded-2xl border border-[var(--color-flame)]/40 bg-[var(--color-flame)]/10 py-4 text-center font-display text-xl uppercase text-[var(--color-flame)] transition-colors hover:bg-[var(--color-flame)]/20"
+              >
                 <span className="relative flex h-2.5 w-2.5">
                   <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[var(--color-flame)] opacity-75" />
                   <span className="relative inline-flex h-2.5 w-2.5 rounded-full bg-[var(--color-flame)]" />
                 </span>
                 {t('live')}{(live!.clock || live!.status) ? ` · ${live!.clock || live!.status}` : ''}
-              </div>
+                <ArrowRight className="h-4 w-4 rtl:rotate-180" />
+              </Link>
             ) : showScore && live!.state === 'post' ? (
               <div className="mt-6 rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg-2)]/60 py-4 text-center font-display text-xl uppercase text-[var(--color-fg)]">
                 Final
@@ -241,6 +247,19 @@ export function Hero() {
 
         {/* CTAs */}
         <div className="mt-10 flex flex-wrap items-center gap-3">
+          {picked?.live && matchHref && (
+            <Link
+              href={matchHref}
+              className="group inline-flex items-center gap-2 rounded-full bg-[var(--color-flame)] px-6 py-3 text-sm font-bold text-black transition-opacity hover:opacity-90"
+            >
+              <span className="relative flex h-2 w-2">
+                <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-black/60 opacity-75" />
+                <span className="relative inline-flex h-2 w-2 rounded-full bg-black/80" />
+              </span>
+              Seguir el directo
+              <ArrowRight className="h-3 w-3 transition-transform group-hover:translate-x-1 rtl:rotate-180" />
+            </Link>
+          )}
           <Link
             href={withLocale(locale, '/2026/calendario')}
             className="group inline-flex items-center gap-2 rounded-full bg-[var(--color-pitch)] px-6 py-3 text-sm font-bold text-black transition-opacity hover:opacity-90"
