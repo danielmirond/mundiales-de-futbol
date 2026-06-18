@@ -25,6 +25,7 @@ const RECORD_PAGES = [
   'selecciones-mas-tarjetas',
   'goles-por-seleccion',
   'mundiales-por-pais',
+  'clasificacion-historica',
 ] as const;
 
 // Defensive `.trim()`: una env var con `\n` accidental rompía cada `<loc>`

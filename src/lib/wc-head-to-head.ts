@@ -225,6 +225,87 @@ export function teamWorldCupRecord(codes: string[]): TeamWcRecord {
   return { played, wins, draws, losses, goalsFor, goalsAgainst, wcCount: years.size };
 }
 
+// Fusión de linaje para la clasificación histórica (sucesor FIFA reconocido).
+const LINEAGE_MERGE: Record<string, string> = {
+  FRG: 'GER',
+  GDR: 'GER',
+  URS: 'RUS',
+  TCH: 'CZE',
+  YUG: 'SRB',
+  SCG: 'SRB',
+};
+const mergeCode = (c: string) => LINEAGE_MERGE[c] ?? c;
+
+export type StandingRow = {
+  code: string;
+  name: string;
+  flag: string;
+  played: number;
+  wins: number;
+  draws: number;
+  losses: number;
+  goalsFor: number;
+  goalsAgainst: number;
+  points: number; // 3 por victoria, 1 por empate
+  wcCount: number;
+};
+
+/**
+ * Clasificación histórica de todos los Mundiales (1930-2022): tabla agregada de
+ * todas las selecciones, fusionando linajes (RFA/RDA→Alemania, URSS→Rusia…).
+ * Ordenada por puntos, luego diferencia de goles, luego goles a favor.
+ */
+export function allTimeStandings(): StandingRow[] {
+  type Agg = { p: number; w: number; d: number; l: number; gf: number; ga: number; years: Set<string> };
+  const agg = new Map<string, Agg>();
+  const get = (c: string) => {
+    let e = agg.get(c);
+    if (!e) {
+      e = { p: 0, w: 0, d: 0, l: 0, gf: 0, ga: 0, years: new Set() };
+      agg.set(c, e);
+    }
+    return e;
+  };
+  for (const m of ALL) {
+    const h = mergeCode(m.home_code);
+    const a = mergeCode(m.away_code);
+    if (h === a) continue; // evita doble conteo en duelos intra-linaje (RFA-RDA 1974)
+    const win = m.winner_code ? mergeCode(m.winner_code) : null;
+    for (const [code, isHome] of [[h, true], [a, false]] as const) {
+      const e = get(code);
+      e.p++;
+      e.years.add(m.year);
+      const our = (isHome ? m.home_score : m.away_score) ?? 0;
+      const opp = (isHome ? m.away_score : m.home_score) ?? 0;
+      e.gf += our;
+      e.ga += opp;
+      if (!win) e.d++;
+      else if (win === code) e.w++;
+      else e.l++;
+    }
+  }
+  return [...agg.entries()]
+    .map(([code, e]) => ({
+      code,
+      name: teamName(code),
+      flag: teamFlag(code),
+      played: e.p,
+      wins: e.w,
+      draws: e.d,
+      losses: e.l,
+      goalsFor: e.gf,
+      goalsAgainst: e.ga,
+      points: e.w * 3 + e.d,
+      wcCount: e.years.size,
+    }))
+    .sort(
+      (x, y) =>
+        y.points - x.points ||
+        y.goalsFor - y.goalsAgainst - (x.goalsFor - x.goalsAgainst) ||
+        y.goalsFor - x.goalsFor,
+    );
+}
+
 export function getHeadToHead(slug: string): HeadToHead | null {
   const codes = slugToCodes.get(slug);
   if (!codes) return null;

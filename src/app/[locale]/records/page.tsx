@@ -33,6 +33,16 @@ export async function generateMetadata({
 
 const RECORDS = [
   {
+    slug: 'clasificacion-historica',
+    icon: Trophy,
+    title: 'Clasificación histórica',
+    description: 'La tabla de posiciones de TODOS los Mundiales (1930-2022): las 80 selecciones por puntos, partidos y goles. Brasil manda.',
+    badge: '1930-2022',
+    color: 'text-amber-300',
+    accent: 'border-amber-500/30 bg-amber-500/5',
+    available: true,
+  },
+  {
     slug: 'maximos-goleadores',
     icon: Goal,
     title: 'Máximos goleadores',
