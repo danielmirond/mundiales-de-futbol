@@ -40,6 +40,10 @@ export type MatchSummary = {
   events: MatchEvent[];
   stats: TeamStat[];
   commentary: CommentaryLine[];
+  homeScore: number | null;
+  awayScore: number | null;
+  clock: string | null;
+  state: 'pre' | 'in' | 'post' | string;
   hasLineups: boolean;
   hasEvents: boolean;
   hasStats: boolean;
@@ -112,9 +116,18 @@ export async function fetchMatchSummary(
     else if (espnSide === 'home' || espnSide === 'away') side = espnSide;
     if (side) idToSide.set(String(teamId), side);
   };
-  for (const c of data.header?.competitions?.[0]?.competitors ?? []) {
+  const headerComp = data.header?.competitions?.[0] ?? {};
+  let homeScore: number | null = null;
+  let awayScore: number | null = null;
+  for (const c of headerComp.competitors ?? []) {
     assign(c.id ?? c.team?.id, c.team?.abbreviation, c.homeAway);
+    const side = idToSide.get(String(c.id ?? c.team?.id));
+    const sc = c.score === undefined || c.score === null || c.score === '' ? null : Number(c.score);
+    if (side === 'home') homeScore = sc;
+    else if (side === 'away') awayScore = sc;
   }
+  const clock: string | null = headerComp.status?.displayClock ?? null;
+  const state: string = headerComp.status?.type?.state ?? 'pre';
 
   // ── Alineaciones ──
   const mkPlayers = (roster: any[]): LineupPlayer[] =>
@@ -208,6 +221,10 @@ export async function fetchMatchSummary(
     events,
     stats,
     commentary,
+    homeScore,
+    awayScore,
+    clock,
+    state,
     hasLineups,
     hasEvents,
     hasStats,

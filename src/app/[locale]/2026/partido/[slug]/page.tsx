@@ -9,7 +9,7 @@ import {
 import { fixtureToUTC } from '@/lib/wc-2026-fixture-utc';
 import { fetchScores, buildScoreMap, scoreKey } from '@/lib/live-scores';
 import { fetchMatchSummary } from '@/lib/wc-2026-match-summary';
-import { MatchSummarySections } from '@/components/match/match-summary';
+import { LiveMatchSummary } from '@/components/match/live-match-summary';
 import { pairSlug } from '@/lib/wc-head-to-head';
 import { getMovistarLink } from '@/lib/movistar-match-links';
 import { MovistarCintillo } from '@/components/affiliate/movistar-banner';
@@ -202,15 +202,17 @@ export default async function PartidoPage({ params }: { params: Promise<{ locale
         <MovistarCintillo href={mov.href} context={`${hn} - ${an}`} matchId={mov.matchId} />
       </section>
 
-      {/* Alineaciones · momentos clave · estadísticas (si hay datos) */}
-      {summary && (
-        <MatchSummarySections
-          summary={summary}
+      {/* Live-blog: alineaciones · momentos · narración · stats (auto-refresh si en directo) */}
+      {summary && sc?.id && f!.home && f!.away && (
+        <LiveMatchSummary
+          initial={summary}
+          eventId={sc.id}
+          home={f!.home}
+          away={f!.away}
           homeName={hn}
           awayName={an}
           homeFlag={h?.flag ?? '🏳️'}
           awayFlag={a?.flag ?? '🏳️'}
-          live={!!live}
         />
       )}
 
