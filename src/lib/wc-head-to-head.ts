@@ -183,6 +183,48 @@ export function headToHeadsForTeam(code: string): TeamH2H[] {
   return out;
 }
 
+export type TeamWcRecord = {
+  played: number;
+  wins: number;
+  draws: number;
+  losses: number;
+  goalsFor: number;
+  goalsAgainst: number;
+  wcCount: number;
+};
+
+/**
+ * Récord completo de una selección en los Mundiales (1930-2022) a partir del
+ * histórico real. `codes` debe incluir el código actual y sus predecesores
+ * (p. ej. ['GER','FRG','GDR']) para sumar bien el linaje.
+ */
+export function teamWorldCupRecord(codes: string[]): TeamWcRecord {
+  const set = new Set(codes.map((c) => c.toUpperCase()));
+  let played = 0,
+    wins = 0,
+    draws = 0,
+    losses = 0,
+    goalsFor = 0,
+    goalsAgainst = 0;
+  const years = new Set<string>();
+  for (const m of ALL) {
+    const isHome = set.has(m.home_code);
+    const isAway = set.has(m.away_code);
+    if (!isHome && !isAway) continue;
+    played++;
+    years.add(m.year);
+    const ourCode = isHome ? m.home_code : m.away_code;
+    const our = (isHome ? m.home_score : m.away_score) ?? 0;
+    const opp = (isHome ? m.away_score : m.home_score) ?? 0;
+    goalsFor += our;
+    goalsAgainst += opp;
+    if (m.winner_code === ourCode) wins++;
+    else if (!m.winner_code) draws++;
+    else losses++;
+  }
+  return { played, wins, draws, losses, goalsFor, goalsAgainst, wcCount: years.size };
+}
+
 export function getHeadToHead(slug: string): HeadToHead | null {
   const codes = slugToCodes.get(slug);
   if (!codes) return null;

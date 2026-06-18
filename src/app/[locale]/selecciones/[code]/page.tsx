@@ -11,7 +11,7 @@ import { TeamPhotoGallery } from '@/components/team/team-photo-gallery';
 import { AmazonProductGrid } from '@/components/affiliate/amazon-card';
 import { getProductsByTeam } from '@/lib/amazon-products';
 import { getJerseyHistory } from '@/lib/wc-jerseys';
-import { headToHeadsForTeam } from '@/lib/wc-head-to-head';
+import { headToHeadsForTeam, teamWorldCupRecord } from '@/lib/wc-head-to-head';
 import { Shirt, ArrowRight, Newspaper, CalendarClock, Play } from 'lucide-react';
 import { TeamKitShop } from '@/components/team/team-kit-shop';
 import { getNewsByTeam, relativeTimeEs } from '@/lib/news';
@@ -51,13 +51,18 @@ export async function generateMetadata({
   if (!team) return {};
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://mundiales-de-futbol.com';
   const name = teamDisplayName(team);
+  // Récord completo (histórico real 1930-2022, con linaje), no solo los
+  // partidos con ficha detallada en la BD.
+  const preds = await getPredecessors(team.code);
+  const rec = teamWorldCupRecord([team.code, ...preds.map((p) => p.code)]);
+  const wcCount = rec.wcCount || team.wc_count;
   // Patrón confirmado: "Brasil en los Mundiales · Cuántos ha ganado, plantillas y récords".
   // Mismo título para los 103 países; el subtítulo H2 (en el componente)
   // se adapta por tier (campeón / regular / debutante).
   const title = `${name} en los Mundiales · Cuántos ha ganado, plantillas y récords`;
   const description = team.titles > 0
-    ? `${name}: ${team.titles} ${team.titles === 1 ? 'título mundial' : 'títulos mundiales'}, ${team.wc_count} participaciones, ${team.matches_played} partidos. Plantillas históricas, récord (${team.wins}-${team.draws}-${team.losses}) y máximos goleadores.`
-    : `${name} en los Mundiales: ${team.wc_count} ${team.wc_count === 1 ? 'participación' : 'participaciones'}, ${team.matches_played} partidos, récord ${team.wins}-${team.draws}-${team.losses}. Plantillas, mejores actuaciones y máximos goleadores.`;
+    ? `${name}: ${team.titles} ${team.titles === 1 ? 'título mundial' : 'títulos mundiales'}, ${wcCount} participaciones, ${rec.played} partidos. Plantillas históricas, récord (${rec.wins}-${rec.draws}-${rec.losses}) y máximos goleadores.`
+    : `${name} en los Mundiales: ${wcCount} ${wcCount === 1 ? 'participación' : 'participaciones'}, ${rec.played} partidos, récord ${rec.wins}-${rec.draws}-${rec.losses}. Plantillas, mejores actuaciones y máximos goleadores.`;
   const url =
     locale === routing.defaultLocale
       ? `${siteUrl}/selecciones/${team.code}`
@@ -101,6 +106,10 @@ export default async function SelectionDetailPage({
 
   // Cara a cara: rivales en la historia de los Mundiales + rivales de 2026.
   const teamH2H = headToHeadsForTeam(team.code);
+
+  // Récord COMPLETO en Mundiales (1930-2022) desde el histórico real, no solo
+  // los partidos con ficha detallada en la BD. Suma el linaje (RFA/RDA, etc.).
+  const wcRecord = teamWorldCupRecord(lineageCodes);
 
   const [matches, topScorers] = await Promise.all([
     getTeamMatches(team.code, predecessors.map((p) => p.code)),
@@ -286,10 +295,10 @@ export default async function SelectionDetailPage({
         <div className="grid gap-px overflow-hidden rounded-3xl border border-[var(--color-border)] bg-[var(--color-border)] sm:grid-cols-2 lg:grid-cols-6">
           <Stat label="Títulos" value={String(unified.titles)} accent={unified.titles > 0 ? 'var(--color-pitch)' : undefined} icon={unified.titles > 0 ? Trophy : undefined} />
           <Stat label="Subcampeón" value={String(unified.runners_up)} />
-          <Stat label="Mundiales" value={String(unified.wc_count)} />
-          <Stat label="Partidos" value={String(unified.matches_played)} />
-          <Stat label="Récord" value={`${unified.wins}-${unified.draws}-${unified.losses}`} small />
-          <Stat label="Goles" value={`${unified.goals_for}/${unified.goals_against}`} small />
+          <Stat label="Mundiales" value={String(wcRecord.wcCount || unified.wc_count)} />
+          <Stat label="Partidos" value={String(wcRecord.played)} />
+          <Stat label="Récord" value={`${wcRecord.wins}-${wcRecord.draws}-${wcRecord.losses}`} small />
+          <Stat label="Goles" value={`${wcRecord.goalsFor}/${wcRecord.goalsAgainst}`} small />
         </div>
       </section>
 
@@ -596,6 +605,12 @@ export default async function SelectionDetailPage({
         <h2 className="mt-3 font-display text-fluid-h2 uppercase leading-none">
           Cada aparición
         </h2>
+        <p className="mt-3 max-w-2xl text-sm text-[var(--color-fg-muted)]">
+          Partidos con <strong className="text-[var(--color-fg)]">ficha detallada</strong>{' '}
+          (alineaciones, eventos y estadísticas). El récord completo en Mundiales{' '}
+          ({wcRecord.played} partidos, {wcRecord.wins}-{wcRecord.draws}-{wcRecord.losses}) está
+          arriba.
+        </p>
 
         <div className="mt-10 space-y-10">
           {byYear.map((yr) => {
