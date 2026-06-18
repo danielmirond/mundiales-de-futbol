@@ -239,7 +239,7 @@ export default async function NoticiaDetail({
             {relativeTimeEs(item.publishedAt)}
           </span>
           <span className="text-[var(--color-fg-subtle)]">
-            Por {item.author ?? 'Redacción de Mundiales de Fútbol'}
+            Por {item.author ?? 'Redacción Mundiales de Fútbol'}
           </span>
         </div>
 
