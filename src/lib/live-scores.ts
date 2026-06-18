@@ -21,6 +21,7 @@ function norm(abbr: string | undefined): string {
 }
 
 export type LiveMatch = {
+  id: string;
   home: string;
   away: string;
   homeScore: number | null;
@@ -61,6 +62,7 @@ export async function fetchScores(
       const home = competitors.find((c: any) => c.homeAway === 'home');
       const away = competitors.find((c: any) => c.homeAway === 'away');
       return {
+        id: String(e.id ?? ''),
         home: norm(home?.team?.abbreviation),
         away: norm(away?.team?.abbreviation),
         homeScore: num(home?.score),

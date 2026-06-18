@@ -8,6 +8,9 @@ import {
 } from '@/lib/wc-2026';
 import { fixtureToUTC } from '@/lib/wc-2026-fixture-utc';
 import { fetchScores, buildScoreMap, scoreKey } from '@/lib/live-scores';
+import { fetchMatchSummary } from '@/lib/wc-2026-match-summary';
+import { MatchSummarySections } from '@/components/match/match-summary';
+import { pairSlug } from '@/lib/wc-head-to-head';
 import { getMovistarLink } from '@/lib/movistar-match-links';
 import { MovistarCintillo } from '@/components/affiliate/movistar-banner';
 import { getNewsBySlug } from '@/lib/news';
@@ -73,6 +76,13 @@ export default async function PartidoPage({ params }: { params: Promise<{ locale
   const sc = scoreMap.get(scoreKey(f!.home, f!.away));
   const played = sc && sc.state !== 'pre' && sc.homeScore !== null && sc.awayScore !== null;
   const live = sc?.state === 'in';
+
+  // Alineaciones, momentos clave y stats (ESPN summary) cuando el partido
+  // está en juego o ya jugado. Devuelve null si aún no hay datos.
+  const summary =
+    sc?.id && (played || live) && f!.home && f!.away
+      ? await fetchMatchSummary(sc.id, f!.home, f!.away)
+      : null;
 
   const mov = getMovistarLink(f!.home && f!.away ? `ver-${f!.home.toLowerCase()}-${f!.away.toLowerCase()}-tv-mundial-2026` : '');
 
@@ -192,6 +202,17 @@ export default async function PartidoPage({ params }: { params: Promise<{ locale
         <MovistarCintillo href={mov.href} context={`${hn} - ${an}`} matchId={mov.matchId} />
       </section>
 
+      {/* Alineaciones · momentos clave · estadísticas (si hay datos) */}
+      {summary && (
+        <MatchSummarySections
+          summary={summary}
+          homeName={hn}
+          awayName={an}
+          homeFlag={h?.flag ?? '🏳️'}
+          awayFlag={a?.flag ?? '🏳️'}
+        />
+      )}
+
       {/* Enlaces */}
       <section className="mx-auto mt-8 w-full max-w-[1000px] px-6 md:px-10">
         <div className="flex flex-wrap gap-3">
@@ -208,6 +229,11 @@ export default async function PartidoPage({ params }: { params: Promise<{ locale
           {isGroup && (
             <Link href={withLocale(locale as Locale, `/2026/grupo/${f!.stage.toLowerCase()}`)} className="inline-flex items-center gap-2 rounded-full border border-[var(--color-border-strong)] px-4 py-2 text-sm font-semibold text-[var(--color-fg)] transition-colors hover:border-[var(--color-pitch)] hover:text-[var(--color-pitch)]">
               <ListChecks className="h-4 w-4" /> {stageLabel}
+            </Link>
+          )}
+          {f!.home && f!.away && (
+            <Link href={withLocale(locale as Locale, `/historial/${pairSlug(f!.home, f!.away)}`)} className="inline-flex items-center gap-2 rounded-full border border-[var(--color-border-strong)] px-4 py-2 text-sm font-semibold text-[var(--color-fg)] transition-colors hover:border-[var(--color-pitch)] hover:text-[var(--color-pitch)]">
+              <ListChecks className="h-4 w-4" /> Historial {hn}-{an}
             </Link>
           )}
           {related && (
