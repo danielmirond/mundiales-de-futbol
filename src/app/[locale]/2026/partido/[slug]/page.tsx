@@ -215,24 +215,36 @@ export default async function PartidoPage({ params }: { params: Promise<{ locale
       </section>
 
       {/* Previa · cara a cara (mientras no esté en juego ni jugado) */}
-      {!played && !live && h2h && h2h.total > 0 && (
+      {!played && !live && h2h && (
         <section className="mx-auto mt-8 w-full max-w-[1000px] px-6 md:px-10">
           <div className="rounded-3xl border border-[var(--color-border)] bg-[var(--color-bg-2)] p-6 md:p-7">
             <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-pitch)]">
               Previa · cara a cara en Mundiales
             </div>
             <p className="mt-3 text-sm leading-relaxed text-[var(--color-fg-muted)]">
-              <strong className="text-[var(--color-fg)]">{hn}</strong> y{' '}
-              <strong className="text-[var(--color-fg)]">{an}</strong> se han enfrentado{' '}
-              <strong className="text-[var(--color-fg)]">
-                {h2h.total === 1 ? 'una vez' : `${h2h.total} veces`}
-              </strong>{' '}
-              en la historia de los Mundiales: {h2h.aWins} {h2h.a === f!.home ? hn : an} ·{' '}
-              {h2h.draws} empates · {h2h.bWins} {h2h.b === f!.home ? hn : an}.
-              {h2h.meetings[0] && (
+              {h2h.total === 0 ? (
                 <>
-                  {' '}Último cruce: <strong className="text-[var(--color-fg)]">{h2h.meetings[0].year}</strong>{' '}
-                  ({h2h.meetings[0].aScore}-{h2h.meetings[0].bScore}).
+                  <strong className="text-[var(--color-fg)]">{hn}</strong> y{' '}
+                  <strong className="text-[var(--color-fg)]">{an}</strong> no se han enfrentado
+                  nunca en la fase final de una Copa del Mundo: será su{' '}
+                  <strong className="text-[var(--color-fg)]">primer duelo mundialista</strong>.
+                </>
+              ) : (
+                <>
+                  <strong className="text-[var(--color-fg)]">{hn}</strong> y{' '}
+                  <strong className="text-[var(--color-fg)]">{an}</strong> se han enfrentado{' '}
+                  <strong className="text-[var(--color-fg)]">
+                    {h2h.total === 1 ? 'una vez' : `${h2h.total} veces`}
+                  </strong>{' '}
+                  en la historia de los Mundiales: {h2h.aWins} {h2h.a === f!.home ? hn : an} ·{' '}
+                  {h2h.draws} empates · {h2h.bWins} {h2h.b === f!.home ? hn : an}.
+                  {h2h.meetings[0] && (
+                    <>
+                      {' '}Último cruce:{' '}
+                      <strong className="text-[var(--color-fg)]">{h2h.meetings[0].year}</strong>{' '}
+                      ({h2h.meetings[0].aScore}-{h2h.meetings[0].bScore}).
+                    </>
+                  )}
                 </>
               )}
             </p>
