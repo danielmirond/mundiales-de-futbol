@@ -110,8 +110,11 @@ export default async function LocaleLayout({
         <NextIntlClientProvider>
           <div aria-hidden className="vignette-fixed" />
           <div className="relative flex min-h-screen flex-col">
-            <SiteNav />
-            <Wc2026Bar />
+            {/* Cabecera fija apilada: barra de enlaces ARRIBA, logo/nav debajo. */}
+            <div className="fixed inset-x-0 top-0 z-40 pt-[env(safe-area-inset-top)]">
+              <Wc2026Bar />
+              <SiteNav />
+            </div>
             <main className="flex-1">{children}</main>
             <SiteFooter />
           </div>

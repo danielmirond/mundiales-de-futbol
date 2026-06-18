@@ -44,10 +44,9 @@ export function SiteNav() {
   return (
     <header
       className={cn(
-        // `pt-[env(safe-area-inset-top)]` empuja el contenido del header
-        // por debajo del notch/Dynamic Island en iPhone. El fondo/blur
-        // se extiende hasta arriba (queda detrás de la barra del sistema).
-        'fixed inset-x-0 top-0 z-40 pt-[env(safe-area-inset-top)] transition-all duration-500',
+        // En flujo dentro del contenedor fijo del layout (que apila la barra
+        // de enlaces encima y el safe-area del notch). Aquí solo el fondo/blur.
+        'relative z-40 transition-all duration-500',
         scrolled
           ? 'border-b border-[var(--color-border)] bg-[var(--color-bg)]/80 backdrop-blur-xl'
           : 'border-b border-transparent bg-transparent',

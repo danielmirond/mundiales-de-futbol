@@ -109,7 +109,7 @@ export function Wc2026Bar() {
   // hydration mismatch; el quick-nav SÍ va en el HTML.
   if (!mounted) {
     return (
-      <div className="sticky top-0 z-40 border-b border-[var(--color-border)] bg-[var(--color-bg)]/85 backdrop-blur">
+      <div className="border-b border-[var(--color-border)] bg-[var(--color-bg)]/85 backdrop-blur">
         <div className="mx-auto flex w-full max-w-[1400px] flex-wrap items-center justify-between gap-x-6 gap-y-2 px-6 py-2.5 text-xs md:px-10">
           <Link
             href={withLocale(locale, '/2026')}
@@ -127,7 +127,7 @@ export function Wc2026Bar() {
 
   // ─── Render por fase ─────────────────────────────────────────────
   return (
-    <div className="sticky top-0 z-40 border-b border-[var(--color-border)] bg-[var(--color-bg)]/85 backdrop-blur">
+    <div className="border-b border-[var(--color-border)] bg-[var(--color-bg)]/85 backdrop-blur">
       <div className="mx-auto flex w-full max-w-[1400px] flex-wrap items-center justify-between gap-x-6 gap-y-2 px-6 py-2.5 text-xs md:px-10">
         {/* Chip izq: estado del torneo */}
         <Link
