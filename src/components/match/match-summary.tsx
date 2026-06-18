@@ -1,4 +1,4 @@
-import type { MatchSummary, LineupPlayer, MatchEvent } from '@/lib/wc-2026-match-summary';
+import type { MatchSummary, LineupPlayer, MatchEvent, CommentaryLine } from '@/lib/wc-2026-match-summary';
 
 const KIND_ICON: Record<MatchEvent['kind'], string> = {
   goal: '⚽',
@@ -59,18 +59,48 @@ function Lineup({
   );
 }
 
+function Commentary({ lines, live }: { lines: CommentaryLine[]; live: boolean }) {
+  // Más reciente primero (estilo directo).
+  const ordered = [...lines].reverse();
+  return (
+    <section className="mx-auto mt-12 w-full max-w-[1000px] px-6 md:px-10">
+      <div className="flex items-center gap-3">
+        <h2 className="font-display text-fluid-h2 uppercase leading-none">Narración</h2>
+        {live && (
+          <span className="inline-flex items-center gap-1.5 rounded-full bg-[var(--color-flame)]/15 px-2.5 py-1 font-mono text-[9px] uppercase tracking-[0.2em] text-[var(--color-flame)]">
+            <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-[var(--color-flame)]" />
+            En directo
+          </span>
+        )}
+      </div>
+      <ol className="mt-6 space-y-0">
+        {ordered.map((c, i) => (
+          <li key={i} className="flex gap-4 border-l border-[var(--color-border)] pl-4 pb-4 last:pb-0">
+            <span className="-ml-[1.4rem] mt-0.5 inline-grid h-7 min-w-[2.75rem] flex-shrink-0 place-items-center rounded-full border border-[var(--color-border)] bg-[var(--color-bg)] px-2 font-mono text-[10px] tab-num text-[var(--color-pitch)]">
+              {c.minute || '·'}
+            </span>
+            <span className="text-sm leading-relaxed text-[var(--color-fg-muted)]">{c.text}</span>
+          </li>
+        ))}
+      </ol>
+    </section>
+  );
+}
+
 export function MatchSummarySections({
   summary,
   homeName,
   awayName,
   homeFlag,
   awayFlag,
+  live = false,
 }: {
   summary: MatchSummary;
   homeName: string;
   awayName: string;
   homeFlag: string;
   awayFlag: string;
+  live?: boolean;
 }) {
   return (
     <>
@@ -130,6 +160,9 @@ export function MatchSummarySections({
           </ul>
         </section>
       )}
+
+      {/* ── NARRACIÓN (minuto a minuto) ── */}
+      {summary.hasCommentary && <Commentary lines={summary.commentary} live={live} />}
 
       {/* ── ALINEACIONES ── */}
       {summary.hasLineups && (

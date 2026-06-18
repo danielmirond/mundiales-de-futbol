@@ -210,6 +210,7 @@ export default async function PartidoPage({ params }: { params: Promise<{ locale
           awayName={an}
           homeFlag={h?.flag ?? '🏳️'}
           awayFlag={a?.flag ?? '🏳️'}
+          live={!!live}
         />
       )}
 

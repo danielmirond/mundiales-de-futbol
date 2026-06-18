@@ -28,6 +28,8 @@ export type MatchEvent = {
 
 export type TeamStat = { key: string; label: string; home: string; away: string };
 
+export type CommentaryLine = { minute: string; text: string };
+
 export type MatchSummary = {
   formationHome: string | null;
   formationAway: string | null;
@@ -37,9 +39,11 @@ export type MatchSummary = {
   subsAway: LineupPlayer[];
   events: MatchEvent[];
   stats: TeamStat[];
+  commentary: CommentaryLine[];
   hasLineups: boolean;
   hasEvents: boolean;
   hasStats: boolean;
+  hasCommentary: boolean;
 };
 
 // Estadísticas que mostramos, en orden, con etiqueta en español.
@@ -56,14 +60,15 @@ const STAT_LABELS: { key: string; label: string }[] = [
   { key: 'passPct', label: 'Precisión de pase (%)' },
 ];
 
+// Clasificación bilingüe (ESPN devuelve el texto en español con lang=es, pero
+// dejamos también las claves en inglés por robustez).
 function classifyEvent(typeText: string): MatchEvent['kind'] {
   const t = typeText.toLowerCase();
-  if (t.includes('own goal')) return 'goal';
-  if (t.includes('goal') || t.includes('penalty - scored')) return 'goal';
-  if (t.includes('yellow')) return 'yellow';
-  if (t.includes('red')) return 'red';
-  if (t.includes('substitution')) return 'sub';
-  if (t.includes('var') || t.includes('video')) return 'var';
+  if (t.includes('amarilla') || t.includes('yellow')) return 'yellow';
+  if (t.includes('roja') || t.includes('red')) return 'red';
+  if (t.includes('sustituc') || t.includes('cambio') || t.includes('substitution')) return 'sub';
+  if (t.includes('gol') || t.includes('goal') || t.includes('penalty - scored')) return 'goal';
+  if (t.includes('var') || t.includes('vídeo') || t.includes('video')) return 'var';
   return 'other';
 }
 
@@ -86,7 +91,7 @@ export async function fetchMatchSummary(
   if (!eventId) return null;
   let data: any;
   try {
-    const res = await fetch(`${ESPN_SUMMARY}?event=${eventId}`, {
+    const res = await fetch(`${ESPN_SUMMARY}?event=${eventId}&lang=es&region=es`, {
       headers: { 'User-Agent': 'Mozilla/5.0 (mundiales-de-futbol.com)' },
       next: { revalidate },
     });
@@ -151,7 +156,7 @@ export async function fetchMatchSummary(
       return {
         minute: k.clock?.displayValue ?? '',
         kind: classifyEvent(typeText),
-        type: TYPE_ES[typeText] ?? typeText,
+        type: typeText || TYPE_ES[typeText] || '',
         side: idToSide.get(String(k.team?.id)) ?? null,
         players: (k.participants ?? k.athletesInvolved ?? [])
           .map((p: any) => p.athlete?.displayName ?? p.displayName)
@@ -179,10 +184,19 @@ export async function fetchMatchSummary(
     away: byCode.away[s.key] ?? '—',
   }));
 
+  // ── Narración (minuto a minuto) ──
+  const commentary: CommentaryLine[] = (data.commentary ?? [])
+    .map((c: any): CommentaryLine => ({
+      minute: c.time?.displayValue ?? '',
+      text: c.text ?? '',
+    }))
+    .filter((c: CommentaryLine) => c.text);
+
   const hasLineups = startHome.length > 0 || startAway.length > 0;
   const hasEvents = events.length > 0;
   const hasStats = stats.length > 0;
-  if (!hasLineups && !hasEvents && !hasStats) return null;
+  const hasCommentary = commentary.length > 0;
+  if (!hasLineups && !hasEvents && !hasStats && !hasCommentary) return null;
 
   return {
     formationHome,
@@ -193,8 +207,10 @@ export async function fetchMatchSummary(
     subsAway,
     events,
     stats,
+    commentary,
     hasLineups,
     hasEvents,
     hasStats,
+    hasCommentary,
   };
 }
