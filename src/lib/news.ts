@@ -130,6 +130,35 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'suiza-bosnia-resultado-mundial-2026',
+    title: "Suiza 4-1 Bosnia: resultado, goles y estadísticas | Mundial 2026",
+    summary: "Victoria de Suiza por 4-1 entre Suiza y Bosnia en el Grupo B del Mundial 2026. Resultado, goles y estadísticas del partido.",
+    body: `**Suiza** goleó a **Bosnia** por **4-1** en el **Grupo B** del Mundial 2026, en un partido disputado el jueves 18 de junio en el SoFi Stadium (Inglewood).
+
+## Goles
+
+- **74'** Johan Manzambi (Suiza)
+- **84'** Rubén Vargas (Suiza)
+- **90'** Johan Manzambi (Suiza)
+- **90'+3'** Ermin Mahmic (Bosnia)
+
+## Estadísticas del partido
+
+- Posesión (%): **62.3** Suiza · **37.7** Bosnia
+- Tiros: **13** Suiza · **5** Bosnia
+- Tiros a puerta: **7** Suiza · **3** Bosnia
+- Córners: **7** Suiza · **3** Bosnia
+
+Tienes la **ficha completa** del partido —con alineaciones, todos los momentos clave y estadísticas ampliadas— en [Suiza - Bosnia](/2026/partido/suiza-bosnia). Consulta también el [historial entre ambas selecciones](/historial/bosnia-y-herzegovina-vs-suiza) y la clasificación actualizada en [grupos](/2026/grupos).
+
+El Mundial 2026 se puede ver en España en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**, con partidos seleccionados en abierto en La 1 (RTVE).`,
+    category: 'general',
+    sourceName: "Mundiales de Fútbol · datos ESPN",
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-18T21:00:00Z',
+  },
+  {
     slug: 'chequia-sudafrica-resultado-mundial-2026',
     title: "Chequia 1-1 Sudáfrica: resultado, goles y estadísticas | Mundial 2026",
     summary: "Empate 1-1 entre Chequia y Sudáfrica en el Grupo A del Mundial 2026. Resultado, goles y estadísticas del partido.",
