@@ -10,7 +10,7 @@ import { fixtureToUTC } from '@/lib/wc-2026-fixture-utc';
 import { fetchScores, buildScoreMap, scoreKey } from '@/lib/live-scores';
 import { fetchMatchSummary } from '@/lib/wc-2026-match-summary';
 import { LiveMatchSummary } from '@/components/match/live-match-summary';
-import { pairSlug } from '@/lib/wc-head-to-head';
+import { pairSlug, getHeadToHead } from '@/lib/wc-head-to-head';
 import { getMovistarLink } from '@/lib/movistar-match-links';
 import { MovistarCintillo } from '@/components/affiliate/movistar-banner';
 import { getNewsBySlug } from '@/lib/news';
@@ -77,12 +77,24 @@ export default async function PartidoPage({ params }: { params: Promise<{ locale
   const played = sc && sc.state !== 'pre' && sc.homeScore !== null && sc.awayScore !== null;
   const live = sc?.state === 'in';
 
-  // Alineaciones, momentos clave y stats (ESPN summary) cuando el partido
-  // está en juego o ya jugado. Devuelve null si aún no hay datos.
+  // Estado de la URL según el reloj:
+  //   > 24 h    → previa básica (cara a cara, contexto, dónde ver)
+  //   ≤ 24 h    → previa + alineaciones en cuanto ESPN las publica
+  //   en juego  → live-blog
+  //   jugado    → crónica
+  const hoursToKickoff = (ms - Date.now()) / 3_600_000;
+  const preWindow = hoursToKickoff <= 24 && hoursToKickoff > -6;
+
+  // Alineaciones, momentos clave y stats (ESPN summary). Se intenta también en
+  // la ventana de 24 h previas (para mostrar el once en cuanto se anuncia).
+  // Devuelve null si aún no hay datos.
   const summary =
-    sc?.id && (played || live) && f!.home && f!.away
+    sc?.id && (played || live || preWindow) && f!.home && f!.away
       ? await fetchMatchSummary(sc.id, f!.home, f!.away)
       : null;
+
+  // Cara a cara (historial real en Mundiales) — previa siempre disponible.
+  const h2h = f!.home && f!.away ? getHeadToHead(pairSlug(f!.home, f!.away)) : null;
 
   const mov = getMovistarLink(f!.home && f!.away ? `ver-${f!.home.toLowerCase()}-${f!.away.toLowerCase()}-tv-mundial-2026` : '');
 
@@ -201,6 +213,38 @@ export default async function PartidoPage({ params }: { params: Promise<{ locale
       <section className="mx-auto mt-8 w-full max-w-[1000px] px-6 md:px-10">
         <MovistarCintillo href={mov.href} context={`${hn} - ${an}`} matchId={mov.matchId} />
       </section>
+
+      {/* Previa · cara a cara (mientras no esté en juego ni jugado) */}
+      {!played && !live && h2h && h2h.total > 0 && (
+        <section className="mx-auto mt-8 w-full max-w-[1000px] px-6 md:px-10">
+          <div className="rounded-3xl border border-[var(--color-border)] bg-[var(--color-bg-2)] p-6 md:p-7">
+            <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-pitch)]">
+              Previa · cara a cara en Mundiales
+            </div>
+            <p className="mt-3 text-sm leading-relaxed text-[var(--color-fg-muted)]">
+              <strong className="text-[var(--color-fg)]">{hn}</strong> y{' '}
+              <strong className="text-[var(--color-fg)]">{an}</strong> se han enfrentado{' '}
+              <strong className="text-[var(--color-fg)]">
+                {h2h.total === 1 ? 'una vez' : `${h2h.total} veces`}
+              </strong>{' '}
+              en la historia de los Mundiales: {h2h.aWins} {h2h.a === f!.home ? hn : an} ·{' '}
+              {h2h.draws} empates · {h2h.bWins} {h2h.b === f!.home ? hn : an}.
+              {h2h.meetings[0] && (
+                <>
+                  {' '}Último cruce: <strong className="text-[var(--color-fg)]">{h2h.meetings[0].year}</strong>{' '}
+                  ({h2h.meetings[0].aScore}-{h2h.meetings[0].bScore}).
+                </>
+              )}
+            </p>
+            <Link
+              href={withLocale(locale as Locale, `/historial/${pairSlug(f!.home!, f!.away!)}`)}
+              className="mt-4 inline-flex items-center gap-2 font-mono text-xs uppercase tracking-[0.2em] text-[var(--color-pitch)] hover:underline"
+            >
+              Ver todo el historial <ArrowRight className="h-3 w-3 rtl:rotate-180" />
+            </Link>
+          </div>
+        </section>
+      )}
 
       {/* Live-blog: alineaciones · momentos · narración · stats (auto-refresh si en directo) */}
       {summary && sc?.id && f!.home && f!.away && (
