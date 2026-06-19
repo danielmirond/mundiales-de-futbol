@@ -130,6 +130,37 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'canada-catar-resultado-mundial-2026',
+    title: "Canadá 6-0 Catar: resultado, goles y estadísticas | Mundial 2026",
+    summary: "Victoria de Canadá por 6-0 entre Canadá y Catar en el Grupo B del Mundial 2026. Resultado, goles y estadísticas del partido.",
+    body: `**Canadá** goleó a **Catar** por **6-0** en el **Grupo B** del Mundial 2026, en un partido disputado el viernes 19 de junio en el BC Place (Vancouver).
+
+## Goles
+
+- **16'** Cyle Larin (Canadá)
+- **29'** Jonathan David (Canadá)
+- **45'+3'** Jonathan David (Canadá)
+- **64'** Nathan Saliba (Canadá)
+- **75'** Mohamed Manai (Canadá)
+- **90'+2'** Jonathan David (Canadá)
+
+## Estadísticas del partido
+
+- Posesión (%): **79** Canadá · **21** Catar
+- Tiros: **32** Canadá · **2** Catar
+- Tiros a puerta: **10** Canadá · **0** Catar
+- Córners: **19** Canadá · **1** Catar
+
+Tienes la **ficha completa** del partido —con alineaciones, todos los momentos clave y estadísticas ampliadas— en [Canadá - Catar](/2026/partido/canada-catar). Consulta también el [historial entre ambas selecciones](/historial/canada-vs-qatar) y la clasificación actualizada en [grupos](/2026/grupos).
+
+El Mundial 2026 se puede ver en España en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**, con partidos seleccionados en abierto en La 1 (RTVE).`,
+    category: 'general',
+    sourceName: "Mundiales de Fútbol · datos ESPN",
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-19T00:00:00Z',
+  },
+  {
     slug: 'suiza-bosnia-resultado-mundial-2026',
     title: "Suiza 4-1 Bosnia: resultado, goles y estadísticas | Mundial 2026",
     summary: "Victoria de Suiza por 4-1 entre Suiza y Bosnia en el Grupo B del Mundial 2026. Resultado, goles y estadísticas del partido.",
