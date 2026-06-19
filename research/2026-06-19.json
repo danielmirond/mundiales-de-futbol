@@ -1,0 +1,1840 @@
+{
+  "generatedAt": "2026-06-19T11:05:18.155Z",
+  "date": "2026-06-19",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "buro de credito",
+      "geo": "MX",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Buró de Crédito, carta de presentación ante instituciones financieras: Wolfgang Erhardt",
+          "url": "https://oem.com.mx/elsoldesanluis/finanzas/buro-de-credito-carta-de-presentacion-ante-instituciones-financieras-wolfgang-erhardt-30519758",
+          "source": "El Sol de México"
+        },
+        {
+          "title": "El Mundial 2026 te puede mandar a Buró de Crédito y esta es la razón",
+          "url": "https://www.marca.com/mx/actualidad/dinero/2026/06/16/6a30cdf1268e3e172b8b4599.html",
+          "source": "MARCA"
+        },
+        {
+          "title": "La fiebre del Mundial abre una oportunidad: tomar el control de la información crediticia",
+          "url": "https://almomento.mx/la-fiebre-del-mundial-abre-una-oportunidad-tomar-el-control-de-la-informacion-crediticia/",
+          "source": "Noticias - Almomento"
+        }
+      ]
+    },
+    {
+      "query": "diario ole",
+      "geo": "AR",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Gustavo Tejera se estrenó en el Mundial 2026 en el partido entre México y Corea del Sur",
+          "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16869070/gustavo-tejera-mundial-2026-arbitro-uruguayo-estreno-partido-mexico-vs-corea-del-sur",
+          "source": "ESPN Deportes"
+        },
+        {
+          "title": "La sorpresiva aparición de River en una tapa de diario coreano en referencia a un árbitro sudamericano",
+          "url": "https://www.ole.com.ar/river-plate/river-corea-sur-diario-coreano-arbitro-gustavo-tejera_0_y6kVihYDqA.html",
+          "source": "Olé"
+        },
+        {
+          "title": "¿Quién es el árbitro de México vs. Corea del Sur por el Mundial 2026?",
+          "url": "https://bolavip.com/ar/mundial/quien-es-el-arbitro-de-mexico-vs-corea-del-sur-por-el-mundial-2026",
+          "source": "Bolavip Argentina"
+        }
+      ]
+    },
+    {
+      "query": "copa mundial de fútbol",
+      "geo": "AR",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 5000,
+      "articles": [
+        {
+          "title": "Mundial 2026, últimas noticias en directo | Hoy se enfrentan EE UU y Australia",
+          "url": "https://elpais.com/deportes/mundial-futbol/2026-06-19/resumen-y-ultimas-noticias-de-la-copa-mundial-de-futbol.html",
+          "source": "EL PAÍS"
+        },
+        {
+          "title": "Estados Unidos vs Australia: posibles alineaciones del partido",
+          "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16869613/estados-unidos-vs-australia-alineaciones-partido-mundial-2026",
+          "source": "ESPN Deportes"
+        },
+        {
+          "title": "EE.UU quiere asegurar su clasificación",
+          "url": "https://www.eldia.com/mundial-2026/ee-uu-quiere-asegurar-su-clasificacion-mundial-2026_1781853179",
+          "source": "Diario El Día de La Plata"
+        }
+      ]
+    },
+    {
+      "query": "mexico national football team vs south korea national football team standings",
+      "geo": "CO",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 10000,
+      "articles": [
+        {
+          "title": "Mexico 1-0 South Korea: Co hosts become the first country to qualify for World Cup last 32",
+          "url": "https://www.bbc.com/sport/football/live/cvgme6np19pt",
+          "source": "BBC"
+        },
+        {
+          "title": "Mexico 1-0 South Korea Stats: Romo Pounces on Kim’s Error to Book Knockout Spot",
+          "url": "https://theanalyst.com/articles/mexico-vs-south-korea-stats-world-cup-2026-live",
+          "source": "Opta Analyst"
+        },
+        {
+          "title": "Mexico 1-0 South Korea: World Cup 2026 – as it happened",
+          "url": "https://www.theguardian.com/football/live/2026/jun/19/fifa-world-cup-2026-live-mexico-v-south-korea-updates-mex-vs-kor-group-a-match-score-latest",
+          "source": "The Guardian"
+        }
+      ]
+    },
+    {
+      "query": "estados unidos vs australia",
+      "geo": "CO",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Estados Unidos vs Australia: posibles alineaciones del partido",
+          "url": "https://www.espn.com.co/futbol/mundial/nota/_/id/16869613/estados-unidos-vs-australia-alineaciones-partido-mundial-2026",
+          "source": "ESPN Colombia"
+        },
+        {
+          "title": "Estados Unidos vs. Australia, por Grupo D del Mundial 2026: fecha, hora y cómo seguir el partidazo",
+          "url": "https://caracol.com.co/2026/06/18/estados-unidos-vs-australia-por-grupo-d-del-mundial-2026-fecha-hora-y-como-seguir-el-partidazo/",
+          "source": "Caracol Radio"
+        },
+        {
+          "title": "Se la juegan por el liderato del Grupo D",
+          "url": "https://elmeridiano.co/cordoba/deportes/se-la-juegan-por-el-liderato-del-grupo-d-a92pai",
+          "source": "El Meridiano"
+        }
+      ]
+    },
+    {
+      "query": "grupo de mexico en el mundial 2026",
+      "geo": "CL",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Mundial 2026: ¿Por qué es importante el tercer juego para México?",
+          "url": "https://www.espn.cl/futbol/mundial/nota/_/id/16869284/mexico-mundial-2026-tercer-partido-fase-grupos-rival-chequia",
+          "source": "ESPN Chile"
+        },
+        {
+          "title": "México va por una marca histórica en los mundiales en su próximo duelo ante Chequia",
+          "url": "https://www.infobae.com/mexico/2026/06/19/mexico-va-por-una-marca-historica-en-los-mundiales-en-su-proximo-duelo-ante-chequia/",
+          "source": "Infobae"
+        },
+        {
+          "title": "\"Será un infierno para nosotros\": Michal Sadilek de Chequia revela temor de enfrentar a la Selección Mexicana",
+          "url": "https://www.marca.com/mx/futbol/seleccion-mx/2026/06/19/6a34d70be2704e626e8b458a.html",
+          "source": "MARCA"
+        }
+      ]
+    },
+    {
+      "query": "grupo a mundial 2026",
+      "geo": "CL",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Así van las tablas de los grupos en el Mundial 2026 y cómo se jugarán las segundas fechas",
+          "url": "https://www.emol.com/noticias/Deportes/2026/06/14/1202764/tabla-posiciones-grupos-mundial.html",
+          "source": "Emol"
+        },
+        {
+          "title": "Resultados del Mundial 2026 y clasificación en vivo: tabla de posiciones, partidos y goles",
+          "url": "https://cnnespanol.cnn.com/2026/06/11/deportes/resultados-mundial-2026-clasificacion-tabla-posiciones-puntos-orix",
+          "source": "CNN en Español"
+        },
+        {
+          "title": "Mundial 2026: el ranking de la BBC de todos los equipos después de la primera ronda de partidos (con 3 latinoamericanos entre los 10 primeros)",
+          "url": "https://www.bbc.com/mundo/articles/cpv3knwv80ko",
+          "source": "BBC"
+        }
+      ]
+    },
+    {
+      "query": "estados unidos vs australia",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "Estados Unidos vs Australia Pronóstico y apuestas Copa Mundial | 19/06/26",
+          "url": "https://www.goal.com/es-ar/apuestas/copa-del-mundo/estados-unidos-vs-australia-pronostico-apuestas-19-06-26/A%3Ablt43500ded1af8531d",
+          "source": "Goal.com"
+        },
+        {
+          "title": "Pochettino: “Queremos ganar, estamos listos para la guerra”",
+          "url": "https://ovacion.pe/noticias/mundial-2026/pochettino-queremos-ganar-estamos-listos-guerra",
+          "source": "ovacion.pe"
+        },
+        {
+          "title": "Estados Unidos vs Australia EN VIVO por Mundial 2026: cuándo juegan, a qué hora y dónde ver",
+          "url": "https://www.americatv.com.pe/deportes/futbol-mundial/estados-unidos-vs-australia-vivo-mundial-2026-que-hora-juegan-y-donde-ver-n454555",
+          "source": "América TV"
+        }
+      ]
+    },
+    {
+      "query": "escocia vs marruecos",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Cuándo juegan Escocia vs. Marruecos por la segunda fecha de la fase de grupos del Mundial 2026: equipo, fecha, hora y TV en vivo",
+          "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16863323/escocia-vs-marruecos-fase-de-grupos-mundial-2026-equipo-fecha-hora-y-tv-en-vivo",
+          "source": "ESPN Deportes"
+        },
+        {
+          "title": "La opción Ryan Christie",
+          "url": "https://www.infobae.com/espana/agencias/2026/06/18/la-opcion-ryan-christie/",
+          "source": "Infobae"
+        },
+        {
+          "title": "Escocia posee una etiqueta que le encanta a su seleccionador",
+          "url": "https://www.flashscore.pe/noticias/steve-clarke-sobre-el-papel-de-escocia-estamos-comodos-cuando-no-somos-los-favoritos/hOUFkzZr/",
+          "source": "Flashscore.pe"
+        }
+      ]
+    },
+    {
+      "query": "partidos de mañana",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "Mundial 2026: ¿qué partidos se juegan hoy, 18 de junio? Horarios y enfrentamientos",
+          "url": "https://cnnespanol.cnn.com/2026/06/18/deportes/mundial-2026-partidos-18-junio-orix",
+          "source": "CNN en Español"
+        },
+        {
+          "title": "Tabla de posiciones del Mundial 2026 EN VIVO: partidos y resultados de la fecha 2 de la fase de grupos",
+          "url": "https://depor.com/futbol-internacional/mundial/tabla-de-posiciones-del-mundial-2026-en-vivo-partidos-resultados-y-programacion-fecha-2-fase-de-grupos-argentina-colombia-uruguay-paraguay-brasil-espana-francia-noticia/",
+          "source": "Depor"
+        },
+        {
+          "title": "Partidos de hoy, 18 de junio: Horarios y transmisiones",
+          "url": "https://www.americatv.com.pe/deportes/futbol-mundial/partidos-hoy-18-junio-horario-y-canal-vivo-n454537",
+          "source": "América TV"
+        }
+      ]
+    },
+    {
+      "query": "fase de grupos mundial 2026",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Mundial 2026, en directo: noticias de la Copa del Mundo y última hora de las selecciones, hoy 18 de junio",
+          "url": "https://as.com/futbol/mundial/mundial-2026-en-directo-noticias-de-la-copa-del-mundo-y-ultima-hora-de-las-selecciones-hoy-18-de-junio-f202606-d/",
+          "source": "Diario AS"
+        },
+        {
+          "title": "Mundial 2026, en directo | Última hora de España y partidos de fase de grupos de hoy, 19 de junio",
+          "url": "https://www.marca.com/futbol/2026/06/19/6a34e77e1c831c17f439dc40-directo.html",
+          "source": "MARCA"
+        },
+        {
+          "title": "\"Podemos ilusionarnos\": España y un reto ineludible que incluye la segunda estrella",
+          "url": "https://www.elconfidencial.com/deportes/futbol/mundial/2026-06-15/espana-mundial-de-la-fuente-lamine-yamal_4370650/",
+          "source": "El Confidencial"
+        }
+      ]
+    },
+    {
+      "query": "guillermo ochoa",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Mundial 2026: ¿Por qué es importante el tercer juego para México?",
+          "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16869284/mexico-mundial-2026-tercer-partido-fase-grupos-rival-chequia",
+          "source": "ESPN Deportes"
+        },
+        {
+          "title": "México va por una marca histórica en los mundiales en su próximo duelo ante Chequia",
+          "url": "https://www.infobae.com/mexico/2026/06/19/mexico-va-por-una-marca-historica-en-los-mundiales-en-su-proximo-duelo-ante-chequia/",
+          "source": "Infobae"
+        },
+        {
+          "title": "\"Será un infierno para nosotros\": Michal Sadilek de Chequia revela temor de enfrentar a la Selección Mexicana",
+          "url": "https://www.marca.com/mx/futbol/seleccion-mx/2026/06/19/6a34d70be2704e626e8b458a.html",
+          "source": "MARCA"
+        }
+      ]
+    },
+    {
+      "query": "turquia vs paraguay",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Gustavo Alfaro: \"Confío a muerte en los jugadores que tengo\"",
+          "url": "https://andina.pe/agencia/noticia-gustavo-alfaro-confio-a-muerte-los-jugadores-tengo-1080086.aspx",
+          "source": "Agencia Peruana de Noticias | ANDINA"
+        },
+        {
+          "title": "Turquía vs Paraguay vía América tvGO EN VIVO y EN DIRECTO por la fecha 2 del Mundial 2026",
+          "url": "https://www.americatv.com.pe/deportes/futbol-mundial/mundial-2026-vivo-via-america-tvgo-turquia-vs-paraguay-fecha-2-n454556",
+          "source": "América TV"
+        },
+        {
+          "title": "¿En qué canales ver Paraguay vs. Turquía y a qué hora juegan por la fecha 2 del Mundial?",
+          "url": "https://depor.com/futbol-internacional/mundial/en-que-canales-ver-paraguay-vs-turquia-en-vivo-cuando-juegan-a-que-hora-y-donde-ver-gratis-gen-unicanal-tigo-sports-directv-futbol-libre-tv-dgo-espn-disney-plus-mundial-2026-noticia/",
+          "source": "Depor"
+        }
+      ]
+    },
+    {
+      "query": "posiciones de selección de fútbol de méxico contra selección de fútbol de corea del sur",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 50000,
+      "articles": [
+        {
+          "title": "Comentando lo que sería el partido de México contra Corea del Sur",
+          "url": "https://www.kget.com/telemundo/nuestra-comunidad/invitados/comentando-lo-que-seria-el-partido-de-mexico-contra-corea-del-sur/",
+          "source": "KGET.com"
+        },
+        {
+          "title": "México, primer clasificado a dieciseisavos de final del Mundial 2026",
+          "url": "https://www.teleamazonas.com/mundial/mexico-primer-clasificado-dieciseisavos-final-mundial-120545/",
+          "source": "Teleamazonas"
+        },
+        {
+          "title": "Canal 5 y TUDN televisaron el partido México 1-0 Corea del Sur por el Mundial 2026",
+          "url": "https://depor.com/futbol-internacional/mundial/canal-5-tudn-en-vivo-transmision-del-mexico-corea-del-sur-por-tv-abierta-y-online-nnda-nnrt-noticia/",
+          "source": "Depor"
+        }
+      ]
+    },
+    {
+      "query": "selección de fútbol de méxico",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "\"Ole, ole, ole\": los hinchas de México hicieron sonar el clásico cántico",
+          "url": "https://www.tycsports.com/video/deportes/ole-ole-ole-los-hinchas-de-mexico-hicieron-sonar-el-clasico-cantico-id960080.html",
+          "source": "TyC Sports"
+        },
+        {
+          "title": "Las observaciones de Javier Aguirre a sus debutantes en el Mundial 2026",
+          "url": "https://es-us.noticias.yahoo.com/observaciones-javier-aguirre-debutantes-mundial-041049928.html",
+          "source": "Yahoo"
+        },
+        {
+          "title": "Sudáfrica reclama una regla del VAR para Messi y otra para ellos",
+          "url": "https://espndeportes.espn.com/futbol/mundial/nota/_/id/16860712/sudafrica-apelara-tarjeta-roja-themba-zwane-hugo-broos-messi",
+          "source": "ESPN Deportes"
+        }
+      ]
+    },
+    {
+      "query": "mexico corea",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Tremenda goleada: Autogol de Mohamed Manai para el 5-0 de Canadá",
+          "url": "https://www.telemundo.com/deportes/copa-mundial-de-la-fifa-2026/video/tremenda-goleada-autogol-de-mohamed-manai-para-el-5-0-de-canada-tmvo13195334",
+          "source": "Telemundo"
+        },
+        {
+          "title": "Equipos clasificados a los dieciseisavos de final del Mundial 2026: así va el cuadro del torneo",
+          "url": "https://www.365scores.com/es/news/equipos-clasificados-16vos-mundial-2026/",
+          "source": "365Scores"
+        },
+        {
+          "title": "Así quedan las tablas de posiciones en los grupos A y B del Mundial 2026, tras la segunda fecha",
+          "url": "https://www.ecuavisa.com/futbol-internacional/asi-tablas-posiciones-grupos-a-b-mundial-2026-segunda-fecha-20260618-0095.html",
+          "source": "Ecuavisa"
+        }
+      ]
+    },
+    {
+      "query": "mexico vs korea",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 5000,
+      "articles": [
+        {
+          "title": "Mexico 1-0 South Korea: Co hosts become the first country to qualify for World Cup last 32",
+          "url": "https://www.bbc.com/sport/football/live/cvgme6np19pt",
+          "source": "BBC"
+        },
+        {
+          "title": "Switzerland vs Bosnia and Herzegovina Quick Highlights | 2026 FIFA World Cup™",
+          "url": "https://www.foxsports.com/watch-vertical/fmc-5d3g3g0ctcaib19o",
+          "source": "FOX Sports"
+        },
+        {
+          "title": "Mexico vs South Korea – Prediction, Where to Watch, Kick-off Time and Lineups 19-06",
+          "url": "https://oddsscanner.com/predictions/football/mexico-x-south-korea-19-06-2026",
+          "source": "Odds Scanner"
+        }
+      ]
+    },
+    {
+      "query": "mexico vs corea del sur",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "Mexico beat South Korea to clinch first place in Group A",
+          "url": "https://www.espn.com/soccer/story/_/id/49113839/mexico-beats-south-korea-clinch-first-place-group-a",
+          "source": "ESPN"
+        },
+        {
+          "title": "‘¡Coreano, hermano!’ Mexico vs. Korea match brings out more romance than rivalry in L.A.",
+          "url": "https://www.latimes.com/california/story/2026-06-19/coreano-hermano-mexico-vs-korea-match-brings-out-more-romance-than-rivalry-in-la",
+          "source": "Los Angeles Times"
+        },
+        {
+          "title": "MEXICO ADVANCES🚨 FIFA World Cup Now reacts to Mexico&apos;s 1-0 W vs South Korea, previews USA-Australia",
+          "url": "https://www.foxsports.com/watch/fmc-14fsgxatocvzql1w",
+          "source": "FOX Sports"
+        }
+      ]
+    },
+    {
+      "query": "ismael kone",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Après Messi, l’attaquant canadien inscrira le deuxième triplé de la Coupe du monde 2026.",
+          "url": "https://twaslnews1.twaslnews.com/2418933/",
+          "source": "شبكة تواصل الإخبارية"
+        },
+        {
+          "title": "Les Canadiens célèbrent dans l’euphorie leur première victoire en Coupe du monde",
+          "url": "https://chretiens.com/actualites/les-canadiens-celebrent-dans-leuphorie/2026/06/19/11/26/",
+          "source": "Journal Chrétien"
+        },
+        {
+          "title": "Mondial 2026 : Canada écrase le Qatar 6-0, triplé historique de Jonathan David",
+          "url": "https://www.planetegrandesecoles.com/mondial-2026-canada-qatar",
+          "source": "Planète Grandes Écoles"
+        }
+      ]
+    },
+    {
+      "query": "messi vater",
+      "geo": "DE",
+      "language": "de",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "WM-Liveblog: Entsetzen nach Falschmeldung über Tod von Messis Vater",
+          "url": "https://www.sportschau.de/fussball/fifa-wm-2026/falschmeldung-zu-tod-von-messi-vater,wm-liveblog-100.html",
+          "source": "sportschau.de"
+        },
+        {
+          "title": "Bericht über Messis Vater: Geschockte Journalistin verliert Job nach falscher Todes-Meldung",
+          "url": "https://www.n-tv.de/sport/fussball-wm/Geschockte-Journalistin-verliert-Job-nach-falscher-Todes-Meldung-id30985946.html",
+          "source": "Ntv"
+        },
+        {
+          "title": "WM 2026: Moderatorin erklärt Messi-Vater für tot",
+          "url": "https://www.bild.de/sport/fussball/wm-2026-moderatorin-erklaert-messi-vater-fuer-tot-6a34f55d7e682fc37fc003c4",
+          "source": "BILD"
+        }
+      ]
+    },
+    {
+      "query": "mexico national football team vs south korea national football team standings",
+      "geo": "PT",
+      "language": "pt",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Mexico beat South Korea to clinch first place in Group A",
+          "url": "https://www.espn.com/soccer/story/_/id/49113839/mexico-beats-south-korea-clinch-first-place-group-a",
+          "source": "ESPN"
+        },
+        {
+          "title": "‘¡Coreano, hermano!’ Mexico vs. Korea match brings out more romance than rivalry in L.A.",
+          "url": "https://www.latimes.com/california/story/2026-06-19/coreano-hermano-mexico-vs-korea-match-brings-out-more-romance-than-rivalry-in-la",
+          "source": "Los Angeles Times"
+        },
+        {
+          "title": "MEXICO ADVANCES🚨 FIFA World Cup Now reacts to Mexico&apos;s 1-0 W vs South Korea, previews USA-Australia",
+          "url": "https://www.foxsports.com/watch/fmc-14fsgxatocvzql1w",
+          "source": "FOX Sports"
+        }
+      ]
+    },
+    {
+      "query": "brazil vs haiti",
+      "geo": "AU",
+      "language": "en",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Brazil vs Haiti at FIFA World Cup 2026: TV channel, how to watch, kick-off time, live stream, referee, predicted line-ups",
+          "url": "https://www.espn.com.au/football/story/_/id/49097937/brazil-haiti-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-referee-predicted-line-ups",
+          "source": "ESPN"
+        },
+        {
+          "title": "Eye of the Selecao! Thousands gather at famous ‘Rocky steps’ ahead of Haiti showdown",
+          "url": "https://www.news.com.au/sport/eye-of-the-selecao-thousands-gather-at-famous-rocky-steps-ahead-of-haiti-showdown/video/a5021c015c1e8ca0aa59e580f64ece95",
+          "source": "News.com.au"
+        },
+        {
+          "title": "Brazil vs. Haiti—World Cup: Preview, Predictions and Lineups",
+          "url": "https://www.si.com/soccer/brazil-vs-haiti-world-cup-preview-predictions-lineups-6-19-26",
+          "source": "Sports Illustrated"
+        }
+      ]
+    },
+    {
+      "query": "classement équipe du mexique de football – équipe de corée du sud de football",
+      "geo": "MA",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 10000,
+      "articles": [
+        {
+          "title": "Mexique 1-0 Corée du Sud, Coupe du monde : match terminé",
+          "url": "https://www.lequipe.fr/Football/match-direct/coupe-du-monde/2026/mexique-coree-du-sud-live/686905",
+          "source": "L&apos;Équipe"
+        },
+        {
+          "title": "Coupe du monde 2026 : le Mexique en 16ᵉˢ de finale, soirée-clé pour le Brésil et le Maroc… Ce qu’il faut retenir du jeudi 18 juin et ce qu’il faudra suivre vendredi 19 juin",
+          "url": "https://www.lemonde.fr/sport/article/2026/06/19/coupe-du-monde-2026-le-mexique-en-16es-de-finale-soiree-cle-pour-le-bresil-et-le-maroc-ce-qu-il-faut-retenir-du-jeudi-18-juin-et-ce-qu-il-faudra-suivre-vendredi-19-juin_6704909_3242.html",
+          "source": "Le Monde.fr"
+        },
+        {
+          "title": "Mondial 2026 : le Mexique déjà qualifié, la Suisse et le Canada tout proches du but",
+          "url": "https://h24info.ma/sport/mondial-2026-mexique-suisse-canada/",
+          "source": "H24info"
+        }
+      ]
+    },
+    {
+      "query": "mexico vs south korea",
+      "geo": "MA",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "Kim Seung-gyu: portero de Corea del Sur se PERDIÓ nacimiento de su hija previo a gol de Luis Romo en Mundial 2",
+          "url": "https://www.tvazteca.com/aztecadeportes/kim-seung-gyu-portero-corea-del-sur-se-perdio-nacimiento-su-hija-previo-a-gol-luis/",
+          "source": "TV Azteca"
+        },
+        {
+          "title": "Mundial 2026: un histórico jugador no fue al nacimiento de su hija para ir a la Copa del Mundo",
+          "url": "https://www.eldestapeweb.com/mundial/un-historico-jugador-no-fue-al-nacimiento-de-su-hija-para-ir-al-mundial-202661815024",
+          "source": "El Destape"
+        },
+        {
+          "title": "&apos;Parto en solitario&apos; Kim Jin-kyung, anima a su esposo Kim Seung-kyu: \"Último Mundial... esperando un nuevo ser vivo\"",
+          "url": "https://www.starnewskorea.com/es/broadcast-show/2026/06/19/2026061911072355928",
+          "source": "스타뉴스"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "es": [
+      {
+        "query": "posiciones de selección de fútbol de méxico contra selección de fútbol de corea del sur",
+        "score": 40000,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "posiciones de selección de fútbol de méxico contra selección de fútbol de corea del sur",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 50000,
+            "articles": [
+              {
+                "title": "Comentando lo que sería el partido de México contra Corea del Sur",
+                "url": "https://www.kget.com/telemundo/nuestra-comunidad/invitados/comentando-lo-que-seria-el-partido-de-mexico-contra-corea-del-sur/",
+                "source": "KGET.com"
+              },
+              {
+                "title": "México, primer clasificado a dieciseisavos de final del Mundial 2026",
+                "url": "https://www.teleamazonas.com/mundial/mexico-primer-clasificado-dieciseisavos-final-mundial-120545/",
+                "source": "Teleamazonas"
+              },
+              {
+                "title": "Canal 5 y TUDN televisaron el partido México 1-0 Corea del Sur por el Mundial 2026",
+                "url": "https://depor.com/futbol-internacional/mundial/canal-5-tudn-en-vivo-transmision-del-mexico-corea-del-sur-por-tv-abierta-y-online-nnda-nnrt-noticia/",
+                "source": "Depor"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "mexico national football team vs south korea national football team standings",
+        "score": 10000,
+        "geos": [
+          "CO"
+        ],
+        "samples": [
+          {
+            "query": "mexico national football team vs south korea national football team standings",
+            "geo": "CO",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 10000,
+            "articles": [
+              {
+                "title": "Mexico 1-0 South Korea: Co hosts become the first country to qualify for World Cup last 32",
+                "url": "https://www.bbc.com/sport/football/live/cvgme6np19pt",
+                "source": "BBC"
+              },
+              {
+                "title": "Mexico 1-0 South Korea Stats: Romo Pounces on Kim’s Error to Book Knockout Spot",
+                "url": "https://theanalyst.com/articles/mexico-vs-south-korea-stats-world-cup-2026-live",
+                "source": "Opta Analyst"
+              },
+              {
+                "title": "Mexico 1-0 South Korea: World Cup 2026 – as it happened",
+                "url": "https://www.theguardian.com/football/live/2026/jun/19/fifa-world-cup-2026-live-mexico-v-south-korea-updates-mex-vs-kor-group-a-match-score-latest",
+                "source": "The Guardian"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "copa mundial de fútbol",
+        "score": 6500,
+        "geos": [
+          "AR"
+        ],
+        "samples": [
+          {
+            "query": "copa mundial de fútbol",
+            "geo": "AR",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 5000,
+            "articles": [
+              {
+                "title": "Mundial 2026, últimas noticias en directo | Hoy se enfrentan EE UU y Australia",
+                "url": "https://elpais.com/deportes/mundial-futbol/2026-06-19/resumen-y-ultimas-noticias-de-la-copa-mundial-de-futbol.html",
+                "source": "EL PAÍS"
+              },
+              {
+                "title": "Estados Unidos vs Australia: posibles alineaciones del partido",
+                "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16869613/estados-unidos-vs-australia-alineaciones-partido-mundial-2026",
+                "source": "ESPN Deportes"
+              },
+              {
+                "title": "EE.UU quiere asegurar su clasificación",
+                "url": "https://www.eldia.com/mundial-2026/ee-uu-quiere-asegurar-su-clasificacion-mundial-2026_1781853179",
+                "source": "Diario El Día de La Plata"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "mexico vs korea",
+        "score": 4000,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "mexico vs korea",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 5000,
+            "articles": [
+              {
+                "title": "Mexico 1-0 South Korea: Co hosts become the first country to qualify for World Cup last 32",
+                "url": "https://www.bbc.com/sport/football/live/cvgme6np19pt",
+                "source": "BBC"
+              },
+              {
+                "title": "Switzerland vs Bosnia and Herzegovina Quick Highlights | 2026 FIFA World Cup™",
+                "url": "https://www.foxsports.com/watch-vertical/fmc-5d3g3g0ctcaib19o",
+                "source": "FOX Sports"
+              },
+              {
+                "title": "Mexico vs South Korea – Prediction, Where to Watch, Kick-off Time and Lineups 19-06",
+                "url": "https://oddsscanner.com/predictions/football/mexico-x-south-korea-19-06-2026",
+                "source": "Odds Scanner"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "partidos de mañana",
+        "score": 1800,
+        "geos": [
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "partidos de mañana",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "Mundial 2026: ¿qué partidos se juegan hoy, 18 de junio? Horarios y enfrentamientos",
+                "url": "https://cnnespanol.cnn.com/2026/06/18/deportes/mundial-2026-partidos-18-junio-orix",
+                "source": "CNN en Español"
+              },
+              {
+                "title": "Tabla de posiciones del Mundial 2026 EN VIVO: partidos y resultados de la fecha 2 de la fase de grupos",
+                "url": "https://depor.com/futbol-internacional/mundial/tabla-de-posiciones-del-mundial-2026-en-vivo-partidos-resultados-y-programacion-fecha-2-fase-de-grupos-argentina-colombia-uruguay-paraguay-brasil-espana-francia-noticia/",
+                "source": "Depor"
+              },
+              {
+                "title": "Partidos de hoy, 18 de junio: Horarios y transmisiones",
+                "url": "https://www.americatv.com.pe/deportes/futbol-mundial/partidos-hoy-18-junio-horario-y-canal-vivo-n454537",
+                "source": "América TV"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "estados unidos vs australia",
+        "score": 1100,
+        "geos": [
+          "CO",
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "estados unidos vs australia",
+            "geo": "CO",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Estados Unidos vs Australia: posibles alineaciones del partido",
+                "url": "https://www.espn.com.co/futbol/mundial/nota/_/id/16869613/estados-unidos-vs-australia-alineaciones-partido-mundial-2026",
+                "source": "ESPN Colombia"
+              },
+              {
+                "title": "Estados Unidos vs. Australia, por Grupo D del Mundial 2026: fecha, hora y cómo seguir el partidazo",
+                "url": "https://caracol.com.co/2026/06/18/estados-unidos-vs-australia-por-grupo-d-del-mundial-2026-fecha-hora-y-como-seguir-el-partidazo/",
+                "source": "Caracol Radio"
+              },
+              {
+                "title": "Se la juegan por el liderato del Grupo D",
+                "url": "https://elmeridiano.co/cordoba/deportes/se-la-juegan-por-el-liderato-del-grupo-d-a92pai",
+                "source": "El Meridiano"
+              }
+            ]
+          },
+          {
+            "query": "estados unidos vs australia",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "Estados Unidos vs Australia Pronóstico y apuestas Copa Mundial | 19/06/26",
+                "url": "https://www.goal.com/es-ar/apuestas/copa-del-mundo/estados-unidos-vs-australia-pronostico-apuestas-19-06-26/A%3Ablt43500ded1af8531d",
+                "source": "Goal.com"
+              },
+              {
+                "title": "Pochettino: “Queremos ganar, estamos listos para la guerra”",
+                "url": "https://ovacion.pe/noticias/mundial-2026/pochettino-queremos-ganar-estamos-listos-guerra",
+                "source": "ovacion.pe"
+              },
+              {
+                "title": "Estados Unidos vs Australia EN VIVO por Mundial 2026: cuándo juegan, a qué hora y dónde ver",
+                "url": "https://www.americatv.com.pe/deportes/futbol-mundial/estados-unidos-vs-australia-vivo-mundial-2026-que-hora-juegan-y-donde-ver-n454555",
+                "source": "América TV"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "mexico vs corea del sur",
+        "score": 900,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "mexico vs corea del sur",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "Mexico beat South Korea to clinch first place in Group A",
+                "url": "https://www.espn.com/soccer/story/_/id/49113839/mexico-beats-south-korea-clinch-first-place-group-a",
+                "source": "ESPN"
+              },
+              {
+                "title": "‘¡Coreano, hermano!’ Mexico vs. Korea match brings out more romance than rivalry in L.A.",
+                "url": "https://www.latimes.com/california/story/2026-06-19/coreano-hermano-mexico-vs-korea-match-brings-out-more-romance-than-rivalry-in-la",
+                "source": "Los Angeles Times"
+              },
+              {
+                "title": "MEXICO ADVANCES🚨 FIFA World Cup Now reacts to Mexico&apos;s 1-0 W vs South Korea, previews USA-Australia",
+                "url": "https://www.foxsports.com/watch/fmc-14fsgxatocvzql1w",
+                "source": "FOX Sports"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "turquia vs paraguay",
+        "score": 450,
+        "geos": [
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "turquia vs paraguay",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Gustavo Alfaro: \"Confío a muerte en los jugadores que tengo\"",
+                "url": "https://andina.pe/agencia/noticia-gustavo-alfaro-confio-a-muerte-los-jugadores-tengo-1080086.aspx",
+                "source": "Agencia Peruana de Noticias | ANDINA"
+              },
+              {
+                "title": "Turquía vs Paraguay vía América tvGO EN VIVO y EN DIRECTO por la fecha 2 del Mundial 2026",
+                "url": "https://www.americatv.com.pe/deportes/futbol-mundial/mundial-2026-vivo-via-america-tvgo-turquia-vs-paraguay-fecha-2-n454556",
+                "source": "América TV"
+              },
+              {
+                "title": "¿En qué canales ver Paraguay vs. Turquía y a qué hora juegan por la fecha 2 del Mundial?",
+                "url": "https://depor.com/futbol-internacional/mundial/en-que-canales-ver-paraguay-vs-turquia-en-vivo-cuando-juegan-a-que-hora-y-donde-ver-gratis-gen-unicanal-tigo-sports-directv-futbol-libre-tv-dgo-espn-disney-plus-mundial-2026-noticia/",
+                "source": "Depor"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "mexico corea",
+        "score": 400,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "mexico corea",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Tremenda goleada: Autogol de Mohamed Manai para el 5-0 de Canadá",
+                "url": "https://www.telemundo.com/deportes/copa-mundial-de-la-fifa-2026/video/tremenda-goleada-autogol-de-mohamed-manai-para-el-5-0-de-canada-tmvo13195334",
+                "source": "Telemundo"
+              },
+              {
+                "title": "Equipos clasificados a los dieciseisavos de final del Mundial 2026: así va el cuadro del torneo",
+                "url": "https://www.365scores.com/es/news/equipos-clasificados-16vos-mundial-2026/",
+                "source": "365Scores"
+              },
+              {
+                "title": "Así quedan las tablas de posiciones en los grupos A y B del Mundial 2026, tras la segunda fecha",
+                "url": "https://www.ecuavisa.com/futbol-internacional/asi-tablas-posiciones-grupos-a-b-mundial-2026-segunda-fecha-20260618-0095.html",
+                "source": "Ecuavisa"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "buro de credito",
+        "score": 280,
+        "geos": [
+          "MX"
+        ],
+        "samples": [
+          {
+            "query": "buro de credito",
+            "geo": "MX",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Buró de Crédito, carta de presentación ante instituciones financieras: Wolfgang Erhardt",
+                "url": "https://oem.com.mx/elsoldesanluis/finanzas/buro-de-credito-carta-de-presentacion-ante-instituciones-financieras-wolfgang-erhardt-30519758",
+                "source": "El Sol de México"
+              },
+              {
+                "title": "El Mundial 2026 te puede mandar a Buró de Crédito y esta es la razón",
+                "url": "https://www.marca.com/mx/actualidad/dinero/2026/06/16/6a30cdf1268e3e172b8b4599.html",
+                "source": "MARCA"
+              },
+              {
+                "title": "La fiebre del Mundial abre una oportunidad: tomar el control de la información crediticia",
+                "url": "https://almomento.mx/la-fiebre-del-mundial-abre-una-oportunidad-tomar-el-control-de-la-informacion-crediticia/",
+                "source": "Noticias - Almomento"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "grupo a mundial 2026",
+        "score": 180,
+        "geos": [
+          "CL"
+        ],
+        "samples": [
+          {
+            "query": "grupo a mundial 2026",
+            "geo": "CL",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Así van las tablas de los grupos en el Mundial 2026 y cómo se jugarán las segundas fechas",
+                "url": "https://www.emol.com/noticias/Deportes/2026/06/14/1202764/tabla-posiciones-grupos-mundial.html",
+                "source": "Emol"
+              },
+              {
+                "title": "Resultados del Mundial 2026 y clasificación en vivo: tabla de posiciones, partidos y goles",
+                "url": "https://cnnespanol.cnn.com/2026/06/11/deportes/resultados-mundial-2026-clasificacion-tabla-posiciones-puntos-orix",
+                "source": "CNN en Español"
+              },
+              {
+                "title": "Mundial 2026: el ranking de la BBC de todos los equipos después de la primera ronda de partidos (con 3 latinoamericanos entre los 10 primeros)",
+                "url": "https://www.bbc.com/mundo/articles/cpv3knwv80ko",
+                "source": "BBC"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "escocia vs marruecos",
+        "score": 180,
+        "geos": [
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "escocia vs marruecos",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Cuándo juegan Escocia vs. Marruecos por la segunda fecha de la fase de grupos del Mundial 2026: equipo, fecha, hora y TV en vivo",
+                "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16863323/escocia-vs-marruecos-fase-de-grupos-mundial-2026-equipo-fecha-hora-y-tv-en-vivo",
+                "source": "ESPN Deportes"
+              },
+              {
+                "title": "La opción Ryan Christie",
+                "url": "https://www.infobae.com/espana/agencias/2026/06/18/la-opcion-ryan-christie/",
+                "source": "Infobae"
+              },
+              {
+                "title": "Escocia posee una etiqueta que le encanta a su seleccionador",
+                "url": "https://www.flashscore.pe/noticias/steve-clarke-sobre-el-papel-de-escocia-estamos-comodos-cuando-no-somos-los-favoritos/hOUFkzZr/",
+                "source": "Flashscore.pe"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "ismael kone",
+        "score": 180,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "ismael kone",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Après Messi, l’attaquant canadien inscrira le deuxième triplé de la Coupe du monde 2026.",
+                "url": "https://twaslnews1.twaslnews.com/2418933/",
+                "source": "شبكة تواصل الإخبارية"
+              },
+              {
+                "title": "Les Canadiens célèbrent dans l’euphorie leur première victoire en Coupe du monde",
+                "url": "https://chretiens.com/actualites/les-canadiens-celebrent-dans-leuphorie/2026/06/19/11/26/",
+                "source": "Journal Chrétien"
+              },
+              {
+                "title": "Mondial 2026 : Canada écrase le Qatar 6-0, triplé historique de Jonathan David",
+                "url": "https://www.planetegrandesecoles.com/mondial-2026-canada-qatar",
+                "source": "Planète Grandes Écoles"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "selección de fútbol de méxico",
+        "score": 160,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "selección de fútbol de méxico",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "\"Ole, ole, ole\": los hinchas de México hicieron sonar el clásico cántico",
+                "url": "https://www.tycsports.com/video/deportes/ole-ole-ole-los-hinchas-de-mexico-hicieron-sonar-el-clasico-cantico-id960080.html",
+                "source": "TyC Sports"
+              },
+              {
+                "title": "Las observaciones de Javier Aguirre a sus debutantes en el Mundial 2026",
+                "url": "https://es-us.noticias.yahoo.com/observaciones-javier-aguirre-debutantes-mundial-041049928.html",
+                "source": "Yahoo"
+              },
+              {
+                "title": "Sudáfrica reclama una regla del VAR para Messi y otra para ellos",
+                "url": "https://espndeportes.espn.com/futbol/mundial/nota/_/id/16860712/sudafrica-apelara-tarjeta-roja-themba-zwane-hugo-broos-messi",
+                "source": "ESPN Deportes"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "diario ole",
+        "score": 130,
+        "geos": [
+          "AR"
+        ],
+        "samples": [
+          {
+            "query": "diario ole",
+            "geo": "AR",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Gustavo Tejera se estrenó en el Mundial 2026 en el partido entre México y Corea del Sur",
+                "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16869070/gustavo-tejera-mundial-2026-arbitro-uruguayo-estreno-partido-mexico-vs-corea-del-sur",
+                "source": "ESPN Deportes"
+              },
+              {
+                "title": "La sorpresiva aparición de River en una tapa de diario coreano en referencia a un árbitro sudamericano",
+                "url": "https://www.ole.com.ar/river-plate/river-corea-sur-diario-coreano-arbitro-gustavo-tejera_0_y6kVihYDqA.html",
+                "source": "Olé"
+              },
+              {
+                "title": "¿Quién es el árbitro de México vs. Corea del Sur por el Mundial 2026?",
+                "url": "https://bolavip.com/ar/mundial/quien-es-el-arbitro-de-mexico-vs-corea-del-sur-por-el-mundial-2026",
+                "source": "Bolavip Argentina"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "grupo de mexico en el mundial 2026",
+        "score": 90,
+        "geos": [
+          "CL"
+        ],
+        "samples": [
+          {
+            "query": "grupo de mexico en el mundial 2026",
+            "geo": "CL",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Mundial 2026: ¿Por qué es importante el tercer juego para México?",
+                "url": "https://www.espn.cl/futbol/mundial/nota/_/id/16869284/mexico-mundial-2026-tercer-partido-fase-grupos-rival-chequia",
+                "source": "ESPN Chile"
+              },
+              {
+                "title": "México va por una marca histórica en los mundiales en su próximo duelo ante Chequia",
+                "url": "https://www.infobae.com/mexico/2026/06/19/mexico-va-por-una-marca-historica-en-los-mundiales-en-su-proximo-duelo-ante-chequia/",
+                "source": "Infobae"
+              },
+              {
+                "title": "\"Será un infierno para nosotros\": Michal Sadilek de Chequia revela temor de enfrentar a la Selección Mexicana",
+                "url": "https://www.marca.com/mx/futbol/seleccion-mx/2026/06/19/6a34d70be2704e626e8b458a.html",
+                "source": "MARCA"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "fase de grupos mundial 2026",
+        "score": 90,
+        "geos": [
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "fase de grupos mundial 2026",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Mundial 2026, en directo: noticias de la Copa del Mundo y última hora de las selecciones, hoy 18 de junio",
+                "url": "https://as.com/futbol/mundial/mundial-2026-en-directo-noticias-de-la-copa-del-mundo-y-ultima-hora-de-las-selecciones-hoy-18-de-junio-f202606-d/",
+                "source": "Diario AS"
+              },
+              {
+                "title": "Mundial 2026, en directo | Última hora de España y partidos de fase de grupos de hoy, 19 de junio",
+                "url": "https://www.marca.com/futbol/2026/06/19/6a34e77e1c831c17f439dc40-directo.html",
+                "source": "MARCA"
+              },
+              {
+                "title": "\"Podemos ilusionarnos\": España y un reto ineludible que incluye la segunda estrella",
+                "url": "https://www.elconfidencial.com/deportes/futbol/mundial/2026-06-15/espana-mundial-de-la-fuente-lamine-yamal_4370650/",
+                "source": "El Confidencial"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "guillermo ochoa",
+        "score": 90,
+        "geos": [
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "guillermo ochoa",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Mundial 2026: ¿Por qué es importante el tercer juego para México?",
+                "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16869284/mexico-mundial-2026-tercer-partido-fase-grupos-rival-chequia",
+                "source": "ESPN Deportes"
+              },
+              {
+                "title": "México va por una marca histórica en los mundiales en su próximo duelo ante Chequia",
+                "url": "https://www.infobae.com/mexico/2026/06/19/mexico-va-por-una-marca-historica-en-los-mundiales-en-su-proximo-duelo-ante-chequia/",
+                "source": "Infobae"
+              },
+              {
+                "title": "\"Será un infierno para nosotros\": Michal Sadilek de Chequia revela temor de enfrentar a la Selección Mexicana",
+                "url": "https://www.marca.com/mx/futbol/seleccion-mx/2026/06/19/6a34d70be2704e626e8b458a.html",
+                "source": "MARCA"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "de": [
+      {
+        "query": "messi vater",
+        "score": 500,
+        "geos": [
+          "DE"
+        ],
+        "samples": [
+          {
+            "query": "messi vater",
+            "geo": "DE",
+            "language": "de",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "WM-Liveblog: Entsetzen nach Falschmeldung über Tod von Messis Vater",
+                "url": "https://www.sportschau.de/fussball/fifa-wm-2026/falschmeldung-zu-tod-von-messi-vater,wm-liveblog-100.html",
+                "source": "sportschau.de"
+              },
+              {
+                "title": "Bericht über Messis Vater: Geschockte Journalistin verliert Job nach falscher Todes-Meldung",
+                "url": "https://www.n-tv.de/sport/fussball-wm/Geschockte-Journalistin-verliert-Job-nach-falscher-Todes-Meldung-id30985946.html",
+                "source": "Ntv"
+              },
+              {
+                "title": "WM 2026: Moderatorin erklärt Messi-Vater für tot",
+                "url": "https://www.bild.de/sport/fussball/wm-2026-moderatorin-erklaert-messi-vater-fuer-tot-6a34f55d7e682fc37fc003c4",
+                "source": "BILD"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "pt": [
+      {
+        "query": "mexico national football team vs south korea national football team standings",
+        "score": 500,
+        "geos": [
+          "PT"
+        ],
+        "samples": [
+          {
+            "query": "mexico national football team vs south korea national football team standings",
+            "geo": "PT",
+            "language": "pt",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Mexico beat South Korea to clinch first place in Group A",
+                "url": "https://www.espn.com/soccer/story/_/id/49113839/mexico-beats-south-korea-clinch-first-place-group-a",
+                "source": "ESPN"
+              },
+              {
+                "title": "‘¡Coreano, hermano!’ Mexico vs. Korea match brings out more romance than rivalry in L.A.",
+                "url": "https://www.latimes.com/california/story/2026-06-19/coreano-hermano-mexico-vs-korea-match-brings-out-more-romance-than-rivalry-in-la",
+                "source": "Los Angeles Times"
+              },
+              {
+                "title": "MEXICO ADVANCES🚨 FIFA World Cup Now reacts to Mexico&apos;s 1-0 W vs South Korea, previews USA-Australia",
+                "url": "https://www.foxsports.com/watch/fmc-14fsgxatocvzql1w",
+                "source": "FOX Sports"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "en": [
+      {
+        "query": "brazil vs haiti",
+        "score": 70,
+        "geos": [
+          "AU"
+        ],
+        "samples": [
+          {
+            "query": "brazil vs haiti",
+            "geo": "AU",
+            "language": "en",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Brazil vs Haiti at FIFA World Cup 2026: TV channel, how to watch, kick-off time, live stream, referee, predicted line-ups",
+                "url": "https://www.espn.com.au/football/story/_/id/49097937/brazil-haiti-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-referee-predicted-line-ups",
+                "source": "ESPN"
+              },
+              {
+                "title": "Eye of the Selecao! Thousands gather at famous ‘Rocky steps’ ahead of Haiti showdown",
+                "url": "https://www.news.com.au/sport/eye-of-the-selecao-thousands-gather-at-famous-rocky-steps-ahead-of-haiti-showdown/video/a5021c015c1e8ca0aa59e580f64ece95",
+                "source": "News.com.au"
+              },
+              {
+                "title": "Brazil vs. Haiti—World Cup: Preview, Predictions and Lineups",
+                "url": "https://www.si.com/soccer/brazil-vs-haiti-world-cup-preview-predictions-lineups-6-19-26",
+                "source": "Sports Illustrated"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "fr": [
+      {
+        "query": "classement équipe du mexique de football – équipe de corée du sud de football",
+        "score": 9000,
+        "geos": [
+          "MA"
+        ],
+        "samples": [
+          {
+            "query": "classement équipe du mexique de football – équipe de corée du sud de football",
+            "geo": "MA",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 10000,
+            "articles": [
+              {
+                "title": "Mexique 1-0 Corée du Sud, Coupe du monde : match terminé",
+                "url": "https://www.lequipe.fr/Football/match-direct/coupe-du-monde/2026/mexique-coree-du-sud-live/686905",
+                "source": "L&apos;Équipe"
+              },
+              {
+                "title": "Coupe du monde 2026 : le Mexique en 16ᵉˢ de finale, soirée-clé pour le Brésil et le Maroc… Ce qu’il faut retenir du jeudi 18 juin et ce qu’il faudra suivre vendredi 19 juin",
+                "url": "https://www.lemonde.fr/sport/article/2026/06/19/coupe-du-monde-2026-le-mexique-en-16es-de-finale-soiree-cle-pour-le-bresil-et-le-maroc-ce-qu-il-faut-retenir-du-jeudi-18-juin-et-ce-qu-il-faudra-suivre-vendredi-19-juin_6704909_3242.html",
+                "source": "Le Monde.fr"
+              },
+              {
+                "title": "Mondial 2026 : le Mexique déjà qualifié, la Suisse et le Canada tout proches du but",
+                "url": "https://h24info.ma/sport/mondial-2026-mexique-suisse-canada/",
+                "source": "H24info"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "mexico vs south korea",
+        "score": 1800,
+        "geos": [
+          "MA"
+        ],
+        "samples": [
+          {
+            "query": "mexico vs south korea",
+            "geo": "MA",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "Kim Seung-gyu: portero de Corea del Sur se PERDIÓ nacimiento de su hija previo a gol de Luis Romo en Mundial 2",
+                "url": "https://www.tvazteca.com/aztecadeportes/kim-seung-gyu-portero-corea-del-sur-se-perdio-nacimiento-su-hija-previo-a-gol-luis/",
+                "source": "TV Azteca"
+              },
+              {
+                "title": "Mundial 2026: un histórico jugador no fue al nacimiento de su hija para ir a la Copa del Mundo",
+                "url": "https://www.eldestapeweb.com/mundial/un-historico-jugador-no-fue-al-nacimiento-de-su-hija-para-ir-al-mundial-202661815024",
+                "source": "El Destape"
+              },
+              {
+                "title": "&apos;Parto en solitario&apos; Kim Jin-kyung, anima a su esposo Kim Seung-kyu: \"Último Mundial... esperando un nuevo ser vivo\"",
+                "url": "https://www.starnewskorea.com/es/broadcast-show/2026/06/19/2026061911072355928",
+                "source": "스타뉴스"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "topic": "classement équipe du mexique de football – équipe de corée du sud de football",
+      "type": "noticia",
+      "slugSuggestion": "classement-equipe-du-mexique-de-football-equipe-de-coree-du-sud-de-football",
+      "language": "fr",
+      "geos": [
+        "MA"
+      ],
+      "score": 10800,
+      "reason": "Google Trends daily MA con 10,000 búsquedas · 3 artículos noticiosos referenciando \"classement équipe du mexique de football – équipe de corée du sud de football\"",
+      "proposedPath": "/noticias/classement-equipe-du-mexique-de-football-equipe-de-coree-du-sud-de-football",
+      "evidence": [
+        {
+          "query": "classement équipe du mexique de football – équipe de corée du sud de football",
+          "geo": "MA",
+          "language": "fr",
+          "source": "google-trends-daily",
+          "score": 10000,
+          "articles": [
+            {
+              "title": "Mexique 1-0 Corée du Sud, Coupe du monde : match terminé",
+              "url": "https://www.lequipe.fr/Football/match-direct/coupe-du-monde/2026/mexique-coree-du-sud-live/686905",
+              "source": "L&apos;Équipe"
+            },
+            {
+              "title": "Coupe du monde 2026 : le Mexique en 16ᵉˢ de finale, soirée-clé pour le Brésil et le Maroc… Ce qu’il faut retenir du jeudi 18 juin et ce qu’il faudra suivre vendredi 19 juin",
+              "url": "https://www.lemonde.fr/sport/article/2026/06/19/coupe-du-monde-2026-le-mexique-en-16es-de-finale-soiree-cle-pour-le-bresil-et-le-maroc-ce-qu-il-faut-retenir-du-jeudi-18-juin-et-ce-qu-il-faudra-suivre-vendredi-19-juin_6704909_3242.html",
+              "source": "Le Monde.fr"
+            },
+            {
+              "title": "Mondial 2026 : le Mexique déjà qualifié, la Suisse et le Canada tout proches du but",
+              "url": "https://h24info.ma/sport/mondial-2026-mexique-suisse-canada/",
+              "source": "H24info"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "mexico vs korea",
+      "type": "noticia",
+      "slugSuggestion": "mexico-vs-korea",
+      "language": "es",
+      "geos": [
+        "EC"
+      ],
+      "score": 4800,
+      "reason": "Google Trends daily EC con 5,000 búsquedas · 3 artículos noticiosos referenciando \"mexico vs korea\"",
+      "proposedPath": "/noticias/mexico-vs-korea",
+      "evidence": [
+        {
+          "query": "mexico vs korea",
+          "geo": "EC",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 5000,
+          "articles": [
+            {
+              "title": "Mexico 1-0 South Korea: Co hosts become the first country to qualify for World Cup last 32",
+              "url": "https://www.bbc.com/sport/football/live/cvgme6np19pt",
+              "source": "BBC"
+            },
+            {
+              "title": "Switzerland vs Bosnia and Herzegovina Quick Highlights | 2026 FIFA World Cup™",
+              "url": "https://www.foxsports.com/watch-vertical/fmc-5d3g3g0ctcaib19o",
+              "source": "FOX Sports"
+            },
+            {
+              "title": "Mexico vs South Korea – Prediction, Where to Watch, Kick-off Time and Lineups 19-06",
+              "url": "https://oddsscanner.com/predictions/football/mexico-x-south-korea-19-06-2026",
+              "source": "Odds Scanner"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "partidos de mañana",
+      "type": "noticia",
+      "slugSuggestion": "partidos-de-manana",
+      "language": "es",
+      "geos": [
+        "PE"
+      ],
+      "score": 2160,
+      "reason": "Google Trends daily PE con 2,000 búsquedas · 3 artículos noticiosos referenciando \"partidos de mañana\"",
+      "proposedPath": "/noticias/partidos-de-manana",
+      "evidence": [
+        {
+          "query": "partidos de mañana",
+          "geo": "PE",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 2000,
+          "articles": [
+            {
+              "title": "Mundial 2026: ¿qué partidos se juegan hoy, 18 de junio? Horarios y enfrentamientos",
+              "url": "https://cnnespanol.cnn.com/2026/06/18/deportes/mundial-2026-partidos-18-junio-orix",
+              "source": "CNN en Español"
+            },
+            {
+              "title": "Tabla de posiciones del Mundial 2026 EN VIVO: partidos y resultados de la fecha 2 de la fase de grupos",
+              "url": "https://depor.com/futbol-internacional/mundial/tabla-de-posiciones-del-mundial-2026-en-vivo-partidos-resultados-y-programacion-fecha-2-fase-de-grupos-argentina-colombia-uruguay-paraguay-brasil-espana-francia-noticia/",
+              "source": "Depor"
+            },
+            {
+              "title": "Partidos de hoy, 18 de junio: Horarios y transmisiones",
+              "url": "https://www.americatv.com.pe/deportes/futbol-mundial/partidos-hoy-18-junio-horario-y-canal-vivo-n454537",
+              "source": "América TV"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "mexico vs south korea",
+      "type": "noticia",
+      "slugSuggestion": "mexico-vs-south-korea",
+      "language": "fr",
+      "geos": [
+        "MA"
+      ],
+      "score": 2160,
+      "reason": "Google Trends daily MA con 2,000 búsquedas · 3 artículos noticiosos referenciando \"mexico vs south korea\"",
+      "proposedPath": "/noticias/mexico-vs-south-korea",
+      "evidence": [
+        {
+          "query": "mexico vs south korea",
+          "geo": "MA",
+          "language": "fr",
+          "source": "google-trends-daily",
+          "score": 2000,
+          "articles": [
+            {
+              "title": "Kim Seung-gyu: portero de Corea del Sur se PERDIÓ nacimiento de su hija previo a gol de Luis Romo en Mundial 2",
+              "url": "https://www.tvazteca.com/aztecadeportes/kim-seung-gyu-portero-corea-del-sur-se-perdio-nacimiento-su-hija-previo-a-gol-luis/",
+              "source": "TV Azteca"
+            },
+            {
+              "title": "Mundial 2026: un histórico jugador no fue al nacimiento de su hija para ir a la Copa del Mundo",
+              "url": "https://www.eldestapeweb.com/mundial/un-historico-jugador-no-fue-al-nacimiento-de-su-hija-para-ir-al-mundial-202661815024",
+              "source": "El Destape"
+            },
+            {
+              "title": "&apos;Parto en solitario&apos; Kim Jin-kyung, anima a su esposo Kim Seung-kyu: \"Último Mundial... esperando un nuevo ser vivo\"",
+              "url": "https://www.starnewskorea.com/es/broadcast-show/2026/06/19/2026061911072355928",
+              "source": "스타뉴스"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "messi vater",
+      "type": "noticia",
+      "slugSuggestion": "messi-vater",
+      "language": "de",
+      "geos": [
+        "DE"
+      ],
+      "score": 600,
+      "reason": "Google Trends daily DE con 500 búsquedas · 3 artículos noticiosos referenciando \"messi vater\"",
+      "proposedPath": "/noticias/messi-vater",
+      "evidence": [
+        {
+          "query": "messi vater",
+          "geo": "DE",
+          "language": "de",
+          "source": "google-trends-daily",
+          "score": 500,
+          "articles": [
+            {
+              "title": "WM-Liveblog: Entsetzen nach Falschmeldung über Tod von Messis Vater",
+              "url": "https://www.sportschau.de/fussball/fifa-wm-2026/falschmeldung-zu-tod-von-messi-vater,wm-liveblog-100.html",
+              "source": "sportschau.de"
+            },
+            {
+              "title": "Bericht über Messis Vater: Geschockte Journalistin verliert Job nach falscher Todes-Meldung",
+              "url": "https://www.n-tv.de/sport/fussball-wm/Geschockte-Journalistin-verliert-Job-nach-falscher-Todes-Meldung-id30985946.html",
+              "source": "Ntv"
+            },
+            {
+              "title": "WM 2026: Moderatorin erklärt Messi-Vater für tot",
+              "url": "https://www.bild.de/sport/fussball/wm-2026-moderatorin-erklaert-messi-vater-fuer-tot-6a34f55d7e682fc37fc003c4",
+              "source": "BILD"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "buro de credito",
+      "type": "noticia",
+      "slugSuggestion": "buro-de-credito",
+      "language": "es",
+      "geos": [
+        "MX"
+      ],
+      "score": 336,
+      "reason": "Google Trends daily MX con 200 búsquedas · 3 artículos noticiosos referenciando \"buro de credito\"",
+      "proposedPath": "/noticias/buro-de-credito",
+      "evidence": [
+        {
+          "query": "buro de credito",
+          "geo": "MX",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Buró de Crédito, carta de presentación ante instituciones financieras: Wolfgang Erhardt",
+              "url": "https://oem.com.mx/elsoldesanluis/finanzas/buro-de-credito-carta-de-presentacion-ante-instituciones-financieras-wolfgang-erhardt-30519758",
+              "source": "El Sol de México"
+            },
+            {
+              "title": "El Mundial 2026 te puede mandar a Buró de Crédito y esta es la razón",
+              "url": "https://www.marca.com/mx/actualidad/dinero/2026/06/16/6a30cdf1268e3e172b8b4599.html",
+              "source": "MARCA"
+            },
+            {
+              "title": "La fiebre del Mundial abre una oportunidad: tomar el control de la información crediticia",
+              "url": "https://almomento.mx/la-fiebre-del-mundial-abre-una-oportunidad-tomar-el-control-de-la-informacion-crediticia/",
+              "source": "Noticias - Almomento"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "ismael kone",
+      "type": "noticia",
+      "slugSuggestion": "ismael-kone",
+      "language": "es",
+      "geos": [
+        "UY"
+      ],
+      "score": 216,
+      "reason": "Google Trends daily UY con 200 búsquedas · 3 artículos noticiosos referenciando \"ismael kone\"",
+      "proposedPath": "/noticias/ismael-kone",
+      "evidence": [
+        {
+          "query": "ismael kone",
+          "geo": "UY",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Après Messi, l’attaquant canadien inscrira le deuxième triplé de la Coupe du monde 2026.",
+              "url": "https://twaslnews1.twaslnews.com/2418933/",
+              "source": "شبكة تواصل الإخبارية"
+            },
+            {
+              "title": "Les Canadiens célèbrent dans l’euphorie leur première victoire en Coupe du monde",
+              "url": "https://chretiens.com/actualites/les-canadiens-celebrent-dans-leuphorie/2026/06/19/11/26/",
+              "source": "Journal Chrétien"
+            },
+            {
+              "title": "Mondial 2026 : Canada écrase le Qatar 6-0, triplé historique de Jonathan David",
+              "url": "https://www.planetegrandesecoles.com/mondial-2026-canada-qatar",
+              "source": "Planète Grandes Écoles"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "selección de fútbol de méxico",
+      "type": "noticia",
+      "slugSuggestion": "seleccion-de-futbol-de-mexico",
+      "language": "es",
+      "geos": [
+        "EC"
+      ],
+      "score": 192,
+      "reason": "Google Trends daily EC con 200 búsquedas · 3 artículos noticiosos referenciando \"selección de fútbol de méxico\"",
+      "proposedPath": "/noticias/seleccion-de-futbol-de-mexico",
+      "evidence": [
+        {
+          "query": "selección de fútbol de méxico",
+          "geo": "EC",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "\"Ole, ole, ole\": los hinchas de México hicieron sonar el clásico cántico",
+              "url": "https://www.tycsports.com/video/deportes/ole-ole-ole-los-hinchas-de-mexico-hicieron-sonar-el-clasico-cantico-id960080.html",
+              "source": "TyC Sports"
+            },
+            {
+              "title": "Las observaciones de Javier Aguirre a sus debutantes en el Mundial 2026",
+              "url": "https://es-us.noticias.yahoo.com/observaciones-javier-aguirre-debutantes-mundial-041049928.html",
+              "source": "Yahoo"
+            },
+            {
+              "title": "Sudáfrica reclama una regla del VAR para Messi y otra para ellos",
+              "url": "https://espndeportes.espn.com/futbol/mundial/nota/_/id/16860712/sudafrica-apelara-tarjeta-roja-themba-zwane-hugo-broos-messi",
+              "source": "ESPN Deportes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "diario ole",
+      "type": "noticia",
+      "slugSuggestion": "diario-ole",
+      "language": "es",
+      "geos": [
+        "AR"
+      ],
+      "score": 156,
+      "reason": "Google Trends daily AR con 100 búsquedas · 3 artículos noticiosos referenciando \"diario ole\"",
+      "proposedPath": "/noticias/diario-ole",
+      "evidence": [
+        {
+          "query": "diario ole",
+          "geo": "AR",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 100,
+          "articles": [
+            {
+              "title": "Gustavo Tejera se estrenó en el Mundial 2026 en el partido entre México y Corea del Sur",
+              "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16869070/gustavo-tejera-mundial-2026-arbitro-uruguayo-estreno-partido-mexico-vs-corea-del-sur",
+              "source": "ESPN Deportes"
+            },
+            {
+              "title": "La sorpresiva aparición de River en una tapa de diario coreano en referencia a un árbitro sudamericano",
+              "url": "https://www.ole.com.ar/river-plate/river-corea-sur-diario-coreano-arbitro-gustavo-tejera_0_y6kVihYDqA.html",
+              "source": "Olé"
+            },
+            {
+              "title": "¿Quién es el árbitro de México vs. Corea del Sur por el Mundial 2026?",
+              "url": "https://bolavip.com/ar/mundial/quien-es-el-arbitro-de-mexico-vs-corea-del-sur-por-el-mundial-2026",
+              "source": "Bolavip Argentina"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "guillermo ochoa",
+      "type": "noticia",
+      "slugSuggestion": "guillermo-ochoa",
+      "language": "es",
+      "geos": [
+        "PE"
+      ],
+      "score": 108,
+      "reason": "Google Trends daily PE con 100 búsquedas · 3 artículos noticiosos referenciando \"guillermo ochoa\"",
+      "proposedPath": "/noticias/guillermo-ochoa",
+      "evidence": [
+        {
+          "query": "guillermo ochoa",
+          "geo": "PE",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 100,
+          "articles": [
+            {
+              "title": "Mundial 2026: ¿Por qué es importante el tercer juego para México?",
+              "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16869284/mexico-mundial-2026-tercer-partido-fase-grupos-rival-chequia",
+              "source": "ESPN Deportes"
+            },
+            {
+              "title": "México va por una marca histórica en los mundiales en su próximo duelo ante Chequia",
+              "url": "https://www.infobae.com/mexico/2026/06/19/mexico-va-por-una-marca-historica-en-los-mundiales-en-su-proximo-duelo-ante-chequia/",
+              "source": "Infobae"
+            },
+            {
+              "title": "\"Será un infierno para nosotros\": Michal Sadilek de Chequia revela temor de enfrentar a la Selección Mexicana",
+              "url": "https://www.marca.com/mx/futbol/seleccion-mx/2026/06/19/6a34d70be2704e626e8b458a.html",
+              "source": "MARCA"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alreadyCovered": [
+    {
+      "query": "copa mundial de fútbol",
+      "matchUrl": "/noticias/lamine-yamal-primer-mundial-2026-espana-17-anos-eurocopa"
+    },
+    {
+      "query": "mexico national football team vs south korea national football team standings",
+      "matchUrl": "/ediciones/2026-norteamerica"
+    },
+    {
+      "query": "estados unidos vs australia",
+      "matchUrl": "/ediciones/1994-estados-unidos"
+    },
+    {
+      "query": "grupo de mexico en el mundial 2026",
+      "matchUrl": "/2026/grupos"
+    },
+    {
+      "query": "grupo a mundial 2026",
+      "matchUrl": "/2026/grupos"
+    },
+    {
+      "query": "estados unidos vs australia",
+      "matchUrl": "/ediciones/1994-estados-unidos"
+    },
+    {
+      "query": "escocia vs marruecos",
+      "matchUrl": "/noticias/grupo-c-mundial-2026-brasil-marruecos-escocia-haiti-atlanta"
+    },
+    {
+      "query": "fase de grupos mundial 2026",
+      "matchUrl": "/2026/grupos"
+    },
+    {
+      "query": "turquia vs paraguay",
+      "matchUrl": "/noticias/grupo-d-mundial-2026-eeuu-turquia-paraguay-australia-horarios-partidos"
+    },
+    {
+      "query": "posiciones de selección de fútbol de méxico contra selección de fútbol de corea del sur",
+      "matchUrl": "/selecciones"
+    },
+    {
+      "query": "mexico corea",
+      "matchUrl": "/noticias/mexico-corea-del-sur-resultado-mundial-2026"
+    },
+    {
+      "query": "mexico vs corea del sur",
+      "matchUrl": "/noticias/mexico-corea-del-sur-resultado-mundial-2026"
+    },
+    {
+      "query": "mexico national football team vs south korea national football team standings",
+      "matchUrl": "/ediciones/2026-norteamerica"
+    },
+    {
+      "query": "brazil vs haiti",
+      "matchUrl": "/noticias/grupo-c-mundial-2026-brasil-marruecos-escocia-haiti-atlanta"
+    }
+  ]
+}
