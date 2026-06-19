@@ -130,6 +130,33 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'estados-unidos-australia-resultado-mundial-2026',
+    title: "Estados Unidos 2-0 Australia: resultado, goles y estadísticas | Mundial 2026",
+    summary: "Victoria de Estados Unidos por 2-0 entre Estados Unidos y Australia en el Grupo D del Mundial 2026. Resultado, goles y estadísticas del partido.",
+    body: `**Estados Unidos** se impuso a **Australia** por **2-0** en el **Grupo D** del Mundial 2026, en un partido disputado el viernes 19 de junio en el Lumen Field (Seattle).
+
+## Goles
+
+- **11'** Cameron Burgess (Estados Unidos)
+- **43'** Alex Freeman (Estados Unidos)
+
+## Estadísticas del partido
+
+- Posesión (%): **62** Estados Unidos · **38** Australia
+- Tiros: **10** Estados Unidos · **5** Australia
+- Tiros a puerta: **2** Estados Unidos · **2** Australia
+- Córners: **7** Estados Unidos · **4** Australia
+
+Tienes la **ficha completa** del partido —con alineaciones, todos los momentos clave y estadísticas ampliadas— en [Estados Unidos - Australia](/2026/partido/estados-unidos-australia). Consulta también el [historial entre ambas selecciones](/historial/australia-vs-estados-unidos) y la clasificación actualizada en [grupos](/2026/grupos).
+
+El Mundial 2026 se puede ver en España en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**, con partidos seleccionados en abierto en La 1 (RTVE).`,
+    category: 'general',
+    sourceName: "Mundiales de Fútbol · datos ESPN",
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-19T21:00:00Z',
+  },
+  {
     slug: 'partidos-mundial-2026-hoy-2026-06-19',
     title: "Partidos del Mundial 2026 hoy, Viernes 19 de junio: horarios (hora España) y dónde ver, gratis en La 1 o en DAZN",
     summary: "Calendario de los 3 partidos del Mundial 2026 de hoy, viernes 19 de junio: horarios en hora española y dónde verlos. Hoy en abierto y gratis en La 1: Estados Unidos - Australia. El resto, en DAZN / Movistar Plus+.",
