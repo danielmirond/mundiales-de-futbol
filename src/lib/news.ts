@@ -130,6 +130,32 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'mexico-corea-del-sur-resultado-mundial-2026',
+    title: "México 1-0 Corea del Sur: resultado, goles y estadísticas | Mundial 2026",
+    summary: "Victoria de México por 1-0 entre México y Corea del Sur en el Grupo A del Mundial 2026. Resultado, goles y estadísticas del partido.",
+    body: `**México** se impuso a **Corea del Sur** por **1-0** en el **Grupo A** del Mundial 2026, en un partido disputado el viernes 19 de junio en el Estadio Akron (Guadalajara).
+
+## Goles
+
+- **50'** Luis Romo (México)
+
+## Estadísticas del partido
+
+- Posesión (%): **42.4** México · **57.6** Corea del Sur
+- Tiros: **8** México · **9** Corea del Sur
+- Tiros a puerta: **4** México · **2** Corea del Sur
+- Córners: **1** México · **2** Corea del Sur
+
+Tienes la **ficha completa** del partido —con alineaciones, todos los momentos clave y estadísticas ampliadas— en [México - Corea del Sur](/2026/partido/mexico-corea-del-sur). Consulta también el [historial entre ambas selecciones](/historial/corea-del-sur-vs-mexico) y la clasificación actualizada en [grupos](/2026/grupos).
+
+El Mundial 2026 se puede ver en España en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**, con partidos seleccionados en abierto en La 1 (RTVE).`,
+    category: 'general',
+    sourceName: "Mundiales de Fútbol · datos ESPN",
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-19T03:00:00Z',
+  },
+  {
     slug: 'canada-catar-resultado-mundial-2026',
     title: "Canadá 6-0 Catar: resultado, goles y estadísticas | Mundial 2026",
     summary: "Victoria de Canadá por 6-0 entre Canadá y Catar en el Grupo B del Mundial 2026. Resultado, goles y estadísticas del partido.",
