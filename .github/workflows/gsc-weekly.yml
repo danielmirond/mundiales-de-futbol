@@ -1,0 +1,41 @@
+name: Informe Search Console (semanal)
+
+on:
+  schedule:
+    # Lunes 06:00 UTC.
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+
+jobs:
+  gsc-report:
+    name: Search Analytics → informe
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install
+        run: npm ci
+
+      - name: Generar informe GSC
+        env:
+          # JSON completo de la cuenta de servicio (lectura) en GitHub Secrets.
+          GSC_SA_JSON: ${{ secrets.GSC_SA_JSON }}
+        run: npx tsx scripts/gsc/report.ts
+
+      - name: Subir informe como artefacto (no se commitea: contiene datos de tráfico)
+        uses: actions/upload-artifact@v4
+        with:
+          name: gsc-report
+          path: gsc/
+          if-no-files-found: warn
+          retention-days: 90
