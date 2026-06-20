@@ -130,6 +130,32 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'escocia-marruecos-resultado-mundial-2026',
+    title: "Escocia 0-1 Marruecos: resultado, goles y estadísticas | Mundial 2026",
+    summary: "Victoria de Marruecos por 0-1 entre Escocia y Marruecos en el Grupo C del Mundial 2026. Resultado, goles y estadísticas del partido.",
+    body: `**Marruecos** se impuso a **Escocia** por **0-1** en el **Grupo C** del Mundial 2026, en un partido disputado el sábado 20 de junio en el Gillette Stadium (Foxborough).
+
+## Goles
+
+- **2'** Ismael Saibari (Marruecos)
+
+## Estadísticas del partido
+
+- Posesión (%): **41.1** Escocia · **58.9** Marruecos
+- Tiros: **6** Escocia · **12** Marruecos
+- Tiros a puerta: **0** Escocia · **2** Marruecos
+- Córners: **2** Escocia · **5** Marruecos
+
+Tienes la **ficha completa** del partido —con alineaciones, todos los momentos clave y estadísticas ampliadas— en [Escocia - Marruecos](/2026/partido/escocia-marruecos). Consulta también el [historial entre ambas selecciones](/historial/escocia-vs-marruecos) y la clasificación actualizada en [grupos](/2026/grupos).
+
+El Mundial 2026 se puede ver en España en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**, con partidos seleccionados en abierto en La 1 (RTVE).`,
+    category: 'general',
+    sourceName: "Mundiales de Fútbol · datos ESPN",
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-20T00:00:00Z',
+  },
+  {
     slug: 'estados-unidos-australia-resultado-mundial-2026',
     title: "Estados Unidos 2-0 Australia: resultado, goles y estadísticas | Mundial 2026",
     summary: "Victoria de Estados Unidos por 2-0 entre Estados Unidos y Australia en el Grupo D del Mundial 2026. Resultado, goles y estadísticas del partido.",
