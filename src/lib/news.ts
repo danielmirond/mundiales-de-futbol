@@ -130,6 +130,37 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'paises-bajos-suecia-resultado-mundial-2026',
+    title: "Países Bajos 5-1 Suecia: resultado, goles y estadísticas | Mundial 2026",
+    summary: "Victoria de Países Bajos por 5-1 entre Países Bajos y Suecia en el Grupo F del Mundial 2026. Resultado, goles y estadísticas del partido.",
+    body: `**Países Bajos** goleó a **Suecia** por **5-1** en el **Grupo F** del Mundial 2026, en un partido disputado el sábado 20 de junio en el NRG Stadium (Houston).
+
+## Goles
+
+- **5'** Brian Brobbey (Países Bajos)
+- **17'** Brian Brobbey (Países Bajos)
+- **47'** Cody Gakpo (Países Bajos)
+- **54'** Cody Gakpo (Países Bajos)
+- **59'** Anthony Elanga (Suecia)
+- **89'** Crysencio Summerville (Países Bajos)
+
+## Estadísticas del partido
+
+- Posesión (%): **50.9** Países Bajos · **49.1** Suecia
+- Tiros: **10** Países Bajos · **16** Suecia
+- Tiros a puerta: **7** Países Bajos · **8** Suecia
+- Córners: **2** Países Bajos · **5** Suecia
+
+Tienes la **ficha completa** del partido —con alineaciones, todos los momentos clave y estadísticas ampliadas— en [Países Bajos - Suecia](/2026/partido/paises-bajos-suecia). Consulta también el [historial entre ambas selecciones](/historial/paises-bajos-vs-suecia) y la clasificación actualizada en [grupos](/2026/grupos).
+
+El Mundial 2026 se puede ver en España en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**, con partidos seleccionados en abierto en La 1 (RTVE).`,
+    category: 'general',
+    sourceName: "Mundiales de Fútbol · datos ESPN",
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-20T19:00:00Z',
+  },
+  {
     slug: 'partidos-mundial-2026-hoy-2026-06-20',
     title: "Partidos del Mundial 2026 hoy, Sábado 20 de junio: horarios (hora España) y dónde ver, gratis en La 1 o en DAZN",
     summary: "Calendario de los 5 partidos del Mundial 2026 de hoy, sábado 20 de junio: horarios en hora española y dónde verlos. Hoy en abierto y gratis en La 1: Países Bajos - Suecia. El resto, en DAZN / Movistar Plus+.",
