@@ -24,9 +24,10 @@ export function generateStaticParams() {
 }
 
 function balanceLine(h: HeadToHead): string {
-  if (h.total === 0) return `${h.aName} y ${h.bName} nunca se han enfrentado en un Mundial.`;
+  if (h.total === 0)
+    return `H2H ${h.aName}-${h.bName}: nunca se han enfrentado en la fase final de un Mundial. Será su primer cara a cara.`;
   const games = h.total === 1 ? '1 enfrentamiento' : `${h.total} enfrentamientos`;
-  return `${games} en Mundiales: ${h.aName} ${h.aWins} · empates ${h.draws} · ${h.bName} ${h.bWins}. Goles ${h.aGoals}-${h.bGoals}.`;
+  return `H2H ${h.aName}-${h.bName} en los Mundiales: ${games}. ${h.aName} ${h.aWins} · empates ${h.draws} · ${h.bName} ${h.bWins}. Goles ${h.aGoals}-${h.bGoals}.`;
 }
 
 export async function generateMetadata({
@@ -40,13 +41,16 @@ export async function generateMetadata({
   return pageMetadata({
     locale,
     path: `/historial/${slug}`,
-    title: `${h.aName} - ${h.bName}: historial en los Mundiales`,
+    title: `${h.aName} - ${h.bName}: H2H e historial en los Mundiales`,
     description: balanceLine(h),
     keywords: [
       `${h.aName} vs ${h.bName}`,
       `${h.bName} vs ${h.aName}`,
+      `${h.aName} ${h.bName} H2H`,
+      `H2H ${h.aName} ${h.bName}`,
       `${h.aName} ${h.bName} historial`,
       `${h.aName} ${h.bName} Mundial`,
+      'H2H selecciones Mundial',
       'historial Copa del Mundo',
     ],
   });
@@ -100,7 +104,7 @@ export default async function HeadToHeadPage({
       {/* Cabecera: marcador global */}
       <header className="mt-6">
         <div className="font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-pitch)]">
-          Cara a cara · Mundiales
+          Cara a cara (H2H) · Mundiales
         </div>
         <h1 className="mt-3 font-display text-fluid-h1 uppercase leading-[0.95]">
           {h.aName} <span className="text-[var(--color-fg-subtle)]">vs</span> {h.bName}
@@ -123,9 +127,10 @@ export default async function HeadToHeadPage({
             </>
           ) : (
             <>
-              En la historia de los Mundiales,{' '}
+              El <strong className="text-[var(--color-fg)]">H2H</strong> (cara a cara) entre{' '}
               <strong className="text-[var(--color-fg)]">{h.aName}</strong> y{' '}
-              <strong className="text-[var(--color-fg)]">{h.bName}</strong> se han visto las caras{' '}
+              <strong className="text-[var(--color-fg)]">{h.bName}</strong> en la historia de los
+              Mundiales: se han visto las caras{' '}
               <strong className="text-[var(--color-fg)]">
                 {h.total === 1 ? 'una vez' : `${h.total} veces`}
               </strong>
