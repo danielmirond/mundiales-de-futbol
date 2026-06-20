@@ -130,6 +130,60 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'turquia-paraguay-resultado-mundial-2026',
+    title: "Turquía 0-1 Paraguay: resultado, goles y estadísticas | Mundial 2026",
+    summary: "Victoria de Paraguay por 0-1 entre Turquía y Paraguay en el Grupo D del Mundial 2026. Resultado, goles y estadísticas del partido.",
+    body: `**Paraguay** se impuso a **Turquía** por **0-1** en el **Grupo D** del Mundial 2026, en un partido disputado el sábado 20 de junio en el Levi's Stadium (Santa Clara).
+
+## Goles
+
+- **2'** Matías Galarza (Paraguay)
+
+## Estadísticas del partido
+
+- Posesión (%): **78.5** Turquía · **21.5** Paraguay
+- Tiros: **32** Turquía · **7** Paraguay
+- Tiros a puerta: **5** Turquía · **2** Paraguay
+- Córners: **12** Turquía · **0** Paraguay
+
+Tienes la **ficha completa** del partido —con alineaciones, todos los momentos clave y estadísticas ampliadas— en [Turquía - Paraguay](/2026/partido/turquia-paraguay). Consulta también el [historial entre ambas selecciones](/historial/paraguay-vs-turquia) y la clasificación actualizada en [grupos](/2026/grupos).
+
+El Mundial 2026 se puede ver en España en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**, con partidos seleccionados en abierto en La 1 (RTVE).`,
+    category: 'general',
+    sourceName: "Mundiales de Fútbol · datos ESPN",
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-20T06:00:00Z',
+  },
+  {
+    slug: 'brasil-haiti-resultado-mundial-2026',
+    title: "Brasil 3-0 Haití: resultado, goles y estadísticas | Mundial 2026",
+    summary: "Victoria de Brasil por 3-0 entre Brasil y Haití en el Grupo C del Mundial 2026. Resultado, goles y estadísticas del partido.",
+    body: `**Brasil** goleó a **Haití** por **3-0** en el **Grupo C** del Mundial 2026, en un partido disputado el sábado 20 de junio en el Lincoln Financial Field (Philadelphia).
+
+## Goles
+
+- **23'** Matheus Cunha (Brasil)
+- **36'** Matheus Cunha (Brasil)
+- **45'+3'** Vinícius Júnior (Brasil)
+
+## Estadísticas del partido
+
+- Posesión (%): **56.7** Brasil · **43.3** Haití
+- Tiros: **8** Brasil · **7** Haití
+- Tiros a puerta: **5** Brasil · **3** Haití
+- Córners: **4** Brasil · **4** Haití
+
+Tienes la **ficha completa** del partido —con alineaciones, todos los momentos clave y estadísticas ampliadas— en [Brasil - Haití](/2026/partido/brasil-haiti). Consulta también el [historial entre ambas selecciones](/historial/brasil-vs-haiti) y la clasificación actualizada en [grupos](/2026/grupos).
+
+El Mundial 2026 se puede ver en España en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**, con partidos seleccionados en abierto en La 1 (RTVE).`,
+    category: 'general',
+    sourceName: "Mundiales de Fútbol · datos ESPN",
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-20T02:30:00Z',
+  },
+  {
     slug: 'escocia-marruecos-resultado-mundial-2026',
     title: "Escocia 0-1 Marruecos: resultado, goles y estadísticas | Mundial 2026",
     summary: "Victoria de Marruecos por 0-1 entre Escocia y Marruecos en el Grupo C del Mundial 2026. Resultado, goles y estadísticas del partido.",
