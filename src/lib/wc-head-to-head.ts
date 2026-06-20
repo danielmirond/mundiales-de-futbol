@@ -306,6 +306,118 @@ export function allTimeStandings(): StandingRow[] {
     );
 }
 
+export type EditionRankRow = {
+  code: string;
+  name: string;
+  flag: string;
+  rank: number;
+  stage: string; // mejor fase alcanzada (etiqueta)
+  played: number;
+  wins: number;
+  draws: number;
+  losses: number;
+  goalsFor: number;
+  goalsAgainst: number;
+  points: number;
+};
+
+const STAGE_TIER: Record<string, number> = {
+  final: 6,
+  final_group: 6,
+  '3rd': 5,
+  sf: 4,
+  qf: 3,
+  r16: 2,
+  group2: 2,
+  group: 1,
+};
+
+/**
+ * Clasificación final de una edición del Mundial: campeón, subcampeón, tercero,
+ * cuarto y el resto ordenado por fase alcanzada y puntos. Derivado del histórico
+ * real (1930-2022). Útil para "Mundial {año} posiciones finales".
+ */
+export function editionFinalRanking(year: number): EditionRankRow[] {
+  const ms = ALL.filter((m) => m.year === String(year));
+  if (ms.length === 0) return [];
+
+  type Agg = { p: number; w: number; d: number; l: number; gf: number; ga: number; tier: number; bestStage: string };
+  const agg = new Map<string, Agg>();
+  const get = (c: string) => {
+    let e = agg.get(c);
+    if (!e) {
+      e = { p: 0, w: 0, d: 0, l: 0, gf: 0, ga: 0, tier: 0, bestStage: 'group' };
+      agg.set(c, e);
+    }
+    return e;
+  };
+  for (const m of ms) {
+    const tier = STAGE_TIER[m.stage] ?? 1;
+    for (const [code, isHome] of [[m.home_code, true], [m.away_code, false]] as const) {
+      const e = get(code);
+      e.p++;
+      const our = (isHome ? m.home_score : m.away_score) ?? 0;
+      const opp = (isHome ? m.away_score : m.home_score) ?? 0;
+      e.gf += our;
+      e.ga += opp;
+      if (!m.winner_code) e.d++;
+      else if (m.winner_code === code) e.w++;
+      else e.l++;
+      if (tier > e.tier) {
+        e.tier = tier;
+        e.bestStage = m.stage;
+      }
+    }
+  }
+
+  // Top 4 explícitos desde la final y el partido por el 3.er puesto.
+  const finalM = ms.find((m) => m.stage === 'final');
+  const thirdM = ms.find((m) => m.stage === '3rd');
+  const fixed = new Map<string, number>();
+  if (finalM && finalM.winner_code) {
+    const loser = finalM.winner_code === finalM.home_code ? finalM.away_code : finalM.home_code;
+    fixed.set(finalM.winner_code, 1);
+    fixed.set(loser, 2);
+  }
+  if (thirdM && thirdM.winner_code) {
+    const loser = thirdM.winner_code === thirdM.home_code ? thirdM.away_code : thirdM.home_code;
+    fixed.set(thirdM.winner_code, 3);
+    fixed.set(loser, 4);
+  }
+
+  const rows = [...agg.entries()].map(([code, e]) => ({
+    code,
+    name: teamName(code),
+    flag: teamFlag(code),
+    stage: STAGE_LABEL_H2H[e.bestStage] ?? e.bestStage,
+    played: e.p,
+    wins: e.w,
+    draws: e.d,
+    losses: e.l,
+    goalsFor: e.gf,
+    goalsAgainst: e.ga,
+    points: e.w * 3 + e.d,
+    _tier: e.tier,
+    _fixed: fixed.get(code) ?? 99,
+  }));
+
+  rows.sort(
+    (a, b) =>
+      a._fixed - b._fixed ||
+      b._tier - a._tier ||
+      b.points - a.points ||
+      b.goalsFor - b.goalsAgainst - (a.goalsFor - a.goalsAgainst) ||
+      b.goalsFor - a.goalsFor,
+  );
+
+  return rows.map((r, i) => {
+    const { _tier, _fixed, ...rest } = r;
+    void _tier;
+    void _fixed;
+    return { ...rest, rank: i + 1 };
+  });
+}
+
 export function getHeadToHead(slug: string): HeadToHead | null {
   const codes = slugToCodes.get(slug);
   if (!codes) return null;

@@ -7,6 +7,7 @@ import { TOURNAMENTS } from '@/lib/tournaments';
 import { getTournamentBySlug } from '@/lib/data/tournaments';
 import { routing, type Locale } from '@/i18n/routing';
 import { MatchesList } from '@/components/edition/matches-list';
+import { EditionStandings } from '@/components/edition/edition-standings';
 import { ArchiveVideos } from '@/components/edition/archive-videos';
 import { PressWall } from '@/components/edition/press-wall';
 import { EditionTimeline } from '@/components/edition/edition-timeline';
@@ -332,6 +333,8 @@ export default async function EditionPage({
       <ArchiveVideos year={t.year} locale={locale} />
 
       <MatchesList year={t.year} slug={slug} locale={locale as Locale} />
+
+      <EditionStandings year={t.year} locale={locale as Locale} />
     </div>
   );
 }
