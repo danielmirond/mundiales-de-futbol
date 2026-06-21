@@ -295,6 +295,11 @@ export default async function PartidoPage({ params }: { params: Promise<{ locale
               <ListChecks className="h-4 w-4" /> Historial {hn}-{an}
             </Link>
           )}
+          {f!.home && f!.away && (
+            <Link href={withLocale(locale as Locale, `/2026/partido/${matchSlug(f!)}/alineaciones`)} className="inline-flex items-center gap-2 rounded-full border border-[var(--color-border-strong)] px-4 py-2 text-sm font-semibold text-[var(--color-fg)] transition-colors hover:border-[var(--color-pitch)] hover:text-[var(--color-pitch)]">
+              <Users className="h-4 w-4" /> Alineaciones
+            </Link>
+          )}
           {related && (
             <Link href={withLocale(locale as Locale, `/noticias/${related.slug}`)} className="inline-flex items-center gap-2 rounded-full bg-[var(--color-pitch)] px-4 py-2 text-sm font-bold text-black transition-opacity hover:opacity-90">
               Previa y análisis <ArrowRight className="h-3 w-3 rtl:rotate-180" />

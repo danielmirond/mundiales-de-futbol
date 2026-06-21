@@ -122,9 +122,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   out.push(entry('/2026/cuando-empieza', now, 'weekly', 0.9));
   out.push(entry('/cuando-juega-espana', now, 'daily', 0.9));
   out.push(entry('/2026/partidos-hoy', now, 'daily', 0.95));
-  // Página por partido (104)
+  // Página por partido (104) + su página de alineaciones
   for (const f of FIXTURES_2026) {
     out.push(entry(`/2026/partido/${matchSlug(f)}`, now, 'daily', 0.8));
+    if (f.home && f.away) {
+      out.push(entry(`/2026/partido/${matchSlug(f)}/alineaciones`, now, 'daily', 0.6));
+    }
   }
   // Head-to-head (cara a cara) entre selecciones en los Mundiales (es).
   for (const slug of allHeadToHeadSlugs()) {

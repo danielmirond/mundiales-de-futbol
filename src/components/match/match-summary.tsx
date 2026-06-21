@@ -9,7 +9,7 @@ const KIND_ICON: Record<MatchEvent['kind'], string> = {
   other: '•',
 };
 
-function Lineup({
+export function Lineup({
   team,
   flag,
   formation,
