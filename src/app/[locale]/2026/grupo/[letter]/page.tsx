@@ -3,8 +3,8 @@ import { notFound } from 'next/navigation';
 import { setRequestLocale } from 'next-intl/server';
 import { ArrowLeft, ChevronLeft, ChevronRight, MapPin } from 'lucide-react';
 import { getTeamByCode, teamDisplayName, type TeamStats } from '@/lib/data/teams';
-import { computeGroupStandings } from '@/lib/data/standings';
-import { computeGroupScenarios } from '@/lib/data/group-scenarios';
+import { fetchScores, buildScoreMap } from '@/lib/live-scores';
+import { computeGroupLive } from '@/lib/data/group-scenarios';
 import {
   GROUPS_2026,
   FIXTURES_2026,
@@ -78,14 +78,11 @@ export default async function GroupPage({
   const fixtures = FIXTURES_2026.filter((f) => f.stage === up);
   const venueBySlug = new Map(VENUES_2026.map((v) => [v.slug, v]));
 
-  // Live standings, computed from matches table. Pre-tournament all zero.
-  const rawStandings = await computeGroupStandings(2026, up, codes);
+  // Clasificación en vivo + escenarios, desde los marcadores reales de ESPN
+  // (los resultados de 2026 no están en Supabase). Escenarios solo si ya se jugó algo.
+  const scoreMap = buildScoreMap(await fetchScores());
+  const { standings: rawStandings, scenarios } = computeGroupLive(up, codes, scoreMap);
   const teamByCode = new Map(teams.map((t) => [t.code, t]));
-
-  // Posibilidades de clasificación (escenarios deterministas). Solo tiene
-  // sentido mostrarlas cuando ya se ha jugado algún partido del grupo.
-  const groupStarted = rawStandings.some((s) => s.MP > 0);
-  const scenarios = groupStarted ? await computeGroupScenarios(2026, up, codes) : [];
   // Algunas selecciones (debutantes como Cabo Verde) pueden no estar
   // todavía en la tabla `teams`. Generamos un fallback ligero para que
   // la página no reviente con 500.
