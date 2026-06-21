@@ -130,6 +130,35 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'tunez-japon-resultado-mundial-2026',
+    title: "Túnez 0-4 Japón: resultado, goles y estadísticas | Mundial 2026",
+    summary: "Victoria de Japón por 0-4 entre Túnez y Japón en el Grupo F del Mundial 2026. Resultado, goles y estadísticas del partido.",
+    body: `**Japón** goleó a **Túnez** por **0-4** en el **Grupo F** del Mundial 2026, en un partido disputado el domingo 21 de junio en el Estadio BBVA (Monterrey).
+
+## Goles
+
+- **4'** Daichi Kamada (Japón)
+- **31'** Ayase Ueda (Japón)
+- **69'** Junya Ito (Japón)
+- **83'** Ayase Ueda (Japón)
+
+## Estadísticas del partido
+
+- Posesión (%): **37.9** Túnez · **62.1** Japón
+- Tiros: **2** Túnez · **11** Japón
+- Tiros a puerta: **0** Túnez · **5** Japón
+- Córners: **3** Túnez · **5** Japón
+
+Tienes la **ficha completa** del partido —con alineaciones, todos los momentos clave y estadísticas ampliadas— en [Túnez - Japón](/2026/partido/tunez-japon). Consulta también el [historial entre ambas selecciones](/historial/japon-vs-tunez) y la clasificación actualizada en [grupos](/2026/grupos).
+
+El Mundial 2026 se puede ver en España en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**, con partidos seleccionados en abierto en La 1 (RTVE).`,
+    category: 'general',
+    sourceName: "Mundiales de Fútbol · datos ESPN",
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-21T06:00:00Z',
+  },
+  {
     slug: 'ecuador-curazao-resultado-mundial-2026',
     title: "Ecuador 0-0 Curazao: resultado, goles y estadísticas | Mundial 2026",
     summary: "Empate 0-0 entre Ecuador y Curazao en el Grupo E del Mundial 2026. Resultado, goles y estadísticas del partido.",
