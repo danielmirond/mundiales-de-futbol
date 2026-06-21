@@ -130,6 +130,35 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'espana-arabia-saudi-resultado-mundial-2026',
+    title: "España 4-0 Arabia Saudí: resultado, goles y estadísticas | Mundial 2026",
+    summary: "Victoria de España por 4-0 entre España y Arabia Saudí en el Grupo H del Mundial 2026. Resultado, goles y estadísticas del partido.",
+    body: `**España** goleó a **Arabia Saudí** por **4-0** en el **Grupo H** del Mundial 2026, en un partido disputado el domingo 21 de junio en el Mercedes-Benz Stadium (Atlanta).
+
+## Goles
+
+- **10'** Lamine Yamal (España)
+- **21'** Mikel Oyarzabal (España)
+- **24'** Mikel Oyarzabal (España)
+- **49'** Hassan Al-Tambakti (España)
+
+## Estadísticas del partido
+
+- Posesión (%): **67.1** España · **32.9** Arabia Saudí
+- Tiros: **22** España · **3** Arabia Saudí
+- Tiros a puerta: **8** España · **1** Arabia Saudí
+- Córners: **6** España · **1** Arabia Saudí
+
+Tienes la **ficha completa** del partido —con alineaciones, todos los momentos clave y estadísticas ampliadas— en [España - Arabia Saudí](/2026/partido/espana-arabia-saudi). Consulta también el [historial entre ambas selecciones](/historial/arabia-saudi-vs-espana) y la clasificación actualizada en [grupos](/2026/grupos).
+
+El Mundial 2026 se puede ver en España en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**, con partidos seleccionados en abierto en La 1 (RTVE).`,
+    category: 'general',
+    sourceName: "Mundiales de Fútbol · datos ESPN",
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-21T18:00:00Z',
+  },
+  {
     slug: 'partidos-mundial-2026-hoy-2026-06-21',
     title: "Partidos del Mundial 2026 hoy, Domingo 21 de junio: España juega, horarios y dónde ver gratis (La 1) o en DAZN",
     summary: "Calendario de los 4 partidos del Mundial 2026 de hoy, domingo 21 de junio: horarios en hora española y dónde verlos. Hoy en abierto y gratis en La 1: España - Arabia Saudí. El resto, en DAZN / Movistar Plus+.",
