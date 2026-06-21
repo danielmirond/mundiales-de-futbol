@@ -130,6 +130,46 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'partidos-mundial-2026-hoy-2026-06-21',
+    title: "Partidos del Mundial 2026 hoy, Domingo 21 de junio: España juega, horarios y dónde ver gratis (La 1) o en DAZN",
+    summary: "Calendario de los 4 partidos del Mundial 2026 de hoy, domingo 21 de junio: horarios en hora española y dónde verlos. Hoy en abierto y gratis en La 1: España - Arabia Saudí. El resto, en DAZN / Movistar Plus+.",
+    body: `Día grande para el aficionado español: **España se mide a Arabia Saudí** dentro de la jornada de hoy, domingo 21 de junio, en el Mundial 2026. En total se disputan **4 partidos**, con sus horarios en hora española y dónde verlos.
+
+## Partidos de hoy en el Mundial 2026 (hora de España)
+
+- **[Ecuador - Curazao](/2026/partido/ecuador-curazao)** — 02:00 h · Grupo E · Arrowhead Stadium (Kansas City) · 📺 [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026) / [Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial).
+- **[Túnez - Japón](/2026/partido/tunez-japon)** — 06:00 h · Grupo F · Estadio BBVA (Monterrey) · 📺 [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026) / [Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial).
+- **[España - Arabia Saudí](/2026/partido/espana-arabia-saudi)** — 18:00 h · Grupo H · Mercedes-Benz Stadium (Atlanta) · 📺 🆓 La 1 (RTVE) y [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026).
+- **[Bélgica - Irán](/2026/partido/belgica-iran)** — 21:00 h · Grupo G · SoFi Stadium (Inglewood) · 📺 [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026) / [Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial).
+
+Todos los horarios están convertidos a **hora peninsular española**. Puedes ver la jornada al completo, con resultados en directo, en la página de [partidos de hoy](/2026/partidos-hoy) y en el [calendario del Mundial](/2026/calendario).
+
+## El partido destacado del día
+
+De todo el cartel, el **España - Arabia Saudí** es el duelo más llamativo de la jornada y el que más expectación levanta entre los aficionados. Sigue la clasificación y los grupos actualizados en [grupos y clasificación](/2026/grupos).
+
+## Qué partidos se ven hoy gratis en La 1 (RTVE)
+
+RTVE emite hoy en **abierto y gratis** en **La 1** (también en RTVE Play, gratis online):
+
+- **España - Arabia Saudí** — 18:00 h.
+
+## Qué partidos son solo de pago (DAZN / Movistar Plus+)
+
+El resto de partidos de hoy solo se pueden ver en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, disponible también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**:
+
+- **Ecuador - Curazao** — 02:00 h.
+- **Túnez - Japón** — 06:00 h.
+- **Bélgica - Irán** — 21:00 h.
+
+RTVE emite **34 partidos gratis** en total del Mundial 2026: los 3 de España en la fase de grupos, un partido destacado por jornada y toda la fase eliminatoria desde dieciseisavos (incluida la final). Los **104 partidos** están en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**. Desglose completo de plataformas, precios y partidos en abierto en [dónde ver el Mundial 2026](/2026/donde-ver).`,
+    category: 'tv',
+    sourceName: "Mundiales de Fútbol",
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-21T06:30:00Z',
+  },
+  {
     slug: 'tunez-japon-resultado-mundial-2026',
     title: "Túnez 0-4 Japón: resultado, goles y estadísticas | Mundial 2026",
     summary: "Victoria de Japón por 0-4 entre Túnez y Japón en el Grupo F del Mundial 2026. Resultado, goles y estadísticas del partido.",
