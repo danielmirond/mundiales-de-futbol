@@ -130,6 +130,28 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'belgica-iran-resultado-mundial-2026',
+    title: "Bélgica 0-0 Irán: resultado, goles y estadísticas | Mundial 2026",
+    summary: "Empate 0-0 entre Bélgica y Irán en el Grupo G del Mundial 2026. Resultado, goles y estadísticas del partido.",
+    body: `**Bélgica** y **Irán** firmaron un **empate 0-0** en su partido del **Grupo G** del Mundial 2026, disputado el domingo 21 de junio en el SoFi Stadium (Inglewood).
+
+## Estadísticas del partido
+
+- Posesión (%): **70.3** Bélgica · **29.7** Irán
+- Tiros: **23** Bélgica · **7** Irán
+- Tiros a puerta: **7** Bélgica · **3** Irán
+- Córners: **4** Bélgica · **2** Irán
+
+Tienes la **ficha completa** del partido —con alineaciones, todos los momentos clave y estadísticas ampliadas— en [Bélgica - Irán](/2026/partido/belgica-iran). Consulta también el [historial entre ambas selecciones](/historial/belgica-vs-iran) y la clasificación actualizada en [grupos](/2026/grupos).
+
+El Mundial 2026 se puede ver en España en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**, con partidos seleccionados en abierto en La 1 (RTVE).`,
+    category: 'general',
+    sourceName: "Mundiales de Fútbol · datos ESPN",
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-21T21:00:00Z',
+  },
+  {
     slug: 'espana-arabia-saudi-resultado-mundial-2026',
     title: "España 4-0 Arabia Saudí: resultado, goles y estadísticas | Mundial 2026",
     summary: "Victoria de España por 4-0 entre España y Arabia Saudí en el Grupo H del Mundial 2026. Resultado, goles y estadísticas del partido.",
