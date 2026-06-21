@@ -134,6 +134,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     out.push(entry(`/historial/${slug}`, now, 'monthly', 0.6));
   }
   out.push(entry('/2026/cuadro', now, 'weekly', 0.9));
+  // Camino a la final por selección (48)
+  for (const g of GROUPS_2026) {
+    for (const code of g.teams.filter(Boolean) as string[]) {
+      out.push(entry(`/2026/camino/${code}`, now, 'weekly', 0.7));
+    }
+  }
   // Hub Dónde ver por país
   out.push(entry('/2026/donde-ver/mexico', now, 'weekly', 0.9));
   out.push(entry('/2026/donde-ver/brasil', now, 'weekly', 0.9, false, ['pt']));

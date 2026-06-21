@@ -21,7 +21,7 @@ import {
   youtubeSearchUrl,
   youtubeThumbnailUrl,
 } from '@/lib/wc-famous-goals';
-import { TEAMS_2026 } from '@/lib/wc-2026';
+import { TEAMS_2026, GROUPS_2026 } from '@/lib/wc-2026';
 import { Squad2026Section } from '@/components/team/squad-2026';
 
 function withLocale(locale: Locale, href: string) {
@@ -301,6 +301,32 @@ export default async function SelectionDetailPage({
           <Stat label="Goles" value={`${wcRecord.goalsFor}/${wcRecord.goalsAgainst}`} small />
         </div>
       </section>
+
+      {/* ── CAMINO A LA FINAL (solo selecciones de 2026) ── */}
+      {GROUPS_2026.some((g) => (g.teams as string[]).includes(team.code)) && (
+        <section className="mx-auto w-full max-w-[1400px] px-6 mt-12 md:px-10">
+          <Link
+            href={withLocale(locale as Locale, `/2026/camino/${team.code}`)}
+            className="group flex flex-col gap-3 rounded-3xl border border-[var(--color-pitch)]/30 bg-gradient-to-br from-[var(--color-pitch)]/8 via-[var(--color-bg-2)] to-[var(--color-bg-2)] p-7 transition-colors hover:border-[var(--color-pitch)] md:flex-row md:items-center md:justify-between md:p-8"
+          >
+            <div className="flex-1">
+              <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-pitch)]">
+                Rumbo al MetLife
+              </div>
+              <h2 className="mt-2 font-display text-2xl uppercase leading-tight md:text-3xl">
+                El camino de {teamDisplayName(team)} hacia la final de Nueva York
+              </h2>
+              <p className="mt-2 max-w-2xl text-sm text-[var(--color-fg-muted)]">
+                Cuadro, ronda a ronda, y posibles rivales hasta la final del 19 de julio.
+              </p>
+            </div>
+            <span className="inline-flex shrink-0 items-center gap-2 self-start rounded-full bg-[var(--color-pitch)] px-5 py-2.5 text-sm font-semibold text-black transition-opacity group-hover:opacity-90 md:self-auto">
+              Ver el camino
+              <ArrowRight className="h-3 w-3 transition-transform group-hover:translate-x-1 rtl:rotate-180" />
+            </span>
+          </Link>
+        </section>
+      )}
 
       {/* ── CARA A CARA — historial ante cada rival en los Mundiales ── */}
       {teamH2H.length > 0 && (
