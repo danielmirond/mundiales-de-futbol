@@ -130,6 +130,28 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'ecuador-curazao-resultado-mundial-2026',
+    title: "Ecuador 0-0 Curazao: resultado, goles y estadísticas | Mundial 2026",
+    summary: "Empate 0-0 entre Ecuador y Curazao en el Grupo E del Mundial 2026. Resultado, goles y estadísticas del partido.",
+    body: `**Ecuador** y **Curazao** firmaron un **empate 0-0** en su partido del **Grupo E** del Mundial 2026, disputado el domingo 21 de junio en el Arrowhead Stadium (Kansas City).
+
+## Estadísticas del partido
+
+- Posesión (%): **74.9** Ecuador · **25.1** Curazao
+- Tiros: **28** Ecuador · **10** Curazao
+- Tiros a puerta: **15** Ecuador · **3** Curazao
+- Córners: **9** Ecuador · **0** Curazao
+
+Tienes la **ficha completa** del partido —con alineaciones, todos los momentos clave y estadísticas ampliadas— en [Ecuador - Curazao](/2026/partido/ecuador-curazao). Consulta también el [historial entre ambas selecciones](/historial/curazao-vs-ecuador) y la clasificación actualizada en [grupos](/2026/grupos).
+
+El Mundial 2026 se puede ver en España en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**, con partidos seleccionados en abierto en La 1 (RTVE).`,
+    category: 'general',
+    sourceName: "Mundiales de Fútbol · datos ESPN",
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-21T02:00:00Z',
+  },
+  {
     slug: 'paises-bajos-suecia-resultado-mundial-2026',
     title: "Países Bajos 5-1 Suecia: resultado, goles y estadísticas | Mundial 2026",
     summary: "Victoria de Países Bajos por 5-1 entre Países Bajos y Suecia en el Grupo F del Mundial 2026. Resultado, goles y estadísticas del partido.",
