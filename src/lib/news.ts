@@ -130,6 +130,46 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'partidos-mundial-2026-hoy-2026-06-22',
+    title: "Partidos del Mundial 2026 hoy, Lunes 22 de junio: horarios (hora España) y dónde ver, gratis en La 1 o en DAZN",
+    summary: "Calendario de los 4 partidos del Mundial 2026 de hoy, lunes 22 de junio: horarios en hora española y dónde verlos. Hoy en abierto y gratis en La 1: Argentina - Austria. El resto, en DAZN / Movistar Plus+.",
+    body: `El Mundial 2026 vive hoy, lunes 22 de junio, una jornada de **4 partidos**. Te dejamos todos los horarios en hora española, las sedes y dónde seguirlos, con el foco puesto en el **Argentina - Austria**.
+
+## Partidos de hoy en el Mundial 2026 (hora de España)
+
+- **[Uruguay - Cabo Verde](/2026/partido/uruguay-cabo-verde)** — 00:00 h · Grupo H · Hard Rock Stadium (Miami Gardens) · 📺 [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026) / [Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial).
+- **[Nueva Zelanda - Egipto](/2026/partido/nueva-zelanda-egipto)** — 03:00 h · Grupo G · BC Place (Vancouver) · 📺 [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026) / [Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial).
+- **[Argentina - Austria](/2026/partido/argentina-austria)** — 19:00 h · Grupo J · AT&T Stadium (Arlington) · 📺 🆓 La 1 (RTVE) y [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026).
+- **[Francia - Irak](/2026/partido/francia-irak)** — 23:00 h · Grupo I · Lincoln Financial Field (Philadelphia) · 📺 [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026) / [Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial).
+
+Todos los horarios están convertidos a **hora peninsular española**. Puedes ver la jornada al completo, con resultados en directo, en la página de [partidos de hoy](/2026/partidos-hoy) y en el [calendario del Mundial](/2026/calendario).
+
+## El partido destacado del día
+
+De todo el cartel, el **Argentina - Austria** es el duelo más llamativo de la jornada y el que más expectación levanta entre los aficionados. Sigue la clasificación y los grupos actualizados en [grupos y clasificación](/2026/grupos).
+
+## Qué partidos se ven hoy gratis en La 1 (RTVE)
+
+RTVE emite hoy en **abierto y gratis** en **La 1** (también en RTVE Play, gratis online):
+
+- **Argentina - Austria** — 19:00 h.
+
+## Qué partidos son solo de pago (DAZN / Movistar Plus+)
+
+El resto de partidos de hoy solo se pueden ver en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, disponible también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**:
+
+- **Uruguay - Cabo Verde** — 00:00 h.
+- **Nueva Zelanda - Egipto** — 03:00 h.
+- **Francia - Irak** — 23:00 h.
+
+RTVE emite **34 partidos gratis** en total del Mundial 2026: los 3 de España en la fase de grupos, un partido destacado por jornada y toda la fase eliminatoria desde dieciseisavos (incluida la final). Los **104 partidos** están en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**. Desglose completo de plataformas, precios y partidos en abierto en [dónde ver el Mundial 2026](/2026/donde-ver).`,
+    category: 'tv',
+    sourceName: "Mundiales de Fútbol",
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-22T06:30:00Z',
+  },
+  {
     slug: 'nueva-zelanda-egipto-resultado-mundial-2026',
     title: "Nueva Zelanda 1-3 Egipto: resultado, goles y estadísticas | Mundial 2026",
     summary: "Victoria de Egipto por 1-3 entre Nueva Zelanda y Egipto en el Grupo G del Mundial 2026. Resultado, goles y estadísticas del partido.",
