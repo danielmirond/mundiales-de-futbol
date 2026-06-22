@@ -18,6 +18,7 @@ const BASE = '/coleccionismo/panini-mundial-2026';
 const LINKS: { href: string; anchor: string }[] = [
   { href: BASE, anchor: 'Álbum Panini del Mundial 2026' },
   { href: `${BASE}/cuantos-cromos-tiene`, anchor: 'Cuántos cromos tiene el álbum' },
+  { href: `${BASE}/completar-album`, anchor: 'Cuánto cuesta completar el álbum' },
   { href: `${BASE}/precio`, anchor: 'Precio del álbum y los sobres' },
   { href: `${BASE}/check-list-cromos`, anchor: 'Check list de cromos para completar' },
   { href: `${BASE}/cromos-mas-caros`, anchor: 'Los cromos más caros y difíciles' },
