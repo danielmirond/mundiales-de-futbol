@@ -21,7 +21,8 @@ import {
   youtubeSearchUrl,
   youtubeThumbnailUrl,
 } from '@/lib/wc-famous-goals';
-import { TEAMS_2026, GROUPS_2026 } from '@/lib/wc-2026';
+import { TEAMS_2026, GROUPS_2026, FIXTURES_2026, matchSlug } from '@/lib/wc-2026';
+import { fetchScores, type LiveMatch } from '@/lib/live-scores';
 import { Squad2026Section } from '@/components/team/squad-2026';
 
 function withLocale(locale: Locale, href: string) {
@@ -110,6 +111,18 @@ export default async function SelectionDetailPage({
   // Récord COMPLETO en Mundiales (1930-2022) desde el histórico real, no solo
   // los partidos con ficha detallada en la BD. Suma el linaje (RFA/RDA, etc.).
   const wcRecord = teamWorldCupRecord(lineageCodes);
+
+  // Resultados de ESTE Mundial (2026), en vivo desde ESPN (fase de grupos).
+  const group2026 = GROUPS_2026.find((g) => (g.teams as string[]).includes(team.code));
+  let wc2026Rows: { f: (typeof FIXTURES_2026)[number]; sc?: LiveMatch }[] = [];
+  if (group2026) {
+    const scores = await fetchScores();
+    const byKey = new Map<string, LiveMatch>(scores.map((m) => [`${m.home}|${m.away}`, m]));
+    wc2026Rows = FIXTURES_2026
+      .filter((f) => f.stage === group2026.letter && f.home && f.away && (f.home === team.code || f.away === team.code))
+      .sort((a, b) => (a.date + a.time).localeCompare(b.date + b.time))
+      .map((f) => ({ f, sc: byKey.get(`${f.home}|${f.away}`) }));
+  }
 
   const [matches, topScorers] = await Promise.all([
     getTeamMatches(team.code, predecessors.map((p) => p.code)),
@@ -362,6 +375,55 @@ export default async function SelectionDetailPage({
                 </span>
               </Link>
             ))}
+          </div>
+        </section>
+      )}
+
+      {/* ── RESULTADOS EN EL MUNDIAL 2026 (en vivo) ── */}
+      {wc2026Rows.length > 0 && (
+        <section className="mx-auto w-full max-w-[1400px] px-6 mt-12 md:px-10">
+          <div className="font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-pitch)]">
+            Mundial 2026 · en directo
+          </div>
+          <h2 className="mt-2 font-display text-2xl uppercase leading-tight md:text-3xl">
+            {teamDisplayName(team)} en el Mundial 2026
+          </h2>
+          <div className="mt-6 grid gap-3 sm:grid-cols-3">
+            {wc2026Rows.map(({ f, sc }) => {
+              const isHome = f.home === team.code;
+              const oppCode = (isHome ? f.away : f.home) as string;
+              const opp = TEAMS_2026[oppCode];
+              const played = !!sc && sc.state === 'post' && sc.homeScore != null && sc.awayScore != null;
+              const live = sc?.state === 'in';
+              const ourScore = isHome ? sc?.homeScore : sc?.awayScore;
+              const oppScore = isHome ? sc?.awayScore : sc?.homeScore;
+              const res = played ? (ourScore! > oppScore! ? 'V' : ourScore! < oppScore! ? 'D' : 'E') : null;
+              const resColor = res === 'V' ? 'text-[var(--color-pitch)]' : res === 'E' ? 'text-[var(--color-sun)]' : 'text-[var(--color-flame)]';
+              const dia = new Intl.DateTimeFormat('es', { day: 'numeric', month: 'short' }).format(new Date(f.date + 'T12:00:00Z'));
+              return (
+                <Link
+                  key={f.n}
+                  href={withLocale(locale as Locale, `/2026/partido/${matchSlug(f)}`)}
+                  className="group flex flex-col gap-2 rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg-2)] p-4 transition-colors hover:border-[var(--color-pitch)]/40"
+                >
+                  <div className="flex items-center justify-between font-mono text-[10px] uppercase tracking-widest text-[var(--color-fg-subtle)]">
+                    <span>{dia} · Grupo {f.stage}</span>
+                    {live && <span className="text-[var(--color-flame)]">🔴 {sc?.clock || 'EN VIVO'}</span>}
+                  </div>
+                  <div className="truncate text-sm font-medium text-[var(--color-fg)]">
+                    {isHome ? 'vs' : '@'} {opp?.flag ?? ''} {opp?.name ?? oppCode}
+                  </div>
+                  {played || live ? (
+                    <div className={`font-display text-2xl tab-num ${played ? resColor : 'text-[var(--color-fg)]'}`}>
+                      {ourScore}<span className="text-[var(--color-fg-subtle)]">-</span>{oppScore}
+                      {played && <span className="ml-2 align-middle font-mono text-[10px] uppercase tracking-widest">{res === 'V' ? 'Victoria' : res === 'E' ? 'Empate' : 'Derrota'}</span>}
+                    </div>
+                  ) : (
+                    <div className="font-mono text-xs uppercase tracking-widest text-[var(--color-fg-muted)]">Próximo</div>
+                  )}
+                </Link>
+              );
+            })}
           </div>
         </section>
       )}
