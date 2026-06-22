@@ -19,6 +19,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       'completar álbum Panini Mundial 2026',
       'cuántos sobres para completar el álbum',
       'cuánto cuesta completar el álbum Panini',
+      'vale la pena completar el álbum Panini 2026',
+      'merece la pena el álbum del Mundial 2026',
       'probabilidad completar álbum mundial 2026',
       'cromos repetidos Panini',
     ],
@@ -93,6 +95,21 @@ export default async function CompletarAlbumPage({
           entre varios coleccionistas — una fracción del coste de ir solo. Por eso funcionan los
           mercadillos de intercambio (en algunos países, con decenas de miles de aficionados) y los
           grupos de cambios online.
+        </p>
+      </section>
+
+      <section className="mt-12">
+        <h2 className="font-display text-2xl uppercase leading-tight md:text-3xl">
+          ¿Merece la pena completar el álbum?
+        </h2>
+        <p className="mt-3 leading-relaxed text-[var(--color-fg-muted)]">
+          Depende de lo que busques. Si lo ves como una <strong className="text-[var(--color-fg)]">inversión</strong>,
+          no sale a cuenta: completarlo a ciegas cuesta una fortuna y un álbum lleno no se revaloriza
+          (salvo cromos especiales sueltos muy concretos). Si lo vives como{' '}
+          <strong className="text-[var(--color-fg)]">afición y ritual del Mundial</strong> —abrir sobres,
+          intercambiar, compartirlo con peques o amigos— entonces el valor es otro y el coste se
+          controla muchísimo con intercambios. La regla práctica: <strong className="text-[var(--color-fg)]">disfruta
+          el proceso, no persigas el 100% comprando sobres sin parar</strong>; los últimos, cómpralos sueltos.
         </p>
       </section>
 
