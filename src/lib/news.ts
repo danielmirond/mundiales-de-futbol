@@ -130,6 +130,33 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'argentina-austria-resultado-mundial-2026',
+    title: "Argentina 2-0 Austria: resultado, goles y estadísticas | Mundial 2026",
+    summary: "Victoria de Argentina por 2-0 entre Argentina y Austria en el Grupo J del Mundial 2026. Resultado, goles y estadísticas del partido.",
+    body: `**Argentina** se impuso a **Austria** por **2-0** en el **Grupo J** del Mundial 2026, en un partido disputado el lunes 22 de junio en el AT&T Stadium (Arlington).
+
+## Goles
+
+- **38'** Lionel Messi (Argentina)
+- **90'+5'** Lionel Messi (Argentina)
+
+## Estadísticas del partido
+
+- Posesión (%): **53.6** Argentina · **46.4** Austria
+- Tiros: **12** Argentina · **6** Austria
+- Tiros a puerta: **5** Argentina · **1** Austria
+- Córners: **1** Argentina · **3** Austria
+
+Tienes la **ficha completa** del partido —con alineaciones, todos los momentos clave y estadísticas ampliadas— en [Argentina - Austria](/2026/partido/argentina-austria). Consulta también el [historial entre ambas selecciones](/historial/argentina-vs-austria) y la clasificación actualizada en [grupos](/2026/grupos).
+
+El Mundial 2026 se puede ver en España en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**, con partidos seleccionados en abierto en La 1 (RTVE).`,
+    category: 'general',
+    sourceName: "Mundiales de Fútbol · datos ESPN",
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-22T19:00:00Z',
+  },
+  {
     slug: 'partidos-mundial-2026-hoy-2026-06-22',
     title: "Partidos del Mundial 2026 hoy, Lunes 22 de junio: horarios (hora España) y dónde ver, gratis en La 1 o en DAZN",
     summary: "Calendario de los 4 partidos del Mundial 2026 de hoy, lunes 22 de junio: horarios en hora española y dónde verlos. Hoy en abierto y gratis en La 1: Argentina - Austria. El resto, en DAZN / Movistar Plus+.",
