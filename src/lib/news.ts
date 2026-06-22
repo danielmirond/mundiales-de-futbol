@@ -130,6 +130,35 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'uruguay-cabo-verde-resultado-mundial-2026',
+    title: "Uruguay 2-2 Cabo Verde: resultado, goles y estadísticas | Mundial 2026",
+    summary: "Empate 2-2 entre Uruguay y Cabo Verde en el Grupo H del Mundial 2026. Resultado, goles y estadísticas del partido.",
+    body: `**Uruguay** y **Cabo Verde** firmaron un **empate 2-2** en su partido del **Grupo H** del Mundial 2026, disputado el lunes 22 de junio en el Hard Rock Stadium (Miami Gardens).
+
+## Goles
+
+- **21'** Kevin Pina (Cabo Verde)
+- **44'** Maxi Araújo (Uruguay)
+- **45'+6'** Agustín Canobbio (Uruguay)
+- **61'** Hélio Varela (Cabo Verde)
+
+## Estadísticas del partido
+
+- Posesión (%): **65.3** Uruguay · **34.7** Cabo Verde
+- Tiros: **17** Uruguay · **12** Cabo Verde
+- Tiros a puerta: **2** Uruguay · **4** Cabo Verde
+- Córners: **11** Uruguay · **4** Cabo Verde
+
+Tienes la **ficha completa** del partido —con alineaciones, todos los momentos clave y estadísticas ampliadas— en [Uruguay - Cabo Verde](/2026/partido/uruguay-cabo-verde). Consulta también el [historial entre ambas selecciones](/historial/cabo-verde-vs-uruguay) y la clasificación actualizada en [grupos](/2026/grupos).
+
+El Mundial 2026 se puede ver en España en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**, con partidos seleccionados en abierto en La 1 (RTVE).`,
+    category: 'general',
+    sourceName: "Mundiales de Fútbol · datos ESPN",
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-22T00:00:00Z',
+  },
+  {
     slug: 'belgica-iran-resultado-mundial-2026',
     title: "Bélgica 0-0 Irán: resultado, goles y estadísticas | Mundial 2026",
     summary: "Empate 0-0 entre Bélgica y Irán en el Grupo G del Mundial 2026. Resultado, goles y estadísticas del partido.",
