@@ -130,6 +130,35 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'nueva-zelanda-egipto-resultado-mundial-2026',
+    title: "Nueva Zelanda 1-3 Egipto: resultado, goles y estadísticas | Mundial 2026",
+    summary: "Victoria de Egipto por 1-3 entre Nueva Zelanda y Egipto en el Grupo G del Mundial 2026. Resultado, goles y estadísticas del partido.",
+    body: `**Egipto** se impuso a **Nueva Zelanda** por **1-3** en el **Grupo G** del Mundial 2026, en un partido disputado el lunes 22 de junio en el BC Place (Vancouver).
+
+## Goles
+
+- **15'** Finn Surman (Nueva Zelanda)
+- **58'** Mostafa Zico (Egipto)
+- **67'** Mohamed Salah (Egipto)
+- **82'** Trézéguet (Egipto)
+
+## Estadísticas del partido
+
+- Posesión (%): **44.4** Nueva Zelanda · **55.6** Egipto
+- Tiros: **11** Nueva Zelanda · **19** Egipto
+- Tiros a puerta: **5** Nueva Zelanda · **7** Egipto
+- Córners: **4** Nueva Zelanda · **4** Egipto
+
+Tienes la **ficha completa** del partido —con alineaciones, todos los momentos clave y estadísticas ampliadas— en [Nueva Zelanda - Egipto](/2026/partido/nueva-zelanda-egipto). Consulta también el [historial entre ambas selecciones](/historial/egipto-vs-nueva-zelanda) y la clasificación actualizada en [grupos](/2026/grupos).
+
+El Mundial 2026 se puede ver en España en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**, con partidos seleccionados en abierto en La 1 (RTVE).`,
+    category: 'general',
+    sourceName: "Mundiales de Fútbol · datos ESPN",
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-22T03:00:00Z',
+  },
+  {
     slug: 'uruguay-cabo-verde-resultado-mundial-2026',
     title: "Uruguay 2-2 Cabo Verde: resultado, goles y estadísticas | Mundial 2026",
     summary: "Empate 2-2 entre Uruguay y Cabo Verde en el Grupo H del Mundial 2026. Resultado, goles y estadísticas del partido.",
