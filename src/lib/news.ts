@@ -130,6 +130,36 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'portugal-uzbekistan-resultado-mundial-2026',
+    title: "Portugal 5-0 Uzbekistán: resultado, goles y estadísticas | Mundial 2026",
+    summary: "Victoria de Portugal por 5-0 entre Portugal y Uzbekistán en el Grupo K del Mundial 2026. Resultado, goles y estadísticas del partido.",
+    body: `**Portugal** goleó a **Uzbekistán** por **5-0** en el **Grupo K** del Mundial 2026, en un partido disputado el martes 23 de junio en el NRG Stadium (Houston).
+
+## Goles
+
+- **6'** Cristiano Ronaldo (Portugal)
+- **17'** Nuno Mendes (Portugal)
+- **39'** Cristiano Ronaldo (Portugal)
+- **60'** Abduvohid Nematov (Portugal)
+- **87'** Rafael Leão (Portugal)
+
+## Estadísticas del partido
+
+- Posesión (%): **66** Portugal · **34** Uzbekistán
+- Tiros: **17** Portugal · **7** Uzbekistán
+- Tiros a puerta: **9** Portugal · **2** Uzbekistán
+- Córners: **3** Portugal · **2** Uzbekistán
+
+Tienes la **ficha completa** del partido —con alineaciones, todos los momentos clave y estadísticas ampliadas— en [Portugal - Uzbekistán](/2026/partido/portugal-uzbekistan). Consulta también el [historial entre ambas selecciones](/historial/portugal-vs-uzbekistan) y la clasificación actualizada en [grupos](/2026/grupos).
+
+El Mundial 2026 se puede ver en España en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**, con partidos seleccionados en abierto en La 1 (RTVE).`,
+    category: 'general',
+    sourceName: "Mundiales de Fútbol · datos ESPN",
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-23T19:00:00Z',
+  },
+  {
     slug: 'partidos-mundial-2026-hoy-2026-06-23',
     title: "Partidos del Mundial 2026 hoy, Martes 23 de junio: horarios (hora España) y dónde ver, gratis en La 1 o en DAZN",
     summary: "Calendario de los 4 partidos del Mundial 2026 de hoy, martes 23 de junio: horarios en hora española y dónde verlos. Hoy en abierto y gratis en La 1: Inglaterra - Ghana. El resto, en DAZN / Movistar Plus+.",
