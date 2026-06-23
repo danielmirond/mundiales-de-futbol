@@ -130,6 +130,36 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'noruega-senegal-resultado-mundial-2026',
+    title: "Noruega 3-2 Senegal: resultado, goles y estadísticas | Mundial 2026",
+    summary: "Victoria de Noruega por 3-2 entre Noruega y Senegal en el Grupo I del Mundial 2026. Resultado, goles y estadísticas del partido.",
+    body: `**Noruega** se impuso a **Senegal** por **3-2** en el **Grupo I** del Mundial 2026, en un partido disputado el martes 23 de junio en el MetLife Stadium (East Rutherford).
+
+## Goles
+
+- **43'** Marcus Holmgren Pedersen (Noruega)
+- **48'** Erling Haaland (Noruega)
+- **53'** Ismaïla Sarr (Senegal)
+- **58'** Erling Haaland (Noruega)
+- **90'+3'** Ismaïla Sarr (Senegal)
+
+## Estadísticas del partido
+
+- Posesión (%): **41.7** Noruega · **58.3** Senegal
+- Tiros: **13** Noruega · **16** Senegal
+- Tiros a puerta: **7** Noruega · **4** Senegal
+- Córners: **5** Noruega · **4** Senegal
+
+Tienes la **ficha completa** del partido —con alineaciones, todos los momentos clave y estadísticas ampliadas— en [Noruega - Senegal](/2026/partido/noruega-senegal). Consulta también el [historial entre ambas selecciones](/historial/noruega-vs-senegal) y la clasificación actualizada en [grupos](/2026/grupos).
+
+El Mundial 2026 se puede ver en España en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**, con partidos seleccionados en abierto en La 1 (RTVE).`,
+    category: 'general',
+    sourceName: "Mundiales de Fútbol · datos ESPN",
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-23T02:00:00Z',
+  },
+  {
     slug: 'argentina-austria-resultado-mundial-2026',
     title: "Argentina 2-0 Austria: resultado, goles y estadísticas | Mundial 2026",
     summary: "Victoria de Argentina por 2-0 entre Argentina y Austria en el Grupo J del Mundial 2026. Resultado, goles y estadísticas del partido.",
