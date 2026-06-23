@@ -130,6 +130,34 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'jordania-argelia-resultado-mundial-2026',
+    title: "Jordania 1-2 Argelia: resultado, goles y estadísticas | Mundial 2026",
+    summary: "Victoria de Argelia por 1-2 entre Jordania y Argelia en el Grupo J del Mundial 2026. Resultado, goles y estadísticas del partido.",
+    body: `**Argelia** se impuso a **Jordania** por **1-2** en el **Grupo J** del Mundial 2026, en un partido disputado el martes 23 de junio en el Levi's Stadium (Santa Clara).
+
+## Goles
+
+- **36'** Nizar Al-Rashdan (Jordania)
+- **69'** Nadhir Benbouali (Argelia)
+- **82'** Amine Gouiri (Argelia)
+
+## Estadísticas del partido
+
+- Posesión (%): **27.9** Jordania · **72.1** Argelia
+- Tiros: **8** Jordania · **17** Argelia
+- Tiros a puerta: **4** Jordania · **8** Argelia
+- Córners: **1** Jordania · **10** Argelia
+
+Tienes la **ficha completa** del partido —con alineaciones, todos los momentos clave y estadísticas ampliadas— en [Jordania - Argelia](/2026/partido/jordania-argelia). Consulta también el [historial entre ambas selecciones](/historial/argelia-vs-jordania) y la clasificación actualizada en [grupos](/2026/grupos).
+
+El Mundial 2026 se puede ver en España en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**, con partidos seleccionados en abierto en La 1 (RTVE).`,
+    category: 'general',
+    sourceName: "Mundiales de Fútbol · datos ESPN",
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-23T05:00:00Z',
+  },
+  {
     slug: 'noruega-senegal-resultado-mundial-2026',
     title: "Noruega 3-2 Senegal: resultado, goles y estadísticas | Mundial 2026",
     summary: "Victoria de Noruega por 3-2 entre Noruega y Senegal en el Grupo I del Mundial 2026. Resultado, goles y estadísticas del partido.",
