@@ -130,6 +130,46 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'partidos-mundial-2026-hoy-2026-06-23',
+    title: "Partidos del Mundial 2026 hoy, Martes 23 de junio: horarios (hora España) y dónde ver, gratis en La 1 o en DAZN",
+    summary: "Calendario de los 4 partidos del Mundial 2026 de hoy, martes 23 de junio: horarios en hora española y dónde verlos. Hoy en abierto y gratis en La 1: Inglaterra - Ghana. El resto, en DAZN / Movistar Plus+.",
+    body: `El Mundial 2026 vive hoy, martes 23 de junio, una jornada de **4 partidos**. Te dejamos todos los horarios en hora española, las sedes y dónde seguirlos, con el foco puesto en el **Inglaterra - Ghana**.
+
+## Partidos de hoy en el Mundial 2026 (hora de España)
+
+- **[Noruega - Senegal](/2026/partido/noruega-senegal)** — 02:00 h · Grupo I · MetLife Stadium (East Rutherford) · 📺 [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026) / [Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial).
+- **[Jordania - Argelia](/2026/partido/jordania-argelia)** — 05:00 h · Grupo J · Levi's Stadium (Santa Clara) · 📺 [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026) / [Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial).
+- **[Portugal - Uzbekistán](/2026/partido/portugal-uzbekistan)** — 19:00 h · Grupo K · NRG Stadium (Houston) · 📺 [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026) / [Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial).
+- **[Inglaterra - Ghana](/2026/partido/inglaterra-ghana)** — 22:00 h · Grupo L · Gillette Stadium (Foxborough) · 📺 🆓 La 1 (RTVE) y [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026).
+
+Todos los horarios están convertidos a **hora peninsular española**. Puedes ver la jornada al completo, con resultados en directo, en la página de [partidos de hoy](/2026/partidos-hoy) y en el [calendario del Mundial](/2026/calendario).
+
+## El partido destacado del día
+
+De todo el cartel, el **Inglaterra - Ghana** es el duelo más llamativo de la jornada y el que más expectación levanta entre los aficionados. Sigue la clasificación y los grupos actualizados en [grupos y clasificación](/2026/grupos).
+
+## Qué partidos se ven hoy gratis en La 1 (RTVE)
+
+RTVE emite hoy en **abierto y gratis** en **La 1** (también en RTVE Play, gratis online):
+
+- **Inglaterra - Ghana** — 22:00 h.
+
+## Qué partidos son solo de pago (DAZN / Movistar Plus+)
+
+El resto de partidos de hoy solo se pueden ver en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, disponible también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**:
+
+- **Noruega - Senegal** — 02:00 h.
+- **Jordania - Argelia** — 05:00 h.
+- **Portugal - Uzbekistán** — 19:00 h.
+
+RTVE emite **34 partidos gratis** en total del Mundial 2026: los 3 de España en la fase de grupos, un partido destacado por jornada y toda la fase eliminatoria desde dieciseisavos (incluida la final). Los **104 partidos** están en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**. Desglose completo de plataformas, precios y partidos en abierto en [dónde ver el Mundial 2026](/2026/donde-ver).`,
+    category: 'tv',
+    sourceName: "Mundiales de Fútbol",
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-23T06:30:00Z',
+  },
+  {
     slug: 'jordania-argelia-resultado-mundial-2026',
     title: "Jordania 1-2 Argelia: resultado, goles y estadísticas | Mundial 2026",
     summary: "Victoria de Argelia por 1-2 entre Jordania y Argelia en el Grupo J del Mundial 2026. Resultado, goles y estadísticas del partido.",
