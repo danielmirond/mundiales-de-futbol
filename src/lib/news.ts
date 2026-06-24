@@ -130,6 +130,32 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'colombia-rd-del-congo-resultado-mundial-2026',
+    title: "Colombia 1-0 RD del Congo: resultado, goles y estadísticas | Mundial 2026",
+    summary: "Victoria de Colombia por 1-0 entre Colombia y RD del Congo en el Grupo K del Mundial 2026. Resultado, goles y estadísticas del partido.",
+    body: `**Colombia** se impuso a **RD del Congo** por **1-0** en el **Grupo K** del Mundial 2026, en un partido disputado el miércoles 24 de junio en el Estadio Akron (Guadalajara).
+
+## Goles
+
+- **76'** Daniel Muñoz (Colombia)
+
+## Estadísticas del partido
+
+- Posesión (%): **63.5** Colombia · **36.5** RD del Congo
+- Tiros: **20** Colombia · **7** RD del Congo
+- Tiros a puerta: **9** Colombia · **1** RD del Congo
+- Córners: **5** Colombia · **4** RD del Congo
+
+Tienes la **ficha completa** del partido —con alineaciones, todos los momentos clave y estadísticas ampliadas— en [Colombia - RD del Congo](/2026/partido/colombia-rd-del-congo). Consulta también el [historial entre ambas selecciones](/historial/colombia-vs-rd-del-congo) y la clasificación actualizada en [grupos](/2026/grupos).
+
+El Mundial 2026 se puede ver en España en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**, con partidos seleccionados en abierto en La 1 (RTVE).`,
+    category: 'general',
+    sourceName: "Mundiales de Fútbol · datos ESPN",
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-24T04:00:00Z',
+  },
+  {
     slug: 'panama-croacia-resultado-mundial-2026',
     title: "Panamá 0-1 Croacia: resultado, goles y estadísticas | Mundial 2026",
     summary: "Victoria de Croacia por 0-1 entre Panamá y Croacia en el Grupo L del Mundial 2026. Resultado, goles y estadísticas del partido.",
