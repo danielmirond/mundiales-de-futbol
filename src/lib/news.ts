@@ -130,6 +130,32 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'panama-croacia-resultado-mundial-2026',
+    title: "Panamá 0-1 Croacia: resultado, goles y estadísticas | Mundial 2026",
+    summary: "Victoria de Croacia por 0-1 entre Panamá y Croacia en el Grupo L del Mundial 2026. Resultado, goles y estadísticas del partido.",
+    body: `**Croacia** se impuso a **Panamá** por **0-1** en el **Grupo L** del Mundial 2026, en un partido disputado el miércoles 24 de junio en el BMO Field (Toronto).
+
+## Goles
+
+- **54'** Ante Budimir (Croacia)
+
+## Estadísticas del partido
+
+- Posesión (%): **42.1** Panamá · **57.9** Croacia
+- Tiros: **8** Panamá · **6** Croacia
+- Tiros a puerta: **1** Panamá · **2** Croacia
+- Córners: **7** Panamá · **2** Croacia
+
+Tienes la **ficha completa** del partido —con alineaciones, todos los momentos clave y estadísticas ampliadas— en [Panamá - Croacia](/2026/partido/panama-croacia). Consulta también el [historial entre ambas selecciones](/historial/croacia-vs-panama) y la clasificación actualizada en [grupos](/2026/grupos).
+
+El Mundial 2026 se puede ver en España en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**, con partidos seleccionados en abierto en La 1 (RTVE).`,
+    category: 'general',
+    sourceName: "Mundiales de Fútbol · datos ESPN",
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-24T01:00:00Z',
+  },
+  {
     slug: 'portugal-uzbekistan-resultado-mundial-2026',
     title: "Portugal 5-0 Uzbekistán: resultado, goles y estadísticas | Mundial 2026",
     summary: "Victoria de Portugal por 5-0 entre Portugal y Uzbekistán en el Grupo K del Mundial 2026. Resultado, goles y estadísticas del partido.",
