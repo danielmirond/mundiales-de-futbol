@@ -130,6 +130,63 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'bosnia-catar-resultado-mundial-2026',
+    title: "Bosnia 3-1 Catar: resultado, goles y estadísticas | Mundial 2026",
+    summary: "Victoria de Bosnia por 3-1 entre Bosnia y Catar en el Grupo B del Mundial 2026. Resultado, goles y estadísticas del partido.",
+    body: `**Bosnia** se impuso a **Catar** por **3-1** en el **Grupo B** del Mundial 2026, en un partido disputado el miércoles 24 de junio en el Lumen Field (Seattle).
+
+## Goles
+
+- **29'** Kerim Alajbegovic (Bosnia)
+- **34'** Mahmoud Abunada (Bosnia)
+- **42'** Hassan Al-Haydos (Catar)
+- **80'** Ermin Mahmic (Bosnia)
+
+## Estadísticas del partido
+
+- Posesión (%): **54.5** Bosnia · **45.5** Catar
+- Tiros: **14** Bosnia · **9** Catar
+- Tiros a puerta: **5** Bosnia · **3** Catar
+- Córners: **5** Bosnia · **5** Catar
+
+Tienes la **ficha completa** del partido —con alineaciones, todos los momentos clave y estadísticas ampliadas— en [Bosnia - Catar](/2026/partido/bosnia-catar). Consulta también el [historial entre ambas selecciones](/historial/bosnia-y-herzegovina-vs-qatar) y la clasificación actualizada en [grupos](/2026/grupos).
+
+El Mundial 2026 se puede ver en España en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**, con partidos seleccionados en abierto en La 1 (RTVE).`,
+    category: 'general',
+    sourceName: "Mundiales de Fútbol · datos ESPN",
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-24T21:00:00Z',
+  },
+  {
+    slug: 'suiza-canada-resultado-mundial-2026',
+    title: "Suiza 2-1 Canadá: resultado, goles y estadísticas | Mundial 2026",
+    summary: "Victoria de Suiza por 2-1 entre Suiza y Canadá en el Grupo B del Mundial 2026. Resultado, goles y estadísticas del partido.",
+    body: `**Suiza** se impuso a **Canadá** por **2-1** en el **Grupo B** del Mundial 2026, en un partido disputado el miércoles 24 de junio en el BC Place (Vancouver).
+
+## Goles
+
+- **46'** Rubén Vargas (Suiza)
+- **57'** Johan Manzambi (Suiza)
+- **76'** Promise David (Canadá)
+
+## Estadísticas del partido
+
+- Posesión (%): **55.2** Suiza · **44.8** Canadá
+- Tiros: **6** Suiza · **13** Canadá
+- Tiros a puerta: **4** Suiza · **7** Canadá
+- Córners: **2** Suiza · **7** Canadá
+
+Tienes la **ficha completa** del partido —con alineaciones, todos los momentos clave y estadísticas ampliadas— en [Suiza - Canadá](/2026/partido/suiza-canada). Consulta también el [historial entre ambas selecciones](/historial/canada-vs-suiza) y la clasificación actualizada en [grupos](/2026/grupos).
+
+El Mundial 2026 se puede ver en España en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**, con partidos seleccionados en abierto en La 1 (RTVE).`,
+    category: 'general',
+    sourceName: "Mundiales de Fútbol · datos ESPN",
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-24T21:00:00Z',
+  },
+  {
     slug: 'partidos-mundial-2026-hoy-2026-06-24',
     title: "Partidos del Mundial 2026 hoy, Miércoles 24 de junio: horarios (hora España) y dónde ver, gratis en La 1 o en DAZN",
     summary: "Calendario de los 4 partidos del Mundial 2026 de hoy, miércoles 24 de junio: horarios en hora española y dónde verlos. Hoy ningún partido en abierto en La 1: todos en DAZN / Movistar Plus+.",
