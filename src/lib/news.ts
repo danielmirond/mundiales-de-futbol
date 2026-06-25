@@ -130,6 +130,60 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'chequia-mexico-resultado-mundial-2026',
+    title: "Chequia 0-3 México: resultado, goles y estadísticas | Mundial 2026",
+    summary: "Victoria de México por 0-3 entre Chequia y México en el Grupo A del Mundial 2026. Resultado, goles y estadísticas del partido.",
+    body: `**México** goleó a **Chequia** por **0-3** en el **Grupo A** del Mundial 2026, en un partido disputado el jueves 25 de junio en el Estadio Azteca (Ciudad de México).
+
+## Goles
+
+- **55'** Mateo Chávez (México)
+- **61'** Julián Quiñones (México)
+- **90'+4'** Álvaro Fidalgo (México)
+
+## Estadísticas del partido
+
+- Posesión (%): **51.6** Chequia · **48.4** México
+- Tiros: **13** Chequia · **11** México
+- Tiros a puerta: **1** Chequia · **5** México
+- Córners: **5** Chequia · **1** México
+
+Tienes la **ficha completa** del partido —con alineaciones, todos los momentos clave y estadísticas ampliadas— en [Chequia - México](/2026/partido/chequia-mexico). Consulta también el [historial entre ambas selecciones](/historial/mexico-vs-republica-checa) y la clasificación actualizada en [grupos](/2026/grupos).
+
+El Mundial 2026 se puede ver en España en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**, con partidos seleccionados en abierto en La 1 (RTVE).`,
+    category: 'general',
+    sourceName: "Mundiales de Fútbol · datos ESPN",
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-25T03:00:00Z',
+  },
+  {
+    slug: 'sudafrica-corea-del-sur-resultado-mundial-2026',
+    title: "Sudáfrica 1-0 Corea del Sur: resultado, goles y estadísticas | Mundial 2026",
+    summary: "Victoria de Sudáfrica por 1-0 entre Sudáfrica y Corea del Sur en el Grupo A del Mundial 2026. Resultado, goles y estadísticas del partido.",
+    body: `**Sudáfrica** se impuso a **Corea del Sur** por **1-0** en el **Grupo A** del Mundial 2026, en un partido disputado el jueves 25 de junio en el Estadio BBVA (Monterrey).
+
+## Goles
+
+- **63'** Thapelo Maseko (Sudáfrica)
+
+## Estadísticas del partido
+
+- Posesión (%): **31.5** Sudáfrica · **68.5** Corea del Sur
+- Tiros: **13** Sudáfrica · **8** Corea del Sur
+- Tiros a puerta: **4** Sudáfrica · **3** Corea del Sur
+- Córners: **4** Sudáfrica · **6** Corea del Sur
+
+Tienes la **ficha completa** del partido —con alineaciones, todos los momentos clave y estadísticas ampliadas— en [Sudáfrica - Corea del Sur](/2026/partido/sudafrica-corea-del-sur). Consulta también el [historial entre ambas selecciones](/historial/corea-del-sur-vs-sudafrica) y la clasificación actualizada en [grupos](/2026/grupos).
+
+El Mundial 2026 se puede ver en España en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**, con partidos seleccionados en abierto en La 1 (RTVE).`,
+    category: 'general',
+    sourceName: "Mundiales de Fútbol · datos ESPN",
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-25T03:00:00Z',
+  },
+  {
     slug: 'escocia-brasil-resultado-mundial-2026',
     title: "Escocia 0-3 Brasil: resultado, goles y estadísticas | Mundial 2026",
     summary: "Victoria de Brasil por 0-3 entre Escocia y Brasil en el Grupo C del Mundial 2026. Resultado, goles y estadísticas del partido.",
