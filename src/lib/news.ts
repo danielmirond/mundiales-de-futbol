@@ -130,6 +130,50 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'partidos-mundial-2026-hoy-2026-06-25',
+    title: "Partidos del Mundial 2026 hoy, Jueves 25 de junio: horarios (hora España) y dónde ver, gratis en La 1 o en DAZN",
+    summary: "Calendario de los 6 partidos del Mundial 2026 de hoy, jueves 25 de junio: horarios en hora española y dónde verlos. Hoy en abierto y gratis en La 1: Escocia - Brasil. El resto, en DAZN / Movistar Plus+.",
+    body: `El Mundial 2026 vive hoy, jueves 25 de junio, una jornada de **6 partidos**. Te dejamos todos los horarios en hora española, las sedes y dónde seguirlos, con el foco puesto en el **Escocia - Brasil**.
+
+## Partidos de hoy en el Mundial 2026 (hora de España)
+
+- **[Marruecos - Haití](/2026/partido/marruecos-haiti)** — 00:00 h · Grupo C · Mercedes-Benz Stadium (Atlanta) · 📺 [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026) / [Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial).
+- **[Escocia - Brasil](/2026/partido/escocia-brasil)** — 00:00 h · Grupo C · Hard Rock Stadium (Miami Gardens) · 📺 🆓 La 1 (RTVE) y [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026).
+- **[Sudáfrica - Corea del Sur](/2026/partido/sudafrica-corea-del-sur)** — 03:00 h · Grupo A · Estadio BBVA (Monterrey) · 📺 [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026) / [Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial).
+- **[Chequia - México](/2026/partido/chequia-mexico)** — 03:00 h · Grupo A · Estadio Azteca (Ciudad de México) · 📺 [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026) / [Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial).
+- **[Curazao - Costa de Marfil](/2026/partido/curazao-costa-de-marfil)** — 22:00 h · Grupo E · Lincoln Financial Field (Philadelphia) · 📺 [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026) / [Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial).
+- **[Ecuador - Alemania](/2026/partido/ecuador-alemania)** — 22:00 h · Grupo E · MetLife Stadium (East Rutherford) · 📺 🆓 La 1 (RTVE) y [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026).
+
+Todos los horarios están convertidos a **hora peninsular española**. Puedes ver la jornada al completo, con resultados en directo, en la página de [partidos de hoy](/2026/partidos-hoy) y en el [calendario del Mundial](/2026/calendario).
+
+## El partido destacado del día
+
+De todo el cartel, el **Escocia - Brasil** es el duelo más llamativo de la jornada y el que más expectación levanta entre los aficionados. Sigue la clasificación y los grupos actualizados en [grupos y clasificación](/2026/grupos).
+
+## Qué partidos se ven hoy gratis en La 1 (RTVE)
+
+RTVE emite hoy en **abierto y gratis** en **La 1** (también en RTVE Play, gratis online):
+
+- **Escocia - Brasil** — 00:00 h.
+- **Ecuador - Alemania** — 22:00 h.
+
+## Qué partidos son solo de pago (DAZN / Movistar Plus+)
+
+El resto de partidos de hoy solo se pueden ver en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, disponible también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**:
+
+- **Marruecos - Haití** — 00:00 h.
+- **Sudáfrica - Corea del Sur** — 03:00 h.
+- **Chequia - México** — 03:00 h.
+- **Curazao - Costa de Marfil** — 22:00 h.
+
+RTVE emite **34 partidos gratis** en total del Mundial 2026: los 3 de España en la fase de grupos, un partido destacado por jornada y toda la fase eliminatoria desde dieciseisavos (incluida la final). Los **104 partidos** están en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**. Desglose completo de plataformas, precios y partidos en abierto en [dónde ver el Mundial 2026](/2026/donde-ver).`,
+    category: 'tv',
+    sourceName: "Mundiales de Fútbol",
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-25T06:30:00Z',
+  },
+  {
     slug: 'chequia-mexico-resultado-mundial-2026',
     title: "Chequia 0-3 México: resultado, goles y estadísticas | Mundial 2026",
     summary: "Victoria de México por 0-3 entre Chequia y México en el Grupo A del Mundial 2026. Resultado, goles y estadísticas del partido.",
