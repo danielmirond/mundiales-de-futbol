@@ -130,6 +130,65 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'escocia-brasil-resultado-mundial-2026',
+    title: "Escocia 0-3 Brasil: resultado, goles y estadísticas | Mundial 2026",
+    summary: "Victoria de Brasil por 0-3 entre Escocia y Brasil en el Grupo C del Mundial 2026. Resultado, goles y estadísticas del partido.",
+    body: `**Brasil** goleó a **Escocia** por **0-3** en el **Grupo C** del Mundial 2026, en un partido disputado el jueves 25 de junio en el Hard Rock Stadium (Miami Gardens).
+
+## Goles
+
+- **7'** Vinícius Júnior (Brasil)
+- **45'+3'** Vinícius Júnior (Brasil)
+- **60'** Matheus Cunha (Brasil)
+
+## Estadísticas del partido
+
+- Posesión (%): **46.6** Escocia · **53.4** Brasil
+- Tiros: **13** Escocia · **20** Brasil
+- Tiros a puerta: **4** Escocia · **9** Brasil
+- Córners: **6** Escocia · **7** Brasil
+
+Tienes la **ficha completa** del partido —con alineaciones, todos los momentos clave y estadísticas ampliadas— en [Escocia - Brasil](/2026/partido/escocia-brasil). Consulta también el [historial entre ambas selecciones](/historial/brasil-vs-escocia) y la clasificación actualizada en [grupos](/2026/grupos).
+
+El Mundial 2026 se puede ver en España en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**, con partidos seleccionados en abierto en La 1 (RTVE).`,
+    category: 'general',
+    sourceName: "Mundiales de Fútbol · datos ESPN",
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-25T00:00:00Z',
+  },
+  {
+    slug: 'marruecos-haiti-resultado-mundial-2026',
+    title: "Marruecos 4-2 Haití: resultado, goles y estadísticas | Mundial 2026",
+    summary: "Victoria de Marruecos por 4-2 entre Marruecos y Haití en el Grupo C del Mundial 2026. Resultado, goles y estadísticas del partido.",
+    body: `**Marruecos** se impuso a **Haití** por **4-2** en el **Grupo C** del Mundial 2026, en un partido disputado el jueves 25 de junio en el Mercedes-Benz Stadium (Atlanta).
+
+## Goles
+
+- **10'** Yassine Bounou (Haití)
+- **39'** Achraf Hakimi (Marruecos)
+- **43'** Wilson Isidor (Haití)
+- **45'+1'** Ismael Saibari (Marruecos)
+- **78'** Soufiane Rahimi (Marruecos)
+- **89'** Gessime Yassine (Marruecos)
+
+## Estadísticas del partido
+
+- Posesión (%): **69.7** Marruecos · **30.3** Haití
+- Tiros: **22** Marruecos · **7** Haití
+- Tiros a puerta: **11** Marruecos · **2** Haití
+- Córners: **9** Marruecos · **1** Haití
+
+Tienes la **ficha completa** del partido —con alineaciones, todos los momentos clave y estadísticas ampliadas— en [Marruecos - Haití](/2026/partido/marruecos-haiti). Consulta también el [historial entre ambas selecciones](/historial/haiti-vs-marruecos) y la clasificación actualizada en [grupos](/2026/grupos).
+
+El Mundial 2026 se puede ver en España en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**, con partidos seleccionados en abierto en La 1 (RTVE).`,
+    category: 'general',
+    sourceName: "Mundiales de Fútbol · datos ESPN",
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-25T00:00:00Z',
+  },
+  {
     slug: 'bosnia-catar-resultado-mundial-2026',
     title: "Bosnia 3-1 Catar: resultado, goles y estadísticas | Mundial 2026",
     summary: "Victoria de Bosnia por 3-1 entre Bosnia y Catar en el Grupo B del Mundial 2026. Resultado, goles y estadísticas del partido.",
