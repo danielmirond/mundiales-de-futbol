@@ -1,0 +1,3069 @@
+{
+  "generatedAt": "2026-06-20T09:49:27.468Z",
+  "date": "2026-06-20",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "copa mundial de fútbol",
+      "geo": "US",
+      "language": "en",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "Los aficionados al Mundial se quedan alucinados con las «recargas gratis» en Estados Unidos, ¡la Generación Z se lleva un premio gordo en Las Vegas y CARNE!",
+          "url": "https://noticias.foxnews.com/outkick-sports/world-cup-fans-blown-away-free-refills-united-states-gen-z-hits-massive-vegas-pot-meat",
+          "source": "Fox News"
+        },
+        {
+          "title": "Turistas europeos se vuelven virales al descubrir la cultura estadounidense durante el Mundial 2026",
+          "url": "https://cnnespanol.cnn.com/2026/06/16/eeuu/video/turistas-mundial-2026-virales-trax",
+          "source": "CNN en Español"
+        },
+        {
+          "title": "Los visitantes de la Copa del Mundo se están volviendo locos con estos alimentos estadounidenses.",
+          "url": "https://es.qz.com/visitantes-del-mundial-perdiendo-la-cabeza-por-comidas-americanas",
+          "source": "es.qz.com"
+        }
+      ]
+    },
+    {
+      "query": "eliminados del mundial 2026",
+      "geo": "MX",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Estos son los eliminados del Mundial 2026, al momento",
+          "url": "https://www.record.com.mx/historia/estos-son-los-eliminados-del-mundial-2026-al-momento-2026062004434101975",
+          "source": "Récord"
+        },
+        {
+          "title": "OFICIAL: El primer ELIMINADO del Mundial 2026",
+          "url": "https://www.tvazteca.com/aztecadeportes/haiti-eliminado-mundial-2026-tras-perder-brasil/",
+          "source": "TV Azteca"
+        },
+        {
+          "title": "Los haitianos lamentan derrota de su equipo ante el Brasil de sus sueños",
+          "url": "https://es-us.noticias.yahoo.com/deportes/haitianos-lamentan-derrota-equipo-brasil-053424501.html",
+          "source": "Yahoo"
+        }
+      ]
+    },
+    {
+      "query": "netherlands vs sweden",
+      "geo": "CA",
+      "language": "en",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "World Cup what to know: Netherlands, Sweden face off as group stage reaches halfway point",
+          "url": "https://www.tsn.ca/soccer/fifa-world-cup/article/world-cup-what-to-know-netherlands-sweden-face-off-as-group-stage-reaches-halfway-point/",
+          "source": "TSN"
+        },
+        {
+          "title": "Sweden XI vs Netherlands – Predicted lineup and team news",
+          "url": "https://ca.sports.yahoo.com/news/sweden-xi-vs-netherlands-predicted-052000495.html",
+          "source": "Yahoo Sports Canada"
+        },
+        {
+          "title": "World Cup 2026: Netherlands vs Sweden prediction, schedules, key highlights",
+          "url": "https://www.aljazeera.com/sports/2026/6/20/world-cup-2026-netherlands-vs-sweden-prediction-schedules-key-highlights",
+          "source": "Al Jazeera"
+        }
+      ]
+    },
+    {
+      "query": "turkey fifa ranking",
+      "geo": "CA",
+      "language": "en",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "World Cup 2026: What is Turkiye’s current FIFA world ranking?",
+          "url": "https://worldsoccertalk.com/world-cup/world-cup-2026-what-is-turkiye-current-fifa-world-ranking/",
+          "source": "World Soccer Talk"
+        },
+        {
+          "title": "Turkiye and Paraguay’s FIFA rankings updated for 2026 World Cup game",
+          "url": "https://bolavip.com/en/world-cup/turkiye-and-paraguays-fifa-rankings-updated-for-2026-world-cup-game",
+          "source": "Bolavip US"
+        },
+        {
+          "title": "World Cup 2026: What is Paraguay’s current FIFA world ranking?",
+          "url": "https://worldsoccertalk.com/world-cup/world-cup-2026-what-is-paraguay-current-fifa-world-ranking/",
+          "source": "World Soccer Talk"
+        }
+      ]
+    },
+    {
+      "query": "arbitro paraguay turquia",
+      "geo": "AR",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Iván Barton listo para su debut: El salvadoreño liderará el arbitraje del Paraguay vs. Turquía en el Mundial 2026",
+          "url": "https://www.infobae.com/el-salvador/2026/06/19/ivan-barton-listo-para-su-debut-el-salvadoreno-liderara-el-arbitraje-del-paraguay-vs-turquia-en-el-mundial-2026/",
+          "source": "Infobae"
+        },
+        {
+          "title": "¿Quién es el árbitro de Paraguay vs. Turquía hoy por el Mundial 2026?",
+          "url": "https://bolavip.com/ar/mundial/quien-es-el-arbitro-de-paraguay-vs-turquia-hoy-por-el-mundial-2026",
+          "source": "Bolavip Argentina"
+        },
+        {
+          "title": "El árbitro de Paraguay ante Turquía",
+          "url": "https://d10.ultimahora.com/el-arbitro-de-paraguay-ante-turquia",
+          "source": "D10"
+        }
+      ]
+    },
+    {
+      "query": "miguel almirón",
+      "geo": "AR",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "La insólita roja de Almirón en Paraguay vs. Turquía por la \"ley Prestianni\"",
+          "url": "https://www.tycsports.com/mundial/miguel-almiron-paraguay-expulsion-taparse-la-boca-ley-prestianni-turquia-mundial-2026-id737292.html",
+          "source": "TyC Sports"
+        },
+        {
+          "title": "Video: la primera expulsión a un jugador por taparse la boca en el Mundial 2026",
+          "url": "https://www.ole.com.ar/mundial/mundial-2026/video-primera-expulsion-jugador-taparse-boca-mundial-2026_0_3EOFEYhGR4.html",
+          "source": "Olé"
+        },
+        {
+          "title": "Debutó la Ley Prestiani en el Mundial 2026: roja a Miguel Almirón por taparse la boca",
+          "url": "https://www.rionegro.com.ar/deportes/debuto-la-ley-prestiani-en-el-mundial-2026-roja-a-miguel-almiron-por-taparse-la-boca-4618751/",
+          "source": "Diario Río Negro"
+        }
+      ]
+    },
+    {
+      "query": "turkia",
+      "geo": "AR",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "U.S. clinches Group D as 10-man Paraguay edges Turkey",
+          "url": "https://www.espn.com/soccer/story/_/id/49123488/us-clinches-group-d-10-man-paraguay-edges-turkey",
+          "source": "ESPN"
+        },
+        {
+          "title": "Türkiye was so close to the equalizer in stoppage time",
+          "url": "https://www.foxsports.com/watch-vertical/fmc-n9q34u04lcqp2lmb",
+          "source": "FOX Sports"
+        },
+        {
+          "title": "Turkiye knocked out of World Cup 2026 after 1-0 defeat to 10-man Paraguay",
+          "url": "https://www.aljazeera.com/sports/2026/6/20/turkiye-knocked-out-of-world-cup-2026-after-1-0-defeat-to-10-man-paraguay",
+          "source": "Al Jazeera"
+        }
+      ]
+    },
+    {
+      "query": "calhanoglu",
+      "geo": "AR",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "‘Everybody’s crying’: Turkey crash out as 10-man Paraguay hang on for World Cup win",
+          "url": "https://www.theguardian.com/football/2026/jun/20/turkey-paraguay-world-cup-2026-group-d-match-report",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Turkey’s World Cup was a gigantic disappointment",
+          "url": "https://www.barcablaugranes.com/world-cup-2026/124019/turkey-world-cup-was-a-gigantic-disappointment",
+          "source": "Barca Blaugranes"
+        },
+        {
+          "title": "World Cup 2026: Two countries eliminated from tournament",
+          "url": "https://dailypost.ng/2026/06/20/world-cup-2026-two-countries-eliminated-from-tournament/",
+          "source": "Daily Post Nigeria"
+        }
+      ]
+    },
+    {
+      "query": "calhanoglu",
+      "geo": "CO",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "‘Everybody’s crying’: Turkey crash out as 10-man Paraguay hang on for World Cup win",
+          "url": "https://www.theguardian.com/football/2026/jun/20/turkey-paraguay-world-cup-2026-group-d-match-report",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Turkey’s World Cup was a gigantic disappointment",
+          "url": "https://www.barcablaugranes.com/world-cup-2026/124019/turkey-world-cup-was-a-gigantic-disappointment",
+          "source": "Barca Blaugranes"
+        },
+        {
+          "title": "World Cup 2026: Two countries eliminated from tournament",
+          "url": "https://dailypost.ng/2026/06/20/world-cup-2026-two-countries-eliminated-from-tournament/",
+          "source": "Daily Post Nigeria"
+        }
+      ]
+    },
+    {
+      "query": "turquía vs. paraguay arbitro",
+      "geo": "CO",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Iván Barton listo para su debut: El salvadoreño liderará el arbitraje del Paraguay vs. Turquía en el Mundial 2026",
+          "url": "https://www.infobae.com/el-salvador/2026/06/19/ivan-barton-listo-para-su-debut-el-salvadoreno-liderara-el-arbitraje-del-paraguay-vs-turquia-en-el-mundial-2026/",
+          "source": "Infobae"
+        },
+        {
+          "title": "¿Quién es el árbitro de Paraguay vs. Turquía hoy por el Mundial 2026?",
+          "url": "https://bolavip.com/ar/mundial/quien-es-el-arbitro-de-paraguay-vs-turquia-hoy-por-el-mundial-2026",
+          "source": "Bolavip Argentina"
+        },
+        {
+          "title": "El árbitro de Paraguay ante Turquía",
+          "url": "https://d10.ultimahora.com/el-arbitro-de-paraguay-ante-turquia",
+          "source": "D10"
+        }
+      ]
+    },
+    {
+      "query": "miguel almirón",
+      "geo": "CO",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "Histórico Almirón, expulsado por taparse la boca",
+          "url": "https://as.com/futbol/mundial/historico-almiron-expulsado-por-taparse-la-boca-f202606-n/",
+          "source": "Diario AS"
+        },
+        {
+          "title": "¡Se aplicó la ley Prestianni! La insólita roja que recibió Miguel Almirón en el Mundial 2026",
+          "url": "https://www.elespectador.com/deportes/mundial-2026/turquia-vs-paraguay-en-vivo-siga-el-minuto-a-minuto-del-partido-del-mundial-2026-2/",
+          "source": "El Espectador"
+        },
+        {
+          "title": "Paraguay se quedó con un hombre menos ante Turquía",
+          "url": "https://www.winsports.co/futbol-internacional/noticias/paraguay-se-quedo-con-un-hombre-menos-ante-turquia-440116",
+          "source": "Win Sports"
+        }
+      ]
+    },
+    {
+      "query": "arda guler",
+      "geo": "CO",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "El lamento de Güler: \"Estamos muy tristes y avergonzados, pedimos perdón a toda nuestra gente\"",
+          "url": "https://www.marca.com/futbol/mundial/2026/06/20/lamento-gueler-tristes-avergonzados-pedimos-perdon-toda-nuestra-gente.html",
+          "source": "MARCA"
+        },
+        {
+          "title": "Turquía decepcionó en el Mundial 2026: quedó eliminada y sus figuras no gravitaron",
+          "url": "https://www.espn.com.co/futbol/mundial/nota/_/id/16873928/turquia-segundo-eliminado-del-mundial-2026-decepcion",
+          "source": "ESPN Colombia"
+        },
+        {
+          "title": "Un exfutbolista turco explota tras la eliminación del Mundial: 4′ que no tienen pérdida alguna",
+          "url": "https://as.com/futbol/videos/un-exfutbolista-turco-explota-tras-la-eliminacion-del-mundial-4-que-no-tienen-perdida-alguna-f202606-v/",
+          "source": "Diario AS"
+        }
+      ]
+    },
+    {
+      "query": "paraguay fc",
+      "geo": "CO",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 5000,
+      "articles": [
+        {
+          "title": "World Cup 2026: Paraguay&apos;s Miguel Almiron sent off for covering mouth while speaking to opponent",
+          "url": "https://www.bbc.com/sport/football/articles/cvg58m7n1plo",
+          "source": "BBC"
+        },
+        {
+          "title": "What is the World Cup rule around covering your mouth?",
+          "url": "https://news.bet365.com/en-gb/article/what-is-the-world-cup-rule-around-covering-your-mouth/2026062007522615126",
+          "source": "news.bet365.com"
+        },
+        {
+          "title": "🚨 The \"Prestianni rule\" leads to a red card at the World Cup!",
+          "url": "https://onefootball.com/fr/news/the-prestianni-rule-leads-to-a-red-card-at-the-world-cup-43033610",
+          "source": "OneFootball"
+        }
+      ]
+    },
+    {
+      "query": "arda guler",
+      "geo": "CL",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "El lamento de Güler: \"Estamos muy tristes y avergonzados, pedimos perdón a toda nuestra gente\"",
+          "url": "https://www.marca.com/futbol/mundial/2026/06/20/lamento-gueler-tristes-avergonzados-pedimos-perdon-toda-nuestra-gente.html",
+          "source": "MARCA"
+        },
+        {
+          "title": "Turquía decepcionó en el Mundial 2026: quedó eliminada y sus figuras no gravitaron",
+          "url": "https://www.espn.cl/futbol/mundial/nota/_/id/16873928/turquia-segundo-eliminado-del-mundial-2026-decepcion",
+          "source": "ESPN Chile"
+        },
+        {
+          "title": "Un exfutbolista turco explota tras la eliminación del Mundial: 4′ que no tienen pérdida alguna",
+          "url": "https://as.com/futbol/videos/un-exfutbolista-turco-explota-tras-la-eliminacion-del-mundial-4-que-no-tienen-perdida-alguna-f202606-v/",
+          "source": "Diario AS"
+        }
+      ]
+    },
+    {
+      "query": "türkiye vs paraguay",
+      "geo": "CL",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "FIFA World Cup Group D LIVE: Turkey vs Paraguay - score, radio commentary, text updates & match stats",
+          "url": "https://www.bbc.com/sport/football/live/c2kyg22l2n7t",
+          "source": "BBC"
+        },
+        {
+          "title": "Paraguay&apos;s 10-man win gives Socceroos a simple equation",
+          "url": "https://sportnation.nz/article/paraguays-10-man-win-gives-socceroos-a-simple-equation",
+          "source": "Sport Nation"
+        },
+        {
+          "title": "Hours after Morocco&apos;s Ismael Saibari delivers fastest goal of 2026 World Cup, Paraguay&apos;s Matias Galarza sets new record",
+          "url": "https://sports.yahoo.com/soccer/breaking-news/article/hours-after-moroccos-ismael-saibari-delivers-fastest-goal-of-2026-world-cup-paraguays-matias-galarza-sets-new-record-224107077.html",
+          "source": "Yahoo Sports"
+        }
+      ]
+    },
+    {
+      "query": "países bajos vs. japón",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Japón castiga a Koeman",
+          "url": "https://as.com/futbol/mundial/japon-castiga-a-koeman-f202606-n/",
+          "source": "Diario AS"
+        },
+        {
+          "title": "Países Bajos igualó el récord de invicto en los Mundiales establecido por la Brasil de Pelé",
+          "url": "https://rpp.pe/futbol/mundial-2026/mundial-2026-paises-bajos-igualo-el-record-de-invicto-establecido-por-la-brasil-de-pele-noticia-1693045",
+          "source": "RPP"
+        },
+        {
+          "title": "Así le hemos contado el empate entre Países Bajos y Japón en la fase de grupos del Mundial 2026",
+          "url": "https://elpais.com/deportes/mundial-futbol/2026-06-14/paises-bajos-japon-en-directo-partido-del-grupo-f-del-mundial-2026-en-vivo.html",
+          "source": "EL PAÍS"
+        }
+      ]
+    },
+    {
+      "query": "copa mundial de fútbol de 2026",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "Mundial 2026, últimas noticias en directo | Estados Unidos y México, los primeros en sacarse el billete para dieciseisavos, mientras Haití dice adiós al torneo",
+          "url": "https://elpais.com/deportes/mundial-futbol/2026-06-20/resumen-y-ultimas-noticias-de-la-copa-mundial-de-futbol.html",
+          "source": "EL PAÍS"
+        },
+        {
+          "title": "USA clasifica, Brasil líder de grupo: ¿Qué pasó hoy en el Mundial?",
+          "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16873732/mundial-2024-que-paso-dia-9-datos-del-dia-partidos-de-hoy-20-de-junio",
+          "source": "ESPN Argentina"
+        },
+        {
+          "title": "Raphinha se lesiona, Marruecos vive de Saibari y expulsan a Almirón por hacer un &apos;Prestianni&apos;: esto es lo que te perdiste esta noche en el Mundial",
+          "url": "https://www.sport.es/es/noticias/mundial-futbol/raphinha-lesiona-marruecos-vive-saibari-131620326",
+          "source": "SPORT"
+        }
+      ]
+    },
+    {
+      "query": "copa mundial fifa 2026",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Tori Penso, la árbitro principal del República Checa vs Sudáfrica en el Mundial 2026",
+          "url": "https://www.americatv.com.pe/deportes/futbol-mundial/conoce-tori-penso-arbitro-estadounidense-chequia-vs-sudafrica-mundial-2026-n454542",
+          "source": "América TV"
+        },
+        {
+          "title": "La árbitra que escribió historia en la Copa Mundial envía un &apos;regalo de primer nivel&apos; a Corea: el núcleo de Sudáfrica acumula una advertencia y no jugará en el tercer partido.",
+          "url": "https://www.starnewskorea.com/es/sports/2026/06/19/2026061901182926108",
+          "source": "스타뉴스"
+        },
+        {
+          "title": "Tori Penso, la árbitra inolvidable para La Roja, que ha hecho historia en este Mundial",
+          "url": "https://as.com/futbol/femenino/tori-penso-la-arbitra-inolvidable-para-la-roja-que-ha-hecho-historia-en-el-mundial-f202606-n/",
+          "source": "Diario AS"
+        }
+      ]
+    },
+    {
+      "query": "grupos del mundial 2026",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Mundial 2026: los clasificados a 16avos. de final",
+          "url": "https://www.espn.com.pe/futbol/mundial/nota/_/id/16857698/mundial-2026-16avos-de-final-clasificados",
+          "source": "espn.com.pe"
+        },
+        {
+          "title": "¿Qué equipos ya clasificaron y cuáles fueron eliminados del Mundial 2026?",
+          "url": "https://www.si.com/es-us/futbol/las-selecciones-ya-clasificadas-y-eliminadas-a-los-16avos-de-final-del-mundial-2026",
+          "source": "Sports Illustrated"
+        },
+        {
+          "title": "Estas son las selecciones clasificadas a dieciseisavos de final del Mundial 2026 | Fútbol | Deportes",
+          "url": "https://www.eluniverso.com/deportes/futbol/cruces-y-llaves-del-mundial-clasificados-a-dieciseisavos-de-final-del-mundial-2026-nota/",
+          "source": "El Universo"
+        }
+      ]
+    },
+    {
+      "query": "tunez vs japon",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Japón vs Túnez EN VIVO: se enfrentan en Monterrey por la fecha del 2 Mundial 2026",
+          "url": "https://rpp.pe/futbol/mundial-2026/japon-vs-tunez-en-vivo-directv-como-ver-transmision-online-fecha-2-mundial-2026-fifa-partidos-de-hoy-seo-noticia-1693843",
+          "source": "RPP"
+        },
+        {
+          "title": "Túnez - Japón: hora y canales dónde ver el partido por el Mundial 2026",
+          "url": "https://larepublica.pe/deportes/2026/06/20/tunez-japon-hora-y-canales-donde-ver-el-partido-por-el-mundial-2026-1500810",
+          "source": "La República"
+        },
+        {
+          "title": "Tunez vs Japon: ¡Juega en el Torneo mundial y gana con la Mundo Mania de Meridianbet!",
+          "url": "https://ovacion.pe/noticias/nota-promocional/tunez-vs-japon-juega-torneo-mundial-gana-mundo-mania-meridianbet",
+          "source": "ovacion.pe"
+        }
+      ]
+    },
+    {
+      "query": "fifa world cup 2026™",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "FIFA Sound climbs the world’s charts | Official FIFA World Cup 2026™ Album",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/fifa-sound-ignites-a-global-music-movement-climbs-the-worlds-charts",
+          "source": "FIFA"
+        },
+        {
+          "title": "10 football tournament anthems for the ages - ranked!",
+          "url": "https://www.rte.ie/culture/2026/0620/1578524-10-football-tournament-anthems-for-the-ages-ranked/",
+          "source": "RTE.ie"
+        },
+        {
+          "title": "Olé! Allez! Go! World Cup Songs That Make the Earth Move",
+          "url": "https://www.popmatters.com/world-cup-songs-ole-allez-go",
+          "source": "PopMatters"
+        }
+      ]
+    },
+    {
+      "query": "ecuador vs curazao",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Kansas City es Tricolor: el banderazo de Ecuador en la previa del partido ante Curazao por el Mundial",
+          "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16873681/banderazo-ecuador-kansas-city-previa-vs-curazao-mundial-2026",
+          "source": "ESPN Deportes"
+        },
+        {
+          "title": "Ecuador vs. Curazao, por el Grupo E del Mundial 2026: previa, alineaciones, hora y cómo ver por TV e internet",
+          "url": "https://cnnespanol.cnn.com/2026/06/19/deportes/ecuador-curazao-grupoe-mundial-2026-orix",
+          "source": "CNN en Español"
+        },
+        {
+          "title": "Dick Advocaat: \"Jugar un Mundial ya es motivo de orgullo para Curazao\"",
+          "url": "https://ovacion.pe/noticias/mundial-2026/dick-advocaat-jugar-un-mundial-ya-motivo-orgullo-curazao",
+          "source": "ovacion.pe"
+        }
+      ]
+    },
+    {
+      "query": "ley prestianni",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "Miguel Almirón, expulsado por una nueva regla en el Mundial 2026",
+          "url": "https://www.espn.com.pe/futbol/mundial/nota/_/id/16873541/video-miguel-almiron-expulsado-regla-nueva-turquia-vs-paraguay-mundial-2026",
+          "source": "espn.com.pe"
+        },
+        {
+          "title": "Una estrella del Mundial fue expulsada por taparle la boca a un rival por primera vez en la historia",
+          "url": "https://www.ucvradio.pe/deporte/una-estrella-del-mundial-fue-expulsada-por-taparle-la-boca-a-un-rival-por-primera-vez-en-la-historia/231089/",
+          "source": "ucvradio.pe"
+        },
+        {
+          "title": "Miguel Almirón se fue expulsado por la &apos;Ley Prestianni&apos; en pleno Mundial: ¿qué siginifica esta regla?",
+          "url": "https://libero.pe/futbol-internacional/2026/06/19/paraguay-vs-turquia-miguel-almiron-fue-expulsado-regla-de-ley-prestianni-en-pleno-mundial-2026-siginifica-regla-1303495",
+          "source": "Diario Libero"
+        }
+      ]
+    },
+    {
+      "query": "tabla de posiciones del mundial 2026",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Así quedó la tabla de posiciones del Grupo C del Mundial 2026: Brasil goleó a Haití y regresa a la pelea por la clasificación",
+          "url": "https://www.eluniverso.com/deportes/futbol/asi-quedo-la-tabla-de-posiciones-del-grupo-c-del-mundial-2026-brasil-goleo-a-haiti-y-regresa-a-la-pelea-por-la-clasificacion-nota/",
+          "source": "El Universo"
+        },
+        {
+          "title": "GRUPO C: BRASIL Y MARRUECOS ASEGURAN SU PASAJE",
+          "url": "https://onefootball.com/es/noticias/grupo-c-brasil-y-marruecos-aseguran-su-pasaje-43033552",
+          "source": "OneFootball"
+        },
+        {
+          "title": "Los Maestros | ¿Quién es la selección favorita en el Grupo C?",
+          "url": "https://www.tudn.com/mundial-2026/los-maestros-quien-es-la-seleccion-favorita-en-el-grupo-c-video",
+          "source": "TUDN"
+        }
+      ]
+    },
+    {
+      "query": "alemania vs costa de marfil",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Mundial 2026: Alemania pone a prueba su goleada inicial ante una ambiciosa Costa de Marfil",
+          "url": "https://www.ecuavisa.com/futbol-internacional/mundial-2026-alemania-costa-de-marfil-grupo-e-ecuador-curazao-20260619-0014.html",
+          "source": "Ecuavisa"
+        },
+        {
+          "title": "Nagelsmann defiende a Leroy Sané y advierte sobre la fortaleza física de Costa de Marfil",
+          "url": "https://holanews.com/nagelsmann-defiende-a-leroy-sane-y-advierte-sobre-la-fortaleza-fisica-de-costa-de-marfil/",
+          "source": "HolaNews"
+        },
+        {
+          "title": "Choque de vencedores",
+          "url": "https://www.ansalatina.com/americalatina/noticia/deportes/2026/06/20/choque-de-vencedores_24069247-5c4c-45aa-9d1e-3577c5d8fad5.html",
+          "source": "ANSA Latina"
+        }
+      ]
+    },
+    {
+      "query": "turquia vs paraguay pronostico",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "FIFA World Cup Group D LIVE: Turkey vs Paraguay - score, radio commentary, text updates & match stats",
+          "url": "https://www.bbc.com/sport/football/live/c2kyg22l2n7t",
+          "source": "BBC"
+        },
+        {
+          "title": "Türkiye was so close to the equalizer in stoppage time",
+          "url": "https://www.foxsports.com/watch-vertical/fmc-n9q34u04lcqp2lmb",
+          "source": "FOX Sports"
+        },
+        {
+          "title": "U.S. clinches Group D as 10-man Paraguay edges Turkey",
+          "url": "https://www.espn.com/soccer/story/_/id/49123488/us-clinches-group-d-10-man-paraguay-edges-turkey",
+          "source": "ESPN"
+        }
+      ]
+    },
+    {
+      "query": "copa mundial de fútbol de 2026",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Dónde ver Países Bajos vs. Suecia por el Grupo F del Mundial 2026: horario y qué canales lo transmiten",
+          "url": "https://www.elpais.com.uy/ovacion/mundial/donde-ver-paises-bajos-vs-suecia-por-el-grupo-f-del-mundial-2026-horario-y-que-canales-lo-transmiten",
+          "source": "EL PAÍS Uruguay"
+        },
+        {
+          "title": "Koeman: «No estamos asustados por Isak y Gyokeres»",
+          "url": "https://holanews.com/koeman-no-estamos-asustados-por-isak-y-gyokeres/",
+          "source": "HolaNews"
+        },
+        {
+          "title": "El sueco Lindelöf elogia calidad de van Dijk antes de duelo con Países Bajos",
+          "url": "https://es-us.noticias.yahoo.com/deportes/sueco-lindel%C3%B6f-elogia-calidad-dijk-222538982.html",
+          "source": "Yahoo"
+        }
+      ]
+    },
+    {
+      "query": "paraguay fc",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Paraguay&apos;s Almiron becomes first to be sent off for covering mouth",
+          "url": "https://www.espn.com/soccer/story/_/id/49123197/miguel-almiron-red-card-covering-mouth-paraguay-turkiye-2026-world-cup",
+          "source": "ESPN"
+        },
+        {
+          "title": "World Cup 2026: Paraguay&apos;s Miguel Almiron sent off for covering mouth while speaking to opponent",
+          "url": "https://www.bbc.com/sport/football/articles/cvg58m7n1plo",
+          "source": "BBC"
+        },
+        {
+          "title": "Paraguay win knocks out Turkey. Will Almirón’s mouth-covering red card serve as a reminder?",
+          "url": "https://www.nytimes.com/athletic/7378058/2026/06/20/paraguay-turkey-analysis-result-almiron-red-card/",
+          "source": "The New York Times"
+        }
+      ]
+    },
+    {
+      "query": "paraguay vs",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 10000,
+      "articles": [
+        {
+          "title": "Güler, fuera del Mundial",
+          "url": "https://as.com/futbol/mundial/guler-fuera-del-mundial-f202606-n/",
+          "source": "Diario AS"
+        },
+        {
+          "title": "Defensores del Chaco",
+          "url": "https://ladiaria.com.uy/deporte/articulo/2026/6/defensores-del-chaco/",
+          "source": "la diaria"
+        },
+        {
+          "title": "Paraguay 1-0 Turquía por el Mundial 2026: la Albirroja anotó a los 64 segundos, aguantó con 10 y eliminó a su rival",
+          "url": "https://www.elpais.com.uy/ovacion/mundial/paraguay-1-0-turquia-por-el-mundial-2026-resistio-con-diez-y-se-metio-en-la-pelea-del-grupo-d",
+          "source": "EL PAÍS Uruguay"
+        }
+      ]
+    },
+    {
+      "query": "neymar",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "El curioso mensaje de Neymar en pleno partido de Brasil ante Haití por el Mundial",
+          "url": "https://www.infobae.com/deportes/2026/06/20/el-curioso-mensaje-de-neymar-en-pleno-partido-de-brasil-ante-haiti-por-el-mundial/",
+          "source": "Infobae"
+        },
+        {
+          "title": "Malas noticias para Neymar de cara al segundo partido de Brasil en el Mundial 2026 ante Haití",
+          "url": "https://www.elobservador.com.uy/mundial-2026/malas-noticias-neymar-cara-al-segundo-partido-brasil-el-mundial-2026-haiti-n6047876",
+          "source": "El Observador"
+        },
+        {
+          "title": "Neymar con Brasil en el Mundial 2026: Por qué no juega, qué lesión tiene y cuándo vuelve con su Selección",
+          "url": "https://www.olympics.com/es/noticias/neymar-lesion-que-tiene",
+          "source": "Olympics"
+        }
+      ]
+    },
+    {
+      "query": "brasil haiti",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "Brazil vs Haiti Highlights | 2026 FIFA World Cup™",
+          "url": "https://www.foxsports.com/watch/fmc-p3htbhimvwtc6hxa",
+          "source": "FOX Sports"
+        },
+        {
+          "title": "Massive crowds gather in Philly for 2 high-profile World Cup matches Friday",
+          "url": "https://www.nbcphiladelphia.com/news/local/fifa-fan-fest-world-cup-philadelphia-brazil-haiti-stadium-lemon-hill/4420165/",
+          "source": "NBC10 Philadelphia"
+        },
+        {
+          "title": "World Cup in Philly: Local Haitian diaspora offers community events for game against Brazil",
+          "url": "https://billypenn.com/2026/06/18/fifa-world-cup-haiti-brazil-game-preview-philadelphia-stadium-haitian-diaspora-gou-restaurant/",
+          "source": "Billy Penn at WHYY"
+        }
+      ]
+    },
+    {
+      "query": "resultado do jogo do brasil ontem",
+      "geo": "BR",
+      "language": "pt",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "Veja os resultados dos jogos de quinta-feira (18) na Copa",
+          "url": "https://jornalopiniao.net/veja-os-resultados-dos-jogos-de-quinta-feira-18-na-copa/",
+          "source": "Jornal Opinião"
+        },
+        {
+          "title": "Copa do Mundo 2026: com hat-trick de Messi, Argentina goleia Argélia na estreia",
+          "url": "https://blogdojuares.com.br/noticia/101915/copa-do-mundo-2026-com-hat-trick-de-messi-argentina-goleia-argelia-na-estreia.html",
+          "source": "Blog do Juares"
+        }
+      ]
+    },
+    {
+      "query": "football maroc",
+      "geo": "FR",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "« Le Maroc considère que c&apos;est une conspiration » : confirmation du procès pour viol, sifflets du public écossais... le vendredi particulier d&apos;Achraf Hakimi à la Coupe du monde",
+          "url": "https://www.lequipe.fr/Football/Article/-le-pays-considere-que-c-est-une-conspiration-confirmation-du-proces-pour-viol-sifflets-du-public-ecossais-le-vendredi-particulier-d-achraf-hakimi-a-la-coupe-du-monde/1686615",
+          "source": "L&apos;Équipe"
+        },
+        {
+          "title": "Coupe du monde 2026: Hué à chaque ballon, Hakimi est \"très serein\"",
+          "url": "https://rmcsport.bfmtv.com/football/coupe-du-monde/coupe-du-monde-2026-hue-a-chaque-ballon-hakimi-est-tres-serein_AD-202606200051.html",
+          "source": "RMC Sport"
+        },
+        {
+          "title": "Achraf Hakimi, défenseur du PSG, sera jugé pour viol, confirme la cour d’appel de Versailles",
+          "url": "https://www.lemonde.fr/societe/article/2026/06/19/le-defenseur-du-psg-achraf-hakimi-sera-juge-pour-viol-confirme-la-cour-d-appel-de-versailles_6704929_3224.html",
+          "source": "Le Monde.fr"
+        }
+      ]
+    },
+    {
+      "query": "japon tunisie",
+      "geo": "FR",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "PRONOS PARIS RMC Le pari de folie du 20 juin - Coupe du Monde",
+          "url": "https://rmcsport.bfmtv.com/pari-sportif/pronos-paris-rmc-le-pari-de-folie-du-20-juin-coupe-du-monde_AN-202606190860.html",
+          "source": "RMC Sport"
+        },
+        {
+          "title": "Tunisie - Japon, Coupe du monde, match en direct le 21/06/2026",
+          "url": "https://www.lequipe.fr/Football/match-direct/coupe-du-monde/2026/tunisie-japon-live/686935",
+          "source": "L&apos;Équipe"
+        },
+        {
+          "title": "Tunisie – Japon | Pronostics, conseils et cotes | Coupe du Monde 2026",
+          "url": "https://www.eurosport.fr/paris-sportifs/pronostics/tunisie-japon-pronostics-conseils-et-cotes-coupe-du-monde-2026/",
+          "source": "Eurosport"
+        }
+      ]
+    },
+    {
+      "query": "rote karte hand vor mund",
+      "geo": "DE",
+      "language": "de",
+      "source": "google-trends-daily",
+      "score": 5000,
+      "articles": [
+        {
+          "title": "WM 2026: Türkei fliegt nach Drama gegen Paraguay raus",
+          "url": "https://www.sportschau.de/fussball/fifa-wm-2026/trotz-neuer-rot-regel-tuerkei-drama-bei-der-wm,wm-spielbericht-tuerkei-paraguay-100.html",
+          "source": "sportschau.de"
+        },
+        {
+          "title": "Fußball-WM: Warum es bei Hand vor dem Mund glatt Rot gibt",
+          "url": "https://www.stern.de/sport/fussball/wm2026/fussball-wm--warum-es-bei-hand-vor-dem-mund-glatt-rot-gibt-37574928.html",
+          "source": "STERN.de"
+        },
+        {
+          "title": "WM 2026: Völlig neue Rot-Regel sorgt für Platzverweis!",
+          "url": "https://www.bild.de/sport/fussball/wm-2026-voellig-neue-rot-regel-sorgt-fuer-platzverweis-6a360e087e682fc37fc01265",
+          "source": "BILD"
+        }
+      ]
+    },
+    {
+      "query": "miguel almirón",
+      "geo": "PT",
+      "language": "pt",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "World Cup 2026: Paraguay&apos;s Miguel Almiron sent off for covering mouth while speaking to opponent",
+          "url": "https://www.bbc.com/sport/football/articles/cvg58m7n1plo",
+          "source": "BBC"
+        },
+        {
+          "title": "Paraguay&apos;s Almiron becomes first to be sent off for covering mouth",
+          "url": "https://www.espn.com/soccer/story/_/id/49123197/miguel-almiron-red-card-covering-mouth-paraguay-turkiye-2026-world-cup",
+          "source": "ESPN"
+        },
+        {
+          "title": "\"Covered mouth with hand, received red card\" — this is the Vini rule! First-ever red card in World Cup history... Paraguay defeats Turkey 1-0",
+          "url": "https://www.starnewskorea.com/en/sports/2026/06/20/2026062014225320377",
+          "source": "스타뉴스"
+        }
+      ]
+    },
+    {
+      "query": "australia vs netherlands",
+      "geo": "AU",
+      "language": "en",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Australia v Netherlands: Women’s T20 World Cup 2026 – live",
+          "url": "https://www.theguardian.com/sport/live/2026/jun/20/australia-v-netherlands-womens-t20-cricket-world-cup-2026-live",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Gardner back for Aussies, Hamilton makes World Cup debut",
+          "url": "https://www.cricket.com.au/news/4522670/toss-teams-ashleigh-gardner-ankle-injury-litchfield-australia-v-netherlands-t20-world-cup-southampton-hamilton",
+          "source": "cricket.com.au"
+        },
+        {
+          "title": "Australia vs Netherlands LIVE: Women&apos;s T20 World Cup, Southampton - cricket score & commentary",
+          "url": "https://www.bbc.com/sport/cricket/live/cp8djprpmp5t",
+          "source": "BBC"
+        }
+      ]
+    },
+    {
+      "query": "les matchs de la coupe du monde 2026",
+      "geo": "MA",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Coupe du monde 2026 : programme et horaires des matchs du vendredi 19 juin",
+          "url": "https://www.lesnumeriques.com/evenement-sportif/coupe-du-monde-2026-programme-et-horaires-des-matchs-du-vendredi-19-juin-n257685.html",
+          "source": "Les Numériques"
+        },
+        {
+          "title": "Comment regarder la Coupe du monde depuis l&apos;étranger ? Tuto",
+          "url": "https://www.01net.com/bons-plans/comment-regarder-la-coupe-du-monde-2026-depuis-letranger-tuto.html",
+          "source": "01net.com"
+        },
+        {
+          "title": "Mondial 2026: voici le programme complet de la 2e journée de la phase des poules des 10 équipes africaines",
+          "url": "https://afrique.le360.ma/sports/mondial-2026-voici-le-programme-complet-de-la-2e-journee-de-la-phase-des-poules-des-10-equipes_ANSWP5S7ZVDRBPPW2ICTAMKJLQ/",
+          "source": "Le360 Afrique"
+        }
+      ]
+    },
+    {
+      "query": "classement équipe de turquie de football – équipe du paraguay de football",
+      "geo": "MA",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 5000,
+      "articles": [
+        {
+          "title": "Coupe du Monde 2026 : la désillusion est terrible pour la Turquie",
+          "url": "https://www.footmercato.net/a3272597773286994635-coupe-du-monde-2026-la-desillusion-est-terrible-pour-la-turquie",
+          "source": "Foot Mercato"
+        },
+        {
+          "title": "Le Paraguay inscrit le but le plus rapide de la Coupe du monde 2026 face à la Turquie",
+          "url": "https://www.lequipe.fr/Football/Actualites/Le-paraguay-inscrit-le-but-le-plus-rapide-de-la-coupe-du-monde-2026-face-a-la-turquie/1686606",
+          "source": "L&apos;Équipe"
+        },
+        {
+          "title": "Les journaux turcs sont « choqués » par l&apos;élimination précoce de leur équipe en Coupe du monde, et l&apos;entraîneur Montella est sur le point de perdre son poste.",
+          "url": "https://www.vietnam.vn/fr/bao-tho-nhi-ky-soc-nang-vi-doi-nha-bi-loai-som-khoi-world-cup-hlv-montella-sap-mat-viec",
+          "source": "Vietnam.vn"
+        }
+      ]
+    },
+    {
+      "query": "resultat coupe du monde 2026",
+      "geo": "MA",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": []
+    },
+    {
+      "query": "wc 2026",
+      "geo": "MA",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Nữ trọng tài viết nên lịch sử World Cup, &apos;món quà đặc biệt&apos; của Hàn Quốc... Trọng tâm của Nam Phi là cảnh cáo tích lũy, không thể chạy vòng 3",
+          "url": "https://www.starnewskorea.com/vi/sports/2026/06/19/2026061901182926108",
+          "source": "스타뉴스"
+        },
+        {
+          "title": "Tổ trọng tài nữ làm nên lịch sử trong ngày hội bóng đá World Cup 2026",
+          "url": "https://www.phunuonline.com.vn/to-trong-tai-nu-lam-nen-lich-su-trong-ngay-hoi-bong-da-world-cup-2026-a1585361.html",
+          "source": "Báo Phụ Nữ"
+        },
+        {
+          "title": "Nữ giám đốc đổi nghề, bỏ công ty hàng đầu thế giới để làm trọng tài World Cup",
+          "url": "https://vtcnews.vn/nu-giam-doc-doi-nghe-bo-cong-ty-hang-dau-the-gioi-de-lam-trong-tai-world-cup-ar1024500.html",
+          "source": "Báo điện tử VTC News"
+        }
+      ]
+    },
+    {
+      "query": "turkey vs",
+      "geo": "MA",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "U.S. clinches Group D as 10-man Paraguay edges Turkey",
+          "url": "https://www.espn.com/soccer/story/_/id/49123488/us-clinches-group-d-10-man-paraguay-edges-turkey",
+          "source": "ESPN"
+        },
+        {
+          "title": "Türkiye was so close to the equalizer in stoppage time",
+          "url": "https://www.foxsports.com/watch-vertical/fmc-n9q34u04lcqp2lmb",
+          "source": "FOX Sports"
+        },
+        {
+          "title": "Turkiye knocked out of World Cup 2026 after 1-0 defeat to 10-man Paraguay",
+          "url": "https://www.aljazeera.com/sports/2026/6/20/turkiye-knocked-out-of-world-cup-2026-after-1-0-defeat-to-10-man-paraguay",
+          "source": "Al Jazeera"
+        }
+      ]
+    },
+    {
+      "query": "fifa ranking national teams",
+      "geo": "MA",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "World Cup 2026 Power Rankings after one game: Who is No. 1?",
+          "url": "https://www.espn.com/soccer/story/_/id/49094186/fifa-world-cup-power-rankings-spain-brazil-germany-usa-mexico-england-argentina",
+          "source": "ESPN"
+        },
+        {
+          "title": "Co-hosts on the rise! Re-ranking the 48 World Cup teams after day eight - The Athletic",
+          "url": "https://www.nytimes.com/athletic/7329359/2026/06/17/world-cup-2026-teams-ranked/",
+          "source": "The New York Times"
+        },
+        {
+          "title": "From one to 48 - every World Cup team ranked after first game",
+          "url": "https://www.bbc.com/sport/football/articles/cn4djkzxygjo",
+          "source": "BBC"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "en": [
+      {
+        "query": "copa mundial de fútbol",
+        "score": 1400,
+        "geos": [
+          "US"
+        ],
+        "samples": [
+          {
+            "query": "copa mundial de fútbol",
+            "geo": "US",
+            "language": "en",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "Los aficionados al Mundial se quedan alucinados con las «recargas gratis» en Estados Unidos, ¡la Generación Z se lleva un premio gordo en Las Vegas y CARNE!",
+                "url": "https://noticias.foxnews.com/outkick-sports/world-cup-fans-blown-away-free-refills-united-states-gen-z-hits-massive-vegas-pot-meat",
+                "source": "Fox News"
+              },
+              {
+                "title": "Turistas europeos se vuelven virales al descubrir la cultura estadounidense durante el Mundial 2026",
+                "url": "https://cnnespanol.cnn.com/2026/06/16/eeuu/video/turistas-mundial-2026-virales-trax",
+                "source": "CNN en Español"
+              },
+              {
+                "title": "Los visitantes de la Copa del Mundo se están volviendo locos con estos alimentos estadounidenses.",
+                "url": "https://es.qz.com/visitantes-del-mundial-perdiendo-la-cabeza-por-comidas-americanas",
+                "source": "es.qz.com"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "australia vs netherlands",
+        "score": 350,
+        "geos": [
+          "AU"
+        ],
+        "samples": [
+          {
+            "query": "australia vs netherlands",
+            "geo": "AU",
+            "language": "en",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Australia v Netherlands: Women’s T20 World Cup 2026 – live",
+                "url": "https://www.theguardian.com/sport/live/2026/jun/20/australia-v-netherlands-womens-t20-cricket-world-cup-2026-live",
+                "source": "The Guardian"
+              },
+              {
+                "title": "Gardner back for Aussies, Hamilton makes World Cup debut",
+                "url": "https://www.cricket.com.au/news/4522670/toss-teams-ashleigh-gardner-ankle-injury-litchfield-australia-v-netherlands-t20-world-cup-southampton-hamilton",
+                "source": "cricket.com.au"
+              },
+              {
+                "title": "Australia vs Netherlands LIVE: Women&apos;s T20 World Cup, Southampton - cricket score & commentary",
+                "url": "https://www.bbc.com/sport/cricket/live/cp8djprpmp5t",
+                "source": "BBC"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "netherlands vs sweden",
+        "score": 240,
+        "geos": [
+          "CA"
+        ],
+        "samples": [
+          {
+            "query": "netherlands vs sweden",
+            "geo": "CA",
+            "language": "en",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "World Cup what to know: Netherlands, Sweden face off as group stage reaches halfway point",
+                "url": "https://www.tsn.ca/soccer/fifa-world-cup/article/world-cup-what-to-know-netherlands-sweden-face-off-as-group-stage-reaches-halfway-point/",
+                "source": "TSN"
+              },
+              {
+                "title": "Sweden XI vs Netherlands – Predicted lineup and team news",
+                "url": "https://ca.sports.yahoo.com/news/sweden-xi-vs-netherlands-predicted-052000495.html",
+                "source": "Yahoo Sports Canada"
+              },
+              {
+                "title": "World Cup 2026: Netherlands vs Sweden prediction, schedules, key highlights",
+                "url": "https://www.aljazeera.com/sports/2026/6/20/world-cup-2026-netherlands-vs-sweden-prediction-schedules-key-highlights",
+                "source": "Al Jazeera"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "turkey fifa ranking",
+        "score": 120,
+        "geos": [
+          "CA"
+        ],
+        "samples": [
+          {
+            "query": "turkey fifa ranking",
+            "geo": "CA",
+            "language": "en",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "World Cup 2026: What is Turkiye’s current FIFA world ranking?",
+                "url": "https://worldsoccertalk.com/world-cup/world-cup-2026-what-is-turkiye-current-fifa-world-ranking/",
+                "source": "World Soccer Talk"
+              },
+              {
+                "title": "Turkiye and Paraguay’s FIFA rankings updated for 2026 World Cup game",
+                "url": "https://bolavip.com/en/world-cup/turkiye-and-paraguays-fifa-rankings-updated-for-2026-world-cup-game",
+                "source": "Bolavip US"
+              },
+              {
+                "title": "World Cup 2026: What is Paraguay’s current FIFA world ranking?",
+                "url": "https://worldsoccertalk.com/world-cup/world-cup-2026-what-is-paraguay-current-fifa-world-ranking/",
+                "source": "World Soccer Talk"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "es": [
+      {
+        "query": "paraguay vs",
+        "score": 9000,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "paraguay vs",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 10000,
+            "articles": [
+              {
+                "title": "Güler, fuera del Mundial",
+                "url": "https://as.com/futbol/mundial/guler-fuera-del-mundial-f202606-n/",
+                "source": "Diario AS"
+              },
+              {
+                "title": "Defensores del Chaco",
+                "url": "https://ladiaria.com.uy/deporte/articulo/2026/6/defensores-del-chaco/",
+                "source": "la diaria"
+              },
+              {
+                "title": "Paraguay 1-0 Turquía por el Mundial 2026: la Albirroja anotó a los 64 segundos, aguantó con 10 y eliminó a su rival",
+                "url": "https://www.elpais.com.uy/ovacion/mundial/paraguay-1-0-turquia-por-el-mundial-2026-resistio-con-diez-y-se-metio-en-la-pelea-del-grupo-d",
+                "source": "EL PAÍS Uruguay"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "paraguay fc",
+        "score": 5180,
+        "geos": [
+          "CO",
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "paraguay fc",
+            "geo": "CO",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 5000,
+            "articles": [
+              {
+                "title": "World Cup 2026: Paraguay&apos;s Miguel Almiron sent off for covering mouth while speaking to opponent",
+                "url": "https://www.bbc.com/sport/football/articles/cvg58m7n1plo",
+                "source": "BBC"
+              },
+              {
+                "title": "What is the World Cup rule around covering your mouth?",
+                "url": "https://news.bet365.com/en-gb/article/what-is-the-world-cup-rule-around-covering-your-mouth/2026062007522615126",
+                "source": "news.bet365.com"
+              },
+              {
+                "title": "🚨 The \"Prestianni rule\" leads to a red card at the World Cup!",
+                "url": "https://onefootball.com/fr/news/the-prestianni-rule-leads-to-a-red-card-at-the-world-cup-43033610",
+                "source": "OneFootball"
+              }
+            ]
+          },
+          {
+            "query": "paraguay fc",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Paraguay&apos;s Almiron becomes first to be sent off for covering mouth",
+                "url": "https://www.espn.com/soccer/story/_/id/49123197/miguel-almiron-red-card-covering-mouth-paraguay-turkiye-2026-world-cup",
+                "source": "ESPN"
+              },
+              {
+                "title": "World Cup 2026: Paraguay&apos;s Miguel Almiron sent off for covering mouth while speaking to opponent",
+                "url": "https://www.bbc.com/sport/football/articles/cvg58m7n1plo",
+                "source": "BBC"
+              },
+              {
+                "title": "Paraguay win knocks out Turkey. Will Almirón’s mouth-covering red card serve as a reminder?",
+                "url": "https://www.nytimes.com/athletic/7378058/2026/06/20/paraguay-turkey-analysis-result-almiron-red-card/",
+                "source": "The New York Times"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "miguel almirón",
+        "score": 4600,
+        "geos": [
+          "AR",
+          "CO"
+        ],
+        "samples": [
+          {
+            "query": "miguel almirón",
+            "geo": "AR",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "La insólita roja de Almirón en Paraguay vs. Turquía por la \"ley Prestianni\"",
+                "url": "https://www.tycsports.com/mundial/miguel-almiron-paraguay-expulsion-taparse-la-boca-ley-prestianni-turquia-mundial-2026-id737292.html",
+                "source": "TyC Sports"
+              },
+              {
+                "title": "Video: la primera expulsión a un jugador por taparse la boca en el Mundial 2026",
+                "url": "https://www.ole.com.ar/mundial/mundial-2026/video-primera-expulsion-jugador-taparse-boca-mundial-2026_0_3EOFEYhGR4.html",
+                "source": "Olé"
+              },
+              {
+                "title": "Debutó la Ley Prestiani en el Mundial 2026: roja a Miguel Almirón por taparse la boca",
+                "url": "https://www.rionegro.com.ar/deportes/debuto-la-ley-prestiani-en-el-mundial-2026-roja-a-miguel-almiron-por-taparse-la-boca-4618751/",
+                "source": "Diario Río Negro"
+              }
+            ]
+          },
+          {
+            "query": "miguel almirón",
+            "geo": "CO",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "Histórico Almirón, expulsado por taparse la boca",
+                "url": "https://as.com/futbol/mundial/historico-almiron-expulsado-por-taparse-la-boca-f202606-n/",
+                "source": "Diario AS"
+              },
+              {
+                "title": "¡Se aplicó la ley Prestianni! La insólita roja que recibió Miguel Almirón en el Mundial 2026",
+                "url": "https://www.elespectador.com/deportes/mundial-2026/turquia-vs-paraguay-en-vivo-siga-el-minuto-a-minuto-del-partido-del-mundial-2026-2/",
+                "source": "El Espectador"
+              },
+              {
+                "title": "Paraguay se quedó con un hombre menos ante Turquía",
+                "url": "https://www.winsports.co/futbol-internacional/noticias/paraguay-se-quedo-con-un-hombre-menos-ante-turquia-440116",
+                "source": "Win Sports"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "copa mundial de fútbol de 2026",
+        "score": 1980,
+        "geos": [
+          "PE",
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "copa mundial de fútbol de 2026",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "Mundial 2026, últimas noticias en directo | Estados Unidos y México, los primeros en sacarse el billete para dieciseisavos, mientras Haití dice adiós al torneo",
+                "url": "https://elpais.com/deportes/mundial-futbol/2026-06-20/resumen-y-ultimas-noticias-de-la-copa-mundial-de-futbol.html",
+                "source": "EL PAÍS"
+              },
+              {
+                "title": "USA clasifica, Brasil líder de grupo: ¿Qué pasó hoy en el Mundial?",
+                "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16873732/mundial-2024-que-paso-dia-9-datos-del-dia-partidos-de-hoy-20-de-junio",
+                "source": "ESPN Argentina"
+              },
+              {
+                "title": "Raphinha se lesiona, Marruecos vive de Saibari y expulsan a Almirón por hacer un &apos;Prestianni&apos;: esto es lo que te perdiste esta noche en el Mundial",
+                "url": "https://www.sport.es/es/noticias/mundial-futbol/raphinha-lesiona-marruecos-vive-saibari-131620326",
+                "source": "SPORT"
+              }
+            ]
+          },
+          {
+            "query": "copa mundial de fútbol de 2026",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Dónde ver Países Bajos vs. Suecia por el Grupo F del Mundial 2026: horario y qué canales lo transmiten",
+                "url": "https://www.elpais.com.uy/ovacion/mundial/donde-ver-paises-bajos-vs-suecia-por-el-grupo-f-del-mundial-2026-horario-y-que-canales-lo-transmiten",
+                "source": "EL PAÍS Uruguay"
+              },
+              {
+                "title": "Koeman: «No estamos asustados por Isak y Gyokeres»",
+                "url": "https://holanews.com/koeman-no-estamos-asustados-por-isak-y-gyokeres/",
+                "source": "HolaNews"
+              },
+              {
+                "title": "El sueco Lindelöf elogia calidad de van Dijk antes de duelo con Países Bajos",
+                "url": "https://es-us.noticias.yahoo.com/deportes/sueco-lindel%C3%B6f-elogia-calidad-dijk-222538982.html",
+                "source": "Yahoo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "brasil haiti",
+        "score": 1800,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "brasil haiti",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "Brazil vs Haiti Highlights | 2026 FIFA World Cup™",
+                "url": "https://www.foxsports.com/watch/fmc-p3htbhimvwtc6hxa",
+                "source": "FOX Sports"
+              },
+              {
+                "title": "Massive crowds gather in Philly for 2 high-profile World Cup matches Friday",
+                "url": "https://www.nbcphiladelphia.com/news/local/fifa-fan-fest-world-cup-philadelphia-brazil-haiti-stadium-lemon-hill/4420165/",
+                "source": "NBC10 Philadelphia"
+              },
+              {
+                "title": "World Cup in Philly: Local Haitian diaspora offers community events for game against Brazil",
+                "url": "https://billypenn.com/2026/06/18/fifa-world-cup-haiti-brazil-game-preview-philadelphia-stadium-haitian-diaspora-gou-restaurant/",
+                "source": "Billy Penn at WHYY"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "türkiye vs paraguay",
+        "score": 900,
+        "geos": [
+          "CL"
+        ],
+        "samples": [
+          {
+            "query": "türkiye vs paraguay",
+            "geo": "CL",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "FIFA World Cup Group D LIVE: Turkey vs Paraguay - score, radio commentary, text updates & match stats",
+                "url": "https://www.bbc.com/sport/football/live/c2kyg22l2n7t",
+                "source": "BBC"
+              },
+              {
+                "title": "Paraguay&apos;s 10-man win gives Socceroos a simple equation",
+                "url": "https://sportnation.nz/article/paraguays-10-man-win-gives-socceroos-a-simple-equation",
+                "source": "Sport Nation"
+              },
+              {
+                "title": "Hours after Morocco&apos;s Ismael Saibari delivers fastest goal of 2026 World Cup, Paraguay&apos;s Matias Galarza sets new record",
+                "url": "https://sports.yahoo.com/soccer/breaking-news/article/hours-after-moroccos-ismael-saibari-delivers-fastest-goal-of-2026-world-cup-paraguays-matias-galarza-sets-new-record-224107077.html",
+                "source": "Yahoo Sports"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "ley prestianni",
+        "score": 900,
+        "geos": [
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "ley prestianni",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "Miguel Almirón, expulsado por una nueva regla en el Mundial 2026",
+                "url": "https://www.espn.com.pe/futbol/mundial/nota/_/id/16873541/video-miguel-almiron-expulsado-regla-nueva-turquia-vs-paraguay-mundial-2026",
+                "source": "espn.com.pe"
+              },
+              {
+                "title": "Una estrella del Mundial fue expulsada por taparle la boca a un rival por primera vez en la historia",
+                "url": "https://www.ucvradio.pe/deporte/una-estrella-del-mundial-fue-expulsada-por-taparle-la-boca-a-un-rival-por-primera-vez-en-la-historia/231089/",
+                "source": "ucvradio.pe"
+              },
+              {
+                "title": "Miguel Almirón se fue expulsado por la &apos;Ley Prestianni&apos; en pleno Mundial: ¿qué siginifica esta regla?",
+                "url": "https://libero.pe/futbol-internacional/2026/06/19/paraguay-vs-turquia-miguel-almiron-fue-expulsado-regla-de-ley-prestianni-en-pleno-mundial-2026-siginifica-regla-1303495",
+                "source": "Diario Libero"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "turquia vs paraguay pronostico",
+        "score": 800,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "turquia vs paraguay pronostico",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "FIFA World Cup Group D LIVE: Turkey vs Paraguay - score, radio commentary, text updates & match stats",
+                "url": "https://www.bbc.com/sport/football/live/c2kyg22l2n7t",
+                "source": "BBC"
+              },
+              {
+                "title": "Türkiye was so close to the equalizer in stoppage time",
+                "url": "https://www.foxsports.com/watch-vertical/fmc-n9q34u04lcqp2lmb",
+                "source": "FOX Sports"
+              },
+              {
+                "title": "U.S. clinches Group D as 10-man Paraguay edges Turkey",
+                "url": "https://www.espn.com/soccer/story/_/id/49123488/us-clinches-group-d-10-man-paraguay-edges-turkey",
+                "source": "ESPN"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "calhanoglu",
+        "score": 750,
+        "geos": [
+          "AR",
+          "CO"
+        ],
+        "samples": [
+          {
+            "query": "calhanoglu",
+            "geo": "AR",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "‘Everybody’s crying’: Turkey crash out as 10-man Paraguay hang on for World Cup win",
+                "url": "https://www.theguardian.com/football/2026/jun/20/turkey-paraguay-world-cup-2026-group-d-match-report",
+                "source": "The Guardian"
+              },
+              {
+                "title": "Turkey’s World Cup was a gigantic disappointment",
+                "url": "https://www.barcablaugranes.com/world-cup-2026/124019/turkey-world-cup-was-a-gigantic-disappointment",
+                "source": "Barca Blaugranes"
+              },
+              {
+                "title": "World Cup 2026: Two countries eliminated from tournament",
+                "url": "https://dailypost.ng/2026/06/20/world-cup-2026-two-countries-eliminated-from-tournament/",
+                "source": "Daily Post Nigeria"
+              }
+            ]
+          },
+          {
+            "query": "calhanoglu",
+            "geo": "CO",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "‘Everybody’s crying’: Turkey crash out as 10-man Paraguay hang on for World Cup win",
+                "url": "https://www.theguardian.com/football/2026/jun/20/turkey-paraguay-world-cup-2026-group-d-match-report",
+                "source": "The Guardian"
+              },
+              {
+                "title": "Turkey’s World Cup was a gigantic disappointment",
+                "url": "https://www.barcablaugranes.com/world-cup-2026/124019/turkey-world-cup-was-a-gigantic-disappointment",
+                "source": "Barca Blaugranes"
+              },
+              {
+                "title": "World Cup 2026: Two countries eliminated from tournament",
+                "url": "https://dailypost.ng/2026/06/20/world-cup-2026-two-countries-eliminated-from-tournament/",
+                "source": "Daily Post Nigeria"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "arda guler",
+        "score": 680,
+        "geos": [
+          "CO",
+          "CL"
+        ],
+        "samples": [
+          {
+            "query": "arda guler",
+            "geo": "CO",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "El lamento de Güler: \"Estamos muy tristes y avergonzados, pedimos perdón a toda nuestra gente\"",
+                "url": "https://www.marca.com/futbol/mundial/2026/06/20/lamento-gueler-tristes-avergonzados-pedimos-perdon-toda-nuestra-gente.html",
+                "source": "MARCA"
+              },
+              {
+                "title": "Turquía decepcionó en el Mundial 2026: quedó eliminada y sus figuras no gravitaron",
+                "url": "https://www.espn.com.co/futbol/mundial/nota/_/id/16873928/turquia-segundo-eliminado-del-mundial-2026-decepcion",
+                "source": "ESPN Colombia"
+              },
+              {
+                "title": "Un exfutbolista turco explota tras la eliminación del Mundial: 4′ que no tienen pérdida alguna",
+                "url": "https://as.com/futbol/videos/un-exfutbolista-turco-explota-tras-la-eliminacion-del-mundial-4-que-no-tienen-perdida-alguna-f202606-v/",
+                "source": "Diario AS"
+              }
+            ]
+          },
+          {
+            "query": "arda guler",
+            "geo": "CL",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "El lamento de Güler: \"Estamos muy tristes y avergonzados, pedimos perdón a toda nuestra gente\"",
+                "url": "https://www.marca.com/futbol/mundial/2026/06/20/lamento-gueler-tristes-avergonzados-pedimos-perdon-toda-nuestra-gente.html",
+                "source": "MARCA"
+              },
+              {
+                "title": "Turquía decepcionó en el Mundial 2026: quedó eliminada y sus figuras no gravitaron",
+                "url": "https://www.espn.cl/futbol/mundial/nota/_/id/16873928/turquia-segundo-eliminado-del-mundial-2026-decepcion",
+                "source": "ESPN Chile"
+              },
+              {
+                "title": "Un exfutbolista turco explota tras la eliminación del Mundial: 4′ que no tienen pérdida alguna",
+                "url": "https://as.com/futbol/videos/un-exfutbolista-turco-explota-tras-la-eliminacion-del-mundial-4-que-no-tienen-perdida-alguna-f202606-v/",
+                "source": "Diario AS"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "arbitro paraguay turquia",
+        "score": 260,
+        "geos": [
+          "AR"
+        ],
+        "samples": [
+          {
+            "query": "arbitro paraguay turquia",
+            "geo": "AR",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Iván Barton listo para su debut: El salvadoreño liderará el arbitraje del Paraguay vs. Turquía en el Mundial 2026",
+                "url": "https://www.infobae.com/el-salvador/2026/06/19/ivan-barton-listo-para-su-debut-el-salvadoreno-liderara-el-arbitraje-del-paraguay-vs-turquia-en-el-mundial-2026/",
+                "source": "Infobae"
+              },
+              {
+                "title": "¿Quién es el árbitro de Paraguay vs. Turquía hoy por el Mundial 2026?",
+                "url": "https://bolavip.com/ar/mundial/quien-es-el-arbitro-de-paraguay-vs-turquia-hoy-por-el-mundial-2026",
+                "source": "Bolavip Argentina"
+              },
+              {
+                "title": "El árbitro de Paraguay ante Turquía",
+                "url": "https://d10.ultimahora.com/el-arbitro-de-paraguay-ante-turquia",
+                "source": "D10"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "turkia",
+        "score": 260,
+        "geos": [
+          "AR"
+        ],
+        "samples": [
+          {
+            "query": "turkia",
+            "geo": "AR",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "U.S. clinches Group D as 10-man Paraguay edges Turkey",
+                "url": "https://www.espn.com/soccer/story/_/id/49123488/us-clinches-group-d-10-man-paraguay-edges-turkey",
+                "source": "ESPN"
+              },
+              {
+                "title": "Türkiye was so close to the equalizer in stoppage time",
+                "url": "https://www.foxsports.com/watch-vertical/fmc-n9q34u04lcqp2lmb",
+                "source": "FOX Sports"
+              },
+              {
+                "title": "Turkiye knocked out of World Cup 2026 after 1-0 defeat to 10-man Paraguay",
+                "url": "https://www.aljazeera.com/sports/2026/6/20/turkiye-knocked-out-of-world-cup-2026-after-1-0-defeat-to-10-man-paraguay",
+                "source": "Al Jazeera"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "países bajos vs. japón",
+        "score": 180,
+        "geos": [
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "países bajos vs. japón",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Japón castiga a Koeman",
+                "url": "https://as.com/futbol/mundial/japon-castiga-a-koeman-f202606-n/",
+                "source": "Diario AS"
+              },
+              {
+                "title": "Países Bajos igualó el récord de invicto en los Mundiales establecido por la Brasil de Pelé",
+                "url": "https://rpp.pe/futbol/mundial-2026/mundial-2026-paises-bajos-igualo-el-record-de-invicto-establecido-por-la-brasil-de-pele-noticia-1693045",
+                "source": "RPP"
+              },
+              {
+                "title": "Así le hemos contado el empate entre Países Bajos y Japón en la fase de grupos del Mundial 2026",
+                "url": "https://elpais.com/deportes/mundial-futbol/2026-06-14/paises-bajos-japon-en-directo-partido-del-grupo-f-del-mundial-2026-en-vivo.html",
+                "source": "EL PAÍS"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "copa mundial fifa 2026",
+        "score": 180,
+        "geos": [
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "copa mundial fifa 2026",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Tori Penso, la árbitro principal del República Checa vs Sudáfrica en el Mundial 2026",
+                "url": "https://www.americatv.com.pe/deportes/futbol-mundial/conoce-tori-penso-arbitro-estadounidense-chequia-vs-sudafrica-mundial-2026-n454542",
+                "source": "América TV"
+              },
+              {
+                "title": "La árbitra que escribió historia en la Copa Mundial envía un &apos;regalo de primer nivel&apos; a Corea: el núcleo de Sudáfrica acumula una advertencia y no jugará en el tercer partido.",
+                "url": "https://www.starnewskorea.com/es/sports/2026/06/19/2026061901182926108",
+                "source": "스타뉴스"
+              },
+              {
+                "title": "Tori Penso, la árbitra inolvidable para La Roja, que ha hecho historia en este Mundial",
+                "url": "https://as.com/futbol/femenino/tori-penso-la-arbitra-inolvidable-para-la-roja-que-ha-hecho-historia-en-el-mundial-f202606-n/",
+                "source": "Diario AS"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "grupos del mundial 2026",
+        "score": 180,
+        "geos": [
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "grupos del mundial 2026",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Mundial 2026: los clasificados a 16avos. de final",
+                "url": "https://www.espn.com.pe/futbol/mundial/nota/_/id/16857698/mundial-2026-16avos-de-final-clasificados",
+                "source": "espn.com.pe"
+              },
+              {
+                "title": "¿Qué equipos ya clasificaron y cuáles fueron eliminados del Mundial 2026?",
+                "url": "https://www.si.com/es-us/futbol/las-selecciones-ya-clasificadas-y-eliminadas-a-los-16avos-de-final-del-mundial-2026",
+                "source": "Sports Illustrated"
+              },
+              {
+                "title": "Estas son las selecciones clasificadas a dieciseisavos de final del Mundial 2026 | Fútbol | Deportes",
+                "url": "https://www.eluniverso.com/deportes/futbol/cruces-y-llaves-del-mundial-clasificados-a-dieciseisavos-de-final-del-mundial-2026-nota/",
+                "source": "El Universo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "ecuador vs curazao",
+        "score": 180,
+        "geos": [
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "ecuador vs curazao",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Kansas City es Tricolor: el banderazo de Ecuador en la previa del partido ante Curazao por el Mundial",
+                "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16873681/banderazo-ecuador-kansas-city-previa-vs-curazao-mundial-2026",
+                "source": "ESPN Deportes"
+              },
+              {
+                "title": "Ecuador vs. Curazao, por el Grupo E del Mundial 2026: previa, alineaciones, hora y cómo ver por TV e internet",
+                "url": "https://cnnespanol.cnn.com/2026/06/19/deportes/ecuador-curazao-grupoe-mundial-2026-orix",
+                "source": "CNN en Español"
+              },
+              {
+                "title": "Dick Advocaat: \"Jugar un Mundial ya es motivo de orgullo para Curazao\"",
+                "url": "https://ovacion.pe/noticias/mundial-2026/dick-advocaat-jugar-un-mundial-ya-motivo-orgullo-curazao",
+                "source": "ovacion.pe"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "neymar",
+        "score": 180,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "neymar",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "El curioso mensaje de Neymar en pleno partido de Brasil ante Haití por el Mundial",
+                "url": "https://www.infobae.com/deportes/2026/06/20/el-curioso-mensaje-de-neymar-en-pleno-partido-de-brasil-ante-haiti-por-el-mundial/",
+                "source": "Infobae"
+              },
+              {
+                "title": "Malas noticias para Neymar de cara al segundo partido de Brasil en el Mundial 2026 ante Haití",
+                "url": "https://www.elobservador.com.uy/mundial-2026/malas-noticias-neymar-cara-al-segundo-partido-brasil-el-mundial-2026-haiti-n6047876",
+                "source": "El Observador"
+              },
+              {
+                "title": "Neymar con Brasil en el Mundial 2026: Por qué no juega, qué lesión tiene y cuándo vuelve con su Selección",
+                "url": "https://www.olympics.com/es/noticias/neymar-lesion-que-tiene",
+                "source": "Olympics"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "tabla de posiciones del mundial 2026",
+        "score": 160,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "tabla de posiciones del mundial 2026",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Así quedó la tabla de posiciones del Grupo C del Mundial 2026: Brasil goleó a Haití y regresa a la pelea por la clasificación",
+                "url": "https://www.eluniverso.com/deportes/futbol/asi-quedo-la-tabla-de-posiciones-del-grupo-c-del-mundial-2026-brasil-goleo-a-haiti-y-regresa-a-la-pelea-por-la-clasificacion-nota/",
+                "source": "El Universo"
+              },
+              {
+                "title": "GRUPO C: BRASIL Y MARRUECOS ASEGURAN SU PASAJE",
+                "url": "https://onefootball.com/es/noticias/grupo-c-brasil-y-marruecos-aseguran-su-pasaje-43033552",
+                "source": "OneFootball"
+              },
+              {
+                "title": "Los Maestros | ¿Quién es la selección favorita en el Grupo C?",
+                "url": "https://www.tudn.com/mundial-2026/los-maestros-quien-es-la-seleccion-favorita-en-el-grupo-c-video",
+                "source": "TUDN"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "alemania vs costa de marfil",
+        "score": 160,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "alemania vs costa de marfil",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Mundial 2026: Alemania pone a prueba su goleada inicial ante una ambiciosa Costa de Marfil",
+                "url": "https://www.ecuavisa.com/futbol-internacional/mundial-2026-alemania-costa-de-marfil-grupo-e-ecuador-curazao-20260619-0014.html",
+                "source": "Ecuavisa"
+              },
+              {
+                "title": "Nagelsmann defiende a Leroy Sané y advierte sobre la fortaleza física de Costa de Marfil",
+                "url": "https://holanews.com/nagelsmann-defiende-a-leroy-sane-y-advierte-sobre-la-fortaleza-fisica-de-costa-de-marfil/",
+                "source": "HolaNews"
+              },
+              {
+                "title": "Choque de vencedores",
+                "url": "https://www.ansalatina.com/americalatina/noticia/deportes/2026/06/20/choque-de-vencedores_24069247-5c4c-45aa-9d1e-3577c5d8fad5.html",
+                "source": "ANSA Latina"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "eliminados del mundial 2026",
+        "score": 140,
+        "geos": [
+          "MX"
+        ],
+        "samples": [
+          {
+            "query": "eliminados del mundial 2026",
+            "geo": "MX",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Estos son los eliminados del Mundial 2026, al momento",
+                "url": "https://www.record.com.mx/historia/estos-son-los-eliminados-del-mundial-2026-al-momento-2026062004434101975",
+                "source": "Récord"
+              },
+              {
+                "title": "OFICIAL: El primer ELIMINADO del Mundial 2026",
+                "url": "https://www.tvazteca.com/aztecadeportes/haiti-eliminado-mundial-2026-tras-perder-brasil/",
+                "source": "TV Azteca"
+              },
+              {
+                "title": "Los haitianos lamentan derrota de su equipo ante el Brasil de sus sueños",
+                "url": "https://es-us.noticias.yahoo.com/deportes/haitianos-lamentan-derrota-equipo-brasil-053424501.html",
+                "source": "Yahoo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "turquía vs. paraguay arbitro",
+        "score": 100,
+        "geos": [
+          "CO"
+        ],
+        "samples": [
+          {
+            "query": "turquía vs. paraguay arbitro",
+            "geo": "CO",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Iván Barton listo para su debut: El salvadoreño liderará el arbitraje del Paraguay vs. Turquía en el Mundial 2026",
+                "url": "https://www.infobae.com/el-salvador/2026/06/19/ivan-barton-listo-para-su-debut-el-salvadoreno-liderara-el-arbitraje-del-paraguay-vs-turquia-en-el-mundial-2026/",
+                "source": "Infobae"
+              },
+              {
+                "title": "¿Quién es el árbitro de Paraguay vs. Turquía hoy por el Mundial 2026?",
+                "url": "https://bolavip.com/ar/mundial/quien-es-el-arbitro-de-paraguay-vs-turquia-hoy-por-el-mundial-2026",
+                "source": "Bolavip Argentina"
+              },
+              {
+                "title": "El árbitro de Paraguay ante Turquía",
+                "url": "https://d10.ultimahora.com/el-arbitro-de-paraguay-ante-turquia",
+                "source": "D10"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "tunez vs japon",
+        "score": 90,
+        "geos": [
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "tunez vs japon",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Japón vs Túnez EN VIVO: se enfrentan en Monterrey por la fecha del 2 Mundial 2026",
+                "url": "https://rpp.pe/futbol/mundial-2026/japon-vs-tunez-en-vivo-directv-como-ver-transmision-online-fecha-2-mundial-2026-fifa-partidos-de-hoy-seo-noticia-1693843",
+                "source": "RPP"
+              },
+              {
+                "title": "Túnez - Japón: hora y canales dónde ver el partido por el Mundial 2026",
+                "url": "https://larepublica.pe/deportes/2026/06/20/tunez-japon-hora-y-canales-donde-ver-el-partido-por-el-mundial-2026-1500810",
+                "source": "La República"
+              },
+              {
+                "title": "Tunez vs Japon: ¡Juega en el Torneo mundial y gana con la Mundo Mania de Meridianbet!",
+                "url": "https://ovacion.pe/noticias/nota-promocional/tunez-vs-japon-juega-torneo-mundial-gana-mundo-mania-meridianbet",
+                "source": "ovacion.pe"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "fifa world cup 2026™",
+        "score": 90,
+        "geos": [
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "fifa world cup 2026™",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "FIFA Sound climbs the world’s charts | Official FIFA World Cup 2026™ Album",
+                "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/fifa-sound-ignites-a-global-music-movement-climbs-the-worlds-charts",
+                "source": "FIFA"
+              },
+              {
+                "title": "10 football tournament anthems for the ages - ranked!",
+                "url": "https://www.rte.ie/culture/2026/0620/1578524-10-football-tournament-anthems-for-the-ages-ranked/",
+                "source": "RTE.ie"
+              },
+              {
+                "title": "Olé! Allez! Go! World Cup Songs That Make the Earth Move",
+                "url": "https://www.popmatters.com/world-cup-songs-ole-allez-go",
+                "source": "PopMatters"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "pt": [
+      {
+        "query": "resultado do jogo do brasil ontem",
+        "score": 2600,
+        "geos": [
+          "BR"
+        ],
+        "samples": [
+          {
+            "query": "resultado do jogo do brasil ontem",
+            "geo": "BR",
+            "language": "pt",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "Veja os resultados dos jogos de quinta-feira (18) na Copa",
+                "url": "https://jornalopiniao.net/veja-os-resultados-dos-jogos-de-quinta-feira-18-na-copa/",
+                "source": "Jornal Opinião"
+              },
+              {
+                "title": "Copa do Mundo 2026: com hat-trick de Messi, Argentina goleia Argélia na estreia",
+                "url": "https://blogdojuares.com.br/noticia/101915/copa-do-mundo-2026-com-hat-trick-de-messi-argentina-goleia-argelia-na-estreia.html",
+                "source": "Blog do Juares"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "miguel almirón",
+        "score": 500,
+        "geos": [
+          "PT"
+        ],
+        "samples": [
+          {
+            "query": "miguel almirón",
+            "geo": "PT",
+            "language": "pt",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "World Cup 2026: Paraguay&apos;s Miguel Almiron sent off for covering mouth while speaking to opponent",
+                "url": "https://www.bbc.com/sport/football/articles/cvg58m7n1plo",
+                "source": "BBC"
+              },
+              {
+                "title": "Paraguay&apos;s Almiron becomes first to be sent off for covering mouth",
+                "url": "https://www.espn.com/soccer/story/_/id/49123197/miguel-almiron-red-card-covering-mouth-paraguay-turkiye-2026-world-cup",
+                "source": "ESPN"
+              },
+              {
+                "title": "\"Covered mouth with hand, received red card\" — this is the Vini rule! First-ever red card in World Cup history... Paraguay defeats Turkey 1-0",
+                "url": "https://www.starnewskorea.com/en/sports/2026/06/20/2026062014225320377",
+                "source": "스타뉴스"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "fr": [
+      {
+        "query": "classement équipe de turquie de football – équipe du paraguay de football",
+        "score": 4500,
+        "geos": [
+          "MA"
+        ],
+        "samples": [
+          {
+            "query": "classement équipe de turquie de football – équipe du paraguay de football",
+            "geo": "MA",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 5000,
+            "articles": [
+              {
+                "title": "Coupe du Monde 2026 : la désillusion est terrible pour la Turquie",
+                "url": "https://www.footmercato.net/a3272597773286994635-coupe-du-monde-2026-la-desillusion-est-terrible-pour-la-turquie",
+                "source": "Foot Mercato"
+              },
+              {
+                "title": "Le Paraguay inscrit le but le plus rapide de la Coupe du monde 2026 face à la Turquie",
+                "url": "https://www.lequipe.fr/Football/Actualites/Le-paraguay-inscrit-le-but-le-plus-rapide-de-la-coupe-du-monde-2026-face-a-la-turquie/1686606",
+                "source": "L&apos;Équipe"
+              },
+              {
+                "title": "Les journaux turcs sont « choqués » par l&apos;élimination précoce de leur équipe en Coupe du monde, et l&apos;entraîneur Montella est sur le point de perdre son poste.",
+                "url": "https://www.vietnam.vn/fr/bao-tho-nhi-ky-soc-nang-vi-doi-nha-bi-loai-som-khoi-world-cup-hlv-montella-sap-mat-viec",
+                "source": "Vietnam.vn"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "football maroc",
+        "score": 2000,
+        "geos": [
+          "FR"
+        ],
+        "samples": [
+          {
+            "query": "football maroc",
+            "geo": "FR",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "« Le Maroc considère que c&apos;est une conspiration » : confirmation du procès pour viol, sifflets du public écossais... le vendredi particulier d&apos;Achraf Hakimi à la Coupe du monde",
+                "url": "https://www.lequipe.fr/Football/Article/-le-pays-considere-que-c-est-une-conspiration-confirmation-du-proces-pour-viol-sifflets-du-public-ecossais-le-vendredi-particulier-d-achraf-hakimi-a-la-coupe-du-monde/1686615",
+                "source": "L&apos;Équipe"
+              },
+              {
+                "title": "Coupe du monde 2026: Hué à chaque ballon, Hakimi est \"très serein\"",
+                "url": "https://rmcsport.bfmtv.com/football/coupe-du-monde/coupe-du-monde-2026-hue-a-chaque-ballon-hakimi-est-tres-serein_AD-202606200051.html",
+                "source": "RMC Sport"
+              },
+              {
+                "title": "Achraf Hakimi, défenseur du PSG, sera jugé pour viol, confirme la cour d’appel de Versailles",
+                "url": "https://www.lemonde.fr/societe/article/2026/06/19/le-defenseur-du-psg-achraf-hakimi-sera-juge-pour-viol-confirme-la-cour-d-appel-de-versailles_6704929_3224.html",
+                "source": "Le Monde.fr"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "turkey vs",
+        "score": 1800,
+        "geos": [
+          "MA"
+        ],
+        "samples": [
+          {
+            "query": "turkey vs",
+            "geo": "MA",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "U.S. clinches Group D as 10-man Paraguay edges Turkey",
+                "url": "https://www.espn.com/soccer/story/_/id/49123488/us-clinches-group-d-10-man-paraguay-edges-turkey",
+                "source": "ESPN"
+              },
+              {
+                "title": "Türkiye was so close to the equalizer in stoppage time",
+                "url": "https://www.foxsports.com/watch-vertical/fmc-n9q34u04lcqp2lmb",
+                "source": "FOX Sports"
+              },
+              {
+                "title": "Turkiye knocked out of World Cup 2026 after 1-0 defeat to 10-man Paraguay",
+                "url": "https://www.aljazeera.com/sports/2026/6/20/turkiye-knocked-out-of-world-cup-2026-after-1-0-defeat-to-10-man-paraguay",
+                "source": "Al Jazeera"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "resultat coupe du monde 2026",
+        "score": 900,
+        "geos": [
+          "MA"
+        ],
+        "samples": [
+          {
+            "query": "resultat coupe du monde 2026",
+            "geo": "MA",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": []
+          }
+        ]
+      },
+      {
+        "query": "japon tunisie",
+        "score": 200,
+        "geos": [
+          "FR"
+        ],
+        "samples": [
+          {
+            "query": "japon tunisie",
+            "geo": "FR",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "PRONOS PARIS RMC Le pari de folie du 20 juin - Coupe du Monde",
+                "url": "https://rmcsport.bfmtv.com/pari-sportif/pronos-paris-rmc-le-pari-de-folie-du-20-juin-coupe-du-monde_AN-202606190860.html",
+                "source": "RMC Sport"
+              },
+              {
+                "title": "Tunisie - Japon, Coupe du monde, match en direct le 21/06/2026",
+                "url": "https://www.lequipe.fr/Football/match-direct/coupe-du-monde/2026/tunisie-japon-live/686935",
+                "source": "L&apos;Équipe"
+              },
+              {
+                "title": "Tunisie – Japon | Pronostics, conseils et cotes | Coupe du Monde 2026",
+                "url": "https://www.eurosport.fr/paris-sportifs/pronostics/tunisie-japon-pronostics-conseils-et-cotes-coupe-du-monde-2026/",
+                "source": "Eurosport"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "les matchs de la coupe du monde 2026",
+        "score": 90,
+        "geos": [
+          "MA"
+        ],
+        "samples": [
+          {
+            "query": "les matchs de la coupe du monde 2026",
+            "geo": "MA",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Coupe du monde 2026 : programme et horaires des matchs du vendredi 19 juin",
+                "url": "https://www.lesnumeriques.com/evenement-sportif/coupe-du-monde-2026-programme-et-horaires-des-matchs-du-vendredi-19-juin-n257685.html",
+                "source": "Les Numériques"
+              },
+              {
+                "title": "Comment regarder la Coupe du monde depuis l&apos;étranger ? Tuto",
+                "url": "https://www.01net.com/bons-plans/comment-regarder-la-coupe-du-monde-2026-depuis-letranger-tuto.html",
+                "source": "01net.com"
+              },
+              {
+                "title": "Mondial 2026: voici le programme complet de la 2e journée de la phase des poules des 10 équipes africaines",
+                "url": "https://afrique.le360.ma/sports/mondial-2026-voici-le-programme-complet-de-la-2e-journee-de-la-phase-des-poules-des-10-equipes_ANSWP5S7ZVDRBPPW2ICTAMKJLQ/",
+                "source": "Le360 Afrique"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "wc 2026",
+        "score": 90,
+        "geos": [
+          "MA"
+        ],
+        "samples": [
+          {
+            "query": "wc 2026",
+            "geo": "MA",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Nữ trọng tài viết nên lịch sử World Cup, &apos;món quà đặc biệt&apos; của Hàn Quốc... Trọng tâm của Nam Phi là cảnh cáo tích lũy, không thể chạy vòng 3",
+                "url": "https://www.starnewskorea.com/vi/sports/2026/06/19/2026061901182926108",
+                "source": "스타뉴스"
+              },
+              {
+                "title": "Tổ trọng tài nữ làm nên lịch sử trong ngày hội bóng đá World Cup 2026",
+                "url": "https://www.phunuonline.com.vn/to-trong-tai-nu-lam-nen-lich-su-trong-ngay-hoi-bong-da-world-cup-2026-a1585361.html",
+                "source": "Báo Phụ Nữ"
+              },
+              {
+                "title": "Nữ giám đốc đổi nghề, bỏ công ty hàng đầu thế giới để làm trọng tài World Cup",
+                "url": "https://vtcnews.vn/nu-giam-doc-doi-nghe-bo-cong-ty-hang-dau-the-gioi-de-lam-trong-tai-world-cup-ar1024500.html",
+                "source": "Báo điện tử VTC News"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "fifa ranking national teams",
+        "score": 90,
+        "geos": [
+          "MA"
+        ],
+        "samples": [
+          {
+            "query": "fifa ranking national teams",
+            "geo": "MA",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "World Cup 2026 Power Rankings after one game: Who is No. 1?",
+                "url": "https://www.espn.com/soccer/story/_/id/49094186/fifa-world-cup-power-rankings-spain-brazil-germany-usa-mexico-england-argentina",
+                "source": "ESPN"
+              },
+              {
+                "title": "Co-hosts on the rise! Re-ranking the 48 World Cup teams after day eight - The Athletic",
+                "url": "https://www.nytimes.com/athletic/7329359/2026/06/17/world-cup-2026-teams-ranked/",
+                "source": "The New York Times"
+              },
+              {
+                "title": "From one to 48 - every World Cup team ranked after first game",
+                "url": "https://www.bbc.com/sport/football/articles/cn4djkzxygjo",
+                "source": "BBC"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "de": [
+      {
+        "query": "rote karte hand vor mund",
+        "score": 5000,
+        "geos": [
+          "DE"
+        ],
+        "samples": [
+          {
+            "query": "rote karte hand vor mund",
+            "geo": "DE",
+            "language": "de",
+            "source": "google-trends-daily",
+            "score": 5000,
+            "articles": [
+              {
+                "title": "WM 2026: Türkei fliegt nach Drama gegen Paraguay raus",
+                "url": "https://www.sportschau.de/fussball/fifa-wm-2026/trotz-neuer-rot-regel-tuerkei-drama-bei-der-wm,wm-spielbericht-tuerkei-paraguay-100.html",
+                "source": "sportschau.de"
+              },
+              {
+                "title": "Fußball-WM: Warum es bei Hand vor dem Mund glatt Rot gibt",
+                "url": "https://www.stern.de/sport/fussball/wm2026/fussball-wm--warum-es-bei-hand-vor-dem-mund-glatt-rot-gibt-37574928.html",
+                "source": "STERN.de"
+              },
+              {
+                "title": "WM 2026: Völlig neue Rot-Regel sorgt für Platzverweis!",
+                "url": "https://www.bild.de/sport/fussball/wm-2026-voellig-neue-rot-regel-sorgt-fuer-platzverweis-6a360e087e682fc37fc01265",
+                "source": "BILD"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "topic": "rote karte hand vor mund",
+      "type": "noticia",
+      "slugSuggestion": "rote-karte-hand-vor-mund",
+      "language": "de",
+      "geos": [
+        "DE"
+      ],
+      "score": 6000,
+      "reason": "Google Trends daily DE con 5,000 búsquedas · 3 artículos noticiosos referenciando \"rote karte hand vor mund\"",
+      "proposedPath": "/noticias/rote-karte-hand-vor-mund",
+      "evidence": [
+        {
+          "query": "rote karte hand vor mund",
+          "geo": "DE",
+          "language": "de",
+          "source": "google-trends-daily",
+          "score": 5000,
+          "articles": [
+            {
+              "title": "WM 2026: Türkei fliegt nach Drama gegen Paraguay raus",
+              "url": "https://www.sportschau.de/fussball/fifa-wm-2026/trotz-neuer-rot-regel-tuerkei-drama-bei-der-wm,wm-spielbericht-tuerkei-paraguay-100.html",
+              "source": "sportschau.de"
+            },
+            {
+              "title": "Fußball-WM: Warum es bei Hand vor dem Mund glatt Rot gibt",
+              "url": "https://www.stern.de/sport/fussball/wm2026/fussball-wm--warum-es-bei-hand-vor-dem-mund-glatt-rot-gibt-37574928.html",
+              "source": "STERN.de"
+            },
+            {
+              "title": "WM 2026: Völlig neue Rot-Regel sorgt für Platzverweis!",
+              "url": "https://www.bild.de/sport/fussball/wm-2026-voellig-neue-rot-regel-sorgt-fuer-platzverweis-6a360e087e682fc37fc01265",
+              "source": "BILD"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "miguel almirón",
+      "type": "noticia",
+      "slugSuggestion": "miguel-almiron",
+      "language": "es",
+      "geos": [
+        "AR",
+        "CO"
+      ],
+      "score": 5520,
+      "reason": "Google Trends daily AR con 2,000 búsquedas · 3 artículos noticiosos referenciando \"miguel almirón\"",
+      "proposedPath": "/noticias/miguel-almiron",
+      "evidence": [
+        {
+          "query": "miguel almirón",
+          "geo": "AR",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 2000,
+          "articles": [
+            {
+              "title": "La insólita roja de Almirón en Paraguay vs. Turquía por la \"ley Prestianni\"",
+              "url": "https://www.tycsports.com/mundial/miguel-almiron-paraguay-expulsion-taparse-la-boca-ley-prestianni-turquia-mundial-2026-id737292.html",
+              "source": "TyC Sports"
+            },
+            {
+              "title": "Video: la primera expulsión a un jugador por taparse la boca en el Mundial 2026",
+              "url": "https://www.ole.com.ar/mundial/mundial-2026/video-primera-expulsion-jugador-taparse-boca-mundial-2026_0_3EOFEYhGR4.html",
+              "source": "Olé"
+            },
+            {
+              "title": "Debutó la Ley Prestiani en el Mundial 2026: roja a Miguel Almirón por taparse la boca",
+              "url": "https://www.rionegro.com.ar/deportes/debuto-la-ley-prestiani-en-el-mundial-2026-roja-a-miguel-almiron-por-taparse-la-boca-4618751/",
+              "source": "Diario Río Negro"
+            }
+          ]
+        },
+        {
+          "query": "miguel almirón",
+          "geo": "CO",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 2000,
+          "articles": [
+            {
+              "title": "Histórico Almirón, expulsado por taparse la boca",
+              "url": "https://as.com/futbol/mundial/historico-almiron-expulsado-por-taparse-la-boca-f202606-n/",
+              "source": "Diario AS"
+            },
+            {
+              "title": "¡Se aplicó la ley Prestianni! La insólita roja que recibió Miguel Almirón en el Mundial 2026",
+              "url": "https://www.elespectador.com/deportes/mundial-2026/turquia-vs-paraguay-en-vivo-siga-el-minuto-a-minuto-del-partido-del-mundial-2026-2/",
+              "source": "El Espectador"
+            },
+            {
+              "title": "Paraguay se quedó con un hombre menos ante Turquía",
+              "url": "https://www.winsports.co/futbol-internacional/noticias/paraguay-se-quedo-con-un-hombre-menos-ante-turquia-440116",
+              "source": "Win Sports"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "classement équipe de turquie de football – équipe du paraguay de football",
+      "type": "noticia",
+      "slugSuggestion": "classement-equipe-de-turquie-de-football-equipe-du-paraguay-de-football",
+      "language": "fr",
+      "geos": [
+        "MA"
+      ],
+      "score": 5400,
+      "reason": "Google Trends daily MA con 5,000 búsquedas · 3 artículos noticiosos referenciando \"classement équipe de turquie de football – équipe du paraguay de football\"",
+      "proposedPath": "/noticias/classement-equipe-de-turquie-de-football-equipe-du-paraguay-de-football",
+      "evidence": [
+        {
+          "query": "classement équipe de turquie de football – équipe du paraguay de football",
+          "geo": "MA",
+          "language": "fr",
+          "source": "google-trends-daily",
+          "score": 5000,
+          "articles": [
+            {
+              "title": "Coupe du Monde 2026 : la désillusion est terrible pour la Turquie",
+              "url": "https://www.footmercato.net/a3272597773286994635-coupe-du-monde-2026-la-desillusion-est-terrible-pour-la-turquie",
+              "source": "Foot Mercato"
+            },
+            {
+              "title": "Le Paraguay inscrit le but le plus rapide de la Coupe du monde 2026 face à la Turquie",
+              "url": "https://www.lequipe.fr/Football/Actualites/Le-paraguay-inscrit-le-but-le-plus-rapide-de-la-coupe-du-monde-2026-face-a-la-turquie/1686606",
+              "source": "L&apos;Équipe"
+            },
+            {
+              "title": "Les journaux turcs sont « choqués » par l&apos;élimination précoce de leur équipe en Coupe du monde, et l&apos;entraîneur Montella est sur le point de perdre son poste.",
+              "url": "https://www.vietnam.vn/fr/bao-tho-nhi-ky-soc-nang-vi-doi-nha-bi-loai-som-khoi-world-cup-hlv-montella-sap-mat-viec",
+              "source": "Vietnam.vn"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "football maroc",
+      "type": "noticia",
+      "slugSuggestion": "football-maroc",
+      "language": "fr",
+      "geos": [
+        "FR"
+      ],
+      "score": 2400,
+      "reason": "Google Trends daily FR con 2,000 búsquedas · 3 artículos noticiosos referenciando \"football maroc\"",
+      "proposedPath": "/noticias/football-maroc",
+      "evidence": [
+        {
+          "query": "football maroc",
+          "geo": "FR",
+          "language": "fr",
+          "source": "google-trends-daily",
+          "score": 2000,
+          "articles": [
+            {
+              "title": "« Le Maroc considère que c&apos;est une conspiration » : confirmation du procès pour viol, sifflets du public écossais... le vendredi particulier d&apos;Achraf Hakimi à la Coupe du monde",
+              "url": "https://www.lequipe.fr/Football/Article/-le-pays-considere-que-c-est-une-conspiration-confirmation-du-proces-pour-viol-sifflets-du-public-ecossais-le-vendredi-particulier-d-achraf-hakimi-a-la-coupe-du-monde/1686615",
+              "source": "L&apos;Équipe"
+            },
+            {
+              "title": "Coupe du monde 2026: Hué à chaque ballon, Hakimi est \"très serein\"",
+              "url": "https://rmcsport.bfmtv.com/football/coupe-du-monde/coupe-du-monde-2026-hue-a-chaque-ballon-hakimi-est-tres-serein_AD-202606200051.html",
+              "source": "RMC Sport"
+            },
+            {
+              "title": "Achraf Hakimi, défenseur du PSG, sera jugé pour viol, confirme la cour d’appel de Versailles",
+              "url": "https://www.lemonde.fr/societe/article/2026/06/19/le-defenseur-du-psg-achraf-hakimi-sera-juge-pour-viol-confirme-la-cour-d-appel-de-versailles_6704929_3224.html",
+              "source": "Le Monde.fr"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "turkey vs",
+      "type": "noticia",
+      "slugSuggestion": "turkey-vs",
+      "language": "fr",
+      "geos": [
+        "MA"
+      ],
+      "score": 2160,
+      "reason": "Google Trends daily MA con 2,000 búsquedas · 3 artículos noticiosos referenciando \"turkey vs\"",
+      "proposedPath": "/noticias/turkey-vs",
+      "evidence": [
+        {
+          "query": "turkey vs",
+          "geo": "MA",
+          "language": "fr",
+          "source": "google-trends-daily",
+          "score": 2000,
+          "articles": [
+            {
+              "title": "U.S. clinches Group D as 10-man Paraguay edges Turkey",
+              "url": "https://www.espn.com/soccer/story/_/id/49123488/us-clinches-group-d-10-man-paraguay-edges-turkey",
+              "source": "ESPN"
+            },
+            {
+              "title": "Türkiye was so close to the equalizer in stoppage time",
+              "url": "https://www.foxsports.com/watch-vertical/fmc-n9q34u04lcqp2lmb",
+              "source": "FOX Sports"
+            },
+            {
+              "title": "Turkiye knocked out of World Cup 2026 after 1-0 defeat to 10-man Paraguay",
+              "url": "https://www.aljazeera.com/sports/2026/6/20/turkiye-knocked-out-of-world-cup-2026-after-1-0-defeat-to-10-man-paraguay",
+              "source": "Al Jazeera"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "türkiye vs paraguay",
+      "type": "noticia",
+      "slugSuggestion": "turkiye-vs-paraguay",
+      "language": "es",
+      "geos": [
+        "CL"
+      ],
+      "score": 1080,
+      "reason": "Google Trends daily CL con 1,000 búsquedas · 3 artículos noticiosos referenciando \"türkiye vs paraguay\"",
+      "proposedPath": "/noticias/turkiye-vs-paraguay",
+      "evidence": [
+        {
+          "query": "türkiye vs paraguay",
+          "geo": "CL",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 1000,
+          "articles": [
+            {
+              "title": "FIFA World Cup Group D LIVE: Turkey vs Paraguay - score, radio commentary, text updates & match stats",
+              "url": "https://www.bbc.com/sport/football/live/c2kyg22l2n7t",
+              "source": "BBC"
+            },
+            {
+              "title": "Paraguay&apos;s 10-man win gives Socceroos a simple equation",
+              "url": "https://sportnation.nz/article/paraguays-10-man-win-gives-socceroos-a-simple-equation",
+              "source": "Sport Nation"
+            },
+            {
+              "title": "Hours after Morocco&apos;s Ismael Saibari delivers fastest goal of 2026 World Cup, Paraguay&apos;s Matias Galarza sets new record",
+              "url": "https://sports.yahoo.com/soccer/breaking-news/article/hours-after-moroccos-ismael-saibari-delivers-fastest-goal-of-2026-world-cup-paraguays-matias-galarza-sets-new-record-224107077.html",
+              "source": "Yahoo Sports"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "ley prestianni",
+      "type": "noticia",
+      "slugSuggestion": "ley-prestianni",
+      "language": "es",
+      "geos": [
+        "PE"
+      ],
+      "score": 1080,
+      "reason": "Google Trends daily PE con 1,000 búsquedas · 3 artículos noticiosos referenciando \"ley prestianni\"",
+      "proposedPath": "/noticias/ley-prestianni",
+      "evidence": [
+        {
+          "query": "ley prestianni",
+          "geo": "PE",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 1000,
+          "articles": [
+            {
+              "title": "Miguel Almirón, expulsado por una nueva regla en el Mundial 2026",
+              "url": "https://www.espn.com.pe/futbol/mundial/nota/_/id/16873541/video-miguel-almiron-expulsado-regla-nueva-turquia-vs-paraguay-mundial-2026",
+              "source": "espn.com.pe"
+            },
+            {
+              "title": "Una estrella del Mundial fue expulsada por taparle la boca a un rival por primera vez en la historia",
+              "url": "https://www.ucvradio.pe/deporte/una-estrella-del-mundial-fue-expulsada-por-taparle-la-boca-a-un-rival-por-primera-vez-en-la-historia/231089/",
+              "source": "ucvradio.pe"
+            },
+            {
+              "title": "Miguel Almirón se fue expulsado por la &apos;Ley Prestianni&apos; en pleno Mundial: ¿qué siginifica esta regla?",
+              "url": "https://libero.pe/futbol-internacional/2026/06/19/paraguay-vs-turquia-miguel-almiron-fue-expulsado-regla-de-ley-prestianni-en-pleno-mundial-2026-siginifica-regla-1303495",
+              "source": "Diario Libero"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "calhanoglu",
+      "type": "noticia",
+      "slugSuggestion": "calhanoglu",
+      "language": "es",
+      "geos": [
+        "AR",
+        "CO"
+      ],
+      "score": 900,
+      "reason": "Google Trends daily AR con 500 búsquedas · 3 artículos noticiosos referenciando \"calhanoglu\"",
+      "proposedPath": "/noticias/calhanoglu",
+      "evidence": [
+        {
+          "query": "calhanoglu",
+          "geo": "AR",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 500,
+          "articles": [
+            {
+              "title": "‘Everybody’s crying’: Turkey crash out as 10-man Paraguay hang on for World Cup win",
+              "url": "https://www.theguardian.com/football/2026/jun/20/turkey-paraguay-world-cup-2026-group-d-match-report",
+              "source": "The Guardian"
+            },
+            {
+              "title": "Turkey’s World Cup was a gigantic disappointment",
+              "url": "https://www.barcablaugranes.com/world-cup-2026/124019/turkey-world-cup-was-a-gigantic-disappointment",
+              "source": "Barca Blaugranes"
+            },
+            {
+              "title": "World Cup 2026: Two countries eliminated from tournament",
+              "url": "https://dailypost.ng/2026/06/20/world-cup-2026-two-countries-eliminated-from-tournament/",
+              "source": "Daily Post Nigeria"
+            }
+          ]
+        },
+        {
+          "query": "calhanoglu",
+          "geo": "CO",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 100,
+          "articles": [
+            {
+              "title": "‘Everybody’s crying’: Turkey crash out as 10-man Paraguay hang on for World Cup win",
+              "url": "https://www.theguardian.com/football/2026/jun/20/turkey-paraguay-world-cup-2026-group-d-match-report",
+              "source": "The Guardian"
+            },
+            {
+              "title": "Turkey’s World Cup was a gigantic disappointment",
+              "url": "https://www.barcablaugranes.com/world-cup-2026/124019/turkey-world-cup-was-a-gigantic-disappointment",
+              "source": "Barca Blaugranes"
+            },
+            {
+              "title": "World Cup 2026: Two countries eliminated from tournament",
+              "url": "https://dailypost.ng/2026/06/20/world-cup-2026-two-countries-eliminated-from-tournament/",
+              "source": "Daily Post Nigeria"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "miguel almirón",
+      "type": "noticia",
+      "slugSuggestion": "miguel-almiron",
+      "language": "pt",
+      "geos": [
+        "PT"
+      ],
+      "score": 600,
+      "reason": "Google Trends daily PT con 500 búsquedas · 3 artículos noticiosos referenciando \"miguel almirón\"",
+      "proposedPath": "/noticias/miguel-almiron",
+      "evidence": [
+        {
+          "query": "miguel almirón",
+          "geo": "PT",
+          "language": "pt",
+          "source": "google-trends-daily",
+          "score": 500,
+          "articles": [
+            {
+              "title": "World Cup 2026: Paraguay&apos;s Miguel Almiron sent off for covering mouth while speaking to opponent",
+              "url": "https://www.bbc.com/sport/football/articles/cvg58m7n1plo",
+              "source": "BBC"
+            },
+            {
+              "title": "Paraguay&apos;s Almiron becomes first to be sent off for covering mouth",
+              "url": "https://www.espn.com/soccer/story/_/id/49123197/miguel-almiron-red-card-covering-mouth-paraguay-turkiye-2026-world-cup",
+              "source": "ESPN"
+            },
+            {
+              "title": "\"Covered mouth with hand, received red card\" — this is the Vini rule! First-ever red card in World Cup history... Paraguay defeats Turkey 1-0",
+              "url": "https://www.starnewskorea.com/en/sports/2026/06/20/2026062014225320377",
+              "source": "스타뉴스"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "turkia",
+      "type": "noticia",
+      "slugSuggestion": "turkia",
+      "language": "es",
+      "geos": [
+        "AR"
+      ],
+      "score": 312,
+      "reason": "Google Trends daily AR con 200 búsquedas · 3 artículos noticiosos referenciando \"turkia\"",
+      "proposedPath": "/noticias/turkia",
+      "evidence": [
+        {
+          "query": "turkia",
+          "geo": "AR",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "U.S. clinches Group D as 10-man Paraguay edges Turkey",
+              "url": "https://www.espn.com/soccer/story/_/id/49123488/us-clinches-group-d-10-man-paraguay-edges-turkey",
+              "source": "ESPN"
+            },
+            {
+              "title": "Türkiye was so close to the equalizer in stoppage time",
+              "url": "https://www.foxsports.com/watch-vertical/fmc-n9q34u04lcqp2lmb",
+              "source": "FOX Sports"
+            },
+            {
+              "title": "Turkiye knocked out of World Cup 2026 after 1-0 defeat to 10-man Paraguay",
+              "url": "https://www.aljazeera.com/sports/2026/6/20/turkiye-knocked-out-of-world-cup-2026-after-1-0-defeat-to-10-man-paraguay",
+              "source": "Al Jazeera"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "japon tunisie",
+      "type": "noticia",
+      "slugSuggestion": "japon-tunisie",
+      "language": "fr",
+      "geos": [
+        "FR"
+      ],
+      "score": 240,
+      "reason": "Google Trends daily FR con 200 búsquedas · 3 artículos noticiosos referenciando \"japon tunisie\"",
+      "proposedPath": "/noticias/japon-tunisie",
+      "evidence": [
+        {
+          "query": "japon tunisie",
+          "geo": "FR",
+          "language": "fr",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "PRONOS PARIS RMC Le pari de folie du 20 juin - Coupe du Monde",
+              "url": "https://rmcsport.bfmtv.com/pari-sportif/pronos-paris-rmc-le-pari-de-folie-du-20-juin-coupe-du-monde_AN-202606190860.html",
+              "source": "RMC Sport"
+            },
+            {
+              "title": "Tunisie - Japon, Coupe du monde, match en direct le 21/06/2026",
+              "url": "https://www.lequipe.fr/Football/match-direct/coupe-du-monde/2026/tunisie-japon-live/686935",
+              "source": "L&apos;Équipe"
+            },
+            {
+              "title": "Tunisie – Japon | Pronostics, conseils et cotes | Coupe du Monde 2026",
+              "url": "https://www.eurosport.fr/paris-sportifs/pronostics/tunisie-japon-pronostics-conseils-et-cotes-coupe-du-monde-2026/",
+              "source": "Eurosport"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "turkey fifa ranking",
+      "type": "noticia",
+      "slugSuggestion": "turkey-fifa-ranking",
+      "language": "en",
+      "geos": [
+        "CA"
+      ],
+      "score": 144,
+      "reason": "Google Trends daily CA con 100 búsquedas · 3 artículos noticiosos referenciando \"turkey fifa ranking\"",
+      "proposedPath": "/noticias/turkey-fifa-ranking",
+      "evidence": [
+        {
+          "query": "turkey fifa ranking",
+          "geo": "CA",
+          "language": "en",
+          "source": "google-trends-daily",
+          "score": 100,
+          "articles": [
+            {
+              "title": "World Cup 2026: What is Turkiye’s current FIFA world ranking?",
+              "url": "https://worldsoccertalk.com/world-cup/world-cup-2026-what-is-turkiye-current-fifa-world-ranking/",
+              "source": "World Soccer Talk"
+            },
+            {
+              "title": "Turkiye and Paraguay’s FIFA rankings updated for 2026 World Cup game",
+              "url": "https://bolavip.com/en/world-cup/turkiye-and-paraguays-fifa-rankings-updated-for-2026-world-cup-game",
+              "source": "Bolavip US"
+            },
+            {
+              "title": "World Cup 2026: What is Paraguay’s current FIFA world ranking?",
+              "url": "https://worldsoccertalk.com/world-cup/world-cup-2026-what-is-paraguay-current-fifa-world-ranking/",
+              "source": "World Soccer Talk"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "fifa ranking national teams",
+      "type": "noticia",
+      "slugSuggestion": "fifa-ranking-national-teams",
+      "language": "fr",
+      "geos": [
+        "MA"
+      ],
+      "score": 108,
+      "reason": "Google Trends daily MA con 100 búsquedas · 3 artículos noticiosos referenciando \"fifa ranking national teams\"",
+      "proposedPath": "/noticias/fifa-ranking-national-teams",
+      "evidence": [
+        {
+          "query": "fifa ranking national teams",
+          "geo": "MA",
+          "language": "fr",
+          "source": "google-trends-daily",
+          "score": 100,
+          "articles": [
+            {
+              "title": "World Cup 2026 Power Rankings after one game: Who is No. 1?",
+              "url": "https://www.espn.com/soccer/story/_/id/49094186/fifa-world-cup-power-rankings-spain-brazil-germany-usa-mexico-england-argentina",
+              "source": "ESPN"
+            },
+            {
+              "title": "Co-hosts on the rise! Re-ranking the 48 World Cup teams after day eight - The Athletic",
+              "url": "https://www.nytimes.com/athletic/7329359/2026/06/17/world-cup-2026-teams-ranked/",
+              "source": "The New York Times"
+            },
+            {
+              "title": "From one to 48 - every World Cup team ranked after first game",
+              "url": "https://www.bbc.com/sport/football/articles/cn4djkzxygjo",
+              "source": "BBC"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alreadyCovered": [
+    {
+      "query": "copa mundial de fútbol",
+      "matchUrl": "/noticias/lamine-yamal-primer-mundial-2026-espana-17-anos-eurocopa"
+    },
+    {
+      "query": "eliminados del mundial 2026",
+      "matchUrl": "/coleccionismo/panini-mundial-2026"
+    },
+    {
+      "query": "netherlands vs sweden",
+      "matchUrl": "/noticias/cuando-juega-paises-bajos-mundial-2026-horarios-donde-ver-tv"
+    },
+    {
+      "query": "arbitro paraguay turquia",
+      "matchUrl": "/noticias/turquia-paraguay-resultado-mundial-2026"
+    },
+    {
+      "query": "turquía vs. paraguay arbitro",
+      "matchUrl": "/noticias/turquia-paraguay-resultado-mundial-2026"
+    },
+    {
+      "query": "arda guler",
+      "matchUrl": "/noticias/arda-guler-kenan-yildiz-turquia-mundial-2026-primer-mundial-20-anos-real-madrid-juventus"
+    },
+    {
+      "query": "paraguay fc",
+      "matchUrl": "/noticias/turquia-paraguay-resultado-mundial-2026"
+    },
+    {
+      "query": "arda guler",
+      "matchUrl": "/noticias/arda-guler-kenan-yildiz-turquia-mundial-2026-primer-mundial-20-anos-real-madrid-juventus"
+    },
+    {
+      "query": "países bajos vs. japón",
+      "matchUrl": "/noticias/cuando-juega-paises-bajos-mundial-2026-horarios-donde-ver-tv"
+    },
+    {
+      "query": "copa mundial de fútbol de 2026",
+      "matchUrl": "/coleccionismo/panini-mundial-2026"
+    },
+    {
+      "query": "copa mundial fifa 2026",
+      "matchUrl": "/coleccionismo/panini-mundial-2026"
+    },
+    {
+      "query": "grupos del mundial 2026",
+      "matchUrl": "/2026/grupos"
+    },
+    {
+      "query": "tunez vs japon",
+      "matchUrl": "/noticias/convocatoria-japon-mundial-2026-moriyasu-26-endo-kubo-mitoma-grupo-f-paises-bajos-tunez-suecia"
+    },
+    {
+      "query": "fifa world cup 2026™",
+      "matchUrl": "/noticias/cesped-mundial-2026-tecnologia-maquinas-fifa"
+    },
+    {
+      "query": "ecuador vs curazao",
+      "matchUrl": "/noticias/curazao-mundial-2026-pais-mas-pequeno-158000-habitantes-grupo-e-alemania-marfil-ecuador"
+    },
+    {
+      "query": "tabla de posiciones del mundial 2026",
+      "matchUrl": "/coleccionismo/panini-mundial-2026"
+    },
+    {
+      "query": "alemania vs costa de marfil",
+      "matchUrl": "/noticias/h2h-costa-marfil-ecuador-mundial-2026-grupo-e"
+    },
+    {
+      "query": "turquia vs paraguay pronostico",
+      "matchUrl": "/noticias/turquia-paraguay-resultado-mundial-2026"
+    },
+    {
+      "query": "copa mundial de fútbol de 2026",
+      "matchUrl": "/coleccionismo/panini-mundial-2026"
+    },
+    {
+      "query": "paraguay fc",
+      "matchUrl": "/noticias/turquia-paraguay-resultado-mundial-2026"
+    },
+    {
+      "query": "paraguay vs",
+      "matchUrl": "/noticias/turquia-paraguay-resultado-mundial-2026"
+    },
+    {
+      "query": "neymar",
+      "matchUrl": "/noticias/neymar-album-panini-mundial-2026-por-que-no-aparece-figurita-update-set-cromo"
+    },
+    {
+      "query": "brasil haiti",
+      "matchUrl": "/noticias/brasil-haiti-resultado-mundial-2026"
+    },
+    {
+      "query": "resultado do jogo do brasil ontem",
+      "matchUrl": "/noticias/brasil-haiti-resultado-mundial-2026"
+    },
+    {
+      "query": "australia vs netherlands",
+      "matchUrl": "/noticias/cuando-juega-paises-bajos-mundial-2026-horarios-donde-ver-tv"
+    },
+    {
+      "query": "les matchs de la coupe du monde 2026",
+      "matchUrl": "/coleccionismo/panini-mundial-2026"
+    },
+    {
+      "query": "resultat coupe du monde 2026",
+      "matchUrl": "/coleccionismo/panini-mundial-2026"
+    },
+    {
+      "query": "wc 2026",
+      "matchUrl": "/2026"
+    }
+  ]
+}

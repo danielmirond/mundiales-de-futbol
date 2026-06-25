@@ -3,7 +3,8 @@ import { notFound } from 'next/navigation';
 import { setRequestLocale } from 'next-intl/server';
 import { ArrowLeft, ChevronLeft, ChevronRight, MapPin } from 'lucide-react';
 import { getTeamByCode, teamDisplayName, type TeamStats } from '@/lib/data/teams';
-import { computeGroupStandings } from '@/lib/data/standings';
+import { fetchScores, buildScoreMap } from '@/lib/live-scores';
+import { computeGroupLive } from '@/lib/data/group-scenarios';
 import {
   GROUPS_2026,
   FIXTURES_2026,
@@ -11,6 +12,7 @@ import {
 } from '@/lib/wc-2026';
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd, pageMetadata, breadcrumbLd } from '@/lib/seo';
+import { countryName } from '@/lib/country-names';
 
 function withLocale(locale: Locale, href: string) {
   if (locale === routing.defaultLocale) return href;
@@ -76,8 +78,10 @@ export default async function GroupPage({
   const fixtures = FIXTURES_2026.filter((f) => f.stage === up);
   const venueBySlug = new Map(VENUES_2026.map((v) => [v.slug, v]));
 
-  // Live standings, computed from matches table. Pre-tournament all zero.
-  const rawStandings = await computeGroupStandings(2026, up, codes);
+  // Clasificación en vivo + escenarios, desde los marcadores reales de ESPN
+  // (los resultados de 2026 no están en Supabase). Escenarios solo si ya se jugó algo.
+  const scoreMap = buildScoreMap(await fetchScores());
+  const { standings: rawStandings, scenarios } = computeGroupLive(up, codes, scoreMap);
   const teamByCode = new Map(teams.map((t) => [t.code, t]));
   // Algunas selecciones (debutantes como Cabo Verde) pueden no estar
   // todavía en la tabla `teams`. Generamos un fallback ligero para que
@@ -169,7 +173,7 @@ export default async function GroupPage({
                 <div className="flex items-center justify-between">
                   <span className="text-4xl">{t.flag_emoji ?? '🏳️'}</span>
                   <span className="font-mono text-[10px] uppercase tracking-widest text-[var(--color-fg-subtle)]">
-                    {t.code}
+                    {t.confederation ?? ''}
                   </span>
                 </div>
                 <div className="mt-3 font-display text-2xl uppercase leading-none text-[var(--color-fg)] group-hover:text-[var(--color-pitch)]">
@@ -280,6 +284,57 @@ export default async function GroupPage({
         </div>
       </section>
 
+      {/* Posibilidades de clasificación (escenarios deterministas) */}
+      {scenarios.length > 0 && (
+        <section className="mx-auto w-full max-w-[1400px] px-6 md:px-10">
+          <div className="font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-pitch)]">
+            Posibilidades de clasificación
+          </div>
+          <h2 className="mt-3 font-display text-fluid-h2 uppercase leading-none">
+            Qué necesita cada selección
+          </h2>
+          <p className="mt-3 max-w-2xl text-sm text-[var(--color-fg-muted)]">
+            Pasan directo el <strong className="text-[var(--color-fg)]">1.º y 2.º</strong>; el{' '}
+            <strong className="text-[var(--color-fg)]">3.º</strong> entra si está entre los 8 mejores
+            terceros. Escenarios calculados de la clasificación en vivo y los partidos que quedan.
+          </p>
+          <div className="mt-8 grid gap-3 sm:grid-cols-2">
+            {standings.map((s) => {
+              const sc = scenarios.find((x) => x.code === s.code);
+              if (!sc) return null;
+              const style =
+                sc.status === 'qualified'
+                  ? 'border-[var(--color-pitch)]/40 bg-[var(--color-pitch)]/10 text-[var(--color-pitch)]'
+                  : sc.status === 'alive-direct'
+                    ? 'border-[var(--color-sun)]/40 bg-[var(--color-sun)]/10 text-[var(--color-sun)]'
+                    : sc.status === 'third-only'
+                      ? 'border-[var(--color-border-strong)] bg-[var(--color-bg-2)] text-[var(--color-fg-muted)]'
+                      : 'border-[var(--color-border)] bg-[var(--color-bg-2)]/40 text-[var(--color-fg-subtle)]';
+              return (
+                <div
+                  key={s.code}
+                  className="flex items-center justify-between gap-3 rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg-2)] p-4"
+                >
+                  <div className="min-w-0">
+                    <div className="font-display text-lg uppercase leading-tight text-[var(--color-fg)]">
+                      {teamByCode.get(s.code)?.flag_emoji ?? ''} {countryName(s.code)}
+                    </div>
+                    {sc.detail && (
+                      <div className="mt-0.5 text-xs text-[var(--color-fg-muted)]">{sc.detail}</div>
+                    )}
+                  </div>
+                  <span
+                    className={`flex-shrink-0 rounded-full border px-3 py-1 font-mono text-[10px] uppercase tracking-[0.15em] ${style}`}
+                  >
+                    {sc.label}
+                  </span>
+                </div>
+              );
+            })}
+          </div>
+        </section>
+      )}
+
       {/* Group fixtures */}
       <section className="mx-auto w-full max-w-[1400px] px-6 py-16 md:px-10 md:py-24">
         <div className="font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-pitch)]">
@@ -305,7 +360,7 @@ export default async function GroupPage({
                     <span>{f.home} <span className="text-[var(--color-fg-subtle)]">- TBD</span></span>
                   ) : (
                     <span className="text-[var(--color-fg-subtle)] italic">
-                      2 de {codes.join(' · ')}
+                      2 de {codes.map((c) => countryName(c)).join(' · ')}
                     </span>
                   )}
                 </div>

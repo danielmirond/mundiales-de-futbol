@@ -1,0 +1,1394 @@
+{
+  "generatedAt": "2026-06-09T10:09:25.815Z",
+  "date": "2026-06-09",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "españa fc",
+      "geo": "AR",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "Mundial 2026, en directo | Última hora de España, convocatorias, noticias y partidos amistosos hoy, en vivo",
+          "url": "https://www.marca.com/futbol/2026/06/08/6a2669801c831c17f4920320-directo.html",
+          "source": "MARCA"
+        },
+        {
+          "title": "Los jugadores de España que van a jugar el Mundial de Fútbol: la lista de Luis de la Fuente uno a uno",
+          "url": "https://elpais.com/deportes/mundial-futbol/2026-06-09/los-jugadores-de-espana-que-van-a-jugar-el-mundial-de-futbol-la-lista-de-luis-de-la-fuente-uno-a-uno.html",
+          "source": "EL PAÍS"
+        },
+        {
+          "title": "España y el peso de la estrella",
+          "url": "https://www.infobae.com/espana/agencias/2026/06/06/espana-y-el-peso-de-la-estrella/",
+          "source": "Infobae"
+        }
+      ]
+    },
+    {
+      "query": "fifa world cup betting betmgm",
+      "geo": "CO",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Ultimate 2026 World Cup Gambling Guide: Picks, Predictions, Odds, Underdogs to Bet On",
+          "url": "https://www.foxsports.com/stories/soccer/ultimate-2026-world-cup-gambling-guide-odds-predictions-picks-underdogs",
+          "source": "FOX Sports"
+        },
+        {
+          "title": "How to bet on soccer: Everything you need to know before the World Cup kicks off",
+          "url": "https://www.espn.com/espn/betting/story/_/id/49002033/world-cup-2026-soccer-betting-spain-france-england-brazil-argentina",
+          "source": "ESPN"
+        },
+        {
+          "title": "2026 World Cup Odds and Best Bets to Win Every Group (Colombia, Paraguay, and Egypt Are Great Plus-Money Plays)",
+          "url": "https://www.si.com/betting/2026-world-cup-odds-and-best-bets-to-win-every-group-colombia-paraguay-and-egypt-are-great-plus-money-plays-01ktmbkgc6pj",
+          "source": "Sports Illustrated"
+        }
+      ]
+    },
+    {
+      "query": "jairo vélez",
+      "geo": "CL",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Gol de Jairo Vélez para el descuento en Perú vs España, amistoso FIFA 2026",
+          "url": "https://www.infobae.com/video/deportes/gol-de-jairo-velez-para-el-descuento-en-peru-vs-espana-amistoso-fifa-2026/yu4mosQu/",
+          "source": "Infobae"
+        },
+        {
+          "title": "David Vélez, el ecuatoriano del Rimac, vuelve a ponerse la Selección del Perú al hombro (VIDEO)",
+          "url": "https://onefootball.com/fr/news/david-velez-el-ecuatoriano-del-rimac-vuelve-a-ponerse-la-seleccion-del-peru-al-hombro-video-42983718",
+          "source": "OneFootball"
+        },
+        {
+          "title": "Está tocado: Jairo Vélez puso el descuento para Perú ante España | VIDEO",
+          "url": "https://elcomercio.pe/deporte-total/seleccion/gol-de-jairo-velez-hoy-con-peru-vs-espana-por-partido-amistoso-fifa-2026-video-noticia/",
+          "source": "El Comercio Perú"
+        }
+      ]
+    },
+    {
+      "query": "mundial 2026",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Mundial 2026, en directo | Última hora de España, convocatorias, noticias y partidos amistosos hoy, en vivo",
+          "url": "https://www.marca.com/futbol/2026/06/08/6a2669801c831c17f4920320-directo.html",
+          "source": "MARCA"
+        },
+        {
+          "title": "Fixture y calendario de España en la Copa Mundial 2026: partidos, horarios, sedes, canales TV y estadios",
+          "url": "https://elcomercio.pe/mag/usa/en-vivo-us/fixture-y-calendario-de-espana-en-la-copa-mundial-2026-partidos-horarios-sedes-canales-tv-y-estadios-nnda-nnrt-noticia/",
+          "source": "El Comercio Perú"
+        },
+        {
+          "title": "Mundial 2026, en directo: noticias de la Copa del Mundo y última hora de las selecciones, hoy en vivo",
+          "url": "https://as.com/futbol/mundial/mundial-eeuu-mexico-y-canada-2026-en-directo-ultima-hora-de-todas-las-selecciones-f202606-d/",
+          "source": "Diario AS"
+        }
+      ]
+    },
+    {
+      "query": "jairo velez",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 10000,
+      "articles": [
+        {
+          "title": "Zurdazo y a cobrar: Jairo Vélez anotó el 1-3 para Perú ante España en Puebla [VIDEO]",
+          "url": "https://rpp.pe/futbol/seleccion-peruana/ver-gol-jairo-velez-en-peru-vs-espana-video-1-3-de-zurdazo-en-el-borde-del-area-partidos-de-hoy-noticia-1692154",
+          "source": "RPP"
+        },
+        {
+          "title": "Vélez más titular que ninguno pero inmensas dudas en 10 puestos para Mano: urgentes conclusiones de un 3-1 de España que nos devolvió a la realidad",
+          "url": "https://elcomercio.pe/deporte-total/seleccion/seleccion-peruana-jairo-velez-mas-titular-que-ninguno-pero-inmensas-dudas-en-10-puestos-para-mano-menezes-urgentes-conclusiones-de-un-3-1-de-espana-que-nos-devolvio-a-la-realidad-tlcnota-noticia/",
+          "source": "El Comercio Perú"
+        },
+        {
+          "title": "Gol de Jairo Vélez para el descuento en Perú vs España, amistoso FIFA 2026",
+          "url": "https://www.infobae.com/video/deportes/gol-de-jairo-velez-para-el-descuento-en-peru-vs-espana-amistoso-fifa-2026/yu4mosQu/",
+          "source": "Infobae"
+        }
+      ]
+    },
+    {
+      "query": "jairo vélez",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "(VIDEO) EL DESCUENTO: Jairo Vélez le anotó a España con la Selección Peruana",
+          "url": "https://studiofutbol.com.ec/2026/06/08/video-el-descuento-jairo-velez-le-anoto-a-espana-con-la-seleccion-peruana/",
+          "source": "Studiofutbol"
+        },
+        {
+          "title": "Golazo de Jairo Vélez para descuento en Perú vs España en partido amistoso por fecha FIFA 2026",
+          "url": "https://www.infobae.com/peru/deportes/2026/06/09/gol-jairo-velez-peru-vs-espana-amistoso-fecha-fifa-2026-video-hoy/",
+          "source": "Infobae"
+        },
+        {
+          "title": "(VIDEO) EN RACHA: Perú cayó ante España, pero Jairo Vélez volvió a anotar",
+          "url": "https://onefootball.com/id/berita/video-en-racha-peru-cayo-ante-espana-pero-jairo-velez-volvio-a-anotar-42983656",
+          "source": "OneFootball"
+        }
+      ]
+    },
+    {
+      "query": "ronald araújo",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Mundial 2026: las dudas en la defensa uruguaya y la inactividad de posibles titulares",
+          "url": "https://www.montevideo.com.uy/Deportes/Mundial-2026-las-dudas-en-la-defensa-uruguaya-y-la-inactividad-de-posibles-titulares-uc964546",
+          "source": "Montevideo Portal"
+        },
+        {
+          "title": "¿Qué tiene Ronald Araújo y por qué viajó a España?",
+          "url": "https://ladiaria.com.uy/deporte/articulo/2026/6/ronald-araujo-la-lesion-y-viaje-relampago-a-espana/",
+          "source": "la diaria"
+        },
+        {
+          "title": "Ronald Araujo y una historia que se repite: se perdió 17 de 50 partidos oficiales de Uruguay por lesión",
+          "url": "https://www.elpais.com.uy/ovacion/futbol/ronald-araujo-y-una-historia-que-se-repite-se-perdio-17-de-50-partidos-oficiales-de-uruguay-por-lesion",
+          "source": "EL PAÍS Uruguay"
+        }
+      ]
+    },
+    {
+      "query": "españa vs",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "España puede jugar en el Everest",
+          "url": "https://www.marca.com/futbol/seleccion/cronica/2026/06/09/espana-jugar-everest.html",
+          "source": "MARCA"
+        },
+        {
+          "title": "España, rival de Uruguay en el Mundial 2026, llegó a México sin Lamine Yamal, Williams y Muñoz, en quienes confían que estén para el debut, y juegan este lunes ante Perú",
+          "url": "https://www.elobservador.com.uy/mundial-2026/espana-rival-uruguay-el-mundial-2026-llego-mexico-lamine-yamal-williams-y-munoz-quienes-confian-que-esten-el-debut-y-juegan-este-lunes-peru-n6046651",
+          "source": "El Observador"
+        },
+        {
+          "title": "Perú 1-3 España: resumen, goles y resultado",
+          "url": "https://as.com/futbol/peru-espana-en-directo-amistoso-hoy-en-vivo-f202606-d/",
+          "source": "Diario AS"
+        }
+      ]
+    },
+    {
+      "query": "somalia",
+      "geo": "GB",
+      "language": "en",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "World Cup 2026: Somali referee Omar Artan to miss tournament after being barred from entering US",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cnv9drg0qzgo",
+          "source": "BBC"
+        },
+        {
+          "title": "Top African referee Omar Artan refused access to US and will miss World Cup",
+          "url": "https://www.theguardian.com/football/2026/jun/08/top-african-referee-omar-artan-refused-access-to-the-united-states",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Somali referee set to officiate World Cup denied entry into US",
+          "url": "https://news.sky.com/story/somali-referee-set-to-officiate-world-cup-denied-entry-to-us-13552147",
+          "source": "Sky News"
+        }
+      ]
+    },
+    {
+      "query": "television channel",
+      "geo": "GB",
+      "language": "en",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "World Cup 2026: The key issues set to dominate Fifa&apos;s summer showpiece",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cg4wqr2ev33o",
+          "source": "BBC"
+        },
+        {
+          "title": "World Cup 2026 wallchart: print out your own here",
+          "url": "https://www.theguardian.com/football/picture/2026/jun/05/world-cup-2026-wallchart-print-out-your-own-here",
+          "source": "The Guardian"
+        },
+        {
+          "title": "World Cup 2026: Every key question answered about this summer&apos;s tournament in USA, Canada and Mexico",
+          "url": "https://www.skysports.com/football/news/11095/13548788/world-cup-2026-every-key-question-answered-about-this-summers-tournament-in-usa-canada-and-mexico",
+          "source": "Sky Sports"
+        }
+      ]
+    },
+    {
+      "query": "scotland vs pakistan",
+      "geo": "GB",
+      "language": "en",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "A commanding chase from Sri Lanka in Derby | Match Highlights | Women&apos;s T20WC 2026 warm-ups",
+          "url": "https://www.icc-cricket.com/tournaments/womens-t20-worldcup-2026/videos/a-commanding-chase-from-sri-lanka-in-derby-match-highlights-women-s-t20wc-2026-warm-ups",
+          "source": "ICC"
+        },
+        {
+          "title": "SCO W vs PAK W LIVE Streaming APP: How to Watch Women’s ICC T20 World Cup 2026 Warm-Up Match Scotland vs Pakistan LIVE in India on Mobile APP, TV, Laptop",
+          "url": "https://sundayguardianlive.com/sports/sco-w-vs-pak-w-live-streaming-app-how-to-watch-womens-icc-t20-world-cup-2026-warm-up-match-scotland-vs-pakistan-live-in-india-on-mobile-app-tv-laptop-203766/",
+          "source": "The Sunday Guardian"
+        },
+        {
+          "title": "Chamari Athapaththu Hits 94 as Sri Lanka Women Ease Past Pakistan in 9-Wicket Win",
+          "url": "https://femalecricket.com/icc-womens-t20-world-cup-2026-warmup-games/91020-chamari-athapaththu-hits-94-as-sri-lanka-women-ease-past-pakistan-in-9-wicket-win.html",
+          "source": "Female Cricket"
+        }
+      ]
+    },
+    {
+      "query": "équipe d&apos;algérie de football",
+      "geo": "FR",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Coupe du monde 2026 : tout savoir sur l’Algérie dans le groupe J",
+          "url": "https://www.lemonde.fr/sport/article/2026/06/08/coupe-du-monde-2026-tout-savoir-sur-l-algerie-dans-le-groupe-j_6699372_3242.html",
+          "source": "Le Monde.fr"
+        },
+        {
+          "title": "Coupe du monde 2026: de retour 12 ans après, l&apos;Algérie peut-elle choquer la planète foot?",
+          "url": "https://rmcsport.bfmtv.com/football/coupe-du-monde/coupe-du-monde-2026-de-retour-12-ans-apres-l-algerie-peut-elle-choquer-la-planete-foot_AV-202606090421.html",
+          "source": "RMC Sport"
+        },
+        {
+          "title": "Algérie - Mahrez : \"Essayer de faire quelque chose qui rendra fiers nos proches et notre pays\"",
+          "url": "https://sports.orange.fr/videos/football/algerie-mahrez-essayer-de-faire-quelque-chose-qui-rendra-fiers-nos-proches-et-notre-pays-CNT000002pQfnc.html",
+          "source": "Sports - Orange"
+        }
+      ]
+    },
+    {
+      "query": "wc 2026 odds vodds",
+      "geo": "IT",
+      "language": "it",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "World Cup 2026 Power Rankings, 48 hours out: Who is No. 1?",
+          "url": "https://www.espn.com/soccer/story/_/id/49001555/fifa-world-cup-power-rankings-spain-brazil-germany-england-argentina",
+          "source": "ESPN"
+        },
+        {
+          "title": "Our writers’ World Cup 2026 predictions: Winners? Breakthrough player? Best host nation? Shocks? - The Athletic",
+          "url": "https://www.nytimes.com/athletic/7339419/2026/06/08/world-cup-2026-usa-canada-mexico-predictions/",
+          "source": "The New York Times"
+        },
+        {
+          "title": "FIFA World Cup 2026 Power Rankings: USMNT hold steady ahead of opener vs. Paraguay: Portugal rise",
+          "url": "https://www.cbssports.com/soccer/news/fifa-world-cup-2026-power-rankings-usmnt-hold-steady-ahead-of-opener-vs-paraguay/",
+          "source": "CBS Sports"
+        }
+      ]
+    },
+    {
+      "query": "2026",
+      "geo": "PT",
+      "language": "pt",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Esta é a composição dos 12 grupos da primeira fase do Mundial2026",
+          "url": "https://www.cmjornal.pt/mais-cm/especiais/mundial-2026/detalhe/esta-e-a-composicao-dos-12-grupos-da-primeira-fase-do-mundial2026",
+          "source": "Correio da Manhã"
+        },
+        {
+          "title": "Guia de sobrevivência para o Mundial 2026: chegar vivo à final",
+          "url": "https://pt.euronews.com/2026/06/08/guia-de-sobrevivencia-para-o-mundial-2026-chegar-vivo-a-final",
+          "source": "Euronews.com"
+        },
+        {
+          "title": "Calendário da Copa do Mundo 2026: veja datas e horários de todos os jogos",
+          "url": "https://ge.globo.com/futebol/copa-do-mundo/noticia/2026/06/08/calendario-da-copa-do-mundo-2026-veja-datas-e-horarios-de-todos-os-jogos.ghtml",
+          "source": "ge"
+        }
+      ]
+    },
+    {
+      "query": "radio mars",
+      "geo": "MA",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "C’est le Brésil qui doit avoir peur!",
+          "url": "https://sport.le360.ma/coupe-du-monde/cest-le-bresil-qui-doit-avoir-peur_YUBOYE2L4ZGOXMJOFFWZBLHMYQ/",
+          "source": "Le360 Sport"
+        },
+        {
+          "title": "Médias Brésiliens: Le Maroc considéré comme un sérieux rival de la Seleção",
+          "url": "https://radiomars.ma/fr/?p=2353",
+          "source": "radiomars"
+        },
+        {
+          "title": "Coupe du monde 2026: Brésil, Maroc... La composition et le calendrier du groupe C du Mondial",
+          "url": "https://rmcsport.bfmtv.com/football/coupe-du-monde/coupe-du-monde-2026-bresil-maroc-la-composition-et-le-calendrier-du-groupe-c-du-mondial_AV-202606080002.html",
+          "source": "RMC Sport"
+        }
+      ]
+    },
+    {
+      "query": "fifa world cup betting betmgm",
+      "geo": "MA",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Ultimate 2026 World Cup Gambling Guide: Picks, Predictions, Odds, Underdogs to Bet On",
+          "url": "https://www.foxsports.com/stories/soccer/ultimate-2026-world-cup-gambling-guide-odds-predictions-picks-underdogs",
+          "source": "FOX Sports"
+        },
+        {
+          "title": "How to bet on soccer: Everything you need to know before the World Cup kicks off",
+          "url": "https://www.espn.com/espn/betting/story/_/id/49002033/world-cup-2026-soccer-betting-spain-france-england-brazil-argentina",
+          "source": "ESPN"
+        },
+        {
+          "title": "2026 World Cup Odds and Best Bets to Win Every Group (Colombia, Paraguay, and Egypt Are Great Plus-Money Plays)",
+          "url": "https://www.si.com/betting/2026-world-cup-odds-and-best-bets-to-win-every-group-colombia-paraguay-and-egypt-are-great-plus-money-plays-01ktmbkgc6pj",
+          "source": "Sports Illustrated"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "es": [
+      {
+        "query": "jairo velez",
+        "score": 9000,
+        "geos": [
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "jairo velez",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 10000,
+            "articles": [
+              {
+                "title": "Zurdazo y a cobrar: Jairo Vélez anotó el 1-3 para Perú ante España en Puebla [VIDEO]",
+                "url": "https://rpp.pe/futbol/seleccion-peruana/ver-gol-jairo-velez-en-peru-vs-espana-video-1-3-de-zurdazo-en-el-borde-del-area-partidos-de-hoy-noticia-1692154",
+                "source": "RPP"
+              },
+              {
+                "title": "Vélez más titular que ninguno pero inmensas dudas en 10 puestos para Mano: urgentes conclusiones de un 3-1 de España que nos devolvió a la realidad",
+                "url": "https://elcomercio.pe/deporte-total/seleccion/seleccion-peruana-jairo-velez-mas-titular-que-ninguno-pero-inmensas-dudas-en-10-puestos-para-mano-menezes-urgentes-conclusiones-de-un-3-1-de-espana-que-nos-devolvio-a-la-realidad-tlcnota-noticia/",
+                "source": "El Comercio Perú"
+              },
+              {
+                "title": "Gol de Jairo Vélez para el descuento en Perú vs España, amistoso FIFA 2026",
+                "url": "https://www.infobae.com/video/deportes/gol-de-jairo-velez-para-el-descuento-en-peru-vs-espana-amistoso-fifa-2026/yu4mosQu/",
+                "source": "Infobae"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "españa fc",
+        "score": 2600,
+        "geos": [
+          "AR"
+        ],
+        "samples": [
+          {
+            "query": "españa fc",
+            "geo": "AR",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "Mundial 2026, en directo | Última hora de España, convocatorias, noticias y partidos amistosos hoy, en vivo",
+                "url": "https://www.marca.com/futbol/2026/06/08/6a2669801c831c17f4920320-directo.html",
+                "source": "MARCA"
+              },
+              {
+                "title": "Los jugadores de España que van a jugar el Mundial de Fútbol: la lista de Luis de la Fuente uno a uno",
+                "url": "https://elpais.com/deportes/mundial-futbol/2026-06-09/los-jugadores-de-espana-que-van-a-jugar-el-mundial-de-futbol-la-lista-de-luis-de-la-fuente-uno-a-uno.html",
+                "source": "EL PAÍS"
+              },
+              {
+                "title": "España y el peso de la estrella",
+                "url": "https://www.infobae.com/espana/agencias/2026/06/06/espana-y-el-peso-de-la-estrella/",
+                "source": "Infobae"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "españa vs",
+        "score": 1800,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "españa vs",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "España puede jugar en el Everest",
+                "url": "https://www.marca.com/futbol/seleccion/cronica/2026/06/09/espana-jugar-everest.html",
+                "source": "MARCA"
+              },
+              {
+                "title": "España, rival de Uruguay en el Mundial 2026, llegó a México sin Lamine Yamal, Williams y Muñoz, en quienes confían que estén para el debut, y juegan este lunes ante Perú",
+                "url": "https://www.elobservador.com.uy/mundial-2026/espana-rival-uruguay-el-mundial-2026-llego-mexico-lamine-yamal-williams-y-munoz-quienes-confian-que-esten-el-debut-y-juegan-este-lunes-peru-n6046651",
+                "source": "El Observador"
+              },
+              {
+                "title": "Perú 1-3 España: resumen, goles y resultado",
+                "url": "https://as.com/futbol/peru-espana-en-directo-amistoso-hoy-en-vivo-f202606-d/",
+                "source": "Diario AS"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "jairo vélez",
+        "score": 890,
+        "geos": [
+          "CL",
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "jairo vélez",
+            "geo": "CL",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Gol de Jairo Vélez para el descuento en Perú vs España, amistoso FIFA 2026",
+                "url": "https://www.infobae.com/video/deportes/gol-de-jairo-velez-para-el-descuento-en-peru-vs-espana-amistoso-fifa-2026/yu4mosQu/",
+                "source": "Infobae"
+              },
+              {
+                "title": "David Vélez, el ecuatoriano del Rimac, vuelve a ponerse la Selección del Perú al hombro (VIDEO)",
+                "url": "https://onefootball.com/fr/news/david-velez-el-ecuatoriano-del-rimac-vuelve-a-ponerse-la-seleccion-del-peru-al-hombro-video-42983718",
+                "source": "OneFootball"
+              },
+              {
+                "title": "Está tocado: Jairo Vélez puso el descuento para Perú ante España | VIDEO",
+                "url": "https://elcomercio.pe/deporte-total/seleccion/gol-de-jairo-velez-hoy-con-peru-vs-espana-por-partido-amistoso-fifa-2026-video-noticia/",
+                "source": "El Comercio Perú"
+              }
+            ]
+          },
+          {
+            "query": "jairo vélez",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "(VIDEO) EL DESCUENTO: Jairo Vélez le anotó a España con la Selección Peruana",
+                "url": "https://studiofutbol.com.ec/2026/06/08/video-el-descuento-jairo-velez-le-anoto-a-espana-con-la-seleccion-peruana/",
+                "source": "Studiofutbol"
+              },
+              {
+                "title": "Golazo de Jairo Vélez para descuento en Perú vs España en partido amistoso por fecha FIFA 2026",
+                "url": "https://www.infobae.com/peru/deportes/2026/06/09/gol-jairo-velez-peru-vs-espana-amistoso-fecha-fifa-2026-video-hoy/",
+                "source": "Infobae"
+              },
+              {
+                "title": "(VIDEO) EN RACHA: Perú cayó ante España, pero Jairo Vélez volvió a anotar",
+                "url": "https://onefootball.com/id/berita/video-en-racha-peru-cayo-ante-espana-pero-jairo-velez-volvio-a-anotar-42983656",
+                "source": "OneFootball"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "fifa world cup betting betmgm",
+        "score": 500,
+        "geos": [
+          "CO"
+        ],
+        "samples": [
+          {
+            "query": "fifa world cup betting betmgm",
+            "geo": "CO",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Ultimate 2026 World Cup Gambling Guide: Picks, Predictions, Odds, Underdogs to Bet On",
+                "url": "https://www.foxsports.com/stories/soccer/ultimate-2026-world-cup-gambling-guide-odds-predictions-picks-underdogs",
+                "source": "FOX Sports"
+              },
+              {
+                "title": "How to bet on soccer: Everything you need to know before the World Cup kicks off",
+                "url": "https://www.espn.com/espn/betting/story/_/id/49002033/world-cup-2026-soccer-betting-spain-france-england-brazil-argentina",
+                "source": "ESPN"
+              },
+              {
+                "title": "2026 World Cup Odds and Best Bets to Win Every Group (Colombia, Paraguay, and Egypt Are Great Plus-Money Plays)",
+                "url": "https://www.si.com/betting/2026-world-cup-odds-and-best-bets-to-win-every-group-colombia-paraguay-and-egypt-are-great-plus-money-plays-01ktmbkgc6pj",
+                "source": "Sports Illustrated"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "mundial 2026",
+        "score": 450,
+        "geos": [
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "mundial 2026",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Mundial 2026, en directo | Última hora de España, convocatorias, noticias y partidos amistosos hoy, en vivo",
+                "url": "https://www.marca.com/futbol/2026/06/08/6a2669801c831c17f4920320-directo.html",
+                "source": "MARCA"
+              },
+              {
+                "title": "Fixture y calendario de España en la Copa Mundial 2026: partidos, horarios, sedes, canales TV y estadios",
+                "url": "https://elcomercio.pe/mag/usa/en-vivo-us/fixture-y-calendario-de-espana-en-la-copa-mundial-2026-partidos-horarios-sedes-canales-tv-y-estadios-nnda-nnrt-noticia/",
+                "source": "El Comercio Perú"
+              },
+              {
+                "title": "Mundial 2026, en directo: noticias de la Copa del Mundo y última hora de las selecciones, hoy en vivo",
+                "url": "https://as.com/futbol/mundial/mundial-eeuu-mexico-y-canada-2026-en-directo-ultima-hora-de-todas-las-selecciones-f202606-d/",
+                "source": "Diario AS"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "ronald araújo",
+        "score": 180,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "ronald araújo",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Mundial 2026: las dudas en la defensa uruguaya y la inactividad de posibles titulares",
+                "url": "https://www.montevideo.com.uy/Deportes/Mundial-2026-las-dudas-en-la-defensa-uruguaya-y-la-inactividad-de-posibles-titulares-uc964546",
+                "source": "Montevideo Portal"
+              },
+              {
+                "title": "¿Qué tiene Ronald Araújo y por qué viajó a España?",
+                "url": "https://ladiaria.com.uy/deporte/articulo/2026/6/ronald-araujo-la-lesion-y-viaje-relampago-a-espana/",
+                "source": "la diaria"
+              },
+              {
+                "title": "Ronald Araujo y una historia que se repite: se perdió 17 de 50 partidos oficiales de Uruguay por lesión",
+                "url": "https://www.elpais.com.uy/ovacion/futbol/ronald-araujo-y-una-historia-que-se-repite-se-perdio-17-de-50-partidos-oficiales-de-uruguay-por-lesion",
+                "source": "EL PAÍS Uruguay"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "en": [
+      {
+        "query": "somalia",
+        "score": 2200,
+        "geos": [
+          "GB"
+        ],
+        "samples": [
+          {
+            "query": "somalia",
+            "geo": "GB",
+            "language": "en",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "World Cup 2026: Somali referee Omar Artan to miss tournament after being barred from entering US",
+                "url": "https://www.bbc.co.uk/sport/football/articles/cnv9drg0qzgo",
+                "source": "BBC"
+              },
+              {
+                "title": "Top African referee Omar Artan refused access to US and will miss World Cup",
+                "url": "https://www.theguardian.com/football/2026/jun/08/top-african-referee-omar-artan-refused-access-to-the-united-states",
+                "source": "The Guardian"
+              },
+              {
+                "title": "Somali referee set to officiate World Cup denied entry into US",
+                "url": "https://news.sky.com/story/somali-referee-set-to-officiate-world-cup-denied-entry-to-us-13552147",
+                "source": "Sky News"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "television channel",
+        "score": 2200,
+        "geos": [
+          "GB"
+        ],
+        "samples": [
+          {
+            "query": "television channel",
+            "geo": "GB",
+            "language": "en",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "World Cup 2026: The key issues set to dominate Fifa&apos;s summer showpiece",
+                "url": "https://www.bbc.co.uk/sport/football/articles/cg4wqr2ev33o",
+                "source": "BBC"
+              },
+              {
+                "title": "World Cup 2026 wallchart: print out your own here",
+                "url": "https://www.theguardian.com/football/picture/2026/jun/05/world-cup-2026-wallchart-print-out-your-own-here",
+                "source": "The Guardian"
+              },
+              {
+                "title": "World Cup 2026: Every key question answered about this summer&apos;s tournament in USA, Canada and Mexico",
+                "url": "https://www.skysports.com/football/news/11095/13548788/world-cup-2026-every-key-question-answered-about-this-summers-tournament-in-usa-canada-and-mexico",
+                "source": "Sky Sports"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "scotland vs pakistan",
+        "score": 220.00000000000003,
+        "geos": [
+          "GB"
+        ],
+        "samples": [
+          {
+            "query": "scotland vs pakistan",
+            "geo": "GB",
+            "language": "en",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "A commanding chase from Sri Lanka in Derby | Match Highlights | Women&apos;s T20WC 2026 warm-ups",
+                "url": "https://www.icc-cricket.com/tournaments/womens-t20-worldcup-2026/videos/a-commanding-chase-from-sri-lanka-in-derby-match-highlights-women-s-t20wc-2026-warm-ups",
+                "source": "ICC"
+              },
+              {
+                "title": "SCO W vs PAK W LIVE Streaming APP: How to Watch Women’s ICC T20 World Cup 2026 Warm-Up Match Scotland vs Pakistan LIVE in India on Mobile APP, TV, Laptop",
+                "url": "https://sundayguardianlive.com/sports/sco-w-vs-pak-w-live-streaming-app-how-to-watch-womens-icc-t20-world-cup-2026-warm-up-match-scotland-vs-pakistan-live-in-india-on-mobile-app-tv-laptop-203766/",
+                "source": "The Sunday Guardian"
+              },
+              {
+                "title": "Chamari Athapaththu Hits 94 as Sri Lanka Women Ease Past Pakistan in 9-Wicket Win",
+                "url": "https://femalecricket.com/icc-womens-t20-world-cup-2026-warmup-games/91020-chamari-athapaththu-hits-94-as-sri-lanka-women-ease-past-pakistan-in-9-wicket-win.html",
+                "source": "Female Cricket"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "fr": [
+      {
+        "query": "équipe d&apos;algérie de football",
+        "score": 500,
+        "geos": [
+          "FR"
+        ],
+        "samples": [
+          {
+            "query": "équipe d&apos;algérie de football",
+            "geo": "FR",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Coupe du monde 2026 : tout savoir sur l’Algérie dans le groupe J",
+                "url": "https://www.lemonde.fr/sport/article/2026/06/08/coupe-du-monde-2026-tout-savoir-sur-l-algerie-dans-le-groupe-j_6699372_3242.html",
+                "source": "Le Monde.fr"
+              },
+              {
+                "title": "Coupe du monde 2026: de retour 12 ans après, l&apos;Algérie peut-elle choquer la planète foot?",
+                "url": "https://rmcsport.bfmtv.com/football/coupe-du-monde/coupe-du-monde-2026-de-retour-12-ans-apres-l-algerie-peut-elle-choquer-la-planete-foot_AV-202606090421.html",
+                "source": "RMC Sport"
+              },
+              {
+                "title": "Algérie - Mahrez : \"Essayer de faire quelque chose qui rendra fiers nos proches et notre pays\"",
+                "url": "https://sports.orange.fr/videos/football/algerie-mahrez-essayer-de-faire-quelque-chose-qui-rendra-fiers-nos-proches-et-notre-pays-CNT000002pQfnc.html",
+                "source": "Sports - Orange"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "radio mars",
+        "score": 180,
+        "geos": [
+          "MA"
+        ],
+        "samples": [
+          {
+            "query": "radio mars",
+            "geo": "MA",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "C’est le Brésil qui doit avoir peur!",
+                "url": "https://sport.le360.ma/coupe-du-monde/cest-le-bresil-qui-doit-avoir-peur_YUBOYE2L4ZGOXMJOFFWZBLHMYQ/",
+                "source": "Le360 Sport"
+              },
+              {
+                "title": "Médias Brésiliens: Le Maroc considéré comme un sérieux rival de la Seleção",
+                "url": "https://radiomars.ma/fr/?p=2353",
+                "source": "radiomars"
+              },
+              {
+                "title": "Coupe du monde 2026: Brésil, Maroc... La composition et le calendrier du groupe C du Mondial",
+                "url": "https://rmcsport.bfmtv.com/football/coupe-du-monde/coupe-du-monde-2026-bresil-maroc-la-composition-et-le-calendrier-du-groupe-c-du-mondial_AV-202606080002.html",
+                "source": "RMC Sport"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "fifa world cup betting betmgm",
+        "score": 180,
+        "geos": [
+          "MA"
+        ],
+        "samples": [
+          {
+            "query": "fifa world cup betting betmgm",
+            "geo": "MA",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Ultimate 2026 World Cup Gambling Guide: Picks, Predictions, Odds, Underdogs to Bet On",
+                "url": "https://www.foxsports.com/stories/soccer/ultimate-2026-world-cup-gambling-guide-odds-predictions-picks-underdogs",
+                "source": "FOX Sports"
+              },
+              {
+                "title": "How to bet on soccer: Everything you need to know before the World Cup kicks off",
+                "url": "https://www.espn.com/espn/betting/story/_/id/49002033/world-cup-2026-soccer-betting-spain-france-england-brazil-argentina",
+                "source": "ESPN"
+              },
+              {
+                "title": "2026 World Cup Odds and Best Bets to Win Every Group (Colombia, Paraguay, and Egypt Are Great Plus-Money Plays)",
+                "url": "https://www.si.com/betting/2026-world-cup-odds-and-best-bets-to-win-every-group-colombia-paraguay-and-egypt-are-great-plus-money-plays-01ktmbkgc6pj",
+                "source": "Sports Illustrated"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "it": [
+      {
+        "query": "wc 2026 odds vodds",
+        "score": 1800,
+        "geos": [
+          "IT"
+        ],
+        "samples": [
+          {
+            "query": "wc 2026 odds vodds",
+            "geo": "IT",
+            "language": "it",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "World Cup 2026 Power Rankings, 48 hours out: Who is No. 1?",
+                "url": "https://www.espn.com/soccer/story/_/id/49001555/fifa-world-cup-power-rankings-spain-brazil-germany-england-argentina",
+                "source": "ESPN"
+              },
+              {
+                "title": "Our writers’ World Cup 2026 predictions: Winners? Breakthrough player? Best host nation? Shocks? - The Athletic",
+                "url": "https://www.nytimes.com/athletic/7339419/2026/06/08/world-cup-2026-usa-canada-mexico-predictions/",
+                "source": "The New York Times"
+              },
+              {
+                "title": "FIFA World Cup 2026 Power Rankings: USMNT hold steady ahead of opener vs. Paraguay: Portugal rise",
+                "url": "https://www.cbssports.com/soccer/news/fifa-world-cup-2026-power-rankings-usmnt-hold-steady-ahead-of-opener-vs-paraguay/",
+                "source": "CBS Sports"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "pt": [
+      {
+        "query": "2026",
+        "score": 100,
+        "geos": [
+          "PT"
+        ],
+        "samples": [
+          {
+            "query": "2026",
+            "geo": "PT",
+            "language": "pt",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Esta é a composição dos 12 grupos da primeira fase do Mundial2026",
+                "url": "https://www.cmjornal.pt/mais-cm/especiais/mundial-2026/detalhe/esta-e-a-composicao-dos-12-grupos-da-primeira-fase-do-mundial2026",
+                "source": "Correio da Manhã"
+              },
+              {
+                "title": "Guia de sobrevivência para o Mundial 2026: chegar vivo à final",
+                "url": "https://pt.euronews.com/2026/06/08/guia-de-sobrevivencia-para-o-mundial-2026-chegar-vivo-a-final",
+                "source": "Euronews.com"
+              },
+              {
+                "title": "Calendário da Copa do Mundo 2026: veja datas e horários de todos os jogos",
+                "url": "https://ge.globo.com/futebol/copa-do-mundo/noticia/2026/06/08/calendario-da-copa-do-mundo-2026-veja-datas-e-horarios-de-todos-os-jogos.ghtml",
+                "source": "ge"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "topic": "jairo vélez",
+      "type": "noticia",
+      "slugSuggestion": "jairo-velez",
+      "language": "es",
+      "geos": [
+        "CL",
+        "PE",
+        "EC"
+      ],
+      "score": 11868,
+      "reason": "Google Trends daily CL con 100 búsquedas · 3 artículos noticiosos referenciando \"jairo vélez\"",
+      "proposedPath": "/noticias/jairo-velez",
+      "evidence": [
+        {
+          "query": "jairo vélez",
+          "geo": "CL",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 100,
+          "articles": [
+            {
+              "title": "Gol de Jairo Vélez para el descuento en Perú vs España, amistoso FIFA 2026",
+              "url": "https://www.infobae.com/video/deportes/gol-de-jairo-velez-para-el-descuento-en-peru-vs-espana-amistoso-fifa-2026/yu4mosQu/",
+              "source": "Infobae"
+            },
+            {
+              "title": "David Vélez, el ecuatoriano del Rimac, vuelve a ponerse la Selección del Perú al hombro (VIDEO)",
+              "url": "https://onefootball.com/fr/news/david-velez-el-ecuatoriano-del-rimac-vuelve-a-ponerse-la-seleccion-del-peru-al-hombro-video-42983718",
+              "source": "OneFootball"
+            },
+            {
+              "title": "Está tocado: Jairo Vélez puso el descuento para Perú ante España | VIDEO",
+              "url": "https://elcomercio.pe/deporte-total/seleccion/gol-de-jairo-velez-hoy-con-peru-vs-espana-por-partido-amistoso-fifa-2026-video-noticia/",
+              "source": "El Comercio Perú"
+            }
+          ]
+        },
+        {
+          "query": "jairo velez",
+          "geo": "PE",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 10000,
+          "articles": [
+            {
+              "title": "Zurdazo y a cobrar: Jairo Vélez anotó el 1-3 para Perú ante España en Puebla [VIDEO]",
+              "url": "https://rpp.pe/futbol/seleccion-peruana/ver-gol-jairo-velez-en-peru-vs-espana-video-1-3-de-zurdazo-en-el-borde-del-area-partidos-de-hoy-noticia-1692154",
+              "source": "RPP"
+            },
+            {
+              "title": "Vélez más titular que ninguno pero inmensas dudas en 10 puestos para Mano: urgentes conclusiones de un 3-1 de España que nos devolvió a la realidad",
+              "url": "https://elcomercio.pe/deporte-total/seleccion/seleccion-peruana-jairo-velez-mas-titular-que-ninguno-pero-inmensas-dudas-en-10-puestos-para-mano-menezes-urgentes-conclusiones-de-un-3-1-de-espana-que-nos-devolvio-a-la-realidad-tlcnota-noticia/",
+              "source": "El Comercio Perú"
+            },
+            {
+              "title": "Gol de Jairo Vélez para el descuento en Perú vs España, amistoso FIFA 2026",
+              "url": "https://www.infobae.com/video/deportes/gol-de-jairo-velez-para-el-descuento-en-peru-vs-espana-amistoso-fifa-2026/yu4mosQu/",
+              "source": "Infobae"
+            }
+          ]
+        },
+        {
+          "query": "jairo vélez",
+          "geo": "EC",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 1000,
+          "articles": [
+            {
+              "title": "(VIDEO) EL DESCUENTO: Jairo Vélez le anotó a España con la Selección Peruana",
+              "url": "https://studiofutbol.com.ec/2026/06/08/video-el-descuento-jairo-velez-le-anoto-a-espana-con-la-seleccion-peruana/",
+              "source": "Studiofutbol"
+            },
+            {
+              "title": "Golazo de Jairo Vélez para descuento en Perú vs España en partido amistoso por fecha FIFA 2026",
+              "url": "https://www.infobae.com/peru/deportes/2026/06/09/gol-jairo-velez-peru-vs-espana-amistoso-fecha-fifa-2026-video-hoy/",
+              "source": "Infobae"
+            },
+            {
+              "title": "(VIDEO) EN RACHA: Perú cayó ante España, pero Jairo Vélez volvió a anotar",
+              "url": "https://onefootball.com/id/berita/video-en-racha-peru-cayo-ante-espana-pero-jairo-velez-volvio-a-anotar-42983656",
+              "source": "OneFootball"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "somalia",
+      "type": "noticia",
+      "slugSuggestion": "somalia",
+      "language": "en",
+      "geos": [
+        "GB"
+      ],
+      "score": 2640,
+      "reason": "Google Trends daily GB con 2,000 búsquedas · 3 artículos noticiosos referenciando \"somalia\"",
+      "proposedPath": "/noticias/somalia",
+      "evidence": [
+        {
+          "query": "somalia",
+          "geo": "GB",
+          "language": "en",
+          "source": "google-trends-daily",
+          "score": 2000,
+          "articles": [
+            {
+              "title": "World Cup 2026: Somali referee Omar Artan to miss tournament after being barred from entering US",
+              "url": "https://www.bbc.co.uk/sport/football/articles/cnv9drg0qzgo",
+              "source": "BBC"
+            },
+            {
+              "title": "Top African referee Omar Artan refused access to US and will miss World Cup",
+              "url": "https://www.theguardian.com/football/2026/jun/08/top-african-referee-omar-artan-refused-access-to-the-united-states",
+              "source": "The Guardian"
+            },
+            {
+              "title": "Somali referee set to officiate World Cup denied entry into US",
+              "url": "https://news.sky.com/story/somali-referee-set-to-officiate-world-cup-denied-entry-to-us-13552147",
+              "source": "Sky News"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "television channel",
+      "type": "noticia",
+      "slugSuggestion": "television-channel",
+      "language": "en",
+      "geos": [
+        "GB"
+      ],
+      "score": 2640,
+      "reason": "Google Trends daily GB con 2,000 búsquedas · 3 artículos noticiosos referenciando \"television channel\"",
+      "proposedPath": "/noticias/television-channel",
+      "evidence": [
+        {
+          "query": "television channel",
+          "geo": "GB",
+          "language": "en",
+          "source": "google-trends-daily",
+          "score": 2000,
+          "articles": [
+            {
+              "title": "World Cup 2026: The key issues set to dominate Fifa&apos;s summer showpiece",
+              "url": "https://www.bbc.co.uk/sport/football/articles/cg4wqr2ev33o",
+              "source": "BBC"
+            },
+            {
+              "title": "World Cup 2026 wallchart: print out your own here",
+              "url": "https://www.theguardian.com/football/picture/2026/jun/05/world-cup-2026-wallchart-print-out-your-own-here",
+              "source": "The Guardian"
+            },
+            {
+              "title": "World Cup 2026: Every key question answered about this summer&apos;s tournament in USA, Canada and Mexico",
+              "url": "https://www.skysports.com/football/news/11095/13548788/world-cup-2026-every-key-question-answered-about-this-summers-tournament-in-usa-canada-and-mexico",
+              "source": "Sky Sports"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "wc 2026 odds vodds",
+      "type": "noticia",
+      "slugSuggestion": "wc-2026-odds-vodds",
+      "language": "it",
+      "geos": [
+        "IT"
+      ],
+      "score": 2160,
+      "reason": "Google Trends daily IT con 2,000 búsquedas · 3 artículos noticiosos referenciando \"wc 2026 odds vodds\"",
+      "proposedPath": "/noticias/wc-2026-odds-vodds",
+      "evidence": [
+        {
+          "query": "wc 2026 odds vodds",
+          "geo": "IT",
+          "language": "it",
+          "source": "google-trends-daily",
+          "score": 2000,
+          "articles": [
+            {
+              "title": "World Cup 2026 Power Rankings, 48 hours out: Who is No. 1?",
+              "url": "https://www.espn.com/soccer/story/_/id/49001555/fifa-world-cup-power-rankings-spain-brazil-germany-england-argentina",
+              "source": "ESPN"
+            },
+            {
+              "title": "Our writers’ World Cup 2026 predictions: Winners? Breakthrough player? Best host nation? Shocks? - The Athletic",
+              "url": "https://www.nytimes.com/athletic/7339419/2026/06/08/world-cup-2026-usa-canada-mexico-predictions/",
+              "source": "The New York Times"
+            },
+            {
+              "title": "FIFA World Cup 2026 Power Rankings: USMNT hold steady ahead of opener vs. Paraguay: Portugal rise",
+              "url": "https://www.cbssports.com/soccer/news/fifa-world-cup-2026-power-rankings-usmnt-hold-steady-ahead-of-opener-vs-paraguay/",
+              "source": "CBS Sports"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "fifa world cup betting betmgm",
+      "type": "noticia",
+      "slugSuggestion": "fifa-world-cup-betting-betmgm",
+      "language": "es",
+      "geos": [
+        "CO"
+      ],
+      "score": 600,
+      "reason": "Google Trends daily CO con 500 búsquedas · 3 artículos noticiosos referenciando \"fifa world cup betting betmgm\"",
+      "proposedPath": "/noticias/fifa-world-cup-betting-betmgm",
+      "evidence": [
+        {
+          "query": "fifa world cup betting betmgm",
+          "geo": "CO",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 500,
+          "articles": [
+            {
+              "title": "Ultimate 2026 World Cup Gambling Guide: Picks, Predictions, Odds, Underdogs to Bet On",
+              "url": "https://www.foxsports.com/stories/soccer/ultimate-2026-world-cup-gambling-guide-odds-predictions-picks-underdogs",
+              "source": "FOX Sports"
+            },
+            {
+              "title": "How to bet on soccer: Everything you need to know before the World Cup kicks off",
+              "url": "https://www.espn.com/espn/betting/story/_/id/49002033/world-cup-2026-soccer-betting-spain-france-england-brazil-argentina",
+              "source": "ESPN"
+            },
+            {
+              "title": "2026 World Cup Odds and Best Bets to Win Every Group (Colombia, Paraguay, and Egypt Are Great Plus-Money Plays)",
+              "url": "https://www.si.com/betting/2026-world-cup-odds-and-best-bets-to-win-every-group-colombia-paraguay-and-egypt-are-great-plus-money-plays-01ktmbkgc6pj",
+              "source": "Sports Illustrated"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "équipe d&apos;algérie de football",
+      "type": "noticia",
+      "slugSuggestion": "equipe-d-apos-algerie-de-football",
+      "language": "fr",
+      "geos": [
+        "FR"
+      ],
+      "score": 600,
+      "reason": "Google Trends daily FR con 500 búsquedas · 3 artículos noticiosos referenciando \"équipe d&apos;algérie de football\"",
+      "proposedPath": "/noticias/equipe-d-apos-algerie-de-football",
+      "evidence": [
+        {
+          "query": "équipe d&apos;algérie de football",
+          "geo": "FR",
+          "language": "fr",
+          "source": "google-trends-daily",
+          "score": 500,
+          "articles": [
+            {
+              "title": "Coupe du monde 2026 : tout savoir sur l’Algérie dans le groupe J",
+              "url": "https://www.lemonde.fr/sport/article/2026/06/08/coupe-du-monde-2026-tout-savoir-sur-l-algerie-dans-le-groupe-j_6699372_3242.html",
+              "source": "Le Monde.fr"
+            },
+            {
+              "title": "Coupe du monde 2026: de retour 12 ans après, l&apos;Algérie peut-elle choquer la planète foot?",
+              "url": "https://rmcsport.bfmtv.com/football/coupe-du-monde/coupe-du-monde-2026-de-retour-12-ans-apres-l-algerie-peut-elle-choquer-la-planete-foot_AV-202606090421.html",
+              "source": "RMC Sport"
+            },
+            {
+              "title": "Algérie - Mahrez : \"Essayer de faire quelque chose qui rendra fiers nos proches et notre pays\"",
+              "url": "https://sports.orange.fr/videos/football/algerie-mahrez-essayer-de-faire-quelque-chose-qui-rendra-fiers-nos-proches-et-notre-pays-CNT000002pQfnc.html",
+              "source": "Sports - Orange"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "scotland vs pakistan",
+      "type": "noticia",
+      "slugSuggestion": "scotland-vs-pakistan",
+      "language": "en",
+      "geos": [
+        "GB"
+      ],
+      "score": 264,
+      "reason": "Google Trends daily GB con 200 búsquedas · 3 artículos noticiosos referenciando \"scotland vs pakistan\"",
+      "proposedPath": "/noticias/scotland-vs-pakistan",
+      "evidence": [
+        {
+          "query": "scotland vs pakistan",
+          "geo": "GB",
+          "language": "en",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "A commanding chase from Sri Lanka in Derby | Match Highlights | Women&apos;s T20WC 2026 warm-ups",
+              "url": "https://www.icc-cricket.com/tournaments/womens-t20-worldcup-2026/videos/a-commanding-chase-from-sri-lanka-in-derby-match-highlights-women-s-t20wc-2026-warm-ups",
+              "source": "ICC"
+            },
+            {
+              "title": "SCO W vs PAK W LIVE Streaming APP: How to Watch Women’s ICC T20 World Cup 2026 Warm-Up Match Scotland vs Pakistan LIVE in India on Mobile APP, TV, Laptop",
+              "url": "https://sundayguardianlive.com/sports/sco-w-vs-pak-w-live-streaming-app-how-to-watch-womens-icc-t20-world-cup-2026-warm-up-match-scotland-vs-pakistan-live-in-india-on-mobile-app-tv-laptop-203766/",
+              "source": "The Sunday Guardian"
+            },
+            {
+              "title": "Chamari Athapaththu Hits 94 as Sri Lanka Women Ease Past Pakistan in 9-Wicket Win",
+              "url": "https://femalecricket.com/icc-womens-t20-world-cup-2026-warmup-games/91020-chamari-athapaththu-hits-94-as-sri-lanka-women-ease-past-pakistan-in-9-wicket-win.html",
+              "source": "Female Cricket"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "ronald araújo",
+      "type": "noticia",
+      "slugSuggestion": "ronald-araujo",
+      "language": "es",
+      "geos": [
+        "UY"
+      ],
+      "score": 216,
+      "reason": "Google Trends daily UY con 200 búsquedas · 3 artículos noticiosos referenciando \"ronald araújo\"",
+      "proposedPath": "/noticias/ronald-araujo",
+      "evidence": [
+        {
+          "query": "ronald araújo",
+          "geo": "UY",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Mundial 2026: las dudas en la defensa uruguaya y la inactividad de posibles titulares",
+              "url": "https://www.montevideo.com.uy/Deportes/Mundial-2026-las-dudas-en-la-defensa-uruguaya-y-la-inactividad-de-posibles-titulares-uc964546",
+              "source": "Montevideo Portal"
+            },
+            {
+              "title": "¿Qué tiene Ronald Araújo y por qué viajó a España?",
+              "url": "https://ladiaria.com.uy/deporte/articulo/2026/6/ronald-araujo-la-lesion-y-viaje-relampago-a-espana/",
+              "source": "la diaria"
+            },
+            {
+              "title": "Ronald Araujo y una historia que se repite: se perdió 17 de 50 partidos oficiales de Uruguay por lesión",
+              "url": "https://www.elpais.com.uy/ovacion/futbol/ronald-araujo-y-una-historia-que-se-repite-se-perdio-17-de-50-partidos-oficiales-de-uruguay-por-lesion",
+              "source": "EL PAÍS Uruguay"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "radio mars",
+      "type": "noticia",
+      "slugSuggestion": "radio-mars",
+      "language": "fr",
+      "geos": [
+        "MA"
+      ],
+      "score": 216,
+      "reason": "Google Trends daily MA con 200 búsquedas · 3 artículos noticiosos referenciando \"radio mars\"",
+      "proposedPath": "/noticias/radio-mars",
+      "evidence": [
+        {
+          "query": "radio mars",
+          "geo": "MA",
+          "language": "fr",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "C’est le Brésil qui doit avoir peur!",
+              "url": "https://sport.le360.ma/coupe-du-monde/cest-le-bresil-qui-doit-avoir-peur_YUBOYE2L4ZGOXMJOFFWZBLHMYQ/",
+              "source": "Le360 Sport"
+            },
+            {
+              "title": "Médias Brésiliens: Le Maroc considéré comme un sérieux rival de la Seleção",
+              "url": "https://radiomars.ma/fr/?p=2353",
+              "source": "radiomars"
+            },
+            {
+              "title": "Coupe du monde 2026: Brésil, Maroc... La composition et le calendrier du groupe C du Mondial",
+              "url": "https://rmcsport.bfmtv.com/football/coupe-du-monde/coupe-du-monde-2026-bresil-maroc-la-composition-et-le-calendrier-du-groupe-c-du-mondial_AV-202606080002.html",
+              "source": "RMC Sport"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "fifa world cup betting betmgm",
+      "type": "noticia",
+      "slugSuggestion": "fifa-world-cup-betting-betmgm",
+      "language": "fr",
+      "geos": [
+        "MA"
+      ],
+      "score": 216,
+      "reason": "Google Trends daily MA con 200 búsquedas · 3 artículos noticiosos referenciando \"fifa world cup betting betmgm\"",
+      "proposedPath": "/noticias/fifa-world-cup-betting-betmgm",
+      "evidence": [
+        {
+          "query": "fifa world cup betting betmgm",
+          "geo": "MA",
+          "language": "fr",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Ultimate 2026 World Cup Gambling Guide: Picks, Predictions, Odds, Underdogs to Bet On",
+              "url": "https://www.foxsports.com/stories/soccer/ultimate-2026-world-cup-gambling-guide-odds-predictions-picks-underdogs",
+              "source": "FOX Sports"
+            },
+            {
+              "title": "How to bet on soccer: Everything you need to know before the World Cup kicks off",
+              "url": "https://www.espn.com/espn/betting/story/_/id/49002033/world-cup-2026-soccer-betting-spain-france-england-brazil-argentina",
+              "source": "ESPN"
+            },
+            {
+              "title": "2026 World Cup Odds and Best Bets to Win Every Group (Colombia, Paraguay, and Egypt Are Great Plus-Money Plays)",
+              "url": "https://www.si.com/betting/2026-world-cup-odds-and-best-bets-to-win-every-group-colombia-paraguay-and-egypt-are-great-plus-money-plays-01ktmbkgc6pj",
+              "source": "Sports Illustrated"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alreadyCovered": [
+    {
+      "query": "españa fc",
+      "matchUrl": "/ediciones/1982-espana"
+    },
+    {
+      "query": "mundial 2026",
+      "matchUrl": "/coleccionismo/panini-mundial-2026"
+    },
+    {
+      "query": "españa vs",
+      "matchUrl": "/ediciones/1982-espana"
+    },
+    {
+      "query": "2026",
+      "matchUrl": "/2026"
+    }
+  ]
+}

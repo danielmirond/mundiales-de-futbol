@@ -33,6 +33,16 @@ export async function generateMetadata({
 
 const RECORDS = [
   {
+    slug: 'clasificacion-historica',
+    icon: Trophy,
+    title: 'Clasificación histórica',
+    description: 'La tabla de posiciones de TODOS los Mundiales (1930-2022): las 80 selecciones por puntos, partidos y goles. Brasil manda.',
+    badge: '1930-2022',
+    color: 'text-amber-300',
+    accent: 'border-amber-500/30 bg-amber-500/5',
+    available: true,
+  },
+  {
     slug: 'maximos-goleadores',
     icon: Goal,
     title: 'Máximos goleadores',
@@ -100,6 +110,26 @@ const RECORDS = [
     badge: 'Ranking',
     color: 'text-orange-300',
     accent: 'border-orange-500/30 bg-orange-500/5',
+    available: true,
+  },
+  {
+    slug: 'goles-por-seleccion',
+    icon: Goal,
+    title: 'Goles por selección en Mundiales',
+    description: 'Brasil 237, Alemania 232, Argentina 152, España 108. Tabla con goles a favor de cada selección en fases finales del Mundial desde 1930.',
+    badge: '43 selecciones',
+    color: 'text-emerald-300',
+    accent: 'border-emerald-500/30 bg-emerald-500/5',
+    available: true,
+  },
+  {
+    slug: 'mundiales-por-pais',
+    icon: Users,
+    title: 'Mundiales ganados por país',
+    description: 'Brasil 5, Alemania e Italia 4, Argentina 3, Francia y Uruguay 2, Inglaterra y España 1. Quiénes han ganado, quiénes han llegado a la final, quiénes nunca.',
+    badge: 'Palmarés',
+    color: 'text-amber-300',
+    accent: 'border-amber-500/30 bg-amber-500/5',
     available: true,
   },
 ];

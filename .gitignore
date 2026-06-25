@@ -46,3 +46,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+coverage-report-*.md
+
+# GSC: informes y clave de cuenta de servicio (NUNCA commitear)
+/gsc/
+**/*service*account*.json
+mundiales-500017-*.json

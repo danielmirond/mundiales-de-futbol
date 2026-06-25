@@ -1,0 +1,227 @@
+{
+  "generatedAt": "2026-05-28T10:42:00.251Z",
+  "date": "2026-05-28",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "abde",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Mundial 2026: Marruecos confirmó la lista de convocados",
+          "url": "https://www.espn.com.pe/futbol/mundial/nota/_/id/16762770/marruecos-lista-definitiva-copa-del-mundo-2026",
+          "source": "espn.com.pe"
+        },
+        {
+          "title": "Un león al que ya no se puede menospreciar",
+          "url": "https://www.ucvradio.pe/mas-actualidad/un-leon-al-que-ya-no-se-puede-menospreciar/213210/",
+          "source": "ucvradio.pe"
+        },
+        {
+          "title": "Listas confirmadas: Estados Unidos y Marruecos revelan sus 26 convocados para el Mundial 2026",
+          "url": "https://latinanoticias.pe/deportes/listas-confirmadas-estados-unidos-y-marruecos-revelan-sus-26-convocados-para-el-mundial-2026_20260526/",
+          "source": "Latina Noticias"
+        }
+      ]
+    },
+    {
+      "query": "world cup sweepstake",
+      "geo": "GB",
+      "language": "en",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "How to run a FIFA World Cup 2026 sweepstake: Free kit and generator download",
+          "url": "https://www.sportinglife.com/football/news/how-to-run-a-fifa-world-cup-2026-sweepstake-free-kit-and-generator-download/232341",
+          "source": "Sporting Life"
+        },
+        {
+          "title": "World Cup 2026 sweepstake: Download your free printable pack",
+          "url": "https://metro.co.uk/2026/05/20/world-cup-2026-sweepstake-download-free-printable-pack-28335160/",
+          "source": "Metro.co.uk"
+        },
+        {
+          "title": "&apos;Relegate The Sweepstake&apos; Kicks off LEBOM’s World Cup Campaign",
+          "url": "https://lbbonline.com/news/Relegate-The-Sweepstake-kicks-off-LEBOMs-World-Cup-campaign",
+          "source": "Little Black Book | LBBOnline"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "es": [
+      {
+        "query": "abde",
+        "score": 90,
+        "geos": [
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "abde",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Mundial 2026: Marruecos confirmó la lista de convocados",
+                "url": "https://www.espn.com.pe/futbol/mundial/nota/_/id/16762770/marruecos-lista-definitiva-copa-del-mundo-2026",
+                "source": "espn.com.pe"
+              },
+              {
+                "title": "Un león al que ya no se puede menospreciar",
+                "url": "https://www.ucvradio.pe/mas-actualidad/un-leon-al-que-ya-no-se-puede-menospreciar/213210/",
+                "source": "ucvradio.pe"
+              },
+              {
+                "title": "Listas confirmadas: Estados Unidos y Marruecos revelan sus 26 convocados para el Mundial 2026",
+                "url": "https://latinanoticias.pe/deportes/listas-confirmadas-estados-unidos-y-marruecos-revelan-sus-26-convocados-para-el-mundial-2026_20260526/",
+                "source": "Latina Noticias"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "en": [
+      {
+        "query": "world cup sweepstake",
+        "score": 110.00000000000001,
+        "geos": [
+          "GB"
+        ],
+        "samples": [
+          {
+            "query": "world cup sweepstake",
+            "geo": "GB",
+            "language": "en",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "How to run a FIFA World Cup 2026 sweepstake: Free kit and generator download",
+                "url": "https://www.sportinglife.com/football/news/how-to-run-a-fifa-world-cup-2026-sweepstake-free-kit-and-generator-download/232341",
+                "source": "Sporting Life"
+              },
+              {
+                "title": "World Cup 2026 sweepstake: Download your free printable pack",
+                "url": "https://metro.co.uk/2026/05/20/world-cup-2026-sweepstake-download-free-printable-pack-28335160/",
+                "source": "Metro.co.uk"
+              },
+              {
+                "title": "&apos;Relegate The Sweepstake&apos; Kicks off LEBOM’s World Cup Campaign",
+                "url": "https://lbbonline.com/news/Relegate-The-Sweepstake-kicks-off-LEBOMs-World-Cup-campaign",
+                "source": "Little Black Book | LBBOnline"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "topic": "world cup sweepstake",
+      "type": "noticia",
+      "slugSuggestion": "world-cup-sweepstake",
+      "language": "en",
+      "geos": [
+        "GB"
+      ],
+      "score": 132,
+      "reason": "Google Trends daily GB con 100 búsquedas · 3 artículos noticiosos referenciando \"world cup sweepstake\"",
+      "proposedPath": "/noticias/world-cup-sweepstake",
+      "evidence": [
+        {
+          "query": "world cup sweepstake",
+          "geo": "GB",
+          "language": "en",
+          "source": "google-trends-daily",
+          "score": 100,
+          "articles": [
+            {
+              "title": "How to run a FIFA World Cup 2026 sweepstake: Free kit and generator download",
+              "url": "https://www.sportinglife.com/football/news/how-to-run-a-fifa-world-cup-2026-sweepstake-free-kit-and-generator-download/232341",
+              "source": "Sporting Life"
+            },
+            {
+              "title": "World Cup 2026 sweepstake: Download your free printable pack",
+              "url": "https://metro.co.uk/2026/05/20/world-cup-2026-sweepstake-download-free-printable-pack-28335160/",
+              "source": "Metro.co.uk"
+            },
+            {
+              "title": "&apos;Relegate The Sweepstake&apos; Kicks off LEBOM’s World Cup Campaign",
+              "url": "https://lbbonline.com/news/Relegate-The-Sweepstake-kicks-off-LEBOMs-World-Cup-campaign",
+              "source": "Little Black Book | LBBOnline"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "abde",
+      "type": "noticia",
+      "slugSuggestion": "abde",
+      "language": "es",
+      "geos": [
+        "PE"
+      ],
+      "score": 108,
+      "reason": "Google Trends daily PE con 100 búsquedas · 3 artículos noticiosos referenciando \"abde\"",
+      "proposedPath": "/noticias/abde",
+      "evidence": [
+        {
+          "query": "abde",
+          "geo": "PE",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 100,
+          "articles": [
+            {
+              "title": "Mundial 2026: Marruecos confirmó la lista de convocados",
+              "url": "https://www.espn.com.pe/futbol/mundial/nota/_/id/16762770/marruecos-lista-definitiva-copa-del-mundo-2026",
+              "source": "espn.com.pe"
+            },
+            {
+              "title": "Un león al que ya no se puede menospreciar",
+              "url": "https://www.ucvradio.pe/mas-actualidad/un-leon-al-que-ya-no-se-puede-menospreciar/213210/",
+              "source": "ucvradio.pe"
+            },
+            {
+              "title": "Listas confirmadas: Estados Unidos y Marruecos revelan sus 26 convocados para el Mundial 2026",
+              "url": "https://latinanoticias.pe/deportes/listas-confirmadas-estados-unidos-y-marruecos-revelan-sus-26-convocados-para-el-mundial-2026_20260526/",
+              "source": "Latina Noticias"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alreadyCovered": []
+}

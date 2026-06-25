@@ -1,0 +1,653 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Mockup · Mundial 2026 protagonista · mundiales-de-futbol.com</title>
+  <meta name="robots" content="noindex,nofollow">
+  <style>
+    :root {
+      --bg: #0a0a0a;
+      --bg-2: #141414;
+      --bg-3: #1c1c1c;
+      --fg: #f5f5f5;
+      --fg-muted: #b8b8b8;
+      --fg-subtle: #7a7a7a;
+      --border: #2a2a2a;
+      --border-strong: #3a3a3a;
+      --pitch: #1ed760;
+      --pitch-dim: #16a34a;
+      --pitch-glow: rgba(30,215,96,0.12);
+      --red-live: #ef4444;
+      --gold: #d4a017;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body {
+      background: var(--bg);
+      color: var(--fg);
+      font-family: -apple-system, BlinkMacSystemFont, "Inter", "SF Pro Display", "Segoe UI", system-ui, sans-serif;
+      font-size: 15px;
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: inherit; text-decoration: none; }
+    button { font: inherit; color: inherit; background: transparent; border: 0; cursor: pointer; }
+    .mono { font-family: ui-monospace, "SF Mono", Menlo, monospace; }
+    .uppercase { text-transform: uppercase; }
+    .tab-num { font-variant-numeric: tabular-nums; }
+    .tag-display {
+      font-family: "Inter Tight", "Inter", system-ui, sans-serif;
+      font-weight: 900;
+      letter-spacing: -0.02em;
+      line-height: 0.95;
+    }
+
+    /* ── Sticky bar 2026 ───────────────────────────────── */
+    .sticky-bar {
+      position: sticky; top: 0; z-index: 50;
+      background: linear-gradient(180deg, var(--bg) 0%, rgba(10,10,10,0.92) 100%);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid var(--border);
+    }
+    .sticky-bar-inner {
+      max-width: 1400px; margin: 0 auto;
+      padding: 14px 24px;
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      gap: 24px;
+      align-items: center;
+    }
+    .logo {
+      font-size: 14px; font-weight: 700; letter-spacing: -0.01em;
+      display: flex; align-items: center; gap: 8px;
+    }
+    .logo .dot { width: 8px; height: 8px; background: var(--pitch); border-radius: 50%; box-shadow: 0 0 12px var(--pitch-glow); }
+    .countdown-pill {
+      display: inline-flex; align-items: center; gap: 12px;
+      padding: 6px 14px;
+      background: var(--pitch-glow);
+      border: 1px solid var(--pitch);
+      border-radius: 999px;
+      font-size: 12px; letter-spacing: 0.1em;
+    }
+    .countdown-pill .label { color: var(--pitch); }
+    .countdown-pill .live { color: var(--red-live); animation: pulse 1.5s ease-in-out infinite; }
+    .ticker {
+      font-size: 13px; color: var(--fg-muted);
+      display: flex; align-items: center; gap: 12px;
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    }
+    .ticker strong { color: var(--fg); font-weight: 600; }
+    .quick-nav {
+      display: flex; align-items: center; gap: 16px;
+    }
+    .quick-nav a {
+      font-size: 11px; letter-spacing: 0.15em;
+      text-transform: uppercase; color: var(--fg-muted);
+      transition: color 0.2s;
+    }
+    .quick-nav a:hover { color: var(--pitch); }
+    .quick-nav .locale {
+      padding: 4px 10px; border: 1px solid var(--border-strong); border-radius: 999px;
+      font-size: 11px;
+    }
+    @keyframes pulse {
+      0%,100% { opacity: 1; }
+      50% { opacity: 0.5; }
+    }
+
+    /* ── Container general ─────────────────────────────── */
+    main { max-width: 1400px; margin: 0 auto; padding: 0 24px; }
+
+    /* ── Hero ──────────────────────────────────────────── */
+    .hero {
+      padding: 96px 0 80px;
+      border-bottom: 1px solid var(--border);
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: ""; position: absolute; inset: 0;
+      background:
+        radial-gradient(ellipse at top right, var(--pitch-glow) 0%, transparent 60%),
+        radial-gradient(ellipse at bottom left, rgba(212,160,23,0.08) 0%, transparent 50%);
+      z-index: 0;
+    }
+    .hero > * { position: relative; z-index: 1; }
+    .hero-kicker {
+      font-size: 11px; letter-spacing: 0.3em; color: var(--pitch);
+      text-transform: uppercase; margin-bottom: 24px;
+    }
+    .hero-title {
+      font-size: clamp(48px, 9vw, 130px);
+      font-weight: 900;
+      letter-spacing: -0.04em;
+      line-height: 0.85;
+      text-transform: uppercase;
+      margin-bottom: 32px;
+    }
+    .hero-subtitle {
+      font-size: 18px; color: var(--fg-muted);
+      max-width: 600px; margin-bottom: 48px;
+    }
+    .hero-countdown {
+      display: grid; grid-template-columns: repeat(4, auto);
+      gap: 16px; margin-bottom: 48px;
+    }
+    .hero-countdown .unit {
+      padding: 16px 24px;
+      background: var(--bg-2); border: 1px solid var(--border);
+      border-radius: 16px; text-align: center;
+    }
+    .hero-countdown .unit .num {
+      font-family: "Inter Tight", system-ui, sans-serif;
+      font-size: 36px; font-weight: 800; line-height: 1;
+      color: var(--pitch); margin-bottom: 4px;
+    }
+    .hero-countdown .unit .lbl {
+      font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase;
+      color: var(--fg-subtle);
+    }
+    .hero-ctas { display: flex; gap: 12px; flex-wrap: wrap; }
+    .btn-primary {
+      padding: 12px 24px; background: var(--pitch); color: #000;
+      border-radius: 999px; font-weight: 600; font-size: 14px;
+      transition: transform 0.2s;
+    }
+    .btn-primary:hover { transform: scale(1.03); }
+    .btn-secondary {
+      padding: 12px 24px;
+      border: 1px solid var(--border-strong); border-radius: 999px;
+      font-size: 14px; transition: border-color 0.2s;
+    }
+    .btn-secondary:hover { border-color: var(--pitch); color: var(--pitch); }
+
+    /* ── Section ───────────────────────────────────────── */
+    section.block {
+      padding: 80px 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .section-kicker {
+      font-size: 11px; letter-spacing: 0.3em;
+      color: var(--pitch); text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+    .section-title {
+      font-size: clamp(28px, 4vw, 44px);
+      font-weight: 800; letter-spacing: -0.02em;
+      text-transform: uppercase; line-height: 1.0;
+      margin-bottom: 32px;
+    }
+
+    /* ── Hoy en el Mundial ─────────────────────────────── */
+    .news-tabs {
+      display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 32px;
+    }
+    .news-tab {
+      padding: 8px 16px; background: var(--bg-2);
+      border: 1px solid var(--border); border-radius: 999px;
+      font-size: 12px;
+    }
+    .news-tab.active { background: var(--pitch); color: #000; border-color: var(--pitch); }
+    .news-grid {
+      display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px;
+    }
+    @media (max-width: 900px) { .news-grid { grid-template-columns: 1fr 1fr; } }
+    @media (max-width: 600px) { .news-grid { grid-template-columns: 1fr; } }
+    .news-card {
+      padding: 20px;
+      background: var(--bg-2); border: 1px solid var(--border);
+      border-radius: 16px; cursor: pointer;
+      transition: border-color 0.2s, transform 0.2s;
+    }
+    .news-card:hover { border-color: var(--pitch); transform: translateY(-2px); }
+    .news-flag { font-size: 28px; margin-bottom: 12px; }
+    .news-title { font-size: 14px; font-weight: 600; line-height: 1.3; margin-bottom: 8px; }
+    .news-summary { font-size: 12px; color: var(--fg-muted); line-height: 1.4; }
+    .news-date { font-size: 10px; letter-spacing: 0.2em; color: var(--fg-subtle); margin-top: 12px; text-transform: uppercase; }
+
+    /* ── Grupos heatmap ────────────────────────────────── */
+    .groups-grid {
+      display: grid; grid-template-columns: repeat(12, 1fr); gap: 8px;
+    }
+    @media (max-width: 1200px) { .groups-grid { grid-template-columns: repeat(6, 1fr); } }
+    @media (max-width: 700px) { .groups-grid { grid-template-columns: repeat(4, 1fr); } }
+    .group-col {
+      background: var(--bg-2); border: 1px solid var(--border);
+      border-radius: 12px; padding: 12px 8px; text-align: center;
+    }
+    .group-col .letter {
+      font-family: "Inter Tight"; font-weight: 800;
+      font-size: 18px; color: var(--pitch); margin-bottom: 12px;
+    }
+    .group-col .team {
+      font-size: 22px; line-height: 1.6; cursor: pointer;
+      transition: transform 0.2s;
+    }
+    .group-col .team:hover { transform: scale(1.2); }
+    .group-col .team.host::after { content: "★"; color: var(--gold); font-size: 10px; vertical-align: super; }
+    .group-col .team.fav { box-shadow: 0 0 0 2px var(--pitch); border-radius: 4px; }
+
+    /* ── Hoy en la historia ────────────────────────────── */
+    .history-card {
+      background: var(--bg-2); border: 1px solid var(--border);
+      border-radius: 24px; padding: 40px;
+      display: grid; grid-template-columns: 2fr 1fr; gap: 32px;
+    }
+    @media (max-width: 900px) { .history-card { grid-template-columns: 1fr; } }
+    .history-content h3 {
+      font-family: "Inter Tight"; font-weight: 800;
+      font-size: 28px; line-height: 1.1; margin-bottom: 12px;
+    }
+    .history-content p { color: var(--fg-muted); margin-bottom: 24px; }
+    .history-nav {
+      display: flex; gap: 16px; flex-wrap: wrap; font-size: 12px;
+    }
+    .history-nav a {
+      color: var(--fg-subtle); padding: 8px 12px;
+      background: var(--bg); border-radius: 999px;
+      transition: color 0.2s;
+    }
+    .history-nav a:hover { color: var(--pitch); }
+    .history-aside {
+      background: var(--bg); border-radius: 16px; padding: 24px;
+      align-self: start;
+    }
+    .history-aside .label { font-size: 10px; letter-spacing: 0.3em; color: var(--pitch); text-transform: uppercase; margin-bottom: 8px; }
+    .history-aside .quote {
+      font-family: "Inter Tight"; font-style: italic; font-size: 15px;
+      line-height: 1.4; color: var(--fg);
+    }
+    .history-aside .author { font-size: 11px; color: var(--fg-subtle); margin-top: 12px; }
+
+    /* ── Hub coleccionismo ─────────────────────────────── */
+    .shop-grid {
+      display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px;
+    }
+    @media (max-width: 800px) { .shop-grid { grid-template-columns: 1fr; } }
+    .shop-card {
+      padding: 32px;
+      background: var(--bg-2); border: 1px solid var(--border);
+      border-radius: 24px; cursor: pointer;
+      transition: border-color 0.2s, transform 0.2s;
+    }
+    .shop-card:hover { border-color: var(--pitch); transform: translateY(-4px); }
+    .shop-card .icon { font-size: 40px; margin-bottom: 16px; }
+    .shop-card h3 { font-family: "Inter Tight"; font-weight: 800; font-size: 22px; margin-bottom: 12px; text-transform: uppercase; }
+    .shop-card p { color: var(--fg-muted); font-size: 14px; line-height: 1.4; margin-bottom: 16px; }
+    .shop-card .price { font-family: "Inter Tight"; font-weight: 800; font-size: 18px; color: var(--pitch); }
+
+    /* ── Hemeroteca ────────────────────────────────────── */
+    .timeline {
+      display: grid; grid-template-columns: repeat(11, 1fr); gap: 4px;
+      margin-bottom: 16px;
+    }
+    @media (max-width: 900px) { .timeline { grid-template-columns: repeat(6, 1fr); } }
+    @media (max-width: 500px) { .timeline { grid-template-columns: repeat(4, 1fr); } }
+    .year {
+      padding: 14px 8px; background: var(--bg-2);
+      border: 1px solid var(--border); border-radius: 10px;
+      text-align: center; cursor: pointer; transition: background 0.2s;
+    }
+    .year:hover { background: var(--bg-3); border-color: var(--pitch); }
+    .year .num { font-family: "Inter Tight"; font-weight: 800; font-size: 14px; color: var(--fg-subtle); }
+    .year .flag { font-size: 22px; margin-top: 4px; }
+    .year.upcoming { background: var(--pitch-glow); border-color: var(--pitch); }
+    .year.upcoming .num { color: var(--pitch); }
+
+    /* ── Footer mockup ─────────────────────────────────── */
+    footer {
+      padding: 40px 24px; text-align: center;
+      color: var(--fg-subtle); font-size: 12px;
+      border-top: 1px solid var(--border);
+    }
+    footer .note {
+      max-width: 600px; margin: 0 auto;
+      padding: 16px; background: var(--bg-2); border-radius: 12px;
+      font-family: ui-monospace, monospace; font-size: 11px;
+      line-height: 1.5;
+    }
+
+    /* Tooltip on click */
+    .toast {
+      position: fixed; bottom: 24px; right: 24px;
+      padding: 12px 20px; background: var(--pitch); color: #000;
+      border-radius: 12px; font-size: 13px; font-weight: 600;
+      transform: translateY(100px); opacity: 0;
+      transition: transform 0.3s, opacity 0.3s;
+      z-index: 100; max-width: 320px;
+    }
+    .toast.show { transform: translateY(0); opacity: 1; }
+  </style>
+</head>
+<body>
+
+  <!-- ──────────────── STICKY BAR 2026 ──────────────── -->
+  <div class="sticky-bar">
+    <div class="sticky-bar-inner">
+      <a href="#" class="logo" data-link="/">
+        <span class="dot"></span>
+        mundiales <span style="color:var(--fg-subtle)">de fútbol</span>
+      </a>
+
+      <div class="ticker">
+        <span class="countdown-pill">
+          <span class="label mono uppercase">Mundial 2026</span>
+          <span class="tab-num" id="cdSmall">31d 06h 14m</span>
+        </span>
+        <span style="opacity:0.7">·</span>
+        <span>Inaugural <strong>🇲🇽 MEX vs RSA 🇿🇦</strong> · 11 jun · Azteca</span>
+      </div>
+
+      <div class="quick-nav">
+        <a href="#" data-link="/2026/calendario">Calendario</a>
+        <a href="#" data-link="/2026/grupos">Grupos</a>
+        <a href="#" data-link="/2026/entradas">Entradas</a>
+        <span class="locale">ES ▾</span>
+      </div>
+    </div>
+  </div>
+
+  <main>
+
+    <!-- ──────────────── HERO ──────────────── -->
+    <section class="hero">
+      <div class="hero-kicker">Cuenta atrás · 11 junio 2026 · USA · Canadá · México</div>
+      <h1 class="hero-title">
+        Mundial<br>
+        <span style="color:var(--pitch)">2026</span>
+      </h1>
+      <p class="hero-subtitle">
+        48 selecciones · 104 partidos · 16 sedes en 3 países.
+        La primera Copa del Mundo del fútbol moderno empieza el 11 de junio.
+      </p>
+
+      <div class="hero-countdown">
+        <div class="unit"><div class="num tab-num" id="dd">31</div><div class="lbl">días</div></div>
+        <div class="unit"><div class="num tab-num" id="hh">06</div><div class="lbl">horas</div></div>
+        <div class="unit"><div class="num tab-num" id="mm">14</div><div class="lbl">minutos</div></div>
+        <div class="unit"><div class="num tab-num" id="ss">22</div><div class="lbl">segundos</div></div>
+      </div>
+
+      <div class="hero-ctas">
+        <a href="#" class="btn-primary" data-link="/2026/calendario">📅 Ver calendario completo</a>
+        <a href="#" class="btn-secondary" data-link="/2026/grupos">⚽ Grupos A-L</a>
+        <a href="#" class="btn-secondary" data-link="/2026/entradas">🎟️ Entradas</a>
+        <a href="#" class="btn-secondary" data-link="/coleccionismo/camisetas-mundial-2026">👕 Camisetas oficiales</a>
+      </div>
+    </section>
+
+    <!-- ──────────────── HOY EN EL MUNDIAL ──────────────── -->
+    <section class="block">
+      <div class="section-kicker">Hoy en el Mundial · 12 mayo</div>
+      <h2 class="section-title">Últimas noticias</h2>
+
+      <div class="news-tabs">
+        <button class="news-tab active">Todas</button>
+        <button class="news-tab">Convocatorias</button>
+        <button class="news-tab">Panini</button>
+        <button class="news-tab">TV / Streaming</button>
+        <button class="news-tab">Polémica</button>
+        <button class="news-tab">Patrocinios</button>
+      </div>
+
+      <div class="news-grid">
+        <div class="news-card" data-link="/noticias/suecia-lista-definitiva-26">
+          <div class="news-flag">🇸🇪</div>
+          <div class="news-title">Suecia se adelanta: Potter publica los 26 definitivos del Mundial</div>
+          <div class="news-summary">Primera federación en saltarse la fase de prelista. Isak entra pese a lesión. Kulusevski fuera.</div>
+          <div class="news-date mono">12 may · convocatorias</div>
+        </div>
+        <div class="news-card" data-link="/noticias/prelista-argentina-2026">
+          <div class="news-flag">🇦🇷</div>
+          <div class="news-title">Argentina entrega su prelista: Messi sí, Dybala no, Mastantuono entra</div>
+          <div class="news-summary">Scaloni firma los 55 con Messi rumbo a su último Mundial. 20 campeones de Qatar 2022 dentro.</div>
+          <div class="news-date mono">11 may · convocatorias</div>
+        </div>
+        <div class="news-card" data-link="/noticias/prelista-brasil-2026">
+          <div class="news-flag">🇧🇷</div>
+          <div class="news-title">Brasil envía la prelista: Ancelotti rescata a Neymar, Rodrygo fuera</div>
+          <div class="news-summary">El italiano apuesta por el cuarto Mundial de Neymar. Estêvão Willian fuera por lesión grado 4.</div>
+          <div class="news-date mono">11 may · convocatorias</div>
+        </div>
+        <div class="news-card" data-link="/noticias/fifa-panini-collection-app">
+          <div class="news-flag">📱</div>
+          <div class="news-title">FIFA y Panini lanzan la app oficial con Coca-Cola: 528 cromos digitales</div>
+          <div class="news-summary">Escanea etiquetas de Coca-Cola y sobres físicos para conseguir packs gratis a diario.</div>
+          <div class="news-date mono">11 may · panini</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ──────────────── GRUPOS HEATMAP ──────────────── -->
+    <section class="block">
+      <div class="section-kicker">Fase de grupos</div>
+      <h2 class="section-title">Los 12 grupos del Mundial</h2>
+
+      <div class="groups-grid">
+        <div class="group-col">
+          <div class="letter">A</div>
+          <div class="team host" data-link="/selecciones/MEX">🇲🇽</div>
+          <div class="team" data-link="/selecciones/ZAF">🇿🇦</div>
+          <div class="team" data-link="/selecciones/IRN">🇮🇷</div>
+          <div class="team" data-link="/selecciones/KOR">🇰🇷</div>
+        </div>
+        <div class="group-col">
+          <div class="letter">B</div>
+          <div class="team host" data-link="/selecciones/CAN">🇨🇦</div>
+          <div class="team" data-link="/selecciones/ECU">🇪🇨</div>
+          <div class="team" data-link="/selecciones/SCO">🏴</div>
+          <div class="team" data-link="/selecciones/TUR">🇹🇷</div>
+        </div>
+        <div class="group-col">
+          <div class="letter">C</div>
+          <div class="team host" data-link="/selecciones/USA">🇺🇸</div>
+          <div class="team" data-link="/selecciones/MAR">🇲🇦</div>
+          <div class="team" data-link="/selecciones/QAT">🇶🇦</div>
+          <div class="team" data-link="/selecciones/BIH">🇧🇦</div>
+        </div>
+        <div class="group-col">
+          <div class="letter">D</div>
+          <div class="team" data-link="/selecciones/BRA">🇧🇷</div>
+          <div class="team" data-link="/selecciones/PAR">🇵🇾</div>
+          <div class="team" data-link="/selecciones/HAI">🇭🇹</div>
+          <div class="team" data-link="/selecciones/AUS">🇦🇺</div>
+        </div>
+        <div class="group-col">
+          <div class="letter">E</div>
+          <div class="team" data-link="/selecciones/GER">🇩🇪</div>
+          <div class="team" data-link="/selecciones/CUW">🇨🇼</div>
+          <div class="team" data-link="/selecciones/CIV">🇨🇮</div>
+          <div class="team" data-link="/selecciones/ECU">🇪🇨</div>
+        </div>
+        <div class="group-col">
+          <div class="letter">F</div>
+          <div class="team" data-link="/selecciones/NED">🇳🇱</div>
+          <div class="team" data-link="/selecciones/JPN">🇯🇵</div>
+          <div class="team" data-link="/selecciones/TUN">🇹🇳</div>
+          <div class="team" data-link="/selecciones/SWE">🇸🇪</div>
+        </div>
+        <div class="group-col">
+          <div class="letter">G</div>
+          <div class="team" data-link="/selecciones/BEL">🇧🇪</div>
+          <div class="team" data-link="/selecciones/EGY">🇪🇬</div>
+          <div class="team" data-link="/selecciones/IRN">🇮🇷</div>
+          <div class="team" data-link="/selecciones/NZL">🇳🇿</div>
+        </div>
+        <div class="group-col" style="position:relative;outline:2px solid var(--pitch);outline-offset:-2px">
+          <div class="letter">H</div>
+          <div class="team fav" data-link="/selecciones/ESP">🇪🇸</div>
+          <div class="team" data-link="/selecciones/CPV">🇨🇻</div>
+          <div class="team" data-link="/selecciones/KSA">🇸🇦</div>
+          <div class="team" data-link="/selecciones/URU">🇺🇾</div>
+        </div>
+        <div class="group-col">
+          <div class="letter">I</div>
+          <div class="team" data-link="/selecciones/FRA">🇫🇷</div>
+          <div class="team" data-link="/selecciones/SEN">🇸🇳</div>
+          <div class="team" data-link="/selecciones/NOR">🇳🇴</div>
+          <div class="team" data-link="/selecciones/IRQ">🇮🇶</div>
+        </div>
+        <div class="group-col">
+          <div class="letter">J</div>
+          <div class="team" data-link="/selecciones/ARG">🇦🇷</div>
+          <div class="team" data-link="/selecciones/ALG">🇩🇿</div>
+          <div class="team" data-link="/selecciones/AUT">🇦🇹</div>
+          <div class="team" data-link="/selecciones/JOR">🇯🇴</div>
+        </div>
+        <div class="group-col">
+          <div class="letter">K</div>
+          <div class="team" data-link="/selecciones/POR">🇵🇹</div>
+          <div class="team" data-link="/selecciones/UZB">🇺🇿</div>
+          <div class="team" data-link="/selecciones/COL">🇨🇴</div>
+          <div class="team" data-link="/selecciones/COD">🇨🇩</div>
+        </div>
+        <div class="group-col">
+          <div class="letter">L</div>
+          <div class="team" data-link="/selecciones/ENG">🏴</div>
+          <div class="team" data-link="/selecciones/CRO">🇭🇷</div>
+          <div class="team" data-link="/selecciones/GHA">🇬🇭</div>
+          <div class="team" data-link="/selecciones/PAN">🇵🇦</div>
+        </div>
+      </div>
+      <p style="margin-top:16px;font-size:11px;letter-spacing:0.2em;color:var(--fg-subtle);text-transform:uppercase">
+        ★ Anfitrionas · ● Tu selección · Click bandera → ficha completa de selección
+      </p>
+    </section>
+
+    <!-- ──────────────── HOY EN LA HISTORIA ──────────────── -->
+    <section class="block">
+      <div class="section-kicker">Calendario editorial</div>
+      <h2 class="section-title">Hoy en la historia · 12 mayo</h2>
+
+      <div class="history-card">
+        <div class="history-content">
+          <h3>Pelé llegó por accidente: el informe psicológico que casi le impide jugar el Mundial 58</h3>
+          <p>15 de junio de 1958. El psicólogo de la selección brasileña ha entregado un informe oficial pidiendo dejar fuera del Mundial a un chico de 17 años llamado Pelé. El veterano Nilton Santos lidera entonces una rebelión de vestuario que cambia la historia del fútbol.</p>
+          <div class="history-nav">
+            <a href="#" data-link="/historias/pele-llegada-accidente-mundial-suecia-1958">Leer historia →</a>
+            <a href="#" data-link="/historias/pulpo-paul-oberhausen">⏪ Ayer · Pulpo Paul</a>
+            <a href="#" data-link="/historias/battle-of-santiago-1962">Mañana · Battle of Santiago ⏩</a>
+          </div>
+        </div>
+        <aside class="history-aside">
+          <div class="label">La frase del día</div>
+          <div class="quote">"Si no juega ese chico, no juego yo."</div>
+          <div class="author">— Nilton Santos al técnico Vicente Feola, 15 jun 1958</div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ──────────────── HUB COLECCIONISMO ──────────────── -->
+    <section class="block">
+      <div class="section-kicker">Prepárate para el Mundial</div>
+      <h2 class="section-title">Coleccionismo 2026</h2>
+
+      <div class="shop-grid">
+        <a href="#" class="shop-card" data-link="/coleccionismo/camisetas-mundial-2026">
+          <div class="icon">👕</div>
+          <h3>Camisetas oficiales</h3>
+          <p>Las 48 selecciones con su marca técnica, precio RRP y enlaces a Amazon, adidas, Nike y Puma.</p>
+          <div class="price">desde 90 €</div>
+        </a>
+        <a href="#" class="shop-card" data-link="/coleccionismo/panini-mundial-2026">
+          <div class="icon">🎴</div>
+          <h3>Cromos Panini</h3>
+          <p>App oficial digital con Coca-Cola, 528 cromos, packs gratis escaneando etiquetas.</p>
+          <div class="price">gratis · 1 € sobre físico</div>
+        </a>
+        <a href="#" class="shop-card" data-link="/coleccionismo/lego-mundial-2026">
+          <div class="icon">🧱</div>
+          <h3>Sets LEGO</h3>
+          <p>10 sets oficiales: Messi, Ronaldo, Mbappé, Vinicius y la réplica 1:1 del trofeo.</p>
+          <div class="price">24,99 € → 199,99 €</div>
+        </a>
+      </div>
+    </section>
+
+    <!-- ──────────────── HEMEROTECA ──────────────── -->
+    <section class="block">
+      <div class="section-kicker">Hemeroteca · 22 ediciones</div>
+      <h2 class="section-title">96 años de historia mundialista</h2>
+
+      <div class="timeline">
+        <div class="year" data-link="/ediciones/1930-uruguay"><div class="num">1930</div><div class="flag">🇺🇾</div></div>
+        <div class="year" data-link="/ediciones/1934-italia"><div class="num">1934</div><div class="flag">🇮🇹</div></div>
+        <div class="year" data-link="/ediciones/1938-francia"><div class="num">1938</div><div class="flag">🇮🇹</div></div>
+        <div class="year" data-link="/ediciones/1950-brasil"><div class="num">1950</div><div class="flag">🇺🇾</div></div>
+        <div class="year" data-link="/ediciones/1954-suiza"><div class="num">1954</div><div class="flag">🇩🇪</div></div>
+        <div class="year" data-link="/ediciones/1958-suecia"><div class="num">1958</div><div class="flag">🇧🇷</div></div>
+        <div class="year" data-link="/ediciones/1962-chile"><div class="num">1962</div><div class="flag">🇧🇷</div></div>
+        <div class="year" data-link="/ediciones/1966-inglaterra"><div class="num">1966</div><div class="flag">🏴</div></div>
+        <div class="year" data-link="/ediciones/1970-mexico"><div class="num">1970</div><div class="flag">🇧🇷</div></div>
+        <div class="year" data-link="/ediciones/1974-alemania"><div class="num">1974</div><div class="flag">🇩🇪</div></div>
+        <div class="year" data-link="/ediciones/1978-argentina"><div class="num">1978</div><div class="flag">🇦🇷</div></div>
+      </div>
+      <div class="timeline">
+        <div class="year" data-link="/ediciones/1982-espana"><div class="num">1982</div><div class="flag">🇮🇹</div></div>
+        <div class="year" data-link="/ediciones/1986-mexico"><div class="num">1986</div><div class="flag">🇦🇷</div></div>
+        <div class="year" data-link="/ediciones/1990-italia"><div class="num">1990</div><div class="flag">🇩🇪</div></div>
+        <div class="year" data-link="/ediciones/1994-estados-unidos"><div class="num">1994</div><div class="flag">🇧🇷</div></div>
+        <div class="year" data-link="/ediciones/1998-francia"><div class="num">1998</div><div class="flag">🇫🇷</div></div>
+        <div class="year" data-link="/ediciones/2002-corea-japon"><div class="num">2002</div><div class="flag">🇧🇷</div></div>
+        <div class="year" data-link="/ediciones/2006-alemania"><div class="num">2006</div><div class="flag">🇮🇹</div></div>
+        <div class="year" data-link="/ediciones/2010-sudafrica"><div class="num">2010</div><div class="flag">🇪🇸</div></div>
+        <div class="year" data-link="/ediciones/2014-brasil"><div class="num">2014</div><div class="flag">🇩🇪</div></div>
+        <div class="year" data-link="/ediciones/2018-rusia"><div class="num">2018</div><div class="flag">🇫🇷</div></div>
+        <div class="year" data-link="/ediciones/2022-qatar"><div class="num">2022</div><div class="flag">🇦🇷</div></div>
+      </div>
+      <div class="timeline" style="grid-template-columns:1fr">
+        <div class="year upcoming" data-link="/2026" style="padding:20px"><div class="num" style="font-size:18px">2026</div><div class="flag" style="font-size:30px">🇺🇸 🇨🇦 🇲🇽</div></div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="note">
+      <strong>MOCKUP · NO PRODUCTION</strong><br><br>
+      Este HTML es un boceto navegable de la nueva home con Mundial 2026 como protagonista.<br>
+      Los clicks no llevan a ningún sitio: muestran la URL de destino prevista.<br><br>
+      Stack real: Next.js 16 + React 19 + Tailwind + next-intl 5 locales + Supabase.<br>
+      Cuando un componente esté aprobado, lo paso a /src/components/ con i18n.
+    </div>
+  </footer>
+
+  <div class="toast" id="toast"></div>
+
+  <script>
+    // ── Countdown live a 2026-06-11 13:00 CST (Azteca) ──
+    const KICKOFF = new Date('2026-06-11T13:00:00-06:00').getTime();
+    function pad(n) { return String(n).padStart(2, '0'); }
+    function tick() {
+      const now = Date.now();
+      const diff = Math.max(0, KICKOFF - now);
+      const d = Math.floor(diff / 86400000);
+      const h = Math.floor((diff % 86400000) / 3600000);
+      const m = Math.floor((diff % 3600000) / 60000);
+      const s = Math.floor((diff % 60000) / 1000);
+      document.getElementById('dd').textContent = pad(d);
+      document.getElementById('hh').textContent = pad(h);
+      document.getElementById('mm').textContent = pad(m);
+      document.getElementById('ss').textContent = pad(s);
+      document.getElementById('cdSmall').textContent = d + 'd ' + pad(h) + 'h ' + pad(m) + 'm';
+    }
+    tick();
+    setInterval(tick, 1000);
+
+    // ── Click handler para mostrar dónde lleva cada bloque ──
+    const toast = document.getElementById('toast');
+    let toastTimeout;
+    document.querySelectorAll('[data-link]').forEach((el) => {
+      el.addEventListener('click', (e) => {
+        e.preventDefault();
+        const dest = el.getAttribute('data-link');
+        toast.textContent = '→ ' + dest;
+        toast.classList.add('show');
+        clearTimeout(toastTimeout);
+        toastTimeout = setTimeout(() => toast.classList.remove('show'), 2000);
+      });
+    });
+  </script>
+</body>
+</html>

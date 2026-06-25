@@ -2,6 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import { setRequestLocale } from 'next-intl/server';
+import { marked } from 'marked';
 import {
   ArrowLeft,
   ArrowRight,
@@ -11,14 +12,20 @@ import {
 import {
   NEWS_ITEMS,
   getNewsBySlug,
+  getLocalizedNews,
   getRelatedNews,
   relativeTimeEs,
+  newsImageUrl,
+  newsImageAlt,
   type NewsCategory,
 } from '@/lib/news';
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl, SEO } from '@/lib/seo';
 import { authorJsonLd } from '@/lib/authors';
 import { sameAsForEntity, getEntity } from '@/lib/entities-wikidata';
+import { MovistarCintillo } from '@/components/affiliate/movistar-banner';
+import { DaznBanner } from '@/components/affiliate/dazn-banner';
+import { getMovistarLink } from '@/lib/movistar-match-links';
 
 function withLocale(locale: Locale, href: string) {
   if (locale === routing.defaultLocale) return href;
@@ -36,7 +43,12 @@ const CATEGORY_LABELS: Record<NewsCategory, string> = {
   polemica: 'Polémica',
   tv: 'TV / Streaming',
   patrocinios: 'Patrocinios',
+  amistosos: 'Amistosos',
+  lesiones: 'Lesiones',
+  tecnico: 'Cuerpo técnico',
   general: 'General',
+  historica: 'Historia',
+  curiosa: 'Curiosidades',
 };
 
 export function generateStaticParams() {
@@ -53,27 +65,23 @@ export async function generateMetadata({
   const { locale, slug } = await params;
   const item = getNewsBySlug(slug);
   if (!item) return {};
+  const loc = getLocalizedNews(item, locale);
+  // Locales disponibles: siempre español + los que tengan i18n rellenado.
+  const availableLocales = ['es', ...Object.keys(item.i18n ?? {})];
 
   return pageMetadata({
     locale,
     path: `/noticias/${item.slug}`,
-    title: item.title,
-    description: item.summary,
+    title: loc.title,
+    description: loc.summary,
     type: 'article',
     publishedTime: item.publishedAt,
     modifiedTime: item.modifiedAt ?? item.publishedAt,
-    image: item.image
-      ? {
-          url: item.image.url,
-          width: 1200,
-          height: 675,
-          alt: item.image.alt,
-        }
-      : undefined,
+    availableLocales,
     keywords: [
       `Mundial 2026 ${CATEGORY_LABELS[item.category]}`,
       'noticias Mundial 2026',
-      item.title.split(':')[0].trim(),
+      loc.title.split(':')[0].trim(),
     ],
   });
 }
@@ -89,16 +97,13 @@ export default async function NoticiaDetail({
   const item = getNewsBySlug(slug);
   if (!item) notFound();
 
+  const loc = getLocalizedNews(item, locale);
   const related = getRelatedNews(slug, 3);
   const url = localeUrl(locale, `/noticias/${item.slug}`);
 
-  // Autor humano (E-E-A-T). Si la pieza no declara `authorId`, se usa
-  // el autor por defecto del catálogo. Filtración Content Warehouse
-  // mayo 2024: `QualityAuthorshipAuthorAttributions`.
+  // Autor humano (E-E-A-T) + entidades mencionadas con sameAs a Wikidata
+  // (filtración Content Warehouse, mayo 2024: autoría + Knowledge Graph).
   const author = authorJsonLd(item.authorId);
-
-  // Entidades mencionadas con `sameAs` a Wikidata + Wikipedia.
-  // Conecta la pieza al Knowledge Graph (Webref Indexing Namespace).
   const mentions = (item.mentionsEntities ?? [])
     .map((key) => {
       const e = getEntity(key);
@@ -116,20 +121,62 @@ export default async function NoticiaDetail({
     })
     .filter(Boolean);
 
-  // NewsArticle JSON-LD (recomendado para Google News y Discover).
+  // Movistar Plus+ (link de ficha o cintillo general en todos los artículos).
+  const movistarLink = getMovistarLink(slug);
+  const showMovistarCard = true;
+
+  // OG dinámico 1200×675 garantizado + sección editorial (Google News).
+  const ogImageUrl = `${SEO.siteUrl}${
+    locale === routing.defaultLocale
+      ? `/noticias/${item.slug}/opengraph-image`
+      : `/${locale}/noticias/${item.slug}/opengraph-image`
+  }`;
+  const ARTICLE_SECTIONS: Record<string, string> = {
+    convocatorias: 'Convocatorias',
+    historica: 'Historia del fútbol',
+    curiosa: 'Curiosidades',
+    sedes: 'Sedes y estadios',
+    tv: 'Televisión y streaming',
+    jugadores: 'Jugadores',
+    amistosos: 'Partidos y amistosos',
+    lesiones: 'Lesiones',
+    polemica: 'Polémicas',
+    patrocinios: 'Patrocinios',
+    panini: 'Álbum Panini',
+    entradas: 'Entradas',
+    general: 'Mundial 2026',
+  };
+
+  // NewsArticle JSON-LD (Google News / Discover).
   const newsArticleLd: Record<string, unknown> = {
     '@context': 'https://schema.org',
     '@type': 'NewsArticle',
-    headline: item.title,
-    description: item.summary,
-    datePublished: item.publishedAt,
+    // Campos obligatorios Google News
+    headline: loc.title,                              // máx 110 chars
+    description: loc.summary,
+    datePublished: item.publishedAt,                  // ISO 8601 completo con Z
     dateModified: item.modifiedAt ?? item.publishedAt,
-    inLanguage: locale,
+    // Identificación
     url,
-    mainEntityOfPage: url,
-    image: item.image
-      ? [{ '@type': 'ImageObject', url: item.image.url, width: 1200, height: 675 }]
-      : undefined,
+    mainEntityOfPage: { '@type': 'WebPage', '@id': url },
+    inLanguage: locale,
+    // Imagen: OG dinámico 1200×675 garantizado — Google requiere ≥696px ancho
+    image: [
+      {
+        '@type': 'ImageObject',
+        url: ogImageUrl,
+        width: 1200,
+        height: 675,
+        representativeOfPage: true,
+      },
+      // Imagen real del artículo si existe (alternativa para Rich Results)
+      ...(item.image ? [{
+        '@type': 'ImageObject',
+        url: item.image.url,
+        caption: item.image.alt,
+      }] : []),
+    ],
+    // Publisher: Organization con logo válido (Google requiere logo ≤ 600×60)
     publisher: {
       '@type': 'Organization',
       name: SEO.siteName,
@@ -137,27 +184,41 @@ export default async function NoticiaDetail({
       logo: {
         '@type': 'ImageObject',
         url: `${SEO.siteUrl}/icon.svg`,
+        width: 60,
+        height: 60,
       },
+      sameAs: [SEO.siteUrl],
     },
     author,
-    citation: [
-      {
-        '@type': 'CreativeWork',
-        name: item.sourceName,
-        url: item.sourceUrl,
-      },
-      ...(item.sourcesSecondary ?? []).map((s) => ({
-        '@type': 'CreativeWork',
-        name: s.name,
-        url: s.url,
-      })),
-    ],
+    ...(mentions.length ? { mentions } : {}),
+    // Sección editorial (articleSection mejora clasificación en Google News)
+    articleSection: ARTICLE_SECTIONS[item.category] ?? 'Mundial 2026',
+    // Acceso libre (importante para Google News)
+    isAccessibleForFree: true,
+    // Tema principal
     about: {
       '@type': 'SportsEvent',
       name: 'FIFA World Cup 2026',
       startDate: '2026-06-11',
       endDate: '2026-07-19',
+      location: {
+        '@type': 'Country',
+        name: 'United States, Mexico, Canada',
+      },
     },
+    // Fuentes — usamos citation como array de CreativeWork (válido en schema.org)
+    citation: [
+      {
+        '@type': 'NewsArticle',
+        name: item.sourceName,
+        url: item.sourceUrl,
+      },
+      ...(item.sourcesSecondary ?? []).map((s) => ({
+        '@type': 'NewsArticle',
+        name: s.name,
+        url: s.url,
+      })),
+    ],
   };
 
   if (mentions.length > 0) {
@@ -172,7 +233,7 @@ export default async function NoticiaDetail({
           breadcrumbLd(locale, [
             { name: 'Inicio', path: '/' },
             { name: 'Noticias', path: '/noticias' },
-            { name: item.title, path: `/noticias/${item.slug}` },
+            { name: loc.title, path: `/noticias/${item.slug}` },
           ]),
         ]}
       />
@@ -194,56 +255,111 @@ export default async function NoticiaDetail({
             <Calendar className="h-3 w-3" />
             {relativeTimeEs(item.publishedAt)}
           </span>
+          <span className="text-[var(--color-fg-subtle)]">
+            Por {item.author ?? 'Redacción Mundiales de Fútbol'}
+          </span>
         </div>
 
         <h1 className="mt-6 font-display text-4xl uppercase leading-[1] text-[var(--color-fg)] md:text-5xl">
-          {item.title}
+          {loc.title}
         </h1>
 
         <p className="mt-6 text-lg leading-relaxed text-[var(--color-fg-muted)] md:text-xl">
-          {item.summary}
+          {loc.summary}
         </p>
       </header>
 
-      {/* Hero image (16:9) */}
-      {item.image && (
-        <figure className="mx-auto mt-12 w-full max-w-[1100px] px-6 md:px-10">
-          <div className="relative aspect-[16/9] w-full overflow-hidden rounded-3xl border border-[var(--color-border)]">
-            <Image
-              src={item.image.url}
-              alt={item.image.alt}
-              fill
-              sizes="(max-width: 1100px) 100vw, 1100px"
-              className="object-cover"
-              unoptimized
-              priority
-            />
+      {/* Hero image (16:9) — foto propia o tarjeta de marca generada */}
+      <figure className="mx-auto mt-12 w-full max-w-[1100px] px-6 md:px-10">
+        <div className="relative aspect-[16/9] w-full overflow-hidden rounded-3xl border border-[var(--color-border)]">
+          <Image
+            src={newsImageUrl(item)}
+            alt={newsImageAlt(item)}
+            fill
+            sizes="(max-width: 1100px) 100vw, 1100px"
+            className="object-cover"
+            unoptimized
+            priority
+          />
+        </div>
+        {(item.image?.credit || item.image?.license) && (
+          <figcaption className="mt-3 px-2 font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--color-fg-subtle)]">
+            {item.image.credit}
+            {item.image.credit && item.image.license ? ' · ' : ''}
+            {item.image.license}
+          </figcaption>
+        )}
+      </figure>
+
+      {/* Video embed (si la noticia tiene youtubeVideoId) */}
+      {item.youtubeVideoId && (
+        <section className="mx-auto mt-10 w-full max-w-[900px] px-6 md:px-10">
+          <div className="overflow-hidden rounded-3xl border border-[var(--color-border)] bg-[var(--color-bg-2)]">
+            <div className="relative aspect-video w-full overflow-hidden bg-black">
+              <iframe
+                src={`https://www.youtube-nocookie.com/embed/${item.youtubeVideoId}?rel=0&modestbranding=1`}
+                title={loc.title}
+                loading="lazy"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+                className="absolute inset-0 h-full w-full"
+              />
+            </div>
+            <p className="px-5 py-3 font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--color-fg-subtle)]">
+              Video oficial · YouTube
+            </p>
           </div>
-          {(item.image.credit || item.image.license) && (
-            <figcaption className="mt-3 px-2 font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--color-fg-subtle)]">
-              {item.image.credit}
-              {item.image.credit && item.image.license ? ' · ' : ''}
-              {item.image.license}
-            </figcaption>
-          )}
-        </figure>
+        </section>
       )}
 
       {/* Body */}
       <section className="mx-auto mt-12 w-full max-w-[900px] px-6 md:px-10">
-        <div className="prose-base space-y-6 text-base leading-relaxed text-[var(--color-fg)] md:text-lg [&_strong]:text-[var(--color-fg)]">
-          {item.body.split('\n\n').map((para, i) => (
-            <p
-              key={i}
-              dangerouslySetInnerHTML={{
-                __html: para
-                  .trim()
-                  .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>'),
-              }}
-            />
-          ))}
-        </div>
+        <div
+          className="
+            article-body
+            text-base leading-relaxed text-[var(--color-fg)] md:text-lg
+            [&_h2]:mt-10 [&_h2]:mb-4 [&_h2]:font-display [&_h2]:text-2xl [&_h2]:uppercase [&_h2]:leading-tight [&_h2]:text-[var(--color-fg)] [&_h2]:md:text-3xl
+            [&_h3]:mt-8 [&_h3]:mb-3 [&_h3]:font-display [&_h3]:text-xl [&_h3]:uppercase [&_h3]:leading-tight [&_h3]:text-[var(--color-fg)]
+            [&_p]:mb-5 [&_p]:last:mb-0
+            [&_strong]:font-semibold [&_strong]:text-[var(--color-fg)]
+            [&_em]:italic [&_em]:text-[var(--color-fg-muted)]
+            [&_ul]:my-4 [&_ul]:space-y-2 [&_ul]:pl-0 [&_ul]:list-none
+            [&_ul_li]:flex [&_ul_li]:gap-2 [&_ul_li]:before:content-['—'] [&_ul_li]:before:text-[var(--color-pitch)] [&_ul_li]:before:flex-none
+            [&_ol]:my-4 [&_ol]:space-y-2 [&_ol]:pl-5 [&_ol]:list-decimal
+            [&_ol_li]:pl-1
+            [&_a]:text-[var(--color-pitch)] [&_a]:underline [&_a]:underline-offset-4 [&_a]:hover:opacity-80
+            [&_blockquote]:border-l-2 [&_blockquote]:border-[var(--color-pitch)] [&_blockquote]:pl-5 [&_blockquote]:italic [&_blockquote]:text-[var(--color-fg-muted)] [&_blockquote]:my-6
+            [&_hr]:my-8 [&_hr]:border-[var(--color-border)]
+            [&_code]:font-mono [&_code]:text-sm [&_code]:bg-[var(--color-bg-2)] [&_code]:px-1.5 [&_code]:py-0.5 [&_code]:rounded
+          "
+          dangerouslySetInnerHTML={{
+            __html: (marked.parse(loc.body, { gfm: true, breaks: false }) as string)
+              // Enlaces de afiliado (AWIN/Movistar) → sponsored + nueva pestaña.
+              .replace(
+                /<a href="(https:\/\/www\.awin1\.com[^"]*)"/g,
+                '<a href="$1" target="_blank" rel="sponsored nofollow noopener noreferrer"',
+              ),
+          }}
+        />
       </section>
+
+      {/* Movistar Plus+ cintillo oficial — en todos los artículos */}
+      {showMovistarCard && (
+        <section className="mx-auto mt-10 w-full max-w-[900px] px-6 md:px-10">
+          <MovistarCintillo
+            href={movistarLink.href}
+            context={movistarLink.label || undefined}
+            matchId={movistarLink.matchId}
+          />
+        </section>
+      )}
+
+      {/* Banner DAZN — en las piezas de "cuándo juega" (dónde ver) */}
+      {slug.startsWith('cuando-juega-') && (
+        <section className="mx-auto mt-6 w-full max-w-[900px] px-6 md:px-10">
+          <DaznBanner creative="leaderboard" />
+        </section>
+      )}
 
       {/* Fuentes */}
       <section className="mx-auto mt-16 w-full max-w-[900px] px-6 md:px-10">

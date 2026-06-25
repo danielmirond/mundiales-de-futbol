@@ -1,0 +1,2124 @@
+{
+  "generatedAt": "2026-06-11T11:10:22.496Z",
+  "date": "2026-06-11",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "cesar cravioto",
+      "geo": "MX",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "Madres buscadoras marchan sobre Tlalpan al estadio Azteca, previo a inicio del Mundial 2026",
+          "url": "https://www.jornada.com.mx/noticia/2026/06/10/sociedad/madres-buscadoras-marchan-sobre-avenida-tlalpan-al-estadio-azteca",
+          "source": "La Jornada"
+        },
+        {
+          "title": "México: protesta por desaparecidos horas antes del Mundial",
+          "url": "https://www.dw.com/es/horas-antes-del-mundial-familiares-de-desaparecidos-se-manifiestan-en-m%C3%A9xico/a-77498927",
+          "source": "DW"
+        },
+        {
+          "title": "A horas del Mundial 2026, manifestantes marchan hacia el Estadio Azteca",
+          "url": "https://www.record.com.mx/historia/a-horas-del-mundial-2026-manifestantes-marchan-hacia-el-estadio-azteca-2026061106040516380",
+          "source": "Récord"
+        }
+      ]
+    },
+    {
+      "query": "corea del sur vs chequia",
+      "geo": "MX",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "Chequia minimiza factor de la altura para el debut en Guadalajara",
+          "url": "https://www.espn.com.mx/futbol/mundial/nota/_/id/16821766/mundial-2026-chequia-corea-del-sur-guadalajara-debut-son-heung-min",
+          "source": "ESPN México"
+        },
+        {
+          "title": "República Checa ya está en Guadalajara para disputar el Mundial 2026",
+          "url": "https://www.telemundo.com/deportes/copa-mundial-de-la-fifa-2026/republica-checa-ya-esta-en-guadalajara-para-disputar-el-mundial-2026-rcna349539",
+          "source": "Telemundo"
+        },
+        {
+          "title": "Mundial 2026: Estrellas a seguir en el Corea del Sur vs. Chequia",
+          "url": "https://espndeportes.espn.com/futbol/mundial/nota/_/id/16821183/chequia-corea-del-sur-mundial-2026-debut-figuras-jugadores-a-seguir",
+          "source": "ESPN Deportes"
+        }
+      ]
+    },
+    {
+      "query": "vix mundial",
+      "geo": "MX",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "ViX cambió las reglas con el Mundial 2026 y si pensabas compartir tu cuenta, ahora será más complicado",
+          "url": "https://www.xataka.com.mx/streaming/vix-cambio-reglas-mundial-2026-pensabas-compartir-tu-cuenta-ahora-sera-complicado",
+          "source": "Xataka México"
+        },
+        {
+          "title": "¿Cómo contratar ViX para ver el Mundial 2026? Precio del Pase Mundial y todos los paquetes que tiene",
+          "url": "https://www.marca.com/mx/futbol/mundial/2026/06/10/6a298c8522601d65478b4586.html",
+          "source": "MARCA"
+        },
+        {
+          "title": "¿Cómo contratar ViX para ver los 104 partidos del Mundial 2026? PRECIOS y paquetes del Pase Mundial",
+          "url": "https://www.mediotiempo.com/futbol/copa-mundial/como-contratar-vix-para-ver-los-104-partidos-del-mundial-2026-precios-y-paquetes-del-pase-mundial",
+          "source": "Mediotiempo"
+        }
+      ]
+    },
+    {
+      "query": "mundial de futbol 2026",
+      "geo": "AR",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Mundial 2026, en directo: noticias de la Copa del Mundo y última hora de las selecciones, hoy en vivo",
+          "url": "https://as.com/futbol/mundial/mundial-2026-en-directo-noticias-de-la-copa-del-mundo-y-ultima-hora-de-las-selecciones-hoy-en-vivo-clone-f202606-d/",
+          "source": "Diario AS"
+        },
+        {
+          "title": "Mundial 2026, en VIVO: últimas noticias de hoy, 10 de junio, el minuto a minuto de las selecciones y todas las novedades de la previa",
+          "url": "https://www.infobae.com/deportes/2026/06/10/mundial-2026-en-vivo-ultimas-noticias-de-hoy-10-de-junio-el-minuto-a-minuto-de-las-selecciones-y-todas-las-novedades-de-la-previa/",
+          "source": "Infobae"
+        },
+        {
+          "title": "Los amistosos de selecciones antes del Mundial: resultados y la lista de todos los partidos",
+          "url": "https://www.ole.com.ar/mundial/mundial-amistosos-lista-partidos-juegan-horario-fecha-resultados_0_g1dve9k1Sc.html",
+          "source": "Olé"
+        }
+      ]
+    },
+    {
+      "query": "copa mundial de fútbol de 2026",
+      "geo": "AR",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 10000,
+      "articles": [
+        {
+          "title": "Comienza el Mundial 2026: el calendario completo con los días, horarios y estadios de todos los partidos",
+          "url": "https://www.infobae.com/deportes/2026/06/11/comienza-el-mundial-2026-el-calendario-completo-con-los-dias-horarios-y-estadios-de-todos-los-partidos/",
+          "source": "Infobae"
+        },
+        {
+          "title": "Arranca el Mundial 2026 de Estados Unidos, México y Canadá: Argentina defiende la corona obtenida en Qatar ...",
+          "url": "https://www.rosario3.com/deportes/arranca-el-mundial-2026-de-estados-unidos-mexico-y-canada-argentina-defiende-la-corona-obtenida-en-qatar-2022-20260610-0022.html",
+          "source": "Rosario3"
+        },
+        {
+          "title": "Fiesta inaugural del Mundial 2026, EN VIVO: hora, TV y las últimas noticias de la ceremonia",
+          "url": "https://www.lanacion.com.ar/deportes/futbol/fiesta-inaugural-del-mundial-2026-en-vivo-hora-tv-y-las-ultimas-noticias-de-la-ceremonia-nid11062026/",
+          "source": "La Nación"
+        }
+      ]
+    },
+    {
+      "query": "suspensión de clases",
+      "geo": "AR",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "Confirmado el home office para todos: Sheinbaum impulsa el trabajo remoto en Ciudad de México para evitar el colapso del tránsito el día inaugural del Mundial 2026",
+          "url": "https://www.clarin.com/estados-unidos/confirmado-home-office-sheinbaum-impulsa-trabajo-remoto-ciudad-mexico-evitar-colapso-transito-dia-inaugural-mundial-2026_0_L1x6HgJzz5.html",
+          "source": "Clarin.com"
+        },
+        {
+          "title": "Tamaulipas permite a sus alumnos faltar el 11 de junio por inauguración del Mundial",
+          "url": "https://www.infobae.com/mexico/2026/06/10/tamaulipas-permite-a-sus-alumnos-faltar-el-11-de-junio-por-inauguracion-del-mundial/",
+          "source": "Infobae"
+        },
+        {
+          "title": "Presidenta de México anuncia medidas laborales para inauguración",
+          "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16815753/mundial-presidenta-de-mexico-suspende-labores-por-inauguracion",
+          "source": "ESPN Deportes"
+        }
+      ]
+    },
+    {
+      "query": "calendario mundial 2026",
+      "geo": "CO",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Locura por Colombia: Así fue la llegada a Guadalajara",
+          "url": "https://www.espn.com.co/futbol/mundial/nota/_/id/16822585/locura-por-colombia-asi-fue-la-llegada-a-guadalajara",
+          "source": "ESPN Colombia"
+        },
+        {
+          "title": "¿Qué partidos del Mundial 2026 se verán EN VIVO en Gol Caracol y Ditu?, día y hora para Colombia",
+          "url": "https://www.noticiascaracol.com/golcaracol/seleccion-colombia/que-partidos-del-mundial-2026-se-veran-en-vivo-en-gol-caracol-y-ditu-dia-y-hora-para-colombia-rg10",
+          "source": "Noticias Caracol"
+        },
+        {
+          "title": "Así llega Colombia en el ranking FIFA a su debut en el Mundial 2026: ¿En qué puesto está?",
+          "url": "https://caracol.com.co/2026/06/11/asi-llega-colombia-en-el-ranking-fifa-a-su-debut-en-el-mundial-2026-en-que-puesto-esta/",
+          "source": "Caracol Radio"
+        }
+      ]
+    },
+    {
+      "query": "programacion mundial 2026",
+      "geo": "CO",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Los cinco duelos imperdibles que marcarán la fase de grupos del Mundial 2026: prográmese y disfrute",
+          "url": "https://www.eltiempo.com/deportes/futbol-internacional/los-cinco-duelos-imperdibles-que-marcaran-la-fase-de-grupos-del-mundial-2026-programese-y-disfrute-3563525",
+          "source": "ELTIEMPO.com"
+        },
+        {
+          "title": "Conozca los cinco partidazos que no se puede perder en Mundial 2026",
+          "url": "https://www.futbolred.com/seleccion-colombia/estos-son-los-cinco-mejores-partidos-del-mundial-2026-tome-nota-para-que-se-programe-268708",
+          "source": "Futbolred"
+        },
+        {
+          "title": "Histórica inauguración de la Copa Mundial de la FIFA™: dónde verla",
+          "url": "https://www.winsports.co/futbol-internacional/noticias/historica-inauguracion-de-la-copa-mundial-de-la-fifa-donde-verla-436529",
+          "source": "Win Sports"
+        }
+      ]
+    },
+    {
+      "query": "corea del sur vs",
+      "geo": "CL",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Mundial 2026: Estrellas a seguir en el Corea del Sur vs. Chequia",
+          "url": "https://www.espn.cl/futbol/mundial/nota/_/id/16821183/chequia-corea-del-sur-mundial-2026-debut-figuras-jugadores-a-seguir",
+          "source": "ESPN Chile"
+        },
+        {
+          "title": "En vivo: Corea del Sur y República Checa juegan el segundo partido del Mundial 2026",
+          "url": "https://www.latercera.com/el-deportivo/noticia/en-vivo-corea-del-sur-y-republica-checa-juegan-el-primer-partido-del-mundial-2026/",
+          "source": "La Tercera"
+        },
+        {
+          "title": "La ciencia coreana frente al colectivo checo",
+          "url": "https://as.com/futbol/mundial/la-ciencia-coreana-frente-al-colectivo-checo-f202606-n/",
+          "source": "Diario AS"
+        }
+      ]
+    },
+    {
+      "query": "bolivia vs",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 20000,
+      "articles": [
+        {
+          "title": "Argelia aplastó a Bolivia en la previa del debut en el Mundial ante Argentina",
+          "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16822246/argelia-vs-bolivia-amistoso-internacional-previo-al-mundial-2026-equipo-fecha-hora-y-tv-en-vivo",
+          "source": "ESPN Deportes"
+        },
+        {
+          "title": "Bolivia vs Argelia: Resultado EN VIVO, minuto a minuto y goles del amistoso previo al Mundial 2026",
+          "url": "https://www.365scores.com/es/news/bolivia-vs-argelia-resultado-vivo-goles/",
+          "source": "365Scores"
+        },
+        {
+          "title": "Escándalo por el método de Argelia para esconderle sus secretos a Argentina que fue burlado por drones",
+          "url": "https://www.infobae.com/deportes/2026/06/10/escandalo-por-el-metodo-de-argelia-para-esconderle-sus-secretos-a-argentina-que-fue-burlado-por-drones/",
+          "source": "Infobae"
+        }
+      ]
+    },
+    {
+      "query": "bolivia vs argelia",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "Bolivia vs Algeria: Friendlies stats & head-to-head",
+          "url": "https://www.bbc.com/sport/football/live/crkvd8vp70rt",
+          "source": "BBC"
+        },
+        {
+          "title": "Bolivia vs Algeria live online: score, stats, goals & updates | International friendly World Cup 2026 warm up",
+          "url": "https://en.as.com/soccer/bolivia-vs-algeria-live-online-score-stats-goals-updates-international-friendly-world-cup-2026-warm-up-f202606-n/",
+          "source": "Diario AS"
+        },
+        {
+          "title": "Algeria Schedules Closed-Door Friendly Against Bolivia Ahead of World Cup Opener vs Argentina",
+          "url": "https://sports.yahoo.com/articles/algeria-schedules-closed-door-friendly-154843634.html",
+          "source": "Yahoo Sports"
+        }
+      ]
+    },
+    {
+      "query": "bolivia vs",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "Argelia se lució y goleó a días del debut contra la Selección Argentina en el Mundial 2026",
+          "url": "https://www.tycsports.com/amistosos-de-selecciones/amistosos-internacionales-masc-2026-bolivia-vs-argelia-amistosos-id735169.html",
+          "source": "TyC Sports"
+        },
+        {
+          "title": "Transmisión EN VIVO del Bolivia vs Argelia hoy: cómo mirar el partido por TV o streaming",
+          "url": "https://www.365scores.com/es/news/transmision-en-vivo-bolivia-vs-argelia/",
+          "source": "365Scores"
+        },
+        {
+          "title": "Espionaje en el Mundial: un dron sobrevoló la práctica cerrada de Argelia antes de enfrentar a Argentina",
+          "url": "https://www.ellitoral.com/deportes/argelia-mundial2026-controversia-dron-entrenamiento-argelia-reserva-tacticas_0_ol3aRyvMbB.html",
+          "source": "El Litoral"
+        }
+      ]
+    },
+    {
+      "query": "cristiano ronaldo",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "Cristiano Ronaldo llega al Mundial 2026 con victorias, pero sin goles",
+          "url": "https://www.elcomercio.com/deportes/futbol/cristiano-ronaldo-llega-mundial-victorias-goles/",
+          "source": "El Comercio"
+        },
+        {
+          "title": "Portugal gana 2-1 a Nigeria pese a ocasiones falladas por Cristiano Ronaldo",
+          "url": "https://www.teleamazonas.com/mundial/portugal-gana-2-1-nigeria-pese-ocasiones-falladas-cristiano-ronaldo-119805/",
+          "source": "Teleamazonas"
+        },
+        {
+          "title": "Portugal vs Nigeria EN VIVO: alineaciones, detalles y cómo ver el amistoso | Mundial 2026",
+          "url": "https://www.extra.ec/noticia/deportes/copa-mundial-de-futbol/portugal-vs-nigeria-vivo-alineaciones-detalles-ver-amistoso-mundial-2026-155682.html",
+          "source": "Portal Extra"
+        }
+      ]
+    },
+    {
+      "query": "inglaterra - costa rica",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 10000,
+      "articles": [
+        {
+          "title": "Gordon escampa el &apos;nubarrón&apos; de Inglaterra",
+          "url": "https://www.marca.com/futbol/mundial/cronica/2026/06/11/gordon-escampa-nubarron-inglaterra.html",
+          "source": "MARCA"
+        },
+        {
+          "title": "Anthony Gordon lidera goleada de Inglaterra sobre Costa Rica en amistoso premundialista",
+          "url": "https://www.teleamazonas.com/mundial/anthony-gordon-lidera-goleada-inglaterra-sobre-costa-rica-amistoso-premundialista-119825/",
+          "source": "Teleamazonas"
+        },
+        {
+          "title": "Inglaterra vs Costa Rica EN VIVO: alineaciones, detalles, hora y cómo ver el amistoso | Mundial 2026",
+          "url": "https://www.expreso.ec/deportes/copa-mundial-de-futbol/inglaterra-vs-costa-rica-vivo-alineaciones-detalles-hora-ver-amistoso-mundial-2026-285232.html",
+          "source": "expreso.ec"
+        }
+      ]
+    },
+    {
+      "query": "mexico vs sudafrica",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "México vs. Sudáfrica, en el partido inaugural del Mundial 2026: hora y dónde ver el puntapié del torneo",
+          "url": "https://www.elpais.com.uy/ovacion/mundial/mexico-vs-sudafrica-en-el-partido-inaugural-del-mundial-2026-hora-y-donde-ver-el-puntapie-del-torneo",
+          "source": "EL PAÍS Uruguay"
+        },
+        {
+          "title": "Sudáfrica se prepara para el partido inaugural en el Estadio Azteca",
+          "url": "https://www.eltelegrafo.com/2026/06/sudafrica-se-prepara-para-el-partido-inaugural-en-el-estadio-azteca/",
+          "source": "El Telégrafo"
+        },
+        {
+          "title": "Sondeo Infobae México: Opinión de aficionado uruguayo sobre el México vs Sudáfrica del Mundial 2026",
+          "url": "https://www.infobae.com/video/deportes-mexico/sondeo-infobae-mexico-opinion-de-aficionado-uruguayo-sobre-el-mexico-vs-sudafrica-del-mundial-2026/2YKAuRx3/",
+          "source": "Infobae"
+        }
+      ]
+    },
+    {
+      "query": "fixture mundial 2026",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "El Mundial 2026 levanta su telón",
+          "url": "https://www.eltelegrafo.com/2026/06/el-mundial-2026-levanta-su-telon/",
+          "source": "El Telégrafo"
+        },
+        {
+          "title": "Arranca el Mundial con México-Sudáfrica y Corea-República Checa: información y dónde ver los partidos",
+          "url": "https://ladiaria.com.uy/deporte/articulo/2026/6/el-dia-esperado-arranca-el-mundial-2026-con-dos-partidos/",
+          "source": "la diaria"
+        },
+        {
+          "title": "Comienza el Mundial 2026: el calendario completo con los días, horarios y estadios de todos los partidos",
+          "url": "https://www.infobae.com/deportes/2026/06/11/comienza-el-mundial-2026-el-calendario-completo-con-los-dias-horarios-y-estadios-de-todos-los-partidos/",
+          "source": "Infobae"
+        }
+      ]
+    },
+    {
+      "query": "mundial de futbol 2026",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Mundial 2026, en directo: noticias de la Copa del Mundo y última hora de las selecciones, hoy en vivo",
+          "url": "https://as.com/futbol/mundial/mundial-2026-en-directo-noticias-de-la-copa-del-mundo-y-ultima-hora-de-las-selecciones-hoy-en-vivo-f202606-d-3/",
+          "source": "Diario AS"
+        },
+        {
+          "title": "Mundial 2026, en VIVO: últimas noticias de hoy, 10 de junio, el minuto a minuto de las selecciones y todas las novedades de la previa",
+          "url": "https://www.infobae.com/deportes/2026/06/10/mundial-2026-en-vivo-ultimas-noticias-de-hoy-10-de-junio-el-minuto-a-minuto-de-las-selecciones-y-todas-las-novedades-de-la-previa/",
+          "source": "Infobae"
+        },
+        {
+          "title": "Partidos de hoy martes 9 de junio: Juegos amistosos rumbo al Mundial 2026",
+          "url": "https://www.tudn.com/mundial-2026/partido-hoy-martes-9-de-junio-de-2026-partidos-amistosos-rumbo-al-mundial-2026",
+          "source": "TUDN"
+        }
+      ]
+    },
+    {
+      "query": "kylian mbappé",
+      "geo": "ES",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "Game Time: The story of the Hublot Big Bang Reloaded Kylian Mbappé",
+          "url": "https://www.daman.co.id/game-time-the-story-of-the-hublot-big-bang-reloaded-kylian-mbappe",
+          "source": "DA MAN Magazine"
+        },
+        {
+          "title": "Deschamps annoyed by the debate over Mbappé: “I must be stupid for playing him as a center forward\"",
+          "url": "https://www.marca.com/en/world-cup/2026/06/10/deschamps-annoyed-by-the-debate-over-mbappe-i-must-be-stupid-for-playing-him-as-a-center-forward.html",
+          "source": "MARCA"
+        },
+        {
+          "title": "Mbappé Faces Fresh Controversy After Reported Trip to Madrid Before World Cup 2026",
+          "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/kylian-mbapp%C3%A9-s-latest-controversy-just-hours-before-the-2026-fifa-world-cup-2026-06-10",
+          "source": "beIN SPORTS"
+        }
+      ]
+    },
+    {
+      "query": "world cup fantasy football",
+      "geo": "GB",
+      "language": "en",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "BigManBakar’s World Cup Fantasy 2026 Matchday 1 team reveal",
+          "url": "https://www.fantasyfootballhub.co.uk/bigmanbakars-world-cup-fantasy-2026-matchday-1-team-reveal",
+          "source": "Fantasy Football Hub"
+        },
+        {
+          "title": "Fantasy FIFA World Cup 2026: 9 expert Round 1 team reveals",
+          "url": "https://www.fantasyfootballscout.co.uk/2026/06/11/fantasy-fifa-world-cup-2026-9-expert-round-1-team-reveals/",
+          "source": "Fantasy Football Scout"
+        },
+        {
+          "title": "World Cup 2026 fantasy football: 54 players and hidden gems to target",
+          "url": "https://www.independent.co.uk/sport/football/world-cup-fantasy-football-tips-players-to-buy-b2993744.html",
+          "source": "The Independent"
+        }
+      ]
+    },
+    {
+      "query": "curacao",
+      "geo": "FR",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Connaissez-vous Curaçao, plus petit pays jamais qualifié pour une coupe du monde ?",
+          "url": "https://www.lefigaro.fr/voyages/guides/connaissez-vous-curacao-plus-petit-pays-jamais-qualifie-pour-une-coupe-du-monde-20260611",
+          "source": "Le Figaro"
+        },
+        {
+          "title": "Coupe du monde 2026. Le petit poucet du Mondial voyage dans un bus scolaire sans fenêtres",
+          "url": "https://www.ledauphine.com/coupe-du-monde-de-football/2026/06/11/les-images-de-l-arrivee-insolite-du-curacao-dans-un-vieux-bus-scolaire",
+          "source": "Le Dauphiné Libéré"
+        },
+        {
+          "title": "Coupe du monde de football : quand les petites nations de la Caraïbe ont réussi à s’inviter parmi les géants du football",
+          "url": "https://la1ere.franceinfo.fr/guadeloupe/coupe-du-monde-de-football-quand-les-petites-nations-de-la-caraibe-ont-reussi-a-s-inviter-parmi-les-geants-du-football-1709251.html",
+          "source": "Outre-mer La 1ère"
+        }
+      ]
+    },
+    {
+      "query": "coupe du monde de football 2026",
+      "geo": "FR",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "La Coupe du monde de football 2026, une aberration climatique",
+          "url": "https://www.lemonde.fr/idees/article/2026/06/11/la-coupe-du-monde-de-football-2026-une-aberration-climatique_6700660_3232.html",
+          "source": "Le Monde.fr"
+        },
+        {
+          "title": "Une explosion des émissions de carbone: la Coupe du monde 2026 sera la plus polluante de l&apos;histoire",
+          "url": "https://rmcsport.bfmtv.com/football/coupe-du-monde/une-explosion-des-emissions-de-carbone-la-coupe-du-monde-2026-sera-la-plus-polluante-de-l-histoire_AV-202606110478.html",
+          "source": "RMC Sport"
+        },
+        {
+          "title": "« On va être sur un niveau record » : près de 8 millions de tonnes d&apos;émissions annoncées, la Coupe du monde 2026 sera la plus polluante de l&apos;histoire",
+          "url": "https://www.lequipe.fr/Football/Article/-on-va-etre-sur-un-niveau-record-pres-de-8-millions-de-tonnes-d-emissions-annoncees-la-coupe-du-monde-2026-sera-la-plus-polluante-de-l-histoire/1683627",
+          "source": "L&apos;Équipe"
+        }
+      ]
+    },
+    {
+      "query": "messico sudafrica",
+      "geo": "IT",
+      "language": "it",
+      "source": "google-trends-daily",
+      "score": 5000,
+      "articles": [
+        {
+          "title": "Dove vedere Messico-Sudafrica, inaugurazione dei Mondiali 2026, in tv e streaming",
+          "url": "https://www.corriere.it/sport/calcio/mondiali/26_giugno_11/dove-vedere-tv-messico-sudafrica-inaugurazione-3e32ea5a-b4e5-48a9-a74e-33cdd295dxlk.shtml",
+          "source": "Corriere della Sera"
+        },
+        {
+          "title": "Quanto valgono i Mondiali 2026: tra sponsor e turismo un affare da 80 miliardi e 800mila posti",
+          "url": "https://www.repubblica.it/economia/2026/06/11/news/mondiali_calcio_2026_quanto_valgono_sponsor_turismo-425403838/",
+          "source": "la Repubblica"
+        },
+        {
+          "title": "\"Coppa del Mondo FIFA 2026\", si parte",
+          "url": "https://www.rai.it/ufficiostampa/assets/template/us-articolo.html?ssiPath=/articoli/2026/06/Coppa-del-Mondo-FIFA-2026-si-parte-cd20a5e5-6061-46c5-b70d-12c7ff6019ea-ssi.html",
+          "source": "Rai.it"
+        }
+      ]
+    },
+    {
+      "query": "curacao",
+      "geo": "IT",
+      "language": "it",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Lo scuolabus, la musica caraibica e 26 “sconosciuti”: il sogno Mondiale del Curaçao",
+          "url": "https://www.corriere.it/sport/calcio/mondiali/26_giugno_10/curacao-scuolabus-musica-giocatori-chi-sono-1ff67ace-6a51-492e-ba03-d284522bcxlk.shtml",
+          "source": "Corriere della Sera"
+        },
+        {
+          "title": "Mondiali 2026, Curaçao stupisce ancora: dopo le convocazioni in radio c&apos;è il bus vintage",
+          "url": "https://www.rainews.it/articoli/2026/06/curaao-campionati-mondo-calcio-usa-canada-germania-messico-scuolabus-vintage-radio-video-houston-255081c7-901e-43f5-a7ca-d173898f5733.html",
+          "source": "RaiNews"
+        },
+        {
+          "title": "Mondiali: Curacao come in gita, nazionale arriva su un vecchio scuolabus",
+          "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/06/10/mondiali-curacao-come-in-gita-nazionale-arriva-su-un-vecchio-scuolabus_5aef2d38-c001-440f-af33-06b698147a96.html",
+          "source": "ANSA"
+        }
+      ]
+    },
+    {
+      "query": "fotmob",
+      "geo": "PT",
+      "language": "pt",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Fantasy FIFA World Cup 2026: Best $6.0m-to-$7.4m midfielders",
+          "url": "https://www.fantasyfootballscout.co.uk/2026/06/09/fantasy-fifa-world-cup-2026-best-6-0m-to-7-4m-midfielders/",
+          "source": "Fantasy Football Scout"
+        },
+        {
+          "title": "Masters of the middle: The 10 midfielders every fan should watch at the World Cup",
+          "url": "https://pretorianews.co.za/fifa-world-cup-2026/updates/2026-06-07-masters-of-the-middle-the-10-midfielders-every-fan-should-watch-at-the-world-cup/",
+          "source": "pretorianews.co.za"
+        },
+        {
+          "title": "The 10 Best Midfielders at the 2026 World Cup—Ranked",
+          "url": "https://www.inkl.com/news/the-10-best-midfielders-at-the-2026-world-cup-ranked",
+          "source": "inkl"
+        }
+      ]
+    },
+    {
+      "query": "copa do mundo",
+      "geo": "PT",
+      "language": "pt",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "Aí está o Mundial que ameaça bater todos os recordes: tudo o que é preciso saber",
+          "url": "https://www.abola.pt/noticias/ai-esta-o-mundial-que-ameaca-bater-todos-os-recordes-tudo-o-que-e-preciso-saber-2026061017344144013",
+          "source": "A Bola"
+        },
+        {
+          "title": "Mundial 2026: o calendário de todos os jogos",
+          "url": "https://cnnportugal.iol.pt/mundial-2026/calendario/mundial-2026-o-calendario-de-todos-os-jogos/20260611/6a2a6287d34edcee7c652588",
+          "source": "CNN Portugal"
+        },
+        {
+          "title": "Quando é, e a que horas? O calendário completo das 72 partidas da fase de grupos do Mundial 2026",
+          "url": "https://sic.pt/mundial-fifa-2026/2026-06-09-quando-e-e-a-que-horas--o-calendario-completo-das-72-partidas-da-fase-de-grupos-do-mundial-2026-ecd949ae?fbclid=IwZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQKNjYyODU2ODM3OQABHt23jCHlPXRyPePtPDr4pOEqsZ6KySlvANlgUbsbCF2mA1wVit8wt7FTP37l_aem_1HB9VrqtGJAisq1Z3tpgCQ",
+          "source": "SIC"
+        }
+      ]
+    },
+    {
+      "query": "fifa",
+      "geo": "MA",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "World Cup players and officials are being detained or barred entry into U.S.",
+          "url": "https://www.washingtonpost.com/immigration/2026/06/09/world-cup-players-officials-are-being-detained-or-barred-entry-into-us/",
+          "source": "The Washington Post"
+        },
+        {
+          "title": "FIFA president defends record World Cup ticket prices",
+          "url": "https://www.tampabay.com/sports/2026/06/11/world-cup-ticket-prices-gianni-infantino-fifa-visa-issues-iran-donald-trump/",
+          "source": "Tampa Bay Times"
+        },
+        {
+          "title": "FIFA&apos;s Infantino: Better to &apos;chill&apos; over World Cup visa issues",
+          "url": "https://www.espn.com/soccer/story/_/id/49021490/fifa-president-gianni-infantino-world-cup-visa-usa-ticket-prices",
+          "source": "ESPN"
+        }
+      ]
+    },
+    {
+      "query": "fifa world cup 2026",
+      "geo": "MA",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Qatar vs Switzerland Live Stream TV Channel Kick-Off Time and Team News",
+          "url": "https://www.sportscasting.com/news/qatar-vs-switzerland-live-stream-tv-channel-kick-off/",
+          "source": "Sportscasting"
+        },
+        {
+          "title": "Qatar vs Switzerland team news and predicted lineups",
+          "url": "https://www.squawka.com/en/news/world-cup/qatar-vs-switzerland-team-news-predicted-lineups/",
+          "source": "Squawka"
+        },
+        {
+          "title": "Switzerland - Qatar: best picks, odds + stats 06/13/2026",
+          "url": "https://basketball.realgm.com/betting/picks/switzerland-vs-qatar-prediction-06-13-2026/",
+          "source": "RealGM"
+        }
+      ]
+    },
+    {
+      "query": "coupe du monde",
+      "geo": "MA",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Trois pays, trois cérémonies et 48 équipes : Tout ce qu&apos;il faut savoir sur le lancement du Mondial 2026",
+          "url": "https://fr.hespress.com/476829-trois-pays-trois-ceremonies-et-48-equipes-tout-ce-quil-faut-savoir-sur-le-lancement-du-mondial-2026.html",
+          "source": "Hespress Français - Actualités du Maroc"
+        },
+        {
+          "title": "Coupe du monde 2026: horaires, chaînes TV... Tout savoir sur la diffusion des matchs du Mondial",
+          "url": "https://rmcsport.bfmtv.com/football/coupe-du-monde/coupe-du-monde-2026-horaires-chaines-tv-tout-savoir-sur-la-diffusion-des-matchs-du-mondial_AV-202606100024.html",
+          "source": "RMC Sport"
+        },
+        {
+          "title": "Mondial 2026 : L&apos;Afrique passe à la puissance 10",
+          "url": "https://www.cafonline.com/fr/coupe-du-monde-de-la-fifa/news/mondial-2026-lafrique-passe-a-la-puissance-10/",
+          "source": "Confédération Africaine de Football"
+        }
+      ]
+    },
+    {
+      "query": "match coupe du monde 2026",
+      "geo": "MA",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "L&apos;ouverture de la Coupe du monde ne se fera pas dans l&apos;allégresse à Mexico, capitale marquée par une forte contestation sociale",
+          "url": "https://www.lequipe.fr/Football/Article/L-ouverture-de-la-coupe-du-monde-ne-se-fera-pas-dans-l-allegresse-a-mexico-capitale-marquee-par-une-forte-contestation-sociale/1683718",
+          "source": "L&apos;Équipe"
+        },
+        {
+          "title": "Le Mondial 2026 s&apos;ouvre dans le mythique stade Azteca au Mexique",
+          "url": "https://lematin.ma/sports/le-mondial-2026-souvre-dans-le-mythique-stade-azteca-au-mexique/350075",
+          "source": "Le Matin.ma"
+        },
+        {
+          "title": "Mondial 2026 : Seize ans après, le grand retour des Bafana Bafana",
+          "url": "https://www.cafonline.com/fr/coupe-du-monde-de-la-fifa/news/mondial-2026-seize-ans-apres-le-grand-retour-des-bafana-bafana/",
+          "source": "Confédération Africaine de Football"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "es": [
+      {
+        "query": "bolivia vs",
+        "score": 18800,
+        "geos": [
+          "PE",
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "bolivia vs",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 20000,
+            "articles": [
+              {
+                "title": "Argelia aplastó a Bolivia en la previa del debut en el Mundial ante Argentina",
+                "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16822246/argelia-vs-bolivia-amistoso-internacional-previo-al-mundial-2026-equipo-fecha-hora-y-tv-en-vivo",
+                "source": "ESPN Deportes"
+              },
+              {
+                "title": "Bolivia vs Argelia: Resultado EN VIVO, minuto a minuto y goles del amistoso previo al Mundial 2026",
+                "url": "https://www.365scores.com/es/news/bolivia-vs-argelia-resultado-vivo-goles/",
+                "source": "365Scores"
+              },
+              {
+                "title": "Escándalo por el método de Argelia para esconderle sus secretos a Argentina que fue burlado por drones",
+                "url": "https://www.infobae.com/deportes/2026/06/10/escandalo-por-el-metodo-de-argelia-para-esconderle-sus-secretos-a-argentina-que-fue-burlado-por-drones/",
+                "source": "Infobae"
+              }
+            ]
+          },
+          {
+            "query": "bolivia vs",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "Argelia se lució y goleó a días del debut contra la Selección Argentina en el Mundial 2026",
+                "url": "https://www.tycsports.com/amistosos-de-selecciones/amistosos-internacionales-masc-2026-bolivia-vs-argelia-amistosos-id735169.html",
+                "source": "TyC Sports"
+              },
+              {
+                "title": "Transmisión EN VIVO del Bolivia vs Argelia hoy: cómo mirar el partido por TV o streaming",
+                "url": "https://www.365scores.com/es/news/transmision-en-vivo-bolivia-vs-argelia/",
+                "source": "365Scores"
+              },
+              {
+                "title": "Espionaje en el Mundial: un dron sobrevoló la práctica cerrada de Argelia antes de enfrentar a Argentina",
+                "url": "https://www.ellitoral.com/deportes/argelia-mundial2026-controversia-dron-entrenamiento-argelia-reserva-tacticas_0_ol3aRyvMbB.html",
+                "source": "El Litoral"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "copa mundial de fútbol de 2026",
+        "score": 13000,
+        "geos": [
+          "AR"
+        ],
+        "samples": [
+          {
+            "query": "copa mundial de fútbol de 2026",
+            "geo": "AR",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 10000,
+            "articles": [
+              {
+                "title": "Comienza el Mundial 2026: el calendario completo con los días, horarios y estadios de todos los partidos",
+                "url": "https://www.infobae.com/deportes/2026/06/11/comienza-el-mundial-2026-el-calendario-completo-con-los-dias-horarios-y-estadios-de-todos-los-partidos/",
+                "source": "Infobae"
+              },
+              {
+                "title": "Arranca el Mundial 2026 de Estados Unidos, México y Canadá: Argentina defiende la corona obtenida en Qatar ...",
+                "url": "https://www.rosario3.com/deportes/arranca-el-mundial-2026-de-estados-unidos-mexico-y-canada-argentina-defiende-la-corona-obtenida-en-qatar-2022-20260610-0022.html",
+                "source": "Rosario3"
+              },
+              {
+                "title": "Fiesta inaugural del Mundial 2026, EN VIVO: hora, TV y las últimas noticias de la ceremonia",
+                "url": "https://www.lanacion.com.ar/deportes/futbol/fiesta-inaugural-del-mundial-2026-en-vivo-hora-tv-y-las-ultimas-noticias-de-la-ceremonia-nid11062026/",
+                "source": "La Nación"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "inglaterra - costa rica",
+        "score": 8000,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "inglaterra - costa rica",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 10000,
+            "articles": [
+              {
+                "title": "Gordon escampa el &apos;nubarrón&apos; de Inglaterra",
+                "url": "https://www.marca.com/futbol/mundial/cronica/2026/06/11/gordon-escampa-nubarron-inglaterra.html",
+                "source": "MARCA"
+              },
+              {
+                "title": "Anthony Gordon lidera goleada de Inglaterra sobre Costa Rica en amistoso premundialista",
+                "url": "https://www.teleamazonas.com/mundial/anthony-gordon-lidera-goleada-inglaterra-sobre-costa-rica-amistoso-premundialista-119825/",
+                "source": "Teleamazonas"
+              },
+              {
+                "title": "Inglaterra vs Costa Rica EN VIVO: alineaciones, detalles, hora y cómo ver el amistoso | Mundial 2026",
+                "url": "https://www.expreso.ec/deportes/copa-mundial-de-futbol/inglaterra-vs-costa-rica-vivo-alineaciones-detalles-hora-ver-amistoso-mundial-2026-285232.html",
+                "source": "expreso.ec"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "kylian mbappé",
+        "score": 3000,
+        "geos": [
+          "ES"
+        ],
+        "samples": [
+          {
+            "query": "kylian mbappé",
+            "geo": "ES",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "Game Time: The story of the Hublot Big Bang Reloaded Kylian Mbappé",
+                "url": "https://www.daman.co.id/game-time-the-story-of-the-hublot-big-bang-reloaded-kylian-mbappe",
+                "source": "DA MAN Magazine"
+              },
+              {
+                "title": "Deschamps annoyed by the debate over Mbappé: “I must be stupid for playing him as a center forward\"",
+                "url": "https://www.marca.com/en/world-cup/2026/06/10/deschamps-annoyed-by-the-debate-over-mbappe-i-must-be-stupid-for-playing-him-as-a-center-forward.html",
+                "source": "MARCA"
+              },
+              {
+                "title": "Mbappé Faces Fresh Controversy After Reported Trip to Madrid Before World Cup 2026",
+                "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/kylian-mbapp%C3%A9-s-latest-controversy-just-hours-before-the-2026-fifa-world-cup-2026-06-10",
+                "source": "beIN SPORTS"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "corea del sur vs chequia",
+        "score": 2800,
+        "geos": [
+          "MX"
+        ],
+        "samples": [
+          {
+            "query": "corea del sur vs chequia",
+            "geo": "MX",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "Chequia minimiza factor de la altura para el debut en Guadalajara",
+                "url": "https://www.espn.com.mx/futbol/mundial/nota/_/id/16821766/mundial-2026-chequia-corea-del-sur-guadalajara-debut-son-heung-min",
+                "source": "ESPN México"
+              },
+              {
+                "title": "República Checa ya está en Guadalajara para disputar el Mundial 2026",
+                "url": "https://www.telemundo.com/deportes/copa-mundial-de-la-fifa-2026/republica-checa-ya-esta-en-guadalajara-para-disputar-el-mundial-2026-rcna349539",
+                "source": "Telemundo"
+              },
+              {
+                "title": "Mundial 2026: Estrellas a seguir en el Corea del Sur vs. Chequia",
+                "url": "https://espndeportes.espn.com/futbol/mundial/nota/_/id/16821183/chequia-corea-del-sur-mundial-2026-debut-figuras-jugadores-a-seguir",
+                "source": "ESPN Deportes"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "suspensión de clases",
+        "score": 2600,
+        "geos": [
+          "AR"
+        ],
+        "samples": [
+          {
+            "query": "suspensión de clases",
+            "geo": "AR",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "Confirmado el home office para todos: Sheinbaum impulsa el trabajo remoto en Ciudad de México para evitar el colapso del tránsito el día inaugural del Mundial 2026",
+                "url": "https://www.clarin.com/estados-unidos/confirmado-home-office-sheinbaum-impulsa-trabajo-remoto-ciudad-mexico-evitar-colapso-transito-dia-inaugural-mundial-2026_0_L1x6HgJzz5.html",
+                "source": "Clarin.com"
+              },
+              {
+                "title": "Tamaulipas permite a sus alumnos faltar el 11 de junio por inauguración del Mundial",
+                "url": "https://www.infobae.com/mexico/2026/06/10/tamaulipas-permite-a-sus-alumnos-faltar-el-11-de-junio-por-inauguracion-del-mundial/",
+                "source": "Infobae"
+              },
+              {
+                "title": "Presidenta de México anuncia medidas laborales para inauguración",
+                "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16815753/mundial-presidenta-de-mexico-suspende-labores-por-inauguracion",
+                "source": "ESPN Deportes"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "cristiano ronaldo",
+        "score": 1600,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "cristiano ronaldo",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "Cristiano Ronaldo llega al Mundial 2026 con victorias, pero sin goles",
+                "url": "https://www.elcomercio.com/deportes/futbol/cristiano-ronaldo-llega-mundial-victorias-goles/",
+                "source": "El Comercio"
+              },
+              {
+                "title": "Portugal gana 2-1 a Nigeria pese a ocasiones falladas por Cristiano Ronaldo",
+                "url": "https://www.teleamazonas.com/mundial/portugal-gana-2-1-nigeria-pese-ocasiones-falladas-cristiano-ronaldo-119805/",
+                "source": "Teleamazonas"
+              },
+              {
+                "title": "Portugal vs Nigeria EN VIVO: alineaciones, detalles y cómo ver el amistoso | Mundial 2026",
+                "url": "https://www.extra.ec/noticia/deportes/copa-mundial-de-futbol/portugal-vs-nigeria-vivo-alineaciones-detalles-ver-amistoso-mundial-2026-155682.html",
+                "source": "Portal Extra"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "cesar cravioto",
+        "score": 1400,
+        "geos": [
+          "MX"
+        ],
+        "samples": [
+          {
+            "query": "cesar cravioto",
+            "geo": "MX",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "Madres buscadoras marchan sobre Tlalpan al estadio Azteca, previo a inicio del Mundial 2026",
+                "url": "https://www.jornada.com.mx/noticia/2026/06/10/sociedad/madres-buscadoras-marchan-sobre-avenida-tlalpan-al-estadio-azteca",
+                "source": "La Jornada"
+              },
+              {
+                "title": "México: protesta por desaparecidos horas antes del Mundial",
+                "url": "https://www.dw.com/es/horas-antes-del-mundial-familiares-de-desaparecidos-se-manifiestan-en-m%C3%A9xico/a-77498927",
+                "source": "DW"
+              },
+              {
+                "title": "A horas del Mundial 2026, manifestantes marchan hacia el Estadio Azteca",
+                "url": "https://www.record.com.mx/historia/a-horas-del-mundial-2026-manifestantes-marchan-hacia-el-estadio-azteca-2026061106040516380",
+                "source": "Récord"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "vix mundial",
+        "score": 1400,
+        "geos": [
+          "MX"
+        ],
+        "samples": [
+          {
+            "query": "vix mundial",
+            "geo": "MX",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "ViX cambió las reglas con el Mundial 2026 y si pensabas compartir tu cuenta, ahora será más complicado",
+                "url": "https://www.xataka.com.mx/streaming/vix-cambio-reglas-mundial-2026-pensabas-compartir-tu-cuenta-ahora-sera-complicado",
+                "source": "Xataka México"
+              },
+              {
+                "title": "¿Cómo contratar ViX para ver el Mundial 2026? Precio del Pase Mundial y todos los paquetes que tiene",
+                "url": "https://www.marca.com/mx/futbol/mundial/2026/06/10/6a298c8522601d65478b4586.html",
+                "source": "MARCA"
+              },
+              {
+                "title": "¿Cómo contratar ViX para ver los 104 partidos del Mundial 2026? PRECIOS y paquetes del Pase Mundial",
+                "url": "https://www.mediotiempo.com/futbol/copa-mundial/como-contratar-vix-para-ver-los-104-partidos-del-mundial-2026-precios-y-paquetes-del-pase-mundial",
+                "source": "Mediotiempo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "bolivia vs argelia",
+        "score": 800,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "bolivia vs argelia",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "Bolivia vs Algeria: Friendlies stats & head-to-head",
+                "url": "https://www.bbc.com/sport/football/live/crkvd8vp70rt",
+                "source": "BBC"
+              },
+              {
+                "title": "Bolivia vs Algeria live online: score, stats, goals & updates | International friendly World Cup 2026 warm up",
+                "url": "https://en.as.com/soccer/bolivia-vs-algeria-live-online-score-stats-goals-updates-international-friendly-world-cup-2026-warm-up-f202606-n/",
+                "source": "Diario AS"
+              },
+              {
+                "title": "Algeria Schedules Closed-Door Friendly Against Bolivia Ahead of World Cup Opener vs Argentina",
+                "url": "https://sports.yahoo.com/articles/algeria-schedules-closed-door-friendly-154843634.html",
+                "source": "Yahoo Sports"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "mundial de futbol 2026",
+        "score": 740,
+        "geos": [
+          "AR",
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "mundial de futbol 2026",
+            "geo": "AR",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Mundial 2026, en directo: noticias de la Copa del Mundo y última hora de las selecciones, hoy en vivo",
+                "url": "https://as.com/futbol/mundial/mundial-2026-en-directo-noticias-de-la-copa-del-mundo-y-ultima-hora-de-las-selecciones-hoy-en-vivo-clone-f202606-d/",
+                "source": "Diario AS"
+              },
+              {
+                "title": "Mundial 2026, en VIVO: últimas noticias de hoy, 10 de junio, el minuto a minuto de las selecciones y todas las novedades de la previa",
+                "url": "https://www.infobae.com/deportes/2026/06/10/mundial-2026-en-vivo-ultimas-noticias-de-hoy-10-de-junio-el-minuto-a-minuto-de-las-selecciones-y-todas-las-novedades-de-la-previa/",
+                "source": "Infobae"
+              },
+              {
+                "title": "Los amistosos de selecciones antes del Mundial: resultados y la lista de todos los partidos",
+                "url": "https://www.ole.com.ar/mundial/mundial-amistosos-lista-partidos-juegan-horario-fecha-resultados_0_g1dve9k1Sc.html",
+                "source": "Olé"
+              }
+            ]
+          },
+          {
+            "query": "mundial de futbol 2026",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Mundial 2026, en directo: noticias de la Copa del Mundo y última hora de las selecciones, hoy en vivo",
+                "url": "https://as.com/futbol/mundial/mundial-2026-en-directo-noticias-de-la-copa-del-mundo-y-ultima-hora-de-las-selecciones-hoy-en-vivo-f202606-d-3/",
+                "source": "Diario AS"
+              },
+              {
+                "title": "Mundial 2026, en VIVO: últimas noticias de hoy, 10 de junio, el minuto a minuto de las selecciones y todas las novedades de la previa",
+                "url": "https://www.infobae.com/deportes/2026/06/10/mundial-2026-en-vivo-ultimas-noticias-de-hoy-10-de-junio-el-minuto-a-minuto-de-las-selecciones-y-todas-las-novedades-de-la-previa/",
+                "source": "Infobae"
+              },
+              {
+                "title": "Partidos de hoy martes 9 de junio: Juegos amistosos rumbo al Mundial 2026",
+                "url": "https://www.tudn.com/mundial-2026/partido-hoy-martes-9-de-junio-de-2026-partidos-amistosos-rumbo-al-mundial-2026",
+                "source": "TUDN"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "programacion mundial 2026",
+        "score": 500,
+        "geos": [
+          "CO"
+        ],
+        "samples": [
+          {
+            "query": "programacion mundial 2026",
+            "geo": "CO",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Los cinco duelos imperdibles que marcarán la fase de grupos del Mundial 2026: prográmese y disfrute",
+                "url": "https://www.eltiempo.com/deportes/futbol-internacional/los-cinco-duelos-imperdibles-que-marcaran-la-fase-de-grupos-del-mundial-2026-programese-y-disfrute-3563525",
+                "source": "ELTIEMPO.com"
+              },
+              {
+                "title": "Conozca los cinco partidazos que no se puede perder en Mundial 2026",
+                "url": "https://www.futbolred.com/seleccion-colombia/estos-son-los-cinco-mejores-partidos-del-mundial-2026-tome-nota-para-que-se-programe-268708",
+                "source": "Futbolred"
+              },
+              {
+                "title": "Histórica inauguración de la Copa Mundial de la FIFA™: dónde verla",
+                "url": "https://www.winsports.co/futbol-internacional/noticias/historica-inauguracion-de-la-copa-mundial-de-la-fifa-donde-verla-436529",
+                "source": "Win Sports"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "calendario mundial 2026",
+        "score": 200,
+        "geos": [
+          "CO"
+        ],
+        "samples": [
+          {
+            "query": "calendario mundial 2026",
+            "geo": "CO",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Locura por Colombia: Así fue la llegada a Guadalajara",
+                "url": "https://www.espn.com.co/futbol/mundial/nota/_/id/16822585/locura-por-colombia-asi-fue-la-llegada-a-guadalajara",
+                "source": "ESPN Colombia"
+              },
+              {
+                "title": "¿Qué partidos del Mundial 2026 se verán EN VIVO en Gol Caracol y Ditu?, día y hora para Colombia",
+                "url": "https://www.noticiascaracol.com/golcaracol/seleccion-colombia/que-partidos-del-mundial-2026-se-veran-en-vivo-en-gol-caracol-y-ditu-dia-y-hora-para-colombia-rg10",
+                "source": "Noticias Caracol"
+              },
+              {
+                "title": "Así llega Colombia en el ranking FIFA a su debut en el Mundial 2026: ¿En qué puesto está?",
+                "url": "https://caracol.com.co/2026/06/11/asi-llega-colombia-en-el-ranking-fifa-a-su-debut-en-el-mundial-2026-en-que-puesto-esta/",
+                "source": "Caracol Radio"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "mexico vs sudafrica",
+        "score": 180,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "mexico vs sudafrica",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "México vs. Sudáfrica, en el partido inaugural del Mundial 2026: hora y dónde ver el puntapié del torneo",
+                "url": "https://www.elpais.com.uy/ovacion/mundial/mexico-vs-sudafrica-en-el-partido-inaugural-del-mundial-2026-hora-y-donde-ver-el-puntapie-del-torneo",
+                "source": "EL PAÍS Uruguay"
+              },
+              {
+                "title": "Sudáfrica se prepara para el partido inaugural en el Estadio Azteca",
+                "url": "https://www.eltelegrafo.com/2026/06/sudafrica-se-prepara-para-el-partido-inaugural-en-el-estadio-azteca/",
+                "source": "El Telégrafo"
+              },
+              {
+                "title": "Sondeo Infobae México: Opinión de aficionado uruguayo sobre el México vs Sudáfrica del Mundial 2026",
+                "url": "https://www.infobae.com/video/deportes-mexico/sondeo-infobae-mexico-opinion-de-aficionado-uruguayo-sobre-el-mexico-vs-sudafrica-del-mundial-2026/2YKAuRx3/",
+                "source": "Infobae"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "corea del sur vs",
+        "score": 90,
+        "geos": [
+          "CL"
+        ],
+        "samples": [
+          {
+            "query": "corea del sur vs",
+            "geo": "CL",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Mundial 2026: Estrellas a seguir en el Corea del Sur vs. Chequia",
+                "url": "https://www.espn.cl/futbol/mundial/nota/_/id/16821183/chequia-corea-del-sur-mundial-2026-debut-figuras-jugadores-a-seguir",
+                "source": "ESPN Chile"
+              },
+              {
+                "title": "En vivo: Corea del Sur y República Checa juegan el segundo partido del Mundial 2026",
+                "url": "https://www.latercera.com/el-deportivo/noticia/en-vivo-corea-del-sur-y-republica-checa-juegan-el-primer-partido-del-mundial-2026/",
+                "source": "La Tercera"
+              },
+              {
+                "title": "La ciencia coreana frente al colectivo checo",
+                "url": "https://as.com/futbol/mundial/la-ciencia-coreana-frente-al-colectivo-checo-f202606-n/",
+                "source": "Diario AS"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "fixture mundial 2026",
+        "score": 90,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "fixture mundial 2026",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "El Mundial 2026 levanta su telón",
+                "url": "https://www.eltelegrafo.com/2026/06/el-mundial-2026-levanta-su-telon/",
+                "source": "El Telégrafo"
+              },
+              {
+                "title": "Arranca el Mundial con México-Sudáfrica y Corea-República Checa: información y dónde ver los partidos",
+                "url": "https://ladiaria.com.uy/deporte/articulo/2026/6/el-dia-esperado-arranca-el-mundial-2026-con-dos-partidos/",
+                "source": "la diaria"
+              },
+              {
+                "title": "Comienza el Mundial 2026: el calendario completo con los días, horarios y estadios de todos los partidos",
+                "url": "https://www.infobae.com/deportes/2026/06/11/comienza-el-mundial-2026-el-calendario-completo-con-los-dias-horarios-y-estadios-de-todos-los-partidos/",
+                "source": "Infobae"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "en": [
+      {
+        "query": "world cup fantasy football",
+        "score": 550,
+        "geos": [
+          "GB"
+        ],
+        "samples": [
+          {
+            "query": "world cup fantasy football",
+            "geo": "GB",
+            "language": "en",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "BigManBakar’s World Cup Fantasy 2026 Matchday 1 team reveal",
+                "url": "https://www.fantasyfootballhub.co.uk/bigmanbakars-world-cup-fantasy-2026-matchday-1-team-reveal",
+                "source": "Fantasy Football Hub"
+              },
+              {
+                "title": "Fantasy FIFA World Cup 2026: 9 expert Round 1 team reveals",
+                "url": "https://www.fantasyfootballscout.co.uk/2026/06/11/fantasy-fifa-world-cup-2026-9-expert-round-1-team-reveals/",
+                "source": "Fantasy Football Scout"
+              },
+              {
+                "title": "World Cup 2026 fantasy football: 54 players and hidden gems to target",
+                "url": "https://www.independent.co.uk/sport/football/world-cup-fantasy-football-tips-players-to-buy-b2993744.html",
+                "source": "The Independent"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "fr": [
+      {
+        "query": "curacao",
+        "score": 500,
+        "geos": [
+          "FR"
+        ],
+        "samples": [
+          {
+            "query": "curacao",
+            "geo": "FR",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Connaissez-vous Curaçao, plus petit pays jamais qualifié pour une coupe du monde ?",
+                "url": "https://www.lefigaro.fr/voyages/guides/connaissez-vous-curacao-plus-petit-pays-jamais-qualifie-pour-une-coupe-du-monde-20260611",
+                "source": "Le Figaro"
+              },
+              {
+                "title": "Coupe du monde 2026. Le petit poucet du Mondial voyage dans un bus scolaire sans fenêtres",
+                "url": "https://www.ledauphine.com/coupe-du-monde-de-football/2026/06/11/les-images-de-l-arrivee-insolite-du-curacao-dans-un-vieux-bus-scolaire",
+                "source": "Le Dauphiné Libéré"
+              },
+              {
+                "title": "Coupe du monde de football : quand les petites nations de la Caraïbe ont réussi à s’inviter parmi les géants du football",
+                "url": "https://la1ere.franceinfo.fr/guadeloupe/coupe-du-monde-de-football-quand-les-petites-nations-de-la-caraibe-ont-reussi-a-s-inviter-parmi-les-geants-du-football-1709251.html",
+                "source": "Outre-mer La 1ère"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "coupe du monde de football 2026",
+        "score": 500,
+        "geos": [
+          "FR"
+        ],
+        "samples": [
+          {
+            "query": "coupe du monde de football 2026",
+            "geo": "FR",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "La Coupe du monde de football 2026, une aberration climatique",
+                "url": "https://www.lemonde.fr/idees/article/2026/06/11/la-coupe-du-monde-de-football-2026-une-aberration-climatique_6700660_3232.html",
+                "source": "Le Monde.fr"
+              },
+              {
+                "title": "Une explosion des émissions de carbone: la Coupe du monde 2026 sera la plus polluante de l&apos;histoire",
+                "url": "https://rmcsport.bfmtv.com/football/coupe-du-monde/une-explosion-des-emissions-de-carbone-la-coupe-du-monde-2026-sera-la-plus-polluante-de-l-histoire_AV-202606110478.html",
+                "source": "RMC Sport"
+              },
+              {
+                "title": "« On va être sur un niveau record » : près de 8 millions de tonnes d&apos;émissions annoncées, la Coupe du monde 2026 sera la plus polluante de l&apos;histoire",
+                "url": "https://www.lequipe.fr/Football/Article/-on-va-etre-sur-un-niveau-record-pres-de-8-millions-de-tonnes-d-emissions-annoncees-la-coupe-du-monde-2026-sera-la-plus-polluante-de-l-histoire/1683627",
+                "source": "L&apos;Équipe"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "fifa",
+        "score": 450,
+        "geos": [
+          "MA"
+        ],
+        "samples": [
+          {
+            "query": "fifa",
+            "geo": "MA",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "World Cup players and officials are being detained or barred entry into U.S.",
+                "url": "https://www.washingtonpost.com/immigration/2026/06/09/world-cup-players-officials-are-being-detained-or-barred-entry-into-us/",
+                "source": "The Washington Post"
+              },
+              {
+                "title": "FIFA president defends record World Cup ticket prices",
+                "url": "https://www.tampabay.com/sports/2026/06/11/world-cup-ticket-prices-gianni-infantino-fifa-visa-issues-iran-donald-trump/",
+                "source": "Tampa Bay Times"
+              },
+              {
+                "title": "FIFA&apos;s Infantino: Better to &apos;chill&apos; over World Cup visa issues",
+                "url": "https://www.espn.com/soccer/story/_/id/49021490/fifa-president-gianni-infantino-world-cup-visa-usa-ticket-prices",
+                "source": "ESPN"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "match coupe du monde 2026",
+        "score": 450,
+        "geos": [
+          "MA"
+        ],
+        "samples": [
+          {
+            "query": "match coupe du monde 2026",
+            "geo": "MA",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "L&apos;ouverture de la Coupe du monde ne se fera pas dans l&apos;allégresse à Mexico, capitale marquée par une forte contestation sociale",
+                "url": "https://www.lequipe.fr/Football/Article/L-ouverture-de-la-coupe-du-monde-ne-se-fera-pas-dans-l-allegresse-a-mexico-capitale-marquee-par-une-forte-contestation-sociale/1683718",
+                "source": "L&apos;Équipe"
+              },
+              {
+                "title": "Le Mondial 2026 s&apos;ouvre dans le mythique stade Azteca au Mexique",
+                "url": "https://lematin.ma/sports/le-mondial-2026-souvre-dans-le-mythique-stade-azteca-au-mexique/350075",
+                "source": "Le Matin.ma"
+              },
+              {
+                "title": "Mondial 2026 : Seize ans après, le grand retour des Bafana Bafana",
+                "url": "https://www.cafonline.com/fr/coupe-du-monde-de-la-fifa/news/mondial-2026-seize-ans-apres-le-grand-retour-des-bafana-bafana/",
+                "source": "Confédération Africaine de Football"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "fifa world cup 2026",
+        "score": 180,
+        "geos": [
+          "MA"
+        ],
+        "samples": [
+          {
+            "query": "fifa world cup 2026",
+            "geo": "MA",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Qatar vs Switzerland Live Stream TV Channel Kick-Off Time and Team News",
+                "url": "https://www.sportscasting.com/news/qatar-vs-switzerland-live-stream-tv-channel-kick-off/",
+                "source": "Sportscasting"
+              },
+              {
+                "title": "Qatar vs Switzerland team news and predicted lineups",
+                "url": "https://www.squawka.com/en/news/world-cup/qatar-vs-switzerland-team-news-predicted-lineups/",
+                "source": "Squawka"
+              },
+              {
+                "title": "Switzerland - Qatar: best picks, odds + stats 06/13/2026",
+                "url": "https://basketball.realgm.com/betting/picks/switzerland-vs-qatar-prediction-06-13-2026/",
+                "source": "RealGM"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "coupe du monde",
+        "score": 180,
+        "geos": [
+          "MA"
+        ],
+        "samples": [
+          {
+            "query": "coupe du monde",
+            "geo": "MA",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Trois pays, trois cérémonies et 48 équipes : Tout ce qu&apos;il faut savoir sur le lancement du Mondial 2026",
+                "url": "https://fr.hespress.com/476829-trois-pays-trois-ceremonies-et-48-equipes-tout-ce-quil-faut-savoir-sur-le-lancement-du-mondial-2026.html",
+                "source": "Hespress Français - Actualités du Maroc"
+              },
+              {
+                "title": "Coupe du monde 2026: horaires, chaînes TV... Tout savoir sur la diffusion des matchs du Mondial",
+                "url": "https://rmcsport.bfmtv.com/football/coupe-du-monde/coupe-du-monde-2026-horaires-chaines-tv-tout-savoir-sur-la-diffusion-des-matchs-du-mondial_AV-202606100024.html",
+                "source": "RMC Sport"
+              },
+              {
+                "title": "Mondial 2026 : L&apos;Afrique passe à la puissance 10",
+                "url": "https://www.cafonline.com/fr/coupe-du-monde-de-la-fifa/news/mondial-2026-lafrique-passe-a-la-puissance-10/",
+                "source": "Confédération Africaine de Football"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "it": [
+      {
+        "query": "messico sudafrica",
+        "score": 4500,
+        "geos": [
+          "IT"
+        ],
+        "samples": [
+          {
+            "query": "messico sudafrica",
+            "geo": "IT",
+            "language": "it",
+            "source": "google-trends-daily",
+            "score": 5000,
+            "articles": [
+              {
+                "title": "Dove vedere Messico-Sudafrica, inaugurazione dei Mondiali 2026, in tv e streaming",
+                "url": "https://www.corriere.it/sport/calcio/mondiali/26_giugno_11/dove-vedere-tv-messico-sudafrica-inaugurazione-3e32ea5a-b4e5-48a9-a74e-33cdd295dxlk.shtml",
+                "source": "Corriere della Sera"
+              },
+              {
+                "title": "Quanto valgono i Mondiali 2026: tra sponsor e turismo un affare da 80 miliardi e 800mila posti",
+                "url": "https://www.repubblica.it/economia/2026/06/11/news/mondiali_calcio_2026_quanto_valgono_sponsor_turismo-425403838/",
+                "source": "la Repubblica"
+              },
+              {
+                "title": "\"Coppa del Mondo FIFA 2026\", si parte",
+                "url": "https://www.rai.it/ufficiostampa/assets/template/us-articolo.html?ssiPath=/articoli/2026/06/Coppa-del-Mondo-FIFA-2026-si-parte-cd20a5e5-6061-46c5-b70d-12c7ff6019ea-ssi.html",
+                "source": "Rai.it"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "curacao",
+        "score": 450,
+        "geos": [
+          "IT"
+        ],
+        "samples": [
+          {
+            "query": "curacao",
+            "geo": "IT",
+            "language": "it",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Lo scuolabus, la musica caraibica e 26 “sconosciuti”: il sogno Mondiale del Curaçao",
+                "url": "https://www.corriere.it/sport/calcio/mondiali/26_giugno_10/curacao-scuolabus-musica-giocatori-chi-sono-1ff67ace-6a51-492e-ba03-d284522bcxlk.shtml",
+                "source": "Corriere della Sera"
+              },
+              {
+                "title": "Mondiali 2026, Curaçao stupisce ancora: dopo le convocazioni in radio c&apos;è il bus vintage",
+                "url": "https://www.rainews.it/articoli/2026/06/curaao-campionati-mondo-calcio-usa-canada-germania-messico-scuolabus-vintage-radio-video-houston-255081c7-901e-43f5-a7ca-d173898f5733.html",
+                "source": "RaiNews"
+              },
+              {
+                "title": "Mondiali: Curacao come in gita, nazionale arriva su un vecchio scuolabus",
+                "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/06/10/mondiali-curacao-come-in-gita-nazionale-arriva-su-un-vecchio-scuolabus_5aef2d38-c001-440f-af33-06b698147a96.html",
+                "source": "ANSA"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "pt": [
+      {
+        "query": "copa do mundo",
+        "score": 1000,
+        "geos": [
+          "PT"
+        ],
+        "samples": [
+          {
+            "query": "copa do mundo",
+            "geo": "PT",
+            "language": "pt",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "Aí está o Mundial que ameaça bater todos os recordes: tudo o que é preciso saber",
+                "url": "https://www.abola.pt/noticias/ai-esta-o-mundial-que-ameaca-bater-todos-os-recordes-tudo-o-que-e-preciso-saber-2026061017344144013",
+                "source": "A Bola"
+              },
+              {
+                "title": "Mundial 2026: o calendário de todos os jogos",
+                "url": "https://cnnportugal.iol.pt/mundial-2026/calendario/mundial-2026-o-calendario-de-todos-os-jogos/20260611/6a2a6287d34edcee7c652588",
+                "source": "CNN Portugal"
+              },
+              {
+                "title": "Quando é, e a que horas? O calendário completo das 72 partidas da fase de grupos do Mundial 2026",
+                "url": "https://sic.pt/mundial-fifa-2026/2026-06-09-quando-e-e-a-que-horas--o-calendario-completo-das-72-partidas-da-fase-de-grupos-do-mundial-2026-ecd949ae?fbclid=IwZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQKNjYyODU2ODM3OQABHt23jCHlPXRyPePtPDr4pOEqsZ6KySlvANlgUbsbCF2mA1wVit8wt7FTP37l_aem_1HB9VrqtGJAisq1Z3tpgCQ",
+                "source": "SIC"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "fotmob",
+        "score": 500,
+        "geos": [
+          "PT"
+        ],
+        "samples": [
+          {
+            "query": "fotmob",
+            "geo": "PT",
+            "language": "pt",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Fantasy FIFA World Cup 2026: Best $6.0m-to-$7.4m midfielders",
+                "url": "https://www.fantasyfootballscout.co.uk/2026/06/09/fantasy-fifa-world-cup-2026-best-6-0m-to-7-4m-midfielders/",
+                "source": "Fantasy Football Scout"
+              },
+              {
+                "title": "Masters of the middle: The 10 midfielders every fan should watch at the World Cup",
+                "url": "https://pretorianews.co.za/fifa-world-cup-2026/updates/2026-06-07-masters-of-the-middle-the-10-midfielders-every-fan-should-watch-at-the-world-cup/",
+                "source": "pretorianews.co.za"
+              },
+              {
+                "title": "The 10 Best Midfielders at the 2026 World Cup—Ranked",
+                "url": "https://www.inkl.com/news/the-10-best-midfielders-at-the-2026-world-cup-ranked",
+                "source": "inkl"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "topic": "bolivia vs",
+      "type": "noticia",
+      "slugSuggestion": "bolivia-vs",
+      "language": "es",
+      "geos": [
+        "PE",
+        "EC"
+      ],
+      "score": 22560,
+      "reason": "Google Trends daily PE con 20,000 búsquedas · 3 artículos noticiosos referenciando \"bolivia vs\"",
+      "proposedPath": "/noticias/bolivia-vs",
+      "evidence": [
+        {
+          "query": "bolivia vs",
+          "geo": "PE",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 20000,
+          "articles": [
+            {
+              "title": "Argelia aplastó a Bolivia en la previa del debut en el Mundial ante Argentina",
+              "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16822246/argelia-vs-bolivia-amistoso-internacional-previo-al-mundial-2026-equipo-fecha-hora-y-tv-en-vivo",
+              "source": "ESPN Deportes"
+            },
+            {
+              "title": "Bolivia vs Argelia: Resultado EN VIVO, minuto a minuto y goles del amistoso previo al Mundial 2026",
+              "url": "https://www.365scores.com/es/news/bolivia-vs-argelia-resultado-vivo-goles/",
+              "source": "365Scores"
+            },
+            {
+              "title": "Escándalo por el método de Argelia para esconderle sus secretos a Argentina que fue burlado por drones",
+              "url": "https://www.infobae.com/deportes/2026/06/10/escandalo-por-el-metodo-de-argelia-para-esconderle-sus-secretos-a-argentina-que-fue-burlado-por-drones/",
+              "source": "Infobae"
+            }
+          ]
+        },
+        {
+          "query": "bolivia vs",
+          "geo": "EC",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 1000,
+          "articles": [
+            {
+              "title": "Argelia se lució y goleó a días del debut contra la Selección Argentina en el Mundial 2026",
+              "url": "https://www.tycsports.com/amistosos-de-selecciones/amistosos-internacionales-masc-2026-bolivia-vs-argelia-amistosos-id735169.html",
+              "source": "TyC Sports"
+            },
+            {
+              "title": "Transmisión EN VIVO del Bolivia vs Argelia hoy: cómo mirar el partido por TV o streaming",
+              "url": "https://www.365scores.com/es/news/transmision-en-vivo-bolivia-vs-argelia/",
+              "source": "365Scores"
+            },
+            {
+              "title": "Espionaje en el Mundial: un dron sobrevoló la práctica cerrada de Argelia antes de enfrentar a Argentina",
+              "url": "https://www.ellitoral.com/deportes/argelia-mundial2026-controversia-dron-entrenamiento-argelia-reserva-tacticas_0_ol3aRyvMbB.html",
+              "source": "El Litoral"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "inglaterra - costa rica",
+      "type": "noticia",
+      "slugSuggestion": "inglaterra-costa-rica",
+      "language": "es",
+      "geos": [
+        "EC"
+      ],
+      "score": 9600,
+      "reason": "Google Trends daily EC con 10,000 búsquedas · 3 artículos noticiosos referenciando \"inglaterra - costa rica\"",
+      "proposedPath": "/noticias/inglaterra-costa-rica",
+      "evidence": [
+        {
+          "query": "inglaterra - costa rica",
+          "geo": "EC",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 10000,
+          "articles": [
+            {
+              "title": "Gordon escampa el &apos;nubarrón&apos; de Inglaterra",
+              "url": "https://www.marca.com/futbol/mundial/cronica/2026/06/11/gordon-escampa-nubarron-inglaterra.html",
+              "source": "MARCA"
+            },
+            {
+              "title": "Anthony Gordon lidera goleada de Inglaterra sobre Costa Rica en amistoso premundialista",
+              "url": "https://www.teleamazonas.com/mundial/anthony-gordon-lidera-goleada-inglaterra-sobre-costa-rica-amistoso-premundialista-119825/",
+              "source": "Teleamazonas"
+            },
+            {
+              "title": "Inglaterra vs Costa Rica EN VIVO: alineaciones, detalles, hora y cómo ver el amistoso | Mundial 2026",
+              "url": "https://www.expreso.ec/deportes/copa-mundial-de-futbol/inglaterra-vs-costa-rica-vivo-alineaciones-detalles-hora-ver-amistoso-mundial-2026-285232.html",
+              "source": "expreso.ec"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "messico sudafrica",
+      "type": "noticia",
+      "slugSuggestion": "messico-sudafrica",
+      "language": "it",
+      "geos": [
+        "IT"
+      ],
+      "score": 5400,
+      "reason": "Google Trends daily IT con 5,000 búsquedas · 3 artículos noticiosos referenciando \"messico sudafrica\"",
+      "proposedPath": "/noticias/messico-sudafrica",
+      "evidence": [
+        {
+          "query": "messico sudafrica",
+          "geo": "IT",
+          "language": "it",
+          "source": "google-trends-daily",
+          "score": 5000,
+          "articles": [
+            {
+              "title": "Dove vedere Messico-Sudafrica, inaugurazione dei Mondiali 2026, in tv e streaming",
+              "url": "https://www.corriere.it/sport/calcio/mondiali/26_giugno_11/dove-vedere-tv-messico-sudafrica-inaugurazione-3e32ea5a-b4e5-48a9-a74e-33cdd295dxlk.shtml",
+              "source": "Corriere della Sera"
+            },
+            {
+              "title": "Quanto valgono i Mondiali 2026: tra sponsor e turismo un affare da 80 miliardi e 800mila posti",
+              "url": "https://www.repubblica.it/economia/2026/06/11/news/mondiali_calcio_2026_quanto_valgono_sponsor_turismo-425403838/",
+              "source": "la Repubblica"
+            },
+            {
+              "title": "\"Coppa del Mondo FIFA 2026\", si parte",
+              "url": "https://www.rai.it/ufficiostampa/assets/template/us-articolo.html?ssiPath=/articoli/2026/06/Coppa-del-Mondo-FIFA-2026-si-parte-cd20a5e5-6061-46c5-b70d-12c7ff6019ea-ssi.html",
+              "source": "Rai.it"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "corea del sur vs chequia",
+      "type": "noticia",
+      "slugSuggestion": "corea-del-sur-vs-chequia",
+      "language": "es",
+      "geos": [
+        "MX"
+      ],
+      "score": 3360,
+      "reason": "Google Trends daily MX con 2,000 búsquedas · 3 artículos noticiosos referenciando \"corea del sur vs chequia\"",
+      "proposedPath": "/noticias/corea-del-sur-vs-chequia",
+      "evidence": [
+        {
+          "query": "corea del sur vs chequia",
+          "geo": "MX",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 2000,
+          "articles": [
+            {
+              "title": "Chequia minimiza factor de la altura para el debut en Guadalajara",
+              "url": "https://www.espn.com.mx/futbol/mundial/nota/_/id/16821766/mundial-2026-chequia-corea-del-sur-guadalajara-debut-son-heung-min",
+              "source": "ESPN México"
+            },
+            {
+              "title": "República Checa ya está en Guadalajara para disputar el Mundial 2026",
+              "url": "https://www.telemundo.com/deportes/copa-mundial-de-la-fifa-2026/republica-checa-ya-esta-en-guadalajara-para-disputar-el-mundial-2026-rcna349539",
+              "source": "Telemundo"
+            },
+            {
+              "title": "Mundial 2026: Estrellas a seguir en el Corea del Sur vs. Chequia",
+              "url": "https://espndeportes.espn.com/futbol/mundial/nota/_/id/16821183/chequia-corea-del-sur-mundial-2026-debut-figuras-jugadores-a-seguir",
+              "source": "ESPN Deportes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "suspensión de clases",
+      "type": "noticia",
+      "slugSuggestion": "suspension-de-clases",
+      "language": "es",
+      "geos": [
+        "AR"
+      ],
+      "score": 3120,
+      "reason": "Google Trends daily AR con 2,000 búsquedas · 3 artículos noticiosos referenciando \"suspensión de clases\"",
+      "proposedPath": "/noticias/suspension-de-clases",
+      "evidence": [
+        {
+          "query": "suspensión de clases",
+          "geo": "AR",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 2000,
+          "articles": [
+            {
+              "title": "Confirmado el home office para todos: Sheinbaum impulsa el trabajo remoto en Ciudad de México para evitar el colapso del tránsito el día inaugural del Mundial 2026",
+              "url": "https://www.clarin.com/estados-unidos/confirmado-home-office-sheinbaum-impulsa-trabajo-remoto-ciudad-mexico-evitar-colapso-transito-dia-inaugural-mundial-2026_0_L1x6HgJzz5.html",
+              "source": "Clarin.com"
+            },
+            {
+              "title": "Tamaulipas permite a sus alumnos faltar el 11 de junio por inauguración del Mundial",
+              "url": "https://www.infobae.com/mexico/2026/06/10/tamaulipas-permite-a-sus-alumnos-faltar-el-11-de-junio-por-inauguracion-del-mundial/",
+              "source": "Infobae"
+            },
+            {
+              "title": "Presidenta de México anuncia medidas laborales para inauguración",
+              "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16815753/mundial-presidenta-de-mexico-suspende-labores-por-inauguracion",
+              "source": "ESPN Deportes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "cesar cravioto",
+      "type": "noticia",
+      "slugSuggestion": "cesar-cravioto",
+      "language": "es",
+      "geos": [
+        "MX"
+      ],
+      "score": 1680,
+      "reason": "Google Trends daily MX con 1,000 búsquedas · 3 artículos noticiosos referenciando \"cesar cravioto\"",
+      "proposedPath": "/noticias/cesar-cravioto",
+      "evidence": [
+        {
+          "query": "cesar cravioto",
+          "geo": "MX",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 1000,
+          "articles": [
+            {
+              "title": "Madres buscadoras marchan sobre Tlalpan al estadio Azteca, previo a inicio del Mundial 2026",
+              "url": "https://www.jornada.com.mx/noticia/2026/06/10/sociedad/madres-buscadoras-marchan-sobre-avenida-tlalpan-al-estadio-azteca",
+              "source": "La Jornada"
+            },
+            {
+              "title": "México: protesta por desaparecidos horas antes del Mundial",
+              "url": "https://www.dw.com/es/horas-antes-del-mundial-familiares-de-desaparecidos-se-manifiestan-en-m%C3%A9xico/a-77498927",
+              "source": "DW"
+            },
+            {
+              "title": "A horas del Mundial 2026, manifestantes marchan hacia el Estadio Azteca",
+              "url": "https://www.record.com.mx/historia/a-horas-del-mundial-2026-manifestantes-marchan-hacia-el-estadio-azteca-2026061106040516380",
+              "source": "Récord"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "bolivia vs argelia",
+      "type": "noticia",
+      "slugSuggestion": "bolivia-vs-argelia",
+      "language": "es",
+      "geos": [
+        "EC"
+      ],
+      "score": 960,
+      "reason": "Google Trends daily EC con 1,000 búsquedas · 3 artículos noticiosos referenciando \"bolivia vs argelia\"",
+      "proposedPath": "/noticias/bolivia-vs-argelia",
+      "evidence": [
+        {
+          "query": "bolivia vs argelia",
+          "geo": "EC",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 1000,
+          "articles": [
+            {
+              "title": "Bolivia vs Algeria: Friendlies stats & head-to-head",
+              "url": "https://www.bbc.com/sport/football/live/crkvd8vp70rt",
+              "source": "BBC"
+            },
+            {
+              "title": "Bolivia vs Algeria live online: score, stats, goals & updates | International friendly World Cup 2026 warm up",
+              "url": "https://en.as.com/soccer/bolivia-vs-algeria-live-online-score-stats-goals-updates-international-friendly-world-cup-2026-warm-up-f202606-n/",
+              "source": "Diario AS"
+            },
+            {
+              "title": "Algeria Schedules Closed-Door Friendly Against Bolivia Ahead of World Cup Opener vs Argentina",
+              "url": "https://sports.yahoo.com/articles/algeria-schedules-closed-door-friendly-154843634.html",
+              "source": "Yahoo Sports"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "world cup fantasy football",
+      "type": "noticia",
+      "slugSuggestion": "world-cup-fantasy-football",
+      "language": "en",
+      "geos": [
+        "GB"
+      ],
+      "score": 660,
+      "reason": "Google Trends daily GB con 500 búsquedas · 3 artículos noticiosos referenciando \"world cup fantasy football\"",
+      "proposedPath": "/noticias/world-cup-fantasy-football",
+      "evidence": [
+        {
+          "query": "world cup fantasy football",
+          "geo": "GB",
+          "language": "en",
+          "source": "google-trends-daily",
+          "score": 500,
+          "articles": [
+            {
+              "title": "BigManBakar’s World Cup Fantasy 2026 Matchday 1 team reveal",
+              "url": "https://www.fantasyfootballhub.co.uk/bigmanbakars-world-cup-fantasy-2026-matchday-1-team-reveal",
+              "source": "Fantasy Football Hub"
+            },
+            {
+              "title": "Fantasy FIFA World Cup 2026: 9 expert Round 1 team reveals",
+              "url": "https://www.fantasyfootballscout.co.uk/2026/06/11/fantasy-fifa-world-cup-2026-9-expert-round-1-team-reveals/",
+              "source": "Fantasy Football Scout"
+            },
+            {
+              "title": "World Cup 2026 fantasy football: 54 players and hidden gems to target",
+              "url": "https://www.independent.co.uk/sport/football/world-cup-fantasy-football-tips-players-to-buy-b2993744.html",
+              "source": "The Independent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "fotmob",
+      "type": "noticia",
+      "slugSuggestion": "fotmob",
+      "language": "pt",
+      "geos": [
+        "PT"
+      ],
+      "score": 600,
+      "reason": "Google Trends daily PT con 500 búsquedas · 3 artículos noticiosos referenciando \"fotmob\"",
+      "proposedPath": "/noticias/fotmob",
+      "evidence": [
+        {
+          "query": "fotmob",
+          "geo": "PT",
+          "language": "pt",
+          "source": "google-trends-daily",
+          "score": 500,
+          "articles": [
+            {
+              "title": "Fantasy FIFA World Cup 2026: Best $6.0m-to-$7.4m midfielders",
+              "url": "https://www.fantasyfootballscout.co.uk/2026/06/09/fantasy-fifa-world-cup-2026-best-6-0m-to-7-4m-midfielders/",
+              "source": "Fantasy Football Scout"
+            },
+            {
+              "title": "Masters of the middle: The 10 midfielders every fan should watch at the World Cup",
+              "url": "https://pretorianews.co.za/fifa-world-cup-2026/updates/2026-06-07-masters-of-the-middle-the-10-midfielders-every-fan-should-watch-at-the-world-cup/",
+              "source": "pretorianews.co.za"
+            },
+            {
+              "title": "The 10 Best Midfielders at the 2026 World Cup—Ranked",
+              "url": "https://www.inkl.com/news/the-10-best-midfielders-at-the-2026-world-cup-ranked",
+              "source": "inkl"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alreadyCovered": [
+    {
+      "query": "vix mundial",
+      "matchUrl": "/coleccionismo/panini-mundial-2026"
+    },
+    {
+      "query": "mundial de futbol 2026",
+      "matchUrl": "/coleccionismo/panini-mundial-2026"
+    },
+    {
+      "query": "copa mundial de fútbol de 2026",
+      "matchUrl": "/coleccionismo/panini-mundial-2026"
+    },
+    {
+      "query": "calendario mundial 2026",
+      "matchUrl": "/2026/calendario"
+    },
+    {
+      "query": "programacion mundial 2026",
+      "matchUrl": "/coleccionismo/panini-mundial-2026"
+    },
+    {
+      "query": "corea del sur vs",
+      "matchUrl": "/ediciones/2002-corea-japon"
+    },
+    {
+      "query": "cristiano ronaldo",
+      "matchUrl": "/noticias/convocatoria-portugal-mundial-2026-roberto-martinez-cristiano-ronaldo-sexto-mundial-41-anos"
+    },
+    {
+      "query": "mexico vs sudafrica",
+      "matchUrl": "/noticias/h2h-mexico-sudafrica-mundial-2026-partido-inaugural"
+    },
+    {
+      "query": "fixture mundial 2026",
+      "matchUrl": "/coleccionismo/panini-mundial-2026"
+    },
+    {
+      "query": "mundial de futbol 2026",
+      "matchUrl": "/coleccionismo/panini-mundial-2026"
+    },
+    {
+      "query": "kylian mbappé",
+      "matchUrl": "/noticias/kylian-mbappe-mundial-2026-real-madrid-francia-ganar-lo-unico-que-le-falta"
+    },
+    {
+      "query": "curacao",
+      "matchUrl": "/noticias/h2h-alemania-curacao-mundial-2026-grupo-e"
+    },
+    {
+      "query": "coupe du monde de football 2026",
+      "matchUrl": "/coleccionismo/panini-mundial-2026"
+    },
+    {
+      "query": "curacao",
+      "matchUrl": "/noticias/h2h-alemania-curacao-mundial-2026-grupo-e"
+    },
+    {
+      "query": "copa do mundo",
+      "matchUrl": "/coleccionismo/panini-mundial-2026"
+    },
+    {
+      "query": "fifa",
+      "matchUrl": "/noticias/estafa-entradas-mundial-2026-phishing-fifa-sitios-falsos-fraude-eset-check-point"
+    },
+    {
+      "query": "fifa world cup 2026",
+      "matchUrl": "/noticias/estafa-entradas-mundial-2026-phishing-fifa-sitios-falsos-fraude-eset-check-point"
+    },
+    {
+      "query": "coupe du monde",
+      "matchUrl": "/coleccionismo/panini-mundial-2026"
+    },
+    {
+      "query": "match coupe du monde 2026",
+      "matchUrl": "/noticias/hospitality-mundial-2026-on-location-precios-single-match-2500-venue-series-private-suites"
+    }
+  ]
+}

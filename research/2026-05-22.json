@@ -1,0 +1,609 @@
+{
+  "generatedAt": "2026-05-22T09:57:08.018Z",
+  "date": "2026-05-22",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "album panini mundial 2026",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Cómo el álbum del Mundial desafía a la inflación y crea su propia economía en América Latina",
+          "url": "https://cnnespanol.cnn.com/2026/05/21/latinoamerica/mundial-album-panini-inflacion-precios-latam-orix",
+          "source": "CNN en Español"
+        },
+        {
+          "title": "Álbum Panini Mundial 2026: costo, puntos de venta e intercambio",
+          "url": "https://caretas.pe/deportes/album-panini-mundial-2026-precios-donde-comprar-y-puntos-de-intercambio-de-figuritas-en-peru-copa-del-mundo-fifa/",
+          "source": "Revista Caretas"
+        },
+        {
+          "title": "¿Cuántos CÓDIGOS y figuritas GRATIS hay en el nuevo Álbum de Panini?",
+          "url": "https://elcomercio.pe/respuestas/mexico/album-panini-mundial-2026-cuantos-codigos-y-figuritas-gratis-hay-tdpe-noticia/",
+          "source": "El Comercio Perú"
+        }
+      ]
+    },
+    {
+      "query": "portugal world cup squad",
+      "geo": "GB",
+      "language": "en",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "World Cup 2026: Cristiano Ronaldo in Portugal squad and set for sixth World Cup",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cn4p1332exzo",
+          "source": "BBC"
+        },
+        {
+          "title": "Portugal name World Cup squad: Cristiano Ronaldo set for sixth tournament",
+          "url": "https://www.nytimes.com/athletic/7291088/2026/05/19/portugal-world-cup-squad-2026/",
+          "source": "The New York Times"
+        },
+        {
+          "title": "Pedro Neto called up by Portugal for 2026 World Cup | News | Official Site",
+          "url": "https://www.chelseafc.com/en/news/article/chelsea-winger-pedro-neto-selected-portugal-2026-world-cup",
+          "source": "Chelsea official site"
+        }
+      ]
+    },
+    {
+      "query": "jordan henderson",
+      "geo": "FR",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "England World Cup squad announcement: Thomas Tuchel to name 26 players - follow live",
+          "url": "https://www.bbc.com/sport/football/live/cd6pwdj0v90t",
+          "source": "BBC"
+        },
+        {
+          "title": "England’s World Cup 2026 squad to be revealed by Thomas Tuchel: football – live",
+          "url": "https://www.theguardian.com/football/live/2026/may/22/england-world-cup-2026-squad-revealed-thomas-tuchel-football-news-live",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Palmer, Foden left out of England World Cup squad",
+          "url": "https://www.rfi.fr/en/sports/20260522-palmer-foden-left-out-of-england-world-cup-squad",
+          "source": "RFI"
+        }
+      ]
+    },
+    {
+      "query": "jordan henderson",
+      "geo": "DE",
+      "language": "de",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Brentford’s Jordan Henderson Makes England History With World Cup Call-Up",
+          "url": "https://roundtable.io/sports/soccer/premier-league/brentford/players/brentford-s-jordan-henderson-makes-england-history-with-world-cup-call-up",
+          "source": "roundtable.io"
+        },
+        {
+          "title": "England World Cup squad announcement: Thomas Tuchel to name 26 players - follow live",
+          "url": "https://www.bbc.com/sport/football/live/cd6pwdj0v90t",
+          "source": "BBC"
+        },
+        {
+          "title": "England’s World Cup 2026 squad to be revealed by Thomas Tuchel: football – live",
+          "url": "https://www.theguardian.com/football/live/2026/may/22/england-world-cup-2026-squad-revealed-thomas-tuchel-football-news-live",
+          "source": "The Guardian"
+        }
+      ]
+    },
+    {
+      "query": "foden",
+      "geo": "IT",
+      "language": "it",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "England World Cup squad announcement: Thomas Tuchel to name 26 players - follow live",
+          "url": "https://www.bbc.com/sport/football/live/cd6pwdj0v90t",
+          "source": "BBC"
+        },
+        {
+          "title": "England’s World Cup 2026 squad to be revealed by Thomas Tuchel: football – live",
+          "url": "https://www.theguardian.com/football/live/2026/may/22/england-world-cup-2026-squad-revealed-thomas-tuchel-football-news-live",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Toney, Maguire, Palmer: Who are the biggest surprises and snubs from England&apos;s World Cup squad?",
+          "url": "https://www.dazn.com/en-US/news/soccer/england-2026-fifa-world-cup-squad-surprises-snubs-toney-foden-palmer-maguire/1nztrx19iwr5212mwvvmzvgllb",
+          "source": "DAZN"
+        }
+      ]
+    },
+    {
+      "query": "2026",
+      "geo": "PT",
+      "language": "pt",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Mundial 2026: Nova Iorque terá bilhetes a preço acessível para moradores da cidade",
+          "url": "https://sapo.pt/artigo/mundial-2026-nova-iorque-tera-bilhetes-a-preco-acessivel-para-moradores-da-cidade-6a0f5176cd43b947e54ce15d",
+          "source": "SAPO"
+        },
+        {
+          "title": "Nova York vai sortear mil ingressos de US$ 50 para jogos da Copa do Mundo em Nova Jersey | Esportes | O Liberal",
+          "url": "https://www.oliberal.com/esportes/nova-york-vai-sortear-mil-ingressos-de-us-50-para-jogos-da-copa-do-mundo-em-nova-jersey-1.1124543",
+          "source": "O Liberal"
+        },
+        {
+          "title": "Dicas Culturais Imperdíveis para Aproveitar em Nova York em 2026",
+          "url": "https://forbes.com.br/web-stories/dicas-culturais-imperdiveis-para-aproveitar-em-nova-york-em-2026/",
+          "source": "Forbes Brasil"
+        }
+      ]
+    },
+    {
+      "query": "jordan henderson",
+      "geo": "AU",
+      "language": "en",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Brentford’s Jordan Henderson Makes England History With World Cup Call-Up",
+          "url": "https://roundtable.io/sports/soccer/premier-league/brentford/players/brentford-s-jordan-henderson-makes-england-history-with-world-cup-call-up",
+          "source": "roundtable.io"
+        },
+        {
+          "title": "England World Cup squad announcement: Thomas Tuchel to name 26 players - follow live",
+          "url": "https://www.bbc.com/sport/football/live/cd6pwdj0v90t",
+          "source": "BBC"
+        },
+        {
+          "title": "England’s World Cup 2026 squad to be revealed by Thomas Tuchel: football – live",
+          "url": "https://www.theguardian.com/football/live/2026/may/22/england-world-cup-2026-squad-revealed-thomas-tuchel-football-news-live",
+          "source": "The Guardian"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "es": [
+      {
+        "query": "album panini mundial 2026",
+        "score": 90,
+        "geos": [
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "album panini mundial 2026",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Cómo el álbum del Mundial desafía a la inflación y crea su propia economía en América Latina",
+                "url": "https://cnnespanol.cnn.com/2026/05/21/latinoamerica/mundial-album-panini-inflacion-precios-latam-orix",
+                "source": "CNN en Español"
+              },
+              {
+                "title": "Álbum Panini Mundial 2026: costo, puntos de venta e intercambio",
+                "url": "https://caretas.pe/deportes/album-panini-mundial-2026-precios-donde-comprar-y-puntos-de-intercambio-de-figuritas-en-peru-copa-del-mundo-fifa/",
+                "source": "Revista Caretas"
+              },
+              {
+                "title": "¿Cuántos CÓDIGOS y figuritas GRATIS hay en el nuevo Álbum de Panini?",
+                "url": "https://elcomercio.pe/respuestas/mexico/album-panini-mundial-2026-cuantos-codigos-y-figuritas-gratis-hay-tdpe-noticia/",
+                "source": "El Comercio Perú"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "en": [
+      {
+        "query": "portugal world cup squad",
+        "score": 220.00000000000003,
+        "geos": [
+          "GB"
+        ],
+        "samples": [
+          {
+            "query": "portugal world cup squad",
+            "geo": "GB",
+            "language": "en",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "World Cup 2026: Cristiano Ronaldo in Portugal squad and set for sixth World Cup",
+                "url": "https://www.bbc.co.uk/sport/football/articles/cn4p1332exzo",
+                "source": "BBC"
+              },
+              {
+                "title": "Portugal name World Cup squad: Cristiano Ronaldo set for sixth tournament",
+                "url": "https://www.nytimes.com/athletic/7291088/2026/05/19/portugal-world-cup-squad-2026/",
+                "source": "The New York Times"
+              },
+              {
+                "title": "Pedro Neto called up by Portugal for 2026 World Cup | News | Official Site",
+                "url": "https://www.chelseafc.com/en/news/article/chelsea-winger-pedro-neto-selected-portugal-2026-world-cup",
+                "source": "Chelsea official site"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "jordan henderson",
+        "score": 140,
+        "geos": [
+          "AU"
+        ],
+        "samples": [
+          {
+            "query": "jordan henderson",
+            "geo": "AU",
+            "language": "en",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Brentford’s Jordan Henderson Makes England History With World Cup Call-Up",
+                "url": "https://roundtable.io/sports/soccer/premier-league/brentford/players/brentford-s-jordan-henderson-makes-england-history-with-world-cup-call-up",
+                "source": "roundtable.io"
+              },
+              {
+                "title": "England World Cup squad announcement: Thomas Tuchel to name 26 players - follow live",
+                "url": "https://www.bbc.com/sport/football/live/cd6pwdj0v90t",
+                "source": "BBC"
+              },
+              {
+                "title": "England’s World Cup 2026 squad to be revealed by Thomas Tuchel: football – live",
+                "url": "https://www.theguardian.com/football/live/2026/may/22/england-world-cup-2026-squad-revealed-thomas-tuchel-football-news-live",
+                "source": "The Guardian"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "fr": [
+      {
+        "query": "jordan henderson",
+        "score": 2000,
+        "geos": [
+          "FR"
+        ],
+        "samples": [
+          {
+            "query": "jordan henderson",
+            "geo": "FR",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "England World Cup squad announcement: Thomas Tuchel to name 26 players - follow live",
+                "url": "https://www.bbc.com/sport/football/live/cd6pwdj0v90t",
+                "source": "BBC"
+              },
+              {
+                "title": "England’s World Cup 2026 squad to be revealed by Thomas Tuchel: football – live",
+                "url": "https://www.theguardian.com/football/live/2026/may/22/england-world-cup-2026-squad-revealed-thomas-tuchel-football-news-live",
+                "source": "The Guardian"
+              },
+              {
+                "title": "Palmer, Foden left out of England World Cup squad",
+                "url": "https://www.rfi.fr/en/sports/20260522-palmer-foden-left-out-of-england-world-cup-squad",
+                "source": "RFI"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "de": [
+      {
+        "query": "jordan henderson",
+        "score": 200,
+        "geos": [
+          "DE"
+        ],
+        "samples": [
+          {
+            "query": "jordan henderson",
+            "geo": "DE",
+            "language": "de",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Brentford’s Jordan Henderson Makes England History With World Cup Call-Up",
+                "url": "https://roundtable.io/sports/soccer/premier-league/brentford/players/brentford-s-jordan-henderson-makes-england-history-with-world-cup-call-up",
+                "source": "roundtable.io"
+              },
+              {
+                "title": "England World Cup squad announcement: Thomas Tuchel to name 26 players - follow live",
+                "url": "https://www.bbc.com/sport/football/live/cd6pwdj0v90t",
+                "source": "BBC"
+              },
+              {
+                "title": "England’s World Cup 2026 squad to be revealed by Thomas Tuchel: football – live",
+                "url": "https://www.theguardian.com/football/live/2026/may/22/england-world-cup-2026-squad-revealed-thomas-tuchel-football-news-live",
+                "source": "The Guardian"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "it": [
+      {
+        "query": "foden",
+        "score": 180,
+        "geos": [
+          "IT"
+        ],
+        "samples": [
+          {
+            "query": "foden",
+            "geo": "IT",
+            "language": "it",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "England World Cup squad announcement: Thomas Tuchel to name 26 players - follow live",
+                "url": "https://www.bbc.com/sport/football/live/cd6pwdj0v90t",
+                "source": "BBC"
+              },
+              {
+                "title": "England’s World Cup 2026 squad to be revealed by Thomas Tuchel: football – live",
+                "url": "https://www.theguardian.com/football/live/2026/may/22/england-world-cup-2026-squad-revealed-thomas-tuchel-football-news-live",
+                "source": "The Guardian"
+              },
+              {
+                "title": "Toney, Maguire, Palmer: Who are the biggest surprises and snubs from England&apos;s World Cup squad?",
+                "url": "https://www.dazn.com/en-US/news/soccer/england-2026-fifa-world-cup-squad-surprises-snubs-toney-foden-palmer-maguire/1nztrx19iwr5212mwvvmzvgllb",
+                "source": "DAZN"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "pt": [
+      {
+        "query": "2026",
+        "score": 200,
+        "geos": [
+          "PT"
+        ],
+        "samples": [
+          {
+            "query": "2026",
+            "geo": "PT",
+            "language": "pt",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Mundial 2026: Nova Iorque terá bilhetes a preço acessível para moradores da cidade",
+                "url": "https://sapo.pt/artigo/mundial-2026-nova-iorque-tera-bilhetes-a-preco-acessivel-para-moradores-da-cidade-6a0f5176cd43b947e54ce15d",
+                "source": "SAPO"
+              },
+              {
+                "title": "Nova York vai sortear mil ingressos de US$ 50 para jogos da Copa do Mundo em Nova Jersey | Esportes | O Liberal",
+                "url": "https://www.oliberal.com/esportes/nova-york-vai-sortear-mil-ingressos-de-us-50-para-jogos-da-copa-do-mundo-em-nova-jersey-1.1124543",
+                "source": "O Liberal"
+              },
+              {
+                "title": "Dicas Culturais Imperdíveis para Aproveitar em Nova York em 2026",
+                "url": "https://forbes.com.br/web-stories/dicas-culturais-imperdiveis-para-aproveitar-em-nova-york-em-2026/",
+                "source": "Forbes Brasil"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "topic": "jordan henderson",
+      "type": "noticia",
+      "slugSuggestion": "jordan-henderson",
+      "language": "fr",
+      "geos": [
+        "FR"
+      ],
+      "score": 2400,
+      "reason": "Google Trends daily FR con 2,000 búsquedas · 3 artículos noticiosos referenciando \"jordan henderson\"",
+      "proposedPath": "/noticias/jordan-henderson",
+      "evidence": [
+        {
+          "query": "jordan henderson",
+          "geo": "FR",
+          "language": "fr",
+          "source": "google-trends-daily",
+          "score": 2000,
+          "articles": [
+            {
+              "title": "England World Cup squad announcement: Thomas Tuchel to name 26 players - follow live",
+              "url": "https://www.bbc.com/sport/football/live/cd6pwdj0v90t",
+              "source": "BBC"
+            },
+            {
+              "title": "England’s World Cup 2026 squad to be revealed by Thomas Tuchel: football – live",
+              "url": "https://www.theguardian.com/football/live/2026/may/22/england-world-cup-2026-squad-revealed-thomas-tuchel-football-news-live",
+              "source": "The Guardian"
+            },
+            {
+              "title": "Palmer, Foden left out of England World Cup squad",
+              "url": "https://www.rfi.fr/en/sports/20260522-palmer-foden-left-out-of-england-world-cup-squad",
+              "source": "RFI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "jordan henderson",
+      "type": "noticia",
+      "slugSuggestion": "jordan-henderson",
+      "language": "de",
+      "geos": [
+        "DE"
+      ],
+      "score": 240,
+      "reason": "Google Trends daily DE con 200 búsquedas · 3 artículos noticiosos referenciando \"jordan henderson\"",
+      "proposedPath": "/noticias/jordan-henderson",
+      "evidence": [
+        {
+          "query": "jordan henderson",
+          "geo": "DE",
+          "language": "de",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Brentford’s Jordan Henderson Makes England History With World Cup Call-Up",
+              "url": "https://roundtable.io/sports/soccer/premier-league/brentford/players/brentford-s-jordan-henderson-makes-england-history-with-world-cup-call-up",
+              "source": "roundtable.io"
+            },
+            {
+              "title": "England World Cup squad announcement: Thomas Tuchel to name 26 players - follow live",
+              "url": "https://www.bbc.com/sport/football/live/cd6pwdj0v90t",
+              "source": "BBC"
+            },
+            {
+              "title": "England’s World Cup 2026 squad to be revealed by Thomas Tuchel: football – live",
+              "url": "https://www.theguardian.com/football/live/2026/may/22/england-world-cup-2026-squad-revealed-thomas-tuchel-football-news-live",
+              "source": "The Guardian"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "foden",
+      "type": "noticia",
+      "slugSuggestion": "foden",
+      "language": "it",
+      "geos": [
+        "IT"
+      ],
+      "score": 216,
+      "reason": "Google Trends daily IT con 200 búsquedas · 3 artículos noticiosos referenciando \"foden\"",
+      "proposedPath": "/noticias/foden",
+      "evidence": [
+        {
+          "query": "foden",
+          "geo": "IT",
+          "language": "it",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "England World Cup squad announcement: Thomas Tuchel to name 26 players - follow live",
+              "url": "https://www.bbc.com/sport/football/live/cd6pwdj0v90t",
+              "source": "BBC"
+            },
+            {
+              "title": "England’s World Cup 2026 squad to be revealed by Thomas Tuchel: football – live",
+              "url": "https://www.theguardian.com/football/live/2026/may/22/england-world-cup-2026-squad-revealed-thomas-tuchel-football-news-live",
+              "source": "The Guardian"
+            },
+            {
+              "title": "Toney, Maguire, Palmer: Who are the biggest surprises and snubs from England&apos;s World Cup squad?",
+              "url": "https://www.dazn.com/en-US/news/soccer/england-2026-fifa-world-cup-squad-surprises-snubs-toney-foden-palmer-maguire/1nztrx19iwr5212mwvvmzvgllb",
+              "source": "DAZN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "jordan henderson",
+      "type": "noticia",
+      "slugSuggestion": "jordan-henderson",
+      "language": "en",
+      "geos": [
+        "AU"
+      ],
+      "score": 168,
+      "reason": "Google Trends daily AU con 200 búsquedas · 3 artículos noticiosos referenciando \"jordan henderson\"",
+      "proposedPath": "/noticias/jordan-henderson",
+      "evidence": [
+        {
+          "query": "jordan henderson",
+          "geo": "AU",
+          "language": "en",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Brentford’s Jordan Henderson Makes England History With World Cup Call-Up",
+              "url": "https://roundtable.io/sports/soccer/premier-league/brentford/players/brentford-s-jordan-henderson-makes-england-history-with-world-cup-call-up",
+              "source": "roundtable.io"
+            },
+            {
+              "title": "England World Cup squad announcement: Thomas Tuchel to name 26 players - follow live",
+              "url": "https://www.bbc.com/sport/football/live/cd6pwdj0v90t",
+              "source": "BBC"
+            },
+            {
+              "title": "England’s World Cup 2026 squad to be revealed by Thomas Tuchel: football – live",
+              "url": "https://www.theguardian.com/football/live/2026/may/22/england-world-cup-2026-squad-revealed-thomas-tuchel-football-news-live",
+              "source": "The Guardian"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alreadyCovered": [
+    {
+      "query": "album panini mundial 2026",
+      "matchUrl": "/coleccionismo/panini-mundial-2026"
+    },
+    {
+      "query": "portugal world cup squad",
+      "matchUrl": "/noticias/alemania-lista-mundial-2026-julian-nagelsmann-manuel-neuer-regreso-musiala-wirtz-sin-gnabry-21-mayo"
+    },
+    {
+      "query": "2026",
+      "matchUrl": "/2026"
+    }
+  ]
+}

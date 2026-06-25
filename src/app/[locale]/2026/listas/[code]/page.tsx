@@ -4,8 +4,10 @@ import { setRequestLocale } from 'next-intl/server';
 import {
   ArrowLeft,
   ArrowRight,
+  CalendarClock,
   Clock,
   ExternalLink,
+  Newspaper,
   Users as UsersIcon,
 } from 'lucide-react';
 import {
@@ -16,8 +18,11 @@ import {
   type Player2026,
 } from '@/lib/wc-2026-squads';
 import { TEAMS_2026 } from '@/lib/wc-2026';
+import { countryName } from '@/lib/country-names';
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl, SEO } from '@/lib/seo';
+import { getNewsByTeam, relativeTimeEs } from '@/lib/news';
+import { getFriendliesByTeam } from '@/lib/wc-2026-pre-friendlies';
 
 function withLocale(locale: Locale, href: string) {
   if (locale === routing.defaultLocale) return href;
@@ -81,31 +86,74 @@ export async function generateMetadata({
   });
 }
 
-function PlayerRow({ p }: { p: Player2026 }) {
+function PlayerRow({ p, locale }: { p: Player2026; locale: string }) {
+  const nameInitials = p.name
+    .split(/\s+/)
+    .slice(0, 2)
+    .map((s) => s[0]?.toUpperCase() ?? '')
+    .join('');
+
+  // Avatar: foto si la tenemos, fallback a iniciales sobre fondo.
+  const Avatar = (
+    <div className="relative h-12 w-12 shrink-0 overflow-hidden rounded-full border border-[var(--color-border)] bg-[var(--color-bg)]">
+      {p.photoUrl ? (
+        // eslint-disable-next-line @next/next/no-img-element
+        <img
+          src={p.photoUrl}
+          alt={`Foto de ${p.name}`}
+          loading="lazy"
+          className="h-full w-full object-cover"
+        />
+      ) : (
+        <div className="flex h-full w-full items-center justify-center font-mono text-xs text-[var(--color-fg-subtle)]">
+          {nameInitials || '?'}
+        </div>
+      )}
+    </div>
+  );
+
+  const NameBlock = (
+    <div className="min-w-0">
+      <div className="truncate font-medium text-[var(--color-fg)]">
+        {p.name}
+        {p.captain && (
+          <span className="ml-2 rounded bg-[var(--color-pitch)]/10 px-1.5 py-0.5 font-mono text-[9px] uppercase tracking-widest text-[var(--color-pitch)]">
+            C
+          </span>
+        )}
+      </div>
+      <div className="truncate font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--color-fg-subtle)]">
+        {p.club} · {countryName(p.clubCountry)} · {p.age} años
+        {p.previousWcs > 0 && ` · ${p.previousWcs + 1}.ª Copa`}
+      </div>
+      {p.note && (
+        <div className="mt-1 text-xs text-[var(--color-fg-muted)]">{p.note}</div>
+      )}
+    </div>
+  );
+
+  // Si el jugador tiene `playerSlug`, hacemos toda la fila enlace a su ficha.
+  const inner = p.playerSlug ? (
+    <Link
+      href={withLocale(locale as Locale, `/jugadores/${p.playerSlug}`)}
+      className="contents"
+    >
+      {Avatar}
+      {NameBlock}
+    </Link>
+  ) : (
+    <>
+      {Avatar}
+      {NameBlock}
+    </>
+  );
+
   return (
-    <li className="grid grid-cols-[40px_1fr_auto] items-center gap-4 border-t border-[var(--color-border)] py-3">
+    <li className="grid grid-cols-[36px_52px_1fr_auto] items-center gap-3 border-t border-[var(--color-border)] py-3 first:border-t-0">
       <span className="font-mono tab-num text-[var(--color-fg-subtle)]">
         {p.shirt ?? '—'}
       </span>
-      <div>
-        <div className="font-medium text-[var(--color-fg)]">
-          {p.name}
-          {p.captain && (
-            <span className="ml-2 rounded bg-[var(--color-pitch)]/10 px-1.5 py-0.5 font-mono text-[9px] uppercase tracking-widest text-[var(--color-pitch)]">
-              C
-            </span>
-          )}
-        </div>
-        <div className="font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--color-fg-subtle)]">
-          {p.club} · {p.clubCountry} · {p.age} años
-          {p.previousWcs > 0 && ` · ${p.previousWcs}.ª Copa`}
-        </div>
-        {p.note && (
-          <div className="mt-1 text-xs text-[var(--color-fg-muted)]">
-            {p.note}
-          </div>
-        )}
-      </div>
+      {inner}
       <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-fg-subtle)]">
         {p.position}
       </span>
@@ -287,7 +335,7 @@ export default async function SquadPage({
                   </div>
                   <ul className="mt-4 rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg-2)] px-6">
                     {list.map((p, i) => (
-                      <PlayerRow key={`${p.name}-${i}`} p={p} />
+                      <PlayerRow key={`${p.name}-${i}`} p={p} locale={locale} />
                     ))}
                   </ul>
                 </div>
@@ -297,7 +345,126 @@ export default async function SquadPage({
         </>
       )}
 
-      <section className="mx-auto mt-20 mb-24 w-full max-w-[1100px] px-6 md:px-10">
+      {/* Amistosos pre-Mundial 2026 */}
+      {(() => {
+        const teamFriendlies = getFriendliesByTeam(code);
+        if (teamFriendlies.length === 0) return null;
+        return (
+          <section className="mx-auto mt-16 w-full max-w-[1100px] px-6 md:px-10">
+            <div className="flex items-baseline gap-2 font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-pitch)]">
+              <CalendarClock className="h-3 w-3" />
+              <span>Amistosos pre-Mundial 2026</span>
+            </div>
+            <h2 className="mt-2 font-display text-2xl uppercase leading-tight md:text-3xl">
+              Últimas pruebas antes del torneo
+            </h2>
+            <div className="mt-6 grid gap-3 md:grid-cols-2">
+              {teamFriendlies.map((f) => {
+                const isHome = f.homeCode === code;
+                const opponentCode = isHome ? f.awayCode : f.homeCode;
+                const opponent = TEAMS_2026[opponentCode as keyof typeof TEAMS_2026];
+                const opponentName = opponent?.name ?? countryName(opponentCode);
+                const opponentFlag = opponent?.flag ?? '';
+                const date = new Date(f.date);
+                const dateLabel = date.toLocaleDateString('es-ES', {
+                  day: 'numeric',
+                  month: 'short',
+                  year: 'numeric',
+                });
+                const timeLabel = date.toLocaleTimeString('es-ES', {
+                  hour: '2-digit',
+                  minute: '2-digit',
+                  hour12: false,
+                });
+                return (
+                  <div
+                    key={f.date + f.homeCode + f.awayCode}
+                    className="rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg-2)] p-5"
+                  >
+                    <div className="flex items-baseline justify-between gap-3">
+                      <div className="font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--color-pitch)]">
+                        {isHome ? 'En casa' : 'Visitante'} · {dateLabel}
+                      </div>
+                      <div className="font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--color-fg-subtle)]">
+                        {timeLabel}
+                      </div>
+                    </div>
+                    <h3 className="mt-2 flex items-baseline gap-2 font-display text-lg uppercase">
+                      <span>vs</span>
+                      <span>{opponentFlag}</span>
+                      <span>{opponentName}</span>
+                    </h3>
+                    {(f.venue || f.city) && (
+                      <div className="mt-1 font-mono text-[10px] uppercase tracking-[0.2em] text-[var(--color-fg-subtle)]">
+                        {[f.venue, f.city, f.country].filter(Boolean).join(' · ')}
+                      </div>
+                    )}
+                    {f.notes && (
+                      <p className="mt-3 text-sm leading-relaxed text-[var(--color-fg-muted)]">{f.notes}</p>
+                    )}
+                    {f.result && (
+                      <div className="mt-3 font-mono text-sm text-[var(--color-pitch)]">
+                        Resultado: {f.result.home}-{f.result.away}
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
+            </div>
+          </section>
+        );
+      })()}
+
+      {/* Noticias de la selección */}
+      {(() => {
+        const teamNews = getNewsByTeam(code, 4);
+        if (teamNews.length === 0) return null;
+        return (
+          <section className="mx-auto mt-20 w-full max-w-[1100px] px-6 md:px-10">
+            <div className="flex items-baseline justify-between gap-3">
+              <div>
+                <div className="flex items-center gap-2 font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-pitch)]">
+                  <Newspaper className="h-3 w-3" />
+                  <span>Noticias</span>
+                </div>
+                <h2 className="mt-2 font-display text-2xl uppercase leading-tight md:text-3xl">
+                  Lo último sobre {team.name}
+                </h2>
+              </div>
+              <Link
+                href={withLocale(locale as Locale, '/noticias')}
+                className="inline-flex items-center gap-1.5 font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--color-fg-subtle)] transition-colors hover:text-[var(--color-pitch)]"
+              >
+                Todas las noticias <ArrowRight className="h-3 w-3 rtl:rotate-180" />
+              </Link>
+            </div>
+            <div className="mt-6 grid gap-4 md:grid-cols-2">
+              {teamNews.map((n) => (
+                <Link
+                  key={n.slug}
+                  href={withLocale(locale as Locale, `/noticias/${n.slug}`)}
+                  className="group rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg-2)] p-5 transition-colors hover:border-[var(--color-pitch)]/60"
+                >
+                  <div className="font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--color-fg-subtle)]">
+                    {n.category} · {relativeTimeEs(n.publishedAt)}
+                  </div>
+                  <h3 className="mt-2 font-display text-base uppercase leading-tight group-hover:text-[var(--color-pitch)]">
+                    {n.title}
+                  </h3>
+                  <p className="mt-3 text-sm text-[var(--color-fg-muted)] line-clamp-3">
+                    {n.summary}
+                  </p>
+                  <div className="mt-3 inline-flex items-center gap-1 font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--color-pitch)] group-hover:underline">
+                    Leer <ArrowRight className="h-3 w-3 rtl:rotate-180" />
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </section>
+        );
+      })()}
+
+      <section className="mx-auto mt-12 mb-24 w-full max-w-[1100px] px-6 md:px-10">
         <div className="rounded-3xl border border-[var(--color-border)] bg-[var(--color-bg-2)] p-10">
           <h2 className="font-display text-2xl uppercase">Más sobre {team.name}</h2>
           <div className="mt-6 flex flex-wrap gap-3">

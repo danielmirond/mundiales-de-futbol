@@ -1,0 +1,130 @@
+{
+  "generatedAt": "2026-05-12T09:19:32.794Z",
+  "date": "2026-05-12",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "chute giro italie 2026",
+      "geo": "FR",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Adam Yates abandonne le Giro après sa lourde chute sur la 2e étape",
+          "url": "https://www.lequipe.fr/Cyclisme-sur-route/Actualites/Adam-yates-abandonne-le-giro-apres-sa-lourde-chute-sur-la-2e-etape/1674637",
+          "source": "L&apos;Équipe"
+        },
+        {
+          "title": "Tour d&apos;Italie 2026 - Guillermo Thomas Silva : \"Je vais voir jusqu&apos;où je peux aller avec ce maillot\"",
+          "url": "https://sports.orange.fr/videos/cyclisme/tour-de-france/tour-d-italie-2026-guillermo-thomas-silva-je-vais-voir-jusqu-ou-je-peux-aller-avec-ce-maillot-CNT000002p7Ad9.html",
+          "source": "Sports - Orange"
+        },
+        {
+          "title": "UAE-Team Emirates, la catastrophe se confirme",
+          "url": "https://www.sports.fr/cyclisme/uae-team-emirates-la-catastrophe-se-confirme-1013226.html",
+          "source": "Sports.fr"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "fr": [
+      {
+        "query": "chute giro italie 2026",
+        "score": 500,
+        "geos": [
+          "FR"
+        ],
+        "samples": [
+          {
+            "query": "chute giro italie 2026",
+            "geo": "FR",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Adam Yates abandonne le Giro après sa lourde chute sur la 2e étape",
+                "url": "https://www.lequipe.fr/Cyclisme-sur-route/Actualites/Adam-yates-abandonne-le-giro-apres-sa-lourde-chute-sur-la-2e-etape/1674637",
+                "source": "L&apos;Équipe"
+              },
+              {
+                "title": "Tour d&apos;Italie 2026 - Guillermo Thomas Silva : \"Je vais voir jusqu&apos;où je peux aller avec ce maillot\"",
+                "url": "https://sports.orange.fr/videos/cyclisme/tour-de-france/tour-d-italie-2026-guillermo-thomas-silva-je-vais-voir-jusqu-ou-je-peux-aller-avec-ce-maillot-CNT000002p7Ad9.html",
+                "source": "Sports - Orange"
+              },
+              {
+                "title": "UAE-Team Emirates, la catastrophe se confirme",
+                "url": "https://www.sports.fr/cyclisme/uae-team-emirates-la-catastrophe-se-confirme-1013226.html",
+                "source": "Sports.fr"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "topic": "chute giro italie 2026",
+      "type": "noticia",
+      "slugSuggestion": "chute-giro-italie-2026",
+      "language": "fr",
+      "geos": [
+        "FR"
+      ],
+      "score": 600,
+      "reason": "Google Trends daily FR con 500 búsquedas · 3 artículos noticiosos referenciando \"chute giro italie 2026\"",
+      "proposedPath": "/noticias/chute-giro-italie-2026",
+      "evidence": [
+        {
+          "query": "chute giro italie 2026",
+          "geo": "FR",
+          "language": "fr",
+          "source": "google-trends-daily",
+          "score": 500,
+          "articles": [
+            {
+              "title": "Adam Yates abandonne le Giro après sa lourde chute sur la 2e étape",
+              "url": "https://www.lequipe.fr/Cyclisme-sur-route/Actualites/Adam-yates-abandonne-le-giro-apres-sa-lourde-chute-sur-la-2e-etape/1674637",
+              "source": "L&apos;Équipe"
+            },
+            {
+              "title": "Tour d&apos;Italie 2026 - Guillermo Thomas Silva : \"Je vais voir jusqu&apos;où je peux aller avec ce maillot\"",
+              "url": "https://sports.orange.fr/videos/cyclisme/tour-de-france/tour-d-italie-2026-guillermo-thomas-silva-je-vais-voir-jusqu-ou-je-peux-aller-avec-ce-maillot-CNT000002p7Ad9.html",
+              "source": "Sports - Orange"
+            },
+            {
+              "title": "UAE-Team Emirates, la catastrophe se confirme",
+              "url": "https://www.sports.fr/cyclisme/uae-team-emirates-la-catastrophe-se-confirme-1013226.html",
+              "source": "Sports.fr"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alreadyCovered": []
+}

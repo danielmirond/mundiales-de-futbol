@@ -1,0 +1,1838 @@
+{
+  "generatedAt": "2026-06-17T11:21:24.076Z",
+  "date": "2026-06-17",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "ghana",
+      "geo": "MX",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Ghana vs Panamá: horario y dónde ver EN VIVO el partido del Mundial 2026",
+          "url": "https://www.record.com.mx/historia/ghana-vs-panama-horario-y-donde-ver-en-vivo-el-partido-del-mundial-2026-2026061618400614067",
+          "source": "Récord"
+        },
+        {
+          "title": "Ghana y Panamá protagonizan duelo inédito en el Grupo L",
+          "url": "https://www.informador.mx/deportes/mundial-2026-ghana-y-panama-protagonizan-duelo-inedito-en-el-grupo-l-20260616-0082.html",
+          "source": "El Informador"
+        },
+        {
+          "title": "El seleccionador de Panamá avisa que “no hay partido fácil\"",
+          "url": "https://889noticias.mx/espacio-deportivo/el-seleccionador-de-panama-avisa-que-no-hay-partido-facil/",
+          "source": "88.9 Noticias"
+        }
+      ]
+    },
+    {
+      "query": "jordanie vs autriche",
+      "geo": "CA",
+      "language": "en",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Coupe du monde 2026 | L’Autriche s’impose contre la Jordanie",
+          "url": "https://www.lapresse.ca/sports/soccer/2026-06-17/coupe-du-monde-2026/l-autriche-s-impose-contre-la-jordanie.php",
+          "source": "La Presse"
+        },
+        {
+          "title": "L’Autriche gâche les débuts de la Jordanie en Coupe du Monde",
+          "url": "https://www.rds.ca/soccer/coupe-du-monde/article/lautriche-gache-les-debuts-de-la-jordanie-en-coupe-du-monde/",
+          "source": "RDS"
+        },
+        {
+          "title": "Autriche 3-1 Jordanie, Coupe du monde : match terminé",
+          "url": "https://www.lequipe.fr/Football/match-direct/coupe-du-monde/2026/autriche-jordanie-live/686956",
+          "source": "L&apos;Équipe"
+        }
+      ]
+    },
+    {
+      "query": "icc",
+      "geo": "CA",
+      "language": "en",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Women&apos;s T20 World Cup 2026 semi-final qualification scenarios: Rules, chances and points required",
+          "url": "https://www.sportingnews.com/in/cricket/news/womens-t20-world-cup-2026-semi-final-qualification-scenarios-rules-chances-points/360bf495989cc252c84f3d02",
+          "source": "Sporting News"
+        },
+        {
+          "title": "More Than a Match: How India’s Fans Turned Birmingham into a Women’s Cricket Carnival",
+          "url": "https://revsportz.in/more-than-a-match-how-indias-fans-turned-birmingham-into-a-womens-cricket-carnival/",
+          "source": "Revsportz"
+        },
+        {
+          "title": "YouTube Partners with ICC to Boost Women’s T20 World Cup 2026 Coverage in India",
+          "url": "https://www.indianretailer.com/brandlicense/archives/news/youtube-partners-icc-boost-womens-t20-world-cup-2026-coverage-india.n5510",
+          "source": "Indian Retailer"
+        }
+      ]
+    },
+    {
+      "query": "nicolas seiwald",
+      "geo": "AR",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Seiwald and Schlager: the heartbeat of Austria’s midfield",
+          "url": "https://rbleipzig.com/en/news/seiwald-schlager-double-pivot-austria-world-cup-2026",
+          "source": "RB Leipzig"
+        },
+        {
+          "title": "World Cup 2026: Austria beat Jordan for first World Cup win since 1990",
+          "url": "https://www.bbc.com/sport/football/live/czde4dj23qmt",
+          "source": "BBC"
+        },
+        {
+          "title": "Who is the referee for Austria vs Jordan?",
+          "url": "https://www.fourfourtwo.com/competition/who-is-the-referee-for-austria-vs-jordan",
+          "source": "FourFourTwo"
+        }
+      ]
+    },
+    {
+      "query": "ghana",
+      "geo": "CL",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Tribunal de Canadá confirma la denegación de visa a Partey",
+          "url": "https://www.espn.cl/futbol/guatemala/nota/_/id/16853383/ghana-apela-decision-canada-ingreso-thomas-partey-mundial-2026",
+          "source": "ESPN Chile"
+        },
+        {
+          "title": "Mundial 2026: Canadá niega ingreso a futbolista que posee antecedentes por agresión sexual",
+          "url": "https://www.tvn.cl/deportes/mundial-2026/mundial-2026-canada-niega-ingreso-a-futbolista-thomas-partey-",
+          "source": "TVN"
+        },
+        {
+          "title": "Confirmado: Canadá le prohíbe ingreso a Thomas Partey y el jugador queda fuera del debut en el Mundial 2026",
+          "url": "https://www.encancha.cl/mundial-2026/2026/06/16/confirmado-canada-le-prohibe-ingreso-a-thomas-partey-y-el-jugador-queda-fuera-del-debut-en-el-mundial-2026/",
+          "source": "En Cancha"
+        }
+      ]
+    },
+    {
+      "query": "ghana vs",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Ghana vs Panamá: fecha, horario y alineaciones, Mundial 2026",
+          "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16854866/ghana-vs-panama-fecha-horario-alineaciones-mundial-2026",
+          "source": "ESPN Deportes"
+        },
+        {
+          "title": "Iñaki Williams entra en acción",
+          "url": "https://as.com/futbol/mundial/inaki-williams-entra-en-accion-f202606-n/",
+          "source": "Diario AS"
+        },
+        {
+          "title": "Carrasquilla estará ante Ghana, pero no al cien por ciento",
+          "url": "https://espndeportes.espn.com/futbol/costa-rica/nota/_/id/16854348/carrasquilla-panama-ghana-mundial-2026-christiansen",
+          "source": "ESPN Deportes"
+        }
+      ]
+    },
+    {
+      "query": "portugal vs congo",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Portugal-RD Congo : Ronaldo finalement sur le banc ?",
+          "url": "https://www.football365.fr/portugal-rd-congo-ronaldo-finalement-sur-le-banc-10299245.html",
+          "source": "Football365"
+        },
+        {
+          "title": "Coupe du monde 2026: à Kinshasa, tout un peuple se prépare au retour des Léopards après 52 ans d&apos;absence",
+          "url": "https://www.rfi.fr/fr/afrique-foot/20260617-coupe-du-monde-2026-%C3%A0-kinshasa-tout-un-peuple-se-pr%C3%A9pare-au-retour-des-l%C3%A9opards-apr%C3%A8s-52-ans-d-absence",
+          "source": "RFI"
+        },
+        {
+          "title": "Privés de supporters par Ebola, les Léopards de RDC s&apos;appuient sur leur diaspora",
+          "url": "https://www.flashscore.fr/actualites/football-championnat-du-monde-prives-de-supporters-par-ebola-les-leopards-de-rdc-s-appuient-sur-leur-diaspora/AJqNDu1S/",
+          "source": "Flashscore.fr"
+        }
+      ]
+    },
+    {
+      "query": "goleadores del mundial 2026",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Goleadores del Mundial 2026: tabla actualizada con los goles de Messi, Mbappé y Haaland",
+          "url": "https://www.eluniverso.com/deportes/futbol/goleadores-del-mundial-2026-tabla-actualizada-con-los-goles-de-messi-mbappe-y-haaland-nota/",
+          "source": "El Universo"
+        },
+        {
+          "title": "Capítulo 126 Vecinos: Rodolfo se sobrepasa con Tatiana y ella lo echa de la casa",
+          "url": "https://www.caracoltv.com/vecinos/capitulos/capitulo-126-vecinos-rodolfo-se-sobrepasa-con-tatiana-y-ella-lo-echa-de-la-casa-pr30",
+          "source": "Caracol TV"
+        },
+        {
+          "title": "¿Mundial 2026 ya es mejor que Qatar 2022? Así ha sido el ritmo goleador en Norteamérica",
+          "url": "https://www.record.com.mx/historia/%C2%BFmundial-2026-ya-es-mejor-que-qatar-2022-asi-ha-sido-el-ritmo-goleador-en-norteamerica-2026061606043859098",
+          "source": "Récord"
+        }
+      ]
+    },
+    {
+      "query": "ronaldo",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Cristiano Ronaldo: What World Cup records could Portugal&apos;s captain claim in his sixth and final tournament?",
+          "url": "https://www.skysports.com/football/news/13954/13548155/cristiano-ronaldo-what-world-cup-records-could-portugals-captain-claim-in-his-sixth-and-final-tournament",
+          "source": "Sky Sports"
+        },
+        {
+          "title": "Cristiano Ronaldo Trains As Portugal Prepare For Their FIFA World Cup 2026 Opener",
+          "url": "https://sports.ndtv.com/fifa-world-cup-2026/videos/cristiano-ronaldo-trains-as-portugal-prepare-for-their-fifa-world-cup-2026-opener-1114172",
+          "source": "NDTV Sports"
+        },
+        {
+          "title": "Ronaldo Aims to Reclaim Oldest World Cup Hat-Trick Record vs Congo",
+          "url": "https://www.chosun.com/english/sports-en/2026/06/17/S465VUIZ75AGRHZAXKWR7BKUAI/",
+          "source": "조선일보"
+        }
+      ]
+    },
+    {
+      "query": "di maria",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Ángel Di María backs Argentina from afar: &apos;With you until the end of the world&apos;",
+          "url": "https://www.batimes.com.ar/news/sports/angel-di-maria-backs-argentina-from-afar-with-you-until-the-end-of-the-world.phtml",
+          "source": "Buenos Aires Times"
+        },
+        {
+          "title": "Why Paulo Dybala is missing the 2026 World Cup for Argentina",
+          "url": "https://worldsoccertalk.com/world-cup/why-paulo-dybala-is-missing-the-2026-world-cup-for-argentina/",
+          "source": "World Soccer Talk"
+        },
+        {
+          "title": "Why is Di Maria not playing for Argentina at FIFA World Cup 2026",
+          "url": "https://sportstar.thehindu.com/football/fifa-world-cup/why-is-angel-di-maria-not-playing-for-argentina-vs-algeria-fifa-world-cup-2026-retire-retirement-messi-news/article71111767.ece",
+          "source": "Sportstar"
+        }
+      ]
+    },
+    {
+      "query": "resultados mundial",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Mundial 2026: Luis Suárez vio Uruguay-Arabia desde el estadio y sorprendió con su camiseta",
+          "url": "https://www.montevideo.com.uy/Deportes/Mundial-2026-Luis-Suarez-vio-Uruguay-Arabia-desde-el-estadio-y-sorprendio-con-su-camiseta-uc965315",
+          "source": "Montevideo Portal"
+        },
+        {
+          "title": "Uruguay cambia el chip: ajustar pensando en Cabo Verde",
+          "url": "https://ladiaria.com.uy/deporte/articulo/2026/6/uruguay-cambia-el-chip-ajustar-pensando-en-cabo-verde/",
+          "source": "la diaria"
+        },
+        {
+          "title": "Un debutante como destacado y Federico Valverde fuera del podio: los lectores votaron a los mejores de Uruguay",
+          "url": "https://www.elpais.com.uy/ovacion/mundial/un-debutante-como-destacado-y-federico-valverde-fuera-del-podio-los-lectores-votaron-a-los-mejores-de-uruguay",
+          "source": "EL PAÍS Uruguay"
+        }
+      ]
+    },
+    {
+      "query": "portugal vs",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "World Cup predictions: Portugal vs DR Congo, England vs Croatia and more",
+          "url": "https://www.aljazeera.com/news/2026/6/17/world-cup-predictions-portugal-vs-dr-congo-england-vs-croatia-and-more",
+          "source": "Al Jazeera"
+        },
+        {
+          "title": "In pics: press conferences at FIFA World Cup 2026",
+          "url": "http://english.news.cn/20260617/f36cdc5ebd1a4f2fad731c92ba015876/c.html",
+          "source": "Xinhua"
+        },
+        {
+          "title": "OneFootball x FanDuel: The key questions on World Cup Day 7️⃣",
+          "url": "https://onefootball.com/id/berita/onefootball-x-fanduel-the-key-questions-on-world-cup-day-7-43019636",
+          "source": "OneFootball"
+        }
+      ]
+    },
+    {
+      "query": "cristiano ronaldo",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Portugal hope Cristiano Ronaldo’s milestone World Cup is no millstone",
+          "url": "https://www.theguardian.com/football/2026/jun/17/portugal-cristiano-ronaldo-world-cup-drc",
+          "source": "The Guardian"
+        },
+        {
+          "title": "FIFA World Cup 2026 Day 7: Ronaldo eyes sixth World Cup appearance as Portugal opens campaign, England-Cro",
+          "url": "https://m.economictimes.com/us/sports/news/fifa-world-cup-2026-day-7-ronaldo-eyes-sixth-world-cup-appearance-as-portugal-opens-campaign-england-croatia-set-to-renew-rivalry-how-to-watch-live-streaming-in-us-and-canada-check-kick-off-time-and-venues/articleshow/131790726.cms",
+          "source": "The Economic Times"
+        },
+        {
+          "title": "England enter World Cup fray as Ronaldo makes history",
+          "url": "https://www.france24.com/en/live-news/20260617-england-enter-world-cup-fray-as-ronaldo-makes-history",
+          "source": "France 24"
+        }
+      ]
+    },
+    {
+      "query": "austria vs jordania",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "Mundial 2026: Austria sufrió, pero venció 3-1 a Jordania por el grupo de Argentina",
+          "url": "https://www.montevideo.com.uy/Deportes/Mundial-2026-Austria-sufrio-pero-vencio-3-1-a-Jordania-por-el-grupo-de-Argentina-uc965417",
+          "source": "Montevideo Portal"
+        },
+        {
+          "title": "¡Golazo! Romano Schmid abre el marcador para Austria ante Jordania",
+          "url": "https://www.telemundo.com/deportes/copa-mundial-de-la-fifa-2026/video/golazo-romano-schmid-abre-el-marcador-para-austria-ante-jordania-tmvo13194721",
+          "source": "Telemundo"
+        },
+        {
+          "title": "\"Pensábais que éramos los favoritos, pero no lo éramos\"",
+          "url": "https://www.mundodeportivo.com/futbol/mundial/20260617/1004196057/pensabais-favoritos-no.html",
+          "source": "Mundo Deportivo"
+        }
+      ]
+    },
+    {
+      "query": "colombia vs",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Dónde ver Colombia vs. Uzbekistán en vivo por el Mundial 2026: hora del partido y qué canales lo transmiten",
+          "url": "https://www.elpais.com.uy/ovacion/mundial/donde-ver-colombia-vs-uzbekistan-en-vivo-por-el-mundial-2026-hora-del-partido-y-que-canales-lo-transmiten",
+          "source": "EL PAÍS Uruguay"
+        },
+        {
+          "title": "Colombia, el último sudamericano en debutar",
+          "url": "https://diariocambio.com.uy/colombia-el-ultimo-sudamericano-en-debutar",
+          "source": "Diario Cambio Salto"
+        },
+        {
+          "title": "Técnico de Colombia recuerda con grandeza al Estadio Ciudad de México",
+          "url": "https://mexico.as.com/videos/tecnico-de-colombia-recuerda-con-grandeza-al-estadio-ciudad-de-mexico-f202606-v/",
+          "source": "AS México"
+        }
+      ]
+    },
+    {
+      "query": "argelia argentina",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Aficionados de las selecciones nacionales de fútbol de Argelia y Argentina se reúnen en Times Square un día antes del partido entre Argentina y Argelia en el Grupo 6 de la Copa Mundial de la FIFA.",
+          "url": "https://www.elpais.com.uy/aficionados-de-las-selecciones-nacionales-de-futbol-de-argelia-y-argentina-se-reunen-en-times-square-un-dia-antes-del-partido-entre-argentina-y-argelia-en-el-grupo-6-de-la-copa-mundial-de-la-fifa",
+          "source": "EL PAÍS Uruguay"
+        },
+        {
+          "title": "Mundial 2026: hinchas de Argentina y de Argelia se enfrentaron a golpes en Nueva York",
+          "url": "https://www.lanacion.com.ar/deportes/futbol/mundial-2026-enfrentamiento-entre-hinchas-argentinos-y-argelinos-en-times-square-nid16062026/",
+          "source": "La Nación"
+        },
+        {
+          "title": "Hinchas de Argentina y de Argelia a las trompadas en Times Square en la previa del debut de ambas selecciones; mirá el video",
+          "url": "https://www.elobservador.com.uy/mundial-2026/hinchas-argentina-y-argelia-las-trompadas-times-square-la-previa-del-debut-ambas-selecciones-mira-el-video-n6047563",
+          "source": "El Observador"
+        }
+      ]
+    },
+    {
+      "query": "portugal vs dr congo world cup 2026",
+      "geo": "BR",
+      "language": "pt",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Portugal vs DR Congo World Cup Group K preview",
+          "url": "https://www.bbc.com/pidgin/articles/cz759pn0jexo",
+          "source": "BBC"
+        },
+        {
+          "title": "World Cup schedule today: How to watch England v Croatia, TV channels & live stream Wednesday 17 June",
+          "url": "https://www.theguardian.com/football/2026/jun/17/how-to-watch-world-cup-england-croatia",
+          "source": "The Guardian"
+        },
+        {
+          "title": "OneFootball x FanDuel: The key questions on World Cup Day 7️⃣",
+          "url": "https://onefootball.com/id/berita/onefootball-x-fanduel-the-key-questions-on-world-cup-day-7-43019636",
+          "source": "OneFootball"
+        }
+      ]
+    },
+    {
+      "query": "selección de fútbol de portugal",
+      "geo": "ES",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "Mundial 2026, en directo: noticias de la Copa del Mundo y última hora de las selecciones, hoy 17 de junio",
+          "url": "https://as.com/futbol/mundial/mundial-2026-en-directo-noticias-de-la-copa-del-mundo-y-ultima-hora-de-las-selecciones-hoy-17-de-junio-f202606-d/",
+          "source": "Diario AS"
+        },
+        {
+          "title": "Partidos de hoy, 17 de junio, del Mundial 2026: horario y dónde ver hoy en TV y online",
+          "url": "https://www.marca.com/futbol/mundial/2026/06/17/partidos-hoy-17-junio-mundial-2026-horario-donde-ver-hoy-tv-online.html",
+          "source": "MARCA"
+        },
+        {
+          "title": "Portugal - RD del Congo: horario y dónde ver hoy por TV el partido del Mundial 2026",
+          "url": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/06/17/6a324fac21efa0723d8b458c.html",
+          "source": "El Mundo"
+        }
+      ]
+    },
+    {
+      "query": "modric",
+      "geo": "FR",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Coupe du monde 2026. Encore portée par son « phénomène » Modric, la Croatie peut-elle refaire le coup de 2018 et 2022 ?",
+          "url": "https://www.ouest-france.fr/sport/coupe-du-monde/coupe-du-monde-2026-encore-portee-par-son-phenomene-modric-la-croatie-peut-elle-refaire-le-coup-de-2018-et-2022-eeddd122-68c0-11f1-99fc-6db54956824f",
+          "source": "Ouest-France"
+        },
+        {
+          "title": "AC Milan : Modric tout proche de la retraite…",
+          "url": "https://www.sport.fr/football/ac-milan-modric-tout-proche-de-la-retraite-1457317.shtm",
+          "source": "Sport.fr"
+        },
+        {
+          "title": "Luka Modric n&apos;a pas dit son dernier mot ! À 40 ans, le maître à jouer croate peut encore faire vaciller les ambitions de l&apos;Angleterre en Coupe du monde",
+          "url": "https://www.goal.com/fr/listes/luka-modric-n-a-pas-dit-son-dernier-mot-a-40-ans-le-maitre-a-jouer-croate-peut-encore-faire-vaciller-les-ambitions-de-l-angleterre-en-coupe-du-monde/blt43e63ab1b409ab5a",
+          "source": "Goal.com"
+        }
+      ]
+    },
+    {
+      "query": "eder",
+      "geo": "PT",
+      "language": "pt",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Nuno Markl reage a encontro com Éder Lopes: \"Bondade instantânea e pronto, emocionei-me\"",
+          "url": "https://www.atelevisao.com/famosos/nuno-markl-reage-a-encontro-com-eder-lopes-bondade-instantanea-e-pronto-emocionei-me/",
+          "source": "A Televisão"
+        },
+        {
+          "title": "Éder. O herói do Euro 2016 deseja que Gonçalo Ramos seja o herói do Mundial 2026",
+          "url": "https://rr.pt/bola-branca/noticia/clube-portugal/2026/06/17/eder-o-heroi-do-euro-2016-deseja-que-goncalo-ramos-seja-o-heroi-do-mundial-2026/474691/?utm_medium=rss",
+          "source": "Renascença"
+        },
+        {
+          "title": "“Tinha de se apagar o golo do Maradona”. Éder rejeita rever falta antes do golo do Euro 2016",
+          "url": "https://rr.pt/bola-branca/noticia/clube-portugal/2026/06/17/tinha-de-se-apagar-o-golo-do-maradona-eder-rejeita-rever-falta-antes-do-golo-do-euro-2016/474685/",
+          "source": "Renascença"
+        }
+      ]
+    },
+    {
+      "query": "radio comercial",
+      "geo": "PT",
+      "language": "pt",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "\"Acho que isto nunca aconteceu\": seis rádios juntam-se para apoiar Portugal no Mundial",
+          "url": "https://cnnportugal.iol.pt/videos/acho-que-isto-nunca-aconteceu-seis-radios-juntam-se-para-apoiar-portugal-no-mundial/6a32455a0cf27cac6fcf5ce8",
+          "source": "CNN Portugal"
+        },
+        {
+          "title": "Galp une seis rádios na estreia da Seleção no Mundial 2026",
+          "url": "https://eco.sapo.pt/2026/06/15/galp-une-seis-radios-na-estreia-da-selecao-no-mundial-2026/",
+          "source": "ECO"
+        },
+        {
+          "title": "SIC aposta em \"Casa Feliz de Portugal\"",
+          "url": "https://www.atelevisao.com/sic/sic-aposta-em-casa-feliz-de-portugal/",
+          "source": "A Televisão"
+        }
+      ]
+    },
+    {
+      "query": "a que horas joga portugal",
+      "geo": "PT",
+      "language": "pt",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Inglaterra e Portugal estreiam na Copa do Mundo 2026 nesta quarta-feira (17)",
+          "url": "https://g1.globo.com/mundo/noticia/2026/06/17/inglaterra-e-portugal-estreiam-na-copa-do-mundo-2026-nesta-quarta-feira-17.ghtml",
+          "source": "G1"
+        },
+        {
+          "title": "Jogos de Hoje na Copa do Mundo 2026 (17): Portugal, Inglaterra e Mais; Veja Horários e Onde Assistir",
+          "url": "https://forbes.com.br/forbes-life/forbes-sport/2026/06/jogos-de-hoje-na-copa-do-mundo-2026-17-portugal-inglaterra-e-mais-veja-horarios-e-onde-assistir/",
+          "source": "Forbes Brasil"
+        },
+        {
+          "title": "Campeã Argentina e &apos;vice&apos; França em estreia no Mundial",
+          "url": "https://www.cmjornal.pt/mais-cm/especiais/mundial-2026/detalhe/campea-argentina-e-vice-franca-em-estreia-no-mundial",
+          "source": "Correio da Manhã"
+        }
+      ]
+    },
+    {
+      "query": "statistiques de coupe du monde",
+      "geo": "MA",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Mondial 2026 : L&apos;Égypte bouscule la Belgique et décroche un nul frustrant",
+          "url": "https://www.cafonline.com/fr/coupe-du-monde-de-la-fifa/news/mondial-2026-legypte-bouscule-la-belgique-et-decroche-un-nul-frustrant/",
+          "source": "Confédération Africaine de Football"
+        },
+        {
+          "title": "Coupe du Monde 2026 : les Diables Rouges se font déjà dézinguer en Belgique !",
+          "url": "https://www.footmercato.net/a4144675969143507553-coupe-du-monde-2026-les-diables-rouges-se-font-deja-dezinguer-en-belgique",
+          "source": "Foot Mercato"
+        },
+        {
+          "title": "Belgique - Égypte en direct à la Coupe du monde de football 2026 : Résultats live, compositions, scores, statistiques, commentaires et classement du groupe G",
+          "url": "https://www.olympics.com/fr/infos/belgique-egypte-direct-coupe-monde-football-2026-resultats-live-compositions-scores-statistiques-commentaires-et-classement-groupe",
+          "source": "Olympics"
+        }
+      ]
+    },
+    {
+      "query": "jordan vs austria",
+      "geo": "MA",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 5000,
+      "articles": [
+        {
+          "title": "World Cup 2026: Austria beat Jordan for first World Cup win since 1990",
+          "url": "https://www.bbc.com/sport/football/live/czde4dj23qmt",
+          "source": "BBC"
+        },
+        {
+          "title": "Licensable picture: Fans in Austria during public viewing at FIFA World Cup 2026",
+          "url": "https://www.reutersconnect.com/item/fans-in-austria-during-public-viewing-at-fifa-world-cup-2026/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1JDMklWTEFFN1BUUg",
+          "source": "Reuters Connect"
+        },
+        {
+          "title": "Austria beat Jordan 3-1 at Levis Stadium, Arnautovic nets stoppage time winner",
+          "url": "https://mezha.net/eng/bukvy/6a7ab03a_austria_beat_jordan/",
+          "source": "mezha.net"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "es": [
+      {
+        "query": "selección de fútbol de portugal",
+        "score": 3000,
+        "geos": [
+          "ES"
+        ],
+        "samples": [
+          {
+            "query": "selección de fútbol de portugal",
+            "geo": "ES",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "Mundial 2026, en directo: noticias de la Copa del Mundo y última hora de las selecciones, hoy 17 de junio",
+                "url": "https://as.com/futbol/mundial/mundial-2026-en-directo-noticias-de-la-copa-del-mundo-y-ultima-hora-de-las-selecciones-hoy-17-de-junio-f202606-d/",
+                "source": "Diario AS"
+              },
+              {
+                "title": "Partidos de hoy, 17 de junio, del Mundial 2026: horario y dónde ver hoy en TV y online",
+                "url": "https://www.marca.com/futbol/mundial/2026/06/17/partidos-hoy-17-junio-mundial-2026-horario-donde-ver-hoy-tv-online.html",
+                "source": "MARCA"
+              },
+              {
+                "title": "Portugal - RD del Congo: horario y dónde ver hoy por TV el partido del Mundial 2026",
+                "url": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/06/17/6a324fac21efa0723d8b458c.html",
+                "source": "El Mundo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "austria vs jordania",
+        "score": 1800,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "austria vs jordania",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "Mundial 2026: Austria sufrió, pero venció 3-1 a Jordania por el grupo de Argentina",
+                "url": "https://www.montevideo.com.uy/Deportes/Mundial-2026-Austria-sufrio-pero-vencio-3-1-a-Jordania-por-el-grupo-de-Argentina-uc965417",
+                "source": "Montevideo Portal"
+              },
+              {
+                "title": "¡Golazo! Romano Schmid abre el marcador para Austria ante Jordania",
+                "url": "https://www.telemundo.com/deportes/copa-mundial-de-la-fifa-2026/video/golazo-romano-schmid-abre-el-marcador-para-austria-ante-jordania-tmvo13194721",
+                "source": "Telemundo"
+              },
+              {
+                "title": "\"Pensábais que éramos los favoritos, pero no lo éramos\"",
+                "url": "https://www.mundodeportivo.com/futbol/mundial/20260617/1004196057/pensabais-favoritos-no.html",
+                "source": "Mundo Deportivo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "ghana",
+        "score": 790,
+        "geos": [
+          "MX",
+          "CL"
+        ],
+        "samples": [
+          {
+            "query": "ghana",
+            "geo": "MX",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Ghana vs Panamá: horario y dónde ver EN VIVO el partido del Mundial 2026",
+                "url": "https://www.record.com.mx/historia/ghana-vs-panama-horario-y-donde-ver-en-vivo-el-partido-del-mundial-2026-2026061618400614067",
+                "source": "Récord"
+              },
+              {
+                "title": "Ghana y Panamá protagonizan duelo inédito en el Grupo L",
+                "url": "https://www.informador.mx/deportes/mundial-2026-ghana-y-panama-protagonizan-duelo-inedito-en-el-grupo-l-20260616-0082.html",
+                "source": "El Informador"
+              },
+              {
+                "title": "El seleccionador de Panamá avisa que “no hay partido fácil\"",
+                "url": "https://889noticias.mx/espacio-deportivo/el-seleccionador-de-panama-avisa-que-no-hay-partido-facil/",
+                "source": "88.9 Noticias"
+              }
+            ]
+          },
+          {
+            "query": "ghana",
+            "geo": "CL",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Tribunal de Canadá confirma la denegación de visa a Partey",
+                "url": "https://www.espn.cl/futbol/guatemala/nota/_/id/16853383/ghana-apela-decision-canada-ingreso-thomas-partey-mundial-2026",
+                "source": "ESPN Chile"
+              },
+              {
+                "title": "Mundial 2026: Canadá niega ingreso a futbolista que posee antecedentes por agresión sexual",
+                "url": "https://www.tvn.cl/deportes/mundial-2026/mundial-2026-canada-niega-ingreso-a-futbolista-thomas-partey-",
+                "source": "TVN"
+              },
+              {
+                "title": "Confirmado: Canadá le prohíbe ingreso a Thomas Partey y el jugador queda fuera del debut en el Mundial 2026",
+                "url": "https://www.encancha.cl/mundial-2026/2026/06/16/confirmado-canada-le-prohibe-ingreso-a-thomas-partey-y-el-jugador-queda-fuera-del-debut-en-el-mundial-2026/",
+                "source": "En Cancha"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "ghana vs",
+        "score": 450,
+        "geos": [
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "ghana vs",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Ghana vs Panamá: fecha, horario y alineaciones, Mundial 2026",
+                "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16854866/ghana-vs-panama-fecha-horario-alineaciones-mundial-2026",
+                "source": "ESPN Deportes"
+              },
+              {
+                "title": "Iñaki Williams entra en acción",
+                "url": "https://as.com/futbol/mundial/inaki-williams-entra-en-accion-f202606-n/",
+                "source": "Diario AS"
+              },
+              {
+                "title": "Carrasquilla estará ante Ghana, pero no al cien por ciento",
+                "url": "https://espndeportes.espn.com/futbol/costa-rica/nota/_/id/16854348/carrasquilla-panama-ghana-mundial-2026-christiansen",
+                "source": "ESPN Deportes"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "resultados mundial",
+        "score": 450,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "resultados mundial",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Mundial 2026: Luis Suárez vio Uruguay-Arabia desde el estadio y sorprendió con su camiseta",
+                "url": "https://www.montevideo.com.uy/Deportes/Mundial-2026-Luis-Suarez-vio-Uruguay-Arabia-desde-el-estadio-y-sorprendio-con-su-camiseta-uc965315",
+                "source": "Montevideo Portal"
+              },
+              {
+                "title": "Uruguay cambia el chip: ajustar pensando en Cabo Verde",
+                "url": "https://ladiaria.com.uy/deporte/articulo/2026/6/uruguay-cambia-el-chip-ajustar-pensando-en-cabo-verde/",
+                "source": "la diaria"
+              },
+              {
+                "title": "Un debutante como destacado y Federico Valverde fuera del podio: los lectores votaron a los mejores de Uruguay",
+                "url": "https://www.elpais.com.uy/ovacion/mundial/un-debutante-como-destacado-y-federico-valverde-fuera-del-podio-los-lectores-votaron-a-los-mejores-de-uruguay",
+                "source": "EL PAÍS Uruguay"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "nicolas seiwald",
+        "score": 260,
+        "geos": [
+          "AR"
+        ],
+        "samples": [
+          {
+            "query": "nicolas seiwald",
+            "geo": "AR",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Seiwald and Schlager: the heartbeat of Austria’s midfield",
+                "url": "https://rbleipzig.com/en/news/seiwald-schlager-double-pivot-austria-world-cup-2026",
+                "source": "RB Leipzig"
+              },
+              {
+                "title": "World Cup 2026: Austria beat Jordan for first World Cup win since 1990",
+                "url": "https://www.bbc.com/sport/football/live/czde4dj23qmt",
+                "source": "BBC"
+              },
+              {
+                "title": "Who is the referee for Austria vs Jordan?",
+                "url": "https://www.fourfourtwo.com/competition/who-is-the-referee-for-austria-vs-jordan",
+                "source": "FourFourTwo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "portugal vs",
+        "score": 180,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "portugal vs",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "World Cup predictions: Portugal vs DR Congo, England vs Croatia and more",
+                "url": "https://www.aljazeera.com/news/2026/6/17/world-cup-predictions-portugal-vs-dr-congo-england-vs-croatia-and-more",
+                "source": "Al Jazeera"
+              },
+              {
+                "title": "In pics: press conferences at FIFA World Cup 2026",
+                "url": "http://english.news.cn/20260617/f36cdc5ebd1a4f2fad731c92ba015876/c.html",
+                "source": "Xinhua"
+              },
+              {
+                "title": "OneFootball x FanDuel: The key questions on World Cup Day 7️⃣",
+                "url": "https://onefootball.com/id/berita/onefootball-x-fanduel-the-key-questions-on-world-cup-day-7-43019636",
+                "source": "OneFootball"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "cristiano ronaldo",
+        "score": 90,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "cristiano ronaldo",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Portugal hope Cristiano Ronaldo’s milestone World Cup is no millstone",
+                "url": "https://www.theguardian.com/football/2026/jun/17/portugal-cristiano-ronaldo-world-cup-drc",
+                "source": "The Guardian"
+              },
+              {
+                "title": "FIFA World Cup 2026 Day 7: Ronaldo eyes sixth World Cup appearance as Portugal opens campaign, England-Cro",
+                "url": "https://m.economictimes.com/us/sports/news/fifa-world-cup-2026-day-7-ronaldo-eyes-sixth-world-cup-appearance-as-portugal-opens-campaign-england-croatia-set-to-renew-rivalry-how-to-watch-live-streaming-in-us-and-canada-check-kick-off-time-and-venues/articleshow/131790726.cms",
+                "source": "The Economic Times"
+              },
+              {
+                "title": "England enter World Cup fray as Ronaldo makes history",
+                "url": "https://www.france24.com/en/live-news/20260617-england-enter-world-cup-fray-as-ronaldo-makes-history",
+                "source": "France 24"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "colombia vs",
+        "score": 90,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "colombia vs",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Dónde ver Colombia vs. Uzbekistán en vivo por el Mundial 2026: hora del partido y qué canales lo transmiten",
+                "url": "https://www.elpais.com.uy/ovacion/mundial/donde-ver-colombia-vs-uzbekistan-en-vivo-por-el-mundial-2026-hora-del-partido-y-que-canales-lo-transmiten",
+                "source": "EL PAÍS Uruguay"
+              },
+              {
+                "title": "Colombia, el último sudamericano en debutar",
+                "url": "https://diariocambio.com.uy/colombia-el-ultimo-sudamericano-en-debutar",
+                "source": "Diario Cambio Salto"
+              },
+              {
+                "title": "Técnico de Colombia recuerda con grandeza al Estadio Ciudad de México",
+                "url": "https://mexico.as.com/videos/tecnico-de-colombia-recuerda-con-grandeza-al-estadio-ciudad-de-mexico-f202606-v/",
+                "source": "AS México"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "argelia argentina",
+        "score": 90,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "argelia argentina",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Aficionados de las selecciones nacionales de fútbol de Argelia y Argentina se reúnen en Times Square un día antes del partido entre Argentina y Argelia en el Grupo 6 de la Copa Mundial de la FIFA.",
+                "url": "https://www.elpais.com.uy/aficionados-de-las-selecciones-nacionales-de-futbol-de-argelia-y-argentina-se-reunen-en-times-square-un-dia-antes-del-partido-entre-argentina-y-argelia-en-el-grupo-6-de-la-copa-mundial-de-la-fifa",
+                "source": "EL PAÍS Uruguay"
+              },
+              {
+                "title": "Mundial 2026: hinchas de Argentina y de Argelia se enfrentaron a golpes en Nueva York",
+                "url": "https://www.lanacion.com.ar/deportes/futbol/mundial-2026-enfrentamiento-entre-hinchas-argentinos-y-argelinos-en-times-square-nid16062026/",
+                "source": "La Nación"
+              },
+              {
+                "title": "Hinchas de Argentina y de Argelia a las trompadas en Times Square en la previa del debut de ambas selecciones; mirá el video",
+                "url": "https://www.elobservador.com.uy/mundial-2026/hinchas-argentina-y-argelia-las-trompadas-times-square-la-previa-del-debut-ambas-selecciones-mira-el-video-n6047563",
+                "source": "El Observador"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "portugal vs congo",
+        "score": 80,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "portugal vs congo",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Portugal-RD Congo : Ronaldo finalement sur le banc ?",
+                "url": "https://www.football365.fr/portugal-rd-congo-ronaldo-finalement-sur-le-banc-10299245.html",
+                "source": "Football365"
+              },
+              {
+                "title": "Coupe du monde 2026: à Kinshasa, tout un peuple se prépare au retour des Léopards après 52 ans d&apos;absence",
+                "url": "https://www.rfi.fr/fr/afrique-foot/20260617-coupe-du-monde-2026-%C3%A0-kinshasa-tout-un-peuple-se-pr%C3%A9pare-au-retour-des-l%C3%A9opards-apr%C3%A8s-52-ans-d-absence",
+                "source": "RFI"
+              },
+              {
+                "title": "Privés de supporters par Ebola, les Léopards de RDC s&apos;appuient sur leur diaspora",
+                "url": "https://www.flashscore.fr/actualites/football-championnat-du-monde-prives-de-supporters-par-ebola-les-leopards-de-rdc-s-appuient-sur-leur-diaspora/AJqNDu1S/",
+                "source": "Flashscore.fr"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "goleadores del mundial 2026",
+        "score": 80,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "goleadores del mundial 2026",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Goleadores del Mundial 2026: tabla actualizada con los goles de Messi, Mbappé y Haaland",
+                "url": "https://www.eluniverso.com/deportes/futbol/goleadores-del-mundial-2026-tabla-actualizada-con-los-goles-de-messi-mbappe-y-haaland-nota/",
+                "source": "El Universo"
+              },
+              {
+                "title": "Capítulo 126 Vecinos: Rodolfo se sobrepasa con Tatiana y ella lo echa de la casa",
+                "url": "https://www.caracoltv.com/vecinos/capitulos/capitulo-126-vecinos-rodolfo-se-sobrepasa-con-tatiana-y-ella-lo-echa-de-la-casa-pr30",
+                "source": "Caracol TV"
+              },
+              {
+                "title": "¿Mundial 2026 ya es mejor que Qatar 2022? Así ha sido el ritmo goleador en Norteamérica",
+                "url": "https://www.record.com.mx/historia/%C2%BFmundial-2026-ya-es-mejor-que-qatar-2022-asi-ha-sido-el-ritmo-goleador-en-norteamerica-2026061606043859098",
+                "source": "Récord"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "ronaldo",
+        "score": 80,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "ronaldo",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Cristiano Ronaldo: What World Cup records could Portugal&apos;s captain claim in his sixth and final tournament?",
+                "url": "https://www.skysports.com/football/news/13954/13548155/cristiano-ronaldo-what-world-cup-records-could-portugals-captain-claim-in-his-sixth-and-final-tournament",
+                "source": "Sky Sports"
+              },
+              {
+                "title": "Cristiano Ronaldo Trains As Portugal Prepare For Their FIFA World Cup 2026 Opener",
+                "url": "https://sports.ndtv.com/fifa-world-cup-2026/videos/cristiano-ronaldo-trains-as-portugal-prepare-for-their-fifa-world-cup-2026-opener-1114172",
+                "source": "NDTV Sports"
+              },
+              {
+                "title": "Ronaldo Aims to Reclaim Oldest World Cup Hat-Trick Record vs Congo",
+                "url": "https://www.chosun.com/english/sports-en/2026/06/17/S465VUIZ75AGRHZAXKWR7BKUAI/",
+                "source": "조선일보"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "di maria",
+        "score": 80,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "di maria",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Ángel Di María backs Argentina from afar: &apos;With you until the end of the world&apos;",
+                "url": "https://www.batimes.com.ar/news/sports/angel-di-maria-backs-argentina-from-afar-with-you-until-the-end-of-the-world.phtml",
+                "source": "Buenos Aires Times"
+              },
+              {
+                "title": "Why Paulo Dybala is missing the 2026 World Cup for Argentina",
+                "url": "https://worldsoccertalk.com/world-cup/why-paulo-dybala-is-missing-the-2026-world-cup-for-argentina/",
+                "source": "World Soccer Talk"
+              },
+              {
+                "title": "Why is Di Maria not playing for Argentina at FIFA World Cup 2026",
+                "url": "https://sportstar.thehindu.com/football/fifa-world-cup/why-is-angel-di-maria-not-playing-for-argentina-vs-algeria-fifa-world-cup-2026-retire-retirement-messi-news/article71111767.ece",
+                "source": "Sportstar"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "en": [
+      {
+        "query": "jordanie vs autriche",
+        "score": 240,
+        "geos": [
+          "CA"
+        ],
+        "samples": [
+          {
+            "query": "jordanie vs autriche",
+            "geo": "CA",
+            "language": "en",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Coupe du monde 2026 | L’Autriche s’impose contre la Jordanie",
+                "url": "https://www.lapresse.ca/sports/soccer/2026-06-17/coupe-du-monde-2026/l-autriche-s-impose-contre-la-jordanie.php",
+                "source": "La Presse"
+              },
+              {
+                "title": "L’Autriche gâche les débuts de la Jordanie en Coupe du Monde",
+                "url": "https://www.rds.ca/soccer/coupe-du-monde/article/lautriche-gache-les-debuts-de-la-jordanie-en-coupe-du-monde/",
+                "source": "RDS"
+              },
+              {
+                "title": "Autriche 3-1 Jordanie, Coupe du monde : match terminé",
+                "url": "https://www.lequipe.fr/Football/match-direct/coupe-du-monde/2026/autriche-jordanie-live/686956",
+                "source": "L&apos;Équipe"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "icc",
+        "score": 120,
+        "geos": [
+          "CA"
+        ],
+        "samples": [
+          {
+            "query": "icc",
+            "geo": "CA",
+            "language": "en",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Women&apos;s T20 World Cup 2026 semi-final qualification scenarios: Rules, chances and points required",
+                "url": "https://www.sportingnews.com/in/cricket/news/womens-t20-world-cup-2026-semi-final-qualification-scenarios-rules-chances-points/360bf495989cc252c84f3d02",
+                "source": "Sporting News"
+              },
+              {
+                "title": "More Than a Match: How India’s Fans Turned Birmingham into a Women’s Cricket Carnival",
+                "url": "https://revsportz.in/more-than-a-match-how-indias-fans-turned-birmingham-into-a-womens-cricket-carnival/",
+                "source": "Revsportz"
+              },
+              {
+                "title": "YouTube Partners with ICC to Boost Women’s T20 World Cup 2026 Coverage in India",
+                "url": "https://www.indianretailer.com/brandlicense/archives/news/youtube-partners-icc-boost-womens-t20-world-cup-2026-coverage-india.n5510",
+                "source": "Indian Retailer"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "pt": [
+      {
+        "query": "radio comercial",
+        "score": 1000,
+        "geos": [
+          "PT"
+        ],
+        "samples": [
+          {
+            "query": "radio comercial",
+            "geo": "PT",
+            "language": "pt",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "\"Acho que isto nunca aconteceu\": seis rádios juntam-se para apoiar Portugal no Mundial",
+                "url": "https://cnnportugal.iol.pt/videos/acho-que-isto-nunca-aconteceu-seis-radios-juntam-se-para-apoiar-portugal-no-mundial/6a32455a0cf27cac6fcf5ce8",
+                "source": "CNN Portugal"
+              },
+              {
+                "title": "Galp une seis rádios na estreia da Seleção no Mundial 2026",
+                "url": "https://eco.sapo.pt/2026/06/15/galp-une-seis-radios-na-estreia-da-selecao-no-mundial-2026/",
+                "source": "ECO"
+              },
+              {
+                "title": "SIC aposta em \"Casa Feliz de Portugal\"",
+                "url": "https://www.atelevisao.com/sic/sic-aposta-em-casa-feliz-de-portugal/",
+                "source": "A Televisão"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "portugal vs dr congo world cup 2026",
+        "score": 650,
+        "geos": [
+          "BR"
+        ],
+        "samples": [
+          {
+            "query": "portugal vs dr congo world cup 2026",
+            "geo": "BR",
+            "language": "pt",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Portugal vs DR Congo World Cup Group K preview",
+                "url": "https://www.bbc.com/pidgin/articles/cz759pn0jexo",
+                "source": "BBC"
+              },
+              {
+                "title": "World Cup schedule today: How to watch England v Croatia, TV channels & live stream Wednesday 17 June",
+                "url": "https://www.theguardian.com/football/2026/jun/17/how-to-watch-world-cup-england-croatia",
+                "source": "The Guardian"
+              },
+              {
+                "title": "OneFootball x FanDuel: The key questions on World Cup Day 7️⃣",
+                "url": "https://onefootball.com/id/berita/onefootball-x-fanduel-the-key-questions-on-world-cup-day-7-43019636",
+                "source": "OneFootball"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "a que horas joga portugal",
+        "score": 200,
+        "geos": [
+          "PT"
+        ],
+        "samples": [
+          {
+            "query": "a que horas joga portugal",
+            "geo": "PT",
+            "language": "pt",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Inglaterra e Portugal estreiam na Copa do Mundo 2026 nesta quarta-feira (17)",
+                "url": "https://g1.globo.com/mundo/noticia/2026/06/17/inglaterra-e-portugal-estreiam-na-copa-do-mundo-2026-nesta-quarta-feira-17.ghtml",
+                "source": "G1"
+              },
+              {
+                "title": "Jogos de Hoje na Copa do Mundo 2026 (17): Portugal, Inglaterra e Mais; Veja Horários e Onde Assistir",
+                "url": "https://forbes.com.br/forbes-life/forbes-sport/2026/06/jogos-de-hoje-na-copa-do-mundo-2026-17-portugal-inglaterra-e-mais-veja-horarios-e-onde-assistir/",
+                "source": "Forbes Brasil"
+              },
+              {
+                "title": "Campeã Argentina e &apos;vice&apos; França em estreia no Mundial",
+                "url": "https://www.cmjornal.pt/mais-cm/especiais/mundial-2026/detalhe/campea-argentina-e-vice-franca-em-estreia-no-mundial",
+                "source": "Correio da Manhã"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "eder",
+        "score": 100,
+        "geos": [
+          "PT"
+        ],
+        "samples": [
+          {
+            "query": "eder",
+            "geo": "PT",
+            "language": "pt",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Nuno Markl reage a encontro com Éder Lopes: \"Bondade instantânea e pronto, emocionei-me\"",
+                "url": "https://www.atelevisao.com/famosos/nuno-markl-reage-a-encontro-com-eder-lopes-bondade-instantanea-e-pronto-emocionei-me/",
+                "source": "A Televisão"
+              },
+              {
+                "title": "Éder. O herói do Euro 2016 deseja que Gonçalo Ramos seja o herói do Mundial 2026",
+                "url": "https://rr.pt/bola-branca/noticia/clube-portugal/2026/06/17/eder-o-heroi-do-euro-2016-deseja-que-goncalo-ramos-seja-o-heroi-do-mundial-2026/474691/?utm_medium=rss",
+                "source": "Renascença"
+              },
+              {
+                "title": "“Tinha de se apagar o golo do Maradona”. Éder rejeita rever falta antes do golo do Euro 2016",
+                "url": "https://rr.pt/bola-branca/noticia/clube-portugal/2026/06/17/tinha-de-se-apagar-o-golo-do-maradona-eder-rejeita-rever-falta-antes-do-golo-do-euro-2016/474685/",
+                "source": "Renascença"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "fr": [
+      {
+        "query": "jordan vs austria",
+        "score": 4500,
+        "geos": [
+          "MA"
+        ],
+        "samples": [
+          {
+            "query": "jordan vs austria",
+            "geo": "MA",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 5000,
+            "articles": [
+              {
+                "title": "World Cup 2026: Austria beat Jordan for first World Cup win since 1990",
+                "url": "https://www.bbc.com/sport/football/live/czde4dj23qmt",
+                "source": "BBC"
+              },
+              {
+                "title": "Licensable picture: Fans in Austria during public viewing at FIFA World Cup 2026",
+                "url": "https://www.reutersconnect.com/item/fans-in-austria-during-public-viewing-at-fifa-world-cup-2026/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1JDMklWTEFFN1BUUg",
+                "source": "Reuters Connect"
+              },
+              {
+                "title": "Austria beat Jordan 3-1 at Levis Stadium, Arnautovic nets stoppage time winner",
+                "url": "https://mezha.net/eng/bukvy/6a7ab03a_austria_beat_jordan/",
+                "source": "mezha.net"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "statistiques de coupe du monde",
+        "score": 180,
+        "geos": [
+          "MA"
+        ],
+        "samples": [
+          {
+            "query": "statistiques de coupe du monde",
+            "geo": "MA",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Mondial 2026 : L&apos;Égypte bouscule la Belgique et décroche un nul frustrant",
+                "url": "https://www.cafonline.com/fr/coupe-du-monde-de-la-fifa/news/mondial-2026-legypte-bouscule-la-belgique-et-decroche-un-nul-frustrant/",
+                "source": "Confédération Africaine de Football"
+              },
+              {
+                "title": "Coupe du Monde 2026 : les Diables Rouges se font déjà dézinguer en Belgique !",
+                "url": "https://www.footmercato.net/a4144675969143507553-coupe-du-monde-2026-les-diables-rouges-se-font-deja-dezinguer-en-belgique",
+                "source": "Foot Mercato"
+              },
+              {
+                "title": "Belgique - Égypte en direct à la Coupe du monde de football 2026 : Résultats live, compositions, scores, statistiques, commentaires et classement du groupe G",
+                "url": "https://www.olympics.com/fr/infos/belgique-egypte-direct-coupe-monde-football-2026-resultats-live-compositions-scores-statistiques-commentaires-et-classement-groupe",
+                "source": "Olympics"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "modric",
+        "score": 100,
+        "geos": [
+          "FR"
+        ],
+        "samples": [
+          {
+            "query": "modric",
+            "geo": "FR",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Coupe du monde 2026. Encore portée par son « phénomène » Modric, la Croatie peut-elle refaire le coup de 2018 et 2022 ?",
+                "url": "https://www.ouest-france.fr/sport/coupe-du-monde/coupe-du-monde-2026-encore-portee-par-son-phenomene-modric-la-croatie-peut-elle-refaire-le-coup-de-2018-et-2022-eeddd122-68c0-11f1-99fc-6db54956824f",
+                "source": "Ouest-France"
+              },
+              {
+                "title": "AC Milan : Modric tout proche de la retraite…",
+                "url": "https://www.sport.fr/football/ac-milan-modric-tout-proche-de-la-retraite-1457317.shtm",
+                "source": "Sport.fr"
+              },
+              {
+                "title": "Luka Modric n&apos;a pas dit son dernier mot ! À 40 ans, le maître à jouer croate peut encore faire vaciller les ambitions de l&apos;Angleterre en Coupe du monde",
+                "url": "https://www.goal.com/fr/listes/luka-modric-n-a-pas-dit-son-dernier-mot-a-40-ans-le-maitre-a-jouer-croate-peut-encore-faire-vaciller-les-ambitions-de-l-angleterre-en-coupe-du-monde/blt43e63ab1b409ab5a",
+                "source": "Goal.com"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "topic": "selección de fútbol de portugal",
+      "type": "noticia",
+      "slugSuggestion": "seleccion-de-futbol-de-portugal",
+      "language": "es",
+      "geos": [
+        "ES"
+      ],
+      "score": 3600,
+      "reason": "Google Trends daily ES con 2,000 búsquedas · 3 artículos noticiosos referenciando \"selección de fútbol de portugal\"",
+      "proposedPath": "/noticias/seleccion-de-futbol-de-portugal",
+      "evidence": [
+        {
+          "query": "selección de fútbol de portugal",
+          "geo": "ES",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 2000,
+          "articles": [
+            {
+              "title": "Mundial 2026, en directo: noticias de la Copa del Mundo y última hora de las selecciones, hoy 17 de junio",
+              "url": "https://as.com/futbol/mundial/mundial-2026-en-directo-noticias-de-la-copa-del-mundo-y-ultima-hora-de-las-selecciones-hoy-17-de-junio-f202606-d/",
+              "source": "Diario AS"
+            },
+            {
+              "title": "Partidos de hoy, 17 de junio, del Mundial 2026: horario y dónde ver hoy en TV y online",
+              "url": "https://www.marca.com/futbol/mundial/2026/06/17/partidos-hoy-17-junio-mundial-2026-horario-donde-ver-hoy-tv-online.html",
+              "source": "MARCA"
+            },
+            {
+              "title": "Portugal - RD del Congo: horario y dónde ver hoy por TV el partido del Mundial 2026",
+              "url": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/06/17/6a324fac21efa0723d8b458c.html",
+              "source": "El Mundo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "radio comercial",
+      "type": "noticia",
+      "slugSuggestion": "radio-comercial",
+      "language": "pt",
+      "geos": [
+        "PT"
+      ],
+      "score": 1200,
+      "reason": "Google Trends daily PT con 1,000 búsquedas · 3 artículos noticiosos referenciando \"radio comercial\"",
+      "proposedPath": "/noticias/radio-comercial",
+      "evidence": [
+        {
+          "query": "radio comercial",
+          "geo": "PT",
+          "language": "pt",
+          "source": "google-trends-daily",
+          "score": 1000,
+          "articles": [
+            {
+              "title": "\"Acho que isto nunca aconteceu\": seis rádios juntam-se para apoiar Portugal no Mundial",
+              "url": "https://cnnportugal.iol.pt/videos/acho-que-isto-nunca-aconteceu-seis-radios-juntam-se-para-apoiar-portugal-no-mundial/6a32455a0cf27cac6fcf5ce8",
+              "source": "CNN Portugal"
+            },
+            {
+              "title": "Galp une seis rádios na estreia da Seleção no Mundial 2026",
+              "url": "https://eco.sapo.pt/2026/06/15/galp-une-seis-radios-na-estreia-da-selecao-no-mundial-2026/",
+              "source": "ECO"
+            },
+            {
+              "title": "SIC aposta em \"Casa Feliz de Portugal\"",
+              "url": "https://www.atelevisao.com/sic/sic-aposta-em-casa-feliz-de-portugal/",
+              "source": "A Televisão"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "resultados mundial",
+      "type": "noticia",
+      "slugSuggestion": "resultados-mundial",
+      "language": "es",
+      "geos": [
+        "UY"
+      ],
+      "score": 540,
+      "reason": "Google Trends daily UY con 500 búsquedas · 3 artículos noticiosos referenciando \"resultados mundial\"",
+      "proposedPath": "/noticias/resultados-mundial",
+      "evidence": [
+        {
+          "query": "resultados mundial",
+          "geo": "UY",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 500,
+          "articles": [
+            {
+              "title": "Mundial 2026: Luis Suárez vio Uruguay-Arabia desde el estadio y sorprendió con su camiseta",
+              "url": "https://www.montevideo.com.uy/Deportes/Mundial-2026-Luis-Suarez-vio-Uruguay-Arabia-desde-el-estadio-y-sorprendio-con-su-camiseta-uc965315",
+              "source": "Montevideo Portal"
+            },
+            {
+              "title": "Uruguay cambia el chip: ajustar pensando en Cabo Verde",
+              "url": "https://ladiaria.com.uy/deporte/articulo/2026/6/uruguay-cambia-el-chip-ajustar-pensando-en-cabo-verde/",
+              "source": "la diaria"
+            },
+            {
+              "title": "Un debutante como destacado y Federico Valverde fuera del podio: los lectores votaron a los mejores de Uruguay",
+              "url": "https://www.elpais.com.uy/ovacion/mundial/un-debutante-como-destacado-y-federico-valverde-fuera-del-podio-los-lectores-votaron-a-los-mejores-de-uruguay",
+              "source": "EL PAÍS Uruguay"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "nicolas seiwald",
+      "type": "noticia",
+      "slugSuggestion": "nicolas-seiwald",
+      "language": "es",
+      "geos": [
+        "AR"
+      ],
+      "score": 312,
+      "reason": "Google Trends daily AR con 200 búsquedas · 3 artículos noticiosos referenciando \"nicolas seiwald\"",
+      "proposedPath": "/noticias/nicolas-seiwald",
+      "evidence": [
+        {
+          "query": "nicolas seiwald",
+          "geo": "AR",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Seiwald and Schlager: the heartbeat of Austria’s midfield",
+              "url": "https://rbleipzig.com/en/news/seiwald-schlager-double-pivot-austria-world-cup-2026",
+              "source": "RB Leipzig"
+            },
+            {
+              "title": "World Cup 2026: Austria beat Jordan for first World Cup win since 1990",
+              "url": "https://www.bbc.com/sport/football/live/czde4dj23qmt",
+              "source": "BBC"
+            },
+            {
+              "title": "Who is the referee for Austria vs Jordan?",
+              "url": "https://www.fourfourtwo.com/competition/who-is-the-referee-for-austria-vs-jordan",
+              "source": "FourFourTwo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "jordanie vs autriche",
+      "type": "noticia",
+      "slugSuggestion": "jordanie-vs-autriche",
+      "language": "en",
+      "geos": [
+        "CA"
+      ],
+      "score": 288,
+      "reason": "Google Trends daily CA con 200 búsquedas · 3 artículos noticiosos referenciando \"jordanie vs autriche\"",
+      "proposedPath": "/noticias/jordanie-vs-autriche",
+      "evidence": [
+        {
+          "query": "jordanie vs autriche",
+          "geo": "CA",
+          "language": "en",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Coupe du monde 2026 | L’Autriche s’impose contre la Jordanie",
+              "url": "https://www.lapresse.ca/sports/soccer/2026-06-17/coupe-du-monde-2026/l-autriche-s-impose-contre-la-jordanie.php",
+              "source": "La Presse"
+            },
+            {
+              "title": "L’Autriche gâche les débuts de la Jordanie en Coupe du Monde",
+              "url": "https://www.rds.ca/soccer/coupe-du-monde/article/lautriche-gache-les-debuts-de-la-jordanie-en-coupe-du-monde/",
+              "source": "RDS"
+            },
+            {
+              "title": "Autriche 3-1 Jordanie, Coupe du monde : match terminé",
+              "url": "https://www.lequipe.fr/Football/match-direct/coupe-du-monde/2026/autriche-jordanie-live/686956",
+              "source": "L&apos;Équipe"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "a que horas joga portugal",
+      "type": "noticia",
+      "slugSuggestion": "a-que-horas-joga-portugal",
+      "language": "pt",
+      "geos": [
+        "PT"
+      ],
+      "score": 240,
+      "reason": "Google Trends daily PT con 200 búsquedas · 3 artículos noticiosos referenciando \"a que horas joga portugal\"",
+      "proposedPath": "/noticias/a-que-horas-joga-portugal",
+      "evidence": [
+        {
+          "query": "a que horas joga portugal",
+          "geo": "PT",
+          "language": "pt",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Inglaterra e Portugal estreiam na Copa do Mundo 2026 nesta quarta-feira (17)",
+              "url": "https://g1.globo.com/mundo/noticia/2026/06/17/inglaterra-e-portugal-estreiam-na-copa-do-mundo-2026-nesta-quarta-feira-17.ghtml",
+              "source": "G1"
+            },
+            {
+              "title": "Jogos de Hoje na Copa do Mundo 2026 (17): Portugal, Inglaterra e Mais; Veja Horários e Onde Assistir",
+              "url": "https://forbes.com.br/forbes-life/forbes-sport/2026/06/jogos-de-hoje-na-copa-do-mundo-2026-17-portugal-inglaterra-e-mais-veja-horarios-e-onde-assistir/",
+              "source": "Forbes Brasil"
+            },
+            {
+              "title": "Campeã Argentina e &apos;vice&apos; França em estreia no Mundial",
+              "url": "https://www.cmjornal.pt/mais-cm/especiais/mundial-2026/detalhe/campea-argentina-e-vice-franca-em-estreia-no-mundial",
+              "source": "Correio da Manhã"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "statistiques de coupe du monde",
+      "type": "noticia",
+      "slugSuggestion": "statistiques-de-coupe-du-monde",
+      "language": "fr",
+      "geos": [
+        "MA"
+      ],
+      "score": 216,
+      "reason": "Google Trends daily MA con 200 búsquedas · 3 artículos noticiosos referenciando \"statistiques de coupe du monde\"",
+      "proposedPath": "/noticias/statistiques-de-coupe-du-monde",
+      "evidence": [
+        {
+          "query": "statistiques de coupe du monde",
+          "geo": "MA",
+          "language": "fr",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Mondial 2026 : L&apos;Égypte bouscule la Belgique et décroche un nul frustrant",
+              "url": "https://www.cafonline.com/fr/coupe-du-monde-de-la-fifa/news/mondial-2026-legypte-bouscule-la-belgique-et-decroche-un-nul-frustrant/",
+              "source": "Confédération Africaine de Football"
+            },
+            {
+              "title": "Coupe du Monde 2026 : les Diables Rouges se font déjà dézinguer en Belgique !",
+              "url": "https://www.footmercato.net/a4144675969143507553-coupe-du-monde-2026-les-diables-rouges-se-font-deja-dezinguer-en-belgique",
+              "source": "Foot Mercato"
+            },
+            {
+              "title": "Belgique - Égypte en direct à la Coupe du monde de football 2026 : Résultats live, compositions, scores, statistiques, commentaires et classement du groupe G",
+              "url": "https://www.olympics.com/fr/infos/belgique-egypte-direct-coupe-monde-football-2026-resultats-live-compositions-scores-statistiques-commentaires-et-classement-groupe",
+              "source": "Olympics"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "icc",
+      "type": "noticia",
+      "slugSuggestion": "icc",
+      "language": "en",
+      "geos": [
+        "CA"
+      ],
+      "score": 144,
+      "reason": "Google Trends daily CA con 100 búsquedas · 3 artículos noticiosos referenciando \"icc\"",
+      "proposedPath": "/noticias/icc",
+      "evidence": [
+        {
+          "query": "icc",
+          "geo": "CA",
+          "language": "en",
+          "source": "google-trends-daily",
+          "score": 100,
+          "articles": [
+            {
+              "title": "Women&apos;s T20 World Cup 2026 semi-final qualification scenarios: Rules, chances and points required",
+              "url": "https://www.sportingnews.com/in/cricket/news/womens-t20-world-cup-2026-semi-final-qualification-scenarios-rules-chances-points/360bf495989cc252c84f3d02",
+              "source": "Sporting News"
+            },
+            {
+              "title": "More Than a Match: How India’s Fans Turned Birmingham into a Women’s Cricket Carnival",
+              "url": "https://revsportz.in/more-than-a-match-how-indias-fans-turned-birmingham-into-a-womens-cricket-carnival/",
+              "source": "Revsportz"
+            },
+            {
+              "title": "YouTube Partners with ICC to Boost Women’s T20 World Cup 2026 Coverage in India",
+              "url": "https://www.indianretailer.com/brandlicense/archives/news/youtube-partners-icc-boost-womens-t20-world-cup-2026-coverage-india.n5510",
+              "source": "Indian Retailer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "eder",
+      "type": "noticia",
+      "slugSuggestion": "eder",
+      "language": "pt",
+      "geos": [
+        "PT"
+      ],
+      "score": 120,
+      "reason": "Google Trends daily PT con 100 búsquedas · 3 artículos noticiosos referenciando \"eder\"",
+      "proposedPath": "/noticias/eder",
+      "evidence": [
+        {
+          "query": "eder",
+          "geo": "PT",
+          "language": "pt",
+          "source": "google-trends-daily",
+          "score": 100,
+          "articles": [
+            {
+              "title": "Nuno Markl reage a encontro com Éder Lopes: \"Bondade instantânea e pronto, emocionei-me\"",
+              "url": "https://www.atelevisao.com/famosos/nuno-markl-reage-a-encontro-com-eder-lopes-bondade-instantanea-e-pronto-emocionei-me/",
+              "source": "A Televisão"
+            },
+            {
+              "title": "Éder. O herói do Euro 2016 deseja que Gonçalo Ramos seja o herói do Mundial 2026",
+              "url": "https://rr.pt/bola-branca/noticia/clube-portugal/2026/06/17/eder-o-heroi-do-euro-2016-deseja-que-goncalo-ramos-seja-o-heroi-do-mundial-2026/474691/?utm_medium=rss",
+              "source": "Renascença"
+            },
+            {
+              "title": "“Tinha de se apagar o golo do Maradona”. Éder rejeita rever falta antes do golo do Euro 2016",
+              "url": "https://rr.pt/bola-branca/noticia/clube-portugal/2026/06/17/tinha-de-se-apagar-o-golo-do-maradona-eder-rejeita-rever-falta-antes-do-golo-do-euro-2016/474685/",
+              "source": "Renascença"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "di maria",
+      "type": "noticia",
+      "slugSuggestion": "di-maria",
+      "language": "es",
+      "geos": [
+        "EC"
+      ],
+      "score": 96,
+      "reason": "Google Trends daily EC con 100 búsquedas · 3 artículos noticiosos referenciando \"di maria\"",
+      "proposedPath": "/noticias/di-maria",
+      "evidence": [
+        {
+          "query": "di maria",
+          "geo": "EC",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 100,
+          "articles": [
+            {
+              "title": "Ángel Di María backs Argentina from afar: &apos;With you until the end of the world&apos;",
+              "url": "https://www.batimes.com.ar/news/sports/angel-di-maria-backs-argentina-from-afar-with-you-until-the-end-of-the-world.phtml",
+              "source": "Buenos Aires Times"
+            },
+            {
+              "title": "Why Paulo Dybala is missing the 2026 World Cup for Argentina",
+              "url": "https://worldsoccertalk.com/world-cup/why-paulo-dybala-is-missing-the-2026-world-cup-for-argentina/",
+              "source": "World Soccer Talk"
+            },
+            {
+              "title": "Why is Di Maria not playing for Argentina at FIFA World Cup 2026",
+              "url": "https://sportstar.thehindu.com/football/fifa-world-cup/why-is-angel-di-maria-not-playing-for-argentina-vs-algeria-fifa-world-cup-2026-retire-retirement-messi-news/article71111767.ece",
+              "source": "Sportstar"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alreadyCovered": [
+    {
+      "query": "ghana",
+      "matchUrl": "/noticias/h2h-ghana-panama-mundial-2026-grupo-l"
+    },
+    {
+      "query": "ghana",
+      "matchUrl": "/noticias/h2h-ghana-panama-mundial-2026-grupo-l"
+    },
+    {
+      "query": "ghana vs",
+      "matchUrl": "/noticias/h2h-ghana-panama-mundial-2026-grupo-l"
+    },
+    {
+      "query": "portugal vs congo",
+      "matchUrl": "/noticias/h2h-portugal-rd-congo-mundial-2026-grupo-k"
+    },
+    {
+      "query": "goleadores del mundial 2026",
+      "matchUrl": "/coleccionismo/panini-mundial-2026"
+    },
+    {
+      "query": "ronaldo",
+      "matchUrl": "/historias/ronaldo-redencion-yokohama-2002-final-doblete-kahn"
+    },
+    {
+      "query": "portugal vs",
+      "matchUrl": "/noticias/cuando-juega-portugal-mundial-2026-horarios-donde-ver-tv"
+    },
+    {
+      "query": "cristiano ronaldo",
+      "matchUrl": "/noticias/convocatoria-portugal-mundial-2026-roberto-martinez-cristiano-ronaldo-sexto-mundial-41-anos"
+    },
+    {
+      "query": "austria vs jordania",
+      "matchUrl": "/noticias/h2h-austria-jordania-mundial-2026-grupo-j"
+    },
+    {
+      "query": "colombia vs",
+      "matchUrl": "/noticias/cuando-juega-colombia-mundial-2026-horarios-donde-ver-tv"
+    },
+    {
+      "query": "argelia argentina",
+      "matchUrl": "/noticias/cuando-juega-argentina-hoy-argelia-mundial-2026"
+    },
+    {
+      "query": "portugal vs dr congo world cup 2026",
+      "matchUrl": "/noticias/cuando-juega-portugal-mundial-2026-horarios-donde-ver-tv"
+    },
+    {
+      "query": "modric",
+      "matchUrl": "/historias/modric-croacia-2018-rusia-subcampeona-luzhniki-final"
+    },
+    {
+      "query": "jordan vs austria",
+      "matchUrl": "/noticias/h2h-austria-jordania-mundial-2026-grupo-j"
+    }
+  ]
+}

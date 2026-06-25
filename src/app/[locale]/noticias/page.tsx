@@ -2,7 +2,12 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { setRequestLocale } from 'next-intl/server';
 import { ArrowLeft, ArrowRight, Newspaper } from 'lucide-react';
-import { NEWS_ITEMS, relativeTimeEs, type NewsCategory } from '@/lib/news';
+import { NEWS_ITEMS, relativeTimeEs, newsImageUrl, newsImageAlt, type NewsCategory } from '@/lib/news';
+
+// SSR: el filtro publishedAt <= now necesita evaluarse en cada request,
+// no en build time, para que los artículos programados aparezcan solos.
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl, SEO } from '@/lib/seo';
 
@@ -22,7 +27,12 @@ const CATEGORY_LABELS: Record<NewsCategory, string> = {
   polemica: 'Polémica',
   tv: 'TV / Streaming',
   patrocinios: 'Patrocinios',
+  amistosos: 'Amistosos',
+  lesiones: 'Lesiones',
+  tecnico: 'Cuerpo técnico',
   general: 'General',
+  historica: 'Historia',
+  curiosa: 'Curiosidades',
 };
 
 export async function generateMetadata({
@@ -57,9 +67,11 @@ export default async function NoticiasIndex({
   const { locale } = await params;
   setRequestLocale(locale);
 
-  const items = [...NEWS_ITEMS].sort((a, b) =>
-    b.publishedAt.localeCompare(a.publishedAt),
-  );
+  // Publicación programada: solo mostrar artículos con publishedAt en el pasado
+  const now = new Date().toISOString();
+  const items = [...NEWS_ITEMS]
+    .filter((n) => n.publishedAt <= now)
+    .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
 
   const collectionLd = {
     '@context': 'https://schema.org',
@@ -119,20 +131,30 @@ export default async function NoticiasIndex({
               href={withLocale(locale as Locale, `/noticias/${n.slug}`)}
               className="group flex h-full flex-col overflow-hidden transition-colors hover:bg-[var(--color-bg-2)]"
             >
-              <div className="relative aspect-[16/9] w-full overflow-hidden bg-gradient-to-br from-[var(--color-pitch)]/10 via-[var(--color-bg-2)] to-[var(--color-bg)]">
-                {n.image ? (
-                  <Image
-                    src={n.image.url}
-                    alt={n.image.alt}
-                    fill
-                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                    className="object-cover transition-transform duration-500 group-hover:scale-105"
-                    unoptimized
-                  />
-                ) : (
-                  <div className="absolute inset-0 grid-overlay opacity-30" />
-                )}
-                <span className="absolute left-3 top-3 rounded-full bg-[var(--color-pitch)] px-2.5 py-1 font-mono text-[9px] uppercase tracking-[0.3em] text-black">
+              <div className="relative aspect-[16/9] w-full overflow-hidden bg-[var(--color-bg-2)]">
+                {/* Placeholder siempre visible detrás de la foto */}
+                <div
+                  className="absolute inset-0 flex flex-col items-center justify-center gap-2"
+                  style={{
+                    background: `linear-gradient(135deg, color-mix(in oklch, var(--color-pitch) 12%, var(--color-bg-2)), var(--color-bg-2))`,
+                  }}
+                >
+                  <span className="font-mono text-[10px] uppercase tracking-[0.35em] text-[var(--color-pitch)] opacity-70">
+                    {CATEGORY_LABELS[n.category]}
+                  </span>
+                  <span className="font-display text-5xl font-semibold uppercase text-[var(--color-fg)] opacity-[0.06] leading-none text-center px-4 line-clamp-2">
+                    {n.title}
+                  </span>
+                </div>
+                <Image
+                  src={newsImageUrl(n)}
+                  alt={newsImageAlt(n)}
+                  fill
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  className="object-cover transition-transform duration-500 group-hover:scale-105"
+                  unoptimized
+                />
+                <span className="absolute left-3 top-3 rounded-full bg-[var(--color-pitch)] px-2.5 py-1 font-mono text-[9px] uppercase tracking-[0.3em] text-black z-10">
                   {CATEGORY_LABELS[n.category]}
                 </span>
               </div>

@@ -1,0 +1,386 @@
+{
+  "generatedAt": "2026-05-09T08:17:08.282Z",
+  "date": "2026-05-09",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "otamendi",
+      "geo": "AR",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "La FIFA decretó la amnistía para Nicolás Otamendi y podrá estar presente en el debut de Argentina en el Mundial 2026",
+          "url": "https://www.infobae.com/deportes/2026/05/08/la-fifa-decreto-amnistia-para-los-jugadores-suspendidos-y-nicolas-otamendi-podra-estar-presente-en-el-debut-de-argentina-en-el-mundial/",
+          "source": "Infobae"
+        },
+        {
+          "title": "Moisés Caicedo y la alegría por jugar en el debut del Mundial: \"Dejar la vida contra Costa de Marfil\"",
+          "url": "https://www.ole.com.ar/ecuador/mundial-2026/moises-caicedo-mensaje-alegria-jugar-debut-mundial-2026-ecuador-tri-dejar-vida-costa-marfil_0_U67WixKZdY.html",
+          "source": "Olé"
+        },
+        {
+          "title": "Bombazo: la Selección argentina podrá contar con una figura que iba a perderse el debut mundialista",
+          "url": "https://www.lmneuquen.com/deportes/bombazo-la-seleccion-argentina-podra-contar-una-figura-que-iba-perderse-el-debut-mundialista-n1237855",
+          "source": "LM Neuquén"
+        }
+      ]
+    },
+    {
+      "query": "jonathan davis",
+      "geo": "CL",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "Revisa las estaciones de Metro que funcionarán hasta más tarde este viernes por concierto de Korn",
+          "url": "https://www.biobiochile.cl/noticias/servicios/toma-nota/2026/05/08/revisa-las-estaciones-de-metro-que-funcionaran-hasta-mas-tarde-este-viernes-por-concierto-de-korn.shtml",
+          "source": "BioBioChile"
+        },
+        {
+          "title": "Bajista chileno de Korn celebra vistiendo la camiseta de Everton: \"Hoy se juega de local\"",
+          "url": "https://www.cooperativa.cl/noticias/magazine/musica/shows-en-vivo/bajista-chileno-de-korn-celebra-vistiendo-la-camiseta-de-everton-hoy/2026-05-08/155013.html",
+          "source": "Cooperativa.cl"
+        },
+        {
+          "title": "Korn en Chile 2026: conoce los horarios, cortes de calles y ampliación de Metro",
+          "url": "https://www.adnradio.cl/2026/05/06/korn-en-chile-2026-conoce-los-horarios-cortes-de-calles-y-ampliacion-de-metro/",
+          "source": "ADN Radio"
+        }
+      ]
+    },
+    {
+      "query": "maillot psg 2027",
+      "geo": "FR",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Le maillot domicile du PSG pour la saison 2026-2027 dévoilé",
+          "url": "https://www.lequipe.fr/Football/Actualites/Le-maillot-domicile-du-psg-pour-la-saison-2026-2027-devoile/1674366",
+          "source": "L&apos;Équipe"
+        },
+        {
+          "title": "«Déclaration d’amour à Paris et à ses supporters» : en images, découvrez le maillot domicile 2026-27 du PSG",
+          "url": "https://www.lefigaro.fr/sports/football/ligue-1/declaration-d-amour-a-paris-et-a-ses-supporters-le-psg-devoile-son-maillot-2026-27-20260509",
+          "source": "Le Figaro"
+        },
+        {
+          "title": "\"Un hommage à toutes les générations de supporters\": le nouveau maillot du PSG pour la saison 2026-2027 dévoilé",
+          "url": "https://rmcsport.bfmtv.com/football/clubs/paris-saint-germain/un-hommage-a-toutes-les-generations-de-supporters-le-nouveau-maillot-du-psg-pour-la-saison-2026-2027-devoile_AN-202605090049.html",
+          "source": "RMC Sport"
+        }
+      ]
+    },
+    {
+      "query": "panini wm 2026 sticker",
+      "geo": "DE",
+      "language": "de",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "WM 2026: Panini stellt Marc-André ter Stegen statt Oliver Baumann ins deutsche Tor",
+          "url": "https://www.spiegel.de/sport/fussball/fussball-wm-2026-panini-stellt-marc-andre-ter-stegen-statt-oliver-baumann-ins-deutsche-tor-a-c94afc29-1759-434c-97af-eed5c084d4c1",
+          "source": "Spiegel"
+        },
+        {
+          "title": "ANZEIGE: WM 2026 – Diese Bundesliga-Stars gehen bei Panini durch die Decke",
+          "url": "https://sportbild.bild.de/partner/brandstory/anzeige-wm-2026-diese-bundesliga-stars-gehen-bei-panini-durch-die-decke-69df50d740aab24936cd1d65",
+          "source": "Sport Bild"
+        },
+        {
+          "title": "Fußball-WM: Das Panini-Album hat 980 (!) Sticker – diese 18 Deutschen sind dabei",
+          "url": "https://www.welt.de/sport/article69fd805a30e98e4ac324e176/fussball-wm-das-panini-album-hat-980-sticker-diese-18-deutschen-sind-dabei.html",
+          "source": "WELT"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "es": [
+      {
+        "query": "jonathan davis",
+        "score": 1800,
+        "geos": [
+          "CL"
+        ],
+        "samples": [
+          {
+            "query": "jonathan davis",
+            "geo": "CL",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "Revisa las estaciones de Metro que funcionarán hasta más tarde este viernes por concierto de Korn",
+                "url": "https://www.biobiochile.cl/noticias/servicios/toma-nota/2026/05/08/revisa-las-estaciones-de-metro-que-funcionaran-hasta-mas-tarde-este-viernes-por-concierto-de-korn.shtml",
+                "source": "BioBioChile"
+              },
+              {
+                "title": "Bajista chileno de Korn celebra vistiendo la camiseta de Everton: \"Hoy se juega de local\"",
+                "url": "https://www.cooperativa.cl/noticias/magazine/musica/shows-en-vivo/bajista-chileno-de-korn-celebra-vistiendo-la-camiseta-de-everton-hoy/2026-05-08/155013.html",
+                "source": "Cooperativa.cl"
+              },
+              {
+                "title": "Korn en Chile 2026: conoce los horarios, cortes de calles y ampliación de Metro",
+                "url": "https://www.adnradio.cl/2026/05/06/korn-en-chile-2026-conoce-los-horarios-cortes-de-calles-y-ampliacion-de-metro/",
+                "source": "ADN Radio"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "otamendi",
+        "score": 650,
+        "geos": [
+          "AR"
+        ],
+        "samples": [
+          {
+            "query": "otamendi",
+            "geo": "AR",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "La FIFA decretó la amnistía para Nicolás Otamendi y podrá estar presente en el debut de Argentina en el Mundial 2026",
+                "url": "https://www.infobae.com/deportes/2026/05/08/la-fifa-decreto-amnistia-para-los-jugadores-suspendidos-y-nicolas-otamendi-podra-estar-presente-en-el-debut-de-argentina-en-el-mundial/",
+                "source": "Infobae"
+              },
+              {
+                "title": "Moisés Caicedo y la alegría por jugar en el debut del Mundial: \"Dejar la vida contra Costa de Marfil\"",
+                "url": "https://www.ole.com.ar/ecuador/mundial-2026/moises-caicedo-mensaje-alegria-jugar-debut-mundial-2026-ecuador-tri-dejar-vida-costa-marfil_0_U67WixKZdY.html",
+                "source": "Olé"
+              },
+              {
+                "title": "Bombazo: la Selección argentina podrá contar con una figura que iba a perderse el debut mundialista",
+                "url": "https://www.lmneuquen.com/deportes/bombazo-la-seleccion-argentina-podra-contar-una-figura-que-iba-perderse-el-debut-mundialista-n1237855",
+                "source": "LM Neuquén"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "fr": [
+      {
+        "query": "maillot psg 2027",
+        "score": 200,
+        "geos": [
+          "FR"
+        ],
+        "samples": [
+          {
+            "query": "maillot psg 2027",
+            "geo": "FR",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Le maillot domicile du PSG pour la saison 2026-2027 dévoilé",
+                "url": "https://www.lequipe.fr/Football/Actualites/Le-maillot-domicile-du-psg-pour-la-saison-2026-2027-devoile/1674366",
+                "source": "L&apos;Équipe"
+              },
+              {
+                "title": "«Déclaration d’amour à Paris et à ses supporters» : en images, découvrez le maillot domicile 2026-27 du PSG",
+                "url": "https://www.lefigaro.fr/sports/football/ligue-1/declaration-d-amour-a-paris-et-a-ses-supporters-le-psg-devoile-son-maillot-2026-27-20260509",
+                "source": "Le Figaro"
+              },
+              {
+                "title": "\"Un hommage à toutes les générations de supporters\": le nouveau maillot du PSG pour la saison 2026-2027 dévoilé",
+                "url": "https://rmcsport.bfmtv.com/football/clubs/paris-saint-germain/un-hommage-a-toutes-les-generations-de-supporters-le-nouveau-maillot-du-psg-pour-la-saison-2026-2027-devoile_AN-202605090049.html",
+                "source": "RMC Sport"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "de": [
+      {
+        "query": "panini wm 2026 sticker",
+        "score": 1000,
+        "geos": [
+          "DE"
+        ],
+        "samples": [
+          {
+            "query": "panini wm 2026 sticker",
+            "geo": "DE",
+            "language": "de",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "WM 2026: Panini stellt Marc-André ter Stegen statt Oliver Baumann ins deutsche Tor",
+                "url": "https://www.spiegel.de/sport/fussball/fussball-wm-2026-panini-stellt-marc-andre-ter-stegen-statt-oliver-baumann-ins-deutsche-tor-a-c94afc29-1759-434c-97af-eed5c084d4c1",
+                "source": "Spiegel"
+              },
+              {
+                "title": "ANZEIGE: WM 2026 – Diese Bundesliga-Stars gehen bei Panini durch die Decke",
+                "url": "https://sportbild.bild.de/partner/brandstory/anzeige-wm-2026-diese-bundesliga-stars-gehen-bei-panini-durch-die-decke-69df50d740aab24936cd1d65",
+                "source": "Sport Bild"
+              },
+              {
+                "title": "Fußball-WM: Das Panini-Album hat 980 (!) Sticker – diese 18 Deutschen sind dabei",
+                "url": "https://www.welt.de/sport/article69fd805a30e98e4ac324e176/fussball-wm-das-panini-album-hat-980-sticker-diese-18-deutschen-sind-dabei.html",
+                "source": "WELT"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "topic": "jonathan davis",
+      "type": "noticia",
+      "slugSuggestion": "jonathan-davis",
+      "language": "es",
+      "geos": [
+        "CL"
+      ],
+      "score": 2160,
+      "reason": "Google Trends daily CL con 2,000 búsquedas · 3 artículos noticiosos referenciando \"jonathan davis\"",
+      "proposedPath": "/noticias/jonathan-davis",
+      "evidence": [
+        {
+          "query": "jonathan davis",
+          "geo": "CL",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 2000,
+          "articles": [
+            {
+              "title": "Revisa las estaciones de Metro que funcionarán hasta más tarde este viernes por concierto de Korn",
+              "url": "https://www.biobiochile.cl/noticias/servicios/toma-nota/2026/05/08/revisa-las-estaciones-de-metro-que-funcionaran-hasta-mas-tarde-este-viernes-por-concierto-de-korn.shtml",
+              "source": "BioBioChile"
+            },
+            {
+              "title": "Bajista chileno de Korn celebra vistiendo la camiseta de Everton: \"Hoy se juega de local\"",
+              "url": "https://www.cooperativa.cl/noticias/magazine/musica/shows-en-vivo/bajista-chileno-de-korn-celebra-vistiendo-la-camiseta-de-everton-hoy/2026-05-08/155013.html",
+              "source": "Cooperativa.cl"
+            },
+            {
+              "title": "Korn en Chile 2026: conoce los horarios, cortes de calles y ampliación de Metro",
+              "url": "https://www.adnradio.cl/2026/05/06/korn-en-chile-2026-conoce-los-horarios-cortes-de-calles-y-ampliacion-de-metro/",
+              "source": "ADN Radio"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "otamendi",
+      "type": "noticia",
+      "slugSuggestion": "otamendi",
+      "language": "es",
+      "geos": [
+        "AR"
+      ],
+      "score": 780,
+      "reason": "Google Trends daily AR con 500 búsquedas · 3 artículos noticiosos referenciando \"otamendi\"",
+      "proposedPath": "/noticias/otamendi",
+      "evidence": [
+        {
+          "query": "otamendi",
+          "geo": "AR",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 500,
+          "articles": [
+            {
+              "title": "La FIFA decretó la amnistía para Nicolás Otamendi y podrá estar presente en el debut de Argentina en el Mundial 2026",
+              "url": "https://www.infobae.com/deportes/2026/05/08/la-fifa-decreto-amnistia-para-los-jugadores-suspendidos-y-nicolas-otamendi-podra-estar-presente-en-el-debut-de-argentina-en-el-mundial/",
+              "source": "Infobae"
+            },
+            {
+              "title": "Moisés Caicedo y la alegría por jugar en el debut del Mundial: \"Dejar la vida contra Costa de Marfil\"",
+              "url": "https://www.ole.com.ar/ecuador/mundial-2026/moises-caicedo-mensaje-alegria-jugar-debut-mundial-2026-ecuador-tri-dejar-vida-costa-marfil_0_U67WixKZdY.html",
+              "source": "Olé"
+            },
+            {
+              "title": "Bombazo: la Selección argentina podrá contar con una figura que iba a perderse el debut mundialista",
+              "url": "https://www.lmneuquen.com/deportes/bombazo-la-seleccion-argentina-podra-contar-una-figura-que-iba-perderse-el-debut-mundialista-n1237855",
+              "source": "LM Neuquén"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "maillot psg 2027",
+      "type": "noticia",
+      "slugSuggestion": "maillot-psg-2027",
+      "language": "fr",
+      "geos": [
+        "FR"
+      ],
+      "score": 240,
+      "reason": "Google Trends daily FR con 200 búsquedas · 3 artículos noticiosos referenciando \"maillot psg 2027\"",
+      "proposedPath": "/noticias/maillot-psg-2027",
+      "evidence": [
+        {
+          "query": "maillot psg 2027",
+          "geo": "FR",
+          "language": "fr",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Le maillot domicile du PSG pour la saison 2026-2027 dévoilé",
+              "url": "https://www.lequipe.fr/Football/Actualites/Le-maillot-domicile-du-psg-pour-la-saison-2026-2027-devoile/1674366",
+              "source": "L&apos;Équipe"
+            },
+            {
+              "title": "«Déclaration d’amour à Paris et à ses supporters» : en images, découvrez le maillot domicile 2026-27 du PSG",
+              "url": "https://www.lefigaro.fr/sports/football/ligue-1/declaration-d-amour-a-paris-et-a-ses-supporters-le-psg-devoile-son-maillot-2026-27-20260509",
+              "source": "Le Figaro"
+            },
+            {
+              "title": "\"Un hommage à toutes les générations de supporters\": le nouveau maillot du PSG pour la saison 2026-2027 dévoilé",
+              "url": "https://rmcsport.bfmtv.com/football/clubs/paris-saint-germain/un-hommage-a-toutes-les-generations-de-supporters-le-nouveau-maillot-du-psg-pour-la-saison-2026-2027-devoile_AN-202605090049.html",
+              "source": "RMC Sport"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alreadyCovered": [
+    {
+      "query": "panini wm 2026 sticker",
+      "matchUrl": "/coleccionismo/panini-mundial-2026"
+    }
+  ]
+}

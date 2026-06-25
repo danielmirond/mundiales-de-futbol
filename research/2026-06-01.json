@@ -1,0 +1,548 @@
+{
+  "generatedAt": "2026-06-01T12:17:52.362Z",
+  "date": "2026-06-01",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "brasil vs panama",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "Brasil goleó 6-2 a Panamá: video, goles y resumen del partido por amistoso internacional",
+          "url": "https://depor.com/futbol-internacional/brasil/donde-ver-panama-vs-brasil-en-vivo-en-que-canales-ver-gratis-rpc-tv-futbol-libre-tv-espn-disney-plus-sportv-amistoso-mundial-2026-video-noticia/",
+          "source": "Depor"
+        },
+        {
+          "title": "¿Cómo mirar Panamá vs. Brasil (2-6) por amistoso rumbo a la Copa Mundial FIFA 2026?",
+          "url": "https://gestion.pe/mix/sports/como-mirar-panama-vs-brasil-en-vivo-gratis-por-amistoso-a-la-copa-mundial-fifa-2026-horarios-y-canales-tv-en-directo-nnda-nnrt-noticia/",
+          "source": "Diario Gestión"
+        },
+        {
+          "title": "No se guardará nada: Carlo Ancelotti reveló el once titular para el amistoso ante Panamá",
+          "url": "https://rpp.pe/futbol/futbol-mundial/seleccion-de-brasil-carlo-ancelotti-revelo-el-once-titular-en-el-amistoso-ante-panama-mundial-2026-noticia-1690803",
+          "source": "RPP"
+        }
+      ]
+    },
+    {
+      "query": "mundial",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Nace la ley ‘anti-Arsenal’",
+          "url": "https://as.com/futbol/mundial/ley-anti-arsenal-en-el-mundial-f202605-n/",
+          "source": "Diario AS"
+        },
+        {
+          "title": "Las nuevas reglas de la FIFA para el Mundial 2026: cinco segundos para sacar de puerta o de banda, ojo a los cambios, VAR mejorado...",
+          "url": "https://www.marca.com/futbol/mundial/2026/05/31/nuevas-reglas-fifa-mundial-2026-cinco-segundos-sacar-puerta-banda-ojo-cambios-var-mejorado.html",
+          "source": "MARCA"
+        },
+        {
+          "title": "Se aprueba una nueva norma en los córners: no le gustará al Arsenal",
+          "url": "https://www.sport.es/es/noticias/futbol/aprueba-nueva-norma-corners-le-130872515",
+          "source": "SPORT"
+        }
+      ]
+    },
+    {
+      "query": "brasil vs panama",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Locura total en Maracaná: golazo escandaloso de Vinicius en el minuto 1",
+          "url": "https://as.com/futbol/videos/locura-total-en-maracana-golazo-escandaloso-de-vinicius-en-el-minuto-1-f202605-v/",
+          "source": "Diario AS"
+        },
+        {
+          "title": "6-2. Mira la goleada de Brasil ante Panamá previo al Mundial 2026",
+          "url": "https://www.larepublica.ec/blog/2026/06/01/6-2-mira-la-goleada-de-brasil-ante-panama-previo-al-mundial-2026/",
+          "source": "La República EC"
+        },
+        {
+          "title": "Brasil vs. Panamá EN VIVO. Partido Amistoso 2026 HOY",
+          "url": "https://www.mediotiempo.com/futbol/amistosos/donde-ver-brasil-vs-panama-horario-y-canal-partido-amistoso-hoy",
+          "source": "Mediotiempo"
+        }
+      ]
+    },
+    {
+      "query": "alemania vs",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Alemania entra en calor",
+          "url": "https://as.com/futbol/mundial/alemania-entra-en-calor-f202605-n/",
+          "source": "Diario AS"
+        },
+        {
+          "title": "(VIDEO) Ojo Ecuador: Alemania goleó a Finlandia antes del Mundial 2026",
+          "url": "https://studiofutbol.com.ec/2026/05/31/video-ojo-ecuador-alemania-goleo-a-finlandia-antes-del-mundial-2026/",
+          "source": "Studiofutbol"
+        },
+        {
+          "title": "Internacionales: triunfa con el gol de Florian Wirtz y el papel de Alisson Becker",
+          "url": "https://www.liverpoolfc.com/es/news/internationals-wins-florian-wirtz-scores-and-alisson-becker-features",
+          "source": "Liverpool FC"
+        }
+      ]
+    },
+    {
+      "query": "mundial 2026",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "El detalle de la habitación de Messi en el hotel de la selección argentina que causó furor en la previa al Mundial",
+          "url": "https://www.infobae.com/deportes/2026/06/01/el-detalle-de-la-habitacion-de-messi-en-el-hotel-de-la-seleccion-argentina-que-causo-furor-en-la-previa-al-mundial/",
+          "source": "Infobae"
+        },
+        {
+          "title": "La lista de la Selección Argentina para el Mundial, confirmada",
+          "url": "https://www.tycsports.com/seleccion-argentina/lista-seleccion-argentina-mundial-2026-id732704.html",
+          "source": "TyC Sports"
+        },
+        {
+          "title": "Mundial 2026, EN VIVO: la Selección Argentina, partidos amistosos y todo lo que tenés que saber previo al inicio de la Copa del Mundo",
+          "url": "https://www.clarin.com/deportes/mundial-2026-vivo-seleccion-argentina-partidos-amistosos-tenes-saber-previo-inicio-copa-mundo_0_T8XHA7Ujl3.html",
+          "source": "Clarin.com"
+        }
+      ]
+    },
+    {
+      "query": "world cup groups",
+      "geo": "GB",
+      "language": "en",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "World Cup 2026: a visual guide to the stadiums across the trio of host nations",
+          "url": "https://www.theguardian.com/football/2026/jun/01/world-cup-2026-stadium-guide",
+          "source": "The Guardian"
+        },
+        {
+          "title": "World Cup 2026 teams dissected: Squads, styles, star players and chances of success",
+          "url": "https://www.telegraph.co.uk/football/0/fifa-world-cup-2026-team-by-team-guide/",
+          "source": "The Telegraph"
+        },
+        {
+          "title": "World Cup 2026 groups: All 48 teams in the tournament",
+          "url": "https://www.usatoday.com/story/sports/soccer/worldcup/2026/05/28/world-cup-groups-2026-teams-full-list/90287726007/",
+          "source": "USA Today"
+        }
+      ]
+    },
+    {
+      "query": "coupe du monde 2026",
+      "geo": "MA",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Equipe de France : William Saliba est blessé !",
+          "url": "https://www.footmercato.net/a2726434742609074770-equipe-de-france-william-saliba-est-blesse",
+          "source": "Foot Mercato"
+        },
+        {
+          "title": "Grosse inquiétude autour de William Saliba, touché en finale de la Ligue des champions avec Arsenal face au PSG",
+          "url": "https://www.lequipe.fr/Football/Actualites/Grosse-inquietude-autour-de-william-saliba-touche-en-finale-de-la-ligue-des-champions-avec-arsenal-face-au-psg/1680827",
+          "source": "L&apos;Équipe"
+        },
+        {
+          "title": "Le meneur des Bleus manquera-t-il la Coupe du monde ? À la veille du tournoi, une mauvaise nouvelle risque d’ébranler l’un des joueurs clés de la France, grande favorite",
+          "url": "https://www.goal.com/fr/listes/le-meneur-des-bleus-manquera-t-il-la-coupe-du-monde-a-la-veille-du-tournoi-une-mauvaise-nouvelle-risque-d-ebranler-l-un-des-joueurs-cles-de-la-france-grande-favorite/blt392173cd206a9f94",
+          "source": "Goal.com"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "es": [
+      {
+        "query": "brasil vs panama",
+        "score": 980,
+        "geos": [
+          "PE",
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "brasil vs panama",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "Brasil goleó 6-2 a Panamá: video, goles y resumen del partido por amistoso internacional",
+                "url": "https://depor.com/futbol-internacional/brasil/donde-ver-panama-vs-brasil-en-vivo-en-que-canales-ver-gratis-rpc-tv-futbol-libre-tv-espn-disney-plus-sportv-amistoso-mundial-2026-video-noticia/",
+                "source": "Depor"
+              },
+              {
+                "title": "¿Cómo mirar Panamá vs. Brasil (2-6) por amistoso rumbo a la Copa Mundial FIFA 2026?",
+                "url": "https://gestion.pe/mix/sports/como-mirar-panama-vs-brasil-en-vivo-gratis-por-amistoso-a-la-copa-mundial-fifa-2026-horarios-y-canales-tv-en-directo-nnda-nnrt-noticia/",
+                "source": "Diario Gestión"
+              },
+              {
+                "title": "No se guardará nada: Carlo Ancelotti reveló el once titular para el amistoso ante Panamá",
+                "url": "https://rpp.pe/futbol/futbol-mundial/seleccion-de-brasil-carlo-ancelotti-revelo-el-once-titular-en-el-amistoso-ante-panama-mundial-2026-noticia-1690803",
+                "source": "RPP"
+              }
+            ]
+          },
+          {
+            "query": "brasil vs panama",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Locura total en Maracaná: golazo escandaloso de Vinicius en el minuto 1",
+                "url": "https://as.com/futbol/videos/locura-total-en-maracana-golazo-escandaloso-de-vinicius-en-el-minuto-1-f202605-v/",
+                "source": "Diario AS"
+              },
+              {
+                "title": "6-2. Mira la goleada de Brasil ante Panamá previo al Mundial 2026",
+                "url": "https://www.larepublica.ec/blog/2026/06/01/6-2-mira-la-goleada-de-brasil-ante-panama-previo-al-mundial-2026/",
+                "source": "La República EC"
+              },
+              {
+                "title": "Brasil vs. Panamá EN VIVO. Partido Amistoso 2026 HOY",
+                "url": "https://www.mediotiempo.com/futbol/amistosos/donde-ver-brasil-vs-panama-horario-y-canal-partido-amistoso-hoy",
+                "source": "Mediotiempo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "alemania vs",
+        "score": 160,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "alemania vs",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Alemania entra en calor",
+                "url": "https://as.com/futbol/mundial/alemania-entra-en-calor-f202605-n/",
+                "source": "Diario AS"
+              },
+              {
+                "title": "(VIDEO) Ojo Ecuador: Alemania goleó a Finlandia antes del Mundial 2026",
+                "url": "https://studiofutbol.com.ec/2026/05/31/video-ojo-ecuador-alemania-goleo-a-finlandia-antes-del-mundial-2026/",
+                "source": "Studiofutbol"
+              },
+              {
+                "title": "Internacionales: triunfa con el gol de Florian Wirtz y el papel de Alisson Becker",
+                "url": "https://www.liverpoolfc.com/es/news/internationals-wins-florian-wirtz-scores-and-alisson-becker-features",
+                "source": "Liverpool FC"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "mundial",
+        "score": 90,
+        "geos": [
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "mundial",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Nace la ley ‘anti-Arsenal’",
+                "url": "https://as.com/futbol/mundial/ley-anti-arsenal-en-el-mundial-f202605-n/",
+                "source": "Diario AS"
+              },
+              {
+                "title": "Las nuevas reglas de la FIFA para el Mundial 2026: cinco segundos para sacar de puerta o de banda, ojo a los cambios, VAR mejorado...",
+                "url": "https://www.marca.com/futbol/mundial/2026/05/31/nuevas-reglas-fifa-mundial-2026-cinco-segundos-sacar-puerta-banda-ojo-cambios-var-mejorado.html",
+                "source": "MARCA"
+              },
+              {
+                "title": "Se aprueba una nueva norma en los córners: no le gustará al Arsenal",
+                "url": "https://www.sport.es/es/noticias/futbol/aprueba-nueva-norma-corners-le-130872515",
+                "source": "SPORT"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "mundial 2026",
+        "score": 90,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "mundial 2026",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "El detalle de la habitación de Messi en el hotel de la selección argentina que causó furor en la previa al Mundial",
+                "url": "https://www.infobae.com/deportes/2026/06/01/el-detalle-de-la-habitacion-de-messi-en-el-hotel-de-la-seleccion-argentina-que-causo-furor-en-la-previa-al-mundial/",
+                "source": "Infobae"
+              },
+              {
+                "title": "La lista de la Selección Argentina para el Mundial, confirmada",
+                "url": "https://www.tycsports.com/seleccion-argentina/lista-seleccion-argentina-mundial-2026-id732704.html",
+                "source": "TyC Sports"
+              },
+              {
+                "title": "Mundial 2026, EN VIVO: la Selección Argentina, partidos amistosos y todo lo que tenés que saber previo al inicio de la Copa del Mundo",
+                "url": "https://www.clarin.com/deportes/mundial-2026-vivo-seleccion-argentina-partidos-amistosos-tenes-saber-previo-inicio-copa-mundo_0_T8XHA7Ujl3.html",
+                "source": "Clarin.com"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "en": [
+      {
+        "query": "world cup groups",
+        "score": 2200,
+        "geos": [
+          "GB"
+        ],
+        "samples": [
+          {
+            "query": "world cup groups",
+            "geo": "GB",
+            "language": "en",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "World Cup 2026: a visual guide to the stadiums across the trio of host nations",
+                "url": "https://www.theguardian.com/football/2026/jun/01/world-cup-2026-stadium-guide",
+                "source": "The Guardian"
+              },
+              {
+                "title": "World Cup 2026 teams dissected: Squads, styles, star players and chances of success",
+                "url": "https://www.telegraph.co.uk/football/0/fifa-world-cup-2026-team-by-team-guide/",
+                "source": "The Telegraph"
+              },
+              {
+                "title": "World Cup 2026 groups: All 48 teams in the tournament",
+                "url": "https://www.usatoday.com/story/sports/soccer/worldcup/2026/05/28/world-cup-groups-2026-teams-full-list/90287726007/",
+                "source": "USA Today"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "fr": [
+      {
+        "query": "coupe du monde 2026",
+        "score": 180,
+        "geos": [
+          "MA"
+        ],
+        "samples": [
+          {
+            "query": "coupe du monde 2026",
+            "geo": "MA",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Equipe de France : William Saliba est blessé !",
+                "url": "https://www.footmercato.net/a2726434742609074770-equipe-de-france-william-saliba-est-blesse",
+                "source": "Foot Mercato"
+              },
+              {
+                "title": "Grosse inquiétude autour de William Saliba, touché en finale de la Ligue des champions avec Arsenal face au PSG",
+                "url": "https://www.lequipe.fr/Football/Actualites/Grosse-inquietude-autour-de-william-saliba-touche-en-finale-de-la-ligue-des-champions-avec-arsenal-face-au-psg/1680827",
+                "source": "L&apos;Équipe"
+              },
+              {
+                "title": "Le meneur des Bleus manquera-t-il la Coupe du monde ? À la veille du tournoi, une mauvaise nouvelle risque d’ébranler l’un des joueurs clés de la France, grande favorite",
+                "url": "https://www.goal.com/fr/listes/le-meneur-des-bleus-manquera-t-il-la-coupe-du-monde-a-la-veille-du-tournoi-une-mauvaise-nouvelle-risque-d-ebranler-l-un-des-joueurs-cles-de-la-france-grande-favorite/blt392173cd206a9f94",
+                "source": "Goal.com"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "topic": "world cup groups",
+      "type": "noticia",
+      "slugSuggestion": "world-cup-groups",
+      "language": "en",
+      "geos": [
+        "GB"
+      ],
+      "score": 2640,
+      "reason": "Google Trends daily GB con 2,000 búsquedas · 3 artículos noticiosos referenciando \"world cup groups\"",
+      "proposedPath": "/noticias/world-cup-groups",
+      "evidence": [
+        {
+          "query": "world cup groups",
+          "geo": "GB",
+          "language": "en",
+          "source": "google-trends-daily",
+          "score": 2000,
+          "articles": [
+            {
+              "title": "World Cup 2026: a visual guide to the stadiums across the trio of host nations",
+              "url": "https://www.theguardian.com/football/2026/jun/01/world-cup-2026-stadium-guide",
+              "source": "The Guardian"
+            },
+            {
+              "title": "World Cup 2026 teams dissected: Squads, styles, star players and chances of success",
+              "url": "https://www.telegraph.co.uk/football/0/fifa-world-cup-2026-team-by-team-guide/",
+              "source": "The Telegraph"
+            },
+            {
+              "title": "World Cup 2026 groups: All 48 teams in the tournament",
+              "url": "https://www.usatoday.com/story/sports/soccer/worldcup/2026/05/28/world-cup-groups-2026-teams-full-list/90287726007/",
+              "source": "USA Today"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "brasil vs panama",
+      "type": "noticia",
+      "slugSuggestion": "brasil-vs-panama",
+      "language": "es",
+      "geos": [
+        "PE",
+        "EC"
+      ],
+      "score": 1176,
+      "reason": "Google Trends daily PE con 1,000 búsquedas · 3 artículos noticiosos referenciando \"brasil vs panama\"",
+      "proposedPath": "/noticias/brasil-vs-panama",
+      "evidence": [
+        {
+          "query": "brasil vs panama",
+          "geo": "PE",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 1000,
+          "articles": [
+            {
+              "title": "Brasil goleó 6-2 a Panamá: video, goles y resumen del partido por amistoso internacional",
+              "url": "https://depor.com/futbol-internacional/brasil/donde-ver-panama-vs-brasil-en-vivo-en-que-canales-ver-gratis-rpc-tv-futbol-libre-tv-espn-disney-plus-sportv-amistoso-mundial-2026-video-noticia/",
+              "source": "Depor"
+            },
+            {
+              "title": "¿Cómo mirar Panamá vs. Brasil (2-6) por amistoso rumbo a la Copa Mundial FIFA 2026?",
+              "url": "https://gestion.pe/mix/sports/como-mirar-panama-vs-brasil-en-vivo-gratis-por-amistoso-a-la-copa-mundial-fifa-2026-horarios-y-canales-tv-en-directo-nnda-nnrt-noticia/",
+              "source": "Diario Gestión"
+            },
+            {
+              "title": "No se guardará nada: Carlo Ancelotti reveló el once titular para el amistoso ante Panamá",
+              "url": "https://rpp.pe/futbol/futbol-mundial/seleccion-de-brasil-carlo-ancelotti-revelo-el-once-titular-en-el-amistoso-ante-panama-mundial-2026-noticia-1690803",
+              "source": "RPP"
+            }
+          ]
+        },
+        {
+          "query": "brasil vs panama",
+          "geo": "EC",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 100,
+          "articles": [
+            {
+              "title": "Locura total en Maracaná: golazo escandaloso de Vinicius en el minuto 1",
+              "url": "https://as.com/futbol/videos/locura-total-en-maracana-golazo-escandaloso-de-vinicius-en-el-minuto-1-f202605-v/",
+              "source": "Diario AS"
+            },
+            {
+              "title": "6-2. Mira la goleada de Brasil ante Panamá previo al Mundial 2026",
+              "url": "https://www.larepublica.ec/blog/2026/06/01/6-2-mira-la-goleada-de-brasil-ante-panama-previo-al-mundial-2026/",
+              "source": "La República EC"
+            },
+            {
+              "title": "Brasil vs. Panamá EN VIVO. Partido Amistoso 2026 HOY",
+              "url": "https://www.mediotiempo.com/futbol/amistosos/donde-ver-brasil-vs-panama-horario-y-canal-partido-amistoso-hoy",
+              "source": "Mediotiempo"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alreadyCovered": [
+    {
+      "query": "mundial",
+      "matchUrl": "/coleccionismo/panini-mundial-2026"
+    },
+    {
+      "query": "alemania vs",
+      "matchUrl": "/ediciones/1974-alemania"
+    },
+    {
+      "query": "mundial 2026",
+      "matchUrl": "/coleccionismo/panini-mundial-2026"
+    },
+    {
+      "query": "coupe du monde 2026",
+      "matchUrl": "/coleccionismo/panini-mundial-2026"
+    }
+  ]
+}

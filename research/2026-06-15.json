@@ -1,0 +1,1324 @@
+{
+  "generatedAt": "2026-06-15T12:49:30.240Z",
+  "date": "2026-06-15",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "partidos del mundial para hoy",
+      "geo": "CO",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 20000,
+      "articles": [
+        {
+          "title": "Mundial 2026: ¿qué partidos se juegan hoy, 14 de junio? Horarios y enfrentamientos",
+          "url": "https://cnnespanol.cnn.com/2026/06/14/deportes/mundial-2026-partidos-14-junio-orix",
+          "source": "CNN en Español"
+        },
+        {
+          "title": "Estreno mundialista para Ecuador y Alemania",
+          "url": "https://elmeridiano.co/sucre/deportes/estreno-mundialista-para-ecuador-y-alemania-ljoe26",
+          "source": "El Meridiano"
+        },
+        {
+          "title": "Mundial 2026: asi se juega la jornada del 14 de junio, con el debut, con los debuts de Alemania y Países Bajos",
+          "url": "https://www.portafolio.co/internacional/mundial-2026-asi-se-juega-la-jornada-del-14-de-junio-con-el-debut-con-los-debuts-de-alemania-y-paises-bajos-496173",
+          "source": "Portafolio.co"
+        }
+      ]
+    },
+    {
+      "query": "yasin ayari",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Sweden vs Tunisia LIVE: FIFA World Cup 2026 Group F radio, score, commentary & updates",
+          "url": "https://www.bbc.com/sport/football/live/cq61ldqg3yqt",
+          "source": "BBC"
+        },
+        {
+          "title": "&apos;Yasin &apos;Bangers Only&apos; Ayari!&apos; 🔥 - Maurice Edu",
+          "url": "https://www.foxsports.com/watch-vertical/fmc-flv5g7hei84wsvtx",
+          "source": "FOX Sports"
+        },
+        {
+          "title": "Sweden vs Tunisia – Prediction, Where to Watch, Kick-off Time and Lineups 15-06",
+          "url": "https://oddsscanner.com/predictions/football/sweden-x-tunisia-15-06-2026",
+          "source": "Odds Scanner"
+        }
+      ]
+    },
+    {
+      "query": "argentina vs argelia",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Argentina en el Mundial 2026, en directo: última hora hoy, 14 de junio | Messi, Julián Alvarez, Nico Paz...",
+          "url": "https://as.com/futbol/mundial/argentina-en-el-mundial-2026-en-directo-ultima-hora-hoy-14-de-junio-messi-julian-alvarez-nico-paz-f202606-d/",
+          "source": "Diario AS"
+        },
+        {
+          "title": "Argentina. El porqué volverá a ser Messi y 10 más la noche del debut frente a Argelia",
+          "url": "https://www.lavoz.com.ar/deportes/volvera-messi-10-noche-debut-frente-argelia_0_ja0hCYgTJn.html",
+          "source": "La Voz del Interior"
+        },
+        {
+          "title": "Historial de la Selección Argentina vs. Argelia: quién ganó más y enfrentamientos",
+          "url": "https://www.tycsports.com/seleccion-argentina/historial-seleccion-argentina-argelia-id736264.html",
+          "source": "TyC Sports"
+        }
+      ]
+    },
+    {
+      "query": "suecia vs tunez",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 20000,
+      "articles": [
+        {
+          "title": "Dos golazos y una disculpa",
+          "url": "https://as.com/futbol/mundial/dos-golazos-y-una-disculpa-f202606-n/",
+          "source": "Diario AS"
+        },
+        {
+          "title": "Suecia golea a Túnez y salta al primer lugar del Grupo F",
+          "url": "https://cnnespanol.cnn.com/2026/06/15/deportes/deportes-mundial-suecia-tunez-efe",
+          "source": "CNN en Español"
+        },
+        {
+          "title": "[En Vivo] Suecia vs. Túnez por el Grupo F del Mundial 2026",
+          "url": "https://www.eluniverso.com/deportes/futbol/en-vivo-suecia-vs-tunez-por-el-grupo-nota/",
+          "source": "El Universo"
+        }
+      ]
+    },
+    {
+      "query": "uruguay vs",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "Mundial 2026: Uruguay debuta hoy a las 19:00 con Arabia Saudita. ¿Por dónde verlo?",
+          "url": "https://www.montevideo.com.uy/Deportes/Mundial-2026-Uruguay-debuta-hoy-a-las-19-00-con-Arabia-Saudita--Por-donde-verlo--uc965191",
+          "source": "Montevideo Portal"
+        },
+        {
+          "title": "Bielsa se sintió \"responsable\" de las lesiones y aseguró: \"No me necesitan para saber cómo vamos a formar\"",
+          "url": "https://www.elpais.com.uy/ovacion/mundial/marcelo-bielsa-en-vivo-la-conferencia-previo-al-debut-de-uruguay-en-el-mundial-2026-frente-a-arabia-saudita",
+          "source": "EL PAÍS Uruguay"
+        },
+        {
+          "title": "Uruguay hace su estreno mundialista",
+          "url": "https://www.eltelegrafo.com/2026/06/uruguay-hace-su-estreno-mundialista/",
+          "source": "El Telégrafo"
+        }
+      ]
+    },
+    {
+      "query": "yasin ayari",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "How And Where To Watch: Sweden vs Tunisia in Group F of the 2026 FIFA World Cup",
+          "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/how-and-where-to-watch-sweden-vs-tunisia-in-group-f-of-the-2026-fifa-world-cup-2026-06-14",
+          "source": "beIN SPORTS"
+        },
+        {
+          "title": "2026 Fifa World Cup: Rekik Etches His Name in Tunisian History with Landmark World Cup Strike",
+          "url": "https://en.africatopsports.com/2026-fifa-world-cup-rekik-etches-his-name-in-tunisian-history-with-landmark-world-cup-strike/",
+          "source": "Africa Top Sports"
+        },
+        {
+          "title": "Sweden&apos;s Yasin Ayari shows respect for father&apos;s native country after World Cup goal vs. Tunisia",
+          "url": "https://infonews.ca/news/7705940/swedens-yasin-ayari-shows-respect-for-fathers-native-country-after-world-cup-goal-vs-tunisia/",
+          "source": "iNFOnews.ca"
+        }
+      ]
+    },
+    {
+      "query": "suecia vs",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 10000,
+      "articles": [
+        {
+          "title": "Dos golazos y una disculpa",
+          "url": "https://as.com/futbol/mundial/dos-golazos-y-una-disculpa-f202606-n/",
+          "source": "Diario AS"
+        },
+        {
+          "title": "Mundial 2026: Suecia le pasó por arriba a Túnez y lo goleó 5-1 en su debut en Monterrey",
+          "url": "https://www.montevideo.com.uy/Deportes/Mundial-2026-Suecia-le-paso-por-arriba-a-Tunez-y-lo-goleo-5-1-en-su-debut-en-Monterrey-uc965195",
+          "source": "Montevideo Portal"
+        },
+        {
+          "title": "Suecia golea a Túnez y salta al primer lugar del Grupo F",
+          "url": "https://cnnespanol.cnn.com/2026/06/15/deportes/deportes-mundial-suecia-tunez-efe",
+          "source": "CNN en Español"
+        }
+      ]
+    },
+    {
+      "query": "amad diallo",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Ivory Coast 1-0 Ecuador: Amad Diallo scores 90th-minute World Cup winner",
+          "url": "https://www.bbc.com/sport/football/live/c78ydgjxyvnt",
+          "source": "BBC"
+        },
+        {
+          "title": "2026 Fifa World Cup: Amad Diallo’s Historic Strike Ends 20-Year Wait for Match-Winning Substitute Heroics",
+          "url": "https://en.africatopsports.com/2026-fifa-world-cup-amad-diallos-historic-strike-ends-20-year-wait-for-match-winning-substitute-heroics/",
+          "source": "Africa Top Sports"
+        },
+        {
+          "title": "Ecuador&apos;s unbeaten run comes to an end in World Cup opener",
+          "url": "https://middle-east-online.com/en/ecuadors-unbeaten-run-comes-end-world-cup-opener",
+          "source": "Middle East Online"
+        }
+      ]
+    },
+    {
+      "query": "jogo do brasil sexta",
+      "geo": "BR",
+      "language": "pt",
+      "source": "google-trends-daily",
+      "score": 20000,
+      "articles": [
+        {
+          "title": "Haiti: tudo sobre o próximo adversário da Seleção brasileira na Copa do Mundo",
+          "url": "https://www.bbc.com/portuguese/articles/cly7nv9ed78o",
+          "source": "BBC"
+        },
+        {
+          "title": "Próximo jogo do Brasil na Copa do Mundo 2026: data, horário e onde assistir",
+          "url": "https://oglobo.globo.com/esportes/selecao-brasileira/noticia/2026/06/15/proximo-jogo-do-brasil-na-copa-do-mundo-2026-data-horario-e-onde-assistir.ghtml",
+          "source": "O GLOBO"
+        },
+        {
+          "title": "Ancelotti tem razão? Como foram as estreias de todas as seleções campeãs da Copa do Mundo",
+          "url": "https://www.espn.com.br/futebol/selecao-brasileira/artigo/_/id/16839579/ancelotti-razao-como-foram-estreias-todas-selecoes-campeas-copa-do-mundo",
+          "source": "ESPN Brasil"
+        }
+      ]
+    },
+    {
+      "query": "spain vs cabo verde world cup 2026",
+      "geo": "BR",
+      "language": "pt",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "World Cup first-timers Cape Verde v Spain preview",
+          "url": "https://www.bbc.com/pidgin/articles/cjwg2qwe1ggo",
+          "source": "BBC"
+        },
+        {
+          "title": "Spain vs Cape Verde Prediction: World Cup 2026 Match Preview",
+          "url": "https://theanalyst.com/articles/spain-vs-cape-verde-prediction-world-cup-2026-match-preview",
+          "source": "Opta Analyst"
+        },
+        {
+          "title": "Who is the referee for Spain vs Cape Verde?",
+          "url": "https://www.fourfourtwo.com/competition/who-is-the-referee-for-spain-vs-cape-verde",
+          "source": "FourFourTwo"
+        }
+      ]
+    },
+    {
+      "query": "sabri lamouchi",
+      "geo": "GB",
+      "language": "en",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "World Cup boss, 54, &apos;SACKED&apos; after just one game of tournament as fans call it &apos;the worst possible idea&apos;",
+          "url": "https://www.thesun.co.uk/sport/39418518/world-cup-boss-sacked-one-game/",
+          "source": "The Sun"
+        },
+        {
+          "title": "First resignation at the World Cup",
+          "url": "https://nashaniva.com/en/397661",
+          "source": "Наша Ніва"
+        },
+        {
+          "title": "World Cup 2026: Tunisia boss Sabri Lamouchi on the verge of being sacked after Sweden disaster",
+          "url": "https://www.sportsmole.co.uk/football/tunisia/world-cup-2026/news/tunisia-boss-sabri-lamouchi-on-the-verge-of-being-sacked-during-world-cup-2026-after-sweden-disaster_599279.html",
+          "source": "Sports Mole"
+        }
+      ]
+    },
+    {
+      "query": "mia julia",
+      "geo": "DE",
+      "language": "de",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "WM 2026: Plötzlich lief nach unserem Sieg ein Mia-Julia-Hit im Stadion",
+          "url": "https://www.bild.de/sport/fussball/wm-2026-ploetzlich-lief-nach-unserem-sieg-ein-mia-julia-hit-im-stadion-6a2f18949f9fa742725f198e",
+          "source": "BILD"
+        },
+        {
+          "title": "Gewusst? Daher kennen sich Mia Julia und Lukas Podolski",
+          "url": "https://www.promiflash.de/news/2026/06/14/gewusst-daher-kennen-sich-mia-julia-und-lukas-podolski.html",
+          "source": "Promiflash"
+        }
+      ]
+    },
+    {
+      "query": "spagna capo verde",
+      "geo": "IT",
+      "language": "it",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "Le probabili formazioni di Spagna-Capo Verde: la decisione su Lamine Yamal",
+          "url": "https://sport.sky.it/calcio/mondiali/2026/06/15/spagna-capo-verde-probabili-formazioni-mondiali-2026",
+          "source": "Sky Sport"
+        },
+        {
+          "title": "Le partite di oggi ai Mondiali 2026: il debutto di Spagna e Belgio",
+          "url": "https://www.corriere.it/sport/calcio/mondiali/26_giugno_15/spagna-belgio-partite-oggi-mondiali-7ad3d11a-e60d-4eeb-88c9-5f46f7f96xlk.shtml",
+          "source": "Corriere della Sera"
+        },
+        {
+          "title": "Spagna, le ultime verso Capo Verde: dubbio tra Porro e Llorente. Olmo in rimonta su Baena",
+          "url": "https://www.gazzetta.it/calcio/fantanews/15-06-2026/spagna-le-ultime-verso-capo-verde-dubbio-tra-porro-e-llorente-olmo-in-rimonta-su-baena.shtml",
+          "source": "La Gazzetta dello Sport"
+        }
+      ]
+    },
+    {
+      "query": "espanha vs cabo verde",
+      "geo": "PT",
+      "language": "pt",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "Copa do Mundo hoje: veja jogos e horários do dia 15/06",
+          "url": "https://ge.globo.com/futebol/copa-do-mundo/noticia/2026/06/15/copa-do-mundo-hoje-veja-jogos-e-horarios-do-dia-1506.ghtml",
+          "source": "ge"
+        },
+        {
+          "title": "Espanha x Cabo Verde: data, hora, antevisão e favoritos no jogo do Mundial 2026",
+          "url": "https://www.dazn.com/pt-PT/news/futebol/espanha-x-cabo-verde-data-hora-antevisao-e-favoritos-no-jogo-do-mundial-2026/15fga2327mdi01ognwzm0iaxnb",
+          "source": "DAZN"
+        },
+        {
+          "title": "\"Cabo Verde pode ser uma das surpresas deste Mundial\", acredita selecionador da Espanha",
+          "url": "https://sapo.pt/artigo/cabo-verde-pode-ser-uma-das-surpresas-deste-mundial-acredita-selecionador-da-espanha-6a2fbf2d434934ab04b62796",
+          "source": "SAPO"
+        }
+      ]
+    },
+    {
+      "query": "sabri lamouchi",
+      "geo": "MA",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "First resignation at the World Cup",
+          "url": "https://nashaniva.com/en/397661",
+          "source": "Наша Ніва"
+        },
+        {
+          "title": "World Cup boss, 54, &apos;SACKED&apos; after just one game of tournament as fans call it &apos;the worst possible idea&apos;",
+          "url": "https://www.thesun.co.uk/sport/39418518/world-cup-boss-sacked-one-game/",
+          "source": "The Sun"
+        },
+        {
+          "title": "2026 FIFA World Cup: Tunisia fire coach Sabri Lamouchi after Sweden hammering",
+          "url": "https://en.africatopsports.com/2026-fifa-world-cup-tunisia-fire-coach-sabri-lamouchi-after-sweden-hammering/",
+          "source": "Africa Top Sports"
+        }
+      ]
+    },
+    {
+      "query": "egypte vs belgique",
+      "geo": "MA",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "CdM 2026, Belgique : les mots forts de Rudi Garcia avant d’affronter l’Égypte",
+          "url": "https://www.footmercato.net/a3588351905216758560-cdm-2026-belgique-les-mots-forts-de-rudi-garcia-avant-daffronter-legypte",
+          "source": "Foot Mercato"
+        },
+        {
+          "title": "Belgique - Égypte : à quelle heure et sur quelle chaîne regarder le match de la Coupe du Monde 2026 en direct ?",
+          "url": "https://rmcsport.bfmtv.com/football/coupe-du-monde/belgique-egypte-a-quelle-heure-et-sur-quelle-chaine-regarder-le-match-de-la-coupe-du-monde-2026-en-direct_AN-202606150011.html",
+          "source": "RMC Sport"
+        },
+        {
+          "title": "Entre la « Heiba Salah » et les contraintes du terrain, la centralité absolue est-elle devenue un frein technique pour les Pharaons ?",
+          "url": "https://www.goal.com/fr/listes/entre-la-heiba-salah-et-les-contraintes-du-terrain-la-centralite-absolue-est-elle-devenue-un-frein-technique-pour-les-pharaons/bltf620205cc1a2ac49",
+          "source": "Goal.com"
+        }
+      ]
+    },
+    {
+      "query": "resultat coupe du monde 2026",
+      "geo": "MA",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Mondial 2026 : avant de défier le Maroc, l’Écosse lance son tournoi en battant Haïti",
+          "url": "https://medias24.com/2026/06/14/mondial-2026-avant-de-defier-le-maroc-lecosse-lance-son-tournoi-en-battant-haiti-1699815/",
+          "source": "Médias24"
+        },
+        {
+          "title": "Haïti 0-1 Écosse, Coupe du monde : match terminé",
+          "url": "https://www.lequipe.fr/Football/match-direct/coupe-du-monde/2026/haiti-ecosse-live/686915",
+          "source": "L&apos;Équipe"
+        },
+        {
+          "title": "Vidéo : un policier surprend les fans de la Coupe du monde avec un geste impressionnant",
+          "url": "https://www.goal.com/fr/news/video-un-policier-surprend-les-fans-de-la-coupe-du-monde-avec-un-geste-impressionnant/blt1e142223ed162a5c",
+          "source": "Goal.com"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "es": [
+      {
+        "query": "partidos del mundial para hoy",
+        "score": 20000,
+        "geos": [
+          "CO"
+        ],
+        "samples": [
+          {
+            "query": "partidos del mundial para hoy",
+            "geo": "CO",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 20000,
+            "articles": [
+              {
+                "title": "Mundial 2026: ¿qué partidos se juegan hoy, 14 de junio? Horarios y enfrentamientos",
+                "url": "https://cnnespanol.cnn.com/2026/06/14/deportes/mundial-2026-partidos-14-junio-orix",
+                "source": "CNN en Español"
+              },
+              {
+                "title": "Estreno mundialista para Ecuador y Alemania",
+                "url": "https://elmeridiano.co/sucre/deportes/estreno-mundialista-para-ecuador-y-alemania-ljoe26",
+                "source": "El Meridiano"
+              },
+              {
+                "title": "Mundial 2026: asi se juega la jornada del 14 de junio, con el debut, con los debuts de Alemania y Países Bajos",
+                "url": "https://www.portafolio.co/internacional/mundial-2026-asi-se-juega-la-jornada-del-14-de-junio-con-el-debut-con-los-debuts-de-alemania-y-paises-bajos-496173",
+                "source": "Portafolio.co"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "suecia vs tunez",
+        "score": 16000,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "suecia vs tunez",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 20000,
+            "articles": [
+              {
+                "title": "Dos golazos y una disculpa",
+                "url": "https://as.com/futbol/mundial/dos-golazos-y-una-disculpa-f202606-n/",
+                "source": "Diario AS"
+              },
+              {
+                "title": "Suecia golea a Túnez y salta al primer lugar del Grupo F",
+                "url": "https://cnnespanol.cnn.com/2026/06/15/deportes/deportes-mundial-suecia-tunez-efe",
+                "source": "CNN en Español"
+              },
+              {
+                "title": "[En Vivo] Suecia vs. Túnez por el Grupo F del Mundial 2026",
+                "url": "https://www.eluniverso.com/deportes/futbol/en-vivo-suecia-vs-tunez-por-el-grupo-nota/",
+                "source": "El Universo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "suecia vs",
+        "score": 9000,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "suecia vs",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 10000,
+            "articles": [
+              {
+                "title": "Dos golazos y una disculpa",
+                "url": "https://as.com/futbol/mundial/dos-golazos-y-una-disculpa-f202606-n/",
+                "source": "Diario AS"
+              },
+              {
+                "title": "Mundial 2026: Suecia le pasó por arriba a Túnez y lo goleó 5-1 en su debut en Monterrey",
+                "url": "https://www.montevideo.com.uy/Deportes/Mundial-2026-Suecia-le-paso-por-arriba-a-Tunez-y-lo-goleo-5-1-en-su-debut-en-Monterrey-uc965195",
+                "source": "Montevideo Portal"
+              },
+              {
+                "title": "Suecia golea a Túnez y salta al primer lugar del Grupo F",
+                "url": "https://cnnespanol.cnn.com/2026/06/15/deportes/deportes-mundial-suecia-tunez-efe",
+                "source": "CNN en Español"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "uruguay vs",
+        "score": 1800,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "uruguay vs",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "Mundial 2026: Uruguay debuta hoy a las 19:00 con Arabia Saudita. ¿Por dónde verlo?",
+                "url": "https://www.montevideo.com.uy/Deportes/Mundial-2026-Uruguay-debuta-hoy-a-las-19-00-con-Arabia-Saudita--Por-donde-verlo--uc965191",
+                "source": "Montevideo Portal"
+              },
+              {
+                "title": "Bielsa se sintió \"responsable\" de las lesiones y aseguró: \"No me necesitan para saber cómo vamos a formar\"",
+                "url": "https://www.elpais.com.uy/ovacion/mundial/marcelo-bielsa-en-vivo-la-conferencia-previo-al-debut-de-uruguay-en-el-mundial-2026-frente-a-arabia-saudita",
+                "source": "EL PAÍS Uruguay"
+              },
+              {
+                "title": "Uruguay hace su estreno mundialista",
+                "url": "https://www.eltelegrafo.com/2026/06/uruguay-hace-su-estreno-mundialista/",
+                "source": "El Telégrafo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "yasin ayari",
+        "score": 1300,
+        "geos": [
+          "EC",
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "yasin ayari",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Sweden vs Tunisia LIVE: FIFA World Cup 2026 Group F radio, score, commentary & updates",
+                "url": "https://www.bbc.com/sport/football/live/cq61ldqg3yqt",
+                "source": "BBC"
+              },
+              {
+                "title": "&apos;Yasin &apos;Bangers Only&apos; Ayari!&apos; 🔥 - Maurice Edu",
+                "url": "https://www.foxsports.com/watch-vertical/fmc-flv5g7hei84wsvtx",
+                "source": "FOX Sports"
+              },
+              {
+                "title": "Sweden vs Tunisia – Prediction, Where to Watch, Kick-off Time and Lineups 15-06",
+                "url": "https://oddsscanner.com/predictions/football/sweden-x-tunisia-15-06-2026",
+                "source": "Odds Scanner"
+              }
+            ]
+          },
+          {
+            "query": "yasin ayari",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "How And Where To Watch: Sweden vs Tunisia in Group F of the 2026 FIFA World Cup",
+                "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/how-and-where-to-watch-sweden-vs-tunisia-in-group-f-of-the-2026-fifa-world-cup-2026-06-14",
+                "source": "beIN SPORTS"
+              },
+              {
+                "title": "2026 Fifa World Cup: Rekik Etches His Name in Tunisian History with Landmark World Cup Strike",
+                "url": "https://en.africatopsports.com/2026-fifa-world-cup-rekik-etches-his-name-in-tunisian-history-with-landmark-world-cup-strike/",
+                "source": "Africa Top Sports"
+              },
+              {
+                "title": "Sweden&apos;s Yasin Ayari shows respect for father&apos;s native country after World Cup goal vs. Tunisia",
+                "url": "https://infonews.ca/news/7705940/swedens-yasin-ayari-shows-respect-for-fathers-native-country-after-world-cup-goal-vs-tunisia/",
+                "source": "iNFOnews.ca"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "amad diallo",
+        "score": 180,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "amad diallo",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Ivory Coast 1-0 Ecuador: Amad Diallo scores 90th-minute World Cup winner",
+                "url": "https://www.bbc.com/sport/football/live/c78ydgjxyvnt",
+                "source": "BBC"
+              },
+              {
+                "title": "2026 Fifa World Cup: Amad Diallo’s Historic Strike Ends 20-Year Wait for Match-Winning Substitute Heroics",
+                "url": "https://en.africatopsports.com/2026-fifa-world-cup-amad-diallos-historic-strike-ends-20-year-wait-for-match-winning-substitute-heroics/",
+                "source": "Africa Top Sports"
+              },
+              {
+                "title": "Ecuador&apos;s unbeaten run comes to an end in World Cup opener",
+                "url": "https://middle-east-online.com/en/ecuadors-unbeaten-run-comes-end-world-cup-opener",
+                "source": "Middle East Online"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "argentina vs argelia",
+        "score": 160,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "argentina vs argelia",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Argentina en el Mundial 2026, en directo: última hora hoy, 14 de junio | Messi, Julián Alvarez, Nico Paz...",
+                "url": "https://as.com/futbol/mundial/argentina-en-el-mundial-2026-en-directo-ultima-hora-hoy-14-de-junio-messi-julian-alvarez-nico-paz-f202606-d/",
+                "source": "Diario AS"
+              },
+              {
+                "title": "Argentina. El porqué volverá a ser Messi y 10 más la noche del debut frente a Argelia",
+                "url": "https://www.lavoz.com.ar/deportes/volvera-messi-10-noche-debut-frente-argelia_0_ja0hCYgTJn.html",
+                "source": "La Voz del Interior"
+              },
+              {
+                "title": "Historial de la Selección Argentina vs. Argelia: quién ganó más y enfrentamientos",
+                "url": "https://www.tycsports.com/seleccion-argentina/historial-seleccion-argentina-argelia-id736264.html",
+                "source": "TyC Sports"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "pt": [
+      {
+        "query": "jogo do brasil sexta",
+        "score": 26000,
+        "geos": [
+          "BR"
+        ],
+        "samples": [
+          {
+            "query": "jogo do brasil sexta",
+            "geo": "BR",
+            "language": "pt",
+            "source": "google-trends-daily",
+            "score": 20000,
+            "articles": [
+              {
+                "title": "Haiti: tudo sobre o próximo adversário da Seleção brasileira na Copa do Mundo",
+                "url": "https://www.bbc.com/portuguese/articles/cly7nv9ed78o",
+                "source": "BBC"
+              },
+              {
+                "title": "Próximo jogo do Brasil na Copa do Mundo 2026: data, horário e onde assistir",
+                "url": "https://oglobo.globo.com/esportes/selecao-brasileira/noticia/2026/06/15/proximo-jogo-do-brasil-na-copa-do-mundo-2026-data-horario-e-onde-assistir.ghtml",
+                "source": "O GLOBO"
+              },
+              {
+                "title": "Ancelotti tem razão? Como foram as estreias de todas as seleções campeãs da Copa do Mundo",
+                "url": "https://www.espn.com.br/futebol/selecao-brasileira/artigo/_/id/16839579/ancelotti-razao-como-foram-estreias-todas-selecoes-campeas-copa-do-mundo",
+                "source": "ESPN Brasil"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "espanha vs cabo verde",
+        "score": 2000,
+        "geos": [
+          "PT"
+        ],
+        "samples": [
+          {
+            "query": "espanha vs cabo verde",
+            "geo": "PT",
+            "language": "pt",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "Copa do Mundo hoje: veja jogos e horários do dia 15/06",
+                "url": "https://ge.globo.com/futebol/copa-do-mundo/noticia/2026/06/15/copa-do-mundo-hoje-veja-jogos-e-horarios-do-dia-1506.ghtml",
+                "source": "ge"
+              },
+              {
+                "title": "Espanha x Cabo Verde: data, hora, antevisão e favoritos no jogo do Mundial 2026",
+                "url": "https://www.dazn.com/pt-PT/news/futebol/espanha-x-cabo-verde-data-hora-antevisao-e-favoritos-no-jogo-do-mundial-2026/15fga2327mdi01ognwzm0iaxnb",
+                "source": "DAZN"
+              },
+              {
+                "title": "\"Cabo Verde pode ser uma das surpresas deste Mundial\", acredita selecionador da Espanha",
+                "url": "https://sapo.pt/artigo/cabo-verde-pode-ser-uma-das-surpresas-deste-mundial-acredita-selecionador-da-espanha-6a2fbf2d434934ab04b62796",
+                "source": "SAPO"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "spain vs cabo verde world cup 2026",
+        "score": 1300,
+        "geos": [
+          "BR"
+        ],
+        "samples": [
+          {
+            "query": "spain vs cabo verde world cup 2026",
+            "geo": "BR",
+            "language": "pt",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "World Cup first-timers Cape Verde v Spain preview",
+                "url": "https://www.bbc.com/pidgin/articles/cjwg2qwe1ggo",
+                "source": "BBC"
+              },
+              {
+                "title": "Spain vs Cape Verde Prediction: World Cup 2026 Match Preview",
+                "url": "https://theanalyst.com/articles/spain-vs-cape-verde-prediction-world-cup-2026-match-preview",
+                "source": "Opta Analyst"
+              },
+              {
+                "title": "Who is the referee for Spain vs Cape Verde?",
+                "url": "https://www.fourfourtwo.com/competition/who-is-the-referee-for-spain-vs-cape-verde",
+                "source": "FourFourTwo"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "en": [
+      {
+        "query": "sabri lamouchi",
+        "score": 550,
+        "geos": [
+          "GB"
+        ],
+        "samples": [
+          {
+            "query": "sabri lamouchi",
+            "geo": "GB",
+            "language": "en",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "World Cup boss, 54, &apos;SACKED&apos; after just one game of tournament as fans call it &apos;the worst possible idea&apos;",
+                "url": "https://www.thesun.co.uk/sport/39418518/world-cup-boss-sacked-one-game/",
+                "source": "The Sun"
+              },
+              {
+                "title": "First resignation at the World Cup",
+                "url": "https://nashaniva.com/en/397661",
+                "source": "Наша Ніва"
+              },
+              {
+                "title": "World Cup 2026: Tunisia boss Sabri Lamouchi on the verge of being sacked after Sweden disaster",
+                "url": "https://www.sportsmole.co.uk/football/tunisia/world-cup-2026/news/tunisia-boss-sabri-lamouchi-on-the-verge-of-being-sacked-during-world-cup-2026-after-sweden-disaster_599279.html",
+                "source": "Sports Mole"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "de": [
+      {
+        "query": "mia julia",
+        "score": 200,
+        "geos": [
+          "DE"
+        ],
+        "samples": [
+          {
+            "query": "mia julia",
+            "geo": "DE",
+            "language": "de",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "WM 2026: Plötzlich lief nach unserem Sieg ein Mia-Julia-Hit im Stadion",
+                "url": "https://www.bild.de/sport/fussball/wm-2026-ploetzlich-lief-nach-unserem-sieg-ein-mia-julia-hit-im-stadion-6a2f18949f9fa742725f198e",
+                "source": "BILD"
+              },
+              {
+                "title": "Gewusst? Daher kennen sich Mia Julia und Lukas Podolski",
+                "url": "https://www.promiflash.de/news/2026/06/14/gewusst-daher-kennen-sich-mia-julia-und-lukas-podolski.html",
+                "source": "Promiflash"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "it": [
+      {
+        "query": "spagna capo verde",
+        "score": 900,
+        "geos": [
+          "IT"
+        ],
+        "samples": [
+          {
+            "query": "spagna capo verde",
+            "geo": "IT",
+            "language": "it",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "Le probabili formazioni di Spagna-Capo Verde: la decisione su Lamine Yamal",
+                "url": "https://sport.sky.it/calcio/mondiali/2026/06/15/spagna-capo-verde-probabili-formazioni-mondiali-2026",
+                "source": "Sky Sport"
+              },
+              {
+                "title": "Le partite di oggi ai Mondiali 2026: il debutto di Spagna e Belgio",
+                "url": "https://www.corriere.it/sport/calcio/mondiali/26_giugno_15/spagna-belgio-partite-oggi-mondiali-7ad3d11a-e60d-4eeb-88c9-5f46f7f96xlk.shtml",
+                "source": "Corriere della Sera"
+              },
+              {
+                "title": "Spagna, le ultime verso Capo Verde: dubbio tra Porro e Llorente. Olmo in rimonta su Baena",
+                "url": "https://www.gazzetta.it/calcio/fantanews/15-06-2026/spagna-le-ultime-verso-capo-verde-dubbio-tra-porro-e-llorente-olmo-in-rimonta-su-baena.shtml",
+                "source": "La Gazzetta dello Sport"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "fr": [
+      {
+        "query": "resultat coupe du monde 2026",
+        "score": 180,
+        "geos": [
+          "MA"
+        ],
+        "samples": [
+          {
+            "query": "resultat coupe du monde 2026",
+            "geo": "MA",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Mondial 2026 : avant de défier le Maroc, l’Écosse lance son tournoi en battant Haïti",
+                "url": "https://medias24.com/2026/06/14/mondial-2026-avant-de-defier-le-maroc-lecosse-lance-son-tournoi-en-battant-haiti-1699815/",
+                "source": "Médias24"
+              },
+              {
+                "title": "Haïti 0-1 Écosse, Coupe du monde : match terminé",
+                "url": "https://www.lequipe.fr/Football/match-direct/coupe-du-monde/2026/haiti-ecosse-live/686915",
+                "source": "L&apos;Équipe"
+              },
+              {
+                "title": "Vidéo : un policier surprend les fans de la Coupe du monde avec un geste impressionnant",
+                "url": "https://www.goal.com/fr/news/video-un-policier-surprend-les-fans-de-la-coupe-du-monde-avec-un-geste-impressionnant/blt1e142223ed162a5c",
+                "source": "Goal.com"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "sabri lamouchi",
+        "score": 90,
+        "geos": [
+          "MA"
+        ],
+        "samples": [
+          {
+            "query": "sabri lamouchi",
+            "geo": "MA",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "First resignation at the World Cup",
+                "url": "https://nashaniva.com/en/397661",
+                "source": "Наша Ніва"
+              },
+              {
+                "title": "World Cup boss, 54, &apos;SACKED&apos; after just one game of tournament as fans call it &apos;the worst possible idea&apos;",
+                "url": "https://www.thesun.co.uk/sport/39418518/world-cup-boss-sacked-one-game/",
+                "source": "The Sun"
+              },
+              {
+                "title": "2026 FIFA World Cup: Tunisia fire coach Sabri Lamouchi after Sweden hammering",
+                "url": "https://en.africatopsports.com/2026-fifa-world-cup-tunisia-fire-coach-sabri-lamouchi-after-sweden-hammering/",
+                "source": "Africa Top Sports"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "egypte vs belgique",
+        "score": 90,
+        "geos": [
+          "MA"
+        ],
+        "samples": [
+          {
+            "query": "egypte vs belgique",
+            "geo": "MA",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "CdM 2026, Belgique : les mots forts de Rudi Garcia avant d’affronter l’Égypte",
+                "url": "https://www.footmercato.net/a3588351905216758560-cdm-2026-belgique-les-mots-forts-de-rudi-garcia-avant-daffronter-legypte",
+                "source": "Foot Mercato"
+              },
+              {
+                "title": "Belgique - Égypte : à quelle heure et sur quelle chaîne regarder le match de la Coupe du Monde 2026 en direct ?",
+                "url": "https://rmcsport.bfmtv.com/football/coupe-du-monde/belgique-egypte-a-quelle-heure-et-sur-quelle-chaine-regarder-le-match-de-la-coupe-du-monde-2026-en-direct_AN-202606150011.html",
+                "source": "RMC Sport"
+              },
+              {
+                "title": "Entre la « Heiba Salah » et les contraintes du terrain, la centralité absolue est-elle devenue un frein technique pour les Pharaons ?",
+                "url": "https://www.goal.com/fr/listes/entre-la-heiba-salah-et-les-contraintes-du-terrain-la-centralite-absolue-est-elle-devenue-un-frein-technique-pour-les-pharaons/bltf620205cc1a2ac49",
+                "source": "Goal.com"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "topic": "jogo do brasil sexta",
+      "type": "noticia",
+      "slugSuggestion": "jogo-do-brasil-sexta",
+      "language": "pt",
+      "geos": [
+        "BR"
+      ],
+      "score": 31200,
+      "reason": "Google Trends daily BR con 20,000 búsquedas · 3 artículos noticiosos referenciando \"jogo do brasil sexta\"",
+      "proposedPath": "/noticias/jogo-do-brasil-sexta",
+      "evidence": [
+        {
+          "query": "jogo do brasil sexta",
+          "geo": "BR",
+          "language": "pt",
+          "source": "google-trends-daily",
+          "score": 20000,
+          "articles": [
+            {
+              "title": "Haiti: tudo sobre o próximo adversário da Seleção brasileira na Copa do Mundo",
+              "url": "https://www.bbc.com/portuguese/articles/cly7nv9ed78o",
+              "source": "BBC"
+            },
+            {
+              "title": "Próximo jogo do Brasil na Copa do Mundo 2026: data, horário e onde assistir",
+              "url": "https://oglobo.globo.com/esportes/selecao-brasileira/noticia/2026/06/15/proximo-jogo-do-brasil-na-copa-do-mundo-2026-data-horario-e-onde-assistir.ghtml",
+              "source": "O GLOBO"
+            },
+            {
+              "title": "Ancelotti tem razão? Como foram as estreias de todas as seleções campeãs da Copa do Mundo",
+              "url": "https://www.espn.com.br/futebol/selecao-brasileira/artigo/_/id/16839579/ancelotti-razao-como-foram-estreias-todas-selecoes-campeas-copa-do-mundo",
+              "source": "ESPN Brasil"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "yasin ayari",
+      "type": "noticia",
+      "slugSuggestion": "yasin-ayari",
+      "language": "es",
+      "geos": [
+        "EC",
+        "UY"
+      ],
+      "score": 1560,
+      "reason": "Google Trends daily EC con 500 búsquedas · 3 artículos noticiosos referenciando \"yasin ayari\"",
+      "proposedPath": "/noticias/yasin-ayari",
+      "evidence": [
+        {
+          "query": "yasin ayari",
+          "geo": "EC",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 500,
+          "articles": [
+            {
+              "title": "Sweden vs Tunisia LIVE: FIFA World Cup 2026 Group F radio, score, commentary & updates",
+              "url": "https://www.bbc.com/sport/football/live/cq61ldqg3yqt",
+              "source": "BBC"
+            },
+            {
+              "title": "&apos;Yasin &apos;Bangers Only&apos; Ayari!&apos; 🔥 - Maurice Edu",
+              "url": "https://www.foxsports.com/watch-vertical/fmc-flv5g7hei84wsvtx",
+              "source": "FOX Sports"
+            },
+            {
+              "title": "Sweden vs Tunisia – Prediction, Where to Watch, Kick-off Time and Lineups 15-06",
+              "url": "https://oddsscanner.com/predictions/football/sweden-x-tunisia-15-06-2026",
+              "source": "Odds Scanner"
+            }
+          ]
+        },
+        {
+          "query": "yasin ayari",
+          "geo": "UY",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 1000,
+          "articles": [
+            {
+              "title": "How And Where To Watch: Sweden vs Tunisia in Group F of the 2026 FIFA World Cup",
+              "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/how-and-where-to-watch-sweden-vs-tunisia-in-group-f-of-the-2026-fifa-world-cup-2026-06-14",
+              "source": "beIN SPORTS"
+            },
+            {
+              "title": "2026 Fifa World Cup: Rekik Etches His Name in Tunisian History with Landmark World Cup Strike",
+              "url": "https://en.africatopsports.com/2026-fifa-world-cup-rekik-etches-his-name-in-tunisian-history-with-landmark-world-cup-strike/",
+              "source": "Africa Top Sports"
+            },
+            {
+              "title": "Sweden&apos;s Yasin Ayari shows respect for father&apos;s native country after World Cup goal vs. Tunisia",
+              "url": "https://infonews.ca/news/7705940/swedens-yasin-ayari-shows-respect-for-fathers-native-country-after-world-cup-goal-vs-tunisia/",
+              "source": "iNFOnews.ca"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "spagna capo verde",
+      "type": "noticia",
+      "slugSuggestion": "spagna-capo-verde",
+      "language": "it",
+      "geos": [
+        "IT"
+      ],
+      "score": 1080,
+      "reason": "Google Trends daily IT con 1,000 búsquedas · 3 artículos noticiosos referenciando \"spagna capo verde\"",
+      "proposedPath": "/noticias/spagna-capo-verde",
+      "evidence": [
+        {
+          "query": "spagna capo verde",
+          "geo": "IT",
+          "language": "it",
+          "source": "google-trends-daily",
+          "score": 1000,
+          "articles": [
+            {
+              "title": "Le probabili formazioni di Spagna-Capo Verde: la decisione su Lamine Yamal",
+              "url": "https://sport.sky.it/calcio/mondiali/2026/06/15/spagna-capo-verde-probabili-formazioni-mondiali-2026",
+              "source": "Sky Sport"
+            },
+            {
+              "title": "Le partite di oggi ai Mondiali 2026: il debutto di Spagna e Belgio",
+              "url": "https://www.corriere.it/sport/calcio/mondiali/26_giugno_15/spagna-belgio-partite-oggi-mondiali-7ad3d11a-e60d-4eeb-88c9-5f46f7f96xlk.shtml",
+              "source": "Corriere della Sera"
+            },
+            {
+              "title": "Spagna, le ultime verso Capo Verde: dubbio tra Porro e Llorente. Olmo in rimonta su Baena",
+              "url": "https://www.gazzetta.it/calcio/fantanews/15-06-2026/spagna-le-ultime-verso-capo-verde-dubbio-tra-porro-e-llorente-olmo-in-rimonta-su-baena.shtml",
+              "source": "La Gazzetta dello Sport"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "sabri lamouchi",
+      "type": "noticia",
+      "slugSuggestion": "sabri-lamouchi",
+      "language": "en",
+      "geos": [
+        "GB"
+      ],
+      "score": 660,
+      "reason": "Google Trends daily GB con 500 búsquedas · 3 artículos noticiosos referenciando \"sabri lamouchi\"",
+      "proposedPath": "/noticias/sabri-lamouchi",
+      "evidence": [
+        {
+          "query": "sabri lamouchi",
+          "geo": "GB",
+          "language": "en",
+          "source": "google-trends-daily",
+          "score": 500,
+          "articles": [
+            {
+              "title": "World Cup boss, 54, &apos;SACKED&apos; after just one game of tournament as fans call it &apos;the worst possible idea&apos;",
+              "url": "https://www.thesun.co.uk/sport/39418518/world-cup-boss-sacked-one-game/",
+              "source": "The Sun"
+            },
+            {
+              "title": "First resignation at the World Cup",
+              "url": "https://nashaniva.com/en/397661",
+              "source": "Наша Ніва"
+            },
+            {
+              "title": "World Cup 2026: Tunisia boss Sabri Lamouchi on the verge of being sacked after Sweden disaster",
+              "url": "https://www.sportsmole.co.uk/football/tunisia/world-cup-2026/news/tunisia-boss-sabri-lamouchi-on-the-verge-of-being-sacked-during-world-cup-2026-after-sweden-disaster_599279.html",
+              "source": "Sports Mole"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "amad diallo",
+      "type": "noticia",
+      "slugSuggestion": "amad-diallo",
+      "language": "es",
+      "geos": [
+        "UY"
+      ],
+      "score": 216,
+      "reason": "Google Trends daily UY con 200 búsquedas · 3 artículos noticiosos referenciando \"amad diallo\"",
+      "proposedPath": "/noticias/amad-diallo",
+      "evidence": [
+        {
+          "query": "amad diallo",
+          "geo": "UY",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Ivory Coast 1-0 Ecuador: Amad Diallo scores 90th-minute World Cup winner",
+              "url": "https://www.bbc.com/sport/football/live/c78ydgjxyvnt",
+              "source": "BBC"
+            },
+            {
+              "title": "2026 Fifa World Cup: Amad Diallo’s Historic Strike Ends 20-Year Wait for Match-Winning Substitute Heroics",
+              "url": "https://en.africatopsports.com/2026-fifa-world-cup-amad-diallos-historic-strike-ends-20-year-wait-for-match-winning-substitute-heroics/",
+              "source": "Africa Top Sports"
+            },
+            {
+              "title": "Ecuador&apos;s unbeaten run comes to an end in World Cup opener",
+              "url": "https://middle-east-online.com/en/ecuadors-unbeaten-run-comes-end-world-cup-opener",
+              "source": "Middle East Online"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "sabri lamouchi",
+      "type": "noticia",
+      "slugSuggestion": "sabri-lamouchi",
+      "language": "fr",
+      "geos": [
+        "MA"
+      ],
+      "score": 108,
+      "reason": "Google Trends daily MA con 100 búsquedas · 3 artículos noticiosos referenciando \"sabri lamouchi\"",
+      "proposedPath": "/noticias/sabri-lamouchi",
+      "evidence": [
+        {
+          "query": "sabri lamouchi",
+          "geo": "MA",
+          "language": "fr",
+          "source": "google-trends-daily",
+          "score": 100,
+          "articles": [
+            {
+              "title": "First resignation at the World Cup",
+              "url": "https://nashaniva.com/en/397661",
+              "source": "Наша Ніва"
+            },
+            {
+              "title": "World Cup boss, 54, &apos;SACKED&apos; after just one game of tournament as fans call it &apos;the worst possible idea&apos;",
+              "url": "https://www.thesun.co.uk/sport/39418518/world-cup-boss-sacked-one-game/",
+              "source": "The Sun"
+            },
+            {
+              "title": "2026 FIFA World Cup: Tunisia fire coach Sabri Lamouchi after Sweden hammering",
+              "url": "https://en.africatopsports.com/2026-fifa-world-cup-tunisia-fire-coach-sabri-lamouchi-after-sweden-hammering/",
+              "source": "Africa Top Sports"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "egypte vs belgique",
+      "type": "noticia",
+      "slugSuggestion": "egypte-vs-belgique",
+      "language": "fr",
+      "geos": [
+        "MA"
+      ],
+      "score": 108,
+      "reason": "Google Trends daily MA con 100 búsquedas · 3 artículos noticiosos referenciando \"egypte vs belgique\"",
+      "proposedPath": "/noticias/egypte-vs-belgique",
+      "evidence": [
+        {
+          "query": "egypte vs belgique",
+          "geo": "MA",
+          "language": "fr",
+          "source": "google-trends-daily",
+          "score": 100,
+          "articles": [
+            {
+              "title": "CdM 2026, Belgique : les mots forts de Rudi Garcia avant d’affronter l’Égypte",
+              "url": "https://www.footmercato.net/a3588351905216758560-cdm-2026-belgique-les-mots-forts-de-rudi-garcia-avant-daffronter-legypte",
+              "source": "Foot Mercato"
+            },
+            {
+              "title": "Belgique - Égypte : à quelle heure et sur quelle chaîne regarder le match de la Coupe du Monde 2026 en direct ?",
+              "url": "https://rmcsport.bfmtv.com/football/coupe-du-monde/belgique-egypte-a-quelle-heure-et-sur-quelle-chaine-regarder-le-match-de-la-coupe-du-monde-2026-en-direct_AN-202606150011.html",
+              "source": "RMC Sport"
+            },
+            {
+              "title": "Entre la « Heiba Salah » et les contraintes du terrain, la centralité absolue est-elle devenue un frein technique pour les Pharaons ?",
+              "url": "https://www.goal.com/fr/listes/entre-la-heiba-salah-et-les-contraintes-du-terrain-la-centralite-absolue-est-elle-devenue-un-frein-technique-pour-les-pharaons/bltf620205cc1a2ac49",
+              "source": "Goal.com"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alreadyCovered": [
+    {
+      "query": "partidos del mundial para hoy",
+      "matchUrl": "/noticias/partidos-mundial-2026-hoy-2026-06-15"
+    },
+    {
+      "query": "argentina vs argelia",
+      "matchUrl": "/noticias/h2h-argentina-argelia-mundial-2026-grupo-j"
+    },
+    {
+      "query": "suecia vs tunez",
+      "matchUrl": "/noticias/h2h-suecia-tunez-mundial-2026-grupo-f"
+    },
+    {
+      "query": "uruguay vs",
+      "matchUrl": "/ediciones/1930-uruguay"
+    },
+    {
+      "query": "suecia vs",
+      "matchUrl": "/ediciones/1958-suecia"
+    },
+    {
+      "query": "spain vs cabo verde world cup 2026",
+      "matchUrl": "/noticias/h2h-espana-cabo-verde-mundial-2026-grupo-h"
+    },
+    {
+      "query": "mia julia",
+      "matchUrl": "/noticias/argentina-lesiones-pre-mundial-2026-messi-dibu-julian-alvarez-alerta-medica"
+    },
+    {
+      "query": "espanha vs cabo verde",
+      "matchUrl": "/noticias/h2h-espana-cabo-verde-mundial-2026-grupo-h"
+    },
+    {
+      "query": "resultat coupe du monde 2026",
+      "matchUrl": "/coleccionismo/panini-mundial-2026"
+    }
+  ]
+}

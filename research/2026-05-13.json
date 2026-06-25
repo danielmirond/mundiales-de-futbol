@@ -1,0 +1,192 @@
+{
+  "generatedAt": "2026-05-13T09:25:56.247Z",
+  "date": "2026-05-13",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "codigos album virtual mundial 2026",
+      "geo": "AR",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Álbum de figuritas del Mundial 2026: cuánto cuestan, qué contienen los sobres y las preguntas más buscadas",
+          "url": "https://www.lanacion.com.ar/deportes/futbol/album-de-figuritas-del-mundial-2026-cuanto-cuestan-que-contienen-los-sobres-y-las-preguntas-mas-nid09052026/",
+          "source": "La Nación"
+        },
+        {
+          "title": "Hay escasez de álbumes Panini en kioscos y en Google las búsquedas ya duplican a las de Milei",
+          "url": "https://www.perfil.com/noticias/sociedad/el-album-de-panini-genera-desabastecimiento-en-kioscos-y-el-volumen-de-busquedas-en-google-ya-duplica-el-interes-por-milei.phtml",
+          "source": "Perfil"
+        },
+        {
+          "title": "Diario de Cuyo sigue con la fiebre mundialista: este martes entrega figuritas gratis del álbum Panini 2026",
+          "url": "https://www.diariodecuyo.com.ar/pasion-deportiva/diario-cuyo-sigue-la-fiebre-mundialista-este-martes-entrega-figuritas-gratis-del-album-panini-2026-n6572785",
+          "source": "Diario de Cuyo"
+        }
+      ]
+    },
+    {
+      "query": "prelista uruguay",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "La decisión que tomó Marcelo Bielsa tras la sorpresiva candidatura de Luis Suárez para el Mundial 2026",
+          "url": "https://www.infobae.com/deportes/2026/05/12/la-decision-que-tomo-marcelo-bielsa-tras-la-sorpresiva-candidatura-de-luis-suarez-para-el-mundial-2026/",
+          "source": "Infobae"
+        },
+        {
+          "title": "Pese a rumores, Luis Suárez quedó fuera de la prelista de Uruguay y no estará en el Mundial 2026",
+          "url": "https://www.ole.com.ar/futbol-internacional/uruguay-luis-suarez-fuera-lista-seleccion-uruguay-lista-55_0_8RKW8s2v3r.html",
+          "source": "Olé"
+        },
+        {
+          "title": "Luis Suárez, fuera de la prelista de Bielsa para el Mundial 2026",
+          "url": "https://www.marca.com/futbol/mundial/2026/05/12/luis-suarez-fuera-prelista-bielsa-mundial-2026.html",
+          "source": "MARCA"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "es": [
+      {
+        "query": "codigos album virtual mundial 2026",
+        "score": 130,
+        "geos": [
+          "AR"
+        ],
+        "samples": [
+          {
+            "query": "codigos album virtual mundial 2026",
+            "geo": "AR",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Álbum de figuritas del Mundial 2026: cuánto cuestan, qué contienen los sobres y las preguntas más buscadas",
+                "url": "https://www.lanacion.com.ar/deportes/futbol/album-de-figuritas-del-mundial-2026-cuanto-cuestan-que-contienen-los-sobres-y-las-preguntas-mas-nid09052026/",
+                "source": "La Nación"
+              },
+              {
+                "title": "Hay escasez de álbumes Panini en kioscos y en Google las búsquedas ya duplican a las de Milei",
+                "url": "https://www.perfil.com/noticias/sociedad/el-album-de-panini-genera-desabastecimiento-en-kioscos-y-el-volumen-de-busquedas-en-google-ya-duplica-el-interes-por-milei.phtml",
+                "source": "Perfil"
+              },
+              {
+                "title": "Diario de Cuyo sigue con la fiebre mundialista: este martes entrega figuritas gratis del álbum Panini 2026",
+                "url": "https://www.diariodecuyo.com.ar/pasion-deportiva/diario-cuyo-sigue-la-fiebre-mundialista-este-martes-entrega-figuritas-gratis-del-album-panini-2026-n6572785",
+                "source": "Diario de Cuyo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "prelista uruguay",
+        "score": 90,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "prelista uruguay",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "La decisión que tomó Marcelo Bielsa tras la sorpresiva candidatura de Luis Suárez para el Mundial 2026",
+                "url": "https://www.infobae.com/deportes/2026/05/12/la-decision-que-tomo-marcelo-bielsa-tras-la-sorpresiva-candidatura-de-luis-suarez-para-el-mundial-2026/",
+                "source": "Infobae"
+              },
+              {
+                "title": "Pese a rumores, Luis Suárez quedó fuera de la prelista de Uruguay y no estará en el Mundial 2026",
+                "url": "https://www.ole.com.ar/futbol-internacional/uruguay-luis-suarez-fuera-lista-seleccion-uruguay-lista-55_0_8RKW8s2v3r.html",
+                "source": "Olé"
+              },
+              {
+                "title": "Luis Suárez, fuera de la prelista de Bielsa para el Mundial 2026",
+                "url": "https://www.marca.com/futbol/mundial/2026/05/12/luis-suarez-fuera-prelista-bielsa-mundial-2026.html",
+                "source": "MARCA"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "topic": "prelista uruguay",
+      "type": "noticia",
+      "slugSuggestion": "prelista-uruguay",
+      "language": "es",
+      "geos": [
+        "UY"
+      ],
+      "score": 108,
+      "reason": "Google Trends daily UY con 100 búsquedas · 3 artículos noticiosos referenciando \"prelista uruguay\"",
+      "proposedPath": "/noticias/prelista-uruguay",
+      "evidence": [
+        {
+          "query": "prelista uruguay",
+          "geo": "UY",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 100,
+          "articles": [
+            {
+              "title": "La decisión que tomó Marcelo Bielsa tras la sorpresiva candidatura de Luis Suárez para el Mundial 2026",
+              "url": "https://www.infobae.com/deportes/2026/05/12/la-decision-que-tomo-marcelo-bielsa-tras-la-sorpresiva-candidatura-de-luis-suarez-para-el-mundial-2026/",
+              "source": "Infobae"
+            },
+            {
+              "title": "Pese a rumores, Luis Suárez quedó fuera de la prelista de Uruguay y no estará en el Mundial 2026",
+              "url": "https://www.ole.com.ar/futbol-internacional/uruguay-luis-suarez-fuera-lista-seleccion-uruguay-lista-55_0_8RKW8s2v3r.html",
+              "source": "Olé"
+            },
+            {
+              "title": "Luis Suárez, fuera de la prelista de Bielsa para el Mundial 2026",
+              "url": "https://www.marca.com/futbol/mundial/2026/05/12/luis-suarez-fuera-prelista-bielsa-mundial-2026.html",
+              "source": "MARCA"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alreadyCovered": [
+    {
+      "query": "codigos album virtual mundial 2026",
+      "matchUrl": "/coleccionismo/panini-mundial-2026"
+    }
+  ]
+}

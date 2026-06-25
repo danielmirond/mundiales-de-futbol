@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { ArrowRight, Newspaper } from 'lucide-react';
-import { getLatestNews, relativeTimeEs, type NewsItem } from '@/lib/news';
+import { getLatestNews, relativeTimeEs, newsImageUrl, newsImageAlt, type NewsItem } from '@/lib/news';
 import { routing, type Locale } from '@/i18n/routing';
 
 const CATEGORY_LABELS: Record<NewsItem['category'], string> = {
@@ -15,7 +15,12 @@ const CATEGORY_LABELS: Record<NewsItem['category'], string> = {
   polemica: 'Polémica',
   tv: 'TV / Streaming',
   patrocinios: 'Patrocinios',
+  amistosos: 'Amistosos',
+  lesiones: 'Lesiones',
+  tecnico: 'Cuerpo técnico',
   general: 'General',
+  historica: 'Historia',
+  curiosa: 'Curiosidades',
 };
 
 function withLocale(locale: Locale, href: string) {
@@ -77,21 +82,31 @@ export function DailyNews({ locale }: { locale: Locale }) {
                 href={withLocale(locale, `/noticias/${n.slug}`)}
                 className="group flex h-full flex-col overflow-hidden rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg)] transition-colors hover:border-[var(--color-pitch)]/40 hover:bg-[var(--color-bg-2)]"
               >
-                {/* Imagen 16:9 con fallback a gradient verde de marca */}
-                <div className="relative aspect-[16/9] w-full overflow-hidden bg-gradient-to-br from-[var(--color-pitch)]/10 via-[var(--color-bg-2)] to-[var(--color-bg)]">
-                  {n.image ? (
-                    <Image
-                      src={n.image.url}
-                      alt={n.image.alt}
-                      fill
-                      sizes="(max-width: 640px) 85vw, (max-width: 1024px) 44vw, 32vw"
-                      className="object-cover transition-transform duration-500 group-hover:scale-105"
-                      unoptimized
-                    />
-                  ) : (
-                    <div className="absolute inset-0 grid-overlay opacity-30" />
-                  )}
-                  <span className="absolute left-3 top-3 rounded-full bg-[var(--color-pitch)] px-2.5 py-1 font-mono text-[9px] uppercase tracking-[0.3em] text-black">
+                {/* Imagen 16:9 con placeholder editorial cuando no hay foto */}
+                <div className="relative aspect-[16/9] w-full overflow-hidden bg-[var(--color-bg-2)]">
+                  {/* Placeholder siempre visible detrás */}
+                  <div
+                    className="absolute inset-0 flex flex-col items-center justify-center gap-1"
+                    style={{
+                      background: `linear-gradient(135deg, color-mix(in oklch, var(--color-pitch) 14%, var(--color-bg-2)), var(--color-bg-2))`,
+                    }}
+                  >
+                    <span className="font-mono text-[9px] uppercase tracking-[0.3em] text-[var(--color-pitch)] opacity-60">
+                      {CATEGORY_LABELS[n.category]}
+                    </span>
+                    <span className="font-display text-4xl font-semibold uppercase text-[var(--color-fg)] opacity-[0.05] leading-none text-center px-3 line-clamp-2">
+                      {n.title}
+                    </span>
+                  </div>
+                  <Image
+                    src={newsImageUrl(n)}
+                    alt={newsImageAlt(n)}
+                    fill
+                    sizes="(max-width: 640px) 85vw, (max-width: 1024px) 44vw, 32vw"
+                    className="object-cover transition-transform duration-500 group-hover:scale-105"
+                    unoptimized
+                  />
+                  <span className="absolute left-3 top-3 rounded-full bg-[var(--color-pitch)] px-2.5 py-1 font-mono text-[9px] uppercase tracking-[0.3em] text-black z-10">
                     {CATEGORY_LABELS[n.category]}
                   </span>
                 </div>

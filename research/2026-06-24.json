@@ -1,0 +1,2998 @@
+{
+  "generatedAt": "2026-06-24T09:58:00.202Z",
+  "date": "2026-06-24",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "bosnia vs qatar",
+      "geo": "US",
+      "language": "en",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Bosnia-Herzegovina continues its unlikely World Cup run in Seattle",
+          "url": "https://www.seattletimes.com/sports/world-cup/2026-world-cup-bosnia-herzegovina-continues-its-unlikely-run-in-seattle/",
+          "source": "The Seattle Times"
+        },
+        {
+          "title": "FIFA World Cup Group B LIVE: Bosnia-Herzegovina vs Qatar - build-up, team news & live text updates",
+          "url": "https://www.bbc.com/sport/football/live/c8j217p4exgt",
+          "source": "BBC"
+        },
+        {
+          "title": "Bosnia & Herzegovina vs. Qatar—World Cup: Preview, Predictions and Lineups",
+          "url": "https://www.si.com/soccer/bosnia-herzegovina-vs-qatar-world-cup-preview-predictions-lineups-6-24-26",
+          "source": "Sports Illustrated"
+        }
+      ]
+    },
+    {
+      "query": "canada vs suiza",
+      "geo": "MX",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Steve Nash muestra su apoyo a Canadá antes de su partido del Mundial ante Suiza",
+          "url": "https://es-us.noticias.yahoo.com/steve-nash-muestra-apoyo-canad%C3%A1-231353351.html",
+          "source": "Yahoo"
+        },
+        {
+          "title": "Cómo ver el partido entre Canadá y Suiza en el Mundial 2026",
+          "url": "https://www.telemundo51.com/deportes/copa-mundial-fifa/stream-tv-canada-vs-suiza-mundial-2026/2785709/",
+          "source": "Telemundo Miami (51)"
+        },
+        {
+          "title": "¿Podrá Nathan Saliba sustituir a Ismaël Koné? ¿Está listo Alphonso Davies? Jesse Marsch se enfrenta a su mayor reto hasta la fecha: cinco claves del Canadá-Suiza",
+          "url": "https://www.goal.com/es-mx/listados/podra-nathan-saliba-sustituir-a-ismael-kone-esta-listo-alphonso-davies-jesse-marsch-se-enfrenta-a-su-mayor-reto-hasta-la-fecha-cinco-claves-del-canada-suiza/bltb69b1f983be0a8c4",
+          "source": "Goal.com"
+        }
+      ]
+    },
+    {
+      "query": "fixture de mundial",
+      "geo": "MX",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Mundial 2026: Calendario de partidos del 20 al 27 de junio",
+          "url": "https://www.eleconomista.com.mx/mundial-2026/mundial-calendario-20-27-junio-20260622-819646.html",
+          "source": "El Economista"
+        },
+        {
+          "title": "Fixture del Mundial 2026",
+          "url": "https://es-us.noticias.yahoo.com/deportes/fixture-mundial-2026-110000717.html",
+          "source": "Yahoo"
+        },
+        {
+          "title": "Partidos de hoy sábado 20 de junio: Alemania y Países Bajos por su segundo juego del Mundial 2026",
+          "url": "https://www.tudn.com/mundial-2026/partidos-hoy-sabado-20-junio-de-2026-alemania-y-paises-bajos-por-su-segundo-juego-mundial-2026",
+          "source": "TUDN"
+        }
+      ]
+    },
+    {
+      "query": "cumpleaños de messi",
+      "geo": "MX",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "Mundial 2026, en vivo: los cambios en la formación a la espera de Jordania y el cumpleaños 39 de Lionel Messi",
+          "url": "https://es-us.noticias.yahoo.com/deportes/mundial-2026-vivo-cambios-formaci%C3%B3n-050000571.html",
+          "source": "Yahoo"
+        },
+        {
+          "title": "Messi cumple 39 años con una asombrosa eficacia goleadora",
+          "url": "https://www.marca.com/futbol/mundial/2026/06/24/messi-cumple-39-anos-asombrosa-eficacia-goleadora.html",
+          "source": "MARCA"
+        },
+        {
+          "title": "Un golpe de atrás, una pelea y una promesa: la historia detrás del primer cumpleaños que Messi pasó concentrado con la Selección",
+          "url": "https://www.infobae.com/deportes/2026/06/24/un-golpe-de-atras-una-pelea-y-una-promesa-la-historia-detras-del-primer-cumpleanos-que-messi-paso-concentrado-con-la-seleccion/",
+          "source": "Infobae"
+        }
+      ]
+    },
+    {
+      "query": "fifa world cup brackets",
+      "geo": "CA",
+      "language": "en",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "World Cup 2026 bracket and knockout fixtures - who&apos;s facing who in the last 32 and route to final",
+          "url": "https://www.skysports.com/football/news/11095/13556636/world-cup-2026-bracket-and-knockout-fixtures-whos-facing-who-in-the-last-32-and-route-to-final",
+          "source": "Sky Sports"
+        },
+        {
+          "title": "What all 48 World Cup teams have at stake",
+          "url": "https://www.natesilver.net/p/what-all-48-world-cup-teams-have",
+          "source": "Silver Bulletin"
+        },
+        {
+          "title": "Why every round-of-32 team will, won&apos;t win FIFA World Cup",
+          "url": "https://www.espn.com/soccer/story/_/id/49118437/fifa-world-cup-predictions-analysis-projections-usa-mexico-spain-brazil-england-argentina-germany-france",
+          "source": "ESPN"
+        }
+      ]
+    },
+    {
+      "query": "switzerland vs canada",
+      "geo": "CA",
+      "language": "en",
+      "source": "google-trends-daily",
+      "score": 5000,
+      "articles": [
+        {
+          "title": "5 big questions for Canada ahead of FIFA World Cup match versus Switzerland",
+          "url": "https://olympic.ca/2026/06/20/5-big-questions-for-canada-ahead-of-fifa-world-cup-match-versus-switzerland/",
+          "source": "Team Canada"
+        },
+        {
+          "title": "Canada searches for winning mindset against Switzerland, Alphonso Davies likely to see action",
+          "url": "https://www.theglobeandmail.com/sports/article-canada-switzerland-alphonso-davies-world-cup-2026-marsch/",
+          "source": "The Globe and Mail"
+        },
+        {
+          "title": "20 places to watch the Canada-Switzerland game in Vancouver",
+          "url": "https://www.vancouverisawesome.com/local-news/canada-switzerland-watch-parties-vancouver-world-cup-12462859",
+          "source": "Vancouver Is Awesome"
+        }
+      ]
+    },
+    {
+      "query": "copa mundial de fútbol",
+      "geo": "AR",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "Así serían los cruces de 16avos de final del Mundial 2026 si la fase de grupos terminara ahora",
+          "url": "https://cnnespanol.cnn.com/2026/06/22/deportes/cruces-16avos-final-mundial-2026-orix",
+          "source": "CNN en Español"
+        },
+        {
+          "title": "El mapa del Mundial 2026: resultados, 7 clasificados y así queda la llave",
+          "url": "https://www.ole.com.ar/mundial/mundial-2026/mundial-2026-clasificados-16-avos-cuadro-argentina_0_2FTvInDtMx.html",
+          "source": "Olé"
+        },
+        {
+          "title": "Tabla Posiciones Mundial 2026: resultados y el criterio de desempate en la fase de grupos",
+          "url": "https://www.tycsports.com/mundial/tabla-posiciones-mundial-2026-resultados-y-criterio-de-desempate-en-la-fase-de-grupos-id737344.html",
+          "source": "TyC Sports"
+        }
+      ]
+    },
+    {
+      "query": "posiciones de selección de fútbol de colombia contra selección de fútbol de la república democrática del congo",
+      "geo": "AR",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 20000,
+      "articles": [
+        {
+          "title": "Colombia vs DR Congo Highlights | 2026 FIFA World Cup™",
+          "url": "https://www.foxsports.com/watch/fmc-hh2pztd6aiz65i3a",
+          "source": "FOX Sports"
+        },
+        {
+          "title": "World Cup 2026: Colombia 1-0 DR Congo - Daniel Munoz strike sends South Americans into last 32 | Football News",
+          "url": "https://www.skysports.com/football/news/11095/13554944/world-cup-2026-colombia-1-0-dr-congo-daniel-munoz-strike-sends-south-americans-into-last-32",
+          "source": "Sky Sports"
+        },
+        {
+          "title": "Colombia 1-0 Congo DR (Jun 23, 2026) Game Analysis",
+          "url": "https://www.espn.com/soccer/report/_/gameId/760459",
+          "source": "ESPN"
+        }
+      ]
+    },
+    {
+      "query": "lionel mpasi",
+      "geo": "AR",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Coupe du Monde 2026 : La RDC de Chancel Mbemba et Ngal&apos;ayel Mukau (LOSC) s&apos;incline avant la dernière journée",
+          "url": "https://lepetitlillois.com/2026/06/24/coupe-du-monde-2026-la-rdc-de-chancel-mbemba-et-ngalayel-mukau-losc-sincline-avant-la-derniere-journee/",
+          "source": "Le Petit Lillois"
+        },
+        {
+          "title": "La Colombie se qualifie pour les seizièmes de finale après sa victoire face au Congo",
+          "url": "https://sana.sy/fr/sport/2313620/",
+          "source": "سانا"
+        },
+        {
+          "title": "CDM 2026 - Arthur Masuaku titulaire avec la RD Congo pour défier la Colombie",
+          "url": "https://madeinlensois.ouest-france.fr/infos/article-cdm-2026-arthur-masuaku-titulaire-avec-la-rd-congo-pour-defier-la-colombie-528608.html",
+          "source": "Ouest-France"
+        }
+      ]
+    },
+    {
+      "query": "como quedo el partido de colombia",
+      "geo": "CO",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 10000,
+      "articles": [
+        {
+          "title": "Mundial 2026: ¿qué partidos se juegan hoy, 23 de junio? Horarios y enfrentamientos",
+          "url": "https://cnnespanol.cnn.com/2026/06/23/deportes/mundial-2026-partidos-23-junio-orix",
+          "source": "CNN en Español"
+        },
+        {
+          "title": "Así quedó el grupo K tras el triunfo de Colombia",
+          "url": "https://www.winsports.co/seleccion-colombia/noticias/asi-quedo-el-grupo-k-tras-el-triunfo-de-colombia-441125",
+          "source": "Win Sports"
+        },
+        {
+          "title": "Partidos EN VIVO HOY 23 de junio del 2026: horarios y programación por TV",
+          "url": "https://www.noticiascaracol.com/golcaracol/partidos-en-vivo-hoy-23-de-junio-del-2026-horarios-y-programacion-por-tv-so35",
+          "source": "Noticias Caracol"
+        }
+      ]
+    },
+    {
+      "query": "suiza vs canada pronostico",
+      "geo": "CO",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Cómo ver el partido entre Canadá y Suiza en el Mundial 2026",
+          "url": "https://www.telemundo51.com/deportes/copa-mundial-fifa/stream-tv-canada-vs-suiza-mundial-2026/2785709/",
+          "source": "Telemundo Miami (51)"
+        },
+        {
+          "title": "Apuestas y Pronóstico del Suiza vs Canadá 24/06/26",
+          "url": "https://www.oddschecker.com/es/pronosticos/futbol/2026/junio/pronostico-suiza-vs-canada-24-06-26",
+          "source": "Oddschecker"
+        },
+        {
+          "title": "Cuándo juegan Suiza vs. Canadá por la tercera fecha de la fase de grupos del Mundial 2026: equipo, fecha, hora y TV en vivo",
+          "url": "https://www.espn.com.co/futbol/mundial/nota/_/id/16886123/suiza-vs-canada-fase-de-grupos-mundial-2026-equipo-fecha-hora-y-tv-en-vivo",
+          "source": "ESPN Colombia"
+        }
+      ]
+    },
+    {
+      "query": "grupo j",
+      "geo": "CO",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "¿Juega Messi? Scaloni planea cambios en el equipo de Argentina para enfrentar a Jordania en el Mundial 2026",
+          "url": "https://www.espn.com.co/futbol/mundial/nota/_/id/16891884/formacion-de-argentina-vs-jordania-fase-de-grupos-del-mundial-2026",
+          "source": "ESPN Colombia"
+        },
+        {
+          "title": "Argentina volvió a entrenarse tras el triunfo ante Austria: la formación inédita que evalúa Scaloni ante Jordania",
+          "url": "https://www.infobae.com/deportes/2026/06/23/argentina-volvio-a-entrenarse-tras-el-triunfo-ante-austria-la-formacion-inedita-que-evalua-scaloni-ante-jordania/",
+          "source": "Infobae"
+        },
+        {
+          "title": "El rival de Argentina en 16avos de final: los 11 escenarios posibles",
+          "url": "https://www.ole.com.ar/seleccion/argentina-seleccion-juega-rival-16avos-mundial-espana-cabo-verde-uruguay-arabia_0_qhwpvT8Oa1.html",
+          "source": "Olé"
+        }
+      ]
+    },
+    {
+      "query": "tabla de posiciones mundial 2026",
+      "geo": "CO",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 5000,
+      "articles": [
+        {
+          "title": "Así serían los cruces de 16avos de final del Mundial 2026 si la fase de grupos terminara ahora",
+          "url": "https://cnnespanol.cnn.com/2026/06/22/deportes/cruces-16avos-final-mundial-2026-orix",
+          "source": "CNN en Español"
+        },
+        {
+          "title": "Copa Mundial de la FIFA™ 2026: así está la tabla de posiciones",
+          "url": "https://www.winsports.co/futbol-internacional/noticias/copa-mundial-de-la-fifa-2026-asi-esta-la-tabla-de-posiciones-440679",
+          "source": "Win Sports"
+        },
+        {
+          "title": "Cuadro del Mundial 2026: clasificados, cruces y quién se enfrenta a quién en dieciseisavos de la Copa del Mund",
+          "url": "https://as.com/futbol/mundial/cuadro-del-mundial-2026-clasificados-cruces-y-quien-se-enfrenta-a-quien-en-dieciseisavos-de-la-copa-del-mundo-f202606-n/",
+          "source": "Diario AS"
+        }
+      ]
+    },
+    {
+      "query": "cuando vuelve a jugar colombia",
+      "geo": "CO",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "Grupo de Colombia en el Mundial 2026: rivales, fechas y partidos",
+          "url": "https://cnnespanol.cnn.com/2026/06/17/deportes/grupo-k-colombia-rivales-mundial-2026-orix",
+          "source": "CNN en Español"
+        },
+        {
+          "title": "Copa Mundial de la FIFA™: estos serían los cruces de dieciseisavos",
+          "url": "https://www.winsports.co/futbol-internacional/noticias/copa-mundial-de-la-fifa-estos-serian-los-cruces-de-dieciseisavos-440915",
+          "source": "Win Sports"
+        },
+        {
+          "title": "Mundial: Los posibles rivales de Colombia en 16vos de final",
+          "url": "https://www.espn.com.co/futbol/mundial/nota/_/id/16896516/mundial-2026-los-posibles-rivales-colombia-16vos-de-final",
+          "source": "ESPN Colombia"
+        }
+      ]
+    },
+    {
+      "query": "simulador mundial 2026",
+      "geo": "CO",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Así están los cruces de dieciseisavos tras la fecha 2 del Mundial 2026",
+          "url": "https://www.futbolred.com/mundial-2026/cruces-de-dieciseisavos-del-mundial-2026-asi-serian-los-partidos-tras-la-segunda-fecha-de-grupos-269365",
+          "source": "Futbolred"
+        },
+        {
+          "title": "Así serían los cruces de 16avos de final del Mundial 2026 si la fase de grupos terminara ahora",
+          "url": "https://es-us.noticias.yahoo.com/deportes/ser%C3%ADan-cruces-16avos-final-mundial-041515674.html",
+          "source": "Yahoo"
+        },
+        {
+          "title": "BBC tiene un simulador para revisar los posibles cruces del Mundial",
+          "url": "https://www.cooperativa.cl/noticias/deportes/mundial-2026/fase-grupal/bbc-tiene-un-simulador-para-revisar-los-posibles-cruces-del-mundial/2026-06-23/152720.html",
+          "source": "Cooperativa"
+        }
+      ]
+    },
+    {
+      "query": "posiciones de selección de fútbol de colombia contra selección de fútbol de la república democrática del congo",
+      "geo": "CL",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 10000,
+      "articles": [
+        {
+          "title": "Colombia vs DR Congo Highlights | 2026 FIFA World Cup™",
+          "url": "https://www.foxsports.com/watch/fmc-hh2pztd6aiz65i3a",
+          "source": "FOX Sports"
+        },
+        {
+          "title": "World Cup 2026: Colombia 1-0 DR Congo - Daniel Munoz strike sends South Americans into last 32 | Football News",
+          "url": "https://www.skysports.com/football/news/11095/13554944/world-cup-2026-colombia-1-0-dr-congo-daniel-munoz-strike-sends-south-americans-into-last-32",
+          "source": "Sky Sports"
+        },
+        {
+          "title": "Colombia 1-0 Congo DR (Jun 23, 2026) Game Analysis",
+          "url": "https://www.espn.com/soccer/report/_/gameId/760459",
+          "source": "ESPN"
+        }
+      ]
+    },
+    {
+      "query": "lumumba",
+      "geo": "CL",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Mundial: RD Congo recuperó a su hincha más famoso ante Colombia",
+          "url": "https://www.espn.cl/futbol/mundial/nota/_/id/16895493/mundial-rd-congo-recupero-a-su-hincha-mas-famoso-ante-colombia",
+          "source": "ESPN Chile"
+        },
+        {
+          "title": "\"Lumumba Vea\", el viral hincha-estatua de RD del Congo que acaparó las miradas en el Mundial",
+          "url": "https://www.cooperativa.cl/noticias/deportes/mundial-2026/fuera-de-la-cancha/lumumba-vea-el-viral-hincha-estatua-de-rd-del-congo-que-acaparo-las/2026-06-23/230846.html",
+          "source": "Cooperativa"
+        },
+        {
+          "title": "¿Quién es Lumumba? El hincha que no se mueve en partidos del Congo y que llegará al Mundial 2026",
+          "url": "https://www.chilevision.cl/chv-deportes/futbol-internacional/quien-es-lumumba-el-hincha-que-no-se-mueve-en-partidos-del-congo-y-que-llegara-al-mundial-2026/",
+          "source": "Chilevisión"
+        }
+      ]
+    },
+    {
+      "query": "grupo de colombia",
+      "geo": "CL",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Grupo de Colombia en el Mundial 2026: rivales, fechas y partidos",
+          "url": "https://cnnespanol.cnn.com/2026/06/17/deportes/grupo-k-colombia-rivales-mundial-2026-orix",
+          "source": "CNN en Español"
+        },
+        {
+          "title": "Mundial: Los posibles rivales de Colombia en 16vos de final",
+          "url": "https://www.espn.cl/futbol/mundial/nota/_/id/16896516/mundial-2026-los-posibles-rivales-colombia-16vos-de-final",
+          "source": "ESPN Chile"
+        },
+        {
+          "title": "Copa Mundial de la FIFA™: estos serían los cruces de dieciseisavos",
+          "url": "https://www.winsports.co/futbol-internacional/noticias/copa-mundial-de-la-fifa-estos-serian-los-cruces-de-dieciseisavos-440915",
+          "source": "Win Sports"
+        }
+      ]
+    },
+    {
+      "query": "lionel mpasi",
+      "geo": "CL",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Colombie 1-0 RD Congo, Coupe du monde : match terminé",
+          "url": "https://www.lequipe.fr/Football/match-direct/coupe-du-monde/2026/colombie-rd-congo-live/686965",
+          "source": "L&apos;Équipe"
+        },
+        {
+          "title": "CDM 2026 - Chancel Mbemba et Ngal&apos;ayel Mukau titulaires avec la RD Congo pour affronter la Colombie",
+          "url": "https://madeindogues.ouest-france.fr/infos/article-cdm-2026-chancel-mbemba-et-ngal-ayel-mukau-titulaires-avec-la-rd-congo-pour-affronter-la-colombie-528608.html",
+          "source": "MadeInDogues"
+        },
+        {
+          "title": "Classement de la Coupe du Monde 2026 aujourd&apos;hui (24 juin)",
+          "url": "https://www.vietnam.vn/fr/bang-xep-hang-world-cup-2026-hom-nay-24-6",
+          "source": "Vietnam.vn"
+        }
+      ]
+    },
+    {
+      "query": "partidos de mañana",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "Mundial 2026: ¿qué partidos se juegan hoy, 23 de junio? Horarios y enfrentamientos",
+          "url": "https://cnnespanol.cnn.com/2026/06/23/deportes/mundial-2026-partidos-23-junio-orix",
+          "source": "CNN en Español"
+        },
+        {
+          "title": "Mundial de fútbol 2026: Partidos y resultados de hoy, martes 23 de junio EN VIVO",
+          "url": "https://www.olympics.com/es/noticias/mundial-futbol-2026-partidos-martes-23-junio-en-vivo-hoy",
+          "source": "Olympics"
+        },
+        {
+          "title": "Mundial 2026, en VIVO: últimas noticias de hoy, 23 de junio, partidos, resultados, fixture y el minuto a minuto de la jornada",
+          "url": "https://www.infobae.com/deportes/2026/06/23/mundial-2026-en-vivo-ultimas-noticias-de-hoy-23-de-junio-partidos-resultados-fixture-y-el-minuto-a-minuto-de-la-jornada-2/",
+          "source": "Infobae"
+        }
+      ]
+    },
+    {
+      "query": "partidos de mañana mundial",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Partidos de hoy, miércoles 24 de junio, en el Mundial 2026: horarios, TV y cómo ver la Copa del Mundo",
+          "url": "https://as.com/futbol/mundial/partidos-de-hoy-miercoles-24-de-junio-en-el-mundial-2026-horarios-tv-y-como-ver-la-copa-del-mundo-f202606-n/",
+          "source": "Diario AS"
+        },
+        {
+          "title": "¡Jornada de definiciones! Mira los partidazos de este miércoles 24 en el Mundial",
+          "url": "https://ovacion.pe/noticias/mundial-2026/jornada-definiciones-mira-partidazos-este-miercoles-24-mundial",
+          "source": "ovacion.pe"
+        },
+        {
+          "title": "Partidos del miércoles 24 de junio de 2026: horarios y canales TV para ver EN VIVO Mundial 2026",
+          "url": "https://rpp.pe/futbol/futbol-mundial/partidos-de-hoy-mundial-fifa-2026-en-vivo-peru-miercoles-24-de-junio-2026-horarios-online-canales-tv-ver-futbol-en-vivo-noticia-1694303",
+          "source": "RPP"
+        }
+      ]
+    },
+    {
+      "query": "tabla mundial 2026",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Tabla de goleadores del Mundial 2026: Lionel Messi y cómo va la lista de máximos artilleros",
+          "url": "https://depor.com/futbol-internacional/mundial/tabla-de-goleadores-del-mundial-2026-en-vivo-lionel-messi-kylian-mbappe-erling-haaland-harry-kane-y-quienes-son-los-maximos-artilleros-copa-del-mundo-noticia/",
+          "source": "Depor"
+        },
+        {
+          "title": "Messi, Mbappé, Haaland: ¿A cuánto están del récord de Fontaine?",
+          "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16893761/messi-mbappe-haaland-record-mas-goles-en-un-mundial-cuantos-goles-faltan-fontaine",
+          "source": "ESPN Argentina"
+        },
+        {
+          "title": "Van a reventar el Mundial",
+          "url": "https://www.marca.com/futbol/mundial/2026/06/23/reventar-mundial.html",
+          "source": "MARCA"
+        }
+      ]
+    },
+    {
+      "query": "suiza vs canada",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Apuestas y Pronóstico del Suiza vs Canadá 24/06/26",
+          "url": "https://www.oddschecker.com/es/pronosticos/futbol/2026/junio/pronostico-suiza-vs-canada-24-06-26",
+          "source": "Oddschecker"
+        },
+        {
+          "title": "Canadá vs Suiza EN VIVO por Mundial 2026: a qué hora juegan y dónde ver",
+          "url": "https://www.americatv.com.pe/deportes/futbol-mundial/canada-vs-suiza-vivo-mundial-2026-que-hora-juegan-donde-ver-alineaciones-pronostico-y-transmision-online-directo-n454718",
+          "source": "América TV"
+        },
+        {
+          "title": "VERSUS: reembolso de hasta 20 euros por apostar en el Suiza vs Canadá",
+          "url": "https://legalbet.es/bonos/versus-reembolso-de-hasta-20-euros-por-apostar-en-el-suiza-vs-canada/",
+          "source": "legalbet.es"
+        }
+      ]
+    },
+    {
+      "query": "posiciones de selección de fútbol de colombia contra selección de fútbol de la república democrática del congo",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 20000,
+      "articles": [
+        {
+          "title": "Colombia vs DR Congo Highlights | 2026 FIFA World Cup™",
+          "url": "https://www.foxsports.com/watch/fmc-hh2pztd6aiz65i3a",
+          "source": "FOX Sports"
+        },
+        {
+          "title": "World Cup 2026: Colombia 1-0 DR Congo - Daniel Munoz strike sends South Americans into last 32 | Football News",
+          "url": "https://www.skysports.com/football/news/11095/13554944/world-cup-2026-colombia-1-0-dr-congo-daniel-munoz-strike-sends-south-americans-into-last-32",
+          "source": "Sky Sports"
+        },
+        {
+          "title": "Colombia 1-0 Congo DR (Jun 23, 2026) Game Analysis",
+          "url": "https://www.espn.com/soccer/report/_/gameId/760459",
+          "source": "ESPN"
+        }
+      ]
+    },
+    {
+      "query": "posiciones de selección de fútbol de colombia contra selección de fútbol de la república democrática del congo",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 10000,
+      "articles": [
+        {
+          "title": "Colombia vs DR Congo Highlights | 2026 FIFA World Cup™",
+          "url": "https://www.foxsports.com/watch/fmc-hh2pztd6aiz65i3a",
+          "source": "FOX Sports"
+        },
+        {
+          "title": "World Cup 2026: Colombia 1-0 DR Congo - Daniel Munoz strike sends South Americans into last 32 | Football News",
+          "url": "https://www.skysports.com/football/news/11095/13554944/world-cup-2026-colombia-1-0-dr-congo-daniel-munoz-strike-sends-south-americans-into-last-32",
+          "source": "Sky Sports"
+        },
+        {
+          "title": "Colombia 1-0 Congo DR (Jun 23, 2026) Game Analysis",
+          "url": "https://www.espn.com/soccer/report/_/gameId/760459",
+          "source": "ESPN"
+        }
+      ]
+    },
+    {
+      "query": "cumpleaños de messi",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Messi cumple 39 años con una asombrosa eficacia goleadora",
+          "url": "https://www.marca.com/futbol/mundial/2026/06/24/messi-cumple-39-anos-asombrosa-eficacia-goleadora.html",
+          "source": "MARCA"
+        },
+        {
+          "title": "El regalo de Messi en el Mundial 2026: cumple años jugando su última Copa del Mundo",
+          "url": "https://www.eluniverso.com/entretenimiento/gente/el-regalo-de-messi-en-el-mundial-2026-cumple-anos-jugando-su-ultima-copa-del-mundo-nota/",
+          "source": "El Universo"
+        },
+        {
+          "title": "¿Cuántos años cumple Messi este 24 de junio?",
+          "url": "https://www.expreso.ec/deportes/copa-mundial-de-futbol/cuantos-anos-lionel-messi-junio-286744.html",
+          "source": "expreso.ec"
+        }
+      ]
+    },
+    {
+      "query": "lionel mpasi",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "La Colombie se qualifie pour les seizièmes de finale après sa victoire face au Congo",
+          "url": "https://sana.sy/fr/sport/2313620/",
+          "source": "سانا"
+        },
+        {
+          "title": "Coupe du monde 2026 - Daniel Munoz, auteur du seul but de la rencontre Colombie-RD Congo, élu Homme du match",
+          "url": "https://starsporttv.be/fr/content/coupe-du-monde-2026-daniel-munoz-auteur-du-seul-but-de-la-rencontre-colombie-rd-congo-elu-homme-du-match",
+          "source": "Starsporttv"
+        },
+        {
+          "title": "CDM 2026 - Chancel Mbemba et Ngal&apos;ayel Mukau titulaires avec la RD Congo pour affronter la Colombie",
+          "url": "https://madeindogues.ouest-france.fr/infos/article-cdm-2026-chancel-mbemba-et-ngal-ayel-mukau-titulaires-avec-la-rd-congo-pour-affronter-la-colombie-528608.html",
+          "source": "MadeInDogues"
+        }
+      ]
+    },
+    {
+      "query": "colombia vs rd congo",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 50000,
+      "articles": [
+        {
+          "title": "Colombia vence 1-0 a RD Congo y se clasifica a 16avos del Mundial: resumen del 23 de junio de 2026",
+          "url": "https://cnnespanol.cnn.com/2026/06/23/deportes/live-news/resultado-colombia-congo-mundial-2026-orix",
+          "source": "CNN en Español"
+        },
+        {
+          "title": "GOL Caracol transmitió el partido Colombia 1-0 RD Congo por el Mundial 2026",
+          "url": "https://depor.com/futbol-internacional/mundial/gol-caracol-transmitio-el-partido-colombia-1-0-rd-congo-por-el-mundial-2026-nnda-nnrt-noticia/",
+          "source": "Depor"
+        },
+        {
+          "title": "Como ver Colombia vs RD Congo gratis en vivo: el Mundial 2026 desde cualquier lugar",
+          "url": "https://es.gizmodo.com/donde-ver-colombia-vs-rd-congo-gratis-y-en-vivo-desde-cualquier-lugar-2000242431",
+          "source": "Gizmodo en Español"
+        }
+      ]
+    },
+    {
+      "query": "posiciones de selección de fútbol de colombia contra selección de fútbol de la república democrática del congo",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "Colombia vs DR Congo Highlights | 2026 FIFA World Cup™",
+          "url": "https://www.foxsports.com/watch/fmc-hh2pztd6aiz65i3a",
+          "source": "FOX Sports"
+        },
+        {
+          "title": "World Cup 2026: Colombia 1-0 DR Congo - Daniel Munoz strike sends South Americans into last 32 | Football News",
+          "url": "https://www.skysports.com/football/news/11095/13554944/world-cup-2026-colombia-1-0-dr-congo-daniel-munoz-strike-sends-south-americans-into-last-32",
+          "source": "Sky Sports"
+        },
+        {
+          "title": "Colombia 1-0 Congo DR (Jun 23, 2026) Game Analysis",
+          "url": "https://www.espn.com/soccer/report/_/gameId/760459",
+          "source": "ESPN"
+        }
+      ]
+    },
+    {
+      "query": "colombia vs congo",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 5000,
+      "articles": [
+        {
+          "title": "Colombia ganó 1-0 y clasificó a la siguiente fase",
+          "url": "https://ladiaria.com.uy/deporte/articulo/2026/6/colombia-gano-1-0-y-clasifico-a-la-siguiente-fase/",
+          "source": "la diaria"
+        },
+        {
+          "title": "Colombia 1-0 RD Congo por el Mundial 2026: Daniel Muñoz le dio la victoria y clasificación a los colombianos",
+          "url": "https://www.elpais.com.uy/ovacion/mundial/colombia-vs-rd-congo-por-el-mundial-2026-en-vivo-los-cafeteros-buscan-el-triunfo-que-los-clasifique",
+          "source": "EL PAÍS Uruguay"
+        },
+        {
+          "title": "Colombia 1-0 Congo por el Mundial 2026: con gol de Daniel Muñoz, los cafeteros volvieron a ganar y están en 16avos de final",
+          "url": "https://www.elobservador.com.uy/mundial-2026/colombia-vs-congo-vivo-el-mundial-2026-el-elenco-cafetero-un-triunfo-pasar-16avos-final-n6048464",
+          "source": "El Observador"
+        }
+      ]
+    },
+    {
+      "query": "croacia fc",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Panama 0-1 Croatia: Croatia keep their World Cup hopes alive as they knock Panama out of tournament",
+          "url": "https://www.bbc.com/sport/football/live/c0ly4w636l3t",
+          "source": "BBC"
+        },
+        {
+          "title": "Panama vs Croatia Extended Highlights | 2026 FIFA World Cup™",
+          "url": "https://www.foxsports.com/watch/fmc-l27t2hznld24jy0v",
+          "source": "FOX Sports"
+        },
+        {
+          "title": "Panama 0-1 Croatia (Jun 23, 2026) Game Analysis",
+          "url": "https://www.espn.com/soccer/report/_/gameId/760460",
+          "source": "ESPN"
+        }
+      ]
+    },
+    {
+      "query": "panamá - croacia",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 10000,
+      "articles": [
+        {
+          "title": "Croacia le ganó con lo justo a Panamá, que quedó eliminada",
+          "url": "https://ladiaria.com.uy/deporte/articulo/2026/6/croacia-le-gano-con-lo-justo-a-panama-que-quedo-eliminada/",
+          "source": "la diaria"
+        },
+        {
+          "title": "Budimir rescata a Croacia",
+          "url": "https://as.com/futbol/mundial/budimir-rescata-a-croacia-f202606-n/",
+          "source": "Diario AS"
+        },
+        {
+          "title": "Dónde ver Panamá vs. Croacia por el Mundial 2026: horario del partido por el Grupo L y canales que lo pasan",
+          "url": "https://www.elpais.com.uy/ovacion/mundial/donde-ver-panama-vs-croacia-por-el-mundial-2026-horario-del-partido-por-el-grupo-l-y-canales-que-lo-pasan",
+          "source": "EL PAÍS Uruguay"
+        }
+      ]
+    },
+    {
+      "query": "ghana",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "England&apos;s scoreless draw to Ghana exposes World Cup run worries",
+          "url": "https://www.espn.com/soccer/story/_/id/49157690/england-scoreless-draw-ghana-exposes-world-cup-run-worries",
+          "source": "ESPN"
+        },
+        {
+          "title": "England 0-0 Ghana: World Cup 2026 Group L player ratings",
+          "url": "https://www.theguardian.com/football/2026/jun/23/england-0-0-ghana-world-cup-2026-group-l-player-ratings",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Watch: Football fans celebrate in Ghana after draw with England",
+          "url": "https://www.bbc.com/news/videos/cg74djdk510o",
+          "source": "BBC"
+        }
+      ]
+    },
+    {
+      "query": "inglaterra - ghana",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 10000,
+      "articles": [
+        {
+          "title": "Mundial: Ghana resistió y empató sin goles con Inglaterra en la segunda fecha del grupo L",
+          "url": "https://www.montevideo.com.uy/Deportes/Mundial-Ghana-resistio-y-empato-sin-goles-con-Inglaterra-en-la-segunda-fecha-del-grupo-L-uc966113",
+          "source": "Montevideo Portal"
+        },
+        {
+          "title": "El increíble gol que falló Harry Kane en el cierre del partido ante Ghana, que sigue invicta en el Mundial 2026",
+          "url": "https://www.elpais.com.uy/ovacion/mundial/el-increible-gol-que-fallo-harry-kane-en-el-cierre-del-partido-ante-ghana-que-sigue-invicta-en-el-mundial-2026",
+          "source": "EL PAÍS Uruguay"
+        },
+        {
+          "title": "Inglaterra no pudo con Ghana y empataron sin goles",
+          "url": "https://ladiaria.com.uy/deporte/articulo/2026/6/inglaterra-no-pudo-con-ghana-y-empataron-sin-goles/",
+          "source": "la diaria"
+        }
+      ]
+    },
+    {
+      "query": "portugal vs",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 5000,
+      "articles": [
+        {
+          "title": "Portugal vs Uzbekistan Extended Highlights | 2026 FIFA World Cup™",
+          "url": "https://www.foxsports.com/watch/fmc-88prevdcxbxaa7w3",
+          "source": "FOX Sports"
+        },
+        {
+          "title": "Portugal&apos;s Cristiano Ronaldo ends goal drought, first to score at 6 World Cups",
+          "url": "https://www.espn.com/soccer/story/_/id/49154970/portugal-cristiano-ronaldo-goal-first-score-six-world-cups-uzbekistan",
+          "source": "ESPN"
+        },
+        {
+          "title": "Thousands of Portugal, Uzbekistan fans march to match in Houston, where Ronaldo makes World Cup history",
+          "url": "https://www.houstonpublicmedia.org/articles/news/sports/world-cup/2026/06/23/555292/ronaldo-world-cup-houston-portugal-uzbekistan-fan-march/",
+          "source": "Houston Public Media"
+        }
+      ]
+    },
+    {
+      "query": "classificações de seleção colombiana de futebol x seleção de futebol da república democrática do congo",
+      "geo": "BR",
+      "language": "pt",
+      "source": "google-trends-daily",
+      "score": 50000,
+      "articles": [
+        {
+          "title": "Colombia vs DR Congo Highlights | 2026 FIFA World Cup™",
+          "url": "https://www.foxsports.com/watch/fmc-hh2pztd6aiz65i3a",
+          "source": "FOX Sports"
+        },
+        {
+          "title": "World Cup 2026: Colombia 1-0 DR Congo - Daniel Munoz strike sends South Americans into last 32 | Football News",
+          "url": "https://www.skysports.com/football/news/11095/13554944/world-cup-2026-colombia-1-0-dr-congo-daniel-munoz-strike-sends-south-americans-into-last-32",
+          "source": "Sky Sports"
+        },
+        {
+          "title": "Colombia 1-0 Congo DR (Jun 23, 2026) Game Analysis",
+          "url": "https://www.espn.com/soccer/report/_/gameId/760459",
+          "source": "ESPN"
+        }
+      ]
+    },
+    {
+      "query": "goldbet",
+      "geo": "BR",
+      "language": "pt",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Carlo Cavaliere (iPoker): “I nostri investimenti milionari per la sicurezza, come contrastiamo bot e RTA”",
+          "url": "https://www.assopoker.com/poker-online/carlo-cavaliere-ipoker-sicurezza-bot-rta_451202/",
+          "source": "Assopoker"
+        },
+        {
+          "title": "Lottomatica e Goldbet su sicurezza e fair play nel poker",
+          "url": "https://www.assopoker.com/poker-online/lottomatica-goldbet-sicurezza-network-ipoker-2026_450879/",
+          "source": "Assopoker"
+        },
+        {
+          "title": "Soft2Bet lancia il motore di gioco MEGA Shoot per la Coppa del Mondo FIFA 2026",
+          "url": "https://www.yogonet.com/it/America-Latina/notizie/2026/06/23/109459-soft2bet-lancia-il-motore-di-gioco-mega-shoot-per-la-coppa-del-mondo-di-fifa-2026",
+          "source": "Yogonet"
+        }
+      ]
+    },
+    {
+      "query": "¿como son los cruces del mundial 2026?",
+      "geo": "ES",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Cuadro del Mundial 2026: clasificados, cruces y quién se enfrenta a quién en dieciseisavos de la Copa del Mund",
+          "url": "https://as.com/futbol/mundial/cuadro-del-mundial-2026-clasificados-cruces-y-quien-se-enfrenta-a-quien-en-dieciseisavos-de-la-copa-del-mundo-f202606-n/",
+          "source": "Diario AS"
+        },
+        {
+          "title": "Así serían los cruces de 16avos de final del Mundial 2026 si la fase de grupos terminara ahora",
+          "url": "https://cnnespanol.cnn.com/2026/06/22/deportes/cruces-16avos-final-mundial-2026-orix",
+          "source": "CNN en Español"
+        },
+        {
+          "title": "Así está el cuadro del Mundial hoy: selecciones clasificadas y posibles cruces de dieciseisavos en directo",
+          "url": "https://www.marca.com/futbol/mundial/2026/06/23/asi-cuadro-mundial-hoy-selecciones-clasificadas-posibles-cruces-dieciseisavos.html",
+          "source": "MARCA"
+        }
+      ]
+    },
+    {
+      "query": "classificações de seleção colombiana de futebol x seleção de futebol da república democrática do congo",
+      "geo": "PT",
+      "language": "pt",
+      "source": "google-trends-daily",
+      "score": 10000,
+      "articles": [
+        {
+          "title": "Colombia 1-0 Congo DR: Daniel Munoz scores his second goal of the World Cup as Colombia progress to the last 32",
+          "url": "https://www.bbc.com/sport/football/live/clywx7rkx9kt",
+          "source": "BBC"
+        },
+        {
+          "title": "Colombia vs DR Congo Highlights | 2026 FIFA World Cup™",
+          "url": "https://www.foxsports.com/watch/fmc-hh2pztd6aiz65i3a",
+          "source": "FOX Sports"
+        },
+        {
+          "title": "World Cup 2026: Colombia 1-0 DR Congo - Daniel Munoz strike sends South Americans into last 32 | Football News",
+          "url": "https://www.skysports.com/football/news/11095/13554944/world-cup-2026-colombia-1-0-dr-congo-daniel-munoz-strike-sends-south-americans-into-last-32",
+          "source": "Sky Sports"
+        }
+      ]
+    },
+    {
+      "query": "classement équipe de colombie de football – équipe de république démocratique du congo de football",
+      "geo": "MA",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "Colombia 1-0 Congo DR: Daniel Munoz scores his second goal of the World Cup as Colombia progress to the last 32",
+          "url": "https://www.bbc.com/sport/football/live/clywx7rkx9kt",
+          "source": "BBC"
+        },
+        {
+          "title": "FIFA World Cup: DR Congo left to rue missed chances against Colombia",
+          "url": "https://www.cafonline.com/fifa-world-cup/news/fifa-world-cup-dr-congo-left-to-rue-missed-chances-against-colombia/",
+          "source": "Confédération Africaine de Football"
+        },
+        {
+          "title": "Mpasi-Nzau heroics in vain as Colombia edge past Congo DR",
+          "url": "https://onefootball.com/fr/news/mpasi-nzau-heroics-in-vain-as-colombia-edge-past-congo-dr-43049928",
+          "source": "OneFootball"
+        }
+      ]
+    },
+    {
+      "query": "panama",
+      "geo": "MA",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Budimir rescata a Croacia",
+          "url": "https://as.com/futbol/mundial/budimir-rescata-a-croacia-f202606-n/",
+          "source": "Diario AS"
+        },
+        {
+          "title": "Panamá ganó respeto en el Mundial 2026 y dejó ver su ADN MLS",
+          "url": "https://onefootball.com/fr/news/panama-gano-respeto-en-el-mundial-2026-y-dejo-ver-su-adn-mls-43049865",
+          "source": "OneFootball"
+        },
+        {
+          "title": "Vídeo. Las calles de Toronto se llenan de aficionados de Panamá y Croacia",
+          "url": "https://es.euronews.com/video/2026/06/24/las-calles-de-toronto-se-llenan-de-aficionados-de-panama-y-croacia",
+          "source": "Euronews"
+        }
+      ]
+    },
+    {
+      "query": "panama vs croatia",
+      "geo": "MA",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "Panama 0-1 Croatia: Croatia keep their World Cup hopes alive as they knock Panama out of tournament",
+          "url": "https://www.bbc.com/sport/football/live/c0ly4w636l3t",
+          "source": "BBC"
+        },
+        {
+          "title": "Panama vs Croatia Extended Highlights | 2026 FIFA World Cup™",
+          "url": "https://www.foxsports.com/watch/fmc-l27t2hznld24jy0v",
+          "source": "FOX Sports"
+        },
+        {
+          "title": "Panama 0-1 Croatia (Jun 23, 2026) Game Analysis",
+          "url": "https://www.espn.com/soccer/report/_/gameId/760460",
+          "source": "ESPN"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "en": [
+      {
+        "query": "switzerland vs canada",
+        "score": 6000,
+        "geos": [
+          "CA"
+        ],
+        "samples": [
+          {
+            "query": "switzerland vs canada",
+            "geo": "CA",
+            "language": "en",
+            "source": "google-trends-daily",
+            "score": 5000,
+            "articles": [
+              {
+                "title": "5 big questions for Canada ahead of FIFA World Cup match versus Switzerland",
+                "url": "https://olympic.ca/2026/06/20/5-big-questions-for-canada-ahead-of-fifa-world-cup-match-versus-switzerland/",
+                "source": "Team Canada"
+              },
+              {
+                "title": "Canada searches for winning mindset against Switzerland, Alphonso Davies likely to see action",
+                "url": "https://www.theglobeandmail.com/sports/article-canada-switzerland-alphonso-davies-world-cup-2026-marsch/",
+                "source": "The Globe and Mail"
+              },
+              {
+                "title": "20 places to watch the Canada-Switzerland game in Vancouver",
+                "url": "https://www.vancouverisawesome.com/local-news/canada-switzerland-watch-parties-vancouver-world-cup-12462859",
+                "source": "Vancouver Is Awesome"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "bosnia vs qatar",
+        "score": 700,
+        "geos": [
+          "US"
+        ],
+        "samples": [
+          {
+            "query": "bosnia vs qatar",
+            "geo": "US",
+            "language": "en",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Bosnia-Herzegovina continues its unlikely World Cup run in Seattle",
+                "url": "https://www.seattletimes.com/sports/world-cup/2026-world-cup-bosnia-herzegovina-continues-its-unlikely-run-in-seattle/",
+                "source": "The Seattle Times"
+              },
+              {
+                "title": "FIFA World Cup Group B LIVE: Bosnia-Herzegovina vs Qatar - build-up, team news & live text updates",
+                "url": "https://www.bbc.com/sport/football/live/c8j217p4exgt",
+                "source": "BBC"
+              },
+              {
+                "title": "Bosnia & Herzegovina vs. Qatar—World Cup: Preview, Predictions and Lineups",
+                "url": "https://www.si.com/soccer/bosnia-herzegovina-vs-qatar-world-cup-preview-predictions-lineups-6-24-26",
+                "source": "Sports Illustrated"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "fifa world cup brackets",
+        "score": 240,
+        "geos": [
+          "CA"
+        ],
+        "samples": [
+          {
+            "query": "fifa world cup brackets",
+            "geo": "CA",
+            "language": "en",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "World Cup 2026 bracket and knockout fixtures - who&apos;s facing who in the last 32 and route to final",
+                "url": "https://www.skysports.com/football/news/11095/13556636/world-cup-2026-bracket-and-knockout-fixtures-whos-facing-who-in-the-last-32-and-route-to-final",
+                "source": "Sky Sports"
+              },
+              {
+                "title": "What all 48 World Cup teams have at stake",
+                "url": "https://www.natesilver.net/p/what-all-48-world-cup-teams-have",
+                "source": "Silver Bulletin"
+              },
+              {
+                "title": "Why every round-of-32 team will, won&apos;t win FIFA World Cup",
+                "url": "https://www.espn.com/soccer/story/_/id/49118437/fifa-world-cup-predictions-analysis-projections-usa-mexico-spain-brazil-england-argentina-germany-france",
+                "source": "ESPN"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "es": [
+      {
+        "query": "posiciones de selección de fútbol de colombia contra selección de fútbol de la república democrática del congo",
+        "score": 61900,
+        "geos": [
+          "AR",
+          "CL",
+          "PE",
+          "EC",
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "posiciones de selección de fútbol de colombia contra selección de fútbol de la república democrática del congo",
+            "geo": "AR",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 20000,
+            "articles": [
+              {
+                "title": "Colombia vs DR Congo Highlights | 2026 FIFA World Cup™",
+                "url": "https://www.foxsports.com/watch/fmc-hh2pztd6aiz65i3a",
+                "source": "FOX Sports"
+              },
+              {
+                "title": "World Cup 2026: Colombia 1-0 DR Congo - Daniel Munoz strike sends South Americans into last 32 | Football News",
+                "url": "https://www.skysports.com/football/news/11095/13554944/world-cup-2026-colombia-1-0-dr-congo-daniel-munoz-strike-sends-south-americans-into-last-32",
+                "source": "Sky Sports"
+              },
+              {
+                "title": "Colombia 1-0 Congo DR (Jun 23, 2026) Game Analysis",
+                "url": "https://www.espn.com/soccer/report/_/gameId/760459",
+                "source": "ESPN"
+              }
+            ]
+          },
+          {
+            "query": "posiciones de selección de fútbol de colombia contra selección de fútbol de la república democrática del congo",
+            "geo": "CL",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 10000,
+            "articles": [
+              {
+                "title": "Colombia vs DR Congo Highlights | 2026 FIFA World Cup™",
+                "url": "https://www.foxsports.com/watch/fmc-hh2pztd6aiz65i3a",
+                "source": "FOX Sports"
+              },
+              {
+                "title": "World Cup 2026: Colombia 1-0 DR Congo - Daniel Munoz strike sends South Americans into last 32 | Football News",
+                "url": "https://www.skysports.com/football/news/11095/13554944/world-cup-2026-colombia-1-0-dr-congo-daniel-munoz-strike-sends-south-americans-into-last-32",
+                "source": "Sky Sports"
+              },
+              {
+                "title": "Colombia 1-0 Congo DR (Jun 23, 2026) Game Analysis",
+                "url": "https://www.espn.com/soccer/report/_/gameId/760459",
+                "source": "ESPN"
+              }
+            ]
+          },
+          {
+            "query": "posiciones de selección de fútbol de colombia contra selección de fútbol de la república democrática del congo",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 20000,
+            "articles": [
+              {
+                "title": "Colombia vs DR Congo Highlights | 2026 FIFA World Cup™",
+                "url": "https://www.foxsports.com/watch/fmc-hh2pztd6aiz65i3a",
+                "source": "FOX Sports"
+              },
+              {
+                "title": "World Cup 2026: Colombia 1-0 DR Congo - Daniel Munoz strike sends South Americans into last 32 | Football News",
+                "url": "https://www.skysports.com/football/news/11095/13554944/world-cup-2026-colombia-1-0-dr-congo-daniel-munoz-strike-sends-south-americans-into-last-32",
+                "source": "Sky Sports"
+              },
+              {
+                "title": "Colombia 1-0 Congo DR (Jun 23, 2026) Game Analysis",
+                "url": "https://www.espn.com/soccer/report/_/gameId/760459",
+                "source": "ESPN"
+              }
+            ]
+          },
+          {
+            "query": "posiciones de selección de fútbol de colombia contra selección de fútbol de la república democrática del congo",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 10000,
+            "articles": [
+              {
+                "title": "Colombia vs DR Congo Highlights | 2026 FIFA World Cup™",
+                "url": "https://www.foxsports.com/watch/fmc-hh2pztd6aiz65i3a",
+                "source": "FOX Sports"
+              },
+              {
+                "title": "World Cup 2026: Colombia 1-0 DR Congo - Daniel Munoz strike sends South Americans into last 32 | Football News",
+                "url": "https://www.skysports.com/football/news/11095/13554944/world-cup-2026-colombia-1-0-dr-congo-daniel-munoz-strike-sends-south-americans-into-last-32",
+                "source": "Sky Sports"
+              },
+              {
+                "title": "Colombia 1-0 Congo DR (Jun 23, 2026) Game Analysis",
+                "url": "https://www.espn.com/soccer/report/_/gameId/760459",
+                "source": "ESPN"
+              }
+            ]
+          },
+          {
+            "query": "posiciones de selección de fútbol de colombia contra selección de fútbol de la república democrática del congo",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "Colombia vs DR Congo Highlights | 2026 FIFA World Cup™",
+                "url": "https://www.foxsports.com/watch/fmc-hh2pztd6aiz65i3a",
+                "source": "FOX Sports"
+              },
+              {
+                "title": "World Cup 2026: Colombia 1-0 DR Congo - Daniel Munoz strike sends South Americans into last 32 | Football News",
+                "url": "https://www.skysports.com/football/news/11095/13554944/world-cup-2026-colombia-1-0-dr-congo-daniel-munoz-strike-sends-south-americans-into-last-32",
+                "source": "Sky Sports"
+              },
+              {
+                "title": "Colombia 1-0 Congo DR (Jun 23, 2026) Game Analysis",
+                "url": "https://www.espn.com/soccer/report/_/gameId/760459",
+                "source": "ESPN"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "colombia vs rd congo",
+        "score": 40000,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "colombia vs rd congo",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 50000,
+            "articles": [
+              {
+                "title": "Colombia vence 1-0 a RD Congo y se clasifica a 16avos del Mundial: resumen del 23 de junio de 2026",
+                "url": "https://cnnespanol.cnn.com/2026/06/23/deportes/live-news/resultado-colombia-congo-mundial-2026-orix",
+                "source": "CNN en Español"
+              },
+              {
+                "title": "GOL Caracol transmitió el partido Colombia 1-0 RD Congo por el Mundial 2026",
+                "url": "https://depor.com/futbol-internacional/mundial/gol-caracol-transmitio-el-partido-colombia-1-0-rd-congo-por-el-mundial-2026-nnda-nnrt-noticia/",
+                "source": "Depor"
+              },
+              {
+                "title": "Como ver Colombia vs RD Congo gratis en vivo: el Mundial 2026 desde cualquier lugar",
+                "url": "https://es.gizmodo.com/donde-ver-colombia-vs-rd-congo-gratis-y-en-vivo-desde-cualquier-lugar-2000242431",
+                "source": "Gizmodo en Español"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "como quedo el partido de colombia",
+        "score": 10000,
+        "geos": [
+          "CO"
+        ],
+        "samples": [
+          {
+            "query": "como quedo el partido de colombia",
+            "geo": "CO",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 10000,
+            "articles": [
+              {
+                "title": "Mundial 2026: ¿qué partidos se juegan hoy, 23 de junio? Horarios y enfrentamientos",
+                "url": "https://cnnespanol.cnn.com/2026/06/23/deportes/mundial-2026-partidos-23-junio-orix",
+                "source": "CNN en Español"
+              },
+              {
+                "title": "Así quedó el grupo K tras el triunfo de Colombia",
+                "url": "https://www.winsports.co/seleccion-colombia/noticias/asi-quedo-el-grupo-k-tras-el-triunfo-de-colombia-441125",
+                "source": "Win Sports"
+              },
+              {
+                "title": "Partidos EN VIVO HOY 23 de junio del 2026: horarios y programación por TV",
+                "url": "https://www.noticiascaracol.com/golcaracol/partidos-en-vivo-hoy-23-de-junio-del-2026-horarios-y-programacion-por-tv-so35",
+                "source": "Noticias Caracol"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "panamá - croacia",
+        "score": 9000,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "panamá - croacia",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 10000,
+            "articles": [
+              {
+                "title": "Croacia le ganó con lo justo a Panamá, que quedó eliminada",
+                "url": "https://ladiaria.com.uy/deporte/articulo/2026/6/croacia-le-gano-con-lo-justo-a-panama-que-quedo-eliminada/",
+                "source": "la diaria"
+              },
+              {
+                "title": "Budimir rescata a Croacia",
+                "url": "https://as.com/futbol/mundial/budimir-rescata-a-croacia-f202606-n/",
+                "source": "Diario AS"
+              },
+              {
+                "title": "Dónde ver Panamá vs. Croacia por el Mundial 2026: horario del partido por el Grupo L y canales que lo pasan",
+                "url": "https://www.elpais.com.uy/ovacion/mundial/donde-ver-panama-vs-croacia-por-el-mundial-2026-horario-del-partido-por-el-grupo-l-y-canales-que-lo-pasan",
+                "source": "EL PAÍS Uruguay"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "inglaterra - ghana",
+        "score": 9000,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "inglaterra - ghana",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 10000,
+            "articles": [
+              {
+                "title": "Mundial: Ghana resistió y empató sin goles con Inglaterra en la segunda fecha del grupo L",
+                "url": "https://www.montevideo.com.uy/Deportes/Mundial-Ghana-resistio-y-empato-sin-goles-con-Inglaterra-en-la-segunda-fecha-del-grupo-L-uc966113",
+                "source": "Montevideo Portal"
+              },
+              {
+                "title": "El increíble gol que falló Harry Kane en el cierre del partido ante Ghana, que sigue invicta en el Mundial 2026",
+                "url": "https://www.elpais.com.uy/ovacion/mundial/el-increible-gol-que-fallo-harry-kane-en-el-cierre-del-partido-ante-ghana-que-sigue-invicta-en-el-mundial-2026",
+                "source": "EL PAÍS Uruguay"
+              },
+              {
+                "title": "Inglaterra no pudo con Ghana y empataron sin goles",
+                "url": "https://ladiaria.com.uy/deporte/articulo/2026/6/inglaterra-no-pudo-con-ghana-y-empataron-sin-goles/",
+                "source": "la diaria"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "tabla de posiciones mundial 2026",
+        "score": 5000,
+        "geos": [
+          "CO"
+        ],
+        "samples": [
+          {
+            "query": "tabla de posiciones mundial 2026",
+            "geo": "CO",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 5000,
+            "articles": [
+              {
+                "title": "Así serían los cruces de 16avos de final del Mundial 2026 si la fase de grupos terminara ahora",
+                "url": "https://cnnespanol.cnn.com/2026/06/22/deportes/cruces-16avos-final-mundial-2026-orix",
+                "source": "CNN en Español"
+              },
+              {
+                "title": "Copa Mundial de la FIFA™ 2026: así está la tabla de posiciones",
+                "url": "https://www.winsports.co/futbol-internacional/noticias/copa-mundial-de-la-fifa-2026-asi-esta-la-tabla-de-posiciones-440679",
+                "source": "Win Sports"
+              },
+              {
+                "title": "Cuadro del Mundial 2026: clasificados, cruces y quién se enfrenta a quién en dieciseisavos de la Copa del Mund",
+                "url": "https://as.com/futbol/mundial/cuadro-del-mundial-2026-clasificados-cruces-y-quien-se-enfrenta-a-quien-en-dieciseisavos-de-la-copa-del-mundo-f202606-n/",
+                "source": "Diario AS"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "colombia vs congo",
+        "score": 4500,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "colombia vs congo",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 5000,
+            "articles": [
+              {
+                "title": "Colombia ganó 1-0 y clasificó a la siguiente fase",
+                "url": "https://ladiaria.com.uy/deporte/articulo/2026/6/colombia-gano-1-0-y-clasifico-a-la-siguiente-fase/",
+                "source": "la diaria"
+              },
+              {
+                "title": "Colombia 1-0 RD Congo por el Mundial 2026: Daniel Muñoz le dio la victoria y clasificación a los colombianos",
+                "url": "https://www.elpais.com.uy/ovacion/mundial/colombia-vs-rd-congo-por-el-mundial-2026-en-vivo-los-cafeteros-buscan-el-triunfo-que-los-clasifique",
+                "source": "EL PAÍS Uruguay"
+              },
+              {
+                "title": "Colombia 1-0 Congo por el Mundial 2026: con gol de Daniel Muñoz, los cafeteros volvieron a ganar y están en 16avos de final",
+                "url": "https://www.elobservador.com.uy/mundial-2026/colombia-vs-congo-vivo-el-mundial-2026-el-elenco-cafetero-un-triunfo-pasar-16avos-final-n6048464",
+                "source": "El Observador"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "portugal vs",
+        "score": 4500,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "portugal vs",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 5000,
+            "articles": [
+              {
+                "title": "Portugal vs Uzbekistan Extended Highlights | 2026 FIFA World Cup™",
+                "url": "https://www.foxsports.com/watch/fmc-88prevdcxbxaa7w3",
+                "source": "FOX Sports"
+              },
+              {
+                "title": "Portugal&apos;s Cristiano Ronaldo ends goal drought, first to score at 6 World Cups",
+                "url": "https://www.espn.com/soccer/story/_/id/49154970/portugal-cristiano-ronaldo-goal-first-score-six-world-cups-uzbekistan",
+                "source": "ESPN"
+              },
+              {
+                "title": "Thousands of Portugal, Uzbekistan fans march to match in Houston, where Ronaldo makes World Cup history",
+                "url": "https://www.houstonpublicmedia.org/articles/news/sports/world-cup/2026/06/23/555292/ronaldo-world-cup-houston-portugal-uzbekistan-fan-march/",
+                "source": "Houston Public Media"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "copa mundial de fútbol",
+        "score": 2600,
+        "geos": [
+          "AR"
+        ],
+        "samples": [
+          {
+            "query": "copa mundial de fútbol",
+            "geo": "AR",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "Así serían los cruces de 16avos de final del Mundial 2026 si la fase de grupos terminara ahora",
+                "url": "https://cnnespanol.cnn.com/2026/06/22/deportes/cruces-16avos-final-mundial-2026-orix",
+                "source": "CNN en Español"
+              },
+              {
+                "title": "El mapa del Mundial 2026: resultados, 7 clasificados y así queda la llave",
+                "url": "https://www.ole.com.ar/mundial/mundial-2026/mundial-2026-clasificados-16-avos-cuadro-argentina_0_2FTvInDtMx.html",
+                "source": "Olé"
+              },
+              {
+                "title": "Tabla Posiciones Mundial 2026: resultados y el criterio de desempate en la fase de grupos",
+                "url": "https://www.tycsports.com/mundial/tabla-posiciones-mundial-2026-resultados-y-criterio-de-desempate-en-la-fase-de-grupos-id737344.html",
+                "source": "TyC Sports"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "cuando vuelve a jugar colombia",
+        "score": 2000,
+        "geos": [
+          "CO"
+        ],
+        "samples": [
+          {
+            "query": "cuando vuelve a jugar colombia",
+            "geo": "CO",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "Grupo de Colombia en el Mundial 2026: rivales, fechas y partidos",
+                "url": "https://cnnespanol.cnn.com/2026/06/17/deportes/grupo-k-colombia-rivales-mundial-2026-orix",
+                "source": "CNN en Español"
+              },
+              {
+                "title": "Copa Mundial de la FIFA™: estos serían los cruces de dieciseisavos",
+                "url": "https://www.winsports.co/futbol-internacional/noticias/copa-mundial-de-la-fifa-estos-serian-los-cruces-de-dieciseisavos-440915",
+                "source": "Win Sports"
+              },
+              {
+                "title": "Mundial: Los posibles rivales de Colombia en 16vos de final",
+                "url": "https://www.espn.com.co/futbol/mundial/nota/_/id/16896516/mundial-2026-los-posibles-rivales-colombia-16vos-de-final",
+                "source": "ESPN Colombia"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "partidos de mañana",
+        "score": 1800,
+        "geos": [
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "partidos de mañana",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "Mundial 2026: ¿qué partidos se juegan hoy, 23 de junio? Horarios y enfrentamientos",
+                "url": "https://cnnespanol.cnn.com/2026/06/23/deportes/mundial-2026-partidos-23-junio-orix",
+                "source": "CNN en Español"
+              },
+              {
+                "title": "Mundial de fútbol 2026: Partidos y resultados de hoy, martes 23 de junio EN VIVO",
+                "url": "https://www.olympics.com/es/noticias/mundial-futbol-2026-partidos-martes-23-junio-en-vivo-hoy",
+                "source": "Olympics"
+              },
+              {
+                "title": "Mundial 2026, en VIVO: últimas noticias de hoy, 23 de junio, partidos, resultados, fixture y el minuto a minuto de la jornada",
+                "url": "https://www.infobae.com/deportes/2026/06/23/mundial-2026-en-vivo-ultimas-noticias-de-hoy-23-de-junio-partidos-resultados-fixture-y-el-minuto-a-minuto-de-la-jornada-2/",
+                "source": "Infobae"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "cumpleaños de messi",
+        "score": 1560,
+        "geos": [
+          "MX",
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "cumpleaños de messi",
+            "geo": "MX",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "Mundial 2026, en vivo: los cambios en la formación a la espera de Jordania y el cumpleaños 39 de Lionel Messi",
+                "url": "https://es-us.noticias.yahoo.com/deportes/mundial-2026-vivo-cambios-formaci%C3%B3n-050000571.html",
+                "source": "Yahoo"
+              },
+              {
+                "title": "Messi cumple 39 años con una asombrosa eficacia goleadora",
+                "url": "https://www.marca.com/futbol/mundial/2026/06/24/messi-cumple-39-anos-asombrosa-eficacia-goleadora.html",
+                "source": "MARCA"
+              },
+              {
+                "title": "Un golpe de atrás, una pelea y una promesa: la historia detrás del primer cumpleaños que Messi pasó concentrado con la Selección",
+                "url": "https://www.infobae.com/deportes/2026/06/24/un-golpe-de-atras-una-pelea-y-una-promesa-la-historia-detras-del-primer-cumpleanos-que-messi-paso-concentrado-con-la-seleccion/",
+                "source": "Infobae"
+              }
+            ]
+          },
+          {
+            "query": "cumpleaños de messi",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Messi cumple 39 años con una asombrosa eficacia goleadora",
+                "url": "https://www.marca.com/futbol/mundial/2026/06/24/messi-cumple-39-anos-asombrosa-eficacia-goleadora.html",
+                "source": "MARCA"
+              },
+              {
+                "title": "El regalo de Messi en el Mundial 2026: cumple años jugando su última Copa del Mundo",
+                "url": "https://www.eluniverso.com/entretenimiento/gente/el-regalo-de-messi-en-el-mundial-2026-cumple-anos-jugando-su-ultima-copa-del-mundo-nota/",
+                "source": "El Universo"
+              },
+              {
+                "title": "¿Cuántos años cumple Messi este 24 de junio?",
+                "url": "https://www.expreso.ec/deportes/copa-mundial-de-futbol/cuantos-anos-lionel-messi-junio-286744.html",
+                "source": "expreso.ec"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "lionel mpasi",
+        "score": 1260,
+        "geos": [
+          "AR",
+          "CL",
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "lionel mpasi",
+            "geo": "AR",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Coupe du Monde 2026 : La RDC de Chancel Mbemba et Ngal&apos;ayel Mukau (LOSC) s&apos;incline avant la dernière journée",
+                "url": "https://lepetitlillois.com/2026/06/24/coupe-du-monde-2026-la-rdc-de-chancel-mbemba-et-ngalayel-mukau-losc-sincline-avant-la-derniere-journee/",
+                "source": "Le Petit Lillois"
+              },
+              {
+                "title": "La Colombie se qualifie pour les seizièmes de finale après sa victoire face au Congo",
+                "url": "https://sana.sy/fr/sport/2313620/",
+                "source": "سانا"
+              },
+              {
+                "title": "CDM 2026 - Arthur Masuaku titulaire avec la RD Congo pour défier la Colombie",
+                "url": "https://madeinlensois.ouest-france.fr/infos/article-cdm-2026-arthur-masuaku-titulaire-avec-la-rd-congo-pour-defier-la-colombie-528608.html",
+                "source": "Ouest-France"
+              }
+            ]
+          },
+          {
+            "query": "lionel mpasi",
+            "geo": "CL",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Colombie 1-0 RD Congo, Coupe du monde : match terminé",
+                "url": "https://www.lequipe.fr/Football/match-direct/coupe-du-monde/2026/colombie-rd-congo-live/686965",
+                "source": "L&apos;Équipe"
+              },
+              {
+                "title": "CDM 2026 - Chancel Mbemba et Ngal&apos;ayel Mukau titulaires avec la RD Congo pour affronter la Colombie",
+                "url": "https://madeindogues.ouest-france.fr/infos/article-cdm-2026-chancel-mbemba-et-ngal-ayel-mukau-titulaires-avec-la-rd-congo-pour-affronter-la-colombie-528608.html",
+                "source": "MadeInDogues"
+              },
+              {
+                "title": "Classement de la Coupe du Monde 2026 aujourd&apos;hui (24 juin)",
+                "url": "https://www.vietnam.vn/fr/bang-xep-hang-world-cup-2026-hom-nay-24-6",
+                "source": "Vietnam.vn"
+              }
+            ]
+          },
+          {
+            "query": "lionel mpasi",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "La Colombie se qualifie pour les seizièmes de finale après sa victoire face au Congo",
+                "url": "https://sana.sy/fr/sport/2313620/",
+                "source": "سانا"
+              },
+              {
+                "title": "Coupe du monde 2026 - Daniel Munoz, auteur du seul but de la rencontre Colombie-RD Congo, élu Homme du match",
+                "url": "https://starsporttv.be/fr/content/coupe-du-monde-2026-daniel-munoz-auteur-du-seul-but-de-la-rencontre-colombie-rd-congo-elu-homme-du-match",
+                "source": "Starsporttv"
+              },
+              {
+                "title": "CDM 2026 - Chancel Mbemba et Ngal&apos;ayel Mukau titulaires avec la RD Congo pour affronter la Colombie",
+                "url": "https://madeindogues.ouest-france.fr/infos/article-cdm-2026-chancel-mbemba-et-ngal-ayel-mukau-titulaires-avec-la-rd-congo-pour-affronter-la-colombie-528608.html",
+                "source": "MadeInDogues"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "¿como son los cruces del mundial 2026?",
+        "score": 750,
+        "geos": [
+          "ES"
+        ],
+        "samples": [
+          {
+            "query": "¿como son los cruces del mundial 2026?",
+            "geo": "ES",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Cuadro del Mundial 2026: clasificados, cruces y quién se enfrenta a quién en dieciseisavos de la Copa del Mund",
+                "url": "https://as.com/futbol/mundial/cuadro-del-mundial-2026-clasificados-cruces-y-quien-se-enfrenta-a-quien-en-dieciseisavos-de-la-copa-del-mundo-f202606-n/",
+                "source": "Diario AS"
+              },
+              {
+                "title": "Así serían los cruces de 16avos de final del Mundial 2026 si la fase de grupos terminara ahora",
+                "url": "https://cnnespanol.cnn.com/2026/06/22/deportes/cruces-16avos-final-mundial-2026-orix",
+                "source": "CNN en Español"
+              },
+              {
+                "title": "Así está el cuadro del Mundial hoy: selecciones clasificadas y posibles cruces de dieciseisavos en directo",
+                "url": "https://www.marca.com/futbol/mundial/2026/06/23/asi-cuadro-mundial-hoy-selecciones-clasificadas-posibles-cruces-dieciseisavos.html",
+                "source": "MARCA"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "canada vs suiza",
+        "score": 700,
+        "geos": [
+          "MX"
+        ],
+        "samples": [
+          {
+            "query": "canada vs suiza",
+            "geo": "MX",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Steve Nash muestra su apoyo a Canadá antes de su partido del Mundial ante Suiza",
+                "url": "https://es-us.noticias.yahoo.com/steve-nash-muestra-apoyo-canad%C3%A1-231353351.html",
+                "source": "Yahoo"
+              },
+              {
+                "title": "Cómo ver el partido entre Canadá y Suiza en el Mundial 2026",
+                "url": "https://www.telemundo51.com/deportes/copa-mundial-fifa/stream-tv-canada-vs-suiza-mundial-2026/2785709/",
+                "source": "Telemundo Miami (51)"
+              },
+              {
+                "title": "¿Podrá Nathan Saliba sustituir a Ismaël Koné? ¿Está listo Alphonso Davies? Jesse Marsch se enfrenta a su mayor reto hasta la fecha: cinco claves del Canadá-Suiza",
+                "url": "https://www.goal.com/es-mx/listados/podra-nathan-saliba-sustituir-a-ismael-kone-esta-listo-alphonso-davies-jesse-marsch-se-enfrenta-a-su-mayor-reto-hasta-la-fecha-cinco-claves-del-canada-suiza/bltb69b1f983be0a8c4",
+                "source": "Goal.com"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "simulador mundial 2026",
+        "score": 500,
+        "geos": [
+          "CO"
+        ],
+        "samples": [
+          {
+            "query": "simulador mundial 2026",
+            "geo": "CO",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Así están los cruces de dieciseisavos tras la fecha 2 del Mundial 2026",
+                "url": "https://www.futbolred.com/mundial-2026/cruces-de-dieciseisavos-del-mundial-2026-asi-serian-los-partidos-tras-la-segunda-fecha-de-grupos-269365",
+                "source": "Futbolred"
+              },
+              {
+                "title": "Así serían los cruces de 16avos de final del Mundial 2026 si la fase de grupos terminara ahora",
+                "url": "https://es-us.noticias.yahoo.com/deportes/ser%C3%ADan-cruces-16avos-final-mundial-041515674.html",
+                "source": "Yahoo"
+              },
+              {
+                "title": "BBC tiene un simulador para revisar los posibles cruces del Mundial",
+                "url": "https://www.cooperativa.cl/noticias/deportes/mundial-2026/fase-grupal/bbc-tiene-un-simulador-para-revisar-los-posibles-cruces-del-mundial/2026-06-23/152720.html",
+                "source": "Cooperativa"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "tabla mundial 2026",
+        "score": 450,
+        "geos": [
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "tabla mundial 2026",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Tabla de goleadores del Mundial 2026: Lionel Messi y cómo va la lista de máximos artilleros",
+                "url": "https://depor.com/futbol-internacional/mundial/tabla-de-goleadores-del-mundial-2026-en-vivo-lionel-messi-kylian-mbappe-erling-haaland-harry-kane-y-quienes-son-los-maximos-artilleros-copa-del-mundo-noticia/",
+                "source": "Depor"
+              },
+              {
+                "title": "Messi, Mbappé, Haaland: ¿A cuánto están del récord de Fontaine?",
+                "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16893761/messi-mbappe-haaland-record-mas-goles-en-un-mundial-cuantos-goles-faltan-fontaine",
+                "source": "ESPN Argentina"
+              },
+              {
+                "title": "Van a reventar el Mundial",
+                "url": "https://www.marca.com/futbol/mundial/2026/06/23/reventar-mundial.html",
+                "source": "MARCA"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "suiza vs canada",
+        "score": 450,
+        "geos": [
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "suiza vs canada",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Apuestas y Pronóstico del Suiza vs Canadá 24/06/26",
+                "url": "https://www.oddschecker.com/es/pronosticos/futbol/2026/junio/pronostico-suiza-vs-canada-24-06-26",
+                "source": "Oddschecker"
+              },
+              {
+                "title": "Canadá vs Suiza EN VIVO por Mundial 2026: a qué hora juegan y dónde ver",
+                "url": "https://www.americatv.com.pe/deportes/futbol-mundial/canada-vs-suiza-vivo-mundial-2026-que-hora-juegan-donde-ver-alineaciones-pronostico-y-transmision-online-directo-n454718",
+                "source": "América TV"
+              },
+              {
+                "title": "VERSUS: reembolso de hasta 20 euros por apostar en el Suiza vs Canadá",
+                "url": "https://legalbet.es/bonos/versus-reembolso-de-hasta-20-euros-por-apostar-en-el-suiza-vs-canada/",
+                "source": "legalbet.es"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "fixture de mundial",
+        "score": 280,
+        "geos": [
+          "MX"
+        ],
+        "samples": [
+          {
+            "query": "fixture de mundial",
+            "geo": "MX",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Mundial 2026: Calendario de partidos del 20 al 27 de junio",
+                "url": "https://www.eleconomista.com.mx/mundial-2026/mundial-calendario-20-27-junio-20260622-819646.html",
+                "source": "El Economista"
+              },
+              {
+                "title": "Fixture del Mundial 2026",
+                "url": "https://es-us.noticias.yahoo.com/deportes/fixture-mundial-2026-110000717.html",
+                "source": "Yahoo"
+              },
+              {
+                "title": "Partidos de hoy sábado 20 de junio: Alemania y Países Bajos por su segundo juego del Mundial 2026",
+                "url": "https://www.tudn.com/mundial-2026/partidos-hoy-sabado-20-junio-de-2026-alemania-y-paises-bajos-por-su-segundo-juego-mundial-2026",
+                "source": "TUDN"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "lumumba",
+        "score": 180,
+        "geos": [
+          "CL"
+        ],
+        "samples": [
+          {
+            "query": "lumumba",
+            "geo": "CL",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Mundial: RD Congo recuperó a su hincha más famoso ante Colombia",
+                "url": "https://www.espn.cl/futbol/mundial/nota/_/id/16895493/mundial-rd-congo-recupero-a-su-hincha-mas-famoso-ante-colombia",
+                "source": "ESPN Chile"
+              },
+              {
+                "title": "\"Lumumba Vea\", el viral hincha-estatua de RD del Congo que acaparó las miradas en el Mundial",
+                "url": "https://www.cooperativa.cl/noticias/deportes/mundial-2026/fuera-de-la-cancha/lumumba-vea-el-viral-hincha-estatua-de-rd-del-congo-que-acaparo-las/2026-06-23/230846.html",
+                "source": "Cooperativa"
+              },
+              {
+                "title": "¿Quién es Lumumba? El hincha que no se mueve en partidos del Congo y que llegará al Mundial 2026",
+                "url": "https://www.chilevision.cl/chv-deportes/futbol-internacional/quien-es-lumumba-el-hincha-que-no-se-mueve-en-partidos-del-congo-y-que-llegara-al-mundial-2026/",
+                "source": "Chilevisión"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "grupo de colombia",
+        "score": 180,
+        "geos": [
+          "CL"
+        ],
+        "samples": [
+          {
+            "query": "grupo de colombia",
+            "geo": "CL",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Grupo de Colombia en el Mundial 2026: rivales, fechas y partidos",
+                "url": "https://cnnespanol.cnn.com/2026/06/17/deportes/grupo-k-colombia-rivales-mundial-2026-orix",
+                "source": "CNN en Español"
+              },
+              {
+                "title": "Mundial: Los posibles rivales de Colombia en 16vos de final",
+                "url": "https://www.espn.cl/futbol/mundial/nota/_/id/16896516/mundial-2026-los-posibles-rivales-colombia-16vos-de-final",
+                "source": "ESPN Chile"
+              },
+              {
+                "title": "Copa Mundial de la FIFA™: estos serían los cruces de dieciseisavos",
+                "url": "https://www.winsports.co/futbol-internacional/noticias/copa-mundial-de-la-fifa-estos-serian-los-cruces-de-dieciseisavos-440915",
+                "source": "Win Sports"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "partidos de mañana mundial",
+        "score": 180,
+        "geos": [
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "partidos de mañana mundial",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Partidos de hoy, miércoles 24 de junio, en el Mundial 2026: horarios, TV y cómo ver la Copa del Mundo",
+                "url": "https://as.com/futbol/mundial/partidos-de-hoy-miercoles-24-de-junio-en-el-mundial-2026-horarios-tv-y-como-ver-la-copa-del-mundo-f202606-n/",
+                "source": "Diario AS"
+              },
+              {
+                "title": "¡Jornada de definiciones! Mira los partidazos de este miércoles 24 en el Mundial",
+                "url": "https://ovacion.pe/noticias/mundial-2026/jornada-definiciones-mira-partidazos-este-miercoles-24-mundial",
+                "source": "ovacion.pe"
+              },
+              {
+                "title": "Partidos del miércoles 24 de junio de 2026: horarios y canales TV para ver EN VIVO Mundial 2026",
+                "url": "https://rpp.pe/futbol/futbol-mundial/partidos-de-hoy-mundial-fifa-2026-en-vivo-peru-miercoles-24-de-junio-2026-horarios-online-canales-tv-ver-futbol-en-vivo-noticia-1694303",
+                "source": "RPP"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "ghana",
+        "score": 180,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "ghana",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "England&apos;s scoreless draw to Ghana exposes World Cup run worries",
+                "url": "https://www.espn.com/soccer/story/_/id/49157690/england-scoreless-draw-ghana-exposes-world-cup-run-worries",
+                "source": "ESPN"
+              },
+              {
+                "title": "England 0-0 Ghana: World Cup 2026 Group L player ratings",
+                "url": "https://www.theguardian.com/football/2026/jun/23/england-0-0-ghana-world-cup-2026-group-l-player-ratings",
+                "source": "The Guardian"
+              },
+              {
+                "title": "Watch: Football fans celebrate in Ghana after draw with England",
+                "url": "https://www.bbc.com/news/videos/cg74djdk510o",
+                "source": "BBC"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "suiza vs canada pronostico",
+        "score": 100,
+        "geos": [
+          "CO"
+        ],
+        "samples": [
+          {
+            "query": "suiza vs canada pronostico",
+            "geo": "CO",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Cómo ver el partido entre Canadá y Suiza en el Mundial 2026",
+                "url": "https://www.telemundo51.com/deportes/copa-mundial-fifa/stream-tv-canada-vs-suiza-mundial-2026/2785709/",
+                "source": "Telemundo Miami (51)"
+              },
+              {
+                "title": "Apuestas y Pronóstico del Suiza vs Canadá 24/06/26",
+                "url": "https://www.oddschecker.com/es/pronosticos/futbol/2026/junio/pronostico-suiza-vs-canada-24-06-26",
+                "source": "Oddschecker"
+              },
+              {
+                "title": "Cuándo juegan Suiza vs. Canadá por la tercera fecha de la fase de grupos del Mundial 2026: equipo, fecha, hora y TV en vivo",
+                "url": "https://www.espn.com.co/futbol/mundial/nota/_/id/16886123/suiza-vs-canada-fase-de-grupos-mundial-2026-equipo-fecha-hora-y-tv-en-vivo",
+                "source": "ESPN Colombia"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "grupo j",
+        "score": 100,
+        "geos": [
+          "CO"
+        ],
+        "samples": [
+          {
+            "query": "grupo j",
+            "geo": "CO",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "¿Juega Messi? Scaloni planea cambios en el equipo de Argentina para enfrentar a Jordania en el Mundial 2026",
+                "url": "https://www.espn.com.co/futbol/mundial/nota/_/id/16891884/formacion-de-argentina-vs-jordania-fase-de-grupos-del-mundial-2026",
+                "source": "ESPN Colombia"
+              },
+              {
+                "title": "Argentina volvió a entrenarse tras el triunfo ante Austria: la formación inédita que evalúa Scaloni ante Jordania",
+                "url": "https://www.infobae.com/deportes/2026/06/23/argentina-volvio-a-entrenarse-tras-el-triunfo-ante-austria-la-formacion-inedita-que-evalua-scaloni-ante-jordania/",
+                "source": "Infobae"
+              },
+              {
+                "title": "El rival de Argentina en 16avos de final: los 11 escenarios posibles",
+                "url": "https://www.ole.com.ar/seleccion/argentina-seleccion-juega-rival-16avos-mundial-espana-cabo-verde-uruguay-arabia_0_qhwpvT8Oa1.html",
+                "source": "Olé"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "croacia fc",
+        "score": 90,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "croacia fc",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Panama 0-1 Croatia: Croatia keep their World Cup hopes alive as they knock Panama out of tournament",
+                "url": "https://www.bbc.com/sport/football/live/c0ly4w636l3t",
+                "source": "BBC"
+              },
+              {
+                "title": "Panama vs Croatia Extended Highlights | 2026 FIFA World Cup™",
+                "url": "https://www.foxsports.com/watch/fmc-l27t2hznld24jy0v",
+                "source": "FOX Sports"
+              },
+              {
+                "title": "Panama 0-1 Croatia (Jun 23, 2026) Game Analysis",
+                "url": "https://www.espn.com/soccer/report/_/gameId/760460",
+                "source": "ESPN"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "pt": [
+      {
+        "query": "classificações de seleção colombiana de futebol x seleção de futebol da república democrática do congo",
+        "score": 75000,
+        "geos": [
+          "BR",
+          "PT"
+        ],
+        "samples": [
+          {
+            "query": "classificações de seleção colombiana de futebol x seleção de futebol da república democrática do congo",
+            "geo": "BR",
+            "language": "pt",
+            "source": "google-trends-daily",
+            "score": 50000,
+            "articles": [
+              {
+                "title": "Colombia vs DR Congo Highlights | 2026 FIFA World Cup™",
+                "url": "https://www.foxsports.com/watch/fmc-hh2pztd6aiz65i3a",
+                "source": "FOX Sports"
+              },
+              {
+                "title": "World Cup 2026: Colombia 1-0 DR Congo - Daniel Munoz strike sends South Americans into last 32 | Football News",
+                "url": "https://www.skysports.com/football/news/11095/13554944/world-cup-2026-colombia-1-0-dr-congo-daniel-munoz-strike-sends-south-americans-into-last-32",
+                "source": "Sky Sports"
+              },
+              {
+                "title": "Colombia 1-0 Congo DR (Jun 23, 2026) Game Analysis",
+                "url": "https://www.espn.com/soccer/report/_/gameId/760459",
+                "source": "ESPN"
+              }
+            ]
+          },
+          {
+            "query": "classificações de seleção colombiana de futebol x seleção de futebol da república democrática do congo",
+            "geo": "PT",
+            "language": "pt",
+            "source": "google-trends-daily",
+            "score": 10000,
+            "articles": [
+              {
+                "title": "Colombia 1-0 Congo DR: Daniel Munoz scores his second goal of the World Cup as Colombia progress to the last 32",
+                "url": "https://www.bbc.com/sport/football/live/clywx7rkx9kt",
+                "source": "BBC"
+              },
+              {
+                "title": "Colombia vs DR Congo Highlights | 2026 FIFA World Cup™",
+                "url": "https://www.foxsports.com/watch/fmc-hh2pztd6aiz65i3a",
+                "source": "FOX Sports"
+              },
+              {
+                "title": "World Cup 2026: Colombia 1-0 DR Congo - Daniel Munoz strike sends South Americans into last 32 | Football News",
+                "url": "https://www.skysports.com/football/news/11095/13554944/world-cup-2026-colombia-1-0-dr-congo-daniel-munoz-strike-sends-south-americans-into-last-32",
+                "source": "Sky Sports"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "goldbet",
+        "score": 260,
+        "geos": [
+          "BR"
+        ],
+        "samples": [
+          {
+            "query": "goldbet",
+            "geo": "BR",
+            "language": "pt",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Carlo Cavaliere (iPoker): “I nostri investimenti milionari per la sicurezza, come contrastiamo bot e RTA”",
+                "url": "https://www.assopoker.com/poker-online/carlo-cavaliere-ipoker-sicurezza-bot-rta_451202/",
+                "source": "Assopoker"
+              },
+              {
+                "title": "Lottomatica e Goldbet su sicurezza e fair play nel poker",
+                "url": "https://www.assopoker.com/poker-online/lottomatica-goldbet-sicurezza-network-ipoker-2026_450879/",
+                "source": "Assopoker"
+              },
+              {
+                "title": "Soft2Bet lancia il motore di gioco MEGA Shoot per la Coppa del Mondo FIFA 2026",
+                "url": "https://www.yogonet.com/it/America-Latina/notizie/2026/06/23/109459-soft2bet-lancia-il-motore-di-gioco-mega-shoot-per-la-coppa-del-mondo-di-fifa-2026",
+                "source": "Yogonet"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "fr": [
+      {
+        "query": "classement équipe de colombie de football – équipe de république démocratique du congo de football",
+        "score": 1800,
+        "geos": [
+          "MA"
+        ],
+        "samples": [
+          {
+            "query": "classement équipe de colombie de football – équipe de république démocratique du congo de football",
+            "geo": "MA",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "Colombia 1-0 Congo DR: Daniel Munoz scores his second goal of the World Cup as Colombia progress to the last 32",
+                "url": "https://www.bbc.com/sport/football/live/clywx7rkx9kt",
+                "source": "BBC"
+              },
+              {
+                "title": "FIFA World Cup: DR Congo left to rue missed chances against Colombia",
+                "url": "https://www.cafonline.com/fifa-world-cup/news/fifa-world-cup-dr-congo-left-to-rue-missed-chances-against-colombia/",
+                "source": "Confédération Africaine de Football"
+              },
+              {
+                "title": "Mpasi-Nzau heroics in vain as Colombia edge past Congo DR",
+                "url": "https://onefootball.com/fr/news/mpasi-nzau-heroics-in-vain-as-colombia-edge-past-congo-dr-43049928",
+                "source": "OneFootball"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "panama vs croatia",
+        "score": 1800,
+        "geos": [
+          "MA"
+        ],
+        "samples": [
+          {
+            "query": "panama vs croatia",
+            "geo": "MA",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "Panama 0-1 Croatia: Croatia keep their World Cup hopes alive as they knock Panama out of tournament",
+                "url": "https://www.bbc.com/sport/football/live/c0ly4w636l3t",
+                "source": "BBC"
+              },
+              {
+                "title": "Panama vs Croatia Extended Highlights | 2026 FIFA World Cup™",
+                "url": "https://www.foxsports.com/watch/fmc-l27t2hznld24jy0v",
+                "source": "FOX Sports"
+              },
+              {
+                "title": "Panama 0-1 Croatia (Jun 23, 2026) Game Analysis",
+                "url": "https://www.espn.com/soccer/report/_/gameId/760460",
+                "source": "ESPN"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "panama",
+        "score": 450,
+        "geos": [
+          "MA"
+        ],
+        "samples": [
+          {
+            "query": "panama",
+            "geo": "MA",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Budimir rescata a Croacia",
+                "url": "https://as.com/futbol/mundial/budimir-rescata-a-croacia-f202606-n/",
+                "source": "Diario AS"
+              },
+              {
+                "title": "Panamá ganó respeto en el Mundial 2026 y dejó ver su ADN MLS",
+                "url": "https://onefootball.com/fr/news/panama-gano-respeto-en-el-mundial-2026-y-dejo-ver-su-adn-mls-43049865",
+                "source": "OneFootball"
+              },
+              {
+                "title": "Vídeo. Las calles de Toronto se llenan de aficionados de Panamá y Croacia",
+                "url": "https://es.euronews.com/video/2026/06/24/las-calles-de-toronto-se-llenan-de-aficionados-de-panama-y-croacia",
+                "source": "Euronews"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "topic": "classificações de seleção colombiana de futebol x seleção de futebol da república democrática do congo",
+      "type": "noticia",
+      "slugSuggestion": "classificacoes-de-selecao-colombiana-de-futebol-x-selecao-de-futebol-da-republic",
+      "language": "pt",
+      "geos": [
+        "BR",
+        "PT"
+      ],
+      "score": 90000,
+      "reason": "Google Trends daily BR con 50,000 búsquedas · 3 artículos noticiosos referenciando \"classificações de seleção colombiana de futebol x seleção de futebol da república democrática do congo\"",
+      "proposedPath": "/noticias/classificacoes-de-selecao-colombiana-de-futebol-x-selecao-de-futebol-da-republic",
+      "evidence": [
+        {
+          "query": "classificações de seleção colombiana de futebol x seleção de futebol da república democrática do congo",
+          "geo": "BR",
+          "language": "pt",
+          "source": "google-trends-daily",
+          "score": 50000,
+          "articles": [
+            {
+              "title": "Colombia vs DR Congo Highlights | 2026 FIFA World Cup™",
+              "url": "https://www.foxsports.com/watch/fmc-hh2pztd6aiz65i3a",
+              "source": "FOX Sports"
+            },
+            {
+              "title": "World Cup 2026: Colombia 1-0 DR Congo - Daniel Munoz strike sends South Americans into last 32 | Football News",
+              "url": "https://www.skysports.com/football/news/11095/13554944/world-cup-2026-colombia-1-0-dr-congo-daniel-munoz-strike-sends-south-americans-into-last-32",
+              "source": "Sky Sports"
+            },
+            {
+              "title": "Colombia 1-0 Congo DR (Jun 23, 2026) Game Analysis",
+              "url": "https://www.espn.com/soccer/report/_/gameId/760459",
+              "source": "ESPN"
+            }
+          ]
+        },
+        {
+          "query": "classificações de seleção colombiana de futebol x seleção de futebol da república democrática do congo",
+          "geo": "PT",
+          "language": "pt",
+          "source": "google-trends-daily",
+          "score": 10000,
+          "articles": [
+            {
+              "title": "Colombia 1-0 Congo DR: Daniel Munoz scores his second goal of the World Cup as Colombia progress to the last 32",
+              "url": "https://www.bbc.com/sport/football/live/clywx7rkx9kt",
+              "source": "BBC"
+            },
+            {
+              "title": "Colombia vs DR Congo Highlights | 2026 FIFA World Cup™",
+              "url": "https://www.foxsports.com/watch/fmc-hh2pztd6aiz65i3a",
+              "source": "FOX Sports"
+            },
+            {
+              "title": "World Cup 2026: Colombia 1-0 DR Congo - Daniel Munoz strike sends South Americans into last 32 | Football News",
+              "url": "https://www.skysports.com/football/news/11095/13554944/world-cup-2026-colombia-1-0-dr-congo-daniel-munoz-strike-sends-south-americans-into-last-32",
+              "source": "Sky Sports"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "switzerland vs canada",
+      "type": "noticia",
+      "slugSuggestion": "switzerland-vs-canada",
+      "language": "en",
+      "geos": [
+        "CA"
+      ],
+      "score": 7200,
+      "reason": "Google Trends daily CA con 5,000 búsquedas · 3 artículos noticiosos referenciando \"switzerland vs canada\"",
+      "proposedPath": "/noticias/switzerland-vs-canada",
+      "evidence": [
+        {
+          "query": "switzerland vs canada",
+          "geo": "CA",
+          "language": "en",
+          "source": "google-trends-daily",
+          "score": 5000,
+          "articles": [
+            {
+              "title": "5 big questions for Canada ahead of FIFA World Cup match versus Switzerland",
+              "url": "https://olympic.ca/2026/06/20/5-big-questions-for-canada-ahead-of-fifa-world-cup-match-versus-switzerland/",
+              "source": "Team Canada"
+            },
+            {
+              "title": "Canada searches for winning mindset against Switzerland, Alphonso Davies likely to see action",
+              "url": "https://www.theglobeandmail.com/sports/article-canada-switzerland-alphonso-davies-world-cup-2026-marsch/",
+              "source": "The Globe and Mail"
+            },
+            {
+              "title": "20 places to watch the Canada-Switzerland game in Vancouver",
+              "url": "https://www.vancouverisawesome.com/local-news/canada-switzerland-watch-parties-vancouver-world-cup-12462859",
+              "source": "Vancouver Is Awesome"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "partidos de mañana",
+      "type": "noticia",
+      "slugSuggestion": "partidos-de-manana",
+      "language": "es",
+      "geos": [
+        "PE"
+      ],
+      "score": 2160,
+      "reason": "Google Trends daily PE con 2,000 búsquedas · 3 artículos noticiosos referenciando \"partidos de mañana\"",
+      "proposedPath": "/noticias/partidos-de-manana",
+      "evidence": [
+        {
+          "query": "partidos de mañana",
+          "geo": "PE",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 2000,
+          "articles": [
+            {
+              "title": "Mundial 2026: ¿qué partidos se juegan hoy, 23 de junio? Horarios y enfrentamientos",
+              "url": "https://cnnespanol.cnn.com/2026/06/23/deportes/mundial-2026-partidos-23-junio-orix",
+              "source": "CNN en Español"
+            },
+            {
+              "title": "Mundial de fútbol 2026: Partidos y resultados de hoy, martes 23 de junio EN VIVO",
+              "url": "https://www.olympics.com/es/noticias/mundial-futbol-2026-partidos-martes-23-junio-en-vivo-hoy",
+              "source": "Olympics"
+            },
+            {
+              "title": "Mundial 2026, en VIVO: últimas noticias de hoy, 23 de junio, partidos, resultados, fixture y el minuto a minuto de la jornada",
+              "url": "https://www.infobae.com/deportes/2026/06/23/mundial-2026-en-vivo-ultimas-noticias-de-hoy-23-de-junio-partidos-resultados-fixture-y-el-minuto-a-minuto-de-la-jornada-2/",
+              "source": "Infobae"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "classement équipe de colombie de football – équipe de république démocratique du congo de football",
+      "type": "noticia",
+      "slugSuggestion": "classement-equipe-de-colombie-de-football-equipe-de-republique-democratique-du-c",
+      "language": "fr",
+      "geos": [
+        "MA"
+      ],
+      "score": 2160,
+      "reason": "Google Trends daily MA con 2,000 búsquedas · 3 artículos noticiosos referenciando \"classement équipe de colombie de football – équipe de république démocratique du congo de football\"",
+      "proposedPath": "/noticias/classement-equipe-de-colombie-de-football-equipe-de-republique-democratique-du-c",
+      "evidence": [
+        {
+          "query": "classement équipe de colombie de football – équipe de république démocratique du congo de football",
+          "geo": "MA",
+          "language": "fr",
+          "source": "google-trends-daily",
+          "score": 2000,
+          "articles": [
+            {
+              "title": "Colombia 1-0 Congo DR: Daniel Munoz scores his second goal of the World Cup as Colombia progress to the last 32",
+              "url": "https://www.bbc.com/sport/football/live/clywx7rkx9kt",
+              "source": "BBC"
+            },
+            {
+              "title": "FIFA World Cup: DR Congo left to rue missed chances against Colombia",
+              "url": "https://www.cafonline.com/fifa-world-cup/news/fifa-world-cup-dr-congo-left-to-rue-missed-chances-against-colombia/",
+              "source": "Confédération Africaine de Football"
+            },
+            {
+              "title": "Mpasi-Nzau heroics in vain as Colombia edge past Congo DR",
+              "url": "https://onefootball.com/fr/news/mpasi-nzau-heroics-in-vain-as-colombia-edge-past-congo-dr-43049928",
+              "source": "OneFootball"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "panama vs croatia",
+      "type": "noticia",
+      "slugSuggestion": "panama-vs-croatia",
+      "language": "fr",
+      "geos": [
+        "MA"
+      ],
+      "score": 2160,
+      "reason": "Google Trends daily MA con 2,000 búsquedas · 3 artículos noticiosos referenciando \"panama vs croatia\"",
+      "proposedPath": "/noticias/panama-vs-croatia",
+      "evidence": [
+        {
+          "query": "panama vs croatia",
+          "geo": "MA",
+          "language": "fr",
+          "source": "google-trends-daily",
+          "score": 2000,
+          "articles": [
+            {
+              "title": "Panama 0-1 Croatia: Croatia keep their World Cup hopes alive as they knock Panama out of tournament",
+              "url": "https://www.bbc.com/sport/football/live/c0ly4w636l3t",
+              "source": "BBC"
+            },
+            {
+              "title": "Panama vs Croatia Extended Highlights | 2026 FIFA World Cup™",
+              "url": "https://www.foxsports.com/watch/fmc-l27t2hznld24jy0v",
+              "source": "FOX Sports"
+            },
+            {
+              "title": "Panama 0-1 Croatia (Jun 23, 2026) Game Analysis",
+              "url": "https://www.espn.com/soccer/report/_/gameId/760460",
+              "source": "ESPN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "cumpleaños de messi",
+      "type": "noticia",
+      "slugSuggestion": "cumpleanos-de-messi",
+      "language": "es",
+      "geos": [
+        "MX",
+        "EC"
+      ],
+      "score": 1872,
+      "reason": "Google Trends daily MX con 1,000 búsquedas · 3 artículos noticiosos referenciando \"cumpleaños de messi\"",
+      "proposedPath": "/noticias/cumpleanos-de-messi",
+      "evidence": [
+        {
+          "query": "cumpleaños de messi",
+          "geo": "MX",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 1000,
+          "articles": [
+            {
+              "title": "Mundial 2026, en vivo: los cambios en la formación a la espera de Jordania y el cumpleaños 39 de Lionel Messi",
+              "url": "https://es-us.noticias.yahoo.com/deportes/mundial-2026-vivo-cambios-formaci%C3%B3n-050000571.html",
+              "source": "Yahoo"
+            },
+            {
+              "title": "Messi cumple 39 años con una asombrosa eficacia goleadora",
+              "url": "https://www.marca.com/futbol/mundial/2026/06/24/messi-cumple-39-anos-asombrosa-eficacia-goleadora.html",
+              "source": "MARCA"
+            },
+            {
+              "title": "Un golpe de atrás, una pelea y una promesa: la historia detrás del primer cumpleaños que Messi pasó concentrado con la Selección",
+              "url": "https://www.infobae.com/deportes/2026/06/24/un-golpe-de-atras-una-pelea-y-una-promesa-la-historia-detras-del-primer-cumpleanos-que-messi-paso-concentrado-con-la-seleccion/",
+              "source": "Infobae"
+            }
+          ]
+        },
+        {
+          "query": "cumpleaños de messi",
+          "geo": "EC",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Messi cumple 39 años con una asombrosa eficacia goleadora",
+              "url": "https://www.marca.com/futbol/mundial/2026/06/24/messi-cumple-39-anos-asombrosa-eficacia-goleadora.html",
+              "source": "MARCA"
+            },
+            {
+              "title": "El regalo de Messi en el Mundial 2026: cumple años jugando su última Copa del Mundo",
+              "url": "https://www.eluniverso.com/entretenimiento/gente/el-regalo-de-messi-en-el-mundial-2026-cumple-anos-jugando-su-ultima-copa-del-mundo-nota/",
+              "source": "El Universo"
+            },
+            {
+              "title": "¿Cuántos años cumple Messi este 24 de junio?",
+              "url": "https://www.expreso.ec/deportes/copa-mundial-de-futbol/cuantos-anos-lionel-messi-junio-286744.html",
+              "source": "expreso.ec"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "lionel mpasi",
+      "type": "noticia",
+      "slugSuggestion": "lionel-mpasi",
+      "language": "es",
+      "geos": [
+        "AR",
+        "CL",
+        "EC"
+      ],
+      "score": 1512,
+      "reason": "Google Trends daily AR con 500 búsquedas · 3 artículos noticiosos referenciando \"lionel mpasi\"",
+      "proposedPath": "/noticias/lionel-mpasi",
+      "evidence": [
+        {
+          "query": "lionel mpasi",
+          "geo": "AR",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 500,
+          "articles": [
+            {
+              "title": "Coupe du Monde 2026 : La RDC de Chancel Mbemba et Ngal&apos;ayel Mukau (LOSC) s&apos;incline avant la dernière journée",
+              "url": "https://lepetitlillois.com/2026/06/24/coupe-du-monde-2026-la-rdc-de-chancel-mbemba-et-ngalayel-mukau-losc-sincline-avant-la-derniere-journee/",
+              "source": "Le Petit Lillois"
+            },
+            {
+              "title": "La Colombie se qualifie pour les seizièmes de finale après sa victoire face au Congo",
+              "url": "https://sana.sy/fr/sport/2313620/",
+              "source": "سانا"
+            },
+            {
+              "title": "CDM 2026 - Arthur Masuaku titulaire avec la RD Congo pour défier la Colombie",
+              "url": "https://madeinlensois.ouest-france.fr/infos/article-cdm-2026-arthur-masuaku-titulaire-avec-la-rd-congo-pour-defier-la-colombie-528608.html",
+              "source": "Ouest-France"
+            }
+          ]
+        },
+        {
+          "query": "lionel mpasi",
+          "geo": "CL",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 500,
+          "articles": [
+            {
+              "title": "Colombie 1-0 RD Congo, Coupe du monde : match terminé",
+              "url": "https://www.lequipe.fr/Football/match-direct/coupe-du-monde/2026/colombie-rd-congo-live/686965",
+              "source": "L&apos;Équipe"
+            },
+            {
+              "title": "CDM 2026 - Chancel Mbemba et Ngal&apos;ayel Mukau titulaires avec la RD Congo pour affronter la Colombie",
+              "url": "https://madeindogues.ouest-france.fr/infos/article-cdm-2026-chancel-mbemba-et-ngal-ayel-mukau-titulaires-avec-la-rd-congo-pour-affronter-la-colombie-528608.html",
+              "source": "MadeInDogues"
+            },
+            {
+              "title": "Classement de la Coupe du Monde 2026 aujourd&apos;hui (24 juin)",
+              "url": "https://www.vietnam.vn/fr/bang-xep-hang-world-cup-2026-hom-nay-24-6",
+              "source": "Vietnam.vn"
+            }
+          ]
+        },
+        {
+          "query": "lionel mpasi",
+          "geo": "EC",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "La Colombie se qualifie pour les seizièmes de finale après sa victoire face au Congo",
+              "url": "https://sana.sy/fr/sport/2313620/",
+              "source": "سانا"
+            },
+            {
+              "title": "Coupe du monde 2026 - Daniel Munoz, auteur du seul but de la rencontre Colombie-RD Congo, élu Homme du match",
+              "url": "https://starsporttv.be/fr/content/coupe-du-monde-2026-daniel-munoz-auteur-du-seul-but-de-la-rencontre-colombie-rd-congo-elu-homme-du-match",
+              "source": "Starsporttv"
+            },
+            {
+              "title": "CDM 2026 - Chancel Mbemba et Ngal&apos;ayel Mukau titulaires avec la RD Congo pour affronter la Colombie",
+              "url": "https://madeindogues.ouest-france.fr/infos/article-cdm-2026-chancel-mbemba-et-ngal-ayel-mukau-titulaires-avec-la-rd-congo-pour-affronter-la-colombie-528608.html",
+              "source": "MadeInDogues"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "fixture de mundial",
+      "type": "noticia",
+      "slugSuggestion": "fixture-de-mundial",
+      "language": "es",
+      "geos": [
+        "MX"
+      ],
+      "score": 336,
+      "reason": "Google Trends daily MX con 200 búsquedas · 3 artículos noticiosos referenciando \"fixture de mundial\"",
+      "proposedPath": "/noticias/fixture-de-mundial",
+      "evidence": [
+        {
+          "query": "fixture de mundial",
+          "geo": "MX",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Mundial 2026: Calendario de partidos del 20 al 27 de junio",
+              "url": "https://www.eleconomista.com.mx/mundial-2026/mundial-calendario-20-27-junio-20260622-819646.html",
+              "source": "El Economista"
+            },
+            {
+              "title": "Fixture del Mundial 2026",
+              "url": "https://es-us.noticias.yahoo.com/deportes/fixture-mundial-2026-110000717.html",
+              "source": "Yahoo"
+            },
+            {
+              "title": "Partidos de hoy sábado 20 de junio: Alemania y Países Bajos por su segundo juego del Mundial 2026",
+              "url": "https://www.tudn.com/mundial-2026/partidos-hoy-sabado-20-junio-de-2026-alemania-y-paises-bajos-por-su-segundo-juego-mundial-2026",
+              "source": "TUDN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "goldbet",
+      "type": "noticia",
+      "slugSuggestion": "goldbet",
+      "language": "pt",
+      "geos": [
+        "BR"
+      ],
+      "score": 312,
+      "reason": "Google Trends daily BR con 200 búsquedas · 3 artículos noticiosos referenciando \"goldbet\"",
+      "proposedPath": "/noticias/goldbet",
+      "evidence": [
+        {
+          "query": "goldbet",
+          "geo": "BR",
+          "language": "pt",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Carlo Cavaliere (iPoker): “I nostri investimenti milionari per la sicurezza, come contrastiamo bot e RTA”",
+              "url": "https://www.assopoker.com/poker-online/carlo-cavaliere-ipoker-sicurezza-bot-rta_451202/",
+              "source": "Assopoker"
+            },
+            {
+              "title": "Lottomatica e Goldbet su sicurezza e fair play nel poker",
+              "url": "https://www.assopoker.com/poker-online/lottomatica-goldbet-sicurezza-network-ipoker-2026_450879/",
+              "source": "Assopoker"
+            },
+            {
+              "title": "Soft2Bet lancia il motore di gioco MEGA Shoot per la Coppa del Mondo FIFA 2026",
+              "url": "https://www.yogonet.com/it/America-Latina/notizie/2026/06/23/109459-soft2bet-lancia-il-motore-di-gioco-mega-shoot-per-la-coppa-del-mondo-di-fifa-2026",
+              "source": "Yogonet"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "fifa world cup brackets",
+      "type": "noticia",
+      "slugSuggestion": "fifa-world-cup-brackets",
+      "language": "en",
+      "geos": [
+        "CA"
+      ],
+      "score": 288,
+      "reason": "Google Trends daily CA con 200 búsquedas · 3 artículos noticiosos referenciando \"fifa world cup brackets\"",
+      "proposedPath": "/noticias/fifa-world-cup-brackets",
+      "evidence": [
+        {
+          "query": "fifa world cup brackets",
+          "geo": "CA",
+          "language": "en",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "World Cup 2026 bracket and knockout fixtures - who&apos;s facing who in the last 32 and route to final",
+              "url": "https://www.skysports.com/football/news/11095/13556636/world-cup-2026-bracket-and-knockout-fixtures-whos-facing-who-in-the-last-32-and-route-to-final",
+              "source": "Sky Sports"
+            },
+            {
+              "title": "What all 48 World Cup teams have at stake",
+              "url": "https://www.natesilver.net/p/what-all-48-world-cup-teams-have",
+              "source": "Silver Bulletin"
+            },
+            {
+              "title": "Why every round-of-32 team will, won&apos;t win FIFA World Cup",
+              "url": "https://www.espn.com/soccer/story/_/id/49118437/fifa-world-cup-predictions-analysis-projections-usa-mexico-spain-brazil-england-argentina-germany-france",
+              "source": "ESPN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "lumumba",
+      "type": "noticia",
+      "slugSuggestion": "lumumba",
+      "language": "es",
+      "geos": [
+        "CL"
+      ],
+      "score": 216,
+      "reason": "Google Trends daily CL con 200 búsquedas · 3 artículos noticiosos referenciando \"lumumba\"",
+      "proposedPath": "/noticias/lumumba",
+      "evidence": [
+        {
+          "query": "lumumba",
+          "geo": "CL",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Mundial: RD Congo recuperó a su hincha más famoso ante Colombia",
+              "url": "https://www.espn.cl/futbol/mundial/nota/_/id/16895493/mundial-rd-congo-recupero-a-su-hincha-mas-famoso-ante-colombia",
+              "source": "ESPN Chile"
+            },
+            {
+              "title": "\"Lumumba Vea\", el viral hincha-estatua de RD del Congo que acaparó las miradas en el Mundial",
+              "url": "https://www.cooperativa.cl/noticias/deportes/mundial-2026/fuera-de-la-cancha/lumumba-vea-el-viral-hincha-estatua-de-rd-del-congo-que-acaparo-las/2026-06-23/230846.html",
+              "source": "Cooperativa"
+            },
+            {
+              "title": "¿Quién es Lumumba? El hincha que no se mueve en partidos del Congo y que llegará al Mundial 2026",
+              "url": "https://www.chilevision.cl/chv-deportes/futbol-internacional/quien-es-lumumba-el-hincha-que-no-se-mueve-en-partidos-del-congo-y-que-llegara-al-mundial-2026/",
+              "source": "Chilevisión"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alreadyCovered": [
+    {
+      "query": "bosnia vs qatar",
+      "matchUrl": "/noticias/grupo-b-mundial-2026-canada-qatar-suiza-bosnia-horarios-analisis"
+    },
+    {
+      "query": "canada vs suiza",
+      "matchUrl": "/noticias/grupo-b-mundial-2026-canada-qatar-suiza-bosnia-horarios-analisis"
+    },
+    {
+      "query": "copa mundial de fútbol",
+      "matchUrl": "/noticias/lamine-yamal-primer-mundial-2026-espana-17-anos-eurocopa"
+    },
+    {
+      "query": "posiciones de selección de fútbol de colombia contra selección de fútbol de la república democrática del congo",
+      "matchUrl": "/selecciones"
+    },
+    {
+      "query": "como quedo el partido de colombia",
+      "matchUrl": "/noticias/como-ver-mundial-2026-movistar-plus-dazn-todos-los-partidos-contratar"
+    },
+    {
+      "query": "suiza vs canada pronostico",
+      "matchUrl": "/noticias/grupo-b-mundial-2026-canada-qatar-suiza-bosnia-horarios-analisis"
+    },
+    {
+      "query": "grupo j",
+      "matchUrl": "/2026/grupos"
+    },
+    {
+      "query": "tabla de posiciones mundial 2026",
+      "matchUrl": "/coleccionismo/panini-mundial-2026"
+    },
+    {
+      "query": "cuando vuelve a jugar colombia",
+      "matchUrl": "/noticias/cuando-juega-colombia-mundial-2026-horarios-donde-ver-tv"
+    },
+    {
+      "query": "simulador mundial 2026",
+      "matchUrl": "/coleccionismo/panini-mundial-2026"
+    },
+    {
+      "query": "posiciones de selección de fútbol de colombia contra selección de fútbol de la república democrática del congo",
+      "matchUrl": "/selecciones"
+    },
+    {
+      "query": "grupo de colombia",
+      "matchUrl": "/noticias/h2h-uzbekistan-colombia-mundial-2026-grupo-k"
+    },
+    {
+      "query": "partidos de mañana mundial",
+      "matchUrl": "/noticias/partidos-mundial-2026-hoy-2026-06-24"
+    },
+    {
+      "query": "tabla mundial 2026",
+      "matchUrl": "/coleccionismo/panini-mundial-2026"
+    },
+    {
+      "query": "suiza vs canada",
+      "matchUrl": "/noticias/grupo-b-mundial-2026-canada-qatar-suiza-bosnia-horarios-analisis"
+    },
+    {
+      "query": "posiciones de selección de fútbol de colombia contra selección de fútbol de la república democrática del congo",
+      "matchUrl": "/selecciones"
+    },
+    {
+      "query": "posiciones de selección de fútbol de colombia contra selección de fútbol de la república democrática del congo",
+      "matchUrl": "/selecciones"
+    },
+    {
+      "query": "colombia vs rd congo",
+      "matchUrl": "/noticias/colombia-rd-del-congo-resultado-mundial-2026"
+    },
+    {
+      "query": "posiciones de selección de fútbol de colombia contra selección de fútbol de la república democrática del congo",
+      "matchUrl": "/selecciones"
+    },
+    {
+      "query": "colombia vs congo",
+      "matchUrl": "/noticias/colombia-rd-del-congo-resultado-mundial-2026"
+    },
+    {
+      "query": "croacia fc",
+      "matchUrl": "/historias/modric-croacia-2018-rusia-subcampeona-luzhniki-final"
+    },
+    {
+      "query": "panamá - croacia",
+      "matchUrl": "/noticias/panama-croacia-resultado-mundial-2026"
+    },
+    {
+      "query": "ghana",
+      "matchUrl": "/noticias/ghana-panama-resultado-mundial-2026"
+    },
+    {
+      "query": "inglaterra - ghana",
+      "matchUrl": "/noticias/convocatoria-panama-mundial-2026-christiansen-26-jugadores-anibal-godoy-quintero-grupo-inglaterra-croacia-ghana"
+    },
+    {
+      "query": "portugal vs",
+      "matchUrl": "/noticias/portugal-uzbekistan-resultado-mundial-2026"
+    },
+    {
+      "query": "¿como son los cruces del mundial 2026?",
+      "matchUrl": "/coleccionismo/panini-mundial-2026"
+    },
+    {
+      "query": "panama",
+      "matchUrl": "/noticias/panama-croacia-resultado-mundial-2026"
+    }
+  ]
+}

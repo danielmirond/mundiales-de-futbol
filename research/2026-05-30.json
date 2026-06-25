@@ -1,0 +1,194 @@
+{
+  "generatedAt": "2026-05-30T09:00:29.700Z",
+  "date": "2026-05-30",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "mundial 2026",
+      "geo": "CO",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Villa habló tras no ser convocado con Colombia: “No tengo ningún problema con la justicia”",
+          "url": "https://www.elespectador.com/deportes/seleccion-colombia/villa-hablo-tras-no-ser-convocado-con-colombia-no-tengo-ningun-problema-con-la-justicia/",
+          "source": "El Espectador"
+        },
+        {
+          "title": "Néstor Lorenzo admite culpa en la polémica por incluir a Sebastián Villa en prelista de la Selección Colombia: &apos;Me equivoqué en exponerlo&apos;",
+          "url": "https://www.eltiempo.com/deportes/futbol-internacional/nestor-lorenzo-admite-culpa-en-la-polemica-por-incluir-a-sebastian-villa-en-prelista-de-la-seleccion-colombia-me-equivoque-en-exponerlo-3559224",
+          "source": "ELTIEMPO.COM"
+        },
+        {
+          "title": "Sebastián Villa desmintió lo dicho en su contra: duro dardo por su sacada del Mundial 2026",
+          "url": "https://www.semana.com/deportes/articulo/sebastian-villa-desmintio-lo-dicho-en-su-contra-duro-dardo-por-su-sacada-del-mundial-2026/202640/",
+          "source": "Revista Semana"
+        }
+      ]
+    },
+    {
+      "query": "länderspiel",
+      "geo": "DE",
+      "language": "de",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Der Sport-Tag: Wie weit kommt das DFB-Team bei der WM?",
+          "url": "https://www.n-tv.de/sport/der_sport_tag/Wie-weit-kommt-das-DFB-Team-bei-der-WM-id30870820.html",
+          "source": "Ntv"
+        },
+        {
+          "title": "Diese Chancen geben die Bürgermeister der deutschen Nationalmannschaft",
+          "url": "https://www.lokalplus.nrw/kreis-olpe/diese-chancen-geben-die-buergermeister-der-deutschen-nationalmannschaft-101947",
+          "source": "LokalPlus"
+        },
+        {
+          "title": "Fußball: WM 2026: Warum deutsche Fans Glück mit den Anstoßzeiten haben | BR.de",
+          "url": "https://www.br.de/radio/br24/sendungen/sport/fr-online-fanfreundliche-zeiten-fr-deutsche-wm-fans-100.html",
+          "source": "BR"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "es": [
+      {
+        "query": "mundial 2026",
+        "score": 200,
+        "geos": [
+          "CO"
+        ],
+        "samples": [
+          {
+            "query": "mundial 2026",
+            "geo": "CO",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Villa habló tras no ser convocado con Colombia: “No tengo ningún problema con la justicia”",
+                "url": "https://www.elespectador.com/deportes/seleccion-colombia/villa-hablo-tras-no-ser-convocado-con-colombia-no-tengo-ningun-problema-con-la-justicia/",
+                "source": "El Espectador"
+              },
+              {
+                "title": "Néstor Lorenzo admite culpa en la polémica por incluir a Sebastián Villa en prelista de la Selección Colombia: &apos;Me equivoqué en exponerlo&apos;",
+                "url": "https://www.eltiempo.com/deportes/futbol-internacional/nestor-lorenzo-admite-culpa-en-la-polemica-por-incluir-a-sebastian-villa-en-prelista-de-la-seleccion-colombia-me-equivoque-en-exponerlo-3559224",
+                "source": "ELTIEMPO.COM"
+              },
+              {
+                "title": "Sebastián Villa desmintió lo dicho en su contra: duro dardo por su sacada del Mundial 2026",
+                "url": "https://www.semana.com/deportes/articulo/sebastian-villa-desmintio-lo-dicho-en-su-contra-duro-dardo-por-su-sacada-del-mundial-2026/202640/",
+                "source": "Revista Semana"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "de": [
+      {
+        "query": "länderspiel",
+        "score": 200,
+        "geos": [
+          "DE"
+        ],
+        "samples": [
+          {
+            "query": "länderspiel",
+            "geo": "DE",
+            "language": "de",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Der Sport-Tag: Wie weit kommt das DFB-Team bei der WM?",
+                "url": "https://www.n-tv.de/sport/der_sport_tag/Wie-weit-kommt-das-DFB-Team-bei-der-WM-id30870820.html",
+                "source": "Ntv"
+              },
+              {
+                "title": "Diese Chancen geben die Bürgermeister der deutschen Nationalmannschaft",
+                "url": "https://www.lokalplus.nrw/kreis-olpe/diese-chancen-geben-die-buergermeister-der-deutschen-nationalmannschaft-101947",
+                "source": "LokalPlus"
+              },
+              {
+                "title": "Fußball: WM 2026: Warum deutsche Fans Glück mit den Anstoßzeiten haben | BR.de",
+                "url": "https://www.br.de/radio/br24/sendungen/sport/fr-online-fanfreundliche-zeiten-fr-deutsche-wm-fans-100.html",
+                "source": "BR"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "topic": "länderspiel",
+      "type": "noticia",
+      "slugSuggestion": "landerspiel",
+      "language": "de",
+      "geos": [
+        "DE"
+      ],
+      "score": 240,
+      "reason": "Google Trends daily DE con 200 búsquedas · 3 artículos noticiosos referenciando \"länderspiel\"",
+      "proposedPath": "/noticias/landerspiel",
+      "evidence": [
+        {
+          "query": "länderspiel",
+          "geo": "DE",
+          "language": "de",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Der Sport-Tag: Wie weit kommt das DFB-Team bei der WM?",
+              "url": "https://www.n-tv.de/sport/der_sport_tag/Wie-weit-kommt-das-DFB-Team-bei-der-WM-id30870820.html",
+              "source": "Ntv"
+            },
+            {
+              "title": "Diese Chancen geben die Bürgermeister der deutschen Nationalmannschaft",
+              "url": "https://www.lokalplus.nrw/kreis-olpe/diese-chancen-geben-die-buergermeister-der-deutschen-nationalmannschaft-101947",
+              "source": "LokalPlus"
+            },
+            {
+              "title": "Fußball: WM 2026: Warum deutsche Fans Glück mit den Anstoßzeiten haben | BR.de",
+              "url": "https://www.br.de/radio/br24/sendungen/sport/fr-online-fanfreundliche-zeiten-fr-deutsche-wm-fans-100.html",
+              "source": "BR"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alreadyCovered": [
+    {
+      "query": "mundial 2026",
+      "matchUrl": "/coleccionismo/panini-mundial-2026"
+    }
+  ]
+}

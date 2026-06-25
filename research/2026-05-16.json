@@ -1,0 +1,189 @@
+{
+  "generatedAt": "2026-05-16T08:23:52.581Z",
+  "date": "2026-05-16",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "multibet",
+      "geo": "BR",
+      "language": "pt",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Copa do Mundo 2026 na Superbet: é uma boa escolha?",
+          "url": "https://www.gazetadopovo.com.br/conteudo-publicitario/apostas/copa-do-mundo-superbet/",
+          "source": "Gazeta do Povo"
+        },
+        {
+          "title": "Quem pode alcançar o Brasil em número de títulos na Copa do Mundo de 2026",
+          "url": "https://www.nsctotal.com.br/noticias/quem-pode-alcancar-o-brasil-em-numero-de-titulos-na-copa-do-mundo-de-2026",
+          "source": "NSC Total"
+        },
+        {
+          "title": "EstrelaBet Copa do Mundo 2026: dicas para apostar com bônus",
+          "url": "https://www.metropoles.com/apostas/estrelabet-copa-do-mundo",
+          "source": "Metrópoles"
+        }
+      ]
+    },
+    {
+      "query": "이기혁",
+      "geo": "KR",
+      "language": "ko",
+      "source": "google-trends-daily",
+      "score": 10000,
+      "articles": [
+        {
+          "title": "K리그 이기혁 깜짝 발탁 ... 2026 북중미 월드컵 나설 최종 26인 확정",
+          "url": "https://www.chosun.com/national/national_general/2026/05/16/NWBGGXJCWZEXNOH6HDFOPHJC64/",
+          "source": "조선일보"
+        },
+        {
+          "title": "손흥민, 4번째 월드컵 뜬다…&apos;홍명보호&apos; 26인 발표",
+          "url": "https://www.hankyung.com/article/2026051608307",
+          "source": "한국경제"
+        },
+        {
+          "title": "손흥민 4번째 도전·이기혁 깜짝 발탁…2026 월드컵 태극전사 발표",
+          "url": "https://www.khan.co.kr/article/202605161649001",
+          "source": "경향신문"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "pt": [
+      {
+        "query": "multibet",
+        "score": 130,
+        "geos": [
+          "BR"
+        ],
+        "samples": [
+          {
+            "query": "multibet",
+            "geo": "BR",
+            "language": "pt",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Copa do Mundo 2026 na Superbet: é uma boa escolha?",
+                "url": "https://www.gazetadopovo.com.br/conteudo-publicitario/apostas/copa-do-mundo-superbet/",
+                "source": "Gazeta do Povo"
+              },
+              {
+                "title": "Quem pode alcançar o Brasil em número de títulos na Copa do Mundo de 2026",
+                "url": "https://www.nsctotal.com.br/noticias/quem-pode-alcancar-o-brasil-em-numero-de-titulos-na-copa-do-mundo-de-2026",
+                "source": "NSC Total"
+              },
+              {
+                "title": "EstrelaBet Copa do Mundo 2026: dicas para apostar com bônus",
+                "url": "https://www.metropoles.com/apostas/estrelabet-copa-do-mundo",
+                "source": "Metrópoles"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ko": [
+      {
+        "query": "이기혁",
+        "score": 7000,
+        "geos": [
+          "KR"
+        ],
+        "samples": [
+          {
+            "query": "이기혁",
+            "geo": "KR",
+            "language": "ko",
+            "source": "google-trends-daily",
+            "score": 10000,
+            "articles": [
+              {
+                "title": "K리그 이기혁 깜짝 발탁 ... 2026 북중미 월드컵 나설 최종 26인 확정",
+                "url": "https://www.chosun.com/national/national_general/2026/05/16/NWBGGXJCWZEXNOH6HDFOPHJC64/",
+                "source": "조선일보"
+              },
+              {
+                "title": "손흥민, 4번째 월드컵 뜬다…&apos;홍명보호&apos; 26인 발표",
+                "url": "https://www.hankyung.com/article/2026051608307",
+                "source": "한국경제"
+              },
+              {
+                "title": "손흥민 4번째 도전·이기혁 깜짝 발탁…2026 월드컵 태극전사 발표",
+                "url": "https://www.khan.co.kr/article/202605161649001",
+                "source": "경향신문"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "topic": "multibet",
+      "type": "noticia",
+      "slugSuggestion": "multibet",
+      "language": "pt",
+      "geos": [
+        "BR"
+      ],
+      "score": 156,
+      "reason": "Google Trends daily BR con 100 búsquedas · 3 artículos noticiosos referenciando \"multibet\"",
+      "proposedPath": "/noticias/multibet",
+      "evidence": [
+        {
+          "query": "multibet",
+          "geo": "BR",
+          "language": "pt",
+          "source": "google-trends-daily",
+          "score": 100,
+          "articles": [
+            {
+              "title": "Copa do Mundo 2026 na Superbet: é uma boa escolha?",
+              "url": "https://www.gazetadopovo.com.br/conteudo-publicitario/apostas/copa-do-mundo-superbet/",
+              "source": "Gazeta do Povo"
+            },
+            {
+              "title": "Quem pode alcançar o Brasil em número de títulos na Copa do Mundo de 2026",
+              "url": "https://www.nsctotal.com.br/noticias/quem-pode-alcancar-o-brasil-em-numero-de-titulos-na-copa-do-mundo-de-2026",
+              "source": "NSC Total"
+            },
+            {
+              "title": "EstrelaBet Copa do Mundo 2026: dicas para apostar com bônus",
+              "url": "https://www.metropoles.com/apostas/estrelabet-copa-do-mundo",
+              "source": "Metrópoles"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alreadyCovered": []
+}

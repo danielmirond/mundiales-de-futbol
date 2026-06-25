@@ -1,0 +1,194 @@
+{
+  "generatedAt": "2026-05-15T09:30:20.870Z",
+  "date": "2026-05-15",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "lista de francia mundial 2026",
+      "geo": "CL",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Nómina oficial de Francia para el Mundial 2026: Mbappé y Dembélé lideran, fuera Camavinga",
+          "url": "https://www.emol.com/noticias/Deportes/2026/05/14/1200041/nomina-francia-mundial-mbappe-camavinga.html",
+          "source": "Emol"
+        },
+        {
+          "title": "Lista de Francia, en directo: convocatoria y jugadores de la selección francesa para el Mundial, hoy en vivo",
+          "url": "https://as.com/futbol/internacional/lista-de-francia-en-directo-convocatoria-y-jugadores-de-la-seleccion-francesa-para-el-mundial-hoy-en-vivo-f202605-d/",
+          "source": "Diario AS"
+        },
+        {
+          "title": "Camavinga, fuera de la lista de Francia para el Mundial",
+          "url": "https://www.marca.com/futbol/real-madrid/2026/05/14/camavinga-fuera-lista-deschamps-mundial.html",
+          "source": "MARCA"
+        }
+      ]
+    },
+    {
+      "query": "roger martínez",
+      "geo": "PT",
+      "language": "pt",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Lorenzo desveló parte de la estrategia para el Mundial y sus intenciones en los entrenamientos",
+          "url": "https://www.deportesrcn.com/futbol/seleccion-colombia/lorenzo-desvelo-parte-de-la-estrategia-para-el-mundial-y-sus-intenciones-en-los-entrenamientos-150927",
+          "source": "Deportes RCN"
+        },
+        {
+          "title": "Luis Díaz y James Rodríguez lideran la prelista de Colombia para el Mundial de 2026",
+          "url": "https://www.swissinfo.ch/spa/luis-d%C3%ADaz-y-james-rodr%C3%ADguez-lideran-la-prelista-de-colombia-para-el-mundial-de-2026/91415938",
+          "source": "SWI swissinfo.ch"
+        },
+        {
+          "title": "“Condenado”: El apodo de Vélez a Sebastián Villa por aparecer en la prelista de Colombia al Mundial 2026",
+          "url": "https://bolavip.com/futbol-colombia/condenado-el-apodo-de-velez-a-sebastian-villa-por-aparecer-en-la-prelista-de-colombia-al-mundial-2026",
+          "source": "Bolavip"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "es": [
+      {
+        "query": "lista de francia mundial 2026",
+        "score": 90,
+        "geos": [
+          "CL"
+        ],
+        "samples": [
+          {
+            "query": "lista de francia mundial 2026",
+            "geo": "CL",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Nómina oficial de Francia para el Mundial 2026: Mbappé y Dembélé lideran, fuera Camavinga",
+                "url": "https://www.emol.com/noticias/Deportes/2026/05/14/1200041/nomina-francia-mundial-mbappe-camavinga.html",
+                "source": "Emol"
+              },
+              {
+                "title": "Lista de Francia, en directo: convocatoria y jugadores de la selección francesa para el Mundial, hoy en vivo",
+                "url": "https://as.com/futbol/internacional/lista-de-francia-en-directo-convocatoria-y-jugadores-de-la-seleccion-francesa-para-el-mundial-hoy-en-vivo-f202605-d/",
+                "source": "Diario AS"
+              },
+              {
+                "title": "Camavinga, fuera de la lista de Francia para el Mundial",
+                "url": "https://www.marca.com/futbol/real-madrid/2026/05/14/camavinga-fuera-lista-deschamps-mundial.html",
+                "source": "MARCA"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "pt": [
+      {
+        "query": "roger martínez",
+        "score": 200,
+        "geos": [
+          "PT"
+        ],
+        "samples": [
+          {
+            "query": "roger martínez",
+            "geo": "PT",
+            "language": "pt",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Lorenzo desveló parte de la estrategia para el Mundial y sus intenciones en los entrenamientos",
+                "url": "https://www.deportesrcn.com/futbol/seleccion-colombia/lorenzo-desvelo-parte-de-la-estrategia-para-el-mundial-y-sus-intenciones-en-los-entrenamientos-150927",
+                "source": "Deportes RCN"
+              },
+              {
+                "title": "Luis Díaz y James Rodríguez lideran la prelista de Colombia para el Mundial de 2026",
+                "url": "https://www.swissinfo.ch/spa/luis-d%C3%ADaz-y-james-rodr%C3%ADguez-lideran-la-prelista-de-colombia-para-el-mundial-de-2026/91415938",
+                "source": "SWI swissinfo.ch"
+              },
+              {
+                "title": "“Condenado”: El apodo de Vélez a Sebastián Villa por aparecer en la prelista de Colombia al Mundial 2026",
+                "url": "https://bolavip.com/futbol-colombia/condenado-el-apodo-de-velez-a-sebastian-villa-por-aparecer-en-la-prelista-de-colombia-al-mundial-2026",
+                "source": "Bolavip"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "topic": "roger martínez",
+      "type": "noticia",
+      "slugSuggestion": "roger-martinez",
+      "language": "pt",
+      "geos": [
+        "PT"
+      ],
+      "score": 240,
+      "reason": "Google Trends daily PT con 200 búsquedas · 3 artículos noticiosos referenciando \"roger martínez\"",
+      "proposedPath": "/noticias/roger-martinez",
+      "evidence": [
+        {
+          "query": "roger martínez",
+          "geo": "PT",
+          "language": "pt",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Lorenzo desveló parte de la estrategia para el Mundial y sus intenciones en los entrenamientos",
+              "url": "https://www.deportesrcn.com/futbol/seleccion-colombia/lorenzo-desvelo-parte-de-la-estrategia-para-el-mundial-y-sus-intenciones-en-los-entrenamientos-150927",
+              "source": "Deportes RCN"
+            },
+            {
+              "title": "Luis Díaz y James Rodríguez lideran la prelista de Colombia para el Mundial de 2026",
+              "url": "https://www.swissinfo.ch/spa/luis-d%C3%ADaz-y-james-rodr%C3%ADguez-lideran-la-prelista-de-colombia-para-el-mundial-de-2026/91415938",
+              "source": "SWI swissinfo.ch"
+            },
+            {
+              "title": "“Condenado”: El apodo de Vélez a Sebastián Villa por aparecer en la prelista de Colombia al Mundial 2026",
+              "url": "https://bolavip.com/futbol-colombia/condenado-el-apodo-de-velez-a-sebastian-villa-por-aparecer-en-la-prelista-de-colombia-al-mundial-2026",
+              "source": "Bolavip"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alreadyCovered": [
+    {
+      "query": "lista de francia mundial 2026",
+      "matchUrl": "/2026/listas"
+    }
+  ]
+}

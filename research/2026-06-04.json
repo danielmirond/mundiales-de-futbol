@@ -1,0 +1,690 @@
+{
+  "generatedAt": "2026-06-04T10:26:09.169Z",
+  "date": "2026-06-04",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "2026 fifa world cup",
+      "geo": "MX",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "JAS Rises 9% Amid Potential Acquisition of 2026 FIFA World Cup Broadcasting Rights",
+          "url": "https://www.kaohooninternational.com/markets/584054",
+          "source": "kaohoon international"
+        },
+        {
+          "title": "JAS targets World Cup 2026 rights in bid to retain Premier League subscribers",
+          "url": "https://thethaiger.com/news/business/jas-targets-world-cup-2026-rights-in-bid-to-retain-premier-league-subscribers",
+          "source": "Thaiger"
+        },
+        {
+          "title": "Morocco World Cup 2026 preview: Players to watch, group and squad list",
+          "url": "https://www.aljazeera.com/sports/2026/6/3/morocco-world-cup-2026-preview-players-to-watch-group-and-squad-list",
+          "source": "Al Jazeera"
+        }
+      ]
+    },
+    {
+      "query": "veljko paunović",
+      "geo": "MX",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "Veljko Paunovic intentó llevarse a Brian Gutiérrez al Oviedo",
+          "url": "https://www.espn.com.mx/futbol/mundial/nota/_/id/16794807/mexico-vs-serbia-tecnico-veljko-paunovic-fichaje-brian-gutierrez-oviedo",
+          "source": "ESPN México"
+        },
+        {
+          "title": "Veljko Paunović ve a México capaz de firmar su mejor Mundial",
+          "url": "https://www.record.com.mx/historia/veljko-paunovic-ve-a-mexico-capaz-de-firmar-su-mejor-mundial-2026060400241549091",
+          "source": "RÉCORD"
+        },
+        {
+          "title": "Dónde y cómo ver en vivo y gratis México vs. Serbia hoy: TV y streaming online del amistoso previo al Mundial 2026",
+          "url": "https://es-us.noticias.yahoo.com/deportes/d%C3%B3nde-vivo-gratis-m%C3%A9xico-vs-090002841.html",
+          "source": "Yahoo"
+        }
+      ]
+    },
+    {
+      "query": "2026 fifa world cup",
+      "geo": "CO",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "How the University of Tennessee made the 2026 FIFA World Cup happen",
+          "url": "https://www.knoxnews.com/videos/sports/2026/06/04/how-the-university-of-tennessee-made-the-2026-fifa-world-cup-happen/90391267007/",
+          "source": "Knoxville News Sentinel"
+        },
+        {
+          "title": "What makes a World Cup pitch?",
+          "url": "https://www.fox26houston.com/video/fmc-ke9e9afw0ma4tya3",
+          "source": "FOX 26 Houston"
+        },
+        {
+          "title": "Why Tennessee fans can beam with pride over 2026 FIFA World Cup playing fields",
+          "url": "https://www.aol.com/articles/why-tennessee-fans-beam-pride-090538887.html",
+          "source": "AOL.com"
+        }
+      ]
+    },
+    {
+      "query": "2026 fifa world cup",
+      "geo": "CL",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "World Cup 2026 Group J guide - fixtures, schedule, standings and odds for Argentina, Algeria, Austria and Jordan",
+          "url": "https://www.skysports.com/football/news/12098/13543105/world-cup-2026-group-j-guide-fixtures-schedule-standings-and-odds-for-argentina-algeria-austria-and-jordan",
+          "source": "Sky Sports"
+        },
+        {
+          "title": "Video: 2026 FIFA World Cup Group J",
+          "url": "https://ats.io/videos/2026-fifa-world-cup-group-j/",
+          "source": "ATS.io"
+        },
+        {
+          "title": "2026 WORLD CUP GROUP J | Argentina have easy passage; Austria, Algeria to fight for second",
+          "url": "https://www.timeslive.co.za/sport/2026-06-02-2026-world-cup-group-j-argentina-have-easy-passage-austria-algeria-to-fight-for-second/",
+          "source": "TimesLIVE"
+        }
+      ]
+    },
+    {
+      "query": "panama vs",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "VIDEO: Panamá se impuso ante República Dominicana en amistoso previo al Mundial 2026",
+          "url": "https://elcomercio.pe/deporte-total/futbol-mundial/rpc-en-vivo-gratis-panama-vs-republica-dominicana-hoy-por-internet-via-tvn-y-tvmax-por-partido-amistoso-video-noticia/",
+          "source": "El Comercio Perú"
+        },
+        {
+          "title": "Waterman ridiculizó al arquero y anotó GOLAZO con Panamá",
+          "url": "https://www.americatv.com.pe/deportes/futbol-mundial/ridiculizo-al-arquero-y-defensa-golazo-waterman-panama-n454076",
+          "source": "América TV"
+        },
+        {
+          "title": "Video, goles y mejores jugadas: Panamá vs. República Dominicana (4-2), por amistoso internacional",
+          "url": "https://depor.com/futbol-internacional/futbol-libre-tv-en-vivo-panama-vs-republica-dominicana-gratis-hoy-como-ver-rpc-tv-futbol-libre-tv-tvmax-tvn-por-internet-video-noticia/",
+          "source": "Depor"
+        }
+      ]
+    },
+    {
+      "query": "2026 fifa world cup",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "How the University of Tennessee made the 2026 FIFA World Cup happen",
+          "url": "https://www.knoxnews.com/videos/sports/2026/06/04/how-the-university-of-tennessee-made-the-2026-fifa-world-cup-happen/90391267007/",
+          "source": "Knoxville News Sentinel"
+        },
+        {
+          "title": "What makes a World Cup pitch?",
+          "url": "https://www.fox26houston.com/video/fmc-ke9e9afw0ma4tya3",
+          "source": "FOX 26 Houston"
+        },
+        {
+          "title": "Why Tennessee fans can beam with pride over 2026 FIFA World Cup playing fields",
+          "url": "https://www.aol.com/articles/why-tennessee-fans-beam-pride-090538887.html",
+          "source": "AOL.com"
+        }
+      ]
+    },
+    {
+      "query": "países bajos - argelia",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 5000,
+      "articles": [
+        {
+          "title": "Zidane va muy en serio",
+          "url": "https://as.com/futbol/mundial/zidane-va-muy-en-serio-f202606-n/",
+          "source": "Diario AS"
+        },
+        {
+          "title": "Mundial 2026, en VIVO: Argelia venció 1 a 0 a Países Bajos en un amistoso",
+          "url": "https://www.infobae.com/deportes/2026/06/03/mundial-2026-en-vivo-ultimas-noticias-de-hoy-3-de-junio-listas-de-convocados-partidos-amistosos-y-mas/",
+          "source": "Infobae"
+        },
+        {
+          "title": "Los Países Bajos pagan su falta de pegada con una inesperada derrota ante Argelia",
+          "url": "https://www.ecuavisa.com/futbol-internacional/los-paises-bajos-pagan-su-falta-de-pegada-con-una-inesperada-derrota-ante-argelia-20260603-0070.html",
+          "source": "Ecuavisa"
+        }
+      ]
+    },
+    {
+      "query": "argentina vs",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "World Cup 2026: Lionel Messi to represent Argentina at sixth tournament",
+          "url": "https://www.bbc.com/sport/football/articles/cr5p96l270ro",
+          "source": "BBC"
+        },
+        {
+          "title": "Argentina seek to emulate Italy and Brazil as back-to-back champions",
+          "url": "https://www.reuters.com/sports/soccer/argentina-seek-emulate-italy-brazil-back-to-back-champions-2026-06-02/",
+          "source": "Reuters"
+        },
+        {
+          "title": "Messi leads an experienced Argentina World Cup squad, as Scaloni opts for continuity",
+          "url": "https://www.espn.com/soccer/story/_/id/48907909/messi-leads-experienced-argentina-world-cup-squad-scaloni-opts-continuity",
+          "source": "ESPN"
+        }
+      ]
+    },
+    {
+      "query": "campeón",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Mirá quién ganará el Mundial 2026 según predijo una supercomputadora a través de un método de simulaciones: su pronóstico sobre Uruguay",
+          "url": "https://www.elobservador.com.uy/mundial-2026/mira-quien-ganara-el-mundial-2026-segun-predijo-una-supercomputadora-traves-un-metodo-simulaciones-su-pronostico-uruguay-n6046238",
+          "source": "El Observador"
+        },
+        {
+          "title": "Predijo a los últimos tres campeones del mundo y reveló su ganador para el Mundial 2026",
+          "url": "https://www.tycsports.com/mundial/el-matematico-que-predijo-los-ultimos-tres-campeones-del-mundo-revelo-a-su-candidato-para-el-mundial-2026-id734294.html",
+          "source": "TyC Sports"
+        },
+        {
+          "title": "Portugal elimina a Argentina y Cristiano Ronaldo llega a la final: Predicción matemática sacude al Mundial",
+          "url": "https://bolavip.com/mundial/portugal-elimina-a-argentina-y-cristiano-ronaldo-llega-a-la-final-prediccion-matematica-sacude-al-mundial",
+          "source": "Bolavip"
+        }
+      ]
+    },
+    {
+      "query": "selección de fútbol de argentina",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Las perlitas de la práctica de la Selección en Kansas City: la posible formación para enfrentar a Honduras y el único ausente",
+          "url": "https://www.infobae.com/deportes/2026/06/04/las-perlitas-de-la-practica-de-la-seleccion-en-kansas-city-la-posible-formacion-para-enfrentar-a-honduras-y-el-unico-ausente/",
+          "source": "Infobae"
+        },
+        {
+          "title": "Mundial 2026, en vivo: la puesta a punto del conjunto nacional y el posible 11 titular para el amistoso ante Honduras",
+          "url": "https://www.lanacion.com.ar/deportes/mundial-2026-en-vivo-la-puesta-a-punto-del-conjunto-nacional-y-el-posible-11-titular-para-el-nid04062026/",
+          "source": "La Nación"
+        },
+        {
+          "title": "\"Todos nos quieren ganar\": la palabra de Chiqui Tapia desde la concentración argentina en Kansas",
+          "url": "https://www.elgrafico.com.ar/articulo/seleccion-argentina/100418/todos-nos-quieren-ganar-la-palabra-de-chiqui-tapia-desde-la-concentracion-argentina-en-kansas",
+          "source": "Elgrafico.com.ar"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "es": [
+      {
+        "query": "países bajos - argelia",
+        "score": 4000,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "países bajos - argelia",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 5000,
+            "articles": [
+              {
+                "title": "Zidane va muy en serio",
+                "url": "https://as.com/futbol/mundial/zidane-va-muy-en-serio-f202606-n/",
+                "source": "Diario AS"
+              },
+              {
+                "title": "Mundial 2026, en VIVO: Argelia venció 1 a 0 a Países Bajos en un amistoso",
+                "url": "https://www.infobae.com/deportes/2026/06/03/mundial-2026-en-vivo-ultimas-noticias-de-hoy-3-de-junio-listas-de-convocados-partidos-amistosos-y-mas/",
+                "source": "Infobae"
+              },
+              {
+                "title": "Los Países Bajos pagan su falta de pegada con una inesperada derrota ante Argelia",
+                "url": "https://www.ecuavisa.com/futbol-internacional/los-paises-bajos-pagan-su-falta-de-pegada-con-una-inesperada-derrota-ante-argelia-20260603-0070.html",
+                "source": "Ecuavisa"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "2026 fifa world cup",
+        "score": 3640,
+        "geos": [
+          "MX",
+          "CO",
+          "CL",
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "2026 fifa world cup",
+            "geo": "MX",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "JAS Rises 9% Amid Potential Acquisition of 2026 FIFA World Cup Broadcasting Rights",
+                "url": "https://www.kaohooninternational.com/markets/584054",
+                "source": "kaohoon international"
+              },
+              {
+                "title": "JAS targets World Cup 2026 rights in bid to retain Premier League subscribers",
+                "url": "https://thethaiger.com/news/business/jas-targets-world-cup-2026-rights-in-bid-to-retain-premier-league-subscribers",
+                "source": "Thaiger"
+              },
+              {
+                "title": "Morocco World Cup 2026 preview: Players to watch, group and squad list",
+                "url": "https://www.aljazeera.com/sports/2026/6/3/morocco-world-cup-2026-preview-players-to-watch-group-and-squad-list",
+                "source": "Al Jazeera"
+              }
+            ]
+          },
+          {
+            "query": "2026 fifa world cup",
+            "geo": "CO",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "How the University of Tennessee made the 2026 FIFA World Cup happen",
+                "url": "https://www.knoxnews.com/videos/sports/2026/06/04/how-the-university-of-tennessee-made-the-2026-fifa-world-cup-happen/90391267007/",
+                "source": "Knoxville News Sentinel"
+              },
+              {
+                "title": "What makes a World Cup pitch?",
+                "url": "https://www.fox26houston.com/video/fmc-ke9e9afw0ma4tya3",
+                "source": "FOX 26 Houston"
+              },
+              {
+                "title": "Why Tennessee fans can beam with pride over 2026 FIFA World Cup playing fields",
+                "url": "https://www.aol.com/articles/why-tennessee-fans-beam-pride-090538887.html",
+                "source": "AOL.com"
+              }
+            ]
+          },
+          {
+            "query": "2026 fifa world cup",
+            "geo": "CL",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "World Cup 2026 Group J guide - fixtures, schedule, standings and odds for Argentina, Algeria, Austria and Jordan",
+                "url": "https://www.skysports.com/football/news/12098/13543105/world-cup-2026-group-j-guide-fixtures-schedule-standings-and-odds-for-argentina-algeria-austria-and-jordan",
+                "source": "Sky Sports"
+              },
+              {
+                "title": "Video: 2026 FIFA World Cup Group J",
+                "url": "https://ats.io/videos/2026-fifa-world-cup-group-j/",
+                "source": "ATS.io"
+              },
+              {
+                "title": "2026 WORLD CUP GROUP J | Argentina have easy passage; Austria, Algeria to fight for second",
+                "url": "https://www.timeslive.co.za/sport/2026-06-02-2026-world-cup-group-j-argentina-have-easy-passage-austria-algeria-to-fight-for-second/",
+                "source": "TimesLIVE"
+              }
+            ]
+          },
+          {
+            "query": "2026 fifa world cup",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "How the University of Tennessee made the 2026 FIFA World Cup happen",
+                "url": "https://www.knoxnews.com/videos/sports/2026/06/04/how-the-university-of-tennessee-made-the-2026-fifa-world-cup-happen/90391267007/",
+                "source": "Knoxville News Sentinel"
+              },
+              {
+                "title": "What makes a World Cup pitch?",
+                "url": "https://www.fox26houston.com/video/fmc-ke9e9afw0ma4tya3",
+                "source": "FOX 26 Houston"
+              },
+              {
+                "title": "Why Tennessee fans can beam with pride over 2026 FIFA World Cup playing fields",
+                "url": "https://www.aol.com/articles/why-tennessee-fans-beam-pride-090538887.html",
+                "source": "AOL.com"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "panama vs",
+        "score": 1800,
+        "geos": [
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "panama vs",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "VIDEO: Panamá se impuso ante República Dominicana en amistoso previo al Mundial 2026",
+                "url": "https://elcomercio.pe/deporte-total/futbol-mundial/rpc-en-vivo-gratis-panama-vs-republica-dominicana-hoy-por-internet-via-tvn-y-tvmax-por-partido-amistoso-video-noticia/",
+                "source": "El Comercio Perú"
+              },
+              {
+                "title": "Waterman ridiculizó al arquero y anotó GOLAZO con Panamá",
+                "url": "https://www.americatv.com.pe/deportes/futbol-mundial/ridiculizo-al-arquero-y-defensa-golazo-waterman-panama-n454076",
+                "source": "América TV"
+              },
+              {
+                "title": "Video, goles y mejores jugadas: Panamá vs. República Dominicana (4-2), por amistoso internacional",
+                "url": "https://depor.com/futbol-internacional/futbol-libre-tv-en-vivo-panama-vs-republica-dominicana-gratis-hoy-como-ver-rpc-tv-futbol-libre-tv-tvmax-tvn-por-internet-video-noticia/",
+                "source": "Depor"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "veljko paunović",
+        "score": 1400,
+        "geos": [
+          "MX"
+        ],
+        "samples": [
+          {
+            "query": "veljko paunović",
+            "geo": "MX",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "Veljko Paunovic intentó llevarse a Brian Gutiérrez al Oviedo",
+                "url": "https://www.espn.com.mx/futbol/mundial/nota/_/id/16794807/mexico-vs-serbia-tecnico-veljko-paunovic-fichaje-brian-gutierrez-oviedo",
+                "source": "ESPN México"
+              },
+              {
+                "title": "Veljko Paunović ve a México capaz de firmar su mejor Mundial",
+                "url": "https://www.record.com.mx/historia/veljko-paunovic-ve-a-mexico-capaz-de-firmar-su-mejor-mundial-2026060400241549091",
+                "source": "RÉCORD"
+              },
+              {
+                "title": "Dónde y cómo ver en vivo y gratis México vs. Serbia hoy: TV y streaming online del amistoso previo al Mundial 2026",
+                "url": "https://es-us.noticias.yahoo.com/deportes/d%C3%B3nde-vivo-gratis-m%C3%A9xico-vs-090002841.html",
+                "source": "Yahoo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "argentina vs",
+        "score": 800,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "argentina vs",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "World Cup 2026: Lionel Messi to represent Argentina at sixth tournament",
+                "url": "https://www.bbc.com/sport/football/articles/cr5p96l270ro",
+                "source": "BBC"
+              },
+              {
+                "title": "Argentina seek to emulate Italy and Brazil as back-to-back champions",
+                "url": "https://www.reuters.com/sports/soccer/argentina-seek-emulate-italy-brazil-back-to-back-champions-2026-06-02/",
+                "source": "Reuters"
+              },
+              {
+                "title": "Messi leads an experienced Argentina World Cup squad, as Scaloni opts for continuity",
+                "url": "https://www.espn.com/soccer/story/_/id/48907909/messi-leads-experienced-argentina-world-cup-squad-scaloni-opts-continuity",
+                "source": "ESPN"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "campeón",
+        "score": 180,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "campeón",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Mirá quién ganará el Mundial 2026 según predijo una supercomputadora a través de un método de simulaciones: su pronóstico sobre Uruguay",
+                "url": "https://www.elobservador.com.uy/mundial-2026/mira-quien-ganara-el-mundial-2026-segun-predijo-una-supercomputadora-traves-un-metodo-simulaciones-su-pronostico-uruguay-n6046238",
+                "source": "El Observador"
+              },
+              {
+                "title": "Predijo a los últimos tres campeones del mundo y reveló su ganador para el Mundial 2026",
+                "url": "https://www.tycsports.com/mundial/el-matematico-que-predijo-los-ultimos-tres-campeones-del-mundo-revelo-a-su-candidato-para-el-mundial-2026-id734294.html",
+                "source": "TyC Sports"
+              },
+              {
+                "title": "Portugal elimina a Argentina y Cristiano Ronaldo llega a la final: Predicción matemática sacude al Mundial",
+                "url": "https://bolavip.com/mundial/portugal-elimina-a-argentina-y-cristiano-ronaldo-llega-a-la-final-prediccion-matematica-sacude-al-mundial",
+                "source": "Bolavip"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "selección de fútbol de argentina",
+        "score": 180,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "selección de fútbol de argentina",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Las perlitas de la práctica de la Selección en Kansas City: la posible formación para enfrentar a Honduras y el único ausente",
+                "url": "https://www.infobae.com/deportes/2026/06/04/las-perlitas-de-la-practica-de-la-seleccion-en-kansas-city-la-posible-formacion-para-enfrentar-a-honduras-y-el-unico-ausente/",
+                "source": "Infobae"
+              },
+              {
+                "title": "Mundial 2026, en vivo: la puesta a punto del conjunto nacional y el posible 11 titular para el amistoso ante Honduras",
+                "url": "https://www.lanacion.com.ar/deportes/mundial-2026-en-vivo-la-puesta-a-punto-del-conjunto-nacional-y-el-posible-11-titular-para-el-nid04062026/",
+                "source": "La Nación"
+              },
+              {
+                "title": "\"Todos nos quieren ganar\": la palabra de Chiqui Tapia desde la concentración argentina en Kansas",
+                "url": "https://www.elgrafico.com.ar/articulo/seleccion-argentina/100418/todos-nos-quieren-ganar-la-palabra-de-chiqui-tapia-desde-la-concentracion-argentina-en-kansas",
+                "source": "Elgrafico.com.ar"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "topic": "veljko paunović",
+      "type": "noticia",
+      "slugSuggestion": "veljko-paunovic",
+      "language": "es",
+      "geos": [
+        "MX"
+      ],
+      "score": 1680,
+      "reason": "Google Trends daily MX con 1,000 búsquedas · 3 artículos noticiosos referenciando \"veljko paunović\"",
+      "proposedPath": "/noticias/veljko-paunovic",
+      "evidence": [
+        {
+          "query": "veljko paunović",
+          "geo": "MX",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 1000,
+          "articles": [
+            {
+              "title": "Veljko Paunovic intentó llevarse a Brian Gutiérrez al Oviedo",
+              "url": "https://www.espn.com.mx/futbol/mundial/nota/_/id/16794807/mexico-vs-serbia-tecnico-veljko-paunovic-fichaje-brian-gutierrez-oviedo",
+              "source": "ESPN México"
+            },
+            {
+              "title": "Veljko Paunović ve a México capaz de firmar su mejor Mundial",
+              "url": "https://www.record.com.mx/historia/veljko-paunovic-ve-a-mexico-capaz-de-firmar-su-mejor-mundial-2026060400241549091",
+              "source": "RÉCORD"
+            },
+            {
+              "title": "Dónde y cómo ver en vivo y gratis México vs. Serbia hoy: TV y streaming online del amistoso previo al Mundial 2026",
+              "url": "https://es-us.noticias.yahoo.com/deportes/d%C3%B3nde-vivo-gratis-m%C3%A9xico-vs-090002841.html",
+              "source": "Yahoo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "selección de fútbol de argentina",
+      "type": "noticia",
+      "slugSuggestion": "seleccion-de-futbol-de-argentina",
+      "language": "es",
+      "geos": [
+        "UY"
+      ],
+      "score": 216,
+      "reason": "Google Trends daily UY con 200 búsquedas · 3 artículos noticiosos referenciando \"selección de fútbol de argentina\"",
+      "proposedPath": "/noticias/seleccion-de-futbol-de-argentina",
+      "evidence": [
+        {
+          "query": "selección de fútbol de argentina",
+          "geo": "UY",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Las perlitas de la práctica de la Selección en Kansas City: la posible formación para enfrentar a Honduras y el único ausente",
+              "url": "https://www.infobae.com/deportes/2026/06/04/las-perlitas-de-la-practica-de-la-seleccion-en-kansas-city-la-posible-formacion-para-enfrentar-a-honduras-y-el-unico-ausente/",
+              "source": "Infobae"
+            },
+            {
+              "title": "Mundial 2026, en vivo: la puesta a punto del conjunto nacional y el posible 11 titular para el amistoso ante Honduras",
+              "url": "https://www.lanacion.com.ar/deportes/mundial-2026-en-vivo-la-puesta-a-punto-del-conjunto-nacional-y-el-posible-11-titular-para-el-nid04062026/",
+              "source": "La Nación"
+            },
+            {
+              "title": "\"Todos nos quieren ganar\": la palabra de Chiqui Tapia desde la concentración argentina en Kansas",
+              "url": "https://www.elgrafico.com.ar/articulo/seleccion-argentina/100418/todos-nos-quieren-ganar-la-palabra-de-chiqui-tapia-desde-la-concentracion-argentina-en-kansas",
+              "source": "Elgrafico.com.ar"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alreadyCovered": [
+    {
+      "query": "2026 fifa world cup",
+      "matchUrl": "/noticias/estafa-entradas-mundial-2026-phishing-fifa-sitios-falsos-fraude-eset-check-point"
+    },
+    {
+      "query": "2026 fifa world cup",
+      "matchUrl": "/noticias/estafa-entradas-mundial-2026-phishing-fifa-sitios-falsos-fraude-eset-check-point"
+    },
+    {
+      "query": "2026 fifa world cup",
+      "matchUrl": "/noticias/estafa-entradas-mundial-2026-phishing-fifa-sitios-falsos-fraude-eset-check-point"
+    },
+    {
+      "query": "panama vs",
+      "matchUrl": "/noticias/convocatoria-panama-mundial-2026-christiansen-26-jugadores-anibal-godoy-quintero-grupo-inglaterra-croacia-ghana"
+    },
+    {
+      "query": "2026 fifa world cup",
+      "matchUrl": "/noticias/estafa-entradas-mundial-2026-phishing-fifa-sitios-falsos-fraude-eset-check-point"
+    },
+    {
+      "query": "países bajos - argelia",
+      "matchUrl": "/noticias/convocatoria-paises-bajos-mundial-2026-koeman-26-jugadores-van-dijk-de-jong-depay-summerville-frimpong-fuera-grupo-japon"
+    },
+    {
+      "query": "argentina vs",
+      "matchUrl": "/ediciones/1978-argentina"
+    },
+    {
+      "query": "campeón",
+      "matchUrl": "/historias/pele-prediccion-africa-campeona"
+    }
+  ]
+}

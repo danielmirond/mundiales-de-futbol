@@ -1,0 +1,461 @@
+import Link from 'next/link';
+import { notFound } from 'next/navigation';
+import { setRequestLocale } from 'next-intl/server';
+import { ArrowLeft, ArrowRight, Tv, Radio, Smartphone, Play, AlertTriangle } from 'lucide-react';
+import {
+  BROADCASTS_2026,
+  getBroadcastBySlug,
+  getCountryTimezone,
+  type BroadcastChannel,
+} from '@/lib/wc-2026-broadcasts';
+import { FIXTURES_2026, VENUES_2026 } from '@/lib/wc-2026';
+import { fixtureToUTC } from '@/lib/wc-2026-fixture-utc';
+import { LiveCountdown } from '@/components/shared/live-countdown';
+import { routing, type Locale } from '@/i18n/routing';
+import { JsonLd, pageMetadata, breadcrumbLd, localeUrl, SEO } from '@/lib/seo';
+
+/** Labels traducibles para LiveCountdown */
+const COUNTDOWN_LABELS: Record<string, { inX: string; live: string; ended: string; days: string; hours: string; minutes: string }> = {
+  es: { inX: 'en {X}', live: 'En directo', ended: 'Terminado', days: 'd', hours: 'h', minutes: 'm' },
+  en: { inX: 'in {X}', live: 'Live', ended: 'Ended', days: 'd', hours: 'h', minutes: 'm' },
+  pt: { inX: 'em {X}', live: 'Ao vivo', ended: 'Terminado', days: 'd', hours: 'h', minutes: 'm' },
+  fr: { inX: 'dans {X}', live: 'En direct', ended: 'Terminé', days: 'j', hours: 'h', minutes: 'min' },
+  ar: { inX: 'خلال {X}', live: 'مباشر', ended: 'انتهت', days: 'ي', hours: 'س', minutes: 'د' },
+};
+
+function withLocale(locale: Locale, href: string) {
+  if (locale === routing.defaultLocale) return href;
+  return `/${locale}${href === '/' ? '' : href}`;
+}
+
+export function generateStaticParams() {
+  return BROADCASTS_2026.flatMap((b) =>
+    routing.locales.map((locale) => ({ locale, country: b.slug })),
+  );
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string; country: string }>;
+}) {
+  const { locale, country } = await params;
+  const broadcast = getBroadcastBySlug(country);
+  if (!broadcast) return {};
+
+  const labels: Record<string, { title: string; description: string }> = {
+    es: {
+      title: `Dónde ver el Mundial 2026 en ${broadcast.name}: TV, streaming y precios`,
+      description: `Guía oficial de dónde ver el Mundial 2026 en ${broadcast.name}: cadenas con derechos, plataformas de streaming, precios y cobertura partido a partido.`,
+    },
+    pt: {
+      title: `Onde assistir à Copa do Mundo 2026 ${broadcast.name === 'Brasil' ? 'no Brasil' : `em ${broadcast.name}`}: TV, streaming e preços`,
+      description: `Guia oficial de onde assistir à Copa do Mundo 2026 ${broadcast.name === 'Brasil' ? 'no Brasil' : `em ${broadcast.name}`}: canais com direitos, plataformas de streaming, preços e cobertura jogo a jogo.`,
+    },
+    en: {
+      title: `Where to watch the 2026 World Cup in ${broadcast.name === 'Estados Unidos' ? 'the USA' : broadcast.name}: TV, streaming and prices`,
+      description: `Official guide on where to watch the 2026 World Cup in ${broadcast.name === 'Estados Unidos' ? 'the USA' : broadcast.name}: networks with rights, streaming platforms, prices and match-by-match coverage.`,
+    },
+  };
+
+  const l = labels[locale] ?? labels[broadcast.locale] ?? labels.es;
+  // availableLocales: el del país + ES y EN si difieren
+  const available = Array.from(new Set([broadcast.locale, 'es'].concat(broadcast.code === 'USA' ? ['en'] : [])));
+
+  return pageMetadata({
+    locale,
+    path: `/2026/donde-ver/${broadcast.slug}`,
+    title: l.title,
+    description: l.description,
+    keywords:
+      ({
+        mexico: ['donde ver mundial 2026 mexico', 'mundial 2026 televisa', 'mundial 2026 vix', 'mundial 2026 azteca', 'partido inaugural mexico 2026 donde ver'],
+        brasil: ['onde assistir copa do mundo 2026', 'globo copa 2026', 'cazetv copa 2026', 'sportv copa do mundo 2026', 'globoplay copa 2026'],
+        usa: ['where to watch World Cup 2026 USA', '2026 World Cup FOX', '2026 World Cup Telemundo', 'Peacock World Cup 2026', 'donde ver mundial 2026 estados unidos'],
+        argentina: ['donde ver mundial 2026 argentina', 'mundial 2026 tv publica', 'mundial 2026 telefe', 'mundial 2026 directv sports argentina', 'dgo mundial 2026'],
+        colombia: ['donde ver mundial 2026 colombia', 'caracol mundial 2026', 'rcn mundial 2026', 'win sports mundial 2026', 'directv sports colombia'],
+        chile: ['donde ver mundial 2026 chile', 'chilevision mundial 2026', 'tvn mundial', 'mega mundial 2026', 'dgo mundial 2026 chile'],
+        'reino-unido': ['where to watch 2026 World Cup UK', 'BBC World Cup 2026', 'ITV World Cup 2026', 'BBC iPlayer World Cup', 'ITVX World Cup'],
+        francia: ['où regarder coupe du monde 2026', 'TF1 coupe du monde 2026', 'beIN Sports coupe du monde', 'MyTF1 coupe monde 2026', 'beIN Connect'],
+        alemania: ['wo schauen wm 2026', 'ARD WM 2026', 'ZDF WM 2026', 'MagentaTV WM 2026', 'donde ver mundial 2026 alemania'],
+      }[broadcast.slug] ?? [`donde ver mundial 2026 ${broadcast.name.toLowerCase()}`]),
+    type: 'article',
+    availableLocales: available,
+  });
+}
+
+const ICON_FOR_TYPE: Record<BroadcastChannel['type'], React.ReactNode> = {
+  free: <Radio className="h-4 w-4" />,
+  pay: <Tv className="h-4 w-4" />,
+  streaming: <Smartphone className="h-4 w-4" />,
+  youtube: <Play className="h-4 w-4" />,
+};
+
+export default async function DondeVerPaisPage({
+  params,
+}: {
+  params: Promise<{ locale: string; country: string }>;
+}) {
+  const { locale, country } = await params;
+  setRequestLocale(locale);
+
+  const broadcast = getBroadcastBySlug(country);
+  if (!broadcast) notFound();
+
+  const pageUrl = localeUrl(locale, `/2026/donde-ver/${broadcast.slug}`);
+  const isEn = locale === 'en';
+  const isPt = locale === 'pt';
+
+  // Heurística etiqueta principal según locale del usuario
+  const labels = isEn
+    ? {
+        kicker: 'Where to watch',
+        h1: `Where to watch the 2026 World Cup in ${broadcast.name === 'Estados Unidos' ? 'the USA' : broadcast.name}`,
+        rightsTitle: 'Broadcasting rights',
+        channelsTitle: 'Networks and platforms',
+        faqTitle: 'Frequently asked',
+        legal: 'Legal note',
+        back: '2026 World Cup',
+        backDondeVer: 'All countries',
+        coverageAll: 'All 104 matches',
+        coveragePartial: 'Selected matches',
+      }
+    : isPt
+      ? {
+          kicker: 'Onde assistir',
+          h1: `Onde assistir à Copa do Mundo 2026 ${broadcast.name === 'Brasil' ? 'no Brasil' : `em ${broadcast.name}`}`,
+          rightsTitle: 'Direitos de transmissão',
+          channelsTitle: 'Canais e plataformas',
+          faqTitle: 'Perguntas frequentes',
+          legal: 'Nota legal',
+          back: 'Copa do Mundo 2026',
+          backDondeVer: 'Todos os países',
+          coverageAll: 'Todos os 104 jogos',
+          coveragePartial: 'Jogos selecionados',
+        }
+      : {
+          kicker: 'Dónde ver',
+          h1: `Dónde ver el Mundial 2026 en ${broadcast.name}`,
+          rightsTitle: 'Estado de los derechos',
+          channelsTitle: 'Canales y plataformas',
+          faqTitle: 'Preguntas frecuentes',
+          legal: 'Nota legal',
+          back: 'Mundial 2026',
+          backDondeVer: 'Todos los países',
+          coverageAll: 'Todos los 104 partidos',
+          coveragePartial: 'Partidos seleccionados',
+        };
+
+  const faqLd = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: broadcast.faq.map(({ q, a }) => ({
+      '@type': 'Question',
+      name: q,
+      acceptedAnswer: { '@type': 'Answer', text: a },
+    })),
+  };
+
+  const articleLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: labels.h1,
+    description: broadcast.rightsSummary.slice(0, 200),
+    url: pageUrl,
+    inLanguage: locale,
+    publisher: { '@type': 'Organization', name: SEO.siteName, url: SEO.siteUrl },
+    about: {
+      '@type': 'SportsEvent',
+      name: 'FIFA World Cup 2026',
+      startDate: '2026-06-11',
+      endDate: '2026-07-19',
+    },
+  };
+
+  // Fixtures del equipo de este país (vacío si no clasifica)
+  const teamFixtures = broadcast.inWorldCup
+    ? FIXTURES_2026.filter((f) => f.home === broadcast.code || f.away === broadcast.code)
+    : [];
+  const countryTz = getCountryTimezone(broadcast);
+  const countdownLabels = COUNTDOWN_LABELS[locale] ?? COUNTDOWN_LABELS.es;
+  const venueBySlug = new Map(VENUES_2026.map((v) => [v.slug, v]));
+
+  // SportsEvent JSON-LD por partido del equipo nacional
+  const eventLds = teamFixtures.map((f) => {
+    const venue = venueBySlug.get(f.venue);
+    const utc = fixtureToUTC(f);
+    return {
+      '@context': 'https://schema.org',
+      '@type': 'SportsEvent',
+      name: `${f.home ?? f.label} vs ${f.away ?? f.label} · Mundial 2026`,
+      startDate: utc,
+      eventStatus: 'https://schema.org/EventScheduled',
+      eventAttendanceMode: 'https://schema.org/MixedEventAttendanceMode',
+      location: venue ? {
+        '@type': 'StadiumOrArena',
+        name: venue.name,
+        address: { '@type': 'PostalAddress', addressLocality: venue.hostCity, addressCountry: venue.country },
+      } : undefined,
+      competitor: [
+        f.home && { '@type': 'SportsTeam', name: f.home },
+        f.away && { '@type': 'SportsTeam', name: f.away },
+      ].filter(Boolean),
+      organizer: { '@type': 'Organization', name: 'FIFA', url: 'https://www.fifa.com' },
+      offers: broadcast.channels.map((c) => ({
+        '@type': 'BroadcastService',
+        broadcastDisplayName: c.name,
+        url: c.url,
+      })),
+    };
+  });
+
+  return (
+    <article className="pt-32 pb-24">
+      <JsonLd
+        data={[
+          articleLd,
+          faqLd,
+          ...eventLds,
+          breadcrumbLd(locale, [
+            { name: isEn ? 'Home' : isPt ? 'Início' : 'Inicio', path: '/' },
+            { name: isEn ? 'World Cup 2026' : isPt ? 'Copa do Mundo 2026' : 'Mundial 2026', path: '/2026' },
+            { name: isEn ? 'Where to watch' : isPt ? 'Onde assistir' : 'Dónde ver', path: '/2026/donde-ver' },
+            { name: broadcast.name, path: `/2026/donde-ver/${broadcast.slug}` },
+          ]),
+        ]}
+      />
+
+      <header className="mx-auto w-full max-w-[1100px] px-6 md:px-10">
+        <Link
+          href={withLocale(locale as Locale, '/2026/donde-ver')}
+          className="inline-flex items-center gap-2 font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-fg-muted)] transition-colors hover:text-[var(--color-fg)]"
+        >
+          <ArrowLeft className="h-3 w-3 rtl:rotate-180" /> {labels.backDondeVer}
+        </Link>
+
+        <div className="mt-8 flex items-center gap-3 font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-pitch)]">
+          <span aria-hidden className="text-2xl">{broadcast.flag}</span>
+          <span>{labels.kicker} · {broadcast.name}</span>
+        </div>
+        <h1 className="mt-4 font-display text-fluid-display uppercase leading-[0.9]">
+          {labels.h1}
+        </h1>
+        <p className="mt-6 max-w-3xl text-lg leading-relaxed text-[var(--color-fg-muted)] md:text-xl">
+          {broadcast.rightsSummary}
+        </p>
+
+        {broadcast.inWorldCup && broadcast.group && (
+          <p className="mt-6 inline-flex items-center gap-3 rounded-full border border-[var(--color-pitch)]/30 bg-[var(--color-pitch)]/5 px-5 py-2 text-sm font-mono uppercase tracking-[0.25em] text-[var(--color-pitch)]">
+            {isEn ? `Group ${broadcast.group} · in the World Cup` : isPt ? `Grupo ${broadcast.group} · na Copa` : `Grupo ${broadcast.group} · participa`}
+          </p>
+        )}
+      </header>
+
+      {/* Partidos del equipo nacional con hora local del país + countdown live */}
+      {teamFixtures.length > 0 && (
+        <section className="mx-auto mt-16 w-full max-w-[1100px] px-6 md:px-10">
+          <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-pitch)]">
+            {isEn ? 'Upcoming matches' : isPt ? 'Próximos jogos' : 'Próximos partidos de ' + broadcast.name}
+          </div>
+          <h2 className="mt-3 font-display text-3xl uppercase leading-[1] md:text-4xl">
+            {isEn ? `Schedule (${countryTz})` : isPt ? `Calendário (${countryTz})` : `Calendario (hora ${countryTz})`}
+          </h2>
+          <p className="mt-3 max-w-2xl text-sm text-[var(--color-fg-subtle)]">
+            {isEn
+              ? `Match times shown in ${broadcast.name} local time. Countdown updates with your device clock.`
+              : isPt
+                ? `Horários em ${broadcast.name}. A contagem regressiva atualiza com o relógio do seu dispositivo.`
+                : `Horarios mostrados en hora local de ${broadcast.name}. La cuenta atrás se actualiza con el reloj de tu dispositivo.`}
+          </p>
+
+          <ul className="mt-8 grid gap-3">
+            {teamFixtures.map((f) => {
+              const venue = venueBySlug.get(f.venue);
+              const utc = fixtureToUTC(f);
+              const wallTime = new Intl.DateTimeFormat(locale, {
+                timeZone: countryTz,
+                weekday: 'short',
+                day: 'numeric',
+                month: 'short',
+                hour: '2-digit',
+                minute: '2-digit',
+                hourCycle: 'h23',
+              }).format(new Date(utc));
+              const opponent = f.home === broadcast.code ? f.away : f.home;
+              const isHome = f.home === broadcast.code;
+              return (
+                <li
+                  key={f.n}
+                  className="flex items-center gap-4 rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg-2)] p-4 md:p-5"
+                >
+                  <div className="flex-1 min-w-0">
+                    <div className="flex flex-wrap items-center gap-2 font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--color-fg-subtle)]">
+                      <span>#{f.n}</span>
+                      <span>·</span>
+                      <span>{f.stage.length === 1 ? (isEn ? `Group ${f.stage}` : `Grupo ${f.stage}`) : f.stage}</span>
+                      {venue && <><span>·</span><span>{venue.hostCity}</span></>}
+                    </div>
+                    <div className="mt-1 font-display text-lg uppercase leading-tight">
+                      {isHome
+                        ? `${broadcast.name} vs ${opponent ?? f.label ?? '?'}`
+                        : `${opponent ?? f.label ?? '?'} vs ${broadcast.name}`}
+                    </div>
+                    <div className="mt-1.5 flex flex-wrap items-center gap-3 text-sm text-[var(--color-fg-muted)]">
+                      <span className="tab-num">{wallTime}</span>
+                      <LiveCountdown kickoffUtc={utc} labels={countdownLabels} />
+                    </div>
+                  </div>
+                </li>
+              );
+            })}
+          </ul>
+        </section>
+      )}
+
+      <section className="mx-auto mt-16 w-full max-w-[1100px] px-6 md:px-10">
+        <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-pitch)]">
+          <Tv className="inline h-3 w-3 mr-2" />
+          {labels.channelsTitle}
+        </div>
+        <h2 className="mt-3 font-display text-3xl uppercase leading-[1] md:text-4xl">
+          {broadcast.channels.length} {isEn ? 'options' : isPt ? 'opções' : 'opciones'}
+        </h2>
+
+        <ul className="mt-10 grid gap-4 md:grid-cols-2">
+          {broadcast.channels.map((c) => (
+            <li
+              key={c.name}
+              className="flex flex-col gap-3 rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg-2)] p-6 md:p-7"
+            >
+              <div className="flex items-center gap-3">
+                <span className="text-[var(--color-pitch)]">{ICON_FOR_TYPE[c.type]}</span>
+                <h3 className="font-display text-lg uppercase leading-tight text-[var(--color-fg)] md:text-xl">
+                  {c.name}
+                </h3>
+              </div>
+              <div className="flex flex-wrap items-center gap-2 font-mono text-[9px] uppercase tracking-[0.25em]">
+                <span
+                  className={`inline-flex rounded-full border px-2.5 py-1 ${
+                    c.coverage === 'all'
+                      ? 'border-[var(--color-pitch)]/40 text-[var(--color-pitch)]'
+                      : 'border-[var(--color-border)] text-[var(--color-fg-muted)]'
+                  }`}
+                >
+                  {c.coverage === 'all' ? labels.coverageAll : labels.coveragePartial}
+                </span>
+                <span className="text-[var(--color-fg-muted)]">{c.price}</span>
+                {c.language && (
+                  <span className="text-[var(--color-fg-subtle)]">· {c.language}</span>
+                )}
+              </div>
+              <p className="text-sm leading-relaxed text-[var(--color-fg-muted)]">
+                {c.detail}
+              </p>
+              <a
+                href={c.url}
+                target="_blank"
+                rel="nofollow noopener noreferrer"
+                className="mt-auto inline-flex items-center gap-1 self-start font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--color-pitch)] hover:underline"
+              >
+                {isEn ? 'Visit official site' : isPt ? 'Site oficial' : 'Web oficial'} →
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+
+      <section className="mx-auto mt-20 w-full max-w-[900px] px-6 md:px-10">
+        <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-pitch)]">
+          {labels.faqTitle}
+        </div>
+        <h2 className="mt-3 font-display text-3xl uppercase leading-[1] md:text-4xl">
+          {isEn ? 'Most asked' : isPt ? 'Mais perguntado' : 'Lo que más se pregunta'}
+        </h2>
+
+        <ul className="mt-10 space-y-px overflow-hidden rounded-2xl border border-[var(--color-border)] bg-[var(--color-border)]">
+          {broadcast.faq.map((item) => (
+            <li key={item.q} className="bg-[var(--color-bg)] p-6 md:p-7">
+              <h3 className="font-display text-lg uppercase leading-tight text-[var(--color-fg)] md:text-xl">
+                {item.q}
+              </h3>
+              <p className="mt-3 text-sm leading-relaxed text-[var(--color-fg-muted)] md:text-base">
+                {item.a}
+              </p>
+            </li>
+          ))}
+        </ul>
+      </section>
+
+      {broadcast.legalNote && (
+        <section className="mx-auto mt-16 w-full max-w-[900px] px-6 md:px-10">
+          <div className="flex gap-4 rounded-2xl border border-amber-500/30 bg-amber-500/5 p-5">
+            <AlertTriangle className="h-5 w-5 flex-shrink-0 text-amber-400" />
+            <div>
+              <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-amber-300">
+                {labels.legal}
+              </div>
+              <p className="mt-2 text-sm leading-relaxed text-[var(--color-fg-muted)]">
+                {broadcast.legalNote}
+              </p>
+            </div>
+          </div>
+        </section>
+      )}
+
+      <section className="mx-auto mt-16 w-full max-w-[1100px] px-6 md:px-10">
+        <div className="rounded-3xl border border-[var(--color-border)] bg-gradient-to-br from-[var(--color-pitch)]/8 via-[var(--color-bg-2)] to-[var(--color-bg-2)] p-8 md:p-14">
+          <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-pitch)]">
+            {isEn ? 'Other countries' : isPt ? 'Outros países' : 'Otros países'}
+          </div>
+          <h2 className="mt-3 max-w-2xl font-display text-2xl uppercase leading-tight md:text-3xl">
+            {isEn
+              ? 'Where to watch the 2026 World Cup around the world'
+              : isPt
+                ? 'Onde assistir à Copa do Mundo 2026 ao redor do mundo'
+                : 'Dónde ver el Mundial 2026 en otros países'}
+          </h2>
+          <div className="mt-6 flex flex-wrap gap-3">
+            {BROADCASTS_2026.filter((b) => b.slug !== broadcast.slug).map((b) => (
+              <Link
+                key={b.slug}
+                href={withLocale(locale as Locale, `/2026/donde-ver/${b.slug}`)}
+                className="inline-flex items-center gap-2 rounded-full border border-[var(--color-border-strong)] px-4 py-2 text-sm font-medium text-[var(--color-fg)] transition-colors hover:border-[var(--color-pitch)] hover:text-[var(--color-pitch)]"
+              >
+                <span aria-hidden>{b.flag}</span>
+                {b.name}
+                <ArrowRight className="h-3 w-3 rtl:rotate-180" />
+              </Link>
+            ))}
+          </div>
+
+          {/* Cross-link al monográfico tvworldcup.com (versión multi-idioma + PWA) */}
+          <div className="mt-8 border-t border-[var(--color-border)] pt-6">
+            <a
+              href={`https://tvworldcup.com/${locale === 'es' ? '' : locale + '/'}country/${broadcast.slug}`}
+              target="_blank"
+              rel="noopener"
+              className="group flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-[var(--color-pitch)]/30 bg-[var(--color-pitch)]/5 p-4 transition-colors hover:bg-[var(--color-pitch)]/10"
+            >
+              <div className="flex-1 min-w-0">
+                <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-pitch)]">
+                  {isEn ? 'Multilang version · PWA' : isPt ? 'Versão multi-idioma · PWA' : 'Versión multi-idioma · PWA'}
+                </div>
+                <div className="mt-1.5 font-display text-base uppercase text-[var(--color-fg)]">
+                  tvworldcup.com/{broadcast.slug}
+                </div>
+                <p className="mt-1 text-xs text-[var(--color-fg-muted)]">
+                  {isEn
+                    ? 'Same data in 7 languages with offline access and push notifications.'
+                    : isPt
+                      ? 'Os mesmos dados em 7 idiomas com acesso offline e notificações push.'
+                      : 'Mismos datos en 7 idiomas con acceso offline y notificaciones push.'}
+                </p>
+              </div>
+              <ArrowRight className="h-4 w-4 text-[var(--color-pitch)] transition-transform group-hover:translate-x-1" />
+            </a>
+          </div>
+        </div>
+      </section>
+    </article>
+  );
+}

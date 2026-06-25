@@ -6,9 +6,11 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { routing, localeMeta, type Locale } from '@/i18n/routing';
 import { SiteNav } from '@/components/nav/site-nav';
 import { SiteFooter } from '@/components/nav/site-footer';
+import { Wc2026Bar } from '@/components/nav/wc-2026-bar';
 import { CookieBanner } from '@/components/shared/cookie-banner';
 import { GatedAnalytics } from '@/components/shared/gated-analytics';
 import { GoogleAnalytics } from '@/components/shared/google-analytics';
+import { MovistarStickyBar } from '@/components/affiliate/movistar-banner';
 import { JsonLd, organizationLd, websiteLd, hreflangAlternates, SEO } from '@/lib/seo';
 import '../globals.css';
 
@@ -24,6 +26,10 @@ export function generateStaticParams() {
 export const viewport: Viewport = {
   themeColor: '#05060a',
   colorScheme: 'dark',
+  // Necesario para que `env(safe-area-inset-top)` devuelva un valor > 0
+  // en iPhones con notch/Dynamic Island. Sin esto la cabecera fija queda
+  // tapada por la barra de estado del sistema.
+  viewportFit: 'cover',
 };
 
 export async function generateMetadata({
@@ -58,6 +64,9 @@ export async function generateMetadata({
     },
     alternates: {
       languages: hreflangAlternates('/'),
+      types: {
+        'application/rss+xml': `${SEO.siteUrl}/feed.xml`,
+      },
     },
     openGraph: {
       type: 'website',
@@ -101,13 +110,18 @@ export default async function LocaleLayout({
         <NextIntlClientProvider>
           <div aria-hidden className="vignette-fixed" />
           <div className="relative flex min-h-screen flex-col">
-            <SiteNav />
+            {/* Cabecera fija apilada: barra de enlaces ARRIBA, logo/nav debajo. */}
+            <div className="fixed inset-x-0 top-0 z-40 pt-[env(safe-area-inset-top)]">
+              <Wc2026Bar />
+              <SiteNav />
+            </div>
             <main className="flex-1">{children}</main>
             <SiteFooter />
           </div>
           <CookieBanner />
           <GatedAnalytics />
           <GoogleAnalytics />
+          <MovistarStickyBar />
         </NextIntlClientProvider>
       </body>
     </html>

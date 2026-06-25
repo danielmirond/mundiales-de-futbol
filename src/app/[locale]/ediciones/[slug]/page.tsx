@@ -7,10 +7,12 @@ import { TOURNAMENTS } from '@/lib/tournaments';
 import { getTournamentBySlug } from '@/lib/data/tournaments';
 import { routing, type Locale } from '@/i18n/routing';
 import { MatchesList } from '@/components/edition/matches-list';
+import { EditionStandings } from '@/components/edition/edition-standings';
 import { ArchiveVideos } from '@/components/edition/archive-videos';
 import { PressWall } from '@/components/edition/press-wall';
 import { EditionTimeline } from '@/components/edition/edition-timeline';
 import { EditionStory } from '@/components/edition/edition-story';
+import { EditionFamousGoals } from '@/components/edition/edition-famous-goals';
 import { JsonLd, breadcrumbLd, SEO } from '@/lib/seo';
 
 export function generateStaticParams() {
@@ -324,11 +326,15 @@ export default async function EditionPage({
 
       <EditionStory year={t.year} />
 
+      <EditionFamousGoals year={t.year} tournamentSlug={t.slug} locale={locale} />
+
       <PressWall year={t.year} locale={locale} />
 
       <ArchiveVideos year={t.year} locale={locale} />
 
       <MatchesList year={t.year} slug={slug} locale={locale as Locale} />
+
+      <EditionStandings year={t.year} locale={locale as Locale} />
     </div>
   );
 }

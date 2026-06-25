@@ -20,7 +20,7 @@ export async function generateMetadata({
   return pageMetadata({
     locale,
     path: '/coleccionismo/panini-mundial-2026/cuantos-cromos-tiene',
-    title: 'Cuántos cromos tiene el álbum del Mundial 2026: 980 piezas y 68 especiales',
+    title: 'Cuántos cromos tiene el álbum del Mundial 2026 (Panini): total, especiales y cómo completarlo',
     description:
       'El álbum Panini Mundial 2026 tiene 980 cromos en 112 páginas: 23 por selección × 48 selecciones, más 68 cromos especiales (foil capitanes, holograma trofeo, leyendas FIFA, Extra Stickers). Desglose completo y comparativa con Mundiales anteriores.',
     keywords: [

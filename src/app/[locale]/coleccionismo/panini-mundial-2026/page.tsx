@@ -12,6 +12,7 @@ import {
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl } from '@/lib/seo';
 import { AmazonProductGrid } from '@/components/affiliate/amazon-card';
+import { AmazonBuyWidget } from '@/components/affiliate/amazon-buy-widget';
 import { AMAZON_PRODUCTS } from '@/lib/amazon-products';
 
 function withLocale(locale: Locale, href: string) {
@@ -290,6 +291,8 @@ export default async function PaniniMundial2026Page({
             </p>
           </div>
         </div>
+
+        <AmazonBuyWidget asin="B0GXFB4BJ5" heading="Empieza la colección" />
       </section>
 
       {/* Datos rápidos */}

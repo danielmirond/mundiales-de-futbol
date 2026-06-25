@@ -37,6 +37,14 @@ export type JerseyEntry = {
   iconic?: boolean;
   /** ASIN de réplica retro disponible en Amazon (si la hay). */
   amazonAsin?: string;
+  /** URL absoluta de la foto del producto Amazon (m.media-amazon.com). */
+  amazonImageUrl?: string;
+  /** Título del producto Amazon (para alt text). */
+  amazonTitle?: string;
+  /** URL absoluta del producto Amazon con tag de afiliación. */
+  amazonProductUrl?: string;
+  /** URL de búsqueda Amazon (siempre disponible aunque no haya match exacto). */
+  amazonSearchUrl?: string;
 };
 
 export type JerseyHistory = {
@@ -529,8 +537,103 @@ export const JERSEY_HISTORIES: JerseyHistory[] = [
   },
 ];
 
+// ───────────────────────────────────────────────────────────────────
+// Sidecar Amazon (generado por scripts/enrich-jerseys-amazon.ts)
+// ───────────────────────────────────────────────────────────────────
+//
+// Hidratamos cada entrada con `amazonImageUrl` / `amazonTitle` /
+// `amazonProductUrl` cuando existe match verificado, y SIEMPRE con
+// `amazonSearchUrl` (CTA "Ver opciones en Amazon").
+//
+// Política editorial: si el sidecar no encontró un match que cumpla
+// filtros estrictos (nombre de selección + año/"retro" en el título),
+// NO añadimos `amazonImageUrl` — preferimos sin imagen Amazon antes
+// que asociar la prenda equivocada con un año histórico. La búsqueda
+// `amazonSearchUrl` se construye igualmente como CTA secundario.
+import amazonSidecar from './wc-jerseys.amazon.json';
+
+const AMAZON_TAG = 'nuus-21';
+type AmazonEntry = {
+  asin: string;
+  imageUrl: string;
+  title: string;
+  productUrl: string;
+  query: string;
+};
+const AMZ_SIDECAR = amazonSidecar as Record<string, AmazonEntry | unknown>;
+
+function amazonSearchUrl(teamName: string, year: number, brand: string): string {
+  const q = encodeURIComponent(`${teamName} ${year} camiseta ${brand}`);
+  return `https://www.amazon.es/s?k=${q}&i=sporting&tag=${AMAZON_TAG}`;
+}
+
+// Hidratación in-place de los `jerseys[]` con datos del sidecar Amazon.
+for (const h of JERSEY_HISTORIES) {
+  for (const j of h.jerseys) {
+    const key = `${h.teamCode}-${j.year}-${j.variant}`;
+    const entry = AMZ_SIDECAR[key];
+    if (
+      entry &&
+      typeof entry === 'object' &&
+      'imageUrl' in entry &&
+      'asin' in entry
+    ) {
+      const e = entry as AmazonEntry;
+      if (!j.amazonAsin) j.amazonAsin = e.asin;
+      if (!j.amazonImageUrl) j.amazonImageUrl = e.imageUrl;
+      if (!j.amazonTitle) j.amazonTitle = e.title;
+      if (!j.amazonProductUrl) j.amazonProductUrl = e.productUrl;
+    }
+    // Search URL siempre disponible.
+    if (!j.amazonSearchUrl) {
+      j.amazonSearchUrl = amazonSearchUrl(h.teamName, j.year, j.brand);
+    }
+  }
+}
+
 export function getJerseyHistory(teamCode: string): JerseyHistory | undefined {
   return JERSEY_HISTORIES.find((h) => h.teamCode === teamCode);
+}
+
+/**
+ * Datos de afiliación Amazon para la camiseta del Mundial 2026 de una
+ * selección dada. Sirve a las CTAs de compra que aparecen en
+ * `/selecciones/[code]`:
+ *
+ *  - `searchUrl` SIEMPRE se devuelve (búsqueda con teamName + brand + 2026).
+ *  - `product` solo cuando existe match verificado en el sidecar Amazon.
+ *
+ * Funciona para las 48 selecciones, no solo las 10 con JERSEY_HISTORIES.
+ */
+export function getAmazonKit2026(
+  teamCode: string,
+  teamName: string,
+  brand: string,
+): {
+  searchUrl: string;
+  product?: { imageUrl: string; title: string; productUrl: string; asin: string };
+} {
+  const key = `${teamCode}-2026-home`;
+  const entry = AMZ_SIDECAR[key];
+  const searchUrl = amazonSearchUrl(teamName, 2026, brand);
+  if (
+    entry &&
+    typeof entry === 'object' &&
+    'imageUrl' in entry &&
+    'asin' in entry
+  ) {
+    const e = entry as AmazonEntry;
+    return {
+      searchUrl,
+      product: {
+        imageUrl: e.imageUrl,
+        title: e.title,
+        productUrl: e.productUrl,
+        asin: e.asin,
+      },
+    };
+  }
+  return { searchUrl };
 }
 
 /** Top camisetas icónicas (cross-team) ordenadas por año. */

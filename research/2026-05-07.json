@@ -1,0 +1,227 @@
+{
+  "generatedAt": "2026-05-07T09:11:53.411Z",
+  "date": "2026-05-07",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "steve carell",
+      "geo": "CA",
+      "language": "en",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "I Tried the New French Onion Soup Lay’s…and I Have Une Petite Note",
+          "url": "https://sporked.com/article/french-onion-soup-lays-review/",
+          "source": "Sporked"
+        },
+        {
+          "title": "Lay’s builds toward the World Cup with shopping stunt, giant Whatsapp group",
+          "url": "https://adage.com/creativity/work/aa-lays-epic-watch-party/",
+          "source": "Ad Age"
+        },
+        {
+          "title": "See Lay’s star-studded commercial for the 2026 FIFA World Cup",
+          "url": "https://www.msn.com/en-us/sports/fifa_world_cup/see-lay-s-star-studded-commercial-for-the-2026-fifa-world-cup/vi-AA22r0kx?ocid=hpmsn",
+          "source": "MSN"
+        }
+      ]
+    },
+    {
+      "query": "ripescaggio",
+      "geo": "IT",
+      "language": "it",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Italia e ripescaggio Mondiali, Iran minaccia Fifa: \"Ce ne andiamo a casa\"",
+          "url": "https://www.adnkronos.com/sport/italia-ripescaggio-mondiali-iran-condizioni-fifa_5mNFEejEvXjUN0hhSGosPW",
+          "source": "Adnkronos"
+        },
+        {
+          "title": "Mondiali 2026, Baghaei: \"L&apos;Iran non andrà negli Stati Uniti per turismo, ma per giocare\"",
+          "url": "https://stream24.ilsole24ore.com/video/sport24/mondiali-2026-baghaei-l-iran-non-andra-stati-uniti-turismo-ma-giocare/AIqEjGvC",
+          "source": "Il Sole 24 ORE"
+        },
+        {
+          "title": "Zampolli: \"Italia al Mondiale, partita aperta, vi spiego perché. Da ragazzo andavo in Curva Nord a San Siro\"",
+          "url": "https://www.gazzetta.it/Calcio/Nazionale/06-05-2026/paolo-zampolli-intervista-italia-mondiali.shtml",
+          "source": "La Gazzetta dello Sport"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "en": [
+      {
+        "query": "steve carell",
+        "score": 240,
+        "geos": [
+          "CA"
+        ],
+        "samples": [
+          {
+            "query": "steve carell",
+            "geo": "CA",
+            "language": "en",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "I Tried the New French Onion Soup Lay’s…and I Have Une Petite Note",
+                "url": "https://sporked.com/article/french-onion-soup-lays-review/",
+                "source": "Sporked"
+              },
+              {
+                "title": "Lay’s builds toward the World Cup with shopping stunt, giant Whatsapp group",
+                "url": "https://adage.com/creativity/work/aa-lays-epic-watch-party/",
+                "source": "Ad Age"
+              },
+              {
+                "title": "See Lay’s star-studded commercial for the 2026 FIFA World Cup",
+                "url": "https://www.msn.com/en-us/sports/fifa_world_cup/see-lay-s-star-studded-commercial-for-the-2026-fifa-world-cup/vi-AA22r0kx?ocid=hpmsn",
+                "source": "MSN"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "it": [
+      {
+        "query": "ripescaggio",
+        "score": 450,
+        "geos": [
+          "IT"
+        ],
+        "samples": [
+          {
+            "query": "ripescaggio",
+            "geo": "IT",
+            "language": "it",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Italia e ripescaggio Mondiali, Iran minaccia Fifa: \"Ce ne andiamo a casa\"",
+                "url": "https://www.adnkronos.com/sport/italia-ripescaggio-mondiali-iran-condizioni-fifa_5mNFEejEvXjUN0hhSGosPW",
+                "source": "Adnkronos"
+              },
+              {
+                "title": "Mondiali 2026, Baghaei: \"L&apos;Iran non andrà negli Stati Uniti per turismo, ma per giocare\"",
+                "url": "https://stream24.ilsole24ore.com/video/sport24/mondiali-2026-baghaei-l-iran-non-andra-stati-uniti-turismo-ma-giocare/AIqEjGvC",
+                "source": "Il Sole 24 ORE"
+              },
+              {
+                "title": "Zampolli: \"Italia al Mondiale, partita aperta, vi spiego perché. Da ragazzo andavo in Curva Nord a San Siro\"",
+                "url": "https://www.gazzetta.it/Calcio/Nazionale/06-05-2026/paolo-zampolli-intervista-italia-mondiali.shtml",
+                "source": "La Gazzetta dello Sport"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "topic": "ripescaggio",
+      "type": "noticia",
+      "slugSuggestion": "ripescaggio",
+      "language": "it",
+      "geos": [
+        "IT"
+      ],
+      "score": 540,
+      "reason": "Google Trends daily IT con 500 búsquedas · 3 artículos noticiosos referenciando \"ripescaggio\"",
+      "proposedPath": "/noticias/ripescaggio",
+      "evidence": [
+        {
+          "query": "ripescaggio",
+          "geo": "IT",
+          "language": "it",
+          "source": "google-trends-daily",
+          "score": 500,
+          "articles": [
+            {
+              "title": "Italia e ripescaggio Mondiali, Iran minaccia Fifa: \"Ce ne andiamo a casa\"",
+              "url": "https://www.adnkronos.com/sport/italia-ripescaggio-mondiali-iran-condizioni-fifa_5mNFEejEvXjUN0hhSGosPW",
+              "source": "Adnkronos"
+            },
+            {
+              "title": "Mondiali 2026, Baghaei: \"L&apos;Iran non andrà negli Stati Uniti per turismo, ma per giocare\"",
+              "url": "https://stream24.ilsole24ore.com/video/sport24/mondiali-2026-baghaei-l-iran-non-andra-stati-uniti-turismo-ma-giocare/AIqEjGvC",
+              "source": "Il Sole 24 ORE"
+            },
+            {
+              "title": "Zampolli: \"Italia al Mondiale, partita aperta, vi spiego perché. Da ragazzo andavo in Curva Nord a San Siro\"",
+              "url": "https://www.gazzetta.it/Calcio/Nazionale/06-05-2026/paolo-zampolli-intervista-italia-mondiali.shtml",
+              "source": "La Gazzetta dello Sport"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "steve carell",
+      "type": "noticia",
+      "slugSuggestion": "steve-carell",
+      "language": "en",
+      "geos": [
+        "CA"
+      ],
+      "score": 288,
+      "reason": "Google Trends daily CA con 200 búsquedas · 3 artículos noticiosos referenciando \"steve carell\"",
+      "proposedPath": "/noticias/steve-carell",
+      "evidence": [
+        {
+          "query": "steve carell",
+          "geo": "CA",
+          "language": "en",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "I Tried the New French Onion Soup Lay’s…and I Have Une Petite Note",
+              "url": "https://sporked.com/article/french-onion-soup-lays-review/",
+              "source": "Sporked"
+            },
+            {
+              "title": "Lay’s builds toward the World Cup with shopping stunt, giant Whatsapp group",
+              "url": "https://adage.com/creativity/work/aa-lays-epic-watch-party/",
+              "source": "Ad Age"
+            },
+            {
+              "title": "See Lay’s star-studded commercial for the 2026 FIFA World Cup",
+              "url": "https://www.msn.com/en-us/sports/fifa_world_cup/see-lay-s-star-studded-commercial-for-the-2026-fifa-world-cup/vi-AA22r0kx?ocid=hpmsn",
+              "source": "MSN"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alreadyCovered": []
+}

@@ -11,7 +11,19 @@ import { TeamPhotoGallery } from '@/components/team/team-photo-gallery';
 import { AmazonProductGrid } from '@/components/affiliate/amazon-card';
 import { getProductsByTeam } from '@/lib/amazon-products';
 import { getJerseyHistory } from '@/lib/wc-jerseys';
-import { Shirt, ArrowRight } from 'lucide-react';
+import { headToHeadsForTeam, teamWorldCupRecord } from '@/lib/wc-head-to-head';
+import { Shirt, ArrowRight, Newspaper, CalendarClock, Play } from 'lucide-react';
+import { TeamKitShop } from '@/components/team/team-kit-shop';
+import { getNewsByTeam, relativeTimeEs } from '@/lib/news';
+import { getFriendliesByTeam } from '@/lib/wc-2026-pre-friendlies';
+import {
+  getGoalsByTeam,
+  youtubeSearchUrl,
+  youtubeThumbnailUrl,
+} from '@/lib/wc-famous-goals';
+import { TEAMS_2026, GROUPS_2026, FIXTURES_2026, matchSlug } from '@/lib/wc-2026';
+import { fetchScores, type LiveMatch } from '@/lib/live-scores';
+import { Squad2026Section } from '@/components/team/squad-2026';
 
 function withLocale(locale: Locale, href: string) {
   if (locale === routing.defaultLocale) return href;
@@ -40,13 +52,18 @@ export async function generateMetadata({
   if (!team) return {};
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://mundiales-de-futbol.com';
   const name = teamDisplayName(team);
+  // Récord completo (histórico real 1930-2022, con linaje), no solo los
+  // partidos con ficha detallada en la BD.
+  const preds = await getPredecessors(team.code);
+  const rec = teamWorldCupRecord([team.code, ...preds.map((p) => p.code)]);
+  const wcCount = rec.wcCount || team.wc_count;
   // Patrón confirmado: "Brasil en los Mundiales · Cuántos ha ganado, plantillas y récords".
   // Mismo título para los 103 países; el subtítulo H2 (en el componente)
   // se adapta por tier (campeón / regular / debutante).
   const title = `${name} en los Mundiales · Cuántos ha ganado, plantillas y récords`;
   const description = team.titles > 0
-    ? `${name}: ${team.titles} ${team.titles === 1 ? 'título mundial' : 'títulos mundiales'}, ${team.wc_count} participaciones, ${team.matches_played} partidos. Plantillas históricas, récord (${team.wins}-${team.draws}-${team.losses}) y máximos goleadores.`
-    : `${name} en los Mundiales: ${team.wc_count} ${team.wc_count === 1 ? 'participación' : 'participaciones'}, ${team.matches_played} partidos, récord ${team.wins}-${team.draws}-${team.losses}. Plantillas, mejores actuaciones y máximos goleadores.`;
+    ? `${name}: ${team.titles} ${team.titles === 1 ? 'título mundial' : 'títulos mundiales'}, ${wcCount} participaciones, ${rec.played} partidos. Plantillas históricas, récord (${rec.wins}-${rec.draws}-${rec.losses}) y máximos goleadores.`
+    : `${name} en los Mundiales: ${wcCount} ${wcCount === 1 ? 'participación' : 'participaciones'}, ${rec.played} partidos, récord ${rec.wins}-${rec.draws}-${rec.losses}. Plantillas, mejores actuaciones y máximos goleadores.`;
   const url =
     locale === routing.defaultLocale
       ? `${siteUrl}/selecciones/${team.code}`
@@ -88,10 +105,38 @@ export default async function SelectionDetailPage({
   const unified = hasLineage ? combineLineage(team, predecessors) : team;
   const lineageCodes = [team.code, ...predecessors.map((p) => p.code)];
 
+  // Cara a cara: rivales en la historia de los Mundiales + rivales de 2026.
+  const teamH2H = headToHeadsForTeam(team.code);
+
+  // Récord COMPLETO en Mundiales (1930-2022) desde el histórico real, no solo
+  // los partidos con ficha detallada en la BD. Suma el linaje (RFA/RDA, etc.).
+  const wcRecord = teamWorldCupRecord(lineageCodes);
+
+  // Resultados de ESTE Mundial (2026), en vivo desde ESPN (fase de grupos).
+  const group2026 = GROUPS_2026.find((g) => (g.teams as string[]).includes(team.code));
+  let wc2026Rows: { f: (typeof FIXTURES_2026)[number]; sc?: LiveMatch }[] = [];
+  if (group2026) {
+    const scores = await fetchScores();
+    const byKey = new Map<string, LiveMatch>(scores.map((m) => [`${m.home}|${m.away}`, m]));
+    wc2026Rows = FIXTURES_2026
+      .filter((f) => f.stage === group2026.letter && f.home && f.away && (f.home === team.code || f.away === team.code))
+      .sort((a, b) => (a.date + a.time).localeCompare(b.date + b.time))
+      .map((f) => ({ f, sc: byKey.get(`${f.home}|${f.away}`) }));
+  }
+
   const [matches, topScorers] = await Promise.all([
     getTeamMatches(team.code, predecessors.map((p) => p.code)),
     getTeamTopScorers(team.code, 10),
   ]);
+
+  // Noticias recientes de la selección (detecta por keywords del slug).
+  const teamNews = getNewsByTeam(team.code, 4);
+
+  // Amistosos pre-Mundial 2026 de la selección.
+  const teamFriendlies = getFriendliesByTeam(team.code);
+
+  // Goles famosos en los que aparece la selección (como autora o víctima).
+  const teamGoals = getGoalsByTeam(team.code);
 
   // Group matches by tournament year for timeline presentation.
   type YearGroup = {
@@ -132,9 +177,66 @@ export default async function SelectionDetailPage({
     award: team.titles > 0 ? `${team.titles}× FIFA World Cup champion` : undefined,
   };
 
+  // FAQ schema con preguntas frecuentes específicas de la selección.
+  // Captura las queries 'cuantos goles/mundiales tiene X' que en GSC
+  // están en posición 6-11 con ~0% CTR por falta de answer directo.
+  const teamFaqLd = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: `¿Cuántos Mundiales ha ganado ${teamDisplayName(team)}?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: unified.titles > 0
+            ? `${teamDisplayName(team)} ha ganado ${unified.titles} Mundial${unified.titles === 1 ? '' : 'es'}. Ha disputado ${unified.wc_count} torneos en total con un balance de ${unified.wins} victorias, ${unified.draws} empates y ${unified.losses} derrotas.`
+            : `${teamDisplayName(team)} no ha ganado ningún Mundial. Ha disputado ${unified.wc_count} torneo${unified.wc_count === 1 ? '' : 's'} en su historia con un balance de ${unified.wins} victorias, ${unified.draws} empates y ${unified.losses} derrotas.`,
+        },
+      },
+      {
+        '@type': 'Question',
+        name: `¿Cuántos goles tiene ${teamDisplayName(team)} en los Mundiales?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `${teamDisplayName(team)} ha marcado ${unified.goals_for} goles a favor y recibido ${unified.goals_against} en sus ${unified.wc_count} participaciones mundialistas. Diferencia de goles: ${unified.goals_for - unified.goals_against >= 0 ? '+' : ''}${unified.goals_for - unified.goals_against}.`,
+        },
+      },
+      {
+        '@type': 'Question',
+        name: `¿Cuántos Mundiales ha jugado ${teamDisplayName(team)}?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `${teamDisplayName(team)} ha disputado ${unified.wc_count} Copas del Mundo a lo largo de la historia. Total de partidos jugados: ${unified.matches_played}.`,
+        },
+      },
+      ...(unified.titles > 0
+        ? [
+            {
+              '@type': 'Question',
+              name: `¿Cuándo ganó ${teamDisplayName(team)} su último Mundial?`,
+              acceptedAnswer: {
+                '@type': 'Answer',
+                text: `Consulta la lista completa de títulos de ${teamDisplayName(team)} en su histórico de palmarés y los partidos disputados en cada Mundial dentro de esta página.`,
+              },
+            },
+          ]
+        : [
+            {
+              '@type': 'Question',
+              name: `¿Cuál es el mejor resultado de ${teamDisplayName(team)} en un Mundial?`,
+              acceptedAnswer: {
+                '@type': 'Answer',
+                text: `${teamDisplayName(team)} nunca ha ganado un Mundial. Su mejor actuación histórica se puede consultar dentro de esta misma página en la sección de Mundiales disputados.`,
+              },
+            },
+          ]),
+    ],
+  };
+
   return (
     <div>
-      <JsonLd data={jsonLd} />
+      <JsonLd data={[jsonLd, teamFaqLd]} />
       {/* Hero */}
       <section className="relative overflow-hidden pb-16 pt-28 md:pt-36">
         <div className="pointer-events-none absolute inset-0">
@@ -206,12 +308,136 @@ export default async function SelectionDetailPage({
         <div className="grid gap-px overflow-hidden rounded-3xl border border-[var(--color-border)] bg-[var(--color-border)] sm:grid-cols-2 lg:grid-cols-6">
           <Stat label="Títulos" value={String(unified.titles)} accent={unified.titles > 0 ? 'var(--color-pitch)' : undefined} icon={unified.titles > 0 ? Trophy : undefined} />
           <Stat label="Subcampeón" value={String(unified.runners_up)} />
-          <Stat label="Mundiales" value={String(unified.wc_count)} />
-          <Stat label="Partidos" value={String(unified.matches_played)} />
-          <Stat label="Récord" value={`${unified.wins}-${unified.draws}-${unified.losses}`} small />
-          <Stat label="Goles" value={`${unified.goals_for}/${unified.goals_against}`} small />
+          <Stat label="Mundiales" value={String(wcRecord.wcCount || unified.wc_count)} />
+          <Stat label="Partidos" value={String(wcRecord.played)} />
+          <Stat label="Récord" value={`${wcRecord.wins}-${wcRecord.draws}-${wcRecord.losses}`} small />
+          <Stat label="Goles" value={`${wcRecord.goalsFor}/${wcRecord.goalsAgainst}`} small />
         </div>
       </section>
+
+      {/* ── CAMINO A LA FINAL (solo selecciones de 2026) ── */}
+      {GROUPS_2026.some((g) => (g.teams as string[]).includes(team.code)) && (
+        <section className="mx-auto w-full max-w-[1400px] px-6 mt-12 md:px-10">
+          <Link
+            href={withLocale(locale as Locale, `/2026/camino/${team.code}`)}
+            className="group flex flex-col gap-3 rounded-3xl border border-[var(--color-pitch)]/30 bg-gradient-to-br from-[var(--color-pitch)]/8 via-[var(--color-bg-2)] to-[var(--color-bg-2)] p-7 transition-colors hover:border-[var(--color-pitch)] md:flex-row md:items-center md:justify-between md:p-8"
+          >
+            <div className="flex-1">
+              <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-pitch)]">
+                Rumbo al MetLife
+              </div>
+              <h2 className="mt-2 font-display text-2xl uppercase leading-tight md:text-3xl">
+                El camino de {teamDisplayName(team)} hacia la final de Nueva York
+              </h2>
+              <p className="mt-2 max-w-2xl text-sm text-[var(--color-fg-muted)]">
+                Cuadro, ronda a ronda, y posibles rivales hasta la final del 19 de julio.
+              </p>
+            </div>
+            <span className="inline-flex shrink-0 items-center gap-2 self-start rounded-full bg-[var(--color-pitch)] px-5 py-2.5 text-sm font-semibold text-black transition-opacity group-hover:opacity-90 md:self-auto">
+              Ver el camino
+              <ArrowRight className="h-3 w-3 transition-transform group-hover:translate-x-1 rtl:rotate-180" />
+            </span>
+          </Link>
+        </section>
+      )}
+
+      {/* ── CARA A CARA — historial ante cada rival en los Mundiales ── */}
+      {teamH2H.length > 0 && (
+        <section className="mx-auto w-full max-w-[1400px] px-6 mt-12 md:px-10">
+          <div className="font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-pitch)]">
+            Cara a cara
+          </div>
+          <h2 className="mt-2 font-display text-2xl uppercase leading-tight md:text-3xl">
+            Historial de {teamDisplayName(team)} ante cada rival
+          </h2>
+          <p className="mt-2 max-w-2xl text-sm text-[var(--color-fg-muted)]">
+            Balance (victorias-empates-derrotas) en partidos de Copa del Mundo. Pulsa para ver todos
+            los enfrentamientos.
+          </p>
+          <div className="mt-6 grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
+            {teamH2H.map((o) => (
+              <Link
+                key={o.code}
+                href={withLocale(locale as Locale, `/historial/${o.slug}`)}
+                className="group flex items-center justify-between gap-3 rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg-2)] px-4 py-3 transition-colors hover:border-[var(--color-pitch)]/40"
+              >
+                <span className="min-w-0 flex-1 truncate text-sm font-medium text-[var(--color-fg)]">
+                  <span className="mr-1.5">{o.flag}</span>
+                  {o.name}
+                  {o.meets2026 && (
+                    <span className="ml-2 rounded-full bg-[var(--color-pitch)]/15 px-1.5 py-0.5 align-middle font-mono text-[8px] uppercase tracking-[0.15em] text-[var(--color-pitch)]">
+                      2026
+                    </span>
+                  )}
+                </span>
+                <span className="flex-shrink-0 font-mono text-xs tab-num text-[var(--color-fg-subtle)] group-hover:text-[var(--color-pitch)]">
+                  {o.total > 0 ? `${o.wins}-${o.draws}-${o.losses}` : '1ª vez'}
+                </span>
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {/* ── RESULTADOS EN EL MUNDIAL 2026 (en vivo) ── */}
+      {wc2026Rows.length > 0 && (
+        <section className="mx-auto w-full max-w-[1400px] px-6 mt-12 md:px-10">
+          <div className="font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-pitch)]">
+            Mundial 2026 · en directo
+          </div>
+          <h2 className="mt-2 font-display text-2xl uppercase leading-tight md:text-3xl">
+            {teamDisplayName(team)} en el Mundial 2026
+          </h2>
+          <div className="mt-6 grid gap-3 sm:grid-cols-3">
+            {wc2026Rows.map(({ f, sc }) => {
+              const isHome = f.home === team.code;
+              const oppCode = (isHome ? f.away : f.home) as string;
+              const opp = TEAMS_2026[oppCode];
+              const played = !!sc && sc.state === 'post' && sc.homeScore != null && sc.awayScore != null;
+              const live = sc?.state === 'in';
+              const ourScore = isHome ? sc?.homeScore : sc?.awayScore;
+              const oppScore = isHome ? sc?.awayScore : sc?.homeScore;
+              const res = played ? (ourScore! > oppScore! ? 'V' : ourScore! < oppScore! ? 'D' : 'E') : null;
+              const resColor = res === 'V' ? 'text-[var(--color-pitch)]' : res === 'E' ? 'text-[var(--color-sun)]' : 'text-[var(--color-flame)]';
+              const dia = new Intl.DateTimeFormat('es', { day: 'numeric', month: 'short' }).format(new Date(f.date + 'T12:00:00Z'));
+              return (
+                <Link
+                  key={f.n}
+                  href={withLocale(locale as Locale, `/2026/partido/${matchSlug(f)}`)}
+                  className="group flex flex-col gap-2 rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg-2)] p-4 transition-colors hover:border-[var(--color-pitch)]/40"
+                >
+                  <div className="flex items-center justify-between font-mono text-[10px] uppercase tracking-widest text-[var(--color-fg-subtle)]">
+                    <span>{dia} · Grupo {f.stage}</span>
+                    {live && <span className="text-[var(--color-flame)]">🔴 {sc?.clock || 'EN VIVO'}</span>}
+                  </div>
+                  <div className="truncate text-sm font-medium text-[var(--color-fg)]">
+                    {isHome ? 'vs' : '@'} {opp?.flag ?? ''} {opp?.name ?? oppCode}
+                  </div>
+                  {played || live ? (
+                    <div className={`font-display text-2xl tab-num ${played ? resColor : 'text-[var(--color-fg)]'}`}>
+                      {ourScore}<span className="text-[var(--color-fg-subtle)]">-</span>{oppScore}
+                      {played && <span className="ml-2 align-middle font-mono text-[10px] uppercase tracking-widest">{res === 'V' ? 'Victoria' : res === 'E' ? 'Empate' : 'Derrota'}</span>}
+                    </div>
+                  ) : (
+                    <div className="font-mono text-xs uppercase tracking-widest text-[var(--color-fg-muted)]">Próximo</div>
+                  )}
+                </Link>
+              );
+            })}
+          </div>
+        </section>
+      )}
+
+      {/* ── CONVOCATORIA MUNDIAL 2026 — grupo, primer partido, lista de 26 ── */}
+      <Squad2026Section teamCode={team.code} locale={locale as Locale} />
+
+      {/* Camiseta y equipación · Mundial 2026 (marca técnica oficial) */}
+      <TeamKitShop
+        teamCode={team.code}
+        teamName={teamDisplayName(team)}
+        locale={locale as Locale}
+        hasJerseyHistory={!!getJerseyHistory(team.code)}
+      />
 
       {/* Camisetas - link a evolución si hay historia disponible */}
       {getJerseyHistory(team.code) && (
@@ -237,6 +463,197 @@ export default async function SelectionDetailPage({
               <ArrowRight className="h-3 w-3 transition-transform group-hover:translate-x-1 rtl:rotate-180" />
             </span>
           </Link>
+        </section>
+      )}
+
+      {/* Noticias recientes de la selección */}
+      {teamNews.length > 0 && (
+        <section className="mx-auto w-full max-w-[1400px] px-6 mt-12 md:px-10">
+          <div className="flex items-baseline justify-between gap-3">
+            <div>
+              <div className="flex items-center gap-2 font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-pitch)]">
+                <Newspaper className="h-3 w-3" />
+                <span>Noticias</span>
+              </div>
+              <h2 className="mt-2 font-display text-2xl uppercase leading-tight md:text-3xl">
+                Lo último sobre {teamDisplayName(team)}
+              </h2>
+            </div>
+            <Link
+              href={withLocale(locale as Locale, '/noticias')}
+              className="inline-flex items-center gap-1.5 font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--color-fg-subtle)] transition-colors hover:text-[var(--color-pitch)]"
+            >
+              Todas las noticias <ArrowRight className="h-3 w-3 rtl:rotate-180" />
+            </Link>
+          </div>
+          <div className="mt-6 grid gap-4 md:grid-cols-2">
+            {teamNews.map((n) => (
+              <Link
+                key={n.slug}
+                href={withLocale(locale as Locale, `/noticias/${n.slug}`)}
+                className="group rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg-2)] p-5 transition-colors hover:border-[var(--color-pitch)]/60"
+              >
+                <div className="font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--color-fg-subtle)]">
+                  {n.category} · {relativeTimeEs(n.publishedAt)}
+                </div>
+                <h3 className="mt-2 font-display text-base uppercase leading-tight group-hover:text-[var(--color-pitch)]">
+                  {n.title}
+                </h3>
+                <p className="mt-3 text-sm text-[var(--color-fg-muted)] line-clamp-3">
+                  {n.summary}
+                </p>
+                <div className="mt-3 inline-flex items-center gap-1 font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--color-pitch)] group-hover:underline">
+                  Leer <ArrowRight className="h-3 w-3 rtl:rotate-180" />
+                </div>
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {/* Goles famosos en los que aparece la selección */}
+      {teamGoals.length > 0 && (
+        <section className="mx-auto w-full max-w-[1400px] px-6 mt-12 md:px-10">
+          <div className="flex items-baseline justify-between gap-3">
+            <div>
+              <div className="flex items-center gap-2 font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-pitch)]">
+                <Play className="h-3 w-3 fill-current" />
+                <span>Goles famosos</span>
+              </div>
+              <h2 className="mt-2 font-display text-2xl uppercase leading-tight md:text-3xl">
+                {teamDisplayName(team)} en la antología mundialista
+              </h2>
+            </div>
+            <Link
+              href={withLocale(locale as Locale, '/goles-famosos')}
+              className="inline-flex items-center gap-1.5 font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--color-fg-subtle)] transition-colors hover:text-[var(--color-pitch)]"
+            >
+              Todos los goles <ArrowRight className="h-3 w-3 rtl:rotate-180" />
+            </Link>
+          </div>
+          <div className="mt-6 grid gap-4 md:grid-cols-2">
+            {teamGoals.slice(0, 4).map((g) => {
+              const isAuthor = g.teamCode === team.code;
+              const watchUrl = g.youtubeId
+                ? `https://www.youtube.com/watch?v=${g.youtubeId}`
+                : youtubeSearchUrl(g.youtubeQuery);
+              const thumbnail = g.youtubeId ? youtubeThumbnailUrl(g.youtubeId) : null;
+              return (
+                // Estructura corregida: el outer NO es <Link> (Next 16 + HTML
+                // standard prohíben anidar <a> dentro de <a>). El Link al hub
+                // de goles famosos envuelve solo título+thumbnail; el link
+                // externo a YouTube es hermano, no hijo.
+                <article
+                  key={g.slug}
+                  className="group rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg-2)] p-5 transition-colors hover:border-[var(--color-pitch)]/60"
+                >
+                  <Link
+                    href={withLocale(locale as Locale, `/goles-famosos#${g.slug}`)}
+                    className="block"
+                  >
+                    <div className="font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--color-fg-subtle)]">
+                      Mundial {g.year} · {g.stage.toUpperCase()} · {isAuthor ? 'autor' : 'víctima'}
+                    </div>
+                    <h3 className="mt-2 font-display text-base uppercase leading-tight group-hover:text-[var(--color-pitch)]">
+                      {g.title}
+                    </h3>
+                    {thumbnail && (
+                      <div className="mt-3 overflow-hidden rounded-lg">
+                        {/* eslint-disable-next-line @next/next/no-img-element */}
+                        <img
+                          src={thumbnail}
+                          alt={`Vídeo del gol: ${g.title}`}
+                          loading="lazy"
+                          className="aspect-video w-full object-cover"
+                        />
+                      </div>
+                    )}
+                  </Link>
+                  <p className="mt-3 text-sm text-[var(--color-fg-muted)] line-clamp-3">
+                    {g.description}
+                  </p>
+                  <a
+                    href={watchUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-3 inline-flex items-center gap-1.5 font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--color-pitch)] hover:underline"
+                  >
+                    <Play className="h-3 w-3 fill-current" /> Ver en YouTube
+                  </a>
+                </article>
+              );
+            })}
+          </div>
+        </section>
+      )}
+
+      {/* Amistosos pre-Mundial 2026 */}
+      {teamFriendlies.length > 0 && (
+        <section className="mx-auto w-full max-w-[1400px] px-6 mt-12 md:px-10">
+          <div className="flex items-baseline justify-between gap-3">
+            <div>
+              <div className="flex items-center gap-2 font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-pitch)]">
+                <CalendarClock className="h-3 w-3" />
+                <span>Amistosos pre-Mundial 2026</span>
+              </div>
+              <h2 className="mt-2 font-display text-2xl uppercase leading-tight md:text-3xl">
+                Últimas pruebas antes del torneo
+              </h2>
+            </div>
+          </div>
+          <div className="mt-6 grid gap-3 md:grid-cols-2">
+            {teamFriendlies.map((f) => {
+              const isHome = f.homeCode === team.code;
+              const opponentCode = isHome ? f.awayCode : f.homeCode;
+              const opponent = TEAMS_2026[opponentCode as keyof typeof TEAMS_2026];
+              const opponentName = opponent?.name ?? opponentCode;
+              const opponentFlag = opponent?.flag ?? '';
+              const date = new Date(f.date);
+              const dateLabel = date.toLocaleDateString('es-ES', {
+                day: 'numeric',
+                month: 'short',
+                year: 'numeric',
+              });
+              const timeLabel = date.toLocaleTimeString('es-ES', {
+                hour: '2-digit',
+                minute: '2-digit',
+                hour12: false,
+              });
+              return (
+                <div
+                  key={f.date + f.homeCode + f.awayCode}
+                  className="rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg-2)] p-5"
+                >
+                  <div className="flex items-baseline justify-between gap-3">
+                    <div className="font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--color-pitch)]">
+                      {isHome ? 'En casa' : 'Visitante'} · {dateLabel}
+                    </div>
+                    <div className="font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--color-fg-subtle)]">
+                      {timeLabel}
+                    </div>
+                  </div>
+                  <h3 className="mt-2 flex items-baseline gap-2 font-display text-lg uppercase">
+                    <span>vs</span>
+                    <span>{opponentFlag}</span>
+                    <span>{opponentName}</span>
+                  </h3>
+                  {(f.venue || f.city) && (
+                    <div className="mt-1 font-mono text-[10px] uppercase tracking-[0.2em] text-[var(--color-fg-subtle)]">
+                      {[f.venue, f.city, f.country].filter(Boolean).join(' · ')}
+                    </div>
+                  )}
+                  {f.notes && (
+                    <p className="mt-3 text-sm leading-relaxed text-[var(--color-fg-muted)]">{f.notes}</p>
+                  )}
+                  {f.result && (
+                    <div className="mt-3 font-mono text-sm text-[var(--color-pitch)]">
+                      Resultado: {f.result.home}-{f.result.away}
+                    </div>
+                  )}
+                </div>
+              );
+            })}
+          </div>
         </section>
       )}
 
@@ -276,6 +693,12 @@ export default async function SelectionDetailPage({
         <h2 className="mt-3 font-display text-fluid-h2 uppercase leading-none">
           Cada aparición
         </h2>
+        <p className="mt-3 max-w-2xl text-sm text-[var(--color-fg-muted)]">
+          Partidos con <strong className="text-[var(--color-fg)]">ficha detallada</strong>{' '}
+          (alineaciones, eventos y estadísticas). El récord completo en Mundiales{' '}
+          ({wcRecord.played} partidos, {wcRecord.wins}-{wcRecord.draws}-{wcRecord.losses}) está
+          arriba.
+        </p>
 
         <div className="mt-10 space-y-10">
           {byYear.map((yr) => {

@@ -1,0 +1,130 @@
+{
+  "generatedAt": "2026-05-20T10:00:39.413Z",
+  "date": "2026-05-20",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "betano",
+      "geo": "CL",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "Betano expands partnership with FIFA and will support the 2026 World Cup",
+          "url": "https://igamingbrazil.com/en/bookmakers/2026/05/19/betano-expands-partnership-with-fifa-and-will-support-the-2026-world-cup/",
+          "source": "iGaming Brazil"
+        },
+        {
+          "title": "FIFA World Cup Tickets: FIFA renews Betano ties ahead of FIFA World Cup 2026",
+          "url": "https://blog.eticketing.co/fifa-world-cup-tickets-fifa-renews-betano-ties-ahead-of-fifa-world-cup-2026/",
+          "source": "eticketing.co"
+        },
+        {
+          "title": "FIFA signs another World Cup sponsor deal with the gambling industry",
+          "url": "https://www.msn.com/en-ca/sports/other/fifa-signs-another-world-cup-sponsor-deal-with-the-gambling-industry/ar-AA23ufhk",
+          "source": "MSN"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "es": [
+      {
+        "query": "betano",
+        "score": 1800,
+        "geos": [
+          "CL"
+        ],
+        "samples": [
+          {
+            "query": "betano",
+            "geo": "CL",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "Betano expands partnership with FIFA and will support the 2026 World Cup",
+                "url": "https://igamingbrazil.com/en/bookmakers/2026/05/19/betano-expands-partnership-with-fifa-and-will-support-the-2026-world-cup/",
+                "source": "iGaming Brazil"
+              },
+              {
+                "title": "FIFA World Cup Tickets: FIFA renews Betano ties ahead of FIFA World Cup 2026",
+                "url": "https://blog.eticketing.co/fifa-world-cup-tickets-fifa-renews-betano-ties-ahead-of-fifa-world-cup-2026/",
+                "source": "eticketing.co"
+              },
+              {
+                "title": "FIFA signs another World Cup sponsor deal with the gambling industry",
+                "url": "https://www.msn.com/en-ca/sports/other/fifa-signs-another-world-cup-sponsor-deal-with-the-gambling-industry/ar-AA23ufhk",
+                "source": "MSN"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "topic": "betano",
+      "type": "noticia",
+      "slugSuggestion": "betano",
+      "language": "es",
+      "geos": [
+        "CL"
+      ],
+      "score": 2160,
+      "reason": "Google Trends daily CL con 2,000 búsquedas · 3 artículos noticiosos referenciando \"betano\"",
+      "proposedPath": "/noticias/betano",
+      "evidence": [
+        {
+          "query": "betano",
+          "geo": "CL",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 2000,
+          "articles": [
+            {
+              "title": "Betano expands partnership with FIFA and will support the 2026 World Cup",
+              "url": "https://igamingbrazil.com/en/bookmakers/2026/05/19/betano-expands-partnership-with-fifa-and-will-support-the-2026-world-cup/",
+              "source": "iGaming Brazil"
+            },
+            {
+              "title": "FIFA World Cup Tickets: FIFA renews Betano ties ahead of FIFA World Cup 2026",
+              "url": "https://blog.eticketing.co/fifa-world-cup-tickets-fifa-renews-betano-ties-ahead-of-fifa-world-cup-2026/",
+              "source": "eticketing.co"
+            },
+            {
+              "title": "FIFA signs another World Cup sponsor deal with the gambling industry",
+              "url": "https://www.msn.com/en-ca/sports/other/fifa-signs-another-world-cup-sponsor-deal-with-the-gambling-industry/ar-AA23ufhk",
+              "source": "MSN"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alreadyCovered": []
+}

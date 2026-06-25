@@ -12,6 +12,7 @@ import { getTournament } from '@/lib/tournaments';
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd } from '@/lib/seo';
 import { STAGE_LABEL_ES } from '@/lib/data/matches';
+import { countryName } from '@/lib/country-names';
 
 function withLocale(locale: Locale, href: string) {
   if (locale === routing.defaultLocale) return href;
@@ -302,13 +303,13 @@ export default async function PlayerDetailPage({
                             m.team_code === m.team_code ? '' : ''
                           }`}
                         >
-                          {m.team_code}
+                          {countryName(m.team_code)}
                         </div>
                         <div className="font-display text-2xl tab-num text-[var(--color-fg)]">
                           {m.home_score ?? '-'} · {m.away_score ?? '-'}
                         </div>
                         <div className="truncate text-sm text-[var(--color-fg-muted)]">
-                          {m.opponent_code}
+                          {countryName(m.opponent_code)}
                         </div>
                       </div>
                       <div className="flex items-center justify-between text-[10px] font-mono uppercase tracking-widest text-[var(--color-fg-subtle)]">

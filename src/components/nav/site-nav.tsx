@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { useLocale, useTranslations } from 'next-intl';
 import { useState, useEffect } from 'react';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, Tv } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { LocaleSwitcher } from './locale-switcher';
 import { LogomarkSeal } from '@/components/brand/logomark-seal';
@@ -27,19 +27,26 @@ export function SiteNav() {
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
 
+  // 2026 primero: el Mundial en curso lidera la navegación.
+  const calendarLink = { href: '/2026/calendario', label: t('calendar') };
   const links = [
-    { href: '/ediciones', label: t('editions') },
+    { href: '/noticias', label: t('news') },
     { href: '/selecciones', label: t('selections') },
     { href: '/jugadores', label: t('players') },
     { href: '/estadios', label: t('stadiums') },
+    { href: '/ediciones', label: t('editions') },
     { href: '/historias', label: t('stories') },
     { href: '/galeria', label: t('gallery') },
   ];
+  // Desktop muestra un subconjunto para no desbordar; el resto vive en el drawer móvil y el footer.
+  const desktopLinks = [calendarLink, ...links.slice(0, 5)];
 
   return (
     <header
       className={cn(
-        'fixed inset-x-0 top-0 z-40 transition-all duration-500',
+        // En flujo dentro del contenedor fijo del layout (que apila la barra
+        // de enlaces encima y el safe-area del notch). Aquí solo el fondo/blur.
+        'relative z-40 transition-all duration-500',
         scrolled
           ? 'border-b border-[var(--color-border)] bg-[var(--color-bg)]/80 backdrop-blur-xl'
           : 'border-b border-transparent bg-transparent',
@@ -57,7 +64,7 @@ export function SiteNav() {
         </Link>
 
         <nav className="hidden items-center gap-1 lg:flex">
-          {links.map((l) => (
+          {desktopLinks.map((l) => (
             <Link
               key={l.href}
               href={withLocale(locale, l.href)}
@@ -67,8 +74,15 @@ export function SiteNav() {
             </Link>
           ))}
           <Link
-            href={withLocale(locale, '/2026')}
-            className="ms-2 inline-flex items-center gap-2 rounded-full border border-[var(--color-pitch)]/30 bg-[var(--color-pitch)]/10 px-4 py-2 text-sm font-semibold text-[var(--color-pitch)] transition-colors hover:bg-[var(--color-pitch)]/20"
+            href={withLocale(locale, '/2026/donde-ver')}
+            className="ms-2 inline-flex items-center gap-2 rounded-full border border-[var(--color-border-strong)] px-4 py-2 text-sm font-semibold text-[var(--color-fg)] transition-colors hover:border-[var(--color-pitch)] hover:text-[var(--color-pitch)]"
+          >
+            <Tv className="h-4 w-4" />
+            {t('whereToWatch')}
+          </Link>
+          <Link
+            href={withLocale(locale, '/2026/partidos-hoy')}
+            className="ms-1 inline-flex items-center gap-2 rounded-full border border-[var(--color-pitch)]/30 bg-[var(--color-pitch)]/10 px-4 py-2 text-sm font-semibold text-[var(--color-pitch)] transition-colors hover:bg-[var(--color-pitch)]/20"
           >
             <span className="relative flex h-2 w-2">
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[var(--color-pitch)] opacity-75" />
@@ -93,7 +107,7 @@ export function SiteNav() {
       {/* Mobile drawer */}
       <div
         className={cn(
-          'fixed inset-0 z-50 flex flex-col bg-[var(--color-bg)] transition-transform duration-500',
+          'fixed inset-0 z-50 flex flex-col bg-[var(--color-bg)] pt-[env(safe-area-inset-top)] pb-[env(safe-area-inset-bottom)] transition-transform duration-500',
           open ? 'translate-x-0' : 'translate-x-full',
         )}
       >
@@ -108,7 +122,12 @@ export function SiteNav() {
           </button>
         </div>
         <nav className="flex flex-col gap-1 px-6 pb-10 pt-8 md:px-10">
-          {[...links, { href: '/2026', label: t('live2026') }].map((l) => (
+          {[
+            calendarLink,
+            ...links,
+            { href: '/2026/donde-ver', label: t('whereToWatch') },
+            { href: '/2026/partidos-hoy', label: t('live2026') },
+          ].map((l) => (
             <Link
               key={l.href}
               href={withLocale(locale, l.href)}

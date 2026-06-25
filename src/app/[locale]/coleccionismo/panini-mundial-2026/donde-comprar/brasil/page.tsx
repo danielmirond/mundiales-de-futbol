@@ -32,6 +32,7 @@ export async function generateMetadata({
       'comprar figurinhas copa 2026',
     ],
     type: 'article',
+    availableLocales: ['pt'],
   });
 }
 

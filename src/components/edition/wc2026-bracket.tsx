@@ -1,4 +1,6 @@
-import { FIXTURES_2026 } from '@/lib/wc-2026';
+import { FIXTURES_2026, GROUPS_2026, TEAMS_2026 } from '@/lib/wc-2026';
+import { fetchScores, buildScoreMap } from '@/lib/live-scores';
+import { computeGroupLive } from '@/lib/data/group-scenarios';
 
 type Slot = {
   n: number;
@@ -23,13 +25,41 @@ function slotsForStage(stage: string): Slot[] {
  * 3rd place sits separately below the main graph.
  * SVG-based, responsive via viewBox.
  */
-export function WC2026Bracket() {
+export async function WC2026Bracket() {
   const r32 = slotsForStage('R32');
   const r16 = slotsForStage('R16');
   const qf = slotsForStage('QF');
   const sf = slotsForStage('SF');
   const fi = slotsForStage('FINAL');
   const p3 = slotsForStage('3P');
+
+  // Clasificaciones en vivo: si un grupo está COMPLETO (6 partidos), resolvemos
+  // sus posiciones a selecciones reales para rellenar el cuadro.
+  const scoreMap = buildScoreMap(await fetchScores());
+  const posByGroup = new Map<string, string[]>();
+  for (const g of GROUPS_2026) {
+    const { standings, played } = computeGroupLive(g.letter, g.teams.filter(Boolean) as string[], scoreMap);
+    if (played === 6) posByGroup.set(g.letter, standings.map((s) => s.code));
+  }
+  const tName = (c: string) => TEAMS_2026[c]?.name ?? c;
+  function resolveToken(tok: string): string {
+    const t = tok.trim();
+    let m = t.match(/^([12])º\s*([A-L])$/);
+    if (m) {
+      const code = posByGroup.get(m[2])?.[Number(m[1]) - 1];
+      return code ? tName(code) : `${m[1]}.º Grupo ${m[2]}`;
+    }
+    if (/3er|3\.º/i.test(t)) return 'Mejor 3.º';
+    m = t.match(/M(\d+)/);
+    if (m) return `Ganador M${m[1]}`;
+    return t;
+  }
+  function mu(s: Slot): string {
+    if (s.home && s.away) return `${tName(s.home)} vs ${tName(s.away)}`;
+    const parts = (s.label || '').split('·');
+    if (parts.length === 2) return parts.map(resolveToken).join(' vs ');
+    return s.label || 'Por definir';
+  }
 
   // Layout parameters (viewBox 1400 × 900)
   const W = 1400;
@@ -52,10 +82,10 @@ export function WC2026Bracket() {
   }
 
   function SlotBox({
-    x, y, w, h, label, home, away, highlight,
+    x, y, w, h, label, matchup, highlight,
   }: {
     x: number; y: number; w: number; h: number;
-    label: string; home?: string; away?: string; highlight?: boolean;
+    label: string; matchup: string; highlight?: boolean;
   }) {
     return (
       <g>
@@ -83,7 +113,7 @@ export function WC2026Bracket() {
           fill="var(--color-fg)"
           fontWeight="500"
         >
-          {home && away ? `${home} vs ${away}` : 'TBD · TBD'}
+          {matchup}
         </text>
       </g>
     );
@@ -165,7 +195,7 @@ export function WC2026Bracket() {
               key={`r32-${i}`}
               x={colX[0]} y={yForIndex(i, 16) - slotH / 2} w={colWidth} h={slotH}
               label={`R32 · ${i + 1}`}
-              home={s.home} away={s.away}
+              matchup={mu(s)}
             />
           ))}
           {/* R16 */}
@@ -174,7 +204,7 @@ export function WC2026Bracket() {
               key={`r16-${i}`}
               x={colX[1]} y={yForIndex(i, 8) - slotH / 2} w={colWidth} h={slotH}
               label={`Octavos · ${i + 1}`}
-              home={s.home} away={s.away}
+              matchup={mu(s)}
             />
           ))}
           {/* QF */}
@@ -183,7 +213,7 @@ export function WC2026Bracket() {
               key={`qf-${i}`}
               x={colX[2]} y={yForIndex(i, 4) - slotH / 2} w={colWidth} h={slotH}
               label={`Cuartos · ${i + 1}`}
-              home={s.home} away={s.away}
+              matchup={mu(s)}
             />
           ))}
           {/* SF */}
@@ -192,7 +222,7 @@ export function WC2026Bracket() {
               key={`sf-${i}`}
               x={colX[3]} y={yForIndex(i, 2) - slotH / 2} w={colWidth} h={slotH}
               label={`Semifinal · ${i + 1}`}
-              home={s.home} away={s.away}
+              matchup={mu(s)}
             />
           ))}
           {/* Final */}
@@ -201,7 +231,7 @@ export function WC2026Bracket() {
               key={`final-${i}`}
               x={colX[4]} y={yForIndex(0, 1) - slotH / 2} w={colWidth} h={slotH + 10}
               label={'🏆 FINAL · 19 JUL'}
-              home={s.home} away={s.away}
+              matchup={mu(s)}
               highlight
             />
           ))}

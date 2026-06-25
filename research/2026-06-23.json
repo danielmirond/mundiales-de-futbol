@@ -1,0 +1,2173 @@
+{
+  "generatedAt": "2026-06-23T10:10:54.333Z",
+  "date": "2026-06-23",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "soccer world rankings",
+      "geo": "US",
+      "language": "en",
+      "source": "google-trends-daily",
+      "score": 5000,
+      "articles": [
+        {
+          "title": "World Cup 2026 Power Rankings after one game: Who is No. 1?",
+          "url": "https://www.espn.com/soccer/story/_/id/49094186/fifa-world-cup-power-rankings-spain-brazil-germany-usa-mexico-england-argentina",
+          "source": "ESPN"
+        },
+        {
+          "title": "Ranking the top 50 players at the 2026 World Cup: Who were the winners and losers from week one? - The Athletic",
+          "url": "https://www.nytimes.com/athletic/7372630/2026/06/18/world-cup-50-players-rankings/",
+          "source": "The New York Times"
+        },
+        {
+          "title": "The 11 Biggest World Cup Questions After the First Round of Group Play",
+          "url": "https://www.theringer.com/2026/06/18/world-cup/fifa-world-cup-group-play-biggest-questions-lionel-messi-cristiano-ronaldo",
+          "source": "The Ringer"
+        }
+      ]
+    },
+    {
+      "query": "progol",
+      "geo": "MX",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Quiniela Progol Media Semana 801: partidos y predicciones",
+          "url": "https://www.marca.com/mx/futbol/2026/06/22/6a3938f746163f912b8b45bd.html",
+          "source": "MARCA"
+        },
+        {
+          "title": "Resultados Progol Revancha 2337: ganadores de la quiniela del Mundial 2026",
+          "url": "https://www.cronica.com.mx/tendencias/2026/06/21/resultados-progol-revancha-2337-ganadores-de-la-quiniela-del-mundial-2026/",
+          "source": "La Crónica de Hoy"
+        },
+        {
+          "title": "¡No te quedes fuera! Horarios atípicos de Progol este Mundial",
+          "url": "https://tulotero.mx/2026/06/16/horarios-atipicos-progol-durante-mundial/",
+          "source": "https://tulotero.mx/"
+        }
+      ]
+    },
+    {
+      "query": "suiza vs canada",
+      "geo": "MX",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Cómo conseguir entradas de última hora para Suiza-Canadá: precios, BC Place y más",
+          "url": "https://www.goal.com/es/noticias/como-conseguir-entradas-de-ultima-hora-para-suiza-canada-precios-bc-place-y-mas/blt545493260f5f324b",
+          "source": "Goal.com"
+        },
+        {
+          "title": "Suiza vs Canadá gratis y en vivo: cómo ver el Mundial 2026 en directo desde cualquier lugar",
+          "url": "https://es.gizmodo.com/donde-ver-suiza-vs-canada-gratis-y-en-vivo-desde-cualquier-lugar-2000242435",
+          "source": "Gizmodo en Español"
+        },
+        {
+          "title": "Suiza vs. Canadá: alineaciones, estadísticas, horario y dónde ver",
+          "url": "https://news.bet365.es/es-es/article/suiza-vs-canada-alineaciones-estadisticas-horario-y-donde-ver/2026062212215623992",
+          "source": "bet365"
+        }
+      ]
+    },
+    {
+      "query": "posiciones de selección de fútbol de jordania contra selección de fútbol de argelia",
+      "geo": "MX",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200000,
+      "articles": [
+        {
+          "title": "Jordania vs. Argelia EN VIVO. Partido HOY Fecha 2 Mundial 2026",
+          "url": "https://www.mediotiempo.com/futbol/copa-mundial/donde-ver-jordania-vs-argelia-horario-y-canal-partido-fecha-2-mundial-2026",
+          "source": "Mediotiempo"
+        },
+        {
+          "title": "Jordan vs Algeria: cuándo, dónde y cómo ver el partido",
+          "url": "https://www.proceso.com.mx/deportes/2026/6/23/jordan-vs-algeria-cuando-donde-y-como-ver-el-partido-374582.html",
+          "source": "Proceso"
+        },
+        {
+          "title": "Remontada argelina que sentencia a Jordania",
+          "url": "https://www.elnorte.com/remontada-argelina-que-sentencia-a-jordania/ar3227443",
+          "source": "El Norte"
+        }
+      ]
+    },
+    {
+      "query": "england vs ghana",
+      "geo": "CA",
+      "language": "en",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "World Cup 2026: England v Ghana - who will start for Thomas Tuchel&apos;s side?",
+          "url": "https://www.bbc.com/sport/football/live/cq618zygpz5t",
+          "source": "BBC"
+        },
+        {
+          "title": "Predicting England&apos;s World Cup starting XI against Ghana, where could Tuchel make changes?",
+          "url": "https://www.dazn.com/en-CA/news/soccer/fifa-world-cup-england-starting-xi-vs-ghana-prediction-depth-chart-kane-bellingham-rashford/1n0mhgsf4bns1euconpggd8i8",
+          "source": "DAZN"
+        },
+        {
+          "title": "Kane, England play Ghana at the World Cup: prediction, team news, lineups",
+          "url": "https://www.aljazeera.com/sports/2026/6/23/england-ghana-prediction-fifa-world-cup-2026-kickoff-channel-kane-partey",
+          "source": "Al Jazeera"
+        }
+      ]
+    },
+    {
+      "query": "posiciones de selección de fútbol de jordania contra selección de fútbol de argelia",
+      "geo": "AR",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200000,
+      "articles": [
+        {
+          "title": "Argentina se aseguró el grupo: la llave que le abre un camino tentador en el Mundial",
+          "url": "https://www.ole.com.ar/mundial/mundial-2026/argentina-mundial-clasificado-primero-empate-jordania_0_b6idDF4f5y.html",
+          "source": "Olé"
+        },
+        {
+          "title": "Partido por partido: horarios de la selección argentina en el Mundial 2026",
+          "url": "https://www.lanacion.com.ar/deportes/futbol/partido-por-partido-horarios-de-la-seleccion-argentina-en-el-mundial-2026-nid23062026/",
+          "source": "La Nación"
+        },
+        {
+          "title": "La calculadora de Argentina para el cruce de 16avos de final del Mundial: cuál puede ser el rival entre España, Uruguay, Cabo Verde y Arabia Saudita",
+          "url": "https://www.infobae.com/deportes/2026/06/22/la-calculadora-de-argentina-para-el-cruce-de-16avos-de-final-del-mundial-cual-puede-ser-el-rival-entre-espana-uruguay-cabo-verde-y-arabia-saudita/",
+          "source": "Infobae"
+        }
+      ]
+    },
+    {
+      "query": "mousa al-tamari",
+      "geo": "AR",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Task failed successfully: Mousa Al-Tamari registers the most chaotic assist of the World Cup",
+          "url": "https://tribuna.com/en/blogs/task-failed-successfully-mousa-altamari-registers-the-most-c/",
+          "source": "Tribuna.com"
+        },
+        {
+          "title": "Jordan 1-2 Algeria: World Cup debutants are knocked out of tournament",
+          "url": "https://www.bbc.com/sport/football/live/ckg5n4wyzxnt",
+          "source": "BBC"
+        },
+        {
+          "title": "Jordan vs Algeria Quick Highlights | 2026 FIFA World Cup™",
+          "url": "https://www.foxsports.com/watch-vertical/fmc-6htai2whew4i2xkw",
+          "source": "FOX Sports"
+        }
+      ]
+    },
+    {
+      "query": "jordania - argelia",
+      "geo": "AR",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100000,
+      "articles": [
+        {
+          "title": "Argelia dio vuelta un partido que había empezado torcido, eliminó a Jordania y le dio el primer puesto a la Argentina",
+          "url": "https://www.lanacion.com.ar/deportes/futbol/argelia-dio-vuelta-un-partido-que-habia-empezado-torcido-elimino-a-jordania-y-le-dio-el-primer-nid23062026/",
+          "source": "La Nación"
+        },
+        {
+          "title": "VIDEO: resumen de Jordania vs. Argelia en el Mundial 2026",
+          "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16890618/video-jordania-vs-argelia-resumen-partido-mundial-2026",
+          "source": "ESPN Argentina"
+        },
+        {
+          "title": "1-2. Los Zorros del Desierto se salvan del desastre",
+          "url": "https://www.infobae.com/espana/agencias/2026/06/23/1-2-los-zorros-del-desierto-se-salvan-del-desastre/",
+          "source": "Infobae"
+        }
+      ]
+    },
+    {
+      "query": "senegal vs irak",
+      "geo": "AR",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Senegal v Iraq - Group I - FIFA World Cup Score Centre",
+          "url": "https://www.abc.net.au/news/sport/score-centre/fifa-world-cup/2026-06-27/senegal-iraq/2608306",
+          "source": "Australian Broadcasting Corporation"
+        },
+        {
+          "title": "Senegal vs Iraq World Cup 2026 Predictions and Best Bets",
+          "url": "https://totalfootballanalysis.com/competitions/fifa-world-cup-2026/senegal-v-iraq-predictions",
+          "source": "Total Football Analysis"
+        },
+        {
+          "title": "Why Senegal and Iraq haven&apos;t been eliminated from the World Cup despite being on zero points",
+          "url": "https://www.sportbible.com/football/football-news/fifa-world-cup/why-senegal-iraq-arent-eliminated-revealed-284480-20260623",
+          "source": "SPORTbible"
+        }
+      ]
+    },
+    {
+      "query": "jordania",
+      "geo": "CO",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 5000,
+      "articles": [
+        {
+          "title": "Algeria vs. Jordan Odds, Predictions, Picks For World Cup Match",
+          "url": "https://www.foxsports.com/stories/soccer/2026-world-cup-algeria-jordan-odds-prediction-picks",
+          "source": "FOX Sports"
+        },
+        {
+          "title": "Highlights: Jordan 1-2 Algeria World Cup 2026 - 23 June 2026",
+          "url": "https://www.bbc.com/sport/football/videos/clyw72k34nwo",
+          "source": "BBC"
+        },
+        {
+          "title": "Jordan 1 - 2 Algeria: Late Amine Gouiri goal eliminates Jordan - as it happened",
+          "url": "https://www.espn.com/soccer/story/_/id/49145580/jordan-algeria-live-world-cup-2026-latest-updates-commentary-score-result",
+          "source": "ESPN"
+        }
+      ]
+    },
+    {
+      "query": "posiciones de selección de fútbol de jordania contra selección de fútbol de argelia",
+      "geo": "CL",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 20000,
+      "articles": [
+        {
+          "title": "VIDEO: resumen de Jordania vs. Argelia en el Mundial 2026",
+          "url": "https://www.espn.cl/futbol/mundial/nota/_/id/16890618/video-jordania-vs-argelia-resumen-partido-mundial-2026",
+          "source": "ESPN Chile"
+        },
+        {
+          "title": "Argelia dio vuelta el marcador ante Jordania con goles de Benbouali y Gouiri",
+          "url": "https://www.cooperativa.cl/noticias/deportes/mundial-2026/fase-grupal/argelia-dio-vuelta-el-marcador-ante-jordania-con-goles-de-benbouali-y/2026-06-23/005100.html",
+          "source": "Cooperativa"
+        },
+        {
+          "title": "Dónde y a qué hora ver a Jordania vs. Argelia en TV y streaming",
+          "url": "https://www.latercera.com/servicios/noticia/donde-y-a-que-hora-ver-a-jordania-vs-argelia-en-tv-y-streaming/",
+          "source": "La Tercera"
+        }
+      ]
+    },
+    {
+      "query": "uzbekistan vs",
+      "geo": "CL",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Cuándo juegan Portugal vs. Uzbekistán por la segunda fecha de la fase de grupos del Mundial 2026: equipo, fecha, hora y TV en vivo",
+          "url": "https://www.espn.cl/futbol/mundial/nota/_/id/16885444/portugal-vs-uzbekistan-fase-de-grupos-mundial-2026-equipo-fecha-hora-y-tv-en-vivo",
+          "source": "ESPN Chile"
+        },
+        {
+          "title": "Portugal y Cristiano Ronaldo quieren disipar dudas en el Mundial ante la Uzbekistán de Cannavaro",
+          "url": "https://www.cooperativa.cl/noticias/deportes/mundial-2026/fase-grupal/portugal-y-cristiano-ronaldo-quieren-disipar-dudas-en-el-mundial-ante-la/2026-06-22/225523.html",
+          "source": "Cooperativa"
+        },
+        {
+          "title": "Portugal vs. Uzbekistán: Horario y qué canal transmite EN VIVO y por TV a Cristiano Ronaldo en el Mundial 2026",
+          "url": "https://redgol.cl/mundial/portugal-vs-uzbekistan-horario-y-que-canal-transmite-en-vivo-y-por-tv-a-cristiano-ronaldo-en-el-mundial-2026",
+          "source": "RedGol"
+        }
+      ]
+    },
+    {
+      "query": "jordania",
+      "geo": "CL",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "Jordan 1-2 Algeria: World Cup debutants are knocked out of tournament",
+          "url": "https://www.bbc.com/sport/football/live/ckg5n4wyzxnt",
+          "source": "BBC"
+        },
+        {
+          "title": "Licensable picture: Jordanians watch their national team&apos;s match at the Roman Theatre in Amman",
+          "url": "https://www.reutersconnect.com/item/jordanians-watch-their-national-teams-match-at-the-roman-theatre-in-amman/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX01UMUFOQURMMDAwUEFNS0hH",
+          "source": "Reuters Connect"
+        },
+        {
+          "title": "Jordan vs Algeria Quick Highlights | 2026 FIFA World Cup™",
+          "url": "https://www.foxsports.com/watch-vertical/fmc-6htai2whew4i2xkw",
+          "source": "FOX Sports"
+        }
+      ]
+    },
+    {
+      "query": "panama vs croacia",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Zlatko Dalic enumera cualidades de Panamá: \"Es un rival muy exigente y con calidad\"",
+          "url": "https://espndeportes.espn.com/futbol/guatemala/nota/_/id/16889038/zlatko-dalic-cualidades-panama-rival-exigente-y-con-calidad",
+          "source": "ESPN Deportes"
+        },
+        {
+          "title": "Panamá vs Croacia: fechas, horarios y alineaciones",
+          "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16884676/mundial-2026-panama-vs-croacia-fechas-horarios-alineaciones",
+          "source": "ESPN Argentina"
+        },
+        {
+          "title": "Dónde ver EN VIVO Panamá vs Croacia por el Mundial 2026: transmisión del partido",
+          "url": "https://elcomercio.pe/deporte-total/futbol-mundial/donde-ver-panama-vs-croacia-en-vivo-mundial-2026-television-horario-y-mas-del-juego-por-el-grupo-l-link-tdpe-noticia/",
+          "source": "El Comercio Perú"
+        }
+      ]
+    },
+    {
+      "query": "algeria vs",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 5000,
+      "articles": [
+        {
+          "title": "Algeria vs. Jordan Odds, Predictions, Picks For World Cup Match",
+          "url": "https://www.foxsports.com/stories/soccer/2026-world-cup-algeria-jordan-odds-prediction-picks",
+          "source": "FOX Sports"
+        },
+        {
+          "title": "Highlights: Jordan 1-2 Algeria World Cup 2026 - 23 June 2026",
+          "url": "https://www.bbc.com/sport/football/videos/clyw72k34nwo",
+          "source": "BBC"
+        },
+        {
+          "title": "Jordan 1 - 2 Algeria: Late Amine Gouiri goal eliminates Jordan - as it happened",
+          "url": "https://www.espn.com/soccer/story/_/id/49145580/jordan-algeria-live-world-cup-2026-latest-updates-commentary-score-result",
+          "source": "ESPN"
+        }
+      ]
+    },
+    {
+      "query": "jordania - argelia",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100000,
+      "articles": [
+        {
+          "title": "Argelia culmina una épica remontada en la segunda parte y doblega a Jordania (1-2)",
+          "url": "https://www.telemundo51.com/deportes/copa-mundial-fifa/highlights-partidos-junio-22-2026-marcador-futbol-live-updates/2786998/",
+          "source": "Telemundo Miami (51)"
+        },
+        {
+          "title": "Así le hemos contado el partido entre Jordania y Argelia del grupo J del Mundial 2026",
+          "url": "https://elpais.com/deportes/2026-06-23/jordania-argelia-en-directo-partido-del-grupo-j-del-mundial-2026-en-vivo.html",
+          "source": "EL PAÍS"
+        },
+        {
+          "title": "VIDEO: Jordania vs Argelia (1-2): resumen y goles del partido por Mundial 2026",
+          "url": "https://elcomercio.pe/deporte-total/futbol-mundial/video-jordania-vs-argelia-en-vivo-gratis-hoy-por-mundial-2026-horarios-canales-tv-y-donde-ver-partido-por-mundial-2026-via-directv-dazn-paramount-noticia/",
+          "source": "El Comercio Perú"
+        }
+      ]
+    },
+    {
+      "query": "vikingos",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Es la definición de que el fútbol es más que un deporte: la celebración vikinga de Noruega que es tremenda",
+          "url": "https://as.com/futbol/videos/es-la-definicion-de-que-el-futbol-es-mas-que-un-deporte-la-celebracion-vikinga-de-noruega-que-es-tremenda-f202606-v/",
+          "source": "Diario AS"
+        },
+        {
+          "title": "\"Remo Vikingo\" con Haaland: Noruega y el festejo más viral del Mundial 2026 tras triunfo ante Senegal",
+          "url": "https://rpp.pe/futbol/mundial-2026/noruega-vs-senegal-remo-vikingo-y-el-festejo-mas-viral-del-mundial-2026-tras-triunfo-erling-haaland-noticia-1694226",
+          "source": "RPP"
+        },
+        {
+          "title": "La espectacular conga de los aficionados de Noruega para salir del estadio",
+          "url": "https://www.marca.com/futbol/mundial/2026/06/23/espectacular-conga-aficionados-noruega-salir-video.html",
+          "source": "MARCA"
+        }
+      ]
+    },
+    {
+      "query": "colombia vs rd congo",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Lorenzo: \"Tenemos una identidad de juego que debemos respetar\"",
+          "url": "https://ovacion.pe/noticias/mundial-2026/lorenzo-tenemos-una-identidad-juego-debemos-respetar",
+          "source": "ovacion.pe"
+        },
+        {
+          "title": "América TV EN VIVO, Colombia vs. RD Congo hoy EN DIRECTO ONLINE por Mundial 2026",
+          "url": "https://www.americatv.com.pe/deportes/futbol-mundial/america-tv-go-vivo-colombia-vs-rd-congo-hoy-gratis-mundial-2026-n454673",
+          "source": "América TV"
+        },
+        {
+          "title": "Colombia vs RD Congo EN VIVO: se enfrentan en Guadalajara por la fecha 2 del Mundial 2026",
+          "url": "https://rpp.pe/futbol/mundial-2026/colombia-vs-rd-congo-en-vivo-directv-transmision-fecha-2-mundial-2026-fifa-link-gratis-partidos-de-hoy-seo-noticia-1694143",
+          "source": "RPP"
+        }
+      ]
+    },
+    {
+      "query": "posiciones de selección de fútbol de jordania contra selección de fútbol de argelia",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 20000,
+      "articles": [
+        {
+          "title": "Argelia culmina una épica remontada en la segunda parte y doblega a Jordania (1-2)",
+          "url": "https://www.telemundo51.com/deportes/copa-mundial-fifa/highlights-partidos-junio-22-2026-marcador-futbol-live-updates/2786998/",
+          "source": "Telemundo Miami (51)"
+        },
+        {
+          "title": "Argentina clasifica primero en el Grupo J, tras el triunfo con remontada de Argelia sobre Jordania",
+          "url": "https://www.primicias.ec/deportes/mundial-2026/partidos-resultados/envivo-jordania-argelia-ver-tv-125993/",
+          "source": "Primicias"
+        },
+        {
+          "title": "Jordania vs Argelia EN VIVO HOY: los detalles, alineaciones y cómo ver | Mundial 2026",
+          "url": "https://www.expreso.ec/deportes/copa-mundial-de-futbol/jordania-vs-argelia-vivo-hoy-detalles-alineaciones-ver-mundial-2026-286703.html",
+          "source": "expreso.ec"
+        }
+      ]
+    },
+    {
+      "query": "jordania",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "Algeria vs. Jordan Odds, Predictions, Picks For World Cup Match",
+          "url": "https://www.foxsports.com/stories/soccer/2026-world-cup-algeria-jordan-odds-prediction-picks",
+          "source": "FOX Sports"
+        },
+        {
+          "title": "Highlights: Jordan 1-2 Algeria World Cup 2026 - 23 June 2026",
+          "url": "https://www.bbc.com/sport/football/videos/clyw72k34nwo",
+          "source": "BBC"
+        },
+        {
+          "title": "Jordan 1 - 2 Algeria: Late Amine Gouiri goal eliminates Jordan - as it happened",
+          "url": "https://www.espn.com/soccer/story/_/id/49145580/jordan-algeria-live-world-cup-2026-latest-updates-commentary-score-result",
+          "source": "ESPN"
+        }
+      ]
+    },
+    {
+      "query": "tabla mejores terceros mundial 2026",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "La ‘generación dorada’ saca otro cero",
+          "url": "https://www.eluniverso.com/deportes/columnistas-deportes/la-generacion-dorada-saca-otro-cero-nota/",
+          "source": "El Universo"
+        },
+        {
+          "title": "Tabla de posiciones de los mejores terceros del Mundial 2026: ¿Está Ecuador en zona de clasificación?",
+          "url": "https://www.elcomercio.com/deportes/futbol/tabla-posiciones-mejores-terceros-mundial/",
+          "source": "El Comercio"
+        },
+        {
+          "title": "Eloy Room, del anonimato en Miami al récord histórico del Mundial con Curazao",
+          "url": "https://www.larepublica.ec/blog/2026/06/21/eloy-room-del-anonimato-en-miami-al-record-historico-del-mundial-con-curazao/",
+          "source": "La República EC"
+        }
+      ]
+    },
+    {
+      "query": "erling haaland",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 5000,
+      "articles": [
+        {
+          "title": "Norway 3-2 Senegal: Erling Haaland scores twice to fire his country into the World Cup last 32",
+          "url": "https://www.bbc.com/sport/football/live/c3ey5pj14yxt",
+          "source": "BBC"
+        },
+        {
+          "title": "Senegal&apos;s World Cup dreams hanging by a thread after defeat to Norway",
+          "url": "https://www.dawan.africa/news/senegals-world-cup-dreams-hanging-by-a-thread-after-defeat-to-norway",
+          "source": "Dawan Africa"
+        },
+        {
+          "title": "FIFA World Cup: Stale Solbakken hails &apos;best striker&apos; Erling Haaland",
+          "url": "https://www.flashscore.com/news/soccer-world-championship-norway-head-coach-stale-solbakken-says-senegal-win-down-to-on-fire-erling-haaland/Yc4Ye2nl/",
+          "source": "Flashscore.com"
+        }
+      ]
+    },
+    {
+      "query": "posiciones de selección de fútbol de jordania contra selección de fútbol de argelia",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 5000,
+      "articles": [
+        {
+          "title": "Por dónde ver Jordania vs. Argelia en vivo por el Mundial 2026: día, hora y previa del Grupo J",
+          "url": "https://www.elpais.com.uy/ovacion/mundial/por-donde-ver-jordania-vs-argelia-en-vivo-por-el-mundial-2026-dia-hora-y-previa-del-grupo-j",
+          "source": "EL PAÍS Uruguay"
+        },
+        {
+          "title": "Argelia culmina una épica remontada en la segunda parte y doblega a Jordania (1-2)",
+          "url": "https://www.telemundo51.com/deportes/copa-mundial-fifa/highlights-partidos-junio-22-2026-marcador-futbol-live-updates/2786998/",
+          "source": "Telemundo Miami (51)"
+        },
+        {
+          "title": "Así le hemos contado el partido entre Jordania y Argelia del grupo J del Mundial 2026",
+          "url": "https://elpais.com/deportes/2026-06-23/jordania-argelia-en-directo-partido-del-grupo-j-del-mundial-2026-en-vivo.html",
+          "source": "EL PAÍS"
+        }
+      ]
+    },
+    {
+      "query": "jordania",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Algeria vs. Jordan Odds, Predictions, Picks For World Cup Match",
+          "url": "https://www.foxsports.com/stories/soccer/2026-world-cup-algeria-jordan-odds-prediction-picks",
+          "source": "FOX Sports"
+        },
+        {
+          "title": "Highlights: Jordan 1-2 Algeria World Cup 2026 - 23 June 2026",
+          "url": "https://www.bbc.com/sport/football/videos/clyw72k34nwo",
+          "source": "BBC"
+        },
+        {
+          "title": "Jordan 1 - 2 Algeria: Late Amine Gouiri goal eliminates Jordan - as it happened",
+          "url": "https://www.espn.com/soccer/story/_/id/49145580/jordan-algeria-live-world-cup-2026-latest-updates-commentary-score-result",
+          "source": "ESPN"
+        }
+      ]
+    },
+    {
+      "query": "estadísticas de mundial",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Un Mundial con Imagen... día 12. Estadísticas y agenda para martes y miércoles",
+          "url": "https://imagendeveracruz.mx/deportes/un-mundial-con-imagen...-dia-12.-estadisticas-y-agenda-para-martes-y-miercoles-20260623-0001.html",
+          "source": "Imagen de Veracruz"
+        },
+        {
+          "title": "Un Mundial con Imagen... día 10. Estadísticas y agenda para domingo y lunes",
+          "url": "https://imagendeveracruz.mx/deportes/un-mundial-con-imagen...-dia-10.-estadisticas-y-agenda-para-domingo-y-lunes-20260621-0002.html",
+          "source": "Imagen de Veracruz"
+        },
+        {
+          "title": "Por dónde ver Jordania vs. Argelia en vivo por el Mundial 2026: día, hora y previa del Grupo J",
+          "url": "https://www.elpais.com.uy/ovacion/mundial/por-donde-ver-jordania-vs-argelia-en-vivo-por-el-mundial-2026-dia-hora-y-previa-del-grupo-j",
+          "source": "EL PAÍS Uruguay"
+        }
+      ]
+    },
+    {
+      "query": "goleadores mundial 2026",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Así quedó la tabla de goleadores del Mundial 2026: Lionel Messi se afianza en la cima tras su doblete",
+          "url": "https://www.elobservador.com.uy/mundial-2026/asi-quedo-la-tabla-goleadores-del-mundial-2026-lionel-messi-se-afianza-la-cima-su-doblete-n6048292",
+          "source": "El Observador"
+        },
+        {
+          "title": "Tabla de Goleo Mundial 2026: Resultados, goles y asistencias de la Copa del Mundo hoy 22 de junio",
+          "url": "https://www.marca.com/mx/futbol/mundial/2026/06/23/6a39ca67268e3e595c8b4593.html",
+          "source": "MARCA"
+        },
+        {
+          "title": "Messi, Mbappé y Haaland brillaron este lunes y le dieron la victoria a sus selecciones",
+          "url": "https://www.fmgente.com.uy/noticias/messi-mbappe-haaland-brillaron-este-82041.html",
+          "source": "FM Gente"
+        }
+      ]
+    },
+    {
+      "query": "kylian mbappé",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "France 3-0 Iraq: Kylian Mbappe double as Les Bleus win after two-hour delay",
+          "url": "https://www.bbc.com/sport/football/live/cq810n4exgvt",
+          "source": "BBC"
+        },
+        {
+          "title": "France 3-0 Iraq after two-hour storm delay at World Cup 2026 – as it happened",
+          "url": "https://www.theguardian.com/football/live/2026/jun/22/france-v-iraq-world-cup-2026-live-updates",
+          "source": "The Guardian"
+        },
+        {
+          "title": "How long is a weather delay at the World Cup? Explaining FIFA protocol for lightning at 2026 matches",
+          "url": "https://sports.yahoo.com/articles/long-weather-delay-world-cup-220913078.html",
+          "source": "Yahoo Sports"
+        }
+      ]
+    },
+    {
+      "query": "haaland",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "Norway 3-2 Senegal: Erling Haaland scores twice to fire his country into the World Cup last 32",
+          "url": "https://www.bbc.com/sport/football/live/c3ey5pj14yxt",
+          "source": "BBC"
+        },
+        {
+          "title": "FIFA World Cup: Stale Solbakken hails &apos;best striker&apos; Erling Haaland",
+          "url": "https://www.flashscore.com/news/soccer-world-championship-norway-head-coach-stale-solbakken-says-senegal-win-down-to-on-fire-erling-haaland/Yc4Ye2nl/",
+          "source": "Flashscore.com"
+        },
+        {
+          "title": "Licensable picture: Football fans gather in Dakar as Senegal falls 3-2 to Norway",
+          "url": "https://www.reutersconnect.com/item/football-fans-gather-in-dakar-as-senegal-falls-3-2-to-norway/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX01UMUFOQURMMDAwUEFNS0Ux",
+          "source": "Reuters Connect"
+        }
+      ]
+    },
+    {
+      "query": "matchs de coupe du monde",
+      "geo": "MA",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "EN DIRECT Coupe du monde 2026 : Messi, Mbappé et Haaland, les grandes stars…",
+          "url": "https://www.20minutes.fr/sport/football/4230620-20260622-direct-coupe-monde-2026-plus-droit-erreur-senegal-contre-norvege-haaland",
+          "source": "20 Minutes"
+        },
+        {
+          "title": "CdM 2026 : l’équipe de France terminera première de son groupe si…",
+          "url": "https://www.footmercato.net/a4207904861190358910-cdm-2026-lequipe-de-france-terminera-premiere-de-son-groupe-si",
+          "source": "Foot Mercato"
+        },
+        {
+          "title": "La France qualifiée pour les 16es de finale de la Coupe du monde si...",
+          "url": "https://www.lequipe.fr/Football/Actualites/La-france-qualifiee-pour-les-16es-de-finale-de-la-coupe-du-monde-si/1686941",
+          "source": "L&apos;Équipe"
+        }
+      ]
+    },
+    {
+      "query": "classement coupe du monde 2026",
+      "geo": "MA",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Coupe du Monde 2026: qui décide s&apos;il y a faute ou non? L&apos;IA (enfin presque)",
+          "url": "https://www.geo.fr/sciences/coupe-du-monde-2026-qui-decide-s-il-y-a-faute-ou-non-l-ia-enfin-presque-232496",
+          "source": "Le magazine GEO"
+        },
+        {
+          "title": "Mondial 2026 : pourquoi les nouvelles règles de la Fifa ont un effet positif sur les matchs",
+          "url": "https://www.lesoir.be/754675/article/2026-06-22/mondial-2026-pourquoi-les-nouvelles-regles-de-la-fifa-ont-un-effet-positif-sur",
+          "source": "Le Soir"
+        },
+        {
+          "title": "La Coupe du monde 2026, laboratoire grandeur nature du football augmenté",
+          "url": "https://moncarnet.com/2026/06/22/la-coupe-du-monde-2026-laboratoire-grandeur-nature-du-football-augmente/",
+          "source": "Mon Carnet – de l&apos;actualité numérique"
+        }
+      ]
+    },
+    {
+      "query": "classement équipe de jordanie de football – équipe d&apos;algérie de football",
+      "geo": "MA",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 50000,
+      "articles": [
+        {
+          "title": "Algérie-Jordanie: Amine Gouiri offre la victoire aux Fennecs, qui entrevoient la qualification",
+          "url": "https://rmcsport.bfmtv.com/football/coupe-du-monde/direct-algerie-jordanie-suivez-le-match-du-groupe-j-de-la-coupe-du-monde-2026-en-live_LS-202606220546.html",
+          "source": "RMC Sport"
+        },
+        {
+          "title": "Mondial 2026 : l’Algérie s’impose face à la Jordanie (2-1)",
+          "url": "https://lematin.ma/sports/mondial-2026-lalgerie-simpose-face-a-la-jordanie-2-1/352001",
+          "source": "Le Matin.ma"
+        },
+        {
+          "title": "Coupe du monde 2026 : Amine Gouiri libère l&apos;Algérie !",
+          "url": "https://www.beinsports.com/fr-fr/football/coupe-du-monde-de-la-fifa-2026/articles-video/coupe-du-monde-2026-amine-gouiri-lib%C3%A8re-l-alg%C3%A9rie-2026-06-23",
+          "source": "beIN SPORTS"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "en": [
+      {
+        "query": "soccer world rankings",
+        "score": 7000,
+        "geos": [
+          "US"
+        ],
+        "samples": [
+          {
+            "query": "soccer world rankings",
+            "geo": "US",
+            "language": "en",
+            "source": "google-trends-daily",
+            "score": 5000,
+            "articles": [
+              {
+                "title": "World Cup 2026 Power Rankings after one game: Who is No. 1?",
+                "url": "https://www.espn.com/soccer/story/_/id/49094186/fifa-world-cup-power-rankings-spain-brazil-germany-usa-mexico-england-argentina",
+                "source": "ESPN"
+              },
+              {
+                "title": "Ranking the top 50 players at the 2026 World Cup: Who were the winners and losers from week one? - The Athletic",
+                "url": "https://www.nytimes.com/athletic/7372630/2026/06/18/world-cup-50-players-rankings/",
+                "source": "The New York Times"
+              },
+              {
+                "title": "The 11 Biggest World Cup Questions After the First Round of Group Play",
+                "url": "https://www.theringer.com/2026/06/18/world-cup/fifa-world-cup-group-play-biggest-questions-lionel-messi-cristiano-ronaldo",
+                "source": "The Ringer"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "england vs ghana",
+        "score": 120,
+        "geos": [
+          "CA"
+        ],
+        "samples": [
+          {
+            "query": "england vs ghana",
+            "geo": "CA",
+            "language": "en",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "World Cup 2026: England v Ghana - who will start for Thomas Tuchel&apos;s side?",
+                "url": "https://www.bbc.com/sport/football/live/cq618zygpz5t",
+                "source": "BBC"
+              },
+              {
+                "title": "Predicting England&apos;s World Cup starting XI against Ghana, where could Tuchel make changes?",
+                "url": "https://www.dazn.com/en-CA/news/soccer/fifa-world-cup-england-starting-xi-vs-ghana-prediction-depth-chart-kane-bellingham-rashford/1n0mhgsf4bns1euconpggd8i8",
+                "source": "DAZN"
+              },
+              {
+                "title": "Kane, England play Ghana at the World Cup: prediction, team news, lineups",
+                "url": "https://www.aljazeera.com/sports/2026/6/23/england-ghana-prediction-fifa-world-cup-2026-kickoff-channel-kane-partey",
+                "source": "Al Jazeera"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "es": [
+      {
+        "query": "posiciones de selección de fútbol de jordania contra selección de fútbol de argelia",
+        "score": 578500,
+        "geos": [
+          "MX",
+          "AR",
+          "CL",
+          "EC",
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "posiciones de selección de fútbol de jordania contra selección de fútbol de argelia",
+            "geo": "MX",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200000,
+            "articles": [
+              {
+                "title": "Jordania vs. Argelia EN VIVO. Partido HOY Fecha 2 Mundial 2026",
+                "url": "https://www.mediotiempo.com/futbol/copa-mundial/donde-ver-jordania-vs-argelia-horario-y-canal-partido-fecha-2-mundial-2026",
+                "source": "Mediotiempo"
+              },
+              {
+                "title": "Jordan vs Algeria: cuándo, dónde y cómo ver el partido",
+                "url": "https://www.proceso.com.mx/deportes/2026/6/23/jordan-vs-algeria-cuando-donde-y-como-ver-el-partido-374582.html",
+                "source": "Proceso"
+              },
+              {
+                "title": "Remontada argelina que sentencia a Jordania",
+                "url": "https://www.elnorte.com/remontada-argelina-que-sentencia-a-jordania/ar3227443",
+                "source": "El Norte"
+              }
+            ]
+          },
+          {
+            "query": "posiciones de selección de fútbol de jordania contra selección de fútbol de argelia",
+            "geo": "AR",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200000,
+            "articles": [
+              {
+                "title": "Argentina se aseguró el grupo: la llave que le abre un camino tentador en el Mundial",
+                "url": "https://www.ole.com.ar/mundial/mundial-2026/argentina-mundial-clasificado-primero-empate-jordania_0_b6idDF4f5y.html",
+                "source": "Olé"
+              },
+              {
+                "title": "Partido por partido: horarios de la selección argentina en el Mundial 2026",
+                "url": "https://www.lanacion.com.ar/deportes/futbol/partido-por-partido-horarios-de-la-seleccion-argentina-en-el-mundial-2026-nid23062026/",
+                "source": "La Nación"
+              },
+              {
+                "title": "La calculadora de Argentina para el cruce de 16avos de final del Mundial: cuál puede ser el rival entre España, Uruguay, Cabo Verde y Arabia Saudita",
+                "url": "https://www.infobae.com/deportes/2026/06/22/la-calculadora-de-argentina-para-el-cruce-de-16avos-de-final-del-mundial-cual-puede-ser-el-rival-entre-espana-uruguay-cabo-verde-y-arabia-saudita/",
+                "source": "Infobae"
+              }
+            ]
+          },
+          {
+            "query": "posiciones de selección de fútbol de jordania contra selección de fútbol de argelia",
+            "geo": "CL",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 20000,
+            "articles": [
+              {
+                "title": "VIDEO: resumen de Jordania vs. Argelia en el Mundial 2026",
+                "url": "https://www.espn.cl/futbol/mundial/nota/_/id/16890618/video-jordania-vs-argelia-resumen-partido-mundial-2026",
+                "source": "ESPN Chile"
+              },
+              {
+                "title": "Argelia dio vuelta el marcador ante Jordania con goles de Benbouali y Gouiri",
+                "url": "https://www.cooperativa.cl/noticias/deportes/mundial-2026/fase-grupal/argelia-dio-vuelta-el-marcador-ante-jordania-con-goles-de-benbouali-y/2026-06-23/005100.html",
+                "source": "Cooperativa"
+              },
+              {
+                "title": "Dónde y a qué hora ver a Jordania vs. Argelia en TV y streaming",
+                "url": "https://www.latercera.com/servicios/noticia/donde-y-a-que-hora-ver-a-jordania-vs-argelia-en-tv-y-streaming/",
+                "source": "La Tercera"
+              }
+            ]
+          },
+          {
+            "query": "posiciones de selección de fútbol de jordania contra selección de fútbol de argelia",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 20000,
+            "articles": [
+              {
+                "title": "Argelia culmina una épica remontada en la segunda parte y doblega a Jordania (1-2)",
+                "url": "https://www.telemundo51.com/deportes/copa-mundial-fifa/highlights-partidos-junio-22-2026-marcador-futbol-live-updates/2786998/",
+                "source": "Telemundo Miami (51)"
+              },
+              {
+                "title": "Argentina clasifica primero en el Grupo J, tras el triunfo con remontada de Argelia sobre Jordania",
+                "url": "https://www.primicias.ec/deportes/mundial-2026/partidos-resultados/envivo-jordania-argelia-ver-tv-125993/",
+                "source": "Primicias"
+              },
+              {
+                "title": "Jordania vs Argelia EN VIVO HOY: los detalles, alineaciones y cómo ver | Mundial 2026",
+                "url": "https://www.expreso.ec/deportes/copa-mundial-de-futbol/jordania-vs-argelia-vivo-hoy-detalles-alineaciones-ver-mundial-2026-286703.html",
+                "source": "expreso.ec"
+              }
+            ]
+          },
+          {
+            "query": "posiciones de selección de fútbol de jordania contra selección de fútbol de argelia",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 5000,
+            "articles": [
+              {
+                "title": "Por dónde ver Jordania vs. Argelia en vivo por el Mundial 2026: día, hora y previa del Grupo J",
+                "url": "https://www.elpais.com.uy/ovacion/mundial/por-donde-ver-jordania-vs-argelia-en-vivo-por-el-mundial-2026-dia-hora-y-previa-del-grupo-j",
+                "source": "EL PAÍS Uruguay"
+              },
+              {
+                "title": "Argelia culmina una épica remontada en la segunda parte y doblega a Jordania (1-2)",
+                "url": "https://www.telemundo51.com/deportes/copa-mundial-fifa/highlights-partidos-junio-22-2026-marcador-futbol-live-updates/2786998/",
+                "source": "Telemundo Miami (51)"
+              },
+              {
+                "title": "Así le hemos contado el partido entre Jordania y Argelia del grupo J del Mundial 2026",
+                "url": "https://elpais.com/deportes/2026-06-23/jordania-argelia-en-directo-partido-del-grupo-j-del-mundial-2026-en-vivo.html",
+                "source": "EL PAÍS"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "jordania - argelia",
+        "score": 220000,
+        "geos": [
+          "AR",
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "jordania - argelia",
+            "geo": "AR",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100000,
+            "articles": [
+              {
+                "title": "Argelia dio vuelta un partido que había empezado torcido, eliminó a Jordania y le dio el primer puesto a la Argentina",
+                "url": "https://www.lanacion.com.ar/deportes/futbol/argelia-dio-vuelta-un-partido-que-habia-empezado-torcido-elimino-a-jordania-y-le-dio-el-primer-nid23062026/",
+                "source": "La Nación"
+              },
+              {
+                "title": "VIDEO: resumen de Jordania vs. Argelia en el Mundial 2026",
+                "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16890618/video-jordania-vs-argelia-resumen-partido-mundial-2026",
+                "source": "ESPN Argentina"
+              },
+              {
+                "title": "1-2. Los Zorros del Desierto se salvan del desastre",
+                "url": "https://www.infobae.com/espana/agencias/2026/06/23/1-2-los-zorros-del-desierto-se-salvan-del-desastre/",
+                "source": "Infobae"
+              }
+            ]
+          },
+          {
+            "query": "jordania - argelia",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100000,
+            "articles": [
+              {
+                "title": "Argelia culmina una épica remontada en la segunda parte y doblega a Jordania (1-2)",
+                "url": "https://www.telemundo51.com/deportes/copa-mundial-fifa/highlights-partidos-junio-22-2026-marcador-futbol-live-updates/2786998/",
+                "source": "Telemundo Miami (51)"
+              },
+              {
+                "title": "Así le hemos contado el partido entre Jordania y Argelia del grupo J del Mundial 2026",
+                "url": "https://elpais.com/deportes/2026-06-23/jordania-argelia-en-directo-partido-del-grupo-j-del-mundial-2026-en-vivo.html",
+                "source": "EL PAÍS"
+              },
+              {
+                "title": "VIDEO: Jordania vs Argelia (1-2): resumen y goles del partido por Mundial 2026",
+                "url": "https://elcomercio.pe/deporte-total/futbol-mundial/video-jordania-vs-argelia-en-vivo-gratis-hoy-por-mundial-2026-horarios-canales-tv-y-donde-ver-partido-por-mundial-2026-via-directv-dazn-paramount-noticia/",
+                "source": "El Comercio Perú"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "jordania",
+        "score": 8050,
+        "geos": [
+          "CO",
+          "CL",
+          "EC",
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "jordania",
+            "geo": "CO",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 5000,
+            "articles": [
+              {
+                "title": "Algeria vs. Jordan Odds, Predictions, Picks For World Cup Match",
+                "url": "https://www.foxsports.com/stories/soccer/2026-world-cup-algeria-jordan-odds-prediction-picks",
+                "source": "FOX Sports"
+              },
+              {
+                "title": "Highlights: Jordan 1-2 Algeria World Cup 2026 - 23 June 2026",
+                "url": "https://www.bbc.com/sport/football/videos/clyw72k34nwo",
+                "source": "BBC"
+              },
+              {
+                "title": "Jordan 1 - 2 Algeria: Late Amine Gouiri goal eliminates Jordan - as it happened",
+                "url": "https://www.espn.com/soccer/story/_/id/49145580/jordan-algeria-live-world-cup-2026-latest-updates-commentary-score-result",
+                "source": "ESPN"
+              }
+            ]
+          },
+          {
+            "query": "jordania",
+            "geo": "CL",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "Jordan 1-2 Algeria: World Cup debutants are knocked out of tournament",
+                "url": "https://www.bbc.com/sport/football/live/ckg5n4wyzxnt",
+                "source": "BBC"
+              },
+              {
+                "title": "Licensable picture: Jordanians watch their national team&apos;s match at the Roman Theatre in Amman",
+                "url": "https://www.reutersconnect.com/item/jordanians-watch-their-national-teams-match-at-the-roman-theatre-in-amman/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX01UMUFOQURMMDAwUEFNS0hH",
+                "source": "Reuters Connect"
+              },
+              {
+                "title": "Jordan vs Algeria Quick Highlights | 2026 FIFA World Cup™",
+                "url": "https://www.foxsports.com/watch-vertical/fmc-6htai2whew4i2xkw",
+                "source": "FOX Sports"
+              }
+            ]
+          },
+          {
+            "query": "jordania",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "Algeria vs. Jordan Odds, Predictions, Picks For World Cup Match",
+                "url": "https://www.foxsports.com/stories/soccer/2026-world-cup-algeria-jordan-odds-prediction-picks",
+                "source": "FOX Sports"
+              },
+              {
+                "title": "Highlights: Jordan 1-2 Algeria World Cup 2026 - 23 June 2026",
+                "url": "https://www.bbc.com/sport/football/videos/clyw72k34nwo",
+                "source": "BBC"
+              },
+              {
+                "title": "Jordan 1 - 2 Algeria: Late Amine Gouiri goal eliminates Jordan - as it happened",
+                "url": "https://www.espn.com/soccer/story/_/id/49145580/jordan-algeria-live-world-cup-2026-latest-updates-commentary-score-result",
+                "source": "ESPN"
+              }
+            ]
+          },
+          {
+            "query": "jordania",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Algeria vs. Jordan Odds, Predictions, Picks For World Cup Match",
+                "url": "https://www.foxsports.com/stories/soccer/2026-world-cup-algeria-jordan-odds-prediction-picks",
+                "source": "FOX Sports"
+              },
+              {
+                "title": "Highlights: Jordan 1-2 Algeria World Cup 2026 - 23 June 2026",
+                "url": "https://www.bbc.com/sport/football/videos/clyw72k34nwo",
+                "source": "BBC"
+              },
+              {
+                "title": "Jordan 1 - 2 Algeria: Late Amine Gouiri goal eliminates Jordan - as it happened",
+                "url": "https://www.espn.com/soccer/story/_/id/49145580/jordan-algeria-live-world-cup-2026-latest-updates-commentary-score-result",
+                "source": "ESPN"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "algeria vs",
+        "score": 4500,
+        "geos": [
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "algeria vs",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 5000,
+            "articles": [
+              {
+                "title": "Algeria vs. Jordan Odds, Predictions, Picks For World Cup Match",
+                "url": "https://www.foxsports.com/stories/soccer/2026-world-cup-algeria-jordan-odds-prediction-picks",
+                "source": "FOX Sports"
+              },
+              {
+                "title": "Highlights: Jordan 1-2 Algeria World Cup 2026 - 23 June 2026",
+                "url": "https://www.bbc.com/sport/football/videos/clyw72k34nwo",
+                "source": "BBC"
+              },
+              {
+                "title": "Jordan 1 - 2 Algeria: Late Amine Gouiri goal eliminates Jordan - as it happened",
+                "url": "https://www.espn.com/soccer/story/_/id/49145580/jordan-algeria-live-world-cup-2026-latest-updates-commentary-score-result",
+                "source": "ESPN"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "erling haaland",
+        "score": 4000,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "erling haaland",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 5000,
+            "articles": [
+              {
+                "title": "Norway 3-2 Senegal: Erling Haaland scores twice to fire his country into the World Cup last 32",
+                "url": "https://www.bbc.com/sport/football/live/c3ey5pj14yxt",
+                "source": "BBC"
+              },
+              {
+                "title": "Senegal&apos;s World Cup dreams hanging by a thread after defeat to Norway",
+                "url": "https://www.dawan.africa/news/senegals-world-cup-dreams-hanging-by-a-thread-after-defeat-to-norway",
+                "source": "Dawan Africa"
+              },
+              {
+                "title": "FIFA World Cup: Stale Solbakken hails &apos;best striker&apos; Erling Haaland",
+                "url": "https://www.flashscore.com/news/soccer-world-championship-norway-head-coach-stale-solbakken-says-senegal-win-down-to-on-fire-erling-haaland/Yc4Ye2nl/",
+                "source": "Flashscore.com"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "kylian mbappé",
+        "score": 1800,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "kylian mbappé",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "France 3-0 Iraq: Kylian Mbappe double as Les Bleus win after two-hour delay",
+                "url": "https://www.bbc.com/sport/football/live/cq810n4exgvt",
+                "source": "BBC"
+              },
+              {
+                "title": "France 3-0 Iraq after two-hour storm delay at World Cup 2026 – as it happened",
+                "url": "https://www.theguardian.com/football/live/2026/jun/22/france-v-iraq-world-cup-2026-live-updates",
+                "source": "The Guardian"
+              },
+              {
+                "title": "How long is a weather delay at the World Cup? Explaining FIFA protocol for lightning at 2026 matches",
+                "url": "https://sports.yahoo.com/articles/long-weather-delay-world-cup-220913078.html",
+                "source": "Yahoo Sports"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "haaland",
+        "score": 1800,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "haaland",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "Norway 3-2 Senegal: Erling Haaland scores twice to fire his country into the World Cup last 32",
+                "url": "https://www.bbc.com/sport/football/live/c3ey5pj14yxt",
+                "source": "BBC"
+              },
+              {
+                "title": "FIFA World Cup: Stale Solbakken hails &apos;best striker&apos; Erling Haaland",
+                "url": "https://www.flashscore.com/news/soccer-world-championship-norway-head-coach-stale-solbakken-says-senegal-win-down-to-on-fire-erling-haaland/Yc4Ye2nl/",
+                "source": "Flashscore.com"
+              },
+              {
+                "title": "Licensable picture: Football fans gather in Dakar as Senegal falls 3-2 to Norway",
+                "url": "https://www.reutersconnect.com/item/football-fans-gather-in-dakar-as-senegal-falls-3-2-to-norway/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX01UMUFOQURMMDAwUEFNS0Ux",
+                "source": "Reuters Connect"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "tabla mejores terceros mundial 2026",
+        "score": 1600,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "tabla mejores terceros mundial 2026",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "La ‘generación dorada’ saca otro cero",
+                "url": "https://www.eluniverso.com/deportes/columnistas-deportes/la-generacion-dorada-saca-otro-cero-nota/",
+                "source": "El Universo"
+              },
+              {
+                "title": "Tabla de posiciones de los mejores terceros del Mundial 2026: ¿Está Ecuador en zona de clasificación?",
+                "url": "https://www.elcomercio.com/deportes/futbol/tabla-posiciones-mejores-terceros-mundial/",
+                "source": "El Comercio"
+              },
+              {
+                "title": "Eloy Room, del anonimato en Miami al récord histórico del Mundial con Curazao",
+                "url": "https://www.larepublica.ec/blog/2026/06/21/eloy-room-del-anonimato-en-miami-al-record-historico-del-mundial-con-curazao/",
+                "source": "La República EC"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "suiza vs canada",
+        "score": 280,
+        "geos": [
+          "MX"
+        ],
+        "samples": [
+          {
+            "query": "suiza vs canada",
+            "geo": "MX",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Cómo conseguir entradas de última hora para Suiza-Canadá: precios, BC Place y más",
+                "url": "https://www.goal.com/es/noticias/como-conseguir-entradas-de-ultima-hora-para-suiza-canada-precios-bc-place-y-mas/blt545493260f5f324b",
+                "source": "Goal.com"
+              },
+              {
+                "title": "Suiza vs Canadá gratis y en vivo: cómo ver el Mundial 2026 en directo desde cualquier lugar",
+                "url": "https://es.gizmodo.com/donde-ver-suiza-vs-canada-gratis-y-en-vivo-desde-cualquier-lugar-2000242435",
+                "source": "Gizmodo en Español"
+              },
+              {
+                "title": "Suiza vs. Canadá: alineaciones, estadísticas, horario y dónde ver",
+                "url": "https://news.bet365.es/es-es/article/suiza-vs-canada-alineaciones-estadisticas-horario-y-donde-ver/2026062212215623992",
+                "source": "bet365"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "uzbekistan vs",
+        "score": 180,
+        "geos": [
+          "CL"
+        ],
+        "samples": [
+          {
+            "query": "uzbekistan vs",
+            "geo": "CL",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Cuándo juegan Portugal vs. Uzbekistán por la segunda fecha de la fase de grupos del Mundial 2026: equipo, fecha, hora y TV en vivo",
+                "url": "https://www.espn.cl/futbol/mundial/nota/_/id/16885444/portugal-vs-uzbekistan-fase-de-grupos-mundial-2026-equipo-fecha-hora-y-tv-en-vivo",
+                "source": "ESPN Chile"
+              },
+              {
+                "title": "Portugal y Cristiano Ronaldo quieren disipar dudas en el Mundial ante la Uzbekistán de Cannavaro",
+                "url": "https://www.cooperativa.cl/noticias/deportes/mundial-2026/fase-grupal/portugal-y-cristiano-ronaldo-quieren-disipar-dudas-en-el-mundial-ante-la/2026-06-22/225523.html",
+                "source": "Cooperativa"
+              },
+              {
+                "title": "Portugal vs. Uzbekistán: Horario y qué canal transmite EN VIVO y por TV a Cristiano Ronaldo en el Mundial 2026",
+                "url": "https://redgol.cl/mundial/portugal-vs-uzbekistan-horario-y-que-canal-transmite-en-vivo-y-por-tv-a-cristiano-ronaldo-en-el-mundial-2026",
+                "source": "RedGol"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "vikingos",
+        "score": 180,
+        "geos": [
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "vikingos",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Es la definición de que el fútbol es más que un deporte: la celebración vikinga de Noruega que es tremenda",
+                "url": "https://as.com/futbol/videos/es-la-definicion-de-que-el-futbol-es-mas-que-un-deporte-la-celebracion-vikinga-de-noruega-que-es-tremenda-f202606-v/",
+                "source": "Diario AS"
+              },
+              {
+                "title": "\"Remo Vikingo\" con Haaland: Noruega y el festejo más viral del Mundial 2026 tras triunfo ante Senegal",
+                "url": "https://rpp.pe/futbol/mundial-2026/noruega-vs-senegal-remo-vikingo-y-el-festejo-mas-viral-del-mundial-2026-tras-triunfo-erling-haaland-noticia-1694226",
+                "source": "RPP"
+              },
+              {
+                "title": "La espectacular conga de los aficionados de Noruega para salir del estadio",
+                "url": "https://www.marca.com/futbol/mundial/2026/06/23/espectacular-conga-aficionados-noruega-salir-video.html",
+                "source": "MARCA"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "colombia vs rd congo",
+        "score": 180,
+        "geos": [
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "colombia vs rd congo",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Lorenzo: \"Tenemos una identidad de juego que debemos respetar\"",
+                "url": "https://ovacion.pe/noticias/mundial-2026/lorenzo-tenemos-una-identidad-juego-debemos-respetar",
+                "source": "ovacion.pe"
+              },
+              {
+                "title": "América TV EN VIVO, Colombia vs. RD Congo hoy EN DIRECTO ONLINE por Mundial 2026",
+                "url": "https://www.americatv.com.pe/deportes/futbol-mundial/america-tv-go-vivo-colombia-vs-rd-congo-hoy-gratis-mundial-2026-n454673",
+                "source": "América TV"
+              },
+              {
+                "title": "Colombia vs RD Congo EN VIVO: se enfrentan en Guadalajara por la fecha 2 del Mundial 2026",
+                "url": "https://rpp.pe/futbol/mundial-2026/colombia-vs-rd-congo-en-vivo-directv-transmision-fecha-2-mundial-2026-fifa-link-gratis-partidos-de-hoy-seo-noticia-1694143",
+                "source": "RPP"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "progol",
+        "score": 140,
+        "geos": [
+          "MX"
+        ],
+        "samples": [
+          {
+            "query": "progol",
+            "geo": "MX",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Quiniela Progol Media Semana 801: partidos y predicciones",
+                "url": "https://www.marca.com/mx/futbol/2026/06/22/6a3938f746163f912b8b45bd.html",
+                "source": "MARCA"
+              },
+              {
+                "title": "Resultados Progol Revancha 2337: ganadores de la quiniela del Mundial 2026",
+                "url": "https://www.cronica.com.mx/tendencias/2026/06/21/resultados-progol-revancha-2337-ganadores-de-la-quiniela-del-mundial-2026/",
+                "source": "La Crónica de Hoy"
+              },
+              {
+                "title": "¡No te quedes fuera! Horarios atípicos de Progol este Mundial",
+                "url": "https://tulotero.mx/2026/06/16/horarios-atipicos-progol-durante-mundial/",
+                "source": "https://tulotero.mx/"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "mousa al-tamari",
+        "score": 130,
+        "geos": [
+          "AR"
+        ],
+        "samples": [
+          {
+            "query": "mousa al-tamari",
+            "geo": "AR",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Task failed successfully: Mousa Al-Tamari registers the most chaotic assist of the World Cup",
+                "url": "https://tribuna.com/en/blogs/task-failed-successfully-mousa-altamari-registers-the-most-c/",
+                "source": "Tribuna.com"
+              },
+              {
+                "title": "Jordan 1-2 Algeria: World Cup debutants are knocked out of tournament",
+                "url": "https://www.bbc.com/sport/football/live/ckg5n4wyzxnt",
+                "source": "BBC"
+              },
+              {
+                "title": "Jordan vs Algeria Quick Highlights | 2026 FIFA World Cup™",
+                "url": "https://www.foxsports.com/watch-vertical/fmc-6htai2whew4i2xkw",
+                "source": "FOX Sports"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "senegal vs irak",
+        "score": 130,
+        "geos": [
+          "AR"
+        ],
+        "samples": [
+          {
+            "query": "senegal vs irak",
+            "geo": "AR",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Senegal v Iraq - Group I - FIFA World Cup Score Centre",
+                "url": "https://www.abc.net.au/news/sport/score-centre/fifa-world-cup/2026-06-27/senegal-iraq/2608306",
+                "source": "Australian Broadcasting Corporation"
+              },
+              {
+                "title": "Senegal vs Iraq World Cup 2026 Predictions and Best Bets",
+                "url": "https://totalfootballanalysis.com/competitions/fifa-world-cup-2026/senegal-v-iraq-predictions",
+                "source": "Total Football Analysis"
+              },
+              {
+                "title": "Why Senegal and Iraq haven&apos;t been eliminated from the World Cup despite being on zero points",
+                "url": "https://www.sportbible.com/football/football-news/fifa-world-cup/why-senegal-iraq-arent-eliminated-revealed-284480-20260623",
+                "source": "SPORTbible"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "panama vs croacia",
+        "score": 90,
+        "geos": [
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "panama vs croacia",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Zlatko Dalic enumera cualidades de Panamá: \"Es un rival muy exigente y con calidad\"",
+                "url": "https://espndeportes.espn.com/futbol/guatemala/nota/_/id/16889038/zlatko-dalic-cualidades-panama-rival-exigente-y-con-calidad",
+                "source": "ESPN Deportes"
+              },
+              {
+                "title": "Panamá vs Croacia: fechas, horarios y alineaciones",
+                "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16884676/mundial-2026-panama-vs-croacia-fechas-horarios-alineaciones",
+                "source": "ESPN Argentina"
+              },
+              {
+                "title": "Dónde ver EN VIVO Panamá vs Croacia por el Mundial 2026: transmisión del partido",
+                "url": "https://elcomercio.pe/deporte-total/futbol-mundial/donde-ver-panama-vs-croacia-en-vivo-mundial-2026-television-horario-y-mas-del-juego-por-el-grupo-l-link-tdpe-noticia/",
+                "source": "El Comercio Perú"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "estadísticas de mundial",
+        "score": 90,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "estadísticas de mundial",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Un Mundial con Imagen... día 12. Estadísticas y agenda para martes y miércoles",
+                "url": "https://imagendeveracruz.mx/deportes/un-mundial-con-imagen...-dia-12.-estadisticas-y-agenda-para-martes-y-miercoles-20260623-0001.html",
+                "source": "Imagen de Veracruz"
+              },
+              {
+                "title": "Un Mundial con Imagen... día 10. Estadísticas y agenda para domingo y lunes",
+                "url": "https://imagendeveracruz.mx/deportes/un-mundial-con-imagen...-dia-10.-estadisticas-y-agenda-para-domingo-y-lunes-20260621-0002.html",
+                "source": "Imagen de Veracruz"
+              },
+              {
+                "title": "Por dónde ver Jordania vs. Argelia en vivo por el Mundial 2026: día, hora y previa del Grupo J",
+                "url": "https://www.elpais.com.uy/ovacion/mundial/por-donde-ver-jordania-vs-argelia-en-vivo-por-el-mundial-2026-dia-hora-y-previa-del-grupo-j",
+                "source": "EL PAÍS Uruguay"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "goleadores mundial 2026",
+        "score": 90,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "goleadores mundial 2026",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Así quedó la tabla de goleadores del Mundial 2026: Lionel Messi se afianza en la cima tras su doblete",
+                "url": "https://www.elobservador.com.uy/mundial-2026/asi-quedo-la-tabla-goleadores-del-mundial-2026-lionel-messi-se-afianza-la-cima-su-doblete-n6048292",
+                "source": "El Observador"
+              },
+              {
+                "title": "Tabla de Goleo Mundial 2026: Resultados, goles y asistencias de la Copa del Mundo hoy 22 de junio",
+                "url": "https://www.marca.com/mx/futbol/mundial/2026/06/23/6a39ca67268e3e595c8b4593.html",
+                "source": "MARCA"
+              },
+              {
+                "title": "Messi, Mbappé y Haaland brillaron este lunes y le dieron la victoria a sus selecciones",
+                "url": "https://www.fmgente.com.uy/noticias/messi-mbappe-haaland-brillaron-este-82041.html",
+                "source": "FM Gente"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "fr": [
+      {
+        "query": "classement équipe de jordanie de football – équipe d&apos;algérie de football",
+        "score": 45000,
+        "geos": [
+          "MA"
+        ],
+        "samples": [
+          {
+            "query": "classement équipe de jordanie de football – équipe d&apos;algérie de football",
+            "geo": "MA",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 50000,
+            "articles": [
+              {
+                "title": "Algérie-Jordanie: Amine Gouiri offre la victoire aux Fennecs, qui entrevoient la qualification",
+                "url": "https://rmcsport.bfmtv.com/football/coupe-du-monde/direct-algerie-jordanie-suivez-le-match-du-groupe-j-de-la-coupe-du-monde-2026-en-live_LS-202606220546.html",
+                "source": "RMC Sport"
+              },
+              {
+                "title": "Mondial 2026 : l’Algérie s’impose face à la Jordanie (2-1)",
+                "url": "https://lematin.ma/sports/mondial-2026-lalgerie-simpose-face-a-la-jordanie-2-1/352001",
+                "source": "Le Matin.ma"
+              },
+              {
+                "title": "Coupe du monde 2026 : Amine Gouiri libère l&apos;Algérie !",
+                "url": "https://www.beinsports.com/fr-fr/football/coupe-du-monde-de-la-fifa-2026/articles-video/coupe-du-monde-2026-amine-gouiri-lib%C3%A8re-l-alg%C3%A9rie-2026-06-23",
+                "source": "beIN SPORTS"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "matchs de coupe du monde",
+        "score": 450,
+        "geos": [
+          "MA"
+        ],
+        "samples": [
+          {
+            "query": "matchs de coupe du monde",
+            "geo": "MA",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "EN DIRECT Coupe du monde 2026 : Messi, Mbappé et Haaland, les grandes stars…",
+                "url": "https://www.20minutes.fr/sport/football/4230620-20260622-direct-coupe-monde-2026-plus-droit-erreur-senegal-contre-norvege-haaland",
+                "source": "20 Minutes"
+              },
+              {
+                "title": "CdM 2026 : l’équipe de France terminera première de son groupe si…",
+                "url": "https://www.footmercato.net/a4207904861190358910-cdm-2026-lequipe-de-france-terminera-premiere-de-son-groupe-si",
+                "source": "Foot Mercato"
+              },
+              {
+                "title": "La France qualifiée pour les 16es de finale de la Coupe du monde si...",
+                "url": "https://www.lequipe.fr/Football/Actualites/La-france-qualifiee-pour-les-16es-de-finale-de-la-coupe-du-monde-si/1686941",
+                "source": "L&apos;Équipe"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "classement coupe du monde 2026",
+        "score": 90,
+        "geos": [
+          "MA"
+        ],
+        "samples": [
+          {
+            "query": "classement coupe du monde 2026",
+            "geo": "MA",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Coupe du Monde 2026: qui décide s&apos;il y a faute ou non? L&apos;IA (enfin presque)",
+                "url": "https://www.geo.fr/sciences/coupe-du-monde-2026-qui-decide-s-il-y-a-faute-ou-non-l-ia-enfin-presque-232496",
+                "source": "Le magazine GEO"
+              },
+              {
+                "title": "Mondial 2026 : pourquoi les nouvelles règles de la Fifa ont un effet positif sur les matchs",
+                "url": "https://www.lesoir.be/754675/article/2026-06-22/mondial-2026-pourquoi-les-nouvelles-regles-de-la-fifa-ont-un-effet-positif-sur",
+                "source": "Le Soir"
+              },
+              {
+                "title": "La Coupe du monde 2026, laboratoire grandeur nature du football augmenté",
+                "url": "https://moncarnet.com/2026/06/22/la-coupe-du-monde-2026-laboratoire-grandeur-nature-du-football-augmente/",
+                "source": "Mon Carnet – de l&apos;actualité numérique"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "topic": "classement équipe de jordanie de football – équipe d&apos;algérie de football",
+      "type": "noticia",
+      "slugSuggestion": "classement-equipe-de-jordanie-de-football-equipe-d-apos-algerie-de-football",
+      "language": "fr",
+      "geos": [
+        "MA"
+      ],
+      "score": 54000,
+      "reason": "Google Trends daily MA con 50,000 búsquedas · 3 artículos noticiosos referenciando \"classement équipe de jordanie de football – équipe d&apos;algérie de football\"",
+      "proposedPath": "/noticias/classement-equipe-de-jordanie-de-football-equipe-d-apos-algerie-de-football",
+      "evidence": [
+        {
+          "query": "classement équipe de jordanie de football – équipe d&apos;algérie de football",
+          "geo": "MA",
+          "language": "fr",
+          "source": "google-trends-daily",
+          "score": 50000,
+          "articles": [
+            {
+              "title": "Algérie-Jordanie: Amine Gouiri offre la victoire aux Fennecs, qui entrevoient la qualification",
+              "url": "https://rmcsport.bfmtv.com/football/coupe-du-monde/direct-algerie-jordanie-suivez-le-match-du-groupe-j-de-la-coupe-du-monde-2026-en-live_LS-202606220546.html",
+              "source": "RMC Sport"
+            },
+            {
+              "title": "Mondial 2026 : l’Algérie s’impose face à la Jordanie (2-1)",
+              "url": "https://lematin.ma/sports/mondial-2026-lalgerie-simpose-face-a-la-jordanie-2-1/352001",
+              "source": "Le Matin.ma"
+            },
+            {
+              "title": "Coupe du monde 2026 : Amine Gouiri libère l&apos;Algérie !",
+              "url": "https://www.beinsports.com/fr-fr/football/coupe-du-monde-de-la-fifa-2026/articles-video/coupe-du-monde-2026-amine-gouiri-lib%C3%A8re-l-alg%C3%A9rie-2026-06-23",
+              "source": "beIN SPORTS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "soccer world rankings",
+      "type": "noticia",
+      "slugSuggestion": "soccer-world-rankings",
+      "language": "en",
+      "geos": [
+        "US"
+      ],
+      "score": 8400,
+      "reason": "Google Trends daily US con 5,000 búsquedas · 3 artículos noticiosos referenciando \"soccer world rankings\"",
+      "proposedPath": "/noticias/soccer-world-rankings",
+      "evidence": [
+        {
+          "query": "soccer world rankings",
+          "geo": "US",
+          "language": "en",
+          "source": "google-trends-daily",
+          "score": 5000,
+          "articles": [
+            {
+              "title": "World Cup 2026 Power Rankings after one game: Who is No. 1?",
+              "url": "https://www.espn.com/soccer/story/_/id/49094186/fifa-world-cup-power-rankings-spain-brazil-germany-usa-mexico-england-argentina",
+              "source": "ESPN"
+            },
+            {
+              "title": "Ranking the top 50 players at the 2026 World Cup: Who were the winners and losers from week one? - The Athletic",
+              "url": "https://www.nytimes.com/athletic/7372630/2026/06/18/world-cup-50-players-rankings/",
+              "source": "The New York Times"
+            },
+            {
+              "title": "The 11 Biggest World Cup Questions After the First Round of Group Play",
+              "url": "https://www.theringer.com/2026/06/18/world-cup/fifa-world-cup-group-play-biggest-questions-lionel-messi-cristiano-ronaldo",
+              "source": "The Ringer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "algeria vs",
+      "type": "noticia",
+      "slugSuggestion": "algeria-vs",
+      "language": "es",
+      "geos": [
+        "PE"
+      ],
+      "score": 5400,
+      "reason": "Google Trends daily PE con 5,000 búsquedas · 3 artículos noticiosos referenciando \"algeria vs\"",
+      "proposedPath": "/noticias/algeria-vs",
+      "evidence": [
+        {
+          "query": "algeria vs",
+          "geo": "PE",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 5000,
+          "articles": [
+            {
+              "title": "Algeria vs. Jordan Odds, Predictions, Picks For World Cup Match",
+              "url": "https://www.foxsports.com/stories/soccer/2026-world-cup-algeria-jordan-odds-prediction-picks",
+              "source": "FOX Sports"
+            },
+            {
+              "title": "Highlights: Jordan 1-2 Algeria World Cup 2026 - 23 June 2026",
+              "url": "https://www.bbc.com/sport/football/videos/clyw72k34nwo",
+              "source": "BBC"
+            },
+            {
+              "title": "Jordan 1 - 2 Algeria: Late Amine Gouiri goal eliminates Jordan - as it happened",
+              "url": "https://www.espn.com/soccer/story/_/id/49145580/jordan-algeria-live-world-cup-2026-latest-updates-commentary-score-result",
+              "source": "ESPN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "erling haaland",
+      "type": "noticia",
+      "slugSuggestion": "erling-haaland",
+      "language": "es",
+      "geos": [
+        "EC"
+      ],
+      "score": 4800,
+      "reason": "Google Trends daily EC con 5,000 búsquedas · 3 artículos noticiosos referenciando \"erling haaland\"",
+      "proposedPath": "/noticias/erling-haaland",
+      "evidence": [
+        {
+          "query": "erling haaland",
+          "geo": "EC",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 5000,
+          "articles": [
+            {
+              "title": "Norway 3-2 Senegal: Erling Haaland scores twice to fire his country into the World Cup last 32",
+              "url": "https://www.bbc.com/sport/football/live/c3ey5pj14yxt",
+              "source": "BBC"
+            },
+            {
+              "title": "Senegal&apos;s World Cup dreams hanging by a thread after defeat to Norway",
+              "url": "https://www.dawan.africa/news/senegals-world-cup-dreams-hanging-by-a-thread-after-defeat-to-norway",
+              "source": "Dawan Africa"
+            },
+            {
+              "title": "FIFA World Cup: Stale Solbakken hails &apos;best striker&apos; Erling Haaland",
+              "url": "https://www.flashscore.com/news/soccer-world-championship-norway-head-coach-stale-solbakken-says-senegal-win-down-to-on-fire-erling-haaland/Yc4Ye2nl/",
+              "source": "Flashscore.com"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "matchs de coupe du monde",
+      "type": "noticia",
+      "slugSuggestion": "matchs-de-coupe-du-monde",
+      "language": "fr",
+      "geos": [
+        "MA"
+      ],
+      "score": 540,
+      "reason": "Google Trends daily MA con 500 búsquedas · 3 artículos noticiosos referenciando \"matchs de coupe du monde\"",
+      "proposedPath": "/noticias/matchs-de-coupe-du-monde",
+      "evidence": [
+        {
+          "query": "matchs de coupe du monde",
+          "geo": "MA",
+          "language": "fr",
+          "source": "google-trends-daily",
+          "score": 500,
+          "articles": [
+            {
+              "title": "EN DIRECT Coupe du monde 2026 : Messi, Mbappé et Haaland, les grandes stars…",
+              "url": "https://www.20minutes.fr/sport/football/4230620-20260622-direct-coupe-monde-2026-plus-droit-erreur-senegal-contre-norvege-haaland",
+              "source": "20 Minutes"
+            },
+            {
+              "title": "CdM 2026 : l’équipe de France terminera première de son groupe si…",
+              "url": "https://www.footmercato.net/a4207904861190358910-cdm-2026-lequipe-de-france-terminera-premiere-de-son-groupe-si",
+              "source": "Foot Mercato"
+            },
+            {
+              "title": "La France qualifiée pour les 16es de finale de la Coupe du monde si...",
+              "url": "https://www.lequipe.fr/Football/Actualites/La-france-qualifiee-pour-les-16es-de-finale-de-la-coupe-du-monde-si/1686941",
+              "source": "L&apos;Équipe"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "vikingos",
+      "type": "noticia",
+      "slugSuggestion": "vikingos",
+      "language": "es",
+      "geos": [
+        "PE"
+      ],
+      "score": 216,
+      "reason": "Google Trends daily PE con 200 búsquedas · 3 artículos noticiosos referenciando \"vikingos\"",
+      "proposedPath": "/noticias/vikingos",
+      "evidence": [
+        {
+          "query": "vikingos",
+          "geo": "PE",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Es la definición de que el fútbol es más que un deporte: la celebración vikinga de Noruega que es tremenda",
+              "url": "https://as.com/futbol/videos/es-la-definicion-de-que-el-futbol-es-mas-que-un-deporte-la-celebracion-vikinga-de-noruega-que-es-tremenda-f202606-v/",
+              "source": "Diario AS"
+            },
+            {
+              "title": "\"Remo Vikingo\" con Haaland: Noruega y el festejo más viral del Mundial 2026 tras triunfo ante Senegal",
+              "url": "https://rpp.pe/futbol/mundial-2026/noruega-vs-senegal-remo-vikingo-y-el-festejo-mas-viral-del-mundial-2026-tras-triunfo-erling-haaland-noticia-1694226",
+              "source": "RPP"
+            },
+            {
+              "title": "La espectacular conga de los aficionados de Noruega para salir del estadio",
+              "url": "https://www.marca.com/futbol/mundial/2026/06/23/espectacular-conga-aficionados-noruega-salir-video.html",
+              "source": "MARCA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "progol",
+      "type": "noticia",
+      "slugSuggestion": "progol",
+      "language": "es",
+      "geos": [
+        "MX"
+      ],
+      "score": 168,
+      "reason": "Google Trends daily MX con 100 búsquedas · 3 artículos noticiosos referenciando \"progol\"",
+      "proposedPath": "/noticias/progol",
+      "evidence": [
+        {
+          "query": "progol",
+          "geo": "MX",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 100,
+          "articles": [
+            {
+              "title": "Quiniela Progol Media Semana 801: partidos y predicciones",
+              "url": "https://www.marca.com/mx/futbol/2026/06/22/6a3938f746163f912b8b45bd.html",
+              "source": "MARCA"
+            },
+            {
+              "title": "Resultados Progol Revancha 2337: ganadores de la quiniela del Mundial 2026",
+              "url": "https://www.cronica.com.mx/tendencias/2026/06/21/resultados-progol-revancha-2337-ganadores-de-la-quiniela-del-mundial-2026/",
+              "source": "La Crónica de Hoy"
+            },
+            {
+              "title": "¡No te quedes fuera! Horarios atípicos de Progol este Mundial",
+              "url": "https://tulotero.mx/2026/06/16/horarios-atipicos-progol-durante-mundial/",
+              "source": "https://tulotero.mx/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "mousa al-tamari",
+      "type": "noticia",
+      "slugSuggestion": "mousa-al-tamari",
+      "language": "es",
+      "geos": [
+        "AR"
+      ],
+      "score": 156,
+      "reason": "Google Trends daily AR con 100 búsquedas · 3 artículos noticiosos referenciando \"mousa al-tamari\"",
+      "proposedPath": "/noticias/mousa-al-tamari",
+      "evidence": [
+        {
+          "query": "mousa al-tamari",
+          "geo": "AR",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 100,
+          "articles": [
+            {
+              "title": "Task failed successfully: Mousa Al-Tamari registers the most chaotic assist of the World Cup",
+              "url": "https://tribuna.com/en/blogs/task-failed-successfully-mousa-altamari-registers-the-most-c/",
+              "source": "Tribuna.com"
+            },
+            {
+              "title": "Jordan 1-2 Algeria: World Cup debutants are knocked out of tournament",
+              "url": "https://www.bbc.com/sport/football/live/ckg5n4wyzxnt",
+              "source": "BBC"
+            },
+            {
+              "title": "Jordan vs Algeria Quick Highlights | 2026 FIFA World Cup™",
+              "url": "https://www.foxsports.com/watch-vertical/fmc-6htai2whew4i2xkw",
+              "source": "FOX Sports"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "estadísticas de mundial",
+      "type": "noticia",
+      "slugSuggestion": "estadisticas-de-mundial",
+      "language": "es",
+      "geos": [
+        "UY"
+      ],
+      "score": 108,
+      "reason": "Google Trends daily UY con 100 búsquedas · 3 artículos noticiosos referenciando \"estadísticas de mundial\"",
+      "proposedPath": "/noticias/estadisticas-de-mundial",
+      "evidence": [
+        {
+          "query": "estadísticas de mundial",
+          "geo": "UY",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 100,
+          "articles": [
+            {
+              "title": "Un Mundial con Imagen... día 12. Estadísticas y agenda para martes y miércoles",
+              "url": "https://imagendeveracruz.mx/deportes/un-mundial-con-imagen...-dia-12.-estadisticas-y-agenda-para-martes-y-miercoles-20260623-0001.html",
+              "source": "Imagen de Veracruz"
+            },
+            {
+              "title": "Un Mundial con Imagen... día 10. Estadísticas y agenda para domingo y lunes",
+              "url": "https://imagendeveracruz.mx/deportes/un-mundial-con-imagen...-dia-10.-estadisticas-y-agenda-para-domingo-y-lunes-20260621-0002.html",
+              "source": "Imagen de Veracruz"
+            },
+            {
+              "title": "Por dónde ver Jordania vs. Argelia en vivo por el Mundial 2026: día, hora y previa del Grupo J",
+              "url": "https://www.elpais.com.uy/ovacion/mundial/por-donde-ver-jordania-vs-argelia-en-vivo-por-el-mundial-2026-dia-hora-y-previa-del-grupo-j",
+              "source": "EL PAÍS Uruguay"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alreadyCovered": [
+    {
+      "query": "suiza vs canada",
+      "matchUrl": "/noticias/grupo-b-mundial-2026-canada-qatar-suiza-bosnia-horarios-analisis"
+    },
+    {
+      "query": "posiciones de selección de fútbol de jordania contra selección de fútbol de argelia",
+      "matchUrl": "/selecciones"
+    },
+    {
+      "query": "england vs ghana",
+      "matchUrl": "/noticias/convocatoria-panama-mundial-2026-christiansen-26-jugadores-anibal-godoy-quintero-grupo-inglaterra-croacia-ghana"
+    },
+    {
+      "query": "posiciones de selección de fútbol de jordania contra selección de fútbol de argelia",
+      "matchUrl": "/selecciones"
+    },
+    {
+      "query": "jordania - argelia",
+      "matchUrl": "/noticias/jordania-argelia-resultado-mundial-2026"
+    },
+    {
+      "query": "senegal vs irak",
+      "matchUrl": "/noticias/haaland-noruega-mundial-2026-28-anos-ausencia-odegaard-grupo-i-francia-senegal-irak"
+    },
+    {
+      "query": "jordania",
+      "matchUrl": "/noticias/jordania-argelia-resultado-mundial-2026"
+    },
+    {
+      "query": "posiciones de selección de fútbol de jordania contra selección de fútbol de argelia",
+      "matchUrl": "/selecciones"
+    },
+    {
+      "query": "uzbekistan vs",
+      "matchUrl": "/noticias/uzbekistan-colombia-resultado-mundial-2026"
+    },
+    {
+      "query": "jordania",
+      "matchUrl": "/noticias/jordania-argelia-resultado-mundial-2026"
+    },
+    {
+      "query": "panama vs croacia",
+      "matchUrl": "/noticias/convocatoria-panama-mundial-2026-christiansen-26-jugadores-anibal-godoy-quintero-grupo-inglaterra-croacia-ghana"
+    },
+    {
+      "query": "jordania - argelia",
+      "matchUrl": "/noticias/jordania-argelia-resultado-mundial-2026"
+    },
+    {
+      "query": "colombia vs rd congo",
+      "matchUrl": "/noticias/ver-colombia-congo-tv-mundial-2026-grupo-k"
+    },
+    {
+      "query": "posiciones de selección de fútbol de jordania contra selección de fútbol de argelia",
+      "matchUrl": "/selecciones"
+    },
+    {
+      "query": "jordania",
+      "matchUrl": "/noticias/jordania-argelia-resultado-mundial-2026"
+    },
+    {
+      "query": "tabla mejores terceros mundial 2026",
+      "matchUrl": "/coleccionismo/panini-mundial-2026"
+    },
+    {
+      "query": "posiciones de selección de fútbol de jordania contra selección de fútbol de argelia",
+      "matchUrl": "/selecciones"
+    },
+    {
+      "query": "jordania",
+      "matchUrl": "/noticias/jordania-argelia-resultado-mundial-2026"
+    },
+    {
+      "query": "goleadores mundial 2026",
+      "matchUrl": "/coleccionismo/panini-mundial-2026"
+    },
+    {
+      "query": "kylian mbappé",
+      "matchUrl": "/noticias/kylian-mbappe-mundial-2026-real-madrid-francia-ganar-lo-unico-que-le-falta"
+    },
+    {
+      "query": "haaland",
+      "matchUrl": "/noticias/noruega-haaland-comida-mundial-2026-pescado-queso-fruta"
+    },
+    {
+      "query": "classement coupe du monde 2026",
+      "matchUrl": "/coleccionismo/panini-mundial-2026"
+    }
+  ]
+}

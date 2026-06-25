@@ -68,9 +68,12 @@ export async function generateMetadata({
     locale === routing.defaultLocale
       ? `${siteUrl}/historias/${historia.slug}`
       : `${siteUrl}/${locale}/historias/${historia.slug}`;
-  const ogImages = historia.cover
-    ? [{ url: historia.cover.url, width: 1200, height: 675, alt: historia.cover.alt }]
-    : undefined;
+  // No declaramos `images` en openGraph ni twitter: Next.js auto-detecta
+  // el archivo adyacente `opengraph-image.tsx` y lo sirve con tamaño
+  // 1200×675 garantizado. La URL Wikimedia de `historia.cover` se sigue
+  // usando como hero visual dentro del cuerpo del artículo (la mayoría
+  // no son 16:9 y mentir sobre el tamaño descalifica la pieza para
+  // Google Discover).
   return {
     title,
     description,
@@ -93,8 +96,8 @@ export async function generateMetadata({
       title,
       description,
       url,
-      images: ogImages,
       publishedTime: historia.publishDate,
+      modifiedTime: historia.publishDate,
       authors: ['Mundial de Fútbol'],
       tags: [historia.protagonist, BLOCK_LABELS[historia.blockCode], CATEGORY_LABELS[historia.category]],
     },
@@ -102,7 +105,6 @@ export async function generateMetadata({
       card: 'summary_large_image',
       title,
       description,
-      images: historia.cover ? [historia.cover.url] : undefined,
     },
   };
 }
@@ -199,24 +201,31 @@ export default async function HistoriaPage({
       : undefined,
   };
 
+  // Entidades mencionadas → Knowledge Graph (Wikidata + Wikipedia).
   if (additionalMentions.length > 0) {
     jsonLd.mentions = additionalMentions;
   }
 
-  // Discover-friendly: ImageObject 1200×675 ratio 16:9.
-  // Google Discover requiere imagen grande con licencia.
-  if (historia.cover) {
-    jsonLd.image = {
-      '@type': 'ImageObject',
-      url: historia.cover.url,
-      width: 1200,
-      height: 675,
-      caption: historia.cover.alt,
-      creditText: historia.cover.credit,
-      license: historia.cover.source,
-      acquireLicensePage: historia.cover.source,
-    };
-  }
+  // Discover-friendly: ImageObject 1200×675 servido por el OG dinámico
+  // (opengraph-image.tsx adyacente), que garantiza el ratio 16:9.
+  const ogImageUrl =
+    locale === routing.defaultLocale
+      ? `${siteUrl}/historias/${historia.slug}/opengraph-image`
+      : `${siteUrl}/${locale}/historias/${historia.slug}/opengraph-image`;
+  jsonLd.image = {
+    '@type': 'ImageObject',
+    url: ogImageUrl,
+    width: 1200,
+    height: 675,
+    caption: historia.cover?.alt ?? historia.title,
+    ...(historia.cover?.credit ? { creditText: historia.cover.credit } : {}),
+    ...(historia.cover?.source
+      ? {
+          license: historia.cover.source,
+          acquireLicensePage: historia.cover.source,
+        }
+      : {}),
+  };
 
   return (
     <article className="relative">

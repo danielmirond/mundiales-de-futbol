@@ -1,8 +1,10 @@
 import Link from 'next/link';
 import { setRequestLocale, getTranslations } from 'next-intl/server';
-import { ArrowLeft, ExternalLink, Tv, Globe, Wifi, AlertTriangle } from 'lucide-react';
+import { ArrowLeft, ArrowRight, ExternalLink, Tv, Globe, Wifi, AlertTriangle } from 'lucide-react';
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl } from '@/lib/seo';
+import { BROADCASTS_2026 } from '@/lib/wc-2026-broadcasts';
+import { DEFAULT_MOVISTAR_HREF, DAZN_AFFILIATE_HREF } from '@/lib/movistar-match-links';
 
 function withLocale(locale: Locale, href: string) {
   if (locale === routing.defaultLocale) return href;
@@ -53,20 +55,20 @@ const PLATAFORMAS = [
   },
   {
     name: 'Movistar Plus+',
-    sub: 'Sublicencia con Mediapro',
-    price: 'Desde 14 €/mes (clientes Movistar) · 9,99 €/mes OTT',
+    sub: 'Vía DAZN · todos los partidos',
+    price: 'Consulta planes y precio',
     coverage: 'Los 104 partidos en directo + 4K HDR + audio Dolby',
-    extras: 'Análisis previos y post-partido, contenido exclusivo',
-    url: 'https://www.movistar.es/movistar-plus',
+    extras: 'Análisis previos y post-partido, Fanzone multipartido',
+    url: DEFAULT_MOVISTAR_HREF,
     primary: true,
   },
   {
     name: 'DAZN',
-    sub: 'Sublicencia con Mediapro',
-    price: 'Desde 19,99 €/mes (oferta 14,99 € jóvenes)',
+    sub: 'Derechos de los 104 partidos',
+    price: 'Consulta planes y precio',
     coverage: 'Todos los partidos del Mundial 2026',
     extras: 'App, navegador, smart TV. Múltiples dispositivos',
-    url: 'https://www.dazn.com/es-ES/welcome',
+    url: DAZN_AFFILIATE_HREF,
     primary: false,
   },
 ];
@@ -108,7 +110,7 @@ const FAQ = [
   },
   {
     q: '¿Cuánto cuesta ver el Mundial 2026 en Movistar Plus+?',
-    a: 'El plan más asequible que incluye Movistar Plus+ con cobertura del Mundial parte de unos 14 € al mes. Los planes con todo el deporte (incluyendo La Liga y Champions) están entre 30 y 60 € al mes según promoción.',
+    a: 'Movistar Plus+ ofrece el Mundial 2026 completo (vía DAZN) en sus planes. El precio y los packs varían según seas o no cliente de Movistar y según promoción; consulta las opciones actualizadas en Movistar Plus+.',
   },
   {
     q: '¿Cuándo juega España en el Mundial 2026?',
@@ -216,6 +218,35 @@ export default async function DondeVerPage({
         </div>
       </section>
 
+      {/* Selector por países — hub de retransmisión global */}
+      <section className="mx-auto w-full max-w-[1100px] px-6 pt-4 pb-8 md:px-10 md:pt-6 md:pb-10">
+        <div className="rounded-3xl border border-[var(--color-border)] bg-[var(--color-bg-2)] p-6 md:p-8">
+          <div className="flex items-center gap-3 font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-pitch)]">
+            <Globe className="h-4 w-4" />
+            <span>Dónde ver el Mundial en otros países</span>
+          </div>
+          <h2 className="mt-3 font-display text-2xl uppercase leading-tight md:text-3xl">
+            Cobertura por país: TV abierta, streaming y precios
+          </h2>
+          <p className="mt-3 max-w-3xl text-sm leading-relaxed text-[var(--color-fg-muted)] md:text-base">
+            Esta página cubre los derechos en España. Para México, Brasil, Estados Unidos y el resto de mercados, abre la guía específica de cada país: cadenas con derechos, qué partidos se pueden ver gratis, qué planes de streaming cubren los 104 partidos, narradores y FAQs.
+          </p>
+          <div className="mt-6 flex flex-wrap gap-3">
+            {BROADCASTS_2026.map((b) => (
+              <Link
+                key={b.slug}
+                href={withLocale(locale as Locale, `/2026/donde-ver/${b.slug}`)}
+                className="group inline-flex items-center gap-2 rounded-full border border-[var(--color-border-strong)] px-4 py-2 text-sm font-medium text-[var(--color-fg)] transition-colors hover:border-[var(--color-pitch)] hover:text-[var(--color-pitch)]"
+              >
+                <span aria-hidden className="text-base">{b.flag}</span>
+                {b.name}
+                <ArrowRight className="h-3 w-3 transition-transform group-hover:translate-x-1 rtl:rotate-180" />
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Plataformas */}
       <section className="mx-auto w-full max-w-[1100px] px-6 py-16 md:px-10 md:py-20">
         <div className="font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-pitch)]">
@@ -231,7 +262,7 @@ export default async function DondeVerPage({
               key={p.name}
               href={p.url}
               target="_blank"
-              rel="noopener noreferrer"
+              rel={p.url.includes('awin1.com') ? 'sponsored nofollow noopener noreferrer' : 'noopener noreferrer'}
               className={`group flex flex-col gap-4 rounded-3xl border p-6 transition-colors md:p-7 ${
                 p.primary
                   ? 'border-[var(--color-pitch)]/30 bg-gradient-to-br from-[var(--color-pitch)]/5 via-[var(--color-bg-2)] to-[var(--color-bg-2)] hover:border-[var(--color-pitch)]/50'

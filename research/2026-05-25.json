@@ -1,0 +1,194 @@
+{
+  "generatedAt": "2026-05-25T10:56:54.001Z",
+  "date": "2026-05-25",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "luis suárez díaz",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Cuando Luis Suárez estuvo a punto de convertirse en jugador de Flamengo",
+          "url": "https://www.espn.com.mx/futbol/brasil/nota/_/id/16755726/luis-suarez-flamengo-historia-posible-incorporacion-2006-nacional-costo",
+          "source": "ESPN México"
+        },
+        {
+          "title": "Stopira, que jugará con Cabo Verde el Mundial 2026 ante Uruguay, le amargó la tarde a Maximiliano Araújo y le ganó la Copa Portugal; mirá el video",
+          "url": "https://www.elobservador.com.uy/futbol-internacional/stopira-que-jugara-cabo-verde-el-mundial-2026-uruguay-le-amargo-la-tarde-maximiliano-araujo-y-le-gano-la-copa-portugal-mira-el-video-n6045053",
+          "source": "El Observador"
+        },
+        {
+          "title": "Luis Suárez hoy: ¿Dónde ver la final de Copa Portugal?",
+          "url": "https://www.365scores.com/es/news/luis-suarez-hoy-donde-ver-final-copa-hoy/",
+          "source": "365Scores"
+        }
+      ]
+    },
+    {
+      "query": "inter miami",
+      "geo": "MA",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Could Lionel Messi Miss The 2026 FIFA World Cup?",
+          "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/could-lionel-messi-miss-the-2026-fifa-world-cup-2026-05-25",
+          "source": "beIN SPORTS"
+        },
+        {
+          "title": "Inter Miami player ratings vs Philadelphia Union: Luis Suarez hat-trick overshadowed by Lionel Messi injury scare",
+          "url": "https://www.goal.com/en-qa/lists/inter-miami-player-ratings-vs-philadelphia-union-suarez-messi-injury-scare/bltedb94101fb200cfe",
+          "source": "Goal.com"
+        },
+        {
+          "title": "Lionel Messi’s hamstring injury sparks World Cup fears for Argentina",
+          "url": "https://www.independent.co.uk/bulletin/sport/lionel-messi-hamstring-injury-world-cup-argentina-b2983047.html",
+          "source": "The Independent"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "es": [
+      {
+        "query": "luis suárez díaz",
+        "score": 450,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "luis suárez díaz",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Cuando Luis Suárez estuvo a punto de convertirse en jugador de Flamengo",
+                "url": "https://www.espn.com.mx/futbol/brasil/nota/_/id/16755726/luis-suarez-flamengo-historia-posible-incorporacion-2006-nacional-costo",
+                "source": "ESPN México"
+              },
+              {
+                "title": "Stopira, que jugará con Cabo Verde el Mundial 2026 ante Uruguay, le amargó la tarde a Maximiliano Araújo y le ganó la Copa Portugal; mirá el video",
+                "url": "https://www.elobservador.com.uy/futbol-internacional/stopira-que-jugara-cabo-verde-el-mundial-2026-uruguay-le-amargo-la-tarde-maximiliano-araujo-y-le-gano-la-copa-portugal-mira-el-video-n6045053",
+                "source": "El Observador"
+              },
+              {
+                "title": "Luis Suárez hoy: ¿Dónde ver la final de Copa Portugal?",
+                "url": "https://www.365scores.com/es/news/luis-suarez-hoy-donde-ver-final-copa-hoy/",
+                "source": "365Scores"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "fr": [
+      {
+        "query": "inter miami",
+        "score": 450,
+        "geos": [
+          "MA"
+        ],
+        "samples": [
+          {
+            "query": "inter miami",
+            "geo": "MA",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Could Lionel Messi Miss The 2026 FIFA World Cup?",
+                "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/could-lionel-messi-miss-the-2026-fifa-world-cup-2026-05-25",
+                "source": "beIN SPORTS"
+              },
+              {
+                "title": "Inter Miami player ratings vs Philadelphia Union: Luis Suarez hat-trick overshadowed by Lionel Messi injury scare",
+                "url": "https://www.goal.com/en-qa/lists/inter-miami-player-ratings-vs-philadelphia-union-suarez-messi-injury-scare/bltedb94101fb200cfe",
+                "source": "Goal.com"
+              },
+              {
+                "title": "Lionel Messi’s hamstring injury sparks World Cup fears for Argentina",
+                "url": "https://www.independent.co.uk/bulletin/sport/lionel-messi-hamstring-injury-world-cup-argentina-b2983047.html",
+                "source": "The Independent"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "topic": "inter miami",
+      "type": "noticia",
+      "slugSuggestion": "inter-miami",
+      "language": "fr",
+      "geos": [
+        "MA"
+      ],
+      "score": 540,
+      "reason": "Google Trends daily MA con 500 búsquedas · 3 artículos noticiosos referenciando \"inter miami\"",
+      "proposedPath": "/noticias/inter-miami",
+      "evidence": [
+        {
+          "query": "inter miami",
+          "geo": "MA",
+          "language": "fr",
+          "source": "google-trends-daily",
+          "score": 500,
+          "articles": [
+            {
+              "title": "Could Lionel Messi Miss The 2026 FIFA World Cup?",
+              "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/could-lionel-messi-miss-the-2026-fifa-world-cup-2026-05-25",
+              "source": "beIN SPORTS"
+            },
+            {
+              "title": "Inter Miami player ratings vs Philadelphia Union: Luis Suarez hat-trick overshadowed by Lionel Messi injury scare",
+              "url": "https://www.goal.com/en-qa/lists/inter-miami-player-ratings-vs-philadelphia-union-suarez-messi-injury-scare/bltedb94101fb200cfe",
+              "source": "Goal.com"
+            },
+            {
+              "title": "Lionel Messi’s hamstring injury sparks World Cup fears for Argentina",
+              "url": "https://www.independent.co.uk/bulletin/sport/lionel-messi-hamstring-injury-world-cup-argentina-b2983047.html",
+              "source": "The Independent"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alreadyCovered": [
+    {
+      "query": "luis suárez díaz",
+      "matchUrl": "/noticias/prelista-colombia-mundial-2026-nestor-lorenzo-james-luis-diaz-ospina-falcao-fuera"
+    }
+  ]
+}

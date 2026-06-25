@@ -44,11 +44,23 @@ export function localeUrl(locale: string, path: string): string {
   return `${SITE_URL}/${locale}${clean === '/' ? '' : clean}`;
 }
 
-/** Build the full hreflang `languages` object for `alternates`. */
-export function hreflangAlternates(path: string): Record<string, string> {
-  return Object.fromEntries(
-    routing.locales.map((l) => [l, localeUrl(l, path)]),
-  );
+/**
+ * Build the hreflang `languages` object for `alternates`.
+ *
+ * Solo emite locales con contenido realmente traducido. Si una página
+ * sólo existe en español, devuelve `{ es: ..., 'x-default': ... }` para
+ * evitar que Google indexe /en/, /fr/, /pt/, /ar/ como contenido inglés
+ * cuando sirven español (hreflang inválido = penalización autoridad).
+ */
+export function hreflangAlternates(
+  path: string,
+  availableLocales: readonly string[] = [routing.defaultLocale],
+): Record<string, string> {
+  const map: Record<string, string> = {};
+  for (const l of availableLocales) map[l] = localeUrl(l, path);
+  // x-default apunta al default locale (es). Recomendación Google.
+  map['x-default'] = localeUrl(routing.defaultLocale, path);
+  return map;
 }
 
 export type PageImage = {
@@ -70,6 +82,19 @@ export type PageMetadataOptions = {
   authors?: string[];
   keywords?: string[];
   noIndex?: boolean;
+  /**
+   * Locales en los que esta página tiene contenido realmente traducido.
+   * Por defecto sólo el español (`['es']`). Si la página tiene traducciones
+   * para otros locales (ej. una noticia con `i18n.en` rellenado), pasarlo
+   * aquí para emitir el hreflang correcto.
+   *
+   * Efectos:
+   * - Sólo se emiten `<link rel="alternate" hreflang>` para los locales listados.
+   * - Si el `locale` actual NO está en `availableLocales`, se aplica
+   *   `noindex` automático (la URL existe pero sirve fallback ES y no
+   *   queremos que Google la indexe como versión en ese idioma).
+   */
+  availableLocales?: readonly string[];
 };
 
 /**
@@ -87,6 +112,12 @@ export type PageMetadataOptions = {
  */
 export function pageMetadata(opts: PageMetadataOptions): Metadata {
   const url = localeUrl(opts.locale, opts.path);
+  const availableLocales = opts.availableLocales ?? [routing.defaultLocale];
+  // Auto-noindex: si servimos /en/, /fr/, /pt/, /ar/ pero NO hay traducción
+  // real para ese locale en esta página, no queremos que Google la indexe
+  // como contenido inglés/francés/etc. (sirve fallback español).
+  const localeUntranslated = !availableLocales.includes(opts.locale);
+  const shouldNoIndex = opts.noIndex || localeUntranslated;
 
   const ogImages = opts.image
     ? [
@@ -99,16 +130,22 @@ export function pageMetadata(opts: PageMetadataOptions): Metadata {
       ]
     : undefined;
 
+  // Canonical apunta a la versión disponible: si el usuario aterriza en
+  // /en/ pero solo hay ES, el canonical va a la URL ES (evita duplicidad).
+  const canonicalUrl = localeUntranslated
+    ? localeUrl(routing.defaultLocale, opts.path)
+    : url;
+
   return {
     title: opts.title,
     description: opts.description,
     keywords: opts.keywords,
-    robots: opts.noIndex
-      ? { index: false, follow: false }
+    robots: shouldNoIndex
+      ? { index: false, follow: true }
       : { index: true, follow: true, 'max-image-preview': 'large' },
     alternates: {
-      canonical: url,
-      languages: hreflangAlternates(opts.path),
+      canonical: canonicalUrl,
+      languages: hreflangAlternates(opts.path, availableLocales),
     },
     openGraph: {
       type: opts.type ?? 'website',

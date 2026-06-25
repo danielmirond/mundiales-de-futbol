@@ -36,6 +36,10 @@ export async function generateMetadata({
       'álbum capa dura copa 2026',
     ],
     type: 'article',
+    // Contenido editorial nativo en portugués-brasileño (targeting Brasil).
+    // Solo /pt/coleccionismo/... debería indexarse; el resto de locales
+    // se sirven con fallback ES (= contenido editorial pt) y van noindex.
+    availableLocales: ['pt'],
   });
 }
 

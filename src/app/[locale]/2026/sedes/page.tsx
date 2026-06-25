@@ -24,16 +24,29 @@ export async function generateMetadata({
     path: '/2026/sedes',
     title: t('title'),
     description: t('description'),
-    keywords: [
-      'sedes Mundial 2026',
-      'ciudades Mundial 2026',
-      'host cities World Cup 2026',
-      'World Cup 2026 host cities',
-      'cidades-sede Copa do Mundo 2026',
-      'villes hôtes Coupe du Monde 2026',
-      'estadios Mundial 2026',
-      'guía viaje Mundial 2026',
-    ],
+    availableLocales: ['es', 'en'],
+    keywords:
+      locale === 'en'
+        ? [
+            'World Cup 2026 host cities',
+            'World Cup 2026 venues',
+            'World Cup 2026 stadiums',
+            '2026 FIFA World Cup cities',
+            'USA Mexico Canada host cities',
+            'World Cup 2026 travel guide',
+            'World Cup 2026 stadium list',
+            'World Cup 2026 match cities',
+          ]
+        : [
+            'sedes Mundial 2026',
+            'ciudades Mundial 2026',
+            'host cities World Cup 2026',
+            'World Cup 2026 host cities',
+            'cidades-sede Copa do Mundo 2026',
+            'villes hôtes Coupe du Monde 2026',
+            'estadios Mundial 2026',
+            'guía viaje Mundial 2026',
+          ],
   });
 }
 
@@ -55,12 +68,14 @@ export default async function SedesIndex({
   const collectionLd = {
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',
-    name: 'Sedes Mundial 2026',
+    name: locale === 'en' ? 'World Cup 2026 host cities' : 'Sedes Mundial 2026',
     url: localeUrl(locale, '/2026/sedes'),
     isPartOf: { '@type': 'WebSite', name: SEO.siteName, url: SEO.siteUrl },
     inLanguage: locale,
     description:
-      'Las 16 ciudades anfitrionas del Mundial 2026: estadios, partidos, qué hacer y cómo llegar.',
+      locale === 'en'
+        ? 'The 16 host cities of the 2026 World Cup: stadiums, matches, things to do and how to get there.'
+        : 'Las 16 ciudades anfitrionas del Mundial 2026: estadios, partidos, qué hacer y cómo llegar.',
     hasPart: SEDES_2026.map((s) => ({
       '@type': 'Place',
       name: s.cityName,
@@ -80,9 +95,9 @@ export default async function SedesIndex({
         data={[
           collectionLd,
           breadcrumbLd(locale, [
-            { name: 'Inicio', path: '/' },
-            { name: 'Mundial 2026', path: '/2026' },
-            { name: 'Sedes', path: '/2026/sedes' },
+            { name: locale === 'en' ? 'Home' : 'Inicio', path: '/' },
+            { name: locale === 'en' ? 'World Cup 2026' : 'Mundial 2026', path: '/2026' },
+            { name: locale === 'en' ? 'Host cities' : 'Sedes', path: '/2026/sedes' },
           ]),
         ]}
       />
@@ -182,7 +197,7 @@ export default async function SedesIndex({
                         </div>
 
                         <p className="text-sm leading-relaxed text-[var(--color-fg-muted)]">
-                          {s.shortIntro}
+                          {locale === 'en' && s.shortIntroEn ? s.shortIntroEn : s.shortIntro}
                         </p>
 
                         <span className="mt-auto inline-flex items-center gap-2 font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-fg-subtle)] transition-colors group-hover:text-[var(--color-pitch)]">

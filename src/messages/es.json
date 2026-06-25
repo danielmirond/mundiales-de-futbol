@@ -13,20 +13,32 @@
     "compare": "Comparador",
     "quiz": "Quiz",
     "live2026": "2026 en vivo",
+    "whereToWatch": "Dónde ver",
     "menu": "Menú",
     "close": "Cerrar",
     "stories": "Historias",
-    "gallery": "Galería"
+    "gallery": "Galería",
+    "calendar": "Calendario",
+    "news": "Noticias"
   },
   "home": {
     "hero": {
-      "kicker": "1930-2026",
-      "titleLine1": "22 torneos.",
-      "titleLine2": "Una historia.",
+      "kicker": "El Mundial ya está aquí",
+      "titleLine1": "Mundial 2026",
+      "titleLine2": "en directo",
       "subtitle": "La enciclopedia definitiva del Mundial de Fútbol, hasta el último pase.",
       "ctaPrimary": "Explorar ediciones",
       "ctaSecondary": "Calendario 2026",
-      "videoFallbackAlt": "Un estadio de fútbol visto desde lo alto"
+      "videoFallbackAlt": "Un estadio de fútbol visto desde lo alto",
+      "liveNow": "En juego ahora",
+      "nextMatch": "Próximo partido",
+      "live": "En vivo",
+      "madridTime": "hora de Madrid",
+      "inPlay": "Partido en juego",
+      "group": "Grupo",
+      "ctaCalendar": "Calendario",
+      "ctaWhere": "Dónde ver",
+      "ctaPorra": "Haz tu porra"
     },
     "countdown": {
       "label": "Faltan",
@@ -73,7 +85,26 @@
     "legal": "Legal",
     "privacy": "Privacidad",
     "cookies": "Cookies",
-    "contact": "Contacto"
+    "contact": "Contacto",
+    "editorial": {
+      "heading": "Editorial",
+      "about": "Sobre nosotros",
+      "editorialPolicy": "Política editorial",
+      "correctionsPolicy": "Política de correcciones"
+    },
+    "content": {
+      "heading": "Contenido",
+      "stories": "Historias",
+      "news": "Noticias",
+      "gallery": "Galería"
+    },
+    "shop": {
+      "heading": "Coleccionismo",
+      "jerseys": "Camisetas Mundial 2026",
+      "panini": "Cromos Panini",
+      "lego": "Sets LEGO",
+      "disclosure": "Aviso de afiliados"
+    }
   },
   "contact": {
     "kicker": "Contacto",
@@ -94,6 +125,23 @@
       "errorValidation": "Revisa los campos obligatorios.",
       "errorGeneric": "Algo falló. Vuelve a intentarlo en unos minutos."
     }
+  },
+  "wc2026Bar": {
+    "label": "Mundial 2026",
+    "live": "EN VIVO",
+    "groupStage": "Fase de grupos",
+    "koStage": "Eliminatorias",
+    "archive": "Mundial 2026 · archivo",
+    "opener": "Partido inaugural",
+    "postSubtitle": "Revive el camino al título",
+    "calendar": "Calendario",
+    "groups": "Grupos",
+    "tickets": "Entradas",
+    "today": "Partidos hoy",
+    "rtve": "Partidos La 1",
+    "dayShort": "d",
+    "hourShort": "h",
+    "minuteShort": "m"
   },
   "cookies": {
     "title": "Esta web usa cookies",
@@ -388,6 +436,205 @@
       "moreCta1": "Hub Mundial 2026",
       "moreCta2": "16 sedes",
       "moreCta3": "Álbum Panini"
+    },
+    "legoMundial2026": {
+      "meta": {
+        "title": "LEGO Mundial 2026: los 10 sets oficiales con Messi, Ronaldo, Mbappé y Vinicius",
+        "description": "Catálogo completo de la colección LEGO FIFA World Cup 2026: 10 sets oficiales con Messi (43011, 43015, 43018), Cristiano Ronaldo (43012, 43016), Mbappé (43013), Vinícius Jr (43027), el Trofeo 1:1 (43020 · 2.842 piezas), el emblema oficial (43032) y la camiseta USA (43033). Precios, números de set, ASINs Amazon, fechas de lanzamiento y dónde comprar.",
+        "keywords": [
+          "lego mundial 2026",
+          "lego fifa world cup 2026",
+          "lego copa del mundo 2026",
+          "lego messi 2026",
+          "lego cristiano ronaldo 2026",
+          "lego mbappe 2026",
+          "lego vinicius 2026",
+          "lego soccer legend",
+          "lego football highlights",
+          "lego trophy 43020",
+          "lego messi celebration 43018",
+          "set 43015 messi",
+          "set 43016 ronaldo",
+          "set 43032 emblema mundial",
+          "lego mundial 2026 precio"
+        ]
+      },
+      "back": "Coleccionismo",
+      "kicker": "10 sets oficiales · LEGO Editions",
+      "h1Line1": "LEGO Mundial",
+      "h1Line2": "2026",
+      "intro": "La colección oficial LEGO × FIFA World Cup 2026 trae <strong>10 sets</strong> con los cuatro grandes embajadores: <strong>Messi, Cristiano Ronaldo, Mbappé y Vinícius Jr</strong>. Dos sets premium a 199,99 $: el <strong>Trofeo del Mundial 1:1 (43020, 2.842 piezas)</strong> ya con pre-order activa desde marzo, y el <strong>Messi Celebration (43018)</strong> que llega el 1 de junio. El resto sale el 1 de mayo. Precios desde 24,99 $.",
+      "ctaLego": "Ver toda la colección en LEGO.com",
+      "stats": {
+        "total": {
+          "label": "Sets totales",
+          "value": "10"
+        },
+        "minPrice": {
+          "label": "Precio mínimo",
+          "value": "24,99 $"
+        },
+        "trophy": {
+          "label": "Trophy 1:1",
+          "value": "2.842 piezas"
+        },
+        "launch": {
+          "label": "Lanzamiento",
+          "value": "1 mayo 2026"
+        }
+      },
+      "heroBadge": "× FIFA 2026",
+      "heroImageAlt": "Logo oficial de LEGO, marca que ha lanzado diez sets dedicados al Mundial 2026 con Messi, Ronaldo, Mbappé y Vinicius Jr",
+      "catalog": {
+        "kicker": "Catálogo completo",
+        "h2": "Los 10 sets uno a uno",
+        "topLabel": "Top",
+        "setLabel": "Set",
+        "ageLabel": "Edad",
+        "piecesLabel": "piezas"
+      },
+      "buyAmazon": "Comprar en Amazon.es",
+      "viewAmazon": "Ver en Amazon.es",
+      "exclusiveLego": "Exclusiva LEGO.com",
+      "affiliateNotice": "Enlaces a Amazon España con afiliación nuus-21. Los ASINs son globales (mismos en .com/.es/.de) pero la disponibilidad puede variar; si Amazon.es no tiene stock, te redirige a la búsqueda del producto. Para los exclusivos LEGO.com (emblema 43032 y camiseta USA 43033) el botón va directo a la tienda oficial.",
+      "sets": {
+        "s43020": {
+          "title": "FIFA World Cup · Official Trophy",
+          "subtitle": "Réplica 1:1 del trofeo · 2.842 piezas",
+          "release": "Marzo 2026 (pre-order activa)",
+          "description": "Réplica 1:1 del Trofeo de la Copa del Mundo FIFA con 36 cm de altura y 2.842 piezas. Compartimento secreto en la esfera superior con el logo del Mundial 2026 dentro. Minifigura LEGO exclusiva con mini-trofeo y placa con todos los campeones desde 1974. Es la primera vez que LEGO usa tantas piezas en color oro real (laqueado y moldeado) en un solo set."
+        },
+        "s43018": {
+          "title": "Lionel Messi · Celebration",
+          "subtitle": "Set premium wall display · 14+",
+          "release": "1 junio 2026",
+          "description": "El segundo set tope de gama de la colección: Messi Celebration en formato wall display. Reproduce el momento del 18 de diciembre de 2022 cuando Messi alza la Copa del Mundo en Doha. Pieza pensada para AFOL y fans del Mundial 2022. Llega 10 días antes del partido inaugural en el Estadio Azteca."
+        },
+        "s43015": {
+          "title": "Lionel Messi · Soccer Legend",
+          "subtitle": "Buildable figure · 958 piezas",
+          "release": "1 mayo 2026",
+          "description": "Figura buildable de Messi en pose de victoria apuntando al cielo (gol marcado) o en pose de regate dinámico. 958 piezas. Base con la albiceleste argentina, placa con firma y CR-style stats. Set complementario al 43016 (Cristiano)."
+        },
+        "s43016": {
+          "title": "Cristiano Ronaldo · Soccer Legend",
+          "subtitle": "Buildable figure · 854 piezas",
+          "release": "1 mayo 2026",
+          "description": "Figura buildable de Cristiano de 25 × 23 × 13 cm con dos posibilidades de construcción: pose «Siuuu» de celebración o chilena (bicycle kick). 854 piezas. Cara co-moldeada, dorsal 7, balón nuevo elemento, gran fondo CR7 y placa de firma. Es la primera vez que Cristiano y Messi coexisten oficialmente en LEGO."
+        },
+        "s43011": {
+          "title": "Lionel Messi · Soccer Highlights",
+          "subtitle": "Diorama · 500 piezas",
+          "release": "1 mayo 2026",
+          "description": "Escena con base que forma la inicial de Messi, los colores de la albiceleste argentina, dorsal 10 grande, red de portería y mini-construcción de hitos de carrera. Minifigura Messi en pose goleadora y placa con stats. Easter eggs ocultos por toda la pieza. 500 piezas, 13 cm alto × 24 cm ancho."
+        },
+        "s43012": {
+          "title": "Cristiano Ronaldo · Soccer Highlights",
+          "subtitle": "Diorama · escena Siuuu",
+          "release": "1 mayo 2026",
+          "description": "Escena «Siuuu» con Cristiano celebrando un gol. Base con forma de letra en colores portugueses. Minifigura LEGO con la 7 al pecho y placa identificativa con stats."
+        },
+        "s43013": {
+          "title": "Kylian Mbappé · Soccer Highlights",
+          "subtitle": "Diorama · 490 piezas",
+          "release": "1 mayo 2026",
+          "description": "Escena de Mbappé en carrera explosiva con la 10 de Francia. Base con la inicial de Mbappé, colores azules de Les Bleus y dorsal 10 buildable. Minifigura LEGO en pose goleadora con placa de stats y firma. 490 piezas."
+        },
+        "s43027": {
+          "title": "Vinícius Jr · Soccer Highlights",
+          "subtitle": "Diorama · 510 piezas",
+          "release": "1 mayo 2026",
+          "description": "Escena de Vini Jr con base en forma de la inicial V, colores verde-amarillo de Brasil y dorsal 7. Minifigura LEGO con su corte característico, pose goleadora y placa con stats y firma. Easter eggs de su carrera. 510 piezas."
+        },
+        "s43032": {
+          "title": "FIFA World Cup 2026 · Official Emblem",
+          "subtitle": "Logo oficial display",
+          "release": "1 mayo 2026",
+          "description": "Reproducción semi-3D del Trofeo del Mundial con un panel plano colorido y el «26» del logo oficial FIFA. 298 piezas. Base de display dedicada y gancho para colgar en pared. Exclusiva de LEGO.com / LEGO Store."
+        },
+        "s43033": {
+          "title": "U.S. Soccer National Team Jersey",
+          "subtitle": "Camiseta USA en LEGO",
+          "release": "1 mayo 2026",
+          "description": "Reproducción de la camiseta titular de Estados Unidos para el Mundial 2026 (anfitriones) en formato wall display. 167 piezas. Exclusiva de LEGO.com / LEGO Store. Pensado para el mercado USA pero coleccionable."
+        }
+      },
+      "categories": {
+        "desde": "desde",
+        "highlights": {
+          "label": "Football Highlights",
+          "detail": "Dioramas para 10+ con minifigura. Messi, Cristiano, Mbappé, Vinicius."
+        },
+        "legend": {
+          "label": "Football Legend",
+          "detail": "Buildable figures 854-958 piezas. Messi y Cristiano."
+        },
+        "merch": {
+          "label": "Merchandising",
+          "detail": "Emblema (43032) y camiseta USA (43033). Exclusivos LEGO.com."
+        },
+        "premium": {
+          "label": "Premium Display",
+          "detail": "Trofeo 1:1 (43020 · 2.842 piezas) y Messi Celebration (43018)."
+        }
+      },
+      "faq": {
+        "kicker": "Preguntas frecuentes",
+        "h2": "FAQ",
+        "items": [
+          {
+            "q": "¿Cuántos sets LEGO Mundial 2026 hay?",
+            "a": "Diez sets oficiales en la colección LEGO Editions FIFA World Cup 2026. Se dividen en cuatro categorías: dos «Football Legend» (Messi 43015 y Cristiano 43016, 79,99 $), cuatro «Football Highlights» (Messi 43011, Cristiano 43012, Mbappé 43013, Vinicius 43027 a 29,99 $), dos sets premium display (Trophy oficial 43020 y Messi Celebration 43018 a 199,99 $) y dos merchandising (emblema 43032 y camiseta USA 43033 a 24,99 $)."
+          },
+          {
+            "q": "¿Cuándo salen los LEGO del Mundial 2026?",
+            "a": "El Trophy 43020 abrió pre-order en marzo de 2026. Los Football Legend (43015, 43016), Football Highlights (43011, 43012, 43013, 43027), emblema (43032) y camiseta USA (43033) llegan el 1 de mayo. El Messi Celebration (43018) wall display sale el 1 de junio. Distribución global: USA, España, Reino Unido y Alemania primero; LATAM (México, Argentina, Brasil) 1-2 semanas más tarde."
+          },
+          {
+            "q": "¿Cuánto cuesta el set LEGO de Messi?",
+            "a": "Messi tiene tres sets en la colección: «Football Highlights» 43011 a 29,99 $ (500 piezas), «Football Legend» 43015 a 79,99 $ (958 piezas, figura buildable) y «Messi Celebration» 43018 a 199,99 $ (wall display premium, sale el 1 de junio). Cristiano Ronaldo tiene equivalencia en los dos primeros: 43012 (29,99 $) y 43016 (79,99 $, 854 piezas)."
+          },
+          {
+            "q": "¿Dónde comprar los LEGO del Mundial 2026?",
+            "a": "LEGO.com es el canal oficial principal con stock garantizado y los exclusivos (emblema 43032 y camiseta USA 43033 SOLO aquí). Amazon vende los demás sets (los enlazamos arriba con afiliación nuus-21). FNAC, El Corte Inglés y Toys'R'Us reciben stock a partir del 5-15 de mayo. En México: Liverpool, Sears, Costco. En Brasil: Ri Happy, Lojas Americanas."
+          },
+          {
+            "q": "¿Cuál es el LEGO más caro y más barato del Mundial 2026?",
+            "a": "Los más caros son el Trophy oficial 43020 (2.842 piezas) y el Messi Celebration 43018, ambos a 199,99 $ / 179,99 €. Los más asequibles son el FIFA World Cup 2026 Official Emblem (43032, 298 piezas) y la camiseta USA (43033, 167 piezas), ambos a 24,99 $ y exclusivos de LEGO.com. En el rango medio están las Football Legend de Messi y Cristiano (79,99 $) y los Football Highlights (29,99 $)."
+          },
+          {
+            "q": "¿Cuántas piezas tiene el set LEGO Trophy 43020?",
+            "a": "2.842 piezas. Es la primera vez en la historia de LEGO que se utilizan tantas piezas en color oro real (laqueado y moldeado) en un solo set. Mide 36 cm de altura, recomendado para 12+. Incluye un compartimento secreto en la esfera superior con el logo del Mundial 2026 dentro y una placa con todos los campeones desde 1974. ASIN Amazon: B0FMYYGFQF."
+          },
+          {
+            "q": "¿Qué jugadores aparecen en LEGO Mundial 2026?",
+            "a": "Los cuatro embajadores de la colección son Lionel Messi (Argentina, 3 sets: 43011, 43015, 43018), Cristiano Ronaldo (Portugal, 2 sets: 43012, 43016), Kylian Mbappé (Francia, set 43013) y Vinícius Jr (Brasil, set 43027)."
+          },
+          {
+            "q": "¿Hay set LEGO de la selección española para el Mundial 2026?",
+            "a": "No en la primera ola. Esta primera tanda solo incluye un set de selección nacional: USA (anfitriona, set 43033). LEGO podría ampliar la colección con más selecciones cabezas de serie según ventas, una vez avance el torneo. Es la dinámica habitual de LEGO Editions: lanzar una primera ola, medir ventas y ampliar."
+          }
+        ]
+      },
+      "ctaBlock": {
+        "h2": "Comprar en LEGO.com",
+        "intro": "Stock garantizado del catálogo completo y exclusiva del Messi Celebration. Envío oficial LEGO con tracking.",
+        "cta": "Ver colección Mundial 2026"
+      },
+      "related": {
+        "h2": "Sigue explorando coleccionismo",
+        "panini": "Panini Mundial 2026",
+        "cromosCaros": "Cromos más caros",
+        "figurinhas": "Figurinhas Copa 2026",
+        "favoritos": "Favoritos al Mundial"
+      },
+      "breadcrumb": {
+        "inicio": "Inicio",
+        "coleccionismo": "Coleccionismo",
+        "lego": "LEGO Mundial 2026"
+      },
+      "articleHeadline": "LEGO Mundial 2026: los 10 sets oficiales con Messi, Ronaldo, Mbappé y Vinicius",
+      "articleDescription": "Catálogo completo y precios de la colección LEGO FIFA World Cup 2026."
     }
   }
 }

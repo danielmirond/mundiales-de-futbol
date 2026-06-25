@@ -1,0 +1,287 @@
+{
+  "generatedAt": "2026-05-31T09:31:17.774Z",
+  "date": "2026-05-31",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "santiago giménez",
+      "geo": "MX",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "Santiago Gimenez: \"Estamos listos para el Mundial\"",
+          "url": "https://www.espn.com.mx/futbol/selecciones/nota/_/id/16781506/mexico-santiago-gimenez-listos-mundial-2026",
+          "source": "ESPN México"
+        },
+        {
+          "title": "Santi Gimenez Mundial 2026: El \"Bebote\" quiere hacer historia en su primera Copa del Mundo",
+          "url": "https://www.mediotiempo.com/futbol/copa-mundial/santiago-gimenez-listo-para-su-primer-mundial-con-mexico-y-cargar-la-ofensiva-del-tri",
+          "source": "Mediotiempo"
+        },
+        {
+          "title": "Santiago Giménez ve ventaja para México en el Mundial 2026 por la afición, la altura y el Azteca",
+          "url": "https://www.elimparcial.com/deporte/2026/05/31/santiago-gimenez-ve-ventaja-para-mexico-en-el-mundial-2026-por-la-aficion-la-altura-y-el-azteca/",
+          "source": "El Imparcial"
+        }
+      ]
+    },
+    {
+      "query": "brasil vs",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "¿A qué hora juega y en qué canal transmiten Panamá vs. Brasil EN VIVO hoy por amistoso a la Copa Mundial 2026? Horarios y canales tv online",
+          "url": "https://gestion.pe/mix/sports/a-que-hora-juega-y-en-que-canal-transmiten-panama-vs-brasil-en-vivo-hoy-por-amistoso-a-la-copa-mundial-2026-horarios-y-canales-tv-online-nnda-nnrt-noticia/",
+          "source": "Diario Gestión"
+        },
+        {
+          "title": "No se guardará nada: Carlo Ancelotti reveló el once titular para el amistoso ante Panamá",
+          "url": "https://rpp.pe/futbol/futbol-mundial/seleccion-de-brasil-carlo-ancelotti-revelo-el-once-titular-en-el-amistoso-ante-panama-mundial-2026-noticia-1690803",
+          "source": "RPP"
+        },
+        {
+          "title": "Brasil vs Panamá pronostico y comparación de cuotas 31.05.2026",
+          "url": "https://www.livetipsportal.com/es/pronosticos-apuestas-deportivas/brasil-vs-panama-amistoso-internacional-11943311/",
+          "source": "Livetipsportal.com"
+        }
+      ]
+    },
+    {
+      "query": "kendry páez",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "‘Es quizás la gran bandera del talento sudamericano’, destaca la prensa de Uruguay, sobre Kendry Paéz, al que lo califica como una de las atracciones del Mundial 2026",
+          "url": "https://www.eluniverso.com/deportes/futbol/es-quizas-la-gran-bandera-del-talento-sudamericano-destaca-la-prensa-de-uruguay-sobre-kendry-paez-al-que-lo-califica-como-una-de-las-atracciones-del-mundial-2026-nota/",
+          "source": "El Universo"
+        },
+        {
+          "title": "Kendry Páez no merece ir al Mundial (y menos tener un cromo en el álbum de Panini), ¿qué hará Beccacece?",
+          "url": "https://www.primicias.ec/deportes/guapo-barra/kendry-paez-seleccion-mundial-cromo-album-panini-river-plate-beccacece-123873/",
+          "source": "Primicias"
+        },
+        {
+          "title": "Kendry Páez y el Mundial 2026: ¿por qué cuestionan su posible convocatoria?",
+          "url": "https://www.expreso.ec/deportes/kendry-paez-mundial-2026-cuestionan-posible-convocatoria-283598.html",
+          "source": "expreso.ec"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "es": [
+      {
+        "query": "santiago giménez",
+        "score": 1400,
+        "geos": [
+          "MX"
+        ],
+        "samples": [
+          {
+            "query": "santiago giménez",
+            "geo": "MX",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "Santiago Gimenez: \"Estamos listos para el Mundial\"",
+                "url": "https://www.espn.com.mx/futbol/selecciones/nota/_/id/16781506/mexico-santiago-gimenez-listos-mundial-2026",
+                "source": "ESPN México"
+              },
+              {
+                "title": "Santi Gimenez Mundial 2026: El \"Bebote\" quiere hacer historia en su primera Copa del Mundo",
+                "url": "https://www.mediotiempo.com/futbol/copa-mundial/santiago-gimenez-listo-para-su-primer-mundial-con-mexico-y-cargar-la-ofensiva-del-tri",
+                "source": "Mediotiempo"
+              },
+              {
+                "title": "Santiago Giménez ve ventaja para México en el Mundial 2026 por la afición, la altura y el Azteca",
+                "url": "https://www.elimparcial.com/deporte/2026/05/31/santiago-gimenez-ve-ventaja-para-mexico-en-el-mundial-2026-por-la-aficion-la-altura-y-el-azteca/",
+                "source": "El Imparcial"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "kendry páez",
+        "score": 400,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "kendry páez",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "‘Es quizás la gran bandera del talento sudamericano’, destaca la prensa de Uruguay, sobre Kendry Paéz, al que lo califica como una de las atracciones del Mundial 2026",
+                "url": "https://www.eluniverso.com/deportes/futbol/es-quizas-la-gran-bandera-del-talento-sudamericano-destaca-la-prensa-de-uruguay-sobre-kendry-paez-al-que-lo-califica-como-una-de-las-atracciones-del-mundial-2026-nota/",
+                "source": "El Universo"
+              },
+              {
+                "title": "Kendry Páez no merece ir al Mundial (y menos tener un cromo en el álbum de Panini), ¿qué hará Beccacece?",
+                "url": "https://www.primicias.ec/deportes/guapo-barra/kendry-paez-seleccion-mundial-cromo-album-panini-river-plate-beccacece-123873/",
+                "source": "Primicias"
+              },
+              {
+                "title": "Kendry Páez y el Mundial 2026: ¿por qué cuestionan su posible convocatoria?",
+                "url": "https://www.expreso.ec/deportes/kendry-paez-mundial-2026-cuestionan-posible-convocatoria-283598.html",
+                "source": "expreso.ec"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "brasil vs",
+        "score": 180,
+        "geos": [
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "brasil vs",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "¿A qué hora juega y en qué canal transmiten Panamá vs. Brasil EN VIVO hoy por amistoso a la Copa Mundial 2026? Horarios y canales tv online",
+                "url": "https://gestion.pe/mix/sports/a-que-hora-juega-y-en-que-canal-transmiten-panama-vs-brasil-en-vivo-hoy-por-amistoso-a-la-copa-mundial-2026-horarios-y-canales-tv-online-nnda-nnrt-noticia/",
+                "source": "Diario Gestión"
+              },
+              {
+                "title": "No se guardará nada: Carlo Ancelotti reveló el once titular para el amistoso ante Panamá",
+                "url": "https://rpp.pe/futbol/futbol-mundial/seleccion-de-brasil-carlo-ancelotti-revelo-el-once-titular-en-el-amistoso-ante-panama-mundial-2026-noticia-1690803",
+                "source": "RPP"
+              },
+              {
+                "title": "Brasil vs Panamá pronostico y comparación de cuotas 31.05.2026",
+                "url": "https://www.livetipsportal.com/es/pronosticos-apuestas-deportivas/brasil-vs-panama-amistoso-internacional-11943311/",
+                "source": "Livetipsportal.com"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "topic": "santiago giménez",
+      "type": "noticia",
+      "slugSuggestion": "santiago-gimenez",
+      "language": "es",
+      "geos": [
+        "MX"
+      ],
+      "score": 1680,
+      "reason": "Google Trends daily MX con 1,000 búsquedas · 3 artículos noticiosos referenciando \"santiago giménez\"",
+      "proposedPath": "/noticias/santiago-gimenez",
+      "evidence": [
+        {
+          "query": "santiago giménez",
+          "geo": "MX",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 1000,
+          "articles": [
+            {
+              "title": "Santiago Gimenez: \"Estamos listos para el Mundial\"",
+              "url": "https://www.espn.com.mx/futbol/selecciones/nota/_/id/16781506/mexico-santiago-gimenez-listos-mundial-2026",
+              "source": "ESPN México"
+            },
+            {
+              "title": "Santi Gimenez Mundial 2026: El \"Bebote\" quiere hacer historia en su primera Copa del Mundo",
+              "url": "https://www.mediotiempo.com/futbol/copa-mundial/santiago-gimenez-listo-para-su-primer-mundial-con-mexico-y-cargar-la-ofensiva-del-tri",
+              "source": "Mediotiempo"
+            },
+            {
+              "title": "Santiago Giménez ve ventaja para México en el Mundial 2026 por la afición, la altura y el Azteca",
+              "url": "https://www.elimparcial.com/deporte/2026/05/31/santiago-gimenez-ve-ventaja-para-mexico-en-el-mundial-2026-por-la-aficion-la-altura-y-el-azteca/",
+              "source": "El Imparcial"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "kendry páez",
+      "type": "noticia",
+      "slugSuggestion": "kendry-paez",
+      "language": "es",
+      "geos": [
+        "EC"
+      ],
+      "score": 480,
+      "reason": "Google Trends daily EC con 500 búsquedas · 3 artículos noticiosos referenciando \"kendry páez\"",
+      "proposedPath": "/noticias/kendry-paez",
+      "evidence": [
+        {
+          "query": "kendry páez",
+          "geo": "EC",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 500,
+          "articles": [
+            {
+              "title": "‘Es quizás la gran bandera del talento sudamericano’, destaca la prensa de Uruguay, sobre Kendry Paéz, al que lo califica como una de las atracciones del Mundial 2026",
+              "url": "https://www.eluniverso.com/deportes/futbol/es-quizas-la-gran-bandera-del-talento-sudamericano-destaca-la-prensa-de-uruguay-sobre-kendry-paez-al-que-lo-califica-como-una-de-las-atracciones-del-mundial-2026-nota/",
+              "source": "El Universo"
+            },
+            {
+              "title": "Kendry Páez no merece ir al Mundial (y menos tener un cromo en el álbum de Panini), ¿qué hará Beccacece?",
+              "url": "https://www.primicias.ec/deportes/guapo-barra/kendry-paez-seleccion-mundial-cromo-album-panini-river-plate-beccacece-123873/",
+              "source": "Primicias"
+            },
+            {
+              "title": "Kendry Páez y el Mundial 2026: ¿por qué cuestionan su posible convocatoria?",
+              "url": "https://www.expreso.ec/deportes/kendry-paez-mundial-2026-cuestionan-posible-convocatoria-283598.html",
+              "source": "expreso.ec"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alreadyCovered": [
+    {
+      "query": "brasil vs",
+      "matchUrl": "/ediciones/1950-brasil"
+    }
+  ]
+}
