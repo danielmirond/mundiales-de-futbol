@@ -38,65 +38,59 @@ export type NewsCategory =
   | 'curiosa';
 
 export type NewsItem = {
- /** Slug interno · usado en `/noticias/[slug]`. */
- slug: string;
- /** Título editorial propio (NO copiar textual del medio). */
- title: string;
- /** Resumen editorial propio en español, 40-60 palabras. */
- summary: string;
- /**
- * Cuerpo editorial propio en español (200-400 palabras), separado por
- * `\n\n` entre párrafos. NO traducción literal del medio. Aporta
- * contexto, datos verificados y opinión sutil.
- */
- body: string;
- /** Categoría para filtrado. */
- category: NewsCategory;
- /** Nombre del medio fuente. */
- sourceName: string;
- /** URL del artículo original (atribución obligatoria). */
- sourceUrl: string;
- /** Idioma del medio (no del resumen, que es ES). */
- sourceLang: 'es' | 'en' | 'pt' | 'fr';
- /** Fechas de publicación / actualización (ISO 8601). */
- publishedAt: string;
- modifiedAt?: string;
- /**
-  * Autor de la pieza (byline). Si es un nombre de persona se emite como
-  * `Person` en el schema (mejor E-E-A-T); si se omite, se usa la redacción.
-  */
- author?: string;
- /** Fuentes secundarias (atribución adicional, para verificación cruzada). */
- sourcesSecondary?: { name: string; url: string }[];
- /**
- * Imagen de portada (1200×675 ideal Discover-friendly).
- * Recomendado: Wikimedia Commons via `Special:FilePath` con licencia libre.
- * Si se omite, se usa el OG dinámico de marca como fallback.
- */
- image?: {
- url: string;
- alt: string;
- credit?: string;
- license?: string;
- };
- /**
-  * ID de YouTube del video destacado de la noticia (sin URL completa,
-  * solo el ID, ej. '982yoXq6Mgk'). Si está presente, la página de la
-  * noticia renderiza un iframe del video justo antes del body, y la
-  * VideoObject schema queda asociada a la pieza.
-  */
- youtubeVideoId?: string;
- /**
-  * Traducciones del contenido editorial. La página `/[locale]/noticias/[slug]`
-  * usa `i18n[locale]` si existe; si no, cae al español de `title`/`summary`/`body`.
-  * Solo es necesario rellenar los locales en los que queremos publicar
-  * versión traducida (la mayoría se quedan en español por ahora).
-  */
- i18n?: Partial<Record<'en' | 'fr' | 'pt' | 'ar', {
-   title: string;
-   summary: string;
-   body: string;
- }>>;
+  /** Slug interno · usado en `/noticias/[slug]`. */
+  slug: string;
+  /** Título editorial propio (NO copiar textual del medio). */
+  title: string;
+  /** Resumen editorial propio en español, 40-60 palabras. */
+  summary: string;
+  /**
+   * Cuerpo editorial propio en español (200-400 palabras), separado por
+   * `\n\n` entre párrafos. NO traducción literal del medio.
+   */
+  body: string;
+  /** Categoría para filtrado. */
+  category: NewsCategory;
+  /** Nombre del medio fuente. */
+  sourceName: string;
+  /** URL del artículo original (atribución obligatoria). */
+  sourceUrl: string;
+  /** Idioma del medio (no del resumen, que es ES). */
+  sourceLang: 'es' | 'en' | 'pt' | 'fr';
+  /** Fechas de publicación / actualización (ISO 8601). */
+  publishedAt: string;
+  modifiedAt?: string;
+  /**
+   * ID del autor humano (clave del catálogo `AUTHORS` en `src/lib/authors.ts`).
+   * Si se omite, se firma como redacción. E-E-A-T (Content Warehouse mayo 2024).
+   */
+  authorId?: string;
+  /** Byline libre (alternativa simple a `authorId`; si ambos faltan, redacción). */
+  author?: string;
+  /**
+   * Claves de entidades de `WIKIDATA_ENTITIES` mencionadas en la pieza.
+   * El JSON-LD `mentions` apunta a Wikidata + Wikipedia (Knowledge Graph).
+   */
+  mentionsEntities?: string[];
+  /** Fuentes secundarias (atribución adicional, para verificación cruzada). */
+  sourcesSecondary?: { name: string; url: string }[];
+  /**
+   * Imagen de portada (1200×675 ideal Discover-friendly). Si se omite, OG dinámico.
+   */
+  image?: {
+    url: string;
+    alt: string;
+    credit?: string;
+    license?: string;
+  };
+  /** ID de YouTube del video destacado (solo el ID). */
+  youtubeVideoId?: string;
+  /** Traducciones del contenido editorial por locale. */
+  i18n?: Partial<Record<'en' | 'fr' | 'pt' | 'ar', {
+    title: string;
+    summary: string;
+    body: string;
+  }>>;
 };
 
 /**

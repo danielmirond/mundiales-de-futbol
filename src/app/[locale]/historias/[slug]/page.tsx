@@ -13,6 +13,12 @@ import {
 } from '@/lib/historias';
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd } from '@/lib/seo';
+import { authorJsonLd } from '@/lib/authors';
+import {
+  sameAsForEntity,
+  getEntity,
+  findEntityByName,
+} from '@/lib/entities-wikidata';
 
 const CATEGORY_COLORS: Record<HistoriaCategory, { dot: string; text: string }> = {
   epica: { dot: 'bg-emerald-400', text: 'text-emerald-300' },
@@ -122,18 +128,61 @@ export default async function HistoriaPage({
       ? `${siteUrl}/historias/${historia.slug}`
       : `${siteUrl}/${locale}/historias/${historia.slug}`;
 
+  // Autor humano (E-E-A-T). Filtración Content Warehouse mayo 2024:
+  // `QualityAuthorshipAuthorAttributions` es señal de ranking.
+  const author = authorJsonLd(historia.authorId);
+
+  // `about` enriquecido: si el `protagonist` matchea con una entidad
+  // del catálogo Wikidata, añadimos `sameAs` apuntando al Knowledge
+  // Graph. Si no, fallback a Person genérico (como antes).
+  // También se admite override explícito vía `historia.mentionsEntities[0]`.
+  const aboutEntityKey =
+    historia.mentionsEntities?.[0] ?? findEntityByName(historia.protagonist);
+  const aboutEntity = aboutEntityKey ? getEntity(aboutEntityKey) : undefined;
+  const aboutSchemaType = aboutEntity
+    ? aboutEntity.kind === 'team'
+      ? 'SportsTeam'
+      : aboutEntity.kind === 'tournament'
+        ? 'SportsEvent'
+        : aboutEntity.kind === 'organization'
+          ? 'Organization'
+          : 'Person'
+    : 'Person';
+  const aboutObj: Record<string, unknown> = {
+    '@type': aboutSchemaType,
+    name: aboutEntity?.name ?? historia.protagonist,
+  };
+  if (aboutEntityKey) {
+    aboutObj.sameAs = sameAsForEntity(aboutEntityKey);
+  }
+
+  // Resto de entidades mencionadas (más allá del protagonista) → mentions.
+  const additionalMentions = (historia.mentionsEntities ?? [])
+    .slice(1) // ya consumida la primera como `about`
+    .map((key) => {
+      const e = getEntity(key);
+      if (!e) return null;
+      const sameAs = sameAsForEntity(key);
+      const t =
+        e.kind === 'team'
+          ? 'SportsTeam'
+          : e.kind === 'tournament'
+            ? 'SportsEvent'
+            : e.kind === 'organization'
+              ? 'Organization'
+              : 'Person';
+      return { '@type': t, name: e.name, sameAs };
+    })
+    .filter(Boolean);
+
   const jsonLd: Record<string, unknown> = {
     '@context': 'https://schema.org',
     '@type': 'NewsArticle',
     headline: historia.title,
     description: historia.excerpt,
     datePublished: historia.publishDate,
-    dateModified: historia.publishDate,
-    author: {
-      '@type': 'Organization',
-      name: 'Mundial de Fútbol',
-      url: siteUrl,
-    },
+    dateModified: historia.modifiedAt ?? historia.publishDate,
+    author,
     publisher: {
       '@type': 'Organization',
       name: 'Mundial de Fútbol',
@@ -146,16 +195,19 @@ export default async function HistoriaPage({
       },
     },
     mainEntityOfPage: { '@type': 'WebPage', '@id': articleUrl },
-    about: { '@type': 'Person', name: historia.protagonist },
+    about: aboutObj,
     citation: historia.source.url
       ? [{ '@type': 'CreativeWork', name: historia.source.name, url: historia.source.url }]
       : undefined,
   };
 
-  // Discover-friendly: ImageObject 1200×675 ratio 16:9 servido por
-  // el OG dinámico (`opengraph-image.tsx` adyacente). Esto garantiza
-  // el ratio correcto en lugar de declarar 1200×675 sobre la URL
-  // Wikimedia (que mantiene aspect ratio del archivo original).
+  // Entidades mencionadas → Knowledge Graph (Wikidata + Wikipedia).
+  if (additionalMentions.length > 0) {
+    jsonLd.mentions = additionalMentions;
+  }
+
+  // Discover-friendly: ImageObject 1200×675 servido por el OG dinámico
+  // (opengraph-image.tsx adyacente), que garantiza el ratio 16:9.
   const ogImageUrl =
     locale === routing.defaultLocale
       ? `${siteUrl}/historias/${historia.slug}/opengraph-image`

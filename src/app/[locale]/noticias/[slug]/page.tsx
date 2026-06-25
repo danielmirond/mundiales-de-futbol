@@ -21,6 +21,8 @@ import {
 } from '@/lib/news';
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl, SEO } from '@/lib/seo';
+import { authorJsonLd } from '@/lib/authors';
+import { sameAsForEntity, getEntity } from '@/lib/entities-wikidata';
 import { MovistarCintillo } from '@/components/affiliate/movistar-banner';
 import { DaznBanner } from '@/components/affiliate/dazn-banner';
 import { getMovistarLink } from '@/lib/movistar-match-links';
@@ -99,22 +101,36 @@ export default async function NoticiaDetail({
   const related = getRelatedNews(slug, 3);
   const url = localeUrl(locale, `/noticias/${item.slug}`);
 
-  // Movistar Plus+ match link (specific ficha or generic fallback)
+  // Autor humano (E-E-A-T) + entidades mencionadas con sameAs a Wikidata
+  // (filtración Content Warehouse, mayo 2024: autoría + Knowledge Graph).
+  const author = authorJsonLd(item.authorId);
+  const mentions = (item.mentionsEntities ?? [])
+    .map((key) => {
+      const e = getEntity(key);
+      if (!e) return null;
+      const sameAs = sameAsForEntity(key);
+      const schemaType =
+        e.kind === 'team'
+          ? 'SportsTeam'
+          : e.kind === 'tournament'
+            ? 'SportsEvent'
+            : e.kind === 'organization'
+              ? 'Organization'
+              : 'Person';
+      return { '@type': schemaType, name: e.name, sameAs };
+    })
+    .filter(Boolean);
+
+  // Movistar Plus+ (link de ficha o cintillo general en todos los artículos).
   const movistarLink = getMovistarLink(slug);
-  // El cintillo M+ se muestra en TODOS los artículos: en los de horario/TV
-  // con el link y thumbnail del partido, y en el resto con el cintillo general.
   const showMovistarCard = true;
 
-  // NewsArticle JSON-LD (recomendado para Google News y Discover).
-  // image: usamos la URL del OG dinámico (opengraph-image.tsx adyacente)
-  // que garantiza 1200×675, en lugar de la URL Wikimedia original que
-  // conserva el aspect ratio del archivo y suele NO ser 16:9.
+  // OG dinámico 1200×675 garantizado + sección editorial (Google News).
   const ogImageUrl = `${SEO.siteUrl}${
     locale === routing.defaultLocale
       ? `/noticias/${item.slug}/opengraph-image`
       : `/${locale}/noticias/${item.slug}/opengraph-image`
   }`;
-  // Mapeo de categoría → sección editorial (articleSection requerido por Google)
   const ARTICLE_SECTIONS: Record<string, string> = {
     convocatorias: 'Convocatorias',
     historica: 'Historia del fútbol',
@@ -131,7 +147,8 @@ export default async function NoticiaDetail({
     general: 'Mundial 2026',
   };
 
-  const newsArticleLd = {
+  // NewsArticle JSON-LD (Google News / Discover).
+  const newsArticleLd: Record<string, unknown> = {
     '@context': 'https://schema.org',
     '@type': 'NewsArticle',
     // Campos obligatorios Google News
@@ -172,12 +189,8 @@ export default async function NoticiaDetail({
       },
       sameAs: [SEO.siteUrl],
     },
-    // Author: Person si la pieza tiene firma; si no, la redacción (Organization).
-    author: [
-      item.author
-        ? { '@type': 'Person', name: item.author }
-        : { '@type': 'Organization', name: SEO.siteName, url: SEO.siteUrl },
-    ],
+    author,
+    ...(mentions.length ? { mentions } : {}),
     // Sección editorial (articleSection mejora clasificación en Google News)
     articleSection: ARTICLE_SECTIONS[item.category] ?? 'Mundial 2026',
     // Acceso libre (importante para Google News)
@@ -207,6 +220,10 @@ export default async function NoticiaDetail({
       })),
     ],
   };
+
+  if (mentions.length > 0) {
+    newsArticleLd.mentions = mentions;
+  }
 
   return (
     <article className="pt-32">

@@ -225,6 +225,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   out.push(entry('/contacto', now, 'yearly', 0.3));
   out.push(entry('/privacidad', now, 'yearly', 0.2));
   out.push(entry('/cookies', now, 'yearly', 0.2));
+  // Páginas editoriales (NewsMediaOrganization E-E-A-T)
+  out.push(entry('/politica-editorial', now, 'monthly', 0.5));
+  out.push(entry('/politica-correcciones', now, 'monthly', 0.4));
+  out.push(entry('/sobre-nosotros', now, 'monthly', 0.5));
 
   // Editions
   for (const t of TOURNAMENTS) {

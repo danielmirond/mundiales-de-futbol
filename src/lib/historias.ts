@@ -67,6 +67,14 @@ export type Historia = {
   n: number;
   slug: string;
   publishDate: string; // YYYY-MM-DD
+  /**
+   * Última edición (YYYY-MM-DD). Si una historia se reedita por
+   * corrección de dato, ampliación de fuente o reescritura editorial,
+   * actualizar este campo. Google trackea `lastUpdateTime` según la
+   * filtración Content Warehouse: una historia editada hace tres meses
+   * con `dateModified` reciente puede repuntar en frescura.
+   */
+  modifiedAt?: string;
   blockCode: HistoriaBlockCode;
   category: HistoriaCategory;
   protagonist: string;
@@ -80,6 +88,18 @@ export type Historia = {
   excerpt: string;
   body: string; // párrafos separados por \n\n
   cover?: HistoriaCover;
+  /**
+   * ID del autor humano (clave de `AUTHORS` en `src/lib/authors.ts`).
+   * Si se omite, fallback a Organization (Mundial de Fútbol). Ver
+   * doc de E-E-A-T en `authors.ts`.
+   */
+  authorId?: string;
+  /**
+   * Claves de entidades del catálogo `WIKIDATA_ENTITIES` mencionadas
+   * en la historia. JSON-LD `mentions` y `about` apuntarán a Wikidata
+   * + Wikipedia por cada una.
+   */
+  mentionsEntities?: string[];
 };
 
 export const HISTORIAS: Historia[] = [
