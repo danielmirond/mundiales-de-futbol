@@ -124,6 +124,58 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'paraguay-australia-resultado-mundial-2026',
+    title: "Paraguay 0-0 Australia: resultado, goles y estadísticas | Mundial 2026",
+    summary: "Empate 0-0 entre Paraguay y Australia en el Grupo D del Mundial 2026. Resultado, goles y estadísticas del partido.",
+    body: `**Paraguay** y **Australia** firmaron un **empate 0-0** en su partido del **Grupo D** del Mundial 2026, disputado el viernes 26 de junio en el Levi's Stadium (Santa Clara).
+
+## Estadísticas del partido
+
+- Posesión (%): **44.1** Paraguay · **55.9** Australia
+- Tiros: **7** Paraguay · **12** Australia
+- Tiros a puerta: **2** Paraguay · **5** Australia
+- Córners: **1** Paraguay · **3** Australia
+
+Tienes la **ficha completa** del partido —con alineaciones, todos los momentos clave y estadísticas ampliadas— en [Paraguay - Australia](/2026/partido/paraguay-australia). Consulta también el [historial entre ambas selecciones](/historial/australia-vs-paraguay) y la clasificación actualizada en [grupos](/2026/grupos).
+
+El Mundial 2026 se puede ver en España en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**, con partidos seleccionados en abierto en La 1 (RTVE).`,
+    category: 'general',
+    sourceName: "Mundiales de Fútbol · datos ESPN",
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-26T04:00:00Z',
+  },
+  {
+    slug: 'turquia-estados-unidos-resultado-mundial-2026',
+    title: "Turquía 3-2 Estados Unidos: resultado, goles y estadísticas | Mundial 2026",
+    summary: "Victoria de Turquía por 3-2 entre Turquía y Estados Unidos en el Grupo D del Mundial 2026. Resultado, goles y estadísticas del partido.",
+    body: `**Turquía** se impuso a **Estados Unidos** por **3-2** en el **Grupo D** del Mundial 2026, en un partido disputado el viernes 26 de junio en el SoFi Stadium (Inglewood).
+
+## Goles
+
+- **3'** Auston Trusty (Estados Unidos)
+- **10'** Arda Güler (Turquía)
+- **31'** Baris Alper Yilmaz (Turquía)
+- **49'** Sebastian Berhalter (Estados Unidos)
+- **90'+8'** Kaan Ayhan (Turquía)
+
+## Estadísticas del partido
+
+- Posesión (%): **47.5** Turquía · **52.5** Estados Unidos
+- Tiros: **9** Turquía · **18** Estados Unidos
+- Tiros a puerta: **3** Turquía · **7** Estados Unidos
+- Córners: **2** Turquía · **9** Estados Unidos
+
+Tienes la **ficha completa** del partido —con alineaciones, todos los momentos clave y estadísticas ampliadas— en [Turquía - Estados Unidos](/2026/partido/turquia-estados-unidos). Consulta también el [historial entre ambas selecciones](/historial/estados-unidos-vs-turquia) y la clasificación actualizada en [grupos](/2026/grupos).
+
+El Mundial 2026 se puede ver en España en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**, con partidos seleccionados en abierto en La 1 (RTVE).`,
+    category: 'general',
+    sourceName: "Mundiales de Fútbol · datos ESPN",
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-26T04:00:00Z',
+  },
+  {
     slug: 'japon-suecia-resultado-mundial-2026',
     title: "Japón 1-1 Suecia: resultado, goles y estadísticas | Mundial 2026",
     summary: "Empate 1-1 entre Japón y Suecia en el Grupo F del Mundial 2026. Resultado, goles y estadísticas del partido.",
