@@ -49,9 +49,10 @@ function Column({
 export default async function AlineacionesOg({
   params,
 }: {
-  params: { locale: string; slug: string };
+  params: Promise<{ locale: string; slug: string }>;
 }) {
-  const f = getFixtureBySlug(params.slug);
+  const { slug } = await params;
+  const f = getFixtureBySlug(slug);
   const hn = tName(f?.home, f?.label);
   const an = tName(f?.away);
 
