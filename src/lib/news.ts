@@ -124,6 +124,36 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'noruega-francia-resultado-mundial-2026',
+    title: "Noruega 1-4 Francia: resultado, goles y estadísticas | Mundial 2026",
+    summary: "Victoria de Francia por 1-4 entre Noruega y Francia en el Grupo I del Mundial 2026. Resultado, goles y estadísticas del partido.",
+    body: `**Francia** goleó a **Noruega** por **1-4** en el **Grupo I** del Mundial 2026, en un partido disputado el viernes 26 de junio en el Gillette Stadium (Foxborough).
+
+## Goles
+
+- **7'** Ousmane Dembélé (Francia)
+- **20'** Ousmane Dembélé (Francia)
+- **21'** Thelo Aasgaard (Noruega)
+- **32'** Ousmane Dembélé (Francia)
+- **90'+4'** Désiré Doué (Francia)
+
+## Estadísticas del partido
+
+- Posesión (%): **43.2** Noruega · **56.8** Francia
+- Tiros: **10** Noruega · **18** Francia
+- Tiros a puerta: **4** Noruega · **9** Francia
+- Córners: **4** Noruega · **5** Francia
+
+Tienes la **ficha completa** del partido —con alineaciones, todos los momentos clave y estadísticas ampliadas— en [Noruega - Francia](/2026/partido/noruega-francia). Consulta también el [historial entre ambas selecciones](/historial/francia-vs-noruega) y la clasificación actualizada en [grupos](/2026/grupos).
+
+El Mundial 2026 se puede ver en España en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**, con partidos seleccionados en abierto en La 1 (RTVE).`,
+    category: 'general',
+    sourceName: "Mundiales de Fútbol · datos ESPN",
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-26T21:00:00Z',
+  },
+  {
     slug: 'partidos-mundial-2026-hoy-2026-06-26',
     title: "Partidos del Mundial 2026 hoy, Viernes 26 de junio: horarios (hora España) y dónde ver, gratis en La 1 o en DAZN",
     summary: "Calendario de los 6 partidos del Mundial 2026 de hoy, viernes 26 de junio: horarios en hora española y dónde verlos. Hoy ningún partido en abierto en La 1: todos en DAZN / Movistar Plus+.",
