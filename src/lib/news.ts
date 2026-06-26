@@ -124,6 +124,62 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'japon-suecia-resultado-mundial-2026',
+    title: "Japón 1-1 Suecia: resultado, goles y estadísticas | Mundial 2026",
+    summary: "Empate 1-1 entre Japón y Suecia en el Grupo F del Mundial 2026. Resultado, goles y estadísticas del partido.",
+    body: `**Japón** y **Suecia** firmaron un **empate 1-1** en su partido del **Grupo F** del Mundial 2026, disputado el viernes 26 de junio en el AT&T Stadium (Arlington).
+
+## Goles
+
+- **56'** Daizen Maeda (Japón)
+- **62'** Anthony Elanga (Suecia)
+
+## Estadísticas del partido
+
+- Posesión (%): **52.3** Japón · **47.7** Suecia
+- Tiros: **8** Japón · **11** Suecia
+- Tiros a puerta: **3** Japón · **5** Suecia
+- Córners: **2** Japón · **8** Suecia
+
+Tienes la **ficha completa** del partido —con alineaciones, todos los momentos clave y estadísticas ampliadas— en [Japón - Suecia](/2026/partido/japon-suecia). Consulta también el [historial entre ambas selecciones](/historial/japon-vs-suecia) y la clasificación actualizada en [grupos](/2026/grupos).
+
+El Mundial 2026 se puede ver en España en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**, con partidos seleccionados en abierto en La 1 (RTVE).`,
+    category: 'general',
+    sourceName: "Mundiales de Fútbol · datos ESPN",
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-26T01:00:00Z',
+  },
+  {
+    slug: 'tunez-paises-bajos-resultado-mundial-2026',
+    title: "Túnez 1-3 Países Bajos: resultado, goles y estadísticas | Mundial 2026",
+    summary: "Victoria de Países Bajos por 1-3 entre Túnez y Países Bajos en el Grupo F del Mundial 2026. Resultado, goles y estadísticas del partido.",
+    body: `**Países Bajos** se impuso a **Túnez** por **1-3** en el **Grupo F** del Mundial 2026, en un partido disputado el viernes 26 de junio en el Arrowhead Stadium (Kansas City).
+
+## Goles
+
+- **3'** Ellyes Skhiri (Países Bajos)
+- **7'** Brian Brobbey (Países Bajos)
+- **54'** Hazem Mastouri (Túnez)
+- **62'** Jan Paul van Hecke (Países Bajos)
+
+## Estadísticas del partido
+
+- Posesión (%): **28.5** Túnez · **71.5** Países Bajos
+- Tiros: **10** Túnez · **20** Países Bajos
+- Tiros a puerta: **4** Túnez · **7** Países Bajos
+- Córners: **4** Túnez · **6** Países Bajos
+
+Tienes la **ficha completa** del partido —con alineaciones, todos los momentos clave y estadísticas ampliadas— en [Túnez - Países Bajos](/2026/partido/tunez-paises-bajos). Consulta también el [historial entre ambas selecciones](/historial/paises-bajos-vs-tunez) y la clasificación actualizada en [grupos](/2026/grupos).
+
+El Mundial 2026 se puede ver en España en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**, con partidos seleccionados en abierto en La 1 (RTVE).`,
+    category: 'general',
+    sourceName: "Mundiales de Fútbol · datos ESPN",
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-26T01:00:00Z',
+  },
+  {
     slug: 'partidos-mundial-2026-hoy-2026-06-25',
     title: "Partidos del Mundial 2026 hoy, Jueves 25 de junio: horarios (hora España) y dónde ver, gratis en La 1 o en DAZN",
     summary: "Calendario de los 6 partidos del Mundial 2026 de hoy, jueves 25 de junio: horarios en hora española y dónde verlos. Hoy en abierto y gratis en La 1: Escocia - Brasil. El resto, en DAZN / Movistar Plus+.",
