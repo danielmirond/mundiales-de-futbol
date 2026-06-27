@@ -124,6 +124,54 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'uruguay-espana-resultado-mundial-2026',
+    title: "Uruguay 0-1 España: resultado, goles y estadísticas | Mundial 2026",
+    summary: "Victoria de España por 0-1 entre Uruguay y España en el Grupo H del Mundial 2026. Resultado, goles y estadísticas del partido.",
+    body: `**España** se impuso a **Uruguay** por **0-1** en el **Grupo H** del Mundial 2026, en un partido disputado el sábado 27 de junio en el Estadio Akron (Guadalajara).
+
+## Goles
+
+- **42'** Álex Baena (España)
+
+## Estadísticas del partido
+
+- Posesión (%): **33** Uruguay · **67** España
+- Tiros: **5** Uruguay · **6** España
+- Tiros a puerta: **1** Uruguay · **1** España
+- Córners: **1** Uruguay · **6** España
+
+Tienes la **ficha completa** del partido —con alineaciones, todos los momentos clave y estadísticas ampliadas— en [Uruguay - España](/2026/partido/uruguay-espana). Consulta también el [historial entre ambas selecciones](/historial/espana-vs-uruguay) y la clasificación actualizada en [grupos](/2026/grupos).
+
+El Mundial 2026 se puede ver en España en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**, con partidos seleccionados en abierto en La 1 (RTVE).`,
+    category: 'general',
+    sourceName: "Mundiales de Fútbol · datos ESPN",
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-27T02:00:00Z',
+  },
+  {
+    slug: 'cabo-verde-arabia-saudi-resultado-mundial-2026',
+    title: "Cabo Verde 0-0 Arabia Saudí: resultado, goles y estadísticas | Mundial 2026",
+    summary: "Empate 0-0 entre Cabo Verde y Arabia Saudí en el Grupo H del Mundial 2026. Resultado, goles y estadísticas del partido.",
+    body: `**Cabo Verde** y **Arabia Saudí** firmaron un **empate 0-0** en su partido del **Grupo H** del Mundial 2026, disputado el sábado 27 de junio en el NRG Stadium (Houston).
+
+## Estadísticas del partido
+
+- Posesión (%): **51.2** Cabo Verde · **48.8** Arabia Saudí
+- Tiros: **15** Cabo Verde · **7** Arabia Saudí
+- Tiros a puerta: **2** Cabo Verde · **3** Arabia Saudí
+- Córners: **4** Cabo Verde · **2** Arabia Saudí
+
+Tienes la **ficha completa** del partido —con alineaciones, todos los momentos clave y estadísticas ampliadas— en [Cabo Verde - Arabia Saudí](/2026/partido/cabo-verde-arabia-saudi). Consulta también el [historial entre ambas selecciones](/historial/arabia-saudi-vs-cabo-verde) y la clasificación actualizada en [grupos](/2026/grupos).
+
+El Mundial 2026 se puede ver en España en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**, con partidos seleccionados en abierto en La 1 (RTVE).`,
+    category: 'general',
+    sourceName: "Mundiales de Fútbol · datos ESPN",
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-27T02:00:00Z',
+  },
+  {
     slug: 'noruega-francia-resultado-mundial-2026',
     title: "Noruega 1-4 Francia: resultado, goles y estadísticas | Mundial 2026",
     summary: "Victoria de Francia por 1-4 entre Noruega y Francia en el Grupo I del Mundial 2026. Resultado, goles y estadísticas del partido.",
