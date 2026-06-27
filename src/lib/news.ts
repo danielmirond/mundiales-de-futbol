@@ -124,6 +124,50 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'partidos-mundial-2026-hoy-2026-06-27',
+    title: "Partidos del Mundial 2026 hoy, Sábado 27 de junio: España juega, horarios y dónde ver gratis (La 1) o en DAZN",
+    summary: "Calendario de los 6 partidos del Mundial 2026 de hoy, sábado 27 de junio: horarios en hora española y dónde verlos. Hoy en abierto y gratis en La 1: Uruguay - España. El resto, en DAZN / Movistar Plus+.",
+    body: `Día grande para el aficionado español: **España se mide a Uruguay** dentro de la jornada de hoy, sábado 27 de junio, en el Mundial 2026. En total se disputan **6 partidos**, con sus horarios en hora española y dónde verlos.
+
+## Partidos de hoy en el Mundial 2026 (hora de España)
+
+- **[Cabo Verde - Arabia Saudí](/2026/partido/cabo-verde-arabia-saudi)** — 02:00 h · Grupo H · NRG Stadium (Houston) · 📺 [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026) / [Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial).
+- **[Uruguay - España](/2026/partido/uruguay-espana)** — 02:00 h · Grupo H · Estadio Akron (Guadalajara) · 📺 🆓 La 1 (RTVE) y [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026).
+- **[Nueva Zelanda - Bélgica](/2026/partido/nueva-zelanda-belgica)** — 05:00 h · Grupo G · BC Place (Vancouver) · 📺 [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026) / [Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial).
+- **[Egipto - Irán](/2026/partido/egipto-iran)** — 05:00 h · Grupo G · Lumen Field (Seattle) · 📺 [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026) / [Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial).
+- **[Panamá - Inglaterra](/2026/partido/panama-inglaterra)** — 23:00 h · Grupo L · MetLife Stadium (East Rutherford) · 📺 [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026) / [Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial).
+- **[Croacia - Ghana](/2026/partido/croacia-ghana)** — 23:00 h · Grupo L · Lincoln Financial Field (Philadelphia) · 📺 [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026) / [Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial).
+
+Todos los horarios están convertidos a **hora peninsular española**. Puedes ver la jornada al completo, con resultados en directo, en la página de [partidos de hoy](/2026/partidos-hoy) y en el [calendario del Mundial](/2026/calendario).
+
+## El partido destacado del día
+
+De todo el cartel, el **Uruguay - España** es el duelo más llamativo de la jornada y el que más expectación levanta entre los aficionados. Sigue la clasificación y los grupos actualizados en [grupos y clasificación](/2026/grupos).
+
+## Qué partidos se ven hoy gratis en La 1 (RTVE)
+
+RTVE emite hoy en **abierto y gratis** en **La 1** (también en RTVE Play, gratis online):
+
+- **Uruguay - España** — 02:00 h.
+
+## Qué partidos son solo de pago (DAZN / Movistar Plus+)
+
+El resto de partidos de hoy solo se pueden ver en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, disponible también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**:
+
+- **Cabo Verde - Arabia Saudí** — 02:00 h.
+- **Nueva Zelanda - Bélgica** — 05:00 h.
+- **Egipto - Irán** — 05:00 h.
+- **Panamá - Inglaterra** — 23:00 h.
+- **Croacia - Ghana** — 23:00 h.
+
+RTVE emite **34 partidos gratis** en total del Mundial 2026: los 3 de España en la fase de grupos, un partido destacado por jornada y toda la fase eliminatoria desde dieciseisavos (incluida la final). Los **104 partidos** están en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**. Desglose completo de plataformas, precios y partidos en abierto en [dónde ver el Mundial 2026](/2026/donde-ver).`,
+    category: 'tv',
+    sourceName: "Mundiales de Fútbol",
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-27T06:30:00Z',
+  },
+  {
     slug: 'egipto-iran-resultado-mundial-2026',
     title: "Egipto 1-1 Irán: resultado, goles y estadísticas | Mundial 2026",
     summary: "Empate 1-1 entre Egipto y Irán en el Grupo G del Mundial 2026. Resultado, goles y estadísticas del partido.",
