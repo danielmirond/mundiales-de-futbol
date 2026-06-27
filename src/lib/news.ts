@@ -124,6 +124,64 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'egipto-iran-resultado-mundial-2026',
+    title: "Egipto 1-1 Irán: resultado, goles y estadísticas | Mundial 2026",
+    summary: "Empate 1-1 entre Egipto y Irán en el Grupo G del Mundial 2026. Resultado, goles y estadísticas del partido.",
+    body: `**Egipto** y **Irán** firmaron un **empate 1-1** en su partido del **Grupo G** del Mundial 2026, disputado el sábado 27 de junio en el Lumen Field (Seattle).
+
+## Goles
+
+- **5'** Mahmoud Saber (Egipto)
+- **14'** Ramin Rezaeian (Irán)
+
+## Estadísticas del partido
+
+- Posesión (%): **61.3** Egipto · **38.7** Irán
+- Tiros: **15** Egipto · **13** Irán
+- Tiros a puerta: **3** Egipto · **4** Irán
+- Córners: **8** Egipto · **2** Irán
+
+Tienes la **ficha completa** del partido —con alineaciones, todos los momentos clave y estadísticas ampliadas— en [Egipto - Irán](/2026/partido/egipto-iran). Consulta también el [historial entre ambas selecciones](/historial/egipto-vs-iran) y la clasificación actualizada en [grupos](/2026/grupos).
+
+El Mundial 2026 se puede ver en España en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**, con partidos seleccionados en abierto en La 1 (RTVE).`,
+    category: 'general',
+    sourceName: "Mundiales de Fútbol · datos ESPN",
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-27T05:00:00Z',
+  },
+  {
+    slug: 'nueva-zelanda-belgica-resultado-mundial-2026',
+    title: "Nueva Zelanda 1-5 Bélgica: resultado, goles y estadísticas | Mundial 2026",
+    summary: "Victoria de Bélgica por 1-5 entre Nueva Zelanda y Bélgica en el Grupo G del Mundial 2026. Resultado, goles y estadísticas del partido.",
+    body: `**Bélgica** goleó a **Nueva Zelanda** por **1-5** en el **Grupo G** del Mundial 2026, en un partido disputado el sábado 27 de junio en el BC Place (Vancouver).
+
+## Goles
+
+- **28'** Leandro Trossard (Bélgica)
+- **50'** Leandro Trossard (Bélgica)
+- **66'** Kevin De Bruyne (Bélgica)
+- **84'** Elijah Just (Nueva Zelanda)
+- **86'** Romelu Lukaku (Bélgica)
+- **90'+4'** Alexis Saelemaekers (Bélgica)
+
+## Estadísticas del partido
+
+- Posesión (%): **45.4** Nueva Zelanda · **54.6** Bélgica
+- Tiros: **6** Nueva Zelanda · **35** Bélgica
+- Tiros a puerta: **2** Nueva Zelanda · **10** Bélgica
+- Córners: **5** Nueva Zelanda · **8** Bélgica
+
+Tienes la **ficha completa** del partido —con alineaciones, todos los momentos clave y estadísticas ampliadas— en [Nueva Zelanda - Bélgica](/2026/partido/nueva-zelanda-belgica). Consulta también el [historial entre ambas selecciones](/historial/belgica-vs-nueva-zelanda) y la clasificación actualizada en [grupos](/2026/grupos).
+
+El Mundial 2026 se puede ver en España en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**, con partidos seleccionados en abierto en La 1 (RTVE).`,
+    category: 'general',
+    sourceName: "Mundiales de Fútbol · datos ESPN",
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-27T05:00:00Z',
+  },
+  {
     slug: 'uruguay-espana-resultado-mundial-2026',
     title: "Uruguay 0-1 España: resultado, goles y estadísticas | Mundial 2026",
     summary: "Victoria de España por 0-1 entre Uruguay y España en el Grupo H del Mundial 2026. Resultado, goles y estadísticas del partido.",
