@@ -124,6 +124,115 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'jordania-argentina-resultado-mundial-2026',
+    title: "Jordania 1-3 Argentina: resultado, goles y estadísticas | Mundial 2026",
+    summary: "Victoria de Argentina por 1-3 entre Jordania y Argentina en el Grupo J del Mundial 2026. Resultado, goles y estadísticas del partido.",
+    body: `**Argentina** se impuso a **Jordania** por **1-3** en el **Grupo J** del Mundial 2026, en un partido disputado el domingo 28 de junio en el AT&T Stadium (Arlington).
+
+## Goles
+
+- **19'** Giovani Lo Celso (Argentina)
+- **55'** Mousa Al-Tamari (Jordania)
+- **80'** Lionel Messi (Argentina)
+
+## Estadísticas del partido
+
+- Posesión (%): **26.7** Jordania · **73.3** Argentina
+- Tiros: **5** Jordania · **12** Argentina
+- Tiros a puerta: **1** Jordania · **4** Argentina
+- Córners: **2** Jordania · **6** Argentina
+
+Tienes la **ficha completa** del partido —con alineaciones, todos los momentos clave y estadísticas ampliadas— en [Jordania - Argentina](/2026/partido/jordania-argentina). Consulta también el [historial entre ambas selecciones](/historial/argentina-vs-jordania) y la clasificación actualizada en [grupos](/2026/grupos).
+
+El Mundial 2026 se puede ver en España en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**, con partidos seleccionados en abierto en La 1 (RTVE).`,
+    category: 'general',
+    sourceName: "Mundiales de Fútbol · datos ESPN",
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-28T04:00:00Z',
+  },
+  {
+    slug: 'argelia-austria-resultado-mundial-2026',
+    title: "Argelia 3-3 Austria: resultado, goles y estadísticas | Mundial 2026",
+    summary: "Empate 3-3 entre Argelia y Austria en el Grupo J del Mundial 2026. Resultado, goles y estadísticas del partido.",
+    body: `**Argelia** y **Austria** firmaron un **empate 3-3** en su partido del **Grupo J** del Mundial 2026, disputado el domingo 28 de junio en el Arrowhead Stadium (Kansas City).
+
+## Goles
+
+- **28'** Marko Arnautovic (Austria)
+- **45'** Rafik Belghali (Argelia)
+- **55'** Marcel Sabitzer (Austria)
+- **60'** Riyad Mahrez (Argelia)
+- **90'+3'** Riyad Mahrez (Argelia)
+- **90'+6'** Sasa Kalajdzic (Austria)
+
+## Estadísticas del partido
+
+- Posesión (%): **65.1** Argelia · **34.9** Austria
+- Tiros: **12** Argelia · **10** Austria
+- Tiros a puerta: **5** Argelia · **3** Austria
+- Córners: **0** Argelia · **3** Austria
+
+Tienes la **ficha completa** del partido —con alineaciones, todos los momentos clave y estadísticas ampliadas— en [Argelia - Austria](/2026/partido/argelia-austria). Consulta también el [historial entre ambas selecciones](/historial/argelia-vs-austria) y la clasificación actualizada en [grupos](/2026/grupos).
+
+El Mundial 2026 se puede ver en España en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**, con partidos seleccionados en abierto en La 1 (RTVE).`,
+    category: 'general',
+    sourceName: "Mundiales de Fútbol · datos ESPN",
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-28T04:00:00Z',
+  },
+  {
+    slug: 'rd-del-congo-uzbekistan-resultado-mundial-2026',
+    title: "RD del Congo 3-1 Uzbekistán: resultado, goles y estadísticas | Mundial 2026",
+    summary: "Victoria de RD del Congo por 3-1 entre RD del Congo y Uzbekistán en el Grupo K del Mundial 2026. Resultado, goles y estadísticas del partido.",
+    body: `**RD del Congo** se impuso a **Uzbekistán** por **3-1** en el **Grupo K** del Mundial 2026, en un partido disputado el domingo 28 de junio en el Mercedes-Benz Stadium (Atlanta).
+
+## Goles
+
+- **10'** Eldor Shomurodov (Uzbekistán)
+- **78'** Fiston Mayele (RD del Congo)
+- **90'+1'** Yoane Wissa (RD del Congo)
+
+## Estadísticas del partido
+
+- Posesión (%): **57.6** RD del Congo · **42.4** Uzbekistán
+- Tiros: **19** RD del Congo · **3** Uzbekistán
+- Tiros a puerta: **4** RD del Congo · **1** Uzbekistán
+- Córners: **2** RD del Congo · **4** Uzbekistán
+
+Tienes la **ficha completa** del partido —con alineaciones, todos los momentos clave y estadísticas ampliadas— en [RD del Congo - Uzbekistán](/2026/partido/rd-del-congo-uzbekistan). Consulta también el [historial entre ambas selecciones](/historial/rd-del-congo-vs-uzbekistan) y la clasificación actualizada en [grupos](/2026/grupos).
+
+El Mundial 2026 se puede ver en España en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**, con partidos seleccionados en abierto en La 1 (RTVE).`,
+    category: 'general',
+    sourceName: "Mundiales de Fútbol · datos ESPN",
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-28T01:30:00Z',
+  },
+  {
+    slug: 'colombia-portugal-resultado-mundial-2026',
+    title: "Colombia 0-0 Portugal: resultado, goles y estadísticas | Mundial 2026",
+    summary: "Empate 0-0 entre Colombia y Portugal en el Grupo K del Mundial 2026. Resultado, goles y estadísticas del partido.",
+    body: `**Colombia** y **Portugal** firmaron un **empate 0-0** en su partido del **Grupo K** del Mundial 2026, disputado el domingo 28 de junio en el Hard Rock Stadium (Miami Gardens).
+
+## Estadísticas del partido
+
+- Posesión (%): **54.6** Colombia · **45.4** Portugal
+- Tiros: **24** Colombia · **13** Portugal
+- Tiros a puerta: **6** Colombia · **2** Portugal
+- Córners: **5** Colombia · **2** Portugal
+
+Tienes la **ficha completa** del partido —con alineaciones, todos los momentos clave y estadísticas ampliadas— en [Colombia - Portugal](/2026/partido/colombia-portugal). Consulta también el [historial entre ambas selecciones](/historial/colombia-vs-portugal) y la clasificación actualizada en [grupos](/2026/grupos).
+
+El Mundial 2026 se puede ver en España en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**, con partidos seleccionados en abierto en La 1 (RTVE).`,
+    category: 'general',
+    sourceName: "Mundiales de Fútbol · datos ESPN",
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-06-28T01:30:00Z',
+  },
+  {
     slug: 'partidos-mundial-2026-hoy-2026-06-27',
     title: "Partidos del Mundial 2026 hoy, Sábado 27 de junio: España juega, horarios y dónde ver gratis (La 1) o en DAZN",
     summary: "Calendario de los 6 partidos del Mundial 2026 de hoy, sábado 27 de junio: horarios en hora española y dónde verlos. Hoy en abierto y gratis en La 1: Uruguay - España. El resto, en DAZN / Movistar Plus+.",
