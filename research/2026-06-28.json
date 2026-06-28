@@ -1,0 +1,3446 @@
+{
+  "generatedAt": "2026-06-28T09:41:38.055Z",
+  "date": "2026-06-28",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "posiciones de selección de fútbol de argelia contra selección de fútbol de austria",
+      "geo": "US",
+      "language": "en",
+      "source": "google-trends-daily",
+      "score": 20000,
+      "articles": [
+        {
+          "title": "Así quedaron los 16avos del Mundial 2026: el ranking de los 16 cruces confirmados",
+          "url": "https://www.si.com/es-us/futbol/asi-quedaron-los-16avos-del-mundial-2026-el-ranking-de-los-16-cruces-confirmados",
+          "source": "Sports Illustrated"
+        },
+        {
+          "title": "Así queda el cuadro de dieciseisavos del Mundial 2026: todos los cruces y selecciones clasificadas",
+          "url": "https://www.marca.com/futbol/mundial/2026/06/27/asi-cuadro-dieciseisavos-mundial-directo-cruces-calendario-clasificados-eliminados.html",
+          "source": "MARCA"
+        },
+        {
+          "title": "Thomas Tuchel celebra la clasificación de Inglaterra a 16vos",
+          "url": "https://www.telemundo.com/deportes/copa-mundial-de-la-fifa-2026/video/thomas-tuchel-celebra-la-clasificacion-de-inglaterra-a-16vos-tmvo13198146",
+          "source": "Telemundo"
+        }
+      ]
+    },
+    {
+      "query": "paises bajos vs marruecos",
+      "geo": "MX",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Cuándo juegan Países Bajos vs. Marruecos por los 16avos del Mundial 2026: equipo, fecha, hora y TV en vivo",
+          "url": "https://www.espn.com.mx/futbol/mundial/nota/_/id/16913302/paises-bajos-vs-marruecos-16avos-mundial-2026-equipo-fecha-hora-y-tv-en-vivo",
+          "source": "ESPN México"
+        },
+        {
+          "title": "¡Partidazo! Países Bajos y Marruecos chocarán en Monterrey",
+          "url": "https://www.telemundo.com/deportes/copa-mundial-de-la-fifa-2026/partidazo-paises-bajos-y-marruecos-chocaran-en-monterrey-rcna352060",
+          "source": "Telemundo"
+        },
+        {
+          "title": "Feliz Janssen por visita de la &apos;Oranje&apos; a Monterrey",
+          "url": "https://www.elnorte.com/feliz-janssen-por-visita-de-la-oranje-a-monterrey/ar3230316",
+          "source": "El Norte"
+        }
+      ]
+    },
+    {
+      "query": "paises eliminados del mundial 2026",
+      "geo": "MX",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "World Cup: Grades for every eliminated team as they exit the tournament",
+          "url": "https://www.espn.com/soccer/story/_/id/49178425/world-cup-grades-every-eliminated-team-rating-exit-tournament",
+          "source": "ESPN"
+        },
+        {
+          "title": "Ranking All 32 Teams Left in the 2026 World Cup",
+          "url": "https://www.si.com/soccer/ranking-all-32-teams-left-2026-world-cup",
+          "source": "Sports Illustrated"
+        },
+        {
+          "title": "Which teams are eliminated from World Cup? Updated bracket ahead of Round of 32",
+          "url": "https://www.usatoday.com/story/sports/soccer/worldcup/2026/06/26/world-cup-eliminated-teams-round-32/90706269007/",
+          "source": "USA Today"
+        }
+      ]
+    },
+    {
+      "query": "iran mundial 2026",
+      "geo": "MX",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "“Esta es una Copa del Mundo desastrosa\", Mehdi Tarem, capitán de Irán",
+          "url": "https://www.jornada.com.mx/noticia/2026/06/27/mundial/solo-con-honor-se-puede-mantener-la-cabeza-alta-dice-iran-en-nota-tras-partido-ante-egipto",
+          "source": "La Jornada"
+        },
+        {
+          "title": "El sufrimiento de Irán en el Mundial 2026",
+          "url": "https://www.reforma.com/el-sufrimiento-de-iran-en-el-mundial-2026/ar3230807",
+          "source": "Reforma"
+        },
+        {
+          "title": "Aman México, pero Taremi explota ante FIFA por el mal trato a Irán en Mundial: \"Hacen todo para eliminarnos\"",
+          "url": "https://www.marca.com/mx/futbol/mundial/2026/06/27/6a400f9be2704edd148b458d.html",
+          "source": "MARCA"
+        }
+      ]
+    },
+    {
+      "query": "lionel messi",
+      "geo": "MX",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 20000,
+      "articles": [
+        {
+          "title": "FIFA World Cup Group J LIVE: Jordan vs Argentina - build-up, team news, TV coverage & live text commentary",
+          "url": "https://www.bbc.com/sport/football/live/c20ye67xgykt",
+          "source": "BBC"
+        },
+        {
+          "title": "Lionel Messi scores free kick to break another World Cup record as Argentina beat Jordan: Live updates and reaction",
+          "url": "https://www.nytimes.com/athletic/live-blogs/jordan-argentina-messi-score-result-match-time/Gs0oFLN9UhCW/",
+          "source": "The New York Times"
+        },
+        {
+          "title": "Jordan vs Argentina, Algeria vs Austria LIVE! World Cup 2026 Group J fixtures, scores, live updates and team news",
+          "url": "https://www.skysports.com/football/live-blog/12309/13557088/jordan-vs-argentina-algeria-vs-austria-live-world-cup-2026-group-j-fixtures-scores-live-updates-and-team-news",
+          "source": "Sky Sports"
+        }
+      ]
+    },
+    {
+      "query": "iran fifa",
+      "geo": "CA",
+      "language": "en",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "‘This must never happen again’: Iran coach hits out at the US and tells Infantino to stand up against hosts",
+          "url": "https://www.theguardian.com/football/2026/jun/27/this-must-never-happen-again-iran-coach-hits-out-at-the-us-and-tells-infantino-to-stand-up-against-hosts",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Iran urge FIFA to stand up to ‘really terrible’ World Cup treatment by US",
+          "url": "https://www.aljazeera.com/sports/2026/6/27/iran-urge-fifa-to-stand-up-to-really-terrible-world-cup-treatment-by-us",
+          "source": "Al Jazeera"
+        },
+        {
+          "title": "World Cup 2026: Iran say they have been treated unfairly by USA",
+          "url": "https://www.bbc.com/sport/football/articles/cze98ywdwlgo",
+          "source": "BBC"
+        }
+      ]
+    },
+    {
+      "query": "lionel messi",
+      "geo": "AR",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 20000,
+      "articles": [
+        {
+          "title": "FIFA World Cup Group J LIVE: Jordan vs Argentina - build-up, team news, TV coverage & live text commentary",
+          "url": "https://www.bbc.com/sport/football/live/c20ye67xgykt",
+          "source": "BBC"
+        },
+        {
+          "title": "Jordan 1-3 Argentina Stats: Messi Scores Again to Make More World Cup History",
+          "url": "https://theanalyst.com/articles/jordan-vs-argentina-stats-world-cup-2026",
+          "source": "Opta Analyst"
+        },
+        {
+          "title": "Lionel Messi scores free kick to break another World Cup record as Argentina beat Jordan: Live updates and reaction",
+          "url": "https://www.nytimes.com/athletic/live-blogs/jordan-argentina-messi-score-result-match-time/Gs0oFLN9UhCW/",
+          "source": "The New York Times"
+        }
+      ]
+    },
+    {
+      "query": "dembele",
+      "geo": "AR",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Mundial 2026: con triplete de Dembélé, Francia batió a una Noruega sin Haaland",
+          "url": "https://www.pagina12.com.ar/2026/06/26/mundial-2026-con-triplete-de-dembele-francia-batio-a-una-noruega-sin-haaland/",
+          "source": "Página|12"
+        },
+        {
+          "title": "Dembélé desata sus goles rumbo a Suecia",
+          "url": "https://www.tycsports.com/polideportivo/dembele-desata-sus-goles-rumbo-a-suecia-id746509.html",
+          "source": "TyC Sports"
+        },
+        {
+          "title": "Guy Stéphan dedica el triunfo a Deschamps: \"Estamos deseando verle\"",
+          "url": "https://www.lanacion.com.ar/estados-unidos/guy-stephan-dedica-el-triunfo-a-deschamps-estamos-deseando-verle-nid26062026/",
+          "source": "La Nación"
+        }
+      ]
+    },
+    {
+      "query": "fifa world cup 2026™",
+      "geo": "AR",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "World Cup: Grades for every eliminated team as they exit the tournament",
+          "url": "https://www.espn.com/soccer/story/_/id/49178425/world-cup-grades-every-eliminated-team-rating-exit-tournament",
+          "source": "ESPN"
+        },
+        {
+          "title": "Ranking All 32 Teams Left in the 2026 World Cup",
+          "url": "https://www.si.com/soccer/ranking-all-32-teams-left-2026-world-cup",
+          "source": "Sports Illustrated"
+        },
+        {
+          "title": "Which teams are eliminated from World Cup? Updated bracket ahead of Round of 32",
+          "url": "https://www.usatoday.com/story/sports/soccer/worldcup/2026/06/26/world-cup-eliminated-teams-round-32/90706269007/",
+          "source": "USA Today"
+        }
+      ]
+    },
+    {
+      "query": "goleadores del mundial 2026",
+      "geo": "CO",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Así está la tabla de goleadores del Mundial 2026",
+          "url": "https://cnnespanol.cnn.com/2026/06/26/deportes/tabla-goleadores-mundial-2026-orix",
+          "source": "CNN en Español"
+        },
+        {
+          "title": "No tenía botines, lo premiaron con un fusil y se retiró a los 28 años: Just Fontaine, el dueño del récord imposible que Messi busca romper",
+          "url": "https://www.infobae.com/deportes/2026/06/27/no-tenia-botines-lo-premiaron-con-un-fusil-y-se-retiro-a-los-28-anos-just-fontaine-el-dueno-del-record-imposible-que-messi-busca-romper/",
+          "source": "Infobae"
+        },
+        {
+          "title": "Messi, Mbappé y Klose son los máximos goleadores de los mundiales",
+          "url": "https://www.larepublica.co/ocio/messi-mbappe-y-klose-son-los-maximos-goleadores-de-los-mundiales-4424705",
+          "source": "LaRepublica.co"
+        }
+      ]
+    },
+    {
+      "query": "posiciones de selección de fútbol de argelia contra selección de fútbol de austria",
+      "geo": "CO",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 50000,
+      "articles": [
+        {
+          "title": "Locura en el 96′: Austria, rival de España",
+          "url": "https://as.com/futbol/mundial/locura-en-el-96-austria-rival-de-espana-f202606-n/",
+          "source": "Diario AS"
+        },
+        {
+          "title": "Agónico empate entre Austria y Argelia clasifica a ambas selecciones a dieciseisavos de final del Mundial 2026",
+          "url": "https://www.eltiempo.com/deportes/futbol-internacional/agonico-empate-entre-austria-y-argelia-clasifica-a-ambas-selecciones-a-dieciseisavos-de-final-del-mundial-3567628",
+          "source": "ELTIEMPO.com"
+        },
+        {
+          "title": "Argelia rozó el gol con un disparo al palo ante Austria",
+          "url": "https://www.winsports.co/futbol-internacional/noticias/argelia-rozo-el-gol-con-un-disparo-al-palo-ante-austria-442126",
+          "source": "Win Sports"
+        }
+      ]
+    },
+    {
+      "query": "sudafrica vs canada",
+      "geo": "CO",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Cuándo juegan Canadá vs. Sudáfrica por los 16avos del Mundial 2026: equipo, fecha, hora y TV en vivo",
+          "url": "https://www.espn.com.co/futbol/mundial/nota/_/id/16912341/canada-vs-sudafrica-16avos-mundial-2026-equipo-fecha-hora-y-tv-en-vivo",
+          "source": "ESPN Colombia"
+        },
+        {
+          "title": "Sudáfrica se mide a Canadá por el primer boleto a los octavos de final del Mundial: día, hora y por dónde ver",
+          "url": "https://www.eltiempo.com/deportes/futbol-internacional/sudafrica-se-mide-a-canada-por-el-primer-boleto-a-los-octavos-de-final-del-mundial-dia-hora-y-por-donde-ver-3567578",
+          "source": "ELTIEMPO.com"
+        },
+        {
+          "title": "Mundial 2026, últimas noticias en directo | Canadá y Sudáfrica inauguran dieciseisavos",
+          "url": "https://elpais.com/deportes/mundial-futbol/2026-06-28/resumen-y-ultimas-noticias-de-la-copa-mundial-de-futbol.html",
+          "source": "EL PAÍS"
+        }
+      ]
+    },
+    {
+      "query": "barco argentina",
+      "geo": "CO",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Sin Leo, pero con Lea: Paredes se vistió de Messi en la medular",
+          "url": "https://www.marca.com/futbol/mundial/2026/06/28/leo-lea-paredes-vistio-messi-medular.html",
+          "source": "MARCA"
+        },
+        {
+          "title": "El veinticinqueño Valentín Barco debutó en un Mundial aprovechando la rotación de Argentina vs. Jordania",
+          "url": "https://www.lanoticia1.com/noticia/el-veinticinqueno-valentin-barco-debuto-en-un-mundial-aprovechando-la-rotacion-de-argentina-versus-jordania",
+          "source": "La Noticia 1"
+        },
+        {
+          "title": "Boca en el Mundial 2026: Paredes lideró la orquesta de Argentina y debutó el Colo Barco",
+          "url": "https://planetabj.com/seleccion-argentina/boca-en-el-mundial-2026-paredes-lidero-la-orquesta-de-argentina-y-debuto-el-colo-barco/",
+          "source": "Planeta Boca Juniors"
+        }
+      ]
+    },
+    {
+      "query": "lionel messi",
+      "geo": "CO",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 10000,
+      "articles": [
+        {
+          "title": "FIFA World Cup Group J LIVE: Jordan vs Argentina - build-up, team news, TV coverage & live text commentary",
+          "url": "https://www.bbc.com/sport/football/live/c20ye67xgykt",
+          "source": "BBC"
+        },
+        {
+          "title": "Jordan 1-3 Argentina Stats: Messi Scores Again to Make More World Cup History",
+          "url": "https://theanalyst.com/articles/jordan-vs-argentina-stats-world-cup-2026",
+          "source": "Opta Analyst"
+        },
+        {
+          "title": "Every goal of Lionel Messi’s record-breaking run of SEVEN consecutive World Cup matches",
+          "url": "https://onefootball.com/fr/news/every-goal-of-lionel-messis-record-breaking-run-of-seven-consecutive-world-cup-matches-43067999",
+          "source": "OneFootball"
+        }
+      ]
+    },
+    {
+      "query": "lionel messi",
+      "geo": "CL",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 5000,
+      "articles": [
+        {
+          "title": "FIFA World Cup Group J LIVE: Jordan vs Argentina - build-up, team news, TV coverage & live text commentary",
+          "url": "https://www.bbc.com/sport/football/live/c20ye67xgykt",
+          "source": "BBC"
+        },
+        {
+          "title": "Every goal of Lionel Messi’s record-breaking run of SEVEN consecutive World Cup matches",
+          "url": "https://onefootball.com/fr/news/every-goal-of-lionel-messis-record-breaking-run-of-seven-consecutive-world-cup-matches-43067999",
+          "source": "OneFootball"
+        },
+        {
+          "title": "An assist from the most unlikely source!",
+          "url": "https://www.foxsports.com/watch-vertical/fmc-ddnb3e8krznoekm0",
+          "source": "FOX Sports"
+        }
+      ]
+    },
+    {
+      "query": "valentín barco",
+      "geo": "CL",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Sin Leo, pero con Lea: Paredes se vistió de Messi en la medular",
+          "url": "https://www.marca.com/futbol/mundial/2026/06/28/leo-lea-paredes-vistio-messi-medular.html",
+          "source": "MARCA"
+        },
+        {
+          "title": "El veinticinqueño Valentín Barco debutó en un Mundial aprovechando la rotación de Argentina vs. Jordania",
+          "url": "https://www.lanoticia1.com/noticia/el-veinticinqueno-valentin-barco-debuto-en-un-mundial-aprovechando-la-rotacion-de-argentina-versus-jordania",
+          "source": "La Noticia 1"
+        },
+        {
+          "title": "Boca en el Mundial 2026: Paredes lideró la orquesta de Argentina y debutó el Colo Barco",
+          "url": "https://planetabj.com/seleccion-argentina/boca-en-el-mundial-2026-paredes-lidero-la-orquesta-de-argentina-y-debuto-el-colo-barco/",
+          "source": "Planeta Boca Juniors"
+        }
+      ]
+    },
+    {
+      "query": "algeria vs austria",
+      "geo": "CL",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "Algeria and Austria&apos;s dramatic draw sends Iran out of World Cup",
+          "url": "https://www.espn.com/soccer/story/_/id/49203568/algeria-austria-iran-2026-world-cup-draw-advance-eliminated",
+          "source": "ESPN"
+        },
+        {
+          "title": "The World Cup game that no one wants to win",
+          "url": "https://edition.cnn.com/2026/06/27/sport/the-beautiful-game-june-27",
+          "source": "CNN"
+        },
+        {
+          "title": "Algeria vs Austria Extended Highlights | 2026 FIFA World Cup™",
+          "url": "https://www.foxsports.com/watch/fmc-z00ebnzhnz3yr4gx",
+          "source": "FOX Sports"
+        }
+      ]
+    },
+    {
+      "query": "posiciones de selección de fútbol de argelia contra selección de fútbol de austria",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 50000,
+      "articles": [
+        {
+          "title": "Locura en el 96′: Austria, rival de España",
+          "url": "https://as.com/futbol/mundial/locura-en-el-96-austria-rival-de-espana-f202606-n/",
+          "source": "Diario AS"
+        },
+        {
+          "title": "Video, goles y mejores jugadas: Argelia vs. Austria (3-3), por el Mundial 2026",
+          "url": "https://depor.com/futbol-internacional/mundial/futbol-libre-tv-en-vivo-gratis-como-ver-argelia-vs-austria-en-directo-directv-espn-disney-plus-dsports-dgo-por-internet-mundial-2026-video-noticia/",
+          "source": "Depor"
+        },
+        {
+          "title": "Austria jugara con España tras empatar 3-3 con Argelia, que también llega a 16avos",
+          "url": "https://cnnespanol.cnn.com/2026/06/28/deportes/mundial-2026-austria-empate-argelia-efe",
+          "source": "CNN en Español"
+        }
+      ]
+    },
+    {
+      "query": "lionel messi",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 5000,
+      "articles": [
+        {
+          "title": "FIFA World Cup Group J LIVE: Jordan vs Argentina - build-up, team news, TV coverage & live text commentary",
+          "url": "https://www.bbc.com/sport/football/live/c20ye67xgykt",
+          "source": "BBC"
+        },
+        {
+          "title": "Jordan 1-3 Argentina Stats: Messi Scores Again to Make More World Cup History",
+          "url": "https://theanalyst.com/articles/jordan-vs-argentina-stats-world-cup-2026",
+          "source": "Opta Analyst"
+        },
+        {
+          "title": "Lionel Messi becomes top scorer in World Cup history with 2 more goals for Argentina",
+          "url": "https://apnews.com/article/messi-world-cup-argentina-c42d5dfa81ab0c101e426035ea4cfade",
+          "source": "AP News"
+        }
+      ]
+    },
+    {
+      "query": "sudafrica vs canada",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Quiénes juegan MAÑANA domingo 28 de junio en el Mundial 2026: programación de partidos, horarios y dónde ve...",
+          "url": "https://bolavip.com/pe/mundial/quienes-juegan-manana-domingo-28-de-junio-en-el-mundial-2026-programacion-de-partidos-horarios-y-donde-ver-en-peru",
+          "source": "Bolavip Perú"
+        },
+        {
+          "title": "Sudáfrica vs. Canadá EN VIVO: sigue la previa del primer partido de 16avos de final del Mundial 2026",
+          "url": "https://elcomercio.pe/deporte-total/futbol-mundial/sudafrica-vs-canada-en-vivo-gratis-hoy-ver-transmision-del-partido-por-mundial-2026-lbposting-noticia/",
+          "source": "El Comercio Perú"
+        },
+        {
+          "title": "Mundial 2026, últimas noticias en directo | Canadá y Sudáfrica inauguran dieciseisavos",
+          "url": "https://elpais.com/deportes/mundial-futbol/2026-06-28/resumen-y-ultimas-noticias-de-la-copa-mundial-de-futbol.html",
+          "source": "EL PAÍS"
+        }
+      ]
+    },
+    {
+      "query": "josé manuel lópez",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "El \"Flaco\" López tuvo su estreno mundialista con la Selección",
+          "url": "https://www.cadenaderadios.com.ar/noticia/85184_el-flaco-lpez-tuvo-su-estreno-mundialista-con-la-seleccin-.htm",
+          "source": "Cadena de Radios"
+        },
+        {
+          "title": "Quién es el Flaco López, el número 21 de la Selección Argentina en el Mundial 2026",
+          "url": "https://tn.com.ar/deportes/mundial/2026/2026/06/28/quien-es-el-flaco-lopez-el-numero-21-seleccion-argentina-en-el-mundial-2026/",
+          "source": "TN"
+        },
+        {
+          "title": "Quién es José López, el delantero en el que Lionel Scaloni confió: de sufrir a brillar en Lanús y al Mundial 2026",
+          "url": "https://www.eldestapeweb.com/mundial/resiliencia-pura-flaco-lopez-sufrir-brillar-lanus-mundial-2026-2026627212911",
+          "source": "El Destape"
+        }
+      ]
+    },
+    {
+      "query": "valentín barco",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Sin Leo, pero con Lea: Paredes se vistió de Messi en la medular",
+          "url": "https://www.marca.com/futbol/mundial/2026/06/28/leo-lea-paredes-vistio-messi-medular.html",
+          "source": "MARCA"
+        },
+        {
+          "title": "El veinticinqueño Valentín Barco debutó en un Mundial aprovechando la rotación de Argentina vs. Jordania",
+          "url": "https://www.lanoticia1.com/noticia/el-veinticinqueno-valentin-barco-debuto-en-un-mundial-aprovechando-la-rotacion-de-argentina-versus-jordania",
+          "source": "La Noticia 1"
+        },
+        {
+          "title": "Boca en el Mundial 2026: Paredes lideró la orquesta de Argentina y debutó el Colo Barco",
+          "url": "https://planetabj.com/seleccion-argentina/boca-en-el-mundial-2026-paredes-lidero-la-orquesta-de-argentina-y-debuto-el-colo-barco/",
+          "source": "Planeta Boca Juniors"
+        }
+      ]
+    },
+    {
+      "query": "algeria vs",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Algeria and Austria&apos;s dramatic draw sends Iran out of World Cup",
+          "url": "https://www.espn.com/soccer/story/_/id/49203568/algeria-austria-iran-2026-world-cup-draw-advance-eliminated",
+          "source": "ESPN"
+        },
+        {
+          "title": "Algeria vs Austria Extended Highlights | 2026 FIFA World Cup™",
+          "url": "https://www.foxsports.com/watch/fmc-z00ebnzhnz3yr4gx",
+          "source": "FOX Sports"
+        },
+        {
+          "title": "Algeria vs. Austria: The World Cup match neither team wants to win",
+          "url": "https://sports.yahoo.com/soccer/article/algeria-vs-austria-the-world-cup-match-neither-team-wants-to-win-163412122.html",
+          "source": "Yahoo Sports"
+        }
+      ]
+    },
+    {
+      "query": "austria vs",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "Algeria and Austria&apos;s dramatic draw sends Iran out of World Cup",
+          "url": "https://www.espn.com/soccer/story/_/id/49203568/algeria-austria-iran-2026-world-cup-draw-advance-eliminated",
+          "source": "ESPN"
+        },
+        {
+          "title": "The World Cup game that no one wants to win",
+          "url": "https://edition.cnn.com/2026/06/27/sport/the-beautiful-game-june-27",
+          "source": "CNN"
+        },
+        {
+          "title": "Algeria&apos;s Riyad Mahrez nets equalizer vs Austria | 2026 FIFA World Cup™",
+          "url": "https://www.foxsports.com/watch/fmc-vxa0wkiksu0arvy7",
+          "source": "FOX Sports"
+        }
+      ]
+    },
+    {
+      "query": "lionel messi",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 5000,
+      "articles": [
+        {
+          "title": "FIFA World Cup Group J LIVE: Jordan vs Argentina - build-up, team news, TV coverage & live text commentary",
+          "url": "https://www.bbc.com/sport/football/live/c20ye67xgykt",
+          "source": "BBC"
+        },
+        {
+          "title": "Seven goals and counting – Lionel Messi breaks yet another World Cup record",
+          "url": "https://www.transfermarkt.com/seven-goals-and-counting-lionel-messi-breaks-yet-another-world-cup-record/view/news/481946",
+          "source": "Transfermarkt"
+        },
+        {
+          "title": "God’s right hand leaves his mark on the World Cup once again",
+          "url": "https://www.israelhayom.com/2026/06/28/gods-right-hand-leaves-his-mark-on-the-world-cup-once-again/",
+          "source": "www.israelhayom.com"
+        }
+      ]
+    },
+    {
+      "query": "posiciones de selección de fútbol de la república democrática del congo contra selección de fútbol de uzbekistán",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 10000,
+      "articles": [
+        {
+          "title": "World Cup 2026: DR Congo 3-1 Uzbekistan - Yoane Wissa stars as the Leopards complete comeback win to set up last 32 clash against England",
+          "url": "https://www.skysports.com/football/news/12309/13556707/world-cup-2026-dr-congo-3-1-uzbekistan-yoane-wissa-stars-as-the-leopards-complete-comeback-win-to-set-up-last-32-clash-against-england",
+          "source": "Sky Sports"
+        },
+        {
+          "title": "DR Congo&apos;s Yoane Wissa scores penalty for equalizer vs Uzbekistan | 2026 FIFA World Cup™",
+          "url": "https://www.foxsports.com/watch/fmc-wvpchko5upqomnz6",
+          "source": "FOX Sports"
+        },
+        {
+          "title": "Congo DR 3-1 Uzbekistan (Jun 27, 2026) Game Analysis",
+          "url": "https://www.espn.com/soccer/report/_/gameId/760482",
+          "source": "ESPN"
+        }
+      ]
+    },
+    {
+      "query": "argentina vs cabo verde",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "A qué hora y dónde ver el Argentina vs. Cabo Verde del Mundial 2026",
+          "url": "https://www.tudn.com/mundial-2026/a-que-hora-y-donde-ver-el-partido-argentina-vs-cabo-verde-del-mundial-2026-video",
+          "source": "TUDN"
+        },
+        {
+          "title": "Tras confirmarse el cruce con Cabo Verde en 16avos, así es el hipotético camino de Argentina hasta la final del Mundial 2026",
+          "url": "https://www.infobae.com/deportes/2026/06/27/tras-confirmarse-el-cruce-con-cabo-verde-en-16avos-asi-es-el-hipotetico-camino-de-argentina-hasta-la-final-del-mundial-2026/",
+          "source": "Infobae"
+        },
+        {
+          "title": "La tabla de posiciones del Grupo J del Mundial 2026: resultados y clasificados a 16avos de final",
+          "url": "https://www.ole.com.ar/ecuador/mundial-2026/tabla-posiciones-grupo-j-mundial-resultados-clasificados-argentina-jordania-argelia-australia_0_z55AzJLbWm.html",
+          "source": "Olé"
+        }
+      ]
+    },
+    {
+      "query": "posiciones de selección de fútbol de argelia contra selección de fútbol de austria",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "Locura en el 96′: Austria, rival de España",
+          "url": "https://as.com/futbol/mundial/locura-en-el-96-austria-rival-de-espana-f202606-n/",
+          "source": "Diario AS"
+        },
+        {
+          "title": "Argelia vs. Austria por el Mundial 2026: duelo clave del Grupo J este sábado en Kansas City",
+          "url": "https://www.elpais.com.uy/ovacion/mundial/argelia-vs-austria-por-el-mundial-2026-duelo-clave-del-grupo-j-este-sabado-en-kansas-city",
+          "source": "EL PAÍS Uruguay"
+        },
+        {
+          "title": "A pesar de haber hecho negocio, Austria y Argelia jugaron un partido infartarte y avanzaron a los 16avos de final",
+          "url": "https://www.clarin.com/deportes/argelia-vs-austria-mundial-2026-vivo-hora-juegan-formaciones-ver-partido-grupo-j_0_Bz1KuCl2xE.html",
+          "source": "Clarin.com"
+        }
+      ]
+    },
+    {
+      "query": "austria",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Algeria and Austria&apos;s dramatic draw sends Iran out of World Cup",
+          "url": "https://www.espn.com/soccer/story/_/id/49203568/algeria-austria-iran-2026-world-cup-draw-advance-eliminated",
+          "source": "ESPN"
+        },
+        {
+          "title": "The World Cup game that no one wants to win",
+          "url": "https://edition.cnn.com/2026/06/27/sport/the-beautiful-game-june-27",
+          "source": "CNN"
+        },
+        {
+          "title": "Algeria vs Austria Extended Highlights | 2026 FIFA World Cup™",
+          "url": "https://www.foxsports.com/watch/fmc-z00ebnzhnz3yr4gx",
+          "source": "FOX Sports"
+        }
+      ]
+    },
+    {
+      "query": "lionel messi",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "FIFA World Cup Group J LIVE: Jordan vs Argentina - build-up, team news, TV coverage & live text commentary",
+          "url": "https://www.bbc.com/sport/football/live/c20ye67xgykt",
+          "source": "BBC"
+        },
+        {
+          "title": "Lionel Messi becomes top scorer in World Cup history with 2 more goals for Argentina",
+          "url": "https://apnews.com/article/messi-world-cup-argentina-c42d5dfa81ab0c101e426035ea4cfade",
+          "source": "AP News"
+        },
+        {
+          "title": "God’s right hand leaves his mark on the World Cup once again",
+          "url": "https://www.israelhayom.com/2026/06/28/gods-right-hand-leaves-his-mark-on-the-world-cup-once-again/",
+          "source": "www.israelhayom.com"
+        }
+      ]
+    },
+    {
+      "query": "a qué hora juega argentina",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Mundial 2026: qué precisa Uruguay para clasificar y los resultados que debe mirar",
+          "url": "https://www.montevideo.com.uy/Deportes/Mundial-2026-que-precisa-Uruguay-para-clasificar-y-los-resultados-que-debe-mirar-uc966400",
+          "source": "Montevideo Portal"
+        },
+        {
+          "title": "¿Qué necesita Uruguay para clasificar? Qué alentar en cada partido y la calculadora celeste para hacer los números",
+          "url": "https://www.elobservador.com.uy/mundial-2026/que-necesita-uruguay-clasificar-que-alentar-cada-partido-y-la-calculadora-hacer-los-numeros-n6048802",
+          "source": "El Observador"
+        },
+        {
+          "title": "Posibles alineaciones de Uruguay vs. España por la fecha 3 del Grupo H del Mundial 2026 hoy 26 de junio",
+          "url": "https://www.elpais.com.uy/ovacion/mundial/posibles-alineaciones-de-uruguay-vs-espana-por-la-fecha-3-del-grupo-h-del-mundial-2026-hoy-26-de-junio",
+          "source": "EL PAÍS Uruguay"
+        }
+      ]
+    },
+    {
+      "query": "jordania",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "Jordan vs Argentina Highlights | 2026 FIFA World Cup™",
+          "url": "https://www.foxsports.com/watch/fmc-qsulw8ohm86o0deh",
+          "source": "FOX Sports"
+        },
+        {
+          "title": "Lionel Messi to start on bench for Argentina group finale",
+          "url": "https://www.espn.com/soccer/story/_/id/49191791/lionel-messi-argentina-bench-jordan-fifa-2026-world-cup",
+          "source": "ESPN"
+        },
+        {
+          "title": "Argentina vs. Jordan odds, prediction, time: 2026 World Cup picks, best bets from expert on 18-8 roll",
+          "url": "https://www.cbssports.com/soccer/news/argentina-jordan-odds-prediction-line-time-messi-status-2026-world-cup-picks-best-bets/",
+          "source": "CBS Sports"
+        }
+      ]
+    },
+    {
+      "query": "cruces mundial 2026",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Así quedaron los cruces de los dieciseisavos de final del Mundial 2026 que empiezan este domingo",
+          "url": "https://www.elpais.com.uy/ovacion/mundial/asi-serian-los-cruces-de-16avos-de-final-del-mundial-2026-si-la-fase-de-grupos-terminara-ahora",
+          "source": "EL PAÍS Uruguay"
+        },
+        {
+          "title": "Se completó el cuadro de los 16avos de final del Mundial 2026: días, horarios y la agenda completa de todos los partidos",
+          "url": "https://www.infobae.com/deportes/2026/06/27/asi-quedaron-los-cruces-de-16avos-de-final-del-mundial-dias-horarios-y-la-agenda-completa/",
+          "source": "Infobae"
+        },
+        {
+          "title": "Mundial 2026: así se juegan los dieciseisavos de final",
+          "url": "https://ladiaria.com.uy/deporte/articulo/2026/6/mundial-2026-asi-se-juegan-los-dieciseisavos-de-final/",
+          "source": "la diaria"
+        }
+      ]
+    },
+    {
+      "query": "posiciones de selección de fútbol de argelia contra selección de fútbol de austria",
+      "geo": "BR",
+      "language": "pt",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "Locura en el 96′: Austria, rival de España",
+          "url": "https://as.com/futbol/mundial/locura-en-el-96-austria-rival-de-espana-f202606-n/",
+          "source": "Diario AS"
+        },
+        {
+          "title": "Austria se cita con España tras empatar 3-3 con Argelia, que también llega a dieciseisavos",
+          "url": "https://efe.com/deportes/2026-06-28/austria-empate-argelia-mundial-clasificacion-dieciseisavos/",
+          "source": "EFE - Agencia de noticias"
+        },
+        {
+          "title": "Argelia 3-3 Austria · Mundial 2026: Mahrez y Kalajdzic firman un empate dramático en el descuento",
+          "url": "https://www.cibercuba.com/noticias/2026-06-28-u1-e199894-s27066-nid333609-argelia-3-3-austria-mundial-2026-mahrez-kalajdzic",
+          "source": "CiberCuba"
+        }
+      ]
+    },
+    {
+      "query": "giappone brasile",
+      "geo": "IT",
+      "language": "it",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Sedicesimi di finale, Mariani arbitrerà Brasile-Giappone",
+          "url": "https://www.sportmediaset.mediaset.it/speciale/mondiali-2026/sedicesimi-di-finale-mariani-arbitrera-brasile-giappone_113686280-202602k.shtml",
+          "source": "Sportmediaset"
+        },
+        {
+          "title": "Brasile, Rayan e il sogno Mondiale: \"Il gol arriverà naturalmente\"",
+          "url": "https://www.corrieredellosport.it/dugout/video/ultimi-video/5x9hlQsa/brasile-rayan-e-il-sogno-mondiale-il-gol-arrivera-naturalmente",
+          "source": "Corriere dello Sport"
+        },
+        {
+          "title": "Sedicesimi Mondiali 2026, Brasile-Giappone: formazioni, orario e dove vederla in tv e diretta streaming",
+          "url": "https://www.dazn.com/it-IT/news/altro/brasile-giappone-mondiali-2026-sedicesimi-streaming-formazioni-orario-dove-vedere/1t2fopvg2fizc1pbvig37qaeu6",
+          "source": "DAZN"
+        }
+      ]
+    },
+    {
+      "query": "portugal croatia",
+      "geo": "PT",
+      "language": "pt",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Which teams could play in Toronto for FIFA World Cup knockout match",
+          "url": "https://www.blogto.com/sports_play/2026/06/toronto-fifa-world-cup-knockout-match/",
+          "source": "blogTO"
+        },
+        {
+          "title": "Croatia World Cup 2026: Route to the final, manager, squad depth and tactical analysis",
+          "url": "https://www.squawka.com/en/news/world-cup/croatia-world-cup-2026-route-to-the-final/",
+          "source": "Squawka"
+        },
+        {
+          "title": "Ticket prices skyrocket for Portugal game against Croatia in Toronto",
+          "url": "https://www.reuters.com/sports/soccer/ticket-prices-skyrocket-portugal-game-against-croatia-toronto-2026-06-28/",
+          "source": "Reuters"
+        }
+      ]
+    },
+    {
+      "query": "wm 2026",
+      "geo": "PT",
+      "language": "pt",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "(S+) WM 2026 News: Verband cancelt Charterflug – Uruguayer müssen nach WM-Aus wohl selbst nach Hause finden",
+          "url": "https://www.spiegel.de/sport/fussball/wm-2026-news-heute-uruguays-spieler-muessen-per-linienflug-nachhause-oesterreich-eine-runde-weiter-a-64122cf8-c179-41ac-91fc-a43cec288a39",
+          "source": "Spiegel"
+        },
+        {
+          "title": "WM 2026: Unfassbare Nachspielzeit! Das dramatische Österreich-Finale",
+          "url": "https://www.bild.de/sport/fussball/wm-2026-unfassbare-nachspielzeit-das-dramatische-oesterreich-finale-6a407dd147f368e955ce8872",
+          "source": "BILD"
+        },
+        {
+          "title": "WM 2026: Mit Spektakel pur in die K.o.-Runde - Algerien und Österreich weiter",
+          "url": "https://www.sportschau.de/fussball/fifa-wm-2026/mit-spektakel-pur-in-die-ko-runde-algerien-und-oesterreich-weiter,wm-spielbericht-algerien-oesterreich-100.html",
+          "source": "sportschau.de"
+        }
+      ]
+    },
+    {
+      "query": "argentina vs",
+      "geo": "PT",
+      "language": "pt",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Jordan vs Argentina Highlights | 2026 FIFA World Cup™",
+          "url": "https://www.foxsports.com/watch/fmc-qsulw8ohm86o0deh",
+          "source": "FOX Sports"
+        },
+        {
+          "title": "Lionel Messi to start on bench for Argentina group finale",
+          "url": "https://www.espn.com/soccer/story/_/id/49191791/lionel-messi-argentina-bench-jordan-fifa-2026-world-cup",
+          "source": "ESPN"
+        },
+        {
+          "title": "Argentina vs. Jordan odds, prediction, time: 2026 World Cup picks, best bets from expert on 18-8 roll",
+          "url": "https://www.cbssports.com/soccer/news/argentina-jordan-odds-prediction-line-time-messi-status-2026-world-cup-picks-best-bets/",
+          "source": "CBS Sports"
+        }
+      ]
+    },
+    {
+      "query": "鈴木 奈穂子",
+      "geo": "JP",
+      "language": "ja",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "NHK鈴木奈穂子アナ「2人が再びタッグを組みます」",
+          "url": "https://www.sanspo.com/article/20260628-YDSRWW3OGRGF5LOP7NXO2JVZR4/?outputType=theme_soccer_worldcup",
+          "source": "サンスポ"
+        },
+        {
+          "title": "「なんでやねん！」「うざい」がまた…日本対ブラジルでの“再登場”決定に反響！「楽しみ笑」「最高」【W杯】",
+          "url": "https://news.yahoo.co.jp/articles/56438ff59efdaea3d89d23544b5294691bddd259",
+          "source": "Yahoo!ニュース"
+        },
+        {
+          "title": "【6月30日】サッカー日本代表 vs ブラジル代表｜地上波テレビ放送・ネット配信・中継｜スコア結果｜実況・解説｜FIFAワールドカップ2026",
+          "url": "https://www.soccer-king.jp/news/japan/national/fixed/2177417.html",
+          "source": "サッカーキング"
+        }
+      ]
+    },
+    {
+      "query": "round of 32 world cup 2026",
+      "geo": "AU",
+      "language": "en",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Live table: Which third-placed teams will make it to the knockouts?",
+          "url": "https://www.abc.net.au/news/2026-06-26/live-world-cup-third-place-table/106844304",
+          "source": "Australian Broadcasting Corporation"
+        },
+        {
+          "title": "Who’s playing who, and when: Your guide to the World Cup’s round of 32",
+          "url": "https://www.smh.com.au/sport/soccer/who-s-playing-who-and-when-your-guide-to-the-world-cup-round-of-32-20260628-p60apx.html",
+          "source": "SMH.com.au"
+        },
+        {
+          "title": "World Cup 2026: third-place table, the last 32 lineup and who has gone home",
+          "url": "https://www.theguardian.com/football/2026/jun/24/world-cup-groups-permutations-round-of-32-usa-mexico-canada",
+          "source": "The Guardian"
+        }
+      ]
+    },
+    {
+      "query": "tableau coupe du monde 2026",
+      "geo": "MA",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "Le tableau final de la Coupe du monde : les 16es de finale complets",
+          "url": "https://www.lequipe.fr/Football/Actualites/Coupe-du-monde-2026-decouvrez-en-temps-reel-les-affiches-des-16es-de-finale/1697945",
+          "source": "L&apos;Équipe"
+        },
+        {
+          "title": "Espagne-Portugal en 8e, voie royale pour l&apos;Argentine... Le tableau de la phase finale",
+          "url": "https://www.eurosport.fr/football/coupe-du-monde/2026/coupe-du-monde-2026-un-potentiel-espagne-portugal-en-8e-la-voie-royale-pour-largentine...-voici-le-tableau-exact-de-la-phase-finale_sto23313897/story.shtml",
+          "source": "Eurosport"
+        },
+        {
+          "title": "Coupe du monde 2026 : Le classement provisoire des meilleurs 3es",
+          "url": "https://www.20minutes.fr/sport/football/4231399-20260626-coupe-monde-2026-classement-provisoire-meilleurs-3es",
+          "source": "20 Minutes"
+        }
+      ]
+    },
+    {
+      "query": "world cup 2026",
+      "geo": "MA",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "World Cup 2026: England progress as Scotland crash out and Messi scores",
+          "url": "https://www.bbc.com/sport/football/live/c8023448dpmt",
+          "source": "BBC"
+        },
+        {
+          "title": "Steve Clarke departs as Scotland Men’s Head Coach",
+          "url": "https://www.scottishfa.co.uk/en/news/steve-clarke-departs-as-scotland-mens-head-coach",
+          "source": "Scottish Football Association"
+        },
+        {
+          "title": "[Official Announcement] \"Stepping Down as Manager\" Final Battle for Third Place in Group → Failure to Reach Round of 32... &apos;Voluntary Resignation&apos; of Legendary Coach Steve Clark Marks End of Seven-Year Partnership with Scotland",
+          "url": "https://www.starnewskorea.com/en/sports/2026/06/28/2026062814033227913",
+          "source": "스타뉴스"
+        }
+      ]
+    },
+    {
+      "query": "classement équipe d&apos;algérie de football – équipe d&apos;autriche de football",
+      "geo": "MA",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 50000,
+      "articles": [
+        {
+          "title": "Algérie - Autriche : Les Fennecs qualifiés au bout d&apos;un match rocambolesque",
+          "url": "https://www.france24.com/fr/sports/20260628-alg%C3%A9rie-autriche-en-direct-pour-les-fennecs-et-das-team-une-deuxi%C3%A8me-place-en-jeu",
+          "source": "France 24"
+        },
+        {
+          "title": "Coupe du monde 2026 : Messi encore buteur, le Portugal a souffert et l’Algérie se qualifie après une fin de match folle... ce que vous avez raté la nuit dernière",
+          "url": "https://www.lefigaro.fr/sports/football/coupe-du-monde/coupe-du-monde-2026-messi-encore-buteur-le-portugal-a-souffert-et-l-algerie-se-qualifie-apres-une-fin-de-match-folle-20260628",
+          "source": "Le Figaro"
+        },
+        {
+          "title": "Le finish incroyable de l&apos;Autriche, le moment d&apos;histoire pour la RD Congo, et le nouveau but de Lionel Messi, en sortie de banc... Ce qu&apos;il ne fallait pas manquer cette nuit à la Coupe du monde",
+          "url": "https://www.lequipe.fr/Football/Actualites/Le-finish-incroyable-de-l-autriche-le-moment-d-histoire-pour-la-rd-congo-et-le-nouveau-but-de-lionel-messi-en-sortie-de-banc-ce-qu-il-ne-fallait-pas-manquer-cette-nuit-a-la-coupe-du-monde/1699120",
+          "source": "L&apos;Équipe"
+        }
+      ]
+    },
+    {
+      "query": "lionel messi",
+      "geo": "MA",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "FIFA World Cup Group J LIVE: Jordan vs Argentina - build-up, team news, TV coverage & live text commentary",
+          "url": "https://www.bbc.com/sport/football/live/c20ye67xgykt",
+          "source": "BBC"
+        },
+        {
+          "title": "Seven goals and counting – Lionel Messi breaks yet another World Cup record",
+          "url": "https://www.transfermarkt.com/seven-goals-and-counting-lionel-messi-breaks-yet-another-world-cup-record/view/news/481946",
+          "source": "Transfermarkt"
+        },
+        {
+          "title": "God’s right hand leaves his mark on the World Cup once again",
+          "url": "https://www.israelhayom.com/2026/06/28/gods-right-hand-leaves-his-mark-on-the-world-cup-once-again/",
+          "source": "www.israelhayom.com"
+        }
+      ]
+    },
+    {
+      "query": "fifa world cup brackets",
+      "geo": "MA",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "World Cup 2026 bracket and knockout fixtures - who&apos;s facing who in the last 32 and route to final",
+          "url": "https://www.skysports.com/football/news/12098/13556636/world-cup-2026-bracket-and-knockout-fixtures-whos-facing-who-in-the-last-32-and-route-to-final",
+          "source": "Sky Sports"
+        },
+        {
+          "title": "Which World Cup third-place teams advanced to knockout stage? - The Athletic",
+          "url": "https://www.nytimes.com/athletic/7390982/2026/06/28/world-cup-third-place-teams-qualify-knockout/",
+          "source": "The New York Times"
+        },
+        {
+          "title": "World Cup 2026: third-place table, the last 32 lineup and who has gone home",
+          "url": "https://www.theguardian.com/football/2026/jun/24/world-cup-groups-permutations-round-of-32-usa-mexico-canada",
+          "source": "The Guardian"
+        }
+      ]
+    },
+    {
+      "query": "fifa world cup standings",
+      "geo": "MA",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "FIFA World Cup 2026: Saturday schedule, Round of 32 standings, predictions",
+          "url": "https://www.aljazeera.com/sports/2026/6/27/fifa-world-cup-2026-saturday-schedule-round-of-32-standings-predictions",
+          "source": "Al Jazeera"
+        },
+        {
+          "title": "2026 World Cup, Matchday 17: Match thread and discussion",
+          "url": "https://www.starsandstripesfc.com/fifa-world-cup/44425/2026-world-cup-matchday-17-match-thread-and-discussion",
+          "source": "Stars and Stripes FC"
+        },
+        {
+          "title": "World Cup Picks: Group Play Finale Offers Bettors Upsets, Value and Record Crowds",
+          "url": "https://blog.betway.com/ca/soccer/world-cup-picks-group-play-finale-offers-bettors-upsets-value-and-record-crowds/",
+          "source": "Betway Insider"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "en": [
+      {
+        "query": "posiciones de selección de fútbol de argelia contra selección de fútbol de austria",
+        "score": 28000,
+        "geos": [
+          "US"
+        ],
+        "samples": [
+          {
+            "query": "posiciones de selección de fútbol de argelia contra selección de fútbol de austria",
+            "geo": "US",
+            "language": "en",
+            "source": "google-trends-daily",
+            "score": 20000,
+            "articles": [
+              {
+                "title": "Así quedaron los 16avos del Mundial 2026: el ranking de los 16 cruces confirmados",
+                "url": "https://www.si.com/es-us/futbol/asi-quedaron-los-16avos-del-mundial-2026-el-ranking-de-los-16-cruces-confirmados",
+                "source": "Sports Illustrated"
+              },
+              {
+                "title": "Así queda el cuadro de dieciseisavos del Mundial 2026: todos los cruces y selecciones clasificadas",
+                "url": "https://www.marca.com/futbol/mundial/2026/06/27/asi-cuadro-dieciseisavos-mundial-directo-cruces-calendario-clasificados-eliminados.html",
+                "source": "MARCA"
+              },
+              {
+                "title": "Thomas Tuchel celebra la clasificación de Inglaterra a 16vos",
+                "url": "https://www.telemundo.com/deportes/copa-mundial-de-la-fifa-2026/video/thomas-tuchel-celebra-la-clasificacion-de-inglaterra-a-16vos-tmvo13198146",
+                "source": "Telemundo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "round of 32 world cup 2026",
+        "score": 350,
+        "geos": [
+          "AU"
+        ],
+        "samples": [
+          {
+            "query": "round of 32 world cup 2026",
+            "geo": "AU",
+            "language": "en",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Live table: Which third-placed teams will make it to the knockouts?",
+                "url": "https://www.abc.net.au/news/2026-06-26/live-world-cup-third-place-table/106844304",
+                "source": "Australian Broadcasting Corporation"
+              },
+              {
+                "title": "Who’s playing who, and when: Your guide to the World Cup’s round of 32",
+                "url": "https://www.smh.com.au/sport/soccer/who-s-playing-who-and-when-your-guide-to-the-world-cup-round-of-32-20260628-p60apx.html",
+                "source": "SMH.com.au"
+              },
+              {
+                "title": "World Cup 2026: third-place table, the last 32 lineup and who has gone home",
+                "url": "https://www.theguardian.com/football/2026/jun/24/world-cup-groups-permutations-round-of-32-usa-mexico-canada",
+                "source": "The Guardian"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "iran fifa",
+        "score": 240,
+        "geos": [
+          "CA"
+        ],
+        "samples": [
+          {
+            "query": "iran fifa",
+            "geo": "CA",
+            "language": "en",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "‘This must never happen again’: Iran coach hits out at the US and tells Infantino to stand up against hosts",
+                "url": "https://www.theguardian.com/football/2026/jun/27/this-must-never-happen-again-iran-coach-hits-out-at-the-us-and-tells-infantino-to-stand-up-against-hosts",
+                "source": "The Guardian"
+              },
+              {
+                "title": "Iran urge FIFA to stand up to ‘really terrible’ World Cup treatment by US",
+                "url": "https://www.aljazeera.com/sports/2026/6/27/iran-urge-fifa-to-stand-up-to-really-terrible-world-cup-treatment-by-us",
+                "source": "Al Jazeera"
+              },
+              {
+                "title": "World Cup 2026: Iran say they have been treated unfairly by USA",
+                "url": "https://www.bbc.com/sport/football/articles/cze98ywdwlgo",
+                "source": "BBC"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "es": [
+      {
+        "query": "posiciones de selección de fútbol de argelia contra selección de fútbol de austria",
+        "score": 96800,
+        "geos": [
+          "CO",
+          "PE",
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "posiciones de selección de fútbol de argelia contra selección de fútbol de austria",
+            "geo": "CO",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 50000,
+            "articles": [
+              {
+                "title": "Locura en el 96′: Austria, rival de España",
+                "url": "https://as.com/futbol/mundial/locura-en-el-96-austria-rival-de-espana-f202606-n/",
+                "source": "Diario AS"
+              },
+              {
+                "title": "Agónico empate entre Austria y Argelia clasifica a ambas selecciones a dieciseisavos de final del Mundial 2026",
+                "url": "https://www.eltiempo.com/deportes/futbol-internacional/agonico-empate-entre-austria-y-argelia-clasifica-a-ambas-selecciones-a-dieciseisavos-de-final-del-mundial-3567628",
+                "source": "ELTIEMPO.com"
+              },
+              {
+                "title": "Argelia rozó el gol con un disparo al palo ante Austria",
+                "url": "https://www.winsports.co/futbol-internacional/noticias/argelia-rozo-el-gol-con-un-disparo-al-palo-ante-austria-442126",
+                "source": "Win Sports"
+              }
+            ]
+          },
+          {
+            "query": "posiciones de selección de fútbol de argelia contra selección de fútbol de austria",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 50000,
+            "articles": [
+              {
+                "title": "Locura en el 96′: Austria, rival de España",
+                "url": "https://as.com/futbol/mundial/locura-en-el-96-austria-rival-de-espana-f202606-n/",
+                "source": "Diario AS"
+              },
+              {
+                "title": "Video, goles y mejores jugadas: Argelia vs. Austria (3-3), por el Mundial 2026",
+                "url": "https://depor.com/futbol-internacional/mundial/futbol-libre-tv-en-vivo-gratis-como-ver-argelia-vs-austria-en-directo-directv-espn-disney-plus-dsports-dgo-por-internet-mundial-2026-video-noticia/",
+                "source": "Depor"
+              },
+              {
+                "title": "Austria jugara con España tras empatar 3-3 con Argelia, que también llega a 16avos",
+                "url": "https://cnnespanol.cnn.com/2026/06/28/deportes/mundial-2026-austria-empate-argelia-efe",
+                "source": "CNN en Español"
+              }
+            ]
+          },
+          {
+            "query": "posiciones de selección de fútbol de argelia contra selección de fútbol de austria",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "Locura en el 96′: Austria, rival de España",
+                "url": "https://as.com/futbol/mundial/locura-en-el-96-austria-rival-de-espana-f202606-n/",
+                "source": "Diario AS"
+              },
+              {
+                "title": "Argelia vs. Austria por el Mundial 2026: duelo clave del Grupo J este sábado en Kansas City",
+                "url": "https://www.elpais.com.uy/ovacion/mundial/argelia-vs-austria-por-el-mundial-2026-duelo-clave-del-grupo-j-este-sabado-en-kansas-city",
+                "source": "EL PAÍS Uruguay"
+              },
+              {
+                "title": "A pesar de haber hecho negocio, Austria y Argelia jugaron un partido infartarte y avanzaron a los 16avos de final",
+                "url": "https://www.clarin.com/deportes/argelia-vs-austria-mundial-2026-vivo-hora-juegan-formaciones-ver-partido-grupo-j_0_Bz1KuCl2xE.html",
+                "source": "Clarin.com"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "lionel messi",
+        "score": 77900,
+        "geos": [
+          "MX",
+          "AR",
+          "CO",
+          "CL",
+          "PE",
+          "EC",
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "lionel messi",
+            "geo": "MX",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 20000,
+            "articles": [
+              {
+                "title": "FIFA World Cup Group J LIVE: Jordan vs Argentina - build-up, team news, TV coverage & live text commentary",
+                "url": "https://www.bbc.com/sport/football/live/c20ye67xgykt",
+                "source": "BBC"
+              },
+              {
+                "title": "Lionel Messi scores free kick to break another World Cup record as Argentina beat Jordan: Live updates and reaction",
+                "url": "https://www.nytimes.com/athletic/live-blogs/jordan-argentina-messi-score-result-match-time/Gs0oFLN9UhCW/",
+                "source": "The New York Times"
+              },
+              {
+                "title": "Jordan vs Argentina, Algeria vs Austria LIVE! World Cup 2026 Group J fixtures, scores, live updates and team news",
+                "url": "https://www.skysports.com/football/live-blog/12309/13557088/jordan-vs-argentina-algeria-vs-austria-live-world-cup-2026-group-j-fixtures-scores-live-updates-and-team-news",
+                "source": "Sky Sports"
+              }
+            ]
+          },
+          {
+            "query": "lionel messi",
+            "geo": "AR",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 20000,
+            "articles": [
+              {
+                "title": "FIFA World Cup Group J LIVE: Jordan vs Argentina - build-up, team news, TV coverage & live text commentary",
+                "url": "https://www.bbc.com/sport/football/live/c20ye67xgykt",
+                "source": "BBC"
+              },
+              {
+                "title": "Jordan 1-3 Argentina Stats: Messi Scores Again to Make More World Cup History",
+                "url": "https://theanalyst.com/articles/jordan-vs-argentina-stats-world-cup-2026",
+                "source": "Opta Analyst"
+              },
+              {
+                "title": "Lionel Messi scores free kick to break another World Cup record as Argentina beat Jordan: Live updates and reaction",
+                "url": "https://www.nytimes.com/athletic/live-blogs/jordan-argentina-messi-score-result-match-time/Gs0oFLN9UhCW/",
+                "source": "The New York Times"
+              }
+            ]
+          },
+          {
+            "query": "lionel messi",
+            "geo": "CO",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 10000,
+            "articles": [
+              {
+                "title": "FIFA World Cup Group J LIVE: Jordan vs Argentina - build-up, team news, TV coverage & live text commentary",
+                "url": "https://www.bbc.com/sport/football/live/c20ye67xgykt",
+                "source": "BBC"
+              },
+              {
+                "title": "Jordan 1-3 Argentina Stats: Messi Scores Again to Make More World Cup History",
+                "url": "https://theanalyst.com/articles/jordan-vs-argentina-stats-world-cup-2026",
+                "source": "Opta Analyst"
+              },
+              {
+                "title": "Every goal of Lionel Messi’s record-breaking run of SEVEN consecutive World Cup matches",
+                "url": "https://onefootball.com/fr/news/every-goal-of-lionel-messis-record-breaking-run-of-seven-consecutive-world-cup-matches-43067999",
+                "source": "OneFootball"
+              }
+            ]
+          },
+          {
+            "query": "lionel messi",
+            "geo": "CL",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 5000,
+            "articles": [
+              {
+                "title": "FIFA World Cup Group J LIVE: Jordan vs Argentina - build-up, team news, TV coverage & live text commentary",
+                "url": "https://www.bbc.com/sport/football/live/c20ye67xgykt",
+                "source": "BBC"
+              },
+              {
+                "title": "Every goal of Lionel Messi’s record-breaking run of SEVEN consecutive World Cup matches",
+                "url": "https://onefootball.com/fr/news/every-goal-of-lionel-messis-record-breaking-run-of-seven-consecutive-world-cup-matches-43067999",
+                "source": "OneFootball"
+              },
+              {
+                "title": "An assist from the most unlikely source!",
+                "url": "https://www.foxsports.com/watch-vertical/fmc-ddnb3e8krznoekm0",
+                "source": "FOX Sports"
+              }
+            ]
+          },
+          {
+            "query": "lionel messi",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 5000,
+            "articles": [
+              {
+                "title": "FIFA World Cup Group J LIVE: Jordan vs Argentina - build-up, team news, TV coverage & live text commentary",
+                "url": "https://www.bbc.com/sport/football/live/c20ye67xgykt",
+                "source": "BBC"
+              },
+              {
+                "title": "Jordan 1-3 Argentina Stats: Messi Scores Again to Make More World Cup History",
+                "url": "https://theanalyst.com/articles/jordan-vs-argentina-stats-world-cup-2026",
+                "source": "Opta Analyst"
+              },
+              {
+                "title": "Lionel Messi becomes top scorer in World Cup history with 2 more goals for Argentina",
+                "url": "https://apnews.com/article/messi-world-cup-argentina-c42d5dfa81ab0c101e426035ea4cfade",
+                "source": "AP News"
+              }
+            ]
+          },
+          {
+            "query": "lionel messi",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 5000,
+            "articles": [
+              {
+                "title": "FIFA World Cup Group J LIVE: Jordan vs Argentina - build-up, team news, TV coverage & live text commentary",
+                "url": "https://www.bbc.com/sport/football/live/c20ye67xgykt",
+                "source": "BBC"
+              },
+              {
+                "title": "Seven goals and counting – Lionel Messi breaks yet another World Cup record",
+                "url": "https://www.transfermarkt.com/seven-goals-and-counting-lionel-messi-breaks-yet-another-world-cup-record/view/news/481946",
+                "source": "Transfermarkt"
+              },
+              {
+                "title": "God’s right hand leaves his mark on the World Cup once again",
+                "url": "https://www.israelhayom.com/2026/06/28/gods-right-hand-leaves-his-mark-on-the-world-cup-once-again/",
+                "source": "www.israelhayom.com"
+              }
+            ]
+          },
+          {
+            "query": "lionel messi",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "FIFA World Cup Group J LIVE: Jordan vs Argentina - build-up, team news, TV coverage & live text commentary",
+                "url": "https://www.bbc.com/sport/football/live/c20ye67xgykt",
+                "source": "BBC"
+              },
+              {
+                "title": "Lionel Messi becomes top scorer in World Cup history with 2 more goals for Argentina",
+                "url": "https://apnews.com/article/messi-world-cup-argentina-c42d5dfa81ab0c101e426035ea4cfade",
+                "source": "AP News"
+              },
+              {
+                "title": "God’s right hand leaves his mark on the World Cup once again",
+                "url": "https://www.israelhayom.com/2026/06/28/gods-right-hand-leaves-his-mark-on-the-world-cup-once-again/",
+                "source": "www.israelhayom.com"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "posiciones de selección de fútbol de la república democrática del congo contra selección de fútbol de uzbekistán",
+        "score": 8000,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "posiciones de selección de fútbol de la república democrática del congo contra selección de fútbol de uzbekistán",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 10000,
+            "articles": [
+              {
+                "title": "World Cup 2026: DR Congo 3-1 Uzbekistan - Yoane Wissa stars as the Leopards complete comeback win to set up last 32 clash against England",
+                "url": "https://www.skysports.com/football/news/12309/13556707/world-cup-2026-dr-congo-3-1-uzbekistan-yoane-wissa-stars-as-the-leopards-complete-comeback-win-to-set-up-last-32-clash-against-england",
+                "source": "Sky Sports"
+              },
+              {
+                "title": "DR Congo&apos;s Yoane Wissa scores penalty for equalizer vs Uzbekistan | 2026 FIFA World Cup™",
+                "url": "https://www.foxsports.com/watch/fmc-wvpchko5upqomnz6",
+                "source": "FOX Sports"
+              },
+              {
+                "title": "Congo DR 3-1 Uzbekistan (Jun 27, 2026) Game Analysis",
+                "url": "https://www.espn.com/soccer/report/_/gameId/760482",
+                "source": "ESPN"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "valentín barco",
+        "score": 900,
+        "geos": [
+          "CL",
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "valentín barco",
+            "geo": "CL",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Sin Leo, pero con Lea: Paredes se vistió de Messi en la medular",
+                "url": "https://www.marca.com/futbol/mundial/2026/06/28/leo-lea-paredes-vistio-messi-medular.html",
+                "source": "MARCA"
+              },
+              {
+                "title": "El veinticinqueño Valentín Barco debutó en un Mundial aprovechando la rotación de Argentina vs. Jordania",
+                "url": "https://www.lanoticia1.com/noticia/el-veinticinqueno-valentin-barco-debuto-en-un-mundial-aprovechando-la-rotacion-de-argentina-versus-jordania",
+                "source": "La Noticia 1"
+              },
+              {
+                "title": "Boca en el Mundial 2026: Paredes lideró la orquesta de Argentina y debutó el Colo Barco",
+                "url": "https://planetabj.com/seleccion-argentina/boca-en-el-mundial-2026-paredes-lidero-la-orquesta-de-argentina-y-debuto-el-colo-barco/",
+                "source": "Planeta Boca Juniors"
+              }
+            ]
+          },
+          {
+            "query": "valentín barco",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Sin Leo, pero con Lea: Paredes se vistió de Messi en la medular",
+                "url": "https://www.marca.com/futbol/mundial/2026/06/28/leo-lea-paredes-vistio-messi-medular.html",
+                "source": "MARCA"
+              },
+              {
+                "title": "El veinticinqueño Valentín Barco debutó en un Mundial aprovechando la rotación de Argentina vs. Jordania",
+                "url": "https://www.lanoticia1.com/noticia/el-veinticinqueno-valentin-barco-debuto-en-un-mundial-aprovechando-la-rotacion-de-argentina-versus-jordania",
+                "source": "La Noticia 1"
+              },
+              {
+                "title": "Boca en el Mundial 2026: Paredes lideró la orquesta de Argentina y debutó el Colo Barco",
+                "url": "https://planetabj.com/seleccion-argentina/boca-en-el-mundial-2026-paredes-lidero-la-orquesta-de-argentina-y-debuto-el-colo-barco/",
+                "source": "Planeta Boca Juniors"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "algeria vs austria",
+        "score": 900,
+        "geos": [
+          "CL"
+        ],
+        "samples": [
+          {
+            "query": "algeria vs austria",
+            "geo": "CL",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "Algeria and Austria&apos;s dramatic draw sends Iran out of World Cup",
+                "url": "https://www.espn.com/soccer/story/_/id/49203568/algeria-austria-iran-2026-world-cup-draw-advance-eliminated",
+                "source": "ESPN"
+              },
+              {
+                "title": "The World Cup game that no one wants to win",
+                "url": "https://edition.cnn.com/2026/06/27/sport/the-beautiful-game-june-27",
+                "source": "CNN"
+              },
+              {
+                "title": "Algeria vs Austria Extended Highlights | 2026 FIFA World Cup™",
+                "url": "https://www.foxsports.com/watch/fmc-z00ebnzhnz3yr4gx",
+                "source": "FOX Sports"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "jordania",
+        "score": 900,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "jordania",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "Jordan vs Argentina Highlights | 2026 FIFA World Cup™",
+                "url": "https://www.foxsports.com/watch/fmc-qsulw8ohm86o0deh",
+                "source": "FOX Sports"
+              },
+              {
+                "title": "Lionel Messi to start on bench for Argentina group finale",
+                "url": "https://www.espn.com/soccer/story/_/id/49191791/lionel-messi-argentina-bench-jordan-fifa-2026-world-cup",
+                "source": "ESPN"
+              },
+              {
+                "title": "Argentina vs. Jordan odds, prediction, time: 2026 World Cup picks, best bets from expert on 18-8 roll",
+                "url": "https://www.cbssports.com/soccer/news/argentina-jordan-odds-prediction-line-time-messi-status-2026-world-cup-picks-best-bets/",
+                "source": "CBS Sports"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "austria vs",
+        "score": 800,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "austria vs",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "Algeria and Austria&apos;s dramatic draw sends Iran out of World Cup",
+                "url": "https://www.espn.com/soccer/story/_/id/49203568/algeria-austria-iran-2026-world-cup-draw-advance-eliminated",
+                "source": "ESPN"
+              },
+              {
+                "title": "The World Cup game that no one wants to win",
+                "url": "https://edition.cnn.com/2026/06/27/sport/the-beautiful-game-june-27",
+                "source": "CNN"
+              },
+              {
+                "title": "Algeria&apos;s Riyad Mahrez nets equalizer vs Austria | 2026 FIFA World Cup™",
+                "url": "https://www.foxsports.com/watch/fmc-vxa0wkiksu0arvy7",
+                "source": "FOX Sports"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "dembele",
+        "score": 650,
+        "geos": [
+          "AR"
+        ],
+        "samples": [
+          {
+            "query": "dembele",
+            "geo": "AR",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Mundial 2026: con triplete de Dembélé, Francia batió a una Noruega sin Haaland",
+                "url": "https://www.pagina12.com.ar/2026/06/26/mundial-2026-con-triplete-de-dembele-francia-batio-a-una-noruega-sin-haaland/",
+                "source": "Página|12"
+              },
+              {
+                "title": "Dembélé desata sus goles rumbo a Suecia",
+                "url": "https://www.tycsports.com/polideportivo/dembele-desata-sus-goles-rumbo-a-suecia-id746509.html",
+                "source": "TyC Sports"
+              },
+              {
+                "title": "Guy Stéphan dedica el triunfo a Deschamps: \"Estamos deseando verle\"",
+                "url": "https://www.lanacion.com.ar/estados-unidos/guy-stephan-dedica-el-triunfo-a-deschamps-estamos-deseando-verle-nid26062026/",
+                "source": "La Nación"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "sudafrica vs canada",
+        "score": 650,
+        "geos": [
+          "CO",
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "sudafrica vs canada",
+            "geo": "CO",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Cuándo juegan Canadá vs. Sudáfrica por los 16avos del Mundial 2026: equipo, fecha, hora y TV en vivo",
+                "url": "https://www.espn.com.co/futbol/mundial/nota/_/id/16912341/canada-vs-sudafrica-16avos-mundial-2026-equipo-fecha-hora-y-tv-en-vivo",
+                "source": "ESPN Colombia"
+              },
+              {
+                "title": "Sudáfrica se mide a Canadá por el primer boleto a los octavos de final del Mundial: día, hora y por dónde ver",
+                "url": "https://www.eltiempo.com/deportes/futbol-internacional/sudafrica-se-mide-a-canada-por-el-primer-boleto-a-los-octavos-de-final-del-mundial-dia-hora-y-por-donde-ver-3567578",
+                "source": "ELTIEMPO.com"
+              },
+              {
+                "title": "Mundial 2026, últimas noticias en directo | Canadá y Sudáfrica inauguran dieciseisavos",
+                "url": "https://elpais.com/deportes/mundial-futbol/2026-06-28/resumen-y-ultimas-noticias-de-la-copa-mundial-de-futbol.html",
+                "source": "EL PAÍS"
+              }
+            ]
+          },
+          {
+            "query": "sudafrica vs canada",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Quiénes juegan MAÑANA domingo 28 de junio en el Mundial 2026: programación de partidos, horarios y dónde ve...",
+                "url": "https://bolavip.com/pe/mundial/quienes-juegan-manana-domingo-28-de-junio-en-el-mundial-2026-programacion-de-partidos-horarios-y-donde-ver-en-peru",
+                "source": "Bolavip Perú"
+              },
+              {
+                "title": "Sudáfrica vs. Canadá EN VIVO: sigue la previa del primer partido de 16avos de final del Mundial 2026",
+                "url": "https://elcomercio.pe/deporte-total/futbol-mundial/sudafrica-vs-canada-en-vivo-gratis-hoy-ver-transmision-del-partido-por-mundial-2026-lbposting-noticia/",
+                "source": "El Comercio Perú"
+              },
+              {
+                "title": "Mundial 2026, últimas noticias en directo | Canadá y Sudáfrica inauguran dieciseisavos",
+                "url": "https://elpais.com/deportes/mundial-futbol/2026-06-28/resumen-y-ultimas-noticias-de-la-copa-mundial-de-futbol.html",
+                "source": "EL PAÍS"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "goleadores del mundial 2026",
+        "score": 500,
+        "geos": [
+          "CO"
+        ],
+        "samples": [
+          {
+            "query": "goleadores del mundial 2026",
+            "geo": "CO",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Así está la tabla de goleadores del Mundial 2026",
+                "url": "https://cnnespanol.cnn.com/2026/06/26/deportes/tabla-goleadores-mundial-2026-orix",
+                "source": "CNN en Español"
+              },
+              {
+                "title": "No tenía botines, lo premiaron con un fusil y se retiró a los 28 años: Just Fontaine, el dueño del récord imposible que Messi busca romper",
+                "url": "https://www.infobae.com/deportes/2026/06/27/no-tenia-botines-lo-premiaron-con-un-fusil-y-se-retiro-a-los-28-anos-just-fontaine-el-dueno-del-record-imposible-que-messi-busca-romper/",
+                "source": "Infobae"
+              },
+              {
+                "title": "Messi, Mbappé y Klose son los máximos goleadores de los mundiales",
+                "url": "https://www.larepublica.co/ocio/messi-mbappe-y-klose-son-los-maximos-goleadores-de-los-mundiales-4424705",
+                "source": "LaRepublica.co"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "algeria vs",
+        "score": 450,
+        "geos": [
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "algeria vs",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Algeria and Austria&apos;s dramatic draw sends Iran out of World Cup",
+                "url": "https://www.espn.com/soccer/story/_/id/49203568/algeria-austria-iran-2026-world-cup-draw-advance-eliminated",
+                "source": "ESPN"
+              },
+              {
+                "title": "Algeria vs Austria Extended Highlights | 2026 FIFA World Cup™",
+                "url": "https://www.foxsports.com/watch/fmc-z00ebnzhnz3yr4gx",
+                "source": "FOX Sports"
+              },
+              {
+                "title": "Algeria vs. Austria: The World Cup match neither team wants to win",
+                "url": "https://sports.yahoo.com/soccer/article/algeria-vs-austria-the-world-cup-match-neither-team-wants-to-win-163412122.html",
+                "source": "Yahoo Sports"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "argentina vs cabo verde",
+        "score": 400,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "argentina vs cabo verde",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "A qué hora y dónde ver el Argentina vs. Cabo Verde del Mundial 2026",
+                "url": "https://www.tudn.com/mundial-2026/a-que-hora-y-donde-ver-el-partido-argentina-vs-cabo-verde-del-mundial-2026-video",
+                "source": "TUDN"
+              },
+              {
+                "title": "Tras confirmarse el cruce con Cabo Verde en 16avos, así es el hipotético camino de Argentina hasta la final del Mundial 2026",
+                "url": "https://www.infobae.com/deportes/2026/06/27/tras-confirmarse-el-cruce-con-cabo-verde-en-16avos-asi-es-el-hipotetico-camino-de-argentina-hasta-la-final-del-mundial-2026/",
+                "source": "Infobae"
+              },
+              {
+                "title": "La tabla de posiciones del Grupo J del Mundial 2026: resultados y clasificados a 16avos de final",
+                "url": "https://www.ole.com.ar/ecuador/mundial-2026/tabla-posiciones-grupo-j-mundial-resultados-clasificados-argentina-jordania-argelia-australia_0_z55AzJLbWm.html",
+                "source": "Olé"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "paises bajos vs marruecos",
+        "score": 280,
+        "geos": [
+          "MX"
+        ],
+        "samples": [
+          {
+            "query": "paises bajos vs marruecos",
+            "geo": "MX",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Cuándo juegan Países Bajos vs. Marruecos por los 16avos del Mundial 2026: equipo, fecha, hora y TV en vivo",
+                "url": "https://www.espn.com.mx/futbol/mundial/nota/_/id/16913302/paises-bajos-vs-marruecos-16avos-mundial-2026-equipo-fecha-hora-y-tv-en-vivo",
+                "source": "ESPN México"
+              },
+              {
+                "title": "¡Partidazo! Países Bajos y Marruecos chocarán en Monterrey",
+                "url": "https://www.telemundo.com/deportes/copa-mundial-de-la-fifa-2026/partidazo-paises-bajos-y-marruecos-chocaran-en-monterrey-rcna352060",
+                "source": "Telemundo"
+              },
+              {
+                "title": "Feliz Janssen por visita de la &apos;Oranje&apos; a Monterrey",
+                "url": "https://www.elnorte.com/feliz-janssen-por-visita-de-la-oranje-a-monterrey/ar3230316",
+                "source": "El Norte"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "paises eliminados del mundial 2026",
+        "score": 280,
+        "geos": [
+          "MX"
+        ],
+        "samples": [
+          {
+            "query": "paises eliminados del mundial 2026",
+            "geo": "MX",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "World Cup: Grades for every eliminated team as they exit the tournament",
+                "url": "https://www.espn.com/soccer/story/_/id/49178425/world-cup-grades-every-eliminated-team-rating-exit-tournament",
+                "source": "ESPN"
+              },
+              {
+                "title": "Ranking All 32 Teams Left in the 2026 World Cup",
+                "url": "https://www.si.com/soccer/ranking-all-32-teams-left-2026-world-cup",
+                "source": "Sports Illustrated"
+              },
+              {
+                "title": "Which teams are eliminated from World Cup? Updated bracket ahead of Round of 32",
+                "url": "https://www.usatoday.com/story/sports/soccer/worldcup/2026/06/26/world-cup-eliminated-teams-round-32/90706269007/",
+                "source": "USA Today"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "iran mundial 2026",
+        "score": 280,
+        "geos": [
+          "MX"
+        ],
+        "samples": [
+          {
+            "query": "iran mundial 2026",
+            "geo": "MX",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "“Esta es una Copa del Mundo desastrosa\", Mehdi Tarem, capitán de Irán",
+                "url": "https://www.jornada.com.mx/noticia/2026/06/27/mundial/solo-con-honor-se-puede-mantener-la-cabeza-alta-dice-iran-en-nota-tras-partido-ante-egipto",
+                "source": "La Jornada"
+              },
+              {
+                "title": "El sufrimiento de Irán en el Mundial 2026",
+                "url": "https://www.reforma.com/el-sufrimiento-de-iran-en-el-mundial-2026/ar3230807",
+                "source": "Reforma"
+              },
+              {
+                "title": "Aman México, pero Taremi explota ante FIFA por el mal trato a Irán en Mundial: \"Hacen todo para eliminarnos\"",
+                "url": "https://www.marca.com/mx/futbol/mundial/2026/06/27/6a400f9be2704edd148b458d.html",
+                "source": "MARCA"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "fifa world cup 2026™",
+        "score": 260,
+        "geos": [
+          "AR"
+        ],
+        "samples": [
+          {
+            "query": "fifa world cup 2026™",
+            "geo": "AR",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "World Cup: Grades for every eliminated team as they exit the tournament",
+                "url": "https://www.espn.com/soccer/story/_/id/49178425/world-cup-grades-every-eliminated-team-rating-exit-tournament",
+                "source": "ESPN"
+              },
+              {
+                "title": "Ranking All 32 Teams Left in the 2026 World Cup",
+                "url": "https://www.si.com/soccer/ranking-all-32-teams-left-2026-world-cup",
+                "source": "Sports Illustrated"
+              },
+              {
+                "title": "Which teams are eliminated from World Cup? Updated bracket ahead of Round of 32",
+                "url": "https://www.usatoday.com/story/sports/soccer/worldcup/2026/06/26/world-cup-eliminated-teams-round-32/90706269007/",
+                "source": "USA Today"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "barco argentina",
+        "score": 200,
+        "geos": [
+          "CO"
+        ],
+        "samples": [
+          {
+            "query": "barco argentina",
+            "geo": "CO",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Sin Leo, pero con Lea: Paredes se vistió de Messi en la medular",
+                "url": "https://www.marca.com/futbol/mundial/2026/06/28/leo-lea-paredes-vistio-messi-medular.html",
+                "source": "MARCA"
+              },
+              {
+                "title": "El veinticinqueño Valentín Barco debutó en un Mundial aprovechando la rotación de Argentina vs. Jordania",
+                "url": "https://www.lanoticia1.com/noticia/el-veinticinqueno-valentin-barco-debuto-en-un-mundial-aprovechando-la-rotacion-de-argentina-versus-jordania",
+                "source": "La Noticia 1"
+              },
+              {
+                "title": "Boca en el Mundial 2026: Paredes lideró la orquesta de Argentina y debutó el Colo Barco",
+                "url": "https://planetabj.com/seleccion-argentina/boca-en-el-mundial-2026-paredes-lidero-la-orquesta-de-argentina-y-debuto-el-colo-barco/",
+                "source": "Planeta Boca Juniors"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "josé manuel lópez",
+        "score": 180,
+        "geos": [
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "josé manuel lópez",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "El \"Flaco\" López tuvo su estreno mundialista con la Selección",
+                "url": "https://www.cadenaderadios.com.ar/noticia/85184_el-flaco-lpez-tuvo-su-estreno-mundialista-con-la-seleccin-.htm",
+                "source": "Cadena de Radios"
+              },
+              {
+                "title": "Quién es el Flaco López, el número 21 de la Selección Argentina en el Mundial 2026",
+                "url": "https://tn.com.ar/deportes/mundial/2026/2026/06/28/quien-es-el-flaco-lopez-el-numero-21-seleccion-argentina-en-el-mundial-2026/",
+                "source": "TN"
+              },
+              {
+                "title": "Quién es José López, el delantero en el que Lionel Scaloni confió: de sufrir a brillar en Lanús y al Mundial 2026",
+                "url": "https://www.eldestapeweb.com/mundial/resiliencia-pura-flaco-lopez-sufrir-brillar-lanus-mundial-2026-2026627212911",
+                "source": "El Destape"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "austria",
+        "score": 180,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "austria",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Algeria and Austria&apos;s dramatic draw sends Iran out of World Cup",
+                "url": "https://www.espn.com/soccer/story/_/id/49203568/algeria-austria-iran-2026-world-cup-draw-advance-eliminated",
+                "source": "ESPN"
+              },
+              {
+                "title": "The World Cup game that no one wants to win",
+                "url": "https://edition.cnn.com/2026/06/27/sport/the-beautiful-game-june-27",
+                "source": "CNN"
+              },
+              {
+                "title": "Algeria vs Austria Extended Highlights | 2026 FIFA World Cup™",
+                "url": "https://www.foxsports.com/watch/fmc-z00ebnzhnz3yr4gx",
+                "source": "FOX Sports"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "a qué hora juega argentina",
+        "score": 180,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "a qué hora juega argentina",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Mundial 2026: qué precisa Uruguay para clasificar y los resultados que debe mirar",
+                "url": "https://www.montevideo.com.uy/Deportes/Mundial-2026-que-precisa-Uruguay-para-clasificar-y-los-resultados-que-debe-mirar-uc966400",
+                "source": "Montevideo Portal"
+              },
+              {
+                "title": "¿Qué necesita Uruguay para clasificar? Qué alentar en cada partido y la calculadora celeste para hacer los números",
+                "url": "https://www.elobservador.com.uy/mundial-2026/que-necesita-uruguay-clasificar-que-alentar-cada-partido-y-la-calculadora-hacer-los-numeros-n6048802",
+                "source": "El Observador"
+              },
+              {
+                "title": "Posibles alineaciones de Uruguay vs. España por la fecha 3 del Grupo H del Mundial 2026 hoy 26 de junio",
+                "url": "https://www.elpais.com.uy/ovacion/mundial/posibles-alineaciones-de-uruguay-vs-espana-por-la-fecha-3-del-grupo-h-del-mundial-2026-hoy-26-de-junio",
+                "source": "EL PAÍS Uruguay"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "cruces mundial 2026",
+        "score": 180,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "cruces mundial 2026",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Así quedaron los cruces de los dieciseisavos de final del Mundial 2026 que empiezan este domingo",
+                "url": "https://www.elpais.com.uy/ovacion/mundial/asi-serian-los-cruces-de-16avos-de-final-del-mundial-2026-si-la-fase-de-grupos-terminara-ahora",
+                "source": "EL PAÍS Uruguay"
+              },
+              {
+                "title": "Se completó el cuadro de los 16avos de final del Mundial 2026: días, horarios y la agenda completa de todos los partidos",
+                "url": "https://www.infobae.com/deportes/2026/06/27/asi-quedaron-los-cruces-de-16avos-de-final-del-mundial-dias-horarios-y-la-agenda-completa/",
+                "source": "Infobae"
+              },
+              {
+                "title": "Mundial 2026: así se juegan los dieciseisavos de final",
+                "url": "https://ladiaria.com.uy/deporte/articulo/2026/6/mundial-2026-asi-se-juegan-los-dieciseisavos-de-final/",
+                "source": "la diaria"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "pt": [
+      {
+        "query": "posiciones de selección de fútbol de argelia contra selección de fútbol de austria",
+        "score": 2600,
+        "geos": [
+          "BR"
+        ],
+        "samples": [
+          {
+            "query": "posiciones de selección de fútbol de argelia contra selección de fútbol de austria",
+            "geo": "BR",
+            "language": "pt",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "Locura en el 96′: Austria, rival de España",
+                "url": "https://as.com/futbol/mundial/locura-en-el-96-austria-rival-de-espana-f202606-n/",
+                "source": "Diario AS"
+              },
+              {
+                "title": "Austria se cita con España tras empatar 3-3 con Argelia, que también llega a dieciseisavos",
+                "url": "https://efe.com/deportes/2026-06-28/austria-empate-argelia-mundial-clasificacion-dieciseisavos/",
+                "source": "EFE - Agencia de noticias"
+              },
+              {
+                "title": "Argelia 3-3 Austria · Mundial 2026: Mahrez y Kalajdzic firman un empate dramático en el descuento",
+                "url": "https://www.cibercuba.com/noticias/2026-06-28-u1-e199894-s27066-nid333609-argelia-3-3-austria-mundial-2026-mahrez-kalajdzic",
+                "source": "CiberCuba"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "argentina vs",
+        "score": 500,
+        "geos": [
+          "PT"
+        ],
+        "samples": [
+          {
+            "query": "argentina vs",
+            "geo": "PT",
+            "language": "pt",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Jordan vs Argentina Highlights | 2026 FIFA World Cup™",
+                "url": "https://www.foxsports.com/watch/fmc-qsulw8ohm86o0deh",
+                "source": "FOX Sports"
+              },
+              {
+                "title": "Lionel Messi to start on bench for Argentina group finale",
+                "url": "https://www.espn.com/soccer/story/_/id/49191791/lionel-messi-argentina-bench-jordan-fifa-2026-world-cup",
+                "source": "ESPN"
+              },
+              {
+                "title": "Argentina vs. Jordan odds, prediction, time: 2026 World Cup picks, best bets from expert on 18-8 roll",
+                "url": "https://www.cbssports.com/soccer/news/argentina-jordan-odds-prediction-line-time-messi-status-2026-world-cup-picks-best-bets/",
+                "source": "CBS Sports"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "portugal croatia",
+        "score": 100,
+        "geos": [
+          "PT"
+        ],
+        "samples": [
+          {
+            "query": "portugal croatia",
+            "geo": "PT",
+            "language": "pt",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Which teams could play in Toronto for FIFA World Cup knockout match",
+                "url": "https://www.blogto.com/sports_play/2026/06/toronto-fifa-world-cup-knockout-match/",
+                "source": "blogTO"
+              },
+              {
+                "title": "Croatia World Cup 2026: Route to the final, manager, squad depth and tactical analysis",
+                "url": "https://www.squawka.com/en/news/world-cup/croatia-world-cup-2026-route-to-the-final/",
+                "source": "Squawka"
+              },
+              {
+                "title": "Ticket prices skyrocket for Portugal game against Croatia in Toronto",
+                "url": "https://www.reuters.com/sports/soccer/ticket-prices-skyrocket-portugal-game-against-croatia-toronto-2026-06-28/",
+                "source": "Reuters"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "wm 2026",
+        "score": 100,
+        "geos": [
+          "PT"
+        ],
+        "samples": [
+          {
+            "query": "wm 2026",
+            "geo": "PT",
+            "language": "pt",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "(S+) WM 2026 News: Verband cancelt Charterflug – Uruguayer müssen nach WM-Aus wohl selbst nach Hause finden",
+                "url": "https://www.spiegel.de/sport/fussball/wm-2026-news-heute-uruguays-spieler-muessen-per-linienflug-nachhause-oesterreich-eine-runde-weiter-a-64122cf8-c179-41ac-91fc-a43cec288a39",
+                "source": "Spiegel"
+              },
+              {
+                "title": "WM 2026: Unfassbare Nachspielzeit! Das dramatische Österreich-Finale",
+                "url": "https://www.bild.de/sport/fussball/wm-2026-unfassbare-nachspielzeit-das-dramatische-oesterreich-finale-6a407dd147f368e955ce8872",
+                "source": "BILD"
+              },
+              {
+                "title": "WM 2026: Mit Spektakel pur in die K.o.-Runde - Algerien und Österreich weiter",
+                "url": "https://www.sportschau.de/fussball/fifa-wm-2026/mit-spektakel-pur-in-die-ko-runde-algerien-und-oesterreich-weiter,wm-spielbericht-algerien-oesterreich-100.html",
+                "source": "sportschau.de"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "it": [
+      {
+        "query": "giappone brasile",
+        "score": 180,
+        "geos": [
+          "IT"
+        ],
+        "samples": [
+          {
+            "query": "giappone brasile",
+            "geo": "IT",
+            "language": "it",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Sedicesimi di finale, Mariani arbitrerà Brasile-Giappone",
+                "url": "https://www.sportmediaset.mediaset.it/speciale/mondiali-2026/sedicesimi-di-finale-mariani-arbitrera-brasile-giappone_113686280-202602k.shtml",
+                "source": "Sportmediaset"
+              },
+              {
+                "title": "Brasile, Rayan e il sogno Mondiale: \"Il gol arriverà naturalmente\"",
+                "url": "https://www.corrieredellosport.it/dugout/video/ultimi-video/5x9hlQsa/brasile-rayan-e-il-sogno-mondiale-il-gol-arrivera-naturalmente",
+                "source": "Corriere dello Sport"
+              },
+              {
+                "title": "Sedicesimi Mondiali 2026, Brasile-Giappone: formazioni, orario e dove vederla in tv e diretta streaming",
+                "url": "https://www.dazn.com/it-IT/news/altro/brasile-giappone-mondiali-2026-sedicesimi-streaming-formazioni-orario-dove-vedere/1t2fopvg2fizc1pbvig37qaeu6",
+                "source": "DAZN"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ja": [
+      {
+        "query": "鈴木 奈穂子",
+        "score": 1400,
+        "geos": [
+          "JP"
+        ],
+        "samples": [
+          {
+            "query": "鈴木 奈穂子",
+            "geo": "JP",
+            "language": "ja",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "NHK鈴木奈穂子アナ「2人が再びタッグを組みます」",
+                "url": "https://www.sanspo.com/article/20260628-YDSRWW3OGRGF5LOP7NXO2JVZR4/?outputType=theme_soccer_worldcup",
+                "source": "サンスポ"
+              },
+              {
+                "title": "「なんでやねん！」「うざい」がまた…日本対ブラジルでの“再登場”決定に反響！「楽しみ笑」「最高」【W杯】",
+                "url": "https://news.yahoo.co.jp/articles/56438ff59efdaea3d89d23544b5294691bddd259",
+                "source": "Yahoo!ニュース"
+              },
+              {
+                "title": "【6月30日】サッカー日本代表 vs ブラジル代表｜地上波テレビ放送・ネット配信・中継｜スコア結果｜実況・解説｜FIFAワールドカップ2026",
+                "url": "https://www.soccer-king.jp/news/japan/national/fixed/2177417.html",
+                "source": "サッカーキング"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "fr": [
+      {
+        "query": "classement équipe d&apos;algérie de football – équipe d&apos;autriche de football",
+        "score": 45000,
+        "geos": [
+          "MA"
+        ],
+        "samples": [
+          {
+            "query": "classement équipe d&apos;algérie de football – équipe d&apos;autriche de football",
+            "geo": "MA",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 50000,
+            "articles": [
+              {
+                "title": "Algérie - Autriche : Les Fennecs qualifiés au bout d&apos;un match rocambolesque",
+                "url": "https://www.france24.com/fr/sports/20260628-alg%C3%A9rie-autriche-en-direct-pour-les-fennecs-et-das-team-une-deuxi%C3%A8me-place-en-jeu",
+                "source": "France 24"
+              },
+              {
+                "title": "Coupe du monde 2026 : Messi encore buteur, le Portugal a souffert et l’Algérie se qualifie après une fin de match folle... ce que vous avez raté la nuit dernière",
+                "url": "https://www.lefigaro.fr/sports/football/coupe-du-monde/coupe-du-monde-2026-messi-encore-buteur-le-portugal-a-souffert-et-l-algerie-se-qualifie-apres-une-fin-de-match-folle-20260628",
+                "source": "Le Figaro"
+              },
+              {
+                "title": "Le finish incroyable de l&apos;Autriche, le moment d&apos;histoire pour la RD Congo, et le nouveau but de Lionel Messi, en sortie de banc... Ce qu&apos;il ne fallait pas manquer cette nuit à la Coupe du monde",
+                "url": "https://www.lequipe.fr/Football/Actualites/Le-finish-incroyable-de-l-autriche-le-moment-d-histoire-pour-la-rd-congo-et-le-nouveau-but-de-lionel-messi-en-sortie-de-banc-ce-qu-il-ne-fallait-pas-manquer-cette-nuit-a-la-coupe-du-monde/1699120",
+                "source": "L&apos;Équipe"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "lionel messi",
+        "score": 1800,
+        "geos": [
+          "MA"
+        ],
+        "samples": [
+          {
+            "query": "lionel messi",
+            "geo": "MA",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "FIFA World Cup Group J LIVE: Jordan vs Argentina - build-up, team news, TV coverage & live text commentary",
+                "url": "https://www.bbc.com/sport/football/live/c20ye67xgykt",
+                "source": "BBC"
+              },
+              {
+                "title": "Seven goals and counting – Lionel Messi breaks yet another World Cup record",
+                "url": "https://www.transfermarkt.com/seven-goals-and-counting-lionel-messi-breaks-yet-another-world-cup-record/view/news/481946",
+                "source": "Transfermarkt"
+              },
+              {
+                "title": "God’s right hand leaves his mark on the World Cup once again",
+                "url": "https://www.israelhayom.com/2026/06/28/gods-right-hand-leaves-his-mark-on-the-world-cup-once-again/",
+                "source": "www.israelhayom.com"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "tableau coupe du monde 2026",
+        "score": 900,
+        "geos": [
+          "MA"
+        ],
+        "samples": [
+          {
+            "query": "tableau coupe du monde 2026",
+            "geo": "MA",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "Le tableau final de la Coupe du monde : les 16es de finale complets",
+                "url": "https://www.lequipe.fr/Football/Actualites/Coupe-du-monde-2026-decouvrez-en-temps-reel-les-affiches-des-16es-de-finale/1697945",
+                "source": "L&apos;Équipe"
+              },
+              {
+                "title": "Espagne-Portugal en 8e, voie royale pour l&apos;Argentine... Le tableau de la phase finale",
+                "url": "https://www.eurosport.fr/football/coupe-du-monde/2026/coupe-du-monde-2026-un-potentiel-espagne-portugal-en-8e-la-voie-royale-pour-largentine...-voici-le-tableau-exact-de-la-phase-finale_sto23313897/story.shtml",
+                "source": "Eurosport"
+              },
+              {
+                "title": "Coupe du monde 2026 : Le classement provisoire des meilleurs 3es",
+                "url": "https://www.20minutes.fr/sport/football/4231399-20260626-coupe-monde-2026-classement-provisoire-meilleurs-3es",
+                "source": "20 Minutes"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "world cup 2026",
+        "score": 450,
+        "geos": [
+          "MA"
+        ],
+        "samples": [
+          {
+            "query": "world cup 2026",
+            "geo": "MA",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "World Cup 2026: England progress as Scotland crash out and Messi scores",
+                "url": "https://www.bbc.com/sport/football/live/c8023448dpmt",
+                "source": "BBC"
+              },
+              {
+                "title": "Steve Clarke departs as Scotland Men’s Head Coach",
+                "url": "https://www.scottishfa.co.uk/en/news/steve-clarke-departs-as-scotland-mens-head-coach",
+                "source": "Scottish Football Association"
+              },
+              {
+                "title": "[Official Announcement] \"Stepping Down as Manager\" Final Battle for Third Place in Group → Failure to Reach Round of 32... &apos;Voluntary Resignation&apos; of Legendary Coach Steve Clark Marks End of Seven-Year Partnership with Scotland",
+                "url": "https://www.starnewskorea.com/en/sports/2026/06/28/2026062814033227913",
+                "source": "스타뉴스"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "fifa world cup brackets",
+        "score": 90,
+        "geos": [
+          "MA"
+        ],
+        "samples": [
+          {
+            "query": "fifa world cup brackets",
+            "geo": "MA",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "World Cup 2026 bracket and knockout fixtures - who&apos;s facing who in the last 32 and route to final",
+                "url": "https://www.skysports.com/football/news/12098/13556636/world-cup-2026-bracket-and-knockout-fixtures-whos-facing-who-in-the-last-32-and-route-to-final",
+                "source": "Sky Sports"
+              },
+              {
+                "title": "Which World Cup third-place teams advanced to knockout stage? - The Athletic",
+                "url": "https://www.nytimes.com/athletic/7390982/2026/06/28/world-cup-third-place-teams-qualify-knockout/",
+                "source": "The New York Times"
+              },
+              {
+                "title": "World Cup 2026: third-place table, the last 32 lineup and who has gone home",
+                "url": "https://www.theguardian.com/football/2026/jun/24/world-cup-groups-permutations-round-of-32-usa-mexico-canada",
+                "source": "The Guardian"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "fifa world cup standings",
+        "score": 90,
+        "geos": [
+          "MA"
+        ],
+        "samples": [
+          {
+            "query": "fifa world cup standings",
+            "geo": "MA",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "FIFA World Cup 2026: Saturday schedule, Round of 32 standings, predictions",
+                "url": "https://www.aljazeera.com/sports/2026/6/27/fifa-world-cup-2026-saturday-schedule-round-of-32-standings-predictions",
+                "source": "Al Jazeera"
+              },
+              {
+                "title": "2026 World Cup, Matchday 17: Match thread and discussion",
+                "url": "https://www.starsandstripesfc.com/fifa-world-cup/44425/2026-world-cup-matchday-17-match-thread-and-discussion",
+                "source": "Stars and Stripes FC"
+              },
+              {
+                "title": "World Cup Picks: Group Play Finale Offers Bettors Upsets, Value and Record Crowds",
+                "url": "https://blog.betway.com/ca/soccer/world-cup-picks-group-play-finale-offers-bettors-upsets-value-and-record-crowds/",
+                "source": "Betway Insider"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "topic": "lionel messi",
+      "type": "noticia",
+      "slugSuggestion": "lionel-messi",
+      "language": "es",
+      "geos": [
+        "MX",
+        "AR",
+        "CO",
+        "CL",
+        "PE",
+        "EC",
+        "UY"
+      ],
+      "score": 93480,
+      "reason": "Google Trends daily MX con 20,000 búsquedas · 3 artículos noticiosos referenciando \"lionel messi\"",
+      "proposedPath": "/noticias/lionel-messi",
+      "evidence": [
+        {
+          "query": "lionel messi",
+          "geo": "MX",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 20000,
+          "articles": [
+            {
+              "title": "FIFA World Cup Group J LIVE: Jordan vs Argentina - build-up, team news, TV coverage & live text commentary",
+              "url": "https://www.bbc.com/sport/football/live/c20ye67xgykt",
+              "source": "BBC"
+            },
+            {
+              "title": "Lionel Messi scores free kick to break another World Cup record as Argentina beat Jordan: Live updates and reaction",
+              "url": "https://www.nytimes.com/athletic/live-blogs/jordan-argentina-messi-score-result-match-time/Gs0oFLN9UhCW/",
+              "source": "The New York Times"
+            },
+            {
+              "title": "Jordan vs Argentina, Algeria vs Austria LIVE! World Cup 2026 Group J fixtures, scores, live updates and team news",
+              "url": "https://www.skysports.com/football/live-blog/12309/13557088/jordan-vs-argentina-algeria-vs-austria-live-world-cup-2026-group-j-fixtures-scores-live-updates-and-team-news",
+              "source": "Sky Sports"
+            }
+          ]
+        },
+        {
+          "query": "lionel messi",
+          "geo": "AR",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 20000,
+          "articles": [
+            {
+              "title": "FIFA World Cup Group J LIVE: Jordan vs Argentina - build-up, team news, TV coverage & live text commentary",
+              "url": "https://www.bbc.com/sport/football/live/c20ye67xgykt",
+              "source": "BBC"
+            },
+            {
+              "title": "Jordan 1-3 Argentina Stats: Messi Scores Again to Make More World Cup History",
+              "url": "https://theanalyst.com/articles/jordan-vs-argentina-stats-world-cup-2026",
+              "source": "Opta Analyst"
+            },
+            {
+              "title": "Lionel Messi scores free kick to break another World Cup record as Argentina beat Jordan: Live updates and reaction",
+              "url": "https://www.nytimes.com/athletic/live-blogs/jordan-argentina-messi-score-result-match-time/Gs0oFLN9UhCW/",
+              "source": "The New York Times"
+            }
+          ]
+        },
+        {
+          "query": "lionel messi",
+          "geo": "CO",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 10000,
+          "articles": [
+            {
+              "title": "FIFA World Cup Group J LIVE: Jordan vs Argentina - build-up, team news, TV coverage & live text commentary",
+              "url": "https://www.bbc.com/sport/football/live/c20ye67xgykt",
+              "source": "BBC"
+            },
+            {
+              "title": "Jordan 1-3 Argentina Stats: Messi Scores Again to Make More World Cup History",
+              "url": "https://theanalyst.com/articles/jordan-vs-argentina-stats-world-cup-2026",
+              "source": "Opta Analyst"
+            },
+            {
+              "title": "Every goal of Lionel Messi’s record-breaking run of SEVEN consecutive World Cup matches",
+              "url": "https://onefootball.com/fr/news/every-goal-of-lionel-messis-record-breaking-run-of-seven-consecutive-world-cup-matches-43067999",
+              "source": "OneFootball"
+            }
+          ]
+        },
+        {
+          "query": "lionel messi",
+          "geo": "CL",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 5000,
+          "articles": [
+            {
+              "title": "FIFA World Cup Group J LIVE: Jordan vs Argentina - build-up, team news, TV coverage & live text commentary",
+              "url": "https://www.bbc.com/sport/football/live/c20ye67xgykt",
+              "source": "BBC"
+            },
+            {
+              "title": "Every goal of Lionel Messi’s record-breaking run of SEVEN consecutive World Cup matches",
+              "url": "https://onefootball.com/fr/news/every-goal-of-lionel-messis-record-breaking-run-of-seven-consecutive-world-cup-matches-43067999",
+              "source": "OneFootball"
+            },
+            {
+              "title": "An assist from the most unlikely source!",
+              "url": "https://www.foxsports.com/watch-vertical/fmc-ddnb3e8krznoekm0",
+              "source": "FOX Sports"
+            }
+          ]
+        },
+        {
+          "query": "lionel messi",
+          "geo": "PE",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 5000,
+          "articles": [
+            {
+              "title": "FIFA World Cup Group J LIVE: Jordan vs Argentina - build-up, team news, TV coverage & live text commentary",
+              "url": "https://www.bbc.com/sport/football/live/c20ye67xgykt",
+              "source": "BBC"
+            },
+            {
+              "title": "Jordan 1-3 Argentina Stats: Messi Scores Again to Make More World Cup History",
+              "url": "https://theanalyst.com/articles/jordan-vs-argentina-stats-world-cup-2026",
+              "source": "Opta Analyst"
+            },
+            {
+              "title": "Lionel Messi becomes top scorer in World Cup history with 2 more goals for Argentina",
+              "url": "https://apnews.com/article/messi-world-cup-argentina-c42d5dfa81ab0c101e426035ea4cfade",
+              "source": "AP News"
+            }
+          ]
+        },
+        {
+          "query": "lionel messi",
+          "geo": "EC",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 5000,
+          "articles": [
+            {
+              "title": "FIFA World Cup Group J LIVE: Jordan vs Argentina - build-up, team news, TV coverage & live text commentary",
+              "url": "https://www.bbc.com/sport/football/live/c20ye67xgykt",
+              "source": "BBC"
+            },
+            {
+              "title": "Seven goals and counting – Lionel Messi breaks yet another World Cup record",
+              "url": "https://www.transfermarkt.com/seven-goals-and-counting-lionel-messi-breaks-yet-another-world-cup-record/view/news/481946",
+              "source": "Transfermarkt"
+            },
+            {
+              "title": "God’s right hand leaves his mark on the World Cup once again",
+              "url": "https://www.israelhayom.com/2026/06/28/gods-right-hand-leaves-his-mark-on-the-world-cup-once-again/",
+              "source": "www.israelhayom.com"
+            }
+          ]
+        },
+        {
+          "query": "lionel messi",
+          "geo": "UY",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 1000,
+          "articles": [
+            {
+              "title": "FIFA World Cup Group J LIVE: Jordan vs Argentina - build-up, team news, TV coverage & live text commentary",
+              "url": "https://www.bbc.com/sport/football/live/c20ye67xgykt",
+              "source": "BBC"
+            },
+            {
+              "title": "Lionel Messi becomes top scorer in World Cup history with 2 more goals for Argentina",
+              "url": "https://apnews.com/article/messi-world-cup-argentina-c42d5dfa81ab0c101e426035ea4cfade",
+              "source": "AP News"
+            },
+            {
+              "title": "God’s right hand leaves his mark on the World Cup once again",
+              "url": "https://www.israelhayom.com/2026/06/28/gods-right-hand-leaves-his-mark-on-the-world-cup-once-again/",
+              "source": "www.israelhayom.com"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "classement équipe d&apos;algérie de football – équipe d&apos;autriche de football",
+      "type": "noticia",
+      "slugSuggestion": "classement-equipe-d-apos-algerie-de-football-equipe-d-apos-autriche-de-football",
+      "language": "fr",
+      "geos": [
+        "MA"
+      ],
+      "score": 54000,
+      "reason": "Google Trends daily MA con 50,000 búsquedas · 3 artículos noticiosos referenciando \"classement équipe d&apos;algérie de football – équipe d&apos;autriche de football\"",
+      "proposedPath": "/noticias/classement-equipe-d-apos-algerie-de-football-equipe-d-apos-autriche-de-football",
+      "evidence": [
+        {
+          "query": "classement équipe d&apos;algérie de football – équipe d&apos;autriche de football",
+          "geo": "MA",
+          "language": "fr",
+          "source": "google-trends-daily",
+          "score": 50000,
+          "articles": [
+            {
+              "title": "Algérie - Autriche : Les Fennecs qualifiés au bout d&apos;un match rocambolesque",
+              "url": "https://www.france24.com/fr/sports/20260628-alg%C3%A9rie-autriche-en-direct-pour-les-fennecs-et-das-team-une-deuxi%C3%A8me-place-en-jeu",
+              "source": "France 24"
+            },
+            {
+              "title": "Coupe du monde 2026 : Messi encore buteur, le Portugal a souffert et l’Algérie se qualifie après une fin de match folle... ce que vous avez raté la nuit dernière",
+              "url": "https://www.lefigaro.fr/sports/football/coupe-du-monde/coupe-du-monde-2026-messi-encore-buteur-le-portugal-a-souffert-et-l-algerie-se-qualifie-apres-une-fin-de-match-folle-20260628",
+              "source": "Le Figaro"
+            },
+            {
+              "title": "Le finish incroyable de l&apos;Autriche, le moment d&apos;histoire pour la RD Congo, et le nouveau but de Lionel Messi, en sortie de banc... Ce qu&apos;il ne fallait pas manquer cette nuit à la Coupe du monde",
+              "url": "https://www.lequipe.fr/Football/Actualites/Le-finish-incroyable-de-l-autriche-le-moment-d-histoire-pour-la-rd-congo-et-le-nouveau-but-de-lionel-messi-en-sortie-de-banc-ce-qu-il-ne-fallait-pas-manquer-cette-nuit-a-la-coupe-du-monde/1699120",
+              "source": "L&apos;Équipe"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "posiciones de selección de fútbol de la república democrática del congo contra selección de fútbol de uzbekistán",
+      "type": "noticia",
+      "slugSuggestion": "posiciones-de-seleccion-de-futbol-de-la-republica-democratica-del-congo-contra-s",
+      "language": "es",
+      "geos": [
+        "EC"
+      ],
+      "score": 9600,
+      "reason": "Google Trends daily EC con 10,000 búsquedas · 3 artículos noticiosos referenciando \"posiciones de selección de fútbol de la república democrática del congo contra selección de fútbol de uzbekistán\"",
+      "proposedPath": "/noticias/posiciones-de-seleccion-de-futbol-de-la-republica-democratica-del-congo-contra-s",
+      "evidence": [
+        {
+          "query": "posiciones de selección de fútbol de la república democrática del congo contra selección de fútbol de uzbekistán",
+          "geo": "EC",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 10000,
+          "articles": [
+            {
+              "title": "World Cup 2026: DR Congo 3-1 Uzbekistan - Yoane Wissa stars as the Leopards complete comeback win to set up last 32 clash against England",
+              "url": "https://www.skysports.com/football/news/12309/13556707/world-cup-2026-dr-congo-3-1-uzbekistan-yoane-wissa-stars-as-the-leopards-complete-comeback-win-to-set-up-last-32-clash-against-england",
+              "source": "Sky Sports"
+            },
+            {
+              "title": "DR Congo&apos;s Yoane Wissa scores penalty for equalizer vs Uzbekistan | 2026 FIFA World Cup™",
+              "url": "https://www.foxsports.com/watch/fmc-wvpchko5upqomnz6",
+              "source": "FOX Sports"
+            },
+            {
+              "title": "Congo DR 3-1 Uzbekistan (Jun 27, 2026) Game Analysis",
+              "url": "https://www.espn.com/soccer/report/_/gameId/760482",
+              "source": "ESPN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "lionel messi",
+      "type": "noticia",
+      "slugSuggestion": "lionel-messi",
+      "language": "fr",
+      "geos": [
+        "MA"
+      ],
+      "score": 2160,
+      "reason": "Google Trends daily MA con 2,000 búsquedas · 3 artículos noticiosos referenciando \"lionel messi\"",
+      "proposedPath": "/noticias/lionel-messi",
+      "evidence": [
+        {
+          "query": "lionel messi",
+          "geo": "MA",
+          "language": "fr",
+          "source": "google-trends-daily",
+          "score": 2000,
+          "articles": [
+            {
+              "title": "FIFA World Cup Group J LIVE: Jordan vs Argentina - build-up, team news, TV coverage & live text commentary",
+              "url": "https://www.bbc.com/sport/football/live/c20ye67xgykt",
+              "source": "BBC"
+            },
+            {
+              "title": "Seven goals and counting – Lionel Messi breaks yet another World Cup record",
+              "url": "https://www.transfermarkt.com/seven-goals-and-counting-lionel-messi-breaks-yet-another-world-cup-record/view/news/481946",
+              "source": "Transfermarkt"
+            },
+            {
+              "title": "God’s right hand leaves his mark on the World Cup once again",
+              "url": "https://www.israelhayom.com/2026/06/28/gods-right-hand-leaves-his-mark-on-the-world-cup-once-again/",
+              "source": "www.israelhayom.com"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "valentín barco",
+      "type": "noticia",
+      "slugSuggestion": "valentin-barco",
+      "language": "es",
+      "geos": [
+        "CL",
+        "PE"
+      ],
+      "score": 1080,
+      "reason": "Google Trends daily CL con 500 búsquedas · 3 artículos noticiosos referenciando \"valentín barco\"",
+      "proposedPath": "/noticias/valentin-barco",
+      "evidence": [
+        {
+          "query": "valentín barco",
+          "geo": "CL",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 500,
+          "articles": [
+            {
+              "title": "Sin Leo, pero con Lea: Paredes se vistió de Messi en la medular",
+              "url": "https://www.marca.com/futbol/mundial/2026/06/28/leo-lea-paredes-vistio-messi-medular.html",
+              "source": "MARCA"
+            },
+            {
+              "title": "El veinticinqueño Valentín Barco debutó en un Mundial aprovechando la rotación de Argentina vs. Jordania",
+              "url": "https://www.lanoticia1.com/noticia/el-veinticinqueno-valentin-barco-debuto-en-un-mundial-aprovechando-la-rotacion-de-argentina-versus-jordania",
+              "source": "La Noticia 1"
+            },
+            {
+              "title": "Boca en el Mundial 2026: Paredes lideró la orquesta de Argentina y debutó el Colo Barco",
+              "url": "https://planetabj.com/seleccion-argentina/boca-en-el-mundial-2026-paredes-lidero-la-orquesta-de-argentina-y-debuto-el-colo-barco/",
+              "source": "Planeta Boca Juniors"
+            }
+          ]
+        },
+        {
+          "query": "valentín barco",
+          "geo": "PE",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 500,
+          "articles": [
+            {
+              "title": "Sin Leo, pero con Lea: Paredes se vistió de Messi en la medular",
+              "url": "https://www.marca.com/futbol/mundial/2026/06/28/leo-lea-paredes-vistio-messi-medular.html",
+              "source": "MARCA"
+            },
+            {
+              "title": "El veinticinqueño Valentín Barco debutó en un Mundial aprovechando la rotación de Argentina vs. Jordania",
+              "url": "https://www.lanoticia1.com/noticia/el-veinticinqueno-valentin-barco-debuto-en-un-mundial-aprovechando-la-rotacion-de-argentina-versus-jordania",
+              "source": "La Noticia 1"
+            },
+            {
+              "title": "Boca en el Mundial 2026: Paredes lideró la orquesta de Argentina y debutó el Colo Barco",
+              "url": "https://planetabj.com/seleccion-argentina/boca-en-el-mundial-2026-paredes-lidero-la-orquesta-de-argentina-y-debuto-el-colo-barco/",
+              "source": "Planeta Boca Juniors"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "algeria vs austria",
+      "type": "noticia",
+      "slugSuggestion": "algeria-vs-austria",
+      "language": "es",
+      "geos": [
+        "CL"
+      ],
+      "score": 1080,
+      "reason": "Google Trends daily CL con 1,000 búsquedas · 3 artículos noticiosos referenciando \"algeria vs austria\"",
+      "proposedPath": "/noticias/algeria-vs-austria",
+      "evidence": [
+        {
+          "query": "algeria vs austria",
+          "geo": "CL",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 1000,
+          "articles": [
+            {
+              "title": "Algeria and Austria&apos;s dramatic draw sends Iran out of World Cup",
+              "url": "https://www.espn.com/soccer/story/_/id/49203568/algeria-austria-iran-2026-world-cup-draw-advance-eliminated",
+              "source": "ESPN"
+            },
+            {
+              "title": "The World Cup game that no one wants to win",
+              "url": "https://edition.cnn.com/2026/06/27/sport/the-beautiful-game-june-27",
+              "source": "CNN"
+            },
+            {
+              "title": "Algeria vs Austria Extended Highlights | 2026 FIFA World Cup™",
+              "url": "https://www.foxsports.com/watch/fmc-z00ebnzhnz3yr4gx",
+              "source": "FOX Sports"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "sudafrica vs canada",
+      "type": "noticia",
+      "slugSuggestion": "sudafrica-vs-canada",
+      "language": "es",
+      "geos": [
+        "CO",
+        "PE"
+      ],
+      "score": 780,
+      "reason": "Google Trends daily CO con 200 búsquedas · 3 artículos noticiosos referenciando \"sudafrica vs canada\"",
+      "proposedPath": "/noticias/sudafrica-vs-canada",
+      "evidence": [
+        {
+          "query": "sudafrica vs canada",
+          "geo": "CO",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Cuándo juegan Canadá vs. Sudáfrica por los 16avos del Mundial 2026: equipo, fecha, hora y TV en vivo",
+              "url": "https://www.espn.com.co/futbol/mundial/nota/_/id/16912341/canada-vs-sudafrica-16avos-mundial-2026-equipo-fecha-hora-y-tv-en-vivo",
+              "source": "ESPN Colombia"
+            },
+            {
+              "title": "Sudáfrica se mide a Canadá por el primer boleto a los octavos de final del Mundial: día, hora y por dónde ver",
+              "url": "https://www.eltiempo.com/deportes/futbol-internacional/sudafrica-se-mide-a-canada-por-el-primer-boleto-a-los-octavos-de-final-del-mundial-dia-hora-y-por-donde-ver-3567578",
+              "source": "ELTIEMPO.com"
+            },
+            {
+              "title": "Mundial 2026, últimas noticias en directo | Canadá y Sudáfrica inauguran dieciseisavos",
+              "url": "https://elpais.com/deportes/mundial-futbol/2026-06-28/resumen-y-ultimas-noticias-de-la-copa-mundial-de-futbol.html",
+              "source": "EL PAÍS"
+            }
+          ]
+        },
+        {
+          "query": "sudafrica vs canada",
+          "geo": "PE",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 500,
+          "articles": [
+            {
+              "title": "Quiénes juegan MAÑANA domingo 28 de junio en el Mundial 2026: programación de partidos, horarios y dónde ve...",
+              "url": "https://bolavip.com/pe/mundial/quienes-juegan-manana-domingo-28-de-junio-en-el-mundial-2026-programacion-de-partidos-horarios-y-donde-ver-en-peru",
+              "source": "Bolavip Perú"
+            },
+            {
+              "title": "Sudáfrica vs. Canadá EN VIVO: sigue la previa del primer partido de 16avos de final del Mundial 2026",
+              "url": "https://elcomercio.pe/deporte-total/futbol-mundial/sudafrica-vs-canada-en-vivo-gratis-hoy-ver-transmision-del-partido-por-mundial-2026-lbposting-noticia/",
+              "source": "El Comercio Perú"
+            },
+            {
+              "title": "Mundial 2026, últimas noticias en directo | Canadá y Sudáfrica inauguran dieciseisavos",
+              "url": "https://elpais.com/deportes/mundial-futbol/2026-06-28/resumen-y-ultimas-noticias-de-la-copa-mundial-de-futbol.html",
+              "source": "EL PAÍS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "algeria vs",
+      "type": "noticia",
+      "slugSuggestion": "algeria-vs",
+      "language": "es",
+      "geos": [
+        "PE"
+      ],
+      "score": 540,
+      "reason": "Google Trends daily PE con 500 búsquedas · 3 artículos noticiosos referenciando \"algeria vs\"",
+      "proposedPath": "/noticias/algeria-vs",
+      "evidence": [
+        {
+          "query": "algeria vs",
+          "geo": "PE",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 500,
+          "articles": [
+            {
+              "title": "Algeria and Austria&apos;s dramatic draw sends Iran out of World Cup",
+              "url": "https://www.espn.com/soccer/story/_/id/49203568/algeria-austria-iran-2026-world-cup-draw-advance-eliminated",
+              "source": "ESPN"
+            },
+            {
+              "title": "Algeria vs Austria Extended Highlights | 2026 FIFA World Cup™",
+              "url": "https://www.foxsports.com/watch/fmc-z00ebnzhnz3yr4gx",
+              "source": "FOX Sports"
+            },
+            {
+              "title": "Algeria vs. Austria: The World Cup match neither team wants to win",
+              "url": "https://sports.yahoo.com/soccer/article/algeria-vs-austria-the-world-cup-match-neither-team-wants-to-win-163412122.html",
+              "source": "Yahoo Sports"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "iran fifa",
+      "type": "noticia",
+      "slugSuggestion": "iran-fifa",
+      "language": "en",
+      "geos": [
+        "CA"
+      ],
+      "score": 288,
+      "reason": "Google Trends daily CA con 200 búsquedas · 3 artículos noticiosos referenciando \"iran fifa\"",
+      "proposedPath": "/noticias/iran-fifa",
+      "evidence": [
+        {
+          "query": "iran fifa",
+          "geo": "CA",
+          "language": "en",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "‘This must never happen again’: Iran coach hits out at the US and tells Infantino to stand up against hosts",
+              "url": "https://www.theguardian.com/football/2026/jun/27/this-must-never-happen-again-iran-coach-hits-out-at-the-us-and-tells-infantino-to-stand-up-against-hosts",
+              "source": "The Guardian"
+            },
+            {
+              "title": "Iran urge FIFA to stand up to ‘really terrible’ World Cup treatment by US",
+              "url": "https://www.aljazeera.com/sports/2026/6/27/iran-urge-fifa-to-stand-up-to-really-terrible-world-cup-treatment-by-us",
+              "source": "Al Jazeera"
+            },
+            {
+              "title": "World Cup 2026: Iran say they have been treated unfairly by USA",
+              "url": "https://www.bbc.com/sport/football/articles/cze98ywdwlgo",
+              "source": "BBC"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "barco argentina",
+      "type": "noticia",
+      "slugSuggestion": "barco-argentina",
+      "language": "es",
+      "geos": [
+        "CO"
+      ],
+      "score": 240,
+      "reason": "Google Trends daily CO con 200 búsquedas · 3 artículos noticiosos referenciando \"barco argentina\"",
+      "proposedPath": "/noticias/barco-argentina",
+      "evidence": [
+        {
+          "query": "barco argentina",
+          "geo": "CO",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Sin Leo, pero con Lea: Paredes se vistió de Messi en la medular",
+              "url": "https://www.marca.com/futbol/mundial/2026/06/28/leo-lea-paredes-vistio-messi-medular.html",
+              "source": "MARCA"
+            },
+            {
+              "title": "El veinticinqueño Valentín Barco debutó en un Mundial aprovechando la rotación de Argentina vs. Jordania",
+              "url": "https://www.lanoticia1.com/noticia/el-veinticinqueno-valentin-barco-debuto-en-un-mundial-aprovechando-la-rotacion-de-argentina-versus-jordania",
+              "source": "La Noticia 1"
+            },
+            {
+              "title": "Boca en el Mundial 2026: Paredes lideró la orquesta de Argentina y debutó el Colo Barco",
+              "url": "https://planetabj.com/seleccion-argentina/boca-en-el-mundial-2026-paredes-lidero-la-orquesta-de-argentina-y-debuto-el-colo-barco/",
+              "source": "Planeta Boca Juniors"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "josé manuel lópez",
+      "type": "noticia",
+      "slugSuggestion": "jose-manuel-lopez",
+      "language": "es",
+      "geos": [
+        "PE"
+      ],
+      "score": 216,
+      "reason": "Google Trends daily PE con 200 búsquedas · 3 artículos noticiosos referenciando \"josé manuel lópez\"",
+      "proposedPath": "/noticias/jose-manuel-lopez",
+      "evidence": [
+        {
+          "query": "josé manuel lópez",
+          "geo": "PE",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "El \"Flaco\" López tuvo su estreno mundialista con la Selección",
+              "url": "https://www.cadenaderadios.com.ar/noticia/85184_el-flaco-lpez-tuvo-su-estreno-mundialista-con-la-seleccin-.htm",
+              "source": "Cadena de Radios"
+            },
+            {
+              "title": "Quién es el Flaco López, el número 21 de la Selección Argentina en el Mundial 2026",
+              "url": "https://tn.com.ar/deportes/mundial/2026/2026/06/28/quien-es-el-flaco-lopez-el-numero-21-seleccion-argentina-en-el-mundial-2026/",
+              "source": "TN"
+            },
+            {
+              "title": "Quién es José López, el delantero en el que Lionel Scaloni confió: de sufrir a brillar en Lanús y al Mundial 2026",
+              "url": "https://www.eldestapeweb.com/mundial/resiliencia-pura-flaco-lopez-sufrir-brillar-lanus-mundial-2026-2026627212911",
+              "source": "El Destape"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "giappone brasile",
+      "type": "noticia",
+      "slugSuggestion": "giappone-brasile",
+      "language": "it",
+      "geos": [
+        "IT"
+      ],
+      "score": 216,
+      "reason": "Google Trends daily IT con 200 búsquedas · 3 artículos noticiosos referenciando \"giappone brasile\"",
+      "proposedPath": "/noticias/giappone-brasile",
+      "evidence": [
+        {
+          "query": "giappone brasile",
+          "geo": "IT",
+          "language": "it",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Sedicesimi di finale, Mariani arbitrerà Brasile-Giappone",
+              "url": "https://www.sportmediaset.mediaset.it/speciale/mondiali-2026/sedicesimi-di-finale-mariani-arbitrera-brasile-giappone_113686280-202602k.shtml",
+              "source": "Sportmediaset"
+            },
+            {
+              "title": "Brasile, Rayan e il sogno Mondiale: \"Il gol arriverà naturalmente\"",
+              "url": "https://www.corrieredellosport.it/dugout/video/ultimi-video/5x9hlQsa/brasile-rayan-e-il-sogno-mondiale-il-gol-arrivera-naturalmente",
+              "source": "Corriere dello Sport"
+            },
+            {
+              "title": "Sedicesimi Mondiali 2026, Brasile-Giappone: formazioni, orario e dove vederla in tv e diretta streaming",
+              "url": "https://www.dazn.com/it-IT/news/altro/brasile-giappone-mondiali-2026-sedicesimi-streaming-formazioni-orario-dove-vedere/1t2fopvg2fizc1pbvig37qaeu6",
+              "source": "DAZN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "portugal croatia",
+      "type": "noticia",
+      "slugSuggestion": "portugal-croatia",
+      "language": "pt",
+      "geos": [
+        "PT"
+      ],
+      "score": 120,
+      "reason": "Google Trends daily PT con 100 búsquedas · 3 artículos noticiosos referenciando \"portugal croatia\"",
+      "proposedPath": "/noticias/portugal-croatia",
+      "evidence": [
+        {
+          "query": "portugal croatia",
+          "geo": "PT",
+          "language": "pt",
+          "source": "google-trends-daily",
+          "score": 100,
+          "articles": [
+            {
+              "title": "Which teams could play in Toronto for FIFA World Cup knockout match",
+              "url": "https://www.blogto.com/sports_play/2026/06/toronto-fifa-world-cup-knockout-match/",
+              "source": "blogTO"
+            },
+            {
+              "title": "Croatia World Cup 2026: Route to the final, manager, squad depth and tactical analysis",
+              "url": "https://www.squawka.com/en/news/world-cup/croatia-world-cup-2026-route-to-the-final/",
+              "source": "Squawka"
+            },
+            {
+              "title": "Ticket prices skyrocket for Portugal game against Croatia in Toronto",
+              "url": "https://www.reuters.com/sports/soccer/ticket-prices-skyrocket-portugal-game-against-croatia-toronto-2026-06-28/",
+              "source": "Reuters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "fifa world cup brackets",
+      "type": "noticia",
+      "slugSuggestion": "fifa-world-cup-brackets",
+      "language": "fr",
+      "geos": [
+        "MA"
+      ],
+      "score": 108,
+      "reason": "Google Trends daily MA con 100 búsquedas · 3 artículos noticiosos referenciando \"fifa world cup brackets\"",
+      "proposedPath": "/noticias/fifa-world-cup-brackets",
+      "evidence": [
+        {
+          "query": "fifa world cup brackets",
+          "geo": "MA",
+          "language": "fr",
+          "source": "google-trends-daily",
+          "score": 100,
+          "articles": [
+            {
+              "title": "World Cup 2026 bracket and knockout fixtures - who&apos;s facing who in the last 32 and route to final",
+              "url": "https://www.skysports.com/football/news/12098/13556636/world-cup-2026-bracket-and-knockout-fixtures-whos-facing-who-in-the-last-32-and-route-to-final",
+              "source": "Sky Sports"
+            },
+            {
+              "title": "Which World Cup third-place teams advanced to knockout stage? - The Athletic",
+              "url": "https://www.nytimes.com/athletic/7390982/2026/06/28/world-cup-third-place-teams-qualify-knockout/",
+              "source": "The New York Times"
+            },
+            {
+              "title": "World Cup 2026: third-place table, the last 32 lineup and who has gone home",
+              "url": "https://www.theguardian.com/football/2026/jun/24/world-cup-groups-permutations-round-of-32-usa-mexico-canada",
+              "source": "The Guardian"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "fifa world cup standings",
+      "type": "noticia",
+      "slugSuggestion": "fifa-world-cup-standings",
+      "language": "fr",
+      "geos": [
+        "MA"
+      ],
+      "score": 108,
+      "reason": "Google Trends daily MA con 100 búsquedas · 3 artículos noticiosos referenciando \"fifa world cup standings\"",
+      "proposedPath": "/noticias/fifa-world-cup-standings",
+      "evidence": [
+        {
+          "query": "fifa world cup standings",
+          "geo": "MA",
+          "language": "fr",
+          "source": "google-trends-daily",
+          "score": 100,
+          "articles": [
+            {
+              "title": "FIFA World Cup 2026: Saturday schedule, Round of 32 standings, predictions",
+              "url": "https://www.aljazeera.com/sports/2026/6/27/fifa-world-cup-2026-saturday-schedule-round-of-32-standings-predictions",
+              "source": "Al Jazeera"
+            },
+            {
+              "title": "2026 World Cup, Matchday 17: Match thread and discussion",
+              "url": "https://www.starsandstripesfc.com/fifa-world-cup/44425/2026-world-cup-matchday-17-match-thread-and-discussion",
+              "source": "Stars and Stripes FC"
+            },
+            {
+              "title": "World Cup Picks: Group Play Finale Offers Bettors Upsets, Value and Record Crowds",
+              "url": "https://blog.betway.com/ca/soccer/world-cup-picks-group-play-finale-offers-bettors-upsets-value-and-record-crowds/",
+              "source": "Betway Insider"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alreadyCovered": [
+    {
+      "query": "posiciones de selección de fútbol de argelia contra selección de fútbol de austria",
+      "matchUrl": "/selecciones"
+    },
+    {
+      "query": "paises bajos vs marruecos",
+      "matchUrl": "/noticias/tunez-paises-bajos-resultado-mundial-2026"
+    },
+    {
+      "query": "paises eliminados del mundial 2026",
+      "matchUrl": "/coleccionismo/panini-mundial-2026"
+    },
+    {
+      "query": "iran mundial 2026",
+      "matchUrl": "/coleccionismo/panini-mundial-2026"
+    },
+    {
+      "query": "dembele",
+      "matchUrl": "/noticias/convocatoria-francia-mundial-2026-deschamps-26-mbappe-dembele-camavinga-fuera-sorpresa"
+    },
+    {
+      "query": "fifa world cup 2026™",
+      "matchUrl": "/noticias/cesped-mundial-2026-tecnologia-maquinas-fifa"
+    },
+    {
+      "query": "goleadores del mundial 2026",
+      "matchUrl": "/coleccionismo/panini-mundial-2026"
+    },
+    {
+      "query": "posiciones de selección de fútbol de argelia contra selección de fútbol de austria",
+      "matchUrl": "/selecciones"
+    },
+    {
+      "query": "posiciones de selección de fútbol de argelia contra selección de fútbol de austria",
+      "matchUrl": "/selecciones"
+    },
+    {
+      "query": "austria vs",
+      "matchUrl": "/noticias/argelia-austria-resultado-mundial-2026"
+    },
+    {
+      "query": "argentina vs cabo verde",
+      "matchUrl": "/noticias/cabo-verde-arabia-saudi-resultado-mundial-2026"
+    },
+    {
+      "query": "posiciones de selección de fútbol de argelia contra selección de fútbol de austria",
+      "matchUrl": "/selecciones"
+    },
+    {
+      "query": "austria",
+      "matchUrl": "/noticias/argelia-austria-resultado-mundial-2026"
+    },
+    {
+      "query": "a qué hora juega argentina",
+      "matchUrl": "/noticias/cuando-juega-argentina-hoy-argelia-mundial-2026"
+    },
+    {
+      "query": "jordania",
+      "matchUrl": "/noticias/jordania-argentina-resultado-mundial-2026"
+    },
+    {
+      "query": "cruces mundial 2026",
+      "matchUrl": "/coleccionismo/panini-mundial-2026"
+    },
+    {
+      "query": "posiciones de selección de fútbol de argelia contra selección de fútbol de austria",
+      "matchUrl": "/selecciones"
+    },
+    {
+      "query": "wm 2026",
+      "matchUrl": "/2026"
+    },
+    {
+      "query": "argentina vs",
+      "matchUrl": "/ediciones/1978-argentina"
+    },
+    {
+      "query": "round of 32 world cup 2026",
+      "matchUrl": "/coleccionismo/panini-mundial-2026"
+    },
+    {
+      "query": "tableau coupe du monde 2026",
+      "matchUrl": "/coleccionismo/panini-mundial-2026"
+    },
+    {
+      "query": "world cup 2026",
+      "matchUrl": "/coleccionismo/panini-mundial-2026"
+    }
+  ]
+}
