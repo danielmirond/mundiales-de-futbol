@@ -1,0 +1,951 @@
+{
+  "generatedAt": "2026-06-29T11:32:24.523Z",
+  "date": "2026-06-29",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "cabo verde vs argentina",
+      "geo": "MX",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "Argentina va al duelo contra Cabo Verde con recelo y “con los pies sobre la tierra”",
+          "url": "https://www.jornada.com.mx/noticia/2026/06/28/mundial/argentina-va-al-duelo-contra-cabo-verde-con-recelo-y-con-los-pies-sobre-la-tierra",
+          "source": "La Jornada"
+        },
+        {
+          "title": "El historial de la Selección Argentina contra rivales africanos en Mundiales",
+          "url": "https://www.espn.com.mx/futbol/mundial/nota/_/id/16917155/seleccion-argentina-historia-mundial-rivales-africa",
+          "source": "ESPN México"
+        },
+        {
+          "title": "Próximo partido de la selección argentina: cuándo juega vs. Cabo Verde, por el Mundial 2026",
+          "url": "https://es-us.noticias.yahoo.com/deportes/partido-selecci%C3%B3n-argentina-cu%C3%A1ndo-juega-020300484.html",
+          "source": "Yahoo"
+        }
+      ]
+    },
+    {
+      "query": "carlos queiroz",
+      "geo": "CO",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Colombia vs Ghana: el reencuentro con Carlos Queiroz en el Mundial 2026",
+          "url": "https://www.espn.com.co/futbol/mundial/nota/_/id/16922653/colombia-vs-ghana-carlos-queiroz-reencuentro-mundial-2026",
+          "source": "ESPN Colombia"
+        },
+        {
+          "title": "La revancha de Queiroz ante Colombia será por partida doble",
+          "url": "https://www.elnuevosiglo.com.co/futbol/la-revancha-de-queiroz-ante-colombia-sera-por-partida-doble",
+          "source": "El Nuevo Siglo"
+        },
+        {
+          "title": "Carlos Queiroz dio su concepto sobre la derrota de Ghana en el cierre de la fase de grupos: “O ganamos o aprendemos. Hoy aprendimos”",
+          "url": "https://www.infobae.com/colombia/deportes/2026/06/28/carlos-queiroz-dio-su-concepto-sobre-la-derrota-de-ghana-en-el-cierre-de-la-fase-de-grupos-o-ganamos-o-aprendemos-hoy-aprendimos/",
+          "source": "Infobae"
+        }
+      ]
+    },
+    {
+      "query": "brasil vs. japón",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Oliver Atom vuelve al Mundial: Brasil y Japón resolverán el partido que Super Campeones dejó en el aire",
+          "url": "https://as.com/meristation/manga-y-anime/oliver-atom-vuelve-al-mundial-brasil-y-japon-resolveran-el-partido-que-super-campeones-dejo-en-el-aire-f202606-n/",
+          "source": "Diario AS"
+        },
+        {
+          "title": "Ancelotti: \"Esto no es un mata-mata, es un mata y nada más\"",
+          "url": "https://www.marca.com/futbol/mundial/2026/06/29/ancelotti-esto-mata-mata-mata.html",
+          "source": "MARCA"
+        },
+        {
+          "title": "¿Sin Neymar? La posible alineación de Brasil para el partidazo contra Japón por el Mundial 2026",
+          "url": "https://rpp.pe/futbol/mundial-2026/brasil-vs-japon-16vos-mundial-2026-alineacion-canarinha-sin-neymar-para-partido-clave-fotos-noticia-1695082",
+          "source": "RPP"
+        }
+      ]
+    },
+    {
+      "query": "alphonso davies",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Alphonso Davies’ return brightens Canada’s landmark World Cup moment",
+          "url": "https://www.theguardian.com/football/2026/jun/28/alphonso-davies-canada-south-africa-world-cup",
+          "source": "The Guardian"
+        },
+        {
+          "title": "South Africa vs Canada LIVE: FIFA World Cup 2026 last 32 - score, commentary, updates & stats",
+          "url": "https://www.bbc.com/sport/football/live/cjwg760j4jnt?page=6",
+          "source": "BBC"
+        },
+        {
+          "title": "Alphonso Davies is the key to Canada&apos;s success 🇨🇦",
+          "url": "https://www.foxsports.com/watch-vertical/fmc-p0z6o93stana5l84",
+          "source": "FOX Sports"
+        }
+      ]
+    },
+    {
+      "query": "méxico",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Los precios de las entradas están por las nubes: esto cuesta asistir al partido Ecuador vs. México, por los 16avos de final del Mundial",
+          "url": "https://www.primicias.ec/deportes/mundial-2026/seleccion-ecuador/precio-entradas-mexico-16avos-final-estadio-azteca-126579/",
+          "source": "Primicias"
+        },
+        {
+          "title": "México vs. Ecuador: lo que dice la prensa mexicana antes del cruce mundialista",
+          "url": "https://www.elcomercio.com/deportes/futbol/mexico-ecuador-dice-prensa-mexicana-antes-cruce-mundialista/",
+          "source": "El Comercio"
+        },
+        {
+          "title": "‘La altura no los va a afectar tanto’: Agustín Delgado analizó el factor Azteca de cara al México vs. Ecuador en el Mundial 2026",
+          "url": "https://www.eluniverso.com/deportes/futbol/la-altura-no-los-va-a-afectar-tanto-agustin-delgado-analizo-el-factor-azteca-de-cara-al-mexico-vs-ecuador-en-el-mundial-2026-nota/",
+          "source": "El Universo"
+        }
+      ]
+    },
+    {
+      "query": "jessica alba",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Paris Hilton Enjoys Rare Family Outing With Husband Kids at the World Cup",
+          "url": "https://www.instyle.com/paris-hilton-presents-match-ball-world-cup-kids-london-phoenix-12008092",
+          "source": "InStyle"
+        },
+        {
+          "title": "Paris Hilton’s Micro Miniskirt Rides up Her Thighs at FIFA World Cup",
+          "url": "https://www.aol.com/articles/paris-hilton-micro-miniskirt-rides-135534681.html",
+          "source": "AOL.com"
+        },
+        {
+          "title": "Paris Hilton&apos;s 1994 Denim World Cup Shirt Becomes Summer&apos;s Hottest Fashion Trend",
+          "url": "https://www.yahoo.com/entertainment/articles/paris-hiltons-1994-denim-world-021148991.html",
+          "source": "Yahoo"
+        }
+      ]
+    },
+    {
+      "query": "josé mourinho",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Real Madrid legend Casillas reacts to Mourinho’s Bernabeu return: ‘Let’s hope he does well’",
+          "url": "https://ca.sports.yahoo.com/news/real-madrid-legend-casillas-reacts-110500069.html",
+          "source": "Yahoo Sports Canada"
+        },
+        {
+          "title": "José Mourinho Admits He’s Barely Watched the 2026 World Cup: ‘After 10 Minutes, I Switch Off’",
+          "url": "https://sports.yahoo.com/articles/jos-mourinho-admits-barely-watched-190227087.html",
+          "source": "Yahoo Sports"
+        },
+        {
+          "title": "Jose Mourinho predicts FIFA World Cup 2026 title contenders in bold prediction: ‘They should go all the way’ | Football News",
+          "url": "https://www.hindustantimes.com/sports/football/jose-mourinho-predicts-fifa-world-cup-2026-title-contenders-in-bold-prediction-they-should-go-all-the-way-101782412724757.html",
+          "source": "Hindustan Times"
+        }
+      ]
+    },
+    {
+      "query": "spielplan",
+      "geo": "DE",
+      "language": "de",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Fußball-WM 2026: Diese Sender zeigen die Sechzehntelfinals live",
+          "url": "https://www.spiegel.de/sport/fussball/wm-2026-welcher-sender-uebertraegt-welches-sechzehntelfinale-a-f1968d1c-7c9a-4128-9783-f972e1334805",
+          "source": "Spiegel"
+        },
+        {
+          "title": "Fußball-WM 2026: Spielplan und Ergebnisse",
+          "url": "https://web.de/magazine/sport/fussball/wm/spielplan-wm-2026-tv-uebertragung-aktuellen-ergebnisse-42319706",
+          "source": "WEB.DE"
+        },
+        {
+          "title": "WM 2026: Diese K.o.-Spiele gibt es nur bei Magenta",
+          "url": "https://www.bild.de/sport/fussball/ronaldo-und-messi-dabei-diese-k-o-spiele-gibt-es-nur-bei-magentatv-6a40e8a8afe845031b3b1248",
+          "source": "BILD"
+        }
+      ]
+    },
+    {
+      "query": "japan vs brazil",
+      "geo": "AU",
+      "language": "en",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Brazil manager Ancelotti won&apos;t engage in Japan&apos;s &apos;mind games&apos;",
+          "url": "https://www.espn.com.au/football/story/_/id/49211268/brazil-manager-carlo-ancelotti-refuses-engage-japan-mind-games-ahead-round-32-clash-world-cup",
+          "source": "ESPN"
+        },
+        {
+          "title": "Brazil vs Japan: FIFA World Cup Round of 16 – Vinicius, prediction, lineups",
+          "url": "https://www.aljazeera.com/sports/2026/6/29/brazil-play-japan-at-world-cup-knockouts-vinicius-prediction-and-lineups",
+          "source": "Al Jazeera"
+        },
+        {
+          "title": "‘It’s a whole new competition’ – Brazil captain Marquinhos on starting knockout stage against Japan",
+          "url": "https://www.news.com.au/sport/its-a-whole-new-competition-brazil-captain-marquinhos-on-starting-knockout-stage-against-japan/video/f1cf9fd9e85391af7962feb5f007c737",
+          "source": "News.com.au"
+        }
+      ]
+    },
+    {
+      "query": "match coupe du monde 2026 aujourd&apos;hui",
+      "geo": "MA",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Brésil - Japon, Coupe du monde, match en direct le 29/06/2026",
+          "url": "https://www.lequipe.fr/Football/match-direct/coupe-du-monde/2026/bresil-japon-live/687046",
+          "source": "L&apos;Équipe"
+        },
+        {
+          "title": "Coupe du Monde 2026 : la phrase choc d’un joueur japonais sème le chaos au Brésil",
+          "url": "https://www.footmercato.net/a3867116424115125691-coupe-du-monde-2026-la-grosse-sortie-dun-joueur-japonais-seme-le-chaos-au-bresil",
+          "source": "Foot Mercato"
+        },
+        {
+          "title": "Coupe du monde 2026 : le Canada arrache un 8e de finale, le choc Brésil - Japon, l&apos;Allemagne... Matchs et résultats",
+          "url": "https://www.linternaute.com/sport/competitions/10674558-coupe-du-monde-2026-le-canada-arrache-un-8e-de-finale-le-choc-bresil-japon-l-allemagne-matchs-et-resultats/",
+          "source": "Linternaute.com"
+        }
+      ]
+    },
+    {
+      "query": "alphonso davies",
+      "geo": "MA",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Alphonso Davies’ return brightens Canada’s landmark World Cup moment",
+          "url": "https://www.theguardian.com/football/2026/jun/28/alphonso-davies-canada-south-africa-world-cup",
+          "source": "The Guardian"
+        },
+        {
+          "title": "South Africa vs Canada LIVE: FIFA World Cup 2026 last 32 - score, commentary, updates & stats",
+          "url": "https://www.bbc.com/sport/football/live/cjwg760j4jnt?page=6",
+          "source": "BBC"
+        },
+        {
+          "title": "Bayern Munich star Alphonso Davies set to return to the scene of the crime for Canada",
+          "url": "https://sports.yahoo.com/articles/bayern-munich-star-alphonso-davies-173000574.html",
+          "source": "Yahoo Sports"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "es": [
+      {
+        "query": "cabo verde vs argentina",
+        "score": 1400,
+        "geos": [
+          "MX"
+        ],
+        "samples": [
+          {
+            "query": "cabo verde vs argentina",
+            "geo": "MX",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "Argentina va al duelo contra Cabo Verde con recelo y “con los pies sobre la tierra”",
+                "url": "https://www.jornada.com.mx/noticia/2026/06/28/mundial/argentina-va-al-duelo-contra-cabo-verde-con-recelo-y-con-los-pies-sobre-la-tierra",
+                "source": "La Jornada"
+              },
+              {
+                "title": "El historial de la Selección Argentina contra rivales africanos en Mundiales",
+                "url": "https://www.espn.com.mx/futbol/mundial/nota/_/id/16917155/seleccion-argentina-historia-mundial-rivales-africa",
+                "source": "ESPN México"
+              },
+              {
+                "title": "Próximo partido de la selección argentina: cuándo juega vs. Cabo Verde, por el Mundial 2026",
+                "url": "https://es-us.noticias.yahoo.com/deportes/partido-selecci%C3%B3n-argentina-cu%C3%A1ndo-juega-020300484.html",
+                "source": "Yahoo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "carlos queiroz",
+        "score": 200,
+        "geos": [
+          "CO"
+        ],
+        "samples": [
+          {
+            "query": "carlos queiroz",
+            "geo": "CO",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Colombia vs Ghana: el reencuentro con Carlos Queiroz en el Mundial 2026",
+                "url": "https://www.espn.com.co/futbol/mundial/nota/_/id/16922653/colombia-vs-ghana-carlos-queiroz-reencuentro-mundial-2026",
+                "source": "ESPN Colombia"
+              },
+              {
+                "title": "La revancha de Queiroz ante Colombia será por partida doble",
+                "url": "https://www.elnuevosiglo.com.co/futbol/la-revancha-de-queiroz-ante-colombia-sera-por-partida-doble",
+                "source": "El Nuevo Siglo"
+              },
+              {
+                "title": "Carlos Queiroz dio su concepto sobre la derrota de Ghana en el cierre de la fase de grupos: “O ganamos o aprendemos. Hoy aprendimos”",
+                "url": "https://www.infobae.com/colombia/deportes/2026/06/28/carlos-queiroz-dio-su-concepto-sobre-la-derrota-de-ghana-en-el-cierre-de-la-fase-de-grupos-o-ganamos-o-aprendemos-hoy-aprendimos/",
+                "source": "Infobae"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "brasil vs. japón",
+        "score": 180,
+        "geos": [
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "brasil vs. japón",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Oliver Atom vuelve al Mundial: Brasil y Japón resolverán el partido que Super Campeones dejó en el aire",
+                "url": "https://as.com/meristation/manga-y-anime/oliver-atom-vuelve-al-mundial-brasil-y-japon-resolveran-el-partido-que-super-campeones-dejo-en-el-aire-f202606-n/",
+                "source": "Diario AS"
+              },
+              {
+                "title": "Ancelotti: \"Esto no es un mata-mata, es un mata y nada más\"",
+                "url": "https://www.marca.com/futbol/mundial/2026/06/29/ancelotti-esto-mata-mata-mata.html",
+                "source": "MARCA"
+              },
+              {
+                "title": "¿Sin Neymar? La posible alineación de Brasil para el partidazo contra Japón por el Mundial 2026",
+                "url": "https://rpp.pe/futbol/mundial-2026/brasil-vs-japon-16vos-mundial-2026-alineacion-canarinha-sin-neymar-para-partido-clave-fotos-noticia-1695082",
+                "source": "RPP"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "alphonso davies",
+        "score": 160,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "alphonso davies",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Alphonso Davies’ return brightens Canada’s landmark World Cup moment",
+                "url": "https://www.theguardian.com/football/2026/jun/28/alphonso-davies-canada-south-africa-world-cup",
+                "source": "The Guardian"
+              },
+              {
+                "title": "South Africa vs Canada LIVE: FIFA World Cup 2026 last 32 - score, commentary, updates & stats",
+                "url": "https://www.bbc.com/sport/football/live/cjwg760j4jnt?page=6",
+                "source": "BBC"
+              },
+              {
+                "title": "Alphonso Davies is the key to Canada&apos;s success 🇨🇦",
+                "url": "https://www.foxsports.com/watch-vertical/fmc-p0z6o93stana5l84",
+                "source": "FOX Sports"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "méxico",
+        "score": 160,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "méxico",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Los precios de las entradas están por las nubes: esto cuesta asistir al partido Ecuador vs. México, por los 16avos de final del Mundial",
+                "url": "https://www.primicias.ec/deportes/mundial-2026/seleccion-ecuador/precio-entradas-mexico-16avos-final-estadio-azteca-126579/",
+                "source": "Primicias"
+              },
+              {
+                "title": "México vs. Ecuador: lo que dice la prensa mexicana antes del cruce mundialista",
+                "url": "https://www.elcomercio.com/deportes/futbol/mexico-ecuador-dice-prensa-mexicana-antes-cruce-mundialista/",
+                "source": "El Comercio"
+              },
+              {
+                "title": "‘La altura no los va a afectar tanto’: Agustín Delgado analizó el factor Azteca de cara al México vs. Ecuador en el Mundial 2026",
+                "url": "https://www.eluniverso.com/deportes/futbol/la-altura-no-los-va-a-afectar-tanto-agustin-delgado-analizo-el-factor-azteca-de-cara-al-mexico-vs-ecuador-en-el-mundial-2026-nota/",
+                "source": "El Universo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "jessica alba",
+        "score": 160,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "jessica alba",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Paris Hilton Enjoys Rare Family Outing With Husband Kids at the World Cup",
+                "url": "https://www.instyle.com/paris-hilton-presents-match-ball-world-cup-kids-london-phoenix-12008092",
+                "source": "InStyle"
+              },
+              {
+                "title": "Paris Hilton’s Micro Miniskirt Rides up Her Thighs at FIFA World Cup",
+                "url": "https://www.aol.com/articles/paris-hilton-micro-miniskirt-rides-135534681.html",
+                "source": "AOL.com"
+              },
+              {
+                "title": "Paris Hilton&apos;s 1994 Denim World Cup Shirt Becomes Summer&apos;s Hottest Fashion Trend",
+                "url": "https://www.yahoo.com/entertainment/articles/paris-hiltons-1994-denim-world-021148991.html",
+                "source": "Yahoo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "josé mourinho",
+        "score": 90,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "josé mourinho",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Real Madrid legend Casillas reacts to Mourinho’s Bernabeu return: ‘Let’s hope he does well’",
+                "url": "https://ca.sports.yahoo.com/news/real-madrid-legend-casillas-reacts-110500069.html",
+                "source": "Yahoo Sports Canada"
+              },
+              {
+                "title": "José Mourinho Admits He’s Barely Watched the 2026 World Cup: ‘After 10 Minutes, I Switch Off’",
+                "url": "https://sports.yahoo.com/articles/jos-mourinho-admits-barely-watched-190227087.html",
+                "source": "Yahoo Sports"
+              },
+              {
+                "title": "Jose Mourinho predicts FIFA World Cup 2026 title contenders in bold prediction: ‘They should go all the way’ | Football News",
+                "url": "https://www.hindustantimes.com/sports/football/jose-mourinho-predicts-fifa-world-cup-2026-title-contenders-in-bold-prediction-they-should-go-all-the-way-101782412724757.html",
+                "source": "Hindustan Times"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "de": [
+      {
+        "query": "spielplan",
+        "score": 500,
+        "geos": [
+          "DE"
+        ],
+        "samples": [
+          {
+            "query": "spielplan",
+            "geo": "DE",
+            "language": "de",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Fußball-WM 2026: Diese Sender zeigen die Sechzehntelfinals live",
+                "url": "https://www.spiegel.de/sport/fussball/wm-2026-welcher-sender-uebertraegt-welches-sechzehntelfinale-a-f1968d1c-7c9a-4128-9783-f972e1334805",
+                "source": "Spiegel"
+              },
+              {
+                "title": "Fußball-WM 2026: Spielplan und Ergebnisse",
+                "url": "https://web.de/magazine/sport/fussball/wm/spielplan-wm-2026-tv-uebertragung-aktuellen-ergebnisse-42319706",
+                "source": "WEB.DE"
+              },
+              {
+                "title": "WM 2026: Diese K.o.-Spiele gibt es nur bei Magenta",
+                "url": "https://www.bild.de/sport/fussball/ronaldo-und-messi-dabei-diese-k-o-spiele-gibt-es-nur-bei-magentatv-6a40e8a8afe845031b3b1248",
+                "source": "BILD"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "en": [
+      {
+        "query": "japan vs brazil",
+        "score": 350,
+        "geos": [
+          "AU"
+        ],
+        "samples": [
+          {
+            "query": "japan vs brazil",
+            "geo": "AU",
+            "language": "en",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Brazil manager Ancelotti won&apos;t engage in Japan&apos;s &apos;mind games&apos;",
+                "url": "https://www.espn.com.au/football/story/_/id/49211268/brazil-manager-carlo-ancelotti-refuses-engage-japan-mind-games-ahead-round-32-clash-world-cup",
+                "source": "ESPN"
+              },
+              {
+                "title": "Brazil vs Japan: FIFA World Cup Round of 16 – Vinicius, prediction, lineups",
+                "url": "https://www.aljazeera.com/sports/2026/6/29/brazil-play-japan-at-world-cup-knockouts-vinicius-prediction-and-lineups",
+                "source": "Al Jazeera"
+              },
+              {
+                "title": "‘It’s a whole new competition’ – Brazil captain Marquinhos on starting knockout stage against Japan",
+                "url": "https://www.news.com.au/sport/its-a-whole-new-competition-brazil-captain-marquinhos-on-starting-knockout-stage-against-japan/video/f1cf9fd9e85391af7962feb5f007c737",
+                "source": "News.com.au"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "fr": [
+      {
+        "query": "match coupe du monde 2026 aujourd&apos;hui",
+        "score": 90,
+        "geos": [
+          "MA"
+        ],
+        "samples": [
+          {
+            "query": "match coupe du monde 2026 aujourd&apos;hui",
+            "geo": "MA",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Brésil - Japon, Coupe du monde, match en direct le 29/06/2026",
+                "url": "https://www.lequipe.fr/Football/match-direct/coupe-du-monde/2026/bresil-japon-live/687046",
+                "source": "L&apos;Équipe"
+              },
+              {
+                "title": "Coupe du Monde 2026 : la phrase choc d’un joueur japonais sème le chaos au Brésil",
+                "url": "https://www.footmercato.net/a3867116424115125691-coupe-du-monde-2026-la-grosse-sortie-dun-joueur-japonais-seme-le-chaos-au-bresil",
+                "source": "Foot Mercato"
+              },
+              {
+                "title": "Coupe du monde 2026 : le Canada arrache un 8e de finale, le choc Brésil - Japon, l&apos;Allemagne... Matchs et résultats",
+                "url": "https://www.linternaute.com/sport/competitions/10674558-coupe-du-monde-2026-le-canada-arrache-un-8e-de-finale-le-choc-bresil-japon-l-allemagne-matchs-et-resultats/",
+                "source": "Linternaute.com"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "alphonso davies",
+        "score": 90,
+        "geos": [
+          "MA"
+        ],
+        "samples": [
+          {
+            "query": "alphonso davies",
+            "geo": "MA",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Alphonso Davies’ return brightens Canada’s landmark World Cup moment",
+                "url": "https://www.theguardian.com/football/2026/jun/28/alphonso-davies-canada-south-africa-world-cup",
+                "source": "The Guardian"
+              },
+              {
+                "title": "South Africa vs Canada LIVE: FIFA World Cup 2026 last 32 - score, commentary, updates & stats",
+                "url": "https://www.bbc.com/sport/football/live/cjwg760j4jnt?page=6",
+                "source": "BBC"
+              },
+              {
+                "title": "Bayern Munich star Alphonso Davies set to return to the scene of the crime for Canada",
+                "url": "https://sports.yahoo.com/articles/bayern-munich-star-alphonso-davies-173000574.html",
+                "source": "Yahoo Sports"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "topic": "japan vs brazil",
+      "type": "noticia",
+      "slugSuggestion": "japan-vs-brazil",
+      "language": "en",
+      "geos": [
+        "AU"
+      ],
+      "score": 420,
+      "reason": "Google Trends daily AU con 500 búsquedas · 3 artículos noticiosos referenciando \"japan vs brazil\"",
+      "proposedPath": "/noticias/japan-vs-brazil",
+      "evidence": [
+        {
+          "query": "japan vs brazil",
+          "geo": "AU",
+          "language": "en",
+          "source": "google-trends-daily",
+          "score": 500,
+          "articles": [
+            {
+              "title": "Brazil manager Ancelotti won&apos;t engage in Japan&apos;s &apos;mind games&apos;",
+              "url": "https://www.espn.com.au/football/story/_/id/49211268/brazil-manager-carlo-ancelotti-refuses-engage-japan-mind-games-ahead-round-32-clash-world-cup",
+              "source": "ESPN"
+            },
+            {
+              "title": "Brazil vs Japan: FIFA World Cup Round of 16 – Vinicius, prediction, lineups",
+              "url": "https://www.aljazeera.com/sports/2026/6/29/brazil-play-japan-at-world-cup-knockouts-vinicius-prediction-and-lineups",
+              "source": "Al Jazeera"
+            },
+            {
+              "title": "‘It’s a whole new competition’ – Brazil captain Marquinhos on starting knockout stage against Japan",
+              "url": "https://www.news.com.au/sport/its-a-whole-new-competition-brazil-captain-marquinhos-on-starting-knockout-stage-against-japan/video/f1cf9fd9e85391af7962feb5f007c737",
+              "source": "News.com.au"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "carlos queiroz",
+      "type": "noticia",
+      "slugSuggestion": "carlos-queiroz",
+      "language": "es",
+      "geos": [
+        "CO"
+      ],
+      "score": 240,
+      "reason": "Google Trends daily CO con 200 búsquedas · 3 artículos noticiosos referenciando \"carlos queiroz\"",
+      "proposedPath": "/noticias/carlos-queiroz",
+      "evidence": [
+        {
+          "query": "carlos queiroz",
+          "geo": "CO",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Colombia vs Ghana: el reencuentro con Carlos Queiroz en el Mundial 2026",
+              "url": "https://www.espn.com.co/futbol/mundial/nota/_/id/16922653/colombia-vs-ghana-carlos-queiroz-reencuentro-mundial-2026",
+              "source": "ESPN Colombia"
+            },
+            {
+              "title": "La revancha de Queiroz ante Colombia será por partida doble",
+              "url": "https://www.elnuevosiglo.com.co/futbol/la-revancha-de-queiroz-ante-colombia-sera-por-partida-doble",
+              "source": "El Nuevo Siglo"
+            },
+            {
+              "title": "Carlos Queiroz dio su concepto sobre la derrota de Ghana en el cierre de la fase de grupos: “O ganamos o aprendemos. Hoy aprendimos”",
+              "url": "https://www.infobae.com/colombia/deportes/2026/06/28/carlos-queiroz-dio-su-concepto-sobre-la-derrota-de-ghana-en-el-cierre-de-la-fase-de-grupos-o-ganamos-o-aprendemos-hoy-aprendimos/",
+              "source": "Infobae"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "brasil vs. japón",
+      "type": "noticia",
+      "slugSuggestion": "brasil-vs-japon",
+      "language": "es",
+      "geos": [
+        "PE"
+      ],
+      "score": 216,
+      "reason": "Google Trends daily PE con 200 búsquedas · 3 artículos noticiosos referenciando \"brasil vs. japón\"",
+      "proposedPath": "/noticias/brasil-vs-japon",
+      "evidence": [
+        {
+          "query": "brasil vs. japón",
+          "geo": "PE",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Oliver Atom vuelve al Mundial: Brasil y Japón resolverán el partido que Super Campeones dejó en el aire",
+              "url": "https://as.com/meristation/manga-y-anime/oliver-atom-vuelve-al-mundial-brasil-y-japon-resolveran-el-partido-que-super-campeones-dejo-en-el-aire-f202606-n/",
+              "source": "Diario AS"
+            },
+            {
+              "title": "Ancelotti: \"Esto no es un mata-mata, es un mata y nada más\"",
+              "url": "https://www.marca.com/futbol/mundial/2026/06/29/ancelotti-esto-mata-mata-mata.html",
+              "source": "MARCA"
+            },
+            {
+              "title": "¿Sin Neymar? La posible alineación de Brasil para el partidazo contra Japón por el Mundial 2026",
+              "url": "https://rpp.pe/futbol/mundial-2026/brasil-vs-japon-16vos-mundial-2026-alineacion-canarinha-sin-neymar-para-partido-clave-fotos-noticia-1695082",
+              "source": "RPP"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "alphonso davies",
+      "type": "noticia",
+      "slugSuggestion": "alphonso-davies",
+      "language": "es",
+      "geos": [
+        "EC"
+      ],
+      "score": 192,
+      "reason": "Google Trends daily EC con 200 búsquedas · 3 artículos noticiosos referenciando \"alphonso davies\"",
+      "proposedPath": "/noticias/alphonso-davies",
+      "evidence": [
+        {
+          "query": "alphonso davies",
+          "geo": "EC",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Alphonso Davies’ return brightens Canada’s landmark World Cup moment",
+              "url": "https://www.theguardian.com/football/2026/jun/28/alphonso-davies-canada-south-africa-world-cup",
+              "source": "The Guardian"
+            },
+            {
+              "title": "South Africa vs Canada LIVE: FIFA World Cup 2026 last 32 - score, commentary, updates & stats",
+              "url": "https://www.bbc.com/sport/football/live/cjwg760j4jnt?page=6",
+              "source": "BBC"
+            },
+            {
+              "title": "Alphonso Davies is the key to Canada&apos;s success 🇨🇦",
+              "url": "https://www.foxsports.com/watch-vertical/fmc-p0z6o93stana5l84",
+              "source": "FOX Sports"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "jessica alba",
+      "type": "noticia",
+      "slugSuggestion": "jessica-alba",
+      "language": "es",
+      "geos": [
+        "EC"
+      ],
+      "score": 192,
+      "reason": "Google Trends daily EC con 200 búsquedas · 3 artículos noticiosos referenciando \"jessica alba\"",
+      "proposedPath": "/noticias/jessica-alba",
+      "evidence": [
+        {
+          "query": "jessica alba",
+          "geo": "EC",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Paris Hilton Enjoys Rare Family Outing With Husband Kids at the World Cup",
+              "url": "https://www.instyle.com/paris-hilton-presents-match-ball-world-cup-kids-london-phoenix-12008092",
+              "source": "InStyle"
+            },
+            {
+              "title": "Paris Hilton’s Micro Miniskirt Rides up Her Thighs at FIFA World Cup",
+              "url": "https://www.aol.com/articles/paris-hilton-micro-miniskirt-rides-135534681.html",
+              "source": "AOL.com"
+            },
+            {
+              "title": "Paris Hilton&apos;s 1994 Denim World Cup Shirt Becomes Summer&apos;s Hottest Fashion Trend",
+              "url": "https://www.yahoo.com/entertainment/articles/paris-hiltons-1994-denim-world-021148991.html",
+              "source": "Yahoo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "josé mourinho",
+      "type": "noticia",
+      "slugSuggestion": "jose-mourinho",
+      "language": "es",
+      "geos": [
+        "UY"
+      ],
+      "score": 108,
+      "reason": "Google Trends daily UY con 100 búsquedas · 3 artículos noticiosos referenciando \"josé mourinho\"",
+      "proposedPath": "/noticias/jose-mourinho",
+      "evidence": [
+        {
+          "query": "josé mourinho",
+          "geo": "UY",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 100,
+          "articles": [
+            {
+              "title": "Real Madrid legend Casillas reacts to Mourinho’s Bernabeu return: ‘Let’s hope he does well’",
+              "url": "https://ca.sports.yahoo.com/news/real-madrid-legend-casillas-reacts-110500069.html",
+              "source": "Yahoo Sports Canada"
+            },
+            {
+              "title": "José Mourinho Admits He’s Barely Watched the 2026 World Cup: ‘After 10 Minutes, I Switch Off’",
+              "url": "https://sports.yahoo.com/articles/jos-mourinho-admits-barely-watched-190227087.html",
+              "source": "Yahoo Sports"
+            },
+            {
+              "title": "Jose Mourinho predicts FIFA World Cup 2026 title contenders in bold prediction: ‘They should go all the way’ | Football News",
+              "url": "https://www.hindustantimes.com/sports/football/jose-mourinho-predicts-fifa-world-cup-2026-title-contenders-in-bold-prediction-they-should-go-all-the-way-101782412724757.html",
+              "source": "Hindustan Times"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "alphonso davies",
+      "type": "noticia",
+      "slugSuggestion": "alphonso-davies",
+      "language": "fr",
+      "geos": [
+        "MA"
+      ],
+      "score": 108,
+      "reason": "Google Trends daily MA con 100 búsquedas · 3 artículos noticiosos referenciando \"alphonso davies\"",
+      "proposedPath": "/noticias/alphonso-davies",
+      "evidence": [
+        {
+          "query": "alphonso davies",
+          "geo": "MA",
+          "language": "fr",
+          "source": "google-trends-daily",
+          "score": 100,
+          "articles": [
+            {
+              "title": "Alphonso Davies’ return brightens Canada’s landmark World Cup moment",
+              "url": "https://www.theguardian.com/football/2026/jun/28/alphonso-davies-canada-south-africa-world-cup",
+              "source": "The Guardian"
+            },
+            {
+              "title": "South Africa vs Canada LIVE: FIFA World Cup 2026 last 32 - score, commentary, updates & stats",
+              "url": "https://www.bbc.com/sport/football/live/cjwg760j4jnt?page=6",
+              "source": "BBC"
+            },
+            {
+              "title": "Bayern Munich star Alphonso Davies set to return to the scene of the crime for Canada",
+              "url": "https://sports.yahoo.com/articles/bayern-munich-star-alphonso-davies-173000574.html",
+              "source": "Yahoo Sports"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alreadyCovered": [
+    {
+      "query": "cabo verde vs argentina",
+      "matchUrl": "/noticias/cabo-verde-arabia-saudi-resultado-mundial-2026"
+    },
+    {
+      "query": "méxico",
+      "matchUrl": "/ediciones/1970-mexico"
+    },
+    {
+      "query": "spielplan",
+      "matchUrl": "/2026/calendario"
+    },
+    {
+      "query": "match coupe du monde 2026 aujourd&apos;hui",
+      "matchUrl": "/noticias/hospitality-mundial-2026-on-location-precios-single-match-2500-venue-series-private-suites"
+    }
+  ]
+}
