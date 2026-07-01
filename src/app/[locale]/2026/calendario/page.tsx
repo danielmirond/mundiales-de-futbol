@@ -10,6 +10,7 @@ import {
 } from '@/lib/wc-2026';
 import { fixtureToUTC } from '@/lib/wc-2026-fixture-utc';
 import { fetchScores, buildScoreMap, scoreKey } from '@/lib/live-scores';
+import { resolveKnockout } from '@/lib/wc-2026-knockout';
 import { DaznBanner } from '@/components/affiliate/dazn-banner';
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl, SEO } from '@/lib/seo';
@@ -120,7 +121,16 @@ export default async function Calendario2026({
   setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: 'pages.calendario' });
 
-  const phases = buildPhases(t);
+  // Eliminatorias: los fixtures traen solo el texto del cuadro; resolvemos los
+  // equipos reales en vivo desde ESPN (por estadio + orden cronológico).
+  const koResolved = await resolveKnockout();
+  const phases = buildPhases(t).map((p) => ({
+    ...p,
+    fixtures: p.fixtures.map((f) => {
+      const r = koResolved.get(f.n);
+      return r?.home && r?.away ? { ...f, home: r.home, away: r.away } : f;
+    }),
+  }));
   const venueBySlug = new Map(VENUES_2026.map((v) => [v.slug, v]));
   const scoreMap = buildScoreMap(await fetchScores());
 

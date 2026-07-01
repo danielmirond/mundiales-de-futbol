@@ -3,12 +3,17 @@ import { ArrowRight, CalendarDays } from 'lucide-react';
 import { FIXTURES_2026, TEAMS_2026, STAGE_LABEL, matchSlug } from '@/lib/wc-2026';
 import { fixtureToUTC } from '@/lib/wc-2026-fixture-utc';
 import { fetchScores, buildScoreMap, scoreKey } from '@/lib/live-scores';
+import { resolveKnockout } from '@/lib/wc-2026-knockout';
 import { routing, type Locale } from '@/i18n/routing';
 
 function withLocale(locale: Locale, href: string) {
   if (locale === routing.defaultLocale) return href;
   return `/${locale}${href === '/' ? '' : href}`;
 }
+
+/** Slug canónico: equipos en grupos; `partido-N` en eliminatorias. */
+const linkSlug = (f: (typeof FIXTURES_2026)[number]) =>
+  f.stage.length === 1 ? matchSlug(f) : `partido-${f.n}`;
 
 const MADRID = 'Europe/Madrid';
 const dateKeyFmt = new Intl.DateTimeFormat('en-CA', {
@@ -53,7 +58,7 @@ function MatchCard({ row, scoreMap, locale }: { row: Row; scoreMap: ScoreMap; lo
   const stage = f.stage.length === 1 ? `Gr. ${f.stage}` : (STAGE_LABEL[f.stage] ?? f.stage);
   return (
     <Link
-      href={withLocale(locale, `/2026/partido/${matchSlug(f)}`)}
+      href={withLocale(locale, `/2026/partido/${linkSlug(f)}`)}
       className="flex w-[240px] shrink-0 snap-start flex-col gap-3 rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg)] p-4 transition-colors hover:border-[var(--color-pitch)]/40 hover:bg-[var(--color-bg-2)]"
     >
       <div className="flex items-center justify-between font-mono text-[9px] uppercase tracking-[0.25em] text-[var(--color-fg-subtle)]">
@@ -92,6 +97,12 @@ function MatchCard({ row, scoreMap, locale }: { row: Row; scoreMap: ScoreMap; lo
 /** Calendario de la home: carrusel de los partidos de hoy + lista de próximos. */
 export async function HomeSchedule({ locale }: { locale: Locale }) {
   const scoreMap = buildScoreMap(await fetchScores());
+  // Eliminatorias: resolver equipos reales en vivo (fixtures traen solo el cuadro).
+  const ko = await resolveKnockout();
+  const withTeams = (row: Row): Row => {
+    const r = ko.get(row.f.n);
+    return r?.home && r?.away ? { ...row, f: { ...row.f, home: r.home, away: r.away } } : row;
+  };
   const now = Date.now();
   const todayKey = dateKeyFmt.format(now);
 
@@ -101,10 +112,11 @@ export async function HomeSchedule({ locale }: { locale: Locale }) {
     const next = SCHED.find((s) => s.ms > now);
     if (next) { carouselDay = next.dateKey; carousel = SCHED.filter((s) => s.dateKey === next.dateKey); }
   }
+  carousel = carousel.map(withTeams);
   const isToday = carouselDay === todayKey;
 
   // Lista de próximos días (siguientes a la jornada del carrusel), hasta ~8 partidos.
-  const upcoming = SCHED.filter((s) => s.dateKey > carouselDay && s.ms > now).slice(0, 8);
+  const upcoming = SCHED.filter((s) => s.dateKey > carouselDay && s.ms > now).slice(0, 8).map(withTeams);
   const upcomingDays: { key: string; rows: Row[] }[] = [];
   for (const r of upcoming) {
     let g = upcomingDays.find((x) => x.key === r.dateKey);
@@ -165,7 +177,7 @@ export async function HomeSchedule({ locale }: { locale: Locale }) {
                           {timeFmt.format(ms)}
                         </span>
                         <Link
-                          href={withLocale(locale, `/2026/partido/${matchSlug(f)}`)}
+                          href={withLocale(locale, `/2026/partido/${linkSlug(f)}`)}
                           className="flex min-w-0 flex-1 items-center gap-2 text-sm transition-opacity hover:opacity-80"
                         >
                           <span aria-hidden className="text-base">{f.home ? TEAMS_2026[f.home]?.flag : '⚽'}</span>

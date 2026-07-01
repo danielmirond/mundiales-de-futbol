@@ -61,7 +61,7 @@ function makeFormatters(locale: string) {
   };
 }
 
-function Side({ code }: { code?: string }) {
+function Side({ code, label }: { code?: string; label?: string }) {
   const team = code ? TEAMS_2026[code] : undefined;
   return (
     <div className="flex flex-1 flex-col items-center gap-2 text-center">
@@ -69,7 +69,7 @@ function Side({ code }: { code?: string }) {
         {team?.flag ?? '🏳️'}
       </span>
       <span className="font-display text-lg uppercase leading-tight text-[var(--color-fg)] md:text-2xl">
-        {team?.name ?? code ?? '—'}
+        {team?.name ?? label ?? code ?? '—'}
       </span>
     </div>
   );
@@ -80,12 +80,18 @@ type LiveMatch = {
   state: 'pre' | 'in' | 'post'; status: string; clock: string | null;
 };
 
+type KnockoutInfo = {
+  home?: string; away?: string; homeScore: number | null; awayScore: number | null;
+  state: 'pre' | 'in' | 'post'; clock: string | null; status?: string;
+};
+
 export function Hero() {
   const locale = useLocale() as Locale;
   const t = useTranslations('home.hero');
   const tc = useTranslations('home.countdown');
   const [now, setNow] = useState<number | null>(null);
   const [scores, setScores] = useState<LiveMatch[]>([]);
+  const [knockout, setKnockout] = useState<Record<number, KnockoutInfo>>({});
 
   useEffect(() => {
     setNow(Date.now());
@@ -99,7 +105,11 @@ export function Hero() {
     const load = () => {
       fetch('/api/live-scores')
         .then((r) => r.json())
-        .then((d) => { if (alive && Array.isArray(d.matches)) setScores(d.matches); })
+        .then((d) => {
+          if (!alive) return;
+          if (Array.isArray(d.matches)) setScores(d.matches);
+          if (d.knockout && typeof d.knockout === 'object') setKnockout(d.knockout);
+        })
         .catch(() => {});
     };
     load();
@@ -111,16 +121,25 @@ export function Hero() {
   const picked = pickMatch(now ?? SCHEDULE[0].kickoff);
   const c = picked ? countdown(picked.match.kickoff, now ?? 0) : null;
 
+  // Eliminatorias: el fixture no trae equipos; los resolvemos con el mapa que
+  // ESPN nos da vía /api/live-scores (fixture n → cruce real).
+  const isKo = !!picked && picked.match.stage.length !== 1;
+  const ko = picked && isKo ? knockout[picked.match.n] : undefined;
+  const homeCode = ko?.home ?? picked?.match.home;
+  const awayCode = ko?.away ?? picked?.match.away;
+
   // ¿Hay marcador en vivo/final para el partido mostrado?
-  const live = picked
-    ? scores.find(
-        (m) => m.home === picked.match.home && m.away === picked.match.away,
-      )
-    : undefined;
+  const live: LiveMatch | KnockoutInfo | undefined = isKo
+    ? ko
+    : picked
+      ? scores.find((m) => m.home === picked.match.home && m.away === picked.match.away)
+      : undefined;
   const showScore = !!live && (live.state === 'in' || live.state === 'post') &&
     live.homeScore !== null && live.awayScore !== null;
-  // Enlace a la ficha del partido (live-blog) mostrado en el hero.
-  const matchHref = picked ? withLocale(locale, `/2026/partido/${matchSlug(picked.match)}`) : null;
+  // Enlace a la ficha del partido (live-blog): `partido-N` en eliminatorias.
+  const matchHref = picked
+    ? withLocale(locale, `/2026/partido/${isKo ? `partido-${picked.match.n}` : matchSlug(picked.match)}`)
+    : null;
 
   const cells = c
     ? [
@@ -187,7 +206,7 @@ export function Hero() {
             </div>
 
             <div className="mt-5 flex items-center gap-3">
-              <Side code={picked.match.home} />
+              <Side code={homeCode} label={picked.match.label} />
               {showScore ? (
                 <span className="font-display tab-num text-4xl leading-none text-[var(--color-fg)] md:text-5xl">
                   {live!.homeScore} <span className="text-[var(--color-fg-subtle)]">-</span> {live!.awayScore}
@@ -197,7 +216,7 @@ export function Hero() {
                   {picked.live ? '·' : 'vs'}
                 </span>
               )}
-              <Side code={picked.match.away} />
+              <Side code={awayCode} label={ko && !awayCode ? picked.match.label : undefined} />
             </div>
 
             <div className="mt-5 text-center font-mono text-xs uppercase tracking-[0.2em] text-[var(--color-fg-muted)]">

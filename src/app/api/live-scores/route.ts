@@ -1,4 +1,5 @@
 import { NextResponse } from 'next/server';
+import { resolveKnockout } from '@/lib/wc-2026-knockout';
 
 /**
  * Proxy de marcadores en vivo del Mundial 2026 vía la API pública de ESPN
@@ -66,13 +67,29 @@ export async function GET(request: Request) {
       };
     });
 
+    // Equipos reales de eliminatorias resueltos (fixture n → cruce), para que
+    // el hero y demás vistas muestren los cruces en cuanto ESPN los determina.
+    const knockout: Record<number, {
+      home?: string; away?: string; homeScore: number | null; awayScore: number | null;
+      state: string; clock: string | null;
+    }> = {};
+    try {
+      const ko = await resolveKnockout();
+      for (const [n, r] of ko) {
+        knockout[n] = {
+          home: r.home, away: r.away, homeScore: r.homeScore,
+          awayScore: r.awayScore, state: r.state, clock: r.clock,
+        };
+      }
+    } catch { /* sin datos KO → hero cae al texto del cuadro */ }
+
     return NextResponse.json(
-      { updatedAt: new Date().toISOString(), matches },
+      { updatedAt: new Date().toISOString(), matches, knockout },
       { headers: { 'Cache-Control': 's-maxage=30, stale-while-revalidate=60' } },
     );
   } catch (err) {
     return NextResponse.json(
-      { updatedAt: new Date().toISOString(), matches: [], error: String(err) },
+      { updatedAt: new Date().toISOString(), matches: [], knockout: {}, error: String(err) },
       { status: 200, headers: { 'Cache-Control': 'no-store' } },
     );
   }
