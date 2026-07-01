@@ -258,7 +258,7 @@ export default async function CuadroPage({
         <p className="mt-4 max-w-3xl text-lg text-[var(--color-fg-muted)]">{c.intro}</p>
       </header>
 
-      <KnockoutCrosses />
+      <KnockoutCrosses locale={L} />
 
       <WC2026Bracket />
 

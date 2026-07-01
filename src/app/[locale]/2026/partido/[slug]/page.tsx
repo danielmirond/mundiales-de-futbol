@@ -4,11 +4,12 @@ import { setRequestLocale } from 'next-intl/server';
 import { ArrowLeft, ArrowRight, MapPin, Users, ListChecks } from 'lucide-react';
 import {
   FIXTURES_2026, TEAMS_2026, VENUES_2026, STAGE_LABEL,
-  matchSlug, getFixtureBySlug,
+  matchSlug, getFixtureBySlug, type Fixture26,
 } from '@/lib/wc-2026';
 import { fixtureToUTC } from '@/lib/wc-2026-fixture-utc';
 import { fetchScores, buildScoreMap, scoreKey } from '@/lib/live-scores';
 import { fetchMatchSummary } from '@/lib/wc-2026-match-summary';
+import { resolveKnockoutFixture } from '@/lib/wc-2026-knockout';
 import { LiveMatchSummary } from '@/components/match/live-match-summary';
 import { pairSlug, getHeadToHead } from '@/lib/wc-head-to-head';
 import { getMovistarLink } from '@/lib/movistar-match-links';
@@ -32,6 +33,17 @@ const timeFmt = new Intl.DateTimeFormat('es-ES', {
   timeZone: MADRID, hour: '2-digit', minute: '2-digit', hourCycle: 'h23',
 });
 
+/**
+ * En eliminatorias el fixture (`partido-N`) no trae equipos: los resolvemos en
+ * vivo desde ESPN. Devuelve el fixture con `home`/`away` reales cuando ya se
+ * conocen; si no, el original con su texto de cuadro.
+ */
+async function withKnockoutTeams(f: Fixture26 | undefined): Promise<Fixture26 | undefined> {
+  if (!f || f.stage.length === 1 || (f.home && f.away)) return f;
+  const r = await resolveKnockoutFixture(f.n);
+  return r?.home && r?.away ? { ...f, home: r.home, away: r.away } : f;
+}
+
 function names(f: ReturnType<typeof getFixtureBySlug>) {
   const h = f?.home ? TEAMS_2026[f.home] : undefined;
   const a = f?.away ? TEAMS_2026[f.away] : undefined;
@@ -42,7 +54,7 @@ function names(f: ReturnType<typeof getFixtureBySlug>) {
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string; slug: string }> }) {
   const { locale, slug } = await params;
-  const f = getFixtureBySlug(slug);
+  const f = await withKnockoutTeams(getFixtureBySlug(slug));
   if (!f) return pageMetadata({ locale, path: `/2026/partido/${slug}`, title: 'Partido del Mundial 2026', description: '', type: 'article' });
   const { hn, an } = names(f);
   const stage = STAGE_LABEL[f.stage] ?? f.stage;
@@ -63,7 +75,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 export default async function PartidoPage({ params }: { params: Promise<{ locale: string; slug: string }> }) {
   const { locale, slug } = await params;
   setRequestLocale(locale);
-  const f = getFixtureBySlug(slug);
+  const f = await withKnockoutTeams(getFixtureBySlug(slug));
   if (!f) notFound();
 
   const { h, a, hn, an } = names(f);
@@ -296,7 +308,7 @@ export default async function PartidoPage({ params }: { params: Promise<{ locale
             </Link>
           )}
           {f!.home && f!.away && (
-            <Link href={withLocale(locale as Locale, `/2026/partido/${matchSlug(f!)}/alineaciones`)} className="inline-flex items-center gap-2 rounded-full border border-[var(--color-border-strong)] px-4 py-2 text-sm font-semibold text-[var(--color-fg)] transition-colors hover:border-[var(--color-pitch)] hover:text-[var(--color-pitch)]">
+            <Link href={withLocale(locale as Locale, `/2026/partido/${slug}/alineaciones`)} className="inline-flex items-center gap-2 rounded-full border border-[var(--color-border-strong)] px-4 py-2 text-sm font-semibold text-[var(--color-fg)] transition-colors hover:border-[var(--color-pitch)] hover:text-[var(--color-pitch)]">
               <Users className="h-4 w-4" /> Alineaciones
             </Link>
           )}

@@ -11,7 +11,9 @@ import {
 } from '@/lib/wc-2026';
 import { fetchScores, buildScoreMap, scoreKey } from '@/lib/live-scores';
 import { fetchMatchSummary } from '@/lib/wc-2026-match-summary';
+import { resolveKnockoutFixture } from '@/lib/wc-2026-knockout';
 import { Lineup } from '@/components/match/match-summary';
+import type { Fixture26 } from '@/lib/wc-2026';
 import { routing } from '@/i18n/routing';
 import { JsonLd, pageMetadata, breadcrumbLd } from '@/lib/seo';
 
@@ -32,13 +34,20 @@ export function generateStaticParams() {
 const tName = (c?: string, fb?: string) => (c && TEAMS_2026[c]?.name) || fb || c || 'Por definir';
 const tFlag = (c?: string) => (c && TEAMS_2026[c]?.flag) || '🏳️';
 
+/** Eliminatorias: rellena equipos reales (fixture = partido-N) desde ESPN. */
+async function withKnockoutTeams(f: Fixture26 | undefined): Promise<Fixture26 | undefined> {
+  if (!f || f.stage.length === 1 || (f.home && f.away)) return f;
+  const r = await resolveKnockoutFixture(f.n);
+  return r?.home && r?.away ? { ...f, home: r.home, away: r.away } : f;
+}
+
 export async function generateMetadata({
   params,
 }: {
   params: Promise<{ locale: string; slug: string }>;
 }) {
   const { locale, slug } = await params;
-  const f = getFixtureBySlug(slug);
+  const f = await withKnockoutTeams(getFixtureBySlug(slug));
   if (!f) return {};
   const hn = tName(f.home, f.label);
   const an = tName(f.away);
@@ -65,7 +74,7 @@ export default async function AlineacionesPage({
 }) {
   const { locale, slug } = await params;
   setRequestLocale(locale);
-  const f = getFixtureBySlug(slug);
+  const f = await withKnockoutTeams(getFixtureBySlug(slug));
   if (!f) notFound();
 
   const hn = tName(f!.home, f!.label);

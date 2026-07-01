@@ -2,6 +2,7 @@ import { ImageResponse } from 'next/og';
 import { TEAMS_2026, getFixtureBySlug } from '@/lib/wc-2026';
 import { fetchScores, buildScoreMap, scoreKey } from '@/lib/live-scores';
 import { fetchMatchSummary } from '@/lib/wc-2026-match-summary';
+import { resolveKnockoutFixture } from '@/lib/wc-2026-knockout';
 
 /**
  * Imagen 1200×975 de ALINEACIONES por partido (onces + formación).
@@ -52,7 +53,12 @@ export default async function AlineacionesOg({
   params: Promise<{ locale: string; slug: string }>;
 }) {
   const { slug } = await params;
-  const f = getFixtureBySlug(slug);
+  let f = getFixtureBySlug(slug);
+  // Eliminatorias: resolver equipos reales desde ESPN (fixture = partido-N).
+  if (f && f.stage.length !== 1 && (!f.home || !f.away)) {
+    const r = await resolveKnockoutFixture(f.n);
+    if (r?.home && r?.away) f = { ...f, home: r.home, away: r.away };
+  }
   const hn = tName(f?.home, f?.label);
   const an = tName(f?.away);
 
