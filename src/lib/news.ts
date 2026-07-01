@@ -124,6 +124,43 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'partidos-mundial-2026-hoy-2026-07-01',
+    title: "Partidos del Mundial 2026 hoy, Miércoles 1 de julio: horarios (hora España) y dónde ver, gratis en La 1 o en DAZN",
+    summary: "Calendario de los 3 partidos del Mundial 2026 de hoy, miércoles 1 de julio: horarios en hora española y dónde verlos. Hoy ningún partido en abierto en La 1: todos en DAZN / Movistar Plus+.",
+    body: `El Mundial 2026 vive hoy, miércoles 1 de julio, una jornada de **3 partidos**. Te dejamos todos los horarios en hora española, las sedes y dónde seguirlos, con el foco puesto en el **1º G · 3er - Por definir**.
+
+## Partidos de hoy en el Mundial 2026 (hora de España)
+
+- **[1º A · 3er - Por definir](/2026/partido/partido-79)** — 03:00 h · Dieciseisavos · Estadio Azteca (Ciudad de México) · 📺 [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026) / [Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial).
+- **[1º L · 3er - Por definir](/2026/partido/partido-80)** — 18:00 h · Dieciseisavos · Mercedes-Benz Stadium (Atlanta) · 📺 [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026) / [Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial).
+- **[1º G · 3er - Por definir](/2026/partido/partido-82)** — 22:00 h · Dieciseisavos · Lumen Field (Seattle) · 📺 [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026) / [Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial).
+
+Todos los horarios están convertidos a **hora peninsular española**. Puedes ver la jornada al completo, con resultados en directo, en la página de [partidos de hoy](/2026/partidos-hoy) y en el [calendario del Mundial](/2026/calendario).
+
+## El partido destacado del día
+
+De todo el cartel, el **1º G · 3er - Por definir** es el duelo más llamativo de la jornada y el que más expectación levanta entre los aficionados. Sigue la clasificación y los grupos actualizados en [grupos y clasificación](/2026/grupos).
+
+## Qué partidos se ven hoy gratis en La 1 (RTVE)
+
+Hoy **RTVE no emite ningún partido en abierto**: todos los encuentros de la jornada son exclusiva de pago en DAZN.
+
+## Qué partidos son solo de pago (DAZN / Movistar Plus+)
+
+El resto de partidos de hoy solo se pueden ver en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, disponible también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**:
+
+- **1º A · 3er - Por definir** — 03:00 h.
+- **1º L · 3er - Por definir** — 18:00 h.
+- **1º G · 3er - Por definir** — 22:00 h.
+
+RTVE emite **34 partidos gratis** en total del Mundial 2026: los 3 de España en la fase de grupos, un partido destacado por jornada y toda la fase eliminatoria desde dieciseisavos (incluida la final). Los **104 partidos** están en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**. Desglose completo de plataformas, precios y partidos en abierto en [dónde ver el Mundial 2026](/2026/donde-ver).`,
+    category: 'tv',
+    sourceName: "Mundiales de Fútbol",
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-07-01T06:30:00Z',
+  },
+  {
     slug: 'partidos-mundial-2026-hoy-2026-06-30',
     title: "Partidos del Mundial 2026 hoy, Martes 30 de junio: horarios (hora España) y dónde ver, gratis en La 1 o en DAZN",
     summary: "Calendario de los 3 partidos del Mundial 2026 de hoy, martes 30 de junio: horarios en hora española y dónde verlos. Hoy ningún partido en abierto en La 1: todos en DAZN / Movistar Plus+.",
