@@ -3,7 +3,7 @@ import { ArrowRight, CalendarDays } from 'lucide-react';
 import { FIXTURES_2026, TEAMS_2026, STAGE_LABEL, matchSlug } from '@/lib/wc-2026';
 import { fixtureToUTC } from '@/lib/wc-2026-fixture-utc';
 import { fetchScores, buildScoreMap, scoreKey } from '@/lib/live-scores';
-import { resolveKnockout } from '@/lib/wc-2026-knockout';
+import { resolveKnockout, wentToShootout } from '@/lib/wc-2026-knockout';
 import { routing, type Locale } from '@/i18n/routing';
 
 function withLocale(locale: Locale, href: string) {
@@ -79,11 +79,18 @@ function MatchCard({ row, scoreMap, locale }: { row: Row; scoreMap: ScoreMap; lo
       </div>
       <div className="flex items-start justify-between gap-2">
         <TeamMini code={f.home} label={f.label} />
-        <span className="shrink-0 self-center px-1">
+        <span className="flex shrink-0 flex-col items-center self-center px-1">
           {played ? (
-            <span className="font-display tab-num text-2xl leading-none text-[var(--color-fg)]">
-              {sc!.homeScore}<span className="text-[var(--color-fg-subtle)]">-</span>{sc!.awayScore}
-            </span>
+            <>
+              <span className="font-display tab-num text-2xl leading-none text-[var(--color-fg)]">
+                {sc!.homeScore}<span className="text-[var(--color-fg-subtle)]">-</span>{sc!.awayScore}
+              </span>
+              {sc && wentToShootout(sc) && (
+                <span className="mt-0.5 font-mono text-[8px] uppercase tracking-wider text-[var(--color-fg-subtle)]">
+                  {sc.shootoutHome}-{sc.shootoutAway} pen.
+                </span>
+              )}
+            </>
           ) : (
             <span className="font-mono text-xs text-[var(--color-fg-subtle)]">vs</span>
           )}

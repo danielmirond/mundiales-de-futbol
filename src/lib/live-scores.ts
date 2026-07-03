@@ -32,6 +32,9 @@ export type LiveMatch = {
   date: string;
   /** Nombre del estadio según ESPN (para emparejar cruces de eliminatorias). */
   venue: string;
+  /** Penaltis en eliminatorias con empate (null si no hubo tanda). */
+  shootoutHome: number | null;
+  shootoutAway: number | null;
 };
 
 /** Clave para emparejar con un fixture (códigos FIFA local-visitante). */
@@ -74,6 +77,8 @@ export async function fetchScores(
         clock: e.status?.displayClock ?? null,
         date: e.date ?? '',
         venue: comp.venue?.fullName ?? '',
+        shootoutHome: num(home?.shootoutScore),
+        shootoutAway: num(away?.shootoutScore),
       };
     });
   } catch {

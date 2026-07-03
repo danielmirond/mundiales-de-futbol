@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { TEAMS_2026 } from '@/lib/wc-2026';
-import { getKnockoutRounds } from '@/lib/wc-2026-knockout';
+import { getKnockoutRounds, koWinner, wentToShootout } from '@/lib/wc-2026-knockout';
 import { routing, type Locale } from '@/i18n/routing';
 
 const tName = (c: string) => TEAMS_2026[c]?.name ?? c;
@@ -65,8 +65,10 @@ export async function KnockoutCrosses({ locale }: { locale: Locale }) {
                 const resolved = !!m.home && !!m.away;
                 const played = m.state === 'post' && m.homeScore != null && m.awayScore != null;
                 const live = m.state === 'in';
-                const homeWin = played && m.homeScore! > m.awayScore!;
-                const awayWin = played && m.awayScore! > m.homeScore!;
+                const winner = played ? koWinner(m) : null;
+                const homeWin = winner === 'home';
+                const awayWin = winner === 'away';
+                const pens = wentToShootout(m);
 
                 const card = (
                   <div className="flex h-full flex-col gap-3 rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg-2)] p-4 transition-colors hover:border-[var(--color-pitch)]">
@@ -85,8 +87,15 @@ export async function KnockoutCrosses({ locale }: { locale: Locale }) {
                         <span className={`flex items-center gap-2 truncate text-sm ${homeWin ? 'font-semibold text-[var(--color-fg)]' : 'text-[var(--color-fg-muted)]'}`}>
                           <span>{tFlag(m.home!)}</span>{tName(m.home!)}
                         </span>
-                        <span className="shrink-0 font-display tab-num text-xl text-[var(--color-fg)]">
-                          {played || live ? `${m.homeScore ?? 0}-${m.awayScore ?? 0}` : 'vs'}
+                        <span className="flex shrink-0 flex-col items-center">
+                          <span className="font-display tab-num text-xl text-[var(--color-fg)]">
+                            {played || live ? `${m.homeScore ?? 0}-${m.awayScore ?? 0}` : 'vs'}
+                          </span>
+                          {pens && (
+                            <span className="font-mono text-[9px] uppercase tracking-wider text-[var(--color-fg-subtle)]">
+                              {m.shootoutHome}-{m.shootoutAway} pen.
+                            </span>
+                          )}
                         </span>
                         <span className={`flex items-center justify-end gap-2 truncate text-sm ${awayWin ? 'font-semibold text-[var(--color-fg)]' : 'text-[var(--color-fg-muted)]'}`}>
                           {tName(m.away!)}<span>{tFlag(m.away!)}</span>

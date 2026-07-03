@@ -82,6 +82,7 @@ type LiveMatch = {
 
 type KnockoutInfo = {
   home?: string; away?: string; homeScore: number | null; awayScore: number | null;
+  shootoutHome?: number | null; shootoutAway?: number | null;
   state: 'pre' | 'in' | 'post'; clock: string | null; status?: string;
 };
 
@@ -136,6 +137,9 @@ export function Hero() {
       : undefined;
   const showScore = !!live && (live.state === 'in' || live.state === 'post') &&
     live.homeScore !== null && live.awayScore !== null;
+  // Penaltis (solo eliminatorias con empate).
+  const pens = isKo && !!ko && ko.homeScore != null && ko.awayScore != null &&
+    ko.homeScore === ko.awayScore && ko.shootoutHome != null && ko.shootoutAway != null;
   // Enlace a la ficha del partido (live-blog): `partido-N` en eliminatorias.
   const matchHref = picked
     ? withLocale(locale, `/2026/partido/${isKo ? `partido-${picked.match.n}` : matchSlug(picked.match)}`)
@@ -208,8 +212,15 @@ export function Hero() {
             <div className="mt-5 flex items-center gap-3">
               <Side code={homeCode} label={picked.match.label} />
               {showScore ? (
-                <span className="font-display tab-num text-4xl leading-none text-[var(--color-fg)] md:text-5xl">
-                  {live!.homeScore} <span className="text-[var(--color-fg-subtle)]">-</span> {live!.awayScore}
+                <span className="flex flex-col items-center">
+                  <span className="font-display tab-num text-4xl leading-none text-[var(--color-fg)] md:text-5xl">
+                    {live!.homeScore} <span className="text-[var(--color-fg-subtle)]">-</span> {live!.awayScore}
+                  </span>
+                  {pens && (
+                    <span className="mt-1 font-mono text-[10px] uppercase tracking-wider text-[var(--color-fg-muted)]">
+                      {ko!.shootoutHome}-{ko!.shootoutAway} pen.
+                    </span>
+                  )}
                 </span>
               ) : (
                 <span className="font-display text-2xl text-[var(--color-fg-subtle)] md:text-3xl">

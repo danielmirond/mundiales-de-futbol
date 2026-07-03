@@ -10,7 +10,7 @@ import {
 } from '@/lib/wc-2026';
 import { fixtureToUTC } from '@/lib/wc-2026-fixture-utc';
 import { fetchScores, buildScoreMap, scoreKey } from '@/lib/live-scores';
-import { resolveKnockout } from '@/lib/wc-2026-knockout';
+import { resolveKnockout, wentToShootout } from '@/lib/wc-2026-knockout';
 import { DaznBanner } from '@/components/affiliate/dazn-banner';
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl, SEO } from '@/lib/seo';
@@ -275,11 +275,18 @@ export default async function Calendario2026({
                                 </span>
                               )}
                             </span>
-                            <span className="shrink-0 px-1 tab-num">
+                            <span className="flex shrink-0 flex-col items-center px-1 tab-num">
                               {played ? (
-                                <span className="font-display text-xl text-[var(--color-fg)] md:text-2xl">
-                                  {sc!.homeScore}<span className="mx-1 text-[var(--color-fg-subtle)]">-</span>{sc!.awayScore}
-                                </span>
+                                <>
+                                  <span className="font-display text-xl text-[var(--color-fg)] md:text-2xl">
+                                    {sc!.homeScore}<span className="mx-1 text-[var(--color-fg-subtle)]">-</span>{sc!.awayScore}
+                                  </span>
+                                  {sc && wentToShootout(sc) && (
+                                    <span className="font-mono text-[8px] uppercase tracking-wider text-[var(--color-fg-subtle)]">
+                                      {sc.shootoutHome}-{sc.shootoutAway} pen.
+                                    </span>
+                                  )}
+                                </>
                               ) : (
                                 <span className="font-mono text-[var(--color-fg-subtle)]">vs</span>
                               )}

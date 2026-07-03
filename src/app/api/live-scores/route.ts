@@ -71,14 +71,16 @@ export async function GET(request: Request) {
     // el hero y demás vistas muestren los cruces en cuanto ESPN los determina.
     const knockout: Record<number, {
       home?: string; away?: string; homeScore: number | null; awayScore: number | null;
+      shootoutHome: number | null; shootoutAway: number | null;
       state: string; clock: string | null;
     }> = {};
     try {
       const ko = await resolveKnockout();
       for (const [n, r] of ko) {
         knockout[n] = {
-          home: r.home, away: r.away, homeScore: r.homeScore,
-          awayScore: r.awayScore, state: r.state, clock: r.clock,
+          home: r.home, away: r.away, homeScore: r.homeScore, awayScore: r.awayScore,
+          shootoutHome: r.shootoutHome, shootoutAway: r.shootoutAway,
+          state: r.state, clock: r.clock,
         };
       }
     } catch { /* sin datos KO → hero cae al texto del cuadro */ }

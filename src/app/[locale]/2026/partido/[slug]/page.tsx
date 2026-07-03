@@ -9,7 +9,7 @@ import {
 import { fixtureToUTC } from '@/lib/wc-2026-fixture-utc';
 import { fetchScores, buildScoreMap, scoreKey } from '@/lib/live-scores';
 import { fetchMatchSummary } from '@/lib/wc-2026-match-summary';
-import { resolveKnockoutFixture } from '@/lib/wc-2026-knockout';
+import { resolveKnockoutFixture, wentToShootout } from '@/lib/wc-2026-knockout';
 import { LiveMatchSummary } from '@/components/match/live-match-summary';
 import { pairSlug, getHeadToHead } from '@/lib/wc-head-to-head';
 import { getMovistarLink } from '@/lib/movistar-match-links';
@@ -188,11 +188,18 @@ export default async function PartidoPage({ params }: { params: Promise<{ locale
               ) : (
                 <span className="font-display text-2xl text-[var(--color-fg-subtle)]">vs</span>
               )}
+              {played && sc && wentToShootout(sc) && (
+                <div className="mt-1 font-mono text-[11px] tab-num text-[var(--color-fg-muted)]">
+                  {sc.shootoutHome}-{sc.shootoutAway} en penaltis
+                </div>
+              )}
               {live && (
                 <div className="mt-1 font-mono text-[9px] uppercase tracking-widest text-[var(--color-flame)]">{sc!.clock || 'EN VIVO'}</div>
               )}
               {played && !live && (
-                <div className="mt-1 font-mono text-[9px] uppercase tracking-widest text-[var(--color-fg-subtle)]">Final</div>
+                <div className="mt-1 font-mono text-[9px] uppercase tracking-widest text-[var(--color-fg-subtle)]">
+                  {sc && wentToShootout(sc) ? 'Final · penaltis' : 'Final'}
+                </div>
               )}
             </span>
             <Side team={a} code={f!.away} name={an} />

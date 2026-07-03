@@ -41,6 +41,8 @@ export type ResolvedKO = {
   away?: string;
   homeScore: number | null;
   awayScore: number | null;
+  shootoutHome: number | null;
+  shootoutAway: number | null;
   state: 'pre' | 'in' | 'post';
   clock: string | null;
   date: string;
@@ -48,6 +50,28 @@ export type ResolvedKO = {
 };
 
 const isTeam = (code?: string) => !!code && !!TEAMS_2026[code];
+
+type ScoreLike = {
+  homeScore: number | null; awayScore: number | null;
+  shootoutHome: number | null; shootoutAway: number | null;
+};
+
+/** ¿Se resolvió por penaltis? (empate en el marcador + tanda registrada). */
+export const wentToShootout = (m: ScoreLike) =>
+  m.homeScore != null && m.awayScore != null && m.homeScore === m.awayScore &&
+  m.shootoutHome != null && m.shootoutAway != null;
+
+/** Ganador del cruce teniendo en cuenta los penaltis; null si aún indefinido. */
+export function koWinner(m: ScoreLike): 'home' | 'away' | null {
+  if (m.homeScore == null || m.awayScore == null) return null;
+  if (m.homeScore > m.awayScore) return 'home';
+  if (m.awayScore > m.homeScore) return 'away';
+  if (m.shootoutHome != null && m.shootoutAway != null) {
+    if (m.shootoutHome > m.shootoutAway) return 'home';
+    if (m.shootoutAway > m.shootoutHome) return 'away';
+  }
+  return null;
+}
 
 function byDate<T extends { date: string }>(a: T, b: T) {
   return (a.date || '').localeCompare(b.date || '');
@@ -91,6 +115,8 @@ export async function resolveKnockout(): Promise<Map<number, ResolvedKO>> {
         away: isTeam(e.away) ? e.away : undefined,
         homeScore: e.homeScore,
         awayScore: e.awayScore,
+        shootoutHome: e.shootoutHome,
+        shootoutAway: e.shootoutAway,
         state: e.state,
         clock: e.clock,
         date: e.date,
@@ -115,6 +141,8 @@ export type KnockoutMatch = {
   away?: string;
   homeScore: number | null;
   awayScore: number | null;
+  shootoutHome: number | null;
+  shootoutAway: number | null;
   state: 'pre' | 'in' | 'post';
   clock: string | null;
   date: string;
@@ -143,6 +171,8 @@ export async function getKnockoutRounds(): Promise<KnockoutRound[]> {
           away: r?.away,
           homeScore: r?.homeScore ?? null,
           awayScore: r?.awayScore ?? null,
+          shootoutHome: r?.shootoutHome ?? null,
+          shootoutAway: r?.shootoutAway ?? null,
           state: r?.state ?? 'pre',
           clock: r?.clock ?? null,
           date: r?.date || `${f.date}T${f.time}`,
