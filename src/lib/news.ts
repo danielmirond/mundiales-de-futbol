@@ -124,6 +124,28 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'noruega-elimina-brasil-cuartos-mundial-2026',
+    title: 'Noruega hace historia en el Mundial 2026: gana a Brasil y jugará sus primeros cuartos',
+    summary:
+      'Noruega tumbó a Brasil (2-1) en los octavos del Mundial 2026 y se mete por primera vez en unos cuartos de final. Con Erling Haaland como colíder de la tabla de goleadores, la generación de Ødegaard firma la mayor gesta de su historia y se cita con Inglaterra el 11 de julio.',
+    body: `Noruega nunca había pasado de octavos en un Mundial. Hasta ahora. La victoria por **2-1 sobre Brasil** mete a la selección escandinava en los **cuartos de final** del Mundial 2026, el mejor resultado de su historia y el techo de una generación que llevaba años prometiendo algo así.
+
+El camino no ha sido casualidad. En la fase de grupos goleó a Irak (4-1), superó a Senegal en un duelo abierto (3-2) y solo cedió ante Francia (1-4), lo justo para clasificarse como segunda. En dieciseisavos apartó a Costa de Marfil (2-1) y en octavos completó la sorpresa frente a una Brasil que llegaba como una de las favoritas.
+
+En el centro de todo está **Erling Haaland**, colíder de la [tabla de goleadores](/2026/goleadores) del torneo con 7 tantos y con la Bota de Oro a tiro. Junto a Martin Ødegaard, el delantero sostiene a un equipo que ha hecho del orden y la eficacia su seña de identidad.
+
+La última vez que Noruega pisó un Mundial fue en Francia 1998, donde cayó en octavos ante Italia. Casi tres décadas después, y tras encadenar ausencias en cada cita, el combinado nórdico no solo ha vuelto: ha eliminado a un histórico.
+
+El próximo reto llega el **11 de julio contra Inglaterra**, en unos cuartos que ninguna generación noruega había jugado jamás. Puedes seguir su recorrido en el [camino de Noruega hacia la final](/2026/camino/NOR) y todos los cruces en el [cuadro del Mundial 2026](/2026/cuadro).`,
+    category: 'historica',
+    sourceName: 'FIFA',
+    sourceUrl: 'https://www.fifa.com',
+    sourceLang: 'en',
+    publishedAt: '2026-07-05T23:15:00Z',
+    modifiedAt: '2026-07-05T23:15:00Z',
+    author: 'Redacción Mundiales de Fútbol',
+  },
+  {
     slug: 'partidos-mundial-2026-hoy-2026-07-06',
     title: "Partidos del Mundial 2026 hoy, Lunes 6 de julio: horarios (hora España) y dónde ver, gratis en La 1 o en DAZN",
     summary: "Calendario de los 2 partidos del Mundial 2026 de hoy, lunes 6 de julio: horarios en hora española y dónde verlos. Hoy ningún partido en abierto en La 1: todos en DAZN / Movistar Plus+.",
