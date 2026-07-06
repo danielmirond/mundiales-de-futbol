@@ -132,6 +132,56 @@ export async function resolveKnockoutFixture(n: number): Promise<ResolvedKO | un
   return (await resolveKnockout()).get(n);
 }
 
+export type Eliminated = { code: string; roundKey: string; roundLabel: string; byCode?: string };
+export type KnockoutSurvival = {
+  /** Equipos que siguen vivos (aún no eliminados en eliminatorias). */
+  alive: string[];
+  /** Eliminados en eliminatorias, del más reciente al más antiguo. */
+  eliminated: Eliminated[];
+  /** Última ronda con partidos jugados (clave de KO_STAGES) o null. */
+  latestRoundKey: string | null;
+};
+
+/**
+ * Quién sigue vivo y quién ha caído en las eliminatorias, a partir de los
+ * cruces reales de ESPN. Responde a "equipos eliminados", "qué equipos quedan"
+ * y "cruces/octavos/cuartos" — todo derivado, sin datos manuales.
+ */
+export async function getKnockoutSurvival(): Promise<KnockoutSurvival> {
+  const resolved = await resolveKnockout();
+  const stageByN = new Map<number, string>();
+  for (const f of FIXTURES_2026) if (KO_STAGES.includes(f.stage)) stageByN.set(f.n, f.stage);
+
+  const participants = new Set<string>();
+  const eliminated: Eliminated[] = [];
+  let latestIdx = -1;
+
+  for (const [n, r] of resolved) {
+    if (r.home) participants.add(r.home);
+    if (r.away) participants.add(r.away);
+    const stage = stageByN.get(n);
+    if (!stage || stage === '3P') continue; // el 3er puesto no "elimina" del torneo
+    if (r.state === 'post' && r.home && r.away) {
+      const w = koWinner(r);
+      if (!w) continue;
+      const loser = w === 'home' ? r.away : r.home;
+      const winner = w === 'home' ? r.home : r.away;
+      eliminated.push({
+        code: loser!, roundKey: stage,
+        roundLabel: STAGE_LABEL[stage] ?? stage, byCode: winner,
+      });
+      const idx = KO_STAGES.indexOf(stage);
+      if (idx > latestIdx) latestIdx = idx;
+    }
+  }
+
+  const elimSet = new Set(eliminated.map((e) => e.code));
+  const alive = [...participants].filter((c) => !elimSet.has(c));
+  eliminated.sort((a, b) => KO_STAGES.indexOf(b.roundKey) - KO_STAGES.indexOf(a.roundKey));
+
+  return { alive, eliminated, latestRoundKey: latestIdx >= 0 ? KO_STAGES[latestIdx] : null };
+}
+
 export type KnockoutMatch = {
   n: number;
   /** slug canónico de /2026/partido/[slug] (siempre `partido-N` en eliminatorias) */

@@ -3,6 +3,7 @@ import { setRequestLocale } from 'next-intl/server';
 import { ArrowLeft, ArrowRight, ListTree, MapPin, CalendarDays } from 'lucide-react';
 import { WC2026Bracket } from '@/components/edition/wc2026-bracket';
 import { KnockoutCrosses } from '@/components/edition/knockout-crosses';
+import { KnockoutSurvival } from '@/components/edition/knockout-survival';
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl, SEO } from '@/lib/seo';
 
@@ -257,6 +258,8 @@ export default async function CuadroPage({
         <h1 className="mt-3 text-4xl font-semibold tracking-tight sm:text-5xl">{c.h1}</h1>
         <p className="mt-4 max-w-3xl text-lg text-[var(--color-fg-muted)]">{c.intro}</p>
       </header>
+
+      <KnockoutSurvival locale={L} />
 
       <KnockoutCrosses locale={L} />
 
