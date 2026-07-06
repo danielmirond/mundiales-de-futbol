@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { ArrowRight } from 'lucide-react';
 import { TEAMS_2026, STAGE_LABEL } from '@/lib/wc-2026';
 import { getKnockoutSurvival } from '@/lib/wc-2026-knockout';
 import { routing, type Locale } from '@/i18n/routing';
@@ -92,6 +93,13 @@ export async function KnockoutSurvival({ locale }: { locale: Locale }) {
           </div>
         </div>
       )}
+
+      <Link
+        href={withLocale(locale, '/2026/goleadores')}
+        className="mt-8 inline-flex items-center gap-2 font-mono text-xs uppercase tracking-[0.2em] text-[var(--color-pitch)] hover:underline"
+      >
+        Máximo goleador y Bota de Oro <ArrowRight className="h-3 w-3 rtl:rotate-180" />
+      </Link>
     </section>
   );
 }
