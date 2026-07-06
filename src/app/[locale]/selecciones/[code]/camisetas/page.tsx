@@ -308,6 +308,25 @@ export default async function CamisetasPorSeleccion({
         </p>
       </header>
 
+      {code === 'ESP' && (
+        <div className="mx-auto mt-10 w-full max-w-[1100px] px-6 md:px-10">
+          <Link
+            href={withLocale(locale as Locale, '/2026/camiseta-espana')}
+            className="flex items-center justify-between gap-4 rounded-2xl border border-[var(--color-pitch)]/40 bg-[var(--color-bg-2)] p-5 transition-colors hover:border-[var(--color-pitch)]"
+          >
+            <span>
+              <span className="block font-display text-lg uppercase text-[var(--color-fg)]">
+                Camiseta de España para el Mundial 2026
+              </span>
+              <span className="mt-1 block text-sm text-[var(--color-fg-muted)]">
+                Versiones, precios, guía de tallas y dónde comprarla sin caer en falsificaciones.
+              </span>
+            </span>
+            <ArrowRight className="h-5 w-5 shrink-0 text-[var(--color-pitch)] rtl:rotate-180" />
+          </Link>
+        </div>
+      )}
+
       <section className="mx-auto mt-16 w-full max-w-[1100px] px-6 md:px-10 space-y-6">
         {history.jerseys.map((j) => (
           <JerseyCard key={`${j.year}-${j.variant}`} j={j} baseColor={history.baseColor} />
