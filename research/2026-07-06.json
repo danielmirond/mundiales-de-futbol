@@ -1,0 +1,2843 @@
+{
+  "generatedAt": "2026-07-06T11:12:32.944Z",
+  "date": "2026-07-06",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "selección de fútbol de colombia",
+      "geo": "US",
+      "language": "en",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "Colombia vs. Suiza: El guiño del destino que recibió James Rodríguez",
+          "url": "https://espndeportes.espn.com/futbol/mundial/nota/_/id/16963093/colombia-vs-suiza-guino-del-destino-que-recibio-james-rodriguez-mundial-2026",
+          "source": "ESPN Deportes"
+        },
+        {
+          "title": "El pronóstico de la Inteligencia Artificial para el partido entre Colombia y Suiza",
+          "url": "https://www.si.com/es-us/futbol/pronostico-inteligencia-artificial-colombia-y-suiza-7-7-2026",
+          "source": "Sports Illustrated"
+        },
+        {
+          "title": "La doble ventaja de Suiza sobre Colombia en el Mundial 2026 para el partido del próximo martes",
+          "url": "https://www.eltiempo.com/deportes/futbol-internacional/la-doble-ventaja-de-suiza-sobre-colombia-en-el-mundial-2026-para-el-partido-del-proximo-martes-3569045",
+          "source": "ELTIEMPO.COM"
+        }
+      ]
+    },
+    {
+      "query": "copa mundial de fútbol",
+      "geo": "MX",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 5000,
+      "articles": [
+        {
+          "title": "Mundial 2026, en directo: noticias de la Copa del Mundo y última hora de las selecciones, hoy 6 de julio",
+          "url": "https://as.com/futbol/mundial/mundial-2026-en-directo-noticias-de-la-copa-del-mundo-y-ultima-hora-de-las-selecciones-hoy-6-de-julio-f202607-d/",
+          "source": "Diario AS"
+        },
+        {
+          "title": "Mundial 2026, en directo | Última hora de España y partidos de octavos del 6 de julio, en vivo",
+          "url": "https://www.marca.com/futbol/mundial/2026/07/06/6a4b50d2b364eacdc84d0c74-directo.html",
+          "source": "MARCA"
+        },
+        {
+          "title": "Últimos acontecimientos del Mundial de Norteamérica 2026",
+          "url": "https://es-us.noticias.yahoo.com/deportes/acontecimientos-mundial-norteam%C3%A9rica-2026-163923543.html",
+          "source": "Yahoo"
+        }
+      ]
+    },
+    {
+      "query": "copa america",
+      "geo": "MX",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "Mundial 2026: Programa ‘Fútbol chapa’ | Claves de la eliminación de Alemania y los triunfos de Brasil y Marruecos",
+          "url": "https://elpais.com/deportes/mundial-futbol/2026-06-30/mundial-2026-programa-video-futbol-chapa.html",
+          "source": "EL PAÍS"
+        },
+        {
+          "title": "Resultados del Mundial hoy lunes 29 de junio: Marcadores",
+          "url": "https://www.milenio.com/futbol-internacional/mundial/resultados-mundial-2026-hoy-29-junio",
+          "source": "Milenio"
+        },
+        {
+          "title": "¿Brasil confirma su candidatura y Paraguay firma la gran sorpresa? Nuestros expertos lo analizan",
+          "url": "https://www.telemundo.com/deportes/copa-mundial-de-la-fifa-2026/video/brasil-confirma-su-candidatura-y-paraguay-firma-la-gran-sorpresa-nuestros-expertos-lo-analizan-tmvo13198709",
+          "source": "Telemundo"
+        }
+      ]
+    },
+    {
+      "query": "cuando juega inglaterra vs noruega",
+      "geo": "MX",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "OFICIAL: El segundo partido definido de cuartos de final del Mundial 2026",
+          "url": "https://www.tvazteca.com/aztecadeportes/oficial-segundo-partido-definido-cuartos-final-mundial-2026/",
+          "source": "TV Azteca"
+        },
+        {
+          "title": "Noruega elimina a Brasil, México se queda en el camino: Resultados del Mundial 2026 HOY 5 de julio",
+          "url": "https://www.elfinanciero.com.mx/deportes/mundial-2026/2026/07/05/partidos-de-octavos-de-final-hoy-5-de-julio-horarios-y-resultados/",
+          "source": "El Financiero"
+        },
+        {
+          "title": "El Análisis Experto es para la sublime actuación de Haaland y Noruega",
+          "url": "https://www.telemundo.com/deportes/copa-mundial-de-la-fifa-2026/video/el-analisis-experto-es-para-la-sublime-actuacion-de-haaland-y-noruega-tmvo13200817",
+          "source": "Telemundo"
+        }
+      ]
+    },
+    {
+      "query": "henderson inglaterra",
+      "geo": "AR",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Mundial 2026, en directo: noticias de la Copa del Mundo y última hora de las selecciones, hoy 6 de julio",
+          "url": "https://as.com/futbol/mundial/mundial-2026-en-directo-noticias-de-la-copa-del-mundo-y-ultima-hora-de-las-selecciones-hoy-6-de-julio-f202607-d/",
+          "source": "Diario AS"
+        },
+        {
+          "title": "Quiso festejar la clasificación de Inglaterra y tuvo que ser retirado en camilla del Azteca",
+          "url": "https://www.labrujula24.com/notas/2026/07/06/quiso-festejar-la-clasificacion-de-inglaterra-y-tuvo-que-ser-retirado-en-camilla-del-azteca-n509048/",
+          "source": "La Brújula 24"
+        },
+        {
+          "title": "Se fue en camilla: Jordan Henderson sufrió una preocupante caída durante los festejos de Inglaterra por la victoria ante México",
+          "url": "https://tn.com.ar/deportes/mundial/2026/2026/07/06/se-fue-en-camilla-jordan-henderson-sufrio-una-preocupante-caida-durante-los-festejos-de-inglaterra-por-la-victoria-ante-mexico/",
+          "source": "TN"
+        }
+      ]
+    },
+    {
+      "query": "memes mexico vs inglaterra",
+      "geo": "AR",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Los memes más crueles y divertidos que dejó la eliminación de México del Mundial 2026 tras perder contra Inglaterra",
+          "url": "https://www.infobae.com/mexico/deportes/2026/07/06/los-memes-mas-crueles-y-divertidos-que-dejo-la-eliminacion-de-mexico-del-mundial-2026-tras-perder-contra-inglaterra/",
+          "source": "Infobae"
+        },
+        {
+          "title": "Memes: Inglaterra eliminó a México por los octavos de final del Mundial 2026 y estallaron las redes sociales",
+          "url": "https://tn.com.ar/deportes/mundial/2026/2026/07/05/los-mejores-memes-de-mexico-vs-inglaterra-por-los-octavos-de-final-del-mundial-2026/",
+          "source": "TN"
+        },
+        {
+          "title": "Mundial 2026: operativo \"No Inglés\" la ingeniosa campaña previo al México vs Inglaterra",
+          "url": "https://es-us.vida-estilo.yahoo.com/mundial-2026-operativo-no-ingles-la-ingeniosa-campana-previo-al-mexico-vs-inglaterra-164308129.html",
+          "source": "Yahoo en Español Vida y Estilo"
+        }
+      ]
+    },
+    {
+      "query": "cuando juega argentina",
+      "geo": "CO",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "El árbitro de Argentina vs. Egipto: el antecedente que preocupa a la Selección",
+          "url": "https://www.espn.com.co/futbol/mundial/nota/_/id/16961393/fifa-arbitro-argentina-vs-egipto-mundial-2026-preocupa-seleccion-futbol",
+          "source": "ESPN Colombia"
+        },
+        {
+          "title": "Argentina en el Mundial 2026, en directo: última hora hoy, 6 julio | Messi, Julián Álvarez, Nico Paz...",
+          "url": "https://as.com/futbol/mundial/argentina-en-el-mundial-2026-en-directo-ultima-hora-hoy-6-julio-messi-julian-alvarez-nico-paz-f202607-n/",
+          "source": "Diario AS"
+        },
+        {
+          "title": "El laboratorio de Scaloni: las pruebas y la probable formación ante Egipto",
+          "url": "https://www.ole.com.ar/mundial/mundial-2026/laprobableformacionargentinaegipto_0_82zYNm5jZK.html",
+          "source": "Olé"
+        }
+      ]
+    },
+    {
+      "query": "henderson",
+      "geo": "CO",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "World Cup 2026: England&apos;s Jordan Henderson injures wrist in celebrations",
+          "url": "https://www.bbc.com/sport/football/articles/c9822ez0zdwo",
+          "source": "BBC"
+        },
+        {
+          "title": "FIFA World Cup: Thomas Tuchel reflects on England&apos;s win vs Mexico",
+          "url": "https://www.flashscore.com/news/thomas-tuchel-admits-england-beating-mexico-at-azteca-feels-like-winning-the-final/C2jgMGrm/",
+          "source": "Flashscore.com"
+        },
+        {
+          "title": "Santiago Gimenez stretchered off during Mexico&apos;s World Cup loss to England, adding injury crisis to host nation&apos;s tournament woes",
+          "url": "https://cryptobriefing.com/gimenez-injury-mexico-world-cup-england/",
+          "source": "Crypto Briefing"
+        }
+      ]
+    },
+    {
+      "query": "hasta donde llega colombia en el mundial 2026",
+      "geo": "CO",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 10000,
+      "articles": [
+        {
+          "title": "El sueño continúa: Colombia vence a Ghana y avanza a octavos del Mundial",
+          "url": "https://colombia.as.com/futbol/mundial/el-sueno-continua-colombia-vence-a-ghana-y-avanza-a-octavos-del-mundial-f202607-n/",
+          "source": "AS Colombia"
+        },
+        {
+          "title": "¿Por qué Jhon Arias fue récord e hizo historia en Colombia vs. Ghana?",
+          "url": "https://www.espn.com.co/futbol/mundial/nota/_/id/16955620/por-que-jhon-arias-fue-record-hizo-historia-colombia-vs-ghana-mundial-2026",
+          "source": "ESPN Colombia"
+        },
+        {
+          "title": "Selección Colombia: cinco razones para creer en un mundial histórico",
+          "url": "https://www.eltiempo.com/deportes/futbol-internacional/seleccion-colombia-cinco-razones-para-creer-en-un-mundial-historico-3569102",
+          "source": "ELTIEMPO.COM"
+        }
+      ]
+    },
+    {
+      "query": "inglaterra vs noruega",
+      "geo": "CO",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "La llave del Mundial 2026: Brasil afuera e Inglaterra eliminó a México",
+          "url": "https://www.ole.com.ar/mundial/mundial-2026/llave-octavos-final-mundial-clasificados-cruces_0_Lvnpp8Il2x.html",
+          "source": "Olé"
+        },
+        {
+          "title": "Inglaterra y Noruega clasifican a cuartos de final del Mundial: resumen de la jornada",
+          "url": "https://caracol.com.co/2026/07/06/inglaterra-y-noruega-clasifican-a-cuartos-de-final-del-mundial-resumen-de-la-jornada/",
+          "source": "Caracol Radio"
+        },
+        {
+          "title": "Historial Inglaterra vs Noruega: antecedentes, partidos y resultados entre ambas selecciones",
+          "url": "https://www.si.com/es-us/futbol/historial-inglaterra-vs-noruega-antecedentes-partidos-y-resultados-entre-ambas-selecciones",
+          "source": "Sports Illustrated"
+        }
+      ]
+    },
+    {
+      "query": "jordan henderson",
+      "geo": "CL",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "World Cup 2026: England&apos;s Jordan Henderson injures wrist in celebrations",
+          "url": "https://www.bbc.com/sport/football/articles/c9822ez0zdwo",
+          "source": "BBC"
+        },
+        {
+          "title": "FIFA World Cup: Thomas Tuchel reflects on England&apos;s win vs Mexico",
+          "url": "https://www.flashscore.com/news/thomas-tuchel-admits-england-beating-mexico-at-azteca-feels-like-winning-the-final/C2jgMGrm/",
+          "source": "Flashscore.com"
+        },
+        {
+          "title": "Santiago Gimenez stretchered off during Mexico&apos;s World Cup loss to England, adding injury crisis to host nation&apos;s tournament woes",
+          "url": "https://cryptobriefing.com/gimenez-injury-mexico-world-cup-england/",
+          "source": "Crypto Briefing"
+        }
+      ]
+    },
+    {
+      "query": "estados unidos vs belgica",
+      "geo": "CL",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Estados Unidos - Bélgica: a qué hora es el partido del Mundial 2026, horario y cómo verlo por TV",
+          "url": "https://www.adnradio.cl/2026/07/05/estados-unidos-belgica-a-que-hora-es-el-partido-del-mundial-2026-horario-y-como-verlo-por-tv/",
+          "source": "ADN Radio"
+        },
+        {
+          "title": "Estados Unidos vs. Bélgica EN VIVO: A qué hora y dónde ver el partido del Mundial 2026",
+          "url": "https://www.t13.cl/noticia/mundial-2026/estados-unidos-vs-belgica-vivo-hora-donde-ver-partido-del-mundial-2026-5-7-2026",
+          "source": "Teletrece"
+        },
+        {
+          "title": "Estados Unidos desafía la historia ante Bélgica en los octavos del Mundial 2026",
+          "url": "https://www.cooperativa.cl/noticias/deportes/mundial-2026/octavos-de-final/estados-unidos-desafia-la-historia-ante-belgica-en-los-octavos-del/2026-07-05/192842.html",
+          "source": "Cooperativa"
+        }
+      ]
+    },
+    {
+      "query": "españa vs portugal",
+      "geo": "CL",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "Una batalla entre los reyes del pase",
+          "url": "https://as.com/futbol/seleccion/una-batalla-entre-los-reyes-del-pase-f202607-n/",
+          "source": "Diario AS"
+        },
+        {
+          "title": "España vs Portugal: posibles alineaciones y probabilidades",
+          "url": "https://www.espn.cl/futbol/mundial/nota/_/id/16964548/espana-vs-portugal-alineaciones-probabilidades-victoria-mundial-2026",
+          "source": "ESPN Chile"
+        },
+        {
+          "title": "Partidos del Mundial 2026 hoy, lunes 6 de julio: horarios, canal de TV y dónde ver en vivo en Chile",
+          "url": "https://www.adnradio.cl/2026/07/05/partidos-del-mundial-2026-hoy-lunes-6-de-julio-horarios-canal-de-tv-y-donde-ver-en-vivo-en-chile/",
+          "source": "ADN Radio"
+        }
+      ]
+    },
+    {
+      "query": "noruega vs inglaterra",
+      "geo": "CL",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "La llave del Mundial 2026: Brasil afuera e Inglaterra eliminó a México",
+          "url": "https://www.ole.com.ar/mundial/mundial-2026/llave-octavos-final-mundial-clasificados-cruces_0_Lvnpp8Il2x.html",
+          "source": "Olé"
+        },
+        {
+          "title": "Noruega vs. Francia, por los cuartos de final del Mundial 2026: Cuándo es y a qué hora",
+          "url": "https://www.t13.cl/noticia/mundial-2026/noruega-vs-francia-por-los-cuartos-de-final-del-mundial-2026-cuando-es-y-a-que-hora",
+          "source": "Teletrece"
+        },
+        {
+          "title": "Historial Inglaterra vs Noruega: antecedentes, partidos y resultados entre ambas selecciones",
+          "url": "https://www.si.com/es-us/futbol/historial-inglaterra-vs-noruega-antecedentes-partidos-y-resultados-entre-ambas-selecciones",
+          "source": "Sports Illustrated"
+        }
+      ]
+    },
+    {
+      "query": "henderson",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Jordan Henderson rushed to hospital after suffering &apos;really bad&apos; injury celebrating England&apos;s 3-2 Mexico World Cup win",
+          "url": "https://www.thesun.co.uk/sport/39659983/england-medics-celebrations-world-cup-mexico/",
+          "source": "The Sun"
+        },
+        {
+          "title": "FIFA World Cup: Thomas Tuchel reflects on England&apos;s win vs Mexico",
+          "url": "https://www.flashscore.com/news/thomas-tuchel-admits-england-beating-mexico-at-azteca-feels-like-winning-the-final/C2jgMGrm/",
+          "source": "Flashscore.com"
+        },
+        {
+          "title": "Santiago Gimenez stretchered off during Mexico&apos;s World Cup loss to England, adding injury crisis to host nation&apos;s tournament woes",
+          "url": "https://cryptobriefing.com/gimenez-injury-mexico-world-cup-england/",
+          "source": "Crypto Briefing"
+        }
+      ]
+    },
+    {
+      "query": "kick",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 10000,
+      "articles": [
+        {
+          "title": "Mexico vs England Highlights 🌎🏆 2026 FIFA World Cup™ | Round of 16",
+          "url": "https://www.foxsports.com/watch/fmc-9vzfk8qj03kjk16e",
+          "source": "FOX Sports"
+        },
+        {
+          "title": "Mexico vs England: Azteca Stadium issues shelter-in-place order because of severe weather",
+          "url": "https://www.bbc.com/sport/football/articles/clyeegldnmpo",
+          "source": "BBC"
+        },
+        {
+          "title": "World Cup serenade: Mexican fans blast horns outside hotel to disrupt England players&apos; sleep",
+          "url": "https://apnews.com/article/mexico-fans-england-world-cup-serenade-7e4f977ece5ee9e4440847cc70de6483",
+          "source": "AP News"
+        }
+      ]
+    },
+    {
+      "query": "eeuu vs belgica",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "¿Dónde ver Estados Unidos vs Bélgica EN VIVO por el Mundial 2026? hora, previa y en qué canal pasan los octavos",
+          "url": "https://elcomercio.pe/deporte-total/futbol-mundial/donde-ver-estados-unidos-vs-belgica-en-vivo-por-el-mundial-2026-hora-previa-y-en-que-canal-pasan-los-octavos-tdpe-noticia/",
+          "source": "El Comercio Perú"
+        },
+        {
+          "title": "Estados Unidos - Bélgica | Pronóstico y cuotas 07.07.2026",
+          "url": "https://as.com/apuestas/pronosticos/estados-unidos-vs-belgica-pronostico-07-07-2026/",
+          "source": "Diario AS"
+        },
+        {
+          "title": "Alineación probable de Estados Unidos - Bélgica en el Mundial: once del partido de octavos de final",
+          "url": "https://www.marca.com/futbol/mundial/2026/07/06/alineacion-probable-estados-unidos-belgica-mundial-once-partido-octavos-final.html",
+          "source": "MARCA"
+        }
+      ]
+    },
+    {
+      "query": "colombia vs suiza",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Cuándo juegan Colombia vs. Suiza por los octavos del Mundial 2026: equipo, fecha, hora y TV en vivo",
+          "url": "https://espndeportes.espn.com/futbol/mundial/nota/_/id/16632775/colombia-vs-suiza-octavos-de-final-8vos-mundial-2026-equipo-fecha-hora-tv-en-vivo",
+          "source": "ESPN Deportes"
+        },
+        {
+          "title": "FIFA le ordenó dos cambios a Colombia para su partido ante Suiza: llegó la notificación oficial",
+          "url": "https://www.semana.com/deportes/articulo/fifa-le-ordeno-dos-cambios-a-colombia-para-su-partido-ante-suiza-llego-la-notificacion-oficial/202628/",
+          "source": "Revista Semana"
+        },
+        {
+          "title": "Un futbolista colombiano que juega en Suiza aseguró que la liga de ese país es mejor que la de Colombia por esta razón",
+          "url": "https://www.infobae.com/colombia/deportes/2026/07/05/un-futbolista-colombiano-que-juega-en-suiza-aseguro-que-la-liga-de-ese-pais-es-mejor-que-la-de-colombia-por-esta-razon/",
+          "source": "Infobae"
+        }
+      ]
+    },
+    {
+      "query": "fifa world cup 2026™",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Meet the soccer-playing humanoid robot that just delivered the game ball at the Brazil v. Norway FIFA World Cup match",
+          "url": "https://fortune.com/2026/07/05/humanoid-robot-delivered-game-ball-brazil-norway-world-cup-match-fifa-boston-dynamics-hyundai/",
+          "source": "Fortune"
+        },
+        {
+          "title": "Atlas, the humanoid robot, delivers match ball at World Cup",
+          "url": "https://www.reuters.com/sports/soccer/atlas-humanoid-robot-delivers-match-ball-world-cup-2026-07-06/",
+          "source": "Reuters"
+        },
+        {
+          "title": "Hyundai Motor Showcases Humanoid at World Cup in Robotics Push",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-05/hyundai-motor-showcases-humanoid-at-world-cup-in-robotics-push",
+          "source": "Bloomberg.com"
+        }
+      ]
+    },
+    {
+      "query": "argentina vs egipto",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "El árbitro de Argentina vs. Egipto: el antecedente que preocupa a la Selección",
+          "url": "https://espndeportes.espn.com/futbol/mundial/nota/_/id/16961393/fifa-arbitro-argentina-vs-egipto-mundial-2026-preocupa-seleccion-futbol",
+          "source": "ESPN Deportes"
+        },
+        {
+          "title": "Argentina en el Mundial 2026, en directo: última hora hoy, 6 julio | Messi, Julián Álvarez, Nico Paz...",
+          "url": "https://as.com/futbol/mundial/argentina-en-el-mundial-2026-en-directo-ultima-hora-hoy-6-julio-messi-julian-alvarez-nico-paz-f202607-n/",
+          "source": "Diario AS"
+        },
+        {
+          "title": "«Es ridículo»... Pánico en Argentina por la decisión arbitral en el partido contra Egipto",
+          "url": "https://www.goal.com/es/noticias/es-ridiculo-panico-en-argentina-por-la-decision-arbitral-en-el-partido-contra-egipto/blt3853ac599267ebdf",
+          "source": "Goal.com"
+        }
+      ]
+    },
+    {
+      "query": "copa mundial de fútbol de 2026",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 10000,
+      "articles": [
+        {
+          "title": "Tabla de goleadores del Mundial 2026: Messi, Mbappé y Haaland igualan con 7 goles en la lucha por la Bota de Oro",
+          "url": "https://www.eluniverso.com/deportes/futbol/tabla-de-goleadores-del-mundial-2026-messi-mbappe-y-haaland-igualan-con-7-goles-en-la-lucha-por-la-bota-de-oro-nota/",
+          "source": "El Universo"
+        },
+        {
+          "title": "La egocéntrica frase de Haaland tras sus goles a Brasil en el Mundial y la marca histórica que logró",
+          "url": "https://www.infobae.com/deportes/2026/07/06/la-egocentrica-frase-de-haaland-tras-sus-goles-a-brasil-en-el-mundial-y-la-marca-historica-que-logro/",
+          "source": "Infobae"
+        },
+        {
+          "title": "Noruega es candidata: Haaland iguala a Messi y Mbappé en su primer Mundial",
+          "url": "https://www.transfermarkt.es/noruega-es-candidata-haaland-iguala-a-messi-y-mbappe-en-su-primer-mundial/view/news/482427",
+          "source": "Transfermarkt"
+        }
+      ]
+    },
+    {
+      "query": "arbitro mexico vs inglaterra",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "Alireza Faghani: Quién es el arbitro del México vs Inglaterra en los octavos del Mundial 2026",
+          "url": "https://www.eluniverso.com/deportes/futbol/alireza-faghani-quien-es-el-arbitro-del-mexico-vs-inglaterra-en-los-octavos-del-mundial-2026-nota/",
+          "source": "El Universo"
+        },
+        {
+          "title": "¿Quién es el árbitro de México - Inglaterra en octavos del Mundial? Perfil y trayectoria de Alireza Faghani",
+          "url": "https://www.marca.com/futbol/mundial/2026/07/06/arbitro-mexico-inglaterra-octavos-mundial-perfil-trayectoria-alireza-faghani.html",
+          "source": "MARCA"
+        },
+        {
+          "title": "La FIFA deposita su confianza en Juan Lara y lo designa en importante partido del Mundial",
+          "url": "https://www.espn.cl/futbol/mundial/nota/_/id/16960944/fifa-confianza-arbitro-juan-lara-designa-importante-partido-mundial-2026",
+          "source": "ESPN Chile"
+        }
+      ]
+    },
+    {
+      "query": "tormenta",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "¿Cuál es el protocolo de FIFA en caso de tormenta durante los partidos del Mundial 2026 y cuánto dura activo?",
+          "url": "https://www.marca.com/mx/futbol/mundial/2026/07/06/6a4aed7aca4741d06c8b4575.html",
+          "source": "MARCA"
+        },
+        {
+          "title": "VÍDEO | Las tormentas eléctricas del Mundial se llaman Haaland y Mbappé (3-2/3-0)",
+          "url": "https://salamancartvaldia.es/noticia/2026-06-23-video-las-tormentas-electricas-del-mundial-se-llaman-haaland-y-mbappe-3-2-3-0-392939",
+          "source": "SALAMANCArtv AL DÍA"
+        },
+        {
+          "title": "¿Qué partidos se han retrasado en el Mundial 2026? La lista de encuentros afectados por el clima",
+          "url": "https://www.excelsior.com.mx/deportes/que-partidos-han-retrasado-mundial-2026-lista-encuentros-afectados-por-clima",
+          "source": "Excélsior"
+        }
+      ]
+    },
+    {
+      "query": "quiñones",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Quiñones empata a Chicharito y Luis Hernández como máximo goleador en Mundiales",
+          "url": "https://www.si.com/mx/mundial-2026/quinones-empata-a-chicharito-y-luis-hernandez-como-maximo-goleador-en-mundiales",
+          "source": "Sports Illustrated"
+        },
+        {
+          "title": "Julián Quiñones: Dónde nació, cuántos goles lleva en el Mundial 2026, historia y cómo llegó a México",
+          "url": "https://www.olympics.com/es/noticias/julian-quinones-donde-nacio-goles-mundial-2026",
+          "source": "Olympics"
+        },
+        {
+          "title": "Por qué Julián Quiñones, el chico colombiano que jugaba descalzo, eligió representar a México",
+          "url": "https://tn.com.ar/deportes/mundial/2026/2026/07/05/por-que-julian-quinones-el-chico-colombiano-que-jugaba-descalzo-eligio-representar-a-mexico/",
+          "source": "TN"
+        }
+      ]
+    },
+    {
+      "query": "méxico - inglaterra",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 50000,
+      "articles": [
+        {
+          "title": "No se pudo: México cayó con Inglaterra 3-2 en atrapante partido",
+          "url": "https://ladiaria.com.uy/deporte/articulo/2026/7/no-se-pudo-mexico-cayo-con-inglaterra-3-2-en-atrapante-partido/",
+          "source": "la diaria"
+        },
+        {
+          "title": "México 2-3 Inglaterra por el Mundial 2026: afuera otro anfitrión y los Tres Leones a cuartos con Bellingham y Kane",
+          "url": "https://www.elpais.com.uy/ovacion/mundial/mexico-vs-inglaterra-en-vivo-por-el-mundial-2026-partidazo-en-el-estadio-azteca-por-octavos-de-final",
+          "source": "EL PAÍS Uruguay"
+        },
+        {
+          "title": "Un imperial Bellingham puede con 135 millones de mexicanos",
+          "url": "https://as.com/futbol/mundial/un-imperial-bellingham-puede-con-135-millones-de-mexicanos-f202607-n/",
+          "source": "Diario AS"
+        }
+      ]
+    },
+    {
+      "query": "portugal vs spain world cup 2026",
+      "geo": "BR",
+      "language": "pt",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Portugal vs Spain Prediction: World Cup 2026 Match Preview",
+          "url": "https://theanalyst.com/articles/portugal-vs-spain-prediction-world-cup-2026-match-preview",
+          "source": "Opta Analyst"
+        },
+        {
+          "title": "Portugal arrive in Dallas for Spain showdown",
+          "url": "https://onefootball.com/de/video/portugal-arrive-in-dallas-for-spain-showdown-3G654OYH81XUVj1wq9xehFOkvep",
+          "source": "OneFootball"
+        },
+        {
+          "title": "&apos;He loves these kinds of games&apos;: De la Fuente backs Lamine Yamal against Portugal",
+          "url": "https://www.flashscore.com/news/he-loves-these-kinds-of-games-de-la-fuente-backs-lamine-yamal-against-portugal/th7c1z8D/",
+          "source": "Flashscore.com"
+        }
+      ]
+    },
+    {
+      "query": "portugal vs spain world cup 2026",
+      "geo": "ES",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Portugal vs Spain: FIFA World Cup stats & head-to-head",
+          "url": "https://www.bbc.com/sport/football/live/cze9xg6480gt",
+          "source": "BBC"
+        },
+        {
+          "title": "Cristiano Ronaldo’s advice to Lamine Yamal before Spain vs Portugal at the World Cup",
+          "url": "https://www.mundodeportivo.com/en/20260705/1004203219/cristiano-ronaldo-s-advice-to-lamine-yamal-before-spain-vs-portugal-at-the-world-cup.html",
+          "source": "Mundo Deportivo"
+        },
+        {
+          "title": "Spain steps up the intensity",
+          "url": "https://rfef.es/en/noticias/Spain-steps-up-the-intensity",
+          "source": "RFEF"
+        }
+      ]
+    },
+    {
+      "query": "uefa",
+      "geo": "GB",
+      "language": "en",
+      "source": "google-trends-daily",
+      "score": 100000,
+      "articles": [
+        {
+          "title": "World Cup 2026: Folarin Balogun decision &apos;incomprehensible and unjustifiable&apos; - Uefa",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c5yzzd73871o",
+          "source": "BBC"
+        },
+        {
+          "title": "Two things can be true about Balogun&apos;s World Cup reprieve",
+          "url": "https://www.espn.co.uk/football/story/_/id/49283694/two-things-true-baloguns-world-cup-reprieve",
+          "source": "ESPN"
+        },
+        {
+          "title": "UEFA statement on the Balogun case",
+          "url": "https://www.uefa.com/news-media/news/02a7-2109c8e9ef81-de5a993db109-1000--uefa-statement-on-the-balogun-case/",
+          "source": "UEFA.com"
+        }
+      ]
+    },
+    {
+      "query": "françois letexier",
+      "geo": "FR",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 10000,
+      "articles": [
+        {
+          "title": "Letexier va arbitrer Argentine-Egypte, panique générale côté Albiceleste",
+          "url": "https://www.20minutes.fr/sport/football/4233078-20260706-coupe-monde-2026-francois-letexier-va-arbitrer-argentine-egypte-panique-generale-chez-fans-albiceleste",
+          "source": "20 Minutes"
+        },
+        {
+          "title": "Coupe du monde 2026: les Argentins en panique après la désignation de François Letexier pour arbitrer le huitième contre l&apos;Egypte",
+          "url": "https://rmcsport.bfmtv.com/football/coupe-du-monde/coupe-du-monde-2026-les-argentins-en-panique-apres-la-designation-de-francois-letexier-pour-arbitrer-le-huitieme-contre-l-egypte_AV-202607050446.html",
+          "source": "RMC Sport"
+        },
+        {
+          "title": "Coupe du Monde 2026 : l’Argentine est en panique après la nomination de François Letexier",
+          "url": "https://www.footmercato.net/a5158960735837095029-coupe-du-monde-2026-largentine-est-en-panique-apres-la-nomination-de-francois-letexier",
+          "source": "Foot Mercato"
+        }
+      ]
+    },
+    {
+      "query": "norway vs england",
+      "geo": "AU",
+      "language": "en",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Gutsy England prevails over Mexico in instant World Cup classic",
+          "url": "https://www.abc.net.au/news/2026-07-06/world-cup-live-brazil-vs-norway-mexico-vs-england/106881396",
+          "source": "ABC News & Headlines – Australian Broadcasting Corporation"
+        },
+        {
+          "title": "FIFA World Cup 2026 as it happened: Ten-man England edge Mexico in five-goal thriller; Norway defeat five-time champions Brazil 2-1 in round of 16",
+          "url": "https://www.theage.com.au/sport/soccer/fifa-world-cup-2026-live-updates-brazil-v-norway-mexico-v-england-20260705-p60crk.html?post=p5aq0f",
+          "source": "The Age"
+        },
+        {
+          "title": "What soccer games are today? Breaking down World Cup schedule for July 5",
+          "url": "https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/05/soccer-games-today-world-cup-schedule-july-5/90792435007/",
+          "source": "USA Today"
+        }
+      ]
+    },
+    {
+      "query": "jordan henderson",
+      "geo": "AU",
+      "language": "en",
+      "source": "google-trends-daily",
+      "score": 50000,
+      "articles": [
+        {
+          "title": "World Cup 2026: England&apos;s Jordan Henderson injures wrist in celebrations",
+          "url": "https://www.bbc.com/sport/football/articles/c9822ez0zdwo",
+          "source": "BBC"
+        },
+        {
+          "title": "Quick hits: England star hurt in celebrations, Haaland surprises himself",
+          "url": "https://www.abc.net.au/news/2026-07-06/world-cup-quick-hits-england-jordan-henderson-erling-haaland/106883532",
+          "source": "ABC News & Headlines – Australian Broadcasting Corporation"
+        },
+        {
+          "title": "England&apos;s Henderson hospitalized with wrist injury after Mexico celebrations",
+          "url": "https://www.espn.com.au/football/story/_/id/49283507/jordan-henderson-taken-hospital-wrist-injury-falling-mexico-victory-celebrations-england-world-cup",
+          "source": "ESPN"
+        }
+      ]
+    },
+    {
+      "query": "julián quiñones",
+      "geo": "MA",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "¡Julián Quiñones hace historia! Se convierte en el máximo romperredes de México en Mundiales",
+          "url": "https://onefootball.com/fr/news/julian-quinones-hace-historia-se-convierte-en-el-maximo-romperredes-de-mexico-en-mundiales-43101891",
+          "source": "OneFootball"
+        },
+        {
+          "title": "Julián Quiñones: Dónde nació, cuántos goles lleva en el Mundial 2026, historia y cómo llegó a México",
+          "url": "https://www.olympics.com/es/noticias/julian-quinones-donde-nacio-goles-mundial-2026",
+          "source": "Olympics"
+        },
+        {
+          "title": "Del «borracho» al héroe del pueblo: YA es el gran ganador del Mundial",
+          "url": "https://es-us.noticias.yahoo.com/deportes/borracho-h%C3%A9roe-pueblo-ganador-mundial-151500655.html",
+          "source": "Yahoo"
+        }
+      ]
+    },
+    {
+      "query": "england mexico",
+      "geo": "MA",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "¿Cómo quedó México - Inglaterra? Cronología, goles y marcador de la Selección Mexicana, Mundial 2026",
+          "url": "https://mexico.as.com/futbol/mundial/mexico-vs-inglaterra-en-vivo-hoy-resultado-goles-y-ultimas-noticias-del-tri-en-copa-del-mundo-2026-f202607-d/",
+          "source": "AS México"
+        },
+        {
+          "title": "Qué es el protocolo de tormenta de la FIFA y por qué podría retrasar el México vs Inglaterra",
+          "url": "https://www.si.com/es-us/futbol/que-es-el-protocolo-de-tormenta-de-la-fifa-y-por-que-podria-retrasar-el-mexico-vs-inglaterra",
+          "source": "Sports Illustrated"
+        },
+        {
+          "title": "¿Por qué siempre nos pasa esto?",
+          "url": "https://es-us.noticias.yahoo.com/pasa-035037331.html",
+          "source": "Yahoo"
+        }
+      ]
+    },
+    {
+      "query": "mexico vs",
+      "geo": "MA",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 5000,
+      "articles": [
+        {
+          "title": "Mexico vs England Highlights 🌎🏆 2026 FIFA World Cup™ | Round of 16",
+          "url": "https://www.foxsports.com/watch/fmc-9vzfk8qj03kjk16e",
+          "source": "FOX Sports"
+        },
+        {
+          "title": "Mexico vs England: Azteca Stadium issues shelter-in-place order because of severe weather",
+          "url": "https://www.bbc.com/sport/football/articles/clyeegldnmpo",
+          "source": "BBC"
+        },
+        {
+          "title": "World Cup serenade: Mexican fans blast horns outside hotel to disrupt England players&apos; sleep",
+          "url": "https://apnews.com/article/mexico-fans-england-world-cup-serenade-7e4f977ece5ee9e4440847cc70de6483",
+          "source": "AP News"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "en": [
+      {
+        "query": "uefa",
+        "score": 110000.00000000001,
+        "geos": [
+          "GB"
+        ],
+        "samples": [
+          {
+            "query": "uefa",
+            "geo": "GB",
+            "language": "en",
+            "source": "google-trends-daily",
+            "score": 100000,
+            "articles": [
+              {
+                "title": "World Cup 2026: Folarin Balogun decision &apos;incomprehensible and unjustifiable&apos; - Uefa",
+                "url": "https://www.bbc.co.uk/sport/football/articles/c5yzzd73871o",
+                "source": "BBC"
+              },
+              {
+                "title": "Two things can be true about Balogun&apos;s World Cup reprieve",
+                "url": "https://www.espn.co.uk/football/story/_/id/49283694/two-things-true-baloguns-world-cup-reprieve",
+                "source": "ESPN"
+              },
+              {
+                "title": "UEFA statement on the Balogun case",
+                "url": "https://www.uefa.com/news-media/news/02a7-2109c8e9ef81-de5a993db109-1000--uefa-statement-on-the-balogun-case/",
+                "source": "UEFA.com"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "jordan henderson",
+        "score": 35000,
+        "geos": [
+          "AU"
+        ],
+        "samples": [
+          {
+            "query": "jordan henderson",
+            "geo": "AU",
+            "language": "en",
+            "source": "google-trends-daily",
+            "score": 50000,
+            "articles": [
+              {
+                "title": "World Cup 2026: England&apos;s Jordan Henderson injures wrist in celebrations",
+                "url": "https://www.bbc.com/sport/football/articles/c9822ez0zdwo",
+                "source": "BBC"
+              },
+              {
+                "title": "Quick hits: England star hurt in celebrations, Haaland surprises himself",
+                "url": "https://www.abc.net.au/news/2026-07-06/world-cup-quick-hits-england-jordan-henderson-erling-haaland/106883532",
+                "source": "ABC News & Headlines – Australian Broadcasting Corporation"
+              },
+              {
+                "title": "England&apos;s Henderson hospitalized with wrist injury after Mexico celebrations",
+                "url": "https://www.espn.com.au/football/story/_/id/49283507/jordan-henderson-taken-hospital-wrist-injury-falling-mexico-victory-celebrations-england-world-cup",
+                "source": "ESPN"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "selección de fútbol de colombia",
+        "score": 1400,
+        "geos": [
+          "US"
+        ],
+        "samples": [
+          {
+            "query": "selección de fútbol de colombia",
+            "geo": "US",
+            "language": "en",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "Colombia vs. Suiza: El guiño del destino que recibió James Rodríguez",
+                "url": "https://espndeportes.espn.com/futbol/mundial/nota/_/id/16963093/colombia-vs-suiza-guino-del-destino-que-recibio-james-rodriguez-mundial-2026",
+                "source": "ESPN Deportes"
+              },
+              {
+                "title": "El pronóstico de la Inteligencia Artificial para el partido entre Colombia y Suiza",
+                "url": "https://www.si.com/es-us/futbol/pronostico-inteligencia-artificial-colombia-y-suiza-7-7-2026",
+                "source": "Sports Illustrated"
+              },
+              {
+                "title": "La doble ventaja de Suiza sobre Colombia en el Mundial 2026 para el partido del próximo martes",
+                "url": "https://www.eltiempo.com/deportes/futbol-internacional/la-doble-ventaja-de-suiza-sobre-colombia-en-el-mundial-2026-para-el-partido-del-proximo-martes-3569045",
+                "source": "ELTIEMPO.COM"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "norway vs england",
+        "score": 140,
+        "geos": [
+          "AU"
+        ],
+        "samples": [
+          {
+            "query": "norway vs england",
+            "geo": "AU",
+            "language": "en",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Gutsy England prevails over Mexico in instant World Cup classic",
+                "url": "https://www.abc.net.au/news/2026-07-06/world-cup-live-brazil-vs-norway-mexico-vs-england/106881396",
+                "source": "ABC News & Headlines – Australian Broadcasting Corporation"
+              },
+              {
+                "title": "FIFA World Cup 2026 as it happened: Ten-man England edge Mexico in five-goal thriller; Norway defeat five-time champions Brazil 2-1 in round of 16",
+                "url": "https://www.theage.com.au/sport/soccer/fifa-world-cup-2026-live-updates-brazil-v-norway-mexico-v-england-20260705-p60crk.html?post=p5aq0f",
+                "source": "The Age"
+              },
+              {
+                "title": "What soccer games are today? Breaking down World Cup schedule for July 5",
+                "url": "https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/05/soccer-games-today-world-cup-schedule-july-5/90792435007/",
+                "source": "USA Today"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "es": [
+      {
+        "query": "méxico - inglaterra",
+        "score": 45000,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "méxico - inglaterra",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 50000,
+            "articles": [
+              {
+                "title": "No se pudo: México cayó con Inglaterra 3-2 en atrapante partido",
+                "url": "https://ladiaria.com.uy/deporte/articulo/2026/7/no-se-pudo-mexico-cayo-con-inglaterra-3-2-en-atrapante-partido/",
+                "source": "la diaria"
+              },
+              {
+                "title": "México 2-3 Inglaterra por el Mundial 2026: afuera otro anfitrión y los Tres Leones a cuartos con Bellingham y Kane",
+                "url": "https://www.elpais.com.uy/ovacion/mundial/mexico-vs-inglaterra-en-vivo-por-el-mundial-2026-partidazo-en-el-estadio-azteca-por-octavos-de-final",
+                "source": "EL PAÍS Uruguay"
+              },
+              {
+                "title": "Un imperial Bellingham puede con 135 millones de mexicanos",
+                "url": "https://as.com/futbol/mundial/un-imperial-bellingham-puede-con-135-millones-de-mexicanos-f202607-n/",
+                "source": "Diario AS"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "hasta donde llega colombia en el mundial 2026",
+        "score": 10000,
+        "geos": [
+          "CO"
+        ],
+        "samples": [
+          {
+            "query": "hasta donde llega colombia en el mundial 2026",
+            "geo": "CO",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 10000,
+            "articles": [
+              {
+                "title": "El sueño continúa: Colombia vence a Ghana y avanza a octavos del Mundial",
+                "url": "https://colombia.as.com/futbol/mundial/el-sueno-continua-colombia-vence-a-ghana-y-avanza-a-octavos-del-mundial-f202607-n/",
+                "source": "AS Colombia"
+              },
+              {
+                "title": "¿Por qué Jhon Arias fue récord e hizo historia en Colombia vs. Ghana?",
+                "url": "https://www.espn.com.co/futbol/mundial/nota/_/id/16955620/por-que-jhon-arias-fue-record-hizo-historia-colombia-vs-ghana-mundial-2026",
+                "source": "ESPN Colombia"
+              },
+              {
+                "title": "Selección Colombia: cinco razones para creer en un mundial histórico",
+                "url": "https://www.eltiempo.com/deportes/futbol-internacional/seleccion-colombia-cinco-razones-para-creer-en-un-mundial-historico-3569102",
+                "source": "ELTIEMPO.COM"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "kick",
+        "score": 9000,
+        "geos": [
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "kick",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 10000,
+            "articles": [
+              {
+                "title": "Mexico vs England Highlights 🌎🏆 2026 FIFA World Cup™ | Round of 16",
+                "url": "https://www.foxsports.com/watch/fmc-9vzfk8qj03kjk16e",
+                "source": "FOX Sports"
+              },
+              {
+                "title": "Mexico vs England: Azteca Stadium issues shelter-in-place order because of severe weather",
+                "url": "https://www.bbc.com/sport/football/articles/clyeegldnmpo",
+                "source": "BBC"
+              },
+              {
+                "title": "World Cup serenade: Mexican fans blast horns outside hotel to disrupt England players&apos; sleep",
+                "url": "https://apnews.com/article/mexico-fans-england-world-cup-serenade-7e4f977ece5ee9e4440847cc70de6483",
+                "source": "AP News"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "copa mundial de fútbol de 2026",
+        "score": 8000,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "copa mundial de fútbol de 2026",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 10000,
+            "articles": [
+              {
+                "title": "Tabla de goleadores del Mundial 2026: Messi, Mbappé y Haaland igualan con 7 goles en la lucha por la Bota de Oro",
+                "url": "https://www.eluniverso.com/deportes/futbol/tabla-de-goleadores-del-mundial-2026-messi-mbappe-y-haaland-igualan-con-7-goles-en-la-lucha-por-la-bota-de-oro-nota/",
+                "source": "El Universo"
+              },
+              {
+                "title": "La egocéntrica frase de Haaland tras sus goles a Brasil en el Mundial y la marca histórica que logró",
+                "url": "https://www.infobae.com/deportes/2026/07/06/la-egocentrica-frase-de-haaland-tras-sus-goles-a-brasil-en-el-mundial-y-la-marca-historica-que-logro/",
+                "source": "Infobae"
+              },
+              {
+                "title": "Noruega es candidata: Haaland iguala a Messi y Mbappé en su primer Mundial",
+                "url": "https://www.transfermarkt.es/noruega-es-candidata-haaland-iguala-a-messi-y-mbappe-en-su-primer-mundial/view/news/482427",
+                "source": "Transfermarkt"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "copa mundial de fútbol",
+        "score": 7000,
+        "geos": [
+          "MX"
+        ],
+        "samples": [
+          {
+            "query": "copa mundial de fútbol",
+            "geo": "MX",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 5000,
+            "articles": [
+              {
+                "title": "Mundial 2026, en directo: noticias de la Copa del Mundo y última hora de las selecciones, hoy 6 de julio",
+                "url": "https://as.com/futbol/mundial/mundial-2026-en-directo-noticias-de-la-copa-del-mundo-y-ultima-hora-de-las-selecciones-hoy-6-de-julio-f202607-d/",
+                "source": "Diario AS"
+              },
+              {
+                "title": "Mundial 2026, en directo | Última hora de España y partidos de octavos del 6 de julio, en vivo",
+                "url": "https://www.marca.com/futbol/mundial/2026/07/06/6a4b50d2b364eacdc84d0c74-directo.html",
+                "source": "MARCA"
+              },
+              {
+                "title": "Últimos acontecimientos del Mundial de Norteamérica 2026",
+                "url": "https://es-us.noticias.yahoo.com/deportes/acontecimientos-mundial-norteam%C3%A9rica-2026-163923543.html",
+                "source": "Yahoo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "españa vs portugal",
+        "score": 1800,
+        "geos": [
+          "CL"
+        ],
+        "samples": [
+          {
+            "query": "españa vs portugal",
+            "geo": "CL",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "Una batalla entre los reyes del pase",
+                "url": "https://as.com/futbol/seleccion/una-batalla-entre-los-reyes-del-pase-f202607-n/",
+                "source": "Diario AS"
+              },
+              {
+                "title": "España vs Portugal: posibles alineaciones y probabilidades",
+                "url": "https://www.espn.cl/futbol/mundial/nota/_/id/16964548/espana-vs-portugal-alineaciones-probabilidades-victoria-mundial-2026",
+                "source": "ESPN Chile"
+              },
+              {
+                "title": "Partidos del Mundial 2026 hoy, lunes 6 de julio: horarios, canal de TV y dónde ver en vivo en Chile",
+                "url": "https://www.adnradio.cl/2026/07/05/partidos-del-mundial-2026-hoy-lunes-6-de-julio-horarios-canal-de-tv-y-donde-ver-en-vivo-en-chile/",
+                "source": "ADN Radio"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "copa america",
+        "score": 1400,
+        "geos": [
+          "MX"
+        ],
+        "samples": [
+          {
+            "query": "copa america",
+            "geo": "MX",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "Mundial 2026: Programa ‘Fútbol chapa’ | Claves de la eliminación de Alemania y los triunfos de Brasil y Marruecos",
+                "url": "https://elpais.com/deportes/mundial-futbol/2026-06-30/mundial-2026-programa-video-futbol-chapa.html",
+                "source": "EL PAÍS"
+              },
+              {
+                "title": "Resultados del Mundial hoy lunes 29 de junio: Marcadores",
+                "url": "https://www.milenio.com/futbol-internacional/mundial/resultados-mundial-2026-hoy-29-junio",
+                "source": "Milenio"
+              },
+              {
+                "title": "¿Brasil confirma su candidatura y Paraguay firma la gran sorpresa? Nuestros expertos lo analizan",
+                "url": "https://www.telemundo.com/deportes/copa-mundial-de-la-fifa-2026/video/brasil-confirma-su-candidatura-y-paraguay-firma-la-gran-sorpresa-nuestros-expertos-lo-analizan-tmvo13198709",
+                "source": "Telemundo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "cuando juega inglaterra vs noruega",
+        "score": 1400,
+        "geos": [
+          "MX"
+        ],
+        "samples": [
+          {
+            "query": "cuando juega inglaterra vs noruega",
+            "geo": "MX",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "OFICIAL: El segundo partido definido de cuartos de final del Mundial 2026",
+                "url": "https://www.tvazteca.com/aztecadeportes/oficial-segundo-partido-definido-cuartos-final-mundial-2026/",
+                "source": "TV Azteca"
+              },
+              {
+                "title": "Noruega elimina a Brasil, México se queda en el camino: Resultados del Mundial 2026 HOY 5 de julio",
+                "url": "https://www.elfinanciero.com.mx/deportes/mundial-2026/2026/07/05/partidos-de-octavos-de-final-hoy-5-de-julio-horarios-y-resultados/",
+                "source": "El Financiero"
+              },
+              {
+                "title": "El Análisis Experto es para la sublime actuación de Haaland y Noruega",
+                "url": "https://www.telemundo.com/deportes/copa-mundial-de-la-fifa-2026/video/el-analisis-experto-es-para-la-sublime-actuacion-de-haaland-y-noruega-tmvo13200817",
+                "source": "Telemundo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "henderson",
+        "score": 950,
+        "geos": [
+          "CO",
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "henderson",
+            "geo": "CO",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "World Cup 2026: England&apos;s Jordan Henderson injures wrist in celebrations",
+                "url": "https://www.bbc.com/sport/football/articles/c9822ez0zdwo",
+                "source": "BBC"
+              },
+              {
+                "title": "FIFA World Cup: Thomas Tuchel reflects on England&apos;s win vs Mexico",
+                "url": "https://www.flashscore.com/news/thomas-tuchel-admits-england-beating-mexico-at-azteca-feels-like-winning-the-final/C2jgMGrm/",
+                "source": "Flashscore.com"
+              },
+              {
+                "title": "Santiago Gimenez stretchered off during Mexico&apos;s World Cup loss to England, adding injury crisis to host nation&apos;s tournament woes",
+                "url": "https://cryptobriefing.com/gimenez-injury-mexico-world-cup-england/",
+                "source": "Crypto Briefing"
+              }
+            ]
+          },
+          {
+            "query": "henderson",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Jordan Henderson rushed to hospital after suffering &apos;really bad&apos; injury celebrating England&apos;s 3-2 Mexico World Cup win",
+                "url": "https://www.thesun.co.uk/sport/39659983/england-medics-celebrations-world-cup-mexico/",
+                "source": "The Sun"
+              },
+              {
+                "title": "FIFA World Cup: Thomas Tuchel reflects on England&apos;s win vs Mexico",
+                "url": "https://www.flashscore.com/news/thomas-tuchel-admits-england-beating-mexico-at-azteca-feels-like-winning-the-final/C2jgMGrm/",
+                "source": "Flashscore.com"
+              },
+              {
+                "title": "Santiago Gimenez stretchered off during Mexico&apos;s World Cup loss to England, adding injury crisis to host nation&apos;s tournament woes",
+                "url": "https://cryptobriefing.com/gimenez-injury-mexico-world-cup-england/",
+                "source": "Crypto Briefing"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "arbitro mexico vs inglaterra",
+        "score": 800,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "arbitro mexico vs inglaterra",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "Alireza Faghani: Quién es el arbitro del México vs Inglaterra en los octavos del Mundial 2026",
+                "url": "https://www.eluniverso.com/deportes/futbol/alireza-faghani-quien-es-el-arbitro-del-mexico-vs-inglaterra-en-los-octavos-del-mundial-2026-nota/",
+                "source": "El Universo"
+              },
+              {
+                "title": "¿Quién es el árbitro de México - Inglaterra en octavos del Mundial? Perfil y trayectoria de Alireza Faghani",
+                "url": "https://www.marca.com/futbol/mundial/2026/07/06/arbitro-mexico-inglaterra-octavos-mundial-perfil-trayectoria-alireza-faghani.html",
+                "source": "MARCA"
+              },
+              {
+                "title": "La FIFA deposita su confianza en Juan Lara y lo designa en importante partido del Mundial",
+                "url": "https://www.espn.cl/futbol/mundial/nota/_/id/16960944/fifa-confianza-arbitro-juan-lara-designa-importante-partido-mundial-2026",
+                "source": "ESPN Chile"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "cuando juega argentina",
+        "score": 500,
+        "geos": [
+          "CO"
+        ],
+        "samples": [
+          {
+            "query": "cuando juega argentina",
+            "geo": "CO",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "El árbitro de Argentina vs. Egipto: el antecedente que preocupa a la Selección",
+                "url": "https://www.espn.com.co/futbol/mundial/nota/_/id/16961393/fifa-arbitro-argentina-vs-egipto-mundial-2026-preocupa-seleccion-futbol",
+                "source": "ESPN Colombia"
+              },
+              {
+                "title": "Argentina en el Mundial 2026, en directo: última hora hoy, 6 julio | Messi, Julián Álvarez, Nico Paz...",
+                "url": "https://as.com/futbol/mundial/argentina-en-el-mundial-2026-en-directo-ultima-hora-hoy-6-julio-messi-julian-alvarez-nico-paz-f202607-n/",
+                "source": "Diario AS"
+              },
+              {
+                "title": "El laboratorio de Scaloni: las pruebas y la probable formación ante Egipto",
+                "url": "https://www.ole.com.ar/mundial/mundial-2026/laprobableformacionargentinaegipto_0_82zYNm5jZK.html",
+                "source": "Olé"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "noruega vs inglaterra",
+        "score": 450,
+        "geos": [
+          "CL"
+        ],
+        "samples": [
+          {
+            "query": "noruega vs inglaterra",
+            "geo": "CL",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "La llave del Mundial 2026: Brasil afuera e Inglaterra eliminó a México",
+                "url": "https://www.ole.com.ar/mundial/mundial-2026/llave-octavos-final-mundial-clasificados-cruces_0_Lvnpp8Il2x.html",
+                "source": "Olé"
+              },
+              {
+                "title": "Noruega vs. Francia, por los cuartos de final del Mundial 2026: Cuándo es y a qué hora",
+                "url": "https://www.t13.cl/noticia/mundial-2026/noruega-vs-francia-por-los-cuartos-de-final-del-mundial-2026-cuando-es-y-a-que-hora",
+                "source": "Teletrece"
+              },
+              {
+                "title": "Historial Inglaterra vs Noruega: antecedentes, partidos y resultados entre ambas selecciones",
+                "url": "https://www.si.com/es-us/futbol/historial-inglaterra-vs-noruega-antecedentes-partidos-y-resultados-entre-ambas-selecciones",
+                "source": "Sports Illustrated"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "quiñones",
+        "score": 450,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "quiñones",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Quiñones empata a Chicharito y Luis Hernández como máximo goleador en Mundiales",
+                "url": "https://www.si.com/mx/mundial-2026/quinones-empata-a-chicharito-y-luis-hernandez-como-maximo-goleador-en-mundiales",
+                "source": "Sports Illustrated"
+              },
+              {
+                "title": "Julián Quiñones: Dónde nació, cuántos goles lleva en el Mundial 2026, historia y cómo llegó a México",
+                "url": "https://www.olympics.com/es/noticias/julian-quinones-donde-nacio-goles-mundial-2026",
+                "source": "Olympics"
+              },
+              {
+                "title": "Por qué Julián Quiñones, el chico colombiano que jugaba descalzo, eligió representar a México",
+                "url": "https://tn.com.ar/deportes/mundial/2026/2026/07/05/por-que-julian-quinones-el-chico-colombiano-que-jugaba-descalzo-eligio-representar-a-mexico/",
+                "source": "TN"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "portugal vs spain world cup 2026",
+        "score": 300,
+        "geos": [
+          "ES"
+        ],
+        "samples": [
+          {
+            "query": "portugal vs spain world cup 2026",
+            "geo": "ES",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Portugal vs Spain: FIFA World Cup stats & head-to-head",
+                "url": "https://www.bbc.com/sport/football/live/cze9xg6480gt",
+                "source": "BBC"
+              },
+              {
+                "title": "Cristiano Ronaldo’s advice to Lamine Yamal before Spain vs Portugal at the World Cup",
+                "url": "https://www.mundodeportivo.com/en/20260705/1004203219/cristiano-ronaldo-s-advice-to-lamine-yamal-before-spain-vs-portugal-at-the-world-cup.html",
+                "source": "Mundo Deportivo"
+              },
+              {
+                "title": "Spain steps up the intensity",
+                "url": "https://rfef.es/en/noticias/Spain-steps-up-the-intensity",
+                "source": "RFEF"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "jordan henderson",
+        "score": 180,
+        "geos": [
+          "CL"
+        ],
+        "samples": [
+          {
+            "query": "jordan henderson",
+            "geo": "CL",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "World Cup 2026: England&apos;s Jordan Henderson injures wrist in celebrations",
+                "url": "https://www.bbc.com/sport/football/articles/c9822ez0zdwo",
+                "source": "BBC"
+              },
+              {
+                "title": "FIFA World Cup: Thomas Tuchel reflects on England&apos;s win vs Mexico",
+                "url": "https://www.flashscore.com/news/thomas-tuchel-admits-england-beating-mexico-at-azteca-feels-like-winning-the-final/C2jgMGrm/",
+                "source": "Flashscore.com"
+              },
+              {
+                "title": "Santiago Gimenez stretchered off during Mexico&apos;s World Cup loss to England, adding injury crisis to host nation&apos;s tournament woes",
+                "url": "https://cryptobriefing.com/gimenez-injury-mexico-world-cup-england/",
+                "source": "Crypto Briefing"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "colombia vs suiza",
+        "score": 160,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "colombia vs suiza",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Cuándo juegan Colombia vs. Suiza por los octavos del Mundial 2026: equipo, fecha, hora y TV en vivo",
+                "url": "https://espndeportes.espn.com/futbol/mundial/nota/_/id/16632775/colombia-vs-suiza-octavos-de-final-8vos-mundial-2026-equipo-fecha-hora-tv-en-vivo",
+                "source": "ESPN Deportes"
+              },
+              {
+                "title": "FIFA le ordenó dos cambios a Colombia para su partido ante Suiza: llegó la notificación oficial",
+                "url": "https://www.semana.com/deportes/articulo/fifa-le-ordeno-dos-cambios-a-colombia-para-su-partido-ante-suiza-llego-la-notificacion-oficial/202628/",
+                "source": "Revista Semana"
+              },
+              {
+                "title": "Un futbolista colombiano que juega en Suiza aseguró que la liga de ese país es mejor que la de Colombia por esta razón",
+                "url": "https://www.infobae.com/colombia/deportes/2026/07/05/un-futbolista-colombiano-que-juega-en-suiza-aseguro-que-la-liga-de-ese-pais-es-mejor-que-la-de-colombia-por-esta-razon/",
+                "source": "Infobae"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "fifa world cup 2026™",
+        "score": 160,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "fifa world cup 2026™",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Meet the soccer-playing humanoid robot that just delivered the game ball at the Brazil v. Norway FIFA World Cup match",
+                "url": "https://fortune.com/2026/07/05/humanoid-robot-delivered-game-ball-brazil-norway-world-cup-match-fifa-boston-dynamics-hyundai/",
+                "source": "Fortune"
+              },
+              {
+                "title": "Atlas, the humanoid robot, delivers match ball at World Cup",
+                "url": "https://www.reuters.com/sports/soccer/atlas-humanoid-robot-delivers-match-ball-world-cup-2026-07-06/",
+                "source": "Reuters"
+              },
+              {
+                "title": "Hyundai Motor Showcases Humanoid at World Cup in Robotics Push",
+                "url": "https://www.bloomberg.com/news/articles/2026-07-05/hyundai-motor-showcases-humanoid-at-world-cup-in-robotics-push",
+                "source": "Bloomberg.com"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "argentina vs egipto",
+        "score": 160,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "argentina vs egipto",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "El árbitro de Argentina vs. Egipto: el antecedente que preocupa a la Selección",
+                "url": "https://espndeportes.espn.com/futbol/mundial/nota/_/id/16961393/fifa-arbitro-argentina-vs-egipto-mundial-2026-preocupa-seleccion-futbol",
+                "source": "ESPN Deportes"
+              },
+              {
+                "title": "Argentina en el Mundial 2026, en directo: última hora hoy, 6 julio | Messi, Julián Álvarez, Nico Paz...",
+                "url": "https://as.com/futbol/mundial/argentina-en-el-mundial-2026-en-directo-ultima-hora-hoy-6-julio-messi-julian-alvarez-nico-paz-f202607-n/",
+                "source": "Diario AS"
+              },
+              {
+                "title": "«Es ridículo»... Pánico en Argentina por la decisión arbitral en el partido contra Egipto",
+                "url": "https://www.goal.com/es/noticias/es-ridiculo-panico-en-argentina-por-la-decision-arbitral-en-el-partido-contra-egipto/blt3853ac599267ebdf",
+                "source": "Goal.com"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "henderson inglaterra",
+        "score": 130,
+        "geos": [
+          "AR"
+        ],
+        "samples": [
+          {
+            "query": "henderson inglaterra",
+            "geo": "AR",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Mundial 2026, en directo: noticias de la Copa del Mundo y última hora de las selecciones, hoy 6 de julio",
+                "url": "https://as.com/futbol/mundial/mundial-2026-en-directo-noticias-de-la-copa-del-mundo-y-ultima-hora-de-las-selecciones-hoy-6-de-julio-f202607-d/",
+                "source": "Diario AS"
+              },
+              {
+                "title": "Quiso festejar la clasificación de Inglaterra y tuvo que ser retirado en camilla del Azteca",
+                "url": "https://www.labrujula24.com/notas/2026/07/06/quiso-festejar-la-clasificacion-de-inglaterra-y-tuvo-que-ser-retirado-en-camilla-del-azteca-n509048/",
+                "source": "La Brújula 24"
+              },
+              {
+                "title": "Se fue en camilla: Jordan Henderson sufrió una preocupante caída durante los festejos de Inglaterra por la victoria ante México",
+                "url": "https://tn.com.ar/deportes/mundial/2026/2026/07/06/se-fue-en-camilla-jordan-henderson-sufrio-una-preocupante-caida-durante-los-festejos-de-inglaterra-por-la-victoria-ante-mexico/",
+                "source": "TN"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "memes mexico vs inglaterra",
+        "score": 130,
+        "geos": [
+          "AR"
+        ],
+        "samples": [
+          {
+            "query": "memes mexico vs inglaterra",
+            "geo": "AR",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Los memes más crueles y divertidos que dejó la eliminación de México del Mundial 2026 tras perder contra Inglaterra",
+                "url": "https://www.infobae.com/mexico/deportes/2026/07/06/los-memes-mas-crueles-y-divertidos-que-dejo-la-eliminacion-de-mexico-del-mundial-2026-tras-perder-contra-inglaterra/",
+                "source": "Infobae"
+              },
+              {
+                "title": "Memes: Inglaterra eliminó a México por los octavos de final del Mundial 2026 y estallaron las redes sociales",
+                "url": "https://tn.com.ar/deportes/mundial/2026/2026/07/05/los-mejores-memes-de-mexico-vs-inglaterra-por-los-octavos-de-final-del-mundial-2026/",
+                "source": "TN"
+              },
+              {
+                "title": "Mundial 2026: operativo \"No Inglés\" la ingeniosa campaña previo al México vs Inglaterra",
+                "url": "https://es-us.vida-estilo.yahoo.com/mundial-2026-operativo-no-ingles-la-ingeniosa-campana-previo-al-mexico-vs-inglaterra-164308129.html",
+                "source": "Yahoo en Español Vida y Estilo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "inglaterra vs noruega",
+        "score": 100,
+        "geos": [
+          "CO"
+        ],
+        "samples": [
+          {
+            "query": "inglaterra vs noruega",
+            "geo": "CO",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "La llave del Mundial 2026: Brasil afuera e Inglaterra eliminó a México",
+                "url": "https://www.ole.com.ar/mundial/mundial-2026/llave-octavos-final-mundial-clasificados-cruces_0_Lvnpp8Il2x.html",
+                "source": "Olé"
+              },
+              {
+                "title": "Inglaterra y Noruega clasifican a cuartos de final del Mundial: resumen de la jornada",
+                "url": "https://caracol.com.co/2026/07/06/inglaterra-y-noruega-clasifican-a-cuartos-de-final-del-mundial-resumen-de-la-jornada/",
+                "source": "Caracol Radio"
+              },
+              {
+                "title": "Historial Inglaterra vs Noruega: antecedentes, partidos y resultados entre ambas selecciones",
+                "url": "https://www.si.com/es-us/futbol/historial-inglaterra-vs-noruega-antecedentes-partidos-y-resultados-entre-ambas-selecciones",
+                "source": "Sports Illustrated"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "estados unidos vs belgica",
+        "score": 90,
+        "geos": [
+          "CL"
+        ],
+        "samples": [
+          {
+            "query": "estados unidos vs belgica",
+            "geo": "CL",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Estados Unidos - Bélgica: a qué hora es el partido del Mundial 2026, horario y cómo verlo por TV",
+                "url": "https://www.adnradio.cl/2026/07/05/estados-unidos-belgica-a-que-hora-es-el-partido-del-mundial-2026-horario-y-como-verlo-por-tv/",
+                "source": "ADN Radio"
+              },
+              {
+                "title": "Estados Unidos vs. Bélgica EN VIVO: A qué hora y dónde ver el partido del Mundial 2026",
+                "url": "https://www.t13.cl/noticia/mundial-2026/estados-unidos-vs-belgica-vivo-hora-donde-ver-partido-del-mundial-2026-5-7-2026",
+                "source": "Teletrece"
+              },
+              {
+                "title": "Estados Unidos desafía la historia ante Bélgica en los octavos del Mundial 2026",
+                "url": "https://www.cooperativa.cl/noticias/deportes/mundial-2026/octavos-de-final/estados-unidos-desafia-la-historia-ante-belgica-en-los-octavos-del/2026-07-05/192842.html",
+                "source": "Cooperativa"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "eeuu vs belgica",
+        "score": 90,
+        "geos": [
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "eeuu vs belgica",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "¿Dónde ver Estados Unidos vs Bélgica EN VIVO por el Mundial 2026? hora, previa y en qué canal pasan los octavos",
+                "url": "https://elcomercio.pe/deporte-total/futbol-mundial/donde-ver-estados-unidos-vs-belgica-en-vivo-por-el-mundial-2026-hora-previa-y-en-que-canal-pasan-los-octavos-tdpe-noticia/",
+                "source": "El Comercio Perú"
+              },
+              {
+                "title": "Estados Unidos - Bélgica | Pronóstico y cuotas 07.07.2026",
+                "url": "https://as.com/apuestas/pronosticos/estados-unidos-vs-belgica-pronostico-07-07-2026/",
+                "source": "Diario AS"
+              },
+              {
+                "title": "Alineación probable de Estados Unidos - Bélgica en el Mundial: once del partido de octavos de final",
+                "url": "https://www.marca.com/futbol/mundial/2026/07/06/alineacion-probable-estados-unidos-belgica-mundial-once-partido-octavos-final.html",
+                "source": "MARCA"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "tormenta",
+        "score": 90,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "tormenta",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "¿Cuál es el protocolo de FIFA en caso de tormenta durante los partidos del Mundial 2026 y cuánto dura activo?",
+                "url": "https://www.marca.com/mx/futbol/mundial/2026/07/06/6a4aed7aca4741d06c8b4575.html",
+                "source": "MARCA"
+              },
+              {
+                "title": "VÍDEO | Las tormentas eléctricas del Mundial se llaman Haaland y Mbappé (3-2/3-0)",
+                "url": "https://salamancartvaldia.es/noticia/2026-06-23-video-las-tormentas-electricas-del-mundial-se-llaman-haaland-y-mbappe-3-2-3-0-392939",
+                "source": "SALAMANCArtv AL DÍA"
+              },
+              {
+                "title": "¿Qué partidos se han retrasado en el Mundial 2026? La lista de encuentros afectados por el clima",
+                "url": "https://www.excelsior.com.mx/deportes/que-partidos-han-retrasado-mundial-2026-lista-encuentros-afectados-por-clima",
+                "source": "Excélsior"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "pt": [
+      {
+        "query": "portugal vs spain world cup 2026",
+        "score": 130,
+        "geos": [
+          "BR"
+        ],
+        "samples": [
+          {
+            "query": "portugal vs spain world cup 2026",
+            "geo": "BR",
+            "language": "pt",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Portugal vs Spain Prediction: World Cup 2026 Match Preview",
+                "url": "https://theanalyst.com/articles/portugal-vs-spain-prediction-world-cup-2026-match-preview",
+                "source": "Opta Analyst"
+              },
+              {
+                "title": "Portugal arrive in Dallas for Spain showdown",
+                "url": "https://onefootball.com/de/video/portugal-arrive-in-dallas-for-spain-showdown-3G654OYH81XUVj1wq9xehFOkvep",
+                "source": "OneFootball"
+              },
+              {
+                "title": "&apos;He loves these kinds of games&apos;: De la Fuente backs Lamine Yamal against Portugal",
+                "url": "https://www.flashscore.com/news/he-loves-these-kinds-of-games-de-la-fuente-backs-lamine-yamal-against-portugal/th7c1z8D/",
+                "source": "Flashscore.com"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "fr": [
+      {
+        "query": "françois letexier",
+        "score": 10000,
+        "geos": [
+          "FR"
+        ],
+        "samples": [
+          {
+            "query": "françois letexier",
+            "geo": "FR",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 10000,
+            "articles": [
+              {
+                "title": "Letexier va arbitrer Argentine-Egypte, panique générale côté Albiceleste",
+                "url": "https://www.20minutes.fr/sport/football/4233078-20260706-coupe-monde-2026-francois-letexier-va-arbitrer-argentine-egypte-panique-generale-chez-fans-albiceleste",
+                "source": "20 Minutes"
+              },
+              {
+                "title": "Coupe du monde 2026: les Argentins en panique après la désignation de François Letexier pour arbitrer le huitième contre l&apos;Egypte",
+                "url": "https://rmcsport.bfmtv.com/football/coupe-du-monde/coupe-du-monde-2026-les-argentins-en-panique-apres-la-designation-de-francois-letexier-pour-arbitrer-le-huitieme-contre-l-egypte_AV-202607050446.html",
+                "source": "RMC Sport"
+              },
+              {
+                "title": "Coupe du Monde 2026 : l’Argentine est en panique après la nomination de François Letexier",
+                "url": "https://www.footmercato.net/a5158960735837095029-coupe-du-monde-2026-largentine-est-en-panique-apres-la-nomination-de-francois-letexier",
+                "source": "Foot Mercato"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "mexico vs",
+        "score": 4500,
+        "geos": [
+          "MA"
+        ],
+        "samples": [
+          {
+            "query": "mexico vs",
+            "geo": "MA",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 5000,
+            "articles": [
+              {
+                "title": "Mexico vs England Highlights 🌎🏆 2026 FIFA World Cup™ | Round of 16",
+                "url": "https://www.foxsports.com/watch/fmc-9vzfk8qj03kjk16e",
+                "source": "FOX Sports"
+              },
+              {
+                "title": "Mexico vs England: Azteca Stadium issues shelter-in-place order because of severe weather",
+                "url": "https://www.bbc.com/sport/football/articles/clyeegldnmpo",
+                "source": "BBC"
+              },
+              {
+                "title": "World Cup serenade: Mexican fans blast horns outside hotel to disrupt England players&apos; sleep",
+                "url": "https://apnews.com/article/mexico-fans-england-world-cup-serenade-7e4f977ece5ee9e4440847cc70de6483",
+                "source": "AP News"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "england mexico",
+        "score": 450,
+        "geos": [
+          "MA"
+        ],
+        "samples": [
+          {
+            "query": "england mexico",
+            "geo": "MA",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "¿Cómo quedó México - Inglaterra? Cronología, goles y marcador de la Selección Mexicana, Mundial 2026",
+                "url": "https://mexico.as.com/futbol/mundial/mexico-vs-inglaterra-en-vivo-hoy-resultado-goles-y-ultimas-noticias-del-tri-en-copa-del-mundo-2026-f202607-d/",
+                "source": "AS México"
+              },
+              {
+                "title": "Qué es el protocolo de tormenta de la FIFA y por qué podría retrasar el México vs Inglaterra",
+                "url": "https://www.si.com/es-us/futbol/que-es-el-protocolo-de-tormenta-de-la-fifa-y-por-que-podria-retrasar-el-mexico-vs-inglaterra",
+                "source": "Sports Illustrated"
+              },
+              {
+                "title": "¿Por qué siempre nos pasa esto?",
+                "url": "https://es-us.noticias.yahoo.com/pasa-035037331.html",
+                "source": "Yahoo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "julián quiñones",
+        "score": 180,
+        "geos": [
+          "MA"
+        ],
+        "samples": [
+          {
+            "query": "julián quiñones",
+            "geo": "MA",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "¡Julián Quiñones hace historia! Se convierte en el máximo romperredes de México en Mundiales",
+                "url": "https://onefootball.com/fr/news/julian-quinones-hace-historia-se-convierte-en-el-maximo-romperredes-de-mexico-en-mundiales-43101891",
+                "source": "OneFootball"
+              },
+              {
+                "title": "Julián Quiñones: Dónde nació, cuántos goles lleva en el Mundial 2026, historia y cómo llegó a México",
+                "url": "https://www.olympics.com/es/noticias/julian-quinones-donde-nacio-goles-mundial-2026",
+                "source": "Olympics"
+              },
+              {
+                "title": "Del «borracho» al héroe del pueblo: YA es el gran ganador del Mundial",
+                "url": "https://es-us.noticias.yahoo.com/deportes/borracho-h%C3%A9roe-pueblo-ganador-mundial-151500655.html",
+                "source": "Yahoo"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "topic": "uefa",
+      "type": "noticia",
+      "slugSuggestion": "uefa",
+      "language": "en",
+      "geos": [
+        "GB"
+      ],
+      "score": 132000,
+      "reason": "Google Trends daily GB con 100,000 búsquedas · 3 artículos noticiosos referenciando \"uefa\"",
+      "proposedPath": "/noticias/uefa",
+      "evidence": [
+        {
+          "query": "uefa",
+          "geo": "GB",
+          "language": "en",
+          "source": "google-trends-daily",
+          "score": 100000,
+          "articles": [
+            {
+              "title": "World Cup 2026: Folarin Balogun decision &apos;incomprehensible and unjustifiable&apos; - Uefa",
+              "url": "https://www.bbc.co.uk/sport/football/articles/c5yzzd73871o",
+              "source": "BBC"
+            },
+            {
+              "title": "Two things can be true about Balogun&apos;s World Cup reprieve",
+              "url": "https://www.espn.co.uk/football/story/_/id/49283694/two-things-true-baloguns-world-cup-reprieve",
+              "source": "ESPN"
+            },
+            {
+              "title": "UEFA statement on the Balogun case",
+              "url": "https://www.uefa.com/news-media/news/02a7-2109c8e9ef81-de5a993db109-1000--uefa-statement-on-the-balogun-case/",
+              "source": "UEFA.com"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "méxico - inglaterra",
+      "type": "noticia",
+      "slugSuggestion": "mexico-inglaterra",
+      "language": "es",
+      "geos": [
+        "UY"
+      ],
+      "score": 54000,
+      "reason": "Google Trends daily UY con 50,000 búsquedas · 3 artículos noticiosos referenciando \"méxico - inglaterra\"",
+      "proposedPath": "/noticias/mexico-inglaterra",
+      "evidence": [
+        {
+          "query": "méxico - inglaterra",
+          "geo": "UY",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 50000,
+          "articles": [
+            {
+              "title": "No se pudo: México cayó con Inglaterra 3-2 en atrapante partido",
+              "url": "https://ladiaria.com.uy/deporte/articulo/2026/7/no-se-pudo-mexico-cayo-con-inglaterra-3-2-en-atrapante-partido/",
+              "source": "la diaria"
+            },
+            {
+              "title": "México 2-3 Inglaterra por el Mundial 2026: afuera otro anfitrión y los Tres Leones a cuartos con Bellingham y Kane",
+              "url": "https://www.elpais.com.uy/ovacion/mundial/mexico-vs-inglaterra-en-vivo-por-el-mundial-2026-partidazo-en-el-estadio-azteca-por-octavos-de-final",
+              "source": "EL PAÍS Uruguay"
+            },
+            {
+              "title": "Un imperial Bellingham puede con 135 millones de mexicanos",
+              "url": "https://as.com/futbol/mundial/un-imperial-bellingham-puede-con-135-millones-de-mexicanos-f202607-n/",
+              "source": "Diario AS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "jordan henderson",
+      "type": "noticia",
+      "slugSuggestion": "jordan-henderson",
+      "language": "en",
+      "geos": [
+        "AU"
+      ],
+      "score": 42000,
+      "reason": "Google Trends daily AU con 50,000 búsquedas · 3 artículos noticiosos referenciando \"jordan henderson\"",
+      "proposedPath": "/noticias/jordan-henderson",
+      "evidence": [
+        {
+          "query": "jordan henderson",
+          "geo": "AU",
+          "language": "en",
+          "source": "google-trends-daily",
+          "score": 50000,
+          "articles": [
+            {
+              "title": "World Cup 2026: England&apos;s Jordan Henderson injures wrist in celebrations",
+              "url": "https://www.bbc.com/sport/football/articles/c9822ez0zdwo",
+              "source": "BBC"
+            },
+            {
+              "title": "Quick hits: England star hurt in celebrations, Haaland surprises himself",
+              "url": "https://www.abc.net.au/news/2026-07-06/world-cup-quick-hits-england-jordan-henderson-erling-haaland/106883532",
+              "source": "ABC News & Headlines – Australian Broadcasting Corporation"
+            },
+            {
+              "title": "England&apos;s Henderson hospitalized with wrist injury after Mexico celebrations",
+              "url": "https://www.espn.com.au/football/story/_/id/49283507/jordan-henderson-taken-hospital-wrist-injury-falling-mexico-victory-celebrations-england-world-cup",
+              "source": "ESPN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "françois letexier",
+      "type": "noticia",
+      "slugSuggestion": "francois-letexier",
+      "language": "fr",
+      "geos": [
+        "FR"
+      ],
+      "score": 12000,
+      "reason": "Google Trends daily FR con 10,000 búsquedas · 3 artículos noticiosos referenciando \"françois letexier\"",
+      "proposedPath": "/noticias/francois-letexier",
+      "evidence": [
+        {
+          "query": "françois letexier",
+          "geo": "FR",
+          "language": "fr",
+          "source": "google-trends-daily",
+          "score": 10000,
+          "articles": [
+            {
+              "title": "Letexier va arbitrer Argentine-Egypte, panique générale côté Albiceleste",
+              "url": "https://www.20minutes.fr/sport/football/4233078-20260706-coupe-monde-2026-francois-letexier-va-arbitrer-argentine-egypte-panique-generale-chez-fans-albiceleste",
+              "source": "20 Minutes"
+            },
+            {
+              "title": "Coupe du monde 2026: les Argentins en panique après la désignation de François Letexier pour arbitrer le huitième contre l&apos;Egypte",
+              "url": "https://rmcsport.bfmtv.com/football/coupe-du-monde/coupe-du-monde-2026-les-argentins-en-panique-apres-la-designation-de-francois-letexier-pour-arbitrer-le-huitieme-contre-l-egypte_AV-202607050446.html",
+              "source": "RMC Sport"
+            },
+            {
+              "title": "Coupe du Monde 2026 : l’Argentine est en panique après la nomination de François Letexier",
+              "url": "https://www.footmercato.net/a5158960735837095029-coupe-du-monde-2026-largentine-est-en-panique-apres-la-nomination-de-francois-letexier",
+              "source": "Foot Mercato"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "kick",
+      "type": "noticia",
+      "slugSuggestion": "kick",
+      "language": "es",
+      "geos": [
+        "PE"
+      ],
+      "score": 10800,
+      "reason": "Google Trends daily PE con 10,000 búsquedas · 3 artículos noticiosos referenciando \"kick\"",
+      "proposedPath": "/noticias/kick",
+      "evidence": [
+        {
+          "query": "kick",
+          "geo": "PE",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 10000,
+          "articles": [
+            {
+              "title": "Mexico vs England Highlights 🌎🏆 2026 FIFA World Cup™ | Round of 16",
+              "url": "https://www.foxsports.com/watch/fmc-9vzfk8qj03kjk16e",
+              "source": "FOX Sports"
+            },
+            {
+              "title": "Mexico vs England: Azteca Stadium issues shelter-in-place order because of severe weather",
+              "url": "https://www.bbc.com/sport/football/articles/clyeegldnmpo",
+              "source": "BBC"
+            },
+            {
+              "title": "World Cup serenade: Mexican fans blast horns outside hotel to disrupt England players&apos; sleep",
+              "url": "https://apnews.com/article/mexico-fans-england-world-cup-serenade-7e4f977ece5ee9e4440847cc70de6483",
+              "source": "AP News"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "españa vs portugal",
+      "type": "noticia",
+      "slugSuggestion": "espana-vs-portugal",
+      "language": "es",
+      "geos": [
+        "CL"
+      ],
+      "score": 2160,
+      "reason": "Google Trends daily CL con 2,000 búsquedas · 3 artículos noticiosos referenciando \"españa vs portugal\"",
+      "proposedPath": "/noticias/espana-vs-portugal",
+      "evidence": [
+        {
+          "query": "españa vs portugal",
+          "geo": "CL",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 2000,
+          "articles": [
+            {
+              "title": "Una batalla entre los reyes del pase",
+              "url": "https://as.com/futbol/seleccion/una-batalla-entre-los-reyes-del-pase-f202607-n/",
+              "source": "Diario AS"
+            },
+            {
+              "title": "España vs Portugal: posibles alineaciones y probabilidades",
+              "url": "https://www.espn.cl/futbol/mundial/nota/_/id/16964548/espana-vs-portugal-alineaciones-probabilidades-victoria-mundial-2026",
+              "source": "ESPN Chile"
+            },
+            {
+              "title": "Partidos del Mundial 2026 hoy, lunes 6 de julio: horarios, canal de TV y dónde ver en vivo en Chile",
+              "url": "https://www.adnradio.cl/2026/07/05/partidos-del-mundial-2026-hoy-lunes-6-de-julio-horarios-canal-de-tv-y-donde-ver-en-vivo-en-chile/",
+              "source": "ADN Radio"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "selección de fútbol de colombia",
+      "type": "noticia",
+      "slugSuggestion": "seleccion-de-futbol-de-colombia",
+      "language": "en",
+      "geos": [
+        "US"
+      ],
+      "score": 1680,
+      "reason": "Google Trends daily US con 1,000 búsquedas · 3 artículos noticiosos referenciando \"selección de fútbol de colombia\"",
+      "proposedPath": "/noticias/seleccion-de-futbol-de-colombia",
+      "evidence": [
+        {
+          "query": "selección de fútbol de colombia",
+          "geo": "US",
+          "language": "en",
+          "source": "google-trends-daily",
+          "score": 1000,
+          "articles": [
+            {
+              "title": "Colombia vs. Suiza: El guiño del destino que recibió James Rodríguez",
+              "url": "https://espndeportes.espn.com/futbol/mundial/nota/_/id/16963093/colombia-vs-suiza-guino-del-destino-que-recibio-james-rodriguez-mundial-2026",
+              "source": "ESPN Deportes"
+            },
+            {
+              "title": "El pronóstico de la Inteligencia Artificial para el partido entre Colombia y Suiza",
+              "url": "https://www.si.com/es-us/futbol/pronostico-inteligencia-artificial-colombia-y-suiza-7-7-2026",
+              "source": "Sports Illustrated"
+            },
+            {
+              "title": "La doble ventaja de Suiza sobre Colombia en el Mundial 2026 para el partido del próximo martes",
+              "url": "https://www.eltiempo.com/deportes/futbol-internacional/la-doble-ventaja-de-suiza-sobre-colombia-en-el-mundial-2026-para-el-partido-del-proximo-martes-3569045",
+              "source": "ELTIEMPO.COM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "copa america",
+      "type": "noticia",
+      "slugSuggestion": "copa-america",
+      "language": "es",
+      "geos": [
+        "MX"
+      ],
+      "score": 1680,
+      "reason": "Google Trends daily MX con 1,000 búsquedas · 3 artículos noticiosos referenciando \"copa america\"",
+      "proposedPath": "/noticias/copa-america",
+      "evidence": [
+        {
+          "query": "copa america",
+          "geo": "MX",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 1000,
+          "articles": [
+            {
+              "title": "Mundial 2026: Programa ‘Fútbol chapa’ | Claves de la eliminación de Alemania y los triunfos de Brasil y Marruecos",
+              "url": "https://elpais.com/deportes/mundial-futbol/2026-06-30/mundial-2026-programa-video-futbol-chapa.html",
+              "source": "EL PAÍS"
+            },
+            {
+              "title": "Resultados del Mundial hoy lunes 29 de junio: Marcadores",
+              "url": "https://www.milenio.com/futbol-internacional/mundial/resultados-mundial-2026-hoy-29-junio",
+              "source": "Milenio"
+            },
+            {
+              "title": "¿Brasil confirma su candidatura y Paraguay firma la gran sorpresa? Nuestros expertos lo analizan",
+              "url": "https://www.telemundo.com/deportes/copa-mundial-de-la-fifa-2026/video/brasil-confirma-su-candidatura-y-paraguay-firma-la-gran-sorpresa-nuestros-expertos-lo-analizan-tmvo13198709",
+              "source": "Telemundo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "henderson",
+      "type": "noticia",
+      "slugSuggestion": "henderson",
+      "language": "es",
+      "geos": [
+        "CO",
+        "PE"
+      ],
+      "score": 1140,
+      "reason": "Google Trends daily CO con 500 búsquedas · 3 artículos noticiosos referenciando \"henderson\"",
+      "proposedPath": "/noticias/henderson",
+      "evidence": [
+        {
+          "query": "henderson",
+          "geo": "CO",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 500,
+          "articles": [
+            {
+              "title": "World Cup 2026: England&apos;s Jordan Henderson injures wrist in celebrations",
+              "url": "https://www.bbc.com/sport/football/articles/c9822ez0zdwo",
+              "source": "BBC"
+            },
+            {
+              "title": "FIFA World Cup: Thomas Tuchel reflects on England&apos;s win vs Mexico",
+              "url": "https://www.flashscore.com/news/thomas-tuchel-admits-england-beating-mexico-at-azteca-feels-like-winning-the-final/C2jgMGrm/",
+              "source": "Flashscore.com"
+            },
+            {
+              "title": "Santiago Gimenez stretchered off during Mexico&apos;s World Cup loss to England, adding injury crisis to host nation&apos;s tournament woes",
+              "url": "https://cryptobriefing.com/gimenez-injury-mexico-world-cup-england/",
+              "source": "Crypto Briefing"
+            }
+          ]
+        },
+        {
+          "query": "henderson",
+          "geo": "PE",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 500,
+          "articles": [
+            {
+              "title": "Jordan Henderson rushed to hospital after suffering &apos;really bad&apos; injury celebrating England&apos;s 3-2 Mexico World Cup win",
+              "url": "https://www.thesun.co.uk/sport/39659983/england-medics-celebrations-world-cup-mexico/",
+              "source": "The Sun"
+            },
+            {
+              "title": "FIFA World Cup: Thomas Tuchel reflects on England&apos;s win vs Mexico",
+              "url": "https://www.flashscore.com/news/thomas-tuchel-admits-england-beating-mexico-at-azteca-feels-like-winning-the-final/C2jgMGrm/",
+              "source": "Flashscore.com"
+            },
+            {
+              "title": "Santiago Gimenez stretchered off during Mexico&apos;s World Cup loss to England, adding injury crisis to host nation&apos;s tournament woes",
+              "url": "https://cryptobriefing.com/gimenez-injury-mexico-world-cup-england/",
+              "source": "Crypto Briefing"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "arbitro mexico vs inglaterra",
+      "type": "noticia",
+      "slugSuggestion": "arbitro-mexico-vs-inglaterra",
+      "language": "es",
+      "geos": [
+        "EC"
+      ],
+      "score": 960,
+      "reason": "Google Trends daily EC con 1,000 búsquedas · 3 artículos noticiosos referenciando \"arbitro mexico vs inglaterra\"",
+      "proposedPath": "/noticias/arbitro-mexico-vs-inglaterra",
+      "evidence": [
+        {
+          "query": "arbitro mexico vs inglaterra",
+          "geo": "EC",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 1000,
+          "articles": [
+            {
+              "title": "Alireza Faghani: Quién es el arbitro del México vs Inglaterra en los octavos del Mundial 2026",
+              "url": "https://www.eluniverso.com/deportes/futbol/alireza-faghani-quien-es-el-arbitro-del-mexico-vs-inglaterra-en-los-octavos-del-mundial-2026-nota/",
+              "source": "El Universo"
+            },
+            {
+              "title": "¿Quién es el árbitro de México - Inglaterra en octavos del Mundial? Perfil y trayectoria de Alireza Faghani",
+              "url": "https://www.marca.com/futbol/mundial/2026/07/06/arbitro-mexico-inglaterra-octavos-mundial-perfil-trayectoria-alireza-faghani.html",
+              "source": "MARCA"
+            },
+            {
+              "title": "La FIFA deposita su confianza en Juan Lara y lo designa en importante partido del Mundial",
+              "url": "https://www.espn.cl/futbol/mundial/nota/_/id/16960944/fifa-confianza-arbitro-juan-lara-designa-importante-partido-mundial-2026",
+              "source": "ESPN Chile"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "quiñones",
+      "type": "noticia",
+      "slugSuggestion": "quinones",
+      "language": "es",
+      "geos": [
+        "UY"
+      ],
+      "score": 540,
+      "reason": "Google Trends daily UY con 500 búsquedas · 3 artículos noticiosos referenciando \"quiñones\"",
+      "proposedPath": "/noticias/quinones",
+      "evidence": [
+        {
+          "query": "quiñones",
+          "geo": "UY",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 500,
+          "articles": [
+            {
+              "title": "Quiñones empata a Chicharito y Luis Hernández como máximo goleador en Mundiales",
+              "url": "https://www.si.com/mx/mundial-2026/quinones-empata-a-chicharito-y-luis-hernandez-como-maximo-goleador-en-mundiales",
+              "source": "Sports Illustrated"
+            },
+            {
+              "title": "Julián Quiñones: Dónde nació, cuántos goles lleva en el Mundial 2026, historia y cómo llegó a México",
+              "url": "https://www.olympics.com/es/noticias/julian-quinones-donde-nacio-goles-mundial-2026",
+              "source": "Olympics"
+            },
+            {
+              "title": "Por qué Julián Quiñones, el chico colombiano que jugaba descalzo, eligió representar a México",
+              "url": "https://tn.com.ar/deportes/mundial/2026/2026/07/05/por-que-julian-quinones-el-chico-colombiano-que-jugaba-descalzo-eligio-representar-a-mexico/",
+              "source": "TN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "england mexico",
+      "type": "noticia",
+      "slugSuggestion": "england-mexico",
+      "language": "fr",
+      "geos": [
+        "MA"
+      ],
+      "score": 540,
+      "reason": "Google Trends daily MA con 500 búsquedas · 3 artículos noticiosos referenciando \"england mexico\"",
+      "proposedPath": "/noticias/england-mexico",
+      "evidence": [
+        {
+          "query": "england mexico",
+          "geo": "MA",
+          "language": "fr",
+          "source": "google-trends-daily",
+          "score": 500,
+          "articles": [
+            {
+              "title": "¿Cómo quedó México - Inglaterra? Cronología, goles y marcador de la Selección Mexicana, Mundial 2026",
+              "url": "https://mexico.as.com/futbol/mundial/mexico-vs-inglaterra-en-vivo-hoy-resultado-goles-y-ultimas-noticias-del-tri-en-copa-del-mundo-2026-f202607-d/",
+              "source": "AS México"
+            },
+            {
+              "title": "Qué es el protocolo de tormenta de la FIFA y por qué podría retrasar el México vs Inglaterra",
+              "url": "https://www.si.com/es-us/futbol/que-es-el-protocolo-de-tormenta-de-la-fifa-y-por-que-podria-retrasar-el-mexico-vs-inglaterra",
+              "source": "Sports Illustrated"
+            },
+            {
+              "title": "¿Por qué siempre nos pasa esto?",
+              "url": "https://es-us.noticias.yahoo.com/pasa-035037331.html",
+              "source": "Yahoo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "jordan henderson",
+      "type": "noticia",
+      "slugSuggestion": "jordan-henderson",
+      "language": "es",
+      "geos": [
+        "CL"
+      ],
+      "score": 216,
+      "reason": "Google Trends daily CL con 200 búsquedas · 3 artículos noticiosos referenciando \"jordan henderson\"",
+      "proposedPath": "/noticias/jordan-henderson",
+      "evidence": [
+        {
+          "query": "jordan henderson",
+          "geo": "CL",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "World Cup 2026: England&apos;s Jordan Henderson injures wrist in celebrations",
+              "url": "https://www.bbc.com/sport/football/articles/c9822ez0zdwo",
+              "source": "BBC"
+            },
+            {
+              "title": "FIFA World Cup: Thomas Tuchel reflects on England&apos;s win vs Mexico",
+              "url": "https://www.flashscore.com/news/thomas-tuchel-admits-england-beating-mexico-at-azteca-feels-like-winning-the-final/C2jgMGrm/",
+              "source": "Flashscore.com"
+            },
+            {
+              "title": "Santiago Gimenez stretchered off during Mexico&apos;s World Cup loss to England, adding injury crisis to host nation&apos;s tournament woes",
+              "url": "https://cryptobriefing.com/gimenez-injury-mexico-world-cup-england/",
+              "source": "Crypto Briefing"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "julián quiñones",
+      "type": "noticia",
+      "slugSuggestion": "julian-quinones",
+      "language": "fr",
+      "geos": [
+        "MA"
+      ],
+      "score": 216,
+      "reason": "Google Trends daily MA con 200 búsquedas · 3 artículos noticiosos referenciando \"julián quiñones\"",
+      "proposedPath": "/noticias/julian-quinones",
+      "evidence": [
+        {
+          "query": "julián quiñones",
+          "geo": "MA",
+          "language": "fr",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "¡Julián Quiñones hace historia! Se convierte en el máximo romperredes de México en Mundiales",
+              "url": "https://onefootball.com/fr/news/julian-quinones-hace-historia-se-convierte-en-el-maximo-romperredes-de-mexico-en-mundiales-43101891",
+              "source": "OneFootball"
+            },
+            {
+              "title": "Julián Quiñones: Dónde nació, cuántos goles lleva en el Mundial 2026, historia y cómo llegó a México",
+              "url": "https://www.olympics.com/es/noticias/julian-quinones-donde-nacio-goles-mundial-2026",
+              "source": "Olympics"
+            },
+            {
+              "title": "Del «borracho» al héroe del pueblo: YA es el gran ganador del Mundial",
+              "url": "https://es-us.noticias.yahoo.com/deportes/borracho-h%C3%A9roe-pueblo-ganador-mundial-151500655.html",
+              "source": "Yahoo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "colombia vs suiza",
+      "type": "noticia",
+      "slugSuggestion": "colombia-vs-suiza",
+      "language": "es",
+      "geos": [
+        "EC"
+      ],
+      "score": 192,
+      "reason": "Google Trends daily EC con 200 búsquedas · 3 artículos noticiosos referenciando \"colombia vs suiza\"",
+      "proposedPath": "/noticias/colombia-vs-suiza",
+      "evidence": [
+        {
+          "query": "colombia vs suiza",
+          "geo": "EC",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Cuándo juegan Colombia vs. Suiza por los octavos del Mundial 2026: equipo, fecha, hora y TV en vivo",
+              "url": "https://espndeportes.espn.com/futbol/mundial/nota/_/id/16632775/colombia-vs-suiza-octavos-de-final-8vos-mundial-2026-equipo-fecha-hora-tv-en-vivo",
+              "source": "ESPN Deportes"
+            },
+            {
+              "title": "FIFA le ordenó dos cambios a Colombia para su partido ante Suiza: llegó la notificación oficial",
+              "url": "https://www.semana.com/deportes/articulo/fifa-le-ordeno-dos-cambios-a-colombia-para-su-partido-ante-suiza-llego-la-notificacion-oficial/202628/",
+              "source": "Revista Semana"
+            },
+            {
+              "title": "Un futbolista colombiano que juega en Suiza aseguró que la liga de ese país es mejor que la de Colombia por esta razón",
+              "url": "https://www.infobae.com/colombia/deportes/2026/07/05/un-futbolista-colombiano-que-juega-en-suiza-aseguro-que-la-liga-de-ese-pais-es-mejor-que-la-de-colombia-por-esta-razon/",
+              "source": "Infobae"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "argentina vs egipto",
+      "type": "noticia",
+      "slugSuggestion": "argentina-vs-egipto",
+      "language": "es",
+      "geos": [
+        "EC"
+      ],
+      "score": 192,
+      "reason": "Google Trends daily EC con 200 búsquedas · 3 artículos noticiosos referenciando \"argentina vs egipto\"",
+      "proposedPath": "/noticias/argentina-vs-egipto",
+      "evidence": [
+        {
+          "query": "argentina vs egipto",
+          "geo": "EC",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "El árbitro de Argentina vs. Egipto: el antecedente que preocupa a la Selección",
+              "url": "https://espndeportes.espn.com/futbol/mundial/nota/_/id/16961393/fifa-arbitro-argentina-vs-egipto-mundial-2026-preocupa-seleccion-futbol",
+              "source": "ESPN Deportes"
+            },
+            {
+              "title": "Argentina en el Mundial 2026, en directo: última hora hoy, 6 julio | Messi, Julián Álvarez, Nico Paz...",
+              "url": "https://as.com/futbol/mundial/argentina-en-el-mundial-2026-en-directo-ultima-hora-hoy-6-julio-messi-julian-alvarez-nico-paz-f202607-n/",
+              "source": "Diario AS"
+            },
+            {
+              "title": "«Es ridículo»... Pánico en Argentina por la decisión arbitral en el partido contra Egipto",
+              "url": "https://www.goal.com/es/noticias/es-ridiculo-panico-en-argentina-por-la-decision-arbitral-en-el-partido-contra-egipto/blt3853ac599267ebdf",
+              "source": "Goal.com"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "norway vs england",
+      "type": "noticia",
+      "slugSuggestion": "norway-vs-england",
+      "language": "en",
+      "geos": [
+        "AU"
+      ],
+      "score": 168,
+      "reason": "Google Trends daily AU con 200 búsquedas · 3 artículos noticiosos referenciando \"norway vs england\"",
+      "proposedPath": "/noticias/norway-vs-england",
+      "evidence": [
+        {
+          "query": "norway vs england",
+          "geo": "AU",
+          "language": "en",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Gutsy England prevails over Mexico in instant World Cup classic",
+              "url": "https://www.abc.net.au/news/2026-07-06/world-cup-live-brazil-vs-norway-mexico-vs-england/106881396",
+              "source": "ABC News & Headlines – Australian Broadcasting Corporation"
+            },
+            {
+              "title": "FIFA World Cup 2026 as it happened: Ten-man England edge Mexico in five-goal thriller; Norway defeat five-time champions Brazil 2-1 in round of 16",
+              "url": "https://www.theage.com.au/sport/soccer/fifa-world-cup-2026-live-updates-brazil-v-norway-mexico-v-england-20260705-p60crk.html?post=p5aq0f",
+              "source": "The Age"
+            },
+            {
+              "title": "What soccer games are today? Breaking down World Cup schedule for July 5",
+              "url": "https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/05/soccer-games-today-world-cup-schedule-july-5/90792435007/",
+              "source": "USA Today"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "henderson inglaterra",
+      "type": "noticia",
+      "slugSuggestion": "henderson-inglaterra",
+      "language": "es",
+      "geos": [
+        "AR"
+      ],
+      "score": 156,
+      "reason": "Google Trends daily AR con 100 búsquedas · 3 artículos noticiosos referenciando \"henderson inglaterra\"",
+      "proposedPath": "/noticias/henderson-inglaterra",
+      "evidence": [
+        {
+          "query": "henderson inglaterra",
+          "geo": "AR",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 100,
+          "articles": [
+            {
+              "title": "Mundial 2026, en directo: noticias de la Copa del Mundo y última hora de las selecciones, hoy 6 de julio",
+              "url": "https://as.com/futbol/mundial/mundial-2026-en-directo-noticias-de-la-copa-del-mundo-y-ultima-hora-de-las-selecciones-hoy-6-de-julio-f202607-d/",
+              "source": "Diario AS"
+            },
+            {
+              "title": "Quiso festejar la clasificación de Inglaterra y tuvo que ser retirado en camilla del Azteca",
+              "url": "https://www.labrujula24.com/notas/2026/07/06/quiso-festejar-la-clasificacion-de-inglaterra-y-tuvo-que-ser-retirado-en-camilla-del-azteca-n509048/",
+              "source": "La Brújula 24"
+            },
+            {
+              "title": "Se fue en camilla: Jordan Henderson sufrió una preocupante caída durante los festejos de Inglaterra por la victoria ante México",
+              "url": "https://tn.com.ar/deportes/mundial/2026/2026/07/06/se-fue-en-camilla-jordan-henderson-sufrio-una-preocupante-caida-durante-los-festejos-de-inglaterra-por-la-victoria-ante-mexico/",
+              "source": "TN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "memes mexico vs inglaterra",
+      "type": "noticia",
+      "slugSuggestion": "memes-mexico-vs-inglaterra",
+      "language": "es",
+      "geos": [
+        "AR"
+      ],
+      "score": 156,
+      "reason": "Google Trends daily AR con 100 búsquedas · 3 artículos noticiosos referenciando \"memes mexico vs inglaterra\"",
+      "proposedPath": "/noticias/memes-mexico-vs-inglaterra",
+      "evidence": [
+        {
+          "query": "memes mexico vs inglaterra",
+          "geo": "AR",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 100,
+          "articles": [
+            {
+              "title": "Los memes más crueles y divertidos que dejó la eliminación de México del Mundial 2026 tras perder contra Inglaterra",
+              "url": "https://www.infobae.com/mexico/deportes/2026/07/06/los-memes-mas-crueles-y-divertidos-que-dejo-la-eliminacion-de-mexico-del-mundial-2026-tras-perder-contra-inglaterra/",
+              "source": "Infobae"
+            },
+            {
+              "title": "Memes: Inglaterra eliminó a México por los octavos de final del Mundial 2026 y estallaron las redes sociales",
+              "url": "https://tn.com.ar/deportes/mundial/2026/2026/07/05/los-mejores-memes-de-mexico-vs-inglaterra-por-los-octavos-de-final-del-mundial-2026/",
+              "source": "TN"
+            },
+            {
+              "title": "Mundial 2026: operativo \"No Inglés\" la ingeniosa campaña previo al México vs Inglaterra",
+              "url": "https://es-us.vida-estilo.yahoo.com/mundial-2026-operativo-no-ingles-la-ingeniosa-campana-previo-al-mexico-vs-inglaterra-164308129.html",
+              "source": "Yahoo en Español Vida y Estilo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "eeuu vs belgica",
+      "type": "noticia",
+      "slugSuggestion": "eeuu-vs-belgica",
+      "language": "es",
+      "geos": [
+        "PE"
+      ],
+      "score": 108,
+      "reason": "Google Trends daily PE con 100 búsquedas · 3 artículos noticiosos referenciando \"eeuu vs belgica\"",
+      "proposedPath": "/noticias/eeuu-vs-belgica",
+      "evidence": [
+        {
+          "query": "eeuu vs belgica",
+          "geo": "PE",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 100,
+          "articles": [
+            {
+              "title": "¿Dónde ver Estados Unidos vs Bélgica EN VIVO por el Mundial 2026? hora, previa y en qué canal pasan los octavos",
+              "url": "https://elcomercio.pe/deporte-total/futbol-mundial/donde-ver-estados-unidos-vs-belgica-en-vivo-por-el-mundial-2026-hora-previa-y-en-que-canal-pasan-los-octavos-tdpe-noticia/",
+              "source": "El Comercio Perú"
+            },
+            {
+              "title": "Estados Unidos - Bélgica | Pronóstico y cuotas 07.07.2026",
+              "url": "https://as.com/apuestas/pronosticos/estados-unidos-vs-belgica-pronostico-07-07-2026/",
+              "source": "Diario AS"
+            },
+            {
+              "title": "Alineación probable de Estados Unidos - Bélgica en el Mundial: once del partido de octavos de final",
+              "url": "https://www.marca.com/futbol/mundial/2026/07/06/alineacion-probable-estados-unidos-belgica-mundial-once-partido-octavos-final.html",
+              "source": "MARCA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "tormenta",
+      "type": "noticia",
+      "slugSuggestion": "tormenta",
+      "language": "es",
+      "geos": [
+        "UY"
+      ],
+      "score": 108,
+      "reason": "Google Trends daily UY con 100 búsquedas · 3 artículos noticiosos referenciando \"tormenta\"",
+      "proposedPath": "/noticias/tormenta",
+      "evidence": [
+        {
+          "query": "tormenta",
+          "geo": "UY",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 100,
+          "articles": [
+            {
+              "title": "¿Cuál es el protocolo de FIFA en caso de tormenta durante los partidos del Mundial 2026 y cuánto dura activo?",
+              "url": "https://www.marca.com/mx/futbol/mundial/2026/07/06/6a4aed7aca4741d06c8b4575.html",
+              "source": "MARCA"
+            },
+            {
+              "title": "VÍDEO | Las tormentas eléctricas del Mundial se llaman Haaland y Mbappé (3-2/3-0)",
+              "url": "https://salamancartvaldia.es/noticia/2026-06-23-video-las-tormentas-electricas-del-mundial-se-llaman-haaland-y-mbappe-3-2-3-0-392939",
+              "source": "SALAMANCArtv AL DÍA"
+            },
+            {
+              "title": "¿Qué partidos se han retrasado en el Mundial 2026? La lista de encuentros afectados por el clima",
+              "url": "https://www.excelsior.com.mx/deportes/que-partidos-han-retrasado-mundial-2026-lista-encuentros-afectados-por-clima",
+              "source": "Excélsior"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alreadyCovered": [
+    {
+      "query": "copa mundial de fútbol",
+      "matchUrl": "/noticias/lamine-yamal-primer-mundial-2026-espana-17-anos-eurocopa"
+    },
+    {
+      "query": "cuando juega inglaterra vs noruega",
+      "matchUrl": "/noticias/cuando-juega-argentina-hoy-argelia-mundial-2026"
+    },
+    {
+      "query": "cuando juega argentina",
+      "matchUrl": "/noticias/cuando-juega-argentina-hoy-argelia-mundial-2026"
+    },
+    {
+      "query": "hasta donde llega colombia en el mundial 2026",
+      "matchUrl": "/2026/donde-ver"
+    },
+    {
+      "query": "inglaterra vs noruega",
+      "matchUrl": "/noticias/semana-cierre-convocatorias-mundial-2026-alemania-inglaterra-espana-paises-bajos-marruecos-noruega-deadline-1-junio"
+    },
+    {
+      "query": "estados unidos vs belgica",
+      "matchUrl": "/ediciones/1994-estados-unidos"
+    },
+    {
+      "query": "noruega vs inglaterra",
+      "matchUrl": "/noticias/semana-cierre-convocatorias-mundial-2026-alemania-inglaterra-espana-paises-bajos-marruecos-noruega-deadline-1-junio"
+    },
+    {
+      "query": "fifa world cup 2026™",
+      "matchUrl": "/noticias/cesped-mundial-2026-tecnologia-maquinas-fifa"
+    },
+    {
+      "query": "copa mundial de fútbol de 2026",
+      "matchUrl": "/coleccionismo/panini-mundial-2026"
+    },
+    {
+      "query": "portugal vs spain world cup 2026",
+      "matchUrl": "/noticias/colombia-portugal-resultado-mundial-2026"
+    },
+    {
+      "query": "portugal vs spain world cup 2026",
+      "matchUrl": "/noticias/colombia-portugal-resultado-mundial-2026"
+    },
+    {
+      "query": "mexico vs",
+      "matchUrl": "/ediciones/1970-mexico"
+    }
+  ]
+}
