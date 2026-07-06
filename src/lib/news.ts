@@ -147,31 +147,31 @@ El próximo reto llega el **11 de julio contra Inglaterra**, en unos cuartos que
   },
   {
     slug: 'partidos-mundial-2026-hoy-2026-07-06',
-    title: "Partidos del Mundial 2026 hoy, Lunes 6 de julio: horarios (hora España) y dónde ver, gratis en La 1 o en DAZN",
-    summary: "Calendario de los 2 partidos del Mundial 2026 de hoy, lunes 6 de julio: horarios en hora española y dónde verlos. Hoy ningún partido en abierto en La 1: todos en DAZN / Movistar Plus+.",
-    body: `El Mundial 2026 vive hoy, lunes 6 de julio, una jornada de **2 partidos**. Te dejamos todos los horarios en hora española, las sedes y dónde seguirlos, con el foco puesto en el **G.M83 · G.M84 - Por definir**.
+    title: "Partidos del Mundial 2026 hoy, Lunes 6 de julio: España juega, horarios y dónde ver gratis (La 1) o en DAZN",
+    summary: "Calendario de los 2 partidos del Mundial 2026 de hoy, lunes 6 de julio: horarios en hora española y dónde verlos. Hoy en abierto y gratis en La 1: México - Inglaterra. El resto, en DAZN / Movistar Plus+.",
+    body: `Día grande para el aficionado español: **España se mide a Portugal** dentro de la jornada de hoy, lunes 6 de julio, en el Mundial 2026. En total se disputan **2 partidos**, con sus horarios en hora española y dónde verlos.
 
 ## Partidos de hoy en el Mundial 2026 (hora de España)
 
-- **[G.M79 · G.M80 - Por definir](/2026/partido/partido-92)** — 02:00 h · Octavos de final · Estadio Azteca (Ciudad de México) · 📺 [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026) / [Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial).
-- **[G.M83 · G.M84 - Por definir](/2026/partido/partido-93)** — 21:00 h · Octavos de final · AT&T Stadium (Arlington) · 📺 [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026) / [Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial).
+- **[México - Inglaterra](/2026/partido/partido-92)** — 02:00 h · Octavos de final · Estadio Azteca (Ciudad de México) · 📺 🆓 La 1 (RTVE) y [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026).
+- **[Portugal - España](/2026/partido/partido-93)** — 21:00 h · Octavos de final · AT&T Stadium (Arlington) · 📺 🆓 La 1 (RTVE) y [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026).
 
 Todos los horarios están convertidos a **hora peninsular española**. Puedes ver la jornada al completo, con resultados en directo, en la página de [partidos de hoy](/2026/partidos-hoy) y en el [calendario del Mundial](/2026/calendario).
 
 ## El partido destacado del día
 
-De todo el cartel, el **G.M83 · G.M84 - Por definir** es el duelo más llamativo de la jornada y el que más expectación levanta entre los aficionados. Sigue la clasificación y los grupos actualizados en [grupos y clasificación](/2026/grupos).
+De todo el cartel, el **México - Inglaterra** es el duelo más llamativo de la jornada y el que más expectación levanta entre los aficionados. Sigue la clasificación y los grupos actualizados en [grupos y clasificación](/2026/grupos).
 
 ## Qué partidos se ven hoy gratis en La 1 (RTVE)
 
-Hoy **RTVE no emite ningún partido en abierto**: todos los encuentros de la jornada son exclusiva de pago en DAZN.
+RTVE emite hoy en **abierto y gratis** en **La 1** (también en RTVE Play, gratis online):
+
+- **México - Inglaterra** — 02:00 h.
+- **Portugal - España** — 21:00 h.
 
 ## Qué partidos son solo de pago (DAZN / Movistar Plus+)
 
-El resto de partidos de hoy solo se pueden ver en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, disponible también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**:
-
-- **G.M79 · G.M80 - Por definir** — 02:00 h.
-- **G.M83 · G.M84 - Por definir** — 21:00 h.
+Hoy **todos los partidos de la jornada se ven gratis en La 1**.
 
 RTVE emite **34 partidos gratis** en total del Mundial 2026: los 3 de España en la fase de grupos, un partido destacado por jornada y toda la fase eliminatoria desde dieciseisavos (incluida la final). Los **104 partidos** están en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**. Desglose completo de plataformas, precios y partidos en abierto en [dónde ver el Mundial 2026](/2026/donde-ver).`,
     category: 'tv',
@@ -183,28 +183,28 @@ RTVE emite **34 partidos gratis** en total del Mundial 2026: los 3 de España en
   {
     slug: 'partidos-mundial-2026-hoy-2026-07-05',
     title: "Partidos del Mundial 2026 hoy, Domingo 5 de julio: horarios (hora España) y dónde ver, gratis en La 1 o en DAZN",
-    summary: "Hoy domingo 5 de julio se juega G.M76 · G.M78 - Por definir en el Mundial 2026. Horario en hora española, sede y dónde verlo en TV. Hoy ningún partido en abierto en La 1: todos en DAZN / Movistar Plus+.",
-    body: `Hoy, domingo 5 de julio, el Mundial 2026 deja un único partido en el calendario: **G.M76 · G.M78 - Por definir**. Aquí tienes el horario en hora española, la sede y dónde verlo en TV.
+    summary: "Hoy domingo 5 de julio se juega Brasil - Noruega en el Mundial 2026. Horario en hora española, sede y dónde verlo en TV. Hoy en abierto y gratis en La 1: Brasil - Noruega. El resto, en DAZN / Movistar Plus+.",
+    body: `Hoy, domingo 5 de julio, el Mundial 2026 deja un único partido en el calendario: **Brasil - Noruega**. Aquí tienes el horario en hora española, la sede y dónde verlo en TV.
 
 ## Partidos de hoy en el Mundial 2026 (hora de España)
 
-- **[G.M76 · G.M78 - Por definir](/2026/partido/partido-91)** — 22:00 h · Octavos de final · MetLife Stadium (East Rutherford) · 📺 [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026) / [Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial).
+- **[Brasil - Noruega](/2026/partido/partido-91)** — 22:00 h · Octavos de final · MetLife Stadium (East Rutherford) · 📺 🆓 La 1 (RTVE) y [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026).
 
 Todos los horarios están convertidos a **hora peninsular española**. Puedes ver la jornada al completo, con resultados en directo, en la página de [partidos de hoy](/2026/partidos-hoy) y en el [calendario del Mundial](/2026/calendario).
 
 ## El partido destacado del día
 
-El G.M76 · G.M78 - Por definir concentra hoy toda la atención: un buen aperitivo para ir calentando la jornada mundialista. Sigue la clasificación y los grupos actualizados en [grupos y clasificación](/2026/grupos).
+El Brasil - Noruega concentra hoy toda la atención: un buen aperitivo para ir calentando la jornada mundialista. Sigue la clasificación y los grupos actualizados en [grupos y clasificación](/2026/grupos).
 
 ## Qué partidos se ven hoy gratis en La 1 (RTVE)
 
-Hoy **RTVE no emite ningún partido en abierto**: todos los encuentros de la jornada son exclusiva de pago en DAZN.
+RTVE emite hoy en **abierto y gratis** en **La 1** (también en RTVE Play, gratis online):
+
+- **Brasil - Noruega** — 22:00 h.
 
 ## Qué partidos son solo de pago (DAZN / Movistar Plus+)
 
-El resto de partidos de hoy solo se pueden ver en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, disponible también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**:
-
-- **G.M76 · G.M78 - Por definir** — 22:00 h.
+Hoy **todos los partidos de la jornada se ven gratis en La 1**.
 
 RTVE emite **34 partidos gratis** en total del Mundial 2026: los 3 de España en la fase de grupos, un partido destacado por jornada y toda la fase eliminatoria desde dieciseisavos (incluida la final). Los **104 partidos** están en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**. Desglose completo de plataformas, precios y partidos en abierto en [dónde ver el Mundial 2026](/2026/donde-ver).`,
     category: 'tv',
@@ -216,34 +216,34 @@ RTVE emite **34 partidos gratis** en total del Mundial 2026: los 3 de España en
   {
     slug: 'partidos-mundial-2026-hoy-2026-07-04',
     title: "Partidos del Mundial 2026 hoy, Sábado 4 de julio: horarios (hora España) y dónde ver, gratis en La 1 o en DAZN",
-    summary: "Calendario de los 4 partidos del Mundial 2026 de hoy, sábado 4 de julio: horarios en hora española y dónde verlos. Hoy ningún partido en abierto en La 1: todos en DAZN / Movistar Plus+.",
-    body: `El Mundial 2026 vive hoy, sábado 4 de julio, una jornada de **4 partidos**. Te dejamos todos los horarios en hora española, las sedes y dónde seguirlos, con el foco puesto en el **G.M74 · G.M77 - Por definir**.
+    summary: "Calendario de los 4 partidos del Mundial 2026 de hoy, sábado 4 de julio: horarios en hora española y dónde verlos. Hoy en abierto y gratis en La 1: Argentina - Cabo Verde. El resto, en DAZN / Movistar Plus+.",
+    body: `El Mundial 2026 vive hoy, sábado 4 de julio, una jornada de **4 partidos**. Te dejamos todos los horarios en hora española, las sedes y dónde seguirlos, con el foco puesto en el **Argentina - Cabo Verde**.
 
 ## Partidos de hoy en el Mundial 2026 (hora de España)
 
-- **[1º J · 2º H - Por definir](/2026/partido/partido-86)** — 00:00 h · Dieciseisavos · Hard Rock Stadium (Miami Gardens) · 📺 [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026) / [Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial).
-- **[1º K · 3er - Por definir](/2026/partido/partido-87)** — 03:30 h · Dieciseisavos · Arrowhead Stadium (Kansas City) · 📺 [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026) / [Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial).
-- **[G.M73 · G.M75 - Por definir](/2026/partido/partido-90)** — 19:00 h · Octavos de final · NRG Stadium (Houston) · 📺 [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026) / [Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial).
-- **[G.M74 · G.M77 - Por definir](/2026/partido/partido-89)** — 23:00 h · Octavos de final · Lincoln Financial Field (Philadelphia) · 📺 [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026) / [Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial).
+- **[Argentina - Cabo Verde](/2026/partido/partido-86)** — 00:00 h · Dieciseisavos · Hard Rock Stadium (Miami Gardens) · 📺 🆓 La 1 (RTVE) y [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026).
+- **[Colombia - Ghana](/2026/partido/partido-87)** — 03:30 h · Dieciseisavos · Arrowhead Stadium (Kansas City) · 📺 🆓 La 1 (RTVE) y [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026).
+- **[Canadá - Marruecos](/2026/partido/partido-90)** — 19:00 h · Octavos de final · NRG Stadium (Houston) · 📺 🆓 La 1 (RTVE) y [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026).
+- **[Paraguay - Francia](/2026/partido/partido-89)** — 23:00 h · Octavos de final · Lincoln Financial Field (Philadelphia) · 📺 🆓 La 1 (RTVE) y [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026).
 
 Todos los horarios están convertidos a **hora peninsular española**. Puedes ver la jornada al completo, con resultados en directo, en la página de [partidos de hoy](/2026/partidos-hoy) y en el [calendario del Mundial](/2026/calendario).
 
 ## El partido destacado del día
 
-De todo el cartel, el **G.M74 · G.M77 - Por definir** es el duelo más llamativo de la jornada y el que más expectación levanta entre los aficionados. Sigue la clasificación y los grupos actualizados en [grupos y clasificación](/2026/grupos).
+De todo el cartel, el **Argentina - Cabo Verde** es el duelo más llamativo de la jornada y el que más expectación levanta entre los aficionados. Sigue la clasificación y los grupos actualizados en [grupos y clasificación](/2026/grupos).
 
 ## Qué partidos se ven hoy gratis en La 1 (RTVE)
 
-Hoy **RTVE no emite ningún partido en abierto**: todos los encuentros de la jornada son exclusiva de pago en DAZN.
+RTVE emite hoy en **abierto y gratis** en **La 1** (también en RTVE Play, gratis online):
+
+- **Argentina - Cabo Verde** — 00:00 h.
+- **Colombia - Ghana** — 03:30 h.
+- **Canadá - Marruecos** — 19:00 h.
+- **Paraguay - Francia** — 23:00 h.
 
 ## Qué partidos son solo de pago (DAZN / Movistar Plus+)
 
-El resto de partidos de hoy solo se pueden ver en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, disponible también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**:
-
-- **1º J · 2º H - Por definir** — 00:00 h.
-- **1º K · 3er - Por definir** — 03:30 h.
-- **G.M73 · G.M75 - Por definir** — 19:00 h.
-- **G.M74 · G.M77 - Por definir** — 23:00 h.
+Hoy **todos los partidos de la jornada se ven gratis en La 1**.
 
 RTVE emite **34 partidos gratis** en total del Mundial 2026: los 3 de España en la fase de grupos, un partido destacado por jornada y toda la fase eliminatoria desde dieciseisavos (incluida la final). Los **104 partidos** están en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**. Desglose completo de plataformas, precios y partidos en abierto en [dónde ver el Mundial 2026](/2026/donde-ver).`,
     category: 'tv',
@@ -255,32 +255,32 @@ RTVE emite **34 partidos gratis** en total del Mundial 2026: los 3 de España en
   {
     slug: 'partidos-mundial-2026-hoy-2026-07-03',
     title: "Partidos del Mundial 2026 hoy, Viernes 3 de julio: horarios (hora España) y dónde ver, gratis en La 1 o en DAZN",
-    summary: "Calendario de los 3 partidos del Mundial 2026 de hoy, viernes 3 de julio: horarios en hora española y dónde verlos. Hoy ningún partido en abierto en La 1: todos en DAZN / Movistar Plus+.",
-    body: `El Mundial 2026 vive hoy, viernes 3 de julio, una jornada de **3 partidos**. Te dejamos todos los horarios en hora española, las sedes y dónde seguirlos, con el foco puesto en el **2º D · 2º G - Por definir**.
+    summary: "Calendario de los 3 partidos del Mundial 2026 de hoy, viernes 3 de julio: horarios en hora española y dónde verlos. Hoy en abierto y gratis en La 1: Portugal - Croacia. El resto, en DAZN / Movistar Plus+.",
+    body: `El Mundial 2026 vive hoy, viernes 3 de julio, una jornada de **3 partidos**. Te dejamos todos los horarios en hora española, las sedes y dónde seguirlos, con el foco puesto en el **Portugal - Croacia**.
 
 ## Partidos de hoy en el Mundial 2026 (hora de España)
 
-- **[2º K · 2º L - Por definir](/2026/partido/partido-83)** — 01:00 h · Dieciseisavos · BMO Field (Toronto) · 📺 [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026) / [Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial).
-- **[1º B · 3er - Por definir](/2026/partido/partido-85)** — 05:00 h · Dieciseisavos · BC Place (Vancouver) · 📺 [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026) / [Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial).
-- **[2º D · 2º G - Por definir](/2026/partido/partido-88)** — 20:00 h · Dieciseisavos · AT&T Stadium (Arlington) · 📺 [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026) / [Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial).
+- **[Portugal - Croacia](/2026/partido/partido-83)** — 01:00 h · Dieciseisavos · BMO Field (Toronto) · 📺 🆓 La 1 (RTVE) y [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026).
+- **[Suiza - Argelia](/2026/partido/partido-85)** — 05:00 h · Dieciseisavos · BC Place (Vancouver) · 📺 🆓 La 1 (RTVE) y [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026).
+- **[Australia - Egipto](/2026/partido/partido-88)** — 20:00 h · Dieciseisavos · AT&T Stadium (Arlington) · 📺 🆓 La 1 (RTVE) y [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026).
 
 Todos los horarios están convertidos a **hora peninsular española**. Puedes ver la jornada al completo, con resultados en directo, en la página de [partidos de hoy](/2026/partidos-hoy) y en el [calendario del Mundial](/2026/calendario).
 
 ## El partido destacado del día
 
-De todo el cartel, el **2º D · 2º G - Por definir** es el duelo más llamativo de la jornada y el que más expectación levanta entre los aficionados. Sigue la clasificación y los grupos actualizados en [grupos y clasificación](/2026/grupos).
+De todo el cartel, el **Portugal - Croacia** es el duelo más llamativo de la jornada y el que más expectación levanta entre los aficionados. Sigue la clasificación y los grupos actualizados en [grupos y clasificación](/2026/grupos).
 
 ## Qué partidos se ven hoy gratis en La 1 (RTVE)
 
-Hoy **RTVE no emite ningún partido en abierto**: todos los encuentros de la jornada son exclusiva de pago en DAZN.
+RTVE emite hoy en **abierto y gratis** en **La 1** (también en RTVE Play, gratis online):
+
+- **Portugal - Croacia** — 01:00 h.
+- **Suiza - Argelia** — 05:00 h.
+- **Australia - Egipto** — 20:00 h.
 
 ## Qué partidos son solo de pago (DAZN / Movistar Plus+)
 
-El resto de partidos de hoy solo se pueden ver en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, disponible también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**:
-
-- **2º K · 2º L - Por definir** — 01:00 h.
-- **1º B · 3er - Por definir** — 05:00 h.
-- **2º D · 2º G - Por definir** — 20:00 h.
+Hoy **todos los partidos de la jornada se ven gratis en La 1**.
 
 RTVE emite **34 partidos gratis** en total del Mundial 2026: los 3 de España en la fase de grupos, un partido destacado por jornada y toda la fase eliminatoria desde dieciseisavos (incluida la final). Los **104 partidos** están en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**. Desglose completo de plataformas, precios y partidos en abierto en [dónde ver el Mundial 2026](/2026/donde-ver).`,
     category: 'tv',
@@ -291,31 +291,31 @@ RTVE emite **34 partidos gratis** en total del Mundial 2026: los 3 de España en
   },
   {
     slug: 'partidos-mundial-2026-hoy-2026-07-02',
-    title: "Partidos del Mundial 2026 hoy, Jueves 2 de julio: horarios (hora España) y dónde ver, gratis en La 1 o en DAZN",
-    summary: "Calendario de los 2 partidos del Mundial 2026 de hoy, jueves 2 de julio: horarios en hora española y dónde verlos. Hoy ningún partido en abierto en La 1: todos en DAZN / Movistar Plus+.",
-    body: `El Mundial 2026 vive hoy, jueves 2 de julio, una jornada de **2 partidos**. Te dejamos todos los horarios en hora española, las sedes y dónde seguirlos, con el foco puesto en el **1º H · 2º J - Por definir**.
+    title: "Partidos del Mundial 2026 hoy, Jueves 2 de julio: España juega, horarios y dónde ver gratis (La 1) o en DAZN",
+    summary: "Calendario de los 2 partidos del Mundial 2026 de hoy, jueves 2 de julio: horarios en hora española y dónde verlos. Hoy en abierto y gratis en La 1: Estados Unidos - Bosnia. El resto, en DAZN / Movistar Plus+.",
+    body: `Día grande para el aficionado español: **España se mide a Austria** dentro de la jornada de hoy, jueves 2 de julio, en el Mundial 2026. En total se disputan **2 partidos**, con sus horarios en hora española y dónde verlos.
 
 ## Partidos de hoy en el Mundial 2026 (hora de España)
 
-- **[1º D · 3er - Por definir](/2026/partido/partido-81)** — 02:00 h · Dieciseisavos · Levi's Stadium (Santa Clara) · 📺 [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026) / [Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial).
-- **[1º H · 2º J - Por definir](/2026/partido/partido-84)** — 21:00 h · Dieciseisavos · SoFi Stadium (Inglewood) · 📺 [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026) / [Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial).
+- **[Estados Unidos - Bosnia](/2026/partido/partido-81)** — 02:00 h · Dieciseisavos · Levi's Stadium (Santa Clara) · 📺 🆓 La 1 (RTVE) y [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026).
+- **[España - Austria](/2026/partido/partido-84)** — 21:00 h · Dieciseisavos · SoFi Stadium (Inglewood) · 📺 🆓 La 1 (RTVE) y [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026).
 
 Todos los horarios están convertidos a **hora peninsular española**. Puedes ver la jornada al completo, con resultados en directo, en la página de [partidos de hoy](/2026/partidos-hoy) y en el [calendario del Mundial](/2026/calendario).
 
 ## El partido destacado del día
 
-De todo el cartel, el **1º H · 2º J - Por definir** es el duelo más llamativo de la jornada y el que más expectación levanta entre los aficionados. Sigue la clasificación y los grupos actualizados en [grupos y clasificación](/2026/grupos).
+De todo el cartel, el **Estados Unidos - Bosnia** es el duelo más llamativo de la jornada y el que más expectación levanta entre los aficionados. Sigue la clasificación y los grupos actualizados en [grupos y clasificación](/2026/grupos).
 
 ## Qué partidos se ven hoy gratis en La 1 (RTVE)
 
-Hoy **RTVE no emite ningún partido en abierto**: todos los encuentros de la jornada son exclusiva de pago en DAZN.
+RTVE emite hoy en **abierto y gratis** en **La 1** (también en RTVE Play, gratis online):
+
+- **Estados Unidos - Bosnia** — 02:00 h.
+- **España - Austria** — 21:00 h.
 
 ## Qué partidos son solo de pago (DAZN / Movistar Plus+)
 
-El resto de partidos de hoy solo se pueden ver en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, disponible también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**:
-
-- **1º D · 3er - Por definir** — 02:00 h.
-- **1º H · 2º J - Por definir** — 21:00 h.
+Hoy **todos los partidos de la jornada se ven gratis en La 1**.
 
 RTVE emite **34 partidos gratis** en total del Mundial 2026: los 3 de España en la fase de grupos, un partido destacado por jornada y toda la fase eliminatoria desde dieciseisavos (incluida la final). Los **104 partidos** están en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**. Desglose completo de plataformas, precios y partidos en abierto en [dónde ver el Mundial 2026](/2026/donde-ver).`,
     category: 'tv',
@@ -327,32 +327,32 @@ RTVE emite **34 partidos gratis** en total del Mundial 2026: los 3 de España en
   {
     slug: 'partidos-mundial-2026-hoy-2026-07-01',
     title: "Partidos del Mundial 2026 hoy, Miércoles 1 de julio: horarios (hora España) y dónde ver, gratis en La 1 o en DAZN",
-    summary: "Calendario de los 3 partidos del Mundial 2026 de hoy, miércoles 1 de julio: horarios en hora española y dónde verlos. Hoy ningún partido en abierto en La 1: todos en DAZN / Movistar Plus+.",
-    body: `El Mundial 2026 vive hoy, miércoles 1 de julio, una jornada de **3 partidos**. Te dejamos todos los horarios en hora española, las sedes y dónde seguirlos, con el foco puesto en el **1º G · 3er - Por definir**.
+    summary: "Calendario de los 3 partidos del Mundial 2026 de hoy, miércoles 1 de julio: horarios en hora española y dónde verlos. Hoy en abierto y gratis en La 1: México - Ecuador. El resto, en DAZN / Movistar Plus+.",
+    body: `El Mundial 2026 vive hoy, miércoles 1 de julio, una jornada de **3 partidos**. Te dejamos todos los horarios en hora española, las sedes y dónde seguirlos, con el foco puesto en el **México - Ecuador**.
 
 ## Partidos de hoy en el Mundial 2026 (hora de España)
 
-- **[1º A · 3er - Por definir](/2026/partido/partido-79)** — 03:00 h · Dieciseisavos · Estadio Azteca (Ciudad de México) · 📺 [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026) / [Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial).
-- **[1º L · 3er - Por definir](/2026/partido/partido-80)** — 18:00 h · Dieciseisavos · Mercedes-Benz Stadium (Atlanta) · 📺 [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026) / [Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial).
-- **[1º G · 3er - Por definir](/2026/partido/partido-82)** — 22:00 h · Dieciseisavos · Lumen Field (Seattle) · 📺 [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026) / [Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial).
+- **[México - Ecuador](/2026/partido/partido-79)** — 03:00 h · Dieciseisavos · Estadio Azteca (Ciudad de México) · 📺 🆓 La 1 (RTVE) y [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026).
+- **[Inglaterra - RD del Congo](/2026/partido/partido-80)** — 18:00 h · Dieciseisavos · Mercedes-Benz Stadium (Atlanta) · 📺 🆓 La 1 (RTVE) y [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026).
+- **[Bélgica - Senegal](/2026/partido/partido-82)** — 22:00 h · Dieciseisavos · Lumen Field (Seattle) · 📺 🆓 La 1 (RTVE) y [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026).
 
 Todos los horarios están convertidos a **hora peninsular española**. Puedes ver la jornada al completo, con resultados en directo, en la página de [partidos de hoy](/2026/partidos-hoy) y en el [calendario del Mundial](/2026/calendario).
 
 ## El partido destacado del día
 
-De todo el cartel, el **1º G · 3er - Por definir** es el duelo más llamativo de la jornada y el que más expectación levanta entre los aficionados. Sigue la clasificación y los grupos actualizados en [grupos y clasificación](/2026/grupos).
+De todo el cartel, el **México - Ecuador** es el duelo más llamativo de la jornada y el que más expectación levanta entre los aficionados. Sigue la clasificación y los grupos actualizados en [grupos y clasificación](/2026/grupos).
 
 ## Qué partidos se ven hoy gratis en La 1 (RTVE)
 
-Hoy **RTVE no emite ningún partido en abierto**: todos los encuentros de la jornada son exclusiva de pago en DAZN.
+RTVE emite hoy en **abierto y gratis** en **La 1** (también en RTVE Play, gratis online):
+
+- **México - Ecuador** — 03:00 h.
+- **Inglaterra - RD del Congo** — 18:00 h.
+- **Bélgica - Senegal** — 22:00 h.
 
 ## Qué partidos son solo de pago (DAZN / Movistar Plus+)
 
-El resto de partidos de hoy solo se pueden ver en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, disponible también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**:
-
-- **1º A · 3er - Por definir** — 03:00 h.
-- **1º L · 3er - Por definir** — 18:00 h.
-- **1º G · 3er - Por definir** — 22:00 h.
+Hoy **todos los partidos de la jornada se ven gratis en La 1**.
 
 RTVE emite **34 partidos gratis** en total del Mundial 2026: los 3 de España en la fase de grupos, un partido destacado por jornada y toda la fase eliminatoria desde dieciseisavos (incluida la final). Los **104 partidos** están en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**. Desglose completo de plataformas, precios y partidos en abierto en [dónde ver el Mundial 2026](/2026/donde-ver).`,
     category: 'tv',
@@ -364,32 +364,32 @@ RTVE emite **34 partidos gratis** en total del Mundial 2026: los 3 de España en
   {
     slug: 'partidos-mundial-2026-hoy-2026-06-30',
     title: "Partidos del Mundial 2026 hoy, Martes 30 de junio: horarios (hora España) y dónde ver, gratis en La 1 o en DAZN",
-    summary: "Calendario de los 3 partidos del Mundial 2026 de hoy, martes 30 de junio: horarios en hora española y dónde verlos. Hoy ningún partido en abierto en La 1: todos en DAZN / Movistar Plus+.",
-    body: `El Mundial 2026 vive hoy, martes 30 de junio, una jornada de **3 partidos**. Te dejamos todos los horarios en hora española, las sedes y dónde seguirlos, con el foco puesto en el **1º I · 3er - Por definir**.
+    summary: "Calendario de los 3 partidos del Mundial 2026 de hoy, martes 30 de junio: horarios en hora española y dónde verlos. Hoy en abierto y gratis en La 1: Países Bajos - Marruecos. El resto, en DAZN / Movistar Plus+.",
+    body: `El Mundial 2026 vive hoy, martes 30 de junio, una jornada de **3 partidos**. Te dejamos todos los horarios en hora española, las sedes y dónde seguirlos, con el foco puesto en el **Países Bajos - Marruecos**.
 
 ## Partidos de hoy en el Mundial 2026 (hora de España)
 
-- **[1º F · 2º C - Por definir](/2026/partido/partido-75)** — 03:00 h · Dieciseisavos · Estadio BBVA (Monterrey) · 📺 [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026) / [Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial).
-- **[2º E · 2º I - Por definir](/2026/partido/partido-78)** — 19:00 h · Dieciseisavos · AT&T Stadium (Arlington) · 📺 [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026) / [Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial).
-- **[1º I · 3er - Por definir](/2026/partido/partido-77)** — 23:00 h · Dieciseisavos · MetLife Stadium (East Rutherford) · 📺 [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026) / [Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial).
+- **[Países Bajos - Marruecos](/2026/partido/partido-75)** — 03:00 h · Dieciseisavos · Estadio BBVA (Monterrey) · 📺 🆓 La 1 (RTVE) y [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026).
+- **[Costa de Marfil - Noruega](/2026/partido/partido-78)** — 19:00 h · Dieciseisavos · AT&T Stadium (Arlington) · 📺 🆓 La 1 (RTVE) y [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026).
+- **[Francia - Suecia](/2026/partido/partido-77)** — 23:00 h · Dieciseisavos · MetLife Stadium (East Rutherford) · 📺 🆓 La 1 (RTVE) y [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026).
 
 Todos los horarios están convertidos a **hora peninsular española**. Puedes ver la jornada al completo, con resultados en directo, en la página de [partidos de hoy](/2026/partidos-hoy) y en el [calendario del Mundial](/2026/calendario).
 
 ## El partido destacado del día
 
-De todo el cartel, el **1º I · 3er - Por definir** es el duelo más llamativo de la jornada y el que más expectación levanta entre los aficionados. Sigue la clasificación y los grupos actualizados en [grupos y clasificación](/2026/grupos).
+De todo el cartel, el **Países Bajos - Marruecos** es el duelo más llamativo de la jornada y el que más expectación levanta entre los aficionados. Sigue la clasificación y los grupos actualizados en [grupos y clasificación](/2026/grupos).
 
 ## Qué partidos se ven hoy gratis en La 1 (RTVE)
 
-Hoy **RTVE no emite ningún partido en abierto**: todos los encuentros de la jornada son exclusiva de pago en DAZN.
+RTVE emite hoy en **abierto y gratis** en **La 1** (también en RTVE Play, gratis online):
+
+- **Países Bajos - Marruecos** — 03:00 h.
+- **Costa de Marfil - Noruega** — 19:00 h.
+- **Francia - Suecia** — 23:00 h.
 
 ## Qué partidos son solo de pago (DAZN / Movistar Plus+)
 
-El resto de partidos de hoy solo se pueden ver en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, disponible también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**:
-
-- **1º F · 2º C - Por definir** — 03:00 h.
-- **2º E · 2º I - Por definir** — 19:00 h.
-- **1º I · 3er - Por definir** — 23:00 h.
+Hoy **todos los partidos de la jornada se ven gratis en La 1**.
 
 RTVE emite **34 partidos gratis** en total del Mundial 2026: los 3 de España en la fase de grupos, un partido destacado por jornada y toda la fase eliminatoria desde dieciseisavos (incluida la final). Los **104 partidos** están en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**. Desglose completo de plataformas, precios y partidos en abierto en [dónde ver el Mundial 2026](/2026/donde-ver).`,
     category: 'tv',
@@ -401,30 +401,30 @@ RTVE emite **34 partidos gratis** en total del Mundial 2026: los 3 de España en
   {
     slug: 'partidos-mundial-2026-hoy-2026-06-29',
     title: "Partidos del Mundial 2026 hoy, Lunes 29 de junio: horarios (hora España) y dónde ver, gratis en La 1 o en DAZN",
-    summary: "Calendario de los 2 partidos del Mundial 2026 de hoy, lunes 29 de junio: horarios en hora española y dónde verlos. Hoy ningún partido en abierto en La 1: todos en DAZN / Movistar Plus+.",
-    body: `El Mundial 2026 vive hoy, lunes 29 de junio, una jornada de **2 partidos**. Te dejamos todos los horarios en hora española, las sedes y dónde seguirlos, con el foco puesto en el **1º E · 3er - Por definir**.
+    summary: "Calendario de los 2 partidos del Mundial 2026 de hoy, lunes 29 de junio: horarios en hora española y dónde verlos. Hoy en abierto y gratis en La 1: Brasil - Japón. El resto, en DAZN / Movistar Plus+.",
+    body: `El Mundial 2026 vive hoy, lunes 29 de junio, una jornada de **2 partidos**. Te dejamos todos los horarios en hora española, las sedes y dónde seguirlos, con el foco puesto en el **Brasil - Japón**.
 
 ## Partidos de hoy en el Mundial 2026 (hora de España)
 
-- **[1º C · 2º F - Por definir](/2026/partido/partido-76)** — 19:00 h · Dieciseisavos · NRG Stadium (Houston) · 📺 [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026) / [Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial).
-- **[1º E · 3er - Por definir](/2026/partido/partido-74)** — 21:30 h · Dieciseisavos · Gillette Stadium (Foxborough) · 📺 [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026) / [Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial).
+- **[Brasil - Japón](/2026/partido/partido-76)** — 19:00 h · Dieciseisavos · NRG Stadium (Houston) · 📺 🆓 La 1 (RTVE) y [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026).
+- **[Alemania - Paraguay](/2026/partido/partido-74)** — 21:30 h · Dieciseisavos · Gillette Stadium (Foxborough) · 📺 🆓 La 1 (RTVE) y [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026).
 
 Todos los horarios están convertidos a **hora peninsular española**. Puedes ver la jornada al completo, con resultados en directo, en la página de [partidos de hoy](/2026/partidos-hoy) y en el [calendario del Mundial](/2026/calendario).
 
 ## El partido destacado del día
 
-De todo el cartel, el **1º E · 3er - Por definir** es el duelo más llamativo de la jornada y el que más expectación levanta entre los aficionados. Sigue la clasificación y los grupos actualizados en [grupos y clasificación](/2026/grupos).
+De todo el cartel, el **Brasil - Japón** es el duelo más llamativo de la jornada y el que más expectación levanta entre los aficionados. Sigue la clasificación y los grupos actualizados en [grupos y clasificación](/2026/grupos).
 
 ## Qué partidos se ven hoy gratis en La 1 (RTVE)
 
-Hoy **RTVE no emite ningún partido en abierto**: todos los encuentros de la jornada son exclusiva de pago en DAZN.
+RTVE emite hoy en **abierto y gratis** en **La 1** (también en RTVE Play, gratis online):
+
+- **Brasil - Japón** — 19:00 h.
+- **Alemania - Paraguay** — 21:30 h.
 
 ## Qué partidos son solo de pago (DAZN / Movistar Plus+)
 
-El resto de partidos de hoy solo se pueden ver en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, disponible también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**:
-
-- **1º C · 2º F - Por definir** — 19:00 h.
-- **1º E · 3er - Por definir** — 21:30 h.
+Hoy **todos los partidos de la jornada se ven gratis en La 1**.
 
 RTVE emite **34 partidos gratis** en total del Mundial 2026: los 3 de España en la fase de grupos, un partido destacado por jornada y toda la fase eliminatoria desde dieciseisavos (incluida la final). Los **104 partidos** están en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**. Desglose completo de plataformas, precios y partidos en abierto en [dónde ver el Mundial 2026](/2026/donde-ver).`,
     category: 'tv',
@@ -445,7 +445,7 @@ RTVE emite **34 partidos gratis** en total del Mundial 2026: los 3 de España en
 - **[RD del Congo - Uzbekistán](/2026/partido/rd-del-congo-uzbekistan)** — 01:30 h · Grupo K · Mercedes-Benz Stadium (Atlanta) · 📺 [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026) / [Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial).
 - **[Argelia - Austria](/2026/partido/argelia-austria)** — 04:00 h · Grupo J · Arrowhead Stadium (Kansas City) · 📺 [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026) / [Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial).
 - **[Jordania - Argentina](/2026/partido/jordania-argentina)** — 04:00 h · Grupo J · AT&T Stadium (Arlington) · 📺 [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026) / [Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial).
-- **[2º A · 2º B - Por definir](/2026/partido/partido-73)** — 21:00 h · Dieciseisavos · SoFi Stadium (Inglewood) · 📺 [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026) / [Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial).
+- **[Sudáfrica - Canadá](/2026/partido/partido-73)** — 21:00 h · Dieciseisavos · SoFi Stadium (Inglewood) · 📺 🆓 La 1 (RTVE) y [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026).
 
 Todos los horarios están convertidos a **hora peninsular española**. Puedes ver la jornada al completo, con resultados en directo, en la página de [partidos de hoy](/2026/partidos-hoy) y en el [calendario del Mundial](/2026/calendario).
 
@@ -458,6 +458,7 @@ De todo el cartel, el **Colombia - Portugal** es el duelo más llamativo de la j
 RTVE emite hoy en **abierto y gratis** en **La 1** (también en RTVE Play, gratis online):
 
 - **Colombia - Portugal** — 01:30 h.
+- **Sudáfrica - Canadá** — 21:00 h.
 
 ## Qué partidos son solo de pago (DAZN / Movistar Plus+)
 
@@ -466,7 +467,6 @@ El resto de partidos de hoy solo se pueden ver en **[DAZN](https://www.awin1.com
 - **RD del Congo - Uzbekistán** — 01:30 h.
 - **Argelia - Austria** — 04:00 h.
 - **Jordania - Argentina** — 04:00 h.
-- **2º A · 2º B - Por definir** — 21:00 h.
 
 RTVE emite **34 partidos gratis** en total del Mundial 2026: los 3 de España en la fase de grupos, un partido destacado por jornada y toda la fase eliminatoria desde dieciseisavos (incluida la final). Los **104 partidos** están en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**. Desglose completo de plataformas, precios y partidos en abierto en [dónde ver el Mundial 2026](/2026/donde-ver).`,
     category: 'tv',

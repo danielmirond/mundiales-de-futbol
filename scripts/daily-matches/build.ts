@@ -18,8 +18,12 @@ import { readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { FIXTURES_2026, TEAMS_2026, VENUES_2026, STAGE_LABEL, matchSlug } from '../../src/lib/wc-2026';
 import { fixtureToUTC } from '../../src/lib/wc-2026-fixture-utc';
+import { resolveKnockout } from '../../src/lib/wc-2026-knockout';
 
 const DRY = process.argv.includes('--dry') || !!process.env.DAILY_DRY;
+// --refresh: si el artículo del día ya existe, lo REGENERA (en vez de saltarlo).
+// Útil para actualizar los avances de eliminatorias con los equipos ya conocidos.
+const REFRESH = process.argv.includes('--refresh') || !!process.env.DAILY_REFRESH;
 const NEWS_PATH = join(process.cwd(), 'src/lib/news.ts');
 const MADRID = 'Europe/Madrid';
 
@@ -42,6 +46,10 @@ const venueLabel = (slug: string) => {
 };
 const stageLabel = (stage: string) =>
   stage.length === 1 ? `Grupo ${stage}` : (STAGE_LABEL[stage] ?? stage);
+// Slug canónico de la ficha: equipos en grupos, `partido-N` en eliminatorias
+// (aunque hayamos resuelto los equipos, la URL de KO sigue siendo partido-N).
+const linkSlug = (f: (typeof FIXTURES_2026)[number]) =>
+  f.stage.length === 1 ? matchSlug(f) : `partido-${f.n}`;
 
 // Selecciones "ancla" para destacar el partido del día.
 const MARQUEE = ['ESP', 'BRA', 'ARG', 'FRA', 'ENG', 'GER', 'POR', 'NED', 'MEX', 'ITA', 'BEL', 'URU'];
@@ -53,7 +61,10 @@ const MARQUEE = ['ESP', 'BRA', 'ARG', 'FRA', 'ENG', 'GER', 'POR', 'NED', 'MEX', 
 //  26 SUI-BIH · 29 USA-AUS · 33 NED-SWE · 37 ESP-KSA · 41 ARG-AUT · 46 ENG-GHA · 52 SCO-BRA
 //  56 ECU-GER · 64 URU-ESP · 69 COL-POR
 const RTVE_FREE_N = new Set([1, 3, 6, 9, 13, 17, 22, 26, 29, 33, 37, 41, 46, 52, 56, 64, 69]);
-const isRtveFree = (n: number) => RTVE_FREE_N.has(n);
+// RTVE emite en abierto: 17 partidos elegidos de la fase de grupos + TODA la
+// eliminatoria desde dieciseisavos (incluida la final).
+const isRtveFree = (f: (typeof FIXTURES_2026)[number]) =>
+  f.stage.length === 1 ? RTVE_FREE_N.has(f.n) : true;
 
 // Enlaces de afiliación (Awin) — mismos que en la guía /2026/donde-ver.
 const DAZN_URL = 'https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026';
@@ -64,9 +75,20 @@ const MOVISTAR_LINK = `[Movistar Plus+ vía DAZN](${MOVISTAR_URL})`;
 
 type Row = { f: (typeof FIXTURES_2026)[number]; ms: number };
 
-function todaysRows(todayKey: string): Row[] {
+/**
+ * En eliminatorias el fixture solo trae el texto del cuadro; resolvemos los
+ * equipos reales (ESPN) para que el avance del día muestre los enfrentamientos
+ * de verdad y no "Por definir".
+ */
+async function todaysRows(todayKey: string): Promise<Row[]> {
+  const ko = await resolveKnockout();
+  const withTeams = (f: (typeof FIXTURES_2026)[number]) => {
+    if (f.stage.length === 1 || (f.home && f.away)) return f;
+    const r = ko.get(f.n);
+    return r?.home && r?.away ? { ...f, home: r.home, away: r.away } : f;
+  };
   return FIXTURES_2026
-    .map((f) => ({ f, ms: new Date(fixtureToUTC(f)).getTime() }))
+    .map((f) => ({ f: withTeams(f), ms: new Date(fixtureToUTC(f)).getTime() }))
     .filter((r) => dateKeyFmt.format(r.ms) === todayKey)
     .sort((a, b) => a.ms - b.ms);
 }
@@ -80,7 +102,7 @@ function buildArticle(todayKey: string, rows: Row[]) {
   // Partido destacado: el que RTVE elige en abierto (es "el partido del día"); si hoy no hay
   // abierto, el primero con una selección ancla; en último caso, el de cierre (suele ser prime time).
   const marquee =
-    rows.find((r) => isRtveFree(r.f.n)) ??
+    rows.find((r) => isRtveFree(r.f)) ??
     rows.find((r) => MARQUEE.includes(r.f.home ?? '') || MARQUEE.includes(r.f.away ?? '')) ??
     rows[n - 1];
   const mHome = teamName(marquee.f.home, marquee.f.label);
@@ -104,15 +126,15 @@ function buildArticle(todayKey: string, rows: Row[]) {
       const home = teamName(r.f.home, r.f.label);
       const away = teamName(r.f.away);
       const venue = venueLabel(r.f.venue);
-      const link = `/2026/partido/${matchSlug(r.f)}`;
-      const tv = isRtveFree(r.f.n) ? `🆓 La 1 (RTVE) y ${DAZN_LINK}` : `${DAZN_LINK} / ${MOVISTAR_LINK}`;
+      const link = `/2026/partido/${linkSlug(r.f)}`;
+      const tv = isRtveFree(r.f) ? `🆓 La 1 (RTVE) y ${DAZN_LINK}` : `${DAZN_LINK} / ${MOVISTAR_LINK}`;
       return `- **[${home} - ${away}](${link})** — ${timeFmt.format(r.ms)} h · ${stageLabel(r.f.stage)}${venue ? ` · ${venue}` : ''} · 📺 ${tv}.`;
     })
     .join('\n');
 
   // Desglose abierto (La 1) vs pago (DAZN) para la jornada de hoy.
-  const freeRows = rows.filter((r) => isRtveFree(r.f.n));
-  const paidRows = rows.filter((r) => !isRtveFree(r.f.n));
+  const freeRows = rows.filter((r) => isRtveFree(r.f));
+  const paidRows = rows.filter((r) => !isRtveFree(r.f));
   const matchLine = (r: Row) =>
     `- **${teamName(r.f.home, r.f.label)} - ${teamName(r.f.away)}** — ${timeFmt.format(r.ms)} h.`;
 
@@ -200,13 +222,17 @@ function serialize(a: ReturnType<typeof buildArticle>): string {
   },\n`;
 }
 
-function main() {
+/** Regex del bloque NewsItem de un slug (formato serializado). */
+const blockRe = (slug: string) =>
+  new RegExp(`  \\{\\n    slug: '${slug}',[\\s\\S]*?\\n  \\},\\n`);
+
+async function main() {
   // "Hoy" en zona Madrid. (En el cron matinal coincide con el día natural español.)
   // Override opcional para previsualizar/rellenar otro día: DAILY_DATE=YYYY-MM-DD.
   const now = process.env.DAILY_DATE ? new Date(`${process.env.DAILY_DATE}T12:00:00Z`) : new Date();
   const todayKey = dateKeyFmt.format(now);
 
-  const rows = todaysRows(todayKey);
+  const rows = await todaysRows(todayKey);
   if (rows.length === 0) {
     console.log(`[daily-matches] No hay partidos el ${todayKey}. Sin artículo.`);
     return;
@@ -225,8 +251,18 @@ function main() {
   }
 
   const src = readFileSync(NEWS_PATH, 'utf8');
-  if (src.includes(`slug: '${article.slug}'`)) {
-    console.log('[daily-matches] El artículo del día ya existe. Nada que hacer.');
+  const exists = src.includes(`slug: '${article.slug}'`);
+
+  if (exists) {
+    if (!REFRESH) {
+      console.log('[daily-matches] El artículo del día ya existe. Nada que hacer (usa --refresh para regenerar).');
+      return;
+    }
+    // Reemplazo IN SITU (conserva la posición cronológica en el array).
+    const out = src.replace(blockRe(article.slug), serialize(article));
+    if (out === src) throw new Error(`No se pudo localizar el bloque del slug ${article.slug}`);
+    writeFileSync(NEWS_PATH, out, 'utf8');
+    console.log('[daily-matches] Artículo regenerado in situ en src/lib/news.ts ✓');
     return;
   }
 
