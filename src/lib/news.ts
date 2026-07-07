@@ -124,6 +124,43 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'partidos-mundial-2026-hoy-2026-07-07',
+    title: "Partidos del Mundial 2026 hoy, Martes 7 de julio: horarios (hora España) y dónde ver, gratis en La 1 o en DAZN",
+    summary: "Calendario de los 3 partidos del Mundial 2026 de hoy, martes 7 de julio: horarios en hora española y dónde verlos. Hoy en abierto y gratis en La 1: Estados Unidos - Bélgica. El resto, en DAZN / Movistar Plus+.",
+    body: `El Mundial 2026 vive hoy, martes 7 de julio, una jornada de **3 partidos**. Te dejamos todos los horarios en hora española, las sedes y dónde seguirlos, con el foco puesto en el **Estados Unidos - Bélgica**.
+
+## Partidos de hoy en el Mundial 2026 (hora de España)
+
+- **[Estados Unidos - Bélgica](/2026/partido/partido-94)** — 02:00 h · Octavos de final · Lumen Field (Seattle) · 📺 🆓 La 1 (RTVE) y [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026).
+- **[Argentina - Egipto](/2026/partido/partido-95)** — 18:00 h · Octavos de final · Mercedes-Benz Stadium (Atlanta) · 📺 🆓 La 1 (RTVE) y [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026).
+- **[Suiza - Colombia](/2026/partido/partido-96)** — 22:00 h · Octavos de final · BC Place (Vancouver) · 📺 🆓 La 1 (RTVE) y [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026).
+
+Todos los horarios están convertidos a **hora peninsular española**. Puedes ver la jornada al completo, con resultados en directo, en la página de [partidos de hoy](/2026/partidos-hoy) y en el [calendario del Mundial](/2026/calendario).
+
+## El partido destacado del día
+
+De todo el cartel, el **Estados Unidos - Bélgica** es el duelo más llamativo de la jornada y el que más expectación levanta entre los aficionados. Sigue la clasificación y los grupos actualizados en [grupos y clasificación](/2026/grupos).
+
+## Qué partidos se ven hoy gratis en La 1 (RTVE)
+
+RTVE emite hoy en **abierto y gratis** en **La 1** (también en RTVE Play, gratis online):
+
+- **Estados Unidos - Bélgica** — 02:00 h.
+- **Argentina - Egipto** — 18:00 h.
+- **Suiza - Colombia** — 22:00 h.
+
+## Qué partidos son solo de pago (DAZN / Movistar Plus+)
+
+Hoy **todos los partidos de la jornada se ven gratis en La 1**.
+
+RTVE emite **34 partidos gratis** en total del Mundial 2026: los 3 de España en la fase de grupos, un partido destacado por jornada y toda la fase eliminatoria desde dieciseisavos (incluida la final). Los **104 partidos** están en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**. Desglose completo de plataformas, precios y partidos en abierto en [dónde ver el Mundial 2026](/2026/donde-ver).`,
+    category: 'tv',
+    sourceName: "Mundiales de Fútbol",
+    sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
+    sourceLang: 'es',
+    publishedAt: '2026-07-07T06:30:00Z',
+  },
+  {
     slug: 'noruega-elimina-brasil-cuartos-mundial-2026',
     title: 'Noruega hace historia en el Mundial 2026: gana a Brasil y jugará sus primeros cuartos',
     summary:
