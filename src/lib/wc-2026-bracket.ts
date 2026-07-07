@@ -34,7 +34,8 @@ const R32: Record<number, [Slot, Slot]> = {
 };
 
 // Árbol: partido → sus dos partidos hijos (ganadores que lo alimentan).
-const TREE: Record<number, [number, number]> = {
+// Exportado como KO_TREE para construir el cuadro visual con equipos reales.
+export const TREE: Record<number, [number, number]> = {
   89: [74, 77], 90: [73, 75], 91: [76, 78], 92: [79, 80],
   93: [83, 84], 94: [81, 82], 95: [86, 88], 96: [85, 87],
   97: [89, 90], 98: [93, 94], 99: [91, 92], 100: [95, 96],

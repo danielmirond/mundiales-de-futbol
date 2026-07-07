@@ -6,6 +6,7 @@ import {
 } from '@/lib/wc-2026-knockout';
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl } from '@/lib/seo';
+import { RoundBracket } from '@/components/edition/round-bracket';
 
 const tName = (c: string) => TEAMS_2026[c]?.name ?? c;
 const tFlag = (c: string) => TEAMS_2026[c]?.flag ?? '🏳️';
@@ -183,6 +184,16 @@ export async function KnockoutRoundPage({ locale, roundKey }: { locale: Locale; 
         <h1 className="mt-3 text-4xl font-semibold tracking-tight sm:text-5xl">{meta.h1}</h1>
         <p className="mt-4 max-w-3xl text-lg text-[var(--color-fg-muted)]">{meta.intro}</p>
       </header>
+
+      {/* Cuadro visual: de esta ronda hasta la final */}
+      {roundKey !== 'FINAL' && (
+        <section>
+          <h2 className="text-sm font-semibold uppercase tracking-[0.2em] text-[var(--color-fg-muted)]">
+            El cuadro desde {meta.label.toLowerCase()}
+          </h2>
+          <RoundBracket locale={locale} fromRound={roundKey} />
+        </section>
+      )}
 
       {matches.length === 0 ? (
         <div className="mt-6 rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg-2)] p-8 text-sm text-[var(--color-fg-muted)]">
