@@ -26,7 +26,11 @@ const FAQ: { q: string; a: string }[] = [
   },
   {
     q: '¿Cuánto cuesta la camiseta de España 2026?',
-    a: 'La réplica de aficionado (versión Fan) se mueve entre 70 y 100 €, la versión auténtica de jugador (Player Version) entre 130 y 180 €, y la talla infantil entre 50 y 80 €. Cualquier camiseta por debajo de 35 € es casi con seguridad una falsificación.',
+    a: 'La versión auténtica (Authentic) cuesta 150 € en la tienda oficial de la RFEF; la réplica de aficionado se mueve entre 70 y 100 € y la talla infantil entre 50 y 80 €. La personalización con nombre y dorsal suele sumar unos 25 €. Cualquier camiseta por debajo de 35 € es casi con seguridad una falsificación.',
+  },
+  {
+    q: '¿De qué color es la camiseta de España en el Mundial 2026?',
+    a: 'La primera equipación es de rojo intenso con las mangas en azul marino, franjas rojo-amarillo-rojo en los hombros y finas rayas verticales amarillas, con la palabra "España" en el cuello. La segunda equipación es blanco roto —el tono de los libros antiguos— con detalles en rojo y amarillo y motivos florales inspirados en los manuscritos españoles.',
   },
   {
     q: '¿Dónde comprar la camiseta de España del Mundial 2026?',
@@ -45,7 +49,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     path: '/2026/camiseta-espana',
     title: 'Camiseta de España del Mundial 2026: dónde comprarla, versiones y tallas',
     description:
-      'Todo sobre la camiseta de España para el Mundial 2026: marca (Adidas), versiones (réplica y auténtica), precios, guía de tallas y cómo evitar falsificaciones. Dónde comprarla en España.',
+      'La camiseta de España para el Mundial 2026: primera equipación roja de Adidas y segunda en blanco roto. Versiones, precios (Authentic 150 €), guía de tallas y cómo evitar falsificaciones. Dónde comprarla en España.',
     keywords: [
       'camiseta españa mundial 2026',
       'camiseta de españa 2026',
@@ -117,10 +121,11 @@ export default async function CamisetaEspanaPage({ params }: { params: Promise<{
           {esp?.flag} Camiseta de España para el Mundial 2026
         </h1>
         <p className="mt-4 max-w-3xl text-lg text-[var(--color-fg-muted)]">
-          La primera equipación de España para el Mundial 2026 la fabrica <strong className="text-[var(--color-fg)]">Adidas</strong>,
-          su proveedor técnico ininterrumpido desde 1992, sobre el clásico rojo de <em>La Roja</em>. Aquí tienes
-          las versiones a la venta, precios orientativos, la guía de tallas y cómo asegurarte de que compras una
-          camiseta oficial y no una falsificación.
+          La camiseta de España para el Mundial 2026 la fabrica <strong className="text-[var(--color-fg)]">Adidas</strong>,
+          su proveedor técnico ininterrumpido desde 1992. La primera equipación es de{' '}
+          <strong className="text-[var(--color-fg)]">rojo intenso</strong> con mangas azul marino; la segunda,
+          en <strong className="text-[var(--color-fg)]">blanco roto</strong>. Aquí tienes el diseño, las versiones
+          a la venta, los precios, la guía de tallas y cómo asegurarte de que compras una camiseta oficial.
         </p>
         <div className="mt-6 flex flex-wrap items-center gap-3">
           <Buy>Ver la camiseta de España en Amazon</Buy>
@@ -131,9 +136,35 @@ export default async function CamisetaEspanaPage({ params }: { params: Promise<{
           )}
         </div>
         <p className="mt-3 text-xs text-[var(--color-fg-subtle)]">
-          El diseño definitivo se confirma en el lanzamiento oficial de Adidas; actualizamos esta página cuando se presente.
+          Adidas presentó la equipación oficialmente el 9 de noviembre de 2025.
         </p>
       </header>
+
+      {/* Diseño */}
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold tracking-tight">Cómo es la camiseta de España 2026</h2>
+        <div className="mt-4 grid gap-4 sm:grid-cols-2">
+          <article className="rounded-2xl border border-[var(--color-border)] bg-[var(--color-surface)] p-5">
+            <h3 className="text-lg font-semibold">Primera equipación</h3>
+            <p className="mt-2 text-sm text-[var(--color-fg-muted)]">
+              De <strong className="text-[var(--color-fg)]">rojo intenso</strong> con las mangas en{' '}
+              <strong className="text-[var(--color-fg)]">azul marino</strong>, franjas rojo-amarillo-rojo en los
+              hombros y finas rayas verticales amarillas. Lleva la palabra{' '}
+              <strong className="text-[var(--color-fg)]">«España»</strong> en el cuello, y pantalón y medias en
+              azul oscuro.
+            </p>
+          </article>
+          <article className="rounded-2xl border border-[var(--color-border)] bg-[var(--color-surface)] p-5">
+            <h3 className="text-lg font-semibold">Segunda equipación</h3>
+            <p className="mt-2 text-sm text-[var(--color-fg-muted)]">
+              En <strong className="text-[var(--color-fg)]">blanco roto</strong> —el tono que toman los libros
+              antiguos con el paso del tiempo— con detalles en rojo y amarillo y motivos florales inspirados en
+              los <strong className="text-[var(--color-fg)]">manuscritos españoles de los siglos XV y XVI</strong>.
+              Un guiño a la literatura que se convirtió en superventas nada más salir.
+            </p>
+          </article>
+        </div>
+      </section>
 
       {/* Versiones */}
       <section className="mt-10">
@@ -224,6 +255,28 @@ export default async function CamisetaEspanaPage({ params }: { params: Promise<{
             </div>
           ))}
         </dl>
+      </section>
+
+      {/* Fuentes */}
+      <section className="mt-12">
+        <h2 className="text-sm font-semibold uppercase tracking-[0.2em] text-[var(--color-fg-muted)]">Fuentes</h2>
+        <ul className="mt-3 space-y-1 text-sm text-[var(--color-fg-muted)]">
+          <li>
+            <a href="https://shop.rfef.es/products/camiseta-hombre-primera-equipacion-authentic" target="_blank" rel="nofollow noopener" className="hover:text-[var(--color-pitch)]">
+              Tienda oficial RFEF — precio y ficha de la 1ª equipación Authentic
+            </a>
+          </li>
+          <li>
+            <a href="https://www.footyheadlines.com/es/exclusiva-la-camiseta-local-de-espana-para-el-mundial-de-2026-sera-de-color-rojo-vivo.html" target="_blank" rel="nofollow noopener" className="hover:text-[var(--color-pitch)]">
+              Footy Headlines — diseño de la primera equipación
+            </a>
+          </li>
+          <li>
+            <a href="https://www.dazn.com/es-MX/news/f%C3%BAtbol/la-historia-tradicion-esconde-segunda-equipacion-espana-mundial-diseno-para-ir-una-comunion/1vivp6x0oxs2o1ad6fzczw9ksz" target="_blank" rel="nofollow noopener" className="hover:text-[var(--color-pitch)]">
+              DAZN — simbolismo de la segunda equipación
+            </a>
+          </li>
+        </ul>
       </section>
 
       {/* Enlaces internos */}
