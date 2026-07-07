@@ -1,9 +1,11 @@
 import Link from 'next/link';
 import { setRequestLocale } from 'next-intl/server';
 import { ArrowLeft, ArrowRight, ListTree, MapPin, CalendarDays } from 'lucide-react';
-import { WC2026Bracket } from '@/components/edition/wc2026-bracket';
+import { RoundBracket } from '@/components/edition/round-bracket';
 import { KnockoutCrosses } from '@/components/edition/knockout-crosses';
 import { KnockoutSurvival } from '@/components/edition/knockout-survival';
+import { resolveKnockoutFixture, koWinner } from '@/lib/wc-2026-knockout';
+import { TEAMS_2026 } from '@/lib/wc-2026';
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl, SEO } from '@/lib/seo';
 
@@ -219,6 +221,12 @@ export default async function CuadroPage({
 
   const pageUrl = localeUrl(locale, '/2026/cuadro');
 
+  // Tercer puesto (no está en el árbol del bracket): se muestra aparte.
+  const p3 = await resolveKnockoutFixture(103);
+  const p3Win = p3 && p3.state === 'post' ? koWinner(p3) : null;
+  const tName = (code?: string) => (code && TEAMS_2026[code]?.name) || '';
+  const tFlag = (code?: string) => (code && TEAMS_2026[code]?.flag) || '🏳️';
+
   return (
     <main className="mx-auto max-w-6xl px-4 py-12">
       <JsonLd
@@ -263,7 +271,40 @@ export default async function CuadroPage({
 
       <KnockoutCrosses locale={L} />
 
-      <WC2026Bracket />
+      <section className="mx-auto w-full max-w-[1400px] px-6 py-12 md:px-10">
+        <div className="font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-pitch)]">
+          El cuadro completo
+        </div>
+        <h2 className="mt-3 font-display text-fluid-h2 uppercase leading-none">
+          De dieciseisavos a la final
+        </h2>
+        <p className="mt-3 max-w-2xl text-sm leading-relaxed text-[var(--color-fg-muted)]">
+          El cuadro del Mundial 2026 con los equipos reales, sus marcadores y el ganador de cada cruce,
+          actualizado en directo hasta la final del 19 de julio en Nueva York/Nueva Jersey.
+        </p>
+        <RoundBracket locale={L} fromRound="R32" />
+
+        <div className="mt-6 flex flex-wrap items-center gap-3 rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg-2)] px-4 py-3 text-sm">
+          <span className="font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--color-fg-subtle)]">
+            🥉 Tercer puesto · 18 jul
+          </span>
+          {p3?.home && p3?.away ? (
+            <Link href={withLocale(L, '/2026/partido/partido-103')} className="inline-flex items-center gap-2 hover:text-[var(--color-pitch)]">
+              <span className={p3Win === 'home' ? 'font-semibold text-[var(--color-fg)]' : 'text-[var(--color-fg-muted)]'}>
+                {tFlag(p3.home)} {tName(p3.home)}
+              </span>
+              <span className="tab-num text-[var(--color-fg-subtle)]">
+                {p3.state !== 'pre' ? `${p3.homeScore ?? 0}-${p3.awayScore ?? 0}` : 'vs'}
+              </span>
+              <span className={p3Win === 'away' ? 'font-semibold text-[var(--color-fg)]' : 'text-[var(--color-fg-muted)]'}>
+                {tName(p3.away)} {tFlag(p3.away)}
+              </span>
+            </Link>
+          ) : (
+            <span className="text-[var(--color-fg-subtle)]">Perdedores de las semifinales</span>
+          )}
+        </div>
+      </section>
 
       <section className="mt-16 grid gap-8 sm:grid-cols-2">
         <article className="rounded-2xl border border-[var(--color-border)] bg-[var(--color-surface)] p-6">
