@@ -1,0 +1,1335 @@
+{
+  "generatedAt": "2026-07-07T10:06:31.716Z",
+  "date": "2026-07-07",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "hasta donde llego argentina en el mundial 2026",
+      "geo": "CO",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "“Firmo una final contra España”",
+          "url": "https://as.com/futbol/mundial/firmo-una-final-contra-espana-f202607-n/",
+          "source": "Diario AS"
+        },
+        {
+          "title": "Scaloni: \"Firmo una final Argentina-España, pero nos queda mucho a ambos\"",
+          "url": "https://www.marca.com/futbol/mundial/2026/07/07/scaloni-firmo-final-argentina-espana-queda.html",
+          "source": "MARCA"
+        },
+        {
+          "title": "15 frases de Scaloni en la previa de los octavos del Mundial: cómo está Messi, el ingreso de Paredes y qué le preocupa de Egipto",
+          "url": "https://www.infobae.com/deportes/2026/07/06/lionel-scaloni-habla-en-conferencia-de-prensa-en-vivo-el-analisis-antes-del-duelo-entre-argentina-y-egipto-por-el-mundial-2026/",
+          "source": "Infobae"
+        }
+      ]
+    },
+    {
+      "query": "hasta donde llego colombia en el mundial 2026",
+      "geo": "CO",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 20000,
+      "articles": [
+        {
+          "title": "Néstor Lorenzo: “El partido está planteado para noventa minutos”",
+          "url": "https://colombia.as.com/futbol/mundial/nestor-lorenzo-el-partido-esta-planteado-para-noventa-minutos-f202607-n/",
+          "source": "AS Colombia"
+        },
+        {
+          "title": "Noticias del Mundial 2026 hoy martes 7 de julio: la Selección Colombia se enfrenta a Suiza por un cupo en los cuartos de final",
+          "url": "https://www.eltiempo.com/deportes/futbol-internacional/noticias-del-mundial-2026-hoy-martes-7-de-julio-la-seleccion-colombia-se-enfrenta-a-suiza-por-un-cupo-en-los-cuartos-de-final-3569530",
+          "source": "ELTIEMPO.COM"
+        },
+        {
+          "title": "Néstor Lorenzo: «Todos estamos pensando en Suiza, creo que la gente está disfrutando cada momento del equipo y del Mundial",
+          "url": "https://fcf.com.co/2026/07/06/nestor-lorenzo-todos-estamos-pensando-en-suiza-creo-que-la-gente-esta-disfrutando-cada-momento-del-equipo-y-del-mundial/",
+          "source": "Federación Colombiana de Futbol"
+        }
+      ]
+    },
+    {
+      "query": "hasta donde llega egipto en el mundial 2026",
+      "geo": "CL",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "Cuándo juegan Argentina vs. Egipto por los octavos de final del Mundial 2026: equipo, fecha, hora y TV en vivo",
+          "url": "https://www.espn.cl/futbol/mundial/nota/_/id/16961965/argentina-vs-egipto-octavos-8vos-mundial-2026-equipo-fecha-hora-y-tv-en-vivo",
+          "source": "ESPN Chile"
+        },
+        {
+          "title": "Scaloni mueve fichas: los tres cambios y la probable formación para enfrentar a Egipto",
+          "url": "https://www.ole.com.ar/seleccion/seleccion-scaloni-egipto-formacion-mundial_0_jlzUrCsaRo.html",
+          "source": "Olé"
+        },
+        {
+          "title": "Argentina - Egipto: a qué hora es el partido del Mundial 2026, horario y cómo verlo por TV",
+          "url": "https://www.adnradio.cl/2026/07/06/argentina-egipto-a-que-hora-es-el-partido-del-mundial-2026-horario-y-como-verlo-por-tv/",
+          "source": "ADN Radio"
+        }
+      ]
+    },
+    {
+      "query": "colombia vs suiza",
+      "geo": "CL",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "Cuándo juegan Colombia vs. Suiza por los octavos de final del Mundial 2026: equipo, fecha, hora y TV en vivo",
+          "url": "https://www.espn.cl/futbol/mundial/nota/_/id/16632775/colombia-vs-suiza-octavos-de-final-8vos-mundial-2026-equipo-fecha-hora-tv-en-vivo",
+          "source": "ESPN Chile"
+        },
+        {
+          "title": "Suiza - Colombia: a qué hora es el partido del Mundial 2026, horario y cómo verlo por TV",
+          "url": "https://www.adnradio.cl/2026/07/06/suiza-colombia-a-que-hora-es-el-partido-del-mundial-2026-horario-y-como-verlo-por-tv/",
+          "source": "ADN Radio"
+        },
+        {
+          "title": "Una Colombia coral se ilusiona con tumbar a Suiza para coronar su mejor Mundial",
+          "url": "https://elpais.com/america-colombia/2026-07-07/una-colombia-coral-se-ilusiona-con-tumbar-a-suiza-para-coronar-su-mejor-mundial.html",
+          "source": "EL PAÍS"
+        }
+      ]
+    },
+    {
+      "query": "argentina vs egipto pronostico",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "¿Qué canales TV transmiten Argentina vs Egipto HOY y a qué hora empieza el partido por los octavos del Mundial 2026?",
+          "url": "https://elcomercio.pe/deporte-total/futbol-mundial/en-que-canales-transmiten-argentina-vs-egipto-en-vivo-gratis-hoy-horarios-y-donde-ver-partido-online-por-mundial-2026-con-lionel-messi-noticia/",
+          "source": "El Comercio Perú"
+        },
+        {
+          "title": "Scaloni dice que ningún favorito en el Mundial \"ha marcado una diferencia grandísima\"",
+          "url": "https://andina.pe/agencia/noticia-scaloni-dice-ningun-favorito-el-mundial-ha-marcado-una-diferencia-grandisima-1082515.aspx",
+          "source": "Agencia Andina"
+        },
+        {
+          "title": "Cuántas veces se enfrentaron Messi y Salah, los genios de Argentina y Egipto",
+          "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16967552/enfrentamientos-lionel-messi-mohamed-salah-argentina-vs-egipto",
+          "source": "ESPN Argentina"
+        }
+      ]
+    },
+    {
+      "query": "partidos de mañana",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Mundial 2026: Por qué no hay partidos este MIÉRCOLES 8 de junio",
+          "url": "https://www.t13.cl/noticia/mundial-2026/el-mundial-2026-pausa-por-hay-dias-sin-partidos-6-7-2026",
+          "source": "Teletrece"
+        },
+        {
+          "title": "Partidos de mañana, miércoles 8 de julio, en el Mundial 2026: ¿por qué no se juega?",
+          "url": "https://bolavip.com/mundial/partidos-de-manana-hoy-miercoles-8-de-julio-en-el-mundial-2026-por-que-no-se-juega",
+          "source": "Bolavip"
+        },
+        {
+          "title": "Mundial 2026: este es el primer día sin partidos tras 28 días consecutivos con juegos",
+          "url": "https://www.informador.mx/deportes/mundial-2026-este-es-el-primer-dia-sin-partidos-tras-28-dias-consecutivos-con-juegos-20260702-0147.html",
+          "source": "El Informador"
+        }
+      ]
+    },
+    {
+      "query": "francia vs marruecos",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Cuándo juegan Francia vs. Marruecos por los cuartos de final del Mundial 2026: equipo, fecha, hora y TV en vivo",
+          "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16962398/francia-vs-marruecos-cuartos-de-final-4tos-mundial-2026-equipo-fecha-hora-y-tv-en-vivo",
+          "source": "ESPN Argentina"
+        },
+        {
+          "title": "Francia - Marruecos: ¡Juega en los cuartos de final del Torneo de selecciones y gana con la Mundo Mania de Meridianbet!",
+          "url": "https://ovacion.pe/noticias/nota-promocional/francia-marruecos-juega-cuartos-final-del-torneo-selecciones-gana-mundo",
+          "source": "ovacion.pe"
+        },
+        {
+          "title": "Marruecos contra Francia, el fútbol vistoso del Mundial",
+          "url": "https://elpais.com/deportes/mundial-futbol/2026-07-05/marruecos-contra-francia-el-futbol-vistoso-del-mundial.html",
+          "source": "EL PAÍS"
+        }
+      ]
+    },
+    {
+      "query": "onana",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "VIDEO: Amadou Onana sufrió una lesión en la rodilla y encendió las alarmas en Bélgica",
+          "url": "https://elcomercio.pe/deporte-total/futbol-mundial/video-lesion-de-amadou-onana-en-el-estados-unidos-vs-belgica-por-mundial-2026-ultimas-noticia/",
+          "source": "El Comercio Perú"
+        },
+        {
+          "title": "Estados Unidos eliminado del Mundial 2026: cayó goleado 4-1 ante Bélgica en octavos de final",
+          "url": "https://elcomercio.pe/deporte-total/futbol-mundial/estados-unidos-vs-belgica-en-vivo-online-gratis-por-octavos-de-final-del-mundial-2026-lbposting-noticia/",
+          "source": "El Comercio Perú"
+        },
+        {
+          "title": "¿A qué hora juega y en qué canal transmiten Bélgica vs. Estados Unidos EN VIVO hoy, con Kevin De Bruyne, por 8vos del Mundial 2026?",
+          "url": "https://gestion.pe/mix/sports/a-que-hora-juega-y-en-que-canal-transmiten-belgica-vs-estados-unidos-en-vivo-hoy-con-kevin-de-bruyne-por-8vos-del-mundial-2026-horarios-y-canales-tv-nnda-nnrt-noticia/",
+          "source": "Gestión"
+        }
+      ]
+    },
+    {
+      "query": "nathan ngoy",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "États-Unis 1-4 Belgique, Coupe du monde : La Belgique rejoint l&apos;Espagne en quarts de finale",
+          "url": "https://www.lequipe.fr/Football/match-direct/coupe-du-monde/2026/etats-unis-belgique-live/687066",
+          "source": "L&apos;Équipe"
+        },
+        {
+          "title": "Coupe du monde 2026 - Pascale Van Damme présente en tribune aux côtés de Gianni Infantino lors de USA-Belgique",
+          "url": "https://starsporttv.be/fr/content/coupe-du-monde-2026-pascale-van-damme-presente-en-tribune-aux-cotes-de-gianni-infantino-lors-de-usa-belgique",
+          "source": "Starsporttv"
+        },
+        {
+          "title": "USA-BEL a de beaux yeux",
+          "url": "https://www.carton-rouge.ch/2026/07/07/usa-bel-a-de-beaux-yeux/",
+          "source": "Carton-Rouge.ch"
+        }
+      ]
+    },
+    {
+      "query": "colombia vs suiza",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "Fifa le ordenó dos cambios a Colombia para su partido ante Suiza: llegó la notificación oficial",
+          "url": "https://www.semana.com/deportes/articulo/fifa-le-ordeno-dos-cambios-a-colombia-para-su-partido-ante-suiza-llego-la-notificacion-oficial/202628/",
+          "source": "Revista Semana"
+        },
+        {
+          "title": "Colombia desafía a la gripe y a la ofensiva Suiza",
+          "url": "https://www.notimerica.com/mundial-brasil/noticia-colombia-desafia-gripe-ofensiva-suiza-20260706192030.html",
+          "source": "Notimérica"
+        },
+        {
+          "title": "Solo Inglaterra ha recorrido más kilómetros que la Selección Colombia en el Mundial 2026",
+          "url": "https://bolavip.com/mundial/solo-inglaterra-ha-recorrido-mas-kilometros-que-la-seleccion-colombia-en-el-mundial-2026",
+          "source": "Bolavip"
+        }
+      ]
+    },
+    {
+      "query": "balogun",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "‘A despicable woman’: Kylian Mbappé hits out at Paraguayan senator over racist attack",
+          "url": "https://www.theguardian.com/football/2026/jul/06/a-despicable-women-kylian-mbappe-hits-out-at-paraguayan-senator-over-racist-attack",
+          "source": "The Guardian"
+        },
+        {
+          "title": "World Cup 2026: Kylian Mbappe condemns racist posts from Paraguayan senator Celeste Amarilla",
+          "url": "https://www.bbc.com/sport/football/articles/ckg557wxrzro",
+          "source": "BBC"
+        },
+        {
+          "title": "Kylian Mbappe calls out ‘blatant racism’ of Paraguayan senator for ‘colonised Cameroonian’ remark - The Athletic",
+          "url": "https://www.nytimes.com/athletic/7426135/2026/07/06/kylian-mbappe-france-paraguay-racism-amarilla/",
+          "source": "The New York Times"
+        }
+      ]
+    },
+    {
+      "query": "estados unidos - bélgica",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 20000,
+      "articles": [
+        {
+          "title": "El día que Bélgica tuvo más hinchas que nunca",
+          "url": "https://ladiaria.com.uy/deporte/articulo/2026/7/el-dia-que-belgica-tuvo-mas-hinchas-que-nunca/",
+          "source": "la diaria"
+        },
+        {
+          "title": "Bélgica aplasta a Estados Unidos tras la polémica intervención de Trump con la FIFA",
+          "url": "https://elpais.com/us/2026-07-07/belgica-aplasta-a-estados-unidos-tras-la-polemica-intervencion-de-trump-con-la-fifa.html",
+          "source": "EL PAÍS"
+        },
+        {
+          "title": "El horror del Mundial 2026: golero de Estados Unidos salió a anticipar, le robaron la pelota y fue gol de Bélgica",
+          "url": "https://www.elpais.com.uy/ovacion/mundial/el-horror-del-mundial-2026-golero-de-estados-unidos-salio-a-anticipar-le-robaron-la-pelota-y-fue-gol-de-belgica",
+          "source": "EL PAÍS Uruguay"
+        }
+      ]
+    },
+    {
+      "query": "usa belgien",
+      "geo": "ES",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Fußball FIFA WM 2026: USA gegen Belgien - Liveticker - Achtelfinale - 2026 Kanada/Mexiko/USA",
+          "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/fifa-wm/ma10714022/usa_belgien/liveticker",
+          "source": "sportschau.de"
+        },
+        {
+          "title": "1-4: Courtois erreicht mit Belgien das WM-Viertelfinale",
+          "url": "https://www.realmadrid.com/de-DE/news/fussball/erste-mannshaft/latest-news/1-4-belgica-se-clasifica-para-cuartos-del-mundial-tras-vencer-a-estados-unidos-07-07-2026",
+          "source": "Real Madrid CF | Web Oficial"
+        },
+        {
+          "title": "FIFA WM 2026: Belgien beendet Heim-WM für USA",
+          "url": "https://sport.orf.at/stories/3159615",
+          "source": "sport.ORF.at"
+        }
+      ]
+    },
+    {
+      "query": "premier ministre",
+      "geo": "FR",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "Coupe du Monde 2026 : le Premier ministre britannique est aussi intervenu auprès de la FIFA",
+          "url": "https://www.footmercato.net/a5967366587629096956-coupe-du-monde-2026-le-premier-ministre-britannique-est-aussi-intervenu-aupres-de-la-fifa",
+          "source": "Foot Mercato"
+        },
+        {
+          "title": "Trump n’est pas le seul dirigeant à être intervenu dans un match du Mondial",
+          "url": "https://www.huffingtonpost.fr/sport/article/comme-donald-trump-keir-starmer-est-intervenu-dans-un-match-de-son-pays-a-la-coupe-du-monde_284858.html",
+          "source": "Le HuffPost"
+        },
+        {
+          "title": "Thomas Tuchel : « On a l&apos;impression d&apos;avoir remporté une finale » | Foot - Coupe du monde 2026",
+          "url": "https://www.lequipe.fr/Football/Video/Coupe-du-monde-2026-thomas-tuchel-on-a-l-impression-d-avoir-remporte-une-finale/20237013",
+          "source": "L&apos;Équipe"
+        }
+      ]
+    },
+    {
+      "query": "martínez",
+      "geo": "PT",
+      "language": "pt",
+      "source": "google-trends-daily",
+      "score": 5000,
+      "articles": [
+        {
+          "title": "World Cup 2026: Ronaldo&apos;s World Cup career ends in tears as &apos;pathetic&apos; Martinez departs",
+          "url": "https://www.bbc.com/sport/football/articles/c3vyyq1kg5go",
+          "source": "BBC"
+        },
+        {
+          "title": "Roberto Martinez steps down, says Portugal &apos;didn&apos;t fail&apos;",
+          "url": "https://www.espn.com/soccer/story/_/id/49290322/roberto-martinez-steps-says-portugal-fail",
+          "source": "ESPN"
+        },
+        {
+          "title": "Martinez steps down; Brazil backing for Ancelotti",
+          "url": "https://www.rte.ie/sport/world-cup-2026/2026/0706/1582087-martinez-steps-down-brazil-backing-for-ancelotti/",
+          "source": "RTE.ie"
+        }
+      ]
+    },
+    {
+      "query": "match belgique",
+      "geo": "MA",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "« On appelle ça football » : la Belgique trolle les États-Unis sur les réseaux sociaux après sa large victoire en huitièmes de finale de la Coupe du monde",
+          "url": "https://www.lequipe.fr/Football/Actualites/-on-appelle-ca-football-la-belgique-trolle-les-etats-unis-sur-les-reseaux-sociaux-apres-sa-large-victoire-en-huitiemes-de-finale-de-la-coupe-du-monde/1702179",
+          "source": "L&apos;Équipe"
+        },
+        {
+          "title": "Coupe du monde 2026 : affaire Balogun, attitude du Paraguay, Maroc, racisme envers Mbappé … Les réponses de Guy Stéphan",
+          "url": "https://www.lefigaro.fr/sports/football/coupe-du-monde/coupe-du-monde-2026-affaire-balogun-attitude-du-paraguay-maroc-racisme-envers-mbappe-les-reponses-de-guy-stephan-20260706",
+          "source": "Le Figaro"
+        },
+        {
+          "title": "Coupe du Monde 2026 : la colère noire d’une autre fédération internationale dans l’affaire Balogun",
+          "url": "https://www.footmercato.net/a630146928772796706-coupe-du-monde-2026-la-colere-noire-dune-autre-federation-internationale-dans-laffaire-balogun",
+          "source": "Foot Mercato"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "es": [
+      {
+        "query": "hasta donde llego colombia en el mundial 2026",
+        "score": 20000,
+        "geos": [
+          "CO"
+        ],
+        "samples": [
+          {
+            "query": "hasta donde llego colombia en el mundial 2026",
+            "geo": "CO",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 20000,
+            "articles": [
+              {
+                "title": "Néstor Lorenzo: “El partido está planteado para noventa minutos”",
+                "url": "https://colombia.as.com/futbol/mundial/nestor-lorenzo-el-partido-esta-planteado-para-noventa-minutos-f202607-n/",
+                "source": "AS Colombia"
+              },
+              {
+                "title": "Noticias del Mundial 2026 hoy martes 7 de julio: la Selección Colombia se enfrenta a Suiza por un cupo en los cuartos de final",
+                "url": "https://www.eltiempo.com/deportes/futbol-internacional/noticias-del-mundial-2026-hoy-martes-7-de-julio-la-seleccion-colombia-se-enfrenta-a-suiza-por-un-cupo-en-los-cuartos-de-final-3569530",
+                "source": "ELTIEMPO.COM"
+              },
+              {
+                "title": "Néstor Lorenzo: «Todos estamos pensando en Suiza, creo que la gente está disfrutando cada momento del equipo y del Mundial",
+                "url": "https://fcf.com.co/2026/07/06/nestor-lorenzo-todos-estamos-pensando-en-suiza-creo-que-la-gente-esta-disfrutando-cada-momento-del-equipo-y-del-mundial/",
+                "source": "Federación Colombiana de Futbol"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "estados unidos - bélgica",
+        "score": 18000,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "estados unidos - bélgica",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 20000,
+            "articles": [
+              {
+                "title": "El día que Bélgica tuvo más hinchas que nunca",
+                "url": "https://ladiaria.com.uy/deporte/articulo/2026/7/el-dia-que-belgica-tuvo-mas-hinchas-que-nunca/",
+                "source": "la diaria"
+              },
+              {
+                "title": "Bélgica aplasta a Estados Unidos tras la polémica intervención de Trump con la FIFA",
+                "url": "https://elpais.com/us/2026-07-07/belgica-aplasta-a-estados-unidos-tras-la-polemica-intervencion-de-trump-con-la-fifa.html",
+                "source": "EL PAÍS"
+              },
+              {
+                "title": "El horror del Mundial 2026: golero de Estados Unidos salió a anticipar, le robaron la pelota y fue gol de Bélgica",
+                "url": "https://www.elpais.com.uy/ovacion/mundial/el-horror-del-mundial-2026-golero-de-estados-unidos-salio-a-anticipar-le-robaron-la-pelota-y-fue-gol-de-belgica",
+                "source": "EL PAÍS Uruguay"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "colombia vs suiza",
+        "score": 2500,
+        "geos": [
+          "CL",
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "colombia vs suiza",
+            "geo": "CL",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "Cuándo juegan Colombia vs. Suiza por los octavos de final del Mundial 2026: equipo, fecha, hora y TV en vivo",
+                "url": "https://www.espn.cl/futbol/mundial/nota/_/id/16632775/colombia-vs-suiza-octavos-de-final-8vos-mundial-2026-equipo-fecha-hora-tv-en-vivo",
+                "source": "ESPN Chile"
+              },
+              {
+                "title": "Suiza - Colombia: a qué hora es el partido del Mundial 2026, horario y cómo verlo por TV",
+                "url": "https://www.adnradio.cl/2026/07/06/suiza-colombia-a-que-hora-es-el-partido-del-mundial-2026-horario-y-como-verlo-por-tv/",
+                "source": "ADN Radio"
+              },
+              {
+                "title": "Una Colombia coral se ilusiona con tumbar a Suiza para coronar su mejor Mundial",
+                "url": "https://elpais.com/america-colombia/2026-07-07/una-colombia-coral-se-ilusiona-con-tumbar-a-suiza-para-coronar-su-mejor-mundial.html",
+                "source": "EL PAÍS"
+              }
+            ]
+          },
+          {
+            "query": "colombia vs suiza",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "Fifa le ordenó dos cambios a Colombia para su partido ante Suiza: llegó la notificación oficial",
+                "url": "https://www.semana.com/deportes/articulo/fifa-le-ordeno-dos-cambios-a-colombia-para-su-partido-ante-suiza-llego-la-notificacion-oficial/202628/",
+                "source": "Revista Semana"
+              },
+              {
+                "title": "Colombia desafía a la gripe y a la ofensiva Suiza",
+                "url": "https://www.notimerica.com/mundial-brasil/noticia-colombia-desafia-gripe-ofensiva-suiza-20260706192030.html",
+                "source": "Notimérica"
+              },
+              {
+                "title": "Solo Inglaterra ha recorrido más kilómetros que la Selección Colombia en el Mundial 2026",
+                "url": "https://bolavip.com/mundial/solo-inglaterra-ha-recorrido-mas-kilometros-que-la-seleccion-colombia-en-el-mundial-2026",
+                "source": "Bolavip"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "onana",
+        "score": 1800,
+        "geos": [
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "onana",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "VIDEO: Amadou Onana sufrió una lesión en la rodilla y encendió las alarmas en Bélgica",
+                "url": "https://elcomercio.pe/deporte-total/futbol-mundial/video-lesion-de-amadou-onana-en-el-estados-unidos-vs-belgica-por-mundial-2026-ultimas-noticia/",
+                "source": "El Comercio Perú"
+              },
+              {
+                "title": "Estados Unidos eliminado del Mundial 2026: cayó goleado 4-1 ante Bélgica en octavos de final",
+                "url": "https://elcomercio.pe/deporte-total/futbol-mundial/estados-unidos-vs-belgica-en-vivo-online-gratis-por-octavos-de-final-del-mundial-2026-lbposting-noticia/",
+                "source": "El Comercio Perú"
+              },
+              {
+                "title": "¿A qué hora juega y en qué canal transmiten Bélgica vs. Estados Unidos EN VIVO hoy, con Kevin De Bruyne, por 8vos del Mundial 2026?",
+                "url": "https://gestion.pe/mix/sports/a-que-hora-juega-y-en-que-canal-transmiten-belgica-vs-estados-unidos-en-vivo-hoy-con-kevin-de-bruyne-por-8vos-del-mundial-2026-horarios-y-canales-tv-nnda-nnrt-noticia/",
+                "source": "Gestión"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "hasta donde llega egipto en el mundial 2026",
+        "score": 900,
+        "geos": [
+          "CL"
+        ],
+        "samples": [
+          {
+            "query": "hasta donde llega egipto en el mundial 2026",
+            "geo": "CL",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "Cuándo juegan Argentina vs. Egipto por los octavos de final del Mundial 2026: equipo, fecha, hora y TV en vivo",
+                "url": "https://www.espn.cl/futbol/mundial/nota/_/id/16961965/argentina-vs-egipto-octavos-8vos-mundial-2026-equipo-fecha-hora-y-tv-en-vivo",
+                "source": "ESPN Chile"
+              },
+              {
+                "title": "Scaloni mueve fichas: los tres cambios y la probable formación para enfrentar a Egipto",
+                "url": "https://www.ole.com.ar/seleccion/seleccion-scaloni-egipto-formacion-mundial_0_jlzUrCsaRo.html",
+                "source": "Olé"
+              },
+              {
+                "title": "Argentina - Egipto: a qué hora es el partido del Mundial 2026, horario y cómo verlo por TV",
+                "url": "https://www.adnradio.cl/2026/07/06/argentina-egipto-a-que-hora-es-el-partido-del-mundial-2026-horario-y-como-verlo-por-tv/",
+                "source": "ADN Radio"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "argentina vs egipto pronostico",
+        "score": 900,
+        "geos": [
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "argentina vs egipto pronostico",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "¿Qué canales TV transmiten Argentina vs Egipto HOY y a qué hora empieza el partido por los octavos del Mundial 2026?",
+                "url": "https://elcomercio.pe/deporte-total/futbol-mundial/en-que-canales-transmiten-argentina-vs-egipto-en-vivo-gratis-hoy-horarios-y-donde-ver-partido-online-por-mundial-2026-con-lionel-messi-noticia/",
+                "source": "El Comercio Perú"
+              },
+              {
+                "title": "Scaloni dice que ningún favorito en el Mundial \"ha marcado una diferencia grandísima\"",
+                "url": "https://andina.pe/agencia/noticia-scaloni-dice-ningun-favorito-el-mundial-ha-marcado-una-diferencia-grandisima-1082515.aspx",
+                "source": "Agencia Andina"
+              },
+              {
+                "title": "Cuántas veces se enfrentaron Messi y Salah, los genios de Argentina y Egipto",
+                "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16967552/enfrentamientos-lionel-messi-mohamed-salah-argentina-vs-egipto",
+                "source": "ESPN Argentina"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "hasta donde llego argentina en el mundial 2026",
+        "score": 500,
+        "geos": [
+          "CO"
+        ],
+        "samples": [
+          {
+            "query": "hasta donde llego argentina en el mundial 2026",
+            "geo": "CO",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "“Firmo una final contra España”",
+                "url": "https://as.com/futbol/mundial/firmo-una-final-contra-espana-f202607-n/",
+                "source": "Diario AS"
+              },
+              {
+                "title": "Scaloni: \"Firmo una final Argentina-España, pero nos queda mucho a ambos\"",
+                "url": "https://www.marca.com/futbol/mundial/2026/07/07/scaloni-firmo-final-argentina-espana-queda.html",
+                "source": "MARCA"
+              },
+              {
+                "title": "15 frases de Scaloni en la previa de los octavos del Mundial: cómo está Messi, el ingreso de Paredes y qué le preocupa de Egipto",
+                "url": "https://www.infobae.com/deportes/2026/07/06/lionel-scaloni-habla-en-conferencia-de-prensa-en-vivo-el-analisis-antes-del-duelo-entre-argentina-y-egipto-por-el-mundial-2026/",
+                "source": "Infobae"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "partidos de mañana",
+        "score": 450,
+        "geos": [
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "partidos de mañana",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Mundial 2026: Por qué no hay partidos este MIÉRCOLES 8 de junio",
+                "url": "https://www.t13.cl/noticia/mundial-2026/el-mundial-2026-pausa-por-hay-dias-sin-partidos-6-7-2026",
+                "source": "Teletrece"
+              },
+              {
+                "title": "Partidos de mañana, miércoles 8 de julio, en el Mundial 2026: ¿por qué no se juega?",
+                "url": "https://bolavip.com/mundial/partidos-de-manana-hoy-miercoles-8-de-julio-en-el-mundial-2026-por-que-no-se-juega",
+                "source": "Bolavip"
+              },
+              {
+                "title": "Mundial 2026: este es el primer día sin partidos tras 28 días consecutivos con juegos",
+                "url": "https://www.informador.mx/deportes/mundial-2026-este-es-el-primer-dia-sin-partidos-tras-28-dias-consecutivos-con-juegos-20260702-0147.html",
+                "source": "El Informador"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "francia vs marruecos",
+        "score": 180,
+        "geos": [
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "francia vs marruecos",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Cuándo juegan Francia vs. Marruecos por los cuartos de final del Mundial 2026: equipo, fecha, hora y TV en vivo",
+                "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16962398/francia-vs-marruecos-cuartos-de-final-4tos-mundial-2026-equipo-fecha-hora-y-tv-en-vivo",
+                "source": "ESPN Argentina"
+              },
+              {
+                "title": "Francia - Marruecos: ¡Juega en los cuartos de final del Torneo de selecciones y gana con la Mundo Mania de Meridianbet!",
+                "url": "https://ovacion.pe/noticias/nota-promocional/francia-marruecos-juega-cuartos-final-del-torneo-selecciones-gana-mundo",
+                "source": "ovacion.pe"
+              },
+              {
+                "title": "Marruecos contra Francia, el fútbol vistoso del Mundial",
+                "url": "https://elpais.com/deportes/mundial-futbol/2026-07-05/marruecos-contra-francia-el-futbol-vistoso-del-mundial.html",
+                "source": "EL PAÍS"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "balogun",
+        "score": 160,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "balogun",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "‘A despicable woman’: Kylian Mbappé hits out at Paraguayan senator over racist attack",
+                "url": "https://www.theguardian.com/football/2026/jul/06/a-despicable-women-kylian-mbappe-hits-out-at-paraguayan-senator-over-racist-attack",
+                "source": "The Guardian"
+              },
+              {
+                "title": "World Cup 2026: Kylian Mbappe condemns racist posts from Paraguayan senator Celeste Amarilla",
+                "url": "https://www.bbc.com/sport/football/articles/ckg557wxrzro",
+                "source": "BBC"
+              },
+              {
+                "title": "Kylian Mbappe calls out ‘blatant racism’ of Paraguayan senator for ‘colonised Cameroonian’ remark - The Athletic",
+                "url": "https://www.nytimes.com/athletic/7426135/2026/07/06/kylian-mbappe-france-paraguay-racism-amarilla/",
+                "source": "The New York Times"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "usa belgien",
+        "score": 150,
+        "geos": [
+          "ES"
+        ],
+        "samples": [
+          {
+            "query": "usa belgien",
+            "geo": "ES",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Fußball FIFA WM 2026: USA gegen Belgien - Liveticker - Achtelfinale - 2026 Kanada/Mexiko/USA",
+                "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/fifa-wm/ma10714022/usa_belgien/liveticker",
+                "source": "sportschau.de"
+              },
+              {
+                "title": "1-4: Courtois erreicht mit Belgien das WM-Viertelfinale",
+                "url": "https://www.realmadrid.com/de-DE/news/fussball/erste-mannshaft/latest-news/1-4-belgica-se-clasifica-para-cuartos-del-mundial-tras-vencer-a-estados-unidos-07-07-2026",
+                "source": "Real Madrid CF | Web Oficial"
+              },
+              {
+                "title": "FIFA WM 2026: Belgien beendet Heim-WM für USA",
+                "url": "https://sport.orf.at/stories/3159615",
+                "source": "sport.ORF.at"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "nathan ngoy",
+        "score": 90,
+        "geos": [
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "nathan ngoy",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "États-Unis 1-4 Belgique, Coupe du monde : La Belgique rejoint l&apos;Espagne en quarts de finale",
+                "url": "https://www.lequipe.fr/Football/match-direct/coupe-du-monde/2026/etats-unis-belgique-live/687066",
+                "source": "L&apos;Équipe"
+              },
+              {
+                "title": "Coupe du monde 2026 - Pascale Van Damme présente en tribune aux côtés de Gianni Infantino lors de USA-Belgique",
+                "url": "https://starsporttv.be/fr/content/coupe-du-monde-2026-pascale-van-damme-presente-en-tribune-aux-cotes-de-gianni-infantino-lors-de-usa-belgique",
+                "source": "Starsporttv"
+              },
+              {
+                "title": "USA-BEL a de beaux yeux",
+                "url": "https://www.carton-rouge.ch/2026/07/07/usa-bel-a-de-beaux-yeux/",
+                "source": "Carton-Rouge.ch"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "fr": [
+      {
+        "query": "premier ministre",
+        "score": 1000,
+        "geos": [
+          "FR"
+        ],
+        "samples": [
+          {
+            "query": "premier ministre",
+            "geo": "FR",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "Coupe du Monde 2026 : le Premier ministre britannique est aussi intervenu auprès de la FIFA",
+                "url": "https://www.footmercato.net/a5967366587629096956-coupe-du-monde-2026-le-premier-ministre-britannique-est-aussi-intervenu-aupres-de-la-fifa",
+                "source": "Foot Mercato"
+              },
+              {
+                "title": "Trump n’est pas le seul dirigeant à être intervenu dans un match du Mondial",
+                "url": "https://www.huffingtonpost.fr/sport/article/comme-donald-trump-keir-starmer-est-intervenu-dans-un-match-de-son-pays-a-la-coupe-du-monde_284858.html",
+                "source": "Le HuffPost"
+              },
+              {
+                "title": "Thomas Tuchel : « On a l&apos;impression d&apos;avoir remporté une finale » | Foot - Coupe du monde 2026",
+                "url": "https://www.lequipe.fr/Football/Video/Coupe-du-monde-2026-thomas-tuchel-on-a-l-impression-d-avoir-remporte-une-finale/20237013",
+                "source": "L&apos;Équipe"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "match belgique",
+        "score": 450,
+        "geos": [
+          "MA"
+        ],
+        "samples": [
+          {
+            "query": "match belgique",
+            "geo": "MA",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "« On appelle ça football » : la Belgique trolle les États-Unis sur les réseaux sociaux après sa large victoire en huitièmes de finale de la Coupe du monde",
+                "url": "https://www.lequipe.fr/Football/Actualites/-on-appelle-ca-football-la-belgique-trolle-les-etats-unis-sur-les-reseaux-sociaux-apres-sa-large-victoire-en-huitiemes-de-finale-de-la-coupe-du-monde/1702179",
+                "source": "L&apos;Équipe"
+              },
+              {
+                "title": "Coupe du monde 2026 : affaire Balogun, attitude du Paraguay, Maroc, racisme envers Mbappé … Les réponses de Guy Stéphan",
+                "url": "https://www.lefigaro.fr/sports/football/coupe-du-monde/coupe-du-monde-2026-affaire-balogun-attitude-du-paraguay-maroc-racisme-envers-mbappe-les-reponses-de-guy-stephan-20260706",
+                "source": "Le Figaro"
+              },
+              {
+                "title": "Coupe du Monde 2026 : la colère noire d’une autre fédération internationale dans l’affaire Balogun",
+                "url": "https://www.footmercato.net/a630146928772796706-coupe-du-monde-2026-la-colere-noire-dune-autre-federation-internationale-dans-laffaire-balogun",
+                "source": "Foot Mercato"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "pt": [
+      {
+        "query": "martínez",
+        "score": 5000,
+        "geos": [
+          "PT"
+        ],
+        "samples": [
+          {
+            "query": "martínez",
+            "geo": "PT",
+            "language": "pt",
+            "source": "google-trends-daily",
+            "score": 5000,
+            "articles": [
+              {
+                "title": "World Cup 2026: Ronaldo&apos;s World Cup career ends in tears as &apos;pathetic&apos; Martinez departs",
+                "url": "https://www.bbc.com/sport/football/articles/c3vyyq1kg5go",
+                "source": "BBC"
+              },
+              {
+                "title": "Roberto Martinez steps down, says Portugal &apos;didn&apos;t fail&apos;",
+                "url": "https://www.espn.com/soccer/story/_/id/49290322/roberto-martinez-steps-says-portugal-fail",
+                "source": "ESPN"
+              },
+              {
+                "title": "Martinez steps down; Brazil backing for Ancelotti",
+                "url": "https://www.rte.ie/sport/world-cup-2026/2026/0706/1582087-martinez-steps-down-brazil-backing-for-ancelotti/",
+                "source": "RTE.ie"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "topic": "colombia vs suiza",
+      "type": "noticia",
+      "slugSuggestion": "colombia-vs-suiza",
+      "language": "es",
+      "geos": [
+        "CL",
+        "EC"
+      ],
+      "score": 3000,
+      "reason": "Google Trends daily CL con 1,000 búsquedas · 3 artículos noticiosos referenciando \"colombia vs suiza\"",
+      "proposedPath": "/noticias/colombia-vs-suiza",
+      "evidence": [
+        {
+          "query": "colombia vs suiza",
+          "geo": "CL",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 1000,
+          "articles": [
+            {
+              "title": "Cuándo juegan Colombia vs. Suiza por los octavos de final del Mundial 2026: equipo, fecha, hora y TV en vivo",
+              "url": "https://www.espn.cl/futbol/mundial/nota/_/id/16632775/colombia-vs-suiza-octavos-de-final-8vos-mundial-2026-equipo-fecha-hora-tv-en-vivo",
+              "source": "ESPN Chile"
+            },
+            {
+              "title": "Suiza - Colombia: a qué hora es el partido del Mundial 2026, horario y cómo verlo por TV",
+              "url": "https://www.adnradio.cl/2026/07/06/suiza-colombia-a-que-hora-es-el-partido-del-mundial-2026-horario-y-como-verlo-por-tv/",
+              "source": "ADN Radio"
+            },
+            {
+              "title": "Una Colombia coral se ilusiona con tumbar a Suiza para coronar su mejor Mundial",
+              "url": "https://elpais.com/america-colombia/2026-07-07/una-colombia-coral-se-ilusiona-con-tumbar-a-suiza-para-coronar-su-mejor-mundial.html",
+              "source": "EL PAÍS"
+            }
+          ]
+        },
+        {
+          "query": "colombia vs suiza",
+          "geo": "EC",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 2000,
+          "articles": [
+            {
+              "title": "Fifa le ordenó dos cambios a Colombia para su partido ante Suiza: llegó la notificación oficial",
+              "url": "https://www.semana.com/deportes/articulo/fifa-le-ordeno-dos-cambios-a-colombia-para-su-partido-ante-suiza-llego-la-notificacion-oficial/202628/",
+              "source": "Revista Semana"
+            },
+            {
+              "title": "Colombia desafía a la gripe y a la ofensiva Suiza",
+              "url": "https://www.notimerica.com/mundial-brasil/noticia-colombia-desafia-gripe-ofensiva-suiza-20260706192030.html",
+              "source": "Notimérica"
+            },
+            {
+              "title": "Solo Inglaterra ha recorrido más kilómetros que la Selección Colombia en el Mundial 2026",
+              "url": "https://bolavip.com/mundial/solo-inglaterra-ha-recorrido-mas-kilometros-que-la-seleccion-colombia-en-el-mundial-2026",
+              "source": "Bolavip"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "onana",
+      "type": "noticia",
+      "slugSuggestion": "onana",
+      "language": "es",
+      "geos": [
+        "PE"
+      ],
+      "score": 2160,
+      "reason": "Google Trends daily PE con 2,000 búsquedas · 3 artículos noticiosos referenciando \"onana\"",
+      "proposedPath": "/noticias/onana",
+      "evidence": [
+        {
+          "query": "onana",
+          "geo": "PE",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 2000,
+          "articles": [
+            {
+              "title": "VIDEO: Amadou Onana sufrió una lesión en la rodilla y encendió las alarmas en Bélgica",
+              "url": "https://elcomercio.pe/deporte-total/futbol-mundial/video-lesion-de-amadou-onana-en-el-estados-unidos-vs-belgica-por-mundial-2026-ultimas-noticia/",
+              "source": "El Comercio Perú"
+            },
+            {
+              "title": "Estados Unidos eliminado del Mundial 2026: cayó goleado 4-1 ante Bélgica en octavos de final",
+              "url": "https://elcomercio.pe/deporte-total/futbol-mundial/estados-unidos-vs-belgica-en-vivo-online-gratis-por-octavos-de-final-del-mundial-2026-lbposting-noticia/",
+              "source": "El Comercio Perú"
+            },
+            {
+              "title": "¿A qué hora juega y en qué canal transmiten Bélgica vs. Estados Unidos EN VIVO hoy, con Kevin De Bruyne, por 8vos del Mundial 2026?",
+              "url": "https://gestion.pe/mix/sports/a-que-hora-juega-y-en-que-canal-transmiten-belgica-vs-estados-unidos-en-vivo-hoy-con-kevin-de-bruyne-por-8vos-del-mundial-2026-horarios-y-canales-tv-nnda-nnrt-noticia/",
+              "source": "Gestión"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "premier ministre",
+      "type": "noticia",
+      "slugSuggestion": "premier-ministre",
+      "language": "fr",
+      "geos": [
+        "FR"
+      ],
+      "score": 1200,
+      "reason": "Google Trends daily FR con 1,000 búsquedas · 3 artículos noticiosos referenciando \"premier ministre\"",
+      "proposedPath": "/noticias/premier-ministre",
+      "evidence": [
+        {
+          "query": "premier ministre",
+          "geo": "FR",
+          "language": "fr",
+          "source": "google-trends-daily",
+          "score": 1000,
+          "articles": [
+            {
+              "title": "Coupe du Monde 2026 : le Premier ministre britannique est aussi intervenu auprès de la FIFA",
+              "url": "https://www.footmercato.net/a5967366587629096956-coupe-du-monde-2026-le-premier-ministre-britannique-est-aussi-intervenu-aupres-de-la-fifa",
+              "source": "Foot Mercato"
+            },
+            {
+              "title": "Trump n’est pas le seul dirigeant à être intervenu dans un match du Mondial",
+              "url": "https://www.huffingtonpost.fr/sport/article/comme-donald-trump-keir-starmer-est-intervenu-dans-un-match-de-son-pays-a-la-coupe-du-monde_284858.html",
+              "source": "Le HuffPost"
+            },
+            {
+              "title": "Thomas Tuchel : « On a l&apos;impression d&apos;avoir remporté une finale » | Foot - Coupe du monde 2026",
+              "url": "https://www.lequipe.fr/Football/Video/Coupe-du-monde-2026-thomas-tuchel-on-a-l-impression-d-avoir-remporte-une-finale/20237013",
+              "source": "L&apos;Équipe"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "argentina vs egipto pronostico",
+      "type": "noticia",
+      "slugSuggestion": "argentina-vs-egipto-pronostico",
+      "language": "es",
+      "geos": [
+        "PE"
+      ],
+      "score": 1080,
+      "reason": "Google Trends daily PE con 1,000 búsquedas · 3 artículos noticiosos referenciando \"argentina vs egipto pronostico\"",
+      "proposedPath": "/noticias/argentina-vs-egipto-pronostico",
+      "evidence": [
+        {
+          "query": "argentina vs egipto pronostico",
+          "geo": "PE",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 1000,
+          "articles": [
+            {
+              "title": "¿Qué canales TV transmiten Argentina vs Egipto HOY y a qué hora empieza el partido por los octavos del Mundial 2026?",
+              "url": "https://elcomercio.pe/deporte-total/futbol-mundial/en-que-canales-transmiten-argentina-vs-egipto-en-vivo-gratis-hoy-horarios-y-donde-ver-partido-online-por-mundial-2026-con-lionel-messi-noticia/",
+              "source": "El Comercio Perú"
+            },
+            {
+              "title": "Scaloni dice que ningún favorito en el Mundial \"ha marcado una diferencia grandísima\"",
+              "url": "https://andina.pe/agencia/noticia-scaloni-dice-ningun-favorito-el-mundial-ha-marcado-una-diferencia-grandisima-1082515.aspx",
+              "source": "Agencia Andina"
+            },
+            {
+              "title": "Cuántas veces se enfrentaron Messi y Salah, los genios de Argentina y Egipto",
+              "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16967552/enfrentamientos-lionel-messi-mohamed-salah-argentina-vs-egipto",
+              "source": "ESPN Argentina"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "partidos de mañana",
+      "type": "noticia",
+      "slugSuggestion": "partidos-de-manana",
+      "language": "es",
+      "geos": [
+        "PE"
+      ],
+      "score": 540,
+      "reason": "Google Trends daily PE con 500 búsquedas · 3 artículos noticiosos referenciando \"partidos de mañana\"",
+      "proposedPath": "/noticias/partidos-de-manana",
+      "evidence": [
+        {
+          "query": "partidos de mañana",
+          "geo": "PE",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 500,
+          "articles": [
+            {
+              "title": "Mundial 2026: Por qué no hay partidos este MIÉRCOLES 8 de junio",
+              "url": "https://www.t13.cl/noticia/mundial-2026/el-mundial-2026-pausa-por-hay-dias-sin-partidos-6-7-2026",
+              "source": "Teletrece"
+            },
+            {
+              "title": "Partidos de mañana, miércoles 8 de julio, en el Mundial 2026: ¿por qué no se juega?",
+              "url": "https://bolavip.com/mundial/partidos-de-manana-hoy-miercoles-8-de-julio-en-el-mundial-2026-por-que-no-se-juega",
+              "source": "Bolavip"
+            },
+            {
+              "title": "Mundial 2026: este es el primer día sin partidos tras 28 días consecutivos con juegos",
+              "url": "https://www.informador.mx/deportes/mundial-2026-este-es-el-primer-dia-sin-partidos-tras-28-dias-consecutivos-con-juegos-20260702-0147.html",
+              "source": "El Informador"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "match belgique",
+      "type": "noticia",
+      "slugSuggestion": "match-belgique",
+      "language": "fr",
+      "geos": [
+        "MA"
+      ],
+      "score": 540,
+      "reason": "Google Trends daily MA con 500 búsquedas · 3 artículos noticiosos referenciando \"match belgique\"",
+      "proposedPath": "/noticias/match-belgique",
+      "evidence": [
+        {
+          "query": "match belgique",
+          "geo": "MA",
+          "language": "fr",
+          "source": "google-trends-daily",
+          "score": 500,
+          "articles": [
+            {
+              "title": "« On appelle ça football » : la Belgique trolle les États-Unis sur les réseaux sociaux après sa large victoire en huitièmes de finale de la Coupe du monde",
+              "url": "https://www.lequipe.fr/Football/Actualites/-on-appelle-ca-football-la-belgique-trolle-les-etats-unis-sur-les-reseaux-sociaux-apres-sa-large-victoire-en-huitiemes-de-finale-de-la-coupe-du-monde/1702179",
+              "source": "L&apos;Équipe"
+            },
+            {
+              "title": "Coupe du monde 2026 : affaire Balogun, attitude du Paraguay, Maroc, racisme envers Mbappé … Les réponses de Guy Stéphan",
+              "url": "https://www.lefigaro.fr/sports/football/coupe-du-monde/coupe-du-monde-2026-affaire-balogun-attitude-du-paraguay-maroc-racisme-envers-mbappe-les-reponses-de-guy-stephan-20260706",
+              "source": "Le Figaro"
+            },
+            {
+              "title": "Coupe du Monde 2026 : la colère noire d’une autre fédération internationale dans l’affaire Balogun",
+              "url": "https://www.footmercato.net/a630146928772796706-coupe-du-monde-2026-la-colere-noire-dune-autre-federation-internationale-dans-laffaire-balogun",
+              "source": "Foot Mercato"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "francia vs marruecos",
+      "type": "noticia",
+      "slugSuggestion": "francia-vs-marruecos",
+      "language": "es",
+      "geos": [
+        "PE"
+      ],
+      "score": 216,
+      "reason": "Google Trends daily PE con 200 búsquedas · 3 artículos noticiosos referenciando \"francia vs marruecos\"",
+      "proposedPath": "/noticias/francia-vs-marruecos",
+      "evidence": [
+        {
+          "query": "francia vs marruecos",
+          "geo": "PE",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Cuándo juegan Francia vs. Marruecos por los cuartos de final del Mundial 2026: equipo, fecha, hora y TV en vivo",
+              "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16962398/francia-vs-marruecos-cuartos-de-final-4tos-mundial-2026-equipo-fecha-hora-y-tv-en-vivo",
+              "source": "ESPN Argentina"
+            },
+            {
+              "title": "Francia - Marruecos: ¡Juega en los cuartos de final del Torneo de selecciones y gana con la Mundo Mania de Meridianbet!",
+              "url": "https://ovacion.pe/noticias/nota-promocional/francia-marruecos-juega-cuartos-final-del-torneo-selecciones-gana-mundo",
+              "source": "ovacion.pe"
+            },
+            {
+              "title": "Marruecos contra Francia, el fútbol vistoso del Mundial",
+              "url": "https://elpais.com/deportes/mundial-futbol/2026-07-05/marruecos-contra-francia-el-futbol-vistoso-del-mundial.html",
+              "source": "EL PAÍS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "balogun",
+      "type": "noticia",
+      "slugSuggestion": "balogun",
+      "language": "es",
+      "geos": [
+        "EC"
+      ],
+      "score": 192,
+      "reason": "Google Trends daily EC con 200 búsquedas · 3 artículos noticiosos referenciando \"balogun\"",
+      "proposedPath": "/noticias/balogun",
+      "evidence": [
+        {
+          "query": "balogun",
+          "geo": "EC",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "‘A despicable woman’: Kylian Mbappé hits out at Paraguayan senator over racist attack",
+              "url": "https://www.theguardian.com/football/2026/jul/06/a-despicable-women-kylian-mbappe-hits-out-at-paraguayan-senator-over-racist-attack",
+              "source": "The Guardian"
+            },
+            {
+              "title": "World Cup 2026: Kylian Mbappe condemns racist posts from Paraguayan senator Celeste Amarilla",
+              "url": "https://www.bbc.com/sport/football/articles/ckg557wxrzro",
+              "source": "BBC"
+            },
+            {
+              "title": "Kylian Mbappe calls out ‘blatant racism’ of Paraguayan senator for ‘colonised Cameroonian’ remark - The Athletic",
+              "url": "https://www.nytimes.com/athletic/7426135/2026/07/06/kylian-mbappe-france-paraguay-racism-amarilla/",
+              "source": "The New York Times"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "nathan ngoy",
+      "type": "noticia",
+      "slugSuggestion": "nathan-ngoy",
+      "language": "es",
+      "geos": [
+        "PE"
+      ],
+      "score": 108,
+      "reason": "Google Trends daily PE con 100 búsquedas · 3 artículos noticiosos referenciando \"nathan ngoy\"",
+      "proposedPath": "/noticias/nathan-ngoy",
+      "evidence": [
+        {
+          "query": "nathan ngoy",
+          "geo": "PE",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 100,
+          "articles": [
+            {
+              "title": "États-Unis 1-4 Belgique, Coupe du monde : La Belgique rejoint l&apos;Espagne en quarts de finale",
+              "url": "https://www.lequipe.fr/Football/match-direct/coupe-du-monde/2026/etats-unis-belgique-live/687066",
+              "source": "L&apos;Équipe"
+            },
+            {
+              "title": "Coupe du monde 2026 - Pascale Van Damme présente en tribune aux côtés de Gianni Infantino lors de USA-Belgique",
+              "url": "https://starsporttv.be/fr/content/coupe-du-monde-2026-pascale-van-damme-presente-en-tribune-aux-cotes-de-gianni-infantino-lors-de-usa-belgique",
+              "source": "Starsporttv"
+            },
+            {
+              "title": "USA-BEL a de beaux yeux",
+              "url": "https://www.carton-rouge.ch/2026/07/07/usa-bel-a-de-beaux-yeux/",
+              "source": "Carton-Rouge.ch"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alreadyCovered": [
+    {
+      "query": "hasta donde llego argentina en el mundial 2026",
+      "matchUrl": "/2026/donde-ver"
+    },
+    {
+      "query": "hasta donde llego colombia en el mundial 2026",
+      "matchUrl": "/2026/donde-ver"
+    },
+    {
+      "query": "hasta donde llega egipto en el mundial 2026",
+      "matchUrl": "/2026/donde-ver"
+    },
+    {
+      "query": "estados unidos - bélgica",
+      "matchUrl": "/ediciones/1994-estados-unidos"
+    },
+    {
+      "query": "usa belgien",
+      "matchUrl": "/ediciones/1994-estados-unidos"
+    },
+    {
+      "query": "martínez",
+      "matchUrl": "/noticias/convocatoria-portugal-mundial-2026-roberto-martinez-cristiano-ronaldo-sexto-mundial-41-anos"
+    }
+  ]
+}
