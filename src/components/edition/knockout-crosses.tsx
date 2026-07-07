@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { TEAMS_2026 } from '@/lib/wc-2026';
 import { getKnockoutRounds, koWinner, wentToShootout } from '@/lib/wc-2026-knockout';
+import { ROUND_META } from '@/components/edition/knockout-round-landing';
 import { routing, type Locale } from '@/i18n/routing';
 
 const tName = (c: string) => TEAMS_2026[c]?.name ?? c;
@@ -52,9 +53,18 @@ export async function KnockoutCrosses({ locale }: { locale: Locale }) {
         {rounds.map((r) => (
           <div key={r.key}>
             <div className="mb-4 flex items-center gap-3">
-              <span className="font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-fg-muted)]">
-                {r.label}
-              </span>
+              {ROUND_META[r.key] ? (
+                <Link
+                  href={withLocale(locale, `/2026/${ROUND_META[r.key].slug}`)}
+                  className="font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-fg-muted)] hover:text-[var(--color-pitch)]"
+                >
+                  {r.label}
+                </Link>
+              ) : (
+                <span className="font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-fg-muted)]">
+                  {r.label}
+                </span>
+              )}
               <span className="font-mono text-xs tab-num text-[var(--color-fg-subtle)]">
                 {r.matches.length}
               </span>
