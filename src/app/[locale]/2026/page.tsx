@@ -9,7 +9,7 @@ import { routing, type Locale } from '@/i18n/routing';
 import { VENUES_2026, HOSTS, GROUPS_2026, PHASE_DATES, WC_2026, TEAMS_2026 } from '@/lib/wc-2026';
 import { countryName } from '@/lib/country-names';
 import { WC2026Calendar } from '@/components/edition/wc2026-calendar';
-import { WC2026Bracket } from '@/components/edition/wc2026-bracket';
+import { RoundBracket } from '@/components/edition/round-bracket';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl } from '@/lib/seo';
 
 function withLocale(locale: Locale, href: string) {
@@ -517,7 +517,24 @@ export default async function NorthAmerica2026Page({
         </div>
       </section>
 
-      <WC2026Bracket />
+      <section className="mx-auto w-full max-w-[1400px] px-6 py-16 md:px-10 md:py-20">
+        <div className="font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-pitch)]">
+          El cuadro
+        </div>
+        <div className="mt-3 flex flex-wrap items-end justify-between gap-4">
+          <h2 className="font-display text-4xl uppercase leading-none md:text-5xl">
+            De dieciseisavos a la final
+          </h2>
+          <Link
+            href={withLocale(locale as Locale, '/2026/cuadro')}
+            className="group inline-flex items-center gap-2 rounded-full border border-[var(--color-border-strong)] px-4 py-2 font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-fg)] transition-colors hover:border-[var(--color-pitch)] hover:text-[var(--color-pitch)]"
+          >
+            Cuadro completo
+            <ArrowRight className="h-3 w-3 transition-transform group-hover:translate-x-1 rtl:rotate-180" />
+          </Link>
+        </div>
+        <RoundBracket locale={locale as Locale} fromRound="R32" />
+      </section>
       <WC2026Calendar locale={locale as Locale} />
 
       {/* FAQ, preguntas de alto volumen sobre el Mundial 2026.
