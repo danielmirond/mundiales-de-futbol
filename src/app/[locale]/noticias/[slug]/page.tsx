@@ -160,22 +160,29 @@ export default async function NoticiaDetail({
     url,
     mainEntityOfPage: { '@type': 'WebPage', '@id': url },
     inLanguage: locale,
-    // Imagen: OG dinámico 1200×675 garantizado — Google requiere ≥696px ancho
-    image: [
-      {
-        '@type': 'ImageObject',
-        url: ogImageUrl,
-        width: 1200,
-        height: 675,
-        representativeOfPage: true,
-      },
-      // Imagen real del artículo si existe (alternativa para Rich Results)
-      ...(item.image ? [{
-        '@type': 'ImageObject',
-        url: item.image.url,
-        caption: item.image.alt,
-      }] : []),
-    ],
+    // Imagen para Discover/News. La tarjeta OG lleva titular + logo quemados,
+    // así que NO debe ser la imagen representativa si hay una foto real (política
+    // de Discover: sin texto/logo superpuesto). Foto real primero cuando existe;
+    // la tarjeta OG queda como respaldo (y sigue siendo el og:image social).
+    image: item.image
+      ? [
+          {
+            '@type': 'ImageObject',
+            url: item.image.url,
+            caption: item.image.alt,
+            representativeOfPage: true,
+          },
+          { '@type': 'ImageObject', url: ogImageUrl, width: 1200, height: 675 },
+        ]
+      : [
+          {
+            '@type': 'ImageObject',
+            url: ogImageUrl,
+            width: 1200,
+            height: 675,
+            representativeOfPage: true,
+          },
+        ],
     // Publisher: Organization con logo válido (Google requiere logo ≤ 600×60)
     publisher: {
       '@type': 'Organization',
