@@ -1,0 +1,621 @@
+{
+  "generatedAt": "2026-07-11T08:19:51.323Z",
+  "date": "2026-07-11",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "hasta donde llego noruega en el mundial 2026",
+      "geo": "AR",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Mundial 2026: cómo se jugarán las Semifinales y los cruces, días y horarios",
+          "url": "https://www.pagina12.com.ar/2026/07/10/como-se-jugaran-las-semifinales-cruces-dias-y-horarios/",
+          "source": "Página|12"
+        },
+        {
+          "title": "Partidos del Mundial de hoy, viernes 10 de julio: dónde ver en vivo, hora y resultados",
+          "url": "https://www.tycsports.com/mundial/partidos-del-mundial-de-hoy-viernes-10-de-julio-hora-donde-ver-en-vivo-y-resultados-id748719.html",
+          "source": "TyC Sports"
+        },
+        {
+          "title": "La llave del Mundial 2026: Francia vs. España en semis y el resto de los partidos de cuartos de final",
+          "url": "https://www.ole.com.ar/mundial/mundial-2026/mundial-francia-cuartos-argentina-suiza-partidos-espana-belgica-inglaterra-noruega_0_oK9J7QC60s.html",
+          "source": "Olé"
+        }
+      ]
+    },
+    {
+      "query": "hasta donde llegó suiza en el mundial 2026",
+      "geo": "AR",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "La probable formación de la selección argentina para enfrentar a Suiza por los cuartos de final del Mundial",
+          "url": "https://www.infobae.com/deportes/2026/07/11/la-probable-formacion-de-la-seleccion-argentina-para-enfrentar-a-suiza-por-los-cuartos-de-final-del-mundial/",
+          "source": "Infobae"
+        },
+        {
+          "title": "Argentina vs. Suiza por los cuartos de final del Mundial 2026: posibles formaciones, a qué hora es el partido y cómo ver en VIVO",
+          "url": "https://tn.com.ar/deportes/mundial/2026/2026/07/11/argentina-vs-suiza-por-los-cuartos-de-final-del-mundial-2026-posibles-formaciones-a-que-hora-es-el-partido-y-como-ver-en-vivo/",
+          "source": "TN"
+        },
+        {
+          "title": "Respeto, juega el campeón",
+          "url": "https://www.ole.com.ar/seleccion/argentina-mundial-suiza-messi-cuartos-seleccion_0_hnp3JGvppG.html",
+          "source": "Olé"
+        }
+      ]
+    },
+    {
+      "query": "hasta donde llega argentina en el mundial 2026",
+      "geo": "CO",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "Cuadro del Mundial 2026: clasificados a semifinales, cruces y quién se enfrenta a quién en cuartos de la Copa",
+          "url": "https://as.com/futbol/mundial/cuadro-del-mundial-2026-clasificados-cruces-y-quien-se-enfrenta-a-quien-en-cuartos-y-semifinales-de-la-copa-del-mundo-f202607-n/",
+          "source": "Diario AS"
+        },
+        {
+          "title": "Partidos del Mundial 2026 hoy sábado 11 de julio: estos son los encuentros de la Copa del Mundo; canal y hora para ver en vivo",
+          "url": "https://www.eltiempo.com/deportes/futbol-internacional/partidos-del-mundial-2026-hoy-sabado-11-de-julio-estos-son-los-encuentros-de-la-copa-del-mundo-canal-y-hora-para-ver-en-vivo-3570637",
+          "source": "ELTIEMPO.COM"
+        },
+        {
+          "title": "Así queda el cuadro de semifinales del Mundial: cruces, calendario y selecciones clasificadas",
+          "url": "https://www.marca.com/futbol/mundial/2026/07/09/asi-cuadro-cuartos-mundial-cruces-calendario-selecciones-clasificadas.html",
+          "source": "MARCA"
+        }
+      ]
+    },
+    {
+      "query": "hasta donde llego noruega en la copa del mundo 2026",
+      "geo": "CO",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "El patrón de Japón que “predice” al campeón del Mundial y anticipa un sorprendente rey para 2026",
+          "url": "https://www.infobae.com/deportes/2026/07/09/el-patron-de-japon-que-predice-al-campeon-del-mundial-y-anticipa-un-sorprendente-rey-para-2026/",
+          "source": "Infobae"
+        },
+        {
+          "title": "¿Noruega será campeón del Mundial 2026? La teoría viral que apunta a una final inesperada | El Colombiano",
+          "url": "https://www.elcolombiano.com/especiales/mundial-2026/noruega-campeon-mundial-2026-teoria-the-economist-nike-NP38626902",
+          "source": "El Colombiano"
+        },
+        {
+          "title": "¿Haaland? El detalle en la portada de The Economist que confirmaría que Noruega ganaría el torneo de futbol",
+          "url": "https://culturacolectiva.com/entretenimiento/haaland-portada-the-economist/",
+          "source": "Cultura Colectiva"
+        }
+      ]
+    },
+    {
+      "query": "noticias",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 5000,
+      "articles": [
+        {
+          "title": "Mundial 2026: los clasificados y el fixture de 4tos de final",
+          "url": "https://www.espn.com.pe/futbol/mundial/nota/_/id/16956136/mundial-2026-4tos-cuartos-de-final-clasificados-fixture",
+          "source": "espn.com.pe"
+        },
+        {
+          "title": "Horarios de los partidos del Mundial 2026 de hoy, viernes 10 de julio, en EE. UU., México y España",
+          "url": "https://gestion.pe/mix/sports/horarios-de-los-partidos-del-mundial-2026-de-hoy-viernes-10-de-julio-en-ee-uu-mexico-y-espana-nnda-nnrt-noticia/",
+          "source": "Gestión"
+        },
+        {
+          "title": "Partidos de hoy, 10 de julio: Horario y canal EN VIVO",
+          "url": "https://www.americatv.com.pe/deportes/futbol-mundial/partidos-hoy-10-julio-horario-y-canal-vivo-n455244",
+          "source": "América TV"
+        }
+      ]
+    },
+    {
+      "query": "norway vs england world cup 2026",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "‘Beast’ Haaland a Different Player to Me, Says Kane",
+          "url": "https://english.aawsat.com/sports/5294713-%E2%80%98beast%E2%80%99-haaland-different-player-me-says-kane",
+          "source": "Asharq Al-Awsat English"
+        },
+        {
+          "title": "Norway coach Solbakken urges team to \"be ourselves\" against England",
+          "url": "http://english.news.cn/20260711/66b48935b27249c494e7845ab41ab253/c.html",
+          "source": "Xinhua"
+        },
+        {
+          "title": "Haaland & Kane set for epic battle, Lammens sends Spain through",
+          "url": "https://footballtoday.com/2026/07/11/world-cup-2026-argentina-switzerland-spain-belgium-england-norway/",
+          "source": "Football Today"
+        }
+      ]
+    },
+    {
+      "query": "campeonato uruguayo",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "AUF anunció que se aplicarán nuevas reglas de juego a partir del Clausura: mirá cuáles son",
+          "url": "https://www.montevideo.com.uy/Deportes/AUF-anuncio-que-se-aplicaran-nuevas-reglas-de-juego-a-partir-del-Clausura-mira-cuales-son-uc967769",
+          "source": "Montevideo Portal"
+        },
+        {
+          "title": "La nueva, y polémica, regla del Mundial 2026 que no será aplicada en el fútbol uruguayo a partir del Torneo Clausura",
+          "url": "https://www.elobservador.com.uy/futbol/la-nueva-y-polemica-regla-del-mundial-2026-que-no-sera-aplicada-el-futbol-uruguayo-partir-del-torneo-clausura-n6050329",
+          "source": "El Observador"
+        },
+        {
+          "title": "Se implementarán las nuevas reglas de juego a partir del Torneo Clausura 2026",
+          "url": "https://auf.org.uy/se-implementaran-las-nuevas-reglas-de-juego-a-partir-del-torneo-clausura-2026/",
+          "source": "AUF"
+        }
+      ]
+    },
+    {
+      "query": "inglaterra vs noruega",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Noruega vs. Inglaterra por el Mundial 2026: hora y dónde ver en vivo el duelo entre Erling Haaland y Harry Kane",
+          "url": "https://www.elpais.com.uy/ovacion/mundial/noruega-vs-inglaterra-por-el-mundial-2026-hora-y-donde-ver-en-vivo-el-duelo-entre-erling-haaland-y-harry-kane",
+          "source": "EL PAÍS Uruguay"
+        },
+        {
+          "title": "La peculiar sentencia de Haaland cuando le preguntaron por el favorito en el cruce entre Noruega e Inglaterra",
+          "url": "https://www.infobae.com/deportes/2026/07/09/la-peculiar-sentencia-de-haaland-cuando-le-preguntaron-por-el-favorito-en-el-cruce-entre-noruega-e-inglaterra/",
+          "source": "Infobae"
+        },
+        {
+          "title": "Algo más que unos cuartos: el Balón de Oro",
+          "url": "https://www.marca.com/futbol/mundial/2026/07/11/cuartos-balon-oro.html",
+          "source": "MARCA"
+        }
+      ]
+    },
+    {
+      "query": "2026",
+      "geo": "PT",
+      "language": "pt",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "11 de julho de 2026",
+          "url": "https://www.abola.pt/noticias/11-de-julho-de-2026-2026071022572309195",
+          "source": "A Bola"
+        },
+        {
+          "title": "Barba e Cabelo de 5 de julho de 2026",
+          "url": "https://www.abola.pt/noticias/barba-e-cabelo-de-5-de-julho-de-2026-2026070420325720229",
+          "source": "A Bola"
+        },
+        {
+          "title": "Mundial 2026: veja aqui todos os jogos dos quartos de final",
+          "url": "https://www.abola.pt/noticias/mundial-2026-veja-aqui-todos-os-jogos-dos-quartos-de-final-2026070416500549802",
+          "source": "A Bola"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "es": [
+      {
+        "query": "noticias",
+        "score": 4500,
+        "geos": [
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "noticias",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 5000,
+            "articles": [
+              {
+                "title": "Mundial 2026: los clasificados y el fixture de 4tos de final",
+                "url": "https://www.espn.com.pe/futbol/mundial/nota/_/id/16956136/mundial-2026-4tos-cuartos-de-final-clasificados-fixture",
+                "source": "espn.com.pe"
+              },
+              {
+                "title": "Horarios de los partidos del Mundial 2026 de hoy, viernes 10 de julio, en EE. UU., México y España",
+                "url": "https://gestion.pe/mix/sports/horarios-de-los-partidos-del-mundial-2026-de-hoy-viernes-10-de-julio-en-ee-uu-mexico-y-espana-nnda-nnrt-noticia/",
+                "source": "Gestión"
+              },
+              {
+                "title": "Partidos de hoy, 10 de julio: Horario y canal EN VIVO",
+                "url": "https://www.americatv.com.pe/deportes/futbol-mundial/partidos-hoy-10-julio-horario-y-canal-vivo-n455244",
+                "source": "América TV"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "hasta donde llega argentina en el mundial 2026",
+        "score": 2000,
+        "geos": [
+          "CO"
+        ],
+        "samples": [
+          {
+            "query": "hasta donde llega argentina en el mundial 2026",
+            "geo": "CO",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "Cuadro del Mundial 2026: clasificados a semifinales, cruces y quién se enfrenta a quién en cuartos de la Copa",
+                "url": "https://as.com/futbol/mundial/cuadro-del-mundial-2026-clasificados-cruces-y-quien-se-enfrenta-a-quien-en-cuartos-y-semifinales-de-la-copa-del-mundo-f202607-n/",
+                "source": "Diario AS"
+              },
+              {
+                "title": "Partidos del Mundial 2026 hoy sábado 11 de julio: estos son los encuentros de la Copa del Mundo; canal y hora para ver en vivo",
+                "url": "https://www.eltiempo.com/deportes/futbol-internacional/partidos-del-mundial-2026-hoy-sabado-11-de-julio-estos-son-los-encuentros-de-la-copa-del-mundo-canal-y-hora-para-ver-en-vivo-3570637",
+                "source": "ELTIEMPO.COM"
+              },
+              {
+                "title": "Así queda el cuadro de semifinales del Mundial: cruces, calendario y selecciones clasificadas",
+                "url": "https://www.marca.com/futbol/mundial/2026/07/09/asi-cuadro-cuartos-mundial-cruces-calendario-selecciones-clasificadas.html",
+                "source": "MARCA"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "hasta donde llegó suiza en el mundial 2026",
+        "score": 1300,
+        "geos": [
+          "AR"
+        ],
+        "samples": [
+          {
+            "query": "hasta donde llegó suiza en el mundial 2026",
+            "geo": "AR",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "La probable formación de la selección argentina para enfrentar a Suiza por los cuartos de final del Mundial",
+                "url": "https://www.infobae.com/deportes/2026/07/11/la-probable-formacion-de-la-seleccion-argentina-para-enfrentar-a-suiza-por-los-cuartos-de-final-del-mundial/",
+                "source": "Infobae"
+              },
+              {
+                "title": "Argentina vs. Suiza por los cuartos de final del Mundial 2026: posibles formaciones, a qué hora es el partido y cómo ver en VIVO",
+                "url": "https://tn.com.ar/deportes/mundial/2026/2026/07/11/argentina-vs-suiza-por-los-cuartos-de-final-del-mundial-2026-posibles-formaciones-a-que-hora-es-el-partido-y-como-ver-en-vivo/",
+                "source": "TN"
+              },
+              {
+                "title": "Respeto, juega el campeón",
+                "url": "https://www.ole.com.ar/seleccion/argentina-mundial-suiza-messi-cuartos-seleccion_0_hnp3JGvppG.html",
+                "source": "Olé"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "campeonato uruguayo",
+        "score": 450,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "campeonato uruguayo",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "AUF anunció que se aplicarán nuevas reglas de juego a partir del Clausura: mirá cuáles son",
+                "url": "https://www.montevideo.com.uy/Deportes/AUF-anuncio-que-se-aplicaran-nuevas-reglas-de-juego-a-partir-del-Clausura-mira-cuales-son-uc967769",
+                "source": "Montevideo Portal"
+              },
+              {
+                "title": "La nueva, y polémica, regla del Mundial 2026 que no será aplicada en el fútbol uruguayo a partir del Torneo Clausura",
+                "url": "https://www.elobservador.com.uy/futbol/la-nueva-y-polemica-regla-del-mundial-2026-que-no-sera-aplicada-el-futbol-uruguayo-partir-del-torneo-clausura-n6050329",
+                "source": "El Observador"
+              },
+              {
+                "title": "Se implementarán las nuevas reglas de juego a partir del Torneo Clausura 2026",
+                "url": "https://auf.org.uy/se-implementaran-las-nuevas-reglas-de-juego-a-partir-del-torneo-clausura-2026/",
+                "source": "AUF"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "hasta donde llego noruega en el mundial 2026",
+        "score": 260,
+        "geos": [
+          "AR"
+        ],
+        "samples": [
+          {
+            "query": "hasta donde llego noruega en el mundial 2026",
+            "geo": "AR",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Mundial 2026: cómo se jugarán las Semifinales y los cruces, días y horarios",
+                "url": "https://www.pagina12.com.ar/2026/07/10/como-se-jugaran-las-semifinales-cruces-dias-y-horarios/",
+                "source": "Página|12"
+              },
+              {
+                "title": "Partidos del Mundial de hoy, viernes 10 de julio: dónde ver en vivo, hora y resultados",
+                "url": "https://www.tycsports.com/mundial/partidos-del-mundial-de-hoy-viernes-10-de-julio-hora-donde-ver-en-vivo-y-resultados-id748719.html",
+                "source": "TyC Sports"
+              },
+              {
+                "title": "La llave del Mundial 2026: Francia vs. España en semis y el resto de los partidos de cuartos de final",
+                "url": "https://www.ole.com.ar/mundial/mundial-2026/mundial-francia-cuartos-argentina-suiza-partidos-espana-belgica-inglaterra-noruega_0_oK9J7QC60s.html",
+                "source": "Olé"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "inglaterra vs noruega",
+        "score": 180,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "inglaterra vs noruega",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Noruega vs. Inglaterra por el Mundial 2026: hora y dónde ver en vivo el duelo entre Erling Haaland y Harry Kane",
+                "url": "https://www.elpais.com.uy/ovacion/mundial/noruega-vs-inglaterra-por-el-mundial-2026-hora-y-donde-ver-en-vivo-el-duelo-entre-erling-haaland-y-harry-kane",
+                "source": "EL PAÍS Uruguay"
+              },
+              {
+                "title": "La peculiar sentencia de Haaland cuando le preguntaron por el favorito en el cruce entre Noruega e Inglaterra",
+                "url": "https://www.infobae.com/deportes/2026/07/09/la-peculiar-sentencia-de-haaland-cuando-le-preguntaron-por-el-favorito-en-el-cruce-entre-noruega-e-inglaterra/",
+                "source": "Infobae"
+              },
+              {
+                "title": "Algo más que unos cuartos: el Balón de Oro",
+                "url": "https://www.marca.com/futbol/mundial/2026/07/11/cuartos-balon-oro.html",
+                "source": "MARCA"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "norway vs england world cup 2026",
+        "score": 160,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "norway vs england world cup 2026",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "‘Beast’ Haaland a Different Player to Me, Says Kane",
+                "url": "https://english.aawsat.com/sports/5294713-%E2%80%98beast%E2%80%99-haaland-different-player-me-says-kane",
+                "source": "Asharq Al-Awsat English"
+              },
+              {
+                "title": "Norway coach Solbakken urges team to \"be ourselves\" against England",
+                "url": "http://english.news.cn/20260711/66b48935b27249c494e7845ab41ab253/c.html",
+                "source": "Xinhua"
+              },
+              {
+                "title": "Haaland & Kane set for epic battle, Lammens sends Spain through",
+                "url": "https://footballtoday.com/2026/07/11/world-cup-2026-argentina-switzerland-spain-belgium-england-norway/",
+                "source": "Football Today"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "hasta donde llego noruega en la copa del mundo 2026",
+        "score": 100,
+        "geos": [
+          "CO"
+        ],
+        "samples": [
+          {
+            "query": "hasta donde llego noruega en la copa del mundo 2026",
+            "geo": "CO",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "El patrón de Japón que “predice” al campeón del Mundial y anticipa un sorprendente rey para 2026",
+                "url": "https://www.infobae.com/deportes/2026/07/09/el-patron-de-japon-que-predice-al-campeon-del-mundial-y-anticipa-un-sorprendente-rey-para-2026/",
+                "source": "Infobae"
+              },
+              {
+                "title": "¿Noruega será campeón del Mundial 2026? La teoría viral que apunta a una final inesperada | El Colombiano",
+                "url": "https://www.elcolombiano.com/especiales/mundial-2026/noruega-campeon-mundial-2026-teoria-the-economist-nike-NP38626902",
+                "source": "El Colombiano"
+              },
+              {
+                "title": "¿Haaland? El detalle en la portada de The Economist que confirmaría que Noruega ganaría el torneo de futbol",
+                "url": "https://culturacolectiva.com/entretenimiento/haaland-portada-the-economist/",
+                "source": "Cultura Colectiva"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "pt": [
+      {
+        "query": "2026",
+        "score": 200,
+        "geos": [
+          "PT"
+        ],
+        "samples": [
+          {
+            "query": "2026",
+            "geo": "PT",
+            "language": "pt",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "11 de julho de 2026",
+                "url": "https://www.abola.pt/noticias/11-de-julho-de-2026-2026071022572309195",
+                "source": "A Bola"
+              },
+              {
+                "title": "Barba e Cabelo de 5 de julho de 2026",
+                "url": "https://www.abola.pt/noticias/barba-e-cabelo-de-5-de-julho-de-2026-2026070420325720229",
+                "source": "A Bola"
+              },
+              {
+                "title": "Mundial 2026: veja aqui todos os jogos dos quartos de final",
+                "url": "https://www.abola.pt/noticias/mundial-2026-veja-aqui-todos-os-jogos-dos-quartos-de-final-2026070416500549802",
+                "source": "A Bola"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "topic": "campeonato uruguayo",
+      "type": "noticia",
+      "slugSuggestion": "campeonato-uruguayo",
+      "language": "es",
+      "geos": [
+        "UY"
+      ],
+      "score": 540,
+      "reason": "Google Trends daily UY con 500 búsquedas · 3 artículos noticiosos referenciando \"campeonato uruguayo\"",
+      "proposedPath": "/noticias/campeonato-uruguayo",
+      "evidence": [
+        {
+          "query": "campeonato uruguayo",
+          "geo": "UY",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 500,
+          "articles": [
+            {
+              "title": "AUF anunció que se aplicarán nuevas reglas de juego a partir del Clausura: mirá cuáles son",
+              "url": "https://www.montevideo.com.uy/Deportes/AUF-anuncio-que-se-aplicaran-nuevas-reglas-de-juego-a-partir-del-Clausura-mira-cuales-son-uc967769",
+              "source": "Montevideo Portal"
+            },
+            {
+              "title": "La nueva, y polémica, regla del Mundial 2026 que no será aplicada en el fútbol uruguayo a partir del Torneo Clausura",
+              "url": "https://www.elobservador.com.uy/futbol/la-nueva-y-polemica-regla-del-mundial-2026-que-no-sera-aplicada-el-futbol-uruguayo-partir-del-torneo-clausura-n6050329",
+              "source": "El Observador"
+            },
+            {
+              "title": "Se implementarán las nuevas reglas de juego a partir del Torneo Clausura 2026",
+              "url": "https://auf.org.uy/se-implementaran-las-nuevas-reglas-de-juego-a-partir-del-torneo-clausura-2026/",
+              "source": "AUF"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alreadyCovered": [
+    {
+      "query": "hasta donde llego noruega en el mundial 2026",
+      "matchUrl": "/2026/donde-ver"
+    },
+    {
+      "query": "hasta donde llegó suiza en el mundial 2026",
+      "matchUrl": "/2026/donde-ver"
+    },
+    {
+      "query": "hasta donde llega argentina en el mundial 2026",
+      "matchUrl": "/2026/donde-ver"
+    },
+    {
+      "query": "hasta donde llego noruega en la copa del mundo 2026",
+      "matchUrl": "/2026/donde-ver"
+    },
+    {
+      "query": "noticias",
+      "matchUrl": "/noticias"
+    },
+    {
+      "query": "norway vs england world cup 2026",
+      "matchUrl": "/coleccionismo/panini-mundial-2026"
+    },
+    {
+      "query": "inglaterra vs noruega",
+      "matchUrl": "/noticias/semana-cierre-convocatorias-mundial-2026-alemania-inglaterra-espana-paises-bajos-marruecos-noruega-deadline-1-junio"
+    },
+    {
+      "query": "2026",
+      "matchUrl": "/2026"
+    }
+  ]
+}
