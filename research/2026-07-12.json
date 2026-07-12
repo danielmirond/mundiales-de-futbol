@@ -1,0 +1,2719 @@
+{
+  "generatedAt": "2026-07-12T08:38:34.661Z",
+  "date": "2026-07-12",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "noticias de hoje",
+      "geo": "US",
+      "language": "en",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Climão? Bellingham contraria Tuchel em classificação da Inglaterra: &apos;Talvez não saiba como é jogar nessa condição&apos;",
+          "url": "https://oglobo.globo.com/esportes/copa-do-mundo-2026/noticia/2026/07/11/climao-bellingham-contraria-tuchel-em-classificacao-da-inglaterra-talvez-nao-saiba-como-e-jogar-nessa-condicao.ghtml",
+          "source": "O GLOBO"
+        },
+        {
+          "title": "Tuchel critica atuação da Inglaterra, e Bellingham responde: &apos;Tanto faz&apos;",
+          "url": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/07/11/tuchel-critica-atuacao-da-inglaterra-e-bellingham-responde-tanto-faz.ghtm",
+          "source": "UOL"
+        },
+        {
+          "title": "Quem é Thomas Tuchel? Conheça técnico da Inglaterra na Copa do Mundo 2026",
+          "url": "https://www.sportingnews.com/br/futebol/noticias/quem-e-thomas-tuchel-conheca-tecnico-inglaterra-copa-do-mundo-2026/e1f4372174c6f745938d69bb",
+          "source": "www.sportingnews.com"
+        }
+      ]
+    },
+    {
+      "query": "proximos partidos mundial 2026",
+      "geo": "MX",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Los ocho maestros tácticos que forjaron a Rafael Márquez",
+          "url": "https://www.espn.com.mx/futbol/selecciones/nota/_/id/16987975/rafael-marquez-seleccion-mexicana-entrenadores-escuela-tactica-guardiola-la-volpe-aguirre",
+          "source": "ESPN México"
+        },
+        {
+          "title": "México vs Cabo Verde en el Azteca; arruinado por SUM e impone fecha de debut de Rafa Márquez como DT",
+          "url": "https://www.marca.com/mx/futbol/seleccion-mx/2026/07/12/6a52ac77ca474172248b45a2.html",
+          "source": "MARCA"
+        },
+        {
+          "title": "Rafa Márquez, nuevo DT del Tri: lo que debes saber sobre la nueva etapa de la Selección",
+          "url": "https://es-us.noticias.yahoo.com/rafa-m%C3%A1rquez-dt-tri-debes-165522546.html",
+          "source": "Yahoo"
+        }
+      ]
+    },
+    {
+      "query": "france vs spain world cup 2026",
+      "geo": "CA",
+      "language": "en",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Yamal says France should fear Spain in their anticipated World Cup semifinal",
+          "url": "https://www.sportsnet.ca/fifa-world-cup/article/yamal-says-france-should-fear-spain-in-their-anticipated-world-cup-semifinal/",
+          "source": "Sportsnet.ca"
+        },
+        {
+          "title": "Mikel Merino is &apos;tailor-made&apos; for Spain&apos;s playing style as Luis de la Fuente hails vital impact in World Cup win against Belgium",
+          "url": "https://ca.sports.yahoo.com/news/mikel-merino-tailor-made-spains-053116442.html",
+          "source": "Yahoo Sports Canada"
+        },
+        {
+          "title": "France vs. Spain odds, lines, predictions: 2026 World Cup semifinal picks from proven soccer expert",
+          "url": "https://www.sportsline.com/insiders/france-vs-spain-odds-lines-predictions-2026-world-cup-semifinal-picks-from-proven-soccer-expert/",
+          "source": "SportsLine"
+        }
+      ]
+    },
+    {
+      "query": "mundial 2022",
+      "geo": "AR",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "Agentes del FBI y fiscales federales toman testimonios para investigar operaciones financieras de la AFA en Estados Unidos",
+          "url": "https://www.lanacion.com.ar/politica/agentes-del-fbi-y-fiscales-federales-toman-testimonios-para-investigar-operaciones-financieras-de-la-nid06072026/",
+          "source": "La Nación"
+        },
+        {
+          "title": "¡En pleno Mundial 2026! Argentina en polémica tras investigación por presunto fraude",
+          "url": "https://www.tudn.com/mundial-2026/argentina-vs-suiza/en-pleno-mundial-2026-argentina-en-polemica-tras-investigacion-por-presunto-fraude",
+          "source": "TUDN"
+        },
+        {
+          "title": "Confirman que la Justicia de EE.UU. investiga giros sospechosos de la AFA que podrían ser encuadrados como lavado, evasión o fraude bancario",
+          "url": "https://www.clarin.com/politica/confirman-justicia-eeuu-investiga-giros-sospechosos-afa-podrian-encuadrados-lavado-evasion-fraude-bancario_0_ZW1BH5atni.html",
+          "source": "Clarin.com"
+        }
+      ]
+    },
+    {
+      "query": "cuando es la final del mundial",
+      "geo": "AR",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Horario de la final del Mundial del domingo 19 de julio 2026",
+          "url": "https://www.lanacion.com.ar/deportes/futbol/horario-de-la-final-del-mundial-del-domingo-19-de-julio-2026-nid11072026/",
+          "source": "La Nación"
+        },
+        {
+          "title": "10 curiosidades del estadio donde se jugará la final del Mundial 2026",
+          "url": "https://www.mundodeportivo.com/ocio/20260709/1004204705/10-curiosidades-estadio-jugara-final-mundial-2026.html",
+          "source": "Mundo Deportivo"
+        },
+        {
+          "title": "Mundial FIFA 2026: Norteamérica se prepara para el torneo más grande de la historia",
+          "url": "https://greensborolatino.com/internacional/mundial-2026-nc/",
+          "source": "Greensboro Latino"
+        }
+      ]
+    },
+    {
+      "query": "cuando juega francia y españa",
+      "geo": "AR",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 5000,
+      "articles": [
+        {
+          "title": "Los datos de España y Francia: ¿quién ha jugado mejor en el Mundial?",
+          "url": "https://elpais.com/deportes/mundial-futbol/2026-07-12/los-datos-de-espana-y-francia-quien-ha-jugado-mejor-en-el-mundial.html",
+          "source": "EL PAÍS"
+        },
+        {
+          "title": "El partido del siglo",
+          "url": "https://as.com/futbol/mundial/el-partido-del-siglo-f202607-n/",
+          "source": "Diario AS"
+        },
+        {
+          "title": "Cuándo juegan España vs. Francia en semifinales de final del Mundial 2026: equipo, fecha, hora y TV en vivo",
+          "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16989745/espana-vs-francia-semifinales-semis-mundial-2026-equipo-fecha-hora-y-tv-en-vivo",
+          "source": "ESPN Deportes"
+        }
+      ]
+    },
+    {
+      "query": "lionel messi",
+      "geo": "AR",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 20000,
+      "articles": [
+        {
+          "title": "World Cup 2026:",
+          "url": "https://www.bbc.com/sport/football/articles/cvgexz4qdlgo",
+          "source": "BBC"
+        },
+        {
+          "title": "England vs. Argentina Confirmed For Semifinals: Here&apos;s What To Know",
+          "url": "https://www.foxsports.com/stories/soccer/england-vs-argentina-confirmed-semifinals-heres-what-know",
+          "source": "FOX Sports"
+        },
+        {
+          "title": "Lionel Messi stands in England’s way – this is how they can beat Argentina",
+          "url": "https://www.telegraph.co.uk/football/2026/07/12/argentina-v-switzerland-latest-world-cup-quarter-finals/",
+          "source": "The Telegraph"
+        }
+      ]
+    },
+    {
+      "query": "fixture mundial 2026",
+      "geo": "AR",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 10000,
+      "articles": [
+        {
+          "title": "Mundial 2026: cómo se jugarán las Semifinales y los cruces, días y horarios",
+          "url": "https://www.pagina12.com.ar/2026/07/10/como-se-jugaran-las-semifinales-cruces-dias-y-horarios/",
+          "source": "Página|12"
+        },
+        {
+          "title": "Partidos del Mundial de hoy, sábado 11 de julio: hora, dónde ver en vivo y resultados",
+          "url": "https://www.tycsports.com/mundial/partidos-del-mundial-de-hoy-sabado-11-de-julio-hora-donde-ver-en-vivo-y-resultados-id748917.html",
+          "source": "TyC Sports"
+        },
+        {
+          "title": "Con el picante Argentina-Inglaterra, estas son las semifinales del Mundial",
+          "url": "https://www.ole.com.ar/mundial/mundial-2026/mundial-semifinales-llave-cuadro-francia-espana-argentina-seleccion-inglaterra_0_xRZlPl0bQl.html",
+          "source": "Olé"
+        }
+      ]
+    },
+    {
+      "query": "ranking fifa 2026",
+      "geo": "CO",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "World Cup 2026: Top four ranked teams make the semi-finals for first time",
+          "url": "https://www.bbc.com/sport/football/articles/c2ey9l3yl4vo",
+          "source": "BBC"
+        },
+        {
+          "title": "World Cup semifinals bracket predictions: Picking the winners and key players for final four",
+          "url": "https://www.nytimes.com/athletic/7439547/2026/07/11/world-cup-semifinals-bracket-predictions/",
+          "source": "The New York Times"
+        },
+        {
+          "title": "Messi vs Kane - Mbappé vs Yamal... World Cup&apos;s \"Historic Semi-Final Matchups\" Confirmed",
+          "url": "https://www.starnewskorea.com/en/sports/2026/07/12/2026071212444742799",
+          "source": "스타뉴스"
+        }
+      ]
+    },
+    {
+      "query": "ranking fifa",
+      "geo": "CO",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Ranking de la FIFA tras la eliminación de la Selección Colombia a manos de Suiza en los penales",
+          "url": "https://www.eltiempo.com/deportes/futbol-internacional/colombia-paga-cara-la-triste-eliminacion-del-mundial-a-manos-de-suiza-en-los-penales-asi-quedo-en-el-escalafon-de-la-fifa-3569869",
+          "source": "ELTIEMPO.com"
+        },
+        {
+          "title": "Goleadores de Colombia en el Mundial 2026: ¿quién terminó como máximo anotador?",
+          "url": "https://www.365scores.com/es/news/goleadores-de-colombia-en-el-mundial/",
+          "source": "365Scores"
+        },
+        {
+          "title": "Estos fueron los jugadores mejor calificados de la Selección Colombia en el Mundial 2026: sorpresa con los dos primeros",
+          "url": "https://www.infobae.com/colombia/deportes/2026/07/08/estos-fueron-los-jugadores-mejor-calificados-de-la-seleccion-colombia-en-el-mundial-2026-sorpresa-con-los-dos-primeros/",
+          "source": "Infobae"
+        }
+      ]
+    },
+    {
+      "query": "mundial 2018",
+      "geo": "CO",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Solo quedan cuatro sobrevivientes de Francia que ganó el Mundial 2018",
+          "url": "https://www.futbolred.com/mundial-2026/solo-quedan-cuatro-sobrevivientes-de-francia-que-gano-el-mundial-2018-270146",
+          "source": "Futbolred"
+        },
+        {
+          "title": "Mundial 2026: Estos son los 4 jugadores de la selección de Francia que fueron campeones de mundo en Rusia 2018",
+          "url": "https://www.posta.com.mx/share/mundial-2026-los-cuatro-campeones-de-rusia-2018-que-lideran-a-francia/vl2228103",
+          "source": "PostaMx"
+        },
+        {
+          "title": "Juan Carlos Osorio apuntó a Lorenzo tras la Copa Mundial de la FIFA™",
+          "url": "https://www.winsports.co/seleccion-colombia/noticias/juan-carlos-osorio-apunto-a-lorenzo-tras-la-copa-mundial-de-la-fifa-444822",
+          "source": "Win Sports"
+        }
+      ]
+    },
+    {
+      "query": "ranking fifa",
+      "geo": "CL",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Chile vuelve al Top 50 del ranking FIFA en pleno Mundial 2026: sigue en el fondo de Sudamérica",
+          "url": "https://redgol.cl/seleccionchilena/chile-vuelve-al-top-50-del-ranking-fifa-en-pleno-mundial-2026-sigue-en-el-fondo-de-sudamerica",
+          "source": "RedGol"
+        },
+        {
+          "title": "Datos, no opiniones: Chile sigue como el cuarto grande de Sudamérica tras adiós de Colombia en el Mundial 2026",
+          "url": "https://www.msn.com/es-cl/deportes/futbol/datos-no-opiniones-chile-sigue-como-el-cuarto-grande-de-sudam%C3%A9rica-tras-adi%C3%B3s-de-colombia-en-el-mundial-2026/ar-AA27unOS",
+          "source": "MSN"
+        },
+        {
+          "title": "Sin ir al Mundial: La Roja escala en el Ranking FIFA y vuelve a entrar al top 50",
+          "url": "https://bolavip.com/cl/seleccionchilena/sin-ir-al-mundial-la-roja-escala-en-el-ranking-fifa-y-vuelve-a-entrar-al-top-50",
+          "source": "Bolavip Chile"
+        }
+      ]
+    },
+    {
+      "query": "ranking fifa",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 5000,
+      "articles": [
+        {
+          "title": "World Cup live updates, results: Argentina joins England, Spain and France in stacked semifinal field",
+          "url": "https://sports.yahoo.com/soccer/live/world-cup-bracket-schedule-scores-results-live-updates-quarterfinals-203257966.html",
+          "source": "Yahoo Sports"
+        },
+        {
+          "title": "England’s Jude Bellingham scores equalizer vs Norway | 2026 FIFA World Cup™",
+          "url": "https://www.foxsports.com/watch/fmc-4vso7wlg4sty49vm?cmpid=google-one-box",
+          "source": "FOX Sports"
+        },
+        {
+          "title": "Norway and England face extreme heat in Miami World Cup game, this is what happens to a player - The Athletic",
+          "url": "https://www.nytimes.com/athletic/7362162/2026/07/11/world-cup-heat-players-what-happens/",
+          "source": "The New York Times"
+        }
+      ]
+    },
+    {
+      "query": "mundial 2022",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Agentes del FBI y fiscales federales toman testimonios para investigar operaciones financieras de la AFA en Estados Unidos",
+          "url": "https://www.lanacion.com.ar/politica/agentes-del-fbi-y-fiscales-federales-toman-testimonios-para-investigar-operaciones-financieras-de-la-nid06072026/",
+          "source": "La Nación"
+        },
+        {
+          "title": "¡En pleno Mundial 2026! Argentina en polémica tras investigación por presunto fraude",
+          "url": "https://www.tudn.com/mundial-2026/argentina-vs-suiza/en-pleno-mundial-2026-argentina-en-polemica-tras-investigacion-por-presunto-fraude",
+          "source": "TUDN"
+        },
+        {
+          "title": "El FBI investiga operaciones de la AFA por más de US$300 millones en pleno Mundial 2026",
+          "url": "https://es-us.noticias.yahoo.com/el-fbi-investiga-operaciones-de-la-afa-por-mas-de-us300-millones-en-pleno-mundial-2026-162000102.html",
+          "source": "Yahoo"
+        }
+      ]
+    },
+    {
+      "query": "francia españa",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Los datos de España y Francia: ¿quién ha jugado mejor en el Mundial?",
+          "url": "https://elpais.com/deportes/mundial-futbol/2026-07-12/los-datos-de-espana-y-francia-quien-ha-jugado-mejor-en-el-mundial.html",
+          "source": "EL PAÍS"
+        },
+        {
+          "title": "El partido del siglo",
+          "url": "https://as.com/futbol/mundial/el-partido-del-siglo-f202607-n/",
+          "source": "Diario AS"
+        },
+        {
+          "title": "Cuándo juegan España vs. Francia en semifinales de final del Mundial 2026: equipo, fecha, hora y TV en vivo",
+          "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16989745/espana-vs-francia-semifinales-semis-mundial-2026-equipo-fecha-hora-y-tv-en-vivo",
+          "source": "ESPN Deportes"
+        }
+      ]
+    },
+    {
+      "query": "arquero de suiza",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Quién es el arquero de Suiza, el ataja-penales que no pudo con Argentina",
+          "url": "https://www.tycsports.com/seleccion-argentina/quien-es-el-arquero-de-suiza-que-jugara-contra-la-seleccion-argentina-id749156.html",
+          "source": "TyC Sports"
+        },
+        {
+          "title": "Rechazó dedicarse al hockey y hoy es de los mejores arqueros del Mundial 2026: ahora buscará parar a Messi",
+          "url": "https://www.tvazteca.com/aztecadeportes/rechazo-dedicarse-al-hockey-y-hoy-es-uno-de-los-mejores-arqueros-del-mundial-ahora-buscara-parar-a-messi/",
+          "source": "TV Azteca"
+        },
+        {
+          "title": "Los trucos de Kobel",
+          "url": "https://www.mundodeportivo.com/futbol/mundial/20260711/1004205130/trucos-kobel.html",
+          "source": "Mundo Deportivo"
+        }
+      ]
+    },
+    {
+      "query": "josé manuel lópez",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "La lesión de Leandro Paredes: qué le pasó al volante de Argentina vs. Suiza en los cuartos de final del Mundial 2026",
+          "url": "https://www.sportingnews.com/es/futbol/news/lesion-leandro-paredes-vs-suiza/c232599d141c867e8477a226",
+          "source": "Sporting News"
+        },
+        {
+          "title": "&apos;Tiene mucha historia y dolor&apos;: Flaco López habla del partido ante Inglaterra que siempre &apos;soñó jugar&apos;",
+          "url": "https://www.mediotiempo.com/futbol/copa-mundial/tiene-mucha-historia-dolor-flaco-lopez-partido-inglaterra-siempre-sono-jugar",
+          "source": "Mediotiempo"
+        },
+        {
+          "title": "Paredes ya vive el clásico: \"Siempre soñé jugar un Mundial y contra Inglaterra\"",
+          "url": "https://www.mundodeportivo.com/futbol/mundial/20260712/1004205593/paredes-vive-clasico-siempre-sone-jugar-mundial-inglaterra.html",
+          "source": "Mundo Deportivo"
+        }
+      ]
+    },
+    {
+      "query": "miro muheim",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "WM 2026: Miro Muheim - \"WM war ein unglaubliches Erlebnis\"",
+          "url": "https://www.sportschau.de/fussball/fifa-wm-2026/miro-muheim-wm-war-ein-unglaubliches-erlebnis,wm-int-muheim-100.html",
+          "source": "sportschau.de"
+        },
+        {
+          "title": "WM-Fahrer Miro Muheim: Warum sein Wert beim HSV schwer zu beziffern ist",
+          "url": "https://www.abendblatt.de/sport/hsv/article412537379/miro-muheim-hsv-schweiz-wm.html",
+          "source": "Hamburger Abendblatt"
+        },
+        {
+          "title": "HSV bangt um Muheim: WM macht Zukunftsfrage brisant",
+          "url": "https://www.mopo.de/sport/hsv/zwischen-wm-viertelfinale-und-vertragspoker-muheim-sorgt-beim-hsv-fuer-spannung/4876862",
+          "source": "MOPO"
+        }
+      ]
+    },
+    {
+      "query": "inglaterra vs argentina",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 5000,
+      "articles": [
+        {
+          "title": "Mundial 2026, últimas noticias en directo | Inglaterra y Argentina se enfrentarán en semifinales",
+          "url": "https://elpais.com/deportes/mundial-futbol/2026-07-12/resumen-y-ultimas-noticias-de-la-copa-mundial-de-futbol.html",
+          "source": "EL PAÍS"
+        },
+        {
+          "title": "El historial de enfrentamientos entre Inglaterra y Argentina",
+          "url": "https://www.si.com/es-us/futbol/el-historial-de-enfrentamientos-entre-inglaterra-y-argentina",
+          "source": "Sports Illustrated"
+        },
+        {
+          "title": "Malvinas, Maradona y una final en juego: Argentina e Inglaterra vuelven a cruzarse en un Mundial",
+          "url": "https://www.expreso.ec/deportes/copa-mundial-de-futbol/malvinas-maradona-final-juego-argentina-e-inglaterra-vuelven-cruzarse-mundial-288943.html",
+          "source": "expreso.ec"
+        }
+      ]
+    },
+    {
+      "query": "argentina vs inglaterra",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "World Cup semifinals bracket predictions: Picking the winners and key players for final four",
+          "url": "https://www.nytimes.com/athletic/7439547/2026/07/11/world-cup-semifinals-bracket-predictions/",
+          "source": "The New York Times"
+        },
+        {
+          "title": "World Cup 2026: Top four ranked teams make the semi-finals for first time",
+          "url": "https://www.bbc.com/sport/football/articles/c2ey9l3yl4vo",
+          "source": "BBC"
+        },
+        {
+          "title": "2026 World Cup Bracket: Historic Semifinal Matchups Set",
+          "url": "https://www.foxsports.com/stories/soccer/2026-world-cup-bracket-semifinals-finals-matchups",
+          "source": "FOX Sports"
+        }
+      ]
+    },
+    {
+      "query": "kobel",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Sportschau FIFA WM 2026 - Gregor Kobel - &apos;Bin stolz auf die Mannschaft&apos; - hier anschauen",
+          "url": "https://www.ardmediathek.de/video/sportschau-fifa-wm-2026/gregor-kobel-bin-stolz-auf-die-mannschaft/das-erste/Y3JpZDovL3Nwb3J0c2NoYXUuZGUvMmFiZWM0NGUtOTkwMS00N2M5LTgxZjEtYzNhODcyMDBhZTEz",
+          "source": "ARD Mediathek"
+        },
+        {
+          "title": "Kobel pariert Seitfallzieher von Lisandro Martinez glänzend",
+          "url": "https://www.srf.ch/play/tv/redirect/detail/urn:srf:video:29349ef1-6c62-4d6c-804f-0bcbef2f7283",
+          "source": "SRF"
+        },
+        {
+          "title": "Der Torwart der Schweizer Nationalmannschaft verrät sein Geheimnis, wie er im Elfmeterschießen hält, in Vorbereitung auf das Spiel gegen Argentinien.",
+          "url": "https://www.vietnam.vn/de/thu-mon-tuyen-thuy-si-he-lo-bi-quyet-bat-luan-luu-nham-chuan-bi-dau-argentina",
+          "source": "Vietnam.vn"
+        }
+      ]
+    },
+    {
+      "query": "infantino",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Yo, contra todos | Mundial 2026: Donald Trump le torció el brazo a la FIFA y al fútbol",
+          "url": "https://www.expreso.ec/deportes/copa-mundial-de-futbol/mundial-2026-donald-trump-le-torcio-brazo-fifa-futbol-288895.html",
+          "source": "expreso.ec"
+        },
+        {
+          "title": "José Carlos Crespo: &apos;Nunca hemos visto una intromisión de un poder fáctico&apos;",
+          "url": "https://www.teleamazonas.com/actualidad/24horas/entrevistas/jose-carlos-crespo-nunca-hemos-visto-intromision-factico-122060/",
+          "source": "Teleamazonas"
+        },
+        {
+          "title": "Infantino abre la puerta a un Mundial con 64 selecciones",
+          "url": "https://www.ecuagol.com/noticias/internacionales/infantino-abre-la-puerta-a-un-mundial-con-64-selecciones/224004/",
+          "source": "Ecuagol"
+        }
+      ]
+    },
+    {
+      "query": "argentina vs inglaterra",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "¿Cuándo juega la selección Argentina ante Inglaterra la semifinal del Mundial 2026?",
+          "url": "https://www.elobservador.com.uy/mundial-2026/cuando-juega-la-seleccion-argentina-inglaterra-la-semifinal-del-mundial-2026-n6050478",
+          "source": "El Observador"
+        },
+        {
+          "title": "Contundente advertencia de Scaloni sobre la semifinal de Argentina contra Inglaterra en el Mundial: “No busquemos otra cosa”",
+          "url": "https://www.infobae.com/deportes/2026/07/12/contundente-advertencia-de-scaloni-sobre-la-semifinal-de-argentina-contra-inglaterra-en-el-mundial-no-busquemos-otra-cosa/",
+          "source": "Infobae"
+        },
+        {
+          "title": "El historial de enfrentamientos entre Inglaterra y Argentina",
+          "url": "https://www.si.com/es-us/futbol/el-historial-de-enfrentamientos-entre-inglaterra-y-argentina",
+          "source": "Sports Illustrated"
+        }
+      ]
+    },
+    {
+      "query": "kobel",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Sportschau FIFA WM 2026 - Gregor Kobel - &apos;Bin stolz auf die Mannschaft&apos; - hier anschauen",
+          "url": "https://www.ardmediathek.de/video/sportschau-fifa-wm-2026/gregor-kobel-bin-stolz-auf-die-mannschaft/das-erste/Y3JpZDovL3Nwb3J0c2NoYXUuZGUvMmFiZWM0NGUtOTkwMS00N2M5LTgxZjEtYzNhODcyMDBhZTEz",
+          "source": "ARD Mediathek"
+        },
+        {
+          "title": "Kobel pariert Seitfallzieher von Lisandro Martinez glänzend",
+          "url": "https://www.srf.ch/play/tv/redirect/detail/urn:srf:video:29349ef1-6c62-4d6c-804f-0bcbef2f7283",
+          "source": "SRF"
+        },
+        {
+          "title": "Der Torwart der Schweizer Nationalmannschaft verrät sein Geheimnis, wie er im Elfmeterschießen hält, in Vorbereitung auf das Spiel gegen Argentinien.",
+          "url": "https://www.vietnam.vn/de/thu-mon-tuyen-thuy-si-he-lo-bi-quyet-bat-luan-luu-nham-chuan-bi-dau-argentina",
+          "source": "Vietnam.vn"
+        }
+      ]
+    },
+    {
+      "query": "dan ndoye",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "World Cup 2026: Argentina vs Switzerland - Dan Ndoye goal",
+          "url": "https://www.bbc.com/sport/football/videos/cj4g7rl79ero",
+          "source": "BBC"
+        },
+        {
+          "title": "Dan Ndoye slides it under Emi Martínez to equalize 🇨🇭",
+          "url": "https://www.foxsports.com/watch-vertical/fmc-9ov6h115a48a5hqe",
+          "source": "FOX Sports"
+        },
+        {
+          "title": "Can Dan Ndoye reach the World Cup semi-finals?",
+          "url": "https://roundtable.io/sports/soccer/premier-league/nottingham-forest/community/match-day/can-dan-ndoye-reach-the-world-cup-semi-finals",
+          "source": "roundtable.io"
+        }
+      ]
+    },
+    {
+      "query": "breel embolo",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "Switzerland furious as Embolo gets red card for diving after VAR review",
+          "url": "https://www.espn.com/soccer/story/_/id/49339724/switzerland-breel-embolo-red-card-diving-var-argentina-2026-world-cup",
+          "source": "ESPN"
+        },
+        {
+          "title": "Lionel Messi and Argentina march into World Cup semi-finals but what about ‘mistaken identity’ red card?",
+          "url": "https://www.nytimes.com/athletic/7430685/2026/07/11/argentina-switzerland-world-cup-result-analysis/",
+          "source": "The New York Times"
+        },
+        {
+          "title": "World Cup 2026: Breel Embolo sent off as result of mistaken identity rule",
+          "url": "https://www.bbc.com/sport/football/articles/ckg0k5gdr79o",
+          "source": "BBC"
+        }
+      ]
+    },
+    {
+      "query": "dibu martinez",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "La emotiva arenga del \"Dibu\" Martínez antes de saltar a la cancha: \"Con el corazón hoy, solo eso\"",
+          "url": "https://www.telemundo.com/deportes/copa-mundial-de-la-fifa-2026/video/la-emotiva-arenga-del-dibu-martinez-antes-de-saltar-a-la-cancha-con-el-corazon-hoy-solo-eso-tmvo13202930",
+          "source": "Telemundo"
+        },
+        {
+          "title": "Dibu Martínez saltó al campo de juego",
+          "url": "https://www.directvsports.com/x2twitter_com_3q1g2zckdw4eaw_q_720p-vf20260711mp4.html",
+          "source": "dsports"
+        },
+        {
+          "title": "La gran atajada de Dibu Martínez en la Selección Argentina vs. Suiza por el Mundial 2026",
+          "url": "https://www.eldestapeweb.com/deportes/gran-atajada-dibu-martinez-seleccion-argentina-vs-suiza-mundial-2026-2026711225257",
+          "source": "El Destape"
+        }
+      ]
+    },
+    {
+      "query": "when do france play spain",
+      "geo": "GB",
+      "language": "en",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "World Cup 2026: Mikel Merino the unlikely hero again as Spain wait for Lamine Yamal show",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cvg50pvejzdo",
+          "source": "BBC"
+        },
+        {
+          "title": "FIFA World Cup 2026 stats: Merino makes World Cup history; Yamal-Cubarsi first since Pele-Altafini",
+          "url": "https://www.espn.co.uk/football/story/_/id/49329568/fifa-world-cup-2026-stats-mikel-merino-makes-history-lamine-yamal-pau-cubarsi-first-pele-altafini-spain-belgium",
+          "source": "ESPN"
+        },
+        {
+          "title": "Merino puts Spain into World Cup semi-finals as Belgium rue costly Courtois injury",
+          "url": "https://www.theguardian.com/football/2026/jul/10/spain-belgium-world-cup-2026-quarter-final-match-report",
+          "source": "The Guardian"
+        }
+      ]
+    },
+    {
+      "query": "top 10 des meilleurs buteurs de la coupe du monde 2026",
+      "geo": "FR",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "Coupe du Monde 2026 : le classement des meilleurs buteurs",
+          "url": "https://www.footmercato.net/a187935822013609572-coupe-du-monde-2026-le-classement-des-meilleurs-buteurs",
+          "source": "Foot Mercato"
+        },
+        {
+          "title": "Coupe du monde. Selon vous, Kylian Mbappé est-il le meilleur joueur de l’histoire des Bleus ?",
+          "url": "https://www.ouest-france.fr/sport/football/kylian-mbappe/coupe-du-monde-selon-vous-kylian-mbappe-est-il-le-meilleur-joueur-de-lhistoire-des-bleus-50d4cf00-7c5f-11f1-b616-dddac7a26294",
+          "source": "Ouest-France"
+        },
+        {
+          "title": "Équipe de France : \"Mbappé et Griezmann à la table de Zidane et Platini\" juge Riolo",
+          "url": "https://rmcsport.bfmtv.com/football/equipe-de-france/video-equipe-de-france-mbappe-et-griezmann-a-la-table-de-zidane-et-platini-juge-riolo_VN-202607100895.html",
+          "source": "RMC Sport"
+        }
+      ]
+    },
+    {
+      "query": "braut",
+      "geo": "DE",
+      "language": "de",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "World Cup 2026: Why Erling Haaland has &apos;Braut&apos; on the back of his Norway jersey",
+          "url": "https://sports.yahoo.com/soccer/article/world-cup-2026-why-erling-haaland-has-braut-on-the-back-of-his-norway-jersey-181657227.html",
+          "source": "Yahoo Sports"
+        },
+        {
+          "title": "Why does Erling Haaland&apos;s World Cup jersey say Braut Haaland?",
+          "url": "https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/11/erling-haaland-jersey-braut-haaland-world-cup-norway/90883347007/",
+          "source": "USA Today"
+        },
+        {
+          "title": "As England braces for Haaland, can we claim his name?",
+          "url": "https://www.bbc.com/news/articles/cze9zekxxlwo",
+          "source": "BBC"
+        }
+      ]
+    },
+    {
+      "query": "campeonato do mundo",
+      "geo": "PT",
+      "language": "pt",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "O Mundial de 2026 e a reconfiguração do futebol como ativo estratégico global",
+          "url": "https://www.abola.pt/noticias/o-mundial-de-2026-e-a-reconfiguracao-do-futebol-como-ativo-estrategico-global-2026071116262553161",
+          "source": "A Bola"
+        },
+        {
+          "title": "Onde ver a final do Mundial 2026 na TV em Portugal",
+          "url": "https://www.record.pt/casas-de-apostas/onde-ver/onde-ver-final-mundial-2026/",
+          "source": "Record"
+        },
+        {
+          "title": "Multidões, chuva de golos e exibições de estrelas: os recordes estabelecidos no Mundial-2026",
+          "url": "https://www.flashscore.pt/noticias/futebol-campeonato-do-mundo-multidoes-chuva-de-golos-e-exibicoes-de-estrelas-os-recordes-estabelecidos-no-mundial-2026/4xLtDyqL/",
+          "source": "Flashscore.pt"
+        }
+      ]
+    },
+    {
+      "query": "brad pitt",
+      "geo": "AU",
+      "language": "en",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Brad Pitt and girlfriend Ines de Ramon share steamy kiss at FIFA World Cup 2026 match",
+          "url": "https://pagesix.com/2026/07/11/celebrity-news/brad-pitt-and-girlfriend-ines-de-ramon-share-steamy-kiss-at-fifa-world-cup-2026-match/",
+          "source": "Page Six"
+        },
+        {
+          "title": "World Cup 2026: Penelope Cruz and Noel Gallagher spotted at Spain v Belgium",
+          "url": "https://www.bbc.com/sport/videos/ckg0kzwe4njo",
+          "source": "BBC"
+        },
+        {
+          "title": "Brad Pitt and Ines de Ramon Bring the Heat With World Cup 2026 Date",
+          "url": "https://www.yahoo.com/entertainment/celebrity/articles/brad-pitt-ines-ramon-bring-220347822.html",
+          "source": "Yahoo"
+        }
+      ]
+    },
+    {
+      "query": "breel embolo",
+      "geo": "MA",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "World Cup 2026: Breel Embolo sent off as result of mistaken identity rule",
+          "url": "https://www.bbc.com/sport/football/articles/ckg0k5gdr79o",
+          "source": "BBC"
+        },
+        {
+          "title": "Licensable picture: Argentina v Switzerland - FIFA World Cup 2026 - Quarter Finals",
+          "url": "https://www.reutersconnect.com/item/argentina-v-switzerland-fifa-world-cup-2026-quarter-finals/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX01UMUFOQURMMDAwNDBINEVG",
+          "source": "Reuters Connect"
+        },
+        {
+          "title": "Frustrated Xhaka: With this decision, the referee killed the match",
+          "url": "https://www.koha.net/en/boterori-2026/xhaka-i-frustruar-me-kete-vendim-arbitri-e-mbyti-ndeshjen",
+          "source": "KOHA.net"
+        }
+      ]
+    },
+    {
+      "query": "argentinien – schweiz",
+      "geo": "MA",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "WM 2026: Jetzt Halbfinale gegen Kane: Blut-Sieg für Lionel Messi bei Argentinien – Schweiz",
+          "url": "https://www.bild.de/sport/fussball/wm-2026-jetzt-halbfinale-gegen-kane-blut-sieg-fuer-lionel-messi-bei-argentinien-schweiz-6a52e83536e98236c4bc5a08",
+          "source": "BILD"
+        },
+        {
+          "title": "Alvarez&apos; brillante Leistung, gepaart mit Messis Genie, verhalf Argentinien zu einem entscheidenden Spiel gegen England.",
+          "url": "https://www.vietnam.vn/de/alvarez-xuat-than-ket-hop-messi-thien-tai-dua-argentina-vao-dai-chien-voi-anh",
+          "source": "Vietnam.vn"
+        },
+        {
+          "title": "Sow in der Startelf, Vargas auf der Ersatzbank",
+          "url": "https://www.bluewin.ch/de/sport/fussball/sow-in-der-startelf-vargas-auf-der-ersatzbank-li.3525319",
+          "source": "bluewin.ch"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "en": [
+      {
+        "query": "france vs spain world cup 2026",
+        "score": 240,
+        "geos": [
+          "CA"
+        ],
+        "samples": [
+          {
+            "query": "france vs spain world cup 2026",
+            "geo": "CA",
+            "language": "en",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Yamal says France should fear Spain in their anticipated World Cup semifinal",
+                "url": "https://www.sportsnet.ca/fifa-world-cup/article/yamal-says-france-should-fear-spain-in-their-anticipated-world-cup-semifinal/",
+                "source": "Sportsnet.ca"
+              },
+              {
+                "title": "Mikel Merino is &apos;tailor-made&apos; for Spain&apos;s playing style as Luis de la Fuente hails vital impact in World Cup win against Belgium",
+                "url": "https://ca.sports.yahoo.com/news/mikel-merino-tailor-made-spains-053116442.html",
+                "source": "Yahoo Sports Canada"
+              },
+              {
+                "title": "France vs. Spain odds, lines, predictions: 2026 World Cup semifinal picks from proven soccer expert",
+                "url": "https://www.sportsline.com/insiders/france-vs-spain-odds-lines-predictions-2026-world-cup-semifinal-picks-from-proven-soccer-expert/",
+                "source": "SportsLine"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "when do france play spain",
+        "score": 220.00000000000003,
+        "geos": [
+          "GB"
+        ],
+        "samples": [
+          {
+            "query": "when do france play spain",
+            "geo": "GB",
+            "language": "en",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "World Cup 2026: Mikel Merino the unlikely hero again as Spain wait for Lamine Yamal show",
+                "url": "https://www.bbc.co.uk/sport/football/articles/cvg50pvejzdo",
+                "source": "BBC"
+              },
+              {
+                "title": "FIFA World Cup 2026 stats: Merino makes World Cup history; Yamal-Cubarsi first since Pele-Altafini",
+                "url": "https://www.espn.co.uk/football/story/_/id/49329568/fifa-world-cup-2026-stats-mikel-merino-makes-history-lamine-yamal-pau-cubarsi-first-pele-altafini-spain-belgium",
+                "source": "ESPN"
+              },
+              {
+                "title": "Merino puts Spain into World Cup semi-finals as Belgium rue costly Courtois injury",
+                "url": "https://www.theguardian.com/football/2026/jul/10/spain-belgium-world-cup-2026-quarter-final-match-report",
+                "source": "The Guardian"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "noticias de hoje",
+        "score": 140,
+        "geos": [
+          "US"
+        ],
+        "samples": [
+          {
+            "query": "noticias de hoje",
+            "geo": "US",
+            "language": "en",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Climão? Bellingham contraria Tuchel em classificação da Inglaterra: &apos;Talvez não saiba como é jogar nessa condição&apos;",
+                "url": "https://oglobo.globo.com/esportes/copa-do-mundo-2026/noticia/2026/07/11/climao-bellingham-contraria-tuchel-em-classificacao-da-inglaterra-talvez-nao-saiba-como-e-jogar-nessa-condicao.ghtml",
+                "source": "O GLOBO"
+              },
+              {
+                "title": "Tuchel critica atuação da Inglaterra, e Bellingham responde: &apos;Tanto faz&apos;",
+                "url": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/07/11/tuchel-critica-atuacao-da-inglaterra-e-bellingham-responde-tanto-faz.ghtm",
+                "source": "UOL"
+              },
+              {
+                "title": "Quem é Thomas Tuchel? Conheça técnico da Inglaterra na Copa do Mundo 2026",
+                "url": "https://www.sportingnews.com/br/futebol/noticias/quem-e-thomas-tuchel-conheca-tecnico-inglaterra-copa-do-mundo-2026/e1f4372174c6f745938d69bb",
+                "source": "www.sportingnews.com"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "brad pitt",
+        "score": 140,
+        "geos": [
+          "AU"
+        ],
+        "samples": [
+          {
+            "query": "brad pitt",
+            "geo": "AU",
+            "language": "en",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Brad Pitt and girlfriend Ines de Ramon share steamy kiss at FIFA World Cup 2026 match",
+                "url": "https://pagesix.com/2026/07/11/celebrity-news/brad-pitt-and-girlfriend-ines-de-ramon-share-steamy-kiss-at-fifa-world-cup-2026-match/",
+                "source": "Page Six"
+              },
+              {
+                "title": "World Cup 2026: Penelope Cruz and Noel Gallagher spotted at Spain v Belgium",
+                "url": "https://www.bbc.com/sport/videos/ckg0kzwe4njo",
+                "source": "BBC"
+              },
+              {
+                "title": "Brad Pitt and Ines de Ramon Bring the Heat With World Cup 2026 Date",
+                "url": "https://www.yahoo.com/entertainment/celebrity/articles/brad-pitt-ines-ramon-bring-220347822.html",
+                "source": "Yahoo"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "es": [
+      {
+        "query": "lionel messi",
+        "score": 26000,
+        "geos": [
+          "AR"
+        ],
+        "samples": [
+          {
+            "query": "lionel messi",
+            "geo": "AR",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 20000,
+            "articles": [
+              {
+                "title": "World Cup 2026:",
+                "url": "https://www.bbc.com/sport/football/articles/cvgexz4qdlgo",
+                "source": "BBC"
+              },
+              {
+                "title": "England vs. Argentina Confirmed For Semifinals: Here&apos;s What To Know",
+                "url": "https://www.foxsports.com/stories/soccer/england-vs-argentina-confirmed-semifinals-heres-what-know",
+                "source": "FOX Sports"
+              },
+              {
+                "title": "Lionel Messi stands in England’s way – this is how they can beat Argentina",
+                "url": "https://www.telegraph.co.uk/football/2026/07/12/argentina-v-switzerland-latest-world-cup-quarter-finals/",
+                "source": "The Telegraph"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "fixture mundial 2026",
+        "score": 13000,
+        "geos": [
+          "AR"
+        ],
+        "samples": [
+          {
+            "query": "fixture mundial 2026",
+            "geo": "AR",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 10000,
+            "articles": [
+              {
+                "title": "Mundial 2026: cómo se jugarán las Semifinales y los cruces, días y horarios",
+                "url": "https://www.pagina12.com.ar/2026/07/10/como-se-jugaran-las-semifinales-cruces-dias-y-horarios/",
+                "source": "Página|12"
+              },
+              {
+                "title": "Partidos del Mundial de hoy, sábado 11 de julio: hora, dónde ver en vivo y resultados",
+                "url": "https://www.tycsports.com/mundial/partidos-del-mundial-de-hoy-sabado-11-de-julio-hora-donde-ver-en-vivo-y-resultados-id748917.html",
+                "source": "TyC Sports"
+              },
+              {
+                "title": "Con el picante Argentina-Inglaterra, estas son las semifinales del Mundial",
+                "url": "https://www.ole.com.ar/mundial/mundial-2026/mundial-semifinales-llave-cuadro-francia-espana-argentina-seleccion-inglaterra_0_xRZlPl0bQl.html",
+                "source": "Olé"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "cuando juega francia y españa",
+        "score": 6500,
+        "geos": [
+          "AR"
+        ],
+        "samples": [
+          {
+            "query": "cuando juega francia y españa",
+            "geo": "AR",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 5000,
+            "articles": [
+              {
+                "title": "Los datos de España y Francia: ¿quién ha jugado mejor en el Mundial?",
+                "url": "https://elpais.com/deportes/mundial-futbol/2026-07-12/los-datos-de-espana-y-francia-quien-ha-jugado-mejor-en-el-mundial.html",
+                "source": "EL PAÍS"
+              },
+              {
+                "title": "El partido del siglo",
+                "url": "https://as.com/futbol/mundial/el-partido-del-siglo-f202607-n/",
+                "source": "Diario AS"
+              },
+              {
+                "title": "Cuándo juegan España vs. Francia en semifinales de final del Mundial 2026: equipo, fecha, hora y TV en vivo",
+                "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16989745/espana-vs-francia-semifinales-semis-mundial-2026-equipo-fecha-hora-y-tv-en-vivo",
+                "source": "ESPN Deportes"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "ranking fifa",
+        "score": 5450,
+        "geos": [
+          "CO",
+          "CL",
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "ranking fifa",
+            "geo": "CO",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Ranking de la FIFA tras la eliminación de la Selección Colombia a manos de Suiza en los penales",
+                "url": "https://www.eltiempo.com/deportes/futbol-internacional/colombia-paga-cara-la-triste-eliminacion-del-mundial-a-manos-de-suiza-en-los-penales-asi-quedo-en-el-escalafon-de-la-fifa-3569869",
+                "source": "ELTIEMPO.com"
+              },
+              {
+                "title": "Goleadores de Colombia en el Mundial 2026: ¿quién terminó como máximo anotador?",
+                "url": "https://www.365scores.com/es/news/goleadores-de-colombia-en-el-mundial/",
+                "source": "365Scores"
+              },
+              {
+                "title": "Estos fueron los jugadores mejor calificados de la Selección Colombia en el Mundial 2026: sorpresa con los dos primeros",
+                "url": "https://www.infobae.com/colombia/deportes/2026/07/08/estos-fueron-los-jugadores-mejor-calificados-de-la-seleccion-colombia-en-el-mundial-2026-sorpresa-con-los-dos-primeros/",
+                "source": "Infobae"
+              }
+            ]
+          },
+          {
+            "query": "ranking fifa",
+            "geo": "CL",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Chile vuelve al Top 50 del ranking FIFA en pleno Mundial 2026: sigue en el fondo de Sudamérica",
+                "url": "https://redgol.cl/seleccionchilena/chile-vuelve-al-top-50-del-ranking-fifa-en-pleno-mundial-2026-sigue-en-el-fondo-de-sudamerica",
+                "source": "RedGol"
+              },
+              {
+                "title": "Datos, no opiniones: Chile sigue como el cuarto grande de Sudamérica tras adiós de Colombia en el Mundial 2026",
+                "url": "https://www.msn.com/es-cl/deportes/futbol/datos-no-opiniones-chile-sigue-como-el-cuarto-grande-de-sudam%C3%A9rica-tras-adi%C3%B3s-de-colombia-en-el-mundial-2026/ar-AA27unOS",
+                "source": "MSN"
+              },
+              {
+                "title": "Sin ir al Mundial: La Roja escala en el Ranking FIFA y vuelve a entrar al top 50",
+                "url": "https://bolavip.com/cl/seleccionchilena/sin-ir-al-mundial-la-roja-escala-en-el-ranking-fifa-y-vuelve-a-entrar-al-top-50",
+                "source": "Bolavip Chile"
+              }
+            ]
+          },
+          {
+            "query": "ranking fifa",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 5000,
+            "articles": [
+              {
+                "title": "World Cup live updates, results: Argentina joins England, Spain and France in stacked semifinal field",
+                "url": "https://sports.yahoo.com/soccer/live/world-cup-bracket-schedule-scores-results-live-updates-quarterfinals-203257966.html",
+                "source": "Yahoo Sports"
+              },
+              {
+                "title": "England’s Jude Bellingham scores equalizer vs Norway | 2026 FIFA World Cup™",
+                "url": "https://www.foxsports.com/watch/fmc-4vso7wlg4sty49vm?cmpid=google-one-box",
+                "source": "FOX Sports"
+              },
+              {
+                "title": "Norway and England face extreme heat in Miami World Cup game, this is what happens to a player - The Athletic",
+                "url": "https://www.nytimes.com/athletic/7362162/2026/07/11/world-cup-heat-players-what-happens/",
+                "source": "The New York Times"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "inglaterra vs argentina",
+        "score": 4000,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "inglaterra vs argentina",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 5000,
+            "articles": [
+              {
+                "title": "Mundial 2026, últimas noticias en directo | Inglaterra y Argentina se enfrentarán en semifinales",
+                "url": "https://elpais.com/deportes/mundial-futbol/2026-07-12/resumen-y-ultimas-noticias-de-la-copa-mundial-de-futbol.html",
+                "source": "EL PAÍS"
+              },
+              {
+                "title": "El historial de enfrentamientos entre Inglaterra y Argentina",
+                "url": "https://www.si.com/es-us/futbol/el-historial-de-enfrentamientos-entre-inglaterra-y-argentina",
+                "source": "Sports Illustrated"
+              },
+              {
+                "title": "Malvinas, Maradona y una final en juego: Argentina e Inglaterra vuelven a cruzarse en un Mundial",
+                "url": "https://www.expreso.ec/deportes/copa-mundial-de-futbol/malvinas-maradona-final-juego-argentina-e-inglaterra-vuelven-cruzarse-mundial-288943.html",
+                "source": "expreso.ec"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "argentina vs inglaterra",
+        "score": 3400,
+        "geos": [
+          "EC",
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "argentina vs inglaterra",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "World Cup semifinals bracket predictions: Picking the winners and key players for final four",
+                "url": "https://www.nytimes.com/athletic/7439547/2026/07/11/world-cup-semifinals-bracket-predictions/",
+                "source": "The New York Times"
+              },
+              {
+                "title": "World Cup 2026: Top four ranked teams make the semi-finals for first time",
+                "url": "https://www.bbc.com/sport/football/articles/c2ey9l3yl4vo",
+                "source": "BBC"
+              },
+              {
+                "title": "2026 World Cup Bracket: Historic Semifinal Matchups Set",
+                "url": "https://www.foxsports.com/stories/soccer/2026-world-cup-bracket-semifinals-finals-matchups",
+                "source": "FOX Sports"
+              }
+            ]
+          },
+          {
+            "query": "argentina vs inglaterra",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "¿Cuándo juega la selección Argentina ante Inglaterra la semifinal del Mundial 2026?",
+                "url": "https://www.elobservador.com.uy/mundial-2026/cuando-juega-la-seleccion-argentina-inglaterra-la-semifinal-del-mundial-2026-n6050478",
+                "source": "El Observador"
+              },
+              {
+                "title": "Contundente advertencia de Scaloni sobre la semifinal de Argentina contra Inglaterra en el Mundial: “No busquemos otra cosa”",
+                "url": "https://www.infobae.com/deportes/2026/07/12/contundente-advertencia-de-scaloni-sobre-la-semifinal-de-argentina-contra-inglaterra-en-el-mundial-no-busquemos-otra-cosa/",
+                "source": "Infobae"
+              },
+              {
+                "title": "El historial de enfrentamientos entre Inglaterra y Argentina",
+                "url": "https://www.si.com/es-us/futbol/el-historial-de-enfrentamientos-entre-inglaterra-y-argentina",
+                "source": "Sports Illustrated"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "breel embolo",
+        "score": 1800,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "breel embolo",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "Switzerland furious as Embolo gets red card for diving after VAR review",
+                "url": "https://www.espn.com/soccer/story/_/id/49339724/switzerland-breel-embolo-red-card-diving-var-argentina-2026-world-cup",
+                "source": "ESPN"
+              },
+              {
+                "title": "Lionel Messi and Argentina march into World Cup semi-finals but what about ‘mistaken identity’ red card?",
+                "url": "https://www.nytimes.com/athletic/7430685/2026/07/11/argentina-switzerland-world-cup-result-analysis/",
+                "source": "The New York Times"
+              },
+              {
+                "title": "World Cup 2026: Breel Embolo sent off as result of mistaken identity rule",
+                "url": "https://www.bbc.com/sport/football/articles/ckg0k5gdr79o",
+                "source": "BBC"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "mundial 2022",
+        "score": 1480,
+        "geos": [
+          "AR",
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "mundial 2022",
+            "geo": "AR",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "Agentes del FBI y fiscales federales toman testimonios para investigar operaciones financieras de la AFA en Estados Unidos",
+                "url": "https://www.lanacion.com.ar/politica/agentes-del-fbi-y-fiscales-federales-toman-testimonios-para-investigar-operaciones-financieras-de-la-nid06072026/",
+                "source": "La Nación"
+              },
+              {
+                "title": "¡En pleno Mundial 2026! Argentina en polémica tras investigación por presunto fraude",
+                "url": "https://www.tudn.com/mundial-2026/argentina-vs-suiza/en-pleno-mundial-2026-argentina-en-polemica-tras-investigacion-por-presunto-fraude",
+                "source": "TUDN"
+              },
+              {
+                "title": "Confirman que la Justicia de EE.UU. investiga giros sospechosos de la AFA que podrían ser encuadrados como lavado, evasión o fraude bancario",
+                "url": "https://www.clarin.com/politica/confirman-justicia-eeuu-investiga-giros-sospechosos-afa-podrian-encuadrados-lavado-evasion-fraude-bancario_0_ZW1BH5atni.html",
+                "source": "Clarin.com"
+              }
+            ]
+          },
+          {
+            "query": "mundial 2022",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Agentes del FBI y fiscales federales toman testimonios para investigar operaciones financieras de la AFA en Estados Unidos",
+                "url": "https://www.lanacion.com.ar/politica/agentes-del-fbi-y-fiscales-federales-toman-testimonios-para-investigar-operaciones-financieras-de-la-nid06072026/",
+                "source": "La Nación"
+              },
+              {
+                "title": "¡En pleno Mundial 2026! Argentina en polémica tras investigación por presunto fraude",
+                "url": "https://www.tudn.com/mundial-2026/argentina-vs-suiza/en-pleno-mundial-2026-argentina-en-polemica-tras-investigacion-por-presunto-fraude",
+                "source": "TUDN"
+              },
+              {
+                "title": "El FBI investiga operaciones de la AFA por más de US$300 millones en pleno Mundial 2026",
+                "url": "https://es-us.noticias.yahoo.com/el-fbi-investiga-operaciones-de-la-afa-por-mas-de-us300-millones-en-pleno-mundial-2026-162000102.html",
+                "source": "Yahoo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "josé manuel lópez",
+        "score": 900,
+        "geos": [
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "josé manuel lópez",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "La lesión de Leandro Paredes: qué le pasó al volante de Argentina vs. Suiza en los cuartos de final del Mundial 2026",
+                "url": "https://www.sportingnews.com/es/futbol/news/lesion-leandro-paredes-vs-suiza/c232599d141c867e8477a226",
+                "source": "Sporting News"
+              },
+              {
+                "title": "&apos;Tiene mucha historia y dolor&apos;: Flaco López habla del partido ante Inglaterra que siempre &apos;soñó jugar&apos;",
+                "url": "https://www.mediotiempo.com/futbol/copa-mundial/tiene-mucha-historia-dolor-flaco-lopez-partido-inglaterra-siempre-sono-jugar",
+                "source": "Mediotiempo"
+              },
+              {
+                "title": "Paredes ya vive el clásico: \"Siempre soñé jugar un Mundial y contra Inglaterra\"",
+                "url": "https://www.mundodeportivo.com/futbol/mundial/20260712/1004205593/paredes-vive-clasico-siempre-sone-jugar-mundial-inglaterra.html",
+                "source": "Mundo Deportivo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "proximos partidos mundial 2026",
+        "score": 700,
+        "geos": [
+          "MX"
+        ],
+        "samples": [
+          {
+            "query": "proximos partidos mundial 2026",
+            "geo": "MX",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Los ocho maestros tácticos que forjaron a Rafael Márquez",
+                "url": "https://www.espn.com.mx/futbol/selecciones/nota/_/id/16987975/rafael-marquez-seleccion-mexicana-entrenadores-escuela-tactica-guardiola-la-volpe-aguirre",
+                "source": "ESPN México"
+              },
+              {
+                "title": "México vs Cabo Verde en el Azteca; arruinado por SUM e impone fecha de debut de Rafa Márquez como DT",
+                "url": "https://www.marca.com/mx/futbol/seleccion-mx/2026/07/12/6a52ac77ca474172248b45a2.html",
+                "source": "MARCA"
+              },
+              {
+                "title": "Rafa Márquez, nuevo DT del Tri: lo que debes saber sobre la nueva etapa de la Selección",
+                "url": "https://es-us.noticias.yahoo.com/rafa-m%C3%A1rquez-dt-tri-debes-165522546.html",
+                "source": "Yahoo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "kobel",
+        "score": 340,
+        "geos": [
+          "EC",
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "kobel",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Sportschau FIFA WM 2026 - Gregor Kobel - &apos;Bin stolz auf die Mannschaft&apos; - hier anschauen",
+                "url": "https://www.ardmediathek.de/video/sportschau-fifa-wm-2026/gregor-kobel-bin-stolz-auf-die-mannschaft/das-erste/Y3JpZDovL3Nwb3J0c2NoYXUuZGUvMmFiZWM0NGUtOTkwMS00N2M5LTgxZjEtYzNhODcyMDBhZTEz",
+                "source": "ARD Mediathek"
+              },
+              {
+                "title": "Kobel pariert Seitfallzieher von Lisandro Martinez glänzend",
+                "url": "https://www.srf.ch/play/tv/redirect/detail/urn:srf:video:29349ef1-6c62-4d6c-804f-0bcbef2f7283",
+                "source": "SRF"
+              },
+              {
+                "title": "Der Torwart der Schweizer Nationalmannschaft verrät sein Geheimnis, wie er im Elfmeterschießen hält, in Vorbereitung auf das Spiel gegen Argentinien.",
+                "url": "https://www.vietnam.vn/de/thu-mon-tuyen-thuy-si-he-lo-bi-quyet-bat-luan-luu-nham-chuan-bi-dau-argentina",
+                "source": "Vietnam.vn"
+              }
+            ]
+          },
+          {
+            "query": "kobel",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Sportschau FIFA WM 2026 - Gregor Kobel - &apos;Bin stolz auf die Mannschaft&apos; - hier anschauen",
+                "url": "https://www.ardmediathek.de/video/sportschau-fifa-wm-2026/gregor-kobel-bin-stolz-auf-die-mannschaft/das-erste/Y3JpZDovL3Nwb3J0c2NoYXUuZGUvMmFiZWM0NGUtOTkwMS00N2M5LTgxZjEtYzNhODcyMDBhZTEz",
+                "source": "ARD Mediathek"
+              },
+              {
+                "title": "Kobel pariert Seitfallzieher von Lisandro Martinez glänzend",
+                "url": "https://www.srf.ch/play/tv/redirect/detail/urn:srf:video:29349ef1-6c62-4d6c-804f-0bcbef2f7283",
+                "source": "SRF"
+              },
+              {
+                "title": "Der Torwart der Schweizer Nationalmannschaft verrät sein Geheimnis, wie er im Elfmeterschießen hält, in Vorbereitung auf das Spiel gegen Argentinien.",
+                "url": "https://www.vietnam.vn/de/thu-mon-tuyen-thuy-si-he-lo-bi-quyet-bat-luan-luu-nham-chuan-bi-dau-argentina",
+                "source": "Vietnam.vn"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "cuando es la final del mundial",
+        "score": 260,
+        "geos": [
+          "AR"
+        ],
+        "samples": [
+          {
+            "query": "cuando es la final del mundial",
+            "geo": "AR",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Horario de la final del Mundial del domingo 19 de julio 2026",
+                "url": "https://www.lanacion.com.ar/deportes/futbol/horario-de-la-final-del-mundial-del-domingo-19-de-julio-2026-nid11072026/",
+                "source": "La Nación"
+              },
+              {
+                "title": "10 curiosidades del estadio donde se jugará la final del Mundial 2026",
+                "url": "https://www.mundodeportivo.com/ocio/20260709/1004204705/10-curiosidades-estadio-jugara-final-mundial-2026.html",
+                "source": "Mundo Deportivo"
+              },
+              {
+                "title": "Mundial FIFA 2026: Norteamérica se prepara para el torneo más grande de la historia",
+                "url": "https://greensborolatino.com/internacional/mundial-2026-nc/",
+                "source": "Greensboro Latino"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "ranking fifa 2026",
+        "score": 200,
+        "geos": [
+          "CO"
+        ],
+        "samples": [
+          {
+            "query": "ranking fifa 2026",
+            "geo": "CO",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "World Cup 2026: Top four ranked teams make the semi-finals for first time",
+                "url": "https://www.bbc.com/sport/football/articles/c2ey9l3yl4vo",
+                "source": "BBC"
+              },
+              {
+                "title": "World Cup semifinals bracket predictions: Picking the winners and key players for final four",
+                "url": "https://www.nytimes.com/athletic/7439547/2026/07/11/world-cup-semifinals-bracket-predictions/",
+                "source": "The New York Times"
+              },
+              {
+                "title": "Messi vs Kane - Mbappé vs Yamal... World Cup&apos;s \"Historic Semi-Final Matchups\" Confirmed",
+                "url": "https://www.starnewskorea.com/en/sports/2026/07/12/2026071212444742799",
+                "source": "스타뉴스"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "mundial 2018",
+        "score": 200,
+        "geos": [
+          "CO"
+        ],
+        "samples": [
+          {
+            "query": "mundial 2018",
+            "geo": "CO",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Solo quedan cuatro sobrevivientes de Francia que ganó el Mundial 2018",
+                "url": "https://www.futbolred.com/mundial-2026/solo-quedan-cuatro-sobrevivientes-de-francia-que-gano-el-mundial-2018-270146",
+                "source": "Futbolred"
+              },
+              {
+                "title": "Mundial 2026: Estos son los 4 jugadores de la selección de Francia que fueron campeones de mundo en Rusia 2018",
+                "url": "https://www.posta.com.mx/share/mundial-2026-los-cuatro-campeones-de-rusia-2018-que-lideran-a-francia/vl2228103",
+                "source": "PostaMx"
+              },
+              {
+                "title": "Juan Carlos Osorio apuntó a Lorenzo tras la Copa Mundial de la FIFA™",
+                "url": "https://www.winsports.co/seleccion-colombia/noticias/juan-carlos-osorio-apunto-a-lorenzo-tras-la-copa-mundial-de-la-fifa-444822",
+                "source": "Win Sports"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "francia españa",
+        "score": 180,
+        "geos": [
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "francia españa",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Los datos de España y Francia: ¿quién ha jugado mejor en el Mundial?",
+                "url": "https://elpais.com/deportes/mundial-futbol/2026-07-12/los-datos-de-espana-y-francia-quien-ha-jugado-mejor-en-el-mundial.html",
+                "source": "EL PAÍS"
+              },
+              {
+                "title": "El partido del siglo",
+                "url": "https://as.com/futbol/mundial/el-partido-del-siglo-f202607-n/",
+                "source": "Diario AS"
+              },
+              {
+                "title": "Cuándo juegan España vs. Francia en semifinales de final del Mundial 2026: equipo, fecha, hora y TV en vivo",
+                "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16989745/espana-vs-francia-semifinales-semis-mundial-2026-equipo-fecha-hora-y-tv-en-vivo",
+                "source": "ESPN Deportes"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "miro muheim",
+        "score": 180,
+        "geos": [
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "miro muheim",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "WM 2026: Miro Muheim - \"WM war ein unglaubliches Erlebnis\"",
+                "url": "https://www.sportschau.de/fussball/fifa-wm-2026/miro-muheim-wm-war-ein-unglaubliches-erlebnis,wm-int-muheim-100.html",
+                "source": "sportschau.de"
+              },
+              {
+                "title": "WM-Fahrer Miro Muheim: Warum sein Wert beim HSV schwer zu beziffern ist",
+                "url": "https://www.abendblatt.de/sport/hsv/article412537379/miro-muheim-hsv-schweiz-wm.html",
+                "source": "Hamburger Abendblatt"
+              },
+              {
+                "title": "HSV bangt um Muheim: WM macht Zukunftsfrage brisant",
+                "url": "https://www.mopo.de/sport/hsv/zwischen-wm-viertelfinale-und-vertragspoker-muheim-sorgt-beim-hsv-fuer-spannung/4876862",
+                "source": "MOPO"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "dibu martinez",
+        "score": 180,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "dibu martinez",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "La emotiva arenga del \"Dibu\" Martínez antes de saltar a la cancha: \"Con el corazón hoy, solo eso\"",
+                "url": "https://www.telemundo.com/deportes/copa-mundial-de-la-fifa-2026/video/la-emotiva-arenga-del-dibu-martinez-antes-de-saltar-a-la-cancha-con-el-corazon-hoy-solo-eso-tmvo13202930",
+                "source": "Telemundo"
+              },
+              {
+                "title": "Dibu Martínez saltó al campo de juego",
+                "url": "https://www.directvsports.com/x2twitter_com_3q1g2zckdw4eaw_q_720p-vf20260711mp4.html",
+                "source": "dsports"
+              },
+              {
+                "title": "La gran atajada de Dibu Martínez en la Selección Argentina vs. Suiza por el Mundial 2026",
+                "url": "https://www.eldestapeweb.com/deportes/gran-atajada-dibu-martinez-seleccion-argentina-vs-suiza-mundial-2026-2026711225257",
+                "source": "El Destape"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "infantino",
+        "score": 160,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "infantino",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Yo, contra todos | Mundial 2026: Donald Trump le torció el brazo a la FIFA y al fútbol",
+                "url": "https://www.expreso.ec/deportes/copa-mundial-de-futbol/mundial-2026-donald-trump-le-torcio-brazo-fifa-futbol-288895.html",
+                "source": "expreso.ec"
+              },
+              {
+                "title": "José Carlos Crespo: &apos;Nunca hemos visto una intromisión de un poder fáctico&apos;",
+                "url": "https://www.teleamazonas.com/actualidad/24horas/entrevistas/jose-carlos-crespo-nunca-hemos-visto-intromision-factico-122060/",
+                "source": "Teleamazonas"
+              },
+              {
+                "title": "Infantino abre la puerta a un Mundial con 64 selecciones",
+                "url": "https://www.ecuagol.com/noticias/internacionales/infantino-abre-la-puerta-a-un-mundial-con-64-selecciones/224004/",
+                "source": "Ecuagol"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "arquero de suiza",
+        "score": 90,
+        "geos": [
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "arquero de suiza",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Quién es el arquero de Suiza, el ataja-penales que no pudo con Argentina",
+                "url": "https://www.tycsports.com/seleccion-argentina/quien-es-el-arquero-de-suiza-que-jugara-contra-la-seleccion-argentina-id749156.html",
+                "source": "TyC Sports"
+              },
+              {
+                "title": "Rechazó dedicarse al hockey y hoy es de los mejores arqueros del Mundial 2026: ahora buscará parar a Messi",
+                "url": "https://www.tvazteca.com/aztecadeportes/rechazo-dedicarse-al-hockey-y-hoy-es-uno-de-los-mejores-arqueros-del-mundial-ahora-buscara-parar-a-messi/",
+                "source": "TV Azteca"
+              },
+              {
+                "title": "Los trucos de Kobel",
+                "url": "https://www.mundodeportivo.com/futbol/mundial/20260711/1004205130/trucos-kobel.html",
+                "source": "Mundo Deportivo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "dan ndoye",
+        "score": 90,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "dan ndoye",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "World Cup 2026: Argentina vs Switzerland - Dan Ndoye goal",
+                "url": "https://www.bbc.com/sport/football/videos/cj4g7rl79ero",
+                "source": "BBC"
+              },
+              {
+                "title": "Dan Ndoye slides it under Emi Martínez to equalize 🇨🇭",
+                "url": "https://www.foxsports.com/watch-vertical/fmc-9ov6h115a48a5hqe",
+                "source": "FOX Sports"
+              },
+              {
+                "title": "Can Dan Ndoye reach the World Cup semi-finals?",
+                "url": "https://roundtable.io/sports/soccer/premier-league/nottingham-forest/community/match-day/can-dan-ndoye-reach-the-world-cup-semi-finals",
+                "source": "roundtable.io"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "fr": [
+      {
+        "query": "top 10 des meilleurs buteurs de la coupe du monde 2026",
+        "score": 1000,
+        "geos": [
+          "FR"
+        ],
+        "samples": [
+          {
+            "query": "top 10 des meilleurs buteurs de la coupe du monde 2026",
+            "geo": "FR",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "Coupe du Monde 2026 : le classement des meilleurs buteurs",
+                "url": "https://www.footmercato.net/a187935822013609572-coupe-du-monde-2026-le-classement-des-meilleurs-buteurs",
+                "source": "Foot Mercato"
+              },
+              {
+                "title": "Coupe du monde. Selon vous, Kylian Mbappé est-il le meilleur joueur de l’histoire des Bleus ?",
+                "url": "https://www.ouest-france.fr/sport/football/kylian-mbappe/coupe-du-monde-selon-vous-kylian-mbappe-est-il-le-meilleur-joueur-de-lhistoire-des-bleus-50d4cf00-7c5f-11f1-b616-dddac7a26294",
+                "source": "Ouest-France"
+              },
+              {
+                "title": "Équipe de France : \"Mbappé et Griezmann à la table de Zidane et Platini\" juge Riolo",
+                "url": "https://rmcsport.bfmtv.com/football/equipe-de-france/video-equipe-de-france-mbappe-et-griezmann-a-la-table-de-zidane-et-platini-juge-riolo_VN-202607100895.html",
+                "source": "RMC Sport"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "argentinien – schweiz",
+        "score": 180,
+        "geos": [
+          "MA"
+        ],
+        "samples": [
+          {
+            "query": "argentinien – schweiz",
+            "geo": "MA",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "WM 2026: Jetzt Halbfinale gegen Kane: Blut-Sieg für Lionel Messi bei Argentinien – Schweiz",
+                "url": "https://www.bild.de/sport/fussball/wm-2026-jetzt-halbfinale-gegen-kane-blut-sieg-fuer-lionel-messi-bei-argentinien-schweiz-6a52e83536e98236c4bc5a08",
+                "source": "BILD"
+              },
+              {
+                "title": "Alvarez&apos; brillante Leistung, gepaart mit Messis Genie, verhalf Argentinien zu einem entscheidenden Spiel gegen England.",
+                "url": "https://www.vietnam.vn/de/alvarez-xuat-than-ket-hop-messi-thien-tai-dua-argentina-vao-dai-chien-voi-anh",
+                "source": "Vietnam.vn"
+              },
+              {
+                "title": "Sow in der Startelf, Vargas auf der Ersatzbank",
+                "url": "https://www.bluewin.ch/de/sport/fussball/sow-in-der-startelf-vargas-auf-der-ersatzbank-li.3525319",
+                "source": "bluewin.ch"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "breel embolo",
+        "score": 90,
+        "geos": [
+          "MA"
+        ],
+        "samples": [
+          {
+            "query": "breel embolo",
+            "geo": "MA",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "World Cup 2026: Breel Embolo sent off as result of mistaken identity rule",
+                "url": "https://www.bbc.com/sport/football/articles/ckg0k5gdr79o",
+                "source": "BBC"
+              },
+              {
+                "title": "Licensable picture: Argentina v Switzerland - FIFA World Cup 2026 - Quarter Finals",
+                "url": "https://www.reutersconnect.com/item/argentina-v-switzerland-fifa-world-cup-2026-quarter-finals/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX01UMUFOQURMMDAwNDBINEVG",
+                "source": "Reuters Connect"
+              },
+              {
+                "title": "Frustrated Xhaka: With this decision, the referee killed the match",
+                "url": "https://www.koha.net/en/boterori-2026/xhaka-i-frustruar-me-kete-vendim-arbitri-e-mbyti-ndeshjen",
+                "source": "KOHA.net"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "de": [
+      {
+        "query": "braut",
+        "score": 500,
+        "geos": [
+          "DE"
+        ],
+        "samples": [
+          {
+            "query": "braut",
+            "geo": "DE",
+            "language": "de",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "World Cup 2026: Why Erling Haaland has &apos;Braut&apos; on the back of his Norway jersey",
+                "url": "https://sports.yahoo.com/soccer/article/world-cup-2026-why-erling-haaland-has-braut-on-the-back-of-his-norway-jersey-181657227.html",
+                "source": "Yahoo Sports"
+              },
+              {
+                "title": "Why does Erling Haaland&apos;s World Cup jersey say Braut Haaland?",
+                "url": "https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/11/erling-haaland-jersey-braut-haaland-world-cup-norway/90883347007/",
+                "source": "USA Today"
+              },
+              {
+                "title": "As England braces for Haaland, can we claim his name?",
+                "url": "https://www.bbc.com/news/articles/cze9zekxxlwo",
+                "source": "BBC"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "pt": [
+      {
+        "query": "campeonato do mundo",
+        "score": 200,
+        "geos": [
+          "PT"
+        ],
+        "samples": [
+          {
+            "query": "campeonato do mundo",
+            "geo": "PT",
+            "language": "pt",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "O Mundial de 2026 e a reconfiguração do futebol como ativo estratégico global",
+                "url": "https://www.abola.pt/noticias/o-mundial-de-2026-e-a-reconfiguracao-do-futebol-como-ativo-estrategico-global-2026071116262553161",
+                "source": "A Bola"
+              },
+              {
+                "title": "Onde ver a final do Mundial 2026 na TV em Portugal",
+                "url": "https://www.record.pt/casas-de-apostas/onde-ver/onde-ver-final-mundial-2026/",
+                "source": "Record"
+              },
+              {
+                "title": "Multidões, chuva de golos e exibições de estrelas: os recordes estabelecidos no Mundial-2026",
+                "url": "https://www.flashscore.pt/noticias/futebol-campeonato-do-mundo-multidoes-chuva-de-golos-e-exibicoes-de-estrelas-os-recordes-estabelecidos-no-mundial-2026/4xLtDyqL/",
+                "source": "Flashscore.pt"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "topic": "lionel messi",
+      "type": "noticia",
+      "slugSuggestion": "lionel-messi",
+      "language": "es",
+      "geos": [
+        "AR"
+      ],
+      "score": 31200,
+      "reason": "Google Trends daily AR con 20,000 búsquedas · 3 artículos noticiosos referenciando \"lionel messi\"",
+      "proposedPath": "/noticias/lionel-messi",
+      "evidence": [
+        {
+          "query": "lionel messi",
+          "geo": "AR",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 20000,
+          "articles": [
+            {
+              "title": "World Cup 2026:",
+              "url": "https://www.bbc.com/sport/football/articles/cvgexz4qdlgo",
+              "source": "BBC"
+            },
+            {
+              "title": "England vs. Argentina Confirmed For Semifinals: Here&apos;s What To Know",
+              "url": "https://www.foxsports.com/stories/soccer/england-vs-argentina-confirmed-semifinals-heres-what-know",
+              "source": "FOX Sports"
+            },
+            {
+              "title": "Lionel Messi stands in England’s way – this is how they can beat Argentina",
+              "url": "https://www.telegraph.co.uk/football/2026/07/12/argentina-v-switzerland-latest-world-cup-quarter-finals/",
+              "source": "The Telegraph"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "ranking fifa",
+      "type": "noticia",
+      "slugSuggestion": "ranking-fifa",
+      "language": "es",
+      "geos": [
+        "CO",
+        "CL",
+        "PE"
+      ],
+      "score": 6540,
+      "reason": "Google Trends daily CO con 500 búsquedas · 3 artículos noticiosos referenciando \"ranking fifa\"",
+      "proposedPath": "/noticias/ranking-fifa",
+      "evidence": [
+        {
+          "query": "ranking fifa",
+          "geo": "CO",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 500,
+          "articles": [
+            {
+              "title": "Ranking de la FIFA tras la eliminación de la Selección Colombia a manos de Suiza en los penales",
+              "url": "https://www.eltiempo.com/deportes/futbol-internacional/colombia-paga-cara-la-triste-eliminacion-del-mundial-a-manos-de-suiza-en-los-penales-asi-quedo-en-el-escalafon-de-la-fifa-3569869",
+              "source": "ELTIEMPO.com"
+            },
+            {
+              "title": "Goleadores de Colombia en el Mundial 2026: ¿quién terminó como máximo anotador?",
+              "url": "https://www.365scores.com/es/news/goleadores-de-colombia-en-el-mundial/",
+              "source": "365Scores"
+            },
+            {
+              "title": "Estos fueron los jugadores mejor calificados de la Selección Colombia en el Mundial 2026: sorpresa con los dos primeros",
+              "url": "https://www.infobae.com/colombia/deportes/2026/07/08/estos-fueron-los-jugadores-mejor-calificados-de-la-seleccion-colombia-en-el-mundial-2026-sorpresa-con-los-dos-primeros/",
+              "source": "Infobae"
+            }
+          ]
+        },
+        {
+          "query": "ranking fifa",
+          "geo": "CL",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 500,
+          "articles": [
+            {
+              "title": "Chile vuelve al Top 50 del ranking FIFA en pleno Mundial 2026: sigue en el fondo de Sudamérica",
+              "url": "https://redgol.cl/seleccionchilena/chile-vuelve-al-top-50-del-ranking-fifa-en-pleno-mundial-2026-sigue-en-el-fondo-de-sudamerica",
+              "source": "RedGol"
+            },
+            {
+              "title": "Datos, no opiniones: Chile sigue como el cuarto grande de Sudamérica tras adiós de Colombia en el Mundial 2026",
+              "url": "https://www.msn.com/es-cl/deportes/futbol/datos-no-opiniones-chile-sigue-como-el-cuarto-grande-de-sudam%C3%A9rica-tras-adi%C3%B3s-de-colombia-en-el-mundial-2026/ar-AA27unOS",
+              "source": "MSN"
+            },
+            {
+              "title": "Sin ir al Mundial: La Roja escala en el Ranking FIFA y vuelve a entrar al top 50",
+              "url": "https://bolavip.com/cl/seleccionchilena/sin-ir-al-mundial-la-roja-escala-en-el-ranking-fifa-y-vuelve-a-entrar-al-top-50",
+              "source": "Bolavip Chile"
+            }
+          ]
+        },
+        {
+          "query": "ranking fifa",
+          "geo": "PE",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 5000,
+          "articles": [
+            {
+              "title": "World Cup live updates, results: Argentina joins England, Spain and France in stacked semifinal field",
+              "url": "https://sports.yahoo.com/soccer/live/world-cup-bracket-schedule-scores-results-live-updates-quarterfinals-203257966.html",
+              "source": "Yahoo Sports"
+            },
+            {
+              "title": "England’s Jude Bellingham scores equalizer vs Norway | 2026 FIFA World Cup™",
+              "url": "https://www.foxsports.com/watch/fmc-4vso7wlg4sty49vm?cmpid=google-one-box",
+              "source": "FOX Sports"
+            },
+            {
+              "title": "Norway and England face extreme heat in Miami World Cup game, this is what happens to a player - The Athletic",
+              "url": "https://www.nytimes.com/athletic/7362162/2026/07/11/world-cup-heat-players-what-happens/",
+              "source": "The New York Times"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "josé manuel lópez",
+      "type": "noticia",
+      "slugSuggestion": "jose-manuel-lopez",
+      "language": "es",
+      "geos": [
+        "PE"
+      ],
+      "score": 1080,
+      "reason": "Google Trends daily PE con 1,000 búsquedas · 3 artículos noticiosos referenciando \"josé manuel lópez\"",
+      "proposedPath": "/noticias/jose-manuel-lopez",
+      "evidence": [
+        {
+          "query": "josé manuel lópez",
+          "geo": "PE",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 1000,
+          "articles": [
+            {
+              "title": "La lesión de Leandro Paredes: qué le pasó al volante de Argentina vs. Suiza en los cuartos de final del Mundial 2026",
+              "url": "https://www.sportingnews.com/es/futbol/news/lesion-leandro-paredes-vs-suiza/c232599d141c867e8477a226",
+              "source": "Sporting News"
+            },
+            {
+              "title": "&apos;Tiene mucha historia y dolor&apos;: Flaco López habla del partido ante Inglaterra que siempre &apos;soñó jugar&apos;",
+              "url": "https://www.mediotiempo.com/futbol/copa-mundial/tiene-mucha-historia-dolor-flaco-lopez-partido-inglaterra-siempre-sono-jugar",
+              "source": "Mediotiempo"
+            },
+            {
+              "title": "Paredes ya vive el clásico: \"Siempre soñé jugar un Mundial y contra Inglaterra\"",
+              "url": "https://www.mundodeportivo.com/futbol/mundial/20260712/1004205593/paredes-vive-clasico-siempre-sone-jugar-mundial-inglaterra.html",
+              "source": "Mundo Deportivo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "braut",
+      "type": "noticia",
+      "slugSuggestion": "braut",
+      "language": "de",
+      "geos": [
+        "DE"
+      ],
+      "score": 600,
+      "reason": "Google Trends daily DE con 500 búsquedas · 3 artículos noticiosos referenciando \"braut\"",
+      "proposedPath": "/noticias/braut",
+      "evidence": [
+        {
+          "query": "braut",
+          "geo": "DE",
+          "language": "de",
+          "source": "google-trends-daily",
+          "score": 500,
+          "articles": [
+            {
+              "title": "World Cup 2026: Why Erling Haaland has &apos;Braut&apos; on the back of his Norway jersey",
+              "url": "https://sports.yahoo.com/soccer/article/world-cup-2026-why-erling-haaland-has-braut-on-the-back-of-his-norway-jersey-181657227.html",
+              "source": "Yahoo Sports"
+            },
+            {
+              "title": "Why does Erling Haaland&apos;s World Cup jersey say Braut Haaland?",
+              "url": "https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/11/erling-haaland-jersey-braut-haaland-world-cup-norway/90883347007/",
+              "source": "USA Today"
+            },
+            {
+              "title": "As England braces for Haaland, can we claim his name?",
+              "url": "https://www.bbc.com/news/articles/cze9zekxxlwo",
+              "source": "BBC"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "kobel",
+      "type": "noticia",
+      "slugSuggestion": "kobel",
+      "language": "es",
+      "geos": [
+        "EC",
+        "UY"
+      ],
+      "score": 408,
+      "reason": "Google Trends daily EC con 200 búsquedas · 3 artículos noticiosos referenciando \"kobel\"",
+      "proposedPath": "/noticias/kobel",
+      "evidence": [
+        {
+          "query": "kobel",
+          "geo": "EC",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Sportschau FIFA WM 2026 - Gregor Kobel - &apos;Bin stolz auf die Mannschaft&apos; - hier anschauen",
+              "url": "https://www.ardmediathek.de/video/sportschau-fifa-wm-2026/gregor-kobel-bin-stolz-auf-die-mannschaft/das-erste/Y3JpZDovL3Nwb3J0c2NoYXUuZGUvMmFiZWM0NGUtOTkwMS00N2M5LTgxZjEtYzNhODcyMDBhZTEz",
+              "source": "ARD Mediathek"
+            },
+            {
+              "title": "Kobel pariert Seitfallzieher von Lisandro Martinez glänzend",
+              "url": "https://www.srf.ch/play/tv/redirect/detail/urn:srf:video:29349ef1-6c62-4d6c-804f-0bcbef2f7283",
+              "source": "SRF"
+            },
+            {
+              "title": "Der Torwart der Schweizer Nationalmannschaft verrät sein Geheimnis, wie er im Elfmeterschießen hält, in Vorbereitung auf das Spiel gegen Argentinien.",
+              "url": "https://www.vietnam.vn/de/thu-mon-tuyen-thuy-si-he-lo-bi-quyet-bat-luan-luu-nham-chuan-bi-dau-argentina",
+              "source": "Vietnam.vn"
+            }
+          ]
+        },
+        {
+          "query": "kobel",
+          "geo": "UY",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Sportschau FIFA WM 2026 - Gregor Kobel - &apos;Bin stolz auf die Mannschaft&apos; - hier anschauen",
+              "url": "https://www.ardmediathek.de/video/sportschau-fifa-wm-2026/gregor-kobel-bin-stolz-auf-die-mannschaft/das-erste/Y3JpZDovL3Nwb3J0c2NoYXUuZGUvMmFiZWM0NGUtOTkwMS00N2M5LTgxZjEtYzNhODcyMDBhZTEz",
+              "source": "ARD Mediathek"
+            },
+            {
+              "title": "Kobel pariert Seitfallzieher von Lisandro Martinez glänzend",
+              "url": "https://www.srf.ch/play/tv/redirect/detail/urn:srf:video:29349ef1-6c62-4d6c-804f-0bcbef2f7283",
+              "source": "SRF"
+            },
+            {
+              "title": "Der Torwart der Schweizer Nationalmannschaft verrät sein Geheimnis, wie er im Elfmeterschießen hält, in Vorbereitung auf das Spiel gegen Argentinien.",
+              "url": "https://www.vietnam.vn/de/thu-mon-tuyen-thuy-si-he-lo-bi-quyet-bat-luan-luu-nham-chuan-bi-dau-argentina",
+              "source": "Vietnam.vn"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "when do france play spain",
+      "type": "historia",
+      "slugSuggestion": "when-do-france-play-spain",
+      "language": "en",
+      "geos": [
+        "GB"
+      ],
+      "score": 264,
+      "reason": "Google Trends daily GB con 200 búsquedas · 3 artículos noticiosos referenciando \"when do france play spain\"",
+      "proposedPath": "/historias/when-do-france-play-spain",
+      "evidence": [
+        {
+          "query": "when do france play spain",
+          "geo": "GB",
+          "language": "en",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "World Cup 2026: Mikel Merino the unlikely hero again as Spain wait for Lamine Yamal show",
+              "url": "https://www.bbc.co.uk/sport/football/articles/cvg50pvejzdo",
+              "source": "BBC"
+            },
+            {
+              "title": "FIFA World Cup 2026 stats: Merino makes World Cup history; Yamal-Cubarsi first since Pele-Altafini",
+              "url": "https://www.espn.co.uk/football/story/_/id/49329568/fifa-world-cup-2026-stats-mikel-merino-makes-history-lamine-yamal-pau-cubarsi-first-pele-altafini-spain-belgium",
+              "source": "ESPN"
+            },
+            {
+              "title": "Merino puts Spain into World Cup semi-finals as Belgium rue costly Courtois injury",
+              "url": "https://www.theguardian.com/football/2026/jul/10/spain-belgium-world-cup-2026-quarter-final-match-report",
+              "source": "The Guardian"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "mundial 2018",
+      "type": "noticia",
+      "slugSuggestion": "mundial-2018",
+      "language": "es",
+      "geos": [
+        "CO"
+      ],
+      "score": 240,
+      "reason": "Google Trends daily CO con 200 búsquedas · 3 artículos noticiosos referenciando \"mundial 2018\"",
+      "proposedPath": "/noticias/mundial-2018",
+      "evidence": [
+        {
+          "query": "mundial 2018",
+          "geo": "CO",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Solo quedan cuatro sobrevivientes de Francia que ganó el Mundial 2018",
+              "url": "https://www.futbolred.com/mundial-2026/solo-quedan-cuatro-sobrevivientes-de-francia-que-gano-el-mundial-2018-270146",
+              "source": "Futbolred"
+            },
+            {
+              "title": "Mundial 2026: Estos son los 4 jugadores de la selección de Francia que fueron campeones de mundo en Rusia 2018",
+              "url": "https://www.posta.com.mx/share/mundial-2026-los-cuatro-campeones-de-rusia-2018-que-lideran-a-francia/vl2228103",
+              "source": "PostaMx"
+            },
+            {
+              "title": "Juan Carlos Osorio apuntó a Lorenzo tras la Copa Mundial de la FIFA™",
+              "url": "https://www.winsports.co/seleccion-colombia/noticias/juan-carlos-osorio-apunto-a-lorenzo-tras-la-copa-mundial-de-la-fifa-444822",
+              "source": "Win Sports"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "campeonato do mundo",
+      "type": "noticia",
+      "slugSuggestion": "campeonato-do-mundo",
+      "language": "pt",
+      "geos": [
+        "PT"
+      ],
+      "score": 240,
+      "reason": "Google Trends daily PT con 200 búsquedas · 3 artículos noticiosos referenciando \"campeonato do mundo\"",
+      "proposedPath": "/noticias/campeonato-do-mundo",
+      "evidence": [
+        {
+          "query": "campeonato do mundo",
+          "geo": "PT",
+          "language": "pt",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "O Mundial de 2026 e a reconfiguração do futebol como ativo estratégico global",
+              "url": "https://www.abola.pt/noticias/o-mundial-de-2026-e-a-reconfiguracao-do-futebol-como-ativo-estrategico-global-2026071116262553161",
+              "source": "A Bola"
+            },
+            {
+              "title": "Onde ver a final do Mundial 2026 na TV em Portugal",
+              "url": "https://www.record.pt/casas-de-apostas/onde-ver/onde-ver-final-mundial-2026/",
+              "source": "Record"
+            },
+            {
+              "title": "Multidões, chuva de golos e exibições de estrelas: os recordes estabelecidos no Mundial-2026",
+              "url": "https://www.flashscore.pt/noticias/futebol-campeonato-do-mundo-multidoes-chuva-de-golos-e-exibicoes-de-estrelas-os-recordes-estabelecidos-no-mundial-2026/4xLtDyqL/",
+              "source": "Flashscore.pt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "francia españa",
+      "type": "noticia",
+      "slugSuggestion": "francia-espana",
+      "language": "es",
+      "geos": [
+        "PE"
+      ],
+      "score": 216,
+      "reason": "Google Trends daily PE con 200 búsquedas · 3 artículos noticiosos referenciando \"francia españa\"",
+      "proposedPath": "/noticias/francia-espana",
+      "evidence": [
+        {
+          "query": "francia españa",
+          "geo": "PE",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Los datos de España y Francia: ¿quién ha jugado mejor en el Mundial?",
+              "url": "https://elpais.com/deportes/mundial-futbol/2026-07-12/los-datos-de-espana-y-francia-quien-ha-jugado-mejor-en-el-mundial.html",
+              "source": "EL PAÍS"
+            },
+            {
+              "title": "El partido del siglo",
+              "url": "https://as.com/futbol/mundial/el-partido-del-siglo-f202607-n/",
+              "source": "Diario AS"
+            },
+            {
+              "title": "Cuándo juegan España vs. Francia en semifinales de final del Mundial 2026: equipo, fecha, hora y TV en vivo",
+              "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16989745/espana-vs-francia-semifinales-semis-mundial-2026-equipo-fecha-hora-y-tv-en-vivo",
+              "source": "ESPN Deportes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "miro muheim",
+      "type": "noticia",
+      "slugSuggestion": "miro-muheim",
+      "language": "es",
+      "geos": [
+        "PE"
+      ],
+      "score": 216,
+      "reason": "Google Trends daily PE con 200 búsquedas · 3 artículos noticiosos referenciando \"miro muheim\"",
+      "proposedPath": "/noticias/miro-muheim",
+      "evidence": [
+        {
+          "query": "miro muheim",
+          "geo": "PE",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "WM 2026: Miro Muheim - \"WM war ein unglaubliches Erlebnis\"",
+              "url": "https://www.sportschau.de/fussball/fifa-wm-2026/miro-muheim-wm-war-ein-unglaubliches-erlebnis,wm-int-muheim-100.html",
+              "source": "sportschau.de"
+            },
+            {
+              "title": "WM-Fahrer Miro Muheim: Warum sein Wert beim HSV schwer zu beziffern ist",
+              "url": "https://www.abendblatt.de/sport/hsv/article412537379/miro-muheim-hsv-schweiz-wm.html",
+              "source": "Hamburger Abendblatt"
+            },
+            {
+              "title": "HSV bangt um Muheim: WM macht Zukunftsfrage brisant",
+              "url": "https://www.mopo.de/sport/hsv/zwischen-wm-viertelfinale-und-vertragspoker-muheim-sorgt-beim-hsv-fuer-spannung/4876862",
+              "source": "MOPO"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "dibu martinez",
+      "type": "noticia",
+      "slugSuggestion": "dibu-martinez",
+      "language": "es",
+      "geos": [
+        "UY"
+      ],
+      "score": 216,
+      "reason": "Google Trends daily UY con 200 búsquedas · 3 artículos noticiosos referenciando \"dibu martinez\"",
+      "proposedPath": "/noticias/dibu-martinez",
+      "evidence": [
+        {
+          "query": "dibu martinez",
+          "geo": "UY",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "La emotiva arenga del \"Dibu\" Martínez antes de saltar a la cancha: \"Con el corazón hoy, solo eso\"",
+              "url": "https://www.telemundo.com/deportes/copa-mundial-de-la-fifa-2026/video/la-emotiva-arenga-del-dibu-martinez-antes-de-saltar-a-la-cancha-con-el-corazon-hoy-solo-eso-tmvo13202930",
+              "source": "Telemundo"
+            },
+            {
+              "title": "Dibu Martínez saltó al campo de juego",
+              "url": "https://www.directvsports.com/x2twitter_com_3q1g2zckdw4eaw_q_720p-vf20260711mp4.html",
+              "source": "dsports"
+            },
+            {
+              "title": "La gran atajada de Dibu Martínez en la Selección Argentina vs. Suiza por el Mundial 2026",
+              "url": "https://www.eldestapeweb.com/deportes/gran-atajada-dibu-martinez-seleccion-argentina-vs-suiza-mundial-2026-2026711225257",
+              "source": "El Destape"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "argentinien – schweiz",
+      "type": "noticia",
+      "slugSuggestion": "argentinien-schweiz",
+      "language": "fr",
+      "geos": [
+        "MA"
+      ],
+      "score": 216,
+      "reason": "Google Trends daily MA con 200 búsquedas · 3 artículos noticiosos referenciando \"argentinien – schweiz\"",
+      "proposedPath": "/noticias/argentinien-schweiz",
+      "evidence": [
+        {
+          "query": "argentinien – schweiz",
+          "geo": "MA",
+          "language": "fr",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "WM 2026: Jetzt Halbfinale gegen Kane: Blut-Sieg für Lionel Messi bei Argentinien – Schweiz",
+              "url": "https://www.bild.de/sport/fussball/wm-2026-jetzt-halbfinale-gegen-kane-blut-sieg-fuer-lionel-messi-bei-argentinien-schweiz-6a52e83536e98236c4bc5a08",
+              "source": "BILD"
+            },
+            {
+              "title": "Alvarez&apos; brillante Leistung, gepaart mit Messis Genie, verhalf Argentinien zu einem entscheidenden Spiel gegen England.",
+              "url": "https://www.vietnam.vn/de/alvarez-xuat-than-ket-hop-messi-thien-tai-dua-argentina-vao-dai-chien-voi-anh",
+              "source": "Vietnam.vn"
+            },
+            {
+              "title": "Sow in der Startelf, Vargas auf der Ersatzbank",
+              "url": "https://www.bluewin.ch/de/sport/fussball/sow-in-der-startelf-vargas-auf-der-ersatzbank-li.3525319",
+              "source": "bluewin.ch"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "infantino",
+      "type": "noticia",
+      "slugSuggestion": "infantino",
+      "language": "es",
+      "geos": [
+        "EC"
+      ],
+      "score": 192,
+      "reason": "Google Trends daily EC con 200 búsquedas · 3 artículos noticiosos referenciando \"infantino\"",
+      "proposedPath": "/noticias/infantino",
+      "evidence": [
+        {
+          "query": "infantino",
+          "geo": "EC",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Yo, contra todos | Mundial 2026: Donald Trump le torció el brazo a la FIFA y al fútbol",
+              "url": "https://www.expreso.ec/deportes/copa-mundial-de-futbol/mundial-2026-donald-trump-le-torcio-brazo-fifa-futbol-288895.html",
+              "source": "expreso.ec"
+            },
+            {
+              "title": "José Carlos Crespo: &apos;Nunca hemos visto una intromisión de un poder fáctico&apos;",
+              "url": "https://www.teleamazonas.com/actualidad/24horas/entrevistas/jose-carlos-crespo-nunca-hemos-visto-intromision-factico-122060/",
+              "source": "Teleamazonas"
+            },
+            {
+              "title": "Infantino abre la puerta a un Mundial con 64 selecciones",
+              "url": "https://www.ecuagol.com/noticias/internacionales/infantino-abre-la-puerta-a-un-mundial-con-64-selecciones/224004/",
+              "source": "Ecuagol"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "noticias de hoje",
+      "type": "noticia",
+      "slugSuggestion": "noticias-de-hoje",
+      "language": "en",
+      "geos": [
+        "US"
+      ],
+      "score": 168,
+      "reason": "Google Trends daily US con 100 búsquedas · 3 artículos noticiosos referenciando \"noticias de hoje\"",
+      "proposedPath": "/noticias/noticias-de-hoje",
+      "evidence": [
+        {
+          "query": "noticias de hoje",
+          "geo": "US",
+          "language": "en",
+          "source": "google-trends-daily",
+          "score": 100,
+          "articles": [
+            {
+              "title": "Climão? Bellingham contraria Tuchel em classificação da Inglaterra: &apos;Talvez não saiba como é jogar nessa condição&apos;",
+              "url": "https://oglobo.globo.com/esportes/copa-do-mundo-2026/noticia/2026/07/11/climao-bellingham-contraria-tuchel-em-classificacao-da-inglaterra-talvez-nao-saiba-como-e-jogar-nessa-condicao.ghtml",
+              "source": "O GLOBO"
+            },
+            {
+              "title": "Tuchel critica atuação da Inglaterra, e Bellingham responde: &apos;Tanto faz&apos;",
+              "url": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/07/11/tuchel-critica-atuacao-da-inglaterra-e-bellingham-responde-tanto-faz.ghtm",
+              "source": "UOL"
+            },
+            {
+              "title": "Quem é Thomas Tuchel? Conheça técnico da Inglaterra na Copa do Mundo 2026",
+              "url": "https://www.sportingnews.com/br/futebol/noticias/quem-e-thomas-tuchel-conheca-tecnico-inglaterra-copa-do-mundo-2026/e1f4372174c6f745938d69bb",
+              "source": "www.sportingnews.com"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "brad pitt",
+      "type": "noticia",
+      "slugSuggestion": "brad-pitt",
+      "language": "en",
+      "geos": [
+        "AU"
+      ],
+      "score": 168,
+      "reason": "Google Trends daily AU con 200 búsquedas · 3 artículos noticiosos referenciando \"brad pitt\"",
+      "proposedPath": "/noticias/brad-pitt",
+      "evidence": [
+        {
+          "query": "brad pitt",
+          "geo": "AU",
+          "language": "en",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Brad Pitt and girlfriend Ines de Ramon share steamy kiss at FIFA World Cup 2026 match",
+              "url": "https://pagesix.com/2026/07/11/celebrity-news/brad-pitt-and-girlfriend-ines-de-ramon-share-steamy-kiss-at-fifa-world-cup-2026-match/",
+              "source": "Page Six"
+            },
+            {
+              "title": "World Cup 2026: Penelope Cruz and Noel Gallagher spotted at Spain v Belgium",
+              "url": "https://www.bbc.com/sport/videos/ckg0kzwe4njo",
+              "source": "BBC"
+            },
+            {
+              "title": "Brad Pitt and Ines de Ramon Bring the Heat With World Cup 2026 Date",
+              "url": "https://www.yahoo.com/entertainment/celebrity/articles/brad-pitt-ines-ramon-bring-220347822.html",
+              "source": "Yahoo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "arquero de suiza",
+      "type": "noticia",
+      "slugSuggestion": "arquero-de-suiza",
+      "language": "es",
+      "geos": [
+        "PE"
+      ],
+      "score": 108,
+      "reason": "Google Trends daily PE con 100 búsquedas · 3 artículos noticiosos referenciando \"arquero de suiza\"",
+      "proposedPath": "/noticias/arquero-de-suiza",
+      "evidence": [
+        {
+          "query": "arquero de suiza",
+          "geo": "PE",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 100,
+          "articles": [
+            {
+              "title": "Quién es el arquero de Suiza, el ataja-penales que no pudo con Argentina",
+              "url": "https://www.tycsports.com/seleccion-argentina/quien-es-el-arquero-de-suiza-que-jugara-contra-la-seleccion-argentina-id749156.html",
+              "source": "TyC Sports"
+            },
+            {
+              "title": "Rechazó dedicarse al hockey y hoy es de los mejores arqueros del Mundial 2026: ahora buscará parar a Messi",
+              "url": "https://www.tvazteca.com/aztecadeportes/rechazo-dedicarse-al-hockey-y-hoy-es-uno-de-los-mejores-arqueros-del-mundial-ahora-buscara-parar-a-messi/",
+              "source": "TV Azteca"
+            },
+            {
+              "title": "Los trucos de Kobel",
+              "url": "https://www.mundodeportivo.com/futbol/mundial/20260711/1004205130/trucos-kobel.html",
+              "source": "Mundo Deportivo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "dan ndoye",
+      "type": "noticia",
+      "slugSuggestion": "dan-ndoye",
+      "language": "es",
+      "geos": [
+        "UY"
+      ],
+      "score": 108,
+      "reason": "Google Trends daily UY con 100 búsquedas · 3 artículos noticiosos referenciando \"dan ndoye\"",
+      "proposedPath": "/noticias/dan-ndoye",
+      "evidence": [
+        {
+          "query": "dan ndoye",
+          "geo": "UY",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 100,
+          "articles": [
+            {
+              "title": "World Cup 2026: Argentina vs Switzerland - Dan Ndoye goal",
+              "url": "https://www.bbc.com/sport/football/videos/cj4g7rl79ero",
+              "source": "BBC"
+            },
+            {
+              "title": "Dan Ndoye slides it under Emi Martínez to equalize 🇨🇭",
+              "url": "https://www.foxsports.com/watch-vertical/fmc-9ov6h115a48a5hqe",
+              "source": "FOX Sports"
+            },
+            {
+              "title": "Can Dan Ndoye reach the World Cup semi-finals?",
+              "url": "https://roundtable.io/sports/soccer/premier-league/nottingham-forest/community/match-day/can-dan-ndoye-reach-the-world-cup-semi-finals",
+              "source": "roundtable.io"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alreadyCovered": [
+    {
+      "query": "proximos partidos mundial 2026",
+      "matchUrl": "/coleccionismo/panini-mundial-2026"
+    },
+    {
+      "query": "france vs spain world cup 2026",
+      "matchUrl": "/coleccionismo/panini-mundial-2026"
+    },
+    {
+      "query": "mundial 2022",
+      "matchUrl": "/historias/messi-campeon-lusail-2022-argentina-tercer-mundial-mbappe-final"
+    },
+    {
+      "query": "cuando es la final del mundial",
+      "matchUrl": "/coleccionismo/panini-mundial-2026/cuando-sale"
+    },
+    {
+      "query": "cuando juega francia y españa",
+      "matchUrl": "/noticias/cuando-juega-argentina-hoy-argelia-mundial-2026"
+    },
+    {
+      "query": "fixture mundial 2026",
+      "matchUrl": "/coleccionismo/panini-mundial-2026"
+    },
+    {
+      "query": "ranking fifa 2026",
+      "matchUrl": "/noticias/cesped-mundial-2026-tecnologia-maquinas-fifa"
+    },
+    {
+      "query": "mundial 2022",
+      "matchUrl": "/historias/messi-campeon-lusail-2022-argentina-tercer-mundial-mbappe-final"
+    },
+    {
+      "query": "inglaterra vs argentina",
+      "matchUrl": "/noticias/mano-de-dios-maradona-1986-argentina-inglaterra-historia"
+    },
+    {
+      "query": "argentina vs inglaterra",
+      "matchUrl": "/noticias/mano-de-dios-maradona-1986-argentina-inglaterra-historia"
+    },
+    {
+      "query": "argentina vs inglaterra",
+      "matchUrl": "/noticias/mano-de-dios-maradona-1986-argentina-inglaterra-historia"
+    },
+    {
+      "query": "breel embolo",
+      "matchUrl": "/noticias/breel-embolo-vetado-entrada-eeuu-mundial-2026"
+    },
+    {
+      "query": "top 10 des meilleurs buteurs de la coupe du monde 2026",
+      "matchUrl": "/coleccionismo/panini-mundial-2026"
+    },
+    {
+      "query": "breel embolo",
+      "matchUrl": "/noticias/breel-embolo-vetado-entrada-eeuu-mundial-2026"
+    }
+  ]
+}
