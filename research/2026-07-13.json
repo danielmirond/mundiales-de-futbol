@@ -1,0 +1,766 @@
+{
+  "generatedAt": "2026-07-13T09:55:00.053Z",
+  "date": "2026-07-13",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "historial",
+      "geo": "MX",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "El partido eterno: Argentina vs. Inglaterra, por las semifinales del Mundial 2026",
+          "url": "https://www.espn.com.mx/futbol/mundial/nota/_/id/16994293/argentina-vs-inglaterra-semifinales-mundial-2026-partido-eterno-malvinas",
+          "source": "ESPN México"
+        },
+        {
+          "title": "Tras el ataque de Bellingham: así reacciona Kane a la crítica de Tuchel",
+          "url": "https://es-us.noticias.yahoo.com/deportes/ataque-bellingham-reacciona-kane-cr%C3%ADtica-075400031.html",
+          "source": "Yahoo"
+        },
+        {
+          "title": "De los Hooligans a la ‘Mano de Dios’ y concluyendo con Messi vs Kane",
+          "url": "https://mexico.as.com/videos/as-claro-sports-en-w-radio/de-los-hooligans-a-la-mano-de-dios-y-concluyendo-con-messi-vs-kane-f202607-v/",
+          "source": "AS México"
+        }
+      ]
+    },
+    {
+      "query": "v",
+      "geo": "CA",
+      "language": "en",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Cablegate: should Jude Bellingham’s first goal against Norway have been disallowed? | World Cup 2026",
+          "url": "https://www.theguardian.com/football/2026/jul/12/cablegate-should-jude-bellingham-first-goal-against-norway-have-been-disallowed-england-world-cup-2026",
+          "source": "The Guardian"
+        },
+        {
+          "title": "After Bellingham attack: Kane responds to Tuchel criticism",
+          "url": "https://sports.yahoo.com/articles/bellingham-attack-kane-responds-tuchel-075400572.html",
+          "source": "Yahoo Sports"
+        },
+        {
+          "title": "World Cup Daily live: Spidercam debate rumbles on as four semifinalists confirmed",
+          "url": "https://www.espn.com/soccer/story/_/id/49340531/world-cup-daily-live-spidercam-debate-rumbles-four-semifinalists-confirmed-england-argentina-france-spain",
+          "source": "ESPN"
+        }
+      ]
+    },
+    {
+      "query": "radio mitre en vivo",
+      "geo": "AR",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Qué pasa si Argentina pierde o empata hoy con Suiza en el Mundial 2026",
+          "url": "https://www.pagina12.com.ar/2026/07/12/que-pasa-si-argentina-pierde-o-empata-hoy-con-suiza-en-el-mundial-2026/",
+          "source": "Página|12"
+        },
+        {
+          "title": "Scaloni, tras el pase a semifinales: \"Hoy sufrimos, pero lo que conseguimos es histórico\"",
+          "url": "https://www.tycsports.com/video/seleccion-argentina/scaloni-tras-el-pase-a-semifinales-hoy-sufrimos-pero-lo-que-conseguimos-es-historico-id969161.html?vct={seek_to_second_number}",
+          "source": "TyC Sports"
+        },
+        {
+          "title": "“A nosotros eso nos llega al alma”: la emoción de Julián Álvarez después de su golazo y la clasificación de Argentina",
+          "url": "https://www.lagaceta.com.ar/nota/1145171/deportes/a-nosotros-eso-nos-llega-al-alma-emocion-julian-lvarez-despues-golazo-clasificacion-argentina.html",
+          "source": "La Gaceta"
+        }
+      ]
+    },
+    {
+      "query": "futbol libre argentina vs suiza",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Les va a encender al 100%: demoledor lo que dijo el seleccionador suizo tras la polémica con Argentina",
+          "url": "https://as.com/futbol/videos/les-va-a-encender-al-100-la-demoledora-frase-del-seleccionador-suizo-tras-la-polemica-con-argentina-f202607-v/",
+          "source": "Diario AS"
+        },
+        {
+          "title": "Argentina vs Suiza, transmisión EN VIVO HOY: los detalles, alineaciones y dónde ver | Mundial 2026",
+          "url": "https://www.expreso.ec/deportes/copa-mundial-de-futbol/argentina-vs-suiza-transmision-vivo-hoy-detalles-alineaciones-ver-mundial-2026-288925.html",
+          "source": "expreso.ec"
+        },
+        {
+          "title": "TyC Sports transmitió el partido Argentina 3-1 Suiza por el Mundial 2026",
+          "url": "https://depor.com/futbol-internacional/mundial/tyc-sports-play-en-vivo-gratis-ver-partido-argentina-vs-suiza-en-directo-con-messi-por-futbol-tv-y-pelota-libre-online-video-mundial-2026-nnda-nnrt-noticia/",
+          "source": "Depor"
+        }
+      ]
+    },
+    {
+      "query": "selección de fútbol de noruega",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Mundial 2026: “Nos robaron”, afirmó el padre de Haaland. La FIFA aclaró la polémica",
+          "url": "https://www.montevideo.com.uy/Deportes/Mundial-2026--Nos-robaron--afirmo-el-padre-de-Haaland-La-FIFA-aclaro-la-polemica-uc968049",
+          "source": "Montevideo Portal"
+        },
+        {
+          "title": "FIFA explicó la polémica en el primer gol de Inglaterra, por un supuesto choque de la pelota con un cable",
+          "url": "https://www.elpais.com.uy/ovacion/mundial/fifa-explico-la-polemica-en-el-primer-gol-de-inglaterra-por-un-supuesto-choque-de-la-pelota-con-un-cable",
+          "source": "EL PAÍS Uruguay"
+        },
+        {
+          "title": "¿Debió anularse el gol de Bellingham? Así nació el &apos;cable-gate&apos;, el escándalo tecnológico del Mundial",
+          "url": "https://www.lavanguardia.com/deportes/futbol/20260712/11590497/debio-anularse-gol-bellingham-asi-nacio-cable-gate-escandalo-tecnologico-mundial-noruega-inglaterra-2026.html",
+          "source": "La Vanguardia"
+        }
+      ]
+    },
+    {
+      "query": "just fontaine",
+      "geo": "GB",
+      "language": "en",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "World Cup 2026: Just Fontaine, the greatest World Cup goal scorer",
+          "url": "https://www.bbc.com/sport/football/articles/c621xndyd7no",
+          "source": "BBC"
+        },
+        {
+          "title": "Just Fontaine&apos;s Unbreakable Record: 13 Goals in One World Cup",
+          "url": "https://sports.yahoo.com/videos/just-fontaines-unbreakable-record-13-135726078.html",
+          "source": "Yahoo Sports"
+        },
+        {
+          "title": "How wingers are the driving force behind record-breaking goals in ongoing WC",
+          "url": "https://www.newindianexpress.com/sport/football/2026/Jul/05/how-wingers-are-the-driving-force-behind-record-breaking-goals-in-ongoing-wc",
+          "source": "The New Indian Express"
+        }
+      ]
+    },
+    {
+      "query": "clément turpin",
+      "geo": "FR",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "Coupe du monde 2026 I Norvège-Angleterre I Tuchel - Bellingham, à l&apos;origine de leur désamour",
+          "url": "https://www.eurosport.fr/football/coupe-du-monde/2026/coupe-du-monde-2026-i-norvege-angleterre-i-tuchel-bellingham-a-lorigine-de-leur-desamour_sto23319033/story.shtml",
+          "source": "Eurosport"
+        },
+        {
+          "title": "Norvège - Angleterre : La preuve que l&apos;égalisation anglaise n&apos;était pas valable ? : Sports - Orange",
+          "url": "https://sports.orange.fr/football/coupe-du-monde/article/norvege-angleterre-la-preuve-que-l-egalisation-anglaise-n-etait-pas-valable-exclu-CNT000002qtprr.html",
+          "source": "Sports - Orange"
+        },
+        {
+          "title": "La presse scandinave dénonce « un scandale » après l&apos;élimination de la Norvège en quarts de finale de la Coupe du monde",
+          "url": "https://www.lequipe.fr/Football/Actualites/La-presse-scandinave-denonce-un-scandale-apres-l-elimination-de-la-norvege-en-quarts-de-finale-de-la-coupe-du-monde/1703785",
+          "source": "L&apos;Équipe"
+        }
+      ]
+    },
+    {
+      "query": "match france espagne",
+      "geo": "MA",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "1-5 à la 67e, 4-2-3-1, attaque XXL : que reste-t-il d&apos;Espagne - France 2025 ?",
+          "url": "https://www.eurosport.fr/football/coupe-du-monde/2026/coupe-du-monde-2026-avant-la-demi-finale-que-reste-t-il-despagne-france-5-4-en-2025_sto23319040/story.shtml",
+          "source": "Eurosport"
+        },
+        {
+          "title": "La presse se méfie de la menace Lamine Yamal, voilà comment le PSG influence l’Équipe de France",
+          "url": "https://www.footmercato.net/a2395659671354939271-la-presse-se-mefie-de-la-menace-lamine-yamal-voila-comment-le-psg-influence-lequipe-de-france",
+          "source": "Foot Mercato"
+        },
+        {
+          "title": "Ivan Barton, qui avait expulsé Miguel Almiron pour avoir couvert sa bouche, au sifflet de France-Espagne en demi-finales de la Coupe du monde 2026",
+          "url": "https://www.lequipe.fr/Football/Actualites/Ivan-barton-qui-avait-expulse-miguel-almiron-pour-avoir-couvert-sa-bouche-au-sifflet-de-france-espagne-en-demi-finales-de-la-coupe-du-monde-2026/1703973",
+          "source": "L&apos;Équipe"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "es": [
+      {
+        "query": "historial",
+        "score": 280,
+        "geos": [
+          "MX"
+        ],
+        "samples": [
+          {
+            "query": "historial",
+            "geo": "MX",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "El partido eterno: Argentina vs. Inglaterra, por las semifinales del Mundial 2026",
+                "url": "https://www.espn.com.mx/futbol/mundial/nota/_/id/16994293/argentina-vs-inglaterra-semifinales-mundial-2026-partido-eterno-malvinas",
+                "source": "ESPN México"
+              },
+              {
+                "title": "Tras el ataque de Bellingham: así reacciona Kane a la crítica de Tuchel",
+                "url": "https://es-us.noticias.yahoo.com/deportes/ataque-bellingham-reacciona-kane-cr%C3%ADtica-075400031.html",
+                "source": "Yahoo"
+              },
+              {
+                "title": "De los Hooligans a la ‘Mano de Dios’ y concluyendo con Messi vs Kane",
+                "url": "https://mexico.as.com/videos/as-claro-sports-en-w-radio/de-los-hooligans-a-la-mano-de-dios-y-concluyendo-con-messi-vs-kane-f202607-v/",
+                "source": "AS México"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "radio mitre en vivo",
+        "score": 130,
+        "geos": [
+          "AR"
+        ],
+        "samples": [
+          {
+            "query": "radio mitre en vivo",
+            "geo": "AR",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Qué pasa si Argentina pierde o empata hoy con Suiza en el Mundial 2026",
+                "url": "https://www.pagina12.com.ar/2026/07/12/que-pasa-si-argentina-pierde-o-empata-hoy-con-suiza-en-el-mundial-2026/",
+                "source": "Página|12"
+              },
+              {
+                "title": "Scaloni, tras el pase a semifinales: \"Hoy sufrimos, pero lo que conseguimos es histórico\"",
+                "url": "https://www.tycsports.com/video/seleccion-argentina/scaloni-tras-el-pase-a-semifinales-hoy-sufrimos-pero-lo-que-conseguimos-es-historico-id969161.html?vct={seek_to_second_number}",
+                "source": "TyC Sports"
+              },
+              {
+                "title": "“A nosotros eso nos llega al alma”: la emoción de Julián Álvarez después de su golazo y la clasificación de Argentina",
+                "url": "https://www.lagaceta.com.ar/nota/1145171/deportes/a-nosotros-eso-nos-llega-al-alma-emocion-julian-lvarez-despues-golazo-clasificacion-argentina.html",
+                "source": "La Gaceta"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "selección de fútbol de noruega",
+        "score": 90,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "selección de fútbol de noruega",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Mundial 2026: “Nos robaron”, afirmó el padre de Haaland. La FIFA aclaró la polémica",
+                "url": "https://www.montevideo.com.uy/Deportes/Mundial-2026--Nos-robaron--afirmo-el-padre-de-Haaland-La-FIFA-aclaro-la-polemica-uc968049",
+                "source": "Montevideo Portal"
+              },
+              {
+                "title": "FIFA explicó la polémica en el primer gol de Inglaterra, por un supuesto choque de la pelota con un cable",
+                "url": "https://www.elpais.com.uy/ovacion/mundial/fifa-explico-la-polemica-en-el-primer-gol-de-inglaterra-por-un-supuesto-choque-de-la-pelota-con-un-cable",
+                "source": "EL PAÍS Uruguay"
+              },
+              {
+                "title": "¿Debió anularse el gol de Bellingham? Así nació el &apos;cable-gate&apos;, el escándalo tecnológico del Mundial",
+                "url": "https://www.lavanguardia.com/deportes/futbol/20260712/11590497/debio-anularse-gol-bellingham-asi-nacio-cable-gate-escandalo-tecnologico-mundial-noruega-inglaterra-2026.html",
+                "source": "La Vanguardia"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "futbol libre argentina vs suiza",
+        "score": 80,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "futbol libre argentina vs suiza",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Les va a encender al 100%: demoledor lo que dijo el seleccionador suizo tras la polémica con Argentina",
+                "url": "https://as.com/futbol/videos/les-va-a-encender-al-100-la-demoledora-frase-del-seleccionador-suizo-tras-la-polemica-con-argentina-f202607-v/",
+                "source": "Diario AS"
+              },
+              {
+                "title": "Argentina vs Suiza, transmisión EN VIVO HOY: los detalles, alineaciones y dónde ver | Mundial 2026",
+                "url": "https://www.expreso.ec/deportes/copa-mundial-de-futbol/argentina-vs-suiza-transmision-vivo-hoy-detalles-alineaciones-ver-mundial-2026-288925.html",
+                "source": "expreso.ec"
+              },
+              {
+                "title": "TyC Sports transmitió el partido Argentina 3-1 Suiza por el Mundial 2026",
+                "url": "https://depor.com/futbol-internacional/mundial/tyc-sports-play-en-vivo-gratis-ver-partido-argentina-vs-suiza-en-directo-con-messi-por-futbol-tv-y-pelota-libre-online-video-mundial-2026-nnda-nnrt-noticia/",
+                "source": "Depor"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "en": [
+      {
+        "query": "v",
+        "score": 240,
+        "geos": [
+          "CA"
+        ],
+        "samples": [
+          {
+            "query": "v",
+            "geo": "CA",
+            "language": "en",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Cablegate: should Jude Bellingham’s first goal against Norway have been disallowed? | World Cup 2026",
+                "url": "https://www.theguardian.com/football/2026/jul/12/cablegate-should-jude-bellingham-first-goal-against-norway-have-been-disallowed-england-world-cup-2026",
+                "source": "The Guardian"
+              },
+              {
+                "title": "After Bellingham attack: Kane responds to Tuchel criticism",
+                "url": "https://sports.yahoo.com/articles/bellingham-attack-kane-responds-tuchel-075400572.html",
+                "source": "Yahoo Sports"
+              },
+              {
+                "title": "World Cup Daily live: Spidercam debate rumbles on as four semifinalists confirmed",
+                "url": "https://www.espn.com/soccer/story/_/id/49340531/world-cup-daily-live-spidercam-debate-rumbles-four-semifinalists-confirmed-england-argentina-france-spain",
+                "source": "ESPN"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "just fontaine",
+        "score": 220.00000000000003,
+        "geos": [
+          "GB"
+        ],
+        "samples": [
+          {
+            "query": "just fontaine",
+            "geo": "GB",
+            "language": "en",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "World Cup 2026: Just Fontaine, the greatest World Cup goal scorer",
+                "url": "https://www.bbc.com/sport/football/articles/c621xndyd7no",
+                "source": "BBC"
+              },
+              {
+                "title": "Just Fontaine&apos;s Unbreakable Record: 13 Goals in One World Cup",
+                "url": "https://sports.yahoo.com/videos/just-fontaines-unbreakable-record-13-135726078.html",
+                "source": "Yahoo Sports"
+              },
+              {
+                "title": "How wingers are the driving force behind record-breaking goals in ongoing WC",
+                "url": "https://www.newindianexpress.com/sport/football/2026/Jul/05/how-wingers-are-the-driving-force-behind-record-breaking-goals-in-ongoing-wc",
+                "source": "The New Indian Express"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "fr": [
+      {
+        "query": "clément turpin",
+        "score": 1000,
+        "geos": [
+          "FR"
+        ],
+        "samples": [
+          {
+            "query": "clément turpin",
+            "geo": "FR",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "Coupe du monde 2026 I Norvège-Angleterre I Tuchel - Bellingham, à l&apos;origine de leur désamour",
+                "url": "https://www.eurosport.fr/football/coupe-du-monde/2026/coupe-du-monde-2026-i-norvege-angleterre-i-tuchel-bellingham-a-lorigine-de-leur-desamour_sto23319033/story.shtml",
+                "source": "Eurosport"
+              },
+              {
+                "title": "Norvège - Angleterre : La preuve que l&apos;égalisation anglaise n&apos;était pas valable ? : Sports - Orange",
+                "url": "https://sports.orange.fr/football/coupe-du-monde/article/norvege-angleterre-la-preuve-que-l-egalisation-anglaise-n-etait-pas-valable-exclu-CNT000002qtprr.html",
+                "source": "Sports - Orange"
+              },
+              {
+                "title": "La presse scandinave dénonce « un scandale » après l&apos;élimination de la Norvège en quarts de finale de la Coupe du monde",
+                "url": "https://www.lequipe.fr/Football/Actualites/La-presse-scandinave-denonce-un-scandale-apres-l-elimination-de-la-norvege-en-quarts-de-finale-de-la-coupe-du-monde/1703785",
+                "source": "L&apos;Équipe"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "match france espagne",
+        "score": 90,
+        "geos": [
+          "MA"
+        ],
+        "samples": [
+          {
+            "query": "match france espagne",
+            "geo": "MA",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "1-5 à la 67e, 4-2-3-1, attaque XXL : que reste-t-il d&apos;Espagne - France 2025 ?",
+                "url": "https://www.eurosport.fr/football/coupe-du-monde/2026/coupe-du-monde-2026-avant-la-demi-finale-que-reste-t-il-despagne-france-5-4-en-2025_sto23319040/story.shtml",
+                "source": "Eurosport"
+              },
+              {
+                "title": "La presse se méfie de la menace Lamine Yamal, voilà comment le PSG influence l’Équipe de France",
+                "url": "https://www.footmercato.net/a2395659671354939271-la-presse-se-mefie-de-la-menace-lamine-yamal-voila-comment-le-psg-influence-lequipe-de-france",
+                "source": "Foot Mercato"
+              },
+              {
+                "title": "Ivan Barton, qui avait expulsé Miguel Almiron pour avoir couvert sa bouche, au sifflet de France-Espagne en demi-finales de la Coupe du monde 2026",
+                "url": "https://www.lequipe.fr/Football/Actualites/Ivan-barton-qui-avait-expulse-miguel-almiron-pour-avoir-couvert-sa-bouche-au-sifflet-de-france-espagne-en-demi-finales-de-la-coupe-du-monde-2026/1703973",
+                "source": "L&apos;Équipe"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "topic": "clément turpin",
+      "type": "noticia",
+      "slugSuggestion": "clement-turpin",
+      "language": "fr",
+      "geos": [
+        "FR"
+      ],
+      "score": 1200,
+      "reason": "Google Trends daily FR con 1,000 búsquedas · 3 artículos noticiosos referenciando \"clément turpin\"",
+      "proposedPath": "/noticias/clement-turpin",
+      "evidence": [
+        {
+          "query": "clément turpin",
+          "geo": "FR",
+          "language": "fr",
+          "source": "google-trends-daily",
+          "score": 1000,
+          "articles": [
+            {
+              "title": "Coupe du monde 2026 I Norvège-Angleterre I Tuchel - Bellingham, à l&apos;origine de leur désamour",
+              "url": "https://www.eurosport.fr/football/coupe-du-monde/2026/coupe-du-monde-2026-i-norvege-angleterre-i-tuchel-bellingham-a-lorigine-de-leur-desamour_sto23319033/story.shtml",
+              "source": "Eurosport"
+            },
+            {
+              "title": "Norvège - Angleterre : La preuve que l&apos;égalisation anglaise n&apos;était pas valable ? : Sports - Orange",
+              "url": "https://sports.orange.fr/football/coupe-du-monde/article/norvege-angleterre-la-preuve-que-l-egalisation-anglaise-n-etait-pas-valable-exclu-CNT000002qtprr.html",
+              "source": "Sports - Orange"
+            },
+            {
+              "title": "La presse scandinave dénonce « un scandale » après l&apos;élimination de la Norvège en quarts de finale de la Coupe du monde",
+              "url": "https://www.lequipe.fr/Football/Actualites/La-presse-scandinave-denonce-un-scandale-apres-l-elimination-de-la-norvege-en-quarts-de-finale-de-la-coupe-du-monde/1703785",
+              "source": "L&apos;Équipe"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "historial",
+      "type": "historia",
+      "slugSuggestion": "historial",
+      "language": "es",
+      "geos": [
+        "MX"
+      ],
+      "score": 336,
+      "reason": "Google Trends daily MX con 200 búsquedas · 3 artículos noticiosos referenciando \"historial\"",
+      "proposedPath": "/historias/historial",
+      "evidence": [
+        {
+          "query": "historial",
+          "geo": "MX",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "El partido eterno: Argentina vs. Inglaterra, por las semifinales del Mundial 2026",
+              "url": "https://www.espn.com.mx/futbol/mundial/nota/_/id/16994293/argentina-vs-inglaterra-semifinales-mundial-2026-partido-eterno-malvinas",
+              "source": "ESPN México"
+            },
+            {
+              "title": "Tras el ataque de Bellingham: así reacciona Kane a la crítica de Tuchel",
+              "url": "https://es-us.noticias.yahoo.com/deportes/ataque-bellingham-reacciona-kane-cr%C3%ADtica-075400031.html",
+              "source": "Yahoo"
+            },
+            {
+              "title": "De los Hooligans a la ‘Mano de Dios’ y concluyendo con Messi vs Kane",
+              "url": "https://mexico.as.com/videos/as-claro-sports-en-w-radio/de-los-hooligans-a-la-mano-de-dios-y-concluyendo-con-messi-vs-kane-f202607-v/",
+              "source": "AS México"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "v",
+      "type": "noticia",
+      "slugSuggestion": "v",
+      "language": "en",
+      "geos": [
+        "CA"
+      ],
+      "score": 288,
+      "reason": "Google Trends daily CA con 200 búsquedas · 3 artículos noticiosos referenciando \"v\"",
+      "proposedPath": "/noticias/v",
+      "evidence": [
+        {
+          "query": "v",
+          "geo": "CA",
+          "language": "en",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Cablegate: should Jude Bellingham’s first goal against Norway have been disallowed? | World Cup 2026",
+              "url": "https://www.theguardian.com/football/2026/jul/12/cablegate-should-jude-bellingham-first-goal-against-norway-have-been-disallowed-england-world-cup-2026",
+              "source": "The Guardian"
+            },
+            {
+              "title": "After Bellingham attack: Kane responds to Tuchel criticism",
+              "url": "https://sports.yahoo.com/articles/bellingham-attack-kane-responds-tuchel-075400572.html",
+              "source": "Yahoo Sports"
+            },
+            {
+              "title": "World Cup Daily live: Spidercam debate rumbles on as four semifinalists confirmed",
+              "url": "https://www.espn.com/soccer/story/_/id/49340531/world-cup-daily-live-spidercam-debate-rumbles-four-semifinalists-confirmed-england-argentina-france-spain",
+              "source": "ESPN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "radio mitre en vivo",
+      "type": "noticia",
+      "slugSuggestion": "radio-mitre-en-vivo",
+      "language": "es",
+      "geos": [
+        "AR"
+      ],
+      "score": 156,
+      "reason": "Google Trends daily AR con 100 búsquedas · 3 artículos noticiosos referenciando \"radio mitre en vivo\"",
+      "proposedPath": "/noticias/radio-mitre-en-vivo",
+      "evidence": [
+        {
+          "query": "radio mitre en vivo",
+          "geo": "AR",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 100,
+          "articles": [
+            {
+              "title": "Qué pasa si Argentina pierde o empata hoy con Suiza en el Mundial 2026",
+              "url": "https://www.pagina12.com.ar/2026/07/12/que-pasa-si-argentina-pierde-o-empata-hoy-con-suiza-en-el-mundial-2026/",
+              "source": "Página|12"
+            },
+            {
+              "title": "Scaloni, tras el pase a semifinales: \"Hoy sufrimos, pero lo que conseguimos es histórico\"",
+              "url": "https://www.tycsports.com/video/seleccion-argentina/scaloni-tras-el-pase-a-semifinales-hoy-sufrimos-pero-lo-que-conseguimos-es-historico-id969161.html?vct={seek_to_second_number}",
+              "source": "TyC Sports"
+            },
+            {
+              "title": "“A nosotros eso nos llega al alma”: la emoción de Julián Álvarez después de su golazo y la clasificación de Argentina",
+              "url": "https://www.lagaceta.com.ar/nota/1145171/deportes/a-nosotros-eso-nos-llega-al-alma-emocion-julian-lvarez-despues-golazo-clasificacion-argentina.html",
+              "source": "La Gaceta"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "selección de fútbol de noruega",
+      "type": "noticia",
+      "slugSuggestion": "seleccion-de-futbol-de-noruega",
+      "language": "es",
+      "geos": [
+        "UY"
+      ],
+      "score": 108,
+      "reason": "Google Trends daily UY con 100 búsquedas · 3 artículos noticiosos referenciando \"selección de fútbol de noruega\"",
+      "proposedPath": "/noticias/seleccion-de-futbol-de-noruega",
+      "evidence": [
+        {
+          "query": "selección de fútbol de noruega",
+          "geo": "UY",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 100,
+          "articles": [
+            {
+              "title": "Mundial 2026: “Nos robaron”, afirmó el padre de Haaland. La FIFA aclaró la polémica",
+              "url": "https://www.montevideo.com.uy/Deportes/Mundial-2026--Nos-robaron--afirmo-el-padre-de-Haaland-La-FIFA-aclaro-la-polemica-uc968049",
+              "source": "Montevideo Portal"
+            },
+            {
+              "title": "FIFA explicó la polémica en el primer gol de Inglaterra, por un supuesto choque de la pelota con un cable",
+              "url": "https://www.elpais.com.uy/ovacion/mundial/fifa-explico-la-polemica-en-el-primer-gol-de-inglaterra-por-un-supuesto-choque-de-la-pelota-con-un-cable",
+              "source": "EL PAÍS Uruguay"
+            },
+            {
+              "title": "¿Debió anularse el gol de Bellingham? Así nació el &apos;cable-gate&apos;, el escándalo tecnológico del Mundial",
+              "url": "https://www.lavanguardia.com/deportes/futbol/20260712/11590497/debio-anularse-gol-bellingham-asi-nacio-cable-gate-escandalo-tecnologico-mundial-noruega-inglaterra-2026.html",
+              "source": "La Vanguardia"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "match france espagne",
+      "type": "noticia",
+      "slugSuggestion": "match-france-espagne",
+      "language": "fr",
+      "geos": [
+        "MA"
+      ],
+      "score": 108,
+      "reason": "Google Trends daily MA con 100 búsquedas · 3 artículos noticiosos referenciando \"match france espagne\"",
+      "proposedPath": "/noticias/match-france-espagne",
+      "evidence": [
+        {
+          "query": "match france espagne",
+          "geo": "MA",
+          "language": "fr",
+          "source": "google-trends-daily",
+          "score": 100,
+          "articles": [
+            {
+              "title": "1-5 à la 67e, 4-2-3-1, attaque XXL : que reste-t-il d&apos;Espagne - France 2025 ?",
+              "url": "https://www.eurosport.fr/football/coupe-du-monde/2026/coupe-du-monde-2026-avant-la-demi-finale-que-reste-t-il-despagne-france-5-4-en-2025_sto23319040/story.shtml",
+              "source": "Eurosport"
+            },
+            {
+              "title": "La presse se méfie de la menace Lamine Yamal, voilà comment le PSG influence l’Équipe de France",
+              "url": "https://www.footmercato.net/a2395659671354939271-la-presse-se-mefie-de-la-menace-lamine-yamal-voila-comment-le-psg-influence-lequipe-de-france",
+              "source": "Foot Mercato"
+            },
+            {
+              "title": "Ivan Barton, qui avait expulsé Miguel Almiron pour avoir couvert sa bouche, au sifflet de France-Espagne en demi-finales de la Coupe du monde 2026",
+              "url": "https://www.lequipe.fr/Football/Actualites/Ivan-barton-qui-avait-expulse-miguel-almiron-pour-avoir-couvert-sa-bouche-au-sifflet-de-france-espagne-en-demi-finales-de-la-coupe-du-monde-2026/1703973",
+              "source": "L&apos;Équipe"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "futbol libre argentina vs suiza",
+      "type": "noticia",
+      "slugSuggestion": "futbol-libre-argentina-vs-suiza",
+      "language": "es",
+      "geos": [
+        "EC"
+      ],
+      "score": 96,
+      "reason": "Google Trends daily EC con 100 búsquedas · 3 artículos noticiosos referenciando \"futbol libre argentina vs suiza\"",
+      "proposedPath": "/noticias/futbol-libre-argentina-vs-suiza",
+      "evidence": [
+        {
+          "query": "futbol libre argentina vs suiza",
+          "geo": "EC",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 100,
+          "articles": [
+            {
+              "title": "Les va a encender al 100%: demoledor lo que dijo el seleccionador suizo tras la polémica con Argentina",
+              "url": "https://as.com/futbol/videos/les-va-a-encender-al-100-la-demoledora-frase-del-seleccionador-suizo-tras-la-polemica-con-argentina-f202607-v/",
+              "source": "Diario AS"
+            },
+            {
+              "title": "Argentina vs Suiza, transmisión EN VIVO HOY: los detalles, alineaciones y dónde ver | Mundial 2026",
+              "url": "https://www.expreso.ec/deportes/copa-mundial-de-futbol/argentina-vs-suiza-transmision-vivo-hoy-detalles-alineaciones-ver-mundial-2026-288925.html",
+              "source": "expreso.ec"
+            },
+            {
+              "title": "TyC Sports transmitió el partido Argentina 3-1 Suiza por el Mundial 2026",
+              "url": "https://depor.com/futbol-internacional/mundial/tyc-sports-play-en-vivo-gratis-ver-partido-argentina-vs-suiza-en-directo-con-messi-por-futbol-tv-y-pelota-libre-online-video-mundial-2026-nnda-nnrt-noticia/",
+              "source": "Depor"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alreadyCovered": [
+    {
+      "query": "just fontaine",
+      "matchUrl": "/historias/just-fontaine-13-goles-suecia-1958-record-historico"
+    }
+  ]
+}
