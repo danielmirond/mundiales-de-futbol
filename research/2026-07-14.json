@@ -1,0 +1,382 @@
+{
+  "generatedAt": "2026-07-14T08:36:27.155Z",
+  "date": "2026-07-14",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "que",
+      "geo": "AR",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "El plan alternativo de Scaloni: ensayó una línea de cinco para buscar el pase a la final ante Inglaterra",
+          "url": "https://www.lanacion.com.ar/deportes/futbol/el-plan-alternativo-de-scaloni-ensayo-una-linea-de-cinco-para-buscar-el-pase-a-la-final-ante-nid13072026/",
+          "source": "La Nación"
+        },
+        {
+          "title": "Qué sea como en el ‘86: Argentina jugará con la casaca alternativa",
+          "url": "https://www.eldia.com/mundial-2026/que-sea-como-en-el-86-argentina-jugara-con-la-casaca-alternativa-mundial-2026_1784008613",
+          "source": "Diario El Día de La Plata"
+        },
+        {
+          "title": "Con Inglaterra a la vista, Scaloni hizo pruebas en el entrenamiento de la Selección pero todavía no decidió el equipo para la semifinal del Mundial 2026",
+          "url": "https://www.clarin.com/deportes/inglaterra-vista-scaloni-hizo-pruebas-entrenamiento-seleccion-todavia-decidio-equipo-semifinal-mundial-2026_0_cfyNMRW5Vg.html",
+          "source": "Clarin.com"
+        }
+      ]
+    },
+    {
+      "query": "copa mundial de fútbol",
+      "geo": "CL",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "Deschamps: \"No quiero poner presión a Luis de la Fuente porque sabe que la gente está esperando mucho de España\"",
+          "url": "https://www.marca.com/futbol/mundial/2026/07/14/deschamps-quiero-poner-presion-luis-fuente-gente-esperando-espana.html",
+          "source": "MARCA"
+        },
+        {
+          "title": "Declaraciones cruzadas y cuentas pendientes: el historial que enciende la semifinal del Mundial entre España y Francia",
+          "url": "https://www.latercera.com/el-deportivo/noticia/declaraciones-cruzadas-y-cuentas-pendientes-el-historial-que-enciende-la-semifinal-del-mundial-entre-espana-y-francia/",
+          "source": "La Tercera"
+        },
+        {
+          "title": "Pronóstico Francia vs España en las semifinales del Mundial 2026",
+          "url": "https://sabes.cl/2026/07/13/pronostico-francia-vs-espana-en-las-semifinales-del-mundial-2026/",
+          "source": "Sabes.cl"
+        }
+      ]
+    },
+    {
+      "query": "españa vs francia",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "Mundial 2026: este martes se pondrán en marcha las semifinales con Francia-España",
+          "url": "https://www.montevideo.com.uy/Deportes/Mundial-2026-este-martes-se-pondran-en-marcha-las-semifinales-con-Francia-Espana-uc968220",
+          "source": "Montevideo Portal"
+        },
+        {
+          "title": "Deschamps: \"No quiero poner presión a Luis de la Fuente porque sabe que la gente está esperando mucho de España\"",
+          "url": "https://www.marca.com/futbol/mundial/2026/07/14/deschamps-quiero-poner-presion-luis-fuente-gente-esperando-espana.html",
+          "source": "MARCA"
+        },
+        {
+          "title": "Todos los detalles de Francia-España: horario, estadio, equipos probables y dónde verlo",
+          "url": "https://ladiaria.com.uy/deporte/articulo/2026/7/francia-espana-dos-candidatos-por-el-pasaje-a-la-final/",
+          "source": "la diaria"
+        }
+      ]
+    },
+    {
+      "query": "felipe vi de españa",
+      "geo": "ES",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "La razón por la que el Rey seguirá el España-Francia desde Barcelona",
+          "url": "https://www.lavanguardia.com/gente/20260714/11591445/rey-seguira-espana-francia-barcelona-manda-animos-seleccion.html",
+          "source": "La Vanguardia"
+        },
+        {
+          "title": "Sin cónclave &apos;royal&apos; en los cuartos de final entre España y Bélgica: Felipe y Letizia y sus hijas Leonor y Sofía tienen una buena excusa para no ir al Mundial",
+          "url": "https://www.huffingtonpost.es/life/influencers-celebrities/sin-conclave-royal-cuartos-final-espana-belgica-felipe-letizia-hijas-leonor-sofia-buena-excusa-mundial-f202607.html",
+          "source": "El HuffPost"
+        },
+        {
+          "title": "Felipe VI Mundial 2026: Rey confirma asistencia a final si España se clasifica",
+          "url": "https://www.moncloa.com/2026/07/14/felipe-vi-mundial-2026-confirma-asistencia-3399324/",
+          "source": "MONCLOA.COM"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "es": [
+      {
+        "query": "copa mundial de fútbol",
+        "score": 1800,
+        "geos": [
+          "CL"
+        ],
+        "samples": [
+          {
+            "query": "copa mundial de fútbol",
+            "geo": "CL",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "Deschamps: \"No quiero poner presión a Luis de la Fuente porque sabe que la gente está esperando mucho de España\"",
+                "url": "https://www.marca.com/futbol/mundial/2026/07/14/deschamps-quiero-poner-presion-luis-fuente-gente-esperando-espana.html",
+                "source": "MARCA"
+              },
+              {
+                "title": "Declaraciones cruzadas y cuentas pendientes: el historial que enciende la semifinal del Mundial entre España y Francia",
+                "url": "https://www.latercera.com/el-deportivo/noticia/declaraciones-cruzadas-y-cuentas-pendientes-el-historial-que-enciende-la-semifinal-del-mundial-entre-espana-y-francia/",
+                "source": "La Tercera"
+              },
+              {
+                "title": "Pronóstico Francia vs España en las semifinales del Mundial 2026",
+                "url": "https://sabes.cl/2026/07/13/pronostico-francia-vs-espana-en-las-semifinales-del-mundial-2026/",
+                "source": "Sabes.cl"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "españa vs francia",
+        "score": 1800,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "españa vs francia",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "Mundial 2026: este martes se pondrán en marcha las semifinales con Francia-España",
+                "url": "https://www.montevideo.com.uy/Deportes/Mundial-2026-este-martes-se-pondran-en-marcha-las-semifinales-con-Francia-Espana-uc968220",
+                "source": "Montevideo Portal"
+              },
+              {
+                "title": "Deschamps: \"No quiero poner presión a Luis de la Fuente porque sabe que la gente está esperando mucho de España\"",
+                "url": "https://www.marca.com/futbol/mundial/2026/07/14/deschamps-quiero-poner-presion-luis-fuente-gente-esperando-espana.html",
+                "source": "MARCA"
+              },
+              {
+                "title": "Todos los detalles de Francia-España: horario, estadio, equipos probables y dónde verlo",
+                "url": "https://ladiaria.com.uy/deporte/articulo/2026/7/francia-espana-dos-candidatos-por-el-pasaje-a-la-final/",
+                "source": "la diaria"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "felipe vi de españa",
+        "score": 750,
+        "geos": [
+          "ES"
+        ],
+        "samples": [
+          {
+            "query": "felipe vi de españa",
+            "geo": "ES",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "La razón por la que el Rey seguirá el España-Francia desde Barcelona",
+                "url": "https://www.lavanguardia.com/gente/20260714/11591445/rey-seguira-espana-francia-barcelona-manda-animos-seleccion.html",
+                "source": "La Vanguardia"
+              },
+              {
+                "title": "Sin cónclave &apos;royal&apos; en los cuartos de final entre España y Bélgica: Felipe y Letizia y sus hijas Leonor y Sofía tienen una buena excusa para no ir al Mundial",
+                "url": "https://www.huffingtonpost.es/life/influencers-celebrities/sin-conclave-royal-cuartos-final-espana-belgica-felipe-letizia-hijas-leonor-sofia-buena-excusa-mundial-f202607.html",
+                "source": "El HuffPost"
+              },
+              {
+                "title": "Felipe VI Mundial 2026: Rey confirma asistencia a final si España se clasifica",
+                "url": "https://www.moncloa.com/2026/07/14/felipe-vi-mundial-2026-confirma-asistencia-3399324/",
+                "source": "MONCLOA.COM"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "que",
+        "score": 260,
+        "geos": [
+          "AR"
+        ],
+        "samples": [
+          {
+            "query": "que",
+            "geo": "AR",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "El plan alternativo de Scaloni: ensayó una línea de cinco para buscar el pase a la final ante Inglaterra",
+                "url": "https://www.lanacion.com.ar/deportes/futbol/el-plan-alternativo-de-scaloni-ensayo-una-linea-de-cinco-para-buscar-el-pase-a-la-final-ante-nid13072026/",
+                "source": "La Nación"
+              },
+              {
+                "title": "Qué sea como en el ‘86: Argentina jugará con la casaca alternativa",
+                "url": "https://www.eldia.com/mundial-2026/que-sea-como-en-el-86-argentina-jugara-con-la-casaca-alternativa-mundial-2026_1784008613",
+                "source": "Diario El Día de La Plata"
+              },
+              {
+                "title": "Con Inglaterra a la vista, Scaloni hizo pruebas en el entrenamiento de la Selección pero todavía no decidió el equipo para la semifinal del Mundial 2026",
+                "url": "https://www.clarin.com/deportes/inglaterra-vista-scaloni-hizo-pruebas-entrenamiento-seleccion-todavia-decidio-equipo-semifinal-mundial-2026_0_cfyNMRW5Vg.html",
+                "source": "Clarin.com"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "topic": "españa vs francia",
+      "type": "noticia",
+      "slugSuggestion": "espana-vs-francia",
+      "language": "es",
+      "geos": [
+        "UY"
+      ],
+      "score": 2160,
+      "reason": "Google Trends daily UY con 2,000 búsquedas · 3 artículos noticiosos referenciando \"españa vs francia\"",
+      "proposedPath": "/noticias/espana-vs-francia",
+      "evidence": [
+        {
+          "query": "españa vs francia",
+          "geo": "UY",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 2000,
+          "articles": [
+            {
+              "title": "Mundial 2026: este martes se pondrán en marcha las semifinales con Francia-España",
+              "url": "https://www.montevideo.com.uy/Deportes/Mundial-2026-este-martes-se-pondran-en-marcha-las-semifinales-con-Francia-Espana-uc968220",
+              "source": "Montevideo Portal"
+            },
+            {
+              "title": "Deschamps: \"No quiero poner presión a Luis de la Fuente porque sabe que la gente está esperando mucho de España\"",
+              "url": "https://www.marca.com/futbol/mundial/2026/07/14/deschamps-quiero-poner-presion-luis-fuente-gente-esperando-espana.html",
+              "source": "MARCA"
+            },
+            {
+              "title": "Todos los detalles de Francia-España: horario, estadio, equipos probables y dónde verlo",
+              "url": "https://ladiaria.com.uy/deporte/articulo/2026/7/francia-espana-dos-candidatos-por-el-pasaje-a-la-final/",
+              "source": "la diaria"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "felipe vi de españa",
+      "type": "noticia",
+      "slugSuggestion": "felipe-vi-de-espana",
+      "language": "es",
+      "geos": [
+        "ES"
+      ],
+      "score": 900,
+      "reason": "Google Trends daily ES con 500 búsquedas · 3 artículos noticiosos referenciando \"felipe vi de españa\"",
+      "proposedPath": "/noticias/felipe-vi-de-espana",
+      "evidence": [
+        {
+          "query": "felipe vi de españa",
+          "geo": "ES",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 500,
+          "articles": [
+            {
+              "title": "La razón por la que el Rey seguirá el España-Francia desde Barcelona",
+              "url": "https://www.lavanguardia.com/gente/20260714/11591445/rey-seguira-espana-francia-barcelona-manda-animos-seleccion.html",
+              "source": "La Vanguardia"
+            },
+            {
+              "title": "Sin cónclave &apos;royal&apos; en los cuartos de final entre España y Bélgica: Felipe y Letizia y sus hijas Leonor y Sofía tienen una buena excusa para no ir al Mundial",
+              "url": "https://www.huffingtonpost.es/life/influencers-celebrities/sin-conclave-royal-cuartos-final-espana-belgica-felipe-letizia-hijas-leonor-sofia-buena-excusa-mundial-f202607.html",
+              "source": "El HuffPost"
+            },
+            {
+              "title": "Felipe VI Mundial 2026: Rey confirma asistencia a final si España se clasifica",
+              "url": "https://www.moncloa.com/2026/07/14/felipe-vi-mundial-2026-confirma-asistencia-3399324/",
+              "source": "MONCLOA.COM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "que",
+      "type": "noticia",
+      "slugSuggestion": "que",
+      "language": "es",
+      "geos": [
+        "AR"
+      ],
+      "score": 312,
+      "reason": "Google Trends daily AR con 200 búsquedas · 3 artículos noticiosos referenciando \"que\"",
+      "proposedPath": "/noticias/que",
+      "evidence": [
+        {
+          "query": "que",
+          "geo": "AR",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "El plan alternativo de Scaloni: ensayó una línea de cinco para buscar el pase a la final ante Inglaterra",
+              "url": "https://www.lanacion.com.ar/deportes/futbol/el-plan-alternativo-de-scaloni-ensayo-una-linea-de-cinco-para-buscar-el-pase-a-la-final-ante-nid13072026/",
+              "source": "La Nación"
+            },
+            {
+              "title": "Qué sea como en el ‘86: Argentina jugará con la casaca alternativa",
+              "url": "https://www.eldia.com/mundial-2026/que-sea-como-en-el-86-argentina-jugara-con-la-casaca-alternativa-mundial-2026_1784008613",
+              "source": "Diario El Día de La Plata"
+            },
+            {
+              "title": "Con Inglaterra a la vista, Scaloni hizo pruebas en el entrenamiento de la Selección pero todavía no decidió el equipo para la semifinal del Mundial 2026",
+              "url": "https://www.clarin.com/deportes/inglaterra-vista-scaloni-hizo-pruebas-entrenamiento-seleccion-todavia-decidio-equipo-semifinal-mundial-2026_0_cfyNMRW5Vg.html",
+              "source": "Clarin.com"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alreadyCovered": [
+    {
+      "query": "copa mundial de fútbol",
+      "matchUrl": "/noticias/lamine-yamal-primer-mundial-2026-espana-17-anos-eurocopa"
+    }
+  ]
+}
