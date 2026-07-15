@@ -1,0 +1,1066 @@
+{
+  "generatedAt": "2026-07-15T08:42:43.888Z",
+  "date": "2026-07-15",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "blanco",
+      "geo": "MX",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Isaac del Toro sale del podio del Tour de Francia 2026 y pierde maillot blanco",
+          "url": "https://www.sinembargo.mx/4837869/isaac-del-toro-sale-del-podio-del-tour-de-francia-2026-y-pierde-maillot-blanco/",
+          "source": "SinEmbargo"
+        },
+        {
+          "title": "Cede Del Toro terreno tras la décima etapa del Tour",
+          "url": "https://www.reforma.com/cede-del-toro-terreno-tras-la-decima-etapa-del-tour/ar3240010",
+          "source": "Reforma"
+        },
+        {
+          "title": "Reflexiones: Isaac del Toro, el Mundial y Wimbledon, escribe Luis Tigre Baraldi",
+          "url": "https://www.eluniversal.com.mx/opinion/luis-tigre-baraldi/reflexiones-isaac-del-toro-el-mundial-y-wimbledon/",
+          "source": "El Universal"
+        }
+      ]
+    },
+    {
+      "query": "¿donde será el mundial de fútbol 2030?",
+      "geo": "AR",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "Mundial 2030: Cuándo es, dónde y en qué países será la próxima Copa del Mundo",
+          "url": "https://www.olympics.com/es/noticias/mundial-2030-cuando-donde",
+          "source": "Olympics"
+        },
+        {
+          "title": "Mundial 2030: FIFA oficializa las sedes y los estadios candidatos para el torneo centenario",
+          "url": "https://www.eleco.com.ar/mundial-2026/mundial-2030-fifa-oficializa-las-sedes-y-los-estadios-candidatos-para-el-torneo-centenario",
+          "source": "El Eco"
+        },
+        {
+          "title": "FIFA oficializó las sedes del Mundial 2030",
+          "url": "https://www.cadena3.com/noticia/cobertura-exclusiva/fifa-oficializo-las-sedes-del-mundial-2030_572587",
+          "source": "Cadena 3 Argentina"
+        }
+      ]
+    },
+    {
+      "query": "bota de oro",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Tabla de goleadores del Mundial 2026: Messi y Mbappé se juegan la Bota de Oro con dos invitados sorpresa",
+          "url": "https://as.com/futbol/mundial/tabla-de-goleadores-del-mundial-2026-messi-y-mbappe-se-juegan-la-bota-de-oro-con-dos-invitados-sorpresa-f202607-n/",
+          "source": "Diario AS"
+        },
+        {
+          "title": "Máximos goleadores del Mundial 2026 EN VIVO: tabla de artilleros en la lucha por la Bota de Oro",
+          "url": "https://depor.com/futbol-internacional/mundial/maximos-goleadores-mundial-2026-en-vivo-tabla-de-anotadores-por-bota-de-oro-con-kylian-mbappe-lionel-messi-erling-haaland-harry-kane-copa-del-mundo-noticia/",
+          "source": "Depor"
+        },
+        {
+          "title": "Kylian Mbappé hace historia con Francia en partido ante España",
+          "url": "https://www.tudn.com/mundial-2026/kylian-mbappe-hace-historia-con-francia-en-partido-ante-espana-video",
+          "source": "TUDN"
+        }
+      ]
+    },
+    {
+      "query": "england vs argentina world cup 2026",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Thomas Tuchel: England weighing man-marking plan for Lionel Messi",
+          "url": "https://www.espn.com/soccer/story/_/id/49363093/thomas-tuchel-england-lionel-messi-argentina-fifa-world-cup-2026",
+          "source": "ESPN"
+        },
+        {
+          "title": "England v Argentina World Cup 2026 semi-final: Lionel Scaloni on politics",
+          "url": "https://www.bbc.com/sport/football/articles/cn8q8n6973xo",
+          "source": "BBC"
+        },
+        {
+          "title": "The Greatest Rivalry in Sports Braces for Its Biggest Game Ever",
+          "url": "https://www.wsj.com/sports/soccer/england-argentina-world-cup-maradona-c9b4d29c",
+          "source": "WSJ"
+        }
+      ]
+    },
+    {
+      "query": "hasta donde llego inglaterra en el mundial 2026",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "Inglaterra remonta ante Noruega y se instala entre los cuatro mejores",
+          "url": "https://www.eltelegrafo.com.ec/noticias/fanatico-mundialista/212/haaland-y-kane-lideran-el-duelo-entre-noruega-e-inglaterra-en-miami",
+          "source": "El Telégrafo (por eliminar)"
+        },
+        {
+          "title": "Sigue la tensión en Inglaterra antes del choque ante Argentina: la palabra de Harry Kane sobre los rumores de división en el plantel",
+          "url": "https://www.infobae.com/deportes/2026/07/14/sigue-la-tension-en-inglaterra-antes-del-choque-ante-argentina-la-palabra-de-harry-kane-sobre-los-rumores-de-division-en-el-plantel/",
+          "source": "Infobae"
+        },
+        {
+          "title": "Los aficionados ingleses gritan \"¡Gran Jude!\" tras la victoria en el Mundial contra Noruega",
+          "url": "https://cnnespanol.cnn.com/2026/07/12/deportes/video/aficionados-ingleses-noruega-mundial-trax",
+          "source": "CNN en Español"
+        }
+      ]
+    },
+    {
+      "query": "inglaterra vs argentina",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Scaloni y el Argentina-Inglaterra: “Tenemos memoria, pero los de ahora no tienen culpa”",
+          "url": "https://www.montevideo.com.uy/Deportes/Scaloni-y-el-Argentina-Inglaterra--Tenemos-memoria-pero-los-de-ahora-no-tienen-culpa--uc968346",
+          "source": "Montevideo Portal"
+        },
+        {
+          "title": "Mundial 2026: el equipo que piensa Lionel Scaloni y el que se perfila para enfrentar a Inglaterra",
+          "url": "https://www.elobservador.com.uy/mundial-2026/mundial-2026-lionel-scaloni-no-repetiria-equipo-inglaterra-y-evalua-cambios-el-once-n6050773",
+          "source": "El Observador"
+        },
+        {
+          "title": "Nada de Malvinas, 300 argentinos bajo la lupa y derribo de drones: la trastienda de la seguridad para el partido con Inglaterra",
+          "url": "https://www.clarin.com/deportes/malvinas-300-argentinos-lupa-derribo-drones-trastienda-seguridad-partido-inglaterra_0_ssKB9zaHK5.html",
+          "source": "Clarin.com"
+        }
+      ]
+    },
+    {
+      "query": "timothée chalamet",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Timothée Chalamet Fangirls Over Dallas Cowboys Cheerleaders, on Video!",
+          "url": "https://www.tmz.com/2026/07/14/timothee-chalamet-freaking-out-over-dallas-cowboys-cheerleaders/",
+          "source": "TMZ"
+        },
+        {
+          "title": "Pure speed on display with Usain Bolt and Noah Lyles linking up at the FIFA World Cup Semifinals ⚡️",
+          "url": "https://www.foxsports.com/watch-vertical/fmc-duwzmsyw7xhqb8fn",
+          "source": "FOX Sports"
+        },
+        {
+          "title": "France vs Spain: List of legends in attendance for FIFA World Cup 2026 semi-final",
+          "url": "https://khelnow.com/football/france-vs-spain-list-of-legends-in-attendance-fifa-world-cup-2026",
+          "source": "Khel Now"
+        }
+      ]
+    },
+    {
+      "query": "kylian mbappé",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "World Cup 2026: Emmanuel Macron praises the Blues despite elimination against Spain",
+          "url": "https://beninwebtv.com/en/world-cup-2026-emmanuel-macron-praises-the-blues-despite-elimination-against-spain/",
+          "source": "beninwebtv.com"
+        },
+        {
+          "title": "Kylian Mbappé denied a 3rd straight World Cup final but remains in Golden Boot mix with Messi",
+          "url": "https://www.louisianafirstnews.com/sports/ap-sports/ap-kylian-mbappe-denied-a-3rd-straight-world-cup-final-and-stays-even-with-messi-in-golden-boot-race/",
+          "source": "Louisiana First News"
+        },
+        {
+          "title": "Oh dear, Les Bleus! The alarming stat in this World Cup semi-final exit",
+          "url": "https://onefootball.com/fr/news/oh-dear-les-bleus-the-alarming-stat-in-this-world-cup-semi-final-exit-43140630",
+          "source": "OneFootball"
+        }
+      ]
+    },
+    {
+      "query": "pogba",
+      "geo": "BR",
+      "language": "pt",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Senegal fires manager Pape Thiaw, entire coaching staff following disappointing World Cup run",
+          "url": "https://sports.yahoo.com/soccer/article/senegal-fires-manager-pape-thiaw-entire-coaching-staff-following-disappointing-world-cup-run-204643407.html",
+          "source": "Yahoo Sports"
+        },
+        {
+          "title": "World Cup 2026: England set up Argentina semi, Haaland’s father says Norway ‘robbed’, Senegal sack Thiaw – as it happened",
+          "url": "https://www.theguardian.com/football/live/2026/jul/12/world-cup-2026-reaction-england-norway-argentina-switzerland-live?page=with%3Ablock-6a4fa6a98f0882e84cfe5075",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Senegal sack coach Pape Thiaw after World Cup last-32 exit - The Athletic",
+          "url": "https://www.nytimes.com/athletic/7440143/2026/07/12/senegal-world-cup-manager-pape-thiaw-sacked/",
+          "source": "The New York Times"
+        }
+      ]
+    },
+    {
+      "query": "maud bregeon",
+      "geo": "FR",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "Coupe du monde 2026 : Le Premier ministre espagnol a « tellement honte » de…",
+          "url": "https://www.20minutes.fr/sport/football/4234484-20260714-direct-coupe-monde-2026-revanche-deschamps-estime-espagne-favorite-suivez-journee",
+          "source": "20 Minutes"
+        },
+        {
+          "title": "« Il faut avoir le sens de l’humour » : Mariano Rajoy ironise sur sa polémique raciste après l’élimination des Bleus",
+          "url": "https://www.ouest-france.fr/sport/coupe-du-monde/il-faut-avoir-le-sens-de-lhumour-mariano-rajoy-ironise-sur-sa-polemique-raciste-apres-lelimination-des-bleus-e6287b7e-8015-11f1-9d8e-98fb5a42b8f3",
+          "source": "Ouest-France"
+        },
+        {
+          "title": "Coupe du monde 2026 : \"Pour la demi-finale France-Espagne, que gagne le meilleur, et que perde le racisme\"",
+          "url": "https://www.marianne.net/agora/tribunes-libres/coupe-du-monde-2026-pour-la-demi-finale-france-espagne-que-gagne-le-meilleur-et-que-perde-le-racisme",
+          "source": "Marianne"
+        }
+      ]
+    },
+    {
+      "query": "werder bremen",
+      "geo": "DE",
+      "language": "de",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Vereint in grün und weiß: Werder und Hummel präsentieren das neue Heimtrikot",
+          "url": "https://www.werder.de/news/maenner/2026-2027/pm-trikot-home-15072026",
+          "source": "Werder Bremen"
+        },
+        {
+          "title": "Werder Bremen: Spannendes Detail! So sieht das neue Heimtrikot aus",
+          "url": "https://www.bild.de/sport/fussball/werder-bremen-spannendes-detail-so-sieht-das-neue-heimtrikot-aus-6a573f30664e99bc41e936da",
+          "source": "BILD"
+        },
+        {
+          "title": "Werder Bremen präsentiert neues Heimtrikot für Saison 2026/27",
+          "url": "https://www.weser-kurier.de/werder/profis/werder-bremen-praesentiert-neues-heimtrikot-fuer-saison-2026-27-doc86q3ycjvb0792muv1di",
+          "source": "Weser Kurier"
+        }
+      ]
+    },
+    {
+      "query": "fc köln",
+      "geo": "DE",
+      "language": "de",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "1. FC Köln macht blau: So sieht das wilde Ausweich-Trikot aus",
+          "url": "https://www.bild.de/sport/fussball/1-fc-koeln-macht-blau-so-sieht-das-wilde-ausweich-trikot-aus-6a5733afb95fa94b3abc1fff",
+          "source": "BILD"
+        },
+        {
+          "title": "FC und adidas präsentieren Ausweichtrikot 2026/27",
+          "url": "https://fc.de/aktuelles/news/fc-und-adidas-praesentieren-ausweichtrikot-2026-27",
+          "source": "1. FC Köln"
+        },
+        {
+          "title": "\"Lifestyle-Statement\": 1. FC Köln präsentiert neues Ausweichtrikot",
+          "url": "https://geissblog.koeln/2026/07/tradition-und-lifestyle-statement-fc-praesentiert-neues-ausweichtrikot/",
+          "source": "geissblog"
+        }
+      ]
+    },
+    {
+      "query": "fifa world cup 2026™",
+      "geo": "MA",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "World Cup predictions, semifinals: France vs Spain and England vs Argentina - The Athletic",
+          "url": "https://www.nytimes.com/athletic/7440513/2026/07/14/world-cup-predictions-france-spain-england-argentina/",
+          "source": "The New York Times"
+        },
+        {
+          "title": "Who will win the World Cup? The view from the semi-finalists",
+          "url": "https://www.bbc.com/sport/football/articles/cjrgew3wv4xo",
+          "source": "BBC"
+        },
+        {
+          "title": "Are There Any World Cup Games Today? Semifinal Schedule France vs Spain, England vs Argentina",
+          "url": "https://www.foxsports.com/stories/soccer/are-any-world-cup-games-today-semifinal-schedule-france-vs-spain-england-vs-argentina",
+          "source": "FOX Sports"
+        }
+      ]
+    },
+    {
+      "query": "kylian mbappé",
+      "geo": "MA",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "World Cup 2026: Emmanuel Macron praises the Blues despite elimination against Spain",
+          "url": "https://beninwebtv.com/en/world-cup-2026-emmanuel-macron-praises-the-blues-despite-elimination-against-spain/",
+          "source": "beninwebtv.com"
+        },
+        {
+          "title": "Kylian Mbappé denied a 3rd straight World Cup final but remains in Golden Boot mix with Messi",
+          "url": "https://www.louisianafirstnews.com/sports/ap-sports/ap-kylian-mbappe-denied-a-3rd-straight-world-cup-final-and-stays-even-with-messi-in-golden-boot-race/",
+          "source": "Louisiana First News"
+        },
+        {
+          "title": "Deschamps, who dismissed the criticism that he \"wouldn&apos;t say anything but it was subpar,\" gave an interview as bitter as France&apos;s elimination.",
+          "url": "https://www.starnewskorea.com/en/sports/2026/07/15/2026071512245827432",
+          "source": "스타뉴스"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "es": [
+      {
+        "query": "¿donde será el mundial de fútbol 2030?",
+        "score": 2600,
+        "geos": [
+          "AR"
+        ],
+        "samples": [
+          {
+            "query": "¿donde será el mundial de fútbol 2030?",
+            "geo": "AR",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "Mundial 2030: Cuándo es, dónde y en qué países será la próxima Copa del Mundo",
+                "url": "https://www.olympics.com/es/noticias/mundial-2030-cuando-donde",
+                "source": "Olympics"
+              },
+              {
+                "title": "Mundial 2030: FIFA oficializa las sedes y los estadios candidatos para el torneo centenario",
+                "url": "https://www.eleco.com.ar/mundial-2026/mundial-2030-fifa-oficializa-las-sedes-y-los-estadios-candidatos-para-el-torneo-centenario",
+                "source": "El Eco"
+              },
+              {
+                "title": "FIFA oficializó las sedes del Mundial 2030",
+                "url": "https://www.cadena3.com/noticia/cobertura-exclusiva/fifa-oficializo-las-sedes-del-mundial-2030_572587",
+                "source": "Cadena 3 Argentina"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "hasta donde llego inglaterra en el mundial 2026",
+        "score": 1600,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "hasta donde llego inglaterra en el mundial 2026",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "Inglaterra remonta ante Noruega y se instala entre los cuatro mejores",
+                "url": "https://www.eltelegrafo.com.ec/noticias/fanatico-mundialista/212/haaland-y-kane-lideran-el-duelo-entre-noruega-e-inglaterra-en-miami",
+                "source": "El Telégrafo (por eliminar)"
+              },
+              {
+                "title": "Sigue la tensión en Inglaterra antes del choque ante Argentina: la palabra de Harry Kane sobre los rumores de división en el plantel",
+                "url": "https://www.infobae.com/deportes/2026/07/14/sigue-la-tension-en-inglaterra-antes-del-choque-ante-argentina-la-palabra-de-harry-kane-sobre-los-rumores-de-division-en-el-plantel/",
+                "source": "Infobae"
+              },
+              {
+                "title": "Los aficionados ingleses gritan \"¡Gran Jude!\" tras la victoria en el Mundial contra Noruega",
+                "url": "https://cnnespanol.cnn.com/2026/07/12/deportes/video/aficionados-ingleses-noruega-mundial-trax",
+                "source": "CNN en Español"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "bota de oro",
+        "score": 450,
+        "geos": [
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "bota de oro",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Tabla de goleadores del Mundial 2026: Messi y Mbappé se juegan la Bota de Oro con dos invitados sorpresa",
+                "url": "https://as.com/futbol/mundial/tabla-de-goleadores-del-mundial-2026-messi-y-mbappe-se-juegan-la-bota-de-oro-con-dos-invitados-sorpresa-f202607-n/",
+                "source": "Diario AS"
+              },
+              {
+                "title": "Máximos goleadores del Mundial 2026 EN VIVO: tabla de artilleros en la lucha por la Bota de Oro",
+                "url": "https://depor.com/futbol-internacional/mundial/maximos-goleadores-mundial-2026-en-vivo-tabla-de-anotadores-por-bota-de-oro-con-kylian-mbappe-lionel-messi-erling-haaland-harry-kane-copa-del-mundo-noticia/",
+                "source": "Depor"
+              },
+              {
+                "title": "Kylian Mbappé hace historia con Francia en partido ante España",
+                "url": "https://www.tudn.com/mundial-2026/kylian-mbappe-hace-historia-con-francia-en-partido-ante-espana-video",
+                "source": "TUDN"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "inglaterra vs argentina",
+        "score": 180,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "inglaterra vs argentina",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Scaloni y el Argentina-Inglaterra: “Tenemos memoria, pero los de ahora no tienen culpa”",
+                "url": "https://www.montevideo.com.uy/Deportes/Scaloni-y-el-Argentina-Inglaterra--Tenemos-memoria-pero-los-de-ahora-no-tienen-culpa--uc968346",
+                "source": "Montevideo Portal"
+              },
+              {
+                "title": "Mundial 2026: el equipo que piensa Lionel Scaloni y el que se perfila para enfrentar a Inglaterra",
+                "url": "https://www.elobservador.com.uy/mundial-2026/mundial-2026-lionel-scaloni-no-repetiria-equipo-inglaterra-y-evalua-cambios-el-once-n6050773",
+                "source": "El Observador"
+              },
+              {
+                "title": "Nada de Malvinas, 300 argentinos bajo la lupa y derribo de drones: la trastienda de la seguridad para el partido con Inglaterra",
+                "url": "https://www.clarin.com/deportes/malvinas-300-argentinos-lupa-derribo-drones-trastienda-seguridad-partido-inglaterra_0_ssKB9zaHK5.html",
+                "source": "Clarin.com"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "timothée chalamet",
+        "score": 180,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "timothée chalamet",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Timothée Chalamet Fangirls Over Dallas Cowboys Cheerleaders, on Video!",
+                "url": "https://www.tmz.com/2026/07/14/timothee-chalamet-freaking-out-over-dallas-cowboys-cheerleaders/",
+                "source": "TMZ"
+              },
+              {
+                "title": "Pure speed on display with Usain Bolt and Noah Lyles linking up at the FIFA World Cup Semifinals ⚡️",
+                "url": "https://www.foxsports.com/watch-vertical/fmc-duwzmsyw7xhqb8fn",
+                "source": "FOX Sports"
+              },
+              {
+                "title": "France vs Spain: List of legends in attendance for FIFA World Cup 2026 semi-final",
+                "url": "https://khelnow.com/football/france-vs-spain-list-of-legends-in-attendance-fifa-world-cup-2026",
+                "source": "Khel Now"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "kylian mbappé",
+        "score": 180,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "kylian mbappé",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "World Cup 2026: Emmanuel Macron praises the Blues despite elimination against Spain",
+                "url": "https://beninwebtv.com/en/world-cup-2026-emmanuel-macron-praises-the-blues-despite-elimination-against-spain/",
+                "source": "beninwebtv.com"
+              },
+              {
+                "title": "Kylian Mbappé denied a 3rd straight World Cup final but remains in Golden Boot mix with Messi",
+                "url": "https://www.louisianafirstnews.com/sports/ap-sports/ap-kylian-mbappe-denied-a-3rd-straight-world-cup-final-and-stays-even-with-messi-in-golden-boot-race/",
+                "source": "Louisiana First News"
+              },
+              {
+                "title": "Oh dear, Les Bleus! The alarming stat in this World Cup semi-final exit",
+                "url": "https://onefootball.com/fr/news/oh-dear-les-bleus-the-alarming-stat-in-this-world-cup-semi-final-exit-43140630",
+                "source": "OneFootball"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "england vs argentina world cup 2026",
+        "score": 160,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "england vs argentina world cup 2026",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Thomas Tuchel: England weighing man-marking plan for Lionel Messi",
+                "url": "https://www.espn.com/soccer/story/_/id/49363093/thomas-tuchel-england-lionel-messi-argentina-fifa-world-cup-2026",
+                "source": "ESPN"
+              },
+              {
+                "title": "England v Argentina World Cup 2026 semi-final: Lionel Scaloni on politics",
+                "url": "https://www.bbc.com/sport/football/articles/cn8q8n6973xo",
+                "source": "BBC"
+              },
+              {
+                "title": "The Greatest Rivalry in Sports Braces for Its Biggest Game Ever",
+                "url": "https://www.wsj.com/sports/soccer/england-argentina-world-cup-maradona-c9b4d29c",
+                "source": "WSJ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "blanco",
+        "score": 140,
+        "geos": [
+          "MX"
+        ],
+        "samples": [
+          {
+            "query": "blanco",
+            "geo": "MX",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Isaac del Toro sale del podio del Tour de Francia 2026 y pierde maillot blanco",
+                "url": "https://www.sinembargo.mx/4837869/isaac-del-toro-sale-del-podio-del-tour-de-francia-2026-y-pierde-maillot-blanco/",
+                "source": "SinEmbargo"
+              },
+              {
+                "title": "Cede Del Toro terreno tras la décima etapa del Tour",
+                "url": "https://www.reforma.com/cede-del-toro-terreno-tras-la-decima-etapa-del-tour/ar3240010",
+                "source": "Reforma"
+              },
+              {
+                "title": "Reflexiones: Isaac del Toro, el Mundial y Wimbledon, escribe Luis Tigre Baraldi",
+                "url": "https://www.eluniversal.com.mx/opinion/luis-tigre-baraldi/reflexiones-isaac-del-toro-el-mundial-y-wimbledon/",
+                "source": "El Universal"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "pt": [
+      {
+        "query": "pogba",
+        "score": 130,
+        "geos": [
+          "BR"
+        ],
+        "samples": [
+          {
+            "query": "pogba",
+            "geo": "BR",
+            "language": "pt",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Senegal fires manager Pape Thiaw, entire coaching staff following disappointing World Cup run",
+                "url": "https://sports.yahoo.com/soccer/article/senegal-fires-manager-pape-thiaw-entire-coaching-staff-following-disappointing-world-cup-run-204643407.html",
+                "source": "Yahoo Sports"
+              },
+              {
+                "title": "World Cup 2026: England set up Argentina semi, Haaland’s father says Norway ‘robbed’, Senegal sack Thiaw – as it happened",
+                "url": "https://www.theguardian.com/football/live/2026/jul/12/world-cup-2026-reaction-england-norway-argentina-switzerland-live?page=with%3Ablock-6a4fa6a98f0882e84cfe5075",
+                "source": "The Guardian"
+              },
+              {
+                "title": "Senegal sack coach Pape Thiaw after World Cup last-32 exit - The Athletic",
+                "url": "https://www.nytimes.com/athletic/7440143/2026/07/12/senegal-world-cup-manager-pape-thiaw-sacked/",
+                "source": "The New York Times"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "fr": [
+      {
+        "query": "kylian mbappé",
+        "score": 1800,
+        "geos": [
+          "MA"
+        ],
+        "samples": [
+          {
+            "query": "kylian mbappé",
+            "geo": "MA",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "World Cup 2026: Emmanuel Macron praises the Blues despite elimination against Spain",
+                "url": "https://beninwebtv.com/en/world-cup-2026-emmanuel-macron-praises-the-blues-despite-elimination-against-spain/",
+                "source": "beninwebtv.com"
+              },
+              {
+                "title": "Kylian Mbappé denied a 3rd straight World Cup final but remains in Golden Boot mix with Messi",
+                "url": "https://www.louisianafirstnews.com/sports/ap-sports/ap-kylian-mbappe-denied-a-3rd-straight-world-cup-final-and-stays-even-with-messi-in-golden-boot-race/",
+                "source": "Louisiana First News"
+              },
+              {
+                "title": "Deschamps, who dismissed the criticism that he \"wouldn&apos;t say anything but it was subpar,\" gave an interview as bitter as France&apos;s elimination.",
+                "url": "https://www.starnewskorea.com/en/sports/2026/07/15/2026071512245827432",
+                "source": "스타뉴스"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "maud bregeon",
+        "score": 1000,
+        "geos": [
+          "FR"
+        ],
+        "samples": [
+          {
+            "query": "maud bregeon",
+            "geo": "FR",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "Coupe du monde 2026 : Le Premier ministre espagnol a « tellement honte » de…",
+                "url": "https://www.20minutes.fr/sport/football/4234484-20260714-direct-coupe-monde-2026-revanche-deschamps-estime-espagne-favorite-suivez-journee",
+                "source": "20 Minutes"
+              },
+              {
+                "title": "« Il faut avoir le sens de l’humour » : Mariano Rajoy ironise sur sa polémique raciste après l’élimination des Bleus",
+                "url": "https://www.ouest-france.fr/sport/coupe-du-monde/il-faut-avoir-le-sens-de-lhumour-mariano-rajoy-ironise-sur-sa-polemique-raciste-apres-lelimination-des-bleus-e6287b7e-8015-11f1-9d8e-98fb5a42b8f3",
+                "source": "Ouest-France"
+              },
+              {
+                "title": "Coupe du monde 2026 : \"Pour la demi-finale France-Espagne, que gagne le meilleur, et que perde le racisme\"",
+                "url": "https://www.marianne.net/agora/tribunes-libres/coupe-du-monde-2026-pour-la-demi-finale-france-espagne-que-gagne-le-meilleur-et-que-perde-le-racisme",
+                "source": "Marianne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "fifa world cup 2026™",
+        "score": 450,
+        "geos": [
+          "MA"
+        ],
+        "samples": [
+          {
+            "query": "fifa world cup 2026™",
+            "geo": "MA",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "World Cup predictions, semifinals: France vs Spain and England vs Argentina - The Athletic",
+                "url": "https://www.nytimes.com/athletic/7440513/2026/07/14/world-cup-predictions-france-spain-england-argentina/",
+                "source": "The New York Times"
+              },
+              {
+                "title": "Who will win the World Cup? The view from the semi-finalists",
+                "url": "https://www.bbc.com/sport/football/articles/cjrgew3wv4xo",
+                "source": "BBC"
+              },
+              {
+                "title": "Are There Any World Cup Games Today? Semifinal Schedule France vs Spain, England vs Argentina",
+                "url": "https://www.foxsports.com/stories/soccer/are-any-world-cup-games-today-semifinal-schedule-france-vs-spain-england-vs-argentina",
+                "source": "FOX Sports"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "de": [
+      {
+        "query": "fc köln",
+        "score": 1000,
+        "geos": [
+          "DE"
+        ],
+        "samples": [
+          {
+            "query": "fc köln",
+            "geo": "DE",
+            "language": "de",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "1. FC Köln macht blau: So sieht das wilde Ausweich-Trikot aus",
+                "url": "https://www.bild.de/sport/fussball/1-fc-koeln-macht-blau-so-sieht-das-wilde-ausweich-trikot-aus-6a5733afb95fa94b3abc1fff",
+                "source": "BILD"
+              },
+              {
+                "title": "FC und adidas präsentieren Ausweichtrikot 2026/27",
+                "url": "https://fc.de/aktuelles/news/fc-und-adidas-praesentieren-ausweichtrikot-2026-27",
+                "source": "1. FC Köln"
+              },
+              {
+                "title": "\"Lifestyle-Statement\": 1. FC Köln präsentiert neues Ausweichtrikot",
+                "url": "https://geissblog.koeln/2026/07/tradition-und-lifestyle-statement-fc-praesentiert-neues-ausweichtrikot/",
+                "source": "geissblog"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "werder bremen",
+        "score": 500,
+        "geos": [
+          "DE"
+        ],
+        "samples": [
+          {
+            "query": "werder bremen",
+            "geo": "DE",
+            "language": "de",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Vereint in grün und weiß: Werder und Hummel präsentieren das neue Heimtrikot",
+                "url": "https://www.werder.de/news/maenner/2026-2027/pm-trikot-home-15072026",
+                "source": "Werder Bremen"
+              },
+              {
+                "title": "Werder Bremen: Spannendes Detail! So sieht das neue Heimtrikot aus",
+                "url": "https://www.bild.de/sport/fussball/werder-bremen-spannendes-detail-so-sieht-das-neue-heimtrikot-aus-6a573f30664e99bc41e936da",
+                "source": "BILD"
+              },
+              {
+                "title": "Werder Bremen präsentiert neues Heimtrikot für Saison 2026/27",
+                "url": "https://www.weser-kurier.de/werder/profis/werder-bremen-praesentiert-neues-heimtrikot-fuer-saison-2026-27-doc86q3ycjvb0792muv1di",
+                "source": "Weser Kurier"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "topic": "maud bregeon",
+      "type": "noticia",
+      "slugSuggestion": "maud-bregeon",
+      "language": "fr",
+      "geos": [
+        "FR"
+      ],
+      "score": 1200,
+      "reason": "Google Trends daily FR con 1,000 búsquedas · 3 artículos noticiosos referenciando \"maud bregeon\"",
+      "proposedPath": "/noticias/maud-bregeon",
+      "evidence": [
+        {
+          "query": "maud bregeon",
+          "geo": "FR",
+          "language": "fr",
+          "source": "google-trends-daily",
+          "score": 1000,
+          "articles": [
+            {
+              "title": "Coupe du monde 2026 : Le Premier ministre espagnol a « tellement honte » de…",
+              "url": "https://www.20minutes.fr/sport/football/4234484-20260714-direct-coupe-monde-2026-revanche-deschamps-estime-espagne-favorite-suivez-journee",
+              "source": "20 Minutes"
+            },
+            {
+              "title": "« Il faut avoir le sens de l’humour » : Mariano Rajoy ironise sur sa polémique raciste après l’élimination des Bleus",
+              "url": "https://www.ouest-france.fr/sport/coupe-du-monde/il-faut-avoir-le-sens-de-lhumour-mariano-rajoy-ironise-sur-sa-polemique-raciste-apres-lelimination-des-bleus-e6287b7e-8015-11f1-9d8e-98fb5a42b8f3",
+              "source": "Ouest-France"
+            },
+            {
+              "title": "Coupe du monde 2026 : \"Pour la demi-finale France-Espagne, que gagne le meilleur, et que perde le racisme\"",
+              "url": "https://www.marianne.net/agora/tribunes-libres/coupe-du-monde-2026-pour-la-demi-finale-france-espagne-que-gagne-le-meilleur-et-que-perde-le-racisme",
+              "source": "Marianne"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "fc köln",
+      "type": "noticia",
+      "slugSuggestion": "fc-koln",
+      "language": "de",
+      "geos": [
+        "DE"
+      ],
+      "score": 1200,
+      "reason": "Google Trends daily DE con 1,000 búsquedas · 3 artículos noticiosos referenciando \"fc köln\"",
+      "proposedPath": "/noticias/fc-koln",
+      "evidence": [
+        {
+          "query": "fc köln",
+          "geo": "DE",
+          "language": "de",
+          "source": "google-trends-daily",
+          "score": 1000,
+          "articles": [
+            {
+              "title": "1. FC Köln macht blau: So sieht das wilde Ausweich-Trikot aus",
+              "url": "https://www.bild.de/sport/fussball/1-fc-koeln-macht-blau-so-sieht-das-wilde-ausweich-trikot-aus-6a5733afb95fa94b3abc1fff",
+              "source": "BILD"
+            },
+            {
+              "title": "FC und adidas präsentieren Ausweichtrikot 2026/27",
+              "url": "https://fc.de/aktuelles/news/fc-und-adidas-praesentieren-ausweichtrikot-2026-27",
+              "source": "1. FC Köln"
+            },
+            {
+              "title": "\"Lifestyle-Statement\": 1. FC Köln präsentiert neues Ausweichtrikot",
+              "url": "https://geissblog.koeln/2026/07/tradition-und-lifestyle-statement-fc-praesentiert-neues-ausweichtrikot/",
+              "source": "geissblog"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "werder bremen",
+      "type": "noticia",
+      "slugSuggestion": "werder-bremen",
+      "language": "de",
+      "geos": [
+        "DE"
+      ],
+      "score": 600,
+      "reason": "Google Trends daily DE con 500 búsquedas · 3 artículos noticiosos referenciando \"werder bremen\"",
+      "proposedPath": "/noticias/werder-bremen",
+      "evidence": [
+        {
+          "query": "werder bremen",
+          "geo": "DE",
+          "language": "de",
+          "source": "google-trends-daily",
+          "score": 500,
+          "articles": [
+            {
+              "title": "Vereint in grün und weiß: Werder und Hummel präsentieren das neue Heimtrikot",
+              "url": "https://www.werder.de/news/maenner/2026-2027/pm-trikot-home-15072026",
+              "source": "Werder Bremen"
+            },
+            {
+              "title": "Werder Bremen: Spannendes Detail! So sieht das neue Heimtrikot aus",
+              "url": "https://www.bild.de/sport/fussball/werder-bremen-spannendes-detail-so-sieht-das-neue-heimtrikot-aus-6a573f30664e99bc41e936da",
+              "source": "BILD"
+            },
+            {
+              "title": "Werder Bremen präsentiert neues Heimtrikot für Saison 2026/27",
+              "url": "https://www.weser-kurier.de/werder/profis/werder-bremen-praesentiert-neues-heimtrikot-fuer-saison-2026-27-doc86q3ycjvb0792muv1di",
+              "source": "Weser Kurier"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "blanco",
+      "type": "noticia",
+      "slugSuggestion": "blanco",
+      "language": "es",
+      "geos": [
+        "MX"
+      ],
+      "score": 168,
+      "reason": "Google Trends daily MX con 100 búsquedas · 3 artículos noticiosos referenciando \"blanco\"",
+      "proposedPath": "/noticias/blanco",
+      "evidence": [
+        {
+          "query": "blanco",
+          "geo": "MX",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 100,
+          "articles": [
+            {
+              "title": "Isaac del Toro sale del podio del Tour de Francia 2026 y pierde maillot blanco",
+              "url": "https://www.sinembargo.mx/4837869/isaac-del-toro-sale-del-podio-del-tour-de-francia-2026-y-pierde-maillot-blanco/",
+              "source": "SinEmbargo"
+            },
+            {
+              "title": "Cede Del Toro terreno tras la décima etapa del Tour",
+              "url": "https://www.reforma.com/cede-del-toro-terreno-tras-la-decima-etapa-del-tour/ar3240010",
+              "source": "Reforma"
+            },
+            {
+              "title": "Reflexiones: Isaac del Toro, el Mundial y Wimbledon, escribe Luis Tigre Baraldi",
+              "url": "https://www.eluniversal.com.mx/opinion/luis-tigre-baraldi/reflexiones-isaac-del-toro-el-mundial-y-wimbledon/",
+              "source": "El Universal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "pogba",
+      "type": "noticia",
+      "slugSuggestion": "pogba",
+      "language": "pt",
+      "geos": [
+        "BR"
+      ],
+      "score": 156,
+      "reason": "Google Trends daily BR con 100 búsquedas · 3 artículos noticiosos referenciando \"pogba\"",
+      "proposedPath": "/noticias/pogba",
+      "evidence": [
+        {
+          "query": "pogba",
+          "geo": "BR",
+          "language": "pt",
+          "source": "google-trends-daily",
+          "score": 100,
+          "articles": [
+            {
+              "title": "Senegal fires manager Pape Thiaw, entire coaching staff following disappointing World Cup run",
+              "url": "https://sports.yahoo.com/soccer/article/senegal-fires-manager-pape-thiaw-entire-coaching-staff-following-disappointing-world-cup-run-204643407.html",
+              "source": "Yahoo Sports"
+            },
+            {
+              "title": "World Cup 2026: England set up Argentina semi, Haaland’s father says Norway ‘robbed’, Senegal sack Thiaw – as it happened",
+              "url": "https://www.theguardian.com/football/live/2026/jul/12/world-cup-2026-reaction-england-norway-argentina-switzerland-live?page=with%3Ablock-6a4fa6a98f0882e84cfe5075",
+              "source": "The Guardian"
+            },
+            {
+              "title": "Senegal sack coach Pape Thiaw after World Cup last-32 exit - The Athletic",
+              "url": "https://www.nytimes.com/athletic/7440143/2026/07/12/senegal-world-cup-manager-pape-thiaw-sacked/",
+              "source": "The New York Times"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alreadyCovered": [
+    {
+      "query": "¿donde será el mundial de fútbol 2030?",
+      "matchUrl": "/coleccionismo/panini-mundial-2026/donde-comprar"
+    },
+    {
+      "query": "bota de oro",
+      "matchUrl": "/historias/schillaci-toto-italia-1990-bota-oro-sorpresa"
+    },
+    {
+      "query": "england vs argentina world cup 2026",
+      "matchUrl": "/noticias/jordania-argentina-resultado-mundial-2026"
+    },
+    {
+      "query": "hasta donde llego inglaterra en el mundial 2026",
+      "matchUrl": "/2026/donde-ver"
+    },
+    {
+      "query": "inglaterra vs argentina",
+      "matchUrl": "/noticias/mano-de-dios-maradona-1986-argentina-inglaterra-historia"
+    },
+    {
+      "query": "timothée chalamet",
+      "matchUrl": "/noticias/adidas-anuncio-mundial-2026-backyard-legends-messi-bellingham-yamal-bad-bunny-timothee-chalamet-pelicula-cinco-minutos"
+    },
+    {
+      "query": "kylian mbappé",
+      "matchUrl": "/noticias/kylian-mbappe-mundial-2026-real-madrid-francia-ganar-lo-unico-que-le-falta"
+    },
+    {
+      "query": "fifa world cup 2026™",
+      "matchUrl": "/noticias/cesped-mundial-2026-tecnologia-maquinas-fifa"
+    },
+    {
+      "query": "kylian mbappé",
+      "matchUrl": "/noticias/kylian-mbappe-mundial-2026-real-madrid-francia-ganar-lo-unico-que-le-falta"
+    }
+  ]
+}
