@@ -1,0 +1,322 @@
+{
+  "generatedAt": "2026-07-16T08:41:27.400Z",
+  "date": "2026-07-16",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "iker casillas",
+      "geo": "AR",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Mundial 2026, en directo: última hora de España y previa de la final de la Copa del Mundo",
+          "url": "https://as.com/futbol/seleccion/mundial-2026-en-directo-ultima-hora-de-espana-y-previa-de-la-final-de-la-copa-del-mundo-f202607-d/",
+          "source": "Diario AS"
+        },
+        {
+          "title": "Los picantes posteos de Casillas tras la clasificación de la Selección Argentina a la final: \"No habrá...\"",
+          "url": "https://www.tycsports.com/seleccion-argentina/los-picantes-posteos-de-iker-casillas-tras-la-clasificacion-de-la-seleccion-argentina-a-la-final-no-habra-cuarta-estrella-y-palazos-a-inglaterra-id749919.html",
+          "source": "TyC Sports"
+        },
+        {
+          "title": "Iker Casillas lanzó una chicana tras confirmarse la final con España y desató la reacción de los hinchas argentinos",
+          "url": "https://tn.com.ar/deportes/futbol/2026/07/15/iker-casillas-lanzo-una-chicana-tras-confirmarse-la-final-con-espana-y-desato-la-reaccion-de-los-hinchas-argentinos/",
+          "source": "TN"
+        }
+      ]
+    },
+    {
+      "query": "argentina uk warship falklands dispute",
+      "geo": "GB",
+      "language": "en",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Argentina protests about ‘illegal’ British warship near Falkland Islands",
+          "url": "https://www.telegraph.co.uk/world-news/2026/07/16/argentina-protests-illegal-british-warship-falkland-islands/",
+          "source": "The Telegraph"
+        },
+        {
+          "title": "FIFA 2026 | Tensions near Falkland Islands after Argentina beat England in world cup semis",
+          "url": "https://www.wionews.com/sports/fifa-2026-tensions-near-falkland-islands-after-argentina-beat-england-in-world-cup-semis-1784171619501",
+          "source": "WION"
+        },
+        {
+          "title": "Argentina protests UK warship movement near Malvinas",
+          "url": "https://batimes.com.ar/news/argentina/hours-after-world-cup-clash-argentina-protests-uk-warship-movement-near-malvinas.phtml",
+          "source": "Buenos Aires Times"
+        }
+      ]
+    },
+    {
+      "query": "jude bellingham valentin barco",
+      "geo": "AU",
+      "language": "en",
+      "source": "google-trends-daily",
+      "score": 10000,
+      "articles": [
+        {
+          "title": "Feud explodes as Argentina faces fine over wild post-win act",
+          "url": "https://www.nine.com.au/sport/football/fifa-world-cup-jude-bellingham-whacks-valentin-barco-head-argentina-banner-england-loss-20260716-p60frr.html",
+          "source": "Nine.com.au"
+        },
+        {
+          "title": "‘It was personal’: Trainwreck clip goes viral",
+          "url": "https://www.news.com.au/sport/football/world-cup/messi-expression-haunts-210-million-dollar-man-as-vision-goes-viral/news-story/0ce296606c5013c8076f09c5199b62da",
+          "source": "News.com.au"
+        },
+        {
+          "title": "World Cup 2026: England v Argentina - Jude Bellingham smacks Argentina player",
+          "url": "https://www.bbc.com/sport/football/videos/cqlx35zl2p5o",
+          "source": "BBC"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "es": [
+      {
+        "query": "iker casillas",
+        "score": 260,
+        "geos": [
+          "AR"
+        ],
+        "samples": [
+          {
+            "query": "iker casillas",
+            "geo": "AR",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Mundial 2026, en directo: última hora de España y previa de la final de la Copa del Mundo",
+                "url": "https://as.com/futbol/seleccion/mundial-2026-en-directo-ultima-hora-de-espana-y-previa-de-la-final-de-la-copa-del-mundo-f202607-d/",
+                "source": "Diario AS"
+              },
+              {
+                "title": "Los picantes posteos de Casillas tras la clasificación de la Selección Argentina a la final: \"No habrá...\"",
+                "url": "https://www.tycsports.com/seleccion-argentina/los-picantes-posteos-de-iker-casillas-tras-la-clasificacion-de-la-seleccion-argentina-a-la-final-no-habra-cuarta-estrella-y-palazos-a-inglaterra-id749919.html",
+                "source": "TyC Sports"
+              },
+              {
+                "title": "Iker Casillas lanzó una chicana tras confirmarse la final con España y desató la reacción de los hinchas argentinos",
+                "url": "https://tn.com.ar/deportes/futbol/2026/07/15/iker-casillas-lanzo-una-chicana-tras-confirmarse-la-final-con-espana-y-desato-la-reaccion-de-los-hinchas-argentinos/",
+                "source": "TN"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "en": [
+      {
+        "query": "jude bellingham valentin barco",
+        "score": 7000,
+        "geos": [
+          "AU"
+        ],
+        "samples": [
+          {
+            "query": "jude bellingham valentin barco",
+            "geo": "AU",
+            "language": "en",
+            "source": "google-trends-daily",
+            "score": 10000,
+            "articles": [
+              {
+                "title": "Feud explodes as Argentina faces fine over wild post-win act",
+                "url": "https://www.nine.com.au/sport/football/fifa-world-cup-jude-bellingham-whacks-valentin-barco-head-argentina-banner-england-loss-20260716-p60frr.html",
+                "source": "Nine.com.au"
+              },
+              {
+                "title": "‘It was personal’: Trainwreck clip goes viral",
+                "url": "https://www.news.com.au/sport/football/world-cup/messi-expression-haunts-210-million-dollar-man-as-vision-goes-viral/news-story/0ce296606c5013c8076f09c5199b62da",
+                "source": "News.com.au"
+              },
+              {
+                "title": "World Cup 2026: England v Argentina - Jude Bellingham smacks Argentina player",
+                "url": "https://www.bbc.com/sport/football/videos/cqlx35zl2p5o",
+                "source": "BBC"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "argentina uk warship falklands dispute",
+        "score": 220.00000000000003,
+        "geos": [
+          "GB"
+        ],
+        "samples": [
+          {
+            "query": "argentina uk warship falklands dispute",
+            "geo": "GB",
+            "language": "en",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Argentina protests about ‘illegal’ British warship near Falkland Islands",
+                "url": "https://www.telegraph.co.uk/world-news/2026/07/16/argentina-protests-illegal-british-warship-falkland-islands/",
+                "source": "The Telegraph"
+              },
+              {
+                "title": "FIFA 2026 | Tensions near Falkland Islands after Argentina beat England in world cup semis",
+                "url": "https://www.wionews.com/sports/fifa-2026-tensions-near-falkland-islands-after-argentina-beat-england-in-world-cup-semis-1784171619501",
+                "source": "WION"
+              },
+              {
+                "title": "Argentina protests UK warship movement near Malvinas",
+                "url": "https://batimes.com.ar/news/argentina/hours-after-world-cup-clash-argentina-protests-uk-warship-movement-near-malvinas.phtml",
+                "source": "Buenos Aires Times"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "topic": "jude bellingham valentin barco",
+      "type": "noticia",
+      "slugSuggestion": "jude-bellingham-valentin-barco",
+      "language": "en",
+      "geos": [
+        "AU"
+      ],
+      "score": 8400,
+      "reason": "Google Trends daily AU con 10,000 búsquedas · 3 artículos noticiosos referenciando \"jude bellingham valentin barco\"",
+      "proposedPath": "/noticias/jude-bellingham-valentin-barco",
+      "evidence": [
+        {
+          "query": "jude bellingham valentin barco",
+          "geo": "AU",
+          "language": "en",
+          "source": "google-trends-daily",
+          "score": 10000,
+          "articles": [
+            {
+              "title": "Feud explodes as Argentina faces fine over wild post-win act",
+              "url": "https://www.nine.com.au/sport/football/fifa-world-cup-jude-bellingham-whacks-valentin-barco-head-argentina-banner-england-loss-20260716-p60frr.html",
+              "source": "Nine.com.au"
+            },
+            {
+              "title": "‘It was personal’: Trainwreck clip goes viral",
+              "url": "https://www.news.com.au/sport/football/world-cup/messi-expression-haunts-210-million-dollar-man-as-vision-goes-viral/news-story/0ce296606c5013c8076f09c5199b62da",
+              "source": "News.com.au"
+            },
+            {
+              "title": "World Cup 2026: England v Argentina - Jude Bellingham smacks Argentina player",
+              "url": "https://www.bbc.com/sport/football/videos/cqlx35zl2p5o",
+              "source": "BBC"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "iker casillas",
+      "type": "noticia",
+      "slugSuggestion": "iker-casillas",
+      "language": "es",
+      "geos": [
+        "AR"
+      ],
+      "score": 312,
+      "reason": "Google Trends daily AR con 200 búsquedas · 3 artículos noticiosos referenciando \"iker casillas\"",
+      "proposedPath": "/noticias/iker-casillas",
+      "evidence": [
+        {
+          "query": "iker casillas",
+          "geo": "AR",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Mundial 2026, en directo: última hora de España y previa de la final de la Copa del Mundo",
+              "url": "https://as.com/futbol/seleccion/mundial-2026-en-directo-ultima-hora-de-espana-y-previa-de-la-final-de-la-copa-del-mundo-f202607-d/",
+              "source": "Diario AS"
+            },
+            {
+              "title": "Los picantes posteos de Casillas tras la clasificación de la Selección Argentina a la final: \"No habrá...\"",
+              "url": "https://www.tycsports.com/seleccion-argentina/los-picantes-posteos-de-iker-casillas-tras-la-clasificacion-de-la-seleccion-argentina-a-la-final-no-habra-cuarta-estrella-y-palazos-a-inglaterra-id749919.html",
+              "source": "TyC Sports"
+            },
+            {
+              "title": "Iker Casillas lanzó una chicana tras confirmarse la final con España y desató la reacción de los hinchas argentinos",
+              "url": "https://tn.com.ar/deportes/futbol/2026/07/15/iker-casillas-lanzo-una-chicana-tras-confirmarse-la-final-con-espana-y-desato-la-reaccion-de-los-hinchas-argentinos/",
+              "source": "TN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "argentina uk warship falklands dispute",
+      "type": "noticia",
+      "slugSuggestion": "argentina-uk-warship-falklands-dispute",
+      "language": "en",
+      "geos": [
+        "GB"
+      ],
+      "score": 264,
+      "reason": "Google Trends daily GB con 200 búsquedas · 3 artículos noticiosos referenciando \"argentina uk warship falklands dispute\"",
+      "proposedPath": "/noticias/argentina-uk-warship-falklands-dispute",
+      "evidence": [
+        {
+          "query": "argentina uk warship falklands dispute",
+          "geo": "GB",
+          "language": "en",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Argentina protests about ‘illegal’ British warship near Falkland Islands",
+              "url": "https://www.telegraph.co.uk/world-news/2026/07/16/argentina-protests-illegal-british-warship-falkland-islands/",
+              "source": "The Telegraph"
+            },
+            {
+              "title": "FIFA 2026 | Tensions near Falkland Islands after Argentina beat England in world cup semis",
+              "url": "https://www.wionews.com/sports/fifa-2026-tensions-near-falkland-islands-after-argentina-beat-england-in-world-cup-semis-1784171619501",
+              "source": "WION"
+            },
+            {
+              "title": "Argentina protests UK warship movement near Malvinas",
+              "url": "https://batimes.com.ar/news/argentina/hours-after-world-cup-clash-argentina-protests-uk-warship-movement-near-malvinas.phtml",
+              "source": "Buenos Aires Times"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alreadyCovered": []
+}
