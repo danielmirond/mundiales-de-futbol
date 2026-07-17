@@ -1,0 +1,578 @@
+{
+  "generatedAt": "2026-07-17T08:34:57.635Z",
+  "date": "2026-07-17",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "necaxa",
+      "geo": "CL",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "¿Por qué la Liga MX inicia cuando todavía no termina el Mundial?",
+          "url": "https://www.espn.cl/futbol/mexico/nota/_/id/17009880/mundial-2026-por-que-liga-mx-inicia-cuando-todavia-no-termina",
+          "source": "ESPN Chile"
+        },
+        {
+          "title": "Qué canal pasa Necaxa vs Atlante hoy: dónde ver GRATIS y EN VIVO el partido de la Liga MX",
+          "url": "https://www.365scores.com/es/news/que-canal-pasa-necaxa-vs-atlante-gratis/",
+          "source": "365Scores"
+        },
+        {
+          "title": "¿Y el inicio de Liga MX? Mikel Arriola se prepara para asistir a Final del Mundial 2026",
+          "url": "https://www.marca.com/mx/futbol/liga-mx/2026/07/17/6a5958fce2704e77488b45bc.html",
+          "source": "MARCA"
+        }
+      ]
+    },
+    {
+      "query": "liga mx",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "Qué canal pasa Necaxa vs Atlante hoy: dónde ver GRATIS y EN VIVO el partido de la Liga MX",
+          "url": "https://www.365scores.com/es/news/que-canal-pasa-necaxa-vs-atlante-gratis/",
+          "source": "365Scores"
+        },
+        {
+          "title": "El Mundial empieza a bajar el telón y la Liga MX vuelve a escena con un viejo sueño llamado Atlante",
+          "url": "https://elpais.com/mexico/2026-07-17/el-mundial-empieza-a-bajar-el-telon-y-la-liga-mx-vuelve-a-escena-con-un-viejo-sueno-llamado-atlante.html",
+          "source": "EL PAÍS"
+        },
+        {
+          "title": "¿Y el inicio de Liga MX? Mikel Arriola se prepara para asistir a Final del Mundial 2026",
+          "url": "https://www.marca.com/mx/futbol/liga-mx/2026/07/17/6a5958fce2704e77488b45bc.html",
+          "source": "MARCA"
+        }
+      ]
+    },
+    {
+      "query": "jude bellingham",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "World Cup 2026: England star Jude Bellingham slaps Argentina substitute Barco",
+          "url": "https://www.bbc.com/sport/football/articles/c74glwpv99yo",
+          "source": "BBC"
+        },
+        {
+          "title": "Eagle-eyed fans spot what Bellingham said about Pickford after Argentina goal",
+          "url": "https://www.thesun.co.uk/sport/39775096/jude-bellingham-argentina-goal-pickford-middle-goal-world-cup/",
+          "source": "The Sun"
+        },
+        {
+          "title": "Bellingham&apos;s swipe at Colo Barco in the celebrations nearly sparked chaos",
+          "url": "https://onefootball.com/en/news/bellinghams-swipe-at-colo-barco-in-the-celebrations-nearly-sparked-chaos-43144554",
+          "source": "OneFootball"
+        }
+      ]
+    },
+    {
+      "query": "slavko vinčić",
+      "geo": "FR",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "EN DIRECT Coupe du monde 2026 : La qualité de l&apos;air malsaine inquiète avant…",
+          "url": "https://www.20minutes.fr/sport/football/4234916-20260717-direct-coupe-monde-2026-trump-finale-milei-yamine-lamal-blesse-suivez-nuit",
+          "source": "20 Minutes"
+        },
+        {
+          "title": "De maître à élève modèle puis adversaires en finale de la Coupe du monde : le parcours fou de Luis de la Fuente et Lionel Scaloni",
+          "url": "https://www.lequipe.fr/Football/Article/De-maitre-et-eleve-modele-a-adversaires-en-finale-de-la-coupe-du-monde-le-parcours-fou-de-luis-de-la-fuente-et-lionel-scaloni/1704886",
+          "source": "L&apos;Équipe"
+        },
+        {
+          "title": "Espagne - Argentine. Alerte avant la finale de la Coupe du monde : l’air à New York est « dangereux pour la santé »",
+          "url": "https://www.ouest-france.fr/sport/coupe-du-monde/espagne-argentine-alerte-avant-la-finale-de-la-coupe-du-monde-lair-a-new-york-est-dangereux-pour-la-sante-1248fd7e-81aa-11f1-ae6f-a09f3d00f0f8",
+          "source": "Ouest-France"
+        }
+      ]
+    },
+    {
+      "query": "hsv trikot 26/27",
+      "geo": "DE",
+      "language": "de",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "Das Heimtrikot 2026/27: An der Elbe werden Träume wahr",
+          "url": "https://www.hsv.de/news/das-hsv-heimtrikot-202627-an-der-elbe-werden-traeume-wahr",
+          "source": "HSV.de"
+        },
+        {
+          "title": "HSV: Neues Trikot! Für den Verein ändert adidas die drei Streifen",
+          "url": "https://www.bild.de/sport/fussball/hsv-neues-trikot-fuer-den-verein-aendert-adidas-die-drei-streifen-6a59c22529b150f031b15c0b",
+          "source": "BILD"
+        },
+        {
+          "title": "Neues HSV-Trikot: Dieses Detail überrascht die Fans",
+          "url": "https://www.mopo.de/sport/hsv/das-neue-heimtrikot-ist-da-der-hsv-ueberrascht-mit-suessem-foto-und-stadion-details/4886958",
+          "source": "MOPO"
+        }
+      ]
+    },
+    {
+      "query": "fifa world cup prize money",
+      "geo": "AU",
+      "language": "en",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "How much money will the World Cup winners take home?",
+          "url": "https://www.sbs.com.au/news/article/fifa-world-cup-2026-how-much-the-winners-will-take-home/wskyvxmxu",
+          "source": "SBS"
+        },
+        {
+          "title": "How much prize money is won at the World Cup? - The Athletic",
+          "url": "https://www.nytimes.com/athletic/7447101/2026/07/16/how-much-prize-money-is-won-at-the-world-cup/",
+          "source": "The New York Times"
+        },
+        {
+          "title": "World Cup Powerhouses Will Leave With Tens of Millions in Prize Money",
+          "url": "https://frontofficesports.com/world-cup-powerhouses-tens-millions-prize-money/",
+          "source": "Front Office Sports"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "es": [
+      {
+        "query": "jude bellingham",
+        "score": 1800,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "jude bellingham",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "World Cup 2026: England star Jude Bellingham slaps Argentina substitute Barco",
+                "url": "https://www.bbc.com/sport/football/articles/c74glwpv99yo",
+                "source": "BBC"
+              },
+              {
+                "title": "Eagle-eyed fans spot what Bellingham said about Pickford after Argentina goal",
+                "url": "https://www.thesun.co.uk/sport/39775096/jude-bellingham-argentina-goal-pickford-middle-goal-world-cup/",
+                "source": "The Sun"
+              },
+              {
+                "title": "Bellingham&apos;s swipe at Colo Barco in the celebrations nearly sparked chaos",
+                "url": "https://onefootball.com/en/news/bellinghams-swipe-at-colo-barco-in-the-celebrations-nearly-sparked-chaos-43144554",
+                "source": "OneFootball"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "liga mx",
+        "score": 800,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "liga mx",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "Qué canal pasa Necaxa vs Atlante hoy: dónde ver GRATIS y EN VIVO el partido de la Liga MX",
+                "url": "https://www.365scores.com/es/news/que-canal-pasa-necaxa-vs-atlante-gratis/",
+                "source": "365Scores"
+              },
+              {
+                "title": "El Mundial empieza a bajar el telón y la Liga MX vuelve a escena con un viejo sueño llamado Atlante",
+                "url": "https://elpais.com/mexico/2026-07-17/el-mundial-empieza-a-bajar-el-telon-y-la-liga-mx-vuelve-a-escena-con-un-viejo-sueno-llamado-atlante.html",
+                "source": "EL PAÍS"
+              },
+              {
+                "title": "¿Y el inicio de Liga MX? Mikel Arriola se prepara para asistir a Final del Mundial 2026",
+                "url": "https://www.marca.com/mx/futbol/liga-mx/2026/07/17/6a5958fce2704e77488b45bc.html",
+                "source": "MARCA"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "necaxa",
+        "score": 180,
+        "geos": [
+          "CL"
+        ],
+        "samples": [
+          {
+            "query": "necaxa",
+            "geo": "CL",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "¿Por qué la Liga MX inicia cuando todavía no termina el Mundial?",
+                "url": "https://www.espn.cl/futbol/mexico/nota/_/id/17009880/mundial-2026-por-que-liga-mx-inicia-cuando-todavia-no-termina",
+                "source": "ESPN Chile"
+              },
+              {
+                "title": "Qué canal pasa Necaxa vs Atlante hoy: dónde ver GRATIS y EN VIVO el partido de la Liga MX",
+                "url": "https://www.365scores.com/es/news/que-canal-pasa-necaxa-vs-atlante-gratis/",
+                "source": "365Scores"
+              },
+              {
+                "title": "¿Y el inicio de Liga MX? Mikel Arriola se prepara para asistir a Final del Mundial 2026",
+                "url": "https://www.marca.com/mx/futbol/liga-mx/2026/07/17/6a5958fce2704e77488b45bc.html",
+                "source": "MARCA"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "fr": [
+      {
+        "query": "slavko vinčić",
+        "score": 200,
+        "geos": [
+          "FR"
+        ],
+        "samples": [
+          {
+            "query": "slavko vinčić",
+            "geo": "FR",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "EN DIRECT Coupe du monde 2026 : La qualité de l&apos;air malsaine inquiète avant…",
+                "url": "https://www.20minutes.fr/sport/football/4234916-20260717-direct-coupe-monde-2026-trump-finale-milei-yamine-lamal-blesse-suivez-nuit",
+                "source": "20 Minutes"
+              },
+              {
+                "title": "De maître à élève modèle puis adversaires en finale de la Coupe du monde : le parcours fou de Luis de la Fuente et Lionel Scaloni",
+                "url": "https://www.lequipe.fr/Football/Article/De-maitre-et-eleve-modele-a-adversaires-en-finale-de-la-coupe-du-monde-le-parcours-fou-de-luis-de-la-fuente-et-lionel-scaloni/1704886",
+                "source": "L&apos;Équipe"
+              },
+              {
+                "title": "Espagne - Argentine. Alerte avant la finale de la Coupe du monde : l’air à New York est « dangereux pour la santé »",
+                "url": "https://www.ouest-france.fr/sport/coupe-du-monde/espagne-argentine-alerte-avant-la-finale-de-la-coupe-du-monde-lair-a-new-york-est-dangereux-pour-la-sante-1248fd7e-81aa-11f1-ae6f-a09f3d00f0f8",
+                "source": "Ouest-France"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "de": [
+      {
+        "query": "hsv trikot 26/27",
+        "score": 2000,
+        "geos": [
+          "DE"
+        ],
+        "samples": [
+          {
+            "query": "hsv trikot 26/27",
+            "geo": "DE",
+            "language": "de",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "Das Heimtrikot 2026/27: An der Elbe werden Träume wahr",
+                "url": "https://www.hsv.de/news/das-hsv-heimtrikot-202627-an-der-elbe-werden-traeume-wahr",
+                "source": "HSV.de"
+              },
+              {
+                "title": "HSV: Neues Trikot! Für den Verein ändert adidas die drei Streifen",
+                "url": "https://www.bild.de/sport/fussball/hsv-neues-trikot-fuer-den-verein-aendert-adidas-die-drei-streifen-6a59c22529b150f031b15c0b",
+                "source": "BILD"
+              },
+              {
+                "title": "Neues HSV-Trikot: Dieses Detail überrascht die Fans",
+                "url": "https://www.mopo.de/sport/hsv/das-neue-heimtrikot-ist-da-der-hsv-ueberrascht-mit-suessem-foto-und-stadion-details/4886958",
+                "source": "MOPO"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "en": [
+      {
+        "query": "fifa world cup prize money",
+        "score": 140,
+        "geos": [
+          "AU"
+        ],
+        "samples": [
+          {
+            "query": "fifa world cup prize money",
+            "geo": "AU",
+            "language": "en",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "How much money will the World Cup winners take home?",
+                "url": "https://www.sbs.com.au/news/article/fifa-world-cup-2026-how-much-the-winners-will-take-home/wskyvxmxu",
+                "source": "SBS"
+              },
+              {
+                "title": "How much prize money is won at the World Cup? - The Athletic",
+                "url": "https://www.nytimes.com/athletic/7447101/2026/07/16/how-much-prize-money-is-won-at-the-world-cup/",
+                "source": "The New York Times"
+              },
+              {
+                "title": "World Cup Powerhouses Will Leave With Tens of Millions in Prize Money",
+                "url": "https://frontofficesports.com/world-cup-powerhouses-tens-millions-prize-money/",
+                "source": "Front Office Sports"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "topic": "jude bellingham",
+      "type": "noticia",
+      "slugSuggestion": "jude-bellingham",
+      "language": "es",
+      "geos": [
+        "UY"
+      ],
+      "score": 2160,
+      "reason": "Google Trends daily UY con 2,000 búsquedas · 3 artículos noticiosos referenciando \"jude bellingham\"",
+      "proposedPath": "/noticias/jude-bellingham",
+      "evidence": [
+        {
+          "query": "jude bellingham",
+          "geo": "UY",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 2000,
+          "articles": [
+            {
+              "title": "World Cup 2026: England star Jude Bellingham slaps Argentina substitute Barco",
+              "url": "https://www.bbc.com/sport/football/articles/c74glwpv99yo",
+              "source": "BBC"
+            },
+            {
+              "title": "Eagle-eyed fans spot what Bellingham said about Pickford after Argentina goal",
+              "url": "https://www.thesun.co.uk/sport/39775096/jude-bellingham-argentina-goal-pickford-middle-goal-world-cup/",
+              "source": "The Sun"
+            },
+            {
+              "title": "Bellingham&apos;s swipe at Colo Barco in the celebrations nearly sparked chaos",
+              "url": "https://onefootball.com/en/news/bellinghams-swipe-at-colo-barco-in-the-celebrations-nearly-sparked-chaos-43144554",
+              "source": "OneFootball"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "liga mx",
+      "type": "noticia",
+      "slugSuggestion": "liga-mx",
+      "language": "es",
+      "geos": [
+        "EC"
+      ],
+      "score": 960,
+      "reason": "Google Trends daily EC con 1,000 búsquedas · 3 artículos noticiosos referenciando \"liga mx\"",
+      "proposedPath": "/noticias/liga-mx",
+      "evidence": [
+        {
+          "query": "liga mx",
+          "geo": "EC",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 1000,
+          "articles": [
+            {
+              "title": "Qué canal pasa Necaxa vs Atlante hoy: dónde ver GRATIS y EN VIVO el partido de la Liga MX",
+              "url": "https://www.365scores.com/es/news/que-canal-pasa-necaxa-vs-atlante-gratis/",
+              "source": "365Scores"
+            },
+            {
+              "title": "El Mundial empieza a bajar el telón y la Liga MX vuelve a escena con un viejo sueño llamado Atlante",
+              "url": "https://elpais.com/mexico/2026-07-17/el-mundial-empieza-a-bajar-el-telon-y-la-liga-mx-vuelve-a-escena-con-un-viejo-sueno-llamado-atlante.html",
+              "source": "EL PAÍS"
+            },
+            {
+              "title": "¿Y el inicio de Liga MX? Mikel Arriola se prepara para asistir a Final del Mundial 2026",
+              "url": "https://www.marca.com/mx/futbol/liga-mx/2026/07/17/6a5958fce2704e77488b45bc.html",
+              "source": "MARCA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "slavko vinčić",
+      "type": "noticia",
+      "slugSuggestion": "slavko-vincic",
+      "language": "fr",
+      "geos": [
+        "FR"
+      ],
+      "score": 240,
+      "reason": "Google Trends daily FR con 200 búsquedas · 3 artículos noticiosos referenciando \"slavko vinčić\"",
+      "proposedPath": "/noticias/slavko-vincic",
+      "evidence": [
+        {
+          "query": "slavko vinčić",
+          "geo": "FR",
+          "language": "fr",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "EN DIRECT Coupe du monde 2026 : La qualité de l&apos;air malsaine inquiète avant…",
+              "url": "https://www.20minutes.fr/sport/football/4234916-20260717-direct-coupe-monde-2026-trump-finale-milei-yamine-lamal-blesse-suivez-nuit",
+              "source": "20 Minutes"
+            },
+            {
+              "title": "De maître à élève modèle puis adversaires en finale de la Coupe du monde : le parcours fou de Luis de la Fuente et Lionel Scaloni",
+              "url": "https://www.lequipe.fr/Football/Article/De-maitre-et-eleve-modele-a-adversaires-en-finale-de-la-coupe-du-monde-le-parcours-fou-de-luis-de-la-fuente-et-lionel-scaloni/1704886",
+              "source": "L&apos;Équipe"
+            },
+            {
+              "title": "Espagne - Argentine. Alerte avant la finale de la Coupe du monde : l’air à New York est « dangereux pour la santé »",
+              "url": "https://www.ouest-france.fr/sport/coupe-du-monde/espagne-argentine-alerte-avant-la-finale-de-la-coupe-du-monde-lair-a-new-york-est-dangereux-pour-la-sante-1248fd7e-81aa-11f1-ae6f-a09f3d00f0f8",
+              "source": "Ouest-France"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "necaxa",
+      "type": "noticia",
+      "slugSuggestion": "necaxa",
+      "language": "es",
+      "geos": [
+        "CL"
+      ],
+      "score": 216,
+      "reason": "Google Trends daily CL con 200 búsquedas · 3 artículos noticiosos referenciando \"necaxa\"",
+      "proposedPath": "/noticias/necaxa",
+      "evidence": [
+        {
+          "query": "necaxa",
+          "geo": "CL",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "¿Por qué la Liga MX inicia cuando todavía no termina el Mundial?",
+              "url": "https://www.espn.cl/futbol/mexico/nota/_/id/17009880/mundial-2026-por-que-liga-mx-inicia-cuando-todavia-no-termina",
+              "source": "ESPN Chile"
+            },
+            {
+              "title": "Qué canal pasa Necaxa vs Atlante hoy: dónde ver GRATIS y EN VIVO el partido de la Liga MX",
+              "url": "https://www.365scores.com/es/news/que-canal-pasa-necaxa-vs-atlante-gratis/",
+              "source": "365Scores"
+            },
+            {
+              "title": "¿Y el inicio de Liga MX? Mikel Arriola se prepara para asistir a Final del Mundial 2026",
+              "url": "https://www.marca.com/mx/futbol/liga-mx/2026/07/17/6a5958fce2704e77488b45bc.html",
+              "source": "MARCA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "fifa world cup prize money",
+      "type": "noticia",
+      "slugSuggestion": "fifa-world-cup-prize-money",
+      "language": "en",
+      "geos": [
+        "AU"
+      ],
+      "score": 168,
+      "reason": "Google Trends daily AU con 200 búsquedas · 3 artículos noticiosos referenciando \"fifa world cup prize money\"",
+      "proposedPath": "/noticias/fifa-world-cup-prize-money",
+      "evidence": [
+        {
+          "query": "fifa world cup prize money",
+          "geo": "AU",
+          "language": "en",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "How much money will the World Cup winners take home?",
+              "url": "https://www.sbs.com.au/news/article/fifa-world-cup-2026-how-much-the-winners-will-take-home/wskyvxmxu",
+              "source": "SBS"
+            },
+            {
+              "title": "How much prize money is won at the World Cup? - The Athletic",
+              "url": "https://www.nytimes.com/athletic/7447101/2026/07/16/how-much-prize-money-is-won-at-the-world-cup/",
+              "source": "The New York Times"
+            },
+            {
+              "title": "World Cup Powerhouses Will Leave With Tens of Millions in Prize Money",
+              "url": "https://frontofficesports.com/world-cup-powerhouses-tens-millions-prize-money/",
+              "source": "Front Office Sports"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alreadyCovered": [
+    {
+      "query": "hsv trikot 26/27",
+      "matchUrl": "/selecciones/ARG/camisetas"
+    }
+  ]
+}
