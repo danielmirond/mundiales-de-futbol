@@ -1,0 +1,514 @@
+{
+  "generatedAt": "2026-07-18T08:20:29.759Z",
+  "date": "2026-07-18",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "football fifa world cup",
+      "geo": "CA",
+      "language": "en",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "World Cup 2026: Five positives for England from the tournament",
+          "url": "https://www.bbc.com/sport/football/articles/clyxllv7lmpo",
+          "source": "BBC"
+        },
+        {
+          "title": "Genuine hope may have been fleeting for England. But it was still life-affirming | Max Rushden",
+          "url": "https://www.theguardian.com/football/2026/jul/17/england-world-cup-final-hope-fleeting-life-affirming",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Feeling gutted? Five ways to cope with England&apos;s World Cup defeat",
+          "url": "https://www.bbc.co.uk/news/articles/c4gy5jwjvz7o",
+          "source": "BBC"
+        }
+      ]
+    },
+    {
+      "query": "inglaterra vs francia",
+      "geo": "AR",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Cuando juegan Francia vs. Inglaterra por el tercer y cuarto puesto del Mundial 2026: equipo, fecha, hora y TV en vivo",
+          "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/17009602/francia-vs-inglaterra-tercer-y-cuarto-mundial-2026-equipo-fecha-hora-y-tv-en-vivo",
+          "source": "ESPN Deportes"
+        },
+        {
+          "title": "Francia vs Inglaterra, en vivo, por el Mundial 2026: minuto a minuto y qué canal pasa el partido por TV",
+          "url": "https://tn.com.ar/deportes/futbol/2026/07/18/francia-vs-inglaterra-en-vivo-por-la-tercer-puesto-del-mundial-2026-hora-donde-ver-y-formaciones/",
+          "source": "TN"
+        },
+        {
+          "title": "Video El partido que nadie quiere jugar: el desafío mental de Francia e Inglaterra",
+          "url": "https://www.clarin.com/videos/partido-nadie-quiere-jugar-desafio-mental-francia-inglaterra_3_6IWT1GwXvY.html",
+          "source": "Clarin.com"
+        }
+      ]
+    },
+    {
+      "query": "francia vs inglaterra",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "El que nadie quiere jugar: sábado de tercer puesto en el Mundial",
+          "url": "https://ladiaria.com.uy/deporte/articulo/2026/7/el-que-nadie-quiere-jugar-sabado-de-tercer-puesto-en-el-mundial/",
+          "source": "la diaria"
+        },
+        {
+          "title": "Konaté: “Nadie quiere jugar el partido”",
+          "url": "https://as.com/futbol/mundial/konate-tres-derrotas-seguidas-contra-espana-duelen-f202607-n/",
+          "source": "Diario AS"
+        },
+        {
+          "title": "Francia vs. Inglaterra por el Mundial 2026: van por el tercer puesto, pero con sus respectivos objetivos",
+          "url": "https://www.elpais.com.uy/ovacion/mundial/francia-vs-inglaterra-por-el-mundial-2026-van-por-el-tercer-puesto-pero-con-sus-respectivos-objetivos",
+          "source": "EL PAÍS Uruguay"
+        }
+      ]
+    },
+    {
+      "query": "abucheo",
+      "geo": "ES",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "ABUCHEAN a Cazzu en concierto luego de burlarse de la eliminación de México en el Mundial 2026",
+          "url": "https://www.tvazteca.com/aztecauno/famosos/mundial-2026-abuchean-a-cazzu-luego-que-se-burlara-la-derrota-mexico/",
+          "source": "TV Azteca"
+        },
+        {
+          "title": "Reviven video de Cazzu burlándose de la eliminación de México en Qatar 2022",
+          "url": "https://www.posta.com.mx/entretenimiento/cazzu-es-tendencia-por-video-donde-se-burla-de-mexico/vl2232540",
+          "source": "PostaMx"
+        },
+        {
+          "title": "Funan a Cazzu, se burló de la eliminación de México en el Mundial en un concierto",
+          "url": "https://www.informador.mx/snaptik_7660456981030866196_v3-vf20260717mp4.html",
+          "source": "El Informador"
+        }
+      ]
+    },
+    {
+      "query": "waldbrände kanada",
+      "geo": "DE",
+      "language": "de",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "Waldbrände in Kanada: Trump droht mit Zöllen wegen Luftverschmutzung",
+          "url": "https://www.tagesschau.de/ausland/amerika/usa-kanada-waldbrand-trump-zoelle-100.html",
+          "source": "tagesschau.de"
+        },
+        {
+          "title": "Luftverschmutzung: Trump will Geld von Kanada für Waldbrände",
+          "url": "https://orf.at/stories/3436542/",
+          "source": "ORF"
+        },
+        {
+          "title": "WM 2026 vom 17. Juli: Finale muss womöglich verschoben oder verlegt werden",
+          "url": "https://web.de/magazine/sport/fussball/wm/wm-2026-17-juli-finale-womoeglich-verschoben-verlegt-42514320",
+          "source": "WEB.DE"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "en": [
+      {
+        "query": "football fifa world cup",
+        "score": 240,
+        "geos": [
+          "CA"
+        ],
+        "samples": [
+          {
+            "query": "football fifa world cup",
+            "geo": "CA",
+            "language": "en",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "World Cup 2026: Five positives for England from the tournament",
+                "url": "https://www.bbc.com/sport/football/articles/clyxllv7lmpo",
+                "source": "BBC"
+              },
+              {
+                "title": "Genuine hope may have been fleeting for England. But it was still life-affirming | Max Rushden",
+                "url": "https://www.theguardian.com/football/2026/jul/17/england-world-cup-final-hope-fleeting-life-affirming",
+                "source": "The Guardian"
+              },
+              {
+                "title": "Feeling gutted? Five ways to cope with England&apos;s World Cup defeat",
+                "url": "https://www.bbc.co.uk/news/articles/c4gy5jwjvz7o",
+                "source": "BBC"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "es": [
+      {
+        "query": "francia vs inglaterra",
+        "score": 900,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "francia vs inglaterra",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "El que nadie quiere jugar: sábado de tercer puesto en el Mundial",
+                "url": "https://ladiaria.com.uy/deporte/articulo/2026/7/el-que-nadie-quiere-jugar-sabado-de-tercer-puesto-en-el-mundial/",
+                "source": "la diaria"
+              },
+              {
+                "title": "Konaté: “Nadie quiere jugar el partido”",
+                "url": "https://as.com/futbol/mundial/konate-tres-derrotas-seguidas-contra-espana-duelen-f202607-n/",
+                "source": "Diario AS"
+              },
+              {
+                "title": "Francia vs. Inglaterra por el Mundial 2026: van por el tercer puesto, pero con sus respectivos objetivos",
+                "url": "https://www.elpais.com.uy/ovacion/mundial/francia-vs-inglaterra-por-el-mundial-2026-van-por-el-tercer-puesto-pero-con-sus-respectivos-objetivos",
+                "source": "EL PAÍS Uruguay"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "abucheo",
+        "score": 300,
+        "geos": [
+          "ES"
+        ],
+        "samples": [
+          {
+            "query": "abucheo",
+            "geo": "ES",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "ABUCHEAN a Cazzu en concierto luego de burlarse de la eliminación de México en el Mundial 2026",
+                "url": "https://www.tvazteca.com/aztecauno/famosos/mundial-2026-abuchean-a-cazzu-luego-que-se-burlara-la-derrota-mexico/",
+                "source": "TV Azteca"
+              },
+              {
+                "title": "Reviven video de Cazzu burlándose de la eliminación de México en Qatar 2022",
+                "url": "https://www.posta.com.mx/entretenimiento/cazzu-es-tendencia-por-video-donde-se-burla-de-mexico/vl2232540",
+                "source": "PostaMx"
+              },
+              {
+                "title": "Funan a Cazzu, se burló de la eliminación de México en el Mundial en un concierto",
+                "url": "https://www.informador.mx/snaptik_7660456981030866196_v3-vf20260717mp4.html",
+                "source": "El Informador"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "inglaterra vs francia",
+        "score": 260,
+        "geos": [
+          "AR"
+        ],
+        "samples": [
+          {
+            "query": "inglaterra vs francia",
+            "geo": "AR",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Cuando juegan Francia vs. Inglaterra por el tercer y cuarto puesto del Mundial 2026: equipo, fecha, hora y TV en vivo",
+                "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/17009602/francia-vs-inglaterra-tercer-y-cuarto-mundial-2026-equipo-fecha-hora-y-tv-en-vivo",
+                "source": "ESPN Deportes"
+              },
+              {
+                "title": "Francia vs Inglaterra, en vivo, por el Mundial 2026: minuto a minuto y qué canal pasa el partido por TV",
+                "url": "https://tn.com.ar/deportes/futbol/2026/07/18/francia-vs-inglaterra-en-vivo-por-la-tercer-puesto-del-mundial-2026-hora-donde-ver-y-formaciones/",
+                "source": "TN"
+              },
+              {
+                "title": "Video El partido que nadie quiere jugar: el desafío mental de Francia e Inglaterra",
+                "url": "https://www.clarin.com/videos/partido-nadie-quiere-jugar-desafio-mental-francia-inglaterra_3_6IWT1GwXvY.html",
+                "source": "Clarin.com"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "de": [
+      {
+        "query": "waldbrände kanada",
+        "score": 1000,
+        "geos": [
+          "DE"
+        ],
+        "samples": [
+          {
+            "query": "waldbrände kanada",
+            "geo": "DE",
+            "language": "de",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "Waldbrände in Kanada: Trump droht mit Zöllen wegen Luftverschmutzung",
+                "url": "https://www.tagesschau.de/ausland/amerika/usa-kanada-waldbrand-trump-zoelle-100.html",
+                "source": "tagesschau.de"
+              },
+              {
+                "title": "Luftverschmutzung: Trump will Geld von Kanada für Waldbrände",
+                "url": "https://orf.at/stories/3436542/",
+                "source": "ORF"
+              },
+              {
+                "title": "WM 2026 vom 17. Juli: Finale muss womöglich verschoben oder verlegt werden",
+                "url": "https://web.de/magazine/sport/fussball/wm/wm-2026-17-juli-finale-womoeglich-verschoben-verlegt-42514320",
+                "source": "WEB.DE"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "topic": "waldbrände kanada",
+      "type": "noticia",
+      "slugSuggestion": "waldbrande-kanada",
+      "language": "de",
+      "geos": [
+        "DE"
+      ],
+      "score": 1200,
+      "reason": "Google Trends daily DE con 1,000 búsquedas · 3 artículos noticiosos referenciando \"waldbrände kanada\"",
+      "proposedPath": "/noticias/waldbrande-kanada",
+      "evidence": [
+        {
+          "query": "waldbrände kanada",
+          "geo": "DE",
+          "language": "de",
+          "source": "google-trends-daily",
+          "score": 1000,
+          "articles": [
+            {
+              "title": "Waldbrände in Kanada: Trump droht mit Zöllen wegen Luftverschmutzung",
+              "url": "https://www.tagesschau.de/ausland/amerika/usa-kanada-waldbrand-trump-zoelle-100.html",
+              "source": "tagesschau.de"
+            },
+            {
+              "title": "Luftverschmutzung: Trump will Geld von Kanada für Waldbrände",
+              "url": "https://orf.at/stories/3436542/",
+              "source": "ORF"
+            },
+            {
+              "title": "WM 2026 vom 17. Juli: Finale muss womöglich verschoben oder verlegt werden",
+              "url": "https://web.de/magazine/sport/fussball/wm/wm-2026-17-juli-finale-womoeglich-verschoben-verlegt-42514320",
+              "source": "WEB.DE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "francia vs inglaterra",
+      "type": "noticia",
+      "slugSuggestion": "francia-vs-inglaterra",
+      "language": "es",
+      "geos": [
+        "UY"
+      ],
+      "score": 1080,
+      "reason": "Google Trends daily UY con 1,000 búsquedas · 3 artículos noticiosos referenciando \"francia vs inglaterra\"",
+      "proposedPath": "/noticias/francia-vs-inglaterra",
+      "evidence": [
+        {
+          "query": "francia vs inglaterra",
+          "geo": "UY",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 1000,
+          "articles": [
+            {
+              "title": "El que nadie quiere jugar: sábado de tercer puesto en el Mundial",
+              "url": "https://ladiaria.com.uy/deporte/articulo/2026/7/el-que-nadie-quiere-jugar-sabado-de-tercer-puesto-en-el-mundial/",
+              "source": "la diaria"
+            },
+            {
+              "title": "Konaté: “Nadie quiere jugar el partido”",
+              "url": "https://as.com/futbol/mundial/konate-tres-derrotas-seguidas-contra-espana-duelen-f202607-n/",
+              "source": "Diario AS"
+            },
+            {
+              "title": "Francia vs. Inglaterra por el Mundial 2026: van por el tercer puesto, pero con sus respectivos objetivos",
+              "url": "https://www.elpais.com.uy/ovacion/mundial/francia-vs-inglaterra-por-el-mundial-2026-van-por-el-tercer-puesto-pero-con-sus-respectivos-objetivos",
+              "source": "EL PAÍS Uruguay"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "abucheo",
+      "type": "noticia",
+      "slugSuggestion": "abucheo",
+      "language": "es",
+      "geos": [
+        "ES"
+      ],
+      "score": 360,
+      "reason": "Google Trends daily ES con 200 búsquedas · 3 artículos noticiosos referenciando \"abucheo\"",
+      "proposedPath": "/noticias/abucheo",
+      "evidence": [
+        {
+          "query": "abucheo",
+          "geo": "ES",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "ABUCHEAN a Cazzu en concierto luego de burlarse de la eliminación de México en el Mundial 2026",
+              "url": "https://www.tvazteca.com/aztecauno/famosos/mundial-2026-abuchean-a-cazzu-luego-que-se-burlara-la-derrota-mexico/",
+              "source": "TV Azteca"
+            },
+            {
+              "title": "Reviven video de Cazzu burlándose de la eliminación de México en Qatar 2022",
+              "url": "https://www.posta.com.mx/entretenimiento/cazzu-es-tendencia-por-video-donde-se-burla-de-mexico/vl2232540",
+              "source": "PostaMx"
+            },
+            {
+              "title": "Funan a Cazzu, se burló de la eliminación de México en el Mundial en un concierto",
+              "url": "https://www.informador.mx/snaptik_7660456981030866196_v3-vf20260717mp4.html",
+              "source": "El Informador"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "inglaterra vs francia",
+      "type": "noticia",
+      "slugSuggestion": "inglaterra-vs-francia",
+      "language": "es",
+      "geos": [
+        "AR"
+      ],
+      "score": 312,
+      "reason": "Google Trends daily AR con 200 búsquedas · 3 artículos noticiosos referenciando \"inglaterra vs francia\"",
+      "proposedPath": "/noticias/inglaterra-vs-francia",
+      "evidence": [
+        {
+          "query": "inglaterra vs francia",
+          "geo": "AR",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Cuando juegan Francia vs. Inglaterra por el tercer y cuarto puesto del Mundial 2026: equipo, fecha, hora y TV en vivo",
+              "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/17009602/francia-vs-inglaterra-tercer-y-cuarto-mundial-2026-equipo-fecha-hora-y-tv-en-vivo",
+              "source": "ESPN Deportes"
+            },
+            {
+              "title": "Francia vs Inglaterra, en vivo, por el Mundial 2026: minuto a minuto y qué canal pasa el partido por TV",
+              "url": "https://tn.com.ar/deportes/futbol/2026/07/18/francia-vs-inglaterra-en-vivo-por-la-tercer-puesto-del-mundial-2026-hora-donde-ver-y-formaciones/",
+              "source": "TN"
+            },
+            {
+              "title": "Video El partido que nadie quiere jugar: el desafío mental de Francia e Inglaterra",
+              "url": "https://www.clarin.com/videos/partido-nadie-quiere-jugar-desafio-mental-francia-inglaterra_3_6IWT1GwXvY.html",
+              "source": "Clarin.com"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "football fifa world cup",
+      "type": "noticia",
+      "slugSuggestion": "football-fifa-world-cup",
+      "language": "en",
+      "geos": [
+        "CA"
+      ],
+      "score": 288,
+      "reason": "Google Trends daily CA con 200 búsquedas · 3 artículos noticiosos referenciando \"football fifa world cup\"",
+      "proposedPath": "/noticias/football-fifa-world-cup",
+      "evidence": [
+        {
+          "query": "football fifa world cup",
+          "geo": "CA",
+          "language": "en",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "World Cup 2026: Five positives for England from the tournament",
+              "url": "https://www.bbc.com/sport/football/articles/clyxllv7lmpo",
+              "source": "BBC"
+            },
+            {
+              "title": "Genuine hope may have been fleeting for England. But it was still life-affirming | Max Rushden",
+              "url": "https://www.theguardian.com/football/2026/jul/17/england-world-cup-final-hope-fleeting-life-affirming",
+              "source": "The Guardian"
+            },
+            {
+              "title": "Feeling gutted? Five ways to cope with England&apos;s World Cup defeat",
+              "url": "https://www.bbc.co.uk/news/articles/c4gy5jwjvz7o",
+              "source": "BBC"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alreadyCovered": []
+}
