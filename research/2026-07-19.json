@@ -1,0 +1,1035 @@
+{
+  "generatedAt": "2026-07-19T08:43:07.326Z",
+  "date": "2026-07-19",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "final de la copa del mundo 2026",
+      "geo": "AR",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 50000,
+      "articles": [
+        {
+          "title": "El título pendiente: por qué no se jugó la Finalissima entre Argentina y España antes del Mundial 2026",
+          "url": "https://www.infobae.com/deportes/2026/07/19/el-titulo-pendiente-por-que-no-se-jugo-la-finalissima-entre-argentina-y-espana-antes-del-mundial-2026/",
+          "source": "Infobae"
+        },
+        {
+          "title": "Argentina vs España, por la final del Mundial 2026, EN VIVO: a qué hora es, formaciones y cómo ver el partido",
+          "url": "https://www.clarin.com/deportes/argentina-vs-espana-final-mundial-2026-vivo-hora-formaciones-ver-partido_0_t5FchVNNHK.html",
+          "source": "Clarin.com"
+        },
+        {
+          "title": "📰 Cuatro buenas y dos de las malas",
+          "url": "https://www.pagina12.com.ar/2026/07/18/cuatro-buenas-y-dos-de-las-malas/",
+          "source": "Página|12"
+        }
+      ]
+    },
+    {
+      "query": "vicky xipolitakis",
+      "geo": "AR",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "Vicky Xipolitakis conquistó Nueva York con un impactante look argentino antes de la gran final del Mundial",
+          "url": "https://www.clarin.com/fama/vicky-xipolitakis-conquisto-nueva-york-impactante-look-argentino-gran-final_0_CvpUs6mLtZ.html",
+          "source": "Clarin.com"
+        },
+        {
+          "title": "Marley y Vicky Xipolitakis en Times Square",
+          "url": "https://www.infobae.com/video/teleshow/marley-y-vicky-xipolitakis-en-times-square/iEKnVAHX/",
+          "source": "Infobae"
+        },
+        {
+          "title": "Brillos, plumas y pasión albiceleste: la máxima lección de glamour con la que Vicky Xipolitakis revolucionó la tribuna en el Mundial 2026",
+          "url": "https://viapais.com.ar/via-libre/brillos-plumas-pasion-albiceleste-maxima-leccion-glamour-vicky-xipolitakis-revoluciono-tribuna-mundial-2026_0_Y6czhOXO71.html",
+          "source": "Vía País"
+        }
+      ]
+    },
+    {
+      "query": "tormenta eléctrica",
+      "geo": "CO",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 20000,
+      "articles": [
+        {
+          "title": "¿Está en riesgo la final del Mundial? España y Argentina suspendieron su último entreno por fuertes tormentas eléctricas | El Colombiano",
+          "url": "https://www.elcolombiano.com/especiales/mundial-2026/espana-argentina-suspenden-entrenamiento-final-mundial-2026-tormenta-electrica-JK38983864",
+          "source": "El Colombiano"
+        },
+        {
+          "title": "Amenaza doble para Simeone",
+          "url": "https://as.com/futbol/mundial/amenaza-doble-para-simeone-f202607-n/",
+          "source": "Diario AS"
+        },
+        {
+          "title": "Mundial 2026, últimas noticias en directo | El entrenamiento de España se suspende por el protocolo de tormentas en EE UU",
+          "url": "https://elpais.com/deportes/mundial-futbol/2026-07-18/resumen-y-ultimas-noticias-de-la-copa-mundial-de-futbol.html",
+          "source": "EL PAÍS"
+        }
+      ]
+    },
+    {
+      "query": "you",
+      "geo": "CL",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Heavy metal vs. an orchestra: What to expect from the World Cup final",
+          "url": "https://www.cnn.com/2026/07/19/sport/world-cup-final-preview",
+          "source": "CNN"
+        },
+        {
+          "title": "World Cup 2026: Spain v Argentina final buildup; England win 10-goal thriller – live",
+          "url": "https://www.theguardian.com/football/live/2026/jul/19/world-cup-2026-spain-v-argentina-final-buildup-england-win-10-goal-thriller-live?page=with:block-6a5c85d38f085b8e22af4bc5",
+          "source": "The Guardian"
+        },
+        {
+          "title": "The Battles That Will Decide the World Cup Final",
+          "url": "https://www.wsj.com/sports/soccer/the-battles-that-will-decide-the-world-cup-final-a28a0e0e",
+          "source": "WSJ"
+        }
+      ]
+    },
+    {
+      "query": "face",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Heavy metal vs. an orchestra: What to expect from the World Cup final",
+          "url": "https://www.cnn.com/2026/07/19/sport/world-cup-final-preview",
+          "source": "CNN"
+        },
+        {
+          "title": "World Cup 2026: Spain v Argentina final buildup; England win 10-goal thriller – live",
+          "url": "https://www.theguardian.com/football/live/2026/jul/19/world-cup-2026-spain-v-argentina-final-buildup-england-win-10-goal-thriller-live?page=with:block-6a5c85d38f085b8e22af4bc5",
+          "source": "The Guardian"
+        },
+        {
+          "title": "The Battles That Will Decide the World Cup Final",
+          "url": "https://www.wsj.com/sports/soccer/the-battles-that-will-decide-the-world-cup-final-a28a0e0e",
+          "source": "WSJ"
+        }
+      ]
+    },
+    {
+      "query": "barcelona",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "\"Es como cerrar un círculo perfecto\": la historia detrás de la famosa foto de Messi bañando a Lamine Yamal contada por el fotógrafo que la tomó",
+          "url": "https://www.bbc.com/mundo/articles/c8xnlyzgzlvo",
+          "source": "BBC"
+        },
+        {
+          "title": "Messi y Lamine Yamal, unidos por La Masía: Barcelona publicó un video que emociona antes de la final del Mundial",
+          "url": "https://www.clarin.com/deportes/messi-lamine-yamal-unidos-masia-barcelona-publico-video-emociona-final-mundial_0_abJxitdDxk.html",
+          "source": "Clarin.com"
+        },
+        {
+          "title": "La foto que unió a Lionel Messi y Lamine Yamal hace 19 años: la historia detrás de una imagen que hoy cobra vida en la final del Mundial 2026",
+          "url": "https://www.eluniverso.com/deportes/futbol/la-foto-que-unio-a-lionel-messi-y-lamine-yamal-hace-19-anos-la-historia-detras-de-una-imagen-que-hoy-cobra-vida-en-la-final-del-mundial-2026-nota/",
+          "source": "El Universo"
+        }
+      ]
+    },
+    {
+      "query": "spain vs argentina world cup 2026",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Heavy metal vs. an orchestra: What to expect from the World Cup final",
+          "url": "https://www.cnn.com/2026/07/19/sport/world-cup-final-preview",
+          "source": "CNN"
+        },
+        {
+          "title": "World Cup 2026: Spain v Argentina final buildup; England win 10-goal thriller – live",
+          "url": "https://www.theguardian.com/football/live/2026/jul/19/world-cup-2026-spain-v-argentina-final-buildup-england-win-10-goal-thriller-live?page=with:block-6a5c85d38f085b8e22af4bc5",
+          "source": "The Guardian"
+        },
+        {
+          "title": "The Battles That Will Decide the World Cup Final",
+          "url": "https://www.wsj.com/sports/soccer/the-battles-that-will-decide-the-world-cup-final-a28a0e0e",
+          "source": "WSJ"
+        }
+      ]
+    },
+    {
+      "query": "pablo lescano",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Pablo Lescano vivió un apasionado momento con su mujer en pleno Argentina vs. Inglaterra y salió en la TV",
+          "url": "https://tn.com.ar/show/famosos/2026/07/16/pablo-lescano-vivio-un-apasionado-momento-con-su-mujer-en-pleno-argentina-vs-inglaterra-y-salio-en-la-tv/",
+          "source": "TN"
+        },
+        {
+          "title": "Captaron infraganti a Pablo Lescano y Cecilia Calafell a los besos en el Mundial 2026 y confirmaron la reconciliación",
+          "url": "https://la100.cienradios.com/espectaculos/captaron-infraganti-a-pablo-lescano-y-cecilia-calafell-a-los-besos-en-el-mundial-2026-y-confirmaron-la-reconciliacion/",
+          "source": "La 100"
+        },
+        {
+          "title": "Están hace 20 años, él le fue infiel, ella se enteró que tuvo dos hijos extramatrimoniales y lo dejó: aparecieron juntos en el Mundial y confirmaron todo",
+          "url": "https://www.paparazzi.com.ar/romances/estan-hace-20-anos-el-le-fue-infiel-ella-se-entero-que-tuvo-dos-hijos-extramatrimoniales-y-lo-dejo-aparecieron-juntos-en-el-mundial-y-confirmaron-todo/",
+          "source": "Revista Paparazzi"
+        }
+      ]
+    },
+    {
+      "query": "españa vs argentina",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "Hay finalísima: España y Argentina chocan por la Copa del Mundo",
+          "url": "https://ladiaria.com.uy/deporte/articulo/2026/7/hay-finalisima-espana-y-argentina-chocan-por-la-copa-del-mundo/",
+          "source": "la diaria"
+        },
+        {
+          "title": "3 virtudes que hacen temible a España de cara a la final del Mundial (y 2 debilidades que Argentina puede explotar)",
+          "url": "https://www.bbc.com/mundo/articles/cre4jz073jxo",
+          "source": "BBC"
+        },
+        {
+          "title": "España vs. Argentina por la final del Mundial 2026: de la increíble racha española a la revancha personal de Messi",
+          "url": "https://www.elpais.com.uy/ovacion/mundial/espana-vs-argentina-por-la-final-del-mundial-2026-de-la-increible-racha-espanola-a-la-revancha-personal-de-messi",
+          "source": "EL PAÍS Uruguay"
+        }
+      ]
+    },
+    {
+      "query": "équipe d&apos;espagne de football",
+      "geo": "ES",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "\"Ce n&apos;est pas possible de soutenir l&apos;Argentine\" : des supporters des Bleus racontent pourquoi ils préfèrent une victoire de l&apos;Espagne en finale de Coupe du monde",
+          "url": "https://www.franceinfo.fr/coupe-du-monde/ce-n-est-pas-possible-de-soutenir-l-argentine-des-supporters-des-bleus-racontent-pourquoi-ils-preferent-une-victoire-de-l-espagne-en-finale-de-coupe-du-monde_8110454.html",
+          "source": "franceinfo"
+        },
+        {
+          "title": "« La plus grosse débâcle de la décennie » : quand le dernier Espagne-Argentine virait à l&apos;affront pour l&apos;Albiceleste",
+          "url": "https://www.lequipe.fr/Football/Actualites/-la-plus-grosse-debacle-de-la-decennie-quand-le-dernier-espagne-argentine-virait-a-l-affront-pour-l-albiceleste/1705251",
+          "source": "L&apos;Équipe"
+        },
+        {
+          "title": "Espagne - Argentine : à quelle heure et sur quelle chaîne voir la finale de la Coupe du monde 2026",
+          "url": "https://www.larepubliquedespyrenees.fr/sport/football/coupe-du-monde-de-football/espagne-argentine-a-quelle-heure-et-sur-quelle-chaine-voir-la-finale-de-la-coupe-du-monde-2026-29978094.php",
+          "source": "La République des Pyrénées"
+        }
+      ]
+    },
+    {
+      "query": "pantalla gigante final mundial",
+      "geo": "ES",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Una final para abrazarse y una excepción: las pantallas gigantes que unirán a España",
+          "url": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/07/19/6a5a509321efa059768b458e.html",
+          "source": "El Mundo"
+        },
+        {
+          "title": "¿Dónde ver la final del Mundial 2026 en Madrid? Todas las pantallas gigantes que habrá para ver el España - Ar",
+          "url": "https://as.com/tikitakas/ocio/donde-ver-la-final-del-mundial-2026-en-madrid-todas-las-pantallas-gigantes-que-habra-para-ver-el-espana-argentina-f202607-n/",
+          "source": "Diario AS"
+        },
+        {
+          "title": "O Piñeiriño vuelve a ir a contracorriente: el mejor barrio del mundo presume de la pantalla más pequeña para ver a La Roja",
+          "url": "https://www.lavozdegalicia.es/noticia/arousa/vilagarcia-de-arousa/2026/07/19/pantallas-gigantes-pequenas-santa-espana/0003_202607A19C6994.htm",
+          "source": "La Voz de Galicia"
+        }
+      ]
+    },
+    {
+      "query": "a que hora es la final del mundial 2026",
+      "geo": "ES",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 5000,
+      "articles": [
+        {
+          "title": "Argentina contra España: la final del Mundial de 2026 en cifras",
+          "url": "https://noticias.foxnews.com/sports/argentina-vs-spain-2026-world-cup-numbers",
+          "source": "Fox News"
+        },
+        {
+          "title": "Español",
+          "url": "https://www.aol.com/news/espa-ol-234900219.html",
+          "source": "AOL.com"
+        },
+        {
+          "title": "Cómo verlo: Inglaterra contra Francia, el partido por el tercer puesto del Mundial de la FIFA 2026",
+          "url": "https://noticias.foxnews.com/sports/how-watch-england-vs-france-live-stream-2026-fifa-world-cup-third-place-match",
+          "source": "Fox News"
+        }
+      ]
+    },
+    {
+      "query": "what time is the world cup final in australia",
+      "geo": "AU",
+      "language": "en",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "Why the World Cup half-time show may be a taste of things to come",
+          "url": "https://www.bbc.com/news/articles/cwyr498vqqpo",
+          "source": "BBC"
+        },
+        {
+          "title": "How to watch the FIFA World Cup 2026™ Final&apos;s Halftime Show",
+          "url": "https://www.sbs.com.au/whats-on/article/how-to-watch-the-fifa-world-cup-2026-finals-halftime-show/l33lasrut",
+          "source": "SBS"
+        },
+        {
+          "title": "World Cup final entertainment roundup",
+          "url": "https://www.news.com.au/entertainment/music/world-cup-final-entertainment-roundup-all-the-musical-highlights-as-they-happen/news-story/6c86c9e45b8eb8f7b9dfc9ea48097a8f",
+          "source": "News.com.au"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "es": [
+      {
+        "query": "final de la copa del mundo 2026",
+        "score": 65000,
+        "geos": [
+          "AR"
+        ],
+        "samples": [
+          {
+            "query": "final de la copa del mundo 2026",
+            "geo": "AR",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 50000,
+            "articles": [
+              {
+                "title": "El título pendiente: por qué no se jugó la Finalissima entre Argentina y España antes del Mundial 2026",
+                "url": "https://www.infobae.com/deportes/2026/07/19/el-titulo-pendiente-por-que-no-se-jugo-la-finalissima-entre-argentina-y-espana-antes-del-mundial-2026/",
+                "source": "Infobae"
+              },
+              {
+                "title": "Argentina vs España, por la final del Mundial 2026, EN VIVO: a qué hora es, formaciones y cómo ver el partido",
+                "url": "https://www.clarin.com/deportes/argentina-vs-espana-final-mundial-2026-vivo-hora-formaciones-ver-partido_0_t5FchVNNHK.html",
+                "source": "Clarin.com"
+              },
+              {
+                "title": "📰 Cuatro buenas y dos de las malas",
+                "url": "https://www.pagina12.com.ar/2026/07/18/cuatro-buenas-y-dos-de-las-malas/",
+                "source": "Página|12"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "tormenta eléctrica",
+        "score": 20000,
+        "geos": [
+          "CO"
+        ],
+        "samples": [
+          {
+            "query": "tormenta eléctrica",
+            "geo": "CO",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 20000,
+            "articles": [
+              {
+                "title": "¿Está en riesgo la final del Mundial? España y Argentina suspendieron su último entreno por fuertes tormentas eléctricas | El Colombiano",
+                "url": "https://www.elcolombiano.com/especiales/mundial-2026/espana-argentina-suspenden-entrenamiento-final-mundial-2026-tormenta-electrica-JK38983864",
+                "source": "El Colombiano"
+              },
+              {
+                "title": "Amenaza doble para Simeone",
+                "url": "https://as.com/futbol/mundial/amenaza-doble-para-simeone-f202607-n/",
+                "source": "Diario AS"
+              },
+              {
+                "title": "Mundial 2026, últimas noticias en directo | El entrenamiento de España se suspende por el protocolo de tormentas en EE UU",
+                "url": "https://elpais.com/deportes/mundial-futbol/2026-07-18/resumen-y-ultimas-noticias-de-la-copa-mundial-de-futbol.html",
+                "source": "EL PAÍS"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "a que hora es la final del mundial 2026",
+        "score": 7500,
+        "geos": [
+          "ES"
+        ],
+        "samples": [
+          {
+            "query": "a que hora es la final del mundial 2026",
+            "geo": "ES",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 5000,
+            "articles": [
+              {
+                "title": "Argentina contra España: la final del Mundial de 2026 en cifras",
+                "url": "https://noticias.foxnews.com/sports/argentina-vs-spain-2026-world-cup-numbers",
+                "source": "Fox News"
+              },
+              {
+                "title": "Español",
+                "url": "https://www.aol.com/news/espa-ol-234900219.html",
+                "source": "AOL.com"
+              },
+              {
+                "title": "Cómo verlo: Inglaterra contra Francia, el partido por el tercer puesto del Mundial de la FIFA 2026",
+                "url": "https://noticias.foxnews.com/sports/how-watch-england-vs-france-live-stream-2026-fifa-world-cup-third-place-match",
+                "source": "Fox News"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "españa vs argentina",
+        "score": 1800,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "españa vs argentina",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "Hay finalísima: España y Argentina chocan por la Copa del Mundo",
+                "url": "https://ladiaria.com.uy/deporte/articulo/2026/7/hay-finalisima-espana-y-argentina-chocan-por-la-copa-del-mundo/",
+                "source": "la diaria"
+              },
+              {
+                "title": "3 virtudes que hacen temible a España de cara a la final del Mundial (y 2 debilidades que Argentina puede explotar)",
+                "url": "https://www.bbc.com/mundo/articles/cre4jz073jxo",
+                "source": "BBC"
+              },
+              {
+                "title": "España vs. Argentina por la final del Mundial 2026: de la increíble racha española a la revancha personal de Messi",
+                "url": "https://www.elpais.com.uy/ovacion/mundial/espana-vs-argentina-por-la-final-del-mundial-2026-de-la-increible-racha-espanola-a-la-revancha-personal-de-messi",
+                "source": "EL PAÍS Uruguay"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "vicky xipolitakis",
+        "score": 1300,
+        "geos": [
+          "AR"
+        ],
+        "samples": [
+          {
+            "query": "vicky xipolitakis",
+            "geo": "AR",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "Vicky Xipolitakis conquistó Nueva York con un impactante look argentino antes de la gran final del Mundial",
+                "url": "https://www.clarin.com/fama/vicky-xipolitakis-conquisto-nueva-york-impactante-look-argentino-gran-final_0_CvpUs6mLtZ.html",
+                "source": "Clarin.com"
+              },
+              {
+                "title": "Marley y Vicky Xipolitakis en Times Square",
+                "url": "https://www.infobae.com/video/teleshow/marley-y-vicky-xipolitakis-en-times-square/iEKnVAHX/",
+                "source": "Infobae"
+              },
+              {
+                "title": "Brillos, plumas y pasión albiceleste: la máxima lección de glamour con la que Vicky Xipolitakis revolucionó la tribuna en el Mundial 2026",
+                "url": "https://viapais.com.ar/via-libre/brillos-plumas-pasion-albiceleste-maxima-leccion-glamour-vicky-xipolitakis-revoluciono-tribuna-mundial-2026_0_Y6czhOXO71.html",
+                "source": "Vía País"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "équipe d&apos;espagne de football",
+        "score": 750,
+        "geos": [
+          "ES"
+        ],
+        "samples": [
+          {
+            "query": "équipe d&apos;espagne de football",
+            "geo": "ES",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "\"Ce n&apos;est pas possible de soutenir l&apos;Argentine\" : des supporters des Bleus racontent pourquoi ils préfèrent une victoire de l&apos;Espagne en finale de Coupe du monde",
+                "url": "https://www.franceinfo.fr/coupe-du-monde/ce-n-est-pas-possible-de-soutenir-l-argentine-des-supporters-des-bleus-racontent-pourquoi-ils-preferent-une-victoire-de-l-espagne-en-finale-de-coupe-du-monde_8110454.html",
+                "source": "franceinfo"
+              },
+              {
+                "title": "« La plus grosse débâcle de la décennie » : quand le dernier Espagne-Argentine virait à l&apos;affront pour l&apos;Albiceleste",
+                "url": "https://www.lequipe.fr/Football/Actualites/-la-plus-grosse-debacle-de-la-decennie-quand-le-dernier-espagne-argentine-virait-a-l-affront-pour-l-albiceleste/1705251",
+                "source": "L&apos;Équipe"
+              },
+              {
+                "title": "Espagne - Argentine : à quelle heure et sur quelle chaîne voir la finale de la Coupe du monde 2026",
+                "url": "https://www.larepubliquedespyrenees.fr/sport/football/coupe-du-monde-de-football/espagne-argentine-a-quelle-heure-et-sur-quelle-chaine-voir-la-finale-de-la-coupe-du-monde-2026-29978094.php",
+                "source": "La République des Pyrénées"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "pantalla gigante final mundial",
+        "score": 750,
+        "geos": [
+          "ES"
+        ],
+        "samples": [
+          {
+            "query": "pantalla gigante final mundial",
+            "geo": "ES",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Una final para abrazarse y una excepción: las pantallas gigantes que unirán a España",
+                "url": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/07/19/6a5a509321efa059768b458e.html",
+                "source": "El Mundo"
+              },
+              {
+                "title": "¿Dónde ver la final del Mundial 2026 en Madrid? Todas las pantallas gigantes que habrá para ver el España - Ar",
+                "url": "https://as.com/tikitakas/ocio/donde-ver-la-final-del-mundial-2026-en-madrid-todas-las-pantallas-gigantes-que-habra-para-ver-el-espana-argentina-f202607-n/",
+                "source": "Diario AS"
+              },
+              {
+                "title": "O Piñeiriño vuelve a ir a contracorriente: el mejor barrio del mundo presume de la pantalla más pequeña para ver a La Roja",
+                "url": "https://www.lavozdegalicia.es/noticia/arousa/vilagarcia-de-arousa/2026/07/19/pantallas-gigantes-pequenas-santa-espana/0003_202607A19C6994.htm",
+                "source": "La Voz de Galicia"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "barcelona",
+        "score": 400,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "barcelona",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "\"Es como cerrar un círculo perfecto\": la historia detrás de la famosa foto de Messi bañando a Lamine Yamal contada por el fotógrafo que la tomó",
+                "url": "https://www.bbc.com/mundo/articles/c8xnlyzgzlvo",
+                "source": "BBC"
+              },
+              {
+                "title": "Messi y Lamine Yamal, unidos por La Masía: Barcelona publicó un video que emociona antes de la final del Mundial",
+                "url": "https://www.clarin.com/deportes/messi-lamine-yamal-unidos-masia-barcelona-publico-video-emociona-final-mundial_0_abJxitdDxk.html",
+                "source": "Clarin.com"
+              },
+              {
+                "title": "La foto que unió a Lionel Messi y Lamine Yamal hace 19 años: la historia detrás de una imagen que hoy cobra vida en la final del Mundial 2026",
+                "url": "https://www.eluniverso.com/deportes/futbol/la-foto-que-unio-a-lionel-messi-y-lamine-yamal-hace-19-anos-la-historia-detras-de-una-imagen-que-hoy-cobra-vida-en-la-final-del-mundial-2026-nota/",
+                "source": "El Universo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "face",
+        "score": 180,
+        "geos": [
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "face",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Heavy metal vs. an orchestra: What to expect from the World Cup final",
+                "url": "https://www.cnn.com/2026/07/19/sport/world-cup-final-preview",
+                "source": "CNN"
+              },
+              {
+                "title": "World Cup 2026: Spain v Argentina final buildup; England win 10-goal thriller – live",
+                "url": "https://www.theguardian.com/football/live/2026/jul/19/world-cup-2026-spain-v-argentina-final-buildup-england-win-10-goal-thriller-live?page=with:block-6a5c85d38f085b8e22af4bc5",
+                "source": "The Guardian"
+              },
+              {
+                "title": "The Battles That Will Decide the World Cup Final",
+                "url": "https://www.wsj.com/sports/soccer/the-battles-that-will-decide-the-world-cup-final-a28a0e0e",
+                "source": "WSJ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "spain vs argentina world cup 2026",
+        "score": 160,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "spain vs argentina world cup 2026",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Heavy metal vs. an orchestra: What to expect from the World Cup final",
+                "url": "https://www.cnn.com/2026/07/19/sport/world-cup-final-preview",
+                "source": "CNN"
+              },
+              {
+                "title": "World Cup 2026: Spain v Argentina final buildup; England win 10-goal thriller – live",
+                "url": "https://www.theguardian.com/football/live/2026/jul/19/world-cup-2026-spain-v-argentina-final-buildup-england-win-10-goal-thriller-live?page=with:block-6a5c85d38f085b8e22af4bc5",
+                "source": "The Guardian"
+              },
+              {
+                "title": "The Battles That Will Decide the World Cup Final",
+                "url": "https://www.wsj.com/sports/soccer/the-battles-that-will-decide-the-world-cup-final-a28a0e0e",
+                "source": "WSJ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "you",
+        "score": 90,
+        "geos": [
+          "CL"
+        ],
+        "samples": [
+          {
+            "query": "you",
+            "geo": "CL",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Heavy metal vs. an orchestra: What to expect from the World Cup final",
+                "url": "https://www.cnn.com/2026/07/19/sport/world-cup-final-preview",
+                "source": "CNN"
+              },
+              {
+                "title": "World Cup 2026: Spain v Argentina final buildup; England win 10-goal thriller – live",
+                "url": "https://www.theguardian.com/football/live/2026/jul/19/world-cup-2026-spain-v-argentina-final-buildup-england-win-10-goal-thriller-live?page=with:block-6a5c85d38f085b8e22af4bc5",
+                "source": "The Guardian"
+              },
+              {
+                "title": "The Battles That Will Decide the World Cup Final",
+                "url": "https://www.wsj.com/sports/soccer/the-battles-that-will-decide-the-world-cup-final-a28a0e0e",
+                "source": "WSJ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "pablo lescano",
+        "score": 90,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "pablo lescano",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Pablo Lescano vivió un apasionado momento con su mujer en pleno Argentina vs. Inglaterra y salió en la TV",
+                "url": "https://tn.com.ar/show/famosos/2026/07/16/pablo-lescano-vivio-un-apasionado-momento-con-su-mujer-en-pleno-argentina-vs-inglaterra-y-salio-en-la-tv/",
+                "source": "TN"
+              },
+              {
+                "title": "Captaron infraganti a Pablo Lescano y Cecilia Calafell a los besos en el Mundial 2026 y confirmaron la reconciliación",
+                "url": "https://la100.cienradios.com/espectaculos/captaron-infraganti-a-pablo-lescano-y-cecilia-calafell-a-los-besos-en-el-mundial-2026-y-confirmaron-la-reconciliacion/",
+                "source": "La 100"
+              },
+              {
+                "title": "Están hace 20 años, él le fue infiel, ella se enteró que tuvo dos hijos extramatrimoniales y lo dejó: aparecieron juntos en el Mundial y confirmaron todo",
+                "url": "https://www.paparazzi.com.ar/romances/estan-hace-20-anos-el-le-fue-infiel-ella-se-entero-que-tuvo-dos-hijos-extramatrimoniales-y-lo-dejo-aparecieron-juntos-en-el-mundial-y-confirmaron-todo/",
+                "source": "Revista Paparazzi"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "en": [
+      {
+        "query": "what time is the world cup final in australia",
+        "score": 350,
+        "geos": [
+          "AU"
+        ],
+        "samples": [
+          {
+            "query": "what time is the world cup final in australia",
+            "geo": "AU",
+            "language": "en",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "Why the World Cup half-time show may be a taste of things to come",
+                "url": "https://www.bbc.com/news/articles/cwyr498vqqpo",
+                "source": "BBC"
+              },
+              {
+                "title": "How to watch the FIFA World Cup 2026™ Final&apos;s Halftime Show",
+                "url": "https://www.sbs.com.au/whats-on/article/how-to-watch-the-fifa-world-cup-2026-finals-halftime-show/l33lasrut",
+                "source": "SBS"
+              },
+              {
+                "title": "World Cup final entertainment roundup",
+                "url": "https://www.news.com.au/entertainment/music/world-cup-final-entertainment-roundup-all-the-musical-highlights-as-they-happen/news-story/6c86c9e45b8eb8f7b9dfc9ea48097a8f",
+                "source": "News.com.au"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "topic": "tormenta eléctrica",
+      "type": "noticia",
+      "slugSuggestion": "tormenta-electrica",
+      "language": "es",
+      "geos": [
+        "CO"
+      ],
+      "score": 24000,
+      "reason": "Google Trends daily CO con 20,000 búsquedas · 3 artículos noticiosos referenciando \"tormenta eléctrica\"",
+      "proposedPath": "/noticias/tormenta-electrica",
+      "evidence": [
+        {
+          "query": "tormenta eléctrica",
+          "geo": "CO",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 20000,
+          "articles": [
+            {
+              "title": "¿Está en riesgo la final del Mundial? España y Argentina suspendieron su último entreno por fuertes tormentas eléctricas | El Colombiano",
+              "url": "https://www.elcolombiano.com/especiales/mundial-2026/espana-argentina-suspenden-entrenamiento-final-mundial-2026-tormenta-electrica-JK38983864",
+              "source": "El Colombiano"
+            },
+            {
+              "title": "Amenaza doble para Simeone",
+              "url": "https://as.com/futbol/mundial/amenaza-doble-para-simeone-f202607-n/",
+              "source": "Diario AS"
+            },
+            {
+              "title": "Mundial 2026, últimas noticias en directo | El entrenamiento de España se suspende por el protocolo de tormentas en EE UU",
+              "url": "https://elpais.com/deportes/mundial-futbol/2026-07-18/resumen-y-ultimas-noticias-de-la-copa-mundial-de-futbol.html",
+              "source": "EL PAÍS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "vicky xipolitakis",
+      "type": "noticia",
+      "slugSuggestion": "vicky-xipolitakis",
+      "language": "es",
+      "geos": [
+        "AR"
+      ],
+      "score": 1560,
+      "reason": "Google Trends daily AR con 1,000 búsquedas · 3 artículos noticiosos referenciando \"vicky xipolitakis\"",
+      "proposedPath": "/noticias/vicky-xipolitakis",
+      "evidence": [
+        {
+          "query": "vicky xipolitakis",
+          "geo": "AR",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 1000,
+          "articles": [
+            {
+              "title": "Vicky Xipolitakis conquistó Nueva York con un impactante look argentino antes de la gran final del Mundial",
+              "url": "https://www.clarin.com/fama/vicky-xipolitakis-conquisto-nueva-york-impactante-look-argentino-gran-final_0_CvpUs6mLtZ.html",
+              "source": "Clarin.com"
+            },
+            {
+              "title": "Marley y Vicky Xipolitakis en Times Square",
+              "url": "https://www.infobae.com/video/teleshow/marley-y-vicky-xipolitakis-en-times-square/iEKnVAHX/",
+              "source": "Infobae"
+            },
+            {
+              "title": "Brillos, plumas y pasión albiceleste: la máxima lección de glamour con la que Vicky Xipolitakis revolucionó la tribuna en el Mundial 2026",
+              "url": "https://viapais.com.ar/via-libre/brillos-plumas-pasion-albiceleste-maxima-leccion-glamour-vicky-xipolitakis-revoluciono-tribuna-mundial-2026_0_Y6czhOXO71.html",
+              "source": "Vía País"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "équipe d&apos;espagne de football",
+      "type": "noticia",
+      "slugSuggestion": "equipe-d-apos-espagne-de-football",
+      "language": "es",
+      "geos": [
+        "ES"
+      ],
+      "score": 900,
+      "reason": "Google Trends daily ES con 500 búsquedas · 3 artículos noticiosos referenciando \"équipe d&apos;espagne de football\"",
+      "proposedPath": "/noticias/equipe-d-apos-espagne-de-football",
+      "evidence": [
+        {
+          "query": "équipe d&apos;espagne de football",
+          "geo": "ES",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 500,
+          "articles": [
+            {
+              "title": "\"Ce n&apos;est pas possible de soutenir l&apos;Argentine\" : des supporters des Bleus racontent pourquoi ils préfèrent une victoire de l&apos;Espagne en finale de Coupe du monde",
+              "url": "https://www.franceinfo.fr/coupe-du-monde/ce-n-est-pas-possible-de-soutenir-l-argentine-des-supporters-des-bleus-racontent-pourquoi-ils-preferent-une-victoire-de-l-espagne-en-finale-de-coupe-du-monde_8110454.html",
+              "source": "franceinfo"
+            },
+            {
+              "title": "« La plus grosse débâcle de la décennie » : quand le dernier Espagne-Argentine virait à l&apos;affront pour l&apos;Albiceleste",
+              "url": "https://www.lequipe.fr/Football/Actualites/-la-plus-grosse-debacle-de-la-decennie-quand-le-dernier-espagne-argentine-virait-a-l-affront-pour-l-albiceleste/1705251",
+              "source": "L&apos;Équipe"
+            },
+            {
+              "title": "Espagne - Argentine : à quelle heure et sur quelle chaîne voir la finale de la Coupe du monde 2026",
+              "url": "https://www.larepubliquedespyrenees.fr/sport/football/coupe-du-monde-de-football/espagne-argentine-a-quelle-heure-et-sur-quelle-chaine-voir-la-finale-de-la-coupe-du-monde-2026-29978094.php",
+              "source": "La République des Pyrénées"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "face",
+      "type": "noticia",
+      "slugSuggestion": "face",
+      "language": "es",
+      "geos": [
+        "PE"
+      ],
+      "score": 216,
+      "reason": "Google Trends daily PE con 200 búsquedas · 3 artículos noticiosos referenciando \"face\"",
+      "proposedPath": "/noticias/face",
+      "evidence": [
+        {
+          "query": "face",
+          "geo": "PE",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Heavy metal vs. an orchestra: What to expect from the World Cup final",
+              "url": "https://www.cnn.com/2026/07/19/sport/world-cup-final-preview",
+              "source": "CNN"
+            },
+            {
+              "title": "World Cup 2026: Spain v Argentina final buildup; England win 10-goal thriller – live",
+              "url": "https://www.theguardian.com/football/live/2026/jul/19/world-cup-2026-spain-v-argentina-final-buildup-england-win-10-goal-thriller-live?page=with:block-6a5c85d38f085b8e22af4bc5",
+              "source": "The Guardian"
+            },
+            {
+              "title": "The Battles That Will Decide the World Cup Final",
+              "url": "https://www.wsj.com/sports/soccer/the-battles-that-will-decide-the-world-cup-final-a28a0e0e",
+              "source": "WSJ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "you",
+      "type": "noticia",
+      "slugSuggestion": "you",
+      "language": "es",
+      "geos": [
+        "CL"
+      ],
+      "score": 108,
+      "reason": "Google Trends daily CL con 100 búsquedas · 3 artículos noticiosos referenciando \"you\"",
+      "proposedPath": "/noticias/you",
+      "evidence": [
+        {
+          "query": "you",
+          "geo": "CL",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 100,
+          "articles": [
+            {
+              "title": "Heavy metal vs. an orchestra: What to expect from the World Cup final",
+              "url": "https://www.cnn.com/2026/07/19/sport/world-cup-final-preview",
+              "source": "CNN"
+            },
+            {
+              "title": "World Cup 2026: Spain v Argentina final buildup; England win 10-goal thriller – live",
+              "url": "https://www.theguardian.com/football/live/2026/jul/19/world-cup-2026-spain-v-argentina-final-buildup-england-win-10-goal-thriller-live?page=with:block-6a5c85d38f085b8e22af4bc5",
+              "source": "The Guardian"
+            },
+            {
+              "title": "The Battles That Will Decide the World Cup Final",
+              "url": "https://www.wsj.com/sports/soccer/the-battles-that-will-decide-the-world-cup-final-a28a0e0e",
+              "source": "WSJ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "pablo lescano",
+      "type": "noticia",
+      "slugSuggestion": "pablo-lescano",
+      "language": "es",
+      "geos": [
+        "UY"
+      ],
+      "score": 108,
+      "reason": "Google Trends daily UY con 100 búsquedas · 3 artículos noticiosos referenciando \"pablo lescano\"",
+      "proposedPath": "/noticias/pablo-lescano",
+      "evidence": [
+        {
+          "query": "pablo lescano",
+          "geo": "UY",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 100,
+          "articles": [
+            {
+              "title": "Pablo Lescano vivió un apasionado momento con su mujer en pleno Argentina vs. Inglaterra y salió en la TV",
+              "url": "https://tn.com.ar/show/famosos/2026/07/16/pablo-lescano-vivio-un-apasionado-momento-con-su-mujer-en-pleno-argentina-vs-inglaterra-y-salio-en-la-tv/",
+              "source": "TN"
+            },
+            {
+              "title": "Captaron infraganti a Pablo Lescano y Cecilia Calafell a los besos en el Mundial 2026 y confirmaron la reconciliación",
+              "url": "https://la100.cienradios.com/espectaculos/captaron-infraganti-a-pablo-lescano-y-cecilia-calafell-a-los-besos-en-el-mundial-2026-y-confirmaron-la-reconciliacion/",
+              "source": "La 100"
+            },
+            {
+              "title": "Están hace 20 años, él le fue infiel, ella se enteró que tuvo dos hijos extramatrimoniales y lo dejó: aparecieron juntos en el Mundial y confirmaron todo",
+              "url": "https://www.paparazzi.com.ar/romances/estan-hace-20-anos-el-le-fue-infiel-ella-se-entero-que-tuvo-dos-hijos-extramatrimoniales-y-lo-dejo-aparecieron-juntos-en-el-mundial-y-confirmaron-todo/",
+              "source": "Revista Paparazzi"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alreadyCovered": [
+    {
+      "query": "final de la copa del mundo 2026",
+      "matchUrl": "/noticias/lamine-yamal-primer-mundial-2026-espana-17-anos-eurocopa"
+    },
+    {
+      "query": "barcelona",
+      "matchUrl": "/noticias/fermin-lopez-baja-mundial-2026-espana-lesion-fractura-quinto-metatarsiano-operacion-barcelona"
+    },
+    {
+      "query": "spain vs argentina world cup 2026",
+      "matchUrl": "/noticias/jordania-argentina-resultado-mundial-2026"
+    },
+    {
+      "query": "españa vs argentina",
+      "matchUrl": "/historias/gentile-patada-maradona-italia-argentina-1982-espana-falagas"
+    },
+    {
+      "query": "pantalla gigante final mundial",
+      "matchUrl": "/historias/messi-campeon-lusail-2022-argentina-tercer-mundial-mbappe-final"
+    },
+    {
+      "query": "a que hora es la final del mundial 2026",
+      "matchUrl": "/coleccionismo/panini-mundial-2026"
+    },
+    {
+      "query": "what time is the world cup final in australia",
+      "matchUrl": "/noticias/shakira-burna-boy-dai-dai-cancion-oficial-mundial-2026-fifa-halftime-show-final-madonna-bts"
+    }
+  ]
+}
