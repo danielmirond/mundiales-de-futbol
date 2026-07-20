@@ -1,0 +1,533 @@
+{
+  "generatedAt": "2026-07-20T09:42:05.876Z",
+  "date": "2026-07-20",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "netflix",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Gary Lineker and The Rest Is Football Return to Netflix with New Episodes Throughout the 2026/27 Premier League Season Following World Cup Coverage",
+          "url": "https://podnews.net/press-release/trif-netflix-renew",
+          "source": "Podnews"
+        },
+        {
+          "title": "The Rest Is Football podcast returns to Netflix weekly",
+          "url": "https://podcastingtoday.co.uk/the-rest-is-football-podcast-returns-to-netflix-weekly/",
+          "source": "PodcastingToday"
+        },
+        {
+          "title": "The Rest Is Football future on Netflix confirmed following FIFA World Cup 2026 coverage",
+          "url": "https://www.radiotimes.com/tv/sport/football/the-rest-is-football-future-on-netflix-confirmed-following-fifa-world-cup-2026-coverage-newsupdate/",
+          "source": "Radio Times"
+        }
+      ]
+    },
+    {
+      "query": "copa mundial de fútbol",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 2000,
+      "articles": [
+        {
+          "title": "Mundial 2026, últimas noticias en directo | España campeona del mundo",
+          "url": "https://elpais.com/deportes/mundial-futbol/2026-07-19/resumen-y-ultimas-noticias-de-la-copa-mundial-de-futbol.html",
+          "source": "EL PAÍS"
+        },
+        {
+          "title": "El embajador de Argentina llama a sus nacionales a no alentar las reyertas con la final del Mundial: \"Que sea un ejemplo para el mundo\"",
+          "url": "https://cadenaser.com/nacional/2026/07/19/el-embajador-de-argentina-llama-a-los-argentinos-en-espana-no-alentar-las-reyertas-con-la-final-del-mundial-que-sea-un-ejemplo-para-el-mundo-cadena-ser/",
+          "source": "Cadena SER"
+        },
+        {
+          "title": "Can Mario pide respeto y convivencia por la final entre España y Argentina",
+          "url": "https://www.periodicodeibiza.es/deportes/mundial-2026/2026/07/19/2673307/can-mario-pide-respeto-convivencia-cara-final-entre-espana-argentina.html",
+          "source": "Periódico de Ibiza y Formentera"
+        }
+      ]
+    },
+    {
+      "query": "rey de españa",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "De Timothée Chalamet y Kylie Jenner a Javier Bardem o Tom Cruise: los famosos que han vivido la final del Mundial desde Nueva York",
+          "url": "https://elpais.com/gente/2026-07-19/de-timothee-chalamet-y-kylie-jenner-a-javier-bardem-o-tom-cruise-los-famosos-que-han-vivido-la-final-del-mundial-desde-nueva-york.html",
+          "source": "EL PAÍS"
+        },
+        {
+          "title": "Todas las celebridades en la ‘alfombra dorada’ de la final del Mundial 2026",
+          "url": "https://www.eluniverso.com/entretenimiento/gente/las-celebridades-en-la-alfombra-dorada-de-la-final-del-mundial-2026-nota/",
+          "source": "El Universo"
+        },
+        {
+          "title": "Estos fueron los famosos que asistieron en la final del Mundial 2026",
+          "url": "https://www.ecuavisa.com/television/famosos-asistieron-final-mundial-2026-argentina-espana-20260719-0032.html",
+          "source": "Ecuavisa"
+        }
+      ]
+    },
+    {
+      "query": "premios mundial 2026",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Un premio de récord para España: el dinero que se lleva la Selección por ganar el Mundial 2026",
+          "url": "https://as.com/futbol/mundial/un-premio-de-record-para-el-campeon-el-dinero-que-se-llevara-el-ganador-del-mundial-2026-f202607-n/",
+          "source": "Diario AS"
+        },
+        {
+          "title": "El impactante premio económico que embolsó España por ganar el Mundial 2026: cuánto recaudó Argentina",
+          "url": "https://www.infobae.com/deportes/2026/07/19/el-impactante-premio-economico-que-embolso-espana-por-ganar-el-mundial-2026-cuanto-recaudo-argentina/",
+          "source": "Infobae"
+        },
+        {
+          "title": "Este el dinero que ganará cada jugador de España tras conquistar el Mundial ante Argentina",
+          "url": "https://www.sport.es/es/noticias/seleccion/cobrara-jugador-espana-gana-mundial-132502441",
+          "source": "SPORT"
+        }
+      ]
+    },
+    {
+      "query": "cuantos mundiales tiene españa",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Los títulos oficiales que tiene España tras conquistar el Mundial 2026",
+          "url": "https://www.tudn.com/mundial-2026/equipos/seleccion-espana/espana-es-campeon-del-mundo-cuantos-titulos-oficiales-tiene",
+          "source": "TUDN"
+        },
+        {
+          "title": "El camino de España en el Mundial: de las dudas del estreno a la explosión de fútbol frente a Francia",
+          "url": "https://elpais.com/deportes/mundial-futbol/2026-07-20/el-camino-de-espana-en-el-mundial-de-las-dudas-del-estreno-a-la-explosion-de-futbol-frente-a-francia.html",
+          "source": "EL PAÍS"
+        },
+        {
+          "title": "España, el “tiki taka\" y el objetivo de alcanzar a Francia y Uruguay",
+          "url": "https://www.lt10.com.ar/noticia/503243--espana-el-tiki-taka-y-el-objetivo-de-alcanzar-a-francia-y-uruguay",
+          "source": "LT10"
+        }
+      ]
+    },
+    {
+      "query": "argentina da la espalda a españa",
+      "geo": "ES",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 20000,
+      "articles": [
+        {
+          "title": "Dani Olmo contesta a la imagen de la vergüenza",
+          "url": "https://as.com/futbol/seleccion/dani-olmo-contesta-a-la-imagen-de-la-verguenza-f202607-n/",
+          "source": "Diario AS"
+        },
+        {
+          "title": "Puñetazos, patadas, llaves de judo, amenazas y de espaldas al campeón: la rastrera forma de perder de Argentina",
+          "url": "https://www.abc.es/deportes/futbol/mundial/punetazos-patadas-llaves-judo-amenazas-espaldas-campeon-20260720104320-nt.html",
+          "source": "ABC"
+        },
+        {
+          "title": "Boicot de Argentina a los reconocimientos a España en el Mundial 2026: así ha sido su feo gesto durante la entrega de trofeos",
+          "url": "https://cadenaser.com/nacional/2026/07/20/boicot-de-argentina-a-los-reconocimientos-a-espana-en-el-mundial-2026-asi-ha-sido-su-feo-gesto-durante-la-entrega-de-trofeos-cadena-ser/",
+          "source": "Cadena SER"
+        }
+      ]
+    },
+    {
+      "query": "javier bardem",
+      "geo": "MA",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Licensable video: Javier Bardem celebrates Spain winning 2026 FIFA World Cup",
+          "url": "https://www.reutersconnect.com/item/javier-bardem-celebrates-spain-winning-2026-fifa-world-cup/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX09XQ1ZNQzQ0MjE3MS1WSURFTw",
+          "source": "Reuters Connect"
+        },
+        {
+          "title": "Antonio Banderas backs Spain ahead of FIFA World Cup final, calls Argentina \"brother people\"",
+          "url": "https://www.cinemaexpress.com/english/news/2026/Jul/19/antonio-banderas-backs-spain-ahead-of-fifa-world-cup-final-calls-argentina-brother-people-2",
+          "source": "Cinema Express"
+        },
+        {
+          "title": "FIFA WC 2026: Aadar Jain celebrates Spain’s World Cup win, says Ronaldo remains his GOAT",
+          "url": "https://telanganatoday.com/fifa-wc-2026-aadar-jain-celebrates-spains-world-cup-win-says-ronaldo-remains-his-goat",
+          "source": "Telangana Today"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "es": [
+      {
+        "query": "argentina da la espalda a españa",
+        "score": 30000,
+        "geos": [
+          "ES"
+        ],
+        "samples": [
+          {
+            "query": "argentina da la espalda a españa",
+            "geo": "ES",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 20000,
+            "articles": [
+              {
+                "title": "Dani Olmo contesta a la imagen de la vergüenza",
+                "url": "https://as.com/futbol/seleccion/dani-olmo-contesta-a-la-imagen-de-la-verguenza-f202607-n/",
+                "source": "Diario AS"
+              },
+              {
+                "title": "Puñetazos, patadas, llaves de judo, amenazas y de espaldas al campeón: la rastrera forma de perder de Argentina",
+                "url": "https://www.abc.es/deportes/futbol/mundial/punetazos-patadas-llaves-judo-amenazas-espaldas-campeon-20260720104320-nt.html",
+                "source": "ABC"
+              },
+              {
+                "title": "Boicot de Argentina a los reconocimientos a España en el Mundial 2026: así ha sido su feo gesto durante la entrega de trofeos",
+                "url": "https://cadenaser.com/nacional/2026/07/20/boicot-de-argentina-a-los-reconocimientos-a-espana-en-el-mundial-2026-asi-ha-sido-su-feo-gesto-durante-la-entrega-de-trofeos-cadena-ser/",
+                "source": "Cadena SER"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "copa mundial de fútbol",
+        "score": 1600,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "copa mundial de fútbol",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 2000,
+            "articles": [
+              {
+                "title": "Mundial 2026, últimas noticias en directo | España campeona del mundo",
+                "url": "https://elpais.com/deportes/mundial-futbol/2026-07-19/resumen-y-ultimas-noticias-de-la-copa-mundial-de-futbol.html",
+                "source": "EL PAÍS"
+              },
+              {
+                "title": "El embajador de Argentina llama a sus nacionales a no alentar las reyertas con la final del Mundial: \"Que sea un ejemplo para el mundo\"",
+                "url": "https://cadenaser.com/nacional/2026/07/19/el-embajador-de-argentina-llama-a-los-argentinos-en-espana-no-alentar-las-reyertas-con-la-final-del-mundial-que-sea-un-ejemplo-para-el-mundo-cadena-ser/",
+                "source": "Cadena SER"
+              },
+              {
+                "title": "Can Mario pide respeto y convivencia por la final entre España y Argentina",
+                "url": "https://www.periodicodeibiza.es/deportes/mundial-2026/2026/07/19/2673307/can-mario-pide-respeto-convivencia-cara-final-entre-espana-argentina.html",
+                "source": "Periódico de Ibiza y Formentera"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "rey de españa",
+        "score": 400,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "rey de españa",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "De Timothée Chalamet y Kylie Jenner a Javier Bardem o Tom Cruise: los famosos que han vivido la final del Mundial desde Nueva York",
+                "url": "https://elpais.com/gente/2026-07-19/de-timothee-chalamet-y-kylie-jenner-a-javier-bardem-o-tom-cruise-los-famosos-que-han-vivido-la-final-del-mundial-desde-nueva-york.html",
+                "source": "EL PAÍS"
+              },
+              {
+                "title": "Todas las celebridades en la ‘alfombra dorada’ de la final del Mundial 2026",
+                "url": "https://www.eluniverso.com/entretenimiento/gente/las-celebridades-en-la-alfombra-dorada-de-la-final-del-mundial-2026-nota/",
+                "source": "El Universo"
+              },
+              {
+                "title": "Estos fueron los famosos que asistieron en la final del Mundial 2026",
+                "url": "https://www.ecuavisa.com/television/famosos-asistieron-final-mundial-2026-argentina-espana-20260719-0032.html",
+                "source": "Ecuavisa"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "netflix",
+        "score": 180,
+        "geos": [
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "netflix",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Gary Lineker and The Rest Is Football Return to Netflix with New Episodes Throughout the 2026/27 Premier League Season Following World Cup Coverage",
+                "url": "https://podnews.net/press-release/trif-netflix-renew",
+                "source": "Podnews"
+              },
+              {
+                "title": "The Rest Is Football podcast returns to Netflix weekly",
+                "url": "https://podcastingtoday.co.uk/the-rest-is-football-podcast-returns-to-netflix-weekly/",
+                "source": "PodcastingToday"
+              },
+              {
+                "title": "The Rest Is Football future on Netflix confirmed following FIFA World Cup 2026 coverage",
+                "url": "https://www.radiotimes.com/tv/sport/football/the-rest-is-football-future-on-netflix-confirmed-following-fifa-world-cup-2026-coverage-newsupdate/",
+                "source": "Radio Times"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "premios mundial 2026",
+        "score": 180,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "premios mundial 2026",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Un premio de récord para España: el dinero que se lleva la Selección por ganar el Mundial 2026",
+                "url": "https://as.com/futbol/mundial/un-premio-de-record-para-el-campeon-el-dinero-que-se-llevara-el-ganador-del-mundial-2026-f202607-n/",
+                "source": "Diario AS"
+              },
+              {
+                "title": "El impactante premio económico que embolsó España por ganar el Mundial 2026: cuánto recaudó Argentina",
+                "url": "https://www.infobae.com/deportes/2026/07/19/el-impactante-premio-economico-que-embolso-espana-por-ganar-el-mundial-2026-cuanto-recaudo-argentina/",
+                "source": "Infobae"
+              },
+              {
+                "title": "Este el dinero que ganará cada jugador de España tras conquistar el Mundial ante Argentina",
+                "url": "https://www.sport.es/es/noticias/seleccion/cobrara-jugador-espana-gana-mundial-132502441",
+                "source": "SPORT"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "cuantos mundiales tiene españa",
+        "score": 180,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "cuantos mundiales tiene españa",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Los títulos oficiales que tiene España tras conquistar el Mundial 2026",
+                "url": "https://www.tudn.com/mundial-2026/equipos/seleccion-espana/espana-es-campeon-del-mundo-cuantos-titulos-oficiales-tiene",
+                "source": "TUDN"
+              },
+              {
+                "title": "El camino de España en el Mundial: de las dudas del estreno a la explosión de fútbol frente a Francia",
+                "url": "https://elpais.com/deportes/mundial-futbol/2026-07-20/el-camino-de-espana-en-el-mundial-de-las-dudas-del-estreno-a-la-explosion-de-futbol-frente-a-francia.html",
+                "source": "EL PAÍS"
+              },
+              {
+                "title": "España, el “tiki taka\" y el objetivo de alcanzar a Francia y Uruguay",
+                "url": "https://www.lt10.com.ar/noticia/503243--espana-el-tiki-taka-y-el-objetivo-de-alcanzar-a-francia-y-uruguay",
+                "source": "LT10"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "fr": [
+      {
+        "query": "javier bardem",
+        "score": 90,
+        "geos": [
+          "MA"
+        ],
+        "samples": [
+          {
+            "query": "javier bardem",
+            "geo": "MA",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Licensable video: Javier Bardem celebrates Spain winning 2026 FIFA World Cup",
+                "url": "https://www.reutersconnect.com/item/javier-bardem-celebrates-spain-winning-2026-fifa-world-cup/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX09XQ1ZNQzQ0MjE3MS1WSURFTw",
+                "source": "Reuters Connect"
+              },
+              {
+                "title": "Antonio Banderas backs Spain ahead of FIFA World Cup final, calls Argentina \"brother people\"",
+                "url": "https://www.cinemaexpress.com/english/news/2026/Jul/19/antonio-banderas-backs-spain-ahead-of-fifa-world-cup-final-calls-argentina-brother-people-2",
+                "source": "Cinema Express"
+              },
+              {
+                "title": "FIFA WC 2026: Aadar Jain celebrates Spain’s World Cup win, says Ronaldo remains his GOAT",
+                "url": "https://telanganatoday.com/fifa-wc-2026-aadar-jain-celebrates-spains-world-cup-win-says-ronaldo-remains-his-goat",
+                "source": "Telangana Today"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "topic": "netflix",
+      "type": "noticia",
+      "slugSuggestion": "netflix",
+      "language": "es",
+      "geos": [
+        "PE"
+      ],
+      "score": 216,
+      "reason": "Google Trends daily PE con 200 búsquedas · 3 artículos noticiosos referenciando \"netflix\"",
+      "proposedPath": "/noticias/netflix",
+      "evidence": [
+        {
+          "query": "netflix",
+          "geo": "PE",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Gary Lineker and The Rest Is Football Return to Netflix with New Episodes Throughout the 2026/27 Premier League Season Following World Cup Coverage",
+              "url": "https://podnews.net/press-release/trif-netflix-renew",
+              "source": "Podnews"
+            },
+            {
+              "title": "The Rest Is Football podcast returns to Netflix weekly",
+              "url": "https://podcastingtoday.co.uk/the-rest-is-football-podcast-returns-to-netflix-weekly/",
+              "source": "PodcastingToday"
+            },
+            {
+              "title": "The Rest Is Football future on Netflix confirmed following FIFA World Cup 2026 coverage",
+              "url": "https://www.radiotimes.com/tv/sport/football/the-rest-is-football-future-on-netflix-confirmed-following-fifa-world-cup-2026-coverage-newsupdate/",
+              "source": "Radio Times"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "javier bardem",
+      "type": "noticia",
+      "slugSuggestion": "javier-bardem",
+      "language": "fr",
+      "geos": [
+        "MA"
+      ],
+      "score": 108,
+      "reason": "Google Trends daily MA con 100 búsquedas · 3 artículos noticiosos referenciando \"javier bardem\"",
+      "proposedPath": "/noticias/javier-bardem",
+      "evidence": [
+        {
+          "query": "javier bardem",
+          "geo": "MA",
+          "language": "fr",
+          "source": "google-trends-daily",
+          "score": 100,
+          "articles": [
+            {
+              "title": "Licensable video: Javier Bardem celebrates Spain winning 2026 FIFA World Cup",
+              "url": "https://www.reutersconnect.com/item/javier-bardem-celebrates-spain-winning-2026-fifa-world-cup/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX09XQ1ZNQzQ0MjE3MS1WSURFTw",
+              "source": "Reuters Connect"
+            },
+            {
+              "title": "Antonio Banderas backs Spain ahead of FIFA World Cup final, calls Argentina \"brother people\"",
+              "url": "https://www.cinemaexpress.com/english/news/2026/Jul/19/antonio-banderas-backs-spain-ahead-of-fifa-world-cup-final-calls-argentina-brother-people-2",
+              "source": "Cinema Express"
+            },
+            {
+              "title": "FIFA WC 2026: Aadar Jain celebrates Spain’s World Cup win, says Ronaldo remains his GOAT",
+              "url": "https://telanganatoday.com/fifa-wc-2026-aadar-jain-celebrates-spains-world-cup-win-says-ronaldo-remains-his-goat",
+              "source": "Telangana Today"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alreadyCovered": [
+    {
+      "query": "copa mundial de fútbol",
+      "matchUrl": "/noticias/lamine-yamal-primer-mundial-2026-espana-17-anos-eurocopa"
+    },
+    {
+      "query": "rey de españa",
+      "matchUrl": "/ediciones/1982-espana"
+    },
+    {
+      "query": "premios mundial 2026",
+      "matchUrl": "/coleccionismo/panini-mundial-2026"
+    },
+    {
+      "query": "cuantos mundiales tiene españa",
+      "matchUrl": "/noticias/cuantos-mundiales-tiene-cada-seleccion"
+    },
+    {
+      "query": "argentina da la espalda a españa",
+      "matchUrl": "/historias/gentile-patada-maradona-italia-argentina-1982-espana-falagas"
+    }
+  ]
+}
