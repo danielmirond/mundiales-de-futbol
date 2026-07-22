@@ -1,0 +1,386 @@
+{
+  "generatedAt": "2026-07-22T09:09:38.638Z",
+  "date": "2026-07-22",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "inter miami",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Lionel Messi&apos;s Status for Inter Miami vs Chicago Fire FC: Coach&apos;s Update on Recovery",
+          "url": "https://sports.yahoo.com/articles/lionel-messis-status-inter-miami-152526643.html",
+          "source": "Yahoo Sports"
+        },
+        {
+          "title": "Lionel Messi Will Miss the MLS All-Star Game After the FIFA World Cup 2026 Final",
+          "url": "https://www.beinsports.com/en-us/soccer/mls/articles/lionel-messi-will-miss-the-mls-all-star-game-2026-07-21",
+          "source": "beIN SPORTS"
+        },
+        {
+          "title": "Lionel Messi returns to Argentina, won&apos;t play Wednesday vs. Chicago Fire",
+          "url": "https://www.nbcchicago.com/world-cup/lionel-messi-returns-to-argentina-wont-play-wednesday-vs-chicago-fire/3964352/",
+          "source": "NBC 5 Chicago"
+        }
+      ]
+    },
+    {
+      "query": "topps",
+      "geo": "GB",
+      "language": "en",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "World Cup 2026: Spain&apos;s Lamine Yamal &apos;completes football&apos; with victory over Argentina",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c0m7zx38v43o",
+          "source": "BBC"
+        },
+        {
+          "title": "World Cup: The story behind Lionel Messi and Lamine Yamal&apos;s viral photo, before they face off in final",
+          "url": "https://news.sky.com/video/world-cup-the-story-behind-lionel-messi-and-lamine-yamals-viral-photo-before-they-face-off-in-final-13564769",
+          "source": "Sky News"
+        },
+        {
+          "title": "Messi: Crazy to face Lamine Yamal in World Cup final after baby photo",
+          "url": "https://www.skysports.com/football/news/12024/13564364/world-cup-final-2026-the-remarkable-photos-of-lionel-messi-and-lamine-yamals-first-meeting-as-they-prepare-to-face-off",
+          "source": "Sky Sports"
+        }
+      ]
+    },
+    {
+      "query": "6pm unterhose",
+      "geo": "DE",
+      "language": "de",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Lamine Yamals Unterwäsche sorgt in Deutschland für Ausnahmezustand",
+          "url": "https://web.de/magazine/sport/fussball/wm/lamine-yamals-unterwaesche-sorgt-deutschland-ausnahmezustand-42531502",
+          "source": "WEB.DE"
+        },
+        {
+          "title": "WM 2026: Riesiger Hype um Yamals deutsche Final-Unterhose",
+          "url": "https://www.bild.de/sport/fussball/wm-2026-riesiger-hype-um-yamals-deutsche-final-unterhose-6a5f7fa52937e4865893eaa6",
+          "source": "BILD"
+        },
+        {
+          "title": "Fußball-WM: Lamine Yamal löst mit Boxershort Hype um deutsche Marke aus",
+          "url": "https://www.spiegel.de/sport/fussball/fussball-wm-lamine-yamal-loest-mit-boxershort-hype-um-deutsche-marke-aus-a-7427abba-07e0-4b1d-9708-c2c36f8d6c5e",
+          "source": "Spiegel"
+        }
+      ]
+    },
+    {
+      "query": "glasgow",
+      "geo": "AU",
+      "language": "en",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Glasgow Games – and unicorn mascot – ready to emerge from shadow cast by 2014",
+          "url": "https://www.theguardian.com/sport/2026/jul/21/glasgow-commonwealth-games-unicorn-mascot-finnie-2026",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Follow the 2026 Commonwealth Games on ABC",
+          "url": "https://www.abc.net.au/about/media-centre/publicity-media-room/follow-the-2026-commonwealth-games-on-abc/106943966",
+          "source": "ABC News & Headlines – Australian Broadcasting Corporation"
+        },
+        {
+          "title": "Commonwealth Games 2026 today: Day-by-day schedule, top athletes, full guide as Glasgow hosts event",
+          "url": "https://www.espn.com.au/athletics/story/_/id/49415702/commonwealth-games-2026-today-day-schedule-top-athletes-full-guide-glasgow-event",
+          "source": "ESPN"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "es": [
+      {
+        "query": "inter miami",
+        "score": 90,
+        "geos": [
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "inter miami",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Lionel Messi&apos;s Status for Inter Miami vs Chicago Fire FC: Coach&apos;s Update on Recovery",
+                "url": "https://sports.yahoo.com/articles/lionel-messis-status-inter-miami-152526643.html",
+                "source": "Yahoo Sports"
+              },
+              {
+                "title": "Lionel Messi Will Miss the MLS All-Star Game After the FIFA World Cup 2026 Final",
+                "url": "https://www.beinsports.com/en-us/soccer/mls/articles/lionel-messi-will-miss-the-mls-all-star-game-2026-07-21",
+                "source": "beIN SPORTS"
+              },
+              {
+                "title": "Lionel Messi returns to Argentina, won&apos;t play Wednesday vs. Chicago Fire",
+                "url": "https://www.nbcchicago.com/world-cup/lionel-messi-returns-to-argentina-wont-play-wednesday-vs-chicago-fire/3964352/",
+                "source": "NBC 5 Chicago"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "en": [
+      {
+        "query": "topps",
+        "score": 220.00000000000003,
+        "geos": [
+          "GB"
+        ],
+        "samples": [
+          {
+            "query": "topps",
+            "geo": "GB",
+            "language": "en",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "World Cup 2026: Spain&apos;s Lamine Yamal &apos;completes football&apos; with victory over Argentina",
+                "url": "https://www.bbc.co.uk/sport/football/articles/c0m7zx38v43o",
+                "source": "BBC"
+              },
+              {
+                "title": "World Cup: The story behind Lionel Messi and Lamine Yamal&apos;s viral photo, before they face off in final",
+                "url": "https://news.sky.com/video/world-cup-the-story-behind-lionel-messi-and-lamine-yamals-viral-photo-before-they-face-off-in-final-13564769",
+                "source": "Sky News"
+              },
+              {
+                "title": "Messi: Crazy to face Lamine Yamal in World Cup final after baby photo",
+                "url": "https://www.skysports.com/football/news/12024/13564364/world-cup-final-2026-the-remarkable-photos-of-lionel-messi-and-lamine-yamals-first-meeting-as-they-prepare-to-face-off",
+                "source": "Sky Sports"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "glasgow",
+        "score": 70,
+        "geos": [
+          "AU"
+        ],
+        "samples": [
+          {
+            "query": "glasgow",
+            "geo": "AU",
+            "language": "en",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Glasgow Games – and unicorn mascot – ready to emerge from shadow cast by 2014",
+                "url": "https://www.theguardian.com/sport/2026/jul/21/glasgow-commonwealth-games-unicorn-mascot-finnie-2026",
+                "source": "The Guardian"
+              },
+              {
+                "title": "Follow the 2026 Commonwealth Games on ABC",
+                "url": "https://www.abc.net.au/about/media-centre/publicity-media-room/follow-the-2026-commonwealth-games-on-abc/106943966",
+                "source": "ABC News & Headlines – Australian Broadcasting Corporation"
+              },
+              {
+                "title": "Commonwealth Games 2026 today: Day-by-day schedule, top athletes, full guide as Glasgow hosts event",
+                "url": "https://www.espn.com.au/athletics/story/_/id/49415702/commonwealth-games-2026-today-day-schedule-top-athletes-full-guide-glasgow-event",
+                "source": "ESPN"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "de": [
+      {
+        "query": "6pm unterhose",
+        "score": 200,
+        "geos": [
+          "DE"
+        ],
+        "samples": [
+          {
+            "query": "6pm unterhose",
+            "geo": "DE",
+            "language": "de",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Lamine Yamals Unterwäsche sorgt in Deutschland für Ausnahmezustand",
+                "url": "https://web.de/magazine/sport/fussball/wm/lamine-yamals-unterwaesche-sorgt-deutschland-ausnahmezustand-42531502",
+                "source": "WEB.DE"
+              },
+              {
+                "title": "WM 2026: Riesiger Hype um Yamals deutsche Final-Unterhose",
+                "url": "https://www.bild.de/sport/fussball/wm-2026-riesiger-hype-um-yamals-deutsche-final-unterhose-6a5f7fa52937e4865893eaa6",
+                "source": "BILD"
+              },
+              {
+                "title": "Fußball-WM: Lamine Yamal löst mit Boxershort Hype um deutsche Marke aus",
+                "url": "https://www.spiegel.de/sport/fussball/fussball-wm-lamine-yamal-loest-mit-boxershort-hype-um-deutsche-marke-aus-a-7427abba-07e0-4b1d-9708-c2c36f8d6c5e",
+                "source": "Spiegel"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "topic": "6pm unterhose",
+      "type": "noticia",
+      "slugSuggestion": "6pm-unterhose",
+      "language": "de",
+      "geos": [
+        "DE"
+      ],
+      "score": 240,
+      "reason": "Google Trends daily DE con 200 búsquedas · 3 artículos noticiosos referenciando \"6pm unterhose\"",
+      "proposedPath": "/noticias/6pm-unterhose",
+      "evidence": [
+        {
+          "query": "6pm unterhose",
+          "geo": "DE",
+          "language": "de",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Lamine Yamals Unterwäsche sorgt in Deutschland für Ausnahmezustand",
+              "url": "https://web.de/magazine/sport/fussball/wm/lamine-yamals-unterwaesche-sorgt-deutschland-ausnahmezustand-42531502",
+              "source": "WEB.DE"
+            },
+            {
+              "title": "WM 2026: Riesiger Hype um Yamals deutsche Final-Unterhose",
+              "url": "https://www.bild.de/sport/fussball/wm-2026-riesiger-hype-um-yamals-deutsche-final-unterhose-6a5f7fa52937e4865893eaa6",
+              "source": "BILD"
+            },
+            {
+              "title": "Fußball-WM: Lamine Yamal löst mit Boxershort Hype um deutsche Marke aus",
+              "url": "https://www.spiegel.de/sport/fussball/fussball-wm-lamine-yamal-loest-mit-boxershort-hype-um-deutsche-marke-aus-a-7427abba-07e0-4b1d-9708-c2c36f8d6c5e",
+              "source": "Spiegel"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "inter miami",
+      "type": "noticia",
+      "slugSuggestion": "inter-miami",
+      "language": "es",
+      "geos": [
+        "PE"
+      ],
+      "score": 108,
+      "reason": "Google Trends daily PE con 100 búsquedas · 3 artículos noticiosos referenciando \"inter miami\"",
+      "proposedPath": "/noticias/inter-miami",
+      "evidence": [
+        {
+          "query": "inter miami",
+          "geo": "PE",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 100,
+          "articles": [
+            {
+              "title": "Lionel Messi&apos;s Status for Inter Miami vs Chicago Fire FC: Coach&apos;s Update on Recovery",
+              "url": "https://sports.yahoo.com/articles/lionel-messis-status-inter-miami-152526643.html",
+              "source": "Yahoo Sports"
+            },
+            {
+              "title": "Lionel Messi Will Miss the MLS All-Star Game After the FIFA World Cup 2026 Final",
+              "url": "https://www.beinsports.com/en-us/soccer/mls/articles/lionel-messi-will-miss-the-mls-all-star-game-2026-07-21",
+              "source": "beIN SPORTS"
+            },
+            {
+              "title": "Lionel Messi returns to Argentina, won&apos;t play Wednesday vs. Chicago Fire",
+              "url": "https://www.nbcchicago.com/world-cup/lionel-messi-returns-to-argentina-wont-play-wednesday-vs-chicago-fire/3964352/",
+              "source": "NBC 5 Chicago"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "glasgow",
+      "type": "noticia",
+      "slugSuggestion": "glasgow",
+      "language": "en",
+      "geos": [
+        "AU"
+      ],
+      "score": 84,
+      "reason": "Google Trends daily AU con 100 búsquedas · 3 artículos noticiosos referenciando \"glasgow\"",
+      "proposedPath": "/noticias/glasgow",
+      "evidence": [
+        {
+          "query": "glasgow",
+          "geo": "AU",
+          "language": "en",
+          "source": "google-trends-daily",
+          "score": 100,
+          "articles": [
+            {
+              "title": "Glasgow Games – and unicorn mascot – ready to emerge from shadow cast by 2014",
+              "url": "https://www.theguardian.com/sport/2026/jul/21/glasgow-commonwealth-games-unicorn-mascot-finnie-2026",
+              "source": "The Guardian"
+            },
+            {
+              "title": "Follow the 2026 Commonwealth Games on ABC",
+              "url": "https://www.abc.net.au/about/media-centre/publicity-media-room/follow-the-2026-commonwealth-games-on-abc/106943966",
+              "source": "ABC News & Headlines – Australian Broadcasting Corporation"
+            },
+            {
+              "title": "Commonwealth Games 2026 today: Day-by-day schedule, top athletes, full guide as Glasgow hosts event",
+              "url": "https://www.espn.com.au/athletics/story/_/id/49415702/commonwealth-games-2026-today-day-schedule-top-athletes-full-guide-glasgow-event",
+              "source": "ESPN"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alreadyCovered": [
+    {
+      "query": "topps",
+      "matchUrl": "/coleccionismo/panini-mundial-2026/topps-vs-panini"
+    }
+  ]
+}
