@@ -1,0 +1,377 @@
+{
+  "generatedAt": "2026-07-23T09:07:35.191Z",
+  "date": "2026-07-23",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "copa mundial de fútbol de 2030",
+      "geo": "MX",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Mundial 2030: Lo que debes saber sobre la edición del centenario",
+          "url": "https://www.espn.com.mx/futbol/mundial/nota/_/id/17030710/mundial-2030-espana-argentina-lo-que-debes-saber-edicion-centenario",
+          "source": "ESPN México"
+        },
+        {
+          "title": "Manotazo &apos;fifero&apos; por adelantado",
+          "url": "https://www.record.com.mx/historia/manotazo-fifero-por-adelantado-2026072116244625710",
+          "source": "Récord"
+        },
+        {
+          "title": "Seis sedes 64 países",
+          "url": "https://www.tabascohoy.com/seis-sedes-64-paises/",
+          "source": "Tabasco HOY"
+        }
+      ]
+    },
+    {
+      "query": "argentina fútbol mundial",
+      "geo": "AR",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Un tarotista hizo una impactante revelación sobre las teorías conspirativas de la final del Mundial: “La verdad se conocerá\"",
+          "url": "https://tn.com.ar/deportes/futbol/2026/07/22/un-tarotista-hizo-una-impactante-revelacion-sobre-las-teorias-conspirativas-de-la-final-del-mundial-la-verdad-se-conocera/",
+          "source": "TN"
+        },
+        {
+          "title": "La fuerte teoría de un exfutbolista sobre la final entre Argentina y España por el Mundial 2026: “Algo les pasó”",
+          "url": "https://la100.cienradios.com/deportes/la-fuerte-teoria-de-un-exfutbolista-sobre-la-final-entre-argentina-y-espana-por-el-mundial-2026-algo-les-paso/",
+          "source": "La 100"
+        },
+        {
+          "title": "Tarotista reveló qué dicen las cartas sobre la polémica final del Mundial: \"Si Argentina ganaba, se caía todo\"",
+          "url": "https://www.cronica.com.ar/cosa-de-locos/tarotista-revelo-que-dicen-las-cartas-sobre-la-polemica-final-del-mundial-si-argentina-ganaba-se-caia-todo/",
+          "source": "Crónica"
+        }
+      ]
+    },
+    {
+      "query": "leandro paredes",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "La FIFA abre una investigación contra Argentina por los incidentes tras la derrota en la final del Mundial 2026",
+          "url": "https://www.bbc.com/mundo/articles/cwye8j2yq83o",
+          "source": "BBC"
+        },
+        {
+          "title": "Giro en el caso Leandro Paredes: la decisión que tomó la FIFA luego de la final del Mundial 2026",
+          "url": "https://www.elobservador.com.uy/mundial-2026/giro-el-caso-leandro-paredes-la-decision-que-tomo-la-fifa-luego-la-final-del-mundial-2026-n6051677",
+          "source": "El Observador"
+        },
+        {
+          "title": "Mundial 2026: FIFA abrió un expediente disciplinario a Argentina por la final con España",
+          "url": "https://www.montevideo.com.uy/Deportes/Mundial-2026-FIFA-abrio-un-expediente-disciplinario-a-Argentina-por-la-final-con-Espana-uc968928",
+          "source": "Montevideo Portal"
+        }
+      ]
+    },
+    {
+      "query": "sanction argentine coupe du monde 2026",
+      "geo": "FR",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "« Si je le croise... » : membre du staff argentin, Roberto Ayala se dit « désolé » d’avoir frappé l’Espagnol Dani Olmo après la finale",
+          "url": "https://www.leparisien.fr/sports/football/coupe-du-monde/si-je-le-croise-membre-du-staff-argentin-roberto-ayala-se-dit-desole-davoir-frappe-lespagnol-dani-olmo-apres-la-finale-22-07-2026-HJNEU2O7MFHB5KW7MSZEYAYFUY.php",
+          "source": "Le Parisien"
+        },
+        {
+          "title": "« L’ombre et la lumière sur le gazon »",
+          "url": "https://www.latribune.fr/article/idees/17894589661916/opinion-l-ombre-et-la-lumiere-sur-le-gazon",
+          "source": "La Tribune"
+        },
+        {
+          "title": "Après « une finale fair-play », l’Argentine crie à « l’argentinophobie »",
+          "url": "https://www.20minutes.fr/sport/football/4235704-20260722-coupe-monde-2026-finale-jouee-fair-play-presse-argentine-denonce-vague-argentinophobie",
+          "source": "20 Minutes"
+        }
+      ]
+    },
+    {
+      "query": "paul seixas tour de france 2026",
+      "geo": "FR",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 20000,
+      "articles": [
+        {
+          "title": "Tour de France : entre Mads Pedersen et Jasper Philipsen, la lutte pour le maillot vert va se prolonger jusqu&apos;à Paris... en passant par la montagne",
+          "url": "https://www.lequipe.fr/Cyclisme-sur-route/Article/Tour-de-france-entre-mads-pedersen-et-jasper-philipsen-la-lutte-pour-le-maillot-vert-va-se-prolonger-jusqu-a-paris-en-passant-par-la-montagne/1706432",
+          "source": "L&apos;Équipe"
+        },
+        {
+          "title": "Classement général et résultats après la 17e étape du Tour de France 2026",
+          "url": "https://www.20minutes.fr/sport/cyclisme/4235831-20260722-tour-france-2026-classement-general-resultats-apres-17e-etape",
+          "source": "20 Minutes"
+        },
+        {
+          "title": "Tour de France (E17) : Philipsen règle un sprint d&apos;échappés : Sports - Orange",
+          "url": "https://sports.orange.fr/cyclisme/tour-de-france/resultats/article/tour-de-france-e17-philipsen-regle-un-sprint-d-echappes-exclu-CNT000002qDoDn.html",
+          "source": "Sports - Orange"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "es": [
+      {
+        "query": "copa mundial de fútbol de 2030",
+        "score": 280,
+        "geos": [
+          "MX"
+        ],
+        "samples": [
+          {
+            "query": "copa mundial de fútbol de 2030",
+            "geo": "MX",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Mundial 2030: Lo que debes saber sobre la edición del centenario",
+                "url": "https://www.espn.com.mx/futbol/mundial/nota/_/id/17030710/mundial-2030-espana-argentina-lo-que-debes-saber-edicion-centenario",
+                "source": "ESPN México"
+              },
+              {
+                "title": "Manotazo &apos;fifero&apos; por adelantado",
+                "url": "https://www.record.com.mx/historia/manotazo-fifero-por-adelantado-2026072116244625710",
+                "source": "Récord"
+              },
+              {
+                "title": "Seis sedes 64 países",
+                "url": "https://www.tabascohoy.com/seis-sedes-64-paises/",
+                "source": "Tabasco HOY"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "argentina fútbol mundial",
+        "score": 260,
+        "geos": [
+          "AR"
+        ],
+        "samples": [
+          {
+            "query": "argentina fútbol mundial",
+            "geo": "AR",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Un tarotista hizo una impactante revelación sobre las teorías conspirativas de la final del Mundial: “La verdad se conocerá\"",
+                "url": "https://tn.com.ar/deportes/futbol/2026/07/22/un-tarotista-hizo-una-impactante-revelacion-sobre-las-teorias-conspirativas-de-la-final-del-mundial-la-verdad-se-conocera/",
+                "source": "TN"
+              },
+              {
+                "title": "La fuerte teoría de un exfutbolista sobre la final entre Argentina y España por el Mundial 2026: “Algo les pasó”",
+                "url": "https://la100.cienradios.com/deportes/la-fuerte-teoria-de-un-exfutbolista-sobre-la-final-entre-argentina-y-espana-por-el-mundial-2026-algo-les-paso/",
+                "source": "La 100"
+              },
+              {
+                "title": "Tarotista reveló qué dicen las cartas sobre la polémica final del Mundial: \"Si Argentina ganaba, se caía todo\"",
+                "url": "https://www.cronica.com.ar/cosa-de-locos/tarotista-revelo-que-dicen-las-cartas-sobre-la-polemica-final-del-mundial-si-argentina-ganaba-se-caia-todo/",
+                "source": "Crónica"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "leandro paredes",
+        "score": 180,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "leandro paredes",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "La FIFA abre una investigación contra Argentina por los incidentes tras la derrota en la final del Mundial 2026",
+                "url": "https://www.bbc.com/mundo/articles/cwye8j2yq83o",
+                "source": "BBC"
+              },
+              {
+                "title": "Giro en el caso Leandro Paredes: la decisión que tomó la FIFA luego de la final del Mundial 2026",
+                "url": "https://www.elobservador.com.uy/mundial-2026/giro-el-caso-leandro-paredes-la-decision-que-tomo-la-fifa-luego-la-final-del-mundial-2026-n6051677",
+                "source": "El Observador"
+              },
+              {
+                "title": "Mundial 2026: FIFA abrió un expediente disciplinario a Argentina por la final con España",
+                "url": "https://www.montevideo.com.uy/Deportes/Mundial-2026-FIFA-abrio-un-expediente-disciplinario-a-Argentina-por-la-final-con-Espana-uc968928",
+                "source": "Montevideo Portal"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "fr": [
+      {
+        "query": "paul seixas tour de france 2026",
+        "score": 20000,
+        "geos": [
+          "FR"
+        ],
+        "samples": [
+          {
+            "query": "paul seixas tour de france 2026",
+            "geo": "FR",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 20000,
+            "articles": [
+              {
+                "title": "Tour de France : entre Mads Pedersen et Jasper Philipsen, la lutte pour le maillot vert va se prolonger jusqu&apos;à Paris... en passant par la montagne",
+                "url": "https://www.lequipe.fr/Cyclisme-sur-route/Article/Tour-de-france-entre-mads-pedersen-et-jasper-philipsen-la-lutte-pour-le-maillot-vert-va-se-prolonger-jusqu-a-paris-en-passant-par-la-montagne/1706432",
+                "source": "L&apos;Équipe"
+              },
+              {
+                "title": "Classement général et résultats après la 17e étape du Tour de France 2026",
+                "url": "https://www.20minutes.fr/sport/cyclisme/4235831-20260722-tour-france-2026-classement-general-resultats-apres-17e-etape",
+                "source": "20 Minutes"
+              },
+              {
+                "title": "Tour de France (E17) : Philipsen règle un sprint d&apos;échappés : Sports - Orange",
+                "url": "https://sports.orange.fr/cyclisme/tour-de-france/resultats/article/tour-de-france-e17-philipsen-regle-un-sprint-d-echappes-exclu-CNT000002qDoDn.html",
+                "source": "Sports - Orange"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "sanction argentine coupe du monde 2026",
+        "score": 200,
+        "geos": [
+          "FR"
+        ],
+        "samples": [
+          {
+            "query": "sanction argentine coupe du monde 2026",
+            "geo": "FR",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "« Si je le croise... » : membre du staff argentin, Roberto Ayala se dit « désolé » d’avoir frappé l’Espagnol Dani Olmo après la finale",
+                "url": "https://www.leparisien.fr/sports/football/coupe-du-monde/si-je-le-croise-membre-du-staff-argentin-roberto-ayala-se-dit-desole-davoir-frappe-lespagnol-dani-olmo-apres-la-finale-22-07-2026-HJNEU2O7MFHB5KW7MSZEYAYFUY.php",
+                "source": "Le Parisien"
+              },
+              {
+                "title": "« L’ombre et la lumière sur le gazon »",
+                "url": "https://www.latribune.fr/article/idees/17894589661916/opinion-l-ombre-et-la-lumiere-sur-le-gazon",
+                "source": "La Tribune"
+              },
+              {
+                "title": "Après « une finale fair-play », l’Argentine crie à « l’argentinophobie »",
+                "url": "https://www.20minutes.fr/sport/football/4235704-20260722-coupe-monde-2026-finale-jouee-fair-play-presse-argentine-denonce-vague-argentinophobie",
+                "source": "20 Minutes"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "topic": "leandro paredes",
+      "type": "noticia",
+      "slugSuggestion": "leandro-paredes",
+      "language": "es",
+      "geos": [
+        "UY"
+      ],
+      "score": 216,
+      "reason": "Google Trends daily UY con 200 búsquedas · 3 artículos noticiosos referenciando \"leandro paredes\"",
+      "proposedPath": "/noticias/leandro-paredes",
+      "evidence": [
+        {
+          "query": "leandro paredes",
+          "geo": "UY",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "La FIFA abre una investigación contra Argentina por los incidentes tras la derrota en la final del Mundial 2026",
+              "url": "https://www.bbc.com/mundo/articles/cwye8j2yq83o",
+              "source": "BBC"
+            },
+            {
+              "title": "Giro en el caso Leandro Paredes: la decisión que tomó la FIFA luego de la final del Mundial 2026",
+              "url": "https://www.elobservador.com.uy/mundial-2026/giro-el-caso-leandro-paredes-la-decision-que-tomo-la-fifa-luego-la-final-del-mundial-2026-n6051677",
+              "source": "El Observador"
+            },
+            {
+              "title": "Mundial 2026: FIFA abrió un expediente disciplinario a Argentina por la final con España",
+              "url": "https://www.montevideo.com.uy/Deportes/Mundial-2026-FIFA-abrio-un-expediente-disciplinario-a-Argentina-por-la-final-con-Espana-uc968928",
+              "source": "Montevideo Portal"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alreadyCovered": [
+    {
+      "query": "copa mundial de fútbol de 2030",
+      "matchUrl": "/noticias/lamine-yamal-primer-mundial-2026-espana-17-anos-eurocopa"
+    },
+    {
+      "query": "argentina fútbol mundial",
+      "matchUrl": "/historias/messi-campeon-lusail-2022-argentina-tercer-mundial-mbappe-final"
+    },
+    {
+      "query": "sanction argentine coupe du monde 2026",
+      "matchUrl": "/coleccionismo/panini-mundial-2026"
+    },
+    {
+      "query": "paul seixas tour de france 2026",
+      "matchUrl": "/noticias/rodrigo-de-paul-motor-argentina-mundial-2026"
+    }
+  ]
+}
