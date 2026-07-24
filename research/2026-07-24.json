@@ -1,0 +1,289 @@
+{
+  "generatedAt": "2026-07-24T09:03:51.570Z",
+  "date": "2026-07-24",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "partidos mas vistos del mundial 2026",
+      "geo": "MX",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Telemundo rompe récords históricos con el Mundial 2026",
+          "url": "https://www.telemundo.com/deportes/copa-mundial-de-la-fifa-2026/telemundo-rompe-records-historicos-con-el-mundial-2026-rcna588721",
+          "source": "Telemundo"
+        },
+        {
+          "title": "\"TV Azteca\" alcanza a 88 millones de personas con el Mundial",
+          "url": "https://es-us.finanzas.yahoo.com/noticias/tv-azteca-alcanza-88-millones-160406204.html",
+          "source": "Yahoo Finanzas"
+        },
+        {
+          "title": "Salinas Pliego se burla de intento de censura y celebró triunfo de TV Azteca en el Mundial 2026",
+          "url": "https://www.informador.mx/entretenimiento/salinas-pliego-se-burla-de-intento-de-censura-y-celebro-triunfo-de-tv-azteca-en-el-mundial-2026-20260722-0165.html",
+          "source": "El Informador"
+        }
+      ]
+    },
+    {
+      "query": "fifa argentina",
+      "geo": "AR",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "La carta de la FIFA a la Selección Argentina tras la final del Mundial 2026 ante España",
+          "url": "https://www.tycsports.com/seleccion-argentina/la-carta-de-la-fifa-a-la-seleccion-argentina-tras-el-subcampeonato-en-el-mundial-2026-ante-espana-id751414.html",
+          "source": "TyC Sports"
+        },
+        {
+          "title": "La carta de Gianni Infantino a la selección argentina tras perder la final del Mundial 2026 ante España",
+          "url": "https://www.infobae.com/deportes/2026/07/23/la-carta-de-gianni-infantino-a-la-seleccion-argentina-tras-perder-la-final-del-mundial-2026-ante-espana/",
+          "source": "Infobae"
+        },
+        {
+          "title": "La AFA sacó a la luz una carta que le envió la FIFA a la Selección argentina después de la final del Mundial",
+          "url": "https://tn.com.ar/deportes/mundial/2026/07/23/la-afa-dio-a-conocer-una-carta-que-le-escribio-el-presidente-de-la-fifa-a-chiqui-tapia-despues-de-la-final-del-mundial/",
+          "source": "TN"
+        }
+      ]
+    },
+    {
+      "query": "antonella roccuzzo",
+      "geo": "FR",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "« Je ne sais pas encore si je suis prêt à continuer » : Leandro Paredes a rejoué, fait une superbe passe décisive et semé le doute sur son avenir international",
+          "url": "https://www.lequipe.fr/Football/Actualites/-je-ne-sais-pas-encore-si-je-suis-pret-a-continuer-leandro-paredes-a-rejoue-fait-une-superbe-passe-decisive-et-seme-le-doute-sur-son-avenir-international/1706674",
+          "source": "L&apos;Équipe"
+        },
+        {
+          "title": "Une lettre d’Infantino salue « la magnifique performance » de l’Argentine",
+          "url": "https://www.20minutes.fr/sport/football/4236098-20260724-coupe-monde-2026-gianni-infantino-ecrit-lettre-federation-argentine-salue-magnifique-performance",
+          "source": "20 Minutes"
+        },
+        {
+          "title": "Coupe du monde 2026: la réponse cinglante de la compagne de Messi à toutes les attaques contre l’Argentine",
+          "url": "https://rmcsport.bfmtv.com/football/coupe-du-monde/coupe-du-monde-2026-la-reponse-cinglante-de-la-compagne-de-messi-a-toutes-les-attaques-contre-l-argentine_AV-202607230676.html",
+          "source": "RMC Sport"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "es": [
+      {
+        "query": "partidos mas vistos del mundial 2026",
+        "score": 280,
+        "geos": [
+          "MX"
+        ],
+        "samples": [
+          {
+            "query": "partidos mas vistos del mundial 2026",
+            "geo": "MX",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Telemundo rompe récords históricos con el Mundial 2026",
+                "url": "https://www.telemundo.com/deportes/copa-mundial-de-la-fifa-2026/telemundo-rompe-records-historicos-con-el-mundial-2026-rcna588721",
+                "source": "Telemundo"
+              },
+              {
+                "title": "\"TV Azteca\" alcanza a 88 millones de personas con el Mundial",
+                "url": "https://es-us.finanzas.yahoo.com/noticias/tv-azteca-alcanza-88-millones-160406204.html",
+                "source": "Yahoo Finanzas"
+              },
+              {
+                "title": "Salinas Pliego se burla de intento de censura y celebró triunfo de TV Azteca en el Mundial 2026",
+                "url": "https://www.informador.mx/entretenimiento/salinas-pliego-se-burla-de-intento-de-censura-y-celebro-triunfo-de-tv-azteca-en-el-mundial-2026-20260722-0165.html",
+                "source": "El Informador"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "fifa argentina",
+        "score": 260,
+        "geos": [
+          "AR"
+        ],
+        "samples": [
+          {
+            "query": "fifa argentina",
+            "geo": "AR",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "La carta de la FIFA a la Selección Argentina tras la final del Mundial 2026 ante España",
+                "url": "https://www.tycsports.com/seleccion-argentina/la-carta-de-la-fifa-a-la-seleccion-argentina-tras-el-subcampeonato-en-el-mundial-2026-ante-espana-id751414.html",
+                "source": "TyC Sports"
+              },
+              {
+                "title": "La carta de Gianni Infantino a la selección argentina tras perder la final del Mundial 2026 ante España",
+                "url": "https://www.infobae.com/deportes/2026/07/23/la-carta-de-gianni-infantino-a-la-seleccion-argentina-tras-perder-la-final-del-mundial-2026-ante-espana/",
+                "source": "Infobae"
+              },
+              {
+                "title": "La AFA sacó a la luz una carta que le envió la FIFA a la Selección argentina después de la final del Mundial",
+                "url": "https://tn.com.ar/deportes/mundial/2026/07/23/la-afa-dio-a-conocer-una-carta-que-le-escribio-el-presidente-de-la-fifa-a-chiqui-tapia-despues-de-la-final-del-mundial/",
+                "source": "TN"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "fr": [
+      {
+        "query": "antonella roccuzzo",
+        "score": 200,
+        "geos": [
+          "FR"
+        ],
+        "samples": [
+          {
+            "query": "antonella roccuzzo",
+            "geo": "FR",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "« Je ne sais pas encore si je suis prêt à continuer » : Leandro Paredes a rejoué, fait une superbe passe décisive et semé le doute sur son avenir international",
+                "url": "https://www.lequipe.fr/Football/Actualites/-je-ne-sais-pas-encore-si-je-suis-pret-a-continuer-leandro-paredes-a-rejoue-fait-une-superbe-passe-decisive-et-seme-le-doute-sur-son-avenir-international/1706674",
+                "source": "L&apos;Équipe"
+              },
+              {
+                "title": "Une lettre d’Infantino salue « la magnifique performance » de l’Argentine",
+                "url": "https://www.20minutes.fr/sport/football/4236098-20260724-coupe-monde-2026-gianni-infantino-ecrit-lettre-federation-argentine-salue-magnifique-performance",
+                "source": "20 Minutes"
+              },
+              {
+                "title": "Coupe du monde 2026: la réponse cinglante de la compagne de Messi à toutes les attaques contre l’Argentine",
+                "url": "https://rmcsport.bfmtv.com/football/coupe-du-monde/coupe-du-monde-2026-la-reponse-cinglante-de-la-compagne-de-messi-a-toutes-les-attaques-contre-l-argentine_AV-202607230676.html",
+                "source": "RMC Sport"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "topic": "fifa argentina",
+      "type": "noticia",
+      "slugSuggestion": "fifa-argentina",
+      "language": "es",
+      "geos": [
+        "AR"
+      ],
+      "score": 312,
+      "reason": "Google Trends daily AR con 200 búsquedas · 3 artículos noticiosos referenciando \"fifa argentina\"",
+      "proposedPath": "/noticias/fifa-argentina",
+      "evidence": [
+        {
+          "query": "fifa argentina",
+          "geo": "AR",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "La carta de la FIFA a la Selección Argentina tras la final del Mundial 2026 ante España",
+              "url": "https://www.tycsports.com/seleccion-argentina/la-carta-de-la-fifa-a-la-seleccion-argentina-tras-el-subcampeonato-en-el-mundial-2026-ante-espana-id751414.html",
+              "source": "TyC Sports"
+            },
+            {
+              "title": "La carta de Gianni Infantino a la selección argentina tras perder la final del Mundial 2026 ante España",
+              "url": "https://www.infobae.com/deportes/2026/07/23/la-carta-de-gianni-infantino-a-la-seleccion-argentina-tras-perder-la-final-del-mundial-2026-ante-espana/",
+              "source": "Infobae"
+            },
+            {
+              "title": "La AFA sacó a la luz una carta que le envió la FIFA a la Selección argentina después de la final del Mundial",
+              "url": "https://tn.com.ar/deportes/mundial/2026/07/23/la-afa-dio-a-conocer-una-carta-que-le-escribio-el-presidente-de-la-fifa-a-chiqui-tapia-despues-de-la-final-del-mundial/",
+              "source": "TN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "antonella roccuzzo",
+      "type": "noticia",
+      "slugSuggestion": "antonella-roccuzzo",
+      "language": "fr",
+      "geos": [
+        "FR"
+      ],
+      "score": 240,
+      "reason": "Google Trends daily FR con 200 búsquedas · 3 artículos noticiosos referenciando \"antonella roccuzzo\"",
+      "proposedPath": "/noticias/antonella-roccuzzo",
+      "evidence": [
+        {
+          "query": "antonella roccuzzo",
+          "geo": "FR",
+          "language": "fr",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "« Je ne sais pas encore si je suis prêt à continuer » : Leandro Paredes a rejoué, fait une superbe passe décisive et semé le doute sur son avenir international",
+              "url": "https://www.lequipe.fr/Football/Actualites/-je-ne-sais-pas-encore-si-je-suis-pret-a-continuer-leandro-paredes-a-rejoue-fait-une-superbe-passe-decisive-et-seme-le-doute-sur-son-avenir-international/1706674",
+              "source": "L&apos;Équipe"
+            },
+            {
+              "title": "Une lettre d’Infantino salue « la magnifique performance » de l’Argentine",
+              "url": "https://www.20minutes.fr/sport/football/4236098-20260724-coupe-monde-2026-gianni-infantino-ecrit-lettre-federation-argentine-salue-magnifique-performance",
+              "source": "20 Minutes"
+            },
+            {
+              "title": "Coupe du monde 2026: la réponse cinglante de la compagne de Messi à toutes les attaques contre l’Argentine",
+              "url": "https://rmcsport.bfmtv.com/football/coupe-du-monde/coupe-du-monde-2026-la-reponse-cinglante-de-la-compagne-de-messi-a-toutes-les-attaques-contre-l-argentine_AV-202607230676.html",
+              "source": "RMC Sport"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alreadyCovered": [
+    {
+      "query": "partidos mas vistos del mundial 2026",
+      "matchUrl": "/coleccionismo/panini-mundial-2026"
+    }
+  ]
+}
