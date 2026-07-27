@@ -1,8 +1,14 @@
 {
-  "processedHashes": [],
+  "processedHashes": [
+    "5be841fd82b5c9095b28827cd6bd01fa",
+    "3835cee82da1f51e64c912b347860ca0",
+    "550195867385b2592ff6de36bf52d098",
+    "1d82f3b4718effb6f79c61ba931f42eb",
+    "010b2482be6200050ee1d8b2fe31f068"
+  ],
   "publishedSlugs": [
     "hospitality-mundial-2026-on-location-precios-single-match-2500-venue-series-private-suites",
     "mundial-2026-estadios-codigo-conducta-items-prohibidos-clear-bag-policy"
   ],
-  "lastRunAt": ""
+  "lastRunAt": "2026-07-27T10:35:20.625Z"
 }
