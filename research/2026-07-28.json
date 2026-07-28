@@ -1,0 +1,192 @@
+{
+  "generatedAt": "2026-07-28T09:17:53.810Z",
+  "date": "2026-07-28",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "guillermo francella",
+      "geo": "AR",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "El Colo Barco fue ovacionado en el Circo Rodas: el divertido reconocimiento al jugador tras el Mundial 2026",
+          "url": "https://www.lavoz.com.ar/espectaculos/mira/colo-barco-ovacionado-circo-rodas-divertido-reconocimiento-jugador-mundial-2026_0_pfQbt8BeAz.html",
+          "source": "La Voz del Interior"
+        },
+        {
+          "title": "De salida familiar a ovación sobre el escenario: el interminable aplauso al “Colo” Barco",
+          "url": "https://www.lagaceta.com.ar/nota/1147171/deportes/de-salida-familiar-ovacion-sobre-escenario-interminable-aplauso-al-colo-barco.html",
+          "source": "La Gaceta"
+        },
+        {
+          "title": "El Colo Barco sorprendió a Guillermo Francella con un regalo muy especial tras una función de teatro",
+          "url": "https://www.eldia.com/espectaculos/el-colo-barco-sorprendio-a-guillermo-francella-con-un-regalo-muy-especial-tras-una-funcion-de-teatro-espectaculos_1785111660",
+          "source": "Diario El Día de La Plata"
+        }
+      ]
+    },
+    {
+      "query": "mejor gol del mundial 2026",
+      "geo": "CL",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "La FIFA da a conocer el mejor gol del Mundial: Mira el tanto y lo que dijo el protagonista",
+          "url": "https://www.emol.com/noticias/Deportes/2026/07/27/1206803/mejor-gol-mundial-fifa.html",
+          "source": "Emol"
+        },
+        {
+          "title": "Lo sufrió el Dibu Martínez: Mira el golazo de Cabo Verde a Argentina que fue elegido el mejor del Mundial",
+          "url": "https://www.chilevision.cl/chv-deportes/futbol-internacional/mira-el-golazo-de-cabo-verde-a-argentina-que-fue-elegido-el-mejor-del-mundial/",
+          "source": "Chilevisión"
+        },
+        {
+          "title": "Corrió hacia su madre y se había desmayado: La historia detrás del mejor gol del Mundial 2026",
+          "url": "https://www.t13.cl/noticia/deportes13/madre-cabo-verde-mundial-desmayado-mejor-gol-copa-mundo-27-7-2026",
+          "source": "Teletrece"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "es": [
+      {
+        "query": "mejor gol del mundial 2026",
+        "score": 450,
+        "geos": [
+          "CL"
+        ],
+        "samples": [
+          {
+            "query": "mejor gol del mundial 2026",
+            "geo": "CL",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "La FIFA da a conocer el mejor gol del Mundial: Mira el tanto y lo que dijo el protagonista",
+                "url": "https://www.emol.com/noticias/Deportes/2026/07/27/1206803/mejor-gol-mundial-fifa.html",
+                "source": "Emol"
+              },
+              {
+                "title": "Lo sufrió el Dibu Martínez: Mira el golazo de Cabo Verde a Argentina que fue elegido el mejor del Mundial",
+                "url": "https://www.chilevision.cl/chv-deportes/futbol-internacional/mira-el-golazo-de-cabo-verde-a-argentina-que-fue-elegido-el-mejor-del-mundial/",
+                "source": "Chilevisión"
+              },
+              {
+                "title": "Corrió hacia su madre y se había desmayado: La historia detrás del mejor gol del Mundial 2026",
+                "url": "https://www.t13.cl/noticia/deportes13/madre-cabo-verde-mundial-desmayado-mejor-gol-copa-mundo-27-7-2026",
+                "source": "Teletrece"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "guillermo francella",
+        "score": 260,
+        "geos": [
+          "AR"
+        ],
+        "samples": [
+          {
+            "query": "guillermo francella",
+            "geo": "AR",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "El Colo Barco fue ovacionado en el Circo Rodas: el divertido reconocimiento al jugador tras el Mundial 2026",
+                "url": "https://www.lavoz.com.ar/espectaculos/mira/colo-barco-ovacionado-circo-rodas-divertido-reconocimiento-jugador-mundial-2026_0_pfQbt8BeAz.html",
+                "source": "La Voz del Interior"
+              },
+              {
+                "title": "De salida familiar a ovación sobre el escenario: el interminable aplauso al “Colo” Barco",
+                "url": "https://www.lagaceta.com.ar/nota/1147171/deportes/de-salida-familiar-ovacion-sobre-escenario-interminable-aplauso-al-colo-barco.html",
+                "source": "La Gaceta"
+              },
+              {
+                "title": "El Colo Barco sorprendió a Guillermo Francella con un regalo muy especial tras una función de teatro",
+                "url": "https://www.eldia.com/espectaculos/el-colo-barco-sorprendio-a-guillermo-francella-con-un-regalo-muy-especial-tras-una-funcion-de-teatro-espectaculos_1785111660",
+                "source": "Diario El Día de La Plata"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "topic": "guillermo francella",
+      "type": "noticia",
+      "slugSuggestion": "guillermo-francella",
+      "language": "es",
+      "geos": [
+        "AR"
+      ],
+      "score": 312,
+      "reason": "Google Trends daily AR con 200 búsquedas · 3 artículos noticiosos referenciando \"guillermo francella\"",
+      "proposedPath": "/noticias/guillermo-francella",
+      "evidence": [
+        {
+          "query": "guillermo francella",
+          "geo": "AR",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "El Colo Barco fue ovacionado en el Circo Rodas: el divertido reconocimiento al jugador tras el Mundial 2026",
+              "url": "https://www.lavoz.com.ar/espectaculos/mira/colo-barco-ovacionado-circo-rodas-divertido-reconocimiento-jugador-mundial-2026_0_pfQbt8BeAz.html",
+              "source": "La Voz del Interior"
+            },
+            {
+              "title": "De salida familiar a ovación sobre el escenario: el interminable aplauso al “Colo” Barco",
+              "url": "https://www.lagaceta.com.ar/nota/1147171/deportes/de-salida-familiar-ovacion-sobre-escenario-interminable-aplauso-al-colo-barco.html",
+              "source": "La Gaceta"
+            },
+            {
+              "title": "El Colo Barco sorprendió a Guillermo Francella con un regalo muy especial tras una función de teatro",
+              "url": "https://www.eldia.com/espectaculos/el-colo-barco-sorprendio-a-guillermo-francella-con-un-regalo-muy-especial-tras-una-funcion-de-teatro-espectaculos_1785111660",
+              "source": "Diario El Día de La Plata"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alreadyCovered": [
+    {
+      "query": "mejor gol del mundial 2026",
+      "matchUrl": "/coleccionismo/panini-mundial-2026"
+    }
+  ]
+}
