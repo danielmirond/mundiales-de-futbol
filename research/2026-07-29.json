@@ -1,0 +1,96 @@
+{
+  "generatedAt": "2026-07-29T09:22:15.767Z",
+  "date": "2026-07-29",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "futbol",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Alonso y la “nueva era del fútbol uruguayo”: la enseñanza del Mundial 2026 y el gran elogio a un club local",
+          "url": "https://www.elpais.com.uy/ovacion/futbol/alonso-y-la-nueva-era-del-futbol-uruguayo-la-ensenanza-del-mundial-2026-y-el-gran-elogio-a-un-club-local",
+          "source": "EL PAÍS Uruguay"
+        },
+        {
+          "title": "Con formato renovado, se lanzó la Copa AUF Uruguay 2026",
+          "url": "https://ladiaria.com.uy/deporte/articulo/2026/7/con-formato-renovado-se-lanzo-la-copa-auf-uruguay-2026/",
+          "source": "la diaria"
+        },
+        {
+          "title": "El presidente de la Conmebol Alejandro Domínguez asistirá al lanzamiento de la Copa AUF Uruguay este martes",
+          "url": "https://www.elobservador.com.uy/futbol/el-presidente-la-conmebol-alejandro-dominguez-asistira-al-lanzamiento-la-copa-auf-uruguay-este-martes-n6052286",
+          "source": "El Observador"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "es": [
+      {
+        "query": "futbol",
+        "score": 90,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "futbol",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Alonso y la “nueva era del fútbol uruguayo”: la enseñanza del Mundial 2026 y el gran elogio a un club local",
+                "url": "https://www.elpais.com.uy/ovacion/futbol/alonso-y-la-nueva-era-del-futbol-uruguayo-la-ensenanza-del-mundial-2026-y-el-gran-elogio-a-un-club-local",
+                "source": "EL PAÍS Uruguay"
+              },
+              {
+                "title": "Con formato renovado, se lanzó la Copa AUF Uruguay 2026",
+                "url": "https://ladiaria.com.uy/deporte/articulo/2026/7/con-formato-renovado-se-lanzo-la-copa-auf-uruguay-2026/",
+                "source": "la diaria"
+              },
+              {
+                "title": "El presidente de la Conmebol Alejandro Domínguez asistirá al lanzamiento de la Copa AUF Uruguay este martes",
+                "url": "https://www.elobservador.com.uy/futbol/el-presidente-la-conmebol-alejandro-dominguez-asistira-al-lanzamiento-la-copa-auf-uruguay-este-martes-n6052286",
+                "source": "El Observador"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [],
+  "alreadyCovered": [
+    {
+      "query": "futbol",
+      "matchUrl": "/historias/cruyff-jugar-futbol-simple"
+    }
+  ]
+}
