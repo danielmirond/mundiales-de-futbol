@@ -1,0 +1,96 @@
+{
+  "generatedAt": "2026-07-30T09:14:16.343Z",
+  "date": "2026-07-30",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "fútbol",
+      "geo": "UY",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Domínguez: loas a Alonso, críticas a Tenfield y la “transformación” del fútbol uruguayo",
+          "url": "https://www.montevideo.com.uy/Deportes/Dominguez-loas-a-Alonso-criticas-a-Tenfield-y-la-transformacion-del-futbol-uruguayo-uc970034",
+          "source": "Montevideo Portal"
+        },
+        {
+          "title": "Con formato renovado, se lanzó la Copa AUF Uruguay 2026",
+          "url": "https://ladiaria.com.uy/deporte/articulo/2026/7/con-formato-renovado-se-lanzo-la-copa-auf-uruguay-2026/",
+          "source": "la diaria"
+        },
+        {
+          "title": "Ignacio Alonso habló del \"golpazo\" de la selección uruguaya en el Mundial 2026: \"Hicimos todo para hacer una gran copa y no se nos dio\"",
+          "url": "https://www.elobservador.com.uy/seleccion/ignacio-alonso-hablo-del-golpazo-la-seleccion-uruguaya-el-mundial-2026-hicimos-todo-hacer-una-gran-copa-y-no-se-nos-dio-n6052393",
+          "source": "El Observador"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "es": [
+      {
+        "query": "fútbol",
+        "score": 180,
+        "geos": [
+          "UY"
+        ],
+        "samples": [
+          {
+            "query": "fútbol",
+            "geo": "UY",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Domínguez: loas a Alonso, críticas a Tenfield y la “transformación” del fútbol uruguayo",
+                "url": "https://www.montevideo.com.uy/Deportes/Dominguez-loas-a-Alonso-criticas-a-Tenfield-y-la-transformacion-del-futbol-uruguayo-uc970034",
+                "source": "Montevideo Portal"
+              },
+              {
+                "title": "Con formato renovado, se lanzó la Copa AUF Uruguay 2026",
+                "url": "https://ladiaria.com.uy/deporte/articulo/2026/7/con-formato-renovado-se-lanzo-la-copa-auf-uruguay-2026/",
+                "source": "la diaria"
+              },
+              {
+                "title": "Ignacio Alonso habló del \"golpazo\" de la selección uruguaya en el Mundial 2026: \"Hicimos todo para hacer una gran copa y no se nos dio\"",
+                "url": "https://www.elobservador.com.uy/seleccion/ignacio-alonso-hablo-del-golpazo-la-seleccion-uruguaya-el-mundial-2026-hicimos-todo-hacer-una-gran-copa-y-no-se-nos-dio-n6052393",
+                "source": "El Observador"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [],
+  "alreadyCovered": [
+    {
+      "query": "fútbol",
+      "matchUrl": "/historias/cruyff-jugar-futbol-simple"
+    }
+  ]
+}
