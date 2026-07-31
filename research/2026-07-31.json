@@ -1,0 +1,227 @@
+{
+  "generatedAt": "2026-07-31T09:24:12.366Z",
+  "date": "2026-07-31",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "uefa mundial 2030",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "FIFA responde al boicot de UEFA y carga contra los clubes europeos: \"Nadie está vendiendo el fútbol\"",
+          "url": "https://www.marca.com/futbol/2026/07/31/fifa-responde-boicot-uefa-carga-clubes-europeos-nadie-vendiendo-futbol.html",
+          "source": "MARCA"
+        },
+        {
+          "title": "Claves de la compleja reacción emocional que desencadenó la guerra mundial del fútbol",
+          "url": "https://cnnespanol.cnn.com/2026/07/31/mundo/reaccion-emocional-guerra-mundial-futbol-trax",
+          "source": "CNN en Español"
+        },
+        {
+          "title": "Crece la crisis en el fútbol mundial: Concacaf se unió a la postura de UEFA y rechazó el plan de FIFA",
+          "url": "https://www.infobae.com/deportes/2026/07/30/crece-la-crisis-en-el-futbol-mundial-concacaf-se-unio-a-la-postura-de-uefa-y-rechazo-el-plan-de-fifa/",
+          "source": "Infobae"
+        }
+      ]
+    },
+    {
+      "query": "2030",
+      "geo": "PT",
+      "language": "pt",
+      "source": "google-trends-daily",
+      "score": 1000,
+      "articles": [
+        {
+          "title": "Portugal arrisca ficar sem a organização do Mundial em 2030",
+          "url": "https://www.cmjornal.pt/desporto/futebol/detalhe/portugal-arrisca-ficar-sem-a-organizacao-do-mundial-em-2030",
+          "source": "Correio da Manhã"
+        },
+        {
+          "title": "O que esperar de Portugal? Os favoritos à conquista do Mundial 2030 (fotos)",
+          "url": "https://www.abola.pt/noticias/o-que-esperar-de-portugal-os-favoritos-a-conquista-do-mundial-2030-fotos-2026073014501894335",
+          "source": "A Bola"
+        },
+        {
+          "title": "Faltam 1415 dias para o Mundial 2030. Estará Portugal à margem da ‘guerra&apos; pela final?",
+          "url": "https://www.dn.pt/desporto/faltam-1415-dias-para-o-mundial-2030-estar-portugal-margem-da-guerra-pela-final",
+          "source": "Diário de Notícias"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "es": [
+      {
+        "query": "uefa mundial 2030",
+        "score": 90,
+        "geos": [
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "uefa mundial 2030",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "FIFA responde al boicot de UEFA y carga contra los clubes europeos: \"Nadie está vendiendo el fútbol\"",
+                "url": "https://www.marca.com/futbol/2026/07/31/fifa-responde-boicot-uefa-carga-clubes-europeos-nadie-vendiendo-futbol.html",
+                "source": "MARCA"
+              },
+              {
+                "title": "Claves de la compleja reacción emocional que desencadenó la guerra mundial del fútbol",
+                "url": "https://cnnespanol.cnn.com/2026/07/31/mundo/reaccion-emocional-guerra-mundial-futbol-trax",
+                "source": "CNN en Español"
+              },
+              {
+                "title": "Crece la crisis en el fútbol mundial: Concacaf se unió a la postura de UEFA y rechazó el plan de FIFA",
+                "url": "https://www.infobae.com/deportes/2026/07/30/crece-la-crisis-en-el-futbol-mundial-concacaf-se-unio-a-la-postura-de-uefa-y-rechazo-el-plan-de-fifa/",
+                "source": "Infobae"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "pt": [
+      {
+        "query": "2030",
+        "score": 1000,
+        "geos": [
+          "PT"
+        ],
+        "samples": [
+          {
+            "query": "2030",
+            "geo": "PT",
+            "language": "pt",
+            "source": "google-trends-daily",
+            "score": 1000,
+            "articles": [
+              {
+                "title": "Portugal arrisca ficar sem a organização do Mundial em 2030",
+                "url": "https://www.cmjornal.pt/desporto/futebol/detalhe/portugal-arrisca-ficar-sem-a-organizacao-do-mundial-em-2030",
+                "source": "Correio da Manhã"
+              },
+              {
+                "title": "O que esperar de Portugal? Os favoritos à conquista do Mundial 2030 (fotos)",
+                "url": "https://www.abola.pt/noticias/o-que-esperar-de-portugal-os-favoritos-a-conquista-do-mundial-2030-fotos-2026073014501894335",
+                "source": "A Bola"
+              },
+              {
+                "title": "Faltam 1415 dias para o Mundial 2030. Estará Portugal à margem da ‘guerra&apos; pela final?",
+                "url": "https://www.dn.pt/desporto/faltam-1415-dias-para-o-mundial-2030-estar-portugal-margem-da-guerra-pela-final",
+                "source": "Diário de Notícias"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "topic": "2030",
+      "type": "noticia",
+      "slugSuggestion": "2030",
+      "language": "pt",
+      "geos": [
+        "PT"
+      ],
+      "score": 1200,
+      "reason": "Google Trends daily PT con 1,000 búsquedas · 3 artículos noticiosos referenciando \"2030\"",
+      "proposedPath": "/noticias/2030",
+      "evidence": [
+        {
+          "query": "2030",
+          "geo": "PT",
+          "language": "pt",
+          "source": "google-trends-daily",
+          "score": 1000,
+          "articles": [
+            {
+              "title": "Portugal arrisca ficar sem a organização do Mundial em 2030",
+              "url": "https://www.cmjornal.pt/desporto/futebol/detalhe/portugal-arrisca-ficar-sem-a-organizacao-do-mundial-em-2030",
+              "source": "Correio da Manhã"
+            },
+            {
+              "title": "O que esperar de Portugal? Os favoritos à conquista do Mundial 2030 (fotos)",
+              "url": "https://www.abola.pt/noticias/o-que-esperar-de-portugal-os-favoritos-a-conquista-do-mundial-2030-fotos-2026073014501894335",
+              "source": "A Bola"
+            },
+            {
+              "title": "Faltam 1415 dias para o Mundial 2030. Estará Portugal à margem da ‘guerra&apos; pela final?",
+              "url": "https://www.dn.pt/desporto/faltam-1415-dias-para-o-mundial-2030-estar-portugal-margem-da-guerra-pela-final",
+              "source": "Diário de Notícias"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "uefa mundial 2030",
+      "type": "noticia",
+      "slugSuggestion": "uefa-mundial-2030",
+      "language": "es",
+      "geos": [
+        "PE"
+      ],
+      "score": 108,
+      "reason": "Google Trends daily PE con 100 búsquedas · 3 artículos noticiosos referenciando \"uefa mundial 2030\"",
+      "proposedPath": "/noticias/uefa-mundial-2030",
+      "evidence": [
+        {
+          "query": "uefa mundial 2030",
+          "geo": "PE",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 100,
+          "articles": [
+            {
+              "title": "FIFA responde al boicot de UEFA y carga contra los clubes europeos: \"Nadie está vendiendo el fútbol\"",
+              "url": "https://www.marca.com/futbol/2026/07/31/fifa-responde-boicot-uefa-carga-clubes-europeos-nadie-vendiendo-futbol.html",
+              "source": "MARCA"
+            },
+            {
+              "title": "Claves de la compleja reacción emocional que desencadenó la guerra mundial del fútbol",
+              "url": "https://cnnespanol.cnn.com/2026/07/31/mundo/reaccion-emocional-guerra-mundial-futbol-trax",
+              "source": "CNN en Español"
+            },
+            {
+              "title": "Crece la crisis en el fútbol mundial: Concacaf se unió a la postura de UEFA y rechazó el plan de FIFA",
+              "url": "https://www.infobae.com/deportes/2026/07/30/crece-la-crisis-en-el-futbol-mundial-concacaf-se-unio-a-la-postura-de-uefa-y-rechazo-el-plan-de-fifa/",
+              "source": "Infobae"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alreadyCovered": []
+}
