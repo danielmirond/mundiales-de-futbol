@@ -1,0 +1,611 @@
+{
+  "generatedAt": "2026-08-01T08:40:31.777Z",
+  "date": "2026-08-01",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "soccer highlights today",
+      "geo": "US",
+      "language": "en",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "FIFA scraps controversial $20 billion World Cup investment plan",
+          "url": "https://www.cnn.com/2026/07/31/sport/fifa-scraps-controversial-world-cup-investment-plan",
+          "source": "CNN"
+        },
+        {
+          "title": "Why Fifa dropped plans to sell stakes in the World Cup",
+          "url": "https://www.bbc.com/news/videos/cg4dxwyv77po",
+          "source": "BBC"
+        },
+        {
+          "title": "Infantino scraps FIFA World Cup sell-off plan after backlash",
+          "url": "https://www.espn.com/soccer/story/_/id/49500782/fifa-world-cup-investment-private-gianni-infantino",
+          "source": "ESPN"
+        }
+      ]
+    },
+    {
+      "query": "uefa fifa",
+      "geo": "EC",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 200,
+      "articles": [
+        {
+          "title": "Statement on behalf of UEFA and its 55 national associations",
+          "url": "https://www.uefa.com/news-media/news/02a7-213a92896eb0-54dfbf454e3b-1000--statement-on-behalf-of-uefa-and-its-55-national-associations/",
+          "source": "UEFA.com"
+        },
+        {
+          "title": "Fifa World Cup plans: Gianni Infantino scraps private investment proposal after widespread opposition",
+          "url": "https://www.bbc.com/sport/football/articles/czekr6kn58po",
+          "source": "BBC"
+        },
+        {
+          "title": "Statement on behalf of Concacaf and its 41 Member Associations",
+          "url": "https://www.concacaf.com/competitions/concacaf/news/statement-on-behalf-of-concacaf-and-its-41-member-associations",
+          "source": "Concacaf | Official Website"
+        }
+      ]
+    },
+    {
+      "query": "soccer world rankings",
+      "geo": "BR",
+      "language": "pt",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "From Haaland love to Mexico’s Merlin: 26 memories from the 2026 World Cup",
+          "url": "https://www.theguardian.com/football/2026/jul/25/26-memories-from-the-2026-world-cup-football",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Ranked: The Most Valuable Squads at the 2026 FIFA World Cup",
+          "url": "https://www.visualcapitalist.com/cp/ranked-the-most-valuable-squads-at-the-2026-fifa-world-cup/",
+          "source": "Visual Capitalist"
+        },
+        {
+          "title": "Out now: World Soccer’s World Cup Review",
+          "url": "https://www.worldsoccer.com/latest-issue/magazine/out-now-world-cup-review-419544",
+          "source": "World Soccer"
+        }
+      ]
+    },
+    {
+      "query": "soccer highlights today",
+      "geo": "BR",
+      "language": "pt",
+      "source": "google-trends-daily",
+      "score": 500,
+      "articles": [
+        {
+          "title": "FIFA scraps controversial $20 billion World Cup investment plan",
+          "url": "https://www.cnn.com/2026/07/31/sport/fifa-scraps-controversial-world-cup-investment-plan",
+          "source": "CNN"
+        },
+        {
+          "title": "Why Fifa dropped plans to sell stakes in the World Cup",
+          "url": "https://www.bbc.com/news/videos/cg4dxwyv77po",
+          "source": "BBC"
+        },
+        {
+          "title": "Infantino scraps FIFA World Cup sell-off plan after backlash",
+          "url": "https://www.espn.com/soccer/story/_/id/49500782/fifa-world-cup-investment-private-gianni-infantino",
+          "source": "ESPN"
+        }
+      ]
+    },
+    {
+      "query": "cowes week 2026",
+      "geo": "GB",
+      "language": "en",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "Sails and socialising - 200 years of Cowes Week",
+          "url": "https://www.bbc.co.uk/news/articles/cwym0zz49rmo",
+          "source": "BBC"
+        },
+        {
+          "title": "GB1 Returns to the Birthplace of the America&apos;s Cup with Fan Zone at North Sails Cowes Week",
+          "url": "https://www.yachtsandyachting.com/news/298452/GB1-Returns-to-the-Birthplace-of-the-Americas-Cup",
+          "source": "Yachts and Yachting Online"
+        },
+        {
+          "title": "Cowes Week 2026: All you need to know about bicentennial regatta",
+          "url": "https://www.bbc.com/news/articles/clyl14d09ypo",
+          "source": "BBC"
+        }
+      ]
+    },
+    {
+      "query": "gianni infantino",
+      "geo": "MA",
+      "language": "fr",
+      "source": "google-trends-daily",
+      "score": 100,
+      "articles": [
+        {
+          "title": "FIFA scraps controversial $20 billion World Cup investment plan",
+          "url": "https://www.cnn.com/2026/07/31/sport/fifa-scraps-controversial-world-cup-investment-plan",
+          "source": "CNN"
+        },
+        {
+          "title": "Why Fifa dropped plans to sell stakes in the World Cup",
+          "url": "https://www.bbc.com/news/videos/cg4dxwyv77po",
+          "source": "BBC"
+        },
+        {
+          "title": "Infantino scraps FIFA World Cup sell-off plan after backlash",
+          "url": "https://www.espn.com/soccer/story/_/id/49500782/fifa-world-cup-investment-private-gianni-infantino",
+          "source": "ESPN"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "en": [
+      {
+        "query": "soccer highlights today",
+        "score": 700,
+        "geos": [
+          "US"
+        ],
+        "samples": [
+          {
+            "query": "soccer highlights today",
+            "geo": "US",
+            "language": "en",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "FIFA scraps controversial $20 billion World Cup investment plan",
+                "url": "https://www.cnn.com/2026/07/31/sport/fifa-scraps-controversial-world-cup-investment-plan",
+                "source": "CNN"
+              },
+              {
+                "title": "Why Fifa dropped plans to sell stakes in the World Cup",
+                "url": "https://www.bbc.com/news/videos/cg4dxwyv77po",
+                "source": "BBC"
+              },
+              {
+                "title": "Infantino scraps FIFA World Cup sell-off plan after backlash",
+                "url": "https://www.espn.com/soccer/story/_/id/49500782/fifa-world-cup-investment-private-gianni-infantino",
+                "source": "ESPN"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "cowes week 2026",
+        "score": 110.00000000000001,
+        "geos": [
+          "GB"
+        ],
+        "samples": [
+          {
+            "query": "cowes week 2026",
+            "geo": "GB",
+            "language": "en",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "Sails and socialising - 200 years of Cowes Week",
+                "url": "https://www.bbc.co.uk/news/articles/cwym0zz49rmo",
+                "source": "BBC"
+              },
+              {
+                "title": "GB1 Returns to the Birthplace of the America&apos;s Cup with Fan Zone at North Sails Cowes Week",
+                "url": "https://www.yachtsandyachting.com/news/298452/GB1-Returns-to-the-Birthplace-of-the-Americas-Cup",
+                "source": "Yachts and Yachting Online"
+              },
+              {
+                "title": "Cowes Week 2026: All you need to know about bicentennial regatta",
+                "url": "https://www.bbc.com/news/articles/clyl14d09ypo",
+                "source": "BBC"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "es": [
+      {
+        "query": "uefa fifa",
+        "score": 160,
+        "geos": [
+          "EC"
+        ],
+        "samples": [
+          {
+            "query": "uefa fifa",
+            "geo": "EC",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 200,
+            "articles": [
+              {
+                "title": "Statement on behalf of UEFA and its 55 national associations",
+                "url": "https://www.uefa.com/news-media/news/02a7-213a92896eb0-54dfbf454e3b-1000--statement-on-behalf-of-uefa-and-its-55-national-associations/",
+                "source": "UEFA.com"
+              },
+              {
+                "title": "Fifa World Cup plans: Gianni Infantino scraps private investment proposal after widespread opposition",
+                "url": "https://www.bbc.com/sport/football/articles/czekr6kn58po",
+                "source": "BBC"
+              },
+              {
+                "title": "Statement on behalf of Concacaf and its 41 Member Associations",
+                "url": "https://www.concacaf.com/competitions/concacaf/news/statement-on-behalf-of-concacaf-and-its-41-member-associations",
+                "source": "Concacaf | Official Website"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "pt": [
+      {
+        "query": "soccer world rankings",
+        "score": 650,
+        "geos": [
+          "BR"
+        ],
+        "samples": [
+          {
+            "query": "soccer world rankings",
+            "geo": "BR",
+            "language": "pt",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "From Haaland love to Mexico’s Merlin: 26 memories from the 2026 World Cup",
+                "url": "https://www.theguardian.com/football/2026/jul/25/26-memories-from-the-2026-world-cup-football",
+                "source": "The Guardian"
+              },
+              {
+                "title": "Ranked: The Most Valuable Squads at the 2026 FIFA World Cup",
+                "url": "https://www.visualcapitalist.com/cp/ranked-the-most-valuable-squads-at-the-2026-fifa-world-cup/",
+                "source": "Visual Capitalist"
+              },
+              {
+                "title": "Out now: World Soccer’s World Cup Review",
+                "url": "https://www.worldsoccer.com/latest-issue/magazine/out-now-world-cup-review-419544",
+                "source": "World Soccer"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "soccer highlights today",
+        "score": 650,
+        "geos": [
+          "BR"
+        ],
+        "samples": [
+          {
+            "query": "soccer highlights today",
+            "geo": "BR",
+            "language": "pt",
+            "source": "google-trends-daily",
+            "score": 500,
+            "articles": [
+              {
+                "title": "FIFA scraps controversial $20 billion World Cup investment plan",
+                "url": "https://www.cnn.com/2026/07/31/sport/fifa-scraps-controversial-world-cup-investment-plan",
+                "source": "CNN"
+              },
+              {
+                "title": "Why Fifa dropped plans to sell stakes in the World Cup",
+                "url": "https://www.bbc.com/news/videos/cg4dxwyv77po",
+                "source": "BBC"
+              },
+              {
+                "title": "Infantino scraps FIFA World Cup sell-off plan after backlash",
+                "url": "https://www.espn.com/soccer/story/_/id/49500782/fifa-world-cup-investment-private-gianni-infantino",
+                "source": "ESPN"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "fr": [
+      {
+        "query": "gianni infantino",
+        "score": 90,
+        "geos": [
+          "MA"
+        ],
+        "samples": [
+          {
+            "query": "gianni infantino",
+            "geo": "MA",
+            "language": "fr",
+            "source": "google-trends-daily",
+            "score": 100,
+            "articles": [
+              {
+                "title": "FIFA scraps controversial $20 billion World Cup investment plan",
+                "url": "https://www.cnn.com/2026/07/31/sport/fifa-scraps-controversial-world-cup-investment-plan",
+                "source": "CNN"
+              },
+              {
+                "title": "Why Fifa dropped plans to sell stakes in the World Cup",
+                "url": "https://www.bbc.com/news/videos/cg4dxwyv77po",
+                "source": "BBC"
+              },
+              {
+                "title": "Infantino scraps FIFA World Cup sell-off plan after backlash",
+                "url": "https://www.espn.com/soccer/story/_/id/49500782/fifa-world-cup-investment-private-gianni-infantino",
+                "source": "ESPN"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "topic": "soccer highlights today",
+      "type": "noticia",
+      "slugSuggestion": "soccer-highlights-today",
+      "language": "en",
+      "geos": [
+        "US"
+      ],
+      "score": 840,
+      "reason": "Google Trends daily US con 500 búsquedas · 3 artículos noticiosos referenciando \"soccer highlights today\"",
+      "proposedPath": "/noticias/soccer-highlights-today",
+      "evidence": [
+        {
+          "query": "soccer highlights today",
+          "geo": "US",
+          "language": "en",
+          "source": "google-trends-daily",
+          "score": 500,
+          "articles": [
+            {
+              "title": "FIFA scraps controversial $20 billion World Cup investment plan",
+              "url": "https://www.cnn.com/2026/07/31/sport/fifa-scraps-controversial-world-cup-investment-plan",
+              "source": "CNN"
+            },
+            {
+              "title": "Why Fifa dropped plans to sell stakes in the World Cup",
+              "url": "https://www.bbc.com/news/videos/cg4dxwyv77po",
+              "source": "BBC"
+            },
+            {
+              "title": "Infantino scraps FIFA World Cup sell-off plan after backlash",
+              "url": "https://www.espn.com/soccer/story/_/id/49500782/fifa-world-cup-investment-private-gianni-infantino",
+              "source": "ESPN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "soccer world rankings",
+      "type": "noticia",
+      "slugSuggestion": "soccer-world-rankings",
+      "language": "pt",
+      "geos": [
+        "BR"
+      ],
+      "score": 780,
+      "reason": "Google Trends daily BR con 500 búsquedas · 3 artículos noticiosos referenciando \"soccer world rankings\"",
+      "proposedPath": "/noticias/soccer-world-rankings",
+      "evidence": [
+        {
+          "query": "soccer world rankings",
+          "geo": "BR",
+          "language": "pt",
+          "source": "google-trends-daily",
+          "score": 500,
+          "articles": [
+            {
+              "title": "From Haaland love to Mexico’s Merlin: 26 memories from the 2026 World Cup",
+              "url": "https://www.theguardian.com/football/2026/jul/25/26-memories-from-the-2026-world-cup-football",
+              "source": "The Guardian"
+            },
+            {
+              "title": "Ranked: The Most Valuable Squads at the 2026 FIFA World Cup",
+              "url": "https://www.visualcapitalist.com/cp/ranked-the-most-valuable-squads-at-the-2026-fifa-world-cup/",
+              "source": "Visual Capitalist"
+            },
+            {
+              "title": "Out now: World Soccer’s World Cup Review",
+              "url": "https://www.worldsoccer.com/latest-issue/magazine/out-now-world-cup-review-419544",
+              "source": "World Soccer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "soccer highlights today",
+      "type": "noticia",
+      "slugSuggestion": "soccer-highlights-today",
+      "language": "pt",
+      "geos": [
+        "BR"
+      ],
+      "score": 780,
+      "reason": "Google Trends daily BR con 500 búsquedas · 3 artículos noticiosos referenciando \"soccer highlights today\"",
+      "proposedPath": "/noticias/soccer-highlights-today",
+      "evidence": [
+        {
+          "query": "soccer highlights today",
+          "geo": "BR",
+          "language": "pt",
+          "source": "google-trends-daily",
+          "score": 500,
+          "articles": [
+            {
+              "title": "FIFA scraps controversial $20 billion World Cup investment plan",
+              "url": "https://www.cnn.com/2026/07/31/sport/fifa-scraps-controversial-world-cup-investment-plan",
+              "source": "CNN"
+            },
+            {
+              "title": "Why Fifa dropped plans to sell stakes in the World Cup",
+              "url": "https://www.bbc.com/news/videos/cg4dxwyv77po",
+              "source": "BBC"
+            },
+            {
+              "title": "Infantino scraps FIFA World Cup sell-off plan after backlash",
+              "url": "https://www.espn.com/soccer/story/_/id/49500782/fifa-world-cup-investment-private-gianni-infantino",
+              "source": "ESPN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "uefa fifa",
+      "type": "noticia",
+      "slugSuggestion": "uefa-fifa",
+      "language": "es",
+      "geos": [
+        "EC"
+      ],
+      "score": 192,
+      "reason": "Google Trends daily EC con 200 búsquedas · 3 artículos noticiosos referenciando \"uefa fifa\"",
+      "proposedPath": "/noticias/uefa-fifa",
+      "evidence": [
+        {
+          "query": "uefa fifa",
+          "geo": "EC",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 200,
+          "articles": [
+            {
+              "title": "Statement on behalf of UEFA and its 55 national associations",
+              "url": "https://www.uefa.com/news-media/news/02a7-213a92896eb0-54dfbf454e3b-1000--statement-on-behalf-of-uefa-and-its-55-national-associations/",
+              "source": "UEFA.com"
+            },
+            {
+              "title": "Fifa World Cup plans: Gianni Infantino scraps private investment proposal after widespread opposition",
+              "url": "https://www.bbc.com/sport/football/articles/czekr6kn58po",
+              "source": "BBC"
+            },
+            {
+              "title": "Statement on behalf of Concacaf and its 41 Member Associations",
+              "url": "https://www.concacaf.com/competitions/concacaf/news/statement-on-behalf-of-concacaf-and-its-41-member-associations",
+              "source": "Concacaf | Official Website"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "cowes week 2026",
+      "type": "noticia",
+      "slugSuggestion": "cowes-week-2026",
+      "language": "en",
+      "geos": [
+        "GB"
+      ],
+      "score": 132,
+      "reason": "Google Trends daily GB con 100 búsquedas · 3 artículos noticiosos referenciando \"cowes week 2026\"",
+      "proposedPath": "/noticias/cowes-week-2026",
+      "evidence": [
+        {
+          "query": "cowes week 2026",
+          "geo": "GB",
+          "language": "en",
+          "source": "google-trends-daily",
+          "score": 100,
+          "articles": [
+            {
+              "title": "Sails and socialising - 200 years of Cowes Week",
+              "url": "https://www.bbc.co.uk/news/articles/cwym0zz49rmo",
+              "source": "BBC"
+            },
+            {
+              "title": "GB1 Returns to the Birthplace of the America&apos;s Cup with Fan Zone at North Sails Cowes Week",
+              "url": "https://www.yachtsandyachting.com/news/298452/GB1-Returns-to-the-Birthplace-of-the-Americas-Cup",
+              "source": "Yachts and Yachting Online"
+            },
+            {
+              "title": "Cowes Week 2026: All you need to know about bicentennial regatta",
+              "url": "https://www.bbc.com/news/articles/clyl14d09ypo",
+              "source": "BBC"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "gianni infantino",
+      "type": "noticia",
+      "slugSuggestion": "gianni-infantino",
+      "language": "fr",
+      "geos": [
+        "MA"
+      ],
+      "score": 108,
+      "reason": "Google Trends daily MA con 100 búsquedas · 3 artículos noticiosos referenciando \"gianni infantino\"",
+      "proposedPath": "/noticias/gianni-infantino",
+      "evidence": [
+        {
+          "query": "gianni infantino",
+          "geo": "MA",
+          "language": "fr",
+          "source": "google-trends-daily",
+          "score": 100,
+          "articles": [
+            {
+              "title": "FIFA scraps controversial $20 billion World Cup investment plan",
+              "url": "https://www.cnn.com/2026/07/31/sport/fifa-scraps-controversial-world-cup-investment-plan",
+              "source": "CNN"
+            },
+            {
+              "title": "Why Fifa dropped plans to sell stakes in the World Cup",
+              "url": "https://www.bbc.com/news/videos/cg4dxwyv77po",
+              "source": "BBC"
+            },
+            {
+              "title": "Infantino scraps FIFA World Cup sell-off plan after backlash",
+              "url": "https://www.espn.com/soccer/story/_/id/49500782/fifa-world-cup-investment-private-gianni-infantino",
+              "source": "ESPN"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alreadyCovered": []
+}
