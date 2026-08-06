@@ -1,0 +1,130 @@
+{
+  "generatedAt": "2026-08-06T09:22:00.525Z",
+  "date": "2026-08-06",
+  "geosCovered": [
+    "US",
+    "MX",
+    "CA",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "EC",
+    "UY",
+    "BR",
+    "ES",
+    "GB",
+    "FR",
+    "DE",
+    "IT",
+    "PT",
+    "JP",
+    "KR",
+    "AU",
+    "MA"
+  ],
+  "trendItems": [
+    {
+      "query": "posiciones de inter miami contra atlético san luis",
+      "geo": "PE",
+      "language": "es",
+      "source": "google-trends-daily",
+      "score": 20000,
+      "articles": [
+        {
+          "title": "Dónde ver resumen de Inter Miami vs. Atlético San Luis por fecha 1 de la Leagues Cup 2026",
+          "url": "https://elcomercio.pe/deporte-total/futbol-mundial/en-que-canal-transmiten-inter-miami-vs-atletico-san-luis-en-vivo-gratis-con-lionel-messi-a-que-hora-juegan-y-donde-ver-leagues-cup-online-streaming-noticia/",
+          "source": "El Comercio Perú"
+        },
+        {
+          "title": "Lionel Messi firma un 10 perfecto mientras el Inter Miami supera al Atlético San Luis en la Leagues Cup",
+          "url": "https://www.sofascore.com/es/news/lionel-messi-firma-un-10-perfecto-mientras-el-inter-miami-supera-al-atletico-san-luis-en-la-leagues-cup",
+          "source": "Sofascore"
+        },
+        {
+          "title": "Tras el Mundial 2026: Lionel Messi marcó su primer gol con Inter Miami",
+          "url": "https://depor.com/futbol-internacional/resto-del-mundo/gol-lionel-messi-inter-miami-anotacion-para-empatar-1-1-video-noticia/",
+          "source": "Depor"
+        }
+      ]
+    }
+  ],
+  "topByLanguage": {
+    "es": [
+      {
+        "query": "posiciones de inter miami contra atlético san luis",
+        "score": 18000,
+        "geos": [
+          "PE"
+        ],
+        "samples": [
+          {
+            "query": "posiciones de inter miami contra atlético san luis",
+            "geo": "PE",
+            "language": "es",
+            "source": "google-trends-daily",
+            "score": 20000,
+            "articles": [
+              {
+                "title": "Dónde ver resumen de Inter Miami vs. Atlético San Luis por fecha 1 de la Leagues Cup 2026",
+                "url": "https://elcomercio.pe/deporte-total/futbol-mundial/en-que-canal-transmiten-inter-miami-vs-atletico-san-luis-en-vivo-gratis-con-lionel-messi-a-que-hora-juegan-y-donde-ver-leagues-cup-online-streaming-noticia/",
+                "source": "El Comercio Perú"
+              },
+              {
+                "title": "Lionel Messi firma un 10 perfecto mientras el Inter Miami supera al Atlético San Luis en la Leagues Cup",
+                "url": "https://www.sofascore.com/es/news/lionel-messi-firma-un-10-perfecto-mientras-el-inter-miami-supera-al-atletico-san-luis-en-la-leagues-cup",
+                "source": "Sofascore"
+              },
+              {
+                "title": "Tras el Mundial 2026: Lionel Messi marcó su primer gol con Inter Miami",
+                "url": "https://depor.com/futbol-internacional/resto-del-mundo/gol-lionel-messi-inter-miami-anotacion-para-empatar-1-1-video-noticia/",
+                "source": "Depor"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "topic": "posiciones de inter miami contra atlético san luis",
+      "type": "noticia",
+      "slugSuggestion": "posiciones-de-inter-miami-contra-atletico-san-luis",
+      "language": "es",
+      "geos": [
+        "PE"
+      ],
+      "score": 21600,
+      "reason": "Google Trends daily PE con 20,000 búsquedas · 3 artículos noticiosos referenciando \"posiciones de inter miami contra atlético san luis\"",
+      "proposedPath": "/noticias/posiciones-de-inter-miami-contra-atletico-san-luis",
+      "evidence": [
+        {
+          "query": "posiciones de inter miami contra atlético san luis",
+          "geo": "PE",
+          "language": "es",
+          "source": "google-trends-daily",
+          "score": 20000,
+          "articles": [
+            {
+              "title": "Dónde ver resumen de Inter Miami vs. Atlético San Luis por fecha 1 de la Leagues Cup 2026",
+              "url": "https://elcomercio.pe/deporte-total/futbol-mundial/en-que-canal-transmiten-inter-miami-vs-atletico-san-luis-en-vivo-gratis-con-lionel-messi-a-que-hora-juegan-y-donde-ver-leagues-cup-online-streaming-noticia/",
+              "source": "El Comercio Perú"
+            },
+            {
+              "title": "Lionel Messi firma un 10 perfecto mientras el Inter Miami supera al Atlético San Luis en la Leagues Cup",
+              "url": "https://www.sofascore.com/es/news/lionel-messi-firma-un-10-perfecto-mientras-el-inter-miami-supera-al-atletico-san-luis-en-la-leagues-cup",
+              "source": "Sofascore"
+            },
+            {
+              "title": "Tras el Mundial 2026: Lionel Messi marcó su primer gol con Inter Miami",
+              "url": "https://depor.com/futbol-internacional/resto-del-mundo/gol-lionel-messi-inter-miami-anotacion-para-empatar-1-1-video-noticia/",
+              "source": "Depor"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alreadyCovered": []
+}
