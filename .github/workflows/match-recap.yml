@@ -1,11 +1,13 @@
 name: Crónica post-partido (determinista · ESPN)
 
 on:
-  schedule:
-    # Cada 30 min: en cuanto un partido termina, publica resultado+goles+stats
-    # (antes de que aparezca el AI Overview de Google). El script no hace nada
-    # si no hay partidos recién terminados, así que las pasadas vacías son baratas.
-    - cron: '*/30 * * * *'
+  # Cron desactivado (2026-08-10): el Mundial ya terminó, no hay partidos que
+  # cronicar. Reactivar descomentando cuando arranque la próxima competición.
+  # schedule:
+  #   # Cada 30 min: en cuanto un partido termina, publica resultado+goles+stats
+  #   # (antes de que aparezca el AI Overview de Google). El script no hace nada
+  #   # si no hay partidos recién terminados, así que las pasadas vacías son baratas.
+  #   - cron: '*/30 * * * *'
   workflow_dispatch:
     inputs:
       dry:

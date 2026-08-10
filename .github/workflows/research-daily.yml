@@ -1,9 +1,10 @@
 name: Research diario (Google Trends + YouTube)
 
 on:
-  schedule:
-    # 06:30 UTC todos los días (≈ 07:30 ES en invierno, 08:30 ES en verano)
-    - cron: '30 6 * * *'
+  # Cron desactivado (2026-08-10): research diario parado.
+  # schedule:
+  #   # 06:30 UTC todos los días (≈ 07:30 ES en invierno, 08:30 ES en verano)
+  #   - cron: '30 6 * * *'
   workflow_dispatch: {}
 
 permissions:

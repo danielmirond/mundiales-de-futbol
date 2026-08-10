@@ -1,9 +1,10 @@
 name: Pieza diaria de partidos (determinista)
 
 on:
-  schedule:
-    # 05:10 UTC todos los días (07:10 ES). Antes del research/news-bot.
-    - cron: '10 5 * * *'
+  # Cron desactivado (2026-08-10): sin partidos que avanzar tras el Mundial.
+  # schedule:
+  #   # 05:10 UTC todos los días (07:10 ES). Antes del research/news-bot.
+  #   - cron: '10 5 * * *'
   workflow_dispatch:
     inputs:
       dry:

@@ -1,9 +1,10 @@
 name: News bot diario (RSS → noticias)
 
 on:
-  schedule:
-    # 07:00 UTC todos los días (08:00 / 09:00 ES). Una hora después del research.
-    - cron: '0 7 * * *'
+  # Cron desactivado (2026-08-10): generación automática de noticias parada.
+  # schedule:
+  #   # 07:00 UTC todos los días (08:00 / 09:00 ES). Una hora después del research.
+  #   - cron: '0 7 * * *'
   workflow_dispatch:
     inputs:
       limit:
