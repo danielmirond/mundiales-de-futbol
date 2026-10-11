@@ -27,9 +27,13 @@ export function SiteNav() {
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
 
-  // 2026 primero: el Mundial en curso lidera la navegación.
-  const calendarLink = { href: '/2026/calendario', label: t('calendar') };
+  // Portal multi-competición: deportes primero; el Mundial vive en /2026.
+  const sportLinks = [
+    { href: '/futbol', label: t('football') },
+    { href: '/baloncesto', label: t('basketball') },
+  ];
   const links = [
+    { href: '/2026', label: t('worldCup') },
     { href: '/noticias', label: t('news') },
     { href: '/selecciones', label: t('selections') },
     { href: '/jugadores', label: t('players') },
@@ -39,7 +43,7 @@ export function SiteNav() {
     { href: '/galeria', label: t('gallery') },
   ];
   // Desktop muestra un subconjunto para no desbordar; el resto vive en el drawer móvil y el footer.
-  const desktopLinks = [calendarLink, ...links.slice(0, 5)];
+  const desktopLinks = [...sportLinks, ...links.slice(0, 3)];
 
   return (
     <header
@@ -81,14 +85,14 @@ export function SiteNav() {
             {t('whereToWatch')}
           </Link>
           <Link
-            href={withLocale(locale, '/2026/partidos-hoy')}
+            href={withLocale(locale, '/partidos-hoy')}
             className="ms-1 inline-flex items-center gap-2 rounded-full border border-[var(--color-pitch)]/30 bg-[var(--color-pitch)]/10 px-4 py-2 text-sm font-semibold text-[var(--color-pitch)] transition-colors hover:bg-[var(--color-pitch)]/20"
           >
             <span className="relative flex h-2 w-2">
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[var(--color-pitch)] opacity-75" />
               <span className="relative inline-flex h-2 w-2 rounded-full bg-[var(--color-pitch)]" />
             </span>
-            {t('live2026')}
+            {t('today')}
           </Link>
         </nav>
 
@@ -123,10 +127,10 @@ export function SiteNav() {
         </div>
         <nav className="flex flex-col gap-1 px-6 pb-10 pt-8 md:px-10">
           {[
-            calendarLink,
+            { href: '/partidos-hoy', label: t('today') },
+            ...sportLinks,
             ...links,
             { href: '/2026/donde-ver', label: t('whereToWatch') },
-            { href: '/2026/partidos-hoy', label: t('live2026') },
           ].map((l) => (
             <Link
               key={l.href}

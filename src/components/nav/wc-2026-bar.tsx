@@ -79,28 +79,28 @@ export function Wc2026Bar() {
   const quickNav = (
     <nav className="flex flex-wrap items-center justify-center gap-x-3 gap-y-1 font-mono uppercase tracking-[0.18em] text-[var(--color-fg-muted)]">
       <Link
-        href={withLocale(locale, '/2026/partidos-hoy')}
+        href={withLocale(locale, '/partidos-hoy')}
         className="font-semibold text-[var(--color-pitch)] transition-opacity hover:opacity-80"
       >
         {t('today')}
       </Link>
       <Link
-        href={withLocale(locale, '/noticias/rtve-la1-partidos-mundial-2026-abierto-donde-ver-resto-dazn')}
+        href={withLocale(locale, '/futbol')}
         className="transition-colors hover:text-[var(--color-pitch)]"
       >
-        {t('rtve')}
+        {t('football')}
       </Link>
       <Link
-        href={withLocale(locale, '/2026/calendario')}
+        href={withLocale(locale, '/baloncesto')}
         className="transition-colors hover:text-[var(--color-pitch)]"
       >
-        {t('calendar')}
+        {t('basketball')}
       </Link>
       <Link
-        href={withLocale(locale, '/2026/grupos')}
+        href={withLocale(locale, '/2026/cuadro')}
         className="transition-colors hover:text-[var(--color-pitch)]"
       >
-        {t('groups')}
+        {t('bracket')}
       </Link>
     </nav>
   );

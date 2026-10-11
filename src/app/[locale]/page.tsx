@@ -1,56 +1,43 @@
 import { setRequestLocale } from 'next-intl/server';
-import { Hero } from '@/components/home/hero';
-import { HomeSchedule } from '@/components/home/home-schedule';
-import { HomeGroups } from '@/components/home/home-groups';
+import { PortalHero } from '@/components/portal/portal-hero';
+import { TodayBoard } from '@/components/portal/today-board';
+import { CompetitionsGrid } from '@/components/portal/competitions-grid';
+import { WorldCup2026Closed } from '@/components/portal/wc2026-closed';
+import { liveCompetitions } from '@/lib/competitions';
 import { MovistarHero } from '@/components/affiliate/movistar-banner';
 import { DailyNews } from '@/components/home/daily-news';
-import { SquadAnnouncements } from '@/components/home/squad-announcements';
-import { FeaturedVideoStrip } from '@/components/home/featured-video-strip';
 import { StatsBand } from '@/components/home/stats-band';
 import { EditionsGrid } from '@/components/home/editions-grid';
 import { Pillars } from '@/components/home/pillars';
 import type { Locale } from '@/i18n/routing';
 import { pageMetadata } from '@/lib/seo';
 
-// SSR: la home incluye noticias con publicación programada y el video
-// de convocatoria — necesita evaluarse en runtime, no en build time.
+// SSR: la portada es un portal multi-competición con marcadores en directo
+// (ESPN) y noticias con publicación programada — runtime, no build time.
 export const dynamic = 'force-dynamic';
 export const revalidate = 0;
 
-// Metadata por idioma. Child components ya usan useTranslations('home').
 const META: Record<string, { title: string; description: string; keywords: string[] }> = {
   es: {
-    title: 'Copa Mundial de la FIFA 2026 en vivo | Calendario, partidos, clasificación, grupos y última hora',
+    title: 'Resultados, calendario y clasificaciones en directo | Fútbol, baloncesto y mundiales',
     description:
-      'Sigue el Mundial 2026 en directo: calendario completo, partidos del día, resultados, los 12 grupos, dónde ver en TV y todas las noticias. Toda la actualidad del Mundial de México, EE. UU. y Canadá.',
+      'Partidos de hoy y marcadores en directo de LaLiga, Champions, Premier, NBA, Euroliga y más. Calendario, clasificaciones, noticias y la historia de los Mundiales de fútbol.',
     keywords: [
-      'Mundial 2026 en vivo',
+      'resultados en directo',
+      'partidos de hoy',
+      'clasificación laliga',
+      'resultados champions',
+      'partidos nba hoy',
+      'calendario fútbol',
+      'mundiales de fútbol',
       'Mundial 2026',
-      'calendario Mundial 2026',
-      'partidos Mundial 2026',
-      'resultados Mundial 2026',
-      'grupos Mundial 2026',
-      'clasificación Mundial 2026',
-      'Copa Mundial de la FIFA 2026',
-      'dónde ver Mundial 2026',
-      'noticias Mundial 2026',
-      'Copa del Mundo 2026',
     ],
   },
   en: {
-    title: 'FIFA World Cup 2026 live | Schedule, matches, results and news',
+    title: 'Live scores, fixtures and standings | Football, basketball and World Cups',
     description:
-      'Follow the 2026 World Cup live: full schedule, today’s matches, results, the 12 groups, where to watch on TV and all the news. Everything on the Mexico, USA and Canada World Cup.',
-    keywords: [
-      'World Cup 2026 live',
-      'World Cup 2026',
-      '2026 World Cup schedule',
-      'World Cup 2026 matches',
-      'World Cup 2026 results',
-      'World Cup 2026 groups',
-      'where to watch World Cup 2026',
-      'World Cup 2026 news',
-    ],
+      'Today’s matches and live scores from LaLiga, Champions League, Premier League, NBA, EuroLeague and more. Fixtures, standings, news and the history of the World Cup.',
+    keywords: ['live scores', 'today’s matches', 'laliga standings', 'champions league results', 'nba games today', 'world cup history'],
   },
 };
 
@@ -77,21 +64,21 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
   const { locale } = await params;
   setRequestLocale(locale);
 
+  const L = locale as Locale;
   return (
     <>
-      <Hero />
-      <HomeSchedule locale={locale as Locale} />
-      <HomeGroups locale={locale as Locale} />
+      <PortalHero locale={L} />
+      <TodayBoard locale={L} competitions={liveCompetitions()} range="today" kicker="Partidos de hoy" title="Todo lo que se juega hoy" limitPerGroup={5} emptyText="Hoy no hay partidos en las competiciones que seguimos. Consulta el calendario de cada competición." />
+      <CompetitionsGrid locale={L} />
       <section className="relative overflow-hidden">
         <div className="mx-auto w-full max-w-[1400px] px-4 py-8 md:px-8 md:py-12">
           <MovistarHero />
         </div>
       </section>
-      <FeaturedVideoStrip />
-      <DailyNews locale={locale as Locale} />
-      <SquadAnnouncements locale={locale as Locale} />
+      <WorldCup2026Closed locale={L} />
+      <DailyNews locale={L} />
       <StatsBand />
-      <EditionsGrid locale={locale as Locale} />
+      <EditionsGrid locale={L} />
       <Pillars />
     </>
   );

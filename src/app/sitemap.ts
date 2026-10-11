@@ -10,6 +10,7 @@ import { SQUADS_2026 } from '@/lib/wc-2026-squads';
 import { JERSEY_HISTORIES } from '@/lib/wc-jerseys';
 import { HOSPITALITY_CITIES, FMT_TEAM_PARAMS } from '@/lib/wc-2026-hospitality';
 import { routing } from '@/i18n/routing';
+import { SPORTS, COMPETITIONS } from '@/lib/competitions';
 
 /**
  * Páginas de récords disponibles en /records/[slug]. Lista cerrada
@@ -107,6 +108,14 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   // Static routes
   out.push(entry('/', now, 'daily', 1.0));
+  // Portal multi-competición: deportes y competiciones con datos en vivo
+  // (las "próximamente" van noindex y no se listan).
+  out.push(entry('/partidos-hoy', now, 'daily', 0.9));
+  for (const s of SPORTS) out.push(entry(`/${s.slug}`, now, 'daily', 0.8));
+  for (const c of COMPETITIONS) {
+    if (c.href || !c.espn) continue;
+    out.push(entry(`/${c.sport}/${c.slug}`, now, 'daily', 0.8));
+  }
   out.push(entry('/ediciones', now, 'weekly', 0.9));
   out.push(entry('/jugadores', now, 'weekly', 0.9));
   out.push(entry('/selecciones', now, 'weekly', 0.9));

@@ -122,6 +122,18 @@ export async function SiteFooter() {
                 </Link>
               </li>
             </ul>
+            <nav className="mt-6" aria-label={t('sports.heading')}>
+              <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-pitch)]">
+                {t('sports.heading')}
+              </div>
+              <ul className="mt-3 space-y-2 text-sm">
+                <li>
+                  <a href="https://pista-central.com/" className="text-[var(--color-fg-muted)] transition-colors hover:text-[var(--color-fg)]">
+                    {t('sports.tennis')}
+                  </a>
+                </li>
+              </ul>
+            </nav>
           </div>
           <div>
             <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-pitch)]">

@@ -19,7 +19,11 @@
     "stories": "Historias",
     "gallery": "Galería",
     "calendar": "Calendario",
-    "news": "Noticias"
+    "news": "Noticias",
+    "football": "Fútbol",
+    "basketball": "Baloncesto",
+    "worldCup": "Mundial 2026",
+    "today": "Partidos hoy"
   },
   "home": {
     "hero": {
@@ -98,6 +102,10 @@
       "news": "Noticias",
       "gallery": "Galería"
     },
+    "sports": {
+      "heading": "Más deporte",
+      "tennis": "Pista Central · Tenis"
+    },
     "shop": {
       "heading": "Coleccionismo",
       "jerseys": "Camisetas Mundial 2026",
@@ -141,7 +149,10 @@
     "rtve": "Partidos La 1",
     "dayShort": "d",
     "hourShort": "h",
-    "minuteShort": "m"
+    "minuteShort": "m",
+    "football": "Fútbol",
+    "basketball": "Baloncesto",
+    "bracket": "Cuadro 2026"
   },
   "cookies": {
     "title": "Esta web usa cookies",

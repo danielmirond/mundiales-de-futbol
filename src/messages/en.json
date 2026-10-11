@@ -19,7 +19,11 @@
     "stories": "Stories",
     "gallery": "Gallery",
     "calendar": "Schedule",
-    "news": "News"
+    "news": "News",
+    "football": "Football",
+    "basketball": "Basketball",
+    "worldCup": "World Cup 2026",
+    "today": "Today"
   },
   "home": {
     "hero": {
@@ -98,6 +102,10 @@
       "news": "News",
       "gallery": "Gallery"
     },
+    "sports": {
+      "heading": "More sports",
+      "tennis": "Pista Central · Tennis"
+    },
     "shop": {
       "heading": "Collectibles",
       "jerseys": "World Cup 2026 jerseys",
@@ -141,7 +149,10 @@
     "rtve": "Free on RTVE",
     "dayShort": "d",
     "hourShort": "h",
-    "minuteShort": "m"
+    "minuteShort": "m",
+    "football": "Football",
+    "basketball": "Basketball",
+    "bracket": "2026 bracket"
   },
   "cookies": {
     "title": "This site uses cookies",

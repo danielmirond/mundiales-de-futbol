@@ -19,7 +19,11 @@
     "stories": "حكايات",
     "gallery": "معرض الصور",
     "calendar": "الجدول",
-    "news": "أخبار"
+    "news": "أخبار",
+    "football": "كرة القدم",
+    "basketball": "كرة السلة",
+    "worldCup": "مونديال 2026",
+    "today": "مباريات اليوم"
   },
   "home": {
     "hero": {
@@ -98,6 +102,10 @@
       "news": "أخبار",
       "gallery": "معرض الصور"
     },
+    "sports": {
+      "heading": "رياضات أخرى",
+      "tennis": "Pista Central · التنس"
+    },
     "shop": {
       "heading": "المقتنيات",
       "jerseys": "قمصان مونديال 2026",
@@ -141,7 +149,10 @@
     "rtve": "مباريات RTVE",
     "dayShort": "ي",
     "hourShort": "س",
-    "minuteShort": "د"
+    "minuteShort": "د",
+    "football": "كرة القدم",
+    "basketball": "كرة السلة",
+    "bracket": "جدول 2026"
   },
   "cookies": {
     "title": "يستخدم هذا الموقع ملفات تعريف الارتباط",

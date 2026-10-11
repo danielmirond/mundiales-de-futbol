@@ -7,10 +7,14 @@ import { NextResponse, type NextRequest } from 'next/server';
  * so cookies set here propagate to the final response.
  */
 export async function updateSession(request: NextRequest, response: NextResponse) {
-  const supabase = createServerClient(
-    process.env.NEXT_PUBLIC_SUPABASE_URL!,
-    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
-    {
+  const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
+  const key = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+  // Sin Supabase configurado (p. ej. previews de Vercel o local sin .env) el
+  // sitio público debe funcionar igual: no hay sesión que refrescar.
+  if (!url || !key) return response;
+
+  try {
+    const supabase = createServerClient(url, key, {
       cookies: {
         getAll() {
           return request.cookies.getAll();
@@ -21,10 +25,12 @@ export async function updateSession(request: NextRequest, response: NextResponse
           });
         },
       },
-    },
-  );
+    });
 
-  // Triggers token refresh if expired.
-  await supabase.auth.getUser();
+    // Triggers token refresh if expired.
+    await supabase.auth.getUser();
+  } catch {
+    // Un fallo al refrescar la sesión nunca debe convertir la petición en un 500.
+  }
   return response;
 }

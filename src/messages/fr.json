@@ -19,7 +19,11 @@
     "stories": "Histoires",
     "gallery": "Galerie",
     "calendar": "Calendrier",
-    "news": "Actualités"
+    "news": "Actualités",
+    "football": "Football",
+    "basketball": "Basket",
+    "worldCup": "Mondial 2026",
+    "today": "Matchs du jour"
   },
   "home": {
     "hero": {
@@ -98,6 +102,10 @@
       "news": "Actualités",
       "gallery": "Galerie"
     },
+    "sports": {
+      "heading": "Autres sports",
+      "tennis": "Pista Central · Tennis"
+    },
     "shop": {
       "heading": "Collection",
       "jerseys": "Maillots Coupe du Monde 2026",
@@ -141,7 +149,10 @@
     "rtve": "Matchs RTVE",
     "dayShort": "j",
     "hourShort": "h",
-    "minuteShort": "m"
+    "minuteShort": "m",
+    "football": "Football",
+    "basketball": "Basket",
+    "bracket": "Tableau 2026"
   },
   "cookies": {
     "title": "Ce site utilise des cookies",

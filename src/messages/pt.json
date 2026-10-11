@@ -19,7 +19,11 @@
     "stories": "Histórias",
     "gallery": "Galeria",
     "calendar": "Calendário",
-    "news": "Notícias"
+    "news": "Notícias",
+    "football": "Futebol",
+    "basketball": "Basquete",
+    "worldCup": "Copa 2026",
+    "today": "Jogos de hoje"
   },
   "home": {
     "hero": {
@@ -98,6 +102,10 @@
       "news": "Notícias",
       "gallery": "Galeria"
     },
+    "sports": {
+      "heading": "Mais esporte",
+      "tennis": "Pista Central · Tênis"
+    },
     "shop": {
       "heading": "Colecionismo",
       "jerseys": "Camisas Copa 2026",
@@ -141,7 +149,10 @@
     "rtve": "Jogos na RTVE",
     "dayShort": "d",
     "hourShort": "h",
-    "minuteShort": "m"
+    "minuteShort": "m",
+    "football": "Futebol",
+    "basketball": "Basquete",
+    "bracket": "Chave 2026"
   },
   "cookies": {
     "title": "Este site usa cookies",
