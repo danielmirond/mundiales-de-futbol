@@ -255,12 +255,17 @@ export async function fetchEventSummary(
   }
   const stats: TeamStat[] = (basketball ? STAT_LABELS_BASKETBALL : STAT_LABELS).filter(
     (s) => byCode.home[s.key] != null || byCode.away[s.key] != null,
-  ).map((s) => ({
-    key: s.key,
-    label: s.label,
-    home: byCode.home[s.key] ?? '—',
-    away: byCode.away[s.key] ?? '—',
-  }));
+  ).map((s) => {
+    // ESPN da la precisión de pase como fracción (0.9) en ligas de clubes.
+    const pct = (v: string | undefined) =>
+      v != null && s.key === 'passPct' && Number(v) <= 1 ? String(Math.round(Number(v) * 100)) : v;
+    return {
+      key: s.key,
+      label: s.label,
+      home: pct(byCode.home[s.key]) ?? '—',
+      away: pct(byCode.away[s.key]) ?? '—',
+    };
+  });
 
   // ── Narración ──
   // Fútbol: `commentary` minuto a minuto. Baloncesto: `plays` (jugada a jugada,

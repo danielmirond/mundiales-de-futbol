@@ -142,7 +142,7 @@ export default async function PartidoPortalPage({ params }: { params: Params }) 
               <div className="font-mono text-[9px] uppercase tracking-[0.3em] text-[var(--color-fg-subtle)]">Dónde ver</div>
               <div className="mt-1 flex items-center justify-center gap-1.5 text-sm font-medium text-[var(--color-fg)]">
                 <Tv className="h-3.5 w-3.5 text-[var(--color-pitch)]" />
-                {channels.length > 0 ? channels.slice(0, 3).join(' · ') : 'Por confirmar'}
+                {channels.length > 0 ? channels.slice(0, 3).join(' · ') : s.slug === 'futbol' ? 'Por confirmar' : '—'}
               </div>
             </div>
           </div>
