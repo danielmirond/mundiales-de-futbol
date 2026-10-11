@@ -1,66 +1,56 @@
 'use client';
 
 /**
- * MovistarBanner — La Copa Mundial FIFA 2026™ en Movistar Plus+
+ * MovistarBanner — Fútbol y baloncesto en directo en Movistar Plus+ (vía DAZN)
  *
- * Assets y copy extraídos del HTML oficial de movistarplus.es (jun 2026).
- * Todos los enlaces pasados por AWIN (afiliado 2898755 / anunciante 114230).
+ * Copy genérico de temporada de clubes: NO enumera competiciones ni diales
+ * concretos (los derechos cambian por temporada y un cintillo afiliado no
+ * puede prometer lo que no está verificado). Todos los enlaces pasan por AWIN
+ * (afiliado 2898755 / anunciante 114230) con deep link a la sección de
+ * deportes de movistarplus.es.
  *
  * Variantes:
- *  · cintillo  → creative oficial con thumbnail del partido (recomendado)
+ *  · cintillo  → creative con thumbnail del partido (si hay matchId)
  *  · card      → tarjeta compacta para sidebars
- *  · sticky    → barra inferior fija (layout global), descartable
  *  · strip     → franja entre secciones
+ *  · sticky    → barra superior fija (layout global), descartable
  *
  * Compliance: rel="sponsored nofollow noopener noreferrer" en todos los links.
- * Tono M+: cercano, tuteo, RRSS, sencillo, sin gritar.
+ * Tono M+: cercano, tuteo, sencillo, sin gritar.
  */
 
 import { useEffect, useState } from 'react';
 import { X } from 'lucide-react';
 import { getMatchThumbnail } from '@/lib/movistar-match-links';
 
-// ── Assets oficiales CDN movistarplus.es ──────────────────────────────────────
+// ── Logos de canal (CDN movistarplus.es) ──────────────────────────────────────
 
-/** Imágenes cabecera (WebP, mejor calidad que los recortes anteriores) */
-const HERO = {
-  desktop: 'https://www.movistarplus.es/recorte/e/cabecera/0513c9416ba33ffc9c730e187a070aa9.webp',
-  mobile:  'https://www.movistarplus.es/recorte/e/cabeceraMobile/739220290a8d376bde1d4ce697617dc4.webp',
-  og:      'https://www.movistarplus.es/recorte/e/ogimage/0513c9416ba33ffc9c730e187a070aa9',
-};
-
-/** Logos de canal oficial */
 const LOGOS = {
-  daznMundial: 'https://www.movistarplus.es/recorte/m-NEONEGR/ficha_m/DAZNLI.png',
-  fanzone:     'https://www.movistarplus.es/recorte/m-NEONEGR/ficha_m/MLIG1.png',
-  champions:   'https://www.movistarplus.es/recorte/m-NEONEGR/ficha_m/CHAPIO.png',
+  dazn: 'https://www.movistarplus.es/recorte/m-NEONEGR/ficha_m/DAZNLI.png',
+  mplus: 'https://www.movistarplus.es/recorte/m-NEONEGR/ficha_m/MLIG1.png',
 };
 
-// ── Copy oficial (extraído del HTML de M+) ────────────────────────────────────
+// ── Copy ──────────────────────────────────────────────────────────────────────
 
 const COPY = {
-  title:    'La Copa Mundial de la FIFA 2026™ al completo en Movistar Plus a través de DAZN',
-  subtitle: 'Disfruta al completo el campeonato del mundo que se celebrará en EEUU, México y Canadá del 11 de junio al 19 de julio.',
-  tagline:  'La Casa del Fútbol',
-  dial:     'DAZN Mundial · dial 55',
-  fanzone:  'M+ Fanzone · dial 57',
-  /** 9,99€/mes = OTT sin fibra | 50€/mes = Fútbol Total con fibra+móvil */
-  priceOtt:   '9,99 €/mes',
-  pricePack:  '50 €/mes',
-  matches:  '104 partidos · 48 selecciones',
+  title: 'El mejor fútbol y baloncesto en directo en Movistar Plus+ y DAZN',
+  subtitle: 'Ligas, copas europeas y NBA, cada semana, en una sola suscripción.',
+  tagline: 'La Casa del Fútbol',
+  via: 'Movistar Plus+ vía DAZN',
+  matches: 'Fútbol y baloncesto · cada semana',
 };
 
 // ── AWIN URL genérica ─────────────────────────────────────────────────────────
 
 const DEFAULT_HREF =
   'https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=' +
-  encodeURIComponent('https://www.movistarplus.es/deportes/futbol/mundial');
+  encodeURIComponent('https://www.movistarplus.es/deportes');
 
 // ── localStorage dismiss ──────────────────────────────────────────────────────
 
-// v2: la barra se reubicó al top (bajo el nav). Subimos la versión de la key
-// para que quien ya la había cerrado abajo vuelva a verla en su nueva posición.
-const DISMISS_KEY  = 'mdf_movistar_dismissed_v2';
+// v3: nuevo mensaje de temporada de clubes; quien cerró la barra del Mundial
+// vuelve a verla una vez con el copy nuevo.
+const DISMISS_KEY = 'mdf_movistar_dismissed_v3';
 const DISMISS_DAYS = 3;
 
 function isDismissed() {
@@ -90,29 +80,18 @@ function ChannelBadges({ small = false }: { small?: boolean }) {
   const size = small ? 'h-6' : 'h-8';
   return (
     <div className="flex items-center gap-2">
-      <img src={LOGOS.daznMundial} alt="DAZN Mundial" title="DAZN Mundial · dial 55"
-        className={`${size} w-auto object-contain`} loading="lazy" />
-      <img src={LOGOS.fanzone} alt="M+ Fanzone" title="M+ Fanzone · dial 57"
-        className={`${size} w-auto object-contain`} loading="lazy" />
+      <img src={LOGOS.dazn} alt="DAZN" className={`${size} w-auto object-contain`} loading="lazy" />
+      <img src={LOGOS.mplus} alt="Movistar Plus+" className={`${size} w-auto object-contain`} loading="lazy" />
     </div>
   );
 }
 
-// ── Variant: CINTILLO OFICIAL ─────────────────────────────────────────────────
-/**
- * Creative oficial de Movistar Plus+.
- * Si hay matchId → muestra el thumbnail específico del partido.
- * Si no → muestra la imagen cabecera del Mundial.
- */
-function CintilloBanner({
-  href,
-  context,
-  matchId,
-}: {
-  href: string;
-  context?: string;
-  matchId?: string;
-}) {
+/** Fondo neutro (sustituye a la cabecera del Mundial, ya caducada). */
+const ART_BG = 'bg-[radial-gradient(ellipse_at_top_left,_rgba(0,255,133,0.25),_transparent_55%),linear-gradient(135deg,#0b1220_0%,#05070c_60%,#000_100%)]';
+
+// ── Variant: CINTILLO ─────────────────────────────────────────────────────────
+
+function CintilloBanner({ href, context, matchId }: { href: string; context?: string; matchId?: string }) {
   const thumbSrc = matchId ? getMatchThumbnail(matchId) : null;
 
   return (
@@ -122,129 +101,65 @@ function CintilloBanner({
       rel="sponsored nofollow noopener noreferrer"
       className="group relative flex overflow-hidden rounded-2xl border border-white/10
                  bg-black transition-all hover:border-white/25 hover:shadow-2xl"
-      aria-label={context
-        ? `Ver ${context} en Movistar Plus+`
-        : 'La Copa Mundial FIFA 2026™ en Movistar Plus+'
-      }
+      aria-label={context ? `Ver ${context} en Movistar Plus+` : COPY.title}
     >
-      {/* Imagen: thumbnail del partido o cabecera del Mundial */}
       <div className="relative shrink-0 overflow-hidden">
         {thumbSrc ? (
-          /* Thumbnail del partido (ratio cuadrado oficial) */
-          <img
-            loading="lazy"
-            src={thumbSrc}
-            alt={context ?? 'Partido Mundial 2026'}
-            width={160}
-            height={136}
-            className="h-full w-[120px] object-cover transition-transform duration-500
-                       group-hover:scale-105 md:w-[160px]"
-          />
+          <img loading="lazy" src={thumbSrc} alt={context ?? 'Partido en Movistar Plus+'} width={160} height={136}
+            className="h-full w-[120px] object-cover transition-transform duration-500 group-hover:scale-105 md:w-[160px]" />
         ) : (
-          /* Cabecera general del Mundial (WebP, mejor calidad) */
-          <picture>
-            <source srcSet={HERO.mobile} media="(max-width: 768px)" />
-            <img
-              loading="lazy"
-              src={HERO.desktop}
-              alt={COPY.title}
-              width={160}
-              height={90}
-              className="h-full w-[120px] object-cover transition-transform duration-500
-                         group-hover:scale-105 md:w-[160px]"
-            />
-          </picture>
+          <div aria-hidden className={`h-full w-[120px] md:w-[160px] ${ART_BG}`} />
         )}
-        {/* Gradiente lateral */}
         <div className="absolute inset-0 bg-gradient-to-r from-transparent to-black/80" />
       </div>
 
-      {/* Contenido */}
       <div className="flex flex-1 flex-col justify-between gap-2 px-4 py-4 md:px-5">
-        {/* Eyebrow */}
         <div className="font-mono text-[9px] uppercase tracking-[0.3em] text-white/40">
           {context ? `${context} ·` : ''} Movistar Plus+
         </div>
-
-        {/* Título */}
         <p className="text-sm font-black uppercase leading-tight text-white md:text-base">
           {context ? (
             <>Sigue {context}<br />
-              <span className="text-xs font-bold normal-case text-white/75">
-                en directo — {COPY.dial}
-              </span>
+              <span className="text-xs font-bold normal-case text-white/75">en directo — {COPY.via}</span>
             </>
           ) : (
-            <>Vive al completo<br />
-              <span className="text-white/90">la Copa Mundial FIFA 2026™</span>
+            <>El mejor fútbol y baloncesto<br />
+              <span className="text-white/90">en directo, cada semana</span>
             </>
           )}
         </p>
-
-        {/* Canales + CTA */}
         <div className="flex flex-wrap items-center justify-between gap-2">
           <ChannelBadges small />
-          <span className="shrink-0 rounded-full bg-white px-3 py-1 text-[11px] font-bold
-                           text-black transition-all group-hover:bg-white/90">
+          <span className="shrink-0 rounded-full bg-white px-3 py-1 text-[11px] font-bold text-black transition-all group-hover:bg-white/90">
             Ver en M+
           </span>
         </div>
-
         <TAndC className="text-white/20" />
       </div>
     </a>
   );
 }
 
-// ── Variant: HERO (landing / grupos, ancho completo) ─────────────────────────
+// ── Variant: HERO (ancho completo) ────────────────────────────────────────────
 
 function HeroBanner({ href, context }: { href: string; context?: string }) {
   return (
-    <div className="relative overflow-hidden rounded-2xl border border-white/10">
-      {/* Fondo WebP oficial */}
-      <picture>
-        <source srcSet={HERO.mobile} media="(max-width: 768px)" />
-        <img
-          loading="lazy"
-          src={HERO.desktop}
-          alt={COPY.title}
-          width={1280}
-          height={720}
-          className="h-48 w-full object-cover object-top md:h-72"
-        />
-      </picture>
-
-      {/* Overlay + contenido */}
-      <div className="absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-black via-black/70 to-transparent p-6 md:p-8">
-        <div className="font-mono text-[9px] uppercase tracking-[0.35em] text-white/50 mb-2">
-          {COPY.tagline} · Movistar Plus+ vía DAZN
+    <div className={`relative overflow-hidden rounded-2xl border border-white/10 ${ART_BG}`}>
+      <div className="flex min-h-48 flex-col justify-end p-6 md:min-h-64 md:p-8">
+        <div className="mb-2 font-mono text-[9px] uppercase tracking-[0.35em] text-white/50">
+          {COPY.tagline} · {COPY.via}
         </div>
-
         <h3 className="text-xl font-black uppercase leading-tight text-white md:text-2xl">
-          {context
-            ? `${context} en directo`
-            : 'La Copa Mundial FIFA 2026™ al completo'}
+          {context ? `${context} en directo` : COPY.title}
         </h3>
-        <p className="mt-1 text-sm text-white/70">
-          {COPY.matches} · {COPY.dial} · {COPY.fanzone}
-        </p>
-
+        <p className="mt-1 text-sm text-white/70">{COPY.subtitle}</p>
         <div className="mt-4 flex flex-wrap items-center gap-4">
-          {/* Canal logos */}
           <ChannelBadges />
-
-          {/* CTA */}
-          <a
-            href={href}
-            target="_blank"
-            rel="sponsored nofollow noopener noreferrer"
-            className="inline-flex items-center gap-2 rounded-full bg-white px-5 py-2 text-sm
-                       font-bold text-black transition-all hover:bg-white/90 active:scale-95"
-          >
+          <a href={href} target="_blank" rel="sponsored nofollow noopener noreferrer"
+            className="inline-flex items-center gap-2 rounded-full bg-white px-5 py-2 text-sm font-bold text-black transition-all hover:bg-white/90 active:scale-95">
             Suscribirse a Movistar Plus+
           </a>
         </div>
-
         <TAndC className="mt-3 text-white/25" />
       </div>
     </div>
@@ -257,20 +172,10 @@ function CardBanner({ href, context, matchId }: { href: string; context?: string
   const thumbSrc = matchId ? getMatchThumbnail(matchId) : null;
 
   return (
-    <aside className="overflow-hidden rounded-2xl border border-white/10 bg-black"
-      aria-label="Movistar Plus+ — ver el partido">
-
-      {/* Hero */}
-      <div className="relative h-28 overflow-hidden">
-        {thumbSrc ? (
-          <img loading="lazy" src={thumbSrc} alt={context ?? ''} width={400} height={228}
-            className="h-full w-full object-cover" />
-        ) : (
-          <picture>
-            <source srcSet={HERO.mobile} media="(max-width: 768px)" />
-            <img loading="lazy" src={HERO.desktop} alt={COPY.title} width={400} height={225}
-              className="h-full w-full object-cover object-top" />
-          </picture>
+    <aside className="overflow-hidden rounded-2xl border border-white/10 bg-black" aria-label="Movistar Plus+ — ver en directo">
+      <div className={`relative h-28 overflow-hidden ${thumbSrc ? '' : ART_BG}`}>
+        {thumbSrc && (
+          <img loading="lazy" src={thumbSrc} alt={context ?? ''} width={400} height={228} className="h-full w-full object-cover" />
         )}
         <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent" />
         <div className="absolute bottom-3 left-4 right-4 flex items-end justify-between gap-2">
@@ -279,27 +184,22 @@ function CardBanner({ href, context, matchId }: { href: string; context?: string
               {context ? `${context} ·` : ''} M+
             </div>
             <p className="text-sm font-bold uppercase leading-tight text-white">
-              {context ? 'Ver en directo' : 'Copa Mundial FIFA 2026™'}
+              {context ? 'Ver en directo' : 'Fútbol y baloncesto en directo'}
             </p>
           </div>
           <ChannelBadges small />
         </div>
       </div>
-
-      {/* Body */}
       <div className="px-4 pb-4 pt-3">
         <p className="text-xs leading-relaxed text-white/65">
           {context
-            ? `¿Quieres ver ${context}? En Movistar Plus+ vía DAZN. Canal 55, disponible con el paquete de Fútbol.`
-            : `Los ${COPY.matches} del Mundial 2026 en Movistar Plus+ vía DAZN.`}
+            ? `¿Quieres ver ${context}? En ${COPY.via}.`
+            : `${COPY.subtitle}`}
         </p>
-
         <a href={href} target="_blank" rel="sponsored nofollow noopener noreferrer"
-          className="mt-3 flex w-full items-center justify-center rounded-xl bg-white py-2.5
-                     text-sm font-bold text-black transition-all hover:bg-white/90 active:scale-[.98]">
+          className="mt-3 flex w-full items-center justify-center rounded-xl bg-white py-2.5 text-sm font-bold text-black transition-all hover:bg-white/90 active:scale-[.98]">
           {context ? `Ver ${context} en M+` : 'Suscribirse a Movistar Plus+'}
         </a>
-
         <TAndC className="mt-2 text-white/25" />
       </div>
     </aside>
@@ -310,16 +210,8 @@ function CardBanner({ href, context, matchId }: { href: string; context?: string
 
 function StripBanner({ href, context }: { href: string; context?: string }) {
   return (
-    <div className="relative overflow-hidden border-y border-white/10 bg-black">
-      {/* Fondo muy tenue */}
-      <picture>
-        <source srcSet={HERO.mobile} media="(max-width: 768px)" />
-        <img src={HERO.desktop} alt="" aria-hidden
-          className="pointer-events-none absolute inset-0 h-full w-full object-cover opacity-15" />
-      </picture>
-
-      <div className="relative mx-auto flex w-full max-w-[1400px] flex-col gap-5 px-6 py-5
-                      md:flex-row md:items-center md:justify-between md:px-10">
+    <div className={`relative overflow-hidden border-y border-white/10 ${ART_BG}`}>
+      <div className="relative mx-auto flex w-full max-w-[1400px] flex-col gap-5 px-6 py-5 md:flex-row md:items-center md:justify-between md:px-10">
         <div className="flex items-center gap-4">
           <ChannelBadges />
           <div>
@@ -327,20 +219,14 @@ function StripBanner({ href, context }: { href: string; context?: string }) {
               {context ? `${context} ·` : ''} {COPY.tagline}
             </div>
             <p className="text-base font-black uppercase leading-tight text-white">
-              {context
-                ? `${context} en Movistar Plus+`
-                : 'La Copa Mundial FIFA 2026™ al completo'}
+              {context ? `${context} en Movistar Plus+` : COPY.title}
             </p>
-            <p className="mt-0.5 text-xs text-white/55">
-              {COPY.matches} · {COPY.dial}
-            </p>
+            <p className="mt-0.5 text-xs text-white/55">{COPY.matches} · {COPY.via}</p>
           </div>
         </div>
-
         <div className="flex shrink-0 flex-col items-start gap-1.5 md:items-end">
           <a href={href} target="_blank" rel="sponsored nofollow noopener noreferrer"
-            className="inline-flex items-center gap-2 rounded-full bg-white px-5 py-2 text-sm font-bold
-                       text-black transition-all hover:bg-white/90 active:scale-95">
+            className="inline-flex items-center gap-2 rounded-full bg-white px-5 py-2 text-sm font-bold text-black transition-all hover:bg-white/90 active:scale-95">
             Suscribirse a Movistar Plus+
           </a>
           <TAndC className="text-white/25 md:text-right" />
@@ -358,42 +244,23 @@ function StickyBanner({ href }: { href: string }) {
   if (!visible) return null;
 
   return (
-    <div role="complementary" aria-label="Copa Mundial FIFA 2026™ en Movistar Plus+"
-      className="fixed left-0 right-0 top-16 z-30 flex items-center gap-3 border-b border-white/10
-                 bg-black px-4 py-2.5 shadow-2xl md:top-20 md:px-6">
-
-      {/* Logos de canal */}
+    <div role="complementary" aria-label="Fútbol y baloncesto en directo en Movistar Plus+"
+      className="fixed left-0 right-0 top-16 z-30 flex items-center gap-3 border-b border-white/10 bg-black px-4 py-2.5 shadow-2xl md:top-20 md:px-6">
       <div className="hidden shrink-0 gap-1.5 sm:flex">
-        <img src={LOGOS.daznMundial} alt="DAZN Mundial"
-          className="h-6 w-auto object-contain" loading="lazy" />
-        <img src={LOGOS.fanzone} alt="M+ Fanzone"
-          className="h-6 w-auto object-contain" loading="lazy" />
+        <img src={LOGOS.dazn} alt="DAZN" className="h-6 w-auto object-contain" loading="lazy" />
+        <img src={LOGOS.mplus} alt="Movistar Plus+" className="h-6 w-auto object-contain" loading="lazy" />
       </div>
-
-      {/* Copy */}
       <div className="flex min-w-0 flex-1 flex-col gap-0 sm:flex-row sm:items-center sm:gap-3">
-        <span className="truncate text-sm font-bold text-white">
-          Copa Mundial FIFA 2026™ al completo
-        </span>
+        <span className="truncate text-sm font-bold text-white">Fútbol y baloncesto en directo</span>
         <span className="hidden text-white/30 sm:inline">·</span>
-        <span className="truncate text-xs text-white/55">
-          {COPY.matches} · Movistar Plus+ vía DAZN
-        </span>
+        <span className="truncate text-xs text-white/55">{COPY.matches} · {COPY.via}</span>
       </div>
-
-      {/* CTA */}
-      <a href={href} target="_blank" rel="sponsored nofollow noopener noreferrer"
-        onClick={() => dismiss()}
-        className="shrink-0 rounded-full bg-white px-4 py-1.5 text-xs font-bold text-black
-                   transition-all hover:bg-white/90 active:scale-95 whitespace-nowrap">
+      <a href={href} target="_blank" rel="sponsored nofollow noopener noreferrer" onClick={() => dismiss()}
+        className="shrink-0 whitespace-nowrap rounded-full bg-white px-4 py-1.5 text-xs font-bold text-black transition-all hover:bg-white/90 active:scale-95">
         Ver cómo
       </a>
-
-      {/* Dismiss */}
-      <button type="button" aria-label="Cerrar"
-        onClick={() => { dismiss(); setVisible(false); }}
-        className="shrink-0 rounded-full p-1.5 text-white/40 transition-colors
-                   hover:bg-white/10 hover:text-white">
+      <button type="button" aria-label="Cerrar" onClick={() => { dismiss(); setVisible(false); }}
+        className="shrink-0 rounded-full p-1.5 text-white/40 transition-colors hover:bg-white/10 hover:text-white">
         <X className="h-4 w-4" />
       </button>
     </div>
@@ -402,65 +269,23 @@ function StickyBanner({ href }: { href: string }) {
 
 // ── Exports ───────────────────────────────────────────────────────────────────
 
-/**
- * Cintillo con thumbnail del partido (si hay matchId) o cabecera general.
- * Es el componente principal para artículos de TV/horario.
- *
- * ```tsx
- * <MovistarCintillo context="México vs Sudáfrica" matchId="4318260" href="..." />
- * ```
- */
-export function MovistarCintillo({
-  href = DEFAULT_HREF,
-  context,
-  matchId,
-}: {
-  href?: string;
-  context?: string;
-  matchId?: string;
-}) {
+/** Cintillo con thumbnail del partido (si hay matchId). Principal en artículos/fichas. */
+export function MovistarCintillo({ href = DEFAULT_HREF, context, matchId }: { href?: string; context?: string; matchId?: string }) {
   return <CintilloBanner href={href} context={context} matchId={matchId} />;
 }
 
-/**
- * Hero de ancho completo con imagen cabecera oficial.
- * Para páginas de grupo, calendario, home de noticias.
- *
- * ```tsx
- * <MovistarHero context="Grupo G" href="..." />
- * ```
- */
-export function MovistarHero({
-  href = DEFAULT_HREF,
-  context,
-}: {
-  href?: string;
-  context?: string;
-}) {
+/** Hero de ancho completo (portada, hubs). */
+export function MovistarHero({ href = DEFAULT_HREF, context }: { href?: string; context?: string }) {
   return <HeroBanner href={href} context={context} />;
 }
 
 /** Tarjeta compacta para sidebars */
-export function MovistarCard({
-  href = DEFAULT_HREF,
-  context,
-  matchId,
-}: {
-  href?: string;
-  context?: string;
-  matchId?: string;
-}) {
+export function MovistarCard({ href = DEFAULT_HREF, context, matchId }: { href?: string; context?: string; matchId?: string }) {
   return <CardBanner href={href} context={context} matchId={matchId} />;
 }
 
 /** Franja entre secciones */
-export function MovistarStrip({
-  href = DEFAULT_HREF,
-  context,
-}: {
-  href?: string;
-  context?: string;
-}) {
+export function MovistarStrip({ href = DEFAULT_HREF, context }: { href?: string; context?: string }) {
   return <StripBanner href={href} context={context} />;
 }
 

@@ -49,32 +49,37 @@ export async function SiteFooter() {
         <div className="mx-auto grid w-full max-w-[1400px] gap-8 px-6 py-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 md:px-10">
           <div>
             <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-pitch)]">
-              Mundial 2026 en directo
+              En directo
             </div>
             <ul className="mt-3 space-y-2 text-sm">
               <li>
-                <Link href={withLocale(locale, '/2026/partidos-hoy')} className="text-[var(--color-fg-muted)] transition-colors hover:text-[var(--color-fg)]">
+                <Link href={withLocale(locale, '/partidos-hoy')} className="text-[var(--color-fg-muted)] transition-colors hover:text-[var(--color-fg)]">
                   Partidos de hoy
                 </Link>
               </li>
               <li>
-                <Link href={withLocale(locale, '/2026/calendario')} className="text-[var(--color-fg-muted)] transition-colors hover:text-[var(--color-fg)]">
-                  Calendario
+                <Link href={withLocale(locale, '/futbol')} className="text-[var(--color-fg-muted)] transition-colors hover:text-[var(--color-fg)]">
+                  Fútbol
                 </Link>
               </li>
               <li>
-                <Link href={withLocale(locale, '/2026/grupos')} className="text-[var(--color-fg-muted)] transition-colors hover:text-[var(--color-fg)]">
-                  Clasificación y grupos
+                <Link href={withLocale(locale, '/futbol/laliga')} className="text-[var(--color-fg-muted)] transition-colors hover:text-[var(--color-fg)]">
+                  LaLiga
                 </Link>
               </li>
               <li>
-                <Link href={withLocale(locale, '/selecciones/ESP/grupo-h')} className="text-[var(--color-fg-muted)] transition-colors hover:text-[var(--color-fg)]">
-                  Grupo de España
+                <Link href={withLocale(locale, '/futbol/champions-league')} className="text-[var(--color-fg-muted)] transition-colors hover:text-[var(--color-fg)]">
+                  Champions League
                 </Link>
               </li>
               <li>
-                <Link href={withLocale(locale, '/2026/donde-ver')} className="text-[var(--color-fg-muted)] transition-colors hover:text-[var(--color-fg)]">
-                  Dónde ver
+                <Link href={withLocale(locale, '/baloncesto')} className="text-[var(--color-fg-muted)] transition-colors hover:text-[var(--color-fg)]">
+                  Baloncesto
+                </Link>
+              </li>
+              <li>
+                <Link href={withLocale(locale, '/2026')} className="text-[var(--color-fg-muted)] transition-colors hover:text-[var(--color-fg)]">
+                  Mundial 2026 · archivo
                 </Link>
               </li>
             </ul>
