@@ -157,6 +157,7 @@ La clasificación completa, con todos los equipos y los próximos partidos, est�
     sourceUrl: "https://www.espn.com/nba/standings",
     sourceLang: 'en',
     publishedAt: '2026-10-11T21:32:01.528Z',
+    modifiedAt: '2026-10-11T21:48:52.601Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Celtic_park_posters.jpg/1920px-Celtic_park_posters.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -188,6 +189,7 @@ La clasificación completa, con todos los equipos y los próximos partidos, est�
     sourceUrl: "https://www.espn.com/soccer/standings/_/league/eng.1",
     sourceLang: 'en',
     publishedAt: '2026-10-11T21:32:01.528Z',
+    modifiedAt: '2026-10-11T21:48:52.601Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Gran_Premio_Ciudad_de_Buenos_Aires_2026%2C_Domingo_-_14.jpg/1920px-Gran_Premio_Ciudad_de_Buenos_Aires_2026%2C_Domingo_-_14.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -219,6 +221,7 @@ La clasificación completa, con todos los equipos y los próximos partidos, est�
     sourceUrl: "https://www.espn.com/soccer/standings/_/league/esp.1",
     sourceLang: 'en',
     publishedAt: '2026-10-11T21:32:01.528Z',
+    modifiedAt: '2026-10-11T21:48:52.601Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Porta_para_un_centenario_Pilar_Urbano._Exteriores_do_Camp_Nou._Barcelona_B35.jpg/1920px-Porta_para_un_centenario_Pilar_Urbano._Exteriores_do_Camp_Nou._Barcelona_B35.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -247,6 +250,7 @@ El resto de la jornada, en [partidos de hoy](/partidos-hoy).`,
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882852",
     sourceLang: 'en',
     publishedAt: '2026-10-11T21:32:01.528Z',
+    modifiedAt: '2026-10-11T21:48:52.601Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Estadi_Ciutat_de_Val%C3%A8ncia_-_nocturna.jpg/1920px-Estadi_Ciutat_de_Val%C3%A8ncia_-_nocturna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -275,6 +279,7 @@ Alineaciones, momentos clave, estadísticas completas y la narración minuto a m
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882849",
     sourceLang: 'en',
     publishedAt: '2026-10-11T21:32:01.528Z',
+    modifiedAt: '2026-10-11T21:48:52.601Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Estadio_de_vallecas.jpg/1920px-Estadio_de_vallecas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -303,6 +308,7 @@ Alineaciones, momentos clave, estadísticas completas y la narración minuto a m
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882856",
     sourceLang: 'en',
     publishedAt: '2026-10-11T21:32:01.528Z',
+    modifiedAt: '2026-10-11T21:48:52.601Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Mendizorrotza_mendia_%28gasteiz%29.jpg/1920px-Mendizorrotza_mendia_%28gasteiz%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -331,6 +337,7 @@ Alineaciones, momentos clave, estadísticas completas y la narración minuto a m
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882853",
     sourceLang: 'en',
     publishedAt: '2026-10-11T21:32:01.528Z',
+    modifiedAt: '2026-10-11T21:48:52.601Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/NOU_CAMP.jpg/1920px-NOU_CAMP.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -359,6 +366,7 @@ Alineaciones, momentos clave, estadísticas completas y la narración minuto a m
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882848",
     sourceLang: 'en',
     publishedAt: '2026-10-11T21:32:01.528Z',
+    modifiedAt: '2026-10-11T21:48:52.601Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Santiagobernabeupanoramav45.JPG/1920px-Santiagobernabeupanoramav45.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -387,6 +395,7 @@ Alineaciones, momentos clave, estadísticas completas y la narración minuto a m
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882854",
     sourceLang: 'en',
     publishedAt: '2026-10-11T21:32:01.528Z',
+    modifiedAt: '2026-10-11T21:48:52.601Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Estadio_Mart%C3%ADnezValero_Elche.jpg/1920px-Estadio_Mart%C3%ADnezValero_Elche.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -415,6 +424,7 @@ Alineaciones, momentos clave, estadísticas completas y la narración minuto a m
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882847",
     sourceLang: 'en',
     publishedAt: '2026-10-11T21:32:01.528Z',
+    modifiedAt: '2026-10-11T21:48:52.601Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Reale_Arena_-_Pankarta_-_Donostia_2020.jpg/1920px-Reale_Arena_-_Pankarta_-_Donostia_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -443,6 +453,7 @@ Alineaciones, momentos clave, estadísticas completas y la narración minuto a m
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882855",
     sourceLang: 'en',
     publishedAt: '2026-10-11T21:32:01.528Z',
+    modifiedAt: '2026-10-11T21:48:52.601Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://upload.wikimedia.org/wikipedia/commons/4/46/Seville_Estadio_Ol%C3%ADmpico_de_La_Cartuja_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
@@ -471,12 +482,13 @@ Alineaciones, momentos clave, estadísticas completas y la narración minuto a m
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882850",
     sourceLang: 'en',
     publishedAt: '2026-10-11T21:32:01.528Z',
+    modifiedAt: '2026-10-11T21:48:52.601Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
-      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Santander.Real.Club.Racing.de.Santander.jpg/1920px-Santander.Real.Club.Racing.de.Santander.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Fachada_oeste_Campos_de_Sport_de_El_Sardinero.jpg/1920px-Fachada_oeste_Campos_de_Sport_de_El_Sardinero.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       alt: "El Sardineros, donde se jugó el Racing - Valencia",
-      credit: "Wikimedia Commons · CC BY-SA 3.0 · Wikimedia Commons",
-      license: "CC BY-SA 3.0",
+      credit: "Emilio Gómez Fernández · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
     },
   },
   {
@@ -497,7 +509,7 @@ Hora peninsular en todos los casos. Si un canal cambia a última hora, la ficha 
     sourceUrl: "https://www.espn.com/nba/game/_/gameId/401898400",
     sourceLang: 'en',
     publishedAt: '2026-10-11T21:32:01.528Z',
-    modifiedAt: '2026-10-11T21:32:01.528Z',
+    modifiedAt: '2026-10-11T21:48:52.601Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Concert_poster_out_side_Venetian_Cotai_Arena.jpg/1920px-Concert_poster_out_side_Venetian_Cotai_Arena.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -576,7 +588,7 @@ Horarios en hora de España; los resultados y la narración de cada partido van 
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882854",
     sourceLang: 'en',
     publishedAt: '2026-10-11T21:32:01.528Z',
-    modifiedAt: '2026-10-11T21:32:01.528Z',
+    modifiedAt: '2026-10-11T21:48:52.601Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Estadio_Martinez_Valero%2C_banquillo.jpg/1920px-Estadio_Martinez_Valero%2C_banquillo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",

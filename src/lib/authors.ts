@@ -81,7 +81,7 @@ export function getAuthor(authorId?: string): Author | undefined {
  * The Economist en su JSON-LD: la redacción del medio declarada como
  * `NewsMediaOrganization` con políticas editoriales explícitas.
  */
-const NEWSROOM_NAME = 'Redacción Mundial de Fútbol';
+const NEWSROOM_NAME = 'Redacción Mundiales de Fútbol';
 
 /**
  * Construye el objeto JSON-LD para el campo `author`:

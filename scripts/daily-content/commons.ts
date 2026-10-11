@@ -26,11 +26,52 @@ function strip(html: string): string {
 }
 
 /**
- * Mejor foto para una consulta (p. ej. "Estadio Benito Villamarín"):
- * bitmap JPEG, licencia libre, ≥1200 px, apaisada, título que contenga la
- * consulta. `avoid` evita repetir la misma foto entre piezas (IM10).
+ * Alias de sedes: ESPN usa el nombre comercial o una variante (y algún typo),
+ * Commons titula por el nombre histórico. Se buscan en orden hasta acertar.
+ */
+const VENUE_ALIASES: Record<string, string[]> = {
+  'estadio la cartuja': ['Estadio Olímpico de Sevilla', 'La Cartuja Sevilla'],
+  'reale arena': ['Anoeta', 'Estadio de Anoeta'],
+  'el sardineros': ['El Sardinero', 'Estadios de El Sardinero'],
+  'el sardinero': ['Estadios de El Sardinero'],
+  'riyadh air metropolitano': ['Estadio Metropolitano Madrid', 'Wanda Metropolitano'],
+  'spotify camp nou': ['Camp Nou'],
+  'estadio santiago bernabeu': ['Santiago Bernabéu'],
+  'coliseum alfonso perez': ['Coliseum Alfonso Pérez'],
+  'estadio de mestalla': ['Mestalla'],
+  'estadio de vallecas': ['Vallecas'],
+  'estadio el sadar': ['El Sadar'],
+  'abanca balaidos': ['Balaídos'],
+  'estadio de gran canaria': ['Gran Canaria stadium'],
+  'san mames': ['San Mamés'],
+  'etihad stadium': ['City of Manchester Stadium'],
+  'tottenham hotspur stadium': ['Tottenham Hotspur Stadium'],
+};
+
+const norm = (s: string) => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/\s+/g, ' ').trim();
+
+/** Consultas a probar: nombre tal cual, alias conocidos y sin patrocinador delante. */
+function queriesFor(query: string): string[] {
+  const qs = [query, ...(VENUE_ALIASES[norm(query)] ?? [])];
+  const sinSponsor = query.replace(/^(riyadh air|spotify|abanca|reale|cívitas|civitas|mutua|coliseum)\s+/i, '');
+  if (sinSponsor !== query) qs.push(sinSponsor);
+  return [...new Set(qs)];
+}
+
+/**
+ * Mejor foto para una sede (p. ej. "Estadio Benito Villamarín"): bitmap JPEG,
+ * licencia libre, ≥1200 px, apaisada y con el nombre en el título del fichero.
+ * Prueba también los alias. `avoid` evita repetir foto entre piezas (IM10).
  */
 export async function findImage(query: string, altText: string, avoid: Set<string> = new Set()): Promise<CommonsImage | null> {
+  for (const q of queriesFor(query)) {
+    const img = await searchOne(q, altText, avoid);
+    if (img) return img;
+  }
+  return null;
+}
+
+async function searchOne(query: string, altText: string, avoid: Set<string>): Promise<CommonsImage | null> {
   const params = new URLSearchParams({
     action: 'query', format: 'json', generator: 'search', gsrnamespace: '6', gsrlimit: '12',
     gsrsearch: `${query} filetype:bitmap`,
@@ -46,7 +87,7 @@ export async function findImage(query: string, altText: string, avoid: Set<strin
     return null;
   }
 
-  const needle = query.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+  const needle = norm(query);
   const scored = pages
     .map((p) => {
       const ii = p.imageinfo?.[0];
@@ -79,5 +120,8 @@ export async function findImage(query: string, altText: string, avoid: Set<strin
     .filter(Boolean) as { score: number; img: CommonsImage }[];
 
   scored.sort((a, b) => b.score - a.score);
-  return scored[0]?.img ?? null;
+  // Estricto: si el título del fichero no contiene el nombre buscado, no hay
+  // foto (antes la tarjeta de marca que una sede equivocada).
+  const best = scored[0];
+  return best && best.score >= 5 ? best.img : null;
 }
