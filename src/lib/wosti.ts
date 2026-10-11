@@ -79,6 +79,12 @@ function normaliza(nombre: string): string {
 
 const FEMENINO = /\bfemen|\bfem\b|\bwomen\b/i;
 const SIN_CONFIRMAR = /por confirmar/i;
+/**
+ * Variantes técnicas del mismo canal que no aportan al "dónde ver" y ensucian
+ * el chip: emisión HDR, señal para bares, promos "App Gratis" y los
+ * multicanales M2/M5 de LaLiga TV. Se quitan solo si queda algún canal.
+ */
+const VARIANTE_RUIDO = /\bhdr\b|\bbar\b|app gratis|\bm\d\b/i;
 
 type Entry = { home: string; away: string; channels: string[] };
 let INDEX: Map<string, Entry[]> | null = null;
@@ -100,11 +106,13 @@ function index(): Map<string, Entry[]> {
       .filter((n) => n && !SIN_CONFIRMAR.test(n) && PLATAFORMAS_ES.test(limpiaCanal(n)))
       .filter((n) => { const k = n.toLowerCase(); if (seen.has(k)) return false; seen.add(k); return true; });
     if (channels.length === 0) continue;
+    const limpios = channels.filter((n) => !VARIANTE_RUIDO.test(n));
+    const finales = limpios.length > 0 ? limpios : channels;
     const day = madridDate(e.Date);
     const list = idx.get(day) ?? [];
     // Gana la primera entrada del par: el feed lista antes el directo y luego las reemisiones.
     if (!list.some((x) => x.home === normaliza(home) && x.away === normaliza(away))) {
-      list.push({ home: normaliza(home), away: normaliza(away), channels });
+      list.push({ home: normaliza(home), away: normaliza(away), channels: finales });
     }
     idx.set(day, list);
   }

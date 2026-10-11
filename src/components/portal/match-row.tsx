@@ -53,17 +53,20 @@ export function MatchRow({
       </span>
       {channels.length > 0 && (
         <span
-          className="hidden shrink-0 items-center gap-1 md:flex"
+          className="flex shrink-0 items-center gap-1"
           title={`Dónde ver: ${channels.join(', ')}`}
           aria-label={`Dónde ver: ${channels.join(', ')}`}
         >
           <span aria-hidden className="text-xs">📺</span>
-          {channels.slice(0, 2).map((c) => (
-            <span key={c} className="max-w-[9rem] truncate rounded-full border border-[var(--color-border)] px-2 py-0.5 font-mono text-[9px] uppercase tracking-wider text-[var(--color-fg-muted)]">
+          {channels.slice(0, 2).map((c, i) => (
+            <span
+              key={c}
+              className={`max-w-[7rem] truncate rounded-full border border-[var(--color-border)] px-2 py-0.5 font-mono text-[9px] uppercase tracking-wider text-[var(--color-fg-muted)] md:max-w-[9rem] ${i > 0 ? 'hidden md:inline' : ''}`}
+            >
               {c}
             </span>
           ))}
-          {channels.length > 2 && <span className="font-mono text-[9px] text-[var(--color-fg-subtle)]">+{channels.length - 2}</span>}
+          {channels.length > 2 && <span className="hidden font-mono text-[9px] text-[var(--color-fg-subtle)] md:inline">+{channels.length - 2}</span>}
         </span>
       )}
       {showCompetition && (
