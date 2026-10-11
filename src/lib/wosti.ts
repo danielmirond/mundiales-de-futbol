@@ -1,10 +1,12 @@
 /**
  * Canales de TV por partido (fútbol) a partir del feed WOSTI.
  *
- * Portado de guia-tv (lib/wosti.ts + lib/canal-partido.ts). Lee SIEMPRE el
- * snapshot del repo (src/data/wosti-snapshot.json, refrescado por
- * scripts/wosti/snapshot.mjs), nunca la API en vivo: la cuota de RapidAPI es
- * pequeña y el canal de un partido no cambia de un minuto a otro.
+ * Portado de guia-tv (lib/wosti.ts + lib/canal-partido.ts), con una diferencia
+ * de arquitectura: aquí el feed se pide EN RUNTIME con el Data Cache de Next
+ * (`revalidate` 24 h → ~1 llamada/día a RapidAPI, cuota compartida con Guía TV)
+ * y el snapshot del repo (src/data/wosti-snapshot.json, refrescable con
+ * scripts/wosti/snapshot.mjs) es el RESPALDO si no hay credenciales o la API
+ * falla. Así la frescura no depende de commits ni deploys.
  *
  * Emparejado con ESPN por FECHA (Madrid) + los DOS equipos normalizados; nunca
  * por un solo equipo (la repetición del partido iría a parar al canal
@@ -87,13 +89,11 @@ const SIN_CONFIRMAR = /por confirmar/i;
 const VARIANTE_RUIDO = /\bhdr\b|\bbar\b|app gratis|\bm\d\b/i;
 
 type Entry = { home: string; away: string; channels: string[] };
-let INDEX: Map<string, Entry[]> | null = null;
+export type WostiIndex = Map<string, Entry[]>;
 
-/** Índice fecha(Madrid) → partidos con canal. Se construye una vez por proceso. */
-function index(): Map<string, Entry[]> {
-  if (INDEX) return INDEX;
-  const idx = new Map<string, Entry[]>();
-  for (const e of (snapshot as RawEvent[])) {
+function buildIndex(events: RawEvent[]): WostiIndex {
+  const idx: WostiIndex = new Map();
+  for (const e of events) {
     const home = String(e.LocalTeam?.Name ?? '');
     const away = String(e.AwayTeam?.Name ?? '');
     if (!home || !away || !e.Date) continue;
@@ -116,8 +116,46 @@ function index(): Map<string, Entry[]> {
     }
     idx.set(day, list);
   }
-  INDEX = idx;
   return idx;
+}
+
+/** Feed en vivo (RapidAPI) recortado a lo que usa el índice; null si no hay credenciales o falla. */
+async function fetchLive(): Promise<RawEvent[] | null> {
+  const key = process.env.RAPIDAPI_KEY;
+  const host = process.env.RAPIDAPI_HOST;
+  if (!key || !host) return null;
+  try {
+    const res = await fetch(`https://${host}/api/Events`, {
+      headers: { 'x-rapidapi-key': key, 'x-rapidapi-host': host },
+      // 24 h en el Data Cache: ~1 llamada/día por despliegue.
+      next: { revalidate: 86_400 },
+    });
+    if (!res.ok) return null;
+    const raw = await res.json();
+    if (!Array.isArray(raw) || raw.length === 0) return null;
+    return raw.map((e: any): RawEvent => ({
+      Id: e.Id, Date: e.Date,
+      LocalTeam: { Name: e.LocalTeam?.Name }, AwayTeam: { Name: e.AwayTeam?.Name },
+      Competition: { Name: e.Competition?.Name },
+      Channels: (e.Channels ?? []).map((c: any) => ({ Name: c.Name })),
+    }));
+  } catch {
+    return null;
+  }
+}
+
+let FALLBACK: WostiIndex | null = null;
+
+/**
+ * Índice fecha(Madrid) → partidos con canal. Feed en vivo (cacheado 24 h) con
+ * el snapshot del repo como respaldo. Pedir UNA vez por render y pasarlo a
+ * `channelsFor`.
+ */
+export async function getWostiIndex(): Promise<WostiIndex> {
+  const live = await fetchLive();
+  if (live) return buildIndex(live);
+  if (!FALLBACK) FALLBACK = buildIndex(snapshot as RawEvent[]);
+  return FALLBACK;
 }
 
 const same = (a: string, b: string) => !!a && !!b && (a === b || a.includes(b) || b.includes(a));
@@ -126,8 +164,8 @@ const same = (a: string, b: string) => !!a && !!b && (a === b || a.includes(b) |
  * Canales (nombres limpios) de un partido de ESPN, o [] si no se sabe.
  * Se prueban nombre completo y corto de cada equipo, con contención laxa.
  */
-export function channelsFor(isoDate: string, home: string[], away: string[]): string[] {
-  const list = index().get(madridDate(isoDate));
+export function channelsFor(idx: WostiIndex, isoDate: string, home: string[], away: string[]): string[] {
+  const list = idx.get(madridDate(isoDate));
   if (!list || list.length === 0) return [];
   const H = home.filter(Boolean).map(normaliza);
   const A = away.filter(Boolean).map(normaliza);
@@ -135,10 +173,4 @@ export function channelsFor(isoDate: string, home: string[], away: string[]): st
     if (H.some((h) => same(h, e.home)) && A.some((a) => same(a, e.away))) return e.channels;
   }
   return [];
-}
-
-/** Rango de fechas (Madrid) que cubre el snapshot, para saber si procede buscar. */
-export function wostiCoverage(): { from: string; to: string; events: number } {
-  const days = [...index().keys()].sort();
-  return { from: days[0] ?? '', to: days[days.length - 1] ?? '', events: (snapshot as RawEvent[]).length };
 }

@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { fetchMatchSummary } from '@/lib/wc-2026-match-summary';
+import { fetchEventSummary } from '@/lib/wc-2026-match-summary';
 import { enrichCommentary } from '@/lib/wc-commentary-voice';
 import { teamName } from '@/lib/wc-head-to-head';
 
@@ -8,25 +8,29 @@ import { teamName } from '@/lib/wc-head-to-head';
  * estadísticas y marcador) para el live-blog de la ficha de partido.
  * Lo consume el componente cliente que hace polling cada ~25s.
  *
- *   GET /api/match-live?event=760438&home=CZE&away=RSA
+ *   GET /api/match-live?event=760438&home=CZE&away=RSA            (Mundial 2026)
+ *   GET /api/match-live?event=401882854&sport=soccer&league=esp.1 (portal)
  */
 export const dynamic = 'force-dynamic';
+
+const SAFE = /^[a-z0-9._-]+$/i;
 
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);
   const event = searchParams.get('event') ?? '';
   const home = searchParams.get('home') ?? '';
   const away = searchParams.get('away') ?? '';
+  const sport = searchParams.get('sport') ?? 'soccer';
+  const league = searchParams.get('league') ?? 'fifa.world';
 
-  if (!event || !home || !away) {
+  if (!event || !SAFE.test(event) || !SAFE.test(sport) || !SAFE.test(league)) {
     return NextResponse.json({ error: 'missing params' }, { status: 400 });
   }
 
-  const summary = await fetchMatchSummary(event, home, away, 15);
+  const summary = await fetchEventSummary({ sport, league }, event, home, away, 15);
 
-  // Voz de cronista en tiempo real: solo con el partido en juego, reescribe la
-  // narración antes de publicarla. Degrada al texto original si no hay key/falla.
-  if (summary && summary.state === 'in' && summary.hasCommentary) {
+  // Voz de cronista (determinista): solo Mundial, con el partido en juego.
+  if (summary && league === 'fifa.world' && summary.state === 'in' && summary.hasCommentary) {
     summary.commentary = await enrichCommentary(
       event,
       teamName(home),

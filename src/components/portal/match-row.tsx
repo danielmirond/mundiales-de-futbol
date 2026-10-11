@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import type { Match } from '@/lib/espn';
 
 const MADRID = 'Europe/Madrid';
@@ -22,15 +23,21 @@ function Logo({ src, alt, sport }: { src?: string; alt: string; sport: string })
 
 /** Fila de partido genérica (cualquier deporte): equipos, marcador, estado y canal (si se sabe). */
 export function MatchRow({
-  m, showDay = false, showCompetition = false, channels = [],
-}: { m: Match; showDay?: boolean; showCompetition?: boolean; channels?: string[] }) {
+  m, showDay = false, showCompetition = false, channels = [], href,
+}: { m: Match; showDay?: boolean; showCompetition?: boolean; channels?: string[]; href?: string }) {
   const played = m.state === 'post' && m.home.score != null && m.away.score != null;
   const live = m.state === 'in';
   const homeWin = played && m.home.score! > m.away.score!;
   const awayWin = played && m.away.score! > m.home.score!;
   const ms = new Date(m.date).getTime();
+  // La fila entera enlaza a la ficha (alineaciones, narración, stats) si hay href.
+  const Wrap = href
+    ? ({ children }: { children: React.ReactNode }) => (
+        <Link href={href} className="flex items-center gap-3 px-4 py-3 transition-colors hover:bg-[var(--color-bg-2)]">{children}</Link>
+      )
+    : ({ children }: { children: React.ReactNode }) => <div className="flex items-center gap-3 px-4 py-3">{children}</div>;
   return (
-    <li className="flex items-center gap-3 px-4 py-3">
+    <li><Wrap>
       <span className="w-16 shrink-0 text-center font-mono text-[11px] uppercase tracking-wider text-[var(--color-fg-muted)]">
         {live ? (
           <span className="text-[var(--color-flame)]">🔴 {m.clock || 'EN VIVO'}</span>
@@ -74,6 +81,6 @@ export function MatchRow({
           {m.competition.name}
         </span>
       )}
-    </li>
+    </Wrap></li>
   );
 }

@@ -3,7 +3,7 @@ import { ArrowRight, CalendarDays } from 'lucide-react';
 import { fetchToday } from '@/lib/espn';
 import { liveCompetitions } from '@/lib/competitions';
 import { routing, type Locale } from '@/i18n/routing';
-import { channelsFor } from '@/lib/wosti';
+import { channelsFor, getWostiIndex } from '@/lib/wosti';
 import { MatchRow } from './match-row';
 
 const withLocale = (l: Locale, h: string) => (l === routing.defaultLocale ? h : `/${l}${h}`);
@@ -16,6 +16,7 @@ export async function PortalHero({ locale }: { locale: Locale }) {
   const upcoming = matches.filter((m) => m.state === 'pre');
   const featured = [...live, ...upcoming, ...matches.filter((m) => m.state === 'post')].slice(0, 6);
   const sports = new Set(matches.map((m) => m.competition.sport)).size;
+  const wosti = featured.some((m) => m.competition.sport === 'futbol') ? await getWostiIndex() : new Map();
 
   return (
     <section className="relative overflow-hidden pt-28 md:pt-36">
@@ -48,7 +49,8 @@ export async function PortalHero({ locale }: { locale: Locale }) {
                 key={`${m.competition.slug}-${m.id}`}
                 m={m}
                 showCompetition
-                channels={m.competition.sport === 'futbol' ? channelsFor(m.date, [m.home.fullName, m.home.name], [m.away.fullName, m.away.name]) : []}
+                href={withLocale(locale, `/${m.competition.sport}/${m.competition.slug}/partido/${m.id}`)}
+                channels={m.competition.sport === 'futbol' ? channelsFor(wosti, m.date, [m.home.fullName, m.home.name], [m.away.fullName, m.away.name]) : []}
               />
             ))}
           </ul>

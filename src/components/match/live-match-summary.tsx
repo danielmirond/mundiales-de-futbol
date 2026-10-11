@@ -19,6 +19,7 @@ export function LiveMatchSummary({
   awayName,
   homeFlag,
   awayFlag,
+  espn,
 }: {
   initial: MatchSummary;
   eventId: string;
@@ -28,6 +29,8 @@ export function LiveMatchSummary({
   awayName: string;
   homeFlag: string;
   awayFlag: string;
+  /** Competición ESPN (portal); por defecto, Mundial 2026. */
+  espn?: { sport: string; league: string };
 }) {
   const [summary, setSummary] = useState<MatchSummary>(initial);
   const live = summary.state === 'in';
@@ -37,8 +40,9 @@ export function LiveMatchSummary({
     let cancelled = false;
     const tick = async () => {
       try {
+        const league = espn ? `&sport=${encodeURIComponent(espn.sport)}&league=${encodeURIComponent(espn.league)}` : '';
         const r = await fetch(
-          `/api/match-live?event=${encodeURIComponent(eventId)}&home=${encodeURIComponent(home)}&away=${encodeURIComponent(away)}`,
+          `/api/match-live?event=${encodeURIComponent(eventId)}&home=${encodeURIComponent(home)}&away=${encodeURIComponent(away)}${league}`,
           { cache: 'no-store' },
         );
         const j = await r.json();
@@ -52,7 +56,7 @@ export function LiveMatchSummary({
       cancelled = true;
       clearInterval(id);
     };
-  }, [summary.state, eventId, home, away]);
+  }, [summary.state, eventId, home, away, espn]);
 
   return (
     <>

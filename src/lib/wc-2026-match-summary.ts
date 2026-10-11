@@ -6,8 +6,19 @@
  * Devuelve `null` si el partido aún no tiene datos (pre-partido) o falla la API.
  */
 
-const ESPN_SUMMARY =
-  'https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary';
+const ESPN_BASE = 'https://site.api.espn.com/apis/site/v2/sports';
+/** Ruta ESPN de una competición: { sport: 'soccer', league: 'esp.1' }. */
+export type EspnPath = { sport: string; league: string };
+const WORLD_CUP: EspnPath = { sport: 'soccer', league: 'fifa.world' };
+
+/** Cabecera del partido (equipos, marcador, fecha, sede) tal como la da ESPN. */
+export type SummaryHeader = {
+  home: { abbr: string; name: string; logo?: string };
+  away: { abbr: string; name: string; logo?: string };
+  date: string;
+  venue: string;
+  competition: string;
+};
 
 export type LineupPlayer = {
   name: string;
@@ -48,7 +59,26 @@ export type MatchSummary = {
   hasEvents: boolean;
   hasStats: boolean;
   hasCommentary: boolean;
+  /** Presente en el resumen genérico (fichas del portal). */
+  header?: SummaryHeader;
 };
+
+// Estadísticas de baloncesto (boxscore NBA/Euroliga), en orden.
+const STAT_LABELS_BASKETBALL: { key: string; label: string }[] = [
+  { key: 'fieldGoalsMade-fieldGoalsAttempted', label: 'Tiros de campo' },
+  { key: 'fieldGoalPct', label: 'Tiros de campo (%)' },
+  { key: 'threePointFieldGoalsMade-threePointFieldGoalsAttempted', label: 'Triples' },
+  { key: 'threePointFieldGoalPct', label: 'Triples (%)' },
+  { key: 'freeThrowsMade-freeThrowsAttempted', label: 'Tiros libres' },
+  { key: 'totalRebounds', label: 'Rebotes' },
+  { key: 'assists', label: 'Asistencias' },
+  { key: 'steals', label: 'Robos' },
+  { key: 'blocks', label: 'Tapones' },
+  { key: 'totalTurnovers', label: 'Pérdidas' },
+  { key: 'pointsInPaint', label: 'Puntos en la zona' },
+  { key: 'fastBreakPoints', label: 'Puntos al contraataque' },
+  { key: 'largestLead', label: 'Mayor ventaja' },
+];
 
 // Estadísticas que mostramos, en orden, con etiqueta en español.
 const STAT_LABELS: { key: string; label: string }[] = [
@@ -86,16 +116,34 @@ const TYPE_ES: Record<string, string> = {
   Substitution: 'Cambio',
 };
 
+/** Resumen de un partido del Mundial 2026 (compatibilidad con las fichas /2026). */
 export async function fetchMatchSummary(
   eventId: string,
   homeCode: string,
   awayCode: string,
   revalidate = 120,
 ): Promise<MatchSummary | null> {
+  return fetchEventSummary(WORLD_CUP, eventId, homeCode, awayCode, revalidate);
+}
+
+/**
+ * Resumen genérico de un evento ESPN de cualquier competición del portal.
+ * `homeCode`/`awayCode` pueden ir vacíos: entonces los lados se toman de la
+ * cabecera de ESPN. Fútbol → rosters/keyEvents/commentary; baloncesto → plays
+ * (jugada a jugada) y boxscore.
+ */
+export async function fetchEventSummary(
+  espn: EspnPath,
+  eventId: string,
+  homeCode = '',
+  awayCode = '',
+  revalidate = 120,
+): Promise<MatchSummary | null> {
   if (!eventId) return null;
+  const basketball = espn.sport === 'basketball';
   let data: any;
   try {
-    const res = await fetch(`${ESPN_SUMMARY}?event=${eventId}&lang=es&region=es`, {
+    const res = await fetch(`${ESPN_BASE}/${espn.sport}/${espn.league}/summary?event=${eventId}&lang=es&region=es`, {
       headers: { 'User-Agent': 'Mozilla/5.0 (mundiales-de-futbol.com)' },
       next: { revalidate },
     });
@@ -119,15 +167,32 @@ export async function fetchMatchSummary(
   const headerComp = data.header?.competitions?.[0] ?? {};
   let homeScore: number | null = null;
   let awayScore: number | null = null;
+  const sideInfo: Record<'home' | 'away', { abbr: string; name: string; logo?: string }> = {
+    home: { abbr: '', name: '' }, away: { abbr: '', name: '' },
+  };
   for (const c of headerComp.competitors ?? []) {
     assign(c.id ?? c.team?.id, c.team?.abbreviation, c.homeAway);
     const side = idToSide.get(String(c.id ?? c.team?.id));
     const sc = c.score === undefined || c.score === null || c.score === '' ? null : Number(c.score);
     if (side === 'home') homeScore = sc;
     else if (side === 'away') awayScore = sc;
+    if (side) {
+      sideInfo[side] = {
+        abbr: String(c.team?.abbreviation ?? '').toUpperCase(),
+        name: c.team?.displayName ?? c.team?.shortDisplayName ?? c.team?.name ?? '',
+        logo: c.team?.logos?.[0]?.href ?? c.team?.logo,
+      };
+    }
   }
   const clock: string | null = headerComp.status?.displayClock ?? null;
   const state: string = headerComp.status?.type?.state ?? 'pre';
+  const header: SummaryHeader = {
+    home: sideInfo.home,
+    away: sideInfo.away,
+    date: headerComp.date ?? data.header?.date ?? '',
+    venue: data.gameInfo?.venue?.fullName ?? '',
+    competition: data.header?.league?.name ?? '',
+  };
 
   // ── Alineaciones ──
   const mkPlayers = (roster: any[]): LineupPlayer[] =>
@@ -188,7 +253,7 @@ export async function fetchMatchSummary(
       if (s?.name) byCode[side][s.name] = s.displayValue ?? '';
     }
   }
-  const stats: TeamStat[] = STAT_LABELS.filter(
+  const stats: TeamStat[] = (basketball ? STAT_LABELS_BASKETBALL : STAT_LABELS).filter(
     (s) => byCode.home[s.key] != null || byCode.away[s.key] != null,
   ).map((s) => ({
     key: s.key,
@@ -197,19 +262,31 @@ export async function fetchMatchSummary(
     away: byCode.away[s.key] ?? '—',
   }));
 
-  // ── Narración (minuto a minuto) ──
-  const commentary: CommentaryLine[] = (data.commentary ?? [])
-    .map((c: any): CommentaryLine => ({
-      minute: c.time?.displayValue ?? '',
-      text: c.text ?? '',
-    }))
-    .filter((c: CommentaryLine) => c.text);
+  // ── Narración ──
+  // Fútbol: `commentary` minuto a minuto. Baloncesto: `plays` (jugada a jugada,
+  // 500+ por partido) → nos quedamos con las jugadas con puntos y los hitos de
+  // periodo, con el reloj como "Q2 · 7:31" y el marcador parcial.
+  const commentary: CommentaryLine[] = basketball
+    ? (data.plays ?? [])
+        .filter((p: any) => p.scoringPlay || /end of|final del|inicio|comienza|start of/i.test(p.text ?? ''))
+        .map((p: any): CommentaryLine => ({
+          minute: p.period?.number ? `Q${p.period.number} · ${p.clock?.displayValue ?? ''}` : (p.clock?.displayValue ?? ''),
+          text: p.scoringPlay && p.homeScore != null ? `${p.text} (${p.homeScore}-${p.awayScore})` : (p.text ?? ''),
+        }))
+        .filter((c: CommentaryLine) => c.text)
+        .slice(-200)
+    : (data.commentary ?? [])
+        .map((c: any): CommentaryLine => ({
+          minute: c.time?.displayValue ?? '',
+          text: c.text ?? '',
+        }))
+        .filter((c: CommentaryLine) => c.text);
 
   const hasLineups = startHome.length > 0 || startAway.length > 0;
   const hasEvents = events.length > 0;
   const hasStats = stats.length > 0;
   const hasCommentary = commentary.length > 0;
-  if (!hasLineups && !hasEvents && !hasStats && !hasCommentary) return null;
+  if (!hasLineups && !hasEvents && !hasStats && !hasCommentary && !header.home.name) return null;
 
   return {
     formationHome,
@@ -229,5 +306,6 @@ export async function fetchMatchSummary(
     hasEvents,
     hasStats,
     hasCommentary,
+    header,
   };
 }

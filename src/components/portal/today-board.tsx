@@ -3,13 +3,13 @@ import { ArrowRight } from 'lucide-react';
 import { fetchToday, fetchWindow, dayKeys, type Match } from '@/lib/espn';
 import { competitionPath, type Competition } from '@/lib/competitions';
 import { routing, type Locale } from '@/i18n/routing';
-import { channelsFor } from '@/lib/wosti';
+import { channelsFor, getWostiIndex, type WostiIndex } from '@/lib/wosti';
 import { MatchRow } from './match-row';
 
 /** Canales (WOSTI) solo para fútbol; el feed no cubre otros deportes. */
-const tv = (m: Match) =>
+const tvFor = (idx: WostiIndex) => (m: Match) =>
   m.competition.sport === 'futbol'
-    ? channelsFor(m.date, [m.home.fullName, m.home.name], [m.away.fullName, m.away.name])
+    ? channelsFor(idx, m.date, [m.home.fullName, m.home.name], [m.away.fullName, m.away.name])
     : [];
 
 const withLocale = (l: Locale, h: string) => (l === routing.defaultLocale ? h : `/${l}${h}`);
@@ -37,6 +37,8 @@ export async function TodayBoard({
     : await fetchWindow(competitions, dayKeys(range[0], range[1]));
 
   if (matches.length === 0 && !title) return null;
+  const tv = tvFor(matches.some((m) => m.competition.sport === 'futbol') ? await getWostiIndex() : new Map());
+  const hrefOf = (m: Match) => withLocale(locale, `/${m.competition.sport}/${m.competition.slug}/partido/${m.id}`);
 
   const groups = new Map<string, { comp: Competition; items: Match[] }>();
   for (const m of matches) {
@@ -71,7 +73,7 @@ export async function TodayBoard({
               </div>
               <ul className="divide-y divide-[var(--color-border)] overflow-hidden rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg)]">
                 {(limitPerGroup ? items.slice(0, limitPerGroup) : items).map((m) => (
-                  <MatchRow key={m.id} m={m} showDay={range !== 'today'} channels={tv(m)} />
+                  <MatchRow key={m.id} m={m} showDay={range !== 'today'} channels={tv(m)} href={hrefOf(m)} />
                 ))}
               </ul>
               {limitPerGroup && items.length > limitPerGroup && (
@@ -84,7 +86,7 @@ export async function TodayBoard({
         </div>
       ) : (
         <ul className="divide-y divide-[var(--color-border)] overflow-hidden rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg)]">
-          {matches.map((m) => <MatchRow key={`${m.competition.slug}-${m.id}`} m={m} showDay={range !== 'today'} showCompetition channels={tv(m)} />)}
+          {matches.map((m) => <MatchRow key={`${m.competition.slug}-${m.id}`} m={m} showDay={range !== 'today'} showCompetition channels={tv(m)} href={hrefOf(m)} />)}
         </ul>
       )}
     </section>
