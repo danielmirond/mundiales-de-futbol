@@ -7,6 +7,7 @@
  */
 
 import { TEAMS_2026 } from '@/lib/wc-2026';
+import archive from '@/data/wc-2026-results.json';
 
 const ESPN = 'https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard';
 const TOURNAMENT_RANGE = '20260611-20260719';
@@ -25,8 +26,48 @@ export type TopScorers = {
   matchesPlayed: number;
 };
 
+type ArchiveScorer = { athleteId: string; name: string; teamId: string; type: string };
+type ArchiveEvent = {
+  state: string;
+  home: { id: string; abbr: string };
+  away: { id: string; abbr: string };
+  scorers: ArchiveScorer[];
+};
+
+/**
+ * Archivo del torneo (snapshot ligero de ESPN, `scripts/wc-2026/snapshot-espn.mjs`).
+ * ESPN dejó de servir el Mundial 2026 por rango de fechas al cerrar la
+ * temporada, así que el archivo es la fuente principal; ESPN queda de respaldo.
+ */
+function fromArchive(limit: number): TopScorers | null {
+  const events = (archive as { events: ArchiveEvent[] }).events ?? [];
+  if (events.length === 0) return null;
+  const byId = new Map<string, Scorer>();
+  let totalGoals = 0;
+  let matchesPlayed = 0;
+  for (const e of events) {
+    if (e.state !== 'post') continue;
+    matchesPlayed++;
+    for (const s of e.scorers) {
+      if (/autogol|propia/i.test(s.type)) continue;
+      totalGoals++;
+      const team = s.teamId === e.home.id ? e.home.abbr : s.teamId === e.away.id ? e.away.abbr : '';
+      const cur = byId.get(s.athleteId) ?? { id: s.athleteId, name: s.name || '—', team, goals: 0, penalties: 0 };
+      cur.goals++;
+      if (/penal/i.test(s.type)) cur.penalties++;
+      byId.set(s.athleteId, cur);
+    }
+  }
+  const scorers = [...byId.values()]
+    .sort((a, b) => b.goals - a.goals || b.penalties - a.penalties || a.name.localeCompare(b.name))
+    .slice(0, limit);
+  return { scorers, totalGoals, matchesPlayed };
+}
+
 /** Máximos goleadores ordenados (goles desc, luego nombre). */
 export async function getTopScorers(limit = 40): Promise<TopScorers> {
+  const archived = fromArchive(limit);
+  if (archived) return archived;
   try {
     const res = await fetch(`${ESPN}?dates=${TOURNAMENT_RANGE}&lang=es`, {
       headers: { 'User-Agent': 'Mozilla/5.0 (mundiales-de-futbol.com)' },

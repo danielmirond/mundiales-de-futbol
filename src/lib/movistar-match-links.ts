@@ -105,7 +105,7 @@ export const MOVISTAR_MATCH_LINKS: Record<string, MovistarMatchLink> = {
 };
 
 /** URL genérica del Mundial en M+ (fallback) */
-export const DEFAULT_MOVISTAR_HREF = awin('/deportes/futbol/mundial');
+export const DEFAULT_MOVISTAR_HREF = awin('/deportes'); // genérico (temporada de clubes)
 
 /** Enlace de afiliado de DAZN (programa AWIN propio de DAZN, campaña Mundial 2026). */
 export const DAZN_AFFILIATE_HREF =

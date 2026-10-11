@@ -48,7 +48,7 @@ export function DailyNews({ locale }: { locale: Locale }) {
           <div>
             <div className="flex items-center gap-2 font-mono text-[11px] uppercase tracking-[0.3em] text-[var(--color-pitch)]">
               <Newspaper className="h-3 w-3" />
-              <span>Lo último · Mundial 2026</span>
+              <span>Lo último</span>
             </div>
             <h2 className="mt-3 font-display text-3xl uppercase leading-[0.95] text-[var(--color-fg)] md:text-4xl">
               Noticias del día
@@ -67,7 +67,7 @@ export function DailyNews({ locale }: { locale: Locale }) {
       {/* Carrusel · scroll horizontal con snap */}
       <div
         className="news-carousel relative pb-12 md:pb-16"
-        aria-label="Carrusel de noticias del Mundial 2026"
+        aria-label="Carrusel de noticias"
       >
         <ul
           className="flex snap-x snap-mandatory gap-4 overflow-x-auto scroll-smooth px-6 pb-4 md:px-10 md:gap-6 [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden"

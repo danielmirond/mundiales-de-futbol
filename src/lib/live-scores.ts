@@ -5,6 +5,7 @@
  */
 
 import { GROUPS_2026, FIXTURES_2026 } from '@/lib/wc-2026';
+import archive from '@/data/wc-2026-results.json';
 
 const ESPN = 'https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard';
 
@@ -37,6 +38,49 @@ export type LiveMatch = {
   shootoutAway: number | null;
 };
 
+type ArchiveEvent = {
+  id: string; date: string; state: 'pre' | 'in' | 'post'; status: string; clock: string | null; venue: string;
+  home: { abbr: string; score: number | null; shootout: number | null };
+  away: { abbr: string; score: number | null; shootout: number | null };
+};
+
+/** 'YYYYMMDD' o 'YYYYMMDD-YYYYMMDD' → ['YYYY-MM-DD', 'YYYY-MM-DD']. */
+function parseRange(dates: string): [string, string] {
+  const iso = (d: string) => `${d.slice(0, 4)}-${d.slice(4, 6)}-${d.slice(6, 8)}`;
+  const [a, b] = dates.split('-');
+  return [iso(a), iso(b ?? a)];
+}
+
+/**
+ * Partidos del archivo 2026 dentro del rango. ESPN filtra `dates` por fecha
+ * LOCAL del partido (sedes UTC-4..-7), así que desplazamos 5 h el ISO (UTC)
+ * para reproducir esa semántica en los bordes del rango.
+ */
+function fromArchive(dates: string): LiveMatch[] {
+  if (!dates.startsWith('2026')) return [];
+  const [from, to] = parseRange(dates);
+  const events = (archive as { events: ArchiveEvent[] }).events ?? [];
+  return events
+    .filter((e) => {
+      const local = new Date(new Date(e.date).getTime() - 5 * 3_600_000).toISOString().slice(0, 10);
+      return local >= from && local <= to;
+    })
+    .map((e): LiveMatch => ({
+      id: e.id,
+      home: norm(e.home.abbr),
+      away: norm(e.away.abbr),
+      homeScore: e.home.score,
+      awayScore: e.away.score,
+      state: e.state,
+      status: e.status,
+      clock: e.clock,
+      date: e.date,
+      venue: e.venue,
+      shootoutHome: e.home.shootout,
+      shootoutAway: e.away.shootout,
+    }));
+}
+
 /** Clave para emparejar con un fixture (códigos FIFA local-visitante). */
 export function scoreKey(home: string | undefined, away: string | undefined): string {
   return `${(home ?? '').toUpperCase()}|${(away ?? '').toUpperCase()}`;
@@ -51,6 +95,10 @@ export async function fetchScores(
   dates: string = TOURNAMENT_RANGE,
   revalidate = 60,
 ): Promise<LiveMatch[]> {
+  // Mundial 2026 ya cerrado: ESPN dejó de servirlo por rango de fechas, así que
+  // el archivo (snapshot ligero en src/data) es la fuente principal.
+  const archived = fromArchive(dates);
+  if (archived.length > 0) return archived;
   try {
     const res = await fetch(`${ESPN}?dates=${dates}`, {
       headers: { 'User-Agent': 'Mozilla/5.0 (mundiales-de-futbol.com)' },
