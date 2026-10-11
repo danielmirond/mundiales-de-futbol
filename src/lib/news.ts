@@ -124,6 +124,468 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'clasificacion-nba-semana-2026-41',
+    title: "NBA: así queda la clasificación esta semana, con Celtics líder",
+    summary: "Celtics sigue arriba en NBA (1 puntos). Repasamos la clasificación completa. Tabla comentada de NBA 2027: cabeza, zona baja y enlace a la clasificación completa.",
+    body: `Celtics sigue arriba en NBA (1 puntos). Repasamos la clasificación completa.
+
+## Eastern Conference
+
+1. **Celtics** — 2-0
+2. **Wizards** — 2-0
+3. **Nets** — 2-0
+4. **Magic** — 1-0 (a 0.5)
+5. **Heat** — 2-1 (a 0.5)
+6. **Hawks** — 2-1 (a 0.5)
+7. **Pacers** — 1-1 (a 1)
+8. **Bulls** — 1-1 (a 1)
+
+## Western Conference
+
+1. **Trail Blazers** — 1-0
+2. **Grizzlies** — 2-1
+3. **Lakers** — 2-1
+4. **Timberwolves** — 2-1
+5. **Warriors** — 2-2 (a 0.5)
+6. **Mavericks** — 1-1 (a 0.5)
+6. **Nuggets** — 1-1 (a 0.5)
+6. **Rockets** — 1-1 (a 0.5)
+
+La clasificación completa, con todos los equipos y los próximos partidos, está en la [página de NBA](/baloncesto/nba).`,
+    category: 'general',
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/nba/standings",
+    sourceLang: 'en',
+    publishedAt: '2026-10-11T21:32:01.528Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Celtic_park_posters.jpg/1920px-Celtic_park_posters.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Estadio de Celtics, líder de NBA",
+      credit: "Guillaume Gogo · CC BY 2.0 · Wikimedia Commons",
+      license: "CC BY 2.0",
+    },
+  },
+  {
+    slug: 'clasificacion-premier-league-semana-2026-41',
+    title: "Premier League: así queda la clasificación esta semana, con Man City líder",
+    summary: "Man City manda en Premier League con 18 puntos tras la última jornada. Tabla comentada de Premier League 2026: cabeza, zona baja y enlace a la clasificación completa.",
+    body: `Man City manda en Premier League con 18 puntos tras la última jornada.
+
+## La tabla
+
+1. **Man City** — 18 pts (6G-0E-0P, +11)
+2. **Arsenal** — 15 pts (5G-0E-1P, +5)
+3. **Brighton** — 13 pts (4G-1E-1P, +13)
+4. **Brentford** — 10 pts (2G-4E-0P, +6)
+5. **Everton** — 10 pts (2G-4E-0P, +3)
+6. **Chelsea** — 10 pts (3G-1E-2P, +2)
+
+En la zona baja: Spurs (3 pts), Coventry (3 pts) y Fulham (2 pts).
+
+La clasificación completa, con todos los equipos y los próximos partidos, está en la [página de Premier League](/futbol/premier-league).`,
+    category: 'general',
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/standings/_/league/eng.1",
+    sourceLang: 'en',
+    publishedAt: '2026-10-11T21:32:01.528Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Gran_Premio_Ciudad_de_Buenos_Aires_2026%2C_Domingo_-_14.jpg/1920px-Gran_Premio_Ciudad_de_Buenos_Aires_2026%2C_Domingo_-_14.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Estadio de Man City, líder de Premier League",
+      credit: "Just a Man · CC BY 4.0 · Wikimedia Commons",
+      license: "CC BY 4.0",
+    },
+  },
+  {
+    slug: 'clasificacion-laliga-semana-2026-41',
+    title: "LaLiga: así queda la clasificación esta semana, con Barcelona líder",
+    summary: "Así está LaLiga: Barcelona lidera la tabla con 24 puntos. Tabla comentada de LaLiga 2026: cabeza, zona baja y enlace a la clasificación completa.",
+    body: `Así está LaLiga: Barcelona lidera la tabla con 24 puntos.
+
+## La tabla
+
+1. **Barcelona** — 24 pts (8G-0E-0P, +27)
+2. **Atlético** — 19 pts (6G-1E-1P, +10)
+3. **Betis** — 19 pts (6G-1E-1P, +5)
+4. **Real Madrid** — 18 pts (6G-0E-2P, +11)
+5. **Sevilla** — 13 pts (4G-1E-2P, +1)
+6. **Real Sociedad** — 13 pts (4G-1E-3P, -3)
+
+En la zona baja: Levante (5 pts), Valencia (5 pts) y Málaga (4 pts).
+
+La clasificación completa, con todos los equipos y los próximos partidos, está en la [página de LaLiga](/futbol/laliga).`,
+    category: 'general',
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/standings/_/league/esp.1",
+    sourceLang: 'en',
+    publishedAt: '2026-10-11T21:32:01.528Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Porta_para_un_centenario_Pilar_Urbano._Exteriores_do_Camp_Nou._Barcelona_B35.jpg/1920px-Porta_para_un_centenario_Pilar_Urbano._Exteriores_do_Camp_Nou._Barcelona_B35.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Estadio de Barcelona, líder de LaLiga",
+      credit: "Luis Miguel Bugallo Sánchez (Lmbuga) · CC BY-SA 3.0 · Wikimedia Commons",
+      license: "CC BY-SA 3.0",
+    },
+  },
+  {
+    slug: 'previa-levante-sevilla-401882852',
+    title: "Levante - Sevilla: horario, dónde ver y cómo llegan a LaLiga",
+    summary: "Previa del Levante - Sevilla de LaLiga (lunes 12 de octubre, 21:00 h): situación en la tabla, canal de TV y enlace a la ficha en directo.",
+    body: `Cita de LaLiga este lunes 12 de octubre: Levante contra Sevilla. Se juega a las **21:00 h** (hora de España) en Estadi Ciutat de València.
+
+## Cómo llegan
+
+Levante llega 18.º con 5 puntos (1G-2E-3P) y Sevilla 5.º con 13 (4G-1E-2P).
+
+## Dónde ver el partido
+
+Se emite en **M+ LALIGA**. Alineaciones en cuanto se confirmen, marcador en directo y narración en la [ficha del Levante - Sevilla](/futbol/laliga/partido/401882852).
+
+El resto de la jornada, en [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882852",
+    sourceLang: 'en',
+    publishedAt: '2026-10-11T21:32:01.528Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Estadi_Ciutat_de_Val%C3%A8ncia_-_nocturna.jpg/1920px-Estadi_Ciutat_de_Val%C3%A8ncia_-_nocturna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Estadi Ciutat de València, sede del Levante - Sevilla",
+      credit: "Francesc Fort · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'cronica-rayo-athletic-401882849',
+    title: "Rayo y Athletic empatan 0-0 en LaLiga",
+    summary: "Rayo y Athletic empataron 0-0 en LaLiga. El partido acabó sin goles. Datos, momentos clave y lo que cambia en la clasificación.",
+    body: `Rayo y Athletic empataron 0-0 en LaLiga. El partido acabó sin goles.
+
+## Cómo se decidió
+
+Rayo manejó el balón (55 % por 45 %) y tiró 1 veces, 1 entre los tres palos; Athletic se quedó en 1 remates (0 a puerta). El partido se emitió en DAZN LaLiga y DAZN.
+
+## Qué cambia en la tabla
+
+Tras el partido, Rayo 13.º con 8 puntos y Athletic 10.º con 8 puntos en la [clasificación de LaLiga](/futbol/laliga).
+
+Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto están en la [ficha del partido](/futbol/laliga/partido/401882849).`,
+    category: 'general',
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882849",
+    sourceLang: 'en',
+    publishedAt: '2026-10-11T21:32:01.528Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Estadio_de_vallecas.jpg/1920px-Estadio_de_vallecas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Estadio de Vallecas, donde se jugó el Rayo - Athletic",
+      credit: "Rubén Sobrino · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'cronica-alaves-atletico-401882856',
+    title: "Atlético gana 2-1 en casa de Alavés en LaLiga",
+    summary: "Victoria de Atlético ante Alavés (2-1) en LaLiga. En el marcador, Alejandro Grimaldo (33', Atlético) y Cristian Romero (87', Atlético). Datos, momentos clave y lo que cambia en la clasificación.",
+    body: `Victoria de Atlético ante Alavés (2-1) en LaLiga. En el marcador, Alejandro Grimaldo (33', Atlético) y Cristian Romero (87', Atlético). Hubo 1 expulsión: Ángel Pérez.
+
+## Cómo se decidió
+
+Alavés manejó el balón (32 % por 68 %) y tiró 8 veces, 3 entre los tres palos; Atlético se quedó en 22 remates (7 a puerta). El partido se emitió en M+ LALIGA.
+
+## Qué cambia en la tabla
+
+Tras el partido, Alavés 7.º con 11 puntos y Atlético 2.º con 19 puntos en la [clasificación de LaLiga](/futbol/laliga).
+
+Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto están en la [ficha del partido](/futbol/laliga/partido/401882856).`,
+    category: 'general',
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882856",
+    sourceLang: 'en',
+    publishedAt: '2026-10-11T21:32:01.528Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Mendizorrotza_mendia_%28gasteiz%29.jpg/1920px-Mendizorrotza_mendia_%28gasteiz%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Mendizorrotza, donde se jugó el Alavés - Atlético",
+      credit: "Assar · CC BY-SA 3.0 · Wikimedia Commons",
+      license: "CC BY-SA 3.0",
+    },
+  },
+  {
+    slug: 'cronica-barcelona-getafe-401882853',
+    title: "Barcelona gana 3-0 a Getafe en LaLiga",
+    summary: "Barcelona ganó 3-0 a Getafe en el partido de LaLiga. Marcaron Anthony Gordon (2', Barcelona), Gabriel Jesus (30', Barcelona) y Jules Koundé (73', Barcelona). Datos, momentos clave y lo que cambia en la clasificación.",
+    body: `Barcelona ganó 3-0 a Getafe en el partido de LaLiga. Marcaron Anthony Gordon (2', Barcelona), Gabriel Jesus (30', Barcelona) y Jules Koundé (73', Barcelona).
+
+## Cómo se decidió
+
+Barcelona tuvo el 83 % de la posesión por el 17 % de Getafe; remató 23 veces (8 a puerta) frente a 4 (1) del rival. El partido se emitió en DAZN LaLiga y DAZN.
+
+## Qué cambia en la tabla
+
+Tras el partido, Barcelona 1.º con 24 puntos y Getafe 14.º con 8 puntos en la [clasificación de LaLiga](/futbol/laliga).
+
+Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto están en la [ficha del partido](/futbol/laliga/partido/401882853).`,
+    category: 'general',
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882853",
+    sourceLang: 'en',
+    publishedAt: '2026-10-11T21:32:01.528Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/NOU_CAMP.jpg/1920px-NOU_CAMP.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Spotify Camp Nou, donde se jugó el Barcelona - Getafe",
+      credit: "Roxymatic · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'cronica-real-madrid-villarreal-401882848',
+    title: "Real Madrid gana 1-0 a Villarreal en LaLiga, con gol de Yan Diomande",
+    summary: "Real Madrid se impuso a Villarreal por 1-0 en LaLiga. Los goles: Yan Diomande (62', Real Madrid). Datos, momentos clave y lo que cambia en la clasificación.",
+    body: `Real Madrid se impuso a Villarreal por 1-0 en LaLiga. Los goles: Yan Diomande (62', Real Madrid). Hubo 1 expulsión: Vinícius Júnior.
+
+## Cómo se decidió
+
+Real Madrid tuvo el 46 % de la posesión por el 54 % de Villarreal; remató 11 veces (4 a puerta) frente a 15 (4) del rival. El partido se emitió en M+ LALIGA y Movistar Plus+.
+
+## Qué cambia en la tabla
+
+Tras el partido, Real Madrid 4.º con 18 puntos y Villarreal 11.º con 8 puntos en la [clasificación de LaLiga](/futbol/laliga).
+
+Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto están en la [ficha del partido](/futbol/laliga/partido/401882848).`,
+    category: 'general',
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882848",
+    sourceLang: 'en',
+    publishedAt: '2026-10-11T21:32:01.528Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Santiagobernabeupanoramav45.JPG/1920px-Santiagobernabeupanoramav45.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Santiago Bernabéu, donde se jugó el Real Madrid - Villarreal",
+      credit: "لا روسا · CC BY-SA 3.0 · Wikimedia Commons",
+      license: "CC BY-SA 3.0",
+    },
+  },
+  {
+    slug: 'cronica-elche-celta-vigo-401882854',
+    title: "Elche y Celta Vigo empatan 0-0 en LaLiga",
+    summary: "Elche y Celta Vigo empataron 0-0 en LaLiga. El partido acabó sin goles. Datos, momentos clave y lo que cambia en la clasificación.",
+    body: `Elche y Celta Vigo empataron 0-0 en LaLiga. El partido acabó sin goles.
+
+## Cómo se decidió
+
+La posesión fue 67 %-33 % para Elche. En remates, 13 de Elche (2 a puerta) por 7 de Celta Vigo (0). El partido se emitió en M+ LALIGA.
+
+## Qué cambia en la tabla
+
+Tras el partido, Elche 17.º con 6 puntos y Celta Vigo 9.º con 8 puntos en la [clasificación de LaLiga](/futbol/laliga).
+
+Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto están en la [ficha del partido](/futbol/laliga/partido/401882854).`,
+    category: 'general',
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882854",
+    sourceLang: 'en',
+    publishedAt: '2026-10-11T21:32:01.528Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Estadio_Mart%C3%ADnezValero_Elche.jpg/1920px-Estadio_Mart%C3%ADnezValero_Elche.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Estadio Martínez Valero, donde se jugó el Elche - Celta Vigo",
+      credit: "José Carlos Díez · Public domain · Wikimedia Commons",
+      license: "Public domain",
+    },
+  },
+  {
+    slug: 'cronica-real-sociedad-deportivo-401882847',
+    title: "Real Sociedad gana 3-2 a Deportivo en LaLiga",
+    summary: "Real Sociedad se impuso a Deportivo por 3-2 en LaLiga. En el marcador, Jon Martín (29', Real Sociedad), Arsen Zakharyan (34', Real Sociedad), Gonçalo Guedes (54', Real Sociedad) y Mario Soriano Carreno (61', Deportivo). Datos, momentos clave y lo que cambia en la clasificación.",
+    body: `Real Sociedad se impuso a Deportivo por 3-2 en LaLiga. En el marcador, Jon Martín (29', Real Sociedad), Arsen Zakharyan (34', Real Sociedad), Gonçalo Guedes (54', Real Sociedad) y Mario Soriano Carreno (61', Deportivo). Hubo 2 expulsiones: Pablo Marín y Lorenzo Amatucci.
+
+## Cómo se decidió
+
+La posesión fue 40 %-60 % para Real Sociedad. En remates, 12 de Real Sociedad (4 a puerta) por 21 de Deportivo (7). El partido se emitió en DAZN LaLiga y DAZN.
+
+## Qué cambia en la tabla
+
+Tras el partido, Real Sociedad 6.º con 13 puntos y Deportivo 8.º con 10 puntos en la [clasificación de LaLiga](/futbol/laliga).
+
+Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto están en la [ficha del partido](/futbol/laliga/partido/401882847).`,
+    category: 'general',
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882847",
+    sourceLang: 'en',
+    publishedAt: '2026-10-11T21:32:01.528Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Reale_Arena_-_Pankarta_-_Donostia_2020.jpg/1920px-Reale_Arena_-_Pankarta_-_Donostia_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Reale Arena, donde se jugó el Real Sociedad - Deportivo",
+      credit: "Iñaki LL · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'cronica-betis-osasuna-401882855',
+    title: "Betis gana 5-2 a Osasuna en LaLiga",
+    summary: "Betis ganó 5-2 a Osasuna en el partido de LaLiga. Los goles: Abde Ezzalzouli (31', Betis), Ante Budimir (48', Betis, p.p.), Ante Budimir (51', Osasuna), Raúl García (56', Osasuna), Isco (67', Betis) y José Morante (90'+6', Betis). Datos, momentos clave y lo que cambia en la clasificación.",
+    body: `Betis ganó 5-2 a Osasuna en el partido de LaLiga. Los goles: Abde Ezzalzouli (31', Betis), Ante Budimir (48', Betis, p.p.), Ante Budimir (51', Osasuna), Raúl García (56', Osasuna), Isco (67', Betis) y José Morante (90'+6', Betis).
+
+## Cómo se decidió
+
+Betis manejó el balón (52 % por 48 %) y tiró 20 veces, 7 entre los tres palos; Osasuna se quedó en 11 remates (5 a puerta). El partido se emitió en M+ LALIGA.
+
+## Qué cambia en la tabla
+
+Tras el partido, Betis 3.º con 19 puntos y Osasuna 16.º con 8 puntos en la [clasificación de LaLiga](/futbol/laliga).
+
+Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto están en la [ficha del partido](/futbol/laliga/partido/401882855).`,
+    category: 'general',
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882855",
+    sourceLang: 'en',
+    publishedAt: '2026-10-11T21:32:01.528Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/4/46/Seville_Estadio_Ol%C3%ADmpico_de_La_Cartuja_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      alt: "Estadio La Cartuja, donde se jugó el Betis - Osasuna",
+      credit: "Валерий Дед · CC BY 3.0 · Wikimedia Commons",
+      license: "CC BY 3.0",
+    },
+  },
+  {
+    slug: 'cronica-racing-valencia-401882850',
+    title: "Racing y Valencia empatan 2-2 en LaLiga",
+    summary: "Reparto de puntos entre Racing y Valencia (2-2) en LaLiga. En el marcador, Dani Raba (2', Valencia), Yassir Zabiri (32', Racing), Iván Martín (47', Racing) y David Otorbi (65', Valencia). Datos, momentos clave y lo que cambia en la clasificación.",
+    body: `Reparto de puntos entre Racing y Valencia (2-2) en LaLiga. En el marcador, Dani Raba (2', Valencia), Yassir Zabiri (32', Racing), Iván Martín (47', Racing) y David Otorbi (65', Valencia).
+
+## Cómo se decidió
+
+Racing manejó el balón (54 % por 46 %) y tiró 20 veces, 11 entre los tres palos; Valencia se quedó en 10 remates (2 a puerta). El partido se emitió en DAZN LaLiga y DAZN.
+
+## Qué cambia en la tabla
+
+Tras el partido, Racing 15.º con 8 puntos y Valencia 19.º con 5 puntos en la [clasificación de LaLiga](/futbol/laliga).
+
+Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto están en la [ficha del partido](/futbol/laliga/partido/401882850).`,
+    category: 'general',
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882850",
+    sourceLang: 'en',
+    publishedAt: '2026-10-11T21:32:01.528Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Santander.Real.Club.Racing.de.Santander.jpg/1920px-Santander.Real.Club.Racing.de.Santander.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "El Sardineros, donde se jugó el Racing - Valencia",
+      credit: "Wikimedia Commons · CC BY-SA 3.0 · Wikimedia Commons",
+      license: "CC BY-SA 3.0",
+    },
+  },
+  {
+    slug: 'partidos-baloncesto-hoy-2026-10-11',
+    title: "Partidos de baloncesto hoy, domingo 11 de octubre: horarios y dónde ver NBA",
+    summary: "Agenda de baloncesto de hoy domingo 11 de octubre: 1 partido con horario en hora española y canal de televisión. Destaca Rockets - Mavericks.",
+    body: `El baloncesto no para: 1 encuentro este domingo 11 de octubre. Esta es la agenda completa con horarios de España y televisión. El partido que más miradas reúne es el **[Rockets - Mavericks](/baloncesto/nba/partido/401898400)** (NBA, 12:00 h).
+
+## 🇺🇸 NBA
+
+- **[Rockets - Mavericks](/baloncesto/nba/partido/401898400)** — 12:00 h — **final 115-132**
+
+Calendario y clasificación en la [página de NBA](/baloncesto/nba).
+
+Hora peninsular en todos los casos. Si un canal cambia a última hora, la ficha del partido lo recoge. Toda la jornada, con marcadores en directo, en [partidos de hoy](/partidos-hoy).`,
+    category: 'tv',
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/nba/game/_/gameId/401898400",
+    sourceLang: 'en',
+    publishedAt: '2026-10-11T21:32:01.528Z',
+    modifiedAt: '2026-10-11T21:32:01.528Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Concert_poster_out_side_Venetian_Cotai_Arena.jpg/1920px-Concert_poster_out_side_Venetian_Cotai_Arena.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Venetian Arena, escenario del Rockets - Mavericks",
+      credit: "Alvin79 · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'partidos-futbol-hoy-2026-10-11',
+    title: "Partidos de fútbol hoy, domingo 11 de octubre: horarios y dónde ver LaLiga, Premier League y Serie A",
+    summary: "Agenda de fútbol de hoy domingo 11 de octubre: 23 partidos con horario en hora española y canal de televisión. Destaca Elche - Celta Vigo.",
+    body: `23 partidos de fútbol para domingo 11 de octubre. Repasamos qué se juega, a qué hora y en qué canal, sin más vueltas. El partido que más miradas reúne es el **[Elche - Celta Vigo](/futbol/laliga/partido/401882854)** (LaLiga, 14:00 h).
+
+## 🇮🇹 Serie A
+
+- **[Como - AS Roma](/futbol/serie-a/partido/401874940)** — 12:30 h · 📺 DAZN — **final 0-0**
+- **[Lazio - Monza](/futbol/serie-a/partido/401874951)** — 15:00 h · 📺 DAZN — **final 3-1**
+- **[Lecce - Bologna](/futbol/serie-a/partido/401874776)** — 15:00 h · 📺 DAZN — **final 1-2**
+- **[Sassuolo - Milan](/futbol/serie-a/partido/401874789)** — 18:00 h · 📺 DAZN — **final 1-1**
+- **[Cagliari - Juventus](/futbol/serie-a/partido/401874764)** — 20:45 h · 📺 DAZN / M+ Vamos 3 — **final 1-1**
+
+Calendario y clasificación en la [página de Serie A](/futbol/serie-a).
+
+## 🇪🇸 Copa del Rey
+
+- **[Guimar - Hortaleza](/futbol/copa-del-rey/partido/401918758)** — 13:00 h — **final 3-3**
+- **[AE Prat - San Rafael](/futbol/copa-del-rey/partido/401918752)** — 16:00 h — **final 5-0**
+
+Calendario y clasificación en la [página de Copa del Rey](/futbol/copa-del-rey).
+
+## 🇪🇸 LaLiga
+
+- **[Elche - Celta Vigo](/futbol/laliga/partido/401882854)** — 14:00 h · 📺 M+ LALIGA — **final 0-0**
+- **[Real Sociedad - Deportivo](/futbol/laliga/partido/401882847)** — 16:15 h · 📺 DAZN LaLiga / DAZN — **final 3-2**
+- **[Betis - Osasuna](/futbol/laliga/partido/401882855)** — 18:30 h · 📺 M+ LALIGA — **final 5-2**
+- **[Racing - Valencia](/futbol/laliga/partido/401882850)** — 21:00 h · 📺 DAZN LaLiga / DAZN — **final 2-2**
+
+Calendario y clasificación en la [página de LaLiga](/futbol/laliga).
+
+## 🇪🇸 LaLiga Hypermotion
+
+- **[FC Andorra - Castellón](/futbol/laliga-2/partido/401883188)** — 14:00 h · 📺 LALIGA TV Hypermotion / DAZN — **final 1-0**
+- **[Almería - Leganés](/futbol/laliga-2/partido/401883189)** — 16:15 h · 📺 LALIGA TV Hypermotion / DAZN — **final 3-0**
+- **[Mallorca - Las Palmas](/futbol/laliga-2/partido/401883183)** — 18:30 h · 📺 LALIGA TV Hypermotion / DAZN — **final 3-1**
+- **[Cádiz - Gijón](/futbol/laliga-2/partido/401883186)** — 21:00 h · 📺 LALIGA TV Hypermotion / DAZN — **final 0-1**
+
+Calendario y clasificación en la [página de LaLiga 2](/futbol/laliga-2).
+
+## 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Premier League
+
+- **[C Palace - Nottm Forest](/futbol/premier-league/partido/401879266)** — 15:00 h · 📺 DAZN — **final 3-1**
+- **[Hull - Everton](/futbol/premier-league/partido/401878774)** — 15:00 h · 📺 DAZN — **final 2-2**
+- **[Liverpool - Man City](/futbol/premier-league/partido/401879264)** — 17:30 h · 📺 DAZN / Movistar Plus+ — **final 0-3**
+
+Calendario y clasificación en la [página de Premier League](/futbol/premier-league).
+
+## 🇫🇷 Ligue 1
+
+- **[Nice - Strasbourg](/futbol/ligue-1/partido/401876443)** — 15:00 h · 📺 DAZN — **final 2-1**
+- **[Rennes - Auxerre](/futbol/ligue-1/partido/401876441)** — 17:15 h · 📺 DAZN — **final 4-1**
+- **[Troyes - Marseille](/futbol/ligue-1/partido/401876440)** — 20:45 h · 📺 DAZN — **final 0-2**
+
+Calendario y clasificación en la [página de Ligue 1](/futbol/ligue-1).
+
+## 🇩🇪 Bundesliga
+
+- **[Cologne - Gladbach](/futbol/bundesliga/partido/401884774)** — 15:30 h — **final 2-1**
+- **[Freiburg - Schalke](/futbol/bundesliga/partido/401884778)** — 17:30 h · 📺 DAZN — **final 2-1**
+
+Calendario y clasificación en la [página de Bundesliga](/futbol/bundesliga).
+
+Horarios en hora de España; los resultados y la narración de cada partido van en su ficha. Toda la jornada, con marcadores en directo, en [partidos de hoy](/partidos-hoy).`,
+    category: 'tv',
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882854",
+    sourceLang: 'en',
+    publishedAt: '2026-10-11T21:32:01.528Z',
+    modifiedAt: '2026-10-11T21:32:01.528Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Estadio_Martinez_Valero%2C_banquillo.jpg/1920px-Estadio_Martinez_Valero%2C_banquillo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Estadio Martínez Valero, escenario del Elche - Celta Vigo",
+      credit: "Ruben Ortega · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
     slug: 'partidos-mundial-2026-hoy-2026-07-19',
     title: "Partidos del Mundial 2026 hoy, Domingo 19 de julio: España juega, horarios y dónde ver gratis (La 1) o en DAZN",
     summary: "Hoy domingo 19 de julio se juega España - Argentina en el Mundial 2026. Horario en hora española, sede y dónde verlo en TV. Hoy en abierto y gratis en La 1: España - Argentina. El resto, en DAZN / Movistar Plus+.",
