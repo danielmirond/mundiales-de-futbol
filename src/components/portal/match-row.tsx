@@ -20,8 +20,10 @@ function Logo({ src, alt, sport }: { src?: string; alt: string; sport: string })
   );
 }
 
-/** Fila de partido genérica (cualquier deporte): equipos, marcador y estado. */
-export function MatchRow({ m, showDay = false, showCompetition = false }: { m: Match; showDay?: boolean; showCompetition?: boolean }) {
+/** Fila de partido genérica (cualquier deporte): equipos, marcador, estado y canal (si se sabe). */
+export function MatchRow({
+  m, showDay = false, showCompetition = false, channels = [],
+}: { m: Match; showDay?: boolean; showCompetition?: boolean; channels?: string[] }) {
   const played = m.state === 'post' && m.home.score != null && m.away.score != null;
   const live = m.state === 'in';
   const homeWin = played && m.home.score! > m.away.score!;
@@ -49,6 +51,21 @@ export function MatchRow({ m, showDay = false, showCompetition = false }: { m: M
           <span className="truncate">{m.away.name}</span><Logo src={m.away.logo} alt={m.away.name} sport={m.competition.sport} />
         </span>
       </span>
+      {channels.length > 0 && (
+        <span
+          className="hidden shrink-0 items-center gap-1 md:flex"
+          title={`Dónde ver: ${channels.join(', ')}`}
+          aria-label={`Dónde ver: ${channels.join(', ')}`}
+        >
+          <span aria-hidden className="text-xs">📺</span>
+          {channels.slice(0, 2).map((c) => (
+            <span key={c} className="max-w-[9rem] truncate rounded-full border border-[var(--color-border)] px-2 py-0.5 font-mono text-[9px] uppercase tracking-wider text-[var(--color-fg-muted)]">
+              {c}
+            </span>
+          ))}
+          {channels.length > 2 && <span className="font-mono text-[9px] text-[var(--color-fg-subtle)]">+{channels.length - 2}</span>}
+        </span>
+      )}
       {showCompetition && (
         <span className="hidden w-28 shrink-0 truncate text-end font-mono text-[10px] uppercase tracking-wider text-[var(--color-fg-subtle)] sm:block">
           {m.competition.name}

@@ -19,6 +19,8 @@ const MADRID = 'Europe/Madrid';
 export type MatchTeam = {
   abbr: string;
   name: string;
+  /** Nombre completo (displayName) — útil para cruzar con otros feeds (WOSTI). */
+  fullName: string;
   logo?: string;
   score: number | null;
   record?: string;
@@ -60,6 +62,7 @@ function normalizeEvent(e: any, comp: Competition): Match | null {
   const team = (x: any): MatchTeam => ({
     abbr: String(x.team?.abbreviation ?? '').toUpperCase(),
     name: x.team?.shortDisplayName ?? x.team?.displayName ?? x.team?.name ?? '',
+    fullName: x.team?.displayName ?? x.team?.shortDisplayName ?? x.team?.name ?? '',
     logo: x.team?.logo ?? x.team?.logos?.[0]?.href,
     score: num(x.score),
     record: x.records?.[0]?.summary,

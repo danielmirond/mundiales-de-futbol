@@ -3,6 +3,7 @@ import { ArrowRight, CalendarDays } from 'lucide-react';
 import { fetchToday } from '@/lib/espn';
 import { liveCompetitions } from '@/lib/competitions';
 import { routing, type Locale } from '@/i18n/routing';
+import { channelsFor } from '@/lib/wosti';
 import { MatchRow } from './match-row';
 
 const withLocale = (l: Locale, h: string) => (l === routing.defaultLocale ? h : `/${l}${h}`);
@@ -42,7 +43,14 @@ export async function PortalHero({ locale }: { locale: Locale }) {
 
         {featured.length > 0 && (
           <ul className="mt-8 max-w-3xl divide-y divide-[var(--color-border)] overflow-hidden rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg)]/70 backdrop-blur">
-            {featured.map((m) => <MatchRow key={`${m.competition.slug}-${m.id}`} m={m} showCompetition />)}
+            {featured.map((m) => (
+              <MatchRow
+                key={`${m.competition.slug}-${m.id}`}
+                m={m}
+                showCompetition
+                channels={m.competition.sport === 'futbol' ? channelsFor(m.date, [m.home.fullName, m.home.name], [m.away.fullName, m.away.name]) : []}
+              />
+            ))}
           </ul>
         )}
 

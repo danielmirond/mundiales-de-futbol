@@ -3,7 +3,14 @@ import { ArrowRight } from 'lucide-react';
 import { fetchToday, fetchWindow, dayKeys, type Match } from '@/lib/espn';
 import { competitionPath, type Competition } from '@/lib/competitions';
 import { routing, type Locale } from '@/i18n/routing';
+import { channelsFor } from '@/lib/wosti';
 import { MatchRow } from './match-row';
+
+/** Canales (WOSTI) solo para fútbol; el feed no cubre otros deportes. */
+const tv = (m: Match) =>
+  m.competition.sport === 'futbol'
+    ? channelsFor(m.date, [m.home.fullName, m.home.name], [m.away.fullName, m.away.name])
+    : [];
 
 const withLocale = (l: Locale, h: string) => (l === routing.defaultLocale ? h : `/${l}${h}`);
 
@@ -64,7 +71,7 @@ export async function TodayBoard({
               </div>
               <ul className="divide-y divide-[var(--color-border)] overflow-hidden rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg)]">
                 {(limitPerGroup ? items.slice(0, limitPerGroup) : items).map((m) => (
-                  <MatchRow key={m.id} m={m} showDay={range !== 'today'} />
+                  <MatchRow key={m.id} m={m} showDay={range !== 'today'} channels={tv(m)} />
                 ))}
               </ul>
               {limitPerGroup && items.length > limitPerGroup && (
@@ -77,7 +84,7 @@ export async function TodayBoard({
         </div>
       ) : (
         <ul className="divide-y divide-[var(--color-border)] overflow-hidden rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg)]">
-          {matches.map((m) => <MatchRow key={`${m.competition.slug}-${m.id}`} m={m} showDay={range !== 'today'} showCompetition />)}
+          {matches.map((m) => <MatchRow key={`${m.competition.slug}-${m.id}`} m={m} showDay={range !== 'today'} showCompetition channels={tv(m)} />)}
         </ul>
       )}
     </section>
