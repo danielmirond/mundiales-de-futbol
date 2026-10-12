@@ -12,9 +12,10 @@ export type EspnPath = { sport: string; league: string };
 const WORLD_CUP: EspnPath = { sport: 'soccer', league: 'fifa.world' };
 
 /** Cabecera del partido (equipos, marcador, fecha, sede) tal como la da ESPN. */
+export type SummarySide = { id?: string; abbr: string; name: string; logo?: string; color?: string; linescores?: number[]; shootout?: number | null };
 export type SummaryHeader = {
-  home: { id?: string; abbr: string; name: string; logo?: string };
-  away: { id?: string; abbr: string; name: string; logo?: string };
+  home: SummarySide;
+  away: SummarySide;
   date: string;
   venue: string;
   competition: string;
@@ -55,6 +56,9 @@ export type MatchSummary = {
   awayScore: number | null;
   clock: string | null;
   state: 'pre' | 'in' | 'post' | string;
+  /** Nombre de estado ESPN (STATUS_HALFTIME, STATUS_FINAL_PEN, STATUS_POSTPONED…). */
+  statusName?: string;
+  period?: number;
   hasLineups: boolean;
   hasEvents: boolean;
   hasStats: boolean;
@@ -167,7 +171,7 @@ export async function fetchEventSummary(
   const headerComp = data.header?.competitions?.[0] ?? {};
   let homeScore: number | null = null;
   let awayScore: number | null = null;
-  const sideInfo: Record<'home' | 'away', { id?: string; abbr: string; name: string; logo?: string }> = {
+  const sideInfo: Record<'home' | 'away', SummarySide> = {
     home: { abbr: '', name: '' }, away: { abbr: '', name: '' },
   };
   for (const c of headerComp.competitors ?? []) {
@@ -182,11 +186,16 @@ export async function fetchEventSummary(
         abbr: String(c.team?.abbreviation ?? '').toUpperCase(),
         name: c.team?.displayName ?? c.team?.shortDisplayName ?? c.team?.name ?? '',
         logo: c.team?.logos?.[0]?.href ?? c.team?.logo,
+        color: c.team?.color,
+        linescores: Array.isArray(c.linescores) ? c.linescores.map((l: any) => Number(l.displayValue ?? l.value ?? 0)) : undefined,
+        shootout: c.shootoutScore === undefined || c.shootoutScore === null || c.shootoutScore === '' ? null : Number(c.shootoutScore),
       };
     }
   }
   const clock: string | null = headerComp.status?.displayClock ?? null;
   const state: string = headerComp.status?.type?.state ?? 'pre';
+  const statusName: string = headerComp.status?.type?.name ?? '';
+  const period: number | undefined = headerComp.status?.period ? Number(headerComp.status.period) : undefined;
   const header: SummaryHeader = {
     home: sideInfo.home,
     away: sideInfo.away,
@@ -308,6 +317,8 @@ export async function fetchEventSummary(
     awayScore,
     clock,
     state,
+    statusName,
+    period,
     hasLineups,
     hasEvents,
     hasStats,
