@@ -17,20 +17,30 @@ const HEADERS = { 'User-Agent': 'Mozilla/5.0 (mundiales-de-futbol.com)' };
 const MADRID = 'Europe/Madrid';
 
 export type MatchTeam = {
+  /** Id ESPN del equipo (enlace a /equipo/{id}). */
+  id?: string;
   abbr: string;
   name: string;
   /** Nombre completo (displayName) — útil para cruzar con otros feeds (WOSTI). */
   fullName: string;
   logo?: string;
+  /** Color primario del club (hex sin #) para el placeholder de escudo. */
+  color?: string;
   score: number | null;
+  /** Goles en la tanda de penaltis, si la hubo. */
+  shootout?: number | null;
   record?: string;
 };
 
 export type Match = {
   id: string;
   date: string; // ISO (UTC)
-  state: 'pre' | 'in' | 'post';
+  state: 'pre' | 'in' | 'post' | 'ppd';
   status: string; // "FT", "Final", "45'", "Scheduled"…
+  /** Nombre de estado ESPN (STATUS_HALFTIME, STATUS_END_PERIOD, STATUS_FINAL_PEN…). */
+  statusName?: string;
+  /** Periodo en curso (cuarto, parte). */
+  period?: number;
   clock?: string;
   home: MatchTeam;
   away: MatchTeam;
@@ -64,14 +74,22 @@ function normalizeEvent(e: any, comp: Competition): Match | null {
     name: x.team?.shortDisplayName ?? x.team?.displayName ?? x.team?.name ?? '',
     fullName: x.team?.displayName ?? x.team?.shortDisplayName ?? x.team?.name ?? '',
     logo: x.team?.logo ?? x.team?.logos?.[0]?.href,
+    color: x.team?.color,
     score: num(x.score),
+    shootout: num(x.shootoutScore),
     record: x.records?.[0]?.summary,
+    id: x.team?.id ? String(x.team.id) : undefined,
   });
+  const statusName: string = e.status?.type?.name ?? '';
+  const rawState = (e.status?.type?.state ?? 'pre') as Match['state'];
+  const state: Match['state'] = /POSTPONED|CANCELED|SUSPENDED|ABANDONED/.test(statusName) ? 'ppd' : rawState;
   return {
     id: String(e.id ?? ''),
     date: e.date ?? '',
-    state: (e.status?.type?.state ?? 'pre') as Match['state'],
+    state,
     status: e.status?.type?.shortDetail ?? e.status?.type?.description ?? '',
+    statusName,
+    period: e.status?.period ? Number(e.status.period) : undefined,
     clock: e.status?.displayClock,
     home: team(h),
     away: team(a),

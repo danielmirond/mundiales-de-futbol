@@ -14,6 +14,7 @@ export type SportSlug = 'futbol' | 'baloncesto' | 'rugby' | 'balonmano' | 'motor
 export type Sport = {
   slug: SportSlug;
   name: string;
+  /** Emoji heredado (archivo histórico); el portal usa `Icon` del set propio. */
   emoji: string;
   description: string;
 };

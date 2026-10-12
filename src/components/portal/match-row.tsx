@@ -1,86 +1,111 @@
 import Link from 'next/link';
 import type { Match } from '@/lib/espn';
+import { Crest } from './crest';
+import { ChannelChips } from './channel-chips';
 
 const MADRID = 'Europe/Madrid';
 const timeFmt = new Intl.DateTimeFormat('es-ES', { timeZone: MADRID, hour: '2-digit', minute: '2-digit', hourCycle: 'h23' });
 const dayFmt = new Intl.DateTimeFormat('es', { timeZone: MADRID, weekday: 'short', day: 'numeric', month: 'short' });
 
-// Icono de respaldo por deporte cuando ESPN no da logo (p. ej. rivales de
-// pretemporada o equipos modestos de Copa).
-const SPORT_FALLBACK: Record<string, string> = {
-  futbol: '⚽', baloncesto: '🏀', rugby: '🏉', balonmano: '🤾', motor: '🏎️', tenis: '🎾',
-};
-
-function Logo({ src, alt, sport }: { src?: string; alt: string; sport: string }) {
-  // Logos de ESPN (a.espncdn.com) — <img> plano: pequeños y sin optimizar.
-  return src ? (
-    // eslint-disable-next-line @next/next/no-img-element
-    <img src={src} alt={alt} width={24} height={24} loading="lazy" className="h-6 w-6 shrink-0 object-contain" />
-  ) : (
-    <span aria-hidden className="grid h-6 w-6 shrink-0 place-items-center text-xs">{SPORT_FALLBACK[sport] ?? '🏟️'}</span>
-  );
+/** Reloj corto: `67′` en fútbol, `4.º 3:12` en baloncesto. */
+export function shortClock(m: Pick<Match, 'clock' | 'period' | 'statusName' | 'competition'>): string {
+  if (/HALFTIME/.test(m.statusName ?? '')) return 'Desc.';
+  if (m.competition.sport === 'baloncesto' && m.period) return `${m.period}.º ${m.clock ?? ''}`.trim();
+  const c = (m.clock ?? '').replace(/'$/, '′');
+  return c || 'En vivo';
 }
 
-/** Fila de partido genérica (cualquier deporte): equipos, marcador, estado y canal (si se sabe). */
+/**
+ * Fila de partido (sistema de diseño · 07). Una sola fila para todos los
+ * deportes y estados. La fila entera enlaza a la ficha; los nombres enlazan
+ * al equipo. Escritorio: `72px | equipos | 230px`; móvil: equipos apilados.
+ */
 export function MatchRow({
-  m, showDay = false, showCompetition = false, channels = [], href,
-}: { m: Match; showDay?: boolean; showCompetition?: boolean; channels?: string[]; href?: string }) {
-  const played = m.state === 'post' && m.home.score != null && m.away.score != null;
+  m, showDay = false, showCompetition = false, channels = [], href, teamHref,
+}: {
+  m: Match; showDay?: boolean; showCompetition?: boolean; channels?: string[]; href?: string;
+  /** Enlace a la ficha de equipo por id ESPN. */
+  teamHref?: (id: string) => string;
+}) {
   const live = m.state === 'in';
+  const ppd = m.state === 'ppd';
+  const played = m.state === 'post' && m.home.score != null && m.away.score != null;
+  const pre = !live && !played && !ppd;
   const homeWin = played && m.home.score! > m.away.score!;
   const awayWin = played && m.away.score! > m.home.score!;
   const ms = new Date(m.date).getTime();
-  // La fila entera enlaza a la ficha (alineaciones, narración, stats) si hay href.
-  const Wrap = href
-    ? ({ children }: { children: React.ReactNode }) => (
-        <Link href={href} className="flex items-center gap-3 px-4 py-3 transition-colors hover:bg-[var(--color-bg-2)]">{children}</Link>
-      )
-    : ({ children }: { children: React.ReactNode }) => <div className="flex items-center gap-3 px-4 py-3">{children}</div>;
+  const pens = played && m.home.shootout != null && m.away.shootout != null ? `${m.home.shootout}-${m.away.shootout} pen.` : null;
+  const sport = m.competition.sport;
+
+  const timeCell = live ? (
+    <><i className="pulse" />{shortClock(m)}</>
+  ) : ppd ? 'Aplaz.' : played ? (showDay ? dayFmt.format(ms) : 'Final') : (showDay ? `${dayFmt.format(ms)} ${timeFmt.format(ms)}` : timeFmt.format(ms));
+
+  const Name = ({ t, win }: { t: Match['home']; win: boolean }) => {
+    const cls = `nm min-w-0 truncate ${win ? 'font-semibold text-[var(--color-fg)]' : ''}`;
+    return t.id && teamHref ? (
+      <Link href={teamHref(t.id)} className={`${cls} relative z-10 hover:text-[var(--accent-ink)]`}>{t.name}</Link>
+    ) : <span className={cls}>{t.name}</span>;
+  };
+  const crest = (t: Match['home'], size: 'm' | 's') => <Crest src={t.logo} abbr={t.abbr} color={t.color} size={size} />;
+  const tone = pre || live ? 'text-[var(--color-fg)]' : ppd ? 'text-[var(--color-fg-subtle)]' : 'text-[var(--color-fg-muted)]';
+  const chips = <ChannelChips channels={channels} sport={sport} venue={m.venue} compact />;
+
   return (
-    <li><Wrap>
-      <span className="w-16 shrink-0 text-center font-mono text-[11px] uppercase tracking-wider text-[var(--color-fg-muted)]">
-        {live ? (
-          <span className="text-[var(--color-flame)]">🔴 {m.clock || 'EN VIVO'}</span>
-        ) : played ? (
-          <span>{showDay ? dayFmt.format(ms) : 'Final'}</span>
-        ) : (
-          <span className="tab-num">{showDay ? `${dayFmt.format(ms)} · ` : ''}{timeFmt.format(ms)}</span>
-        )}
-      </span>
-      <span className="flex min-w-0 flex-1 items-center justify-between gap-2">
-        <span className={`flex min-w-0 items-center gap-2 text-sm ${homeWin ? 'font-semibold text-[var(--color-fg)]' : 'text-[var(--color-fg-muted)]'}`}>
-          <Logo src={m.home.logo} alt={m.home.name} sport={m.competition.sport} /><span className="truncate">{m.home.name}</span>
+    <li className={`relative transition-colors hover:bg-[var(--color-surface)] ${live ? 'is-live' : ''}`}>
+      {href && <Link href={href} className="absolute inset-0 z-0" aria-label={`${m.home.name} - ${m.away.name}`} />}
+
+      {/* Escritorio */}
+      <div className="hidden min-h-[60px] items-center gap-4 px-5 md:grid md:grid-cols-[72px_minmax(0,1fr)_230px]">
+        <span className={`flex items-center gap-2 font-mono text-[13px] uppercase tracking-[0.04em] tab-num ${live ? 'text-[var(--color-live-ink)]' : 'text-[var(--color-fg-muted)]'}`}>{timeCell}</span>
+        <span className="grid grid-cols-[minmax(0,1fr)_80px_minmax(0,1fr)] items-center gap-3">
+          <span className={`flex min-w-0 items-center gap-2.5 text-[15px] ${tone}`}>{crest(m.home, 'm')}<Name t={m.home} win={homeWin} /></span>
+          <span className={`text-center ${played || live ? `n-m ${live ? 'text-[var(--color-live-ink)]' : ''}` : 'font-mono text-[11px] uppercase tracking-[0.14em] text-[var(--color-fg-subtle)]'}`}>
+            {played || live ? `${m.home.score ?? 0}–${m.away.score ?? 0}` : ppd ? '—' : 'vs'}
+            {pens && <small className="block font-mono text-[9px] tracking-[0.06em] text-[var(--color-fg-subtle)]">{pens}</small>}
+          </span>
+          <span className={`flex min-w-0 items-center justify-end gap-2.5 text-right text-[15px] ${tone}`}><Name t={m.away} win={awayWin} />{crest(m.away, 'm')}</span>
         </span>
-        <span className="shrink-0 font-display tab-num text-lg text-[var(--color-fg)]">
-          {played || live ? `${m.home.score ?? 0}-${m.away.score ?? 0}` : 'vs'}
+        <span className="relative z-10 flex min-w-0 items-center justify-end gap-2">
+          {ppd ? <span className="ch tbd">Nueva fecha por confirmar</span> : chips}
+          {showCompetition && <span className="hidden shrink-0 font-mono text-[10px] uppercase tracking-wider text-[var(--color-fg-subtle)] xl:inline">{m.competition.name}</span>}
         </span>
-        <span className={`flex min-w-0 items-center justify-end gap-2 text-sm ${awayWin ? 'font-semibold text-[var(--color-fg)]' : 'text-[var(--color-fg-muted)]'}`}>
-          <span className="truncate">{m.away.name}</span><Logo src={m.away.logo} alt={m.away.name} sport={m.competition.sport} />
+      </div>
+
+      {/* Móvil */}
+      <div className="grid grid-cols-[46px_minmax(0,1fr)_auto] items-center gap-x-3 gap-y-1 px-4 py-3 md:hidden">
+        <span className={`grid justify-items-center gap-1 text-center font-mono text-[12px] tab-num ${live ? 'text-[var(--color-live-ink)]' : 'text-[var(--color-fg-muted)]'}`}>{timeCell}</span>
+        <span className="grid gap-1.5">
+          <span className={`flex items-center gap-2 text-[14.5px] ${tone}`}>{crest(m.home, 's')}<Name t={m.home} win={homeWin} /></span>
+          <span className={`flex items-center gap-2 text-[14.5px] ${tone}`}>{crest(m.away, 's')}<Name t={m.away} win={awayWin} /></span>
         </span>
-      </span>
-      {channels.length > 0 && (
-        <span
-          className="flex shrink-0 items-center gap-1"
-          title={`Dónde ver: ${channels.join(', ')}`}
-          aria-label={`Dónde ver: ${channels.join(', ')}`}
-        >
-          <span aria-hidden className="text-xs">📺</span>
-          {channels.slice(0, 2).map((c, i) => (
-            <span
-              key={c}
-              className={`max-w-[7rem] truncate rounded-full border border-[var(--color-border)] px-2 py-0.5 font-mono text-[9px] uppercase tracking-wider text-[var(--color-fg-muted)] md:max-w-[9rem] ${i > 0 ? 'hidden md:inline' : ''}`}
-            >
-              {c}
-            </span>
-          ))}
-          {channels.length > 2 && <span className="hidden font-mono text-[9px] text-[var(--color-fg-subtle)] md:inline">+{channels.length - 2}</span>}
+        <span className={`grid gap-1.5 text-right font-display text-[19px] leading-5 tab-num ${live ? 'text-[var(--color-live-ink)]' : ''}`}>
+          {(played || live) ? <><span>{m.home.score ?? 0}</span><span>{m.away.score ?? 0}</span></> : null}
         </span>
+        <span className="relative z-10 col-start-2 col-end-4 mt-1 flex items-center gap-1.5">
+          {ppd ? <span className="ch tbd">Nueva fecha por confirmar</span> : <ChannelChips channels={channels} sport={sport} venue={m.venue} max={1} />}
+          {pens && <span className="font-mono text-[9px] text-[var(--color-fg-subtle)]">{pens}</span>}
+          {showCompetition && <span className="ml-auto font-mono text-[10px] uppercase tracking-wider text-[var(--color-fg-subtle)]">{m.competition.name}</span>}
+        </span>
+      </div>
+    </li>
+  );
+}
+
+/** Lista de partidos con cabecera (`.mlist`): kicker de competición, título y enlace. */
+export function MatchList({
+  sport, kicker, title, more, children,
+}: { sport: string; kicker?: React.ReactNode; title?: React.ReactNode; more?: { href: string; label: string }; children: React.ReactNode }) {
+  return (
+    <div data-sport={sport} className="overflow-hidden rounded-[18px] border border-[var(--color-border)] bg-[var(--color-bg-2)]">
+      {(kicker || title || more) && (
+        <div className="flex items-center gap-3 border-b border-[var(--color-border)] px-5 py-3.5">
+          {kicker && <span className="kicker">{kicker}</span>}
+          {title && <span className="text-[15px] font-semibold text-[var(--color-fg)]">{title}</span>}
+          {more && <Link href={more.href} className="ml-auto font-mono text-[11px] tracking-[0.06em] text-[var(--color-fg-subtle)] hover:text-[var(--color-fg)]">{more.label}</Link>}
+        </div>
       )}
-      {showCompetition && (
-        <span className="hidden w-28 shrink-0 truncate text-end font-mono text-[10px] uppercase tracking-wider text-[var(--color-fg-subtle)] sm:block">
-          {m.competition.name}
-        </span>
-      )}
-    </Wrap></li>
+      <ul className="divide-y divide-[var(--color-border)]">{children}</ul>
+    </div>
   );
 }

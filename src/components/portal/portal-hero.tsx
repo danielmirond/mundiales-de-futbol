@@ -4,7 +4,8 @@ import { fetchToday } from '@/lib/espn';
 import { liveCompetitions } from '@/lib/competitions';
 import { routing, type Locale } from '@/i18n/routing';
 import { channelsFor, getWostiIndex } from '@/lib/wosti';
-import { MatchRow } from './match-row';
+import { MatchRow, MatchList } from './match-row';
+import { Icon } from '@/components/ui/icon';
 
 const withLocale = (l: Locale, h: string) => (l === routing.defaultLocale ? h : `/${l}${h}`);
 const dayFmt = new Intl.DateTimeFormat('es', { timeZone: 'Europe/Madrid', weekday: 'long', day: 'numeric', month: 'long' });
@@ -26,10 +27,7 @@ export async function PortalHero({ locale }: { locale: Locale }) {
       </div>
       <div className="mx-auto w-full max-w-[1400px] px-6 pb-12 md:px-10">
         <div className="flex items-center gap-3 font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-pitch)]">
-          <span className="relative flex h-2 w-2">
-            {live.length > 0 && <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[var(--color-flame)] opacity-75" />}
-            <span className={`relative inline-flex h-2 w-2 rounded-full ${live.length > 0 ? 'bg-[var(--color-flame)]' : 'bg-[var(--color-pitch)]'}`} />
-          </span>
+          {live.length > 0 ? <i className="pulse" /> : <span className="inline-flex h-2 w-2 rounded-full bg-[var(--color-pitch)]" />}
           {live.length > 0 ? `${live.length} en directo ahora` : 'Resultados y calendario en directo'}
         </div>
         <h1 className="mt-6 font-display text-fluid-display uppercase leading-[0.9]">
@@ -43,25 +41,28 @@ export async function PortalHero({ locale }: { locale: Locale }) {
         </p>
 
         {featured.length > 0 && (
-          <ul className="mt-8 max-w-3xl divide-y divide-[var(--color-border)] overflow-hidden rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg)]/70 backdrop-blur">
-            {featured.map((m) => (
-              <MatchRow
-                key={`${m.competition.slug}-${m.id}`}
-                m={m}
-                showCompetition
-                href={withLocale(locale, `/${m.competition.sport}/${m.competition.slug}/partido/${m.id}`)}
-                channels={m.competition.sport === 'futbol' ? channelsFor(wosti, m.date, [m.home.fullName, m.home.name], [m.away.fullName, m.away.name]) : []}
-              />
-            ))}
-          </ul>
+          <div className="mt-8 max-w-3xl">
+            <MatchList sport="futbol" kicker={live.length > 0 ? 'En directo' : 'Destacados'} title="Hoy" more={{ href: withLocale(locale, '/partidos-hoy'), label: 'Todos los partidos' }}>
+              {featured.map((m) => (
+                <MatchRow
+                  key={`${m.competition.slug}-${m.id}`}
+                  m={m}
+                  showCompetition
+                  href={withLocale(locale, `/${m.competition.sport}/${m.competition.slug}/partido/${m.id}`)}
+                  teamHref={(id) => withLocale(locale, `/${m.competition.sport}/${m.competition.slug}/equipo/${id}`)}
+                  channels={m.competition.sport === 'futbol' ? channelsFor(wosti, m.date, [m.home.fullName, m.home.name], [m.away.fullName, m.away.name]) : []}
+                />
+              ))}
+            </MatchList>
+          </div>
         )}
 
         <div className="mt-6 flex flex-wrap gap-3">
           <Link href={withLocale(locale, '/partidos-hoy')} className="inline-flex items-center gap-2 rounded-full bg-[var(--color-pitch)] px-5 py-2.5 text-sm font-bold text-black hover:opacity-90">
             <CalendarDays className="h-4 w-4" /> Todos los partidos de hoy <ArrowRight className="h-3 w-3 rtl:rotate-180" />
           </Link>
-          <Link href={withLocale(locale, '/futbol')} className="inline-flex items-center gap-2 rounded-full border border-[var(--color-border-strong)] px-5 py-2.5 text-sm font-semibold hover:border-[var(--color-pitch)] hover:text-[var(--color-pitch)]">⚽ Fútbol</Link>
-          <Link href={withLocale(locale, '/baloncesto')} className="inline-flex items-center gap-2 rounded-full border border-[var(--color-border-strong)] px-5 py-2.5 text-sm font-semibold hover:border-[var(--color-pitch)] hover:text-[var(--color-pitch)]">🏀 Baloncesto</Link>
+          <Link href={withLocale(locale, '/futbol')} className="inline-flex items-center gap-2 rounded-full border border-[var(--color-border-strong)] px-5 py-2.5 text-sm font-semibold hover:border-[var(--color-pitch)] hover:text-[var(--color-pitch)]"><Icon name="futbol" /> Fútbol</Link>
+          <Link href={withLocale(locale, '/baloncesto')} className="inline-flex items-center gap-2 rounded-full border border-[var(--color-border-strong)] px-5 py-2.5 text-sm font-semibold hover:border-[var(--color-pitch)] hover:text-[var(--color-pitch)]"><Icon name="baloncesto" /> Baloncesto</Link>
         </div>
       </div>
     </section>

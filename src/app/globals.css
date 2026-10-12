@@ -7,13 +7,58 @@
   --color-border: rgba(255, 255, 255, 0.08);
   --color-border-strong: rgba(255, 255, 255, 0.18);
   --color-fg: #f5f6f8;
-  --color-fg-muted: #9ea3ad;
-  --color-fg-subtle: #6b6f78;
+  --color-fg-muted: #a3a8b2;
+  --color-fg-subtle: #80858f;
+
+  --color-surface-2: #161a22;
 
   --color-pitch: oklch(0.88 0.24 150);
   --color-pitch-deep: oklch(0.72 0.22 150);
-  --color-flame: oklch(0.68 0.22 25);
-  --color-sun: oklch(0.88 0.18 92);
+
+  /* Semánticos (sistema de diseño del portal, 2026-10). Iguales en todos los deportes. */
+  --color-live: oklch(0.68 0.22 25);
+  --color-live-ink: oklch(0.74 0.19 25);
+  --color-win: oklch(0.80 0.17 150);
+  --color-draw: oklch(0.72 0.01 260);
+  --color-loss: oklch(0.68 0.17 10);
+  --color-gold: oklch(0.88 0.18 92);
+  /* Alias heredados del monográfico (archivo histórico): flame = live, sun = gold. */
+  --color-flame: var(--color-live);
+  --color-sun: var(--color-gold);
+
+  /* Zonas de clasificación */
+  --zone-ucl: oklch(0.70 0.14 255);
+  --zone-uel: oklch(0.78 0.15 62);
+  --zone-uecl: oklch(0.78 0.11 185);
+  --zone-up: oklch(0.80 0.17 150);
+  --zone-down: oklch(0.68 0.17 10);
+  --zone-playoff: oklch(0.88 0.18 92);
+
+  /* Acento por deporte (misma luminosidad); `--accent` se redefine con [data-sport]. */
+  --sport-futbol: oklch(0.84 0.2 150);
+  --sport-baloncesto: oklch(0.78 0.17 55);
+  --sport-rugby: oklch(0.74 0.15 300);
+  --sport-balonmano: oklch(0.74 0.14 255);
+  --sport-tenis: oklch(0.84 0.13 190);
+  --sport-motor: oklch(0.72 0.2 345);
+  --sport-ciclismo: oklch(0.88 0.17 100);
+  --sport-atletismo: oklch(0.78 0.12 225);
+  --accent: var(--sport-futbol);
+  --accent-ink: var(--accent);
+
+  /* Escala numérica (cifras tabulares siempre) y de texto */
+  --num-xxl: clamp(5.5rem, 9vw, 7.5rem);
+  --num-xl: 4rem;
+  --num-l: 2rem;
+  --num-m: 1.5rem;
+  --num-s: 0.8125rem;
+  --num-xs: 0.875rem;
+  --text-h1: clamp(2rem, 4vw, 3.25rem);
+  --text-h2: clamp(1.5rem, 2.6vw, 2.125rem);
+  --text-h3: 1.25rem;
+  --text-body: 1.0625rem;
+  --text-sm: 0.875rem;
+  --text-kicker: 0.6875rem;
 
   --font-display: var(--font-bebas), "BebasNeue", "Impact", system-ui, sans-serif;
   --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
@@ -225,3 +270,140 @@ html[dir="rtl"] .marquee-track { animation-direction: reverse; }
 .leaflet-container {
   font-family: var(--font-sans, system-ui), sans-serif;
 }
+
+/* ============================================================
+   Sistema de diseño del portal (Claude Design · portal/sistema)
+   ============================================================ */
+
+/* Acento por deporte: el contenedor lleva data-sport */
+[data-sport="futbol"] { --accent: var(--sport-futbol); }
+[data-sport="baloncesto"] { --accent: var(--sport-baloncesto); }
+[data-sport="rugby"] { --accent: var(--sport-rugby); }
+[data-sport="balonmano"] { --accent: var(--sport-balonmano); }
+[data-sport="tenis"] { --accent: var(--sport-tenis); }
+[data-sport="motor"] { --accent: var(--sport-motor); }
+[data-sport="ciclismo"] { --accent: var(--sport-ciclismo); }
+[data-sport="atletismo"] { --accent: var(--sport-atletismo); }
+[data-sport] { --accent-ink: var(--accent); }
+
+/* Tema claro (sin conmutador en UI todavía; pensado para noticias y reportajes) */
+.theme-light {
+  color-scheme: light;
+  --color-bg: #f6f4ef;
+  --color-bg-2: #fffdf9;
+  --color-surface: #ebe7df;
+  --color-surface-2: #e2ddd3;
+  --color-border: rgb(13 15 20 / 0.10);
+  --color-border-strong: rgb(13 15 20 / 0.22);
+  --color-fg: #0d0f14;
+  --color-fg-muted: #454a53;
+  --color-fg-subtle: #666b74;
+  --color-live-ink: oklch(0.52 0.2 27);
+  --color-win: oklch(0.55 0.15 150);
+  --color-draw: oklch(0.55 0.01 260);
+  --color-loss: oklch(0.55 0.18 15);
+  --color-gold: oklch(0.62 0.14 85);
+  --zone-ucl: oklch(0.52 0.16 255);
+  --zone-uel: oklch(0.62 0.16 62);
+  --zone-uecl: oklch(0.56 0.1 185);
+  --zone-up: oklch(0.55 0.15 150);
+  --zone-down: oklch(0.55 0.18 15);
+  background: var(--color-bg);
+  color: var(--color-fg);
+}
+.theme-light, .theme-light [data-sport] { --accent-ink: oklch(from var(--accent) 0.48 calc(c * 0.85) h); }
+
+/* Tipografía editorial (portal + noticias). Bebas se queda en marcadores y cabeceras. */
+.kicker {
+  font: 500 var(--text-kicker) / 1.2 var(--font-mono);
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--accent-ink);
+}
+.t-h1 { font: 600 var(--text-h1) / 1.06 var(--font-sans); letter-spacing: -0.032em; text-wrap: balance; }
+.t-h2 { font: 600 var(--text-h2) / 1.1 var(--font-sans); letter-spacing: -0.025em; text-wrap: balance; }
+.t-h3 { font: 600 var(--text-h3) / 1.22 var(--font-sans); letter-spacing: -0.015em; text-wrap: pretty; }
+.t-body { font: 400 var(--text-body) / 1.65 var(--font-sans); }
+.sub-label {
+  font: 500 11px / 1 var(--font-mono);
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-fg-subtle);
+}
+
+/* Escala numérica */
+.n-xxl { font: 400 var(--num-xxl) / 0.82 var(--font-display); font-variant-numeric: tabular-nums; }
+.n-xl { font: 400 var(--num-xl) / 0.85 var(--font-display); font-variant-numeric: tabular-nums; }
+.n-l { font: 400 var(--num-l) / 1 var(--font-display); font-variant-numeric: tabular-nums; }
+.n-m { font: 400 var(--num-m) / 1 var(--font-display); font-variant-numeric: tabular-nums; }
+.n-s { font: 500 var(--num-s) / 1 var(--font-mono); letter-spacing: 0.04em; font-variant-numeric: tabular-nums; }
+.n-xs { font: 400 var(--num-xs) / 1 var(--font-sans); font-variant-numeric: tabular-nums; }
+.n-pos { font: 500 12px / 1 var(--font-mono); color: var(--color-fg-subtle); }
+
+/* Pulso de «en directo» */
+@keyframes ds-pulse {
+  0% { box-shadow: 0 0 0 0 color-mix(in oklab, var(--color-live) 65%, transparent); }
+  100% { box-shadow: 0 0 0 7px transparent; }
+}
+.pulse {
+  width: 7px; height: 7px; border-radius: 50%; flex: none;
+  background: var(--color-live);
+  animation: ds-pulse 1.6s var(--ease-swift) infinite;
+}
+@media (prefers-reduced-motion: reduce) { .pulse { animation: none; } }
+
+/* Placeholder de escudo por color del club (también estado de fallo de carga) */
+.crest {
+  --c: #333;
+  width: 24px; height: 24px; border-radius: 50%;
+  background: var(--c); color: var(--ci, #fff);
+  display: inline-grid; place-items: center;
+  font: 600 7.5px / 1 var(--font-mono); letter-spacing: 0.02em; font-style: normal;
+  flex: none;
+  box-shadow: inset 0 0 0 1px rgb(255 255 255 / 0.14);
+}
+.crest.s { width: 20px; height: 20px; font-size: 6.5px; }
+.crest.l { width: 40px; height: 40px; font-size: 11px; }
+.crest.xl { width: 88px; height: 88px; font-size: 20px; }
+
+/* Estados de partido (píldoras) */
+.st {
+  display: inline-flex; align-items: center; gap: 6px; height: 26px; padding: 0 11px;
+  border-radius: 999px; font: 600 10px / 1 var(--font-mono); letter-spacing: 0.14em; text-transform: uppercase;
+  border: 1px solid var(--color-border-strong); color: var(--color-fg-muted); white-space: nowrap;
+}
+.st svg { width: 13px; height: 13px; }
+.st.live, .st.et, .st.pen {
+  background: color-mix(in oklab, var(--color-live) 16%, transparent);
+  border-color: color-mix(in oklab, var(--color-live) 45%, transparent);
+  color: var(--color-live-ink);
+}
+.st.ht { color: var(--color-gold); border-color: color-mix(in oklab, var(--color-gold) 45%, transparent); }
+.st.lu { color: var(--accent-ink); border-color: color-mix(in oklab, var(--accent) 45%, transparent); }
+.st.ft { color: var(--color-fg); }
+.st.ppd { color: var(--color-fg-subtle); border-style: dashed; }
+.st.sus { color: var(--color-loss); border-color: color-mix(in oklab, var(--color-loss) 45%, transparent); }
+
+/* Chips de canal */
+.ch {
+  display: inline-flex; align-items: center; gap: 6px; height: 24px; padding: 0 10px;
+  border-radius: 999px; font: 500 11.5px / 1 var(--font-sans); white-space: nowrap;
+  border: 1px solid var(--color-border-strong); color: var(--color-fg-muted);
+}
+.ch.free { background: var(--color-fg); color: var(--color-bg); border-color: transparent; font-weight: 600; }
+.ch.free::after { content: "abierto"; font: 500 9px / 1 var(--font-mono); letter-spacing: 0.08em; text-transform: uppercase; opacity: 0.7; }
+.ch.more { border-style: dashed; color: var(--color-fg-subtle); }
+.ch.tbd { border: 0; padding: 0; color: var(--color-fg-subtle); font: 500 10px / 1 var(--font-mono); letter-spacing: 0.12em; text-transform: uppercase; }
+.ch.venue { border: 0; padding: 0; color: var(--color-fg-subtle); font-size: 12.5px; }
+.ch svg { width: 13px; height: 13px; }
+
+/* Forma (últimos 5) */
+.form { display: inline-flex; gap: 3px; }
+.form i { width: 18px; height: 18px; border-radius: 4px; display: grid; place-items: center; font: 600 9px / 1 var(--font-mono); font-style: normal; color: var(--color-bg); }
+.form .g { background: var(--color-win); }
+.form .e { background: var(--color-draw); }
+.form .p { background: var(--color-loss); }
+
+/* Scroll horizontal sin barra */
+.no-scrollbar { scrollbar-width: none; -ms-overflow-style: none; }
+.no-scrollbar::-webkit-scrollbar { display: none; }
