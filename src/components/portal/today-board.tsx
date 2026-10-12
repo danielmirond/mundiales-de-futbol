@@ -71,7 +71,7 @@ export async function TodayBoard({
               more={{ href: withLocale(locale, competitionPath(comp)), label: limitPerGroup && items.length > limitPerGroup ? `Ver los ${items.length}` : 'Clasificación y calendario' }}
             >
               {(limitPerGroup ? items.slice(0, limitPerGroup) : items).map((m) => (
-                <MatchRow key={m.id} m={m} showDay={range !== 'today'} channels={tv(m)} href={hrefOf(m)} teamHref={teamHrefOf(m)} />
+                <MatchRow key={m.id} m={m} showDay={range !== 'today'} channels={tv(m)} href={hrefOf(m)} teamHref={teamHrefOf(m)} chipMax={groups.size > 1 ? 1 : 2} />
               ))}
             </MatchList>
           ))}

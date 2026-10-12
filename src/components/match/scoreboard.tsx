@@ -13,7 +13,8 @@ export type ScoreboardData = {
   competition: { name: string; href?: string; round?: string };
   summary: MatchSummary;
   channels?: string[];
-  teamHref?: (id: string) => string;
+  /** Prefijo de enlace a la ficha de equipo (`/futbol/laliga/equipo`). */
+  teamBase?: string;
 };
 
 /** Reloj largo para la ficha: `67′`, `Desc.`, `4.º C · 3:12`. */
@@ -42,7 +43,8 @@ function LargeTeam({ t, teamHref }: { t: SummarySide; teamHref?: (id: string) =>
  * Kicker + estado, equipos con escudo, dígitos --num-xxl, reloj, goleadores,
  * meta de fecha, estadio y canal.
  */
-export function ScoreboardLarge({ sport, competition, summary: s, channels = [], teamHref }: ScoreboardData) {
+export function ScoreboardLarge({ sport, competition, summary: s, channels = [], teamBase }: ScoreboardData) {
+  const teamHref = teamBase ? (id: string) => `${teamBase}/${id}` : undefined;
   const h = s.header!;
   const phase = phaseOf(s.state, s.statusName, s.hasLineups);
   const scored = s.state !== 'pre' && s.homeScore != null && s.awayScore != null;

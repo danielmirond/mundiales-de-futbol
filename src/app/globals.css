@@ -405,7 +405,7 @@ html[dir="rtl"] .marquee-track { animation-direction: reverse; }
 .form .p { background: var(--color-loss); }
 
 /* Compensación de la cabecera fija: las páginas ya llevan pt-28 (7rem); se añade el resto. */
-main { padding-top: max(0px, calc(var(--header-h, 7rem) - 7rem)); }
+.site-main { padding-top: max(0px, calc(var(--header-h, 7rem) - 7rem)); }
 
 /* Scroll horizontal sin barra */
 .no-scrollbar { scrollbar-width: none; -ms-overflow-style: none; }

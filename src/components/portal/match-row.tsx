@@ -28,11 +28,13 @@ function TeamName({ t, win, teamHref }: { t: Match['home']; win: boolean; teamHr
  * al equipo. Escritorio: `72px | equipos | 230px`; móvil: equipos apilados.
  */
 export function MatchRow({
-  m, showDay = false, showCompetition = false, channels = [], href, teamHref,
+  m, showDay = false, showCompetition = false, channels = [], href, teamHref, chipMax = 2,
 }: {
   m: Match; showDay?: boolean; showCompetition?: boolean; channels?: string[]; href?: string;
   /** Enlace a la ficha de equipo por id ESPN. */
   teamHref?: (id: string) => string;
+  /** Chips de canal visibles en escritorio (1 en tableros a dos columnas). */
+  chipMax?: number;
 }) {
   const live = m.state === 'in';
   const ppd = m.state === 'ppd';
@@ -50,14 +52,14 @@ export function MatchRow({
 
   const crest = (t: Match['home'], size: 'm' | 's') => <Crest src={t.logo} abbr={t.abbr} color={t.color} size={size} />;
   const tone = pre || live ? 'text-[var(--color-fg)]' : ppd ? 'text-[var(--color-fg-subtle)]' : 'text-[var(--color-fg-muted)]';
-  const chips = <ChannelChips channels={channels} sport={sport} venue={m.venue} compact />;
+  const chips = <ChannelChips channels={channels} sport={sport} venue={m.venue} max={chipMax} compact />;
 
   return (
     <li className={`relative transition-colors hover:bg-[var(--color-surface)] ${live ? 'is-live' : ''}`}>
       {href && <Link href={href} className="absolute inset-0 z-0" aria-label={`${m.home.name} - ${m.away.name}`} />}
 
       {/* Escritorio */}
-      <div className="hidden min-h-[60px] items-center gap-4 px-5 md:grid md:grid-cols-[72px_minmax(0,1fr)_230px]">
+      <div className={`hidden min-h-[60px] items-center gap-4 px-5 md:grid ${chipMax > 1 ? 'md:grid-cols-[72px_minmax(0,1fr)_230px]' : 'md:grid-cols-[72px_minmax(0,1fr)_minmax(120px,auto)]'}`}>
         <span className={`flex items-center gap-2 font-mono text-[13px] uppercase tracking-[0.04em] tab-num ${live ? 'text-[var(--color-live-ink)]' : 'text-[var(--color-fg-muted)]'}`}>{timeCell}</span>
         <span className="grid grid-cols-[minmax(0,1fr)_80px_minmax(0,1fr)] items-center gap-3">
           <span className={`flex min-w-0 items-center gap-2.5 text-[15px] ${tone}`}>{crest(m.home, 'm')}<TeamName t={m.home} win={homeWin} teamHref={teamHref} /></span>

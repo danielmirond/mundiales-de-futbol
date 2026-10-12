@@ -117,7 +117,7 @@ export default async function LocaleLayout({
               <SportSubnav />
             </div>
             <HeaderHeight />
-            <main className="flex-1">{children}</main>
+            <main className="site-main flex-1">{children}</main>
             <SiteFooter />
           </div>
           <CookieBanner />

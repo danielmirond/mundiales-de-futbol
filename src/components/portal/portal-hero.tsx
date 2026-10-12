@@ -51,6 +51,7 @@ export async function PortalHero({ locale }: { locale: Locale }) {
                   showCompetition
                   href={withLocale(locale, `/${m.competition.sport}/${m.competition.slug}/partido/${m.id}`)}
                   teamHref={(id) => withLocale(locale, `/${m.competition.sport}/${m.competition.slug}/equipo/${id}`)}
+                  chipMax={1}
                   channels={m.competition.sport === 'futbol' ? channelsFor(wosti, m.date, [m.home.fullName, m.home.name], [m.away.fullName, m.away.name]) : []}
                 />
               ))}

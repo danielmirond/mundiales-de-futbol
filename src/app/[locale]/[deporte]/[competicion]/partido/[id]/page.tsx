@@ -55,7 +55,7 @@ export default async function PartidoPortalPage({ params }: { params: Params }) 
   const channels = s.slug === 'futbol' && h.date
     ? channelsFor(await getWostiIndex(), h.date, [h.home.name], [h.away.name])
     : [];
-  const teamHref = (tid: string) => withLocale(L, `/${c.sport}/${c.slug}/equipo/${tid}`);
+  const teamBase = withLocale(L, `/${c.sport}/${c.slug}/equipo`);
   const tabs = [
     summary.hasCommentary && { href: '#narracion', label: 'Narración' },
     summary.hasEvents && { href: '#momentos', label: 'Momentos' },
@@ -104,7 +104,7 @@ export default async function PartidoPortalPage({ params }: { params: Params }) 
         homeName={h.home.name}
         awayName={h.away.name}
         espn={c.espn!}
-        board={{ sport: s.slug, competition: { name: c.name, href: withLocale(L, `/${c.sport}/${c.slug}`) }, channels, teamHref }}
+        board={{ sport: s.slug, competition: { name: c.name, href: withLocale(L, `/${c.sport}/${c.slug}`) }, channels, teamBase }}
       >
         {tabs.length > 1 && (
         <nav className="mx-auto mt-5 w-full max-w-[1000px] px-6 md:px-10" aria-label="Secciones del partido">
