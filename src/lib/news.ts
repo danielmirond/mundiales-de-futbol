@@ -124,6 +124,298 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'clasificacion-nba-semana-2026-42',
+    title: "NBA: así queda la clasificación esta semana, con Celtics líder",
+    summary: "Celtics manda en NBA con 1 puntos tras la última jornada. Tabla comentada de NBA 2027: cabeza, zona baja y enlace a la clasificación completa.",
+    body: `Celtics manda en NBA con 1 puntos tras la última jornada.
+
+## Eastern Conference
+
+1. **Celtics** — 2-0
+2. **Wizards** — 2-0
+3. **Nets** — 2-0
+4. **Magic** — 1-0 (a 0.5)
+5. **Heat** — 2-1 (a 0.5)
+6. **Hawks** — 2-1 (a 0.5)
+7. **Pacers** — 1-1 (a 1)
+8. **Bulls** — 1-1 (a 1)
+
+## Western Conference
+
+1. **Trail Blazers** — 1-0
+2. **Grizzlies** — 2-1
+3. **Lakers** — 2-1
+4. **Timberwolves** — 2-1
+5. **Warriors** — 2-2 (a 0.5)
+6. **Mavericks** — 1-1 (a 0.5)
+6. **Nuggets** — 1-1 (a 0.5)
+6. **Rockets** — 1-1 (a 0.5)
+
+La clasificación completa, con todos los equipos y los próximos partidos, está en la [página de NBA](/baloncesto/nba).`,
+    category: 'general',
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/nba/standings",
+    sourceLang: 'en',
+    publishedAt: '2026-10-12T00:43:25.929Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Celtic_park_posters.jpg/1920px-Celtic_park_posters.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Estadio de Celtics, líder de NBA",
+      credit: "Guillaume Gogo · CC BY 2.0 · Wikimedia Commons",
+      license: "CC BY 2.0",
+    },
+  },
+  {
+    slug: 'clasificacion-premier-league-semana-2026-42',
+    title: "Premier League: así queda la clasificación esta semana, con Man City líder",
+    summary: "Man City manda en Premier League con 18 puntos tras la última jornada. Tabla comentada de Premier League 2026: cabeza, zona baja y enlace a la clasificación completa.",
+    body: `Man City manda en Premier League con 18 puntos tras la última jornada.
+
+## La tabla
+
+1. **Man City** — 18 pts (6G-0E-0P, +11)
+2. **Arsenal** — 15 pts (5G-0E-1P, +5)
+3. **Brighton** — 13 pts (4G-1E-1P, +13)
+4. **Brentford** — 10 pts (2G-4E-0P, +6)
+5. **Everton** — 10 pts (2G-4E-0P, +3)
+6. **Chelsea** — 10 pts (3G-1E-2P, +2)
+
+En la zona baja: Spurs (3 pts), Coventry (3 pts) y Fulham (2 pts).
+
+La clasificación completa, con todos los equipos y los próximos partidos, está en la [página de Premier League](/futbol/premier-league).`,
+    category: 'general',
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/standings/_/league/eng.1",
+    sourceLang: 'en',
+    publishedAt: '2026-10-12T00:43:25.929Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Gran_Premio_Ciudad_de_Buenos_Aires_2026%2C_Domingo_-_14.jpg/1920px-Gran_Premio_Ciudad_de_Buenos_Aires_2026%2C_Domingo_-_14.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Estadio de Man City, líder de Premier League",
+      credit: "Just a Man · CC BY 4.0 · Wikimedia Commons",
+      license: "CC BY 4.0",
+    },
+  },
+  {
+    slug: 'clasificacion-laliga-semana-2026-42',
+    title: "LaLiga: así queda la clasificación esta semana, con Barcelona líder",
+    summary: "Barcelona sigue arriba en LaLiga (24 puntos). Repasamos la clasificación completa. Tabla comentada de LaLiga 2026: cabeza, zona baja y enlace a la clasificación completa.",
+    body: `Barcelona sigue arriba en LaLiga (24 puntos). Repasamos la clasificación completa.
+
+## La tabla
+
+1. **Barcelona** — 24 pts (8G-0E-0P, +27)
+2. **Atlético** — 19 pts (6G-1E-1P, +10)
+3. **Betis** — 19 pts (6G-1E-1P, +5)
+4. **Real Madrid** — 18 pts (6G-0E-2P, +11)
+5. **Sevilla** — 13 pts (4G-1E-2P, +1)
+6. **Real Sociedad** — 13 pts (4G-1E-3P, -3)
+
+En la zona baja: Levante (5 pts), Valencia (5 pts) y Málaga (4 pts).
+
+La clasificación completa, con todos los equipos y los próximos partidos, está en la [página de LaLiga](/futbol/laliga).`,
+    category: 'general',
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/standings/_/league/esp.1",
+    sourceLang: 'en',
+    publishedAt: '2026-10-12T00:43:25.929Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Porta_para_un_centenario_Pilar_Urbano._Exteriores_do_Camp_Nou._Barcelona_B35.jpg/1920px-Porta_para_un_centenario_Pilar_Urbano._Exteriores_do_Camp_Nou._Barcelona_B35.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Estadio de Barcelona, líder de LaLiga",
+      credit: "Luis Miguel Bugallo Sánchez (Lmbuga) · CC BY-SA 3.0 · Wikimedia Commons",
+      license: "CC BY-SA 3.0",
+    },
+  },
+  {
+    slug: 'previa-lens-sporting-401915418',
+    title: "Lens - Sporting: horario, dónde ver y cómo llegan a Champions",
+    summary: "Previa del Lens - Sporting de Champions League (martes 13 de octubre, 18:45 h): situación en la tabla, canal de TV y enlace a la ficha en directo.",
+    body: `Lens recibe a Sporting este martes 13 de octubre en Champions League. Se juega a las **18:45 h** (hora de España) en Stade Bollaert-Delelis.
+
+## Cómo llegan
+
+Lens llega 10.º con 3 puntos (1G-0E-0P) y Sporting 6.º con 3 (1G-0E-0P).
+
+## Dónde ver el partido
+
+Se emite en **M+ Liga de Campeones 2**. Alineaciones en cuanto se confirmen, marcador en directo y narración en la [ficha del Lens - Sporting](/futbol/champions-league/partido/401915418).
+
+El resto de la jornada, en [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915418",
+    sourceLang: 'en',
+    publishedAt: '2026-10-12T00:43:25.929Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Maquette_Stade_Bollaert-Delelis_2015.jpg/1920px-Maquette_Stade_Bollaert-Delelis_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Stade Bollaert-Delelis, sede del Lens - Sporting",
+      credit: "Supporterhéninois · CC0 · Wikimedia Commons",
+      license: "CC0",
+    },
+  },
+  {
+    slug: 'cronica-hull-everton-401878774',
+    title: "Hull y Everton empatan 2-2 en Premier League",
+    summary: "Hull y Everton empataron 2-2 en Premier League. En el marcador, Joe Gelhardt (48', Hull), Kiernan Dewsbury-Hall (55', Everton), Thierno Barry (68', Everton) y Mohamed Belloumi (74', Hull). Datos, momentos clave y lo que cambia en la clasificación.",
+    body: `Hull y Everton empataron 2-2 en Premier League. En el marcador, Joe Gelhardt (48', Hull), Kiernan Dewsbury-Hall (55', Everton), Thierno Barry (68', Everton) y Mohamed Belloumi (74', Hull).
+
+## Cómo se decidió
+
+La posesión fue 35 %-65 % para Hull. En remates, 9 de Hull (5 a puerta) por 15 de Everton (7).
+
+## Qué cambia en la tabla
+
+Tras el partido, Hull 8.º con 9 puntos y Everton 5.º con 10 puntos en la [clasificación de Premier League](/futbol/premier-league).
+
+Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto están en la [ficha del partido](/futbol/premier-league/partido/401878774).`,
+    category: 'general',
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401878774",
+    sourceLang: 'en',
+    publishedAt: '2026-10-12T00:43:25.929Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/KC_Stadium_in_day.jpg/1920px-KC_Stadium_in_day.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "The MKM Stadium, donde se jugó el Hull - Everton",
+      credit: "Yorkshire Forward · Public domain · Wikimedia Commons",
+      license: "Public domain",
+    },
+  },
+  {
+    slug: 'cronica-c-palace-nottm-forest-401879266',
+    title: "C Palace gana 3-1 a Nottm Forest en Premier League",
+    summary: "C Palace se impuso a Nottm Forest por 3-1 en Premier League. Marcaron Dan Ndoye (3', Nottm Forest), Daichi Kamada (41', C Palace), Jefferson Lerma (45'+4', C Palace) y Yéremy Pino (59', C Palace). Datos, momentos clave y lo que cambia en la clasificación.",
+    body: `C Palace se impuso a Nottm Forest por 3-1 en Premier League. Marcaron Dan Ndoye (3', Nottm Forest), Daichi Kamada (41', C Palace), Jefferson Lerma (45'+4', C Palace) y Yéremy Pino (59', C Palace).
+
+## Cómo se decidió
+
+La posesión fue 43 %-57 % para C Palace. En remates, 13 de C Palace (7 a puerta) por 24 de Nottm Forest (6).
+
+## Qué cambia en la tabla
+
+Tras el partido, C Palace 12.º con 7 puntos y Nottm Forest 14.º con 5 puntos en la [clasificación de Premier League](/futbol/premier-league).
+
+Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto están en la [ficha del partido](/futbol/premier-league/partido/401879266).`,
+    category: 'general',
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401879266",
+    sourceLang: 'en',
+    publishedAt: '2026-10-12T00:43:25.929Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Selhurst_Park_Holmesdale_Stand.jpg/1920px-Selhurst_Park_Holmesdale_Stand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Selhurst Park, donde se jugó el C Palace - Nottm Forest",
+      credit: "Rockybiggs · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'cronica-liverpool-man-city-401879264',
+    title: "Man City gana 3-0 en casa de Liverpool en Premier League",
+    summary: "Man City ganó 3-0 a Liverpool en el partido de Premier League. Los goles: Erling Haaland (65', Man City), Jérémy Doku (68', Man City) y Rayan Cherki (78', Man City). Datos, momentos clave y lo que cambia en la clasificación.",
+    body: `Man City ganó 3-0 a Liverpool en el partido de Premier League. Los goles: Erling Haaland (65', Man City), Jérémy Doku (68', Man City) y Rayan Cherki (78', Man City). Hubo 1 expulsión: Ryan Gravenberch.
+
+## Cómo se decidió
+
+Liverpool tuvo el 35 % de la posesión por el 65 % de Man City; remató 13 veces (6 a puerta) frente a 15 (4) del rival.
+
+## Qué cambia en la tabla
+
+Tras el partido, Liverpool 9.º con 9 puntos y Man City 1.º con 18 puntos en la [clasificación de Premier League](/futbol/premier-league).
+
+Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto están en la [ficha del partido](/futbol/premier-league/partido/401879264).`,
+    category: 'general',
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401879264",
+    sourceLang: 'en',
+    publishedAt: '2026-10-12T00:43:25.929Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Paisley_Gateway%2C_Anfield.jpg/1920px-Paisley_Gateway%2C_Anfield.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Anfield, donde se jugó el Liverpool - Man City",
+      credit: "Rodhullandemu · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'partidos-baloncesto-hoy-2026-10-12',
+    title: "Partidos de baloncesto hoy, lunes 12 de octubre: horarios y dónde ver NBA",
+    summary: "Agenda de baloncesto de hoy lunes 12 de octubre: 1 partido con horario en hora española y canal de televisión. Destaca Trail Blazers - Lions.",
+    body: `Jornada de baloncesto con 1 cita este lunes 12 de octubre. Horarios en hora peninsular y dónde verlas, competición por competición. El partido que más miradas reúne es el **[Trail Blazers - Lions](/baloncesto/nba/partido/401914130)** (NBA, 22:00 h).
+
+## 🇺🇸 NBA
+
+- **[Trail Blazers - Lions](/baloncesto/nba/partido/401914130)** — 22:00 h
+
+Calendario y clasificación en la [página de NBA](/baloncesto/nba).
+
+Horarios en hora de España; los resultados y la narración de cada partido van en su ficha. Toda la jornada, con marcadores en directo, en [partidos de hoy](/partidos-hoy).`,
+    category: 'tv',
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/nba/game/_/gameId/401914130",
+    sourceLang: 'en',
+    publishedAt: '2026-10-12T00:43:25.929Z',
+    modifiedAt: '2026-10-12T00:43:25.929Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/PDX_carpet_at_Moda_Center%2C_2016.jpg/1920px-PDX_carpet_at_Moda_Center%2C_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Moda Center, escenario del Trail Blazers - Lions",
+      credit: "Another Believer · CC BY-SA 3.0 · Wikimedia Commons",
+      license: "CC BY-SA 3.0",
+    },
+  },
+  {
+    slug: 'partidos-futbol-hoy-2026-10-12',
+    title: "Partidos de fútbol hoy, lunes 12 de octubre: horarios y dónde ver LaLiga, Premier League y LaLiga 2",
+    summary: "Agenda de fútbol de hoy lunes 12 de octubre: 8 partidos con horario en hora española y canal de televisión. Destaca Levante - Sevilla.",
+    body: `Jornada de fútbol con 8 citas este lunes 12 de octubre. Horarios en hora peninsular y dónde verlas, competición por competición. El partido que más miradas reúne es el **[Levante - Sevilla](/futbol/laliga/partido/401882852)** (LaLiga, 21:00 h).
+
+## 🇪🇸 LaLiga Hypermotion
+
+- **[Valladolid - Albacete](/futbol/laliga-2/partido/401883159)** — 14:00 h · 📺 LALIGA TV Hypermotion / DAZN
+- **[Burgos - Granada](/futbol/laliga-2/partido/401883187)** — 16:15 h · 📺 LALIGA TV Hypermotion / DAZN
+- **[Real Oviedo - Eibar](/futbol/laliga-2/partido/401883182)** — 18:30 h · 📺 LALIGA TV Hypermotion / DAZN
+- **[Tenerife - Girona](/futbol/laliga-2/partido/401883181)** — 21:00 h · 📺 LALIGA TV Hypermotion / DAZN
+
+Calendario y clasificación en la [página de LaLiga 2](/futbol/laliga-2).
+
+## 🇮🇹 Serie A
+
+- **[Atalanta - Venezia](/futbol/serie-a/partido/401875005)** — 18:30 h · 📺 DAZN
+- **[Torino - Udinese](/futbol/serie-a/partido/401874763)** — 20:45 h · 📺 DAZN
+
+Calendario y clasificación en la [página de Serie A](/futbol/serie-a).
+
+## 🇪🇸 LaLiga
+
+- **[Levante - Sevilla](/futbol/laliga/partido/401882852)** — 21:00 h · 📺 M+ LALIGA
+
+Calendario y clasificación en la [página de LaLiga](/futbol/laliga).
+
+## 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Premier League
+
+- **[Coventry - Newcastle](/futbol/premier-league/partido/401879267)** — 21:00 h · 📺 DAZN / DAZN 1
+
+Calendario y clasificación en la [página de Premier League](/futbol/premier-league).
+
+Todos los horarios están en hora peninsular. Los marcadores se actualizan en directo en cada ficha de partido. Toda la jornada, con marcadores en directo, en [partidos de hoy](/partidos-hoy).`,
+    category: 'tv',
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882852",
+    sourceLang: 'en',
+    publishedAt: '2026-10-12T00:43:25.929Z',
+    modifiedAt: '2026-10-12T00:43:25.929Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Estadi_Ciutat_de_Val%C3%A8ncia_-_nocturna.jpg/1920px-Estadi_Ciutat_de_Val%C3%A8ncia_-_nocturna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Estadi Ciutat de València, escenario del Levante - Sevilla",
+      credit: "Francesc Fort · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
     slug: 'clasificacion-nba-semana-2026-41',
     title: "NBA: así queda la clasificación esta semana, con Celtics líder",
     summary: "Celtics sigue arriba en NBA (1 puntos). Repasamos la clasificación completa. Tabla comentada de NBA 2027: cabeza, zona baja y enlace a la clasificación completa.",
