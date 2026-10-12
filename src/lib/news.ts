@@ -277,13 +277,13 @@ Ficha: 2 amarillas · 10 cambios. Alineaciones, momentos clave, estadísticas co
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401878774",
     sourceLang: 'en',
     publishedAt: '2026-10-12T07:51:41.385Z',
-    modifiedAt: '2026-10-12T07:51:41.385Z',
+    modifiedAt: '2026-10-12T08:18:22.727Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
-      url: "https://upload.wikimedia.org/wikipedia/commons/d/d0/MKM_Stadium_North_Stand_View.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/KC_Stadium_in_day.jpg/1920px-KC_Stadium_in_day.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       alt: "The MKM Stadium, donde se jugó el Hull - Everton",
-      credit: "NONONSENSEDEFENDING · CC BY-SA 4.0 · Wikimedia Commons",
-      license: "CC BY-SA 4.0",
+      credit: "Yorkshire Forward · Public domain · Wikimedia Commons",
+      license: "Public domain",
     },
   },
   {
@@ -308,7 +308,7 @@ Lo que viene. C Palace: visita a Brighton el domingo 18 de octubre. Nottm Forest
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401879266",
     sourceLang: 'en',
     publishedAt: '2026-10-12T07:51:41.385Z',
-    modifiedAt: '2026-10-12T07:51:41.385Z',
+    modifiedAt: '2026-10-12T08:18:22.727Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Selhurst_Park_Holmesdale_Stand.jpg/1920px-Selhurst_Park_Holmesdale_Stand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -343,7 +343,7 @@ Lo que viene. Liverpool: visita a Brentford el sábado 17 de octubre. Man City: 
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401879264",
     sourceLang: 'en',
     publishedAt: '2026-10-12T07:51:41.385Z',
-    modifiedAt: '2026-10-12T07:51:41.385Z',
+    modifiedAt: '2026-10-12T08:18:22.727Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Paisley_Gateway%2C_Anfield.jpg/1920px-Paisley_Gateway%2C_Anfield.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -702,7 +702,7 @@ Lo que viene. Elche: visita a Villarreal el sábado 17 de octubre. Celta Vigo: r
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882854",
     sourceLang: 'en',
     publishedAt: '2026-10-11T21:32:01.528Z',
-    modifiedAt: '2026-10-12T07:51:41.385Z',
+    modifiedAt: '2026-10-12T08:18:22.727Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Estadio_Martinez_Valero%2C_banquillo.jpg/1920px-Estadio_Martinez_Valero%2C_banquillo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -733,7 +733,7 @@ Lo que viene. Real Sociedad: visita a Málaga el domingo 18 de octubre. Deportiv
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882847",
     sourceLang: 'en',
     publishedAt: '2026-10-11T21:32:01.528Z',
-    modifiedAt: '2026-10-12T07:51:41.385Z',
+    modifiedAt: '2026-10-12T08:18:22.727Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Reale_Arena_-_Pankarta_-_Donostia_2020.jpg/1920px-Reale_Arena_-_Pankarta_-_Donostia_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -744,8 +744,8 @@ Lo que viene. Real Sociedad: visita a Málaga el domingo 18 de octubre. Deportiv
   },
   {
     slug: 'cronica-betis-osasuna-401882855',
-    title: "Abde Ezzalzouli guía a Betis ante Osasuna (5-2) y lo deja 3.º en LaLiga",
-    summary: "Betis 5-2 Osasuna en LaLiga: Abde Ezzalzouli marcó. Betis 52 % de posesión y 20 remates; Osasuna 48 % y 11.",
+    title: "Isco guía a Betis ante Osasuna (5-2) y lo deja 3.º en LaLiga",
+    summary: "Betis 5-2 Osasuna en LaLiga: Isco marcó. Betis 52 % de posesión y 20 remates; Osasuna 48 % y 11.",
     body: `## Resumen
 
 Betis ganó 5-2 a Osasuna en LaLiga. Se emitió en M+ LALIGA.
@@ -773,7 +773,7 @@ Lo que viene. Betis: recibe a Barcelona el sábado 17 de octubre. Osasuna: recib
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882855",
     sourceLang: 'en',
     publishedAt: '2026-10-11T21:32:01.528Z',
-    modifiedAt: '2026-10-12T07:51:41.385Z',
+    modifiedAt: '2026-10-12T08:18:22.727Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://upload.wikimedia.org/wikipedia/commons/4/46/Seville_Estadio_Ol%C3%ADmpico_de_La_Cartuja_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
@@ -808,7 +808,7 @@ Lo que viene. Racing: visita a Osasuna el domingo 18 de octubre. Valencia: recib
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882850",
     sourceLang: 'en',
     publishedAt: '2026-10-11T21:32:01.528Z',
-    modifiedAt: '2026-10-12T07:51:41.385Z',
+    modifiedAt: '2026-10-12T08:18:22.727Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Fachada_oeste_Campos_de_Sport_de_El_Sardinero.jpg/1920px-Fachada_oeste_Campos_de_Sport_de_El_Sardinero.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
