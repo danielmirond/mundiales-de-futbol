@@ -23,7 +23,18 @@
     "football": "Futebol",
     "basketball": "Basquete",
     "worldCup": "Copa 2026",
-    "today": "Jogos de hoje"
+    "today": "Jogos de hoje",
+    "futbol": "Futebol",
+    "baloncesto": "Basquetebol",
+    "rugby": "Râguebi",
+    "balonmano": "Andebol",
+    "motor": "Motor",
+    "tenis": "Ténis",
+    "moreSports": "Mais desportos",
+    "soon": "em breve",
+    "worldCups": "Mundiais",
+    "search": "Equipa, competição ou jogo",
+    "liveNow": "ao vivo"
   },
   "home": {
     "hero": {
@@ -133,26 +144,6 @@
       "errorValidation": "Revise os campos obrigatórios.",
       "errorGeneric": "Algo falhou. Tente novamente em alguns minutos."
     }
-  },
-  "wc2026Bar": {
-    "label": "Copa 2026",
-    "live": "AO VIVO",
-    "groupStage": "Fase de grupos",
-    "koStage": "Mata-mata",
-    "archive": "Copa 2026 · arquivo",
-    "opener": "Jogo de abertura",
-    "postSubtitle": "Reviva o caminho ao título",
-    "calendar": "Calendário",
-    "groups": "Grupos",
-    "tickets": "Ingressos",
-    "today": "Jogos de hoje",
-    "rtve": "Jogos na RTVE",
-    "dayShort": "d",
-    "hourShort": "h",
-    "minuteShort": "m",
-    "football": "Futebol",
-    "basketball": "Basquete",
-    "bracket": "Chave 2026"
   },
   "cookies": {
     "title": "Este site usa cookies",

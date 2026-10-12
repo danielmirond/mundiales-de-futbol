@@ -28,7 +28,7 @@ export default async function PartidosHoyPage({ params }: { params: Promise<{ lo
     <main className="pt-28">
       <JsonLd data={breadcrumbLd(locale, [{ name: 'Inicio', path: '/' }, { name: 'Partidos de hoy', path: '/partidos-hoy' }])} />
       <header className="mx-auto w-full max-w-[1400px] px-6 md:px-10">
-        <div className="font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-pitch)]">{dayFmt.format(Date.now())}</div>
+        <div className="kicker">{dayFmt.format(new Date())}</div>
         <h1 className="mt-4 font-display text-fluid-display uppercase leading-[0.9]">Partidos de hoy</h1>
         <p className="mt-4 max-w-2xl text-lg text-[var(--color-fg-muted)]">Todos los partidos del día en las competiciones que seguimos, con horario en hora española y marcador en directo.</p>
       </header>

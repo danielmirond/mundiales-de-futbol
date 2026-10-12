@@ -6,7 +6,7 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { routing, localeMeta, type Locale } from '@/i18n/routing';
 import { SiteNav } from '@/components/nav/site-nav';
 import { SiteFooter } from '@/components/nav/site-footer';
-import { Wc2026Bar } from '@/components/nav/wc-2026-bar';
+import { SportSubnav } from '@/components/nav/sport-subnav';
 import { CookieBanner } from '@/components/shared/cookie-banner';
 import { GatedAnalytics } from '@/components/shared/gated-analytics';
 import { GoogleAnalytics } from '@/components/shared/google-analytics';
@@ -110,10 +110,10 @@ export default async function LocaleLayout({
         <NextIntlClientProvider>
           <div aria-hidden className="vignette-fixed" />
           <div className="relative flex min-h-screen flex-col">
-            {/* Cabecera fija apilada: barra de enlaces ARRIBA, logo/nav debajo. */}
+            {/* Cabecera fija apilada: nav de deportes y subnav de competiciones. */}
             <div className="fixed inset-x-0 top-0 z-40 pt-[env(safe-area-inset-top)]">
-              <Wc2026Bar />
               <SiteNav />
+              <SportSubnav />
             </div>
             <main className="flex-1">{children}</main>
             <SiteFooter />

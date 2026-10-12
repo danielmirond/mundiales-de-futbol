@@ -67,7 +67,7 @@ export default async function EquipoPage({ params }: { params: Params }) {
   const form = played.slice(0, 5).map((g) => g.result).filter(Boolean) as string[];
 
   return (
-    <main className="pt-28">
+    <main className="pt-28" data-sport={s.slug}>
       <JsonLd data={[
         breadcrumbLd(locale, [
           { name: 'Inicio', path: '/' }, { name: s.name, path: `/${s.slug}` },
@@ -89,7 +89,7 @@ export default async function EquipoPage({ params }: { params: Params }) {
           <div>
             <h1 className="font-display text-fluid-display uppercase leading-[0.9]">{ref.name}</h1>
             <p className="mt-2 font-mono text-xs uppercase tracking-[0.25em] text-[var(--color-fg-muted)]">
-              {c.flag ? `${c.flag} ` : ''}{c.name}{team?.record ? ` · ${team.record}` : ''}{row ? ` · ${row.rank}.º${row.stats.points ? ` · ${row.stats.points} pts` : ''}` : team?.standingSummary ? ` · ${team.standingSummary}` : ''}
+              {c.name}{team?.record ? ` · ${team.record}` : ''}{row ? ` · ${row.rank}.º${row.stats.points ? ` · ${row.stats.points} pts` : ''}` : team?.standingSummary ? ` · ${team.standingSummary}` : ''}
             </p>
             {form.length > 0 && (
               <p className="mt-3 flex items-center gap-2"><span className="sub-label !mb-0">Racha</span><FormChips results={form} /></p>
@@ -100,7 +100,7 @@ export default async function EquipoPage({ params }: { params: Params }) {
 
       {/* Próximos partidos */}
       <section className="mx-auto w-full max-w-[1400px] px-6 py-12 md:px-10">
-        <div className="font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-pitch)]"><CalendarDays className="mr-1 inline h-3 w-3" /> Próximos partidos</div>
+        <div className="kicker"><CalendarDays className="mr-1 inline h-3 w-3" /> Próximos partidos</div>
         {next.length === 0 ? (
           <p className="mt-4 text-sm text-[var(--color-fg-muted)]">Sin partidos programados en los próximos 14 días en {c.name}.</p>
         ) : (
@@ -126,7 +126,7 @@ export default async function EquipoPage({ params }: { params: Params }) {
       {/* Resultados */}
       {played.length > 0 && (
         <section className="mx-auto w-full max-w-[1400px] px-6 pb-12 md:px-10">
-          <div className="font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-pitch)]">Últimos resultados · {c.shortName ?? c.name}</div>
+          <div className="kicker">Últimos resultados · {c.shortName ?? c.name}</div>
           <ul className="mt-4 divide-y divide-[var(--color-border)] overflow-hidden rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg)]">
             {played.map((g) => (
               <li key={g.id}>
@@ -148,7 +148,7 @@ export default async function EquipoPage({ params }: { params: Params }) {
       {/* Plantilla */}
       {roster.players.length > 0 && (
         <section className="mx-auto w-full max-w-[1400px] px-6 pb-16 md:px-10">
-          <div className="font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-pitch)]"><Users className="mr-1 inline h-3 w-3" /> Plantilla{roster.coach ? ` · Entrenador: ${roster.coach}` : ''}</div>
+          <div className="kicker"><Users className="mr-1 inline h-3 w-3" /> Plantilla{roster.coach ? ` · Entrenador: ${roster.coach}` : ''}</div>
           <div className="mt-4 grid gap-4 md:grid-cols-2 xl:grid-cols-4">
             {[...groups.entries()].map(([pos, ps]) => (
               <div key={pos} className="rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg-2)] p-4">

@@ -1,8 +1,8 @@
 {
   "$schema": "https://schemas.figma.com/tokens/v1.json",
   "name": "Mundiales de Fútbol",
-  "version": "1.0.0",
-  "description": "Design tokens. Drop into Figma Tokens plugin, Style Dictionary, or Tailwind v4 @theme.",
+  "version": "2.0.0",
+  "description": "Design tokens del portal (sistema Claude Design 2026-10). Drop into Figma Tokens, Style Dictionary o Tailwind v4 @theme.",
   "color": {
     "bg": {
       "value": "#05060A",
@@ -24,14 +24,14 @@
       "description": "Texto principal (casi blanco)."
     },
     "fg-muted": {
-      "value": "#9EA3AD",
+      "value": "#A3A8B2",
       "type": "color",
       "description": "Texto secundario."
     },
     "fg-subtle": {
-      "value": "#6B6F78",
+      "value": "#80858F",
       "type": "color",
-      "description": "Texto terciario, placeholders, kickers."
+      "description": "Etiquetas y metadatos (AA a 11 px)."
     },
     "border": {
       "value": "rgba(255,255,255,0.08)",
@@ -44,7 +44,7 @@
     "pitch": {
       "value": "#00FF85",
       "type": "color",
-      "description": "Acento primario. Verde neón césped. CTA, destacados, líneas."
+      "description": "Acento de marca (CTA, selección) y del fútbol."
     },
     "pitch-deep": {
       "value": "#00C266",
@@ -53,30 +53,75 @@
     "flame": {
       "value": "#FF3B3B",
       "type": "color",
-      "description": "Rojo vibrante, tarjetas rojas, destacados urgentes."
+      "description": "Alias de live (archivo histórico)."
     },
     "sun": {
       "value": "#FFD400",
       "type": "color",
-      "description": "Amarillo, tarjetas amarillas, retro, acento."
+      "description": "Alias de gold (archivo histórico)."
+    },
+    "surface-2": {
+      "value": "#161A22",
+      "type": "color",
+      "description": "Superficie elevada secundaria."
+    },
+    "live": {
+      "value": "oklch(0.68 0.22 25)",
+      "type": "color",
+      "description": "En directo (relleno, pulso). Alias heredado: flame."
+    },
+    "live-ink": {
+      "value": "oklch(0.74 0.19 25)",
+      "type": "color",
+      "description": "En directo (texto)."
+    },
+    "win": {
+      "value": "oklch(0.80 0.17 150)",
+      "type": "color",
+      "description": "Victoria, ascenso, clasificado."
+    },
+    "draw": {
+      "value": "oklch(0.72 0.01 260)",
+      "type": "color",
+      "description": "Empate."
+    },
+    "loss": {
+      "value": "oklch(0.68 0.17 10)",
+      "type": "color",
+      "description": "Derrota, descenso, roja."
+    },
+    "gold": {
+      "value": "oklch(0.88 0.18 92)",
+      "type": "color",
+      "description": "Campeón, descanso, amarilla. Alias heredado: sun."
     }
   },
   "typography": {
     "display": {
       "family": "Bebas Neue",
       "fallback": "Impact, system-ui, sans-serif",
-      "weights": [400],
+      "weights": [
+        400
+      ],
       "letterSpacing": "-0.01em"
     },
     "sans": {
       "family": "Geist",
       "fallback": "ui-sans-serif, system-ui, sans-serif",
-      "weights": [400, 500, 600, 700]
+      "weights": [
+        400,
+        500,
+        600,
+        700
+      ]
     },
     "mono": {
       "family": "Geist Mono",
       "fallback": "ui-monospace, monospace",
-      "weights": [400, 500]
+      "weights": [
+        400,
+        500
+      ]
     },
     "arabic": {
       "family": "Noto Naskh Arabic",
@@ -150,28 +195,234 @@
     "flame-glow": "radial-gradient(40% 40% at 80% 10%, rgba(255,59,59,0.25) 0%, transparent 70%)"
   },
   "editionPalettes": {
-    "1930-uruguay": { "from": "#0A3D91", "to": "#F5E6B3" },
-    "1934-italia": { "from": "#0B6B3A", "to": "#E4002B" },
-    "1938-francia": { "from": "#002654", "to": "#ED2939" },
-    "1950-brasil": { "from": "#009739", "to": "#FEDD00" },
-    "1954-suiza": { "from": "#D52B1E", "to": "#FFFFFF" },
-    "1958-suecia": { "from": "#005B99", "to": "#FFCD00" },
-    "1962-chile": { "from": "#D52B1E", "to": "#0032A0" },
-    "1966-inglaterra": { "from": "#012169", "to": "#C8102E" },
-    "1970-mexico": { "from": "#006341", "to": "#C8102E" },
-    "1974-alemania": { "from": "#000000", "to": "#DD0000" },
-    "1978-argentina": { "from": "#75AADB", "to": "#F6B40E" },
-    "1982-espana": { "from": "#AA151B", "to": "#F1BF00" },
-    "1986-mexico": { "from": "#006341", "to": "#C8102E" },
-    "1990-italia": { "from": "#008C45", "to": "#CD212A" },
-    "1994-estados-unidos": { "from": "#002868", "to": "#BF0A30" },
-    "1998-francia": { "from": "#002654", "to": "#ED2939" },
-    "2002-corea-japon": { "from": "#C60C30", "to": "#003478" },
-    "2006-alemania": { "from": "#000000", "to": "#FFCE00" },
-    "2010-sudafrica": { "from": "#007749", "to": "#FFB81C" },
-    "2014-brasil": { "from": "#009739", "to": "#FEDD00" },
-    "2018-rusia": { "from": "#0039A6", "to": "#D52B1E" },
-    "2022-qatar": { "from": "#8A1538", "to": "#FFFFFF" },
-    "2026-norteamerica": { "from": "#0A5FD3", "to": "#FF3B3B" }
+    "1930-uruguay": {
+      "from": "#0A3D91",
+      "to": "#F5E6B3"
+    },
+    "1934-italia": {
+      "from": "#0B6B3A",
+      "to": "#E4002B"
+    },
+    "1938-francia": {
+      "from": "#002654",
+      "to": "#ED2939"
+    },
+    "1950-brasil": {
+      "from": "#009739",
+      "to": "#FEDD00"
+    },
+    "1954-suiza": {
+      "from": "#D52B1E",
+      "to": "#FFFFFF"
+    },
+    "1958-suecia": {
+      "from": "#005B99",
+      "to": "#FFCD00"
+    },
+    "1962-chile": {
+      "from": "#D52B1E",
+      "to": "#0032A0"
+    },
+    "1966-inglaterra": {
+      "from": "#012169",
+      "to": "#C8102E"
+    },
+    "1970-mexico": {
+      "from": "#006341",
+      "to": "#C8102E"
+    },
+    "1974-alemania": {
+      "from": "#000000",
+      "to": "#DD0000"
+    },
+    "1978-argentina": {
+      "from": "#75AADB",
+      "to": "#F6B40E"
+    },
+    "1982-espana": {
+      "from": "#AA151B",
+      "to": "#F1BF00"
+    },
+    "1986-mexico": {
+      "from": "#006341",
+      "to": "#C8102E"
+    },
+    "1990-italia": {
+      "from": "#008C45",
+      "to": "#CD212A"
+    },
+    "1994-estados-unidos": {
+      "from": "#002868",
+      "to": "#BF0A30"
+    },
+    "1998-francia": {
+      "from": "#002654",
+      "to": "#ED2939"
+    },
+    "2002-corea-japon": {
+      "from": "#C60C30",
+      "to": "#003478"
+    },
+    "2006-alemania": {
+      "from": "#000000",
+      "to": "#FFCE00"
+    },
+    "2010-sudafrica": {
+      "from": "#007749",
+      "to": "#FFB81C"
+    },
+    "2014-brasil": {
+      "from": "#009739",
+      "to": "#FEDD00"
+    },
+    "2018-rusia": {
+      "from": "#0039A6",
+      "to": "#D52B1E"
+    },
+    "2022-qatar": {
+      "from": "#8A1538",
+      "to": "#FFFFFF"
+    },
+    "2026-norteamerica": {
+      "from": "#0A5FD3",
+      "to": "#FF3B3B"
+    }
+  },
+  "zone": {
+    "ucl": {
+      "value": "oklch(0.70 0.14 255)",
+      "type": "color"
+    },
+    "uel": {
+      "value": "oklch(0.78 0.15 62)",
+      "type": "color"
+    },
+    "uecl": {
+      "value": "oklch(0.78 0.11 185)",
+      "type": "color"
+    },
+    "up": {
+      "value": "oklch(0.80 0.17 150)",
+      "type": "color"
+    },
+    "down": {
+      "value": "oklch(0.68 0.17 10)",
+      "type": "color"
+    },
+    "playoff": {
+      "value": "oklch(0.88 0.18 92)",
+      "type": "color"
+    }
+  },
+  "sport": {
+    "futbol": {
+      "value": "oklch(0.84 0.2 150)",
+      "type": "color",
+      "description": "Acento por deporte; se aplica con data-sport en el contenedor."
+    },
+    "baloncesto": {
+      "value": "oklch(0.78 0.17 55)",
+      "type": "color",
+      "description": "Acento por deporte; se aplica con data-sport en el contenedor."
+    },
+    "rugby": {
+      "value": "oklch(0.74 0.15 300)",
+      "type": "color",
+      "description": "Acento por deporte; se aplica con data-sport en el contenedor."
+    },
+    "balonmano": {
+      "value": "oklch(0.74 0.14 255)",
+      "type": "color",
+      "description": "Acento por deporte; se aplica con data-sport en el contenedor."
+    },
+    "tenis": {
+      "value": "oklch(0.84 0.13 190)",
+      "type": "color",
+      "description": "Acento por deporte; se aplica con data-sport en el contenedor."
+    },
+    "motor": {
+      "value": "oklch(0.72 0.2 345)",
+      "type": "color",
+      "description": "Acento por deporte; se aplica con data-sport en el contenedor."
+    },
+    "ciclismo": {
+      "value": "oklch(0.88 0.17 100)",
+      "type": "color",
+      "description": "Acento por deporte; se aplica con data-sport en el contenedor."
+    },
+    "atletismo": {
+      "value": "oklch(0.78 0.12 225)",
+      "type": "color",
+      "description": "Acento por deporte; se aplica con data-sport en el contenedor."
+    }
+  },
+  "numeric": {
+    "xxl": {
+      "value": "clamp(5.5rem, 9vw, 7.5rem)",
+      "type": "dimension"
+    },
+    "xl": {
+      "value": "4rem",
+      "type": "dimension"
+    },
+    "l": {
+      "value": "2rem",
+      "type": "dimension"
+    },
+    "m": {
+      "value": "1.5rem",
+      "type": "dimension"
+    },
+    "s": {
+      "value": "0.8125rem",
+      "type": "dimension"
+    },
+    "xs": {
+      "value": "0.875rem",
+      "type": "dimension"
+    }
+  },
+  "text": {
+    "h1": {
+      "value": "clamp(2rem, 4vw, 3.25rem)",
+      "type": "dimension"
+    },
+    "h2": {
+      "value": "clamp(1.5rem, 2.6vw, 2.125rem)",
+      "type": "dimension"
+    },
+    "h3": {
+      "value": "1.25rem",
+      "type": "dimension"
+    },
+    "body": {
+      "value": "1.0625rem",
+      "type": "dimension"
+    },
+    "sm": {
+      "value": "0.875rem",
+      "type": "dimension"
+    },
+    "kicker": {
+      "value": "0.6875rem",
+      "type": "dimension"
+    }
+  },
+  "theme-light": {
+    "bg": "#F6F4EF",
+    "bg-2": "#FFFDF9",
+    "surface": "#EBE7DF",
+    "surface-2": "#E2DDD3",
+    "border": "rgb(13 15 20 / 0.10)",
+    "border-strong": "rgb(13 15 20 / 0.22)",
+    "fg": "#0D0F14",
+    "fg-muted": "#454A53",
+    "fg-subtle": "#666B74",
+    "live-ink": "oklch(0.52 0.2 27)",
+    "win": "oklch(0.55 0.15 150)",
+    "draw": "oklch(0.55 0.01 260)",
+    "loss": "oklch(0.55 0.18 15)",
+    "gold": "oklch(0.62 0.14 85)",
+    "accent-ink": "oklch(from var(--accent) 0.48 calc(c * 0.85) h)"
   }
 }

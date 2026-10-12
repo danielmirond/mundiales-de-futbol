@@ -23,7 +23,18 @@
     "football": "Fútbol",
     "basketball": "Baloncesto",
     "worldCup": "Mundial 2026",
-    "today": "Partidos hoy"
+    "today": "Partidos hoy",
+    "futbol": "Fútbol",
+    "baloncesto": "Baloncesto",
+    "rugby": "Rugby",
+    "balonmano": "Balonmano",
+    "motor": "Motor",
+    "tenis": "Tenis",
+    "moreSports": "Más deportes",
+    "soon": "pronto",
+    "worldCups": "Mundiales",
+    "search": "Equipo, competición o partido",
+    "liveNow": "en directo"
   },
   "home": {
     "hero": {
@@ -133,26 +144,6 @@
       "errorValidation": "Revisa los campos obligatorios.",
       "errorGeneric": "Algo falló. Vuelve a intentarlo en unos minutos."
     }
-  },
-  "wc2026Bar": {
-    "label": "Mundial 2026",
-    "live": "EN VIVO",
-    "groupStage": "Fase de grupos",
-    "koStage": "Eliminatorias",
-    "archive": "Mundial 2026 · archivo",
-    "opener": "Partido inaugural",
-    "postSubtitle": "Revive el camino al título",
-    "calendar": "Calendario",
-    "groups": "Grupos",
-    "tickets": "Entradas",
-    "today": "Partidos hoy",
-    "rtve": "Partidos La 1",
-    "dayShort": "d",
-    "hourShort": "h",
-    "minuteShort": "m",
-    "football": "Fútbol",
-    "basketball": "Baloncesto",
-    "bracket": "Cuadro 2026"
   },
   "cookies": {
     "title": "Esta web usa cookies",

@@ -26,3 +26,18 @@ Abre `visual-dna.html` directamente en un navegador, o imprime a PDF con Cmd+P.
 Al cambiar tokens en código (`globals.css`, `tournaments.ts`), actualiza:
 - `design-tokens.json` para que los diseñadores reciban los cambios
 - `visual-dna.html` para que la preview refleje la realidad
+
+## Sistema de diseño del portal (2026-10)
+
+Fuente: proyecto Claude Design «Mundiales» (`portal/sistema.html`). Implementado en
+`src/app/globals.css` (bloque «Sistema de diseño del portal»), `src/components/ui/icon.tsx`
+(set de iconos propio), `src/components/portal/*` (MatchRow, chips, Crest, StandingsTable),
+`src/components/match/scoreboard.tsx` (marcador l/m/s), `src/components/news/news-card.tsx`
+y `src/components/nav/*` (nav + subnav por deporte).
+
+- El acento se redefine por deporte con `data-sport="…"` en el contenedor.
+- Semánticos (`live`, `win`, `draw`, `loss`, `gold`, zonas) son fijos en todos los deportes;
+  `flame` y `sun` quedan como alias para el archivo histórico.
+- Tema claro: clase `.theme-light` (tokens listos; sin conmutador en UI todavía).
+- Bebas Neue queda para marcadores, cabeceras de sección y nombres de equipo; los titulares
+  de noticia y las secciones del portal usan Geist 600 (`.t-h1`, `.t-h2`, `.t-h3`).

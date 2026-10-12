@@ -23,7 +23,18 @@
     "football": "Football",
     "basketball": "Basketball",
     "worldCup": "World Cup 2026",
-    "today": "Today"
+    "today": "Today",
+    "futbol": "Football",
+    "baloncesto": "Basketball",
+    "rugby": "Rugby",
+    "balonmano": "Handball",
+    "motor": "Motorsport",
+    "tenis": "Tennis",
+    "moreSports": "More sports",
+    "soon": "soon",
+    "worldCups": "World Cups",
+    "search": "Team, competition or match",
+    "liveNow": "live"
   },
   "home": {
     "hero": {
@@ -133,26 +144,6 @@
       "errorValidation": "Check the required fields.",
       "errorGeneric": "Something went wrong. Try again in a few minutes."
     }
-  },
-  "wc2026Bar": {
-    "label": "World Cup 2026",
-    "live": "LIVE",
-    "groupStage": "Group stage",
-    "koStage": "Knockout stage",
-    "archive": "World Cup 2026 · archive",
-    "opener": "Opening match",
-    "postSubtitle": "Revisit the road to the title",
-    "calendar": "Schedule",
-    "groups": "Groups",
-    "tickets": "Tickets",
-    "today": "Today's matches",
-    "rtve": "Free on RTVE",
-    "dayShort": "d",
-    "hourShort": "h",
-    "minuteShort": "m",
-    "football": "Football",
-    "basketball": "Basketball",
-    "bracket": "2026 bracket"
   },
   "cookies": {
     "title": "This site uses cookies",

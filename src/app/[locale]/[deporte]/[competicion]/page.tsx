@@ -41,7 +41,7 @@ export default async function CompetitionPage({ params }: { params: Promise<{ lo
   const siblings = competitionsOf(s.slug).filter((x) => x.slug !== c.slug && (x.espn || x.href));
 
   return (
-    <main className="pt-28">
+    <main className="pt-28" data-sport={s.slug}>
       <JsonLd data={[
         breadcrumbLd(locale, [{ name: 'Inicio', path: '/' }, { name: s.name, path: `/${s.slug}` }, { name: c.name, path: `/${c.sport}/${c.slug}` }]),
         { '@context': 'https://schema.org', '@type': 'SportsOrganization', name: c.name, sport: s.name, url: localeUrl(locale, `/${c.sport}/${c.slug}`) },
@@ -50,7 +50,7 @@ export default async function CompetitionPage({ params }: { params: Promise<{ lo
         <Link href={withLocale(L, `/${s.slug}`)} className="inline-flex items-center gap-2 font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-fg-muted)] hover:text-[var(--color-fg)]">
           <ArrowLeft className="h-3 w-3 rtl:rotate-180" /> {s.name}
         </Link>
-        <h1 className="mt-6 font-display text-fluid-display uppercase leading-[0.9]">{c.flag ? `${c.flag} ` : ''}{c.name}</h1>
+        <h1 className="mt-6 font-display text-fluid-display uppercase leading-[0.9]">{c.name}</h1>
         <p className="mt-4 max-w-2xl text-lg text-[var(--color-fg-muted)]">{c.description}</p>
       </header>
 
@@ -71,11 +71,11 @@ export default async function CompetitionPage({ params }: { params: Promise<{ lo
 
       {siblings.length > 0 && (
         <section className="mx-auto w-full max-w-[1400px] px-6 pb-16 md:px-10">
-          <div className="mb-3 font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-fg-muted)]">Más {s.name.toLowerCase()}</div>
+          <div className="kicker mb-3">Más {s.name.toLowerCase()}</div>
           <div className="flex flex-wrap gap-2">
             {siblings.map((x) => (
-              <Link key={x.slug} href={withLocale(L, competitionPath(x))} className="inline-flex items-center gap-2 rounded-full border border-[var(--color-border-strong)] px-4 py-2 text-sm font-semibold hover:border-[var(--color-pitch)] hover:text-[var(--color-pitch)]">
-                {x.flag && <span aria-hidden>{x.flag}</span>}{x.shortName ?? x.name}
+              <Link key={x.slug} href={withLocale(L, competitionPath(x))} className="inline-flex items-center gap-2 rounded-full border border-[var(--color-border-strong)] px-4 py-2 text-sm font-semibold hover:border-[var(--accent)] hover:text-[var(--accent-ink)]">
+                {x.shortName ?? x.name}
               </Link>
             ))}
           </div>

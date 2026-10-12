@@ -34,13 +34,13 @@ export default async function SportPage({ params }: { params: Promise<{ locale: 
   const kinds = [...new Set(comps.map((c) => c.kind))] as CompetitionKind[];
 
   return (
-    <main className="pt-28">
+    <main className="pt-28" data-sport={s.slug}>
       <JsonLd data={breadcrumbLd(locale, [{ name: 'Inicio', path: '/' }, { name: s.name, path: `/${s.slug}` }])} />
       <header className="mx-auto w-full max-w-[1400px] px-6 md:px-10">
         <Link href={withLocale(L, '/')} className="inline-flex items-center gap-2 font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-fg-muted)] hover:text-[var(--color-fg)]">
           <ArrowLeft className="h-3 w-3 rtl:rotate-180" /> Inicio
         </Link>
-        <h1 className="mt-6 font-display text-fluid-display uppercase leading-[0.9]">{s.emoji} {s.name}</h1>
+        <h1 className="mt-6 font-display text-fluid-display uppercase leading-[0.9]">{s.name}</h1>
         <p className="mt-4 max-w-2xl text-lg text-[var(--color-fg-muted)]">{s.description}</p>
       </header>
 
