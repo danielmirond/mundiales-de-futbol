@@ -13,8 +13,8 @@ const WORLD_CUP: EspnPath = { sport: 'soccer', league: 'fifa.world' };
 
 /** Cabecera del partido (equipos, marcador, fecha, sede) tal como la da ESPN. */
 export type SummaryHeader = {
-  home: { abbr: string; name: string; logo?: string };
-  away: { abbr: string; name: string; logo?: string };
+  home: { id?: string; abbr: string; name: string; logo?: string };
+  away: { id?: string; abbr: string; name: string; logo?: string };
   date: string;
   venue: string;
   competition: string;
@@ -167,7 +167,7 @@ export async function fetchEventSummary(
   const headerComp = data.header?.competitions?.[0] ?? {};
   let homeScore: number | null = null;
   let awayScore: number | null = null;
-  const sideInfo: Record<'home' | 'away', { abbr: string; name: string; logo?: string }> = {
+  const sideInfo: Record<'home' | 'away', { id?: string; abbr: string; name: string; logo?: string }> = {
     home: { abbr: '', name: '' }, away: { abbr: '', name: '' },
   };
   for (const c of headerComp.competitors ?? []) {
@@ -178,6 +178,7 @@ export async function fetchEventSummary(
     else if (side === 'away') awayScore = sc;
     if (side) {
       sideInfo[side] = {
+        id: c.team?.id != null ? String(c.team.id) : undefined,
         abbr: String(c.team?.abbreviation ?? '').toUpperCase(),
         name: c.team?.displayName ?? c.team?.shortDisplayName ?? c.team?.name ?? '',
         logo: c.team?.logos?.[0]?.href ?? c.team?.logo,

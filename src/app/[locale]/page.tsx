@@ -68,6 +68,8 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
   return (
     <>
       <PortalHero locale={L} />
+      {/* Crónicas, previas y agenda del día: justo bajo el hero, que es lo que se busca. */}
+      <DailyNews locale={L} />
       <TodayBoard locale={L} competitions={liveCompetitions()} range="today" kicker="Partidos de hoy" title="Todo lo que se juega hoy" limitPerGroup={5} emptyText="Hoy no hay partidos en las competiciones que seguimos. Consulta el calendario de cada competición." />
       <CompetitionsGrid locale={L} />
       <section className="relative overflow-hidden">
@@ -76,7 +78,6 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
         </div>
       </section>
       <WorldCup2026Closed locale={L} />
-      <DailyNews locale={L} />
       <StatsBand />
       <EditionsGrid locale={L} />
       <Pillars />

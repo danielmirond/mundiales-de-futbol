@@ -63,17 +63,23 @@ export default async function PartidoPortalPage({ params }: { params: Params }) 
     ? channelsFor(await getWostiIndex(), h.date, [h.home.name], [h.away.name])
     : [];
 
-  const Side = ({ t, win }: { t: { name: string; logo?: string }; win: boolean }) => (
-    <span className="flex flex-1 flex-col items-center gap-2 text-center">
-      {t.logo ? (
-        // eslint-disable-next-line @next/next/no-img-element
-        <img src={t.logo} alt="" width={64} height={64} className="h-14 w-14 object-contain md:h-16 md:w-16" />
-      ) : (
-        <span className="text-5xl leading-none" aria-hidden>{emoji}</span>
-      )}
-      <span className={`font-display text-xl uppercase leading-tight md:text-3xl ${win ? 'text-[var(--color-fg)]' : 'text-[var(--color-fg-muted)]'}`}>{t.name}</span>
-    </span>
-  );
+  // Cada equipo enlaza a su página (calendario, resultados, plantilla) por id ESPN.
+  const Side = ({ t, win }: { t: { id?: string; name: string; logo?: string }; win: boolean }) => {
+    const inner = (
+      <span className="flex flex-1 flex-col items-center gap-2 text-center">
+        {t.logo ? (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img src={t.logo} alt="" width={64} height={64} className="h-14 w-14 object-contain md:h-16 md:w-16" />
+        ) : (
+          <span className="text-5xl leading-none" aria-hidden>{emoji}</span>
+        )}
+        <span className={`font-display text-xl uppercase leading-tight md:text-3xl ${win ? 'text-[var(--color-fg)]' : 'text-[var(--color-fg-muted)]'}`}>{t.name}</span>
+      </span>
+    );
+    return t.id ? (
+      <Link href={withLocale(L, `/${c.sport}/${c.slug}/equipo/${t.id}`)} className="flex flex-1 transition-colors hover:text-[var(--color-pitch)]">{inner}</Link>
+    ) : inner;
+  };
 
   return (
     <article className="pt-32">

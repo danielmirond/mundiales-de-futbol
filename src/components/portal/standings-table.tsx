@@ -1,11 +1,17 @@
+import Link from 'next/link';
 import { fetchStandings, STANDING_COLUMNS } from '@/lib/espn';
+import { fetchTeams } from '@/lib/espn-team';
 import type { Competition } from '@/lib/competitions';
+import { routing, type Locale } from '@/i18n/routing';
 
-/** Clasificación genérica (grupos/conferencias) con columnas por deporte. */
-export async function StandingsTable({ comp }: { comp: Competition }) {
-  const { season, groups } = await fetchStandings(comp);
+const withLocale = (l: Locale, h: string) => (l === routing.defaultLocale ? h : `/${l}${h}`);
+
+/** Clasificación genérica (grupos/conferencias) con columnas por deporte; cada equipo enlaza a su página. */
+export async function StandingsTable({ comp, locale = routing.defaultLocale }: { comp: Competition; locale?: Locale }) {
+  const [{ season, groups }, teams] = await Promise.all([fetchStandings(comp), fetchTeams(comp)]);
   if (groups.length === 0) return null;
   const cols = STANDING_COLUMNS[comp.espn?.sport ?? 'soccer'] ?? STANDING_COLUMNS.soccer;
+  const slugOf = (abbr: string, name: string) => teams.find((t) => t.abbr === abbr || t.name === name)?.slug;
 
   return (
     <section className="mx-auto w-full max-w-[1400px] px-6 py-12 md:px-10">
@@ -31,13 +37,21 @@ export async function StandingsTable({ comp }: { comp: Competition }) {
                     <tr key={`${g.name}-${r.abbr}-${r.rank}`} className="border-t border-[var(--color-border)]">
                       <td className="px-3 py-2.5 text-center font-mono tab-num text-[var(--color-fg-subtle)]">{r.rank}</td>
                       <td className="px-3 py-2.5">
-                        <span className="flex items-center gap-2 font-medium text-[var(--color-fg)]">
-                          {r.logo && (
-                            // eslint-disable-next-line @next/next/no-img-element
-                            <img src={r.logo} alt="" width={20} height={20} loading="lazy" className="h-5 w-5 object-contain" />
-                          )}
-                          <span className="truncate">{r.name}</span>
-                        </span>
+                        {(() => {
+                          const slug = slugOf(r.abbr, r.name);
+                          const inner = (
+                            <span className="flex items-center gap-2 font-medium text-[var(--color-fg)]">
+                              {r.logo && (
+                                // eslint-disable-next-line @next/next/no-img-element
+                                <img src={r.logo} alt="" width={20} height={20} loading="lazy" className="h-5 w-5 object-contain" />
+                              )}
+                              <span className="truncate">{r.name}</span>
+                            </span>
+                          );
+                          return slug ? (
+                            <Link href={withLocale(locale, `/${comp.sport}/${comp.slug}/equipo/${slug}`)} className="hover:text-[var(--color-pitch)]">{inner}</Link>
+                          ) : inner;
+                        })()}
                       </td>
                       {cols.map((c) => (
                         <td key={c.key} className={`px-2 py-2.5 text-center tab-num ${c.key === 'points' || c.key === 'winPercent' ? 'font-semibold text-[var(--color-fg)]' : 'text-[var(--color-fg-muted)]'}`}>

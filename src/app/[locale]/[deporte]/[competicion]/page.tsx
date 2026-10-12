@@ -65,7 +65,7 @@ export default async function CompetitionPage({ params }: { params: Promise<{ lo
           <TodayBoard locale={L} competitions={[c]} range="today" kicker="Hoy" title="Partidos de hoy" emptyText={`Hoy no hay partidos de ${c.name}.`} />
           <TodayBoard locale={L} competitions={[c]} range={[1, 10]} kicker="Calendario" title="Próximos partidos" emptyText="Sin partidos programados en los próximos días." />
           <TodayBoard locale={L} competitions={[c]} range={[-10, -1]} kicker="Resultados" title="Últimos resultados" emptyText="Sin resultados recientes." />
-          {c.hasStandings && <StandingsTable comp={c} />}
+          {c.hasStandings && <StandingsTable comp={c} locale={L} />}
         </>
       )}
 

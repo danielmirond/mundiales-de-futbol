@@ -165,7 +165,9 @@ export function renderCronica(reg: Register, c: CronicaCtx, rnd: () => number): 
   }
 
   // goal
-  const prota = c.topScorer && w && !c.goals.find((x) => x.player === c.topScorer && x.own) ? c.topScorer : null;
+  // Protagonista solo si marcó ≥2 o el gol decisivo; un gol entre varios no "guía".
+  const dec = golDecisivo(c);
+  const prota = w && c.topScorer && (c.topN >= 2 || (dec && !dec.own && dec.player === c.topScorer)) ? c.topScorer : w && dec && !dec.own ? dec.player : null;
   const title = prota
     ? `${prota} guía a ${w!.name} ante ${l!.name} (${wsc(c)})${w!.rank ? ` y lo deja ${ord(w!.rank)} en ${c.compShort}` : ` en ${c.compShort}`}`
     : w
