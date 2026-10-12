@@ -8,6 +8,7 @@ import { resolveTeam, fetchTeam, fetchTeamSchedule, fetchTeamRoster } from '@/li
 import { fetchWindow, dayKeys } from '@/lib/espn';
 import { getWostiIndex, channelsFor } from '@/lib/wosti';
 import { routing, type Locale } from '@/i18n/routing';
+import { StandingsTable, FormChips } from '@/components/portal/standings-table';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl } from '@/lib/seo';
 
 export const dynamic = 'force-dynamic';
@@ -91,14 +92,7 @@ export default async function EquipoPage({ params }: { params: Params }) {
               {c.flag ? `${c.flag} ` : ''}{c.name}{team?.record ? ` · ${team.record}` : ''}{row ? ` · ${row.rank}.º${row.stats.points ? ` · ${row.stats.points} pts` : ''}` : team?.standingSummary ? ` · ${team.standingSummary}` : ''}
             </p>
             {form.length > 0 && (
-              <p className="mt-2 flex items-center gap-1" aria-label={`Últimos resultados: ${form.join(', ')}`}>
-                <span className="mr-1 font-mono text-[9px] uppercase tracking-widest text-[var(--color-fg-subtle)]">Racha</span>
-                {form.map((r, i) => (
-                  <span key={i} className={`inline-grid h-5 w-5 place-items-center rounded font-mono text-[10px] font-bold ${r === 'W' ? 'bg-[var(--color-pitch)] text-black' : r === 'L' ? 'bg-[var(--color-flame)]/80 text-black' : 'bg-[var(--color-border)] text-[var(--color-fg)]'}`}>
-                    {r === 'W' ? 'G' : r === 'L' ? 'P' : 'E'}
-                  </span>
-                ))}
-              </p>
+              <p className="mt-3 flex items-center gap-2"><span className="sub-label !mb-0">Racha</span><FormChips results={form} /></p>
             )}
           </div>
         </div>
@@ -138,7 +132,7 @@ export default async function EquipoPage({ params }: { params: Params }) {
               <li key={g.id}>
                 <Link href={withLocale(L, `/${c.sport}/${c.slug}/partido/${g.id}`)} className="flex items-center gap-3 px-4 py-3 hover:bg-[var(--color-bg-2)]">
                   <span className="w-20 shrink-0 font-mono text-[11px] uppercase tracking-wider text-[var(--color-fg-muted)]">{dayFmt.format(new Date(g.date).getTime())}</span>
-                  <span className={`inline-grid h-5 w-5 shrink-0 place-items-center rounded font-mono text-[10px] font-bold ${g.result === 'W' ? 'bg-[var(--color-pitch)] text-black' : g.result === 'L' ? 'bg-[var(--color-flame)]/80 text-black' : 'bg-[var(--color-border)] text-[var(--color-fg)]'}`}>{g.result === 'W' ? 'G' : g.result === 'L' ? 'P' : 'E'}</span>
+                  <FormChips results={[g.result ?? 'D']} />
                   <span className="flex-1 truncate text-sm text-[var(--color-fg)]">{g.isHome ? 'vs' : 'en casa de'} {g.rival}</span>
                   <span className="font-display tab-num text-lg text-[var(--color-fg)]">{g.gf}-{g.ga}</span>
                 </Link>
@@ -148,19 +142,8 @@ export default async function EquipoPage({ params }: { params: Params }) {
         </section>
       )}
 
-      {/* Clasificación (fila) */}
-      {row && (
-        <section className="mx-auto w-full max-w-[1400px] px-6 pb-12 md:px-10">
-          <div className="font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-pitch)]">Clasificación</div>
-          <div className="mt-4 flex flex-wrap items-center gap-6 rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg-2)] p-5">
-            <div><div className="font-display tab-num text-4xl text-[var(--color-fg)]">{row.rank}.º</div><div className="font-mono text-[10px] uppercase tracking-widest text-[var(--color-fg-subtle)]">Puesto</div></div>
-            {[['points', 'Puntos'], ['gamesPlayed', 'PJ'], ['wins', 'G'], ['ties', 'E'], ['losses', 'P'], ['pointDifferential', 'Dif'], ['winPercent', '%']].map(([k, l]) => row.stats[k] != null && (
-              <div key={k}><div className="font-display tab-num text-2xl text-[var(--color-fg)]">{row.stats[k]}</div><div className="font-mono text-[10px] uppercase tracking-widest text-[var(--color-fg-subtle)]">{l}</div></div>
-            ))}
-            <Link href={withLocale(L, competitionPath(c))} className="ms-auto font-mono text-xs uppercase tracking-[0.2em] text-[var(--color-pitch)] hover:underline">Tabla completa →</Link>
-          </div>
-        </section>
-      )}
+      {/* Clasificación: el equipo con su vecino de arriba y de abajo */}
+      {row && <StandingsTable comp={c} locale={L} highlight={ref.abbr} slice />}
 
       {/* Plantilla */}
       {roster.players.length > 0 && (
