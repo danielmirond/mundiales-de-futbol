@@ -51,9 +51,17 @@ export const ICON_PATHS = {
 
 export type IconName = keyof typeof ICON_PATHS;
 
+/**
+ * El navegador serializa `<circle … />` como `<circle …></circle>`; para que
+ * la hidratación de `dangerouslySetInnerHTML` coincida con el SSR, se
+ * normalizan las etiquetas autocerradas.
+ */
+const normalize = (svg: string) => svg.replace(/<(\w+)([^>]*?)\s*\/>/g, '<$1$2></$1>');
+const HTML: Record<string, string> = Object.fromEntries(Object.entries(ICON_PATHS).map(([k, v]) => [k, normalize(v)]));
+
 /** Icono del set propio. `size` en px (por defecto 16). */
 export function Icon({ name, size = 16, className, title }: { name: IconName; size?: number; className?: string; title?: string }) {
-  const d = ICON_PATHS[name];
+  const d = HTML[name];
   if (!d) return null;
   return (
     <svg
