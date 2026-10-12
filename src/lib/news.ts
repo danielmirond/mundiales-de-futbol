@@ -370,7 +370,7 @@ Horarios en hora de España; los resultados y la narración de cada partido van 
     sourceUrl: "https://www.espn.com/nba/game/_/gameId/401914130",
     sourceLang: 'en',
     publishedAt: '2026-10-12T07:51:41.385Z',
-    modifiedAt: '2026-10-12T07:51:41.385Z',
+    modifiedAt: '2026-10-12T16:05:59.411Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/PDX_carpet_at_Moda_Center%2C_2016.jpg/1920px-PDX_carpet_at_Moda_Center%2C_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -387,8 +387,8 @@ Horarios en hora de España; los resultados y la narración de cada partido van 
 
 ## 🇪🇸 LaLiga Hypermotion
 
-- **[Valladolid - Albacete](/futbol/laliga-2/partido/401883159)** — 14:00 h · 📺 LALIGA TV Hypermotion / DAZN
-- **[Burgos - Granada](/futbol/laliga-2/partido/401883187)** — 16:15 h · 📺 LALIGA TV Hypermotion / DAZN
+- **[Valladolid - Albacete](/futbol/laliga-2/partido/401883159)** — 14:00 h · 📺 LALIGA TV Hypermotion / DAZN — **final 5-0**
+- **[Burgos - Granada](/futbol/laliga-2/partido/401883187)** — 16:15 h · 📺 LALIGA TV Hypermotion / DAZN — **en juego, 0-1**
 - **[Real Oviedo - Eibar](/futbol/laliga-2/partido/401883182)** — 18:30 h · 📺 LALIGA TV Hypermotion / DAZN
 - **[Tenerife - Girona](/futbol/laliga-2/partido/401883181)** — 21:00 h · 📺 LALIGA TV Hypermotion / DAZN
 
@@ -409,7 +409,7 @@ Calendario y clasificación en la [página de LaLiga](/futbol/laliga).
 
 ## 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Premier League
 
-- **[Coventry - Newcastle](/futbol/premier-league/partido/401879267)** — 21:00 h · 📺 DAZN
+- **[Coventry - Newcastle](/futbol/premier-league/partido/401879267)** — 21:00 h · 📺 DAZN / DAZN 1
 
 Calendario y clasificación en la [página de Premier League](/futbol/premier-league).
 
@@ -419,7 +419,7 @@ Todos los horarios están en hora peninsular. Los marcadores se actualizan en di
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882852",
     sourceLang: 'en',
     publishedAt: '2026-10-12T07:51:41.385Z',
-    modifiedAt: '2026-10-12T07:51:41.385Z',
+    modifiedAt: '2026-10-12T16:05:59.411Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Estadi_Ciutat_de_Val%C3%A8ncia_-_nocturna.jpg/1920px-Estadi_Ciutat_de_Val%C3%A8ncia_-_nocturna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
