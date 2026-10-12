@@ -29,7 +29,7 @@ export function SportSubnav() {
   const dot = (key: string) => live.liveSlugs.includes(key) && <i className="h-1.5 w-1.5 rounded-full bg-[var(--color-live)]" />;
 
   return (
-    <div data-sport={sport ?? undefined} className="border-b border-[var(--color-border)] bg-[var(--color-bg-2)]/90 backdrop-blur">
+    <div data-sport={sport ?? undefined} className={cn('border-b border-[var(--color-border)] bg-[var(--color-bg-2)]/90 backdrop-blur', !sport && 'hidden lg:block')}>
       <div className="no-scrollbar mx-auto flex h-11 w-full max-w-[1400px] items-center gap-1.5 overflow-x-auto px-4 md:px-7">
         {sport ? (
           <>

@@ -85,10 +85,10 @@ export function MatchRow({
         <span className={`grid gap-1.5 text-right font-display text-[19px] leading-5 tab-num ${live ? 'text-[var(--color-live-ink)]' : ''}`}>
           {(played || live) ? <><span>{m.home.score ?? 0}</span><span>{m.away.score ?? 0}</span></> : null}
         </span>
-        <span className="relative z-10 col-start-2 col-end-4 mt-1 flex items-center gap-1.5">
+        <span className="relative z-10 col-start-2 col-end-4 mt-1 flex min-w-0 items-center gap-1.5">
           {ppd ? <span className="ch tbd">Nueva fecha por confirmar</span> : <ChannelChips channels={channels} sport={sport} venue={m.venue} max={1} />}
           {pens && <span className="font-mono text-[9px] text-[var(--color-fg-subtle)]">{pens}</span>}
-          {showCompetition && <span className="ml-auto font-mono text-[10px] uppercase tracking-wider text-[var(--color-fg-subtle)]">{m.competition.name}</span>}
+          {showCompetition && <span className="ml-auto shrink-0 whitespace-nowrap font-mono text-[10px] uppercase tracking-wider text-[var(--color-fg-subtle)]">{m.competition.name}</span>}
         </span>
       </div>
     </li>
