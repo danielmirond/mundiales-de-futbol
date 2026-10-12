@@ -3,7 +3,7 @@ import { Crest } from '@/components/portal/crest';
 import { Icon } from '@/components/ui/icon';
 import { ChannelChips } from '@/components/portal/channel-chips';
 import { MatchStatus, phaseOf, type MatchPhase } from './match-status';
-import type { MatchSummary, MatchEvent } from '@/lib/wc-2026-match-summary';
+import type { MatchSummary, MatchEvent, SummarySide } from '@/lib/wc-2026-match-summary';
 
 const dateFmt = new Intl.DateTimeFormat('es-ES', { timeZone: 'Europe/Madrid', weekday: 'long', day: 'numeric', month: 'long' });
 const timeFmt = new Intl.DateTimeFormat('es-ES', { timeZone: 'Europe/Madrid', hour: '2-digit', minute: '2-digit', hourCycle: 'h23' });
@@ -26,6 +26,17 @@ export function clockLabel(s: MatchSummary, sport: string): string {
 const scorers = (events: MatchEvent[], side: 'home' | 'away') =>
   events.filter((e) => e.kind === 'goal' && e.side === side).map((e) => ({ name: e.players[0] ?? e.type, minute: e.minute, own: /propia|own/i.test(e.type) }));
 
+function LargeTeam({ t, teamHref }: { t: SummarySide; teamHref?: (id: string) => string }) {
+  const inner = (
+    <>
+      <Crest src={t.logo} abbr={t.abbr} color={t.color} size="xl" />
+      <span className="font-display text-[28px] uppercase leading-[0.9] tracking-[0.01em] md:text-[40px]">{t.name}</span>
+    </>
+  );
+  const cls = 'grid justify-items-center gap-3.5 text-center text-[var(--color-fg)]';
+  return t.id && teamHref ? <Link href={teamHref(t.id)} className={`${cls} hover:text-[var(--accent-ink)]`}>{inner}</Link> : <span className={cls}>{inner}</span>;
+}
+
 /**
  * Marcador grande (cabecera de la ficha de partido · sistema 08).
  * Kicker + estado, equipos con escudo, dígitos --num-xxl, reloj, goleadores,
@@ -37,16 +48,6 @@ export function ScoreboardLarge({ sport, competition, summary: s, channels = [],
   const scored = s.state !== 'pre' && s.homeScore != null && s.awayScore != null;
   const ms = h.date ? new Date(h.date).getTime() : 0;
   const pens = h.home.shootout != null && h.away.shootout != null ? `${h.home.shootout}-${h.away.shootout} en penaltis` : null;
-  const Team = ({ t }: { t: typeof h.home }) => {
-    const inner = (
-      <>
-        <Crest src={t.logo} abbr={t.abbr} color={t.color} size="xl" />
-        <span className="font-display text-[28px] uppercase leading-[0.9] tracking-[0.01em] md:text-[40px]">{t.name}</span>
-      </>
-    );
-    const cls = 'grid justify-items-center gap-3.5 text-center text-[var(--color-fg)]';
-    return t.id && teamHref ? <Link href={teamHref(t.id)} className={`${cls} hover:text-[var(--accent-ink)]`}>{inner}</Link> : <span className={cls}>{inner}</span>;
-  };
   return (
     <div
       data-sport={sport}
@@ -58,7 +59,7 @@ export function ScoreboardLarge({ sport, competition, summary: s, channels = [],
         <MatchStatus phase={phase} />
       </div>
       <div className="my-7 grid grid-cols-[1fr_auto_1fr] items-center gap-4 md:gap-7">
-        <Team t={h.home} />
+        <LargeTeam t={h.home} teamHref={teamHref} />
         <div className="grid justify-items-center gap-3">
           {scored ? (
             <div className={`n-xxl flex items-center gap-3 md:gap-4 ${s.state === 'in' ? 'text-[var(--color-live-ink)]' : 'text-[var(--color-fg)]'}`}>
@@ -73,7 +74,7 @@ export function ScoreboardLarge({ sport, competition, summary: s, channels = [],
           {pens && <span className="font-mono text-[11px] uppercase tracking-[0.12em] text-[var(--color-fg-subtle)]">{pens}</span>}
           {!scored && ms > 0 && <span className="font-mono text-[13px] tab-num text-[var(--color-fg-muted)]">{timeFmt.format(ms)} h</span>}
         </div>
-        <Team t={h.away} />
+        <LargeTeam t={h.away} teamHref={teamHref} />
       </div>
       {sport === 'futbol' && s.hasEvents && (
         <div className="grid grid-cols-2 gap-x-12 gap-y-1.5 border-t border-[var(--color-border)] pt-4 text-sm text-[var(--color-fg-muted)]">

@@ -5,7 +5,7 @@ import { setRequestLocale } from 'next-intl/server';
 import { marked } from 'marked';
 import {
   ArrowLeft,
-  ArrowRight,
+
   ExternalLink,
   Calendar,
 } from 'lucide-react';
@@ -19,6 +19,7 @@ import {
   newsImageAlt,
   type NewsCategory,
 } from '@/lib/news';
+import { NewsCard, newsKicker } from '@/components/news/news-card';
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl, SEO } from '@/lib/seo';
 import { authorJsonLd } from '@/lib/authors';
@@ -254,10 +255,8 @@ export default async function NoticiaDetail({
           <ArrowLeft className="h-3 w-3 rtl:rotate-180" /> Noticias
         </Link>
 
-        <div className="mt-8 flex items-center gap-3 font-mono text-xs uppercase tracking-[0.3em]">
-          <span className="rounded-full bg-[var(--color-pitch)]/10 px-3 py-1 text-[var(--color-pitch)]">
-            {CATEGORY_LABELS[item.category]}
-          </span>
+        <div className="mt-8 flex flex-wrap items-center gap-3 font-mono text-xs uppercase tracking-[0.3em]">
+          <span className="kicker">{newsKicker(item)}</span>
           <span className="inline-flex items-center gap-1.5 text-[var(--color-fg-subtle)]">
             <Calendar className="h-3 w-3" />
             {relativeTimeEs(item.publishedAt)}
@@ -267,11 +266,11 @@ export default async function NoticiaDetail({
           </span>
         </div>
 
-        <h1 className="mt-6 font-display text-4xl uppercase leading-[1] text-[var(--color-fg)] md:text-5xl">
+        <h1 className="t-h1 mt-6 text-[var(--color-fg)]">
           {loc.title}
         </h1>
 
-        <p className="mt-6 text-lg leading-relaxed text-[var(--color-fg-muted)] md:text-xl">
+        <p className="t-body mt-6 max-w-[62ch] text-[var(--color-fg-muted)] md:text-xl">
           {loc.summary}
         </p>
       </header>
@@ -290,10 +289,9 @@ export default async function NoticiaDetail({
           />
         </div>
         {(item.image?.credit || item.image?.license) && (
-          <figcaption className="mt-3 px-2 font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--color-fg-subtle)]">
-            {item.image.credit}
-            {item.image.credit && item.image.license ? ' · ' : ''}
-            {item.image.license}
+          <figcaption className="mt-3 px-2 font-mono text-[11px] leading-[1.4] text-[var(--color-fg-subtle)]">
+            Foto: {item.image.credit ?? item.image.license}
+            {item.image.credit && !/commons/i.test(item.image.credit) && item.image.license ? ` · ${item.image.license}` : ''}
           </figcaption>
         )}
       </figure>
@@ -323,10 +321,10 @@ export default async function NoticiaDetail({
       <section className="mx-auto mt-12 w-full max-w-[900px] px-6 md:px-10">
         <div
           className="
-            article-body
-            text-base leading-relaxed text-[var(--color-fg)] md:text-lg
-            [&_h2]:mt-10 [&_h2]:mb-4 [&_h2]:font-display [&_h2]:text-2xl [&_h2]:uppercase [&_h2]:leading-tight [&_h2]:text-[var(--color-fg)] [&_h2]:md:text-3xl
-            [&_h3]:mt-8 [&_h3]:mb-3 [&_h3]:font-display [&_h3]:text-xl [&_h3]:uppercase [&_h3]:leading-tight [&_h3]:text-[var(--color-fg)]
+            article-body t-body
+            text-[var(--color-fg)]
+            [&_h2]:mt-10 [&_h2]:mb-4 [&_h2]:text-[26px] [&_h2]:font-semibold [&_h2]:leading-[1.15] [&_h2]:tracking-[-0.02em] [&_h2]:text-[var(--color-fg)]
+            [&_h3]:mt-8 [&_h3]:mb-3 [&_h3]:text-[20px] [&_h3]:font-semibold [&_h3]:leading-[1.22] [&_h3]:tracking-[-0.015em] [&_h3]:text-[var(--color-fg)]
             [&_p]:mb-5 [&_p]:last:mb-0
             [&_strong]:font-semibold [&_strong]:text-[var(--color-fg)]
             [&_em]:italic [&_em]:text-[var(--color-fg-muted)]
@@ -413,39 +411,18 @@ export default async function NoticiaDetail({
       {/* Relacionadas */}
       {related.length > 0 && (
         <section className="mx-auto mt-20 w-full max-w-[1200px] px-6 md:px-10">
-          <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-pitch)]">
-            Más sobre {CATEGORY_LABELS[item.category]}
-          </div>
-          <h2 className="mt-3 font-display text-2xl uppercase md:text-3xl">
-            Relacionadas
-          </h2>
+          <div className="kicker">Más sobre {item.competition?.name ?? CATEGORY_LABELS[item.category]}</div>
+          <h2 className="t-h2 mt-3 text-[var(--color-fg)]">Relacionadas</h2>
 
-          <ul className="mt-8 grid gap-4 md:grid-cols-3">
-            {related.map((r) => (
-              <li key={r.slug}>
-                <Link
-                  href={withLocale(locale as Locale, `/noticias/${r.slug}`)}
-                  className="group flex h-full flex-col gap-3 rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg-2)] p-5 transition-colors hover:border-[var(--color-pitch)]/40"
-                >
-                  <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-fg-subtle)]">
-                    {relativeTimeEs(r.publishedAt)}
-                  </span>
-                  <h3 className="font-display text-base uppercase leading-tight text-[var(--color-fg)] group-hover:text-[var(--color-pitch)] transition-colors">
-                    {r.title}
-                  </h3>
-                  <p className="text-sm text-[var(--color-fg-muted)] line-clamp-3">
-                    {r.summary}
-                  </p>
-                </Link>
-              </li>
-            ))}
-          </ul>
+          <div className="mt-6 max-w-[760px]">
+            {related.map((r) => <NewsCard key={r.slug} n={r} locale={locale as Locale} variant="list" />)}
+          </div>
         </section>
       )}
 
       <section className="mx-auto mt-16 mb-24 w-full max-w-[1200px] px-6 md:px-10">
         <div className="rounded-3xl border border-[var(--color-border)] bg-[var(--color-bg-2)] p-10">
-          <h2 className="font-display text-2xl uppercase">Sigue al día</h2>
+          <h2 className="t-h2 text-[var(--color-fg)]">Sigue al día</h2>
           <div className="mt-6 flex flex-wrap gap-3">
             <Link
               href={withLocale(locale as Locale, '/noticias')}

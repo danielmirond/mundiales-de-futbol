@@ -127,7 +127,8 @@ async function buildHoy(sport: string, now: Date): Promise<Piece | null> {
 
   const src = readNews();
   return {
-    slug, title, summary, body, category: 'tv',
+    slug, title, summary, body, category: 'tv', kind: 'agenda',
+    competition: { name: compOf(featured).shortName ?? compOf(featured).name, sport, slug: compOf(featured).slug },
     sourceName: 'ESPN', sourceUrl: espnEventUrl(compOf(featured), featured.id), sourceLang: 'en',
     publishedAt: publishedAtOf(src, slug) ?? now.toISOString(),
     modifiedAt: now.toISOString(), author: AUTHOR, image,
@@ -180,7 +181,8 @@ async function buildCronicas(now: Date): Promise<Piece[]> {
     assertTitle(title, entity);
     const image = await imageFor(m.venue || `${m.home.fullName} estadio`, `${m.venue || m.home.fullName}, donde se jugó el ${m.home.name} - ${m.away.name}`);
     out.push({
-      slug, title, summary, body, category: 'general',
+      slug, title, summary, body, category: 'general', kind: 'cronica',
+      competition: { name: c.shortName ?? c.name, sport: c.sport, slug: c.slug },
       sourceName: 'ESPN', sourceUrl: espnEventUrl(c, m.id), sourceLang: 'en',
       publishedAt: publishedAtOf(src, slug) ?? now.toISOString(), modifiedAt: REFRESH ? now.toISOString() : undefined,
       author: AUTHOR, image,
@@ -220,7 +222,7 @@ async function buildPrevia(now: Date): Promise<Piece | null> {
   assertTitle(title, entity);
   const image = await imageFor(m.venue || `${m.home.fullName} estadio`, `${m.venue || m.home.fullName}, sede del ${m.home.name} - ${m.away.name}`);
   const src = readNews();
-  return { slug, title, summary, body, category: 'general', sourceName: 'ESPN', sourceUrl: espnEventUrl(c, m.id), sourceLang: 'en', publishedAt: publishedAtOf(src, slug) ?? now.toISOString(), modifiedAt: REFRESH ? now.toISOString() : undefined, author: AUTHOR, image };
+  return { slug, title, summary, body, category: 'general', kind: 'previa', competition: { name: c.shortName ?? c.name, sport: c.sport, slug: c.slug }, sourceName: 'ESPN', sourceUrl: espnEventUrl(c, m.id), sourceLang: 'en', publishedAt: publishedAtOf(src, slug) ?? now.toISOString(), modifiedAt: REFRESH ? now.toISOString() : undefined, author: AUTHOR, image };
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -252,7 +254,7 @@ async function buildClasificacion(now: Date): Promise<Piece[]> {
     assertTitle(title, c.name);
     const summary = `${intro} Tabla comentada de ${c.name}${season ? ` ${season}` : ''}: cabeza, zona baja y enlace a la clasificación completa.`;
     const image = await imageFor(`${lider.name} estadio`, `Estadio de ${lider.name}, líder de ${c.name}`);
-    out.push({ slug, title, summary, body, category: 'general', sourceName: 'ESPN', sourceUrl: `https://www.espn.com/${basketball ? 'nba/standings' : `soccer/standings/_/league/${c.espn!.league}`}`, sourceLang: 'en', publishedAt: publishedAtOf(src, slug) ?? now.toISOString(), modifiedAt: REFRESH ? now.toISOString() : undefined, author: AUTHOR, image });
+    out.push({ slug, title, summary, body, category: 'general', kind: 'clasificacion', competition: { name: c.shortName ?? c.name, sport: c.sport, slug: c.slug }, sourceName: 'ESPN', sourceUrl: `https://www.espn.com/${basketball ? 'nba/standings' : `soccer/standings/_/league/${c.espn!.league}`}`, sourceLang: 'en', publishedAt: publishedAtOf(src, slug) ?? now.toISOString(), modifiedAt: REFRESH ? now.toISOString() : undefined, author: AUTHOR, image });
   }
   return out;
 }

@@ -15,6 +15,13 @@ export function shortClock(m: Pick<Match, 'clock' | 'period' | 'statusName' | 'c
   return c || 'En vivo';
 }
 
+function TeamName({ t, win, teamHref }: { t: Match['home']; win: boolean; teamHref?: (id: string) => string }) {
+  const cls = `nm min-w-0 truncate ${win ? 'font-semibold text-[var(--color-fg)]' : ''}`;
+  return t.id && teamHref ? (
+    <Link href={teamHref(t.id)} className={`${cls} relative z-10 hover:text-[var(--accent-ink)]`}>{t.name}</Link>
+  ) : <span className={cls}>{t.name}</span>;
+}
+
 /**
  * Fila de partido (sistema de diseño · 07). Una sola fila para todos los
  * deportes y estados. La fila entera enlaza a la ficha; los nombres enlazan
@@ -41,12 +48,6 @@ export function MatchRow({
     <><i className="pulse" />{shortClock(m)}</>
   ) : ppd ? 'Aplaz.' : played ? (showDay ? dayFmt.format(ms) : 'Final') : (showDay ? `${dayFmt.format(ms)} ${timeFmt.format(ms)}` : timeFmt.format(ms));
 
-  const Name = ({ t, win }: { t: Match['home']; win: boolean }) => {
-    const cls = `nm min-w-0 truncate ${win ? 'font-semibold text-[var(--color-fg)]' : ''}`;
-    return t.id && teamHref ? (
-      <Link href={teamHref(t.id)} className={`${cls} relative z-10 hover:text-[var(--accent-ink)]`}>{t.name}</Link>
-    ) : <span className={cls}>{t.name}</span>;
-  };
   const crest = (t: Match['home'], size: 'm' | 's') => <Crest src={t.logo} abbr={t.abbr} color={t.color} size={size} />;
   const tone = pre || live ? 'text-[var(--color-fg)]' : ppd ? 'text-[var(--color-fg-subtle)]' : 'text-[var(--color-fg-muted)]';
   const chips = <ChannelChips channels={channels} sport={sport} venue={m.venue} compact />;
@@ -59,12 +60,12 @@ export function MatchRow({
       <div className="hidden min-h-[60px] items-center gap-4 px-5 md:grid md:grid-cols-[72px_minmax(0,1fr)_230px]">
         <span className={`flex items-center gap-2 font-mono text-[13px] uppercase tracking-[0.04em] tab-num ${live ? 'text-[var(--color-live-ink)]' : 'text-[var(--color-fg-muted)]'}`}>{timeCell}</span>
         <span className="grid grid-cols-[minmax(0,1fr)_80px_minmax(0,1fr)] items-center gap-3">
-          <span className={`flex min-w-0 items-center gap-2.5 text-[15px] ${tone}`}>{crest(m.home, 'm')}<Name t={m.home} win={homeWin} /></span>
+          <span className={`flex min-w-0 items-center gap-2.5 text-[15px] ${tone}`}>{crest(m.home, 'm')}<TeamName t={m.home} win={homeWin} teamHref={teamHref} /></span>
           <span className={`text-center ${played || live ? `n-m ${live ? 'text-[var(--color-live-ink)]' : ''}` : 'font-mono text-[11px] uppercase tracking-[0.14em] text-[var(--color-fg-subtle)]'}`}>
             {played || live ? `${m.home.score ?? 0}–${m.away.score ?? 0}` : ppd ? '—' : 'vs'}
             {pens && <small className="block font-mono text-[9px] tracking-[0.06em] text-[var(--color-fg-subtle)]">{pens}</small>}
           </span>
-          <span className={`flex min-w-0 items-center justify-end gap-2.5 text-right text-[15px] ${tone}`}><Name t={m.away} win={awayWin} />{crest(m.away, 'm')}</span>
+          <span className={`flex min-w-0 items-center justify-end gap-2.5 text-right text-[15px] ${tone}`}><TeamName t={m.away} win={awayWin} teamHref={teamHref} />{crest(m.away, 'm')}</span>
         </span>
         <span className="relative z-10 flex min-w-0 items-center justify-end gap-2">
           {ppd ? <span className="ch tbd">Nueva fecha por confirmar</span> : chips}
@@ -76,8 +77,8 @@ export function MatchRow({
       <div className="grid grid-cols-[46px_minmax(0,1fr)_auto] items-center gap-x-3 gap-y-1 px-4 py-3 md:hidden">
         <span className={`grid justify-items-center gap-1 text-center font-mono text-[12px] tab-num ${live ? 'text-[var(--color-live-ink)]' : 'text-[var(--color-fg-muted)]'}`}>{timeCell}</span>
         <span className="grid gap-1.5">
-          <span className={`flex items-center gap-2 text-[14.5px] ${tone}`}>{crest(m.home, 's')}<Name t={m.home} win={homeWin} /></span>
-          <span className={`flex items-center gap-2 text-[14.5px] ${tone}`}>{crest(m.away, 's')}<Name t={m.away} win={awayWin} /></span>
+          <span className={`flex items-center gap-2 text-[14.5px] ${tone}`}>{crest(m.home, 's')}<TeamName t={m.home} win={homeWin} teamHref={teamHref} /></span>
+          <span className={`flex items-center gap-2 text-[14.5px] ${tone}`}>{crest(m.away, 's')}<TeamName t={m.away} win={awayWin} teamHref={teamHref} /></span>
         </span>
         <span className={`grid gap-1.5 text-right font-display text-[19px] leading-5 tab-num ${live ? 'text-[var(--color-live-ink)]' : ''}`}>
           {(played || live) ? <><span>{m.home.score ?? 0}</span><span>{m.away.score ?? 0}</span></> : null}

@@ -15,6 +15,8 @@ export type Piece = {
   summary: string;
   body: string;
   category: string;
+  kind?: 'cronica' | 'previa' | 'agenda' | 'clasificacion';
+  competition?: { name: string; sport: string; slug: string };
   sourceName: string;
   sourceUrl: string;
   sourceLang: 'es' | 'en';
@@ -38,7 +40,7 @@ export function serialize(p: Piece): string {
     summary: ${JSON.stringify(p.summary)},
     body: \`${esc(p.body)}\`,
     category: '${p.category}',
-    sourceName: ${JSON.stringify(p.sourceName)},
+${p.kind ? `    kind: '${p.kind}',\n` : ''}${p.competition ? `    competition: ${JSON.stringify(p.competition)},\n` : ''}    sourceName: ${JSON.stringify(p.sourceName)},
     sourceUrl: ${JSON.stringify(p.sourceUrl)},
     sourceLang: '${p.sourceLang}',
     publishedAt: '${p.publishedAt}',

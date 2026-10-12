@@ -37,6 +37,19 @@ export type NewsCategory =
   | 'historica'
   | 'curiosa';
 
+export type NewsKind = 'cronica' | 'previa' | 'agenda' | 'clasificacion' | 'noticia';
+export const NEWS_KIND_LABEL: Record<NewsKind, string> = { cronica: 'Crónica', previa: 'Previa', agenda: 'Agenda', clasificacion: 'Clasificación', noticia: 'Noticia' };
+
+/** Tipo de pieza: explícito o inferido del prefijo del slug del pipeline. */
+export function newsKind(item: Pick<NewsItem, 'kind' | 'slug'>): NewsKind {
+  if (item.kind) return item.kind;
+  if (item.slug.startsWith('cronica-')) return 'cronica';
+  if (item.slug.startsWith('previa-')) return 'previa';
+  if (item.slug.startsWith('partidos-')) return 'agenda';
+  if (item.slug.startsWith('clasificacion-')) return 'clasificacion';
+  return 'noticia';
+}
+
 export type NewsItem = {
   /** Slug interno · usado en `/noticias/[slug]`. */
   slug: string;
@@ -51,6 +64,10 @@ export type NewsItem = {
   body: string;
   /** Categoría para filtrado. */
   category: NewsCategory;
+  /** Tipo de pieza del pipeline diario (si falta, se infiere del slug). */
+  kind?: NewsKind;
+  /** Competición de la pieza (kicker y acento de deporte). */
+  competition?: { name: string; sport: string; slug: string };
   /** Nombre del medio fuente. */
   sourceName: string;
   /** URL del artículo original (atribución obligatoria). */

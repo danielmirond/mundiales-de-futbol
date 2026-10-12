@@ -1,8 +1,8 @@
 import Link from 'next/link';
-import Image from 'next/image';
 import { setRequestLocale } from 'next-intl/server';
-import { ArrowLeft, ArrowRight, Newspaper } from 'lucide-react';
-import { NEWS_ITEMS, relativeTimeEs, newsImageUrl, newsImageAlt, type NewsCategory } from '@/lib/news';
+import { ArrowLeft, Newspaper } from 'lucide-react';
+import { NEWS_ITEMS } from '@/lib/news';
+import { NewsCard, autoVariant } from '@/components/news/news-card';
 
 // SSR: el filtro publishedAt <= now necesita evaluarse en cada request,
 // no en build time, para que los artículos programados aparezcan solos.
@@ -15,25 +15,6 @@ function withLocale(locale: Locale, href: string) {
   if (locale === routing.defaultLocale) return href;
   return `/${locale}${href === '/' ? '' : href}`;
 }
-
-const CATEGORY_LABELS: Record<NewsCategory, string> = {
-  panini: 'Panini',
-  convocatorias: 'Convocatorias',
-  sedes: 'Sedes',
-  entradas: 'Entradas',
-  jugadores: 'Jugadores',
-  mascotas: 'Mascotas',
-  ceremonia: 'Ceremonia',
-  polemica: 'Polémica',
-  tv: 'TV / Streaming',
-  patrocinios: 'Patrocinios',
-  amistosos: 'Amistosos',
-  lesiones: 'Lesiones',
-  tecnico: 'Cuerpo técnico',
-  general: 'General',
-  historica: 'Historia',
-  curiosa: 'Curiosidades',
-};
 
 export async function generateMetadata({
   params,
@@ -76,12 +57,12 @@ export default async function NoticiasIndex({
   const collectionLd = {
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',
-    name: 'Noticias Mundial 2026',
+    name: 'Noticias',
     url: localeUrl(locale, '/noticias'),
     isPartOf: { '@type': 'WebSite', name: SEO.siteName, url: SEO.siteUrl },
     inLanguage: locale,
     description:
-      'Cobertura editorial diaria de noticias del Mundial de Fútbol 2026 (Norteamérica).',
+      'Crónicas, previas, agenda y clasificaciones de fútbol y baloncesto, y la actualidad de los Mundiales.',
     hasPart: items.map((n) => ({
       '@type': 'NewsArticle',
       headline: n.title,
@@ -118,69 +99,18 @@ export default async function NoticiasIndex({
           Noticias del<br />Mundial 2026
         </h1>
         <p className="mt-6 max-w-3xl text-lg leading-relaxed text-[var(--color-fg-muted)] md:text-xl">
-          Lo último del Mundial 2026 contado en formato editorial propio.
-          Convocatorias, álbum Panini, sedes, derechos de TV, polémicas y
-          datos verificados con citas a las fuentes originales.
+          Crónicas, previas, agenda del día y clasificación semanal de las
+          competiciones que seguimos, más la actualidad de los Mundiales.
         </p>
       </header>
 
-      <ul className="mx-auto mt-16 grid w-full max-w-[1400px] gap-px overflow-hidden rounded-2xl border border-[var(--color-border)] bg-[var(--color-border)] px-6 sm:grid-cols-2 md:px-10 lg:grid-cols-3">
-        {items.map((n) => (
-          <li key={n.slug} className="bg-[var(--color-bg)]">
-            <Link
-              href={withLocale(locale as Locale, `/noticias/${n.slug}`)}
-              className="group flex h-full flex-col overflow-hidden transition-colors hover:bg-[var(--color-bg-2)]"
-            >
-              <div className="relative aspect-[16/9] w-full overflow-hidden bg-[var(--color-bg-2)]">
-                {/* Placeholder siempre visible detrás de la foto */}
-                <div
-                  className="absolute inset-0 flex flex-col items-center justify-center gap-2"
-                  style={{
-                    background: `linear-gradient(135deg, color-mix(in oklch, var(--color-pitch) 12%, var(--color-bg-2)), var(--color-bg-2))`,
-                  }}
-                >
-                  <span className="font-mono text-[10px] uppercase tracking-[0.35em] text-[var(--color-pitch)] opacity-70">
-                    {CATEGORY_LABELS[n.category]}
-                  </span>
-                  <span className="font-display text-5xl font-semibold uppercase text-[var(--color-fg)] opacity-[0.06] leading-none text-center px-4 line-clamp-2">
-                    {n.title}
-                  </span>
-                </div>
-                <Image
-                  src={newsImageUrl(n)}
-                  alt={newsImageAlt(n)}
-                  fill
-                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                  className="object-cover transition-transform duration-500 group-hover:scale-105"
-                  unoptimized
-                />
-                <span className="absolute left-3 top-3 rounded-full bg-[var(--color-pitch)] px-2.5 py-1 font-mono text-[9px] uppercase tracking-[0.3em] text-black z-10">
-                  {CATEGORY_LABELS[n.category]}
-                </span>
-              </div>
-
-              <div className="flex flex-1 flex-col gap-3 p-6 md:p-7">
-                <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-fg-subtle)]">
-                  {relativeTimeEs(n.publishedAt)}
-                </span>
-
-                <h2 className="font-display text-lg uppercase leading-tight text-[var(--color-fg)] group-hover:text-[var(--color-pitch)] transition-colors md:text-xl">
-                  {n.title}
-                </h2>
-
-                <p className="text-sm leading-relaxed text-[var(--color-fg-muted)] line-clamp-3">
-                  {n.summary}
-                </p>
-
-                <span className="mt-auto inline-flex items-center gap-2 font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--color-fg-subtle)] transition-colors group-hover:text-[var(--color-pitch)]">
-                  Leer artículo completo
-                  <ArrowRight className="h-3 w-3 transition-transform group-hover:translate-x-1 rtl:rotate-180" />
-                </span>
-              </div>
-            </Link>
-          </li>
+      <div className="mx-auto mt-14 grid w-full max-w-[1400px] grid-cols-12 gap-x-7 gap-y-11 px-6 md:px-10">
+        {items.map((n, i) => (
+          <div key={n.slug} className={i === 0 ? 'col-span-12' : 'col-span-12 sm:col-span-6 lg:col-span-4'}>
+            <NewsCard n={n} locale={locale as Locale} variant={i === 0 ? 'feat' : autoVariant(n)} priority={i === 0} />
+          </div>
         ))}
-      </ul>
+      </div>
 
       <div className="h-24" />
     </div>

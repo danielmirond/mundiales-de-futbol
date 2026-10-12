@@ -12,6 +12,7 @@ const dayFmt = new Intl.DateTimeFormat('es', { timeZone: 'Europe/Madrid', weekda
 
 /** Hero del portal: qué se juega hoy en todas las competiciones (en directo primero). */
 export async function PortalHero({ locale }: { locale: Locale }) {
+  const today = dayFmt.format(new Date());
   const matches = await fetchToday(liveCompetitions());
   const live = matches.filter((m) => m.state === 'in');
   const upcoming = matches.filter((m) => m.state === 'pre');
@@ -37,7 +38,7 @@ export async function PortalHero({ locale }: { locale: Locale }) {
           </span>
         </h1>
         <p className="mt-4 max-w-2xl text-lg text-[var(--color-fg-muted)]">
-          {dayFmt.format(Date.now())}. Marcadores en directo, calendario y clasificación de LaLiga, Champions, Premier, NBA, Euroliga y el resto de competiciones.
+          {today}. Marcadores en directo, calendario y clasificación de LaLiga, Champions, Premier, NBA, Euroliga y el resto de competiciones.
         </p>
 
         {featured.length > 0 && (
