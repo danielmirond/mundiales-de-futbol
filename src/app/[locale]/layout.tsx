@@ -7,6 +7,7 @@ import { routing, localeMeta, type Locale } from '@/i18n/routing';
 import { SiteNav } from '@/components/nav/site-nav';
 import { SiteFooter } from '@/components/nav/site-footer';
 import { SportSubnav } from '@/components/nav/sport-subnav';
+import { HeaderHeight } from '@/components/nav/header-height';
 import { CookieBanner } from '@/components/shared/cookie-banner';
 import { GatedAnalytics } from '@/components/shared/gated-analytics';
 import { GoogleAnalytics } from '@/components/shared/google-analytics';
@@ -111,10 +112,11 @@ export default async function LocaleLayout({
           <div aria-hidden className="vignette-fixed" />
           <div className="relative flex min-h-screen flex-col">
             {/* Cabecera fija apilada: nav de deportes y subnav de competiciones. */}
-            <div className="fixed inset-x-0 top-0 z-40 pt-[env(safe-area-inset-top)]">
+            <div id="site-header" className="fixed inset-x-0 top-0 z-40 pt-[env(safe-area-inset-top)]">
               <SiteNav />
               <SportSubnav />
             </div>
+            <HeaderHeight />
             <main className="flex-1">{children}</main>
             <SiteFooter />
           </div>
