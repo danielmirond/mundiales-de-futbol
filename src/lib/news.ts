@@ -134,29 +134,30 @@ export const NEWS_ITEMS: NewsItem[] = [
 1. **Celtics** — 2-0
 2. **Wizards** — 2-0
 3. **Nets** — 2-0
-4. **Magic** — 1-0 (a 0.5)
-5. **Heat** — 2-1 (a 0.5)
-6. **Hawks** — 2-1 (a 0.5)
-7. **Pacers** — 1-1 (a 1)
-8. **Bulls** — 1-1 (a 1)
+4. **Heat** — 2-1 (a 0.5)
+5. **Hawks** — 2-1 (a 0.5)
+6. **Cavaliers** — 1-1 (a 1)
+7. **Hornets** — 1-1 (a 1)
+8. **Pacers** — 1-1 (a 1)
 
 ## Western Conference
 
 1. **Trail Blazers** — 1-0
 2. **Grizzlies** — 2-1
-3. **Lakers** — 2-1
-4. **Timberwolves** — 2-1
-5. **Warriors** — 2-2 (a 0.5)
-6. **Mavericks** — 1-1 (a 0.5)
-6. **Nuggets** — 1-1 (a 0.5)
-6. **Rockets** — 1-1 (a 0.5)
+3. **Timberwolves** — 2-1
+4. **Lakers** — 2-1
+5. **Nuggets** — 2-1
+6. **Warriors** — 2-2 (a 0.5)
+7. **Clippers** — 1-1 (a 0.5)
+8. **Jazz** — 1-1 (a 0.5)
 
 La clasificación completa, con todos los equipos y los próximos partidos, está en la [página de NBA](/baloncesto/nba).`,
     category: 'general',
     sourceName: "ESPN",
     sourceUrl: "https://www.espn.com/nba/standings",
     sourceLang: 'en',
-    publishedAt: '2026-10-12T00:43:25.929Z',
+    publishedAt: '2026-10-12T07:51:41.385Z',
+    modifiedAt: '2026-10-12T07:51:41.385Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Celtic_park_posters.jpg/1920px-Celtic_park_posters.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -187,7 +188,8 @@ La clasificación completa, con todos los equipos y los próximos partidos, est�
     sourceName: "ESPN",
     sourceUrl: "https://www.espn.com/soccer/standings/_/league/eng.1",
     sourceLang: 'en',
-    publishedAt: '2026-10-12T00:43:25.929Z',
+    publishedAt: '2026-10-12T07:51:41.385Z',
+    modifiedAt: '2026-10-12T07:51:41.385Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Gran_Premio_Ciudad_de_Buenos_Aires_2026%2C_Domingo_-_14.jpg/1920px-Gran_Premio_Ciudad_de_Buenos_Aires_2026%2C_Domingo_-_14.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -218,7 +220,8 @@ La clasificación completa, con todos los equipos y los próximos partidos, est�
     sourceName: "ESPN",
     sourceUrl: "https://www.espn.com/soccer/standings/_/league/esp.1",
     sourceLang: 'en',
-    publishedAt: '2026-10-12T00:43:25.929Z',
+    publishedAt: '2026-10-12T07:51:41.385Z',
+    modifiedAt: '2026-10-12T07:51:41.385Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Porta_para_un_centenario_Pilar_Urbano._Exteriores_do_Camp_Nou._Barcelona_B35.jpg/1920px-Porta_para_un_centenario_Pilar_Urbano._Exteriores_do_Camp_Nou._Barcelona_B35.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -229,24 +232,23 @@ La clasificación completa, con todos los equipos y los próximos partidos, est�
   },
   {
     slug: 'previa-lens-sporting-401915418',
-    title: "Lens - Sporting: horario, dónde ver y cómo llegan a Champions",
-    summary: "Previa del Lens - Sporting de Champions League (martes 13 de octubre, 18:45 h): situación en la tabla, canal de TV y enlace a la ficha en directo.",
-    body: `Lens recibe a Sporting este martes 13 de octubre en Champions League. Se juega a las **18:45 h** (hora de España) en Stade Bollaert-Delelis.
+    title: "Lens - Sporting: horario, dónde ver y cómo llegan al partido de Champions",
+    summary: "Lens recibe a Sporting este martes 13 de octubre (18:45 h, Stade Bollaert-Delelis) en Champions League. Lens es 10.º y Sporting, 6.º.",
+    body: `Lens recibe a Sporting este martes 13 de octubre (18:45 h, Stade Bollaert-Delelis) en Champions League.
 
 ## Cómo llegan
 
-Lens llega 10.º con 3 puntos (1G-0E-0P) y Sporting 6.º con 3 (1G-0E-0P).
+Lens llega y ocupa la 10.º plaza con 3 puntos (1G-0E-0P). Sporting llega y ocupa la 6.º plaza con 3 puntos (1G-0E-0P). La [clasificación de Champions](/futbol/champions-league), al día.
 
 ## Dónde ver el partido
 
-Se emite en **M+ Liga de Campeones 2**. Alineaciones en cuanto se confirmen, marcador en directo y narración en la [ficha del Lens - Sporting](/futbol/champions-league/partido/401915418).
-
-El resto de la jornada, en [partidos de hoy](/partidos-hoy).`,
+Canal por confirmar; se actualiza en la ficha del partido. Alineaciones en cuanto se confirmen, marcador en directo y narración en la [ficha del Lens - Sporting](/futbol/champions-league/partido/401915418). El resto de la jornada, en [partidos de hoy](/partidos-hoy).`,
     category: 'general',
     sourceName: "ESPN",
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915418",
     sourceLang: 'en',
-    publishedAt: '2026-10-12T00:43:25.929Z',
+    publishedAt: '2026-10-12T07:51:41.385Z',
+    modifiedAt: '2026-10-12T07:51:41.385Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Maquette_Stade_Bollaert-Delelis_2015.jpg/1920px-Maquette_Stade_Bollaert-Delelis_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -257,52 +259,56 @@ El resto de la jornada, en [partidos de hoy](/partidos-hoy).`,
   },
   {
     slug: 'cronica-hull-everton-401878774',
-    title: "Hull y Everton empatan 2-2 en Premier League",
-    summary: "Hull y Everton empataron 2-2 en Premier League. En el marcador, Joe Gelhardt (48', Hull), Kiernan Dewsbury-Hall (55', Everton), Thierno Barry (68', Everton) y Mohamed Belloumi (74', Hull). Datos, momentos clave y lo que cambia en la clasificación.",
-    body: `Hull y Everton empataron 2-2 en Premier League. En el marcador, Joe Gelhardt (48', Hull), Kiernan Dewsbury-Hall (55', Everton), Thierno Barry (68', Everton) y Mohamed Belloumi (74', Hull).
+    title: "Hull y Everton firman tablas (2-2) en Premier League",
+    summary: "Joe Gelhardt marcó en el Hull 2-2 Everton de Premier League.",
+    body: `Acabó 2-2. En el marcador, Joe Gelhardt (48', Hull), Kiernan Dewsbury-Hall (55', Everton), Thierno Barry (68', Everton) y Mohamed Belloumi (74', Hull).
 
-## Cómo se decidió
+## En cifras
 
-La posesión fue 35 %-65 % para Hull. En remates, 9 de Hull (5 a puerta) por 15 de Everton (7).
+La posesión fue 35 %-65 % para Hull. En remates, 9 de Hull (5 a puerta) por 15 de Everton (7). Córners: 7 por 6. Se emitió en DAZN.
 
-## Qué cambia en la tabla
+## La clasificación
 
 Tras el partido, Hull 8.º con 9 puntos y Everton 5.º con 10 puntos en la [clasificación de Premier League](/futbol/premier-league).
 
-Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto están en la [ficha del partido](/futbol/premier-league/partido/401878774).`,
+Ficha: 2 amarillas · 10 cambios. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/premier-league/partido/401878774).`,
     category: 'general',
     sourceName: "ESPN",
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401878774",
     sourceLang: 'en',
-    publishedAt: '2026-10-12T00:43:25.929Z',
+    publishedAt: '2026-10-12T07:51:41.385Z',
+    modifiedAt: '2026-10-12T07:51:41.385Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
-      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/KC_Stadium_in_day.jpg/1920px-KC_Stadium_in_day.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      url: "https://upload.wikimedia.org/wikipedia/commons/d/d0/MKM_Stadium_North_Stand_View.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
       alt: "The MKM Stadium, donde se jugó el Hull - Everton",
-      credit: "Yorkshire Forward · Public domain · Wikimedia Commons",
-      license: "Public domain",
+      credit: "NONONSENSEDEFENDING · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
     },
   },
   {
     slug: 'cronica-c-palace-nottm-forest-401879266',
-    title: "C Palace gana 3-1 a Nottm Forest en Premier League",
-    summary: "C Palace se impuso a Nottm Forest por 3-1 en Premier League. Marcaron Dan Ndoye (3', Nottm Forest), Daichi Kamada (41', C Palace), Jefferson Lerma (45'+4', C Palace) y Yéremy Pino (59', C Palace). Datos, momentos clave y lo que cambia en la clasificación.",
-    body: `C Palace se impuso a Nottm Forest por 3-1 en Premier League. Marcaron Dan Ndoye (3', Nottm Forest), Daichi Kamada (41', C Palace), Jefferson Lerma (45'+4', C Palace) y Yéremy Pino (59', C Palace).
+    title: "C Palace gana 3-1 a Nottm Forest y es 12.º",
+    summary: "C Palace suma tres puntos ante Nottm Forest (3-1) en Premier League y es 12.º con 7 puntos; Nottm Forest se queda 14.º.",
+    body: `C Palace se impuso 3-1 a Nottm Forest en Premier League. Se emitió en DAZN.
 
-## Cómo se decidió
+## Los goles
 
-La posesión fue 43 %-57 % para C Palace. En remates, 13 de C Palace (7 a puerta) por 24 de Nottm Forest (6).
+Marcaron Dan Ndoye (3', Nottm Forest), Daichi Kamada (41', C Palace), Jefferson Lerma (45'+4', C Palace) y Yéremy Pino (59', C Palace).
 
-## Qué cambia en la tabla
+## La tabla
 
 Tras el partido, C Palace 12.º con 7 puntos y Nottm Forest 14.º con 5 puntos en la [clasificación de Premier League](/futbol/premier-league).
 
-Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto están en la [ficha del partido](/futbol/premier-league/partido/401879266).`,
+## Lo que viene
+
+Lo que viene. C Palace: visita a Brighton el domingo 18 de octubre. Nottm Forest: recibe a Arsenal el domingo 18 de octubre. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/premier-league/partido/401879266).`,
     category: 'general',
     sourceName: "ESPN",
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401879266",
     sourceLang: 'en',
-    publishedAt: '2026-10-12T00:43:25.929Z',
+    publishedAt: '2026-10-12T07:51:41.385Z',
+    modifiedAt: '2026-10-12T07:51:41.385Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Selhurst_Park_Holmesdale_Stand.jpg/1920px-Selhurst_Park_Holmesdale_Stand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -313,24 +319,31 @@ Alineaciones, momentos clave, estadísticas completas y la narración minuto a m
   },
   {
     slug: 'cronica-liverpool-man-city-401879264',
-    title: "Man City gana 3-0 en casa de Liverpool en Premier League",
-    summary: "Man City ganó 3-0 a Liverpool en el partido de Premier League. Los goles: Erling Haaland (65', Man City), Jérémy Doku (68', Man City) y Rayan Cherki (78', Man City). Datos, momentos clave y lo que cambia en la clasificación.",
-    body: `Man City ganó 3-0 a Liverpool en el partido de Premier League. Los goles: Erling Haaland (65', Man City), Jérémy Doku (68', Man City) y Rayan Cherki (78', Man City). Hubo 1 expulsión: Ryan Gravenberch.
+    title: "Liverpool 0 Man City 3: goles de Erling Haaland, Jérémy Doku y Rayan Cherki y Man City 1.º",
+    summary: "Erling Haaland marcó en el 65' el gol que puso por delante a Man City, que ya no soltó la ventaja: 3-0 final ante Liverpool en Premier League. Claves: goles de Erling Haaland, Jérémy Doku y Rayan Cherki, Man City 1.º y posesión del 35 % para Liverpool.",
+    body: `Erling Haaland marcó en el 65' el gol que puso por delante a Man City, que ya no soltó la ventaja: 3-0 final ante Liverpool en Premier League.
 
-## Cómo se decidió
+## Erling Haaland decidió
 
-Liverpool tuvo el 35 % de la posesión por el 65 % de Man City; remató 13 veces (6 a puerta) frente a 15 (4) del rival.
+Los goles: Erling Haaland (65', Man City), Jérémy Doku (68', Man City) y Rayan Cherki (78', Man City). Expulsados: Ryan Gravenberch.
+
+## Los números del partido
+
+Liverpool tuvo el 35 % de la posesión por el 65 % de Man City; remató 13 veces (6 a puerta) frente a 15 (4) del rival. Córners: 5 por 6. Se emitió en DAZN y Movistar Plus+.
 
 ## Qué cambia en la tabla
 
 Tras el partido, Liverpool 9.º con 9 puntos y Man City 1.º con 18 puntos en la [clasificación de Premier League](/futbol/premier-league).
 
-Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto están en la [ficha del partido](/futbol/premier-league/partido/401879264).`,
+## Qué viene ahora
+
+Lo que viene. Liverpool: visita a Brentford el sábado 17 de octubre. Man City: recibe a Ipswich el sábado 17 de octubre. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/premier-league/partido/401879264).`,
     category: 'general',
     sourceName: "ESPN",
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401879264",
     sourceLang: 'en',
-    publishedAt: '2026-10-12T00:43:25.929Z',
+    publishedAt: '2026-10-12T07:51:41.385Z',
+    modifiedAt: '2026-10-12T07:51:41.385Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Paisley_Gateway%2C_Anfield.jpg/1920px-Paisley_Gateway%2C_Anfield.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -356,8 +369,8 @@ Horarios en hora de España; los resultados y la narración de cada partido van 
     sourceName: "ESPN",
     sourceUrl: "https://www.espn.com/nba/game/_/gameId/401914130",
     sourceLang: 'en',
-    publishedAt: '2026-10-12T00:43:25.929Z',
-    modifiedAt: '2026-10-12T00:43:25.929Z',
+    publishedAt: '2026-10-12T07:51:41.385Z',
+    modifiedAt: '2026-10-12T07:51:41.385Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/PDX_carpet_at_Moda_Center%2C_2016.jpg/1920px-PDX_carpet_at_Moda_Center%2C_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -396,7 +409,7 @@ Calendario y clasificación en la [página de LaLiga](/futbol/laliga).
 
 ## 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Premier League
 
-- **[Coventry - Newcastle](/futbol/premier-league/partido/401879267)** — 21:00 h · 📺 DAZN / DAZN 1
+- **[Coventry - Newcastle](/futbol/premier-league/partido/401879267)** — 21:00 h · 📺 DAZN
 
 Calendario y clasificación en la [página de Premier League](/futbol/premier-league).
 
@@ -405,8 +418,8 @@ Todos los horarios están en hora peninsular. Los marcadores se actualizan en di
     sourceName: "ESPN",
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882852",
     sourceLang: 'en',
-    publishedAt: '2026-10-12T00:43:25.929Z',
-    modifiedAt: '2026-10-12T00:43:25.929Z',
+    publishedAt: '2026-10-12T07:51:41.385Z',
+    modifiedAt: '2026-10-12T07:51:41.385Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Estadi_Ciutat_de_Val%C3%A8ncia_-_nocturna.jpg/1920px-Estadi_Ciutat_de_Val%C3%A8ncia_-_nocturna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -670,53 +683,57 @@ Alineaciones, momentos clave, estadísticas completas y la narración minuto a m
   {
     slug: 'cronica-elche-celta-vigo-401882854',
     title: "Elche y Celta Vigo empatan 0-0 en LaLiga",
-    summary: "Elche y Celta Vigo empataron 0-0 en LaLiga. El partido acabó sin goles. Datos, momentos clave y lo que cambia en la clasificación.",
-    body: `Elche y Celta Vigo empataron 0-0 en LaLiga. El partido acabó sin goles.
+    summary: "Elche y Celta Vigo reparten puntos (0-0) en LaLiga. Elche es 17.º y Celta Vigo, 9.º.",
+    body: `Elche y Celta Vigo empataron 0-0 en LaLiga. Se emitió en M+ LALIGA.
 
-## Cómo se decidió
+## Los goles
 
-La posesión fue 67 %-33 % para Elche. En remates, 13 de Elche (2 a puerta) por 7 de Celta Vigo (0). El partido se emitió en M+ LALIGA.
+El partido acabó sin goles.
 
-## Qué cambia en la tabla
+## La tabla
 
 Tras el partido, Elche 17.º con 6 puntos y Celta Vigo 9.º con 8 puntos en la [clasificación de LaLiga](/futbol/laliga).
 
-Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto están en la [ficha del partido](/futbol/laliga/partido/401882854).`,
+## Lo que viene
+
+Lo que viene. Elche: visita a Villarreal el sábado 17 de octubre. Celta Vigo: recibe a Alavés el domingo 18 de octubre. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/laliga/partido/401882854).`,
     category: 'general',
     sourceName: "ESPN",
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882854",
     sourceLang: 'en',
     publishedAt: '2026-10-11T21:32:01.528Z',
-    modifiedAt: '2026-10-11T21:48:52.601Z',
+    modifiedAt: '2026-10-12T07:51:41.385Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
-      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Estadio_Mart%C3%ADnezValero_Elche.jpg/1920px-Estadio_Mart%C3%ADnezValero_Elche.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Estadio_Martinez_Valero%2C_banquillo.jpg/1920px-Estadio_Martinez_Valero%2C_banquillo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       alt: "Estadio Martínez Valero, donde se jugó el Elche - Celta Vigo",
-      credit: "José Carlos Díez · Public domain · Wikimedia Commons",
-      license: "Public domain",
+      credit: "Ruben Ortega · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
     },
   },
   {
     slug: 'cronica-real-sociedad-deportivo-401882847',
-    title: "Real Sociedad gana 3-2 a Deportivo en LaLiga",
-    summary: "Real Sociedad se impuso a Deportivo por 3-2 en LaLiga. En el marcador, Jon Martín (29', Real Sociedad), Arsen Zakharyan (34', Real Sociedad), Gonçalo Guedes (54', Real Sociedad) y Mario Soriano Carreno (61', Deportivo). Datos, momentos clave y lo que cambia en la clasificación.",
-    body: `Real Sociedad se impuso a Deportivo por 3-2 en LaLiga. En el marcador, Jon Martín (29', Real Sociedad), Arsen Zakharyan (34', Real Sociedad), Gonçalo Guedes (54', Real Sociedad) y Mario Soriano Carreno (61', Deportivo). Hubo 2 expulsiones: Pablo Marín y Lorenzo Amatucci.
+    title: "Real Sociedad gana 3-2 a Deportivo y es 6.º",
+    summary: "Real Sociedad suma tres puntos ante Deportivo (3-2) en LaLiga y es 6.º con 13 puntos; Deportivo se queda 8.º.",
+    body: `Real Sociedad se impuso 3-2 a Deportivo en LaLiga. Se emitió en DAZN LaLiga y DAZN.
 
-## Cómo se decidió
+## Los goles
 
-La posesión fue 40 %-60 % para Real Sociedad. En remates, 12 de Real Sociedad (4 a puerta) por 21 de Deportivo (7). El partido se emitió en DAZN LaLiga y DAZN.
+En el marcador, Jon Martín (29', Real Sociedad), Arsen Zakharyan (34', Real Sociedad), Gonçalo Guedes (54', Real Sociedad) y Mario Soriano Carreno (61', Deportivo). Expulsados: Pablo Marín y Lorenzo Amatucci.
 
-## Qué cambia en la tabla
+## La tabla
 
 Tras el partido, Real Sociedad 6.º con 13 puntos y Deportivo 8.º con 10 puntos en la [clasificación de LaLiga](/futbol/laliga).
 
-Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto están en la [ficha del partido](/futbol/laliga/partido/401882847).`,
+## Lo que viene
+
+Lo que viene. Real Sociedad: visita a Málaga el domingo 18 de octubre. Deportivo: recibe a Levante el viernes 16 de octubre. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/laliga/partido/401882847).`,
     category: 'general',
     sourceName: "ESPN",
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882847",
     sourceLang: 'en',
     publishedAt: '2026-10-11T21:32:01.528Z',
-    modifiedAt: '2026-10-11T21:48:52.601Z',
+    modifiedAt: '2026-10-12T07:51:41.385Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Reale_Arena_-_Pankarta_-_Donostia_2020.jpg/1920px-Reale_Arena_-_Pankarta_-_Donostia_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -727,25 +744,36 @@ Alineaciones, momentos clave, estadísticas completas y la narración minuto a m
   },
   {
     slug: 'cronica-betis-osasuna-401882855',
-    title: "Betis gana 5-2 a Osasuna en LaLiga",
-    summary: "Betis ganó 5-2 a Osasuna en el partido de LaLiga. Los goles: Abde Ezzalzouli (31', Betis), Ante Budimir (48', Betis, p.p.), Ante Budimir (51', Osasuna), Raúl García (56', Osasuna), Isco (67', Betis) y José Morante (90'+6', Betis). Datos, momentos clave y lo que cambia en la clasificación.",
-    body: `Betis ganó 5-2 a Osasuna en el partido de LaLiga. Los goles: Abde Ezzalzouli (31', Betis), Ante Budimir (48', Betis, p.p.), Ante Budimir (51', Osasuna), Raúl García (56', Osasuna), Isco (67', Betis) y José Morante (90'+6', Betis).
+    title: "Abde Ezzalzouli guía a Betis ante Osasuna (5-2) y lo deja 3.º en LaLiga",
+    summary: "Betis 5-2 Osasuna en LaLiga: Abde Ezzalzouli marcó. Betis 52 % de posesión y 20 remates; Osasuna 48 % y 11.",
+    body: `## Resumen
 
-## Cómo se decidió
+Betis ganó 5-2 a Osasuna en LaLiga. Se emitió en M+ LALIGA.
 
-Betis manejó el balón (52 % por 48 %) y tiró 20 veces, 7 entre los tres palos; Osasuna se quedó en 11 remates (5 a puerta). El partido se emitió en M+ LALIGA.
+## Los goles
 
-## Qué cambia en la tabla
+- 31' · Abde Ezzalzouli (Betis)
+- 48' · Ante Budimir (Betis, p.p.)
+- 51' · Ante Budimir (Osasuna)
+- 56' · Raúl García (Osasuna)
+- 67' · Isco (Betis)
+- 90'+6' · José Morante (Betis)
 
-Tras el partido, Betis 3.º con 19 puntos y Osasuna 16.º con 8 puntos en la [clasificación de LaLiga](/futbol/laliga).
+## El dato
 
-Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto están en la [ficha del partido](/futbol/laliga/partido/401882855).`,
+Betis 52 % de posesión y 20 remates; Osasuna 48 % y 11.
+
+## Lo que viene
+
+Lo que viene. Betis: recibe a Barcelona el sábado 17 de octubre. Osasuna: recibe a Racing el domingo 18 de octubre.
+
+**Lee también:** la [ficha del partido](/futbol/laliga/partido/401882855) con alineaciones y narración · la [clasificación de LaLiga](/futbol/laliga) · [partidos de hoy](/partidos-hoy).`,
     category: 'general',
     sourceName: "ESPN",
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882855",
     sourceLang: 'en',
     publishedAt: '2026-10-11T21:32:01.528Z',
-    modifiedAt: '2026-10-11T21:48:52.601Z',
+    modifiedAt: '2026-10-12T07:51:41.385Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://upload.wikimedia.org/wikipedia/commons/4/46/Seville_Estadio_Ol%C3%ADmpico_de_La_Cartuja_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
@@ -756,25 +784,31 @@ Alineaciones, momentos clave, estadísticas completas y la narración minuto a m
   },
   {
     slug: 'cronica-racing-valencia-401882850',
-    title: "Racing y Valencia empatan 2-2 en LaLiga",
-    summary: "Reparto de puntos entre Racing y Valencia (2-2) en LaLiga. En el marcador, Dani Raba (2', Valencia), Yassir Zabiri (32', Racing), Iván Martín (47', Racing) y David Otorbi (65', Valencia). Datos, momentos clave y lo que cambia en la clasificación.",
-    body: `Reparto de puntos entre Racing y Valencia (2-2) en LaLiga. En el marcador, Dani Raba (2', Valencia), Yassir Zabiri (32', Racing), Iván Martín (47', Racing) y David Otorbi (65', Valencia).
+    title: "Racing 2 Valencia 2: 4 goles, Racing 15.º y posesión del 54 % para Racing",
+    summary: "Racing y Valencia empataron 2-2 en LaLiga; el último gol fue de David Otorbi en el 65'. Claves: 4 goles, Racing 15.º y posesión del 54 % para Racing.",
+    body: `Racing y Valencia empataron 2-2 en LaLiga; el último gol fue de David Otorbi en el 65'.
 
-## Cómo se decidió
+## Dani Raba decidió
 
-Racing manejó el balón (54 % por 46 %) y tiró 20 veces, 11 entre los tres palos; Valencia se quedó en 10 remates (2 a puerta). El partido se emitió en DAZN LaLiga y DAZN.
+En el marcador, Dani Raba (2', Valencia), Yassir Zabiri (32', Racing), Iván Martín (47', Racing) y David Otorbi (65', Valencia).
+
+## Los números del partido
+
+Racing manejó el balón (54 % por 46 %) y tiró 20 veces, 11 entre los tres palos; Valencia se quedó en 10 remates (2 a puerta). Córners: 8 por 3. Se emitió en DAZN LaLiga y DAZN.
 
 ## Qué cambia en la tabla
 
 Tras el partido, Racing 15.º con 8 puntos y Valencia 19.º con 5 puntos en la [clasificación de LaLiga](/futbol/laliga).
 
-Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto están en la [ficha del partido](/futbol/laliga/partido/401882850).`,
+## Qué viene ahora
+
+Lo que viene. Racing: visita a Osasuna el domingo 18 de octubre. Valencia: recibe a Athletic el sábado 17 de octubre. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/laliga/partido/401882850).`,
     category: 'general',
     sourceName: "ESPN",
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882850",
     sourceLang: 'en',
     publishedAt: '2026-10-11T21:32:01.528Z',
-    modifiedAt: '2026-10-11T21:48:52.601Z',
+    modifiedAt: '2026-10-12T07:51:41.385Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Fachada_oeste_Campos_de_Sport_de_El_Sardinero.jpg/1920px-Fachada_oeste_Campos_de_Sport_de_El_Sardinero.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",

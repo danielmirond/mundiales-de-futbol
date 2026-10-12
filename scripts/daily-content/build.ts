@@ -22,6 +22,39 @@ import { fetchEventSummary } from '../../src/lib/wc-2026-match-summary';
 import { findImage, type CommonsImage } from './commons';
 import { readNews, upsert, writeNews, exists, publishedAtOf, type Piece } from './news-io';
 import { seedFrom, pick, prose, plural, fmtDayLong, fmtTime, dayKey, cap, assertTitle, V } from './voice';
+import { renderCronica, renderPrevia, REGISTERS, type CronicaCtx, type Side } from './registers';
+
+// ── Contexto de cada equipo: puesto/puntos, último resultado y siguiente partido ──
+const windowCache = new Map<string, Promise<Match[]>>();
+const compWindow = (c: Competition, from: number, to: number) => {
+  const k = `${c.slug}:${from}:${to}`;
+  if (!windowCache.has(k)) windowCache.set(k, fetchWindow([c], dayKeys(from, to), 300));
+  return windowCache.get(k)!;
+};
+const sameTeam = (a: string, b: string) => { const x = a.toLowerCase(), y = b.toLowerCase(); return x === y || x.includes(y) || y.includes(x); };
+async function sideCtx(c: Competition, team: { name: string; fullName: string }, ref: Match): Promise<Side> {
+  const side: Side = { name: team.name };
+  if (c.hasStandings) {
+    const { groups } = await fetchStandings(c);
+    const r = groups.flatMap((g) => g.rows).find((x) => sameTeam(team.fullName, x.name) || sameTeam(team.name, x.name));
+    if (r) { side.rank = r.rank; side.points = r.stats.points; side.record = r.stats.wins != null ? `${r.stats.wins}G-${r.stats.ties ?? 0}E-${r.stats.losses}P` : undefined; }
+  }
+  const past = (await compWindow(c, -9, -1)).filter((m) => m.state === 'post' && m.id !== ref.id && (sameTeam(m.home.name, team.name) || sameTeam(m.away.name, team.name)));
+  const last = past[past.length - 1];
+  if (last) {
+    const isHome = sameTeam(last.home.name, team.name);
+    const gf = isHome ? last.home.score! : last.away.score!, ga = isHome ? last.away.score! : last.home.score!;
+    const rival = isHome ? last.away.name : last.home.name;
+    side.last = `de ${gf > ga ? 'ganar' : gf < ga ? 'perder' : 'empatar'} ${gf}-${ga} ${gf === ga ? 'con' : gf > ga ? 'a' : 'ante'} ${rival}`;
+  }
+  const future = (await compWindow(c, 1, 10)).filter((m) => m.state === 'pre' && (sameTeam(m.home.name, team.name) || sameTeam(m.away.name, team.name)));
+  const next = future[0];
+  if (next) {
+    const isHome = sameTeam(next.home.name, team.name);
+    side.next = `${isHome ? 'recibe a' : 'visita a'} ${isHome ? next.away.name : next.home.name} el ${fmtDayLong(new Date(next.date))}`;
+  }
+  return side;
+}
 
 const args = new Set(process.argv.slice(2));
 const DRY = args.has('--dry') || !!process.env.DAILY_DRY;
@@ -117,68 +150,34 @@ async function buildCronicas(now: Date): Promise<Piece[]> {
     if (exists(src, slug) && !REFRESH) continue; // ya contada: no se duplica (RF1)
     const s = await fetchEventSummary(c.espn!, m.id);
     const rnd = seedFrom(slug);
-    const comp = c.name;
     const hs = m.home.score!, as = m.away.score!;
-    const basketball = c.espn!.sport === 'basketball';
-    const lead = hs === as
-      ? pick(rnd, V.cronicaLead.draw)(m.home.name, m.away.name, score(m), comp)
-      : pick(rnd, V.cronicaLead.win)(hs > as ? m.home.name : m.away.name, hs > as ? m.away.name : m.home.name, hs > as ? `${hs}-${as}` : `${as}-${hs}`, comp);
 
-    // Goles / momentos (fútbol) desde keyEvents; baloncesto: cuartos y máximos del boxscore.
-    const goals = (s?.events ?? []).filter((e) => e.kind === 'goal');
-    // Autogol: ESPN lo acredita al equipo beneficiado; el autor es del rival.
+    // Goles con autor/minuto; autogol (ESPN lo acredita al beneficiado) y penalti etiquetados.
     const isOwn = (g: { type: string; text: string }) => /autogol|propia|own goal/i.test(`${g.type} ${g.text}`);
     const isPen = (g: { type: string; text: string }) => /penal/i.test(`${g.type} ${g.text}`);
-    const golesTxt = basketball ? '' : goals.length
-      ? pick(rnd, V.cronicaGoles)(prose(goals.map((g) => {
-          const team = g.side ? (g.side === 'home' ? m.home.name : m.away.name) : '';
-          const tag = isOwn(g) ? ', p.p.' : isPen(g) ? ', de penalti' : '';
-          return `${g.players[0] ?? 'gol'} (${g.minute}${team ? `, ${team}` : ''}${tag})`;
-        })))
-      : pick(rnd, V.cronicaSinGoles);
-    const reds = (s?.events ?? []).filter((e) => e.kind === 'red');
-    const rojas = reds.length ? ` Hubo ${reds.length} ${plural(reds.length, 'expulsión', 'expulsiones')}: ${prose(reds.map((r) => r.players[0] ?? '')).replace(/^ y /, '')}.` : '';
-
-    const statLine = (key: string) => s?.stats.find((x) => x.key === key);
-    const pos = statLine('possessionPct'), tir = statLine('totalShots'), tp = statLine('shotsOnTarget');
-    const r0 = (v?: string) => (v == null || v === '—' ? null : String(Math.round(Number(v))));
-    const datosTxt = !basketball && pos && tir && tp && r0(pos.home) && r0(tir.home)
-      ? pick(rnd, V.cronicaDatos)(m.home.name, m.away.name, r0(pos.home)!, r0(pos.away)!, tir.home, tir.away, tp.home, tp.away)
-      : '';
-
-    // Efecto en la clasificación (solo ligas con tabla).
-    let tablaTxt = '';
-    if (c.hasStandings) {
-      const { groups } = await fetchStandings(c);
-      const rows = groups.flatMap((g) => g.rows);
-      const pos = (name: string) => rows.find((r) => name.toLowerCase().includes(r.name.toLowerCase()) || r.name.toLowerCase().includes(name.toLowerCase()));
-      const ph = pos(m.home.name), pa = pos(m.away.name);
-      if (ph || pa) {
-        const f = (r: NonNullable<typeof ph>, n: string) => `${n} ${r.rank}.º${r.stats.points ? ` con ${r.stats.points} puntos` : r.stats.wins ? ` (${r.stats.wins}-${r.stats.losses})` : ''}`;
-        tablaTxt = `Tras el partido, ${[ph && f(ph, m.home.name), pa && f(pa, m.away.name)].filter(Boolean).join(' y ')} en la [clasificación de ${c.shortName ?? c.name}](${competitionPath(c)}).`;
-      }
-    }
-    const canal = !basketball ? channelsFor(await getWostiIndex(), m.date, [m.home.fullName, m.home.name], [m.away.fullName, m.away.name]) : [];
-    const ficha = `Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto están en la [ficha del partido](${fichaPath(m)}).`;
-
-    const body = `${lead} ${golesTxt}${rojas}\n\n## Cómo se decidió\n\n${datosTxt || 'El resumen con todos los datos está en la ficha del partido.'}${canal.length ? ` El partido se emitió en ${prose(canal.slice(0, 2))}.` : ''}\n\n## Qué cambia en la tabla\n\n${tablaTxt || `Consulta la [clasificación de ${c.shortName ?? c.name}](${competitionPath(c)}) actualizada.`}\n\n${ficha}`;
-
-    const winner = hs === as ? null : hs > as ? m.home.name : m.away.name;
-    const loser = winner ? (hs > as ? m.away.name : m.home.name) : null;
-    // Dato factual para el titular: doblete/hat-trick o autor del único gol decisivo.
+    const goals = (s?.events ?? []).filter((e) => e.kind === 'goal').map((g) => ({
+      player: g.players[0] ?? 'gol', minute: g.minute,
+      team: g.side ? (g.side === 'home' ? m.home.name : m.away.name) : '', own: isOwn(g), pen: isPen(g),
+    }));
     const byPlayer = new Map<string, number>();
-    for (const g of goals) if (g.players[0] && !isOwn(g)) byPlayer.set(g.players[0], (byPlayer.get(g.players[0]) ?? 0) + 1);
-    const [topName, topN] = [...byPlayer.entries()].sort((a, b) => b[1] - a[1])[0] ?? [null, 0];
-    const realGoals = goals.filter((g) => !isOwn(g));
-    const gancho = topN >= 3 ? `, con hat-trick de ${topName}` : topN === 2 ? `, con doblete de ${topName}` : winner && realGoals.length === 1 && goals.length === 1 && topName ? `, con gol de ${topName}` : '';
-    const wsc = winner ? (hs > as ? `${hs}-${as}` : `${as}-${hs}`) : score(m);
-    const title = winner
-      ? (hs > as
-          ? `${winner} gana ${wsc} a ${loser} en ${c.shortName ?? c.name}${gancho}`
-          : `${winner} gana ${wsc} en casa de ${loser} en ${c.shortName ?? c.name}${gancho}`)
-      : `${m.home.name} y ${m.away.name} empatan ${score(m)} en ${c.shortName ?? c.name}${gancho}`;
-    assertTitle(title, winner ?? m.home.name);
-    const summary = `${lead} ${basketball ? '' : golesTxt} Datos, momentos clave y lo que cambia en la clasificación.`.replace(/\s+/g, ' ').trim();
+    for (const g of goals) if (g.player && !g.own) byPlayer.set(g.player, (byPlayer.get(g.player) ?? 0) + 1);
+    const [topScorer, topN] = [...byPlayer.entries()].sort((a, b) => b[1] - a[1])[0] ?? [undefined, 0];
+    const statPair = (key: string): [string, string] | undefined => { const st = s?.stats.find((x) => x.key === key); return st && st.home !== '—' ? [st.home, st.away] : undefined; };
+    const r0 = (p?: [string, string]): [string, string] | undefined => p && [String(Math.round(Number(p[0]))), String(Math.round(Number(p[1])))];
+    const ctx: CronicaCtx = {
+      comp: c.name, compShort: c.shortName ?? c.name, compPath: competitionPath(c), fichaPath: fichaPath(m),
+      home: await sideCtx(c, m.home, m), away: await sideCtx(c, m.away, m),
+      hs, as, goals, topScorer, topN,
+      possession: r0(statPair('possessionPct')), shots: statPair('totalShots'), onTarget: statPair('shotsOnTarget'), corners: statPair('wonCorners'),
+      yellows: (s?.events ?? []).filter((e) => e.kind === 'yellow').length,
+      reds: (s?.events ?? []).filter((e) => e.kind === 'red').map((e) => e.players[0] ?? '').filter(Boolean),
+      subs: (s?.events ?? []).filter((e) => e.kind === 'sub').length,
+      channels: channelsFor(await getWostiIndex(), m.date, [m.home.fullName, m.home.name], [m.away.fullName, m.away.name]),
+      date: new Date(m.date),
+    };
+    const reg = pick(rnd, REGISTERS);
+    const { title, entity, summary, body } = renderCronica(reg, ctx, rnd);
+    assertTitle(title, entity);
     const image = await imageFor(m.venue || `${m.home.fullName} estadio`, `${m.venue || m.home.fullName}, donde se jugó el ${m.home.name} - ${m.away.name}`);
     out.push({
       slug, title, summary, body, category: 'general',
@@ -212,20 +211,13 @@ async function buildPrevia(now: Date): Promise<Piece | null> {
   const m = best!.m; const c = compOf(m);
   const slug = `previa-${slugify(m.home.name)}-${slugify(m.away.name)}-${m.id}`;
   const rnd = seedFrom(slug);
-  const when = fmtDayLong(new Date(m.date));
-  const canal = channelsFor(await getWostiIndex(), m.date, [m.home.fullName, m.home.name], [m.away.fullName, m.away.name]);
-  let tabla = '';
-  if (c.hasStandings) {
-    const { groups } = await fetchStandings(c);
-    const rows = groups.flatMap((g) => g.rows);
-    const r = (n: string) => rows.find((x) => n.toLowerCase().includes(x.name.toLowerCase()) || x.name.toLowerCase().includes(n.toLowerCase()));
-    const rh = r(m.home.name), ra = r(m.away.name);
-    if (rh && ra) tabla = `${m.home.name} llega ${rh.rank}.º con ${rh.stats.points ?? rh.stats.wins} ${rh.stats.points ? 'puntos' : 'victorias'} (${rh.stats.wins}G-${rh.stats.ties ?? 0}E-${rh.stats.losses}P) y ${m.away.name} ${ra.rank}.º con ${ra.stats.points ?? ra.stats.wins} (${ra.stats.wins}G-${ra.stats.ties ?? 0}E-${ra.stats.losses}P).`;
-  }
-  const body = `${pick(rnd, V.previaIntro)(m.home.name, m.away.name, c.name, when)} Se juega a las **${fmtTime(new Date(m.date))} h** (hora de España)${m.venue ? ` en ${m.venue}` : ''}.\n\n## Cómo llegan\n\n${tabla || `Consulta la [clasificación de ${c.shortName ?? c.name}](${competitionPath(c)}).`}\n\n## Dónde ver el partido\n\n${canal.length ? `Se emite en **${prose(canal.slice(0, 3))}**.` : 'Canal por confirmar; lo actualizamos en la ficha del partido.'} Alineaciones en cuanto se confirmen, marcador en directo y narración en la [ficha del ${m.home.name} - ${m.away.name}](${fichaPath(m)}).\n\nEl resto de la jornada, en [partidos de hoy](/partidos-hoy).`;
-  const title = `${m.home.name} - ${m.away.name}: horario, dónde ver y cómo llegan a ${c.shortName ?? c.name}`;
-  assertTitle(title, m.home.name);
-  const summary = `Previa del ${m.home.name} - ${m.away.name} de ${c.name} (${when}, ${fmtTime(new Date(m.date))} h): situación en la tabla, canal de TV y enlace a la ficha en directo.`;
+  const { title, entity, summary, body } = renderPrevia({
+    home: await sideCtx(c, m.home, m), away: await sideCtx(c, m.away, m),
+    comp: c.name, compShort: c.shortName ?? c.name, compPath: competitionPath(c), fichaPath: fichaPath(m),
+    date: new Date(m.date), venue: m.venue,
+    channels: channelsFor(await getWostiIndex(), m.date, [m.home.fullName, m.home.name], [m.away.fullName, m.away.name]),
+  }, rnd);
+  assertTitle(title, entity);
   const image = await imageFor(m.venue || `${m.home.fullName} estadio`, `${m.venue || m.home.fullName}, sede del ${m.home.name} - ${m.away.name}`);
   const src = readNews();
   return { slug, title, summary, body, category: 'general', sourceName: 'ESPN', sourceUrl: espnEventUrl(c, m.id), sourceLang: 'en', publishedAt: publishedAtOf(src, slug) ?? now.toISOString(), modifiedAt: REFRESH ? now.toISOString() : undefined, author: AUTHOR, image };

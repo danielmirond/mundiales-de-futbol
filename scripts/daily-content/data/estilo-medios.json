@@ -1,0 +1,127 @@
+{
+  "generado": "2026-10-12T07:49:58.090Z",
+  "medios": {
+    "marca": {
+      "articulos": 30,
+      "medianas": {
+        "palabrasPorPieza": 426,
+        "parrafosPorPieza": 7,
+        "palabrasPorParrafo": 62,
+        "palabrasPorFrase": 23,
+        "caracteresTitular": 66
+      },
+      "verbosResultado": {},
+      "expresiones": {
+        "por delante": 6,
+        "a domicilio": 4,
+        "tres puntos": 4
+      },
+      "conectores": {
+        "tras": 58,
+        "mientras": 10,
+        "además": 8,
+        "por su parte": 5,
+        "sin embargo": 4
+      },
+      "ticsProhibidosVistos": {
+        "correspondiente a la jornada": 4
+      },
+      "aperturasFrecuentes": [
+        "REDACCIÓN MARCA Actualizado 11/10/2026×4",
+        "Levante y Sevilla FC×2",
+        "En el Levante, Luís×2",
+        "REDACCIÓN MARCA Actualizado 12/10/2026×2",
+        "La participación del brasileño×2",
+        "Deossa se interesa por×2",
+        "La preocupación se hizo×2",
+        "El joven central de×2",
+        "Luken Beitia defiende a×2",
+        "Beitia participó en el×2",
+        "El colegiado gallego dirigió×2",
+        "Alejandro Muñiz Ruiz: dos×2"
+      ],
+      "titularesMuestra": [
+        "Levante - Sevilla FC: horario y dónde ver hoy en TV y online el partido de la jornada 8 de LaLiga EA Sports",
+        "Tenerife - Girona: horario, dónde ver en TV y canal del partido de LaLiga Hypermotion",
+        "Real Valladolid - Albacete: horario y dónde ver hoy en TV el partido de la jornada 9 de LaLiga Hypermotion",
+        "Burgos - Granada: horario, dónde ver en TV y canal del partido de LaLiga Hypermotion",
+        "Dónde ver el Oviedo - Eibar de LaLiga Hypermotion: a qué hora es, canal y TV del partido de hoy",
+        "Antony, pendiente de revisión por unas molestias musculares",
+        "Antony, pendiente de revisión por unas molestias musculares",
+        "Beitia puede tener una lesión de rodilla"
+      ]
+    },
+    "as": {
+      "articulos": 23,
+      "medianas": {
+        "palabrasPorPieza": 897,
+        "parrafosPorPieza": 12,
+        "palabrasPorParrafo": 74,
+        "palabrasPorFrase": 20,
+        "caracteresTitular": 93
+      },
+      "verbosResultado": {},
+      "expresiones": {
+        "líder": 4
+      },
+      "conectores": {
+        "tras": 46,
+        "además": 30,
+        "mientras": 19,
+        "aunque": 18,
+        "pese a": 9,
+        "sin embargo": 4
+      },
+      "ticsProhibidosVistos": {},
+      "aperturasFrecuentes": [
+        "La guía del conjunto×6",
+        "Todos los detalles del×2",
+        "La radiografía del equipo×2"
+      ],
+      "titularesMuestra": [
+        "Así está la clasificación de Primera y así estaría sin el VAR: 8ª jornada",
+        "Mercado de fichajes de LaLiga EA Sports 2026/27: altas y bajas",
+        "Guía de LaLiga EA Sports 2026/27: equipos, plantillas, fichajes y jugadores a seguir",
+        "Alavés en LaLiga EA Sports 2026/27: plantilla, fichajes, bajas, figuras y claves de la temporada",
+        "Athletic Club en LaLiga EA Sports 2026/27: plantilla, fichajes, bajas, figuras y claves de la temporada",
+        "Atlético de Madrid en LaLiga EA Sports 2026/27: plantilla, fichajes, bajas, figuras y claves de la temporada",
+        "FC Barcelona en LaLiga EA Sports 2026/27: plantilla, fichajes, bajas, figuras y claves de la temporada",
+        "Real Betis en LaLiga EA Sports 2026/27: plantilla, fichajes, bajas, figuras y claves de la temporada"
+      ]
+    },
+    "goal": {
+      "articulos": 19,
+      "medianas": {
+        "palabrasPorPieza": 430,
+        "parrafosPorPieza": 11,
+        "palabrasPorParrafo": 40,
+        "palabrasPorFrase": 25,
+        "caracteresTitular": 93
+      },
+      "verbosResultado": {},
+      "expresiones": {},
+      "conectores": {
+        "tras": 19,
+        "mientras": 11,
+        "aunque": 5,
+        "además": 4,
+        "en cambio": 4,
+        "por su parte": 3,
+        "sin embargo": 3,
+        "pese a": 3
+      },
+      "ticsProhibidosVistos": {},
+      "aperturasFrecuentes": [],
+      "titularesMuestra": [
+        "Del día del partido al día de mercado: descubre la inversión con nuestra oferta",
+        "Con una cláusula de rescisión de 500 millones: acuerdo definitivo para renovar el contrato de una estrella del Barcelona",
+        "La expulsión no fue el final: una nueva acusación amenaza la participación de Vinicius en el Clásico",
+        "Un número que lo coloca entre los grandes: Zabiri llama a las puertas del liderato de goleadores de LaLiga",
+        "Cómo ver Levante vs Sevilla: Detalles del partido, cadenas de TV, streaming en direct y más",
+        "Pelea europea encarnizada: el descubrimiento de Zidane se impone en el Barcelona",
+        "Flick repite la opinión de Yamal sobre el \"injustamente tratado\" de la estrella del Barcelona",
+        "La guerra empieza pronto: un exárbitro desvela el plan de Mourinho y el Real Madrid antes del Clásico"
+      ]
+    }
+  }
+}
