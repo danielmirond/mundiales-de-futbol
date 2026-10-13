@@ -81,7 +81,7 @@ export async function SiteFooter() {
               </li>
               <li>
                 <Link href={withLocale(locale, '/mundiales')} className="text-[var(--color-fg-muted)] transition-colors hover:text-[var(--color-fg)]">
-                  Mundial 2026 · archivo
+                  Historia de los Mundiales
                 </Link>
               </li>
             </ul>
