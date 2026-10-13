@@ -242,7 +242,7 @@ Todos los horarios están en hora peninsular. Los marcadores se actualizan en di
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915418",
     sourceLang: 'en',
     publishedAt: '2026-10-13T02:42:45.904Z',
-    modifiedAt: '2026-10-13T02:42:45.904Z',
+    modifiedAt: '2026-10-13T14:34:22.020Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Maquette_Stade_Bollaert-Delelis_2015.jpg/1920px-Maquette_Stade_Bollaert-Delelis_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
