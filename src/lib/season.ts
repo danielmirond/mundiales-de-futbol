@@ -132,6 +132,8 @@ const fmtRange = (from: string, to: string) => {
  */
 export function groupMatchdays(matches: Match[], comp: Competition, phases?: Phase[]): Matchday[] {
   const weekly = comp.sport !== 'futbol';
+  // Un partido «programado» con fecha pasada es un aplazado sin nueva fecha: no cuenta como pendiente.
+  const stale = new Date(Date.now() - 36 * 3_600_000).toISOString();
   const out: Matchday[] = [];
   const push = (ms: Match[], label: string, word: string) => {
     ms.sort((a, b) => a.date.localeCompare(b.date));
@@ -143,7 +145,7 @@ export function groupMatchdays(matches: Match[], comp: Competition, phases?: Pha
       n, slug: `${word}-${n}`, label, from: first, to: core[core.length - 1] ?? first, matches: ms,
       played: ms.filter((m) => m.state === 'post').length,
       live: ms.filter((m) => m.state === 'in').length,
-      pending: ms.filter((m) => m.state === 'pre' || m.state === 'in').length,
+      pending: ms.filter((m) => m.state === 'in' || (m.state === 'pre' && m.date >= stale)).length,
     });
   };
   /** Cada equipo juega una vez por jornada: el partido va a la primera jornada libre para ambos. */
