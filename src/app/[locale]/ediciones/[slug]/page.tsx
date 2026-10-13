@@ -8,6 +8,10 @@ import { getTournamentBySlug } from '@/lib/data/tournaments';
 import { routing, type Locale } from '@/i18n/routing';
 import { MatchesList } from '@/components/edition/matches-list';
 import { EditionStandings } from '@/components/edition/edition-standings';
+import { EditionBracket } from '@/components/edition/edition-bracket';
+import { EditionScorers } from '@/components/edition/edition-scorers';
+import { getMatchesForTournament } from '@/lib/data/matches';
+import { getScorersForTournament } from '@/lib/data/edition-scorers';
 import { ArchiveVideos } from '@/components/edition/archive-videos';
 import { PressWall } from '@/components/edition/press-wall';
 import { EditionTimeline } from '@/components/edition/edition-timeline';
@@ -92,6 +96,7 @@ export default async function EditionPage({
 
   const format = await getFormatter();
   const upcoming = t.year >= 2026;
+  const [editionMatches, editionScorers] = upcoming ? [[], []] : await Promise.all([getMatchesForTournament(t.year), getScorersForTournament(t.year)]);
 
   const editionUrl =
     locale === routing.defaultLocale
@@ -331,6 +336,10 @@ export default async function EditionPage({
       <PressWall year={t.year} locale={locale} />
 
       <ArchiveVideos year={t.year} locale={locale} />
+
+      {!upcoming && <EditionBracket matches={editionMatches} slug={slug} locale={locale as Locale} accent={t.palette.from} />}
+
+      {!upcoming && <EditionScorers rows={editionScorers} locale={locale as Locale} accent={t.palette.from} topScorer={t.topScorer} />}
 
       <MatchesList year={t.year} slug={slug} locale={locale as Locale} />
 
