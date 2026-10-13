@@ -4,7 +4,8 @@ import { setRequestLocale } from 'next-intl/server';
 import { ArrowLeft, Tv, Users, CalendarDays } from 'lucide-react';
 import { getSport, getCompetition, competitionPath } from '@/lib/competitions';
 import { fetchStandings } from '@/lib/espn';
-import { resolveTeam, fetchTeam, fetchTeamSchedule, fetchTeamRoster } from '@/lib/espn-team';
+import { resolveTeam, fetchTeam, fetchTeamSchedule, fetchTeamRoster, fetchTeamProfile } from '@/lib/espn-team';
+import { inkFor } from '@/lib/color';
 import { fetchWindow, dayKeys } from '@/lib/espn';
 import { getWostiIndex, channelsFor } from '@/lib/wosti';
 import { routing, type Locale } from '@/i18n/routing';
@@ -52,13 +53,18 @@ export default async function EquipoPage({ params }: { params: Params }) {
   const L = locale as Locale;
   const { s, c, ref } = data;
 
-  const [team, schedule, roster, standings, upcoming] = await Promise.all([
+  const [team, schedule, roster, standings, upcoming, profile] = await Promise.all([
     fetchTeam(c, ref.id),
     fetchTeamSchedule(c, ref.id),
     fetchTeamRoster(c, ref.id),
     c.hasStandings ? fetchStandings(c) : Promise.resolve({ groups: [] }),
     fetchWindow([c], dayKeys(0, 14), 300),
+    fetchTeamProfile(c, ref.id),
   ]);
+  const clubColor = profile.color ?? team?.color;
+  const band = clubColor ? { background: `#${clubColor}`, color: inkFor(`#${clubColor}`) } : undefined;
+  const homeGames = schedule.filter((g) => g.isHome && g.venue);
+  const stadium = profile.venue?.name ?? (homeGames.length ? [...homeGames.reduce((m, g) => m.set(g.venue!, (m.get(g.venue!) ?? 0) + 1), new Map<string, number>()).entries()].sort((a, b) => b[1] - a[1])[0][0] : undefined);
   const row = standings.groups.flatMap((g) => g.rows).find((r) => r.abbr === ref.abbr || r.name === ref.name);
   const played = schedule.filter((g) => g.state === 'post').reverse().slice(0, 10);
   const next = upcoming.filter((m) => m.state !== 'post' && (m.home.abbr === ref.abbr || m.away.abbr === ref.abbr)).slice(0, 5);
@@ -82,14 +88,14 @@ export default async function EquipoPage({ params }: { params: Params }) {
         <Link href={withLocale(L, competitionPath(c))} className="inline-flex items-center gap-2 font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-fg-muted)] hover:text-[var(--color-fg)]">
           <ArrowLeft className="h-3 w-3 rtl:rotate-180" /> {c.name}
         </Link>
-        <div className="mt-6 flex items-center gap-5">
+        <div className="mt-6 flex items-center gap-5 rounded-[18px] px-5 py-4" style={band}>
           {ref.logo && (
             // eslint-disable-next-line @next/next/no-img-element
             <img src={ref.logo} alt="" width={96} height={96} className="h-20 w-20 object-contain md:h-24 md:w-24" />
           )}
           <div>
-            <h1 className="font-display text-fluid-display uppercase leading-[0.9]">{ref.name}</h1>
-            <p className="mt-2 font-mono text-xs uppercase tracking-[0.25em] text-[var(--color-fg-muted)]">
+            <h1 className="font-display text-fluid-h1 uppercase leading-[0.9]">{ref.name}</h1>
+            <p className="mt-2 font-mono text-xs uppercase tracking-[0.25em] opacity-85">
               {c.name}{team?.record ? ` · ${team.record}` : ''}{row ? ` · ${row.rank}.º${row.stats.points ? ` · ${row.stats.points} pts` : ''}` : team?.standingSummary ? ` · ${team.standingSummary}` : ''}
             </p>
             {form.length > 0 && (
@@ -146,6 +152,37 @@ export default async function EquipoPage({ params }: { params: Params }) {
 
       {/* Clasificación: el equipo con su vecino de arriba y de abajo */}
       {row && <StandingsTable comp={c} locale={L} highlight={ref.abbr} slice />}
+
+      {/* Datos del club */}
+      <section className="mx-auto w-full max-w-[1400px] px-6 pb-12 md:px-10">
+        <div className="kicker">Datos del club</div>
+        <dl className="mt-4 grid gap-px overflow-hidden rounded-[18px] border border-[var(--color-border)] bg-[var(--color-border)] sm:grid-cols-2 lg:grid-cols-4">
+          {[
+            ['Estadio', stadium ? `${stadium}${profile.venue?.city ? ` · ${profile.venue.city}` : ''}` : '—'],
+            ['Competición', c.name],
+            ['Entrenador', roster.coach ?? '—'],
+            ['Plantilla', roster.players.length ? `${roster.players.length} jugadores` : '—'],
+            ['Balance', team?.record ?? '—'],
+            ['Posición', row ? `${row.rank}.º${row.stats.points ? ` · ${row.stats.points} pts` : ''}` : team?.standingSummary ?? '—'],
+            ['Racha', profile.form ? profile.form.split('').map((r) => (r === 'W' ? 'G' : r === 'L' ? 'P' : 'E')).join(' ') : form.length ? form.map((r) => (r === 'W' ? 'G' : r === 'L' ? 'P' : 'E')).join(' ') : '—'],
+            ['Abreviatura', ref.abbr],
+          ].map(([k, v]) => (
+            <div key={k} className="bg-[var(--color-bg-2)] px-5 py-4">
+              <dt className="font-mono text-[10px] uppercase tracking-[0.2em] text-[var(--color-fg-subtle)]">{k}</dt>
+              <dd className="mt-1 text-sm font-medium text-[var(--color-fg)]">{v}</dd>
+            </div>
+          ))}
+          {(clubColor || profile.alternateColor) && (
+            <div className="bg-[var(--color-bg-2)] px-5 py-4">
+              <dt className="font-mono text-[10px] uppercase tracking-[0.2em] text-[var(--color-fg-subtle)]">Colores</dt>
+              <dd className="mt-2 flex items-center gap-2">
+                {clubColor && <span className="h-6 w-6 rounded-full border border-[var(--color-border-strong)]" style={{ background: `#${clubColor}` }} title={`#${clubColor}`} />}
+                {profile.alternateColor && <span className="h-6 w-6 rounded-full border border-[var(--color-border-strong)]" style={{ background: `#${profile.alternateColor}` }} title={`#${profile.alternateColor}`} />}
+              </dd>
+            </div>
+          )}
+        </dl>
+      </section>
 
       {/* Plantilla */}
       {roster.players.length > 0 && (

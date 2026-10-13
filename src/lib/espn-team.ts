@@ -20,6 +20,15 @@ export type TeamGame = {
   isHome: boolean; rival: string; rivalLogo?: string; gf: number | null; ga: number | null; venue?: string;
   result: 'W' | 'D' | 'L' | null;
 };
+export type TeamProfile = {
+  venue?: { id?: string; name: string; city?: string; country?: string; image?: string; indoor?: boolean };
+  color?: string;
+  alternateColor?: string;
+  /** Nombre corto / localidad (p. ej. «Real Betis», «Los Angeles»). */
+  location?: string;
+  /** Racha reciente tal como la da ESPN (p. ej. «WDLWW»). */
+  form?: string;
+};
 export type Player = { id?: string; name: string; jersey: string; pos: string; age?: number; nationality?: string };
 
 /** URL slug de nuestro sitio a partir del slug de ESPN ("esp.barcelona" → "barcelona"). */
@@ -103,4 +112,18 @@ export async function fetchTeamRoster(c: Competition, id: string): Promise<{ pla
   })).filter((p) => p.name);
   const coach = j?.coach?.[0] ? `${j.coach[0].firstName ?? ''} ${j.coach[0].lastName ?? ''}`.trim() : undefined;
   return { players, coach };
+}
+
+const CORE = 'https://sports.core.api.espn.com/v2/sports';
+/** Ficha del club (API core de ESPN): estadio con ciudad, colores y racha. */
+export async function fetchTeamProfile(c: Competition, id: string): Promise<TeamProfile> {
+  if (!c.espn) return {};
+  const j = await getJson(`${CORE}/${c.espn.sport}/leagues/${c.espn.league}/teams/${id}`, 86_400);
+  if (!j) return {};
+  const v = j.venue && !j.venue.$ref?.endsWith('venues/') ? j.venue : undefined;
+  const venue = v?.fullName ? {
+    id: v.id ? String(v.id) : undefined, name: String(v.fullName), city: v.address?.city, country: v.address?.country,
+    image: Array.isArray(v.images) && v.images[0]?.href ? String(v.images[0].href) : undefined, indoor: typeof v.indoor === 'boolean' ? v.indoor : undefined,
+  } : undefined;
+  return { venue, color: j.color, alternateColor: j.alternateColor, location: j.location, form: typeof j.form === 'string' ? j.form : undefined };
 }

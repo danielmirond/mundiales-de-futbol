@@ -11,7 +11,8 @@ const withLocale = (l: Locale, h: string) => (l === routing.defaultLocale ? h : 
 export function MatchdayList({ comp, md, locale, wosti, href, titleTag = 'h2' }: { comp: Competition; md: Matchday; locale: Locale; wosti: WostiIndex; href?: string; titleTag?: 'h2' | 'h3' }) {
   const base = `/${comp.sport}/${comp.slug}`;
   const Title = titleTag;
-  const status = md.live > 0 ? 'En juego' : md.played === md.matches.length ? 'Finalizada' : md.played > 0 ? `${md.played}/${md.matches.length} jugados` : 'Pendiente';
+  const ppd = md.matches.length - md.played - md.pending;
+  const status = md.live > 0 ? 'En juego' : md.pending === 0 ? (ppd > 0 ? `Finalizada · ${ppd} aplazado${ppd > 1 ? 's' : ''}` : 'Finalizada') : md.played > 0 ? `${md.played}/${md.matches.length} jugados` : 'Pendiente';
   return (
     <div id={md.slug} className="scroll-mt-36">
       <MatchList

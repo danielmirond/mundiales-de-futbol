@@ -47,7 +47,7 @@ export default async function CompetitionCalendarPage({ params }: { params: Para
           <nav className="mx-auto mt-8 w-full max-w-[1400px] px-6 md:px-10" aria-label="Ir a jornada">
             <div className="no-scrollbar flex gap-1.5 overflow-x-auto pb-2">
               {mds.map((m) => (
-                <a key={m.slug} href={`#${m.slug}`} className={`inline-flex h-8 shrink-0 items-center rounded-full border px-3 font-mono text-[11px] tab-num ${m.slug === cur?.slug ? 'border-transparent bg-[var(--accent)] font-semibold text-[var(--color-bg)]' : m.played === m.matches.length ? 'border-[var(--color-border)] text-[var(--color-fg-subtle)]' : 'border-[var(--color-border-strong)] text-[var(--color-fg-muted)]'}`} title={matchdayRange(m)}>
+                <a key={m.slug} href={`#${m.slug}`} className={`inline-flex h-8 shrink-0 items-center rounded-full border px-3 font-mono text-[11px] tab-num ${m.slug === cur?.slug ? 'border-transparent bg-[var(--accent)] font-semibold text-[var(--color-bg)]' : m.pending === 0 ? 'border-[var(--color-border)] text-[var(--color-fg-subtle)]' : 'border-[var(--color-border-strong)] text-[var(--color-fg-muted)]'}`} title={matchdayRange(m)}>
                   {m.n}
                 </a>
               ))}
