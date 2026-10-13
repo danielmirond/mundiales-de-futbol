@@ -94,9 +94,9 @@
     }
   },
   "footer": {
-    "tagline": "Una biblioteca viva del Mundial de Fútbol.",
+    "tagline": "Resultados y directos de fútbol y baloncesto, y la historia completa de los Mundiales.",
     "language": "Idioma",
-    "credits": "Hecho con datos abiertos de FIFA, Wikipedia, StatsBomb y colaboradores. Imágenes cortesía de Wikimedia Commons.",
+    "credits": "Marcadores y estadísticas de ESPN; canales de TV de WOSTI; archivo histórico con datos abiertos de FIFA y Wikipedia. Imágenes con licencia libre de Wikimedia Commons.",
     "legal": "Legal",
     "privacy": "Privacidad",
     "cookies": "Cookies",
@@ -123,7 +123,9 @@
       "panini": "Cromos Panini",
       "lego": "Sets LEGO",
       "disclosure": "Aviso de afiliados"
-    }
+    },
+    "history": "Mundiales",
+    "live": "En directo"
   },
   "contact": {
     "kicker": "Contacto",

@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { getLocale, getTranslations } from 'next-intl/server';
-import { TimelineMark } from '@/components/brand/timeline';
+import { LogomarkSeal } from '@/components/brand/logomark-seal';
+import { AGGREGATES } from '@/lib/tournaments';
 import { routing, type Locale } from '@/i18n/routing';
 
 function withLocale(locale: Locale, href: string) {
@@ -15,20 +16,21 @@ export async function SiteFooter() {
     <footer className="relative mt-24 border-t border-[var(--color-border)] bg-[var(--color-bg-2)]">
       <div className="mx-auto grid w-full max-w-[1400px] gap-10 px-6 py-16 md:grid-cols-[2fr_1fr_1fr] md:px-10">
         <div>
-          <TimelineMark size={40} ticks={14} />
-          <p className="mt-8 max-w-md text-lg leading-relaxed text-[var(--color-fg-muted)]">
+          <Link href={withLocale(locale, '/')} className="flex items-center gap-2.5 text-[var(--color-fg)]"><LogomarkSeal size={32} /><span className="font-display text-[28px] leading-none tracking-[0.01em]">MUNDIALES</span></Link>
+          <p className="mt-6 max-w-md text-lg leading-relaxed text-[var(--color-fg-muted)]">
             {t('tagline')}
           </p>
         </div>
         <div className="text-sm text-[var(--color-fg-muted)]">
           <div className="font-mono text-xs uppercase tracking-widest text-[var(--color-fg-subtle)]">
-            1930-2026
+            {t('history')} · 1930-2026
           </div>
+          {/* Agregados hasta 2022 + Mundial 2026 (104 partidos, 333 goles; España ya era campeona). */}
           <ul className="mt-4 space-y-2">
-            <li>22 ediciones</li>
-            <li>2.578 partidos</li>
-            <li>2.720 goles</li>
-            <li>8 campeones</li>
+            <li><Link href={withLocale(locale, '/ediciones')} className="hover:text-[var(--color-fg)]">{AGGREGATES.editions + 1} ediciones</Link></li>
+            <li>{(AGGREGATES.matches + 104).toLocaleString('es-ES')} partidos</li>
+            <li>{(AGGREGATES.goals + 333).toLocaleString('es-ES')} goles</li>
+            <li><Link href={withLocale(locale, '/palmares')} className="hover:text-[var(--color-fg)]">{AGGREGATES.champions} campeones</Link></li>
           </ul>
         </div>
         <div className="text-sm text-[var(--color-fg-muted)]">
@@ -78,7 +80,7 @@ export async function SiteFooter() {
                 </Link>
               </li>
               <li>
-                <Link href={withLocale(locale, '/2026')} className="text-[var(--color-fg-muted)] transition-colors hover:text-[var(--color-fg)]">
+                <Link href={withLocale(locale, '/mundiales')} className="text-[var(--color-fg-muted)] transition-colors hover:text-[var(--color-fg)]">
                   Mundial 2026 · archivo
                 </Link>
               </li>

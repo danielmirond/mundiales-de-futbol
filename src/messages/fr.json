@@ -94,9 +94,9 @@
     }
   },
   "footer": {
-    "tagline": "Une bibliothèque vivante de la Coupe du Monde.",
+    "tagline": "Scores en direct de football et de basket, et toute l’histoire de la Coupe du Monde.",
     "language": "Langue",
-    "credits": "Construit sur des données ouvertes de FIFA, Wikipedia, StatsBomb et des contributeurs. Images via Wikimedia Commons.",
+    "credits": "Scores et statistiques ESPN ; programmes TV WOSTI ; archives historiques sur données ouvertes FIFA et Wikipedia. Images sous licence libre via Wikimedia Commons.",
     "legal": "Mentions légales",
     "privacy": "Confidentialité",
     "cookies": "Cookies",
@@ -123,7 +123,9 @@
       "panini": "Vignettes Panini",
       "lego": "Coffrets LEGO",
       "disclosure": "Mentions affiliés"
-    }
+    },
+    "history": "Coupes du Monde",
+    "live": "En direct"
   },
   "contact": {
     "kicker": "Contact",

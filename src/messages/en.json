@@ -94,9 +94,9 @@
     }
   },
   "footer": {
-    "tagline": "A living library of the FIFA World Cup.",
+    "tagline": "Live scores for football and basketball, and the complete history of the World Cup.",
     "language": "Language",
-    "credits": "Built on open data from FIFA, Wikipedia, StatsBomb and contributors. Imagery via Wikimedia Commons.",
+    "credits": "Scores and stats from ESPN; TV listings from WOSTI; historical archive built on open data from FIFA and Wikipedia. Freely licensed imagery via Wikimedia Commons.",
     "legal": "Legal",
     "privacy": "Privacy",
     "cookies": "Cookies",
@@ -123,7 +123,9 @@
       "panini": "Panini stickers",
       "lego": "LEGO sets",
       "disclosure": "Affiliate disclosure"
-    }
+    },
+    "history": "World Cups",
+    "live": "Live"
   },
   "contact": {
     "kicker": "Contact",

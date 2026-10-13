@@ -94,9 +94,9 @@
     }
   },
   "footer": {
-    "tagline": "Uma biblioteca viva da Copa do Mundo.",
+    "tagline": "Resultados ao vivo de futebol e basquetebol, e toda a história dos Mundiais.",
     "language": "Idioma",
-    "credits": "Feito com dados abertos da FIFA, Wikipedia, StatsBomb e colaboradores. Imagens via Wikimedia Commons.",
+    "credits": "Resultados e estatísticas da ESPN; canais de TV da WOSTI; arquivo histórico com dados abertos da FIFA e Wikipedia. Imagens com licença livre via Wikimedia Commons.",
     "legal": "Legal",
     "privacy": "Privacidade",
     "cookies": "Cookies",
@@ -123,7 +123,9 @@
       "panini": "Figurinhas Panini",
       "lego": "Sets LEGO",
       "disclosure": "Aviso de afiliados"
-    }
+    },
+    "history": "Mundiais",
+    "live": "Ao vivo"
   },
   "contact": {
     "kicker": "Contato",
