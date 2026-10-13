@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { setRequestLocale } from 'next-intl/server';
-import { WorldCup2026Closed } from '@/components/portal/wc2026-closed';
+import { MundialesHero } from '@/components/portal/mundiales-hero';
 import { StatsBand } from '@/components/home/stats-band';
 import { EditionsGrid } from '@/components/home/editions-grid';
 import { Pillars } from '@/components/home/pillars';
@@ -47,13 +47,7 @@ export default async function MundialesHub({ params }: { params: Promise<{ local
         breadcrumbLd(locale, [{ name: 'Inicio', path: '/' }, { name: 'Mundiales', path: '/mundiales' }]),
         { '@context': 'https://schema.org', '@type': 'CollectionPage', name: 'Historia de los Mundiales', url: localeUrl(locale, '/mundiales'), hasPart: SECTIONS.map((s) => ({ '@type': 'WebPage', name: s.label, url: localeUrl(locale, s.href) })) },
       ]} />
-      <header className="mx-auto w-full max-w-[1400px] px-6 md:px-10">
-        <div className="kicker" style={{ color: 'var(--color-gold)' }}>Mundiales · 1930–2026</div>
-        <h1 className="mt-5 font-display text-fluid-display uppercase leading-[0.9]">Historia de los Mundiales</h1>
-        <p className="mt-4 max-w-2xl text-lg text-[var(--color-fg-muted)]">Todas las Copas del Mundo desde 1930, con sus campeones, finales, goleadores, estadios y selecciones. El archivo completo del Mundial 2026 y el camino a 2030.</p>
-      </header>
-
-      <WorldCup2026Closed locale={L} />
+      <MundialesHero locale={L} />
 
       <section className="mx-auto w-full max-w-[1400px] px-6 py-6 md:px-10">
         <div className="kicker" style={{ color: 'var(--color-gold)' }}>Secciones</div>
