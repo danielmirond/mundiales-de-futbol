@@ -185,9 +185,14 @@ export function groupMatchdays(matches: Match[], comp: Competition, phases?: Pha
 
 export const matchdayRange = (md: Matchday) => fmtRange(md.from, md.to);
 
-/** Jornada «actual»: la que tiene partidos en juego, o la primera con partidos pendientes, o la última. */
+/**
+ * Jornada «actual»: la que tiene partidos en juego; si no, la primera cuyo
+ * bloque de fechas no ha terminado (un aplazado recuperado meses después no
+ * convierte en actual a su jornada original); si no, la última.
+ */
 export function currentMatchday(mds: Matchday[]): Matchday | undefined {
-  return mds.find((m) => m.live > 0) ?? mds.find((m) => m.pending > 0) ?? mds[mds.length - 1];
+  const yday = addDays(madridDateKey(), -1);
+  return mds.find((m) => m.live > 0) ?? mds.find((m) => m.to >= yday && m.pending > 0) ?? mds.find((m) => m.to >= yday) ?? mds[mds.length - 1];
 }
 /** Última jornada con algún partido jugado. */
 export function lastPlayedMatchday(mds: Matchday[]): Matchday | undefined {
