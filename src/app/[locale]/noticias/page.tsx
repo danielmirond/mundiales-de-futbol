@@ -26,16 +26,17 @@ export async function generateMetadata({
     locale,
     path: '/noticias',
     title:
-      'Noticias Mundial 2026: Panini, convocatorias, sedes, TV y mucho más',
+      'Noticias de fútbol y baloncesto: crónicas, previas, agenda y clasificaciones',
     description:
-      'Lo último del Mundial 2026 contado en propio: convocatorias, álbum Panini, sedes, entradas, partido inaugural, derechos de TV y polémicas. Resumen editorial con citas a fuentes verificadas.',
+      'Crónicas, previas, agenda del día y clasificación semanal de LaLiga, Champions, Premier, NBA y el resto de competiciones que seguimos, más la actualidad de los Mundiales.',
     keywords: [
-      'noticias Mundial 2026',
-      'últimas noticias Copa Mundial 2026',
-      'novedades Mundial 2026',
-      'álbum Panini Mundial 2026 noticia',
-      'convocatoria Mundial 2026 noticia',
-      'partido inaugural Mundial 2026',
+      'noticias fútbol',
+      'crónicas laliga',
+      'previas partidos',
+      'partidos de hoy',
+      'clasificación laliga',
+      'noticias nba',
+      'noticias mundiales',
     ],
   });
 }
@@ -91,13 +92,11 @@ export default async function NoticiasIndex({
           <ArrowLeft className="h-3 w-3 rtl:rotate-180" /> Inicio
         </Link>
 
-        <div className="mt-8 flex items-center gap-3 font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-pitch)]">
+        <div className="kicker mt-8 flex items-center gap-2">
           <Newspaper className="h-4 w-4" />
-          <span>Noticias · Mundial 2026</span>
+          <span>Lo último</span>
         </div>
-        <h1 className="mt-4 font-display text-fluid-display uppercase leading-[0.9]">
-          Noticias del<br />Mundial 2026
-        </h1>
+        <h1 className="t-h1 mt-4 text-[var(--color-fg)]">Noticias</h1>
         <p className="mt-6 max-w-3xl text-lg leading-relaxed text-[var(--color-fg-muted)] md:text-xl">
           Crónicas, previas, agenda del día y clasificación semanal de las
           competiciones que seguimos, más la actualidad de los Mundiales.
