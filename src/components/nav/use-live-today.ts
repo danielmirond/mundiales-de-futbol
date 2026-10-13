@@ -32,6 +32,16 @@ const subscribe = (l: () => void) => {
 /** Partidos en directo hoy (para el contador del nav y los puntos de la subnav). */
 export function useLiveToday(): LiveToday {
   const data = useSyncExternalStore(subscribe, () => snapshot, () => EMPTY);
-  useEffect(() => { if (snapshot === EMPTY) void load(); }, []);
+  // La primera carga espera a que termine el streaming/hidratación de la página
+  // (evento `load`): actualizar el store mientras hay fragmentos aún sin hidratar
+  // provocaba un desajuste de hidratación (React #418).
+  useEffect(() => {
+    if (snapshot !== EMPTY) return;
+    let t: ReturnType<typeof setTimeout> | null = null;
+    const start = () => { t = setTimeout(() => { void load(); }, 400); };
+    if (document.readyState === 'complete') start();
+    else window.addEventListener('load', start, { once: true });
+    return () => { if (t) clearTimeout(t); window.removeEventListener('load', start); };
+  }, []);
   return data;
 }
