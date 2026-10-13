@@ -65,7 +65,7 @@ export default async function CompetitionCalendarPage({ params }: { params: Para
           {past.length > 0 && (
             <section className="mx-auto w-full max-w-[1400px] px-6 pb-16 md:px-10">
               <div className="kicker">Jugadas</div>
-              <h2 className="t-h2 mt-3 text-[var(--color-fg)]">Jornadas anteriores</h2>
+              <h2 className="t-h2 mt-3 text-[var(--color-fg)]">{c.sport === 'futbol' ? 'Jornadas anteriores' : 'Semanas anteriores'}</h2>
               <p className="mt-2 text-sm text-[var(--color-fg-muted)]">Resultados completos en <Link href={withLocale(L, `${compBase(c)}/resultados`)} className="text-[var(--accent-ink)] underline underline-offset-4">resultados por jornada</Link>.</p>
               <div className="mt-6 grid gap-5">
                 {past.map((m) => <MatchdayList key={m.slug} comp={c} md={m} locale={L} wosti={wosti} href={`${compBase(c)}/resultados/${m.slug}`} />)}

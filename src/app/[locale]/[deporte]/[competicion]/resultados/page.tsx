@@ -34,10 +34,11 @@ export default async function CompetitionResultsPage({ params }: { params: Param
   const mds = season.matchdays;
   const last = lastPlayedMatchday(mds);
   const played = mds.filter((m) => m.played > 0).reverse();
+  const unit = c.sport !== 'futbol' ? 'semana' : c.kind === 'liga' || c.hasStandings ? 'jornada' : 'ronda';
 
   return (
     <main className="pt-28" data-sport={s.slug}>
-      <CompetitionHeader s={s} c={c} locale={locale} section="resultados" title={`Resultados de ${c.shortName ?? c.name}`} description={last ? `Última jornada disputada: ${last.label} (${matchdayRange(last)}). ${played.length} jornadas con resultados esta temporada.` : `Todavía no hay resultados de ${c.name} esta temporada.`} />
+      <CompetitionHeader s={s} c={c} locale={locale} section="resultados" title={`Resultados de ${c.shortName ?? c.name}`} description={last ? `Última ${unit} disputada: ${last.label} (${matchdayRange(last)}). ${played.length} ${unit}s con resultados esta temporada.` : `Todavía no hay resultados de ${c.name} esta temporada.`} />
 
       {last && (
         <section className="mx-auto w-full max-w-[1400px] px-6 py-8 md:px-10">
@@ -49,7 +50,7 @@ export default async function CompetitionResultsPage({ params }: { params: Param
       {played.length > 1 && (
         <section className="mx-auto w-full max-w-[1400px] px-6 pb-16 md:px-10">
           <div className="kicker">Temporada</div>
-          <h2 className="t-h2 mt-3 text-[var(--color-fg)]">Todas las jornadas</h2>
+          <h2 className="t-h2 mt-3 text-[var(--color-fg)]">Todas las {unit}s</h2>
           <ul className="mt-6 grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
             {played.map((m) => (
               <li key={m.slug}>
