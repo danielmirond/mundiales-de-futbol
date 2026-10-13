@@ -9,6 +9,7 @@ import { fetchWindow, dayKeys } from '@/lib/espn';
 import { getWostiIndex, channelsFor } from '@/lib/wosti';
 import { routing, type Locale } from '@/i18n/routing';
 import { StandingsTable, FormChips } from '@/components/portal/standings-table';
+import { TeamTabs } from '@/components/portal/team-tabs';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl } from '@/lib/seo';
 
 export const dynamic = 'force-dynamic';
@@ -97,6 +98,7 @@ export default async function EquipoPage({ params }: { params: Params }) {
           </div>
         </div>
       </header>
+      <TeamTabs comp={c} team={ref} active="inicio" locale={L} />
 
       {/* Próximos partidos */}
       <section className="mx-auto w-full max-w-[1400px] px-6 py-12 md:px-10">

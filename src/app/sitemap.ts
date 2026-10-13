@@ -115,6 +115,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   for (const c of COMPETITIONS) {
     if (c.href || !c.espn) continue;
     out.push(entry(`/${c.sport}/${c.slug}`, now, 'daily', 0.8));
+    for (const sec of ['partidos-hoy', 'calendario', 'resultados']) out.push(entry(`/${c.sport}/${c.slug}/${sec}`, now, 'daily', 0.7));
+    if (c.hasStandings) out.push(entry(`/${c.sport}/${c.slug}/clasificacion`, now, 'daily', 0.7));
+    if (c.sport === 'futbol') { out.push(entry(`/${c.sport}/${c.slug}/alineaciones`, now, 'daily', 0.6)); out.push(entry(`/${c.sport}/${c.slug}/goleadores`, now, 'daily', 0.6)); }
   }
   out.push(entry('/ediciones', now, 'weekly', 0.9));
   out.push(entry('/jugadores', now, 'weekly', 0.9));

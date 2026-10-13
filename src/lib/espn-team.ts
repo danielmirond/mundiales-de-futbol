@@ -20,7 +20,7 @@ export type TeamGame = {
   isHome: boolean; rival: string; rivalLogo?: string; gf: number | null; ga: number | null; venue?: string;
   result: 'W' | 'D' | 'L' | null;
 };
-export type Player = { name: string; jersey: string; pos: string; age?: number; nationality?: string };
+export type Player = { id?: string; name: string; jersey: string; pos: string; age?: number; nationality?: string };
 
 /** URL slug de nuestro sitio a partir del slug de ESPN ("esp.barcelona" → "barcelona"). */
 export const teamSlug = (espnSlug: string) => String(espnSlug ?? '').replace(/^[a-z]{2,3}\./, '');
@@ -97,6 +97,7 @@ export async function fetchTeamRoster(c: Competition, id: string): Promise<{ pla
   const j = await getJson(`${path(c)}/teams/${id}/roster`, 21_600);
   const raw: any[] = Array.isArray(j?.athletes) && j.athletes[0]?.items ? j.athletes.flatMap((g: any) => g.items) : (j?.athletes ?? []);
   const players: Player[] = raw.map((p) => ({
+    id: p.id != null ? String(p.id) : undefined,
     name: p.displayName ?? p.fullName ?? '', jersey: String(p.jersey ?? ''), pos: p.position?.abbreviation ?? p.position?.name ?? '',
     age: typeof p.age === 'number' ? p.age : undefined, nationality: p.citizenship ?? p.birthPlace?.country,
   })).filter((p) => p.name);
