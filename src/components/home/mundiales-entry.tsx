@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
 import { Icon } from '@/components/ui/icon';
 import { routing, type Locale } from '@/i18n/routing';
-import { AGGREGATES } from '@/lib/tournaments';
+import { HISTORY_TOTALS, fmtEs } from '@/lib/tournaments';
 
 const withLocale = (l: Locale, h: string) => (l === routing.defaultLocale ? h : `/${l}${h}`);
 
@@ -16,8 +16,7 @@ export function MundialesEntry({ locale }: { locale: Locale }) {
           <h2 className="mt-3 font-display text-4xl uppercase leading-[0.9] md:text-5xl">La historia de los Mundiales</h2>
           <p className="mt-3 max-w-2xl text-[var(--color-fg-muted)]">España, campeona de 2026. Las 23 ediciones, selecciones y camisetas, palmarés, goleadores, estadios, galería, récords y coleccionismo. Y el camino al Mundial 2030.</p>
           <dl className="mt-5 flex flex-wrap gap-x-8 gap-y-2 font-mono text-[11px] uppercase tracking-[0.2em] text-[var(--color-fg-subtle)]">
-            {/* Cifras agregadas hasta 2022 (AGGREGATES) + Mundial 2026: 104 partidos, 333 goles, campeón España (ya campeona en 2010). */}
-            {[[String(AGGREGATES.editions + 1), 'ediciones'], [(AGGREGATES.matches + 104).toLocaleString('es-ES'), 'partidos'], [(AGGREGATES.goals + 333).toLocaleString('es-ES'), 'goles'], [String(AGGREGATES.champions), 'campeones']].map(([n, l]) => (
+            {[[String(HISTORY_TOTALS.editions), 'ediciones'], [fmtEs(HISTORY_TOTALS.matches), 'partidos'], [fmtEs(HISTORY_TOTALS.goals), 'goles'], [String(HISTORY_TOTALS.champions), 'campeones']].map(([n, l]) => (
               <div key={l} className="flex items-baseline gap-2"><dt className="n-l text-[var(--color-fg)]">{n}</dt><dd>{l}</dd></div>
             ))}
           </dl>

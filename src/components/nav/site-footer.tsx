@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { getLocale, getTranslations } from 'next-intl/server';
 import { LogomarkSeal } from '@/components/brand/logomark-seal';
-import { AGGREGATES } from '@/lib/tournaments';
+import { HISTORY_TOTALS, fmtEs } from '@/lib/tournaments';
 import { routing, type Locale } from '@/i18n/routing';
 
 function withLocale(locale: Locale, href: string) {
@@ -25,12 +25,11 @@ export async function SiteFooter() {
           <div className="font-mono text-xs uppercase tracking-widest text-[var(--color-fg-subtle)]">
             {t('history')} · 1930-2026
           </div>
-          {/* Agregados hasta 2022 + Mundial 2026 (104 partidos, 333 goles; España ya era campeona). */}
           <ul className="mt-4 space-y-2">
-            <li><Link href={withLocale(locale, '/ediciones')} className="hover:text-[var(--color-fg)]">{AGGREGATES.editions + 1} ediciones</Link></li>
-            <li>{(AGGREGATES.matches + 104).toLocaleString('es-ES')} partidos</li>
-            <li>{(AGGREGATES.goals + 333).toLocaleString('es-ES')} goles</li>
-            <li><Link href={withLocale(locale, '/palmares')} className="hover:text-[var(--color-fg)]">{AGGREGATES.champions} campeones</Link></li>
+            <li><Link href={withLocale(locale, '/ediciones')} className="hover:text-[var(--color-fg)]">{HISTORY_TOTALS.editions} ediciones</Link></li>
+            <li>{fmtEs(HISTORY_TOTALS.matches)} partidos</li>
+            <li>{fmtEs(HISTORY_TOTALS.goals)} goles</li>
+            <li><Link href={withLocale(locale, '/palmares')} className="hover:text-[var(--color-fg)]">{HISTORY_TOTALS.champions} campeones</Link></li>
           </ul>
         </div>
         <div className="text-sm text-[var(--color-fg-muted)]">

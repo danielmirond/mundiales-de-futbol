@@ -15,7 +15,9 @@ export async function MundialesHero({ locale }: { locale: Locale }) {
   const champ = w ? (w === 'home' ? final!.home : final!.away) : undefined;
   const runner = w ? (w === 'home' ? final!.away : final!.home) : undefined;
   const t = (c?: string) => (c && TEAMS_2026[c]) || undefined;
-  const editions = [...tournaments].sort((a, b) => a.year - b.year);
+  const editions = [...tournaments].sort((a, b) => a.year - b.year)
+    .map((ed) => (ed.year === 2026 && champ ? { ...ed, champion: t(champ)?.name ?? ed.champion } : ed));
+  if (!editions.some((e) => e.year === 2030)) editions.push({ ...editions[editions.length - 1], year: 2030, slug: '2030', host: 'España · Portugal · Marruecos', champion: '', palette: { from: '#c60b1e', to: '#006233' } });
   const hrefOf = (year: number, slug: string) => (year === 2026 ? '/2026' : year === 2030 ? '/2030' : `/ediciones/${slug}`);
 
   return (
@@ -57,7 +59,7 @@ export async function MundialesHero({ locale }: { locale: Locale }) {
                   className={`group grid shrink-0 gap-1 rounded-[14px] border px-3.5 py-2.5 transition-colors ${current ? 'border-[var(--color-gold)] bg-[color-mix(in_oklab,var(--color-gold)_12%,transparent)]' : next ? 'border-dashed border-[var(--color-border-strong)]' : 'border-[var(--color-border)] hover:border-[var(--color-gold)]'}`}>
                   <span className="font-display text-2xl leading-none tab-num text-[var(--color-fg)]">{ed.year}</span>
                   <span className="font-mono text-[10px] uppercase tracking-[0.12em] text-[var(--color-fg-subtle)]">{ed.host}</span>
-                  <span className="text-[12px] text-[var(--color-fg-muted)] group-hover:text-[var(--color-fg)]">{next ? 'Próximo' : ed.champion || '—'}</span>
+                  <span className="text-[12px] text-[var(--color-fg-muted)] group-hover:text-[var(--color-fg)]">{next ? 'Próximo' : ed.champion || 'Por disputar'}</span>
                   <span aria-hidden className="mt-1 h-1 rounded-full" style={{ background: `linear-gradient(90deg, ${ed.palette.from}, ${ed.palette.to})` }} />
                 </Link>
               );

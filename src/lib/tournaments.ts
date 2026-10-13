@@ -421,6 +421,25 @@ export function getTournament(slugOrYear: string | number): Tournament | undefin
 
 export const WORLD_CUP_2026_KICKOFF = new Date('2026-06-11T13:00:00-06:00');
 
+/** Formato español con punto de millar también en cifras de 4 dígitos (1.068). */
+export const fmtEs = (n: number) => String(n).replace(/\B(?=(\d{3})+(?!\d))/g, '.');
+
+/**
+ * Totales históricos INCLUYENDO el Mundial 2026 (104 partidos, 333 goles,
+ * campeón España, que ya lo era en 2010). Alemania Occidental y Alemania
+ * cuentan como un solo campeón (FIFA atribuye los títulos a Alemania).
+ */
+export const HISTORY_TOTALS = (() => {
+  const past = TOURNAMENTS.filter((t) => t.year < 2026);
+  const norm = (c: string) => (/alemania/i.test(c) ? 'Alemania' : c);
+  return {
+    editions: past.length + 1,
+    matches: past.reduce((s, t) => s + t.matches, 0) + 104,
+    goals: past.reduce((s, t) => s + t.goals, 0) + 333,
+    champions: new Set([...past.map((t) => norm(t.champion)), 'España']).size,
+  };
+})();
+
 export const AGGREGATES = {
   editions: TOURNAMENTS.filter((t) => t.year < 2026).length,
   matches: TOURNAMENTS.filter((t) => t.year < 2026).reduce((s, t) => s + t.matches, 0),
