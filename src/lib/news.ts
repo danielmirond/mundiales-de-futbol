@@ -124,6 +124,134 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'previa-man-city-psg-401915407',
+    title: "Man City - PSG: horario, dónde ver y cómo llegan al partido de Champions",
+    summary: "Man City recibe a PSG este miércoles 14 de octubre (21:00 h, Etihad Stadium) en Champions League. Man City es 8.º y PSG, 1.º. TV: M+ Liga de Campeones 2.",
+    body: `Man City recibe a PSG este miércoles 14 de octubre (21:00 h, Etihad Stadium) en Champions League.
+
+## Cómo llegan
+
+Man City llega y ocupa la 8.º plaza con 3 puntos (1G-0E-0P). PSG llega y ocupa la 1.º plaza con 3 puntos (1G-0E-0P). La [clasificación de Champions](/futbol/champions-league), al día.
+
+## Dónde ver el partido
+
+Se emite en **M+ Liga de Campeones 2**. Alineaciones en cuanto se confirmen, marcador en directo y narración en la [ficha del Man City - PSG](/futbol/champions-league/partido/401915407). El resto de la jornada, en [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915407",
+    sourceLang: 'en',
+    publishedAt: '2026-10-13T02:42:45.904Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Etihad_Stadium.jpg/1920px-Etihad_Stadium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Etihad Stadium, sede del Man City - PSG",
+      credit: "Cléria De Souza · CC BY 2.0 · Wikimedia Commons",
+      license: "CC BY 2.0",
+    },
+  },
+  {
+    slug: 'cronica-coventry-newcastle-401879267',
+    title: "Coventry se impone a Newcastle (4-1) en Premier League",
+    summary: "Sidiki Cherif marcó; Newcastle remató 19 veces (6 a puerta) en el Coventry 4-1 Newcastle de Premier League.",
+    body: `Acabó ganando Coventry 4-1. Los goles: Sidiki Cherif (48', Coventry), Sven Botman (70', Newcastle), Ellis Simms (81', Coventry) y Stephen Mfuni (86', Coventry).
+
+## En cifras
+
+La posesión fue 33 %-67 % para Coventry. En remates, 9 de Coventry (6 a puerta) por 19 de Newcastle (6). Córners: 2 por 6.
+
+## La clasificación
+
+Tras el partido, Coventry 14.º con 6 puntos y Newcastle 11.º con 8 puntos en la [clasificación de Premier League](/futbol/premier-league).
+
+Ficha: 2 amarillas · 10 cambios. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/premier-league/partido/401879267).`,
+    category: 'general',
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401879267",
+    sourceLang: 'en',
+    publishedAt: '2026-10-13T02:42:45.904Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Coventry_%2C_Coventry_Building_Society_Arena_-_geograph.org.uk_-_6974086.jpg/1920px-Coventry_%2C_Coventry_Building_Society_Arena_-_geograph.org.uk_-_6974086.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Coventry Building Society Arena, donde se jugó el Coventry - Newcastle",
+      credit: "Lewis Clarke · CC BY-SA 2.0 · Wikimedia Commons",
+      license: "CC BY-SA 2.0",
+    },
+  },
+  {
+    slug: 'cronica-levante-sevilla-401882852',
+    title: "Levante y Sevilla empatan 3-3; Levante sigue 17.º en LaLiga",
+    summary: "Levante 3-3 Sevilla en LaLiga. Levante 57 % de posesión y 20 remates; Sevilla 43 % y 18.",
+    body: `## Resumen
+
+Levante y Sevilla empataron 3-3 en LaLiga.
+
+## Los goles
+
+- 13' · Robbie Ure (Sevilla)
+- 54' · Felix Correia (Sevilla)
+- 57' · Iván Romero (Levante)
+- 90'+2' · Adrián de la Fuente (Levante)
+- 90'+5' · Isaac Romero (Sevilla)
+- 90'+10' · Ifeanyi Ndukwe (Levante)
+
+## El dato
+
+Levante 57 % de posesión y 20 remates; Sevilla 43 % y 18.
+
+## Lo que viene
+
+Lo que viene. Levante: visita a Deportivo el viernes 16 de octubre. Sevilla: visita a Real Madrid el domingo 18 de octubre.
+
+**Lee también:** la [ficha del partido](/futbol/laliga/partido/401882852) con alineaciones y narración · la [clasificación de LaLiga](/futbol/laliga) · [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882852",
+    sourceLang: 'en',
+    publishedAt: '2026-10-13T02:42:45.904Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Estadi_Ciutat_de_Val%C3%A8ncia_-_nocturna.jpg/1920px-Estadi_Ciutat_de_Val%C3%A8ncia_-_nocturna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Estadi Ciutat de València, donde se jugó el Levante - Sevilla",
+      credit: "Francesc Fort · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'partidos-futbol-hoy-2026-10-13',
+    title: "Partidos de fútbol hoy, martes 13 de octubre: horarios y dónde ver Champions",
+    summary: "Agenda de fútbol de hoy martes 13 de octubre: 9 partidos con horario en hora española y canal de televisión. Destaca Lens - Sporting.",
+    body: `9 partidos de fútbol para martes 13 de octubre. Repasamos qué se juega, a qué hora y en qué canal, sin más vueltas. El partido que más miradas reúne es el **[Lens - Sporting](/futbol/champions-league/partido/401915418)** (Champions League, 18:45 h).
+
+## Champions League
+
+- **[Lens - Sporting](/futbol/champions-league/partido/401915418)** — 18:45 h · 📺 M+ Liga de Campeones 2
+- **[Sabah - Slavia Prague](/futbol/champions-league/partido/401915436)** — 18:45 h
+- **[Arsenal - Lille](/futbol/champions-league/partido/401915417)** — 21:00 h · 📺 M+ Liga de Campeones 4 / M+ Liga de Campeones 5
+- **[Atlético - Man United](/futbol/champions-league/partido/401915412)** — 21:00 h · 📺 M+ Liga de Campeones
+- **[Galatasaray - Barcelona](/futbol/champions-league/partido/401915435)** — 21:00 h · 📺 M+ Liga de Campeones
+- **[Inter Milan - Club Brugge](/futbol/champions-league/partido/401915413)** — 21:00 h · 📺 M+ Liga de Campeones 4 / M+ Liga de Campeones 7
+- **[RB Leipzig - PSV](/futbol/champions-league/partido/401915434)** — 21:00 h · 📺 M+ Liga de Campeones 2
+- **[Viking FK - Bayern](/futbol/champions-league/partido/401915411)** — 21:00 h · 📺 M+ Liga de Campeones 4 / M+ Liga de Campeones 6
+- **[Villarreal - Napoli](/futbol/champions-league/partido/401915410)** — 21:00 h · 📺 M+ Liga de Campeones 2
+
+Calendario y clasificación en la [página de Champions](/futbol/champions-league).
+
+Todos los horarios están en hora peninsular. Los marcadores se actualizan en directo en cada ficha de partido. Toda la jornada, con marcadores en directo, en [partidos de hoy](/partidos-hoy).`,
+    category: 'tv',
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915418",
+    sourceLang: 'en',
+    publishedAt: '2026-10-13T02:42:45.904Z',
+    modifiedAt: '2026-10-13T02:42:45.904Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Maquette_Stade_Bollaert-Delelis_2015.jpg/1920px-Maquette_Stade_Bollaert-Delelis_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Stade Bollaert-Delelis, escenario del Lens - Sporting",
+      credit: "Supporterhéninois · CC0 · Wikimedia Commons",
+      license: "CC0",
+    },
+  },
+  {
     slug: 'clasificacion-nba-semana-2026-42',
     title: "NBA: así queda la clasificación esta semana, con Celtics líder",
     summary: "Celtics manda en NBA con 1 puntos tras la última jornada. Tabla comentada de NBA 2027: cabeza, zona baja y enlace a la clasificación completa.",
