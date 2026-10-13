@@ -94,7 +94,10 @@ const ART_BG = 'bg-[radial-gradient(ellipse_at_top_left,_rgba(0,255,133,0.25),_t
 function CintilloBanner({ href, context, matchId }: { href: string; context?: string; matchId?: string }) {
   const thumbSrc = matchId ? getMatchThumbnail(matchId) : null;
 
+  // El aviso de afiliado (con su propio enlace) va FUERA del <a>: un <a> anidado
+  // hace que el navegador cierre el enlace antes de tiempo y rompe la hidratación.
   return (
+    <div>
     <a
       href={href}
       target="_blank"
@@ -134,9 +137,10 @@ function CintilloBanner({ href, context, matchId }: { href: string; context?: st
             Ver en M+
           </span>
         </div>
-        <TAndC className="text-white/20" />
       </div>
     </a>
+    <TAndC className="mt-2 px-1 text-white/25" />
+    </div>
   );
 }
 
