@@ -85,7 +85,7 @@ export function SiteNav() {
           ))}
           <button type="button" onClick={() => setMega((v) => !v)} aria-expanded={mega} className={item(mega)}>{t('moreSports')}<Icon name="chev" size={12} className={cn('text-[var(--color-fg-subtle)] transition-transform', mega && 'rotate-180')} /></button>
           <span className="mx-2 h-5 w-px bg-[var(--color-border-strong)]" />
-          <Link href={withLocale(locale, '/2026')} className={item(pathname.includes('/2026') || pathname.includes('/ediciones'))}>{t('worldCups')}</Link>
+          <Link href={withLocale(locale, '/mundiales')} className={item(/\/(mundiales|2026|2030|ediciones|selecciones|palmares|historial|historias|jugadores|goles-famosos|estadios|galeria|records|coleccionismo)(\/|$)/.test(pathname))}>{t('worldCups')}</Link>
           <Link href={withLocale(locale, '/noticias')} className={item(pathname.includes('/noticias'))}>{t('news')}</Link>
         </nav>
 
@@ -108,7 +108,7 @@ export function SiteNav() {
             <Icon name={sportIcon(s.slug)} className="text-[var(--accent)]" />{t(s.slug as 'futbol')}
           </Link>
         ))}
-        <Link href={withLocale(locale, '/2026')} className={cn('flex items-center whitespace-nowrap border-b-2 px-2.5 text-[13.5px]', pathname.includes('/2026') ? 'border-[var(--color-gold)] font-semibold text-[var(--color-fg)]' : 'border-transparent text-[var(--color-fg-muted)]')}>{t('worldCups')}</Link>
+        <Link href={withLocale(locale, '/mundiales')} className={cn('flex items-center whitespace-nowrap border-b-2 px-2.5 text-[13.5px]', /\/(mundiales|2026|ediciones)(\/|$)/.test(pathname) ? 'border-[var(--color-gold)] font-semibold text-[var(--color-fg)]' : 'border-transparent text-[var(--color-fg-muted)]')}>{t('worldCups')}</Link>
         <Link href={withLocale(locale, '/noticias')} className={cn('flex items-center whitespace-nowrap border-b-2 px-2.5 text-[13.5px]', pathname.includes('/noticias') ? 'border-[var(--color-fg)] font-semibold text-[var(--color-fg)]' : 'border-transparent text-[var(--color-fg-muted)]')}>{t('news')}</Link>
       </div>
 
@@ -158,6 +158,7 @@ export function SiteNav() {
         <div className="sub-label mt-1">{t('worldCups')}</div>
         <nav className="grid" aria-label={t('worldCups')}>
           {[
+            { href: '/mundiales', label: 'Historia de los Mundiales', icon: 'trofeo' as IconName },
             { href: '/2026', label: 'Mundial 2026', icon: 'trofeo' as IconName },
             { href: '/ediciones', label: `${t('editions')} 1930–2026`, icon: 'cal' as IconName },
             { href: '/selecciones', label: t('selections'), icon: 'futbol' as IconName },

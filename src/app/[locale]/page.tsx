@@ -2,13 +2,10 @@ import { setRequestLocale } from 'next-intl/server';
 import { PortalHero } from '@/components/portal/portal-hero';
 import { TodayBoard } from '@/components/portal/today-board';
 import { CompetitionsGrid } from '@/components/portal/competitions-grid';
-import { WorldCup2026Closed } from '@/components/portal/wc2026-closed';
 import { liveCompetitions } from '@/lib/competitions';
 import { MovistarHero } from '@/components/affiliate/movistar-banner';
 import { DailyNews } from '@/components/home/daily-news';
-import { StatsBand } from '@/components/home/stats-band';
-import { EditionsGrid } from '@/components/home/editions-grid';
-import { Pillars } from '@/components/home/pillars';
+import { MundialesEntry } from '@/components/home/mundiales-entry';
 import type { Locale } from '@/i18n/routing';
 import { pageMetadata } from '@/lib/seo';
 
@@ -77,10 +74,8 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
           <MovistarHero />
         </div>
       </section>
-      <WorldCup2026Closed locale={L} />
-      <StatsBand />
-      <EditionsGrid locale={L} />
-      <Pillars />
+      {/* El archivo histórico vive en /mundiales: aquí solo una entrada. */}
+      <MundialesEntry locale={L} />
     </>
   );
 }

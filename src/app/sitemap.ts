@@ -119,6 +119,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     if (c.hasStandings) out.push(entry(`/${c.sport}/${c.slug}/clasificacion`, now, 'daily', 0.7));
     if (c.sport === 'futbol') { out.push(entry(`/${c.sport}/${c.slug}/alineaciones`, now, 'daily', 0.6)); out.push(entry(`/${c.sport}/${c.slug}/goleadores`, now, 'daily', 0.6)); }
   }
+  out.push(entry('/mundiales', now, 'weekly', 0.9));
   out.push(entry('/ediciones', now, 'weekly', 0.9));
   out.push(entry('/jugadores', now, 'weekly', 0.9));
   out.push(entry('/selecciones', now, 'weekly', 0.9));
