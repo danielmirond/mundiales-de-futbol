@@ -111,8 +111,8 @@ export function MatchSummarySections({
     </section>
   );
   const events = summary.hasEvents && (
-    <section id="momentos" className="mx-auto mt-12 w-full max-w-[1000px] px-6 md:px-10">
-      <SectionTitle>Momentos clave</SectionTitle>
+    <section id="momentos" data-sport={sport} className="mx-auto mt-12 w-full max-w-[1000px] px-6 md:px-10">
+      <SectionTitle>{sport === 'futbol' ? 'Momentos clave' : 'Jugadas de anotación'}</SectionTitle>
       <ul className="mt-6 space-y-2">
         {summary.events.map((e, i) => (
           <li key={i} className={`flex items-start gap-3 rounded-[14px] border border-[var(--color-border)] bg-[var(--color-bg-2)] px-4 py-3 ${e.side === 'away' ? 'flex-row-reverse text-right' : ''}`}>
@@ -121,6 +121,7 @@ export function MatchSummarySections({
             <span className="flex-1 text-sm text-[var(--color-fg-muted)]">
               <span className="font-medium text-[var(--color-fg)]">{e.type}</span>
               {e.players.length > 0 && <> · {e.players.join(' → ')}</>}
+              {e.players.length === 0 && e.text && sport !== 'futbol' && <span className="mt-1 block text-[13px]">{e.text}</span>}
             </span>
           </li>
         ))}

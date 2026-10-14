@@ -88,8 +88,8 @@ export function ScoreboardLarge({ sport, competition, summary: s, channels = [],
           </div>
         </div>
       )}
-      {sport === 'baloncesto' && h.home.linescores && h.home.linescores.length > 0 && (
-        <Quarters home={h.home} away={h.away} period={s.period} live={s.state === 'in'} homeTotal={s.homeScore} awayTotal={s.awayScore} />
+      {sport !== 'futbol' && h.home.linescores && h.home.linescores.length > 0 && (
+        <Quarters sport={sport} home={h.home} away={h.away} period={s.period} live={s.state === 'in'} homeTotal={s.homeScore} awayTotal={s.awayScore} />
       )}
       <div className="mt-5 flex flex-wrap items-center gap-x-5 gap-y-2.5 border-t border-[var(--color-border)] pt-4 text-sm text-[var(--color-fg-muted)]">
         {ms > 0 && <span className="inline-flex items-center gap-2 capitalize"><Icon name="cal" />{dateFmt.format(ms)} · {timeFmt.format(ms)}</span>}
@@ -100,9 +100,10 @@ export function ScoreboardLarge({ sport, competition, summary: s, channels = [],
   );
 }
 
-function Quarters({ home, away, period, live, homeTotal, awayTotal }: { home: { name: string; linescores?: number[] }; away: { name: string; linescores?: number[] }; period?: number; live: boolean; homeTotal: number | null; awayTotal: number | null }) {
+function Quarters({ sport, home, away, period, live, homeTotal, awayTotal }: { sport: string; home: { name: string; linescores?: number[] }; away: { name: string; linescores?: number[] }; period?: number; live: boolean; homeTotal: number | null; awayTotal: number | null }) {
   const n = Math.max(home.linescores?.length ?? 0, away.linescores?.length ?? 0);
-  const label = (i: number) => (i < 4 ? `${i + 1}.º` : `P${i - 3}`);
+  const regular = sport === 'beisbol' ? 9 : sport === 'hockey' ? 3 : sport === 'rugby' ? 2 : 4;
+  const label = (i: number) => (i < regular ? `${i + 1}${sport === 'beisbol' ? '' : '.º'}` : sport === 'beisbol' ? `${i + 1}` : `P${i - regular + 1}`);
   const row = (t: { name: string; linescores?: number[] }, total: number | null) => (
     <tr>
       <td className="py-2.5 pr-2 text-left font-medium text-[var(--color-fg)]">{t.name}</td>
@@ -114,7 +115,7 @@ function Quarters({ home, away, period, live, homeTotal, awayTotal }: { home: { 
   );
   return (
     <table className="mt-2 w-full border-collapse border-t border-[var(--color-border)] text-[13px]">
-      <thead><tr className="font-mono text-[10px] uppercase tracking-[0.14em] text-[var(--color-fg-subtle)]"><th className="py-2 text-left font-medium">Equipo</th>{Array.from({ length: n }, (_, i) => <th key={i} className="px-1.5 py-2 font-medium">{label(i)}</th>)}<th className="px-1.5 py-2 font-medium">Total</th></tr></thead>
+      <thead><tr className="font-mono text-[10px] uppercase tracking-[0.14em] text-[var(--color-fg-subtle)]"><th className="py-2 text-left font-medium">{sport === 'beisbol' ? 'Entrada' : 'Equipo'}</th>{Array.from({ length: n }, (_, i) => <th key={i} className="px-1.5 py-2 font-medium">{label(i)}</th>)}<th className="px-1.5 py-2 font-medium">Total</th></tr></thead>
       <tbody className="[&_tr]:border-t [&_tr]:border-[var(--color-border)]">{row(home, homeTotal)}{row(away, awayTotal)}</tbody>
     </table>
   );

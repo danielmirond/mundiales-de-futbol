@@ -145,6 +145,8 @@ export async function fetchEventSummary(
 ): Promise<MatchSummary | null> {
   if (!eventId) return null;
   const basketball = espn.sport === 'basketball';
+  /** NFL, NHL, MLB y rugby: estadísticas tal cual las da ESPN (en español) y jugadas de anotación. */
+  const otherSport = espn.sport !== 'soccer' && !basketball;
   let data: any;
   try {
     const res = await fetch(`${ESPN_BASE}/${espn.sport}/${espn.league}/summary?event=${eventId}&lang=es&region=es`, {
@@ -253,6 +255,29 @@ export async function fetchEventSummary(
       };
     })
     .filter((e: MatchEvent) => ['goal', 'yellow', 'red', 'sub'].includes(e.kind));
+  if (otherSport && events.length === 0) {
+    const periodLabel = (n?: number) => (!n ? '' : espn.sport === 'baseball' ? `${n}.ª entrada` : espn.sport === 'hockey' ? (n > 3 ? 'Prórroga' : `${n}.º periodo`) : n > 4 ? 'Prórroga' : `${n}.º cuarto`);
+    let scoring: any[] = (data.scoringPlays?.length ? data.scoringPlays : (data.plays ?? []).filter((x: any) => x.scoringPlay || /^goal$/i.test(x.type?.text ?? '')));
+    // En español ESPN no sirve la jugada a jugada de algunos deportes (NHL): se pide en inglés solo para esto.
+    if (scoring.length === 0) {
+      try {
+        const en = await fetch(`${ESPN_BASE}/${espn.sport}/${espn.league}/summary?event=${eventId}`, { headers: { 'User-Agent': 'Mozilla/5.0 (mundiales-de-futbol.com)' }, next: { revalidate } });
+        if (en.ok) { const d2 = await en.json(); scoring = (d2.scoringPlays?.length ? d2.scoringPlays : (d2.plays ?? []).filter((x: any) => x.scoringPlay)); }
+      } catch { /* sin jugadas */ }
+    }
+    const TYPE_US: [RegExp, string][] = [[/passing touchdown/i, 'Touchdown de pase'], [/rushing touchdown/i, 'Touchdown de carrera'], [/(fumble|interception|punt|kickoff).*return touchdown/i, 'Touchdown en retorno'], [/field goal/i, 'Gol de campo'], [/safety/i, 'Safety'], [/two-point|2pt/i, 'Conversión de dos'], [/^goal$/i, 'Gol'], [/resultado de la jugada|play result/i, 'Carrera']];
+    const typeUs = (t: string) => { for (const [re, es] of TYPE_US) if (re.test(t)) return es; return t; };
+    for (const k of scoring.slice(0, 40)) {
+      events.push({
+        minute: [periodLabel(k.period?.number), espn.sport === 'baseball' ? '' : k.clock?.displayValue].filter(Boolean).join(' · '),
+        kind: 'goal',
+        type: `${typeUs(k.type?.text ?? 'Anotación')}${k.homeScore != null ? ` (${k.awayScore}-${k.homeScore})` : ''}`,
+        side: idToSide.get(String(k.team?.id)) ?? null,
+        players: [],
+        text: k.text ?? '',
+      });
+    }
+  }
 
   // ── Estadísticas ──
   const byCode: Record<'home' | 'away', Record<string, string>> = { home: {}, away: {} };
@@ -263,7 +288,17 @@ export async function fetchEventSummary(
       if (s?.name) byCode[side][s.name] = s.displayValue ?? '';
     }
   }
-  const stats: TeamStat[] = (basketball ? STAT_LABELS_BASKETBALL : STAT_LABELS).filter(
+  const generic: TeamStat[] = [];
+  if (otherSport) {
+    const bySide: Record<'home' | 'away', { label: string; value: string }[]> = { home: [], away: [] };
+    for (const t of data.boxscore?.teams ?? []) {
+      const side = idToSide.get(String(t.team?.id)) ?? (t.homeAway as 'home' | 'away' | undefined);
+      if (side !== 'home' && side !== 'away') continue;
+      bySide[side] = (t.statistics ?? []).filter((x: any) => x?.label && x?.displayValue != null).map((x: any) => ({ label: String(x.label), value: String(x.displayValue) }));
+    }
+    bySide.home.slice(0, 14).forEach((h, i) => generic.push({ key: `g${i}`, label: h.label, home: h.value, away: bySide.away.find((a) => a.label === h.label)?.value ?? '—' }));
+  }
+  const stats: TeamStat[] = otherSport ? generic : (basketball ? STAT_LABELS_BASKETBALL : STAT_LABELS).filter(
     (s) => byCode.home[s.key] != null || byCode.away[s.key] != null,
   ).map((s) => {
     // ESPN da la precisión de pase como fracción (0.9) en ligas de clubes.
