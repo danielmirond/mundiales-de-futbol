@@ -37,7 +37,9 @@
     "liveNow": "en direct",
     "futbol-americano": "Football américain",
     "hockey": "Hockey",
-    "beisbol": "Baseball"
+    "beisbol": "Baseball",
+    "golf": "Golf",
+    "combate": "Sports de combat"
   },
   "home": {
     "hero": {

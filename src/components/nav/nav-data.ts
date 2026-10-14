@@ -18,7 +18,7 @@ export const MORE_SPORTS: { icon: string; name: string; items: string[]; href?: 
   { icon: 'balonmano', name: 'Balonmano', items: ['Liga Asobal', 'Mundial · Europeo'], href: '/balonmano', soon: true },
   { icon: 'ciclismo', name: 'Ciclismo', items: ['Tour · Giro · Vuelta', 'Clásicas · Mundial'], soon: true },
   { icon: 'atletismo', name: 'Atletismo y natación', items: ['Mundiales', 'Diamond League · maratones'], soon: true },
-  { icon: 'golf', name: 'Golf y pádel', items: ['PGA · DP World · Ryder', 'Premier Padel'], soon: true },
-  { icon: 'mas', name: 'Combate', items: ['UFC · boxeo'], soon: true },
+  { icon: 'mas', name: 'Pádel', items: ['Premier Padel'], soon: true },
+  { icon: 'mas', name: 'Boxeo', items: ['Veladas y títulos mundiales'], soon: true },
   { icon: 'trofeo', name: 'Multideporte', items: ['Juegos Olímpicos 2028', 'Juegos de Invierno 2030'], soon: true },
 ];

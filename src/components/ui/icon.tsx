@@ -16,6 +16,7 @@ export const ICON_PATHS = {
   golf: '<path d="M8 20.5V3l9 4-9 4"/><ellipse cx="10" cy="20.5" rx="6" ry="1.5"/>',
   'futbol-americano': '<ellipse cx="12" cy="12" rx="9.5" ry="5.6" transform="rotate(-38 12 12)"/><path d="M9 15l6-6M10.5 11.5l2 2M12 10l2 2M7.4 16.6l-1.6-1.6M18.2 8.8l-1.6-1.6"/>',
   hockey: '<path d="M5 3l6 13.5c.4.9 1.3 1.5 2.3 1.5H20"/><path d="M20 15.5V20h-6.5"/><ellipse cx="7" cy="20" rx="3" ry="1.2"/>',
+  combate: '<path d="M7 9.5V7a3 3 0 013-3h4a3 3 0 013 3v4.5a4 4 0 01-4 4h-2.5A3.5 3.5 0 017 12z"/><path d="M7 10.5h5M10 4v4.5M12.5 15.5V20h-5v-4.4"/>',
   beisbol: '<circle cx="12" cy="12" r="9"/><path d="M6.2 5.2c2.2 3.9 2.2 9.7 0 13.6M17.8 5.2c-2.2 3.9-2.2 9.7 0 13.6"/><path d="M7.6 8.2l-1.4.4M8.2 11l-1.5.1M8.2 13.6l-1.5-.2M16.4 8.2l1.4.4M15.8 11l1.5.1M15.8 13.6l1.5-.2"/>',
   mas: '<circle cx="5.5" cy="12" r="1.3" style="fill:currentColor"/><circle cx="12" cy="12" r="1.3" style="fill:currentColor"/><circle cx="18.5" cy="12" r="1.3" style="fill:currentColor"/>',
   // estados
@@ -88,6 +89,6 @@ export function Icon({ name, size = 16, className, title }: { name: IconName; si
 export const SPORT_ICON: Record<string, IconName> = {
   futbol: 'futbol', baloncesto: 'baloncesto', rugby: 'rugby', balonmano: 'balonmano', tenis: 'tenis',
   motor: 'motor', ciclismo: 'ciclismo', atletismo: 'atletismo', golf: 'golf',
-  'futbol-americano': 'futbol-americano', hockey: 'hockey', beisbol: 'beisbol',
+  'futbol-americano': 'futbol-americano', hockey: 'hockey', beisbol: 'beisbol', combate: 'combate',
 };
 export const sportIcon = (slug: string): IconName => SPORT_ICON[slug] ?? 'mas';

@@ -46,6 +46,8 @@
   --sport-futbol-americano: oklch(0.72 0.16 30);
   --sport-hockey: oklch(0.82 0.1 230);
   --sport-beisbol: oklch(0.76 0.15 15);
+  --sport-golf: oklch(0.8 0.16 130);
+  --sport-combate: oklch(0.7 0.2 20);
   --accent: var(--sport-futbol);
   --accent-ink: var(--accent);
 
@@ -290,6 +292,8 @@ html[dir="rtl"] .marquee-track { animation-direction: reverse; }
 [data-sport="futbol-americano"] { --accent: var(--sport-futbol-americano); }
 [data-sport="hockey"] { --accent: var(--sport-hockey); }
 [data-sport="beisbol"] { --accent: var(--sport-beisbol); }
+[data-sport="golf"] { --accent: var(--sport-golf); }
+[data-sport="combate"] { --accent: var(--sport-combate); }
 [data-sport] { --accent-ink: var(--accent); }
 
 /* Tema claro (sin conmutador en UI todavía; pensado para noticias y reportajes) */

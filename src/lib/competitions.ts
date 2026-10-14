@@ -9,7 +9,7 @@
  * Rutas: /[deporte]  y  /[deporte]/[competicion]  (ver src/app/[locale]/[deporte]).
  */
 
-export type SportSlug = 'futbol' | 'baloncesto' | 'rugby' | 'balonmano' | 'motor' | 'tenis' | 'futbol-americano' | 'hockey' | 'beisbol';
+export type SportSlug = 'futbol' | 'baloncesto' | 'rugby' | 'balonmano' | 'motor' | 'tenis' | 'futbol-americano' | 'hockey' | 'beisbol' | 'golf' | 'combate';
 
 export type Sport = {
   slug: SportSlug;
@@ -31,7 +31,7 @@ export type Competition = {
   espn?: { sport: string; league: string; dateRange?: boolean };
   hasStandings: boolean;
   /** Plantilla alternativa cuando no es un partido local-visitante de ESPN: estadísticas OpenACB, tenis o motor. */
-  stats?: 'openacb' | 'tennis' | 'racing';
+  stats?: 'openacb' | 'tennis' | 'racing' | 'golf' | 'combat';
   /** Ruta ESPN para las plantillas `tennis` y `racing` (no entran en los tableros de partidos). */
   feed?: { sport: string; league: string };
   flag?: string;
@@ -51,6 +51,8 @@ export const SPORTS: Sport[] = [
   { slug: 'futbol-americano', name: 'Fútbol americano', emoji: '🏈', description: 'NFL: resultados, calendario por semanas y clasificación por conferencias.' },
   { slug: 'hockey', name: 'Hockey hielo', emoji: '🏒', description: 'NHL: marcadores, calendario y clasificación.' },
   { slug: 'beisbol', name: 'Béisbol', emoji: '⚾', description: 'MLB: resultados, calendario y clasificación.' },
+  { slug: 'golf', name: 'Golf', emoji: '⛳', description: 'PGA Tour, DP World Tour y LPGA: torneo en juego, tabla por vueltas y calendario.' },
+  { slug: 'combate', name: 'Combate', emoji: '🥊', description: 'UFC: cartelera de cada velada, resultados y próximas fechas.' },
 ];
 
 const SOCCER = (league: string, dateRange = false) => ({ sport: 'soccer', league, dateRange });
@@ -123,6 +125,15 @@ export const COMPETITIONS: Competition[] = [
     description: 'NHL: marcadores en directo, calendario y clasificación por conferencias.', keywords: ['nhl', 'resultados nhl', 'clasificación nhl', 'partidos nhl hoy'] },
   { slug: 'mlb', name: 'MLB', sport: 'beisbol', kind: 'liga', espn: { sport: 'baseball', league: 'mlb' }, hasStandings: true, flag: '🇺🇸',
     description: 'MLB: resultados, calendario, playoffs y clasificación de la Liga Americana y la Nacional.', keywords: ['mlb', 'resultados mlb', 'clasificación mlb', 'playoffs mlb', 'serie mundial'] },
+  // ─── Golf y combate (plantillas propias) ────────────────────────
+  { slug: 'pga-tour', name: 'PGA Tour', sport: 'golf', kind: 'torneo', hasStandings: false, stats: 'golf', feed: { sport: 'golf', league: 'pga' }, flag: '🇺🇸',
+    description: 'PGA Tour: torneo en juego con la tabla por vueltas y calendario de la temporada.', keywords: ['pga tour', 'golf pga', 'clasificación pga', 'torneo de golf'] },
+  { slug: 'dp-world-tour', name: 'DP World Tour', sport: 'golf', kind: 'torneo', hasStandings: false, stats: 'golf', feed: { sport: 'golf', league: 'eur' },
+    description: 'DP World Tour (circuito europeo): torneo en juego, tabla y calendario, con los golfistas españoles.', keywords: ['dp world tour', 'circuito europeo de golf', 'golf europeo'] },
+  { slug: 'lpga', name: 'LPGA', sport: 'golf', kind: 'torneo', hasStandings: false, stats: 'golf', feed: { sport: 'golf', league: 'lpga' },
+    description: 'LPGA: circuito femenino de golf, torneo en juego y calendario.', keywords: ['lpga', 'golf femenino', 'torneo lpga'] },
+  { slug: 'ufc', name: 'UFC', sport: 'combate', kind: 'torneo', hasStandings: false, stats: 'combat', feed: { sport: 'mma', league: 'ufc' },
+    description: 'UFC: cartelera completa de cada velada, resultados con el método de victoria y próximas veladas.', keywords: ['ufc', 'resultados ufc', 'cartelera ufc', 'próxima velada ufc'] },
   // ─── Baloncesto femenino ───────────────────────────────────────
   { slug: 'wnba', name: 'WNBA', sport: 'baloncesto', kind: 'liga', espn: { sport: 'basketball', league: 'wnba' }, hasStandings: true, flag: '🇺🇸',
     description: 'WNBA: marcadores, calendario y clasificación de la liga femenina de baloncesto.', keywords: ['wnba', 'resultados wnba', 'clasificación wnba'] },

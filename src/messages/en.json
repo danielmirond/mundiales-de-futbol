@@ -37,7 +37,9 @@
     "liveNow": "live",
     "futbol-americano": "American football",
     "hockey": "Hockey",
-    "beisbol": "Baseball"
+    "beisbol": "Baseball",
+    "golf": "Golf",
+    "combate": "Combat sports"
   },
   "home": {
     "hero": {
