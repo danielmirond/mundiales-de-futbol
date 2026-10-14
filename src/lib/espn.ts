@@ -41,6 +41,8 @@ export type Match = {
   statusName?: string;
   /** Periodo en curso (cuarto, parte). */
   period?: number;
+  /** Tipo de temporada ESPN: 1 pretemporada, 2 regular, 3 playoffs. */
+  seasonType?: number;
   clock?: string;
   home: MatchTeam;
   away: MatchTeam;
@@ -90,6 +92,7 @@ function normalizeEvent(e: any, comp: Competition): Match | null {
     status: e.status?.type?.shortDetail ?? e.status?.type?.description ?? '',
     statusName,
     period: e.status?.period ? Number(e.status.period) : undefined,
+    seasonType: e.season?.type != null ? Number(e.season.type) : undefined,
     clock: e.status?.displayClock,
     home: team(h),
     away: team(a),

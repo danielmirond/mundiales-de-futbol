@@ -8,6 +8,9 @@
  *                   datos y efecto en la clasificación.
  *   --previa        Previa del partido destacado de hoy/mañana.
  *   --clasificacion Clasificación comentada por liga (pensada para lunes).
+ *   --f1            Previa (jueves-sábado) y crónica (domingo-lunes) de cada gran premio.
+ *   --nfl           Resumen de la semana de la NFL (martes) con la cabeza de cada conferencia.
+ *   --nba           Resultados de la noche en la NBA (cada mañana) con el partido más igualado.
  *   --all           Todo lo anterior.   --dry  No escribe.   --refresh  Reescribe lo existente.
  *
  * Datos: ESPN (resultados, resúmenes, clasificación) y WOSTI (canal). Imagen:
@@ -23,6 +26,8 @@ import { findImage, type CommonsImage } from './commons';
 import { readNews, upsert, writeNews, exists, publishedAtOf, type Piece } from './news-io';
 import { seedFrom, pick, prose, plural, fmtDayLong, fmtTime, dayKey, cap, assertTitle, V } from './voice';
 import { renderCronica, renderPrevia, REGISTERS, type CronicaCtx, type Side } from './registers';
+import { fetchRaceWeekend, fetchRaceStandings } from '../../src/lib/espn-racing';
+import { countryEs } from '../../src/lib/i18n-sport';
 
 // ── Contexto de cada equipo: puesto/puntos, último resultado y siguiente partido ──
 const windowCache = new Map<string, Promise<Match[]>>();
@@ -270,6 +275,147 @@ function isoWeek(d: Date) {
   return `${t.getUTCFullYear()}-${String(Math.ceil(((t.getTime() - y.getTime()) / 86400000 + 1) / 7)).padStart(2, '0')}`;
 }
 
+// ─────────────────────────────────────────────────────────────────────────────
+// 5) Fórmula 1: previa y crónica de cada gran premio
+async function buildF1(now: Date): Promise<Piece[]> {
+  const c = COMPETITIONS.find((x) => x.slug === 'formula-1');
+  if (!c?.feed) return [];
+  const [{ weekend, calendar }, { drivers, teams }] = await Promise.all([fetchRaceWeekend(c.feed), fetchRaceStandings(c.feed)]);
+  if (!weekend) return [];
+  const race = weekend.sessions.find((x) => x.type === 'Race');
+  if (!race) return [];
+  const raceAt = new Date(race.date).getTime(), t = now.getTime();
+  const gp = weekend.name; // «Gran Premio de X»
+  const where = [weekend.circuit, countryEs(weekend.city)].filter(Boolean).join(', ');
+  const year = new Date(race.date).getUTCFullYear();
+  const base = `gp-${slugify(gp.replace(/^Gran Premio de /, ''))}-${year}`;
+  const rnd = seedFrom(base);
+  const src = readNews();
+  const image = await imageFor(weekend.circuit ?? `${gp} circuito`, `${weekend.circuit ?? 'Circuito'} , escenario del ${gp}`);
+  const comp = { name: 'Fórmula 1', sport: 'motor', slug: 'formula-1' };
+  const leader = drivers[0], second = drivers[1];
+  const gap = leader && second ? leader.points - second.points : 0;
+  const out: Piece[] = [];
+
+  // Previa: desde 3 días antes de la carrera hasta su salida.
+  if (race.state === 'pre' && raceAt - t < 3.5 * 86_400_000 && raceAt > t) {
+    const sessions = weekend.sessions.map((x) => `- **${x.label}**: ${fmtDayLong(new Date(x.date))}, a las ${fmtTime(new Date(x.date))} (hora peninsular)${x.state === 'post' && x.top[0] ? `. Mejor tiempo: ${x.top[0].name}` : ''}`);
+    const title = `${gp}: horarios de libres, clasificación y carrera${weekend.sessions.some((x) => x.type === 'SR') ? ' al sprint' : ''}`;
+    assertTitle(title, 'Gran Premio');
+    const intro = pick(rnd, [
+      `El Mundial de Fórmula 1 llega a ${where || weekend.country} con ${leader ? `${leader.name} al frente de la general, ${gap} ${plural(gap, 'punto', 'puntos')} por delante de ${second?.name}` : 'la general abierta'}.`,
+      `${where || weekend.country} acoge esta semana el ${gp}${leader ? `, con ${leader.name} como líder del campeonato y ${second?.name} a ${gap} ${plural(gap, 'punto', 'puntos')}` : ''}.`,
+    ]);
+    const body = [
+      intro,
+      `## Horarios del ${gp}`, sessions.join('\n'),
+      leader ? `## Así llega el Mundial
+
+${drivers.slice(0, 5).map((d) => `${d.rank}. ${d.name}, ${d.points} puntos`).join('\n')}
+
+En constructores manda ${teams[0]?.name ?? '—'} con ${teams[0]?.points ?? 0} puntos${teams[1] ? `, por delante de ${teams[1].name} (${teams[1].points})` : ''}.` : '',
+      `Horarios, resultados de cada sesión y clasificación completa del Mundial en la [página de la Fórmula 1](/motor/formula-1).`,
+    ].filter(Boolean).join('\n\n');
+    const summary = `Horarios en hora peninsular de todas las sesiones del ${gp} en ${where || weekend.country}${leader ? ` y cómo llega el Mundial, con ${leader.name} líder` : ''}.`;
+    const slug = `previa-${base}`;
+    out.push({ slug, title, summary, body, category: 'general', kind: 'previa', competition: comp, sourceName: 'ESPN', sourceUrl: 'https://www.espn.com/f1/schedule', sourceLang: 'en', publishedAt: publishedAtOf(src, slug) ?? now.toISOString(), modifiedAt: now.toISOString(), author: AUTHOR, image });
+  }
+
+  // Crónica: hasta 2 días después de la carrera.
+  if (race.state === 'post' && t - raceAt < 2.5 * 86_400_000 && race.top[0]) {
+    const [p1, p2, p3] = race.top;
+    const isLeader = leader?.name === p1.name;
+    const title = pick(rnd, [`${p1.name} gana el ${gp} por delante de ${p2?.name ?? ''}`.trim(), `${p1.name} se lleva el ${gp}${isLeader ? ' y amplía su ventaja' : ''}`]);
+    assertTitle(title, p1.name);
+    const next = calendar.find((x) => new Date(x.start).getTime() > raceAt + 86_400_000);
+    const nextRace = next ? new Date(new Date(next.end).getTime() - 12 * 3_600_000) : null; // el «end» de ESPN cae el lunes por la mañana
+    const sprint = weekend.sessions.find((x) => x.type === 'SR')?.top[0];
+    const quali = weekend.sessions.find((x) => x.type === 'Qual')?.top[0];
+    const body = [
+      `${p1.name} ganó el ${gp}${where ? ` en ${where}` : ''}. ${p2 ? `${p2.name} acabó segundo` : ''}${p3 ? ` y ${p3.name} completó el podio` : ''}.${quali ? ` La pole había sido para ${quali.name}${quali.name === p1.name ? ', que convirtió la primera posición en victoria' : ''}.` : ''}`,
+      leader ? `## El Mundial tras ${gp.replace(/^Gran Premio de /, '')}
+
+${drivers.slice(0, 5).map((d) => `${d.rank}. ${d.name}, ${d.points} puntos`).join('\n')}
+
+${isLeader ? `${p1.name} refuerza el liderato` : `${leader.name} sigue líder`} con ${gap} ${plural(gap, 'punto', 'puntos')} sobre ${second?.name}. En constructores, ${teams[0]?.name ?? '—'} suma ${teams[0]?.points ?? 0}.` : '',
+      sprint ? `El sprint del sábado fue para ${sprint.name}${sprint.name === p1.name ? ', que firmó un fin de semana completo' : ''}.` : '',
+      next && nextRace ? `La próxima cita es el ${next.name}, con la carrera el ${fmtDayLong(nextRace)}.` : '',
+      `Resultados de cada sesión y clasificación completa en la [página de la Fórmula 1](/motor/formula-1).`,
+    ].filter(Boolean).join('\n\n');
+    const summary = `${p1.name} gana el ${gp}${p2 ? ` por delante de ${p2.name}` : ''}${p3 ? ` y ${p3.name}` : ''}. Así queda el Mundial de pilotos y constructores.`;
+    const slug = `cronica-${base}`;
+    out.push({ slug, title, summary, body, category: 'general', kind: 'cronica', competition: comp, sourceName: 'ESPN', sourceUrl: 'https://www.espn.com/f1/results', sourceLang: 'en', publishedAt: publishedAtOf(src, slug) ?? now.toISOString(), modifiedAt: REFRESH ? now.toISOString() : undefined, author: AUTHOR, image });
+  }
+  return out;
+}
+
+// 6) NFL: resumen de la semana (martes, tras el Monday Night)
+async function buildNflSemana(now: Date): Promise<Piece | null> {
+  const c = COMPETITIONS.find((x) => x.slug === 'nfl');
+  if (!c?.espn) return null;
+  const dow = new Date(now.toLocaleString('en-US', { timeZone: 'Europe/Madrid' })).getDay();
+  if (dow !== 2 && dow !== 3 && !REFRESH) return null; // martes o miércoles
+  const games = (await fetchWindow([c], dayKeys(-7, 0), 600)).filter((m) => m.state === 'post' && m.home.score != null);
+  if (games.length < 4) return null;
+  const week = isoWeek(now);
+  const slug = `nfl-semana-${week}`;
+  const rnd = seedFrom(slug);
+  const margin = (m: Match) => Math.abs((m.home.score ?? 0) - (m.away.score ?? 0));
+  const winner = (m: Match) => ((m.home.score ?? 0) > (m.away.score ?? 0) ? m.home : m.away);
+  const loser = (m: Match) => ((m.home.score ?? 0) > (m.away.score ?? 0) ? m.away : m.home);
+  const decided = games.filter((m) => margin(m) > 0);
+  const ties = games.filter((m) => margin(m) === 0);
+  const tight = [...decided].sort((a, b) => margin(a) - margin(b))[0] ?? games[0];
+  const big = [...games].sort((a, b) => margin(b) - margin(a))[0];
+  const { groups } = await fetchStandings(c);
+  const leaders = groups.map((g) => ({ conf: /american/i.test(g.name) ? 'AFC' : /national/i.test(g.name) ? 'NFC' : g.name, top: [...g.rows].sort((a, b) => Number(b.stats.winPercent ?? 0) - Number(a.stats.winPercent ?? 0)).slice(0, 3) }));
+  const lines = games.map((m) => margin(m) === 0 ? `- ${m.away.name} ${m.away.score}-${m.home.score} ${m.home.name} (empate)` : `- ${winner(m).name} ${Math.max(m.home.score!, m.away.score!)}-${Math.min(m.home.score!, m.away.score!)} ${loser(m).name}`);
+  const title = pick(rnd, [`NFL: resultados de la semana y cómo quedan la AFC y la NFC`, `NFL: todos los resultados de la jornada y la cabeza de cada conferencia`]);
+  assertTitle(title, 'NFL');
+  const body = [
+    `${games.length} partidos en la última semana de la NFL. El triunfo más ajustado, el de ${winner(tight).name} ante ${loser(tight).name} (${Math.max(tight.home.score!, tight.away.score!)}-${Math.min(tight.home.score!, tight.away.score!)}); la mayor diferencia, la de ${winner(big).name} sobre ${loser(big).name}, por ${margin(big)} puntos.${ties.length ? ` ${ties.map((m) => `${m.away.name} y ${m.home.name} empataron a ${m.home.score}`).join('; ')}.` : ''}`,
+    `## Resultados`, lines.join('\n'),
+    ...leaders.map((l) => `## ${l.conf}
+
+${l.top.map((r) => `- ${r.name}: ${r.stats.wins ?? 0}-${r.stats.losses ?? 0}${r.stats.ties && r.stats.ties !== '0' ? `-${r.stats.ties}` : ''}`).join('\n')}`),
+    `Calendario, resultados y clasificación completa en la [página de la NFL](/futbol-americano/nfl).`,
+  ].join('\n\n');
+  const summary = `Resultados de los ${games.length} partidos de la semana en la NFL, el más ajustado y los mejores balances de la AFC y la NFC.`;
+  const src = readNews();
+  const image = await imageFor(big.venue ?? `${winner(big).fullName} stadium`, `${big.venue ?? 'Estadio'}, sede del ${big.home.name} - ${big.away.name}`);
+  return { slug, title, summary, body, category: 'general', kind: 'cronica', competition: { name: 'NFL', sport: 'futbol-americano', slug: 'nfl' }, sourceName: 'ESPN', sourceUrl: 'https://www.espn.com/nfl/scoreboard', sourceLang: 'en', publishedAt: publishedAtOf(src, slug) ?? now.toISOString(), modifiedAt: REFRESH ? now.toISOString() : undefined, author: AUTHOR, image };
+}
+
+// 7) NBA: resultados de la noche (por la mañana, hora de Madrid)
+async function buildNbaNoche(now: Date): Promise<Piece | null> {
+  const c = COMPETITIONS.find((x) => x.slug === 'nba');
+  if (!c?.espn) return null;
+  const today = dayKey(now);
+  const games = (await fetchWindow([c], dayKeys(-1, 0), 600)).filter((m) => m.state === 'post' && m.home.score != null && dayKey(new Date(m.date)) <= today && now.getTime() - new Date(m.date).getTime() < 20 * 3_600_000);
+  if (games.length < 2) return null;
+  const pre = games.every((m) => m.seasonType === 1);
+  const label = pre ? 'NBA (pretemporada)' : 'NBA';
+  const slug = `nba-resultados-${today}`;
+  const rnd = seedFrom(slug);
+  const margin = (m: Match) => Math.abs((m.home.score ?? 0) - (m.away.score ?? 0));
+  const W = (m: Match) => ((m.home.score ?? 0) > (m.away.score ?? 0) ? m.home : m.away);
+  const L = (m: Match) => ((m.home.score ?? 0) > (m.away.score ?? 0) ? m.away : m.home);
+  const sc = (m: Match) => `${Math.max(m.home.score!, m.away.score!)}-${Math.min(m.home.score!, m.away.score!)}`;
+  const tight = [...games].sort((a, b) => margin(a) - margin(b))[0];
+  const high = [...games].sort((a, b) => (b.home.score! + b.away.score!) - (a.home.score! + a.away.score!))[0];
+  const title = pick(rnd, [`${label}: resultados de la noche del ${fmtDayLong(now).replace(/^\w+ /, '')}`, `${label}: todos los resultados de la jornada y el partido más igualado`]);
+  assertTitle(title, 'NBA');
+  const body = [
+    `${games.length} ${plural(games.length, 'partido', 'partidos')} ${pre ? 'de pretemporada ' : ''}en la NBA esta noche. El más igualado, ${W(tight).name} ${sc(tight)} a ${L(tight).name}${margin(tight) <= 3 ? ', decidido en la última posesión' : ''}. El de más puntos, ${W(high).name} ante ${L(high).name} (${sc(high)}).`,
+    `## Resultados`, games.map((m) => `- [${W(m).name} ${sc(m)} ${L(m).name}](${fichaPath(m)})`).join('\n'),
+    `Marcadores en directo, calendario y clasificación por conferencias en la [página de la NBA](/baloncesto/nba).`,
+  ].join('\n\n');
+  const summary = `Resultados de los ${games.length} partidos de la noche en la NBA, con el más igualado y el de más puntos.`;
+  const src = readNews();
+  const image = await imageFor(tight.venue ?? `${W(tight).fullName} arena`, `${tight.venue ?? 'Pabellón'}, sede del ${tight.home.name} - ${tight.away.name}`);
+  return { slug, title, summary, body, category: 'general', kind: 'cronica', competition: { name: 'NBA', sport: 'baloncesto', slug: 'nba' }, sourceName: 'ESPN', sourceUrl: 'https://www.espn.com/nba/scoreboard', sourceLang: 'en', publishedAt: publishedAtOf(src, slug) ?? now.toISOString(), modifiedAt: REFRESH ? now.toISOString() : undefined, author: AUTHOR, image };
+}
+
 async function main() {
   const now = process.env.DAILY_DATE ? new Date(`${process.env.DAILY_DATE}T09:00:00Z`) : new Date();
   const pieces: Piece[] = [];
@@ -277,6 +423,9 @@ async function main() {
   if (ALL || args.has('--cronicas')) pieces.push(...(await buildCronicas(now)));
   if (ALL || args.has('--previa')) { const p = await buildPrevia(now); if (p) pieces.push(p); }
   if (ALL || args.has('--clasificacion')) pieces.push(...(await buildClasificacion(now)));
+  if (ALL || args.has('--f1')) pieces.push(...(await buildF1(now)));
+  if (ALL || args.has('--nfl')) { const p = await buildNflSemana(now); if (p) pieces.push(p); }
+  if (ALL || args.has('--nba')) { const p = await buildNbaNoche(now); if (p) pieces.push(p); }
 
   console.log(`[daily-content] ${pieces.length} pieza(s) generadas.`);
   for (const p of pieces) console.log(`  · ${p.slug} — "${p.title}" (${p.title.length} chars, ${p.body.split(/\s+/).length} palabras${p.image ? ', con foto' : ', sin foto'})`);
@@ -285,7 +434,7 @@ async function main() {
   let src = readNews();
   let ins = 0, rep = 0;
   for (const p of pieces) {
-    if (exists(src, p.slug) && !REFRESH && !p.slug.startsWith('partidos-')) continue;
+    if (exists(src, p.slug) && !REFRESH && !p.slug.startsWith('partidos-') && !p.slug.startsWith('previa-gp-')) continue;
     const r = upsert(src, p); src = r.src; r.action === 'inserted' ? ins++ : rep++;
   }
   writeNews(src);
