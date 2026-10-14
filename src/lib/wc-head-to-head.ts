@@ -513,6 +513,10 @@ export function getHeadToHead(slug: string): HeadToHead | null {
   };
 }
 
+/** 1950 no tuvo final: la liguilla la decidió el Uruguay-Brasil (Maracanazo). */
+const isFinal = (m: HistMatch & { year: string }) =>
+  m.stage === 'final' || (m.stage === 'final_group' && m.year === '1950' && [m.home_code, m.away_code].sort().join() === 'BRA,URU');
+
 /** Mejor ronda alcanzada en la historia (por linaje de códigos) con el año más reciente en que se alcanzó. */
 export function bestWorldCupStage(codes: string[]): { stage: string; label: string; year: string } | null {
   const set = new Set(codes.map((c) => c.toUpperCase()));
@@ -522,7 +526,8 @@ export function bestWorldCupStage(codes: string[]): { stage: string; label: stri
     let stage = m.stage, tier = STAGE_TIER[m.stage] ?? 1;
     // Ganar la final = campeón; ganar el tercer puesto = tercero.
     const ours = set.has(m.home_code) ? m.home_code : m.away_code;
-    if (m.stage === 'final' && m.winner_code === ours) { stage = 'champion'; tier = 7; }
+    if (m.stage === 'final_group') { stage = 'final_group'; tier = 4.5; }
+    if (isFinal(m)) { stage = m.winner_code === ours ? 'champion' : 'final'; tier = m.winner_code === ours ? 7 : 6; }
     if (m.stage === '3rd') { stage = m.winner_code === ours ? 'third' : 'fourth'; tier = m.winner_code === ours ? 5.5 : 5; }
     if (!best || tier > best.tier || (tier === best.tier && m.year > best.year)) best = { tier, stage, year: m.year };
   }
@@ -534,13 +539,13 @@ export function bestWorldCupStage(codes: string[]): { stage: string; label: stri
 /** Años en que el linaje ganó la final. */
 export function worldCupTitleYears(codes: string[]): string[] {
   const set = new Set(codes.map((c) => c.toUpperCase()));
-  return ALL.filter((m) => m.stage === 'final' && m.winner_code && set.has(m.winner_code)).map((m) => m.year).sort();
+  return ALL.filter((m) => isFinal(m) && m.winner_code && set.has(m.winner_code)).map((m) => m.year).sort();
 }
 
 /** Finales jugadas por el linaje: ganadas y perdidas. */
 export function worldCupFinals(codes: string[]): { won: string[]; lost: string[] } {
   const set = new Set(codes.map((c) => c.toUpperCase()));
-  const finals = ALL.filter((m) => m.stage === 'final' && (set.has(m.home_code) || set.has(m.away_code)));
+  const finals = ALL.filter((m) => isFinal(m) && (set.has(m.home_code) || set.has(m.away_code)));
   return {
     won: finals.filter((m) => m.winner_code && set.has(m.winner_code)).map((m) => m.year).sort(),
     lost: finals.filter((m) => !(m.winner_code && set.has(m.winner_code))).map((m) => m.year).sort(),

@@ -3,8 +3,13 @@ import { teamWorldCupRecord, bestWorldCupStage, worldCupFinals } from './wc-head
 export type Faq = { q: string; a: string };
 
 const yearsEs = (ys: string[]) => (ys.length <= 1 ? ys.join('') : `${ys.slice(0, -1).join(', ')} y ${ys[ys.length - 1]}`);
-const ARTICLE: Record<string, string> = { third: 'el tercer puesto', fourth: 'el cuarto puesto', final: 'el subcampeonato', sf: 'las semifinales', qf: 'los cuartos de final', r16: 'los octavos de final', r32: 'los dieciseisavos de final' };
-const bestEs = (b: { stage: string; label: string }) => ARTICLE[b.stage] ?? `la ${b.label.toLowerCase()}`;
+const REACHED: Record<string, string> = {
+  third: 'terminó tercera', fourth: 'terminó cuarta', final: 'fue subcampeona', final_group: 'jugó la liguilla final',
+  sf: 'llegó a las semifinales', qf: 'llegó a los cuartos de final', r16: 'llegó a los octavos de final',
+  r32: 'llegó a los dieciseisavos de final', group2: 'llegó a la segunda fase',
+};
+const bestSentence = (b: { stage: string; year: string }) =>
+  REACHED[b.stage] ? ` Su mejor resultado fue en ${b.year}, cuando ${REACHED[b.stage]}.` : ' Nunca ha pasado de la fase de grupos.';
 const n = (x: number, one: string, many: string) => `${x} ${x === 1 ? one : many}`;
 
 /**
@@ -20,7 +25,7 @@ export function teamWorldCupFaq(name: string, codes: string[]): Faq[] {
   if (won.length > 0) {
     out.push({ q: `¿Cuántos Mundiales ha ganado ${name}?`, a: `${name} ha ganado ${n(won.length, 'Mundial', 'Mundiales')}: ${yearsEs(won)}.${lost.length ? ` Además, fue subcampeona en ${yearsEs(lost)}.` : ''}` });
   } else {
-    out.push({ q: `¿Ha ganado ${name} algún Mundial?`, a: `No, ${name} no ha ganado ningún Mundial.${best ? ` Su mejor resultado es ${bestEs(best)}, en ${best.year}.` : ''}${lost.length ? ` Jugó la final en ${yearsEs(lost)}.` : ''}` });
+    out.push({ q: `¿Ha ganado ${name} algún Mundial?`, a: `No, ${name} no ha ganado ningún Mundial.${lost.length ? ` Perdió la final en ${yearsEs(lost)}.` : best ? bestSentence(best) : ''}` });
   }
   if (r.wcCount > 0) {
     out.push({ q: `¿Cuántos Mundiales ha jugado ${name}?`, a: `${name} ha jugado ${n(r.wcCount, 'Mundial', 'Mundiales')}, con ${n(r.played, 'partido', 'partidos')}: ${n(r.wins, 'victoria', 'victorias')}, ${n(r.draws, 'empate', 'empates')} y ${n(r.losses, 'derrota', 'derrotas')}.` });
