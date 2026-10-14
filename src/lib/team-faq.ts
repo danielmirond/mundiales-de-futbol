@@ -31,7 +31,7 @@ export function teamWorldCupFaq(name: string, codes: string[]): Faq[] {
     out.push({ q: `¿Cuántos Mundiales ha jugado ${name}?`, a: `${name} ha jugado ${n(r.wcCount, 'Mundial', 'Mundiales')}, con ${n(r.played, 'partido', 'partidos')}: ${n(r.wins, 'victoria', 'victorias')}, ${n(r.draws, 'empate', 'empates')} y ${n(r.losses, 'derrota', 'derrotas')}.` });
   }
   if (best && won.length > 0) {
-    out.push({ q: `¿Cuál es el mejor resultado de ${name} en un Mundial?`, a: `El mejor resultado de ${name} es campeona del mundo, en ${yearsEs(won)}.` });
+    out.push({ q: `¿Cuál es el mejor resultado de ${name} en un Mundial?`, a: `El mejor resultado de ${name} es el título mundial, que ganó en ${yearsEs(won)}.` });
   }
   if (r.played > 0) {
     const diff = r.goalsFor - r.goalsAgainst;
