@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import type { YtVideo } from '@/lib/youtube';
+import { uploadsPlaylist, type YtVideo } from '@/lib/youtube';
 
 const dateEs = (iso: string) => {
   const d = new Date(iso);
@@ -48,6 +48,39 @@ export function YouTubeCarousel({ videos, channelUrl, team }: { videos: YtVideo[
             </figcaption>
           </figure>
         ))}
+      </div>
+      {channelUrl && (
+        <a href={channelUrl} target="_blank" rel="noopener" className="mt-3 inline-flex items-center gap-2 text-sm font-semibold text-[var(--accent-ink)] hover:underline">Canal oficial de {team} en YouTube →</a>
+      )}
+    </div>
+  );
+}
+
+/** Sin lista de vídeos: reproductor con las últimas subidas del canal, cargado al pulsar. */
+export function ChannelPlaylist({ channelId, channelUrl, team, color }: { channelId: string; channelUrl?: string; team: string; color?: string }) {
+  const [open, setOpen] = useState(false);
+  return (
+    <div className="max-w-[860px]">
+      <div className="relative aspect-video overflow-hidden rounded-[18px] border border-[var(--color-border)] bg-[var(--color-bg-2)]">
+        {open ? (
+          <iframe
+            src={`https://www.youtube-nocookie.com/embed/videoseries?list=${uploadsPlaylist(channelId)}&autoplay=1&rel=0`}
+            title={`Últimos vídeos de ${team}`}
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            referrerPolicy="strict-origin-when-cross-origin"
+            className="absolute inset-0 h-full w-full"
+          />
+        ) : (
+          <button type="button" onClick={() => setOpen(true)} className="group absolute inset-0 grid place-items-center" style={color ? { background: `linear-gradient(135deg, #${color}55, transparent 70%)` } : undefined} aria-label={`Ver los últimos vídeos de ${team}`}>
+            <span className="flex flex-col items-center gap-3">
+              <span className="grid h-16 w-16 place-items-center rounded-full bg-black/70 text-white transition-transform group-hover:scale-105">
+                <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor" aria-hidden><path d="M8 5v14l11-7z" /></svg>
+              </span>
+              <span className="text-sm font-semibold text-[var(--color-fg)]">Ver los últimos vídeos de {team}</span>
+            </span>
+          </button>
+        )}
       </div>
       {channelUrl && (
         <a href={channelUrl} target="_blank" rel="noopener" className="mt-3 inline-flex items-center gap-2 text-sm font-semibold text-[var(--accent-ink)] hover:underline">Canal oficial de {team} en YouTube →</a>

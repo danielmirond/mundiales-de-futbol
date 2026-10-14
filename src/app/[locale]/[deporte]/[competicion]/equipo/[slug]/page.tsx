@@ -14,7 +14,7 @@ import { TeamTabs } from '@/components/portal/team-tabs';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl } from '@/lib/seo';
 import { clubFacts } from '@/lib/thesportsdb';
 import { fetchChannelVideos } from '@/lib/youtube';
-import { YouTubeCarousel } from '@/components/team/youtube-carousel';
+import { YouTubeCarousel, ChannelPlaylist } from '@/components/team/youtube-carousel';
 
 // Regeneración periódica (ISR): rápida y estable sin pedir a las fuentes en cada visita.
 export const revalidate = 900;
@@ -225,11 +225,15 @@ export default async function EquipoPage({ params }: { params: Params }) {
       </section>
 
       {/* Vídeos del canal oficial */}
-      {videos.length > 0 && (
+      {club?.youtubeChannelId && (
         <section className="mx-auto w-full max-w-[1400px] px-6 pb-12 md:px-10">
           <div className="kicker">Vídeos</div>
           <h2 className="t-h2 mt-3 text-[var(--color-fg)]">Lo último del canal de {ref.name}</h2>
-          <div className="mt-5"><YouTubeCarousel videos={videos} channelUrl={social.youtube} team={ref.name} /></div>
+          <div className="mt-5">
+            {videos.length > 0
+              ? <YouTubeCarousel videos={videos} channelUrl={social.youtube} team={ref.name} />
+              : <ChannelPlaylist channelId={club.youtubeChannelId} channelUrl={social.youtube} team={ref.name} color={clubColor} />}
+          </div>
         </section>
       )}
 
