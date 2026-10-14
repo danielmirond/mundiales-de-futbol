@@ -14,6 +14,9 @@ import { JsonLd, pageMetadata, breadcrumbLd, localeUrl } from '@/lib/seo';
 
 // Regeneración periódica (ISR): rápida y estable sin pedir a las fuentes en cada visita.
 export const revalidate = 60;
+// Sin prerender en build: cada URL se genera en la primera visita y queda en caché (ISR).
+export const dynamicParams = true;
+export async function generateStaticParams() { return []; }
 
 const withLocale = (l: Locale, h: string) => (l === routing.defaultLocale ? h : `/${l}${h}`);
 const SAFE_ID = /^[0-9]{5,12}$/;

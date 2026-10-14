@@ -9,6 +9,9 @@ import { pageMetadata } from '@/lib/seo';
 
 // Regeneración periódica (ISR): rápida y estable sin pedir a las fuentes en cada visita.
 export const revalidate = 600;
+// Sin prerender en build: cada URL se genera en la primera visita y queda en caché (ISR).
+export const dynamicParams = true;
+export async function generateStaticParams() { return []; }
 type Params = Promise<{ locale: string; deporte: string; competicion: string }>;
 
 export async function generateMetadata({ params }: { params: Params }) {

@@ -14,6 +14,9 @@ import { pageMetadata } from '@/lib/seo';
 
 // Regeneración periódica (ISR): rápida y estable sin pedir a las fuentes en cada visita.
 export const revalidate = 300;
+// Sin prerender en build: cada URL se genera en la primera visita y queda en caché (ISR).
+export const dynamicParams = true;
+export async function generateStaticParams() { return []; }
 type Params = Promise<{ locale: string; deporte: string; competicion: string }>;
 const timeFmt = new Intl.DateTimeFormat('es-ES', { timeZone: 'Europe/Madrid', weekday: 'short', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit', hourCycle: 'h23' });
 

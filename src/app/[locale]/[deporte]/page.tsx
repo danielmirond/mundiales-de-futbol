@@ -11,6 +11,9 @@ import { JsonLd, pageMetadata, breadcrumbLd } from '@/lib/seo';
 
 // Regeneración periódica (ISR): rápida y estable sin pedir a las fuentes en cada visita.
 export const revalidate = 300;
+// Sin prerender en build: cada URL se genera en la primera visita y queda en caché (ISR).
+export const dynamicParams = true;
+export async function generateStaticParams() { return []; }
 
 const withLocale = (l: Locale, h: string) => (l === routing.defaultLocale ? h : `/${l}${h}`);
 
