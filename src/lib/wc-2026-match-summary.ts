@@ -271,7 +271,7 @@ export async function fetchEventSummary(
       events.push({
         minute: [periodLabel(k.period?.number), espn.sport === 'baseball' ? '' : k.clock?.displayValue].filter(Boolean).join(' · '),
         kind: 'goal',
-        type: `${typeUs(k.type?.text ?? 'Anotación')}${k.homeScore != null ? ` (${k.awayScore}-${k.homeScore})` : ''}`,
+        type: `${typeUs(k.type?.text ?? 'Anotación')}${k.homeScore != null ? ` (${k.homeScore}-${k.awayScore})` : ''}`,
         side: idToSide.get(String(k.team?.id)) ?? null,
         players: [],
         text: k.text ?? '',

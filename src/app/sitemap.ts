@@ -13,6 +13,7 @@ import { routing } from '@/i18n/routing';
 import { SPORTS, COMPETITIONS } from '@/lib/competitions';
 import { fetchTeams } from '@/lib/espn-team';
 import { getSportapiSnapshot } from '@/lib/sportapi';
+import { fetchLeaders } from '@/lib/leaders';
 
 /**
  * Páginas de récords disponibles en /records/[slug]. Lista cerrada
@@ -125,6 +126,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     const official = getSportapiSnapshot().competitions[c.slug];
     if (official) for (let n = 1; n <= Math.min(official.totalRounds, official.currentRound); n++) out.push(entry(`/${c.sport}/${c.slug}/resultados/jornada-${n}`, now, 'weekly', 0.5));
   }
+  // Fichas de jugador: los 30 máximos goleadores de las ligas de fútbol principales.
+  const scorerLeagues = COMPETITIONS.filter((c) => c.espn && c.sport === 'futbol' && ['laliga', 'premier-league', 'serie-a', 'bundesliga', 'ligue-1', 'champions-league', 'laliga-2', 'liga-f'].includes(c.slug));
+  const scorerLists = await Promise.all(scorerLeagues.map(async (c) => ({ c, l: await fetchLeaders(c, 30).catch(() => ({ goals: [], assists: [] })) })));
+  for (const { c, l } of scorerLists) for (const p of l.goals) if (p.athleteId) out.push(entry(`/${c.sport}/${c.slug}/jugador/${p.athleteId}`, now, 'weekly', 0.5));
   // Fichas de equipo de las ligas (y sus subpáginas): una llamada ESPN por liga, cacheada 24 h.
   const leagues = COMPETITIONS.filter((c) => c.espn && !c.href && c.kind === 'liga' && c.hasStandings);
   const teamLists = await Promise.all(leagues.map(async (c) => ({ c, teams: await fetchTeams(c).catch(() => []) })));
