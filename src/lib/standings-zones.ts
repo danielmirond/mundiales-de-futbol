@@ -24,6 +24,12 @@ export const ZONES: Record<string, ZoneDef[]> = {
   'serie-a': BIG5(4, 1, 1, [18, 20]),
   bundesliga: BIG5(4, 1, 1, [16, 18]),
   'ligue-1': BIG5(3, 1, 1, [16, 18]),
+  'liga-f': [
+    { key: 'ucl', range: [1, 3], label: 'Champions' },
+    { key: 'down', range: [15, 16], label: 'Descenso' },
+  ],
+  eredivisie: BIG5(2, 1, 1, [17, 18]),
+  'primeira-liga': BIG5(2, 1, 1, [17, 18]),
   'laliga-2': [
     { key: 'up', range: [1, 2], label: 'Ascenso directo' },
     { key: 'playoff', range: [3, 6], label: 'Playoff de ascenso' },
