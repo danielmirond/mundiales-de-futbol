@@ -124,6 +124,291 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'cronica-lens-sporting-401915418',
+    title: "Sporting gana fuera 2-0 a Lens y es 2.º",
+    summary: "Sporting suma tres puntos ante Lens (2-0) en Champions League y es 2.º con 6 puntos; Lens se queda 19.º.",
+    body: `Sporting se impuso 2-0 a Lens en Champions League.
+
+## Los goles
+
+Los goles: Luis Suárez (22', Sporting) y Issa Doumbia (74', Sporting).
+
+## La tabla
+
+Tras el partido, Lens 19.º con 3 puntos y Sporting 2.º con 6 puntos en la [clasificación de Champions](/futbol/champions-league).
+
+## Lo que viene
+
+Lo que viene. Lens: visita a Club Brugge el miércoles 21 de octubre. Sporting: recibe a LASK Linz el miércoles 21 de octubre. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/champions-league/partido/401915418).`,
+    category: 'general',
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915418",
+    sourceLang: 'en',
+    publishedAt: '2026-10-14T00:35:23.721Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Maquette_Stade_Bollaert-Delelis_2015.jpg/1920px-Maquette_Stade_Bollaert-Delelis_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Stade Bollaert-Delelis, donde se jugó el Lens - Sporting",
+      credit: "Supporterhéninois · CC0 · Wikimedia Commons",
+      license: "CC0",
+    },
+  },
+  {
+    slug: 'cronica-villarreal-napoli-401915410',
+    title: "Villarreal 3 Napoli 1: 4 goles, Villarreal 10.º y posesión del 52 % para Villarreal",
+    summary: "Santiago Mouriño marcó en el 26' el gol que puso por delante a Villarreal, que ya no soltó la ventaja: 3-1 final ante Napoli en Champions League. Claves: 4 goles, Villarreal 10.º y posesión del 52 % para Villarreal.",
+    body: `Santiago Mouriño marcó en el 26' el gol que puso por delante a Villarreal, que ya no soltó la ventaja: 3-1 final ante Napoli en Champions League.
+
+## Amir Rrahmani decidió
+
+Marcaron Amir Rrahmani (8', Napoli), Georges Mikautadze (23', Villarreal), Santiago Mouriño (26', Villarreal) y Tani Oluwaseyi (86', Villarreal).
+
+## Los números del partido
+
+La posesión fue 52 %-48 % para Villarreal. En remates, 17 de Villarreal (4 a puerta) por 11 de Napoli (3). Córners: 4 por 4.
+
+## Qué cambia en la tabla
+
+Tras el partido, Villarreal 10.º con 3 puntos y Napoli 31.º con 0 puntos en la [clasificación de Champions](/futbol/champions-league).
+
+## Qué viene ahora
+
+Lo que viene. Villarreal: visita a Liverpool el martes 20 de octubre. Napoli: recibe a Bodo/Glimt el martes 20 de octubre. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/champions-league/partido/401915410).`,
+    category: 'general',
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915410",
+    sourceLang: 'en',
+    publishedAt: '2026-10-14T00:35:23.721Z',
+    author: "Redacción Mundiales de Fútbol",
+  },
+  {
+    slug: 'cronica-viking-fk-bayern-401915411',
+    title: "Viking FK y Bayern firman tablas (3-3) en Champions",
+    summary: "Gianni Stensness marcó en el Viking FK 3-3 Bayern de Champions League.",
+    body: `Acabó 3-3. En el marcador, Gianni Stensness (2', Viking FK), Peter Christiansen (38', Viking FK), Harry Kane (60', Bayern), Luis Díaz (71', Bayern) y Herman Haugen (90', Viking FK).
+
+## En cifras
+
+Viking FK manejó el balón (35 % por 66 %) y tiró 8 veces, 5 entre los tres palos; Bayern se quedó en 25 remates (8 a puerta). Córners: 7 por 15.
+
+## La clasificación
+
+Tras el partido, Viking FK 26.º con 1 puntos y Bayern 4.º con 4 puntos en la [clasificación de Champions](/futbol/champions-league).
+
+Ficha: 5 amarillas · expulsado: Michael Olise · 10 cambios. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/champions-league/partido/401915411).`,
+    category: 'general',
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915411",
+    sourceLang: 'en',
+    publishedAt: '2026-10-14T00:35:23.721Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Viking_Stadion1.jpg/1920px-Viking_Stadion1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Viking Stadion, donde se jugó el Viking FK - Bayern",
+      credit: "Simenhjort · CC BY-SA 3.0 · Wikimedia Commons",
+      license: "CC BY-SA 3.0",
+    },
+  },
+  {
+    slug: 'cronica-rb-leipzig-psv-401915434',
+    title: "RB Leipzig se impone a PSV (1-0) con gol de Brajan Gruda en Champions",
+    summary: "Brajan Gruda marcó; PSV remató 11 veces (5 a puerta) en el RB Leipzig 1-0 PSV de Champions League.",
+    body: `Acabó ganando RB Leipzig 1-0, con gol de Brajan Gruda. Los goles: Brajan Gruda (75', RB Leipzig).
+
+## En cifras
+
+RB Leipzig tuvo el 43 % de la posesión por el 57 % de PSV; remató 19 veces (7 a puerta) frente a 11 (5) del rival. Córners: 6 por 13.
+
+## La clasificación
+
+Tras el partido, RB Leipzig 20.º con 3 puntos y PSV 25.º con 1 puntos en la [clasificación de Champions](/futbol/champions-league).
+
+Ficha: 3 amarillas · 8 cambios. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/champions-league/partido/401915434).`,
+    category: 'general',
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915434",
+    sourceLang: 'en',
+    publishedAt: '2026-10-14T00:35:23.721Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Red_Bull_Arena_Wals-Siezenheim_FC_Red_Bull_Salzburg_1_-_0_Atl%C3%A9tico_Madrid.jpg/1920px-Red_Bull_Arena_Wals-Siezenheim_FC_Red_Bull_Salzburg_1_-_0_Atl%C3%A9tico_Madrid.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Red Bull Arena, donde se jugó el RB Leipzig - PSV",
+      credit: "Fussballaustria · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'cronica-inter-milan-club-brugge-401915413',
+    title: "Club Brugge se impone a Inter Milan (4-3) con doblete de Lautaro Martínez en Champions",
+    summary: "Lautaro Martínez marcó 2; Inter Milan remató 30 veces (12 a puerta) en el Club Brugge 4-3 Inter Milan de Champions League.",
+    body: `Acabó ganando Club Brugge 4-3, con doblete de Lautaro Martínez. Los goles: Lautaro Martínez (44', Inter Milan), Nicolo Tresoldi (63', Club Brugge), Nicolo Tresoldi (74', Club Brugge), Lautaro Martínez (81', Inter Milan), Romeo Vermant (87', Club Brugge) y Ange-Yoan Bonny (90'+3', Inter Milan).
+
+## En cifras
+
+Inter Milan tuvo el 53 % de la posesión por el 47 % de Club Brugge; remató 30 veces (12 a puerta) frente a 18 (8) del rival. Córners: 4 por 4.
+
+## La clasificación
+
+Tras el partido, Inter Milan 28.º con 0 puntos y Club Brugge 18.º con 3 puntos en la [clasificación de Champions](/futbol/champions-league).
+
+Ficha: 6 amarillas · 10 cambios. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/champions-league/partido/401915413).`,
+    category: 'general',
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915413",
+    sourceLang: 'en',
+    publishedAt: '2026-10-14T00:35:23.721Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Stadio_Giuseppe_Meazza_%28San_Siro%29%2C_Milan%2C_May_2018_%2801%29.jpg/1920px-Stadio_Giuseppe_Meazza_%28San_Siro%29%2C_Milan%2C_May_2018_%2801%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "San Siro, donde se jugó el Inter Milan - Club Brugge",
+      credit: "Ardfern · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'cronica-galatasaray-barcelona-401915435',
+    title: "Fermín López guía a Barcelona ante Galatasaray (4-1) y lo deja 1.º en Champions",
+    summary: "Barcelona 4-1 Galatasaray en Champions League: Fermín López marcó. Galatasaray 29 % de posesión y 5 remates; Barcelona 71 % y 22.",
+    body: `## Resumen
+
+Barcelona ganó 4-1 a Galatasaray en Champions League.
+
+## Los goles
+
+- 28' · Alexey Batrakov (Galatasaray)
+- 43' · João Cancelo (Barcelona)
+- 50' · Fermín López (Barcelona)
+- 53' · Anthony Gordon (Barcelona)
+- 65' · Karim Adeyemi (Barcelona)
+
+## El dato
+
+Galatasaray 29 % de posesión y 5 remates; Barcelona 71 % y 22.
+
+## Lo que viene
+
+Lo que viene. Galatasaray: visita a Lille el miércoles 21 de octubre. Barcelona: visita a PSG el martes 20 de octubre.
+
+**Lee también:** la [ficha del partido](/futbol/champions-league/partido/401915435) con alineaciones y narración · la [clasificación de Champions](/futbol/champions-league) · [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915435",
+    sourceLang: 'en',
+    publishedAt: '2026-10-14T00:35:23.721Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Ali_Sami_Yen_Spor_Kompleksi_Aslanl%C4%B1_Yol_Y%C3%BCzevler_Restaurant.JPG/1920px-Ali_Sami_Yen_Spor_Kompleksi_Aslanl%C4%B1_Yol_Y%C3%BCzevler_Restaurant.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "RAMS Park, donde se jugó el Galatasaray - Barcelona",
+      credit: "LardoBalsamico · CC BY-SA 3.0 · Wikimedia Commons",
+      license: "CC BY-SA 3.0",
+    },
+  },
+  {
+    slug: 'cronica-atletico-man-united-401915412',
+    title: "Atlético 2 Man United 0: goles de Pablo Barrios y Ademola Lookman y Atlético 13.º",
+    summary: "Pablo Barrios marcó en el 1' el gol que puso por delante a Atlético, que ya no soltó la ventaja: 2-0 final ante Man United en Champions League. Claves: goles de Pablo Barrios y Ademola Lookman, Atlético 13.º y posesión del 58 % para Atlético.",
+    body: `Pablo Barrios marcó en el 1' el gol que puso por delante a Atlético, que ya no soltó la ventaja: 2-0 final ante Man United en Champions League.
+
+## Pablo Barrios decidió
+
+En el marcador, Pablo Barrios (1', Atlético) y Ademola Lookman (79', Atlético). Expulsados: Leny Yoro.
+
+## Los números del partido
+
+Atlético manejó el balón (58 % por 42 %) y tiró 11 veces, 5 entre los tres palos; Man United se quedó en 9 remates (4 a puerta). Córners: 2 por 5.
+
+## Qué cambia en la tabla
+
+Tras el partido, Atlético 13.º con 3 puntos y Man United 7.º con 3 puntos en la [clasificación de Champions](/futbol/champions-league).
+
+## Qué viene ahora
+
+Lo que viene. Atlético: visita a Stuttgart el martes 20 de octubre. Man United: visita a Como el miércoles 21 de octubre. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/champions-league/partido/401915412).`,
+    category: 'general',
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915412",
+    sourceLang: 'en',
+    publishedAt: '2026-10-14T00:35:23.721Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Estadio_Metropolitano_de_Madrid.jpg/1920px-Estadio_Metropolitano_de_Madrid.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Riyadh Air Metropolitano, donde se jugó el Atlético - Man United",
+      credit: "Fabian Vidal · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'cronica-arsenal-lille-401915417',
+    title: "Jurriën Timber guía a Arsenal ante Lille (3-0) y lo deja 3.º en Champions",
+    summary: "Arsenal 3-0 Lille en Champions League: Jurriën Timber marcó. Arsenal 58 % de posesión y 16 remates; Lille 42 % y 4.",
+    body: `## Resumen
+
+Arsenal ganó 3-0 a Lille en Champions League.
+
+## Los goles
+
+- 64' · Jurriën Timber (Arsenal)
+- 67' · Eberechi Eze (Arsenal)
+- 71' · Bukayo Saka (Arsenal)
+
+## El dato
+
+Arsenal 58 % de posesión y 16 remates; Lille 42 % y 4.
+
+## Lo que viene
+
+Lo que viene. Arsenal: visita a Bayern el miércoles 21 de octubre. Lille: recibe a Galatasaray el miércoles 21 de octubre.
+
+**Lee también:** la [ficha del partido](/futbol/champions-league/partido/401915417) con alineaciones y narración · la [clasificación de Champions](/futbol/champions-league) · [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915417",
+    sourceLang: 'en',
+    publishedAt: '2026-10-14T00:35:23.721Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/7/7e/The_Emirates_Stadium_-_geograph.org.uk_-_2253542.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      alt: "Emirates Stadium, donde se jugó el Arsenal - Lille",
+      credit: "Martin Addison · CC BY-SA 2.0 · Wikimedia Commons",
+      license: "CC BY-SA 2.0",
+    },
+  },
+  {
+    slug: 'partidos-futbol-hoy-2026-10-14',
+    title: "Partidos de fútbol hoy, miércoles 14 de octubre: horarios y dónde ver Champions",
+    summary: "Agenda de fútbol de hoy miércoles 14 de octubre: 9 partidos con horario en hora española y canal de televisión. Destaca Feyenoord - Como.",
+    body: `9 partidos de fútbol para miércoles 14 de octubre. Repasamos qué se juega, a qué hora y en qué canal, sin más vueltas. El partido que más miradas reúne es el **[Feyenoord - Como](/futbol/champions-league/partido/401915416)** (Champions League, 18:45 h).
+
+## Champions League
+
+- **[Feyenoord - Como](/futbol/champions-league/partido/401915416)** — 18:45 h · 📺 M+ Liga de Campeones 3
+- **[LASK Linz - Liverpool](/futbol/champions-league/partido/401915415)** — 18:45 h · 📺 M+ Liga de Campeones 2
+- **[AS Roma - Real Madrid](/futbol/champions-league/partido/401915414)** — 21:00 h · 📺 M+ Liga de Campeones / M+ Liga de Campeones 4
+- **[Aston Villa - Fenerbahce](/futbol/champions-league/partido/401915409)** — 21:00 h · 📺 M+ Liga de Campeones 4 / M+ Liga de Campeones 5
+- **[Bodo/Glimt - Dortmund](/futbol/champions-league/partido/401915393)** — 21:00 h
+- **[Man City - PSG](/futbol/champions-league/partido/401915407)** — 21:00 h · 📺 M+ Liga de Campeones 2
+- **[Betis - FC Porto](/futbol/champions-league/partido/401915408)** — 21:00 h · 📺 M+ Liga de Campeones
+- **[Shakhtar - AEK Athens](/futbol/champions-league/partido/401915406)** — 21:00 h · 📺 M+ Liga de Campeones 4 / M+ Liga de Campeones 6
+- **[S Bratislava - Stuttgart](/futbol/champions-league/partido/401915405)** — 21:00 h · 📺 M+ Liga de Campeones 4 / M+ Liga de Campeones 8
+
+Calendario y clasificación en la [página de Champions](/futbol/champions-league).
+
+Todos los horarios están en hora peninsular. Los marcadores se actualizan en directo en cada ficha de partido. Toda la jornada, con marcadores en directo, en [partidos de hoy](/partidos-hoy).`,
+    category: 'tv',
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915416",
+    sourceLang: 'en',
+    publishedAt: '2026-10-14T00:35:23.721Z',
+    modifiedAt: '2026-10-14T00:35:23.721Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Stadion_Feijenoord_%2847370317351%29.jpg/1920px-Stadion_Feijenoord_%2847370317351%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "De Kuip, escenario del Feyenoord - Como",
+      credit: "Daniel from Glasgow, United Kingdom · CC BY 2.0 · Wikimedia Commons",
+      license: "CC BY 2.0",
+    },
+  },
+  {
     slug: 'previa-man-city-psg-401915407',
     title: "Man City - PSG: horario, dónde ver y cómo llegan al partido de Champions",
     summary: "Man City recibe a PSG este miércoles 14 de octubre (21:00 h, Etihad Stadium) en Champions League. Man City es 8.º y PSG, 1.º. TV: M+ Liga de Campeones 2.",
