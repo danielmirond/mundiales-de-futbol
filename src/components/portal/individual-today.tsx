@@ -33,7 +33,7 @@ export async function IndividualToday({ locale }: { locale: Locale }) {
         {w && (
           <Link href={withLocale(locale, '/motor/formula-1')} data-sport="motor" className="group grid content-start gap-3 rounded-[18px] border border-[var(--color-border)] bg-[var(--color-bg-2)] p-5 transition-colors hover:border-[var(--accent)]">
             <span className="flex items-center gap-2"><span className="grid h-9 w-9 place-items-center rounded-[10px] bg-[color-mix(in_oklab,var(--accent)_16%,transparent)] text-[var(--accent)]"><Icon name="motor" size={20} /></span><span className="kicker">Fórmula 1</span></span>
-            <span className="text-[17px] font-semibold text-[var(--color-fg)] group-hover:text-[var(--accent-ink)]">{nextSession ? w.name : nextGp?.name ?? w.name}</span>
+            <span className="text-[17px] font-semibold text-[var(--color-fg)] group-hover:text-[var(--accent-ink)]">{w.name}</span>
             {nextSession ? (
               <span className="text-sm text-[var(--color-fg-muted)]">{nextSession.state === 'in' ? <span className="inline-flex items-center gap-2 text-[var(--color-live-ink)]"><i className="pulse" />{nextSession.label} en curso</span> : `${nextSession.label}: ${dayTime.format(new Date(nextSession.date))}`}</span>
             ) : lastSession?.top[0] ? (

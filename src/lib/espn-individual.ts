@@ -19,7 +19,7 @@ const WEIGHT_ES: Record<string, string> = {
   Flyweight: 'Peso mosca', Bantamweight: 'Peso gallo', Featherweight: 'Peso pluma', Lightweight: 'Peso ligero', Welterweight: 'Peso wélter',
   Middleweight: 'Peso medio', 'Light Heavyweight': 'Peso semipesado', Heavyweight: 'Peso pesado', Strawweight: 'Peso paja', Catchweight: 'Peso pactado',
 };
-const weightEs = (w: string) => { const women = /^women'?s\s+/i.test(w); const base = w.replace(/^women'?s\s+/i, '').trim(); return `${WEIGHT_ES[base] ?? base}${women ? ' femenino' : ''}`; };
+const weightEs = (w: string) => { const women = /^(women'?s|w)\s+/i.test(w); const base = w.replace(/^(women'?s|w)\s+/i, '').trim(); return `${WEIGHT_ES[base] ?? base}${women ? ' femenino' : ''}`; };
 const DETAIL_ES: [RegExp, string][] = [[/^final$/i, 'Final'], [/^ko\/tko/i, 'KO/TKO'], [/submission/i, 'Sumisión'], [/decision/i, 'Decisión'], [/scheduled/i, 'Programado']];
 const detailEs = (d: string) => { for (const [re, es] of DETAIL_ES) if (re.test(d)) return d.replace(re, es); return d; };
 

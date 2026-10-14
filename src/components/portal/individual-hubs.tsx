@@ -53,7 +53,7 @@ export async function GolfHub({ comp }: { comp: Competition }) {
               </table>
             </div>
           ) : (
-            <p className="mt-6 text-sm text-[var(--color-fg-muted)]">La tabla aparecerá cuando empiece la primera vuelta{event.rows.length ? `. Inscritos: ${event.rows.length}+ jugadores` : ''}.</p>
+            <p className="mt-6 text-sm text-[var(--color-fg-muted)]">La tabla aparecerá cuando empiece la primera vuelta.</p>
           )}
         </section>
       )}
