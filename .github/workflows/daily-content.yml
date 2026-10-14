@@ -32,11 +32,11 @@ jobs:
       - uses: actions/setup-node@v4
         with: { node-version: '20', cache: 'npm' }
       - run: npm ci
-      - name: Snapshot SportAPI (jornadas oficiales y bajas; 50 peticiones/día)
-        if: ${{ env.RAPIDAPI_SPORTAPI_KEY != '' }}
+      - name: Snapshot SportAPI (jornadas oficiales; 50 peticiones al MES, solo lunes por la mañana)
+        if: ${{ env.RAPIDAPI_SPORTAPI_KEY != '' && github.event.schedule == '40 6 * * *' }}
         env:
           RAPIDAPI_SPORTAPI_KEY: ${{ secrets.RAPIDAPI_SPORTAPI_KEY }}
-        run: npx tsx scripts/sportapi/snapshot.ts --budget 20 --comps laliga,champions-league --lineups || echo 'SportAPI sin cambios'
+        run: npx tsx scripts/sportapi/snapshot.ts --budget 8 --comps laliga,champions-league --weekday 1 || echo 'SportAPI sin cambios'
       - name: Snapshot OpenACB (Liga Endesa, estadísticas semanales)
         run: npx tsx scripts/openacb/snapshot.ts || echo 'OpenACB sin cambios'
       - name: Generar piezas

@@ -1,8 +1,10 @@
 /**
- * Snapshot diario de SportAPI dentro del presupuesto del plan (50/día):
+ * Snapshot de SportAPI dentro del presupuesto del plan de prueba (50 peticiones AL MES;
+ * la cabecera x-ratelimit-requests-reset marca ~30 días):
  *   --budget N   peticiones máximas en esta ejecución (por defecto 40)
  *   --comps a,b  competiciones (por defecto laliga,champions-league)
  *   --lineups    además, bajas de los partidos de las próximas 30 h
+ *   --weekday N  solo se ejecuta ese día de la semana (Madrid; 1 = lunes)
  *
  * Estrategia: 1 llamada para la temporada, 1 para las jornadas, y después
  * las jornadas que falten en el snapshot (de la actual hacia fuera), más la
@@ -22,6 +24,11 @@ const COMPS = opt('--comps', 'laliga,champions-league').split(',').map((s) => s.
 const WANT_LINEUPS = args.includes('--lineups');
 
 if (!KEY) { console.error('Falta RAPIDAPI_SPORTAPI_KEY'); process.exit(1); }
+const WEEKDAY = args.includes('--weekday') ? Number(opt('--weekday', '1')) : null;
+if (WEEKDAY != null) {
+  const dow = new Date(new Date().toLocaleString('en-US', { timeZone: 'Europe/Madrid' })).getDay();
+  if (dow !== WEEKDAY) { console.log(`SportAPI: hoy no toca (solo el día ${WEEKDAY}).`); process.exit(0); }
+}
 
 let used = 0; let remaining = Infinity;
 async function get<T>(path: string): Promise<T | null> {
