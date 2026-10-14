@@ -1,0 +1,530 @@
+{
+ "updatedAt": "2026-10-14T18:07:20.516Z",
+ "source": "https://www.thesportsdb.com",
+ "teams": {
+  "soccer:96": {
+   "tsdbId": "134221",
+   "formed": 1921,
+   "alternate": [
+    "Alavés"
+   ],
+   "website": "https://www.deportivoalaves.com/es",
+   "social": {
+    "instagram": "https://instagram.com/deportivoalaves",
+    "x": "https://twitter.com/alaves",
+    "facebook": "https://www.facebook.com/deportivoalaves",
+    "youtube": "https://www.youtube.com/user/deportivoalaves1921"
+   },
+   "checkedAt": "2026-10-14T18:05:52.271Z",
+   "youtubeChannelId": "UC5yHOZPDde9RWodH5bn4QgA",
+   "venue": {
+    "name": "Estadio de Mendizorroza",
+    "alternate": [
+     "Mendizorrotza Stadium"
+    ],
+    "capacity": 19840,
+    "opened": 1924,
+    "location": "Vitoria-Gasteiz, Spain"
+   }
+  },
+  "soccer:93": {
+   "tsdbId": "133727",
+   "formed": 1898,
+   "alternate": [
+    "Ath Bilbao",
+    "Athletic Club",
+    "Athletic"
+   ],
+   "website": "https://www.athletic-club.eus",
+   "social": {
+    "instagram": "https://instagram.com/athleticclub?ref=badge",
+    "x": "https://www.twitter.com/AthleticClub",
+    "facebook": "https://www.facebook.com/athleticclub",
+    "youtube": "https://www.youtube.com/user/TVAthleticClub"
+   },
+   "checkedAt": "2026-10-14T18:06:00.632Z",
+   "youtubeChannelId": "UCUiLE_NqFKarAXFhhmXiIFA",
+   "venue": {
+    "name": "San Mamés Barria",
+    "alternate": [
+     "Nuevo San Mamés"
+    ],
+    "capacity": 53331,
+    "opened": 2013,
+    "location": "Bilbao",
+    "lat": 43.2643,
+    "lng": -2.9504
+   }
+  },
+  "soccer:1068": {
+   "tsdbId": "133729",
+   "formed": 1903,
+   "alternate": [
+    "Club Atlético de Madrid",
+    "Atlético de Madrid",
+    "Atléti"
+   ],
+   "website": "https://www.atleticodemadrid.com",
+   "social": {
+    "instagram": "https://www.instagram.com/atleticodemadrid",
+    "x": "https://www.twitter.com/atleti",
+    "facebook": "https://www.facebook.com/AtleticodeMadrid/",
+    "youtube": "https://www.youtube.com/user/clubatleticodemadrid"
+   },
+   "checkedAt": "2026-10-14T18:06:04.832Z",
+   "youtubeChannelId": "UCuzKFwdh7z2GHcIOX_tXgxA",
+   "venue": {
+    "name": "Riyadh Air Metropolitano",
+    "alternate": [
+     "Estadio Metropolitano",
+     "Estádio Cívitas Metropolitano"
+    ],
+    "capacity": 70460,
+    "opened": 1994,
+    "location": "Madrid",
+    "lat": 40.436111,
+    "lng": -3.599444
+   }
+  },
+  "soccer:83": {
+   "tsdbId": "133739",
+   "formed": 1899,
+   "alternate": [
+    "FC Barcelona"
+   ],
+   "website": "https://www.fcbarcelona.com",
+   "social": {
+    "instagram": "https://instagram.com/fcbarcelona",
+    "x": "https://twitter.com/fcbarcelona",
+    "facebook": "https://www.facebook.com/fcbarcelona",
+    "youtube": "https://www.youtube.com/user/fcbarcelona"
+   },
+   "checkedAt": "2026-10-14T18:06:09.035Z",
+   "youtubeChannelId": "UC14UlmYlSNiQCBe9Eookf_A",
+   "venue": {
+    "name": "Spotify Camp Nou",
+    "alternate": [
+     "Nou Camp"
+    ],
+    "capacity": 105000,
+    "opened": 1957,
+    "location": "Barcelona",
+    "lat": 41.380833,
+    "lng": 2.122778
+   }
+  },
+  "soccer:85": {
+   "tsdbId": "133937",
+   "formed": 1923,
+   "alternate": [
+    "Celta"
+   ],
+   "website": "https://rccelta.es",
+   "social": {
+    "instagram": "https://www.instagram.com/rccelta",
+    "x": "https://twitter.com/rcceltaen",
+    "facebook": "https://www.facebook.com/rccelta",
+    "youtube": "https://www.youtube.com/user/RealClubCeltadeVigo"
+   },
+   "checkedAt": "2026-10-14T18:06:13.233Z",
+   "youtubeChannelId": "UCCJLVZYqRb_85b2Flpg04cg",
+   "venue": {
+    "name": "Estadio Abanca-Balaídos",
+    "alternate": [
+     "Estadio Municipal de Atletismo de Balaídos"
+    ],
+    "capacity": 24870,
+    "opened": 1928,
+    "location": "Vigo, Galicia, Spain"
+   }
+  },
+  "soccer:90": {
+   "tsdbId": "133816",
+   "formed": 1906,
+   "alternate": [
+    "Real Club Deportivo de A Coruña",
+    "Deportivo de La Coruña",
+    "Deportivo da Coruña",
+    "Deportivo La Coruña",
+    "Deportivo A Coruña"
+   ],
+   "website": "https://www.canaldeportivo.com/equipo/rcdeportivo.html",
+   "social": {
+    "instagram": "https://www.instagram.com/rcdeportivo",
+    "x": "https://twitter.com/RCDeportivo",
+    "facebook": "https://www.facebook.com/RCDeportivo",
+    "youtube": "https://www.youtube.com/RCDeportivo"
+   },
+   "checkedAt": "2026-10-14T18:06:19.577Z",
+   "youtubeChannelId": "UCY2s1XaPzO60Hu6M_YZCTgA",
+   "venue": {
+    "name": "Estadio Abanca-Riazor",
+    "alternate": [
+     "Estadio Municipal de Riazor",
+     "Estadio Riazor"
+    ],
+    "capacity": 32490,
+    "opened": 1942,
+    "location": "A Coruña, Galicia",
+    "lat": 43.3687,
+    "lng": -8.4175
+   }
+  },
+  "soccer:3751": {
+   "tsdbId": "134384",
+   "formed": 1923,
+   "alternate": [
+    "Elche CF"
+   ],
+   "website": "https://www.elchecf.es",
+   "social": {
+    "instagram": "https://instagram.com/elchecfoficial",
+    "x": "https://twitter.com/elchecf",
+    "facebook": "https://www.facebook.com/elchecf",
+    "youtube": "https://www.youtube.com/elcheclubfutbolsad"
+   },
+   "checkedAt": "2026-10-14T18:06:23.733Z",
+   "youtubeChannelId": "UCeY_BssoWHlT-juP90UcZZg",
+   "venue": {
+    "name": "Estadio Martínez Valero",
+    "alternate": [
+     "Estadio Manuel Martínez Valero"
+    ],
+    "capacity": 31388,
+    "opened": 1976,
+    "location": "Elche, Spain"
+   }
+  },
+  "soccer:88": {
+   "tsdbId": "133734",
+   "formed": 1900,
+   "alternate": [
+    "Espanol",
+    "RCDE",
+    "RCD Espanyol"
+   ],
+   "website": "https://www.rcdespanyol.com",
+   "social": {
+    "instagram": "https://instagram.com/RCDEspanyol",
+    "x": "https://twitter.com/rcdespanyol",
+    "facebook": "https://www.facebook.com/pages/RCD-Espanyol-de-Barcelona-SAD/322865159833?ref=nf#!/pages/RCD-Espanyol-de-Barcelona-SAD/322865159833?ref=ts",
+    "youtube": "https://www.youtube.com/espanyoltv"
+   },
+   "checkedAt": "2026-10-14T18:06:27.937Z",
+   "youtubeChannelId": "UClywhnD01yUU5kO6OgAeHUQ",
+   "venue": {
+    "name": "RCDE Stadium",
+    "alternate": [
+     "Stage Front Stadium"
+    ],
+    "capacity": 40000,
+    "opened": 2005,
+    "location": "Stage Front Stadium"
+   }
+  },
+  "soccer:2922": {
+   "tsdbId": "133731",
+   "formed": 1946,
+   "alternate": [
+    "Getafe",
+    "Getafe Club de Fútbol",
+    "Getafe CF"
+   ],
+   "website": "https://www.getafecf.com",
+   "social": {
+    "x": "https://twitter.com/getafecf",
+    "youtube": "https://www.youtube.com/user/getafecdefsad"
+   },
+   "checkedAt": "2026-10-14T18:06:32.180Z",
+   "youtubeChannelId": "UC34fUqq4rxJc0cj5Hart0zQ",
+   "venue": {
+    "name": "Estadio Coliseum",
+    "alternate": [
+     "Coliseum Alfonso Pérez"
+    ],
+    "capacity": 16500,
+    "opened": 1998,
+    "location": "Getafe, Spain"
+   }
+  },
+  "soccer:1538": {
+   "tsdbId": "133732",
+   "formed": 1909,
+   "alternate": [
+    "Levante UD"
+   ],
+   "website": "https://www.levanteud.com",
+   "social": {
+    "instagram": "https://instagram.com/levanteud",
+    "x": "https://twitter.com/levanteud",
+    "facebook": "https://www.facebook.com/LevanteUD",
+    "youtube": "https://www.youtube.com/levanteud"
+   },
+   "checkedAt": "2026-10-14T18:06:36.379Z",
+   "youtubeChannelId": "UCvOegN2N1FGPPv4xBNN2F9A",
+   "venue": {
+    "name": "Estadio Ciudad de Valencia",
+    "alternate": [
+     "Estadi Ciutat de València"
+    ],
+    "capacity": 26354,
+    "opened": 1969,
+    "location": "Valencia, Spain"
+   }
+  },
+  "soccer:99": {
+   "tsdbId": "133736",
+   "formed": 1904,
+   "alternate": [
+    "Málaga Club de Fútbol"
+   ],
+   "website": "https://www.malagacf.com",
+   "social": {
+    "instagram": "https://www.instagram.com/malagacf",
+    "x": "https://twitter.com/MalagaCF",
+    "facebook": "https://www.facebook.com/MalagaCF",
+    "youtube": "https://www.youtube.com/malagacftv"
+   },
+   "checkedAt": "2026-10-14T18:06:40.597Z",
+   "youtubeChannelId": "UCo_PhWZulZooYfQRo00vU-Q",
+   "venue": {
+    "name": "Estadio La Rosaleda",
+    "alternate": [
+     "La Rosaleda"
+    ],
+    "capacity": 30044,
+    "opened": 1941,
+    "location": "Málaga, Andalucía"
+   }
+  },
+  "soccer:97": {
+   "tsdbId": "133730",
+   "formed": 1920,
+   "alternate": [
+    "Osasuna",
+    "Club Atlético Osasuna",
+    "CA Osasuna"
+   ],
+   "website": "https://www.osasuna.es",
+   "social": {
+    "instagram": "https://www.instagram.com/caosasuna",
+    "x": "https://twitter.com/CAOsasuna",
+    "facebook": "https://www.facebook.com/C.A.Osasuna.Oficial",
+    "youtube": "https://www.youtube.com/CAOsasunaTV"
+   },
+   "checkedAt": "2026-10-14T18:06:44.780Z",
+   "youtubeChannelId": "UC2JTagDPIChbcEeiLjypuYA",
+   "venue": {
+    "name": "Estadio El Sadar",
+    "alternate": [
+     "El Sadar Stadium",
+     "Estadio Reyno de Navarra"
+    ],
+    "capacity": 23516,
+    "opened": 1967,
+    "location": "Pamplona, Navarre",
+    "lat": 42.796667,
+    "lng": -1.636944
+   }
+  },
+  "soccer:87": {
+   "tsdbId": "133726",
+   "formed": 1913,
+   "alternate": [
+    "Real Racing Club de Santander",
+    "Racing Santander"
+   ],
+   "website": "https://www.realracingclub.es",
+   "social": {
+    "youtube": "https://www.youtube.com/channel/UCPkCdE745MkHLx8YWOwi8ew"
+   },
+   "checkedAt": "2026-10-14T18:06:49.000Z",
+   "youtubeChannelId": "UCPkCdE745MkHLx8YWOwi8ew",
+   "venue": {
+    "name": "Campos de Sport de El Sardinero",
+    "alternate": [
+     "El Sardinero"
+    ],
+    "capacity": 22308,
+    "opened": 1988,
+    "location": "Santander, Cantabria"
+   }
+  },
+  "soccer:101": {
+   "tsdbId": "133728",
+   "formed": 1924,
+   "alternate": [
+    "Rayo Vallecano de Madrid"
+   ],
+   "website": "https://www.rayovallecano.es",
+   "social": {
+    "instagram": "https://www.instagram.com/rayovallecano",
+    "x": "https://twitter.com/RayoVallecano",
+    "facebook": "https://www.facebook.com/rvmoficial",
+    "youtube": "https://www.youtube.com/user/rayovallecanotv"
+   },
+   "checkedAt": "2026-10-14T18:06:53.193Z",
+   "youtubeChannelId": "UCUTkI-vFAO7BjfpqIDFO8rQ",
+   "venue": {
+    "name": "Estadio de Vallecas",
+    "capacity": 14708,
+    "opened": 1976,
+    "location": "Puente de Vallecas, Madrid, Spain"
+   }
+  },
+  "soccer:244": {
+   "tsdbId": "133722",
+   "formed": 1907,
+   "alternate": [
+    "Betis"
+   ],
+   "website": "https://www.realbetisbalompie.es",
+   "social": {
+    "instagram": "https://www.instagram.com/realbetisbalompie",
+    "x": "https://twitter.com/RealBetis",
+    "facebook": "https://www.facebook.com/realbetisbalompie/",
+    "youtube": "https://www.youtube.com/user/realbetisoficial"
+   },
+   "checkedAt": "2026-10-14T18:06:57.385Z",
+   "youtubeChannelId": "UCeB7JZwcar2fVoK2w2f9OwA",
+   "venue": {
+    "name": "Estadio de La Cartuja",
+    "alternate": [
+     "Estadio Olímpico de Sevilla",
+     "Estadio La Cartuja de Sevilla"
+    ],
+    "capacity": 70000,
+    "opened": 1999,
+    "location": "Seville",
+    "lat": 37.417236,
+    "lng": -6.004564
+   }
+  },
+  "soccer:86": {
+   "tsdbId": "133738",
+   "formed": 1902,
+   "alternate": [
+    "Real Madrid"
+   ],
+   "website": "https://www.realmadrid.com",
+   "social": {
+    "instagram": "https://instagram.com/realmadrid",
+    "x": "https://www.twitter.com/realmadrid",
+    "facebook": "https://www.facebook.com/realmadrid",
+    "youtube": "https://www.youtube.com/user/realmadridcf"
+   },
+   "checkedAt": "2026-10-14T18:07:01.594Z",
+   "youtubeChannelId": "UCWV3obpZVGgJ3j9FVhEjF2Q",
+   "venue": {
+    "name": "Estadio Santiago Bernabéu",
+    "capacity": 81000,
+    "opened": 1947,
+    "location": "Madrid"
+   }
+  },
+  "soccer:89": {
+   "tsdbId": "133724",
+   "formed": 1909,
+   "alternate": [
+    "Sociedad"
+   ],
+   "website": "https://www.realsociedad.eus",
+   "social": {
+    "instagram": "https://www.instagram.com/realsociedad",
+    "x": "https://twitter.com/realsociedad",
+    "facebook": "https://www.facebook.com/RealSociedadFutbol",
+    "youtube": "https://www.youtube.com/realsociedadtv"
+   },
+   "checkedAt": "2026-10-14T18:07:05.808Z",
+   "youtubeChannelId": "UCfeqewEKWQ8CXY8OiXoMxxw",
+   "venue": {
+    "name": "Reale Arena",
+    "alternate": [
+     "Anoeta Stadium"
+    ],
+    "capacity": 39313,
+    "opened": 1993,
+    "location": "San Sebastián, Guipúzcoa"
+   }
+  },
+  "soccer:243": {
+   "tsdbId": "133735",
+   "formed": 1905,
+   "alternate": [
+    "Sevilla Fútbol Club",
+    "SFC"
+   ],
+   "website": "https://www.sevillafc.es",
+   "social": {
+    "instagram": "https://instagram.com/sevillafc",
+    "x": "https://twitter.com/SevillaFC",
+    "facebook": "https://www.facebook.com/sevillafc",
+    "youtube": "https://www.youtube.com/user/SEVILLAFC"
+   },
+   "checkedAt": "2026-10-14T18:07:09.999Z",
+   "youtubeChannelId": "UCLy9lmj_0cqffXUzbGHNmYA",
+   "venue": {
+    "name": "Estadio Ramón Sánchez Pizjuán",
+    "alternate": [
+     "Ramón Sánchez Pizjuán Stadium"
+    ],
+    "capacity": 42714,
+    "opened": 1955,
+    "location": "Seville, Andalusia, Spain"
+   }
+  },
+  "soccer:94": {
+   "tsdbId": "133725",
+   "formed": 1919,
+   "alternate": [
+    "Valencia CF",
+    "Valencia Club de Fútbol"
+   ],
+   "website": "https://www.valenciacf.com",
+   "social": {
+    "instagram": "https://www.instagram.com/valenciacf",
+    "x": "https://twitter.com/valenciacf",
+    "facebook": "https://www.facebook.com/valenciacf.en",
+    "youtube": "https://www.youtube.com/valenciacf"
+   },
+   "checkedAt": "2026-10-14T18:07:14.207Z",
+   "youtubeChannelId": "UCgvyo5x49J8ht5H9imKfxMQ",
+   "venue": {
+    "name": "Estadio de Mestalla",
+    "alternate": [
+     "Mestalla"
+    ],
+    "capacity": 49430,
+    "opened": 1923,
+    "location": "Valencia, Spain"
+   }
+  },
+  "soccer:102": {
+   "tsdbId": "133740",
+   "formed": 1923,
+   "alternate": [
+    "Villareal",
+    "Villarreal Club de Fútbol",
+    "Villarreal CF",
+    "Vila-real",
+    "VCF"
+   ],
+   "website": "https://www.villarrealcf.es",
+   "social": {
+    "instagram": "https://www.instagram.com/villarrealcf",
+    "x": "https://twitter.com/VillarrealCF",
+    "facebook": "https://www.facebook.com/villarrealcf/"
+   },
+   "checkedAt": "2026-10-14T18:07:18.410Z",
+   "venue": {
+    "name": "Estadio de la Cerámica",
+    "alternate": [
+     "El Madrigal"
+    ],
+    "capacity": 23008,
+    "opened": 1923,
+    "location": "Villareal, Castellón"
+   }
+  }
+ }
+}

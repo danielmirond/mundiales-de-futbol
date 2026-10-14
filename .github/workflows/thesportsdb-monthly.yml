@@ -1,0 +1,38 @@
+name: Datos de club TheSportsDB (mensual)
+
+on:
+  schedule:
+    # Día 2 de cada mes, 03:15 UTC. Incremental: solo equipos con dato de más de 30 días.
+    - cron: '15 3 2 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  thesportsdb:
+    name: Fundación, estadio, redes y canal de YouTube
+    runs-on: ubuntu-latest
+    # Clave gratuita: 30 peticiones/minuto → ~1.000 equipos tardan cerca de 1 h 20 min.
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      - run: npm ci
+      - name: Snapshot TheSportsDB
+        run: npx tsx scripts/thesportsdb/snapshot.ts --max 1500
+      - name: Commit y push si hay cambios
+        run: |
+          set -e
+          if git diff --quiet src/data/thesportsdb-snapshot.json; then echo "Sin cambios."; exit 0; fi
+          git config user.name "daily-content-bot"
+          git config user.email "daily-content-bot@users.noreply.github.com"
+          git add src/data/thesportsdb-snapshot.json
+          git commit -m "auto(datos): snapshot TheSportsDB $(date -u +%F)"
+          git pull --rebase origin main
+          git push origin HEAD:main

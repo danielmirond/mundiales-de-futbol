@@ -12,6 +12,9 @@ import { routing, type Locale } from '@/i18n/routing';
 import { StandingsTable, FormChips } from '@/components/portal/standings-table';
 import { TeamTabs } from '@/components/portal/team-tabs';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl } from '@/lib/seo';
+import { clubFacts } from '@/lib/thesportsdb';
+import { fetchChannelVideos } from '@/lib/youtube';
+import { YouTubeCarousel } from '@/components/team/youtube-carousel';
 
 // Regeneración periódica (ISR): rápida y estable sin pedir a las fuentes en cada visita.
 export const revalidate = 900;
@@ -65,6 +68,12 @@ export default async function EquipoPage({ params }: { params: Params }) {
     fetchWindow([c], dayKeys(0, 14), 300),
     fetchTeamProfile(c, ref.id),
   ]);
+  // Hechos del club (TheSportsDB, snapshot) y vídeos recientes de su canal oficial.
+  const club = clubFacts(c.espn?.sport, ref.id);
+  const videos = await fetchChannelVideos(club?.youtubeChannelId, 8);
+  const venue = club?.venue;
+  const social = club?.social ?? {};
+  const sameAs = [club?.website, social.instagram, social.x, social.facebook, social.youtube].filter(Boolean) as string[];
   const clubColor = profile.color ?? team?.color;
   const band = clubColor ? { background: `#${clubColor}`, color: inkFor(`#${clubColor}`) } : undefined;
   const homeGames = schedule.filter((g) => g.isHome && g.venue);
@@ -85,7 +94,14 @@ export default async function EquipoPage({ params }: { params: Params }) {
           { name: c.name, path: `/${c.sport}/${c.slug}` }, { name: ref.name, path: `/${c.sport}/${c.slug}/equipo/${ref.slug}` },
         ]),
         { '@context': 'https://schema.org', '@type': 'SportsTeam', name: ref.name, sport: s.name, ...(ref.logo ? { logo: ref.logo } : {}),
-          memberOf: { '@type': 'SportsOrganization', name: c.name }, url: localeUrl(locale, `/${c.sport}/${c.slug}/equipo/${ref.slug}`) },
+          memberOf: { '@type': 'SportsOrganization', name: c.name }, url: localeUrl(locale, `/${c.sport}/${c.slug}/equipo/${ref.slug}`),
+          ...(club?.formed ? { foundingDate: String(club.formed) } : {}),
+          ...(club?.alternate?.length ? { alternateName: club.alternate } : {}),
+          ...(sameAs.length ? { sameAs } : {}),
+          ...(venue ? { location: { '@type': 'StadiumOrArena', name: venue.name,
+            ...(venue.capacity ? { maximumAttendeeCapacity: venue.capacity } : {}),
+            ...(venue.location ? { address: venue.location } : {}),
+            ...(venue.lat !== undefined ? { geo: { '@type': 'GeoCoordinates', latitude: venue.lat, longitude: venue.lng } } : {}) } } : {}) },
       ]} />
 
       <header className="mx-auto w-full max-w-[1400px] px-6 md:px-10">
@@ -163,6 +179,9 @@ export default async function EquipoPage({ params }: { params: Params }) {
         <dl className="mt-4 grid gap-px overflow-hidden rounded-[18px] border border-[var(--color-border)] bg-[var(--color-border)] sm:grid-cols-2 lg:grid-cols-4">
           {[
             ['Estadio', stadium ? `${stadium}${profile.venue?.city ? ` · ${profile.venue.city}` : ''}` : '—'],
+            ...(club?.formed ? [['Fundación', String(club.formed)]] : []),
+            ...(venue?.capacity ? [['Aforo', `${venue.capacity.toLocaleString('es-ES')} espectadores`]] : []),
+            ...(venue?.opened ? [['Inauguración del estadio', String(venue.opened)]] : []),
             ['Competición', c.name],
             ['Entrenador', roster.coach ?? '—'],
             ['Plantilla', roster.players.length ? `${roster.players.length} jugadores` : '—'],
@@ -186,7 +205,33 @@ export default async function EquipoPage({ params }: { params: Params }) {
             </div>
           )}
         </dl>
+        {(sameAs.length > 0 || venue?.lat !== undefined) && (
+          <div className="mt-4 flex flex-wrap gap-2">
+            {[
+              club?.website && ['Web oficial', club.website],
+              social.instagram && ['Instagram', social.instagram],
+              social.x && ['X', social.x],
+              social.youtube && ['YouTube', social.youtube],
+              social.facebook && ['Facebook', social.facebook],
+              venue?.lat !== undefined && [`${venue.name} en el mapa`, `https://www.openstreetmap.org/?mlat=${venue.lat}&mlon=${venue.lng}#map=16/${venue.lat}/${venue.lng}`],
+            ].filter(Boolean).map((x) => {
+              const [label, href] = x as [string, string];
+              return <a key={label} href={href} target="_blank" rel="noopener nofollow" className="inline-flex h-8 items-center rounded-full border border-[var(--color-border)] px-3.5 text-[13px] text-[var(--color-fg-muted)] hover:border-[var(--color-border-strong)] hover:text-[var(--color-fg)]">{label} ↗</a>;
+            })}
+          </div>
+        )}
+        {venue?.alternate?.length ? <p className="mt-3 text-xs text-[var(--color-fg-subtle)]">También conocido como {venue.alternate.join(', ')}.</p> : null}
+        {club && <p className="mt-2 font-mono text-[10px] uppercase tracking-[0.2em] text-[var(--color-fg-subtle)]">Datos del club: ESPN y TheSportsDB</p>}
       </section>
+
+      {/* Vídeos del canal oficial */}
+      {videos.length > 0 && (
+        <section className="mx-auto w-full max-w-[1400px] px-6 pb-12 md:px-10">
+          <div className="kicker">Vídeos</div>
+          <h2 className="t-h2 mt-3 text-[var(--color-fg)]">Lo último del canal de {ref.name}</h2>
+          <div className="mt-5"><YouTubeCarousel videos={videos} channelUrl={social.youtube} team={ref.name} /></div>
+        </section>
+      )}
 
       {/* Plantilla */}
       {roster.players.length > 0 && (

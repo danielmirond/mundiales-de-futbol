@@ -25,6 +25,7 @@ import { JsonLd, pageMetadata, breadcrumbLd, localeUrl, SEO } from '@/lib/seo';
 import { authorJsonLd } from '@/lib/authors';
 import { sameAsForEntity, getEntity } from '@/lib/entities-wikidata';
 import { MovistarCintillo } from '@/components/affiliate/movistar-banner';
+import { ReadingProgress } from '@/components/news/reading-progress';
 import { DaznBanner } from '@/components/affiliate/dazn-banner';
 import { getMovistarLink } from '@/lib/movistar-match-links';
 
@@ -235,6 +236,7 @@ export default async function NoticiaDetail({
 
   return (
     <article className="pt-32">
+      <ReadingProgress targetId="cuerpo" />
       <JsonLd
         data={[
           newsArticleLd,
@@ -318,7 +320,7 @@ export default async function NoticiaDetail({
       )}
 
       {/* Body */}
-      <section className="mx-auto mt-12 w-full max-w-[900px] px-6 md:px-10">
+      <section id="cuerpo" className="mx-auto mt-12 w-full max-w-[900px] px-6 md:px-10">
         <div
           className="
             article-body t-body
