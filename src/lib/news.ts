@@ -158,6 +158,8 @@ Tras el partido, Lens 19.º con 3 puntos y Sporting 2.º con 6 puntos en la [cla
 
 Lo que viene. Lens: visita a Club Brugge el miércoles 21 de octubre. Sporting: recibe a LASK Linz el miércoles 21 de octubre. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/champions-league/partido/401915418).`,
     category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Champions","sport":"futbol","slug":"champions-league"},
     sourceName: "ESPN",
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915418",
     sourceLang: 'en',
@@ -192,6 +194,8 @@ Tras el partido, Villarreal 10.º con 3 puntos y Napoli 31.º con 0 puntos en la
 
 Lo que viene. Villarreal: visita a Liverpool el martes 20 de octubre. Napoli: recibe a Bodo/Glimt el martes 20 de octubre. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/champions-league/partido/401915410).`,
     category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Champions","sport":"futbol","slug":"champions-league"},
     sourceName: "ESPN",
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915410",
     sourceLang: 'en',
@@ -214,6 +218,8 @@ Tras el partido, Viking FK 26.º con 1 puntos y Bayern 4.º con 4 puntos en la [
 
 Ficha: 5 amarillas · expulsado: Michael Olise · 10 cambios. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/champions-league/partido/401915411).`,
     category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Champions","sport":"futbol","slug":"champions-league"},
     sourceName: "ESPN",
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915411",
     sourceLang: 'en',
@@ -242,6 +248,8 @@ Tras el partido, RB Leipzig 20.º con 3 puntos y PSV 25.º con 1 puntos en la [c
 
 Ficha: 3 amarillas · 8 cambios. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/champions-league/partido/401915434).`,
     category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Champions","sport":"futbol","slug":"champions-league"},
     sourceName: "ESPN",
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915434",
     sourceLang: 'en',
@@ -270,6 +278,8 @@ Tras el partido, Inter Milan 28.º con 0 puntos y Club Brugge 18.º con 3 puntos
 
 Ficha: 6 amarillas · 10 cambios. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/champions-league/partido/401915413).`,
     category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Champions","sport":"futbol","slug":"champions-league"},
     sourceName: "ESPN",
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915413",
     sourceLang: 'en',
@@ -308,6 +318,8 @@ Lo que viene. Galatasaray: visita a Lille el miércoles 21 de octubre. Barcelona
 
 **Lee también:** la [ficha del partido](/futbol/champions-league/partido/401915435) con alineaciones y narración · la [clasificación de Champions](/futbol/champions-league) · [partidos de hoy](/partidos-hoy).`,
     category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Champions","sport":"futbol","slug":"champions-league"},
     sourceName: "ESPN",
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915435",
     sourceLang: 'en',
@@ -342,6 +354,8 @@ Tras el partido, Atlético 13.º con 3 puntos y Man United 7.º con 3 puntos en 
 
 Lo que viene. Atlético: visita a Stuttgart el martes 20 de octubre. Man United: visita a Como el miércoles 21 de octubre. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/champions-league/partido/401915412).`,
     category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Champions","sport":"futbol","slug":"champions-league"},
     sourceName: "ESPN",
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915412",
     sourceLang: 'en',
@@ -378,6 +392,8 @@ Lo que viene. Arsenal: visita a Bayern el miércoles 21 de octubre. Lille: recib
 
 **Lee también:** la [ficha del partido](/futbol/champions-league/partido/401915417) con alineaciones y narración · la [clasificación de Champions](/futbol/champions-league) · [partidos de hoy](/partidos-hoy).`,
     category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Champions","sport":"futbol","slug":"champions-league"},
     sourceName: "ESPN",
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915417",
     sourceLang: 'en',
@@ -412,6 +428,8 @@ Calendario y clasificación en la [página de Champions](/futbol/champions-leagu
 
 Todos los horarios están en hora peninsular. Los marcadores se actualizan en directo en cada ficha de partido. Toda la jornada, con marcadores en directo, en [partidos de hoy](/partidos-hoy).`,
     category: 'tv',
+    kind: 'agenda',
+    competition: {"name":"Champions","sport":"futbol","slug":"champions-league"},
     sourceName: "ESPN",
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915416",
     sourceLang: 'en',
@@ -439,6 +457,8 @@ Man City llega y ocupa la 8.º plaza con 3 puntos (1G-0E-0P). PSG llega y ocupa 
 
 Se emite en **M+ Liga de Campeones 2**. Alineaciones en cuanto se confirmen, marcador en directo y narración en la [ficha del Man City - PSG](/futbol/champions-league/partido/401915407). El resto de la jornada, en [partidos de hoy](/partidos-hoy).`,
     category: 'general',
+    kind: 'previa',
+    competition: {"name":"Champions","sport":"futbol","slug":"champions-league"},
     sourceName: "ESPN",
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915407",
     sourceLang: 'en',
@@ -467,6 +487,8 @@ Tras el partido, Coventry 14.º con 6 puntos y Newcastle 11.º con 8 puntos en l
 
 Ficha: 2 amarillas · 10 cambios. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/premier-league/partido/401879267).`,
     category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Premier League","sport":"futbol","slug":"premier-league"},
     sourceName: "ESPN",
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401879267",
     sourceLang: 'en',
@@ -506,6 +528,8 @@ Lo que viene. Levante: visita a Deportivo el viernes 16 de octubre. Sevilla: vis
 
 **Lee también:** la [ficha del partido](/futbol/laliga/partido/401882852) con alineaciones y narración · la [clasificación de LaLiga](/futbol/laliga) · [partidos de hoy](/partidos-hoy).`,
     category: 'general',
+    kind: 'cronica',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
     sourceName: "ESPN",
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882852",
     sourceLang: 'en',
@@ -540,6 +564,8 @@ Calendario y clasificación en la [página de Champions](/futbol/champions-leagu
 
 Todos los horarios están en hora peninsular. Los marcadores se actualizan en directo en cada ficha de partido. Toda la jornada, con marcadores en directo, en [partidos de hoy](/partidos-hoy).`,
     category: 'tv',
+    kind: 'agenda',
+    competition: {"name":"Champions","sport":"futbol","slug":"champions-league"},
     sourceName: "ESPN",
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915418",
     sourceLang: 'en',
@@ -583,6 +609,8 @@ Todos los horarios están en hora peninsular. Los marcadores se actualizan en di
 
 La clasificación completa, con todos los equipos y los próximos partidos, está en la [página de NBA](/baloncesto/nba).`,
     category: 'general',
+    kind: 'clasificacion',
+    competition: {"name":"NBA","sport":"baloncesto","slug":"nba"},
     sourceName: "ESPN",
     sourceUrl: "https://www.espn.com/nba/standings",
     sourceLang: 'en',
@@ -615,6 +643,8 @@ En la zona baja: Spurs (3 pts), Coventry (3 pts) y Fulham (2 pts).
 
 La clasificación completa, con todos los equipos y los próximos partidos, está en la [página de Premier League](/futbol/premier-league).`,
     category: 'general',
+    kind: 'clasificacion',
+    competition: {"name":"Premier League","sport":"futbol","slug":"premier-league"},
     sourceName: "ESPN",
     sourceUrl: "https://www.espn.com/soccer/standings/_/league/eng.1",
     sourceLang: 'en',
@@ -647,6 +677,8 @@ En la zona baja: Levante (5 pts), Valencia (5 pts) y Málaga (4 pts).
 
 La clasificación completa, con todos los equipos y los próximos partidos, está en la [página de LaLiga](/futbol/laliga).`,
     category: 'general',
+    kind: 'clasificacion',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
     sourceName: "ESPN",
     sourceUrl: "https://www.espn.com/soccer/standings/_/league/esp.1",
     sourceLang: 'en',
@@ -674,6 +706,8 @@ Lens llega y ocupa la 10.º plaza con 3 puntos (1G-0E-0P). Sporting llega y ocup
 
 Canal por confirmar; se actualiza en la ficha del partido. Alineaciones en cuanto se confirmen, marcador en directo y narración en la [ficha del Lens - Sporting](/futbol/champions-league/partido/401915418). El resto de la jornada, en [partidos de hoy](/partidos-hoy).`,
     category: 'general',
+    kind: 'previa',
+    competition: {"name":"Champions","sport":"futbol","slug":"champions-league"},
     sourceName: "ESPN",
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915418",
     sourceLang: 'en',
@@ -703,6 +737,8 @@ Tras el partido, Hull 8.º con 9 puntos y Everton 5.º con 10 puntos en la [clas
 
 Ficha: 2 amarillas · 10 cambios. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/premier-league/partido/401878774).`,
     category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Premier League","sport":"futbol","slug":"premier-league"},
     sourceName: "ESPN",
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401878774",
     sourceLang: 'en',
@@ -734,6 +770,8 @@ Tras el partido, C Palace 12.º con 7 puntos y Nottm Forest 14.º con 5 puntos e
 
 Lo que viene. C Palace: visita a Brighton el domingo 18 de octubre. Nottm Forest: recibe a Arsenal el domingo 18 de octubre. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/premier-league/partido/401879266).`,
     category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Premier League","sport":"futbol","slug":"premier-league"},
     sourceName: "ESPN",
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401879266",
     sourceLang: 'en',
@@ -769,6 +807,8 @@ Tras el partido, Liverpool 9.º con 9 puntos y Man City 1.º con 18 puntos en la
 
 Lo que viene. Liverpool: visita a Brentford el sábado 17 de octubre. Man City: recibe a Ipswich el sábado 17 de octubre. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/premier-league/partido/401879264).`,
     category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Premier League","sport":"futbol","slug":"premier-league"},
     sourceName: "ESPN",
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401879264",
     sourceLang: 'en',
@@ -796,6 +836,8 @@ Calendario y clasificación en la [página de NBA](/baloncesto/nba).
 
 Horarios en hora de España; los resultados y la narración de cada partido van en su ficha. Toda la jornada, con marcadores en directo, en [partidos de hoy](/partidos-hoy).`,
     category: 'tv',
+    kind: 'agenda',
+    competition: {"name":"NBA","sport":"baloncesto","slug":"nba"},
     sourceName: "ESPN",
     sourceUrl: "https://www.espn.com/nba/game/_/gameId/401914130",
     sourceLang: 'en',
@@ -845,6 +887,8 @@ Calendario y clasificación en la [página de Premier League](/futbol/premier-le
 
 Todos los horarios están en hora peninsular. Los marcadores se actualizan en directo en cada ficha de partido. Toda la jornada, con marcadores en directo, en [partidos de hoy](/partidos-hoy).`,
     category: 'tv',
+    kind: 'agenda',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
     sourceName: "ESPN",
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882852",
     sourceLang: 'en',
@@ -888,6 +932,8 @@ Todos los horarios están en hora peninsular. Los marcadores se actualizan en di
 
 La clasificación completa, con todos los equipos y los próximos partidos, está en la [página de NBA](/baloncesto/nba).`,
     category: 'general',
+    kind: 'clasificacion',
+    competition: {"name":"NBA","sport":"baloncesto","slug":"nba"},
     sourceName: "ESPN",
     sourceUrl: "https://www.espn.com/nba/standings",
     sourceLang: 'en',
@@ -920,6 +966,8 @@ En la zona baja: Spurs (3 pts), Coventry (3 pts) y Fulham (2 pts).
 
 La clasificación completa, con todos los equipos y los próximos partidos, está en la [página de Premier League](/futbol/premier-league).`,
     category: 'general',
+    kind: 'clasificacion',
+    competition: {"name":"Premier League","sport":"futbol","slug":"premier-league"},
     sourceName: "ESPN",
     sourceUrl: "https://www.espn.com/soccer/standings/_/league/eng.1",
     sourceLang: 'en',
@@ -952,6 +1000,8 @@ En la zona baja: Levante (5 pts), Valencia (5 pts) y Málaga (4 pts).
 
 La clasificación completa, con todos los equipos y los próximos partidos, está en la [página de LaLiga](/futbol/laliga).`,
     category: 'general',
+    kind: 'clasificacion',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
     sourceName: "ESPN",
     sourceUrl: "https://www.espn.com/soccer/standings/_/league/esp.1",
     sourceLang: 'en',
@@ -981,6 +1031,8 @@ Se emite en **M+ LALIGA**. Alineaciones en cuanto se confirmen, marcador en dire
 
 El resto de la jornada, en [partidos de hoy](/partidos-hoy).`,
     category: 'general',
+    kind: 'previa',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
     sourceName: "ESPN",
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882852",
     sourceLang: 'en',
@@ -1010,6 +1062,8 @@ Tras el partido, Rayo 13.º con 8 puntos y Athletic 10.º con 8 puntos en la [cl
 
 Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto están en la [ficha del partido](/futbol/laliga/partido/401882849).`,
     category: 'general',
+    kind: 'cronica',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
     sourceName: "ESPN",
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882849",
     sourceLang: 'en',
@@ -1039,6 +1093,8 @@ Tras el partido, Alavés 7.º con 11 puntos y Atlético 2.º con 19 puntos en la
 
 Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto están en la [ficha del partido](/futbol/laliga/partido/401882856).`,
     category: 'general',
+    kind: 'cronica',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
     sourceName: "ESPN",
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882856",
     sourceLang: 'en',
@@ -1068,6 +1124,8 @@ Tras el partido, Barcelona 1.º con 24 puntos y Getafe 14.º con 8 puntos en la 
 
 Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto están en la [ficha del partido](/futbol/laliga/partido/401882853).`,
     category: 'general',
+    kind: 'cronica',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
     sourceName: "ESPN",
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882853",
     sourceLang: 'en',
@@ -1097,6 +1155,8 @@ Tras el partido, Real Madrid 4.º con 18 puntos y Villarreal 11.º con 8 puntos 
 
 Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto están en la [ficha del partido](/futbol/laliga/partido/401882848).`,
     category: 'general',
+    kind: 'cronica',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
     sourceName: "ESPN",
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882848",
     sourceLang: 'en',
@@ -1128,6 +1188,8 @@ Tras el partido, Elche 17.º con 6 puntos y Celta Vigo 9.º con 8 puntos en la [
 
 Lo que viene. Elche: visita a Villarreal el sábado 17 de octubre. Celta Vigo: recibe a Alavés el domingo 18 de octubre. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/laliga/partido/401882854).`,
     category: 'general',
+    kind: 'cronica',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
     sourceName: "ESPN",
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882854",
     sourceLang: 'en',
@@ -1159,6 +1221,8 @@ Tras el partido, Real Sociedad 6.º con 13 puntos y Deportivo 8.º con 10 puntos
 
 Lo que viene. Real Sociedad: visita a Málaga el domingo 18 de octubre. Deportivo: recibe a Levante el viernes 16 de octubre. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/laliga/partido/401882847).`,
     category: 'general',
+    kind: 'cronica',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
     sourceName: "ESPN",
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882847",
     sourceLang: 'en',
@@ -1199,6 +1263,8 @@ Lo que viene. Betis: recibe a Barcelona el sábado 17 de octubre. Osasuna: recib
 
 **Lee también:** la [ficha del partido](/futbol/laliga/partido/401882855) con alineaciones y narración · la [clasificación de LaLiga](/futbol/laliga) · [partidos de hoy](/partidos-hoy).`,
     category: 'general',
+    kind: 'cronica',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
     sourceName: "ESPN",
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882855",
     sourceLang: 'en',
@@ -1234,6 +1300,8 @@ Tras el partido, Racing 15.º con 8 puntos y Valencia 19.º con 5 puntos en la [
 
 Lo que viene. Racing: visita a Osasuna el domingo 18 de octubre. Valencia: recibe a Athletic el sábado 17 de octubre. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/laliga/partido/401882850).`,
     category: 'general',
+    kind: 'cronica',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
     sourceName: "ESPN",
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882850",
     sourceLang: 'en',
@@ -1261,6 +1329,8 @@ Calendario y clasificación en la [página de NBA](/baloncesto/nba).
 
 Hora peninsular en todos los casos. Si un canal cambia a última hora, la ficha del partido lo recoge. Toda la jornada, con marcadores en directo, en [partidos de hoy](/partidos-hoy).`,
     category: 'tv',
+    kind: 'agenda',
+    competition: {"name":"NBA","sport":"baloncesto","slug":"nba"},
     sourceName: "ESPN",
     sourceUrl: "https://www.espn.com/nba/game/_/gameId/401898400",
     sourceLang: 'en',
@@ -1340,6 +1410,8 @@ Calendario y clasificación en la [página de Bundesliga](/futbol/bundesliga).
 
 Horarios en hora de España; los resultados y la narración de cada partido van en su ficha. Toda la jornada, con marcadores en directo, en [partidos de hoy](/partidos-hoy).`,
     category: 'tv',
+    kind: 'agenda',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
     sourceName: "ESPN",
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882854",
     sourceLang: 'en',
@@ -1381,6 +1453,7 @@ Hoy **todos los partidos de la jornada se ven gratis en La 1**.
 
 RTVE emite **34 partidos gratis** en total del Mundial 2026: los 3 de España en la fase de grupos, un partido destacado por jornada y toda la fase eliminatoria desde dieciseisavos (incluida la final). Los **104 partidos** están en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**. Desglose completo de plataformas, precios y partidos en abierto en [dónde ver el Mundial 2026](/2026/donde-ver).`,
     category: 'tv',
+    kind: 'agenda',
     sourceName: "Mundiales de Fútbol",
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
     sourceLang: 'es',
@@ -1414,6 +1487,7 @@ Hoy **todos los partidos de la jornada se ven gratis en La 1**.
 
 RTVE emite **34 partidos gratis** en total del Mundial 2026: los 3 de España en la fase de grupos, un partido destacado por jornada y toda la fase eliminatoria desde dieciseisavos (incluida la final). Los **104 partidos** están en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**. Desglose completo de plataformas, precios y partidos en abierto en [dónde ver el Mundial 2026](/2026/donde-ver).`,
     category: 'tv',
+    kind: 'agenda',
     sourceName: "Mundiales de Fútbol",
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
     sourceLang: 'es',
@@ -1447,6 +1521,7 @@ Hoy **todos los partidos de la jornada se ven gratis en La 1**.
 
 RTVE emite **34 partidos gratis** en total del Mundial 2026: los 3 de España en la fase de grupos, un partido destacado por jornada y toda la fase eliminatoria desde dieciseisavos (incluida la final). Los **104 partidos** están en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**. Desglose completo de plataformas, precios y partidos en abierto en [dónde ver el Mundial 2026](/2026/donde-ver).`,
     category: 'tv',
+    kind: 'agenda',
     sourceName: "Mundiales de Fútbol",
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
     sourceLang: 'es',
@@ -1480,6 +1555,7 @@ Hoy **todos los partidos de la jornada se ven gratis en La 1**.
 
 RTVE emite **34 partidos gratis** en total del Mundial 2026: los 3 de España en la fase de grupos, un partido destacado por jornada y toda la fase eliminatoria desde dieciseisavos (incluida la final). Los **104 partidos** están en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**. Desglose completo de plataformas, precios y partidos en abierto en [dónde ver el Mundial 2026](/2026/donde-ver).`,
     category: 'tv',
+    kind: 'agenda',
     sourceName: "Mundiales de Fútbol",
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
     sourceLang: 'es',
@@ -1513,6 +1589,7 @@ Hoy **todos los partidos de la jornada se ven gratis en La 1**.
 
 RTVE emite **34 partidos gratis** en total del Mundial 2026: los 3 de España en la fase de grupos, un partido destacado por jornada y toda la fase eliminatoria desde dieciseisavos (incluida la final). Los **104 partidos** están en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**. Desglose completo de plataformas, precios y partidos en abierto en [dónde ver el Mundial 2026](/2026/donde-ver).`,
     category: 'tv',
+    kind: 'agenda',
     sourceName: "Mundiales de Fútbol",
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
     sourceLang: 'es',
@@ -1546,6 +1623,7 @@ Hoy **todos los partidos de la jornada se ven gratis en La 1**.
 
 RTVE emite **34 partidos gratis** en total del Mundial 2026: los 3 de España en la fase de grupos, un partido destacado por jornada y toda la fase eliminatoria desde dieciseisavos (incluida la final). Los **104 partidos** están en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**. Desglose completo de plataformas, precios y partidos en abierto en [dónde ver el Mundial 2026](/2026/donde-ver).`,
     category: 'tv',
+    kind: 'agenda',
     sourceName: "Mundiales de Fútbol",
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
     sourceLang: 'es',
@@ -1579,6 +1657,7 @@ Hoy **todos los partidos de la jornada se ven gratis en La 1**.
 
 RTVE emite **34 partidos gratis** en total del Mundial 2026: los 3 de España en la fase de grupos, un partido destacado por jornada y toda la fase eliminatoria desde dieciseisavos (incluida la final). Los **104 partidos** están en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**. Desglose completo de plataformas, precios y partidos en abierto en [dónde ver el Mundial 2026](/2026/donde-ver).`,
     category: 'tv',
+    kind: 'agenda',
     sourceName: "Mundiales de Fútbol",
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
     sourceLang: 'es',
@@ -1612,6 +1691,7 @@ Hoy **todos los partidos de la jornada se ven gratis en La 1**.
 
 RTVE emite **34 partidos gratis** en total del Mundial 2026: los 3 de España en la fase de grupos, un partido destacado por jornada y toda la fase eliminatoria desde dieciseisavos (incluida la final). Los **104 partidos** están en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**. Desglose completo de plataformas, precios y partidos en abierto en [dónde ver el Mundial 2026](/2026/donde-ver).`,
     category: 'tv',
+    kind: 'agenda',
     sourceName: "Mundiales de Fútbol",
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
     sourceLang: 'es',
@@ -1649,6 +1729,7 @@ Hoy **todos los partidos de la jornada se ven gratis en La 1**.
 
 RTVE emite **34 partidos gratis** en total del Mundial 2026: los 3 de España en la fase de grupos, un partido destacado por jornada y toda la fase eliminatoria desde dieciseisavos (incluida la final). Los **104 partidos** están en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**. Desglose completo de plataformas, precios y partidos en abierto en [dónde ver el Mundial 2026](/2026/donde-ver).`,
     category: 'tv',
+    kind: 'agenda',
     sourceName: "Mundiales de Fútbol",
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
     sourceLang: 'es',
@@ -1706,6 +1787,7 @@ Hoy **todos los partidos de la jornada se ven gratis en La 1**.
 
 RTVE emite **34 partidos gratis** en total del Mundial 2026: los 3 de España en la fase de grupos, un partido destacado por jornada y toda la fase eliminatoria desde dieciseisavos (incluida la final). Los **104 partidos** están en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**. Desglose completo de plataformas, precios y partidos en abierto en [dónde ver el Mundial 2026](/2026/donde-ver).`,
     category: 'tv',
+    kind: 'agenda',
     sourceName: "Mundiales de Fútbol",
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
     sourceLang: 'es',
@@ -1739,6 +1821,7 @@ Hoy **todos los partidos de la jornada se ven gratis en La 1**.
 
 RTVE emite **34 partidos gratis** en total del Mundial 2026: los 3 de España en la fase de grupos, un partido destacado por jornada y toda la fase eliminatoria desde dieciseisavos (incluida la final). Los **104 partidos** están en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**. Desglose completo de plataformas, precios y partidos en abierto en [dónde ver el Mundial 2026](/2026/donde-ver).`,
     category: 'tv',
+    kind: 'agenda',
     sourceName: "Mundiales de Fútbol",
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
     sourceLang: 'es',
@@ -1778,6 +1861,7 @@ Hoy **todos los partidos de la jornada se ven gratis en La 1**.
 
 RTVE emite **34 partidos gratis** en total del Mundial 2026: los 3 de España en la fase de grupos, un partido destacado por jornada y toda la fase eliminatoria desde dieciseisavos (incluida la final). Los **104 partidos** están en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**. Desglose completo de plataformas, precios y partidos en abierto en [dónde ver el Mundial 2026](/2026/donde-ver).`,
     category: 'tv',
+    kind: 'agenda',
     sourceName: "Mundiales de Fútbol",
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
     sourceLang: 'es',
@@ -1815,6 +1899,7 @@ Hoy **todos los partidos de la jornada se ven gratis en La 1**.
 
 RTVE emite **34 partidos gratis** en total del Mundial 2026: los 3 de España en la fase de grupos, un partido destacado por jornada y toda la fase eliminatoria desde dieciseisavos (incluida la final). Los **104 partidos** están en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**. Desglose completo de plataformas, precios y partidos en abierto en [dónde ver el Mundial 2026](/2026/donde-ver).`,
     category: 'tv',
+    kind: 'agenda',
     sourceName: "Mundiales de Fútbol",
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
     sourceLang: 'es',
@@ -1850,6 +1935,7 @@ Hoy **todos los partidos de la jornada se ven gratis en La 1**.
 
 RTVE emite **34 partidos gratis** en total del Mundial 2026: los 3 de España en la fase de grupos, un partido destacado por jornada y toda la fase eliminatoria desde dieciseisavos (incluida la final). Los **104 partidos** están en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**. Desglose completo de plataformas, precios y partidos en abierto en [dónde ver el Mundial 2026](/2026/donde-ver).`,
     category: 'tv',
+    kind: 'agenda',
     sourceName: "Mundiales de Fútbol",
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
     sourceLang: 'es',
@@ -1887,6 +1973,7 @@ Hoy **todos los partidos de la jornada se ven gratis en La 1**.
 
 RTVE emite **34 partidos gratis** en total del Mundial 2026: los 3 de España en la fase de grupos, un partido destacado por jornada y toda la fase eliminatoria desde dieciseisavos (incluida la final). Los **104 partidos** están en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**. Desglose completo de plataformas, precios y partidos en abierto en [dónde ver el Mundial 2026](/2026/donde-ver).`,
     category: 'tv',
+    kind: 'agenda',
     sourceName: "Mundiales de Fútbol",
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
     sourceLang: 'es',
@@ -1924,6 +2011,7 @@ Hoy **todos los partidos de la jornada se ven gratis en La 1**.
 
 RTVE emite **34 partidos gratis** en total del Mundial 2026: los 3 de España en la fase de grupos, un partido destacado por jornada y toda la fase eliminatoria desde dieciseisavos (incluida la final). Los **104 partidos** están en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**. Desglose completo de plataformas, precios y partidos en abierto en [dónde ver el Mundial 2026](/2026/donde-ver).`,
     category: 'tv',
+    kind: 'agenda',
     sourceName: "Mundiales de Fútbol",
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
     sourceLang: 'es',
@@ -1959,6 +2047,7 @@ Hoy **todos los partidos de la jornada se ven gratis en La 1**.
 
 RTVE emite **34 partidos gratis** en total del Mundial 2026: los 3 de España en la fase de grupos, un partido destacado por jornada y toda la fase eliminatoria desde dieciseisavos (incluida la final). Los **104 partidos** están en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**. Desglose completo de plataformas, precios y partidos en abierto en [dónde ver el Mundial 2026](/2026/donde-ver).`,
     category: 'tv',
+    kind: 'agenda',
     sourceName: "Mundiales de Fútbol",
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
     sourceLang: 'es',
@@ -2001,6 +2090,7 @@ El resto de partidos de hoy solo se pueden ver en **[DAZN](https://www.awin1.com
 
 RTVE emite **34 partidos gratis** en total del Mundial 2026: los 3 de España en la fase de grupos, un partido destacado por jornada y toda la fase eliminatoria desde dieciseisavos (incluida la final). Los **104 partidos** están en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**. Desglose completo de plataformas, precios y partidos en abierto en [dónde ver el Mundial 2026](/2026/donde-ver).`,
     category: 'tv',
+    kind: 'agenda',
     sourceName: "Mundiales de Fútbol",
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
     sourceLang: 'es',
@@ -2154,6 +2244,7 @@ El resto de partidos de hoy solo se pueden ver en **[DAZN](https://www.awin1.com
 
 RTVE emite **34 partidos gratis** en total del Mundial 2026: los 3 de España en la fase de grupos, un partido destacado por jornada y toda la fase eliminatoria desde dieciseisavos (incluida la final). Los **104 partidos** están en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**. Desglose completo de plataformas, precios y partidos en abierto en [dónde ver el Mundial 2026](/2026/donde-ver).`,
     category: 'tv',
+    kind: 'agenda',
     sourceName: "Mundiales de Fútbol",
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
     sourceLang: 'es',
@@ -2333,6 +2424,7 @@ El resto de partidos de hoy solo se pueden ver en **[DAZN](https://www.awin1.com
 
 RTVE emite **34 partidos gratis** en total del Mundial 2026: los 3 de España en la fase de grupos, un partido destacado por jornada y toda la fase eliminatoria desde dieciseisavos (incluida la final). Los **104 partidos** están en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**. Desglose completo de plataformas, precios y partidos en abierto en [dónde ver el Mundial 2026](/2026/donde-ver).`,
     category: 'tv',
+    kind: 'agenda',
     sourceName: "Mundiales de Fútbol",
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
     sourceLang: 'es',
@@ -2485,6 +2577,7 @@ El resto de partidos de hoy solo se pueden ver en **[DAZN](https://www.awin1.com
 
 RTVE emite **34 partidos gratis** en total del Mundial 2026: los 3 de España en la fase de grupos, un partido destacado por jornada y toda la fase eliminatoria desde dieciseisavos (incluida la final). Los **104 partidos** están en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**. Desglose completo de plataformas, precios y partidos en abierto en [dónde ver el Mundial 2026](/2026/donde-ver).`,
     category: 'tv',
+    kind: 'agenda',
     sourceName: "Mundiales de Fútbol",
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
     sourceLang: 'es',
@@ -2694,6 +2787,7 @@ El resto de partidos de hoy solo se pueden ver en **[DAZN](https://www.awin1.com
 
 RTVE emite **34 partidos gratis** en total del Mundial 2026: los 3 de España en la fase de grupos, un partido destacado por jornada y toda la fase eliminatoria desde dieciseisavos (incluida la final). Los **104 partidos** están en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**. Desglose completo de plataformas, precios y partidos en abierto en [dónde ver el Mundial 2026](/2026/donde-ver).`,
     category: 'tv',
+    kind: 'agenda',
     sourceName: "Mundiales de Fútbol",
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
     sourceLang: 'es',
@@ -2816,6 +2910,7 @@ El resto de partidos de hoy solo se pueden ver en **[DAZN](https://www.awin1.com
 
 RTVE emite **34 partidos gratis** en total del Mundial 2026: los 3 de España en la fase de grupos, un partido destacado por jornada y toda la fase eliminatoria desde dieciseisavos (incluida la final). Los **104 partidos** están en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**. Desglose completo de plataformas, precios y partidos en abierto en [dónde ver el Mundial 2026](/2026/donde-ver).`,
     category: 'tv',
+    kind: 'agenda',
     sourceName: "Mundiales de Fútbol",
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
     sourceLang: 'es',
@@ -2941,6 +3036,7 @@ El resto de partidos de hoy solo se pueden ver en **[DAZN](https://www.awin1.com
 
 RTVE emite **34 partidos gratis** en total del Mundial 2026: los 3 de España en la fase de grupos, un partido destacado por jornada y toda la fase eliminatoria desde dieciseisavos (incluida la final). Los **104 partidos** están en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**. Desglose completo de plataformas, precios y partidos en abierto en [dónde ver el Mundial 2026](/2026/donde-ver).`,
     category: 'tv',
+    kind: 'agenda',
     sourceName: "Mundiales de Fútbol",
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
     sourceLang: 'es',
@@ -3090,6 +3186,7 @@ El resto de partidos de hoy solo se pueden ver en **[DAZN](https://www.awin1.com
 
 RTVE emite **34 partidos gratis** en total del Mundial 2026: los 3 de España en la fase de grupos, un partido destacado por jornada y toda la fase eliminatoria desde dieciseisavos (incluida la final). Los **104 partidos** están en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**. Desglose completo de plataformas, precios y partidos en abierto en [dónde ver el Mundial 2026](/2026/donde-ver).`,
     category: 'tv',
+    kind: 'agenda',
     sourceName: "Mundiales de Fútbol",
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
     sourceLang: 'es',
@@ -3214,6 +3311,7 @@ El resto de partidos de hoy solo se pueden ver en **[DAZN](https://www.awin1.com
 
 RTVE emite **34 partidos gratis** en total del Mundial 2026: los 3 de España en la fase de grupos, un partido destacado por jornada y toda la fase eliminatoria desde dieciseisavos (incluida la final). Los **104 partidos** están en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**. Desglose completo de plataformas, precios y partidos en abierto en [dónde ver el Mundial 2026](/2026/donde-ver).`,
     category: 'tv',
+    kind: 'agenda',
     sourceName: "Mundiales de Fútbol",
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
     sourceLang: 'es',
@@ -3359,6 +3457,7 @@ El resto de partidos de hoy solo se pueden ver en **[DAZN](https://www.awin1.com
 
 RTVE emite **34 partidos gratis** en total del Mundial 2026: los 3 de España en la fase de grupos, un partido destacado por jornada y toda la fase eliminatoria desde dieciseisavos (incluida la final). Los **104 partidos** están en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**. Desglose completo de plataformas, precios y partidos en abierto en [dónde ver el Mundial 2026](/2026/donde-ver).`,
     category: 'tv',
+    kind: 'agenda',
     sourceName: "Mundiales de Fútbol",
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
     sourceLang: 'es',
@@ -3566,6 +3665,7 @@ El resto de partidos de hoy solo se pueden ver en **[DAZN](https://www.awin1.com
 
 RTVE emite **34 partidos gratis** en total del Mundial 2026: los 3 de España en la fase de grupos, un partido destacado por jornada y toda la fase eliminatoria desde dieciseisavos (incluida la final). Los **104 partidos** están en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**. Desglose completo de plataformas, precios y partidos en abierto en [dónde ver el Mundial 2026](/2026/donde-ver).`,
     category: 'tv',
+    kind: 'agenda',
     sourceName: "Mundiales de Fútbol",
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
     sourceLang: 'es',
@@ -3608,6 +3708,7 @@ El resto de partidos de hoy solo se pueden ver en **[DAZN](https://www.awin1.com
 
 RTVE emite **34 partidos gratis** en total del Mundial 2026: los 3 de España en la fase de grupos, un partido destacado por jornada y toda la fase eliminatoria desde dieciseisavos (incluida la final). Los **104 partidos** están en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**. Desglose completo de plataformas, precios y partidos en abierto en [dónde ver el Mundial 2026](/2026/donde-ver).`,
     category: 'tv',
+    kind: 'agenda',
     sourceName: "Mundiales de Fútbol",
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
     sourceLang: 'es',
@@ -3901,6 +4002,7 @@ El resto de partidos de hoy solo se pueden ver en **[DAZN](https://www.awin1.com
 
 RTVE emite **34 partidos gratis** en total del Mundial 2026: los 3 de España en la fase de grupos, un partido destacado por jornada y toda la fase eliminatoria desde dieciseisavos (incluida la final). Los **104 partidos** están en **[DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&campaign=SMSWC2026)**, también a través de **[Movistar Plus+ vía DAZN](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fmundial)**. Desglose completo de plataformas, precios y partidos en abierto en [dónde ver el Mundial 2026](/2026/donde-ver).`,
     category: 'tv',
+    kind: 'agenda',
     sourceName: "Mundiales de Fútbol",
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
     sourceLang: 'es',
@@ -4207,6 +4309,7 @@ De todo el cartel, el **España - Cabo Verde** es el duelo más llamativo de la 
 
 En España, el Mundial 2026 se ve en **DAZN**, con todos los partidos disponibles de la forma más cómoda a través de **Movistar Plus+ vía DAZN** (los 104 encuentros en un mismo sitio). Algunos partidos seleccionados se emiten además en abierto en **RTVE**. Tienes el desglose completo de plataformas y precios en [dónde ver el Mundial 2026](/2026/donde-ver).`,
     category: 'tv',
+    kind: 'agenda',
     sourceName: "Mundiales de Fútbol",
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
     sourceLang: 'es',
@@ -4236,6 +4339,7 @@ De todo el cartel, el **Brasil - Marruecos** es el duelo más llamativo de la jo
 
 En España, el Mundial 2026 se ve en **DAZN**, con todos los partidos disponibles de la forma más cómoda a través de **Movistar Plus+ vía DAZN** (los 104 encuentros en un mismo sitio). Algunos partidos seleccionados se emiten además en abierto en **RTVE**. Tienes el desglose completo de plataformas y precios en [dónde ver el Mundial 2026](/2026/donde-ver).`,
     category: 'tv',
+    kind: 'agenda',
     sourceName: "Mundiales de Fútbol",
     sourceUrl: 'https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026',
     sourceLang: 'es',
@@ -10380,6 +10484,7 @@ Lo que se sabrá esta semana. Croacia (18 may) abre la rueda final. Le seguirán
 
 **Calendario completo del Mundial 2026** y previa de cada selección en [/2026/listas](/2026/listas) y [/2026/convocatorias](/2026/convocatorias). Si quieres seguir el camino de tu selección con [Follow My Team](/2026/hospitality), los paquetes hospitality oficiales arrancan en 6.500 USD.`,
     category: 'convocatorias',
+    kind: 'previa',
     sourceName: 'BeSoccer',
     sourceUrl: 'https://es.besoccer.com/noticia/convocatorias-listas-todas-selecciones-mundial-2026-1408032',
     sourceLang: 'es',
