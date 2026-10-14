@@ -22,7 +22,7 @@ function FormBlock({ name, games, teamBase }: { name: string; games: FormGame[];
         <h3 className="t-h3 text-[var(--color-fg)]">{name}</h3>
         <span className="form" aria-label={`Últimos resultados de ${name}`}>{[...games].reverse().map((g) => <i key={g.id} className={CHIP[g.result]}>{g.result}</i>)}</span>
       </div>
-      <p className="mt-1 text-xs text-[var(--color-fg-subtle)]">{plural(tally.G, 'victoria', 'victorias')}, {plural(tally.E, 'empate', 'empates')} y {plural(tally.P, 'derrota', 'derrotas')} en sus últimos {games.length} partidos</p>
+      <p className="mt-1 text-xs text-[var(--color-fg-subtle)]">{tally.E > 0 ? `${plural(tally.G, 'victoria', 'victorias')}, ${plural(tally.E, 'empate', 'empates')} y ${plural(tally.P, 'derrota', 'derrotas')}` : `${plural(tally.G, 'victoria', 'victorias')} y ${plural(tally.P, 'derrota', 'derrotas')}`} en sus últimos {games.length} partidos</p>
       <ul className="mt-3 divide-y divide-[var(--color-border)]">
         {games.map((g) => (
           <li key={g.id} className="flex items-center gap-3 py-2 text-sm">
