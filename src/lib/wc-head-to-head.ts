@@ -12,6 +12,7 @@
 import historical from './wc-historical-matches.json';
 import teams from './wc-teams.json';
 import { FIXTURES_2026, TEAMS_2026, matchSlug } from './wc-2026';
+import archive2026 from '@/data/wc-2026-results.json';
 
 type HistMatch = {
   match_number: number;
@@ -48,6 +49,7 @@ export const STAGE_LABEL_H2H: Record<string, string> = {
   group: 'Fase de grupos',
   group2: 'Segunda fase de grupos',
   final_group: 'Fase final (liguilla)',
+  r32: 'Dieciseisavos de final',
   r16: 'Octavos de final',
   qf: 'Cuartos de final',
   sf: 'Semifinal',
@@ -80,6 +82,21 @@ export function pairSlug(a: string, b: string): string {
 const ALL: (HistMatch & { year: string })[] = [];
 for (const [year, arr] of Object.entries(historical as Record<string, HistMatch[]>)) {
   for (const m of arr) if (m.home_code && m.away_code) ALL.push({ ...m, year });
+}
+// Mundial 2026 (archivo congelado de ESPN): 72 de grupos, 16 de dieciseisavos, 8, 4, 2, tercer puesto y final.
+{
+  type Ev = { date: string; venue?: string; status?: string; home: { abbr: string; score: number | null; shootout: number | null; winner: boolean }; away: { abbr: string; score: number | null; shootout: number | null; winner: boolean } };
+  const evs = [...((archive2026 as unknown as { events: Ev[] }).events ?? [])].sort((a, b) => a.date.localeCompare(b.date));
+  const stageOf = (i: number) => (i < 72 ? 'group' : i < 88 ? 'r32' : i < 96 ? 'r16' : i < 100 ? 'qf' : i < 102 ? 'sf' : i === 102 ? '3rd' : 'final');
+  evs.forEach((e, i) => {
+    if (!e.home?.abbr || !e.away?.abbr || e.home.score == null) return;
+    ALL.push({
+      year: '2026', match_number: i + 1, stage: stageOf(i), match_date: e.date.slice(0, 10),
+      home_code: e.home.abbr, away_code: e.away.abbr, home_score: e.home.score, away_score: e.away.score,
+      home_score_et: null, away_score_et: null, home_score_pk: e.home.shootout, away_score_pk: e.away.shootout,
+      winner_code: e.home.winner ? e.home.abbr : e.away.winner ? e.away.abbr : null, venue_name: e.venue ?? null, venue_city: null,
+    });
+  });
 }
 
 // slug canónico -> [códigos]. Unión de pares históricos + emparejamientos 2026.
@@ -328,6 +345,7 @@ const STAGE_TIER: Record<string, number> = {
   sf: 4,
   qf: 3,
   r16: 2,
+  r32: 1.5,
   group2: 2,
   group: 1,
 };
@@ -492,5 +510,39 @@ export function getHeadToHead(slug: string): HeadToHead | null {
     aGoals,
     bGoals,
     fixture2026,
+  };
+}
+
+/** Mejor ronda alcanzada en la historia (por linaje de códigos) con el año más reciente en que se alcanzó. */
+export function bestWorldCupStage(codes: string[]): { stage: string; label: string; year: string } | null {
+  const set = new Set(codes.map((c) => c.toUpperCase()));
+  let best: { tier: number; stage: string; year: string } | null = null;
+  for (const m of ALL) {
+    if (!set.has(m.home_code) && !set.has(m.away_code)) continue;
+    let stage = m.stage, tier = STAGE_TIER[m.stage] ?? 1;
+    // Ganar la final = campeón; ganar el tercer puesto = tercero.
+    const ours = set.has(m.home_code) ? m.home_code : m.away_code;
+    if (m.stage === 'final' && m.winner_code === ours) { stage = 'champion'; tier = 7; }
+    if (m.stage === '3rd') { stage = m.winner_code === ours ? 'third' : 'fourth'; tier = m.winner_code === ours ? 5.5 : 5; }
+    if (!best || tier > best.tier || (tier === best.tier && m.year > best.year)) best = { tier, stage, year: m.year };
+  }
+  if (!best) return null;
+  const label = best.stage === 'champion' ? 'Campeón' : best.stage === 'final' ? 'Subcampeón' : best.stage === 'third' ? 'Tercer puesto' : best.stage === 'fourth' ? 'Cuarto puesto' : (STAGE_LABEL_H2H[best.stage] ?? best.stage);
+  return { stage: best.stage, label, year: best.year };
+}
+
+/** Años en que el linaje ganó la final. */
+export function worldCupTitleYears(codes: string[]): string[] {
+  const set = new Set(codes.map((c) => c.toUpperCase()));
+  return ALL.filter((m) => m.stage === 'final' && m.winner_code && set.has(m.winner_code)).map((m) => m.year).sort();
+}
+
+/** Finales jugadas por el linaje: ganadas y perdidas. */
+export function worldCupFinals(codes: string[]): { won: string[]; lost: string[] } {
+  const set = new Set(codes.map((c) => c.toUpperCase()));
+  const finals = ALL.filter((m) => m.stage === 'final' && (set.has(m.home_code) || set.has(m.away_code)));
+  return {
+    won: finals.filter((m) => m.winner_code && set.has(m.winner_code)).map((m) => m.year).sort(),
+    lost: finals.filter((m) => !(m.winner_code && set.has(m.winner_code))).map((m) => m.year).sort(),
   };
 }

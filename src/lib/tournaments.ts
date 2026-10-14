@@ -403,8 +403,13 @@ export const TOURNAMENTS: Tournament[] = [
   {
     year: 2026, slug: '2026-norteamerica', host: 'EE.UU. · Canadá · México', hostCode: 'US',
     hostCountries: ['US', 'CA', 'MX'],
-    champion: '-', championCode: 'TBD',
-    teams: 48, matches: 104, goals: 0, attendance: 0,
+    champion: 'España', championCode: 'ES',
+    runnerUp: 'Argentina', runnerUpCode: 'AR',
+    third: 'Inglaterra', thirdCode: 'GB',
+    fourth: 'Francia', fourthCode: 'FR',
+    finalResult: { score: '1-0', extraTime: true },
+    teams: 48, matches: 104, goals: 333, attendance: 0,
+    topScorer: { name: 'Kylian Mbappé', goals: 10, team: 'Francia' },
     startDate: '2026-06-11', endDate: '2026-07-19',
     palette: { from: '#0a5fd3', to: '#ff3b3b' },
     tagline: 'El primero de tres sedes',
@@ -430,20 +435,20 @@ export const fmtEs = (n: number) => String(n).replace(/\B(?=(\d{3})+(?!\d))/g, '
  * cuentan como un solo campeón (FIFA atribuye los títulos a Alemania).
  */
 export const HISTORY_TOTALS = (() => {
-  const past = TOURNAMENTS.filter((t) => t.year < 2026);
+  const played = TOURNAMENTS.filter((t) => t.year <= 2026 && t.champion && t.champion !== '-');
   const norm = (c: string) => (/alemania/i.test(c) ? 'Alemania' : c);
   return {
-    editions: past.length + 1,
-    matches: past.reduce((s, t) => s + t.matches, 0) + 104,
-    goals: past.reduce((s, t) => s + t.goals, 0) + 333,
-    champions: new Set([...past.map((t) => norm(t.champion)), 'España']).size,
+    editions: played.length,
+    matches: played.reduce((s, t) => s + t.matches, 0),
+    goals: played.reduce((s, t) => s + t.goals, 0),
+    champions: new Set(played.map((t) => norm(t.champion))).size,
   };
 })();
 
 export const AGGREGATES = {
-  editions: TOURNAMENTS.filter((t) => t.year < 2026).length,
-  matches: TOURNAMENTS.filter((t) => t.year < 2026).reduce((s, t) => s + t.matches, 0),
-  goals: TOURNAMENTS.filter((t) => t.year < 2026).reduce((s, t) => s + t.goals, 0),
-  champions: new Set(TOURNAMENTS.filter((t) => t.year < 2026).map((t) => t.champion)).size,
+  editions: HISTORY_TOTALS.editions,
+  matches: HISTORY_TOTALS.matches,
+  goals: HISTORY_TOTALS.goals,
+  champions: HISTORY_TOTALS.champions,
   teams2026: 48,
 };

@@ -11,7 +11,9 @@ import { TeamPhotoGallery } from '@/components/team/team-photo-gallery';
 import { AmazonProductGrid } from '@/components/affiliate/amazon-card';
 import { getProductsByTeam } from '@/lib/amazon-products';
 import { getJerseyHistory } from '@/lib/wc-jerseys';
-import { headToHeadsForTeam, teamWorldCupRecord } from '@/lib/wc-head-to-head';
+import { headToHeadsForTeam, teamWorldCupRecord, worldCupFinals } from '@/lib/wc-head-to-head';
+import { teamWorldCupFaq } from '@/lib/team-faq';
+import { FaqBlock, faqLd } from '@/components/team/team-faq';
 import { Shirt, ArrowRight, Newspaper, CalendarClock, Play } from 'lucide-react';
 import { TeamKitShop } from '@/components/team/team-kit-shop';
 import { getNewsByTeam, relativeTimeEs } from '@/lib/news';
@@ -55,14 +57,16 @@ export async function generateMetadata({
   // Récord completo (histórico real 1930-2022, con linaje), no solo los
   // partidos con ficha detallada en la BD.
   const preds = await getPredecessors(team.code);
-  const rec = teamWorldCupRecord([team.code, ...preds.map((p) => p.code)]);
+  const lineage = [team.code, ...preds.map((p) => p.code)];
+  const rec = teamWorldCupRecord(lineage);
   const wcCount = rec.wcCount || team.wc_count;
+  const titles = worldCupFinals(lineage).won.length;
   // Patrón confirmado: "Brasil en los Mundiales · Cuántos ha ganado, plantillas y récords".
   // Mismo título para los 103 países; el subtítulo H2 (en el componente)
   // se adapta por tier (campeón / regular / debutante).
   const title = `${name} en los Mundiales · Cuántos ha ganado, plantillas y récords`;
-  const description = team.titles > 0
-    ? `${name}: ${team.titles} ${team.titles === 1 ? 'título mundial' : 'títulos mundiales'}, ${wcCount} participaciones, ${rec.played} partidos. Plantillas históricas, récord (${rec.wins}-${rec.draws}-${rec.losses}) y máximos goleadores.`
+  const description = titles > 0
+    ? `${name}: ${titles} ${titles === 1 ? 'título mundial' : 'títulos mundiales'}, ${wcCount} participaciones, ${rec.played} partidos. Plantillas históricas, récord (${rec.wins}-${rec.draws}-${rec.losses}) y máximos goleadores.`
     : `${name} en los Mundiales: ${wcCount} ${wcCount === 1 ? 'participación' : 'participaciones'}, ${rec.played} partidos, récord ${rec.wins}-${rec.draws}-${rec.losses}. Plantillas, mejores actuaciones y máximos goleadores.`;
   const url =
     locale === routing.defaultLocale
@@ -110,6 +114,7 @@ export default async function SelectionDetailPage({
 
   // Récord COMPLETO en Mundiales (1930-2022) desde el histórico real, no solo
   // los partidos con ficha detallada en la BD. Suma el linaje (RFA/RDA, etc.).
+  const finals = worldCupFinals(lineageCodes);
   const wcRecord = teamWorldCupRecord(lineageCodes);
 
   // Resultados de ESTE Mundial (2026), en vivo desde ESPN (fase de grupos).
@@ -174,65 +179,14 @@ export default async function SelectionDetailPage({
     memberOf: team.confederation
       ? { '@type': 'SportsOrganization', name: team.confederation }
       : undefined,
-    award: team.titles > 0 ? `${team.titles}× FIFA World Cup champion` : undefined,
+    award: finals.won.length > 0 ? `${finals.won.length}× FIFA World Cup champion` : undefined,
   };
 
   // FAQ schema con preguntas frecuentes específicas de la selección.
   // Captura las queries 'cuantos goles/mundiales tiene X' que en GSC
   // están en posición 6-11 con ~0% CTR por falta de answer directo.
-  const teamFaqLd = {
-    '@context': 'https://schema.org',
-    '@type': 'FAQPage',
-    mainEntity: [
-      {
-        '@type': 'Question',
-        name: `¿Cuántos Mundiales ha ganado ${teamDisplayName(team)}?`,
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: unified.titles > 0
-            ? `${teamDisplayName(team)} ha ganado ${unified.titles} Mundial${unified.titles === 1 ? '' : 'es'}. Ha disputado ${unified.wc_count} torneos en total con un balance de ${unified.wins} victorias, ${unified.draws} empates y ${unified.losses} derrotas.`
-            : `${teamDisplayName(team)} no ha ganado ningún Mundial. Ha disputado ${unified.wc_count} torneo${unified.wc_count === 1 ? '' : 's'} en su historia con un balance de ${unified.wins} victorias, ${unified.draws} empates y ${unified.losses} derrotas.`,
-        },
-      },
-      {
-        '@type': 'Question',
-        name: `¿Cuántos goles tiene ${teamDisplayName(team)} en los Mundiales?`,
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: `${teamDisplayName(team)} ha marcado ${unified.goals_for} goles a favor y recibido ${unified.goals_against} en sus ${unified.wc_count} participaciones mundialistas. Diferencia de goles: ${unified.goals_for - unified.goals_against >= 0 ? '+' : ''}${unified.goals_for - unified.goals_against}.`,
-        },
-      },
-      {
-        '@type': 'Question',
-        name: `¿Cuántos Mundiales ha jugado ${teamDisplayName(team)}?`,
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: `${teamDisplayName(team)} ha disputado ${unified.wc_count} Copas del Mundo a lo largo de la historia. Total de partidos jugados: ${unified.matches_played}.`,
-        },
-      },
-      ...(unified.titles > 0
-        ? [
-            {
-              '@type': 'Question',
-              name: `¿Cuándo ganó ${teamDisplayName(team)} su último Mundial?`,
-              acceptedAnswer: {
-                '@type': 'Answer',
-                text: `Consulta la lista completa de títulos de ${teamDisplayName(team)} en su histórico de palmarés y los partidos disputados en cada Mundial dentro de esta página.`,
-              },
-            },
-          ]
-        : [
-            {
-              '@type': 'Question',
-              name: `¿Cuál es el mejor resultado de ${teamDisplayName(team)} en un Mundial?`,
-              acceptedAnswer: {
-                '@type': 'Answer',
-                text: `${teamDisplayName(team)} nunca ha ganado un Mundial. Su mejor actuación histórica se puede consultar dentro de esta misma página en la sección de Mundiales disputados.`,
-              },
-            },
-          ]),
-    ],
-  };
+  const teamFaq = teamWorldCupFaq(teamDisplayName(team), lineageCodes);
+  const teamFaqLd = faqLd(teamFaq);
 
   return (
     <div>
@@ -306,14 +260,17 @@ export default async function SelectionDetailPage({
       {/* Honors + record (unified if lineage exists) */}
       <section className="mx-auto w-full max-w-[1400px] px-6 mt-10 md:px-10">
         <div className="grid gap-px overflow-hidden rounded-3xl border border-[var(--color-border)] bg-[var(--color-border)] sm:grid-cols-2 lg:grid-cols-6">
-          <Stat label="Títulos" value={String(unified.titles)} accent={unified.titles > 0 ? 'var(--color-pitch)' : undefined} icon={unified.titles > 0 ? Trophy : undefined} />
-          <Stat label="Subcampeón" value={String(unified.runners_up)} />
+          <Stat label="Títulos" value={String(finals.won.length)} accent={finals.won.length > 0 ? 'var(--color-pitch)' : undefined} icon={finals.won.length > 0 ? Trophy : undefined} />
+          <Stat label="Subcampeón" value={String(finals.lost.length)} />
           <Stat label="Mundiales" value={String(wcRecord.wcCount || unified.wc_count)} />
           <Stat label="Partidos" value={String(wcRecord.played)} />
           <Stat label="Récord" value={`${wcRecord.wins}-${wcRecord.draws}-${wcRecord.losses}`} small />
           <Stat label="Goles" value={`${wcRecord.goalsFor}/${wcRecord.goalsAgainst}`} small />
         </div>
       </section>
+
+      {/* Preguntas frecuentes: respuesta directa (Mundiales ganados, jugados, mejor resultado, goles). */}
+      <FaqBlock title={`${teamDisplayName(team)} en los Mundiales`} items={teamFaq} />
 
       {/* ── CAMINO A LA FINAL (solo selecciones de 2026) ── */}
       {GROUPS_2026.some((g) => (g.teams as string[]).includes(team.code)) && (
