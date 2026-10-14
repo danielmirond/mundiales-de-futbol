@@ -201,10 +201,11 @@ export const STANDING_COLUMNS: Record<string, StandingColumn[]> = {
   ],
   rugby: [
     { key: 'gamesPlayed', label: 'PJ', title: 'Partidos jugados' },
-    { key: 'wins', label: 'G', title: 'Ganados' },
-    { key: 'ties', label: 'E', title: 'Empatados' },
-    { key: 'losses', label: 'P', title: 'Perdidos' },
-    { key: 'pointDifferential', label: 'Dif', title: 'Diferencia de puntos' },
+    { key: 'gamesWon', label: 'G', title: 'Ganados' },
+    { key: 'gamesDrawn', label: 'E', title: 'Empatados' },
+    { key: 'gamesLost', label: 'P', title: 'Perdidos' },
+    { key: 'pointsDifference', label: 'Dif', title: 'Diferencia de puntos' },
+    { key: 'bonusPoints', label: 'BP', title: 'Puntos bonus' },
     { key: 'points', label: 'Pts', title: 'Puntos' },
   ],
 };
