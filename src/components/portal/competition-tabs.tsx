@@ -8,12 +8,13 @@ export type CompetitionSection = 'inicio' | 'partidos-hoy' | 'calendario' | 'res
 
 export function competitionSections(c: Competition): { key: CompetitionSection; label: string; path: string }[] {
   const base = `/${c.sport}/${c.slug}`;
-  const s: { key: CompetitionSection; label: string; path: string }[] = [
-    { key: 'inicio', label: 'Inicio', path: base },
+  const s: { key: CompetitionSection; label: string; path: string }[] = [{ key: 'inicio', label: 'Inicio', path: base }];
+  if (!c.espn) return s; // solo estadísticas (p. ej. OpenACB): sin calendario ni resultados
+  s.push(
     { key: 'partidos-hoy', label: 'Partidos de hoy', path: `${base}/partidos-hoy` },
     { key: 'calendario', label: 'Calendario', path: `${base}/calendario` },
     { key: 'resultados', label: 'Resultados', path: `${base}/resultados` },
-  ];
+  );
   if (c.sport === 'futbol') s.push({ key: 'alineaciones', label: 'Alineaciones', path: `${base}/alineaciones` });
   if (c.hasStandings) s.push({ key: 'clasificacion', label: 'Clasificación', path: `${base}/clasificacion` });
   if (c.sport === 'futbol') s.push({ key: 'goleadores', label: 'Goleadores', path: `${base}/goleadores` });

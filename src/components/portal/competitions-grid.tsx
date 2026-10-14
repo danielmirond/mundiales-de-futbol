@@ -7,7 +7,7 @@ import { routing, type Locale } from '@/i18n/routing';
 const withLocale = (l: Locale, h: string) => (l === routing.defaultLocale ? h : `/${l}${h}`);
 
 function CompChip({ c, locale }: { c: Competition; locale: Locale }) {
-  const soon = !c.espn && !c.href;
+  const soon = !c.espn && !c.href && !c.stats;
   return (
     <Link
       href={withLocale(locale, competitionPath(c))}

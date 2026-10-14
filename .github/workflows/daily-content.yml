@@ -37,6 +37,8 @@ jobs:
         env:
           RAPIDAPI_SPORTAPI_KEY: ${{ secrets.RAPIDAPI_SPORTAPI_KEY }}
         run: npx tsx scripts/sportapi/snapshot.ts --budget 20 --comps laliga,champions-league --lineups || echo "SportAPI: sin cambios"
+      - name: Snapshot OpenACB (Liga Endesa, estadísticas semanales)
+        run: npx tsx scripts/openacb/snapshot.ts || echo "OpenACB: sin cambios"
       - name: Generar piezas
         env:
           DAILY_DRY: ${{ github.event.inputs.dry == 'true' && '1' || '' }}
@@ -47,10 +49,10 @@ jobs:
         if: ${{ github.event.inputs.dry != 'true' }}
         run: |
           set -e
-          if git diff --quiet src/lib/news.ts src/data/sportapi-snapshot.json; then echo "Sin cambios."; exit 0; fi
+          if git diff --quiet src/lib/news.ts src/data/sportapi-snapshot.json src/data/openacb-snapshot.json; then echo "Sin cambios."; exit 0; fi
           git config user.name "daily-content-bot"
           git config user.email "daily-content-bot@users.noreply.github.com"
-          git add src/lib/news.ts src/data/sportapi-snapshot.json
+          git add src/lib/news.ts src/data/sportapi-snapshot.json src/data/openacb-snapshot.json
           git commit -m "auto(contenidos): piezas del $(date -u +%F)"
           git push origin HEAD:main
       # Vercel no está conectado a Git: sin este paso las piezas no llegan a

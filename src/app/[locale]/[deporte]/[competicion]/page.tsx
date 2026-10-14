@@ -4,6 +4,7 @@ import { competitionsOf, competitionPath, getCompetition } from '@/lib/competiti
 import { TodayBoard } from '@/components/portal/today-board';
 import { StandingsTable } from '@/components/portal/standings-table';
 import { CompetitionHeader } from '@/components/portal/competition-header';
+import { OpenAcbStats } from '@/components/portal/openacb-stats';
 import { resolveCompetition, withLocale, compBase } from '@/lib/competition-page';
 import type { Locale } from '@/i18n/routing';
 import { pageMetadata } from '@/lib/seo';
@@ -16,11 +17,11 @@ export async function generateMetadata({ params }: { params: Params }) {
   const { locale, deporte, competicion } = await params;
   const c = getCompetition(deporte, competicion);
   if (!c) return {};
-  const soon = !c.espn && !c.href;
+  const soon = !c.espn && !c.href && !c.stats;
   return pageMetadata({
     locale,
     path: compBase(c),
-    title: soon ? `${c.name}: calendario y resultados` : `${c.name}: resultados, calendario${c.hasStandings ? ' y clasificación' : ''} en directo`,
+    title: soon ? `${c.name}: calendario y resultados` : c.stats && !c.espn ? `${c.name}: estadísticas avanzadas de equipos, ratings y ritmo` : `${c.name}: resultados, calendario${c.hasStandings ? ' y clasificación' : ''} en directo`,
     description: c.description,
     keywords: c.keywords,
     noIndex: soon,
@@ -32,8 +33,8 @@ export default async function CompetitionPage({ params }: { params: Params }) {
   const { s, c } = resolveCompetition(locale, deporte, competicion);
   setRequestLocale(locale);
   const L = locale as Locale;
-  const soon = !c.espn;
-  const siblings = competitionsOf(s.slug).filter((x) => x.slug !== c.slug && (x.espn || x.href));
+  const soon = !c.espn && !c.stats;
+  const siblings = competitionsOf(s.slug).filter((x) => x.slug !== c.slug && (x.espn || x.href || x.stats));
   const more = (path: string, label: string) => (
     <div className="mx-auto -mt-6 w-full max-w-[1400px] px-6 pb-6 md:px-10">
       <Link href={withLocale(L, `${compBase(c)}/${path}`)} className="inline-flex items-center rounded-full border border-[var(--color-border-strong)] px-4 py-2 text-sm font-semibold hover:border-[var(--accent)] hover:text-[var(--accent-ink)]">{label} →</Link>
@@ -50,6 +51,8 @@ export default async function CompetitionPage({ params }: { params: Params }) {
             Estamos conectando los datos en directo de <strong className="text-[var(--color-fg)]">{c.name}</strong>. Mientras tanto, puedes seguir el resto de competiciones de {s.name.toLowerCase()}.
           </div>
         </section>
+      ) : !c.espn && c.stats === 'openacb' ? (
+        <OpenAcbStats />
       ) : (
         <>
           <TodayBoard locale={L} competitions={[c]} range="today" kicker="Hoy" title="Partidos de hoy" emptyText={`Hoy no hay partidos de ${c.name}.`} />

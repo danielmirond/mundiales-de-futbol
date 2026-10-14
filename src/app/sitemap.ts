@@ -113,8 +113,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   out.push(entry('/partidos-hoy', now, 'daily', 0.9));
   for (const s of SPORTS) out.push(entry(`/${s.slug}`, now, 'daily', 0.8));
   for (const c of COMPETITIONS) {
-    if (c.href || !c.espn) continue;
+    if (c.href || (!c.espn && !c.stats)) continue;
     out.push(entry(`/${c.sport}/${c.slug}`, now, 'daily', 0.8));
+    if (!c.espn) continue;
     for (const sec of ['partidos-hoy', 'calendario', 'resultados']) out.push(entry(`/${c.sport}/${c.slug}/${sec}`, now, 'daily', 0.7));
     if (c.hasStandings) out.push(entry(`/${c.sport}/${c.slug}/clasificacion`, now, 'daily', 0.7));
     if (c.sport === 'futbol') { out.push(entry(`/${c.sport}/${c.slug}/alineaciones`, now, 'daily', 0.6)); out.push(entry(`/${c.sport}/${c.slug}/goleadores`, now, 'daily', 0.6)); }

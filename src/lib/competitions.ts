@@ -30,6 +30,8 @@ export type Competition = {
   /** Mapeo ESPN: `sport` (soccer, basketball, rugby…) y `league` (esp.1…). */
   espn?: { sport: string; league: string; dateRange?: boolean };
   hasStandings: boolean;
+  /** Fuente alternativa de estadísticas cuando ESPN no cubre la competición. */
+  stats?: 'openacb';
   flag?: string;
   /** Si la competición ya vive en otra sección (p. ej. el Mundial 2026 en /2026). */
   href?: string;
@@ -87,6 +89,8 @@ export const COMPETITIONS: Competition[] = [
     description: 'NBA: marcadores en directo, calendario y clasificación por conferencias.', keywords: ['nba', 'resultados nba', 'clasificación nba', 'partidos nba hoy'] },
   { slug: 'euroliga', name: 'Euroliga', sport: 'baloncesto', kind: 'liga', espn: { sport: 'basketball', league: 'euroleague' }, hasStandings: true,
     description: 'Euroliga de baloncesto: marcadores, calendario y clasificación.', keywords: ['euroliga', 'resultados euroliga', 'clasificación euroliga'] },
+  { slug: 'liga-endesa', name: 'Liga Endesa', shortName: 'Liga Endesa', sport: 'baloncesto', kind: 'liga', hasStandings: false, stats: 'openacb', flag: '🇪🇸',
+    description: 'Liga Endesa (ACB): estadísticas avanzadas de los 18 equipos actualizadas cada semana, ratings, ritmo y cuatro factores.', keywords: ['liga endesa', 'acb', 'estadísticas liga endesa', 'liga endesa equipos', 'baloncesto acb'] },
   { slug: 'mundial-de-baloncesto', name: 'Mundial de Baloncesto', sport: 'baloncesto', kind: 'mundial', hasStandings: false,
     description: 'Copa del Mundo FIBA de baloncesto.', keywords: ['mundial de baloncesto', 'mundial fiba'] },
   // ─── Rugby ──────────────────────────────────────────────────────
