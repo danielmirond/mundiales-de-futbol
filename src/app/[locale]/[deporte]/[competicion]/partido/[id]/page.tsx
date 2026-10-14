@@ -5,6 +5,8 @@ import { ArrowLeft } from 'lucide-react';
 import { getSport, getCompetition } from '@/lib/competitions';
 import { fetchEventSummary } from '@/lib/wc-2026-match-summary';
 import { getWostiIndex, channelsFor } from '@/lib/wosti';
+import { lineupFor } from '@/lib/sportapi';
+import { MissingPlayers } from '@/components/match/missing-players';
 import { LiveMatchSummary } from '@/components/match/live-match-summary';
 import { MovistarCintillo } from '@/components/affiliate/movistar-banner';
 import { routing, type Locale } from '@/i18n/routing';
@@ -56,6 +58,7 @@ export default async function PartidoPortalPage({ params }: { params: Params }) 
     ? channelsFor(await getWostiIndex(), h.date, [h.home.name], [h.away.name])
     : [];
   const teamBase = withLocale(L, `/${c.sport}/${c.slug}/equipo`);
+  const bajas = s.slug === 'futbol' ? lineupFor(c.slug, [h.home.name], [h.away.name]) : null;
   const tabs = [
     summary.hasCommentary && { href: '#narracion', label: 'Narración' },
     summary.hasEvents && { href: '#momentos', label: 'Momentos' },
@@ -115,6 +118,8 @@ export default async function PartidoPortalPage({ params }: { params: Params }) 
           </div>
         </nav>
         )}
+
+        {bajas && <MissingPlayers lineup={bajas} homeName={h.home.name} awayName={h.away.name} />}
 
         {s.slug === 'futbol' && (
         <section className="mx-auto mt-6 w-full max-w-[1000px] px-6 md:px-10">

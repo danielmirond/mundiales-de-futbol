@@ -9,6 +9,7 @@
  */
 import type { Competition } from './competitions';
 import { fetchDay, madridDateKey, type Match } from './espn';
+import { officialIndex, findOfficial } from './sportapi';
 
 const SITE_API = 'https://site.api.espn.com/apis/site/v2/sports';
 const HEADERS = { 'User-Agent': 'Mozilla/5.0 (mundiales-de-futbol.com)' };
@@ -178,7 +179,36 @@ export function groupMatchdays(matches: Match[], comp: Competition, phases?: Pha
     return out;
   }
   if (weekly) { byBlock(matches).forEach((b) => push(b, `Semana del ${esDate.format(new Date(`${madridDateKey(new Date(b[0].date))}T12:00:00Z`))}`, 'semana')); return out; }
-  if (comp.hasStandings) { byTeamOnce(matches).forEach((b, i) => push(b, `Jornada ${i + 1}`, 'jornada')); return out; }
+  if (comp.hasStandings) {
+    // Jornadas oficiales (snapshot de SportAPI) cuando existen; el resto, por el método «cada equipo una vez».
+    const official = officialIndex(comp.slug);
+    if (official) {
+      const byRound = new Map<number, Match[]>();
+      const rest: Match[] = [];
+      for (const m of matches) {
+        const r = findOfficial(official, m);
+        if (r) byRound.set(r.round, [...(byRound.get(r.round) ?? []), m]); else rest.push(m);
+      }
+      if (byRound.size > 0) {
+        const known = [...byRound.keys()].sort((a, b) => a - b);
+        const lastKnown = known[known.length - 1];
+        const lastDate = Math.max(...(byRound.get(lastKnown) ?? []).map((x) => new Date(x.date).getTime()));
+        // No cruzados dentro del tramo conocido → jornada con la fecha más cercana; posteriores → numeración continua.
+        const later: Match[] = [];
+        for (const m of rest) {
+          const t = new Date(m.date).getTime();
+          if (t > lastDate) { later.push(m); continue; }
+          let best = 0, bestGap = Infinity;
+          for (const [n, ms] of byRound) { const gap = Math.min(...ms.map((x) => Math.abs(new Date(x.date).getTime() - t))); if (gap < bestGap) { bestGap = gap; best = n; } }
+          if (best && bestGap <= 4 * 86_400_000) byRound.set(best, [...byRound.get(best)!, m]); else later.push(m);
+        }
+        for (const n of known) { push(byRound.get(n)!, `Jornada ${n}`, 'jornada'); out[out.length - 1].n = n; out[out.length - 1].slug = `jornada-${n}`; }
+        byTeamOnce(later).forEach((b, i) => { const n = lastKnown + i + 1; push(b, `Jornada ${n}`, 'jornada'); out[out.length - 1].n = n; out[out.length - 1].slug = `jornada-${n}`; });
+        return out;
+      }
+    }
+    byTeamOnce(matches).forEach((b, i) => push(b, `Jornada ${i + 1}`, 'jornada')); return out;
+  }
   byBlock(matches).forEach((b, i) => push(b, `Ronda ${i + 1}`, 'ronda'));
   return out;
 }

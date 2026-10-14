@@ -29,6 +29,11 @@ jobs:
       - uses: actions/setup-node@v4
         with: { node-version: '20', cache: 'npm' }
       - run: npm ci
+      - name: Snapshot SportAPI (jornadas oficiales y bajas; 50 peticiones/día)
+        if: ${{ env.RAPIDAPI_SPORTAPI_KEY != '' }}
+        env:
+          RAPIDAPI_SPORTAPI_KEY: ${{ secrets.RAPIDAPI_SPORTAPI_KEY }}
+        run: npx tsx scripts/sportapi/snapshot.ts --budget 20 --comps laliga,champions-league --lineups || echo "SportAPI: sin cambios"
       - name: Generar piezas
         env:
           DAILY_DRY: ${{ github.event.inputs.dry == 'true' && '1' || '' }}
@@ -39,10 +44,10 @@ jobs:
         if: ${{ github.event.inputs.dry != 'true' }}
         run: |
           set -e
-          if git diff --quiet src/lib/news.ts; then echo "Sin cambios."; exit 0; fi
+          if git diff --quiet src/lib/news.ts src/data/sportapi-snapshot.json; then echo "Sin cambios."; exit 0; fi
           git config user.name "daily-content-bot"
           git config user.email "daily-content-bot@users.noreply.github.com"
-          git add src/lib/news.ts
+          git add src/lib/news.ts src/data/sportapi-snapshot.json
           git commit -m "auto(contenidos): piezas del $(date -u +%F)"
           git push origin HEAD:main
       # Vercel no está conectado a Git: sin este paso las piezas no llegan a

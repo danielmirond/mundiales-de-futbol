@@ -67,7 +67,8 @@ function claveEquipo(nombre: string): string {
     .trim();
   return sinPrefijos || base;
 }
-function normaliza(nombre: string): string {
+/** Clave normalizada de equipo (sin prefijos ni acentos) para cruzar feeds. */
+export function normaliza(nombre: string): string {
   const expandido = nombre
     .toLowerCase()
     .replace(/\bat\.?\s/g, 'atletico ')

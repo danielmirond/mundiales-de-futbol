@@ -1,0 +1,1160 @@
+{
+ "updatedAt": "2026-10-14T10:39:30.295Z",
+ "competitions": {
+  "laliga": {
+   "tournamentId": 8,
+   "seasonId": 97268,
+   "seasonName": "LaLiga 26/27",
+   "currentRound": 8,
+   "totalRounds": 38,
+   "fetchedRounds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+   ],
+   "matches": [
+    {
+     "id": 16421047,
+     "round": 1,
+     "date": "2026-08-15T17:30:00.000Z",
+     "home": "Deportivo Alavés",
+     "away": "Getafe"
+    },
+    {
+     "id": 16421052,
+     "round": 1,
+     "date": "2026-08-15T19:30:00.000Z",
+     "home": "Sevilla",
+     "away": "Rayo Vallecano"
+    },
+    {
+     "id": 16421061,
+     "round": 1,
+     "date": "2026-08-16T15:00:00.000Z",
+     "home": "Real Racing Club",
+     "away": "Villarreal"
+    },
+    {
+     "id": 16421053,
+     "round": 1,
+     "date": "2026-08-16T17:00:00.000Z",
+     "home": "Espanyol",
+     "away": "Levante UD"
+    },
+    {
+     "id": 16421050,
+     "round": 1,
+     "date": "2026-08-17T19:00:00.000Z",
+     "home": "Deportivo de A Coruña",
+     "away": "Elche"
+    },
+    {
+     "id": 16421055,
+     "round": 1,
+     "date": "2026-08-19T19:00:00.000Z",
+     "home": "Atlético Madrid",
+     "away": "Málaga CF"
+    },
+    {
+     "id": 16421049,
+     "round": 1,
+     "date": "2026-08-25T19:00:00.000Z",
+     "home": "Valencia",
+     "away": "Real Betis"
+    },
+    {
+     "id": 16421051,
+     "round": 1,
+     "date": "2026-08-26T19:00:00.000Z",
+     "home": "Real Madrid",
+     "away": "Real Sociedad"
+    },
+    {
+     "id": 16815992,
+     "round": 1,
+     "date": "2026-08-27T18:30:00.000Z",
+     "home": "Celta Vigo",
+     "away": "Osasuna"
+    },
+    {
+     "id": 16421059,
+     "round": 1,
+     "date": "2026-08-27T19:00:00.000Z",
+     "home": "FC Barcelona",
+     "away": "Athletic Club"
+    },
+    {
+     "id": 16416292,
+     "round": 2,
+     "date": "2026-08-20T19:00:00.000Z",
+     "home": "Rayo Vallecano",
+     "away": "Deportivo Alavés"
+    },
+    {
+     "id": 16416293,
+     "round": 2,
+     "date": "2026-08-21T19:00:00.000Z",
+     "home": "Real Betis",
+     "away": "Real Sociedad"
+    },
+    {
+     "id": 16416301,
+     "round": 2,
+     "date": "2026-08-22T15:00:00.000Z",
+     "home": "Athletic Club",
+     "away": "Sevilla"
+    },
+    {
+     "id": 16416298,
+     "round": 2,
+     "date": "2026-08-22T17:30:00.000Z",
+     "home": "Valencia",
+     "away": "Celta Vigo"
+    },
+    {
+     "id": 16416306,
+     "round": 2,
+     "date": "2026-08-22T19:30:00.000Z",
+     "home": "Espanyol",
+     "away": "Real Madrid"
+    },
+    {
+     "id": 16416302,
+     "round": 2,
+     "date": "2026-08-23T15:00:00.000Z",
+     "home": "Atlético Madrid",
+     "away": "Villarreal"
+    },
+    {
+     "id": 16416300,
+     "round": 2,
+     "date": "2026-08-23T17:30:00.000Z",
+     "home": "Getafe",
+     "away": "Real Racing Club"
+    },
+    {
+     "id": 16416311,
+     "round": 2,
+     "date": "2026-08-23T19:30:00.000Z",
+     "home": "Elche",
+     "away": "FC Barcelona"
+    },
+    {
+     "id": 16416296,
+     "round": 2,
+     "date": "2026-08-24T17:30:00.000Z",
+     "home": "Osasuna",
+     "away": "Levante UD"
+    },
+    {
+     "id": 16416307,
+     "round": 2,
+     "date": "2026-08-24T19:30:00.000Z",
+     "home": "Málaga CF",
+     "away": "Deportivo de A Coruña"
+    },
+    {
+     "id": 16416304,
+     "round": 3,
+     "date": "2026-08-28T17:00:00.000Z",
+     "home": "Real Racing Club",
+     "away": "Elche"
+    },
+    {
+     "id": 16416290,
+     "round": 3,
+     "date": "2026-08-28T19:30:00.000Z",
+     "home": "Deportivo Alavés",
+     "away": "Villarreal"
+    },
+    {
+     "id": 16416309,
+     "round": 3,
+     "date": "2026-08-29T15:00:00.000Z",
+     "home": "Levante UD",
+     "away": "Real Betis"
+    },
+    {
+     "id": 16416310,
+     "round": 3,
+     "date": "2026-08-29T17:00:00.000Z",
+     "home": "Real Sociedad",
+     "away": "Espanyol"
+    },
+    {
+     "id": 16416316,
+     "round": 3,
+     "date": "2026-08-29T19:30:00.000Z",
+     "home": "Sevilla",
+     "away": "Atlético Madrid"
+    },
+    {
+     "id": 16416312,
+     "round": 3,
+     "date": "2026-08-30T15:00:00.000Z",
+     "home": "Real Madrid",
+     "away": "Málaga CF"
+    },
+    {
+     "id": 16416291,
+     "round": 3,
+     "date": "2026-08-30T17:30:00.000Z",
+     "home": "Deportivo de A Coruña",
+     "away": "Valencia"
+    },
+    {
+     "id": 16416308,
+     "round": 3,
+     "date": "2026-08-30T19:30:00.000Z",
+     "home": "Celta Vigo",
+     "away": "Athletic Club"
+    },
+    {
+     "id": 16416314,
+     "round": 3,
+     "date": "2026-08-31T17:30:00.000Z",
+     "home": "Osasuna",
+     "away": "Getafe"
+    },
+    {
+     "id": 16416295,
+     "round": 3,
+     "date": "2026-08-31T19:30:00.000Z",
+     "home": "FC Barcelona",
+     "away": "Rayo Vallecano"
+    },
+    {
+     "id": 16416315,
+     "round": 4,
+     "date": "2026-09-04T19:00:00.000Z",
+     "home": "Real Betis",
+     "away": "Real Madrid"
+    },
+    {
+     "id": 16416317,
+     "round": 4,
+     "date": "2026-09-05T14:15:00.000Z",
+     "home": "Athletic Club",
+     "away": "Atlético Madrid"
+    },
+    {
+     "id": 16416321,
+     "round": 4,
+     "date": "2026-09-05T16:30:00.000Z",
+     "home": "Rayo Vallecano",
+     "away": "Real Racing Club"
+    },
+    {
+     "id": 16416324,
+     "round": 4,
+     "date": "2026-09-05T19:00:00.000Z",
+     "home": "Villarreal",
+     "away": "Deportivo de A Coruña"
+    },
+    {
+     "id": 16416325,
+     "round": 4,
+     "date": "2026-09-06T14:15:00.000Z",
+     "home": "Valencia",
+     "away": "FC Barcelona"
+    },
+    {
+     "id": 16416318,
+     "round": 4,
+     "date": "2026-09-06T16:30:00.000Z",
+     "home": "Deportivo Alavés",
+     "away": "Osasuna"
+    },
+    {
+     "id": 16416320,
+     "round": 4,
+     "date": "2026-09-06T16:30:00.000Z",
+     "home": "Málaga CF",
+     "away": "Levante UD"
+    },
+    {
+     "id": 16416323,
+     "round": 4,
+     "date": "2026-09-06T19:00:00.000Z",
+     "home": "Espanyol",
+     "away": "Sevilla"
+    },
+    {
+     "id": 16416348,
+     "round": 4,
+     "date": "2026-09-07T17:00:00.000Z",
+     "home": "Getafe",
+     "away": "Celta Vigo"
+    },
+    {
+     "id": 16416319,
+     "round": 4,
+     "date": "2026-09-07T19:30:00.000Z",
+     "home": "Elche",
+     "away": "Real Sociedad"
+    },
+    {
+     "id": 16416330,
+     "round": 5,
+     "date": "2026-09-11T19:00:00.000Z",
+     "home": "Sevilla",
+     "away": "Valencia"
+    },
+    {
+     "id": 16416328,
+     "round": 5,
+     "date": "2026-09-12T12:00:00.000Z",
+     "home": "Real Racing Club",
+     "away": "Deportivo Alavés"
+    },
+    {
+     "id": 16416327,
+     "round": 5,
+     "date": "2026-09-12T14:15:00.000Z",
+     "home": "Osasuna",
+     "away": "Espanyol"
+    },
+    {
+     "id": 16416322,
+     "round": 5,
+     "date": "2026-09-12T16:30:00.000Z",
+     "home": "Athletic Club",
+     "away": "Elche"
+    },
+    {
+     "id": 16416331,
+     "round": 5,
+     "date": "2026-09-12T19:00:00.000Z",
+     "home": "Real Madrid",
+     "away": "Rayo Vallecano"
+    },
+    {
+     "id": 16416347,
+     "round": 5,
+     "date": "2026-09-13T12:00:00.000Z",
+     "home": "Celta Vigo",
+     "away": "Málaga CF"
+    },
+    {
+     "id": 16416329,
+     "round": 5,
+     "date": "2026-09-13T14:15:00.000Z",
+     "home": "Levante UD",
+     "away": "FC Barcelona"
+    },
+    {
+     "id": 16416326,
+     "round": 5,
+     "date": "2026-09-13T16:30:00.000Z",
+     "home": "Getafe",
+     "away": "Deportivo de A Coruña"
+    },
+    {
+     "id": 16416332,
+     "round": 5,
+     "date": "2026-09-13T19:00:00.000Z",
+     "home": "Real Sociedad",
+     "away": "Atlético Madrid"
+    },
+    {
+     "id": 16416333,
+     "round": 5,
+     "date": "2026-09-14T19:00:00.000Z",
+     "home": "Villarreal",
+     "away": "Real Betis"
+    },
+    {
+     "id": 16416340,
+     "round": 6,
+     "date": "2026-09-03T19:00:00.000Z",
+     "home": "Real Sociedad",
+     "away": "Celta Vigo"
+    },
+    {
+     "id": 16416345,
+     "round": 6,
+     "date": "2026-09-15T17:00:00.000Z",
+     "home": "Rayo Vallecano",
+     "away": "Espanyol"
+    },
+    {
+     "id": 16416334,
+     "round": 6,
+     "date": "2026-09-15T18:00:00.000Z",
+     "home": "Deportivo Alavés",
+     "away": "Valencia"
+    },
+    {
+     "id": 16416342,
+     "round": 6,
+     "date": "2026-09-15T19:30:00.000Z",
+     "home": "Elche",
+     "away": "Real Madrid"
+    },
+    {
+     "id": 16416335,
+     "round": 6,
+     "date": "2026-09-16T17:00:00.000Z",
+     "home": "Atlético Madrid",
+     "away": "Osasuna"
+    },
+    {
+     "id": 16416343,
+     "round": 6,
+     "date": "2026-09-16T17:00:00.000Z",
+     "home": "Deportivo de A Coruña",
+     "away": "Sevilla"
+    },
+    {
+     "id": 16416346,
+     "round": 6,
+     "date": "2026-09-16T19:30:00.000Z",
+     "home": "FC Barcelona",
+     "away": "Real Racing Club"
+    },
+    {
+     "id": 16416341,
+     "round": 6,
+     "date": "2026-09-16T19:30:00.000Z",
+     "home": "Levante UD",
+     "away": "Athletic Club"
+    },
+    {
+     "id": 16416336,
+     "round": 6,
+     "date": "2026-09-17T17:00:00.000Z",
+     "home": "Real Betis",
+     "away": "Getafe"
+    },
+    {
+     "id": 16416338,
+     "round": 6,
+     "date": "2026-09-17T19:30:00.000Z",
+     "home": "Málaga CF",
+     "away": "Villarreal"
+    },
+    {
+     "id": 17122851,
+     "round": 6,
+     "date": "2026-10-21T18:00:00.000Z",
+     "home": "Levante UD",
+     "away": "Athletic Club"
+    },
+    {
+     "id": 16416299,
+     "round": 7,
+     "date": "2026-09-18T19:00:00.000Z",
+     "home": "Espanyol",
+     "away": "Elche"
+    },
+    {
+     "id": 16416305,
+     "round": 7,
+     "date": "2026-09-19T12:00:00.000Z",
+     "home": "Osasuna",
+     "away": "Rayo Vallecano"
+    },
+    {
+     "id": 16416337,
+     "round": 7,
+     "date": "2026-09-19T14:15:00.000Z",
+     "home": "Athletic Club",
+     "away": "Deportivo Alavés"
+    },
+    {
+     "id": 16416344,
+     "round": 7,
+     "date": "2026-09-19T16:30:00.000Z",
+     "home": "Celta Vigo",
+     "away": "Real Racing Club"
+    },
+    {
+     "id": 16416349,
+     "round": 7,
+     "date": "2026-09-19T19:00:00.000Z",
+     "home": "Sevilla",
+     "away": "FC Barcelona"
+    },
+    {
+     "id": 16416303,
+     "round": 7,
+     "date": "2026-09-20T12:00:00.000Z",
+     "home": "Getafe",
+     "away": "Málaga CF"
+    },
+    {
+     "id": 16416339,
+     "round": 7,
+     "date": "2026-09-20T14:15:00.000Z",
+     "home": "Atlético Madrid",
+     "away": "Real Madrid"
+    },
+    {
+     "id": 16416313,
+     "round": 7,
+     "date": "2026-09-20T16:30:00.000Z",
+     "home": "Deportivo de A Coruña",
+     "away": "Real Betis"
+    },
+    {
+     "id": 16416294,
+     "round": 7,
+     "date": "2026-09-20T16:30:00.000Z",
+     "home": "Villarreal",
+     "away": "Levante UD"
+    },
+    {
+     "id": 16416297,
+     "round": 7,
+     "date": "2026-09-20T19:00:00.000Z",
+     "home": "Valencia",
+     "away": "Real Sociedad"
+    },
+    {
+     "id": 16421062,
+     "round": 8,
+     "date": "2026-10-09T19:00:00.000Z",
+     "home": "Málaga CF",
+     "away": "Espanyol"
+    },
+    {
+     "id": 16421065,
+     "round": 8,
+     "date": "2026-10-10T12:00:00.000Z",
+     "home": "Rayo Vallecano",
+     "away": "Athletic Club"
+    },
+    {
+     "id": 16421056,
+     "round": 8,
+     "date": "2026-10-10T14:15:00.000Z",
+     "home": "Deportivo Alavés",
+     "away": "Atlético Madrid"
+    },
+    {
+     "id": 16421060,
+     "round": 8,
+     "date": "2026-10-10T16:30:00.000Z",
+     "home": "FC Barcelona",
+     "away": "Getafe"
+    },
+    {
+     "id": 16421066,
+     "round": 8,
+     "date": "2026-10-10T19:00:00.000Z",
+     "home": "Real Madrid",
+     "away": "Villarreal"
+    },
+    {
+     "id": 16421058,
+     "round": 8,
+     "date": "2026-10-11T12:00:00.000Z",
+     "home": "Elche",
+     "away": "Celta Vigo"
+    },
+    {
+     "id": 16421067,
+     "round": 8,
+     "date": "2026-10-11T14:15:00.000Z",
+     "home": "Real Sociedad",
+     "away": "Deportivo de A Coruña"
+    },
+    {
+     "id": 16421054,
+     "round": 8,
+     "date": "2026-10-11T16:30:00.000Z",
+     "home": "Real Betis",
+     "away": "Osasuna"
+    },
+    {
+     "id": 16421064,
+     "round": 8,
+     "date": "2026-10-11T19:00:00.000Z",
+     "home": "Real Racing Club",
+     "away": "Valencia"
+    },
+    {
+     "id": 16421063,
+     "round": 8,
+     "date": "2026-10-12T19:00:00.000Z",
+     "home": "Levante UD",
+     "away": "Sevilla"
+    },
+    {
+     "id": 16421070,
+     "round": 9,
+     "date": "2026-10-16T19:00:00.000Z",
+     "home": "Deportivo de A Coruña",
+     "away": "Levante UD"
+    },
+    {
+     "id": 16421071,
+     "round": 9,
+     "date": "2026-10-17T12:00:00.000Z",
+     "home": "Espanyol",
+     "away": "Atlético Madrid"
+    },
+    {
+     "id": 16421076,
+     "round": 9,
+     "date": "2026-10-17T14:15:00.000Z",
+     "home": "Villarreal",
+     "away": "Elche"
+    },
+    {
+     "id": 16421068,
+     "round": 9,
+     "date": "2026-10-17T16:30:00.000Z",
+     "home": "Real Betis",
+     "away": "FC Barcelona"
+    },
+    {
+     "id": 16421074,
+     "round": 9,
+     "date": "2026-10-17T19:00:00.000Z",
+     "home": "Valencia",
+     "away": "Athletic Club"
+    },
+    {
+     "id": 16421078,
+     "round": 9,
+     "date": "2026-10-18T12:00:00.000Z",
+     "home": "Osasuna",
+     "away": "Real Racing Club"
+    },
+    {
+     "id": 16421069,
+     "round": 9,
+     "date": "2026-10-18T14:15:00.000Z",
+     "home": "Celta Vigo",
+     "away": "Deportivo Alavés"
+    },
+    {
+     "id": 16421073,
+     "round": 9,
+     "date": "2026-10-18T16:30:00.000Z",
+     "home": "Málaga CF",
+     "away": "Real Sociedad"
+    },
+    {
+     "id": 16421075,
+     "round": 9,
+     "date": "2026-10-18T19:00:00.000Z",
+     "home": "Real Madrid",
+     "away": "Sevilla"
+    },
+    {
+     "id": 16421072,
+     "round": 9,
+     "date": "2026-10-19T19:00:00.000Z",
+     "home": "Getafe",
+     "away": "Rayo Vallecano"
+    },
+    {
+     "id": 16421077,
+     "round": 10,
+     "date": "2026-10-23T19:00:00.000Z",
+     "home": "Deportivo Alavés",
+     "away": "Málaga CF"
+    },
+    {
+     "id": 16421084,
+     "round": 10,
+     "date": "2026-10-24T12:00:00.000Z",
+     "home": "Rayo Vallecano",
+     "away": "Elche"
+    },
+    {
+     "id": 16421083,
+     "round": 10,
+     "date": "2026-10-24T14:15:00.000Z",
+     "home": "Real Racing Club",
+     "away": "Espanyol"
+    },
+    {
+     "id": 16421089,
+     "round": 10,
+     "date": "2026-10-24T16:30:00.000Z",
+     "home": "Valencia",
+     "away": "Villarreal"
+    },
+    {
+     "id": 16421082,
+     "round": 10,
+     "date": "2026-10-24T19:00:00.000Z",
+     "home": "Atlético Madrid",
+     "away": "Deportivo de A Coruña"
+    },
+    {
+     "id": 16421081,
+     "round": 10,
+     "date": "2026-10-25T13:00:00.000Z",
+     "home": "Athletic Club",
+     "away": "Getafe"
+    },
+    {
+     "id": 16421079,
+     "round": 10,
+     "date": "2026-10-25T15:15:00.000Z",
+     "home": "Celta Vigo",
+     "away": "Real Betis"
+    },
+    {
+     "id": 16421086,
+     "round": 10,
+     "date": "2026-10-25T17:30:00.000Z",
+     "home": "Real Sociedad",
+     "away": "Levante UD"
+    },
+    {
+     "id": 16421080,
+     "round": 10,
+     "date": "2026-10-25T20:00:00.000Z",
+     "home": "FC Barcelona",
+     "away": "Real Madrid"
+    },
+    {
+     "id": 16421085,
+     "round": 10,
+     "date": "2026-10-26T20:00:00.000Z",
+     "home": "Sevilla",
+     "away": "Osasuna"
+    },
+    {
+     "id": 16421099,
+     "round": 11,
+     "date": "2026-10-30T20:00:00.000Z",
+     "home": "Villarreal",
+     "away": "Espanyol"
+    },
+    {
+     "id": 16421096,
+     "round": 11,
+     "date": "2026-10-31T13:00:00.000Z",
+     "home": "Levante UD",
+     "away": "Atlético Madrid"
+    },
+    {
+     "id": 16421100,
+     "round": 11,
+     "date": "2026-10-31T15:15:00.000Z",
+     "home": "Rayo Vallecano",
+     "away": "Celta Vigo"
+    },
+    {
+     "id": 16421087,
+     "round": 11,
+     "date": "2026-10-31T17:30:00.000Z",
+     "home": "Real Betis",
+     "away": "Málaga CF"
+    },
+    {
+     "id": 16421091,
+     "round": 11,
+     "date": "2026-10-31T20:00:00.000Z",
+     "home": "FC Barcelona",
+     "away": "Deportivo Alavés"
+    },
+    {
+     "id": 16421093,
+     "round": 11,
+     "date": "2026-11-01T13:00:00.000Z",
+     "home": "Getafe",
+     "away": "Sevilla"
+    },
+    {
+     "id": 16421098,
+     "round": 11,
+     "date": "2026-11-01T15:15:00.000Z",
+     "home": "Real Racing Club",
+     "away": "Real Madrid"
+    },
+    {
+     "id": 16421092,
+     "round": 11,
+     "date": "2026-11-01T17:30:00.000Z",
+     "home": "Elche",
+     "away": "Valencia"
+    },
+    {
+     "id": 16421088,
+     "round": 11,
+     "date": "2026-11-01T20:00:00.000Z",
+     "home": "Athletic Club",
+     "away": "Real Sociedad"
+    },
+    {
+     "id": 16421095,
+     "round": 11,
+     "date": "2026-11-02T20:00:00.000Z",
+     "home": "Deportivo de A Coruña",
+     "away": "Osasuna"
+    },
+    {
+     "id": 16421103,
+     "round": 12,
+     "date": "2026-11-07T13:00:00.000Z",
+     "home": "Málaga CF",
+     "away": "Real Racing Club"
+    },
+    {
+     "id": 16421108,
+     "round": 12,
+     "date": "2026-11-07T15:15:00.000Z",
+     "home": "Espanyol",
+     "away": "Deportivo de A Coruña"
+    },
+    {
+     "id": 16421106,
+     "round": 12,
+     "date": "2026-11-07T17:30:00.000Z",
+     "home": "Osasuna",
+     "away": "Athletic Club"
+    },
+    {
+     "id": 16421105,
+     "round": 12,
+     "date": "2026-11-07T20:00:00.000Z",
+     "home": "Valencia",
+     "away": "Real Madrid"
+    },
+    {
+     "id": 16421102,
+     "round": 12,
+     "date": "2026-11-08T13:00:00.000Z",
+     "home": "Elche",
+     "away": "Real Betis"
+    },
+    {
+     "id": 16421107,
+     "round": 12,
+     "date": "2026-11-08T15:15:00.000Z",
+     "home": "Real Sociedad",
+     "away": "Rayo Vallecano"
+    },
+    {
+     "id": 16421104,
+     "round": 12,
+     "date": "2026-11-08T17:30:00.000Z",
+     "home": "Celta Vigo",
+     "away": "Levante UD"
+    },
+    {
+     "id": 16421110,
+     "round": 12,
+     "date": "2026-11-08T17:30:00.000Z",
+     "home": "Villarreal",
+     "away": "Getafe"
+    },
+    {
+     "id": 16421109,
+     "round": 12,
+     "date": "2026-11-08T19:00:00.000Z",
+     "home": "Sevilla",
+     "away": "Deportivo Alavés"
+    },
+    {
+     "id": 16421101,
+     "round": 12,
+     "date": "2026-11-08T20:00:00.000Z",
+     "home": "Atlético Madrid",
+     "away": "FC Barcelona"
+    },
+    {
+     "id": 16421112,
+     "round": 13,
+     "date": "2026-11-22T19:00:00.000Z",
+     "home": "Athletic Club",
+     "away": "Espanyol"
+    },
+    {
+     "id": 16421111,
+     "round": 13,
+     "date": "2026-11-22T19:00:00.000Z",
+     "home": "Deportivo Alavés",
+     "away": "Deportivo de A Coruña"
+    },
+    {
+     "id": 16421113,
+     "round": 13,
+     "date": "2026-11-22T19:00:00.000Z",
+     "home": "FC Barcelona",
+     "away": "Villarreal"
+    },
+    {
+     "id": 16421115,
+     "round": 13,
+     "date": "2026-11-22T19:00:00.000Z",
+     "home": "Getafe",
+     "away": "Atlético Madrid"
+    },
+    {
+     "id": 16421118,
+     "round": 13,
+     "date": "2026-11-22T19:00:00.000Z",
+     "home": "Levante UD",
+     "away": "Elche"
+    },
+    {
+     "id": 16421117,
+     "round": 13,
+     "date": "2026-11-22T19:00:00.000Z",
+     "home": "Osasuna",
+     "away": "Málaga CF"
+    },
+    {
+     "id": 16421119,
+     "round": 13,
+     "date": "2026-11-22T19:00:00.000Z",
+     "home": "Rayo Vallecano",
+     "away": "Valencia"
+    },
+    {
+     "id": 16421116,
+     "round": 13,
+     "date": "2026-11-22T19:00:00.000Z",
+     "home": "Real Madrid",
+     "away": "Celta Vigo"
+    },
+    {
+     "id": 16421114,
+     "round": 13,
+     "date": "2026-11-22T19:00:00.000Z",
+     "home": "Real Racing Club",
+     "away": "Real Sociedad"
+    },
+    {
+     "id": 16421125,
+     "round": 13,
+     "date": "2026-11-22T19:00:00.000Z",
+     "home": "Sevilla",
+     "away": "Real Betis"
+    },
+    {
+     "id": 16421121,
+     "round": 14,
+     "date": "2026-11-29T19:00:00.000Z",
+     "home": "Celta Vigo",
+     "away": "Villarreal"
+    },
+    {
+     "id": 16421123,
+     "round": 14,
+     "date": "2026-11-29T19:00:00.000Z",
+     "home": "Deportivo de A Coruña",
+     "away": "FC Barcelona"
+    },
+    {
+     "id": 16421126,
+     "round": 14,
+     "date": "2026-11-29T19:00:00.000Z",
+     "home": "Elche",
+     "away": "Atlético Madrid"
+    },
+    {
+     "id": 16421122,
+     "round": 14,
+     "date": "2026-11-29T19:00:00.000Z",
+     "home": "Espanyol",
+     "away": "Getafe"
+    },
+    {
+     "id": 16421127,
+     "round": 14,
+     "date": "2026-11-29T19:00:00.000Z",
+     "home": "Levante UD",
+     "away": "Real Racing Club"
+    },
+    {
+     "id": 16421128,
+     "round": 14,
+     "date": "2026-11-29T19:00:00.000Z",
+     "home": "Málaga CF",
+     "away": "Athletic Club"
+    },
+    {
+     "id": 16421120,
+     "round": 14,
+     "date": "2026-11-29T19:00:00.000Z",
+     "home": "Real Betis",
+     "away": "Rayo Vallecano"
+    },
+    {
+     "id": 16421129,
+     "round": 14,
+     "date": "2026-11-29T19:00:00.000Z",
+     "home": "Real Madrid",
+     "away": "Deportivo Alavés"
+    },
+    {
+     "id": 16462479,
+     "round": 14,
+     "date": "2026-11-29T19:00:00.000Z",
+     "home": "Real Sociedad",
+     "away": "Sevilla"
+    },
+    {
+     "id": 16462482,
+     "round": 14,
+     "date": "2026-11-29T19:00:00.000Z",
+     "home": "Valencia",
+     "away": "Osasuna"
+    },
+    {
+     "id": 16462488,
+     "round": 15,
+     "date": "2026-12-06T19:00:00.000Z",
+     "home": "Athletic Club",
+     "away": "Real Madrid"
+    },
+    {
+     "id": 16462491,
+     "round": 15,
+     "date": "2026-12-06T19:00:00.000Z",
+     "home": "Atlético Madrid",
+     "away": "Real Betis"
+    },
+    {
+     "id": 16462485,
+     "round": 15,
+     "date": "2026-12-06T19:00:00.000Z",
+     "home": "Deportivo Alavés",
+     "away": "Espanyol"
+    },
+    {
+     "id": 16462494,
+     "round": 15,
+     "date": "2026-12-06T19:00:00.000Z",
+     "home": "FC Barcelona",
+     "away": "Celta Vigo"
+    },
+    {
+     "id": 16462498,
+     "round": 15,
+     "date": "2026-12-06T19:00:00.000Z",
+     "home": "Getafe",
+     "away": "Valencia"
+    },
+    {
+     "id": 16462501,
+     "round": 15,
+     "date": "2026-12-06T19:00:00.000Z",
+     "home": "Osasuna",
+     "away": "Elche"
+    },
+    {
+     "id": 16462508,
+     "round": 15,
+     "date": "2026-12-06T19:00:00.000Z",
+     "home": "Rayo Vallecano",
+     "away": "Levante UD"
+    },
+    {
+     "id": 16462504,
+     "round": 15,
+     "date": "2026-12-06T19:00:00.000Z",
+     "home": "Real Racing Club",
+     "away": "Deportivo de A Coruña"
+    },
+    {
+     "id": 16462511,
+     "round": 15,
+     "date": "2026-12-06T19:00:00.000Z",
+     "home": "Sevilla",
+     "away": "Málaga CF"
+    },
+    {
+     "id": 16462514,
+     "round": 15,
+     "date": "2026-12-06T19:00:00.000Z",
+     "home": "Villarreal",
+     "away": "Real Sociedad"
+    },
+    {
+     "id": 16462517,
+     "round": 16,
+     "date": "2026-12-13T19:00:00.000Z",
+     "home": "Atlético Madrid",
+     "away": "Valencia"
+    },
+    {
+     "id": 16462523,
+     "round": 16,
+     "date": "2026-12-13T19:00:00.000Z",
+     "home": "Deportivo de A Coruña",
+     "away": "Athletic Club"
+    },
+    {
+     "id": 16462526,
+     "round": 16,
+     "date": "2026-12-13T19:00:00.000Z",
+     "home": "Elche",
+     "away": "Sevilla"
+    },
+    {
+     "id": 16462529,
+     "round": 16,
+     "date": "2026-12-13T19:00:00.000Z",
+     "home": "Espanyol",
+     "away": "Celta Vigo"
+    },
+    {
+     "id": 16462532,
+     "round": 16,
+     "date": "2026-12-13T19:00:00.000Z",
+     "home": "Levante UD",
+     "away": "Deportivo Alavés"
+    },
+    {
+     "id": 16462535,
+     "round": 16,
+     "date": "2026-12-13T19:00:00.000Z",
+     "home": "Málaga CF",
+     "away": "FC Barcelona"
+    },
+    {
+     "id": 16462520,
+     "round": 16,
+     "date": "2026-12-13T19:00:00.000Z",
+     "home": "Real Betis",
+     "away": "Real Racing Club"
+    },
+    {
+     "id": 16462538,
+     "round": 16,
+     "date": "2026-12-13T19:00:00.000Z",
+     "home": "Real Madrid",
+     "away": "Osasuna"
+    },
+    {
+     "id": 16462541,
+     "round": 16,
+     "date": "2026-12-13T19:00:00.000Z",
+     "home": "Real Sociedad",
+     "away": "Getafe"
+    },
+    {
+     "id": 16462544,
+     "round": 16,
+     "date": "2026-12-13T19:00:00.000Z",
+     "home": "Villarreal",
+     "away": "Rayo Vallecano"
+    }
+   ]
+  }
+ },
+ "lineups": {}
+}
