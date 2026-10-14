@@ -17,7 +17,7 @@ export async function IndividualToday({ locale }: { locale: Locale }) {
     f1?.feed ? fetchRaceWeekend(f1.feed) : Promise.resolve({ weekend: null, calendar: [] }),
     ...tennisComps.map(async (c) => ({ c, ts: await fetchTennis(c.feed!) })),
   ]);
-  const now = Date.now();
+  const now = new Date().getTime();
   const w = race.weekend;
   const nextSession = w?.sessions.find((s) => s.state !== 'post');
   const lastSession = w ? [...w.sessions].reverse().find((s) => s.state === 'post') : undefined;
