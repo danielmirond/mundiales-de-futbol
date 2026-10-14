@@ -37,7 +37,7 @@ function LeaderTable({ rows, unit, comp, locale }: { rows: Leader[]; unit: strin
           {rows.map((r) => (
             <tr key={r.athleteId} className="border-t border-[var(--color-border)]">
               <td className="h-11 px-2 text-center font-mono text-xs tab-num text-[var(--color-fg-subtle)]">{r.rank}</td>
-              <td className="h-11 px-2 font-medium text-[var(--color-fg)]">{r.name}</td>
+              <td className="h-11 px-2 font-medium text-[var(--color-fg)]"><Link href={withLocale(locale, `/${comp.sport}/${comp.slug}/jugador/${r.athleteId}`)} className="hover:text-[var(--accent-ink)]">{r.name}</Link></td>
               <td className="h-11 px-2 text-[var(--color-fg-muted)]">
                 {r.team ? <Link href={withLocale(locale, `/${comp.sport}/${comp.slug}/equipo/${r.team.slug}`)} className="flex items-center gap-2 hover:text-[var(--accent-ink)]"><Crest src={r.team.logo} abbr={r.team.abbr} size="s" /><span className="truncate">{r.team.name}</span></Link> : '—'}
               </td>

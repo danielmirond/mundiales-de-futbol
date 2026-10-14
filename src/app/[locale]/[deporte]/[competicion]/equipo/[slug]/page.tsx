@@ -200,7 +200,7 @@ export default async function EquipoPage({ params }: { params: Params }) {
                   {ps.map((p) => (
                     <li key={`${p.jersey}-${p.name}`} className="flex items-center gap-3 text-sm">
                       <span className="inline-grid h-6 w-7 shrink-0 place-items-center rounded-full bg-[var(--color-bg)] font-mono text-[10px] tab-num text-[var(--color-fg-muted)]">{p.jersey && p.jersey !== 'undefined' ? p.jersey : '·'}</span>
-                      <span className="flex-1 truncate text-[var(--color-fg)]">{p.name}</span>
+                      {p.id ? <Link href={withLocale(L, `/${c.sport}/${c.slug}/jugador/${p.id}`)} className="flex-1 truncate text-[var(--color-fg)] hover:text-[var(--accent-ink)]">{p.name}</Link> : <span className="flex-1 truncate text-[var(--color-fg)]">{p.name}</span>}
                       {p.age && <span className="font-mono text-[10px] text-[var(--color-fg-subtle)]">{p.age}</span>}
                     </li>
                   ))}

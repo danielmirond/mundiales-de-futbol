@@ -4,6 +4,10 @@ import { fetchTeam, fetchTeamRoster } from '@/lib/espn-team';
 import { loadTeam, teamBase, POS_LABEL } from '@/lib/team-page';
 import { TeamHeader } from '@/components/portal/team-header';
 import { pageMetadata } from '@/lib/seo';
+import Link from 'next/link';
+import { routing, type Locale } from '@/i18n/routing';
+
+const withLocale = (l: Locale, h: string) => (l === routing.defaultLocale ? h : `/${l}${h}`);
 
 // Regeneración periódica (ISR): rápida y estable sin pedir a las fuentes en cada visita.
 export const revalidate = 21600;
@@ -47,7 +51,7 @@ export default async function TeamRosterPage({ params }: { params: Params }) {
                   {ps.map((p) => (
                     <li key={`${p.jersey}-${p.name}`} className="flex items-center gap-3 text-sm">
                       <span className="n-pos inline-grid h-6 w-7 shrink-0 place-items-center rounded-full bg-[var(--color-bg)] tab-num">{p.jersey && p.jersey !== 'undefined' ? p.jersey : '·'}</span>
-                      <span className="flex-1 truncate text-[var(--color-fg)]">{p.name}</span>
+                      {p.id ? <Link href={withLocale(locale as Locale, `/${c.sport}/${c.slug}/jugador/${p.id}`)} className="flex-1 truncate text-[var(--color-fg)] hover:text-[var(--accent-ink)]">{p.name}</Link> : <span className="flex-1 truncate text-[var(--color-fg)]">{p.name}</span>}
                       {p.nationality && <span className="hidden truncate font-mono text-[10px] text-[var(--color-fg-subtle)] sm:inline">{p.nationality}</span>}
                       {p.age && <span className="font-mono text-[10px] tab-num text-[var(--color-fg-subtle)]">{p.age}</span>}
                     </li>
