@@ -129,7 +129,7 @@ function normForm(team: any): FormGame[] {
       goalsAgainst: ga,
       competition: e.competitionName,
     };
-  });
+  }).sort((x: FormGame, y: FormGame) => y.date.localeCompare(x.date));
 }
 
 function normSeries(ss: any): MatchPreview['series'] {

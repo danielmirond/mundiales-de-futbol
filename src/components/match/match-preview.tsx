@@ -8,6 +8,7 @@ const dateEs = (iso: string) => {
   const d = new Date(iso);
   return Number.isNaN(d.getTime()) ? '' : new Intl.DateTimeFormat('es-ES', { day: 'numeric', month: 'short', year: '2-digit', timeZone: 'Europe/Madrid' }).format(d);
 };
+const plural = (n: number, one: string, many: string) => `${n} ${n === 1 ? one : many}`;
 const Card = ({ children, className = '' }: { children: React.ReactNode; className?: string }) => (
   <div className={`rounded-[18px] border border-[var(--color-border)] bg-[var(--color-bg-2)] p-5 ${className}`}>{children}</div>
 );
@@ -21,7 +22,7 @@ function FormBlock({ name, games, teamBase }: { name: string; games: FormGame[];
         <h3 className="t-h3 text-[var(--color-fg)]">{name}</h3>
         <span className="form" aria-label={`Últimos resultados de ${name}`}>{[...games].reverse().map((g) => <i key={g.id} className={CHIP[g.result]}>{g.result}</i>)}</span>
       </div>
-      <p className="mt-1 text-xs text-[var(--color-fg-subtle)]">{tally.G} victorias, {tally.E} empates y {tally.P} derrotas en sus últimos {games.length} partidos</p>
+      <p className="mt-1 text-xs text-[var(--color-fg-subtle)]">{plural(tally.G, 'victoria', 'victorias')}, {plural(tally.E, 'empate', 'empates')} y {plural(tally.P, 'derrota', 'derrotas')} en sus últimos {games.length} partidos</p>
       <ul className="mt-3 divide-y divide-[var(--color-border)]">
         {games.map((g) => (
           <li key={g.id} className="flex items-center gap-3 py-2 text-sm">
@@ -43,7 +44,8 @@ function FormBlock({ name, games, teamBase }: { name: string; games: FormGame[];
 function Spot({ name, s, total, standingsHref }: { name: string; s?: TableSpot; total: number; standingsHref: string }) {
   if (!s) return null;
   const pts = s.stats.points;
-  const rec = s.stats.overall || [s.stats.wins, s.stats.ties, s.stats.losses].filter(Boolean).join('-');
+  const { wins, ties, losses } = s.stats;
+  const rec = wins && losses ? `${wins}G${ties ? ` ${ties}E` : ''} ${losses}P` : s.stats.overall;
   return (
     <Link href={standingsHref} className="flex items-center gap-4 rounded-[14px] border border-[var(--color-border)] bg-[var(--color-bg)] px-4 py-3 hover:border-[var(--color-border-strong)]">
       <span className="font-display text-4xl leading-none tab-num text-[var(--color-fg)]">{s.rank}.º</span>

@@ -9,7 +9,9 @@ const TONE: Record<Injury['severity'], string> = {
 const dayEs = (iso?: string) => {
   if (!iso) return '';
   const d = new Date(/T/.test(iso) ? iso : `${iso}T12:00:00Z`);
-  return Number.isNaN(d.getTime()) ? '' : new Intl.DateTimeFormat('es-ES', { day: 'numeric', month: 'short', timeZone: 'Europe/Madrid' }).format(d);
+  if (Number.isNaN(d.getTime())) return '';
+  const otherYear = d.getUTCFullYear() !== new Date().getUTCFullYear();
+  return new Intl.DateTimeFormat('es-ES', { day: 'numeric', month: 'short', ...(otherYear ? { year: 'numeric' } : {}), timeZone: 'Europe/Madrid' }).format(d);
 };
 
 /** Lista de bajas: jugador, posición, estado (color por gravedad), zona y vuelta prevista. */
