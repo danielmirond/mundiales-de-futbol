@@ -23,7 +23,7 @@ const DRY = process.argv.includes('--dry');
 
 type SA = { client_email: string; private_key: string; token_uri: string };
 
-function loadSA(): SA {
+export function loadSA(): SA {
   if (process.env.GSC_SA_JSON) return JSON.parse(process.env.GSC_SA_JSON);
   const p = process.env.GSC_SA_PATH;
   if (p) return JSON.parse(readFileSync(p.replace(/^~/, process.env.HOME ?? ''), 'utf8'));
@@ -32,7 +32,7 @@ function loadSA(): SA {
 
 const b64 = (o: unknown) => Buffer.from(JSON.stringify(o)).toString('base64url');
 
-async function getToken(sa: SA): Promise<string> {
+export async function getToken(sa: SA): Promise<string> {
   const now = Math.floor(Date.now() / 1000);
   const unsigned =
     b64({ alg: 'RS256', typ: 'JWT' }) +
@@ -65,7 +65,7 @@ type Row = { keys: string[]; clicks: number; impressions: number; ctr: number; p
 
 const dayStr = (n: number) => new Date(Date.now() - n * 86_400_000).toISOString().slice(0, 10);
 
-async function query(
+export async function query(
   token: string,
   body: Record<string, unknown>,
 ): Promise<Row[]> {
@@ -142,4 +142,4 @@ async function main() {
   console.log(`[gsc] Informe escrito en gsc/${stamp}.md`);
 }
 
-main();
+if (process.argv[1]?.endsWith('report.ts')) main();

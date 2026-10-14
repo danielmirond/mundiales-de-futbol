@@ -31,9 +31,11 @@ jobs:
         env:
           # JSON completo de la cuenta de servicio (lectura) en GitHub Secrets.
           GSC_SA_JSON: ${{ secrets.GSC_SA_JSON }}
-        run: npx tsx scripts/gsc/report.ts
+        run: |
+          npx tsx scripts/gsc/report.ts
+          npx tsx scripts/gsc/portal.ts
 
-      - name: Subir informe como artefacto (no se commitea: contiene datos de tráfico)
+      - name: Subir informe como artefacto (no se commitea, contiene datos de tráfico)
         uses: actions/upload-artifact@v4
         with:
           name: gsc-report

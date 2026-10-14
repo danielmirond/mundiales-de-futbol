@@ -36,9 +36,9 @@ jobs:
         if: ${{ env.RAPIDAPI_SPORTAPI_KEY != '' }}
         env:
           RAPIDAPI_SPORTAPI_KEY: ${{ secrets.RAPIDAPI_SPORTAPI_KEY }}
-        run: npx tsx scripts/sportapi/snapshot.ts --budget 20 --comps laliga,champions-league --lineups || echo "SportAPI: sin cambios"
+        run: npx tsx scripts/sportapi/snapshot.ts --budget 20 --comps laliga,champions-league --lineups || echo 'SportAPI sin cambios'
       - name: Snapshot OpenACB (Liga Endesa, estadísticas semanales)
-        run: npx tsx scripts/openacb/snapshot.ts || echo "OpenACB: sin cambios"
+        run: npx tsx scripts/openacb/snapshot.ts || echo 'OpenACB sin cambios'
       - name: Generar piezas
         env:
           DAILY_DRY: ${{ github.event.inputs.dry == 'true' && '1' || '' }}
