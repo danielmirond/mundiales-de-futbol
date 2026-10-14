@@ -3,6 +3,8 @@
  * sesiones, calendario de la temporada y clasificaciones de pilotos y
  * constructores.
  */
+import { countryEs, gpEs } from './i18n-sport';
+
 const SITE = 'https://site.api.espn.com/apis/site/v2/sports';
 const V2 = 'https://site.api.espn.com/apis/v2/sports';
 const HEADERS = { 'User-Agent': 'Mozilla/5.0 (mundiales-de-futbol.com)' };
@@ -23,17 +25,17 @@ async function get(url: string, revalidate: number) {
 export async function fetchRaceWeekend(feed: { sport: string; league: string }): Promise<{ weekend: RaceWeekend | null; calendar: RaceCalendarEntry[] }> {
   const d = await get(`${SITE}/${feed.sport}/${feed.league}/scoreboard`, 600);
   const e = d?.events?.[0];
-  const calendar: RaceCalendarEntry[] = (d?.leagues?.[0]?.calendar ?? []).map((c: any) => ({ name: String(c.label ?? ''), start: String(c.startDate ?? ''), end: String(c.endDate ?? '') })).filter((c: RaceCalendarEntry) => c.name);
+  const calendar: RaceCalendarEntry[] = (d?.leagues?.[0]?.calendar ?? []).map((c: any) => ({ name: gpEs(String(c.label ?? '')), start: String(c.startDate ?? ''), end: String(c.endDate ?? '') })).filter((c: RaceCalendarEntry) => c.name);
   if (!e) return { weekend: null, calendar };
   const venue = e.circuit ?? e.competitions?.[0]?.venue;
   const sessions: RaceSession[] = (e.competitions ?? []).map((c: any) => {
     const type = String(c.type?.abbreviation ?? '');
     const top = [...(c.competitors ?? [])].sort((a: any, b: any) => Number(a.order) - Number(b.order)).slice(0, 3)
-      .map((x: any) => ({ pos: Number(x.order), name: String(x.athlete?.displayName ?? ''), country: x.athlete?.flag?.alt }));
+      .map((x: any) => ({ pos: Number(x.order), name: String(x.athlete?.displayName ?? ''), country: countryEs(x.athlete?.flag?.alt) }));
     return { type, label: SESSION_ES[type] ?? type, date: String(c.date ?? ''), state: (c.status?.type?.state ?? 'pre') as RaceSession['state'], top };
   });
   return {
-    weekend: { name: String(e.name ?? ''), start: String(e.date ?? ''), end: String(e.endDate ?? ''), circuit: venue?.fullName, city: venue?.address?.city, country: venue?.address?.country, sessions },
+    weekend: { name: gpEs(String(e.name ?? '')), start: String(e.date ?? ''), end: String(e.endDate ?? ''), circuit: venue?.fullName, city: venue?.address?.city, country: countryEs(venue?.address?.country), sessions },
     calendar,
   };
 }
@@ -42,7 +44,7 @@ export async function fetchRaceStandings(feed: { sport: string; league: string }
   const d = await get(`${V2}/${feed.sport}/${feed.league}/standings`, 1800);
   const kids: any[] = d?.children ?? [];
   const stat = (e: any, ...names: string[]) => { for (const n of names) { const s = (e.stats ?? []).find((x: any) => x.name === n); if (s && s.displayValue != null && String(s.displayValue).trim() !== '') return Number(s.displayValue); } return 0; };
-  const drivers: DriverRow[] = (kids.find((k) => /driver/i.test(k.name))?.standings?.entries ?? []).map((e: any) => ({ rank: stat(e, 'rank'), name: String(e.athlete?.displayName ?? ''), country: e.athlete?.flag?.alt, points: stat(e, 'championshipPts', 'points') }));
+  const drivers: DriverRow[] = (kids.find((k) => /driver/i.test(k.name))?.standings?.entries ?? []).map((e: any) => ({ rank: stat(e, 'rank'), name: String(e.athlete?.displayName ?? ''), country: countryEs(e.athlete?.flag?.alt), points: stat(e, 'championshipPts', 'points') }));
   const teams: TeamRow[] = (kids.find((k) => /constructor/i.test(k.name))?.standings?.entries ?? []).map((e: any) => ({ rank: stat(e, 'rank'), name: String(e.team?.displayName ?? ''), color: e.team?.color, points: stat(e, 'points', 'championshipPts') }));
   return { drivers: drivers.sort((a, b) => a.rank - b.rank), teams: teams.sort((a, b) => a.rank - b.rank) };
 }

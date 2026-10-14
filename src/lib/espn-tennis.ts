@@ -3,6 +3,7 @@
  * individuales del día (hora de Madrid), con sets por jugador.
  */
 import { madridDateKey } from './espn';
+import { countryEs, tbdEs } from './i18n-sport';
 
 const SITE = 'https://site.api.espn.com/apis/site/v2/sports';
 const HEADERS = { 'User-Agent': 'Mozilla/5.0 (mundiales-de-futbol.com)' };
@@ -13,9 +14,9 @@ export type TennisTournament = { id: string; name: string; start: string; end: s
 
 const ROUND_ES: [RegExp, string][] = [
   [/^final$/i, 'Final'], [/semifinal/i, 'Semifinales'], [/quarterfinal/i, 'Cuartos de final'], [/round of 16|4th round/i, 'Octavos de final'],
-  [/3rd round/i, 'Tercera ronda'], [/2nd round/i, 'Segunda ronda'], [/1st round/i, 'Primera ronda'], [/qualifying/i, 'Previa'],
+  [/^round (\d)$/i, 'Ronda $1'], [/3rd round/i, 'Tercera ronda'], [/2nd round/i, 'Segunda ronda'], [/1st round/i, 'Primera ronda'], [/qualifying/i, 'Previa'],
 ];
-const roundEs = (r: string) => { for (const [re, es] of ROUND_ES) if (re.test(r)) return /qualifying/i.test(r) ? `Previa · ${r.replace(/qualifying\s*/i, '')}` : es; return r; };
+const roundEs = (r: string) => { for (const [re, es] of ROUND_ES) if (re.test(r)) return /qualifying/i.test(r) ? 'Previa' : r.replace(re, es); return r; };
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
 export async function fetchTennis(feed: { sport: string; league: string }): Promise<TennisTournament[]> {
@@ -28,7 +29,7 @@ export async function fetchTennis(feed: { sport: string; league: string }): Prom
       const singles = (e.groupings ?? []).find((g: any) => /singles/i.test(g.grouping?.displayName ?? '')) ?? e.groupings?.[0];
       const ms: TennisMatch[] = (singles?.competitions ?? []).map((c: any) => {
         const [x, y] = c.competitors ?? [];
-        const p = (z: any): TennisPlayer => ({ name: String(z?.athlete?.displayName ?? 'Por determinar'), country: z?.athlete?.flag?.alt, seed: z?.curatedRank?.current ?? (z?.seed ? Number(z.seed) : undefined), sets: (z?.linescores ?? []).map((l: any) => Number(l.value)), winner: !!z?.winner });
+        const p = (z: any): TennisPlayer => ({ name: tbdEs(String(z?.athlete?.displayName ?? 'Por determinar')), country: countryEs(z?.athlete?.flag?.alt), seed: z?.curatedRank?.current ?? (z?.seed ? Number(z.seed) : undefined), sets: (z?.linescores ?? []).map((l: any) => Number(l.value)), winner: !!z?.winner });
         return { id: String(c.id), date: String(c.date ?? c.startDate ?? ''), round: roundEs(String(c.round?.displayName ?? '')), state: (c.status?.type?.state ?? 'pre') as TennisMatch['state'], status: String(c.status?.type?.shortDetail ?? ''), court: c.venue?.court ?? c.venue?.fullName, a: p(x), b: p(y) };
       }).filter((m: TennisMatch) => m.a.name && m.b.name);
       const day = (m: TennisMatch) => madridDateKey(new Date(m.date));

@@ -4,6 +4,7 @@ import { fetchTeams } from '@/lib/espn-team';
 import type { Competition } from '@/lib/competitions';
 import { ZONES, ZONE_VAR, zoneFor } from '@/lib/standings-zones';
 import { Crest } from './crest';
+import { groupEs } from '@/lib/i18n-sport';
 import { routing, type Locale } from '@/i18n/routing';
 
 const withLocale = (l: Locale, h: string) => (l === routing.defaultLocale ? h : `/${l}${h}`);
@@ -40,7 +41,7 @@ export async function StandingsTable({
       <div className={`mt-6 grid gap-8 ${visible.length > 1 && !slice ? 'lg:grid-cols-2' : ''}`}>
         {visible.map((g) => (
           <div key={g.name}>
-            {groups.length > 1 && <h3 className="sub-label mb-3">{g.name}</h3>}
+            {groups.length > 1 && <h3 className="sub-label mb-3">{groupEs(g.name)}</h3>}
             <div className="overflow-x-auto rounded-[18px] border border-[var(--color-border)] bg-[var(--color-bg-2)] px-3 md:px-5">
               <table className="w-full border-collapse text-sm">
                 <thead>

@@ -1,6 +1,7 @@
 import type { Competition } from '@/lib/competitions';
 import { fetchRaceWeekend, fetchRaceStandings } from '@/lib/espn-racing';
 import { madridDateKey } from '@/lib/espn';
+import { countryEs } from '@/lib/i18n-sport';
 
 const MADRID = 'Europe/Madrid';
 const dayTime = new Intl.DateTimeFormat('es-ES', { timeZone: MADRID, weekday: 'short', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit', hourCycle: 'h23' });
@@ -21,7 +22,7 @@ export async function RacingHub({ comp }: { comp: Competition }) {
         <section className="mx-auto w-full max-w-[1400px] px-6 py-12 md:px-10" data-sport="motor">
           <div className="kicker">{done ? 'Último gran premio' : 'Gran premio en curso'}</div>
           <h2 className="t-h2 mt-3 text-[var(--color-fg)]">{weekend.name}</h2>
-          <p className="mt-2 text-[var(--color-fg-muted)]">{[weekend.circuit, weekend.city, weekend.country].filter(Boolean).join(' · ')} · {dayFmt.format(new Date(weekend.start))} – {dayFmt.format(new Date(weekend.end))}</p>
+          <p className="mt-2 text-[var(--color-fg-muted)]">{[...new Set([weekend.circuit, countryEs(weekend.city), weekend.country].filter(Boolean))].join(' · ')} · {dayFmt.format(new Date(weekend.start))} – {dayFmt.format(new Date(weekend.end))}</p>
           {race && race.state === 'post' && race.top.length > 0 && (
             <ol className="mt-6 grid gap-3 sm:grid-cols-3">
               {race.top.map((p) => (
@@ -94,7 +95,7 @@ export async function RacingHub({ comp }: { comp: Competition }) {
               const isNext = next?.name === c.name;
               return (
                 <li key={c.name + c.start} className={`flex items-center justify-between gap-3 rounded-[14px] border px-4 py-3 ${isNext ? 'border-[var(--accent)]' : 'border-[var(--color-border)]'} ${past ? 'opacity-60' : ''} bg-[var(--color-bg-2)]`}>
-                  <span className="min-w-0"><span className="font-mono text-[10px] text-[var(--color-fg-subtle)]">R{i + 1} · </span><span className="text-sm font-medium text-[var(--color-fg)]">{c.name.replace(/^.*?(Gran Premio|Grand Prix)/i, (m) => m).replace(/ Grand Prix$/i, '')}</span></span>
+                  <span className="min-w-0"><span className="font-mono text-[10px] text-[var(--color-fg-subtle)]">R{i + 1} · </span><span className="text-sm font-medium text-[var(--color-fg)]">{c.name.replace(/^Gran Premio de /, 'GP de ')}</span></span>
                   <span className="shrink-0 font-mono text-[11px] tab-num text-[var(--color-fg-muted)]">{dayFmt.format(new Date(c.start))}</span>
                 </li>
               );
