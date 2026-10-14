@@ -34,7 +34,10 @@
     "soon": "pronto",
     "worldCups": "Mundiales",
     "search": "Equipo, competición o partido",
-    "liveNow": "en directo"
+    "liveNow": "en directo",
+    "futbol-americano": "Fútbol americano",
+    "hockey": "Hockey",
+    "beisbol": "Béisbol"
   },
   "home": {
     "hero": {

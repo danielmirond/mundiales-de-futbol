@@ -34,7 +34,10 @@
     "soon": "soon",
     "worldCups": "World Cups",
     "search": "Team, competition or match",
-    "liveNow": "live"
+    "liveNow": "live",
+    "futbol-americano": "American football",
+    "hockey": "Hockey",
+    "beisbol": "Baseball"
   },
   "home": {
     "hero": {

@@ -4,6 +4,8 @@ import { setRequestLocale } from 'next-intl/server';
 import { ArrowLeft } from 'lucide-react';
 import { getSport, competitionsOf, liveCompetitions, competitionPath, KIND_LABEL, type CompetitionKind } from '@/lib/competitions';
 import { TodayBoard } from '@/components/portal/today-board';
+import { RacingHub } from '@/components/portal/racing-hub';
+import { TennisHub } from '@/components/portal/tennis-hub';
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd, pageMetadata, breadcrumbLd } from '@/lib/seo';
 
@@ -50,11 +52,11 @@ export default async function SportPage({ params }: { params: Promise<{ locale: 
             <div className="mb-3 font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-fg-muted)]">{KIND_LABEL[k]}</div>
             <div className="flex flex-wrap gap-2">
               {comps.filter((c) => c.kind === k).map((c) => {
-                const soon = !c.espn && !c.href;
+                const soon = !c.espn && !c.href && !c.stats;
                 return (
                   <Link key={c.slug} href={withLocale(L, competitionPath(c))}
-                    className={`inline-flex items-center gap-2 rounded-full border px-4 py-2 text-sm ${soon ? 'border-[var(--color-border)] text-[var(--color-fg-subtle)]' : 'border-[var(--color-border-strong)] font-semibold text-[var(--color-fg)] hover:border-[var(--color-pitch)] hover:text-[var(--color-pitch)]'}`}>
-                    {c.flag && <span aria-hidden>{c.flag}</span>}{c.name}{soon && <span className="font-mono text-[9px] uppercase tracking-wider">pronto</span>}
+                    className={`inline-flex items-center gap-2 rounded-full border px-4 py-2 text-sm ${soon ? 'border-[var(--color-border)] text-[var(--color-fg-subtle)]' : 'border-[var(--color-border-strong)] font-semibold text-[var(--color-fg)] hover:border-[var(--accent)] hover:text-[var(--accent-ink)]'}`}>
+                    {c.name}{soon && <span className="font-mono text-[9px] uppercase tracking-wider">pronto</span>}
                   </Link>
                 );
               })}
@@ -63,8 +65,13 @@ export default async function SportPage({ params }: { params: Promise<{ locale: 
         ))}
       </section>
 
+      {/* Deportes sin partido local-visitante: la plantilla propia de su competición principal. */}
+      {comps.filter((c) => !c.espn && (c.stats === 'racing' || c.stats === 'tennis')).map((c) => c.stats === 'racing' ? <RacingHub key={c.slug} comp={c} /> : <TennisHub key={c.slug} comp={c} />)}
+
+      {liveCompetitions(s.slug).length > 0 && <>
       <TodayBoard locale={L} competitions={liveCompetitions(s.slug)} range="today" kicker="Hoy" title={`Partidos de ${s.name.toLowerCase()} hoy`} emptyText={`Hoy no hay partidos de ${s.name.toLowerCase()} en las competiciones que seguimos.`} />
       <TodayBoard locale={L} competitions={liveCompetitions(s.slug)} range={[1, 7]} kicker="Próximos 7 días" title="Lo que viene" limitPerGroup={6} />
+      </>}
     </main>
   );
 }

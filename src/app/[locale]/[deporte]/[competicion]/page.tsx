@@ -5,6 +5,8 @@ import { TodayBoard } from '@/components/portal/today-board';
 import { StandingsTable } from '@/components/portal/standings-table';
 import { CompetitionHeader } from '@/components/portal/competition-header';
 import { OpenAcbStats } from '@/components/portal/openacb-stats';
+import { RacingHub } from '@/components/portal/racing-hub';
+import { TennisHub } from '@/components/portal/tennis-hub';
 import { resolveCompetition, withLocale, compBase } from '@/lib/competition-page';
 import type { Locale } from '@/i18n/routing';
 import { pageMetadata } from '@/lib/seo';
@@ -21,7 +23,7 @@ export async function generateMetadata({ params }: { params: Params }) {
   return pageMetadata({
     locale,
     path: compBase(c),
-    title: soon ? `${c.name}: calendario y resultados` : c.stats && !c.espn ? `${c.name}: estadísticas avanzadas de equipos, ratings y ritmo` : `${c.name}: resultados, calendario${c.hasStandings ? ' y clasificación' : ''} en directo`,
+    title: soon ? `${c.name}: calendario y resultados` : c.stats === 'racing' ? `${c.name}: calendario de grandes premios, horarios y clasificación del mundial` : c.stats === 'tennis' ? `${c.name}: torneos en juego, partidos de hoy y resultados` : c.stats && !c.espn ? `${c.name}: estadísticas avanzadas de equipos, ratings y ritmo` : `${c.name}: resultados, calendario${c.hasStandings ? ' y clasificación' : ''} en directo`,
     description: c.description,
     keywords: c.keywords,
     noIndex: soon,
@@ -53,6 +55,10 @@ export default async function CompetitionPage({ params }: { params: Params }) {
         </section>
       ) : !c.espn && c.stats === 'openacb' ? (
         <OpenAcbStats />
+      ) : !c.espn && c.stats === 'racing' ? (
+        <RacingHub comp={c} />
+      ) : !c.espn && c.stats === 'tennis' ? (
+        <TennisHub comp={c} />
       ) : (
         <>
           <TodayBoard locale={L} competitions={[c]} range="today" kicker="Hoy" title="Partidos de hoy" emptyText={`Hoy no hay partidos de ${c.name}.`} />

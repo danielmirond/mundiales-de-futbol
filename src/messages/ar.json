@@ -34,7 +34,10 @@
     "soon": "قريباً",
     "worldCups": "كؤوس العالم",
     "search": "فريق أو بطولة أو مباراة",
-    "liveNow": "مباشر"
+    "liveNow": "مباشر",
+    "futbol-americano": "كرة القدم الأمريكية",
+    "hockey": "هوكي الجليد",
+    "beisbol": "البيسبول"
   },
   "home": {
     "hero": {

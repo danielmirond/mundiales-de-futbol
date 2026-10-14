@@ -63,6 +63,9 @@ export function SiteNav() {
   }, [mega]);
 
   const liveSports = NAV_SPORTS.filter((s) => s.live);
+  /** Barra de escritorio: los tres primeros deportes; el resto con datos va arriba en «Más deportes». */
+  const barSports = liveSports.slice(0, 3);
+  const moreLive = liveSports.slice(3);
   const item = (active: boolean) => cn('inline-flex h-9 items-center gap-1.5 rounded-full px-3.5 text-sm whitespace-nowrap transition-colors', active ? 'bg-[var(--color-surface)] font-medium text-[var(--color-fg)]' : 'text-[var(--color-fg-muted)] hover:text-[var(--color-fg)]');
   const sportLiveCount = (slug: string) => live.liveSlugs.filter((x) => x.startsWith(`${slug}/`)).length;
 
@@ -77,7 +80,7 @@ export function SiteNav() {
         {/* Escritorio */}
         <nav className="hidden items-center gap-0.5 lg:flex" aria-label="Principal">
           <Link href={withLocale(locale, '/partidos-hoy')} className={cn(item(pathname.endsWith('/partidos-hoy')), 'font-semibold text-[var(--color-fg)]')}>{t('today')}<LiveCount n={live.live} /></Link>
-          {liveSports.map((s) => (
+          {barSports.map((s) => (
             <Link key={s.slug} href={withLocale(locale, `/${s.slug}`)} className={item(sport === s.slug)} data-sport={s.slug}>
               <Icon name={sportIcon(s.slug)} className="text-[var(--accent)]" />{t(s.slug as 'futbol')}
               {sportLiveCount(s.slug) > 0 && <LiveCount n={sportLiveCount(s.slug)} />}
@@ -115,6 +118,16 @@ export function SiteNav() {
       {/* Mega-menú «Más deportes» (escritorio) */}
       {mega && (
         <div ref={megaRef} className="absolute inset-x-0 top-full hidden border-b border-[var(--color-border)] bg-[var(--color-bg-2)] lg:block">
+          {moreLive.length > 0 && (
+            <div className="mx-auto flex w-full max-w-[1400px] flex-wrap gap-2 border-b border-[var(--color-border)] px-7 pb-5 pt-6">
+              {moreLive.map((s) => (
+                <Link key={s.slug} href={withLocale(locale, `/${s.slug}`)} data-sport={s.slug} className="inline-flex h-9 items-center gap-2 rounded-full border border-[var(--color-border-strong)] px-4 text-sm font-semibold text-[var(--color-fg)] hover:border-[var(--accent)] hover:text-[var(--accent-ink)]">
+                  <Icon name={sportIcon(s.slug)} className="text-[var(--accent)]" />{t(s.slug as 'futbol')}
+                  {sportLiveCount(s.slug) > 0 && <LiveCount n={sportLiveCount(s.slug)} />}
+                </Link>
+              ))}
+            </div>
+          )}
           <div className="mx-auto grid w-full max-w-[1400px] grid-cols-4 gap-x-8 gap-y-7 px-7 py-7">
             {MORE_SPORTS.map((g) => (
               <div key={g.name} data-sport={['motor', 'tenis', 'balonmano', 'ciclismo', 'atletismo'].includes(g.icon) ? g.icon : 'tenis'}>

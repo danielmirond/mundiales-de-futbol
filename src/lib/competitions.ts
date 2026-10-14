@@ -9,7 +9,7 @@
  * Rutas: /[deporte]  y  /[deporte]/[competicion]  (ver src/app/[locale]/[deporte]).
  */
 
-export type SportSlug = 'futbol' | 'baloncesto' | 'rugby' | 'balonmano' | 'motor' | 'tenis';
+export type SportSlug = 'futbol' | 'baloncesto' | 'rugby' | 'balonmano' | 'motor' | 'tenis' | 'futbol-americano' | 'hockey' | 'beisbol';
 
 export type Sport = {
   slug: SportSlug;
@@ -30,8 +30,10 @@ export type Competition = {
   /** Mapeo ESPN: `sport` (soccer, basketball, rugby…) y `league` (esp.1…). */
   espn?: { sport: string; league: string; dateRange?: boolean };
   hasStandings: boolean;
-  /** Fuente alternativa de estadísticas cuando ESPN no cubre la competición. */
-  stats?: 'openacb';
+  /** Plantilla alternativa cuando no es un partido local-visitante de ESPN: estadísticas OpenACB, tenis o motor. */
+  stats?: 'openacb' | 'tennis' | 'racing';
+  /** Ruta ESPN para las plantillas `tennis` y `racing` (no entran en los tableros de partidos). */
+  feed?: { sport: string; league: string };
   flag?: string;
   /** Si la competición ya vive en otra sección (p. ej. el Mundial 2026 en /2026). */
   href?: string;
@@ -45,7 +47,10 @@ export const SPORTS: Sport[] = [
   { slug: 'rugby', name: 'Rugby', emoji: '🏉', description: 'Seis Naciones y Mundial de rugby.' },
   { slug: 'balonmano', name: 'Balonmano', emoji: '🤾', description: 'Mundial y Europeo de balonmano.' },
   { slug: 'motor', name: 'Motor', emoji: '🏎️', description: 'Fórmula 1 y MotoGP: calendario y clasificación del mundial.' },
-  { slug: 'tenis', name: 'Tenis', emoji: '🎾', description: 'Circuitos ATP y WTA.' },
+  { slug: 'tenis', name: 'Tenis', emoji: '🎾', description: 'Circuitos ATP y WTA: torneos en juego y partidos del día.' },
+  { slug: 'futbol-americano', name: 'Fútbol americano', emoji: '🏈', description: 'NFL: resultados, calendario por semanas y clasificación por conferencias.' },
+  { slug: 'hockey', name: 'Hockey hielo', emoji: '🏒', description: 'NHL: marcadores, calendario y clasificación.' },
+  { slug: 'beisbol', name: 'Béisbol', emoji: '⚾', description: 'MLB: resultados, calendario y clasificación.' },
 ];
 
 const SOCCER = (league: string, dateRange = false) => ({ sport: 'soccer', league, dateRange });
@@ -102,15 +107,25 @@ export const COMPETITIONS: Competition[] = [
   { slug: 'mundial-de-balonmano', name: 'Mundial de Balonmano', sport: 'balonmano', kind: 'mundial', hasStandings: false,
     description: 'Campeonato Mundial de Balonmano.', keywords: ['mundial de balonmano'] },
   // ─── Motor ──────────────────────────────────────────────────────
-  { slug: 'formula-1', name: 'Fórmula 1', shortName: 'F1', sport: 'motor', kind: 'mundial', hasStandings: false,
+  { slug: 'formula-1', name: 'Fórmula 1', shortName: 'F1', sport: 'motor', kind: 'mundial', hasStandings: false, stats: 'racing', feed: { sport: 'racing', league: 'f1' },
     description: 'Mundial de Fórmula 1: calendario de grandes premios y clasificación de pilotos.', keywords: ['fórmula 1', 'f1', 'calendario f1', 'clasificación f1'] },
   { slug: 'motogp', name: 'MotoGP', sport: 'motor', kind: 'mundial', hasStandings: false,
     description: 'Mundial de MotoGP: calendario y clasificación.', keywords: ['motogp', 'calendario motogp', 'clasificación motogp'] },
   // ─── Tenis ──────────────────────────────────────────────────────
-  { slug: 'atp', name: 'ATP', sport: 'tenis', kind: 'torneo', hasStandings: false,
+  { slug: 'atp', name: 'ATP', sport: 'tenis', kind: 'torneo', hasStandings: false, stats: 'tennis', feed: { sport: 'tennis', league: 'atp' },
     description: 'Circuito ATP: torneos y ranking.', keywords: ['atp', 'ranking atp'] },
-  { slug: 'wta', name: 'WTA', sport: 'tenis', kind: 'torneo', hasStandings: false,
+  { slug: 'wta', name: 'WTA', sport: 'tenis', kind: 'torneo', hasStandings: false, stats: 'tennis', feed: { sport: 'tennis', league: 'wta' },
     description: 'Circuito WTA: torneos y ranking.', keywords: ['wta', 'ranking wta'] },
+  // ─── Fútbol americano, hockey y béisbol (ESPN) ──────────────────
+  { slug: 'nfl', name: 'NFL', sport: 'futbol-americano', kind: 'liga', espn: { sport: 'football', league: 'nfl' }, hasStandings: true, flag: '🇺🇸',
+    description: 'NFL: resultados en directo, calendario semana a semana y clasificación por conferencias.', keywords: ['nfl', 'resultados nfl', 'clasificación nfl', 'partidos nfl hoy', 'calendario nfl'] },
+  { slug: 'nhl', name: 'NHL', sport: 'hockey', kind: 'liga', espn: { sport: 'hockey', league: 'nhl' }, hasStandings: true, flag: '🇺🇸',
+    description: 'NHL: marcadores en directo, calendario y clasificación por conferencias.', keywords: ['nhl', 'resultados nhl', 'clasificación nhl', 'partidos nhl hoy'] },
+  { slug: 'mlb', name: 'MLB', sport: 'beisbol', kind: 'liga', espn: { sport: 'baseball', league: 'mlb' }, hasStandings: true, flag: '🇺🇸',
+    description: 'MLB: resultados, calendario, playoffs y clasificación de la Liga Americana y la Nacional.', keywords: ['mlb', 'resultados mlb', 'clasificación mlb', 'playoffs mlb', 'serie mundial'] },
+  // ─── Baloncesto femenino ───────────────────────────────────────
+  { slug: 'wnba', name: 'WNBA', sport: 'baloncesto', kind: 'liga', espn: { sport: 'basketball', league: 'wnba' }, hasStandings: true, flag: '🇺🇸',
+    description: 'WNBA: marcadores, calendario y clasificación de la liga femenina de baloncesto.', keywords: ['wnba', 'resultados wnba', 'clasificación wnba'] },
 ];
 
 export const KIND_LABEL: Record<CompetitionKind, string> = {

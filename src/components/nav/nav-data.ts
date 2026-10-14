@@ -5,22 +5,20 @@ export type NavComp = { slug: string; sport: string; name: string; href: string;
 
 /** Deportes con datos en vivo (barra) y en cola (mega-menú). */
 export const NAV_SPORTS: NavSport[] = SPORTS.map((s) => ({
-  slug: s.slug, name: s.name, live: liveCompetitions(s.slug).length > 0, count: COMPETITIONS.filter((c) => c.sport === s.slug).length,
+  slug: s.slug, name: s.name, live: liveCompetitions(s.slug).length > 0 || COMPETITIONS.some((c) => c.sport === s.slug && !!c.stats), count: COMPETITIONS.filter((c) => c.sport === s.slug).length,
 }));
 
 /** Competiciones por deporte (subnav), serializables para componentes cliente. */
 export const NAV_COMPS: NavComp[] = COMPETITIONS.map((c) => ({
-  slug: c.slug, sport: c.sport, name: c.shortName ?? c.name, href: competitionPath(c), live: !!c.espn || !!c.href,
+  slug: c.slug, sport: c.sport, name: c.shortName ?? c.name, href: competitionPath(c), live: !!c.espn || !!c.href || !!c.stats,
 }));
 
 /** Deportes sin fuente todavía (mega-menú «Más deportes»). `href` solo si existe la página. */
 export const MORE_SPORTS: { icon: string; name: string; items: string[]; href?: string; soon?: boolean }[] = [
-  { icon: 'motor', name: 'Motor', items: ['F1', 'MotoGP', 'Dakar · WRC · Indy'], href: '/motor', soon: true },
-  { icon: 'tenis', name: 'Tenis', items: ['ATP · WTA', 'Grand Slams', 'Copa Davis'], href: '/tenis', soon: true },
   { icon: 'balonmano', name: 'Balonmano', items: ['Liga Asobal', 'Mundial · Europeo'], href: '/balonmano', soon: true },
   { icon: 'ciclismo', name: 'Ciclismo', items: ['Tour · Giro · Vuelta', 'Clásicas · Mundial'], soon: true },
   { icon: 'atletismo', name: 'Atletismo y natación', items: ['Mundiales', 'Diamond League · maratones'], soon: true },
   { icon: 'golf', name: 'Golf y pádel', items: ['PGA · DP World · Ryder', 'Premier Padel'], soon: true },
-  { icon: 'mas', name: 'Combate y americanos', items: ['UFC · boxeo', 'NFL · MLB · NHL'], soon: true },
+  { icon: 'mas', name: 'Combate', items: ['UFC · boxeo'], soon: true },
   { icon: 'trofeo', name: 'Multideporte', items: ['Juegos Olímpicos 2028', 'Juegos de Invierno 2030'], soon: true },
 ];
