@@ -6,6 +6,8 @@ import { getSport, getCompetition } from '@/lib/competitions';
 import { fetchEventSummary } from '@/lib/wc-2026-match-summary';
 import { getWostiIndex, channelsFor } from '@/lib/wosti';
 import { lineupFor } from '@/lib/sportapi';
+import { fetchMatchPreview } from '@/lib/espn-preview';
+import { MatchPreviewSections } from '@/components/match/match-preview';
 import { MissingPlayers } from '@/components/match/missing-players';
 import { LiveMatchSummary } from '@/components/match/live-match-summary';
 import { MovistarCintillo } from '@/components/affiliate/movistar-banner';
@@ -39,10 +41,13 @@ export async function generateMetadata({ params }: { params: Params }) {
   const { c, summary } = data;
   const h = summary.header!;
   const hasLive = summary.hasLineups || summary.hasCommentary;
+  const pre = summary.state === 'pre';
   return pageMetadata({
     locale,
     path: `/${c.sport}/${c.slug}/partido/${id}`,
-    title: `${h.home.name} - ${h.away.name}: resultado${hasLive ? ', alineaciones y narración' : ' y estadísticas'} · ${c.name}`,
+    title: pre
+      ? `${h.home.name} - ${h.away.name}: previa, horario y dónde ver · ${c.name}`
+      : `${h.home.name} - ${h.away.name}: resultado${hasLive ? ', alineaciones y narración' : ' y estadísticas'} · ${c.name}`,
     description: `${h.home.name} contra ${h.away.name} en ${c.name}: marcador en directo, alineaciones, momentos clave, narración minuto a minuto, estadísticas y dónde ver el partido en TV.`,
     keywords: [`${h.home.name} ${h.away.name}`, `${h.home.name} - ${h.away.name}`, `${h.home.name} ${h.away.name} resultado`, `${h.home.name} ${h.away.name} alineaciones`, `${h.home.name} ${h.away.name} dónde ver`, c.name.toLowerCase()],
     type: 'article',
@@ -63,7 +68,13 @@ export default async function PartidoPortalPage({ params }: { params: Params }) 
     : [];
   const teamBase = withLocale(L, `/${c.sport}/${c.slug}/equipo`);
   const bajas = s.slug === 'futbol' ? lineupFor(c.slug, [h.home.name], [h.away.name]) : null;
+  // Previa (racha, cara a cara, tabla, bajas): solo antes del partido.
+  const preview = summary.state === 'pre' || summary.state === 'ppd'
+    ? await fetchMatchPreview(c.espn!, id, h.home.id, h.away.id)
+    : null;
+  const hasPreview = Boolean(preview && (preview.form.home.length || preview.form.away.length || preview.series || preview.table || preview.injuries.home.length || preview.injuries.away.length));
   const tabs = [
+    hasPreview && { href: '#previa', label: 'Previa' },
     summary.hasCommentary && { href: '#narracion', label: 'Narración' },
     summary.hasEvents && { href: '#momentos', label: 'Momentos' },
     summary.hasLineups && { href: '#alineaciones', label: s.slug === 'baloncesto' ? 'Quintetos' : 'Alineaciones' },
@@ -131,6 +142,17 @@ export default async function PartidoPortalPage({ params }: { params: Params }) 
         <section className="mx-auto mt-6 w-full max-w-[1000px] px-6 md:px-10">
           <MovistarCintillo context={`${h.home.name} - ${h.away.name}`} />
         </section>
+        )}
+
+        {preview && (
+          <MatchPreviewSections
+            preview={preview}
+            homeName={h.home.name}
+            awayName={h.away.name}
+            teamBase={teamBase}
+            standingsHref={c.hasStandings ? withLocale(L, `/${c.sport}/${c.slug}/clasificacion`) : undefined}
+            playerBase={withLocale(L, `/${c.sport}/${c.slug}/jugador`)}
+          />
         )}
 
       </LiveMatchSummary>

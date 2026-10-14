@@ -1,10 +1,11 @@
 import Link from 'next/link';
 import type { Competition } from '@/lib/competitions';
+import { hasInjuryReport } from '@/lib/espn-preview';
 import { routing, type Locale } from '@/i18n/routing';
 
 const withLocale = (l: Locale, h: string) => (l === routing.defaultLocale ? h : `/${l}${h}`);
 
-export type CompetitionSection = 'inicio' | 'partidos-hoy' | 'calendario' | 'resultados' | 'alineaciones' | 'clasificacion' | 'goleadores';
+export type CompetitionSection = 'inicio' | 'partidos-hoy' | 'calendario' | 'resultados' | 'alineaciones' | 'clasificacion' | 'goleadores' | 'lesionados';
 
 export function competitionSections(c: Competition): { key: CompetitionSection; label: string; path: string }[] {
   const base = `/${c.sport}/${c.slug}`;
@@ -18,6 +19,7 @@ export function competitionSections(c: Competition): { key: CompetitionSection; 
   if (c.sport === 'futbol') s.push({ key: 'alineaciones', label: 'Alineaciones', path: `${base}/alineaciones` });
   if (c.hasStandings) s.push({ key: 'clasificacion', label: 'Clasificación', path: `${base}/clasificacion` });
   if (c.sport === 'futbol') s.push({ key: 'goleadores', label: 'Goleadores', path: `${base}/goleadores` });
+  if (hasInjuryReport(c)) s.push({ key: 'lesionados', label: 'Lesionados', path: `${base}/lesionados` });
   return s;
 }
 
