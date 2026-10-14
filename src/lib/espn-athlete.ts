@@ -21,9 +21,12 @@ const LABEL_ES: Record<string, [string, string]> = {
 };
 const POS_ES: Record<string, string> = { Forward: 'Delantero', Midfielder: 'Centrocampista', Defender: 'Defensa', Goalkeeper: 'Portero', Center: 'Pívot', Guard: 'Base/escolta', 'Point Guard': 'Base', 'Shooting Guard': 'Escolta', 'Small Forward': 'Alero', 'Power Forward': 'Ala-pívot' };
 const SUMMARY_ES: Record<string, string> = {
-  'Starts-Substitute Appearances': 'Titular (suplente)', 'Total Goals': 'Goles', Assists: 'Asistencias', 'Shots On Target': 'Tiros a puerta', 'Shots On Goal': 'Tiros a puerta',
+  'Starts-Substitute Appearances': 'Titular (suplente)', Shots: 'Tiros', 'Total Shots': 'Tiros', Saves: 'Paradas', 'Goals Conceded': 'Goles encajados', 'Clean Sheet': 'Porterías a cero', 'Total Goals': 'Goles', Assists: 'Asistencias', 'Shots On Target': 'Tiros a puerta', 'Shots On Goal': 'Tiros a puerta',
   'Points Per Game': 'Puntos por partido', 'Rebounds Per Game': 'Rebotes por partido', 'Assists Per Game': 'Asistencias por partido', 'Field Goal Percentage': '% de tiro', 'Player Efficiency Rating': 'Valoración (PER)',
 };
+
+/** «5' 9"» → «175 cm». */
+const toCm = (h?: string) => { const m = /(\d+)'\s*(\d+)/.exec(h ?? ''); return m ? `${Math.round((Number(m[1]) * 12 + Number(m[2])) * 2.54)} cm` : h; };
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
 async function get(url: string) {
@@ -39,7 +42,7 @@ export async function fetchAthlete(c: Competition, id: string): Promise<AthleteP
   const pos = a.position?.displayName as string | undefined;
   const bio: AthleteBio = {
     id, name: String(a.displayName), position: pos ? POS_ES[pos] ?? pos : undefined, team: a.team?.displayName, teamId: a.team?.id ? String(a.team.id) : undefined,
-    jersey: a.displayJersey ? String(a.displayJersey).replace('#', '') : undefined, age: typeof a.age === 'number' ? a.age : undefined, dob: a.displayDOB, height: a.displayHeight,
+    jersey: a.displayJersey ? String(a.displayJersey).replace('#', '') : undefined, age: typeof a.age === 'number' ? a.age : undefined, dob: a.displayDOB, height: toCm(a.displayHeight),
     country: countryEs(a.citizenship ?? a.flag?.alt), headshot: a.headshot?.href,
   };
   const summary: AthleteSummaryStat[] = (main?.athlete?.statsSummary?.statistics ?? main?.statsSummary?.statistics ?? []).map((s: any) => ({ label: SUMMARY_ES[s.displayName] ?? s.displayName, value: String(s.displayValue ?? ''), rank: s.rankDisplayValue }));
@@ -47,7 +50,7 @@ export async function fetchAthlete(c: Competition, id: string): Promise<AthleteP
   const labels: string[] = cat?.labels ?? [];
   const teamsById = new Map<string, string>(Object.values(stats?.teams ?? {}).map((t: any) => [String(t.id), String(t.displayName ?? t.name ?? '')]));
   const rows: AthleteSeasonRow[] = [...(cat?.statistics ?? [])].reverse().slice(0, 8).map((r: any) => ({
-    season: String(r.season?.displayName ?? r.season?.type?.name ?? r.season?.year ?? '').replace(/\s*(LALIGA|Premier League|Serie A|Bundesliga|Ligue 1).*$/i, ''),
+    season: (String(r.season?.displayName ?? r.season?.type?.name ?? r.season?.year ?? '').match(/\d{4}-\d{2}/) ?? [String(r.season?.year ?? '')])[0],
     team: teamsById.get(String(r.teamId)) ?? '', stats: (r.stats ?? []).map(String),
   }));
   return {

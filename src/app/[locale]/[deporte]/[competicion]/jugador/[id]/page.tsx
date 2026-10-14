@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: { params: Params }) {
   const { c, p } = d;
   return pageMetadata({
     locale, path: `/${c.sport}/${c.slug}/jugador/${id}`,
-    title: `${p.bio.name}: estadísticas, goles y temporada${p.bio.team ? ` en el ${p.bio.team}` : ''}`,
+    title: `${p.bio.name}: estadísticas${c.sport === 'futbol' ? ', goles' : ', puntos'} y temporada${p.bio.team ? ` · ${p.bio.team}` : ''}`,
     description: `${p.bio.name}${p.bio.position ? `, ${p.bio.position.toLowerCase()}` : ''}${p.bio.team ? ` del ${p.bio.team}` : ''}: estadísticas de la temporada en ${c.name} y de las anteriores, edad, nacionalidad y dorsal.`,
     keywords: [p.bio.name, `${p.bio.name} estadísticas`, `${p.bio.name} goles`, `${p.bio.name} temporada`],
   });
