@@ -11,6 +11,8 @@ import { JERSEY_HISTORIES } from '@/lib/wc-jerseys';
 import { HOSPITALITY_CITIES, FMT_TEAM_PARAMS } from '@/lib/wc-2026-hospitality';
 import { routing } from '@/i18n/routing';
 import { SPORTS, COMPETITIONS } from '@/lib/competitions';
+import { fetchTeams } from '@/lib/espn-team';
+import { getSportapiSnapshot } from '@/lib/sportapi';
 
 /**
  * Páginas de récords disponibles en /records/[slug]. Lista cerrada
@@ -119,6 +121,19 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     for (const sec of ['partidos-hoy', 'calendario', 'resultados']) out.push(entry(`/${c.sport}/${c.slug}/${sec}`, now, 'daily', 0.7));
     if (c.hasStandings) out.push(entry(`/${c.sport}/${c.slug}/clasificacion`, now, 'daily', 0.7));
     if (c.sport === 'futbol') { out.push(entry(`/${c.sport}/${c.slug}/alineaciones`, now, 'daily', 0.6)); out.push(entry(`/${c.sport}/${c.slug}/goleadores`, now, 'daily', 0.6)); }
+    // Jornadas oficiales (snapshot SportAPI): una URL por jornada de resultados.
+    const official = getSportapiSnapshot().competitions[c.slug];
+    if (official) for (let n = 1; n <= Math.min(official.totalRounds, official.currentRound); n++) out.push(entry(`/${c.sport}/${c.slug}/resultados/jornada-${n}`, now, 'weekly', 0.5));
+  }
+  // Fichas de equipo de las ligas (y sus subpáginas): una llamada ESPN por liga, cacheada 24 h.
+  const leagues = COMPETITIONS.filter((c) => c.espn && !c.href && c.kind === 'liga' && c.hasStandings);
+  const teamLists = await Promise.all(leagues.map(async (c) => ({ c, teams: await fetchTeams(c).catch(() => []) })));
+  for (const { c, teams } of teamLists) {
+    for (const t of teams) {
+      const base = `/${c.sport}/${c.slug}/equipo/${t.slug}`;
+      out.push(entry(base, now, 'daily', 0.6));
+      for (const sec of ['calendario', 'resultados', 'plantilla']) out.push(entry(`${base}/${sec}`, now, 'weekly', 0.4));
+    }
   }
   out.push(entry('/mundiales', now, 'weekly', 0.9));
   out.push(entry('/ediciones', now, 'weekly', 0.9));

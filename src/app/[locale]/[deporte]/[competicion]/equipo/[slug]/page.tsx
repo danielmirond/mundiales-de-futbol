@@ -13,7 +13,8 @@ import { StandingsTable, FormChips } from '@/components/portal/standings-table';
 import { TeamTabs } from '@/components/portal/team-tabs';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl } from '@/lib/seo';
 
-export const dynamic = 'force-dynamic';
+// Regeneración periódica (ISR): rápida y estable sin pedir a las fuentes en cada visita.
+export const revalidate = 900;
 
 const withLocale = (l: Locale, h: string) => (l === routing.defaultLocale ? h : `/${l}${h}`);
 const dayFmt = new Intl.DateTimeFormat('es', { timeZone: 'Europe/Madrid', weekday: 'short', day: 'numeric', month: 'short' });

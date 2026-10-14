@@ -9,7 +9,8 @@ import { resolveCompetition, compBase } from '@/lib/competition-page';
 import type { Locale } from '@/i18n/routing';
 import { pageMetadata } from '@/lib/seo';
 
-export const dynamic = 'force-dynamic';
+// Regeneración periódica (ISR): rápida y estable sin pedir a las fuentes en cada visita.
+export const revalidate = 600;
 type Params = Promise<{ locale: string; deporte: string; competicion: string; jornada: string }>;
 const SAFE = /^(jornada|ronda|semana)-\d{1,3}$/;
 

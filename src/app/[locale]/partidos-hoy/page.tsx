@@ -5,7 +5,8 @@ import { CompetitionsGrid } from '@/components/portal/competitions-grid';
 import type { Locale } from '@/i18n/routing';
 import { JsonLd, pageMetadata, breadcrumbLd } from '@/lib/seo';
 
-export const dynamic = 'force-dynamic';
+// Regeneración periódica (ISR): rápida y estable sin pedir a las fuentes en cada visita.
+export const revalidate = 120;
 
 const dayFmt = new Intl.DateTimeFormat('es', { timeZone: 'Europe/Madrid', weekday: 'long', day: 'numeric', month: 'long' });
 

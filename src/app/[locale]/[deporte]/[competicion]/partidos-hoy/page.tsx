@@ -6,7 +6,8 @@ import { resolveCompetition, compBase } from '@/lib/competition-page';
 import type { Locale } from '@/i18n/routing';
 import { pageMetadata } from '@/lib/seo';
 
-export const dynamic = 'force-dynamic';
+// Regeneración periódica (ISR): rápida y estable sin pedir a las fuentes en cada visita.
+export const revalidate = 120;
 type Params = Promise<{ locale: string; deporte: string; competicion: string }>;
 const dayFmt = new Intl.DateTimeFormat('es', { timeZone: 'Europe/Madrid', weekday: 'long', day: 'numeric', month: 'long' });
 

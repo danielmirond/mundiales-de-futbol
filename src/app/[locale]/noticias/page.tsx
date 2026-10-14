@@ -4,10 +4,10 @@ import { ArrowLeft, Newspaper } from 'lucide-react';
 import { NEWS_ITEMS } from '@/lib/news';
 import { NewsCard, autoVariant } from '@/components/news/news-card';
 
-// SSR: el filtro publishedAt <= now necesita evaluarse en cada request,
+// ISR 5 min: el filtro publishedAt <= now se reevalúa en cada regeneración,
 // no en build time, para que los artículos programados aparezcan solos.
-export const dynamic = 'force-dynamic';
-export const revalidate = 0;
+// Regeneración periódica (ISR): rápida y estable sin pedir a las fuentes en cada visita.
+export const revalidate = 300;
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl, SEO } from '@/lib/seo';
 

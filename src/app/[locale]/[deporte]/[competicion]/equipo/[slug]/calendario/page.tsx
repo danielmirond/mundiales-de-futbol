@@ -9,7 +9,8 @@ import { MatchRow, MatchList } from '@/components/portal/match-row';
 import { routing, type Locale } from '@/i18n/routing';
 import { pageMetadata } from '@/lib/seo';
 
-export const dynamic = 'force-dynamic';
+// Regeneración periódica (ISR): rápida y estable sin pedir a las fuentes en cada visita.
+export const revalidate = 900;
 type Params = Promise<{ locale: string; deporte: string; competicion: string; slug: string }>;
 const withLocale = (l: Locale, h: string) => (l === routing.defaultLocale ? h : `/${l}${h}`);
 

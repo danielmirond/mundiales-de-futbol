@@ -9,10 +9,10 @@ import { MundialesEntry } from '@/components/home/mundiales-entry';
 import type { Locale } from '@/i18n/routing';
 import { pageMetadata } from '@/lib/seo';
 
-// SSR: la portada es un portal multi-competición con marcadores en directo
+// ISR 2 min: portal multi-competición con marcadores en directo
 // (ESPN) y noticias con publicación programada — runtime, no build time.
-export const dynamic = 'force-dynamic';
-export const revalidate = 0;
+// Regeneración periódica (ISR): rápida y estable sin pedir a las fuentes en cada visita.
+export const revalidate = 120;
 
 const META: Record<string, { title: string; description: string; keywords: string[] }> = {
   es: {

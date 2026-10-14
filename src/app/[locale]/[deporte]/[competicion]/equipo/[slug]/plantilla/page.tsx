@@ -5,7 +5,8 @@ import { loadTeam, teamBase, POS_LABEL } from '@/lib/team-page';
 import { TeamHeader } from '@/components/portal/team-header';
 import { pageMetadata } from '@/lib/seo';
 
-export const dynamic = 'force-dynamic';
+// Regeneración periódica (ISR): rápida y estable sin pedir a las fuentes en cada visita.
+export const revalidate = 21600;
 type Params = Promise<{ locale: string; deporte: string; competicion: string; slug: string }>;
 
 export async function generateMetadata({ params }: { params: Params }) {
