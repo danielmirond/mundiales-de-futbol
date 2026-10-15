@@ -141,6 +141,371 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'previa-betis-barcelona-401882846',
+    title: "Betis - Barcelona: horario, dónde ver y cómo llegan al partido de LaLiga",
+    summary: "Betis y Barcelona se enfrentan este sábado 17 de octubre a las 18:00 h en Estadio La Cartuja, en partido de LaLiga. Betis es 3.º y Barcelona, 1.º. TV: DAZN LaLiga y DAZN.",
+    body: `Betis y Barcelona se enfrentan este sábado 17 de octubre a las 18:00 h en Estadio La Cartuja, en partido de LaLiga.
+
+## Cómo llegan
+
+Betis llega de ganar 5-2 a Osasuna y ocupa la 3.º plaza con 19 puntos (6G-1E-1P). Barcelona llega de ganar 3-0 a Getafe y ocupa la 1.º plaza con 24 puntos (8G-0E-0P). La [clasificación de LaLiga](/futbol/laliga), al día.
+
+## Dónde ver el partido
+
+Se emite en **DAZN LaLiga y DAZN**. Alineaciones en cuanto se confirmen, marcador en directo y narración en la [ficha del Betis - Barcelona](/futbol/laliga/partido/401882846). El resto de la jornada, en [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    kind: 'previa',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882846",
+    sourceLang: 'en',
+    publishedAt: '2026-10-15T23:49:43.616Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/4/46/Seville_Estadio_Ol%C3%ADmpico_de_La_Cartuja_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      alt: "Estadio La Cartuja, sede del Betis - Barcelona",
+      credit: "Валерий Дед · CC BY 3.0 · Wikimedia Commons",
+      license: "CC BY 3.0",
+    },
+  },
+  {
+    slug: 'cronica-nec-levski-sofia-401915565',
+    title: "NEC 1 Levski Sofia 1: goles de Reinaldo y Tjaronn Chery, NEC 27.º y posesión del 51 % para NEC",
+    summary: "NEC y Levski Sofia empataron 1-1 en Europa League; el último gol fue de Tjaronn Chery en el 64'. Claves: goles de Reinaldo y Tjaronn Chery, NEC 27.º y posesión del 51 % para NEC.",
+    body: `NEC y Levski Sofia empataron 1-1 en Europa League; el último gol fue de Tjaronn Chery en el 64'.
+
+## Reinaldo decidió
+
+Los goles: Reinaldo (35', Levski Sofia) y Tjaronn Chery (64', NEC).
+
+## Los números del partido
+
+La posesión fue 51 %-49 % para NEC. En remates, 15 de NEC (7 a puerta) por 8 de Levski Sofia (2). Córners: 5 por 1.
+
+## Qué cambia en la tabla
+
+Tras el partido, NEC 27.º con 1 puntos y Levski Sofia 25.º con 1 puntos en la [clasificación de Europa League](/futbol/europa-league).
+
+## Qué viene ahora
+
+Lo que viene. NEC: visita a Dinamo Zagreb el jueves 22 de octubre. Levski Sofia: visita a Viktoria Plzen el jueves 22 de octubre. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/europa-league/partido/401915565).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Europa League","sport":"futbol","slug":"europa-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915565",
+    sourceLang: 'en',
+    publishedAt: '2026-10-15T23:49:43.616Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Goffertstadion_N.E.C._Nijmegen.jpg/1920px-Goffertstadion_N.E.C._Nijmegen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Goffertstadion, donde se jugó el NEC - Levski Sofia",
+      credit: "Roger Veringmeier · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'cronica-marseille-olympiacos-401915550',
+    title: "Santiago Hezze guía a Olympiacos ante Marseille (1-0) y lo deja 10.º en Europa League",
+    summary: "Olympiacos 1-0 Marseille en Europa League: Santiago Hezze marcó. Marseille 56 % de posesión y 11 remates; Olympiacos 44 % y 9.",
+    body: `## Resumen
+
+Olympiacos ganó 1-0 a Marseille en Europa League, con gol de Santiago Hezze.
+
+## Los goles
+
+- 42' · Santiago Hezze (Olympiacos)
+
+## El dato
+
+Marseille 56 % de posesión y 11 remates; Olympiacos 44 % y 9.
+
+## Lo que viene
+
+Lo que viene. Marseille: visita a Sturm Graz el jueves 22 de octubre. Olympiacos: recibe a Sparta el jueves 22 de octubre.
+
+**Lee también:** la [ficha del partido](/futbol/europa-league/partido/401915550) con alineaciones y narración · la [clasificación de Europa League](/futbol/europa-league) · [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Europa League","sport":"futbol","slug":"europa-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915550",
+    sourceLang: 'en',
+    publishedAt: '2026-10-15T23:49:43.616Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Cabanons_et_Stade_V%C3%A9lodrome_%E2%80%94_Marseille_%289615088071%29.jpg/1920px-Cabanons_et_Stade_V%C3%A9lodrome_%E2%80%94_Marseille_%289615088071%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Stade Vélodrome, donde se jugó el Marseille - Olympiacos",
+      credit: "Jeanne Menjoulet from Paris, France · CC BY 2.0 · Wikimedia Commons",
+      license: "CC BY 2.0",
+    },
+  },
+  {
+    slug: 'cronica-jagiellonia-ararat-armenia-401915561',
+    title: "Jagiellonia  3 Ararat-Armenia 1: 4 goles, Jagiellonia  17.º y posesión del 43 % para Jagiellonia ",
+    summary: "Rodrigo Conceição marcó en el 38' el gol que puso por delante a Jagiellonia , que ya no soltó la ventaja: 3-1 final ante Ararat-Armenia en Europa League. Claves: 4 goles, Jagiellonia  17.º y posesión del 43 % para Jagiellonia .",
+    body: `Rodrigo Conceição marcó en el 38' el gol que puso por delante a Jagiellonia , que ya no soltó la ventaja: 3-1 final ante Ararat-Armenia en Europa League.
+
+## Zidane Banjaqui decidió
+
+Marcaron Zidane Banjaqui (11', Ararat-Armenia), Kamil Jozwiak (13', Jagiellonia ), Rodrigo Conceição (38', Jagiellonia ) y Ousmane Sow (51', Jagiellonia ).
+
+## Ararat-Armenia tuvo el balón, no el gol
+
+Jagiellonia  manejó el balón (43 % por 57 %) y tiró 8 veces, 5 entre los tres palos; Ararat-Armenia se quedó en 11 remates (4 a puerta). Córners: 2 por 2.
+
+## Qué cambia en la tabla
+
+Tras el partido, Jagiellonia  17.º con 3 puntos y Ararat-Armenia 33.º con 0 puntos en la [clasificación de Europa League](/futbol/europa-league).
+
+## Qué viene ahora
+
+Lo que viene. Jagiellonia : recibe a Anderlecht el jueves 22 de octubre. Ararat-Armenia: recibe a AZ Alkmaar el jueves 22 de octubre. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/europa-league/partido/401915561).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Europa League","sport":"futbol","slug":"europa-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915561",
+    sourceLang: 'en',
+    publishedAt: '2026-10-15T23:49:43.616Z',
+    author: "Redacción Mundiales de Fútbol",
+  },
+  {
+    slug: 'cronica-ferencvaros-viktoria-plzen-401915564',
+    title: "Ferencvaros 2 Viktoria Plzen 1: gol de Kristoffer Zachariassen y Ferencvaros 7.º",
+    summary: "Kristoffer Zachariassen marcó en el 49' el gol que puso por delante a Ferencvaros, que ya no soltó la ventaja: 2-1 final ante Viktoria Plzen en Europa League. Claves: gol de Kristoffer Zachariassen, Ferencvaros 7.º y posesión del 55 % para Ferencvaros.",
+    body: `Kristoffer Zachariassen marcó en el 49' el gol que puso por delante a Ferencvaros, que ya no soltó la ventaja: 2-1 final ante Viktoria Plzen en Europa League.
+
+## Kristoffer Zachariassen decidió
+
+Marcaron Kristoffer Zachariassen (49', Ferencvaros).
+
+## Los números del partido
+
+Ferencvaros tuvo el 55 % de la posesión por el 46 % de Viktoria Plzen; remató 12 veces (6 a puerta) frente a 14 (4) del rival. Córners: 6 por 2.
+
+## Qué cambia en la tabla
+
+Tras el partido, Ferencvaros 7.º con 6 puntos y Viktoria Plzen 32.º con 0 puntos en la [clasificación de Europa League](/futbol/europa-league).
+
+## Qué viene ahora
+
+Lo que viene. Ferencvaros: recibe a Torreense el jueves 22 de octubre. Viktoria Plzen: recibe a Levski Sofia el jueves 22 de octubre. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/europa-league/partido/401915564).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Europa League","sport":"futbol","slug":"europa-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915564",
+    sourceLang: 'en',
+    publishedAt: '2026-10-15T23:49:43.616Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Groupama_Arena_Budapest_%2817267881892%29.jpg/1920px-Groupama_Arena_Budapest_%2817267881892%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Groupama Arena, donde se jugó el Ferencvaros - Viktoria Plzen",
+      credit: "Marcell Katona · CC BY 2.0 · Wikimedia Commons",
+      license: "CC BY 2.0",
+    },
+  },
+  {
+    slug: 'cronica-dinamo-zagreb-anderlecht-401915549',
+    title: "Dinamo Zagreb supera a Anderlecht (1-0) y es 14.º en Europa League",
+    summary: "Dinamo Zagreb 1-0 Anderlecht en Europa League. Dinamo Zagreb 45 % de posesión y 12 remates; Anderlecht 55 % y 10.",
+    body: `## Resumen
+
+Dinamo Zagreb ganó 1-0 a Anderlecht en Europa League.
+
+## Los goles
+
+Sin goles.
+
+## El dato
+
+Dinamo Zagreb 45 % de posesión y 12 remates; Anderlecht 55 % y 10.
+
+## Lo que viene
+
+Lo que viene. Dinamo Zagreb: recibe a NEC el jueves 22 de octubre. Anderlecht: visita a Jagiellonia  el jueves 22 de octubre.
+
+**Lee también:** la [ficha del partido](/futbol/europa-league/partido/401915549) con alineaciones y narración · la [clasificación de Europa League](/futbol/europa-league) · [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Europa League","sport":"futbol","slug":"europa-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915549",
+    sourceLang: 'en',
+    publishedAt: '2026-10-15T23:49:43.616Z',
+    author: "Redacción Mundiales de Fútbol",
+  },
+  {
+    slug: 'cronica-celta-vigo-juventus-401915560',
+    title: "Celta Vigo 1 Juventus 2: goles de Hugo Álvarez, Nick Woltemade y Randal Kolo Muani y Juventus 1.º",
+    summary: "Randal Kolo Muani marcó en el 90'+2' el gol que puso por delante a Juventus, que ya no soltó la ventaja: 2-1 final ante Celta Vigo en Europa League. Claves: goles de Hugo Álvarez, Nick Woltemade y Randal Kolo Muani, Juventus 1.º y posesión del 47 % para Celta Vigo.",
+    body: `Randal Kolo Muani marcó en el 90'+2' el gol que puso por delante a Juventus, que ya no soltó la ventaja: 2-1 final ante Celta Vigo en Europa League.
+
+## Hugo Álvarez decidió
+
+Los goles: Hugo Álvarez (18', Celta Vigo), Nick Woltemade (58', Juventus) y Randal Kolo Muani (90'+2', Juventus).
+
+## Los números del partido
+
+La posesión fue 47 %-53 % para Celta Vigo. En remates, 9 de Celta Vigo (2 a puerta) por 22 de Juventus (6). Córners: 2 por 7. Se emitió en Movistar Plus+ y M+ Liga de Campeones.
+
+## Qué cambia en la tabla
+
+Tras el partido, Celta Vigo 29.º con 0 puntos y Juventus 1.º con 6 puntos en la [clasificación de Europa League](/futbol/europa-league).
+
+## Qué viene ahora
+
+Lo que viene. Celta Vigo: visita a Celtic el jueves 22 de octubre. Juventus: recibe a Rennes el jueves 22 de octubre. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/europa-league/partido/401915560).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Europa League","sport":"futbol","slug":"europa-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915560",
+    sourceLang: 'en',
+    publishedAt: '2026-10-15T23:49:43.616Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/2014-10-19_-_Museo_Real_Club_Celtic_Vigo_-_Estadio_De_Balaidos_-_Vigo_-_Spain1.JPG/1920px-2014-10-19_-_Museo_Real_Club_Celtic_Vigo_-_Estadio_De_Balaidos_-_Vigo_-_Spain1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Balaidos, donde se jugó el Celta Vigo - Juventus",
+      credit: "Ploetzlich (Diskussion) 17:12, 20. Okt. 2014 (CEST) · CC BY-SA 3.0 · Wikimedia Commons",
+      license: "CC BY-SA 3.0",
+    },
+  },
+  {
+    slug: 'cronica-benfica-celtic-401915562',
+    title: "Benfica gana 4-1 a Celtic y es 3.º",
+    summary: "Benfica suma tres puntos ante Celtic (4-1) en Europa League y es 3.º con 6 puntos; Celtic se queda 34.º.",
+    body: `Benfica se impuso 4-1 a Celtic en Europa League.
+
+## Los goles
+
+Marcaron Alexander Bah (23', Benfica), Jhon Durán (36', Benfica), Camilo Durán (63', Celtic) y Vangelis Pavlidis (89', Benfica).
+
+## La tabla
+
+Tras el partido, Benfica 3.º con 6 puntos y Celtic 34.º con 0 puntos en la [clasificación de Europa League](/futbol/europa-league).
+
+## Lo que viene
+
+Lo que viene. Benfica: visita a Omonia el jueves 22 de octubre. Celtic: recibe a Celta Vigo el jueves 22 de octubre. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/europa-league/partido/401915562).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Europa League","sport":"futbol","slug":"europa-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915562",
+    sourceLang: 'en',
+    publishedAt: '2026-10-15T23:49:43.616Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Estadio_Benfica_April_2013-1.jpg/1920px-Estadio_Benfica_April_2013-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Estádio da Luz, donde se jugó el Benfica - Celtic",
+      credit: "Alvesgaspar · CC BY-SA 3.0 · Wikimedia Commons",
+      license: "CC BY-SA 3.0",
+    },
+  },
+  {
+    slug: 'cronica-bournemouth-sturm-graz-401915571',
+    title: "Bournemouth 3 Sturm Graz 0: goles de Evanilson y Rayan, Bournemouth 5.º y posesión del 62 % para Bournemouth",
+    summary: "Evanilson marcó en el 43' el gol que puso por delante a Bournemouth, que ya no soltó la ventaja: 3-0 final ante Sturm Graz en Europa League. Claves: goles de Evanilson y Rayan, Bournemouth 5.º y posesión del 62 % para Bournemouth.",
+    body: `Evanilson marcó en el 43' el gol que puso por delante a Bournemouth, que ya no soltó la ventaja: 3-0 final ante Sturm Graz en Europa League.
+
+## Evanilson decidió
+
+Marcaron Evanilson (43', Bournemouth) y Rayan (76', Bournemouth).
+
+## Los números del partido
+
+La posesión fue 62 %-38 % para Bournemouth. En remates, 24 de Bournemouth (8 a puerta) por 6 de Sturm Graz (1). Córners: 7 por 3.
+
+## Qué cambia en la tabla
+
+Tras el partido, Bournemouth 5.º con 6 puntos y Sturm Graz 26.º con 1 puntos en la [clasificación de Europa League](/futbol/europa-league).
+
+## Qué viene ahora
+
+Lo que viene. Bournemouth: recibe a Milan el jueves 22 de octubre. Sturm Graz: recibe a Marseille el jueves 22 de octubre. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/europa-league/partido/401915571).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Europa League","sport":"futbol","slug":"europa-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915571",
+    sourceLang: 'en',
+    publishedAt: '2026-10-15T23:49:43.616Z',
+    author: "Redacción Mundiales de Fútbol",
+  },
+  {
+    slug: 'partidos-futbol-hoy-2026-10-16',
+    title: "Partidos de fútbol hoy, viernes 16 de octubre: horarios y dónde ver LaLiga, Süper Lig y Eredivisie",
+    summary: "Agenda de fútbol de hoy viernes 16 de octubre: 8 partidos con horario en hora española y canal de televisión. Destaca Deportivo - Levante.",
+    body: `Jornada de fútbol con 8 citas este viernes 16 de octubre. Horarios en hora peninsular y dónde verlas, competición por competición. El partido que más miradas reúne es el **[Deportivo - Levante](/futbol/laliga/partido/401882844)** (LaLiga, 21:00 h).
+
+## 🇹🇷 Süper Lig
+
+- **[Çorum FK - Caykur Rizespor](/futbol/super-lig/partido/401888377)** — 19:00 h
+
+Calendario y clasificación en la [página de Süper Lig](/futbol/super-lig).
+
+## 🇳🇱 Eredivisie
+
+- **[Heerenveen - Excelsior](/futbol/eredivisie/partido/401875583)** — 20:00 h
+
+Calendario y clasificación en la [página de Eredivisie](/futbol/eredivisie).
+
+## 🇪🇸 LaLiga Hypermotion
+
+- **[Leganés - Córdoba](/futbol/laliga-2/partido/401883158)** — 20:30 h · 📺 LALIGA TV Hypermotion / DAZN
+
+Calendario y clasificación en la [página de LaLiga 2](/futbol/laliga-2).
+
+## 🇩🇪 Bundesliga
+
+- **[Frankfurt - Cologne](/futbol/bundesliga/partido/401884770)** — 20:30 h
+
+Calendario y clasificación en la [página de Bundesliga](/futbol/bundesliga).
+
+## 🇮🇹 Serie A
+
+- **[Frosinone - Sassuolo](/futbol/serie-a/partido/401874959)** — 20:45 h · 📺 DAZN
+
+Calendario y clasificación en la [página de Serie A](/futbol/serie-a).
+
+## 🇫🇷 Ligue 1
+
+- **[Le Mans - Toulouse](/futbol/ligue-1/partido/401876437)** — 20:45 h · 📺 DAZN
+
+Calendario y clasificación en la [página de Ligue 1](/futbol/ligue-1).
+
+## 🇪🇸 LaLiga
+
+- **[Deportivo - Levante](/futbol/laliga/partido/401882844)** — 21:00 h · 📺 M+ LALIGA / DAZN
+
+Calendario y clasificación en la [página de LaLiga](/futbol/laliga).
+
+## 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Championship
+
+- **[Burnley - Wolves](/futbol/championship/partido/401880218)** — 21:00 h
+
+Calendario y clasificación en la [página de Championship](/futbol/championship).
+
+Horarios en hora de España; los resultados y la narración de cada partido van en su ficha. Toda la jornada, con marcadores en directo, en [partidos de hoy](/partidos-hoy).`,
+    category: 'tv',
+    kind: 'agenda',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882844",
+    sourceLang: 'en',
+    publishedAt: '2026-10-15T23:49:43.616Z',
+    modifiedAt: '2026-10-15T23:49:43.616Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Estadio_de_Riazor_-_2.jpg/1920px-Estadio_de_Riazor_-_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Riazor, escenario del Deportivo - Levante",
+      credit: "HausOf_Diegoo from Caracas, Venezuela · CC BY 2.0 · Wikimedia Commons",
+      license: "CC BY 2.0",
+    },
+  },
+  {
     slug: 'lovseth-kona-ironman-2026-caida-ultima-milla-knibb',
     title: 'Solveig Løvseth se fue al suelo tres veces a una milla de ganar otra vez en Kona',
     summary: 'La noruega, campeona del mundo de Ironman en 2025, bajó Palani Hill con casi dos minutos de ventaja y se desplomó en la última milla de Kona. Taylor Knibb, que había vomitado en el maratón, la pasó a un kilómetro de la meta y ganó el título. Løvseth acabó octava.',
