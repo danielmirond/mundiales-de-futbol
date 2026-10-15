@@ -71,7 +71,17 @@ export async function buildLiveFeed(withLocale: (h: string) => string, opts: { s
     .map((m) => ({ kind: 'score', id: `${m.competition.slug}-${m.id}`, date: m.date, comp: m.competition.name, sport: m.competition.sport,
       href: withLocale(`/${m.competition.sport}/${m.competition.slug}/partido/${m.id}`), match: m }));
 
-  const news: FeedCard[] = getLatestNews(sport ? 60 : 10).filter((n) => !sport || (n.competition?.sport ?? 'futbol') === sport).slice(0, 10).map((n) => ({
+  // Propias: las piezas editoriales (kind 'noticia', últimas 72 h) tienen hueco
+  // reservado para que las crónicas y previas automáticas no las desplacen.
+  const pool = getLatestNews(80).filter((n) => !sport || (n.competition?.sport ?? 'futbol') === sport);
+  const since = new Date(Date.now() - 72 * 3600_000).toISOString();
+  const editorial = pool.filter((n) => newsKind(n) === 'noticia' && n.publishedAt >= since).slice(0, 6);
+  const auto = pool.filter((n) => !editorial.includes(n)).slice(0, 12 - editorial.length);
+  // Alterna una propia y una automática, empezando por la propia.
+  const ordered = Array.from({ length: Math.max(editorial.length, auto.length) }, (_, i) => [editorial[i], auto[i]])
+    .flat()
+    .filter((n): n is (typeof pool)[number] => Boolean(n));
+  const news: FeedCard[] = ordered.slice(0, 12).map((n) => ({
     kind: 'news', id: n.slug, title: n.title, summary: n.summary, date: n.publishedAt, href: withLocale(`/noticias/${n.slug}`),
     image: newsImageUrl(n), label: NEWS_KIND_LABEL[newsKind(n)], sport: n.competition?.sport ?? 'futbol',
   }));
