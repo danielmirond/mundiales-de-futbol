@@ -282,6 +282,7 @@ html[dir="rtl"] .marquee-track { animation-direction: reverse; }
 
 /* Acento por deporte: el contenedor lleva data-sport */
 [data-sport="futbol"] { --accent: var(--sport-futbol); }
+[data-sport="archivo"] { --accent: var(--color-gold); }
 [data-sport="baloncesto"] { --accent: var(--sport-baloncesto); }
 [data-sport="rugby"] { --accent: var(--sport-rugby); }
 [data-sport="balonmano"] { --accent: var(--sport-balonmano); }

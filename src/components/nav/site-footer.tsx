@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { getLocale, getTranslations } from 'next-intl/server';
-import { LogomarkSeal } from '@/components/brand/logomark-seal';
+import { BrandLockup } from '@/components/brand/brand-mark';
 import { HISTORY_TOTALS, fmtEs } from '@/lib/tournaments';
 import { routing, type Locale } from '@/i18n/routing';
 
@@ -16,7 +16,7 @@ export async function SiteFooter() {
     <footer className="relative mt-24 border-t border-[var(--color-border)] bg-[var(--color-bg-2)]">
       <div className="mx-auto grid w-full max-w-[1400px] gap-10 px-6 py-16 md:grid-cols-[2fr_1fr_1fr] md:px-10">
         <div>
-          <Link href={withLocale(locale, '/')} className="flex items-center gap-2.5 text-[var(--color-fg)]"><LogomarkSeal size={32} /><span className="font-display text-[28px] leading-none tracking-[0.01em]">MUNDIALES</span></Link>
+          <Link href={withLocale(locale, '/')} className="inline-flex" aria-label="Mundiales · inicio"><BrandLockup size="l" /></Link>
           <p className="mt-6 max-w-md text-lg leading-relaxed text-[var(--color-fg-muted)]">
             {t('tagline')}
           </p>

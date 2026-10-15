@@ -1,5 +1,6 @@
 import { ImageResponse } from 'next/og';
 import { getNewsBySlug, type NewsCategory } from '@/lib/news';
+import { OgBrand, SPORT_HEX } from '@/lib/og-brand';
 
 /**
  * Open Graph image dinámica por noticia del Mundial 2026.
@@ -91,6 +92,9 @@ export default async function NoticiaOgImage({
   const categoryLabel = item ? CATEGORY_LABEL[item.category] : 'Noticias';
   const accent = item ? CATEGORY_GRADIENT[item.category] : CATEGORY_GRADIENT.general;
   const dateText = item ? formatDateEs(item.publishedAt) : '';
+  // Marca: color del deporte de la pieza; las del Mundial, el oro del archivo.
+  const sportHex = SPORT_HEX[item?.competition?.sport ?? (item?.competition ? 'futbol' : 'archivo')] ?? SPORT_HEX.futbol;
+  const kicker = item?.competition?.name ?? `Mundial 2026 · ${categoryLabel}`;
 
   // Tamaño de fuente del título escalado por longitud.
   const titleLen = title.length;
@@ -160,7 +164,7 @@ export default async function NoticiaOgImage({
               width: '12px',
               height: '12px',
               borderRadius: '50%',
-              background: '#4ede80',
+              background: sportHex,
               display: 'flex',
             }}
           />
@@ -170,11 +174,11 @@ export default async function NoticiaOgImage({
               fontSize: '22px',
               letterSpacing: '0.4em',
               textTransform: 'uppercase',
-              color: '#4ede80',
+              color: sportHex,
               display: 'flex',
             }}
           >
-            Mundial 2026 · {categoryLabel}
+            {kicker}
           </div>
           {dateText ? (
             <div
@@ -233,7 +237,7 @@ export default async function NoticiaOgImage({
             paddingTop: '20px',
           }}
         >
-          <div style={{ display: 'flex' }}>mundiales-de-futbol.com</div>
+          <OgBrand color={sportHex} size={30} />
           <div
             style={{
               display: 'flex',

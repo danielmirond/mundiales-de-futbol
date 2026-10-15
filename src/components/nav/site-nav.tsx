@@ -6,7 +6,7 @@ import { useLocale, useTranslations } from 'next-intl';
 import { useState, useEffect, useRef } from 'react';
 import { cn } from '@/lib/utils';
 import { LocaleSwitcher } from './locale-switcher';
-import { LogomarkSeal } from '@/components/brand/logomark-seal';
+import { BrandLockup } from '@/components/brand/brand-mark';
 import { Icon, sportIcon, type IconName } from '@/components/ui/icon';
 import { routing, localeMeta, type Locale } from '@/i18n/routing';
 import { NAV_SPORTS, NAV_COMPS, MORE_SPORTS } from './nav-data';
@@ -15,6 +15,14 @@ import { useLiveToday } from './use-live-today';
 function withLocale(locale: Locale, href: string) {
   if (locale === routing.defaultLocale) return href;
   return `/${locale}${href === '/' ? '' : href}`;
+}
+
+/** Rutas del archivo histórico de los Mundiales: sección dorada «1930–2026». */
+const ARCHIVE = /^(mundiales|2026|2030|ediciones|selecciones|records|palmares|historias|historial|estadios|jugadores|goles-famosos|galeria|coleccionismo)$/;
+export function isArchivePath(pathname: string): boolean {
+  const parts = pathname.split('/').filter(Boolean);
+  if (parts[0] && (routing.locales as readonly string[]).includes(parts[0])) parts.shift();
+  return ARCHIVE.test(parts[0] ?? '');
 }
 
 /** Deporte activo a partir de la ruta (`/futbol/laliga`, `/en/baloncesto`…). */
@@ -39,6 +47,10 @@ export function SiteNav() {
   const locale = useLocale() as Locale;
   const pathname = usePathname();
   const sport = activeSportOf(pathname);
+  const archive = isArchivePath(pathname);
+  // Sección del logotipo: el deporte activo (con su acento) o el archivo (oro).
+  const section = sport ? NAV_SPORTS.find((s) => s.slug === sport)?.name.toUpperCase() : archive ? '1930–2026' : undefined;
+  const brandSport = sport ?? (archive ? 'archivo' : undefined);
   const [open, setOpen] = useState(false);
   const [mega, setMega] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -72,9 +84,8 @@ export function SiteNav() {
   return (
     <header className={cn('relative z-40 transition-colors duration-300', scrolled || open || mega ? 'border-b border-[var(--color-border)] bg-[var(--color-bg)]/85 backdrop-blur-xl' : 'border-b border-transparent bg-[var(--color-bg)]/60 backdrop-blur-md')}>
       <div className="mx-auto flex h-16 w-full max-w-[1400px] items-center gap-0.5 px-4 md:h-[68px] md:px-7">
-        <Link href={withLocale(locale, '/')} className="mr-3 flex items-center gap-2.5 text-[var(--color-fg)] md:mr-5" aria-label="Mundiales · inicio">
-          <LogomarkSeal size={32} />
-          <span className="font-display text-[24px] leading-none tracking-[0.01em] md:text-[28px]">MUNDIALES</span>
+        <Link href={withLocale(locale, '/')} data-sport={brandSport} className="mr-3 flex min-w-0 items-center md:mr-5" aria-label="Mundiales · inicio">
+          <BrandLockup section={section} />
         </Link>
 
         {/* Escritorio */}
@@ -146,7 +157,7 @@ export function SiteNav() {
       {/* Drawer móvil */}
       <div className={cn('fixed inset-0 z-50 flex flex-col gap-4 overflow-y-auto bg-[var(--color-bg)] px-5 pb-8 pt-[calc(env(safe-area-inset-top)+1rem)] transition-transform duration-300 lg:hidden', open ? 'translate-x-0' : 'translate-x-full')} aria-hidden={!open}>
         <div className="flex items-center justify-between">
-          <span className="flex items-center gap-2 font-display text-[24px] leading-none text-[var(--color-fg)]"><LogomarkSeal size={28} />MUNDIALES</span>
+          <span data-sport={brandSport}><BrandLockup size="s" section={section} /></span>
           <button onClick={() => setOpen(false)} className="grid h-9 w-9 place-items-center rounded-full border border-[var(--color-border)] text-[var(--color-fg-muted)]" aria-label={t('close')}><Icon name="cerrar" /></button>
         </div>
         <Link href={withLocale(locale, '/partidos-hoy')} className="flex h-[46px] items-center gap-2.5 rounded-xl bg-[var(--color-surface)] px-3.5 text-[15px] text-[var(--color-fg-subtle)]"><Icon name="buscar" size={18} />{t('search')}</Link>
