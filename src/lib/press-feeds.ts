@@ -137,7 +137,11 @@ const tag = (xml: string, name: string) => xml.match(new RegExp(`<${name}[^>]*>(
 function parse(xml: string, f: PressFeed): PressItem[] {
   return [...xml.matchAll(/<item[\s>]([\s\S]*?)<\/item>/gi)].map(([, it]) => {
     const link = decode(tag(it, 'link') ?? tag(it, 'guid') ?? '');
-    const img = it.match(/<media:(?:content|thumbnail)[^>]*url="([^"]+)"/i)?.[1] ?? it.match(/<enclosure[^>]*url="([^"]+)"[^>]*type="image/i)?.[1];
+    // La imagen más grande que ofrezca el feed (Guardian trae varias; BBC sirve 240 px → se pide 976).
+    const media = [...it.matchAll(/<(?:media:content|media:thumbnail|enclosure)\b[^>]*>/gi)].map(([t]) => ({
+      url: t.match(/url="([^"]+)"/i)?.[1], w: Number(t.match(/width="(\d+)"/i)?.[1] ?? 0), image: !/type="(?!image)/i.test(t),
+    })).filter((m) => m.url && m.image).sort((a, b) => b.w - a.w);
+    const img = media[0]?.url?.replace(/(ichef\.bbci\.co\.uk\/[^/]+\/[^/]+\/)\d+\//, '$1976/');
     const d = new Date(decode(tag(it, 'pubDate') ?? tag(it, 'dc:date') ?? ''));
     return {
       title: decode(tag(it, 'title') ?? ''), link, date: Number.isNaN(d.getTime()) ? '' : d.toISOString(),
