@@ -5,7 +5,7 @@ import { routing, type Locale } from '@/i18n/routing';
 
 const withLocale = (l: Locale, h: string) => (l === routing.defaultLocale ? h : `/${l}${h}`);
 
-function Mini({ c }: { c: FeedCard }) {
+function Mini({ c, eager }: { c: FeedCard; eager: boolean }) {
   if (c.kind === 'score') {
     const m = c.match, live = m.state === 'in';
     return (
@@ -30,7 +30,7 @@ function Mini({ c }: { c: FeedCard }) {
     <span className="relative flex h-full flex-col justify-end">
       {img && (
         // eslint-disable-next-line @next/next/no-img-element
-        <img src={img} alt="" loading="lazy" referrerPolicy="no-referrer" className="absolute inset-0 h-full w-full object-cover" />
+        <img src={img} alt="" loading={eager ? 'eager' : 'lazy'} referrerPolicy="no-referrer" className="absolute inset-0 h-full w-full object-cover" />
       )}
       <span className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent" />
       <span className="relative flex flex-col gap-1.5 p-3">
@@ -50,7 +50,7 @@ export async function LiveStrip({ locale }: { locale: Locale }) {
   if (cards.length < 4) return null;
   const href = withLocale(locale, '/directo');
   return (
-    <section className="mx-auto w-full max-w-[1400px] px-6 pt-6 md:px-10" aria-labelledby="directo-titulo">
+    <section className="mx-auto w-full max-w-[1400px] px-6 pt-8 md:px-10" aria-labelledby="directo-titulo">
       <div className="flex items-end justify-between gap-4">
         <div>
           <div className="kicker flex items-center gap-2"><i className="pulse" />Directo</div>
@@ -61,10 +61,10 @@ export async function LiveStrip({ locale }: { locale: Locale }) {
         </Link>
       </div>
       <div className="no-scrollbar -mx-6 mt-5 flex snap-x gap-3 overflow-x-auto px-6 pb-2 md:-mx-10 md:px-10">
-        {cards.map((c) => (
+        {cards.map((c, i) => (
           <Link key={c.id} href={`${href}#c-${c.id}`} data-sport={c.sport}
             className="relative block aspect-[9/16] w-[148px] shrink-0 snap-start overflow-hidden rounded-[16px] border border-[var(--color-border)] bg-black transition-transform hover:-translate-y-0.5 md:w-[168px]">
-            <Mini c={c} />
+            <Mini c={c} eager={i < 3} />
           </Link>
         ))}
       </div>
