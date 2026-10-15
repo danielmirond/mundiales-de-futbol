@@ -78,9 +78,9 @@ function ScoreCard({ c }: { c: Extract<FeedCard, { kind: 'score' }> }) {
   const m = c.match;
   const live = m.state === 'in';
   const side = (t: typeof m.home, win: boolean) => (
-    <div className="flex flex-col items-center gap-3 text-center">
-      <Crest src={t.logo} abbr={t.abbr} color={t.color} size="xl" />
-      <span className={`text-[17px] leading-tight ${win ? 'font-semibold text-white' : 'text-white/75'}`}>{t.name}</span>
+    <div className="flex min-w-0 flex-col items-center gap-3 text-center">
+      <Crest src={t.logo} abbr={t.abbr} color={t.color} size="l" />
+      <span className={`w-full truncate text-[15px] leading-tight ${win ? 'font-semibold text-white' : 'text-white/75'}`}>{t.name}</span>
     </div>
   );
   const hs = m.home.score ?? 0, as = m.away.score ?? 0;
@@ -90,9 +90,9 @@ function ScoreCard({ c }: { c: Extract<FeedCard, { kind: 'score' }> }) {
       <a href={c.href} className="relative my-auto flex flex-col items-center px-6">
         <Kicker>{c.comp}</Kicker>
         <div className="mt-3">{live ? <span className="st live"><i className="pulse" />En directo{m.clock ? ` · ${m.clock}` : ''}</span> : <span className="font-mono text-[11px] uppercase tracking-[0.2em] text-white/70">Final</span>}</div>
-        <div className="mt-8 grid w-full max-w-[420px] grid-cols-[1fr_auto_1fr] items-center gap-4">
+        <div className="mt-8 grid w-full max-w-[420px] grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] items-center gap-3">
           {side(m.home, hs > as)}
-          <span className="font-display text-[72px] leading-none tab-num text-white">{hs}<span className="mx-2 text-white/40">-</span>{as}</span>
+          <span className="font-display text-[48px] leading-none tab-num text-white sm:text-[64px]">{hs}<span className="mx-1.5 text-white/40">-</span>{as}</span>
           {side(m.away, as > hs)}
         </div>
         <span className="mt-10 inline-flex h-11 items-center rounded-full bg-white px-5 text-sm font-semibold text-black">Ver el partido</span>
