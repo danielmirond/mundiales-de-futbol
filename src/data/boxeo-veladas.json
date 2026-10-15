@@ -1,0 +1,27 @@
+{
+  "_nota": "Calendario curado de veladas. Fuente principal: alertas del programa de afiliados de DAZN (Awin 126263) y webs oficiales. Hora en España solo cuando esté confirmada; si no, null.",
+  "veladas": [
+    {
+      "slug": "dubois-wardley-2",
+      "fecha": "2026-10-17",
+      "horaEspana": null,
+      "pelea": { "a": "Daniel Dubois", "b": "Fabio Wardley" },
+      "titulo": "Título mundial del peso pesado de la WBO",
+      "sede": "The O2", "ciudad": "Londres", "pais": "Reino Unido",
+      "tv": { "plataforma": "DAZN", "modalidad": "PPV", "precio": "9,99 € – 19,99 €" },
+      "contexto": "Revancha. En el primer combate Dubois detuvo a Wardley en el undécimo asalto y se proclamó campeón mundial del peso pesado por segunda vez; Wardley activó la cláusula de revancha.",
+      "fuente": "DAZN Spain vía Awin, 15/10/2026"
+    },
+    {
+      "slug": "canelo-mbilli",
+      "fecha": "2026-10-31",
+      "horaEspana": null,
+      "pelea": { "a": "Saúl «Canelo» Álvarez", "b": "Christian M'Billi" },
+      "titulo": null,
+      "sede": null, "ciudad": null, "pais": null,
+      "tv": { "plataforma": "DAZN", "modalidad": "PPV", "precio": null },
+      "contexto": "Segundo gran PPV de boxeo del mes en DAZN, dos semanas después de Dubois - Wardley 2.",
+      "fuente": "DAZN Spain vía Awin, 15/10/2026"
+    }
+  ]
+}

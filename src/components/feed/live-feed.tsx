@@ -5,6 +5,7 @@ import type { FeedCard } from '@/lib/live-feed';
 import { Crest } from '@/components/portal/crest';
 import { Reactions } from './reactions';
 import type { CardReactions } from '@/lib/feed-reactions';
+import { ADVERTISER } from '@/lib/campaigns';
 
 const ago = (iso: string) => {
   if (!iso) return '';
@@ -103,9 +104,27 @@ function ScoreCard({ c }: { c: Extract<FeedCard, { kind: 'score' }> }) {
   );
 }
 
+/** Tarjeta de publicidad (campaña de afiliado), marcada como tal. */
+function AdCard({ c }: { c: Extract<FeedCard, { kind: 'ad' }> }) {
+  const k = c.campaign, a = ADVERTISER[k.anunciante];
+  return (
+    <a href={k.url} target="_blank" rel="sponsored nofollow noopener noreferrer" className="relative flex h-full flex-col justify-end p-6 pb-10" style={{ background: `radial-gradient(120% 80% at 80% 10%, ${a.fg}22, transparent 60%), ${a.bg}`, color: a.fg }}>
+      {k.imagen && (
+        // eslint-disable-next-line @next/next/no-img-element
+        <img src={k.imagen} alt="" className="absolute inset-0 h-full w-full object-cover opacity-60" />
+      )}
+      <span className="relative font-mono text-[11px] uppercase tracking-[0.22em] opacity-75">Publicidad · {a.name}</span>
+      <span className="relative mt-3 text-[30px] font-semibold leading-[1.1] tracking-[-0.02em]">{k.titulo}</span>
+      <span className="relative mt-3 text-[15px] leading-relaxed opacity-85">{k.texto}</span>
+      <span className="relative mt-6 inline-flex h-11 w-fit items-center rounded-full px-5 text-sm font-semibold" style={{ background: a.fg, color: a.bg }}>{k.cta} ↗</span>
+    </a>
+  );
+}
+
 function Card({ c, play, setPlay }: { c: FeedCard; play: boolean; setPlay: (v: boolean) => void }) {
   if (c.kind === 'video') return <VideoCard c={c} play={play} setPlay={setPlay} />;
   if (c.kind === 'score') return <ScoreCard c={c} />;
+  if (c.kind === 'ad') return <AdCard c={c} />;
   const press = c.kind === 'press';
   return (
     <>
@@ -194,8 +213,8 @@ export function LiveFeed({ cards }: { cards: FeedCard[] }) {
         {cards.map((c, i) => (
           <section key={c.id} id={`c-${c.id}`} data-i={i} data-sport={c.sport} className="relative flex h-full snap-start snap-always flex-col overflow-hidden bg-black">
             <Card c={c} play={playing === c.id} setPlay={(v) => setPlaying(v ? c.id : null)} />
-            {c.kind !== 'video' && <Reactions card={c.id} match={c.kind === 'score'} data={reactions[c.id]} active={active === i} onReacted={() => loadReactions(i)} />}
-            {c.kind !== 'video' && (
+            {c.kind !== 'video' && c.kind !== 'ad' && <Reactions card={c.id} match={c.kind === 'score'} data={reactions[c.id]} active={active === i} onReacted={() => loadReactions(i)} />}
+            {c.kind !== 'video' && c.kind !== 'ad' && (
               <div className="absolute bottom-28 right-4 flex flex-col items-center gap-3">
                 <Share title={c.kind === 'score' ? `${c.match.home.name} ${c.match.home.score ?? 0}-${c.match.away.score ?? 0} ${c.match.away.name}` : c.title} href={c.href} />
               </div>

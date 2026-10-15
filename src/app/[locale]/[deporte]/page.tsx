@@ -4,6 +4,8 @@ import { setRequestLocale } from 'next-intl/server';
 import { ArrowLeft } from 'lucide-react';
 import { getSport, competitionsOf, liveCompetitions, competitionPath, KIND_LABEL, type CompetitionKind } from '@/lib/competitions';
 import { TodayBoard } from '@/components/portal/today-board';
+import { LiveStrip } from '@/components/feed/live-strip';
+import { AdSlot } from '@/components/affiliate/ad-slot';
 import { RacingHub } from '@/components/portal/racing-hub';
 import { TennisHub } from '@/components/portal/tennis-hub';
 import { GolfHub, FightHub } from '@/components/portal/individual-hubs';
@@ -51,6 +53,8 @@ export default async function SportPage({ params }: { params: Promise<{ locale: 
         <p className="mt-4 max-w-2xl text-lg text-[var(--color-fg-muted)]">{s.description}</p>
       </header>
 
+      <LiveStrip locale={L} sport={s.slug} title={`Lo último de ${s.name.toLowerCase()}`} />
+
       <section className="mx-auto w-full max-w-[1400px] px-6 py-10 md:px-10">
         {kinds.map((k) => (
           <div key={k} className="mb-6">
@@ -77,6 +81,7 @@ export default async function SportPage({ params }: { params: Promise<{ locale: 
 
       {liveCompetitions(s.slug).length > 0 && <>
       <TodayBoard locale={L} competitions={liveCompetitions(s.slug)} range="today" kicker="Hoy" title={`Partidos de ${s.name.toLowerCase()} hoy`} emptyText={`Hoy no hay partidos de ${s.name.toLowerCase()} en las competiciones que seguimos.`} />
+      <AdSlot placement="competicion" sport={s.slug} className="py-4" />
       <TodayBoard locale={L} competitions={liveCompetitions(s.slug)} range={[1, 7]} kicker="Próximos 7 días" title="Lo que viene" limitPerGroup={6} />
       </>}
     </main>

@@ -8,6 +8,7 @@ import { MovistarHero } from '@/components/affiliate/movistar-banner';
 import { DailyNews } from '@/components/home/daily-news';
 import { MundialesEntry } from '@/components/home/mundiales-entry';
 import { LiveStrip } from '@/components/feed/live-strip';
+import { AdSlot } from '@/components/affiliate/ad-slot';
 import type { Locale } from '@/i18n/routing';
 import { pageMetadata } from '@/lib/seo';
 
@@ -70,6 +71,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
       <PortalHero locale={L} />
       {/* Crónicas, previas y agenda del día: justo bajo el hero, que es lo que se busca. */}
       <DailyNews locale={L} />
+      <AdSlot placement="home" className="py-6" />
       <TodayBoard locale={L} competitions={liveCompetitions()} range="today" kicker="Partidos de hoy" title="Todo lo que se juega hoy" limitPerGroup={5} emptyText="Hoy no hay partidos en las competiciones que seguimos. Consulta el calendario de cada competición." />
       <IndividualToday locale={L} />
       <CompetitionsGrid locale={L} />

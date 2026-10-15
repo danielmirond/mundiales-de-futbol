@@ -17,6 +17,14 @@ function Mini({ c, eager }: { c: FeedCard; eager: boolean }) {
       </span>
     );
   }
+  if (c.kind === 'ad') {
+    return (
+      <span className="flex h-full flex-col justify-end gap-2 bg-[var(--color-bg-2)] p-3">
+        <span className="font-mono text-[9px] uppercase tracking-[0.2em] text-[var(--color-fg-subtle)]">Publicidad</span>
+        <span className="text-[14px] font-semibold leading-tight text-[var(--color-fg)]">{c.campaign.titulo}</span>
+      </span>
+    );
+  }
   if (c.kind === 'video') {
     return (
       <span className="flex h-full flex-col justify-end gap-2 bg-[radial-gradient(120%_80%_at_20%_10%,color-mix(in_oklab,var(--accent)_35%,transparent),transparent_60%),var(--color-bg-2)] p-3">
@@ -45,16 +53,17 @@ function Mini({ c, eager }: { c: FeedCard; eager: boolean }) {
  * Entrada al directo en la portada: tarjetas verticales que abren el feed a
  * pantalla completa justo en la tarjeta pulsada (`/directo#c-<id>`).
  */
-export async function LiveStrip({ locale }: { locale: Locale }) {
-  const cards = (await buildLiveFeed((h) => withLocale(locale, h))).slice(0, 12);
+export async function LiveStrip({ locale, sport, title = 'Lo último, deslizando' }: { locale: Locale; sport?: string; title?: string }) {
+  const cards = (await buildLiveFeed((h) => withLocale(locale, h), { sport })).slice(0, 12);
   if (cards.length < 4) return null;
-  const href = withLocale(locale, '/directo');
+  const base = withLocale(locale, '/directo');
+  const href = sport ? `${base}?d=${sport}` : base;
   return (
     <section className="mx-auto w-full max-w-[1400px] px-6 pt-8 md:px-10" aria-labelledby="directo-titulo">
       <div className="flex items-end justify-between gap-4">
         <div>
           <div className="kicker flex items-center gap-2"><i className="pulse" />Directo</div>
-          <h2 id="directo-titulo" className="t-h2 mt-2 text-[var(--color-fg)]">Lo último, deslizando</h2>
+          <h2 id="directo-titulo" className="t-h2 mt-2 text-[var(--color-fg)]">{title}</h2>
         </div>
         <Link href={href} className="inline-flex h-10 shrink-0 items-center gap-2 rounded-full bg-[var(--color-fg)] px-4 text-sm font-semibold text-[var(--color-bg)]">
           <BrandSymbol size={16} />Abrir el directo

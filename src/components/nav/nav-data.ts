@@ -19,6 +19,6 @@ export const MORE_SPORTS: { icon: string; name: string; items: string[]; href?: 
   { icon: 'ciclismo', name: 'Ciclismo', items: ['Tour · Giro · Vuelta', 'Clásicas · Mundial'], soon: true },
   { icon: 'atletismo', name: 'Atletismo y natación', items: ['Mundiales', 'Diamond League · maratones'], soon: true },
   { icon: 'mas', name: 'Pádel', items: ['Premier Padel'], soon: true },
-  { icon: 'mas', name: 'Boxeo', items: ['Veladas y títulos mundiales'], soon: true },
+  { icon: 'combate', name: 'Boxeo', items: ['Veladas y títulos mundiales'], href: '/combate/boxeo' },
   { icon: 'trofeo', name: 'Multideporte', items: ['Juegos Olímpicos 2028', 'Juegos de Invierno 2030'], soon: true },
 ];

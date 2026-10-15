@@ -1,0 +1,47 @@
+{
+  "_nota": "Campañas de afiliado para los huecos publicitarios. Se alimentan de los correos de Movistar Plus (Awin 114230) y DAZN (Awin 126263); la tarea diaria propone altas. Fechas inclusivas (hora de Madrid). 'ubicaciones': home | noticia | competicion | directo. 'deportes' vacío = todos.",
+  "campanas": [
+    {
+      "id": "dazn-dubois-wardley-2",
+      "anunciante": "dazn",
+      "tipo": "ppv",
+      "titulo": "Dubois - Wardley 2, en DAZN",
+      "texto": "Revancha por el título mundial del peso pesado de la WBO. Sábado 17 de octubre, desde el O2 de Londres.",
+      "cta": "Ver en DAZN",
+      "url": "https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fhome",
+      "imagen": null,
+      "desde": "2026-10-15",
+      "hasta": "2026-10-17",
+      "ubicaciones": ["home", "noticia", "competicion", "directo"],
+      "deportes": []
+    },
+    {
+      "id": "dazn-nfl-game-pass",
+      "anunciante": "dazn",
+      "tipo": "suscripcion",
+      "titulo": "NFL Game Pass en DAZN",
+      "texto": "Todos los partidos de la NFL y NFL RedZone, con un 25 % de descuento el resto de la temporada.",
+      "cta": "Ver la oferta",
+      "url": "https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fnfl-game-pass",
+      "imagen": null,
+      "desde": "2026-10-15",
+      "hasta": "2026-11-15",
+      "ubicaciones": ["competicion", "noticia", "directo"],
+      "deportes": ["futbol-americano"]
+    },
+    {
+      "id": "movistar-series",
+      "anunciante": "movistar",
+      "tipo": "serie",
+      "titulo": "Las series de Movistar Plus+",
+      "texto": "Estrenos y series originales para cuando termine el partido.",
+      "cta": "Ver series",
+      "url": "https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fseries",
+      "imagen": null,
+      "desde": "2026-10-15",
+      "hasta": "2026-12-31",
+      "ubicaciones": ["home", "noticia", "directo"],
+      "deportes": []
+    }
+  ]
+}

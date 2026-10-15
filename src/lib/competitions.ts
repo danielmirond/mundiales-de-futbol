@@ -31,7 +31,7 @@ export type Competition = {
   espn?: { sport: string; league: string; dateRange?: boolean };
   hasStandings: boolean;
   /** Plantilla alternativa cuando no es un partido local-visitante de ESPN: estadísticas OpenACB, tenis o motor. */
-  stats?: 'openacb' | 'tennis' | 'racing' | 'golf' | 'combat';
+  stats?: 'openacb' | 'tennis' | 'racing' | 'golf' | 'combat' | 'boxing';
   /** Ruta ESPN para las plantillas `tennis` y `racing` (no entran en los tableros de partidos). */
   feed?: { sport: string; league: string };
   flag?: string;
@@ -178,6 +178,8 @@ export const COMPETITIONS: Competition[] = [
     description: 'LPGA: circuito femenino de golf, torneo en juego y calendario.', keywords: ['lpga', 'golf femenino', 'torneo lpga'] },
   { slug: 'ufc', name: 'UFC', sport: 'combate', kind: 'torneo', hasStandings: false, stats: 'combat', feed: { sport: 'mma', league: 'ufc' },
     description: 'UFC: cartelera completa de cada velada, resultados con el método de victoria y próximas veladas.', keywords: ['ufc', 'resultados ufc', 'cartelera ufc', 'próxima velada ufc'] },
+  { slug: 'boxeo', name: 'Boxeo', sport: 'combate', kind: 'torneo', hasStandings: false, stats: 'boxing',
+    description: 'Boxeo: calendario de veladas, combates por títulos mundiales, horario en España y dónde ver cada pelea.', keywords: ['boxeo', 'próxima velada de boxeo', 'boxeo hoy', 'dónde ver boxeo', 'boxeo dazn'] },
   // ─── Baloncesto femenino ───────────────────────────────────────
   { slug: 'wnba', name: 'WNBA', sport: 'baloncesto', kind: 'liga', espn: { sport: 'basketball', league: 'wnba' }, hasStandings: true, flag: '🇺🇸',
     description: 'WNBA: marcadores, calendario y clasificación de la liga femenina de baloncesto.', keywords: ['wnba', 'resultados wnba', 'clasificación wnba'] },

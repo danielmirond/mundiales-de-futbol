@@ -26,6 +26,7 @@ import { authorJsonLd } from '@/lib/authors';
 import { sameAsForEntity, getEntity } from '@/lib/entities-wikidata';
 import { MovistarCintillo } from '@/components/affiliate/movistar-banner';
 import { ReadingProgress } from '@/components/news/reading-progress';
+import { AdSlot } from '@/components/affiliate/ad-slot';
 import { DaznBanner } from '@/components/affiliate/dazn-banner';
 import { getMovistarLink } from '@/lib/movistar-match-links';
 
@@ -349,6 +350,8 @@ export default async function NoticiaDetail({
           }}
         />
       </section>
+
+      <AdSlot placement="noticia" sport={item.competition?.sport} className="mt-10 max-w-[900px]" />
 
       {/* Movistar Plus+ cintillo oficial — en todos los artículos */}
       {showMovistarCard && (

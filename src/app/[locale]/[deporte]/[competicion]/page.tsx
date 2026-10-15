@@ -13,6 +13,8 @@ import { GolfHub, FightHub } from '@/components/portal/individual-hubs';
 import { resolveCompetition, withLocale, compBase } from '@/lib/competition-page';
 import type { Locale } from '@/i18n/routing';
 import { pageMetadata } from '@/lib/seo';
+import { BoxingHub } from '@/components/portal/boxing-hub';
+import { AdSlot } from '@/components/affiliate/ad-slot';
 
 // Regeneración periódica (ISR): rápida y estable sin pedir a las fuentes en cada visita.
 export const revalidate = 300;
@@ -30,7 +32,7 @@ export async function generateMetadata({ params }: { params: Params }) {
   return pageMetadata({
     locale,
     path: compBase(c),
-    title: soon ? `${c.name}: calendario y resultados` : c.stats === 'racing' ? `${c.name}: calendario de grandes premios, horarios y clasificación del mundial` : c.stats === 'tennis' ? `${c.name}: torneos en juego, partidos de hoy y resultados` : c.stats === 'golf' ? `${c.name}: torneo en juego, clasificación por vueltas y calendario` : c.stats === 'combat' ? `${c.name}: cartelera, resultados y próximas veladas` : c.stats && !c.espn ? `${c.name}: estadísticas avanzadas de equipos, ratings y ritmo` : `${c.name}: resultados, calendario${c.hasStandings ? ' y clasificación' : ''} en directo`,
+    title: soon ? `${c.name}: calendario y resultados` : c.stats === 'racing' ? `${c.name}: calendario de grandes premios, horarios y clasificación del mundial` : c.stats === 'tennis' ? `${c.name}: torneos en juego, partidos de hoy y resultados` : c.stats === 'golf' ? `${c.name}: torneo en juego, clasificación por vueltas y calendario` : c.stats === 'combat' ? `${c.name}: cartelera, resultados y próximas veladas` : c.stats === 'boxing' ? 'Boxeo: próximas veladas, horario en España y dónde ver cada combate' : c.stats && !c.espn ? `${c.name}: estadísticas avanzadas de equipos, ratings y ritmo` : `${c.name}: resultados, calendario${c.hasStandings ? ' y clasificación' : ''} en directo`,
     description: c.description,
     keywords: c.keywords,
     noIndex: soon,
@@ -69,6 +71,8 @@ export default async function CompetitionPage({ params }: { params: Params }) {
         <TennisHub comp={c} />
       ) : !c.espn && c.stats === 'golf' ? (
         <GolfHub comp={c} />
+      ) : !c.espn && c.stats === 'boxing' ? (
+        <BoxingHub locale={L} />
       ) : !c.espn && c.stats === 'combat' ? (
         <FightHub comp={c} />
       ) : (
@@ -84,6 +88,7 @@ export default async function CompetitionPage({ params }: { params: Params }) {
         </>
       )}
 
+      <AdSlot placement="competicion" sport={c.sport} className="py-6" />
       {press.length >= 3 && <PressCarousel items={press} title={`Lo último de ${c.shortName ?? c.name} en los medios`} />}
 
       {siblings.length > 0 && (

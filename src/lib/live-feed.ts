@@ -5,7 +5,9 @@
  * ya usa el portal; sin IA. Caché por fuente (prensa 30 min, ESPN 2-5 min).
  */
 import { createHash } from 'node:crypto';
-import { getCompetition, type Competition } from './competitions';
+import { getCompetition, competitionsOf, type Competition } from './competitions';
+import { PRESS_FEEDS } from './press-feeds';
+import { activeCampaigns, type Campaign } from './campaigns';
 import { fetchCompetitionPress } from './press-feeds';
 import { fetchWindow, dayKeys, type Match } from './espn';
 import { getLatestNews, newsImageUrl, newsKind, NEWS_KIND_LABEL } from './news';
@@ -15,7 +17,8 @@ export type FeedCard =
   | { kind: 'press'; id: string; title: string; source: string; date: string; href: string; image?: string; comp: string; sport: string; lang: string }
   | { kind: 'news'; id: string; title: string; summary: string; date: string; href: string; image: string; label: string; sport: string }
   | { kind: 'score'; id: string; date: string; href: string; comp: string; sport: string; match: Match }
-  | { kind: 'video'; id: string; date: string; team: string; channelId: string; channelUrl?: string; sport: string; color?: string };
+  | { kind: 'video'; id: string; date: string; team: string; channelId: string; channelUrl?: string; sport: string; color?: string }
+  | { kind: 'ad'; id: string; date: string; sport: string; campaign: Campaign };
 
 /** Competiciones que alimentan el directo, en orden de interés para el lector español. */
 const COMPS: [string, string][] = [
@@ -35,8 +38,19 @@ function interleave<T>(lists: T[][]): T[] {
   return out;
 }
 
-export async function buildLiveFeed(withLocale: (h: string) => string): Promise<FeedCard[]> {
-  const comps = COMPS.map(([s, c]) => getCompetition(s, c)).filter(Boolean) as Competition[];
+/** Competiciones de un deporte con prensa o datos ESPN, hasta 8. */
+function sportComps(sport: string): Competition[] {
+  const withPress = new Set(PRESS_FEEDS.flatMap((f) => f.comps ?? []));
+  return competitionsOf(sport).filter((c) => !c.href && (withPress.has(c.slug) || c.espn)).slice(0, 8);
+}
+
+/**
+ * Tarjetas del directo. Sin `sport`, la mezcla general de la portada; con
+ * `sport`, solo ese deporte (sus competiciones, piezas y marcadores).
+ */
+export async function buildLiveFeed(withLocale: (h: string) => string, opts: { sport?: string } = {}): Promise<FeedCard[]> {
+  const { sport } = opts;
+  const comps = sport ? sportComps(sport) : COMPS.map(([s, c]) => getCompetition(s, c)).filter(Boolean) as Competition[];
 
   const [pressLists, matches] = await Promise.all([
     // Dentro de cada competición, primero prensa española (el lector es de aquí) y con foto.
@@ -57,12 +71,12 @@ export async function buildLiveFeed(withLocale: (h: string) => string): Promise<
     .map((m) => ({ kind: 'score', id: `${m.competition.slug}-${m.id}`, date: m.date, comp: m.competition.name, sport: m.competition.sport,
       href: withLocale(`/${m.competition.sport}/${m.competition.slug}/partido/${m.id}`), match: m }));
 
-  const news: FeedCard[] = getLatestNews(10).map((n) => ({
+  const news: FeedCard[] = getLatestNews(sport ? 60 : 10).filter((n) => !sport || (n.competition?.sport ?? 'futbol') === sport).slice(0, 10).map((n) => ({
     kind: 'news', id: n.slug, title: n.title, summary: n.summary, date: n.publishedAt, href: withLocale(`/noticias/${n.slug}`),
     image: newsImageUrl(n), label: NEWS_KIND_LABEL[newsKind(n)], sport: n.competition?.sport ?? 'futbol',
   }));
 
-  const videos: FeedCard[] = CLUB_VIDEOS.map(([sport, id, team]) => {
+  const videos: FeedCard[] = (sport && sport !== 'futbol' ? [] : CLUB_VIDEOS).map(([sport, id, team]) => {
     const f = clubFacts(sport, id);
     return f?.youtubeChannelId ? { kind: 'video' as const, id: `yt-${id}`, date: '', team, channelId: f.youtubeChannelId, channelUrl: f.social?.youtube, sport: 'futbol' } : null;
   }).filter(Boolean) as FeedCard[];
@@ -81,7 +95,14 @@ export async function buildLiveFeed(withLocale: (h: string) => string): Promise<
     if (s < scores.length) out.push(scores[s++]);
     if (out.length >= 8 * (v + 1) && v < videos.length) out.push(videos[v++]);
   }
+  // Publicidad: una campaña activa cada 9 tarjetas, alternando entre las disponibles.
+  const ads = activeCampaigns('directo', sport);
+  const final: FeedCard[] = [];
+  out.filter(dedup).slice(0, 80).forEach((c, i) => {
+    final.push(c);
+    if (ads.length && (i + 1) % 9 === 0) { const a = ads[((i + 1) / 9 - 1) % ads.length]; final.push({ kind: 'ad', id: `${a.id}-${i}`, date: '', sport: sport ?? 'futbol', campaign: a }); }
+  });
   // Id corto y estable por tarjeta (clave de las reacciones): tipo + hash del origen.
-  return out.filter(dedup).slice(0, 80).map((c) => ({ ...c, id: `${c.kind[0]}-${createHash('sha1').update(c.id).digest('hex').slice(0, 16)}` }));
+  return final.map((c) => ({ ...c, id: `${c.kind[0]}-${createHash('sha1').update(c.id).digest('hex').slice(0, 16)}` }));
 }
 
