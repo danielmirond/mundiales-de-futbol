@@ -3,7 +3,8 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useLocale, useTranslations } from 'next-intl';
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, useSyncExternalStore } from 'react';
+import { createPortal } from 'react-dom';
 import { cn } from '@/lib/utils';
 import { LocaleSwitcher } from './locale-switcher';
 import { BrandLockup } from '@/components/brand/brand-mark';
@@ -53,6 +54,8 @@ export function SiteNav() {
   const section = sport ? NAV_SPORTS.find((s) => s.slug === sport)?.name.toUpperCase() : archive ? '1930–2026' : undefined;
   const brandSport = sport ?? (archive ? 'archivo' : undefined);
   const [open, setOpen] = useState(false);
+  // true solo en cliente (el portal necesita document); sin efecto que provoque doble render.
+  const mounted = useSyncExternalStore(() => () => {}, () => true, () => false);
   // El botón «Menú» del menú inferior móvil abre este mismo panel.
   useEffect(() => {
     const onOpen = () => setOpen(true);
@@ -162,8 +165,9 @@ export function SiteNav() {
         </div>
       )}
 
-      {/* Drawer móvil */}
-      <div className={cn('fixed inset-0 z-50 flex flex-col gap-4 overflow-y-auto bg-[var(--color-bg)] px-5 pb-8 pt-[calc(env(safe-area-inset-top)+1rem)] transition-transform duration-300 lg:hidden', open ? 'translate-x-0' : 'translate-x-full')} aria-hidden={!open}>
+      {/* Drawer móvil: en un portal a <body>, porque el backdrop-filter de la cabecera
+          crea un bloque contenedor y un `fixed` dentro quedaría recortado a su altura. */}
+      {mounted && createPortal(<div className={cn('fixed inset-0 z-50 flex flex-col gap-4 overflow-y-auto bg-[var(--color-bg)] px-5 pb-8 pt-[calc(env(safe-area-inset-top)+1rem)] transition-transform duration-300 lg:hidden', open ? 'translate-x-0' : 'translate-x-full')} aria-hidden={!open}>
         <div className="flex items-center justify-between">
           <span data-sport={brandSport}><BrandLockup size="s" section={section} /></span>
           <button onClick={() => setOpen(false)} className="grid h-9 w-9 place-items-center rounded-full border border-[var(--color-border)] text-[var(--color-fg-muted)]" aria-label={t('close')}><Icon name="cerrar" /></button>
@@ -208,7 +212,7 @@ export function SiteNav() {
             <Link key={l} href={withLocale(l as Locale, '/')} className={cn('rounded-full border px-3 py-2 font-mono text-[11px] uppercase tracking-[0.1em]', l === locale ? 'border-[var(--color-fg)] text-[var(--color-fg)]' : 'border-[var(--color-border)] text-[var(--color-fg-muted)]')}>{localeMeta[l as Locale]?.nativeLabel ?? l}</Link>
           ))}
         </div>
-      </div>
+      </div>, document.body)}
     </header>
   );
 }
