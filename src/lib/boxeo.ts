@@ -29,5 +29,4 @@ export const veladaNombre = (v: Velada) => `${v.pelea.a} - ${v.pelea.b}`;
 export const fechaLarga = (iso: string) =>
   new Intl.DateTimeFormat('es-ES', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' }).format(new Date(`${iso}T12:00:00Z`));
 
-/** Enlace de afiliado de DAZN (Awin 126263, publisher 2898755). */
-export const DAZN_AFF = 'https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=' + encodeURIComponent('https://www.dazn.com/es-ES/home');
+export { DAZN_AFF } from './affiliate';

@@ -16,6 +16,7 @@ import { JsonLd, pageMetadata, breadcrumbLd, localeUrl } from '@/lib/seo';
 import { clubFacts } from '@/lib/thesportsdb';
 import { fetchChannelVideos } from '@/lib/youtube';
 import { YouTubeCarousel, ChannelPlaylist } from '@/components/team/youtube-carousel';
+import { WhereToWatch } from '@/components/portal/where-to-watch';
 
 // Regeneración periódica (ISR): rápida y estable sin pedir a las fuentes en cada visita.
 export const revalidate = 900;
@@ -126,6 +127,7 @@ export default async function EquipoPage({ params }: { params: Params }) {
           </div>
         </div>
       </header>
+      <WhereToWatch comp={c} />
       <TeamTabs comp={c} team={ref} active="inicio" locale={L} />
 
       {/* Próximos partidos */}

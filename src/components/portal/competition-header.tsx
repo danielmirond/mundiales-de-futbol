@@ -5,6 +5,7 @@ import { JsonLd, breadcrumbLd, localeUrl } from '@/lib/seo';
 import { withLocale, compBase } from '@/lib/competition-page';
 import type { Locale } from '@/i18n/routing';
 import { CompetitionTabs, competitionSections, type CompetitionSection } from './competition-tabs';
+import { WhereToWatch } from './where-to-watch';
 
 /** Cabecera común de las secciones de una competición: migas, H1, descripción y pestañas. */
 export function CompetitionHeader({ s, c, locale, section, title, description, extraPath }: {
@@ -32,6 +33,8 @@ export function CompetitionHeader({ s, c, locale, section, title, description, e
         <p className="mt-4 max-w-2xl text-lg text-[var(--color-fg-muted)]">{description}</p>
       </header>
       <CompetitionTabs comp={c} active={section} locale={L} />
+      {/* Dónde ver (afiliado) en todas las secciones: calendario, resultados, clasificación… */}
+      <WhereToWatch comp={c} />
     </>
   );
 }
