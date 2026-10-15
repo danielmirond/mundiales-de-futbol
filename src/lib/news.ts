@@ -144,9 +144,9 @@ export const NEWS_ITEMS: NewsItem[] = [
     slug: 'lovseth-kona-ironman-2026-caida-ultima-milla-knibb',
     title: 'Solveig Løvseth se fue al suelo tres veces a una milla de ganar otra vez en Kona',
     summary: 'La noruega, campeona del mundo de Ironman en 2025, bajó Palani Hill con casi dos minutos de ventaja y se desplomó en la última milla de Kona. Taylor Knibb, que había vomitado en el maratón, la pasó a un kilómetro de la meta y ganó el título. Løvseth acabó octava.',
-    body: `Solveig Løvseth tenía el segundo título mundial de Ironman a menos de una milla. La noruega había bajado Palani Hill, la última cuesta antes de entrar en Kailua-Kona, con casi dos minutos de ventaja sobre Taylor Knibb. Entonces se paró. Cayó al asfalto, se levantó, caminó unos metros y volvió a caer. A un kilómetro de la meta estaba otra vez en el suelo.
+    body: `Solveig Løvseth tenía el segundo título mundial de Ironman a menos de una milla. La noruega había bajado Palani Hill, la última cuesta antes de entrar en Kailua-Kona, con casi dos minutos de ventaja sobre Taylor Knibb. Entonces se paró. [Cayó al asfalto](https://www.tri247.com/triathlon-news/elite/ironman-world-championship-kona-2026-solveig-lovseth-collapse), se levantó, caminó unos metros y volvió a caer. A un kilómetro de la meta estaba otra vez en el suelo.
 
-Knibb la pasó ahí y ganó el Campeonato del Mundo de Ironman 2026, disputado en Hawái, con un tiempo de 8:36:29. Løvseth terminó, pero octava, en 9:02:09.
+Knibb la pasó ahí y [ganó el Campeonato del Mundo de Ironman 2026](https://slowtwitch.com/?p=91074), disputado en Hawái, con un tiempo de 8:36:29. Løvseth terminó, pero octava, en 9:02:09, y [después habló de la carrera](https://www.tri247.com/triathlon-news/elite/ironman-world-championship-kona-2026-solveig-lovseth-reaction).
 
 ## La carrera que se dio la vuelta dos veces
 
@@ -195,7 +195,7 @@ Knibb lo había advertido antes de la salida, según recoge Slowtwitch: el momen
     summary: 'Michael Jordan ha donado 10 millones de dólares a la Escuela de Trabajo Social de la Universidad de Carolina del Norte en honor a su madre, Deloris, que lleva casi 40 años vinculada a ese centro. Es el mayor regalo individual de su historia y pagará becas de máster.',
     body: `Michael Jordan se licenció en la Universidad de Carolina del Norte en 1986, dos años después de dejarla para jugar en la NBA. Cuarenta años más tarde ha vuelto con un cheque de 10 millones de dólares, pero no para el baloncesto: va a la Escuela de Trabajo Social, y lleva el nombre de su madre.
 
-La donación se anunció el 5 de octubre en el campus de Chapel Hill. Es el mayor regalo individual en la historia de la escuela, según la propia universidad.
+La donación [se anunció el 5 de octubre](https://www.wsoctv.com/news/local/michael-jordan-donates-10m-unc-mothers-honor/DNCE747MYNFZ3LIUWGDI2VOCVA/) en el campus de Chapel Hill. Es el mayor regalo individual en la historia de la escuela, según la propia universidad.
 
 ## A qué se destina
 
@@ -209,7 +209,7 @@ Deloris P. Jordan lleva casi 40 años vinculada a la Escuela de Trabajo Social d
 
 ## No es la primera
 
-Jordan nació en Brooklyn pero creció en Wilmington, en la costa de Carolina del Norte. En noviembre de 2025 donó otros 10 millones al hospital Novant Health New Hanover de esa ciudad para su instituto de neurociencia, también en honor a su madre.
+Jordan nació en Brooklyn pero creció en Wilmington, en la costa de Carolina del Norte. En noviembre de 2025 [donó otros 10 millones](https://www.wbtv.com/2025/11/21/basketball-legend-michael-jordan-donates-10-million-north-carolina-hospital) al hospital Novant Health New Hanover de esa ciudad para su instituto de neurociencia, también en honor a su madre.
 
 En la pista, UNC fue donde metió el tiro que dio el título universitario de 1982 a los Tar Heels, siendo novato. Fuera de ella, el nombre que va a quedar en el edificio es el de Deloris.`,
     category: 'curiosa',
@@ -234,7 +234,7 @@ En la pista, UNC fue donde metió el tiro que dio el título universitario de 19
     slug: 'haaland-villa-abu-dabi-manchester-city-yas-residences-guardiola',
     title: 'Haaland se compra una casa en Abu Dabi, en un barrio con el nombre del Manchester City',
     summary: 'Erling Haaland ha comprado una villa de cinco dormitorios en Manchester City Yas Residences, una urbanización de marca del club en Abu Dabi. Su padre, Alfie, recogió ya las llaves de la suya. Y el embajador del proyecto es Pep Guardiola. Las obras se entregan a partir de 2029.',
-    body: `Erling Haaland juega en Manchester, pero su próxima casa estará en Abu Dabi. El delantero noruego apareció por vídeo el 12 de octubre en la presentación de la segunda fase de Manchester City Yas Residences, una urbanización de la promotora Ohana Development con la marca del club, y la promotora lo anunció como propietario de una villa de cinco dormitorios para su familia.
+    body: `Erling Haaland juega en Manchester, pero su próxima casa estará en Abu Dabi. El delantero noruego apareció por vídeo el 12 de octubre en la presentación de la segunda fase de Manchester City Yas Residences, una urbanización de la promotora Ohana Development con la marca del club, y [la promotora lo anunció](https://www.zawya.com/en/press-release/companies-news/ohana-development-announces-erling-haaland-as-a-proud-homeowner-at-manchester-city-yas-residences-by-ohana-during-phase-2-launch-1589125) como propietario de una villa de cinco dormitorios para su familia.
 
 No es el único Haaland del barrio. Su padre, Alfie Haaland, exjugador del City, recogió en el mismo acto las llaves de su propia vivienda en la urbanización.
 
@@ -253,7 +253,7 @@ El acto, en el Etihad Arena, tuvo otro nombre conocido: Pep Guardiola, ya exentr
 
 ## Lo que no se sabe
 
-Ni el precio de la villa de Haaland ni su tamaño. Gulf News presenta la compra como información de la promotora, y el jugador no ha hecho declaraciones más allá del vídeo del lanzamiento. Su contrato con el City llega hasta 2034, así que, si los plazos se cumplen, tendrá las llaves con varios años de Premier League por delante.`,
+Ni el precio de la villa de Haaland ni su tamaño. [Gulf News](https://gulfnews.com/sport/erling-haaland-buys-five-bedroom-villa-at-abu-dhabi-development-1.500707182) presenta la compra como información de la promotora, y el jugador no ha hecho declaraciones más allá del vídeo del lanzamiento. Su contrato con el City llega hasta 2034, así que, si los plazos se cumplen, tendrá las llaves con varios años de Premier League por delante.`,
     category: 'curiosa',
     kind: 'noticia',
     competition: { name: 'Premier League', sport: 'futbol', slug: 'premier-league' },

@@ -336,6 +336,7 @@ export default async function NoticiaDetail({
             [&_ol]:my-4 [&_ol]:space-y-2 [&_ol]:pl-5 [&_ol]:list-decimal
             [&_ol_li]:pl-1
             [&_a]:text-[var(--color-pitch)] [&_a]:underline [&_a]:underline-offset-4 [&_a]:hover:opacity-80
+            [&_a.src]:text-inherit [&_a.src]:decoration-[var(--color-border)] [&_a.src]:decoration-1 [&_a.src]:hover:decoration-[var(--color-fg-muted)] [&_a.src]:hover:opacity-100
             [&_blockquote]:border-l-2 [&_blockquote]:border-[var(--color-pitch)] [&_blockquote]:pl-5 [&_blockquote]:italic [&_blockquote]:text-[var(--color-fg-muted)] [&_blockquote]:my-6
             [&_hr]:my-8 [&_hr]:border-[var(--color-border)]
             [&_code]:font-mono [&_code]:text-sm [&_code]:bg-[var(--color-bg-2)] [&_code]:px-1.5 [&_code]:py-0.5 [&_code]:rounded
@@ -346,6 +347,11 @@ export default async function NoticiaDetail({
               .replace(
                 /<a href="(https:\/\/www\.awin1\.com[^"]*)"/g,
                 '<a href="$1" target="_blank" rel="sponsored nofollow noopener noreferrer"',
+              )
+              // Enlaces de fuente externos → discretos (subrayado tenue) y en pestaña nueva.
+              .replace(
+                /<a href="(https?:\/\/(?!www\.awin1\.com|(?:www\.)?mundiales-de-futbol\.com)[^"]*)"/g,
+                '<a href="$1" class="src" target="_blank" rel="noopener"',
               ),
           }}
         />
