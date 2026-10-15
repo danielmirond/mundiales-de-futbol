@@ -141,6 +141,68 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'nba-resultados-2026-10-15',
+    title: "NBA (pretemporada): resultados de la noche del 15 de octubre",
+    summary: "Resultados de los 7 partidos de la noche en la NBA, con el más igualado y el de más puntos.",
+    body: `7 partidos de pretemporada en la NBA esta noche. El más igualado, Pelicans 101-97 a Mavericks. El de más puntos, Heat ante Nets (144-128).
+
+## Resultados
+
+- [Heat 144-128 Nets](/baloncesto/nba/partido/401898404)
+- [Celtics 114-93 Hornets](/baloncesto/nba/partido/401898405)
+- [Spurs 123-103 Suns](/baloncesto/nba/partido/401898722)
+- [Pelicans 101-97 Mavericks](/baloncesto/nba/partido/401901825)
+- [Bulls 125-104 Bucks](/baloncesto/nba/partido/401908942)
+- [Pistons 128-106 Timberwolves](/baloncesto/nba/partido/401914125)
+- [Clippers 122-110 Nuggets](/baloncesto/nba/partido/401918011)
+
+Marcadores en directo, calendario y clasificación por conferencias en la [página de la NBA](/baloncesto/nba).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"NBA","sport":"baloncesto","slug":"nba"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/nba/scoreboard",
+    sourceLang: 'en',
+    publishedAt: '2026-10-15T12:01:58.549Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/American_Airlines_Center_August_2015.jpg/1920px-American_Airlines_Center_August_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "American Airlines Center, sede del Mavericks - Pelicans",
+      credit: "Michael Barera · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'cronica-lask-linz-liverpool-401915415',
+    title: "Liverpool se impone a LASK Linz (6-3) con hat-trick de Bradley Barcola en Champions",
+    summary: "Bradley Barcola marcó 3; LASK Linz remató 12 veces (4 a puerta) en el Liverpool 6-3 LASK Linz de Champions League.",
+    body: `Acabó ganando Liverpool 6-3, con hat-trick de Bradley Barcola. En el marcador, Ronald Araújo (22', Liverpool), Bradley Barcola (24', Liverpool), Bradley Barcola (37', Liverpool), Jeremie Frimpong (51', Liverpool), Robert Ljubicic (63', LASK Linz), Bradley Barcola (66', Liverpool), Lewis Koumas (72', Liverpool), Florian Flecker (74', LASK Linz) y Florian Flecker (77', LASK Linz).
+
+## En cifras
+
+LASK Linz manejó el balón (36 % por 64 %) y tiró 12 veces, 4 entre los tres palos; Liverpool se quedó en 26 remates (9 a puerta). Córners: 3 por 11.
+
+## La clasificación
+
+Tras el partido, LASK Linz 33.º con 0 puntos y Liverpool 5.º con 6 puntos en la [clasificación de Champions](/futbol/champions-league).
+
+Ficha: 1 amarilla · 10 cambios. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/champions-league/partido/401915415).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Champions","sport":"futbol","slug":"champions-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915415",
+    sourceLang: 'en',
+    publishedAt: '2026-10-15T12:01:58.549Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Raiffeisen-Arena_Linz_02.jpg/1920px-Raiffeisen-Arena_Linz_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Raiffeisen Arena (Linz), donde se jugó el LASK Linz - Liverpool",
+      credit: "Werner100359 · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
     slug: 'previa-lyon-c-palace-401915566',
     title: "Lyon - C Palace: horario, dónde ver y cómo llegan al partido de Europa League",
     summary: "Cita de Europa League este jueves 15 de octubre: Lyon - C Palace, a las 18:45 h en Groupama Stadium. Lyon es 11.º y C Palace, 2.º.",
@@ -494,7 +556,7 @@ Todos los horarios están en hora peninsular. Los marcadores se actualizan en di
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915573",
     sourceLang: 'en',
     publishedAt: '2026-10-15T00:04:41.739Z',
-    modifiedAt: '2026-10-15T00:04:41.739Z',
+    modifiedAt: '2026-10-15T12:01:58.549Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/AFAS-Stadion_in_Alkmaar.jpg/1920px-AFAS-Stadion_in_Alkmaar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
