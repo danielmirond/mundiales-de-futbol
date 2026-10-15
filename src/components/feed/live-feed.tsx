@@ -208,7 +208,7 @@ export function LiveFeed({ cards }: { cards: FeedCard[] }) {
   }, [go]);
 
   return (
-    <div className="relative mx-auto h-[calc(100svh-var(--header-h,7rem))] w-full md:max-w-[480px] md:py-4">
+    <div className="relative mx-auto h-[calc(100svh-var(--header-h,7rem)-var(--bottom-nav-h,0px))] w-full md:max-w-[480px] md:py-4">
       <div ref={box} className="no-scrollbar h-full snap-y snap-mandatory overflow-y-scroll md:rounded-[24px] md:border md:border-[var(--color-border)]">
         {cards.map((c, i) => (
           <section key={c.id} id={`c-${c.id}`} data-i={i} data-sport={c.sport} className="relative flex h-full snap-start snap-always flex-col overflow-hidden bg-black">

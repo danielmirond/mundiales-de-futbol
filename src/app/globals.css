@@ -427,3 +427,8 @@ html[dir="rtl"] .marquee-track { animation-direction: reverse; }
 @keyframes feed-bubble { 0% { transform: translateY(0) scale(.9); opacity: 0; } 12% { opacity: 1; transform: translateY(-12px) scale(1); } 100% { transform: translateY(-260px); opacity: 0; } }
 .feed-bubble { animation: feed-bubble 3.2s ease-out forwards; }
 @media (prefers-reduced-motion: reduce) { .feed-bubble { animation-duration: 0.01s; } }
+
+/* Menú inferior móvil: alto reservado (60 px + zona segura) por debajo de lg. */
+:root { --bottom-nav-h: calc(60px + env(safe-area-inset-bottom)); }
+@media (min-width: 1024px) { :root { --bottom-nav-h: 0px; } }
+body { padding-bottom: var(--bottom-nav-h); }

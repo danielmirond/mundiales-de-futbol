@@ -8,6 +8,7 @@ import { SiteNav } from '@/components/nav/site-nav';
 import { SiteFooter } from '@/components/nav/site-footer';
 import { SportSubnav } from '@/components/nav/sport-subnav';
 import { HeaderHeight } from '@/components/nav/header-height';
+import { BottomNav } from '@/components/nav/bottom-nav';
 import { CookieBanner } from '@/components/shared/cookie-banner';
 import { GatedAnalytics } from '@/components/shared/gated-analytics';
 import { GoogleAnalytics } from '@/components/shared/google-analytics';
@@ -120,6 +121,7 @@ export default async function LocaleLayout({
             <main className="site-main flex-1">{children}</main>
             <SiteFooter />
           </div>
+          <BottomNav />
           <CookieBanner />
           <GatedAnalytics />
           <GoogleAnalytics />

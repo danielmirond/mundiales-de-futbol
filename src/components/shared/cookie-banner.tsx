@@ -83,7 +83,8 @@ export function CookieBanner() {
 
   return (
     <div
-      className="fixed inset-x-4 bottom-4 z-50 mx-auto max-w-3xl rounded-3xl border border-[var(--color-border-strong)] bg-[var(--color-bg-2)]/95 p-6 shadow-2xl backdrop-blur md:p-8"
+      style={{ bottom: 'calc(var(--bottom-nav-h, 0px) + 1rem)' }}
+      className="fixed inset-x-4 z-50 mx-auto max-w-3xl rounded-3xl border border-[var(--color-border-strong)] bg-[var(--color-bg-2)]/95 p-6 shadow-2xl backdrop-blur md:p-8"
       role="dialog"
       aria-labelledby="cookie-banner-title"
     >

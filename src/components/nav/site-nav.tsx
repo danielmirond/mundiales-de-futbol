@@ -11,6 +11,7 @@ import { Icon, sportIcon, type IconName } from '@/components/ui/icon';
 import { routing, localeMeta, type Locale } from '@/i18n/routing';
 import { NAV_SPORTS, NAV_COMPS, MORE_SPORTS } from './nav-data';
 import { useLiveToday } from './use-live-today';
+import { OPEN_MENU_EVENT } from './bottom-nav';
 
 function withLocale(locale: Locale, href: string) {
   if (locale === routing.defaultLocale) return href;
@@ -52,6 +53,12 @@ export function SiteNav() {
   const section = sport ? NAV_SPORTS.find((s) => s.slug === sport)?.name.toUpperCase() : archive ? '1930–2026' : undefined;
   const brandSport = sport ?? (archive ? 'archivo' : undefined);
   const [open, setOpen] = useState(false);
+  // El botón «Menú» del menú inferior móvil abre este mismo panel.
+  useEffect(() => {
+    const onOpen = () => setOpen(true);
+    window.addEventListener(OPEN_MENU_EVENT, onOpen);
+    return () => window.removeEventListener(OPEN_MENU_EVENT, onOpen);
+  }, []);
   const [mega, setMega] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const megaRef = useRef<HTMLDivElement>(null);
