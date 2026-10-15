@@ -12,7 +12,12 @@
       "imagen": null,
       "desde": "2026-10-15",
       "hasta": "2026-10-17",
-      "ubicaciones": ["home", "noticia", "competicion", "directo"],
+      "ubicaciones": [
+        "home",
+        "noticia",
+        "competicion",
+        "directo"
+      ],
       "deportes": []
     },
     {
@@ -26,8 +31,14 @@
       "imagen": null,
       "desde": "2026-10-15",
       "hasta": "2026-11-15",
-      "ubicaciones": ["competicion", "noticia", "directo"],
-      "deportes": ["futbol-americano"]
+      "ubicaciones": [
+        "competicion",
+        "noticia",
+        "directo"
+      ],
+      "deportes": [
+        "futbol-americano"
+      ]
     },
     {
       "id": "movistar-series",
@@ -40,8 +51,73 @@
       "imagen": null,
       "desde": "2026-10-15",
       "hasta": "2026-12-31",
-      "ubicaciones": ["home", "noticia", "directo"],
+      "ubicaciones": [
+        "home",
+        "noticia",
+        "directo"
+      ],
       "deportes": []
+    },
+    {
+      "id": "dazn-rossi-verstappen",
+      "anunciante": "dazn",
+      "tipo": "gratis",
+      "titulo": "Verstappen contra Rossi, gratis en DAZN",
+      "texto": "GT World Challenge Europe en Portimão: Verstappen debuta en una carrera de resistencia de GT3 frente a Rossi. En directo y gratis.",
+      "cta": "Verlo gratis",
+      "url": "https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome",
+      "imagen": null,
+      "desde": "2026-10-15",
+      "hasta": "2026-10-18",
+      "ubicaciones": [
+        "home",
+        "noticia",
+        "competicion",
+        "directo"
+      ],
+      "deportes": [
+        "motor"
+      ]
+    },
+    {
+      "id": "dazn-oferta-clasico",
+      "anunciante": "dazn",
+      "tipo": "oferta",
+      "titulo": "El Clásico en DAZN: 9,99 €/mes durante 12 meses",
+      "texto": "Oferta de DAZN para el Real Madrid - Barcelona del 25 de octubre. Válida del 19 al 25 de octubre.",
+      "cta": "Ver la oferta",
+      "url": "https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome",
+      "imagen": null,
+      "desde": "2026-10-19",
+      "hasta": "2026-10-25",
+      "ubicaciones": [
+        "home",
+        "noticia",
+        "competicion",
+        "directo"
+      ],
+      "deportes": []
+    },
+    {
+      "id": "dazn-motor-flash",
+      "anunciante": "dazn",
+      "tipo": "oferta",
+      "titulo": "DAZN Motor: 9,99 €/mes durante 12 meses",
+      "texto": "Fórmula 1 y MotoGP en DAZN. Oferta relámpago del 22 de octubre al 1 de noviembre, con los GP de Estados Unidos, México, Australia y Malasia.",
+      "cta": "Ver la oferta",
+      "url": "https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome",
+      "imagen": null,
+      "desde": "2026-10-22",
+      "hasta": "2026-11-01",
+      "ubicaciones": [
+        "home",
+        "noticia",
+        "competicion",
+        "directo"
+      ],
+      "deportes": [
+        "motor"
+      ]
     }
   ]
 }

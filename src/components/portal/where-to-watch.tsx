@@ -3,10 +3,25 @@ import { getWostiIndex, channelsFor } from '@/lib/wosti';
 import { platformOf, PLATFORM_LABEL, PLATFORM_URL, DAZN_NFL_AFF, type Platform } from '@/lib/affiliate';
 import type { Competition } from '@/lib/competitions';
 
-/** Plataforma conocida por competición cuando no hay guía de TV por partido (alertas de DAZN). */
+/**
+ * Plataforma conocida por competición cuando no hay guía de TV por partido.
+ * Fuente: alertas del programa de afiliados de DAZN (Awin), 15/10/2026.
+ */
+const DAZN_FUTBOL = 'Incluida en DAZN Fútbol';
 const STATIC: Record<string, { p: Platform; note: string; url?: string }[]> = {
   nfl: [{ p: 'dazn', note: 'Todos los partidos con NFL Game Pass', url: DAZN_NFL_AFF }],
   boxeo: [{ p: 'dazn', note: 'Las grandes veladas en PPV' }],
+  'formula-1': [{ p: 'dazn', note: 'Incluida en DAZN Motor' }],
+  motogp: [{ p: 'dazn', note: 'Incluido en DAZN Motor' }],
+  nba: [{ p: 'dazn', note: 'Incluida en DAZN Baloncesto, desde 5,99 €/mes' }],
+  'liga-endesa': [{ p: 'dazn', note: 'Incluida en DAZN Baloncesto, desde 5,99 €/mes' }],
+  'premier-league': [{ p: 'dazn', note: DAZN_FUTBOL }],
+  bundesliga: [{ p: 'dazn', note: DAZN_FUTBOL }],
+  'serie-a': [{ p: 'dazn', note: DAZN_FUTBOL }],
+  'ligue-1': [{ p: 'dazn', note: DAZN_FUTBOL }],
+  'laliga-2': [{ p: 'dazn', note: DAZN_FUTBOL }],
+  'primeira-liga': [{ p: 'dazn', note: DAZN_FUTBOL }],
+  eredivisie: [{ p: 'dazn', note: DAZN_FUTBOL }],
 };
 
 /**
@@ -16,9 +31,8 @@ const STATIC: Record<string, { p: Platform; note: string; url?: string }[]> = {
  */
 export async function WhereToWatch({ comp }: { comp: Competition }) {
   let rows: { p: Platform; note: string; url: string }[] = [];
-  if (STATIC[comp.slug]) {
-    rows = STATIC[comp.slug].map((r) => ({ ...r, url: r.url ?? PLATFORM_URL[r.p] }));
-  } else if (comp.sport === 'futbol' && comp.espn) {
+  // Fútbol: primero lo que diga la guía de TV de los próximos partidos.
+  if (comp.sport === 'futbol' && comp.espn) {
     const [matches, idx] = await Promise.all([fetchWindow([comp], dayKeys(0, 10), 900), getWostiIndex()]);
     const count: Record<Platform, number> = { movistar: 0, dazn: 0 };
     for (const m of matches.filter((x) => x.state === 'pre')) {
@@ -27,6 +41,10 @@ export async function WhereToWatch({ comp }: { comp: Competition }) {
     }
     rows = (Object.keys(count) as Platform[]).filter((p) => count[p] > 0).sort((a, b) => count[b] - count[a])
       .map((p) => ({ p, note: `${count[p]} ${count[p] === 1 ? 'partido' : 'partidos'} en los próximos 10 días`, url: PLATFORM_URL[p] }));
+  }
+  // Sin guía (u otros deportes): la plataforma que confirma el anunciante.
+  if (rows.length === 0 && STATIC[comp.slug]) {
+    rows = STATIC[comp.slug].map((r) => ({ ...r, url: r.url ?? PLATFORM_URL[r.p] }));
   }
   if (rows.length === 0) return null;
   const name = comp.shortName ?? comp.name;
