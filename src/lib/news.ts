@@ -176,7 +176,7 @@ Knibb lo había advertido antes de la salida, según recoge Slowtwitch: el momen
     sourceName: 'Slowtwitch',
     sourceUrl: 'https://slowtwitch.com/?p=91074',
     sourceLang: 'en',
-    publishedAt: '2026-10-15T20:30:00+02:00',
+    publishedAt: '2026-10-15T17:15:00+02:00',
     author: 'Redacción Mundiales',
     sourcesSecondary: [
       { name: 'Tri247', url: 'https://www.tri247.com/triathlon-news/elite/ironman-world-championship-kona-2026-solveig-lovseth-collapse' },
@@ -218,7 +218,7 @@ En la pista, UNC fue donde metió el tiro que dio el título universitario de 19
     sourceName: 'WSOC-TV',
     sourceUrl: 'https://www.wsoctv.com/news/local/michael-jordan-donates-10m-unc-mothers-honor/DNCE747MYNFZ3LIUWGDI2VOCVA/',
     sourceLang: 'en',
-    publishedAt: '2026-10-15T20:15:00+02:00',
+    publishedAt: '2026-10-15T17:10:00+02:00',
     author: 'Redacción Mundiales',
     sourcesSecondary: [
       { name: 'WBTV', url: 'https://www.wbtv.com/2025/11/21/basketball-legend-michael-jordan-donates-10-million-north-carolina-hospital' },
@@ -260,7 +260,7 @@ Ni el precio de la villa de Haaland ni su tamaño. [Gulf News](https://gulfnews.
     sourceName: 'Gulf News',
     sourceUrl: 'https://gulfnews.com/sport/erling-haaland-buys-five-bedroom-villa-at-abu-dhabi-development-1.500707182',
     sourceLang: 'en',
-    publishedAt: '2026-10-15T20:00:00+02:00',
+    publishedAt: '2026-10-15T17:05:00+02:00',
     author: 'Redacción Mundiales',
     sourcesSecondary: [
       { name: 'Zawya (comunicado de Ohana Development)', url: 'https://www.zawya.com/en/press-release/companies-news/ohana-development-announces-erling-haaland-as-a-proud-homeowner-at-manchester-city-yas-residences-by-ohana-during-phase-2-launch-1589125' },
@@ -325,8 +325,8 @@ Verstappen vuelve a la Fórmula 1 la semana siguiente con el Gran Premio de Esta
     sourceName: 'DAZN',
     sourceUrl: 'https://www.dazn.com/en-US/news/motorsport/max-verstappen-portimao-rivals-valentino-rossi-arthur-leclerc-gt-world-challenge-2026-t3r/1exylyt0b0ohk1itkv74f6m6yo',
     sourceLang: 'en',
-    publishedAt: '2026-10-15T17:30:00+02:00',
-    modifiedAt: '2026-10-15T19:30:00+02:00',
+    publishedAt: '2026-10-15T16:30:00+02:00',
+    modifiedAt: '2026-10-15T17:20:00+02:00',
     author: 'Redacción Mundiales',
     sourcesSecondary: [
       { name: 'Crash.net', url: 'https://www.crash.net/f1/news/1107565/1/how-watch-max-verstappen-and-valentino-rossi-race-gt-world-challenge-free' },
