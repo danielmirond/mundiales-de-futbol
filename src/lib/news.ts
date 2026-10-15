@@ -141,6 +141,69 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'verstappen-rossi-portimao-gt-world-challenge-como-ver-gratis',
+    title: 'Verstappen contra Rossi en Portimão: cómo ver gratis su duelo en GT3 desde España',
+    summary: 'Max Verstappen y Valentino Rossi comparten parrilla este sábado en la final del GT World Challenge Europe en Portimão. Son tres horas de carrera con 61 coches de GT3, y en España se pueden ver en directo y gratis en DAZN. Horarios, equipos y quién corre con quién.',
+    body: `Max Verstappen y Valentino Rossi estarán en la misma parrilla este sábado 17 de octubre, en la última carrera de la temporada del GT World Challenge Europe, en el Autódromo Internacional do Algarve (Portimão). Es la primera vez que Verstappen corre en este campeonato, y lo hace con su propio equipo.
+
+La carrera dura tres horas y en España se puede ver en directo y gratis en DAZN.
+
+## Horario en España
+
+| Sesión | Día | Hora peninsular |
+| --- | --- | --- |
+| Libres 1 | Viernes 16 | 9:45 a 11:15 |
+| Libres 2 | Viernes 16 | 13:45 a 15:15 |
+| Clasificación | Viernes 16 | 18:55 a 20:05 |
+| Carrera (3 horas) | Sábado 17 | 18:00 a 21:00 |
+
+En Canarias, una hora menos.
+
+## Dónde verlo
+
+DAZN emite la carrera en directo y gratis en España, además de en Francia, Portugal, Brasil, Austria, Suiza y Japón. Basta con registrarse en la plataforma. El canal oficial del campeonato en YouTube (GT World) también la retransmite en abierto, con comentarios en inglés.
+
+## Quién corre con quién
+
+En una carrera de resistencia cada coche lleva tres pilotos que se turnan al volante, así que Verstappen y Rossi no tienen por qué coincidir en pista al mismo tiempo. Lo que se mide es el resultado de cada coche.
+
+- **Max Verstappen** conduce el Mercedes-AMG GT3 EVO n.º 3 de su equipo, Mercedes-AMG Team Verstappen Racing, junto a Ben Barnicoat y Chris Lulham.
+- **Valentino Rossi** lleva el BMW M4 GT3 EVO n.º 46 del Team WRT, con Max Hesse y Neil Verhagen. El 46 es el mismo número que llevó en sus nueve títulos mundiales de motociclismo.
+
+Los dos coches están inscritos en la clase Pro, la que pelea por la victoria absoluta.
+
+## Qué hay en juego
+
+Poco en la clasificación general: el título de pilotos de la Endurance Cup ya es del Mercedes-AMG Team Mann-Filter de Maro Engel, Lucas Auer y Luca Stolz, y el de la Sprint Cup lo ganaron Ricardo Feller y Bastian Buus. Quedan otros campeonatos por decidir, y en la parrilla hay 61 coches de diez marcas.
+
+Entre los nombres a seguir, además de los dos protagonistas:
+
+- **Arthur Leclerc**, hermano de Charles, en el Ferrari 296 GT3 EVO n.º 50 de AF Corse, con Lilou Wadoux y Albert Costa.
+- **Mirko Bortolotti**, en el Lamborghini Temerario GT3 n.º 63 del TGI Team by GRT.
+- **Thomas Preining**, en el Porsche 911 GT3 R n.º 80 de Lionspeed GP.
+
+## Y después, la Fórmula 1
+
+Verstappen vuelve a la Fórmula 1 la semana siguiente con el Gran Premio de Estados Unidos, en Austin, del 23 al 25 de octubre. DAZN, que emite la F1 y MotoGP en España, tiene una oferta de DAZN Motor a 9,99 euros al mes durante 12 meses entre el 22 de octubre y el 1 de noviembre. El calendario y los horarios de cada gran premio están en la [página de la Fórmula 1](/motor/formula-1).`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'GT World Challenge', sport: 'motor', slug: 'gt-world-challenge' },
+    sourceName: 'DAZN',
+    sourceUrl: 'https://www.dazn.com/en-US/news/motorsport/max-verstappen-portimao-rivals-valentino-rossi-arthur-leclerc-gt-world-challenge-2026-t3r/1exylyt0b0ohk1itkv74f6m6yo',
+    sourceLang: 'en',
+    publishedAt: '2026-10-15T17:30:00+02:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Crash.net', url: 'https://www.crash.net/f1/news/1107565/1/how-watch-max-verstappen-and-valentino-rossi-race-gt-world-challenge-free' },
+    ],
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/2024_6_Hours_of_Spa-Francorchamps_Team_WRT_BMW_M4_GT3_No.46_%28DSC03892%29.jpg/1920px-2024_6_Hours_of_Spa-Francorchamps_Team_WRT_BMW_M4_GT3_No.46_%28DSC03892%29.jpg',
+      alt: 'El BMW M4 GT3 n.º 46 del Team WRT en las 6 Horas de Spa de 2024',
+      credit: 'MarcelX42 · CC BY-SA 4.0 · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
     slug: 'nba-resultados-2026-10-15',
     title: "NBA (pretemporada): resultados de la noche del 15 de octubre",
     summary: "Resultados de los 7 partidos de la noche en la NBA, con el más igualado y el de más puntos.",
