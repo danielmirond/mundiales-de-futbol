@@ -17610,22 +17610,27 @@ El Mundial 2026 arranca en un país que Beckham ayudó a preparar para el fútbo
  * Los artículos con fecha futura no se muestran hasta que llega su hora.
  * Evalúa en runtime (no en build time) para que funcione con SSR/ISR.
  */
+/** Instante de publicación en ms: las fechas mezclan UTC («Z») y hora de Madrid («+02:00»), no se comparan como texto. */
+export const newsTime = (n: Pick<NewsItem, 'publishedAt'>) => Date.parse(n.publishedAt);
+/** Orden descendente por instante real de publicación. */
+export const byNewest = (a: NewsItem, b: NewsItem) => newsTime(b) - newsTime(a);
+
 function published(items: NewsItem[]): NewsItem[] {
-  const now = new Date().toISOString();
-  return items.filter((n) => n.publishedAt <= now);
+  const now = Date.now();
+  return items.filter((n) => newsTime(n) <= now);
 }
 
 /** Devuelve las N noticias más recientes ordenadas por publishedAt desc. */
 export function getLatestNews(limit = 6): NewsItem[] {
   return published([...NEWS_ITEMS])
-    .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt))
+    .sort(byNewest)
     .slice(0, limit);
 }
 
 /** Filtra por categoría y devuelve N más recientes. */
 export function getNewsByCategory(category: NewsCategory, limit = 6): NewsItem[] {
   return published(NEWS_ITEMS.filter((n) => n.category === category))
-    .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt))
+    .sort(byNewest)
     .slice(0, limit);
 }
 
@@ -17692,7 +17697,7 @@ export function getNewsByTeam(teamCode: string, limit = 5): NewsItem[] {
   });
 
   return matches
-    .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt))
+    .sort(byNewest)
     .slice(0, limit);
 }
 
@@ -17701,7 +17706,7 @@ export function getRelatedNews(slug: string, limit = 3): NewsItem[] {
   const current = getNewsBySlug(slug);
   if (!current) return [];
   return published(NEWS_ITEMS.filter((n) => n.slug !== slug && n.category === current.category))
-    .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt))
+    .sort(byNewest)
     .slice(0, limit);
 }
 

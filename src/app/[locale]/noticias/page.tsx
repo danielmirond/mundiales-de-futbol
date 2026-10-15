@@ -52,8 +52,8 @@ export default async function NoticiasIndex({
   // Publicación programada: solo mostrar artículos con publishedAt en el pasado
   const now = new Date().toISOString();
   const items = [...NEWS_ITEMS]
-    .filter((n) => n.publishedAt <= now)
-    .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
+    .filter((n) => Date.parse(n.publishedAt) <= Date.parse(now))
+    .sort((a, b) => Date.parse(b.publishedAt) - Date.parse(a.publishedAt));
 
   const collectionLd = {
     '@context': 'https://schema.org',

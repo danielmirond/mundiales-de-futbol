@@ -540,7 +540,7 @@ export default async function Convocatorias2026({
       {(() => {
         const convNoticias = NEWS_ITEMS
           .filter((n) => n.category === 'convocatorias')
-          .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt))
+          .sort((a, b) => Date.parse(b.publishedAt) - Date.parse(a.publishedAt))
           .slice(0, 12);
         if (!convNoticias.length) return null;
         return (
