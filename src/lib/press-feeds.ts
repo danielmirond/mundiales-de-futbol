@@ -16,6 +16,8 @@ export type PressFeed = { id: string; name: string; url: string; region: 'ES' | 
 export type PressItem = { title: string; link: string; date: string; source: string; region: 'ES' | 'INT'; lang: string; image?: string };
 
 const MARCA = 'https://e00-marca.uecdn.es/rss';
+// AS: las URLs antiguas (as.com/rss/…) sirven contenido congelado de 2022.
+const AS = 'https://feeds.as.com/mrss-s/pages/as/site/as.com/section';
 export const PRESS_FEEDS: PressFeed[] = [
   // ── España ──
   { id: 'marca-laliga', name: 'Marca', url: `${MARCA}/futbol/primera-division.xml`, region: 'ES', lang: 'es', comps: ['laliga'] },
@@ -30,19 +32,19 @@ export const PRESS_FEEDS: PressFeed[] = [
   { id: 'marca-f1', name: 'Marca', url: `${MARCA}/motor/formula1.xml`, region: 'ES', lang: 'es', comps: ['formula-1'] },
   { id: 'marca-motogp', name: 'Marca', url: `${MARCA}/motor/motogp.xml`, region: 'ES', lang: 'es', comps: ['motogp'] },
   { id: 'marca-tenis', name: 'Marca', url: `${MARCA}/tenis.xml`, region: 'ES', lang: 'es', comps: ['atp', 'wta'] },
-  { id: 'as-laliga', name: 'AS', url: 'https://as.com/rss/futbol/primera.xml', region: 'ES', lang: 'es', comps: ['laliga'] },
-  { id: 'as-laliga2', name: 'AS', url: 'https://as.com/rss/futbol/segunda.xml', region: 'ES', lang: 'es', comps: ['laliga-2'] },
-  { id: 'as-ucl', name: 'AS', url: 'https://as.com/rss/futbol/champions.xml', region: 'ES', lang: 'es', comps: ['champions-league'] },
-  { id: 'as-intl', name: 'AS', url: 'https://as.com/rss/futbol/internacional.xml', region: 'ES', lang: 'es', sport: ['futbol'] },
-  { id: 'as-nba', name: 'AS', url: 'https://as.com/rss/baloncesto/nba.xml', region: 'ES', lang: 'es', comps: ['nba'] },
-  { id: 'as-acb', name: 'AS', url: 'https://as.com/rss/baloncesto/acb.xml', region: 'ES', lang: 'es', comps: ['liga-endesa'] },
-  { id: 'as-f1', name: 'AS', url: 'https://as.com/rss/motor/formula_1.xml', region: 'ES', lang: 'es', comps: ['formula-1'] },
-  { id: 'as-tenis', name: 'AS', url: 'https://as.com/rss/tenis/portada.xml', region: 'ES', lang: 'es', comps: ['atp', 'wta'] },
+  { id: 'as-laliga', name: 'AS', url: `${AS}/futbol/subsection/primera/`, region: 'ES', lang: 'es', comps: ['laliga'] },
+  { id: 'as-laliga2', name: 'AS', url: `${AS}/futbol/subsection/segunda/`, region: 'ES', lang: 'es', comps: ['laliga-2'] },
+  { id: 'as-ucl', name: 'AS', url: `${AS}/futbol/subsection/champions/`, region: 'ES', lang: 'es', comps: ['champions-league'] },
+  { id: 'as-intl', name: 'AS', url: `${AS}/futbol/subsection/internacional/`, region: 'ES', lang: 'es', sport: ['futbol'] },
+  { id: 'as-nba', name: 'AS', url: `${AS}/baloncesto/subsection/nba/`, region: 'ES', lang: 'es', comps: ['nba'] },
+  { id: 'as-acb', name: 'AS', url: `${AS}/baloncesto/subsection/acb/`, region: 'ES', lang: 'es', comps: ['liga-endesa'] },
+  { id: 'as-f1', name: 'AS', url: `${AS}/motor/subsection/formula_1/`, region: 'ES', lang: 'es', comps: ['formula-1'] },
+  { id: 'as-motogp', name: 'AS', url: `${AS}/motor/subsection/motociclismo/`, region: 'ES', lang: 'es', comps: ['motogp'] },
+  { id: 'as-tenis', name: 'AS', url: `${AS}/tenis/portada/`, region: 'ES', lang: 'es', comps: ['atp', 'wta'] },
   { id: 'md-futbol', name: 'Mundo Deportivo', url: 'https://www.mundodeportivo.com/rss/futbol.xml', region: 'ES', lang: 'es', sport: ['futbol'] },
   { id: 'md-basket', name: 'Mundo Deportivo', url: 'https://www.mundodeportivo.com/rss/baloncesto.xml', region: 'ES', lang: 'es', sport: ['baloncesto'] },
   { id: 'md-motor', name: 'Mundo Deportivo', url: 'https://www.mundodeportivo.com/rss/motor.xml', region: 'ES', lang: 'es', sport: ['motor'] },
   { id: 'md-tenis', name: 'Mundo Deportivo', url: 'https://www.mundodeportivo.com/rss/tenis.xml', region: 'ES', lang: 'es', comps: ['atp', 'wta'] },
-  { id: 'sport-tenis', name: 'Sport', url: 'https://www.sport.es/es/rss/tenis/rss.xml', region: 'ES', lang: 'es', comps: ['atp', 'wta'] },
   { id: 'elpais-deportes', name: 'El País', url: 'https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/deportes/portada', region: 'ES', lang: 'es', sport: ['futbol', 'baloncesto', 'motor', 'tenis', 'rugby', 'golf'] },
   // ── Internacional ──
   { id: 'bbc-football', name: 'BBC Sport', url: 'https://feeds.bbci.co.uk/sport/football/rss.xml', region: 'INT', lang: 'en', sport: ['futbol'] },
@@ -178,13 +180,25 @@ export async function fetchCompetitionPress(c: Competition, limit = 16): Promise
   ]);
   const cutoff = Date.now() - 72 * 3_600_000;
   const seen = new Set<string>();
-  const all = [...ded, ...gen]
+  const fresh = (xs: PressItem[]) => xs
     .filter((i) => !i.date || Date.parse(i.date) >= cutoff)
     .sort((a, b) => (b.date || '').localeCompare(a.date || ''))
     .filter((i) => { const k = fold(i.title).replace(/[^a-z0-9]+/g, ' ').slice(0, 70); if (seen.has(k) || seen.has(i.link)) return false; seen.add(k); seen.add(i.link); return true; });
+  // Primero los feeds dedicados a la competición; los generales filtrados solo rellenan.
+  const pool = [...fresh(ded), ...fresh(gen)];
 
-  // Reparto: hasta la mitad internacional para que no lo copen los feeds ES más prolíficos.
-  const es = all.filter((i) => i.region === 'ES'), int = all.filter((i) => i.region === 'INT');
-  const nInt = Math.min(int.length, Math.max(Math.floor(limit / 2), limit - es.length));
-  return [...es.slice(0, limit - nInt), ...int.slice(0, nInt)].sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+  // Reparto por medio (turnos) para que ninguno cope el carrusel, y mitad
+  // internacional como máximo si hay de las dos regiones.
+  const pick = (region: PressItem['region'], n: number) => {
+    const bySrc = new Map<string, PressItem[]>();
+    for (const i of pool) if (i.region === region) bySrc.set(i.source, [...(bySrc.get(i.source) ?? []), i]);
+    const queues = [...bySrc.values()];
+    const out: PressItem[] = [];
+    while (out.length < n && queues.some((q) => q.length)) for (const q of queues) { const x = q.shift(); if (x && out.length < n) out.push(x); }
+    return out;
+  };
+  const int = pick('INT', Math.floor(limit / 2));
+  const es = pick('ES', limit - int.length);
+  const rest = es.length < limit - int.length ? pick('INT', limit - es.length).slice(int.length) : [];
+  return [...es, ...int, ...rest].sort((a, b) => (b.date || '').localeCompare(a.date || ''));
 }
