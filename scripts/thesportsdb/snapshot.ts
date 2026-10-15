@@ -45,7 +45,14 @@ async function tsdb(path: string): Promise<any> {
     const wait = last + GAP_MS - Date.now();
     if (wait > 0) await sleep(wait);
     last = Date.now();
-    const res = await fetch(`${API}/${path}`, { headers: { 'User-Agent': 'mundiales-de-futbol.com snapshot' } });
+    let res: Response;
+    try {
+      res = await fetch(`${API}/${path}`, { headers: { 'User-Agent': 'mundiales-de-futbol.com snapshot' } });
+    } catch {
+      // Corte de red (ECONNRESET…): espera y reintenta.
+      await sleep(10_000);
+      continue;
+    }
     if (res.status === 429) { await sleep(60_000); continue; }
     if (!res.ok) return null;
     const txt = await res.text();
