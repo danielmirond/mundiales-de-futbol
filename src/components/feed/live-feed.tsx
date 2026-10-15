@@ -167,6 +167,13 @@ export function LiveFeed({ cards }: { cards: FeedCard[] }) {
     return () => { clearTimeout(first); clearInterval(t); };
   }, [active, loadReactions]);
 
+  // Llegada desde la franja de la portada: abre el feed en la tarjeta pulsada.
+  useEffect(() => {
+    const id = decodeURIComponent(location.hash.slice(1));
+    const el = id.startsWith('c-') ? document.getElementById(id) : null;
+    if (el && box.current) box.current.scrollTop = el.offsetTop;
+  }, []);
+
   const go = useCallback((d: number) => {
     const root = box.current;
     if (root) root.scrollBy({ top: d * root.clientHeight, behavior: 'smooth' });
@@ -185,7 +192,7 @@ export function LiveFeed({ cards }: { cards: FeedCard[] }) {
     <div className="relative mx-auto h-[calc(100svh-var(--header-h,7rem))] w-full md:max-w-[480px] md:py-4">
       <div ref={box} className="no-scrollbar h-full snap-y snap-mandatory overflow-y-scroll md:rounded-[24px] md:border md:border-[var(--color-border)]">
         {cards.map((c, i) => (
-          <section key={c.id} data-i={i} data-sport={c.sport} className="relative flex h-full snap-start snap-always flex-col overflow-hidden bg-black">
+          <section key={c.id} id={`c-${c.id}`} data-i={i} data-sport={c.sport} className="relative flex h-full snap-start snap-always flex-col overflow-hidden bg-black">
             <Card c={c} play={playing === c.id} setPlay={(v) => setPlaying(v ? c.id : null)} />
             {c.kind !== 'video' && <Reactions card={c.id} match={c.kind === 'score'} data={reactions[c.id]} active={active === i} onReacted={() => loadReactions(i)} />}
             {c.kind !== 'video' && (
