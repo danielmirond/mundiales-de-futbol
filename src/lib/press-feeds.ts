@@ -156,7 +156,7 @@ function parse(xml: string, f: PressFeed): PressItem[] {
 
 async function fetchFeed(f: PressFeed): Promise<PressItem[]> {
   try {
-    const res = await fetch(f.url, { headers: { 'User-Agent': 'Mozilla/5.0 (compatible; mundiales-de-futbol.com)' }, next: { revalidate: 1800 }, signal: AbortSignal.timeout(8000) });
+    const res = await fetch(f.url, { headers: { 'User-Agent': 'Mozilla/5.0 (compatible; mundiales-de-futbol.com)' }, next: { revalidate: 600 }, signal: AbortSignal.timeout(8000) });
     if (!res.ok) return [];
     return parse(await res.text(), f);
   } catch {

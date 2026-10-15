@@ -54,7 +54,8 @@ function Mini({ c, eager }: { c: FeedCard; eager: boolean }) {
  * pantalla completa justo en la tarjeta pulsada (`/directo#c-<id>`).
  */
 export async function LiveStrip({ locale, sport, title = 'Lo último, deslizando' }: { locale: Locale; sport?: string; title?: string }) {
-  const cards = (await buildLiveFeed((h) => withLocale(locale, h), { sport })).slice(0, 12);
+  // La tira enseña lo que cambia: sin vídeos de club ni anuncios (esos viven en el directo).
+  const cards = (await buildLiveFeed((h) => withLocale(locale, h), { sport })).filter((c) => c.kind !== 'video' && c.kind !== 'ad').slice(0, 12);
   if (cards.length < 4) return null;
   const base = withLocale(locale, '/directo');
   const href = sport ? `${base}?d=${sport}` : base;
