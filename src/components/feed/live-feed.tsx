@@ -3,6 +3,8 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import type { FeedCard } from '@/lib/live-feed';
 import { Crest } from '@/components/portal/crest';
+import { Reactions } from './reactions';
+import type { CardReactions } from '@/lib/feed-reactions';
 
 const ago = (iso: string) => {
   if (!iso) return '';
@@ -149,6 +151,22 @@ export function LiveFeed({ cards }: { cards: FeedCard[] }) {
     return () => io.disconnect();
   }, [cards]);
 
+  // Reacciones de la tarjeta activa y sus vecinas; se refrescan cada 15 s.
+  const [reactions, setReactions] = useState<Record<string, CardReactions>>({});
+  const loadReactions = useCallback(async (center: number) => {
+    const ids = cards.slice(Math.max(0, center - 1), center + 3).map((c) => c.id);
+    if (!ids.length) return;
+    try {
+      const r = await fetch(`/api/feed-react?cards=${ids.join(',')}`, { cache: 'no-store' });
+      if (r.ok) { const j = await r.json(); setReactions((prev) => ({ ...prev, ...j })); }
+    } catch { /* sin red: se mantiene lo último */ }
+  }, [cards]);
+  useEffect(() => {
+    const first = setTimeout(() => loadReactions(active), 0);
+    const t = setInterval(() => loadReactions(active), 15_000);
+    return () => { clearTimeout(first); clearInterval(t); };
+  }, [active, loadReactions]);
+
   const go = useCallback((d: number) => {
     const root = box.current;
     if (root) root.scrollBy({ top: d * root.clientHeight, behavior: 'smooth' });
@@ -169,6 +187,7 @@ export function LiveFeed({ cards }: { cards: FeedCard[] }) {
         {cards.map((c, i) => (
           <section key={c.id} data-i={i} data-sport={c.sport} className="relative flex h-full snap-start snap-always flex-col overflow-hidden bg-black">
             <Card c={c} play={playing === c.id} setPlay={(v) => setPlaying(v ? c.id : null)} />
+            {c.kind !== 'video' && <Reactions card={c.id} match={c.kind === 'score'} data={reactions[c.id]} active={active === i} onReacted={() => loadReactions(i)} />}
             {c.kind !== 'video' && (
               <div className="absolute bottom-28 right-4 flex flex-col items-center gap-3">
                 <Share title={c.kind === 'score' ? `${c.match.home.name} ${c.match.home.score ?? 0}-${c.match.away.score ?? 0} ${c.match.away.name}` : c.title} href={c.href} />

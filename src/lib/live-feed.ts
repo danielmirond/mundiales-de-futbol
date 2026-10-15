@@ -4,6 +4,7 @@
  * vídeos de los canales oficiales de los grandes clubes. Todo de fuentes que
  * ya usa el portal; sin IA. Caché por fuente (prensa 30 min, ESPN 2-5 min).
  */
+import { createHash } from 'node:crypto';
 import { getCompetition, type Competition } from './competitions';
 import { fetchCompetitionPress } from './press-feeds';
 import { fetchWindow, dayKeys, type Match } from './espn';
@@ -80,6 +81,7 @@ export async function buildLiveFeed(withLocale: (h: string) => string): Promise<
     if (s < scores.length) out.push(scores[s++]);
     if (out.length >= 8 * (v + 1) && v < videos.length) out.push(videos[v++]);
   }
-  return out.filter(dedup).slice(0, 80);
+  // Id corto y estable por tarjeta (clave de las reacciones): tipo + hash del origen.
+  return out.filter(dedup).slice(0, 80).map((c) => ({ ...c, id: `${c.kind[0]}-${createHash('sha1').update(c.id).digest('hex').slice(0, 16)}` }));
 }
 
