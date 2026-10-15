@@ -143,8 +143,10 @@ export const NEWS_ITEMS: NewsItem[] = [
   {
     slug: 'verstappen-rossi-portimao-gt-world-challenge-como-ver-gratis',
     title: 'Verstappen contra Rossi en Portimão: cómo ver gratis su duelo en GT3 desde España',
-    summary: 'Max Verstappen y Valentino Rossi comparten parrilla este sábado en la final del GT World Challenge Europe en Portimão. Son tres horas de carrera con 61 coches de GT3, y en España se pueden ver en directo y gratis en DAZN. Horarios, equipos y quién corre con quién.',
+    summary: 'Max Verstappen y Valentino Rossi comparten parrilla este sábado en la final del GT World Challenge Europe en Portimão. No es Fórmula 1: son tres horas de carrera con 61 coches de GT3, y en España se pueden ver en directo y gratis en DAZN. Horarios, equipos y quién corre con quién.',
     body: `Max Verstappen y Valentino Rossi estarán en la misma parrilla este sábado 17 de octubre, en la última carrera de la temporada del GT World Challenge Europe, en el Autódromo Internacional do Algarve (Portimão). Es la primera vez que Verstappen corre en este campeonato, y lo hace con su propio equipo.
+
+No es Fórmula 1: corren en GT3, coches de carreras derivados de deportivos de calle (BMW, Mercedes, Ferrari, Porsche, Lamborghini…), en una prueba de resistencia. Rossi compite en coches desde que se retiró de MotoGP en 2021; Verstappen, que sigue en la F1 con Red Bull, corre en GT3 con su propio equipo cuando el calendario se lo permite.
 
 La carrera dura tres horas y en España se puede ver en directo y gratis en DAZN.
 
@@ -192,6 +194,7 @@ Verstappen vuelve a la Fórmula 1 la semana siguiente con el Gran Premio de Esta
     sourceUrl: 'https://www.dazn.com/en-US/news/motorsport/max-verstappen-portimao-rivals-valentino-rossi-arthur-leclerc-gt-world-challenge-2026-t3r/1exylyt0b0ohk1itkv74f6m6yo',
     sourceLang: 'en',
     publishedAt: '2026-10-15T17:30:00+02:00',
+    modifiedAt: '2026-10-15T19:30:00+02:00',
     author: 'Redacción Mundiales',
     sourcesSecondary: [
       { name: 'Crash.net', url: 'https://www.crash.net/f1/news/1107565/1/how-watch-max-verstappen-and-valentino-rossi-race-gt-world-challenge-free' },
