@@ -84,8 +84,9 @@ export function SiteNav() {
   return (
     <header className={cn('relative z-40 transition-colors duration-300', scrolled || open || mega ? 'border-b border-[var(--color-border)] bg-[var(--color-bg)]/85 backdrop-blur-xl' : 'border-b border-transparent bg-[var(--color-bg)]/60 backdrop-blur-md')}>
       <div className="mx-auto flex h-16 w-full max-w-[1400px] items-center gap-0.5 px-4 md:h-[68px] md:px-7">
-        <Link href={withLocale(locale, '/')} data-sport={brandSport} className="mr-3 flex min-w-0 items-center md:mr-5" aria-label="Mundiales · inicio">
-          <BrandLockup section={section} />
+        <Link href={withLocale(locale, '/')} data-sport={brandSport} className="mr-3 flex shrink-0 items-center md:mr-5" aria-label="Mundiales · inicio">
+          {/* La sección se oculta en el tramo lg–xl, donde la barra de escritorio no deja sitio. */}
+          <BrandLockup section={section} sectionClassName="lg:max-xl:hidden" />
         </Link>
 
         {/* Escritorio */}

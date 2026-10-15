@@ -28,13 +28,13 @@ export function BrandSymbol({ size = 24, className, title }: { size?: number; cl
  * Logotipo completo: símbolo + MUNDIALES en Bebas, y opcionalmente la
  * sección (FÚTBOL, BALONCESTO, 1930–2026…) en el color del acento.
  */
-export function BrandLockup({ section, size = 'm', className }: { section?: string; size?: 's' | 'm' | 'l'; className?: string }) {
+export function BrandLockup({ section, size = 'm', className, sectionClassName }: { section?: string; size?: 's' | 'm' | 'l'; className?: string; sectionClassName?: string }) {
   const S = { s: { sym: 20, text: 'text-[22px]' }, m: { sym: 22, text: 'text-[26px] md:text-[28px]' }, l: { sym: 30, text: 'text-[36px]' } }[size];
   return (
-    <span className={cn('inline-flex items-center gap-2', className)}>
+    <span className={cn('inline-flex shrink-0 items-center gap-2 whitespace-nowrap', className)}>
       <BrandSymbol size={S.sym} className="text-[var(--accent)]" />
       <span className={cn('font-display leading-none tracking-[0.03em] text-[var(--color-fg)] pt-[0.12em]', S.text)}>MUNDIALES</span>
-      {section && <span className={cn('font-display leading-none tracking-[0.03em] text-[var(--accent)] pt-[0.12em]', S.text, section.length > 10 && 'max-[430px]:hidden')}>{section}</span>}
+      {section && <span className={cn('font-display leading-none tracking-[0.03em] text-[var(--accent)] pt-[0.12em]', S.text, section.length > 10 && 'max-[430px]:hidden', sectionClassName)}>{section}</span>}
     </span>
   );
 }
