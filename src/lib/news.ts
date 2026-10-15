@@ -141,6 +141,369 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'previa-lyon-c-palace-401915566',
+    title: "Lyon - C Palace: horario, dónde ver y cómo llegan al partido de Europa League",
+    summary: "Cita de Europa League este jueves 15 de octubre: Lyon - C Palace, a las 18:45 h en Groupama Stadium. Lyon es 11.º y C Palace, 2.º.",
+    body: `Cita de Europa League este jueves 15 de octubre: Lyon - C Palace, a las 18:45 h en Groupama Stadium.
+
+## Cómo llegan
+
+Lyon llega y ocupa la 11.º plaza con 3 puntos (1G-0E-0P). C Palace llega y ocupa la 2.º plaza con 3 puntos (1G-0E-0P). La [clasificación de Europa League](/futbol/europa-league), al día.
+
+## Dónde ver el partido
+
+Canal por confirmar; se actualiza en la ficha del partido. Alineaciones en cuanto se confirmen, marcador en directo y narración en la [ficha del Lyon - C Palace](/futbol/europa-league/partido/401915566). El resto de la jornada, en [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    kind: 'previa',
+    competition: {"name":"Europa League","sport":"futbol","slug":"europa-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915566",
+    sourceLang: 'en',
+    publishedAt: '2026-10-15T00:04:41.739Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Groupama_Stadium%2C_Lyon%2C_sans_la_pelouse_%28juin_2024%29.jpg/1920px-Groupama_Stadium%2C_Lyon%2C_sans_la_pelouse_%28juin_2024%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Groupama Stadium, sede del Lyon - C Palace",
+      credit: "Sebleouf · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'cronica-feyenoord-como-401915416',
+    title: "Feyenoord se impone a Como (3-2) en Champions",
+    summary: "Assane Diao marcó; Como remató 11 veces (5 a puerta) en el Feyenoord 3-2 Como de Champions League.",
+    body: `Acabó ganando Feyenoord 3-2. Marcaron Assane Diao (18', Como), Gjivai Zechiël (20', Feyenoord), Anis Hadj Moussa (52', Feyenoord), Robert Sánchez (81', Feyenoord, p.p.) y Anastasios Douvikas (90'+3', Como).
+
+## En cifras
+
+Feyenoord manejó el balón (48 % por 52 %) y tiró 13 veces, 5 entre los tres palos; Como se quedó en 11 remates (5 a puerta). Córners: 5 por 1.
+
+## La clasificación
+
+Tras el partido, Feyenoord 23.º con 3 puntos y Como 12.º con 3 puntos en la [clasificación de Champions](/futbol/champions-league).
+
+Ficha: 5 amarillas · 9 cambios. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/champions-league/partido/401915416).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Champions","sport":"futbol","slug":"champions-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915416",
+    sourceLang: 'en',
+    publishedAt: '2026-10-15T00:04:41.739Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Stadion_Feijenoord_%2847370316021%29.jpg/1920px-Stadion_Feijenoord_%2847370316021%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "De Kuip, donde se jugó el Feyenoord - Como",
+      credit: "Daniel from Glasgow, United Kingdom · CC BY 2.0 · Wikimedia Commons",
+      license: "CC BY 2.0",
+    },
+  },
+  {
+    slug: 'cronica-s-bratislava-stuttgart-401915405',
+    title: "Deniz Undav guía a Stuttgart ante S Bratislava (3-0) y lo deja 4.º en Champions",
+    summary: "Stuttgart 3-0 S Bratislava en Champions League: Deniz Undav marcó. S Bratislava 36 % de posesión y 15 remates; Stuttgart 64 % y 16.",
+    body: `## Resumen
+
+Stuttgart ganó 3-0 a S Bratislava en Champions League.
+
+## Los goles
+
+- 29' · Deniz Undav (Stuttgart)
+- 64' · Sandro Cruz (Stuttgart, p.p.)
+- 90' · Ermedin Demirovic (Stuttgart)
+
+## El dato
+
+S Bratislava 36 % de posesión y 15 remates; Stuttgart 64 % y 16.
+
+## Lo que viene
+
+Lo que viene. S Bratislava: visita a AS Roma el martes 20 de octubre. Stuttgart: recibe a Atlético el martes 20 de octubre.
+
+**Lee también:** la [ficha del partido](/futbol/champions-league/partido/401915405) con alineaciones y narración · la [clasificación de Champions](/futbol/champions-league) · [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Champions","sport":"futbol","slug":"champions-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915405",
+    sourceLang: 'en',
+    publishedAt: '2026-10-15T00:04:41.739Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Tehelne_pole.jpg/1920px-Tehelne_pole.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Národny Futbalovy Stadión, donde se jugó el S Bratislava - Stuttgart",
+      credit: "Svk fan · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'cronica-shakhtar-aek-athens-401915406',
+    title: "Shakhtar 3 AEK Athens 1: goles de Lovro Majer, Vinícius Tobias y Gleiker Mendoza y Shakhtar 11.º",
+    summary: "Gleiker Mendoza marcó en el 86' el gol que puso por delante a Shakhtar, que ya no soltó la ventaja: 3-1 final ante AEK Athens en Champions League. Claves: goles de Lovro Majer, Vinícius Tobias y Gleiker Mendoza, Shakhtar 11.º y posesión del 55 % para Shakhtar.",
+    body: `Gleiker Mendoza marcó en el 86' el gol que puso por delante a Shakhtar, que ya no soltó la ventaja: 3-1 final ante AEK Athens en Champions League.
+
+## Lovro Majer decidió
+
+En el marcador, Lovro Majer (28', AEK Athens), Vinícius Tobias (80', Shakhtar) y Gleiker Mendoza (86', Shakhtar).
+
+## Los números del partido
+
+Shakhtar manejó el balón (55 % por 46 %) y tiró 12 veces, 4 entre los tres palos; AEK Athens se quedó en 13 remates (3 a puerta). Córners: 5 por 2.
+
+## Qué cambia en la tabla
+
+Tras el partido, Shakhtar 11.º con 4 puntos y AEK Athens 20.º con 3 puntos en la [clasificación de Champions](/futbol/champions-league).
+
+## Qué viene ahora
+
+Lo que viene. Shakhtar: visita a Inter Milan el miércoles 21 de octubre. AEK Athens: visita a Man City el martes 20 de octubre. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/champions-league/partido/401915406).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Champions","sport":"futbol","slug":"champions-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915406",
+    sourceLang: 'en',
+    publishedAt: '2026-10-15T00:04:41.739Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Stamford_Bridge_-_geograph.org.uk_-_6116938.jpg/1920px-Stamford_Bridge_-_geograph.org.uk_-_6116938.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Stamford Bridge, donde se jugó el Shakhtar - AEK Athens",
+      credit: "T Eyre · CC BY-SA 2.0 · Wikimedia Commons",
+      license: "CC BY-SA 2.0",
+    },
+  },
+  {
+    slug: 'cronica-betis-fc-porto-401915408',
+    title: "Betis gana 3-2 a FC Porto y es 9.º",
+    summary: "Betis suma tres puntos ante FC Porto (3-2) en Champions League y es 9.º con 6 puntos; FC Porto se queda 30.º.",
+    body: `Betis se impuso 3-2 a FC Porto en Champions League.
+
+## Los goles
+
+Marcaron Abde Ezzalzouli (47', Betis), Gabri Veiga (54', FC Porto), Samu Aghehowa (61', FC Porto) y Cucho Hernández (74', Betis).
+
+## La tabla
+
+Tras el partido, Betis 9.º con 6 puntos y FC Porto 30.º con 0 puntos en la [clasificación de Champions](/futbol/champions-league).
+
+## Lo que viene
+
+Lo que viene. Betis: recibe a Feyenoord el miércoles 21 de octubre. FC Porto: recibe a PSV el martes 20 de octubre. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/champions-league/partido/401915408).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Champions","sport":"futbol","slug":"champions-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915408",
+    sourceLang: 'en',
+    publishedAt: '2026-10-15T00:04:41.739Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/4/46/Seville_Estadio_Ol%C3%ADmpico_de_La_Cartuja_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      alt: "Estadio La Cartuja, donde se jugó el Betis - FC Porto",
+      credit: "Валерий Дед · CC BY 3.0 · Wikimedia Commons",
+      license: "CC BY 3.0",
+    },
+  },
+  {
+    slug: 'cronica-man-city-psg-401915407',
+    title: "PSG se impone a Man City (4-2) con doblete de Erling Haaland en Champions",
+    summary: "Erling Haaland marcó 2; Man City remató 27 veces (9 a puerta) en el PSG 4-2 Man City de Champions League.",
+    body: `Acabó ganando PSG 4-2, con doblete de Erling Haaland. En el marcador, Désiré Doué (13', PSG), Ousmane Dembélé (15', PSG), Vitinha (32', PSG), Erling Haaland (53', Man City), Maghnes Akliouche (62', PSG) y Erling Haaland (75', Man City).
+
+## En cifras
+
+Man City manejó el balón (54 % por 46 %) y tiró 27 veces, 9 entre los tres palos; PSG se quedó en 15 remates (10 a puerta). Córners: 11 por 2.
+
+## La clasificación
+
+Tras el partido, Man City 17.º con 3 puntos y PSG 1.º con 6 puntos en la [clasificación de Champions](/futbol/champions-league).
+
+Ficha: 2 amarillas · 9 cambios. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/champions-league/partido/401915407).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Champions","sport":"futbol","slug":"champions-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915407",
+    sourceLang: 'en',
+    publishedAt: '2026-10-15T00:04:41.739Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Etihad_Stadium.jpg/1920px-Etihad_Stadium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Etihad Stadium, donde se jugó el Man City - PSG",
+      credit: "Cléria De Souza · CC BY 2.0 · Wikimedia Commons",
+      license: "CC BY 2.0",
+    },
+  },
+  {
+    slug: 'cronica-bodo-glimt-dortmund-401915393',
+    title: "Fredrik Sjøvold guía a Bodo/Glimt ante Dortmund (1-0) y lo deja 24.º en Champions",
+    summary: "Bodo/Glimt 1-0 Dortmund en Champions League: Fredrik Sjøvold marcó. Bodo/Glimt 48 % de posesión y 11 remates; Dortmund 52 % y 9.",
+    body: `## Resumen
+
+Bodo/Glimt ganó 1-0 a Dortmund en Champions League, con gol de Fredrik Sjøvold.
+
+## Los goles
+
+- 52' · Fredrik Sjøvold (Bodo/Glimt)
+
+## El dato
+
+Bodo/Glimt 48 % de posesión y 11 remates; Dortmund 52 % y 9.
+
+## Lo que viene
+
+Lo que viene. Bodo/Glimt: visita a Napoli el martes 20 de octubre. Dortmund: visita a Sabah el martes 20 de octubre.
+
+**Lee también:** la [ficha del partido](/futbol/champions-league/partido/401915393) con alineaciones y narración · la [clasificación de Champions](/futbol/champions-league) · [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Champions","sport":"futbol","slug":"champions-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915393",
+    sourceLang: 'en',
+    publishedAt: '2026-10-15T00:04:41.739Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Aspmyra_stadion.jpg/1920px-Aspmyra_stadion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Aspmyra Stadion, donde se jugó el Bodo/Glimt - Dortmund",
+      credit: "Røed · CC BY-SA 2.5 · Wikimedia Commons",
+      license: "CC BY-SA 2.5",
+    },
+  },
+  {
+    slug: 'cronica-aston-villa-fenerbahce-401915409',
+    title: "Aston Villa gana 6-0 a Fenerbahce y es 3.º",
+    summary: "Aston Villa suma tres puntos ante Fenerbahce (6-0) en Champions League y es 3.º con 6 puntos; Fenerbahce se queda 28.º.",
+    body: `Aston Villa se impuso 6-0 a Fenerbahce en Champions League, con doblete de Nicolas Jackson.
+
+## Los goles
+
+Marcaron Johan Manzambi (12', Aston Villa), Nicolas Jackson (31', Aston Villa), Nicolas Jackson (39', Aston Villa), Ross Barkley (72', Aston Villa) y Tammy Abraham (90', Aston Villa).
+
+## La tabla
+
+Tras el partido, Aston Villa 3.º con 6 puntos y Fenerbahce 28.º con 1 puntos en la [clasificación de Champions](/futbol/champions-league).
+
+## Lo que viene
+
+Lo que viene. Aston Villa: recibe a Viking FK el miércoles 21 de octubre. Fenerbahce: recibe a Slavia Prague el martes 20 de octubre. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/champions-league/partido/401915409).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Champions","sport":"futbol","slug":"champions-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915409",
+    sourceLang: 'en',
+    publishedAt: '2026-10-15T00:04:41.739Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/a/af/Villaparkfromtopofholte.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      alt: "Villa Park, donde se jugó el Aston Villa - Fenerbahce",
+      credit: "Everlast1910 at English Wikipedia · Public domain · Wikimedia Commons",
+      license: "Public domain",
+    },
+  },
+  {
+    slug: 'cronica-as-roma-real-madrid-401915414',
+    title: "Real Madrid gana fuera 4-3 a AS Roma y es 8.º",
+    summary: "Real Madrid suma tres puntos ante AS Roma (4-3) en Champions League y es 8.º con 6 puntos; AS Roma se queda 25.º.",
+    body: `Real Madrid se impuso 4-3 a AS Roma en Champions League, con doblete de Donyell Malen.
+
+## Los goles
+
+Marcaron Marten de Roon (20', AS Roma), Kylian Mbappé (25', Real Madrid), Donyell Malen (51', AS Roma), Donyell Malen (57', AS Roma), Carlos Espí (83', Real Madrid), Endrick (85', Real Madrid) y Antonio Rüdiger (90', Real Madrid).
+
+## La tabla
+
+Tras el partido, AS Roma 25.º con 1 puntos y Real Madrid 8.º con 6 puntos en la [clasificación de Champions](/futbol/champions-league).
+
+## Lo que viene
+
+Lo que viene. AS Roma: recibe a S Bratislava el martes 20 de octubre. Real Madrid: recibe a RB Leipzig el miércoles 21 de octubre. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/champions-league/partido/401915414).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Champions","sport":"futbol","slug":"champions-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915414",
+    sourceLang: 'en',
+    publishedAt: '2026-10-15T00:04:41.739Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Teatro_Olimpico_%28Vicenza%29_-_courtyard.jpg/1920px-Teatro_Olimpico_%28Vicenza%29_-_courtyard.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Olimpico, donde se jugó el AS Roma - Real Madrid",
+      credit: "Didier Descouens · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'partidos-futbol-hoy-2026-10-15',
+    title: "Partidos de fútbol hoy, jueves 15 de octubre: horarios y dónde ver Europa League y Conference League",
+    summary: "Agenda de fútbol de hoy jueves 15 de octubre: 36 partidos con horario en hora española y canal de televisión. Destaca AZ Alkmaar - Hapoel Be'er.",
+    body: `El fútbol no para: 36 encuentros este jueves 15 de octubre. Esta es la agenda completa con horarios de España y televisión. El partido que más miradas reúne es el **[AZ Alkmaar - Hapoel Be'er](/futbol/europa-league/partido/401915573)** (Europa League, 18:45 h).
+
+## Europa League
+
+- **[AZ Alkmaar - Hapoel Be'er](/futbol/europa-league/partido/401915573)** — 18:45 h
+- **[Lech Poznan - Leverkusen](/futbol/europa-league/partido/401915576)** — 18:45 h
+- **[Lyon - C Palace](/futbol/europa-league/partido/401915566)** — 18:45 h
+- **[NK Celje - Omonia](/futbol/europa-league/partido/401915577)** — 18:45 h
+- **[RB Salzburg - Milan](/futbol/europa-league/partido/401915568)** — 18:45 h
+- **[Sparta - Lillestrom](/futbol/europa-league/partido/401915567)** — 18:45 h
+- **[Torreense - Sunderland](/futbol/europa-league/partido/401915575)** — 18:45 h
+- **[Union SG - Real Sociedad](/futbol/europa-league/partido/401915574)** — 18:45 h
+- **[Bournemouth - Sturm Graz](/futbol/europa-league/partido/401915571)** — 21:00 h
+- **[Benfica - Celtic](/futbol/europa-league/partido/401915562)** — 21:00 h
+- **[Celta Vigo - Juventus](/futbol/europa-league/partido/401915560)** — 21:00 h · 📺 Movistar Plus+ / M+ Liga de Campeones
+- **[Dinamo Zagreb - Anderlecht](/futbol/europa-league/partido/401915549)** — 21:00 h
+- **[Ferencvaros - Viktoria Plzen](/futbol/europa-league/partido/401915564)** — 21:00 h
+- **[Jagiellonia  - Ararat-Armenia](/futbol/europa-league/partido/401915561)** — 21:00 h
+- **[Marseille - Olympiacos](/futbol/europa-league/partido/401915550)** — 21:00 h
+- **[NEC - Levski Sofia](/futbol/europa-league/partido/401915565)** — 21:00 h
+- **[Rennes - OFI Crete](/futbol/europa-league/partido/401915572)** — 21:00 h
+- **[Hoffenheim - Besiktas](/futbol/europa-league/partido/401915563)** — 21:00 h
+
+Calendario y clasificación en la [página de Europa League](/futbol/europa-league).
+
+## Conference League
+
+- **[CSKA Sofia - Monaco](/futbol/conference-league/partido/401915855)** — 18:45 h
+- **[CSU Craiova - Getafe](/futbol/conference-league/partido/401915854)** — 18:45 h
+- **[Egnatia - Midtjylland](/futbol/conference-league/partido/401915859)** — 18:45 h
+- **[FC Lugano - Red Star](/futbol/conference-league/partido/401915748)** — 18:45 h
+- **[Hajduk Split - Ajax](/futbol/conference-league/partido/401915861)** — 18:45 h
+- **[KAA Gent - AGF](/futbol/conference-league/partido/401915860)** — 18:45 h
+- **[KuPS Kuopio - Trabzonspor](/futbol/conference-league/partido/401915858)** — 18:45 h
+- **[Mjällby - Inter D'Escaldes](/futbol/conference-league/partido/401915857)** — 18:45 h
+- **[Panathinaikos - Borac](/futbol/conference-league/partido/401915856)** — 18:45 h
+- **[Riga FC - Kairat Almaty](/futbol/conference-league/partido/401915747)** — 18:45 h
+- **[Atalanta - Pafos](/futbol/conference-league/partido/401915746)** — 21:00 h
+- **[Brighton - Kauno Zalgiris](/futbol/conference-league/partido/401915853)** — 21:00 h
+- **[København - Braga](/futbol/conference-league/partido/401915852)** — 21:00 h
+- **[FC Twente - FC Thun](/futbol/conference-league/partido/401915851)** — 21:00 h
+- **[Hearts - Nordsjælland](/futbol/conference-league/partido/401915850)** — 21:00 h
+- **[Freiburg - Jablonec](/futbol/conference-league/partido/401915848)** — 21:00 h
+- **[Sint-Truidense - Iberia 1999](/futbol/conference-league/partido/401915849)** — 21:00 h
+- **[SK Brann - Red Imps](/futbol/conference-league/partido/401915847)** — 21:00 h
+
+Calendario y clasificación en la [página de Conference League](/futbol/conference-league).
+
+Todos los horarios están en hora peninsular. Los marcadores se actualizan en directo en cada ficha de partido. Toda la jornada, con marcadores en directo, en [partidos de hoy](/partidos-hoy).`,
+    category: 'tv',
+    kind: 'agenda',
+    competition: {"name":"Europa League","sport":"futbol","slug":"europa-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915573",
+    sourceLang: 'en',
+    publishedAt: '2026-10-15T00:04:41.739Z',
+    modifiedAt: '2026-10-15T00:04:41.739Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/AFAS-Stadion_in_Alkmaar.jpg/1920px-AFAS-Stadion_in_Alkmaar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "AFAS Stadion, escenario del AZ Alkmaar - Hapoel Be'er",
+      credit: "Flodder666 · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
     slug: 'cronica-lens-sporting-401915418',
     title: "Sporting gana fuera 2-0 a Lens y es 2.º",
     summary: "Sporting suma tres puntos ante Lens (2-0) en Champions League y es 2.º con 6 puntos; Lens se queda 19.º.",
