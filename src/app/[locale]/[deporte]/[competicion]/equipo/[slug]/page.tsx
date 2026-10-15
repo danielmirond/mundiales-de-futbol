@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import { setRequestLocale } from 'next-intl/server';
 import { ArrowLeft, Tv, Users, CalendarDays } from 'lucide-react';
@@ -101,6 +102,7 @@ export default async function EquipoPage({ params }: { params: Params }) {
           ...(venue ? { location: { '@type': 'StadiumOrArena', name: venue.name,
             ...(venue.capacity ? { maximumAttendeeCapacity: venue.capacity } : {}),
             ...(venue.location ? { address: venue.location } : {}),
+            ...(venue.photo ? { image: venue.photo.url } : {}),
             ...(venue.lat !== undefined ? { geo: { '@type': 'GeoCoordinates', latitude: venue.lat, longitude: venue.lng } } : {}) } } : {}) },
       ]} />
 
@@ -176,6 +178,25 @@ export default async function EquipoPage({ params }: { params: Params }) {
       {/* Datos del club */}
       <section className="mx-auto w-full max-w-[1400px] px-6 pb-12 md:px-10">
         <div className="kicker">Datos del club</div>
+        {venue?.photo && (
+          <figure className="relative mt-4 overflow-hidden rounded-[18px] border border-[var(--color-border)]">
+            <Image
+              src={venue.photo.url}
+              alt={`${venue.name}, estadio de ${ref.name}`}
+              width={venue.photo.width}
+              height={venue.photo.height}
+              sizes="(min-width: 1400px) 1300px, 100vw"
+              className="aspect-[21/9] w-full object-cover"
+            />
+            <figcaption className="absolute inset-x-0 bottom-0 flex flex-wrap items-end justify-between gap-2 bg-gradient-to-t from-black/80 to-transparent px-5 pb-4 pt-12 text-white">
+              <span>
+                <span className="block text-lg font-semibold">{venue.name}</span>
+                <span className="block text-xs opacity-85">{[venue.location, venue.capacity ? `${venue.capacity.toLocaleString('es-ES')} espectadores` : null, venue.opened ? `inaugurado en ${venue.opened}` : null].filter(Boolean).join(' · ')}</span>
+              </span>
+              <a href={venue.photo.page} target="_blank" rel="noopener nofollow" className="max-w-[60%] truncate font-mono text-[10px] uppercase tracking-[0.12em] opacity-75 hover:opacity-100">Foto: {venue.photo.credit}</a>
+            </figcaption>
+          </figure>
+        )}
         <dl className="mt-4 grid gap-px overflow-hidden rounded-[18px] border border-[var(--color-border)] bg-[var(--color-border)] sm:grid-cols-2 lg:grid-cols-4">
           {[
             ['Estadio', stadium ? `${stadium}${profile.venue?.city ? ` · ${profile.venue.city}` : ''}` : '—'],

@@ -53,7 +53,18 @@
     "opened": 2013,
     "location": "Bilbao",
     "lat": 43.2643,
-    "lng": -2.9504
+    "lng": -2.9504,
+    "photoCheckedAt": "2026-10-15T07:46:56.173Z",
+    "photo": {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Bilbao_San_Mam%C3%A9s_Stadium_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1600,
+     "height": 1064,
+     "credit": "Валерий Дед · CC BY 3.0 · Wikimedia Commons",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Bilbao_San_Mam%C3%A9s_Stadium_4.jpg",
+     "wikidata": "Q182864",
+     "label": "San Mamés Stadium"
+    }
    }
   },
   "soccer:1068": {
@@ -83,7 +94,18 @@
     "opened": 1994,
     "location": "Madrid",
     "lat": 40.436111,
-    "lng": -3.599444
+    "lng": -3.599444,
+    "photoCheckedAt": "2026-10-15T07:46:57.719Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Wanda-Metropolitano.jpg/1920px-Wanda-Metropolitano.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 776,
+     "credit": "Fernandopascullo · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Wanda-Metropolitano.jpg",
+     "wikidata": "Q1369687",
+     "label": "Metropolitano Stadium"
+    }
    }
   },
   "soccer:83": {
@@ -110,7 +132,18 @@
     "opened": 1957,
     "location": "Barcelona",
     "lat": 41.380833,
-    "lng": 2.122778
+    "lng": 2.122778,
+    "photoCheckedAt": "2026-10-15T07:47:02.443Z",
+    "photo": {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Camp_Nou_aerial_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1600,
+     "height": 1039,
+     "credit": "Oh-Barcelona.com from Barcelona, Spain · CC BY 2.0 · Wikimedia Commons",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Camp_Nou_aerial_(cropped).jpg",
+     "wikidata": "Q159848",
+     "label": "Camp Nou"
+    }
    }
   },
   "soccer:85": {
@@ -167,7 +200,18 @@
     "opened": 1942,
     "location": "A Coruña, Galicia",
     "lat": 43.3687,
-    "lng": -8.4175
+    "lng": -8.4175,
+    "photoCheckedAt": "2026-10-15T07:47:07.158Z",
+    "photo": {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Estadio_de_Riazor.A_Corunha.Galiza.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1600,
+     "height": 1200,
+     "credit": "Albert galiza · CC BY-SA 3.0 · Wikimedia Commons",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Estadio_de_Riazor.A_Corunha.Galiza.jpg",
+     "wikidata": "Q22130",
+     "label": "Estadio de Abanca Riazor"
+    }
    }
   },
   "soccer:3751": {
@@ -324,7 +368,8 @@
     "opened": 1967,
     "location": "Pamplona, Navarre",
     "lat": 42.796667,
-    "lng": -1.636944
+    "lng": -1.636944,
+    "photoCheckedAt": "2026-10-15T07:47:10.071Z"
    }
   },
   "soccer:87": {
@@ -397,7 +442,18 @@
     "opened": 1999,
     "location": "Seville",
     "lat": 37.417236,
-    "lng": -6.004564
+    "lng": -6.004564,
+    "photoCheckedAt": "2026-10-15T07:47:13.800Z",
+    "photo": {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Panoramio_-_V%26A_Dudush_-_Estadio_Ol%C3%ADmpico_57_619.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1600,
+     "height": 1062,
+     "credit": "V&amp;A Dudush · CC BY 3.0 · Wikimedia Commons",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Panoramio_-_V%26A_Dudush_-_Estadio_Ol%C3%ADmpico_57_619.jpg",
+     "wikidata": "Q368737",
+     "label": "Estadio Olímpico de La Cartuja"
+    }
    }
   },
   "soccer:86": {
@@ -679,7 +735,8 @@
     "opened": 2005,
     "location": "Rowleys Green, Coventry",
     "lat": 52.448056,
-    "lng": -1.495556
+    "lng": -1.495556,
+    "photoCheckedAt": "2026-10-15T07:47:20.086Z"
    }
   },
   "soccer:384": {
@@ -729,7 +786,18 @@
     "opened": 2025,
     "location": "Liverpool, England",
     "lat": 53.4251,
-    "lng": -3.0028
+    "lng": -3.0028,
+    "photoCheckedAt": "2026-10-15T07:47:43.434Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Project_366_-217_040824_Approaching_Lift_Off_%2853902389448%29.jpg/1920px-Project_366_-217_040824_Approaching_Lift_Off_%2853902389448%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1067,
+     "credit": "Pete from Liverpool, UK · CC BY 2.0 · Wikimedia Commons",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Project_366_-217_040824_Approaching_Lift_Off_(53902389448).jpg",
+     "wikidata": "Q29347805",
+     "label": "Hill Dickinson Stadium"
+    }
    }
   },
   "soccer:370": {
@@ -779,7 +847,8 @@
     "opened": 2002,
     "location": "Hull, East Riding of Yorkshire",
     "lat": 53.746111,
-    "lng": -0.367778
+    "lng": -0.367778,
+    "photoCheckedAt": "2026-10-15T07:47:56.606Z"
    }
   },
   "soccer:373": {
@@ -803,7 +872,18 @@
     "opened": 1884,
     "location": "Ipswich",
     "lat": 52.055,
-    "lng": 1.144722
+    "lng": 1.144722,
+    "photoCheckedAt": "2026-10-15T07:47:59.640Z",
+    "photo": {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Cobbold_Stand%2C_Ipswich_Town_Football_Club_8418.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1600,
+     "height": 1137,
+     "credit": "Wikimedia Commons · CC BY-SA 2.0 · Wikimedia Commons",
+     "license": "CC BY-SA 2.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Cobbold_Stand,_Ipswich_Town_Football_Club_8418.jpg",
+     "wikidata": "Q619558",
+     "label": "Portman Road"
+    }
    }
   },
   "soccer:357": {
@@ -924,7 +1004,8 @@
     "opened": 1892,
     "location": "Newcastle upon Tyne",
     "lat": 54.9756,
-    "lng": 1.6216
+    "lng": 1.6216,
+    "photoCheckedAt": "2026-10-15T07:48:01.962Z"
    }
   },
   "soccer:393": {
@@ -977,7 +1058,8 @@
     "opened": 2019,
     "location": "Tottenham, London",
     "lat": 51.604444,
-    "lng": -0.066389
+    "lng": -0.066389,
+    "photoCheckedAt": "2026-10-15T07:48:09.978Z"
    }
   },
   "soccer:103": {
@@ -1032,7 +1114,18 @@
     "opened": 1928,
     "location": "Rome",
     "lat": 41.933889,
-    "lng": 12.454722
+    "lng": 12.454722,
+    "photoCheckedAt": "2026-10-15T07:48:16.107Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Stadio_Olimpico_2024.jpg/1920px-Stadio_Olimpico_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 809,
+     "credit": "Messapi, cropped by Blackcat · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Stadio_Olimpico_2024.jpg",
+     "wikidata": "Q159884",
+     "label": "Estadio Olímpico de Roma"
+    }
    }
   },
   "soccer:105": {
@@ -1284,7 +1377,18 @@
     "opened": 1928,
     "location": "Rome",
     "lat": 41.933889,
-    "lng": 12.454722
+    "lng": 12.454722,
+    "photoCheckedAt": "2026-10-15T07:48:16.107Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Stadio_Olimpico_2024.jpg/1920px-Stadio_Olimpico_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 809,
+     "credit": "Messapi, cropped by Blackcat · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Stadio_Olimpico_2024.jpg",
+     "wikidata": "Q159884",
+     "label": "Estadio Olímpico de Roma"
+    }
    }
   },
   "soccer:113": {
@@ -1569,7 +1673,18 @@
     "opened": 2005,
     "location": "Munich, Germany",
     "lat": 48.218775,
-    "lng": 11.624752777778
+    "lng": 11.624752777778,
+    "photoCheckedAt": "2026-10-15T07:48:28.179Z",
+    "photo": {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/M%C3%BCnchen_-_Allianz-Arena_%28Luftbild%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1600,
+     "height": 906,
+     "credit": "Maximilian Dörrbecker (Chumwa) · CC BY-SA 2.5 · Wikimedia Commons",
+     "license": "CC BY-SA 2.5",
+     "page": "https://commons.wikimedia.org/wiki/File:M%C3%BCnchen_-_Allianz-Arena_(Luftbild).jpg",
+     "wikidata": "Q127429",
+     "label": "Allianz Arena"
+    }
    }
   },
   "soccer:124": {
@@ -1597,7 +1712,8 @@
     "opened": 1974,
     "location": "Dortmund",
     "lat": 51.4925,
-    "lng": 7.451667
+    "lng": 7.451667,
+    "photoCheckedAt": "2026-10-15T07:49:03.819Z"
    }
   },
   "soccer:268": {
@@ -1625,7 +1741,8 @@
     "opened": 2002,
     "location": "Mönchengladbach",
     "lat": 51.174636,
-    "lng": 6.385412
+    "lng": 6.385412,
+    "photoCheckedAt": "2026-10-15T07:49:05.622Z"
    }
   },
   "soccer:125": {
@@ -1656,7 +1773,8 @@
     "opened": 1925,
     "location": "Frankfurt",
     "lat": 50.068056,
-    "lng": 8.645806
+    "lng": 8.645806,
+    "photoCheckedAt": "2026-10-15T07:49:07.983Z"
    }
   },
   "soccer:3841": {
@@ -1836,7 +1954,18 @@
     "opened": 2008,
     "location": "Paderborn",
     "lat": 51.730833,
-    "lng": 8.711111
+    "lng": 8.711111,
+    "photoCheckedAt": "2026-10-15T07:49:11.136Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Benteler-Arena_%2817107125877%29.jpg/1920px-Benteler-Arena_%2817107125877%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 586,
+     "credit": "Ungry Young Man from Vienna, Austria · CC BY 2.0 · Wikimedia Commons",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Benteler-Arena_(17107125877).jpg",
+     "wikidata": "Q567402",
+     "label": "Home Deluxe Arena"
+    }
    }
   },
   "soccer:10388": {
@@ -1863,7 +1992,8 @@
     "opened": 1983,
     "location": "Spiesen-Elversberg",
     "lat": 49.31881,
-    "lng": 7.121712
+    "lng": 7.121712,
+    "photoCheckedAt": "2026-10-15T07:49:13.917Z"
    }
   },
   "soccer:133": {
@@ -2246,7 +2376,8 @@
     "opened": 1925,
     "location": "Paris, France",
     "lat": 48.843056,
-    "lng": 2.252778
+    "lng": 2.252778,
+    "photoCheckedAt": "2026-10-15T07:49:16.395Z"
    }
   },
   "soccer:160": {
@@ -2343,7 +2474,18 @@
     "opened": 1924,
     "location": "Troyes",
     "lat": 48.307561,
-    "lng": 4.098458
+    "lng": 4.098458,
+    "photoCheckedAt": "2026-10-15T07:49:17.978Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Stade_de_l%27Aube.jpg/1920px-Stade_de_l%27Aube.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 454,
+     "credit": "TaraO · CC BY 2.5 · Wikimedia Commons",
+     "license": "CC BY 2.5",
+     "page": "https://commons.wikimedia.org/wiki/File:Stade_de_l%27Aube.jpg",
+     "wikidata": "Q2001732",
+     "label": "Stade de l'Aube"
+    }
    }
   },
   "soccer:2737": {
@@ -2676,7 +2818,8 @@
     "opened": 1998,
     "location": "Leganés, Madrid",
     "lat": 40.3404,
-    "lng": -3.7607
+    "lng": -3.7607,
+    "photoCheckedAt": "2026-10-15T07:49:19.695Z"
    }
   },
   "soccer:84": {
@@ -2929,7 +3072,18 @@
     "opened": 1994,
     "location": "Cleveland, OH",
     "lat": 41.496389,
-    "lng": -81.688056
+    "lng": -81.688056,
+    "photoCheckedAt": "2026-10-15T07:49:23.366Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Rocket_Mortgage_FieldHouse_%282%29.jpg/1920px-Rocket_Mortgage_FieldHouse_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1200,
+     "credit": "Cards84664 · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Rocket_Mortgage_FieldHouse_(2).jpg",
+     "wikidata": "Q387157",
+     "label": "Rocket Arena"
+    }
    }
   },
   "basketball:6": {
@@ -3219,7 +3373,18 @@
     "opened": 1964,
     "location": "New York City, New York",
     "lat": 40.750556,
-    "lng": -73.993611
+    "lng": -73.993611,
+    "photoCheckedAt": "2026-10-15T07:49:25.835Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Madison_Square_Garden_%28MSG%29_-_Full_%2848124330357%29.jpg/1920px-Madison_Square_Garden_%28MSG%29_-_Full_%2848124330357%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 900,
+     "credit": "Ajay Suresh from New York, NY, USA · CC BY 2.0 · Wikimedia Commons",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Madison_Square_Garden_(MSG)_-_Full_(48124330357).jpg",
+     "wikidata": "Q186125",
+     "label": "Madison Square Garden"
+    }
    }
   },
   "basketball:25": {
@@ -3292,7 +3457,8 @@
     "opened": 1996,
     "location": "Philadelphia, PA",
     "lat": 39.901111,
-    "lng": -75.171944
+    "lng": -75.171944,
+    "photoCheckedAt": "2026-10-15T07:49:27.056Z"
    }
   },
   "basketball:21": {
@@ -3323,7 +3489,18 @@
     "opened": 1992,
     "location": "Phoenix, AZ",
     "lat": 33.445833,
-    "lng": -112.071389
+    "lng": -112.071389,
+    "photoCheckedAt": "2026-10-15T07:49:29.615Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Footprint_Center_2022.jpg/1920px-Footprint_Center_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 930,
+     "credit": "Troutfarm27 · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Footprint_Center_2022.jpg",
+     "wikidata": "Q1538690",
+     "label": "Mortgage Matchup Center"
+    }
    }
   },
   "basketball:22": {
@@ -3415,7 +3592,18 @@
     "opened": 1999,
     "location": "Toronto, Ontario",
     "lat": 43.643333,
-    "lng": -79.379167
+    "lng": -79.379167,
+    "photoCheckedAt": "2026-10-15T07:49:31.979Z",
+    "photo": {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Air_Canada_Centre_and_CN_Tower_from_Bay_St.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1600,
+     "height": 1200,
+     "credit": "Secondarywaltz · Public domain · Wikimedia Commons",
+     "license": "Public domain",
+     "page": "https://commons.wikimedia.org/wiki/File:Air_Canada_Centre_and_CN_Tower_from_Bay_St.jpg",
+     "wikidata": "Q406972",
+     "label": "Scotiabank Arena"
+    }
    }
   },
   "basketball:26": {
@@ -3569,7 +3757,18 @@
     "opened": 2011,
     "location": "Kaunas",
     "lat": 54.890278,
-    "lng": 23.914444
+    "lng": 23.914444,
+    "photoCheckedAt": "2026-10-15T07:49:33.750Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/%C5%BDalgiris_Arena_interior_18_Aug_2011.jpg/1920px-%C5%BDalgiris_Arena_interior_18_Aug_2011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1068,
+     "credit": "Meier · CC BY-SA 3.0 · Wikimedia Commons",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/wiki/File:%C5%BDalgiris_Arena_interior_18_Aug_2011.jpg",
+     "wikidata": "Q393353",
+     "label": "Žalgiris Arena"
+    }
    }
   },
   "soccer:21378": {
@@ -3607,7 +3806,18 @@
     "opened": 1994,
     "location": "Madrid",
     "lat": 40.436111,
-    "lng": -3.599444
+    "lng": -3.599444,
+    "photoCheckedAt": "2026-10-15T07:49:33.751Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Wanda-Metropolitano.jpg/1920px-Wanda-Metropolitano.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 776,
+     "credit": "Fernandopascullo · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Wanda-Metropolitano.jpg",
+     "wikidata": "Q1369687",
+     "label": "Metropolitano Stadium"
+    }
    }
   },
   "soccer:20091": {
@@ -3634,7 +3844,18 @@
     "opened": 1957,
     "location": "Barcelona",
     "lat": 41.380833,
-    "lng": 2.122778
+    "lng": 2.122778,
+    "photoCheckedAt": "2026-10-15T07:49:33.751Z",
+    "photo": {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Camp_Nou_aerial_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1600,
+     "height": 1039,
+     "credit": "Oh-Barcelona.com from Barcelona, Spain · CC BY 2.0 · Wikimedia Commons",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Camp_Nou_aerial_(cropped).jpg",
+     "wikidata": "Q159848",
+     "label": "Camp Nou"
+    }
    }
   },
   "soccer:131393": {
@@ -3901,7 +4122,8 @@
     "opened": 2022,
     "location": "Nea Filadelfeia, Athens",
     "lat": 38.0371,
-    "lng": 23.7416
+    "lng": 23.7416,
+    "photoCheckedAt": "2026-10-15T07:49:35.284Z"
    }
   },
   "soccer:2980": {
@@ -3934,7 +4156,18 @@
     "opened": 1975,
     "location": "Sint-Andries, Bruges",
     "lat": 51.193333,
-    "lng": 3.180556
+    "lng": 3.180556,
+    "photoCheckedAt": "2026-10-15T07:49:37.243Z",
+    "photo": {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Panoramio_-_V%26A_Dudush_-_Jan_Breydel_Stadion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1600,
+     "height": 1065,
+     "credit": "V&amp;A Dudush · CC BY 3.0 · Wikimedia Commons",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Panoramio_-_V%26A_Dudush_-_Jan_Breydel_Stadion.jpg",
+     "wikidata": "Q1070150",
+     "label": "Estadio Jan Breydel"
+    }
    }
   },
   "soccer:437": {
@@ -3966,7 +4199,18 @@
     "opened": 1908,
     "location": "Kadıköy, Istanbul",
     "lat": 40.987778,
-    "lng": 29.036944
+    "lng": 29.036944,
+    "photoCheckedAt": "2026-10-15T07:49:39.873Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Sukrusaracoglu.jpg/1920px-Sukrusaracoglu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1066,
+     "credit": "Anl55400 · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Sukrusaracoglu.jpg",
+     "wikidata": "Q222865",
+     "label": "estadio Şükrü Saracoğlu"
+    }
    }
   },
   "soccer:142": {
@@ -3993,7 +4237,8 @@
     "opened": 1935,
     "location": "Rotterdam",
     "lat": 51.893889,
-    "lng": 4.523056
+    "lng": 4.523056,
+    "photoCheckedAt": "2026-10-15T07:49:41.468Z"
    }
   },
   "soccer:432": {
@@ -4021,7 +4266,18 @@
     "opened": 2011,
     "location": "Kâğıthane, Istanbul",
     "lat": 41.102778,
-    "lng": 28.990556
+    "lng": 28.990556,
+    "photoCheckedAt": "2026-10-15T07:49:43.027Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Galatasaray_Arena_North-West_Corner.jpg/1920px-Galatasaray_Arena_North-West_Corner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 900,
+     "credit": "1886kusagi · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Galatasaray_Arena_North-West_Corner.jpg",
+     "wikidata": "Q81492",
+     "label": "Türk Telekom Arena"
+    }
    }
   },
   "soccer:4411": {
@@ -4051,7 +4307,18 @@
     "opened": 2023,
     "location": "Linz",
     "lat": 48.293639,
-    "lng": 14.276667
+    "lng": 14.276667,
+    "photoCheckedAt": "2026-10-15T07:49:45.323Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Raiffeisen_Arena%2C_Linz_%28P1130984%29.jpg/1920px-Raiffeisen_Arena%2C_Linz_%28P1130984%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1067,
+     "credit": "Matti Blume · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Raiffeisen_Arena,_Linz_(P1130984).jpg",
+     "wikidata": "Q116693275",
+     "label": "Raiffeisen Arena"
+    }
    }
   },
   "soccer:148": {
@@ -4079,7 +4346,18 @@
     "opened": 1910,
     "location": "Eindhoven",
     "lat": 51.441667,
-    "lng": 5.466944
+    "lng": 5.466944,
+    "photoCheckedAt": "2026-10-15T07:49:52.176Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Philips_Stadion.jpg/1920px-Philips_Stadion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 551,
+     "credit": "TaraO · CC BY 2.5 · Wikimedia Commons",
+     "license": "CC BY 2.5",
+     "page": "https://commons.wikimedia.org/wiki/File:Philips_Stadion.jpg",
+     "wikidata": "Q500972",
+     "label": "Philips Stadion"
+    }
    }
   },
   "soccer:21922": {
@@ -4132,7 +4410,18 @@
     "opened": 2011,
     "location": "Lviv",
     "lat": 49.775278,
-    "lng": 24.027778
+    "lng": 24.027778,
+    "photoCheckedAt": "2026-10-15T07:49:53.866Z",
+    "photo": {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Arena_Lviv_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1600,
+     "height": 1200,
+     "credit": "On tour · CC BY-SA 3.0 · Wikimedia Commons",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Arena_Lviv_5.jpg",
+     "wikidata": "Q215399",
+     "label": "Arena Lviv"
+    }
    }
   },
   "soccer:494": {
@@ -4161,7 +4450,18 @@
     "opened": 2008,
     "location": "Vršovice, Prague",
     "lat": 50.0675,
-    "lng": 14.4715
+    "lng": 14.4715,
+    "photoCheckedAt": "2026-10-15T07:49:55.779Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Synot_Tip_Arena_-_Viktoria_Plzen_-_FC_Barcelona_0-4.jpg/1920px-Synot_Tip_Arena_-_Viktoria_Plzen_-_FC_Barcelona_0-4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 843,
+     "credit": "Markus Unger from Vienna, Austria · CC BY 2.0 · Wikimedia Commons",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Synot_Tip_Arena_-_Viktoria_Plzen_-_FC_Barcelona_0-4.jpg",
+     "wikidata": "Q64858",
+     "label": "Eden Arena"
+    }
    }
   },
   "soccer:521": {
@@ -4188,7 +4488,8 @@
     "opened": 2019,
     "location": "Bratislava",
     "lat": 48.163558,
-    "lng": 17.136856
+    "lng": 17.136856,
+    "photoCheckedAt": "2026-10-15T07:49:58.963Z"
    }
   },
   "soccer:2250": {
@@ -4260,7 +4561,8 @@
     "opened": 2006,
     "location": "Glendale, Arizona",
     "lat": 33.528,
-    "lng": -112.263
+    "lng": -112.263,
+    "photoCheckedAt": "2026-10-15T07:50:00.612Z"
    }
   },
   "football:1": {
@@ -4334,7 +4636,8 @@
     "opened": 2026,
     "location": "Orchard Park, NY",
     "lat": 42.773056,
-    "lng": -78.792222
+    "lng": -78.792222,
+    "photoCheckedAt": "2026-10-15T07:50:02.197Z"
    }
   },
   "football:29": {
@@ -4435,7 +4738,18 @@
     "opened": 1999,
     "location": "Cleveland, Ohio",
     "lat": 41.506111,
-    "lng": -81.699444
+    "lng": -81.699444,
+    "photoCheckedAt": "2026-10-15T07:50:04.518Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Cleveland_National_Air_Show_%2843805784984%29.jpg/1920px-Cleveland_National_Air_Show_%2843805784984%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1067,
+     "credit": "Erik Drost · CC BY 2.0 · Wikimedia Commons",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Cleveland_National_Air_Show_(43805784984).jpg",
+     "wikidata": "Q1100756",
+     "label": "FirstEnergy Stadium"
+    }
    }
   },
   "football:6": {
@@ -4481,7 +4795,8 @@
     "opened": 2001,
     "location": "Denver, Colorado, USA",
     "lat": 39.7392,
-    "lng": -104.9849
+    "lng": -104.9849,
+    "photoCheckedAt": "2026-10-15T07:50:06.876Z"
    }
   },
   "football:8": {
@@ -4627,7 +4942,18 @@
     "opened": 1972,
     "location": "Kansas City, Missouri, United States",
     "lat": 39.048889,
-    "lng": -94.483889
+    "lng": -94.483889,
+    "photoCheckedAt": "2026-10-15T07:50:09.159Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Aerial_view_of_Arrowhead_Stadium_08-31-2013.jpg/1920px-Aerial_view_of_Arrowhead_Stadium_08-31-2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1060,
+     "credit": "Ichabod · CC BY-SA 3.0 · Wikimedia Commons",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Arrowhead_Stadium_08-31-2013.jpg",
+     "wikidata": "Q544553",
+     "label": "Arrowhead Stadium"
+    }
    }
   },
   "football:13": {
@@ -4673,7 +4999,18 @@
     "opened": 2020,
     "location": "Inglewood, CA",
     "lat": 33.953,
-    "lng": -118.339
+    "lng": -118.339,
+    "photoCheckedAt": "2026-10-15T07:50:11.137Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/SoFi_Stadium_%2851126606022%29.jpg/1920px-SoFi_Stadium_%2851126606022%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1067,
+     "credit": "Thank You (21 Millions+) views · CC BY 2.0 · Wikimedia Commons",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/wiki/File:SoFi_Stadium_(51126606022).jpg",
+     "wikidata": "Q19520501",
+     "label": "SoFi Stadium"
+    }
    }
   },
   "football:14": {
@@ -4697,7 +5034,18 @@
     "opened": 2020,
     "location": "Inglewood, CA",
     "lat": 33.953,
-    "lng": -118.339
+    "lng": -118.339,
+    "photoCheckedAt": "2026-10-15T07:50:11.137Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/SoFi_Stadium_%2851126606022%29.jpg/1920px-SoFi_Stadium_%2851126606022%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1067,
+     "credit": "Thank You (21 Millions+) views · CC BY 2.0 · Wikimedia Commons",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/wiki/File:SoFi_Stadium_(51126606022).jpg",
+     "wikidata": "Q19520501",
+     "label": "SoFi Stadium"
+    }
    }
   },
   "football:15": {
@@ -4818,7 +5166,18 @@
     "opened": 2010,
     "location": "East Rutherford, New Jersey",
     "lat": 40.813611,
-    "lng": -74.074444
+    "lng": -74.074444,
+    "photoCheckedAt": "2026-10-15T07:50:12.911Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/New_Meadowlands_Stadium_Mezz_Corner.jpg/1920px-New_Meadowlands_Stadium_Mezz_Corner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1063,
+     "credit": "babyknight · CC BY 2.0 · Wikimedia Commons",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/wiki/File:New_Meadowlands_Stadium_Mezz_Corner.jpg",
+     "wikidata": "Q10862290",
+     "label": "MetLife Stadium"
+    }
    }
   },
   "football:20": {
@@ -4845,7 +5204,18 @@
     "opened": 2010,
     "location": "East Rutherford, New Jersey",
     "lat": 40.813611,
-    "lng": -74.074444
+    "lng": -74.074444,
+    "photoCheckedAt": "2026-10-15T07:50:12.911Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/New_Meadowlands_Stadium_Mezz_Corner.jpg/1920px-New_Meadowlands_Stadium_Mezz_Corner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1063,
+     "credit": "babyknight · CC BY 2.0 · Wikimedia Commons",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/wiki/File:New_Meadowlands_Stadium_Mezz_Corner.jpg",
+     "wikidata": "Q10862290",
+     "label": "MetLife Stadium"
+    }
    }
   },
   "football:21": {
@@ -4894,7 +5264,18 @@
     "opened": 2001,
     "location": "Pittsburgh, Pennsylvania, USA",
     "lat": 40.446667,
-    "lng": -80.015833
+    "lng": -80.015833,
+    "photoCheckedAt": "2026-10-15T07:50:14.675Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Ptr-HeinzField-FILE.jpg/1920px-Ptr-HeinzField-FILE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 872,
+     "credit": "Fo2grfr · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Ptr-HeinzField-FILE.jpg",
+     "wikidata": "Q1067148",
+     "label": "Acrisure Stadium"
+    }
    }
   },
   "football:25": {
@@ -4918,7 +5299,18 @@
     "opened": 2014,
     "location": "Santa Clara, California, USA",
     "lat": 37.4033165,
-    "lng": -121.9719523
+    "lng": -121.9719523,
+    "photoCheckedAt": "2026-10-15T07:50:16.300Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Levi%27s_Stadium_interior_1.jpg/1920px-Levi%27s_Stadium_interior_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1067,
+     "credit": "Matthew Roth · CC BY-SA 2.0 · Wikimedia Commons",
+     "license": "CC BY-SA 2.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Levi%27s_Stadium_interior_1.jpg",
+     "wikidata": "Q7419343",
+     "label": "Levi's Stadium"
+    }
    }
   },
   "football:26": {
@@ -5019,7 +5411,18 @@
     "opened": 1997,
     "location": "Landover, Maryland, USA",
     "lat": 38.907778,
-    "lng": -76.864444
+    "lng": -76.864444,
+    "photoCheckedAt": "2026-10-15T07:50:17.937Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Commanders_vs_Giants_%2853345178211%29.jpg/1920px-Commanders_vs_Giants_%2853345178211%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1068,
+     "credit": "Maryland GovPics · CC BY 2.0 · Wikimedia Commons",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Commanders_vs_Giants_(53345178211).jpg",
+     "wikidata": "Q583085",
+     "label": "Northwest Stadium"
+    }
    }
   },
   "soccer:2726": {
@@ -5068,7 +5471,18 @@
     "opened": 2006,
     "location": "Alkmaar, Netherlands",
     "lat": 52.6125,
-    "lng": 4.741667
+    "lng": 4.741667,
+    "photoCheckedAt": "2026-10-15T07:50:19.557Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Vooraanzicht_AFAS_Stadion_april2022.jpg/1920px-Vooraanzicht_AFAS_Stadion_april2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 900,
+     "credit": "Jesperverbruggen · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Vooraanzicht_AFAS_Stadion_april2022.jpg",
+     "wikidata": "Q291590",
+     "label": "AFAS Stadion"
+    }
    }
   },
   "soccer:139": {
@@ -5096,7 +5510,18 @@
     "opened": 1996,
     "location": "Amsterdam",
     "lat": 52.314167,
-    "lng": 4.941944
+    "lng": 4.941944,
+    "photoCheckedAt": "2026-10-15T07:50:24.151Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Arena%2C_Ajax_stadion%2C_Amsterdam.JPG/1920px-Arena%2C_Ajax_stadion%2C_Amsterdam.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1200,
+     "credit": "Alf van Beem · CC0 · Wikimedia Commons",
+     "license": "CC0",
+     "page": "https://commons.wikimedia.org/wiki/File:Arena,_Ajax_stadion,_Amsterdam.JPG",
+     "wikidata": "Q207109",
+     "label": "Johan Cruijff Arena"
+    }
    }
   },
   "soccer:2566": {
@@ -5120,7 +5545,18 @@
     "opened": 1902,
     "location": "Rotterdam",
     "lat": 51.916944,
-    "lng": 4.520556
+    "lng": 4.520556,
+    "photoCheckedAt": "2026-10-15T07:50:27.394Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Rotterdam_stadion_woudestein.jpg/1920px-Rotterdam_stadion_woudestein.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 928,
+     "credit": "Wikifrits · Public domain · Wikimedia Commons",
+     "license": "Public domain",
+     "page": "https://commons.wikimedia.org/wiki/File:Rotterdam_stadion_woudestein.jpg",
+     "wikidata": "Q2298643",
+     "label": "Stadion Woudestein"
+    }
    }
   },
   "soccer:145": {
@@ -5151,7 +5587,18 @@
     "opened": 1998,
     "location": "Enschede",
     "lat": 52.236667,
-    "lng": 6.8375
+    "lng": 6.8375,
+    "photoCheckedAt": "2026-10-15T07:50:29.010Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Grolsch_Veste_wedstrijd.JPG/1920px-Grolsch_Veste_wedstrijd.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1200,
+     "credit": "Mark92 at nl.wikipedia · CC BY-SA 3.0 · Wikimedia Commons",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Grolsch_Veste_wedstrijd.JPG",
+     "wikidata": "Q727389",
+     "label": "De Grolsch Veste"
+    }
    }
   },
   "soccer:153": {
@@ -5175,7 +5622,18 @@
     "opened": 1936,
     "location": "Utrecht",
     "lat": 52.078333,
-    "lng": 5.145833
+    "lng": 5.145833,
+    "photoCheckedAt": "2026-10-15T07:50:30.964Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Stadion_FC_Utrecht_-_Bunnikside.jpg/1920px-Stadion_FC_Utrecht_-_Bunnikside.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1197,
+     "credit": "Kevertje77 at Dutch Wikipedia · CC BY-SA 3.0 · Wikimedia Commons",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Stadion_FC_Utrecht_-_Bunnikside.jpg",
+     "wikidata": "Q1675996",
+     "label": "Estadio Galgenwaard"
+    }
    }
   },
   "soccer:143": {
@@ -5199,7 +5657,18 @@
     "opened": 1999,
     "location": "Sittard",
     "lat": 50.991944,
-    "lng": 5.843611
+    "lng": 5.843611,
+    "photoCheckedAt": "2026-10-15T07:50:32.850Z",
+    "photo": {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Stadion_Sittard_Rapsstroh_pressen.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1600,
+     "height": 1067,
+     "credit": "Weiderinder.de.vu · Public domain · Wikimedia Commons",
+     "license": "Public domain",
+     "page": "https://commons.wikimedia.org/wiki/File:Stadion_Sittard_Rapsstroh_pressen.JPG",
+     "wikidata": "Q1569222",
+     "label": "Fortuna Sittard Stadion"
+    }
    }
   },
   "soccer:3706": {
@@ -5227,7 +5696,18 @@
     "opened": 1920,
     "location": "Deventer",
     "lat": 52.260278,
-    "lng": 6.1725
+    "lng": 6.1725,
+    "photoCheckedAt": "2026-10-15T07:50:34.902Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Adelaarshorst-uitvak.jpg/1920px-Adelaarshorst-uitvak.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1200,
+     "credit": "Kevster · CC BY 3.0 · Wikimedia Commons",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Adelaarshorst-uitvak.jpg",
+     "wikidata": "Q777926",
+     "label": "Adelaarshorst Stadion"
+    }
    }
   },
   "soccer:146": {
@@ -5251,7 +5731,18 @@
     "opened": 1993,
     "location": "Heerenveen",
     "lat": 52.958611,
-    "lng": 5.936111
+    "lng": 5.936111,
+    "photoCheckedAt": "2026-10-15T07:50:40.634Z",
+    "photo": {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Abe_Lenstra_Stadion_08c.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1600,
+     "height": 898,
+     "credit": "Udo Ockema · CC BY 2.5 · Wikimedia Commons",
+     "license": "CC BY 2.5",
+     "page": "https://commons.wikimedia.org/wiki/File:Abe_Lenstra_Stadion_08c.JPG",
+     "wikidata": "Q318125",
+     "label": "Abe Lenstra Stadion"
+    }
    }
   },
   "soccer:147": {
@@ -5279,7 +5770,18 @@
     "opened": 1939,
     "location": "Nijmegen",
     "lat": 51.8225,
-    "lng": 5.836667
+    "lng": 5.836667,
+    "photoCheckedAt": "2026-10-15T07:50:42.621Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Goffertstadion_tijdens_een_wedstrijd.jpg/1920px-Goffertstadion_tijdens_een_wedstrijd.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 900,
+     "credit": "Justinrtw5 · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Goffertstadion_tijdens_een_wedstrijd.jpg",
+     "wikidata": "Q720983",
+     "label": "Goffert Stadion"
+    }
    }
   },
   "soccer:2565": {
@@ -5308,7 +5810,8 @@
     "opened": 2007,
     "location": "Zwolle",
     "lat": 52.517292,
-    "lng": 6.121911
+    "lng": 6.121911,
+    "photoCheckedAt": "2026-10-15T07:50:44.511Z"
    }
   },
   "soccer:3736": {
@@ -5357,7 +5860,18 @@
     "opened": 1916,
     "location": "Rotterdam",
     "lat": 51.919444,
-    "lng": 4.433333
+    "lng": 4.433333,
+    "photoCheckedAt": "2026-10-15T07:50:47.317Z",
+    "photo": {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/SpartaKasteel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1600,
+     "height": 1136,
+     "credit": "Hanhil at Dutch Wikipedia · CC BY-SA 3.0 · Wikimedia Commons",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/wiki/File:SpartaKasteel.jpg",
+     "wikidata": "Q668094",
+     "label": "Sparta Stadion Het Kasteel"
+    }
    }
   },
   "soccer:3735": {
@@ -5378,7 +5892,18 @@
     "opened": 1948,
     "location": "Velsen-Zuid",
     "lat": 52.455,
-    "lng": 4.635
+    "lng": 4.635,
+    "photoCheckedAt": "2026-10-15T07:50:48.867Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/02_juni_2025_IP_Images_-Telstar-01.jpg/1920px-02_juni_2025_IP_Images_-Telstar-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1067,
+     "credit": "IPimages.nl · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:02_juni_2025_IP_Images_-Telstar-01.jpg",
+     "wikidata": "Q1851894",
+     "label": "BUKO Stadion"
+    }
    }
   },
   "soccer:156": {
@@ -5402,7 +5927,8 @@
     "opened": 1920,
     "location": "Tilburg, Netherlands",
     "lat": 51,
-    "lng": 5
+    "lng": 5,
+    "photoCheckedAt": "2026-10-15T07:50:50.746Z"
    }
   },
   "soccer:21607": {
@@ -5430,7 +5956,8 @@
     "opened": 1928,
     "location": "Viseu",
     "lat": 40.659444,
-    "lng": -7.900833
+    "lng": -7.900833,
+    "photoCheckedAt": "2026-10-15T07:50:52.117Z"
    }
   },
   "soccer:21613": {
@@ -5443,7 +5970,8 @@
     "opened": 1992,
     "location": "Alverca, Portugal",
     "lat": 38.89790604526667,
-    "lng": -9.035002981617383
+    "lng": -9.035002981617383,
+    "photoCheckedAt": "2026-10-15T07:51:06.176Z"
    }
   },
   "soccer:15784": {
@@ -5492,7 +6020,18 @@
     "opened": 2003,
     "location": "Lisbon",
     "lat": 38.7528,
-    "lng": -9.1847
+    "lng": -9.1847,
+    "photoCheckedAt": "2026-10-15T07:51:08.148Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/LuzLissabon.jpg/1920px-LuzLissabon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 583,
+     "credit": "Massimo Catarinella · CC BY 3.0 · Wikimedia Commons",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/wiki/File:LuzLissabon.jpg",
+     "wikidata": "Q7875112",
+     "label": "Estádio da Luz"
+    }
    }
   },
   "soccer:2994": {
@@ -5521,7 +6060,8 @@
     "opened": 2003,
     "location": "Braga",
     "lat": 41.5625,
-    "lng": -8.4299
+    "lng": -8.4299,
+    "photoCheckedAt": "2026-10-15T07:51:09.772Z"
    }
   },
   "soccer:3472": {
@@ -5542,7 +6082,18 @@
     "opened": 2003,
     "location": "Rio Maior",
     "lat": 39.344444,
-    "lng": -8.935278
+    "lng": -8.935278,
+    "photoCheckedAt": "2026-10-15T07:51:11.844Z",
+    "photo": {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Rio_Maior.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1600,
+     "height": 1200,
+     "credit": "Vitor Oliveira from Torres Vedras, PORTUGAL · CC BY 2.0 · Wikimedia Commons",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Rio_Maior.jpg",
+     "wikidata": "Q2990539",
+     "label": "Estádio Municipal de Rio Maior"
+    }
    }
   },
   "soccer:12216": {
@@ -5588,7 +6139,18 @@
     "opened": 1952,
     "location": "Vila Nova de Famalicão",
     "lat": 41.4013,
-    "lng": -8.5225
+    "lng": -8.5225,
+    "photoCheckedAt": "2026-10-15T07:51:14.109Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Blick_von_der_Gegentrib%C3%BCne_-_Est%C3%A1dio_Municipal_22_de_Junho.jpg/1920px-Blick_von_der_Gegentrib%C3%BCne_-_Est%C3%A1dio_Municipal_22_de_Junho.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1200,
+     "credit": "Bohemio09 · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Blick_von_der_Gegentrib%C3%BCne_-_Est%C3%A1dio_Municipal_22_de_Junho.jpg",
+     "wikidata": "Q1293399",
+     "label": "Estadio Municipal 22 de Junio"
+    }
    }
   },
   "soccer:3699": {
@@ -5632,7 +6194,18 @@
     "opened": 1957,
     "location": "Funchal, Madeira",
     "lat": 32.6455,
-    "lng": -16.9284
+    "lng": -16.9284,
+    "photoCheckedAt": "2026-10-15T07:51:17.514Z",
+    "photo": {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Est%C3%A1diodosBarreirosCentral.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1600,
+     "height": 833,
+     "credit": "Pedro Miguel Monteiro · Public domain · Wikimedia Commons",
+     "license": "Public domain",
+     "page": "https://commons.wikimedia.org/wiki/File:Est%C3%A1diodosBarreirosCentral.jpg",
+     "wikidata": "Q1272724",
+     "label": "Estádio do Marítimo"
+    }
    }
   },
   "soccer:3696": {
@@ -5660,7 +6233,18 @@
     "opened": 2002,
     "location": "Moreira de Cónegos, Braga",
     "lat": 41.378056,
-    "lng": -8.354722
+    "lng": -8.354722,
+    "photoCheckedAt": "2026-10-15T07:51:20.056Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Blick_auf_die_Haupttrib%C3%BCne_-_Est%C3%A1dio_Comendador_Joaquim_de_Almeida_Freitas.jpg/1920px-Blick_auf_die_Haupttrib%C3%BCne_-_Est%C3%A1dio_Comendador_Joaquim_de_Almeida_Freitas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1200,
+     "credit": "Bohemio09 · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Blick_auf_die_Haupttrib%C3%BCne_-_Est%C3%A1dio_Comendador_Joaquim_de_Almeida_Freitas.jpg",
+     "wikidata": "Q256588",
+     "label": "Parque de Jogos Comendador Joaquim de Almeida Freitas"
+    }
    }
   },
   "soccer:3822": {
@@ -5687,7 +6271,8 @@
     "opened": 1985,
     "location": "Vila do Conde",
     "lat": 41.362778,
-    "lng": -8.740278
+    "lng": -8.740278,
+    "photoCheckedAt": "2026-10-15T07:51:25.741Z"
    }
   },
   "soccer:12215": {
@@ -5713,7 +6298,18 @@
     "opened": 1930,
     "location": "Ponta Delgada, Azores",
     "lat": 37.763708,
-    "lng": -25.622589
+    "lng": -25.622589,
+    "photoCheckedAt": "2026-10-15T07:51:27.630Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Est%C3%A1dio_de_S%C3%A3o_Miguel_%2862276%29.jpg/1920px-Est%C3%A1dio_de_S%C3%A3o_Miguel_%2862276%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 900,
+     "credit": "Rasibo · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Est%C3%A1dio_de_S%C3%A3o_Miguel_(62276).jpg",
+     "wikidata": "Q3514858",
+     "label": "Estádio de São Miguel"
+    }
    }
   },
   "soccer:5309": {
@@ -5737,7 +6333,18 @@
     "opened": 1965,
     "location": "Guimarães, Portugal",
     "lat": 41.445833,
-    "lng": -8.301111
+    "lng": -8.301111,
+    "photoCheckedAt": "2026-10-15T07:51:29.753Z",
+    "photo": {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Est%C3%A1dio_do_Vit%C3%B3ria_de_Guimar%C3%A3es_visto_da_torre_central_do_Castelo_de_Guimar%C3%A3es_03.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1600,
+     "height": 476,
+     "credit": "Estádio_do_Vitória_de_Guimarães_visto_da_torre_central_do_Castelo_de_Guimarães_02.jpg: Wagner Bonifacio Leite · CC BY-SA 3.0 · Wikimedia Commons",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Est%C3%A1dio_do_Vit%C3%B3ria_de_Guimar%C3%A3es_visto_da_torre_central_do_Castelo_de_Guimar%C3%A3es_03.JPG",
+     "wikidata": "Q1057274",
+     "label": "Estádio D. Afonso Henriques"
+    }
    }
   },
   "soccer:18418": {
@@ -5788,7 +6395,18 @@
     "opened": 2021,
     "location": "Austin, TX, United States",
     "lat": 30.3877,
-    "lng": -97.7195
+    "lng": -97.7195,
+    "photoCheckedAt": "2026-10-15T07:51:31.325Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Austin_FC_Stadium_vs._Columbus_Crew.jpg/1920px-Austin_FC_Stadium_vs._Columbus_Crew.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1164,
+     "credit": "Daniel Ziegler · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Austin_FC_Stadium_vs._Columbus_Crew.jpg",
+     "wikidata": "Q56278477",
+     "label": "Q2 Stadium"
+    }
    }
   },
   "soccer:9720": {
@@ -5903,7 +6521,18 @@
     "opened": 2021,
     "location": "Columbus, OH",
     "lat": 39.96846,
-    "lng": -83.01709
+    "lng": -83.01709,
+    "photoCheckedAt": "2026-10-15T07:51:33.088Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Lower.com_Field_Southwestern_Gate_July_3_2021.jpg/1920px-Lower.com_Field_Southwestern_Gate_July_3_2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 721,
+     "credit": "Nova Crystallis · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Lower.com_Field_Southwestern_Gate_July_3_2021.jpg",
+     "wikidata": "Q65045869",
+     "label": "ScottsMiracle-Gro Field"
+    }
    }
   },
   "soccer:193": {
@@ -5968,7 +6597,18 @@
     "opened": 2005,
     "location": "Frisco, TX",
     "lat": 33.154444,
-    "lng": -96.835278
+    "lng": -96.835278,
+    "photoCheckedAt": "2026-10-15T07:51:34.825Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Toyota_Stadium.jpeg/1920px-Toyota_Stadium.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1200,
+     "credit": "Flavius Constantine · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Toyota_Stadium.jpeg",
+     "wikidata": "Q1140457",
+     "label": "Estadio Toyota"
+    }
    }
   },
   "soccer:6077": {
@@ -6067,7 +6707,18 @@
     "opened": 2018,
     "location": "Los Angeles, California, USA",
     "lat": 34.0127691,
-    "lng": -118.2866329
+    "lng": -118.2866329,
+    "photoCheckedAt": "2026-10-15T07:51:36.961Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/BMO_Stadium_%28Los_Angeles%29.jpg/1920px-BMO_Stadium_%28Los_Angeles%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1143,
+     "credit": "Quintin Soloviev · CC BY 4.0 · Wikimedia Commons",
+     "license": "CC BY 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:BMO_Stadium_(Los_Angeles).jpg",
+     "wikidata": "Q22096111",
+     "label": "BMO Stadium"
+    }
    }
   },
   "soccer:17362": {
@@ -6259,7 +6910,18 @@
     "opened": 2010,
     "location": "Harrison, New Jersey",
     "lat": 40.736667,
-    "lng": -74.150278
+    "lng": -74.150278,
+    "photoCheckedAt": "2026-10-15T07:51:39.602Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Red_Bull_Arena_Harrison_behind_goal.jpg/1920px-Red_Bull_Arena_Harrison_behind_goal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1067,
+     "credit": "Sam Szapucki · CC BY 2.0 · Wikimedia Commons",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Red_Bull_Arena_Harrison_behind_goal.jpg",
+     "wikidata": "Q761682",
+     "label": "Sports Illustrated Stadium"
+    }
    }
   },
   "soccer:22529": {
@@ -6283,7 +6945,18 @@
     "opened": 2022,
     "location": "San Diego, California",
     "lat": 32.784444,
-    "lng": -117.122833
+    "lng": -117.122833,
+    "photoCheckedAt": "2026-10-15T07:51:41.277Z",
+    "photo": {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/An_aerial_view_of_Snapdragon_Stadium_%282022-08-26%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1600,
+     "height": 1143,
+     "credit": "Terrible Tim · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:An_aerial_view_of_Snapdragon_Stadium_(2022-08-26).jpg",
+     "wikidata": "Q100272042",
+     "label": "Snapdragon Stadium"
+    }
    }
   },
   "soccer:191": {
@@ -6356,7 +7029,18 @@
     "opened": 2007,
     "location": "Toronto, ON",
     "lat": 43.633222,
-    "lng": -79.418583
+    "lng": -79.418583,
+    "photoCheckedAt": "2026-10-15T07:51:43.195Z",
+    "photo": {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/BMO_Field_in_2016.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1600,
+     "height": 836,
+     "credit": "Pablopicassotoronto · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:BMO_Field_in_2016.png",
+     "wikidata": "Q796351",
+     "label": "BMO Field"
+    }
    }
   },
   "soccer:9727": {
@@ -6407,7 +7091,18 @@
     "opened": 1966,
     "location": "Calzada de Tlalpan, Coyoacán, Mexico City",
     "lat": 19.303056,
-    "lng": -99.150556
+    "lng": -99.150556,
+    "photoCheckedAt": "2026-10-15T07:51:50.045Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Vista_a%C3%A9rea_del_Estadio_Azteca_-_2026_-_02.jpg/1920px-Vista_a%C3%A9rea_del_Estadio_Azteca_-_2026_-_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 900,
+     "credit": "ProtoplasmaKid · CC BY 4.0 · Wikimedia Commons",
+     "license": "CC BY 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Estadio_Azteca_-_2026_-_02.jpg",
+     "wikidata": "Q320454",
+     "label": "Estadio Azteca"
+    }
    }
   },
   "soccer:226": {
@@ -6430,7 +7125,18 @@
     "opened": 1966,
     "location": "Calzada de Tlalpan, Coyoacán, Mexico City",
     "lat": 19.303056,
-    "lng": -99.150556
+    "lng": -99.150556,
+    "photoCheckedAt": "2026-10-15T07:51:50.045Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Vista_a%C3%A9rea_del_Estadio_Azteca_-_2026_-_02.jpg/1920px-Vista_a%C3%A9rea_del_Estadio_Azteca_-_2026_-_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 900,
+     "credit": "ProtoplasmaKid · CC BY 4.0 · Wikimedia Commons",
+     "license": "CC BY 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Estadio_Azteca_-_2026_-_02.jpg",
+     "wikidata": "Q320454",
+     "label": "Estadio Azteca"
+    }
    }
   },
   "soccer:216": {
@@ -6447,7 +7153,18 @@
     "opened": 1960,
     "location": "Guadalajara",
     "lat": 20.7048,
-    "lng": -103.3276
+    "lng": -103.3276,
+    "photoCheckedAt": "2026-10-15T07:51:51.931Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Estadio_Jalisco_06022022.jpg/1920px-Estadio_Jalisco_06022022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1200,
+     "credit": "Alejan98 · CC0 · Wikimedia Commons",
+     "license": "CC0",
+     "page": "https://commons.wikimedia.org/wiki/File:Estadio_Jalisco_06022022.jpg",
+     "wikidata": "Q1346716",
+     "label": "Estadio Jalisco"
+    }
    }
   },
   "soccer:15720": {
@@ -6477,7 +7194,18 @@
     "opened": 2002,
     "location": "San Luis Potosí",
     "lat": 22.1387,
-    "lng": -100.9506
+    "lng": -100.9506,
+    "photoCheckedAt": "2026-10-15T07:52:07.383Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Estadio_Alfonso_Lastras.jpg/1920px-Estadio_Alfonso_Lastras.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 900,
+     "credit": "https://www.flickr.com/photos/alhihfz/ alhihfz] · CC BY 2.0 · Wikimedia Commons",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Estadio_Alfonso_Lastras.jpg",
+     "wikidata": "Q925728",
+     "label": "Estadio Libertad Financiera"
+    }
    }
   },
   "soccer:218": {
@@ -6508,7 +7236,18 @@
     "opened": 1966,
     "location": "Calzada de Tlalpan, Coyoacán, Mexico City",
     "lat": 19.303056,
-    "lng": -99.150556
+    "lng": -99.150556,
+    "photoCheckedAt": "2026-10-15T07:52:07.383Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Vista_a%C3%A9rea_del_Estadio_Azteca_-_2026_-_02.jpg/1920px-Vista_a%C3%A9rea_del_Estadio_Azteca_-_2026_-_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 900,
+     "credit": "ProtoplasmaKid · CC BY 4.0 · Wikimedia Commons",
+     "license": "CC BY 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Estadio_Azteca_-_2026_-_02.jpg",
+     "wikidata": "Q320454",
+     "label": "Estadio Azteca"
+    }
    }
   },
   "soccer:17851": {
@@ -6535,7 +7274,8 @@
     "opened": 1981,
     "location": "Ciudad Juárez, Chihuahua, Mexico",
     "lat": 31.753056,
-    "lng": -106.467778
+    "lng": -106.467778,
+    "photoCheckedAt": "2026-10-15T07:52:13.284Z"
    }
   },
   "soccer:219": {
@@ -6580,7 +7320,8 @@
     "opened": 1967,
     "location": "Leon, Guanajuato",
     "lat": 21.115544,
-    "lng": -101.657744
+    "lng": -101.657744,
+    "photoCheckedAt": "2026-10-15T07:52:29.265Z"
    }
   },
   "soccer:220": {
@@ -6607,7 +7348,8 @@
     "opened": 2015,
     "location": "Guadalupe, Nuevo León",
     "lat": 25.670172,
-    "lng": -100.2437
+    "lng": -100.2437,
+    "photoCheckedAt": "2026-10-15T07:52:31.523Z"
    }
   },
   "soccer:229": {
@@ -6628,7 +7370,18 @@
     "opened": 2003,
     "location": "Aguascalientes City",
     "lat": 21.880653,
-    "lng": -102.275483
+    "lng": -102.275483,
+    "photoCheckedAt": "2026-10-15T07:52:37.769Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Estadio_Victoria_%28Aguascalientes%29.jpg/1920px-Estadio_Victoria_%28Aguascalientes%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1200,
+     "credit": "AntoFran · CC BY-SA 3.0 · Wikimedia Commons",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Estadio_Victoria_(Aguascalientes).jpg",
+     "wikidata": "Q1369661",
+     "label": "Estadio Victoria"
+    }
    }
   },
   "soccer:234": {
@@ -6648,7 +7401,18 @@
     "opened": 1993,
     "location": "Pachuca, Hidalgo",
     "lat": 20.105144,
-    "lng": -98.756114
+    "lng": -98.756114,
+    "photoCheckedAt": "2026-10-15T07:52:40.624Z",
+    "photo": {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Estadio_Hidalgo_22-05-2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1600,
+     "height": 907,
+     "credit": "Alejan98 · CC0 · Wikimedia Commons",
+     "license": "CC0",
+     "page": "https://commons.wikimedia.org/wiki/File:Estadio_Hidalgo_22-05-2022.jpg",
+     "wikidata": "Q1369255",
+     "label": "Estadio Hidalgo"
+    }
    }
   },
   "soccer:231": {
@@ -6671,7 +7435,18 @@
     "opened": 1968,
     "location": "Puebla City, Puebla",
     "lat": 19.078056,
-    "lng": -98.164444
+    "lng": -98.164444,
+    "photoCheckedAt": "2026-10-15T07:52:42.907Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Estadio_Cuauht%C3%A9moc%2C_Puebla.jpg/1920px-Estadio_Cuauht%C3%A9moc%2C_Puebla.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1200,
+     "credit": "Israel Espinosa López : Zeisseon · CC BY-SA 3.0 · Wikimedia Commons",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Estadio_Cuauht%C3%A9moc,_Puebla.jpg",
+     "wikidata": "Q124769",
+     "label": "Estadio Cuauhtémoc"
+    }
    }
   },
   "soccer:233": {
@@ -6692,7 +7467,18 @@
     "opened": 1952,
     "location": "Coyoacán, Mexico City",
     "lat": 19.3318,
-    "lng": -99.1923
+    "lng": -99.1923,
+    "photoCheckedAt": "2026-10-15T07:52:58.602Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Estadio_Ol%C3%ADmpico_Universitario_-_2026_-_04.jpg/1920px-Estadio_Ol%C3%ADmpico_Universitario_-_2026_-_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 900,
+     "credit": "ProtoplasmaKid · CC BY 4.0 · Wikimedia Commons",
+     "license": "CC BY 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Estadio_Ol%C3%ADmpico_Universitario_-_2026_-_04.jpg",
+     "wikidata": "Q767558",
+     "label": "Estadio Olímpico Universitario"
+    }
    }
   },
   "soccer:222": {
@@ -6720,7 +7506,18 @@
     "opened": 1985,
     "location": "Querétaro City, Querétaro",
     "lat": 20.577778,
-    "lng": -100.366389
+    "lng": -100.366389,
+    "photoCheckedAt": "2026-10-15T07:53:00.167Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Estadio_la_Corregidora.JPG/1920px-Estadio_la_Corregidora.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1200,
+     "credit": "No machine-readable author provided. Gabriel monarca assumed (based on copyright claims). · Public domain · Wikimedia Commons",
+     "license": "Public domain",
+     "page": "https://commons.wikimedia.org/wiki/File:Estadio_la_Corregidora.JPG",
+     "wikidata": "Q713216",
+     "label": "Estadio Corregidora"
+    }
    }
   },
   "soccer:225": {
@@ -6776,7 +7573,8 @@
     "opened": 1967,
     "location": "San Nicolás de los Garza, Nuevo León",
     "lat": 25.722806,
-    "lng": -100.312056
+    "lng": -100.312056,
+    "photoCheckedAt": "2026-10-15T07:53:05.056Z"
    }
   },
   "soccer:10125": {
@@ -6807,7 +7605,18 @@
     "opened": 2007,
     "location": "Tijuana, Baja California",
     "lat": 32.506111,
-    "lng": -116.993056
+    "lng": -116.993056,
+    "photoCheckedAt": "2026-10-15T07:53:06.602Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/CalienteStadium.JPG/1920px-CalienteStadium.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1067,
+     "credit": "Angel Mendez · CC BY-SA 3.0 · Wikimedia Commons",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/wiki/File:CalienteStadium.JPG",
+     "wikidata": "Q2706196",
+     "label": "Estadio Caliente"
+    }
    }
   },
   "soccer:223": {
@@ -6832,7 +7641,18 @@
     "opened": 1935,
     "location": "Toluca, Mexico",
     "lat": 19.287222,
-    "lng": -99.666667
+    "lng": -99.666667,
+    "photoCheckedAt": "2026-10-15T07:53:08.288Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/B4GameTolChivas.JPG/1920px-B4GameTolChivas.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1071,
+     "credit": "AlejandroLinaresGarcia · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:B4GameTolChivas.JPG",
+     "wikidata": "Q604859",
+     "label": "Estadio Nemesio Diez"
+    }
    }
   },
   "soccer:441": {
@@ -6861,7 +7681,8 @@
     "opened": 1917,
     "location": "Anderlecht, Brussels",
     "lat": 50.834167,
-    "lng": 4.298333
+    "lng": 4.298333,
+    "photoCheckedAt": "2026-10-15T07:53:09.715Z"
    }
   },
   "soccer:20024": {
@@ -6894,7 +7715,18 @@
     "opened": 2016,
     "location": "Beşiktaş, Istanbul",
     "lat": 41.039167,
-    "lng": 28.994722
+    "lng": 28.994722,
+    "photoCheckedAt": "2026-10-15T07:53:12.029Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/T%C3%BCpra%C5%9F_Stadyumu_20231011_2.jpg/1920px-T%C3%BCpra%C5%9F_Stadyumu_20231011_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1069,
+     "credit": "Beşiktaş JK · CC BY 2.0 · Wikimedia Commons",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/wiki/File:T%C3%BCpra%C5%9F_Stadyumu_20231011_2.jpg",
+     "wikidata": "Q14914703",
+     "label": "Vodafone Arena"
+    }
    }
   },
   "soccer:256": {
@@ -6924,7 +7756,18 @@
     "opened": 1892,
     "location": "Parkhead, Glasgow",
     "lat": 55.849722,
-    "lng": -4.205556
+    "lng": -4.205556,
+    "photoCheckedAt": "2026-10-15T07:53:13.387Z",
+    "photo": {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Celtic_park_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1600,
+     "height": 555,
+     "credit": "Zhi Yong Lee from Glasgow, UK · CC BY 2.0 · Wikimedia Commons",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Celtic_park_2.jpg",
+     "wikidata": "Q216037",
+     "label": "Celtic Park"
+    }
    }
   },
   "soccer:597": {
@@ -6950,7 +7793,18 @@
     "opened": 1912,
     "location": "Zagreb",
     "lat": 45.818889,
-    "lng": 16.018056
+    "lng": 16.018056,
+    "photoCheckedAt": "2026-10-15T07:53:15.725Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Maksimirski_stadion_Zagreb.jpg/1920px-Maksimirski_stadion_Zagreb.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1147,
+     "credit": "Suradnik13 · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Maksimirski_stadion_Zagreb.jpg",
+     "wikidata": "Q723603",
+     "label": "Estadio Maksimir"
+    }
    }
   },
   "soccer:622": {
@@ -6978,7 +7832,18 @@
     "opened": 2014,
     "location": "Ferencváros, Budapest",
     "lat": 47.475556,
-    "lng": 19.095278
+    "lng": 19.095278,
+    "photoCheckedAt": "2026-10-15T07:53:17.549Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Stadionul_Albert_Florian_din_Budapesta1.jpg/1920px-Stadionul_Albert_Florian_din_Budapesta1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1200,
+     "credit": "Cezar Suceveanu · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Stadionul_Albert_Florian_din_Budapesta1.jpg",
+     "wikidata": "Q17394000",
+     "label": "Groupama Arena"
+    }
    }
   },
   "soccer:13083": {
@@ -7015,7 +7880,18 @@
     "opened": 1968,
     "location": "Poznań",
     "lat": 52.397561,
-    "lng": 16.858047
+    "lng": 16.858047,
+    "photoCheckedAt": "2026-10-15T07:53:19.367Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Stadion_Miejski_Poznan%2C_2011-08-23.jpg/1920px-Stadion_Miejski_Poznan%2C_2011-08-23.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 898,
+     "credit": "Carte · CC BY-SA 3.0 · Wikimedia Commons",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Stadion_Miejski_Poznan,_2011-08-23.jpg",
+     "wikidata": "Q188699",
+     "label": "Estadio Municipal de Poznań"
+    }
    }
   },
   "soccer:490": {
@@ -7045,7 +7921,8 @@
     "opened": 1963,
     "location": "Sofia",
     "lat": 42.705556,
-    "lng": 23.363333
+    "lng": 23.363333,
+    "photoCheckedAt": "2026-10-15T07:53:21.176Z"
    }
   },
   "soccer:987": {
@@ -7074,7 +7951,18 @@
     "opened": 2003,
     "location": "Celje, Slovenia",
     "lat": 46.246667,
-    "lng": 15.27
+    "lng": 15.27,
+    "photoCheckedAt": "2026-10-15T07:53:22.709Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Arena_Petrol_2013.jpg/1920px-Arena_Petrol_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 901,
+     "credit": "This media: Ratipok ; Original work: Bojan Purg (east stand), Dragan Stevović (south), Reichenberg arhitektura (west and · CC BY 3.0 · Wikimedia Commons",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Arena_Petrol_2013.jpg",
+     "wikidata": "Q641455",
+     "label": "Estadio Z'dežele"
+    }
    }
   },
   "soccer:1010": {
@@ -7102,7 +7990,18 @@
     "opened": 2004,
     "location": "Heraklion, Crete",
     "lat": 35.336667,
-    "lng": 25.106111
+    "lng": 25.106111,
+    "photoCheckedAt": "2026-10-15T07:53:24.590Z",
+    "photo": {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Pagkritio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1600,
+     "height": 1200,
+     "credit": "The original uploader was Exogiinos at Greek Wikipedia.. Original file is/was here · Public domain · Wikimedia Commons",
+     "license": "Public domain",
+     "page": "https://commons.wikimedia.org/wiki/File:Pagkritio.jpg",
+     "wikidata": "Q1928668",
+     "label": "Estadio Pankritio"
+    }
    }
   },
   "soccer:435": {
@@ -7132,7 +8031,18 @@
     "opened": 1895,
     "location": "Piraeus, Attica",
     "lat": 37.946111,
-    "lng": 23.664444
+    "lng": 23.664444,
+    "photoCheckedAt": "2026-10-15T07:53:25.942Z",
+    "photo": {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Karaiskakis_Stadium_Piraeus_Olympiacos-Arsenal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1600,
+     "height": 1200,
+     "credit": "TodorBozhinov · CC BY-SA 3.0 · Wikimedia Commons",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Karaiskakis_Stadium_Piraeus_Olympiacos-Arsenal.jpg",
+     "wikidata": "Q213508",
+     "label": "Estadio Georgios Karaiskakis"
+    }
    }
   },
   "soccer:617": {
@@ -7158,7 +8068,18 @@
     "opened": 1998,
     "location": "Strovolos, Nicosia",
     "lat": 35.114528,
-    "lng": 33.362833
+    "lng": 33.362833,
+    "photoCheckedAt": "2026-10-15T07:53:27.466Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/GSP_Stadium_in_Nicosia_%28Omonoia_-_Manchester_City%29.jpg/1920px-GSP_Stadium_in_Nicosia_%28Omonoia_-_Manchester_City%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1071,
+     "credit": "George Groutas · CC BY 2.0 · Wikimedia Commons",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/wiki/File:GSP_Stadium_in_Nicosia_(Omonoia_-_Manchester_City).jpg",
+     "wikidata": "Q592491",
+     "label": "Estadio GSP"
+    }
    }
   },
   "soccer:2790": {
@@ -7191,7 +8112,18 @@
     "opened": 2004,
     "location": "Graz",
     "lat": 47.046111,
-    "lng": 15.454444
+    "lng": 15.454444,
+    "photoCheckedAt": "2026-10-15T07:53:30.064Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Merkur_Arena%2C_Graz.jpg/1920px-Merkur_Arena%2C_Graz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 829,
+     "credit": "Thomas Ledl · CC BY 4.0 · Wikimedia Commons",
+     "license": "CC BY 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Merkur_Arena,_Graz.jpg",
+     "wikidata": "Q696491",
+     "label": "Merkur Arena"
+    }
    }
   },
   "soccer:433": {
@@ -7220,7 +8152,18 @@
     "opened": 1917,
     "location": "Prague",
     "lat": 50.099722,
-    "lng": 14.415833
+    "lng": 14.415833,
+    "photoCheckedAt": "2026-10-15T07:53:33.917Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Praha_Sparta.jpg/1920px-Praha_Sparta.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 832,
+     "credit": "Wikimedia Commons · CC BY-SA 2.5 · Wikimedia Commons",
+     "license": "CC BY-SA 2.5",
+     "page": "https://commons.wikimedia.org/wiki/File:Praha_Sparta.jpg",
+     "wikidata": "Q60103",
+     "label": "Letná Stadium"
+    }
    }
   },
   "soccer:21615": {
@@ -7236,7 +8179,8 @@
     "opened": 1925,
     "location": "Torres Vedras",
     "lat": 39.0949,
-    "lng": -9.2567
+    "lng": -9.2567,
+    "photoCheckedAt": "2026-10-15T07:53:38.274Z"
    }
   },
   "soccer:5807": {
@@ -7270,7 +8214,18 @@
     "opened": 1955,
     "location": "Plzeň",
     "lat": 49.75,
-    "lng": 13.385556
+    "lng": 13.385556,
+    "photoCheckedAt": "2026-10-15T07:53:40.439Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Foto-_Martin_Sk%C3%A1la.jpg/1920px-Foto-_Martin_Sk%C3%A1la.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1066,
+     "credit": "Jakub Valeš · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Foto-_Martin_Sk%C3%A1la.jpg",
+     "wikidata": "Q2116283",
+     "label": "Doosan Arena"
+    }
    }
   },
   "soccer:7853": {
@@ -7297,7 +8252,18 @@
     "opened": 1937,
     "location": "Banja Luka",
     "lat": 44.7761,
-    "lng": 17.1996
+    "lng": 17.1996,
+    "photoCheckedAt": "2026-10-15T07:53:42.546Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Gradski_stadion_Banja_Luka%2C_Septembre_2012.jpg/1920px-Gradski_stadion_Banja_Luka%2C_Septembre_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1217,
+     "credit": "NektarBL · CC BY-SA 3.0 · Wikimedia Commons",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Gradski_stadion_Banja_Luka,_Septembre_2012.jpg",
+     "wikidata": "Q621027",
+     "label": "Gradski stadion"
+    }
    }
   },
   "soccer:10834": {
@@ -7323,7 +8289,18 @@
     "opened": 1953,
     "location": "Sofia",
     "lat": 42.6875,
-    "lng": 23.335556
+    "lng": 23.335556,
+    "photoCheckedAt": "2026-10-15T07:53:44.521Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Vasil_Levski_National_Stadium_2022.jpg/1920px-Vasil_Levski_National_Stadium_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 761,
+     "credit": "JukoFF · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Vasil_Levski_National_Stadium_2022.jpg",
+     "wikidata": "Q1327903",
+     "label": "Estadio Nacional Vasil Levski"
+    }
    }
   },
   "soccer:8089": {
@@ -7395,7 +8372,18 @@
     "opened": 2004,
     "location": "Herning",
     "lat": 56.116868,
-    "lng": 8.951669
+    "lng": 8.951669,
+    "photoCheckedAt": "2026-10-15T07:53:45.955Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/MCH_Arena_Herning.JPG/1920px-MCH_Arena_Herning.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1195,
+     "credit": "EUpdates · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:MCH_Arena_Herning.JPG",
+     "wikidata": "Q1557426",
+     "label": "MCH Arena"
+    }
    }
   },
   "soccer:3101": {
@@ -7423,7 +8411,18 @@
     "opened": 1999,
     "location": "Farum",
     "lat": 55.815847,
-    "lng": 12.353289
+    "lng": 12.353289,
+    "photoCheckedAt": "2026-10-15T07:53:47.351Z",
+    "photo": {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Farum_Farum_Park_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1600,
+     "height": 1065,
+     "credit": "Валерий Дед · CC BY 3.0 · Wikimedia Commons",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Farum_Farum_Park_1.jpg",
+     "wikidata": "Q1397226",
+     "label": "Farum Park"
+    }
    }
   },
   "soccer:3024": {
@@ -7451,7 +8450,18 @@
     "opened": 2011,
     "location": "Thun, Switzerland",
     "lat": 46.744722,
-    "lng": 7.606111
+    "lng": 7.606111,
+    "photoCheckedAt": "2026-10-15T07:53:49.353Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Arenathun.jpg/1920px-Arenathun.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 584,
+     "credit": "Gidoca · CC BY-SA 3.0 · Wikimedia Commons",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Arenathun.jpg",
+     "wikidata": "Q241022",
+     "label": "Visana Stadion"
+    }
    }
   },
   "soccer:489": {
@@ -7478,7 +8488,18 @@
     "opened": 1979,
     "location": "Split",
     "lat": 43.519444,
-    "lng": 16.431667
+    "lng": 16.431667,
+    "photoCheckedAt": "2026-10-15T07:53:51.393Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Poljud_Stadium_with_the_Kozjak_Mountains_in_the_distance.jpg/1920px-Poljud_Stadium_with_the_Kozjak_Mountains_in_the_distance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1039,
+     "credit": "Quintin Soloviev · CC BY 4.0 · Wikimedia Commons",
+     "license": "CC BY 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Poljud_Stadium_with_the_Kozjak_Mountains_in_the_distance.jpg",
+     "wikidata": "Q841384",
+     "label": "Estadio Poljud"
+    }
    }
   },
   "soccer:262": {
@@ -7563,7 +8584,18 @@
     "opened": 1955,
     "location": "Jablonec nad Nisou",
     "lat": 50.714964,
-    "lng": 15.162225
+    "lng": 15.162225,
+    "photoCheckedAt": "2026-10-15T07:53:52.966Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Stadion_St%C5%99elnice_6633.jpg/1920px-Stadion_St%C5%99elnice_6633.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1066,
+     "credit": "EL Loko · CC BY 4.0 · Wikimedia Commons",
+     "license": "CC BY 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Stadion_St%C5%99elnice_6633.jpg",
+     "wikidata": "Q1061636",
+     "label": "Stadion Střelnice"
+    }
    }
   },
   "soccer:3611": {
@@ -7586,7 +8618,18 @@
     "opened": 2013,
     "location": "Ghent",
     "lat": 51.016111,
-    "lng": 3.734167
+    "lng": 3.734167,
+    "photoCheckedAt": "2026-10-15T07:53:54.342Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Gent_Ghelamco_Arena_panorama.jpg/1920px-Gent_Ghelamco_Arena_panorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 598,
+     "credit": "Paul Hermans · CC BY-SA 3.0 · Wikimedia Commons",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Gent_Ghelamco_Arena_panorama.jpg",
+     "wikidata": "Q1708705",
+     "label": "Planet Group arena"
+    }
    }
   },
   "soccer:2528": {
@@ -7669,7 +8712,18 @@
     "capacity": 8066,
     "location": "Europa Point",
     "lat": 36.110694,
-    "lng": -5.34675
+    "lng": -5.34675,
+    "photoCheckedAt": "2026-10-15T07:53:55.757Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Europa_Point_2.jpg/1920px-Europa_Point_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1067,
+     "credit": "Adam Cli · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Europa_Point_2.jpg",
+     "wikidata": "Q15946460",
+     "label": "Estadio de Punta Europa"
+    }
    }
   },
   "soccer:20301": {
@@ -7719,7 +8773,18 @@
     "opened": 1985,
     "location": "Paphos",
     "lat": 34.769186,
-    "lng": 32.440144
+    "lng": 32.440144,
+    "photoCheckedAt": "2026-10-15T07:53:57.275Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Pafos_FC_-_Aris_Limassol_FC_25.02.2022.jpg/1920px-Pafos_FC_-_Aris_Limassol_FC_25.02.2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1010,
+     "credit": "SArtem14 · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Pafos_FC_-_Aris_Limassol_FC_25.02.2022.jpg",
+     "wikidata": "Q1132478",
+     "label": "Estadio Pafiako"
+    }
    }
   },
   "soccer:443": {
@@ -7746,7 +8811,18 @@
     "opened": 1982,
     "location": "Marousi, Athens",
     "lat": 38.036068,
-    "lng": 23.7876
+    "lng": 23.7876,
+    "photoCheckedAt": "2026-10-15T07:53:58.845Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Olympic_flame_at_opening_ceremony_2004.jpg/1920px-Olympic_flame_at_opening_ceremony_2004.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1143,
+     "credit": "I, Alterego, took this photo and release under the terms of the GNU Free Documentation License · CC BY-SA 3.0 · Wikimedia Commons",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Olympic_flame_at_opening_ceremony_2004.jpg",
+     "wikidata": "Q189663",
+     "label": "Estadio Olímpico de Atenas"
+    }
    }
   },
   "soccer:2290": {
@@ -7778,7 +8854,18 @@
     "opened": 1963,
     "location": "Belgrade",
     "lat": 44.783333,
-    "lng": 20.464722
+    "lng": 20.464722,
+    "photoCheckedAt": "2026-10-15T07:54:00.686Z",
+    "photo": {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Zvezda_stadion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1600,
+     "height": 1201,
+     "credit": "Isimic · CC BY-SA 3.0 · Wikimedia Commons",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Zvezda_stadion.jpg",
+     "wikidata": "Q478000",
+     "label": "Estadio Estrella Roja"
+    }
    }
   },
   "soccer:19246": {
@@ -7848,7 +8935,18 @@
     "opened": 2016,
     "location": "Trabzon",
     "lat": 40.999167,
-    "lng": 39.645833
+    "lng": 39.645833,
+    "photoCheckedAt": "2026-10-15T07:54:02.524Z",
+    "photo": {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Akyaz%C4%B1_Stad%C4%B1_side.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1600,
+     "height": 1200,
+     "credit": "Beri61 · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Akyaz%C4%B1_Stad%C4%B1_side.jpg",
+     "wikidata": "Q7012155",
+     "label": "Estadio Şenol Güneş"
+    }
    }
   },
   "soccer:18334": {
@@ -8046,7 +9144,18 @@
     "opened": 2019,
     "location": "Tirana",
     "lat": 41.3184,
-    "lng": 19.824
+    "lng": 19.824,
+    "photoCheckedAt": "2026-10-15T07:54:04.743Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Air_Albania_Stadium_close.jpg/1920px-Air_Albania_Stadium_close.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1063,
+     "credit": "Albinfo · CC BY 4.0 · Wikimedia Commons",
+     "license": "CC BY 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Air_Albania_Stadium_close.jpg",
+     "wikidata": "Q24895377",
+     "label": "Arena Kombëtare"
+    }
    }
   },
   "soccer:474": {
@@ -8121,7 +9230,18 @@
     "opened": 1912,
     "location": "Zagreb",
     "lat": 45.818889,
-    "lng": 16.018056
+    "lng": 16.018056,
+    "photoCheckedAt": "2026-10-15T07:54:04.743Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Maksimirski_stadion_Zagreb.jpg/1920px-Maksimirski_stadion_Zagreb.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1147,
+     "credit": "Suradnik13 · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Maksimirski_stadion_Zagreb.jpg",
+     "wikidata": "Q723603",
+     "label": "Estadio Maksimir"
+    }
    }
   },
   "soccer:450": {
@@ -8154,7 +9274,8 @@
     "opened": 1992,
     "location": "Copenhagen",
     "lat": 55.702469,
-    "lng": 12.572203
+    "lng": 12.572203,
+    "photoCheckedAt": "2026-10-15T07:54:07.580Z"
    }
   },
   "soccer:448": {
@@ -8184,7 +9305,8 @@
     "opened": 2007,
     "location": "Wembley, London",
     "lat": 51.555556,
-    "lng": -0.279444
+    "lng": -0.279444,
+    "photoCheckedAt": "2026-10-15T07:54:09.366Z"
    }
   },
   "soccer:478": {
@@ -8243,7 +9365,8 @@
     "opened": 1936,
     "location": "Charlottenburg-Wilmersdorf",
     "lat": 52.514722,
-    "lng": 13.239444
+    "lng": 13.239444,
+    "photoCheckedAt": "2026-10-15T07:54:11.743Z"
    }
   },
   "soccer:480": {
@@ -8272,7 +9395,18 @@
     "opened": 2019,
     "location": "Budapest",
     "lat": 47.503176,
-    "lng": 19.094446
+    "lng": 19.094446,
+    "photoCheckedAt": "2026-10-15T07:54:14.367Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Pusk%C3%A1s_Ar%C3%A9na_05.jpg/1920px-Pusk%C3%A1s_Ar%C3%A9na_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 841,
+     "credit": "OD Pictures · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Pusk%C3%A1s_Ar%C3%A9na_05.jpg",
+     "wikidata": "Q39069592",
+     "label": "Puskás Aréna"
+    }
    }
   },
   "soccer:162": {
@@ -8303,7 +9437,18 @@
     "opened": 1928,
     "location": "Rome",
     "lat": 41.933889,
-    "lng": 12.454722
+    "lng": 12.454722,
+    "photoCheckedAt": "2026-10-15T07:54:14.367Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Stadio_Olimpico_2024.jpg/1920px-Stadio_Olimpico_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 809,
+     "credit": "Messapi, cropped by Blackcat · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Stadio_Olimpico_2024.jpg",
+     "wikidata": "Q159884",
+     "label": "Estadio Olímpico de Roma"
+    }
    }
   },
   "soccer:449": {
@@ -8336,7 +9481,18 @@
     "opened": 1996,
     "location": "Amsterdam",
     "lat": 52.314167,
-    "lng": 4.941944
+    "lng": 4.941944,
+    "photoCheckedAt": "2026-10-15T07:54:14.367Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Arena%2C_Ajax_stadion%2C_Amsterdam.JPG/1920px-Arena%2C_Ajax_stadion%2C_Amsterdam.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1200,
+     "credit": "Alf van Beem · CC0 · Wikimedia Commons",
+     "license": "CC0",
+     "page": "https://commons.wikimedia.org/wiki/File:Arena,_Ajax_stadion,_Amsterdam.JPG",
+     "wikidata": "Q207109",
+     "label": "Johan Cruijff Arena"
+    }
    }
   },
   "soccer:471": {
@@ -8370,7 +9526,18 @@
     "opened": 2012,
     "location": "Warsaw",
     "lat": 52.239444,
-    "lng": 21.045556
+    "lng": 21.045556,
+    "photoCheckedAt": "2026-10-15T07:54:16.938Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Stadion_narodowy_panorama.jpg/1920px-Stadion_narodowy_panorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 900,
+     "credit": "XEvansGambitx · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Stadion_narodowy_panorama.jpg",
+     "wikidata": "Q179693",
+     "label": "Estadio Nacional de Polonia"
+    }
    }
   },
   "soccer:482": {
@@ -8400,7 +9567,18 @@
     "opened": 1944,
     "location": "Oeiras",
     "lat": 38.7089,
-    "lng": -9.2628
+    "lng": -9.2628,
+    "photoCheckedAt": "2026-10-15T07:54:18.468Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/StadionJamor.JPG/1920px-StadionJamor.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1200,
+     "credit": "Koshelyev · CC BY-SA 3.0 · Wikimedia Commons",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/wiki/File:StadionJamor.JPG",
+     "wikidata": "Q48855239",
+     "label": "Centro Desportivo Nacional do Jamor"
+    }
    }
   },
   "soccer:473": {
@@ -8432,7 +9610,18 @@
     "opened": 2011,
     "location": "Bucharest",
     "lat": 44.437222,
-    "lng": 26.1525
+    "lng": 26.1525,
+    "photoCheckedAt": "2026-10-15T07:54:20.039Z",
+    "photo": {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Arena-bukareszt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1600,
+     "height": 1067,
+     "credit": "Nowy Styl Group · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Arena-bukareszt.jpg",
+     "wikidata": "Q338602",
+     "label": "Arena Națională"
+    }
    }
   },
   "soccer:580": {
@@ -8496,7 +9685,18 @@
     "opened": 1963,
     "location": "Belgrade",
     "lat": 44.783333,
-    "lng": 20.464722
+    "lng": 20.464722,
+    "photoCheckedAt": "2026-10-15T07:54:20.039Z",
+    "photo": {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Zvezda_stadion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1600,
+     "height": 1201,
+     "credit": "Isimic · CC BY-SA 3.0 · Wikimedia Commons",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Zvezda_stadion.jpg",
+     "wikidata": "Q478000",
+     "label": "Estadio Estrella Roja"
+    }
    }
   },
   "soccer:468": {
@@ -8529,7 +9729,8 @@
     "opened": 2019,
     "location": "Bratislava",
     "lat": 48.163558,
-    "lng": 17.136856
+    "lng": 17.136856,
+    "photoCheckedAt": "2026-10-15T07:54:20.039Z"
    }
   },
   "soccer:472": {
@@ -8561,7 +9762,18 @@
     "opened": 2010,
     "location": "Ljubljana",
     "lat": 46.080444,
-    "lng": 14.524306
+    "lng": 14.524306,
+    "photoCheckedAt": "2026-10-15T07:54:22.884Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Sto%C5%BEice_%2831296599020%29.jpg/1920px-Sto%C5%BEice_%2831296599020%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 900,
+     "credit": "The Stadium Guide · CC BY-SA 2.0 · Wikimedia Commons",
+     "license": "CC BY-SA 2.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Sto%C5%BEice_(31296599020).jpg",
+     "wikidata": "Q543404",
+     "label": "Estadio Stožice"
+    }
    }
   },
   "soccer:164": {
@@ -8622,7 +9834,18 @@
     "opened": 2003,
     "location": "Lancy, Geneva",
     "lat": 46.177778,
-    "lng": 6.1275
+    "lng": 6.1275,
+    "photoCheckedAt": "2026-10-15T07:54:24.408Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/The_Stade_de_Gen%C3%A8ve_during_a_UEFA_Europa_Conference_League_match_between_Servette_and_Viktoria_Pilsen._%282023%29.jpg/1920px-The_Stade_de_Gen%C3%A8ve_during_a_UEFA_Europa_Conference_League_match_between_Servette_and_Viktoria_Pilsen._%282023%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1200,
+     "credit": "Vincenzo.togni · CC BY 4.0 · Wikimedia Commons",
+     "license": "CC BY 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:The_Stade_de_Gen%C3%A8ve_during_a_UEFA_Europa_Conference_League_match_between_Servette_and_Viktoria_Pilsen._(2023).jpg",
+     "wikidata": "Q215295",
+     "label": "Stade de Genève"
+    }
    }
   },
   "soccer:465": {
@@ -8705,7 +9928,8 @@
     "opened": 2017,
     "location": "El Alto",
     "lat": -16.4725,
-    "lng": -68.201667
+    "lng": -68.201667,
+    "photoCheckedAt": "2026-10-15T07:54:25.729Z"
    }
   },
   "soccer:205": {
@@ -8732,7 +9956,8 @@
     "opened": 1950,
     "location": "Maracanã, Rio de Janeiro",
     "lat": -22.912222,
-    "lng": -43.230278
+    "lng": -43.230278,
+    "photoCheckedAt": "2026-10-15T07:54:29.560Z"
    }
   },
   "soccer:206": {
@@ -8759,7 +9984,18 @@
     "opened": 2007,
     "location": "Toronto, ON",
     "lat": 43.633222,
-    "lng": -79.418583
+    "lng": -79.418583,
+    "photoCheckedAt": "2026-10-15T07:54:29.560Z",
+    "photo": {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/BMO_Field_in_2016.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1600,
+     "height": 836,
+     "credit": "Pablopicassotoronto · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:BMO_Field_in_2016.png",
+     "wikidata": "Q796351",
+     "label": "BMO Field"
+    }
    }
   },
   "soccer:207": {
@@ -8835,7 +10071,18 @@
     "opened": 2011,
     "location": "San José",
     "lat": 9.936389,
-    "lng": -84.107778
+    "lng": -84.107778,
+    "photoCheckedAt": "2026-10-15T07:54:30.956Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Estadio_Nacional_de_Costa_Rica%2C_2011.jpg/1920px-Estadio_Nacional_de_Costa_Rica%2C_2011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 898,
+     "credit": "MadriCR · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Estadio_Nacional_de_Costa_Rica,_2011.jpg",
+     "wikidata": "Q2522000",
+     "label": "Estadio Nacional de Costa Rica"
+    }
    }
   },
   "soccer:209": {
@@ -8895,7 +10142,8 @@
     "opened": 1962,
     "location": "Kingston, Jamaica",
     "lat": 17.971389,
-    "lng": -76.793056
+    "lng": -76.793056,
+    "photoCheckedAt": "2026-10-15T07:54:31.908Z"
    }
   },
   "soccer:203": {
@@ -8927,7 +10175,18 @@
     "opened": 1966,
     "location": "Calzada de Tlalpan, Coyoacán, Mexico City",
     "lat": 19.303056,
-    "lng": -99.150556
+    "lng": -99.150556,
+    "photoCheckedAt": "2026-10-15T07:54:31.908Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Vista_a%C3%A9rea_del_Estadio_Azteca_-_2026_-_02.jpg/1920px-Vista_a%C3%A9rea_del_Estadio_Azteca_-_2026_-_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 900,
+     "credit": "ProtoplasmaKid · CC BY 4.0 · Wikimedia Commons",
+     "license": "CC BY 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Estadio_Azteca_-_2026_-_02.jpg",
+     "wikidata": "Q320454",
+     "label": "Estadio Azteca"
+    }
    }
   },
   "soccer:2659": {
@@ -9118,7 +10377,18 @@
     "capacity": 22717,
     "location": "Al Ain, Abu Dhabi",
     "lat": 24.2450328,
-    "lng": 55.7170787
+    "lng": 55.7170787,
+    "photoCheckedAt": "2026-10-15T07:54:33.389Z",
+    "photo": {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/IRN-JPN_20190128_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1600,
+     "height": 978,
+     "credit": "Amir Ostovari · CC BY 4.0 · Wikimedia Commons",
+     "license": "CC BY 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:IRN-JPN_20190128_01.jpg",
+     "wikidata": "Q15646927",
+     "label": "Estadio Hazza Bin Zayed"
+    }
    }
   },
   "soccer:929": {
@@ -9147,7 +10417,8 @@
     "opened": 1965,
     "location": "Auckland, New Zealand",
     "lat": 36.8978,
-    "lng": 174.7364
+    "lng": 174.7364,
+    "photoCheckedAt": "2026-10-15T07:54:34.146Z"
    }
   },
   "soccer:5": {
@@ -9195,7 +10466,8 @@
     "opened": 2007,
     "location": "Rio de Janeiro, Brazil",
     "lat": 22,
-    "lng": 43
+    "lng": 43,
+    "photoCheckedAt": "2026-10-15T07:54:35.281Z"
    }
   },
   "soccer:8377": {
@@ -9224,7 +10496,18 @@
     "opened": 2001,
     "location": "Radès",
     "lat": 36.747778,
-    "lng": 10.272778
+    "lng": 10.272778,
+    "photoCheckedAt": "2026-10-15T07:54:37.518Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/STADE_DE_RADES.jpg/1920px-STADE_DE_RADES.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1066,
+     "credit": "khaled abdelmoumen · CC BY 2.0 · Wikimedia Commons",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/wiki/File:STADE_DE_RADES.jpg",
+     "wikidata": "Q1848770",
+     "label": "Estadio Hammadi Agrebi"
+    }
    }
   },
   "soccer:819": {
@@ -9252,7 +10535,8 @@
     "opened": 1950,
     "location": "Maracanã, Rio de Janeiro",
     "lat": -22.912222,
-    "lng": -43.230278
+    "lng": -43.230278,
+    "photoCheckedAt": "2026-10-15T07:54:37.518Z"
    }
   },
   "soccer:3445": {
@@ -9280,7 +10564,8 @@
     "opened": 1950,
     "location": "Maracanã, Rio de Janeiro",
     "lat": -22.912222,
-    "lng": -43.230278
+    "lng": -43.230278,
+    "photoCheckedAt": "2026-10-15T07:54:37.518Z"
    }
   },
   "soccer:7084": {
@@ -9304,7 +10589,8 @@
     "opened": 1923,
     "location": "Arcadia, Pretoria, Gauteng",
     "lat": -25.753333,
-    "lng": 28.222778
+    "lng": 28.222778,
+    "photoCheckedAt": "2026-10-15T07:54:38.986Z"
    }
   },
   "soccer:2029": {
@@ -9330,7 +10616,8 @@
     "opened": 2014,
     "location": "São Paulo, SP",
     "lat": -23.5275,
-    "lng": -46.6785
+    "lng": -46.6785,
+    "photoCheckedAt": "2026-10-15T07:54:40.415Z"
    }
   },
   "soccer:16": {
@@ -9435,7 +10722,18 @@
     "opened": 2014,
     "location": "Andorra la Vella",
     "lat": 42.5046,
-    "lng": 1.5175
+    "lng": 1.5175,
+    "photoCheckedAt": "2026-10-15T07:54:41.801Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Estadi_Nacional_d%E2%80%98Andorra.jpg/1920px-Estadi_Nacional_d%E2%80%98Andorra.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1200,
+     "credit": "Walmaul · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Estadi_Nacional_d%E2%80%98Andorra.jpg",
+     "wikidata": "Q18125598",
+     "label": "Estadio Nacional de Andorra"
+    }
    }
   },
   "soccer:579": {
@@ -9489,7 +10787,18 @@
     "name": "Baku Olympic Stadium",
     "location": "Baku",
     "lat": 40.429766,
-    "lng": 49.91979
+    "lng": 49.91979,
+    "photoCheckedAt": "2026-10-15T07:54:43.456Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Chelsea_won_UEFA_Europa_League_final_at_Olympic_Stadium_and_President_Ilham_Aliyev_watched_the_final_match_16.jpg/1920px-Chelsea_won_UEFA_Europa_League_final_at_Olympic_Stadium_and_President_Ilham_Aliyev_watched_the_final_match_16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 944,
+     "credit": "Press Service of the President of the Republic of Azerbaijan · CC BY 4.0 · Wikimedia Commons",
+     "license": "CC BY 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Chelsea_won_UEFA_Europa_League_final_at_Olympic_Stadium_and_President_Ilham_Aliyev_watched_the_final_match_16.jpg",
+     "wikidata": "Q2612138",
+     "label": "Estadio Olímpico de Bakú"
+    }
    }
   },
   "soccer:583": {
@@ -9525,7 +10834,18 @@
     "opened": 1934,
     "location": "Minsk",
     "lat": 53.895186,
-    "lng": 27.560056
+    "lng": 27.560056,
+    "photoCheckedAt": "2026-10-15T07:54:45.099Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Interior_view_of_Dynamo_Stadium_%28Minsk%2C_Belarus%29_%E2%80%94_%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D0%B8%D0%B9_%D0%B2%D0%B8%D0%B4_%D1%81%D1%82%D0%B0%D0%B4%D0%B8%D0%BE%D0%BD%D0%B0_%D0%94%D0%B8%D0%BD%D0%B0%D0%BC%D0%BE_%28%D0%9C%D0%B8%D0%BD%D1%81%D0%BA%2C_%D0%91%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C%29_2018_2.jpg/1920px-Interior_view_of_Dynamo_Stadium_%28Minsk%2C_Belarus%29_%E2%80%94_%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D0%B8%D0%B9_%D0%B2%D0%B8%D0%B4_%D1%81%D1%82%D0%B0%D0%B4%D0%B8%D0%BE%D0%BD%D0%B0_%D0%94%D0%B8%D0%BD%D0%B0%D0%BC%D0%BE_%28%D0%9C%D0%B8%D0%BD%D1%81%D0%BA%2C_%D0%91%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C%29_2018_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1200,
+     "credit": "Homoatrox · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Interior_view_of_Dynamo_Stadium_(Minsk,_Belarus)_%E2%80%94_%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D0%B8%D0%B9_%D0%B2%D0%B8%D0%B4_%D1%81%D1%82%D0%B0%D0%B4%D0%B8%D0%BE%D0%BD%D0%B0_%D0%94%D0%B8%D0%BD%D0%B0%D0%BC%D0%BE_(%D0%9C%D0%B8%D0%BD%D1%81%D0%BA,_%D0%91%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C)_2018_2.jpg",
+     "wikidata": "Q1130487",
+     "label": "Estadio Dinamo"
+    }
    }
   },
   "soccer:452": {
@@ -9579,7 +10899,18 @@
     "opened": 2016,
     "location": "Larnaca",
     "lat": 34.926389,
-    "lng": 33.597778
+    "lng": 33.597778,
+    "photoCheckedAt": "2026-10-15T07:54:46.556Z",
+    "photo": {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Larnaca_GSZ_Stadium_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1600,
+     "height": 923,
+     "credit": "Валерий Дед · CC BY 3.0 · Wikimedia Commons",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Larnaca_GSZ_Stadium_1.jpg",
+     "wikidata": "Q2760479",
+     "label": "GSZ Stadium"
+    }
    }
   },
   "soccer:444": {
@@ -9652,7 +10983,18 @@
     "opened": 1938,
     "location": "Helsinki, Finland",
     "lat": 60.186944,
-    "lng": 24.927222
+    "lng": 24.927222,
+    "photoCheckedAt": "2026-10-15T07:54:48.952Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Olympiastadion_2_2020-08-12.jpg/1920px-Olympiastadion_2_2020-08-12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 900,
+     "credit": "Joneikifi · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Olympiastadion_2_2020-08-12.jpg",
+     "wikidata": "Q332219",
+     "label": "Estadio Olímpico de Helsinki"
+    }
    }
   },
   "soccer:16721": {
@@ -9706,7 +11048,18 @@
     "opened": 1982,
     "location": "Marousi, Athens",
     "lat": 38.036068,
-    "lng": 23.7876
+    "lng": 23.7876,
+    "photoCheckedAt": "2026-10-15T07:54:48.952Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Olympic_flame_at_opening_ceremony_2004.jpg/1920px-Olympic_flame_at_opening_ceremony_2004.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1143,
+     "credit": "I, Alterego, took this photo and release under the terms of the GNU Free Documentation License · CC BY-SA 3.0 · Wikimedia Commons",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Olympic_flame_at_opening_ceremony_2004.jpg",
+     "wikidata": "Q189663",
+     "label": "Estadio Olímpico de Atenas"
+    }
    }
   },
   "soccer:470": {
@@ -9772,7 +11125,18 @@
     "opened": 2009,
     "location": "Astana",
     "lat": 51.1082,
-    "lng": 71.4027
+    "lng": 71.4027,
+    "photoCheckedAt": "2026-10-15T07:54:52.164Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Astana_Arena_%28inside_interior%29.JPG/1920px-Astana_Arena_%28inside_interior%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1067,
+     "credit": "ChelseaFunNumberOne · CC BY-SA 3.0 · Wikimedia Commons",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Astana_Arena_(inside_interior).JPG",
+     "wikidata": "Q746559",
+     "label": "Astana Arena"
+    }
    }
   },
   "soccer:18272": {
@@ -9897,7 +11261,18 @@
     "opened": 2021,
     "location": "Luxembourg City",
     "lat": 49.577222,
-    "lng": 6.114722
+    "lng": 6.114722,
+    "photoCheckedAt": "2026-10-15T07:54:54.047Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Stade_de_Luxembourg%2C_Luxembourg_vs_Azebaidjan_2021-09-01_%28103%29.jpg/1920px-Stade_de_Luxembourg%2C_Luxembourg_vs_Azebaidjan_2021-09-01_%28103%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 900,
+     "credit": "GilPe · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Stade_de_Luxembourg,_Luxembourg_vs_Azebaidjan_2021-09-01_(103).jpg",
+     "wikidata": "Q25384178",
+     "label": "Stade de Luxembourg"
+    }
    }
   },
   "soccer:453": {
@@ -9924,7 +11299,18 @@
     "opened": 1981,
     "location": "Ta' Qali",
     "lat": 35.895,
-    "lng": 14.415278
+    "lng": 14.415278,
+    "photoCheckedAt": "2026-10-15T07:54:55.576Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Malta_TaQali.JPG/1920px-Malta_TaQali.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1200,
+     "credit": "D T G · Public domain · Wikimedia Commons",
+     "license": "Public domain",
+     "page": "https://commons.wikimedia.org/wiki/File:Malta_TaQali.JPG",
+     "wikidata": "Q1354010",
+     "label": "Estadio Nacional Ta' Qali"
+    }
    }
   },
   "soccer:483": {
@@ -9955,7 +11341,18 @@
     "opened": 2006,
     "location": "Chișinău",
     "lat": 46.9811,
-    "lng": 28.8676
+    "lng": 28.8676,
+    "photoCheckedAt": "2026-10-15T07:54:57.124Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Zimbru_Stadium_in_26_April_2025.jpg/1920px-Zimbru_Stadium_in_26_April_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1200,
+     "credit": "Lovecookie22 · CC0 · Wikimedia Commons",
+     "license": "CC0",
+     "page": "https://commons.wikimedia.org/wiki/File:Zimbru_Stadium_in_26_April_2025.jpg",
+     "wikidata": "Q239295",
+     "label": "Estadio Zimbru"
+    }
    }
   },
   "soccer:6775": {
@@ -9985,7 +11382,8 @@
     "opened": 1945,
     "location": "Podgorica",
     "lat": 42.444728,
-    "lng": 19.264378
+    "lng": 19.264378,
+    "photoCheckedAt": "2026-10-15T07:54:59.384Z"
    }
   },
   "soccer:463": {
@@ -10075,7 +11473,8 @@
     "opened": 2010,
     "location": "Dublin, Ireland",
     "lat": 53.335278,
-    "lng": -6.228333
+    "lng": -6.228333,
+    "photoCheckedAt": "2026-10-15T07:55:01.748Z"
    }
   },
   "soccer:588": {
@@ -10136,7 +11535,18 @@
     "opened": 2012,
     "location": "Solna, Stockholm",
     "lat": 59.3725,
-    "lng": 18
+    "lng": 18,
+    "photoCheckedAt": "2026-10-15T07:55:03.352Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Friends_Arena_%287751335978%29.jpg/1920px-Friends_Arena_%287751335978%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1066,
+     "credit": "Håkan Dahlström from Malmö, Sweden · CC BY 2.0 · Wikimedia Commons",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Friends_Arena_(7751335978).jpg",
+     "wikidata": "Q1138684",
+     "label": "Friends Arena"
+    }
    }
   },
   "soccer:578": {
@@ -10269,7 +11679,18 @@
     "opened": 1906,
     "location": "Bordesley, Birmingham",
     "lat": 52.475833,
-    "lng": -1.868056
+    "lng": -1.868056,
+    "photoCheckedAt": "2026-10-15T07:55:07.894Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/TiltonRoadEnd01.JPG/1920px-TiltonRoadEnd01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1200,
+     "credit": "Bruker:TuborgLight · CC BY-SA 3.0 · Wikimedia Commons",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/wiki/File:TiltonRoadEnd01.JPG",
+     "wikidata": "Q819179",
+     "label": "St Andrew's Stadium"
+    }
    }
   },
   "soccer:365": {
@@ -10294,7 +11715,18 @@
     "opened": 1882,
     "location": "Blackburn, Lancashire",
     "lat": 53.728611,
-    "lng": -2.489167
+    "lng": -2.489167,
+    "photoCheckedAt": "2026-10-15T07:55:09.581Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Ewood_Park_2011.jpg/1920px-Ewood_Park_2011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1067,
+     "credit": "Ronnie Macdonald from Chelmsford, United Kingdom · CC BY 2.0 · Wikimedia Commons",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Ewood_Park_2011.jpg",
+     "wikidata": "Q245085",
+     "label": "Ewood Park"
+    }
    }
   },
   "soccer:358": {
@@ -10347,7 +11779,8 @@
     "opened": 1887,
     "location": "Bristol, England",
     "lat": 51.44,
-    "lng": -2.620278
+    "lng": -2.620278,
+    "photoCheckedAt": "2026-10-15T07:55:11.487Z"
    }
   },
   "soccer:379": {
@@ -10413,7 +11846,8 @@
     "opened": 1919,
     "location": "Charlton, London",
     "lat": 51.486389,
-    "lng": 0.036389
+    "lng": 0.036389,
+    "photoCheckedAt": "2026-10-15T07:55:13.503Z"
    }
   },
   "soccer:374": {
@@ -10440,7 +11874,8 @@
     "opened": 1997,
     "location": "Pride Park, Derby",
     "lat": 52.915,
-    "lng": -1.447222
+    "lng": -1.447222,
+    "photoCheckedAt": "2026-10-15T07:56:10.318Z"
    }
   },
   "soccer:314": {
@@ -10486,7 +11921,8 @@
     "opened": 1994,
     "location": "Middlesbrough",
     "lat": 54.578333,
-    "lng": -1.216944
+    "lng": -1.216944,
+    "photoCheckedAt": "2026-10-15T07:56:11.971Z"
    }
   },
   "soccer:391": {
@@ -10513,7 +11949,8 @@
     "opened": 1993,
     "location": "Bermondsey, London",
     "lat": 51.485833,
-    "lng": -0.050833
+    "lng": -0.050833,
+    "photoCheckedAt": "2026-10-15T07:56:15.423Z"
    }
   },
   "soccer:381": {
@@ -10538,7 +11975,18 @@
     "opened": 1935,
     "location": "Norwich",
     "lat": 52.622222,
-    "lng": 1.309167
+    "lng": 1.309167,
+    "photoCheckedAt": "2026-10-15T07:57:20.764Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/NCFC_Geoffrey_Watling_City_Stand_Apr07.JPG/1920px-NCFC_Geoffrey_Watling_City_Stand_Apr07.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1200,
+     "credit": "Mls11 at English Wikipedia · Public domain · Wikimedia Commons",
+     "license": "Public domain",
+     "page": "https://commons.wikimedia.org/wiki/File:NCFC_Geoffrey_Watling_City_Stand_Apr07.JPG",
+     "wikidata": "Q123017",
+     "label": "Carrow Road"
+    }
    }
   },
   "soccer:385": {
@@ -10559,7 +12007,18 @@
     "opened": 1899,
     "location": "Portsmouth",
     "lat": 50.796389,
-    "lng": -1.063889
+    "lng": -1.063889,
+    "photoCheckedAt": "2026-10-15T07:57:22.792Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Fratton_Park_entrance.jpg/1920px-Fratton_Park_entrance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1200,
+     "credit": "User:Thom32 took this picture &amp; released it into the public domain. · Public domain · Wikimedia Commons",
+     "license": "Public domain",
+     "page": "https://commons.wikimedia.org/wiki/File:Fratton_Park_entrance.jpg",
+     "wikidata": "Q619531",
+     "label": "Fratton Park"
+    }
    }
   },
   "soccer:394": {
@@ -10583,7 +12042,18 @@
     "opened": 1875,
     "location": "Sir Tom Finney Way, Preston",
     "lat": 53.772222,
-    "lng": -2.688056
+    "lng": -2.688056,
+    "photoCheckedAt": "2026-10-15T07:57:27.522Z",
+    "photo": {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Deepdalecomplete.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1600,
+     "height": 1200,
+     "credit": "Hudson6dogs · CC BY-SA 3.0 · Wikimedia Commons",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Deepdalecomplete.jpg",
+     "wikidata": "Q1141958",
+     "label": "Deepdale"
+    }
    }
   },
   "soccer:334": {
@@ -10611,7 +12081,18 @@
     "opened": 1904,
     "location": "Shepherd's Bush, London",
     "lat": 51.509167,
-    "lng": -0.232222
+    "lng": -0.232222,
+    "photoCheckedAt": "2026-10-15T07:57:32.657Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Loftus_Road_36.jpg/1920px-Loftus_Road_36.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 488,
+     "credit": "Zakarie Faibis · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Loftus_Road_36.jpg",
+     "wikidata": "Q31670",
+     "label": "Loftus Road"
+    }
    }
   },
   "soccer:398": {
@@ -10635,7 +12116,8 @@
     "opened": 1855,
     "location": "Highfield, Sheffield",
     "lat": 53.370278,
-    "lng": -1.470833
+    "lng": -1.470833,
+    "photoCheckedAt": "2026-10-15T07:57:34.474Z"
    }
   },
   "soccer:376": {
@@ -10663,7 +12145,8 @@
     "opened": 2001,
     "location": "Southampton",
     "lat": 50.905833,
-    "lng": -1.391111
+    "lng": -1.391111,
+    "photoCheckedAt": "2026-10-15T07:57:37.998Z"
    }
   },
   "soccer:336": {
@@ -10720,7 +12203,8 @@
     "opened": 2003,
     "location": "Swansea",
     "lat": 51.6422,
-    "lng": -3.9351
+    "lng": -3.9351,
+    "photoCheckedAt": "2026-10-15T07:57:57.524Z"
    }
   },
   "soccer:395": {
@@ -10744,7 +12228,8 @@
     "opened": 1921,
     "location": "Watford",
     "lat": 51.649722,
-    "lng": -0.401389
+    "lng": -0.401389,
+    "photoCheckedAt": "2026-10-15T07:57:58.838Z"
    }
   },
   "soccer:383": {
@@ -10771,7 +12256,18 @@
     "opened": 1900,
     "location": "West Bromwich",
     "lat": 52.509167,
-    "lng": -1.963889
+    "lng": -1.963889,
+    "photoCheckedAt": "2026-10-15T07:58:04.841Z",
+    "photo": {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/West_brom_stadium.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1600,
+     "height": 1200,
+     "credit": "Mattd1991 · CC BY-SA 3.0 · Wikimedia Commons",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/wiki/File:West_brom_stadium.JPG",
+     "wikidata": "Q31678",
+     "label": "The Hawthorns"
+    }
    }
   },
   "soccer:371": {
@@ -10849,7 +12345,18 @@
     "opened": 1864,
     "location": "Wrexham",
     "lat": 53.051944,
-    "lng": -3.003611
+    "lng": -3.003611,
+    "photoCheckedAt": "2026-10-15T07:58:06.452Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Racecourse_Ground%2C_Wrexham_%2849329447362%29.jpg/1920px-Racecourse_Ground%2C_Wrexham_%2849329447362%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 900,
+     "credit": "John Lord from Edinburgh, Scotland · CC BY 2.0 · Wikimedia Commons",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Racecourse_Ground,_Wrexham_(49329447362).jpg",
+     "wikidata": "Q1202579",
+     "label": "Racecourse Ground"
+    }
    }
   },
   "soccer:10183": {
@@ -11432,7 +12939,18 @@
     "opened": 2007,
     "location": "Stadium Way, Lakeside, Doncaster, South Yorkshire",
     "lat": 53.509722,
-    "lng": -1.113889
+    "lng": -1.113889,
+    "photoCheckedAt": "2026-10-15T07:58:08.152Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Keepmoat_Stadium_Doncaster.jpg/1920px-Keepmoat_Stadium_Doncaster.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1063,
+     "credit": "Frees · CC BY 3.0 · Wikimedia Commons",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Keepmoat_Stadium_Doncaster.jpg",
+     "wikidata": "Q1336402",
+     "label": "Eco-Power Stadium"
+    }
    }
   },
   "soccer:3897": {
@@ -11504,7 +13022,18 @@
     "opened": 1921,
     "location": "Halifax, West Yorkshire",
     "lat": 53.716111,
-    "lng": -1.859167
+    "lng": -1.859167,
+    "photoCheckedAt": "2026-10-15T07:58:28.174Z",
+    "photo": {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/The_Shay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1600,
+     "height": 911,
+     "credit": "yellow book ltd · CC BY 2.0 · Wikimedia Commons",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/wiki/File:The_Shay.jpg",
+     "wikidata": "Q7763725",
+     "label": "The Shay"
+    }
    }
   },
   "soccer:3891": {
@@ -11529,7 +13058,18 @@
     "opened": 1939,
     "location": "Park Avenue, Fleetwood",
     "lat": 53.9165,
-    "lng": -3.0247
+    "lng": -3.0247,
+    "photoCheckedAt": "2026-10-15T07:58:29.494Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/FTFC01.jpg/1920px-FTFC01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1200,
+     "credit": "Tangerines at English Wikipedia · Public domain · Wikimedia Commons",
+     "license": "Public domain",
+     "page": "https://commons.wikimedia.org/wiki/File:FTFC01.jpg",
+     "wikidata": "Q619024",
+     "label": "Highbury Stadium"
+    }
    }
   },
   "soccer:282": {
@@ -11705,7 +13245,18 @@
     "opened": 2002,
     "location": "Leicester",
     "lat": 52.620278,
-    "lng": -1.142222
+    "lng": -1.142222,
+    "photoCheckedAt": "2026-10-15T07:58:46.388Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/King_Power_Stadium_wide_view.jpg/1920px-King_Power_Stadium_wide_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 544,
+     "credit": "Pottercomuneo · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:King_Power_Stadium_wide_view.jpg",
+     "wikidata": "Q620031",
+     "label": "Leicester City Stadium"
+    }
    }
   },
   "soccer:309": {
@@ -11847,7 +13398,18 @@
     "opened": 1877,
     "location": "Newport, Wales",
     "lat": 51.588333,
-    "lng": -2.987778
+    "lng": -2.987778,
+    "photoCheckedAt": "2026-10-15T07:58:48.930Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Rodney_Parade_Newport_2020.jpg/1920px-Rodney_Parade_Newport_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1200,
+     "credit": "COYB01 · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Rodney_Parade_Newport_2020.jpg",
+     "wikidata": "Q2343802",
+     "label": "Rodney Parade"
+    }
    }
   },
   "soccer:353": {
@@ -11934,7 +13496,8 @@
     "opened": 2001,
     "location": "Littlemore, Oxford",
     "lat": 51.716389,
-    "lng": -1.208056
+    "lng": -1.208056,
+    "photoCheckedAt": "2026-10-15T07:58:52.379Z"
    }
   },
   "soccer:342": {
@@ -12119,7 +13682,8 @@
     "opened": 1899,
     "location": "Owlerton, Sheffield",
     "lat": 53.411389,
-    "lng": -1.500556
+    "lng": -1.500556,
+    "photoCheckedAt": "2026-10-15T07:58:53.733Z"
    }
   },
   "soccer:302": {
@@ -12289,7 +13853,18 @@
     "opened": 1912,
     "location": "Sutton, England",
     "lat": 51.3675,
-    "lng": -0.204444
+    "lng": -0.204444,
+    "photoCheckedAt": "2026-10-15T07:58:57.101Z",
+    "photo": {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Gander_green_lane.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1600,
+     "height": 1024,
+     "credit": "Areedef at English Wikipedia · Public domain · Wikimedia Commons",
+     "license": "Public domain",
+     "page": "https://commons.wikimedia.org/wiki/File:Gander_green_lane.JPG",
+     "wikidata": "Q4946328",
+     "label": "Gander Green Lane"
+    }
    }
   },
   "soccer:341": {
@@ -12314,7 +13889,18 @@
     "opened": 1892,
     "location": "Swindon",
     "lat": 51.564444,
-    "lng": -1.770556
+    "lng": -1.770556,
+    "photoCheckedAt": "2026-10-15T07:58:58.836Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Kingswoodstand.JPG/1920px-Kingswoodstand.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1064,
+     "credit": "Swindonx at English Wikipedia · Public domain · Wikimedia Commons",
+     "license": "Public domain",
+     "page": "https://commons.wikimedia.org/wiki/File:Kingswoodstand.JPG",
+     "wikidata": "Q1137293",
+     "label": "County Ground"
+    }
    }
   },
   "soccer:645": {
@@ -12468,7 +14054,18 @@
     "opened": 2021,
     "location": "Huntington, York",
     "lat": 53.984722,
-    "lng": -1.052778
+    "lng": -1.052778,
+    "photoCheckedAt": "2026-10-15T07:59:00.681Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/LNER_Community_Stadium.jpg/1920px-LNER_Community_Stadium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1067,
+     "credit": "DSimmonite · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:LNER_Community_Stadium.jpg",
+     "wikidata": "Q20876317",
+     "label": "York Community Stadium"
+    }
    }
   },
   "soccer:303": {
@@ -12576,7 +14173,8 @@
     "opened": 1955,
     "location": "Carrara",
     "lat": 44.0653,
-    "lng": 10.0765
+    "lng": 10.0765,
+    "photoCheckedAt": "2026-10-15T07:59:02.242Z"
    }
   },
   "soccer:3258": {
@@ -12704,7 +14302,8 @@
     "opened": 1963,
     "location": "Verona, Italy",
     "lat": 45.435278,
-    "lng": 10.968611
+    "lng": 10.968611,
+    "photoCheckedAt": "2026-10-15T07:59:03.756Z"
    }
   },
   "soccer:3975": {
@@ -12731,7 +14330,8 @@
     "opened": 1984,
     "location": "Castellammare di Stabia",
     "lat": 40.7063,
-    "lng": 14.4942
+    "lng": 14.4942,
+    "photoCheckedAt": "2026-10-15T07:59:06.073Z"
    }
   },
   "soccer:3991": {
@@ -12750,7 +14350,18 @@
     "opened": 1947,
     "location": "Mantova",
     "lat": 45.1461,
-    "lng": 10.7942
+    "lng": 10.7942,
+    "photoCheckedAt": "2026-10-15T07:59:14.580Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Stadio_Danilo_Martelli_Mantova_2025_01.jpg/1920px-Stadio_Danilo_Martelli_Mantova_2025_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 778,
+     "credit": "Vale93b · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Stadio_Danilo_Martelli_Mantova_2025_01.jpg",
+     "wikidata": "Q245720",
+     "label": "Estadio Danilo Martelli"
+    }
    }
   },
   "soccer:2573": {
@@ -12788,7 +14399,18 @@
     "opened": 1989,
     "location": "Padova",
     "lat": 45.4322,
-    "lng": 11.8584
+    "lng": 11.8584,
+    "photoCheckedAt": "2026-10-15T07:59:18.832Z",
+    "photo": {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/PadovaStadioEuganeo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1600,
+     "height": 508,
+     "credit": "LigaDue · CC BY-SA 3.0 · Wikimedia Commons",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/wiki/File:PadovaStadioEuganeo.jpg",
+     "wikidata": "Q115585",
+     "label": "Estadio Euganeo"
+    }
    }
   },
   "soccer:2923": {
@@ -12942,7 +14564,18 @@
     "opened": 1970,
     "location": "Avellino",
     "lat": 40.9269,
-    "lng": 14.7926
+    "lng": 14.7926,
+    "photoCheckedAt": "2026-10-15T07:59:20.381Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/StadioPartenio.JPG/1920px-StadioPartenio.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1200,
+     "credit": "Fire90 · CC BY-SA 3.0 · Wikimedia Commons",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/wiki/File:StadioPartenio.JPG",
+     "wikidata": "Q2298028",
+     "label": "Stadio Partenio-Adriano Lombardi"
+    }
    }
   },
   "soccer:131836": {
@@ -12978,7 +14611,18 @@
     "opened": 1935,
     "location": "Vicenza",
     "lat": 45.544167,
-    "lng": 11.555556
+    "lng": 11.555556,
+    "photoCheckedAt": "2026-10-15T07:59:26.289Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Stadio_Romeo_Menti_2022_panorama.jpg/1920px-Stadio_Romeo_Menti_2022_panorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 855,
+     "credit": "Pottercomuneo · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Stadio_Romeo_Menti_2022_panorama.jpg",
+     "wikidata": "Q94612",
+     "label": "Stadio Romeo Menti"
+    }
    }
   },
   "soccer:11137": {
@@ -12999,7 +14643,8 @@
     "opened": 1933,
     "location": "Chiavari",
     "lat": 44.3154,
-    "lng": 9.3372
+    "lng": 9.3372,
+    "photoCheckedAt": "2026-10-15T07:59:27.815Z"
    }
   },
   "soccer:6418": {
@@ -13050,7 +14695,18 @@
     "opened": 2006,
     "location": "Magdeburg",
     "lat": 52.125556,
-    "lng": 11.670833
+    "lng": 11.670833,
+    "photoCheckedAt": "2026-10-15T07:59:30.055Z",
+    "photo": {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Stadion_Magdeburg_Luftbild.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1600,
+     "height": 1012,
+     "credit": "Mm aa ii kk · CC BY-SA 3.0 · Wikimedia Commons",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Stadion_Magdeburg_Luftbild.JPG",
+     "wikidata": "Q473032",
+     "label": "Avnet Arena"
+    }
    }
   },
   "soccer:269": {
@@ -13079,7 +14735,18 @@
     "opened": 1928,
     "location": "Nuremberg",
     "lat": 49.426111,
-    "lng": 11.125833
+    "lng": 11.125833,
+    "photoCheckedAt": "2026-10-15T07:59:32.639Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/EasyCredit-Stadion_Panorama_2012-04-11.jpg/1920px-EasyCredit-Stadion_Panorama_2012-04-11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 399,
+     "credit": "DerHans04 · CC BY-SA 3.0 · Wikimedia Commons",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/wiki/File:EasyCredit-Stadion_Panorama_2012-04-11.jpg",
+     "wikidata": "Q152599",
+     "label": "Stadion Nürnberg"
+    }
    }
   },
   "soccer:22272": {
@@ -13122,7 +14789,8 @@
     "opened": 1926,
     "location": "Bielefeld",
     "lat": 52.031944,
-    "lng": 8.516667
+    "lng": 8.516667,
+    "photoCheckedAt": "2026-10-15T07:59:39.482Z"
    }
   },
   "soccer:7277": {
@@ -13142,7 +14810,18 @@
     "capacity": 4000,
     "location": "Bahlingen am Kaiserstuhl",
     "lat": 48.119066,
-    "lng": 7.743514
+    "lng": 7.743514,
+    "photoCheckedAt": "2026-10-15T07:59:41.085Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/BahlingenAmKaiserstuhlKaiserstuhlstadion5.jpg/1920px-BahlingenAmKaiserstuhlKaiserstuhlstadion5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1066,
+     "credit": "LigaDue · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:BahlingenAmKaiserstuhlKaiserstuhlstadion5.jpg",
+     "wikidata": "Q1561397",
+     "label": "Kaiserstuhlstadion"
+    }
    }
   },
   "soccer:7017": {
@@ -13168,7 +14847,8 @@
     "opened": 1923,
     "location": "Dresden",
     "lat": 51.040278,
-    "lng": 13.747778
+    "lng": 13.747778,
+    "photoCheckedAt": "2026-10-15T07:59:44.923Z"
    }
   },
   "soccer:7891": {
@@ -13217,7 +14897,18 @@
     "opened": 1930,
     "location": "Cottbus, Brandenburg",
     "lat": 51.751389,
-    "lng": 14.345556
+    "lng": 14.345556,
+    "photoCheckedAt": "2026-10-15T07:59:54.369Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Cottbus_Stadion_der_Freundschaft.jpg/1920px-Cottbus_Stadion_der_Freundschaft.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1200,
+     "credit": "Sane · CC BY-SA 3.0 · Wikimedia Commons",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Cottbus_Stadion_der_Freundschaft.jpg",
+     "wikidata": "Q290234",
+     "label": "LEAG Energie Stadion"
+    }
    }
   },
   "soccer:9865": {
@@ -13243,7 +14934,8 @@
     "opened": 1924,
     "location": "Jena",
     "lat": 50.916111,
-    "lng": 11.583056
+    "lng": 11.583056,
+    "photoCheckedAt": "2026-10-15T07:59:56.848Z"
    }
   },
   "soccer:3849": {
@@ -13294,7 +14986,18 @@
     "opened": 2004,
     "location": "Düsseldorf",
     "lat": 51.261667,
-    "lng": 6.733056
+    "lng": 6.733056,
+    "photoCheckedAt": "2026-10-15T08:00:00.244Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/LTU_arena_panorama.jpg/1920px-LTU_arena_panorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 375,
+     "credit": "Alexander Kaiser from Germany · CC BY 2.0 · Wikimedia Commons",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/wiki/File:LTU_arena_panorama.jpg",
+     "wikidata": "Q155351",
+     "label": "Merkur Spiel-Arena"
+    }
    }
   },
   "soccer:131785": {
@@ -13333,7 +15036,18 @@
     "opened": 2011,
     "location": "Halle an der Saale",
     "lat": 51.465278,
-    "lng": 11.961944
+    "lng": 11.961944,
+    "photoCheckedAt": "2026-10-15T08:00:02.401Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/ErdgasSportpark1.JPG/1920px-ErdgasSportpark1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1200,
+     "credit": "Catatine · CC BY-SA 3.0 · Wikimedia Commons",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/wiki/File:ErdgasSportpark1.JPG",
+     "wikidata": "Q821115",
+     "label": "Erdgas Sportpark"
+    }
    }
   },
   "soccer:2428": {
@@ -13360,7 +15074,8 @@
     "opened": 1954,
     "location": "Hanover",
     "lat": 52.36,
-    "lng": 9.731111
+    "lng": 9.731111,
+    "photoCheckedAt": "2026-10-15T08:00:05.696Z"
    }
   },
   "soccer:128": {
@@ -13388,7 +15103,18 @@
     "opened": 1954,
     "location": "Rostock",
     "lat": 54.084958,
-    "lng": 12.095136
+    "lng": 12.095136,
+    "photoCheckedAt": "2026-10-15T08:00:19.491Z",
+    "photo": {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Ostseestadion.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1600,
+     "height": 908,
+     "credit": "Wikimedia Commons · CC BY-SA 3.0 · Wikimedia Commons",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Ostseestadion.JPG",
+     "wikidata": "Q700314",
+     "label": "Ostseestadion"
+    }
    }
   },
   "soccer:131218": {
@@ -13409,7 +15135,8 @@
     "opened": 1858,
     "location": "Bremen",
     "lat": 53.039551946949956,
-    "lng": 8.903921931323655
+    "lng": 8.903921931323655,
+    "photoCheckedAt": "2026-10-15T08:00:20.429Z"
    }
   },
   "soccer:129": {
@@ -13442,7 +15169,18 @@
     "opened": 1911,
     "location": "Kiel",
     "lat": 54.349167,
-    "lng": 10.123611
+    "lng": 10.123611,
+    "photoCheckedAt": "2026-10-15T08:00:28.303Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Holstein-Stadion_Luftbild_2019.jpg/1920px-Holstein-Stadion_Luftbild_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1200,
+     "credit": "Ichwarsnur · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Holstein-Stadion_Luftbild_2019.jpg",
+     "wikidata": "Q872915",
+     "label": "Holstein-Stadion"
+    }
    }
   },
   "soccer:130": {
@@ -13471,7 +15209,18 @@
     "opened": 1920,
     "location": "Kaiserslautern",
     "lat": 49.434444,
-    "lng": 7.776111
+    "lng": 7.776111,
+    "photoCheckedAt": "2026-10-15T08:00:29.776Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/2025-03-07_FCK-SVE_%2802%29.jpg/1920px-2025-03-07_FCK-SVE_%2802%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 900,
+     "credit": "Simon Mannweiler · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:2025-03-07_FCK-SVE_(02).jpg",
+     "wikidata": "Q154298",
+     "label": "Fritz-Walter-Stadion"
+    }
    }
   },
   "soccer:4471": {
@@ -13498,7 +15247,18 @@
     "opened": 1955,
     "location": "Karlsruhe",
     "lat": 49.02,
-    "lng": 8.413056
+    "lng": 8.413056,
+    "photoCheckedAt": "2026-10-15T08:00:39.062Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Wildparkstadion.jpg/1920px-Wildparkstadion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1067,
+     "credit": "Sven Scharr · CC BY 3.0 · Wikimedia Commons",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Wildparkstadion.jpg",
+     "wikidata": "Q590268",
+     "label": "Wildparkstadion"
+    }
    }
   },
   "soccer:18747": {
@@ -13572,7 +15332,8 @@
     "opened": 1926,
     "location": "Münster",
     "lat": 51.929722,
-    "lng": 7.624722
+    "lng": 7.624722,
+    "photoCheckedAt": "2026-10-15T08:00:48.196Z"
    }
   },
   "soccer:9705": {
@@ -13632,7 +15393,8 @@
     "opened": 1921,
     "location": "Darmstadt",
     "lat": 49.857778,
-    "lng": 8.672222
+    "lng": 8.672222,
+    "photoCheckedAt": "2026-10-15T08:01:06.663Z"
    }
   },
   "soccer:6610": {
@@ -13678,7 +15440,18 @@
     "opened": 2007,
     "location": "Wiesbaden, Hessen",
     "lat": 50.071244,
-    "lng": 8.256644
+    "lng": 8.256644,
+    "photoCheckedAt": "2026-10-15T08:01:21.001Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/BritaArenaSVWehenWiesbadenTorGustavStresemannRing.JPG/1920px-BritaArenaSVWehenWiesbadenTorGustavStresemannRing.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1200,
+     "credit": "Brühl · Public domain · Wikimedia Commons",
+     "license": "Public domain",
+     "page": "https://commons.wikimedia.org/wiki/File:BritaArenaSVWehenWiesbadenTorGustavStresemannRing.JPG",
+     "wikidata": "Q835749",
+     "label": "BRITA-Arena"
+    }
    }
   },
   "soccer:18741": {
@@ -13705,7 +15478,18 @@
     "opened": 1953,
     "location": "Saarbrücken, Saarland",
     "lat": 49.248108,
-    "lng": 6.983954
+    "lng": 6.983954,
+    "photoCheckedAt": "2026-10-15T08:01:25.339Z",
+    "photo": {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Ludwigsparkstadion_Saarbr%C3%BCcken_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1600,
+     "height": 1200,
+     "credit": "Wikimedia Commons · CC BY-SA 3.0 · Wikimedia Commons",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Ludwigsparkstadion_Saarbr%C3%BCcken_001.jpg",
+     "wikidata": "Q703651",
+     "label": "Ludwigsparkstadion"
+    }
    }
   },
   "soccer:21508": {
@@ -13736,7 +15520,18 @@
     "capacity": 15606,
     "location": "Ronhof, Fürth",
     "lat": 49.486944,
-    "lng": 10.999167
+    "lng": 10.999167,
+    "photoCheckedAt": "2026-10-15T08:01:26.785Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Playmobil-Stadion_Nordtrib%C3%BCne.jpg/1920px-Playmobil-Stadion_Nordtrib%C3%BCne.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1074,
+     "credit": "Crossy · CC BY 3.0 · Wikimedia Commons",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Playmobil-Stadion_Nordtrib%C3%BCne.jpg",
+     "wikidata": "Q684301",
+     "label": "Trolli-Arena"
+    }
    }
   },
   "soccer:270": {
@@ -13923,7 +15718,18 @@
     "opened": 1931,
     "location": "Cologne",
     "lat": 50.945166,
-    "lng": 7.030422
+    "lng": 7.030422,
+    "photoCheckedAt": "2026-10-15T08:01:30.743Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Sportpark_H%C3%B6henberg_cropped.jpg/1920px-Sportpark_H%C3%B6henberg_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1067,
+     "credit": "HOWI, cropped by Blackcat · CC BY 3.0 · Wikimedia Commons",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Sportpark_H%C3%B6henberg_cropped.jpg",
+     "wikidata": "Q2312740",
+     "label": "Sportpark Höhenberg"
+    }
    }
   },
   "soccer:21957": {
@@ -13989,7 +15795,18 @@
     "opened": 1926,
     "location": "Tomblaine, Nancy",
     "lat": 48.6955,
-    "lng": 6.210687
+    "lng": 6.210687,
+    "photoCheckedAt": "2026-10-15T08:01:32.063Z",
+    "photo": {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Mpicotnancy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1600,
+     "height": 853,
+     "credit": "No machine-readable author provided. Ske assumed (based on copyright claims). · Public domain · Wikimedia Commons",
+     "license": "Public domain",
+     "page": "https://commons.wikimedia.org/wiki/File:Mpicotnancy.jpg",
+     "wikidata": "Q1341607",
+     "label": "Stade Marcel Picot"
+    }
    }
   },
   "soccer:131573": {
@@ -14011,7 +15828,8 @@
     "opened": 1960,
     "location": "Avranches",
     "lat": 48,
-    "lng": 1
+    "lng": 1,
+    "photoCheckedAt": "2026-10-15T08:01:32.812Z"
    }
   },
   "soccer:173": {
@@ -14374,7 +16192,18 @@
     "opened": 1972,
     "location": "Montpellier",
     "lat": 43.622222,
-    "lng": 3.811944
+    "lng": 3.811944,
+    "photoCheckedAt": "2026-10-15T08:01:34.286Z",
+    "photo": {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Australie-Fidji.4.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1600,
+     "height": 1067,
+     "credit": "Ben.83 · CC BY-SA 3.0 · Wikimedia Commons",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Australie-Fidji.4.JPG",
+     "wikidata": "Q815833",
+     "label": "Stade de la Mosson"
+    }
    }
   },
   "soccer:131576": {
@@ -14615,7 +16444,18 @@
     "opened": 2011,
     "location": "Alanya",
     "lat": 36.5626,
-    "lng": 32.0792
+    "lng": 32.0792,
+    "photoCheckedAt": "2026-10-15T08:01:35.567Z",
+    "photo": {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Bah%C3%A7e%C5%9Fehir_Okullar%C4%B1_Stadyumu_%E2%80%93_D%C4%B1%C5%9F_manzara.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1600,
+     "height": 900,
+     "credit": "beIN SPORTS Türkiye · CC BY 3.0 · Wikimedia Commons",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Bah%C3%A7e%C5%9Fehir_Okullar%C4%B1_Stadyumu_%E2%80%93_D%C4%B1%C5%9F_manzara.png",
+     "wikidata": "Q12808383",
+     "label": "Estadio Bahçeşehir Okulları"
+    }
    }
   },
   "soccer:132335": {
@@ -14646,7 +16486,8 @@
     "opened": 2009,
     "location": "Rize",
     "lat": 41.04202,
-    "lng": 40.5733
+    "lng": 40.5733,
+    "photoCheckedAt": "2026-10-15T08:01:45.358Z"
    }
   },
   "soccer:19267": {
@@ -14678,7 +16519,18 @@
     "opened": 2005,
     "location": "Kasımpaşa, Beyoğlu, Istanbul",
     "lat": 41.032778,
-    "lng": 28.9725
+    "lng": 28.9725,
+    "photoCheckedAt": "2026-10-15T08:01:47.124Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Stadion_Kasimpasa.JPG/1920px-Stadion_Kasimpasa.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1200,
+     "credit": "Scisa at Dutch Wikipedia · CC BY-SA 3.0 · Wikimedia Commons",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Stadion_Kasimpasa.JPG",
+     "wikidata": "Q1770357",
+     "label": "Estadio Recep Tayyip Erdoğan"
+    }
    }
   },
   "soccer:20070": {
@@ -14707,7 +16559,18 @@
     "opened": 2017,
     "location": "Gaziantep",
     "lat": 37.123889,
-    "lng": 37.3825
+    "lng": 37.3825,
+    "photoCheckedAt": "2026-10-15T08:02:19.627Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Kalyon_Arena_%28Gaziantep%29.jpg/1920px-Kalyon_Arena_%28Gaziantep%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1067,
+     "credit": "YG01 · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Kalyon_Arena_(Gaziantep).jpg",
+     "wikidata": "Q17512849",
+     "label": "Estadio de Gaziantep"
+    }
    }
   },
   "soccer:996": {
@@ -14734,7 +16597,18 @@
     "opened": 2019,
     "location": "Eryaman, Etimesgut, Ankara",
     "lat": 39.980278,
-    "lng": 32.613889
+    "lng": 32.613889,
+    "photoCheckedAt": "2026-10-15T08:02:21.025Z",
+    "photo": {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Ankara_Eryaman_Stadyumu2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1600,
+     "height": 802,
+     "credit": "SAİT71 · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Ankara_Eryaman_Stadyumu2.jpg",
+     "wikidata": "Q28451127",
+     "label": "Estadio Eryaman"
+    }
    }
   },
   "soccer:789": {
@@ -14762,7 +16636,18 @@
     "opened": 2020,
     "location": "Konak, İzmir",
     "lat": 38.396821,
-    "lng": 27.07595
+    "lng": 27.07595,
+    "photoCheckedAt": "2026-10-15T08:02:22.832Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/G%C3%B6ztepe_Stadyumu.jpg/1920px-G%C3%B6ztepe_Stadyumu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 917,
+     "credit": "Estin Giç Giç · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:G%C3%B6ztepe_Stadyumu.jpg",
+     "wikidata": "Q5995439",
+     "label": "Estadio Gürsel Aksel"
+    }
    }
   },
   "soccer:7914": {
@@ -14790,7 +16675,18 @@
     "opened": 2014,
     "location": "Başakşehir, Istanbul",
     "lat": 41.122778,
-    "lng": 28.808611
+    "lng": 28.808611,
+    "photoCheckedAt": "2026-10-15T08:02:24.607Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Greece_vs_Turkey_%280-3%29%2C_17_November_2015%2C_2.jpg/1920px-Greece_vs_Turkey_%280-3%29%2C_17_November_2015%2C_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 900,
+     "credit": "Maurice Flesier · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Greece_vs_Turkey_(0-3),_17_November_2015,_2.jpg",
+     "wikidata": "Q17182993",
+     "label": "Başakşehir Arena"
+    }
    }
   },
   "soccer:6870": {
@@ -14816,7 +16712,18 @@
     "opened": 2005,
     "location": "Kasımpaşa, Beyoğlu, Istanbul",
     "lat": 41.032778,
-    "lng": 28.9725
+    "lng": 28.9725,
+    "photoCheckedAt": "2026-10-15T08:02:24.607Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Stadion_Kasimpasa.JPG/1920px-Stadion_Kasimpasa.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1200,
+     "credit": "Scisa at Dutch Wikipedia · CC BY-SA 3.0 · Wikimedia Commons",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Stadion_Kasimpasa.JPG",
+     "wikidata": "Q1770357",
+     "label": "Estadio Recep Tayyip Erdoğan"
+    }
    }
   },
   "soccer:995": {
@@ -14844,7 +16751,18 @@
     "opened": 2018,
     "location": "İzmit",
     "lat": 40.774722,
-    "lng": 30.0175
+    "lng": 30.0175,
+    "photoCheckedAt": "2026-10-15T08:02:26.070Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Y%C4%B1ld%C4%B1z_Entegre_Kocaeli_Stadyumu_%282025%29.jpg/1920px-Y%C4%B1ld%C4%B1z_Entegre_Kocaeli_Stadyumu_%282025%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1200,
+     "credit": "Medelam · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Y%C4%B1ld%C4%B1z_Entegre_Kocaeli_Stadyumu_(2025).jpg",
+     "wikidata": "Q19611724",
+     "label": "Estadio de Kocaeli"
+    }
    }
   },
   "soccer:7648": {
@@ -14866,7 +16784,18 @@
     "opened": 2014,
     "location": "Selçuklu, Konya",
     "lat": 37.946,
-    "lng": 32.488
+    "lng": 32.488,
+    "photoCheckedAt": "2026-10-15T08:02:27.895Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/TORKU_ARENA_-_panoramio.jpg/1920px-TORKU_ARENA_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 747,
+     "credit": "Hüseyin Öcal · CC BY 3.0 · Wikimedia Commons",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/wiki/File:TORKU_ARENA_-_panoramio.jpg",
+     "wikidata": "Q7009690",
+     "label": "Konya Arena"
+    }
    }
   },
   "soccer:11429": {
@@ -14882,7 +16811,18 @@
     "capacity": 33303,
     "location": "Tekkeköy, Samsun",
     "lat": 41.227778,
-    "lng": 36.4575
+    "lng": 36.4575,
+    "photoCheckedAt": "2026-10-15T08:02:29.843Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Samsun_19_May%C4%B1s_Stadyumu_%28Ekim_2019%29_%28cropped%29.jpg/1920px-Samsun_19_May%C4%B1s_Stadyumu_%28Ekim_2019%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 632,
+     "credit": "𐰇𐱅𐰚𐰤 · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Samsun_19_May%C4%B1s_Stadyumu_(Ekim_2019)_(cropped).jpg",
+     "wikidata": "Q6099597",
+     "label": "Estadio de Samsun"
+    }
    }
   },
   "soccer:132334": {
@@ -15584,7 +17524,18 @@
     "opened": 1925,
     "location": "Parque General San Martín, Mendoza",
     "lat": -32.890583900856996,
-    "lng": -68.86290257507082
+    "lng": -68.86290257507082,
+    "photoCheckedAt": "2026-10-15T08:02:31.691Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/UNCUECO_24.JPG/1920px-UNCUECO_24.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 525,
+     "credit": "Gonce · CC BY-SA 3.0 · Wikimedia Commons",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/wiki/File:UNCUECO_24.JPG",
+     "wikidata": "Q5400104",
+     "label": "autista Tragantini Stadium"
+    }
    }
   },
   "soccer:2975": {
@@ -15888,7 +17839,8 @@
     "opened": 2017,
     "location": "El Alto",
     "lat": -16.4725,
-    "lng": -68.201667
+    "lng": -68.201667,
+    "photoCheckedAt": "2026-10-15T08:02:31.695Z"
    }
   },
   "soccer:4815": {
@@ -16414,7 +18366,8 @@
     "opened": 1925,
     "location": "Vienna",
     "lat": 48.162222,
-    "lng": 16.386667
+    "lng": 16.386667,
+    "photoCheckedAt": "2026-10-15T08:02:33.099Z"
    }
   },
   "soccer:21124": {
@@ -16462,7 +18415,18 @@
     "opened": 2005,
     "location": "Munich, Germany",
     "lat": 48.218775,
-    "lng": 11.624752777778
+    "lng": 11.624752777778,
+    "photoCheckedAt": "2026-10-15T08:02:33.099Z",
+    "photo": {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/M%C3%BCnchen_-_Allianz-Arena_%28Luftbild%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1600,
+     "height": 906,
+     "credit": "Maximilian Dörrbecker (Chumwa) · CC BY-SA 2.5 · Wikimedia Commons",
+     "license": "CC BY-SA 2.5",
+     "page": "https://commons.wikimedia.org/wiki/File:M%C3%BCnchen_-_Allianz-Arena_(Luftbild).jpg",
+     "wikidata": "Q127429",
+     "label": "Allianz Arena"
+    }
    }
   },
   "soccer:20830": {
@@ -16490,7 +18454,18 @@
     "opened": 2003,
     "location": "Lisbon",
     "lat": 38.7528,
-    "lng": -9.1847
+    "lng": -9.1847,
+    "photoCheckedAt": "2026-10-15T08:02:33.099Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/LuzLissabon.jpg/1920px-LuzLissabon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 583,
+     "credit": "Massimo Catarinella · CC BY 3.0 · Wikimedia Commons",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/wiki/File:LuzLissabon.jpg",
+     "wikidata": "Q7875112",
+     "label": "Estádio da Luz"
+    }
    }
   },
   "soccer:19970": {
@@ -16659,7 +18634,8 @@
     "opened": 1925,
     "location": "Paris, France",
     "lat": 48.843056,
-    "lng": 2.252778
+    "lng": 2.252778,
+    "photoCheckedAt": "2026-10-15T08:02:33.099Z"
    }
   },
   "soccer:19258": {
@@ -16693,7 +18669,18 @@
     "opened": 1928,
     "location": "Rome",
     "lat": 41.933889,
-    "lng": 12.454722
+    "lng": 12.454722,
+    "photoCheckedAt": "2026-10-15T08:02:33.099Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Stadio_Olimpico_2024.jpg/1920px-Stadio_Olimpico_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 809,
+     "credit": "Messapi, cropped by Blackcat · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Stadio_Olimpico_2024.jpg",
+     "wikidata": "Q159884",
+     "label": "Estadio Olímpico de Roma"
+    }
    }
   },
   "soccer:20835": {
@@ -16722,7 +18709,18 @@
     "opened": 2003,
     "location": "Lancy, Geneva",
     "lat": 46.177778,
-    "lng": 6.1275
+    "lng": 6.1275,
+    "photoCheckedAt": "2026-10-15T08:02:33.099Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/The_Stade_de_Gen%C3%A8ve_during_a_UEFA_Europa_Conference_League_match_between_Servette_and_Viktoria_Pilsen._%282023%29.jpg/1920px-The_Stade_de_Gen%C3%A8ve_during_a_UEFA_Europa_Conference_League_match_between_Servette_and_Viktoria_Pilsen._%282023%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1200,
+     "credit": "Vincenzo.togni · CC BY 4.0 · Wikimedia Commons",
+     "license": "CC BY 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:The_Stade_de_Gen%C3%A8ve_during_a_UEFA_Europa_Conference_League_match_between_Servette_and_Viktoria_Pilsen._(2023).jpg",
+     "wikidata": "Q215295",
+     "label": "Stade de Genève"
+    }
    }
   },
   "rugby:25912": {
@@ -16751,7 +18749,18 @@
     "opened": 1924,
     "location": "Bordeaux",
     "lat": 44.829167,
-    "lng": -0.597778
+    "lng": -0.597778,
+    "photoCheckedAt": "2026-10-15T08:02:48.969Z",
+    "photo": {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Stade_Chaban-Delmas_Rugby.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1600,
+     "height": 630,
+     "credit": "R4gn0r0ck · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Stade_Chaban-Delmas_Rugby.jpg",
+     "wikidata": "Q386547",
+     "label": "Stade Jacques Chaban-Delmas"
+    }
    }
   },
   "rugby:25916": {
@@ -16772,7 +18781,18 @@
     "opened": 1907,
     "location": "Castres",
     "lat": 43.610833,
-    "lng": 2.252778
+    "lng": 2.252778,
+    "photoCheckedAt": "2026-10-15T08:02:50.540Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Stade_Jean_Pierre-Antoine_%281%29.jpg/1920px-Stade_Jean_Pierre-Antoine_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1200,
+     "credit": "Roudière · CC BY-SA 3.0 · Wikimedia Commons",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Stade_Jean_Pierre-Antoine_(1).jpg",
+     "wikidata": "Q1164917",
+     "label": "Estadio Pierre-Fabre"
+    }
    }
   },
   "rugby:25917": {
@@ -16796,7 +18816,8 @@
     "opened": 1926,
     "location": "La Rochelle",
     "lat": 46.158056,
-    "lng": -1.178056
+    "lng": -1.178056,
+    "photoCheckedAt": "2026-10-15T08:02:53.138Z"
    }
   },
   "rugby:143736": {
@@ -16845,7 +18866,8 @@
     "opened": 1925,
     "location": "Paris, France",
     "lat": 48.843056,
-    "lng": 2.252778
+    "lng": 2.252778,
+    "photoCheckedAt": "2026-10-15T08:02:53.138Z"
    }
   },
   "rugby:25922": {
@@ -16870,7 +18892,18 @@
     "opened": 1983,
     "location": "Toulouse",
     "lat": 43.621944,
-    "lng": 1.416111
+    "lng": 1.416111,
+    "photoCheckedAt": "2026-10-15T08:02:55.649Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Stade_Ernest_Wallon_2021_cropped.jpg/1920px-Stade_Ernest_Wallon_2021_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1067,
+     "credit": "Frédéric Neupont; cropped by Blackcat · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Stade_Ernest_Wallon_2021_cropped.jpg",
+     "wikidata": "Q1668813",
+     "label": "Estadio Ernest-Wallon"
+    }
    }
   },
   "rugby:25986": {
@@ -16901,7 +18934,18 @@
     "opened": 1894,
     "location": "Bath",
     "lat": 51.382222,
-    "lng": -2.355278
+    "lng": -2.355278,
+    "photoCheckedAt": "2026-10-15T08:03:02.004Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Bath_Rec%2C_cricket_pavilion%2C_from_east.jpg/1920px-Bath_Rec%2C_cricket_pavilion%2C_from_east.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1200,
+     "credit": "Rwendland · CC BY-SA 3.0 · Wikimedia Commons",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Bath_Rec,_cricket_pavilion,_from_east.jpg",
+     "wikidata": "Q26675881",
+     "label": "Sports pavilion at the Bath Recreation Ground"
+    }
    }
   },
   "rugby:25899": {
@@ -16928,7 +18972,8 @@
     "opened": 1887,
     "location": "Bristol, England",
     "lat": 51.44,
-    "lng": -2.620278
+    "lng": -2.620278,
+    "photoCheckedAt": "2026-10-15T08:03:02.005Z"
    }
   },
   "rugby:116227": {
@@ -16994,7 +19039,8 @@
     "opened": 1963,
     "location": "Twickenham, London, England",
     "lat": 51.450278,
-    "lng": -0.344167
+    "lng": -0.344167,
+    "photoCheckedAt": "2026-10-15T08:03:04.845Z"
    }
   },
   "rugby:25903": {
@@ -17018,7 +19064,18 @@
     "opened": 1892,
     "location": "Leicester, England",
     "lat": 52.624167,
-    "lng": -1.133056
+    "lng": -1.133056,
+    "photoCheckedAt": "2026-10-15T08:03:06.992Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Leicester_tigers_new_stand.jpg/1920px-Leicester_tigers_new_stand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1060,
+     "credit": "Parrot of Doom · CC BY-SA 3.0 · Wikimedia Commons",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Leicester_tigers_new_stand.jpg",
+     "wikidata": "Q1210262",
+     "label": "Welford Road Stadium"
+    }
    }
   },
   "rugby:25906": {
@@ -17049,7 +19106,18 @@
     "opened": 1880,
     "location": "Northampton",
     "lat": 52.239444,
-    "lng": -0.919722
+    "lng": -0.919722,
+    "photoCheckedAt": "2026-10-15T08:03:14.300Z",
+    "photo": {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Northampton_v_Worcester_2017_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1600,
+     "height": 1067,
+     "credit": "Original photograph by David Jones; cropped by Blackcat · CC BY 2.0 · Wikimedia Commons",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Northampton_v_Worcester_2017_cropped.jpg",
+     "wikidata": "Q626464",
+     "label": "Franklin's Gardens"
+    }
    }
   },
   "rugby:25908": {
@@ -17074,7 +19142,18 @@
     "opened": 2012,
     "location": "Salford, Greater Manchester",
     "lat": 53.469444,
-    "lng": -2.375
+    "lng": -2.375,
+    "photoCheckedAt": "2026-10-15T08:03:15.919Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Salford_City_Stadium_-_geograph.org.uk_-_2865260.jpg/1920px-Salford_City_Stadium_-_geograph.org.uk_-_2865260.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1031,
+     "credit": "Anthony Parkes · CC BY-SA 2.0 · Wikimedia Commons",
+     "license": "CC BY-SA 2.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Salford_City_Stadium_-_geograph.org.uk_-_2865260.jpg",
+     "wikidata": "Q3469727",
+     "label": "Salford City Stadium"
+    }
    }
   },
   "rugby:25909": {
@@ -17099,7 +19178,18 @@
     "opened": 1993,
     "location": "North Hendon, London",
     "lat": 51.603611,
-    "lng": -0.223611
+    "lng": -0.223611,
+    "photoCheckedAt": "2026-10-15T08:03:19.489Z",
+    "photo": {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Allianz_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1600,
+     "height": 1200,
+     "credit": "oatsy40 from London · CC BY 2.0 · Wikimedia Commons",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Allianz_Park.jpg",
+     "wikidata": "Q4861594",
+     "label": "Barnet Copthall"
+    }
    }
   },
   "rugby:25927": {
@@ -17125,7 +19215,18 @@
     "opened": 1970,
     "location": "Monigo, Treviso",
     "lat": 45.6802,
-    "lng": 12.2134
+    "lng": 12.2134,
+    "photoCheckedAt": "2026-10-15T08:03:21.112Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Stadio_Monigo_%2C_Treviso_vs_Scarlets_-_panoramio.jpg/1920px-Stadio_Monigo_%2C_Treviso_vs_Scarlets_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1071,
+     "credit": "cisko66 · CC BY 3.0 · Wikimedia Commons",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Stadio_Monigo_,_Treviso_vs_Scarlets_-_panoramio.jpg",
+     "wikidata": "Q1638702",
+     "label": "Stadio di Monigo"
+    }
    }
   },
   "rugby:25953": {
@@ -17149,7 +19250,8 @@
     "opened": 1923,
     "location": "Arcadia, Pretoria, Gauteng",
     "lat": -25.753333,
-    "lng": 28.222778
+    "lng": 28.222778,
+    "photoCheckedAt": "2026-10-15T08:03:21.112Z"
    }
   },
   "rugby:25965": {
@@ -17175,7 +19277,18 @@
     "opened": 1969,
     "location": "Cardiff, Wales",
     "lat": 51.479722,
-    "lng": -3.183611
+    "lng": -3.183611,
+    "photoCheckedAt": "2026-10-15T08:03:23.232Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Cardiff_Arms_Park_and_Millennium_Stadium.jpg/1920px-Cardiff_Arms_Park_and_Millennium_Stadium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1016,
+     "credit": "Seth Whales · Public domain · Wikimedia Commons",
+     "license": "Public domain",
+     "page": "https://commons.wikimedia.org/wiki/File:Cardiff_Arms_Park_and_Millennium_Stadium.jpg",
+     "wikidata": "Q432321",
+     "label": "Cardiff Arms Park"
+    }
    }
   },
   "rugby:25923": {
@@ -17201,7 +19314,18 @@
     "opened": 1928,
     "location": "Galway",
     "lat": 53.279,
-    "lng": -9.0397
+    "lng": -9.0397,
+    "photoCheckedAt": "2026-10-15T08:03:24.857Z",
+    "photo": {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Galway_Sportsgrounds_-_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1600,
+     "height": 1200,
+     "credit": "James Gallagher from Galway, Ireland · CC BY-SA 2.0 · Wikimedia Commons",
+     "license": "CC BY-SA 2.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Galway_Sportsgrounds_-_2.jpg",
+     "wikidata": "Q1619101",
+     "label": "Dexcom Stadium"
+    }
    }
   },
   "rugby:25967": {
@@ -17225,7 +19349,18 @@
     "opened": 1877,
     "location": "Newport, Wales",
     "lat": 51.588333,
-    "lng": -2.987778
+    "lng": -2.987778,
+    "photoCheckedAt": "2026-10-15T08:03:24.857Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Rodney_Parade_Newport_2020.jpg/1920px-Rodney_Parade_Newport_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1200,
+     "credit": "COYB01 · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Rodney_Parade_Newport_2020.jpg",
+     "wikidata": "Q2343802",
+     "label": "Rodney Parade"
+    }
    }
   },
   "rugby:25951": {
@@ -17251,7 +19386,8 @@
     "opened": 2021,
     "location": "Edinburgh",
     "lat": 55.941667,
-    "lng": -3.244167
+    "lng": -3.244167,
+    "photoCheckedAt": "2026-10-15T08:03:27.264Z"
    }
   },
   "rugby:25952": {
@@ -17275,7 +19411,8 @@
     "opened": 1915,
     "location": "Glasgow",
     "lat": 55.8811,
-    "lng": -4.3418
+    "lng": -4.3418,
+    "photoCheckedAt": "2026-10-15T08:03:28.604Z"
    }
   },
   "rugby:25924": {
@@ -17302,7 +19439,8 @@
     "opened": 2010,
     "location": "Dublin, Ireland",
     "lat": 53.335278,
-    "lng": -6.228333
+    "lng": -6.228333,
+    "photoCheckedAt": "2026-10-15T08:03:28.604Z"
    }
   },
   "rugby:25958": {
@@ -17328,7 +19466,18 @@
     "opened": 1928,
     "location": "Johannesburg",
     "lat": -26.1975,
-    "lng": 28.060833
+    "lng": 28.060833,
+    "photoCheckedAt": "2026-10-15T08:03:30.588Z",
+    "photo": {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Ellis_Park_Stadium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1600,
+     "height": 1064,
+     "credit": "Leglo09 · CC BY-SA 2.0 · Wikimedia Commons",
+     "license": "CC BY-SA 2.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Ellis_Park_Stadium.jpg",
+     "wikidata": "Q182081",
+     "label": "Estadio Ellis Park"
+    }
    }
   },
   "rugby:25925": {
@@ -17371,7 +19520,8 @@
     "capacity": 8000,
     "location": "Brynmill, Swansea",
     "lat": 51.6125,
-    "lng": -3.965556
+    "lng": -3.965556,
+    "photoCheckedAt": "2026-10-15T08:03:32.073Z"
    }
   },
   "rugby:25966": {
@@ -17426,7 +19576,18 @@
     "opened": 2009,
     "location": "Cape Town, South Africa",
     "lat": -33.903333,
-    "lng": 18.411111
+    "lng": 18.411111,
+    "photoCheckedAt": "2026-10-15T08:03:33.862Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/2011-02-06_14-57-32_South_Africa_-_Bakoven.jpg/1920px-2011-02-06_14-57-32_South_Africa_-_Bakoven.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1063,
+     "credit": "Hansueli Krapf This file was uploaded with Commonist. · CC BY-SA 3.0 · Wikimedia Commons",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/wiki/File:2011-02-06_14-57-32_South_Africa_-_Bakoven.jpg",
+     "wikidata": "Q173559",
+     "label": "Estadio Green Point"
+    }
    }
   },
   "rugby:25926": {
@@ -17455,7 +19616,18 @@
     "opened": 1923,
     "location": "Belfast",
     "lat": 54.576389,
-    "lng": -5.904444
+    "lng": -5.904444,
+    "photoCheckedAt": "2026-10-15T08:03:35.455Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Ravenhill_new_Stand.jpg/1920px-Ravenhill_new_Stand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1067,
+     "credit": "Aaronsc at English Wikipedia · Public domain · Wikimedia Commons",
+     "license": "Public domain",
+     "page": "https://commons.wikimedia.org/wiki/File:Ravenhill_new_Stand.jpg",
+     "wikidata": "Q887517",
+     "label": "Estadio Ravenhill"
+    }
    }
   },
   "rugby:167124": {
@@ -17505,7 +19677,8 @@
     "opened": 1993,
     "location": "Anaheim, CA",
     "lat": 33.807778,
-    "lng": -117.876667
+    "lng": -117.876667,
+    "photoCheckedAt": "2026-10-15T08:03:37.003Z"
    }
   },
   "hockey:1": {
@@ -17581,7 +19754,18 @@
     "opened": 1983,
     "location": "Calgary, AB",
     "lat": 51.0375,
-    "lng": -114.051944
+    "lng": -114.051944,
+    "photoCheckedAt": "2026-10-15T08:03:38.921Z",
+    "photo": {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/2020_Calgary_Saddledome.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1600,
+     "height": 1067,
+     "credit": "AceYYC · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:2020_Calgary_Saddledome.jpg",
+     "wikidata": "Q1140083",
+     "label": "Scotiabank Saddledome"
+    }
    }
   },
   "hockey:7": {
@@ -17744,7 +19928,18 @@
     "opened": 2016,
     "location": "Edmonton, Alberta, Canada",
     "lat": 53.546944,
-    "lng": -113.497778
+    "lng": -113.497778,
+    "photoCheckedAt": "2026-10-15T08:03:41.250Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Rogers_Place%2C_Edmonton%2C_June_6%2C_2024.jpg/1920px-Rogers_Place%2C_Edmonton%2C_June_6%2C_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1067,
+     "credit": "D. Benjamin Miller · CC0 · Wikimedia Commons",
+     "license": "CC0",
+     "page": "https://commons.wikimedia.org/wiki/File:Rogers_Place,_Edmonton,_June_6,_2024.jpg",
+     "wikidata": "Q5339036",
+     "label": "Rogers Place"
+    }
    }
   },
   "hockey:26": {
@@ -17768,7 +19963,18 @@
     "opened": 1998,
     "location": "Sunrise, FL",
     "lat": 26.158333,
-    "lng": -80.325556
+    "lng": -80.325556,
+    "photoCheckedAt": "2026-10-15T08:03:42.871Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/BB%26TCenterAerial.jpg/1920px-BB%26TCenterAerial.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 830,
+     "credit": "Yanjipy · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:BB%26TCenterAerial.jpg",
+     "wikidata": "Q795526",
+     "label": "Amerant Bank Arena"
+    }
    }
   },
   "hockey:8": {
@@ -17916,7 +20122,18 @@
     "opened": 2021,
     "location": "Elmont, NY",
     "lat": 40.71179,
-    "lng": -73.72604
+    "lng": -73.72604,
+    "photoCheckedAt": "2026-10-15T08:03:44.325Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Belmont_Park_td_%282021-12-19%29_018_-_UBS_Arena.jpg/1920px-Belmont_Park_td_%282021-12-19%29_018_-_UBS_Arena.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1067,
+     "credit": "Tdorante10 · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Belmont_Park_td_(2021-12-19)_018_-_UBS_Arena.jpg",
+     "wikidata": "Q48742753",
+     "label": "UBS Arena"
+    }
    }
   },
   "hockey:13": {
@@ -17945,7 +20162,18 @@
     "opened": 1964,
     "location": "New York City, New York",
     "lat": 40.750556,
-    "lng": -73.993611
+    "lng": -73.993611,
+    "photoCheckedAt": "2026-10-15T08:03:44.325Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Madison_Square_Garden_%28MSG%29_-_Full_%2848124330357%29.jpg/1920px-Madison_Square_Garden_%28MSG%29_-_Full_%2848124330357%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 900,
+     "credit": "Ajay Suresh from New York, NY, USA · CC BY 2.0 · Wikimedia Commons",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Madison_Square_Garden_(MSG)_-_Full_(48124330357).jpg",
+     "wikidata": "Q186125",
+     "label": "Madison Square Garden"
+    }
    }
   },
   "hockey:14": {
@@ -17992,7 +20220,8 @@
     "opened": 1996,
     "location": "Philadelphia, PA",
     "lat": 39.901111,
-    "lng": -75.171944
+    "lng": -75.171944,
+    "photoCheckedAt": "2026-10-15T08:03:44.325Z"
    }
   },
   "hockey:16": {
@@ -18142,7 +20371,18 @@
     "opened": 1999,
     "location": "Toronto, Ontario",
     "lat": 43.643333,
-    "lng": -79.379167
+    "lng": -79.379167,
+    "photoCheckedAt": "2026-10-15T08:03:44.325Z",
+    "photo": {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Air_Canada_Centre_and_CN_Tower_from_Bay_St.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1600,
+     "height": 1200,
+     "credit": "Secondarywaltz · Public domain · Wikimedia Commons",
+     "license": "Public domain",
+     "page": "https://commons.wikimedia.org/wiki/File:Air_Canada_Centre_and_CN_Tower_from_Bay_St.jpg",
+     "wikidata": "Q406972",
+     "label": "Scotiabank Arena"
+    }
    }
   },
   "hockey:129764": {
@@ -18215,7 +20455,18 @@
     "opened": 2016,
     "location": "Paradise, Nevada",
     "lat": 36.102778,
-    "lng": -115.178333
+    "lng": -115.178333,
+    "photoCheckedAt": "2026-10-15T08:03:56.076Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/T_Mobile_Arena_The_Strip_Las_Vegas_%2829798246202%29.jpg/1920px-T_Mobile_Arena_The_Strip_Las_Vegas_%2829798246202%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 877,
+     "credit": "Tomás Del Coro from Las Vegas, Nevada, USA · CC BY-SA 2.0 · Wikimedia Commons",
+     "license": "CC BY-SA 2.0",
+     "page": "https://commons.wikimedia.org/wiki/File:T_Mobile_Arena_The_Strip_Las_Vegas_(29798246202).jpg",
+     "wikidata": "Q3338973",
+     "label": "T-Mobile Arena"
+    }
    }
   },
   "hockey:23": {
@@ -18265,7 +20516,18 @@
     "opened": 2004,
     "location": "Winnipeg, MB",
     "lat": 49.892778,
-    "lng": -97.143611
+    "lng": -97.143611,
+    "photoCheckedAt": "2026-10-15T08:03:57.796Z",
+    "photo": {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/MTS_CENTRE_b.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1600,
+     "height": 843,
+     "credit": "Wpg guy · CC0 · Wikimedia Commons",
+     "license": "CC0",
+     "page": "https://commons.wikimedia.org/wiki/File:MTS_CENTRE_b.jpg",
+     "wikidata": "Q656928",
+     "label": "Canada Life Centre"
+    }
    }
   },
   "baseball:29": {
@@ -18312,7 +20574,18 @@
     "opened": 2000,
     "location": "West Sacramento, California",
     "lat": 38.580372,
-    "lng": -121.5138
+    "lng": -121.5138,
+    "photoCheckedAt": "2026-10-15T08:03:59.322Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Rivercats_at_Raley_Field2.JPG/1920px-Rivercats_at_Raley_Field2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1200,
+     "credit": "Mark Miller · CC BY-SA 3.0 · Wikimedia Commons",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Rivercats_at_Raley_Field2.JPG",
+     "wikidata": "Q3418115",
+     "label": "Sutter Health Park"
+    }
    }
   },
   "baseball:15": {
@@ -18536,7 +20809,18 @@
     "opened": 2000,
     "location": "Houston, TX",
     "lat": 29.756944,
-    "lng": -95.355556
+    "lng": -95.355556,
+    "photoCheckedAt": "2026-10-15T08:04:01.967Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Minute_Maid_Park_2010.JPG/1920px-Minute_Maid_Park_2010.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1200,
+     "credit": "Delaywaves · CC BY 3.0 · Wikimedia Commons",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Minute_Maid_Park_2010.JPG",
+     "wikidata": "Q1193671",
+     "label": "Daikin Park"
+    }
    }
   },
   "baseball:7": {
@@ -18755,7 +21039,18 @@
     "opened": 2001,
     "location": "Pittsburgh, PA, USA",
     "lat": 40.446944,
-    "lng": -80.005833
+    "lng": -80.005833,
+    "photoCheckedAt": "2026-10-15T08:04:03.918Z",
+    "photo": {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Pedro_goes_to_Pittsburgh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1600,
+     "height": 1067,
+     "credit": "alpineinc · CC BY 2.0 · Wikimedia Commons",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Pedro_goes_to_Pittsburgh.jpg",
+     "wikidata": "Q1151177",
+     "label": "PNC Park"
+    }
    }
   },
   "baseball:25": {
@@ -18873,7 +21168,18 @@
     "opened": 2020,
     "location": "Arlington, Texas",
     "lat": 32.747361,
-    "lng": -97.084167
+    "lng": -97.084167,
+    "photoCheckedAt": "2026-10-15T08:04:05.556Z",
+    "photo": {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Globe_Life_Park_in_2018.jpg/1920px-Globe_Life_Park_in_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1200,
+     "credit": "KENGRIFFEY24FAN · CC BY-SA 4.0 · Wikimedia Commons",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Globe_Life_Park_in_2018.jpg",
+     "wikidata": "Q1634492",
+     "label": "Rangers Ballpark in Arlington"
+    }
    }
   },
   "baseball:14": {

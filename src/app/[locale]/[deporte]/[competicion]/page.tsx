@@ -2,6 +2,8 @@ import Link from 'next/link';
 import { setRequestLocale } from 'next-intl/server';
 import { competitionsOf, competitionPath, getCompetition } from '@/lib/competitions';
 import { TodayBoard } from '@/components/portal/today-board';
+import { fetchCompetitionPress } from '@/lib/press-feeds';
+import { PressCarousel } from '@/components/portal/press-carousel';
 import { StandingsTable } from '@/components/portal/standings-table';
 import { CompetitionHeader } from '@/components/portal/competition-header';
 import { OpenAcbStats } from '@/components/portal/openacb-stats';
@@ -48,6 +50,7 @@ export default async function CompetitionPage({ params }: { params: Params }) {
     </div>
   );
 
+  const press = soon ? [] : await fetchCompetitionPress(c);
   return (
     <main className="pt-28" data-sport={s.slug}>
       <CompetitionHeader s={s} c={c} locale={locale} section="inicio" title={c.name} description={c.description} />
@@ -80,6 +83,8 @@ export default async function CompetitionPage({ params }: { params: Params }) {
           {c.hasStandings && more('clasificacion', 'Clasificación completa')}
         </>
       )}
+
+      {press.length >= 3 && <PressCarousel items={press} title={`Lo último de ${c.shortName ?? c.name} en los medios`} />}
 
       {siblings.length > 0 && (
         <section className="mx-auto w-full max-w-[1400px] px-6 pb-16 md:px-10">

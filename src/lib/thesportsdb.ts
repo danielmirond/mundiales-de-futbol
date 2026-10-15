@@ -8,8 +8,13 @@ import snapshot from '@/data/thesportsdb-snapshot.json';
 
 export const TSDB_SITE = 'https://www.thesportsdb.com';
 
+/** Foto del estadio en Wikimedia Commons (vía Wikidata P18), con licencia libre. */
+export type VenuePhoto = { url: string; width: number; height: number; credit: string; license: string; page: string; wikidata: string; label: string };
 export type ClubVenue = {
   name: string;
+  photo?: VenuePhoto;
+  /** Última búsqueda de foto (con o sin resultado), para no repetirla cada mes. */
+  photoCheckedAt?: string;
   alternate?: string[];
   capacity?: number;
   opened?: number;
