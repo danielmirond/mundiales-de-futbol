@@ -141,6 +141,138 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'lovseth-kona-ironman-2026-caida-ultima-milla-knibb',
+    title: 'Solveig Løvseth se fue al suelo tres veces a una milla de ganar otra vez en Kona',
+    summary: 'La noruega, campeona del mundo de Ironman en 2025, bajó Palani Hill con casi dos minutos de ventaja y se desplomó en la última milla de Kona. Taylor Knibb, que había vomitado en el maratón, la pasó a un kilómetro de la meta y ganó el título. Løvseth acabó octava.',
+    body: `Solveig Løvseth tenía el segundo título mundial de Ironman a menos de una milla. La noruega había bajado Palani Hill, la última cuesta antes de entrar en Kailua-Kona, con casi dos minutos de ventaja sobre Taylor Knibb. Entonces se paró. Cayó al asfalto, se levantó, caminó unos metros y volvió a caer. A un kilómetro de la meta estaba otra vez en el suelo.
+
+Knibb la pasó ahí y ganó el Campeonato del Mundo de Ironman 2026, disputado en Hawái, con un tiempo de 8:36:29. Løvseth terminó, pero octava, en 9:02:09.
+
+## La carrera que se dio la vuelta dos veces
+
+Lo raro es que Knibb también iba mal. La estadounidense volvió del Energy Lab, el tramo más caluroso del maratón, vomitando y perdiendo terreno. Løvseth la alcanzó y la adelantó en el avituallamiento del kilómetro 21. Durante buena parte de la segunda mitad del maratón parecía que la historia de 2025 se repetía con los papeles al revés.
+
+Porque en 2025 pasó exactamente lo contrario: Løvseth ganó en su debut en Kona (8:28:27) en una carrera en la que el calor dejó fuera a Knibb durante el maratón. Este año el calor eligió a la otra.
+
+## El podio
+
+| Puesto | Triatleta | Tiempo |
+| --- | --- | --- |
+| 1 | Taylor Knibb (EE. UU.) | 8:36:29 |
+| 2 | Laura Philipp (Alemania) | 8:39:34 |
+| 3 | Julie Derron (Suiza) | 8:46:25 |
+| 8 | Solveig Løvseth (Noruega) | 9:02:09 |
+
+En la carrera masculina ganó el francés Vincent Luis, también en su debut en Kona, tras quitarle el liderato al danés Magnus Ditlev en el avituallamiento de la milla 21.
+
+## Por qué Kona hace esto
+
+El maratón del Ironman de Hawái se corre por la carretera Queen Kaʻahumanu y el Energy Lab, asfalto negro sobre roca volcánica, sin sombra y con humedad alta. Después de 3,8 km nadando y 180 km en bici, el cuerpo llega con la reserva de agua y sales al límite. Los desplomes en la última milla forman parte de la historia de la prueba desde que Julie Moss se arrastró hasta la meta en 1982.
+
+Knibb lo había advertido antes de la salida, según recoge Slowtwitch: el momento en que te pones a correr contra las demás es el momento en que te vienes abajo. Ganó la que aguantó un kilómetro más.`,
+    category: 'curiosa',
+    kind: 'noticia',
+    competition: { name: 'Ironman', sport: 'triatlon', slug: 'ironman' },
+    sourceName: 'Slowtwitch',
+    sourceUrl: 'https://slowtwitch.com/?p=91074',
+    sourceLang: 'en',
+    publishedAt: '2026-10-15T20:30:00+02:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Tri247', url: 'https://www.tri247.com/triathlon-news/elite/ironman-world-championship-kona-2026-solveig-lovseth-collapse' },
+      { name: 'Tri247', url: 'https://www.tri247.com/triathlon-news/elite/ironman-world-championship-kona-2026-solveig-lovseth-reaction' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Iron_man_finish_Alii_drive_course_Kailua_Kona_Big_island_Hawaii_%2846276765411%29.jpg/1280px-Iron_man_finish_Alii_drive_course_Kailua_Kona_Big_island_Hawaii_%2846276765411%29.jpg',
+      alt: 'Zona de meta del Ironman en Alii Drive, Kailua-Kona (Hawái)',
+      credit: 'dronepicr · Wikimedia Commons',
+      license: 'CC BY 2.0',
+    },
+  },
+  {
+    slug: 'michael-jordan-donacion-unc-madre-deloris-trabajo-social',
+    title: 'Michael Jordan vuelve a Chapel Hill 40 años después con un regalo en nombre de su madre',
+    summary: 'Michael Jordan ha donado 10 millones de dólares a la Escuela de Trabajo Social de la Universidad de Carolina del Norte en honor a su madre, Deloris, que lleva casi 40 años vinculada a ese centro. Es el mayor regalo individual de su historia y pagará becas de máster.',
+    body: `Michael Jordan se licenció en la Universidad de Carolina del Norte en 1986, dos años después de dejarla para jugar en la NBA. Cuarenta años más tarde ha vuelto con un cheque de 10 millones de dólares, pero no para el baloncesto: va a la Escuela de Trabajo Social, y lleva el nombre de su madre.
+
+La donación se anunció el 5 de octubre en el campus de Chapel Hill. Es el mayor regalo individual en la historia de la escuela, según la propia universidad.
+
+## A qué se destina
+
+- **Un centro con el nombre de Deloris.** El Centro de Innovaciones para el Desarrollo Social Global se amplía y pasa a llamarse Deloris P. Jordan Global Social Development Innovations Center.
+- **El Jordan Institute for Families.** La familia Jordan lo fundó a mediados de los noventa dentro de la misma escuela; trabaja en salud, cuidados, visitas a domicilio, salud mental y apoyo económico a familias.
+- **Becas para el máster en Trabajo Social.** La universidad no ha detallado cuántas ni de qué cuantía.
+
+## Por qué Trabajo Social y no baloncesto
+
+Deloris P. Jordan lleva casi 40 años vinculada a la Escuela de Trabajo Social de UNC. Habló en el acto, junto a la decana Ramona Denby-Brinson y el rector Lee Roberts. Su hijo explicó el porqué con una frase corta: «Mi madre siempre ha creído en el poder de ayudar a los niños, a las familias y a las comunidades». Y añadió otra que en Chapel Hill se va a repetir mucho: «Carolina del Norte siempre será mi casa».
+
+## No es la primera
+
+Jordan nació en Brooklyn pero creció en Wilmington, en la costa de Carolina del Norte. En noviembre de 2025 donó otros 10 millones al hospital Novant Health New Hanover de esa ciudad para su instituto de neurociencia, también en honor a su madre.
+
+En la pista, UNC fue donde metió el tiro que dio el título universitario de 1982 a los Tar Heels, siendo novato. Fuera de ella, el nombre que va a quedar en el edificio es el de Deloris.`,
+    category: 'curiosa',
+    kind: 'noticia',
+    competition: { name: 'NBA', sport: 'baloncesto', slug: 'nba' },
+    sourceName: 'WSOC-TV',
+    sourceUrl: 'https://www.wsoctv.com/news/local/michael-jordan-donates-10m-unc-mothers-honor/DNCE747MYNFZ3LIUWGDI2VOCVA/',
+    sourceLang: 'en',
+    publishedAt: '2026-10-15T20:15:00+02:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'WBTV', url: 'https://www.wbtv.com/2025/11/21/basketball-legend-michael-jordan-donates-10-million-north-carolina-hospital' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/c/cf/Michael_Jordan_1984_by_UPI.jpg',
+      alt: 'Michael Jordan en Chapel Hill en mayo de 1984, cuando anunció que dejaba UNC para jugar en la NBA',
+      credit: 'United Press International · Wikimedia Commons',
+      license: 'Dominio público',
+    },
+  },
+  {
+    slug: 'haaland-villa-abu-dabi-manchester-city-yas-residences-guardiola',
+    title: 'Haaland se compra una casa en Abu Dabi, en un barrio con el nombre del Manchester City',
+    summary: 'Erling Haaland ha comprado una villa de cinco dormitorios en Manchester City Yas Residences, una urbanización de marca del club en Abu Dabi. Su padre, Alfie, recogió ya las llaves de la suya. Y el embajador del proyecto es Pep Guardiola. Las obras se entregan a partir de 2029.',
+    body: `Erling Haaland juega en Manchester, pero su próxima casa estará en Abu Dabi. El delantero noruego apareció por vídeo el 12 de octubre en la presentación de la segunda fase de Manchester City Yas Residences, una urbanización de la promotora Ohana Development con la marca del club, y la promotora lo anunció como propietario de una villa de cinco dormitorios para su familia.
+
+No es el único Haaland del barrio. Su padre, Alfie Haaland, exjugador del City, recogió en el mismo acto las llaves de su propia vivienda en la urbanización.
+
+## Guardiola, de entrenador a embajador
+
+El acto, en el Etihad Arena, tuvo otro nombre conocido: Pep Guardiola, ya exentrenador del Manchester City, fue presentado como embajador oficial de la marca del proyecto y habló sobre trabajo en equipo, disciplina y bienestar. El club y la ciudad están unidos por la propiedad: el Manchester City pertenece al City Football Group, controlado desde Abu Dabi.
+
+## Cómo es la urbanización
+
+- **Ubicación:** junto al Yas Canal, al lado de la isla de Yas.
+- **Tamaño:** más de 2.000 viviendas en una parcela de 1,67 millones de metros cuadrados.
+- **Tipos:** adosados de dos y tres dormitorios, villas dúplex y villas de cuatro y cinco dormitorios.
+- **Instalaciones:** parque propio, campos de fútbol, academia de entrenamiento, pistas de tenis y baloncesto y gimnasios.
+- **Precio de referencia:** la promotora anuncia los adosados de dos dormitorios a una media de 3,75 millones de dírhams (unos 880.000 euros). No ha dado precio de las villas.
+- **Plazos:** la venta de la segunda fase empieza el 19 de octubre de 2026 y las primeras entregas están previstas para 2029.
+
+## Lo que no se sabe
+
+Ni el precio de la villa de Haaland ni su tamaño. Gulf News presenta la compra como información de la promotora, y el jugador no ha hecho declaraciones más allá del vídeo del lanzamiento. Su contrato con el City llega hasta 2034, así que, si los plazos se cumplen, tendrá las llaves con varios años de Premier League por delante.`,
+    category: 'curiosa',
+    kind: 'noticia',
+    competition: { name: 'Premier League', sport: 'futbol', slug: 'premier-league' },
+    sourceName: 'Gulf News',
+    sourceUrl: 'https://gulfnews.com/sport/erling-haaland-buys-five-bedroom-villa-at-abu-dhabi-development-1.500707182',
+    sourceLang: 'en',
+    publishedAt: '2026-10-15T20:00:00+02:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Zawya (comunicado de Ohana Development)', url: 'https://www.zawya.com/en/press-release/companies-news/ohana-development-announces-erling-haaland-as-a-proud-homeowner-at-manchester-city-yas-residences-by-ohana-during-phase-2-launch-1589125' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Paris_Saint-Germain_-_Manchester_City_FC%2C_22_January_2025_%2851%29.jpg/1280px-Paris_Saint-Germain_-_Manchester_City_FC%2C_22_January_2025_%2851%29.jpg',
+      alt: 'El Manchester City en el partido de Champions contra el PSG en París, enero de 2025',
+      credit: 'Like tears in rain · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
     slug: 'verstappen-rossi-portimao-gt-world-challenge-como-ver-gratis',
     title: 'Verstappen contra Rossi en Portimão: cómo ver gratis su duelo en GT3 desde España',
     summary: 'Max Verstappen y Valentino Rossi comparten parrilla este sábado en la final del GT World Challenge Europe en Portimão. No es Fórmula 1: son tres horas de carrera con 61 coches de GT3, y en España se pueden ver en directo y gratis en DAZN. Horarios, equipos y quién corre con quién.',
