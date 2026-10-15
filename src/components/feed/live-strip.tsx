@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { buildLiveFeed, type FeedCard } from '@/lib/live-feed';
 import { BrandSymbol } from '@/components/brand/brand-mark';
+import { AutoSwipe } from './auto-swipe';
 import { routing, type Locale } from '@/i18n/routing';
 
 const withLocale = (l: Locale, h: string) => (l === routing.defaultLocale ? h : `/${l}${h}`);
@@ -70,14 +71,14 @@ export async function LiveStrip({ locale, sport, title = 'Lo último, deslizando
           <BrandSymbol size={16} />Abrir el directo
         </Link>
       </div>
-      <div className="no-scrollbar -mx-6 mt-5 flex snap-x gap-3 overflow-x-auto px-6 pb-2 md:-mx-10 md:px-10">
+      <AutoSwipe className="no-scrollbar -mx-6 mt-5 flex snap-x scroll-px-6 gap-3 overflow-x-auto px-6 pb-2 md:-mx-10 md:scroll-px-10 md:px-10">
         {cards.map((c, i) => (
           <Link key={c.id} href={`${href}#c-${c.id}`} data-sport={c.sport}
             className="relative block aspect-[9/16] w-[148px] shrink-0 snap-start overflow-hidden rounded-[16px] border border-[var(--color-border)] bg-black transition-transform hover:-translate-y-0.5 md:w-[168px]">
             <Mini c={c} eager={i < 3} />
           </Link>
         ))}
-      </div>
+      </AutoSwipe>
     </section>
   );
 }
