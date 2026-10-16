@@ -141,6 +141,287 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'nba-resultados-2026-10-16',
+    title: "NBA (pretemporada): resultados de la noche del 16 de octubre",
+    summary: "Resultados de los 2 partidos de la noche en la NBA, con el más igualado y el de más puntos.",
+    body: `2 partidos de pretemporada en la NBA esta noche. El más igualado, Knicks 122-120 a Raptors, decidido en la última posesión. El de más puntos, Knicks ante Raptors (122-120).
+
+## Resultados
+
+- [Knicks 122-120 Raptors](/baloncesto/nba/partido/401908945)
+- [Rockets 116-89 Thunder](/baloncesto/nba/partido/401908622)
+
+Marcadores en directo, calendario y clasificación por conferencias en la [página de la NBA](/baloncesto/nba).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"NBA","sport":"baloncesto","slug":"nba"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/nba/scoreboard",
+    sourceLang: 'en',
+    publishedAt: '2026-10-16T11:51:44.034Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Madison_Square_Garden_%28MSG%29_-_Full_%2848124330357%29.jpg/1920px-Madison_Square_Garden_%28MSG%29_-_Full_%2848124330357%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Madison Square Garden, sede del Knicks - Raptors",
+      credit: "Ajay Suresh from New York, NY, USA · CC BY 2.0 · Wikimedia Commons",
+      license: "CC BY 2.0",
+    },
+  },
+  {
+    slug: 'cronica-sparta-lillestrom-401915567',
+    title: "Sparta y Lillestrom empatan 1-1 en Europa League",
+    summary: "Sparta y Lillestrom reparten puntos (1-1) en Europa League. Sparta es 11.º y Lillestrom, 22.º.",
+    body: `Sparta y Lillestrom empataron 1-1 en Europa League.
+
+## Los goles
+
+Los goles: Josimar Alcócer (56', Sparta) y Thomas Lehne Olsen (90'+1', Lillestrom).
+
+## La tabla
+
+Tras el partido, Sparta 11.º con 4 puntos y Lillestrom 22.º con 1 puntos en la [clasificación de Europa League](/futbol/europa-league).
+
+## Lo que viene
+
+Lo que viene. Sparta: visita a Olympiacos el jueves 22 de octubre. Lillestrom: recibe a Real Sociedad el jueves 22 de octubre. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/europa-league/partido/401915567).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Europa League","sport":"futbol","slug":"europa-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915567",
+    sourceLang: 'en',
+    publishedAt: '2026-10-16T11:51:44.034Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Generali_Arena_Ost_innen.jpg/1920px-Generali_Arena_Ost_innen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Generali Arena, donde se jugó el Sparta - Lillestrom",
+      credit: "Martin Rosenkranz · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'cronica-rb-salzburg-milan-401915568',
+    title: "Milan gana fuera 4-0 a RB Salzburg y es 16.º",
+    summary: "Milan suma tres puntos ante RB Salzburg (4-0) en Europa League y es 16.º con 3 puntos; RB Salzburg se queda 21.º.",
+    body: `Milan se impuso 4-0 a RB Salzburg en Europa League, con hat-trick de Alphadjo Cissè.
+
+## Los goles
+
+En el marcador, Alphadjo Cissè (15', Milan), Alphadjo Cissè (32', Milan), Alphadjo Cissè (49', Milan) y Gonçalo Ramos (72', Milan). Expulsado: Filippo Terracciano.
+
+## La tabla
+
+Tras el partido, RB Salzburg 21.º con 3 puntos y Milan 16.º con 3 puntos en la [clasificación de Europa League](/futbol/europa-league).
+
+## Lo que viene
+
+Lo que viene. RB Salzburg: visita a NK Celje el jueves 22 de octubre. Milan: visita a Bournemouth el jueves 22 de octubre. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/europa-league/partido/401915568).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Europa League","sport":"futbol","slug":"europa-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915568",
+    sourceLang: 'en',
+    publishedAt: '2026-10-16T11:51:44.034Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Red_Bull_Arena_Wals-Siezenheim_FC_Red_Bull_Salzburg_1_-_0_Atl%C3%A9tico_Madrid.jpg/1920px-Red_Bull_Arena_Wals-Siezenheim_FC_Red_Bull_Salzburg_1_-_0_Atl%C3%A9tico_Madrid.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Red Bull Arena Salzburg, donde se jugó el RB Salzburg - Milan",
+      credit: "Fussballaustria · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'cronica-nk-celje-omonia-401915577',
+    title: "Omonia se impone a NK Celje (3-0) en Europa League",
+    summary: "Jaden Montnor marcó; NK Celje remató 13 veces (2 a puerta) en el Omonia 3-0 NK Celje de Europa League.",
+    body: `Acabó ganando Omonia 3-0. En el marcador, Jaden Montnor (16', Omonia), Muamer Tankovic (59', Omonia) y Senou Coulibaly (84', Omonia).
+
+## En cifras
+
+NK Celje tuvo el 61 % de la posesión por el 39 % de Omonia; remató 13 veces (2 a puerta) frente a 14 (6) del rival. Córners: 3 por 6.
+
+## La clasificación
+
+Tras el partido, NK Celje 35.º con 0 puntos y Omonia 6.º con 6 puntos en la [clasificación de Europa League](/futbol/europa-league).
+
+Ficha: 6 amarillas · 10 cambios. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/europa-league/partido/401915577).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Europa League","sport":"futbol","slug":"europa-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915577",
+    sourceLang: 'en',
+    publishedAt: '2026-10-16T11:51:44.034Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Stadion_Z%27de%C5%BEele_aerial_2026.jpg/1920px-Stadion_Z%27de%C5%BEele_aerial_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Stadion Z'dezele, donde se jugó el NK Celje - Omonia",
+      credit: "Gregor Koprivc · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'cronica-lyon-c-palace-401915566',
+    title: "Lyon 3 C Palace 2: 5 goles, Lyon 8.º y posesión del 50 % para Lyon",
+    summary: "Corentin Tolisso marcó en el 8' el gol que puso por delante a Lyon, que ya no soltó la ventaja: 3-2 final ante C Palace en Europa League. Claves: 5 goles, Lyon 8.º y posesión del 50 % para Lyon.",
+    body: `Corentin Tolisso marcó en el 8' el gol que puso por delante a Lyon, que ya no soltó la ventaja: 3-2 final ante C Palace en Europa League.
+
+## Corentin Tolisso decidió
+
+Los goles: Corentin Tolisso (8', Lyon), Ernest Nuamah (45'+2', Lyon), Yéremy Pino (50', C Palace), Pavel Sulc (76', Lyon) y Daichi Kamada (81', C Palace).
+
+## Los números del partido
+
+Lyon tuvo el 50 % de la posesión por el 50 % de C Palace; remató 11 veces (4 a puerta) frente a 12 (4) del rival. Córners: 5 por 3.
+
+## Qué cambia en la tabla
+
+Tras el partido, Lyon 8.º con 6 puntos y C Palace 15.º con 3 puntos en la [clasificación de Europa League](/futbol/europa-league).
+
+## Qué viene ahora
+
+Lo que viene. Lyon: visita a Hoffenheim el jueves 22 de octubre. C Palace: visita a Besiktas el jueves 22 de octubre. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/europa-league/partido/401915566).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Europa League","sport":"futbol","slug":"europa-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915566",
+    sourceLang: 'en',
+    publishedAt: '2026-10-16T11:51:44.034Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Groupama_Stadium%2C_Lyon%2C_sans_la_pelouse_%28juin_2024%29.jpg/1920px-Groupama_Stadium%2C_Lyon%2C_sans_la_pelouse_%28juin_2024%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Groupama Stadium, donde se jugó el Lyon - C Palace",
+      credit: "Sebleouf · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'cronica-lech-poznan-leverkusen-401915576',
+    title: "Leverkusen se impone a Lech Poznan (4-0) en Europa League",
+    summary: "Malik Tillman marcó; Lech Poznan remató 10 veces (3 a puerta) en el Leverkusen 4-0 Lech Poznan de Europa League.",
+    body: `Acabó ganando Leverkusen 4-0. Marcaron Malik Tillman (32', Leverkusen) y Ibrahim Maza (88', Leverkusen).
+
+## En cifras
+
+Lech Poznan tuvo el 39 % de la posesión por el 61 % de Leverkusen; remató 10 veces (3 a puerta) frente a 22 (10) del rival. Córners: 4 por 5.
+
+## La clasificación
+
+Tras el partido, Lech Poznan 36.º con 0 puntos y Leverkusen 2.º con 6 puntos en la [clasificación de Europa League](/futbol/europa-league).
+
+Ficha: 3 amarillas · 10 cambios. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/europa-league/partido/401915576).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Europa League","sport":"futbol","slug":"europa-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915576",
+    sourceLang: 'en',
+    publishedAt: '2026-10-16T11:51:44.034Z',
+    author: "Redacción Mundiales de Fútbol",
+  },
+  {
+    slug: 'cronica-az-alkmaar-hapoel-be-er-401915573',
+    title: "AZ Alkmaar gana 2-1 a Hapoel Be'er y es 20.º",
+    summary: "AZ Alkmaar suma tres puntos ante Hapoel Be'er (2-1) en Europa League y es 20.º con 3 puntos; Hapoel Be'er se queda 24.º.",
+    body: `AZ Alkmaar se impuso 2-1 a Hapoel Be'er en Europa League.
+
+## Los goles
+
+Los goles: Peer Koopmeiners (49', AZ Alkmaar) y Forson Amankwah (55', Hapoel Be'er).
+
+## La tabla
+
+Tras el partido, AZ Alkmaar 20.º con 3 puntos y Hapoel Be'er 24.º con 1 puntos en la [clasificación de Europa League](/futbol/europa-league).
+
+## Lo que viene
+
+Lo que viene. AZ Alkmaar: visita a Ararat-Armenia el jueves 22 de octubre. Hapoel Be'er: visita a Union SG el jueves 22 de octubre. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/europa-league/partido/401915573).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Europa League","sport":"futbol","slug":"europa-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915573",
+    sourceLang: 'en',
+    publishedAt: '2026-10-16T11:51:44.034Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/AFAS-Stadion_in_Alkmaar.jpg/1920px-AFAS-Stadion_in_Alkmaar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "AFAS Stadion, donde se jugó el AZ Alkmaar - Hapoel Be'er",
+      credit: "Flodder666 · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'cronica-hoffenheim-besiktas-401915563',
+    title: "Besiktas se impone a Hoffenheim (3-2) con doblete de Oh Hyeon-Gyu en Europa League",
+    summary: "Oh Hyeon-Gyu marcó 2; Hoffenheim remató 13 veces (3 a puerta) en el Besiktas 3-2 Hoffenheim de Europa League.",
+    body: `Acabó ganando Besiktas 3-2, con doblete de Oh Hyeon-Gyu. En el marcador, Amir Murillo (60', Besiktas), Fisnik Asllani (68', Hoffenheim), Oh Hyeon-Gyu (72', Besiktas), Oh Hyeon-Gyu (79', Besiktas) y Koki Machida (87', Hoffenheim).
+
+## En cifras
+
+Hoffenheim tuvo el 54 % de la posesión por el 46 % de Besiktas; remató 13 veces (3 a puerta) frente a 19 (5) del rival. Córners: 7 por 5.
+
+## La clasificación
+
+Tras el partido, Hoffenheim 30.º con 0 puntos y Besiktas 4.º con 6 puntos en la [clasificación de Europa League](/futbol/europa-league).
+
+Ficha: 5 amarillas · 10 cambios. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/europa-league/partido/401915563).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Europa League","sport":"futbol","slug":"europa-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915563",
+    sourceLang: 'en',
+    publishedAt: '2026-10-16T11:51:44.034Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/PreZero_Arena_wiki.jpg/1920px-PreZero_Arena_wiki.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "PreZero Arena, donde se jugó el Hoffenheim - Besiktas",
+      credit: "PreZero · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'cronica-rennes-ofi-crete-401915572',
+    title: "Abdelhamid Aït Boudlal guía a Rennes ante OFI Crete (2-1) y lo deja 13.º en Europa League",
+    summary: "Rennes 2-1 OFI Crete en Europa League: Abdelhamid Aït Boudlal marcó. Rennes 68 % de posesión y 25 remates; OFI Crete 33 % y 2.",
+    body: `## Resumen
+
+Rennes ganó 2-1 a OFI Crete en Europa League.
+
+## Los goles
+
+- 10' · Taxiarchis Fountas (OFI Crete)
+- 76' · Mahamadou Nagida (Rennes)
+- 90' · Abdelhamid Aït Boudlal (Rennes)
+
+## El dato
+
+Rennes 68 % de posesión y 25 remates; OFI Crete 33 % y 2.
+
+## Lo que viene
+
+Lo que viene. Rennes: visita a Juventus el jueves 22 de octubre. OFI Crete: recibe a Leverkusen el jueves 22 de octubre.
+
+**Lee también:** la [ficha del partido](/futbol/europa-league/partido/401915572) con alineaciones y narración · la [clasificación de Europa League](/futbol/europa-league) · [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Europa League","sport":"futbol","slug":"europa-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915572",
+    sourceLang: 'en',
+    publishedAt: '2026-10-16T11:51:44.034Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Roazhon_Park_-_France_Paraguay_June_2nd_2017.jpg/1920px-Roazhon_Park_-_France_Paraguay_June_2nd_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Roazhon Park, donde se jugó el Rennes - OFI Crete",
+      credit: "S. Plaine · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
     slug: 'merino-carta-players-tribune-fractura-pie-carrito-electrico-lola',
     title: 'Mikel Merino se compró un carrito eléctrico rojo para pasear a la perra con el pie roto',
     summary: 'En una carta para The Players\' Tribune, Mikel Merino cuenta cómo vivió el invierno de la fractura de estrés que amenazó su Mundial: muletas, una mujer embarazada subiéndole las escaleras, un vestuario del Arsenal que se juntó sin entrenador y una lista de convocados anunciada por un vídeo.',
@@ -626,7 +907,7 @@ Horarios en hora de España; los resultados y la narración de cada partido van 
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882844",
     sourceLang: 'en',
     publishedAt: '2026-10-15T23:49:43.616Z',
-    modifiedAt: '2026-10-15T23:49:43.616Z',
+    modifiedAt: '2026-10-16T11:51:44.034Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Estadio_de_Riazor_-_2.jpg/1920px-Estadio_de_Riazor_-_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
