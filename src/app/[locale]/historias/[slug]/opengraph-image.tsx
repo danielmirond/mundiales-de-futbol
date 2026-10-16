@@ -55,9 +55,10 @@ function formatDateEs(iso: string): string {
 export default async function HistoriaOgImage({
   params,
 }: {
-  params: { locale: string; slug: string };
+  params: Promise<{ locale: string; slug: string }>;
 }) {
-  const historia = getHistoria(params.slug);
+  const { slug } = await params;
+  const historia = getHistoria(slug);
 
   const title = historia?.title ?? 'Historias del Mundial';
   const blockLabel = historia ? BLOCK_LABELS[historia.blockCode] : 'Historia';

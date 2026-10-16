@@ -84,9 +84,10 @@ function formatDateEs(iso: string): string {
 export default async function NoticiaOgImage({
   params,
 }: {
-  params: { locale: string; slug: string };
+  params: Promise<{ locale: string; slug: string }>;
 }) {
-  const item = getNewsBySlug(params.slug);
+  const { slug } = await params;
+  const item = getNewsBySlug(slug);
 
   // Con foto propia: la foto a sangre, recortada a 16:9 y sin texto ni logo
   // (guardarraíl de imagen para Discover). La tarjeta con título queda para
@@ -99,7 +100,7 @@ export default async function NoticiaOgImage({
         return new ImageResponse(
           (
             <div style={{ width: '100%', height: '100%', display: 'flex', background: '#05060a' }}>
-              {/* eslint-disable-next-line @next/next/no-img-element, jsx-a11y/alt-text */}
+              {/* eslint-disable-next-line jsx-a11y/alt-text */}
               <img src={photo as unknown as string} width={1200} height={675} style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 30%' }} />
             </div>
           ),

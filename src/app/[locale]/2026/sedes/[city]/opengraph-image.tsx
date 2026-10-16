@@ -29,9 +29,10 @@ const HOST_GRADIENT: Record<'USA' | 'MEX' | 'CAN', string> = {
 export default async function SedeOgImage({
   params,
 }: {
-  params: { locale: string; city: string };
+  params: Promise<{ locale: string; city: string }>;
 }) {
-  const sede = getSedeBySlug(params.city);
+  const { city } = await params;
+  const sede = getSedeBySlug(city);
   const venue = sede ? getVenueForSede(sede) : undefined;
 
   const cityName = sede?.cityName ?? 'Mundial 2026';
