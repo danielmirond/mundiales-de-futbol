@@ -141,6 +141,124 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'merino-carta-players-tribune-fractura-pie-carrito-electrico-lola',
+    title: 'Mikel Merino se compró un carrito eléctrico rojo para pasear a la perra con el pie roto',
+    summary: 'En una carta para The Players\' Tribune, Mikel Merino cuenta cómo vivió el invierno de la fractura de estrés que amenazó su Mundial: muletas, una mujer embarazada subiéndole las escaleras, un vestuario del Arsenal que se juntó sin entrenador y una lista de convocados anunciada por un vídeo.',
+    body: `Mikel Merino describe la fractura que casi le deja sin Mundial como una sesión de diapositivas. [Lo cuenta en una carta en primera persona](https://www.theplayerstribune.com/mikel-merino-epl-soccer-arsenal-spain-es) para The Players' Tribune: un despacho de la ciudad deportiva del Arsenal, una bota ortopédica y dos médicos pasando imágenes de una fractura de estrés en el pie derecho. Él lo recuerda como «el PowerPoint más deprimente de mi vida».
+
+## Un pie que nadie había visto
+
+Según su relato, el especialista que le trató llevaba treinta años en la profesión y nunca había visto una fractura de estrés en esa zona. Llamó a cinco de los mejores del mundo y ninguno la había visto tampoco. Nadie sabía cómo respondería el pie. Arteta ya había descrito la lesión como muy rara a principios de febrero.
+
+Faltaban cuatro meses para el Mundial y su mujer, Lola, estaba embarazada. Merino dice que se derrumbó cuando tuvo que contárselo en voz alta. Aceptó la operación.
+
+## Dos meses de muletas
+
+Lo que sigue es lo más doméstico de la carta. Con la baja, Merino no podía ir al supermercado ni servirse un vaso de agua, y era Lola, con unos seis meses de embarazo, quien le ayudaba. [Él mismo lo contó en julio](https://www.elespanol.com/deportes/futbol/20260728/mikel-merino-increible-ver-mujer-embarazada-meses-ayudandome-subir-escaleras-no-podia-dt/1003744334905_0.html): fue «increíble» verla embarazada de ocho meses ayudándole a subir las escaleras.
+
+Para sacar a la perra se compró un carrito eléctrico rojo. Cuenta que iba tan despacio que cualquiera podía adelantarle andando, y que a veces salía con gafas de sol y gorra para que no le reconocieran.
+
+## Un vestuario que se juntó sin el míster
+
+En plena duda del equipo tras remontarle un 2-0 el Wolverhampton, los jugadores se reunieron sin Arteta. Nadie habló de táctica, dice Merino: hablaron de cómo afronta un grupo los malos momentos. Para él, ese fue el día en que ganaron la Premier.
+
+[El empate del City en Bournemouth](https://www.skysports.com/football/news/11679/13544244/bournemouth-1-1-man-city-pep-guardiolas-side-fail-to-take-premier-league-title-fight-to-final-day-as-draw-sees-arsenal-crowned-champions) (1-1) dio el título al Arsenal con una jornada de margen. Merino lo vio en el comedor de Colney con un centenar de personas. Cuando marcó el Bournemouth, salió a dar un paseo.
+
+## Una lista y un bebé
+
+Marco nació antes de que volviera a jugar. Merino regresó a los entrenamientos tras tres meses y jugó media hora contra el Palace, cinco días antes de la lista. Esa lista no la leyó Luis de la Fuente: la Federación grabó un vídeo en el que lo hacían anónimos de toda España. Él esperaba en el sofá y, cuando salió una mujer en un viñedo, abrazó a Lola.
+
+Se despidió de su familia con el niño de un mes. De la final solo cuenta lo que vio desde el banquillo y desde el césped: [España ganó 1-0 a Argentina en la prórroga](https://es.euronews.com/2026/07/19/espana-conquista-mundial-2026-ante-argentina-gol-ferran-torres) con gol de Ferran Torres. Después, en el vestuario, llenó una mochila de lomo, jamón y latas de cerveza y se sentó a picar con su familia sobre la hierba del MetLife, como hacen en el parque.
+
+La carta termina con tres dedicatorias: a su padre, por los calcetines de la suerte; a Marco; y a Lola, «por ayudarme a subir las escaleras».`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'Premier League', sport: 'futbol', slug: 'premier-league' },
+    sourceName: "The Players' Tribune",
+    sourceUrl: 'https://www.theplayerstribune.com/mikel-merino-epl-soccer-arsenal-spain-es',
+    sourceLang: 'es',
+    publishedAt: '2026-10-16T09:00:00+02:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'El Español', url: 'https://www.elespanol.com/deportes/futbol/20260728/mikel-merino-increible-ver-mujer-embarazada-meses-ayudandome-subir-escaleras-no-podia-dt/1003744334905_0.html' },
+      { name: 'Sky Sports', url: 'https://www.skysports.com/football/news/11679/13544244/bournemouth-1-1-man-city-pep-guardiolas-side-fail-to-take-premier-league-title-fight-to-final-day-as-draw-sees-arsenal-crowned-champions' },
+      { name: 'Euronews', url: 'https://es.euronews.com/2026/07/19/espana-conquista-mundial-2026-ante-argentina-gol-ferran-torres' },
+      { name: 'Noticias de Navarra', url: 'https://www.noticiasdenavarra.com/futbol/2026/02/02/arteta-lesion-mikel-merino-rara-10649425.amp.html' },
+    ],
+  },
+  {
+    slug: 'betis-barcelona-valencia-athletic-real-madrid-sevilla-laliga-horarios-donde-ver-2026-10-17-18',
+    title: 'Betis - Barça, Valencia - Athletic y Real Madrid - Sevilla: horarios y dónde ver la jornada',
+    summary: 'LaLiga reparte ocho partidos entre el sábado 17 y el domingo 18 de octubre, de las 14:00 a las 21:00 en horario peninsular. DAZN emite cuatro, entre ellos el Betis - Barcelona, y Movistar Plus+ otros cuatro, con el Real Madrid - Sevilla del domingo a las 21:00.',
+    body: `Ocho partidos, dos días y dos operadores. Estos son los horarios de la jornada de LaLiga del sábado 17 y el domingo 18 de octubre, en hora peninsular. En Canarias, una hora menos. Los datos de calendario salen de [ESPN](https://www.espn.com/soccer/match/_/gameId/401882846) y los canales, de la parrilla de los operadores; conviene confirmarlos en tu plataforma antes del pitido.
+
+## Sábado 17 de octubre
+
+| Hora (península) | Canarias | Partido | Dónde verlo |
+| --- | --- | --- | --- |
+| 14:00 | 13:00 | [Espanyol - Atlético](/futbol/laliga/partido/401882843) | DAZN |
+| 16:15 | 15:15 | [Villarreal - Elche](/futbol/laliga/partido/401882837) | DAZN |
+| 18:30 | 17:30 | [Betis - Barcelona](/futbol/laliga/partido/401882846) | DAZN |
+| 21:00 | 20:00 | [Valencia - Athletic](/futbol/laliga/partido/401882838) | Movistar Plus+ (M+ LaLiga) y Orange Fútbol 1 |
+
+El partido grande del sábado se juega en La Cartuja. Tienes [la previa del Betis - Barcelona](/noticias/previa-betis-barcelona-401882846) con cómo llegan los dos equipos.
+
+## Domingo 18 de octubre
+
+| Hora (península) | Canarias | Partido | Dónde verlo |
+| --- | --- | --- | --- |
+| 14:00 | 13:00 | [Osasuna - Racing](/futbol/laliga/partido/401882840) | Movistar Plus+ (M+ LaLiga) |
+| 16:15 | 15:15 | [Celta - Alavés](/futbol/laliga/partido/401882845) | DAZN |
+| 18:30 | 17:30 | [Málaga - Real Sociedad](/futbol/laliga/partido/401882841) | Movistar Plus+ (M+ LaLiga) |
+| 21:00 | 20:00 | [Real Madrid - Sevilla](/futbol/laliga/partido/401882839) | Movistar Plus+ (M+ LaLiga) |
+
+## Cómo se reparte
+
+DAZN se queda con cuatro partidos: los dos primeros del sábado, el Betis - Barcelona y el Celta - Alavés del domingo. Movistar Plus+ emite el resto, incluido el cierre de la jornada en el Bernabéu. El Valencia - Athletic del sábado por la noche también figura en Orange Fútbol 1 para quienes tengan el paquete.
+
+Hoy viernes cierra la semana el [Deportivo - Levante](/futbol/laliga/partido/401882844) a las 21:00, con M+ LaLiga y DAZN. Todos los horarios de cada día, con marcadores en directo, están en [partidos de hoy](/partidos-hoy).`,
+    category: 'tv',
+    kind: 'agenda',
+    competition: { name: 'LaLiga', sport: 'futbol', slug: 'laliga' },
+    sourceName: 'ESPN',
+    sourceUrl: 'https://www.espn.com/soccer/match/_/gameId/401882846',
+    sourceLang: 'en',
+    publishedAt: '2026-10-16T09:03:00+02:00',
+    author: 'Redacción Mundiales',
+  },
+  {
+    slug: 'scaloni-gran-fondo-buenos-aires-129-km-sin-coches-ciclismo',
+    title: 'Scaloni se levantó antes de las seis para pedalear 129 kilómetros por Buenos Aires sin coches',
+    summary: 'Lionel Scaloni, seleccionador de Argentina, completó el domingo 11 de octubre los 129 kilómetros del Gran Fondo Buenos Aires junto a unos 3.500 ciclistas. Según teleSUR, tardó 3 h 17 min 21 s. Meses después de perder la final del Mundial ante España, lo que destacó fue pedalear por la ciudad vacía.',
+    body: `Lionel Scaloni cambió el banquillo por la bicicleta. El seleccionador de Argentina [corrió el domingo 11 de octubre el circuito largo](https://www.elancasti.com.ar/deportes/scaloni-compitio-los-129-km-del-gran-fondo-buenos-aires-n623631) del Gran Fondo Buenos Aires: 129 kilómetros, cuarta edición de la prueba, unos 3.500 ciclistas y la salida a las seis de la mañana en el Parque Sarmiento.
+
+## Lo que dijo
+
+Su resumen fue sencillo. «Es muy lindo pedalear por Buenos Aires. Es espectacular, sobre todo sin coches», [declaró tras terminar](https://www.telesurtv.net/scaloni-completo-fondo-argentina/). Lo que le gustó fue la ciudad abierta al ciclista, no el cronómetro.
+
+## Los números
+
+Según teleSUR, Scaloni cruzó la meta en 3 horas, 17 minutos y 21 segundos, en el puesto 79 de la categoría Master B2 masculina. Es una media cercana a 39 km/h, cálculo propio a partir de la distancia y el tiempo. El ganador de los 129 kilómetros, Matías Cedeira, [terminó en 2 h 53 min 29 s](https://www.todojujuy.com/lionel-scaloni-corrio-129-kilometros-el-gran-fondo-buenos-aires-n297293), unos 44 km/h de media y 24 minutos menos que el seleccionador.
+
+En el recorrido corto, el Medio Fondo de 46 kilómetros, ganó Juan Cruz Saiz con 1 h 18 min 36 s. Las medallas las entregó el jefe de Gobierno porteño, Jorge Macri.
+
+## El contexto
+
+Scaloni aprovechó los días libres tras la ventana de selecciones. Hace tres meses su Argentina [perdió 1-0 ante España en la final del Mundial](https://es.euronews.com/2026/07/19/espana-conquista-mundial-2026-ante-argentina-gol-ferran-torres), con gol de Ferran Torres en la prórroga. Esta vez salió a rodar con miles de aficionados anónimos por avenidas sin tráfico.`,
+    category: 'curiosa',
+    kind: 'noticia',
+    competition: { name: 'Ciclismo', sport: 'ciclismo', slug: 'ciclismo' },
+    sourceName: 'El Ancasti',
+    sourceUrl: 'https://www.elancasti.com.ar/deportes/scaloni-compitio-los-129-km-del-gran-fondo-buenos-aires-n623631',
+    sourceLang: 'es',
+    publishedAt: '2026-10-16T09:06:00+02:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'teleSUR', url: 'https://www.telesurtv.net/scaloni-completo-fondo-argentina/' },
+      { name: 'Todo Jujuy', url: 'https://www.todojujuy.com/lionel-scaloni-corrio-129-kilometros-el-gran-fondo-buenos-aires-n297293' },
+    ],
+  },
+  {
     slug: 'previa-betis-barcelona-401882846',
     title: "Betis - Barcelona: horario, dónde ver y cómo llegan al partido de LaLiga",
     summary: "Betis y Barcelona se enfrentan este sábado 17 de octubre a las 18:00 h en Estadio La Cartuja, en partido de LaLiga. Betis es 3.º y Barcelona, 1.º. TV: DAZN LaLiga y DAZN.",
