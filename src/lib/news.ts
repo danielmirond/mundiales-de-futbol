@@ -170,7 +170,7 @@ Marco nació antes de que volviera a jugar. Merino regresó a los entrenamientos
 
 Se despidió de su familia con el niño de un mes. De la final solo cuenta lo que vio desde el banquillo y desde el césped: [España ganó 1-0 a Argentina en la prórroga](https://es.euronews.com/2026/07/19/espana-conquista-mundial-2026-ante-argentina-gol-ferran-torres) con gol de Ferran Torres. Después, en el vestuario, llenó una mochila de lomo, jamón y latas de cerveza y se sentó a picar con su familia sobre la hierba del MetLife, como hacen en el parque.
 
-La carta termina con tres dedicatorias: a su padre, por los calcetines de la suerte; a Marco; y a Lola, «por ayudarme a subir las escaleras».`,
+La carta termina con tres dedicatorias: a su padre, por los calcetines de la suerte; a Marco; y a Lola, por las escaleras.`,
     category: 'general',
     kind: 'noticia',
     competition: { name: 'Premier League', sport: 'futbol', slug: 'premier-league' },
@@ -179,6 +179,12 @@ La carta termina con tres dedicatorias: a su padre, por los calcetines de la sue
     sourceLang: 'es',
     publishedAt: '2026-10-16T09:00:00+02:00',
     author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Mikel_Merino_Argentina_v_Spain_19_July_2026-327.jpg/1280px-Mikel_Merino_Argentina_v_Spain_19_July_2026-327.jpg',
+      alt: 'Mikel Merino levanta la Copa del Mundo con sus compañeros de la selección española tras la final de 2026',
+      credit: 'Bryan Berlin · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
     sourcesSecondary: [
       { name: 'El Español', url: 'https://www.elespanol.com/deportes/futbol/20260728/mikel-merino-increible-ver-mujer-embarazada-meses-ayudandome-subir-escaleras-no-podia-dt/1003744334905_0.html' },
       { name: 'Sky Sports', url: 'https://www.skysports.com/football/news/11679/13544244/bournemouth-1-1-man-city-pep-guardiolas-side-fail-to-take-premier-league-title-fight-to-final-day-as-draw-sees-arsenal-crowned-champions' },
@@ -216,7 +222,7 @@ El partido grande del sábado se juega en La Cartuja. Tienes [la previa del Beti
 
 DAZN se queda con cuatro partidos: los dos primeros del sábado, el Betis - Barcelona y el Celta - Alavés del domingo. Movistar Plus+ emite el resto, incluido el cierre de la jornada en el Bernabéu. El Valencia - Athletic del sábado por la noche también figura en Orange Fútbol 1 para quienes tengan el paquete.
 
-Hoy viernes cierra la semana el [Deportivo - Levante](/futbol/laliga/partido/401882844) a las 21:00, con M+ LaLiga y DAZN. Todos los horarios de cada día, con marcadores en directo, están en [partidos de hoy](/partidos-hoy).`,
+Hoy viernes cierra la semana el [Deportivo - Levante](/futbol/laliga/partido/401882844) a las 21:00, en M+ LaLiga. Todos los horarios de cada día, con marcadores en directo, están en [partidos de hoy](/partidos-hoy).`,
     category: 'tv',
     kind: 'agenda',
     competition: { name: 'LaLiga', sport: 'futbol', slug: 'laliga' },
@@ -253,6 +259,12 @@ Scaloni aprovechó los días libres tras la ventana de selecciones. Hace tres me
     sourceLang: 'es',
     publishedAt: '2026-10-16T09:06:00+02:00',
     author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Lionel_Scaloni_Argentina_v_Spain_19_July_2026-239.jpg/1280px-Lionel_Scaloni_Argentina_v_Spain_19_July_2026-239.jpg',
+      alt: 'Lionel Scaloni en la banda durante la final del Mundial 2026 entre Argentina y España',
+      credit: 'Bryan Berlin · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
     sourcesSecondary: [
       { name: 'teleSUR', url: 'https://www.telesurtv.net/scaloni-completo-fondo-argentina/' },
       { name: 'Todo Jujuy', url: 'https://www.todojujuy.com/lionel-scaloni-corrio-129-kilometros-el-gran-fondo-buenos-aires-n297293' },
