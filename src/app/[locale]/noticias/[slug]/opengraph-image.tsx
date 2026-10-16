@@ -88,6 +88,29 @@ export default async function NoticiaOgImage({
 }) {
   const item = getNewsBySlug(params.slug);
 
+  // Con foto propia: la foto a sangre, recortada a 16:9 y sin texto ni logo
+  // (guardarraíl de imagen para Discover). La tarjeta con título queda para
+  // las piezas sin foto (servicio, agenda).
+  if (item?.image?.url) {
+    try {
+      const res = await fetch(item.image.url, { headers: { 'User-Agent': 'mundiales-de-futbol.com (contacto@mundiales-de-futbol.com)' } });
+      if (res.ok) {
+        const photo = await res.arrayBuffer();
+        return new ImageResponse(
+          (
+            <div style={{ width: '100%', height: '100%', display: 'flex', background: '#05060a' }}>
+              {/* eslint-disable-next-line @next/next/no-img-element, jsx-a11y/alt-text */}
+              <img src={photo as unknown as string} width={1200} height={675} style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 30%' }} />
+            </div>
+          ),
+          { ...size },
+        );
+      }
+    } catch {
+      // Si la foto no carga, sigue con la tarjeta de marca.
+    }
+  }
+
   const title = item?.title ?? 'Mundial de Fútbol';
   const categoryLabel = item ? CATEGORY_LABEL[item.category] : 'Noticias';
   const accent = item ? CATEGORY_GRADIENT[item.category] : CATEGORY_GRADIENT.general;
