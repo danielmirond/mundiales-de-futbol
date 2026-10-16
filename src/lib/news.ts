@@ -141,6 +141,209 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'cronica-deportivo-levante-401882844',
+    title: "Deportivo y Levante empatan 1-1 en LaLiga",
+    summary: "Deportivo y Levante reparten puntos (1-1) en LaLiga. Deportivo es 8.º y Levante, 17.º.",
+    body: `Deportivo y Levante empataron 1-1 en LaLiga. Se emitió en M+ LALIGA y DAZN.
+
+## Los goles
+
+Los goles: Bil Nsongo (63', Deportivo) y Dani Requena (82', Levante).
+
+## La tabla
+
+Tras el partido, Deportivo 8.º con 11 puntos y Levante 17.º con 7 puntos en la [clasificación de LaLiga](/futbol/laliga).
+
+## Lo que viene
+
+Lo que viene. Deportivo: visita a Atlético el sábado 24 de octubre. Levante: recibe a Athletic el miércoles 21 de octubre. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/laliga/partido/401882844).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882844",
+    sourceLang: 'en',
+    publishedAt: '2026-10-16T23:51:12.747Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Estadio_de_Riazor_-_2.jpg/1920px-Estadio_de_Riazor_-_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Riazor, donde se jugó el Deportivo - Levante",
+      credit: "HausOf_Diegoo from Caracas, Venezuela · CC BY 2.0 · Wikimedia Commons",
+      license: "CC BY 2.0",
+    },
+  },
+  {
+    slug: 'partidos-baloncesto-hoy-2026-10-17',
+    title: "Partidos de baloncesto hoy, sábado 17 de octubre: horarios y dónde ver WNBA",
+    summary: "Agenda de baloncesto de hoy sábado 17 de octubre: 1 partido con horario en hora española y canal de televisión. Destaca Valkyries - Dream.",
+    body: `1 partido de baloncesto para sábado 17 de octubre. Repasamos qué se juega, a qué hora y en qué canal, sin más vueltas. El partido que más miradas reúne es el **[Valkyries - Dream](/baloncesto/wnba/partido/401918305)** (WNBA, 21:30 h).
+
+## 🇺🇸 WNBA
+
+- **[Valkyries - Dream](/baloncesto/wnba/partido/401918305)** — 21:30 h
+
+Calendario y clasificación en la [página de WNBA](/baloncesto/wnba).
+
+Hora peninsular en todos los casos. Si un canal cambia a última hora, la ficha del partido lo recoge. Toda la jornada, con marcadores en directo, en [partidos de hoy](/partidos-hoy).`,
+    category: 'tv',
+    kind: 'agenda',
+    competition: {"name":"WNBA","sport":"baloncesto","slug":"wnba"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/nba/game/_/gameId/401918305",
+    sourceLang: 'en',
+    publishedAt: '2026-10-16T23:51:12.747Z',
+    modifiedAt: '2026-10-16T23:51:12.747Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Chase_Center_-_February_2019_%281943%29.jpg/1920px-Chase_Center_-_February_2019_%281943%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Chase Center, escenario del Valkyries - Dream",
+      credit: "Gregory Varnum · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'partidos-futbol-hoy-2026-10-17',
+    title: "Partidos de fútbol hoy, sábado 17 de octubre: horarios y dónde ver LaLiga, Premier League y Liga F",
+    summary: "Agenda de fútbol de hoy sábado 17 de octubre: 54 partidos con horario en hora española y canal de televisión. Destaca Everton - Chelsea.",
+    body: `54 partidos de fútbol para sábado 17 de octubre. Repasamos qué se juega, a qué hora y en qué canal, sin más vueltas. El partido que más miradas reúne es el **[Everton - Chelsea](/futbol/premier-league/partido/401878771)** (Premier League, 13:30 h).
+
+## 🇪🇸 Liga F
+
+- **[ Dux Logroño - Granada](/futbol/liga-f/partido/401882489)** — 12:00 h
+- **[Badalona - Tenerife](/futbol/liga-f/partido/401882487)** — 12:00 h
+- **[Athletic  - Valencia](/futbol/liga-f/partido/401882491)** — 16:30 h
+- **[Real Madrid - Espanyol](/futbol/liga-f/partido/401882486)** — 20:30 h
+
+Calendario y clasificación en la [página de Liga F](/futbol/liga-f).
+
+## 🇹🇷 Süper Lig
+
+- **[Erzurum - Eyupspor](/futbol/super-lig/partido/401888271)** — 12:30 h
+- **[Amed SFK - Konyaspor](/futbol/super-lig/partido/401888378)** — 15:00 h
+- **[Genclerbirli - Galatasaray](/futbol/super-lig/partido/401888274)** — 15:00 h
+- **[Fenerbahce - Alanyaspor](/futbol/super-lig/partido/401888273)** — 18:00 h
+
+Calendario y clasificación en la [página de Süper Lig](/futbol/super-lig).
+
+## 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Premier League
+
+- **[Everton - Chelsea](/futbol/premier-league/partido/401878771)** — 13:30 h · 📺 DAZN
+- **[Brentford - Liverpool](/futbol/premier-league/partido/401879262)** — 16:00 h · 📺 DAZN
+- **[Fulham - Hull](/futbol/premier-league/partido/401878770)** — 16:00 h · 📺 DAZN
+- **[Man City - Ipswich](/futbol/premier-league/partido/401879259)** — 16:00 h · 📺 DAZN
+- **[Newcastle - Aston Villa](/futbol/premier-league/partido/401879258)** — 18:30 h · 📺 DAZN
+
+Calendario y clasificación en la [página de Premier League](/futbol/premier-league).
+
+## 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Championship
+
+- **[Boro - Cardiff](/futbol/championship/partido/401880216)** — 13:30 h
+- **[Millwall - Lincoln City](/futbol/championship/partido/401880215)** — 13:30 h
+- **[Watford - Charlton](/futbol/championship/partido/401880211)** — 13:30 h
+- **[Birmingham - QPR](/futbol/championship/partido/401880220)** — 16:00 h
+- **[Bristol City - Sheffield Utd](/futbol/championship/partido/401880219)** — 16:00 h
+- **[Derby - Stoke](/futbol/championship/partido/401880217)** — 16:00 h
+- **[Norwich City - Portsmouth](/futbol/championship/partido/401880214)** — 16:00 h
+- **[Southampton - Bolton](/futbol/championship/partido/401880213)** — 16:00 h
+- **[Swansea - West Ham](/futbol/championship/partido/401880212)** — 16:00 h
+- **[West Brom - Blackburn](/futbol/championship/partido/401880210)** — 16:00 h
+- **[Wrexham - Preston](/futbol/championship/partido/401880209)** — 16:00 h
+
+Calendario y clasificación en la [página de Championship](/futbol/championship).
+
+## 🇪🇸 LaLiga
+
+- **[Espanyol - Atlético](/futbol/laliga/partido/401882843)** — 14:00 h · 📺 DAZN LaLiga / DAZN
+- **[Villarreal - Elche](/futbol/laliga/partido/401882837)** — 16:15 h · 📺 DAZN LaLiga / DAZN
+- **[Betis - Barcelona](/futbol/laliga/partido/401882846)** — 18:00 h · 📺 DAZN LaLiga / DAZN
+- **[Valencia - Athletic](/futbol/laliga/partido/401882838)** — 21:00 h · 📺 M+ LALIGA / Movistar Plus+
+
+Calendario y clasificación en la [página de LaLiga](/futbol/laliga).
+
+## 🇪🇸 LaLiga Hypermotion
+
+- **[Real Sociedad II - Almería](/futbol/laliga-2/partido/401883133)** — 14:00 h
+- **[Eibar - Mallorca](/futbol/laliga-2/partido/401883178)** — 16:15 h · 📺 LALIGA TV Hypermotion / DAZN
+- **[Gijón - Albacete](/futbol/laliga-2/partido/401883155)** — 18:30 h · 📺 LALIGA TV Hypermotion / DAZN
+- **[Las Palmas - Castellón](/futbol/laliga-2/partido/401883157)** — 21:00 h · 📺 LALIGA TV Hypermotion / DAZN
+
+Calendario y clasificación en la [página de LaLiga 2](/futbol/laliga-2).
+
+## 🇮🇹 Serie A
+
+- **[Venezia - Napoli](/futbol/serie-a/partido/401874760)** — 15:00 h · 📺 DAZN
+- **[Bologna - Inter Milan](/futbol/serie-a/partido/401874953)** — 18:00 h · 📺 DAZN
+- **[AS Roma - Genoa](/futbol/serie-a/partido/401874935)** — 20:45 h · 📺 DAZN
+
+Calendario y clasificación en la [página de Serie A](/futbol/serie-a).
+
+## 🇩🇪 Bundesliga
+
+- **[Union Berlin - Dortmund](/futbol/bundesliga/partido/401884769)** — 15:30 h · 📺 DAZN
+- **[Hamburg - Stuttgart](/futbol/bundesliga/partido/401884767)** — 15:30 h · 📺 DAZN
+- **[Schalke - Mainz](/futbol/bundesliga/partido/401884765)** — 15:30 h · 📺 DAZN
+- **[Elversberg - Augsburg](/futbol/bundesliga/partido/401884764)** — 15:30 h · 📺 DAZN
+- **[Bremen - Paderborn](/futbol/bundesliga/partido/401884766)** — 15:30 h · 📺 DAZN
+- **[Bayern - RB Leipzig](/futbol/bundesliga/partido/401884772)** — 18:30 h · 📺 DAZN
+
+Calendario y clasificación en la [página de Bundesliga](/futbol/bundesliga).
+
+## 🇳🇱 Eredivisie
+
+- **[ADO Den Haag - PSV](/futbol/eredivisie/partido/401875582)** — 16:30 h · 📺 DAZN
+- **[Telstar - Feyenoord](/futbol/eredivisie/partido/401875580)** — 20:00 h · 📺 DAZN
+- **[Sparta - Willem II](/futbol/eredivisie/partido/401875579)** — 21:00 h
+
+Calendario y clasificación en la [página de Eredivisie](/futbol/eredivisie).
+
+## 🇫🇷 Ligue 1
+
+- **[Strasbourg - PSG](/futbol/ligue-1/partido/401876432)** — 17:15 h · 📺 DAZN
+- **[Lille - Brest](/futbol/ligue-1/partido/401876436)** — 20:45 h · 📺 DAZN
+- **[Troyes - Lens](/futbol/ligue-1/partido/401876431)** — 20:45 h · 📺 DAZN
+
+Calendario y clasificación en la [página de Ligue 1](/futbol/ligue-1).
+
+## 🇦🇷 Liga Profesional Argentina
+
+- **[Banfield - Argentinos ](/futbol/liga-argentina/partido/401841615)** — 20:00 h
+- **[Ind. Rivadavia - Tigre](/futbol/liga-argentina/partido/401841621)** — 22:30 h
+- **[Platense - Lanús ](/futbol/liga-argentina/partido/401841619)** — 22:30 h
+
+Calendario y clasificación en la [página de Liga Argentina](/futbol/liga-argentina).
+
+## 🇺🇸 MLS
+
+- **[Philadelphia - Charlotte](/futbol/mls/partido/761875)** — 20:30 h
+- **[Minnesota - St. Louis](/futbol/mls/partido/761876)** — 22:30 h
+
+Calendario y clasificación en la [página de MLS](/futbol/mls).
+
+## 🇧🇷 Brasileirão
+
+- **[Botafogo - Chapecoense](/futbol/brasileirao/partido/401841268)** — 23:00 h
+- **[Atlético-MG - Coritiba](/futbol/brasileirao/partido/401841270)** — 23:30 h
+
+Calendario y clasificación en la [página de Brasileirão](/futbol/brasileirao).
+
+Horarios en hora de España; los resultados y la narración de cada partido van en su ficha. Toda la jornada, con marcadores en directo, en [partidos de hoy](/partidos-hoy).`,
+    category: 'tv',
+    kind: 'agenda',
+    competition: {"name":"Premier League","sport":"futbol","slug":"premier-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401878771",
+    sourceLang: 'en',
+    publishedAt: '2026-10-16T23:51:12.747Z',
+    modifiedAt: '2026-10-16T23:51:12.747Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Hill_Dickinson_Stadium_South_Stand_2026.jpg/1920px-Hill_Dickinson_Stadium_South_Stand_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Hill Dickinson Stadium, escenario del Everton - Chelsea",
+      credit: "TheCarStalker · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
     slug: 'nba-resultados-2026-10-16',
     title: "NBA (pretemporada): resultados de la noche del 16 de octubre",
     summary: "Resultados de los 2 partidos de la noche en la NBA, con el más igualado y el de más puntos.",
