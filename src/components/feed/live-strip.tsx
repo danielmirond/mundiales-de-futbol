@@ -54,14 +54,14 @@ function Mini({ c, eager }: { c: FeedCard; eager: boolean }) {
  * Entrada al directo en la portada: tarjetas verticales que abren el feed a
  * pantalla completa justo en la tarjeta pulsada (`/directo#c-<id>`).
  */
-export async function LiveStrip({ locale, sport, title = 'Lo último, deslizando' }: { locale: Locale; sport?: string; title?: string }) {
+export async function LiveStrip({ locale, sport, title = 'Lo último, deslizando', className = 'pt-8' }: { locale: Locale; sport?: string; title?: string; className?: string }) {
   // La tira enseña lo que cambia: sin vídeos de club ni anuncios (esos viven en el directo).
   const cards = (await buildLiveFeed((h) => withLocale(locale, h), { sport })).filter((c) => c.kind !== 'video' && c.kind !== 'ad').slice(0, 12);
   if (cards.length < 4) return null;
   const base = withLocale(locale, '/directo');
   const href = sport ? `${base}?d=${sport}` : base;
   return (
-    <section className="mx-auto w-full max-w-[1400px] px-6 pt-8 md:px-10" aria-labelledby="directo-titulo">
+    <section className={`mx-auto w-full max-w-[1400px] px-6 md:px-10 ${className}`} aria-labelledby="directo-titulo">
       <div className="flex items-end justify-between gap-4">
         <div>
           <div className="kicker flex items-center gap-2"><i className="pulse" />Directo</div>

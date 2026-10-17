@@ -21,28 +21,31 @@ export async function PortalHero({ locale }: { locale: Locale }) {
   const wosti = featured.some((m) => m.competition.sport === 'futbol') ? await getWostiIndex() : new Map();
 
   return (
-    <section className="relative overflow-hidden pt-28 md:pt-36">
+    <section className="relative overflow-hidden pt-8 md:pt-14">
       <div className="pointer-events-none absolute inset-0 -z-10">
         <div className="absolute inset-0 pitch-glow opacity-50" />
         <div className="absolute inset-0 bg-gradient-to-b from-[var(--color-bg)]/30 via-[var(--color-bg)]/60 to-[var(--color-bg)]" />
       </div>
       <div className="mx-auto w-full max-w-[1400px] px-6 pb-12 md:px-10">
-        <div className="flex items-center gap-3 font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-pitch)]">
-          {live.length > 0 ? <i className="pulse" /> : <span className="inline-flex h-2 w-2 rounded-full bg-[var(--color-pitch)]" />}
-          {live.length > 0 ? `${live.length} en directo ahora` : 'Resultados y calendario en directo'}
+        <h1 className="font-display text-[44px] uppercase leading-[0.95] text-[var(--color-fg)] md:text-7xl">Hoy en juego</h1>
+        {/* Cifras del día en una línea: directo, partidos y deportes. */}
+        <div className="mt-3 flex flex-wrap items-center gap-x-3 gap-y-1 font-mono text-[11px] uppercase tracking-[0.18em] text-[var(--color-fg-muted)] md:text-xs">
+          {live.length > 0 && (
+            <span className="inline-flex items-center gap-2 text-[var(--color-live-ink)]"><i className="pulse" />{live.length} en directo</span>
+          )}
+          {matches.length > 0 ? (
+            <span>{matches.length} partidos · {sports} {sports === 1 ? 'deporte' : 'deportes'}</span>
+          ) : (
+            <span>Resultados y calendario en directo</span>
+          )}
+          <span>{today}</span>
         </div>
-        <h1 className="mt-6 font-display text-fluid-display uppercase leading-[0.9]">
-          <span className="block text-[var(--color-fg)]">Hoy en juego</span>
-          <span className="block bg-gradient-to-r from-[var(--color-pitch)] via-[var(--color-sun)] to-[var(--color-flame)] bg-clip-text text-transparent">
-            {matches.length > 0 ? `${matches.length} partidos · ${sports} ${sports === 1 ? 'deporte' : 'deportes'}` : 'Fútbol, baloncesto y más'}
-          </span>
-        </h1>
-        <p className="mt-4 max-w-2xl text-lg text-[var(--color-fg-muted)]">
-          {today}. Marcadores en directo, calendario y clasificación de LaLiga, Champions, Premier, NBA, Euroliga y el resto de competiciones.
+        <p className="mt-3 max-w-2xl text-[15px] text-[var(--color-fg-muted)] md:mt-4 md:text-lg">
+          Marcadores en directo, calendario y clasificación de LaLiga, Champions, Premier, NBA, Euroliga y el resto de competiciones.
         </p>
 
         {featured.length > 0 && (
-          <div className="mt-8 max-w-3xl">
+          <div className="mt-6 max-w-3xl md:mt-8">
             <MatchList sport="futbol" kicker={live.length > 0 ? 'En directo' : 'Destacados'} title="Hoy" more={{ href: withLocale(locale, '/partidos-hoy'), label: 'Todos los partidos' }}>
               {featured.map((m) => (
                 <MatchRow
