@@ -17,6 +17,7 @@ import {
   relativeTimeEs,
   newsImageUrl,
   newsImageAlt,
+  metaDescription,
   type NewsCategory,
 } from '@/lib/news';
 import { NewsCard, newsKicker } from '@/components/news/news-card';
@@ -29,6 +30,10 @@ import { ReadingProgress } from '@/components/news/reading-progress';
 import { AdSlot } from '@/components/affiliate/ad-slot';
 import { DaznBanner } from '@/components/affiliate/dazn-banner';
 import { getMovistarLink } from '@/lib/movistar-match-links';
+
+const dtFmt = new Intl.DateTimeFormat('es', { timeZone: 'Europe/Madrid', day: 'numeric', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit' });
+/** «17 oct 2026, 12:55» en hora de Madrid. */
+const dateTimeEs = (iso: string) => dtFmt.format(new Date(iso));
 
 function withLocale(locale: Locale, href: string) {
   if (locale === routing.defaultLocale) return href;
@@ -76,16 +81,14 @@ export async function generateMetadata({
     locale,
     path: `/noticias/${item.slug}`,
     title: loc.title,
-    description: loc.summary,
+    description: metaDescription(loc.summary),
     type: 'article',
     publishedTime: item.publishedAt,
     modifiedTime: item.modifiedAt ?? item.publishedAt,
     availableLocales,
-    keywords: [
-      `Mundial 2026 ${CATEGORY_LABELS[item.category]}`,
-      'noticias Mundial 2026',
-      loc.title.split(':')[0].trim(),
-    ],
+    keywords: item.competition
+      ? [item.competition.name, `noticias ${item.competition.name}`, loc.title.split(':')[0].trim()]
+      : [`Mundial 2026 ${CATEGORY_LABELS[item.category]}`, 'noticias Mundial 2026', loc.title.split(':')[0].trim()],
   });
 }
 
@@ -156,7 +159,7 @@ export default async function NoticiaDetail({
     '@type': 'NewsArticle',
     // Campos obligatorios Google News
     headline: loc.title,                              // máx 110 chars
-    description: loc.summary,
+    description: metaDescription(loc.summary),
     datePublished: item.publishedAt,                  // ISO 8601 completo con Z
     dateModified: item.modifiedAt ?? item.publishedAt,
     // Identificación
@@ -167,15 +170,13 @@ export default async function NoticiaDetail({
     // así que NO debe ser la imagen representativa si hay una foto real (política
     // de Discover: sin texto/logo superpuesto). Foto real primero cuando existe;
     // la tarjeta OG queda como respaldo (y sigue siendo el og:image social).
+    // Tres recortes (16:9, 4:3, 1:1) de la foto, todos ≥ 1200 px y sin texto
+    // (guardarraíles T7 e IM6). Sin foto propia, la tarjeta de marca.
     image: item.image
       ? [
-          {
-            '@type': 'ImageObject',
-            url: item.image.url,
-            caption: item.image.alt,
-            representativeOfPage: true,
-          },
-          { '@type': 'ImageObject', url: ogImageUrl, width: 1200, height: 675 },
+          { '@type': 'ImageObject', url: `${SEO.siteUrl}/img/noticia/${item.slug}/16x9.png`, width: 1600, height: 900, caption: item.image.alt, representativeOfPage: true },
+          { '@type': 'ImageObject', url: `${SEO.siteUrl}/img/noticia/${item.slug}/4x3.png`, width: 1600, height: 1200 },
+          { '@type': 'ImageObject', url: `${SEO.siteUrl}/img/noticia/${item.slug}/1x1.png`, width: 1200, height: 1200 },
         ]
       : [
           {
@@ -193,29 +194,28 @@ export default async function NoticiaDetail({
       url: SEO.siteUrl,
       logo: {
         '@type': 'ImageObject',
-        url: `${SEO.siteUrl}/icon.svg`,
-        width: 60,
-        height: 60,
+        url: `${SEO.siteUrl}/publisher-logo.png`,
+        width: 512,
+        height: 512,
       },
       sameAs: [SEO.siteUrl],
     },
     author,
     ...(mentions.length ? { mentions } : {}),
     // Sección editorial (articleSection mejora clasificación en Google News)
-    articleSection: ARTICLE_SECTIONS[item.category] ?? 'Mundial 2026',
+    articleSection: item.competition?.name ?? ARTICLE_SECTIONS[item.category] ?? 'Mundial 2026',
     // Acceso libre (importante para Google News)
     isAccessibleForFree: true,
-    // Tema principal
-    about: {
-      '@type': 'SportsEvent',
-      name: 'FIFA World Cup 2026',
-      startDate: '2026-06-11',
-      endDate: '2026-07-19',
-      location: {
-        '@type': 'Country',
-        name: 'United States, Mexico, Canada',
-      },
-    },
+    // Tema principal: la competición de la pieza; el Mundial solo en las del archivo.
+    about: item.competition
+      ? { '@type': 'Thing', name: item.competition.name }
+      : {
+          '@type': 'SportsEvent',
+          name: 'FIFA World Cup 2026',
+          startDate: '2026-06-11',
+          endDate: '2026-07-19',
+          location: { '@type': 'Country', name: 'United States, Mexico, Canada' },
+        },
     // Fuentes — usamos citation como array de CreativeWork (válido en schema.org)
     citation: [
       {
@@ -260,9 +260,13 @@ export default async function NoticiaDetail({
 
         <div className="mt-8 flex flex-wrap items-center gap-3 font-mono text-xs uppercase tracking-[0.3em]">
           <span className="kicker">{newsKicker(item)}</span>
+          {/* Fecha y hora absolutas, iguales al marcado (guardarraíl T10); «actualizado» al lado, no en su lugar. */}
           <span className="inline-flex items-center gap-1.5 text-[var(--color-fg-subtle)]">
             <Calendar className="h-3 w-3" />
-            {relativeTimeEs(item.publishedAt)}
+            <time dateTime={item.publishedAt} title={relativeTimeEs(item.publishedAt)}>{dateTimeEs(item.publishedAt)}</time>
+            {item.modifiedAt && item.modifiedAt !== item.publishedAt && (
+              <> · Actualizado <time dateTime={item.modifiedAt}>{dateTimeEs(item.modifiedAt)}</time></>
+            )}
           </span>
           <span className="text-[var(--color-fg-subtle)]">
             Por {item.author ?? 'Redacción Mundiales de Fútbol'}
@@ -376,6 +380,18 @@ export default async function NoticiaDetail({
           <DaznBanner creative="leaderboard" />
         </section>
       )}
+
+      {/* Fuente preferida en Google (guardarraíl SE2): más piezas nuestras en Noticias destacadas y Discover. */}
+      <section className="mx-auto mt-10 w-full max-w-[900px] px-6 md:px-10">
+        <a
+          href="https://www.google.com/preferences/source?q=mundiales-de-futbol.com"
+          target="_blank"
+          rel="noopener"
+          className="inline-flex items-center gap-2 rounded-full border border-[var(--color-border-strong)] px-4 py-2 text-sm font-semibold text-[var(--color-fg)] hover:border-[var(--color-pitch)] hover:text-[var(--color-pitch)]"
+        >
+          <span aria-hidden>★</span> Añade Mundiales como fuente preferida en Google
+        </a>
+      </section>
 
       {/* Fuentes */}
       <section className="mx-auto mt-16 w-full max-w-[900px] px-6 md:px-10">

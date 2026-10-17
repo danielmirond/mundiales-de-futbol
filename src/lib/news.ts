@@ -134,6 +134,19 @@ export function newsImageUrl(item: NewsItem): string {
   return item.image?.url ?? `/noticias/${item.slug}/opengraph-image`;
 }
 
+/**
+ * Descripción para meta y JSON-LD: entre 120 y 200 caracteres (guardarraíles).
+ * Corta en el último punto que quepa; si no hay, en la última palabra con «…».
+ */
+export function metaDescription(summary: string, max = 200): string {
+  const s = summary.trim();
+  if (s.length <= max) return s;
+  const cut = s.slice(0, max);
+  const dot = Math.max(cut.lastIndexOf('. '), cut.endsWith('.') ? cut.length - 1 : -1);
+  if (dot >= 120) return cut.slice(0, dot + 1);
+  return `${cut.slice(0, cut.lastIndexOf(' ')).replace(/[,;:]$/, '')}…`;
+}
+
 /** Texto alternativo de la imagen de una noticia (cae al título). */
 export function newsImageAlt(item: NewsItem): string {
   return item.image?.alt ?? item.title;
@@ -193,7 +206,7 @@ La ITIA insiste en ese punto. La duración de la sanción no viene de que no col
 
 Milicevic no respondió a la investigación. La agencia [dice que lo intentó siete veces](https://tennisuptodate.com/atp/serbian-tennis-player-hit-with-24-year-itia-ban-after-fixing-six-matches-and-recruiting-fellow-players), por canales distintos. El 24 de septiembre le notificó la infracción grave y, como tampoco contestó, la sanción se aplicó de oficio el 9 de octubre. Por eso no hay una resolución escrita de un juez independiente: el caso se cerró sin vista.
 
-La suspensión es total. No puede jugar, entrenar ni siquiera asistir como público a ningún torneo organizado o reconocido por la ATP, la WTA, los Grand Slams o las federaciones nacionales.
+La suspensión es total. No puede jugar, entrenar ni siquiera asistir como público a ningún torneo organizado o reconocido por la ATP, la WTA, los Grand Slams o las federaciones nacionales. Los cuadros de la [ATP](/tenis/atp) y la [WTA](/tenis/wta) quedan fuera de su alcance hasta entonces.
 
 ## El caso sigue abierto
 
@@ -235,7 +248,7 @@ Allí fue peor. Hubo días en que le costaba hablar y se movía despacio, sin de
 
 Para estos virus no hay un tratamiento específico: hay que esperar a que el cuerpo los elimine. Goggia, de 33 años, dice que está mejor y que la tendencia es buena, pero sigue cansada y se ha perdido una parte importante de la preparación. [Calcula que puede tardar](https://www.flashscore.com/news/former-olympic-gold-medalist-sofia-goggia-to-miss-season-opener-in-soelden/Gl8psfqR/) «desde diez días hasta un mes y medio».
 
-No correrá en Sölden, la apertura de la Copa del Mundo, el 24 y 25 de octubre. Tampoco estará Federica Brignone, que sigue recuperándose de una lesión en la pierna: Italia empieza la temporada sin sus dos grandes nombres.
+No correrá en Sölden, la apertura de la Copa del Mundo, el 24 y 25 de octubre. Tampoco estará Federica Brignone, que sigue recuperándose de una lesión en la pierna: Italia empieza la temporada sin sus dos grandes nombres, el mismo fin de semana en que otro italiano, [Kimi Antonelli](/noticias/kimi-antonelli-campeon-austin-paddock-singapur-san-marino-minardi), puede cerrar el Mundial de Fórmula 1 en Austin.
 
 ## Quién es
 
@@ -265,7 +278,7 @@ Goggia fue campeona olímpica de descenso en Pyeongchang 2018 y la temporada pas
     summary: 'Kimi Antonelli llega a Austin con 102 puntos de ventaja y puede cerrar el Mundial de F1 el 25 de octubre, con 20 años: sería el campeón más joven de la historia. Hace una semana, en Singapur, los vigilantes no le reconocieron en la puerta del paddock. Vive en San Marino y tiene un pleito abierto con su exrepresentante.',
     body: `Kimi Antonelli lidera el Mundial de Fórmula 1 y aun así se quedó en la puerta. Durante el fin de semana de Singapur, el piloto de Mercedes volvía al paddock con un miembro del equipo cuando los vigilantes no le dejaron pasar. [Según contó SportMediaset](https://www.open.online/2026/10/12/kimi-antonelli-resta-fuori-paddock-singapore/), insistió con un «perdonad, soy piloto de Fórmula 1» que no sirvió de nada. La puerta se abrió cuando llegó Max Verstappen, al que sí reconocieron, y Antonelli entró detrás.
 
-Dos días después terminó tercero en Marina Bay, detrás de Verstappen y Leclerc, y amplió su ventaja en el campeonato a [102 puntos sobre George Russell](https://www.lapresse.it/sport/f1/2026/10/12/kimi-antonelli-campione-del-mondo-ad-austin-se/).
+Dos días después terminó tercero en Marina Bay, detrás de Verstappen y Leclerc, y amplió su ventaja en [el campeonato](/motor/formula-1/clasificacion) a [102 puntos sobre George Russell](https://www.lapresse.it/sport/f1/2026/10/12/kimi-antonelli-campione-del-mondo-ad-austin-se/).
 
 ## Las cuentas de Austin
 
@@ -468,7 +481,7 @@ Dallaglio tiene 54 años. Se divorció el año pasado de Alice, con quien llevab
 
 ## Qué ganó con esa medalla
 
-Dallaglio jugó 85 partidos con Inglaterra entre 1995 y 2007, 22 de ellos como capitán. Fue tres veces con los Lions y disputó tres test. Ganó cuatro Seis Naciones (1996, 2000, 2001 y 2003) y jugó entera la final de 2003 contra Australia como número 8: 20-17 en la prórroga. Con los Wasps se despidió en 2008 levantando la Premiership en su última temporada. Hay más rugby en [la sección del sitio](/rugby).
+Dallaglio jugó 85 partidos con Inglaterra entre 1995 y 2007, 22 de ellos como capitán. Fue tres veces con los Lions y disputó tres test. Ganó cuatro Seis Naciones (1996, 2000, 2001 y 2003) y jugó entera la final del [Mundial de rugby](/rugby/mundial-de-rugby) de 2003 contra Australia como número 8: 20-17 en la prórroga. Con los Wasps se despidió en 2008 levantando la Premiership en su última temporada. Hay más rugby en [la sección del sitio](/rugby).
 
 ## No es el primero de aquel equipo
 
@@ -566,7 +579,7 @@ El mismo día que Schubert encadenaba DNA, el británico Will Bosi probaba Silen
 
 El quinto de la lista es de Jorge Díaz-Rullo, madrileño de 27 años. Café Colombia está en el sector Racó de la Finestra de Margalef, la equipó originalmente el colombiano Anghelo Bernal y Díaz-Rullo [la encadenó el 13 de marzo de 2026](https://www.lacrux.com/en/?p=63012) tras empezar a probarla en otoño de 2021 y dedicarle 240 días en más de cuatro años. Son unos 30 metros desplomados y unos 40 movimientos, con un paso de bloque de 8B al final después de una sección de 9b/+ casi sin reposos.
 
-Sigue sin repetición, como Silence, B.I.G. y Duality of Man. Lo que ha hecho Schubert en el Verdon deja claro cuánto cuesta la segunda ascensión: tres años de un escalador que ya tenía un 9c en su historial. Más historias de deportes que no son fútbol, en [noticias](/noticias).`,
+Sigue sin repetición, como Silence, B.I.G. y Duality of Man. Lo que ha hecho Schubert en el Verdon deja claro cuánto cuesta la segunda ascensión: tres años de un escalador que ya tenía un 9c en su historial. Más historias de deportes que no son fútbol, en [noticias](/noticias), y lo último de cada competición, en [el directo](/directo).`,
     category: 'general',
     kind: 'noticia',
     competition: { name: 'Escalada', sport: 'escalada', slug: 'escalada' },
@@ -1091,7 +1104,7 @@ Para sacar a la perra se compró un carrito eléctrico rojo. Cuenta que iba tan 
 
 ## Un vestuario que se juntó sin el míster
 
-En plena duda del equipo tras remontarle un 2-0 el Wolverhampton, los jugadores se reunieron sin Arteta. Nadie habló de táctica, dice Merino: hablaron de cómo afronta un grupo los malos momentos. Para él, ese fue el día en que ganaron la Premier.
+En plena duda del equipo tras remontarle un 2-0 el Wolverhampton, los jugadores se reunieron sin Arteta. Nadie habló de táctica, dice Merino: hablaron de cómo afronta un grupo los malos momentos. Para él, ese fue el día en que ganaron la [Premier](/futbol/premier-league).
 
 [El empate del City en Bournemouth](https://www.skysports.com/football/news/11679/13544244/bournemouth-1-1-man-city-pep-guardiolas-side-fail-to-take-premier-league-title-fight-to-final-day-as-draw-sees-arsenal-crowned-champions) (1-1) dio el título al Arsenal con una jornada de margen. Merino lo vio en el comedor de Colney con un centenar de personas. Cuando marcó el Bournemouth, salió a dar un paseo.
 
@@ -1099,7 +1112,7 @@ En plena duda del equipo tras remontarle un 2-0 el Wolverhampton, los jugadores 
 
 Marco nació antes de que volviera a jugar. Merino regresó a los entrenamientos tras tres meses y jugó media hora contra el Palace, cinco días antes de la lista. Esa lista no la leyó Luis de la Fuente: la Federación grabó un vídeo en el que lo hacían anónimos de toda España. Él esperaba en el sofá y, cuando salió una mujer en un viñedo, abrazó a Lola.
 
-Se despidió de su familia con el niño de un mes. De la final solo cuenta lo que vio desde el banquillo y desde el césped: [España ganó 1-0 a Argentina en la prórroga](https://es.euronews.com/2026/07/19/espana-conquista-mundial-2026-ante-argentina-gol-ferran-torres) con gol de Ferran Torres. Después, en el vestuario, llenó una mochila de lomo, jamón y latas de cerveza y se sentó a picar con su familia sobre la hierba del MetLife, como hacen en el parque.
+Se despidió de su familia con el niño de un mes. De la final solo cuenta lo que vio desde el banquillo y desde el césped: [España ganó 1-0 a Argentina en la prórroga](https://es.euronews.com/2026/07/19/espana-conquista-mundial-2026-ante-argentina-gol-ferran-torres) con gol de Ferran Torres; el torneo entero está en [el archivo del Mundial 2026](/2026). Después, en el vestuario, llenó una mochila de lomo, jamón y latas de cerveza y se sentó a picar con su familia sobre la hierba del MetLife, como hacen en el parque.
 
 La carta termina con tres dedicatorias: a su padre, por los calcetines de la suerte; a Marco; y a Lola, por las escaleras.`,
     category: 'general',
@@ -1181,7 +1194,7 @@ En el recorrido corto, el Medio Fondo de 46 kilómetros, ganó Juan Cruz Saiz co
 
 ## El contexto
 
-Scaloni aprovechó los días libres tras la ventana de selecciones. Hace tres meses su Argentina [perdió 1-0 ante España en la final del Mundial](https://es.euronews.com/2026/07/19/espana-conquista-mundial-2026-ante-argentina-gol-ferran-torres), con gol de Ferran Torres en la prórroga. Esta vez salió a rodar con miles de aficionados anónimos por avenidas sin tráfico.`,
+Scaloni aprovechó los días libres tras la ventana de selecciones. Hace tres meses [su Argentina](/selecciones/arg) [perdió 1-0 ante España en la final del Mundial](https://es.euronews.com/2026/07/19/espana-conquista-mundial-2026-ante-argentina-gol-ferran-torres), con gol de Ferran Torres en la prórroga ([todo el Mundial 2026](/2026)). Esta vez salió a rodar con miles de aficionados anónimos por avenidas sin tráfico.`,
     category: 'curiosa',
     kind: 'noticia',
     competition: { name: 'Ciclismo', sport: 'ciclismo', slug: 'ciclismo' },
@@ -1595,7 +1608,9 @@ En la carrera masculina ganó el francés Vincent Luis, también en su debut en 
 
 El maratón del Ironman de Hawái se corre por la carretera Queen Kaʻahumanu y el Energy Lab, asfalto negro sobre roca volcánica, sin sombra y con humedad alta. Después de 3,8 km nadando y 180 km en bici, el cuerpo llega con la reserva de agua y sales al límite. Los desplomes en la última milla forman parte de la historia de la prueba desde que Julie Moss se arrastró hasta la meta en 1982.
 
-Knibb lo había advertido antes de la salida, según recoge Slowtwitch: el momento en que te pones a correr contra las demás es el momento en que te vienes abajo. Ganó la que aguantó un kilómetro más.`,
+Knibb lo había advertido antes de la salida, según recoge Slowtwitch: el momento en que te pones a correr contra las demás es el momento en que te vienes abajo. Ganó la que aguantó un kilómetro más.
+
+Más historias de deportes que no son fútbol, en [noticias](/noticias), y lo último de cada competición, en [el directo](/directo).`,
     category: 'curiosa',
     kind: 'noticia',
     competition: { name: 'Ironman', sport: 'triatlon', slug: 'ironman' },
@@ -1619,7 +1634,7 @@ Knibb lo había advertido antes de la salida, según recoge Slowtwitch: el momen
     slug: 'michael-jordan-donacion-unc-madre-deloris-trabajo-social',
     title: 'Michael Jordan vuelve a Chapel Hill 40 años después con un regalo en nombre de su madre',
     summary: 'Michael Jordan ha donado 10 millones de dólares a la Escuela de Trabajo Social de la Universidad de Carolina del Norte en honor a su madre, Deloris, que lleva casi 40 años vinculada a ese centro. Es el mayor regalo individual de su historia y pagará becas de máster.',
-    body: `Michael Jordan se licenció en la Universidad de Carolina del Norte en 1986, dos años después de dejarla para jugar en la NBA. Cuarenta años más tarde ha vuelto con un cheque de 10 millones de dólares, pero no para el baloncesto: va a la Escuela de Trabajo Social, y lleva el nombre de su madre.
+    body: `Michael Jordan se licenció en la Universidad de Carolina del Norte en 1986, dos años después de dejarla para jugar en la [NBA](/baloncesto/nba). Cuarenta años más tarde ha vuelto con un cheque de 10 millones de dólares, pero no para el baloncesto: va a la Escuela de Trabajo Social, y lleva el nombre de su madre.
 
 La donación [se anunció el 5 de octubre](https://www.wsoctv.com/news/local/michael-jordan-donates-10m-unc-mothers-honor/DNCE747MYNFZ3LIUWGDI2VOCVA/) en el campus de Chapel Hill. Es el mayor regalo individual en la historia de la escuela, según la propia universidad.
 
@@ -1637,7 +1652,7 @@ Deloris P. Jordan lleva casi 40 años vinculada a la Escuela de Trabajo Social d
 
 Jordan nació en Brooklyn pero creció en Wilmington, en la costa de Carolina del Norte. En noviembre de 2025 [donó otros 10 millones](https://www.wbtv.com/2025/11/21/basketball-legend-michael-jordan-donates-10-million-north-carolina-hospital) al hospital Novant Health New Hanover de esa ciudad para su instituto de neurociencia, también en honor a su madre.
 
-En la pista, UNC fue donde metió el tiro que dio el título universitario de 1982 a los Tar Heels, siendo novato. Fuera de ella, el nombre que va a quedar en el edificio es el de Deloris.`,
+En la pista, UNC fue donde metió el tiro que dio el título universitario de 1982 a los Tar Heels, siendo novato. Después llegaron los seis anillos con los [Chicago Bulls](/baloncesto/nba/equipo/4). Fuera de ella, el nombre que va a quedar en el edificio es el de Deloris.`,
     category: 'curiosa',
     kind: 'noticia',
     competition: { name: 'NBA', sport: 'baloncesto', slug: 'nba' },
@@ -1660,7 +1675,7 @@ En la pista, UNC fue donde metió el tiro que dio el título universitario de 19
     slug: 'haaland-villa-abu-dabi-manchester-city-yas-residences-guardiola',
     title: 'Haaland se compra una casa en Abu Dabi, en un barrio con el nombre del Manchester City',
     summary: 'Erling Haaland ha comprado una villa de cinco dormitorios en Manchester City Yas Residences, una urbanización de marca del club en Abu Dabi. Su padre, Alfie, recogió ya las llaves de la suya. Y el embajador del proyecto es Pep Guardiola. Las obras se entregan a partir de 2029.',
-    body: `Erling Haaland juega en Manchester, pero su próxima casa estará en Abu Dabi. El delantero noruego apareció por vídeo el 12 de octubre en la presentación de la segunda fase de Manchester City Yas Residences, una urbanización de la promotora Ohana Development con la marca del club, y [la promotora lo anunció](https://www.zawya.com/en/press-release/companies-news/ohana-development-announces-erling-haaland-as-a-proud-homeowner-at-manchester-city-yas-residences-by-ohana-during-phase-2-launch-1589125) como propietario de una villa de cinco dormitorios para su familia.
+    body: `Erling Haaland juega en el [Manchester City](/futbol/premier-league/equipo/382), pero su próxima casa estará en Abu Dabi. El delantero noruego apareció por vídeo el 12 de octubre en la presentación de la segunda fase de Manchester City Yas Residences, una urbanización de la promotora Ohana Development con la marca del club, y [la promotora lo anunció](https://www.zawya.com/en/press-release/companies-news/ohana-development-announces-erling-haaland-as-a-proud-homeowner-at-manchester-city-yas-residences-by-ohana-during-phase-2-launch-1589125) como propietario de una villa de cinco dormitorios para su familia.
 
 No es el único Haaland del barrio. Su padre, Alfie Haaland, exjugador del City, recogió en el mismo acto las llaves de su propia vivienda en la urbanización.
 
@@ -1679,7 +1694,7 @@ El acto, en el Etihad Arena, tuvo otro nombre conocido: Pep Guardiola, ya exentr
 
 ## Lo que no se sabe
 
-Ni el precio de la villa de Haaland ni su tamaño. [Gulf News](https://gulfnews.com/sport/erling-haaland-buys-five-bedroom-villa-at-abu-dhabi-development-1.500707182) presenta la compra como información de la promotora, y el jugador no ha hecho declaraciones más allá del vídeo del lanzamiento. Su contrato con el City llega hasta 2034, así que, si los plazos se cumplen, tendrá las llaves con varios años de Premier League por delante.`,
+Ni el precio de la villa de Haaland ni su tamaño. [Gulf News](https://gulfnews.com/sport/erling-haaland-buys-five-bedroom-villa-at-abu-dhabi-development-1.500707182) presenta la compra como información de la promotora, y el jugador no ha hecho declaraciones más allá del vídeo del lanzamiento. Su contrato con el City llega hasta 2034, así que, si los plazos se cumplen, tendrá las llaves con varios años de [Premier League](/futbol/premier-league) por delante.`,
     category: 'curiosa',
     kind: 'noticia',
     competition: { name: 'Premier League', sport: 'futbol', slug: 'premier-league' },
@@ -1704,9 +1719,9 @@ Ni el precio de la villa de Haaland ni su tamaño. [Gulf News](https://gulfnews.
     summary: 'Max Verstappen y Valentino Rossi comparten parrilla este sábado en la final del GT World Challenge Europe en Portimão. No es Fórmula 1: son tres horas de carrera con 61 coches de GT3, y en España se pueden ver en directo y gratis en DAZN. Horarios, equipos y quién corre con quién.',
     body: `Max Verstappen y Valentino Rossi estarán en la misma parrilla este sábado 17 de octubre, en la última carrera de la temporada del GT World Challenge Europe, en el Autódromo Internacional do Algarve (Portimão). Es la primera vez que Verstappen corre en este campeonato, y lo hace con su propio equipo.
 
-No es Fórmula 1: corren en GT3, coches de carreras derivados de deportivos de calle (BMW, Mercedes, Ferrari, Porsche, Lamborghini…), en una prueba de resistencia. Rossi compite en coches desde que se retiró de MotoGP en 2021; Verstappen, que sigue en la F1 con Red Bull, corre en GT3 con su propio equipo cuando el calendario se lo permite.
+No es Fórmula 1: corren en GT3, coches de carreras derivados de deportivos de calle (BMW, Mercedes, Ferrari, Porsche, Lamborghini…), en una prueba de resistencia. Rossi compite en coches desde que se retiró de [MotoGP](/motor/motogp) en 2021; Verstappen, que sigue en la F1 con Red Bull, corre en GT3 con su propio equipo cuando el calendario se lo permite.
 
-La carrera dura tres horas y en España se puede ver en directo y gratis en DAZN.
+La carrera dura tres horas y en España [se puede ver en directo y gratis en DAZN](https://www.dazn.com/en-US/news/motorsport/max-verstappen-portimao-rivals-valentino-rossi-arthur-leclerc-gt-world-challenge-2026-t3r/1exylyt0b0ohk1itkv74f6m6yo).
 
 ## Horario en España
 
