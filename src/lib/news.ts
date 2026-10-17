@@ -141,6 +141,211 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'premier-bundesliga-serie-a-fin-de-semana-17-18-octubre-horarios-donde-ver',
+    title: 'Liverpool y City juegan a la vez: dónde ver Premier, Bundesliga y Serie A este fin de semana',
+    summary: 'Veinticuatro partidos de Premier League, Bundesliga y Serie A entre el sábado 17 y el domingo 18 de octubre, de las 12:30 a las 20:45 en horario peninsular. DAZN emite las tres ligas en España y también está dentro de Movistar Plus+. El Bayern - Leipzig del sábado y el Forest - Arsenal del domingo cierran cada día.',
+    body: `Tres ligas, dos días y un operador para casi todo. Estos son los horarios de la Premier League, la Bundesliga y la Serie A del sábado 17 y el domingo 18 de octubre, en hora peninsular; en Canarias, una hora menos. Las fechas salen de [ESPN](https://www.espn.com/soccer/scoreboard/_/league/eng.1/date/20261017) y los canales, de las fichas de partido de este sitio, que recogen la parrilla de [DAZN](https://www.dazn.com/es-ES). DAZN también se puede ver dentro de Movistar Plus+. Donde pone «por confirmar» es que el operador aún no ha fijado el canal.
+
+## Premier League: sábado
+
+| Península | Canarias | Partido | Canal |
+| --- | --- | --- | --- |
+| 13:30 | 12:30 | [Everton - Chelsea](/futbol/premier-league/partido/401878771) | DAZN 1 |
+| 16:00 | 15:00 | [Brentford - Liverpool](/futbol/premier-league/partido/401879262) | DAZN 2 |
+| 16:00 | 15:00 | [Fulham - Hull City](/futbol/premier-league/partido/401878770) | DAZN 3 |
+| 16:00 | 15:00 | [Manchester City - Ipswich](/futbol/premier-league/partido/401879259) | DAZN 1 |
+| 18:30 | 17:30 | [Newcastle - Aston Villa](/futbol/premier-league/partido/401879258) | DAZN 2 |
+
+Liverpool y Manchester City juegan a la misma hora y en canales distintos. El City llega líder [con 18 puntos en seis jornadas](https://www.espn.com/soccer/standings/_/league/eng.1), tres más que el Arsenal y cinco más que el Brighton. Chelsea y Everton, que abren el sábado, tienen 10 puntos cada uno.
+
+## Premier League: domingo
+
+| Península | Canarias | Partido | Canal |
+| --- | --- | --- | --- |
+| 15:00 | 14:00 | [Bournemouth - Sunderland](/futbol/premier-league/partido/401879263) | DAZN |
+| 15:00 | 14:00 | [Brighton - Crystal Palace](/futbol/premier-league/partido/401879261) | DAZN 2 |
+| 15:00 | 14:00 | [Leeds - Manchester United](/futbol/premier-league/partido/401879260) | DAZN 1 |
+| 17:30 | 16:30 | [Nottingham Forest - Arsenal](/futbol/premier-league/partido/401878769) | DAZN 1 y Movistar Plus+ |
+
+## Bundesliga
+
+| Día | Península | Canarias | Partido | Canal |
+| --- | --- | --- | --- | --- |
+| Sábado | 15:30 | 14:30 | [Union Berlin - Dortmund](/futbol/bundesliga/partido/401884769) | DAZN, M+ Vamos 3 y Orange Fútbol 3 |
+| Sábado | 15:30 | 14:30 | [Hamburgo - Stuttgart](/futbol/bundesliga/partido/401884767) | Por confirmar |
+| Sábado | 15:30 | 14:30 | [Schalke - Mainz](/futbol/bundesliga/partido/401884765) | DAZN |
+| Sábado | 15:30 | 14:30 | [Elversberg - Augsburgo](/futbol/bundesliga/partido/401884764) | DAZN |
+| Sábado | 15:30 | 14:30 | [Werder Bremen - Paderborn](/futbol/bundesliga/partido/401884766) | DAZN |
+| Sábado | 18:30 | 17:30 | [Bayern - Leipzig](/futbol/bundesliga/partido/401884772) | DAZN |
+| Domingo | 15:30 | 14:30 | [Leverkusen - Friburgo](/futbol/bundesliga/partido/401884771) | DAZN |
+| Domingo | 17:30 | 16:30 | [Gladbach - Hoffenheim](/futbol/bundesliga/partido/401884768) | Por confirmar |
+
+El partido grande es el del Allianz Arena. El Bayern es tercero [con 11 puntos tras cinco jornadas](https://www.espn.com/soccer/standings/_/league/ger.1), dos menos que Friburgo y Dortmund, y el Leipzig es quinto con nueve. El Friburgo, líder, visita Leverkusen el domingo.
+
+## Serie A
+
+| Día | Península | Canarias | Partido | Canal |
+| --- | --- | --- | --- | --- |
+| Sábado | 15:00 | 14:00 | [Venezia - Napoli](/futbol/serie-a/partido/401874760) | DAZN |
+| Sábado | 18:00 | 17:00 | [Bolonia - Inter](/futbol/serie-a/partido/401874953) | Por confirmar |
+| Sábado | 20:45 | 19:45 | [Roma - Genoa](/futbol/serie-a/partido/401874935) | Por confirmar |
+| Domingo | 12:30 | 11:30 | [Udinese - Lecce](/futbol/serie-a/partido/401874771) | DAZN |
+| Domingo | 15:00 | 14:00 | [Fiorentina - Como](/futbol/serie-a/partido/401874774) | DAZN, Movistar Plus+ y Orange Fútbol 3 |
+| Domingo | 18:00 | 17:00 | [Milan - Atalanta](/futbol/serie-a/partido/401874978) | DAZN |
+| Domingo | 20:45 | 19:45 | [Juventus - Lazio](/futbol/serie-a/partido/401874765) | DAZN |
+
+Inter y Lazio comparten el liderato [con 16 puntos](https://www.espn.com/soccer/standings/_/league/ita.1); se enfrentan a Bolonia y Juventus, y ninguno de los dos juega en casa. La Roma es tercera con 14 y recibe al Genoa en el Olímpico el sábado por la noche.
+
+La jornada de LaLiga, con el Betis - Barcelona de hoy y el Real Madrid - Sevilla del domingo, está en [su propia guía de horarios](/noticias/betis-barcelona-valencia-athletic-real-madrid-sevilla-laliga-horarios-donde-ver-2026-10-17-18). Los marcadores en directo de todo el día, en [partidos de hoy](/partidos-hoy).`,
+    category: 'tv',
+    kind: 'agenda',
+    competition: { name: 'Premier League', sport: 'futbol', slug: 'premier-league' },
+    sourceName: 'ESPN',
+    sourceUrl: 'https://www.espn.com/soccer/scoreboard/_/league/eng.1/date/20261017',
+    sourceLang: 'en',
+    publishedAt: '2026-10-17T09:12:00+02:00',
+    author: 'Redacción Mundiales',
+  },
+  {
+    slug: 'dallaglio-medalla-mundial-2003-subasta-budds-bancarrota-divorcio',
+    title: 'Lawrence Dallaglio vende la medalla del Mundial 2003 para pagar las deudas de su divorcio',
+    summary: 'La medalla de campeón del mundo que Lawrence Dallaglio recibió en Sídney en 2003 se vendió el 13 de octubre en una subasta de Northamptonshire. El exnúmero 8 de Inglaterra, de 54 años, fue declarado en bancarrota en 2025 tras divorciarse. La colección entera se quedó muy por debajo de lo que esperaba la casa.',
+    body: `Lawrence Dallaglio ya no tiene la medalla que le colgaron en Sídney el 22 de noviembre de 2003. [Se vendió el 13 de octubre en Budds](https://www.planetrugby.com/news/bankrupt-england-legend-lawrence-dallaglio-is-selling-his-2003-rugby-world-cup-winners-medal), una casa de subastas de Northamptonshire, dentro de una venta de recuerdos deportivos. El lote 90, la medalla de plata dorada con su cinta verde y azul y el estuche original, salía con una estimación de entre 50.000 y 80.000 libras.
+
+## Lo que se pagó
+
+La medalla [se adjudicó por 54.000 libras](https://www.espn.com/rugby/story/_/id/50179691/lawrence-dallaglio-england-rugby-world-cup-winners-medal-sold-54000), en la parte baja de la horquilla. El conjunto de la colección, 22 lotes, salió peor: ESPN cifra la expectativa en unas 180.000 libras y lo recaudado en 100.500, poco más de la mitad.
+
+Hubo piezas que superaron lo previsto. La medalla del Seis Naciones de 2003, el año del Grand Slam, estaba tasada entre 3.000 y 5.000 libras y [se vendió por 7.500](https://briefly.co.za/sports/rugby/256056-lawrence-dallaglio-rugby-world-cup-champion-parts-medal-bankruptcy-divorce/). Una gorra de los British and Irish Lions, estimada en 5.000, alcanzó las 11.000. El catálogo incluía además la medalla de subcampeón del Mundial de 2007, las de la Premiership y la Heineken Cup con los Wasps, su gorra de Inglaterra y una gorra del Salón de la Fama de World Rugby.
+
+## El divorcio y la bancarrota
+
+Dallaglio tiene 54 años. Se divorció el año pasado de Alice, con quien llevaba casi veinte años casado, y fue declarado en bancarrota en 2025. Según Planet Rugby, un tribunal le ordenó entregar su parte de la venta de la casa familiar de Richmond, al suroeste de Londres, para saldar deudas.
+
+Él mismo lo explicó en 2025 en el pódcast High Performance: «Como consecuencia del divorcio, me declararon en bancarrota. Tuve problemas económicos; podría haber hecho las cosas mucho mejor». La subasta es la continuación de aquello.
+
+## Qué ganó con esa medalla
+
+Dallaglio jugó 85 partidos con Inglaterra entre 1995 y 2007, 22 de ellos como capitán. Fue tres veces con los Lions y disputó tres test. Ganó cuatro Seis Naciones (1996, 2000, 2001 y 2003) y jugó entera la final de 2003 contra Australia como número 8: 20-17 en la prórroga. Con los Wasps se despidió en 2008 levantando la Premiership en su última temporada. Hay más rugby en [la sección del sitio](/rugby).
+
+## No es el primero de aquel equipo
+
+Ben Cohen, ala de aquella Inglaterra campeona, [contó a finales de 2024](https://www.ruck.co.uk/2003-rugby-world-cup-legend-had-to-sell-winners-medal-to-get-through-covid/) que había vendido su medalla durante la pandemia porque se había quedado sin ingresos. Primero lo insinuó en una entrevista con The Daily Telegraph y después lo confirmó en un pódcast. Dos medallas de la misma final, vendidas por el mismo motivo con dos años de diferencia.`,
+    category: 'curiosa',
+    kind: 'noticia',
+    competition: { name: 'Rugby', sport: 'rugby', slug: 'rugby' },
+    sourceName: 'ESPN',
+    sourceUrl: 'https://www.espn.com/rugby/story/_/id/50179691/lawrence-dallaglio-england-rugby-world-cup-winners-medal-sold-54000',
+    sourceLang: 'en',
+    publishedAt: '2026-10-17T09:15:00+02:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Lawrence_Dallaglio_Wasps2008.jpg/1280px-Lawrence_Dallaglio_Wasps2008.jpg',
+      alt: 'Lawrence Dallaglio, con la camiseta negra y amarilla de los Wasps y las manos en la cintura, mira hacia atrás durante un partido en 2008',
+      credit: 'David Howlett · Wikimedia Commons',
+      license: 'CC BY 2.0',
+    },
+    sourcesSecondary: [
+      { name: 'Planet Rugby', url: 'https://www.planetrugby.com/news/bankrupt-england-legend-lawrence-dallaglio-is-selling-his-2003-rugby-world-cup-winners-medal' },
+      { name: 'Briefly', url: 'https://briefly.co.za/sports/rugby/256056-lawrence-dallaglio-rugby-world-cup-champion-parts-medal-bankruptcy-divorce/' },
+      { name: 'Ruck', url: 'https://www.ruck.co.uk/2003-rugby-world-cup-legend-had-to-sell-winners-medal-to-get-through-covid/' },
+    ],
+  },
+  {
+    slug: 'atletico-astorga-unico-castellano-grupo-1-segunda-federacion-compostela',
+    title: 'Atlético Astorga, el club de León que pidió jugar entre gallegos y vascos y hoy visita Santiago',
+    summary: 'El Atlético Astorga juega este sábado a las 17:00 en el Vero Boquete contra el Compostela. Es el único equipo de Castilla y León en el grupo 1 de Segunda Federación, el de gallegos, asturianos, cántabros y vascos, y está ahí porque lo pidió por carta a la Federación en julio.',
+    body: `El Atlético Astorga visita hoy sábado a las 17:00 el estadio Vero Boquete de San Lázaro. Enfrente, [el Compostela](https://sdcompostela.com/2026/10/16/el-compos-recibe-al-atletico-astorga/), que viene de ganar en O Vao y es undécimo con siete puntos. El Astorga es decimotercero con seis y aún no ha puntuado fuera de casa. Es también el único club de Castilla y León en el grupo 1 de Segunda Federación, una liga de gallegos, asturianos, cántabros y vascos. Y está ahí porque lo pidió.
+
+## Una carta a la Federación
+
+En julio, la Federación había colocado al Astorga en el grupo 5 junto al resto de castellanoleoneses, con clubes de Madrid, de Castilla-La Mancha y el Calamocha aragonés. El club echó cuentas: [unos miles de kilómetros más](https://www.diariodeleon.es/deportes/260721/2091891/atletico-astorga-regresa-grupo-1-real-madrid-c-5.html) a lo largo de la temporada y hasta 70.000 euros extra en viajes y alojamiento, según Diario de León.
+
+El hueco apareció por los impagos de otros. Arenteiro y Tarazona descendieron por deudas; el Real Madrid C compró la plaza del Arenteiro por algo más de 380.000 euros y el Castellón B se quedó la del Tarazona. El Astorga, que la temporada anterior ya había jugado en el grupo 1 y había logrado la permanencia, mandó una carta a la Federación pidiendo el intercambio: él al grupo 1 y el Real Madrid C al grupo 5. El filial blanco apoyó el cambio y la Federación lo aceptó el 21 de julio, pasado el Mundial, con 48 horas para alegaciones.
+
+## Un pueblo de 10.000 habitantes
+
+Astorga tiene [10.305 habitantes](https://es.wikipedia.org/wiki/Astorga) según el INE de 2025. El club juega en La Eragudina, un campo municipal inaugurado en 1943 con capacidad para 2.000 personas, mil de ellas sentadas. Su techo fueron dos temporadas en Segunda B, entre 2014 y 2016. En la Copa del Rey de 2023-24 eliminó al Andorra (1-0) antes de caer 0-2 ante el Sevilla.
+
+El entrenador es José Luis Lago, ponferradino, en su quinta temporada seguida. Con él el equipo fue campeón del grupo VIII de Tercera Federación en 2024-25 y salvó la categoría a la primera, undécimo. Este verano [han llegado 16 jugadores nuevos](https://www.elcorreogallego.es/deportes/2026/10/17/atletico-astorga-desterrado-norte-desafia-135422386.html) con uno de los presupuestos más bajos de la liga. Lago lo resume así en El Correo Gallego: «Somos un equipo muy humilde que tiene que pelear cada jornada como si fuera la última». El objetivo es el mismo que el año pasado: salvarse.
+
+## Fuerte en casa, nada fuera
+
+Seis puntos en seis jornadas, todos en La Eragudina. Empezó perdiendo 0-1 con el Portugalete, ganó 3-0 al Marino, cayó 0-1 ante el Amorebieta el 3 de octubre y [goleó 4-0 al Ourense](https://www.astorgadigital.com/un-atletico-astorga-reforzado-buscara-ante-el-compostela-sus-primeros-puntos-fuera-de-casa/) en la última jornada, con gol de Jesús Hoyos, doblete de Martín Rafael y tanto de Guillem Hernández. Fuera, dos salidas y dos derrotas: 3-2 en Basauri ante el Basconia y 2-0 en Sestao.
+
+Los precedentes en Santiago no ayudan. En Segunda B, el Compostela ganó 2-1 en 2014-15 y 4-1 en 2015-16. El resto de la jornada de [fútbol](/futbol) y los marcadores en directo están en [partidos de hoy](/partidos-hoy).`,
+    category: 'curiosa',
+    kind: 'noticia',
+    competition: { name: 'Segunda Federación', sport: 'futbol', slug: 'segunda-federacion' },
+    sourceName: 'El Correo Gallego',
+    sourceUrl: 'https://www.elcorreogallego.es/deportes/2026/10/17/atletico-astorga-desterrado-norte-desafia-135422386.html',
+    sourceLang: 'es',
+    publishedAt: '2026-10-17T09:18:00+02:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Fachada_La_Eragudina.jpg/1280px-Fachada_La_Eragudina.jpg',
+      alt: 'Fachada verde del complejo deportivo municipal La Eragudina, en Astorga, con el nombre en letras blancas y el cielo despejado',
+      credit: 'Rodelar · Wikimedia Commons',
+      license: 'CC BY-SA 3.0',
+    },
+    sourcesSecondary: [
+      { name: 'Diario de León', url: 'https://www.diariodeleon.es/deportes/260721/2091891/atletico-astorga-regresa-grupo-1-real-madrid-c-5.html' },
+      { name: 'Astorga Digital', url: 'https://www.astorgadigital.com/un-atletico-astorga-reforzado-buscara-ante-el-compostela-sus-primeros-puntos-fuera-de-casa/' },
+      { name: 'SD Compostela', url: 'https://sdcompostela.com/2026/10/16/el-compos-recibe-al-atletico-astorga/' },
+    ],
+  },
+  {
+    slug: 'jakob-schubert-dna-9c-primera-repeticion-verdon-cafe-colombia-diaz-rullo',
+    title: 'Jakob Schubert, tres años en una pared del Verdon para lo que ningún escalador había logrado',
+    summary: 'El austriaco Jakob Schubert encadenó el 10 de octubre DNA, en el cañón del Verdon, la primera repetición de una vía de 9c en la historia de la escalada deportiva. Lo hizo en directo por YouTube, en su noveno intento retransmitido, tras trabajar la vía desde 2023. De los cinco 9c del mundo, uno es español y sigue sin repetirse.',
+    body: `Jakob Schubert llegó a la cadena de DNA el sábado 10 de octubre. La vía está en el sector Ramirole del cañón del Verdon, en Francia, mide unos 50 metros y tiene el grado 9c, el más alto que se ha propuesto nunca en escalada deportiva. Es [la primera repetición confirmada de un 9c](https://www.desnivel.com/escalada-roca/jakob-schubert-hace-la-primera-repeticion-de-un-9c-con-dna/). Hasta ese día, ninguna de las cinco vías de ese grado había sido escalada por una segunda persona.
+
+Lo hizo en su noveno intento retransmitido en directo por su canal de YouTube. Schubert, de 35 años y de Innsbruck, la trabajaba desde 2023.
+
+## Por qué una repetición importa tanto
+
+En escalada, el grado de una vía lo propone quien la abre y lo confirman quienes la repiten. Un 9c sin repetir es una propuesta; un 9c repetido es un grado. Seb Bouin, el francés que hizo la primera ascensión, [dudó mucho tiempo entre 9b+ y 9c](https://www.lacrux.com/es/?p=74579). Bouin equipó la línea en 2019, invirtió 150 días y más de 250 intentos y la encadenó el 29 de abril de 2022.
+
+Schubert ya tenía un 9c propio, B.I.G., en la cueva de Flatanger (Noruega), de septiembre de 2023. Con DNA es el único escalador con dos vías de ese grado, una confirmada y otra propuesta. A Desnivel le dijo que esta ha sido otra cosa: «Para mí, es con diferencia la vía más dura que he intentado nunca». Según [Bergsteigen](https://www.bergsteigen.com/news/neuigkeiten/jakob-schubert-gelingt-die-erste-wiederholung-einer-9c/), su estatura relativamente baja convirtió la distancia entre presas en el problema principal.
+
+## Los cinco 9c del mundo
+
+| Vía | Lugar | Primera ascensión | Repetida |
+| --- | --- | --- | --- |
+| Silence | Flatanger (Noruega) | Adam Ondra, 2017 | No |
+| DNA | Verdon (Francia) | Seb Bouin, abril de 2022 | Sí, Schubert, 10 de octubre de 2026 |
+| B.I.G. | Flatanger (Noruega) | Jakob Schubert, septiembre de 2023 | No |
+| Duality of Man | Dry Canyon, Arizona (EE. UU.) | Sean Bailey, enero de 2026 | No |
+| Café Colombia | Margalef (Tarragona) | Jorge Díaz-Rullo, marzo de 2026 | No |
+
+El mismo día que Schubert encadenaba DNA, el británico Will Bosi probaba Silence, también en directo, sin conseguirlo.
+
+## El 9c español espera turno
+
+El quinto de la lista es de Jorge Díaz-Rullo, madrileño de 27 años. Café Colombia está en el sector Racó de la Finestra de Margalef, la equipó originalmente el colombiano Anghelo Bernal y Díaz-Rullo [la encadenó el 13 de marzo de 2026](https://www.lacrux.com/en/?p=63012) tras empezar a probarla en otoño de 2021 y dedicarle 240 días en más de cuatro años. Son unos 30 metros desplomados y unos 40 movimientos, con un paso de bloque de 8B al final después de una sección de 9b/+ casi sin reposos.
+
+Sigue sin repetición, como Silence, B.I.G. y Duality of Man. Lo que ha hecho Schubert en el Verdon deja claro cuánto cuesta la segunda ascensión: tres años de un escalador que ya tenía un 9c en su historial. Más historias de deportes que no son fútbol, en [noticias](/noticias).`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'Escalada', sport: 'escalada', slug: 'escalada' },
+    sourceName: 'Desnivel',
+    sourceUrl: 'https://www.desnivel.com/escalada-roca/jakob-schubert-hace-la-primera-repeticion-de-un-9c-con-dna/',
+    sourceLang: 'es',
+    publishedAt: '2026-10-17T09:21:00+02:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Jakob_Schubert_Climbing_WCh_2018.jpg/1280px-Jakob_Schubert_Climbing_WCh_2018.jpg',
+      alt: 'Jakob Schubert sonríe, con camiseta de tirantes blanca y fondo negro, en la final del Mundial de escalada de Innsbruck 2018',
+      credit: 'Simon Legner · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+    sourcesSecondary: [
+      { name: 'Lacrux', url: 'https://www.lacrux.com/es/?p=74579' },
+      { name: 'Bergsteigen', url: 'https://www.bergsteigen.com/news/neuigkeiten/jakob-schubert-gelingt-die-erste-wiederholung-einer-9c/' },
+      { name: 'Lacrux (Café Colombia)', url: 'https://www.lacrux.com/en/?p=63012' },
+    ],
+  },
+  {
     slug: 'cronica-deportivo-levante-401882844',
     title: "Deportivo y Levante empatan 1-1 en LaLiga",
     summary: "Deportivo y Levante reparten puntos (1-1) en LaLiga. Deportivo es 8.º y Levante, 17.º.",
