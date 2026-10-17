@@ -178,6 +178,48 @@ Marcadores en directo, calendario y clasificación por conferencias en la [pági
     },
   },
   {
+    slug: 'stefan-milicevic-sancion-24-anos-amano-partidos-tenis-2050',
+    title: 'Stefan Milicevic, el tenista que no podrá volver a una pista profesional hasta los 53 años',
+    summary: 'La agencia de integridad del tenis ha sancionado 24 años al serbio Stefan Milicevic, de 29, por amañar seis partidos, intentar amañar otros seis y reclutar a más jugadores para una red de apuestas. No podrá jugar, entrenar ni asistir a un torneo oficial hasta el 8 de octubre de 2050.',
+    body: `Stefan Milicevic tiene 29 años y su mejor puesto en el ranking ATP fue el 1.338. Si cumple la sanción entera, podrá volver a pisar un torneo oficial con 53. La Agencia Internacional para la Integridad del Tenis (ITIA) [le ha suspendido 24 años](https://www.itia.tennis/news/sanctions/serbian-tennis-player-stefan-milicevic-suspended-for-24-years/) y le ha multado con 70.000 dólares. La sanción terminará el 8 de octubre de 2050.
+
+## Qué hizo
+
+Según la ITIA, entre 2022 y 2024 Milicevic amañó seis partidos, cinco de ellos jugados por él, e intentó amañar otros seis. Lo más grave para la agencia no son sus propios partidos: le acusa de reclutar, o intentar reclutar, a varios jugadores profesionales para una red corrupta, y eso llevó a otros tenistas a amañar partidos.
+
+La ITIA insiste en ese punto. La duración de la sanción no viene de que no colaborase, sino de la gravedad de lo que hizo y de que arrastró a otros.
+
+## Siete intentos sin respuesta
+
+Milicevic no respondió a la investigación. La agencia [dice que lo intentó siete veces](https://tennisuptodate.com/atp/serbian-tennis-player-hit-with-24-year-itia-ban-after-fixing-six-matches-and-recruiting-fellow-players), por canales distintos. El 24 de septiembre le notificó la infracción grave y, como tampoco contestó, la sanción se aplicó de oficio el 9 de octubre. Por eso no hay una resolución escrita de un juez independiente: el caso se cerró sin vista.
+
+La suspensión es total. No puede jugar, entrenar ni siquiera asistir como público a ningún torneo organizado o reconocido por la ATP, la WTA, los Grand Slams o las federaciones nacionales.
+
+## El caso sigue abierto
+
+Marino Jakic, su compañero de dobles en un torneo de Osijek (Croacia) en 2023, está suspendido de forma provisional desde el 24 de junio mientras la ITIA investiga posibles infracciones de ese año.
+
+Los amaños en el tenis se concentran en los torneos pequeños, los ITF y Challenger, donde los premios apenas cubren los viajes y las casas de apuestas ofrecen mercados para casi cualquier partido. Todo el tenis profesional, en la sección de [tenis](/tenis/atp).`,
+    category: 'polemica',
+    kind: 'noticia',
+    competition: { name: 'ATP', sport: 'tenis', slug: 'atp' },
+    sourceName: 'ITIA',
+    sourceUrl: 'https://www.itia.tennis/news/sanctions/serbian-tennis-player-stefan-milicevic-suspended-for-24-years/',
+    sourceLang: 'en',
+    publishedAt: '2026-10-17T13:32:00+02:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Clay_tennis_courts_melbourne_looking_down_the_net.jpg/1280px-Clay_tennis_courts_melbourne_looking_down_the_net.jpg',
+      alt: 'Pistas de tierra batida vacías vistas a ras de la red',
+      credit: 'KeepActive Australia · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+    sourcesSecondary: [
+      { name: 'Tennis Uptodate', url: 'https://tennisuptodate.com/atp/serbian-tennis-player-hit-with-24-year-itia-ban-after-fixing-six-matches-and-recruiting-fellow-players' },
+      { name: 'Primicias', url: 'https://www.primicias.ec/deportes/mas-deportes/sancion-tenista-serbio-stefan-milicevic-amano-partidos-135017/' },
+    ],
+  },
+  {
     slug: 'sofia-goggia-chikungunya-parvovirus-ushuaia-solden',
     title: 'Sofia Goggia sintió que había perdido el italiano tras la picadura de un mosquito en Ushuaia',
     summary: 'Sofia Goggia, campeona olímpica de descenso en 2018, no estará en Sölden el 24 de octubre. Un mosquito le transmitió chikungunya en Ushuaia y después contrajo un parvovirus: temblores, dolores, no podía subir escaleras y le costaba hablar. No sabe cuándo volverá.',
