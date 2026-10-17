@@ -8,6 +8,7 @@ import { MovistarHero } from '@/components/affiliate/movistar-banner';
 import { DailyNews } from '@/components/home/daily-news';
 import { MundialesEntry } from '@/components/home/mundiales-entry';
 import { LiveStrip } from '@/components/feed/live-strip';
+import { ScoresTicker } from '@/components/portal/scores-ticker';
 import { AdSlot } from '@/components/affiliate/ad-slot';
 import type { Locale } from '@/i18n/routing';
 import { pageMetadata } from '@/lib/seo';
@@ -67,8 +68,11 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
   const L = locale as Locale;
   return (
     <>
-      {/* Primera sección de la portada: deja sitio a la cabecera fija (antes lo hacía el hero). */}
-      <LiveStrip locale={L} className="pt-32 md:pt-40" />
+      {/* Primera sección: resultados y agenda, con sitio para la cabecera fija. */}
+      <div className="pt-[118px] md:pt-[138px]">
+        <ScoresTicker locale={L} />
+      </div>
+      <LiveStrip locale={L} className="pt-8" />
       <PortalHero locale={L} />
       {/* Crónicas, previas y agenda del día: justo bajo el hero, que es lo que se busca. */}
       <DailyNews locale={L} />

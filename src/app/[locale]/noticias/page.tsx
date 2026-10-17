@@ -3,6 +3,7 @@ import { setRequestLocale } from 'next-intl/server';
 import { ArrowLeft, Newspaper } from 'lucide-react';
 import { NEWS_ITEMS } from '@/lib/news';
 import { NewsCard, autoVariant } from '@/components/news/news-card';
+import { ScoresTicker } from '@/components/portal/scores-ticker';
 
 // ISR 5 min: el filtro publishedAt <= now se reevalúa en cada regeneración,
 // no en build time, para que los artículos programados aparezcan solos.
@@ -73,7 +74,8 @@ export default async function NoticiasIndex({
   };
 
   return (
-    <div className="pt-32">
+    <div className="pt-[118px] md:pt-[138px]">
+      <ScoresTicker locale={locale as Locale} />
       <JsonLd
         data={[
           collectionLd,
@@ -84,7 +86,7 @@ export default async function NoticiasIndex({
         ]}
       />
 
-      <header className="mx-auto w-full max-w-[1400px] px-6 md:px-10">
+      <header className="mx-auto w-full max-w-[1400px] px-6 pt-8 md:px-10">
         <Link
           href={withLocale(locale as Locale, '/')}
           className="inline-flex items-center gap-2 font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-fg-muted)] transition-colors hover:text-[var(--color-fg)]"
