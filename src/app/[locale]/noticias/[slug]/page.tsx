@@ -174,9 +174,9 @@ export default async function NoticiaDetail({
     // (guardarraíles T7 e IM6). Sin foto propia, la tarjeta de marca.
     image: item.image
       ? [
-          { '@type': 'ImageObject', url: `${SEO.siteUrl}/img/noticia/${item.slug}/16x9.png`, width: 1600, height: 900, caption: item.image.alt, representativeOfPage: true },
-          { '@type': 'ImageObject', url: `${SEO.siteUrl}/img/noticia/${item.slug}/4x3.png`, width: 1600, height: 1200 },
-          { '@type': 'ImageObject', url: `${SEO.siteUrl}/img/noticia/${item.slug}/1x1.png`, width: 1200, height: 1200 },
+          { '@type': 'ImageObject', url: `${SEO.siteUrl}/img/noticia/${item.slug}/16x9.jpg`, width: 1600, height: 900, caption: item.image.alt, representativeOfPage: true },
+          { '@type': 'ImageObject', url: `${SEO.siteUrl}/img/noticia/${item.slug}/4x3.jpg`, width: 1600, height: 1200 },
+          { '@type': 'ImageObject', url: `${SEO.siteUrl}/img/noticia/${item.slug}/1x1.jpg`, width: 1200, height: 1200 },
         ]
       : [
           {
