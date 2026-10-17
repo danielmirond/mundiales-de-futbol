@@ -141,6 +141,79 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'elecciones-29n-partidos-domingo-29-noviembre-horarios-futbol-f1-davis',
+    title: 'Elecciones del 29N: Arsenal - City, F1 en Catar y quizá la final de la Davis el mismo domingo',
+    summary: 'El domingo 29 de noviembre se vota en las elecciones generales y no para el deporte: Premier, Bundesliga, Serie A, el Gran Premio de Catar de F1, la NFL y, si España llega, la final de la Copa Davis. LaLiga aún no ha fijado los horarios de su jornada. Qué se juega, a qué hora y qué choca con la jornada electoral.',
+    body: `El domingo 29 de noviembre hay [elecciones generales](https://www.guiaelecciones.com/elecciones/generales/2026-noviembre/). Los colegios abren a las 9:00 y cierran a las 20:00, y [la campaña va del 13 al 27 de noviembre](https://es.euronews.com/2026/10/06/calendario-elecciones-generales-29n-fechas-clave-voto-correo-campana), con el sábado 28 como jornada de reflexión. El calendario deportivo no se detiene: ese domingo hay fútbol desde el mediodía, Fórmula 1 por la tarde, NFL y NBA por la noche y, si España sigue viva, una final de Copa Davis.
+
+Todas las horas son peninsulares. En Canarias, una hora menos, también en los colegios electorales.
+
+## LaLiga: la jornada, sin horarios
+
+LaLiga todavía no ha repartido los partidos de ese fin de semana entre viernes, sábado, domingo y lunes. ESPN los coloca de momento todos el domingo, [sin hora confirmada](https://www.espn.com/soccer/scoreboard/_/league/esp.1/date/20261129). Estos son los cruces:
+
+- [Real Madrid - Alavés](/futbol/laliga/partido/401882789)
+- [Deportivo - Barcelona](/futbol/laliga/partido/401882794)
+- [Elche - Atlético](/futbol/laliga/partido/401882793)
+- [Real Betis - Rayo Vallecano](/futbol/laliga/partido/401882796)
+- [Real Sociedad - Sevilla](/futbol/laliga/partido/401882788)
+- [Valencia - Osasuna](/futbol/laliga/partido/401882787)
+- Celta - Villarreal, Espanyol - Getafe, Levante - Racing y Málaga - Athletic
+
+Cuando LaLiga publique los horarios, los verás en [el calendario de LaLiga](/futbol/laliga) y en las fichas de cada partido, con el canal.
+
+## Lo que ya tiene hora
+
+| Hora | Competición | Partido |
+| --- | --- | --- |
+| 12:30 | Serie A | Udinese - Fiorentina |
+| 13:00 | Premier League | [Everton - Liverpool](/futbol/premier-league/partido/401879229) |
+| 15:00 | Copa Davis | Final en Bolonia, si se llega |
+| 15:05 | Premier League | Brighton - Newcastle, Fulham - Bournemouth, Crystal Palace - Hull y Sunderland - Tottenham |
+| 15:30 | Bundesliga | Friburgo - Leipzig |
+| 17:00 | Fórmula 1 | Gran Premio de Catar |
+| 17:30 | Premier League | [Arsenal - Manchester City](/futbol/premier-league/partido/401878753) |
+| 19:00 | NFL | Seis partidos, entre ellos Bengals - Saints y Dolphins - Jets |
+| 19:30 | Bundesliga | [Dortmund - Leverkusen](/futbol/bundesliga/partido/401884727) |
+| 20:45 | Serie A | [Como - Juventus](/futbol/serie-a/partido/401874994) |
+| 20:45 | Ligue 1 | [Lyon - Mónaco](/futbol/ligue-1/partido/401876389) |
+| 22:00 | NBA | Grizzlies - Lakers y Spurs - Celtics |
+
+## Lo que coincide con votar
+
+Por la mañana hay poco. La Serie A abre a las 12:30 y el derbi de Liverpool empieza a las 13:00: se puede votar antes o después sin perderse nada.
+
+La tarde es otra cosa. El [Gran Premio de Catar](/motor/formula-1) arranca a las 17:00 y el Arsenal - City, a las 17:30. Los dos terminan antes del cierre de los colegios, a las 20:00, pero ocupan justo las horas en que más gente suele ir a votar después de comer.
+
+La Copa Davis es el caso abierto. [La Final 8 se juega en Bolonia del 24 al 29 de noviembre](https://www.puntodebreak.com/2026/09/22/desvela-camino-espana-conquistar-copa-davis) y España [debuta el jueves 26 contra Austria](https://www.flashscore.es/noticias/tenis-copa-davis-finales-2026-espana-jugara-contra-austria-ronda-de-cuartos/xtW0k7zP/). Si gana los cuartos y la semifinal del sábado, la final es el domingo a las 15:00, en plena tarde electoral. Los horarios de la Davis aún figuran como provisionales.
+
+## Y a las 20:00, el recuento
+
+Cuando cierran los colegios peninsulares empiezan el Dortmund - Leverkusen (ya en marcha desde las 19:30), el Como - Juventus y el Lyon - Mónaco, además de la tanda de las 19:00 de la NFL. Si LaLiga coloca un partido grande el domingo por la noche, coincidirá con el escrutinio. Los resultados por provincia y [dónde te toca votar](https://www.guiaelecciones.com/donde-voto/) están en [Guía Elecciones](https://www.guiaelecciones.com/), que sigue la noche [en directo](https://www.guiaelecciones.com/directo/).
+
+Si vas a estar fuera ese fin de semana por un partido o un viaje, el voto por correo tiene plazos propios: están explicados en [cómo votar](https://www.guiaelecciones.com/como-votar/).`,
+    category: 'tv',
+    kind: 'noticia',
+    competition: { name: 'Agenda', sport: 'futbol', slug: 'laliga' },
+    sourceName: 'ESPN',
+    sourceUrl: 'https://www.espn.com/soccer/scoreboard/_/league/esp.1/date/20261129',
+    sourceLang: 'en',
+    publishedAt: '2026-10-17T12:45:00+02:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Elecciones_generales_2023_Valladolid_01.jpg/1280px-Elecciones_generales_2023_Valladolid_01.jpg',
+      alt: 'Mesa electoral de las elecciones generales de 2023 instalada en el gimnasio de un colegio de Valladolid, con las urnas del Congreso y del Senado',
+      credit: 'MiguelAlanCS · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+    sourcesSecondary: [
+      { name: 'Guía Elecciones', url: 'https://www.guiaelecciones.com/elecciones/generales/2026-noviembre/calendario/' },
+      { name: 'Euronews', url: 'https://es.euronews.com/2026/10/06/calendario-elecciones-generales-29n-fechas-clave-voto-correo-campana' },
+      { name: 'Punto de Break', url: 'https://www.puntodebreak.com/2026/09/22/desvela-camino-espana-conquistar-copa-davis' },
+      { name: 'Flashscore', url: 'https://www.flashscore.es/noticias/tenis-copa-davis-finales-2026-espana-jugara-contra-austria-ronda-de-cuartos/xtW0k7zP/' },
+    ],
+  },
+  {
     slug: 'premier-bundesliga-serie-a-fin-de-semana-17-18-octubre-horarios-donde-ver',
     title: 'Liverpool y City juegan a la vez: dónde ver Premier, Bundesliga y Serie A este fin de semana',
     summary: 'Veinticuatro partidos de Premier League, Bundesliga y Serie A entre el sábado 17 y el domingo 18 de octubre, de las 12:30 a las 20:45 en horario peninsular. DAZN emite las tres ligas en España y también está dentro de Movistar Plus+. El Bayern - Leipzig del sábado y el Forest - Arsenal del domingo cierran cada día.',
