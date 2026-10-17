@@ -73,7 +73,7 @@ export type NewsItem = {
   /** URL del artículo original (atribución obligatoria). */
   sourceUrl: string;
   /** Idioma del medio (no del resumen, que es ES). */
-  sourceLang: 'es' | 'en' | 'pt' | 'fr';
+  sourceLang: 'es' | 'en' | 'pt' | 'fr' | 'it' | 'de';
   /** Fechas de publicación / actualización (ISO 8601). */
   publishedAt: string;
   modifiedAt?: string;
@@ -140,6 +140,56 @@ export function newsImageAlt(item: NewsItem): string {
 }
 
 export const NEWS_ITEMS: NewsItem[] = [
+  {
+    slug: 'kimi-antonelli-campeon-austin-paddock-singapur-san-marino-minardi',
+    title: 'Kimi Antonelli puede ser campeón en Austin y en Singapur la seguridad no le dejaba pasar',
+    summary: 'Kimi Antonelli llega a Austin con 102 puntos de ventaja y puede cerrar el Mundial de F1 el 25 de octubre, con 20 años: sería el campeón más joven de la historia. Hace una semana, en Singapur, los vigilantes no le reconocieron en la puerta del paddock. Vive en San Marino y tiene un pleito abierto con su exrepresentante.',
+    body: `Kimi Antonelli lidera el Mundial de Fórmula 1 y aun así se quedó en la puerta. Durante el fin de semana de Singapur, el piloto de Mercedes volvía al paddock con un miembro del equipo cuando los vigilantes no le dejaron pasar. [Según contó SportMediaset](https://www.open.online/2026/10/12/kimi-antonelli-resta-fuori-paddock-singapore/), insistió con un «perdonad, soy piloto de Fórmula 1» que no sirvió de nada. La puerta se abrió cuando llegó Max Verstappen, al que sí reconocieron, y Antonelli entró detrás.
+
+Dos días después terminó tercero en Marina Bay, detrás de Verstappen y Leclerc, y amplió su ventaja en el campeonato a [102 puntos sobre George Russell](https://www.lapresse.it/sport/f1/2026/10/12/kimi-antonelli-campione-del-mondo-ad-austin-se/).
+
+## Las cuentas de Austin
+
+El siguiente gran premio es el de Estados Unidos, el domingo 25 de octubre en Austin. Después quedan México, Brasil, Las Vegas, Catar y Abu Dabi. Según los cálculos de LaPresse, Antonelli será campeón en Texas si Russell termina noveno o peor y Hamilton no pasa del quinto puesto: su ventaja llegaría a 125 puntos, los mismos que quedarían en juego. [Sky Sport Italia](https://sport.sky.it/formula-1/antonelli-campione-f1-2026-se-combinazioni) detalla el resto de combinaciones.
+
+## El campeón más joven
+
+Antonelli nació en Bolonia el 25 de agosto de 2006. Si gana el título en Austin lo hará con 20 años y 61 días. El récord lo tiene Sebastian Vettel, campeón en Abu Dabi en 2010 con 23 años y 134 días. Aunque el título se fuera hasta la última carrera, en diciembre, seguiría teniendo 20 años.
+
+Sería además el primer italiano campeón del mundo de Fórmula 1 desde Alberto Ascari, que ganó el segundo de sus títulos en 1953.
+
+## San Marino, no Mónaco
+
+Muchos pilotos de la parrilla viven en Mónaco. Antonelli no: [tiene la residencia en San Marino desde 2024](https://quifinanza.it/sport-economy/kimi-antonelli-san-marino/964031/), a poco más de cien kilómetros de su Bolonia natal. En Italia el asunto se discute desde que Jannik Sinner recibió críticas por vivir en Montecarlo; [Il Foglio](https://www.ilfoglio.it/en/foglio-ai/2026/09/12/news/after-monte-carlo-comes-san-marino--406883) ya escribió en septiembre que el siguiente debate sería el suyo.
+
+## El pleito con su exrepresentante
+
+No todo es celebración. Giovanni Minardi, que fue su mánager, [le ha demandado en el Tribunal de Bolonia](https://crash.net/f1/news/1101982/1/former-manager-sues-f1-points-leader-kimi-antonelli) por honorarios que asegura no haber cobrado. La cifra no se ha hecho pública. El abogado de Minardi dice que hubo reuniones para llegar a un acuerdo amistoso y que no fue posible.
+
+## Cómo verlo en España
+
+La carrera de Austin empieza a las 21:00 en la península y a las 20:00 en Canarias. Ojo: esa misma madrugada España cambia al horario de invierno. La emite DAZN, que tiene los derechos de la Fórmula 1. La clasificación es el sábado 24 a las 23:00. Todo el calendario y la clasificación del Mundial, en [la página de la Fórmula 1](/motor/formula-1).`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'Fórmula 1', sport: 'motor', slug: 'formula-1' },
+    sourceName: 'Open',
+    sourceUrl: 'https://www.open.online/2026/10/12/kimi-antonelli-resta-fuori-paddock-singapore/',
+    sourceLang: 'it',
+    publishedAt: '2026-10-17T12:55:00+02:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Kimi_Antonelli_at_the_Melbourne_Walk_during_the_2026_Australian_Grand_Prix_%28028A7923%29.jpg/1280px-Kimi_Antonelli_at_the_Melbourne_Walk_during_the_2026_Australian_Grand_Prix_%28028A7923%29.jpg',
+      alt: 'Kimi Antonelli, con gorra blanca de Mercedes, sonríe rodeado de aficionados en el Melbourne Walk, la entrada al paddock del Gran Premio de Australia 2026',
+      credit: 'Yu Chu Chin · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+    sourcesSecondary: [
+      { name: 'LaPresse', url: 'https://www.lapresse.it/sport/f1/2026/10/12/kimi-antonelli-campione-del-mondo-ad-austin-se/' },
+      { name: 'Sky Sport Italia', url: 'https://sport.sky.it/formula-1/antonelli-campione-f1-2026-se-combinazioni' },
+      { name: 'QuiFinanza', url: 'https://quifinanza.it/sport-economy/kimi-antonelli-san-marino/964031/' },
+      { name: 'Crash.net', url: 'https://crash.net/f1/news/1101982/1/former-manager-sues-f1-points-leader-kimi-antonelli' },
+    ],
+  },
   {
     slug: 'elecciones-29n-partidos-domingo-29-noviembre-horarios-futbol-f1-davis',
     title: 'Elecciones del 29N: Arsenal - City, F1 en Catar y quizá la final de la Davis el mismo domingo',
