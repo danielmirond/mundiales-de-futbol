@@ -68,7 +68,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
   return (
     <>
       {/* Primera sección de la portada: deja sitio a la cabecera fija (antes lo hacía el hero). */}
-      <LiveStrip locale={L} className="pt-28 md:pt-36" />
+      <LiveStrip locale={L} className="pt-32 md:pt-40" />
       <PortalHero locale={L} />
       {/* Crónicas, previas y agenda del día: justo bajo el hero, que es lo que se busca. */}
       <DailyNews locale={L} />

@@ -40,7 +40,8 @@ export async function PortalHero({ locale }: { locale: Locale }) {
           )}
           <span>{today}</span>
         </div>
-        <p className="mt-3 max-w-2xl text-[15px] text-[var(--color-fg-muted)] md:mt-4 md:text-lg">
+        {/* En móvil se omite para que la lista de partidos entre en la primera pantalla. */}
+        <p className="mt-4 hidden max-w-2xl text-lg text-[var(--color-fg-muted)] md:block">
           Marcadores en directo, calendario y clasificación de LaLiga, Champions, Premier, NBA, Euroliga y el resto de competiciones.
         </p>
 
