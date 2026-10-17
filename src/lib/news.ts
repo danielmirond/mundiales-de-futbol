@@ -141,6 +141,43 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'nba-resultados-2026-10-17',
+    title: "NBA (pretemporada): resultados de la noche del sábado 17 de octubre",
+    summary: "Resultados de los 12 partidos de la noche en la NBA, con el más igualado y el de más puntos.",
+    body: `12 partidos de pretemporada en la NBA esta noche. El más igualado, Bucks 128-127 a Pacers, decidido en la última posesión. El de más puntos, Bucks ante Pacers (128-127).
+
+## Resultados
+
+- [Magic 136-115 Heat](/baloncesto/nba/partido/401898406)
+- [Celtics 125-120 76ers](/baloncesto/nba/partido/401898407)
+- [Pistons 129-125 Raptors](/baloncesto/nba/partido/401908946)
+- [Bucks 128-127 Pacers](/baloncesto/nba/partido/401914126)
+- [Hawks 135-111 Mavericks](/baloncesto/nba/partido/401898408)
+- [Spurs 126-97 Kings](/baloncesto/nba/partido/401898843)
+- [Grizzlies 117-98 Hornets](/baloncesto/nba/partido/401901822)
+- [Pelicans 107-106 Wizards](/baloncesto/nba/partido/401906509)
+- [Bulls 133-116 Timberwolves](/baloncesto/nba/partido/401908943)
+- [Warriors 128-118 Trail Blazers](/baloncesto/nba/partido/401898409)
+- [Jazz 119-116 Suns](/baloncesto/nba/partido/401908948)
+- [Nuggets 121-106 Lakers](/baloncesto/nba/partido/401898719)
+
+Marcadores en directo, calendario y clasificación por conferencias en la [página de la NBA](/baloncesto/nba).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"NBA","sport":"baloncesto","slug":"nba"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/nba/scoreboard",
+    sourceLang: 'en',
+    publishedAt: '2026-10-17T11:08:46.125Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Bankers_Life_Fieldhouse%2C_Indian%C3%A1polis%2C_Estados_Unidos%2C_2012-10-22%2C_DD_01.jpg/1920px-Bankers_Life_Fieldhouse%2C_Indian%C3%A1polis%2C_Estados_Unidos%2C_2012-10-22%2C_DD_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Gainbridge Fieldhouse, sede del Pacers - Bucks",
+      credit: "Diego Delso · CC BY-SA 3.0 · Wikimedia Commons",
+      license: "CC BY-SA 3.0",
+    },
+  },
+  {
     slug: 'kimi-antonelli-campeon-austin-paddock-singapur-san-marino-minardi',
     title: 'Kimi Antonelli puede ser campeón en Austin y en Singapur la seguridad no le dejaba pasar',
     summary: 'Kimi Antonelli llega a Austin con 102 puntos de ventaja y puede cerrar el Mundial de F1 el 25 de octubre, con 20 años: sería el campeón más joven de la historia. Hace una semana, en Singapur, los vigilantes no le reconocieron en la puerta del paddock. Vive en San Marino y tiene un pleito abierto con su exrepresentante.',
@@ -520,10 +557,10 @@ Hora peninsular en todos los casos. Si un canal cambia a última hora, la ficha 
     sourceUrl: "https://www.espn.com/nba/game/_/gameId/401918305",
     sourceLang: 'en',
     publishedAt: '2026-10-16T23:51:12.747Z',
-    modifiedAt: '2026-10-16T23:51:12.747Z',
+    modifiedAt: '2026-10-17T11:08:46.125Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
-      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Chase_Center_-_February_2019_%281943%29.jpg/1920px-Chase_Center_-_February_2019_%281943%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Chase_Center_-_February_2019_%281933%29.jpg/1920px-Chase_Center_-_February_2019_%281933%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       alt: "Chase Center, escenario del Valkyries - Dream",
       credit: "Gregory Varnum · CC BY-SA 4.0 · Wikimedia Commons",
       license: "CC BY-SA 4.0",
@@ -537,8 +574,8 @@ Hora peninsular en todos los casos. Si un canal cambia a última hora, la ficha 
 
 ## 🇪🇸 Liga F
 
-- **[ Dux Logroño - Granada](/futbol/liga-f/partido/401882489)** — 12:00 h
-- **[Badalona - Tenerife](/futbol/liga-f/partido/401882487)** — 12:00 h
+- **[ Dux Logroño - Granada](/futbol/liga-f/partido/401882489)** — 12:00 h — **en juego, 1-1**
+- **[Badalona - Tenerife](/futbol/liga-f/partido/401882487)** — 12:00 h — **en juego, 0-3**
 - **[Athletic  - Valencia](/futbol/liga-f/partido/401882491)** — 16:30 h
 - **[Real Madrid - Espanyol](/futbol/liga-f/partido/401882486)** — 20:30 h
 
@@ -546,7 +583,7 @@ Calendario y clasificación en la [página de Liga F](/futbol/liga-f).
 
 ## 🇹🇷 Süper Lig
 
-- **[Erzurum - Eyupspor](/futbol/super-lig/partido/401888271)** — 12:30 h
+- **[Erzurum - Eyupspor](/futbol/super-lig/partido/401888271)** — 12:30 h — **en juego, 1-0**
 - **[Amed SFK - Konyaspor](/futbol/super-lig/partido/401888378)** — 15:00 h
 - **[Genclerbirli - Galatasaray](/futbol/super-lig/partido/401888274)** — 15:00 h
 - **[Fenerbahce - Alanyaspor](/futbol/super-lig/partido/401888273)** — 18:00 h
@@ -662,7 +699,7 @@ Horarios en hora de España; los resultados y la narración de cada partido van 
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401878771",
     sourceLang: 'en',
     publishedAt: '2026-10-16T23:51:12.747Z',
-    modifiedAt: '2026-10-16T23:51:12.747Z',
+    modifiedAt: '2026-10-17T11:08:46.125Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Hill_Dickinson_Stadium_South_Stand_2026.jpg/1920px-Hill_Dickinson_Stadium_South_Stand_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
