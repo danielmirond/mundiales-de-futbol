@@ -154,6 +154,425 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'previa-real-madrid-sevilla-401882839',
+    title: "Real Madrid - Sevilla: horario, dónde ver y cómo llegan al partido de LaLiga",
+    summary: "Cita de LaLiga este domingo 18 de octubre: Real Madrid - Sevilla, a las 21:00 h en Santiago Bernabéu. Real Madrid es 4.º y Sevilla, 5.º. TV: M+ LALIGA.",
+    body: `Cita de LaLiga este domingo 18 de octubre: Real Madrid - Sevilla, a las 21:00 h en Santiago Bernabéu.
+
+## Cómo llegan
+
+Real Madrid llega de ganar 1-0 a Villarreal y ocupa la 4.º plaza con 18 puntos (6G-0E-2P). Sevilla llega de empatar 3-3 con Levante y ocupa la 5.º plaza con 14 puntos (4G-2E-2P). La [clasificación de LaLiga](/futbol/laliga), al día.
+
+## Dónde ver el partido
+
+Se emite en **M+ LALIGA**. Alineaciones en cuanto se confirmen, marcador en directo y narración en la [ficha del Real Madrid - Sevilla](/futbol/laliga/partido/401882839). El resto de la jornada, en [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    kind: 'previa',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882839",
+    sourceLang: 'en',
+    publishedAt: '2026-10-17T23:22:30.909Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Santiagobernabeupanoramav45.JPG/1920px-Santiagobernabeupanoramav45.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Santiago Bernabéu, sede del Real Madrid - Sevilla",
+      credit: "لا روسا · CC BY-SA 3.0 · Wikimedia Commons",
+      license: "CC BY-SA 3.0",
+    },
+  },
+  {
+    slug: 'cronica-man-city-ipswich-401879259',
+    title: "Erling Haaland guía a Man City ante Ipswich (3-2) y lo deja 1.º en Premier League",
+    summary: "Man City 3-2 Ipswich en Premier League: Erling Haaland marcó 2. Man City 70 % de posesión y 19 remates; Ipswich 30 % y 8.",
+    body: `## Resumen
+
+Man City ganó 3-2 a Ipswich en Premier League, con doblete de Erling Haaland. Se emitió en DAZN.
+
+## Los goles
+
+- 19' · Phil Foden (Man City)
+- 21' · Daizen Maeda (Ipswich)
+- 34' · Erling Haaland (Man City)
+- 69' · Erling Haaland (Man City)
+
+## El dato
+
+Man City 70 % de posesión y 19 remates; Ipswich 30 % y 8.
+
+## Lo que viene
+
+Lo que viene. Man City: visita a Aston Villa el sábado 24 de octubre. Ipswich: recibe a Nottm Forest el viernes 23 de octubre.
+
+**Lee también:** la [ficha del partido](/futbol/premier-league/partido/401879259) con alineaciones y narración · la [clasificación de Premier League](/futbol/premier-league) · [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Premier League","sport":"futbol","slug":"premier-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401879259",
+    sourceLang: 'en',
+    publishedAt: '2026-10-17T23:22:30.909Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Etihad_Stadium.jpg/1920px-Etihad_Stadium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Etihad Stadium, donde se jugó el Man City - Ipswich",
+      credit: "Cléria De Souza · CC BY 2.0 · Wikimedia Commons",
+      license: "CC BY 2.0",
+    },
+  },
+  {
+    slug: 'cronica-fulham-hull-401878770',
+    title: "Fulham se impone a Hull (1-0) con gol de Alex Iwobi en Premier League",
+    summary: "Alex Iwobi marcó; Hull remató 5 veces (0 a puerta) en el Fulham 1-0 Hull de Premier League.",
+    body: `Fulham llegaba de perder 1-2 ante Ipswich; Hull, de empatar 2-2 con Everton. Acabó ganando Fulham 1-0, con gol de Alex Iwobi. Los goles: Alex Iwobi (33', Fulham).
+
+## En cifras
+
+Fulham manejó el balón (76 % por 24 %) y tiró 18 veces, 6 entre los tres palos; Hull se quedó en 5 remates (0 a puerta). Córners: 10 por 2. Se emitió en DAZN.
+
+## La clasificación
+
+Tras el partido, Fulham 16.º con 5 puntos y Hull 9.º con 9 puntos en la [clasificación de Premier League](/futbol/premier-league).
+
+Ficha: 4 amarillas · expulsado: Ryan Sessegnon · 8 cambios. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/premier-league/partido/401878770).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Premier League","sport":"futbol","slug":"premier-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401878770",
+    sourceLang: 'en',
+    publishedAt: '2026-10-17T23:22:30.909Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/b/b1/Craven_Cottage_football_ground_-_geograph.org.uk_-_4612923.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      alt: "Craven Cottage, donde se jugó el Fulham - Hull",
+      credit: "John Slater · CC BY-SA 2.0 · Wikimedia Commons",
+      license: "CC BY-SA 2.0",
+    },
+  },
+  {
+    slug: 'cronica-brentford-liverpool-401879262',
+    title: "Alexander Isak guía a Liverpool ante Brentford (2-1) y lo deja 5.º en Premier League",
+    summary: "Liverpool 2-1 Brentford en Premier League: Alexander Isak marcó. Brentford 40 % de posesión y 10 remates; Liverpool 60 % y 21.",
+    body: `## Resumen
+
+Liverpool ganó 2-1 a Brentford en Premier League. Se emitió en DAZN.
+
+## Los goles
+
+- 44' · Keane Lewis-Potter (Brentford)
+- 62' · Víctor Muñoz (Liverpool)
+- 70' · Alexander Isak (Liverpool)
+
+## El dato
+
+Brentford 40 % de posesión y 10 remates; Liverpool 60 % y 21.
+
+## Lo que viene
+
+Lo que viene. Brentford: visita a Hull el domingo 25 de octubre. Liverpool: recibe a Brighton el domingo 25 de octubre.
+
+**Lee también:** la [ficha del partido](/futbol/premier-league/partido/401879262) con alineaciones y narración · la [clasificación de Premier League](/futbol/premier-league) · [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Premier League","sport":"futbol","slug":"premier-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401879262",
+    sourceLang: 'en',
+    publishedAt: '2026-10-17T23:22:30.909Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Brentford_Gtech_Community_Stadium.jpg/1920px-Brentford_Gtech_Community_Stadium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Gtech Community Stadium, donde se jugó el Brentford - Liverpool",
+      credit: "AndyScott · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'cronica-newcastle-aston-villa-401879258',
+    title: "Newcastle 0 Aston Villa 1: gol de Johan Manzambi, Aston Villa 12.º y posesión del 49 % para Newcastle",
+    summary: "Johan Manzambi marcó en el 36' el gol que puso por delante a Aston Villa, que ya no soltó la ventaja: 1-0 final ante Newcastle en Premier League. Claves: gol de Johan Manzambi, Aston Villa 12.º y posesión del 49 % para Newcastle.",
+    body: `Johan Manzambi marcó en el 36' el gol que puso por delante a Aston Villa, que ya no soltó la ventaja: 1-0 final ante Newcastle en Premier League.
+
+## Johan Manzambi decidió
+
+En el marcador, Johan Manzambi (36', Aston Villa).
+
+## Los números del partido
+
+La posesión fue 49 %-51 % para Newcastle. En remates, 16 de Newcastle (1 a puerta) por 15 de Aston Villa (3). Córners: 4 por 5. Se emitió en DAZN.
+
+## Qué cambia en la tabla
+
+Tras el partido, Newcastle 11.º con 8 puntos y Aston Villa 12.º con 8 puntos en la [clasificación de Premier League](/futbol/premier-league).
+
+## Qué viene ahora
+
+Lo que viene. Newcastle: visita a C Palace el domingo 25 de octubre. Aston Villa: recibe a Man City el sábado 24 de octubre. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/premier-league/partido/401879258).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Premier League","sport":"futbol","slug":"premier-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401879258",
+    sourceLang: 'en',
+    publishedAt: '2026-10-17T23:22:30.909Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/London%2C_St._James%27s_Park_--_2016_--_4820.jpg/1920px-London%2C_St._James%27s_Park_--_2016_--_4820.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "St. James' Park, donde se jugó el Newcastle - Aston Villa",
+      credit: "Dietmar Rabich · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'cronica-espanyol-atletico-401882843',
+    title: "Atlético gana fuera 1-0 a Espanyol y es 2.º",
+    summary: "Atlético suma tres puntos ante Espanyol (1-0) en LaLiga y es 2.º con 22 puntos; Espanyol se queda 12.º.",
+    body: `Atlético se impuso 1-0 a Espanyol en LaLiga, con gol de Álex Baena. Se emitió en DAZN LaLiga y DAZN.
+
+## Los goles
+
+Los goles: Álex Baena (89', Atlético).
+
+## La tabla
+
+Tras el partido, Espanyol 12.º con 8 puntos y Atlético 2.º con 22 puntos en la [clasificación de LaLiga](/futbol/laliga).
+
+## Lo que viene
+
+Lo que viene. Espanyol: visita a Racing el sábado 24 de octubre. Atlético: recibe a Deportivo el sábado 24 de octubre. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/laliga/partido/401882843).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882843",
+    sourceLang: 'en',
+    publishedAt: '2026-10-17T23:22:30.909Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Estadi_RCD_Espanyol_-_2011-05-27_-_JT_Curses.jpg/1920px-Estadi_RCD_Espanyol_-_2011-05-27_-_JT_Curses.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "RCDE Stadium, donde se jugó el Espanyol - Atlético",
+      credit: "JT Curses · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'cronica-villarreal-elche-401882837',
+    title: "Villarreal y Elche firman tablas (0-0) en LaLiga",
+    summary: "Villarreal 0-0 Elche en LaLiga: resultado, goles y datos.",
+    body: `Villarreal llegaba de perder 0-1 ante Real Madrid; Elche, de empatar 0-0 con Celta Vigo. Acabó 0-0. Sin goles en el marcador.
+
+## En cifras
+
+La posesión fue 58 %-42 % para Villarreal. En remates, 20 de Villarreal (7 a puerta) por 7 de Elche (1). Córners: 10 por 5. Se emitió en DAZN LaLiga y DAZN.
+
+## La clasificación
+
+Tras el partido, Villarreal 10.º con 9 puntos y Elche 18.º con 7 puntos en la [clasificación de LaLiga](/futbol/laliga).
+
+Ficha: 6 amarillas · 10 cambios. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/laliga/partido/401882837).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882837",
+    sourceLang: 'en',
+    publishedAt: '2026-10-17T23:22:30.909Z',
+    author: "Redacción Mundiales de Fútbol",
+  },
+  {
+    slug: 'cronica-betis-barcelona-401882846',
+    title: "Barcelona se impone a Betis (5-2) en LaLiga",
+    summary: "Lamine Yamal marcó; Betis remató 6 veces (5 a puerta) en el Barcelona 5-2 Betis de LaLiga.",
+    body: `Betis llegaba de ganar 5-2 a Osasuna; Barcelona, de ganar 3-0 a Getafe. Acabó ganando Barcelona 5-2. Los goles: Lamine Yamal (10', Barcelona), Valentín Gómez (27', Betis), Rodri (41', Barcelona), Gabriel Jesus (51', Barcelona), Abde Ezzalzouli (53', Betis), Eric García (62', Barcelona) y Dani Olmo (81', Barcelona).
+
+## En cifras
+
+Betis manejó el balón (31 % por 69 %) y tiró 6 veces, 5 entre los tres palos; Barcelona se quedó en 18 remates (10 a puerta). Córners: 2 por 5. Se emitió en DAZN LaLiga y DAZN.
+
+## La clasificación
+
+Tras el partido, Betis 3.º con 19 puntos y Barcelona 1.º con 27 puntos en la [clasificación de LaLiga](/futbol/laliga).
+
+Ficha: 5 amarillas · expulsado: Facundo Bernal · 10 cambios. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/laliga/partido/401882846).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882846",
+    sourceLang: 'en',
+    publishedAt: '2026-10-17T23:22:30.909Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/4/46/Seville_Estadio_Ol%C3%ADmpico_de_La_Cartuja_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      alt: "Estadio La Cartuja, donde se jugó el Betis - Barcelona",
+      credit: "Валерий Дед · CC BY 3.0 · Wikimedia Commons",
+      license: "CC BY 3.0",
+    },
+  },
+  {
+    slug: 'cronica-valencia-athletic-401882838',
+    title: "Valencia 0 Athletic 0: Valencia 19.º y posesión del 37 % para Valencia",
+    summary: "Valencia y Athletic empataron 0-0 en LaLiga. Claves: Valencia 19.º y posesión del 37 % para Valencia.",
+    body: `Valencia y Athletic empataron 0-0 en LaLiga.
+
+## Cómo se decidió
+
+El partido acabó sin goles.
+
+## Los números del partido
+
+La posesión fue 37 %-63 % para Valencia. En remates, 16 de Valencia (3 a puerta) por 9 de Athletic (2). Córners: 2 por 6. Se emitió en M+ LALIGA y Movistar Plus+.
+
+## Qué cambia en la tabla
+
+Tras el partido, Valencia 19.º con 6 puntos y Athletic 9.º con 9 puntos en la [clasificación de LaLiga](/futbol/laliga).
+
+## Qué viene ahora
+
+Lo que viene. Valencia: recibe a Villarreal el sábado 24 de octubre. Athletic: visita a Levante el miércoles 21 de octubre. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/laliga/partido/401882838).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882838",
+    sourceLang: 'en',
+    publishedAt: '2026-10-17T23:22:30.909Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Mestalla_05.JPG/1920px-Mestalla_05.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Mestalla Stadium, donde se jugó el Valencia - Athletic",
+      credit: "Dorieo · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'partidos-futbol-hoy-2026-10-18',
+    title: "Partidos de fútbol hoy, domingo 18 de octubre: horarios y dónde ver LaLiga, Premier League y Liga F",
+    summary: "Agenda de fútbol de hoy domingo 18 de octubre: 43 partidos con horario en hora española y canal de televisión. Destaca Osasuna - Racing.",
+    body: `Domingo 18 de octubre deja 43 partidos de fútbol en las competiciones que seguimos. Aquí van, con la hora en España y el canal donde se ven. El partido que más miradas reúne es el **[Osasuna - Racing](/futbol/laliga/partido/401882840)** (LaLiga, 14:00 h).
+
+## 🇪🇸 Liga F
+
+- **[Alavés - Sevilla](/futbol/liga-f/partido/401882492)** — 12:00 h
+- **[Real Sociedad - Barcelona](/futbol/liga-f/partido/401882485)** — 12:00 h
+- **[Eibar - Deportivo](/futbol/liga-f/partido/401882488)** — 16:00 h
+- **[Atlético Madrid - Madrid CFF](/futbol/liga-f/partido/401882490)** — 18:00 h
+
+Calendario y clasificación en la [página de Liga F](/futbol/liga-f).
+
+## 🇳🇱 Eredivisie
+
+- **[PEC Zwolle - Go Ahead Eagles](/futbol/eredivisie/partido/401875578)** — 12:15 h
+- **[Cambuur - AZ Alkmaar](/futbol/eredivisie/partido/401875576)** — 14:30 h
+- **[FC Groningen - Ajax](/futbol/eredivisie/partido/401875575)** — 16:45 h · 📺 DAZN
+- **[FC Twente - FC Utrecht](/futbol/eredivisie/partido/401875577)** — 20:00 h
+- **[NEC - Fortuna](/futbol/eredivisie/partido/401875581)** — 20:00 h
+
+Calendario y clasificación en la [página de Eredivisie](/futbol/eredivisie).
+
+## 🇮🇹 Serie A
+
+- **[Udinese - Lecce](/futbol/serie-a/partido/401874771)** — 12:30 h · 📺 DAZN
+- **[Fiorentina - Como](/futbol/serie-a/partido/401874774)** — 15:00 h · 📺 DAZN
+- **[Milan - Atalanta](/futbol/serie-a/partido/401874978)** — 18:00 h · 📺 DAZN
+- **[Juventus - Lazio](/futbol/serie-a/partido/401874765)** — 20:45 h · 📺 DAZN
+
+Calendario y clasificación en la [página de Serie A](/futbol/serie-a).
+
+## 🇹🇷 Süper Lig
+
+- **[Kasimpasa - Samsunspor](/futbol/super-lig/partido/401888276)** — 12:30 h
+- **[Kocaelispor - Goztepe](/futbol/super-lig/partido/401888272)** — 15:00 h
+- **[Istanbul BB - Gaziantep](/futbol/super-lig/partido/401888275)** — 18:00 h
+
+Calendario y clasificación en la [página de Süper Lig](/futbol/super-lig).
+
+## 🇪🇸 LaLiga
+
+- **[Osasuna - Racing](/futbol/laliga/partido/401882840)** — 14:00 h · 📺 M+ LALIGA
+- **[Celta Vigo - Alavés](/futbol/laliga/partido/401882845)** — 16:15 h · 📺 DAZN LaLiga / DAZN
+- **[Málaga - Real Sociedad](/futbol/laliga/partido/401882841)** — 18:30 h · 📺 M+ LALIGA
+- **[Real Madrid - Sevilla](/futbol/laliga/partido/401882839)** — 21:00 h · 📺 M+ LALIGA
+
+Calendario y clasificación en la [página de LaLiga](/futbol/laliga).
+
+## 🇪🇸 LaLiga Hypermotion
+
+- **[Ceuta - Real Oviedo](/futbol/laliga-2/partido/401883179)** — 14:00 h · 📺 LALIGA TV Hypermotion / DAZN
+- **[Granada - Cádiz](/futbol/laliga-2/partido/401883156)** — 16:15 h · 📺 LALIGA TV Hypermotion / DAZN
+- **[Girona - FC Andorra](/futbol/laliga-2/partido/401883177)** — 18:30 h · 📺 LALIGA TV Hypermotion / DAZN
+- **[Valladolid - Eldense](/futbol/laliga-2/partido/401883154)** — 18:30 h · 📺 LALIGA TV Hypermotion / DAZN
+- **[Burgos - CD Sabadell](/futbol/laliga-2/partido/401883180)** — 21:00 h · 📺 LALIGA TV Hypermotion / DAZN
+
+Calendario y clasificación en la [página de LaLiga 2](/futbol/laliga-2).
+
+## 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Premier League
+
+- **[Bournemouth - Sunderland](/futbol/premier-league/partido/401879263)** — 15:00 h · 📺 DAZN
+- **[Brighton - C Palace](/futbol/premier-league/partido/401879261)** — 15:00 h · 📺 DAZN
+- **[Leeds - Man United](/futbol/premier-league/partido/401879260)** — 15:00 h · 📺 DAZN
+- **[Nottm Forest - Arsenal](/futbol/premier-league/partido/401878769)** — 17:30 h · 📺 DAZN / Movistar Plus+
+
+Calendario y clasificación en la [página de Premier League](/futbol/premier-league).
+
+## 🇫🇷 Ligue 1
+
+- **[Angers - Marseille](/futbol/ligue-1/partido/401876439)** — 15:00 h · 📺 DAZN
+- **[Le Havre AC - Auxerre](/futbol/ligue-1/partido/401876438)** — 17:15 h · 📺 DAZN
+- **[Lorient - Monaco](/futbol/ligue-1/partido/401876435)** — 17:15 h · 📺 DAZN
+- **[Paris FC - Rennes](/futbol/ligue-1/partido/401876433)** — 17:15 h · 📺 DAZN
+- **[Lyon - Nice](/futbol/ligue-1/partido/401876434)** — 20:45 h · 📺 DAZN
+
+Calendario y clasificación en la [página de Ligue 1](/futbol/ligue-1).
+
+## 🇩🇪 Bundesliga
+
+- **[Leverkusen - Freiburg](/futbol/bundesliga/partido/401884771)** — 15:30 h · 📺 DAZN
+- **[Gladbach - Hoffenheim](/futbol/bundesliga/partido/401884768)** — 17:30 h · 📺 DAZN
+
+Calendario y clasificación en la [página de Bundesliga](/futbol/bundesliga).
+
+## 🇦🇷 Liga Profesional Argentina
+
+- **[Racing  - Independiente](/futbol/liga-argentina/partido/401841618)** — 19:45 h
+- **[Estudiantes - San Lorenzo ](/futbol/liga-argentina/partido/401841623)** — 23:00 h
+- **[Estudiantes RC - Aldosivi](/futbol/liga-argentina/partido/401841624)** — 23:00 h
+
+Calendario y clasificación en la [página de Liga Argentina](/futbol/liga-argentina).
+
+## 🇧🇷 Brasileirão
+
+- **[Fluminense - Santos](/futbol/brasileirao/partido/401841277)** — 21:00 h
+- **[Grêmio - Cruzeiro](/futbol/brasileirao/partido/401841276)** — 21:00 h
+- **[Bahia - Flamengo](/futbol/brasileirao/partido/401841269)** — 23:30 h
+
+Calendario y clasificación en la [página de Brasileirão](/futbol/brasileirao).
+
+## 🇺🇸 MLS
+
+- **[Cincinnati - Columbus](/futbol/mls/partido/761889)** — 23:00 h
+
+Calendario y clasificación en la [página de MLS](/futbol/mls).
+
+Todos los horarios están en hora peninsular. Los marcadores se actualizan en directo en cada ficha de partido. Toda la jornada, con marcadores en directo, en [partidos de hoy](/partidos-hoy).`,
+    category: 'tv',
+    kind: 'agenda',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882840",
+    sourceLang: 'en',
+    publishedAt: '2026-10-17T23:22:30.909Z',
+    modifiedAt: '2026-10-17T23:22:30.909Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/a/a4/Estadio_El_Sadar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      alt: "El Sadar, escenario del Osasuna - Racing",
+      credit: "Visma17 · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
     slug: 'nba-resultados-2026-10-17',
     title: "NBA (pretemporada): resultados de la noche del sábado 17 de octubre",
     summary: "Resultados de los 12 partidos de la noche en la NBA, con el más igualado y el de más puntos.",
