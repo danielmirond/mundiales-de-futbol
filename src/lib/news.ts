@@ -178,6 +178,46 @@ Marcadores en directo, calendario y clasificación por conferencias en la [pági
     },
   },
   {
+    slug: 'sofia-goggia-chikungunya-parvovirus-ushuaia-solden',
+    title: 'Sofia Goggia sintió que había perdido el italiano tras la picadura de un mosquito en Ushuaia',
+    summary: 'Sofia Goggia, campeona olímpica de descenso en 2018, no estará en Sölden el 24 de octubre. Un mosquito le transmitió chikungunya en Ushuaia y después contrajo un parvovirus: temblores, dolores, no podía subir escaleras y le costaba hablar. No sabe cuándo volverá.',
+    body: `Sofia Goggia ha pasado media carrera recomponiéndose de lesiones. Esta vez no fue una caída. En septiembre, durante la concentración de pretemporada en Ushuaia (Argentina), [un mosquito le transmitió el chikungunya](https://www.bluewin.ch/en/sport/ski/ski-star-goggia-talks-about-a-severe-viral-infection-and-postpones-the-start-of-the-season-li.3629789). Cuando aún se estaba recuperando, cogió un segundo virus, el parvovirus B19. Los dos le afectaron al sistema nervioso.
+
+## «Cuerpo y mente desconectados»
+
+Lo contó ella misma a Eurosport, [según recoge Open](https://www.open.online/2026/10/09/sofia-goggia-salta-soelden-infezioni-chikungunya-parvovirus-quando-rientrera/): escalofríos durante el día, dolores por todo el cuerpo incluso de noche, en reposo, y movimientos que ya no coordinaba. Tuvo que cortar la concentración y volver a Italia.
+
+Allí fue peor. Hubo días en que le costaba hablar y se movía despacio, sin dejar de temblar. En una presentación en Austria lo resumió con una frase que recogió el Kronen Zeitung: al volver a Italia sintió que había perdido la capacidad de hablar italiano. Algunos días apenas podía subir escaleras. Le preocupó, dijo, su vida fuera del esquí.
+
+## Sin tratamiento y sin fecha
+
+Para estos virus no hay un tratamiento específico: hay que esperar a que el cuerpo los elimine. Goggia, de 33 años, dice que está mejor y que la tendencia es buena, pero sigue cansada y se ha perdido una parte importante de la preparación. [Calcula que puede tardar](https://www.flashscore.com/news/former-olympic-gold-medalist-sofia-goggia-to-miss-season-opener-in-soelden/Gl8psfqR/) «desde diez días hasta un mes y medio».
+
+No correrá en Sölden, la apertura de la Copa del Mundo, el 24 y 25 de octubre. Tampoco estará Federica Brignone, que sigue recuperándose de una lesión en la pierna: Italia empieza la temporada sin sus dos grandes nombres.
+
+## Quién es
+
+Goggia fue campeona olímpica de descenso en Pyeongchang 2018 y la temporada pasada ganó la Copa del Mundo de supergigante. En febrero llevó la antorcha de los Juegos de Milán-Cortina junto a Gustavo Thoeni. Su promesa para volver es la de siempre: ponerse en forma cuanto antes «y luego ir a tope». Más deportes de invierno y de todo lo demás, en [noticias](/noticias).`,
+    category: 'curiosa',
+    kind: 'noticia',
+    competition: { name: 'Esquí alpino', sport: 'esqui', slug: 'esqui-alpino' },
+    sourceName: 'Open',
+    sourceUrl: 'https://www.open.online/2026/10/09/sofia-goggia-salta-soelden-infezioni-chikungunya-parvovirus-quando-rientrera/',
+    sourceLang: 'it',
+    publishedAt: '2026-10-17T13:21:00+02:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/ZOH_2026_Cortina_torch_relay_6_Gustavo_Thoeni%2C_Sofia_Goggia.jpg/1280px-ZOH_2026_Cortina_torch_relay_6_Gustavo_Thoeni%2C_Sofia_Goggia.jpg',
+      alt: 'Sofia Goggia y Gustavo Thoeni en el relevo de la antorcha olímpica de Milán-Cortina 2026, en Cortina d\'Ampezzo',
+      credit: 'JasminaMichaela · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+    sourcesSecondary: [
+      { name: 'blue News', url: 'https://www.bluewin.ch/en/sport/ski/ski-star-goggia-talks-about-a-severe-viral-infection-and-postpones-the-start-of-the-season-li.3629789' },
+      { name: 'Flashscore (Reuters)', url: 'https://www.flashscore.com/news/former-olympic-gold-medalist-sofia-goggia-to-miss-season-opener-in-soelden/Gl8psfqR/' },
+    ],
+  },
+  {
     slug: 'kimi-antonelli-campeon-austin-paddock-singapur-san-marino-minardi',
     title: 'Kimi Antonelli puede ser campeón en Austin y en Singapur la seguridad no le dejaba pasar',
     summary: 'Kimi Antonelli llega a Austin con 102 puntos de ventaja y puede cerrar el Mundial de F1 el 25 de octubre, con 20 años: sería el campeón más joven de la historia. Hace una semana, en Singapur, los vigilantes no le reconocieron en la puerta del paddock. Vive en San Marino y tiene un pleito abierto con su exrepresentante.',
