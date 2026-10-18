@@ -186,6 +186,195 @@ Lo que viene. Everton: visita a Arsenal el sábado 24 de octubre. Chelsea: recib
     },
   },
   {
+    slug: 'walter-fowler-92-anos-campeon-mundial-master-pista-500-metros-londres',
+    title: 'Walter Fowler cambió la bici por el marketing en 1958 y a los 92 vuelve a ser campeón del mundo',
+    summary: 'El británico Walter Fowler, de 92 años, ganó el 500 metros del Mundial máster de pista en Londres. Corrió solo en su categoría, con permiso especial y cinco semanas de preparación.',
+    body: `Walter Fowler corrió su primera carrera en pista en 1949, con 15 años. En 1958 colgó la bicicleta para dedicarse al marketing. Cincuenta años después volvió, y este mes, con 92, [ha ganado otro título mundial](https://www.cyclingweekly.com/racing/i-always-am-the-oldest-on-the-list-92-year-old-wins-world-title-with-record-setting-ride): el 500 metros contrarreloj de la categoría de 90 a 94 años en el Mundial máster de ciclismo en pista.
+
+Hizo 50,06 segundos. Sale a una media de unos 36 kilómetros por hora desde parado, más rápido, según él, que varios corredores de la categoría de 75 a 79 años.
+
+## Solo en la salida
+
+Fowler fue el único inscrito de su grupo de edad y el único mayor de 90 años en todo el campeonato, que se disputó del 5 al 11 de octubre [en el velódromo de Lee Valley](https://www.britishcycling.org.uk/track/article/20261007-How-to-follow--2026-UCI-Masters-World-Track-Championships-0), el de los Juegos de Londres 2012. Tuvo que pedir un permiso especial a la organización para correr sin rivales.
+
+Que nadie de su edad hubiera disputado antes la prueba convierte su tiempo en la mejor marca mundial de la categoría. Él no lo vende como otra cosa. Venía de unos problemas de salud y se dio cinco semanas para preparar solo esa distancia. Salió fuerte, como siempre, y reconoce que se fue apagando a mitad de carrera.
+
+En el podio le aplaudieron unos 30 segundos, [cuenta el Berliner Zeitung](https://www.berliner-zeitung.de/article/mehr-applaus-als-rennzeit-walter-92-wird-in-50-sekunden-weltmeister-sein-vorbild-fuhr-mit-105-noch-rekord-10504101): más de la mitad de lo que había durado su carrera. Hizo una reverencia y otro corredor le pidió un selfi.
+
+## Cincuenta años sin pista
+
+Fowler vive en Kinver, en el condado inglés de Staffordshire. Volvió a la pista a principios de los 70 años, animado por los jóvenes de su club, y al año siguiente viajó solo a Sídney para su primer Mundial máster. Lo ganó. Con el de Londres suma cuatro títulos mundiales. A los 81 años batió el récord de la hora de la categoría de 80 a 84.
+
+«Siempre soy el más viejo de la lista en los Mundiales», resumió a Cycling Weekly.
+
+## El espejo de Marchand
+
+Su referente es Robert Marchand, el francés que empezó a entrenar en serio a los 68 años, después de una vida como bombero, y que en enero de 2017, con 105, recorrió 22,547 kilómetros en una hora, un récord en una categoría creada para él. Murió en 2021, a los 109.
+
+Fowler ha descartado de momento el récord de la hora de los 90 a 94 años, pero no el resto. En 2027 quiere defender el título del 500 y probar la persecución de 2 kilómetros, que calcula hacer en unos tres minutos. Después, las marcas de 95 a 99 años. Y tiene una fecha apuntada: 2034, cuando cumpla 100.
+
+Si buscas otra historia de alguien que no se baja de la bici, está la de [Scaloni en la Gran Fondo de Buenos Aires](/noticias/scaloni-gran-fondo-buenos-aires-129-km-sin-coches-ciclismo). Más deportes, en [noticias](/noticias).`,
+    category: 'curiosa',
+    kind: 'noticia',
+    competition: { name: 'Ciclismo en pista', sport: 'ciclismo', slug: 'ciclismo-pista' },
+    sourceName: 'Cycling Weekly',
+    sourceUrl: 'https://www.cyclingweekly.com/racing/i-always-am-the-oldest-on-the-list-92-year-old-wins-world-title-with-record-setting-ride',
+    sourceLang: 'en',
+    publishedAt: '2026-10-18T13:07:00+02:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Lee_Valley_VeloPark_Velodrome.jpg/1280px-Lee_Valley_VeloPark_Velodrome.jpg',
+      alt: 'Un grupo de ciclistas rueda en fila por el peralte de madera del velódromo de Lee Valley, en Londres, visto desde la grada',
+      credit: 'Applesdungarees · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+    sourcesSecondary: [
+      { name: 'Berliner Zeitung', url: 'https://www.berliner-zeitung.de/article/mehr-applaus-als-rennzeit-walter-92-wird-in-50-sekunden-weltmeister-sein-vorbild-fuhr-mit-105-noch-rekord-10504101' },
+      { name: 'British Cycling', url: 'https://www.britishcycling.org.uk/track/article/20261007-How-to-follow--2026-UCI-Masters-World-Track-Championships-0' },
+    ],
+  },
+  {
+    slug: 'atletico-calatayud-osasuna-copa-del-rey-gradas-portatiles-san-inigo-entradas',
+    title: 'Atlético Calatayud juega en Regional y monta gradas portátiles para recibir a Osasuna en Copa',
+    summary: 'El Atlético Calatayud, de Regional Preferente, recibe a Osasuna el jueves 29 de octubre a las 19:00. Su campo pasará de unas 2.000 a unas 3.600 plazas. Las entradas salen el lunes 19.',
+    body: `El Atlético Calatayud juega en Regional Preferente de Aragón, la sexta categoría del fútbol español, y su campo, el San Íñigo, tiene sitio para unas 2.000 personas. El jueves 29 de octubre, a las 19:00, recibe a Osasuna en la [primera ronda de la Copa del Rey](/futbol/copa-del-rey). Para eso el estadio municipal [añadirá tres módulos de gradas provisionales](https://dukvitv.com/deportes/el-estadio-municipal-san-inigo-de-calatayud-se-prepara-para-el-duelo-copero-entre-el-atletico-calatayud-y-el-ca-osasuna-gradas-portatiles-hasta-alrededor-de-3-600-asientos-autobuse/) hasta llegar a unos 3.600 asientos: casi el doble.
+
+## Cómo llegó hasta aquí
+
+El club se fundó en 1995. Pasó once temporadas en Tercera División, entre 2003 y 2014, y desde entonces ha vuelto a las categorías regionales. Esta temporada entró en la eliminatoria previa y le tocó otro modesto, el Baztán de Elizondo (Navarra). Ganó 2-0 en casa, con dos goles de Paco Blasco, y [cerró el pase en Navarra con otra victoria](https://www.elaltojalon.es/texto-diario/mostrar/6045128/at-calatayud-sueno-copero-camino-copa-rey): 4-1 en el global.
+
+El sorteo del 5 de octubre en Las Rozas le emparejó con un Primera. En esta ronda se juega a partido único y siempre en el campo del equipo de menor categoría.
+
+## El partido y Osasuna
+
+La RFEF fijó el encuentro [el jueves 29 a las 19:00](https://kirolakeitb.eus/es/futbol/competiciones/otras-competiciones/2026/10/07/horarios-primera-eliminatoria-copa-rey-2026-2027/). A Osasuna le cae entre dos salidas de [LaLiga](/futbol/laliga) en lunes: juega en Sevilla el 26 a las 21:00 y en Riazor ante el Deportivo el 2 de noviembre, a la misma hora. Tendrá dos días libres antes del viaje a Calatayud y tres después.
+
+## Entradas: quién compra primero
+
+| Cuándo | Quién | Dónde |
+| --- | --- | --- |
+| Lunes 19, 12:00 | Socios, cualquier zona | En línea y en la sede |
+| Martes 20, 21:30 | No socios, fondos y general | En línea y en la sede |
+| Domingo 25, 21:30 | No socios, tribuna | En línea y en la sede |
+
+[La televisión local DUKVI ha publicado los precios](https://dukvitv.com/deportes/cuenta-atras-para-la-cita-copera-en-calatayud-te-contamos-todos-los-detalles-para-conseguir-entrada-hacerse-socio-o-adquirir-bufandas-y-camisetas-exclusivas/): los socios pagan 20 euros (15 los menores de 16) y el resto, 30. Las entradas son nominativas, con nombre y DNI. La venta en línea cobra 1,12 euros de gastos por entrada y limita a diez por compra; en la sede, en la calle Glen Ellyn, no hay comisión. Quien se haga socio ahora tiene la entrada del partido incluida y paga solo la parte proporcional de la temporada. La tribuna es la única zona cubierta: las gradas añadidas no tienen techo.
+
+## Cómo llegar
+
+La Policía Local controlará el tráfico desde horas antes del partido, y el recinto tendrá dos accesos separados. El Ayuntamiento pondrá un autobús urbano especial durante toda la tarde entre el centro y el campo, y recomienda usarlo.
+
+El equipo jugará con una camiseta conmemorativa con el logo de la Copa 2026-27, que se recoge en el club desde el 26 de octubre. Otro club de pueblo con historia propia esta temporada es el [Atlético Astorga](/noticias/atletico-astorga-unico-castellano-grupo-1-segunda-federacion-compostela).`,
+    category: 'curiosa',
+    kind: 'noticia',
+    competition: { name: 'Copa del Rey', sport: 'futbol', slug: 'copa-del-rey' },
+    sourceName: 'DUKVI TV',
+    sourceUrl: 'https://dukvitv.com/deportes/cuenta-atras-para-la-cita-copera-en-calatayud-te-contamos-todos-los-detalles-para-conseguir-entrada-hacerse-socio-o-adquirir-bufandas-y-camisetas-exclusivas/',
+    sourceLang: 'es',
+    publishedAt: '2026-10-18T13:04:00+02:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Vista_de_Calatayud_desde_la_iglesia_de_La_Pe%C3%B1a%2C_Espa%C3%B1a%2C_2012-08-24%2C_DD_02.JPG/1280px-Vista_de_Calatayud_desde_la_iglesia_de_La_Pe%C3%B1a%2C_Espa%C3%B1a%2C_2012-08-24%2C_DD_02.JPG',
+      alt: 'Tejados de Calatayud con las torres de ladrillo de sus iglesias y una sierra al fondo, vistos desde la iglesia de La Peña',
+      credit: 'Diego Delso · Wikimedia Commons',
+      license: 'CC BY-SA 3.0',
+    },
+    sourcesSecondary: [
+      { name: 'OKDIARIO Navarra', url: 'https://navarra.okdiario.com/articulo/osasuna/osasuna-sabe-cuando-jugara-copa-calatayud-fecha-encajada-entre-dos-exigentes-salidas/20261007161718663112.html' },
+      { name: 'El Alto Jalón', url: 'https://www.elaltojalon.es/texto-diario/mostrar/6045128/at-calatayud-sueno-copero-camino-copa-rey' },
+      { name: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Atl%C3%A9tico_Calatayud' },
+    ],
+  },
+  {
+    slug: 'shohei-ohtani-camiseta-tokyo-series-logoman-dorado-subasta-record',
+    title: 'Shohei Ohtani volvió a Tokio con un parche dorado y esa camiseta ya supera su propio récord',
+    summary: 'La camiseta que Shohei Ohtani llevó en su primer partido oficial en Japón con los Dodgers, firmada en kanji, se ha vendido por 2,06 millones de dólares. Ninguna suya había costado tanto.',
+    body: `El 18 de marzo de 2025, en el Tokyo Dome, Shohei Ohtani jugó su primer partido oficial de Grandes Ligas en Japón. Los Dodgers ganaron 4-1 a los Cubs y él hizo dos hits en cinco turnos. Llevaba una camiseta gris con un detalle que no había lucido nadie: el primer Logoman dorado de la MLB usado en un partido oficial. Esa camiseta [se ha vendido por 2.055.700 dólares](https://therealest.com/item/Shohei-Ohtani-Tokyo-Series-Game-Used-Jersey) en la casa de subastas The Realest.
+
+Es la camiseta de Ohtani más cara vendida en subasta. La anterior marca era de marzo: 1,5 millones por la que vistió con Japón en el [Clásico Mundial de 2026](https://www.mlb.com/es/news/ohtani-rompe-record-con-venta-de-su-jersey-en-us-1-5-millon).
+
+## Qué se ha comprado
+
+La camiseta lleva su nombre y el 17 bajo el Logoman dorado, el parche de la Tokyo Series y el del número 34 en memoria de Fernando Valenzuela. Ohtani la firmó en kanji (大谷 翔平) y en inglés, y añadió a mano la fecha del partido, «Opening Day Tokyo Series» y «25 NL MVP», por el título de mejor jugador de la Liga Nacional que ganó esa temporada. La autentificaron el programa oficial de la MLB, un cotejo fotográfico y la documentación de Fanatics sobre la firma.
+
+El comprador no se ha hecho público.
+
+## La cifra, desmontada
+
+Los 2.055.700 dólares incluyen la comisión del comprador, que en The Realest es del 22 %. Si se descuenta, la puja ganadora fue de 1.685.000 dólares. [Bleacher Report](https://bleacherreport.com/articles/25512541-shohei-ohtanis-signed-gold-mlb-logoman-jersey-sells-21m-auction-full-details-revealed) la redondea en 2,1 millones.
+
+La subasta, que se cerró el 17 de octubre, fue subiendo a saltos. En septiembre la puja iba por 460.000 dólares; a falta de dos días, [según Sports Illustrated](https://www.si.com/collectibles/the-realest-paying-out-1-of-final-sale-ohtani-gold-logoman-jersey), por 1,335 millones. La casa organizó además un concurso: quien acertara más cerca el precio final se llevaba el 1 % de la venta, pagado de su propia comisión. Con esta cifra, unos 20.600 dólares.
+
+## El mismo partido, otra subasta
+
+No es la primera pieza de ese día que pasa por The Realest. Las zapatillas que llevó en el mismo partido, firmadas, se vendieron en agosto por 440.055 dólares, un récord para unas botas de béisbol usadas en partido. Las de Michael Jordan con los Birmingham Barons, la marca anterior, se habían quedado en 93.000.
+
+Las piezas deportivas que se venden caras no son solo de estrellas en activo: hace unos días [Lawrence Dallaglio subastó su medalla del Mundial de rugby de 2003](/noticias/dallaglio-medalla-mundial-2003-subasta-budds-bancarrota-divorcio) para pagar deudas. Los resultados y la clasificación de las Grandes Ligas, en [la sección de la MLB](/beisbol/mlb).`,
+    category: 'curiosa',
+    kind: 'noticia',
+    competition: { name: 'MLB', sport: 'beisbol', slug: 'mlb' },
+    sourceName: 'The Realest',
+    sourceUrl: 'https://therealest.com/item/Shohei-Ohtani-Tokyo-Series-Game-Used-Jersey',
+    sourceLang: 'en',
+    publishedAt: '2026-10-18T13:01:00+02:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/%E5%A4%A7%E8%B0%B7%E7%BF%94%E5%B9%B3_MLB_Tokyo_Series_by_Guggenheim_Pre-season_games_Los_Angeles_Dodgers_vs_%E8%AA%AD%E5%A3%B2%E3%82%B8%E3%83%A3%E3%82%A4%E3%82%A2%E3%83%B3%E3%83%84_%E6%9D%B1%E4%BA%AC%E3%83%89%E3%83%BC%E3%83%A0_2025%E5%B9%B43%E6%9C%8815%E6%97%A5%E3%81%AE%E6%9D%B1%E4%BA%AC_202503151726_DSCN2723.jpg/1280px-thumbnail.jpg',
+      alt: 'Shohei Ohtani, con gorra y camiseta azul de entrenamiento de los Dodgers y un guante en la mano, sobre el césped del Tokyo Dome en marzo de 2025',
+      credit: 'ウィ貴公子 · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+    sourcesSecondary: [
+      { name: 'Bleacher Report', url: 'https://bleacherreport.com/articles/25512541-shohei-ohtanis-signed-gold-mlb-logoman-jersey-sells-21m-auction-full-details-revealed' },
+      { name: 'Sports Illustrated', url: 'https://www.si.com/collectibles/the-realest-paying-out-1-of-final-sale-ohtani-gold-logoman-jersey' },
+      { name: 'MLB.com', url: 'https://www.mlb.com/es/news/ohtani-rompe-record-con-venta-de-su-jersey-en-us-1-5-millon' },
+      { name: 'Dodgers Nation', url: 'https://dodgersnation.com/shohei-ohtanis-game-used-cleats-sell-for-record-fee/2026/08/17/' },
+    ],
+  },
+  {
+    slug: 'psg-barcelona-liverpool-villarreal-stuttgart-atletico-real-madrid-leipzig-betis-champions-horarios-donde-ver',
+    title: 'Barça visita al PSG que le ganó los dos últimos duelos: horarios y canales de la Champions',
+    summary: 'PSG - Barça, Liverpool - Villarreal y Stuttgart - Atlético el martes; Real Madrid - Leipzig y Betis - Feyenoord el miércoles. Todos a las 21:00 y en Movistar Plus+.',
+    body: `El Barça vuelve el martes al Parque de los Príncipes como segundo de la fase liga de la [Champions](/futbol/champions-league/clasificacion), con seis puntos, el mismo número que el PSG, que es primero. Los dos llegan con cinco victorias seguidas. El precedente reciente es del PSG: [ganó los dos últimos duelos](https://www.espn.com/soccer/match/_/gameId/401915399), los dos en Barcelona, 1-4 en los cuartos de 2024 y 1-2 en octubre de 2025. La última vez que se vieron en París, en la ida de aquellos cuartos, ganó el Barça 2-3.
+
+Es el partido grande de una jornada en la que juegan los cinco equipos españoles, todos a las 21:00.
+
+## Los horarios y los canales
+
+| Día | Partido | Península | Canarias | Canal |
+| --- | --- | --- | --- | --- |
+| Martes 20 | [PSG - Barcelona](/futbol/champions-league/partido/401915399) | 21:00 | 20:00 | Movistar Plus+ (canal por confirmar) |
+| Martes 20 | [Liverpool - Villarreal](/futbol/champions-league/partido/401915397) | 21:00 | 20:00 | M+ Liga de Campeones 3 y 4 |
+| Martes 20 | [Stuttgart - Atlético](/futbol/champions-league/partido/401915392) | 21:00 | 20:00 | M+ Liga de Campeones 2, 3 y 4 |
+| Miércoles 21 | [Real Madrid - Leipzig](/futbol/champions-league/partido/401915313) | 21:00 | 20:00 | M+ Liga de Campeones |
+| Miércoles 21 | [Betis - Feyenoord](/futbol/champions-league/partido/401915389) | 21:00 | 20:00 | M+ Liga de Campeones 2 y 4 |
+
+La Champions es de Movistar Plus+, también disponible a través de DAZN. Los canales son los que figuran hoy en las fichas de cada partido y pueden cambiar; el del PSG - Barça aún no está asignado. Los horarios salen del calendario de ESPN [del martes](https://www.espn.com/soccer/scoreboard/_/league/uefa.champions/date/20261020) y [del miércoles](https://www.espn.com/soccer/scoreboard/_/league/uefa.champions/date/20261021).
+
+## Martes: tres a la vez
+
+El Villarreal es 14.º con tres puntos y llega tras empatar 0-0 con el Elche. Le espera un Liverpool quinto, invicto en esta Champions, con el que ya perdió una semifinal en 2022. El Atlético es 15.º, también con tres, pero suma cinco victorias seguidas, la última el 0-1 en Cornellà. El Stuttgart, cuarto, viene de perder 1-0 ante el Hamburgo. Solo se habían cruzado en un amistoso de 2018.
+
+## Miércoles: Bernabéu y La Cartuja
+
+El Real Madrid, octavo con seis puntos, recibe a un Leipzig 21.º que llega tocado: perdió 6-1 en Múnich el sábado. El Madrid viene de remontar en Roma (3-4) en la jornada anterior.
+
+El Betis, noveno con seis puntos, juega en La Cartuja ante el Feyenoord, que suma cinco victorias seguidas en todas las competiciones. El Betis ya le ganó 2-1 en enero.
+
+Ese mismo miércoles, a las 18:45, el Manchester United visita al Como. Todos los partidos del día, en [partidos de hoy](/partidos-hoy).`,
+    category: 'tv',
+    kind: 'noticia',
+    competition: { name: 'Champions League', sport: 'futbol', slug: 'champions-league' },
+    sourceName: 'ESPN',
+    sourceUrl: 'https://www.espn.com/soccer/scoreboard/_/league/uefa.champions/date/20261020',
+    sourceLang: 'en',
+    publishedAt: '2026-10-18T12:58:00+02:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'ESPN', url: 'https://www.espn.com/soccer/scoreboard/_/league/uefa.champions/date/20261021' },
+      { name: 'UEFA', url: 'https://www.uefa.com/uefachampionsleague/standings/' },
+    ],
+  },
+  {
     slug: 'previa-real-madrid-sevilla-401882839',
     title: "Real Madrid - Sevilla: horario, dónde ver y cómo llegan al partido de LaLiga",
     summary: "Cita de LaLiga este domingo 18 de octubre: Real Madrid - Sevilla, a las 21:00 h en Santiago Bernabéu. Real Madrid es 4.º y Sevilla, 5.º. TV: M+ LALIGA.",
