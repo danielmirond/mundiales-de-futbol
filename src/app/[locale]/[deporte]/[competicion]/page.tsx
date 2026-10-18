@@ -10,6 +10,7 @@ import { OpenAcbStats } from '@/components/portal/openacb-stats';
 import { RacingHub } from '@/components/portal/racing-hub';
 import { TennisHub } from '@/components/portal/tennis-hub';
 import { GolfHub, FightHub } from '@/components/portal/individual-hubs';
+import { UfcExtras } from '@/components/portal/ufc-extras';
 import { resolveCompetition, withLocale, compBase } from '@/lib/competition-page';
 import type { Locale } from '@/i18n/routing';
 import { pageMetadata } from '@/lib/seo';
@@ -77,7 +78,10 @@ export default async function CompetitionPage({ params }: { params: Params }) {
       ) : !c.espn && c.stats === 'boxing' ? (
         <BoxingHub locale={L} />
       ) : !c.espn && c.stats === 'combat' ? (
-        <FightHub comp={c} />
+        <>
+          <FightHub comp={c} />
+          {c.slug === 'ufc' && <UfcExtras locale={L} />}
+        </>
       ) : (
         <>
           <TodayBoard locale={L} competitions={[c]} range="today" kicker="Hoy" title="Partidos de hoy" emptyText={`Hoy no hay partidos de ${c.name}.`} />

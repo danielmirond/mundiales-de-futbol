@@ -1,6 +1,7 @@
 import { f1Drivers } from '@/lib/f1-history';
 import { hasInjuryReport } from '@/lib/espn-preview';
 import { veladas } from '@/lib/boxeo';
+import { fetchUfcRankings, fetchUfcEvents } from '@/lib/cito-ufc';
 import type { MetadataRoute } from 'next';
 import { createClient } from '@supabase/supabase-js';
 import { TOURNAMENTS } from '@/lib/tournaments';
@@ -121,6 +122,15 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   for (const c of COMPETITIONS) {
     if (c.href || (!c.espn && !c.stats)) continue;
     out.push(entry(`/${c.sport}/${c.slug}`, now, 'daily', 0.8));
+    if (c.sport === 'combate' && c.slug === 'ufc') {
+      // Rankings, luchadores clasificados y veladas recientes (Cito; sin clave no añade nada).
+      const [divs, evs] = await Promise.all([fetchUfcRankings('media').then((d) => d ?? fetchUfcRankings('meta')), fetchUfcEvents()]);
+      if (divs?.length) {
+        out.push(entry('/combate/ufc/rankings', now, 'weekly', 0.7));
+        for (const slug of new Set(divs.flatMap((d) => d.rows.map((r) => r.slug)))) out.push(entry(`/combate/ufc/luchador/${slug}`, now, 'weekly', 0.6));
+      }
+      for (const e of [...(evs?.upcoming ?? []), ...(evs?.recent ?? [])]) out.push(entry(`/combate/ufc/evento/${e.slug}`, now, 'daily', 0.6));
+    }
     if (!c.espn) continue;
     for (const sec of ['partidos-hoy', 'calendario', 'resultados']) out.push(entry(`/${c.sport}/${c.slug}/${sec}`, now, 'daily', 0.7));
     if (c.hasStandings) out.push(entry(`/${c.sport}/${c.slug}/clasificacion`, now, 'daily', 0.7));
