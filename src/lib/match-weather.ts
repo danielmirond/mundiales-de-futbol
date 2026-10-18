@@ -79,7 +79,7 @@ function metSky(code: string): { sky: string; icon: WeatherIcon } {
   if (/lightrain/.test(c)) return { sky: 'Lluvia débil', icon: 'lluvia' };
   if (/rain/.test(c)) return { sky: 'Lluvia', icon: 'lluvia' };
   if (/fog/.test(c)) return { sky: 'Niebla', icon: 'niebla' };
-  if (c === 'cloudy') return { sky: 'Cubierto', icon: 'nubes' };
+  if (c === 'cloudy') return { sky: 'Nublado', icon: 'nubes' };
   if (c === 'partlycloudy') return { sky: 'Intervalos nubosos', icon: 'nubes-claros' };
   if (c === 'fair') return { sky: 'Poco nuboso', icon: night ? 'noche' : 'nubes-claros' };
   return { sky: 'Despejado', icon: night ? 'noche' : 'sol' };

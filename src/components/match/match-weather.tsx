@@ -41,7 +41,7 @@ export async function MatchWeatherBlock({ sport, espn, id, kickoff }: { sport: s
   if (!w) return null;
   const facts = [
     w.temp !== null && { k: 'Temperatura', v: `${w.temp} °C` },
-    w.rainProb !== null && w.rainProb !== undefined ? { k: 'Prob. de lluvia', v: `${w.rainProb} %` } : w.rainMm !== null && w.rainMm !== undefined ? { k: 'Lluvia', v: `${w.rainMm.toLocaleString('es-ES')} mm/h` } : null,
+    w.rainProb !== null && w.rainProb !== undefined ? { k: 'Prob. de lluvia', v: `${w.rainProb} %` } : w.rainMm !== null && w.rainMm !== undefined ? { k: 'Lluvia', v: w.rainMm === 0 ? 'Sin lluvia' : `${w.rainMm.toLocaleString('es-ES')} mm/h` } : null,
     w.wind !== null && { k: 'Viento', v: `${w.wind} km/h` },
   ].filter(Boolean) as { k: string; v: string }[];
   return (
