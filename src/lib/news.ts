@@ -154,6 +154,67 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'jorge-martin-lidera-mundial-motogp-una-victoria-marquez-seis',
+    title: 'Jorge Martín lidera el Mundial con una victoria y Marc Márquez, a dos puntos, ha ganado seis',
+    summary: 'Jorge Martín llega a Australia líder de MotoGP con 355 puntos y una sola victoria en carrera. Marc Márquez, segundo con 353, ha ganado seis. Quedan cinco grandes premios y 185 puntos en juego.',
+    body: `Jorge Martín es líder del Mundial de MotoGP con 355 puntos y una sola victoria en carrera en toda la temporada. Marc Márquez es segundo con 353 y ha ganado seis. Los separan dos puntos a cinco grandes premios del final, según la [clasificación oficial](https://www.motogp.com/es/world-standing) tras el Gran Premio de Indonesia.
+
+La diferencia está en todo lo demás. Martín ha subido nueve veces al podio en carrera; Márquez, seis. Martín no ha ganado casi nada, pero casi nunca ha estado lejos.
+
+## La regularidad contra las victorias
+
+| | Jorge Martín | Marc Márquez |
+| --- | --- | --- |
+| Puntos | 355 | 353 |
+| Victorias en carrera | 1 | 6 |
+| Podios en carrera | 9 | 6 |
+| Victorias al sprint | 4 | 8 |
+| Podios al sprint | 8 | 11 |
+
+Márquez gana más: suma 14 victorias entre carreras y sprints, por las cinco de Martín. Pero los domingos que no gana se le escapan puntos que Martín sí recoge. En los tres últimos grandes premios, Martín fue tercero en Indonesia, segundo en Japón y segundo en Austria. Márquez fue sexto, primero y quinto.
+
+Indonesia lo resume. Márquez ganó el sprint del sábado y el domingo terminó sexto. Martín fue cuarto al sprint y tercero en la carrera, que ganó su compañero en Aprilia, Marco Bezzecchi. Bezzecchi es tercero del Mundial con 309 puntos, a 46 del líder, y todavía tiene opciones.
+
+## Lo que queda
+
+Cinco fines de semana, con 37 puntos en juego en cada uno (25 en la carrera y 12 en el sprint): 185 en total.
+
+- Australia, Phillip Island: carrera el domingo 25 de octubre.
+- Malasia, Sepang: domingo 1 de noviembre.
+- Catar, Lusail: domingo 8 de noviembre.
+- Portugal, Portimão: domingo 22 de noviembre.
+- Comunitat Valenciana, Cheste: domingo 29 de noviembre, el mismo día de las [elecciones generales](/noticias/elecciones-29n-partidos-domingo-29-noviembre-horarios-futbol-f1-davis).
+
+En Australia, la carrera empieza a las 04:00 de la madrugada en la península y el sprint del sábado, a las 06:00. Todos los horarios de cada sesión y la clasificación completa, en [la página de MotoGP](/motor/motogp).
+
+## Ya ha pasado
+
+Ser campeón ganando poco no es nuevo, y dos de los casos más extremos son españoles. [Emilio Alzamora](https://en.wikipedia.org/wiki/Emilio_Alzamora) ganó el Mundial de 125 cc en 1999 sin ganar una sola carrera, por un punto sobre Marco Melandri. Antes que él lo había conseguido Manuel Herreros, en 80 cc.
+
+En la categoría reina, [Nicky Hayden](https://en.wikipedia.org/wiki/Nicky_Hayden) fue campeón en 2006 con dos victorias, en Assen y en Laguna Seca, y le quitó el título a Valentino Rossi en la última carrera.
+
+Martín ya sabe lo que es: fue campeón de MotoGP en 2024 con Pramac. Esta vez lo intenta con Aprilia, contra un Márquez que gana más que nadie y, aun así, va por detrás.`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'MotoGP', sport: 'motor', slug: 'motogp' },
+    sourceName: 'MotoGP',
+    sourceUrl: 'https://www.motogp.com/es/world-standing',
+    sourceLang: 'es',
+    publishedAt: '2026-10-18T15:55:00+02:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Jorge-martin-festeja-su-titulo-mundial-de-motogp-2024.jpg/1280px-Jorge-martin-festeja-su-titulo-mundial-de-motogp-2024.jpg',
+      alt: 'Jorge Martín, con el mono de Pramac Ducati y los brazos en alto, celebra a hombros de aficionados su título mundial de MotoGP de 2024',
+      credit: 'David Balaguer · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+    sourcesSecondary: [
+      { name: 'Wikipedia: temporada 1999', url: 'https://en.wikipedia.org/wiki/1999_Grand_Prix_motorcycle_racing_season' },
+      { name: 'Wikipedia: Emilio Alzamora', url: 'https://en.wikipedia.org/wiki/Emilio_Alzamora' },
+      { name: 'Wikipedia: Nicky Hayden', url: 'https://en.wikipedia.org/wiki/Nicky_Hayden' },
+    ],
+  },
+  {
     slug: 'cronica-everton-chelsea-401878771',
     title: "Chelsea gana fuera 2-0 a Everton y es 4.º",
     summary: "Chelsea suma tres puntos ante Everton (2-0) en Premier League y es 4.º con 13 puntos; Everton se queda 7.º.",
