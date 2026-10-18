@@ -1,14 +1,11 @@
 import { setRequestLocale } from 'next-intl/server';
 import { PortalHero } from '@/components/portal/portal-hero';
-import { TodayBoard } from '@/components/portal/today-board';
 import { CompetitionsGrid } from '@/components/portal/competitions-grid';
-import { IndividualToday } from '@/components/portal/individual-today';
-import { liveCompetitions } from '@/lib/competitions';
 import { MovistarHero } from '@/components/affiliate/movistar-banner';
-import { DailyNews } from '@/components/home/daily-news';
 import { MundialesEntry } from '@/components/home/mundiales-entry';
 import { LiveStrip } from '@/components/feed/live-strip';
 import { ScoresTicker } from '@/components/portal/scores-ticker';
+import { FootballSection, BasketballSection, MotorSection, TennisSection, MoreSportsSection } from '@/components/home/sport-sections';
 import { AdSlot } from '@/components/affiliate/ad-slot';
 import type { Locale } from '@/i18n/routing';
 import { pageMetadata } from '@/lib/seo';
@@ -74,11 +71,14 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
       </div>
       <LiveStrip locale={L} className="pt-8" />
       <PortalHero locale={L} />
-      {/* Crónicas, previas y agenda del día: justo bajo el hero, que es lo que se busca. */}
-      <DailyNews locale={L} />
+      {/* Portada por deportes: mosaico de widgets de distintos tamaños y carrusel propio en cada uno. */}
+      <FootballSection locale={L} />
+      <BasketballSection locale={L} />
       <AdSlot placement="home" className="py-6" />
-      <TodayBoard locale={L} competitions={liveCompetitions()} range="today" kicker="Partidos de hoy" title="Todo lo que se juega hoy" limitPerGroup={5} emptyText="Hoy no hay partidos en las competiciones que seguimos. Consulta el calendario de cada competición." />
-      <IndividualToday locale={L} />
+      <MotorSection locale={L} />
+      <TennisSection locale={L} />
+      <MoreSportsSection locale={L} />
+      <div className="pt-12" />
       <CompetitionsGrid locale={L} />
       <section className="relative overflow-hidden">
         <div className="mx-auto w-full max-w-[1400px] px-4 py-8 md:px-8 md:py-12">
