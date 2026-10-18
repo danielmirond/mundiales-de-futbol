@@ -52,3 +52,6 @@ coverage-report-*.md
 /gsc/
 **/*service*account*.json
 mundiales-500017-*.json
+
+# material de trabajo (radar Discover: titulares de terceros)
+/.cache/
