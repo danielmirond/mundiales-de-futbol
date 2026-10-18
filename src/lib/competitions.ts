@@ -111,6 +111,8 @@ export const COMPETITIONS: Competition[] = [
   // ─── Motor ──────────────────────────────────────────────────────
   { slug: 'formula-1', name: 'Fórmula 1', shortName: 'F1', sport: 'motor', kind: 'mundial', hasStandings: false, stats: 'racing', feed: { sport: 'racing', league: 'f1' },
     description: 'Mundial de Fórmula 1: calendario de grandes premios y clasificación de pilotos.', keywords: ['fórmula 1', 'f1', 'calendario f1', 'clasificación f1'] },
+  { slug: 'indycar', name: 'IndyCar', sport: 'motor', kind: 'liga', hasStandings: false, stats: 'racing', feed: { sport: 'racing', league: 'irl' }, flag: '🇺🇸',
+    description: 'IndyCar: clasificación del campeonato, resultados de cada carrera y calendario, con Álex Palou.', keywords: ['indycar', 'clasificación indycar', 'álex palou', 'palou indycar', 'calendario indycar'] },
   { slug: 'motogp', name: 'MotoGP', sport: 'motor', kind: 'mundial', hasStandings: false, stats: 'motogp',
     description: 'Mundial de MotoGP: clasificación de MotoGP, Moto2 y Moto3, horarios del próximo gran premio en hora peninsular, resultados y calendario.', keywords: ['motogp', 'clasificación motogp', 'horario motogp', 'calendario motogp 2026', 'mundial motogp'] },
   // ─── Tenis ──────────────────────────────────────────────────────

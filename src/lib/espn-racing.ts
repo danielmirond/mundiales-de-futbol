@@ -44,7 +44,9 @@ export async function fetchRaceStandings(feed: { sport: string; league: string }
   const d = await get(`${V2}/${feed.sport}/${feed.league}/standings`, 1800);
   const kids: any[] = d?.children ?? [];
   const stat = (e: any, ...names: string[]) => { for (const n of names) { const s = (e.stats ?? []).find((x: any) => x.name === n); if (s && s.displayValue != null && String(s.displayValue).trim() !== '') return Number(s.displayValue); } return 0; };
-  const drivers: DriverRow[] = (kids.find((k) => /driver/i.test(k.name))?.standings?.entries ?? []).map((e: any) => ({ rank: stat(e, 'rank'), name: String(e.athlete?.displayName ?? ''), country: countryEs(e.athlete?.flag?.alt), points: stat(e, 'championshipPts', 'points') }));
+  // F1 separa «Driver Standings» y «Constructor Standings»; IndyCar trae un único bloque «Standings» de pilotos.
+  const driverKid = kids.find((k) => /driver/i.test(k.name)) ?? (kids.length === 1 ? kids[0] : undefined);
+  const drivers: DriverRow[] = (driverKid?.standings?.entries ?? []).map((e: any) => ({ rank: stat(e, 'rank'), name: String(e.athlete?.displayName ?? ''), country: countryEs(e.athlete?.flag?.alt), points: stat(e, 'championshipPts', 'points') }));
   const teams: TeamRow[] = (kids.find((k) => /constructor/i.test(k.name))?.standings?.entries ?? []).map((e: any) => ({ rank: stat(e, 'rank'), name: String(e.team?.displayName ?? ''), color: e.team?.color, points: stat(e, 'points', 'championshipPts') }));
   return { drivers: drivers.sort((a, b) => a.rank - b.rank), teams: teams.sort((a, b) => a.rank - b.rank) };
 }
