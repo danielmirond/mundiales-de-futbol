@@ -154,6 +154,236 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'messi-oviedo-princesa-asturias-agenda-sin-rueda-de-prensa-red-bulls',
+    title: 'Leo Messi viaja a Oviedo sin rueda de prensa en la agenda y con la MLS esperándole al otro lado',
+    summary: 'Leo Messi recoge el Princesa de Asturias de los Deportes el viernes 23 en el Campoamor. Llega el jueves, ve a escolares en Oviedo y el sábado juega en Nueva Jersey.',
+    body: `Leo Messi es el único premiado de los Princesa de Asturias 2026 que no tiene rueda de prensa en el [calendario oficial de la Fundación](https://www.fpa.es/es/area-de-comunicacion-y-prensa/notas-de-prensa/calendario-de-ruedas-de-prensa-y-llegadas-de-los-galardonados-a-asturias-2026/). Los demás galardonados pasan por el Hotel de la Reconquista entre el martes 20 y el jueves 22. De Messi, la nota del 13 de octubre solo dice que su recibimiento «está previsto para el jueves por la mañana».
+
+Será una visita corta. El argentino llega a Asturias el jueves 22, recoge el premio el viernes 23 y el sábado 24 juega con el Inter Miami en Nueva Jersey. Entre el inicio de la ceremonia y el del partido hay 29 horas.
+
+## La agenda, hora a hora
+
+Horas peninsulares, según el programa de la Semana de los Premios y el calendario de la MLS:
+
+| Día | Hora | Qué | Dónde |
+| --- | --- | --- | --- |
+| Jueves 22 | Mañana | Recibimiento oficial | Asturias |
+| Jueves 22 | 17:30 | Encuentro con la comunidad educativa | Palacio de los Deportes de Oviedo |
+| Viernes 23 | 18:30 | XLVI ceremonia de entrega | Teatro Campoamor de Oviedo |
+| Sábado 24 | 23:30 | Red Bull New York - Inter Miami | Sports Illustrated Stadium, Harrison |
+
+El acto del jueves está pensado para público infantil y juvenil, sobre todo para los alumnos que han participado en «El juego del 10», una actividad del programa cultural «Toma la palabra». El público general puede inscribirse en la web de la Fundación desde las 10:00 de este domingo 18 de octubre, con cola virtual. Es el único acto de la semana que tiene un turno de inscripción propio.
+
+El programa está «sujeto a cambios», advierte la Fundación, así que la rueda de prensa aún podría aparecer.
+
+## La fecha que baila
+
+Algunas informaciones han situado la ceremonia el jueves 22. [ESPN lo publicó así](https://www.espn.com/soccer/story/_/id/50197177/lionel-messi-inter-miami-2026-princess-asturias-award-sports) al contar el permiso del Inter Miami. La Fundación la fija el viernes 23 a las 18:30. El jueves es el día del encuentro con los escolares.
+
+Al entrenador, Cristian «Kily» González, el viaje no le preocupa. Cuenta con Messi para Nueva Jersey y, sobre su disposición a hacerlo todo, dijo a ESPN: «Me encanta que lo asuma de esta manera».
+
+## Antes, dos goles en Atlanta
+
+Antes de cruzar el Atlántico, el sábado 17 Messi marcó dos goles en la victoria del Inter Miami en Atlanta (1-3), en los minutos 56 y 60, según la ficha de ESPN. El partido del sábado 24 en Harrison, con alineaciones y estadísticas, se puede seguir en [su ficha](/futbol/mls/partido/761891), y la clasificación, en la [página de la MLS](/futbol/mls).
+
+## Por qué le premian
+
+El jurado se reunió en Oviedo el 3 de junio. Lo presidió la nadadora paralímpica Teresa Perales y el fallo fue unánime. Messi se impuso a otras 26 candidaturas de 12 nacionalidades, [según contó Qué!](https://www.que.es/2026/06/03/leo-messi-premio-princesa-asturias-2026/) ese día. El acta destaca su «deslumbrante talento» y su labor solidaria.
+
+El premio es una escultura de Joan Miró, un diploma, una insignia y 50.000 euros. Messi no figura entre los premiados que hablarán en el Campoamor: los discursos serán los de Julian Barnes, Christina Koch, Timothy Garton Ash y Patti Smith, según la propia Fundación.`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'MLS', sport: 'futbol', slug: 'mls' },
+    sourceName: 'Fundación Princesa de Asturias',
+    sourceUrl: 'https://www.fpa.es/es/area-de-comunicacion-y-prensa/notas-de-prensa/calendario-de-ruedas-de-prensa-y-llegadas-de-los-galardonados-a-asturias-2026/',
+    sourceLang: 'es',
+    publishedAt: '2026-10-18T21:49:00+02:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Lionel_Messi_NYCFC_Miami_24_Sep_2025-051.jpg/1280px-Lionel_Messi_NYCFC_Miami_24_Sep_2025-051.jpg',
+      alt: 'Lionel Messi, con barba y la camiseta negra del Inter Miami, mira hacia un lado delante de un muro oscuro',
+      credit: 'Bryan Berlin · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+    sourcesSecondary: [
+      { name: 'FPA: programa de la Semana de los Premios', url: 'https://www.fpa.es/resources/doc/portal/2026/09/30/programa-semana-de-los-premios-2026.pdf' },
+      { name: 'ESPN: Atlanta United - Inter Miami', url: 'https://www.espn.com/soccer/match/_/gameId/761880' },
+      { name: 'ESPN', url: 'https://www.espn.com/soccer/story/_/id/50197177/lionel-messi-inter-miami-2026-princess-asturias-award-sports' },
+      { name: 'Qué!', url: 'https://www.que.es/2026/06/03/leo-messi-premio-princesa-asturias-2026/' },
+    ],
+  },
+  {
+    slug: 'indurain-ocho-vueltas-espana-unica-septiembre-abandono-lagos-covadonga',
+    title: 'Miguel Induráin corrió ocho Vueltas y la única que se disputó en septiembre no la terminó',
+    summary: 'Miguel Induráin nunca ganó la Vuelta. Corrió ocho, todas en primavera menos la de 1996, y los Lagos de Covadonga le quitaron el liderato en 1985 y le hicieron abandonar dos veces.',
+    body: `Miguel Induráin tomó la salida en ocho Vueltas a España. Siete se corrieron entre finales de abril y mayo. La octava, la de 1996, fue en septiembre, y no la terminó: se bajó de la bici camino de los Lagos de Covadonga, en la decimotercera etapa.
+
+Estos días circula una frase suya que OKDIARIO [recupera de una entrevista antigua](https://okdiario.com/curiosidades/indurain-larraya-ex-ciclista-espanol-62-anos-nunca-gane-vuelta-epoca-disputaba-abril-lluvia-frio-ese-clima-no-iba-20173271): que nunca ganó la Vuelta porque en su época se corría en abril, con lluvia y frío, y ese clima no le iba. El calendario le da la razón en lo primero. La Vuelta no pasó a septiembre hasta 1995, y ese año Induráin no la corrió.
+
+## Sus ocho Vueltas
+
+Resultado en la general, según la [tabla de sus grandes vueltas](https://en.wikipedia.org/wiki/Miguel_Indur%C3%A1in):
+
+| Año | Fechas de la Vuelta | Induráin |
+| --- | --- | --- |
+| 1985 | 23 de abril - 12 de mayo | 84.º |
+| 1986 | 22 de abril - 13 de mayo | 92.º |
+| 1987 | 23 de abril - 15 de mayo | Abandono |
+| 1988 | 25 de abril - 15 de mayo | Abandono |
+| 1989 | 24 de abril - 15 de mayo | Abandono |
+| 1990 | 24 de abril - 15 de mayo | 7.º |
+| 1991 | 29 de abril - 19 de mayo | 2.º |
+| 1996 | 7 - 29 de septiembre | Abandono |
+
+Cuatro abandonos en ocho salidas. En 1992, aconsejado por su director, José Miguel Echávarri, cambió la Vuelta por el Giro para preparar el Tour, y no volvió a la carrera española hasta 1996.
+
+## El año que el tiempo sí decidió
+
+En 1991 llegó como jefe de filas de Banesto y favorito. Ganó Melchor Mauri, de la ONCE. Induráin perdió casi dos minutos en la contrarreloj por equipos y Mauri le ganó tiempo en las contrarrelojes individuales. Hubo además un día en el que el tiempo sí pesó: la etapa reina de los Pirineos, con final inédito en Pla de Beret, [se suspendió por la mala climatología](https://es.wikipedia.org/wiki/Vuelta_a_Espa%C3%B1a_1991). Esa suspensión y un recorrido con poca montaña beneficiaron a Mauri, según la biografía de Induráin en Wikipedia.
+
+Induráin acabó segundo. Tres años después, Mauri fichó por Banesto para ayudarle en el Tour.
+
+## Covadonga, tres veces
+
+Los Lagos de Covadonga marcan su historia en la Vuelta mejor que cualquier mes.
+
+- 1985: con 20 años y pocos meses de profesional, fue líder durante cuatro etapas. Lo perdió en la sexta, con final en los Lagos. Nunca más volvió a vestir el amarillo de la Vuelta.
+- 1989: se cayó bajando el Fitu, en la etapa que terminaba en los Lagos, y abandonó con una doble fractura en la mano izquierda.
+- 1996: había terminado la temporada, pero los compromisos del equipo le llevaron a la salida. El día antes perdió un minuto en el Naranco. En la subida a Covadonga, el 19 de septiembre, se retiró.
+
+Fue su última gran vuelta. La única que corrió en septiembre, sin la lluvia de abril, también la dejó a medias.
+
+Si te interesan otras historias de ciclismo, está la de [Walter Fowler, campeón del mundo a los 92 años](/noticias/walter-fowler-92-anos-campeon-mundial-master-pista-500-metros-londres), y la de [Scaloni pedaleando por Buenos Aires](/noticias/scaloni-gran-fondo-buenos-aires-129-km-sin-coches-ciclismo).`,
+    category: 'curiosa',
+    kind: 'noticia',
+    competition: { name: 'Ciclismo', sport: 'ciclismo', slug: 'ciclismo' },
+    sourceName: 'Wikipedia: Miguel Induráin',
+    sourceUrl: 'https://es.wikipedia.org/wiki/Miguel_Indur%C3%A1in',
+    sourceLang: 'es',
+    publishedAt: '2026-10-18T21:46:00+02:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Miguel_Indur%C3%A1in_1992_Finale_Tour_de_France_Paris_Champs_Elys%C3%A9es.jpg/1280px-Miguel_Indur%C3%A1in_1992_Finale_Tour_de_France_Paris_Champs_Elys%C3%A9es.jpg',
+      alt: 'Miguel Induráin, con el maillot amarillo de Banesto, pedalea en los Campos Elíseos entre un corredor de rosa y otro de Carrera, con el público detrás de las vallas',
+      credit: 'Roland Arhelger · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+    sourcesSecondary: [
+      { name: 'Wikipedia: Vuelta a España 1991', url: 'https://es.wikipedia.org/wiki/Vuelta_a_Espa%C3%B1a_1991' },
+      { name: 'Wikipedia: Vuelta a España 1996', url: 'https://es.wikipedia.org/wiki/Vuelta_a_Espa%C3%B1a_1996' },
+      { name: 'Wikipedia: Vuelta a España 1995', url: 'https://es.wikipedia.org/wiki/Vuelta_a_Espa%C3%B1a_1995' },
+      { name: 'Wikipedia (inglés): Miguel Induráin', url: 'https://en.wikipedia.org/wiki/Miguel_Indur%C3%A1in' },
+      { name: 'OKDIARIO', url: 'https://okdiario.com/curiosidades/indurain-larraya-ex-ciclista-espanol-62-anos-nunca-gane-vuelta-epoca-disputaba-abril-lluvia-frio-ese-clima-no-iba-20173271' },
+    ],
+  },
+  {
+    slug: 'muhammad-ali-fighters-heaven-deer-lake-mike-madden-diez-anos',
+    title: 'Muhammad Ali levantó su campo con troncos en Pensilvania y el hijo de John Madden lo rescató',
+    summary: "Mike Madden pagó 520.000 dólares en 2016 por Fighter's Heaven, el campo de Muhammad Ali en Deer Lake, y lo restauró. Diez años después lo celebró con un libro y Jim Lampley.",
+    body: `Muhammad Ali compró en 1972 un terreno boscoso en Deer Lake, Pensilvania, a unos 145 kilómetros de Filadelfia. Allí levantó con troncos un gimnasio, cabañas, un comedor, una mezquita, una cuadra y la casa de su familia. El lugar se conoce como Fighter's Heaven, el paraíso del púgil. Entrenó en él hasta su último combate, en 1981.
+
+Cuando murió, en junio de 2016, el campo llevaba 19 años en otras manos y el exterior de las cabañas se estaba deteriorando. Un mes después lo compró Mike Madden, hijo de John Madden, el entrenador del Salón de la Fama de la NFL. [Pagó 520.000 dólares](https://www.ksl.com/article/46569404) y gastó al menos otros 650.000 en restaurarlo.
+
+## Lo que se preparó allí
+
+En Deer Lake se preparó Ali para pelear contra George Foreman en Kinshasa, en 1974, y contra Joe Frazier en Manila, en 1975. También para la revancha de 1978 contra Leon Spinks: en una pared siguen las anotaciones de su peso de aquellos días, contaba la agencia AP en la reapertura.
+
+El campo estaba abierto al público cuando Ali entrenaba, y él se mezclaba con los visitantes. Por las rocas del recinto pintó los nombres de leyendas, amigos y rivales: Sonny Liston, Joe Louis, su entrenador Angelo Dundee, Joe Frazier, según la [ficha del lugar en Wikipedia](https://en.wikipedia.org/wiki/Muhammad_Ali%27s_Training_Camp).
+
+## Veinte años cerrado
+
+Ali vendió el campo en 1997 a George Dillman. Tras la muerte del boxeador, Dillman lo abrió al público y en julio de 2016 se lo vendió a Madden. El nuevo dueño tardó más de dos años en arreglarlo y lo reabrió en junio de 2019, casi en el tercer aniversario de la muerte del boxeador: 18 edificios, la mayoría de troncos, con un ring nuevo en el gimnasio y fotos grandes de Ali en las paredes. La entrada era gratuita, con un donativo voluntario para causas benéficas.
+
+«Siempre será un monumento al tipo que lo creó», dijo Madden entonces. En 2023, el campo entró en el Registro Nacional de Lugares Históricos de Estados Unidos.
+
+## Diez años con Madden
+
+Madden lo compró hace ahora diez años. El 10 de octubre, el campo celebró su décimo aniversario con una jornada gratuita, [anunciada en su propia web](https://fightersheaven.com/news/press/lampley-witherspoon-to-highlight-fighters-heaven-in-art-and-literature-a-10th-anniversary-celebration/). Hubo dos estrenos:
+
+- Un libro de Todd Mealy, *Fighters Heaven: Inside the Camp Where Muhammad Ali Remade His Legacy*, sobre por qué Ali eligió un lugar sin ningún vínculo con su vida y lo que pasó allí.
+- Una exposición de Mark Dickens: 12 lienzos de técnica mixta sobre momentos de Ali en el campo, hechos con su hija Khaliah Ali y el fotógrafo Jeff Julian.
+
+El programa reservaba la tarde a Jim Lampley, la voz del boxeo de HBO durante 30 años, y a Tim Witherspoon, dos veces campeón mundial de los pesados, para hablar de sus recuerdos con Ali. Estaban anunciados también los escritores Ron Borges y Nigel Collins y el entrenador John Scully.
+
+El campo abrió su temporada de 2026 en junio y en su web ofrece alquiler de cabañas.
+
+Más boxeo, con el calendario de veladas y dónde verlas, en [la sección de boxeo](/combate/boxeo). Y otra historia de una leyenda y lo que queda de su carrera: [Lawrence Dallaglio y su medalla del Mundial de rugby](/noticias/dallaglio-medalla-mundial-2003-subasta-budds-bancarrota-divorcio).`,
+    category: 'curiosa',
+    kind: 'noticia',
+    competition: { name: 'Boxeo', sport: 'combate', slug: 'boxeo' },
+    sourceName: "Fighter's Heaven",
+    sourceUrl: 'https://fightersheaven.com/news/press/lampley-witherspoon-to-highlight-fighters-heaven-in-art-and-literature-a-10th-anniversary-celebration/',
+    sourceLang: 'en',
+    publishedAt: '2026-10-18T21:43:00+02:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Gym_at_Fighter%27s_Heaven%2C_Deer_Lake%2C_PA.jpg/1280px-Gym_at_Fighter%27s_Heaven%2C_Deer_Lake%2C_PA.jpg",
+      alt: "El gimnasio de troncos de Fighter's Heaven, en Deer Lake, rodeado de césped, árboles de otoño y rocas, una de ellas con letras pintadas",
+      credit: 'Daniel Case · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+    sourcesSecondary: [
+      { name: 'AP (vía KSL)', url: 'https://www.ksl.com/article/46569404' },
+      { name: "Wikipedia: Muhammad Ali's Training Camp", url: 'https://en.wikipedia.org/wiki/Muhammad_Ali%27s_Training_Camp' },
+    ],
+  },
+  {
+    slug: 'luciana-aymar-49-anos-dejar-hockey-divorcio-chile-fernando-gonzalez',
+    title: 'Luciana Aymar, 49 años y ocho veces la mejor: dejar el hockey fue «como un gran divorcio»',
+    summary: 'Luciana Aymar, elegida ocho veces mejor jugadora del mundo, contó en la televisión argentina que el retiro fue un duelo. Vive en Chile con Fernando González, plata olímpica ante Nadal.',
+    body: `Luciana Aymar dejó el hockey hace doce años y lo cuenta como una separación. «Estuve casada con el deporte 20 años y fue como un gran divorcio», dijo esta semana en *Otro día perdido*, el programa de Mario Pergolini en El Trece, [según recoge Caras](https://caras.perfil.com/noticias/celebridades/luciana-aymar-a-sus-49-anos-dejar-el-hockey-fue-como-un-divorcio.phtml). Para ella, el deporte fue «una terapia de 20 años».
+
+Tiene 49 años y está considerada la mejor jugadora de hockey sobre hierba de la historia. Hoy vive en Vitacura, en Santiago de Chile, con el extenista Fernando González y sus dos hijos.
+
+## Lo que dejó
+
+Los números de Aymar con Las Leonas, entre 1998 y 2014:
+
+| | |
+| --- | --- |
+| Mejor jugadora del mundo (FIH) | 8 veces: 2001, 2004, 2005, de 2007 a 2010 y 2013 |
+| Juegos Olímpicos | 4 medallas: plata en Sídney 2000 y Londres 2012, bronce en Atenas 2004 y Pekín 2008 |
+| Mundiales | Campeona en 2002 y 2010, bronce en 2006 y 2014 |
+| Champions Trophy | 6 títulos |
+
+Fue la primera en ganar el premio cuatro años seguidos. La FIH la declaró Leyenda del Hockey en 2008, con seis temporadas todavía por delante.
+
+Tuvo también un paso por España. En 2004 jugó en el Real Club de Polo de Barcelona y ganó la Copa de la Reina.
+
+## Siete medallas olímpicas en una casa
+
+De González dijo: «Es muy admirado. La gente lo quiere mucho como persona, más allá de sus logros como deportista», [según Rosario3](https://www.rosario3.com/ocio/con-mario-pergolini-la-rosarina-luciana-aymar-revelo-detalles-de-su-vida-familiar-y-afirmo-que-dejar-el-hockey-fue-como-un-divorcio-20261015-0025.html).
+
+Tiene motivos. González es el chileno con más medallas olímpicas: [oro en dobles y bronce individual](https://es.wikipedia.org/wiki/Fernando_Gonz%C3%A1lez_(tenista)) en Atenas 2004 y plata individual en Pekín 2008, cuando perdió la final contra Rafa Nadal. Fue finalista del Abierto de Australia en 2007 y número 5 del mundo. Sumadas a las cuatro de Aymar, en esa casa hay siete medallas olímpicas.
+
+## La vida armada en Chile
+
+Aymar se fue a Chile al conocer a González y lleva allí más de diez años. «La vida la tengo armada allá», resumió. Viaja a menudo a Argentina para dar charlas y es socia de Women4Sport, una iniciativa que pone el foco en las desigualdades de las mujeres en el deporte.
+
+No descarta moverse otra vez. «Como somos nosotros, ahora estamos ahí y un día podemos estar en otro lado», dijo.
+
+Más tenis, con la clasificación y los torneos de la semana, en [la sección de la ATP](/tenis/atp). Otra leyenda que habla de lo que vino después de retirarse: [Lawrence Dallaglio y la medalla que ha puesto a la venta](/noticias/dallaglio-medalla-mundial-2003-subasta-budds-bancarrota-divorcio).`,
+    category: 'curiosa',
+    kind: 'noticia',
+    competition: { name: 'Hockey hierba', sport: 'hockey-hierba', slug: 'hockey-hierba' },
+    sourceName: 'Caras',
+    sourceUrl: 'https://caras.perfil.com/noticias/celebridades/luciana-aymar-a-sus-49-anos-dejar-el-hockey-fue-como-un-divorcio.phtml',
+    sourceLang: 'es',
+    publishedAt: '2026-10-18T21:40:00+02:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Luciana_Aymar_%284816482254%29.jpg/1280px-Luciana_Aymar_%284816482254%29.jpg',
+      alt: 'Luciana Aymar, con la camiseta albiceleste de Argentina y zapatillas rosas, conduce la bola con el stick entre dos rivales vestidas de naranja',
+      credit: 'fourthandfifteen · Wikimedia Commons',
+      license: 'CC BY 2.0',
+    },
+    sourcesSecondary: [
+      { name: 'Rosario3', url: 'https://www.rosario3.com/ocio/con-mario-pergolini-la-rosarina-luciana-aymar-revelo-detalles-de-su-vida-familiar-y-afirmo-que-dejar-el-hockey-fue-como-un-divorcio-20261015-0025.html' },
+      { name: 'Wikipedia: Luciana Aymar', url: 'https://es.wikipedia.org/wiki/Luciana_Aymar' },
+      { name: 'Wikipedia: Fernando González', url: 'https://es.wikipedia.org/wiki/Fernando_Gonz%C3%A1lez_(tenista)' },
+    ],
+  },
+  {
     slug: 'jorge-martin-lidera-mundial-motogp-una-victoria-marquez-seis',
     title: 'Jorge Martín lidera el Mundial con una victoria y Marc Márquez, a dos puntos, ha ganado seis',
     summary: 'Jorge Martín llega a Australia líder de MotoGP con 355 puntos y una sola victoria en carrera. Marc Márquez, segundo con 353, ha ganado seis. Quedan cinco grandes premios y 185 puntos en juego.',
