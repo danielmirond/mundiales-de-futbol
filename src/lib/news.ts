@@ -154,6 +154,352 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'previa-psg-barcelona-401915399',
+    title: "PSG - Barcelona: horario, dónde ver y cómo llegan al partido de Champions",
+    summary: "PSG recibe a Barcelona este martes 20 de octubre (21:00 h, Parc des Princes) en Champions League. PSG es 1.º y Barcelona, 2.º.",
+    body: `PSG recibe a Barcelona este martes 20 de octubre (21:00 h, Parc des Princes) en Champions League.
+
+## Cómo llegan
+
+PSG llega de ganar 4-2 a Man City y ocupa la 1.º plaza con 6 puntos (2G-0E-0P). Barcelona llega de ganar 4-1 a Galatasaray y ocupa la 2.º plaza con 6 puntos (2G-0E-0P). La [clasificación de Champions](/futbol/champions-league), al día.
+
+## Dónde ver el partido
+
+Canal por confirmar; se actualiza en la ficha del partido. Alineaciones en cuanto se confirmen, marcador en directo y narración en la [ficha del PSG - Barcelona](/futbol/champions-league/partido/401915399). El resto de la jornada, en [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    kind: 'previa',
+    competition: {"name":"Champions","sport":"futbol","slug":"champions-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915399",
+    sourceLang: 'en',
+    publishedAt: '2026-10-18T23:36:55.874Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Parc_des_princes_-_Ligue_1.jpg/1920px-Parc_des_princes_-_Ligue_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Parc des Princes, sede del PSG - Barcelona",
+      credit: "Kilyac · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'cronica-leeds-man-united-401879260',
+    title: "Leeds 1 Man United 1: goles de Bryan Mbeumo y Dominic Calvert-Lewin, Leeds 7.º y posesión del 61 % para Leeds",
+    summary: "Leeds y Man United empataron 1-1 en Premier League; el último gol fue de Dominic Calvert-Lewin en el 51'. Claves: goles de Bryan Mbeumo y Dominic Calvert-Lewin, Leeds 7.º y posesión del 61 % para Leeds.",
+    body: `Leeds y Man United empataron 1-1 en Premier League; el último gol fue de Dominic Calvert-Lewin en el 51'.
+
+## Bryan Mbeumo decidió
+
+Marcaron Bryan Mbeumo (35', Man United) y Dominic Calvert-Lewin (51', Leeds).
+
+## Los números del partido
+
+Leeds tuvo el 61 % de la posesión por el 39 % de Man United; remató 12 veces (5 a puerta) frente a 13 (3) del rival. Córners: 2 por 3. Se emitió en DAZN.
+
+## Qué cambia en la tabla
+
+Tras el partido, Leeds 7.º con 10 puntos y Man United 13.º con 7 puntos en la [clasificación de Premier League](/futbol/premier-league).
+
+## Qué viene ahora
+
+Lo que viene. Leeds: visita a Sunderland el domingo 25 de octubre. Man United: recibe a Bournemouth el domingo 25 de octubre. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/premier-league/partido/401879260).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Premier League","sport":"futbol","slug":"premier-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401879260",
+    sourceLang: 'en',
+    publishedAt: '2026-10-18T23:36:55.874Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Elland_Road_Stadium_panoramic_view_from_its_southeastearn_corner.jpg/1920px-Elland_Road_Stadium_panoramic_view_from_its_southeastearn_corner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Elland Road, donde se jugó el Leeds - Man United",
+      credit: "Lufc83 · CC BY-SA 3.0 · Wikimedia Commons",
+      license: "CC BY-SA 3.0",
+    },
+  },
+  {
+    slug: 'cronica-brighton-c-palace-401879261',
+    title: "Brighton 5 C Palace 0: 5 goles, Brighton 3.º y posesión del 57 % para Brighton",
+    summary: "Un gol en propia puerta en el 4' puso por delante a Brighton, que ya no soltó la ventaja: 5-0 final ante C Palace en Premier League. Claves: 5 goles, Brighton 3.º y posesión del 57 % para Brighton.",
+    body: `Un gol en propia puerta en el 4' puso por delante a Brighton, que ya no soltó la ventaja: 5-0 final ante C Palace en Premier League.
+
+## Diego Gómez decidió
+
+Marcaron Jaydee Canvot (4', Brighton, p.p.), Diego Gómez (7', Brighton), Yasin Ayari (10', Brighton), Charalambos Kostoulas (49', Brighton) y Jack Hinshelwood (84', Brighton).
+
+## Los números del partido
+
+La posesión fue 57 %-43 % para Brighton. En remates, 17 de Brighton (9 a puerta) por 5 de C Palace (1). Córners: 8 por 5. Se emitió en DAZN.
+
+## Qué cambia en la tabla
+
+Tras el partido, Brighton 3.º con 16 puntos y C Palace 14.º con 7 puntos en la [clasificación de Premier League](/futbol/premier-league).
+
+## Qué viene ahora
+
+Lo que viene. Brighton: visita a Liverpool el domingo 25 de octubre. C Palace: recibe a Newcastle el domingo 25 de octubre. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/premier-league/partido/401879261).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Premier League","sport":"futbol","slug":"premier-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401879261",
+    sourceLang: 'en',
+    publishedAt: '2026-10-18T23:36:55.874Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/American_Express_Community_Stadium%2C_near_Brighton_-_geograph.org.uk_-_2859062.jpg/1920px-American_Express_Community_Stadium%2C_near_Brighton_-_geograph.org.uk_-_2859062.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "American Express Stadium, donde se jugó el Brighton - C Palace",
+      credit: "Julian P Guffogg · CC BY-SA 2.0 · Wikimedia Commons",
+      license: "CC BY-SA 2.0",
+    },
+  },
+  {
+    slug: 'cronica-bournemouth-sunderland-401879263',
+    title: "Bournemouth se impone a Sunderland (2-0) en Premier League",
+    summary: "Marcus Tavernier marcó; Sunderland remató 3 veces (0 a puerta) en el Bournemouth 2-0 Sunderland de Premier League.",
+    body: `Bournemouth llegaba de perder 1-5 ante Chelsea; Sunderland, de perder 0-2 ante Brighton. Acabó ganando Bournemouth 2-0. Los goles: Marcus Tavernier (6', Bournemouth) y Evanilson (48', Bournemouth).
+
+## En cifras
+
+La posesión fue 65 %-35 % para Bournemouth. En remates, 29 de Bournemouth (6 a puerta) por 3 de Sunderland (0). Córners: 5 por 3. Se emitió en DAZN.
+
+## La clasificación
+
+Tras el partido, Bournemouth 15.º con 6 puntos y Sunderland 19.º con 4 puntos en la [clasificación de Premier League](/futbol/premier-league).
+
+Ficha: 5 amarillas · expulsado: Kevin Danso · 8 cambios. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/premier-league/partido/401879263).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Premier League","sport":"futbol","slug":"premier-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401879263",
+    sourceLang: 'en',
+    publishedAt: '2026-10-18T23:36:55.874Z',
+    author: "Redacción Mundiales de Fútbol",
+  },
+  {
+    slug: 'cronica-nottm-forest-arsenal-401878769',
+    title: "Arsenal se impone a Nottm Forest (1-0) con gol de Noni Madueke en Premier League",
+    summary: "Noni Madueke marcó; Nottm Forest remató 14 veces (2 a puerta) en el Arsenal 1-0 Nottm Forest de Premier League.",
+    body: `Nottm Forest llegaba de perder 1-3 ante C Palace; Arsenal, de ganar 2-1 a Leeds. Acabó ganando Arsenal 1-0, con gol de Noni Madueke. En el marcador, Noni Madueke (80', Arsenal).
+
+## En cifras
+
+La posesión fue 26 %-74 % para Nottm Forest. En remates, 14 de Nottm Forest (2 a puerta) por 9 de Arsenal (1). Córners: 8 por 6. Se emitió en DAZN y Movistar Plus+.
+
+## La clasificación
+
+Tras el partido, Nottm Forest 18.º con 5 puntos y Arsenal 2.º con 18 puntos en la [clasificación de Premier League](/futbol/premier-league).
+
+Ficha: 2 amarillas · 8 cambios. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/premier-league/partido/401878769).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Premier League","sport":"futbol","slug":"premier-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401878769",
+    sourceLang: 'en',
+    publishedAt: '2026-10-18T23:36:55.874Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/a/a4/The_City_Ground%2C_Nottingham.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      alt: "The City Ground, donde se jugó el Nottm Forest - Arsenal",
+      credit: "The original uploader was Nffcchris at English Wikipedia. · Public domain · Wikimedia Commons",
+      license: "Public domain",
+    },
+  },
+  {
+    slug: 'cronica-osasuna-racing-401882840',
+    title: "Osasuna gana 2-0 a Racing y es 10.º",
+    summary: "Osasuna suma tres puntos ante Racing (2-0) en LaLiga y es 10.º con 11 puntos; Racing se queda 16.º.",
+    body: `Osasuna se impuso 2-0 a Racing en LaLiga, con gol de Asier Osambela. Se emitió en M+ LALIGA.
+
+## Los goles
+
+En el marcador, Asier Osambela (88', Osasuna).
+
+## La tabla
+
+Tras el partido, Osasuna 10.º con 11 puntos y Racing 16.º con 8 puntos en la [clasificación de LaLiga](/futbol/laliga).
+
+## Lo que viene
+
+Lo que viene. Osasuna: visita a Sevilla el lunes 26 de octubre. Racing: recibe a Espanyol el sábado 24 de octubre. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/laliga/partido/401882840).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882840",
+    sourceLang: 'en',
+    publishedAt: '2026-10-18T23:36:55.874Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/a/a4/Estadio_El_Sadar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      alt: "El Sadar, donde se jugó el Osasuna - Racing",
+      credit: "Visma17 · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'cronica-celta-vigo-alaves-401882845',
+    title: "Ferran Jutglà guía a Celta Vigo ante Alavés (2-1) y lo deja 8.º en LaLiga",
+    summary: "Celta Vigo 2-1 Alavés en LaLiga: Ferran Jutglà marcó. Celta Vigo 48 % de posesión y 6 remates; Alavés 52 % y 20.",
+    body: `## Resumen
+
+Celta Vigo ganó 2-1 a Alavés en LaLiga. Se emitió en DAZN LaLiga y DAZN.
+
+## Los goles
+
+- 53' · Ferran Jutglà (Celta Vigo)
+- 71' · Javi Rodríguez (Celta Vigo)
+- 87' · Hugo Novoa (Alavés)
+
+## El dato
+
+Celta Vigo 48 % de posesión y 6 remates; Alavés 52 % y 20.
+
+## Lo que viene
+
+Lo que viene. Celta Vigo: recibe a Betis el domingo 25 de octubre. Alavés: recibe a Málaga el viernes 23 de octubre.
+
+**Lee también:** la [ficha del partido](/futbol/laliga/partido/401882845) con alineaciones y narración · la [clasificación de LaLiga](/futbol/laliga) · [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882845",
+    sourceLang: 'en',
+    publishedAt: '2026-10-18T23:36:55.874Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/2014-10-19_-_Museo_Real_Club_Celtic_Vigo_-_Estadio_De_Balaidos_-_Vigo_-_Spain1.JPG/1920px-2014-10-19_-_Museo_Real_Club_Celtic_Vigo_-_Estadio_De_Balaidos_-_Vigo_-_Spain1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Balaidos, donde se jugó el Celta Vigo - Alavés",
+      credit: "Ploetzlich (Diskussion) 17:12, 20. Okt. 2014 (CEST) · CC BY-SA 3.0 · Wikimedia Commons",
+      license: "CC BY-SA 3.0",
+    },
+  },
+  {
+    slug: 'cronica-malaga-real-sociedad-401882841',
+    title: "Real Sociedad gana fuera 5-2 a Málaga y es 5.º",
+    summary: "Real Sociedad suma tres puntos ante Málaga (5-2) en LaLiga y es 5.º con 16 puntos; Málaga se queda 20.º.",
+    body: `Real Sociedad se impuso 5-2 a Málaga en LaLiga, con doblete de Mikel Oyarzabal. Se emitió en M+ LALIGA.
+
+## Los goles
+
+En el marcador, Takefusa Kubo (3', Real Sociedad), Orri Óskarsson (26', Real Sociedad), Adrián Niño (54', Málaga), Mikel Oyarzabal (59', Real Sociedad), Pablo Martínez (66', Málaga), Mikel Oyarzabal (67', Real Sociedad) y Gonçalo Guedes (73', Real Sociedad).
+
+## La tabla
+
+Tras el partido, Málaga 20.º con 4 puntos y Real Sociedad 5.º con 16 puntos en la [clasificación de LaLiga](/futbol/laliga).
+
+## Lo que viene
+
+Lo que viene. Málaga: visita a Alavés el viernes 23 de octubre. Real Sociedad: recibe a Levante el domingo 25 de octubre. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/laliga/partido/401882841).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882841",
+    sourceLang: 'en',
+    publishedAt: '2026-10-18T23:36:55.874Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/La_Rosaleda_2014.jpg/1920px-La_Rosaleda_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "La Rosaleda, donde se jugó el Málaga - Real Sociedad",
+      credit: "Leo Hidalgo (@yompyHERE) · CC BY 2.0 · Wikimedia Commons",
+      license: "CC BY 2.0",
+    },
+  },
+  {
+    slug: 'cronica-real-madrid-sevilla-401882839',
+    title: "Real Madrid 4 Sevilla 1: 4 goles, Real Madrid 3.º y posesión del 65 % para Real Madrid",
+    summary: "Arda Güler marcó en el 30' el gol que puso por delante a Real Madrid, que ya no soltó la ventaja: 4-1 final ante Sevilla en LaLiga. Claves: 4 goles, Real Madrid 3.º y posesión del 65 % para Real Madrid.",
+    body: `Arda Güler marcó en el 30' el gol que puso por delante a Real Madrid, que ya no soltó la ventaja: 4-1 final ante Sevilla en LaLiga.
+
+## Arda Güler decidió
+
+Los goles: Arda Güler (30', Real Madrid), Kylian Mbappé (37', Real Madrid), Manu Bueno (80', Sevilla) y Yan Diomande (82', Real Madrid).
+
+## Los números del partido
+
+Real Madrid tuvo el 65 % de la posesión por el 35 % de Sevilla; remató 15 veces (8 a puerta) frente a 11 (5) del rival. Córners: 1 por 2. Se emitió en M+ LALIGA.
+
+## Qué cambia en la tabla
+
+Tras el partido, Real Madrid 3.º con 21 puntos y Sevilla 6.º con 14 puntos en la [clasificación de LaLiga](/futbol/laliga).
+
+## Qué viene ahora
+
+Lo que viene. Real Madrid: visita a Barcelona el domingo 25 de octubre. Sevilla: recibe a Osasuna el lunes 26 de octubre. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/laliga/partido/401882839).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882839",
+    sourceLang: 'en',
+    publishedAt: '2026-10-18T23:36:55.874Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Santiagobernabeupanoramav45.JPG/1920px-Santiagobernabeupanoramav45.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Santiago Bernabéu, donde se jugó el Real Madrid - Sevilla",
+      credit: "لا روسا · CC BY-SA 3.0 · Wikimedia Commons",
+      license: "CC BY-SA 3.0",
+    },
+  },
+  {
+    slug: 'partidos-futbol-hoy-2026-10-19',
+    title: "Partidos de fútbol hoy, lunes 19 de octubre: horarios y dónde ver LaLiga, Premier League y Serie A",
+    summary: "Agenda de fútbol de hoy lunes 19 de octubre: 7 partidos con horario en hora española y canal de televisión. Destaca Getafe - Rayo.",
+    body: `7 partidos de fútbol para lunes 19 de octubre. Repasamos qué se juega, a qué hora y en qué canal, sin más vueltas. El partido que más miradas reúne es el **[Getafe - Rayo](/futbol/laliga/partido/401882842)** (LaLiga, 21:00 h).
+
+## 🇮🇹 Serie A
+
+- **[Monza - Cagliari](/futbol/serie-a/partido/401874762)** — 18:30 h · 📺 DAZN
+- **[Parma - Torino](/futbol/serie-a/partido/401874784)** — 20:45 h · 📺 DAZN
+
+Calendario y clasificación en la [página de Serie A](/futbol/serie-a).
+
+## 🇹🇷 Süper Lig
+
+- **[Trabzonspor - Besiktas](/futbol/super-lig/partido/401888277)** — 19:00 h
+
+Calendario y clasificación en la [página de Süper Lig](/futbol/super-lig).
+
+## 🇪🇸 LaLiga Hypermotion
+
+- **[Celta Fortuna - Tenerife](/futbol/laliga-2/partido/401883309)** — 20:30 h
+
+Calendario y clasificación en la [página de LaLiga 2](/futbol/laliga-2).
+
+## 🇪🇸 LaLiga
+
+- **[Getafe - Rayo](/futbol/laliga/partido/401882842)** — 21:00 h · 📺 DAZN LaLiga / DAZN
+
+Calendario y clasificación en la [página de LaLiga](/futbol/laliga).
+
+## 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Premier League
+
+- **[Spurs - Coventry](/futbol/premier-league/partido/401879257)** — 21:00 h · 📺 DAZN
+
+Calendario y clasificación en la [página de Premier League](/futbol/premier-league).
+
+## 🇵🇹 Primeira Liga
+
+- **[Braga - Gil Vicente](/futbol/primeira-liga/partido/401885480)** — 21:15 h
+
+Calendario y clasificación en la [página de Primeira Liga](/futbol/primeira-liga).
+
+Todos los horarios están en hora peninsular. Los marcadores se actualizan en directo en cada ficha de partido. Toda la jornada, con marcadores en directo, en [partidos de hoy](/partidos-hoy).`,
+    category: 'tv',
+    kind: 'agenda',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882842",
+    sourceLang: 'en',
+    publishedAt: '2026-10-18T23:36:55.874Z',
+    modifiedAt: '2026-10-18T23:36:55.874Z',
+    author: "Redacción Mundiales de Fútbol",
+  },
+  {
     slug: 'messi-oviedo-princesa-asturias-agenda-sin-rueda-de-prensa-red-bulls',
     title: 'Leo Messi viaja a Oviedo sin rueda de prensa en la agenda y con la MLS esperándole al otro lado',
     summary: 'Leo Messi recoge el Princesa de Asturias de los Deportes el viernes 23 en el Campoamor. Llega el jueves, ve a escolares en Oviedo y el sábado juega en Nueva Jersey.',
