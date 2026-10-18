@@ -14,6 +14,7 @@ import { resolveCompetition, withLocale, compBase } from '@/lib/competition-page
 import type { Locale } from '@/i18n/routing';
 import { pageMetadata } from '@/lib/seo';
 import { BoxingHub } from '@/components/portal/boxing-hub';
+import { MotoGPHub } from '@/components/portal/motogp-hub';
 import { AdSlot } from '@/components/affiliate/ad-slot';
 
 // Regeneración periódica (ISR): rápida y estable sin pedir a las fuentes en cada visita.
@@ -32,7 +33,7 @@ export async function generateMetadata({ params }: { params: Params }) {
   return pageMetadata({
     locale,
     path: compBase(c),
-    title: soon ? `${c.name}: calendario y resultados` : c.stats === 'racing' ? `${c.name}: calendario de grandes premios, horarios y clasificación del mundial` : c.stats === 'tennis' ? `${c.name}: torneos en juego, partidos de hoy y resultados` : c.stats === 'golf' ? `${c.name}: torneo en juego, clasificación por vueltas y calendario` : c.stats === 'combat' ? `${c.name}: cartelera, resultados y próximas veladas` : c.stats === 'boxing' ? 'Boxeo: próximas veladas, horario en España y dónde ver cada combate' : c.stats && !c.espn ? `${c.name}: estadísticas avanzadas de equipos, ratings y ritmo` : `${c.name}: resultados, calendario${c.hasStandings ? ' y clasificación' : ''} en directo`,
+    title: soon ? `${c.name}: calendario y resultados` : c.stats === 'motogp' ? `${c.name}: clasificación del Mundial, horarios del próximo gran premio y resultados` : c.stats === 'racing' ? `${c.name}: calendario de grandes premios, horarios y clasificación del mundial` : c.stats === 'tennis' ? `${c.name}: torneos en juego, partidos de hoy y resultados` : c.stats === 'golf' ? `${c.name}: torneo en juego, clasificación por vueltas y calendario` : c.stats === 'combat' ? `${c.name}: cartelera, resultados y próximas veladas` : c.stats === 'boxing' ? 'Boxeo: próximas veladas, horario en España y dónde ver cada combate' : c.stats && !c.espn ? `${c.name}: estadísticas avanzadas de equipos, ratings y ritmo` : `${c.name}: resultados, calendario${c.hasStandings ? ' y clasificación' : ''} en directo`,
     description: c.description,
     keywords: c.keywords,
     noIndex: soon,
@@ -67,6 +68,8 @@ export default async function CompetitionPage({ params }: { params: Params }) {
         <OpenAcbStats />
       ) : !c.espn && c.stats === 'racing' ? (
         <RacingHub comp={c} />
+      ) : !c.espn && c.stats === 'motogp' ? (
+        <MotoGPHub />
       ) : !c.espn && c.stats === 'tennis' ? (
         <TennisHub comp={c} />
       ) : !c.espn && c.stats === 'golf' ? (

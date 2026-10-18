@@ -31,7 +31,7 @@ export type Competition = {
   espn?: { sport: string; league: string; dateRange?: boolean };
   hasStandings: boolean;
   /** Plantilla alternativa cuando no es un partido local-visitante de ESPN: estadísticas OpenACB, tenis o motor. */
-  stats?: 'openacb' | 'tennis' | 'racing' | 'golf' | 'combat' | 'boxing';
+  stats?: 'openacb' | 'tennis' | 'racing' | 'golf' | 'combat' | 'boxing' | 'motogp';
   /** Ruta ESPN para las plantillas `tennis` y `racing` (no entran en los tableros de partidos). */
   feed?: { sport: string; league: string };
   flag?: string;
@@ -111,8 +111,8 @@ export const COMPETITIONS: Competition[] = [
   // ─── Motor ──────────────────────────────────────────────────────
   { slug: 'formula-1', name: 'Fórmula 1', shortName: 'F1', sport: 'motor', kind: 'mundial', hasStandings: false, stats: 'racing', feed: { sport: 'racing', league: 'f1' },
     description: 'Mundial de Fórmula 1: calendario de grandes premios y clasificación de pilotos.', keywords: ['fórmula 1', 'f1', 'calendario f1', 'clasificación f1'] },
-  { slug: 'motogp', name: 'MotoGP', sport: 'motor', kind: 'mundial', hasStandings: false,
-    description: 'Mundial de MotoGP: calendario y clasificación.', keywords: ['motogp', 'calendario motogp', 'clasificación motogp'] },
+  { slug: 'motogp', name: 'MotoGP', sport: 'motor', kind: 'mundial', hasStandings: false, stats: 'motogp',
+    description: 'Mundial de MotoGP: clasificación de MotoGP, Moto2 y Moto3, horarios del próximo gran premio en hora peninsular, resultados y calendario.', keywords: ['motogp', 'clasificación motogp', 'horario motogp', 'calendario motogp 2026', 'mundial motogp'] },
   // ─── Tenis ──────────────────────────────────────────────────────
   { slug: 'atp', name: 'ATP', sport: 'tenis', kind: 'torneo', hasStandings: false, stats: 'tennis', feed: { sport: 'tennis', league: 'atp' },
     description: 'Circuito ATP: torneos y ranking.', keywords: ['atp', 'ranking atp'] },
