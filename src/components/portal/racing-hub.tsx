@@ -2,13 +2,20 @@ import type { Competition } from '@/lib/competitions';
 import { fetchRaceWeekend, fetchRaceStandings } from '@/lib/espn-racing';
 import { madridDateKey } from '@/lib/espn';
 import { countryEs } from '@/lib/i18n-sport';
+import Link from 'next/link';
+import { f1Drivers } from '@/lib/f1-history';
+
+/** «Fernando Alonso» → slug de su ficha histórica, si existe en la copia de Jolpica. */
+const norm = (s: string) => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z]+/g, ' ').trim();
+const f1Slug = (name: string) => f1Drivers().find((d) => norm(d.name) === norm(name))?.slug;
 
 const MADRID = 'Europe/Madrid';
 const dayTime = new Intl.DateTimeFormat('es-ES', { timeZone: MADRID, weekday: 'short', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit', hourCycle: 'h23' });
 const dayFmt = new Intl.DateTimeFormat('es-ES', { timeZone: MADRID, day: 'numeric', month: 'short' });
 
 /** Fórmula 1: gran premio en curso o próximo, clasificaciones del mundial y calendario. */
-export async function RacingHub({ comp }: { comp: Competition }) {
+export async function RacingHub({ comp, locale = 'es' }: { comp: Competition; locale?: string }) {
+  const base = locale === 'es' ? '' : `/${locale}`;
   if (!comp.feed) return null;
   const [{ weekend, calendar }, { drivers, teams }] = await Promise.all([fetchRaceWeekend(comp.feed), fetchRaceStandings(comp.feed)]);
   const today = madridDateKey();
@@ -70,7 +77,7 @@ export async function RacingHub({ comp }: { comp: Competition }) {
                           <td className="h-11 px-2 font-medium text-[var(--color-fg)]">
                             <span className="flex items-center gap-2.5">
                               {'color' in r && r.color ? <i className="h-3 w-1 rounded-sm" style={{ background: `#${r.color}` }} aria-hidden /> : null}
-                              {r.name}{r.sub ? <span className="font-mono text-[10px] uppercase tracking-[0.12em] text-[var(--color-fg-subtle)]">{r.sub}</span> : null}
+                              {comp.slug === 'formula-1' && tbl.title === 'Pilotos' && f1Slug(r.name) ? <Link href={`${base}/motor/formula-1/piloto/${f1Slug(r.name)}`} className="hover:text-[var(--accent-ink)] hover:underline">{r.name}</Link> : r.name}{r.sub ? <span className="font-mono text-[10px] uppercase tracking-[0.12em] text-[var(--color-fg-subtle)]">{r.sub}</span> : null}
                             </span>
                           </td>
                           <td className="h-11 px-2 text-center text-[15px] font-semibold tab-num text-[var(--color-fg)]">{r.points}</td>

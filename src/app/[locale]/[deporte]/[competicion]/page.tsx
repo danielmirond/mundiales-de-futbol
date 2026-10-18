@@ -67,7 +67,7 @@ export default async function CompetitionPage({ params }: { params: Params }) {
       ) : !c.espn && c.stats === 'openacb' ? (
         <OpenAcbStats />
       ) : !c.espn && c.stats === 'racing' ? (
-        <RacingHub comp={c} />
+        <RacingHub comp={c} locale={locale} />
       ) : !c.espn && c.stats === 'motogp' ? (
         <MotoGPHub />
       ) : !c.espn && c.stats === 'tennis' ? (
