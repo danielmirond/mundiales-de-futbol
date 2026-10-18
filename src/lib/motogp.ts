@@ -58,8 +58,18 @@ function wallToUtc(wall: string, timeZone?: string): string {
 /** «AUSTRALIA/MELBOURNE» → «Australia/Melbourne». */
 const tzName = (s?: string) => s?.split('/').map((w) => w.toLowerCase().replace(/(^|_)([a-z])/g, (_, a, b) => a + b.toUpperCase())).join('/');
 
+/** La API da los nombres sin tildes: los de los pilotos españoles, bien escritos. */
+const NAME_ES: Record<string, string> = {
+  'Jorge Martin': 'Jorge Martín', 'Marc Marquez': 'Marc Márquez', 'Alex Marquez': 'Álex Márquez', 'Raul Fernandez': 'Raúl Fernández',
+  'Augusto Fernandez': 'Augusto Fernández', 'Adrian Fernandez': 'Adrián Fernández', 'Fermin Aldeguer': 'Fermín Aldeguer', 'Manuel Gonzalez': 'Manuel González',
+  'Maximo Quiles': 'Máximo Quiles', 'Angel Piqueras': 'Ángel Piqueras', 'Aron Canet': 'Arón Canet', 'Alonso Lopez': 'Alonso López',
+  'Sergio Garcia': 'Sergio García', 'Jose Antonio Rueda': 'José Antonio Rueda', 'Ivan Ortola': 'Iván Ortolá', 'Jaume Masia': 'Jaume Masià',
+  'Aleix Espargaro': 'Aleix Espargaró', 'Pol Espargaro': 'Pol Espargaró', 'Ruben Rubio': 'Rubén Rubio', 'Joel Esteban': 'Joel Esteban',
+};
+const fixName = (n: string) => NAME_ES[n] ?? n;
+
 const rider = (x: any): MotoRider => ({
-  pos: Number(x.position), name: String(x.rider?.full_name ?? ''), number: x.rider?.number ? Number(x.rider.number) : undefined,
+  pos: Number(x.position), name: fixName(String(x.rider?.full_name ?? '')), number: x.rider?.number ? Number(x.rider.number) : undefined,
   countryIso: x.rider?.country?.iso, country: countryName(x.rider?.country?.iso), team: x.team?.name, bike: x.constructor?.name,
   points: typeof x.points === 'number' ? x.points : undefined, time: x.time ?? undefined, gap: x.gap?.first && x.gap.first !== '0.000' ? `+${x.gap.first}` : undefined, status: x.status,
 });
