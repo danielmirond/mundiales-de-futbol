@@ -124,9 +124,22 @@ async function metWeather(lat: number, lon: number, kickoff: Date, place: string
 
 /* ---------- AEMET (España) ---------- */
 
+/**
+ * Petición a AEMET en dos pasos (enlace temporal «datos» y después los datos),
+ * con un reintento: AEMET devuelve a veces 429/500 sueltos por su límite por minuto.
+ */
+async function aemetGet(path: string, key: string, revalidate: number): Promise<any> {
+  for (let i = 0; i < 2; i++) {
+    const meta = await getJson(`https://opendata.aemet.es/opendata/api/${path}?api_key=${key}`, revalidate);
+    const data = meta?.datos ? await getJson(String(meta.datos), revalidate) : null;
+    if (data) return data;
+  }
+  return null;
+}
+
 /** Municipio de AEMET más cercano a unas coordenadas (lista maestra, caché diaria). */
 async function aemetMunicipio(lat: number, lon: number, key: string): Promise<{ id: string; name: string } | null> {
-  const list = await getJson(`https://opendata.aemet.es/opendata/api/maestro/municipios?api_key=${key}`, DAY);
+  const list = await aemetGet('maestro/municipios', key, DAY);
   const arr: any[] = Array.isArray(list) ? list : [];
   let best: any = null, bd = Infinity;
   for (const m of arr) {
@@ -143,9 +156,7 @@ async function aemetMunicipio(lat: number, lon: number, key: string): Promise<{ 
 async function aemetWeather(lat: number, lon: number, kickoff: Date, key: string): Promise<MatchWeather | null> {
   const mun = await aemetMunicipio(lat, lon, key);
   if (!mun) return null;
-  const meta = await getJson(`https://opendata.aemet.es/opendata/api/prediccion/especifica/municipio/horaria/${mun.id}?api_key=${key}`, 3600);
-  if (!meta?.datos) return null;
-  const data = await getJson(String(meta.datos), 3600);
+  const data = await aemetGet(`prediccion/especifica/municipio/horaria/${mun.id}`, key, 3600);
   const dias: any[] = data?.[0]?.prediccion?.dia ?? [];
   const local = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Madrid', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', hourCycle: 'h23' }).formatToParts(kickoff);
   const part = (t: string) => local.find((p) => p.type === t)?.value ?? '';
@@ -155,13 +166,20 @@ async function aemetWeather(lat: number, lon: number, kickoff: Date, key: string
   if (!dia) return null;
   const at = (arr: any[] | undefined) => (arr ?? []).find((v) => String(v.periodo) === hh);
   // La probabilidad viene por tramos de 6 h («0814», «1420»…).
-  const inRange = (arr: any[] | undefined) => (arr ?? []).find((v) => { const p = String(v.periodo); return p.length === 4 && Number(hh) >= Number(p.slice(0, 2)) && Number(hh) < Number(p.slice(2)); });
+  // Franjas de 6 h; la «2002» cruza la medianoche (de 20 a 02).
+  const inRange = (arr: any[] | undefined) => (arr ?? []).find((v) => {
+    const p = String(v.periodo); if (p.length !== 4) return false;
+    const from = Number(p.slice(0, 2)), to = Number(p.slice(2)), h = Number(hh);
+    return from < to ? h >= from && h < to : h >= from || h < to;
+  });
   const skyV = at(dia.estadoCielo);
   if (!skyV) return null;
   const wind = (dia.vientoAndRachaMax ?? []).find((v: any) => String(v.periodo) === hh && v.velocidad);
-  const sky = String(skyV.descripcion ?? '').trim() || 'Sin datos';
+  // «Cubierto» en AEMET es el cielo, no el estadio: «Nublado» evita la confusión.
+  const rawSky = String(skyV.descripcion ?? '').trim() || 'Sin datos';
+  const sky = rawSky.replace(/^Cubierto/, 'Nublado');
   return {
-    source: 'aemet', time: kickoff.toISOString(), place: mun.name, sky, icon: aemetIcon(sky, Number(hh)),
+    source: 'aemet', time: kickoff.toISOString(), place: mun.name, sky, icon: aemetIcon(rawSky, Number(hh)),
     temp: at(dia.temperatura) ? Number(at(dia.temperatura).value) : null,
     wind: wind ? Number(wind.velocidad?.[0]) : null,
     rainMm: at(dia.precipitacion) ? Number(String(at(dia.precipitacion).value).replace('Ip', '0')) : null,
