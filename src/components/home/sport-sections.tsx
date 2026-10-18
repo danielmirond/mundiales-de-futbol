@@ -140,7 +140,7 @@ export async function FootballSection({ locale }: { locale: Locale }) {
   const [today, table, leaders] = await Promise.all([fetchToday(liveCompetitions('futbol')), fetchStandings(laliga), fetchLeaders(laliga, 5)]);
   const news = newsOf('futbol');
   const lead = leadOf(news);
-  const games = [...today].sort((a, b) => Number(b.state === 'in') - Number(a.state === 'in') || a.date.localeCompare(b.date)).slice(0, 6);
+  const games = [...today].sort((a, b) => Number(b.state === 'in') - Number(a.state === 'in') || a.date.localeCompare(b.date)).slice(0, 4);
   const rows = (table.groups[0]?.rows ?? []).slice(0, 8);
   return (
     <SportSection sport="futbol" title="Fútbol" href="/futbol" locale={locale} carouselTitle="Lo último del fútbol">
