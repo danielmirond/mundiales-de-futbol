@@ -23,7 +23,14 @@ const GP: [RegExp, string][] = [
   [/qatar/i, 'Catar'], [/abu dhabi/i, 'Abu Dabi'], [/emilia|imola/i, 'Emilia-Romaña'], [/portug/i, 'Portugal'],
 ];
 export function gpEs(name: string): string {
-  for (const [re, es] of GP) if (re.test(name)) return `Gran Premio de ${es}`;
+  // IndyCar: dobles carreras («… Race 2») y nombres «Grand Prix of …».
+  const heat = /\s+Race\s+(\d)$/i.exec(name);
+  const base = heat ? name.slice(0, heat.index) : name;
+  const suffix = heat ? ` (carrera ${heat[1]})` : '';
+  for (const [re, es] of GP) if (re.test(base)) return `Gran Premio de ${es}${suffix}`;
+  if (/indianapolis 500/i.test(base)) return `500 Millas de Indianápolis${suffix}`;
+  const of = /Grand Prix of (?:the )?(.+)$/i.exec(base);
+  if (of) return `Gran Premio de ${of[1]}${suffix}`;
   return name;
 }
 

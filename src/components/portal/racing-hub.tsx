@@ -22,7 +22,7 @@ export async function RacingHub({ comp }: { comp: Competition }) {
         <section className="mx-auto w-full max-w-[1400px] px-6 py-12 md:px-10" data-sport="motor">
           <div className="kicker">{done ? 'Último gran premio' : 'Gran premio en curso'}</div>
           <h2 className="t-h2 mt-3 text-[var(--color-fg)]">{weekend.name}</h2>
-          <p className="mt-2 text-[var(--color-fg-muted)]">{[...new Set([weekend.circuit, countryEs(weekend.city), weekend.country].filter(Boolean))].join(' · ')} · {dayFmt.format(new Date(weekend.start))} – {dayFmt.format(new Date(weekend.end))}</p>
+          <p className="mt-2 text-[var(--color-fg-muted)]">{[...new Set([weekend.circuit, countryEs(weekend.city), weekend.country].filter(Boolean))].join(' · ')}{weekend.circuit || weekend.city || weekend.country ? ' · ' : ''}{dayFmt.format(new Date(weekend.start))}{dayFmt.format(new Date(weekend.end)) !== dayFmt.format(new Date(weekend.start)) ? ` – ${dayFmt.format(new Date(weekend.end))}` : ''}</p>
           {race && race.state === 'post' && race.top.length > 0 && (
             <ol className="mt-6 grid gap-3 sm:grid-cols-3">
               {race.top.map((p) => (
