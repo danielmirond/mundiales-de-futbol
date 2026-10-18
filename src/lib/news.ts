@@ -154,6 +154,38 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'cronica-everton-chelsea-401878771',
+    title: "Chelsea gana fuera 2-0 a Everton y es 4.º",
+    summary: "Chelsea suma tres puntos ante Everton (2-0) en Premier League y es 4.º con 13 puntos; Everton se queda 7.º.",
+    body: `Chelsea se impuso 2-0 a Everton en Premier League, con doblete de Pedro Neto. Se emitió en DAZN.
+
+## Los goles
+
+Los goles: Pedro Neto (46', Chelsea) y Pedro Neto (90', Chelsea).
+
+## La tabla
+
+Tras el partido, Everton 7.º con 10 puntos y Chelsea 4.º con 13 puntos en la [clasificación de Premier League](/futbol/premier-league).
+
+## Lo que viene
+
+Lo que viene. Everton: visita a Arsenal el sábado 24 de octubre. Chelsea: recibe a Spurs el sábado 24 de octubre. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/premier-league/partido/401878771).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Premier League","sport":"futbol","slug":"premier-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401878771",
+    sourceLang: 'en',
+    publishedAt: '2026-10-18T11:39:13.603Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Hill_Dickinson_Stadium_South_Stand_2026.jpg/1920px-Hill_Dickinson_Stadium_South_Stand_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Hill Dickinson Stadium, donde se jugó el Everton - Chelsea",
+      credit: "TheCarStalker · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
     slug: 'previa-real-madrid-sevilla-401882839',
     title: "Real Madrid - Sevilla: horario, dónde ver y cómo llegan al partido de LaLiga",
     summary: "Cita de LaLiga este domingo 18 de octubre: Real Madrid - Sevilla, a las 21:00 h en Santiago Bernabéu. Real Madrid es 4.º y Sevilla, 5.º. TV: M+ LALIGA.",
@@ -454,8 +486,8 @@ Lo que viene. Valencia: recibe a Villarreal el sábado 24 de octubre. Athletic: 
 
 ## 🇪🇸 Liga F
 
-- **[Alavés - Sevilla](/futbol/liga-f/partido/401882492)** — 12:00 h
-- **[Real Sociedad - Barcelona](/futbol/liga-f/partido/401882485)** — 12:00 h
+- **[Alavés - Sevilla](/futbol/liga-f/partido/401882492)** — 12:00 h — **en juego, 1-1**
+- **[Real Sociedad - Barcelona](/futbol/liga-f/partido/401882485)** — 12:00 h — **en juego, 2-1**
 - **[Eibar - Deportivo](/futbol/liga-f/partido/401882488)** — 16:00 h
 - **[Atlético Madrid - Madrid CFF](/futbol/liga-f/partido/401882490)** — 18:00 h
 
@@ -463,7 +495,7 @@ Calendario y clasificación en la [página de Liga F](/futbol/liga-f).
 
 ## 🇳🇱 Eredivisie
 
-- **[PEC Zwolle - Go Ahead Eagles](/futbol/eredivisie/partido/401875578)** — 12:15 h
+- **[PEC Zwolle - Go Ahead Eagles](/futbol/eredivisie/partido/401875578)** — 12:15 h — **en juego, 2-1**
 - **[Cambuur - AZ Alkmaar](/futbol/eredivisie/partido/401875576)** — 14:30 h
 - **[FC Groningen - Ajax](/futbol/eredivisie/partido/401875575)** — 16:45 h · 📺 DAZN
 - **[FC Twente - FC Utrecht](/futbol/eredivisie/partido/401875577)** — 20:00 h
@@ -473,7 +505,7 @@ Calendario y clasificación en la [página de Eredivisie](/futbol/eredivisie).
 
 ## 🇮🇹 Serie A
 
-- **[Udinese - Lecce](/futbol/serie-a/partido/401874771)** — 12:30 h · 📺 DAZN
+- **[Udinese - Lecce](/futbol/serie-a/partido/401874771)** — 12:30 h · 📺 DAZN — **en juego, 0-2**
 - **[Fiorentina - Como](/futbol/serie-a/partido/401874774)** — 15:00 h · 📺 DAZN
 - **[Milan - Atalanta](/futbol/serie-a/partido/401874978)** — 18:00 h · 📺 DAZN
 - **[Juventus - Lazio](/futbol/serie-a/partido/401874765)** — 20:45 h · 📺 DAZN
@@ -482,7 +514,7 @@ Calendario y clasificación en la [página de Serie A](/futbol/serie-a).
 
 ## 🇹🇷 Süper Lig
 
-- **[Kasimpasa - Samsunspor](/futbol/super-lig/partido/401888276)** — 12:30 h
+- **[Kasimpasa - Samsunspor](/futbol/super-lig/partido/401888276)** — 12:30 h — **en juego, 2-1**
 - **[Kocaelispor - Goztepe](/futbol/super-lig/partido/401888272)** — 15:00 h
 - **[Istanbul BB - Gaziantep](/futbol/super-lig/partido/401888275)** — 18:00 h
 
@@ -563,7 +595,7 @@ Todos los horarios están en hora peninsular. Los marcadores se actualizan en di
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882840",
     sourceLang: 'en',
     publishedAt: '2026-10-17T23:22:30.909Z',
-    modifiedAt: '2026-10-17T23:22:30.909Z',
+    modifiedAt: '2026-10-18T11:39:13.603Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://upload.wikimedia.org/wikipedia/commons/a/a4/Estadio_El_Sadar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
