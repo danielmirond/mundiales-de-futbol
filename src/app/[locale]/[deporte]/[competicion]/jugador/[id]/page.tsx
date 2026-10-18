@@ -4,6 +4,7 @@ import { setRequestLocale } from 'next-intl/server';
 import { ArrowLeft } from 'lucide-react';
 import { getSport, getCompetition } from '@/lib/competitions';
 import { fetchAthlete } from '@/lib/espn-athlete';
+import { nbaPlayerSalary, usd } from '@/lib/nba-salaries';
 import { Crest } from '@/components/portal/crest';
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl } from '@/lib/seo';
@@ -18,8 +19,8 @@ const withLocale = (l: Locale, h: string) => (l === routing.defaultLocale ? h : 
 async function load(deporte: string, competicion: string, id: string) {
   const s = getSport(deporte), c = getCompetition(deporte, competicion);
   if (!s || !c || !c.espn) return null;
-  const p = await fetchAthlete(c, id);
-  return p ? { s, c, p } : null;
+  const [p, pay] = await Promise.all([fetchAthlete(c, id), c.sport === 'baloncesto' && c.slug === 'nba' ? nbaPlayerSalary(id) : Promise.resolve(null)]);
+  return p ? { s, c, p, pay } : null;
 }
 
 export async function generateMetadata({ params }: { params: Params }) {
@@ -29,7 +30,7 @@ export async function generateMetadata({ params }: { params: Params }) {
   const { c, p } = d;
   return pageMetadata({
     locale, path: `/${c.sport}/${c.slug}/jugador/${id}`,
-    title: `${p.bio.name}: estadísticas${c.sport === 'futbol' ? ', goles' : ', puntos'} y temporada${p.bio.team ? ` · ${p.bio.team}` : ''}`,
+    title: `${p.bio.name}: estadísticas${c.sport === 'futbol' ? ', goles' : ', puntos'}${d.pay ? ', sueldo' : ''} y temporada${p.bio.team ? ` · ${p.bio.team}` : ''}`,
     description: `${p.bio.name}${p.bio.position ? `, ${p.bio.position.toLowerCase()}` : ''}${p.bio.team ? ` del ${p.bio.team}` : ''}: estadísticas de la temporada en ${c.name} y de las anteriores, edad, nacionalidad y dorsal.`,
     keywords: [p.bio.name, `${p.bio.name} estadísticas`, `${p.bio.name} goles`, `${p.bio.name} temporada`],
   });
@@ -41,7 +42,7 @@ export default async function PlayerPage({ params }: { params: Params }) {
   if (!d) notFound();
   setRequestLocale(locale);
   const L = locale as Locale;
-  const { s, c, p } = d;
+  const { s, c, p, pay } = d;
   const facts = [['Posición', p.bio.position], ['Equipo', p.bio.team], ['Dorsal', p.bio.jersey], ['Edad', p.bio.age ? `${p.bio.age} años` : undefined], ['Nacimiento', p.bio.dob], ['Nacionalidad', p.bio.country], ['Altura', p.bio.height]].filter(([, v]) => v) as [string, string][];
   return (
     <main className="pt-28" data-sport={s.slug}>
@@ -72,6 +73,30 @@ export default async function PlayerPage({ params }: { params: Params }) {
           ))}
         </dl>
       </section>
+
+      {pay && (
+        <section className="mx-auto w-full max-w-[1400px] px-6 pb-8 md:px-10">
+          <div className="kicker">Contrato</div>
+          <h2 className="t-h2 mt-3 text-[var(--color-fg)]">Cuánto cobra {p.bio.name}</h2>
+          <p className="mt-3 max-w-3xl text-[15px] leading-relaxed text-[var(--color-fg-muted)]">
+            {pay.player.salary !== null
+              ? <>En la temporada {pay.label} cobra <strong className="text-[var(--color-fg)]">{usd(pay.player.salary)}</strong>{pay.rank ? <>, el {pay.rank}.º salario de los {pay.ranked} contratos registrados en la NBA</> : null}.</>
+              : <>ESPN aún no tiene registrado su contrato de la temporada {pay.label}. El último salario que consta es de {usd(pay.player.history[0].salary)}, en la {pay.player.history[0].label}.</>}
+            {' '}<Link href={withLocale(L, `/${c.sport}/${c.slug}/salarios`)} className="font-semibold text-[var(--accent-ink)] hover:underline">Ver los sueldos de toda la NBA</Link>
+          </p>
+          <div className="mt-5 overflow-x-auto rounded-[18px] border border-[var(--color-border)] bg-[var(--color-bg-2)] px-3 md:px-5">
+            <table className="w-full border-collapse text-sm">
+              <thead><tr className="font-mono text-[10px] uppercase tracking-[0.14em] text-[var(--color-fg-subtle)]"><th className="px-2 py-3 text-left font-medium">Temporada</th><th className="px-2 py-3 text-right font-medium">Salario</th></tr></thead>
+              <tbody>
+                {pay.player.history.slice(0, 10).map((h) => (
+                  <tr key={h.season} className="border-t border-[var(--color-border)]"><td className="h-11 px-2 font-mono text-xs text-[var(--color-fg-muted)]">{h.label}</td><td className="h-11 px-2 text-right font-semibold tab-num text-[var(--color-fg)]">{usd(h.salary)}</td></tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="mt-3 font-mono text-[10px] uppercase tracking-[0.2em] text-[var(--color-fg-subtle)]">Salario bruto en dólares · Fuente: ESPN</p>
+        </section>
+      )}
 
       {p.summary.length > 0 && (
         <section className="mx-auto w-full max-w-[1400px] px-6 pb-8 md:px-10">

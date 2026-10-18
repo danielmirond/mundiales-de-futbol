@@ -5,7 +5,7 @@ import { routing, type Locale } from '@/i18n/routing';
 
 const withLocale = (l: Locale, h: string) => (l === routing.defaultLocale ? h : `/${l}${h}`);
 
-export type CompetitionSection = 'inicio' | 'partidos-hoy' | 'calendario' | 'resultados' | 'alineaciones' | 'clasificacion' | 'goleadores' | 'lesionados';
+export type CompetitionSection = 'inicio' | 'partidos-hoy' | 'calendario' | 'resultados' | 'alineaciones' | 'clasificacion' | 'goleadores' | 'lesionados' | 'salarios';
 
 export function competitionSections(c: Competition): { key: CompetitionSection; label: string; path: string }[] {
   const base = `/${c.sport}/${c.slug}`;
@@ -20,6 +20,7 @@ export function competitionSections(c: Competition): { key: CompetitionSection; 
   if (c.hasStandings) s.push({ key: 'clasificacion', label: 'Clasificación', path: `${base}/clasificacion` });
   if (c.sport === 'futbol') s.push({ key: 'goleadores', label: 'Goleadores', path: `${base}/goleadores` });
   if (hasInjuryReport(c)) s.push({ key: 'lesionados', label: 'Lesionados', path: `${base}/lesionados` });
+  if (c.sport === 'baloncesto' && c.slug === 'nba') s.push({ key: 'salarios', label: 'Salarios', path: `${base}/salarios` });
   return s;
 }
 

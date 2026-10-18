@@ -125,6 +125,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     if (c.hasStandings) out.push(entry(`/${c.sport}/${c.slug}/clasificacion`, now, 'daily', 0.7));
     if (c.stats === 'boxing') for (const v of veladas()) out.push(entry(`/combate/boxeo/velada/${v.slug}`, now, 'daily', 0.7));
     if (hasInjuryReport(c)) out.push(entry(`/${c.sport}/${c.slug}/lesionados`, now, 'daily', 0.6));
+    if (c.sport === 'baloncesto' && c.slug === 'nba') out.push(entry(`/${c.sport}/${c.slug}/salarios`, now, 'daily', 0.7));
     if (c.sport === 'futbol') { out.push(entry(`/${c.sport}/${c.slug}/alineaciones`, now, 'daily', 0.6)); out.push(entry(`/${c.sport}/${c.slug}/goleadores`, now, 'daily', 0.6)); }
     // Jornadas oficiales (snapshot SportAPI): una URL por jornada de resultados.
     const official = getSportapiSnapshot().competitions[c.slug];

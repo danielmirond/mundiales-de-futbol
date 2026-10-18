@@ -7,6 +7,9 @@ const COUNTRY: Record<string, string> = {
   Russia: 'Rusia', Ukraine: 'Ucrania', Belarus: 'Bielorrusia', Kazakhstan: 'Kazajistán', Georgia: 'Georgia', Turkey: 'Turquía', Türkiye: 'Turquía',
   USA: 'EE. UU.', 'United States': 'EE. UU.', Canada: 'Canadá', Mexico: 'México', Argentina: 'Argentina', Brazil: 'Brasil', Chile: 'Chile', Colombia: 'Colombia', Peru: 'Perú', Uruguay: 'Uruguay', Ecuador: 'Ecuador', Bolivia: 'Bolivia', Paraguay: 'Paraguay',
   Australia: 'Australia', 'New Zealand': 'Nueva Zelanda', Japan: 'Japón', China: 'China', 'South Korea': 'Corea del Sur', Korea: 'Corea del Sur', 'Chinese Taipei': 'Taiwán', Taiwan: 'Taiwán', India: 'India', Thailand: 'Tailandia', Singapore: 'Singapur',
+  Cameroon: 'Camerún', Nigeria: 'Nigeria', Senegal: 'Senegal', 'South Sudan': 'Sudán del Sur', Sudan: 'Sudán', 'Democratic Republic of Congo': 'R. D. del Congo', 'DR Congo': 'R. D. del Congo', Congo: 'Congo', Mali: 'Malí', Angola: 'Angola', 'Ivory Coast': 'Costa de Marfil', Ghana: 'Ghana',
+  Lithuania: 'Lituania', Latvia: 'Letonia', Estonia: 'Estonia', Slovenia: 'Eslovenia', 'Bosnia & Herzegovina': 'Bosnia y Herzegovina', 'Bosnia and Herzegovina': 'Bosnia y Herzegovina', Montenegro: 'Montenegro', 'North Macedonia': 'Macedonia del Norte', Ireland: 'Irlanda', Scotland: 'Escocia', Wales: 'Gales', Iceland: 'Islandia',
+  'Dominican Republic': 'República Dominicana', Bahamas: 'Bahamas', Jamaica: 'Jamaica', 'Puerto Rico': 'Puerto Rico', Venezuela: 'Venezuela', Cuba: 'Cuba', Panama: 'Panamá', Haiti: 'Haití', Philippines: 'Filipinas',
   'South Africa': 'Sudáfrica', Tunisia: 'Túnez', Morocco: 'Marruecos', Egypt: 'Egipto', Qatar: 'Catar', 'Saudi Arabia': 'Arabia Saudí', Bahrain: 'Baréin', 'United Arab Emirates': 'Emiratos Árabes', Azerbaijan: 'Azerbaiyán', Israel: 'Israel',
 };
 export const countryEs = (c?: string) => (c ? COUNTRY[c.trim()] ?? c : c);
