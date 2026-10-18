@@ -25,8 +25,9 @@ async function get(url: string, revalidate: number) {
 export async function fetchRaceWeekend(feed: { sport: string; league: string }): Promise<{ weekend: RaceWeekend | null; calendar: RaceCalendarEntry[] }> {
   const d = await get(`${SITE}/${feed.sport}/${feed.league}/scoreboard`, 600);
   const e = d?.events?.[0];
-  const calendar: RaceCalendarEntry[] = (d?.leagues?.[0]?.calendar ?? []).map((c: any) => ({ name: gpEs(String(c.label ?? '')), start: String(c.startDate ?? ''), end: String(c.endDate ?? '') })).filter((c: RaceCalendarEntry) => c.name);
+  const calendar: RaceCalendarEntry[] = (d?.leagues?.[0]?.calendar ?? []).map((c: any) => ({ name: gpEs(String(c.label ?? '')), start: String(c.startDate ?? ''), end: String(c.endDate ?? c.startDate ?? '') })).filter((c: RaceCalendarEntry) => c.name);
   if (!e) return { weekend: null, calendar };
+  // IndyCar no trae endDate (cada carrera es un solo día): sin él, el fin es el inicio.
   const venue = e.circuit ?? e.competitions?.[0]?.venue;
   const sessions: RaceSession[] = (e.competitions ?? []).map((c: any) => {
     const type = String(c.type?.abbreviation ?? '');
@@ -35,7 +36,7 @@ export async function fetchRaceWeekend(feed: { sport: string; league: string }):
     return { type, label: SESSION_ES[type] ?? type, date: String(c.date ?? ''), state: (c.status?.type?.state ?? 'pre') as RaceSession['state'], top };
   });
   return {
-    weekend: { name: gpEs(String(e.name ?? '')), start: String(e.date ?? ''), end: String(e.endDate ?? ''), circuit: venue?.fullName, city: venue?.address?.city, country: countryEs(venue?.address?.country), sessions },
+    weekend: { name: gpEs(String(e.name ?? '')), start: String(e.date ?? ''), end: String(e.endDate ?? e.date ?? ''), circuit: venue?.fullName, city: venue?.address?.city, country: countryEs(venue?.address?.country), sessions },
     calendar,
   };
 }
