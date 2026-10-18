@@ -43,6 +43,10 @@ jobs:
         env:
           CITO_API_KEY: ${{ secrets.CITO_API_KEY }}
         run: '[ -n "$CITO_API_KEY" ] && npx tsx scripts/ufc/snapshot.ts --budget 30 --monthly 450 || echo "UFC sin cambios"'
+      - name: Snapshot F1 (Jolpica, trayectoria de pilotos; solo lunes por la mañana)
+        if: ${{ github.event.schedule == '40 6 * * *' }}
+        timeout-minutes: 8
+        run: '[ "$(date -u +%u)" = 1 ] && npx tsx scripts/f1/snapshot.ts || echo "F1 sin cambios"'
       - name: Snapshot OpenACB (Liga Endesa, estadísticas semanales)
         run: npx tsx scripts/openacb/snapshot.ts || echo 'OpenACB sin cambios'
       - name: Generar piezas
@@ -55,10 +59,10 @@ jobs:
         if: ${{ github.event.inputs.dry != 'true' }}
         run: |
           set -e
-          if git diff --quiet src/lib/news.ts src/data/sportapi-snapshot.json src/data/openacb-snapshot.json src/data/ufc-snapshot.json; then echo "Sin cambios."; exit 0; fi
+          if git diff --quiet src/lib/news.ts src/data/sportapi-snapshot.json src/data/openacb-snapshot.json src/data/ufc-snapshot.json src/data/f1-pilotos.json; then echo "Sin cambios."; exit 0; fi
           git config user.name "daily-content-bot"
           git config user.email "daily-content-bot@users.noreply.github.com"
-          git add src/lib/news.ts src/data/sportapi-snapshot.json src/data/openacb-snapshot.json src/data/ufc-snapshot.json
+          git add src/lib/news.ts src/data/sportapi-snapshot.json src/data/openacb-snapshot.json src/data/ufc-snapshot.json src/data/f1-pilotos.json
           git commit -m "auto(contenidos): piezas del $(date -u +%F)"
           git push origin HEAD:main
       # Vercel no está conectado a Git: sin este paso las piezas no llegan a
