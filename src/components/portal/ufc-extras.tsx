@@ -1,16 +1,16 @@
 import Link from 'next/link';
-import { fetchUfcRankings, fetchUfcEvents } from '@/lib/cito-ufc';
+import { ufcRankings, ufcEventList, hasUfcFighter } from '@/lib/ufc-data';
 import { routing, type Locale } from '@/i18n/routing';
 
 const withLocale = (l: Locale, h: string) => (l === routing.defaultLocale ? h : `/${l}${h}`);
 const dayEs = new Intl.DateTimeFormat('es-ES', { timeZone: 'Europe/Madrid', day: 'numeric', month: 'short' });
 
 /** Bajo el hub de la UFC: campeones por división, veladas con resultados y acceso a rankings y fichas. Sin clave de Cito no pinta nada. */
-export async function UfcExtras({ locale }: { locale: Locale }) {
-  const [divs, events] = await Promise.all([fetchUfcRankings('media').then((d) => d ?? fetchUfcRankings('meta')), fetchUfcEvents()]);
-  if (!divs?.length && !events) return null;
-  const champs = (divs ?? []).map((d) => ({ div: d.name, f: d.rows.find((r) => r.champion) })).filter((x) => x.f);
-  const evs = [...(events?.upcoming ?? []).slice(0, 2), ...(events?.recent ?? []).slice(0, 4)];
+export function UfcExtras({ locale }: { locale: Locale }) {
+  const events = ufcEventList();
+  const champs = ufcRankings().map((d) => ({ div: d.name, f: d.rows.find((r) => r.champion) })).filter((x) => x.f);
+  const evs = [...events.upcoming.slice(0, 2), ...events.recent.slice(0, 4)];
+  if (!champs.length && !evs.length) return null;
   const link = 'text-[var(--color-fg)] hover:text-[var(--accent-ink)]';
   return (
     <section className="mx-auto grid w-full max-w-[1400px] gap-6 px-6 py-10 md:grid-cols-2 md:px-10">
@@ -22,7 +22,7 @@ export async function UfcExtras({ locale }: { locale: Locale }) {
             {champs.map(({ div, f }) => (
               <li key={div} className="flex justify-between gap-3 border-t border-[var(--color-border)] py-2 text-[14px]">
                 <span className="text-[var(--color-fg-muted)]">{div}</span>
-                <Link href={withLocale(locale, `/combate/ufc/luchador/${f!.slug}`)} className={`font-medium ${link}`}>{f!.name}</Link>
+                {hasUfcFighter(f!.slug) ? <Link href={withLocale(locale, `/combate/ufc/luchador/${f!.slug}`)} className={`font-medium ${link}`}>{f!.name}</Link> : <span className="font-medium text-[var(--color-fg)]">{f!.name}</span>}
               </li>
             ))}
           </ul>

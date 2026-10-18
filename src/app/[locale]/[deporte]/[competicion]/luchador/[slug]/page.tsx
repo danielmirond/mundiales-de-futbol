@@ -2,7 +2,8 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { setRequestLocale } from 'next-intl/server';
 import { ArrowLeft } from 'lucide-react';
-import { fetchUfcFighter } from '@/lib/cito-ufc';
+import { ufcFighter, hasUfcFighter, hasUfcEvent } from '@/lib/ufc-data';
+import type { UfcFight } from '@/lib/cito-ufc';
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl } from '@/lib/seo';
 
@@ -14,7 +15,9 @@ const withLocale = (l: Locale, h: string) => (l === routing.defaultLocale ? h : 
 const pct = (n?: number) => (typeof n === 'number' ? `${Math.round(n * 100)} %` : '–');
 const num = (n?: number) => (typeof n === 'number' ? n.toLocaleString('es-ES', { maximumFractionDigits: 2 }) : '–');
 const dateEs = new Intl.DateTimeFormat('es-ES', { timeZone: 'UTC', day: 'numeric', month: 'short', year: 'numeric' });
-const load = async (deporte: string, competicion: string, slug: string) => (deporte === 'combate' && competicion === 'ufc' ? fetchUfcFighter(slug) : null);
+const load = async (deporte: string, competicion: string, slug: string) => (deporte === 'combate' && competicion === 'ufc' ? ufcFighter(slug) ?? null : null);
+/** Próximo combate aún por disputar (la copia puede ir unos días por detrás). */
+const nextFight = (fights: UfcFight[], now = Date.now()) => fights.find((x) => x.upcoming && (!x.date || Date.parse(x.date) + 86_400_000 > now));
 
 export async function generateMetadata({ params }: { params: Params }) {
   const { locale, deporte, competicion, slug } = await params;
@@ -36,7 +39,7 @@ export default async function UfcFighterPage({ params }: { params: Params }) {
   const L = locale as Locale;
   const facts = [['División', f.division], ['Edad', f.age ? `${f.age} años` : undefined], ['Altura', f.heightCm ? `${f.heightCm} cm` : undefined], ['Alcance', f.reachCm ? `${f.reachCm} cm` : undefined], ['Guardia', f.stance], ['Nacido en', f.born], ['Entrena en', f.trainsAt]].filter(([, v]) => v) as [string, string][];
   const s = f.stats;
-  const next = f.fights.find((x) => x.upcoming);
+  const next = nextFight(f.fights);
   const past = f.fights.filter((x) => !x.upcoming);
   const rank = f.ranks.find((r) => r.system === 'media') ?? f.ranks[0];
   return (
@@ -52,7 +55,7 @@ export default async function UfcFighterPage({ params }: { params: Params }) {
         <p className="mt-3 font-display text-[44px] leading-none tab-num text-[var(--color-fg)]">{f.record}<span className="ml-3 font-mono text-[11px] uppercase tracking-[0.2em] text-[var(--color-fg-subtle)]">victorias · derrotas · empates</span></p>
       </header>
 
-      {next && (
+      {next && hasUfcEvent(next.eventSlug) && (
         <section className="mx-auto w-full max-w-[1400px] px-6 pt-8 md:px-10">
           <Link href={withLocale(L, `/combate/ufc/evento/${next.eventSlug}`)} className="block rounded-[18px] border border-[var(--accent)] bg-[var(--color-bg-2)] p-5 hover:bg-[color-mix(in_oklab,var(--accent)_8%,transparent)]">
             <div className="kicker">Próximo combate</div>
@@ -109,15 +112,15 @@ export default async function UfcFighterPage({ params }: { params: Params }) {
                 {past.map((x) => (
                   <tr key={x.eventSlug + x.opponent} className="border-t border-[var(--color-border)]">
                     <td className={`h-11 px-2 font-semibold ${x.outcome === 'win' ? 'text-[var(--color-win,#2e7d4f)]' : x.outcome === 'loss' ? 'text-[var(--color-live-ink)]' : 'text-[var(--color-fg-muted)]'}`}>{x.outcome === 'win' ? 'Victoria' : x.outcome === 'loss' ? 'Derrota' : x.outcome === 'draw' ? 'Empate' : '–'}{x.title ? <span className="ml-1.5 font-mono text-[9px] uppercase text-[var(--color-gold)]">título</span> : null}</td>
-                    <td className="h-11 px-2 text-[var(--color-fg)]">{x.opponentSlug ? <Link href={withLocale(L, `/combate/ufc/luchador/${x.opponentSlug}`)} className="hover:text-[var(--accent-ink)]">{x.opponent}</Link> : x.opponent}</td>
+                    <td className="h-11 px-2 text-[var(--color-fg)]">{hasUfcFighter(x.opponentSlug) ? <Link href={withLocale(L, `/combate/ufc/luchador/${x.opponentSlug}`)} className="hover:text-[var(--accent-ink)]">{x.opponent}</Link> : x.opponent}</td>
                     <td className="h-11 px-2 text-[var(--color-fg-muted)]">{x.method}{x.round ? ` · asalto ${x.round}${x.time ? ` (${x.time})` : ''}` : ''}</td>
-                    <td className="h-11 px-2 text-[var(--color-fg-muted)]"><Link href={withLocale(L, `/combate/ufc/evento/${x.eventSlug}`)} className="hover:text-[var(--accent-ink)]">{x.event}</Link>{x.date ? <span className="ml-1.5 font-mono text-[11px] text-[var(--color-fg-subtle)]">{dateEs.format(new Date(x.date))}</span> : null}</td>
+                    <td className="h-11 px-2 text-[var(--color-fg-muted)]">{hasUfcEvent(x.eventSlug) ? <Link href={withLocale(L, `/combate/ufc/evento/${x.eventSlug}`)} className="hover:text-[var(--accent-ink)]">{x.event}</Link> : x.event}{x.date ? <span className="ml-1.5 font-mono text-[11px] text-[var(--color-fg-subtle)]">{dateEs.format(new Date(x.date))}</span> : null}</td>
                   </tr>
                 ))}
               </tbody>
             </table>
           </div>
-          <p className="mt-3 font-mono text-[10px] uppercase tracking-[0.2em] text-[var(--color-fg-subtle)]">Datos: Cito API</p>
+          <p className="mt-3 font-mono text-[10px] uppercase tracking-[0.2em] text-[var(--color-fg-subtle)]">Datos: Cito API · actualizado cada pocos días</p>
         </section>
       )}
     </main>

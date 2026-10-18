@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { setRequestLocale } from 'next-intl/server';
 import { ArrowLeft } from 'lucide-react';
-import { fetchUfcRankings } from '@/lib/cito-ufc';
+import { ufcRankings, hasUfcFighter } from '@/lib/ufc-data';
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd, pageMetadata, breadcrumbLd } from '@/lib/seo';
 
@@ -34,8 +34,8 @@ function Change({ v }: { v?: string | null }) {
 export default async function UfcRankingsPage({ params }: { params: Params }) {
   const { locale, deporte, competicion } = await params;
   if (!isUfc(deporte, competicion)) notFound();
-  const divisions = (await fetchUfcRankings('media')) ?? (await fetchUfcRankings('meta'));
-  if (!divisions?.length) notFound();
+  const divisions = ufcRankings();
+  if (!divisions.length) notFound();
   setRequestLocale(locale);
   const L = locale as Locale;
   return (
@@ -58,7 +58,7 @@ export default async function UfcRankingsPage({ params }: { params: Params }) {
               {d.rows.map((r) => (
                 <li key={r.slug} className={`flex items-center gap-3 border-t border-[var(--color-border)] py-2 text-[14px] ${r.champion ? 'font-semibold' : ''}`}>
                   <span className={`w-7 shrink-0 font-mono text-[12px] tab-num ${r.champion ? 'text-[var(--color-gold)]' : 'text-[var(--color-fg-subtle)]'}`}>{r.champion ? 'C' : r.rankText}</span>
-                  <Link href={withLocale(L, `/combate/ufc/luchador/${r.slug}`)} className="min-w-0 flex-1 truncate text-[var(--color-fg)] hover:text-[var(--accent-ink)]">{r.name}</Link>
+                  {hasUfcFighter(r.slug) ? <Link href={withLocale(L, `/combate/ufc/luchador/${r.slug}`)} className="min-w-0 flex-1 truncate text-[var(--color-fg)] hover:text-[var(--accent-ink)]">{r.name}</Link> : <span className="min-w-0 flex-1 truncate text-[var(--color-fg)]">{r.name}</span>}
                   <Change v={r.change} />
                 </li>
               ))}

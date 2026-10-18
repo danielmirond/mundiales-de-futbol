@@ -2,7 +2,8 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { setRequestLocale } from 'next-intl/server';
 import { ArrowLeft } from 'lucide-react';
-import { fetchUfcEvent, type UfcBout, type UfcCorner, type UfcRoundRow } from '@/lib/cito-ufc';
+import type { UfcBout, UfcCorner, UfcRoundRow } from '@/lib/cito-ufc';
+import { ufcEvent, hasUfcFighter } from '@/lib/ufc-data';
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl } from '@/lib/seo';
 
@@ -11,7 +12,7 @@ export const dynamicParams = true;
 export async function generateStaticParams() { return []; }
 type Params = Promise<{ locale: string; deporte: string; competicion: string; slug: string }>;
 const withLocale = (l: Locale, h: string) => (l === routing.defaultLocale ? h : `/${l}${h}`);
-const load = async (deporte: string, competicion: string, slug: string) => (deporte === 'combate' && competicion === 'ufc' ? fetchUfcEvent(slug) : null);
+const load = async (deporte: string, competicion: string, slug: string) => (deporte === 'combate' && competicion === 'ufc' ? ufcEvent(slug) ?? null : null);
 const dayEs = new Intl.DateTimeFormat('es-ES', { timeZone: 'Europe/Madrid', weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
 const hourEs = new Intl.DateTimeFormat('es-ES', { timeZone: 'Europe/Madrid', hour: '2-digit', minute: '2-digit' });
 /** «9 of 37» → «9/37». */
@@ -39,7 +40,7 @@ function Corner({ c, L, right }: { c: UfcCorner; L: Locale; right?: boolean }) {
   const won = c.outcome === 'win';
   return (
     <div className={`min-w-0 ${right ? 'text-right' : ''}`}>
-      <Link href={withLocale(L, `/combate/ufc/luchador/${c.slug}`)} className={`block truncate text-[15px] hover:text-[var(--accent-ink)] ${won ? 'font-semibold text-[var(--color-fg)]' : 'text-[var(--color-fg-muted)]'}`}>{c.name}</Link>
+      {hasUfcFighter(c.slug) ? <Link href={withLocale(L, `/combate/ufc/luchador/${c.slug}`)} className={`block truncate text-[15px] hover:text-[var(--accent-ink)] ${won ? 'font-semibold text-[var(--color-fg)]' : 'text-[var(--color-fg-muted)]'}`}>{c.name}</Link> : <span className={`block truncate text-[15px] ${won ? 'font-semibold text-[var(--color-fg)]' : 'text-[var(--color-fg-muted)]'}`}>{c.name}</span>}
       <div className="font-mono text-[11px] text-[var(--color-fg-subtle)]">{c.record}{won ? <span className="ml-1.5 uppercase text-[var(--color-win,#2e7d4f)]">gana</span> : null}</div>
     </div>
   );

@@ -1,9 +1,9 @@
 /**
  * UFC desde Cito API (citoapi.com): rankings por división, fichas de luchador con
  * estadísticas e historial, y veladas con estadísticas por asalto.
- * Clave en `CITO_API_KEY`. Sin clave, todo devuelve null y las páginas no se pintan.
+ * Clave en `CITO_API_KEY`. Solo la usa `scripts/ufc/snapshot.ts`: la web lee la copia (`ufc-data.ts`).
  * Las imágenes que sirve la API son de ufc.com: no se usan (derechos).
- * Caché larga para no gastar consultas: rankings 6 h, fichas 24 h, veladas 1 h (24 h si han acabado).
+ * Cuota gratuita: 500 consultas al mes y 10 por minuto.
  */
 
 const BASE = 'https://api.citoapi.com/api/v1/ufc';
