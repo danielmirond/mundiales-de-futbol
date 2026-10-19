@@ -165,9 +165,9 @@ export const NEWS_ITEMS: NewsItem[] = [
 
 | Competición | Dónde se ve | Plan más barato con todo |
 | --- | --- | --- |
-| LaLiga EA Sports | [Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Ffutbol) (5 partidos por jornada) y [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) (otros 5) | Hacen falta los dos, o el paquete Fútbol Total de Movistar |
+| LaLiga EA Sports | [Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol) (5 partidos por jornada) y [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) (otros 5) | Hacen falta los dos, o el paquete Fútbol Total de Movistar |
 | LaLiga Hypermotion | Movistar, DAZN, Orange y otros operadores | Movistar Plus+ Libre, 9,99 €/mes |
-| Champions, Europa y Conference League | [Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Ffutbol) en exclusiva | Paquete Champions, 24 €/mes (con Movistar Plus+) |
+| Champions, Europa y Conference League | [Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol) en exclusiva | Paquete Champions, 24 €/mes (con Movistar Plus+) |
 | Copa del Rey y Supercopa | Movistar Plus+ y RTVE | Paquete LaLiga de Movistar, 36 €/mes |
 | Premier League, Serie A y Bundesliga | [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) | DAZN Fútbol, desde 19,99 €/mes |
 | Liga F | [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome), con 4 partidos en abierto en TVE y TV3 | DAZN Fútbol |
@@ -186,7 +186,7 @@ export const NEWS_ITEMS: NewsItem[] = [
 
 Es el reparto que más confunde. En 35 de las 38 jornadas, Movistar Plus+ emite cinco partidos y DAZN los otros cinco; las tres jornadas restantes son exclusivas de Movistar, [según el análisis de la OCU](https://www.ocu.org/tecnologia/internet-telefonia/noticias/donde-ver-futbol). Para no perderse ninguno hay dos caminos:
 
-- **Movistar Plus+ con el paquete LaLiga** (36 €/mes, más Movistar Plus+ a 14 €/mes) o **Fútbol Total** (50 €/mes). Se contratan con fibra y móvil de Movistar e incluyen los canales de DAZN, así que con ellos se ve la jornada completa. [Ver la oferta de Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Ffutbol).
+- **Movistar Plus+ con el paquete LaLiga** (36 €/mes, más Movistar Plus+ a 14 €/mes) o **Fútbol Total** (50 €/mes). Se contratan con fibra y móvil de Movistar e incluyen los canales de DAZN, así que con ellos se ve la jornada completa. [Ver la oferta de Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol).
 - **[DAZN Fútbol](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome)** cubre solo la mitad de cada jornada. Cuesta 19,99 €/mes con permanencia de un año, 29,99 €/mes sin permanencia o 219,99 € de una vez, [según Kelisto](https://www.kelisto.es/internet/consejos-y-analisis/futbol-dazn).
 
 DAZN da gratis un partido por jornada a quien se registre, y Movistar Plus+ Libre (9,99 €/mes, sin permanencia) y Orange TV Libre (7,99 €/mes) incluyen uno por jornada. El **Clásico del domingo 25 de octubre**, Barcelona - Real Madrid a las 21:00, va en DAZN: la plataforma tiene una oferta de [9,99 €/mes durante 12 meses](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) válida hasta ese mismo día. El horario y el canal de cada partido están en el [calendario de LaLiga](/futbol/laliga/calendario).
@@ -197,11 +197,11 @@ La Segunda División completa está en Movistar (también en Movistar Plus+ Libr
 
 ### Copa del Rey y Supercopa
 
-La Copa se reparte entre [Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Ffutbol), con al menos 55 partidos en exclusiva por temporada, y RTVE, que renovó sus derechos hasta 2026-27; las semifinales van a la vez en los dos. El paquete LaLiga de Movistar incluye la Copa y la Supercopa, y Movistar Plus+ Libre incluye las Supercopas. Los cruces, en la [Copa del Rey](/futbol/copa-del-rey).
+La Copa se reparte entre [Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol), con al menos 55 partidos en exclusiva por temporada, y RTVE, que renovó sus derechos hasta 2026-27; las semifinales van a la vez en los dos. El paquete LaLiga de Movistar incluye la Copa y la Supercopa, y Movistar Plus+ Libre incluye las Supercopas. Los cruces, en la [Copa del Rey](/futbol/copa-del-rey).
 
 ### Champions, Europa League y Conference League
 
-Las tres competiciones europeas son exclusivas de [Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Ffutbol): el paquete Champions (24 €/mes) las incluye todas, y Fútbol Total (50 €/mes) suma además LaLiga, la Copa y la Supercopa. Movistar Plus+ Libre ofrece un partido de Champions y otro de Europa League por jornada; Orange TV Libre, uno de Champions. La final del 5 de junio de 2027 en el Metropolitano se podrá ver en abierto en La 1. Cuadro y partidos, en la [Champions League](/futbol/champions-league), la [Europa League](/futbol/europa-league) y la [Conference League](/futbol/conference-league).
+Las tres competiciones europeas son exclusivas de [Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol): el paquete Champions (24 €/mes) las incluye todas, y Fútbol Total (50 €/mes) suma además LaLiga, la Copa y la Supercopa. Movistar Plus+ Libre ofrece un partido de Champions y otro de Europa League por jornada; Orange TV Libre, uno de Champions. La final del 5 de junio de 2027 en el Metropolitano se podrá ver en abierto en La 1. Cuadro y partidos, en la [Champions League](/futbol/champions-league), la [Europa League](/futbol/europa-league) y la [Conference League](/futbol/conference-league).
 
 ### Premier League, Serie A y Bundesliga
 
