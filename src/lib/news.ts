@@ -154,6 +154,69 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'nba-2026-27-donde-ver-espana-dazn-prime-video-estreno-hugo-gonzalez-aldama',
+    title: 'NBA 2026-27 en España: dónde ver la temporada que estrenan Hugo González y los Celtics',
+    summary: 'La NBA 2026-27 arranca el martes 20 de octubre con los Celtics de Hugo González a las 21:00. Qué plataformas la emiten en España, cuánto cuestan y las fechas clave del curso.',
+    body: `La NBA arranca este martes 20 de octubre y el primer partido de la temporada lleva acento español: los Boston Celtics de **Hugo González** visitan a los Detroit Pistons a las 21:00, hora peninsular. Es de los pocos estrenos en horario europeo; los otros dos partidos de la noche se juegan de madrugada.
+
+## Dónde ver la NBA en España esta temporada
+
+Movistar Plus+, que la emitió durante más de dos décadas, ya no es el emisor. Este curso la NBA se reparte entre dos plataformas, [según el desglose de partidos de Blog de Basket](https://www.blogdebasket.com/en/2026/10/08/change-of-direction-these-will-be-the-nba-games-broadcast-on-dazn-and-prime-video-in):
+
+| Plataforma | Qué tiene | Precio |
+| --- | --- | --- |
+| DAZN | La selección principal de temporada regular, el día de Navidad, el MLK Day, una final de conferencia y las Finales en exclusiva | Plan Baloncesto, 9,99 €/mes; plan Made in USA, 4,99 €/mes |
+| Prime Video | Unos 60 partidos, casi todos en la madrugada del viernes al sábado, más la NBA Cup, el Play-In y los playoffs | Incluido en Amazon Prime (4,99 €/mes) |
+| NBA League Pass | Todos los partidos, en directo y a la carta | Desde 15,99 €/mes |
+
+Los precios son los que recoge la [guía de Gigantes](https://www.gigantes.com/nba/donde-ver-nba-espana-tv-streaming-prime-video-dazn/); el acuerdo de DAZN es por tres temporadas. Partido a partido, el canal de cada encuentro aparece en el [calendario de la NBA](/baloncesto/nba/calendario) de esta web, con la hora española.
+
+## La noche del estreno
+
+| Partido | Hora en España | Dónde |
+| --- | --- | --- |
+| Pistons - Celtics | Martes 20, 21:00 | DAZN |
+| Knicks - 76ers | Miércoles 21, 1:00 | DAZN |
+| Spurs - Thunder | Miércoles 21, 3:30 | DAZN |
+
+DAZN programa el primer partido desde las 20:30. Los horarios son los de la [programación oficial de la NBA](https://www.nba.com/news/key-dates), pasados a hora peninsular.
+
+## Los españoles
+
+Son dos. **Hugo González** empieza su segunda temporada en los Celtics y juega dos veces en la primera semana: el estreno del martes y el Celtics - Knicks de la madrugada del viernes al sábado, a la 1:00, que va en Prime Video. **Santi Aldama**, ahora en los Mavericks, debuta el jueves 22 a las 2:30 en Houston.
+
+A los Celtics les tocan diez partidos que empiezan entre las 12:00 y la medianoche en España, el más señalado el de Navidad contra los Heat, a las 20:30. Los Mavericks tienen seis, casi todos en febrero. Los sueldos de los dos están en la [página de salarios de la NBA](/baloncesto/nba/salarios).
+
+## Las fechas que marcan el curso
+
+| Fecha | Qué pasa |
+| --- | --- |
+| 30 de octubre | Empieza la fase de grupos de la NBA Cup |
+| 11 de diciembre | Final de la NBA Cup, en Indianápolis |
+| 25 de diciembre | Cinco partidos de Navidad, de 18:00 a 4:30 en España |
+| 11 de febrero | Cierre del mercado de traspasos |
+| 19 al 21 de febrero | Fin de semana del All-Star, en Phoenix |
+| 11 de abril | Último día de temporada regular |
+| 13 de abril | Empieza el Play-In |
+| 17 de abril | Empiezan los playoffs |
+| Junio | Finales, en exclusiva en DAZN |
+
+Todo lo demás, día a día, en la sección de la [NBA](/baloncesto/nba).`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'NBA', sport: 'baloncesto', slug: 'nba' },
+    sourceName: 'Blog de Basket',
+    sourceUrl: 'https://www.blogdebasket.com/en/2026/10/08/change-of-direction-these-will-be-the-nba-games-broadcast-on-dazn-and-prime-video-in',
+    sourceLang: 'en',
+    publishedAt: '2026-10-19T19:25:00+02:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'NBA: fechas clave 2026-27', url: 'https://www.nba.com/news/key-dates' },
+      { name: 'Gigantes: dónde ver la NBA en España', url: 'https://www.gigantes.com/nba/donde-ver-nba-espana-tv-streaming-prime-video-dazn/' },
+      { name: 'NBC New York: fechas clave', url: 'https://www.nbcnewyork.com/nba/nba-key-dates-2026-27-opening-night-trade-deadline-finals/6535379/' },
+    ],
+  },
+  {
     slug: 'aitana-bonmati-tres-balones-de-oro-fuera-nominadas-2026-fractura',
     title: 'Aitana Bonmatí, la única con tres Balones de Oro, se queda fuera de las 30 tras romperse la pierna',
     summary: 'Aitana Bonmatí ganó el Balón de Oro en 2023, 2024 y 2025, pero una fractura en noviembre la dejó cinco meses fuera. Seis españolas optan al premio el 26 de octubre en Londres.',
