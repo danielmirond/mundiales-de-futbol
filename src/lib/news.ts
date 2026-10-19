@@ -154,6 +154,171 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'malaga-sin-ganar-primera-desde-2018-real-sociedad-colista-nueve-jornadas',
+    title: 'Málaga no gana en Primera desde que venció al rival que le acaba de golear en La Rosaleda',
+    summary: 'El Málaga es colista con 4 puntos y ninguna victoria en nueve jornadas. La última vez que ganó en Primera fue el 22 de abril de 2018, 2-0 a la Real Sociedad, que el domingo le metió cinco.',
+    body: `El Málaga no gana un partido de Primera División desde el 22 de abril de 2018. Aquel día venció 2-0 a la Real Sociedad en La Rosaleda, con el descenso ya consumado. Ocho años y medio después, de vuelta en la categoría, la Real Sociedad volvió a La Rosaleda el domingo y ganó 2-5.
+
+Es la novena jornada sin victoria. El Málaga es último de LaLiga con 4 puntos de 27 posibles, [recoge la agencia EFE](https://www.infobae.com/espana/agencias/2026/10/18/la-aficion-del-malaga-se-impacienta-tras-nueve-jornadas-sin-ganar/), que lo sitúa entre los peores inicios de su historia en la máxima categoría.
+
+## Los nueve partidos
+
+| Fecha | Partido | Resultado |
+| --- | --- | --- |
+| 19 de agosto | Atlético - Málaga | 2-0 |
+| 24 de agosto | Málaga - Deportivo | 1-1 |
+| 30 de agosto | Real Madrid - Málaga | 4-0 |
+| 6 de septiembre | Málaga - Levante | 0-0 |
+| 13 de septiembre | Celta - Málaga | 1-1 |
+| 17 de septiembre | Málaga - Villarreal | 1-3 |
+| 20 de septiembre | Getafe - Málaga | 1-0 |
+| 9 de octubre | Málaga - Espanyol | 1-1 |
+| 18 de octubre | Málaga - Real Sociedad | 2-5 |
+
+Cuatro empates y cinco derrotas, con 6 goles a favor y 18 en contra, según el [calendario del Málaga en ESPN](https://www.espn.com/soccer/team/results/_/id/99). En casa no ha ganado ninguno de sus cinco partidos.
+
+## El peor de los tres que subieron
+
+Los tres recién ascendidos llegaron a Primera por caminos distintos y van por caminos distintos:
+
+- **Racing**, campeón de Segunda con 82 puntos: 16.º con 8 puntos.
+- **Deportivo**, segundo con 77: 9.º con 11 puntos.
+- **Málaga**, cuarto con 73 y ascendido por el playoff, tras ganar al Las Palmas y al Almería: 20.º con 4.
+
+Es el único de los tres que no ha ganado todavía. Los datos de Segunda salen de la [clasificación de 2025-26 en ESPN](https://www.espn.com/soccer/standings/_/league/ESP.2/season/2025) y los de esta temporada, de la [clasificación de LaLiga](/futbol/laliga).
+
+## La grada apunta al despacho
+
+El domingo hubo pitos durante el partido. Al final, parte de la grada pidió la dimisión del director deportivo, Loren Juarros, y preguntó por los fichajes, según EFE y [El Desmarque](https://www.eldesmarque.com/futbol/liga-1a-division/20261019/aficion-malaga-cf-pide-dimision-loren-juarros-fichajes_18_020468912.html). El entrenador, Juanfran Funes, defendió a su plantilla en la sala de prensa: su confianza en el proyecto, dijo, «está intacta».
+
+## Dos salidas en cinco días
+
+El décimo intento es el viernes 23 de octubre a las 21:00 en Mendizorrotza, contra el Alavés, 7.º. Se emite en DAZN LaLiga, según la [ficha del Alavés - Málaga](/futbol/laliga/partido/401882836).
+
+El martes 27 debuta en la Copa del Rey en el campo de un equipo regional, el EMERS Sporting de Alcázar, en el Manuel Delgado Meco de Alcázar de San Juan, [según la prensa local](https://alcazardesanjuan.com/la-rfef-aprueba-el-estadio-manuel-delgado-meco-para-el-encuentro-del-malaga-cf-en-la-copa-del-rey/). La primera ronda completa está en la sección de [Copa del Rey](/futbol/copa-del-rey).`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'LaLiga', sport: 'futbol', slug: 'laliga' },
+    sourceName: 'EFE (vía Infobae)',
+    sourceUrl: 'https://www.infobae.com/espana/agencias/2026/10/18/la-aficion-del-malaga-se-impacienta-tras-nueve-jornadas-sin-ganar/',
+    sourceLang: 'es',
+    publishedAt: '2026-10-19T13:34:00+02:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Estadio_La_Rosaleda_from_the_northeast_%28M%C3%A1laga%2C_May_2024%29.jpg/1280px-Estadio_La_Rosaleda_from_the_northeast_%28M%C3%A1laga%2C_May_2024%29.jpg',
+      alt: 'La Rosaleda vista desde la otra orilla del Guadalmedina, con hierba alta delante, un muro azul con las palabras «Memoria, compromiso y fe» y un rascacielos a la izquierda',
+      credit: 'Alan Grant · Wikimedia Commons',
+      license: 'CC BY 4.0',
+    },
+    sourcesSecondary: [
+      { name: 'ESPN: resultados del Málaga', url: 'https://www.espn.com/soccer/team/results/_/id/99' },
+      { name: 'ESPN: clasificación de Segunda 2025-26', url: 'https://www.espn.com/soccer/standings/_/league/ESP.2/season/2025' },
+      { name: 'El Desmarque', url: 'https://www.eldesmarque.com/futbol/liga-1a-division/20261019/aficion-malaga-cf-pide-dimision-loren-juarros-fichajes_18_020468912.html' },
+      { name: 'Futeros', url: 'https://futeros.com/malaga-2-5-real-sociedad-manotazo-de-realidad-al-intento-de-insurgencia-malaguista/' },
+    ],
+  },
+  {
+    slug: 'jude-law-bill-shankly-serie-liverpool-jack-thorne-a24-tom-werner',
+    title: 'Jude Law será Bill Shankly en una serie que ya ha perdido a A24 y todavía busca cadena',
+    summary: 'Jude Law interpretará a Bill Shankly en la serie sobre el Liverpool que escribe Jack Thorne, guionista de «Adolescence». A24 ya no está en el proyecto y Tom Werner negocia con cadenas.',
+    body: `Jude Law será Bill Shankly, el entrenador que sacó al Liverpool de Segunda División y lo convirtió en campeón de Inglaterra. Lo adelantó [Deadline el viernes 16 de octubre](https://www.yahoo.com/entertainment/tv/articles/jude-law-set-play-legendary-181730687.html), como exclusiva: el actor está en camino de firmar, no hay anuncio oficial.
+
+La serie se presentó en diciembre de 2024 como un proyecto del estudio A24 con Box To Box, la productora de «Drive to Survive». Deadline publica ahora que A24 ya no participa. Tampoco hay cadena ni plataforma: el equipo de Tom Werner, presidente del Liverpool desde 2010 y productor de la serie, ha empezado a negociar con cadenas y servicios de streaming.
+
+## Quién la escribe
+
+Jack Thorne, guionista de «Adolescence» y aficionado del Liverpool, ha escrito los dos primeros episodios. Cuando el club [anunció la serie en su web](https://www.liverpoolfc.com/news/lfc-and-studio-a24-team-bill-shankly-inspired-drama-series), Thorne resumió la idea en una frase: «el club pertenece a la ciudad y la ciudad pertenece al club».
+
+En el proyecto está también Karen Gill, nieta de Shankly y autora de «The Real Bill Shankly», para cuidar la fidelidad histórica. Se rodará en Liverpool y en Anfield. Law es, por ahora, el único nombre del reparto.
+
+## Lo que contará
+
+| Etapa | Qué pasó |
+| --- | --- |
+| Diciembre de 1959 | Shankly llega a un Liverpool de Segunda División |
+| 1959-1974 | Tres ligas de Primera, dos FA Cup y una Copa de la UEFA |
+| 1974 | Deja el cargo tras ganar la FA Cup |
+| 1981 | Muere a los 68 años |
+
+El palmarés es el que recogen el club y Deadline. A Shankly se le atribuye además haber hecho de «You'll Never Walk Alone» el himno del club.
+
+Werner compara la ambición del proyecto con «The Crown». Si hay más temporadas, una llegaría hasta la tragedia de Hillsborough de 1989, en la que murieron 97 personas, según [Screen Rant](https://screenrant.com/a24-liverpool-fc-series-ted-lasso-the-crown-replacement-jude-law-cast/).
+
+## Por qué el cambio de estudio importa
+
+Sin A24, la serie pierde al socio que la presentó y que la iba a desarrollar. Box To Box sigue sin constar como baja. Mientras Werner no cierre cadena, no hay fecha de rodaje ni de estreno.
+
+Lo que sí hay es una diferencia de casi dos años entre el anuncio y el primer nombre del reparto. Del Liverpool actual, su clasificación y sus partidos están en la [Premier League](/futbol/premier-league). Y si te interesan las historias de leyendas fuera del campo, está la de [Muhammad Ali y su campo de Deer Lake](/noticias/muhammad-ali-fighters-heaven-deer-lake-mike-madden-diez-anos).`,
+    category: 'curiosa',
+    kind: 'noticia',
+    competition: { name: 'Premier League', sport: 'futbol', slug: 'premier-league' },
+    sourceName: 'Deadline (vía Yahoo)',
+    sourceUrl: 'https://www.yahoo.com/entertainment/tv/articles/jude-law-set-play-legendary-181730687.html',
+    sourceLang: 'en',
+    publishedAt: '2026-10-19T13:31:00+02:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Jude_Law-67896_%28cropped%29.jpg/1280px-Jude_Law-67896_%28cropped%29.jpg',
+      alt: 'Jude Law, con esmoquin negro y un pañuelo de seda anudado al cuello, sonríe levemente ante un fondo oscuro y desenfocado',
+      credit: 'Harald Krichel · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+    sourcesSecondary: [
+      { name: 'Liverpool FC', url: 'https://www.liverpoolfc.com/news/lfc-and-studio-a24-team-bill-shankly-inspired-drama-series' },
+      { name: 'Screen Rant', url: 'https://screenrant.com/a24-liverpool-fc-series-ted-lasso-the-crown-replacement-jude-law-cast/' },
+      { name: 'Broadcast', url: 'https://broadcastnow.co.uk/broadcast-international/a24-box-to-box-and-jack-thorne-prep-liverpool-fc-drama/5200229.article' },
+      { name: 'Wikipedia (inglés): Bill Shankly', url: 'https://en.wikipedia.org/wiki/Bill_Shankly' },
+    ],
+  },
+  {
+    slug: 'ue-tavernes-local-mestalla-valencia-visitante-copa-del-rey-28-octubre',
+    title: 'UE Tavernes jugará de local en Mestalla y el Valencia será visitante en su propio estadio',
+    summary: 'El UE Tavernes, de regional y fundado en 1940, recibirá al Valencia en Copa el 28 de octubre a las 21:00 en Mestalla: su campo de unos 2.000 sitios no tiene la luz que pide la RFEF.',
+    body: `El Valencia jugará la primera ronda de la Copa del Rey en Mestalla, pero como visitante. El local será el UE Tavernes, un club de la comarca de la Safor que juega en categoría regional. El partido es el miércoles 28 de octubre a las 21:00.
+
+La RFEF no autorizó el campo municipal de Tavernes de la Valldigna, con capacidad para unas 2.000 personas. El problema principal es la iluminación: habría que multiplicarla por tres para cumplir lo que exige la federación, explicó el presidente, Salva Talens, [a Esdiario](https://www.esdiario.com/deportes/261014/200236/tavernes-cumple-sueno-jugara-valencia-mestalla.html). Los dos clubes acordaron entonces jugar en Mestalla, a unos 55 kilómetros del pueblo.
+
+## Cómo llega un club de regional a la Copa
+
+En la primera ronda de esta Copa hay 56 eliminatorias a partido único entre el 27 y el 29 de octubre, y se juegan en el campo del equipo de menor categoría, según el [sorteo celebrado el 5 de octubre](https://www.infobae.com/espana/agencias/2026/10/05/emparejamientos-de-la-primera-ronda-de-la-copa-del-rey/) en Las Rozas.
+
+El Tavernes, fundado en 1940, se ganó la plaza al conquistar la Nostra Copa el 4 de mayo. Después pasó la ronda previa en los penaltis ante la UD Maracena, [según Deportevalenciano](https://www.deportevalenciano.com/2026/10/14/ue-tavernes-jugara-mestalla-valencia-cf-copa-rey). Y el sorteo le dio el rival más grande de su provincia.
+
+## Lo que espera el club
+
+- **Público:** el presidente confía en llevar entre 10.000 y 14.000 aficionados de la Safor. El vicepresidente, Toni Hernández, habla de 15.000 o 20.000 como una cifra que para ellos sería enorme.
+- **Entradas:** precios populares, todavía por anunciar, que el club pacta con el Valencia.
+- **Socios:** viajarán, «teóricamente, con gastos pagados», en palabras de Talens.
+
+## Un Valencia que llega 19.º
+
+El rival no atraviesa su mejor momento. El Valencia es 19.º de LaLiga con 6 puntos en nueve jornadas: una victoria, tres empates y cinco derrotas. Ha marcado 6 goles; solo el Getafe ha marcado menos. Los datos son de ESPN y se pueden seguir en la [clasificación de LaLiga](/futbol/laliga).
+
+Es además, según Esdiario, la última temporada del Valencia en Mestalla antes de mudarse a su nuevo estadio. El Tavernes jugará como local en el viejo campo en el año de su despedida.
+
+No es el único cambio de sede de la ronda. El Sporting de Hortaleza recibirá al Sevilla el jueves 29 en El Val de Alcalá de Henares, [informó COPE](https://www.cope.es/programas/tiempo-de-juego/noticias/partidos-copa-rey-valencia-sevilla-cambian-sede-20261015_3456393.html). Otro equipo de regional, el Atlético Calatayud, [monta gradas portátiles para recibir a Osasuna](/noticias/atletico-calatayud-osasuna-copa-del-rey-gradas-portatiles-san-inigo-entradas). Todo el torneo, en la sección de [Copa del Rey](/futbol/copa-del-rey).`,
+    category: 'curiosa',
+    kind: 'noticia',
+    competition: { name: 'Copa del Rey', sport: 'futbol', slug: 'copa-del-rey' },
+    sourceName: 'Esdiario',
+    sourceUrl: 'https://www.esdiario.com/deportes/261014/200236/tavernes-cumple-sueno-jugara-valencia-mestalla.html',
+    sourceLang: 'es',
+    publishedAt: '2026-10-19T13:28:00+02:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Mestalla_antes_del_partido_Valencia-Barcelona_LaLiga_2023-2024.jpg/1280px-Mestalla_antes_del_partido_Valencia-Barcelona_LaLiga_2023-2024.jpg',
+      alt: 'Mestalla de noche y con los focos encendidos, con las gradas naranjas y negras casi vacías y unas pocas personas sobre el césped antes de un partido',
+      credit: 'Anidae · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+    sourcesSecondary: [
+      { name: 'Deportevalenciano', url: 'https://www.deportevalenciano.com/2026/10/14/ue-tavernes-jugara-mestalla-valencia-cf-copa-rey' },
+      { name: 'COPE', url: 'https://www.cope.es/programas/tiempo-de-juego/noticias/partidos-copa-rey-valencia-sevilla-cambian-sede-20261015_3456393.html' },
+      { name: 'Infobae (Europa Press): sorteo de la primera ronda', url: 'https://www.infobae.com/espana/agencias/2026/10/05/emparejamientos-de-la-primera-ronda-de-la-copa-del-rey/' },
+      { name: 'ESPN: clasificación de LaLiga', url: 'https://www.espn.com/soccer/standings/_/league/ESP.1' },
+    ],
+  },
+  {
     slug: 'getafe-rayo-tottenham-coventry-lunes-19-octubre-horarios-donde-ver',
     title: 'Getafe - Rayo y un Tottenham colista sin ganar: horarios y dónde ver el fútbol del lunes',
     summary: 'Getafe - Rayo cierra la jornada de LaLiga a las 21:00 en DAZN LaLiga. A la misma hora, el Tottenham, último de la Premier y aún sin victorias, recibe al Coventry en DAZN 1.',
