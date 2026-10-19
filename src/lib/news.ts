@@ -154,6 +154,192 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'getafe-rayo-tottenham-coventry-lunes-19-octubre-horarios-donde-ver',
+    title: 'Getafe - Rayo y un Tottenham colista sin ganar: horarios y dónde ver el fútbol del lunes',
+    summary: 'Getafe - Rayo cierra la jornada de LaLiga a las 21:00 en DAZN LaLiga. A la misma hora, el Tottenham, último de la Premier y aún sin victorias, recibe al Coventry en DAZN 1.',
+    body: `Getafe y Rayo Vallecano cierran la novena jornada de LaLiga este lunes a las 21:00 (20:00 en Canarias) en el Coliseum. Se emite en DAZN LaLiga, según la [ficha del partido](/futbol/laliga/partido/401882842).
+
+A la misma hora, el Tottenham juega en casa contra el Coventry. Llega último de la Premier League y es el único equipo de la categoría que todavía no ha ganado. Va por DAZN 1.
+
+## Horarios y canales del lunes 19 de octubre
+
+| Partido | Competición | Hora peninsular | Canarias | Canal |
+| --- | --- | --- | --- | --- |
+| Monza - Cagliari | Serie A | 18:30 | 17:30 | DAZN |
+| Celta Fortuna - Tenerife | LaLiga Hypermotion | 20:30 | 19:30 | Por confirmar |
+| Parma - Torino | Serie A | 20:45 | 19:45 | DAZN |
+| Getafe - Rayo Vallecano | LaLiga | 21:00 | 20:00 | DAZN LaLiga |
+| Tottenham - Coventry | Premier League | 21:00 | 20:00 | DAZN 1 |
+| Braga - Gil Vicente | Liga portuguesa | 21:15 | 20:15 | Por confirmar |
+
+Horas y estadios, del [calendario de ESPN](https://www.espn.com/soccer/scoreboard/_/date/20261019). Los canales salen de las fichas de cada partido en esta web; donde pone «por confirmar» no hay emisión anunciada todavía.
+
+## Getafe y Rayo, empatados a 8 puntos
+
+Los dos llegan con 8 puntos. El Getafe es 15.º tras ocho jornadas; el Rayo, 14.º, con un partido menos. Lo que los separa está en las porterías:
+
+- El Getafe ha marcado 4 goles en ocho partidos. Es el equipo que menos ha marcado de LaLiga; Valencia y Málaga, los siguientes, llevan 6.
+- El Rayo ha marcado 11, pero ha encajado 16. Solo Racing, Málaga, Osasuna, Elche y Real Sociedad han recibido más.
+
+El Getafe busca remedio fuera: su presidente, Ángel Torres, contó en COPE que le han hecho [«una última oferta»](https://www.cope.es/programas/el-partidazo-de-cope/audios/angel-torres-confirma-ofertas-jadon-sancho-dani-parejo-negociando-debemos-paciencia-cerrar-llegadas-20261015_3456679.html) a Jadon Sancho, que está sin equipo desde que terminó su contrato con el Manchester United.
+
+Quien gane se pone con 11 puntos, los mismos que tienen ahora el Alavés, 7.º, y el Osasuna, 10.º. La tabla completa, en la [clasificación de LaLiga](/futbol/laliga), con datos de la [clasificación de ESPN](https://www.espn.com/soccer/standings/_/league/ESP.1).
+
+## Tottenham, seis jornadas sin ganar
+
+El Tottenham suma 3 puntos de 18 posibles: tres empates y tres derrotas. Ha marcado 3 goles en seis partidos, menos que nadie en la Premier, según la [clasificación de la Premier en ESPN](https://www.espn.com/soccer/standings/_/league/ENG.1).
+
+El Coventry, recién llegado a la categoría, es 16.º con 6 puntos. Ha perdido cuatro de sus seis partidos, entre ellos contra Manchester City, Brighton y Aston Villa, pero llega de ganar los dos últimos: 0-1 en el campo del Nottingham Forest y 4-1 al Newcastle.
+
+Una victoria sacaría al Tottenham del último puesto: con 6 puntos dejaría por debajo al Sunderland (4), al Nottingham Forest y al Fulham (5) e igualaría al Coventry. El resto de la tabla está en la [clasificación de la Premier League](/futbol/premier-league).
+
+## El filial del Celta, en Balaídos
+
+En Segunda, el Celta Fortuna, el filial del Celta, recibe al Tenerife a las 20:30 en Balaídos, el estadio del primer equipo. La ficha del partido aún no tiene canal asignado. Todos los partidos del día están en [partidos de hoy](/partidos-hoy).`,
+    category: 'tv',
+    kind: 'noticia',
+    competition: { name: 'LaLiga', sport: 'futbol', slug: 'laliga' },
+    sourceName: 'ESPN',
+    sourceUrl: 'https://www.espn.com/soccer/match/_/gameId/401882842',
+    sourceLang: 'en',
+    publishedAt: '2026-10-19T13:24:00+02:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'ESPN: Tottenham - Coventry', url: 'https://www.espn.com/soccer/match/_/gameId/401879257' },
+      { name: 'COPE: Ángel Torres sobre Sancho', url: 'https://www.cope.es/programas/el-partidazo-de-cope/audios/angel-torres-confirma-ofertas-jadon-sancho-dani-parejo-negociando-debemos-paciencia-cerrar-llegadas-20261015_3456679.html' },
+      { name: 'ESPN: clasificación de LaLiga', url: 'https://www.espn.com/soccer/standings/_/league/ESP.1' },
+      { name: 'ESPN: clasificación de la Premier League', url: 'https://www.espn.com/soccer/standings/_/league/ENG.1' },
+    ],
+  },
+  {
+    slug: 'rafael-jodar-ultima-plaza-turin-atp-finals-quien-puede-quitarsela-basilea-viena-paris',
+    title: 'Rafael Jódar se agarra a la última plaza de Turín: quién puede quitársela antes de noviembre',
+    summary: 'Rafael Jódar sale de Shanghái 9.º en la carrera a las ATP Finals, puesto que vale plaza por la baja de Sinner. Con los puntos de Basilea, Viena y París, De Miñaur y Djokovic pueden alcanzarle.',
+    body: `Rafael Jódar perdió el domingo su primera final de un Masters 1000, 1-6, 7-6(5) y 6-4 ante Alejandro Davidovich, pero salió de Shanghái con algo que no tenía al llegar: un puesto de clasificación para las ATP Finals de Turín, que se juegan del 15 al 22 de noviembre.
+
+Es 9.º en la carrera a Turín con 3.159 puntos. En condiciones normales eso le dejaría fuera, porque al torneo van ocho. Pero Jannik Sinner, segundo de la carrera, ha cerrado la temporada por lesión y, [explica la ATP](https://www.atptour.com/en/news/jodar-pif-atp-live-race-to-turin-shanghai-2026-update), el noveno pasa a ser en la práctica el octavo, la última plaza.
+
+## Cómo ha cambiado su semana
+
+| | Antes de Shanghái | Después |
+| --- | --- | --- |
+| Carrera a Turín | 11.º | 9.º |
+| Puntos en la carrera | 2.709 | 3.159 |
+| Ranking ATP | 13.º | 11.º |
+
+Antes del torneo estaba a 171 puntos de De Miñaur. Ahora le saca 279, según la [crónica de la final en la web de la ATP](https://www.atptour.com/es/news/shanghai-2026-domingo-final-davidovich-jodar). Tiene 20 años.
+
+## Los que vienen por detrás
+
+Detrás de Jódar hay dos jugadores con opciones reales, según la [clasificación que publica Punto de Break](https://www.puntodebreak.com/en/2026/10/18/jodar-temporarily-ranked-this-is-how-the-battle-for-the-atp-finals-stands-after-shanghai):
+
+- **Alex de Miñaur**, 10.º, a 279 puntos.
+- **Novak Djokovic**, 11.º, a 319. Ha aceptado una invitación para jugar en Basilea.
+
+## La cuenta de puntos
+
+Quedan dos torneos ATP 500 la semana del 26 de octubre, Basilea y Viena, y el Masters 1000 de París la siguiente. Lo que reparte cada ronda, según la [tabla oficial de la ATP](https://www.atptour.com/en/rankings/rankings-faq):
+
+| Ronda | ATP 500 (Basilea, Viena) | Masters 1000 (París) |
+| --- | --- | --- |
+| Campeón | 500 | 1.000 |
+| Final | 330 | 650 |
+| Semifinal | 200 | 400 |
+| Cuartos | 100 | 200 |
+| Octavos | 50 | 100 |
+
+Con esa tabla, y si Jódar no sumara nada más:
+
+- A De Miñaur le bastaría una final en Basilea o Viena (330) o unas semifinales en París (400).
+- A Djokovic, que necesita 320, también le valdría una final en un 500. Unas semifinales en Basilea y unos cuartos en París le darían 400.
+- Si Jódar llega a cuartos de París, suma 200 y obliga a De Miñaur a buscar 480, algo que solo le darían un título en Basilea o Viena, una final en París o combinaciones como una final de un 500 con unos cuartos en París (530).
+
+Ya están clasificados Zverev, Alcaraz y Ben Shelton, que aseguró su plaza este fin de semana. Davidovich, el campeón de Shanghái, se queda lejos, con 2.510 puntos.
+
+Más tenis en la [sección de la ATP](/tenis/atp), y otra historia reciente del circuito: la de [Stefan Milicevic, sancionado hasta los 53 años](/noticias/stefan-milicevic-sancion-24-anos-amano-partidos-tenis-2050).`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'ATP', sport: 'tenis', slug: 'atp' },
+    sourceName: 'ATP Tour',
+    sourceUrl: 'https://www.atptour.com/es/news/shanghai-2026-domingo-final-davidovich-jodar',
+    sourceLang: 'es',
+    publishedAt: '2026-10-19T13:21:00+02:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Rafa-jodar-roland-garros-2026-profile.jpg/1280px-Rafa-jodar-roland-garros-2026-profile.jpg',
+      alt: 'Rafael Jódar, con gorra azul marino y camiseta blanca, sujeta la bola y la raqueta delante del pecho antes de sacar en una pista de tierra',
+      credit: 'Crosscourt View · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+    sourcesSecondary: [
+      { name: 'ATP Tour: carrera a Turín', url: 'https://www.atptour.com/en/news/jodar-pif-atp-live-race-to-turin-shanghai-2026-update' },
+      { name: 'ATP Tour: final de Shanghái', url: 'https://www.atptour.com/en/news/jodar-davidovich-fokina-shanghai-2026-final' },
+      { name: 'Punto de Break', url: 'https://www.puntodebreak.com/en/2026/10/18/jodar-temporarily-ranked-this-is-how-the-battle-for-the-atp-finals-stands-after-shanghai' },
+      { name: 'ATP Tour: tabla de puntos', url: 'https://www.atptour.com/en/rankings/rankings-faq' },
+    ],
+  },
+  {
+    slug: 'ronan-ogara-16-octubre-foley-hyron-andrews-la-rochelle-lions',
+    title: "Ronan O'Gara y el 16 de octubre: diez años después de Foley, otro rival muere en su hotel",
+    summary: "Hyron Andrews, de los Lions sudafricanos, murió el 16 de octubre en un hotel de la isla de Ré, la víspera de jugar contra el La Rochelle de O'Gara. Foley murió ese mismo día de 2016.",
+    body: `Hyron Andrews, segunda línea de los Lions de Johannesburgo, murió el viernes 16 de octubre en el hotel de su equipo en la isla de Ré, frente a La Rochelle. Tenía 31 años. Al día siguiente debía jugar contra el Stade Rochelais, que entrena Ronan O'Gara.
+
+Diez años antes, el 16 de octubre de 2016, Anthony Foley murió en un hotel de Suresnes, a las afueras de París, la víspera de que su Munster jugara contra el Racing 92. O'Gara era entonces técnico del Racing. Antes había sido compañero de Foley en el Munster que ganó la Copa de Europa en 2006. Que volviera a pasar un 16 de octubre le pareció más que extraño, [contó al Daily Maverick](https://www.dailymaverick.co.za/article/2026-10-19-la-rochelle-players-and-fans-honour-hyron-andrews-memory-with-compassion-and-class/).
+
+## Lo que se sabe de la muerte de Andrews
+
+Lo encontraron inconsciente en la ducha de su habitación poco después de las diez de la mañana, y los servicios de emergencia no pudieron reanimarle, según el [Irish Examiner](https://www.irishexaminer.com/sport/rugby/arid-41924986.html). La federación sudafricana dijo que murió tras una caída en el hotel. La causa no está confirmada: se ha abierto una investigación. Deja a su mujer, Maiglin, y dos hijos pequeños.
+
+El hotel de los Lions está cerca de la casa de O'Gara en la isla. El técnico irlandés pasó buena parte de la tarde del viernes con el equipo sudafricano, y algunos jugadores franceses del La Rochelle también se acercaron.
+
+## Un partido que los Lions decidieron jugar
+
+Los Lions podían haberse retirado de su debut en la Champions Cup. Jugadores y cuerpo técnico hablaron y decidieron salir al campo. Perdieron 31-14 el sábado en el estadio Marcel-Deflandre.
+
+Lo que pasó alrededor del partido:
+
+- La afición local hizo un pasillo a los Lions cuando llegaron al estadio.
+- Antes de salir, cada jugador tocó la camiseta número 5 de Andrews, colgada en el vestuario.
+- Hubo un minuto de silencio antes del inicio y un minuto de aplausos en el minuto 5.
+- Los tres sudafricanos del La Rochelle regalaron una camiseta firmada para la viuda y los hijos.
+- Al final, los Lions dieron la vuelta al campo con el estadio en pie.
+
+La organización, EPCR, pidió un minuto de silencio en todos los partidos europeos del fin de semana.
+
+## El 24, otra vez
+
+Hay un detalle que repite 2016. Ruan Delport jugó con el 24 en la espalda, un número que no existe en una alineación de rugby. Tras la muerte de Foley, el Munster jugó su siguiente partido, contra Glasgow en Thomond Park, sin el 8 que llevaba Foley: CJ Stander salió [con el 24](https://en.wikipedia.org/wiki/Anthony_Foley).
+
+Foley tenía 42 años. La autopsia atribuyó su muerte a un edema pulmonar agudo causado por una enfermedad del corazón. Había capitaneado al Munster en su primera Copa de Europa, en 2006, y jugó 62 partidos con Irlanda.
+
+## «Cada día»
+
+O'Gara no habla de aniversario. «Cada día Axel me viene a la cabeza», dijo tras el partido. Y añadió que quizá era una lección para él como entrenador: tomarse las cosas menos en serio.
+
+El Munster, mientras tanto, recibió al Racing el mismo sábado, diez años después del partido que no se jugó. Lo hizo en Cork y no en Thomond Park, y parte de su afición protestó; el club respondió que [cambiar de estadio no era viable](https://www.planetrugby.com/news/munster-issue-response-to-criticism-over-champions-cup-venue-on-10th-anniversary-of-anthony-foleys-passing) y que el homenaje a Foley se preparó con su familia. Más rugby en la [sección de rugby](/rugby), y otra historia de la Copa del Mundo de 2003, la de [la medalla de Lawrence Dallaglio](/noticias/dallaglio-medalla-mundial-2003-subasta-budds-bancarrota-divorcio).`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'Champions Cup', sport: 'rugby', slug: 'rugby' },
+    sourceName: 'Daily Maverick',
+    sourceUrl: 'https://www.dailymaverick.co.za/article/2026-10-19-la-rochelle-players-and-fans-honour-hyron-andrews-memory-with-compassion-and-class/',
+    sourceLang: 'en',
+    publishedAt: '2026-10-19T13:18:00+02:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/USO_-_RM92_-_20150425_-_Ronan_O%27Gara.jpg/1280px-USO_-_RM92_-_20150425_-_Ronan_O%27Gara.jpg",
+      alt: "Ronan O'Gara, con el pelo mojado y sudadera azul marino del Racing 92, aplaude bajo la lluvia en el césped de un estadio",
+      credit: 'Clément Bucco-Lechat · Wikimedia Commons',
+      license: 'CC BY-SA 3.0',
+    },
+    sourcesSecondary: [
+      { name: 'Irish Examiner', url: 'https://www.irishexaminer.com/sport/rugby/arid-41924986.html' },
+      { name: 'The Irish Times', url: 'https://www.irishtimes.com/sport/rugby/2026/10/16/rugby-player-found-dead-at-lions-team-hotel-before-champions-cup-game-against-la-rochelle/' },
+      { name: 'Wikipedia (inglés): Anthony Foley', url: 'https://en.wikipedia.org/wiki/Anthony_Foley' },
+      { name: 'Planet Rugby', url: 'https://www.planetrugby.com/news/munster-issue-response-to-criticism-over-champions-cup-venue-on-10th-anniversary-of-anthony-foleys-passing' },
+      { name: 'Le Rugbynistère', url: 'https://www.lerugbynistere.fr/news/je-ne-sais-pas-si-jaurais-ete-capable-de-jouer-alldritt-et-les-rochelais-marques-par-le-courage-des-lions-apres-leur-deuil/' },
+    ],
+  },
+  {
     slug: 'previa-psg-barcelona-401915399',
     title: "PSG - Barcelona: horario, dónde ver y cómo llegan al partido de Champions",
     summary: "PSG recibe a Barcelona este martes 20 de octubre (21:00 h, Parc des Princes) en Champions League. PSG es 1.º y Barcelona, 2.º.",
