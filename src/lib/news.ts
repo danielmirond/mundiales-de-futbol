@@ -154,6 +154,610 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'donde-ver-laliga-2026-27-movistar-dazn-precios-jornadas-exclusivas-clasico',
+    title: 'Dónde ver LaLiga 2026-27: planes, precios, el Clásico y las jornadas que solo da Movistar',
+    summary: 'Cómo ver LaLiga EA Sports 2026-27 en España: el reparto entre Movistar Plus+ y DAZN, qué plan hace falta para no perderse nada, cuánto cuesta y dónde va el Clásico del 25 de octubre.',
+    body: `Para ver toda LaLiga EA Sports en España hacen falta dos plataformas, o un paquete que las junte. [Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol) emite cinco partidos por jornada y [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) los otros cinco, salvo en tres jornadas que son enteras de Movistar, [según Roams](https://roams.es/actualidad/telefonia/movistar-plus-laliga-exclusiva-fechas-exactas/). Y hay un partido gratis cada jornada.
+
+*Esta guía incluye enlaces de afiliado a plataformas de televisión. Si contratas desde ellos, Mundiales recibe una comisión sin coste extra para ti. No cambia lo que contamos.*
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| [Registro gratis en DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) | Un partido por jornada | Gratis |
+| [Movistar Plus+ Libre](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fplanes%2Flibre) | El partido de Movistar de cada jornada (sin Clásico ni derbis), toda la Hypermotion y el mejor partido de Champions y de Premier | 9,99 €/mes, sin permanencia |
+| [DAZN Fútbol](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) | 5 partidos por jornada en 35 de las 38 jornadas, más Premier, Serie A, Bundesliga, Hypermotion y Liga F | 19,99 €/mes con un año de permanencia, 29,99 € sin ella o 219,99 € en un pago |
+| [Movistar Plus+ con paquete LaLiga](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol) | Las 38 jornadas completas, Hypermotion, Copa y Supercopa | 36 €/mes, con tarifa miMovistar |
+| [Movistar Plus+ con Fútbol Total](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol) | Todo lo anterior, más Champions, Europa League y Conference | 50 €/mes, con tarifa miMovistar |
+
+Los paquetes de Movistar incluyen los canales de DAZN, por eso con ellos se ven las jornadas completas. Se contratan con fibra y móvil: con la tarifa más barata, de 53 €/mes, LaLiga sale por 89 €, la Champions por 77 € y Fútbol Total por 103 € al mes, [según Mundoplus](https://www.mundoplus.tv/tv-digital/movistar-plus-abarata-el-acceso-a-laliga-y-champions-con-un-importante-cambio-en-sus-paquetes/). Movistar anuncia «Todo el fútbol», con datos ilimitados, por 117 €/mes. Mundoplus cuenta que desde septiembre ya no hace falta el paquete básico de 14 € para contratar el fútbol; la web de Movistar aún lo menciona, así que conviene confirmarlo al contratar.
+
+## El Clásico y las tres jornadas de Movistar
+
+El **Barcelona - Real Madrid del domingo 25 de octubre**, a las 21:00 en el Spotify Camp Nou, va en DAZN LaLiga, según la [ficha del partido](/futbol/laliga/partido/401882832). Esta semana [DAZN Fútbol está a 9,99 €/mes durante 12 meses](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) hasta ese mismo domingo; las condiciones aparecen al darse de alta. La vuelta se juega en el Bernabéu el fin de semana del 8 y 9 de mayo de 2027.
+
+Tres jornadas son enteras de Movistar, y en ellas no se ve a ningún equipo con DAZN, salvo el partido gratis:
+
+| Jornada | Fechas |
+| --- | --- |
+| 4 | 5 y 6 de septiembre de 2026 |
+| 15 | 5 y 6 de diciembre de 2026 |
+| 27 | 7 y 8 de marzo de 2027 |
+
+Las fechas son las de la [nota de Movistar Plus+](https://www.movistarplus.es/comunicacion/notas-de-prensa/arranca-laliga-ea-sports-en-movistar-plus-vive-la-temporada-al-completo-con-todos-los-partidos-en-directo-y-una-cobertura-exclusiva/). Los partidos de Movistar van en M+ LALIGA (1 a 4) y los de DAZN, en DAZN LALIGA y DAZN LALIGA 2.
+
+## Otros operadores
+
+- **Orange:** Orange TV Libre (7,99 €/mes, 3,99 € los tres primeros meses) da un partido de LaLiga, uno de Champions y tres de Hypermotion por jornada. Todo el fútbol, solo con fibra, cuesta 81 €/mes, [según la OCU](https://www.ocu.org/tecnologia/internet-telefonia/noticias/donde-ver-futbol).
+- **Vodafone:** revende DAZN Fútbol a los mismos precios.
+- **DIGI:** su Pack Deportes (3 €/mes sobre Digi TV) trae toda la Hypermotion, pero ningún partido de Primera.
+
+## Lo que viene
+
+El contrato actual acaba esta temporada. LaLiga ya adjudicó el ciclo de 2027-28 a 2031-32 a Telefónica y DAZN, con cinco partidos por jornada cada uno durante toda la temporada y sin jornadas exclusivas, [según El Confidencial Digital](https://www.elconfidencialdigital.com/articulo/medios/movistar-plus-dazn-vuelven-repartirse-partidos-real-madrid-fc-barcelona/20251202130000992104.html).
+
+Horarios y canal de cada partido, en el [calendario de LaLiga](/futbol/laliga/calendario), y la clasificación, en [LaLiga](/futbol/laliga). La Champions tiene [su propia guía](/noticias/donde-ver-champions-league-2026-27-espana-movistar-precios-final-metropolitano), y el resto de deportes, la [guía de dónde ver el deporte en España](/noticias/donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1).`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'LaLiga', sport: 'futbol', slug: 'laliga' },
+    sourceName: 'Roams',
+    sourceUrl: 'https://roams.es/actualidad/telefonia/movistar-plus-laliga-exclusiva-fechas-exactas/',
+    sourceLang: 'es',
+    publishedAt: '2026-10-19T19:51:00+02:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'OCU: dónde ver el fútbol', url: 'https://www.ocu.org/tecnologia/internet-telefonia/noticias/donde-ver-futbol' },
+      { name: 'Mundoplus: paquetes de Movistar', url: 'https://www.mundoplus.tv/tv-digital/movistar-plus-abarata-el-acceso-a-laliga-y-champions-con-un-importante-cambio-en-sus-paquetes/' },
+      { name: 'Movistar Plus+: LaLiga en Movistar', url: 'https://www.movistarplus.es/comunicacion/notas-de-prensa/arranca-laliga-ea-sports-en-movistar-plus-vive-la-temporada-al-completo-con-todos-los-partidos-en-directo-y-una-cobertura-exclusiva/' },
+    ],
+  },
+  {
+    slug: 'donde-ver-champions-league-2026-27-espana-movistar-precios-final-metropolitano',
+    title: 'Dónde ver la Champions 2026-27 en España: planes, precios y la final del Metropolitano',
+    summary: 'Cómo ver la Champions, la Europa League y la Conference en España en 2026-27: qué plan de Movistar Plus+ hace falta, cuánto cuesta, el calendario y la final gratis del 5 de junio en Madrid.',
+    body: `La Champions, la Europa League y la Conference League son de [Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fchampions-league) en exclusiva, en el canal Liga de Campeones por M+. DAZN no las tiene. La única emisión en abierto es la final, que este año se juega en Madrid.
+
+*Esta guía incluye enlaces de afiliado a plataformas de televisión. Si contratas desde ellos, Mundiales recibe una comisión sin coste extra para ti. No cambia lo que contamos.*
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| [Movistar Plus+ Libre](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fplanes%2Flibre) | El mejor partido de cada jornada de Champions, uno de Europa League y una selección de Conference | 9,99 €/mes, sin permanencia |
+| [Movistar Plus+ con paquete Champions](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fchampions-league) | Las tres competiciones enteras y la Supercopa de Europa | 24 €/mes, con tarifa miMovistar (77 €/mes en total con la más barata) |
+| [Movistar Plus+ con Fútbol Total](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol) | Lo anterior, más LaLiga completa, Copa y Supercopa | 50 €/mes, con tarifa miMovistar |
+| Orange | Uno de Champions por jornada en Orange TV Libre (7,99 €/mes); todas, en su paquete con todo el fútbol | Desde 81 €/mes con fibra |
+| La 1 y RTVE Play | La final | Gratis |
+
+Los precios son los de la [OCU](https://www.ocu.org/tecnologia/internet-telefonia/noticias/donde-ver-futbol) y [Mundoplus](https://www.mundoplus.tv/tv-digital/movistar-plus-abarata-el-acceso-a-laliga-y-champions-con-un-importante-cambio-en-sus-paquetes/). El plan Libre no incluye la final; la final va en abierto. Si tu equipo juega cada semana en Europa, el plan Libre no basta: solo emite el partido destacado.
+
+## El calendario de la Champions
+
+| Fase | Fechas |
+| --- | --- |
+| Fase liga, jornada 3 | 20 y 21 de octubre de 2026 |
+| Jornada 4 | 3 y 4 de noviembre |
+| Jornada 5 | 24 y 25 de noviembre |
+| Jornada 6 | 8 y 9 de diciembre |
+| Jornada 7 | 19 y 20 de enero de 2027 |
+| Jornada 8 | 27 de enero |
+| Eliminatorias de acceso | 16-17 y 23-24 de febrero |
+| Octavos | 9-10 y 16-17 de marzo |
+| Cuartos | 6-7 y 13-14 de abril |
+| Semifinales | 27-28 de abril y 4-5 de mayo |
+| Final | Sábado 5 de junio, Metropolitano de Madrid |
+
+Las fechas son las de la [UEFA](https://es.uefa.com/uefachampionsleague/news/02a6-20d57ee92ce2-c1fb3eb394bf-1000--champions-league-2026-27-equipos-fechas-sorteos-formato-/). La final de la Europa League es el 26 de mayo en Fráncfort, y la de la Conference, el 2 de junio en Estambul.
+
+## La final, en abierto
+
+RTVE tiene las finales de la Champions hasta 2027, [según Audiovisual451](https://www.audiovisual451.com/television-espanola-emitira-la-final-de-la-champions-league-hasta-2027/), así que la del Metropolitano se podrá ver gratis en La 1 y RTVE Play. Es el único partido de competiciones europeas en abierto.
+
+## Después de esta temporada
+
+El contrato actual de Movistar acaba en 2026-27. Telefónica se adjudicó en noviembre de 2025 el ciclo de 2027-28 a 2030-31 por 1.464 millones, con Champions, Europa League, Conference, Youth League y Supercopa de Europa, [según eldiario.es](https://www.eldiario.es/vertele/noticias/telefonica-adquiere-derechos-champions-league-2031-1464-millones-euros_1_12785352.html). La adjudicación era provisional, pendiente de la firma con la UEFA.
+
+El cuadro y los resultados, en la [Champions League](/futbol/champions-league), la [Europa League](/futbol/europa-league) y la [Conference League](/futbol/conference-league). LaLiga tiene [su propia guía](/noticias/donde-ver-laliga-2026-27-movistar-dazn-precios-jornadas-exclusivas-clasico), y el resto de deportes, la [guía de dónde ver el deporte en España](/noticias/donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1).`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'Champions League', sport: 'futbol', slug: 'champions-league' },
+    sourceName: 'UEFA',
+    sourceUrl: 'https://es.uefa.com/uefachampionsleague/news/02a6-20d57ee92ce2-c1fb3eb394bf-1000--champions-league-2026-27-equipos-fechas-sorteos-formato-/',
+    sourceLang: 'es',
+    publishedAt: '2026-10-19T19:50:00+02:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'OCU: dónde ver el fútbol', url: 'https://www.ocu.org/tecnologia/internet-telefonia/noticias/donde-ver-futbol' },
+      { name: 'eldiario.es: la Champions hasta 2031', url: 'https://www.eldiario.es/vertele/noticias/telefonica-adquiere-derechos-champions-league-2031-1464-millones-euros_1_12785352.html' },
+      { name: 'Audiovisual451: la final en TVE', url: 'https://www.audiovisual451.com/television-espanola-emitira-la-final-de-la-champions-league-hasta-2027/' },
+    ],
+  },
+  {
+    slug: 'donde-ver-nfl-espana-2026-dazn-game-pass-precios-horarios-bernabeu',
+    title: 'Dónde ver la NFL en España en 2026: planes, precios, horarios y el partido del Bernabéu',
+    summary: 'Cómo ver la NFL en España en 2026: los planes de DAZN y NFL Game Pass con sus precios, el partido gratis de cada semana, los horarios en España y el Falcons - Bengals del Bernabéu.',
+    body: `La NFL se ve en España en DAZN, que tiene los derechos en exclusiva con un acuerdo de varios años. Hay dos maneras de seguirla: los planes normales de DAZN, con cinco partidos por semana comentados en español, o NFL Game Pass, con todos los partidos de la temporada, unos 335. Y hay un partido gratis cada semana para quien se registre.
+
+*Esta guía incluye enlaces de afiliado a plataformas de televisión. Si contratas desde ellos, Mundiales recibe una comisión sin coste extra para ti. No cambia lo que contamos.*
+
+## La respuesta corta
+
+| Opción | Qué incluye | Precio |
+| --- | --- | --- |
+| [Registro gratis en DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) | Un partido por semana, resúmenes y NFL Network | Gratis |
+| [DAZN Made in USA](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) | 5 partidos por semana, playoffs y Super Bowl en español, RedZone en inglés | Desde 4,99 €/mes |
+| [DAZN Fútbol](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) | Lo mismo, más LaLiga, Premier, Serie A, Bundesliga y Liga F | Desde 19,99 €/mes (14,99 € en promoción) |
+| [NFL Game Pass](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fl%2Fnfl-game-pass) | Todos los partidos, RedZone, playoffs y Super Bowl, en directo y a la carta | Season Pro, 199,99 € la temporada (ver descuentos) |
+| [Movistar Plus+ con Deportes Total](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes) | Partidos por los canales DAZN 1 a DAZN 4 | 29 €/mes, más el paquete básico y la tarifa miMovistar |
+
+Lo que cuenta cada plan está en la [página de bienvenida de DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome), y la de Movistar, en [ADSLZone](https://www.adslzone.net/noticias/operadores/movistar-plus-confirma-emision-otro-deporte-temporada-2026-2027/). Si solo te interesa la NFL, Made in USA es lo más barato con partidos todas las semanas; si quieres a tu equipo cada domingo, hace falta Game Pass.
+
+## NFL Game Pass: qué incluye y cuánto cuesta
+
+Game Pass se contrata suelto o como complemento de otro plan de DAZN. Tiene dos niveles, [según la página oficial de DAZN España](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fl%2Fnfl-game-pass):
+
+| | Season Pro | Season Pro Ultimate |
+| --- | --- | --- |
+| Partidos | Todos, en directo y a la carta | Todos, en directo y a la carta |
+| Extras | NFL RedZone, playoffs y Super Bowl LXI | Lo mismo, más Multiview de hasta 4 partidos, HDR y Dolby 5.1 en los grandes partidos y retransmisiones alternativas |
+| Pantallas | 2 dispositivos en 1 ubicación | 5 dispositivos en 2 ubicaciones |
+| Precio en la web española | 199,99 € la temporada | 229,99 € la temporada |
+
+La suscripción dura hasta el 1 de agosto de 2027 y se renueva sola. Ofrece la señal estadounidense original y también comentarios en español hasta la Super Bowl.
+
+Ojo con el precio: DAZN anunció a finales de septiembre [al menos un 25 % de descuento para el resto de la temporada](https://www.dazn.com/fr-FR/news/foot-us/nfl-game-pass-dazn-offre-reduction-25-pour-cent/kc5vcq4uwmc310ghjhqr9tlky), y en su [guía de precios por país](https://www.dazn.com/en-US/news/football/nfl-gamepass-cost-dazn-country-price-subscription-instalment-watch-season/1nmnpcsga7nr41r2o7hfekzko6) ya da 99 € (Season Pro) y 129 € (Ultimate) en un solo pago, o a plazos. Con la temporada avanzada, el precio baja. El importe exacto aparece en el [alta de NFL Game Pass](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fl%2Fnfl-game-pass).
+
+## Horarios en España
+
+Los domingos hay partidos a las 19:00 y a las 22:25, con alguno a las 22:05. El Sunday Night Football empieza hacia las 2:20 de la madrugada del lunes; el Monday Night, hacia las 2:15 del martes, y el Thursday Night, hacia las 2:20 del viernes, según la [parrilla de Game Pass](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fl%2Fnfl-game-pass).
+
+Hay una semana rara. Europa cambió al horario de invierno el 25 de octubre y Estados Unidos lo hace el 1 de noviembre, así que el domingo 1 de noviembre los partidos empiezan una hora antes en España: a las 18:00 y a las 21:25. Desde el 8 de noviembre vuelven a las 19:00 y las 22:25. Conviene comprobarlo en la parrilla de DAZN de esa semana.
+
+## Las fechas de la temporada
+
+Quedan tres partidos en Europa, con horarios cómodos, y uno de ellos en Madrid, [según la NFL](https://www.profootballhof.com/news/nfl-releases-schedule-of-international-games-for-2026):
+
+| Fecha | Partido | Sede | Hora en España |
+| --- | --- | --- | --- |
+| Domingo 25 de octubre | Steelers - Saints | Stade de France, París | 14:30 |
+| Domingo 8 de noviembre | Falcons - Bengals | Santiago Bernabéu, Madrid | 15:30 |
+| Domingo 15 de noviembre | Patriots - Lions | Allianz Arena, Múnich | 15:30 |
+| Domingo 22 de noviembre | Vikings - 49ers | Estadio Banorte, Ciudad de México | 2:20 (lunes) |
+
+El del Bernabéu es el segundo partido de temporada regular seguido en Madrid, tras el Dolphins - Commanders de 2025, y [el acuerdo incluye también 2027](https://www.nfl.com/mundo/noticias/la-nfl-vuelve-a-madrid). Los Falcons juegan como locales.
+
+El resto del calendario, [según la NFL](https://www.nfl.com/news/2026-27-national-football-league-important-dates):
+
+| Fecha | Qué pasa |
+| --- | --- |
+| Martes 10 de noviembre, 22:00 | Cierre del mercado de traspasos |
+| Jueves 26 de noviembre | Acción de Gracias: Lions - Bears (19:00), Cowboys - Eagles (22:30) y Bills - Chiefs (2:20 del viernes) |
+| Viernes 25 de diciembre | Navidad: Bears - Packers (19:00), Broncos - Bills (22:30) y Seahawks - Rams (2:15 del sábado) |
+| 9 y 10 de enero | Última semana de la temporada regular |
+| 16 al 18 de enero | Ronda de comodines |
+| 23 y 24 de enero | Ronda divisional |
+| 31 de enero | Finales de conferencia |
+| Domingo 14 de febrero | Super Bowl LXI, en el SoFi Stadium de Inglewood |
+
+Los partidos de Acción de Gracias y Navidad se ven todos con Game Pass; DAZN no ha confirmado cuáles entran en los cinco semanales de sus planes. La Super Bowl va en DAZN, y la de 2026 se dio además en abierto en Cuatro; para la de 2027 no hay nada anunciado.
+
+## Más opciones
+
+- **Gratis:** [DAZN da un partido por semana](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) a quien se registre con un correo, sin pagar.
+- **Movistar Plus+:** emite partidos por los canales DAZN 1 (dial 72), DAZN 2 (73), DAZN 3 (197) y DAZN 4 (198), solo con el paquete Deportes Total de la tarifa miMovistar.
+- **Todo lo demás:** qué plataforma emite cada deporte, en la [guía de dónde ver el deporte en España](/noticias/donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1). Resultados y calendario de la liga, en la sección de la [NFL](/futbol-americano/nfl), y lo que se juega cada día, en [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'NFL', sport: 'futbol-americano', slug: 'nfl' },
+    sourceName: 'DAZN',
+    sourceUrl: 'https://www.dazn.com/es-ES/l/nfl-game-pass',
+    sourceLang: 'es',
+    publishedAt: '2026-10-19T19:48:00+02:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'NFL: fechas clave 2026-27', url: 'https://www.nfl.com/news/2026-27-national-football-league-important-dates' },
+      { name: 'ADSLZone: la NFL en Movistar Plus+', url: 'https://www.adslzone.net/noticias/operadores/movistar-plus-confirma-emision-otro-deporte-temporada-2026-2027/' },
+      { name: 'NFL Mundo: la NFL vuelve a Madrid', url: 'https://www.nfl.com/mundo/noticias/la-nfl-vuelve-a-madrid' },
+      { name: 'Pro Football Hall of Fame: partidos internacionales', url: 'https://www.profootballhof.com/news/nfl-releases-schedule-of-international-games-for-2026' },
+    ],
+  },
+  {
+    slug: 'donde-ver-euroliga-2026-27-espana-movistar-precios-real-madrid-barca',
+    title: 'Dónde ver la Euroliga 2026-27 en España: planes, precios y los partidos del Madrid y el Barça',
+    summary: 'La Euroliga 2026-27 se ve en España solo en Movistar Plus+. Qué plan hace falta para ver todos los partidos del Real Madrid, el Barça, el Baskonia y el Valencia, cuánto cuesta y en qué canal va.',
+    body: `La Euroliga es de [Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Fbaloncesto%2Feuroliga) en exclusiva. En julio de 2025 renovó el acuerdo cinco temporadas más, hasta la 2030-31, y emite todos los partidos de los equipos españoles y una selección de los mejores del resto, [según la propia Euroliga](https://www.sportbusiness.com/news/movistar-plus-commits-to-euroleague-to-2031/). DAZN no la tiene, y no hay partidos en abierto.
+
+*Esta guía incluye enlaces de afiliado a plataformas de televisión. Si contratas desde ellos, Mundiales recibe una comisión sin coste extra para ti. No cambia lo que contamos.*
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio | Requisitos |
+| --- | --- | --- | --- |
+| [Movistar Plus+ Libre](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Fbaloncesto%2Feuroliga) | Los 2 mejores partidos de cada jornada | 9,99 €/mes | Sin permanencia y sin ser cliente de Movistar |
+| [Movistar Plus+ con paquete Baloncesto](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Fbaloncesto) | Toda la Euroliga, más NBA, Liga Endesa, Copa, Supercopa, Eurocup y ventanas FIBA | 14 €/mes (base) + 10 €/mes | Tarifa miMovistar con fibra y móvil |
+| [Movistar Plus+ con Deportes Total](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes) | Todo lo anterior, más F1, MotoGP, tenis y rugby | 14 €/mes (base) + 29 €/mes | Tarifa miMovistar con fibra y móvil |
+
+Los precios del plan Libre son los de la [página de la Euroliga de Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Fbaloncesto%2Feuroliga); los de los paquetes, los que recoge [Roams](https://roams.es/companias-telefonicas/movistar/guias/television/baloncesto/). Si solo quieres los grandes partidos, el plan Libre basta. Para seguir a tu equipo todas las semanas, hace falta el paquete Baloncesto: con Libre puede que su partido no sea uno de los dos destacados.
+
+## En qué canal va cada partido
+
+| Canal | Dial | Qué emite |
+| --- | --- | --- |
+| Movistar Plus+ | 7 | Los 2 mejores partidos de cada jornada |
+| Vamos por M+ | 8 y 50 | Una selección de partidos |
+| Deportes por M+ | 63, 64 y 65 | 5 partidos por jornada |
+| Baloncesto por M+ | 66 y 67 | Todos los partidos |
+
+## Los cuatro españoles
+
+Real Madrid, FC Barcelona, Kosner Baskonia y Valencia Basket juegan esta Euroliga de 20 equipos, en la que el Besiktas sustituye al Mónaco. Movistar emite todos sus partidos. El vigente campeón es el Olympiacos, que ganó la final de Atenas al Real Madrid, 92-85, el 24 de mayo de 2026: [fue su cuarto título](https://diariopanorama.com/noticia/553487/olympiacos-derroto-al-real-madrid-se-consagro-campeon-euroliga-20252026). El Valencia jugó aquella Final Four, la primera de su historia.
+
+## Fechas de la temporada
+
+| Fecha | Qué pasa |
+| --- | --- |
+| 24 de septiembre de 2026 | Empezó la fase regular, de 38 jornadas |
+| 16 de abril de 2027 | Última jornada de la fase regular |
+| 20 y 23 de abril | Play-In |
+| Del 27 de abril al 12 de mayo | Playoffs, al mejor de cinco partidos |
+| 28 y 30 de mayo | Final Four: semifinales y final |
+
+El calendario es el que publica [Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Fbaloncesto%2Feuroliga). La sede de la Final Four no está anunciada oficialmente: varios medios la sitúan en Abu Dabi, y en mayo se habló de Belgrado, Kaunas y Valencia como alternativas por la situación en Oriente Medio, [según Básquet Plus](https://basquetplus.com/euroliga-final-4-sede-equipos-definicion-semis-belgrado-valencia-kaunas-equipos-paises).
+
+## El resto del baloncesto
+
+La [Liga Endesa](/noticias/donde-ver-liga-endesa-2026-27-dazn-movistar-gratis-autonomicas) está sobre todo en DAZN, y la [NBA](/noticias/nba-2026-27-donde-ver-espana-dazn-prime-video-estreno-hugo-gonzalez-aldama), en DAZN y Prime Video. El paquete Baloncesto de Movistar incluye las tres competiciones a través de los canales DAZN Baloncesto. Todo lo demás, en la [guía de dónde ver el deporte en España](/noticias/donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1); clasificación y resultados, en la sección de la [Euroliga](/baloncesto/euroliga).`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'Euroliga', sport: 'baloncesto', slug: 'euroliga' },
+    sourceName: 'Movistar Plus+',
+    sourceUrl: 'https://www.movistarplus.es/deportes/baloncesto/euroliga',
+    sourceLang: 'es',
+    publishedAt: '2026-10-19T19:51:00+02:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'SportBusiness: Movistar Plus+ renueva la Euroliga', url: 'https://www.sportbusiness.com/news/movistar-plus-commits-to-euroleague-to-2031/' },
+      { name: 'Roams: paquete Baloncesto de Movistar', url: 'https://roams.es/companias-telefonicas/movistar/guias/television/baloncesto/' },
+      { name: 'Roams: dónde ver la Euroliga 2026-27', url: 'https://roams.es/actualidad/telefonia/donde-ver-euroliga-2026-27-tv-precios-partidos-cuatro-equipos-espanoles/' },
+    ],
+  },
+  {
+    slug: 'donde-ver-liga-endesa-2026-27-dazn-movistar-gratis-autonomicas',
+    title: 'Dónde ver la Liga Endesa 2026-27: planes, precios, el partido gratis y las teles autonómicas',
+    summary: 'Cómo ver la Liga Endesa 2026-27 en España: los planes de DAZN, Movistar Plus+, Orange y Vodafone con sus precios, el partido gratis de cada jornada y las autonómicas que la emiten.',
+    body: `La Liga Endesa tiene a [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) como plataforma principal: emite los casi 350 partidos de la temporada, además de la Copa del Rey y la Supercopa, [según la ACB](https://acb.com/es/liga/noticias/la-liga-endesa-en-mas-sitios-que-nunca-146086). Pero también se puede ver, en parte o entera, en Movistar Plus+, Orange, Vodafone y cuatro televisiones autonómicas, y hay un partido gratis cada jornada.
+
+*Esta guía incluye enlaces de afiliado a plataformas de televisión. Si contratas desde ellos, Mundiales recibe una comisión sin coste extra para ti. No cambia lo que contamos.*
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| [Registro gratis en DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) | Un partido por jornada | Gratis |
+| [DAZN Plan Baloncesto](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) | Todos los partidos, la Copa y la Supercopa, más la NBA | 14,99 €/mes sin permanencia; más barato con pago anual |
+| [DAZN Premium](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) | Todo el baloncesto, el fútbol y el motor de DAZN | 25,99 €/mes en promoción (31,99 € sin ella) |
+| [Movistar Plus+ Libre](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Fbaloncesto) | 2 partidos por jornada | 9,99 €/mes |
+| [Movistar Plus+ con paquete Baloncesto](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Fbaloncesto) | Todos, por los canales DAZN Baloncesto | 14 €/mes (base) + 10 €/mes, con tarifa miMovistar |
+| Orange TV | Todos, por los canales DAZN Baloncesto | Dentro del pack Todo Deporte |
+| Vodafone TV | Todas las competiciones de la ACB | Dentro del Pack Premium de DAZN |
+
+Sobre el precio del Plan Baloncesto con pago anual hay dos cifras: la [ayuda de DAZN](https://www.dazn.com/es-ES/help/articles/30194060137373-el-baloncesto-acb-en-dazn) y la ACB lo dan a 5,99 €/mes (o 65,89 € en un pago), y la [página comercial de DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) dice «desde 9,99 €». Lo que coincide en todas partes es la cuota mensual sin permanencia, 14,99 €. Los menores de 30 años tienen un 30 % de descuento.
+
+## Gratis y en abierto
+
+- **DAZN:** un partido por jornada a quien se registre en la web o la app, sin pagar.
+- **TV3 y 3Cat:** un partido por jornada y una eliminatoria de cuartos del playoff.
+- **TVG y AGalega:** un partido por jornada.
+- **Aragón TV:** diez partidos del Casademont Zaragoza.
+- **EITB:** diez partidos en ETB1, ETB2 y ETB On.
+
+Las autonómicas emiten sobre todo los domingos por la mañana, [como recoge la ACB](https://acb.com/es/liga/noticias/la-liga-endesa-en-mas-sitios-que-nunca-146086). En Movistar, quien tenga el paquete básico ve dos partidos por jornada en Movistar Plus+ (dial 7) y Vamos por M+ (diales 8 y 50); la jornada completa va en DAZN Baloncesto 1, 2 y 3 (diales 74, 75 y 76).
+
+## Fechas de la temporada
+
+| Fecha | Qué pasa |
+| --- | --- |
+| 19 y 20 de septiembre de 2026 | Supercopa en Badalona: la ganó el Joventut, con Laprovittola como MVP |
+| 26 y 27 de septiembre | Primera jornada de liga, de 34 |
+| Del 18 al 21 de febrero de 2027 | Copa del Rey en el Roig Arena de Valencia |
+| 21 al 23 de mayo | Última jornada de la fase regular |
+| Desde el 25 de mayo | Playoffs; la final puede llegar al 29 de junio |
+
+El calendario es el que publica [Flashscore](https://www.flashscore.es/noticias/baloncesto-acb-todo-lo-que-necesitas-saber-de-la-temporada-26-27-fechas-calendario-liga-copa-supercopa/p2LfB19t/). El título del Joventut, el primero en 18 años, y el resto del contexto de la temporada están en la [guía de elDiario.es](https://www.eldiario.es/spin/deportes/guia-liga-endesa-baloncesto-2026-27-previa-favoritos-donde-ver-tv-acb-pm_1_13540328.html).
+
+## La liga que empieza
+
+Son 18 equipos. El Valencia Basket defiende el título y el Kosner Baskonia la Copa de 2026. Vuelven Obradoiro y Leyma Coruña, así que Galicia tiene tres equipos en la ACB por primera vez desde la temporada 1993-94.
+
+Cuatro de ellos juegan también la [Euroliga](/noticias/donde-ver-euroliga-2026-27-espana-movistar-precios-real-madrid-barca), que va en Movistar Plus+, y el Plan Baloncesto de DAZN incluye la [NBA](/noticias/nba-2026-27-donde-ver-espana-dazn-prime-video-estreno-hugo-gonzalez-aldama). Todo lo demás, en la [guía de dónde ver el deporte en España](/noticias/donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1); clasificación y resultados, en la sección de la [Liga Endesa](/baloncesto/liga-endesa).`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'Liga Endesa', sport: 'baloncesto', slug: 'liga-endesa' },
+    sourceName: 'ACB',
+    sourceUrl: 'https://acb.com/es/liga/noticias/la-liga-endesa-en-mas-sitios-que-nunca-146086',
+    sourceLang: 'es',
+    publishedAt: '2026-10-19T19:52:00+02:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'DAZN: el baloncesto ACB en DAZN', url: 'https://www.dazn.com/es-ES/help/articles/30194060137373-el-baloncesto-acb-en-dazn' },
+      { name: 'Roams: la Liga Endesa en Movistar', url: 'https://roams.es/companias-telefonicas/movistar/guias/television/liga-endesa/' },
+      { name: 'elDiario.es: guía de la Liga Endesa', url: 'https://www.eldiario.es/spin/deportes/guia-liga-endesa-baloncesto-2026-27-previa-favoritos-donde-ver-tv-acb-pm_1_13540328.html' },
+    ],
+  },
+  {
+    slug: 'donde-ver-f1-motogp-espana-2026-dazn-precios-carreras-que-quedan',
+    title: 'Dónde ver la F1 y MotoGP en España: planes, precios y las carreras que quedan en 2026',
+    summary: 'Cómo ver la Fórmula 1 y MotoGP en España: los planes de DAZN y Movistar con sus precios, los horarios de las carreras que quedan y el duelo Martín-Márquez por el título.',
+    body: `La Fórmula 1 y MotoGP se ven en España en [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome), que tiene las dos hasta 2030: renovó la F1 para España, Andorra y Portugal en septiembre, [según la propia DAZN](https://dazngroup.com/press-room/dazn-renova-os-direitos-de-transmissao-da-formula-1-em-portugal-e-espanha-ate-2030/), y MotoGP en julio, [según el campeonato](https://www.motogp.com/en/news/2026/07/16/dazn-to-broadcast-motogp-in-spain-until-2030-portugal-until-2031/1078683). Emite todas las sesiones, de los libres a la carrera, y también Moto2, Moto3, F2 y F3. Los clientes de Movistar las tienen en los canales DAZN F1 y DAZN MotoGP.
+
+*Esta guía incluye enlaces de afiliado a plataformas de televisión. Si contratas desde ellos, Mundiales recibe una comisión sin coste extra para ti. No cambia lo que contamos.*
+
+## La respuesta corta
+
+| Opción | Qué incluye | Precio |
+| --- | --- | --- |
+| [DAZN Motor](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) | F1, MotoGP, NASCAR y Superbikes | 19,99 €/mes con un año de permanencia, 29,99 €/mes sin ella o 219,99 € en un pago |
+| [DAZN Premium](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) | Todo el motor, más el fútbol y el baloncesto de DAZN | 25,99 €/mes en promoción (31,99 € sin ella) |
+| [Movistar Plus+ con paquete Motor](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes) | Canales DAZN F1 y DAZN MotoGP | 20 €/mes, más el básico (14 €) y una tarifa miMovistar |
+| [Movistar Plus+ con Deportes Total](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes) | El motor, más NBA, ACB, Euroliga, NFL y Premier | 29 €/mes, con los mismos requisitos |
+
+Del 22 de octubre al 1 de noviembre, [DAZN tiene el plan Motor a 9,99 €/mes durante 12 meses](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome), justo para los grandes premios de Estados Unidos y México de F1 y los de Australia y Malasia de MotoGP. Las condiciones aparecen en el alta. Los paquetes de Movistar, con sus requisitos, están en la [página de motor de Movistar](https://www.movistar.es/tv/agenda-deportiva/calendario-formula-1-y-motogp).
+
+## MotoGP: el título, a dos puntos
+
+El Mundial de MotoGP llega a sus cinco últimas carreras con dos españoles separados por dos puntos: **Jorge Martín** (Aprilia) lidera con 355 y **Marc Márquez** (Ducati) suma 353, según la [clasificación de DAZN](https://www.dazn.com/es-ES/news/motor/mundial-motogp-clasificacion-pilotos-campeonato-mundo/sfzeimhd9iv312z131kzc9u3d) tras Indonesia. Pedro Acosta es quinto y Raúl Fernández, séptimo. Lo contamos en [la pieza del duelo](/noticias/jorge-martin-lidera-mundial-motogp-una-victoria-marquez-seis).
+
+Todos los grandes premios tienen carrera al sprint el sábado. Horas en España, ya con el horario de invierno:
+
+| Gran premio | Sprint (sábado) | Carrera (domingo) |
+| --- | --- | --- |
+| Australia, 23-25 de octubre | 24, 6:00 | 25, 4:00 |
+| Malasia, 30 de octubre-1 de noviembre | 31, 8:00 | 1, 8:00 |
+| Catar, 6-8 de noviembre | 7, 18:00 | 8, 18:00 |
+| Portugal, 20-22 de noviembre | 21, 16:00 | 22, 14:00 |
+| Valencia, 27-29 de noviembre | 28, 15:00 | 29, 14:00 |
+
+Catar se aplazó de abril a noviembre y Portugal y Valencia se retrasaron una semana, [según MotoGP](https://www.motogp.com/en/news/2026/03/15/motogp-confirms-new-date-for-the-qatar-grand-prix/1005668). Hay calendarios en circulación con las fechas antiguas.
+
+## Fórmula 1: lo que queda
+
+Quedan seis grandes premios, sin ninguna carrera al sprint. Kimi Antonelli (Mercedes) lidera con 340 puntos; Fernando Alonso (Aston Martin) es 17.º y Carlos Sainz (Williams), 18.º, con 7 puntos cada uno, según la [clasificación oficial](https://www.formula1.com/en/results/2026/drivers).
+
+| Gran premio | Carrera, hora en España |
+| --- | --- |
+| Estados Unidos (Austin) | Domingo 25 de octubre, 21:00 |
+| México | Domingo 1 de noviembre, 21:00 |
+| Brasil | Domingo 8 de noviembre, 18:00 |
+| Las Vegas | Domingo 22 de noviembre, 5:00 |
+| Catar | Domingo 29 de noviembre, 17:00 |
+| Abu Dabi | Domingo 6 de diciembre, 14:00 |
+
+Las Vegas se corre el sábado por la noche allí, de madrugada en España. La clasificación del Mundial, al día, está en la sección de [Fórmula 1](/motor/formula-1), y la de MotoGP, en [MotoGP](/motor/motogp).
+
+## Qué se ve gratis
+
+Este año Mediaset dio en abierto la F1 de Barcelona y Madrid y el MotoGP de Jerez y Catalunya, [según Xataka](https://www.xatakamovil.com/tv-movil/todas-carreras-f1-motogp-que-podremos-ver-gratis-tdt-2026). De lo que queda, solo el **GP de Valencia de MotoGP** está anunciado en abierto; el canal no está confirmado. No hay más F1 en abierto en 2026. Para 2027 no hay nada anunciado. El resto de deportes, en la [guía de dónde ver el deporte en España](/noticias/donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1).`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'Fórmula 1', sport: 'motor', slug: 'formula-1' },
+    sourceName: 'DAZN',
+    sourceUrl: 'https://dazngroup.com/press-room/dazn-renova-os-direitos-de-transmissao-da-formula-1-em-portugal-e-espanha-ate-2030/',
+    sourceLang: 'es',
+    publishedAt: '2026-10-19T19:54:00+02:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'MotoGP: DAZN hasta 2030', url: 'https://www.motogp.com/en/news/2026/07/16/dazn-to-broadcast-motogp-in-spain-until-2030-portugal-until-2031/1078683' },
+      { name: 'Movistar: Fórmula 1 y MotoGP', url: 'https://www.movistar.es/tv/agenda-deportiva/calendario-formula-1-y-motogp' },
+      { name: 'Fórmula 1: clasificación 2026', url: 'https://www.formula1.com/en/results/2026/drivers' },
+      { name: 'Xataka: carreras en abierto en 2026', url: 'https://www.xatakamovil.com/tv-movil/todas-carreras-f1-motogp-que-podremos-ver-gratis-tdt-2026' },
+    ],
+  },
+  {
+    slug: 'donde-ver-premier-league-espana-2026-27-dazn-movistar-precios-serie-a-bundesliga',
+    title: 'Dónde ver la Premier League en España en 2026-27: planes, precios y qué opción te conviene',
+    summary: 'Cómo ver la Premier League en España en 2026-27: qué plan hace falta para ver todos los partidos, cuánto cuesta, qué ofrece Movistar Plus+ y dónde van la Serie A y la Bundesliga.',
+    body: `La Premier League se ve entera en [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome): los 380 partidos de la temporada, normalmente diez por jornada, con derechos en España hasta 2027-28, [según Roams](https://roams.es/actualidad/telefonia/dazn-incorpora-eredivisie-extiende-serie-a/). Movistar Plus+ emite un partido por jornada gracias a un acuerdo con DAZN. En el mismo plan de DAZN van la Serie A y la Bundesliga.
+
+*Esta guía incluye enlaces de afiliado a plataformas de televisión. Si contratas desde ellos, Mundiales recibe una comisión sin coste extra para ti. No cambia lo que contamos.*
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| [DAZN Fútbol](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) | Toda la Premier, Serie A, Bundesliga, media LaLiga, Hypermotion y Liga F | 19,99 €/mes con un año de permanencia, 29,99 €/mes sin ella o 219,99 € en un pago |
+| [DAZN Premium](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) | Lo mismo, más el motor | 31,99 €/mes con permanencia (44,99 € sin ella) |
+| [Movistar Plus+ Libre](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fpremier-league) | Un partido de Premier por jornada, más una selección de Serie A y Bundesliga | 9,99 €/mes, sin permanencia |
+
+Los precios de DAZN son los que recogen [Fútbol por la tele](https://futbolporlatele.com/donde-ver-futbol-dazn/) y [Fútbol Total](https://futboltotal.futbol/noticias/como-ver-futbol-espana-2026-27-guia-canales-precios); la oferta de Movistar es la de su [página de la Premier](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fpremier-league). Los menores de 30 años pagan menos en DAZN: el plan Fútbol sale por 13,99 €/mes con permanencia o 20,99 € sin ella.
+
+## Qué opción te conviene
+
+- **Si sigues a un equipo:** DAZN Fútbol. Con Movistar Plus+ Libre solo ves el partido que eligen cada jornada, normalmente el más grande.
+- **Si solo quieres el partido gordo:** Movistar Plus+ Libre por 9,99 €, que además trae un partido de LaLiga, Champions y Europa League por jornada.
+- **Si también ves LaLiga:** DAZN Fútbol cubre cinco de los diez partidos de cada jornada de LaLiga, así que con él sumas Premier y media Liga. El reparto completo está en la [guía de dónde ver el deporte en España](/noticias/donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1).
+
+## Serie A y Bundesliga
+
+Las dos están completas en DAZN Fútbol, con derechos hasta 2028-29. Movistar Plus+ Libre ofrece una selección de partidos, y Orange TV Libre (7,99 €/mes) da uno de cada liga por jornada, según la [OCU](https://www.ocu.org/tecnologia/internet-telefonia/noticias/donde-ver-futbol). Clasificaciones y resultados en [Serie A](/futbol/serie-a) y [Bundesliga](/futbol/bundesliga).
+
+## Horarios y gratis
+
+La Premier no tiene partidos en abierto en España. Los horarios de cada jornada, en hora española y con el canal de cada partido, están en la sección de la [Premier League](/futbol/premier-league), y lo que se juega cada día, en [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'Premier League', sport: 'futbol', slug: 'premier-league' },
+    sourceName: 'Fútbol por la tele',
+    sourceUrl: 'https://futbolporlatele.com/donde-ver-futbol-dazn/',
+    sourceLang: 'es',
+    publishedAt: '2026-10-19T19:55:00+02:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Roams: derechos de DAZN', url: 'https://roams.es/actualidad/telefonia/dazn-incorpora-eredivisie-extiende-serie-a/' },
+      { name: 'Movistar Plus+: Premier League', url: 'https://www.movistarplus.es/deportes/futbol/premier-league' },
+      { name: 'OCU: dónde ver el fútbol', url: 'https://www.ocu.org/tecnologia/internet-telefonia/noticias/donde-ver-futbol' },
+    ],
+  },
+  {
+    slug: 'donde-ver-tenis-espana-atp-finals-copa-davis-alcaraz-movistar-hbo-max',
+    title: 'Dónde ver el tenis en España: ATP Finals, Copa Davis y los Grand Slam de Alcaraz en 2027',
+    summary: 'Cómo ver el tenis en España: qué emite Movistar Plus+ y qué HBO Max, cuánto cuesta cada opción, las fechas de las ATP Finals y la Copa Davis y dónde irán los Grand Slam de 2027.',
+    body: `El tenis en España se reparte entre [Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ftenis%2Fdonde-ver), que tiene los Masters 1000, Wimbledon, la Copa Davis y las ATP Finals, y Eurosport, dentro de HBO Max, con el Open de Australia y Roland Garros. Lo que queda de 2026 va casi todo en Movistar, y con Carlos Alcaraz en las tres citas grandes.
+
+*Esta guía incluye enlaces de afiliado a plataformas de televisión. Si contratas desde ellos, Mundiales recibe una comisión sin coste extra para ti. No cambia lo que contamos.*
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| [Movistar Plus+ Libre](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ftenis%2Fdonde-ver) | El partido más destacado de cada día de los Masters 1000 y los Grand Slam que emite Movistar | 9,99 €/mes o 99,90 € al año |
+| [Movistar Plus+ en una tarifa miMovistar](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes) | Todas las pistas, en los canales Deportes por M+ | Básico de 14 €/mes dentro de una tarifa miMovistar con fibra y móvil |
+| HBO Max con el complemento Deportes | Open de Australia y Roland Garros (Eurosport), con todas las pistas | 5 €/mes sobre un plan de HBO Max, desde 6,99 €/mes |
+| RTVE | Torneos españoles como el Mutua Madrid Open | Gratis |
+
+La oferta de Movistar está en su [página de dónde ver tenis](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ftenis%2Fdonde-ver); la de HBO Max, en su [página de deportes](https://www.hbomax.com/es/es/sports). Con el plan Libre de Movistar se ve un partido al día, el más destacado, que casi siempre es el de Alcaraz; para ver todas las pistas hace falta la televisión de Movistar.
+
+## Lo que queda de 2026
+
+| Torneo | Fechas | Dónde |
+| --- | --- | --- |
+| Masters 1000 de París | 31 de octubre al 8 de noviembre | Movistar Plus+ |
+| ATP Finals, Turín | 15 al 22 de noviembre | Movistar Plus+ |
+| Copa Davis, fase final en Bolonia | 24 al 29 de noviembre | Movistar Plus+ |
+
+En las **ATP Finals** ya tienen plaza, entre otros, Jannik Sinner, Alcaraz, que juega su quinta edición seguida, y Ben Shelton; Marcel Granollers juega el torneo de dobles con Horacio Zeballos, [según el torneo](https://en.wikipedia.org/wiki/2026_ATP_Finals). Rafael Jódar es octavo en la carrera y se juega la última plaza en París.
+
+En la **Copa Davis**, España se mide a Austria en cuartos el jueves 26 de noviembre, no antes de las 17:00. Si gana, la semifinal es el sábado 28 a las 12:00 y la final, el domingo 29 a las 15:00, [según Flashscore](https://www.flashscore.es/noticias/tenis-copa-davis-finales-2026-espana-jugara-contra-austria-ronda-de-cuartos/xtW0k7zP/). El capitán, David Ferrer, da la lista el 26 de octubre. Movistar emitió en exclusiva la eliminatoria de septiembre contra Chile.
+
+## Los Grand Slam de 2027
+
+| Torneo | Fechas | Dónde |
+| --- | --- | --- |
+| Open de Australia | 17 al 31 de enero | Eurosport (HBO Max) |
+| Roland Garros | 23 de mayo al 6 de junio | Eurosport (HBO Max) |
+| Wimbledon | 28 de junio al 11 de julio | Movistar Plus+ |
+| US Open | 29 de agosto al 12 de septiembre | Por confirmar |
+
+HBO Max anuncia el Open de Australia y Roland Garros en su complemento de deportes, y Eurosport tiene Roland Garros en Europa hasta 2030. Para el US Open las guías no coinciden entre Movistar y Eurosport. Movistar ofrece en su plan Libre el mejor partido de cada día de los Grand Slam que emite.
+
+## Todo el tenis
+
+El calendario del circuito y la clasificación están en las secciones de la [ATP](/tenis/atp) y la [WTA](/tenis/wta), y cómo llega Jódar a Turín, en [esta pieza](/noticias/rafael-jodar-ultima-plaza-turin-atp-finals-quien-puede-quitarsela-basilea-viena-paris). El resto de deportes, en la [guía de dónde ver el deporte en España](/noticias/donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1).`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'ATP', sport: 'tenis', slug: 'atp' },
+    sourceName: 'Movistar Plus+',
+    sourceUrl: 'https://www.movistarplus.es/deportes/tenis/donde-ver',
+    sourceLang: 'es',
+    publishedAt: '2026-10-19T19:56:00+02:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'HBO Max: deportes', url: 'https://www.hbomax.com/es/es/sports' },
+      { name: 'Wikipedia: ATP Finals 2026', url: 'https://en.wikipedia.org/wiki/2026_ATP_Finals' },
+      { name: 'Flashscore: Copa Davis 2026', url: 'https://www.flashscore.es/noticias/tenis-copa-davis-finales-2026-espana-jugara-contra-austria-ronda-de-cuartos/xtW0k7zP/' },
+      { name: 'Movistar Plus+: la Copa Davis', url: 'https://www.movistarplus.es/comunicacion/notas-de-prensa/espana-se-juega-el-billete-a-la-final-a-8-de-la-copa-davis-en-exclusiva-en-movistar-plus/' },
+    ],
+  },
+  {
+    slug: 'donde-ver-ufc-boxeo-espana-hbo-max-eurosport-dazn-topuria-canelo',
+    title: 'Dónde ver la UFC y el boxeo en España: plataformas, precios y las próximas veladas',
+    summary: 'Cómo ver la UFC y el boxeo en España: qué plataforma emite cada uno, cuánto cuesta, las próximas veladas de la UFC, el regreso de Topuria y el Canelo - Mbilli del 31 de octubre.',
+    body: `La UFC y el boxeo se ven en sitios distintos en España. La UFC está en Eurosport, dentro de HBO Max, con todas las veladas en directo. Las grandes veladas de boxeo internacional van sobre todo en [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome), algunas como pago por evento.
+
+*Esta guía incluye enlaces de afiliado a plataformas de televisión. Si contratas desde ellos, Mundiales recibe una comisión sin coste extra para ti. No cambia lo que contamos.*
+
+## La respuesta corta
+
+| Deporte | Dónde | Precio |
+| --- | --- | --- |
+| UFC, todas las veladas | HBO Max con el complemento Deportes (Eurosport) | 5 €/mes sobre un plan de HBO Max, desde 6,99 €/mes |
+| UFC, 14 veladas al año | Eurosport 2, en los operadores que lo incluyen | Según el operador |
+| Boxeo | [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) | Plan de DAZN o pago por evento según la velada |
+
+Lo que cuenta HBO Max está en su [página de deportes](https://www.hbomax.com/es/es/sports): «UFC: todas las peleas». El canal lineal Eurosport 2 solo emite 14 eventos al año, [según Eurosport](https://www.eurosport.es/mma/ufc/2026/calendario-peleas-veladas-2026-fechas-horarios-donde-como-ver-television-online-topuria_sto23253750/story.shtml).
+
+## Las próximas veladas de la UFC
+
+| Fecha | Velada |
+| --- | --- |
+| Sábado 24 de octubre | UFC 333, Volkanovski - Evloev, en Abu Dabi |
+| Sábado 31 de octubre | Fight Night en Las Vegas |
+| Sábado 7 de noviembre | Bonfim - Brady |
+| Sábado 14 de noviembre | UFC 334, en Nueva York |
+| Sábado 12 de diciembre | UFC 335, Oliveira - Lopes y Pavlovich - Pereira |
+
+No hay españoles confirmados en estas carteleras. **Ilia Topuria** perdió contra Justin Gaethje el 14 de junio y aún no tiene fecha de vuelta: las previsiones apuntan a la primavera de 2027, con Arman Tsarukyan o Paddy Pimblett como posibles rivales, [según Infobae](https://www.infobae.com/espana/deportes/2026/10/15/ilia-topuria-calienta-su-regreso-tras-perder-el-invicto-y-ya-esta-mas-cerca-de-su-primer-combate-sere-yo-quien-lo-haga-bajar-de-division/). Su ficha, con todo su historial, está en [Ilia Topuria](/combate/ufc/luchador/ilia-topuria), y los rankings de cada división, en [rankings de la UFC](/combate/ufc/rankings).
+
+## Boxeo en DAZN
+
+La gran cita del otoño es **Canelo Álvarez contra Christian Mbilli**, el sábado 31 de octubre en Riad, en [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) como pago por evento, [según DAZN](https://www.dazn.com/en-US/news/boxing/canelo-alvarez-vs-christian-mbilli-how-to-watch-fight-time-ringwalks-prediction-undercard-news-odds/19uijwuynxykz1wt8mworc2iqq). El combate principal será ya de madrugada en España; el precio en euros aparece al comprarlo. Las veladas de los próximos meses, con su hora en España, están en la sección de [boxeo](/combate/boxeo).
+
+## Para seguirlo todo
+
+Las carteleras y resultados de cada velada están en la sección de la [UFC](/combate/ufc). Qué plataforma emite cada deporte, en la [guía de dónde ver el deporte en España](/noticias/donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1).`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'UFC', sport: 'combate', slug: 'ufc' },
+    sourceName: 'Eurosport',
+    sourceUrl: 'https://www.eurosport.es/mma/ufc/2026/calendario-peleas-veladas-2026-fechas-horarios-donde-como-ver-television-online-topuria_sto23253750/story.shtml',
+    sourceLang: 'es',
+    publishedAt: '2026-10-19T19:57:00+02:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'HBO Max: deportes', url: 'https://www.hbomax.com/es/es/sports' },
+      { name: 'Infobae: Topuria', url: 'https://www.infobae.com/espana/deportes/2026/10/15/ilia-topuria-calienta-su-regreso-tras-perder-el-invicto-y-ya-esta-mas-cerca-de-su-primer-combate-sere-yo-quien-lo-haga-bajar-de-division/' },
+      { name: 'DAZN: Canelo - Mbilli', url: 'https://www.dazn.com/en-US/news/boxing/canelo-alvarez-vs-christian-mbilli-how-to-watch-fight-time-ringwalks-prediction-undercard-news-odds/19uijwuynxykz1wt8mworc2iqq' },
+    ],
+  },
+  {
+    slug: 'donde-ver-liga-f-champions-femenina-2026-27-dazn-tve-disney-gratis',
+    title: 'Dónde ver la Liga F y la Champions femenina en 2026-27: plataformas, precios y lo gratis',
+    summary: 'Cómo ver el fútbol femenino en España en 2026-27: la Liga F en DAZN y gratis en TVE y TV3, la Champions femenina en Disney+, y cuánto cuesta cada opción.',
+    body: `La Liga F se ve entera en [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome), y la mitad de los partidos, gratis: TVE y TV3 emiten cuatro por jornada en abierto. La Champions femenina es de Disney+, que da los 75 partidos sin pagar nada más que la suscripción.
+
+*Esta guía incluye enlaces de afiliado a plataformas de televisión. Si contratas desde ellos, Mundiales recibe una comisión sin coste extra para ti. No cambia lo que contamos.*
+
+## La respuesta corta
+
+| Competición | Dónde | Precio |
+| --- | --- | --- |
+| Liga F, toda la jornada (8 partidos) | [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) | Plan de DAZN con fútbol, desde 19,99 €/mes |
+| Liga F, 4 partidos por jornada | TVE y TV3 (3Cat) | Gratis |
+| Champions femenina, los 75 partidos | Disney+ | Desde 6,99 €/mes (con anuncios) |
+
+## Liga F
+
+DAZN tiene la Liga F tres temporadas, de 2026-27 a 2028-29, en España y Andorra, y emite los ocho partidos de cada jornada. TVE y TV3 dan hasta cuatro en abierto, que también están en DAZN, [según la Liga F](https://en.ligaf.es/new/liga-f-moeve-achieves-the-best-television-start-in-its-history), que habla del mejor arranque televisivo de su historia. El plan Fútbol de DAZN cuesta 19,99 €/mes con un año de permanencia o 29,99 € sin ella. La clasificación, los resultados y el calendario están en la sección de la [Liga F](/futbol/liga-f).
+
+## Champions femenina
+
+Disney+ emite los 75 partidos de la competición en directo, incluidos en la suscripción, [según Disney](https://prensa.disney.es/noticias/la-uefa-women's-champions-league-regresa-a-disney+-con-todos-los-partidos-en-directo-a-partir-de-hoy-22-de-septiembre). El acuerdo va hasta 2029-30. El Barça defiende el título, y la final de 2027 se juega en el Estadio Nacional de Varsovia.
+
+| Plan de Disney+ | Mensual | Anual |
+| --- | --- | --- |
+| Estándar con anuncios | 6,99 € | — |
+| Estándar | 10,99 € | 109,90 € |
+| Prémium | 15,99 € | 159,90 € |
+
+Los precios son los de la [web de Disney+](https://www.disneyplus.com/es-es). La competición entera, en la sección de la [Champions femenina](/futbol/champions-femenina).
+
+## Las españolas y el Balón de Oro
+
+Seis españolas optan al Balón de Oro el 26 de octubre, y Aitana Bonmatí, ganadora de los tres últimos, se ha quedado fuera de la lista: [lo contamos aquí](/noticias/aitana-bonmati-tres-balones-de-oro-fuera-nominadas-2026-fractura). El resto de deportes, en la [guía de dónde ver el deporte en España](/noticias/donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1).`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'Liga F', sport: 'futbol', slug: 'liga-f' },
+    sourceName: 'Liga F',
+    sourceUrl: 'https://en.ligaf.es/new/liga-f-moeve-achieves-the-best-television-start-in-its-history',
+    sourceLang: 'en',
+    publishedAt: '2026-10-19T19:58:00+02:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Disney: la Champions femenina en Disney+', url: 'https://prensa.disney.es/noticias/la-uefa-women\'s-champions-league-regresa-a-disney+-con-todos-los-partidos-en-directo-a-partir-de-hoy-22-de-septiembre' },
+      { name: 'Advanced Television: derechos de la Liga F', url: 'https://www.advanced-television.com/2026/08/20/spain-dazn-tve-tv3-secure-liga-f-rights/' },
+    ],
+  },
+  {
     slug: 'donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1',
     title: 'Dónde ver el deporte en España en 2026-27: canales y precios de cada competición, una a una',
     summary: 'Guía de la temporada 2026-27: dónde se ve en España LaLiga, la Champions, la Premier, la NBA, la F1, MotoGP, el tenis o la NFL, qué plan hace falta, cuánto cuesta y qué es gratis.',
@@ -173,7 +777,7 @@ export const NEWS_ITEMS: NewsItem[] = [
 | Liga F | [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome), con 4 partidos en abierto en TVE y TV3 | DAZN Fútbol |
 | Champions femenina | Disney+ | Suscripción a Disney+ |
 | NBA | [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) y [Prime Video](https://www.amazon.es/amazonprime?tag=nuus-21) | Prime Video, incluido en Amazon Prime |
-| Euroliga | [Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Fbaloncesto) en exclusiva | Movistar Plus+ independiente, 9,99 €/mes |
+| Euroliga | [Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Fbaloncesto) en exclusiva | Paquete Baloncesto de Movistar, 10 €/mes sobre el básico (el plan Libre de 9,99 € solo da los 2 mejores partidos por jornada) |
 | Liga Endesa | [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) (todos los partidos) y Movistar (dos por jornada) | DAZN |
 | Fórmula 1 y MotoGP | [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome), también dentro de Movistar | DAZN Motor |
 | Tenis | [Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ftenis%2Fdonde-ver) y Eurosport (HBO Max) | Depende del torneo |
@@ -189,7 +793,7 @@ Es el reparto que más confunde. En 35 de las 38 jornadas, Movistar Plus+ emite 
 - **Movistar Plus+ con el paquete LaLiga** (36 €/mes, más Movistar Plus+ a 14 €/mes) o **Fútbol Total** (50 €/mes). Se contratan con fibra y móvil de Movistar e incluyen los canales de DAZN, así que con ellos se ve la jornada completa. [Ver la oferta de Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol).
 - **[DAZN Fútbol](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome)** cubre solo la mitad de cada jornada. Cuesta 19,99 €/mes con permanencia de un año, 29,99 €/mes sin permanencia o 219,99 € de una vez, [según Kelisto](https://www.kelisto.es/internet/consejos-y-analisis/futbol-dazn).
 
-DAZN da gratis un partido por jornada a quien se registre, y Movistar Plus+ Libre (9,99 €/mes, sin permanencia) y Orange TV Libre (7,99 €/mes) incluyen uno por jornada. El **Clásico del domingo 25 de octubre**, Barcelona - Real Madrid a las 21:00, va en DAZN: la plataforma tiene una oferta de [9,99 €/mes durante 12 meses](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) válida hasta ese mismo día. El horario y el canal de cada partido están en el [calendario de LaLiga](/futbol/laliga/calendario).
+DAZN da gratis un partido por jornada a quien se registre, y Movistar Plus+ Libre (9,99 €/mes, sin permanencia) y Orange TV Libre (7,99 €/mes) incluyen uno por jornada. El **Clásico del domingo 25 de octubre**, Barcelona - Real Madrid a las 21:00, va en DAZN: la plataforma tiene una oferta de [9,99 €/mes durante 12 meses](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) válida hasta ese mismo día. El horario y el canal de cada partido están en el [calendario de LaLiga](/futbol/laliga/calendario), y todo el detalle, en la [guía de dónde ver LaLiga](/noticias/donde-ver-laliga-2026-27-movistar-dazn-precios-jornadas-exclusivas-clasico).
 
 ### LaLiga Hypermotion
 
@@ -201,15 +805,15 @@ La Copa se reparte entre [Movistar Plus+](https://www.awin1.com/cread.php?awinmi
 
 ### Champions, Europa League y Conference League
 
-Las tres competiciones europeas son exclusivas de [Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol): el paquete Champions (24 €/mes) las incluye todas, y Fútbol Total (50 €/mes) suma además LaLiga, la Copa y la Supercopa. Movistar Plus+ Libre ofrece un partido de Champions y otro de Europa League por jornada; Orange TV Libre, uno de Champions. La final del 5 de junio de 2027 en el Metropolitano se podrá ver en abierto en La 1. Cuadro y partidos, en la [Champions League](/futbol/champions-league), la [Europa League](/futbol/europa-league) y la [Conference League](/futbol/conference-league).
+Las tres competiciones europeas son exclusivas de [Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol): el paquete Champions (24 €/mes) las incluye todas, y Fútbol Total (50 €/mes) suma además LaLiga, la Copa y la Supercopa. Movistar Plus+ Libre ofrece un partido de Champions y otro de Europa League por jornada; Orange TV Libre, uno de Champions. La final del 5 de junio de 2027 en el Metropolitano se podrá ver en abierto en La 1. Calendario y precios, en la [guía de dónde ver la Champions](/noticias/donde-ver-champions-league-2026-27-espana-movistar-precios-final-metropolitano).
 
 ### Premier League, Serie A y Bundesliga
 
-Las tres grandes ligas extranjeras están en [DAZN Fútbol](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome), que tiene la Premier en España hasta 2027-28. Movistar Plus+ Libre emite un partido de Premier por jornada; Orange TV Libre, uno de Serie A y otro de Bundesliga. Clasificaciones y resultados: [Premier League](/futbol/premier-league), [Serie A](/futbol/serie-a) y [Bundesliga](/futbol/bundesliga).
+Las tres grandes ligas extranjeras están en [DAZN Fútbol](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome), que tiene la Premier en España hasta 2027-28. Movistar Plus+ Libre emite un partido de Premier por jornada; Orange TV Libre, uno de Serie A y otro de Bundesliga. Más detalle en la [guía de dónde ver la Premier League](/noticias/donde-ver-premier-league-espana-2026-27-dazn-movistar-precios-serie-a-bundesliga).
 
 ### Fútbol femenino
 
-La [Liga F](/futbol/liga-f) está entera en [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome), con cuatro partidos por jornada en abierto en TVE y TV3, [según Las Futbolistas](https://lasfutbolistas.com/donde-ver-la-liga-f-2026-2027-dazn-rtve/). La [Champions femenina](/futbol/champions-femenina) es de Disney+ hasta 2029-30.
+La [Liga F](/futbol/liga-f) está entera en [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome), con cuatro partidos por jornada en abierto en TVE y TV3, [según Las Futbolistas](https://lasfutbolistas.com/donde-ver-la-liga-f-2026-2027-dazn-rtve/). La [Champions femenina](/futbol/champions-femenina) es de Disney+ hasta 2029-30. Precios y partidos gratis, en la [guía del fútbol femenino](/noticias/donde-ver-liga-f-champions-femenina-2026-27-dazn-tve-disney-gratis).
 
 ## Baloncesto, motor y otros deportes
 
@@ -219,19 +823,19 @@ La NBA ya no es de Movistar. [DAZN](https://www.awin1.com/cread.php?awinmid=1262
 
 ### Euroliga y Liga Endesa
 
-La Euroliga es exclusiva de [Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Fbaloncesto): paquete Baloncesto (10 €/mes), Deportes Total (29 €/mes) o la suscripción independiente (9,99 €/mes), [según Roams](https://roams.es/companias-telefonicas/movistar/guias/television/euroliga/). La Liga Endesa tiene a [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) como plataforma principal, con todos los partidos; Movistar emite dos por jornada y hay uno gratis cada semana. TV3, TVG, Aragón TV y EITB dan partidos en abierto los domingos por la mañana, [como recoge Gigantes](https://www.gigantes.com/liga-endesa/liga-endesa-television-abierto-autonomicas/). Secciones de la [Euroliga](/baloncesto/euroliga) y la [Liga Endesa](/baloncesto/liga-endesa).
+La Euroliga es exclusiva de [Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Fbaloncesto): paquete Baloncesto (10 €/mes), Deportes Total (29 €/mes); el plan Libre (9,99 €/mes) solo trae los dos mejores partidos de cada jornada, [según Roams](https://roams.es/companias-telefonicas/movistar/guias/television/euroliga/). La Liga Endesa tiene a [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) como plataforma principal, con todos los partidos; Movistar emite dos por jornada y hay uno gratis cada semana. TV3, TVG, Aragón TV y EITB dan partidos en abierto los domingos por la mañana, [como recoge Gigantes](https://www.gigantes.com/liga-endesa/liga-endesa-television-abierto-autonomicas/). Guías completas: [dónde ver la Euroliga](/noticias/donde-ver-euroliga-2026-27-espana-movistar-precios-real-madrid-barca) y [dónde ver la Liga Endesa](/noticias/donde-ver-liga-endesa-2026-27-dazn-movistar-gratis-autonomicas).
 
 ### Fórmula 1 y MotoGP
 
-Las dos están en [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) y, para clientes de Movistar, en los canales DAZN F1 y DAZN MotoGP del paquete Motor o de Deportes Total. DAZN tiene una oferta relámpago de su plan Motor a 9,99 €/mes durante 12 meses del 22 de octubre al 1 de noviembre, con los grandes premios de Estados Unidos y México de F1 y los de Australia y Malasia de MotoGP. Clasificaciones en [Fórmula 1](/motor/formula-1) y [MotoGP](/motor/motogp).
+Las dos están en [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) y, para clientes de Movistar, en los canales DAZN F1 y DAZN MotoGP del paquete Motor o de Deportes Total. DAZN tiene una oferta relámpago de su plan Motor a 9,99 €/mes durante 12 meses del 22 de octubre al 1 de noviembre, con los grandes premios de Estados Unidos y México de F1 y los de Australia y Malasia de MotoGP. Horarios de las carreras que quedan, en la [guía de dónde ver la F1 y MotoGP](/noticias/donde-ver-f1-motogp-espana-2026-dazn-precios-carreras-que-quedan).
 
 ### Tenis
 
-[Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ftenis%2Fdonde-ver) emite los nueve Masters 1000, Wimbledon y la Copa Davis; el Open de Australia y Roland Garros van en Eurosport, dentro de HBO Max. Con el US Open las guías no coinciden: conviene comprobarlo antes del torneo. RTVE da en abierto torneos españoles como el Mutua Madrid Open y el Godó. Calendario del circuito en [ATP](/tenis/atp) y [WTA](/tenis/wta).
+[Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ftenis%2Fdonde-ver) emite los nueve Masters 1000, Wimbledon y la Copa Davis; el Open de Australia y Roland Garros van en Eurosport, dentro de HBO Max. Con el US Open las guías no coinciden: conviene comprobarlo antes del torneo. RTVE da en abierto torneos españoles como el Mutua Madrid Open y el Godó. Fechas de las ATP Finals, la Davis y los Grand Slam de 2027, en la [guía de dónde ver el tenis](/noticias/donde-ver-tenis-espana-atp-finals-copa-davis-alcaraz-movistar-hbo-max).
 
 ### NFL, UFC y boxeo
 
-La NFL completa, con NFL RedZone, está en [NFL Game Pass de DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fnfl-game-pass), que tiene un 25 % de descuento para el resto de la temporada hasta el 15 de noviembre. DAZN emite además cinco partidos por semana y la Super Bowl dentro de DAZN Fútbol. La UFC va en Eurosport y HBO Max, [según Eurosport](https://www.eurosport.es/mma/ufc/2026/calendario-peleas-veladas-2026-fechas-horarios-donde-como-ver-television-online-topuria_sto23253750/story.shtml). El boxeo de las grandes veladas internacionales se ve sobre todo en [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome). Todo en [NFL](/futbol-americano/nfl), [UFC](/combate/ufc) y [boxeo](/combate/boxeo).
+La NFL completa, con NFL RedZone, está en [NFL Game Pass de DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fnfl-game-pass), que tiene un 25 % de descuento para el resto de la temporada hasta el 15 de noviembre. DAZN emite además cinco partidos por semana y la Super Bowl dentro de DAZN Fútbol. La UFC va en Eurosport y HBO Max, [según Eurosport](https://www.eurosport.es/mma/ufc/2026/calendario-peleas-veladas-2026-fechas-horarios-donde-como-ver-television-online-topuria_sto23253750/story.shtml). El boxeo de las grandes veladas internacionales se ve sobre todo en [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome). Guías completas: [dónde ver la NFL](/noticias/donde-ver-nfl-espana-2026-dazn-game-pass-precios-horarios-bernabeu) y [dónde ver la UFC y el boxeo](/noticias/donde-ver-ufc-boxeo-espana-hbo-max-eurosport-dazn-topuria-canelo).
 
 ## Cuánto cuesta verlo todo
 
@@ -270,6 +874,7 @@ Cada día, el canal de cada partido está en la página de [partidos de hoy](/pa
     sourceUrl: 'https://www.ocu.org/tecnologia/internet-telefonia/noticias/donde-ver-futbol',
     sourceLang: 'es',
     publishedAt: '2026-10-19T19:35:00+02:00',
+    modifiedAt: '2026-10-19T20:00:00+02:00',
     author: 'Redacción Mundiales',
     sourcesSecondary: [
       { name: 'Kelisto: DAZN Fútbol', url: 'https://www.kelisto.es/internet/consejos-y-analisis/futbol-dazn' },
