@@ -154,6 +154,222 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'aitana-bonmati-tres-balones-de-oro-fuera-nominadas-2026-fractura',
+    title: 'Aitana Bonmatí, la única con tres Balones de Oro, se queda fuera de las 30 tras romperse la pierna',
+    summary: 'Aitana Bonmatí ganó el Balón de Oro en 2023, 2024 y 2025, pero una fractura en noviembre la dejó cinco meses fuera. Seis españolas optan al premio el 26 de octubre en Londres.',
+    body: `Aitana Bonmatí es la única futbolista que ha ganado tres veces el Balón de Oro, en 2023, 2024 y 2025. Este año no estará en la lista. Las 30 nominadas de la gala del lunes 26 en Londres [se conocieron en septiembre](https://en.wikipedia.org/wiki/2026_Ballon_d%27Or) y su nombre no aparece.
+
+## La primera lesión grave
+
+En noviembre de 2025, concentrada con la selección para la fase final de la Liga de Naciones, se rompió la pierna en un entrenamiento. Tuvo que pasar por el quirófano, [según recoge su biografía](https://en.wikipedia.org/wiki/Aitana_Bonmat%C3%AD), y era la primera lesión de ese calibre en su carrera.
+
+Estuvo unos cinco meses fuera. Volvió como suplente en la semifinal de la Champions contra el Bayern de Múnich, [como contó Excélsior](https://www.excelsior.com.mx/deportes/fin-era-aitana-bonmati-queda-fuera-para-balon-oro-2026) al conocerse la lista.
+
+## Una temporada de títulos, pero corta
+
+El Barça ganó en 2025-26 la Liga F, la Copa de la Reina y la Champions. Aitana estuvo en el tramo final, con 22 partidos y 7 goles en toda la temporada. No bastó para entrar en la lista: el premio mira el año completo y ella se perdió casi la mitad.
+
+| Año | Balón de Oro femenino |
+| --- | --- |
+| 2021 | Alexia Putellas |
+| 2022 | Alexia Putellas |
+| 2023 | Aitana Bonmatí |
+| 2024 | Aitana Bonmatí |
+| 2025 | Aitana Bonmatí |
+
+Son cinco ediciones seguidas con ganadora española. En 2020 no se entregó por la pandemia.
+
+## Las seis que sí están
+
+España sigue siendo el país con más candidatas. Optan Mariona Caldentey (Arsenal), Cata Coll, Patri Guijarro, Mapi León, Clàudia Pina y Alexia Putellas, la que abrió la racha.
+
+El premio se entrega el lunes 26 de octubre en el London Palladium, a las 21:00 en España. La [Liga F](/futbol/liga-f) ya está en marcha y Aitana, de vuelta en el Barça y en la [selección](/selecciones/ESP), juega para estar en la lista de 2027.`,
+    category: 'general',
+    kind: 'noticia',
+    sourceName: 'Wikipedia (Aitana Bonmatí)',
+    sourceUrl: 'https://en.wikipedia.org/wiki/Aitana_Bonmat%C3%AD',
+    sourceLang: 'en',
+    publishedAt: '2026-10-19T19:16:00+02:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/1/15/Aitana_Bonmat%C3%AD_20190421.jpg',
+      alt: 'Aitana Bonmatí, con la equipación amarilla fosforito del Barça y el dorsal 14, flexiona las piernas atenta al juego sobre el césped, con una valla publicitaria detrás',
+      credit: 'El Loko Foto · Wikimedia Commons',
+      license: 'CC BY 4.0',
+    },
+    sourcesSecondary: [
+      { name: 'Excélsior', url: 'https://www.excelsior.com.mx/deportes/fin-era-aitana-bonmati-queda-fuera-para-balon-oro-2026' },
+      { name: 'Wikipedia: 2026 Ballon d\'Or', url: 'https://en.wikipedia.org/wiki/2026_Ballon_d%27Or' },
+      { name: 'Wikipedia: Ballon d\'Or Féminin', url: 'https://en.wikipedia.org/wiki/Ballon_d%27Or_F%C3%A9minin' },
+    ],
+  },
+  {
+    slug: 'ferran-torres-gol-final-mundial-balon-de-oro-iniesta-2010-messi',
+    title: 'Ferran Torres llega al Balón de Oro con el gol de una final del Mundial, como Iniesta en 2010',
+    summary: 'Ferran Torres marcó el 1-0 de la final del Mundial 2026 y está entre los 30 del Balón de Oro. En 2010, con el gol de Iniesta, el premio fue para Messi. Qué dice la historia.',
+    body: `Ferran Torres marcó en el minuto 106 de la final del Mundial y España [ganó 1-0 a Argentina en el MetLife](https://es.euronews.com/2026/07/19/espana-conquista-mundial-2026-ante-argentina-gol-ferran-torres). Tres meses después es uno de los 30 nominados al Balón de Oro, que se entrega el lunes 26 en Londres. Hace dieciséis años otro español llegó a la misma gala con el mismo gol en la mochila y se fue sin premio.
+
+## 2010: el gol de Iniesta y el voto
+
+Andrés Iniesta [marcó en el 116′ de la final de Johannesburgo](/noticias/gol-iniesta-final-mundial-2010-espana-campeona-mundo-primera-vez) y España fue campeona del mundo por primera vez. En enero de 2011, en Zúrich, el Balón de Oro FIFA fue para Lionel Messi. Iniesta quedó segundo y Xavi, tercero, [según el recuento oficial](https://en.wikipedia.org/wiki/2010_FIFA_Ballon_d%27Or):
+
+| Puesto | Jugador | Porcentaje de votos |
+| --- | --- | --- |
+| 1 | Lionel Messi | 22,65 % |
+| 2 | Andrés Iniesta | 17,36 % |
+| 3 | Xavi Hernández | 16,48 % |
+
+Entre los dos españoles sumaron casi el 34 % de los votos; Messi ganó con menos de una cuarta parte. Iniesta volvió al podio en 2012, tercero, y nunca lo ganó. En 2018 la propia France Football [le pidió disculpas en un editorial](https://www.elespanol.com/deportes/futbol/20180424/france-football-andres-iniesta-no-balon-oro/302220543_0.html) por no habérselo dado.
+
+Este mes, en una entrevista con SPORT, Iniesta dijo que le encantaría que este año lo ganara un español y que [«por justicia» tendría que ser así](https://www.youtube.com/watch?v=l9Jw6DBqvYA&t=564s).
+
+## El Mundial no garantiza nada
+
+En los 17 años de Mundial con Balón de Oro, el premio fue a parar a un campeón del mundo seis veces:
+
+| Año | Ganador | Selección campeona |
+| --- | --- | --- |
+| 1966 | Bobby Charlton | Inglaterra |
+| 1982 | Paolo Rossi | Italia |
+| 1990 | Lothar Matthäus | Alemania Federal |
+| 1998 | Zinedine Zidane | Francia |
+| 2002 | Ronaldo | Brasil |
+| 2006 | Fabio Cannavaro | Italia |
+
+Las otras once veces ganó alguien que no levantó la copa. En 2014 Alemania fue campeona y el premio fue para Cristiano Ronaldo; en 2018 Francia ganó en Rusia y se lo llevó Luka Modrić, finalista. El de 2022 se entregó antes del Mundial de Catar y fue para Karim Benzema. La lista completa está en el [palmarés del premio](https://en.wikipedia.org/wiki/Ballon_d%27Or).
+
+## Lo que tiene Ferran
+
+Esta vez el calendario juega a favor: la temporada que se vota acaba el 19 de julio de 2026, el día de la final. España suma tres ganadores y cuatro trofeos: Alfredo Di Stéfano (1957 y 1959, español desde 1956), Luis Suárez (1960) y Rodri (2024). Lamine Yamal fue segundo en 2025.
+
+Ferran comparte lista con cinco compañeros de la [selección campeona](/selecciones/ESP), y es el único de los 30 que marcó en una final de Mundial este verano. Todo el torneo está en el [archivo del Mundial 2026](/2026).`,
+    category: 'general',
+    kind: 'noticia',
+    sourceName: 'Wikipedia (2010 FIFA Ballon d\'Or)',
+    sourceUrl: 'https://en.wikipedia.org/wiki/2010_FIFA_Ballon_d%27Or',
+    sourceLang: 'en',
+    publishedAt: '2026-10-19T19:12:00+02:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Ferran_Torres_Argentina_v_Spain_19_July_2026-233.jpg/1280px-Ferran_Torres_Argentina_v_Spain_19_July_2026-233.jpg',
+      alt: 'Ferran Torres, de espaldas con el dorsal 7 de España, corre a celebrar con el brazo derecho en alto hacia la banda, donde aficionados y fotógrafos le miran',
+      credit: 'Bryan Berlin · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+    sourcesSecondary: [
+      { name: 'Euronews: España gana el Mundial', url: 'https://es.euronews.com/2026/07/19/espana-conquista-mundial-2026-ante-argentina-gol-ferran-torres' },
+      { name: 'SPORT: entrevista a Iniesta (vídeo)', url: 'https://www.youtube.com/watch?v=l9Jw6DBqvYA' },
+      { name: 'Wikipedia: Ballon d\'Or', url: 'https://en.wikipedia.org/wiki/Ballon_d%27Or' },
+      { name: 'El Español: France Football e Iniesta', url: 'https://www.elespanol.com/deportes/futbol/20180424/france-football-andres-iniesta-no-balon-oro/302220543_0.html' },
+    ],
+  },
+  {
+    slug: 'oyarzabal-cinco-goles-mundial-2026-fuera-balon-de-oro-villa-butragueno',
+    title: 'Oyarzabal igualó a Villa y Butragueño en el Mundial que ganó España y no está en el Balón de Oro',
+    summary: 'Mikel Oyarzabal marcó cinco goles en el Mundial 2026, récord español compartido con Villa y Butragueño, y no figura entre los 30 nominados al Balón de Oro. Seis compañeros sí.',
+    body: `Mikel Oyarzabal fue el máximo goleador de la España campeona del mundo. Marcó cinco goles en el Mundial 2026 y no está entre los 30 nominados al Balón de Oro que se entrega el 26 de octubre en Londres. De aquel equipo sí están seis: Pau Cubarsí, Marc Cucurella, Rodri, Fabián Ruiz, Ferran Torres y Lamine Yamal, [según la lista de candidatos](https://en.wikipedia.org/wiki/2026_Ballon_d%27Or).
+
+## Cinco goles, un récord compartido
+
+Oyarzabal marcó dos a Arabia Saudí en la fase de grupos, otros dos a Austria en dieciseisavos y uno de penalti a Francia en la semifinal. Con ese último [igualó el récord de goles de un español en una sola edición](https://en.wikipedia.org/wiki/Mikel_Oyarzabal), que tenían Emilio Butragueño, con cinco en México 86, y David Villa, con otros cinco en Sudáfrica 2010.
+
+| Partido | Ronda | Resultado | Goles de Oyarzabal |
+| --- | --- | --- | --- |
+| España - Arabia Saudí | Grupos | 4-0 | 2 (21′ y 24′) |
+| España - Austria | Dieciseisavos | 3-0 | 2 (36′ y 89′) |
+| España - Francia | Semifinal | 2-0 | 1 (22′, de penalti) |
+
+Los datos de cada partido están en el [archivo del Mundial 2026](/2026).
+
+## Quién marcó en la España campeona
+
+España hizo 14 goles en ocho partidos, uno de ellos en propia meta de Arabia Saudí. Estos son los goleadores y su sitio en la lista del Balón de Oro:
+
+| Jugador | Goles en el Mundial | ¿Nominado? |
+| --- | --- | --- |
+| Mikel Oyarzabal | 5 | No |
+| Pedro Porro | 2 | No |
+| Mikel Merino | 2 | No |
+| Lamine Yamal | 1 | Sí |
+| Fabián Ruiz | 1 | Sí |
+| Ferran Torres | 1 | Sí |
+| Álex Baena | 1 | No |
+
+Merino decidió dos eliminatorias en el tramo final: el 1-0 a Portugal en el 91′ de los octavos y el 2-1 a Bélgica en el 88′ de los cuartos. Ferran Torres hizo el de la final, en el 106′.
+
+## Por qué se puede quedar fuera
+
+El premio no se vota solo con el Mundial. Cubre la temporada entera, del 3 de agosto de 2025 al 19 de julio de 2026, y ahí pesan la Liga, la Champions y los títulos de club. La lista de 30 la elabora la organización y después vota un jurado de periodistas.
+
+Tampoco Villa ni Butragueño ganaron el Balón de Oro en sus años de cinco goles: en 1986 fue para Ígor Belánov y en 2010, para Messi. La ficha del capitán de la Real Sociedad con [la selección](/selecciones/ESP) y la de su club en [LaLiga](/futbol/laliga) siguen abiertas; la gala del 26 dirá qué pesó más en el voto.`,
+    category: 'general',
+    kind: 'noticia',
+    sourceName: 'Wikipedia (2026 Ballon d\'Or)',
+    sourceUrl: 'https://en.wikipedia.org/wiki/2026_Ballon_d%27Or',
+    sourceLang: 'en',
+    publishedAt: '2026-10-19T19:08:00+02:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Mikel_Oyarzabal_Argentina_v_Spain_19_July_2026-122.jpg/1280px-Mikel_Oyarzabal_Argentina_v_Spain_19_July_2026-122.jpg',
+      alt: 'Mikel Oyarzabal camina por el césped con la camiseta roja de España y el dorsal 21, serio, con la grada llena desenfocada detrás',
+      credit: 'Bryan Berlin · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+    sourcesSecondary: [
+      { name: 'Wikipedia: Mikel Oyarzabal', url: 'https://en.wikipedia.org/wiki/Mikel_Oyarzabal' },
+      { name: 'Sports Illustrated: lista de nominados', url: 'https://www.si.com/soccer/ballon-dor-2026-full-list-nominees' },
+    ],
+  },
+  {
+    slug: 'gala-balon-de-oro-2026-londres-horario-espana-donde-ver-espanoles-nominados',
+    title: 'Gala del Balón de Oro 2026 en Londres: horario en España, dónde verla y los españoles que optan',
+    summary: 'La gala del Balón de Oro 2026 se celebra el lunes 26 de octubre en el London Palladium. Horario en España y Canarias, quién la emite y los españoles nominados en cada premio.',
+    body: `El Balón de Oro sale de Francia por primera vez en 70 años. La gala de 2026 se celebra el **lunes 26 de octubre en el London Palladium**, en Londres, un guiño a Stanley Matthews, el inglés que ganó la primera edición en 1956. Y es la primera desde que [España ganó el Mundial](/2026): los premios masculinos cubren la temporada que acabó con esa final.
+
+## Horario y televisión
+
+La ceremonia empieza a las 20:00 en Londres. España ya habrá vuelto al horario de invierno el domingo 25, así que la diferencia es de una hora.
+
+| Dónde | Hora |
+| --- | --- |
+| España peninsular y Baleares | 21:00 |
+| Canarias | 20:00 |
+| Londres | 20:00 |
+
+En España la gala es **exclusiva de Movistar Plus+**, que la ofrecerá dentro de El Día Después, [según anunció la plataforma en agosto](https://www.academiatv.es/vuelve-el-dia-despues-a-movistar-plus/). DAZN la emite gratis en 200 países, pero España está entre los territorios excluidos de ese acuerdo, como recoge la [nota de prensa de DAZN del 8 de septiembre](https://dazngroup.com/press-room/dazn-will-broadcast-the-ballon-dor-to-fans-around-the-world/).
+
+## Los españoles que optan
+
+España llega con seis nominados en cada uno de los dos premios principales, [según la lista completa de candidatos](https://en.wikipedia.org/wiki/2026_Ballon_d%27Or):
+
+| Premio | Españoles nominados |
+| --- | --- |
+| Balón de Oro | Pau Cubarsí, Marc Cucurella, Rodri, Fabián Ruiz, Ferran Torres, Lamine Yamal |
+| Balón de Oro femenino | Mariona Caldentey, Cata Coll, Patri Guijarro, Mapi León, Clàudia Pina, Alexia Putellas |
+| Trofeo Kopa (mejor joven) | Pau Cubarsí, Lamine Yamal |
+| Trofeo Yashin (mejor portero) | Joan García, David Raya, Unai Simón |
+
+Lamine Yamal fue segundo en 2025, por detrás de Ousmane Dembélé, que defiende el título. Rodri ya lo ganó en 2024. Tres de los diez porteros que optan al Yashin son españoles.
+
+## Qué se premia
+
+Los premios masculinos cubren del 3 de agosto de 2025 al 19 de julio de 2026, el día de la final del Mundial en Nueva Jersey. Cuenta toda la temporada de clubes y el torneo entero, con el 1-0 a Argentina en la prórroga.
+
+Además del Balón de Oro masculino y femenino se entregan los trofeos Kopa y Yashin en las dos categorías, los de entrenador y club del año, el Gerd Müller al máximo goleador y el premio Sócrates a la labor social. La ficha de la [selección española](/selecciones/ESP) tiene el camino completo de la campeona del mundo.`,
+    category: 'general',
+    kind: 'noticia',
+    sourceName: 'Academia TV',
+    sourceUrl: 'https://www.academiatv.es/vuelve-el-dia-despues-a-movistar-plus/',
+    sourceLang: 'es',
+    publishedAt: '2026-10-19T19:04:00+02:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'DAZN Group: nota de prensa', url: 'https://dazngroup.com/press-room/dazn-will-broadcast-the-ballon-dor-to-fans-around-the-world/' },
+      { name: 'Wikipedia: 2026 Ballon d\'Or', url: 'https://en.wikipedia.org/wiki/2026_Ballon_d%27Or' },
+      { name: 'Sports Illustrated: lista de nominados', url: 'https://www.si.com/soccer/ballon-dor-2026-full-list-nominees' },
+    ],
+  },
+  {
     slug: 'funes-mori-ovacion-estudiantes-flamengo-ni-en-river-villarreal',
     title: 'Ramiro Funes Mori llegó señalado por un error y La Plata le dio lo que no le dio ni River',
     summary: 'Ramiro Funes Mori, campeón de la Europa League con el Villarreal, fue ovacionado en el 0-0 de Estudiantes ante Flamengo, cinco días después de un error. La vuelta es el jueves en Maracaná.',
