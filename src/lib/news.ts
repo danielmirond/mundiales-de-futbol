@@ -154,6 +154,182 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'funes-mori-ovacion-estudiantes-flamengo-ni-en-river-villarreal',
+    title: 'Ramiro Funes Mori llegó señalado por un error y La Plata le dio lo que no le dio ni River',
+    summary: 'Ramiro Funes Mori, campeón de la Europa League con el Villarreal, fue ovacionado en el 0-0 de Estudiantes ante Flamengo, cinco días después de un error. La vuelta es el jueves en Maracaná.',
+    body: `Ramiro Funes Mori llegó a la ida de las semifinales de la Copa Libertadores con el foco encima. Cinco días antes, el 10 de octubre, Estudiantes había empatado 2-2 en Santiago del Estero ante Central Córdoba y a él le [señalaron una equivocación](https://www.mdzol.com/deportes/2026/10/16/el-palito-de-funes-mori-a-la-hinchada-river-tras-la-tremenda-ovacion-que-recibio-en-estudiantes-1988656.html) en ese partido.
+
+El jueves 15, en el estadio UNO de La Plata, la grada respondió con una ovación. Estudiantes y Flamengo empataron 0-0, según el [acta del partido en ESPN](https://www.espn.com/soccer/match/_/gameId/401912523), y el central de 35 años firmó un partido sólido, sin errores. A pie de campo, ante los micrófonos de ESPN, lo resumió con una frase que en Buenos Aires se leyó como un recado a su exclub: «No me pasó ni en River ni en otro lado».
+
+## Por qué jugó
+
+Funes Mori no partía como titular fijo. Entró en el once por dos ausencias: Leandro González Pirez estaba sancionado y Marcos Rojo no había sido habilitado por la CONMEBOL para la Libertadores, según MDZ. En la misma charla admitió que necesitaba ese partido en lo personal.
+
+La frase sobre River tiene contexto. Volvió al club de Núñez a mediados de 2023 con contrato hasta finales de 2026, pero a principios de 2025, sin sitio con Marcelo Gallardo, rescindió y se fue a Estudiantes, [como recoge su biografía](https://es.wikipedia.org/wiki/Ramiro_Funes_Mori). En La Plata ya ha ganado dos títulos: el Torneo Clausura 2025 y el Trofeo de Campeones.
+
+## El paso por Vila-real
+
+En España se le recuerda por tres temporadas en el [Villarreal](/futbol/laliga/equipo/102). Llegó del Everton en junio de 2018 y se fue al Al-Nassr en 2021, con la Europa League de Gdansk en el palmarés.
+
+| Temporada | Club | Partidos | Goles |
+| --- | --- | --- | --- |
+| 2018-19 | Villarreal | 42 | 2 |
+| 2019-20 | Villarreal | 12 | 1 |
+| 2020-21 | Villarreal | 20 | 0 |
+| Total | Villarreal | 74 | 3 |
+
+Las cifras son de la [ficha estadística de la Wikipedia en inglés](https://en.wikipedia.org/wiki/Ramiro_Funes_Mori), que suma Liga, Copa y Europa League: 48 partidos de Liga y 16 europeos. En la temporada del título jugó seis partidos de aquella Europa League.
+
+Antes había ganado con River la Libertadores de 2015, con gol en la final ante Tigres, y fue subcampeón de la Copa América Centenario con Argentina en 2016. Su hermano mellizo, Rogelio, también es futbolista.
+
+## La vuelta, en Maracaná
+
+El 0-0 deja la eliminatoria abierta. La vuelta se juega el jueves 22 de octubre en Maracaná, a las 21:30 de Argentina: en España serán las 2:30 de la madrugada del viernes 23, según la [ficha del Flamengo - Estudiantes](/futbol/libertadores/partido/401912521). El ganador jugará la final contra el que salga del Palmeiras - Fluminense, que en la ida ganó el Palmeiras 1-2 en Maracaná.
+
+Funes Mori ya avisó de que cree que pueden ganar allí. Toda la competición está en la sección de la [Copa Libertadores](/futbol/libertadores).`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'Copa Libertadores', sport: 'futbol', slug: 'libertadores' },
+    sourceName: 'MDZ Online',
+    sourceUrl: 'https://www.mdzol.com/deportes/2026/10/16/el-palito-de-funes-mori-a-la-hinchada-river-tras-la-tremenda-ovacion-que-recibio-en-estudiantes-1988656.html',
+    sourceLang: 'es',
+    publishedAt: '2026-10-19T18:06:00+02:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/UNO_20220614_210130.jpg/1280px-UNO_20220614_210130.jpg',
+      alt: 'El estadio UNO de La Plata de noche, con las gradas rojas y blancas llenas de aficionados y los jugadores calentando sobre el césped iluminado',
+      credit: 'Germanramos2 · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+    sourcesSecondary: [
+      { name: 'ESPN: Estudiantes 0-0 Flamengo', url: 'https://www.espn.com/soccer/match/_/gameId/401912523' },
+      { name: 'Diario UNO', url: 'https://www.diariouno.com.ar/ovacion/futbol/no-me-paso-ni-river-la-emocion-ramiro-funes-mori-el-empate-estudiantes-n1607060' },
+      { name: 'Crónica', url: 'https://www.cronica.com.ar/depo/actualidad/con-un-palito-para-river-ramiro-funes-mori-elogio-a-los-hinchas-de-estudiantes-de-la-plata-la-gente-siempre-banca/' },
+      { name: 'Wikipedia: Ramiro Funes Mori', url: 'https://en.wikipedia.org/wiki/Ramiro_Funes_Mori' },
+    ],
+  },
+  {
+    slug: 'simon-pytlick-libre-directo-flensburg-fuchse-berlin-krickau-gidsel',
+    title: 'Simon Pytlick tumbó con un libre directo al club y al entrenador con los que jugará en 2027',
+    summary: 'Simon Pytlick dio al Flensburg un 34-33 ante el Füchse Berlin con un libre directo en la última acción. En 2027 jugará en Berlín con Gidsel y con Nicolej Krickau, el técnico que lo llevó a Alemania.',
+    body: `Quedaban cuatro segundos y el marcador decía 33-33. El domingo 18 de octubre, en Flensburgo, el árbitro señaló falta a favor del SG Flensburg-Handewitt y el partido acabó con un libre directo. Lo lanzó Simon Pytlick, el balón pasó entre la barrera del Füchse Berlin y el Flensburg ganó 34-33, [según la crónica de la NDR](https://www.sportschau.de/regional/ndr/Handball-SG-Flensburg-Handewitt-Fuechse-Berlin,flensburg-handewitt-398.html).
+
+El detalle es quién lo lanzó. Pytlick, campeón olímpico con Dinamarca en París 2024, jugará en el Füchse a partir del verano de 2027: el club berlinés [anunció su fichaje en diciembre de 2025](https://www.handball-world.news/artikel/transferhammer-pytlick-wechselt-2027-von-flensburg-nach-berlin-1171236), con contrato hasta 2030. El domingo ganó, con el último balón, a su próximo equipo.
+
+## Tres daneses de la misma casa
+
+La prensa alemana lo presentaba como el duelo de los daneses. Tiene más fondo que la nacionalidad. El entrenador del Füchse, Nicolej Krickau, dirigió al GOG danés entre 2017 y 2023, y allí crecieron Pytlick, Mathias Gidsel y Emil Jakobsen, [repasa su biografía](https://de.wikipedia.org/wiki/Nicolej_Krickau).
+
+El domingo, Gidsel jugó con el Füchse y marcó 11 goles, el máximo del partido. Jakobsen hizo 9 para el Flensburg, 7 de penalti. Pytlick, 5. Los tres pasaron por las manos del hombre que estaba en el banquillo rival.
+
+| Fecha | Qué pasó |
+| --- | --- |
+| 2017 | Krickau llega al banquillo del GOG |
+| Verano de 2023 | Krickau y Pytlick se van juntos del GOG al Flensburg |
+| 2024 | Ganan la European League con el Flensburg |
+| Diciembre de 2024 | El Flensburg [destituye a Krickau](https://www.sg-flensburg-handewitt.de/news/artikel/sg-stellt-nicolej-krickau-frei) |
+| Septiembre de 2025 | Krickau firma por el Füchse, campeón alemán |
+| Diciembre de 2025 | El Füchse ficha a Pytlick para 2027 |
+| 18 de octubre de 2026 | Pytlick le gana el partido con el último lanzamiento |
+
+## Cómo se llegó al final
+
+El Füchse llegó al descanso por delante, 17-19. El Flensburg remontó y Berlín volvió a empatar a 33 a unos 20 segundos del final con un gol de Lichtlein. La falta llegó con cuatro segundos por jugar. Hubo 6.300 espectadores, según la NDR, y Gidsel resumió la derrota en una línea a handball-world: «Duele muchísimo».
+
+Con el triunfo, el Flensburg sigue invicto en la Bundesliga, con 17 puntos de 18, y adelanta al THW Kiel, que suma 17 de 20 con un partido más.
+
+## El Barça en el camino de Krickau
+
+Krickau ya se cruzó con el balonmano español. En la Champions de 2022-23 su GOG cayó en cuartos de final ante el Barça, que defendía el título. Pytlick, por su parte, es bicampeón del mundo con Dinamarca (2023 y 2025), dos de los torneos que repasa nuestra sección del [Mundial de balonmano](/balonmano/mundial-de-balonmano).
+
+El mismo domingo, otra final se resolvió al límite: [Félix Lebrun ganó el Europeo de tenis de mesa](/noticias/felix-lebrun-campeon-europa-liubliana-kallberg-remontada-alexis-dobles) remontando en los dos últimos juegos. Más balonmano, en la sección de [balonmano](/balonmano).`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'Bundesliga de balonmano', sport: 'balonmano', slug: 'balonmano' },
+    sourceName: 'NDR (Sportschau)',
+    sourceUrl: 'https://www.sportschau.de/regional/ndr/Handball-SG-Flensburg-Handewitt-Fuechse-Berlin,flensburg-handewitt-398.html',
+    sourceLang: 'de',
+    publishedAt: '2026-10-19T18:03:00+02:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/2024-09-15_Handball_TVB_Stuttgart_-_SG_Flensburg_by_mroptimax-20.jpg/1280px-2024-09-15_Handball_TVB_Stuttgart_-_SG_Flensburg_by_mroptimax-20.jpg',
+      alt: 'Simon Pytlick, con la camiseta blanca del Flensburg-Handewitt, mira hacia un lado con un balón amarillo en la mano derecha durante un partido en Stuttgart',
+      credit: 'Max Petershans · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+    sourcesSecondary: [
+      { name: 'handball-world: Gidsel tras el libre de Pytlick', url: 'https://www.handball-world.news/artikel/gidsel-nach-pytlick-freiwurf-passiert-einmal-in-der-karriere-1262875' },
+      { name: 'handball-world: fichaje de Pytlick por el Füchse', url: 'https://www.handball-world.news/artikel/transferhammer-pytlick-wechselt-2027-von-flensburg-nach-berlin-1171236' },
+      { name: 'Rhein-Neckar-Zeitung (dpa)', url: 'https://www.rnz.de/sport/handball_artikel,-Handball-Bundesliga-Sieg-mit-letztem-Wurf-Flensburg-bezwingt-Fuechse-Berlin-_arid,2458292.html' },
+      { name: 'SG Flensburg-Handewitt', url: 'https://www.sg-flensburg-handewitt.de/news/artikel/sg-stellt-nicolej-krickau-frei' },
+    ],
+  },
+  {
+    slug: 'felix-lebrun-campeon-europa-liubliana-kallberg-remontada-alexis-dobles',
+    title: 'Félix Lebrun, a un juego de perder la final europea ante el mismo sueco al que ganó la víspera',
+    summary: 'Félix Lebrun, de 20 años, es campeón de Europa de tenis de mesa tras remontar a Anton Källberg, al que también ganó la final de dobles con su hermano Alexis. España perdió su oro mixto.',
+    body: `Félix Lebrun estuvo a un juego de perder la final del Campeonato de Europa. El domingo 18 de octubre, en Liubliana, el sueco Anton Källberg le ganaba 3-2. Lebrun, de 20 años y número 2 del mundo, se llevó los dos juegos siguientes, el último por 11-1, y ganó 4-3. Es su primer título europeo individual y su primera medalla individual en un Europeo, [según franceinfo](https://www.franceinfo.fr/sports/tennis-de-table/felix-lebrun-devient-champion-d-europe-de-tennis-de-table-pour-la-premiere-fois-et-succede-a-son-frere-alexis_8242897.html).
+
+El rival era conocido de la víspera. El sábado, Félix y su hermano mayor, Alexis, habían ganado la final de dobles a Källberg y Kristian Karlsson por 3-2. Källberg, 29.º del mundo, se fue de Eslovenia con dos platas. Las dos finales las perdió con Félix Lebrun al otro lado de la mesa.
+
+## La final, juego a juego
+
+| Juego | Lebrun | Källberg |
+| --- | --- | --- |
+| 1.º | 7 | 11 |
+| 2.º | 11 | 9 |
+| 3.º | 13 | 11 |
+| 4.º | 8 | 11 |
+| 5.º | 9 | 11 |
+| 6.º | 11 | 6 |
+| 7.º | 11 | 1 |
+
+Lebrun llegaba con un 7-1 a favor en sus enfrentamientos individuales con Källberg. Ahora es 8-1.
+
+## El título se queda en la familia
+
+Alexis Lebrun fue campeón de Europa individual en Linz en 2024. Con Félix, Francia suma cuatro campeones de Europa en el individual masculino, según la [lista histórica de medallistas](https://en.wikipedia.org/wiki/List_of_European_Table_Tennis_Championships_medalists), y los dos últimos son hermanos:
+
+| Año | Sede | Campeón |
+| --- | --- | --- |
+| 1976 | Praga | Jacques Secrétin |
+| 2016 | Budapest | Emmanuel Lebesson |
+| 2024 | Linz | Alexis Lebrun |
+| 2026 | Liubliana | Félix Lebrun |
+
+En dobles también repiten. Los Lebrun ya habían ganado en Linz y, según la ETTU que cita [Tennis2Table](https://tennis2table.com/tennis-de-table/alexis-felix-lebrun-champions-europe-double-2026.html), son la segunda pareja que conserva el título de dobles masculino. La primera fue la alemana de Timo Boll y Christian Süss, que lo ganó cuatro veces seguidas entre 2007 y 2010.
+
+## España se quedó sin su corona
+
+España llegaba a Liubliana con un oro que defender. Álvaro Robles y María Xiao habían sido campeones de Europa de dobles mixtos en Linz en 2024. Esta vez cayeron en octavos de final, el martes 13, ante los alemanes Benedikt Duda y Nina Mittelham por 0-3 (7-11, 8-11 y 8-11), [informó EFE](https://www.infobae.com/espana/agencias/2026/10/13/alvaro-robles-y-maria-xiao-eliminados-en-dobles-mixtos-no-podran-defender-su-corona/). En la ronda anterior habían ganado 3-1 a los ucranianos Andrii Grebeniuk y Anastasiya Dymytrenko.
+
+## Lo que le queda
+
+El número 1 mundial es Sora Matsushima, con unos 1.900 puntos más que Lebrun, según franceinfo. Hace dos meses, en Malmö, el francés ganó su primer Grand Smash.
+
+Su remontada llegó el mismo domingo en que Alejandro Davidovich le dio la vuelta a la final de Shanghái ante Rafael Jódar, que [sigue en la pelea por Turín](/noticias/rafael-jodar-ultima-plaza-turin-atp-finals-quien-puede-quitarsela-basilea-viena-paris). Y otra final de domingo se resolvió con la última pelota en Alemania: la de [Simon Pytlick ante su futuro equipo](/noticias/simon-pytlick-libre-directo-flensburg-fuchse-berlin-krickau-gidsel).`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'Campeonato de Europa de tenis de mesa', sport: 'tenis-de-mesa', slug: 'tenis-de-mesa' },
+    sourceName: 'franceinfo',
+    sourceUrl: 'https://www.franceinfo.fr/sports/tennis-de-table/felix-lebrun-devient-champion-d-europe-de-tennis-de-table-pour-la-premiere-fois-et-succede-a-son-frere-alexis_8242897.html',
+    sourceLang: 'fr',
+    publishedAt: '2026-10-19T18:00:00+02:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/F%C3%A9lix_Lebrun_%28FRA%29_2022.jpg/1280px-F%C3%A9lix_Lebrun_%28FRA%29_2022.jpg',
+      alt: 'Félix Lebrun, con gafas y la camiseta roja de la selección francesa, prepara un golpe junto a la mesa en el Europeo de Múnich de 2022',
+      credit: 'Granada · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+    sourcesSecondary: [
+      { name: 'Tennis2Table: la final individual', url: 'https://tennis2table.com/tennis-de-table/championnats-deurope-2026-felix-lebrun-champion-deurope-apres-une-finale-renversante.html' },
+      { name: 'Tennis2Table: la final de dobles', url: 'https://tennis2table.com/tennis-de-table/alexis-felix-lebrun-champions-europe-double-2026.html' },
+      { name: 'EFE (vía Infobae)', url: 'https://www.infobae.com/espana/agencias/2026/10/13/alvaro-robles-y-maria-xiao-eliminados-en-dobles-mixtos-no-podran-defender-su-corona/' },
+      { name: 'Wikipedia: Europeo de 2024', url: 'https://en.wikipedia.org/wiki/2024_European_Table_Tennis_Championships' },
+    ],
+  },
+  {
     slug: 'malaga-sin-ganar-primera-desde-2018-real-sociedad-colista-nueve-jornadas',
     title: 'Málaga no gana en Primera desde que venció al rival que le acaba de golear en La Rosaleda',
     summary: 'El Málaga es colista con 4 puntos y ninguna victoria en nueve jornadas. La última vez que ganó en Primera fue el 22 de abril de 2018, 2-0 a la Real Sociedad, que el domingo le metió cinco.',
