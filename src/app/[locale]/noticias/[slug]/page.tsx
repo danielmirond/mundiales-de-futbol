@@ -347,14 +347,14 @@ export default async function NoticiaDetail({
           "
           dangerouslySetInnerHTML={{
             __html: (marked.parse(loc.body, { gfm: true, breaks: false }) as string)
-              // Enlaces de afiliado (AWIN/Movistar) → sponsored + nueva pestaña.
+              // Enlaces de afiliado (AWIN: Movistar y DAZN; Amazon con tag) → sponsored + nueva pestaña.
               .replace(
-                /<a href="(https:\/\/www\.awin1\.com[^"]*)"/g,
+                /<a href="(https:\/\/(?:www\.awin1\.com|www\.amazon\.es\/[^"]*[?&]tag=)[^"]*)"/g,
                 '<a href="$1" target="_blank" rel="sponsored nofollow noopener noreferrer"',
               )
               // Enlaces de fuente externos → discretos (subrayado tenue) y en pestaña nueva.
               .replace(
-                /<a href="(https?:\/\/(?!www\.awin1\.com|(?:www\.)?mundiales-de-futbol\.com)[^"]*)"/g,
+                /<a href="(https?:\/\/(?!www\.awin1\.com|www\.amazon\.es\/[^"]*[?&]tag=|(?:www\.)?mundiales-de-futbol\.com)[^"]*)"/g,
                 '<a href="$1" class="src" target="_blank" rel="noopener"',
               ),
           }}
