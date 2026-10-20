@@ -13,7 +13,8 @@ export function NflWinProbChart({ espnId }: { espnId: string }) {
   const line = g.pts.map(([t, w], i) => `${i ? 'L' : 'M'}${x(t).toFixed(1)} ${y(w).toFixed(1)}`).join(' ');
   const first = g.pts[0], last = g.pts[g.pts.length - 1];
   const area = `${line} L${x(last[0]).toFixed(1)} ${y(0.5)} L${x(first[0]).toFixed(1)} ${y(0.5)} Z`;
-  const hc = home?.color ?? 'var(--accent)', ac = away?.color ?? 'var(--color-fg-muted)';
+  // Colores fijos y contrastados (los de los equipos se parecen demasiado entre sí y con el fondo).
+  const hc = 'oklch(0.80 0.14 230)', ac = 'oklch(0.82 0.15 70)';
   // Momento de mayor giro: la jugada que más movió la probabilidad.
   let swing = { t: 0, d: 0 };
   for (let i = 1; i < g.pts.length; i++) { const d = Math.abs(g.pts[i][1] - g.pts[i - 1][1]); if (d > swing.d) swing = { t: g.pts[i][0], d }; }
@@ -44,16 +45,16 @@ export function NflWinProbChart({ espnId }: { espnId: string }) {
               </g>
             ))}
             {end > 3600 && <text x={(x(3600) + x(end)) / 2} y={H - 12} textAnchor="middle" fontSize={11} fontFamily="var(--font-mono)" fill="var(--color-fg-subtle)">Prórroga</text>}
-            <path d={area} fill={hc} opacity={0.28} clipPath="url(#wp-top)" />
-            <path d={area} fill={ac} opacity={0.28} clipPath="url(#wp-bot)" />
+            <path d={area} fill={hc} opacity={0.35} clipPath="url(#wp-top)" />
+            <path d={area} fill={ac} opacity={0.35} clipPath="url(#wp-bot)" />
             <path d={line} fill="none" stroke="var(--color-fg)" strokeWidth={2} />
             {g.scores.map((s, i) => (
               <circle key={i} cx={x(s.t)} cy={y(wpAt(s.t))} r={4} fill={s.team === g.home ? hc : ac} stroke="var(--color-bg-2)" strokeWidth={1.5}>
                 <title>{s.text}</title>
               </circle>
             ))}
-            <text x={L + 8} y={T + 14} fontSize={12} fontWeight={600} fill="var(--color-fg)">{home?.name ?? g.home}</text>
-            <text x={L + 8} y={H - B - 8} fontSize={12} fontWeight={600} fill="var(--color-fg)">{away?.name ?? g.away}</text>
+            <text x={L + 8} y={T + 14} fontSize={12} fontWeight={600} fill={hc}>{home?.name ?? g.home}</text>
+            <text x={L + 8} y={H - B - 8} fontSize={12} fontWeight={600} fill={ac}>{away?.name ?? g.away}</text>
           </svg>
         </div>
         <p className="mt-3 text-[13px] text-[var(--color-fg-muted)]">
