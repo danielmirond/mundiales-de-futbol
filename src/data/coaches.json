@@ -1,0 +1,479 @@
+{
+ "verifiedAt": "2026-10-20",
+ "source": "Wikipedia (infobox en/es + cambios de entrenador de la temporada)",
+ "coaches": {
+  "96": {
+   "team": "Alavés",
+   "name": "Quique Sánchez Flores"
+  },
+  "93": {
+   "team": "Athletic Club",
+   "name": "Edin Terzić"
+  },
+  "1068": {
+   "team": "Atlético Madrid",
+   "name": "Diego Simeone"
+  },
+  "83": {
+   "team": "Barcelona",
+   "name": "Hansi Flick"
+  },
+  "85": {
+   "team": "Celta Vigo",
+   "name": "Claudio Giráldez"
+  },
+  "90": {
+   "team": "Deportivo",
+   "name": "Antonio Hidalgo"
+  },
+  "3751": {
+   "team": "Elche",
+   "name": "Martín Anselmi"
+  },
+  "88": {
+   "team": "Espanyol",
+   "name": "Manolo González"
+  },
+  "2922": {
+   "team": "Getafe",
+   "name": "José Bordalás"
+  },
+  "1538": {
+   "team": "Levante",
+   "name": "Luís Castro"
+  },
+  "99": {
+   "team": "Málaga",
+   "name": "Juan Francisco Funes"
+  },
+  "97": {
+   "team": "Osasuna",
+   "name": "Jagoba Arrasate"
+  },
+  "87": {
+   "team": "Racing Santander",
+   "name": "José Alberto López"
+  },
+  "101": {
+   "team": "Rayo Vallecano",
+   "name": "Beñat San José"
+  },
+  "244": {
+   "team": "Real Betis",
+   "name": "Manuel Pellegrini"
+  },
+  "86": {
+   "team": "Real Madrid",
+   "name": "José Mourinho"
+  },
+  "89": {
+   "team": "Real Sociedad",
+   "name": "Pellegrino Matarazzo"
+  },
+  "243": {
+   "team": "Sevilla",
+   "name": "Luis García Plaza"
+  },
+  "94": {
+   "team": "Valencia",
+   "name": "Javier Aguirre"
+  },
+  "102": {
+   "team": "Villarreal",
+   "name": "Iñigo Pérez"
+  },
+  "349": {
+   "team": "AFC Bournemouth",
+   "name": "Marco Rose"
+  },
+  "359": {
+   "team": "Arsenal",
+   "name": "Mikel Arteta"
+  },
+  "362": {
+   "team": "Aston Villa",
+   "name": "Unai Emery"
+  },
+  "337": {
+   "team": "Brentford",
+   "name": "Keith Andrews"
+  },
+  "331": {
+   "team": "Brighton & Hove Albion",
+   "name": "Fabian Hürzeler"
+  },
+  "363": {
+   "team": "Chelsea",
+   "name": "Xabi Alonso"
+  },
+  "388": {
+   "team": "Coventry City",
+   "name": "Frank Lampard"
+  },
+  "384": {
+   "team": "Crystal Palace",
+   "name": "Pierre Sage"
+  },
+  "368": {
+   "team": "Everton",
+   "name": "David Moyes"
+  },
+  "370": {
+   "team": "Fulham",
+   "name": "Álvaro Arbeloa"
+  },
+  "306": {
+   "team": "Hull City",
+   "name": "Sergej Jakirović"
+  },
+  "373": {
+   "team": "Ipswich Town",
+   "name": "Gary O'Neil"
+  },
+  "357": {
+   "team": "Leeds United",
+   "name": "Daniel Farke"
+  },
+  "364": {
+   "team": "Liverpool",
+   "name": "Andoni Iraola"
+  },
+  "382": {
+   "team": "Manchester City",
+   "name": "Enzo Maresca"
+  },
+  "360": {
+   "team": "Manchester United",
+   "name": "Michael Carrick"
+  },
+  "361": {
+   "team": "Newcastle United",
+   "name": "Matthias Jaissle"
+  },
+  "393": {
+   "team": "Nottingham Forest",
+   "name": "Oliver Glasner"
+  },
+  "366": {
+   "team": "Sunderland",
+   "name": "Régis Le Bris"
+  },
+  "367": {
+   "team": "Tottenham Hotspur",
+   "name": "Roberto De Zerbi"
+  },
+  "103": {
+   "team": "AC Milan",
+   "name": "Ruben Amorim"
+  },
+  "104": {
+   "team": "AS Roma",
+   "name": "Gian Piero Gasperini"
+  },
+  "105": {
+   "team": "Atalanta",
+   "name": "Maurizio Sarri"
+  },
+  "107": {
+   "team": "Bologna",
+   "name": "Raffaele Palladino"
+  },
+  "2925": {
+   "team": "Cagliari",
+   "name": "Fabio Pisacane"
+  },
+  "2572": {
+   "team": "Como",
+   "name": "Cesc Fàbregas"
+  },
+  "109": {
+   "team": "Fiorentina",
+   "name": "Paolo Vanoli"
+  },
+  "4057": {
+   "team": "Frosinone",
+   "name": "Massimiliano Alvini"
+  },
+  "3263": {
+   "team": "Genoa",
+   "name": "Daniele De Rossi"
+  },
+  "110": {
+   "team": "Internazionale",
+   "name": "Cristian Chivu"
+  },
+  "111": {
+   "team": "Juventus",
+   "name": "Luciano Spalletti"
+  },
+  "112": {
+   "team": "Lazio",
+   "name": "Gennaro Gattuso"
+  },
+  "113": {
+   "team": "Lecce",
+   "name": "Eusebio Di Francesco"
+  },
+  "4007": {
+   "team": "Monza",
+   "name": "Ivan Jurić"
+  },
+  "114": {
+   "team": "Napoli",
+   "name": "Massimiliano Allegri"
+  },
+  "115": {
+   "team": "Parma",
+   "name": "Alberto Gilardino"
+  },
+  "3997": {
+   "team": "Sassuolo",
+   "name": "Alberto Aquilani"
+  },
+  "239": {
+   "team": "Torino",
+   "name": "Ignazio Abate"
+  },
+  "118": {
+   "team": "Udinese",
+   "name": "Kosta Runjaić"
+  },
+  "17530": {
+   "team": "Venezia",
+   "name": "Davide Nicola"
+  },
+  "598": {
+   "team": "1. FC Union Berlin",
+   "name": "Mauro Lustrinelli"
+  },
+  "131": {
+   "team": "Bayer Leverkusen",
+   "name": "Carles Martínez Novell"
+  },
+  "132": {
+   "team": "Bayern Munich",
+   "name": "Vincent Kompany"
+  },
+  "124": {
+   "team": "Borussia Dortmund",
+   "name": "Niko Kovač"
+  },
+  "268": {
+   "team": "Borussia Mönchengladbach",
+   "name": "Alexander Blessin"
+  },
+  "125": {
+   "team": "Eintracht Frankfurt",
+   "name": "Adi Hütter"
+  },
+  "3841": {
+   "team": "FC Augsburg",
+   "name": "Manuel Baum"
+  },
+  "122": {
+   "team": "FC Cologne",
+   "name": "René Wagner"
+  },
+  "127": {
+   "team": "Hamburg SV",
+   "name": "Merlin Polzin"
+  },
+  "2950": {
+   "team": "Mainz",
+   "name": "Urs Fischer"
+  },
+  "11420": {
+   "team": "RB Leipzig",
+   "name": "Martín Demichelis"
+  },
+  "126": {
+   "team": "SC Freiburg",
+   "name": "Julian Schuster"
+  },
+  "3307": {
+   "team": "SC Paderborn 07",
+   "name": "Ralf Kettemann"
+  },
+  "10388": {
+   "team": "SV Elversberg",
+   "name": "Vincent Wagner"
+  },
+  "133": {
+   "team": "Schalke 04",
+   "name": "Miron Muslić"
+  },
+  "7911": {
+   "team": "TSG Hoffenheim",
+   "name": "Christian Ilzer"
+  },
+  "134": {
+   "team": "VfB Stuttgart",
+   "name": "Sebastian Hoeneß"
+  },
+  "137": {
+   "team": "Werder Bremen",
+   "name": "Daniel Thioune"
+  },
+  "172": {
+   "team": "AJ Auxerre",
+   "name": "Will Still"
+  },
+  "174": {
+   "team": "AS Monaco",
+   "name": "Filipe Luís"
+  },
+  "7868": {
+   "team": "Angers",
+   "name": "Stéphane Gilli"
+  },
+  "6997": {
+   "team": "Brest",
+   "name": "Julien Lachuer"
+  },
+  "3236": {
+   "team": "Le Havre AC",
+   "name": "Didier Digard"
+  },
+  "2697": {
+   "team": "Le Mans",
+   "name": "Patrick Videira"
+  },
+  "175": {
+   "team": "Lens",
+   "name": "Yannick Cahuzac"
+  },
+  "166": {
+   "team": "Lille",
+   "name": "Davide Ancelotti"
+  },
+  "273": {
+   "team": "Lorient",
+   "name": "Alexandre Dujeux"
+  },
+  "167": {
+   "team": "Lyon",
+   "name": "Paulo Fonseca"
+  },
+  "176": {
+   "team": "Marseille",
+   "name": "Bruno Génésio"
+  },
+  "2502": {
+   "team": "Nice",
+   "name": "Olivier Pantaloni"
+  },
+  "6851": {
+   "team": "Paris FC",
+   "name": "Liam Rosenior"
+  },
+  "160": {
+   "team": "Paris Saint-Germain",
+   "name": "Luis Enrique"
+  },
+  "169": {
+   "team": "Stade Rennais",
+   "name": "Franck Haise"
+  },
+  "180": {
+   "team": "Strasbourg",
+   "name": "Hugo Oliveira"
+  },
+  "179": {
+   "team": "Toulouse",
+   "name": "Jens Berthel Askou"
+  },
+  "170": {
+   "team": "Troyes",
+   "name": "Stéphane Dumont"
+  },
+  "2737": {
+   "team": "Albacete",
+   "name": "Joseba Etxeberria"
+  },
+  "6832": {
+   "team": "Almería",
+   "name": "García Pimienta"
+  },
+  "12597": {
+   "team": "Burgos",
+   "name": "Sergio Francisco"
+  },
+  "11487": {
+   "team": "CD Sabadell",
+   "name": "Ferran Costa"
+  },
+  "4438": {
+   "team": "Castellón",
+   "name": "Pablo Hernández"
+  },
+  "5404": {
+   "team": "Ceuta",
+   "name": "José Juan Romero"
+  },
+  "3842": {
+   "team": "Cádiz",
+   "name": "Albert Celades"
+  },
+  "8447": {
+   "team": "Córdoba",
+   "name": "Iván Ania"
+  },
+  "3752": {
+   "team": "Eibar",
+   "name": "Jokin Aranbarri"
+  },
+  "7320": {
+   "team": "Eldense",
+   "name": "Javi Calleja"
+  },
+  "20179": {
+   "team": "FC Andorra",
+   "name": "Carles Manso"
+  },
+  "9812": {
+   "team": "Girona",
+   "name": "Quique Álvarez"
+  },
+  "3747": {
+   "team": "Granada",
+   "name": "Pacheta"
+  },
+  "98": {
+   "team": "Las Palmas",
+   "name": "Juan Manuel Rodríguez",
+   "interim": true
+  },
+  "17534": {
+   "team": "Leganés",
+   "name": "Luis Carrión"
+  },
+  "84": {
+   "team": "Mallorca",
+   "name": "Luis García"
+  },
+  "131858": {
+   "team": "RC Celta Fortuna",
+   "name": "Fredi Álvarez"
+  },
+  "92": {
+   "team": "Real Oviedo",
+   "name": "Julián Calero"
+  },
+  "20983": {
+   "team": "Real Sociedad II",
+   "name": "Jon Mikel Arrieta"
+  },
+  "95": {
+   "team": "Real Valladolid",
+   "name": "Fran Escribá"
+  },
+  "3788": {
+   "team": "Sporting Gijón",
+   "name": "Nicolás Larcamón"
+  },
+  "245": {
+   "team": "Tenerife",
+   "name": "Álvaro Cervera"
+  }
+ }
+}

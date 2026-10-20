@@ -3,6 +3,7 @@
  * temporada (resultados) y plantilla. Todo cacheado; nada se inventa: si un
  * endpoint no da un dato, el bloque no se pinta.
  */
+import coachesData from '../data/coaches.json';
 import type { Competition } from './competitions';
 
 const API = 'https://site.api.espn.com/apis/site/v2/sports';
@@ -102,6 +103,13 @@ export async function fetchTeamSchedule(c: Competition, id: string): Promise<Tea
   return out.sort((a, b) => a.date.localeCompare(b.date));
 }
 
+const COACHES = (coachesData as { coaches: Record<string, { name: string; interim?: boolean }> }).coaches;
+/** Entrenador actual verificado (Wikipedia en/es + comunicados), con «(interino)» si lo es. */
+export function verifiedCoach(teamId: string): string | undefined {
+  const c = COACHES[teamId];
+  return c ? `${c.name}${c.interim ? ' (interino)' : ''}` : undefined;
+}
+
 export async function fetchTeamRoster(c: Competition, id: string): Promise<{ players: Player[]; coach?: string }> {
   const j = await getJson(`${path(c)}/teams/${id}/roster`, 21_600);
   const raw: any[] = Array.isArray(j?.athletes) && j.athletes[0]?.items ? j.athletes.flatMap((g: any) => g.items) : (j?.athletes ?? []);
@@ -110,7 +118,11 @@ export async function fetchTeamRoster(c: Competition, id: string): Promise<{ pla
     name: p.displayName ?? p.fullName ?? '', jersey: String(p.jersey ?? ''), pos: p.position?.abbreviation ?? p.position?.name ?? '',
     age: typeof p.age === 'number' ? p.age : undefined, nationality: p.citizenship ?? p.birthPlace?.country,
   })).filter((p) => p.name);
-  const coach = j?.coach?.[0] ? `${j.coach[0].firstName ?? ''} ${j.coach[0].lastName ?? ''}`.trim() : undefined;
+  // En fútbol ESPN da entrenadores de hace años (Wenger en el Arsenal): manda la tabla
+  // verificada `coaches.json`; sin entrada, no se muestra ninguno antes que uno falso.
+  // En el resto de deportes (NBA verificada a 2026-10-20) el dato de ESPN está al día.
+  const espnCoach = j?.coach?.[0] ? `${j.coach[0].firstName ?? ''} ${j.coach[0].lastName ?? ''}`.trim() : undefined;
+  const coach = c.espn?.sport === 'soccer' ? verifiedCoach(id) : espnCoach;
   return { players, coach };
 }
 
