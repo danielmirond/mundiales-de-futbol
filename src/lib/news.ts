@@ -770,7 +770,7 @@ Todos los horarios están en hora peninsular. Los marcadores se actualizan en di
     sourceUrl: "https://www.espn.com/nba/game/_/gameId/401909088",
     sourceLang: 'en',
     publishedAt: '2026-10-20T00:37:30.783Z',
-    modifiedAt: '2026-10-20T12:04:09.534Z',
+    modifiedAt: '2026-10-20T13:38:09.963Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Little_Caesars_Arena_construction_06-03-2016.jpg/1920px-Little_Caesars_Arena_construction_06-03-2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -813,7 +813,7 @@ Todos los horarios están en hora peninsular. Los marcadores se actualizan en di
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915403",
     sourceLang: 'en',
     publishedAt: '2026-10-20T00:37:30.783Z',
-    modifiedAt: '2026-10-20T12:04:09.534Z',
+    modifiedAt: '2026-10-20T13:38:09.963Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/%C5%9E%C3%BCkr%C3%BC_Saraco%C4%9Flu_Stadium.jpg/1920px-%C5%9E%C3%BCkr%C3%BC_Saraco%C4%9Flu_Stadium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
