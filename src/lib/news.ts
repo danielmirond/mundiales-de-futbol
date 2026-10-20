@@ -154,6 +154,292 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'nfl-semana-2026-43',
+    title: "NFL: todos los resultados de la jornada y la cabeza de cada conferencia",
+    summary: "Resultados de los 13 partidos de la semana en la NFL, el más ajustado y los mejores balances de la AFC y la NFC.",
+    body: `13 partidos en la última semana de la NFL. El triunfo más ajustado, el de Cardinals ante Rams (18-16); la mayor diferencia, la de Chiefs sobre Chargers, por 16 puntos.
+
+## Resultados
+
+- Broncos 17-14 Seahawks
+- Texans 34-31 Jaguars
+- Bears 31-23 Falcons
+- Browns 13-10 Ravens
+- Titans 26-20 Colts
+- Patriots 26-19 Jets
+- Saints 34-27 Giants
+- Panthers 25-14 Eagles
+- Steelers 26-19 Buccaneers
+- Cardinals 18-16 Rams
+- Chiefs 22-6 Chargers
+- Bills 33-30 Raiders
+- Packers 23-13 Cowboys
+
+## AFC
+
+- Chiefs: 5-0
+- Bills: 5-1
+- Jaguars: 4-2
+
+## NFC
+
+- Vikings: 5-0
+- 49ers: 5-0
+- Packers: 4-2
+
+Calendario, resultados y clasificación completa en la [página de la NFL](/futbol-americano/nfl).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"NFL","sport":"futbol-americano","slug":"nfl"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/nfl/scoreboard",
+    sourceLang: 'en',
+    publishedAt: '2026-10-20T00:37:30.783Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Aerial_view_of_Arrowhead_Stadium_08-31-2013.jpg/1920px-Aerial_view_of_Arrowhead_Stadium_08-31-2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Arrowhead Stadium, sede del Chiefs - Chargers",
+      credit: "Ichabod · CC BY-SA 3.0 · Wikimedia Commons",
+      license: "CC BY-SA 3.0",
+    },
+  },
+  {
+    slug: 'clasificacion-nba-semana-2026-43',
+    title: "NBA: así queda la clasificación esta semana, con Celtics líder",
+    summary: "Así está NBA: Celtics lidera la tabla con 2 puntos. Tabla comentada de NBA 2027: cabeza, zona baja y enlace a la clasificación completa.",
+    body: `Así está NBA: Celtics lidera la tabla con 2 puntos.
+
+## Eastern Conference
+
+1. **Celtics** — 4-0
+2. **Hawks** — 4-1 (a 0.5)
+3. **Pistons** — 3-1 (a 1)
+4. **Nets** — 3-1 (a 1)
+5. **Magic** — 3-1 (a 1)
+6. **Bulls** — 3-2 (a 1.5)
+7. **Heat** — 3-2 (a 1.5)
+8. **Wizards** — 2-2 (a 2)
+
+## Western Conference
+
+1. **Grizzlies** — 3-1
+2. **Pelicans** — 3-1
+3. **Jazz** — 3-1
+4. **Trail Blazers** — 3-1
+5. **Warriors** — 4-2
+6. **Clippers** — 2-1 (a 0.5)
+7. **Rockets** — 2-1 (a 0.5)
+8. **Nuggets** — 3-2 (a 0.5)
+
+La clasificación completa, con todos los equipos y los próximos partidos, está en la [página de NBA](/baloncesto/nba).`,
+    category: 'general',
+    kind: 'clasificacion',
+    competition: {"name":"NBA","sport":"baloncesto","slug":"nba"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/nba/standings",
+    sourceLang: 'en',
+    publishedAt: '2026-10-20T00:37:30.783Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Celtic_park_posters.jpg/1920px-Celtic_park_posters.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Estadio de Celtics, líder de NBA",
+      credit: "Guillaume Gogo · CC BY 2.0 · Wikimedia Commons",
+      license: "CC BY 2.0",
+    },
+  },
+  {
+    slug: 'clasificacion-premier-league-semana-2026-43',
+    title: "Premier League: así queda la clasificación esta semana, con Man City líder",
+    summary: "Man City sigue arriba en Premier League (21 puntos). Repasamos la clasificación completa. Tabla comentada de Premier League 2026: cabeza, zona baja y enlace a la clasificación completa.",
+    body: `Man City sigue arriba en Premier League (21 puntos). Repasamos la clasificación completa.
+
+## La tabla
+
+1. **Man City** — 21 pts (7G-0E-0P, +12)
+2. **Arsenal** — 18 pts (6G-0E-1P, +6)
+3. **Brighton** — 16 pts (5G-1E-1P, +18)
+4. **Chelsea** — 13 pts (4G-1E-2P, +4)
+5. **Liverpool** — 12 pts (3G-3E-1P, +1)
+6. **Brentford** — 10 pts (2G-4E-1P, +5)
+
+En la zona baja: Fulham (5 pts), Nottm Forest (5 pts) y Sunderland (4 pts).
+
+La clasificación completa, con todos los equipos y los próximos partidos, está en la [página de Premier League](/futbol/premier-league).`,
+    category: 'general',
+    kind: 'clasificacion',
+    competition: {"name":"Premier League","sport":"futbol","slug":"premier-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/standings/_/league/eng.1",
+    sourceLang: 'en',
+    publishedAt: '2026-10-20T00:37:30.783Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Gran_Premio_Ciudad_de_Buenos_Aires_2026%2C_Domingo_-_14.jpg/1920px-Gran_Premio_Ciudad_de_Buenos_Aires_2026%2C_Domingo_-_14.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Estadio de Man City, líder de Premier League",
+      credit: "Just a Man · CC BY 4.0 · Wikimedia Commons",
+      license: "CC BY 4.0",
+    },
+  },
+  {
+    slug: 'clasificacion-laliga-semana-2026-43',
+    title: "LaLiga: así queda la clasificación esta semana, con Barcelona líder",
+    summary: "Barcelona manda en LaLiga con 27 puntos tras la última jornada. Tabla comentada de LaLiga 2026: cabeza, zona baja y enlace a la clasificación completa.",
+    body: `Barcelona manda en LaLiga con 27 puntos tras la última jornada.
+
+## La tabla
+
+1. **Barcelona** — 27 pts (9G-0E-0P, +30)
+2. **Atlético** — 22 pts (7G-1E-1P, +11)
+3. **Real Madrid** — 21 pts (7G-0E-2P, +14)
+4. **Betis** — 19 pts (6G-1E-2P, +2)
+5. **Real Sociedad** — 16 pts (5G-1E-3P, 0)
+6. **Sevilla** — 14 pts (4G-2E-3P, -2)
+
+En la zona baja: Elche (7 pts), Valencia (6 pts) y Málaga (4 pts).
+
+La clasificación completa, con todos los equipos y los próximos partidos, está en la [página de LaLiga](/futbol/laliga).`,
+    category: 'general',
+    kind: 'clasificacion',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/standings/_/league/esp.1",
+    sourceLang: 'en',
+    publishedAt: '2026-10-20T00:37:30.783Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Porta_para_un_centenario_Pilar_Urbano._Exteriores_do_Camp_Nou._Barcelona_B35.jpg/1920px-Porta_para_un_centenario_Pilar_Urbano._Exteriores_do_Camp_Nou._Barcelona_B35.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Estadio de Barcelona, líder de LaLiga",
+      credit: "Luis Miguel Bugallo Sánchez (Lmbuga) · CC BY-SA 3.0 · Wikimedia Commons",
+      license: "CC BY-SA 3.0",
+    },
+  },
+  {
+    slug: 'cronica-spurs-coventry-401879257',
+    title: "Spurs se impone a Coventry (3-1) en Premier League",
+    summary: "James Maddison marcó; Coventry remató 12 veces (1 a puerta) en el Spurs 3-1 Coventry de Premier League.",
+    body: `Coventry, de ganar 4-1 a Newcastle. Acabó ganando Spurs 3-1. Los goles: James Maddison (14', Spurs), Jack Rudoni (49', Coventry), Omar Marmoush (58', Spurs) y Ben Davies (90'+6', Spurs).
+
+## En cifras
+
+Spurs tuvo el 65 % de la posesión por el 35 % de Coventry; remató 16 veces (5 a puerta) frente a 12 (1) del rival. Córners: 4 por 4. Se emitió en DAZN.
+
+## La clasificación
+
+Tras el partido, Spurs 16.º con 6 puntos y Coventry 17.º con 6 puntos en la [clasificación de Premier League](/futbol/premier-league).
+
+Ficha: 4 amarillas · 10 cambios. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/premier-league/partido/401879257).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Premier League","sport":"futbol","slug":"premier-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401879257",
+    sourceLang: 'en',
+    publishedAt: '2026-10-20T00:37:30.783Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Tottenham_Hotspur_Stadium_with_The_Tottenham_Experience%2C_February_2019.jpg/1920px-Tottenham_Hotspur_Stadium_with_The_Tottenham_Experience%2C_February_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Tottenham Hotspur Stadium, donde se jugó el Spurs - Coventry",
+      credit: "Hzh · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'cronica-getafe-rayo-401882842',
+    title: "Getafe y Rayo firman tablas (1-1) en LaLiga",
+    summary: "Álvaro García marcó en el Getafe 1-1 Rayo de LaLiga.",
+    body: `Acabó 1-1. Marcaron Álvaro García (11', Rayo) y Martín Satriano (56', Getafe).
+
+## En cifras
+
+Getafe manejó el balón (32 % por 68 %) y tiró 12 veces, 4 entre los tres palos; Rayo se quedó en 21 remates (5 a puerta). Córners: 8 por 8. Se emitió en DAZN LaLiga y DAZN.
+
+## La clasificación
+
+Tras el partido, Getafe 14.º con 9 puntos y Rayo 13.º con 9 puntos en la [clasificación de LaLiga](/futbol/laliga).
+
+Ficha: 9 amarillas · expulsado: Djené · 10 cambios. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/laliga/partido/401882842).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882842",
+    sourceLang: 'en',
+    publishedAt: '2026-10-20T00:37:30.783Z',
+    author: "Redacción Mundiales de Fútbol",
+  },
+  {
+    slug: 'partidos-baloncesto-hoy-2026-10-20',
+    title: "Partidos de baloncesto hoy, martes 20 de octubre: horarios y dónde ver NBA",
+    summary: "Agenda de baloncesto de hoy martes 20 de octubre: 1 partido con horario en hora española y canal de televisión. Destaca Pistons - Celtics.",
+    body: `Martes 20 de octubre deja 1 partido de baloncesto en las competiciones que seguimos. Aquí van, con la hora en España y el canal donde se ven. El partido que más miradas reúne es el **[Pistons - Celtics](/baloncesto/nba/partido/401909088)** (NBA, 21:00 h).
+
+## 🇺🇸 NBA
+
+- **[Pistons - Celtics](/baloncesto/nba/partido/401909088)** — 21:00 h
+
+Calendario y clasificación en la [página de NBA](/baloncesto/nba).
+
+Todos los horarios están en hora peninsular. Los marcadores se actualizan en directo en cada ficha de partido. Toda la jornada, con marcadores en directo, en [partidos de hoy](/partidos-hoy).`,
+    category: 'tv',
+    kind: 'agenda',
+    competition: {"name":"NBA","sport":"baloncesto","slug":"nba"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/nba/game/_/gameId/401909088",
+    sourceLang: 'en',
+    publishedAt: '2026-10-20T00:37:30.783Z',
+    modifiedAt: '2026-10-20T00:37:30.783Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Little_Caesars_Arena_construction_06-03-2016.jpg/1920px-Little_Caesars_Arena_construction_06-03-2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Little Caesars Arena, escenario del Pistons - Celtics",
+      credit: "Rick Briggs · CC BY 2.0 · Wikimedia Commons",
+      license: "CC BY 2.0",
+    },
+  },
+  {
+    slug: 'partidos-futbol-hoy-2026-10-20',
+    title: "Partidos de fútbol hoy, martes 20 de octubre: horarios y dónde ver Champions y Championship",
+    summary: "Agenda de fútbol de hoy martes 20 de octubre: 10 partidos con horario en hora española y canal de televisión. Destaca Fenerbahce - Slavia Prague.",
+    body: `Jornada de fútbol con 10 citas este martes 20 de octubre. Horarios en hora peninsular y dónde verlas, competición por competición. El partido que más miradas reúne es el **[Fenerbahce - Slavia Prague](/futbol/champions-league/partido/401915403)** (Champions League, 18:45 h).
+
+## Champions League
+
+- **[Fenerbahce - Slavia Prague](/futbol/champions-league/partido/401915403)** — 18:45 h
+- **[Sabah - Dortmund](/futbol/champions-league/partido/401915404)** — 18:45 h
+- **[AS Roma - S Bratislava](/futbol/champions-league/partido/401915402)** — 21:00 h
+- **[FC Porto - PSV](/futbol/champions-league/partido/401915398)** — 21:00 h
+- **[Liverpool - Villarreal](/futbol/champions-league/partido/401915397)** — 21:00 h
+- **[Man City - AEK Athens](/futbol/champions-league/partido/401915401)** — 21:00 h
+- **[Napoli - Bodo/Glimt](/futbol/champions-league/partido/401915400)** — 21:00 h
+- **[PSG - Barcelona](/futbol/champions-league/partido/401915399)** — 21:00 h
+- **[Stuttgart - Atlético](/futbol/champions-league/partido/401915392)** — 21:00 h
+
+Calendario y clasificación en la [página de Champions](/futbol/champions-league).
+
+## 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Championship
+
+- **[Wolves - Portsmouth](/futbol/championship/partido/401880277)** — 20:45 h
+
+Calendario y clasificación en la [página de Championship](/futbol/championship).
+
+Todos los horarios están en hora peninsular. Los marcadores se actualizan en directo en cada ficha de partido. Toda la jornada, con marcadores en directo, en [partidos de hoy](/partidos-hoy).`,
+    category: 'tv',
+    kind: 'agenda',
+    competition: {"name":"Champions","sport":"futbol","slug":"champions-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915403",
+    sourceLang: 'en',
+    publishedAt: '2026-10-20T00:37:30.783Z',
+    modifiedAt: '2026-10-20T00:37:30.783Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/8/89/Istanbul_%C5%9E%C3%BCkr%C3%BC_Saraco%C4%9Flu_Stadium_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      alt: "Şükrü Saracoğlu Stadium, escenario del Fenerbahce - Slavia Prague",
+      credit: "Валерий Дед · CC BY 3.0 · Wikimedia Commons",
+      license: "CC BY 3.0",
+    },
+  },
+  {
     slug: 'donde-ver-laliga-2026-27-movistar-dazn-precios-jornadas-exclusivas-clasico',
     title: 'Dónde ver LaLiga 2026-27: planes, precios, el Clásico y las jornadas que solo da Movistar',
     summary: 'Cómo ver LaLiga EA Sports 2026-27 en España: el reparto entre Movistar Plus+ y DAZN, qué plan hace falta para no perderse nada, cuánto cuesta y dónde va el Clásico del 25 de octubre.',
