@@ -154,6 +154,178 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'el-langui-boccia-oro-olbia-seleccion-espanola-bc1-truco-del-manco',
+    title: 'El Langui, el Goya de «El truco del manco», ya gana finales con la selección de boccia',
+    summary: 'El Langui ganó en Olbia (Italia) su primer oro individual con España en boccia, en la clase BC1. Empezó en este deporte en 2024 y apunta al Europeo y a Los Ángeles 2028.',
+    body: `El Langui ganó el oro individual en la categoría BC1 del World Boccia Challenger de Olbia, en Cerdeña. Es la primera medalla de oro individual de Juan Manuel Montilla con la selección española, [según la crónica de EFE](https://www.infobae.com/espana/agencias/2026/10/20/el-langui-conquista-su-primera-medalla-de-oro-en-el-campeonato-internacional-de-olbia/). Hace un año, en ese mismo torneo, se había estrenado con España.
+
+El madrileño tiene 46 años y parálisis cerebral, y en 2009 ganó dos premios Goya por *El truco del manco*: actor revelación y mejor canción. Su entrenador le había puesto como objetivo mínimo las semifinales. Llegó a la final y la ganó.
+
+## Cinco partidos, cinco victorias
+
+El camino al oro lo detalla [Al Sol de la Costa](https://alsoldelacosta.com/el-bochero-langui-afincado-en-san-pedro-alcantara-conquista-el-oro-en-el-olbia-2026-world-boccia-challenger/), el periódico de San Pedro Alcántara (Marbella), donde vive, a partir de los resultados oficiales de World Boccia.
+
+| Ronda | Rival | Resultado |
+| --- | --- | --- |
+| Grupos | Dylan Schwarz (Australia) | 3-0 |
+| Grupos | Josry Boezaart (Países Bajos) | 10-0 |
+| Grupos | Vladyslav Kukhta (Ucrania) | 4-3 |
+| Semifinal | Alex Medley (Gran Bretaña) | 3-1 |
+| Final | Volodymyr Roiko (Ucrania) | 3-1 |
+
+El único partido apretado fue el de Kukhta, que acabó con el bronce. De Roiko dijo después a EFE que es un rival muy completo al que cuesta mucho sacarle puntos.
+
+## De la música a la pista en dos años
+
+La boccia es un deporte de precisión: se lanzan bolas de cuero para dejarlas lo más cerca posible de una bola blanca. La clase BC1 es para deportistas con afectación severa en piernas, brazos y tronco, muchos de ellos en silla de ruedas eléctrica.
+
+El Langui empezó en 2024, casi como afición, captado por Raúl González «Champi», [según contó Libertad Digital](https://www.libertaddigital.com/deportes/mas-deporte/2025-10-14/el-langui-imparable-oro-por-equipos-y-bronce-individual-en-su-debut-internacional-en-boccia-7307764/) en su debut internacional. En marzo de 2025, tras unos cinco meses de entrenamiento, ganó su primer título en Mijas. Ese año sumó la Liga andaluza, el oro en la Copa de España y el bronce en el Campeonato de España.
+
+Así ha ido su primer año con la selección:
+
+- **Octubre de 2025, Olbia.** Debut. Bronce individual en BC1, tras perder la semifinal 3-4 con el israelí Sergiy Babayan, y oro por equipos BC1-BC2 con Ainhoa Meñaka y Desirée Segarra, 6-4 a Francia en la final.
+- **2026, Mundial de Corea.** España no subió al podio, aunque sumó puntos para la clasificación.
+- **Octubre de 2026, Olbia.** Oro individual en BC1 y bronce por equipos.
+
+## Lo que viene: Brasil, el Europeo y Los Ángeles
+
+La próxima parada es la Copa del Mundo de Brasil, a principios de noviembre. Después, el Europeo del año que viene y, al fondo, los Juegos Paralímpicos de Los Ángeles 2028, el objetivo que él mismo se ha marcado.
+
+En Olbia no ganó solo él. Mohamed Soliman, recién incorporado al equipo, se colgó el otro oro español, en BC2. Ainhoa Meñaka (BC2) y Alejandro Díaz (BC3) fueron plata, y Desirée Segarra (BC1), Laura Utrero (BC3) y Sara Aller (BC4), bronce.
+
+No es el único campeón inesperado de este mes. [Walter Fowler, con 92 años, ganó en Londres el 500 metros del Mundial máster de pista](/noticias/walter-fowler-92-anos-campeon-mundial-master-pista-500-metros-londres), y había colgado la bici en 1958. El resto de historias del deporte que no sale en las portadas está en [la sección de noticias](/noticias).`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'Boccia', sport: 'boccia', slug: 'boccia' },
+    sourceName: 'EFE (vía Infobae)',
+    sourceUrl: 'https://www.infobae.com/espana/agencias/2026/10/20/el-langui-conquista-su-primera-medalla-de-oro-en-el-campeonato-internacional-de-olbia/',
+    sourceLang: 'es',
+    publishedAt: '2026-10-20T12:25:00+02:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/El_Langui_1.jpg/1280px-El_Langui_1.jpg',
+      alt: 'El Langui canta ante un micrófono en un escenario con luz azul, con chaqueta de cuero y una nube de humo blanco a la derecha',
+      credit: 'Ruben Ortega · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+    sourcesSecondary: [
+      { name: 'Al Sol de la Costa', url: 'https://alsoldelacosta.com/el-bochero-langui-afincado-en-san-pedro-alcantara-conquista-el-oro-en-el-olbia-2026-world-boccia-challenger/' },
+      { name: 'Libertad Digital (2025)', url: 'https://www.libertaddigital.com/deportes/mas-deporte/2025-10-14/el-langui-imparable-oro-por-equipos-y-bronce-individual-en-su-debut-internacional-en-boccia-7307764/' },
+      { name: 'Wikipedia: El Langui', url: 'https://es.wikipedia.org/wiki/El_Langui' },
+    ],
+  },
+  {
+    slug: 'hector-bellerin-querella-inaki-angulo-homofobia-ley-antiviolencia-precedentes-williams-vinicius',
+    title: 'Héctor Bellerín lleva a un youtuber al juzgado por homofobia: así acabaron los casos anteriores',
+    summary: 'Bellerín se querella en Sevilla contra Iñaki Angulo por delito de odio y el Betis acude a Antiviolencia. Qué castiga cada vía y en qué acabaron los casos de Williams y Vinícius.',
+    body: `Héctor Bellerín ha presentado una querella contra el youtuber Iñaki Angulo ante la Sección de Instrucción del Tribunal de Instancia de Sevilla, [informa Europa Press](https://www.infobae.com/espana/agencias/2026/10/20/el-jugador-del-betis-bellerin-interpone-una-querella-contra-el-youtuber-inaki-angulo-por-delito-de-odio/). Le imputa un delito de odio en concurso con otro de injurias graves hechas con publicidad. El Real Betis, por su parte, ha denunciado los hechos ante la Comisión Estatal contra la Violencia, el Racismo, la Xenofobia y la Intolerancia en el Deporte.
+
+Todo viene de un directo de YouTube en el que Angulo analizaba el Betis-Real Madrid del 4 de septiembre. Según la información de Europa Press, se burló de que el lateral «se pinta las uñas» y de lo que lee, y le dedicó insultos homófobos. Las informaciones publicadas no recogen ninguna respuesta de Angulo, que no ha sido condenado por nada.
+
+## Tres vías abiertas a la vez
+
+Además de la querella y la denuncia del club, la Fiscalía Provincial de Madrid ha abierto diligencias de investigación tras una denuncia de la Asociación Transparencia y Democracia en el Deporte, a la que se han sumado cerca de cien personas, [según El Desmarque](https://www.eldesmarque.com/futbol/liga-1a-division/20261020/real-betis-hector-bellerin-querella-inaki-angulo-denuncia-antiviolencia_18_020481279.html).
+
+| Vía | Quién la mueve | Qué invoca | Qué prevé la norma |
+| --- | --- | --- | --- |
+| Penal, Sevilla | Héctor Bellerín | Delito de odio e injurias graves con publicidad | De 6 meses a 4 años de prisión según el apartado del artículo 510 |
+| Penal, Madrid | Fiscalía, tras la denuncia de una asociación | Delito contra los derechos fundamentales | Diligencias abiertas |
+| Administrativa | Real Betis | Infracción muy grave, artículo 23.1 c) de la Ley 19/2007 | Multa de 60.000,01 a 650.000 euros |
+
+El [artículo 510 del Código Penal](https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444#a510) castiga con uno a cuatro años a quien incite al odio por orientación sexual, entre otros motivos, y con seis meses a dos años a quien lesione la dignidad de alguien con humillaciones por ese motivo. Si se hace por internet y llega a mucha gente, la pena va a su mitad superior. Qué apartado encaja, si encaja alguno, lo decidirá el juez.
+
+La vía del Betis es otra. El artículo 24 de la Ley 19/2007 fija esa horquilla de multa para las infracciones muy graves y permite añadir a una persona física la prohibición de entrar en recintos deportivos. El club sostiene que la norma se aplica a «cualesquiera sujetos», sin necesidad de licencia federativa. Esa es la pieza nueva: un creador de contenido, no un aficionado en la grada.
+
+## En qué acabaron los casos anteriores
+
+Los precedentes más conocidos del fútbol español son de espectadores en un estadio, y de racismo:
+
+- **Iñaki Williams.** El aficionado del Espanyol que le dedicó gritos y gestos racistas en Cornellà en enero de 2020 aceptó, tras pactar con la Fiscalía, un año de prisión, 1.086 euros de multa, dos años sin ir al fútbol y cuatro de inhabilitación para trabajar en educación o deporte.
+- **Vinícius en Valladolid.** Cinco aficionados, condenados en 2025 a un año de prisión suspendida por insultos en un partido de 2022. Fue la primera sentencia en España que trató los cánticos racistas en un estadio como delito de odio, [recogió ESPN](https://espndeportes.espn.com/futbol/espana/nota/_/id/15211793/vinicius-junior-racismo-delito-odio-aficionados-valladolid-condena).
+- **Vinícius en Mestalla.** Tres aficionados del Valencia, condenados en 2024 a ocho meses por un delito contra la integridad moral con agravante de racismo.
+
+Bellerín juega el miércoles 21 con el Betis ante el Feyenoord en la [Champions League](/futbol/champions-league). El calendario del equipo está en [la ficha del Real Betis](/futbol/laliga/equipo/244).`,
+    category: 'polemica',
+    kind: 'noticia',
+    competition: { name: 'LaLiga', sport: 'futbol', slug: 'laliga' },
+    sourceName: 'Europa Press (vía Infobae)',
+    sourceUrl: 'https://www.infobae.com/espana/agencias/2026/10/20/el-jugador-del-betis-bellerin-interpone-una-querella-contra-el-youtuber-inaki-angulo-por-delito-de-odio/',
+    sourceLang: 'es',
+    publishedAt: '2026-10-20T12:23:00+02:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Hector_Bellerin_Arsenal_Members%27_Day_2015_%2820122063071%29.jpg/1280px-Hector_Bellerin_Arsenal_Members%27_Day_2015_%2820122063071%29.jpg',
+      alt: 'Héctor Bellerín, con camiseta roja de entrenamiento del Arsenal y el dorsal 24, lanza un balón con las dos manos en el césped del Emirates',
+      credit: 'joshjdss · Wikimedia Commons',
+      license: 'CC BY 2.0',
+    },
+    sourcesSecondary: [
+      { name: 'El Desmarque', url: 'https://www.eldesmarque.com/futbol/liga-1a-division/20261020/real-betis-hector-bellerin-querella-inaki-angulo-denuncia-antiviolencia_18_020481279.html' },
+      { name: 'BOE: Ley 19/2007, artículo 24', url: 'https://www.boe.es/buscar/act.php?id=BOE-A-2007-13408#a24' },
+      { name: 'BOE: Código Penal, artículo 510', url: 'https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444#a510' },
+      { name: 'ESPN: condena en Valladolid', url: 'https://espndeportes.espn.com/futbol/espana/nota/_/id/15211793/vinicius-junior-racismo-delito-odio-aficionados-valladolid-condena' },
+      { name: 'Soccerway: condena por los insultos a Iñaki Williams', url: 'https://es.soccerway.com/noticias/futbol-laliga-ea-sports-un-ano-de-carcel-para-el-aficionado-del-espanyol-que-insulto-a-inaki-williams/84QFHHwI' },
+    ],
+  },
+  {
+    slug: 'jurgen-klopp-seleccionador-alemania-campana-novo-nordisk-ozempic-mainz',
+    title: 'Jürgen Klopp, seleccionador de Alemania, pone su cara a la empresa que fabrica Ozempic',
+    summary: 'Klopp protagoniza una campaña de Novo Nordisk contra la diabetes y la obesidad grave, rodada en el estadio del Mainz. Llega dos meses después de asumir la selección alemana.',
+    body: `Jürgen Klopp es la cara de una campaña de Novo Nordisk, la farmacéutica danesa que comercializa Ozempic y Wegovy, [cuenta n-tv](https://www.n-tv.de/leute/Juergen-Klopp-wirbt-fuer-Ozempic-Hersteller-id31434973.html). El lema es «Juntos contra la diabetes y la obesidad grave», y la campaña ocupa la portada de [la web alemana de la compañía](https://www.novonordisk.de/home-mit-kampagne.html).
+
+Klopp tiene 59 años y es seleccionador de Alemania desde el 15 de agosto. La federación lo nombró el 24 de julio para sustituir a Julian Nagelsmann, con contrato hasta 2030, según [su biografía en la Wikipedia en inglés](https://en.wikipedia.org/wiki/J%C3%BCrgen_Klopp).
+
+## Un anuncio rodado en casa
+
+El spot se grabó en el estadio del Mainz 05 con personas que viven con estas enfermedades, según [ran.de](https://ran.joyn.de/sports/fussball/juergen-klopp-nimmt-neuen-job-an-dfb-trainer-wird-gesicht-von-werbekampagne-201152). La elección tiene doble lectura. En Mainz jugó casi toda su carrera y empezó a entrenar en 2001, siete temporadas en el banquillo. Y en Mainz tiene su sede alemana Novo Nordisk.
+
+En el vídeo, Klopp sale del túnel de vestuarios a un estadio iluminado y plantea una cuenta: en un estadio lleno, uno de cada cuatro aficionados vive con diabetes u obesidad grave, más de 20 millones de personas en Alemania. Acaba sentado en la grada entre un hombre y una mujer que representan a los afectados, y cierra con una frase corta: «Keiner bleibt alleine» (nadie se queda solo).
+
+La compañía dice que quiere cambiar cómo ve la sociedad estas dos enfermedades, quitar prejuicios y animar a los pacientes a hablar con su médico de los tratamientos.
+
+## Un anunciante en serie
+
+n-tv califica el encargo de «inusual» para un seleccionador en el cargo, aunque Klopp lleva años prestando su imagen. Estas son algunas de sus campañas, según la Wikipedia en inglés:
+
+| Marca | Sector |
+| --- | --- |
+| Opel | Automóvil |
+| Puma | Material deportivo |
+| Volksbanken Raiffeisenbanken | Banca |
+| Erdinger | Cerveza |
+| Adidas (desde 2020) | Material deportivo |
+| Snickers (2021) | Alimentación |
+| Trivago (desde octubre de 2024) | Viajes |
+| Novo Nordisk (2026) | Farmacéutica |
+
+La de Opel es la que más se cita: según las revistas alemanas Horizont y Wirtschaftswoche, su papel de embajador ayudó a una marca en apuros a vender más coches.
+
+## El entrenador que dijo no al Madrid
+
+En España, su nombre sonó en marzo de 2026 para el banquillo del Real Madrid. Klopp lo negó y dijo seguir comprometido con su puesto en Red Bull, aunque admitió que estaba abierto a volver a entrenar. Cuatro meses después volvió, pero con [la selección alemana](/selecciones/ger).
+
+El Mainz, el club donde se rodó el anuncio, juega en la [Bundesliga](/futbol/bundesliga).`,
+    category: 'patrocinios',
+    kind: 'noticia',
+    competition: { name: 'Bundesliga', sport: 'futbol', slug: 'bundesliga' },
+    sourceName: 'n-tv',
+    sourceUrl: 'https://www.n-tv.de/leute/Juergen-Klopp-wirbt-fuer-Ozempic-Hersteller-id31434973.html',
+    sourceLang: 'de',
+    publishedAt: '2026-10-20T12:21:00+02:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Juergen_Klopp_2014.jpg/1280px-Juergen_Klopp_2014.jpg',
+      alt: 'Jürgen Klopp, con gafas y chaqueta amarilla del Borussia Dortmund, sonríe sobre un fondo oscuro',
+      credit: 'Tim.Reckmann · Wikimedia Commons',
+      license: 'CC BY-SA 3.0',
+    },
+    sourcesSecondary: [
+      { name: 'Novo Nordisk Alemania', url: 'https://www.novonordisk.de/home-mit-kampagne.html' },
+      { name: 'ran.de', url: 'https://ran.joyn.de/sports/fussball/juergen-klopp-nimmt-neuen-job-an-dfb-trainer-wird-gesicht-von-werbekampagne-201152' },
+      { name: 'Wikipedia: Jürgen Klopp', url: 'https://en.wikipedia.org/wiki/J%C3%BCrgen_Klopp' },
+    ],
+  },
+  {
     slug: 'davidovich-quise-dejar-el-tenis-wimbledon-junior-cinco-finales-perdidas-shanghai',
     title: 'Alejandro Davidovich, 27 años: «Hubo un momento en que quise dejar el tenis»',
     summary: 'Alejandro Davidovich ganó Shanghái tras perder sus cinco primeras finales. Ese domingo se publicó una entrevista en la que cuenta que, tras ganar Wimbledon júnior, estuvo a punto de dejarlo.',
