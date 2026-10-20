@@ -13,6 +13,7 @@ import { LiveMatchSummary } from '@/components/match/live-match-summary';
 import { MovistarCintillo } from '@/components/affiliate/movistar-banner';
 import { MatchWeatherBlock } from '@/components/match/match-weather';
 import { MatchPitchMaps } from '@/components/match/pitch-maps';
+import { WatchGuideLink } from '@/components/affiliate/watch-guide-link';
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl } from '@/lib/seo';
 
@@ -146,6 +147,8 @@ export default async function PartidoPortalPage({ params }: { params: Params }) 
           <MovistarCintillo context={`${h.home.name} - ${h.away.name}`} />
         </section>
         )}
+
+        {summary.state !== 'post' && <WatchGuideLink compSlug={c.slug} compName={c.name} locale={L} className="mt-4" />}
 
         {(summary.state === 'pre' || summary.state === 'in') && (
           <MatchWeatherBlock sport={s.slug} espn={c.espn!} id={id} kickoff={h.date} />

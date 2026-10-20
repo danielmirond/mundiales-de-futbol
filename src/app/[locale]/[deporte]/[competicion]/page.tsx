@@ -17,6 +17,7 @@ import { pageMetadata } from '@/lib/seo';
 import { BoxingHub } from '@/components/portal/boxing-hub';
 import { MotoGPHub } from '@/components/portal/motogp-hub';
 import { AdSlot } from '@/components/affiliate/ad-slot';
+import { WatchGuideLink } from '@/components/affiliate/watch-guide-link';
 
 // Regeneración periódica (ISR): rápida y estable sin pedir a las fuentes en cada visita.
 export const revalidate = 300;
@@ -58,6 +59,7 @@ export default async function CompetitionPage({ params }: { params: Params }) {
   return (
     <main className="pt-28" data-sport={s.slug}>
       <CompetitionHeader s={s} c={c} locale={locale} section="inicio" title={c.name} description={c.description} />
+      {!soon && <WatchGuideLink compSlug={c.slug} compName={c.name} locale={L} className="mt-6" />}
 
       {soon ? (
         <section className="mx-auto w-full max-w-[1400px] px-6 py-12 md:px-10">
