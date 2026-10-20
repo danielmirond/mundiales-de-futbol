@@ -19,10 +19,11 @@ import snapshot from '@/data/wosti-snapshot.json';
 type RawEvent = {
   Id?: number | string;
   Date?: string;
-  LocalTeam?: { Name?: string };
-  AwayTeam?: { Name?: string };
-  Competition?: { Name?: string };
-  Channels?: { Name?: string }[];
+  LocalTeam?: { Name?: string; Image?: string };
+  AwayTeam?: { Name?: string; Image?: string };
+  Competition?: { Name?: string; Image?: string };
+  Event?: { Name?: string };
+  Channels?: { Name?: string; Image?: string }[];
 };
 
 const MADRID = 'Europe/Madrid';
@@ -134,11 +135,14 @@ async function fetchLive(): Promise<RawEvent[] | null> {
     if (!res.ok) return null;
     const raw = await res.json();
     if (!Array.isArray(raw) || raw.length === 0) return null;
+    // Se conservan escudos, logos y fase: /api/wosti los sirve tal cual a Guía TV.
     return raw.map((e: any): RawEvent => ({
       Id: e.Id, Date: e.Date,
-      LocalTeam: { Name: e.LocalTeam?.Name }, AwayTeam: { Name: e.AwayTeam?.Name },
-      Competition: { Name: e.Competition?.Name },
-      Channels: (e.Channels ?? []).map((c: any) => ({ Name: c.Name })),
+      LocalTeam: { Name: e.LocalTeam?.Name, Image: e.LocalTeam?.Image },
+      AwayTeam: { Name: e.AwayTeam?.Name, Image: e.AwayTeam?.Image },
+      Competition: { Name: e.Competition?.Name, Image: e.Competition?.Image },
+      ...(e.Event?.Name ? { Event: { Name: e.Event.Name } } : {}),
+      Channels: (e.Channels ?? []).map((c: any) => ({ Name: c.Name, Image: c.Image })),
     }));
   } catch {
     return null;
@@ -146,6 +150,16 @@ async function fetchLive(): Promise<RawEvent[] | null> {
 }
 
 let FALLBACK: WostiIndex | null = null;
+
+/**
+ * El feed WOSTI tal cual (formato de la API, recortado) para compartirlo con
+ * Guía TV por /api/wosti: en vivo (Data Cache 24 h) o, si no, el snapshot.
+ */
+export async function getWostiFeed(): Promise<{ fuente: 'api' | 'snapshot'; events: RawEvent[] }> {
+  const live = await fetchLive();
+  if (live) return { fuente: 'api', events: live };
+  return { fuente: 'snapshot', events: snapshot as RawEvent[] };
+}
 
 /**
  * Índice fecha(Madrid) → partidos con canal. Feed en vivo (cacheado 24 h) con
