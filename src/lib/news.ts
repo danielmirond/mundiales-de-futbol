@@ -154,6 +154,112 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'javi-rodriguez-celta-no-iba-convocado-me-quedaba-en-casa-renovacion-2030-seleccion',
+    title: 'Javi Rodríguez, del Celta: «En los torneos importantes no iba convocado, me quedaba en casa»',
+    summary: 'Javi Rodríguez contó en su rueda de prensa de renovación hasta 2030 los años en la cantera del Celta en que no jugaba y veía al equipo por la tele. Hoy marca y asiste en Primera.',
+    body: `Javi Rodríguez es hoy el central que decide partidos en Balaídos. El domingo dio el pase del 1-0 a Ferran Jutglà y marcó el 2-1 final ante el Alavés tras una conducción desde atrás, [según el acta de ESPN](https://www.espn.com/soccer/match/_/gameId/401882845). Pero en su rueda de prensa de este martes contó la otra parte: la de los años en que no contaba.
+
+«En los torneos importantes no iba convocado, me quedaba en casa», explicó [en la comparecencia oficial del club](https://www.youtube.com/watch?v=dRBow2GJ8d8&t=442s). Veía al equipo por la tele y, cuando le tocaba jugar, intentaba dar el máximo.
+
+## El niño tímido de El Marcón
+
+Empezó en El Marcón, un club de la comarca de Pontevedra con campo de tierra. Contó que el primer año apenas entendía el juego: el entrenador le pedía quedarse en la línea y no se movía de ella. Al final de esa temporada, sus padres le dijeron que el Celta quería hacerle una prueba.
+
+No quería ir solo. Se lo dijo a un compañero y fueron tres a la prueba; se quedaron dos. Llegó con ocho años y desde entonces no ha salido del club.
+
+## Los veranos de dudas
+
+Al final de cada temporada en la cantera había una conversación con la dirección deportiva. Algunos años estaban contentos con él. Otros había dudas. Él siempre pidió lo mismo: quedarse a hacer la pretemporada y demostrar que podía competir. Y si el club necesitaba cederle, aceptarlo.
+
+El director deportivo, Marco Garcés, lo resumió en la misma sala: es el jugador de la generación de 2003 que más minutos ha jugado y el que ha llegado a la absoluta, y «no siempre fue el que pintaba» para ser el referente. Lo puso como ejemplo para los canteranos que pasan por épocas sin minutos.
+
+## De apoyo a la selección a contrato hasta 2030
+
+El salto llegó en un año. En mayo, Luis de la Fuente [lo citó como uno de los nueve jugadores de apoyo](https://rccelta.es/equipo/actualidad/javi-rodriguez-citado-por-luis-de-la-fuente/) para los primeros días de la preparación del Mundial. Debutó con la absoluta en el 1-1 ante Irak en Riazor, unos 20 minutos desde el banquillo, [según El Español](https://www.elespanol.com/treintayseis/deporte/celta-de-vigo/20260605/javi-rodriguez-estrena-seleccion-espanola-riazor-borja-iglesias-pone-rumbo-mundial/1003744274845_0.html). Contó que estaba tan en shock con las llamadas que, cuando Borja Iglesias le telefoneó para felicitarle, se le olvidó darle la enhorabuena por ir al Mundial.
+
+En octubre, [el club amplió su contrato hasta junio de 2030](https://rccelta.es/equipo/actualidad/javi-rodriguez-una-vida-de-celeste-que-continua-hasta-2030/). La negociación, dijo, se cerró en el parón para no mezclarla con los partidos.
+
+| Momento | Qué pasó |
+| --- | --- |
+| Con 8 años | Prueba con el Celta desde El Marcón |
+| Cantera | Temporadas sin convocatorias en los torneos grandes |
+| Mayo de 2026 | Jugador de apoyo en la preparación del Mundial |
+| Junio de 2026 | Debut con España ante Irak en Riazor |
+| Octubre de 2026 | Renovación hasta 2030; gol y asistencia ante el Alavés |
+
+## Lo que viene
+
+También contó que arrastró un problema de espalda en pretemporada tras una caída y que jugó forzado las tres primeras jornadas; dice que ya no tiene molestias. El jueves el Celta visita Celtic Park en la Europa League. La [crónica del Celta-Alavés](/noticias/cronica-celta-vigo-alaves-401882845) y la [ficha del Celta](/futbol/laliga/equipo/85) tienen el resto, y la clasificación está en la [página de LaLiga](/futbol/laliga).`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'LaLiga', sport: 'futbol', slug: 'laliga' },
+    sourceName: 'RC Celta (rueda de prensa)',
+    sourceUrl: 'https://www.youtube.com/watch?v=dRBow2GJ8d8',
+    sourceLang: 'es',
+    publishedAt: '2026-10-20T16:15:00+02:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Estadio_de_Bala%C3%ADdos%2C_Vigo.jpg/1280px-Estadio_de_Bala%C3%ADdos%2C_Vigo.jpg',
+      alt: 'Exterior del estadio de Balaídos en un día soleado, con el letrero del Museo Real Club Celta de Vigo y coches aparcados delante',
+      credit: 'Rion Tools · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+    sourcesSecondary: [
+      { name: 'RC Celta: renovación hasta 2030', url: 'https://rccelta.es/equipo/actualidad/javi-rodriguez-una-vida-de-celeste-que-continua-hasta-2030/' },
+      { name: 'ESPN: Celta 2-1 Alavés', url: 'https://www.espn.com/soccer/match/_/gameId/401882845' },
+      { name: 'El Español: debut ante Irak', url: 'https://www.elespanol.com/treintayseis/deporte/celta-de-vigo/20260605/javi-rodriguez-estrena-seleccion-espanola-riazor-borja-iglesias-pone-rumbo-mundial/1003744274845_0.html' },
+    ],
+  },
+  {
+    slug: 'jalen-brunson-madre-carta-players-tribune-anillo-knicks-mensajes-antes-de-cada-partido',
+    title: 'Jalen Brunson recibe su anillo esta noche y su madre cambia el mensaje de antes de cada partido',
+    summary: 'Sandra Brunson le escribe a su hijo antes de cada partido desde el instituto. Para la noche del anillo de los Knicks, campeones tras 53 años, le ha escrito una carta pública.',
+    body: `Jalen Brunson recibe esta madrugada el anillo de campeón de la NBA, antes del Knicks - 76ers del Madison Square Garden (1:00, hora peninsular). Para esa noche, su madre, Sandra Brunson, no le ha mandado el mensaje de siempre. Le ha escrito [una carta en The Players' Tribune](https://www.theplayerstribune.com/sandra-jalen-brunson-new-york-knicks-nba-basketball).
+
+El mensaje de siempre es una tradición de 15 años. Empezó cuando Jalen estaba en segundo de instituto y su padre, Rick Brunson, se fue a entrenar a Carolina del Norte. La noche antes de cada partido, ella imprimía unas palabras de ánimo y las pegaba en el espejo del baño, en la nevera y en la bolsa del almuerzo. Luego pasaron a ser mensajes de móvil. Dice que se lo ha enviado antes de cada partido desde entonces.
+
+## La frase que lo cambió todo
+
+En su primer partido con Villanova, ella le comentó un arbitraje y unos tiros libres fallados. Él bajó los hombros y le respondió: «Mamá… tú también no». Desde ese día dejó de hablarle del juego. Sus mensajes fueron cambiando con la carrera: trabajo en equipo en el instituto, liderazgo en la universidad, paciencia en sus primeros años en Dallas y, en su primer año en Nueva York, lo que ella llama modo «mamá oso», guardando cada crítica a su contrato.
+
+## El «enchufado» que ganó el anillo
+
+En junio de 2022 los Knicks contrataron a Rick Brunson como asistente y un mes después ficharon a Jalen por cuatro años y 104 millones de dólares, [según su biografía](https://en.wikipedia.org/wiki/Rick_Brunson). Hubo quien lo llamó *nepo baby*. Ella recuerda en la carta que su familia vivió años de contrato en contrato: Rick jugó nueve temporadas en la NBA y la familia se mudó siete veces.
+
+Cuatro temporadas después, los Knicks ganaron su primer título desde 1973. Brunson anotó 45 puntos en el quinto partido de la final ante los Spurs (94-90) y fue MVP de las Finales por unanimidad, [según ESPN](https://africa.espn.com/nba/story/_/id/49056933/knicks-brunson-seals-finals-mvp-honors-45-points-game-5).
+
+| Fecha | Mensaje de Sandra Brunson |
+| --- | --- |
+| 3 de junio, partido 1 | Una posesión, un cuarto, un partido cada vez |
+| 10 de junio, partido 4 | Elevarse cuando el rival busca lo peor de ti |
+| 13 de junio, partido 5 | Aprovechar el momento para que dure siempre |
+
+## Lo que pide esta noche
+
+La carta acaba con una orden de madre: que esta noche no la trate como un partido más. Cuenta que la madre de Andre Iguodala le avisó tras el título de que octubre llegaría antes de lo que pensaba. Y que llorará en la entrega de anillos.
+
+El partido va en DAZN, como toda la noche del estreno: los canales y horarios están en [la guía de la NBA en España](/noticias/nba-2026-27-donde-ver-espana-dazn-prime-video-estreno-hugo-gonzalez-aldama), en la [ficha del Knicks - 76ers](/baloncesto/nba/partido/401909089) y en el [calendario de la NBA](/baloncesto/nba/calendario).`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'NBA', sport: 'baloncesto', slug: 'nba' },
+    sourceName: "The Players' Tribune",
+    sourceUrl: 'https://www.theplayerstribune.com/sandra-jalen-brunson-new-york-knicks-nba-basketball',
+    sourceLang: 'en',
+    publishedAt: '2026-10-20T16:18:00+02:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Jalen_Brunson_-_52977333593_%28wide_crop%29.jpg/1280px-Jalen_Brunson_-_52977333593_%28wide_crop%29.jpg',
+      alt: 'Jalen Brunson, con la camiseta azul número 11 de los Knicks, conduce el balón ante un defensor de los Cavaliers de blanco',
+      credit: 'Erik Drost · Wikimedia Commons',
+      license: 'CC BY 2.0',
+    },
+    sourcesSecondary: [
+      { name: 'ESPN: Brunson, MVP de las Finales', url: 'https://africa.espn.com/nba/story/_/id/49056933/knicks-brunson-seals-finals-mvp-honors-45-points-game-5' },
+      { name: 'Wikipedia: Rick Brunson', url: 'https://en.wikipedia.org/wiki/Rick_Brunson' },
+      { name: 'Wikipedia: Jalen Brunson', url: 'https://en.wikipedia.org/wiki/Jalen_Brunson' },
+    ],
+  },
+  {
     slug: 'el-langui-boccia-oro-olbia-seleccion-espanola-bc1-truco-del-manco',
     title: 'El Langui, el Goya de «El truco del manco», ya gana finales con la selección de boccia',
     summary: 'El Langui ganó en Olbia (Italia) su primer oro individual con España en boccia, en la clase BC1. Empezó en este deporte en 2024 y apunta al Europeo y a Los Ángeles 2028.',
