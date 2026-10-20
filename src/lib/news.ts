@@ -154,6 +154,217 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'davidovich-quise-dejar-el-tenis-wimbledon-junior-cinco-finales-perdidas-shanghai',
+    title: 'Alejandro Davidovich, 27 años: «Hubo un momento en que quise dejar el tenis»',
+    summary: 'Alejandro Davidovich ganó Shanghái tras perder sus cinco primeras finales. Ese domingo se publicó una entrevista en la que cuenta que, tras ganar Wimbledon júnior, estuvo a punto de dejarlo.',
+    body: `Alejandro Davidovich ganó el domingo 18 de octubre el Masters 1000 de Shanghái, el título más grande de su carrera. El mismo día, el canal de YouTube Tennis Insider Club publicó una entrevista larga con el malagueño en la que habla de la época en que estuvo a punto de no llegar a nada de esto.
+
+Fue justo después de su primer gran éxito. En 2017 ganó Wimbledon júnior y, [en esa conversación](https://www.youtube.com/watch?v=IyBpmh8dr4c&t=156s), explica que no supo gestionar lo que vino después: tres meses perdiendo en torneos Futures partidos que debía ganar y una pregunta que no se quitaba de la cabeza, si era así de bueno o solo había tenido una buena semana. Lo resume en inglés con una frase: «Hubo un momento en que quise dejar el tenis porque no podía con esa presión».
+
+## La presión de ser campeón júnior
+
+En la entrevista añade un detalle que pocas veces se cuenta: con 17 o 18 años no se gana dinero suficiente para seguir, y hace falta un patrocinador que pague viajes y equipo. Dice que la presión venía más de él mismo que de fuera, porque no tenía la confianza que tiene ahora.
+
+También describe al jugador que era al entrar en el top 100, en 2019: ansioso, con prisa por acabar cada punto, sin rutinas. Cuenta que las copió de otros jugadores del circuito, que le costó aceptar repetir lo mismo cada día y que sigue siendo emocional, pero se controla más.
+
+## Cinco finales perdidas antes de la primera
+
+La frustración tuvo otra forma después: las finales. Davidovich perdió las cinco primeras que jugó en el circuito ATP y ha ganado las tres siguientes, todas en 2026, [como recuerda ESPN](https://www.espn.com/tennis/story/_/id/50209382/davidovich-fokina-wins-shanghai-biggest-title-career).
+
+| Fecha | Torneo | Rival | Resultado |
+| --- | --- | --- | --- |
+| Abril 2022 | Montecarlo (Masters 1000) | Stefanos Tsitsipas | Perdió 3-6, 6-7 |
+| Febrero 2025 | Delray Beach (ATP 250) | Miomir Kecmanovic | Perdió 6-3, 1-6, 5-7 |
+| Febrero 2025 | Acapulco (ATP 500) | Tomas Machac | Perdió 6-7, 2-6 |
+| Julio 2025 | Washington (ATP 500) | Alex de Miñaur | Perdió 7-5, 1-6, 6-7 |
+| Octubre 2025 | Basilea (ATP 500) | João Fonseca | Perdió 3-6, 4-6 |
+| Junio 2026 | Mallorca (ATP 250) | Ethan Quinn | Ganó 7-6, 6-3 |
+| Septiembre 2026 | Chengdu (ATP 250) | Hubert Hurkacz | Ganó 6-4, 7-6 |
+| Octubre 2026 | Shanghái (Masters 1000) | Rafael Jódar | Ganó 1-6, 7-6, 6-4 |
+
+Las finales y los marcadores están en [su ficha de la Wikipedia en inglés](https://en.wikipedia.org/wiki/Alejandro_Davidovich_Fokina). En dos de las cinco derrotas, Washington y Delray Beach, llegó a un tercer set.
+
+## Shanghái, al borde del abismo tres veces
+
+El título tampoco fue limpio. Era el cabeza de serie 25. En tercera ronda salvó una bola de partido ante Frances Tiafoe, en semifinales remontó un set a Alexander Zverev y en la final perdió el primer set 1-6 ante Rafael Jódar y llegó a ir con una rotura abajo en el segundo, según la [crónica de la ATP](https://www.atptour.com/en/news/jodar-davidovich-fokina-shanghai-2026-final). Jódar perdió la final, pero salió de China [en zona de Turín](/noticias/rafael-jodar-ultima-plaza-turin-atp-finals-quien-puede-quitarsela-basilea-viena-paris).
+
+El lunes 19 Davidovich amaneció número 13 del mundo, su mejor clasificación. Nació en La Cala del Moral, en Rincón de la Victoria (Málaga), y empezó a jugar con dos años con su padre, un exboxeador que, según cuenta él mismo, nunca le enseñó a boxear. La clasificación completa está en la sección de [tenis ATP](/tenis/atp).`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'ATP', sport: 'tenis', slug: 'atp' },
+    sourceName: 'Tennis Insider Club (YouTube)',
+    sourceUrl: 'https://www.youtube.com/watch?v=IyBpmh8dr4c',
+    sourceLang: 'en',
+    publishedAt: '2026-10-20T12:02:00+02:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Alejandro_Davidovich_Fokina_%282023_US_Open%29_01.jpg/1280px-Alejandro_Davidovich_Fokina_%282023_US_Open%29_01.jpg',
+      alt: 'Alejandro Davidovich, con camiseta blanca y micrófono en la mano, sonríe sobre un escenario con un mural de colores detrás',
+      credit: 'Hameltion · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+    sourcesSecondary: [
+      { name: 'ATP Tour: final de Shanghái', url: 'https://www.atptour.com/en/news/jodar-davidovich-fokina-shanghai-2026-final' },
+      { name: 'ESPN', url: 'https://www.espn.com/tennis/story/_/id/50209382/davidovich-fokina-wins-shanghai-biggest-title-career' },
+      { name: 'Wikipedia: Alejandro Davidovich Fokina', url: 'https://en.wikipedia.org/wiki/Alejandro_Davidovich_Fokina' },
+    ],
+  },
+  {
+    slug: 'unai-simon-guante-de-oro-mundial-trofeo-yashin-ningun-espanol-joan-garcia-raya',
+    title: 'Unai Simón ganó el Guante de Oro del Mundial y va a Londres a por lo que ningún español tiene',
+    summary: 'Unai Simón, Joan García y David Raya optan al Trofeo Yashin el 26 de octubre. Ningún portero español lo ha ganado desde que se creó en 2019; Unai se quedó a 63 puntos en 2024.',
+    body: `Unai Simón fue el portero titular de España en la final del Mundial, el 1-0 a Argentina en la prórroga del 19 de julio, y la FIFA le dio el Guante de Oro al mejor portero del torneo, [según el resumen del Mundial 2026](https://en.wikipedia.org/wiki/2026_FIFA_World_Cup). El lunes 26 de octubre, en el London Palladium, optará al Trofeo Yashin de France Football junto a otros nueve. Dos son españoles: Joan García y David Raya.
+
+Ningún portero español ha ganado el Yashin desde que se entrega. El que más cerca estuvo es el propio Unai: segundo en 2024, con 213 puntos frente a los 276 de Emiliano Martínez, según el [palmarés del trofeo](https://en.wikipedia.org/wiki/Yashin_Trophy).
+
+## Siete ediciones, ningún español
+
+El premio nació en 2019 y no se entregó en 2020 por la pandemia. Iker Casillas, Guante de Oro en el Mundial de 2010 con cinco porterías a cero, se retiró sin poder optar a él. Unai firmó siete en 2026, la cifra más alta de la [lista de ganadores del Guante de Oro](https://en.wikipedia.org/wiki/FIFA_World_Cup_awards).
+
+| Año | Ganador | Segundo |
+| --- | --- | --- |
+| 2019 | Alisson (Liverpool) | Ter Stegen (Barcelona) |
+| 2021 | Donnarumma (PSG) | Mendy (Chelsea) |
+| 2022 | Courtois (Real Madrid) | Alisson (Liverpool) |
+| 2023 | Emiliano Martínez (Aston Villa) | Ederson (Manchester City) |
+| 2024 | Emiliano Martínez (Aston Villa) | Unai Simón (Athletic) |
+| 2025 | Donnarumma (PSG) | Alisson (Liverpool) |
+
+Los clubes españoles sí han estado arriba: Courtois lo ganó con el Real Madrid y Ter Stegen fue segundo con el Barça. Un portero español, solo una vez entre los dos primeros.
+
+## Los diez de este año
+
+La lista que publicó France Football el 8 de septiembre, recogida en la [página de la edición 2026](https://en.wikipedia.org/wiki/2026_Ballon_d%27Or) y en la prensa chilena por la presencia de Vozinha, es esta: Bounou (Al-Hilal), Courtois (Real Madrid), Joan García ([Barcelona](/futbol/laliga/equipo/83)), Kobel (Borussia Dortmund), Emiliano Martínez (Aston Villa), Mendy (Al-Ahli), David Raya ([Arsenal](/futbol/premier-league/equipo/359)), Safonov (PSG), Unai Simón ([Athletic](/futbol/laliga/equipo/93)) y Vozinha (Colo-Colo).
+
+Tres de diez son españoles. España llega con un argumento que no tiene nadie más en la lista: en todo el Mundial encajó un solo gol, en los cuartos de final ante Bélgica, según el resumen de la final. El periodo que se juzga va del 3 de agosto de 2025 al 19 de julio de 2026, el día de la final.
+
+## Cata Coll, otra vez en la lista corta
+
+En el Yashin femenino solo hay cinco candidatas y una es española: Cata Coll, del Barcelona. En 2025, el primer año de la categoría, fue tercera con 25 puntos, uno menos que Ann-Katrin Berger. Ganó Hannah Hampton. Las tres vuelven a estar en la lista, con Lorena y Ayaka Yamashita.
+
+La gala se emite en exclusiva en Movistar Plus+. El horario y el resto de españoles que optan están en la [guía de la gala](/noticias/gala-balon-de-oro-2026-londres-horario-espana-donde-ver-espanoles-nominados), y el camino de la campeona, en la ficha de la [selección española](/selecciones/ESP).`,
+    category: 'general',
+    kind: 'noticia',
+    sourceName: 'Wikipedia: 2026 Ballon d\'Or',
+    sourceUrl: 'https://en.wikipedia.org/wiki/2026_Ballon_d%27Or',
+    sourceLang: 'en',
+    publishedAt: '2026-10-20T12:00:00+02:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Unai_Simon_Argentina_v_Spain_19_July_2026-080.jpg/1280px-Unai_Simon_Argentina_v_Spain_19_July_2026-080.jpg',
+      alt: 'Unai Simón, con la equipación azul celeste de portero y el dorsal 23, camina por el césped con la grada llena detrás',
+      credit: 'Bryan Berlin · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+    sourcesSecondary: [
+      { name: 'Wikipedia: Yashin Trophy', url: 'https://en.wikipedia.org/wiki/Yashin_Trophy' },
+      { name: 'Radio Agricultura', url: 'https://www.radioagricultura.cl/deportes/vozinha-es-nominado-al-balon-de-oro-como-mejor-arquero-del-mundo-revisa-contra-quienes-compite_20260908/' },
+      { name: 'Wikipedia: 2026 FIFA World Cup', url: 'https://en.wikipedia.org/wiki/2026_FIFA_World_Cup' },
+      { name: 'Wikipedia: final del Mundial 2026', url: 'https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_final' },
+    ],
+  },
+  {
+    slug: 'ronaldo-roberto-carlos-compran-inter-de-limeira-neymar-gol-olimpico-valladolid',
+    title: 'Ronaldo y Roberto Carlos compran el club al que Neymar condenó al descenso con un gol olímpico',
+    summary: 'Ronaldo y Roberto Carlos firmaron el 19 de octubre la compra del 80 % de la SAF del Inter de Limeira, campeón paulista en 1986. Es el tercer club de Ronaldo tras el Valladolid y el Cruzeiro.',
+    body: `Ronaldo Nazário y Roberto Carlos firmaron el lunes 19 de octubre la entrada en la sociedad anónima deportiva (SAF) del Inter de Limeira, un club del interior de São Paulo. El grupo inversor se queda con el 80 % de las acciones y la asociación del club conserva el 20 %, [según CNN Brasil](https://www.cnnbrasil.com.br/esportes/futebol/ronaldo-e-roberto-carlos-assinam-saf-com-aporte-milionario-em-time-paulista/). Con ellos entran un príncipe saudí, Abdullah bin Saad bin Abdulaziz Al Saud, y un empresario haitiano.
+
+El club tiene una historia que encaja con la de los dos exmadridistas. Ganó el Campeonato Paulista de 1986 ante el Palmeiras y, casi cuarenta años después, en febrero de 2025, bajó del Paulistão sin ganar un partido. El descenso se confirmó con un 0-3 ante el Santos en su estadio, el Limeirão, en el que Neymar marcó [un gol olímpico](https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2025/02/23/neymar-faz-gol-olimpico-contra-a-inter.ghtml).
+
+## El plan: diez años y la Serie A
+
+El acuerdo prevé hasta 454 millones de reales en diez años, una proyección ligada a objetivos y no un pago inicial. En los dos primeros años, hasta 20 millones, para el primer equipo, la cantera, la ciudad deportiva y el estadio. La meta es llegar a la Serie A del Brasileirão en ocho temporadas como máximo.
+
+El equipo ya viene subiendo. En 2025 ascendió a la Serie C nacional y en 2026 ha logrado el ascenso a la Serie B, a la que no llegaba desde hacía 35 años. Al frente del proyecto está el ejecutivo Enrico Ambrogini, que trabajó con Ronaldo en el Cruzeiro y en el Valladolid.
+
+## Lo que falta por firmar
+
+La operación no está cerrada del todo. Se firmó el acuerdo de inversión, pero quedan cuatro documentos pendientes que deberían estar a finales de octubre; después llegarán el registro mercantil de São Paulo y la Federación Paulista, que daría el visto bueno a mediados de noviembre, [según 365Scores](https://www.365scores.com/pt-br/news/magazine/ronaldo-roberto-carlos-inter-limeira-assina-acordo-saf/). La firma estaba prevista para septiembre y se retrasó por trámites.
+
+## El precedente que conocen en Pucela
+
+En España, Ronaldo es el expropietario del Real Valladolid. Tomó el control en 2018 y en mayo de 2025 acordó vender su participación mayoritaria a un grupo inversor norteamericano, con el tercer descenso del club bajo su gestión ya consumado, [según Reuters](https://www.flashscore.com/news/soccer-laliga-brazilian-legend-ronaldo-sells-stake-in-relegated-laliga-side-valladolid/rqE16QDc). El equipo era colista con 29 derrotas a falta de una jornada.
+
+| Club | País | Ronaldo, propietario | Cómo acabó |
+| --- | --- | --- | --- |
+| Real Valladolid | España | 2018-2025 | Tres descensos y venta tras bajar en 2025 |
+| Cruzeiro | Brasil | 2021-2024 | Vendió la mayoría un año antes que el Valladolid |
+| Inter de Limeira | Brasil | Desde 2026 | Recién ascendido a la Serie B |
+
+El Valladolid juega hoy en [Segunda División](/futbol/laliga-2). El calendario del fútbol brasileño está en la sección del [Brasileirão](/futbol/brasileirao).`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'Brasileirão', sport: 'futbol', slug: 'brasileirao' },
+    sourceName: 'CNN Brasil',
+    sourceUrl: 'https://www.cnnbrasil.com.br/esportes/futebol/ronaldo-e-roberto-carlos-assinam-saf-com-aporte-milionario-em-time-paulista/',
+    sourceLang: 'pt',
+    publishedAt: '2026-10-20T11:58:00+02:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Ronaldo_Presidente.jpg/1280px-Ronaldo_Presidente.jpg',
+      alt: 'Ronaldo Nazário, con gafas y polo negro, sentado en el palco del estadio José Zorrilla entre otros dos hombres en 2018',
+      credit: 'Carbeal9969 · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+    sourcesSecondary: [
+      { name: '365Scores', url: 'https://www.365scores.com/pt-br/news/magazine/ronaldo-roberto-carlos-inter-limeira-assina-acordo-saf/' },
+      { name: 'ge: gol olímpico de Neymar', url: 'https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2025/02/23/neymar-faz-gol-olimpico-contra-a-inter.ghtml' },
+      { name: 'Reuters (Flashscore): venta del Valladolid', url: 'https://www.flashscore.com/news/soccer-laliga-brazilian-legend-ronaldo-sells-stake-in-relegated-laliga-side-valladolid/rqE16QDc' },
+      { name: 'Wikipedia: Inter de Limeira', url: 'https://pt.wikipedia.org/wiki/Associa%C3%A7%C3%A3o_Atl%C3%A9tica_Internacional_(Limeira)' },
+    ],
+  },
+  {
+    slug: 'sporting-hortaleza-sevilla-copa-del-rey-el-val-alcala-autobus-apedreado-guimar',
+    title: 'Sporting de Hortaleza llega al Sevilla después de que le apedrearan el autobús en Tenerife',
+    summary: 'Sporting de Hortaleza, de la sexta categoría, recibe al Sevilla el jueves 29 en El Val de Alcalá de Henares. Es su primera Copa del Rey y llegó tras una previa suspendida y repetida a puerta cerrada.',
+    body: `El Sporting de Hortaleza juega en la Primera Autonómica de Madrid, la sexta categoría del fútbol español, cinco por debajo del Sevilla. El jueves 29 de octubre, a las 21:00, será local ante el club andaluz en la primera ronda de la Copa del Rey, en el estadio municipal El Val de Alcalá de Henares, [según EFE](https://www.infobae.com/espana/agencias/2026/10/15/el-sporting-hortaleza-sevilla-se-disputara-en-el-val-de-alcala-de-henares/). Es la primera vez que el club, fundado en 1964, juega la Copa.
+
+Para llegar hasta aquí tuvo que pasar por un episodio que nada tiene que ver con el fútbol. El 4 de octubre, a su llegada a Güímar (Tenerife) para la vuelta de la eliminatoria previa, varios encapuchados [apedrearon el autobús del equipo](https://rtvc.es/incidentes-en-el-partido-entre-el-atletico-union-guimar-y-el-hortaleza-4-octubre-2026/), según Radio Televisión Canaria. El partido no se jugó.
+
+## Una previa en tres actos
+
+| Fecha | Partido | Qué pasó |
+| --- | --- | --- |
+| 27 de septiembre | Hortaleza 1-0 Atlético Unión Güímar | Ida, en Madrid |
+| 4 de octubre | Güímar - Hortaleza, en Tasagaya | Suspendido: el Hortaleza se negó a jugar tras los incidentes |
+| 11 de octubre | Güímar 3-3 Hortaleza, en El Peñón | Vuelta a puerta cerrada en Puerto de la Cruz; pasa el Hortaleza (4-3 global) |
+
+La RFEF ordenó completar la eliminatoria en otro campo y sin público. Allí el Güímar ganaba 3-2 al final de los 90 minutos, lo que igualaba el global, y en la prórroga Alhambra empató de penalti, una pena que la [crónica de RTVC](https://rtvc.es/guimar-sporting-hortaleza-pase-copa-del-rey-11-octubre-2026/) califica de polémica.
+
+## Por qué Alcalá y no su barrio
+
+El Hortaleza juega en el polideportivo municipal del distrito, con césped artificial, y el partido necesitaba hierba natural. El club buscó primero Butarque, pero el estadio del Leganés acoge el miércoles 28 el Trival Valderas - Leganés de la misma ronda. También se habló del Fernando Torres de Fuenlabrada, de unas 6.000 plazas, según ElDesmarque.
+
+Su presidente, Miguel Romón, lo resumió así cuando aún buscaban sede: «Necesitamos un campo en torno a los 20.000 y 25.000 localidades». El elegido, El Val, casa de la RSD Alcalá, tiene unas 8.000.
+
+## Entradas
+
+El Sevilla dispone de hasta 1.500 localidades a precio único de 30 euros, que vende a sus abonados por su portal, [según Vamos Mi Sevilla](https://www.vamosmisevillafc.com/marea-roja-en-madrid-el-sporting-de-hortaleza-facilita-el-desplazamiento-masivo-de-la-aficion-del-sevilla-fc/). El Hortaleza abrió su venta el lunes 19.
+
+No es el único cruce de barrio contra Primera de esta ronda: el Atlético Calatayud [monta gradas portátiles para recibir a Osasuna](/noticias/atletico-calatayud-osasuna-copa-del-rey-gradas-portatiles-san-inigo-entradas) y el Tavernes [jugará de local en Mestalla](/noticias/ue-tavernes-local-mestalla-valencia-visitante-copa-del-rey-28-octubre). Todos los cruces están en la sección de [Copa del Rey](/futbol/copa-del-rey), y la temporada del rival, en la ficha del [Sevilla](/futbol/laliga/equipo/243).`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'Copa del Rey', sport: 'futbol', slug: 'copa-del-rey' },
+    sourceName: 'EFE (Infobae)',
+    sourceUrl: 'https://www.infobae.com/espana/agencias/2026/10/15/el-sporting-hortaleza-sevilla-se-disputara-en-el-val-de-alcala-de-henares/',
+    sourceLang: 'es',
+    publishedAt: '2026-10-20T11:56:00+02:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/RSD_Alcal%C3%A1-La_Nuc%C3%ADa.JPG/1280px-RSD_Alcal%C3%A1-La_Nuc%C3%ADa.JPG',
+      alt: 'El estadio El Val de Alcalá de Henares en un partido de día, con los jugadores alineados sobre el césped y la grada llena de aficionados',
+      credit: 'Alcalá · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+    sourcesSecondary: [
+      { name: 'RTVC: incidentes en Güímar', url: 'https://rtvc.es/incidentes-en-el-partido-entre-el-atletico-union-guimar-y-el-hortaleza-4-octubre-2026/' },
+      { name: 'RTVC: el pase a puerta cerrada', url: 'https://rtvc.es/guimar-sporting-hortaleza-pase-copa-del-rey-11-octubre-2026/' },
+      { name: 'Canal Sur', url: 'https://www.canalsur.es/noticias/deportes/futbol/rival-sevilla-copa-rey-sera_1_1443334.html' },
+      { name: 'ElDesmarque', url: 'https://www.eldesmarque.com/futbol/copa-del-rey/20261012/sevilla-fc-sporting-hortaleza-busca-estadio-primera-ronda_18_020413380.html' },
+      { name: 'Vamos Mi Sevilla', url: 'https://www.vamosmisevillafc.com/marea-roja-en-madrid-el-sporting-de-hortaleza-facilita-el-desplazamiento-masivo-de-la-aficion-del-sevilla-fc/' },
+    ],
+  },
+  {
     slug: 'nfl-semana-2026-43',
     title: "NFL: todos los resultados de la jornada y la cabeza de cada conferencia",
     summary: "Resultados de los 13 partidos de la semana en la NFL, el más ajustado y los mejores balances de la AFC y la NFC.",
