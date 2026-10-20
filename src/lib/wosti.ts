@@ -1,12 +1,10 @@
 /**
  * Canales de TV por partido (fútbol) a partir del feed WOSTI.
  *
- * Portado de guia-tv (lib/wosti.ts + lib/canal-partido.ts), con una diferencia
- * de arquitectura: aquí el feed se pide EN RUNTIME con el Data Cache de Next
- * (`revalidate` 24 h → ~1 llamada/día a RapidAPI, cuota compartida con Guía TV)
- * y el snapshot del repo (src/data/wosti-snapshot.json, refrescable con
- * scripts/wosti/snapshot.mjs) es el RESPALDO si no hay credenciales o la API
- * falla. Así la frescura no depende de commits ni deploys.
+ * Portado de guia-tv (lib/wosti.ts + lib/canal-partido.ts). Aquí NO se pide
+ * el feed en runtime: se lee src/data/wosti-snapshot.json, que GitHub Actions
+ * refresca una vez al día (scripts/wosti/snapshot.mjs) copiando el snapshot de
+ * Guía TV. Así la web no gasta la cuota de RapidAPI que usa Guía TV.
  *
  * Emparejado con ESPN por FECHA (Madrid) + los DOS equipos normalizados; nunca
  * por un solo equipo (la repetición del partido iría a parar al canal
@@ -120,43 +118,17 @@ function buildIndex(events: RawEvent[]): WostiIndex {
   return idx;
 }
 
-/** Feed en vivo (RapidAPI) recortado a lo que usa el índice; null si no hay credenciales o falla. */
-async function fetchLive(): Promise<RawEvent[] | null> {
-  const key = process.env.RAPIDAPI_KEY;
-  const host = process.env.RAPIDAPI_HOST;
-  if (!key || !host) return null;
-  try {
-    const res = await fetch(`https://${host}/api/Events`, {
-      headers: { 'x-rapidapi-key': key, 'x-rapidapi-host': host },
-      // 24 h en el Data Cache: ~1 llamada/día por despliegue.
-      next: { revalidate: 86_400 },
-    });
-    if (!res.ok) return null;
-    const raw = await res.json();
-    if (!Array.isArray(raw) || raw.length === 0) return null;
-    return raw.map((e: any): RawEvent => ({
-      Id: e.Id, Date: e.Date,
-      LocalTeam: { Name: e.LocalTeam?.Name }, AwayTeam: { Name: e.AwayTeam?.Name },
-      Competition: { Name: e.Competition?.Name },
-      Channels: (e.Channels ?? []).map((c: any) => ({ Name: c.Name })),
-    }));
-  } catch {
-    return null;
-  }
-}
-
-let FALLBACK: WostiIndex | null = null;
+let INDEX: WostiIndex | null = null;
 
 /**
- * Índice fecha(Madrid) → partidos con canal. Feed en vivo (cacheado 24 h) con
- * el snapshot del repo como respaldo. Pedir UNA vez por render y pasarlo a
- * `channelsFor`.
+ * Índice fecha(Madrid) → partidos con canal, construido SOLO desde el snapshot
+ * del repo. La web nunca llama a RapidAPI: el snapshot se refresca una vez al
+ * día en GitHub Actions (scripts/wosti/snapshot.mjs), que copia el de Guía TV.
+ * Pedir UNA vez por render y pasarlo a `channelsFor`.
  */
 export async function getWostiIndex(): Promise<WostiIndex> {
-  const live = await fetchLive();
-  if (live) return buildIndex(live);
-  if (!FALLBACK) FALLBACK = buildIndex(snapshot as RawEvent[]);
-  return FALLBACK;
+  INDEX ??= buildIndex(snapshot as RawEvent[]);
+  return INDEX;
 }
 
 const same = (a: string, b: string) => !!a && !!b && (a === b || a.includes(b) || b.includes(a));

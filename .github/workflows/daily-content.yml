@@ -49,6 +49,14 @@ jobs:
         run: '[ "$(date -u +%u)" = 1 ] && npx tsx scripts/f1/snapshot.ts || echo "F1 sin cambios"'
       - name: Snapshot OpenACB (Liga Endesa, estadísticas semanales)
         run: npx tsx scripts/openacb/snapshot.ts || echo 'OpenACB sin cambios'
+      - name: Snapshot WOSTI (canales de TV; copia el de Guía TV, una vez al día)
+        if: ${{ github.event.schedule == '40 6 * * *' || github.event_name == 'workflow_dispatch' }}
+        timeout-minutes: 2
+        env:
+          WOSTI_SNAPSHOT_URL: ${{ vars.WOSTI_SNAPSHOT_URL }}
+          RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
+          RAPIDAPI_HOST: ${{ secrets.RAPIDAPI_HOST }}
+        run: node scripts/wosti/snapshot.mjs
       - name: Generar piezas
         env:
           DAILY_DRY: ${{ github.event.inputs.dry == 'true' && '1' || '' }}
@@ -59,10 +67,10 @@ jobs:
         if: ${{ github.event.inputs.dry != 'true' }}
         run: |
           set -e
-          if git diff --quiet src/lib/news.ts src/data/sportapi-snapshot.json src/data/openacb-snapshot.json src/data/ufc-snapshot.json src/data/f1-pilotos.json; then echo "Sin cambios."; exit 0; fi
+          if git diff --quiet src/lib/news.ts src/data/sportapi-snapshot.json src/data/openacb-snapshot.json src/data/ufc-snapshot.json src/data/f1-pilotos.json src/data/wosti-snapshot.json; then echo "Sin cambios."; exit 0; fi
           git config user.name "daily-content-bot"
           git config user.email "daily-content-bot@users.noreply.github.com"
-          git add src/lib/news.ts src/data/sportapi-snapshot.json src/data/openacb-snapshot.json src/data/ufc-snapshot.json src/data/f1-pilotos.json
+          git add src/lib/news.ts src/data/sportapi-snapshot.json src/data/openacb-snapshot.json src/data/ufc-snapshot.json src/data/f1-pilotos.json src/data/wosti-snapshot.json
           git commit -m "auto(contenidos): piezas del $(date -u +%F)"
           git push origin HEAD:main
       # Vercel no está conectado a Git: sin este paso las piezas no llegan a
