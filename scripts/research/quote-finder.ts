@@ -3,6 +3,8 @@
  *
  *   Buscar entrevistas, podcasts y documentales recientes en YouTube:
  *     npx tsx --env-file=.env.local scripts/research/quote-finder.ts "Andrés Iniesta" [--days 60] [--lang es|en]
+*   Buscar por tema (pódcast y entrevistas recientes de actualidad):
+ *     npx tsx --env-file=.env.local scripts/research/quote-finder.ts "podcast futbol entrevista" --topic --days 7
  *   Transcripción con minuto y segundo de un vídeo (subtítulos del propio vídeo o automáticos):
  *     npx tsx --env-file=.env.local scripts/research/quote-finder.ts --subs <videoId> [--grep "palabra"] [--lang es]
  *
@@ -20,10 +22,11 @@ const opt = (k: string, d?: string) => { const i = args.indexOf(k); return i >= 
 const LANG = opt('--lang', 'es')!;
 const KEY = process.env.YOUTUBE_API_KEY;
 
-async function search(name: string, days: number) {
+async function search(name: string, days: number, topic = false) {
   if (!KEY) { console.error('Falta YOUTUBE_API_KEY'); process.exit(1); }
   const after = new Date(Date.now() - days * 86_400_000).toISOString();
-  const q = LANG === 'es' ? `"${name}" entrevista|podcast|documental` : `"${name}" interview|podcast|documentary`;
+  // --topic: búsqueda libre (p. ej. «podcast fútbol entrevista») en vez de por persona.
+  const q = topic ? name : LANG === 'es' ? `"${name}" entrevista|podcast|documental` : `"${name}" interview|podcast|documentary`;
   const u = new URL('https://www.googleapis.com/youtube/v3/search');
   Object.entries({ part: 'snippet', type: 'video', q, publishedAfter: after, maxResults: '20', order: 'relevance', relevanceLanguage: LANG, videoDuration: 'any', key: KEY }).forEach(([k, v]) => u.searchParams.set(k, v));
   const s: any = await (await fetch(u)).json();
@@ -73,5 +76,5 @@ function subs(id: string, grep?: string) {
   if (args.includes('--subs')) return subs(opt('--subs')!, opt('--grep'));
   const name = args.find((a, i) => !a.startsWith('--') && !args[i - 1]?.startsWith('--'));
   if (!name) { console.error('Uso: quote-finder.ts "Nombre" [--days 60] | --subs <id> [--grep palabra]'); process.exit(1); }
-  await search(name, Number(opt('--days', '60')));
+  await search(name, Number(opt('--days', '60')), args.includes('--topic'));
 })();
