@@ -12,7 +12,8 @@
 import type { Competition } from './competitions';
 import { fetchTeams } from './espn-team';
 
-export type PressFeed = { id: string; name: string; url: string; region: 'ES' | 'INT'; lang: string; comps?: string[]; sport?: string[] };
+/** `api`: ruta de la API de noticias de ESPN (deporte/liga); su RSS no trae imágenes y la API sí. */
+export type PressFeed = { id: string; name: string; url: string; region: 'ES' | 'INT'; lang: string; comps?: string[]; sport?: string[]; api?: string };
 export type PressItem = { title: string; link: string; date: string; source: string; region: 'ES' | 'INT'; lang: string; image?: string };
 
 const MARCA = 'https://e00-marca.uecdn.es/rss';
@@ -67,19 +68,19 @@ export const PRESS_FEEDS: PressFeed[] = [
   { id: 'guardian-rugby', name: 'The Guardian', url: 'https://www.theguardian.com/sport/rugby-union/rss', region: 'INT', lang: 'en', sport: ['rugby'] },
   { id: 'guardian-tennis', name: 'The Guardian', url: 'https://www.theguardian.com/sport/tennis/rss', region: 'INT', lang: 'en', comps: ['atp', 'wta'] },
   { id: 'guardian-golf', name: 'The Guardian', url: 'https://www.theguardian.com/sport/golf/rss', region: 'INT', lang: 'en', comps: ['pga-tour', 'dp-world-tour', 'lpga'] },
-  { id: 'espn-nba', name: 'ESPN', url: 'https://www.espn.com/espn/rss/nba/news', region: 'INT', lang: 'en', comps: ['nba'] },
-  { id: 'espn-nfl', name: 'ESPN', url: 'https://www.espn.com/espn/rss/nfl/news', region: 'INT', lang: 'en', comps: ['nfl'] },
-  { id: 'espn-nhl', name: 'ESPN', url: 'https://www.espn.com/espn/rss/nhl/news', region: 'INT', lang: 'en', comps: ['nhl'] },
-  { id: 'espn-mlb', name: 'ESPN', url: 'https://www.espn.com/espn/rss/mlb/news', region: 'INT', lang: 'en', comps: ['mlb'] },
-  { id: 'espn-soccer', name: 'ESPN', url: 'https://www.espn.com/espn/rss/soccer/news', region: 'INT', lang: 'en', sport: ['futbol'] },
-  { id: 'espn-f1', name: 'ESPN', url: 'https://www.espn.com/espn/rss/f1/news', region: 'INT', lang: 'en', comps: ['formula-1'] },
-  { id: 'espn-golf', name: 'ESPN', url: 'https://www.espn.com/espn/rss/golf/news', region: 'INT', lang: 'en', comps: ['pga-tour', 'dp-world-tour', 'lpga'] },
-  { id: 'espn-tennis', name: 'ESPN', url: 'https://www.espn.com/espn/rss/tennis/news', region: 'INT', lang: 'en', comps: ['atp', 'wta'] },
+  { id: 'espn-nba', name: 'ESPN', url: 'https://www.espn.com/espn/rss/nba/news', region: 'INT', lang: 'en', comps: ['nba'], api: 'basketball/nba' },
+  { id: 'espn-nfl', name: 'ESPN', url: 'https://www.espn.com/espn/rss/nfl/news', region: 'INT', lang: 'en', comps: ['nfl'], api: 'football/nfl' },
+  { id: 'espn-nhl', name: 'ESPN', url: 'https://www.espn.com/espn/rss/nhl/news', region: 'INT', lang: 'en', comps: ['nhl'], api: 'hockey/nhl' },
+  { id: 'espn-mlb', name: 'ESPN', url: 'https://www.espn.com/espn/rss/mlb/news', region: 'INT', lang: 'en', comps: ['mlb'], api: 'baseball/mlb' },
+  { id: 'espn-soccer', name: 'ESPN', url: 'https://www.espn.com/espn/rss/soccer/news', region: 'INT', lang: 'en', sport: ['futbol'], api: 'soccer/all' },
+  { id: 'espn-f1', name: 'ESPN', url: 'https://www.espn.com/espn/rss/f1/news', region: 'INT', lang: 'en', comps: ['formula-1'], api: 'racing/f1' },
+  { id: 'espn-golf', name: 'ESPN', url: 'https://www.espn.com/espn/rss/golf/news', region: 'INT', lang: 'en', comps: ['pga-tour', 'dp-world-tour', 'lpga'], api: 'golf/pga' },
+  { id: 'espn-tennis', name: 'ESPN', url: 'https://www.espn.com/espn/rss/tennis/news', region: 'INT', lang: 'en', comps: ['atp', 'wta'], api: 'tennis/atp' },
   { id: 'espn-boxing', name: 'ESPN', url: 'https://www.espn.com/espn/rss/boxing/news', region: 'INT', lang: 'en', comps: ['boxeo'] },
   { id: 'bbc-boxing', name: 'BBC Sport', url: 'https://feeds.bbci.co.uk/sport/boxing/rss.xml', region: 'INT', lang: 'en', comps: ['boxeo'] },
   { id: 'guardian-boxing', name: 'The Guardian', url: 'https://www.theguardian.com/sport/boxing/rss', region: 'INT', lang: 'en', comps: ['boxeo'] },
   { id: 'boxingnews', name: 'Boxing News', url: 'https://www.boxingnewsonline.net/feed/', region: 'INT', lang: 'en', comps: ['boxeo'] },
-  { id: 'espn-mma', name: 'ESPN', url: 'https://www.espn.com/espn/rss/mma/news', region: 'INT', lang: 'en', comps: ['ufc'] },
+  { id: 'espn-mma', name: 'ESPN', url: 'https://www.espn.com/espn/rss/mma/news', region: 'INT', lang: 'en', comps: ['ufc'], api: 'mma/ufc' },
   { id: 'gazzetta-seriea', name: 'La Gazzetta dello Sport', url: 'https://www.gazzetta.it/dynamic-feed/rss/section/Calcio/Serie-A.xml', region: 'INT', lang: 'it', comps: ['serie-a'] },
   { id: 'gazzetta-calcio', name: 'La Gazzetta dello Sport', url: 'https://www.gazzetta.it/rss/calcio.xml', region: 'INT', lang: 'it', sport: ['futbol'] },
   { id: 'kicker-bundesliga', name: 'kicker', url: 'https://newsfeed.kicker.de/news/bundesliga', region: 'INT', lang: 'de', comps: ['bundesliga'] },
@@ -154,7 +155,23 @@ function parse(xml: string, f: PressFeed): PressItem[] {
   }).filter((x) => x.title && /^https?:\/\//.test(x.link));
 }
 
+/** Noticias de ESPN por su API (titular, enlace, fecha y foto de cabecera). */
+async function fetchEspnNews(f: PressFeed): Promise<PressItem[]> {
+  const res = await fetch(`https://site.api.espn.com/apis/site/v2/sports/${f.api}/news?limit=25`, { next: { revalidate: 600 }, signal: AbortSignal.timeout(8000) });
+  if (!res.ok) return [];
+  const j = (await res.json()) as { articles?: { headline?: string; published?: string; links?: { web?: { href?: string } }; images?: { type?: string; url?: string; width?: number }[] }[] };
+  return (j.articles ?? []).map((a) => {
+    const imgs = (a.images ?? []).filter((i) => i.url);
+    const img = imgs.find((i) => i.type === 'header') ?? imgs.sort((x, y) => (y.width ?? 0) - (x.width ?? 0))[0];
+    return { title: a.headline ?? '', link: a.links?.web?.href ?? '', date: a.published ? new Date(a.published).toISOString() : '', source: f.name, region: f.region, lang: f.lang, image: img?.url };
+  }).filter((x) => x.title && /^https?:\/\//.test(x.link));
+}
+
 async function fetchFeed(f: PressFeed): Promise<PressItem[]> {
+  if (f.api) {
+    const viaApi = await fetchEspnNews(f).catch(() => [] as PressItem[]);
+    if (viaApi.length) return viaApi;
+  }
   try {
     const res = await fetch(f.url, { headers: { 'User-Agent': 'Mozilla/5.0 (compatible; mundiales-de-futbol.com)' }, next: { revalidate: 600 }, signal: AbortSignal.timeout(8000) });
     if (!res.ok) return [];

@@ -811,6 +811,12 @@ Ficha: 9 amarillas · expulsado: Djené · 10 cambios. Alineaciones, momentos cl
     sourceLang: 'en',
     publishedAt: '2026-10-20T00:37:30.783Z',
     author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Panor%C3%A1mica_Coliseum_Alfonso_Perez.jpg/1280px-Panor%C3%A1mica_Coliseum_Alfonso_Perez.jpg',
+      alt: 'Vista panorámica del Coliseum Alfonso Pérez de Getafe, con el césped y las gradas azules',
+      credit: 'Heradiom · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
   },
   {
     slug: 'partidos-baloncesto-hoy-2026-10-20',
@@ -937,6 +943,12 @@ Horarios y canal de cada partido, en el [calendario de LaLiga](/futbol/laliga/ca
     sourceLang: 'es',
     publishedAt: '2026-10-19T19:51:00+02:00',
     author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/LFP_-_Barcelona_vs_Mallorca_pre-match_-_Oct_3rd_2010.jpg/1280px-LFP_-_Barcelona_vs_Mallorca_pre-match_-_Oct_3rd_2010.jpg',
+      alt: 'Los jugadores del Barcelona y del Mallorca, alineados en el centro del campo del Camp Nou antes de un partido de Liga',
+      credit: 'Paolo Costa Baldi · Wikimedia Commons',
+      license: 'CC BY-SA 3.0',
+    },
     sourcesSecondary: [
       { name: 'OCU: dónde ver el fútbol', url: 'https://www.ocu.org/tecnologia/internet-telefonia/noticias/donde-ver-futbol' },
       { name: 'Mundoplus: paquetes de Movistar', url: 'https://www.mundoplus.tv/tv-digital/movistar-plus-abarata-el-acceso-a-laliga-y-champions-con-un-importante-cambio-en-sus-paquetes/' },
@@ -998,6 +1010,12 @@ El cuadro y los resultados, en la [Champions League](/futbol/champions-league), 
     sourceLang: 'es',
     publishedAt: '2026-10-19T19:50:00+02:00',
     author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Madrid_-_Estadio_Wanda_Metropolitano_26.jpg/1280px-Madrid_-_Estadio_Wanda_Metropolitano_26.jpg',
+      alt: 'Exterior del estadio Metropolitano, con una bandera rojiblanca ondeando junto a la cubierta bajo el cielo azul',
+      credit: 'Zarateman · Wikimedia Commons',
+      license: 'CC0',
+    },
     sourcesSecondary: [
       { name: 'OCU: dónde ver el fútbol', url: 'https://www.ocu.org/tecnologia/internet-telefonia/noticias/donde-ver-futbol' },
       { name: 'eldiario.es: la Champions hasta 2031', url: 'https://www.eldiario.es/vertele/noticias/telefonica-adquiere-derechos-champions-league-2031-1464-millones-euros_1_12785352.html' },
@@ -1086,6 +1104,12 @@ Los partidos de Acción de Gracias y Navidad se ven todos con Game Pass; DAZN no
     sourceLang: 'es',
     publishedAt: '2026-10-19T19:48:00+02:00',
     author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/2025_NFL_Madrid_Game_2.jpg/1280px-2025_NFL_Madrid_Game_2.jpg',
+      alt: 'El Santiago Bernabéu con el campo de fútbol americano pintado para el partido de la NFL de 2025 en Madrid',
+      credit: 'Badefa · Wikimedia Commons',
+      license: 'CC0',
+    },
     sourcesSecondary: [
       { name: 'NFL: fechas clave 2026-27', url: 'https://www.nfl.com/news/2026-27-national-football-league-important-dates' },
       { name: 'ADSLZone: la NFL en Movistar Plus+', url: 'https://www.adslzone.net/noticias/operadores/movistar-plus-confirma-emision-otro-deporte-temporada-2026-2027/' },
@@ -1147,6 +1171,12 @@ La [Liga Endesa](/noticias/donde-ver-liga-endesa-2026-27-dazn-movistar-gratis-au
     sourceLang: 'es',
     publishedAt: '2026-10-19T19:51:00+02:00',
     author: 'Redacción Mundiales',
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Forum_Assago_Euroleague_Final_Four_2014.jpg/1280px-Forum_Assago_Euroleague_Final_Four_2014.jpg',
+      alt: 'Pabellón de la Final Four de la Euroliga de 2014 en Milán, con la grada llena y el marcador colgado sobre la pista',
+      credit: 'Savino Paolella · Wikimedia Commons',
+      license: 'CC BY 2.0',
+    },
     sourcesSecondary: [
       { name: 'SportBusiness: Movistar Plus+ renueva la Euroliga', url: 'https://www.sportbusiness.com/news/movistar-plus-commits-to-euroleague-to-2031/' },
       { name: 'Roams: paquete Baloncesto de Movistar', url: 'https://roams.es/companias-telefonicas/movistar/guias/television/baloncesto/' },
@@ -1210,6 +1240,12 @@ Cuatro de ellos juegan también la [Euroliga](/noticias/donde-ver-euroliga-2026-
     sourceLang: 'es',
     publishedAt: '2026-10-19T19:52:00+02:00',
     author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Roig_Arena.jpg/1280px-Roig_Arena.jpg',
+      alt: 'Exterior del Roig Arena de Valencia al atardecer, con palmeras y una plaza delante',
+      credit: 'M4THIelBromista · Wikimedia Commons',
+      license: 'CC0',
+    },
     sourcesSecondary: [
       { name: 'DAZN: el baloncesto ACB en DAZN', url: 'https://www.dazn.com/es-ES/help/articles/30194060137373-el-baloncesto-acb-en-dazn' },
       { name: 'Roams: la Liga Endesa en Movistar', url: 'https://roams.es/companias-telefonicas/movistar/guias/television/liga-endesa/' },
@@ -1277,6 +1313,12 @@ Este año Mediaset dio en abierto la F1 de Barcelona y Madrid y el MotoGP de Jer
     sourceLang: 'es',
     publishedAt: '2026-10-19T19:54:00+02:00',
     author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/MotoGP_2026_Austria_Nr._89_Mart%C3%ADn_%281%29.jpg/1280px-MotoGP_2026_Austria_Nr._89_Mart%C3%ADn_%281%29.jpg',
+      alt: 'Jorge Martín, con la moto número 89, tumbado en una curva durante el Gran Premio de Austria de 2026',
+      credit: 'Lukas Raich · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
     sourcesSecondary: [
       { name: 'MotoGP: DAZN hasta 2030', url: 'https://www.motogp.com/en/news/2026/07/16/dazn-to-broadcast-motogp-in-spain-until-2030-portugal-until-2031/1078683' },
       { name: 'Movistar: Fórmula 1 y MotoGP', url: 'https://www.movistar.es/tv/agenda-deportiva/calendario-formula-1-y-motogp' },
@@ -1323,6 +1365,12 @@ La Premier no tiene partidos en abierto en España. Los horarios de cada jornada
     sourceLang: 'es',
     publishedAt: '2026-10-19T19:55:00+02:00',
     author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/The_Kop_at_Anfield_Stadium%2C_Liverpool_-_geograph.org.uk_-_5885064.jpg/1280px-The_Kop_at_Anfield_Stadium%2C_Liverpool_-_geograph.org.uk_-_5885064.jpg',
+      alt: 'La grada del Kop de Anfield, vacía, con las letras LFC dibujadas en los asientos rojos',
+      credit: 'Mike Pennington · Wikimedia Commons',
+      license: 'CC BY-SA 2.0',
+    },
     sourcesSecondary: [
       { name: 'Roams: derechos de DAZN', url: 'https://roams.es/actualidad/telefonia/dazn-incorpora-eredivisie-extiende-serie-a/' },
       { name: 'Movistar Plus+: Premier League', url: 'https://www.movistarplus.es/deportes/futbol/premier-league' },
@@ -1382,6 +1430,12 @@ El calendario del circuito y la clasificación están en las secciones de la [AT
     sourceLang: 'es',
     publishedAt: '2026-10-19T19:56:00+02:00',
     author: 'Redacción Mundiales',
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Carlos_Alcaraz_serving_while_playing_Jan-Lennard_Struff_%28Wimbledon_2025%29.jpg/1280px-Carlos_Alcaraz_serving_while_playing_Jan-Lennard_Struff_%28Wimbledon_2025%29.jpg',
+      alt: 'Carlos Alcaraz, vestido de blanco, lanza la bola al aire para sacar sobre la hierba de Wimbledon',
+      credit: '12121343A · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
     sourcesSecondary: [
       { name: 'HBO Max: deportes', url: 'https://www.hbomax.com/es/es/sports' },
       { name: 'Wikipedia: ATP Finals 2026', url: 'https://en.wikipedia.org/wiki/2026_ATP_Finals' },
@@ -1434,6 +1488,12 @@ Las carteleras y resultados de cada velada están en la sección de la [UFC](/co
     sourceLang: 'es',
     publishedAt: '2026-10-19T19:57:00+02:00',
     author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Ilia_Topuria_at_the_Orbeliani_Palace.jpg/1280px-Ilia_Topuria_at_the_Orbeliani_Palace.jpg',
+      alt: 'Ilia Topuria, con traje marrón, en un acto oficial con banderas de Georgia y de la Unión Europea detrás',
+      credit: 'საქართველოს პრეზიდენტის ადმინისტრაცია · Wikimedia Commons',
+      license: 'CC BY 4.0',
+    },
     sourcesSecondary: [
       { name: 'HBO Max: deportes', url: 'https://www.hbomax.com/es/es/sports' },
       { name: 'Infobae: Topuria', url: 'https://www.infobae.com/espana/deportes/2026/10/15/ilia-topuria-calienta-su-regreso-tras-perder-el-invicto-y-ya-esta-mas-cerca-de-su-primer-combate-sere-yo-quien-lo-haga-bajar-de-division/' },
@@ -1483,6 +1543,12 @@ Seis españolas optan al Balón de Oro el 26 de octubre, y Aitana Bonmatí, gana
     sourceLang: 'en',
     publishedAt: '2026-10-19T19:58:00+02:00',
     author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/c/c8/Alexia_Putellas_20181311.jpg',
+      alt: 'Alexia Putellas, con la camiseta roja de España y el dorsal 11, durante un partido',
+      credit: 'EL Loko Foto · Wikimedia Commons',
+      license: 'CC BY 4.0',
+    },
     sourcesSecondary: [
       { name: 'Disney: la Champions femenina en Disney+', url: 'https://prensa.disney.es/noticias/la-uefa-women\'s-champions-league-regresa-a-disney+-con-todos-los-partidos-en-directo-a-partir-de-hoy-22-de-septiembre' },
       { name: 'Advanced Television: derechos de la Liga F', url: 'https://www.advanced-television.com/2026/08/20/spain-dazn-tve-tv3-secure-liga-f-rights/' },
@@ -1607,6 +1673,12 @@ Cada día, el canal de cada partido está en la página de [partidos de hoy](/pa
     publishedAt: '2026-10-19T19:35:00+02:00',
     modifiedAt: '2026-10-19T20:00:00+02:00',
     author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Camp_Nou_aerial_%28cropped%29.jpg/1280px-Camp_Nou_aerial_%28cropped%29.jpg',
+      alt: 'Vista aérea del Camp Nou, con las gradas azulgranas y el lema «Més que un club» en la tribuna, rodeado de edificios de Barcelona',
+      credit: 'Oh-Barcelona.com from Barcelona, Spain · Wikimedia Commons',
+      license: 'CC BY 2.0',
+    },
     sourcesSecondary: [
       { name: 'Kelisto: DAZN Fútbol', url: 'https://www.kelisto.es/internet/consejos-y-analisis/futbol-dazn' },
       { name: 'Blog de Basket: NBA en DAZN y Prime Video', url: 'https://www.blogdebasket.com/en/2026/10/08/change-of-direction-these-will-be-the-nba-games-broadcast-on-dazn-and-prime-video-in' },
@@ -1672,6 +1744,12 @@ Todo lo demás, día a día, en la sección de la [NBA](/baloncesto/nba).`,
     sourceLang: 'en',
     publishedAt: '2026-10-19T19:25:00+02:00',
     author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Celtics_game_versus_the_Timberwolves%2C_February%2C_1_2009.jpg/1280px-Celtics_game_versus_the_Timberwolves%2C_February%2C_1_2009.jpg',
+      alt: 'La pista de los Celtics en Boston durante un partido, con la grada llena y el videomarcador en lo alto',
+      credit: 'Ktr101 · Wikimedia Commons',
+      license: 'CC BY 3.0',
+    },
     sourcesSecondary: [
       { name: 'NBA: fechas clave 2026-27', url: 'https://www.nba.com/news/key-dates' },
       { name: 'Gigantes: dónde ver la NBA en España', url: 'https://www.gigantes.com/nba/donde-ver-nba-espana-tv-streaming-prime-video-dazn/' },
@@ -1888,6 +1966,12 @@ Además del Balón de Oro masculino y femenino se entregan los trofeos Kopa y Ya
     sourceLang: 'es',
     publishedAt: '2026-10-19T19:04:00+02:00',
     author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Palladium_Theatre_%2816406347227%29.jpg/1280px-Palladium_Theatre_%2816406347227%29.jpg',
+      alt: 'Fachada del London Palladium al anochecer, con el nombre del teatro iluminado sobre la entrada',
+      credit: 'Darren Glanville from Acle, Norfolk, UK · Wikimedia Commons',
+      license: 'CC BY-SA 2.0',
+    },
     sourcesSecondary: [
       { name: 'DAZN Group: nota de prensa', url: 'https://dazngroup.com/press-room/dazn-will-broadcast-the-ballon-dor-to-fans-around-the-world/' },
       { name: 'Wikipedia: 2026 Ballon d\'Or', url: 'https://en.wikipedia.org/wiki/2026_Ballon_d%27Or' },
@@ -2286,6 +2370,12 @@ En Segunda, el Celta Fortuna, el filial del Celta, recibe al Tenerife a las 20:3
     sourceLang: 'en',
     publishedAt: '2026-10-19T13:24:00+02:00',
     author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/The_Coliseum_Alfonso_P%C3%A9rez_in_2018.jpg/1280px-The_Coliseum_Alfonso_P%C3%A9rez_in_2018.jpg',
+      alt: 'El Coliseum Alfonso Pérez de Getafe vacío, con las gradas azules y el nombre del club escrito en ellas, bajo un cielo nublado',
+      credit: 'Vincenzo.togni · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
     sourcesSecondary: [
       { name: 'ESPN: Tottenham - Coventry', url: 'https://www.espn.com/soccer/match/_/gameId/401879257' },
       { name: 'COPE: Ángel Torres sobre Sancho', url: 'https://www.cope.es/programas/el-partidazo-de-cope/audios/angel-torres-confirma-ofertas-jadon-sancho-dani-parejo-negociando-debemos-paciencia-cerrar-llegadas-20261015_3456679.html' },
@@ -2544,6 +2634,12 @@ Ficha: 5 amarillas · expulsado: Kevin Danso · 8 cambios. Alineaciones, momento
     sourceLang: 'en',
     publishedAt: '2026-10-18T23:36:55.874Z',
     author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/East_Stand_-_Vitality_Stadium_-_geograph.org.uk_-_7604192.jpg/1280px-East_Stand_-_Vitality_Stadium_-_geograph.org.uk_-_7604192.jpg',
+      alt: 'La grada este del Vitality Stadium de Bournemouth, llena durante un partido',
+      credit: 'Mr Ignavy · Wikimedia Commons',
+      license: 'CC BY-SA 2.0',
+    },
   },
   {
     slug: 'cronica-nottm-forest-arsenal-401878769',
@@ -2766,6 +2862,12 @@ Todos los horarios están en hora peninsular. Los marcadores se actualizan en di
     publishedAt: '2026-10-18T23:36:55.874Z',
     modifiedAt: '2026-10-18T23:36:55.874Z',
     author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Wanda_Metropolitano_Innenansicht_Panorama.jpg/1280px-Wanda_Metropolitano_Innenansicht_Panorama.jpg',
+      alt: 'Interior del estadio Metropolitano lleno e iluminado durante un partido nocturno',
+      credit: 'Delfonso · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
   },
   {
     slug: 'messi-oviedo-princesa-asturias-agenda-sin-rueda-de-prensa-red-bulls',
@@ -3274,6 +3376,12 @@ Ese mismo miércoles, a las 18:45, el Manchester United visita al Como. Todos lo
     sourceLang: 'en',
     publishedAt: '2026-10-18T12:58:00+02:00',
     author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Parc_des_princes_-_Ligue_1.jpg/1280px-Parc_des_princes_-_Ligue_1.jpg',
+      alt: 'El Parc des Princes de París iluminado durante un partido nocturno, con la grada llena',
+      credit: 'Kilyac · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
     sourcesSecondary: [
       { name: 'ESPN', url: 'https://www.espn.com/soccer/scoreboard/_/league/uefa.champions/date/20261021' },
       { name: 'UEFA', url: 'https://www.uefa.com/uefachampionsleague/standings/' },

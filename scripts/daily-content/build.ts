@@ -75,8 +75,13 @@ const prio = (slug: string) => { const i = PRIORITY.indexOf(slug); return i === 
 const SPORT_NAME: Record<string, string> = { futbol: 'fútbol', baloncesto: 'baloncesto' };
 
 const usedImages = new Set<string>();
-async function imageFor(query: string, alt: string): Promise<Piece['image'] | undefined> {
-  const img: CommonsImage | null = await findImage(query, alt, usedImages);
+/** Foto de Commons para la pieza; si la búsqueda principal no da nada, prueba las alternativas en orden. */
+async function imageFor(query: string, alt: string, ...fallbacks: string[]): Promise<Piece['image'] | undefined> {
+  let img: CommonsImage | null = null;
+  for (const q of [query, ...fallbacks].filter(Boolean)) {
+    img = await findImage(q, alt, usedImages);
+    if (img) break;
+  }
   if (!img) return undefined;
   usedImages.add(img.url);
   return { url: img.url, alt: img.alt, credit: img.credit, license: img.license };
@@ -128,7 +133,7 @@ async function buildHoy(sport: string, now: Date): Promise<Piece | null> {
   const title = `Partidos de ${dep} hoy, ${dia}: horarios y dónde ver ${compsNames}`;
   assertTitle(title, 'Partidos');
   const summary = `Agenda de ${dep} de hoy ${dia}: ${rows.length} ${plural(rows.length, 'partido', 'partidos')} con horario en hora española y canal de televisión. Destaca ${featured.home.name} - ${featured.away.name}.`;
-  const image = await imageFor(featured.venue || `${featured.home.fullName} estadio`, `${featured.venue || featured.home.fullName}, escenario del ${featured.home.name} - ${featured.away.name}`);
+  const image = await imageFor(featured.venue || `${featured.home.fullName} estadio`, `${featured.venue || featured.home.fullName}, escenario del ${featured.home.name} - ${featured.away.name}`, `${featured.home.fullName} stadium`, `${featured.home.fullName}`);
 
   const src = readNews();
   return {
@@ -184,7 +189,7 @@ async function buildCronicas(now: Date): Promise<Piece[]> {
     const reg = pick(rnd, REGISTERS);
     const { title, entity, summary, body } = renderCronica(reg, ctx, rnd);
     assertTitle(title, entity);
-    const image = await imageFor(m.venue || `${m.home.fullName} estadio`, `${m.venue || m.home.fullName}, donde se jugó el ${m.home.name} - ${m.away.name}`);
+    const image = await imageFor(m.venue || `${m.home.fullName} estadio`, `${m.venue || m.home.fullName}, donde se jugó el ${m.home.name} - ${m.away.name}`, `${m.home.fullName} stadium`, `${m.home.fullName} estadio`, `${m.home.fullName}`);
     out.push({
       slug, title, summary, body, category: 'general', kind: 'cronica',
       competition: { name: c.shortName ?? c.name, sport: c.sport, slug: c.slug },
@@ -225,7 +230,7 @@ async function buildPrevia(now: Date): Promise<Piece | null> {
     channels: channelsFor(await getWostiIndex(), m.date, [m.home.fullName, m.home.name], [m.away.fullName, m.away.name]),
   }, rnd);
   assertTitle(title, entity);
-  const image = await imageFor(m.venue || `${m.home.fullName} estadio`, `${m.venue || m.home.fullName}, sede del ${m.home.name} - ${m.away.name}`);
+  const image = await imageFor(m.venue || `${m.home.fullName} estadio`, `${m.venue || m.home.fullName}, sede del ${m.home.name} - ${m.away.name}`, `${m.home.fullName} stadium`, `${m.home.fullName}`);
   const src = readNews();
   return { slug, title, summary, body, category: 'general', kind: 'previa', competition: { name: c.shortName ?? c.name, sport: c.sport, slug: c.slug }, sourceName: 'ESPN', sourceUrl: espnEventUrl(c, m.id), sourceLang: 'en', publishedAt: publishedAtOf(src, slug) ?? now.toISOString(), modifiedAt: REFRESH ? now.toISOString() : undefined, author: AUTHOR, image };
 }
