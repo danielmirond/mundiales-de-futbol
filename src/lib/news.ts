@@ -3613,6 +3613,12 @@ Ficha: 6 amarillas · 10 cambios. Alineaciones, momentos clave, estadísticas co
     sourceLang: 'en',
     publishedAt: '2026-10-17T23:22:30.909Z',
     author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/El_Madrigal_Stadium_02.jpg/1280px-El_Madrigal_Stadium_02.jpg',
+      alt: 'El estadio del Villarreal de noche, con los focos encendidos, la grada amarilla llena y los jugadores sobre el césped',
+      credit: 'Raquel Guerra · Wikimedia Commons',
+      license: 'CC BY 2.0',
+    },
   },
   {
     slug: 'cronica-betis-barcelona-401882846',
@@ -4113,6 +4119,12 @@ La jornada de LaLiga, con el Betis - Barcelona de hoy y el Real Madrid - Sevilla
     sourceLang: 'en',
     publishedAt: '2026-10-17T09:12:00+02:00',
     author: 'Redacción Mundiales',
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Allianz_arena_daylight_Richard_Bartz.jpg/1280px-Allianz_arena_daylight_Richard_Bartz.jpg',
+      alt: 'El Allianz Arena de Múnich visto desde lejos al atardecer, con su fachada blanca acolchada',
+      credit: 'Richard Bartz, Munich aka Makro Freak · Wikimedia Commons',
+      license: 'CC BY-SA 2.5',
+    },
   },
   {
     slug: 'dallaglio-medalla-mundial-2003-subasta-budds-bancarrota-divorcio',
@@ -4636,6 +4648,12 @@ Ficha: 3 amarillas · 10 cambios. Alineaciones, momentos clave, estadísticas co
     sourceLang: 'en',
     publishedAt: '2026-10-16T11:51:44.034Z',
     author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Stadion_Miejski_w_Poznaniu.jpg/1280px-Stadion_Miejski_w_Poznaniu.jpg',
+      alt: 'El estadio municipal de Poznan, con su cubierta blanca ondulada, visto desde lo alto entre árboles y casas',
+      credit: 'Ehreii · Wikimedia Commons',
+      license: 'CC BY 3.0',
+    },
   },
   {
     slug: 'cronica-az-alkmaar-hapoel-be-er-401915573',
@@ -4828,6 +4846,12 @@ Hoy viernes cierra la semana el [Deportivo - Levante](/futbol/laliga/partido/401
     sourceLang: 'en',
     publishedAt: '2026-10-16T09:03:00+02:00',
     author: 'Redacción Mundiales',
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Sevilla_-_Estadio_Benito_Villamar%C3%ADn_05.jpg/1280px-Sevilla_-_Estadio_Benito_Villamar%C3%ADn_05.jpg',
+      alt: 'Exterior del estadio Benito Villamarín de Sevilla, con sus graderíos de hormigón bajo el cielo azul',
+      credit: 'Zarateman · Wikimedia Commons',
+      license: 'CC0',
+    },
   },
   {
     slug: 'scaloni-gran-fondo-buenos-aires-129-km-sin-coches-ciclismo',
@@ -4996,6 +5020,12 @@ Lo que viene. Jagiellonia : recibe a Anderlecht el jueves 22 de octubre. Ararat-
     sourceLang: 'en',
     publishedAt: '2026-10-15T23:49:43.616Z',
     author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Stadion_miejski_w_Bia%C5%82ymstoku_%28Cio%C5%82kowskiego%29.jpg/1280px-Stadion_miejski_w_Bia%C5%82ymstoku_%28Cio%C5%82kowskiego%29.jpg',
+      alt: 'Fachada del estadio municipal de Bialystok, con su estructura de pilares blancos y rojos, junto a una carretera',
+      credit: 'Henryk Borawski · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
   },
   {
     slug: 'cronica-ferencvaros-viktoria-plzen-401915564',
@@ -5062,6 +5092,12 @@ Lo que viene. Dinamo Zagreb: recibe a NEC el jueves 22 de octubre. Anderlecht: v
     sourceLang: 'en',
     publishedAt: '2026-10-15T23:49:43.616Z',
     author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Maksimirski_stadion_Zagreb.jpg/1280px-Maksimirski_stadion_Zagreb.jpg',
+      alt: 'Vista aérea del estadio Maksimir de Zagreb, con su pista de atletismo y las gradas azules alrededor del césped',
+      credit: 'Suradnik13 · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
   },
   {
     slug: 'cronica-celta-vigo-juventus-401915560',
@@ -5160,6 +5196,12 @@ Lo que viene. Bournemouth: recibe a Milan el jueves 22 de octubre. Sturm Graz: r
     sourceLang: 'en',
     publishedAt: '2026-10-15T23:49:43.616Z',
     author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Entering_the_Vitality_Stadium_-_geograph.org.uk_-_7675180.jpg/1280px-Entering_the_Vitality_Stadium_-_geograph.org.uk_-_7675180.jpg',
+      alt: 'Aficionados haciendo cola a la entrada del Vitality Stadium de Bournemouth',
+      credit: 'Mr Ignavy · Wikimedia Commons',
+      license: 'CC BY-SA 2.0',
+    },
   },
   {
     slug: 'partidos-futbol-hoy-2026-10-16',
@@ -5918,6 +5960,12 @@ Lo que viene. Villarreal: visita a Liverpool el martes 20 de octubre. Napoli: re
     sourceLang: 'en',
     publishedAt: '2026-10-14T00:35:23.721Z',
     author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Villarreal_CF_-_UD_Almer%C3%ADa_%282012-13%29.JPG/1280px-Villarreal_CF_-_UD_Almer%C3%ADa_%282012-13%29.JPG',
+      alt: 'La grada del estadio del Villarreal llena de aficionados con bufandas amarillas y papelitos al aire antes de un partido',
+      credit: 'Millars · Wikimedia Commons',
+      license: 'CC BY-SA 3.0',
+    },
   },
   {
     slug: 'cronica-viking-fk-bayern-401915411',
