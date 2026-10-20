@@ -18,6 +18,7 @@ import { BoxingHub } from '@/components/portal/boxing-hub';
 import { MotoGPHub } from '@/components/portal/motogp-hub';
 import { AdSlot } from '@/components/affiliate/ad-slot';
 import { WatchGuideLink } from '@/components/affiliate/watch-guide-link';
+import { NflQbRanking } from '@/components/portal/nfl-qb-ranking';
 
 // Regeneración periódica (ISR): rápida y estable sin pedir a las fuentes en cada visita.
 export const revalidate = 300;
@@ -94,6 +95,7 @@ export default async function CompetitionPage({ params }: { params: Params }) {
           {more('resultados', 'Resultados de todas las jornadas')}
           {c.hasStandings && <StandingsTable comp={c} locale={L} />}
           {c.hasStandings && more('clasificacion', 'Clasificación completa')}
+          {c.slug === 'nfl' && <NflQbRanking locale={L} />}
         </>
       )}
 

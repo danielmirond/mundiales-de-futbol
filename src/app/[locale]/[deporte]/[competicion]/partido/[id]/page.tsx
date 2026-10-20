@@ -14,6 +14,7 @@ import { MovistarCintillo } from '@/components/affiliate/movistar-banner';
 import { MatchWeatherBlock } from '@/components/match/match-weather';
 import { MatchPitchMaps } from '@/components/match/pitch-maps';
 import { WatchGuideLink } from '@/components/affiliate/watch-guide-link';
+import { NflWinProbChart } from '@/components/match/nfl-win-prob';
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd, pageMetadata, breadcrumbLd, localeUrl } from '@/lib/seo';
 
@@ -83,6 +84,7 @@ export default async function PartidoPortalPage({ params }: { params: Params }) 
     summary.hasLineups && { href: '#alineaciones', label: s.slug === 'baloncesto' ? 'Quintetos' : 'Alineaciones' },
     summary.hasStats && { href: '#estadisticas', label: 'Estadísticas' },
     s.slug === 'futbol' && summary.state === 'post' && { href: '#mapas', label: 'Mapas' },
+    c.slug === 'nfl' && summary.state === 'post' && { href: '#probabilidad', label: 'Probabilidad' },
   ].filter(Boolean) as { href: string; label: string }[];
 
   return (
@@ -153,6 +155,8 @@ export default async function PartidoPortalPage({ params }: { params: Params }) 
         {(summary.state === 'pre' || summary.state === 'in') && (
           <MatchWeatherBlock sport={s.slug} espn={c.espn!} id={id} kickoff={h.date} />
         )}
+
+        {c.slug === 'nfl' && summary.state === 'post' && <NflWinProbChart espnId={id} />}
 
         {s.slug === 'futbol' && (summary.state === 'post' || summary.state === 'in') && (
           <MatchPitchMaps espn={c.espn!} id={id} live={summary.state === 'in'} homeName={h.home.name} awayName={h.away.name} />
