@@ -232,6 +232,9 @@ async function buildPrevia(now: Date): Promise<Piece | null> {
 
 // ─────────────────────────────────────────────────────────────────────────────
 // 4) Clasificación comentada (semanal) por liga prioritaria con tabla
+/** Arranque de la temporada regular (ISO) de las ligas que tienen pretemporada en ESPN. Actualizar cada temporada. */
+const REGULAR_SEASON_START: Record<string, string> = { nba: '2026-10-20T23:00:00Z', wnba: '2027-05-14T23:00:00Z' };
+
 async function buildClasificacion(now: Date): Promise<Piece[]> {
   const out: Piece[] = [];
   const week = isoWeek(now);
@@ -239,6 +242,10 @@ async function buildClasificacion(now: Date): Promise<Piece[]> {
   for (const c of COMPETITIONS.filter((x) => PRIORITY.includes(x.slug) && x.espn && x.hasStandings && x.kind === 'liga')) {
     const slug = `clasificacion-${c.slug}-semana-${week}`;
     if (exists(src, slug) && !REFRESH) continue;
+    // En pretemporada ESPN devuelve la tabla de los amistosos como si fuera la de liga:
+    // no se publica clasificación hasta 10 días después del arranque de la temporada regular.
+    const start = REGULAR_SEASON_START[c.slug];
+    if (start && now.getTime() < Date.parse(start) + 10 * 86_400_000) continue;
     const { season, groups } = await fetchStandings(c);
     if (groups.length === 0) continue;
     const rnd = seedFrom(slug);
@@ -253,7 +260,10 @@ async function buildClasificacion(now: Date): Promise<Piece[]> {
     });
     const lider = groups[0].rows[0];
     const pts = Number(lider.stats.points ?? lider.stats.wins);
-    const intro = pick(rnd, V.clasifIntro)(c.name, lider.name, pts);
+    // En baloncesto no hay puntos: el líder se cuenta en victorias y derrotas.
+    const intro = basketball
+      ? `${lider.name} lidera ${c.name} con ${lider.stats.wins} victorias y ${lider.stats.losses} derrotas.`
+      : pick(rnd, V.clasifIntro)(c.name, lider.name, pts);
     const body = `${intro}\n\n${sections.join('\n\n')}\n\nLa clasificación completa, con todos los equipos y los próximos partidos, está en la [página de ${c.shortName ?? c.name}](${competitionPath(c)}).`;
     const title = `${c.name}: así queda la clasificación esta semana, con ${lider.name} líder`;
     assertTitle(title, c.name);

@@ -587,50 +587,6 @@ Calendario, resultados y clasificación completa en la [página de la NFL](/futb
     },
   },
   {
-    slug: 'clasificacion-nba-semana-2026-43',
-    title: "NBA: así queda la clasificación esta semana, con Celtics líder",
-    summary: "Así está NBA: Celtics lidera la tabla con 2 puntos. Tabla comentada de NBA 2027: cabeza, zona baja y enlace a la clasificación completa.",
-    body: `Así está NBA: Celtics lidera la tabla con 2 puntos.
-
-## Eastern Conference
-
-1. **Celtics** — 4-0
-2. **Hawks** — 4-1 (a 0.5)
-3. **Pistons** — 3-1 (a 1)
-4. **Nets** — 3-1 (a 1)
-5. **Magic** — 3-1 (a 1)
-6. **Bulls** — 3-2 (a 1.5)
-7. **Heat** — 3-2 (a 1.5)
-8. **Wizards** — 2-2 (a 2)
-
-## Western Conference
-
-1. **Grizzlies** — 3-1
-2. **Pelicans** — 3-1
-3. **Jazz** — 3-1
-4. **Trail Blazers** — 3-1
-5. **Warriors** — 4-2
-6. **Clippers** — 2-1 (a 0.5)
-7. **Rockets** — 2-1 (a 0.5)
-8. **Nuggets** — 3-2 (a 0.5)
-
-La clasificación completa, con todos los equipos y los próximos partidos, está en la [página de NBA](/baloncesto/nba).`,
-    category: 'general',
-    kind: 'clasificacion',
-    competition: {"name":"NBA","sport":"baloncesto","slug":"nba"},
-    sourceName: "ESPN",
-    sourceUrl: "https://www.espn.com/nba/standings",
-    sourceLang: 'en',
-    publishedAt: '2026-10-20T00:37:30.783Z',
-    author: "Redacción Mundiales de Fútbol",
-    image: {
-      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Celtic_park_posters.jpg/1920px-Celtic_park_posters.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      alt: "Estadio de Celtics, líder de NBA",
-      credit: "Guillaume Gogo · CC BY 2.0 · Wikimedia Commons",
-      license: "CC BY 2.0",
-    },
-  },
-  {
     slug: 'clasificacion-premier-league-semana-2026-43',
     title: "Premier League: así queda la clasificación esta semana, con Man City líder",
     summary: "Man City sigue arriba en Premier League (21 puntos). Repasamos la clasificación completa. Tabla comentada de Premier League 2026: cabeza, zona baja y enlace a la clasificación completa.",
