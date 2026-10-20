@@ -16,6 +16,7 @@ import type { Locale } from '@/i18n/routing';
 import { pageMetadata } from '@/lib/seo';
 import { BoxingHub } from '@/components/portal/boxing-hub';
 import { MotoGPHub } from '@/components/portal/motogp-hub';
+import { NewsOpening } from '@/components/home/news-opening';
 import { AdSlot } from '@/components/affiliate/ad-slot';
 import { WatchGuideLink } from '@/components/affiliate/watch-guide-link';
 import { NflQbRanking } from '@/components/portal/nfl-qb-ranking';
@@ -60,6 +61,7 @@ export default async function CompetitionPage({ params }: { params: Params }) {
   return (
     <main className="pt-28" data-sport={s.slug}>
       <CompetitionHeader s={s} c={c} locale={locale} section="inicio" title={c.name} description={c.description} />
+      {!soon && <NewsOpening locale={L} scope={{ sport: s.slug, competition: c.slug }} />}
       {!soon && <WatchGuideLink compSlug={c.slug} compName={c.name} locale={L} className="mt-6" />}
 
       {soon ? (

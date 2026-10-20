@@ -6,6 +6,7 @@ import { MundialesEntry } from '@/components/home/mundiales-entry';
 import { LiveStrip } from '@/components/feed/live-strip';
 import { ScoresTicker } from '@/components/portal/scores-ticker';
 import { FootballSection, BasketballSection, MotorSection, TennisSection, MoreSportsSection } from '@/components/home/sport-sections';
+import { NewsOpening } from '@/components/home/news-opening';
 import { AdSlot } from '@/components/affiliate/ad-slot';
 import type { Locale } from '@/i18n/routing';
 import { pageMetadata } from '@/lib/seo';
@@ -69,6 +70,8 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
       <div className="pt-[118px] md:pt-[138px]">
         <ScoresTicker locale={L} />
       </div>
+      {/* Apertura: la noticia que abre la web, con su entradilla como preview. */}
+      <NewsOpening locale={L} />
       <LiveStrip locale={L} className="pt-8" />
       <PortalHero locale={L} />
       {/* Portada por deportes: mosaico de widgets de distintos tamaños y carrusel propio en cada uno. */}

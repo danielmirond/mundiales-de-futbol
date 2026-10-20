@@ -5,6 +5,7 @@ import { ArrowLeft } from 'lucide-react';
 import { getSport, competitionsOf, liveCompetitions, competitionPath, KIND_LABEL, type CompetitionKind } from '@/lib/competitions';
 import { TodayBoard } from '@/components/portal/today-board';
 import { LiveStrip } from '@/components/feed/live-strip';
+import { NewsOpening } from '@/components/home/news-opening';
 import { AdSlot } from '@/components/affiliate/ad-slot';
 import { RacingHub } from '@/components/portal/racing-hub';
 import { TennisHub } from '@/components/portal/tennis-hub';
@@ -52,6 +53,8 @@ export default async function SportPage({ params }: { params: Promise<{ locale: 
         <h1 className="mt-6 font-display text-fluid-display uppercase leading-[0.9]">{s.name}</h1>
         <p className="mt-4 max-w-2xl text-lg text-[var(--color-fg-muted)]">{s.description}</p>
       </header>
+
+      <NewsOpening locale={L} scope={{ sport: s.slug }} />
 
       <LiveStrip locale={L} sport={s.slug} title={`Lo último de ${s.name.toLowerCase()}`} />
 

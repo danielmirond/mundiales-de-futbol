@@ -8,6 +8,7 @@ import { fetchTennis } from '@/lib/espn-tennis';
 import { fetchMotoGP } from '@/lib/motogp';
 import { fetchNbaSalaries, usdShort } from '@/lib/nba-salaries';
 import { proximasVeladas, veladaNombre } from '@/lib/boxeo';
+import { getApertura } from '@/lib/apertura';
 import { getLatestNews, newsImageUrl, newsImageAlt, NEWS_KIND_LABEL, newsKind, type NewsItem } from '@/lib/news';
 import { Crest } from '@/components/portal/crest';
 import { LiveStrip } from '@/components/feed/live-strip';
@@ -129,7 +130,11 @@ function SportSection({ sport, title, href, locale, children, carouselTitle }: {
   );
 }
 
-const newsOf = (sport: string, n = 80) => getLatestNews(n).filter((x) => (x.competition?.sport ?? 'futbol') === sport);
+// La apertura ya sale arriba: no se repite en los bloques de cada deporte.
+const newsOf = (sport: string, n = 80) => {
+  const apertura = getApertura()?.slug;
+  return getLatestNews(n).filter((x) => x.slug !== apertura && (x.competition?.sport ?? 'futbol') === sport);
+};
 /** La pieza grande: la propia más reciente con foto; si no hay, la más reciente. */
 const leadOf = (items: NewsItem[]) => items.find((n) => newsKind(n) === 'noticia' && n.image) ?? items.find((n) => n.image) ?? items[0];
 
