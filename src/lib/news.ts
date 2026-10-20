@@ -154,6 +154,218 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'levante-athletic-aplazado-tormenta-miercoles-real-madrid-leipzig-betis-feyenoord-horarios-donde-ver',
+    title: 'Levante y Athletic juegan por fin el partido que se llevó la tormenta: horarios del miércoles',
+    summary: 'El Levante-Athletic aplazado en septiembre se juega el miércoles a las 20:00 en M+ LaLiga. A las 21:00, Real Madrid-Leipzig y Betis-Feyenoord en Champions, en Movistar Plus+.',
+    body: `El miércoles 21 de octubre se juega en el Ciutat de València un partido de la jornada 6. El Levante-Athletic estaba previsto para el 16 de septiembre, pero [la lluvia dejó el césped anegado](https://www.esdiario.com/comunidad-valenciana/valencia/260916/197946/lluvia-obliga-suspender-levante-athletic-ciutat-valencia-practicamente-anegado.html) y LaLiga lo suspendió minutos antes del inicio, con los dos equipos ya en el estadio. La [nueva fecha se fijó al día siguiente](https://www.elgoldigital.com/futbol/athletic-club/levante-athletic-aplazado-nueva-fecha-21-octubre/): miércoles, 20:00.
+
+Empieza una hora antes que la Champions: su segunda parte coincide con el arranque del Real Madrid-Leipzig y del Betis-Feyenoord. Para ver todo hacen falta los canales de LaLiga y de Liga de Campeones de Movistar Plus+.
+
+## La agenda del miércoles
+
+| Partido | Competición | Península | Canarias | Canal |
+| --- | --- | --- | --- | --- |
+| Como - Manchester United | Champions | 18:45 | 17:45 | Movistar Plus+ (Liga de Campeones) |
+| Levante - Athletic Club | LaLiga, jornada 6 | 20:00 | 19:00 | M+ LALIGA |
+| Real Madrid - RB Leipzig | Champions | 21:00 | 20:00 | M+ Liga de Campeones |
+| Real Betis - Feyenoord | Champions | 21:00 | 20:00 | M+ Liga de Campeones 2 |
+| Bayern Múnich - Arsenal | Champions | 21:00 | 20:00 | M+ Liga de Campeones 3 |
+
+Los canales salen de las fichas de cada partido: [Levante-Athletic](/futbol/laliga/partido/401882870), [Real Madrid-Leipzig](/futbol/champions-league/partido/401915313), [Betis-Feyenoord](/futbol/champions-league/partido/401915389) y [Bayern-Arsenal](/futbol/champions-league/partido/401915312). Si no sabes qué incluye cada paquete, aquí está [qué plataforma emite cada competición y cuánto cuesta](/noticias/donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1).
+
+## Levante - Athletic: un partido que mueve la tabla de abajo
+
+El Levante es 17.º con 7 puntos y ocho partidos; el Athletic, 11.º con 9 puntos y solo siete jugados, según la [clasificación de ESPN](https://www.espn.com/soccer/standings/_/league/esp.1). Es decir: el equipo de Bilbao llega con dos partidos menos que la mayoría y una victoria le metería en la zona media alta. Para el Levante, que solo ha ganado una vez en Liga, es la ocasión de sacar tres puntos de distancia sobre el descenso, donde están Elche, Valencia y Málaga.
+
+En las fichas de [Levante](/futbol/laliga/equipo/1538) y [Athletic](/futbol/laliga/equipo/93) están las plantillas y los últimos resultados. La previsión de AEMET que recoge la ficha del partido para las 20:00 es de cielo muy nuboso y sin lluvia.
+
+## La Champions del miércoles: dos españoles invictos
+
+Real Madrid y Betis llegan a la tercera jornada de la fase liga con pleno: dos victorias y seis puntos cada uno, según la [tabla de la Champions](/futbol/champions-league/clasificacion). Sus rivales tienen tres.
+
+- **Real Madrid - Leipzig (21:00, Bernabéu).** El Madrid viene de ganar 4-1 al Sevilla el domingo, con dos goles de Mbappé y uno de Yan Diomande, según [el acta de ESPN](https://www.espn.com/soccer/match/_/gameId/401882839). La [crónica de aquel partido](/noticias/cronica-real-madrid-sevilla-401882839) tiene el resto.
+- **Betis - Feyenoord (21:00, La Cartuja).** El Betis llega cuarto en LaLiga, con 19 puntos.
+- **Como - Manchester United (18:45).** El Como de Cesc Fàbregas recibe a un United que llega con tres puntos, los mismos que los italianos.
+- **Bayern - Arsenal (21:00).** El Arsenal tiene seis puntos; el Bayern, cuatro.
+
+El martes se juegan PSG-Barça, Liverpool-Villarreal y Stuttgart-Atlético; sus horarios y canales están en [la pieza de la jornada europea](/noticias/psg-barcelona-liverpool-villarreal-stuttgart-atletico-real-madrid-leipzig-betis-champions-horarios-donde-ver). Para el resto de la temporada europea, la [guía de la Champions en España](/noticias/donde-ver-champions-league-2026-27-espana-movistar-precios-final-metropolitano) recoge precios y partidos en abierto.`,
+    category: 'tv',
+    kind: 'noticia',
+    competition: { name: 'LaLiga', sport: 'futbol', slug: 'laliga' },
+    sourceName: 'ESPN (calendario y clasificación)',
+    sourceUrl: 'https://www.espn.com/soccer/standings/_/league/esp.1',
+    sourceLang: 'es',
+    publishedAt: '2026-10-20T20:12:00+02:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Estadi_Ciutat_de_Val%C3%A8ncia_interior_3.jpg/1280px-Estadi_Ciutat_de_Val%C3%A8ncia_interior_3.jpg',
+      alt: 'Interior del Ciutat de València, con la grada en la que se lee «Levante UD 1909»',
+      credit: 'Francesc Fort · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+    sourcesSecondary: [
+      { name: 'El Gol Digital: nueva fecha del Levante-Athletic', url: 'https://www.elgoldigital.com/futbol/athletic-club/levante-athletic-aplazado-nueva-fecha-21-octubre/' },
+      { name: 'ESdiario: suspensión por la lluvia', url: 'https://www.esdiario.com/comunidad-valenciana/valencia/260916/197946/lluvia-obliga-suspender-levante-athletic-ciutat-valencia-practicamente-anegado.html' },
+      { name: 'ESPN: Real Madrid 4-1 Sevilla', url: 'https://www.espn.com/soccer/match/_/gameId/401882839' },
+    ],
+  },
+  {
+    slug: 'jorge-valdano-futbolistas-terapia-insultos-redes-tercer-acto-80-entrevistas',
+    title: 'Jorge Valdano ha descubierto en sus entrevistas por qué tantos futbolistas acaban en terapia',
+    summary: 'Jorge Valdano lleva diez años y más de 80 entrevistas a futbolistas de élite. En El País cuenta lo que ha descubierto en los dos últimos: muchos van a terapia por los insultos.',
+    body: `Jorge Valdano lleva diez años sentándose frente a los mejores futbolistas del mundo. Más de 80 entrevistas, entre ellas una con Neymar. Y en los dos últimos años ha descubierto algo que no sale en ninguna rueda de prensa: muchos de ellos están en terapia.
+
+Lo contó en [Tercer Acto, el videopódcast de El País Semanal](https://www.youtube.com/watch?v=afkXnUJ7vsA&t=316s), en una conversación con el periodista Fernando Navarro publicada el 16 de octubre. «La mayoría hace terapia ya», dijo. Y explicó por qué, a su juicio: las redes sociales.
+
+## El insulto que llega al móvil
+
+Valdano, que cumplió 71 años el 4 de octubre, describió el fútbol como un territorio emocional en el que la gente pierde la medida y dice barbaridades. Hay jugadores que saben convivir con el insulto. Otros, contó, sufren con él y buscan en la terapia una forma de sobrellevarlo. Añadió que de esto apenas se habla.
+
+El retrato que hace del futbolista actual tiene dos caras. Por un lado, un personaje público desmesurado: se casa con famosas, sabe venderse, es el primer tema de conversación en países como España o Argentina. Por otro, alguien que lee lo que le escriben.
+
+## Lo que dicen los números
+
+La FIFA tiene datos de la última gran cita. Su servicio de protección en redes sociales [identificó más de 89.000 mensajes abusivos solo en la fase de grupos del Mundial 2026](https://inside.fifa.com/news/social-media-protection-service-abusive-posts-world-cup-2026-racially-motivated), dirigidos a jugadores, entrenadores y árbitros. En la misma fase de Qatar 2022 fueron 6.700. El torneo tenía más selecciones, 48 frente a 32, pero el salto es de 13 veces. El 11 % de esos mensajes eran racistas.
+
+Es decir: los futbolistas que Valdano entrevista juegan con una cantidad de insultos que hace cuatro años no existía.
+
+## Los que lo dijeron en voz alta
+
+Valdano insiste en que de esto apenas se habla, y por eso pesan los pocos casos que se hicieron públicos. En el deporte español, el más claro fue el de Ricky Rubio: en agosto de 2023 [paró su carrera para cuidar su salud mental](https://es.ara.cat/deportes/baloncesto/ricky-rubio-aparca-baloncesto-cuidar-salud-mental_1_4772733.html), renunció al Mundial con España y meses después dejó la NBA. En su [mensaje de despedida de la liga](https://www.publico.es/deportes/ricky-rubio-deja-nba-mensaje-sobre-importancia-salud-mental.html) contó que todo cambió tras una noche muy dura y que algún día quiere compartir su experiencia para ayudar a otros.
+
+Valdano lo situó en un cambio de época. Navarro, que es periodista musical, le contó que muchos músicos ya hablan con normalidad de ir a terapia y que el futbolista ocupa hoy el sitio que ocupaba la estrella de rock en el siglo XX. Valdano no lo discutió: recordó que en Argentina el fútbol, el tango y el rock siempre han ido juntos.
+
+## Un entrevistador que ya no tiene que dar explicaciones
+
+El resto de la charla va de envejecer. Valdano dice que ha entrado en el tercer acto de su vida sin pedir permiso, que sigue trabajando en radio, televisión y conferencias, y que se siente libre porque ya no recibe órdenes de nadie. También dejó una frase sobre el último Mundial: dijo que la FIFA le pareció una fuerza de ocupación del fútbol.
+
+Pero la parte que se queda es la de la terapia, porque no la cuenta un psicólogo ni un dirigente: la cuenta alguien que ha visto de cerca a 80 futbolistas cuando se apagan las cámaras. Lo que pasa cada fin de semana en los campos está en la sección de [LaLiga](/futbol/laliga); el balance del último torneo, en la [cobertura del Mundial 2026](/2026).`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'LaLiga', sport: 'futbol', slug: 'laliga' },
+    sourceName: 'El País · Tercer Acto (vídeo)',
+    sourceUrl: 'https://www.youtube.com/watch?v=afkXnUJ7vsA',
+    sourceLang: 'es',
+    publishedAt: '2026-10-20T20:14:00+02:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Jorge_Valdano_.jpg/1280px-Jorge_Valdano_.jpg',
+      alt: 'Jorge Valdano, con chaquetón verde oscuro y camisa azul clara, habla sonriendo en una sala con paredes de madera',
+      credit: 'Xabier Cañas · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+    sourcesSecondary: [
+      { name: 'FIFA: mensajes abusivos en la fase de grupos del Mundial 2026', url: 'https://inside.fifa.com/news/social-media-protection-service-abusive-posts-world-cup-2026-racially-motivated' },
+      { name: 'Ara: Ricky Rubio para por su salud mental', url: 'https://es.ara.cat/deportes/baloncesto/ricky-rubio-aparca-baloncesto-cuidar-salud-mental_1_4772733.html' },
+      { name: 'Público: Ricky Rubio deja la NBA', url: 'https://www.publico.es/deportes/ricky-rubio-deja-nba-mensaje-sobre-importancia-salud-mental.html' },
+    ],
+  },
+  {
+    slug: 'laliga-realizacion-repeticion-konate-sevilla-bernabeu-carranza-clasico-40-camaras',
+    title: 'LaLiga admite que pudo dar la repetición que el Sevilla echó en falta en el Bernabéu',
+    summary: 'Sergio Carranza, jefe de realización de LaLiga, reconoce que se pudo emitir la repetición de la posible falta de Konaté en el Real Madrid-Sevilla. Para el Clásico habla de 40 cámaras.',
+    body: `El Sevilla perdió 4-1 en el Bernabéu el domingo y salió con una queja que no era solo arbitral: en la retransmisión no hubo ni una repetición de una posible falta de Konaté antes de uno de los goles de Mbappé. El lunes, el jefe de realización de LaLiga, Sergio Carranza, dio la cara en [El Partidazo de COPE](https://www.youtube.com/watch?v=dlBGhqNDX8k&t=298s) y reconoció que esa repetición se pudo haber dado.
+
+«Se podía haber valorado dar esa repetición», admitió ante Juanma Castaño, aunque defendió que fue una decisión editorial de la unidad móvil y que nadie les ordena qué mostrar.
+
+## Lo que reconoció
+
+- **La jugada de Konaté.** El balón iba por el aire hacia esa zona y hubo un forcejeo con un jugador del Sevilla, que cayó. El árbitro dejó seguir y, a continuación, llegó el gol de Mbappé. La realización siguió al gol y no volvió atrás.
+- **El criterio.** Explicó que en LaLiga se procura respetar el directo y dar el mínimo de repeticiones: si una acción se resuelve con dos ángulos, mejor que con tres.
+- **Quién decide.** El equipo de la unidad móvil. El domingo realizó el partido Víctor Ayón, no él.
+
+## Lo que defendió
+
+- **La acción de Güler.** Sobre otra jugada protestada, de Arda Güler, sostuvo que no fue un fallo de realización: el balón estaba a unos 30 metros y ninguna de las cámaras de planos cortos la seguía.
+- **Las cámaras.** Hubo 26. Unas 15 trabajan en planos cortos siguiendo el balón; para lo que pasa lejos quedan los planos generales, que en este caso fueron tres.
+- **El VAR.** Recibe todas las señales y es independiente de la realización. Según Carranza, el VAR amplió la imagen y no encontró una toma clara para llamar al árbitro.
+- **Las pancartas y los palcos.** Negó que haya órdenes de no enfocarlos. Las únicas líneas rojas, según él, son las lesiones graves, las conmociones y los incidentes en la grada.
+
+## El Clásico del domingo
+
+Castaño le preguntó si lo del Bernabéu puede repetirse en el Barça-Real Madrid. Carranza contestó que sí, que no hay una cámara para cada jugador en ninguna liga del mundo. Adelantó que en el Clásico pueden montar unas 40 cámaras y que quizá alguna se dedique a seguir a algún jugador; lo decidirán en la reunión de realización.
+
+Ese Clásico se juega el domingo 25 a las 21:00 en el Camp Nou y [lo emite DAZN](/futbol/laliga/partido/401882832). La señal es la misma para todos: Carranza recordó que su equipo produce LaLiga EA Sports y LaLiga Hypermotion, y que ni DAZN ni Movistar pueden tocarla.
+
+## Por qué escuece en Sevilla
+
+El 4-1 se fraguó con un 2-0 al descanso: [Güler marcó en el 30 y Mbappé en el 37](https://www.espn.com/soccer/match/_/gameId/401882839), antes del penalti del 3-0. La [crónica del partido](/noticias/cronica-real-madrid-sevilla-401882839) tiene el resto, y el Sevilla, sexto, aparece en la [clasificación de LaLiga](/futbol/laliga) a 13 puntos del líder.
+
+COPE recogió la entrevista en [su propia web](https://www.cope.es/programas/el-partidazo-de-cope/audios/liga-defiende-realizacion-polemica-madrid-sevilla-no-hay-intentemos-ocultar-mundo-deja-bufanda-afuera-trabajar-20261020_3458617.html). Lo nuevo es lo que sale de ella hacia el domingo: el responsable de la señal admite que se pudo hacer de otra manera, pero no promete que no vuelva a pasar.`,
+    category: 'polemica',
+    kind: 'noticia',
+    competition: { name: 'LaLiga', sport: 'futbol', slug: 'laliga' },
+    sourceName: 'El Partidazo de COPE (vídeo)',
+    sourceUrl: 'https://www.youtube.com/watch?v=dlBGhqNDX8k',
+    sourceLang: 'es',
+    publishedAt: '2026-10-20T20:16:00+02:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Santiagobernabeupanoramav45.JPG/1280px-Santiagobernabeupanoramav45.JPG',
+      alt: 'Interior del Santiago Bernabéu vacío, con las gradas azules y el césped',
+      credit: 'لا روسا · Wikimedia Commons',
+      license: 'CC BY-SA 3.0',
+    },
+    sourcesSecondary: [
+      { name: 'COPE: LaLiga defiende su realización', url: 'https://www.cope.es/programas/el-partidazo-de-cope/audios/liga-defiende-realizacion-polemica-madrid-sevilla-no-hay-intentemos-ocultar-mundo-deja-bufanda-afuera-trabajar-20261020_3458617.html' },
+      { name: 'ESPN: Real Madrid 4-1 Sevilla', url: 'https://www.espn.com/soccer/match/_/gameId/401882839' },
+    ],
+  },
+  {
+    slug: 'crystal-palace-peta-aguila-phoenix-kayla-benfica-lazio-cetrero-espanol',
+    title: 'Crystal Palace recibe la carta de PETA que pide jubilar a Phoenix, su águila de dos años',
+    summary: 'PETA pide al Crystal Palace que retire a Phoenix, el águila calva que heredó el puesto de Kayla, y que no use más animales vivos. Benfica y Lazio tienen la misma tradición.',
+    body: `El Crystal Palace se llama «the Eagles» desde 1973 y lleva desde 2010 sacando un águila de verdad a su estadio. PETA quiere que se acabe. La organización ha escrito a la consejera delegada del club, Sharon Lacey, para pedirle que retire a Phoenix, el águila calva que ejerce de mascota, y que se comprometa a no volver a usar animales vivos, [según publicó The Guardian](https://www.irishexaminer.com/sport/soccer/arid-41926751.html) este martes.
+
+El club no ha contestado a la carta ni a un segundo aviso. [The Athletic](https://www.nytimes.com/athletic/7707750/2026/10/20/crystal-palace-eagle-peta/) también recogió la petición.
+
+## Qué dice PETA
+
+Su argumento es que un estadio, con luces, ruido y miles de personas, puede asustar y desorientar al ave hasta dejarla aterrada, y que eso también es un riesgo para el público. La carta recuerda casos de águilas que chocaron contra paredes o cristales y el de un halcón que aterrizó en la cabeza de un espectador. Carys Bennett, responsable de proyectos de PETA, dijo que Phoenix es usada «como poco más que un atrezo» y recordó que el Palace ya tiene una mascota humana.
+
+## De Kayla a Phoenix
+
+| Año | Qué pasó |
+| --- | --- |
+| 1973 | Malcolm Allison cambia el apodo del club: de «the Glaziers» a «the Eagles» |
+| 2010 | Kayla, un águila calva, empieza a volar sobre Selhurst Park antes de los partidos |
+| 2015 | Un aficionado del Charlton es condenado por intentar golpear a Kayla en un partido de Copa |
+| 2020 | Muere Kayla, tras una década en el club |
+| Agosto de 2024 | [Debuta Phoenix ante el West Ham](https://www.cpfc.co.uk/news/announcement/selhurst-park-welcomes-phoenix-new-american-bald-eagle/), con cuatro meses |
+| Octubre de 2026 | PETA pide su retirada |
+
+El club presentó a Phoenix como un ave criada desde que salió del huevo para ese papel, en colaboración con la Eagle Heights Wildlife Foundation de Kent, y dijo que pagaba su crianza, su entrenamiento y su mantenimiento. Tiene, por tanto, unos dos años y medio. Su primer vuelo sobre el césped antes de un partido, el ritual por el que se conocía a Kayla, estaba previsto en un encuentro de esta temporada y se canceló, según The Guardian, que no detalla el motivo.
+
+## No es solo el Palace
+
+La costumbre tiene una versión más famosa en Lisboa. El Benfica hace volar a su águila, Vitória, sobre el Estádio da Luz desde que se inauguró el estadio en 2003, según el mismo artículo de The Guardian.
+
+En Roma, la de la Lazio tenía acento español. Juan Bernabé, cetrero gaditano, pasó casi 15 años volando con el águila Olimpia sobre el Estadio Olímpico. El club [lo despidió en enero de 2025](https://www.xataka.com/magnet/lazio-se-prometia-felices-su-cetrero-gaditano-que-enseno-pene-redes-decidio-desahuciarlo) por publicar en redes imágenes de una operación íntima; ya lo había apartado en 2021 por hacer el saludo fascista y lo había readmitido. En junio de 2025 lo desalojaron por orden judicial de la ciudad deportiva de Formello, donde seguía viviendo.
+
+## Qué puede pasar
+
+PETA no tiene forma de obligar al club. La decisión es del Palace, que hoy juega en la [Premier League](/futbol/premier-league) y cuya [ficha](/futbol/premier-league/equipo/384) recoge calendario y resultados. Lo que sí deja la carta es una pregunta para la grada de Selhurst Park, que creció viendo volar a Kayla: si la tradición sigue teniendo sentido cuando su heredera, dos años después de su estreno, todavía no ha hecho sobre el césped el vuelo que hacía Kayla.`,
+    category: 'curiosa',
+    kind: 'noticia',
+    competition: { name: 'Premier League', sport: 'futbol', slug: 'premier-league' },
+    sourceName: 'The Guardian (vía Irish Examiner)',
+    sourceUrl: 'https://www.irishexaminer.com/sport/soccer/arid-41926751.html',
+    sourceLang: 'en',
+    publishedAt: '2026-10-20T20:18:00+02:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/%C3%81guila_Vitoria_del_Benfica.jpg/1280px-%C3%81guila_Vitoria_del_Benfica.jpg',
+      alt: 'Primer plano de perfil de Vitória, el águila calva del Benfica, con la cabeza blanca y el pico amarillo sobre un fondo gris',
+      credit: 'Rodrigo Gómez Sanz · Wikimedia Commons',
+      license: 'CC BY 2.0',
+    },
+    sourcesSecondary: [
+      { name: 'The Athletic: PETA pide retirar al águila', url: 'https://www.nytimes.com/athletic/7707750/2026/10/20/crystal-palace-eagle-peta/' },
+      { name: 'Crystal Palace: presentación de Phoenix', url: 'https://www.cpfc.co.uk/news/announcement/selhurst-park-welcomes-phoenix-new-american-bald-eagle/' },
+      { name: 'Xataka: el cetrero español de la Lazio', url: 'https://www.xataka.com/magnet/lazio-se-prometia-felices-su-cetrero-gaditano-que-enseno-pene-redes-decidio-desahuciarlo' },
+    ],
+  },
+  {
     slug: 'javi-rodriguez-celta-no-iba-convocado-me-quedaba-en-casa-renovacion-2030-seleccion',
     title: 'Javi Rodríguez, del Celta: «En los torneos importantes no iba convocado, me quedaba en casa»',
     summary: 'Javi Rodríguez contó en su rueda de prensa de renovación hasta 2030 los años en la cantera del Celta en que no jugaba y veía al equipo por la tele. Hoy marca y asiste en Primera.',
