@@ -28,6 +28,7 @@ import { seedFrom, pick, prose, plural, fmtDayLong, fmtTime, dayKey, cap, assert
 import { renderCronica, renderPrevia, REGISTERS, type CronicaCtx, type Side } from './registers';
 import { fetchRaceWeekend, fetchRaceStandings } from '../../src/lib/espn-racing';
 import { countryEs } from '../../src/lib/i18n-sport';
+import { stadiumPhoto } from '../../src/lib/stadium-photos';
 
 // ── Contexto de cada equipo: puesto/puntos, último resultado y siguiente partido ──
 const windowCache = new Map<string, Promise<Match[]>>();
@@ -87,6 +88,16 @@ async function imageFor(query: string, alt: string, ...fallbacks: string[]): Pro
   return { url: img.url, alt: img.alt, credit: img.credit, license: img.license };
 }
 
+/** Foto del banco de estadios (16:9, una por equipo) del local; si no hay o ya se usó hoy, Commons. */
+async function matchImage(m: Match, query: string, alt: string, ...fallbacks: string[]): Promise<Piece['image'] | undefined> {
+  const bank = stadiumPhoto(m.home.id);
+  if (bank && !usedImages.has(bank.url)) {
+    usedImages.add(bank.url);
+    return { url: bank.url, alt: bank.alt, credit: bank.credit, license: bank.license };
+  }
+  return imageFor(query, alt, ...fallbacks);
+}
+
 const espnEventUrl = (c: Competition, id: string) =>
   c.espn?.sport === 'basketball'
     ? `https://www.espn.com/nba/game/_/gameId/${id}`
@@ -133,7 +144,7 @@ async function buildHoy(sport: string, now: Date): Promise<Piece | null> {
   const title = `Partidos de ${dep} hoy, ${dia}: horarios y dónde ver ${compsNames}`;
   assertTitle(title, 'Partidos');
   const summary = `Agenda de ${dep} de hoy ${dia}: ${rows.length} ${plural(rows.length, 'partido', 'partidos')} con horario en hora española y canal de televisión. Destaca ${featured.home.name} - ${featured.away.name}.`;
-  const image = await imageFor(featured.venue || `${featured.home.fullName} estadio`, `${featured.venue || featured.home.fullName}, escenario del ${featured.home.name} - ${featured.away.name}`, `${featured.home.fullName} stadium`, `${featured.home.fullName}`);
+  const image = await matchImage(featured, featured.venue || `${featured.home.fullName} estadio`, `${featured.venue || featured.home.fullName}, escenario del ${featured.home.name} - ${featured.away.name}`, `${featured.home.fullName} stadium`, `${featured.home.fullName}`);
 
   const src = readNews();
   return {
@@ -189,7 +200,7 @@ async function buildCronicas(now: Date): Promise<Piece[]> {
     const reg = pick(rnd, REGISTERS);
     const { title, entity, summary, body } = renderCronica(reg, ctx, rnd);
     assertTitle(title, entity);
-    const image = await imageFor(m.venue || `${m.home.fullName} estadio`, `${m.venue || m.home.fullName}, donde se jugó el ${m.home.name} - ${m.away.name}`, `${m.home.fullName} stadium`, `${m.home.fullName} estadio`, `${m.home.fullName}`);
+    const image = await matchImage(m, m.venue || `${m.home.fullName} estadio`, `${m.venue || m.home.fullName}, donde se jugó el ${m.home.name} - ${m.away.name}`, `${m.home.fullName} stadium`, `${m.home.fullName} estadio`, `${m.home.fullName}`);
     out.push({
       slug, title, summary, body, category: 'general', kind: 'cronica',
       competition: { name: c.shortName ?? c.name, sport: c.sport, slug: c.slug },
@@ -230,7 +241,7 @@ async function buildPrevia(now: Date): Promise<Piece | null> {
     channels: channelsFor(await getWostiIndex(), m.date, [m.home.fullName, m.home.name], [m.away.fullName, m.away.name]),
   }, rnd);
   assertTitle(title, entity);
-  const image = await imageFor(m.venue || `${m.home.fullName} estadio`, `${m.venue || m.home.fullName}, sede del ${m.home.name} - ${m.away.name}`, `${m.home.fullName} stadium`, `${m.home.fullName}`);
+  const image = await matchImage(m, m.venue || `${m.home.fullName} estadio`, `${m.venue || m.home.fullName}, sede del ${m.home.name} - ${m.away.name}`, `${m.home.fullName} stadium`, `${m.home.fullName}`);
   const src = readNews();
   return { slug, title, summary, body, category: 'general', kind: 'previa', competition: { name: c.shortName ?? c.name, sport: c.sport, slug: c.slug }, sourceName: 'ESPN', sourceUrl: espnEventUrl(c, m.id), sourceLang: 'en', publishedAt: publishedAtOf(src, slug) ?? now.toISOString(), modifiedAt: REFRESH ? now.toISOString() : undefined, author: AUTHOR, image };
 }
