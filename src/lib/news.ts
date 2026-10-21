@@ -154,6 +154,66 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'nba-resultados-2026-10-21',
+    title: "NBA: todos los resultados de la jornada y el partido más igualado",
+    summary: "Resultados de los 3 partidos de la noche en la NBA, con el más igualado y el de más puntos.",
+    body: `3 partidos en la NBA esta noche. El más igualado, 76ers 106-100 a Knicks. El de más puntos, Pistons ante Celtics (121-113).
+
+## Resultados
+
+- [Pistons 121-113 Celtics](/baloncesto/nba/partido/401909088)
+- [76ers 106-100 Knicks](/baloncesto/nba/partido/401909089)
+- [Thunder 116-104 Spurs](/baloncesto/nba/partido/401909090)
+
+Marcadores en directo, calendario y clasificación por conferencias en la [página de la NBA](/baloncesto/nba).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"NBA","sport":"baloncesto","slug":"nba"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/nba/scoreboard",
+    sourceLang: 'en',
+    publishedAt: '2026-10-21T12:19:12.968Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Madison_Square_Garden_%28MSG%29_-_Full_%2848124330357%29.jpg/1920px-Madison_Square_Garden_%28MSG%29_-_Full_%2848124330357%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Madison Square Garden, sede del Knicks - 76ers",
+      credit: "Ajay Suresh from New York, NY, USA · CC BY 2.0 · Wikimedia Commons",
+      license: "CC BY 2.0",
+    },
+  },
+  {
+    slug: 'cronica-sabah-dortmund-401915404',
+    title: "Dortmund gana fuera 2-1 a Sabah y es 11.º",
+    summary: "Dortmund suma tres puntos ante Sabah (2-1) en Champions League y es 11.º con 6 puntos; Sabah se queda 25.º.",
+    body: `Dortmund se impuso 2-1 a Sabah en Champions League, con doblete de Serhou Guirassy.
+
+## Los goles
+
+Marcaron Serhou Guirassy (10', Dortmund), Aden Mccarthy (39', Sabah) y Serhou Guirassy (53', Dortmund).
+
+## La tabla
+
+Tras el partido, Sabah 25.º con 3 puntos y Dortmund 11.º con 6 puntos en la [clasificación de Champions](/futbol/champions-league).
+
+## Lo que viene
+
+El calendario completo está en la página de la competición. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/champions-league/partido/401915404).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Champions","sport":"futbol","slug":"champions-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915404",
+    sourceLang: 'en',
+    publishedAt: '2026-10-21T12:19:12.968Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Baku_Olympic_Stadium_panorama_2.JPG/1920px-Baku_Olympic_Stadium_panorama_2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Baku Olympic Stadium, donde se jugó el Sabah - Dortmund",
+      credit: "Eminn · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
     slug: 'previa-omonia-benfica-401915544',
     title: "Omonia - Benfica: horario, dónde ver y cómo llegan al partido de Europa League",
     summary: "Omonia y Benfica se enfrentan este jueves 22 de octubre a las 21:00 h en GSP Stadium, en partido de Europa League. Omonia es 6.º y Benfica, 3.º.",
@@ -502,7 +562,7 @@ Todos los horarios están en hora peninsular. Los marcadores se actualizan en di
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915395",
     sourceLang: 'en',
     publishedAt: '2026-10-21T00:06:48.124Z',
-    modifiedAt: '2026-10-21T00:06:48.124Z',
+    modifiedAt: '2026-10-21T12:19:12.968Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Stadio_Giuseppe_Sinigaglia_-_panoramio.jpg/1920px-Stadio_Giuseppe_Sinigaglia_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
