@@ -154,6 +154,364 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'previa-omonia-benfica-401915544',
+    title: "Omonia - Benfica: horario, dónde ver y cómo llegan al partido de Europa League",
+    summary: "Omonia y Benfica se enfrentan este jueves 22 de octubre a las 21:00 h en GSP Stadium, en partido de Europa League. Omonia es 6.º y Benfica, 3.º.",
+    body: `Omonia y Benfica se enfrentan este jueves 22 de octubre a las 21:00 h en GSP Stadium, en partido de Europa League.
+
+## Cómo llegan
+
+Omonia llega de ganar 3-0 a NK Celje y ocupa la 6.º plaza con 6 puntos (2G-0E-0P). Benfica llega de ganar 4-1 a Celtic y ocupa la 3.º plaza con 6 puntos (2G-0E-0P). La [clasificación de Europa League](/futbol/europa-league), al día.
+
+## Dónde ver el partido
+
+Canal por confirmar; se actualiza en la ficha del partido. Alineaciones en cuanto se confirmen, marcador en directo y narración en la [ficha del Omonia - Benfica](/futbol/europa-league/partido/401915544). El resto de la jornada, en [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    kind: 'previa',
+    competition: {"name":"Europa League","sport":"futbol","slug":"europa-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915544",
+    sourceLang: 'en',
+    publishedAt: '2026-10-21T00:06:48.124Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/GSP_Stadium_in_Nicosia_%28Omonoia_-_Manchester_City%29.jpg/1920px-GSP_Stadium_in_Nicosia_%28Omonoia_-_Manchester_City%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "GSP Stadium, sede del Omonia - Benfica",
+      credit: "George Groutas · CC BY 2.0 · Wikimedia Commons",
+      license: "CC BY 2.0",
+    },
+  },
+  {
+    slug: 'cronica-fenerbahce-slavia-prague-401915403',
+    title: "Fenerbahce y Slavia Prague empatan 2-2 en Champions",
+    summary: "Fenerbahce y Slavia Prague reparten puntos (2-2) en Champions League. Fenerbahce es 28.º y Slavia Prague, 30.º.",
+    body: `Fenerbahce y Slavia Prague empataron 2-2 en Champions League.
+
+## Los goles
+
+Marcaron Oguz Aydin (4', Fenerbahce), Mason Greenwood (11', Fenerbahce), Lukás Provod (15', Slavia Prague) y Pavel Kacor (90', Slavia Prague).
+
+## La tabla
+
+Tras el partido, Fenerbahce 28.º con 2 puntos y Slavia Prague 30.º con 1 puntos en la [clasificación de Champions](/futbol/champions-league).
+
+## Lo que viene
+
+El calendario completo está en la página de la competición. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/champions-league/partido/401915403).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Champions","sport":"futbol","slug":"champions-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915403",
+    sourceLang: 'en',
+    publishedAt: '2026-10-21T00:06:48.124Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/%C5%9E%C3%BCkr%C3%BC_Saraco%C4%9Flu_Stadium.jpg/1920px-%C5%9E%C3%BCkr%C3%BC_Saraco%C4%9Flu_Stadium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Şükrü Saracoğlu Stadium, donde se jugó el Fenerbahce - Slavia Prague",
+      credit: "Yigitylnz · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'cronica-stuttgart-atletico-401915392',
+    title: "Stuttgart 1 Atlético 1: goles de Jamie Leweling y Julián Álvarez y Stuttgart 3.º",
+    summary: "Stuttgart y Atlético empataron 1-1 en Champions League; el último gol fue de Julián Álvarez en el 47'. Claves: goles de Jamie Leweling y Julián Álvarez, Stuttgart 3.º y posesión del 54 % para Stuttgart.",
+    body: `Stuttgart y Atlético empataron 1-1 en Champions League; el último gol fue de Julián Álvarez en el 47'.
+
+## Jamie Leweling decidió
+
+Marcaron Jamie Leweling (36', Stuttgart) y Julián Álvarez (47', Atlético). Expulsados: Morten Hjulmand.
+
+## Los números del partido
+
+Stuttgart tuvo el 54 % de la posesión por el 46 % de Atlético; remató 18 veces (5 a puerta) frente a 10 (3) del rival. Córners: 9 por 4.
+
+## Qué cambia en la tabla
+
+Tras el partido, Stuttgart 3.º con 7 puntos y Atlético 15.º con 4 puntos en la [clasificación de Champions](/futbol/champions-league).
+
+## Qué viene ahora
+
+Próximos partidos en la página de la competición. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/champions-league/partido/401915392).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Champions","sport":"futbol","slug":"champions-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915392",
+    sourceLang: 'en',
+    publishedAt: '2026-10-21T00:06:48.124Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/VfB_Stuttgart_II_warmup.JPG/1920px-VfB_Stuttgart_II_warmup.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "MHPArena, donde se jugó el Stuttgart - Atlético",
+      credit: "Hobby-Fotograf2013 · CC BY-SA 3.0 · Wikimedia Commons",
+      license: "CC BY-SA 3.0",
+    },
+  },
+  {
+    slug: 'cronica-psg-barcelona-401915399',
+    title: "Vitinha guía a PSG ante Barcelona (4-2) y lo deja 1.º en Champions",
+    summary: "PSG 4-2 Barcelona en Champions League: Vitinha marcó. PSG 47 % de posesión y 22 remates; Barcelona 53 % y 18.",
+    body: `## Resumen
+
+PSG ganó 4-2 a Barcelona en Champions League.
+
+## Los goles
+
+- 38' · Désiré Doué (PSG)
+- 55' · Xavi Espart (Barcelona)
+- 72' · Lucas Hernández (PSG)
+- 79' · Lamine Yamal (Barcelona)
+- 81' · Vitinha (PSG)
+- 86' · Fabián Ruiz (PSG)
+
+## El dato
+
+PSG 47 % de posesión y 22 remates; Barcelona 53 % y 18.
+
+## Lo que viene
+
+Tras el partido, PSG 1.º con 9 puntos y Barcelona 5.º con 6 puntos en la [clasificación de Champions](/futbol/champions-league).
+
+**Lee también:** la [ficha del partido](/futbol/champions-league/partido/401915399) con alineaciones y narración · la [clasificación de Champions](/futbol/champions-league) · [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Champions","sport":"futbol","slug":"champions-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915399",
+    sourceLang: 'en',
+    publishedAt: '2026-10-21T00:06:48.124Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Parc_des_princes_-_Ligue_1.jpg/1920px-Parc_des_princes_-_Ligue_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Parc des Princes, donde se jugó el PSG - Barcelona",
+      credit: "Kilyac · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'cronica-napoli-bodo-glimt-401915400',
+    title: "Scott McTominay guía a Napoli ante Bodo/Glimt (4-3) y lo deja 22.º en Champions",
+    summary: "Napoli 4-3 Bodo/Glimt en Champions League: Scott McTominay marcó 2. Napoli 43 % de posesión y 17 remates; Bodo/Glimt 57 % y 15.",
+    body: `## Resumen
+
+Napoli ganó 4-3 a Bodo/Glimt en Champions League, con doblete de Scott McTominay.
+
+## Los goles
+
+- 1' · Matteo Politano (Napoli)
+- 27' · Jens Petter Hauge (Bodo/Glimt)
+- 41' · Scott McTominay (Napoli)
+- 62' · Andreas Helmersen (Bodo/Glimt)
+- 75' · Scott McTominay (Napoli)
+- 88' · Odin Bjørtuft (Napoli, p.p.)
+- 90'+4' · Sondre Brunstad Fet (Bodo/Glimt)
+
+## El dato
+
+Napoli 43 % de posesión y 17 remates; Bodo/Glimt 57 % y 15.
+
+## Lo que viene
+
+Tras el partido, Napoli 22.º con 3 puntos y Bodo/Glimt 26.º con 3 puntos en la [clasificación de Champions](/futbol/champions-league).
+
+**Lee también:** la [ficha del partido](/futbol/champions-league/partido/401915400) con alineaciones y narración · la [clasificación de Champions](/futbol/champions-league) · [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Champions","sport":"futbol","slug":"champions-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915400",
+    sourceLang: 'en',
+    publishedAt: '2026-10-21T00:06:48.124Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Stadio_Diego_Armando_Maradona_2022_%282%29.jpg/1920px-Stadio_Diego_Armando_Maradona_2022_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Stadio Diego Armando Maradona, donde se jugó el Napoli - Bodo/Glimt",
+      credit: "Joris · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'cronica-man-city-aek-athens-401915401',
+    title: "Man City se impone a AEK Athens (5-1) con hat-trick de Phil Foden en Champions",
+    summary: "Phil Foden marcó 3; AEK Athens remató 11 veces (3 a puerta) en el Man City 5-1 AEK Athens de Champions League.",
+    body: `Man City llegaba de perder 2-4 ante PSG; AEK Athens, de perder 1-3 ante Shakhtar. Acabó ganando Man City 5-1, con hat-trick de Phil Foden. En el marcador, Elliot Anderson (12', Man City), Phil Foden (34', Man City), Stavros Pilios (52', AEK Athens), Rayan Cherki (57', Man City), Phil Foden (65', Man City) y Phil Foden (76', Man City).
+
+## En cifras
+
+Man City tuvo el 64 % de la posesión por el 36 % de AEK Athens; remató 17 veces (7 a puerta) frente a 11 (3) del rival. Córners: 8 por 3.
+
+## La clasificación
+
+Tras el partido, Man City 6.º con 6 puntos y AEK Athens 27.º con 3 puntos en la [clasificación de Champions](/futbol/champions-league).
+
+Ficha: 1 amarilla · 9 cambios. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/champions-league/partido/401915401).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Champions","sport":"futbol","slug":"champions-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915401",
+    sourceLang: 'en',
+    publishedAt: '2026-10-21T00:06:48.124Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/City_of_Manchester_Stadium_2023_cropped.jpg/1280px-City_of_Manchester_Stadium_2023_cropped.jpg",
+      alt: "Vista aérea del Etihad Stadium del Manchester City",
+      credit: "Arne Müseler, cropped by Blackcat · Wikimedia Commons",
+      license: "CC BY-SA 3.0 de",
+    },
+  },
+  {
+    slug: 'cronica-liverpool-villarreal-401915397',
+    title: "Liverpool 4 Villarreal 3: doblete de Alexis Mac Allister, Liverpool 2.º y posesión del 53 % para Liverpool",
+    summary: "Alexis Mac Allister marcó en el 65' el gol que puso por delante a Liverpool, que ya no soltó la ventaja: 4-3 final ante Villarreal en Champions League. Claves: doblete de Alexis Mac Allister, Liverpool 2.º y posesión del 53 % para Liverpool.",
+    body: `Alexis Mac Allister marcó en el 65' el gol que puso por delante a Liverpool, que ya no soltó la ventaja: 4-3 final ante Villarreal en Champions League.
+
+## Alexis Mac Allister decidió con 2 goles
+
+En el marcador, Georges Mikautadze (4', Villarreal), Sergi Cardona (29', Villarreal), Alexis Mac Allister (36', Liverpool), Ronald Araújo (45'+2', Liverpool), Alexis Mac Allister (65', Liverpool), Florian Wirtz (68', Liverpool) y Tani Oluwaseyi (87', Villarreal).
+
+## Los números del partido
+
+La posesión fue 53 %-48 % para Liverpool. En remates, 22 de Liverpool (7 a puerta) por 14 de Villarreal (5). Córners: 8 por 2.
+
+## Qué cambia en la tabla
+
+Tras el partido, Liverpool 2.º con 9 puntos y Villarreal 19.º con 3 puntos en la [clasificación de Champions](/futbol/champions-league).
+
+## Qué viene ahora
+
+Próximos partidos en la página de la competición. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/champions-league/partido/401915397).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Champions","sport":"futbol","slug":"champions-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915397",
+    sourceLang: 'en',
+    publishedAt: '2026-10-21T00:06:48.124Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Liverpool_anfield_road_stadium.jpg/1280px-Liverpool_anfield_road_stadium.jpg",
+      alt: "Vista aérea de Anfield, el estadio del Liverpool, entre las casas de la ciudad",
+      credit: "Arne Müseler · Wikimedia Commons",
+      license: "CC BY-SA 3.0 de",
+    },
+  },
+  {
+    slug: 'cronica-fc-porto-psv-401915398',
+    title: "PSV gana fuera 1-0 a FC Porto y es 16.º",
+    summary: "PSV suma tres puntos ante FC Porto (1-0) en Champions League y es 16.º con 4 puntos; FC Porto se queda 33.º.",
+    body: `PSV se impuso 1-0 a FC Porto en Champions League, con gol de Guus Til.
+
+## Los goles
+
+Los goles: Guus Til (57', PSV).
+
+## La tabla
+
+Tras el partido, FC Porto 33.º con 0 puntos y PSV 16.º con 4 puntos en la [clasificación de Champions](/futbol/champions-league).
+
+## Lo que viene
+
+El calendario completo está en la página de la competición. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/champions-league/partido/401915398).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Champions","sport":"futbol","slug":"champions-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915398",
+    sourceLang: 'en',
+    publishedAt: '2026-10-21T00:06:48.124Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Est%C3%A1dio_do_Drag%C3%A3o_%2829746602635%29.jpg/1920px-Est%C3%A1dio_do_Drag%C3%A3o_%2829746602635%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Estádio do Dragão, donde se jugó el FC Porto - PSV",
+      credit: "Alberto Brandolini · CC BY-SA 2.0 · Wikimedia Commons",
+      license: "CC BY-SA 2.0",
+    },
+  },
+  {
+    slug: 'cronica-as-roma-s-bratislava-401915402',
+    title: "Mario Hermoso guía a AS Roma ante S Bratislava (4-0) y lo deja 13.º en Champions",
+    summary: "AS Roma 4-0 S Bratislava en Champions League: Mario Hermoso marcó. AS Roma 73 % de posesión y 26 remates; S Bratislava 27 % y 1.",
+    body: `## Resumen
+
+AS Roma ganó 4-0 a S Bratislava en Champions League.
+
+## Los goles
+
+- 21' · Mario Hermoso (AS Roma)
+- 39' · Nahuel Molina (AS Roma)
+- 52' · Niccolò Pisilli (AS Roma)
+
+## El dato
+
+AS Roma 73 % de posesión y 26 remates; S Bratislava 27 % y 1.
+
+## Lo que viene
+
+Tras el partido, AS Roma 13.º con 4 puntos y S Bratislava 36.º con 0 puntos en la [clasificación de Champions](/futbol/champions-league).
+
+**Lee también:** la [ficha del partido](/futbol/champions-league/partido/401915402) con alineaciones y narración · la [clasificación de Champions](/futbol/champions-league) · [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Champions","sport":"futbol","slug":"champions-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915402",
+    sourceLang: 'en',
+    publishedAt: '2026-10-21T00:06:48.124Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Teatro_Olimpico_%28Vicenza%29_-_courtyard.jpg/1920px-Teatro_Olimpico_%28Vicenza%29_-_courtyard.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Olimpico, donde se jugó el AS Roma - S Bratislava",
+      credit: "Didier Descouens · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'partidos-futbol-hoy-2026-10-21',
+    title: "Partidos de fútbol hoy, miércoles 21 de octubre: horarios y dónde ver LaLiga y Champions",
+    summary: "Agenda de fútbol de hoy miércoles 21 de octubre: 10 partidos con horario en hora española y canal de televisión. Destaca Como - Man United.",
+    body: `El fútbol no para: 10 encuentros este miércoles 21 de octubre. Esta es la agenda completa con horarios de España y televisión. El partido que más miradas reúne es el **[Como - Man United](/futbol/champions-league/partido/401915395)** (Champions League, 18:45 h).
+
+## Champions League
+
+- **[Como - Man United](/futbol/champions-league/partido/401915395)** — 18:45 h
+- **[Lille - Galatasaray](/futbol/champions-league/partido/401915396)** — 18:45 h
+- **[Aston Villa - Viking FK](/futbol/champions-league/partido/401915394)** — 21:00 h
+- **[Bayern - Arsenal](/futbol/champions-league/partido/401915312)** — 21:00 h
+- **[Club Brugge - Lens](/futbol/champions-league/partido/401915388)** — 21:00 h
+- **[Inter Milan - Shakhtar](/futbol/champions-league/partido/401915390)** — 21:00 h
+- **[Betis - Feyenoord](/futbol/champions-league/partido/401915389)** — 21:00 h
+- **[Real Madrid - RB Leipzig](/futbol/champions-league/partido/401915313)** — 21:00 h
+- **[Sporting - LASK Linz](/futbol/champions-league/partido/401915391)** — 21:00 h
+
+Calendario y clasificación en la [página de Champions](/futbol/champions-league).
+
+## 🇪🇸 LaLiga
+
+- **[Levante - Athletic](/futbol/laliga/partido/401882870)** — 20:00 h
+
+Calendario y clasificación en la [página de LaLiga](/futbol/laliga).
+
+Todos los horarios están en hora peninsular. Los marcadores se actualizan en directo en cada ficha de partido. Toda la jornada, con marcadores en directo, en [partidos de hoy](/partidos-hoy).`,
+    category: 'tv',
+    kind: 'agenda',
+    competition: {"name":"Champions","sport":"futbol","slug":"champions-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915395",
+    sourceLang: 'en',
+    publishedAt: '2026-10-21T00:06:48.124Z',
+    modifiedAt: '2026-10-21T00:06:48.124Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Stadio_Giuseppe_Sinigaglia_-_panoramio.jpg/1920px-Stadio_Giuseppe_Sinigaglia_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Giuseppe Sinigaglia, escenario del Como - Man United",
+      credit: "Mister No · CC BY 3.0 · Wikimedia Commons",
+      license: "CC BY 3.0",
+    },
+  },
+  {
     slug: 'levante-athletic-aplazado-tormenta-miercoles-real-madrid-leipzig-betis-feyenoord-horarios-donde-ver',
     title: 'Levante y Athletic juegan por fin el partido que se llevó la tormenta: horarios del miércoles',
     summary: 'El Levante-Athletic aplazado en septiembre se juega el miércoles a las 20:00 en M+ LaLiga. A las 21:00, Real Madrid-Leipzig y Betis-Feyenoord en Champions, en Movistar Plus+.',
