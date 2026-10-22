@@ -154,6 +154,149 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'nba-resultados-2026-10-22',
+    title: "NBA: resultados de la noche del 22 de octubre",
+    summary: "Resultados de los 11 partidos de la noche en la NBA, con el más igualado y el de más puntos.",
+    body: `11 partidos en la NBA esta noche. El más igualado, Pacers 123-120 a Pelicans, decidido en la última posesión. El de más puntos, Hawks ante Magic (132-125).
+
+## Resultados
+
+- [Hawks 132-125 Magic](/baloncesto/nba/partido/401909834)
+- [Wizards 128-116 Bucks](/baloncesto/nba/partido/401909835)
+- [Timberwolves 131-106 Heat](/baloncesto/nba/partido/401909091)
+- [Hornets 110-103 Nets](/baloncesto/nba/partido/401909836)
+- [Raptors 135-92 Bulls](/baloncesto/nba/partido/401909837)
+- [Grizzlies 123-103 Jazz](/baloncesto/nba/partido/401909838)
+- [Pacers 123-120 Pelicans](/baloncesto/nba/partido/401909839)
+- [Rockets 128-110 Mavericks](/baloncesto/nba/partido/401909840)
+- [Lakers 127-105 Warriors](/baloncesto/nba/partido/401909092)
+- [Trail Blazers 124-83 Suns](/baloncesto/nba/partido/401909841)
+- [Clippers 121-96 Kings](/baloncesto/nba/partido/401909842)
+
+Marcadores en directo, calendario y clasificación por conferencias en la [página de la NBA](/baloncesto/nba).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"NBA","sport":"baloncesto","slug":"nba"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/nba/scoreboard",
+    sourceLang: 'en',
+    publishedAt: '2026-10-22T12:20:10.049Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Smoothie_King_Center_New_Orleans_27_Oct_2020_02.jpg/1920px-Smoothie_King_Center_New_Orleans_27_Oct_2020_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Smoothie King Center, sede del Pelicans - Pacers",
+      credit: "Infrogmation of New Orleans · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'previa-gp-estados-unidos-2026',
+    title: "Gran Premio de Estados Unidos: horarios de libres, clasificación y carrera",
+    summary: "Horarios en hora peninsular de todas las sesiones del Gran Premio de Estados Unidos en Circuit of the Americas, Austin y cómo llega el Mundial, con Kimi Antonelli líder.",
+    body: `Circuit of the Americas, Austin acoge esta semana el Gran Premio de Estados Unidos, con Kimi Antonelli como líder del campeonato y George Russell a 102 puntos.
+
+## Horarios del Gran Premio de Estados Unidos
+
+- **Libres 1**: viernes 23 de octubre, a las 19:30 (hora peninsular)
+- **Libres 2**: viernes 23 de octubre, a las 23:00 (hora peninsular)
+- **Libres 3**: sábado 24 de octubre, a las 19:30 (hora peninsular)
+- **Clasificación**: sábado 24 de octubre, a las 23:00 (hora peninsular)
+- **Carrera**: domingo 25 de octubre, a las 21:00 (hora peninsular)
+
+## Así llega el Mundial
+
+1. Kimi Antonelli, 340 puntos
+2. George Russell, 238 puntos
+3. Lewis Hamilton, 229 puntos
+4. Max Verstappen, 221 puntos
+5. Charles Leclerc, 215 puntos
+
+En constructores manda Mercedes con 578 puntos, por delante de Ferrari (444).
+
+Horarios, resultados de cada sesión y clasificación completa del Mundial en la [página de la Fórmula 1](/motor/formula-1).`,
+    category: 'general',
+    kind: 'previa',
+    competition: {"name":"Fórmula 1","sport":"motor","slug":"formula-1"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/f1/schedule",
+    sourceLang: 'en',
+    publishedAt: '2026-10-22T12:20:10.049Z',
+    modifiedAt: '2026-10-22T12:20:10.049Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/2018_US_Grand_Prix_at_the_Circuit_of_the_Americas.jpg/1920px-2018_US_Grand_Prix_at_the_Circuit_of_the_Americas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Circuit of the Americas , escenario del Gran Premio de Estados Unidos",
+      credit: "HoverVan · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'cronica-lille-galatasaray-401915396',
+    title: "Galatasaray se impone a Lille (4-2) con doblete de Soriba Diaoune en Champions",
+    summary: "Soriba Diaoune marcó 2; Lille remató 15 veces (5 a puerta) en el Galatasaray 4-2 Lille de Champions League.",
+    body: `Lille llegaba de perder 0-3 ante Arsenal; Galatasaray, de perder 1-4 ante Barcelona. Acabó ganando Galatasaray 4-2, con doblete de Soriba Diaoune. En el marcador, Yunus Akgün (2', Galatasaray), Soriba Diaoune (7', Lille), Soriba Diaoune (39', Lille), Alexey Batrakov (44', Galatasaray), Berke Özer (52', Galatasaray, p.p.) y Victor Osimhen (61', Galatasaray).
+
+## En cifras
+
+Lille manejó el balón (56 % por 44 %) y tiró 15 veces, 5 entre los tres palos; Galatasaray se quedó en 10 remates (4 a puerta). Córners: 3 por 3.
+
+## La clasificación
+
+Tras el partido, Lille 35.º con 0 puntos y Galatasaray 23.º con 3 puntos en la [clasificación de Champions](/futbol/champions-league).
+
+Ficha: 4 amarillas · 10 cambios. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/champions-league/partido/401915396).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Champions","sport":"futbol","slug":"champions-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915396",
+    sourceLang: 'en',
+    publishedAt: '2026-10-22T12:20:10.049Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Finale_Coupe_Davis_2017_Pouille_Goffin.jpg/1920px-Finale_Coupe_Davis_2017_Pouille_Goffin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Decathlon Arena - Stade Pierre-Mauroy, donde se jugó el Lille - Galatasaray",
+      credit: "Felouch Kotek · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'cronica-como-man-united-401915395',
+    title: "Como 4 Man United 1: doblete de Nico Paz, Como 9.º y posesión del 55 % para Como",
+    summary: "Nico Paz marcó en el 2' el gol que puso por delante a Como, que ya no soltó la ventaja: 4-1 final ante Man United en Champions League. Claves: doblete de Nico Paz, Como 9.º y posesión del 55 % para Como.",
+    body: `Nico Paz marcó en el 2' el gol que puso por delante a Como, que ya no soltó la ventaja: 4-1 final ante Man United en Champions League.
+
+## Nico Paz decidió con 2 goles
+
+Los goles: Nico Paz (2', Como), Anastasios Douvikas (49', Como), Nico Paz (57', Como), Jacobo Ramón (76', Como) y Joshua Zirkzee (90'+1', Man United).
+
+## Los números del partido
+
+Como manejó el balón (55 % por 45 %) y tiró 11 veces, 8 entre los tres palos; Man United se quedó en 13 remates (4 a puerta). Córners: 1 por 4.
+
+## Qué cambia en la tabla
+
+Tras el partido, Como 9.º con 6 puntos y Man United 21.º con 3 puntos en la [clasificación de Champions](/futbol/champions-league).
+
+## Qué viene ahora
+
+Próximos partidos en la página de la competición. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/champions-league/partido/401915395).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Champions","sport":"futbol","slug":"champions-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915395",
+    sourceLang: 'en',
+    publishedAt: '2026-10-22T12:20:10.049Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Stadio_Giuseppe_Sinigaglia_-_panoramio.jpg/1920px-Stadio_Giuseppe_Sinigaglia_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Giuseppe Sinigaglia, donde se jugó el Como - Man United",
+      credit: "Mister No · CC BY 3.0 · Wikimedia Commons",
+      license: "CC BY 3.0",
+    },
+  },
+  {
     slug: 'cronica-sporting-lask-linz-401915391',
     title: "LASK Linz se impone a Sporting (3-2) en Champions",
     summary: "Christoph Lang marcó; Sporting remató 16 veces (4 a puerta) en el LASK Linz 3-2 Sporting de Champions League.",
@@ -481,7 +624,7 @@ Todos los horarios están en hora peninsular. Los marcadores se actualizan en di
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915548",
     sourceLang: 'en',
     publishedAt: '2026-10-22T00:10:10.166Z',
-    modifiedAt: '2026-10-22T00:10:10.166Z',
+    modifiedAt: '2026-10-22T12:20:10.049Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Vazgen_Sargsyan_Republican_Stadium_02.JPG/1920px-Vazgen_Sargsyan_Republican_Stadium_02.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
