@@ -154,6 +154,343 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'cronica-sporting-lask-linz-401915391',
+    title: "LASK Linz se impone a Sporting (3-2) en Champions",
+    summary: "Christoph Lang marcó; Sporting remató 16 veces (4 a puerta) en el LASK Linz 3-2 Sporting de Champions League.",
+    body: `Sporting llegaba de ganar 2-0 a Lens; LASK Linz, de perder 3-6 ante Liverpool. Acabó ganando LASK Linz 3-2. Los goles: Christoph Lang (15', LASK Linz), Sasa Kalajdzic (63', LASK Linz), Krystof Danek (68', LASK Linz) y Luis Suárez (89', Sporting).
+
+## En cifras
+
+Sporting manejó el balón (62 % por 38 %) y tiró 16 veces, 4 entre los tres palos; LASK Linz se quedó en 11 remates (7 a puerta). Córners: 7 por 4.
+
+## La clasificación
+
+Tras el partido, Sporting 12.º con 6 puntos y LASK Linz 24.º con 3 puntos en la [clasificación de Champions](/futbol/champions-league).
+
+Ficha: 7 amarillas · 9 cambios. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/champions-league/partido/401915391).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Champions","sport":"futbol","slug":"champions-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915391",
+    sourceLang: 'en',
+    publishedAt: '2026-10-22T00:10:10.166Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/c/ca/Lisbon_Est%C3%A1dio_Jos%C3%A9_Alvalade_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      alt: "Estádio José Alvalade, donde se jugó el Sporting - LASK Linz",
+      credit: "Валерий Дед · CC BY 3.0 · Wikimedia Commons",
+      license: "CC BY 3.0",
+    },
+  },
+  {
+    slug: 'cronica-real-madrid-rb-leipzig-401915313',
+    title: "Bernardo Silva guía a Real Madrid ante RB Leipzig (4-1) y lo deja 4.º en Champions",
+    summary: "Real Madrid 4-1 RB Leipzig en Champions League: Bernardo Silva marcó. Real Madrid 64 % de posesión y 18 remates; RB Leipzig 36 % y 11.",
+    body: `## Resumen
+
+Real Madrid ganó 4-1 a RB Leipzig en Champions League.
+
+## Los goles
+
+- 43' · Bernardo Silva (Real Madrid)
+- 52' · Arda Güler (Real Madrid)
+- 83' · Kylian Mbappé (Real Madrid)
+- 85' · Tidiam Gomis (RB Leipzig)
+- 87' · Yan Diomande (Real Madrid)
+
+## El dato
+
+Real Madrid 64 % de posesión y 18 remates; RB Leipzig 36 % y 11.
+
+## Lo que viene
+
+Tras el partido, Real Madrid 4.º con 9 puntos y RB Leipzig 30.º con 3 puntos en la [clasificación de Champions](/futbol/champions-league).
+
+**Lee también:** la [ficha del partido](/futbol/champions-league/partido/401915313) con alineaciones y narración · la [clasificación de Champions](/futbol/champions-league) · [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Champions","sport":"futbol","slug":"champions-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915313",
+    sourceLang: 'en',
+    publishedAt: '2026-10-22T00:10:10.166Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Santiagobernabeupanoramav45.JPG/1280px-Santiagobernabeupanoramav45.JPG",
+      alt: "Interior del Santiago Bernabéu vacío, con las gradas azules y el césped",
+      credit: "لا روسا · Wikimedia Commons",
+      license: "CC BY-SA 3.0",
+    },
+  },
+  {
+    slug: 'cronica-betis-feyenoord-401915389',
+    title: "Betis se impone a Feyenoord (1-0) en Champions",
+    summary: "Feyenoord remató 12 veces (2 a puerta) en el Betis 1-0 Feyenoord de Champions League.",
+    body: `Betis llegaba de ganar 3-2 a FC Porto; Feyenoord, de ganar 3-2 a Como. Acabó ganando Betis 1-0. El partido acabó sin goles.
+
+## En cifras
+
+La posesión fue 47 %-53 % para Betis. En remates, 23 de Betis (10 a puerta) por 12 de Feyenoord (2). Córners: 4 por 4.
+
+## La clasificación
+
+Tras el partido, Betis 5.º con 9 puntos y Feyenoord 26.º con 3 puntos en la [clasificación de Champions](/futbol/champions-league).
+
+Ficha: 3 amarillas · 9 cambios. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/champions-league/partido/401915389).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Champions","sport":"futbol","slug":"champions-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915389",
+    sourceLang: 'en',
+    publishedAt: '2026-10-22T00:10:10.166Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Estadio_Benito_Villamar%C3%ADn_2018001.jpg/1280px-Estadio_Benito_Villamar%C3%ADn_2018001.jpg",
+      alt: "Interior del Benito Villamarín de Sevilla, con las gradas verdes y blancas",
+      credit: "Anual · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'cronica-inter-milan-shakhtar-401915390',
+    title: "Carlos Augusto guía a Inter Milan ante Shakhtar (1-0) y lo deja 20.º en Champions",
+    summary: "Inter Milan 1-0 Shakhtar en Champions League: Carlos Augusto marcó. Inter Milan 45 % de posesión y 13 remates; Shakhtar 55 % y 12.",
+    body: `## Resumen
+
+Inter Milan ganó 1-0 a Shakhtar en Champions League, con gol de Carlos Augusto.
+
+## Los goles
+
+- 77' · Carlos Augusto (Inter Milan)
+
+## El dato
+
+Inter Milan 45 % de posesión y 13 remates; Shakhtar 55 % y 12.
+
+## Lo que viene
+
+Tras el partido, Inter Milan 20.º con 3 puntos y Shakhtar 17.º con 4 puntos en la [clasificación de Champions](/futbol/champions-league).
+
+**Lee también:** la [ficha del partido](/futbol/champions-league/partido/401915390) con alineaciones y narración · la [clasificación de Champions](/futbol/champions-league) · [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Champions","sport":"futbol","slug":"champions-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915390",
+    sourceLang: 'en',
+    publishedAt: '2026-10-22T00:10:10.166Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Stadio_Giuseppe_Meazza_%28San_Siro%29%2C_Milan%2C_May_2018_%2801%29.jpg/1920px-Stadio_Giuseppe_Meazza_%28San_Siro%29%2C_Milan%2C_May_2018_%2801%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "San Siro, donde se jugó el Inter Milan - Shakhtar",
+      credit: "Ardfern · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'cronica-club-brugge-lens-401915388',
+    title: "Club Brugge 3 Lens 0: goles de Hans Vanaken, Joaquin Seys y Carlos Forbs y Club Brugge 11.º",
+    summary: "Hans Vanaken marcó en el 45'+3' el gol que puso por delante a Club Brugge, que ya no soltó la ventaja: 3-0 final ante Lens en Champions League. Claves: goles de Hans Vanaken, Joaquin Seys y Carlos Forbs, Club Brugge 11.º y posesión del 57 % para Club Brugge.",
+    body: `Hans Vanaken marcó en el 45'+3' el gol que puso por delante a Club Brugge, que ya no soltó la ventaja: 3-0 final ante Lens en Champions League.
+
+## Hans Vanaken decidió
+
+Marcaron Hans Vanaken (45'+3', Club Brugge), Joaquin Seys (50', Club Brugge) y Carlos Forbs (72', Club Brugge).
+
+## Los números del partido
+
+Club Brugge tuvo el 57 % de la posesión por el 43 % de Lens; remató 11 veces (5 a puerta) frente a 19 (7) del rival. Córners: 1 por 5.
+
+## Qué cambia en la tabla
+
+Tras el partido, Club Brugge 11.º con 6 puntos y Lens 27.º con 3 puntos en la [clasificación de Champions](/futbol/champions-league).
+
+## Qué viene ahora
+
+Próximos partidos en la página de la competición. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/champions-league/partido/401915388).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Champions","sport":"futbol","slug":"champions-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915388",
+    sourceLang: 'en',
+    publishedAt: '2026-10-22T00:10:10.166Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Belgian_Super_Cup_2025_-_Union_SG_vs_Club_Brugge.jpg/1920px-Belgian_Super_Cup_2025_-_Union_SG_vs_Club_Brugge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Jan Breydel Stadium, donde se jugó el Club Brugge - Lens",
+      credit: "Sidney.Cortez · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'cronica-bayern-arsenal-401915312',
+    title: "Bayern y Arsenal firman tablas (2-2) en Champions",
+    summary: "Eberechi Eze marcó en el Bayern 2-2 Arsenal de Champions League.",
+    body: `Bayern llegaba de empatar 3-3 con Viking FK; Arsenal, de ganar 3-0 a Lille. Acabó 2-2. En el marcador, Eberechi Eze (25', Arsenal), Alphonso Davies (35', Bayern) y Declan Rice (82', Arsenal).
+
+## En cifras
+
+Bayern manejó el balón (46 % por 54 %) y tiró 13 veces, 5 entre los tres palos; Arsenal se quedó en 14 remates (5 a puerta). Córners: 3 por 5.
+
+## La clasificación
+
+Tras el partido, Bayern 14.º con 5 puntos y Arsenal 7.º con 7 puntos en la [clasificación de Champions](/futbol/champions-league).
+
+Ficha: 2 amarillas · 9 cambios. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/champions-league/partido/401915312).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Champions","sport":"futbol","slug":"champions-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915312",
+    sourceLang: 'en',
+    publishedAt: '2026-10-22T00:10:10.166Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Allianz_Arena%2C_M%C3%BAnich%2C_Alemania%2C_2013-02-11%2C_DD_12.JPG/1920px-Allianz_Arena%2C_M%C3%BAnich%2C_Alemania%2C_2013-02-11%2C_DD_12.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Allianz Arena, donde se jugó el Bayern - Arsenal",
+      credit: "Diego Delso · CC BY-SA 3.0 · Wikimedia Commons",
+      license: "CC BY-SA 3.0",
+    },
+  },
+  {
+    slug: 'cronica-aston-villa-viking-fk-401915394',
+    title: "Aston Villa 3 Viking FK 1: goles de Ross Barkley y Peter Christiansen y Aston Villa 2.º",
+    summary: "Ross Barkley marcó en el 23' el gol que puso por delante a Aston Villa, que ya no soltó la ventaja: 3-1 final ante Viking FK en Champions League. Claves: goles de Ross Barkley y Peter Christiansen, Aston Villa 2.º y posesión del 54 % para Aston Villa.",
+    body: `Ross Barkley marcó en el 23' el gol que puso por delante a Aston Villa, que ya no soltó la ventaja: 3-1 final ante Viking FK en Champions League.
+
+## Ross Barkley decidió
+
+Los goles: Ross Barkley (23', Aston Villa), Henrik Heggheim (62', Aston Villa, p.p.) y Peter Christiansen (84', Viking FK).
+
+## Los números del partido
+
+Aston Villa manejó el balón (54 % por 46 %) y tiró 21 veces, 10 entre los tres palos; Viking FK se quedó en 10 remates (3 a puerta). Córners: 8 por 6.
+
+## Qué cambia en la tabla
+
+Tras el partido, Aston Villa 2.º con 9 puntos y Viking FK 33.º con 1 puntos en la [clasificación de Champions](/futbol/champions-league).
+
+## Qué viene ahora
+
+Próximos partidos en la página de la competición. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/champions-league/partido/401915394).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Champions","sport":"futbol","slug":"champions-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915394",
+    sourceLang: 'en',
+    publishedAt: '2026-10-22T00:10:10.166Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Villaparkfromtopofholte.jpg/1280px-Villaparkfromtopofholte.jpg",
+      alt: "Interior de Villa Park, con las gradas granates y azules y el césped",
+      credit: "Everlast1910 at English Wikipedia · Wikimedia Commons",
+      license: "Public domain",
+    },
+  },
+  {
+    slug: 'cronica-levante-athletic-401882870',
+    title: "Levante se impone a Athletic (3-1) con doblete de Roger Brugué en LaLiga",
+    summary: "Roger Brugué marcó 2; Athletic remató 21 veces (4 a puerta) en el Levante 3-1 Athletic de LaLiga.",
+    body: `Levante llegaba de empatar 1-1 con Deportivo; Athletic, de empatar 0-0 con Valencia. Acabó ganando Levante 3-1, con doblete de Roger Brugué. Marcaron Roger Brugué (20', Levante), Roger Brugué (22', Levante) y Etta Eyong (90'+8', Levante).
+
+## En cifras
+
+Levante tuvo el 38 % de la posesión por el 62 % de Athletic; remató 12 veces (7 a puerta) frente a 21 (4) del rival. Córners: 3 por 9.
+
+## La clasificación
+
+Tras el partido, Levante 11.º con 10 puntos y Athletic 13.º con 9 puntos en la [clasificación de LaLiga](/futbol/laliga).
+
+Ficha: 3 amarillas · expulsado: Aymeric Laporte · 10 cambios. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/laliga/partido/401882870).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882870",
+    sourceLang: 'en',
+    publishedAt: '2026-10-22T00:10:10.166Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Estadi_Ciutat_de_Val%C3%A8ncia_interior_3.jpg/1280px-Estadi_Ciutat_de_Val%C3%A8ncia_interior_3.jpg",
+      alt: "Interior del Ciutat de València, con la grada en la que se lee «Levante UD 1909»",
+      credit: "Francesc Fort · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'partidos-futbol-hoy-2026-10-22',
+    title: "Partidos de fútbol hoy, jueves 22 de octubre: horarios y dónde ver Europa League y Conference League",
+    summary: "Agenda de fútbol de hoy jueves 22 de octubre: 36 partidos con horario en hora española y canal de televisión. Destaca Ararat-Armenia - AZ Alkmaar.",
+    body: `El fútbol no para: 36 encuentros este jueves 22 de octubre. Esta es la agenda completa con horarios de España y televisión. El partido que más miradas reúne es el **[Ararat-Armenia - AZ Alkmaar](/futbol/europa-league/partido/401915548)** (Europa League, 18:45 h).
+
+## Conference League
+
+- **[Kairat Almaty - Panathinaikos](/futbol/conference-league/partido/401915846)** — 16:30 h
+- **[Nordsjælland - CSKA Sofia](/futbol/conference-league/partido/401915844)** — 18:45 h
+- **[Getafe - FC Lugano](/futbol/conference-league/partido/401915840)** — 18:45 h
+- **[Iberia 1999 - Mjällby](/futbol/conference-league/partido/401915845)** — 18:45 h
+- **[Inter D'Escaldes - CSU Craiova](/futbol/conference-league/partido/401915839)** — 18:45 h
+- **[Jablonec - Brighton](/futbol/conference-league/partido/401915842)** — 18:45 h
+- **[Kauno Zalgiris - SK Brann](/futbol/conference-league/partido/401915841)** — 18:45 h
+- **[Pafos - Riga FC](/futbol/conference-league/partido/401915838)** — 18:45 h
+- **[Red Star - København](/futbol/conference-league/partido/401915843)** — 18:45 h
+- **[Trabzonspor - Hearts](/futbol/conference-league/partido/401915745)** — 18:45 h
+- **[AGF - Egnatia](/futbol/conference-league/partido/401915744)** — 21:00 h
+- **[Ajax - Atalanta](/futbol/conference-league/partido/401915837)** — 21:00 h
+- **[Monaco - Freiburg](/futbol/conference-league/partido/401915836)** — 21:00 h
+- **[Borac - KuPS Kuopio](/futbol/conference-league/partido/401915743)** — 21:00 h
+- **[Braga - KAA Gent](/futbol/conference-league/partido/401915832)** — 21:00 h
+- **[Midtjylland - Sint-Truidense](/futbol/conference-league/partido/401915835)** — 21:00 h
+- **[FC Thun - Hajduk Split](/futbol/conference-league/partido/401915834)** — 21:00 h
+- **[Red Imps - FC Twente](/futbol/conference-league/partido/401915833)** — 21:00 h
+
+Calendario y clasificación en la [página de Conference League](/futbol/conference-league).
+
+## Europa League
+
+- **[Ararat-Armenia - AZ Alkmaar](/futbol/europa-league/partido/401915548)** — 18:45 h
+- **[Dinamo Zagreb - NEC](/futbol/europa-league/partido/401915556)** — 18:45 h
+- **[Ferencvaros - Torreense](/futbol/europa-league/partido/401915558)** — 18:45 h
+- **[Juventus - Rennes](/futbol/europa-league/partido/401915547)** — 18:45 h
+- **[Lech Poznan - Sunderland](/futbol/europa-league/partido/401915546)** — 18:45 h
+- **[OFI Crete - Leverkusen](/futbol/europa-league/partido/401915559)** — 18:45 h
+- **[Sturm Graz - Marseille](/futbol/europa-league/partido/401915557)** — 18:45 h
+- **[Union SG - Hapoel Be'er](/futbol/europa-league/partido/401915545)** — 18:45 h
+- **[Bournemouth - Milan](/futbol/europa-league/partido/401915552)** — 21:00 h
+- **[Besiktas - C Palace](/futbol/europa-league/partido/401915553)** — 21:00 h
+- **[Celtic - Celta Vigo](/futbol/europa-league/partido/401915555)** — 21:00 h
+- **[Jagiellonia  - Anderlecht](/futbol/europa-league/partido/401915542)** — 21:00 h
+- **[Lillestrom - Real Sociedad](/futbol/europa-league/partido/401915540)** — 21:00 h
+- **[NK Celje - RB Salzburg](/futbol/europa-league/partido/401915541)** — 21:00 h
+- **[Olympiacos - Sparta](/futbol/europa-league/partido/401915554)** — 21:00 h
+- **[Omonia - Benfica](/futbol/europa-league/partido/401915544)** — 21:00 h
+- **[Hoffenheim - Lyon](/futbol/europa-league/partido/401915543)** — 21:00 h
+- **[Viktoria Plzen - Levski Sofia](/futbol/europa-league/partido/401915539)** — 21:00 h
+
+Calendario y clasificación en la [página de Europa League](/futbol/europa-league).
+
+Todos los horarios están en hora peninsular. Los marcadores se actualizan en directo en cada ficha de partido. Toda la jornada, con marcadores en directo, en [partidos de hoy](/partidos-hoy).`,
+    category: 'tv',
+    kind: 'agenda',
+    competition: {"name":"Europa League","sport":"futbol","slug":"europa-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915548",
+    sourceLang: 'en',
+    publishedAt: '2026-10-22T00:10:10.166Z',
+    modifiedAt: '2026-10-22T00:10:10.166Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Vazgen_Sargsyan_Republican_Stadium_02.JPG/1920px-Vazgen_Sargsyan_Republican_Stadium_02.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Vazgen Sargsyan Republican Stadium, escenario del Ararat-Armenia - AZ Alkmaar",
+      credit: "Beko · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
     slug: 'nba-resultados-2026-10-21',
     title: "NBA: todos los resultados de la jornada y el partido más igualado",
     summary: "Resultados de los 3 partidos de la noche en la NBA, con el más igualado y el de más puntos.",
