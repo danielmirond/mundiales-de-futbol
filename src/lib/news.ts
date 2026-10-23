@@ -202,7 +202,7 @@ El Arsenal recibe al Everton este **sábado 24 a las 16:00** (15:00 en Canarias)
       { name: 'ESPN: Bayern - Arsenal', url: 'https://www.espn.com/soccer/match/_/gameId/401915312' },
       { name: 'ESPN: España - Croacia', url: 'https://www.espn.com/soccer/match/_/gameId/401861084' },
     ],
-    publishedAt: '2026-10-23T22:10:00+02:00',
+    publishedAt: '2026-10-23T22:05:00+02:00',
     author: 'Redacción Mundiales',
     image: {
       url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Martin_Zubimendi_Argentina_v_Spain_19_July_2026-231.jpg/1280px-Martin_Zubimendi_Argentina_v_Spain_19_July_2026-231.jpg',
