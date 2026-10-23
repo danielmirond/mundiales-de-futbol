@@ -154,6 +154,115 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'ander-herrera-carta-manchester-united-renovacion-woodward-zaragoza-gratis',
+    title: 'Ander Herrera, 37 años, sobre su adiós al Manchester United: «Me mandaron una carta»',
+    summary: 'Ander Herrera esperaba una llamada del United tras ser su mejor jugador. Le llegó una carta que activaba el año opcional de su contrato. Ahí, ha contado ahora, decidió irse.',
+    body: `Ander Herrera había sido elegido mejor jugador de la temporada en el Manchester United y esperaba que el club le llamara para renovar. No le llamó nadie. Le llegó una carta que le comunicaba que el club ejercía el quinto año de su contrato.
+
+Lo ha contado en [Rio Ferdinand Presents](https://www.youtube.com/watch?v=Y2D72Mefka0&t=2226s), en un episodio publicado el 15 de octubre. Habla en inglés y resume aquel momento con una frase: «Me mandaron una carta». Dice que eso le mató y que, al recibirla, le dijo a su agente que se había acabado y que escucharían otras ofertas.
+
+## Un 4+1 y ninguna llamada
+
+Herrera llegó a Old Trafford en 2014 desde el Athletic, por unos 36 millones de euros. Firmó, según explica, un contrato de cuatro años con uno más a elección del club, la fórmula que el United usaba entonces. El 18 de mayo de 2017 recibió el premio Sir Matt Busby al mejor jugador del curso, [según su ficha](https://en.wikipedia.org/wiki/Ander_Herrera).
+
+Ese verano y el siguiente esperó una oferta. No llegó. En el pódcast aclara que no era una cuestión de dinero, aunque creía merecer una mejora. Lo que le dolió fue que nadie le dijera que querían que se quedara.
+
+Entre la cuarta y la quinta temporada, el club sí se sentó a negociar. Para Herrera ya era tarde.
+
+## La conversación con Woodward
+
+Cuenta que se lo dijo en persona a Ed Woodward, entonces vicepresidente ejecutivo: le preguntó si creía que merecía que le enviaran una carta en lugar de hablar con él. Según su versión, Woodward le pidió perdón. Herrera le respondió que la situación había cambiado. Ole Gunnar Solskjaer intentó retenerle, añade, y entendió sus motivos.
+
+En 2020 ya había hablado de su salida. [En la entrevista que recogió Goal](https://www.goal.com/en/news/i-didnt-feel-love-from-man-utd---herrera-admits-difference-of-opinion-with-woodward-led-to-old-trafford-exit/14zoz3dtj0vh41e1qnibbefi9g) culpó a una diferencia de criterio con Woodward y la directiva, dijo que llevaba más de un año negociando y que nunca quiso marcharse. La carta no aparecía en aquel relato. Se fue libre en el verano de 2019 al PSG.
+
+## Pogba, Mourinho y una historia de Instagram
+
+En el mismo episodio repasa la ruptura entre José Mourinho y Paul Pogba. Según Herrera, Mourinho creyó que Pogba había publicado una historia en Instagram durante un partido que el equipo iba perdiendo. Pogba les explicó al día siguiente que la había subido antes de empezar y que se publicó con retraso, cuando el teléfono recuperó la conexión, a la media hora de juego. Lo cuenta hacia el minuto 14 del episodio. Para entonces, dice, ya era tarde para recomponer la relación.
+
+## De Old Trafford a la Primera Federación
+
+Después del PSG (2019-2022) vinieron el Athletic y Boca Juniors. El 14 de julio de 2026 volvió al Real Zaragoza, el club en el que se formó, que juega en el grupo 2 de la Primera Federación tras su descenso. En el pódcast recuerda que es la primera vez en 75 años que el club está en esa categoría.
+
+Juega sin cobrar. [Según contó 442](https://442.perfil.com/noticias/futbol/de-boca-al-ascenso-ander-herrera-lejos-de-su-retiro-volvio-a-sumar-minutos.phtml), renunció al sueldo y dona a la fundación del club el salario mínimo de la categoría. A Ferdinand le explica que el fútbol ya le ha dado lo suficiente y que quiere ayudar gratis a su ciudad a volver al fútbol profesional.
+
+La trayectoria del United desde entonces está en su [ficha de equipo](/futbol/premier-league/equipo/360) y la clasificación de este curso, en la de la [Premier League](/futbol/premier-league).`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'Premier League', sport: 'futbol', slug: 'premier-league' },
+    sourceName: 'Rio Ferdinand Presents (vídeo)',
+    sourceUrl: 'https://www.youtube.com/watch?v=Y2D72Mefka0',
+    sourceLang: 'en',
+    publishedAt: '2026-10-23T13:18:00+02:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Ander_Herrera_2017-03-09.jpg/1280px-Ander_Herrera_2017-03-09.jpg',
+      alt: 'Ander Herrera, con la camiseta roja del Manchester United, pelea un balón con un jugador vestido de amarillo delante de una grada llena',
+      credit: 'Светлана Бекетова · Wikimedia Commons',
+      license: 'CC BY-SA 3.0',
+    },
+    sourcesSecondary: [
+      { name: 'Goal (19 de octubre de 2020)', url: 'https://www.goal.com/en/news/i-didnt-feel-love-from-man-utd---herrera-admits-difference-of-opinion-with-woodward-led-to-old-trafford-exit/14zoz3dtj0vh41e1qnibbefi9g' },
+      { name: '442 Perfil', url: 'https://442.perfil.com/noticias/futbol/de-boca-al-ascenso-ander-herrera-lejos-de-su-retiro-volvio-a-sumar-minutos.phtml' },
+      { name: 'Wikipedia: Ander Herrera', url: 'https://en.wikipedia.org/wiki/Ander_Herrera' },
+    ],
+  },
+  {
+    slug: 'aday-mara-debut-nba-thunder-wembanyama-jokic-casademont-zaragoza-reclama',
+    title: 'Aday Mara se estrena en la NBA ante Wembanyama y Jokic con el Zaragoza todavía reclamándolo',
+    summary: 'Aday Mara ya ha jugado sus dos primeros partidos con los Thunder, contra Wembanyama y contra Jokic. Lo ha hecho mientras el Casademont Zaragoza sostiene que sigue teniendo contrato con él.',
+    body: `Aday Mara ha empezado su carrera en la NBA contra dos de los mejores pívots de la liga. Debutó con los Oklahoma City Thunder en San Antonio, frente a Victor Wembanyama, y dos noches después recibió a Nikola Jokic. Lo ha hecho con el Casademont Zaragoza, su club de formación, diciendo que todavía es jugador suyo.
+
+El pívot zaragozano, de 21 años y 2,21 metros, fue el número 12 del draft del 23 de junio. Llegaba de tres temporadas universitarias: dos en UCLA y la última en Michigan.
+
+## Dos partidos, dos gigantes
+
+Los números salen de las actas de ESPN del [estreno en San Antonio](https://www.espn.com/nba/game/_/gameId/401909090) y del partido ante Denver.
+
+| | Spurs-Thunder (104-116) | Thunder-Nuggets (96-84) |
+| --- | --- | --- |
+| Hora en España | 03:50 del miércoles 21 | 03:30 del viernes 23 |
+| Minutos | 12 | 13 |
+| Puntos | 7 (3 de 4 en tiros) | 2 (1 de 3) |
+| Rebotes | 2 | 3, todos ofensivos |
+| Tapones | 1 | 1 |
+| Más/menos | +9 | -8 |
+| El pívot rival | Wembanyama: 12 puntos (1 de 13), 13 rebotes, 6 tapones | Jokic: 13 puntos (5 de 19), 7 rebotes, 5 asistencias |
+
+Los dos partidos los ganó Oklahoma. Mara salió desde el banquillo en ambos. En el primero, sus padres estaban en la grada y era el cumpleaños de su padre, [como contó a Aragón Deporte](https://www.eurohoops.net/en/nba-news/2023758/aday-mara-after-facing-wembanyama-in-nba-debut-i-felt-like-i-helped-the-team/). Sus compañeros le dieron el balón del partido.
+
+## El pleito que no paró el debut
+
+Cuatro días antes del estreno, el 16 de octubre, el Heraldo de Aragón adelantó que el Casademont se oponía a que jugara. El club confirmó en un comunicado que Mara tiene contrato para la temporada 2026-27 y que no facilitaría su transferencia, [según recogió CBS Sports](https://www.cbssports.com/nba/news/aday-mara-thunder-nba-eligibility-spanish-club-transfer/). Su argumento: necesita la carta de libertad de la FIBA para jugar como profesional.
+
+Los Thunder respondieron, a través del periodista Marc Stein, que no hacía falta ninguna autorización del club español porque su último equipo era universitario, y que así se lo había indicado la NBA. La FIBA no exige el tránsfer para jugar en la NCAA. Las cifras que se han publicado sobre lo que reclama el Zaragoza no coinciden. Mara jugó.
+
+## No es la primera vez
+
+En 2023 ya pasó algo parecido. Cuando se marchó a UCLA, el Casademont se opuso con el argumento de que los contratos se deben respetar. Mara recibió el visto bueno para jugar tres días antes de que empezara la temporada universitaria. Había debutado en la ACB con el primer equipo el 16 de octubre de 2022.
+
+Los Thunder vuelven a jugar en casa ante los Clippers (medianoche del domingo al lunes 26, hora peninsular) y los Suns (01:00 del martes 27). Los horarios y canales de cada noche están en el [calendario de la NBA](/baloncesto/nba/calendario), la temporada del equipo en su [ficha de los Thunder](/baloncesto/nba/equipo/25) y qué plataforma emite la liga, en la [guía de la NBA en España](/noticias/nba-2026-27-donde-ver-espana-dazn-prime-video-estreno-hugo-gonzalez-aldama).`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'NBA', sport: 'baloncesto', slug: 'nba' },
+    sourceName: 'ESPN (actas de los partidos)',
+    sourceUrl: 'https://www.espn.com/nba/game/_/gameId/401909094',
+    sourceLang: 'en',
+    publishedAt: '2026-10-23T13:16:00+02:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/MGC_FF4-V-Zona_2026_0079.jpg/1280px-MGC_FF4-V-Zona_2026_0079.jpg',
+      alt: 'Aday Mara, con la camiseta azul marino y el 15 de Michigan, defiende a un jugador de Arizona que lleva el balón, con la grada llena al fondo',
+      credit: 'MGoBlog · Wikimedia Commons',
+      license: 'CC BY 4.0',
+    },
+    sourcesSecondary: [
+      { name: 'CBS Sports (16 de octubre)', url: 'https://www.cbssports.com/nba/news/aday-mara-thunder-nba-eligibility-spanish-club-transfer/' },
+      { name: 'Eurohoops', url: 'https://www.eurohoops.net/en/nba-news/2023758/aday-mara-after-facing-wembanyama-in-nba-debut-i-felt-like-i-helped-the-team/' },
+      { name: 'Bleacher Report', url: 'https://bleacherreport.com/articles/25512068-aday-maras-contract-addressed-thunder-response-claims-spanish-team-basket-zaragoza' },
+      { name: 'Wikipedia: Aday Mara', url: 'https://en.wikipedia.org/wiki/Aday_Mara' },
+    ],
+  },
+  {
     slug: 'andre-ayew-mano-luis-suarez-mundial-2010-grada-sancionado-ghana-uruguay',
     title: 'André Ayew vio desde la grada la mano de Luis Suárez que dejó a Ghana sin semifinal',
     summary: 'André Ayew estaba sancionado el día que Luis Suárez paró con la mano el gol de Ghana en el Mundial 2010. Dieciséis años después ha contado en un pódcast cómo lo vivió desde la grada.',
