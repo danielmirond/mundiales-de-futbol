@@ -3,7 +3,7 @@
  *
  * Portado de guia-tv (lib/wosti.ts + lib/canal-partido.ts), con una diferencia
  * de arquitectura: aquí el feed se pide EN RUNTIME con el Data Cache de Next
- * (`revalidate` 24 h → ~1 llamada/día a RapidAPI, cuota compartida con Guía TV)
+ * (desde el 23-oct-2026, leyendo la parrilla de Guía TV en crudo, sin clave ni cuota)
  * y el snapshot del repo (src/data/wosti-snapshot.json, refrescable con
  * scripts/wosti/snapshot.mjs) es el RESPALDO si no hay credenciales o la API
  * falla. Así la frescura no depende de commits ni deploys.
@@ -120,19 +120,28 @@ function buildIndex(events: RawEvent[]): WostiIndex {
   return idx;
 }
 
-/** Feed en vivo (RapidAPI) recortado a lo que usa el índice; null si no hay credenciales o falla. */
+/**
+ * Feed en vivo recortado a lo que usa el índice; null si falla.
+ *
+ * Desde el 23-oct-2026 NO llama a WOSTI con la clave de RapidAPI. Criterio de
+ * Daniel: «hay que coger el respaldo, no la clave». La cuota (100 al día) la
+ * compartían Guía TV, este proyecto y las previas, y se agotaba cada mañana.
+ * Ahora solo Guía TV la usa y aquí se lee su parrilla en formato crudo de
+ * WOSTI, que sale de su caché de una hora y no gasta cuota. Se puede apuntar a
+ * otra URL con GUIA_TV_FEED.
+ */
 async function fetchLive(): Promise<RawEvent[] | null> {
-  const key = process.env.RAPIDAPI_KEY;
-  const host = process.env.RAPIDAPI_HOST;
-  if (!key || !host) return null;
+  const url = process.env.GUIA_TV_FEED || 'https://www.mundodeportivo.com/guia-tv/api/wosti?formato=crudo';
   try {
-    const res = await fetch(`https://${host}/api/Events`, {
-      headers: { 'x-rapidapi-key': key, 'x-rapidapi-host': host },
-      // 24 h en el Data Cache: ~1 llamada/día por despliegue.
-      next: { revalidate: 86_400 },
+    const res = await fetch(url, {
+      headers: { 'User-Agent': 'mundiales-de-futbol' },
+      // 1 h: es nuestra propia parrilla, no cuesta cuota.
+      next: { revalidate: 3_600 },
+      signal: AbortSignal.timeout(10_000),
     });
     if (!res.ok) return null;
-    const raw = await res.json();
+    const j = await res.json();
+    const raw = j?.eventos;
     if (!Array.isArray(raw) || raw.length === 0) return null;
     return raw.map((e: any): RawEvent => ({
       Id: e.Id, Date: e.Date,

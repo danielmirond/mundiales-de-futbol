@@ -6,23 +6,22 @@
  * días que trae la respuesta mandan; el resto se conserva; se poda lo
  * anterior a ayer). Sin credenciales se conserva el fichero previo (no rompe).
  *
- * Uso: RAPIDAPI_KEY=… RAPIDAPI_HOST=… node scripts/wosti/snapshot.mjs
- * La cuota de RapidAPI es compartida con Guía TV: una llamada al día basta
- * (el feed cubre ~15 días).
+ * Uso: node scripts/wosti/snapshot.mjs
+ * Desde el 23-oct-2026 lee la parrilla de Guía TV en crudo, sin clave ni cuota
+ * («hay que coger el respaldo, no la clave»): solo Guía TV llama a WOSTI.
+ * Otra URL con GUIA_TV_FEED.
  */
 import { writeFileSync, existsSync, readFileSync } from 'node:fs';
 const OUT = 'src/data/wosti-snapshot.json';
-const KEY = process.env.RAPIDAPI_KEY;
-const HOST = process.env.RAPIDAPI_HOST;
-if (!KEY || !HOST) { console.log('wosti-snapshot: sin credenciales — se conserva el snapshot previo.'); process.exit(0); }
+const FEED = process.env.GUIA_TV_FEED || 'https://www.mundodeportivo.com/guia-tv/api/wosti?formato=crudo';
 const dia = (e) => String(e?.Date ?? '').slice(0, 10);
 const ayer = new Date(Date.now() - 86400000).toISOString().slice(0, 10);
 let previo = [];
 if (existsSync(OUT)) { try { previo = JSON.parse(readFileSync(OUT, 'utf8')); } catch { previo = []; } if (!Array.isArray(previo)) previo = []; }
 try {
-  const res = await fetch(`https://${HOST}/api/Events`, { headers: { 'x-rapidapi-key': KEY, 'x-rapidapi-host': HOST }, signal: AbortSignal.timeout(15000) });
+  const res = await fetch(FEED, { headers: { 'User-Agent': 'mundiales-de-futbol' }, signal: AbortSignal.timeout(30000) });
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
-  const raw = await res.json();
+  const raw = (await res.json())?.eventos;
   if (!Array.isArray(raw) || raw.length === 0) throw new Error('payload vacío');
   const slim = raw.map((e) => ({
     Id: e.Id, Date: e.Date,
