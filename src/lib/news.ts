@@ -197,7 +197,7 @@ En el mismo programa se habló de su posible candidatura a presidir la federaci�
     sourceName: 'The Obi One Podcast (vídeo)',
     sourceUrl: 'https://www.youtube.com/watch?v=PS84s34plss',
     sourceLang: 'en',
-    publishedAt: '2026-10-23T12:52:00+02:00',
+    publishedAt: '2026-10-23T12:35:00+02:00',
     author: 'Redacción Mundiales',
     image: {
       url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/20150331_Mali_vs_Ghana_150.jpg/1280px-20150331_Mali_vs_Ghana_150.jpg',
@@ -253,7 +253,7 @@ La gala empieza a las 21:00 en la Península (20:00 en Canarias) y en España la
     sourceName: 'Wikipedia (Kopa Trophy)',
     sourceUrl: 'https://en.wikipedia.org/wiki/Kopa_Trophy',
     sourceLang: 'en',
-    publishedAt: '2026-10-23T12:48:00+02:00',
+    publishedAt: '2026-10-23T12:33:00+02:00',
     author: 'Redacción Mundiales',
     image: {
       url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Lamine_Yamal_Argentina_v_Spain_19_July_2026-144.jpg/1280px-Lamine_Yamal_Argentina_v_Spain_19_July_2026-144.jpg',
