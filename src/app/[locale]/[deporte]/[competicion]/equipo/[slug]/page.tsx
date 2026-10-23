@@ -16,6 +16,7 @@ import { JsonLd, pageMetadata, breadcrumbLd, localeUrl } from '@/lib/seo';
 import { clubFacts } from '@/lib/thesportsdb';
 import { fetchChannelVideos } from '@/lib/youtube';
 import { YouTubeCarousel, ChannelPlaylist } from '@/components/team/youtube-carousel';
+import { GoalTiming } from '@/components/team/goal-timing';
 import { WhereToWatch } from '@/components/portal/where-to-watch';
 
 // Regeneración periódica (ISR): rápida y estable sin pedir a las fuentes en cada visita.
@@ -173,6 +174,9 @@ export default async function EquipoPage({ params }: { params: Params }) {
           </ul>
         </section>
       )}
+
+      {/* Cuándo marca: goles por tramos de 15′ (football-charts.com) */}
+      {c.sport === 'futbol' && <GoalTiming espnLeague={c.espn?.league} teamId={ref.id} teamName={ref.name} compName={c.shortName ?? c.name} />}
 
       {/* Clasificación: el equipo con su vecino de arriba y de abajo */}
       {row && <StandingsTable comp={c} locale={L} highlight={ref.abbr} slice />}

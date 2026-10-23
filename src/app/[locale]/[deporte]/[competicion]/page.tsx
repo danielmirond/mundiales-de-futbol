@@ -17,6 +17,7 @@ import { pageMetadata } from '@/lib/seo';
 import { BoxingHub } from '@/components/portal/boxing-hub';
 import { MotoGPHub } from '@/components/portal/motogp-hub';
 import { NewsOpening } from '@/components/home/news-opening';
+import { FederacionHub } from '@/components/portal/federacion-hub';
 import { AdSlot } from '@/components/affiliate/ad-slot';
 import { WatchGuideLink } from '@/components/affiliate/watch-guide-link';
 import { NflQbRanking } from '@/components/portal/nfl-qb-ranking';
@@ -37,7 +38,7 @@ export async function generateMetadata({ params }: { params: Params }) {
   return pageMetadata({
     locale,
     path: compBase(c),
-    title: soon ? `${c.name}: calendario y resultados` : c.stats === 'motogp' ? `${c.name}: clasificación del Mundial, horarios del próximo gran premio y resultados` : c.stats === 'racing' ? `${c.name}: calendario${c.kind === 'mundial' ? ' de grandes premios' : ''}, horarios y clasificación del ${c.kind === 'mundial' ? 'mundial' : 'campeonato'}` : c.stats === 'tennis' ? `${c.name}: torneos en juego, partidos de hoy y resultados` : c.stats === 'golf' ? `${c.name}: torneo en juego, clasificación por vueltas y calendario` : c.stats === 'combat' ? `${c.name}: cartelera, resultados y próximas veladas` : c.stats === 'boxing' ? 'Boxeo: próximas veladas, horario en España y dónde ver cada combate' : c.stats && !c.espn ? `${c.name}: estadísticas avanzadas de equipos, ratings y ritmo` : `${c.name}: resultados, calendario${c.hasStandings ? ' y clasificación' : ''} en directo`,
+    title: soon ? `${c.name}: calendario y resultados` : c.stats === 'motogp' ? `${c.name}: clasificación del Mundial, horarios del próximo gran premio y resultados` : c.stats === 'racing' ? `${c.name}: calendario${c.kind === 'mundial' ? ' de grandes premios' : ''}, horarios y clasificación del ${c.kind === 'mundial' ? 'mundial' : 'campeonato'}` : c.stats === 'tennis' ? `${c.name}: torneos en juego, partidos de hoy y resultados` : c.stats === 'golf' ? `${c.name}: torneo en juego, clasificación por vueltas y calendario` : c.stats === 'combat' ? `${c.name}: cartelera, resultados y próximas veladas` : c.stats === 'federacion' ? `${c.name}: clasificación, resultados y próximos partidos de cada grupo` : c.stats === 'boxing' ? 'Boxeo: próximas veladas, horario en España y dónde ver cada combate' : c.stats && !c.espn ? `${c.name}: estadísticas avanzadas de equipos, ratings y ritmo` : `${c.name}: resultados, calendario${c.hasStandings ? ' y clasificación' : ''} en directo`,
     description: c.description,
     keywords: c.keywords,
     noIndex: soon,
@@ -70,6 +71,8 @@ export default async function CompetitionPage({ params }: { params: Params }) {
             Estamos conectando los datos en directo de <strong className="text-[var(--color-fg)]">{c.name}</strong>. Mientras tanto, puedes seguir el resto de competiciones de {s.name.toLowerCase()}.
           </div>
         </section>
+      ) : !c.espn && c.stats === 'federacion' ? (
+        <FederacionHub comp={c} />
       ) : !c.espn && c.stats === 'openacb' ? (
         <OpenAcbStats />
       ) : !c.espn && c.stats === 'racing' ? (

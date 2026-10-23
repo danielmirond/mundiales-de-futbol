@@ -31,7 +31,9 @@ export type Competition = {
   espn?: { sport: string; league: string; dateRange?: boolean };
   hasStandings: boolean;
   /** Plantilla alternativa cuando no es un partido local-visitante de ESPN: estadísticas OpenACB, tenis o motor. */
-  stats?: 'openacb' | 'tennis' | 'racing' | 'golf' | 'combat' | 'boxing' | 'motogp';
+  stats?: 'openacb' | 'tennis' | 'racing' | 'golf' | 'combat' | 'boxing' | 'motogp' | 'federacion';
+  /** Grupos de football-charts.com para la plantilla `federacion` (Primera y Segunda Federación). */
+  fc?: string[];
   /** Ruta ESPN para las plantillas `tennis` y `racing` (no entran en los tableros de partidos). */
   feed?: { sport: string; league: string };
   flag?: string;
@@ -63,6 +65,10 @@ export const COMPETITIONS: Competition[] = [
     description: 'Resultados, calendario y clasificación de LaLiga en directo, jornada a jornada.', keywords: ['laliga', 'resultados laliga', 'clasificación laliga', 'calendario laliga', 'partidos laliga hoy'] },
   { slug: 'laliga-2', name: 'LaLiga Hypermotion', shortName: 'LaLiga 2', sport: 'futbol', kind: 'liga', espn: SOCCER('esp.2'), hasStandings: true, flag: '🇪🇸',
     description: 'Resultados, calendario y clasificación de Segunda División (LaLiga Hypermotion).', keywords: ['segunda división', 'laliga hypermotion', 'clasificación segunda', 'resultados segunda división'] },
+  { slug: 'primera-federacion', name: 'Primera Federación', shortName: '1.ª Federación', sport: 'futbol', kind: 'liga', hasStandings: false, stats: 'federacion', fc: ['primera1', 'primera2'], flag: '🇪🇸',
+    description: 'Clasificación, resultados de la última jornada y próximos partidos de los dos grupos de Primera Federación (Primera RFEF).', keywords: ['primera federación', 'primera rfef', 'clasificación primera federación', 'resultados primera rfef', 'primera federación grupo 1', 'primera federación grupo 2'] },
+  { slug: 'segunda-federacion', name: 'Segunda Federación', shortName: '2.ª Federación', sport: 'futbol', kind: 'liga', hasStandings: false, stats: 'federacion', fc: ['segunda1', 'segunda2', 'segunda3', 'segunda4', 'segunda5'], flag: '🇪🇸',
+    description: 'Clasificación, resultados de la última jornada y próximos partidos de los cinco grupos de Segunda Federación (Segunda RFEF).', keywords: ['segunda federación', 'segunda rfef', 'clasificación segunda federación', 'resultados segunda rfef'] },
   { slug: 'premier-league', name: 'Premier League', sport: 'futbol', kind: 'liga', espn: SOCCER('eng.1'), hasStandings: true, flag: '🏴󠁧󠁢󠁥󠁮󠁧󠁿',
     description: 'Resultados, calendario y clasificación de la Premier League inglesa en directo.', keywords: ['premier league', 'resultados premier', 'clasificación premier league', 'partidos premier hoy'] },
   { slug: 'serie-a', name: 'Serie A', sport: 'futbol', kind: 'liga', espn: SOCCER('ita.1'), hasStandings: true, flag: '🇮🇹',
