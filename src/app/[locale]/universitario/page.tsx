@@ -3,6 +3,8 @@ import { setRequestLocale } from 'next-intl/server';
 import { COMPETITIONS, competitionPath } from '@/lib/competitions';
 import { TodayBoard } from '@/components/portal/today-board';
 import { fetchRanking, type Ranking } from '@/lib/espn-rankings';
+import { fetchToday, madridDateKey } from '@/lib/espn';
+import { ncaaRanking, ncaaScoreboard, type NcaaGame } from '@/lib/ncaa-api';
 import espanoles from '@/data/ncaa-espanoles.json';
 import { routing, type Locale } from '@/i18n/routing';
 import { JsonLd, pageMetadata, breadcrumbLd } from '@/lib/seo';
@@ -28,6 +30,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 }
 
 function RankingTable({ r, title }: { r: Ranking; title: string }) {
+  // Ranking de pretemporada: sin semana anterior, no se marcan «nuevos».
+  const hasPrev = r.rows.some((x) => x.previous > 0);
   return (
     <div className="overflow-hidden rounded-2xl border border-[var(--color-border)]">
       <div className="border-b border-[var(--color-border)] px-4 py-3">
@@ -44,12 +48,41 @@ function RankingTable({ r, title }: { r: Ranking; title: string }) {
               {x.logo ? <img src={x.logo} alt="" width={20} height={20} loading="lazy" /> : <span />}
               <span className="truncate font-semibold text-[var(--color-fg)]">{x.team}{x.firstPlace > 0 && <span className="ml-1 font-mono text-[10px] text-[var(--color-fg-subtle)]">({x.firstPlace})</span>}</span>
               <span className="font-mono text-xs text-[var(--color-fg-muted)]">{x.record}</span>
-              <span className={`text-right font-mono text-[11px] ${move > 0 ? 'text-[var(--color-win)]' : move < 0 ? 'text-[var(--color-loss)]' : 'text-[var(--color-fg-subtle)]'}`}>{!x.previous ? 'nuevo' : move > 0 ? `▲${move}` : move < 0 ? `▼${-move}` : '='}</span>
+              <span className={`text-right font-mono text-[11px] ${move > 0 ? 'text-[var(--color-win)]' : move < 0 ? 'text-[var(--color-loss)]' : 'text-[var(--color-fg-subtle)]'}`}>{!hasPrev ? '' : !x.previous ? 'nuevo' : move > 0 ? `▲${move}` : move < 0 ? `▼${-move}` : '='}</span>
             </li>
           );
         })}
       </ol>
     </div>
+  );
+}
+
+const timeFmt = new Intl.DateTimeFormat('es-ES', { timeZone: 'Europe/Madrid', hour: '2-digit', minute: '2-digit', hourCycle: 'h23' });
+
+/** Partidos de hoy desde ncaa.com cuando ESPN no da nada (sin ficha: otros ids). */
+function FallbackGames({ groups }: { groups: { label: string; games: NcaaGame[] }[] }) {
+  return (
+    <section className="mx-auto w-full max-w-[1400px] px-6 py-10 md:px-10">
+      <div className="kicker">Hoy</div>
+      <h2 className="t-h2 mt-3 text-[var(--color-fg)]">Partidos universitarios de hoy</h2>
+      <div className="mt-6 grid gap-8 lg:grid-cols-2">
+        {groups.map(({ label, games }) => (
+          <div key={label}>
+            <div className="sub-label mb-2">{label}</div>
+            <ul className="divide-y divide-[var(--color-border)] rounded-2xl border border-[var(--color-border)] text-sm">
+              {games.slice(0, 15).map((g) => (
+                <li key={g.id} className="grid grid-cols-[4.5rem_1fr_auto] items-center gap-3 px-4 py-2.5">
+                  <span className={`font-mono text-[11px] ${g.state === 'live' ? 'text-[var(--color-live-ink)]' : 'text-[var(--color-fg-muted)]'}`}>{g.state === 'pre' ? timeFmt.format(g.start) : g.state === 'live' ? `${g.period} ${g.clock}`.trim() : 'Final'}</span>
+                  <span className="truncate text-[var(--color-fg)]">{g.away} <span className="text-[var(--color-fg-subtle)]">en</span> {g.home}</span>
+                  <span className="font-display tab-num text-lg text-[var(--color-fg)]">{g.state === 'pre' ? '' : `${g.awayScore}-${g.homeScore}`}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
+      <p className="mt-3 font-mono text-[11px] text-[var(--color-fg-subtle)]">Datos de ncaa.com · hora peninsular</p>
+    </section>
   );
 }
 
@@ -82,7 +115,19 @@ export default async function UniversitarioPage({ params }: { params: Promise<{ 
   const { locale } = await params;
   setRequestLocale(locale);
   const L = locale as Locale;
-  const [football, basket] = await Promise.all([fetchRanking('football', 'college-football'), fetchRanking('basketball', 'mens-college-basketball')]);
+  // ESPN primero; si falla o viene vacío, respaldo de ncaa.com (ncaa-api.henrygd.me).
+  const [football, basket, espnToday] = await Promise.all([
+    fetchRanking('football', 'college-football').then((r) => r ?? ncaaRanking('football/fbs')),
+    fetchRanking('basketball', 'mens-college-basketball').then((r) => r ?? ncaaRanking('basketball-men/d1')),
+    fetchToday(NCAA),
+  ]);
+  const today = madridDateKey();
+  const fallbackGames: { label: string; games: NcaaGame[] }[] = espnToday.length > 0 ? [] : (await Promise.all(
+    ([['Fútbol americano', 'football/fbs'], ['Baloncesto masculino', 'basketball-men/d1'], ['Baloncesto femenino', 'basketball-women/d1']] as const).map(async ([label, sport]) => ({
+      label,
+      games: (await ncaaScoreboard(sport)).filter((g) => madridDateKey(g.start) === today),
+    })),
+  )).filter((x) => x.games.length > 0);
   const men = espanoles.basketballD1.filter((p) => p.gender === 'M');
   const women = espanoles.basketballD1.filter((p) => p.gender === 'F');
   const maxSport = espanoles.bySport[0]?.n ?? 1;
@@ -103,7 +148,11 @@ export default async function UniversitarioPage({ params }: { params: Promise<{ 
         </nav>
       </header>
 
-      <TodayBoard locale={L} competitions={NCAA} range="today" kicker="Hoy" title="Partidos universitarios de hoy" emptyText="Hoy no hay partidos universitarios en estas competiciones." limitPerGroup={12} />
+      {fallbackGames.length > 0 ? (
+        <FallbackGames groups={fallbackGames} />
+      ) : (
+        <TodayBoard locale={L} competitions={NCAA} range="today" kicker="Hoy" title="Partidos universitarios de hoy" emptyText="Hoy no hay partidos universitarios en estas competiciones." limitPerGroup={12} />
+      )}
 
       {(football || basket) && (
         <section className="mx-auto w-full max-w-[1400px] px-6 py-10 md:px-10">
