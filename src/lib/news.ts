@@ -154,6 +154,300 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'nba-resultados-2026-10-23',
+    title: "NBA: resultados de la noche del 23 de octubre",
+    summary: "Resultados de los 2 partidos de la noche en la NBA, con el más igualado y el de más puntos.",
+    body: `2 partidos en la NBA esta noche. El más igualado, 76ers 114-106 a Cavaliers. El de más puntos, 76ers ante Cavaliers (114-106).
+
+## Resultados
+
+- [76ers 114-106 Cavaliers](/baloncesto/nba/partido/401909093)
+- [Thunder 96-84 Nuggets](/baloncesto/nba/partido/401909094)
+
+Marcadores en directo, calendario y clasificación por conferencias en la [página de la NBA](/baloncesto/nba).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"NBA","sport":"baloncesto","slug":"nba"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/nba/scoreboard",
+    sourceLang: 'en',
+    publishedAt: '2026-10-23T12:01:57.669Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/76ers_WFC_2016.jpg/1920px-76ers_WFC_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Xfinity Mobile Arena, sede del 76ers - Cavaliers",
+      credit: "Peetlesnumber1 · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'cronica-ofi-crete-leverkusen-401915559',
+    title: "Leverkusen se impone a OFI Crete (2-0) con doblete de Jonas Hofmann en Europa League",
+    summary: "Jonas Hofmann marcó 2; OFI Crete remató 6 veces (2 a puerta) en el Leverkusen 2-0 OFI Crete de Europa League.",
+    body: `OFI Crete llegaba de perder 1-2 ante Rennes; Leverkusen, de ganar 4-0 a Lech Poznan. Acabó ganando Leverkusen 2-0, con doblete de Jonas Hofmann. Los goles: Jonas Hofmann (35', Leverkusen) y Jonas Hofmann (37', Leverkusen).
+
+## En cifras
+
+OFI Crete tuvo el 37 % de la posesión por el 63 % de Leverkusen; remató 6 veces (2 a puerta) frente a 33 (15) del rival. Córners: 5 por 10.
+
+## La clasificación
+
+Tras el partido, OFI Crete 26.º con 3 puntos y Leverkusen 2.º con 9 puntos en la [clasificación de Europa League](/futbol/europa-league).
+
+Ficha: 4 amarillas · 10 cambios. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/europa-league/partido/401915559).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Europa League","sport":"futbol","slug":"europa-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915559",
+    sourceLang: 'en',
+    publishedAt: '2026-10-23T12:01:57.669Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/PankritioStadium2019.jpg/1920px-PankritioStadium2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Pankritio Stadium, donde se jugó el OFI Crete - Leverkusen",
+      credit: "Ergotelis123 · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'cronica-lech-poznan-sunderland-401915546',
+    title: "Lech Poznan y Sunderland empatan 1-1; Lech Poznan sigue 32.º en Europa League",
+    summary: "Lech Poznan 1-1 Sunderland en Europa League. Lech Poznan 43 % de posesión y 16 remates; Sunderland 57 % y 25.",
+    body: `## Resumen
+
+Lech Poznan y Sunderland empataron 1-1 en Europa League.
+
+## Los goles
+
+- 2' · Tymur Tutierov (Sunderland)
+- 70' · Leo Bengtsson (Lech Poznan)
+
+## El dato
+
+Lech Poznan 43 % de posesión y 16 remates; Sunderland 57 % y 25.
+
+## Lo que viene
+
+Tras el partido, Lech Poznan 32.º con 1 puntos y Sunderland 9.º con 7 puntos en la [clasificación de Europa League](/futbol/europa-league).
+
+**Lee también:** la [ficha del partido](/futbol/europa-league/partido/401915546) con alineaciones y narración · la [clasificación de Europa League](/futbol/europa-league) · [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Europa League","sport":"futbol","slug":"europa-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915546",
+    sourceLang: 'en',
+    publishedAt: '2026-10-23T12:01:57.669Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/4/45/Lech_Poznan_fans_in_stadium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      alt: "Municipal Stadium-Poznan, donde se jugó el Lech Poznan - Sunderland",
+      credit: "Roger Goraczniak · CC BY 3.0 · Wikimedia Commons",
+      license: "CC BY 3.0",
+    },
+  },
+  {
+    slug: 'cronica-juventus-rennes-401915547',
+    title: "Juventus y Rennes firman tablas (2-2) en Europa League",
+    summary: "Zeki Çelik marcó en el Juventus 2-2 Rennes de Europa League.",
+    body: `Juventus llegaba de ganar 2-1 a Celta Vigo; Rennes, de ganar 2-1 a OFI Crete. Acabó 2-2. Los goles: Zeki Çelik (5', Juventus) y Mousa Al-Tamari (15', Rennes).
+
+## En cifras
+
+Juventus manejó el balón (54 % por 46 %) y tiró 14 veces, 4 entre los tres palos; Rennes se quedó en 16 remates (5 a puerta). Córners: 7 por 5.
+
+## La clasificación
+
+Tras el partido, Juventus 7.º con 7 puntos y Rennes 13.º con 5 puntos en la [clasificación de Europa League](/futbol/europa-league).
+
+Ficha: 2 amarillas · 8 cambios. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/europa-league/partido/401915547).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Europa League","sport":"futbol","slug":"europa-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915547",
+    sourceLang: 'en',
+    publishedAt: '2026-10-23T12:01:57.669Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Allianz_Stadium_dal_Colle_della_Maddalena.jpg/1920px-Allianz_Stadium_dal_Colle_della_Maddalena.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Allianz Stadium, donde se jugó el Juventus - Rennes",
+      credit: "Matteo Aresca 05 · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'cronica-ferencvaros-torreense-401915558',
+    title: "Ferencvaros 4 Torreense 1: 5 goles, Ferencvaros 4.º y posesión del 58 % para Ferencvaros",
+    summary: "Mariano Gómez marcó en el 58' el gol que puso por delante a Ferencvaros, que ya no soltó la ventaja: 4-1 final ante Torreense en Europa League. Claves: 5 goles, Ferencvaros 4.º y posesión del 58 % para Ferencvaros.",
+    body: `Mariano Gómez marcó en el 58' el gol que puso por delante a Ferencvaros, que ya no soltó la ventaja: 4-1 final ante Torreense en Europa League.
+
+## Bamidele Isa Yusuf decidió
+
+Los goles: Bamidele Isa Yusuf (20', Ferencvaros), Manuel Pozo (23', Torreense), Mariano Gómez (58', Ferencvaros), Mohamed Diadié (80', Ferencvaros, p.p.) y Krisztián Lisztes (89', Ferencvaros).
+
+## Los números del partido
+
+Ferencvaros tuvo el 58 % de la posesión por el 42 % de Torreense; remató 14 veces (5 a puerta) frente a 8 (4) del rival. Córners: 7 por 4.
+
+## Qué cambia en la tabla
+
+Tras el partido, Ferencvaros 4.º con 9 puntos y Torreense 28.º con 3 puntos en la [clasificación de Europa League](/futbol/europa-league).
+
+## Qué viene ahora
+
+Próximos partidos en la página de la competición. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/europa-league/partido/401915558).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Europa League","sport":"futbol","slug":"europa-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915558",
+    sourceLang: 'en',
+    publishedAt: '2026-10-23T12:01:57.669Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Groupama_Arena_Budapest_%2817267881892%29.jpg/1920px-Groupama_Arena_Budapest_%2817267881892%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Groupama Arena, donde se jugó el Ferencvaros - Torreense",
+      credit: "Marcell Katona · CC BY 2.0 · Wikimedia Commons",
+      license: "CC BY 2.0",
+    },
+  },
+  {
+    slug: 'cronica-dinamo-zagreb-nec-401915556',
+    title: "NEC se impone a Dinamo Zagreb (4-2) con doblete de Dion Drena Beljo en Europa League",
+    summary: "Dion Drena Beljo marcó 2; Dinamo Zagreb remató 16 veces (10 a puerta) en el NEC 4-2 Dinamo Zagreb de Europa League.",
+    body: `Dinamo Zagreb llegaba de ganar 1-0 a Anderlecht; NEC, de empatar 1-1 con Levski Sofia. Acabó ganando NEC 4-2, con doblete de Dion Drena Beljo. Marcaron Clement Bischoff (25', NEC), Dion Drena Beljo (33', Dinamo Zagreb), Dion Drena Beljo (37', Dinamo Zagreb), Bryan Linssen (45', NEC), Bryan Linssen (54', NEC) y Tjaronn Chery (80', NEC).
+
+## En cifras
+
+La posesión fue 59 %-41 % para Dinamo Zagreb. En remates, 16 de Dinamo Zagreb (10 a puerta) por 15 de NEC (5). Córners: 5 por 2.
+
+## La clasificación
+
+Tras el partido, Dinamo Zagreb 18.º con 4 puntos y NEC 20.º con 4 puntos en la [clasificación de Europa League](/futbol/europa-league).
+
+Ficha: 3 amarillas · 10 cambios. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/europa-league/partido/401915556).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Europa League","sport":"futbol","slug":"europa-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915556",
+    sourceLang: 'en',
+    publishedAt: '2026-10-23T12:01:57.669Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/FC_Salzburg_gegen_GNK_Dinamo_Zagreb_%28UEFA_Championsleague_2022-10-05%29_42.jpg/1920px-FC_Salzburg_gegen_GNK_Dinamo_Zagreb_%28UEFA_Championsleague_2022-10-05%29_42.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Maksimir Stadium, donde se jugó el Dinamo Zagreb - NEC",
+      credit: "Werner100359 · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'cronica-ararat-armenia-az-alkmaar-401915548',
+    title: "Ararat-Armenia 0 AZ Alkmaar 4: doblete de Weslley Patati y AZ Alkmaar 10.º",
+    summary: "Valdemar Byskov marcó en el 21' el gol que puso por delante a AZ Alkmaar, que ya no soltó la ventaja: 4-0 final ante Ararat-Armenia en Europa League. Claves: doblete de Weslley Patati, AZ Alkmaar 10.º y posesión del 39 % para Ararat-Armenia.",
+    body: `Valdemar Byskov marcó en el 21' el gol que puso por delante a AZ Alkmaar, que ya no soltó la ventaja: 4-0 final ante Ararat-Armenia en Europa League.
+
+## Weslley Patati decidió con 2 goles
+
+Marcaron Valdemar Byskov (21', AZ Alkmaar), Weslley Patati (27', AZ Alkmaar), Weslley Patati (76', AZ Alkmaar) y Mexx Meerdink (79', AZ Alkmaar).
+
+## Los números del partido
+
+La posesión fue 39 %-61 % para Ararat-Armenia. En remates, 9 de Ararat-Armenia (4 a puerta) por 17 de AZ Alkmaar (9). Córners: 5 por 6.
+
+## Qué cambia en la tabla
+
+Tras el partido, Ararat-Armenia 36.º con 0 puntos y AZ Alkmaar 10.º con 6 puntos en la [clasificación de Europa League](/futbol/europa-league).
+
+## Qué viene ahora
+
+Próximos partidos en la página de la competición. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/europa-league/partido/401915548).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Europa League","sport":"futbol","slug":"europa-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915548",
+    sourceLang: 'en',
+    publishedAt: '2026-10-23T12:01:57.669Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Vazgen_Sargsyan_Republican_Stadium_02.JPG/1920px-Vazgen_Sargsyan_Republican_Stadium_02.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Vazgen Sargsyan Republican Stadium, donde se jugó el Ararat-Armenia - AZ Alkmaar",
+      credit: "Beko · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'cronica-viktoria-plzen-levski-sofia-401915539',
+    title: "Levski Sofia gana fuera 2-1 a Viktoria Plzen y es 17.º",
+    summary: "Levski Sofia suma tres puntos ante Viktoria Plzen (2-1) en Europa League y es 17.º con 4 puntos; Viktoria Plzen se queda 33.º.",
+    body: `Levski Sofia se impuso 2-1 a Viktoria Plzen en Europa League.
+
+## Los goles
+
+Marcaron Everton Bala (44', Levski Sofia), Christophe Kabongo (62', Viktoria Plzen) y Reinaldo (65', Levski Sofia).
+
+## La tabla
+
+Tras el partido, Viktoria Plzen 33.º con 0 puntos y Levski Sofia 17.º con 4 puntos en la [clasificación de Europa League](/futbol/europa-league).
+
+## Lo que viene
+
+El calendario completo está en la página de la competición. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/europa-league/partido/401915539).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Europa League","sport":"futbol","slug":"europa-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915539",
+    sourceLang: 'en',
+    publishedAt: '2026-10-23T12:01:57.669Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Doosan_Arena02.jpg/1920px-Doosan_Arena02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Doosan Arena, donde se jugó el Viktoria Plzen - Levski Sofia",
+      credit: "Yalagch · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'cronica-hoffenheim-lyon-401915543',
+    title: "Hoffenheim 3 Lyon 0: goles de Andrej Kramaric, Adam Daghim y Adam Hlozek y Hoffenheim 23.º",
+    summary: "Andrej Kramaric marcó en el 45'+4' el gol que puso por delante a Hoffenheim, que ya no soltó la ventaja: 3-0 final ante Lyon en Europa League. Claves: goles de Andrej Kramaric, Adam Daghim y Adam Hlozek, Hoffenheim 23.º y posesión del 43 % para Hoffenheim.",
+    body: `Andrej Kramaric marcó en el 45'+4' el gol que puso por delante a Hoffenheim, que ya no soltó la ventaja: 3-0 final ante Lyon en Europa League.
+
+## Andrej Kramaric decidió
+
+En el marcador, Andrej Kramaric (45'+4', Hoffenheim), Adam Daghim (49', Hoffenheim) y Adam Hlozek (83', Hoffenheim).
+
+## Lyon tuvo el balón, no el gol
+
+La posesión fue 43 %-57 % para Hoffenheim. En remates, 21 de Hoffenheim (8 a puerta) por 8 de Lyon (2). Córners: 11 por 9.
+
+## Qué cambia en la tabla
+
+Tras el partido, Hoffenheim 23.º con 3 puntos y Lyon 12.º con 6 puntos en la [clasificación de Europa League](/futbol/europa-league).
+
+## Qué viene ahora
+
+Próximos partidos en la página de la competición. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/europa-league/partido/401915543).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Europa League","sport":"futbol","slug":"europa-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915543",
+    sourceLang: 'en',
+    publishedAt: '2026-10-23T12:01:57.669Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/PreZero_Arena_wiki.jpg/1920px-PreZero_Arena_wiki.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "PreZero Arena, donde se jugó el Hoffenheim - Lyon",
+      credit: "PreZero · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
     slug: 'ander-herrera-carta-manchester-united-renovacion-woodward-zaragoza-gratis',
     title: 'Ander Herrera, 37 años, sobre su adiós al Manchester United: «Me mandaron una carta»',
     summary: 'Ander Herrera esperaba una llamada del United tras ser su mejor jugador. Le llegó una carta que activaba el año opcional de su contrato. Ahí, ha contado ahora, decidió irse.',
@@ -706,7 +1000,7 @@ Hora peninsular en todos los casos. Si un canal cambia a última hora, la ficha 
     sourceUrl: "https://www.espn.com/nba/game/_/gameId/401909848",
     sourceLang: 'en',
     publishedAt: '2026-10-23T00:08:25.588Z',
-    modifiedAt: '2026-10-23T00:08:25.588Z',
+    modifiedAt: '2026-10-23T12:01:57.669Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Milwaukee_July_2022_022_%28Fiserv_Forum%29.jpg/1920px-Milwaukee_July_2022_022_%28Fiserv_Forum%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -741,37 +1035,37 @@ Calendario y clasificación en la [página de Eredivisie](/futbol/eredivisie).
 
 ## 🇪🇸 LaLiga Hypermotion
 
-- **[Granada - Valladolid](/futbol/laliga-2/partido/401883152)** — 20:30 h
+- **[Granada - Valladolid](/futbol/laliga-2/partido/401883152)** — 20:30 h · 📺 LALIGA TV Hypermotion / DAZN
 
 Calendario y clasificación en la [página de LaLiga 2](/futbol/laliga-2).
 
 ## 🇩🇪 Bundesliga
 
-- **[Stuttgart - Gladbach](/futbol/bundesliga/partido/401884761)** — 20:30 h
+- **[Stuttgart - Gladbach](/futbol/bundesliga/partido/401884761)** — 20:30 h · 📺 DAZN
 
 Calendario y clasificación en la [página de Bundesliga](/futbol/bundesliga).
 
 ## 🇮🇹 Serie A
 
-- **[Torino - Monza](/futbol/serie-a/partido/401874957)** — 20:45 h
+- **[Torino - Monza](/futbol/serie-a/partido/401874957)** — 20:45 h · 📺 DAZN
 
 Calendario y clasificación en la [página de Serie A](/futbol/serie-a).
 
 ## 🇫🇷 Ligue 1
 
-- **[Brest - Nice](/futbol/ligue-1/partido/401876428)** — 20:45 h
+- **[Brest - Nice](/futbol/ligue-1/partido/401876428)** — 20:45 h · 📺 DAZN
 
 Calendario y clasificación en la [página de Ligue 1](/futbol/ligue-1).
 
 ## 🇪🇸 LaLiga
 
-- **[Alavés - Málaga](/futbol/laliga/partido/401882836)** — 21:00 h
+- **[Alavés - Málaga](/futbol/laliga/partido/401882836)** — 21:00 h · 📺 DAZN LaLiga / DAZN
 
 Calendario y clasificación en la [página de LaLiga](/futbol/laliga).
 
 ## 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Premier League
 
-- **[Ipswich - Nottm Forest](/futbol/premier-league/partido/401879253)** — 21:00 h
+- **[Ipswich - Nottm Forest](/futbol/premier-league/partido/401879253)** — 21:00 h · 📺 DAZN / DAZN 1
 
 Calendario y clasificación en la [página de Premier League](/futbol/premier-league).
 
@@ -802,7 +1096,7 @@ Hora peninsular en todos los casos. Si un canal cambia a última hora, la ficha 
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882836",
     sourceLang: 'en',
     publishedAt: '2026-10-23T00:08:25.588Z',
-    modifiedAt: '2026-10-23T00:08:25.588Z',
+    modifiedAt: '2026-10-23T12:01:57.669Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Alav%C3%A9s2-2Lega2018.jpg/1280px-Alav%C3%A9s2-2Lega2018.jpg",
@@ -879,7 +1173,7 @@ Horarios, resultados de cada sesión y clasificación completa del Mundial en la
     sourceUrl: "https://www.espn.com/f1/schedule",
     sourceLang: 'en',
     publishedAt: '2026-10-22T12:20:10.049Z',
-    modifiedAt: '2026-10-23T00:08:25.588Z',
+    modifiedAt: '2026-10-23T12:01:57.669Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/2018_US_Grand_Prix_at_the_Circuit_of_the_Americas.jpg/1920px-2018_US_Grand_Prix_at_the_Circuit_of_the_Americas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
