@@ -154,6 +154,120 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'andre-ayew-mano-luis-suarez-mundial-2010-grada-sancionado-ghana-uruguay',
+    title: 'André Ayew vio desde la grada la mano de Luis Suárez que dejó a Ghana sin semifinal',
+    summary: 'André Ayew estaba sancionado el día que Luis Suárez paró con la mano el gol de Ghana en el Mundial 2010. Dieciséis años después ha contado en un pódcast cómo lo vivió desde la grada.',
+    body: `André Ayew no jugó el partido que más le pesa de su carrera. El 2 de julio de 2010, en los cuartos de final del Mundial de Sudáfrica, estaba en la grada del Soccer City de Johannesburgo. Desde allí vio a Luis Suárez sacar con la mano, sobre la línea, el cabezazo que metía a Ghana en semifinales.
+
+Lo ha contado ahora en [The Obi One Podcast](https://www.youtube.com/watch?v=PS84s34plss&t=3454s), en un episodio publicado el 19 de octubre. Ayew tiene hoy 36 años. Aquella noche tenía 20 y no podía jugar: la acumulación de tarjetas amarillas le dejó fuera de los cuartos, justo después de su mejor partido en el torneo.
+
+## Del mejor del partido a la grada
+
+En octavos, ante Estados Unidos, Ayew dio el pase del gol de Asamoah Gyan en la prórroga y la FIFA lo eligió mejor jugador del partido. Seis días después le tocaba mirar.
+
+En el pódcast explica que llegó al Mundial casi sin creérselo. Venía de pasar alrededor de un año sin ser convocado con la absoluta, de ganar como capitán la Copa África y el Mundial sub-20 en 2009 y de perder la final de la Copa África de 2010 ante Egipto. Pensaba que no iba a jugar en Sudáfrica. En el primer partido vio su nombre en la alineación.
+
+## La noche del Soccer City
+
+| Momento | Qué pasó |
+| --- | --- |
+| Antes del descanso | Sulley Muntari adelanta a Ghana con un disparo desde unos 40 metros |
+| Segunda parte | Diego Forlán empata de falta |
+| Final de la prórroga | Suárez despeja con la mano el cabezazo de Dominic Adiyiah y ve la roja |
+| Penalti | Gyan lo estrella en el larguero |
+| Tanda | Uruguay gana 4-2 y pasa a semifinales |
+
+Los datos están en el [resumen de la eliminatoria](https://en.wikipedia.org/wiki/2010_FIFA_World_Cup_knockout_stage#Uruguay_vs_Ghana), que cita el acta de la FIFA. Al día siguiente, Suárez presumió de que la verdadera mano de Dios ya era la suya, [según recogió la BBC](http://news.bbc.co.uk/sport2/hi/football/world_cup_2010/8785140.stm).
+
+Ayew recuerda que en la grada, con 20 años, todo le saltó por los aires y que lo primero que le salió fue insultar a Suárez. Ghana habría sido la primera selección africana en unas semifinales del Mundial. Lo consiguió Marruecos doce años después, en [Qatar 2022](/ediciones/2022-qatar).
+
+## Lo que le dijeron a Gyan
+
+Lo que más le sorprendió fue el vestuario. Nadie culpó a Gyan, el lanzador del equipo y uno de los mejores del torneo. El mensaje que le dieron, según Ayew, fue este: «Si no hubieras estado ahí, no habríamos llegado hasta aquí». La frase la dice en inglés, [en el minuto 63 del episodio](https://www.youtube.com/watch?v=PS84s34plss&t=3815s).
+
+Añade que aquella mano no solo hundió a Ghana, sino las esperanzas de todo un continente.
+
+## Los penaltis que no mira
+
+Ayew confiesa que todavía hoy, cuando un partido llega a los penaltis, a veces deja de mirar. Dice que no recuerda la última tanda que ganaron. La herida tiene más capítulos: en la final de la Copa África de 2015, en Bata (Guinea Ecuatorial), Ghana perdió 9-8 en los penaltis ante Costa de Marfil.
+
+En el mismo programa se habló de su posible candidatura a presidir la federación de Ghana. El historial de los dos países está en las fichas de [Ghana](/selecciones/GHA) y [Uruguay](/selecciones/URU), y aquel torneo, en la página del [Mundial de Sudáfrica 2010](/ediciones/2010-sudafrica).`,
+    category: 'historica',
+    kind: 'noticia',
+    sourceName: 'The Obi One Podcast (vídeo)',
+    sourceUrl: 'https://www.youtube.com/watch?v=PS84s34plss',
+    sourceLang: 'en',
+    publishedAt: '2026-10-23T12:52:00+02:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/20150331_Mali_vs_Ghana_150.jpg/1280px-20150331_Mali_vs_Ghana_150.jpg',
+      alt: 'André Ayew, con la camiseta roja de Ghana, el dorsal 10 y el brazalete de capitán, camina por el césped con la grada vacía detrás',
+      credit: 'Pierre-Yves Beaudouin · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+    sourcesSecondary: [
+      { name: 'Wikipedia: eliminatorias del Mundial 2010', url: 'https://en.wikipedia.org/wiki/2010_FIFA_World_Cup_knockout_stage' },
+      { name: 'BBC Sport (3 de julio de 2010)', url: 'http://news.bbc.co.uk/sport2/hi/football/world_cup_2010/8785140.stm' },
+      { name: 'Wikipedia: André Ayew', url: 'https://en.wikipedia.org/wiki/Andr%C3%A9_Ayew' },
+      { name: 'Wikipedia: final de la Copa África 2015', url: 'https://en.wikipedia.org/wiki/2015_Africa_Cup_of_Nations_final' },
+    ],
+  },
+  {
+    slug: 'lamine-yamal-tercer-trofeo-kopa-cubarsi-rival-vicky-lopez-serrajordi-londres',
+    title: 'Lamine Yamal busca en Londres su tercer Kopa y su rival más serio es un compañero del Barça',
+    summary: 'Lamine Yamal es el único futbolista con dos Trofeos Kopa y vuelve a estar nominado. Entre los diez candidatos está Pau Cubarsí, también en la lista del Balón de Oro. Se decide el lunes.',
+    body: `Nadie ha ganado tres veces el Trofeo Kopa, el premio de France Football al mejor futbolista menor de 21 años. Lamine Yamal puede ser el primero el lunes 26 de octubre en el London Palladium. Ya es el único con dos, los de 2024 y 2025, [según el palmarés del trofeo](https://en.wikipedia.org/wiki/Kopa_Trophy).
+
+El problema lo tiene en casa. Entre los diez nominados de este año, [anunciados el 8 de septiembre](https://www.marca.com/futbol/balon-oro/2026/09/08/lamine-cubarsi-nominados-mejor-talento-joven-balon-oro.html), está Pau Cubarsí, su compañero en el Barça y en la selección.
+
+## Dos del Barça en las dos listas
+
+Lamine y Cubarsí tienen 19 años y los dos aparecen también entre los 30 candidatos al Balón de Oro, [con otros cuatro españoles](/noticias/gala-balon-de-oro-2026-londres-horario-espana-donde-ver-espanoles-nominados). Lamine fue segundo en el Balón de Oro de 2025.
+
+El periodo que se juzga va del 3 de agosto de 2025 al 19 de julio de 2026, el día de la final del Mundial que ganó España. El Kopa no lo vota el jurado de periodistas del Balón de Oro, sino los antiguos ganadores del Balón de Oro.
+
+Los otros ocho candidatos son Kerim Alajbegović (Bosnia), Ayyoub Bouaddi (Marruecos), Yan Diomande (Costa de Marfil), Lennart Karl (Alemania), Éli Junior Kroupi (Francia), Johan Manzambi (Suiza), Ibrahim Maza (Argelia) y Warren Zaïre-Emery (Francia).
+
+## Un premio que casi siempre habla español
+
+| Año | Ganador | Club |
+| --- | --- | --- |
+| 2018 | Kylian Mbappé | PSG |
+| 2019 | Matthijs de Ligt | Juventus |
+| 2020 | No se entregó (pandemia) | — |
+| 2021 | Pedri | Barcelona |
+| 2022 | Gavi | Barcelona |
+| 2023 | Jude Bellingham | Borussia Dortmund |
+| 2024 | Lamine Yamal | Barcelona |
+| 2025 | Lamine Yamal | Barcelona |
+
+España ha ganado cuatro de las siete ediciones, y las cuatro con jugadores del Barça. Si el lunes gana Lamine o Cubarsí, serán cinco de ocho y el club encadenará tres Kopa seguidos. Pedri, además, fue tercero en 2023.
+
+## La versión femenina, también con dos azulgranas
+
+El Kopa femenino nació en 2025 y lo estrenó Vicky López. Este año [repite nominación junto a Clara Serrajordi](https://www.mundodeportivo.com/futbol/femenino/20260908/1004224769/vicky-lopez-clara-serrajordi-nominadas-mejor-joven-2026.html), también del Barça. Las otras tres candidatas son Veerle Buurman (Países Bajos), Felicia Schröder (Suecia) y Lily Yohannes (Estados Unidos). Vicky López cumplió 20 años el 26 de julio, una semana después de cerrarse el periodo de votación.
+
+La gala empieza a las 21:00 en la Península (20:00 en Canarias) y en España la emite en exclusiva Movistar Plus+. La temporada de los dos aspirantes se sigue en [LaLiga](/futbol/laliga) y la de las dos azulgranas, en la [Liga F](/futbol/liga-f).`,
+    category: 'jugadores',
+    kind: 'noticia',
+    sourceName: 'Wikipedia (Kopa Trophy)',
+    sourceUrl: 'https://en.wikipedia.org/wiki/Kopa_Trophy',
+    sourceLang: 'en',
+    publishedAt: '2026-10-23T12:48:00+02:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Lamine_Yamal_Argentina_v_Spain_19_July_2026-144.jpg/1280px-Lamine_Yamal_Argentina_v_Spain_19_July_2026-144.jpg',
+      alt: 'Lamine Yamal, con la camiseta roja de España y el dorsal 19, camina serio por el césped con la grada llena desenfocada detrás',
+      credit: 'Bryan Berlin · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+    sourcesSecondary: [
+      { name: 'Marca: Lamine y Cubarsí, nominados al Kopa', url: 'https://www.marca.com/futbol/balon-oro/2026/09/08/lamine-cubarsi-nominados-mejor-talento-joven-balon-oro.html' },
+      { name: 'Mundo Deportivo: Vicky López y Clara Serrajordi, nominadas', url: 'https://www.mundodeportivo.com/futbol/femenino/20260908/1004224769/vicky-lopez-clara-serrajordi-nominadas-mejor-joven-2026.html' },
+      { name: 'Wikipedia: 2026 Ballon d\'Or', url: 'https://en.wikipedia.org/wiki/2026_Ballon_d%27Or' },
+    ],
+  },
+  {
     slug: 'previa-atletico-deportivo-401882834',
     title: "Atlético - Deportivo: horario, dónde ver y cómo llegan al partido de LaLiga",
     summary: "Atlético recibe a Deportivo este sábado 24 de octubre (21:00 h, Riyadh Air Metropolitano) en LaLiga. Atlético es 2.º y Deportivo, 9.º.",
