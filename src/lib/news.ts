@@ -2953,6 +2953,130 @@ Todos los horarios están en hora peninsular. Los marcadores se actualizan en di
     },
   },
   {
+    slug: 'clasico-barcelona-real-madrid-dazn-programa-narradores-camp-nou',
+    title: 'El Clásico en DAZN: el programa del domingo, quién narra y quién está en el Camp Nou',
+    summary: 'DAZN emite el Barcelona - Real Madrid del domingo 25 (21:00) con tres horas de previa desde las 18:00 y El Post desde el estadio. Miguel Ángel Román narra; Guti y Rakitić comentan.',
+    body: `El **Barcelona - Real Madrid** se juega este domingo 25 de octubre a las 21:00 en el Spotify Camp Nou y lo emite DAZN, que [ha contado su cobertura](https://www.dazn.com/es-ES/news/f%C3%BAtbol/dazn-cobertura-especial-clasico-tres-horas-previa-amplio-equipo-protagonistas-real-madrid-fc-barcelona/ytz7gbo3bqag1dwodskyc6q5n): tres horas de previa y un equipo desplazado al estadio.
+
+*Esta pieza incluye enlaces de afiliado. Si contratas desde ellos, Mundiales recibe una comisión sin coste extra para ti. No cambia lo que contamos.*
+
+## El programa
+
+| Hora | Qué hay |
+| --- | --- |
+| 18:00 - 21:00 | Previa desde el Camp Nou |
+| 21:00 | El Clásico en directo |
+| Al acabar | Edición especial de El Post desde el estadio |
+
+## Quién lo cuenta
+
+**Miguel Ángel Román** narra, con Guti e Ivan Rakitić a los comentarios junto a Sandra Díaz. En un segundo set, Pablo Pinto, Alberto Edjogo y Eneko Fernández de Garayalde. En la previa analizan Michael Ballack y Samuel Umtiti, y hay entrevistas a Jordi Alba y Marcelo. A pie de campo, Sergio Quirante y Javi Valle; Andrea Itzel cuenta el ambiente desde otros puntos del estadio.
+
+## Cómo verlo
+
+Hace falta el Plan Fútbol de DAZN. Hasta el domingo, [DAZN lo ofrece a 9,99 €/mes durante 12 meses o 109,99 € en un solo pago](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome), con permanencia de un año; el precio normal es 19,99 €/mes o 219,99 € al año, según [Xataka](https://www.xataka.com/seleccion/dazn-tira-precio-su-plan-futbol-tiempo-limitado-para-ver-clasico-partidos-esta-temporada-solo-9-99-euros-al-mes). Las condiciones exactas aparecen al darse de alta.
+
+Alineaciones, marcador en directo y narración, en la [ficha del Barcelona - Real Madrid](/futbol/laliga/partido/401882832). Todos los planes y precios, en [dónde ver LaLiga 2026-27](/noticias/donde-ver-laliga-2026-27-movistar-dazn-precios-jornadas-exclusivas-clasico).`,
+    category: 'tv',
+    competition: { name: 'LaLiga', sport: 'futbol', slug: 'laliga' },
+    sourceName: 'DAZN',
+    sourceUrl: 'https://www.dazn.com/es-ES/news/f%C3%BAtbol/dazn-cobertura-especial-clasico-tres-horas-previa-amplio-equipo-protagonistas-real-madrid-fc-barcelona/ytz7gbo3bqag1dwodskyc6q5n',
+    sourceLang: 'es',
+    sourcesSecondary: [
+      { name: 'ESPN', url: 'https://www.espn.com/soccer/match/_/gameId/401882832' },
+      { name: 'Xataka', url: 'https://www.xataka.com/seleccion/dazn-tira-precio-su-plan-futbol-tiempo-limitado-para-ver-clasico-partidos-esta-temporada-solo-9-99-euros-al-mes' },
+    ],
+    publishedAt: '2026-10-23T18:55:00+02:00',
+    author: 'Redacción Mundiales de Fútbol',
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/2014._Camp_Nou._M%C3%A9s_que_un_club._Barcelona_B40.jpg/1280px-2014._Camp_Nou._M%C3%A9s_que_un_club._Barcelona_B40.jpg',
+      alt: 'Interior del Camp Nou, con las gradas azulgranas y el lema «Més que un club» en la tribuna',
+      credit: 'Luis Miguel Bugallo Sánchez (Lmbuga) · CC BY-SA 3.0 · Wikimedia Commons',
+      license: 'CC BY-SA 3.0',
+    },
+  },
+  {
+    slug: 'steelers-saints-paris-horario-espana-donde-ver-nfl-francia',
+    title: 'Steelers - Saints en París: horario y dónde ver en España el estreno de la NFL en Francia',
+    summary: 'Steelers y Saints juegan el domingo 25 a las 14:30, hora peninsular, en el Stade de France: el primer partido de la NFL en París. En España, la NFL se ve en DAZN.',
+    body: `La NFL juega por primera vez en París. **Pittsburgh Steelers y New Orleans Saints** se enfrentan este domingo 25 de octubre a las **14:30, hora peninsular**, en el Stade de France de Saint-Denis, según el [calendario de ESPN](https://www.espn.com/nfl/game/_/gameId/401873011). Los Saints figuran como equipo local.
+
+*Esta pieza incluye enlaces de afiliado. Si contratas desde ellos, Mundiales recibe una comisión sin coste extra para ti. No cambia lo que contamos.*
+
+## Por qué a esta hora
+
+Es la franja de las 9:30 de la mañana en la costa este de EE. UU., la de los partidos internacionales. Y este domingo España pasa al horario de invierno, mientras que EE. UU. no cambia hasta el 1 de noviembre: la diferencia queda en cinco horas, no en seis.
+
+## Dónde verlo
+
+La NFL se ve en España en DAZN, con [NFL Game Pass](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fl%2Fnfl-game-pass). Planes y precios, en [dónde ver la NFL en España](/noticias/donde-ver-nfl-espana-2026-dazn-game-pass-precios-horarios-bernabeu).
+
+## El resto del domingo
+
+Después de París, siete partidos a las 18:00 y tres más entre las 21:05 y las 21:25. Todos los horarios, en la [agenda de la semana 7](/noticias/nfl-semana-7-horarios-espana-cambio-hora-donde-ver) y en la [sección de la NFL](/futbol-americano/nfl).`,
+    category: 'tv',
+    competition: { name: 'NFL', sport: 'futbol-americano', slug: 'nfl' },
+    sourceName: 'ESPN',
+    sourceUrl: 'https://www.espn.com/nfl/game/_/gameId/401873011',
+    sourceLang: 'en',
+    sourcesSecondary: [{ name: 'NFL.com', url: 'https://www.nfl.com/schedules/2026/by-week/week-7' }],
+    publishedAt: '2026-10-23T18:56:00+02:00',
+    author: 'Redacción Mundiales de Fútbol',
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/StadeFranceNationsLeague2018.jpg/1280px-StadeFranceNationsLeague2018.jpg',
+      alt: 'El Stade de France lleno e iluminado de noche, con la grada alrededor del césped',
+      credit: 'Darthvadrouw · CC BY-SA 4.0 · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'nfl-semana-7-horarios-espana-cambio-hora-donde-ver',
+    title: 'NFL semana 7: horarios en España con el cambio de hora y dónde ver Packers - Lions',
+    summary: 'La semana 7 de la NFL empieza el domingo a las 14:30 en París y acaba el martes a la 01:15. Con el cambio de hora, los partidos de la tarde pasan a las 18:00, una hora antes.',
+    body: `La semana 7 de la NFL llega con el cambio de hora: España pasa al horario de invierno este domingo y EE. UU. no lo hace hasta el 1 de noviembre, así que los partidos de la tarde empiezan a las **18:00**, una hora antes de lo habitual. Descansan Bills, Jaguars, Chargers y Commanders.
+
+*Esta pieza incluye enlaces de afiliado. Si contratas desde ellos, Mundiales recibe una comisión sin coste extra para ti. No cambia lo que contamos.*
+
+## Horarios (hora peninsular)
+
+| Día | Hora | Partido |
+| --- | --- | --- |
+| Dom. 25 | 14:30 | Steelers - Saints (Stade de France, París) |
+| Dom. 25 | 18:00 | 49ers @ Falcons |
+| Dom. 25 | 18:00 | Bengals @ Ravens |
+| Dom. 25 | 18:00 | Colts @ Vikings |
+| Dom. 25 | 18:00 | Buccaneers @ Panthers |
+| Dom. 25 | 18:00 | Giants @ Texans |
+| Dom. 25 | 18:00 | Dolphins @ Jets |
+| Dom. 25 | 18:00 | Browns @ Titans |
+| Dom. 25 | 21:05 | Broncos @ Cardinals |
+| Dom. 25 | 21:25 | Packers @ Lions |
+| Dom. 25 | 21:25 | Rams @ Raiders |
+| Lun. 26 | 01:20 | Chiefs @ Seahawks |
+| Mar. 27 | 01:15 | Cowboys @ Eagles |
+
+Horarios del [calendario de ESPN](https://www.espn.com/nfl/schedule/_/week/7/year/2026/seasontype/2), contrastados con el de [NFL.com](https://www.nfl.com/schedules/2026/by-week/week-7). El jueves abrió la semana con victoria de los Bears ante los Patriots (30-24).
+
+## Dónde verlo
+
+Todo en DAZN. Con [NFL Game Pass](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fl%2Fnfl-game-pass) están los partidos de la semana en directo y las repeticiones. Qué plan conviene y cuánto cuesta, en [dónde ver la NFL en España](/noticias/donde-ver-nfl-espana-2026-dazn-game-pass-precios-horarios-bernabeu); el partido de París, en [la previa del Steelers - Saints](/noticias/steelers-saints-paris-horario-espana-donde-ver-nfl-francia).`,
+    category: 'tv',
+    kind: 'agenda',
+    competition: { name: 'NFL', sport: 'futbol-americano', slug: 'nfl' },
+    sourceName: 'ESPN',
+    sourceUrl: 'https://www.espn.com/nfl/schedule/_/week/7/year/2026/seasontype/2',
+    sourceLang: 'en',
+    sourcesSecondary: [{ name: 'NFL.com', url: 'https://www.nfl.com/schedules/2026/by-week/week-7' }],
+    publishedAt: '2026-10-23T18:57:00+02:00',
+    author: 'Redacción Mundiales de Fútbol',
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Aerial_View_of_Downtown_Detroit_-_Ford_Field_and_Comerica_Park.jpg/1280px-Aerial_View_of_Downtown_Detroit_-_Ford_Field_and_Comerica_Park.jpg',
+      alt: 'Vista aérea del centro de Detroit con el Ford Field, de cubierta blanca, junto al estadio de béisbol Comerica Park',
+      credit: 'Barbara Eckstein · CC BY 2.0 · Wikimedia Commons',
+      license: 'CC BY 2.0',
+    },
+  },
+  {
     slug: 'donde-ver-laliga-2026-27-movistar-dazn-precios-jornadas-exclusivas-clasico',
     title: 'Dónde ver LaLiga 2026-27: planes, precios, el Clásico y las jornadas que solo da Movistar',
     summary: 'Cómo ver LaLiga EA Sports 2026-27 en España: el reparto entre Movistar Plus+ y DAZN, qué plan hace falta para no perderse nada, cuánto cuesta y dónde va el Clásico del 25 de octubre.',
@@ -2974,7 +3098,7 @@ Los paquetes de Movistar incluyen los canales de DAZN, por eso con ellos se ven 
 
 ## El Clásico y las tres jornadas de Movistar
 
-El **Barcelona - Real Madrid del domingo 25 de octubre**, a las 21:00 en el Spotify Camp Nou, va en DAZN LaLiga, según la [ficha del partido](/futbol/laliga/partido/401882832). Esta semana [DAZN Fútbol está a 9,99 €/mes durante 12 meses](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) hasta ese mismo domingo; las condiciones aparecen al darse de alta. La vuelta se juega en el Bernabéu el fin de semana del 8 y 9 de mayo de 2027.
+El **Barcelona - Real Madrid del domingo 25 de octubre**, a las 21:00 en el Spotify Camp Nou, va en DAZN LaLiga, según la [ficha del partido](/futbol/laliga/partido/401882832). Hasta ese domingo, [DAZN Fútbol está a 9,99 €/mes durante 12 meses o 109,99 € en un solo pago](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) (antes 19,99 €/mes o 219,99 € al año), con permanencia de un año; las condiciones aparecen al darse de alta. La vuelta se juega en el Bernabéu el fin de semana del 8 y 9 de mayo de 2027.
 
 Tres jornadas son enteras de Movistar, y en ellas no se ve a ningún equipo con DAZN, salvo el partido gratis:
 
@@ -3004,6 +3128,7 @@ Horarios y canal de cada partido, en el [calendario de LaLiga](/futbol/laliga/ca
     sourceUrl: 'https://roams.es/actualidad/telefonia/movistar-plus-laliga-exclusiva-fechas-exactas/',
     sourceLang: 'es',
     publishedAt: '2026-10-19T19:51:00+02:00',
+    modifiedAt: '2026-10-23T18:58:00+02:00',
     author: 'Redacción Mundiales',
     image: {
       url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/LFP_-_Barcelona_vs_Mallorca_pre-match_-_Oct_3rd_2010.jpg/1280px-LFP_-_Barcelona_vs_Mallorca_pre-match_-_Oct_3rd_2010.jpg',
