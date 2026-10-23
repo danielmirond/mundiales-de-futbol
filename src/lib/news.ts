@@ -154,6 +154,441 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'previa-atletico-deportivo-401882834',
+    title: "Atlético - Deportivo: horario, dónde ver y cómo llegan al partido de LaLiga",
+    summary: "Atlético recibe a Deportivo este sábado 24 de octubre (21:00 h, Riyadh Air Metropolitano) en LaLiga. Atlético es 2.º y Deportivo, 9.º.",
+    body: `Atlético recibe a Deportivo este sábado 24 de octubre (21:00 h, Riyadh Air Metropolitano) en LaLiga.
+
+## Cómo llegan
+
+Atlético llega de ganar 1-0 a Espanyol y ocupa la 2.º plaza con 22 puntos (7G-1E-1P). Deportivo llega de empatar 1-1 con Levante y ocupa la 9.º plaza con 11 puntos (2G-5E-2P). La [clasificación de LaLiga](/futbol/laliga), al día.
+
+## Dónde ver el partido
+
+Canal por confirmar; se actualiza en la ficha del partido. Alineaciones en cuanto se confirmen, marcador en directo y narración en la [ficha del Atlético - Deportivo](/futbol/laliga/partido/401882834). El resto de la jornada, en [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    kind: 'previa',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882834",
+    sourceLang: 'en',
+    publishedAt: '2026-10-23T00:08:25.588Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Madrid_-_Estadio_Wanda_Metropolitano_07.jpg/1280px-Madrid_-_Estadio_Wanda_Metropolitano_07.jpg",
+      alt: "Exterior del estadio Metropolitano de Madrid, con la cubierta roja sobre la fachada",
+      credit: "Zarateman · Wikimedia Commons",
+      license: "CC0",
+    },
+  },
+  {
+    slug: 'cronica-omonia-benfica-401915544',
+    title: "Benfica gana fuera 4-1 a Omonia y sigue líder",
+    summary: "Benfica suma tres puntos ante Omonia (4-1) en Europa League y es 1.º con 9 puntos; Omonia se queda 11.º.",
+    body: `Benfica se impuso 4-1 a Omonia en Europa League.
+
+## Los goles
+
+Marcaron Loïc Négo (14', Benfica, p.p.), Andronikos Kakoulis (42', Omonia), Vangelis Pavlidis (49', Benfica), Fredrik Aursnes (76', Benfica) y Gianluca Prestianni (85', Benfica).
+
+## La tabla
+
+Tras el partido, Omonia 11.º con 6 puntos y Benfica 1.º con 9 puntos en la [clasificación de Europa League](/futbol/europa-league).
+
+## Lo que viene
+
+El calendario completo está en la página de la competición. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/europa-league/partido/401915544).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Europa League","sport":"futbol","slug":"europa-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915544",
+    sourceLang: 'en',
+    publishedAt: '2026-10-23T00:08:25.588Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/GSP_Stadium_in_Nicosia_%28Omonoia_-_Manchester_City%29.jpg/1920px-GSP_Stadium_in_Nicosia_%28Omonoia_-_Manchester_City%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "GSP Stadium, donde se jugó el Omonia - Benfica",
+      credit: "George Groutas · CC BY 2.0 · Wikimedia Commons",
+      license: "CC BY 2.0",
+    },
+  },
+  {
+    slug: 'cronica-olympiacos-sparta-401915554',
+    title: "Olympiacos se impone a Sparta (1-0) con gol de Armando González en Europa League",
+    summary: "Armando González marcó; Sparta remató 15 veces (1 a puerta) en el Olympiacos 1-0 Sparta de Europa League.",
+    body: `Olympiacos llegaba de ganar 1-0 a Marseille; Sparta, de empatar 1-1 con Lillestrom. Acabó ganando Olympiacos 1-0, con gol de Armando González. En el marcador, Armando González (78', Olympiacos).
+
+## En cifras
+
+La posesión fue 60 %-40 % para Olympiacos. En remates, 23 de Olympiacos (3 a puerta) por 15 de Sparta (1). Córners: 14 por 3.
+
+## La clasificación
+
+Tras el partido, Olympiacos 5.º con 9 puntos y Sparta 16.º con 4 puntos en la [clasificación de Europa League](/futbol/europa-league).
+
+Ficha: 6 amarillas · 10 cambios. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/europa-league/partido/401915554).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Europa League","sport":"futbol","slug":"europa-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915554",
+    sourceLang: 'en',
+    publishedAt: '2026-10-23T00:08:25.588Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/6/63/Karaiskakis_Stadium_Piraeus_Olympiacos-Arsenal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      alt: "Georgios Karaiskakis Stadium, donde se jugó el Olympiacos - Sparta",
+      credit: "TodorBozhinov · CC BY-SA 3.0 · Wikimedia Commons",
+      license: "CC BY-SA 3.0",
+    },
+  },
+  {
+    slug: 'cronica-nk-celje-rb-salzburg-401915541',
+    title: "NK Celje 2 RB Salzburg 2: 4 goles, NK Celje 29.º y posesión del 50 % para NK Celje",
+    summary: "NK Celje y RB Salzburg empataron 2-2 en Europa League; el último gol fue de Armandas Kucys en el 90'. Claves: 4 goles, NK Celje 29.º y posesión del 50 % para NK Celje.",
+    body: `NK Celje y RB Salzburg empataron 2-2 en Europa League; el último gol fue de Armandas Kucys en el 90'.
+
+## Sota Kitano decidió
+
+Marcaron Sota Kitano (9', RB Salzburg), Jesper Lindstrom (46', RB Salzburg), Blaz Kramer (50', NK Celje) y Armandas Kucys (90', NK Celje).
+
+## Los números del partido
+
+NK Celje tuvo el 50 % de la posesión por el 50 % de RB Salzburg; remató 9 veces (3 a puerta) frente a 15 (4) del rival. Córners: 2 por 3.
+
+## Qué cambia en la tabla
+
+Tras el partido, NK Celje 29.º con 1 puntos y RB Salzburg 21.º con 4 puntos en la [clasificación de Europa League](/futbol/europa-league).
+
+## Qué viene ahora
+
+Próximos partidos en la página de la competición. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/europa-league/partido/401915541).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Europa League","sport":"futbol","slug":"europa-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915541",
+    sourceLang: 'en',
+    publishedAt: '2026-10-23T00:08:25.588Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Stadion_Z%27de%C5%BEele_aerial_2026.jpg/1920px-Stadion_Z%27de%C5%BEele_aerial_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Stadion Z'dezele, donde se jugó el NK Celje - RB Salzburg",
+      credit: "Gregor Koprivc · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'cronica-lillestrom-real-sociedad-401915540',
+    title: "Sergio Gómez guía a Real Sociedad ante Lillestrom (6-0) y lo deja 14.º en Europa League",
+    summary: "Real Sociedad 6-0 Lillestrom en Europa League: Sergio Gómez marcó 2. Lillestrom 44 % de posesión y 14 remates; Real Sociedad 56 % y 16.",
+    body: `## Resumen
+
+Real Sociedad ganó 6-0 a Lillestrom en Europa League, con doblete de Sergio Gómez.
+
+## Los goles
+
+- 25' · Sergio Gómez (Real Sociedad)
+- 27' · Sergio Gómez (Real Sociedad)
+- 33' · Luka Sucic (Real Sociedad)
+- 64' · Orri Óskarsson (Real Sociedad)
+- 72' · Luka Sucic (Real Sociedad)
+- 80' · Arsen Zakharyan (Real Sociedad)
+
+## El dato
+
+Lillestrom 44 % de posesión y 14 remates; Real Sociedad 56 % y 16.
+
+## Lo que viene
+
+Tras el partido, Lillestrom 31.º con 1 puntos y Real Sociedad 14.º con 4 puntos en la [clasificación de Europa League](/futbol/europa-league).
+
+**Lee también:** la [ficha del partido](/futbol/europa-league/partido/401915540) con alineaciones y narración · la [clasificación de Europa League](/futbol/europa-league) · [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Europa League","sport":"futbol","slug":"europa-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915540",
+    sourceLang: 'en',
+    publishedAt: '2026-10-23T00:08:25.588Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/%C3%85r%C3%A5sen_stadion.jpg/1920px-%C3%85r%C3%A5sen_stadion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Arasen Stadion, donde se jugó el Lillestrom - Real Sociedad",
+      credit: "Marius Lauritsen from Lillestrøm, Norway · CC BY-SA 2.0 · Wikimedia Commons",
+      license: "CC BY-SA 2.0",
+    },
+  },
+  {
+    slug: 'cronica-jagiellonia-anderlecht-401915542',
+    title: "Mihajlo Cvetkovic guía a Anderlecht ante Jagiellonia  (3-0) y lo deja 22.º en Europa League",
+    summary: "Anderlecht 3-0 Jagiellonia  en Europa League: Mihajlo Cvetkovic marcó. Jagiellonia  41 % de posesión y 6 remates; Anderlecht 59 % y 15.",
+    body: `## Resumen
+
+Anderlecht ganó 3-0 a Jagiellonia  en Europa League.
+
+## Los goles
+
+- 21' · Mihajlo Cvetkovic (Anderlecht)
+- 72' · Marten Winkler (Anderlecht)
+- 80' · Jayden Onia-Seke (Anderlecht)
+
+## El dato
+
+Jagiellonia  41 % de posesión y 6 remates; Anderlecht 59 % y 15.
+
+## Lo que viene
+
+Tras el partido, Jagiellonia  27.º con 3 puntos y Anderlecht 22.º con 3 puntos en la [clasificación de Europa League](/futbol/europa-league).
+
+**Lee también:** la [ficha del partido](/futbol/europa-league/partido/401915542) con alineaciones y narración · la [clasificación de Europa League](/futbol/europa-league) · [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Europa League","sport":"futbol","slug":"europa-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915542",
+    sourceLang: 'en',
+    publishedAt: '2026-10-23T00:08:25.588Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Piast_-_Jagiellonia_12.05.2019.jpg/1920px-Piast_-_Jagiellonia_12.05.2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Stadion Miejski Bialystok, donde se jugó el Jagiellonia  - Anderlecht",
+      credit: "Megatron7667 · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'cronica-celtic-celta-vigo-401915555',
+    title: "Celta Vigo se impone a Celtic (2-1) con doblete de Javi Rodríguez en Europa League",
+    summary: "Javi Rodríguez marcó 2; Celtic remató 8 veces (4 a puerta) en el Celta Vigo 2-1 Celtic de Europa League.",
+    body: `Celtic llegaba de perder 1-4 ante Benfica; Celta Vigo, de perder 1-2 ante Juventus. Acabó ganando Celta Vigo 2-1, con doblete de Javi Rodríguez. En el marcador, Mika Baur (47', Celtic), Javi Rodríguez (68', Celta Vigo) y Javi Rodríguez (71', Celta Vigo).
+
+## En cifras
+
+Celtic manejó el balón (44 % por 56 %) y tiró 8 veces, 4 entre los tres palos; Celta Vigo se quedó en 22 remates (4 a puerta). Córners: 2 por 6.
+
+## La clasificación
+
+Tras el partido, Celtic 35.º con 0 puntos y Celta Vigo 25.º con 3 puntos en la [clasificación de Europa League](/futbol/europa-league).
+
+Ficha: 4 amarillas · 9 cambios. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/europa-league/partido/401915555).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Europa League","sport":"futbol","slug":"europa-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915555",
+    sourceLang: 'en',
+    publishedAt: '2026-10-23T00:08:25.588Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/6/62/Celtic_Park_stadium_%28geograph_7734848%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      alt: "Celtic Park, donde se jugó el Celtic - Celta Vigo",
+      credit: "Thomas Nugent · CC BY-SA 2.0 · Wikimedia Commons",
+      license: "CC BY-SA 2.0",
+    },
+  },
+  {
+    slug: 'cronica-besiktas-c-palace-401915553',
+    title: "Besiktas y C Palace empatan 2-2; Besiktas sigue 8.º en Europa League",
+    summary: "Besiktas 2-2 C Palace en Europa League. Besiktas 59 % de posesión y 5 remates; C Palace 41 % y 8.",
+    body: `## Resumen
+
+Besiktas y C Palace empataron 2-2 en Europa League.
+
+## Los goles
+
+- 45'+2' · Wilfred Ndidi (Besiktas)
+- 51' · Yéremy Pino (C Palace)
+- 55' · Jean-Philippe Mateta (C Palace)
+- 73' · Junior Olaitan (Besiktas)
+
+## El dato
+
+Besiktas 59 % de posesión y 5 remates; C Palace 41 % y 8.
+
+## Lo que viene
+
+Tras el partido, Besiktas 8.º con 7 puntos y C Palace 15.º con 4 puntos en la [clasificación de Europa League](/futbol/europa-league).
+
+**Lee también:** la [ficha del partido](/futbol/europa-league/partido/401915553) con alineaciones y narración · la [clasificación de Europa League](/futbol/europa-league) · [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Europa League","sport":"futbol","slug":"europa-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915553",
+    sourceLang: 'en',
+    publishedAt: '2026-10-23T00:08:25.588Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Vodafone_Park_Merkez_Ma%C4%9Faza.jpg/1920px-Vodafone_Park_Merkez_Ma%C4%9Faza.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Vodafone Park, donde se jugó el Besiktas - C Palace",
+      credit: "Erişim · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'cronica-bournemouth-milan-401915552',
+    title: "Bournemouth 3 Milan 0: gol de Amine Adli, Bournemouth 3.º y posesión del 64 % para Bournemouth",
+    summary: "Amine Adli marcó en el 84' el gol que puso por delante a Bournemouth, que ya no soltó la ventaja: 3-0 final ante Milan en Europa League. Claves: gol de Amine Adli, Bournemouth 3.º y posesión del 64 % para Bournemouth.",
+    body: `Amine Adli marcó en el 84' el gol que puso por delante a Bournemouth, que ya no soltó la ventaja: 3-0 final ante Milan en Europa League.
+
+## Amine Adli decidió
+
+En el marcador, Amine Adli (84', Bournemouth). Expulsados: Mike Maignan.
+
+## Los números del partido
+
+Bournemouth manejó el balón (64 % por 36 %) y tiró 20 veces, 7 entre los tres palos; Milan se quedó en 3 remates (0 a puerta). Córners: 6 por 4.
+
+## Qué cambia en la tabla
+
+Tras el partido, Bournemouth 3.º con 9 puntos y Milan 24.º con 3 puntos en la [clasificación de Europa League](/futbol/europa-league).
+
+## Qué viene ahora
+
+Próximos partidos en la página de la competición. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/europa-league/partido/401915552).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Europa League","sport":"futbol","slug":"europa-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915552",
+    sourceLang: 'en',
+    publishedAt: '2026-10-23T00:08:25.588Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Deancourt_14092013_vblackpool.jpg/1280px-Deancourt_14092013_vblackpool.jpg",
+      alt: "Interior del Vitality Stadium de Bournemouth durante un partido, visto desde la grada",
+      credit: "Matthew Jackson · Wikimedia Commons",
+      license: "CC BY-SA 3.0",
+    },
+  },
+  {
+    slug: 'partidos-baloncesto-hoy-2026-10-23',
+    title: "Partidos de baloncesto hoy, viernes 23 de octubre: horarios y dónde ver NBA",
+    summary: "Agenda de baloncesto de hoy viernes 23 de octubre: 1 partido con horario en hora española y canal de televisión. Destaca Bucks - Bulls.",
+    body: `Jornada de baloncesto con 1 cita este viernes 23 de octubre. Horarios en hora peninsular y dónde verlas, competición por competición. El partido que más miradas reúne es el **[Bucks - Bulls](/baloncesto/nba/partido/401909848)** (NBA, 22:00 h).
+
+## 🇺🇸 NBA
+
+- **[Bucks - Bulls](/baloncesto/nba/partido/401909848)** — 22:00 h
+
+Calendario y clasificación en la [página de NBA](/baloncesto/nba).
+
+Hora peninsular en todos los casos. Si un canal cambia a última hora, la ficha del partido lo recoge. Toda la jornada, con marcadores en directo, en [partidos de hoy](/partidos-hoy).`,
+    category: 'tv',
+    kind: 'agenda',
+    competition: {"name":"NBA","sport":"baloncesto","slug":"nba"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/nba/game/_/gameId/401909848",
+    sourceLang: 'en',
+    publishedAt: '2026-10-23T00:08:25.588Z',
+    modifiedAt: '2026-10-23T00:08:25.588Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Milwaukee_July_2022_022_%28Fiserv_Forum%29.jpg/1920px-Milwaukee_July_2022_022_%28Fiserv_Forum%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Fiserv Forum, escenario del Bucks - Bulls",
+      credit: "Michael Barera · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'partidos-futbol-hoy-2026-10-23',
+    title: "Partidos de fútbol hoy, viernes 23 de octubre: horarios y dónde ver LaLiga, Premier League y Süper Lig",
+    summary: "Agenda de fútbol de hoy viernes 23 de octubre: 13 partidos con horario en hora española y canal de televisión. Destaca Alavés - Málaga.",
+    body: `Viernes 23 de octubre deja 13 partidos de fútbol en las competiciones que seguimos. Aquí van, con la hora en España y el canal donde se ven. El partido que más miradas reúne es el **[Alavés - Málaga](/futbol/laliga/partido/401882836)** (LaLiga, 21:00 h).
+
+## 🇹🇷 Süper Lig
+
+- **[Alanyaspor - Kocaelispor](/futbol/super-lig/partido/401888268)** — 19:00 h
+
+Calendario y clasificación en la [página de Süper Lig](/futbol/super-lig).
+
+## 🇪🇸 Liga F
+
+- **[Atlético Madrid - Valencia](/futbol/liga-f/partido/401882483)** — 19:30 h
+
+Calendario y clasificación en la [página de Liga F](/futbol/liga-f).
+
+## 🇳🇱 Eredivisie
+
+- **[Go Ahead Eagles - Telstar](/futbol/eredivisie/partido/401875574)** — 20:00 h
+
+Calendario y clasificación en la [página de Eredivisie](/futbol/eredivisie).
+
+## 🇪🇸 LaLiga Hypermotion
+
+- **[Granada - Valladolid](/futbol/laliga-2/partido/401883152)** — 20:30 h
+
+Calendario y clasificación en la [página de LaLiga 2](/futbol/laliga-2).
+
+## 🇩🇪 Bundesliga
+
+- **[Stuttgart - Gladbach](/futbol/bundesliga/partido/401884761)** — 20:30 h
+
+Calendario y clasificación en la [página de Bundesliga](/futbol/bundesliga).
+
+## 🇮🇹 Serie A
+
+- **[Torino - Monza](/futbol/serie-a/partido/401874957)** — 20:45 h
+
+Calendario y clasificación en la [página de Serie A](/futbol/serie-a).
+
+## 🇫🇷 Ligue 1
+
+- **[Brest - Nice](/futbol/ligue-1/partido/401876428)** — 20:45 h
+
+Calendario y clasificación en la [página de Ligue 1](/futbol/ligue-1).
+
+## 🇪🇸 LaLiga
+
+- **[Alavés - Málaga](/futbol/laliga/partido/401882836)** — 21:00 h
+
+Calendario y clasificación en la [página de LaLiga](/futbol/laliga).
+
+## 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Premier League
+
+- **[Ipswich - Nottm Forest](/futbol/premier-league/partido/401879253)** — 21:00 h
+
+Calendario y clasificación en la [página de Premier League](/futbol/premier-league).
+
+## 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Championship
+
+- **[Bolton - Boro](/futbol/championship/partido/401880207)** — 21:00 h
+
+Calendario y clasificación en la [página de Championship](/futbol/championship).
+
+## 🇵🇹 Primeira Liga
+
+- **[Vitória  - Maritimo](/futbol/primeira-liga/partido/401885412)** — 21:45 h
+
+Calendario y clasificación en la [página de Primeira Liga](/futbol/primeira-liga).
+
+## 🇦🇷 Liga Profesional Argentina
+
+- **[Gimnasia LP - Sarmiento (J)](/futbol/liga-argentina/partido/401841638)** — 23:00 h
+- **[Gimnasia (M) - Platense](/futbol/liga-argentina/partido/401841637)** — 23:30 h
+
+Calendario y clasificación en la [página de Liga Argentina](/futbol/liga-argentina).
+
+Hora peninsular en todos los casos. Si un canal cambia a última hora, la ficha del partido lo recoge. Toda la jornada, con marcadores en directo, en [partidos de hoy](/partidos-hoy).`,
+    category: 'tv',
+    kind: 'agenda',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882836",
+    sourceLang: 'en',
+    publishedAt: '2026-10-23T00:08:25.588Z',
+    modifiedAt: '2026-10-23T00:08:25.588Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Alav%C3%A9s2-2Lega2018.jpg/1280px-Alav%C3%A9s2-2Lega2018.jpg",
+      alt: "El estadio de Mendizorroza de Vitoria con la grada llena durante un partido",
+      credit: "Miguelazo84 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
     slug: 'nba-resultados-2026-10-22',
     title: "NBA: resultados de la noche del 22 de octubre",
     summary: "Resultados de los 11 partidos de la noche en la NBA, con el más igualado y el de más puntos.",
@@ -221,7 +656,7 @@ Horarios, resultados de cada sesión y clasificación completa del Mundial en la
     sourceUrl: "https://www.espn.com/f1/schedule",
     sourceLang: 'en',
     publishedAt: '2026-10-22T12:20:10.049Z',
-    modifiedAt: '2026-10-22T12:20:10.049Z',
+    modifiedAt: '2026-10-23T00:08:25.588Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/2018_US_Grand_Prix_at_the_Circuit_of_the_Americas.jpg/1920px-2018_US_Grand_Prix_at_the_Circuit_of_the_Americas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
