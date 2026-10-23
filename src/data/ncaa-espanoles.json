@@ -1,0 +1,2021 @@
+{
+"season": "2025-26",
+"source": "NCAA All-Sports Rosters 2025-26 (CC0), dharits3 en Hugging Face, a partir de las plantillas oficiales de cada universidad",
+"people": 1967,
+"bySport": [
+{
+"sport": "Fútbol",
+"n": 584
+},
+{
+"sport": "Tenis",
+"n": 445
+},
+{
+"sport": "Baloncesto",
+"n": 300
+},
+{
+"sport": "Golf",
+"n": 190
+},
+{
+"sport": "Atletismo (aire libre)",
+"n": 189
+},
+{
+"sport": "Atletismo (pista cubierta)",
+"n": 174
+},
+{
+"sport": "Campo a través",
+"n": 97
+},
+{
+"sport": "Natación",
+"n": 90
+},
+{
+"sport": "Voleibol",
+"n": 41
+},
+{
+"sport": "Waterpolo",
+"n": 41
+},
+{
+"sport": "Hockey hierba",
+"n": 24
+},
+{
+"sport": "Remo",
+"n": 15
+},
+{
+"sport": "Voley playa",
+"n": 8
+},
+{
+"sport": "Fútbol americano",
+"n": 7
+},
+{
+"sport": "Lacrosse",
+"n": 6
+},
+{
+"sport": "Esquí",
+"n": 6
+},
+{
+"sport": "Acrobacias",
+"n": 4
+},
+{
+"sport": "Esgrima",
+"n": 4
+},
+{
+"sport": "Triatlón",
+"n": 4
+},
+{
+"sport": "Hockey hielo",
+"n": 3
+},
+{
+"sport": "Rugby",
+"n": 3
+},
+{
+"sport": "Sóftbol",
+"n": 1
+},
+{
+"sport": "Lucha",
+"n": 1
+}
+],
+"basketballD1": [
+{
+"name": "David Gomez",
+"gender": "M",
+"school": "Charlotte",
+"conference": "American Conference",
+"pos": "F",
+"year": "Fr",
+"city": "Sevilla",
+"roster": "https://charlotte49ers.com/sports/mens-basketball/roster"
+},
+{
+"name": "Raúl Villar",
+"gender": "M",
+"school": "Charlotte",
+"conference": "American Conference",
+"pos": "G",
+"year": "Fr",
+"city": "Barcelona",
+"roster": "https://charlotte49ers.com/sports/mens-basketball/roster"
+},
+{
+"name": "Baba Miller",
+"gender": "M",
+"school": "Cincinnati",
+"conference": "Big 12 Conference",
+"pos": "F",
+"year": "Sr",
+"city": "Mallorca",
+"roster": "https://gobearcats.com/sports/mens-basketball/roster"
+},
+{
+"name": "Jordi Rodriguez",
+"gender": "M",
+"school": "Cincinnati",
+"conference": "Big 12 Conference",
+"pos": "G",
+"year": "Fr",
+"city": "Barcelona",
+"roster": "https://gobearcats.com/sports/mens-basketball/roster"
+},
+{
+"name": "Ian Platteeuw",
+"gender": "M",
+"school": "Davidson",
+"conference": "Atlantic 10 Conference",
+"pos": "F/C",
+"year": "Fr",
+"city": "Barcelona",
+"roster": "https://davidsonwildcats.com/sports/mens-basketball/roster"
+},
+{
+"name": "Fabián Flores",
+"gender": "M",
+"school": "DePaul",
+"conference": "Big East Conference",
+"pos": "C",
+"year": "So",
+"city": "Murcia",
+"roster": "https://depaulbluedemons.com/sports/mens-basketball/roster"
+},
+{
+"name": "Ignacio Campoy Galvez",
+"gender": "M",
+"school": "Drexel",
+"conference": "Coastal Athletic Association",
+"pos": "F",
+"year": "Fr",
+"city": "Madrid",
+"roster": "https://drexeldragons.com/sports/mens-basketball/roster"
+},
+{
+"name": "Iker Garmendia",
+"gender": "M",
+"school": "Elon",
+"conference": "Coastal Athletic Association",
+"pos": "F",
+"year": "Fr",
+"city": "Barcelona",
+"roster": "https://elonphoenix.com/sports/mens-basketball/roster"
+},
+{
+"name": "Maximo Garcia-Plata",
+"gender": "M",
+"school": "Florida St.",
+"conference": "Atlantic Coast Conference",
+"pos": "G",
+"year": "Fr",
+"city": "Madrid",
+"roster": "https://seminoles.com/sports/mens-basketball/roster"
+},
+{
+"name": "Mario Saint-Supéry",
+"gender": "M",
+"school": "Gonzaga",
+"conference": "West Coast Conference",
+"pos": "Guard 6'4\" 199 lbs",
+"year": "Fr",
+"city": "Fr. Málaga",
+"roster": "https://gozags.com/sports/mens-basketball/roster"
+},
+{
+"name": "Owen Aquino",
+"gender": "M",
+"school": "High Point",
+"conference": "Big South Conference",
+"pos": "F",
+"year": "Sr",
+"city": "Madrid",
+"roster": "https://highpointpanthers.com/sports/mens-basketball/roster"
+},
+{
+"name": "Conrad Martinez",
+"gender": "M",
+"school": "High Point",
+"conference": "Big South Conference",
+"pos": "G",
+"year": "Jr",
+"city": "Granollers",
+"roster": "https://highpointpanthers.com/sports/mens-basketball/roster"
+},
+{
+"name": "Victory Onuetu",
+"gender": "M",
+"school": "Hofstra",
+"conference": "Coastal Athletic Association",
+"pos": "F/C",
+"year": "Jr",
+"city": "Alhaurin el Grande",
+"roster": "https://gohofstra.com/sports/mens-basketball/roster"
+},
+{
+"name": "Bruno Alocen",
+"gender": "M",
+"school": "Indiana St.",
+"conference": "Missouri Valley Conference",
+"pos": "G",
+"year": "So",
+"city": "Barcelona",
+"roster": "https://gosycamores.com/sports/mens-basketball/roster"
+},
+{
+"name": "Alvaro Folgueiras",
+"gender": "M",
+"school": "Iowa",
+"conference": "Big Ten Conference",
+"pos": "F",
+"year": "UNK",
+"city": "Málaga",
+"roster": "https://hawkeyesports.com/sports/mbball/roster"
+},
+{
+"name": "Aitor Anabitarte",
+"gender": "M",
+"school": "Jacksonville St.",
+"conference": "Conference USA",
+"pos": "F",
+"year": "Gr",
+"city": "Lasarte-Oria",
+"roster": "https://jaxstatesports.com/sports/mens-basketball/roster"
+},
+{
+"name": "Pablo Tamba",
+"gender": "M",
+"school": "LSU",
+"conference": "Southeastern Conference",
+"pos": "Forward",
+"year": "Gr",
+"city": "Malaga",
+"roster": "https://lsusports.net/sports/mb/roster/season/2025-26/"
+},
+{
+"name": "Guillermo Del Pino",
+"gender": "M",
+"school": "Maryland",
+"conference": "Big Ten Conference",
+"pos": "G",
+"year": "Fr",
+"city": "Cordoba",
+"roster": "https://umterps.com/sports/mens-basketball/roster"
+},
+{
+"name": "Aday Mara",
+"gender": "M",
+"school": "Michigan",
+"conference": "Big Ten Conference",
+"pos": "C",
+"year": "Jr",
+"city": "Zaragoza",
+"roster": "https://mgoblue.com/sports/mens-basketball/roster"
+},
+{
+"name": "Luca Soroa Schaller",
+"gender": "M",
+"school": "Northeastern",
+"conference": "Coastal Athletic Association",
+"pos": "G",
+"year": "So",
+"city": "Valencia",
+"roster": "https://nuhuskies.com/sports/mens-basketball/roster"
+},
+{
+"name": "Juanma Ruiz",
+"gender": "M",
+"school": "Northern Ky.",
+"conference": "Horizon League",
+"pos": "F",
+"year": "Fr",
+"city": "Begijar",
+"roster": "https://nkunorse.com/sports/mens-basketball/roster"
+},
+{
+"name": "Jorge Diaz Graham",
+"gender": "M",
+"school": "Oregon St.",
+"conference": "Pac-12 Conference",
+"pos": "F",
+"year": "Sr",
+"city": "Canary Islands",
+"roster": "https://osubeavers.com/sports/mens-basketball/roster/2025-26"
+},
+{
+"name": "Guillermo Diaz Graham",
+"gender": "M",
+"school": "San Francisco",
+"conference": "West Coast Conference",
+"pos": "F",
+"year": "Sr",
+"city": "Canary Islands",
+"roster": "https://usfdons.com/sports/mens-basketball/roster"
+},
+{
+"name": "Rubén Dominguez",
+"gender": "M",
+"school": "Texas A&M",
+"conference": "Southeastern Conference",
+"pos": "G",
+"year": "So",
+"city": "Puerto Real",
+"roster": "https://12thman.com/sports/mens-basketball/roster"
+},
+{
+"name": "Alex Huguet Carrasco",
+"gender": "M",
+"school": "ULM",
+"conference": "Sun Belt Conference",
+"pos": "G/F",
+"year": "Fr",
+"city": "Palma de Mallorca",
+"roster": "https://ulmwarhawks.com/sports/mens-basketball/roster/2025-26"
+},
+{
+"name": "Jose Roberto Tanchyn",
+"gender": "M",
+"school": "UMBC",
+"conference": "America East Conference",
+"pos": "F",
+"year": "Jr",
+"city": "Cordoba",
+"roster": "https://umbcretrievers.com/sports/mens-basketball/roster"
+},
+{
+"name": "Valentino Pinedo",
+"gender": "M",
+"school": "UNC Greensboro",
+"conference": "Southern Conference",
+"pos": "F",
+"year": "Sr",
+"city": "Murcia",
+"roster": "https://uncgspartans.com/sports/mens-basketball/roster"
+},
+{
+"name": "Enrique Moya",
+"gender": "M",
+"school": "UT Martin",
+"conference": "Ohio Valley Conference",
+"pos": "G",
+"year": "Fr",
+"city": "Granada",
+"roster": "https://utmsports.com/sports/mens-basketball/roster"
+},
+{
+"name": "Lucas Langarita",
+"gender": "M",
+"school": "Utah",
+"conference": "Big 12 Conference",
+"pos": "G",
+"year": "So",
+"city": "Zaragoza",
+"roster": "https://utahutes.com/sports/mens-basketball/roster"
+},
+{
+"name": "Lucas Mari",
+"gender": "M",
+"school": "Vermont",
+"conference": "America East Conference",
+"pos": "G",
+"year": "Fr",
+"city": "Valencia",
+"roster": "https://uvmathletics.com/sports/mens-basketball/roster"
+},
+{
+"name": "Adrià Rodriguez",
+"gender": "M",
+"school": "Washington St.",
+"conference": "Pac-12 Conference",
+"pos": "G",
+"year": "Sr",
+"city": "Sant Just",
+"roster": "https://wsucougars.com/sports/mens-basketball/roster"
+},
+{
+"name": "Bruna Anguera",
+"gender": "F",
+"school": "A&M-Corpus Christi",
+"conference": "Southland Conference",
+"pos": "C",
+"year": "Sr",
+"city": "El Morell",
+"roster": "https://goislanders.com/sports/womens-basketball/roster"
+},
+{
+"name": "Valeria Martínez",
+"gender": "F",
+"school": "A&M-Corpus Christi",
+"conference": "Southland Conference",
+"pos": "G",
+"year": "Jr",
+"city": "Málaga",
+"roster": "https://goislanders.com/sports/womens-basketball/roster"
+},
+{
+"name": "Laura Nogues",
+"gender": "F",
+"school": "American",
+"conference": "Patriot League",
+"pos": "G",
+"year": "Sr",
+"city": "Sabadell",
+"roster": "https://aueagles.com/sports/womens-basketball/roster"
+},
+{
+"name": "Marta Gutierrez",
+"gender": "F",
+"school": "App State",
+"conference": "Sun Belt Conference",
+"pos": "G",
+"year": "Jr",
+"city": "Dénia",
+"roster": "https://appstatesports.com/sports/womens-basketball/roster"
+},
+{
+"name": "Mireia Jurado",
+"gender": "F",
+"school": "Arizona",
+"conference": "Big 12 Conference",
+"pos": "G",
+"year": "Fr",
+"city": "Avinyó",
+"roster": "https://arizonawildcats.com/sports/womens-basketball/roster"
+},
+{
+"name": "Maria Anais Rodriguez",
+"gender": "F",
+"school": "Arkansas",
+"conference": "Southeastern Conference",
+"pos": "F",
+"year": "So",
+"city": "Barcelona",
+"roster": "https://arkansasrazorbacks.com/sport/w-baskbl/roster/"
+},
+{
+"name": "Cristina Sánchez Cerqueira",
+"gender": "F",
+"school": "Arkansas",
+"conference": "Southeastern Conference",
+"pos": "F",
+"year": "Jr",
+"city": "Granada",
+"roster": "https://arkansasrazorbacks.com/sport/w-baskbl/roster/"
+},
+{
+"name": "Angena Belloso",
+"gender": "F",
+"school": "Auburn",
+"conference": "Southeastern Conference",
+"pos": "G",
+"year": "Jr",
+"city": "Montgat",
+"roster": "https://auburntigers.com/sports/womens-basketball/roster"
+},
+{
+"name": "Alba Caballero",
+"gender": "F",
+"school": "Ball St.",
+"conference": "Mid-American Conference",
+"pos": "",
+"year": "Fr",
+"city": "Ciudad Real",
+"roster": "https://ballstatesports.com/sports/womens-basketball/roster"
+},
+{
+"name": "Laura Martinez",
+"gender": "F",
+"school": "Ball St.",
+"conference": "Mid-American Conference",
+"pos": "",
+"year": "Fr",
+"city": "Granada",
+"roster": "https://ballstatesports.com/sports/womens-basketball/roster"
+},
+{
+"name": "Violeta Rojas",
+"gender": "F",
+"school": "Ball St.",
+"conference": "Mid-American Conference",
+"pos": "",
+"year": "Jr",
+"city": "Manilva",
+"roster": "https://ballstatesports.com/sports/womens-basketball/roster"
+},
+{
+"name": "Aina Grane Torres",
+"gender": "F",
+"school": "Boston U.",
+"conference": "Patriot League",
+"pos": "G",
+"year": "Jr",
+"city": "Molins de Rei",
+"roster": "https://goterriers.com/sports/womens-basketball/roster"
+},
+{
+"name": "Inés Monteagudo Pardo",
+"gender": "F",
+"school": "Boston U.",
+"conference": "Patriot League",
+"pos": "G",
+"year": "Jr",
+"city": "Valencia",
+"roster": "https://goterriers.com/sports/womens-basketball/roster"
+},
+{
+"name": "Lucia Llaveria",
+"gender": "F",
+"school": "Bradley",
+"conference": "Missouri Valley Conference",
+"pos": "G",
+"year": "Sr",
+"city": "Sant Vicenç de Montalt",
+"roster": "https://bradleybraves.com/sports/womens-basketball/roster/2025-26"
+},
+{
+"name": "Martina Boba",
+"gender": "F",
+"school": "Bryant",
+"conference": "America East Conference",
+"pos": "G",
+"year": "Jr",
+"city": "Argentona",
+"roster": "https://bryantbulldogs.com/sports/womens-basketball/roster"
+},
+{
+"name": "Paula Lopez",
+"gender": "F",
+"school": "Buffalo",
+"conference": "Mid-American Conference",
+"pos": "G",
+"year": "Jr",
+"city": "Alicante",
+"roster": "https://ubbulls.com/sports/womens-basketball/roster"
+},
+{
+"name": "Erika Aspajo",
+"gender": "F",
+"school": "CSUN",
+"conference": "Big West Conference",
+"pos": "G",
+"year": "Sr",
+"city": "Barcelona",
+"roster": "https://gomatadors.com/sports/womens-basketball/roster"
+},
+{
+"name": "Jana Canadell",
+"gender": "F",
+"school": "CSUN",
+"conference": "Big West Conference",
+"pos": "F",
+"year": "Fr",
+"city": "Barcelona",
+"roster": "https://gomatadors.com/sports/womens-basketball/roster"
+},
+{
+"name": "Mariona Cos-Morales",
+"gender": "F",
+"school": "CSUN",
+"conference": "Big West Conference",
+"pos": "F",
+"year": "Gr",
+"city": "Matadepera",
+"roster": "https://gomatadors.com/sports/womens-basketball/roster"
+},
+{
+"name": "Ana Moleón Hidalgo",
+"gender": "F",
+"school": "Cal Poly",
+"conference": "Big West Conference",
+"pos": "G",
+"year": "So",
+"city": "Elche-Alicante",
+"roster": "https://gopoly.com/sports/womens-basketball/roster"
+},
+{
+"name": "Nora Perez",
+"gender": "F",
+"school": "Cal Poly",
+"conference": "Big West Conference",
+"pos": "F",
+"year": "So",
+"city": "Donostia San Sebastian",
+"roster": "https://gopoly.com/sports/womens-basketball/roster"
+},
+{
+"name": "audia Langarita",
+"gender": "F",
+"school": "California",
+"conference": "Atlantic Coast Conference",
+"pos": "F",
+"year": "Gr",
+"city": "Barcelona",
+"roster": "https://calbears.com/sports/womens-basketball/roster"
+},
+{
+"name": "Sofia Alonso",
+"gender": "F",
+"school": "California Baptist",
+"conference": "Western Athletic Conference",
+"pos": "G",
+"year": "Jr",
+"city": "Valladolid",
+"roster": "https://cbulancers.com/sports/womens-basketball/roster"
+},
+{
+"name": "Marta De La Fuente",
+"gender": "F",
+"school": "California Baptist",
+"conference": "Western Athletic Conference",
+"pos": "G",
+"year": "Fr",
+"city": "Rivas Vaciamadrid",
+"roster": "https://cbulancers.com/sports/womens-basketball/roster"
+},
+{
+"name": "Irene Rey Pineda",
+"gender": "F",
+"school": "Canisius",
+"conference": "Metro Atlantic Athletic Conference",
+"pos": "F",
+"year": "So",
+"city": "Madrid",
+"roster": "https://gogriffs.com/sports/womens-basketball/roster"
+},
+{
+"name": "Carla Ramirez",
+"gender": "F",
+"school": "Central Ark.",
+"conference": "ASUN Conference",
+"pos": "G",
+"year": "Fr",
+"city": "Malaga",
+"roster": "https://ucasports.com/sports/womens-basketball/roster"
+},
+{
+"name": "Lucia Noin",
+"gender": "F",
+"school": "Central Conn. St.",
+"conference": "Northeast Conference",
+"pos": "Forward",
+"year": "Sr",
+"city": "Santander",
+"roster": "https://ccsubluedevils.com/sports/wbkb/2025-26/roster"
+},
+{
+"name": "Alba Garcia",
+"gender": "F",
+"school": "Charleston So.",
+"conference": "Big South Conference",
+"pos": "G",
+"year": "Sr",
+"city": "Madrid",
+"roster": "https://csusports.com/sports/womens-basketball/roster"
+},
+{
+"name": "Laura Ortega",
+"gender": "F",
+"school": "Charleston So.",
+"conference": "Big South Conference",
+"pos": "G",
+"year": "Gr",
+"city": "San Fernando",
+"roster": "https://csusports.com/sports/womens-basketball/roster"
+},
+{
+"name": "Sur Lozano",
+"gender": "F",
+"school": "Cleveland St.",
+"conference": "Horizon League",
+"pos": "Guard",
+"year": "Fr",
+"city": "Madrid",
+"roster": "https://csuvikings.com/sports/womens-basketball/roster"
+},
+{
+"name": "Paula Pique",
+"gender": "F",
+"school": "Cleveland St.",
+"conference": "Horizon League",
+"pos": "Guard",
+"year": "So",
+"city": "Barcelona",
+"roster": "https://csuvikings.com/sports/womens-basketball/roster"
+},
+{
+"name": "María Arrebola",
+"gender": "F",
+"school": "Columbia",
+"conference": "Ivy League",
+"pos": "Guard/Forward",
+"year": "So",
+"city": "Almería",
+"roster": "https://gocolumbialions.com/sports/womens-basketball/roster"
+},
+{
+"name": "Blau Tor",
+"gender": "F",
+"school": "Columbia",
+"conference": "Ivy League",
+"pos": "Guard/Forward",
+"year": "Jr",
+"city": "Barcelona",
+"roster": "https://gocolumbialions.com/sports/womens-basketball/roster"
+},
+{
+"name": "Elena Alvarez Castellanos",
+"gender": "F",
+"school": "Davidson",
+"conference": "Atlantic 10 Conference",
+"pos": "G",
+"year": "Fr",
+"city": "Pamplona",
+"roster": "https://davidsonwildcats.com/sports/womens-basketball/roster"
+},
+{
+"name": "Ines Garcia Monje",
+"gender": "F",
+"school": "Davidson",
+"conference": "Atlantic 10 Conference",
+"pos": "F",
+"year": "Fr",
+"city": "Santa Cruz de Tenerife",
+"roster": "https://davidsonwildcats.com/sports/womens-basketball/roster"
+},
+{
+"name": "audia Clement",
+"gender": "F",
+"school": "Delaware",
+"conference": "Conference USA",
+"pos": "F",
+"year": "Jr",
+"city": "Barcelona",
+"roster": "https://bluehens.com/sports/womens-basketball/roster"
+},
+{
+"name": "Arantxa Portalez",
+"gender": "F",
+"school": "Delaware",
+"conference": "Conference USA",
+"pos": "F",
+"year": "Jr",
+"city": "Zaragoza",
+"roster": "https://bluehens.com/sports/womens-basketball/roster"
+},
+{
+"name": "Ana Conde",
+"gender": "F",
+"school": "Denver",
+"conference": "The Summit League",
+"pos": "Center",
+"year": "Jr",
+"city": "Madrid",
+"roster": "https://denverpioneers.com/sports/womens-basketball/roster"
+},
+{
+"name": "Natalia Fanjul",
+"gender": "F",
+"school": "Denver",
+"conference": "The Summit League",
+"pos": "Forward",
+"year": "So",
+"city": "Altafulla",
+"roster": "https://denverpioneers.com/sports/womens-basketball/roster"
+},
+{
+"name": "Laia Monclova",
+"gender": "F",
+"school": "Denver",
+"conference": "The Summit League",
+"pos": "Guard",
+"year": "Sr",
+"city": "Mallorca",
+"roster": "https://denverpioneers.com/sports/womens-basketball/roster"
+},
+{
+"name": "Paula Oliva",
+"gender": "F",
+"school": "Denver",
+"conference": "The Summit League",
+"pos": "Guard",
+"year": "So",
+"city": "Salamanca",
+"roster": "https://denverpioneers.com/sports/womens-basketball/roster"
+},
+{
+"name": "Julia Garcia Roig",
+"gender": "F",
+"school": "Drexel",
+"conference": "Coastal Athletic Association",
+"pos": "G",
+"year": "Jr",
+"city": "Barcelona",
+"roster": "https://drexeldragons.com/sports/womens-basketball/roster"
+},
+{
+"name": "Daniela López",
+"gender": "F",
+"school": "ETSU",
+"conference": "Southern Conference",
+"pos": "G",
+"year": "Jr",
+"city": "Barcelona",
+"roster": "https://etsubucs.com/sports/womens-basketball/roster"
+},
+{
+"name": "Adriana Arroyo",
+"gender": "F",
+"school": "Eastern Ill.",
+"conference": "Ohio Valley Conference",
+"pos": "G",
+"year": "Jr",
+"city": "Madrid",
+"roster": "https://eiupanthers.com/sports/womens-basketball/roster"
+},
+{
+"name": "Paula Balada",
+"gender": "F",
+"school": "Eastern Mich.",
+"conference": "Mid-American Conference",
+"pos": "S/Y",
+"year": "Fr",
+"city": "Barcelona",
+"roster": "https://emueagles.com/sports/womens-basketball/roster"
+},
+{
+"name": "Ainhoa Cea",
+"gender": "F",
+"school": "Eastern Mich.",
+"conference": "Mid-American Conference",
+"pos": "S",
+"year": "Sr",
+"city": "Irun",
+"roster": "https://emueagles.com/sports/womens-basketball/roster"
+},
+{
+"name": "Daniela Llavero",
+"gender": "F",
+"school": "Evansville",
+"conference": "Missouri Valley Conference",
+"pos": "G",
+"year": "Fr",
+"city": "Malaga",
+"roster": "https://gopurpleaces.com/sports/womens-basketball/roster"
+},
+{
+"name": "Mireia Mustaros",
+"gender": "F",
+"school": "Evansville",
+"conference": "Missouri Valley Conference",
+"pos": "F",
+"year": "Jr",
+"city": "Barcelona",
+"roster": "https://gopurpleaces.com/sports/womens-basketball/roster"
+},
+{
+"name": "Adama Badjie Coly",
+"gender": "F",
+"school": "FIU",
+"conference": "Conference USA",
+"pos": "G",
+"year": "Jr",
+"city": "Mataro",
+"roster": "https://fiusports.com/sports/womens-basketball/roster"
+},
+{
+"name": "Grecia Ferrer Leal",
+"gender": "F",
+"school": "FIU",
+"conference": "Conference USA",
+"pos": "G",
+"year": "Fr",
+"city": "Baladona",
+"roster": "https://fiusports.com/sports/womens-basketball/roster"
+},
+{
+"name": "audia Marina",
+"gender": "F",
+"school": "FIU",
+"conference": "Conference USA",
+"pos": "F",
+"year": "So",
+"city": "Madrid",
+"roster": "https://fiusports.com/sports/womens-basketball/roster"
+},
+{
+"name": "Judit Valero",
+"gender": "F",
+"school": "FIU",
+"conference": "Conference USA",
+"pos": "G",
+"year": "Jr",
+"city": "Sant Feliu de Llobregat",
+"roster": "https://fiusports.com/sports/womens-basketball/roster"
+},
+{
+"name": "Zahira Arizmendi",
+"gender": "F",
+"school": "Fla. Atlantic",
+"conference": "American Conference",
+"pos": "G",
+"year": "Sr",
+"city": "Madrid",
+"roster": "https://fausports.com/sports/womens-basketball/roster"
+},
+{
+"name": "Aina Subirats",
+"gender": "F",
+"school": "Florida A&M",
+"conference": "Southwestern Athletic Conference",
+"pos": "G",
+"year": "Sr",
+"city": "Barcelona",
+"roster": "https://famuathletics.com/sports/womens-basketball/roster"
+},
+{
+"name": "Sara Menendez",
+"gender": "F",
+"school": "Gardner-Webb",
+"conference": "Big South Conference",
+"pos": "G/F",
+"year": "Fr",
+"city": "Valencia",
+"roster": "https://gwusports.com/sports/womens-basketball/roster"
+},
+{
+"name": "Silvia Gonzalez",
+"gender": "F",
+"school": "George Washington",
+"conference": "Atlantic 10 Conference",
+"pos": "F",
+"year": "Jr",
+"city": "Sant Adria del Besos",
+"roster": "https://gwsports.com/sports/womens-basketball/roster"
+},
+{
+"name": "Inés Noguero",
+"gender": "F",
+"school": "Georgia Tech",
+"conference": "Atlantic Coast Conference",
+"pos": "Guard",
+"year": "Sr",
+"city": "Gijón",
+"roster": "https://ramblinwreck.com/sports/w-baskbl/roster/"
+},
+{
+"name": "Ariadna Termis",
+"gender": "F",
+"school": "Georgia Tech",
+"conference": "Atlantic Coast Conference",
+"pos": "Center",
+"year": "Jr",
+"city": "Zaragoza",
+"roster": "https://ramblinwreck.com/sports/w-baskbl/roster/"
+},
+{
+"name": "Leyre Urdiain",
+"gender": "F",
+"school": "Georgia Tech",
+"conference": "Atlantic Coast Conference",
+"pos": "Guard",
+"year": "Fr",
+"city": "Zaragoza",
+"roster": "https://ramblinwreck.com/sports/w-baskbl/roster/"
+},
+{
+"name": "Christabel Osarobo",
+"gender": "F",
+"school": "Gonzaga",
+"conference": "West Coast Conference",
+"pos": "G",
+"year": "So",
+"city": "Tudela",
+"roster": "https://gozags.com/sports/womens-basketball/roster"
+},
+{
+"name": "Favor Ayodele",
+"gender": "F",
+"school": "Grand Canyon",
+"conference": "Mountain West Conference",
+"pos": "F",
+"year": "Gr",
+"city": "Móstoles",
+"roster": "https://gculopes.com/sports/womens-basketball/roster"
+},
+{
+"name": "Irene Noya Catoira",
+"gender": "F",
+"school": "Illinois",
+"conference": "Big Ten Conference",
+"pos": "F",
+"year": "So",
+"city": "Vilagarcía de Arousa",
+"roster": "https://fightingillini.com/sports/womens-basketball/roster"
+},
+{
+"name": "Gisela Segura",
+"gender": "F",
+"school": "Illinois",
+"conference": "Big Ten Conference",
+"pos": "F",
+"year": "Gr",
+"city": "Cervera",
+"roster": "https://fightingillini.com/sports/womens-basketball/roster"
+},
+{
+"name": "Ale Civera",
+"gender": "F",
+"school": "Iona",
+"conference": "Metro Atlantic Athletic Conference",
+"pos": "G",
+"year": "Sr",
+"city": "Madrid",
+"roster": "https://ionagaels.com/sports/womens-basketball/roster"
+},
+{
+"name": "audia Fiel",
+"gender": "F",
+"school": "Iona",
+"conference": "Metro Atlantic Athletic Conference",
+"pos": "G",
+"year": "Jr",
+"city": "Pontevedra",
+"roster": "https://ionagaels.com/sports/womens-basketball/roster"
+},
+{
+"name": "Abril Ricart-Mensah",
+"gender": "F",
+"school": "Jacksonville St.",
+"conference": "Conference USA",
+"pos": "G",
+"year": "Fr",
+"city": "Sant Pere de Torelló",
+"roster": "https://jaxstatesports.com/sports/womens-basketball/roster/2025-26"
+},
+{
+"name": "María Sánchez-Ponce",
+"gender": "F",
+"school": "Jacksonville St.",
+"conference": "Conference USA",
+"pos": "F",
+"year": "Sr",
+"city": "Conil de la Frontera",
+"roster": "https://jaxstatesports.com/sports/womens-basketball/roster/2025-26"
+},
+{
+"name": "Laia Conesa",
+"gender": "F",
+"school": "Kansas",
+"conference": "Big 12 Conference",
+"pos": "G",
+"year": "Jr",
+"city": "Barcelona",
+"roster": "https://kuathletics.com/sports/womens-basketball/roster"
+},
+{
+"name": "audia Frances",
+"gender": "F",
+"school": "Kansas City",
+"conference": "The Summit League",
+"pos": "F",
+"year": "Fr",
+"city": "Valencia",
+"roster": "https://kcroos.com/sports/womens-basketball/roster/2025-26"
+},
+{
+"name": "Gina Garcia",
+"gender": "F",
+"school": "Kansas St.",
+"conference": "Big 12 Conference",
+"pos": "G",
+"year": "So",
+"city": "Barcelona",
+"roster": "https://www.kstatesports.com:443/sports/womens-basketball/roster"
+},
+{
+"name": "Saran Diallo Toure",
+"gender": "F",
+"school": "LIU",
+"conference": "Northeast Conference",
+"pos": "C",
+"year": "Fr",
+"city": "Vitoria-Gasteiz",
+"roster": "https://www.liuathletics.com/sports/womens-basketball/roster/2025-26"
+},
+{
+"name": "Paula Reus Piza",
+"gender": "F",
+"school": "LMU (CA)",
+"conference": "West Coast Conference",
+"pos": "F",
+"year": "Gr",
+"city": "Palma De Mallorca",
+"roster": "https://lmulions.com/sports/womens-basketball/roster"
+},
+{
+"name": "audia Acin",
+"gender": "F",
+"school": "Liberty",
+"conference": "Conference USA",
+"pos": "G",
+"year": "Jr",
+"city": "Girona",
+"roster": "https://libertyflames.com/sports/womens-basketball/roster"
+},
+{
+"name": "Emma Leon",
+"gender": "F",
+"school": "Liberty",
+"conference": "Conference USA",
+"pos": "G",
+"year": "Fr",
+"city": "Barcelona",
+"roster": "https://libertyflames.com/sports/womens-basketball/roster"
+},
+{
+"name": "Noah Garcia",
+"gender": "F",
+"school": "Lindenwood",
+"conference": "Ohio Valley Conference",
+"pos": "F",
+"year": "Gr",
+"city": "Madrid",
+"roster": "https://lindenwoodlions.com/sports/womens-basketball/roster"
+},
+{
+"name": "Lidia Belmonte Hurtado",
+"gender": "F",
+"school": "Little Rock",
+"conference": "Ohio Valley Conference",
+"pos": "F",
+"year": "Fr",
+"city": "Barcelona",
+"roster": "https://lrtrojans.com/sports/womens-basketball/roster"
+},
+{
+"name": "Judit Oliva Fernandez",
+"gender": "F",
+"school": "Long Beach St.",
+"conference": "Big West Conference",
+"pos": "F",
+"year": "So",
+"city": "El Prat De Llobregat",
+"roster": "https://longbeachstate.com/sports/womens-basketball/roster"
+},
+{
+"name": "Haley Wright",
+"gender": "F",
+"school": "Long Beach St.",
+"conference": "Big West Conference",
+"pos": "C",
+"year": "So",
+"city": "Valencia",
+"roster": "https://longbeachstate.com/sports/womens-basketball/roster"
+},
+{
+"name": "Marta Espinal",
+"gender": "F",
+"school": "Loyola Maryland",
+"conference": "Patriot League",
+"pos": "t",
+"year": "Sr",
+"city": "Barcelona",
+"roster": "https://loyolagreyhounds.com/sports/womens-basketball/roster"
+},
+{
+"name": "Cristina Garcia",
+"gender": "F",
+"school": "Loyola Maryland",
+"conference": "Patriot League",
+"pos": "Guard",
+"year": "Sr",
+"city": "Barcelona",
+"roster": "https://loyolagreyhounds.com/sports/womens-basketball/roster"
+},
+{
+"name": "Olivia Alvarez",
+"gender": "F",
+"school": "Maine",
+"conference": "America East Conference",
+"pos": "Guard",
+"year": "Fr",
+"city": "Las Rozas",
+"roster": "https://goblackbears.com/sports/womens-basketball/roster"
+},
+{
+"name": "Agar Farrés Garcia",
+"gender": "F",
+"school": "Manhattan",
+"conference": "Metro Atlantic Athletic Conference",
+"pos": "F",
+"year": "Gr",
+"city": "Barcelona",
+"roster": "https://gojaspers.com/sports/womens-basketball/roster"
+},
+{
+"name": "Elisa Solé Sanchez",
+"gender": "F",
+"school": "Manhattan",
+"conference": "Metro Atlantic Athletic Conference",
+"pos": "G",
+"year": "Gr",
+"city": "Sant Andreu de Llavaneres",
+"roster": "https://gojaspers.com/sports/womens-basketball/roster"
+},
+{
+"name": "Elena Cabello",
+"gender": "F",
+"school": "Mercer",
+"conference": "Southern Conference",
+"pos": "G",
+"year": "Jr",
+"city": "Málaga",
+"roster": "https://mercerbears.com/sports/womens-basketball/roster"
+},
+{
+"name": "Nahawa Diarra",
+"gender": "F",
+"school": "Mercer",
+"conference": "Southern Conference",
+"pos": "G",
+"year": "Gr",
+"city": "Barcelona",
+"roster": "https://mercerbears.com/sports/womens-basketball/roster"
+},
+{
+"name": "ara Gonzalez Planella",
+"gender": "F",
+"school": "Miami (OH)",
+"conference": "Mid-American Conference",
+"pos": "Guard",
+"year": "Sr",
+"city": "Barcelona",
+"roster": "https://miamiredhawks.com/sports/womens-basketball/roster"
+},
+{
+"name": "Núria Jurjo",
+"gender": "F",
+"school": "Miami (OH)",
+"conference": "Mid-American Conference",
+"pos": "Guard",
+"year": "Jr",
+"city": "Barcelona",
+"roster": "https://miamiredhawks.com/sports/womens-basketball/roster"
+},
+{
+"name": "Inés Sotelo",
+"gender": "F",
+"school": "Michigan St.",
+"conference": "Big Ten Conference",
+"pos": "F",
+"year": "So",
+"city": "Ourense",
+"roster": "https://msuspartans.com/sports/womens-basketball/roster"
+},
+{
+"name": "Nicole Dominguez",
+"gender": "F",
+"school": "Middle Tenn.",
+"conference": "Conference USA",
+"pos": "C",
+"year": "Fr",
+"city": "Santa Cruz De Tenerife",
+"roster": "https://goblueraiders.com/sports/womens-basketball/roster"
+},
+{
+"name": "Nairobi Lewis",
+"gender": "F",
+"school": "Mississippi Val.",
+"conference": "Southwestern Athletic Conference",
+"pos": "Center",
+"year": "Gr",
+"city": "Port of Spain",
+"roster": "https://mvsusports.com/sports/womens-basketball/roster"
+},
+{
+"name": "audia Xaudaro",
+"gender": "F",
+"school": "Monmouth",
+"conference": "Coastal Athletic Association",
+"pos": "G",
+"year": "Fr",
+"city": "Mataro",
+"roster": "https://monmouthhawks.com/sports/womens-basketball/roster"
+},
+{
+"name": "Irene Fernandez Pavesio",
+"gender": "F",
+"school": "Morehead St.",
+"conference": "Ohio Valley Conference",
+"pos": "Shooter",
+"year": "Jr",
+"city": "Asturias",
+"roster": "https://msueagles.com/sports/womens-basketball/roster"
+},
+{
+"name": "Circe Rubio Remolar",
+"gender": "F",
+"school": "Morehead St.",
+"conference": "Ohio Valley Conference",
+"pos": "Shooter",
+"year": "Jr",
+"city": "Zaragoza",
+"roster": "https://msueagles.com/sports/womens-basketball/roster"
+},
+{
+"name": "Marta Hermoso",
+"gender": "F",
+"school": "NIU",
+"conference": "Mid-American Conference",
+"pos": "F",
+"year": "Sr",
+"city": "Seville",
+"roster": "https://niuhuskies.com/sports/womens-basketball/roster"
+},
+{
+"name": "Maria Serracanta",
+"gender": "F",
+"school": "NIU",
+"conference": "Mid-American Conference",
+"pos": "G",
+"year": "Sr",
+"city": "Sabadell",
+"roster": "https://niuhuskies.com/sports/womens-basketball/roster"
+},
+{
+"name": "Alejandra Zuniga",
+"gender": "F",
+"school": "NJIT",
+"conference": "America East Conference",
+"pos": "G",
+"year": "Sr",
+"city": "Madrid",
+"roster": "https://njithighlanders.com/sports/womens-basketball/roster"
+},
+{
+"name": "Lucia Melero Sabat",
+"gender": "F",
+"school": "New Hampshire",
+"conference": "America East Conference",
+"pos": "F",
+"year": "Sr",
+"city": "Barcelona",
+"roster": "https://unhwildcats.com/sports/womens-basketball/roster"
+},
+{
+"name": "Nayli Padilla",
+"gender": "F",
+"school": "New Mexico",
+"conference": "Mountain West Conference",
+"pos": "G",
+"year": "So",
+"city": "Santa Cruz de Tenerife",
+"roster": "https://golobos.com/sports/wbball/roster/season/2025-26"
+},
+{
+"name": "Marta Guilera",
+"gender": "F",
+"school": "New Mexico St.",
+"conference": "Conference USA",
+"pos": "F",
+"year": "Jr",
+"city": "La Granada",
+"roster": "https://nmstatesports.com/sports/womens-basketball/roster"
+},
+{
+"name": "Lucia Lara",
+"gender": "F",
+"school": "New Mexico St.",
+"conference": "Conference USA",
+"pos": "F",
+"year": "So",
+"city": "Córdoba",
+"roster": "https://nmstatesports.com/sports/womens-basketball/roster"
+},
+{
+"name": "Lucía Yenes",
+"gender": "F",
+"school": "New Mexico St.",
+"conference": "Conference USA",
+"pos": "F",
+"year": "Sr",
+"city": "Madrid",
+"roster": "https://nmstatesports.com/sports/womens-basketball/roster"
+},
+{
+"name": "Andrea Martinez",
+"gender": "F",
+"school": "Northeastern",
+"conference": "Coastal Athletic Association",
+"pos": "F",
+"year": "Jr",
+"city": "Barcelona",
+"roster": "https://nuhuskies.com/sports/womens-basketball/roster"
+},
+{
+"name": "Beatriz Pérez Pulgar",
+"gender": "F",
+"school": "Northeastern",
+"conference": "Coastal Athletic Association",
+"pos": "G",
+"year": "Fr",
+"city": "Galapagar",
+"roster": "https://nuhuskies.com/sports/womens-basketball/roster"
+},
+{
+"name": "Amparo López",
+"gender": "F",
+"school": "Northwestern",
+"conference": "Big Ten Conference",
+"pos": "G",
+"year": "Fr",
+"city": "Valencia",
+"roster": "https://nusports.com/sports/womens-basketball/roster"
+},
+{
+"name": "Sandra Moreno",
+"gender": "F",
+"school": "Northwestern",
+"conference": "Big Ten Conference",
+"pos": "F",
+"year": "Fr",
+"city": "Barcelona",
+"roster": "https://nusports.com/sports/womens-basketball/roster"
+},
+{
+"name": "Carla Celaya",
+"gender": "F",
+"school": "Northwestern St.",
+"conference": "Southland Conference",
+"pos": "G",
+"year": "Sr",
+"city": "Barcelona",
+"roster": "https://nsudemons.com/sports/womens-basketball/roster/2025-26"
+},
+{
+"name": "Gisela Sanchez",
+"gender": "F",
+"school": "Notre Dame",
+"conference": "Atlantic Coast Conference",
+"pos": "Forward",
+"year": "Gr",
+"city": "Barcelona",
+"roster": "https://fightingirish.com/sports/wbball/roster/"
+},
+{
+"name": "Lara Alonso-Basurto",
+"gender": "F",
+"school": "Oregon St.",
+"conference": "Pac-12 Conference",
+"pos": "Forward",
+"year": "Fr",
+"city": "Madrid",
+"roster": "https://osubeavers.com/sports/womens-basketball/roster"
+},
+{
+"name": "Lucia Navarro",
+"gender": "F",
+"school": "Oregon St.",
+"conference": "Pac-12 Conference",
+"pos": "Guard",
+"year": "Jr",
+"city": "Valencia",
+"roster": "https://osubeavers.com/sports/womens-basketball/roster"
+},
+{
+"name": "oe Vecina",
+"gender": "F",
+"school": "Oregon St.",
+"conference": "Pac-12 Conference",
+"pos": "Guard",
+"year": "So",
+"city": "Vigo",
+"roster": "https://osubeavers.com/sports/womens-basketball/roster"
+},
+{
+"name": "Goundo Diakite Bayo",
+"gender": "F",
+"school": "Portland",
+"conference": "West Coast Conference",
+"pos": "F",
+"year": "UNK",
+"city": "Barcelona",
+"roster": "https://portlandpilots.com/sports/womens-basketball/roster"
+},
+{
+"name": "Martina Borrellas",
+"gender": "F",
+"school": "Rhode Island",
+"conference": "Atlantic 10 Conference",
+"pos": "G",
+"year": "Jr",
+"city": "Barcelona",
+"roster": "https://gorhody.com/sports/womens-basketball/roster"
+},
+{
+"name": "Queen Ikhiuwu",
+"gender": "F",
+"school": "Rhode Island",
+"conference": "Atlantic 10 Conference",
+"pos": "F",
+"year": "Sr",
+"city": "Madrid",
+"roster": "https://gorhody.com/sports/womens-basketball/roster"
+},
+{
+"name": "Aina Perez Mesquida",
+"gender": "F",
+"school": "Rider",
+"conference": "Metro Atlantic Athletic Conference",
+"pos": "G",
+"year": "So",
+"city": "Manacor",
+"roster": "https://gobroncs.com/sports/womens-basketball/roster"
+},
+{
+"name": "Adriana Blazquez",
+"gender": "F",
+"school": "SIUE",
+"conference": "Ohio Valley Conference",
+"pos": "F",
+"year": "So",
+"city": "Madrid",
+"roster": "https://siuecougars.com/sports/womens-basketball/roster"
+},
+{
+"name": "Esther Rodellar",
+"gender": "F",
+"school": "Sam Houston",
+"conference": "Conference USA",
+"pos": "G",
+"year": "Jr",
+"city": "Barcelona",
+"roster": "https://gobearkats.com/sports/womens-basketball/roster"
+},
+{
+"name": "Carla Baguda",
+"gender": "F",
+"school": "Samford",
+"conference": "Southern Conference",
+"pos": "F",
+"year": "Fr",
+"city": "Barcelona",
+"roster": "https://samfordsports.com/sports/womens-basketball/roster"
+},
+{
+"name": "Aina Cargol",
+"gender": "F",
+"school": "San Francisco",
+"conference": "West Coast Conference",
+"pos": "G",
+"year": "Fr",
+"city": "Olot",
+"roster": "https://usfdons.com/sports/womens-basketball/roster"
+},
+{
+"name": "Noelia Mouriño",
+"gender": "F",
+"school": "San Francisco",
+"conference": "West Coast Conference",
+"pos": "F",
+"year": "Fr",
+"city": "O Porrino",
+"roster": "https://usfdons.com/sports/womens-basketball/roster"
+},
+{
+"name": "Mara Neira",
+"gender": "F",
+"school": "San Francisco",
+"conference": "West Coast Conference",
+"pos": "G",
+"year": "Gr",
+"city": "Baiona",
+"roster": "https://usfdons.com/sports/womens-basketball/roster"
+},
+{
+"name": "Paula Tirado",
+"gender": "F",
+"school": "San Francisco",
+"conference": "West Coast Conference",
+"pos": "G",
+"year": "So",
+"city": "Mataro",
+"roster": "https://usfdons.com/sports/womens-basketball/roster"
+},
+{
+"name": "Carla Fuster",
+"gender": "F",
+"school": "San Jose St.",
+"conference": "Mountain West Conference",
+"pos": "Guard",
+"year": "Fr",
+"city": "Barcelona",
+"roster": "https://sjsuspartans.com/sports/womens-basketball/roster"
+},
+{
+"name": "Gabriela Pato",
+"gender": "F",
+"school": "San Jose St.",
+"conference": "Mountain West Conference",
+"pos": "Forward",
+"year": "Fr",
+"city": "Vigo",
+"roster": "https://sjsuspartans.com/sports/womens-basketball/roster"
+},
+{
+"name": "Aroa Mangas",
+"gender": "F",
+"school": "South Alabama",
+"conference": "Sun Belt Conference",
+"pos": "G",
+"year": "So",
+"city": "Salamanca",
+"roster": "https://usajaguars.com/sports/womens-basketball/roster"
+},
+{
+"name": "Princess Okafor Nweze",
+"gender": "F",
+"school": "South Alabama",
+"conference": "Sun Belt Conference",
+"pos": "F",
+"year": "So",
+"city": "Malaga",
+"roster": "https://usajaguars.com/sports/womens-basketball/roster"
+},
+{
+"name": "Carla Brito",
+"gender": "F",
+"school": "South Fla.",
+"conference": "American Conference",
+"pos": "F",
+"year": "Sr",
+"city": "Puerto del Rosario",
+"roster": "https://gousfbulls.com/sports/womens-basketball/roster/2025-26"
+},
+{
+"name": "Carmen Morales",
+"gender": "F",
+"school": "Southern Ill.",
+"conference": "Missouri Valley Conference",
+"pos": "C",
+"year": "So",
+"city": "Grenada",
+"roster": "https://siusalukis.com/sports/womens-basketball/roster"
+},
+{
+"name": "Daniela Abies",
+"gender": "F",
+"school": "St. John's (NY)",
+"conference": "Big East Conference",
+"pos": "Forward",
+"year": "Jr",
+"city": "Málaga",
+"roster": "https://redstormsports.com/sports/womens-basketball/roster"
+},
+{
+"name": "Garcia-Escribano Pozo, Candela",
+"gender": "F",
+"school": "Stetson",
+"conference": "ASUN Conference",
+"pos": "G",
+"year": "So",
+"city": "Madrid",
+"roster": "https://gohatters.com/sports/womens-basketball/roster"
+},
+{
+"name": "Sandra Frau Garcia",
+"gender": "F",
+"school": "Stony Brook",
+"conference": "Coastal Athletic Association",
+"pos": "Guard",
+"year": "Gr",
+"city": "Pego",
+"roster": "https://stonybrookathletics.com/sports/womens-basketball/roster"
+},
+{
+"name": "Suarez",
+"gender": "F",
+"school": "TCU",
+"conference": "Big 12 Conference",
+"pos": "F",
+"year": "Gr",
+"city": "Oviedo",
+"roster": "https://gofrogs.com/sports/womens-basketball/roster"
+},
+{
+"name": "Gemma Núñez",
+"gender": "F",
+"school": "Texas Tech",
+"conference": "Big 12 Conference",
+"pos": "Point Guard",
+"year": "Sr",
+"city": "Almeria",
+"roster": "https://texastech.com/sports/womens-basketball/roster"
+},
+{
+"name": "Martina Borrellas",
+"gender": "F",
+"school": "UAlbany",
+"conference": "America East Conference",
+"pos": "G",
+"year": "So",
+"city": "Barcelona",
+"roster": "https://ualbanysports.com/sports/womens-basketball/roster"
+},
+{
+"name": "Júlia Palomo Vicente",
+"gender": "F",
+"school": "UAlbany",
+"conference": "America East Conference",
+"pos": "G",
+"year": "Gr",
+"city": "La Seu d'Urgell",
+"roster": "https://ualbanysports.com/sports/womens-basketball/roster"
+},
+{
+"name": "Laura Vera",
+"gender": "F",
+"school": "UAlbany",
+"conference": "America East Conference",
+"pos": "G",
+"year": "Fr",
+"city": "Estepona",
+"roster": "https://ualbanysports.com/sports/womens-basketball/roster"
+},
+{
+"name": "Daniela Falcon Hernandez",
+"gender": "F",
+"school": "UC Irvine",
+"conference": "Big West Conference",
+"pos": "Forward",
+"year": "So",
+"city": "Las Palmas Gran Canaria",
+"roster": "https://ucirvinesports.com/sports/womens-basketball/roster"
+},
+{
+"name": "Lucia Moreno Tallon",
+"gender": "F",
+"school": "UC Riverside",
+"conference": "Big West Conference",
+"pos": "F",
+"year": "Fr",
+"city": "Malaga",
+"roster": "https://gohighlanders.com/sports/womens-basketball/roster"
+},
+{
+"name": "Martina Monton Martinez",
+"gender": "F",
+"school": "UIW",
+"conference": "Southland Conference",
+"pos": "Guard",
+"year": "Fr",
+"city": "Barcelona",
+"roster": "https://uiwcardinals.com/sports/womens-basketball/roster"
+},
+{
+"name": "Carmen Yánez",
+"gender": "F",
+"school": "UMBC",
+"conference": "America East Conference",
+"pos": "G",
+"year": "Sr",
+"city": "Las Palmas de Gran Canaria",
+"roster": "https://umbcretrievers.com/sports/womens-basketball/roster"
+},
+{
+"name": "Candela Sabater Sánchez",
+"gender": "F",
+"school": "UMES",
+"conference": "Mid-Eastern Athletic Conference",
+"pos": "F",
+"year": "So",
+"city": "Elda",
+"roster": "https://umeshawksports.com/sports/womens-basketball/roster"
+},
+{
+"name": "Carla Subirats",
+"gender": "F",
+"school": "UMass Lowell",
+"conference": "America East Conference",
+"pos": "Guard",
+"year": "So",
+"city": "Barcelona",
+"roster": "https://goriverhawks.com/sports/womens-basketball/roster"
+},
+{
+"name": "Ylenia Expósito Pérez",
+"gender": "F",
+"school": "USC Upstate",
+"conference": "Big South Conference",
+"pos": "G",
+"year": "Gr",
+"city": "Santa Cruz de Tenerife",
+"roster": "https://upstatespartans.com/sports/womens-basketball/roster"
+},
+{
+"name": "Irene Asensio",
+"gender": "F",
+"school": "UTEP",
+"conference": "Conference USA",
+"pos": "G",
+"year": "So",
+"city": "Barcelona",
+"roster": "https://utepminers.com/sports/womens-basketball/roster"
+},
+{
+"name": "Blessing Okhwodiasa",
+"gender": "F",
+"school": "UTEP",
+"conference": "Conference USA",
+"pos": "F",
+"year": "Fr",
+"city": "Madrid",
+"roster": "https://utepminers.com/sports/womens-basketball/roster"
+},
+{
+"name": "Igbinedion Omoruyi, Osadebamwen",
+"gender": "F",
+"school": "UTEP",
+"conference": "Conference USA",
+"pos": "F",
+"year": "So",
+"city": "Madrid",
+"roster": "https://utepminers.com/sports/womens-basketball/roster"
+},
+{
+"name": "Paloma Munoz Herreros",
+"gender": "F",
+"school": "Utah St.",
+"conference": "Mountain West Conference",
+"pos": "G",
+"year": "So",
+"city": "Málaga",
+"roster": "https://utahstateaggies.com/sports/womens-basketball/roster"
+},
+{
+"name": "Aitana Rosello Lopez",
+"gender": "F",
+"school": "Utah St.",
+"conference": "Mountain West Conference",
+"pos": "G",
+"year": "So",
+"city": "Castellón de la Plana",
+"roster": "https://utahstateaggies.com/sports/womens-basketball/roster"
+},
+{
+"name": "Mirembe Twehamye Montanana",
+"gender": "F",
+"school": "Utah St.",
+"conference": "Mountain West Conference",
+"pos": "G",
+"year": "Fr",
+"city": "Valencia",
+"roster": "https://utahstateaggies.com/sports/womens-basketball/roster"
+},
+{
+"name": "Laia Crespín",
+"gender": "F",
+"school": "VCU",
+"conference": "Atlantic 10 Conference",
+"pos": "G",
+"year": "So",
+"city": "Calafell",
+"roster": "https://vcuathletics.com/sports/womens-basketball/roster"
+},
+{
+"name": "Lucía Sotelo",
+"gender": "F",
+"school": "VCU",
+"conference": "Atlantic 10 Conference",
+"pos": "F",
+"year": "Sr",
+"city": "Ourense",
+"roster": "https://vcuathletics.com/sports/womens-basketball/roster"
+},
+{
+"name": "Maria Doreste",
+"gender": "F",
+"school": "Wagner",
+"conference": "Northeast Conference",
+"pos": "G",
+"year": "Sr",
+"city": "Las Palmas de Gran Canaria",
+"roster": "https://wagnerathletics.com/sports/womens-basketball/roster"
+},
+{
+"name": "Irene Fernandez de Caleya",
+"gender": "F",
+"school": "Wagner",
+"conference": "Northeast Conference",
+"pos": "G",
+"year": "Sr",
+"city": "Tarragona",
+"roster": "https://wagnerathletics.com/sports/womens-basketball/roster"
+},
+{
+"name": "Saioa San Francisco",
+"gender": "F",
+"school": "Wagner",
+"conference": "Northeast Conference",
+"pos": "G",
+"year": "Jr",
+"city": "Pamplona",
+"roster": "https://wagnerathletics.com/sports/womens-basketball/roster"
+},
+{
+"name": "Marta Alsina",
+"gender": "F",
+"school": "Washington St.",
+"conference": "Pac-12 Conference",
+"pos": "G",
+"year": "So",
+"city": "Barcelona",
+"roster": "https://wsucougars.com/sports/womens-basketball/roster"
+},
+{
+"name": "Gal-la Font",
+"gender": "F",
+"school": "West Ga.",
+"conference": "ASUN Conference",
+"pos": "F",
+"year": "Jr",
+"city": "Barcelona",
+"roster": "https://uwgathletics.com/sports/womens-basketball/roster"
+},
+{
+"name": "Emma Dibarboure",
+"gender": "F",
+"school": "Western Mich.",
+"conference": "Mid-American Conference",
+"pos": "F",
+"year": "Fr",
+"city": "Madrid",
+"roster": "https://wmubroncos.com/sports/womens-basketball/roster"
+},
+{
+"name": "Nile Muguira Orbe",
+"gender": "F",
+"school": "Western Mich.",
+"conference": "Mid-American Conference",
+"pos": "G",
+"year": "Jr",
+"city": "Guernica",
+"roster": "https://wmubroncos.com/sports/womens-basketball/roster"
+},
+{
+"name": "Alba Martín Mesa",
+"gender": "F",
+"school": "Wisconsin",
+"conference": "Big Ten Conference",
+"pos": "G",
+"year": "So",
+"city": "Las Palmas de Gran Canaria",
+"roster": "https://uwbadgers.com/sports/womens-basketball/roster"
+},
+{
+"name": "Queen Ikhiuwu",
+"gender": "F",
+"school": "Wofford",
+"conference": "Southern Conference",
+"pos": "F",
+"year": "Jr",
+"city": "Madrid",
+"roster": "https://woffordterriers.com/sports/womens-basketball/roster"
+},
+{
+"name": "Lucía Martínez López",
+"gender": "F",
+"school": "Xavier",
+"conference": "Big East Conference",
+"pos": "G/F",
+"year": "So",
+"city": "Oviedo",
+"roster": "https://goxavier.com/sports/womens-basketball/roster"
+},
+{
+"name": "Ana Guillen",
+"gender": "F",
+"school": "Yale",
+"conference": "Ivy League",
+"pos": "F",
+"year": "Jr",
+"city": "Badalona",
+"roster": "https://yalebulldogs.com/sports/womens-basketball/roster"
+}
+]
+}

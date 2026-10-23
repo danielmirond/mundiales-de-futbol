@@ -118,6 +118,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // Portal multi-competición: deportes y competiciones con datos en vivo
   // (las "próximamente" van noindex y no se listan).
   out.push(entry('/partidos-hoy', now, 'daily', 0.9));
+  out.push(entry('/universitario', now, 'daily', 0.7));
   for (const s of SPORTS) out.push(entry(`/${s.slug}`, now, 'daily', 0.8));
   for (const c of COMPETITIONS) {
     if (c.href || (!c.espn && !c.stats)) continue;

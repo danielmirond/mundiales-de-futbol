@@ -52,6 +52,9 @@ export default async function SportPage({ params }: { params: Promise<{ locale: 
         </Link>
         <h1 className="mt-6 font-display text-fluid-display uppercase leading-[0.9]">{s.name}</h1>
         <p className="mt-4 max-w-2xl text-lg text-[var(--color-fg-muted)]">{s.description}</p>
+        {(s.slug === 'baloncesto' || s.slug === 'futbol-americano') && (
+          <Link href={withLocale(L, '/universitario')} className="mt-4 inline-flex rounded-full border border-[var(--color-border-strong)] px-4 py-2 text-sm font-semibold hover:border-[var(--accent)] hover:text-[var(--accent-ink)]">Deporte universitario (NCAA) →</Link>
+        )}
       </header>
 
       <NewsOpening locale={L} scope={{ sport: s.slug }} />

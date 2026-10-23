@@ -28,7 +28,9 @@ export type Competition = {
   sport: SportSlug;
   kind: CompetitionKind;
   /** Mapeo ESPN: `sport` (soccer, basketball, rugby…) y `league` (esp.1…). */
-  espn?: { sport: string; league: string; dateRange?: boolean };
+  espn?: { sport: string; league: string; dateRange?: boolean; /** Parámetros extra del scoreboard (p. ej. `groups=50&limit=400` en la NCAA). */ query?: string };
+  /** Competición secundaria (NCAA): tiene sus páginas, pero no entra en los tableros generales (portada, hoy, directo). */
+  secondary?: boolean;
   hasStandings: boolean;
   /** Plantilla alternativa cuando no es un partido local-visitante de ESPN: estadísticas OpenACB, tenis o motor. */
   stats?: 'openacb' | 'tennis' | 'racing' | 'golf' | 'combat' | 'boxing' | 'motogp' | 'federacion';
@@ -173,6 +175,8 @@ export const COMPETITIONS: Competition[] = [
   // ─── Fútbol americano, hockey y béisbol (ESPN) ──────────────────
   { slug: 'nfl', name: 'NFL', sport: 'futbol-americano', kind: 'liga', espn: { sport: 'football', league: 'nfl' }, hasStandings: true, flag: '🇺🇸',
     description: 'NFL: resultados en directo, calendario semana a semana y clasificación por conferencias.', keywords: ['nfl', 'resultados nfl', 'clasificación nfl', 'partidos nfl hoy', 'calendario nfl'] },
+  { slug: 'ncaa-football', name: 'NCAA (fútbol americano universitario)', shortName: 'NCAA', sport: 'futbol-americano', kind: 'liga', espn: { sport: 'football', league: 'college-football', query: 'groups=80&limit=300' }, hasStandings: true, secondary: true, flag: '🇺🇸',
+    description: 'Fútbol americano universitario (NCAA FBS): resultados de cada semana, calendario, clasificación por conferencias y ranking AP.', keywords: ['fútbol americano universitario', 'college football', 'ncaa football', 'ranking ap'] },
   { slug: 'nhl', name: 'NHL', sport: 'hockey', kind: 'liga', espn: { sport: 'hockey', league: 'nhl' }, hasStandings: true, flag: '🇺🇸',
     description: 'NHL: marcadores en directo, calendario y clasificación por conferencias.', keywords: ['nhl', 'resultados nhl', 'clasificación nhl', 'partidos nhl hoy'] },
   { slug: 'mlb', name: 'MLB', sport: 'beisbol', kind: 'liga', espn: { sport: 'baseball', league: 'mlb' }, hasStandings: true, flag: '🇺🇸',
@@ -189,6 +193,10 @@ export const COMPETITIONS: Competition[] = [
   { slug: 'boxeo', name: 'Boxeo', sport: 'combate', kind: 'torneo', hasStandings: false, stats: 'boxing',
     description: 'Boxeo: calendario de veladas, combates por títulos mundiales, horario en España y dónde ver cada pelea.', keywords: ['boxeo', 'próxima velada de boxeo', 'boxeo hoy', 'dónde ver boxeo', 'boxeo dazn'] },
   // ─── Baloncesto femenino ───────────────────────────────────────
+  { slug: 'ncaa', name: 'NCAA masculina', shortName: 'NCAA', sport: 'baloncesto', kind: 'liga', espn: { sport: 'basketball', league: 'mens-college-basketball', query: 'groups=50&limit=400' }, hasStandings: true, secondary: true, flag: '🇺🇸',
+    description: 'Baloncesto universitario masculino de EE. UU. (NCAA División I): resultados, calendario, clasificación por conferencias y March Madness.', keywords: ['ncaa', 'baloncesto universitario', 'march madness', 'ncaa resultados', 'ncaa baloncesto'] },
+  { slug: 'ncaa-femenina', name: 'NCAA femenina', shortName: 'NCAA fem.', sport: 'baloncesto', kind: 'liga', espn: { sport: 'basketball', league: 'womens-college-basketball', query: 'groups=50&limit=400' }, hasStandings: true, secondary: true, flag: '🇺🇸',
+    description: 'Baloncesto universitario femenino de EE. UU. (NCAA División I): resultados, calendario y clasificación por conferencias.', keywords: ['ncaa femenina', 'baloncesto universitario femenino', 'march madness femenino'] },
   { slug: 'wnba', name: 'WNBA', sport: 'baloncesto', kind: 'liga', espn: { sport: 'basketball', league: 'wnba' }, hasStandings: true, flag: '🇺🇸',
     description: 'WNBA: marcadores, calendario y clasificación de la liga femenina de baloncesto.', keywords: ['wnba', 'resultados wnba', 'clasificación wnba'] },
 ];
@@ -208,6 +216,6 @@ export function competitionsOf(sport: string): Competition[] {
 }
 /** Competiciones con datos en vivo (ESPN) y sin redirección a otra sección. */
 export function liveCompetitions(sport?: string): Competition[] {
-  return COMPETITIONS.filter((c) => c.espn && !c.href && (!sport || c.sport === sport));
+  return COMPETITIONS.filter((c) => c.espn && !c.href && !c.secondary && (!sport || c.sport === sport));
 }
 export const competitionPath = (c: Competition) => c.href ?? `/${c.sport}/${c.slug}`;

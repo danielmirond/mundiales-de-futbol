@@ -105,7 +105,7 @@ function normalizeEvent(e: any, comp: Competition): Match | null {
 export async function fetchDay(comp: Competition, dayKey: string, revalidate = 300): Promise<Match[]> {
   if (!comp.espn) return [];
   try {
-    const url = `${SITE_API}/${comp.espn.sport}/${comp.espn.league}/scoreboard?dates=${toEspnDate(dayKey)}`;
+    const url = `${SITE_API}/${comp.espn.sport}/${comp.espn.league}/scoreboard?dates=${toEspnDate(dayKey)}${comp.espn.query ? `&${comp.espn.query}` : ''}`;
     const res = await fetch(url, { headers: HEADERS, next: { revalidate } });
     if (!res.ok) return [];
     const data = await res.json();

@@ -82,7 +82,10 @@ export async function NewsOpening({ locale, scope = {}, className = '' }: { loca
  * y deportes solo si supera el umbral; en una competición, cualquier directo suyo.
  */
 async function LiveOpening({ locale, scope, className }: { locale: Locale; scope: AperturaScope; className: string }) {
-  const comps = liveCompetitions(scope.sport).filter((c) => !scope.competition || c.slug === scope.competition);
+  // En la página de una competición vale cualquiera con ESPN, también las secundarias (NCAA).
+  const comps = scope.competition
+    ? COMPETITIONS.filter((c) => c.espn && !c.href && c.sport === scope.sport && c.slug === scope.competition)
+    : liveCompetitions(scope.sport);
   if (comps.length === 0) return null;
   const threshold = scope.competition ? 0 : LIVE_THRESHOLD;
   const [m] = (await fetchToday(comps))
