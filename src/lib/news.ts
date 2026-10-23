@@ -154,6 +154,64 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'martin-zubimendi-espana-asistencia-split-merino-arsenal-banquillo-arteta-minutos',
+    title: 'Martín Zubimendi da victorias a España mientras Arteta lo deja mirando desde el banquillo',
+    summary: 'En ocho días de octubre jugó 104 minutos con España y dio el pase del triunfo en Split. En la Premier suma unos 89 en toda la temporada y no juega desde el 19 de septiembre.',
+    body: `El último balón que tocó Martín Zubimendi en un partido oficial del Arsenal fue en Brighton, el **19 de septiembre**. Entró en el minuto 60 con el 3-0 en contra. Desde entonces, nada: banquillo sin salir ante el Leeds y el Nottingham Forest, baja ante el Lille y otra vez suplente sin minutos en Múnich, según las [alineaciones de ESPN](https://www.espn.com/soccer/match/_/gameId/401915312).
+
+En medio, España. En la ventana de selecciones jugó tres de los cuatro partidos de la Liga de Naciones y el 6 de octubre, en Split, puso el pase del 1-2 a Mikel Merino en el minuto 88, como recoge [el acta del Croacia - España](https://www.espn.com/soccer/match/_/gameId/401861137).
+
+## Ocho días con España pesan más que la temporada en Londres
+
+Sumando los minutos de cada acta de ESPN, el cruce sale así:
+
+| Partido | Papel | Minutos |
+| --- | --- | --- |
+| España 4-1 Croacia (Sevilla, 29 sep.) | Titular | 72 |
+| España 3-1 Chequia (3 oct.) | Entra en el 77 | 13 |
+| Croacia 1-2 España (Split, 6 oct.) | Entra en el 71, asistencia | 19 |
+| **Total con España en 8 días** | | **104** |
+| **Total en la Premier, 7 jornadas** | Cinco veces suplente que entra | **89** |
+
+En la liga inglesa no ha sido titular ni una vez. Entró desde el banquillo ante el Coventry, el Aston Villa, el Chelsea, el Sunderland y el Brighton, siempre en la última media hora. Los 89 minutos no cuentan el añadido, así que la cifra real es algo mayor, pero la proporción no cambia. Solo fue titular en la Copa de la Liga, en Ipswich, a mediados de septiembre.
+
+## El tobillo, en un lance con Merino
+
+La baja ante el Lille tiene una explicación casera. Tras el partido contra el Leeds, Arteta puso una sesión extra para los que habían jugado poco y ahí se torcieron el tobillo Zubimendi y Piero Hincapié: el técnico lo [confirmó en la previa de la Champions](https://www.sportsmole.co.uk/football/arsenal/champions-league/news/very-unfortunate-arteta-explains-hincapie-zubimendi-arsenal-injury-blows_606741.html). El choque fue con Merino, que lo contó la noche del Lille: «si hay alguien que no quiere hacerle daño a 'Zubi' soy yo», dijo [en la Cadena SER](https://cadenaser.com/nacional/2026/10/13/mikel-merino-tener-mas-minutos-en-el-arsenal-si-podeis-hablar-con-arteta-y-ayudar-por-mi-perfecto-cadena-ser/).
+
+El mismo Merino, que una semana antes había marcado los dos goles de Split, bromeaba en esa entrevista con que le ayudaran a hablar con Arteta para tener más minutos. El navarro y el guipuzcoano que el Arsenal sacó de la Real Sociedad viven lo mismo: decisivos con la selección, secundarios en Londres.
+
+## Quién juega en su sitio
+
+En Nottingham y en Múnich, el centro del campo titular del Arsenal fue Declan Rice, Bruno Guimarães y Martin Ødegaard. Bruno marcó el 2-1 al Leeds y Rice empató en Múnich. Con ese rendimiento, el hueco no se abre solo.
+
+Zubimendi llegó [en julio de 2025 desde la Real Sociedad](https://www.malaymail.com/news/sports/2025/07/06/arsenal-sign-spains-martin-zubimendi-as-arteta-reshapes-midfield/183048) y el club ganó la Premier y llegó a la final de la Champions en su primera temporada, como recordaba el propio Merino en la SER.
+
+## Lo siguiente
+
+El Arsenal recibe al Everton este **sábado 24 a las 16:00** (15:00 en Canarias) en el Emirates, en DAZN 1, según la [ficha del Arsenal - Everton](/futbol/premier-league/partido/401878768). Después visita Anfield el 1 de noviembre. La ficha completa del equipo está en la [página del Arsenal](/futbol/premier-league/equipo/359), y el historial de la selección, en la de [España](/selecciones/ESP).`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'Premier League', sport: 'futbol', slug: 'premier-league' },
+    sourceName: 'ESPN',
+    sourceUrl: 'https://www.espn.com/soccer/match/_/gameId/401861137',
+    sourceLang: 'en',
+    sourcesSecondary: [
+      { name: 'Cadena SER: entrevista a Mikel Merino', url: 'https://cadenaser.com/nacional/2026/10/13/mikel-merino-tener-mas-minutos-en-el-arsenal-si-podeis-hablar-con-arteta-y-ayudar-por-mi-perfecto-cadena-ser/' },
+      { name: 'Sports Mole: Arteta sobre las lesiones de Zubimendi e Hincapié', url: 'https://www.sportsmole.co.uk/football/arsenal/champions-league/news/very-unfortunate-arteta-explains-hincapie-zubimendi-arsenal-injury-blows_606741.html' },
+      { name: 'ESPN: Bayern - Arsenal', url: 'https://www.espn.com/soccer/match/_/gameId/401915312' },
+      { name: 'ESPN: España - Croacia', url: 'https://www.espn.com/soccer/match/_/gameId/401861084' },
+    ],
+    publishedAt: '2026-10-23T22:10:00+02:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Martin_Zubimendi_Argentina_v_Spain_19_July_2026-231.jpg/1280px-Martin_Zubimendi_Argentina_v_Spain_19_July_2026-231.jpg',
+      alt: 'Martín Zubimendi, con la camiseta roja de España y el dorsal 18, a punto de golpear el balón con la pierna derecha durante la final del Mundial 2026 contra Argentina',
+      credit: 'Bryan Berlin · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
     slug: 'fernando-alonso-austin-misma-hora-clasico-horarios-dazn-cambio-de-hora',
     title: 'Fernando Alonso corre en Austin a la misma hora que el Clásico: horarios y cómo verlo todo',
     summary: 'La carrera de Austin y el Barcelona - Real Madrid empiezan el domingo a las 21:00 y los dos van en DAZN. Antes, la clasificación del sábado a las 23:00 y el cambio de hora.',
