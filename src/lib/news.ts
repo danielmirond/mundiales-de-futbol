@@ -3947,14 +3947,22 @@ El Tavernes, fundado en 1940, se ganó la plaza al conquistar la Nostra Copa el 
 ## Lo que espera el club
 
 - **Público:** el presidente confía en llevar entre 10.000 y 14.000 aficionados de la Safor. El vicepresidente, Toni Hernández, habla de 15.000 o 20.000 como una cifra que para ellos sería enorme.
-- **Entradas:** precios populares, todavía por anunciar, que el club pacta con el Valencia.
-- **Socios:** viajarán, «teóricamente, con gastos pagados», en palabras de Talens.
+- **Entradas:** ya están a la venta, [entre 10 y 22 euros](https://www.valenciacf.com/ya-a-la-venta-las-entradas-para-el-partido-de-copa-del-rey-contra-la-ue-tavernes-que-se-disputara-en-el-camp-de-mestalla), con un máximo de seis por persona.
+- **Socios:** viajarán, «teóricamente, con gastos pagados», en palabras de Talens. El Ayuntamiento de Tavernes pone además autobús gratuito a Mestalla para quien compre entrada.
+
+## Los abonados del Valencia también pagan
+
+Como el Valencia juega de visitante, el pase de temporada no sirve: los abonados y la grada de animación tienen que comprar su localidad como cualquiera. Aun así, el 22 de octubre ya se habían vendido unas 18.000 entradas. Tribuna, anfiteatro y los sectores del 1 al 10 se agotaron en un día y el club tuvo que [abrir más zonas del estadio](https://www.eldesmarque.com/futbol/copa-del-rey/20261022/copa-tavernes-valencia-cf-mestalla_18_020510153.html), entre ellas la grada central a 10 euros.
+
+El club valencianista recuerda que solo ha jugado una vez como visitante en su propio campo: el 9 de mayo de 1964, también en Copa, ante el CD Mestalla, hoy su filial. Esta será la segunda.
+
+En Tavernes lo intentaron hasta el final. La alcaldesa, Lara Romero, viajó al sorteo para pedir a la RFEF jugar en el pueblo, y técnicos federativos visitaron el campo el 15 de octubre. Con gradas supletorias no se pasaba de unas 3.000 personas, y ni Alzira ni Gandia daban mucho más, [contó Romero a Levante-EMV](https://www.levante-emv.com/safor/2026/10/16/jugar-campo-tavernes-valldigna-encuentro-135363738.html). En la previa ante el Maracena ya hubo más de 2.200.
 
 ## Un Valencia que llega 19.º
 
 El rival no atraviesa su mejor momento. El Valencia es 19.º de LaLiga con 6 puntos en nueve jornadas: una victoria, tres empates y cinco derrotas. Ha marcado 6 goles; solo el Getafe ha marcado menos. Los datos son de ESPN y se pueden seguir en la [clasificación de LaLiga](/futbol/laliga).
 
-Es además, según Esdiario, la última temporada del Valencia en Mestalla antes de mudarse a su nuevo estadio. El Tavernes jugará como local en el viejo campo en el año de su despedida.
+Es además la última temporada del Valencia en Mestalla: el traslado al Nou Mestalla está previsto para el verano de 2027. El 22 de octubre, la Junta de Gobierno municipal [inadmitió la petición de proteger el estadio](https://www.eldesmarque.com/futbol/liga-1a-division/20261023/derribo-mestalla-previsto-traslado-estadio_18_020514626.html) como Bien de Relevancia Local, así que el derribo sigue en el calendario. El Tavernes jugará como local en el viejo campo en el año de su despedida.
 
 No es el único cambio de sede de la ronda. El Sporting de Hortaleza recibirá al Sevilla el jueves 29 en El Val de Alcalá de Henares, [informó COPE](https://www.cope.es/programas/tiempo-de-juego/noticias/partidos-copa-rey-valencia-sevilla-cambian-sede-20261015_3456393.html). Otro equipo de regional, el Atlético Calatayud, [monta gradas portátiles para recibir a Osasuna](/noticias/atletico-calatayud-osasuna-copa-del-rey-gradas-portatiles-san-inigo-entradas). Todo el torneo, en la sección de [Copa del Rey](/futbol/copa-del-rey).`,
     category: 'curiosa',
@@ -3964,6 +3972,7 @@ No es el único cambio de sede de la ronda. El Sporting de Hortaleza recibirá a
     sourceUrl: 'https://www.esdiario.com/deportes/261014/200236/tavernes-cumple-sueno-jugara-valencia-mestalla.html',
     sourceLang: 'es',
     publishedAt: '2026-10-19T13:28:00+02:00',
+    modifiedAt: '2026-10-23T12:56:00+02:00',
     author: 'Redacción Mundiales',
     image: {
       url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Mestalla_antes_del_partido_Valencia-Barcelona_LaLiga_2023-2024.jpg/1280px-Mestalla_antes_del_partido_Valencia-Barcelona_LaLiga_2023-2024.jpg',
@@ -3976,6 +3985,9 @@ No es el único cambio de sede de la ronda. El Sporting de Hortaleza recibirá a
       { name: 'COPE', url: 'https://www.cope.es/programas/tiempo-de-juego/noticias/partidos-copa-rey-valencia-sevilla-cambian-sede-20261015_3456393.html' },
       { name: 'Infobae (Europa Press): sorteo de la primera ronda', url: 'https://www.infobae.com/espana/agencias/2026/10/05/emparejamientos-de-la-primera-ronda-de-la-copa-del-rey/' },
       { name: 'ESPN: clasificación de LaLiga', url: 'https://www.espn.com/soccer/standings/_/league/ESP.1' },
+      { name: 'Valencia CF: venta de entradas', url: 'https://www.valenciacf.com/ya-a-la-venta-las-entradas-para-el-partido-de-copa-del-rey-contra-la-ue-tavernes-que-se-disputara-en-el-camp-de-mestalla' },
+      { name: 'Levante-EMV', url: 'https://www.levante-emv.com/safor/2026/10/16/jugar-campo-tavernes-valldigna-encuentro-135363738.html' },
+      { name: 'ElDesmarque: entradas', url: 'https://www.eldesmarque.com/futbol/copa-del-rey/20261022/copa-tavernes-valencia-cf-mestalla_18_020510153.html' },
     ],
   },
   {
