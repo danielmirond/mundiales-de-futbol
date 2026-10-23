@@ -4193,6 +4193,106 @@ Seis españolas optan al Balón de Oro el 26 de octubre, y Aitana Bonmatí, gana
     ],
   },
   {
+    slug: 'donde-ver-laliga-hypermotion-2026-27-dazn-movistar-precios-autonomicas',
+    title: 'Dónde ver LaLiga Hypermotion 2026-27: DAZN, Movistar Plus+ y las opciones más baratas para seguir la Segunda',
+    summary: 'Toda LaLiga Hypermotion se ve en DAZN y en Movistar Plus+, que la incluye en su plan Libre sin permanencia. Qué ofrece cada operador, cuánto cuesta y qué partidos dan gratis las autonómicas.',
+    body: `LaLiga Hypermotion 2026-27 tiene 42 jornadas: empezó el 14 de agosto, la fase regular acaba el 6 de junio de 2027 y los playoffs de ascenso se juegan del 9 al 20 de junio. Para verla entera hay dos caminos directos, DAZN y Movistar Plus+, y varios operadores que la revenden en paquetes más baratos.
+
+*Esta pieza incluye enlaces de afiliado. Si contratas desde ellos, Mundiales recibe una comisión sin coste extra para ti. No cambia lo que contamos.*
+
+## Las dos opciones con todos los partidos
+
+**DAZN** incluye [toda LaLiga Hypermotion](https://www.dazn.com/es-ES/welcome) en sus planes Fútbol y Premium. El Fútbol cuesta 19,99 €/mes con un año de permanencia o 29,99 € sin ella, y DAZN lo rebaja a menudo: este 24 de octubre su web lo anuncia desde 14,99 €. Ese plan trae además LaLiga (cinco partidos por jornada), Premier, Bundesliga, Serie A, Liga F y la NFL. [Ver los planes de DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome).
+
+**Movistar Plus+** da, según [su propia página](https://www.movistarplus.es/deportes/futbol/la-liga-hypermotion), «todas las jornadas, todos los partidos» en el Plan Libre Cine, Series y Deportes: 9,99 €/mes, sin permanencia y con dos reproducciones a la vez. Es la forma más barata de ver toda la Segunda sin cambiar de operador. [Ver el Plan Libre de Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fla-liga-hypermotion).
+
+## A través de tu operador
+
+| Operador | Qué incluye | Precio |
+| --- | --- | --- |
+| Digi | Toda la Segunda en el Pack Deportes | 3 €/mes más sobre Digi TV |
+| Lowi | Toda la Segunda en el Paquete Deportes | 1 €/mes |
+| Vodafone | Toda la Segunda en el Paquete Deportes | 6 €/mes, con fibra, móvil y TV |
+| Orange TV Libre | Tres partidos por jornada | 7,99 €/mes |
+| Euskaltel, R y Telecable | Toda la Segunda y la Primera Federación (Total TV) | Según paquete |
+
+Precios recogidos por [Xataka Móvil](https://www.xatakamovil.com/multimedia/donde-ver-laliga-hypermotion-2026-2027-plataformas-canales-operadores-que-ofrecen-segunda-division-esta-temporada) en septiembre; conviene confirmarlos con cada operador antes de contratar.
+
+## ¿Se puede ver gratis?
+
+Toda la temporada, no. Canal Sur, Televisión Canaria, TV3 y la TVG emiten bastantes partidos de los clubes de su comunidad en abierto. Ojo con DAZN: su registro gratuito da un partido por jornada de LaLiga EA Sports, no de la Segunda. Lo que sí se ve sin pagar en DAZN, en [esta guía de DAZN gratis](/noticias/dazn-gratis-que-partidos-se-ven-sin-pagar-laliga-liga-endesa-nfl-nhl).
+
+## Resultados y clasificación
+
+Los marcadores en directo, el calendario y la clasificación de cada jornada están en la [sección de LaLiga Hypermotion](/futbol/laliga-2). Y si buscas la categoría de abajo, la [Primera Federación](/futbol/primera-federacion). Para el resto de competiciones, la [guía general de dónde ver deporte en España](/noticias/donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1).`,
+    category: 'tv',
+    competition: { name: 'LaLiga Hypermotion', sport: 'futbol', slug: 'laliga-2' },
+    sourceName: 'DAZN',
+    sourceUrl: 'https://www.dazn.com/es-ES/welcome',
+    sourceLang: 'es',
+    sourcesSecondary: [
+      { name: 'Movistar Plus+', url: 'https://www.movistarplus.es/deportes/futbol/la-liga-hypermotion' },
+      { name: 'Xataka Móvil', url: 'https://www.xatakamovil.com/multimedia/donde-ver-laliga-hypermotion-2026-2027-plataformas-canales-operadores-que-ofrecen-segunda-division-esta-temporada' },
+    ],
+    publishedAt: '2026-10-24T01:40:00+02:00',
+    author: 'Redacción Mundiales de Fútbol',
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/El_Molin%C3%B3n_Sporting-Real_Madrid_15-16.JPG/1280px-El_Molin%C3%B3n_Sporting-Real_Madrid_15-16.JPG',
+      alt: 'El Molinón de Gijón lleno durante un partido nocturno, visto desde la grada',
+      credit: 'Zarz · CC BY-SA 4.0 · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'dazn-gratis-que-partidos-se-ven-sin-pagar-laliga-liga-endesa-nfl-nhl',
+    title: 'DAZN gratis: qué partidos se ven sin pagar y cómo registrarse',
+    summary: 'DAZN tiene un plan gratuito: con registrarse se ve un partido por jornada de LaLiga y de la Liga Endesa y uno a la semana de la NFL y de la NHL. Qué incluye, qué no y cómo darse de alta.',
+    body: `DAZN no es solo de pago. Su plan **DAZN en abierto** es gratuito y solo pide crear una cuenta: no hace falta tarjeta ni suscripción.
+
+*Esta pieza incluye enlaces de afiliado. Si te registras o contratas desde ellos, Mundiales puede recibir una comisión sin coste extra para ti. No cambia lo que contamos.*
+
+## Qué se ve gratis
+
+Según [la web de DAZN](https://www.dazn.com/es-ES/welcome), el plan en abierto incluye:
+
+| Competición | Partidos gratis |
+| --- | --- |
+| LaLiga EA Sports | Uno por jornada |
+| Liga Endesa | Uno por jornada |
+| NFL | Uno a la semana |
+| NHL | Uno a la semana |
+
+DAZN añade que hay «mucho más» en abierto, pero no lo detalla.
+
+## Qué no entra
+
+Ni LaLiga Hypermotion, ni la Premier, ni la Fórmula 1 o MotoGP, ni la NBA. Para eso hace falta un plan de pago: Fútbol, Motor, Baloncesto, Made in USA (NBA, NFL y NASCAR, desde 4,99 €/mes) o Premium. La comparativa de opciones para la Segunda, en [dónde ver LaLiga Hypermotion](/noticias/donde-ver-laliga-hypermotion-2026-27-dazn-movistar-precios-autonomicas).
+
+## Cómo registrarse
+
+1. Entra en [DAZN y crea tu cuenta gratuita](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) con tu correo.
+2. Elige el plan en abierto, sin coste.
+3. Los partidos gratuitos de cada semana aparecen en la aplicación y en la web, en móvil, tableta, ordenador o televisor.
+
+Si después quieres más fútbol, el plan Fútbol se puede contratar desde la misma cuenta; sus precios, en la [guía de dónde ver LaLiga](/noticias/donde-ver-laliga-2026-27-movistar-dazn-precios-jornadas-exclusivas-clasico).
+
+## Horarios y resultados
+
+Los partidos y la clasificación de cada competición: [LaLiga](/futbol/laliga), [Liga Endesa](/baloncesto/liga-endesa), [NFL](/futbol-americano/nfl) y [NHL](/hockey/nhl).`,
+    category: 'tv',
+    sourceName: 'DAZN',
+    sourceUrl: 'https://www.dazn.com/es-ES/welcome',
+    sourceLang: 'es',
+    publishedAt: '2026-10-24T01:41:00+02:00',
+    author: 'Redacción Mundiales de Fútbol',
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Mestalla_antes_del_partido_Valencia-Barcelona_LaLiga_2023-2024.jpg/1280px-Mestalla_antes_del_partido_Valencia-Barcelona_LaLiga_2023-2024.jpg',
+      alt: 'Mestalla de noche antes de un partido, con las gradas naranjas y negras y el nombre del Valencia en la tribuna',
+      credit: 'Anidae · CC BY-SA 4.0 · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
     slug: 'donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1',
     title: 'Dónde ver el deporte en España en 2026-27: canales y precios de cada competición, una a una',
     summary: 'Guía de la temporada 2026-27: dónde se ve en España LaLiga, la Champions, la Premier, la NBA, la F1, MotoGP, el tenis o la NFL, qué plan hace falta, cuánto cuesta y qué es gratis.',

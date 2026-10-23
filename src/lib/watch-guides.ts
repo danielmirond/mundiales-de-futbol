@@ -10,6 +10,7 @@ const BY_COMPETITION: Record<string, { slug: string; label: string }> = {
   'champions-league': { slug: 'donde-ver-champions-league-2026-27-espana-movistar-precios-final-metropolitano', label: 'la Champions' },
   'europa-league': { slug: 'donde-ver-champions-league-2026-27-espana-movistar-precios-final-metropolitano', label: 'la Europa League' },
   'conference-league': { slug: 'donde-ver-champions-league-2026-27-espana-movistar-precios-final-metropolitano', label: 'la Conference League' },
+  'laliga-2': { slug: 'donde-ver-laliga-hypermotion-2026-27-dazn-movistar-precios-autonomicas', label: 'LaLiga Hypermotion' },
   'premier-league': { slug: 'donde-ver-premier-league-espana-2026-27-dazn-movistar-precios-serie-a-bundesliga', label: 'la Premier League' },
   'serie-a': { slug: 'donde-ver-premier-league-espana-2026-27-dazn-movistar-precios-serie-a-bundesliga', label: 'la Serie A' },
   bundesliga: { slug: 'donde-ver-premier-league-espana-2026-27-dazn-movistar-precios-serie-a-bundesliga', label: 'la Bundesliga' },
