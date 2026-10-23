@@ -154,6 +154,233 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'fernando-alonso-austin-misma-hora-clasico-horarios-dazn-cambio-de-hora',
+    title: 'Fernando Alonso corre en Austin a la misma hora que el Clásico: horarios y cómo verlo todo',
+    summary: 'La carrera de Austin y el Barcelona - Real Madrid empiezan el domingo a las 21:00 y los dos van en DAZN. Antes, la clasificación del sábado a las 23:00 y el cambio de hora.',
+    body: `El domingo 25 de octubre, a las **21:00 hora peninsular**, se apagan los semáforos del **Gran Premio de Estados Unidos** y echa a rodar el balón del **Barcelona - Real Madrid**. Es la misma hora al minuto: la carrera sale a las 16:00 de la costa este de EE. UU., según el [calendario de la F1 en ESPN](https://www.espn.com/f1/schedule), y el Clásico está fijado a las 21:00 en la [ficha del partido](/futbol/laliga/partido/401882832). Las dos cosas las emite DAZN.
+
+Antes llega la clasificación del sábado, a las 23:00, con Fernando Alonso y Carlos Sainz. Y entre medias, el cambio de hora: la madrugada del domingo, a las 3:00, los relojes vuelven a las 2:00.
+
+*Esta pieza incluye enlaces de afiliado. Si contratas desde ellos, Mundiales recibe una comisión sin coste extra para ti. No cambia lo que contamos.*
+
+## Horarios del fin de semana
+
+| Sesión | Península | Canarias |
+| --- | --- | --- |
+| Libres 3 de F1 | Sábado 24, 19:30 | 18:30 |
+| Clasificación de F1 | Sábado 24, 23:00 | 22:00 |
+| Gran Premio de Estados Unidos | Domingo 25, 21:00 | 20:00 |
+| Barcelona - Real Madrid | Domingo 25, 21:00 | 20:00 |
+
+El sábado España sigue en horario de verano y el domingo ya está en el de invierno, mientras que EE. UU. no cambia hasta el 1 de noviembre. Por eso la diferencia con Austin pasa de siete horas a seis de un día para otro, y la carrera cae encima del Clásico.
+
+## Cómo llegan Alonso y Sainz
+
+Alonso (Aston Martin) y Sainz (Williams) llegan con 7 puntos cada uno, 17.º y 18.º del Mundial, según la [clasificación oficial de la Fórmula 1](https://www.formula1.com/en/results/2026/drivers). En los primeros libres de este viernes, Alonso fue 12.º y Sainz, 19.º; el más rápido fue Charles Leclerc (Ferrari). Kimi Antonelli (Mercedes) lidera con 340 puntos, 102 más que George Russell, con seis carreras por delante. La clasificación de cada sesión, al día, está en la sección de [Fórmula 1](/motor/formula-1).
+
+## Dónde ver cada cosa
+
+- **La Fórmula 1**: DAZN, que [tiene los derechos en España hasta 2030](https://dazngroup.com/press-room/dazn-renova-os-direitos-de-transmissao-da-formula-1-em-portugal-e-espanha-ate-2030/). Su canal DAZN F1 también se ve en Movistar Plus+ con el paquete de motor.
+- **El Clásico**: DAZN, que [prepara tres horas de previa](https://www.dazn.com/es-ES/news/f%C3%BAtbol/dazn-cobertura-especial-clasico-tres-horas-previa-amplio-equipo-protagonistas-real-madrid-fc-barcelona/ytz7gbo3bqag1dwodskyc6q5n) desde las 18:00. Narradores y programa, en [el Clásico en DAZN](/noticias/clasico-barcelona-real-madrid-dazn-programa-narradores-camp-nou).
+
+El matiz está en el plan. La F1 va en el plan Motor de [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) y el Clásico, en el Plan Fútbol; los dos juntos solo están en el plan Premium. Precios y ofertas de cada uno, con sus fechas de fin, en la [guía de la F1 y MotoGP](/noticias/donde-ver-f1-motogp-espana-2026-dazn-precios-carreras-que-quedan) y en [qué plataforma emite cada competición y cuánto cuesta](/noticias/donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1).
+
+## Dos horas que se pisan enteras
+
+Un gran premio dura en torno a hora y media y un partido, con el descanso, casi dos horas. Si no hay interrupciones, la bandera a cuadros de Austin caerá durante la segunda parte del Clásico. Quien tenga las dos suscripciones tendrá que elegir pantalla o dejar una de las dos para la repetición.`,
+    category: 'tv',
+    kind: 'noticia',
+    competition: { name: 'Fórmula 1', sport: 'motor', slug: 'formula-1' },
+    sourceName: 'ESPN',
+    sourceUrl: 'https://www.espn.com/f1/schedule',
+    sourceLang: 'en',
+    sourcesSecondary: [
+      { name: 'Fórmula 1: clasificación 2026', url: 'https://www.formula1.com/en/results/2026/drivers' },
+      { name: 'DAZN: cobertura del Clásico', url: 'https://www.dazn.com/es-ES/news/f%C3%BAtbol/dazn-cobertura-especial-clasico-tres-horas-previa-amplio-equipo-protagonistas-real-madrid-fc-barcelona/ytz7gbo3bqag1dwodskyc6q5n' },
+      { name: 'DAZN: derechos de la F1 hasta 2030', url: 'https://dazngroup.com/press-room/dazn-renova-os-direitos-de-transmissao-da-formula-1-em-portugal-e-espanha-ate-2030/' },
+      { name: 'ESPN: Barcelona - Real Madrid', url: 'https://www.espn.com/soccer/match/_/gameId/401882832' },
+    ],
+    publishedAt: '2026-10-23T21:28:00+02:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/F1_2026%2C_Aston_Martin_F1_Team%2C_Aston_Martin_AMR26%2C_Fernando_Alonso%2C_Spa_Francorchamps_%2855425688703%29.jpg/1280px-F1_2026%2C_Aston_Martin_F1_Team%2C_Aston_Martin_AMR26%2C_Fernando_Alonso%2C_Spa_Francorchamps_%2855425688703%29.jpg',
+      alt: 'El Aston Martin verde de Fernando Alonso, en plena recta de Spa-Francorchamps en 2026, con el fondo de árboles desenfocado por la velocidad',
+      credit: 'Der Alf · Wikimedia Commons',
+      license: 'CC BY 4.0',
+    },
+  },
+  {
+    slug: 'peter-lim-socio-valencia-pitchwise-doce-anos-compra-bankia-villarreal-mestalla',
+    title: 'Peter Lim deja entrar a un socio en el Valencia doce años después de quedarse el club',
+    summary: 'Pitchwise Holdings tendrá el 42 % del Valencia y meterá 100 millones. Llega en vísperas del aniversario de la compra de Lim, cerrada el 24 de octubre de 2014.',
+    body: `Peter Lim ya no tendrá el Valencia casi para él solo. Meriton Holdings, su sociedad, vende acciones a **Pitchwise Holdings**, un consorcio estadounidense que se quedará con el **42 %** del club, según [el comunicado del Valencia](https://www.valenciacf.com/kiat-lim-y-pitchwise-holdings-conforman-una-nueva-alianza-accionarial-en-el-valencia-cf) de este viernes. Meriton seguirá siendo el accionista mayoritario y Kiat Lim, el presidente.
+
+La fecha tiene su aquel. Lim cerró la compra del club [la noche del 24 de octubre de 2014](https://valenciaplaza.com/peter-lim-pierde-dinero-bolsa-desde-compra-valencia), cuando se quedó el 70 % que tenía la Fundación Valencia CF pagando los 74 millones que esta debía a Bankia. Mañana se cumplen doce años, y ese mismo sábado el Valencia recibe al Villarreal en Mestalla.
+
+## Lo que dice el acuerdo
+
+| | |
+| --- | --- |
+| Comprador | Pitchwise Holdings, dirigido por Ann Rodriguez y Corey Woolfolk |
+| Participación final | 42 % |
+| Valor de empresa | 1.250 millones de euros |
+| Dinero nuevo | 100 millones, disponibles de inmediato para el club |
+| Mayoría | Meriton Holdings, de Lim |
+| Presidente | Kiat Lim |
+| Pendiente | Autorizaciones regulatorias y condiciones de cierre |
+
+Entre quienes respaldan a Pitchwise están George Roberts y Henry Kravis, cofundadores del fondo KKR, y el Penner Sports Group, según [El Español](https://www.elespanol.com/valencia/deportes/20261023/peter-lim-vende-valencia-cf-pitchwise-holdings-participado-fondo-americano-kkr/1003744432627_0.amp.html). Kiat Lim habla en el comunicado de «una nueva era».
+
+## Lo que no dice
+
+No hay precio de las acciones. Los 1.250 millones son valor de empresa, una cifra que incluye la deuda, así que no sirven para calcular cuánto cobra Meriton por ese 42 %. La deuda del club era de 297 millones al cierre de la temporada 2023-24, según recogía [El Salto](https://www.elsaltodiario.com/valencia/11-anos-peter-lim-dueno-valencia-mestalla) hace un año. Tampoco hay fecha de cierre de la operación.
+
+## Doce años de Lim
+
+- **24 de octubre de 2014**: Meriton cierra la compra del 70 %.
+- **Después**: con ampliaciones de capital, Lim llega a tener en torno al 92 %, según El Salto.
+- **15 de diciembre de 2019**: la última vez que Lim pisó Mestalla, según el mismo medio en octubre de 2025.
+- **2020**: nace Libertad VCF, la asociación de accionistas críticos; las protestas contra la propiedad llegaron a juntar a unas 20.000 personas.
+- **23 de octubre de 2026**: entra Pitchwise.
+
+El otro frente es el estadio. El Nou Mestalla está pensado para más de 70.000 espectadores, frente a los 49.000 del actual, según El Español. Este es el último curso del viejo Mestalla, y por eso el Valencia ya [juega de visitante en su propio campo](/noticias/ue-tavernes-local-mestalla-valencia-visitante-copa-del-rey-28-octubre) en la Copa del Rey.
+
+## El partido de mañana
+
+Valencia - Villarreal, sábado 24 a las 18:30 (17:30 en Canarias), en M+ LaLiga 2, según la [ficha del partido](/futbol/laliga/partido/401882827). La plantilla y los resultados del curso, en la [página del Valencia](/futbol/laliga/equipo/94).`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'LaLiga', sport: 'futbol', slug: 'laliga' },
+    sourceName: 'Valencia CF',
+    sourceUrl: 'https://www.valenciacf.com/kiat-lim-y-pitchwise-holdings-conforman-una-nueva-alianza-accionarial-en-el-valencia-cf',
+    sourceLang: 'es',
+    sourcesSecondary: [
+      { name: 'El Español: Pitchwise y KKR', url: 'https://www.elespanol.com/valencia/deportes/20261023/peter-lim-vende-valencia-cf-pitchwise-holdings-participado-fondo-americano-kkr/1003744432627_0.amp.html' },
+      { name: 'Valencia Plaza: la compra de 2014', url: 'https://valenciaplaza.com/peter-lim-pierde-dinero-bolsa-desde-compra-valencia' },
+      { name: 'El Salto: once años de Lim', url: 'https://www.elsaltodiario.com/valencia/11-anos-peter-lim-dueno-valencia-mestalla' },
+    ],
+    publishedAt: '2026-10-23T21:30:00+02:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Ciris_a_les_protestes_contra_Peter_Lim.jpg/1280px-Ciris_a_les_protestes_contra_Peter_Lim.jpg',
+      alt: 'Decenas de velas rojas y blancas encendidas en una acera de Valencia, junto a carteles escritos a mano contra Peter Lim',
+      credit: 'Francesc Fort · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'tyrrell-hatton-deja-liv-jon-rahm-legion-xiii-sergio-garcia-puig-dp-world-tour',
+    title: 'Tyrrell Hatton deja LIV siguiendo otra vez a Jon Rahm, su capitán en Legion XIII',
+    summary: 'Hatton no estará en el LIV que intenta salir de la quiebra. Rahm renunció a más de 100 millones de dólares para irse, y Sergio García y David Puig también se han marchado.',
+    body: `**Tyrrell Hatton** no seguirá en LIV Golf. El inglés lo anunció este viernes en Instagram, el mismo día que Ian Poulter, Branden Grace, Tom McKibbin y Lucas Herbert, según [CBS Sports](https://www.cbssports.com/golf/news/liv-golf-2-departures-tyrrell-hatton-ian-poulter/). Se va, otra vez, detrás de **Jon Rahm**: llegó a la liga a principios de 2024 para jugar en Legion XIII, el equipo del español, y sale dos días después de que se conociera el acuerdo de salida de Rahm.
+
+Hatton dijo estar «ilusionado con el siguiente capítulo» de su carrera. Los jugadores tienen hasta este domingo 25 para comprometerse con lo que la liga llama LIV 2.0.
+
+## Qué es LIV 2.0
+
+LIV está en concurso de acreedores en EE. UU. (el capítulo 11) desde que el fondo soberano de Arabia Saudí retiró su apoyo, según [Sky Sports](https://www.skysports.com/golf/news/13596245/jon-rahm-set-to-end-liv-golf-involvement-over-unacceptable-terms-for-proposed-relaunch). La segunda vida que propone cuenta con una posible inversión de 300 millones de dólares de BC Partners Credit y convierte a los jugadores en propietarios de la liga y de los equipos.
+
+## Lo que deja Rahm
+
+En una vista del concurso en Nueva York, el 7 de octubre, su abogado, John Beck, dijo que Rahm consideraba esas condiciones inaceptables. El acuerdo de salida que firmó después tiene dinero con cara:
+
+- Renuncia a reclamar a LIV lo que le quedaba de un contrato de más de 300 millones de dólares: más de 100 millones, según la información publicada.
+- Recupera los derechos sobre su nombre e imagen, el apodo «Rahmbo» y la marca Legion XIII.
+- No vuelve de forma automática al PGA Tour: dependerá de las normas de ese circuito.
+- El juzgado tiene previsto aprobarlo el 5 de noviembre, según [Yahoo Sports](https://sports.yahoo.com/articles/jon-rahm-agrees-part-ways-223000901.html).
+
+## Los españoles, fuera
+
+En la misma vista del 7 de octubre, LIV aceptó rescindir el contrato de **Sergio García**. **David Puig** figura también entre los que ya habían anunciado que no siguen, en la lista de CBS Sports. Con Rahm, los tres españoles más conocidos de la liga ya están fuera.
+
+## Por qué vuelven a Europa
+
+El DP World Tour anunció hace dos semanas que quien juegue LIV 2.0 no podrá ser miembro del circuito europeo en 2027, y sin esa condición no se puede jugar la Ryder Cup. Quienes ya ganaron antes en el circuito, como Hatton, Poulter o Rahm, pueden volver en noviembre. Hatton apunta a los playoffs, que empiezan en Abu Dabi del 5 al 8 de noviembre: el mismo jueves en que el juez debe dar por buena la salida de su capitán.
+
+El calendario y las clasificaciones del circuito europeo están en la sección del [DP World Tour](/golf/dp-world-tour), y los del estadounidense, en la del [PGA Tour](/golf/pga-tour).`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'DP World Tour', sport: 'golf', slug: 'dp-world-tour' },
+    sourceName: 'CBS Sports',
+    sourceUrl: 'https://www.cbssports.com/golf/news/liv-golf-2-departures-tyrrell-hatton-ian-poulter/',
+    sourceLang: 'en',
+    sourcesSecondary: [
+      { name: 'Sky Sports: Rahm y las condiciones de LIV 2.0', url: 'https://www.skysports.com/golf/news/13596245/jon-rahm-set-to-end-liv-golf-involvement-over-unacceptable-terms-for-proposed-relaunch' },
+      { name: 'Yahoo Sports: el acuerdo de salida de Rahm', url: 'https://sports.yahoo.com/articles/jon-rahm-agrees-part-ways-223000901.html' },
+      { name: 'CBS Sports: Hatton ficha por Legion XIII (2024)', url: 'https://www.cbssports.com/golf/news/tyrrell-hatton-signs-with-liv-golf-world-no-16-will-join-jon-rahms-team-for-2024-season-per-report' },
+    ],
+    publishedAt: '2026-10-23T21:32:00+02:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Jon_Rahm_Ryder_Cup_2025-213.jpg/1280px-Jon_Rahm_Ryder_Cup_2025-213.jpg',
+      alt: 'Jon Rahm, con el polo blanco y amarillo de Europa y el driver en la mano, en un tee de la Ryder Cup de 2025; detrás, otro hombre con la misma equipación',
+      credit: 'Bryan Berlin · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'raul-fernandez-llorara-phillip-island-primera-victoria-cumpleanos-adelaida-2027',
+    title: 'Raúl Fernández ya avisa de que llorará: MotoGP deja Phillip Island, donde ganó por primera vez',
+    summary: 'El madrileño cumple 26 años en el circuito de su primera victoria, que se despide del Mundial. Fue segundo el viernes tras una caída. Sprint el sábado a las 6:00.',
+    body: `**Raúl Fernández** lo dijo antes de llegar: «Sí, lloraré un poco». Este es el último Gran Premio de Australia en **Phillip Island**, el circuito donde el piloto de Trackhouse ganó su primera carrera de MotoGP hace un año, y él lo sabe, según contó a [Crash.net](https://www.crash.net/motogp/news/1107901/1/defending-winner-will-cry-little-last-phillip-island-motogp).
+
+Hoy, además, cumple 26 años: nació en Madrid el 23 de octubre de 2000. Y lo celebró en pista con el segundo mejor tiempo del viernes, a 72 milésimas de Marco Bezzecchi, después de irse al suelo a mucha velocidad en la curva 6 durante los primeros libres, según [Motorsport.com](https://es.motorsport.com/motogp/news/resumen-resultados-viernes-motogp-phillip-island/10867323/).
+
+## Por qué se va Phillip Island
+
+MotoGP se muda a Adelaida en 2027. Motorsport.com [lo explica](https://es.motorsport.com/motogp/news/horarios-australia-phillip-island-despedida-motogp-cambio-hora/10865842/) por los problemas del trazado junto al mar: los accesos, el alojamiento y el tiempo, y por el deseo del campeonato de acercarse a las ciudades. Él no lo reduce a la victoria: le gusta el trazado y la historia que ha vivido allí en Moto3, Moto2 y MotoGP.
+
+## El año que cambió su carrera
+
+| Fecha | Qué pasó |
+| --- | --- |
+| 19 de octubre de 2025 | Gana en Phillip Island, primera victoria suya y de Trackhouse en MotoGP |
+| Agosto de 2026 | Renueva con Trackhouse hasta 2028 y gana el GP de Gran Bretaña |
+| Gran premio anterior | Primera pole en Mandalika y segundo puesto con un dedo roto |
+| 23 de octubre de 2026 | Segundo el viernes en Phillip Island |
+
+La victoria de 2025 llegó con 1,4 segundos sobre Fabio Di Giannantonio, según el [acta del gran premio](https://en.wikipedia.org/wiki/2025_Australian_motorcycle_Grand_Prix). La renovación la anunció el equipo en agosto, como recogió Motorsport.com.
+
+## Cómo quedó el viernes
+
+1. Marco Bezzecchi (Aprilia), 1:26.775
+2. **Raúl Fernández** (Aprilia Trackhouse), a 0,072
+3. **Marc Márquez** (Ducati), a 0,126
+4. Ai Ogura (Aprilia Trackhouse), a 0,126
+5. **Jorge Martín** (Aprilia), a 0,255
+6. **Álex Márquez** (Ducati Gresini), a 0,375
+8. **Pedro Acosta** (KTM), a 0,433
+
+Los diez primeros pasan directos a la Q2. Fernández también es parte de la pelea que más mira España: Martín y Marc Márquez llegaban a Australia [separados por dos puntos](/noticias/jorge-martin-lidera-mundial-motogp-una-victoria-marquez-seis), y una Aprilia satélite delante de los dos puede mover ese margen.
+
+## Horarios en España
+
+- **Sábado 24**: Q1 a la 1:50, Q2 a las 2:15 y carrera al sprint a las **6:00**.
+- **Domingo 25**: carrera a las **4:00**, ya con la hora de invierno. En Canarias, una hora menos.
+
+Lo emite DAZN; planes y precios, en la [guía de la F1 y MotoGP](/noticias/donde-ver-f1-motogp-espana-2026-dazn-precios-carreras-que-quedan). Resultados y clasificación, en la sección de [MotoGP](/motor/motogp).`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'MotoGP', sport: 'motor', slug: 'motogp' },
+    sourceName: 'Crash.net',
+    sourceUrl: 'https://www.crash.net/motogp/news/1107901/1/defending-winner-will-cry-little-last-phillip-island-motogp',
+    sourceLang: 'en',
+    sourcesSecondary: [
+      { name: 'Motorsport.com: resultados del viernes', url: 'https://es.motorsport.com/motogp/news/resumen-resultados-viernes-motogp-phillip-island/10867323/' },
+      { name: 'Motorsport.com: horarios y despedida de Phillip Island', url: 'https://es.motorsport.com/motogp/news/horarios-australia-phillip-island-despedida-motogp-cambio-hora/10865842/' },
+      { name: 'Wikipedia: GP de Australia de 2025', url: 'https://en.wikipedia.org/wiki/2025_Australian_motorcycle_Grand_Prix' },
+      { name: 'Motorsport.com: renovación hasta 2028', url: 'https://www.motorsport.com/motogp/news/trackhouse-announces-raul-fernandezs-contract-renewal-for-motogp-2027/10844223/' },
+    ],
+    publishedAt: '2026-10-23T21:34:00+02:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/MotoGP_2025_Malaysian_Grand_Prix_-_Trackhouse_Racing_-_Ra%C3%BAl_Fern%C3%A1ndez.jpg/1280px-MotoGP_2025_Malaysian_Grand_Prix_-_Trackhouse_Racing_-_Ra%C3%BAl_Fern%C3%A1ndez.jpg',
+      alt: 'Raúl Fernández, con el casco y el mono azul celeste y naranja, inclina la Aprilia número 25 de Trackhouse junto a un piano verde y blanco en Sepang',
+      credit: 'Liauzh · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
     slug: 'hugo-gonzalez-celtics-knicks-campeon-prime-video-espanoles-nba-madrugada-sabado',
     title: 'Hugo González recibe al campeón esta madrugada: los españoles de la NBA, hora a hora',
     summary: 'Celtics y Knicks abren a la 1:00 la NBA de Prime Video. Juegan también De Larrea y Baba Miller; Aldama sigue de baja. Horarios en la península y en Canarias.',
