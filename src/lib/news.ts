@@ -154,6 +154,172 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'hugo-gonzalez-celtics-knicks-campeon-prime-video-espanoles-nba-madrugada-sabado',
+    title: 'Hugo González recibe al campeón esta madrugada: los españoles de la NBA, hora a hora',
+    summary: 'Celtics y Knicks abren a la 1:00 la NBA de Prime Video. Juegan también De Larrea y Baba Miller; Aldama sigue de baja. Horarios en la península y en Canarias.',
+    body: `Hugo González y los Boston Celtics reciben esta madrugada a los New York Knicks, vigentes campeones de la NBA, a la 1:00 (hora peninsular) en el TD Garden. Es el primer partido de la temporada en Prime Video, que esa misma noche emite también el Spurs - Rockets de las 3:30, [según el reparto de partidos de Blog de Basket](https://www.blogdebasket.com/en/2026/10/08/change-of-direction-these-will-be-the-nba-games-broadcast-on-dazn-and-prime-video-in).
+
+No es el único español en pista entre el viernes y el sábado. Sergio de Larrea juega a la misma hora con los Dallas Mavericks y Baba Miller cierra la noche con los Clippers. Santi Aldama, en cambio, se queda otra vez fuera.
+
+## Horarios y dónde ver
+
+| Partido | Español | Península | Canarias | Dónde verlo |
+| --- | --- | --- | --- | --- |
+| [Celtics - Knicks](/baloncesto/nba/partido/401909095) | Hugo González | 01:00 | 00:00 | Prime Video |
+| [Pacers - Mavericks](/baloncesto/nba/partido/401909844) | Sergio de Larrea (Aldama, baja) | 01:00 | 00:00 | Sin canal confirmado en España |
+| [Spurs - Rockets](/baloncesto/nba/partido/401909096) | — | 03:30 | 02:30 | Prime Video |
+| [Lakers - Clippers](/baloncesto/nba/partido/401909851) | Baba Miller | 04:00 | 03:00 | Sin canal confirmado en España |
+
+Las horas son las de la madrugada del sábado 24. El cambio al horario de invierno llega la noche del sábado al domingo, así que no afecta a esta jornada. El resto de la semana, con canal partido a partido, está en el [calendario de la NBA](/baloncesto/nba/calendario); qué plataforma da cada competición y cuánto cuesta, en la [guía de dónde ver el deporte en España](/noticias/donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1).
+
+## Un campeón que empezó perdiendo
+
+Los Knicks ganaron en junio su tercer título, el primero desde 1973: [batieron 4-1 a los Spurs en la final](https://en.wikipedia.org/wiki/2026_NBA_Finals) y Jalen Brunson fue el MVP. La noche del anillo, el martes, perdieron en el Madison Square Garden 100-106 ante los 76ers. Jaylen Brown, al que los Celtics traspasaron a Filadelfia en julio, firmó 19 puntos, 8 rebotes y 6 asistencias en el acta de ESPN.
+
+Boston tampoco ganó en su estreno: cayó 121-113 en Detroit. Así que los dos llegan con 0-1 al primer duelo de la rivalidad este curso. Cómo vivió Brunson aquella noche del anillo lo contamos en [la pieza sobre su madre](/noticias/jalen-brunson-madre-carta-players-tribune-anillo-knicks-mensajes-antes).
+
+## Qué hizo cada español en su primer partido
+
+- **Hugo González (Celtics):** 10 minutos desde el banquillo en Detroit, 0 puntos (0 de 1) y 3 rebotes.
+- **Sergio de Larrea (Mavericks):** 7 minutos en la derrota 128-110 en Houston, con 2 rebotes y una asistencia.
+- **Baba Miller (Clippers):** 9 minutos, 4 puntos con 2 de 2 en tiros y 3 rebotes en el 121-96 a los Kings.
+- **Santi Aldama (Mavericks):** no ha debutado. Se recupera de la operación de rodilla derecha de marzo y [ESPN lo da como baja ante los Pacers](https://www.espn.com/nba/player/_/id/4593125/santi-aldama); su siguiente opción es el partido del sábado contra San Antonio.
+
+Aday Mara ya jugó anoche con los Thunder ante Denver; sus dos primeros partidos están en [esta pieza](/noticias/aday-mara-debut-nba-thunder-wembanyama-jokic-casademont-zaragoza-reclama).
+
+## Wembanyama y Durant, a las 3:30
+
+El segundo partido de Prime Video enfrenta a los San Antonio Spurs de Victor Wembanyama, finalistas en junio, con los Houston Rockets. No se juega en San Antonio sino en el Moody Center de Austin, la pista de la Universidad de Texas, a la que vuelve Kevin Durant, como recordó Advanced Television al presentar el calendario de Prime Video.
+
+Todo lo que da cada plataforma esta temporada está en la [guía de la NBA en España](/noticias/nba-2026-27-donde-ver-espana-dazn-prime-video-estreno-hugo-gonzalez-aldama).`,
+    category: 'tv',
+    kind: 'noticia',
+    competition: { name: 'NBA', sport: 'baloncesto', slug: 'nba' },
+    sourceName: 'Blog de Basket',
+    sourceUrl: 'https://www.blogdebasket.com/en/2026/10/08/change-of-direction-these-will-be-the-nba-games-broadcast-on-dazn-and-prime-video-in',
+    sourceLang: 'es',
+    publishedAt: '2026-10-23T19:00:00+02:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/TD_Garden%2C_Celtics_vs_Warriors_%2853229612647%29.jpg/1280px-TD_Garden%2C_Celtics_vs_Warriors_%2853229612647%29.jpg',
+      alt: 'Vista desde lo alto del TD Garden de Boston, con la pista verde y madera de los Celtics, el marcador central y las gradas aún a medio llenar',
+      credit: 'Ethan Long · Wikimedia Commons',
+      license: 'CC BY-SA 2.0',
+    },
+    sourcesSecondary: [
+      { name: 'Blog de Basket: horarios de los españoles', url: 'https://www.blogdebasket.com/2026/10/19/vuelve-nba-estos-son-horarios-espanoles' },
+      { name: 'ESPN: Knicks - 76ers', url: 'https://www.espn.com/nba/game/_/gameId/401909089' },
+      { name: 'ESPN: Pistons - Celtics', url: 'https://www.espn.com/nba/game/_/gameId/401909088' },
+      { name: 'Advanced Television: calendario de Prime Video', url: 'https://www.advanced-television.com/2026/08/14/manchester-paris-games-part-of-prime-videos-2026-27-nba-schedule/' },
+      { name: 'Wikipedia: Finales de la NBA 2026', url: 'https://en.wikipedia.org/wiki/2026_NBA_Finals' },
+    ],
+  },
+  {
+    slug: 'alex-palou-carrera-en-casa-indycar-barcelona-montmelo-18-julio-2027-europa',
+    title: 'Álex Palou tendrá por fin una carrera en casa: la IndyCar vuelve a Europa 20 años después',
+    summary: 'La IndyCar correrá en Montmeló el 18 de julio de 2027, a 16 km del pueblo de Álex Palou. Es su primera carrera en Europa desde 2007, y llega el año en que el circuito se queda sin F1.',
+    body: `Álex Palou ha ganado cinco títulos de la IndyCar y unas 500 Millas de Indianápolis a un océano de casa. En julio de 2027 correrá a unos 16 kilómetros de ella. La categoría [anunció este viernes](https://www.indycar.com/news/2026/10/10-23-barcelona-2027) un Gran Premio de Barcelona para el domingo 18 de julio de 2027 en el Circuit de Barcelona-Catalunya, en Montmeló, con un acuerdo de varios años.
+
+Palou nació en Sant Antoni de Vilamajor, en el Vallès Oriental. Entre su pueblo y el circuito hay 16 kilómetros en línea recta, según el cálculo propio con las coordenadas de los dos puntos. En el comunicado oficial lo resume así: tener una carrera en casa, en Barcelona, «significa tanto para mí que cuesta ponerlo en palabras». Añade que con Chip Ganassi intentará quedarse el trofeo.
+
+## Veinte años sin cruzar el Atlántico
+
+La IndyCar no corre fuera de Norteamérica desde 2013, cuando James Hinchcliffe ganó en las calles de São Paulo. En Europa no compite desde 2007, en el TT Circuit de Assen, en los Países Bajos. Barcelona será la duodécima de las 17 pruebas del calendario de 2027 publicado hoy, entre Mid-Ohio (4 de julio) y Portland (1 de agosto), en pleno tramo final del campeonato.
+
+El acuerdo se había adelantado en España el 19 de octubre, [cuando trascendió el principio de acuerdo](https://planoinformativo.com/planodeportivo/344891/el-circuito-de-barcelona-cataluna-cierra-un-acuerdo-multianual-con-la-indycar). Lo que faltaba era la confirmación de la serie, la fecha y si puntuaba: es una ronda más del campeonato.
+
+## El año en que Montmeló no tiene Fórmula 1
+
+La fecha no es casual. Montmeló renovó con la F1 hasta 2032, pero alternando con Spa: [solo tendrá gran premio en 2028, 2030 y 2032](https://www.beinsports.com/en-us/motorsports/motorsports-formula-1/articles/barcelona-to-remain-in-formula-1-agreement-until-2032-with-alternating-calendar-2026-02-16), además de este 2026, y con otro nombre, porque el de Gran Premio de España pasó a Madrid. En 2027 no habrá F1 en el circuito, como subrayó Crash.net el martes. La IndyCar ocupa ese hueco.
+
+Palou ya conoce la pista en un coche de primer nivel: en septiembre de 2022 hizo allí su primer test con McLaren de F1, según recoge [su biografía](https://es.wikipedia.org/wiki/%C3%81lex_Palou), semanas antes de pilotar en los libres del Gran Premio de Estados Unidos.
+
+## Lo que trae a casa
+
+- **Cinco campeonatos:** 2021, 2023, 2024, 2025 y 2026, todos con Chip Ganassi Racing.
+- **Cuatro seguidos:** solo Sébastien Bourdais (2004-2007) lo había logrado antes.
+- **25 victorias**, empatado en el puesto 17 de la clasificación histórica.
+- **Solo dos pilotos con más títulos:** A. J. Foyt (siete) y Scott Dixon (seis).
+- **Las 500 Millas de Indianápolis de 2025.**
+
+Tiene 29 años. Las entradas y la hora de la carrera se anunciarán más adelante, según la serie. La temporada de la IndyCar y sus resultados se siguen en la [sección de IndyCar](/motor/indycar), y la de la F1, en la de [Fórmula 1](/motor/formula-1).`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'IndyCar', sport: 'motor', slug: 'indycar' },
+    sourceName: 'IndyCar',
+    sourceUrl: 'https://www.indycar.com/news/2026/10/10-23-barcelona-2027',
+    sourceLang: 'en',
+    publishedAt: '2026-10-23T19:02:00+02:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Indy_500_Winner_Alex_Palou_%2854559638503%29.jpg/1280px-Indy_500_Winner_Alex_Palou_%2854559638503%29.jpg',
+      alt: 'Álex Palou, con gorra y camiseta amarilla, saluda con la mano desde la caja de una camioneta blanca durante el desfile de las 500 Millas de Indianápolis de 2025, junto a una mujer que también saluda',
+      credit: 'Mobilus In Mobili · Wikimedia Commons',
+      license: 'CC BY-SA 2.0',
+    },
+    sourcesSecondary: [
+      { name: 'IndyCar: calendario 2027', url: 'https://www.indycar.com/news/2026/10/10-23-2027-schedule-phase-two' },
+      { name: 'beIN Sports: Barcelona y la F1 hasta 2032', url: 'https://www.beinsports.com/en-us/motorsports/motorsports-formula-1/articles/barcelona-to-remain-in-formula-1-agreement-until-2032-with-alternating-calendar-2026-02-16' },
+      { name: 'Crash.net', url: 'https://www.crash.net/indycar/news/1107907/1/barcelona-set-host-surprise-major-motorsport-event-after-f1-calendar' },
+      { name: 'Wikipedia: Álex Palou', url: 'https://es.wikipedia.org/wiki/%C3%81lex_Palou' },
+    ],
+  },
+  {
+    slug: 'peres-jepchirchir-suspendida-epo-record-valencia-campeona-mundo-maraton',
+    title: 'Peres Jepchirchir, que bajó el récord de Valencia, apartada por un control antidopaje',
+    summary: 'La Unidad de Integridad del Atletismo suspende de forma provisional a la campeona del mundo de maratón por EPO. Valencia fue clave en su carrera: récord en 2020 y su mejor marca en 2025.',
+    body: `La Unidad de Integridad del Atletismo (AIU) [anunció este viernes](https://x.com/aiu_athletics/status/2113586247772065956) la suspensión provisional de Peres Jepchirchir, campeona del mundo de maratón, por un resultado analítico adverso de EPO en un control fuera de competición hecho en Kenia. Es una medida cautelar, no una sanción: puede defenderse y, mientras tanto, no puede competir, [explica Canadian Running](https://runningmagazine.ca/the-scene/marathon-world-champion-peres-jepchirchir-provisionally-suspended/).
+
+La keniana, de 33 años, tiene a Valencia muy presente en su carrera. Allí batió el récord de la prueba en 2020 y allí hizo, hace diez meses, la mejor marca de su vida.
+
+## Valencia, en su historial
+
+- **2016:** ganó el medio maratón de Valencia, según el palmarés que recoge su ficha en Wikipedia.
+- **Diciembre de 2020:** en la edición solo para élite que se celebró en plena pandemia, ganó con 2:17:16, [récord de la prueba](https://en.wikipedia.org/wiki/Valencia_Marathon) y entonces la quinta mejor marca de la historia.
+- **Diciembre de 2025:** 2:14:43, su mejor tiempo en maratón, segunda por detrás de Joyciline Jepkosgei, que dejó el récord del circuito en 2:14:00, [según Marathon Handbook](https://marathonhandbook.com/peres-jepchirchir-provisionally-suspended-epo/).
+
+## Lo que queda en el aire
+
+La AIU no ha dicho cuándo se tomó la muestra, solo que es anterior a su victoria en el maratón de Sídney del 30 de agosto (2:18:31), que fue su estreno en 2026 tras retirarse de Londres por una fractura por estrés. Si llega la sanción, ese triunfo puede anularse. El resto de su palmarés es este:
+
+| Año | Prueba | Resultado |
+| --- | --- | --- |
+| 2021 | Juegos Olímpicos (Sapporo) | Oro, 2:27:20 |
+| 2021 | Maratón de Nueva York | Victoria |
+| 2022 | Maratón de Boston | Victoria |
+| 2024 | Maratón de Londres | Victoria, 2:16:16, récord en carrera solo femenina |
+| 2025 | Mundial de Tokio | Oro, 2:24:43 |
+| 2026 | Maratón de Sídney | Victoria, 2:18:31 |
+
+Además, fue tres veces campeona del mundo de medio maratón (2016, 2020 y 2023).
+
+## Qué le puede caer
+
+Una primera infracción por EPO se castiga con cuatro años, que pueden quedarse en tres si admite los hechos pronto. Y hay una consecuencia que pesa más que el número: los grandes maratones vetan de por vida a cualquier atleta sancionado tres meses o más, como recordó el maratón de Sídney en su reacción. Su representante, Gianni Demadonna, dijo a NBC Sports que se siente fatal por lo ocurrido y que quien se dopa debe ser descalificado.
+
+No es un caso aislado en el maratón keniano reciente. Ruth Chepng'etich, plusmarquista mundial con 2:09:56 en Chicago 2024, cumple tres años de sanción por hidroclorotiazida, y Brimin Kipkorir, que ganó en Sídney en 2024, fue suspendido por EPO y furosemida. Jepchirchir sería la segunda ganadora en Sídney en tres años con un caso de EPO.`,
+    category: 'polemica',
+    kind: 'noticia',
+    competition: { name: 'Atletismo', sport: 'atletismo', slug: 'atletismo' },
+    sourceName: 'Athletics Integrity Unit',
+    sourceUrl: 'https://x.com/aiu_athletics/status/2113586247772065956',
+    sourceLang: 'en',
+    publishedAt: '2026-10-23T19:04:00+02:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/2024_London_Marathon_-_Peres_Jepchirchir_%282%29.jpg/1280px-2024_London_Marathon_-_Peres_Jepchirchir_%282%29.jpg',
+      alt: 'Peres Jepchirchir corre con camiseta amarilla, gorro negro y guantes negros durante el maratón de Londres de 2024, con el dorsal con su apellido en el pecho',
+      credit: 'Katie Chan · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+    sourcesSecondary: [
+      { name: 'Canadian Running', url: 'https://runningmagazine.ca/the-scene/marathon-world-champion-peres-jepchirchir-provisionally-suspended/' },
+      { name: 'Marathon Handbook', url: 'https://marathonhandbook.com/peres-jepchirchir-provisionally-suspended-epo/' },
+      { name: 'Wikipedia: Maratón de Valencia', url: 'https://en.wikipedia.org/wiki/Valencia_Marathon' },
+      { name: 'Wikipedia: Peres Jepchirchir', url: 'https://en.wikipedia.org/wiki/Peres_Jepchirchir' },
+    ],
+  },
+  {
     slug: 'nba-resultados-2026-10-23',
     title: "NBA: resultados de la noche del 23 de octubre",
     summary: "Resultados de los 2 partidos de la noche en la NBA, con el más igualado y el de más puntos.",
