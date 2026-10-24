@@ -4835,6 +4835,45 @@ Los partidos y la clasificación de cada competición: [LaLiga](/futbol/laliga),
     },
   },
   {
+    slug: 'jose-elias-empresario-presidente-barca-ilusion-80-por-ciento-riquelme-apuesta',
+    title: 'José Elías, 50 años, empresario: «Para ser presidente del Barça ahora tengo una ilusión del 80 %»',
+    summary: 'El fundador de Audax sube del 75 % al 80 % sus ganas de presentarse a la presidencia del Barça y cuenta la apuesta que cerró con Enrique Riquelme: si él se presentaba en el Madrid, Elías lo haría en el Barça.',
+    body: `José Elías ha vuelto a ponerle número a sus ganas de presidir el Barça. En septiembre dijo que estaba al 75 %; esta semana, en el pódcast «Más que pelotas» del canal Búscate la vida, lo ha subido. «¿Qué porcentaje de ilusión tienes, José?», le preguntaron. «Ahora tengo ya el 80 %», respondió ([minuto 71](https://www.youtube.com/watch?v=Jwjs94VmCmU&t=4281s)). Y más tarde lo repitió: para ser presidente del Barça, «ahora solamente tengo una ilusión del 80 %».
+
+## Una apuesta en un cumpleaños
+
+El porcentaje tiene una historia detrás, y la contó él mismo. En el 30 cumpleaños de Enrique Riquelme, el empresario que luego se postuló a la presidencia del Real Madrid frente a Florentino Pérez, Riquelme anunció que algún día se presentaría en el Madrid. Elías le contestó: «Si tú te presentas a presidente del Madrid, yo me presentaré a presidente del Barça». Hubo apretón de manos. «Y como se puede ver, yo cumplo mis promesas», dijo en el programa: si Riquelme vuelve a presentarse, «me va a obligar a mí a presentarme como presidente del Barça».
+
+## Por qué se ve candidato
+
+Elías, fundador de Audax Renovables, no se esconde: «Yo creo que soy el candidato que necesita el Barça los próximos 4 años» ([minuto 92](https://www.youtube.com/watch?v=Jwjs94VmCmU&t=5570s)). Su argumento es el de su currículum: «He sacado compañías a bolsa, las he endeudado, las he levantado después de la deuda, las he gestionado». Para él, el próximo mandato será sobre todo económico, y ahí cree que encaja.
+
+Las últimas elecciones del club fueron en marzo de 2026 y las ganó Joan Laporta, así que la cita de la que habla Elías es la de 2031. Hasta entonces, el porcentaje puede subir o bajar: «A veces bajará», admitió.
+
+## Messi, en su versión
+
+En la misma conversación, Elías dio [su lectura de la salida de Messi](https://www.youtube.com/watch?v=bAYBwaNytzo) en 2021: el entonces director general, Ferran Reverter, vio que el contrato no cabía en las cuentas con el control económico de LaLiga, y Messi, según su relato, ya venía a firmar la renovación cuando le dijeron que no seguiría. Es su versión, no la del club ni la del jugador.
+
+El pódcast se grabó a pocos días del Clásico de este domingo en el Spotify Camp Nou. El partido, con alineaciones y marcador en directo, en la [ficha del Barcelona - Real Madrid](/futbol/laliga/partido/401882832), y todo sobre el equipo azulgrana, en la [página del Barcelona](/futbol/laliga/equipo/barcelona).`,
+    category: 'general',
+    competition: { name: 'LaLiga', sport: 'futbol', slug: 'laliga' },
+    sourceName: 'Búscate la vida (YouTube)',
+    sourceUrl: 'https://www.youtube.com/watch?v=Jwjs94VmCmU',
+    sourceLang: 'es',
+    sourcesSecondary: [
+      { name: 'Crónica Global', url: 'https://cronicaglobal.elespanol.com/culemania/palco/20261023/jose-elias-anos-barca-candidato-enrique-riquelme/1003742805551_0.html' },
+      { name: 'Futeros', url: 'https://futeros.com/jose-elias-pone-cifra-a-su-candidatura-al-barcelona-ahora-es-una-ilusion-75/' },
+    ],
+    publishedAt: '2026-10-24T11:39:00+02:00',
+    author: 'Redacción Mundiales de Fútbol',
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/2014._Camp_Nou._M%C3%A9s_que_un_club._Barcelona_B40.jpg/1280px-2014._Camp_Nou._M%C3%A9s_que_un_club._Barcelona_B40.jpg',
+      alt: 'Interior del Camp Nou, con las gradas azulgranas y el lema «Més que un club» en la tribuna',
+      credit: 'Luis Miguel Bugallo Sánchez (Lmbuga) · CC BY-SA 3.0 · Wikimedia Commons',
+      license: 'CC BY-SA 3.0',
+    },
+  },
+  {
     slug: 'donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1',
     title: 'Dónde ver el deporte en España en 2026-27: canales y precios de cada competición, una a una',
     summary: 'Guía de la temporada 2026-27: dónde se ve en España LaLiga, la Champions, la Premier, la NBA, la F1, MotoGP, el tenis o la NFL, qué plan hace falta, cuánto cuesta y qué es gratis.',
