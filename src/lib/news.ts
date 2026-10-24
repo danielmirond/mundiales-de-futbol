@@ -4874,6 +4874,73 @@ El pódcast se grabó a pocos días del Clásico de este domingo en el Spotify C
     },
   },
   {
+    slug: 'frases-historicas-clasico-barcelona-real-madrid-lo-que-paso-despues',
+    title: 'Las frases del Clásico que se volvieron contra quien las dijo (y las que se cumplieron)',
+    summary: 'De «Ganar en el Camp Nou es imposible» de Schuster al «puto amo» de Guardiola y el «¿Por qué?» de Mourinho: nueve frases del Barcelona - Real Madrid y lo que pasó justo después de pronunciarlas.',
+    body: `En el Clásico, lo que se dice antes pesa casi tanto como lo que pasa en el campo. Algunas frases se recuerdan por lo que anunciaban; otras, porque el partido se encargó de desmentirlas. Este domingo José Mourinho vuelve al Camp Nou como entrenador del Real Madrid, y él firmó varias de las más famosas.
+
+## «Son muchos años sin ganar en Barcelona. Vamos a cambiar la historia»
+
+Lo dijo Ronaldo, el brasileño, el 5 de diciembre de 2003, en su vuelta al Camp Nou, según la [selección de frases de EFE](https://laopinion.com/2012/04/19/barcelona-vs-real-madrid-una-historia-en-frases/). Al día siguiente el Madrid ganó 1-2 con goles de Roberto Carlos y del propio Ronaldo. La frase se cumplió: era la primera victoria liguera blanca en el Camp Nou en veinte años.
+
+## «Figo no provocó e hizo lo que debía de hacer»
+
+Johan Cruyff, el 25 de noviembre de 2002, dos días después del partido de la cabeza de cochinillo. Figo, que se había marchado del Barça al Madrid dos años antes, fue a sacar un córner y le cayó de todo desde la grada. El partido estuvo parado más de diez minutos y acabó 0-0. Que la defensa de Figo llegara del gran símbolo del barcelonismo fue lo que hizo ruido.
+
+## «Allí no es posible ganar porque el Barcelona está arrasando»
+
+Bernd Schuster, entrenador del Madrid, tras perder 3-4 con el Sevilla, a una semana de ir al Camp Nou, según [EFE en Libertad Digital](https://www.libertaddigital.com/deportes/schuster-ganar-en-el-camp-nou-no-es-posible-1276345569/). Raúl le replicó al día siguiente que la plantilla sí creía. Schuster fue destituido dos días después y el Madrid, ya con Juande Ramos, perdió 2-0 en el Camp Nou. Esta vez el entrenador acertó, pero no le salvó.
+
+## «Iremos a por ellos desde el inicio»
+
+Pep Guardiola, en la víspera de ese mismo partido, el 12 de diciembre de 2008: su primer Clásico como entrenador. Ganó 2-0 con goles de Eto'o y Messi, y aquella temporada acabó con el 2-6 del Bernabéu y el triplete.
+
+## «Las únicas cuentas pendientes que tengo son el agua y la luz»
+
+Cristiano Ronaldo, el 27 de noviembre de 2009, antes de su primer Clásico en el Camp Nou, cuando le preguntaron si tenía cuentas pendientes con el Barça. Perdió 1-0, con gol de Ibrahimović.
+
+## «Hemos jugado muy mal... Ya acabó»
+
+Mourinho, el 29 de noviembre de 2010, tras su primer Clásico como entrenador del Madrid: un 5-0 en el Camp Nou, el de la «manita» de la grada. Fue de las pocas veces que no buscó otra explicación.
+
+## «En esta sala él es el puto jefe, el puto amo»
+
+Guardiola, el 26 de abril de 2011, en la sala de prensa del Bernabéu, la víspera de la ida de la semifinal de Champions. Mourinho le había reprochado que se quejara del arbitraje tras la final de Copa que el Barça perdió días antes. La respuesta, recogida por [Goal](https://www.goal.com/es/noticias/el-es-el-puto-jefe-y-el-puto-amo-la-guerra-guardiola---mourinho-que-encendio-los-clasicos/7j75b1jrkpt71d51zjt1sdv2l), siguió así: «Mañana nos enfrentamos en el campo a las 20:45; fuera del campo ya me ha ganado». Al día siguiente el Barça ganó 0-2 en el Bernabéu con dos goles de Messi, y un mes después levantó la Champions en Wembley.
+
+## «Si digo lo que pienso, acaba mi carrera hoy. Sólo dejo una pregunta: ¿Por qué?»
+
+La contestación de Mourinho tras aquel 0-2, con Pepe expulsado. Enumeró a los árbitros de eliminatorias pasadas ante el Barça, uno por uno, y remató: «No sé si es la publicidad de Unicef, no sé si es el poder de Villar en la UEFA», según recupera [EFE este sábado](https://www.infobae.com/espana/agencias/2026/10/24/mourinho-el-puto-amo-de-la-sala-de-prensa-cuando-se-trata-de-disparar-al-barca/). La UEFA le sancionó y el Madrid quedó eliminado en la vuelta.
+
+## «¿Pito Vilanova? No sé quién es ese Pito»
+
+Mourinho, en agosto de 2011, tras la vuelta de la Supercopa en el Camp Nou, el partido en que le metió el dedo en el ojo a Tito Vilanova, segundo de Guardiola, en la tangana final. En vez de disculparse, se burló de su nombre. Un año después, Vilanova era el entrenador del Barça.
+
+## Lo que no necesitó palabras
+
+Hay frases del Clásico que fueron gestos. El 21 de abril de 2012, Cristiano marcó el 1-2 en el Camp Nou y pidió [«calma» a la grada](https://www.vavel.com/es/futbol/2020/04/21/real-madrid/1019612-el-calma-calma-de-cristiano-ronaldo-en-el-camp-nou-cumple-ocho-anos.html) con las palmas hacia abajo; aquel Madrid ganó la Liga de los 100 puntos. Y el 21 de noviembre de 2015, el Bernabéu aplaudió a Iniesta en el 0-4. Luis Enrique lo resumió en la rueda de prensa: «Andrés Iniesta es patrimonio de la humanidad, no solo del Barcelona», [según Público](https://www.publico.es/deportes/luis-enrique-partido-historico-sabe-gloria-bendita.html).
+
+El de este domingo, a las 21:00 en el Spotify Camp Nou: horario, alineaciones y directo en la [ficha del Barcelona - Real Madrid](/futbol/laliga/partido/401882832), y cómo verlo en DAZN, en [esta guía](/noticias/clasico-barcelona-real-madrid-dazn-programa-narradores-camp-nou).`,
+    category: 'historica',
+    competition: { name: 'LaLiga', sport: 'futbol', slug: 'laliga' },
+    sourceName: 'EFE',
+    sourceUrl: 'https://laopinion.com/2012/04/19/barcelona-vs-real-madrid-una-historia-en-frases/',
+    sourceLang: 'es',
+    sourcesSecondary: [
+      { name: 'EFE (Infobae)', url: 'https://www.infobae.com/espana/agencias/2026/10/24/mourinho-el-puto-amo-de-la-sala-de-prensa-cuando-se-trata-de-disparar-al-barca/' },
+      { name: 'Goal', url: 'https://www.goal.com/es/noticias/el-es-el-puto-jefe-y-el-puto-amo-la-guerra-guardiola---mourinho-que-encendio-los-clasicos/7j75b1jrkpt71d51zjt1sdv2l' },
+      { name: 'Libertad Digital', url: 'https://www.libertaddigital.com/deportes/schuster-ganar-en-el-camp-nou-no-es-posible-1276345569/' },
+      { name: 'Público', url: 'https://www.publico.es/deportes/luis-enrique-partido-historico-sabe-gloria-bendita.html' },
+    ],
+    publishedAt: '2026-10-24T11:44:00+02:00',
+    author: 'Redacción Mundiales de Fútbol',
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Santiagobernabeupanoramav45.JPG/1280px-Santiagobernabeupanoramav45.JPG',
+      alt: 'Interior del Santiago Bernabéu vacío, con las gradas azules y el césped',
+      credit: 'لا روسا · CC BY-SA 3.0 · Wikimedia Commons',
+      license: 'CC BY-SA 3.0',
+    },
+  },
+  {
     slug: 'donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1',
     title: 'Dónde ver el deporte en España en 2026-27: canales y precios de cada competición, una a una',
     summary: 'Guía de la temporada 2026-27: dónde se ve en España LaLiga, la Champions, la Premier, la NBA, la F1, MotoGP, el tenis o la NFL, qué plan hace falta, cuánto cuesta y qué es gratis.',
