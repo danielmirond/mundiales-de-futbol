@@ -154,6 +154,43 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'nba-resultados-2026-10-24',
+    title: "NBA: resultados de la noche del sábado 24 de octubre",
+    summary: "Resultados de los 12 partidos de la noche en la NBA, con el más igualado y el de más puntos.",
+    body: `12 partidos en la NBA esta noche. El más igualado, Jazz 120-119 a Pelicans, decidido en la última posesión. El de más puntos, Bulls ante Bucks (132-125).
+
+## Resultados
+
+- [Bulls 132-125 Bucks](/baloncesto/nba/partido/401909848)
+- [Celtics 107-103 Knicks](/baloncesto/nba/partido/401909095)
+- [Hawks 128-81 Hornets](/baloncesto/nba/partido/401909843)
+- [Mavericks 121-105 Pacers](/baloncesto/nba/partido/401909844)
+- [Timberwolves 115-93 Magic](/baloncesto/nba/partido/401909845)
+- [Raptors 112-102 Wizards](/baloncesto/nba/partido/401909846)
+- [Pistons 128-111 Heat](/baloncesto/nba/partido/401909847)
+- [Rockets 114-110 Spurs](/baloncesto/nba/partido/401909096)
+- [Jazz 120-119 Pelicans](/baloncesto/nba/partido/401909849)
+- [Grizzlies 111-108 Warriors](/baloncesto/nba/partido/401909850)
+- [Lakers 125-117 Clippers](/baloncesto/nba/partido/401909851)
+- [Trail Blazers 128-120 Kings](/baloncesto/nba/partido/401909852)
+
+Marcadores en directo, calendario y clasificación por conferencias en la [página de la NBA](/baloncesto/nba).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"NBA","sport":"baloncesto","slug":"nba"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/nba/scoreboard",
+    sourceLang: 'en',
+    publishedAt: '2026-10-24T11:32:33.991Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Delta_Center_2023.jpg/1920px-Delta_Center_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Delta Center, sede del Jazz - Pelicans",
+      credit: "Lomrjyo · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
     slug: 'ribadesella-cf-oreyana-racing-copa-del-rey-grada-900-plazas-no-autorizada-entradas-movistar',
     title: 'Ribadesella CF prepara Oreyana para el Racing con una grada de 900 plazas que le vetaron',
     summary: 'El club de Primera Asturfútbol recibe al Racing el jueves 29 a las 21:00 en Oreyana: 2.000 asientos, entradas a 30 euros y una tercera grada vetada por seguridad. Lo emite Movistar Plus+.',
@@ -591,7 +628,7 @@ Hora peninsular en todos los casos. Si un canal cambia a última hora, la ficha 
     sourceUrl: "https://www.espn.com/nba/game/_/gameId/401918308",
     sourceLang: 'en',
     publishedAt: '2026-10-24T00:00:16.743Z',
-    modifiedAt: '2026-10-24T00:00:16.743Z',
+    modifiedAt: '2026-10-24T11:32:33.991Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/State_Farm_%28Philips%29_Arena%2C_Atlanta%2C_GA_%2846558861525%29_-_2019.jpg/1920px-State_Farm_%28Philips%29_Arena%2C_Atlanta%2C_GA_%2846558861525%29_-_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -608,8 +645,8 @@ Hora peninsular en todos los casos. Si un canal cambia a última hora, la ficha 
 
 ## 🇪🇸 Liga F
 
-- **[Athletic  - Sevilla](/futbol/liga-f/partido/401882484)** — 12:00 h
-- **[Real Sociedad - Espanyol](/futbol/liga-f/partido/401882477)** — 12:00 h
+- **[Athletic  - Sevilla](/futbol/liga-f/partido/401882484)** — 12:00 h — **en juego, 0-0**
+- **[Real Sociedad - Espanyol](/futbol/liga-f/partido/401882477)** — 12:00 h — **en juego, 1-1**
 - **[Real Madrid - Tenerife](/futbol/liga-f/partido/401882478)** — 16:00 h
 - **[ Dux Logroño - Badalona](/futbol/liga-f/partido/401882481)** — 18:15 h
 - **[Barcelona - Granada](/futbol/liga-f/partido/401882479)** — 20:30 h
@@ -618,7 +655,7 @@ Calendario y clasificación en la [página de Liga F](/futbol/liga-f).
 
 ## 🇹🇷 Süper Lig
 
-- **[Eyupspor - Kasimpasa](/futbol/super-lig/partido/401888269)** — 12:30 h
+- **[Eyupspor - Kasimpasa](/futbol/super-lig/partido/401888269)** — 12:30 h — **en juego, 0-1**
 - **[Gaziantep - Erzurum](/futbol/super-lig/partido/401888270)** — 15:00 h
 - **[Samsunspor - Amed SFK](/futbol/super-lig/partido/401888375)** — 18:00 h
 
@@ -626,7 +663,7 @@ Calendario y clasificación en la [página de Süper Lig](/futbol/super-lig).
 
 ## 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Premier League
 
-- **[Aston Villa - Man City](/futbol/premier-league/partido/401879256)** — 13:30 h · 📺 DAZN / Movistar Plus+
+- **[Aston Villa - Man City](/futbol/premier-league/partido/401879256)** — 13:30 h · 📺 DAZN / Movistar Plus+ — **en juego, 0-0**
 - **[Arsenal - Everton](/futbol/premier-league/partido/401878768)** — 16:00 h · 📺 DAZN / DAZN 1
 - **[Coventry - Fulham](/futbol/premier-league/partido/401879255)** — 16:00 h · 📺 DAZN
 - **[Chelsea - Spurs](/futbol/premier-league/partido/401878767)** — 18:30 h · 📺 DAZN / DAZN 1
@@ -635,9 +672,9 @@ Calendario y clasificación en la [página de Premier League](/futbol/premier-le
 
 ## 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Championship
 
-- **[Charlton - Norwich City](/futbol/championship/partido/401880205)** — 13:30 h
-- **[Portsmouth - Millwall](/futbol/championship/partido/401880203)** — 13:30 h
-- **[Sheffield Utd - Derby](/futbol/championship/partido/401880200)** — 13:30 h
+- **[Charlton - Norwich City](/futbol/championship/partido/401880205)** — 13:30 h — **en juego, 0-0**
+- **[Portsmouth - Millwall](/futbol/championship/partido/401880203)** — 13:30 h — **en juego, 0-0**
+- **[Sheffield Utd - Derby](/futbol/championship/partido/401880200)** — 13:30 h — **en juego, 0-0**
 - **[Blackburn - Wrexham](/futbol/championship/partido/401880208)** — 16:00 h
 - **[Cardiff - Birmingham](/futbol/championship/partido/401880206)** — 16:00 h
 - **[Lincoln City - Burnley](/futbol/championship/partido/401880204)** — 16:00 h
@@ -743,7 +780,7 @@ Hora peninsular en todos los casos. Si un canal cambia a última hora, la ficha 
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401879256",
     sourceLang: 'en',
     publishedAt: '2026-10-24T00:00:16.743Z',
-    modifiedAt: '2026-10-24T00:00:16.743Z',
+    modifiedAt: '2026-10-24T11:32:33.991Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Villaparkfromtopofholte.jpg/1280px-Villaparkfromtopofholte.jpg",
@@ -2223,7 +2260,7 @@ Horarios, resultados de cada sesión y clasificación completa del Mundial en la
     sourceUrl: "https://www.espn.com/f1/schedule",
     sourceLang: 'en',
     publishedAt: '2026-10-22T12:20:10.049Z',
-    modifiedAt: '2026-10-24T00:00:16.743Z',
+    modifiedAt: '2026-10-24T11:32:33.991Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/2018_US_Grand_Prix_at_the_Circuit_of_the_Americas.jpg/1920px-2018_US_Grand_Prix_at_the_Circuit_of_the_Americas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
