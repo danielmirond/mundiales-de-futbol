@@ -154,6 +154,282 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'previa-barcelona-real-madrid-401882832',
+    title: "Barcelona - Real Madrid: horario, dónde ver y cómo llegan al partido de LaLiga",
+    summary: "Cita de LaLiga este domingo 25 de octubre: Barcelona - Real Madrid, a las 21:00 h en Spotify Camp Nou. Barcelona es 1.º y Real Madrid, 3.º. TV: DAZN LaLiga y DAZN.",
+    body: `Cita de LaLiga este domingo 25 de octubre: Barcelona - Real Madrid, a las 21:00 h en Spotify Camp Nou.
+
+## Cómo llegan
+
+Barcelona llega de ganar 5-2 a Betis y ocupa la 1.º plaza con 27 puntos (9G-0E-0P). Real Madrid llega de ganar 4-1 a Sevilla y ocupa la 3.º plaza con 21 puntos (7G-0E-2P). La [clasificación de LaLiga](/futbol/laliga), al día.
+
+## Dónde ver el partido
+
+Se emite en **DAZN LaLiga y DAZN**. Alineaciones en cuanto se confirmen, marcador en directo y narración en la [ficha del Barcelona - Real Madrid](/futbol/laliga/partido/401882832). El resto de la jornada, en [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    kind: 'previa',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882832",
+    sourceLang: 'en',
+    publishedAt: '2026-10-24T00:00:16.743Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/2014._Camp_Nou._M%C3%A9s_que_un_club._Barcelona_B40.jpg/1280px-2014._Camp_Nou._M%C3%A9s_que_un_club._Barcelona_B40.jpg",
+      alt: "Interior del Camp Nou, con las gradas azulgranas y el lema «Més que un club» en la tribuna",
+      credit: "Luis Miguel Bugallo Sánchez (Lmbuga) · Wikimedia Commons",
+      license: "CC BY-SA 3.0",
+    },
+  },
+  {
+    slug: 'cronica-ipswich-nottm-forest-401879253',
+    title: "Ipswich y Nottm Forest empatan 1-1; Ipswich sigue 9.º en Premier League",
+    summary: "Ipswich 1-1 Nottm Forest en Premier League. Ipswich 49 % de posesión y 7 remates; Nottm Forest 51 % y 17.",
+    body: `## Resumen
+
+Ipswich y Nottm Forest empataron 1-1 en Premier League.
+
+## Los goles
+
+- 13' · Neco Williams (Nottm Forest)
+- 41' · Julio Enciso (Ipswich)
+
+## El dato
+
+Ipswich 49 % de posesión y 7 remates; Nottm Forest 51 % y 17.
+
+## Lo que viene
+
+Lo que viene. Ipswich: visita a Hull el sábado 31 de octubre. Nottm Forest: visita a Brentford el sábado 31 de octubre.
+
+**Lee también:** la [ficha del partido](/futbol/premier-league/partido/401879253) con alineaciones y narración · la [clasificación de Premier League](/futbol/premier-league) · [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Premier League","sport":"futbol","slug":"premier-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401879253",
+    sourceLang: 'en',
+    publishedAt: '2026-10-24T00:00:16.743Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Portman_Road_aerial.jpg/1280px-Portman_Road_aerial.jpg",
+      alt: "Vista aérea de Portman Road, el estadio del Ipswich Town",
+      credit: "John Fielding from Norwich, UK · Wikimedia Commons",
+      license: "CC BY 2.0",
+    },
+  },
+  {
+    slug: 'cronica-alaves-malaga-401882836',
+    title: "Alavés y Málaga firman tablas (1-1) en LaLiga",
+    summary: "Adrián Niño marcó en el Alavés 1-1 Málaga de LaLiga.",
+    body: `Alavés llegaba de perder 1-2 ante Celta Vigo; Málaga, de perder 2-5 ante Real Sociedad. Acabó 1-1. Los goles: Adrián Niño (44', Málaga) y Aitor Mañas (89', Alavés).
+
+## En cifras
+
+Alavés manejó el balón (50 % por 50 %) y tiró 18 veces, 4 entre los tres palos; Málaga se quedó en 7 remates (3 a puerta). Córners: 7 por 2.
+
+## La clasificación
+
+Tras el partido, Alavés 7.º con 12 puntos y Málaga 20.º con 5 puntos en la [clasificación de LaLiga](/futbol/laliga).
+
+Ficha: 3 amarillas · 10 cambios. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/laliga/partido/401882836).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882836",
+    sourceLang: 'en',
+    publishedAt: '2026-10-24T00:00:16.743Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Alav%C3%A9s2-2Lega2018.jpg/1280px-Alav%C3%A9s2-2Lega2018.jpg",
+      alt: "El estadio de Mendizorroza de Vitoria con la grada llena durante un partido",
+      credit: "Miguelazo84 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'partidos-baloncesto-hoy-2026-10-24',
+    title: "Partidos de baloncesto hoy, sábado 24 de octubre: horarios y dónde ver WNBA",
+    summary: "Agenda de baloncesto de hoy sábado 24 de octubre: 1 partido con horario en hora española y canal de televisión. Destaca Dream - Valkyries.",
+    body: `El baloncesto no para: 1 encuentro este sábado 24 de octubre. Esta es la agenda completa con horarios de España y televisión. El partido que más miradas reúne es el **[Dream - Valkyries](/baloncesto/wnba/partido/401918308)** (WNBA, 19:00 h).
+
+## 🇺🇸 WNBA
+
+- **[Dream - Valkyries](/baloncesto/wnba/partido/401918308)** — 19:00 h
+
+Calendario y clasificación en la [página de WNBA](/baloncesto/wnba).
+
+Hora peninsular en todos los casos. Si un canal cambia a última hora, la ficha del partido lo recoge. Toda la jornada, con marcadores en directo, en [partidos de hoy](/partidos-hoy).`,
+    category: 'tv',
+    kind: 'agenda',
+    competition: {"name":"WNBA","sport":"baloncesto","slug":"wnba"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/nba/game/_/gameId/401918308",
+    sourceLang: 'en',
+    publishedAt: '2026-10-24T00:00:16.743Z',
+    modifiedAt: '2026-10-24T00:00:16.743Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/State_Farm_%28Philips%29_Arena%2C_Atlanta%2C_GA_%2846558861525%29_-_2019.jpg/1920px-State_Farm_%28Philips%29_Arena%2C_Atlanta%2C_GA_%2846558861525%29_-_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "State Farm Arena, escenario del Dream - Valkyries",
+      credit: "Warren LeMay from Cincinnati, OH, United States · CC0 · Wikimedia Commons",
+      license: "CC0",
+    },
+  },
+  {
+    slug: 'partidos-futbol-hoy-2026-10-24',
+    title: "Partidos de fútbol hoy, sábado 24 de octubre: horarios y dónde ver LaLiga, Premier League y Liga F",
+    summary: "Agenda de fútbol de hoy sábado 24 de octubre: 59 partidos con horario en hora española y canal de televisión. Destaca Aston Villa - Man City.",
+    body: `El fútbol no para: 59 encuentros este sábado 24 de octubre. Esta es la agenda completa con horarios de España y televisión. El partido que más miradas reúne es el **[Aston Villa - Man City](/futbol/premier-league/partido/401879256)** (Premier League, 13:30 h).
+
+## 🇪🇸 Liga F
+
+- **[Athletic  - Sevilla](/futbol/liga-f/partido/401882484)** — 12:00 h
+- **[Real Sociedad - Espanyol](/futbol/liga-f/partido/401882477)** — 12:00 h
+- **[Real Madrid - Tenerife](/futbol/liga-f/partido/401882478)** — 16:00 h
+- **[ Dux Logroño - Badalona](/futbol/liga-f/partido/401882481)** — 18:15 h
+- **[Barcelona - Granada](/futbol/liga-f/partido/401882479)** — 20:30 h
+
+Calendario y clasificación en la [página de Liga F](/futbol/liga-f).
+
+## 🇹🇷 Süper Lig
+
+- **[Eyupspor - Kasimpasa](/futbol/super-lig/partido/401888269)** — 12:30 h
+- **[Gaziantep - Erzurum](/futbol/super-lig/partido/401888270)** — 15:00 h
+- **[Samsunspor - Amed SFK](/futbol/super-lig/partido/401888375)** — 18:00 h
+
+Calendario y clasificación en la [página de Süper Lig](/futbol/super-lig).
+
+## 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Premier League
+
+- **[Aston Villa - Man City](/futbol/premier-league/partido/401879256)** — 13:30 h · 📺 DAZN / Movistar Plus+
+- **[Arsenal - Everton](/futbol/premier-league/partido/401878768)** — 16:00 h · 📺 DAZN / DAZN 1
+- **[Coventry - Fulham](/futbol/premier-league/partido/401879255)** — 16:00 h · 📺 DAZN
+- **[Chelsea - Spurs](/futbol/premier-league/partido/401878767)** — 18:30 h · 📺 DAZN / DAZN 1
+
+Calendario y clasificación en la [página de Premier League](/futbol/premier-league).
+
+## 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Championship
+
+- **[Charlton - Norwich City](/futbol/championship/partido/401880205)** — 13:30 h
+- **[Portsmouth - Millwall](/futbol/championship/partido/401880203)** — 13:30 h
+- **[Sheffield Utd - Derby](/futbol/championship/partido/401880200)** — 13:30 h
+- **[Blackburn - Wrexham](/futbol/championship/partido/401880208)** — 16:00 h
+- **[Cardiff - Birmingham](/futbol/championship/partido/401880206)** — 16:00 h
+- **[Lincoln City - Burnley](/futbol/championship/partido/401880204)** — 16:00 h
+- **[Preston - West Brom](/futbol/championship/partido/401880202)** — 16:00 h
+- **[QPR - Swansea](/futbol/championship/partido/401880201)** — 16:00 h
+- **[Stoke - Bristol City](/futbol/championship/partido/401880199)** — 16:00 h
+- **[West Ham - Southampton](/futbol/championship/partido/401880198)** — 16:00 h
+- **[Wolves - Watford](/futbol/championship/partido/401880197)** — 16:00 h
+
+Calendario y clasificación en la [página de Championship](/futbol/championship).
+
+## 🇪🇸 LaLiga
+
+- **[Rayo - Elche](/futbol/laliga/partido/401882830)** — 14:00 h · 📺 M+ LALIGA
+- **[Racing - Espanyol](/futbol/laliga/partido/401882831)** — 16:15 h · 📺 DAZN LaLiga / DAZN
+- **[Valencia - Villarreal](/futbol/laliga/partido/401882827)** — 18:30 h · 📺 M+ LALIGA 2
+- **[Atlético - Deportivo](/futbol/laliga/partido/401882834)** — 21:00 h · 📺 M+ LALIGA / Movistar Plus+
+
+Calendario y clasificación en la [página de LaLiga](/futbol/laliga).
+
+## 🇪🇸 LaLiga Hypermotion
+
+- **[Córdoba - Eibar](/futbol/laliga-2/partido/401883128)** — 14:00 h · 📺 LALIGA TV Hypermotion / DAZN
+- **[Leganés - Mallorca](/futbol/laliga-2/partido/401883151)** — 16:15 h · 📺 LALIGA TV Hypermotion / DAZN
+- **[Girona - Celta Fortuna](/futbol/laliga-2/partido/401883308)** — 18:30 h
+- **[Las Palmas - Real Sociedad II](/futbol/laliga-2/partido/401883150)** — 18:30 h
+- **[Almería - Real Oviedo](/futbol/laliga-2/partido/401883153)** — 21:00 h · 📺 LALIGA TV Hypermotion / DAZN
+
+Calendario y clasificación en la [página de LaLiga 2](/futbol/laliga-2).
+
+## 🇮🇹 Serie A
+
+- **[Cagliari - Bologna](/futbol/serie-a/partido/401874958)** — 15:00 h · 📺 DAZN
+- **[Como - Sassuolo](/futbol/serie-a/partido/401874961)** — 15:00 h · 📺 DAZN
+- **[Napoli - AS Roma](/futbol/serie-a/partido/401874948)** — 18:00 h · 📺 DAZN
+- **[Lazio - Parma](/futbol/serie-a/partido/401874955)** — 20:45 h · 📺 DAZN
+
+Calendario y clasificación en la [página de Serie A](/futbol/serie-a).
+
+## 🇩🇪 Bundesliga
+
+- **[Augsburg - Union Berlin](/futbol/bundesliga/partido/401884758)** — 15:30 h · 📺 DAZN
+- **[Cologne - Schalke](/futbol/bundesliga/partido/401884756)** — 15:30 h
+- **[Mainz - Bremen](/futbol/bundesliga/partido/401884757)** — 15:30 h · 📺 DAZN
+- **[RB Leipzig - Elversberg](/futbol/bundesliga/partido/401884762)** — 15:30 h · 📺 DAZN
+- **[Paderborn - Hamburg](/futbol/bundesliga/partido/401884755)** — 15:30 h · 📺 DAZN
+- **[Dortmund - Frankfurt](/futbol/bundesliga/partido/401884763)** — 18:30 h · 📺 DAZN / Movistar Plus+
+
+Calendario y clasificación en la [página de Bundesliga](/futbol/bundesliga).
+
+## 🇳🇱 Eredivisie
+
+- **[FC Utrecht - PEC Zwolle](/futbol/eredivisie/partido/401875573)** — 16:30 h
+- **[Willem II - Cambuur](/futbol/eredivisie/partido/401875572)** — 18:45 h
+- **[ADO Den Haag - Heerenveen](/futbol/eredivisie/partido/401875571)** — 21:00 h
+
+Calendario y clasificación en la [página de Eredivisie](/futbol/eredivisie).
+
+## 🇵🇹 Primeira Liga
+
+- **[Estrela - Casa Pia](/futbol/primeira-liga/partido/401885419)** — 16:30 h
+- **[Alverca - Arouca](/futbol/primeira-liga/partido/401885420)** — 19:00 h
+- **[Gil Vicente - FC Porto](/futbol/primeira-liga/partido/401885417)** — 21:30 h · 📺 DAZN
+
+Calendario y clasificación en la [página de Primeira Liga](/futbol/primeira-liga).
+
+## 🇺🇸 MLS
+
+- **[CF Montréal - Nashville](/futbol/mls/partido/761903)** — 19:30 h
+- **[Columbus - Toronto](/futbol/mls/partido/761890)** — 21:30 h
+- **[Red Bull NY - Miami](/futbol/mls/partido/761891)** — 23:30 h
+
+Calendario y clasificación en la [página de MLS](/futbol/mls).
+
+## 🇦🇷 Liga Profesional Argentina
+
+- **[Banfield - Lanús ](/futbol/liga-argentina/partido/401841641)** — 19:45 h
+- **[Talleres  - Def. y Jus.](/futbol/liga-argentina/partido/401841631)** — 22:00 h
+
+Calendario y clasificación en la [página de Liga Argentina](/futbol/liga-argentina).
+
+## 🇫🇷 Ligue 1
+
+- **[Lens - Paris FC](/futbol/ligue-1/partido/401876427)** — 20:45 h · 📺 DAZN
+
+Calendario y clasificación en la [página de Ligue 1](/futbol/ligue-1).
+
+## 🇧🇷 Brasileirão
+
+- **[Internacional - Botafogo](/futbol/brasileirao/partido/401841285)** — 21:30 h
+- **[Mirassol - São Paulo](/futbol/brasileirao/partido/401841284)** — 21:30 h
+- **[Vitória - Athletico-PR](/futbol/brasileirao/partido/401841280)** — 21:30 h
+- **[Palmeiras - Bragantino](/futbol/brasileirao/partido/401841283)** — 23:30 h · 📺 M+ Vamos / M+ Liga de Campeones 2
+- **[Vasco - Corinthians](/futbol/brasileirao/partido/401841281)** — 23:30 h
+
+Calendario y clasificación en la [página de Brasileirão](/futbol/brasileirao).
+
+Hora peninsular en todos los casos. Si un canal cambia a última hora, la ficha del partido lo recoge. Toda la jornada, con marcadores en directo, en [partidos de hoy](/partidos-hoy).`,
+    category: 'tv',
+    kind: 'agenda',
+    competition: {"name":"Premier League","sport":"futbol","slug":"premier-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401879256",
+    sourceLang: 'en',
+    publishedAt: '2026-10-24T00:00:16.743Z',
+    modifiedAt: '2026-10-24T00:00:16.743Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Villaparkfromtopofholte.jpg/1280px-Villaparkfromtopofholte.jpg",
+      alt: "Interior de Villa Park, con las gradas granates y azules y el césped",
+      credit: "Everlast1910 at English Wikipedia · Wikimedia Commons",
+      license: "Public domain",
+    },
+  },
+  {
     slug: 'martin-zubimendi-espana-asistencia-split-merino-arsenal-banquillo-arteta-minutos',
     title: 'Martín Zubimendi da victorias a España mientras Arteta lo deja mirando desde el banquillo',
     summary: 'En ocho días de octubre jugó 104 minutos con España y dio el pase del triunfo en Split. En la Premier suma unos 89 en toda la temporada y no juega desde el 19 de septiembre.',
@@ -1600,8 +1876,8 @@ Marcadores en directo, calendario y clasificación por conferencias en la [pági
 
 ## Horarios del Gran Premio de Estados Unidos
 
-- **Libres 1**: viernes 23 de octubre, a las 19:30 (hora peninsular)
-- **Libres 2**: viernes 23 de octubre, a las 23:00 (hora peninsular)
+- **Libres 1**: viernes 23 de octubre, a las 19:30 (hora peninsular). Mejor tiempo: Charles Leclerc
+- **Libres 2**: viernes 23 de octubre, a las 23:00 (hora peninsular). Mejor tiempo: Charles Leclerc
 - **Libres 3**: sábado 24 de octubre, a las 19:30 (hora peninsular)
 - **Clasificación**: sábado 24 de octubre, a las 23:00 (hora peninsular)
 - **Carrera**: domingo 25 de octubre, a las 21:00 (hora peninsular)
@@ -1624,7 +1900,7 @@ Horarios, resultados de cada sesión y clasificación completa del Mundial en la
     sourceUrl: "https://www.espn.com/f1/schedule",
     sourceLang: 'en',
     publishedAt: '2026-10-22T12:20:10.049Z',
-    modifiedAt: '2026-10-23T12:01:57.669Z',
+    modifiedAt: '2026-10-24T00:00:16.743Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/2018_US_Grand_Prix_at_the_Circuit_of_the_Americas.jpg/1920px-2018_US_Grand_Prix_at_the_Circuit_of_the_Americas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
