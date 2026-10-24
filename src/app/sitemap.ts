@@ -1,6 +1,7 @@
 import { f1Drivers } from '@/lib/f1-history';
 import { hasInjuryReport } from '@/lib/espn-preview';
 import { veladas } from '@/lib/boxeo';
+import { getCompetition as getComp, type Competition as Comp } from '@/lib/competitions';
 import { ufcRankings, ufcFighterSlugs, ufcEventList } from '@/lib/ufc-data';
 import type { MetadataRoute } from 'next';
 import { createClient } from '@supabase/supabase-js';
@@ -119,6 +120,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // (las "próximamente" van noindex y no se listan).
   out.push(entry('/partidos-hoy', now, 'daily', 0.9));
   out.push(entry('/universitario', now, 'daily', 0.7));
+  out.push(entry('/cuanto-cuesta-ver', now, 'weekly', 0.8));
+  for (const t of await fetchTeams(getComp('futbol', 'laliga') as Comp).catch(() => [])) out.push(entry(`/cuanto-cuesta-ver/${t.slug}`, now, 'daily', 0.7));
   for (const s of SPORTS) out.push(entry(`/${s.slug}`, now, 'daily', 0.8));
   for (const c of COMPETITIONS) {
     if (c.href || (!c.espn && !c.stats)) continue;

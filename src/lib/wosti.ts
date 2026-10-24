@@ -168,7 +168,7 @@ export async function getWostiIndex(): Promise<WostiIndex> {
   return FALLBACK;
 }
 
-const same = (a: string, b: string) => !!a && !!b && (a === b || a.includes(b) || b.includes(a));
+export const same = (a: string, b: string) => !!a && !!b && (a === b || a.includes(b) || b.includes(a));
 
 /**
  * Canales (nombres limpios) de un partido de ESPN, o [] si no se sabe.

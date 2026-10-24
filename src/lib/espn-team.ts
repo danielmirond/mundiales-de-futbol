@@ -83,10 +83,13 @@ export async function fetchTeam(c: Competition, id: string): Promise<TeamInfo | 
 }
 
 /** Calendario de temporada (resultados jugados y, si ESPN los da, próximos). */
-export async function fetchTeamSchedule(c: Competition, id: string): Promise<TeamGame[]> {
+export async function fetchTeamSchedule(c: Competition, id: string, opts: { fixtures?: boolean } = {}): Promise<TeamGame[]> {
   const j = await getJson(`${path(c)}/teams/${id}/schedule`, 1_800);
+  // En fútbol ESPN separa lo jugado (schedule) de lo que falta (schedule?fixture=true).
+  const f = opts.fixtures ? await getJson(`${path(c)}/teams/${id}/schedule?fixture=true`, 1_800) : null;
+  const events = [...(j?.events ?? []), ...(f?.events ?? [])].filter((e: any, i: number, all: any[]) => all.findIndex((x: any) => x.id === e.id) === i);
   const out: TeamGame[] = [];
-  for (const e of j?.events ?? []) {
+  for (const e of events) {
     const comp = e.competitions?.[0]; if (!comp) continue;
     const me = (comp.competitors ?? []).find((x: any) => String(x.team?.id) === String(id));
     const riv = (comp.competitors ?? []).find((x: any) => String(x.team?.id) !== String(id));
