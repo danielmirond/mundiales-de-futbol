@@ -154,6 +154,63 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'ribadesella-cf-oreyana-racing-copa-del-rey-grada-900-plazas-no-autorizada-entradas-movistar',
+    title: 'Ribadesella CF prepara Oreyana para el Racing con una grada de 900 plazas que le vetaron',
+    summary: 'El club de Primera Asturfútbol recibe al Racing el jueves 29 a las 21:00 en Oreyana: 2.000 asientos, entradas a 30 euros y una tercera grada vetada por seguridad. Lo emite Movistar Plus+.',
+    body: `El Ribadesella CF recibe al Racing de Santander el **jueves 29 de octubre a las 21:00** en el campo municipal de Oreyana, en la primera eliminatoria de la [Copa del Rey](/futbol/copa-del-rey). El club quería ampliar el campo con tres gradas desmontables. Le han autorizado dos, de 90 y 310 plazas, en la banda de los banquillos. La tercera, de 900 plazas detrás de una portería, [no pasó el filtro de seguridad](https://coperibadesella.com/23/10/2026/la-venta-anticipada-de-entradas-para-la-eliminatoria-de-la-copa-del-rey-ante-el-racing-comienza-a-buen-ritmo/), según contó Javier Rojo, de la junta gestora, a COPE Ribadesella. El objetivo son 2.000 espectadores, todos sentados.
+
+Entre los dos equipos hay cinco categorías. El Ribadesella juega en Primera Asturfútbol, la [sexta categoría del fútbol español](https://es.wikipedia.org/wiki/Regional_Preferente_de_Asturias) y la máxima de Asturias, donde es líder con cuatro victorias seguidas y un partido menos. El [Racing](/futbol/laliga/equipo/87) es 17.º en [LaLiga](/futbol/laliga) con 8 puntos en nueve jornadas, según la [clasificación de ESPN](https://www.espn.com/soccer/standings/_/league/esp.1), y este sábado recibe al Espanyol a las 16:15 (la [ficha del partido](/futbol/laliga/partido/401882831), con el marcador en directo).
+
+## Del Noja al bombo de Canales
+
+| Fecha | Qué pasó |
+| --- | --- |
+| 26 sept - 4 oct | Ronda previa: 1-0 en Oreyana a la SD Noja y [1-1 en Noja con gol de Jandro](https://www.elfielato.es/articulo/deportes/ribadesella-cf-racing-santander-copa-rey/20261005134334104353.html) |
+| 5 oct | Sorteo en Las Rozas. [Sergio Canales sacó la bola del Racing](https://coperibadesella.com/05/10/2026/el-ribadesella-cf-se-enfrentara-al-racing-de-santander-en-la-eliminatoria-de-la-copa-del-rey/); plantilla, gestora y alcalde lo siguieron desde el salón de plenos |
+| 14 oct | La RFEF [declara Oreyana apto](https://coperibadesella.com/14/10/2026/el-campo-de-oreyana-apto-para-acoger-la-eliminatoria-de-la-copa-ante-el-racing/), con deberes: más luz, acceso directo para la ambulancia y sitio para las cámaras |
+| 21 oct | Precio único de 30 euros y [200 localidades reservadas al Racing](https://www.futbolasturiano.es/el-ribadesella-establece-un-precio-unico-para-las-entradas-de-copa-ante-el-racing-de-santander/) |
+| 22 oct | El Racing reparte las suyas: [90 para las peñas, 111 para abonados y simpatizantes y 20 para el club](https://www.realracingclub.es/noticias/el-ribadesella-cf-envia-200-entradas-de-oreyana-para-la-aficion-racinguista) |
+| 23 oct | Unas 300 entradas vendidas en las tres primeras horas de taquilla y una veintena por internet |
+| 29 oct | Partido a las 21:00, en Movistar Plus+ |
+
+## Entradas: 30 euros para todos y gradas desde el lunes
+
+El precio es el mismo para socios y público general, 30 euros, y los jugadores del fútbol base entran con invitación. La venta empezó con tres días reservados a los socios, cada uno con su entrada y dos más, y después se abrió a todos. Por internet se compra en la web del club con 1,12 euros de gestión. Las gradas supletorias se instalan a partir del lunes 26.
+
+La venta presencial es en la estación de autobuses: el sábado 24 de 9:00 a 13:00 y el lunes 26 en horario de mañana y tarde para los rezagados. Los abonados del Racing piden las suyas en el portal del club hasta las 20:00 del domingo 25; si hay más peticiones que entradas, se sortean el lunes a las 12:00.
+
+## Un concejo de 5.591 habitantes
+
+Ribadesella tiene [5.591 habitantes](https://es.wikipedia.org/wiki/Ribadesella) según el padrón de 2025, en la comarca del Oriente asturiano. Con 2.000 asientos, el campo acogería al equivalente a más de un tercio del concejo. El capitán, Diego Victorero, lo resumió el día del sorteo: «La diferencia entre ambos equipos es bastante grande, pero para nosotros va a ser una fiesta».
+
+No es el único club de categoría regional que agranda su campo esta semana: el [Sporting de Alcázar hace lo mismo para recibir al Málaga](/noticias/sporting-de-alcazar-preferente-agranda-campo-recibe-malaga-copa-del-rey-delgado-meco) el martes 27.
+
+## Dónde verlo
+
+Movistar Plus+ emite 15 de los 56 partidos de la ronda, y el Ribadesella - Racing [es uno de ellos](https://www.elgoldigital.com/futbol/copa-del-rey/horarios-tv-primera-ronda-copa-del-rey-2026-27/), el jueves 29 a las 21:00 (20:00 en Canarias). Si no estás abonado, aquí tienes [qué plataforma emite cada competición y cuánto cuesta](/noticias/donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1).`,
+    category: 'curiosa',
+    kind: 'noticia',
+    competition: { name: 'Copa del Rey', sport: 'futbol', slug: 'copa-del-rey' },
+    sourceName: 'COPE Ribadesella',
+    sourceUrl: 'https://coperibadesella.com/23/10/2026/la-venta-anticipada-de-entradas-para-la-eliminatoria-de-la-copa-del-rey-ante-el-racing-comienza-a-buen-ritmo/',
+    sourceLang: 'es',
+    sourcesSecondary: [
+      { name: 'FútbolAsturiano: precio único de las entradas', url: 'https://www.futbolasturiano.es/el-ribadesella-establece-un-precio-unico-para-las-entradas-de-copa-ante-el-racing-de-santander/' },
+      { name: 'Real Racing Club: reparto de las 200 entradas', url: 'https://www.realracingclub.es/noticias/el-ribadesella-cf-envia-200-entradas-de-oreyana-para-la-aficion-racinguista' },
+      { name: 'COPE Ribadesella: la RFEF declara apto Oreyana', url: 'https://coperibadesella.com/14/10/2026/el-campo-de-oreyana-apto-para-acoger-la-eliminatoria-de-la-copa-ante-el-racing/' },
+      { name: 'El Fielato: el Ribadesella elimina al Noja', url: 'https://www.elfielato.es/articulo/deportes/ribadesella-cf-racing-santander-copa-rey/20261005134334104353.html' },
+      { name: 'El Gol Digital: horarios y TV de la primera ronda', url: 'https://www.elgoldigital.com/futbol/copa-del-rey/horarios-tv-primera-ronda-copa-del-rey-2026-27/' },
+    ],
+    publishedAt: '2026-10-24T11:47:00+02:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Vue_de_Ribadesella_Christ.jpg/1280px-Vue_de_Ribadesella_Christ.jpg',
+      alt: 'Vista de Ribadesella desde el este, con los tejados rojos del casco histórico, la torre de la iglesia en el centro, un monte con antenas y el mar Cantábrico al fondo',
+      credit: 'LVP Fr · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
     slug: 'valencia-villarreal-horario-donde-ver-adios-mestalla-derbis-liga-aguirre',
     title: 'Valencia - Villarreal: horario, dónde ver y el adiós de Mestalla a los derbis de Liga',
     summary: 'El derbi de la Comunitat se juega este sábado 24 de octubre a las 18:30 en Mestalla, en Movistar Plus+. El Valencia es 19.º con 6 puntos y el Villarreal llega de perder 4-3 en Anfield.',
