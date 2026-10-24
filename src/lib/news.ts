@@ -154,6 +154,262 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'athletic-getafe-celta-betis-real-sociedad-levante-horarios-domingo-clasico-cambio-de-hora-donde-ver',
+    title: 'Athletic, Celta y Real Sociedad abren el domingo del Clásico: horarios con el cambio de hora y dónde ver',
+    summary: 'Athletic - Getafe (14:00), Celta - Betis (16:15) y Real Sociedad - Levante (18:30) juegan antes del Clásico, ya con el horario de invierno. Canales, hora canaria y cómo llegan los seis.',
+    body: `El domingo 25 de octubre tiene cuatro partidos de [LaLiga](/futbol/laliga) y el último es el Clásico. Antes del [Barcelona - Real Madrid de las 21:00](/noticias/previa-barcelona-real-madrid-401882832) juegan el Athletic, el Celta y la Real Sociedad, los tres en casa y los tres con la hora ya cambiada: a las 03:00 de la madrugada los relojes vuelven a las 02:00, como marca [el último domingo de octubre](https://es.wikipedia.org/wiki/Horario_de_verano) en toda la Unión Europea. Los horarios de abajo son los del horario de invierno, los que verás en el móvil cuando te levantes.
+
+## Horarios y canales
+
+| Partido | Peninsular | Canarias | Canal |
+| --- | --- | --- | --- |
+| [Athletic - Getafe](/futbol/laliga/partido/401882835) | 14:00 | 13:00 | DAZN LaLiga |
+| [Celta - Betis](/futbol/laliga/partido/401882833) | 16:15 | 15:15 | DAZN LaLiga 2 |
+| [Real Sociedad - Levante](/futbol/laliga/partido/401882829) | 18:30 | 17:30 | M+ LALIGA |
+| [Barcelona - Real Madrid](/futbol/laliga/partido/401882832) | 21:00 | 20:00 | DAZN LaLiga |
+
+Los tres primeros se ven con DAZN, y los dos de DAZN LaLiga también dentro de Movistar Plus+ a través de la opción de DAZN. El de la Real es el único de los cuatro que va en M+ LALIGA. Si no tienes ninguna de las dos plataformas, aquí explicamos [qué plataforma emite cada competición y cuánto cuesta](/noticias/donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1) y, para esta liga en concreto, [cómo se reparten las jornadas entre Movistar y DAZN](/noticias/donde-ver-laliga-2026-27-movistar-dazn-precios-jornadas-exclusivas-clasico). A la misma hora que el Clásico corre Fernando Alonso en Austin: [los horarios de la carrera y del partido](/noticias/fernando-alonso-austin-misma-hora-clasico-horarios-dazn-cambio-de-hora) están en la pieza de ayer.
+
+## Athletic - Getafe, 14:00: dos equipos con 9 puntos
+
+El [Athletic](/futbol/laliga/equipo/93) llega 15.º con 9 puntos en 8 partidos, uno menos que casi todos, según la [clasificación de ESPN](https://www.espn.com/soccer/standings/_/league/esp.1). Viene de [perder 3-1 en Valencia ante el Levante](/noticias/cronica-levante-athletic-401882870) el miércoles, con doblete de Roger Brugué. El Getafe tiene los mismos 9 puntos en 9 partidos y es el equipo que menos goles ha marcado de la categoría: 5 en nueve jornadas. En San Mamés se enfrentan el ataque menos productivo de la liga y una defensa que solo ha recibido 9 goles.
+
+## Celta - Betis, 16:15: los dos vienen de ganar en Europa
+
+El [Celta](/futbol/laliga/equipo/85) es 9.º con 11 puntos y tiene la portería menos batida de Primera: 7 goles en contra. El jueves [ganó 2-1 en Glasgow al Celtic](/noticias/cronica-celtic-celta-vigo-401915555) con dos goles de Javi Rodríguez. El Betis es 4.º con 19 puntos, a dos del Real Madrid, y el martes [venció 1-0 al Feyenoord](/noticias/cronica-betis-feyenoord-401915389) en la Champions. Balaídos es el partido de la tarde en DAZN LaLiga 2.
+
+## Real Sociedad - Levante, 18:30: la goleada en Noruega y la victoria sobre el Athletic
+
+La [Real Sociedad](/futbol/laliga/equipo/89) es 5.ª con 16 puntos y el jueves [goleó 6-0 al Lillestrom](/noticias/cronica-lillestrom-real-sociedad-401915540) con un gran partido de Sergio Gómez. El Levante, 13.º con 10 puntos, acaba de ganar al Athletic y lleva 15 goles a favor, tantos como el Villarreal o el Racing. Con el cambio de hora, el partido de Anoeta termina ya de noche.
+
+El resto de la jornada se completa con el Clásico, que cierra el domingo a las 21:00 con el Barcelona líder con 27 puntos y el Real Madrid tercero con 21. El [calendario completo de ESPN](https://www.espn.com/soccer/schedule/_/league/esp.1) recoge los cuatro horarios ya en hora de invierno.`,
+    category: 'tv',
+    kind: 'noticia',
+    competition: { name: 'LaLiga', sport: 'futbol', slug: 'laliga' },
+    sourceName: 'ESPN',
+    sourceUrl: 'https://www.espn.com/soccer/schedule/_/league/esp.1',
+    sourceLang: 'en',
+    sourcesSecondary: [
+      { name: 'ESPN: clasificación de LaLiga', url: 'https://www.espn.com/soccer/standings/_/league/esp.1' },
+      { name: 'Wikipedia: horario de verano (último domingo de octubre)', url: 'https://es.wikipedia.org/wiki/Horario_de_verano' },
+    ],
+    publishedAt: '2026-10-24T21:20:00+02:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Bilbao_-_Nuevo_San_Mam%C3%A9s_12.jpg/1280px-Bilbao_-_Nuevo_San_Mam%C3%A9s_12.jpg',
+      alt: 'Exterior de San Mamés, en Bilbao, con su fachada blanca curvada junto a la ría',
+      credit: 'Zarateman · Wikimedia Commons',
+      license: 'CC0',
+    },
+  },
+  {
+    slug: 'dani-guiza-barca-guardiola-2008-jugador-veto-prensa-corazon-fenerbahce-hierro-mundial-2010',
+    title: 'Dani Güiza cuenta por qué no fichó por el Barça de Guardiola tras la Eurocopa: «Hubo cosas por atrás»',
+    summary: 'El pichichi de 2008 cuenta en El Testarazo que Guardiola lo quería y que un jugador del Barça frenó su fichaje por la prensa del corazón. Acabó en el Fenerbahçe y sin Mundial en 2010.',
+    body: `Dani Güiza, 46 años, pichichi de [LaLiga](/futbol/laliga) en 2008 y campeón de Europa aquel verano, sigue jugando en el Trebujena CF, en el fútbol regional de Cádiz. En el pódcast El Testarazo, publicado el 19 de octubre, le preguntaron si estuvo alguna vez cerca del Barça o del Madrid. [«Estuve a punto en el Barça»](https://www.youtube.com/watch?v=Ja-C4ApAOZ4&t=702s), respondió. Fue después de la Eurocopa de 2008, con Guardiola recién llegado al banquillo. ¿Por qué se rompió? «Hubo cosas por atrás que yo nunca lo voy a decir, ni voy a nombrar a las personas que lo dijeron».
+
+Lo que sí dice es quién frenó la operación: no un directivo, sino un futbolista. «El jugador que dijo que no quería que yo firmara ahí», en sus palabras, alguien «que mandaba» en aquel vestuario. Y el motivo: «Era la prensa del corazón, era esas cosas». Güiza venía de dos años con su vida privada en las revistas y, según cuenta, eso pesó más que el interés del entrenador. «Guardiola sí me quería», insiste. No da el nombre del jugador y asegura que no lo va a dar nunca.
+
+## El verano en que todo le salía
+
+| Fecha | Qué pasó |
+| --- | --- |
+| Temporada 2007-08 | Pichichi con el Mallorca: [27 goles sin tirar un penalti](https://es.wikipedia.org/wiki/Dani_G%C3%BCiza) |
+| 18 de junio de 2008 | Gol de la victoria ante Grecia en Salzburgo |
+| 26 de junio de 2008 | Gol en la semifinal ante Rusia (0-3) |
+| 29 de junio de 2008 | Campeón de Europa en Viena |
+| 8 de julio de 2008 | [Fichaje por el Fenerbahçe por 14 millones de euros](https://en.wikipedia.org/wiki/Dani_G%C3%BCiza) |
+| 28 de junio de 2009 | Dos goles en la prórroga ante Sudáfrica (3-2) en la Copa Confederaciones |
+| Mayo de 2010 | Fuera de la lista para el Mundial |
+
+## Roma, Luis Aragonés y 14 millones
+
+Cerrada la puerta del Barça, tenía la Roma, que le ofrecía lo mismo que el Fenerbahçe. Pero Luis Aragonés, el seleccionador que lo había hecho campeón, se iba a Estambul: [«Entonces mi decisión ya estaba clara»](https://www.youtube.com/watch?v=Ja-C4ApAOZ4&t=842s). Fue, según le recuerdan en la entrevista, el fichaje más caro de la liga turca hasta entonces. «Sí, fueron 14 millones, creo», confirma. En Turquía ganó una Supercopa y la liga de 2011, aunque su último año lo pasó siete meses lesionado.
+
+Hay otro detalle que él mismo subraya: ya había vestido la camiseta azulgrana. Jugó medio año en el Barcelona B en 2002-03, cedido en Segunda B. Él se declara madridista, pero lo resume así: «Te pones la camiseta, te pagan y tienes que currar». Al Barça, además, le marcó en los dos partidos de la Copa de 2007 con el Getafe, los del famoso gol de Messi en el Camp Nou.
+
+## La llamada de Hierro media hora antes
+
+El otro desengaño llegó en 2010. Güiza había jugado la Eurocopa y la Copa Confederaciones, y su recuerdo es que rendía en los 15 o 20 minutos que le daban. Un año después del doblete ante Sudáfrica, Vicente del Bosque lo dejó fuera de la convocatoria previa al Mundial. Lo supo por teléfono: [«Me llamó Fernando Hierro y me lo comunicó»](https://www.youtube.com/watch?v=Ja-C4ApAOZ4&t=978s), media hora antes de que se hiciera pública, sin más explicación que «que iba a llevar otro futbolista y ya está». Su casa aquel día, dice, «parecía un tanatorio».
+
+Él mismo encadena las dos historias: al Barça no fue por un jugador y a Sudáfrica no fue, sospecha, «por motivos extradeportivos». Lo dice sin rencor hacia Del Bosque, «cada uno es libre de llevarse a quien quiera», y admite que al seleccionador le salió bien. Pero también calcula lo que cambió: «Si hubiera sido campeón del mundo, imagínate todas las cosas que hubiera cambiado». Terminó con [21 partidos y 6 goles con España](https://en.wikipedia.org/wiki/Dani_G%C3%BCiza), todos entre 2007 y 2010.
+
+Dieciocho años después, Güiza sigue en activo en el fútbol regional andaluz, en el Trebujena, tras pasar por el Rayo Sanluqueño y el Jerez Industrial. Las dos puertas que se le cerraron en 2008 y 2010 son las que todavía le preguntan en cada entrevista. La del [Barça](/futbol/laliga/equipo/83) la deja a medio contar, a propósito.`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'LaLiga', sport: 'futbol', slug: 'laliga' },
+    sourceName: 'El Testarazo (YouTube)',
+    sourceUrl: 'https://www.youtube.com/watch?v=Ja-C4ApAOZ4',
+    sourceLang: 'es',
+    sourcesSecondary: [
+      { name: 'Wikipedia (es): Dani Güiza', url: 'https://es.wikipedia.org/wiki/Dani_G%C3%BCiza' },
+      { name: 'Wikipedia (en): Dani Güiza', url: 'https://en.wikipedia.org/wiki/Dani_G%C3%BCiza' },
+    ],
+    publishedAt: '2026-10-24T21:22:00+02:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Celebracion_Eurocopa_1.jpg/1280px-Celebracion_Eurocopa_1.jpg',
+      alt: 'Los jugadores de la selección española saludan desde un autobús descubierto, rodeados de aficionados con banderas, durante la celebración de la Eurocopa 2008 en Madrid',
+      credit: 'David Yerga, Heart Industry · Wikimedia Commons',
+      license: 'CC BY-SA 2.0',
+    },
+  },
+  {
+    slug: 'hugo-sanchez-68-anos-chilena-padre-homenaje-pumas-tigres-50-anos-debut-real-madrid-pichichis',
+    title: 'Hugo Sánchez, 68 años, revela de quién copió la chilena antes de su homenaje en Pumas',
+    summary: 'Pumas distingue esta madrugada a Hugo Sánchez, 50 años después de su debut ante Tigres. El exmadridista, cinco veces Pichichi, cuenta de quién copió su remate y sus tres meses más duros en Madrid.',
+    body: `Hugo Sánchez vuelve esta noche al Estadio Olímpico Universitario de Ciudad de México. Pumas le entrega una distinción antes del partido contra Tigres, que empieza a las [04:10 de la madrugada del domingo en hora peninsular](/futbol/liga-mx/partido/401876924), ya con el horario de invierno. El club lo explica en [su comunicado](https://pumas.mx/noticias/3724): el 23 de octubre de 1976, ante ese mismo rival y en el Estadio Universitario de San Nicolás de los Garza, un chaval de 18 años entró en el minuto 25 por José Geraldo Cándido y participó en la jugada del único gol. Han pasado 50 años y un día.
+
+En la semana del aniversario ha dado entrevistas en México, y en una de ellas, [en TV Azteca](https://www.youtube.com/watch?v=PJGJOarZqJ4&t=193s), explica de dónde salió el gesto que lo definió en España: «Mi padre fue el culpable de la chilena». Los domingos, la familia iba a ver jugar a sus hermanos Héctor y Horacio y, cuando acababan, saltaban los padres. Hugo tenía cinco o seis años y vio a su padre rematar de chilena varias veces. Decidió que ese sería su remate «en honor a mi padre».
+
+## Lo que hizo en Pumas antes de cruzar el charco
+
+| Dato | Cifra |
+| --- | --- |
+| Partidos oficiales con Pumas | 194 |
+| Goles | 102 |
+| Ligas | 2 (1976-77 y 1980-81) |
+| Títulos internacionales | Concacaf 1980 y Copa Interamericana 1981 |
+| Último partido | 9 de agosto de 1981, como capitán |
+
+Las cifras son [las que publica el club](https://pumas.mx/noticias/3724). Su primer año como profesional terminó con el primer título de liga de la historia de Pumas, y en el segundo campeonato, el de 1981, ya llevaba el brazalete.
+
+## Los tres meses más duros de su vida y las cinco Ligas
+
+En la entrevista con [AS México](https://www.youtube.com/watch?v=VC85SVOCWTk) cuenta cómo fue llegar al Atlético en 1981: el entrenador que lo fichó se fue a las pocas semanas, el siguiente no lo ponía y vivió «los tres meses más difíciles que he vivido en mi vida a nivel deportivo», alojado en casa de un directivo. Fuera del Calderón, recuerda, los insultos eran por su origen. Su respuesta fue convertirlos en combustible: [«Cuando entraba al campo me transformaba en un monstruo»](https://www.youtube.com/watch?v=VC85SVOCWTk&t=396s). Jugó también con el tobillo vendado e infiltrado para no perder un Pichichi, y hoy, dice, paga las consecuencias.
+
+De aquello salió la carrera que el aficionado español recuerda: [54 goles en 111 partidos de Liga con el Atlético](https://es.wikipedia.org/wiki/Hugo_S%C3%A1nchez), una Copa del Rey en 1985, y en el [Real Madrid](/futbol/laliga/equipo/86) 164 goles en 240 partidos de Liga y cinco Ligas seguidas, de 1986 a 1990. Sus cinco Pichichis, según [el registro del trofeo](https://es.wikipedia.org/wiki/Trofeo_Pichichi), fueron de 19, 22, 34, 29 y 38 goles. Solo Messi, con ocho, y Zarra, con seis, tienen más; Quini también tiene cinco. Los 38 de 1989-90 le dieron la Bota de Oro compartida con Stoichkov, y él mantiene que [todos fueron a un solo toque](https://www.youtube.com/watch?v=PJGJOarZqJ4&t=667s).
+
+## El Balón de Oro que no podía ganar
+
+Hay una queja que repite estos días, a dos jornadas de la [gala del Balón de Oro del lunes en Londres](/noticias/gala-balon-de-oro-2026-londres-horario-espana-donde-ver-espanoles-nominados). Cuando él marcaba 38 goles, el premio de France Football solo admitía a jugadores europeos: [«Estábamos discriminados los que no éramos europeos, Maradona y yo»](https://www.youtube.com/watch?v=VC85SVOCWTk&t=319s), dice. [La norma cambió en 1995](https://es.wikipedia.org/wiki/Bal%C3%B3n_de_Oro), cuando ya había dejado el Madrid y acababa de jugar en el Rayo Vallecano, donde marcó 16 goles en el año del descenso de 1994.
+
+Para el espectador español, el homenaje llega a una hora incómoda: las 04:10 del domingo, con el reloj recién atrasado. La [ficha del partido](/futbol/liga-mx/partido/401876924) tiene el marcador en directo y la [sección de la Liga MX](/futbol/liga-mx), el resto de la jornada. El Hugo que se despidió en un amistoso de homenaje con el Real Madrid en 1997 cumple medio siglo de carrera profesional en el estadio donde lo vieron empezar.`,
+    category: 'historica',
+    kind: 'noticia',
+    competition: { name: 'Liga MX', sport: 'futbol', slug: 'liga-mx' },
+    sourceName: 'Pumas.mx',
+    sourceUrl: 'https://pumas.mx/noticias/3724',
+    sourceLang: 'es',
+    sourcesSecondary: [
+      { name: 'TV Azteca Deportes: entrevista por los 50 años (YouTube)', url: 'https://www.youtube.com/watch?v=PJGJOarZqJ4' },
+      { name: 'AS México: Hugo Sánchez revela la historia completa de su paso por España (YouTube)', url: 'https://www.youtube.com/watch?v=VC85SVOCWTk' },
+      { name: 'Wikipedia: Hugo Sánchez', url: 'https://es.wikipedia.org/wiki/Hugo_S%C3%A1nchez' },
+      { name: 'Wikipedia: Trofeo Pichichi', url: 'https://es.wikipedia.org/wiki/Trofeo_Pichichi' },
+      { name: 'ESPN: Tigres at Pumas', url: 'https://www.espn.com/soccer/match/_/gameId/401876924' },
+    ],
+    publishedAt: '2026-10-24T21:24:00+02:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Real_Madrid_in_Oisterwijk_Hugo_Sanchez_%2C_kop%2C_Bestanddeelnr_934-2327.jpg/1280px-Real_Madrid_in_Oisterwijk_Hugo_Sanchez_%2C_kop%2C_Bestanddeelnr_934-2327.jpg',
+      alt: 'Hugo Sánchez, con el pelo rizado y un polo oscuro, atiende a un micrófono con la mano en la barbilla durante una concentración del Real Madrid en Oisterwijk, Países Bajos, en abril de 1988; fotografía en blanco y negro',
+      credit: 'Rob Bogaerts / Anefo, Nationaal Archief · Wikimedia Commons',
+      license: 'CC0',
+    },
+  },
+  {
+    slug: 'enric-mas-miedo-maillot-rojo-vuelta-2026-psicologo-pogacar-bartolo-vatios-gcn',
+    title: 'Enric Mas cuenta lo que escondió bajo el maillot rojo de la Vuelta: miedo a fallar y un psicólogo',
+    summary: 'El ganador de la Vuelta 2026 admite en GCN que vivió de rojo con «miedo de que tú falles», que el psicólogo fue tan importante como entrenar y que no miró los vatios el día del Bartolo.',
+    body: `Enric Mas, 31 años, ganó la [Vuelta a España 2026](https://es.wikipedia.org/wiki/Vuelta_a_Espa%C3%B1a_2026) con 2:15 sobre Primoz Roglic y 2:44 sobre Felix Gall, el primer español que la gana desde Alberto Contador en 2014. Un mes después, sentado ante el público en la sede de Canyon en Tres Cantos, le preguntaron en GCN en Español cómo se vive de rojo. La respuesta no fue la del podio: [«Tienes presión, tienes miedo de que pase algo como caídas, de que te pongas enfermo, de que tú falles»](https://www.youtube.com/watch?v=3qEXfweQbIQ&t=531s). Ese «runrún detrás de la oreja», dice, le duraba las 24 horas, también por las noches.
+
+Delante de la prensa transmitía calma. Por dentro, cuenta, no sabía dónde iba a acabar: «Si en el podio, si un top 5, un top 10 o lo que iba a pasar». Y nombra sin rodeos a quien le ayudó a llevarlo: el psicólogo del equipo. [«Es igual de importante que entrenar, cuidarte, descansar»](https://www.youtube.com/watch?v=3qEXfweQbIQ&t=594s). En el masaje, con Lovat, pedía hablar de cualquier cosa menos de la carrera.
+
+## El día del Bartolo
+
+La Vuelta cambió en la sexta etapa, en Castellón. Tadej Pogacar, que había ganado la primera, la cuarta y esa misma sexta, atacó en el Bartolo. Mas no miró el potenciómetro: [«Miro para abajo»](https://www.youtube.com/watch?v=3qEXfweQbIQ&t=369s), responde cuando le preguntan si leyó los vatios. Nunca mira atrás en carrera, aceleró con el grupo y el coche le iba cantando la diferencia, 14 o 15 segundos. Su entrenador, que es de la zona, le había grabado la subida porque él no había podido reconocerla en invierno. Le tenía miedo a la última rampa y fue donde se acercó más; arriba rascó la bonificación de seis segundos del segundo puesto.
+
+Pogacar se cayó y no terminó la Vuelta. Mas se vistió de rojo en la octava etapa y no lo soltó; ganó la novena en Aitana, su única victoria de etapa. Él mismo lo reconoce: el liderato «vino por una desgracia del deporte». Pero el presentador le recuerda que es de los pocos escaladores que ha batido a Pogacar en una subida, en el Giro de la Emilia de 2022, con cifras que él no lleva en la cabeza: 420 vatios de media y entre 6,7 y 6,9 vatios por kilo, según la estimación que le ponen delante. «Puede ser», contesta. Él prefiere ir «a sensaciones», aunque admite que por eso a veces «reviento como un sapo».
+
+## Lo que no se ve
+
+Otra parte de la charla va de lo que pesa 100 gramos. Mas corrió con un cuadro sin pintar para ahorrar en torno a 100 gramos y explica por qué todo el pelotón ha pasado a bicicletas aerodinámicas incluso en montaña: en el llano se va a 55 o 60 por hora y la suya, con unos 7 kilos, ya no obliga a cambiar de bici, solo de ruedas. Y recuerda que hace tres o cuatro años las marcas obligaban a llevar camiseta interior «en la Vuelta a España a 40 grados» por la aerodinámica.
+
+## Dónde está ahora
+
+| Año | Vuelta a España |
+| --- | --- |
+| 2018 | 2.º |
+| 2020 | 5.º |
+| 2021 | 2.º |
+| 2022 | 2.º |
+| 2023 | 6.º |
+| 2024 | 3.º |
+| 2026 | 1.º |
+
+Los puestos son [los de su ficha](https://es.wikipedia.org/wiki/Enric_Mas). Tres segundos puestos y un tercero antes del primero, con 31 años. Después de la Vuelta ha vuelto a hacer podio en el Giro de Lombardía, [segundo a 48 segundos de Paul Seixas](https://es.wikipedia.org/wiki/Giro_de_Lombard%C3%ADa_2026) el 10 de octubre. Sobre el Tour, en la entrevista no se moja: «No sé». Lo que sí dice es que tener una grande en el palmarés le permitirá ir a las otras «un poco más con tranquilidad». La historia completa del año deportivo está en [la página de 2026](/2026) y las demás piezas de ciclismo, en [la sección de noticias](/noticias).`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'Vuelta a España', sport: 'ciclismo', slug: 'vuelta-a-espana' },
+    sourceName: 'GCN en Español (YouTube)',
+    sourceUrl: 'https://www.youtube.com/watch?v=3qEXfweQbIQ',
+    sourceLang: 'es',
+    sourcesSecondary: [
+      { name: 'Wikipedia: Vuelta a España 2026', url: 'https://es.wikipedia.org/wiki/Vuelta_a_Espa%C3%B1a_2026' },
+      { name: 'Wikipedia: Enric Mas', url: 'https://es.wikipedia.org/wiki/Enric_Mas' },
+      { name: 'Wikipedia: Giro de Lombardía 2026', url: 'https://es.wikipedia.org/wiki/Giro_de_Lombard%C3%ADa_2026' },
+    ],
+    publishedAt: '2026-10-24T21:26:00+02:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Enric_Mas%2C_2026_Vuelta_a_Espa%C3%B1a_stage_9.jpg/1280px-Enric_Mas%2C_2026_Vuelta_a_Espa%C3%B1a_stage_9.jpg',
+      alt: 'Enric Mas, con el maillot rojo de líder y casco rojo, sube el Puerto de Tudons en la novena etapa de la Vuelta 2026 entre aficionados que aplauden, con otros corredores detrás y un cielo azul',
+      credit: 'Yannick Arts · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'euskadi-espana-mundial-pelota-vasca-2026-buenos-aires-colonia-finales-cesta-punta-oros',
+    title: 'Euskadi estrena medallero mundial en la pelota y descubre lo que cuesta ganarle una final a España',
+    summary: 'En su primer Mundial como selección, Euskadi suma cuatro oros en Argentina y Uruguay, pero España le ha ganado cuatro de las cinco finales directas. Resultados, nombres y por qué compiten separados.',
+    body: `El XX Campeonato del Mundo de Pelota Vasca se juega [del 15 al 24 de octubre en Buenos Aires y Colonia del Sacramento](https://www.fipv.net/), la primera vez que la cita se celebra en Argentina. Es también el primer Mundial en el que Euskadi compite como selección propia, con el nombre de Euskal Selekzioa, después de que la Federación Internacional [reconociera a la federación vasca en diciembre de 2024](https://www.marca.com/otros-deportes/2024/12/28/federacion-internacional-pelota-reconoce-euskadi-podria-jugar-duelos-oficiales-espana.html). Eso ha dejado la imagen que muchos aficionados del frontón nunca habían visto: España contra Euskadi en una final, con pelotaris vascos a los dos lados.
+
+## Las cinco finales entre los dos
+
+| Día | Modalidad | Final |
+| --- | --- | --- |
+| 20 de octubre | Cesta punta, parejas femenina | España 2-0 Euskadi (15-9 y 15-12) |
+| 23 de octubre | Mano, individual | España 2-0 Euskadi (10-0 y 10-4) |
+| 23 de octubre | Mano, parejas | Euskadi 2-0 España (10-7 y 10-9) |
+| 23 de octubre | Cesta punta, individual femenina | España 2-0 Euskadi (15-11 y 15-14) |
+| 23 de octubre | Paleta goma, femenina | España 2-0 Euskadi (15-10 y 15-13) |
+
+Los resultados son los que publica la televisión pública vasca, [partido a partido](https://kirolakeitb.eus/es/pelota/2026/10/13/partidos-euskal-selekzioa-campeonato-mundo-pelota-2026/). El único duelo directo que ganó Euskadi fue [el de mano por parejas](https://kirolakeitb.eus/es/pelota/pelota-mano/otras-competiciones/2026/10/23/euskal-selekzioa-proclama-campeona-mundo-pelota-mano-parejas-tras-ganar-espana-final-2-0/): Eñaut Lizeaga y Oier Elorz remontaron un 3-6 en el primer juego ante Oian Canabal y Unax Apeztegia y cerraron el segundo 10-9 tras un empate a nueve. Ese mismo día, en la final individual, el riojano Jorge Fernández dejó el primer juego en 10-0.
+
+## Los cuatro oros vascos
+
+Hasta el viernes, Euskadi sumaba [cuatro oros y cuatro platas](https://kirolakeitb.eus/es/pelota/cesta-punta/2026/10/23/euskal-selekzioa-gana-medalla-oro-cesta-punta-individual-masculina-campeonato-mundo-superar-final-francia-2-0/). Los oros: la cesta punta por parejas masculina, con Barandika y Lekerika, que perdieron el primer juego 9-15 y remontaron; el trinquete adaptado, con Edorta de Anta y Germán Elkoro ante Francia; la mano por parejas; y la cesta punta individual masculina, donde Aritz Erkiaga venció al francés Jean Olharan 15-12 y 15-7. Las cuatro platas, en cambio, llegaron todas en finales perdidas contra España.
+
+De Anta lo resumió después de su oro: [«Un oro en un Mundial: no se puede pedir más»](https://kirolakeitb.eus/es/pelota/2026/10/23/edorta-deanta-declaraciones-oro-trinquete/). El sábado se cerraba el campeonato con las últimas finales, entre ellas la de frontball masculino, con Julen Alberdi, y la de pala corta.
+
+## Por qué hay dos selecciones
+
+La [Federación Internacional de Pelota Vasca](https://es.wikipedia.org/wiki/Federaci%C3%B3n_Internacional_de_Pelota_Vasca), con sede en Pamplona y presidida por Xavier Cazaubon, cuenta entre sus 32 federaciones a la Euskadiko Pilota Federakundea desde finales de 2024. Desde entonces hay pelotaris vascos en las dos selecciones, y se ve en las finales: las campeonas del mundo de cesta punta por parejas con España son dos jugadoras de Markina, Erika Mugartegi y Arai, según cuenta [la propia televisión vasca](https://kirolakeitb.eus/es/pelota/cesta-punta/), y Mugartegi también ganó la individual a Helena Barrenetxea, de Euskadi. La foto de esta pieza muestra a Mugartegi en el Jai Alai de Gernika, en la Liga de Naciones de junio de 2025, poco después del cambio.
+
+La cesta punta se jugó en Colonia del Sacramento, al otro lado del Río de la Plata, y el resto de modalidades en Buenos Aires, en el CeNARD, el Club Ciudad y el Club Banco Provincia. La clasificación para este Mundial salió de las Ligas de Naciones de 2024 y 2025, [según la FIPV](https://www.fipv.net/). Más deportes fuera del fútbol, en [la sección de noticias](/noticias) y en [el repaso del año 2026](/2026).`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'Mundial de Pelota Vasca', sport: 'pelota', slug: 'pelota-vasca' },
+    sourceName: 'EITB (Kirolak)',
+    sourceUrl: 'https://kirolakeitb.eus/es/pelota/2026/10/13/partidos-euskal-selekzioa-campeonato-mundo-pelota-2026/',
+    sourceLang: 'es',
+    sourcesSecondary: [
+      { name: 'EITB: Erkiaga logra el oro en cesta punta individual', url: 'https://kirolakeitb.eus/es/pelota/cesta-punta/2026/10/23/euskal-selekzioa-gana-medalla-oro-cesta-punta-individual-masculina-campeonato-mundo-superar-final-francia-2-0/' },
+      { name: 'EITB: campeona del mundo de mano por parejas ante España', url: 'https://kirolakeitb.eus/es/pelota/pelota-mano/otras-competiciones/2026/10/23/euskal-selekzioa-proclama-campeona-mundo-pelota-mano-parejas-tras-ganar-espana-final-2-0/' },
+      { name: 'FIPV: XX Campeonato del Mundo', url: 'https://www.fipv.net/' },
+      { name: 'Marca: la Federación Internacional reconoce a Euskadi (28-12-2024)', url: 'https://www.marca.com/otros-deportes/2024/12/28/federacion-internacional-pelota-reconoce-euskadi-podria-jugar-duelos-oficiales-espana.html' },
+      { name: 'Wikipedia: Federación Internacional de Pelota Vasca', url: 'https://es.wikipedia.org/wiki/Federaci%C3%B3n_Internacional_de_Pelota_Vasca' },
+    ],
+    publishedAt: '2026-10-24T21:28:00+02:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/3_Erika_Mugartegi_%28urdinez%29_eta_Elaia_Gogenola_%28berdez%29_Gernika_Jai_Alai._Zesta-Puntako_Nazioen_Liga.jpg/1280px-3_Erika_Mugartegi_%28urdinez%29_eta_Elaia_Gogenola_%28berdez%29_Gernika_Jai_Alai._Zesta-Puntako_Nazioen_Liga.jpg',
+      alt: 'Dos pelotaris de cesta punta en el frontón Jai Alai de Gernika, una de azul lanzando la pelota y otra de verde al fondo, vistas a través de la red de protección, con los carteles de Bizkaia y Jai Alai en la pared',
+      credit: 'Gorkaazk · Wikimedia Commons',
+      license: 'CC BY 4.0',
+    },
+  },
+  {
     slug: 'nba-resultados-2026-10-24',
     title: "NBA: resultados de la noche del sábado 24 de octubre",
     summary: "Resultados de los 12 partidos de la noche en la NBA, con el más igualado y el de más puntos.",
