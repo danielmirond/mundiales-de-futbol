@@ -154,6 +154,272 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'valencia-villarreal-horario-donde-ver-adios-mestalla-derbis-liga-aguirre',
+    title: 'Valencia - Villarreal: horario, dónde ver y el adiós de Mestalla a los derbis de Liga',
+    summary: 'El derbi de la Comunitat se juega este sábado 24 de octubre a las 18:30 en Mestalla, en Movistar Plus+. El Valencia es 19.º con 6 puntos y el Villarreal llega de perder 4-3 en Anfield.',
+    body: `El Valencia recibe al Villarreal este **sábado 24 de octubre a las 18:30** (17:30 en Canarias) en Mestalla, en la jornada 10 de LaLiga. El partido se emite en Movistar Plus+, por el dial M+ LaLiga 2, como indica la [ficha del Valencia - Villarreal](/futbol/laliga/partido/401882827). Si dudas entre plataformas, aquí está [qué plataforma emite cada competición y cuánto cuesta](/noticias/donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1) y la [guía de LaLiga 2026-27](/noticias/donde-ver-laliga-2026-27-movistar-dazn-precios-jornadas-exclusivas-clasico).
+
+Llegan en situaciones distintas. El Valencia es **19.º con 6 puntos** tras nueve jornadas (una victoria, tres empates, cinco derrotas) y el Villarreal es 12.º con 9, según la [clasificación de ESPN](https://www.espn.com/soccer/standings/_/league/esp.1). La [tabla completa de LaLiga](/futbol/laliga/clasificacion) está en el sitio.
+
+## Horario y televisión
+
+| | |
+| --- | --- |
+| Día | Sábado 24 de octubre de 2026 |
+| Hora peninsular | 18:30 |
+| Hora en Canarias | 17:30 |
+| Estadio | Mestalla (València) |
+| Televisión | M+ LaLiga 2, en Movistar Plus+ |
+| Ficha | [Valencia - Villarreal](/futbol/laliga/partido/401882827) |
+
+## El tercer partido de Aguirre
+
+Javier Aguirre afronta su tercer partido desde que llegó al banquillo. El club lo [anunció el 23 de septiembre](https://www.superdeporte.es/valencia-cf/2026/09/23/comunicado-oficial-javier-aguirre-nuevo-entrenador-valenciacf-134509827.html), diez días después de destituir a Carlos Corberán. En la previa, el técnico [confirmó cinco ausencias](https://www.superdeporte.es/valencia-cf/2026/10/23/valencia-villarreal-aguirre-confirma-5-bajas-135670386.html): Copete y Foulquier no van convocados pese a entrenar ya con el grupo, Umar Sadiq sigue por debajo de sus compañeros y Sergi Canós y Diego López continúan en la enfermería. «Copete y Foulquier están al 90 % de su recuperación y estarán esta semana que viene», dijo Aguirre. Justin de Haas y Luis Rioja, que venían renqueantes, apuntan al once.
+
+La semana del Valencia la marcó otra noticia fuera del campo: [Peter Lim dio entrada a un socio](/noticias/peter-lim-socio-valencia-pitchwise-doce-anos-compra-bankia-villarreal-mestalla) en el accionariado doce años después de quedarse el club.
+
+## El Villarreal viene de Anfield
+
+El Villarreal jugó el martes en Liverpool y [perdió 4-3 tras ir ganando](/noticias/cronica-liverpool-villarreal-401915397), así que llega con más kilómetros en las piernas que el Valencia, que no tuvo partido europeo. Su afición [agotó las 700 entradas](https://plazadeportiva.valenciaplaza.com/plazadeportiva/futbol/la-aficion-del-villarreal-agota-las-entradas-visitantes-de-mestalla) de la zona visitante.
+
+## Por qué puede ser el último derbi liguero en Mestalla
+
+El Valencia prevé mudarse al Nou Mestalla, cuya [apertura está prevista para el verano de 2027](https://economia3.com/2026/09/30/762003-el-valencia-cf-ya-prepara-su-traslado-al-nou-mestalla/). Si los plazos se cumplen y los dos equipos no se cruzan en la Copa, este sábado será la [última visita liguera del Villarreal al viejo Mestalla](https://plazadeportiva.valenciaplaza.com/plazadeportiva/futbol/el-villarreal-afronta-su-ultima-visita-liguera-a-mestalla-en-un-derbi-con-la-tranquilidad-en-juego). El balance en ese campo, según Plaza Deportiva, es de 26 visitas ligueras del Villarreal: 14 victorias del Valencia, 5 empates y 7 del Villarreal. La última, hace casi un año exacto, el 25 de octubre de 2025, acabó 0-2 con goles de Comesaña y Gerard Moreno.
+
+## El resto del sábado de LaLiga
+
+Antes del derbi, el Rayo recibe al Elche a las 14:00 (M+ LaLiga) y el Racing al Espanyol a las 16:15 (DAZN LaLiga). Después, el [Atlético - Deportivo](/noticias/previa-atletico-deportivo-401882834) cierra el día a las 21:00. El domingo a la misma hora llega el [Barcelona - Real Madrid](/noticias/previa-barcelona-real-madrid-401882832). Todos los horarios están en los [partidos de hoy](/partidos-hoy).`,
+    category: 'tv',
+    kind: 'previa',
+    competition: { name: 'LaLiga', sport: 'futbol', slug: 'laliga' },
+    sourceName: 'ESPN',
+    sourceUrl: 'https://www.espn.com/soccer/match/_/gameId/401882827',
+    sourceLang: 'en',
+    sourcesSecondary: [
+      { name: 'Superdeporte: Aguirre confirma cinco ausencias', url: 'https://www.superdeporte.es/valencia-cf/2026/10/23/valencia-villarreal-aguirre-confirma-5-bajas-135670386.html' },
+      { name: 'Plaza Deportiva: última visita liguera a Mestalla', url: 'https://plazadeportiva.valenciaplaza.com/plazadeportiva/futbol/el-villarreal-afronta-su-ultima-visita-liguera-a-mestalla-en-un-derbi-con-la-tranquilidad-en-juego' },
+      { name: 'Economía 3: el traslado al Nou Mestalla', url: 'https://economia3.com/2026/09/30/762003-el-valencia-cf-ya-prepara-su-traslado-al-nou-mestalla/' },
+    ],
+    publishedAt: '2026-10-24T11:30:00+02:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Mestalla_antes_del_partido_Valencia-Barcelona_LaLiga_2023-2024.jpg/1280px-Mestalla_antes_del_partido_Valencia-Barcelona_LaLiga_2023-2024.jpg',
+      alt: 'Mestalla de noche antes de un partido, con las gradas naranjas y negras y el nombre del Valencia en la tribuna',
+      credit: 'Anidae · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'unai-simon-joan-garcia-raya-trofeo-yashin-2026-ningun-portero-espanol-lo-ha-ganado',
+    title: 'Unai Simón, Joan García y Raya, ante el trofeo Yashin que nunca ha levantado un portero español',
+    summary: 'Tres de los diez porteros nominados al Yashin 2026 son españoles. El premio se entrega desde 2019 y ningún español lo ha ganado: lo más cerca fue Unai Simón, segundo en 2024. La gala, el lunes.',
+    body: `Unai Simón, Joan García y David Raya son tres de los diez porteros que optan al trofeo Yashin 2026, según la [lista de nominados](https://en.wikipedia.org/wiki/2026_Ballon_d%27Or) que se entrega el lunes 26 de octubre en el London Palladium. Ninguno de los seis ganadores que ha tenido el premio es español.
+
+El premio existe desde 2019 y ha tenido seis ganadores, ninguno español. Lo más cerca que estuvo uno fue Unai Simón, [segundo en 2024](https://en.wikipedia.org/wiki/Yashin_Trophy) con 213 puntos por los 276 de Emiliano Martínez. La gala, [su horario y dónde verla](/noticias/gala-balon-de-oro-2026-londres-horario-espana-donde-ver-espanoles-nominados) ya están contados en el sitio.
+
+## Quién ha ganado el Yashin
+
+| Año | Ganador | Club |
+| --- | --- | --- |
+| 2019 | Alisson | Liverpool |
+| 2021 | Gianluigi Donnarumma | PSG |
+| 2022 | Thibaut Courtois | Real Madrid |
+| 2023 | Emiliano Martínez | Aston Villa |
+| 2024 | Emiliano Martínez | Aston Villa |
+| 2025 | Gianluigi Donnarumma | PSG |
+
+En 2020 no se entregó por la pandemia. Los datos salen del [historial del trofeo](https://en.wikipedia.org/wiki/Yashin_Trophy).
+
+## Unai Simón, el portero de la final
+
+De los tres, Unai Simón llega con el argumento más grande: fue el titular de España en la [final del Mundial contra Argentina](https://www.espn.com/soccer/match/_/gameId/760517), el 1-0 del 19 de julio en Nueva Jersey, con el propio Emiliano Martínez en la otra portería. El periodo que evalúa el jurado va [del 3 de agosto de 2025 al 19 de julio de 2026](https://en.wikipedia.org/wiki/2026_Ballon_d%27Or), es decir, cierra justo con esa final. El historial completo de la selección está en la [ficha de España](/selecciones/ESP).
+
+## Joan García y Raya
+
+Joan García entra en la lista en su primer curso completo como portero del [Barcelona](/futbol/laliga/equipo/83). David Raya lo hace tras una temporada en la que el Arsenal ganó la Premier y llegó a la final de la Champions, como recordaba Mikel Merino [en una entrevista reciente](/noticias/martin-zubimendi-espana-asistencia-split-merino-arsenal-banquillo-arteta-minutos). Ninguno de los dos había estado antes entre los tres primeros del premio.
+
+## Los otros siete
+
+Completan la lista Yassine Bounou (Al-Hilal), Thibaut Courtois (Real Madrid), Gregor Kobel (Borussia Dortmund), Emiliano Martínez (Aston Villa), Édouard Mendy (Al-Ahli), Matvey Safonov (PSG) y Vozinha (Chaves). Courtois es el único de los diez que ya tiene el trofeo. Martínez, el único que lo ha ganado dos veces.
+
+## También hay una española en el Yashin femenino
+
+En la categoría femenina, con cinco nominadas, está Cata Coll, que fue [tercera en 2025](https://en.wikipedia.org/wiki/Yashin_Trophy) con 25 puntos. Coll es además una de las seis españolas en la lista de 30 del Balón de Oro femenino, con Mariona Caldentey, Patri Guijarro, Mapi León, Clàudia Pina y Alexia Putellas. Entre ellas no está [Aitana Bonmatí](/noticias/aitana-bonmati-tres-balones-de-oro-fuera-nominadas-2026-fractura), ganadora de los tres últimos. Y en el Kopa, [Lamine Yamal y Cubarsí](/noticias/lamine-yamal-tercer-trofeo-kopa-cubarsi-rival-vicky-lopez-serrajordi-londres) se disputan el mismo premio.`,
+    category: 'jugadores',
+    kind: 'noticia',
+    sourceName: 'Wikipedia (2026 Ballon d\'Or)',
+    sourceUrl: 'https://en.wikipedia.org/wiki/2026_Ballon_d%27Or',
+    sourceLang: 'en',
+    sourcesSecondary: [
+      { name: 'Wikipedia: historial del trofeo Yashin', url: 'https://en.wikipedia.org/wiki/Yashin_Trophy' },
+      { name: 'ESPN: final del Mundial 2026, España - Argentina', url: 'https://www.espn.com/soccer/match/_/gameId/760517' },
+    ],
+    publishedAt: '2026-10-24T11:32:00+02:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Unai_Simon_Argentina_v_Spain_19_July_2026-104.jpg/1280px-Unai_Simon_Argentina_v_Spain_19_July_2026-104.jpg',
+      alt: 'Unai Simón, con la camiseta azul de portero de España y el dorsal 23, saca el balón con la mano durante la final del Mundial 2026 contra Argentina',
+      credit: 'Bryan Berlin · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'francesco-totti-50-anos-libro-oltre-parientes-no-soy-vuestro-cajero-automatico',
+    title: 'Francesco Totti, 50 años, a los parientes que mantuvo: «No soy vuestro cajero automático»',
+    summary: 'El capitán eterno de la Roma cuenta en su nuevo libro, Oltre, que ayudó con dinero a mucha gente, familiares incluidos, y que algunos ni le dieron las gracias. Cumplió 50 años el 27 de septiembre.',
+    body: `Francesco Totti cumplió 50 años el 27 de septiembre y lo celebra con un libro en el que ajusta cuentas con los suyos. En *Oltre*, escrito con el periodista Alessandro Alciato, cuenta que ha mantenido a mucha gente durante años, parientes incluidos, y que [algunos le dieron la espalda](https://www.baritalianews.it/151464/2026/10/24/totti-e-il-duro-sfogo-contro-i-parenti-non-sono-il-vostro-bancomat-arrangiatevi/). «No soy vuestro cajero automático, apañaos», les escribe.
+
+No da nombres ni cifras. Dice que hubo quien se olvidó hasta de darle las gracias y que, a los 50, el círculo de personas en las que confía se ha hecho más pequeño. En el mismo capítulo explica que sigue ayudando a desconocidos cuando se entera de una necesidad, dejando dinero en buzones sin decir quién lo manda, según recoge la prensa italiana que ha leído el libro. En España la noticia no había llegado hasta ahora.
+
+## El libro
+
+*Oltre. Uno si ritira e gli succede di tutto. Che poi tocca pure raccontarlo* («Más allá. Uno se retira y le pasa de todo. Y encima toca contarlo») lo publica la editorial Cairo y [salió a la venta el 22 de septiembre](https://www.ibs.it/oltre-si-ritira-succede-di-libro-francesco-totti-alessandro-alciato/e/9788830906471), 160 páginas. Totti lo presentó el 19 de octubre en el Teatro Brancaccio de Roma, con sus 1.600 butacas llenas, [según Sky Sport](https://sport.sky.it/calcio/serie-a/2026/10/19/totti-presentazione-libro-oltre-roma). Allí resumió que en estos 50 años ha dado y recibido mucho cariño, sobre todo de la familia, de los hijos y de la gente.
+
+## Los Friedkin, siete años sin un café
+
+En esa presentación dejó el recado más futbolístico. Dijo que en siete años nunca se ha tomado un café con los Friedkin, los propietarios de la [Roma](/futbol/serie-a/equipo/104), y que por su parte no ha habido intención de reunirse con él, según Sky. Totti había firmado en 2016 un contrato de seis años para ser directivo del club cuando colgara las botas, como recoge [su biografía](https://en.wikipedia.org/wiki/Francesco_Totti), y dejó el cargo mucho antes de que ese contrato terminara.
+
+Sobre el campo, su paso por la [Serie A](/futbol/serie-a) se resume en una cifra: 619 partidos de liga y 250 goles con la Roma entre 1993 y 2017, un solo club. Fue campeón del mundo con Italia en 2006.
+
+## Lo que más le pesa no es el dinero
+
+El libro dedica más espacio al dolor que al rencor. La parte más dura, según quienes lo han leído, es la que habla de su hija pequeña, Isabel, y de lo que ha costado la separación de Ilary Blasi. Y hay un capítulo para Sinisa Mihajlovic, el técnico fallecido en 2022: en la presentación contó que de joven le hacía de taxista por Roma y le mandó un beso «allá arriba».
+
+## La Roma que quiso a Güiza
+
+Una conexión española de rebote. Esta semana, Dani Güiza contó en el podcast *El Testarazo* que en 2008, recién proclamado pichichi, [la Roma le ofrecía lo mismo que el Fenerbahçe](https://www.youtube.com/watch?v=Ja-C4ApAOZ4&t=842s) y que se decidió por Turquía porque allí iba Luis Aragonés. Aquella Roma era la de Totti, que acababa de ganar dos Copas de Italia seguidas. El equipo de hoy es [tercero en la Serie A](/futbol/serie-a/clasificacion).`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'Serie A', sport: 'futbol', slug: 'serie-a' },
+    sourceName: 'Baritalia News',
+    sourceUrl: 'https://www.baritalianews.it/151464/2026/10/24/totti-e-il-duro-sfogo-contro-i-parenti-non-sono-il-vostro-bancomat-arrangiatevi/',
+    sourceLang: 'it',
+    sourcesSecondary: [
+      { name: 'Sky Sport: Totti presenta Oltre en el Teatro Brancaccio', url: 'https://sport.sky.it/calcio/serie-a/2026/10/19/totti-presentazione-libro-oltre-roma' },
+      { name: 'Fanpage: «Non sono il vostro bancomat»', url: 'https://www.fanpage.it/sport/calcio/totti-ho-aiutato-troppe-persone-parenti-compresi-che-poi-mi-hanno-voltato-le-spalle-non-sono-il-vostro-bancomat/' },
+      { name: 'IBS: ficha del libro Oltre (Cairo)', url: 'https://www.ibs.it/oltre-si-ritira-succede-di-libro-francesco-totti-alessandro-alciato/e/9788830906471' },
+    ],
+    publishedAt: '2026-10-24T11:34:00+02:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/0675_totti_%2814717951819%29.jpg/1280px-0675_totti_%2814717951819%29.jpg',
+      alt: 'Francesco Totti, con sudadera granate de entrenamiento de la Roma y botas amarillas, saluda con la mano levantada mientras camina sobre el césped',
+      credit: 'romazone · Wikimedia Commons',
+      license: 'CC BY 2.0',
+    },
+  },
+  {
+    slug: 'sporting-de-alcazar-preferente-agranda-campo-recibe-malaga-copa-del-rey-delgado-meco',
+    title: 'Sporting de Alcázar, el equipo de Preferente que agranda su campo para recibir al Málaga',
+    summary: 'El club de Alcázar de San Juan juega el martes 27 a las 21:00 su primera eliminatoria de Copa del Rey contra un Primera. Ha tenido que poner gradas supletorias, control por QR y entradas a 40 euros.',
+    body: `El Sporting de Alcázar recibe al Málaga CF el **martes 27 de octubre a las 21:00** en el Estadio Municipal Manuel Delgado Meco de Alcázar de San Juan (Ciudad Real), en la primera eliminatoria de la [Copa del Rey](/futbol/copa-del-rey). Es un club de la Primera Autonómica Preferente de Castilla-La Mancha, cinco escalones por debajo de su rival, y nunca se había cruzado con él, como explicó el [Málaga CF al conocer el sorteo](https://www.malagacf.com/es/noticias/sporting-de-alcazar-primer-rival-en-la-copa-del-rey).
+
+Para poder jugar en casa, el campo ha pasado un examen. La RFEF [dio el visto bueno al Delgado Meco](https://manchamedia.com/la-rfef-aprueba-el-delgado-meco-para-la-copa/) el 16 de octubre con condiciones: control electrónico de accesos con código QR, obligatorio cuando se superan los 2.000 espectadores, y mejoras en la iluminación y en la producción de televisión. El Ayuntamiento hizo obras que permitieron a la empresa de las [gradas supletorias ampliar las localidades previstas](https://alcazardesanjuan.com/sporting-alcazar-gradas-entradas-abonados-copa-del-rey/).
+
+## Entradas: abonados a 30 euros, público a 40
+
+| Venta | Cuándo | Precio |
+| --- | --- | --- |
+| Abonados (preferente) | Jueves 22 de octubre | 30 euros + 1 de gestión |
+| Público general | Desde el viernes 23 | 40 euros + 1 de gestión |
+| Dónde | Taquillas del Pabellón Vicente Paniagua y venta online del club | |
+
+Los datos son de la [venta preferente anunciada por el club](https://sportingdealcazar.com/el-sporting-de-alcazar-activa-la-venta-preferente-de-entradas-para-el-historico-encuentro-ante-el-malaga-cf3/), que fija también el horario de taquilla, de 11:00 a 14:00 y de 17:30 a 21:30. Cada entrada lleva su sector y su puerta.
+
+## Cómo ha llegado hasta aquí
+
+El Sporting se ganó el sitio en la ronda previa, en la que eliminó al CP Talayuela, según el Málaga CF. Esa fase la juegan los campeones y aspirantes de las categorías regionales. En la primera ronda entran [112 clubes y se juegan 56 eliminatorias entre el 27 y el 29 de octubre](https://manchamedia.com/sporting-de-alcazar-malaga-27-de-octubre-a-las-21h/), todas a partido único, con prórroga y penaltis. Si pasa, el Sporting entraría en el sorteo de la segunda ronda, previsto para los primeros días de noviembre por proximidad geográfica. Las categorías nacionales por debajo de LaLiga están en las secciones de [Primera Federación](/futbol/primera-federacion) y [Segunda Federación](/futbol/segunda-federacion).
+
+## El rival llega último
+
+El [Málaga](/futbol/laliga/equipo/99) es colista de LaLiga con 5 puntos en diez jornadas, según la [clasificación de ESPN](https://www.espn.com/soccer/standings/_/league/esp.1). Se estrena en la Copa a domicilio, en un campo con gradas montadas para la ocasión. Según 101TV, el partido [se verá por Movistar Plus+](https://www.101tv.es/malagacf/el-partido-entre-el-malaga-y-el-sporting-de-alcazar-de-copa-del-rey-se-vera-por-movistar).
+
+## La ciudad
+
+Alcázar de San Juan tiene [31.914 habitantes](https://es.wikipedia.org/wiki/Alc%C3%A1zar_de_San_Juan), en la comarca de La Mancha. El Delgado Meco es el campo municipal de la ciudad. El club no ha dado todavía la cifra de aforo final: depende de las autorizaciones de las gradas supletorias y de los accesos.`,
+    category: 'curiosa',
+    kind: 'noticia',
+    competition: { name: 'Copa del Rey', sport: 'futbol', slug: 'copa-del-rey' },
+    sourceName: 'Málaga CF',
+    sourceUrl: 'https://www.malagacf.com/es/noticias/sporting-de-alcazar-primer-rival-en-la-copa-del-rey',
+    sourceLang: 'es',
+    sourcesSecondary: [
+      { name: 'Manchamedia: la RFEF aprueba el Delgado Meco', url: 'https://manchamedia.com/la-rfef-aprueba-el-delgado-meco-para-la-copa/' },
+      { name: 'Sporting de Alcázar: venta preferente de entradas', url: 'https://sportingdealcazar.com/el-sporting-de-alcazar-activa-la-venta-preferente-de-entradas-para-el-historico-encuentro-ante-el-malaga-cf3/' },
+      { name: 'Alcázar de San Juan: gradas supletorias y abonados', url: 'https://alcazardesanjuan.com/sporting-alcazar-gradas-entradas-abonados-copa-del-rey/' },
+      { name: '101TV: el partido se verá por Movistar', url: 'https://www.101tv.es/malagacf/el-partido-entre-el-malaga-y-el-sporting-de-alcazar-de-copa-del-rey-se-vera-por-movistar' },
+    ],
+    publishedAt: '2026-10-24T11:36:00+02:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Estadio_Municipal_Alc%C3%A1zar.jpg/1280px-Estadio_Municipal_Alc%C3%A1zar.jpg',
+      alt: 'El Estadio Municipal de Alcázar de San Juan durante un partido, con público en la grada, los banquillos cubiertos, una torre de focos y árboles tras el fondo',
+      credit: 'Juan Alberto Martínez · Wikimedia Commons',
+      license: 'CC BY 3.0',
+    },
+  },
+  {
+    slug: 'rodrigue-kwizera-medio-maraton-valencia-2026-record-espana-europa-transfer-horario-tv',
+    title: 'Rodrigue Kwizera busca en Valencia una marca que ningún europeo ha hecho y que no le valdría',
+    summary: 'Kwizera quiere bajar de 58 minutos este domingo en el Medio Maratón Valencia. Ya es español, pero World Athletics no ha tramitado su cambio y el récord de Europa no contaría. Horario y TV.',
+    body: `Rodrigue Kwizera llega al Medio Maratón Valencia de este domingo 25 de octubre con una paradoja. Obtuvo la nacionalidad española este verano, pero World Athletics todavía no le ha concedido el *transfer* internacional, así que puede batir el récord de España y no el de Europa, [según explicó EFE](https://plazadeportiva.valenciaplaza.com/plazadeportiva/polideportivo/kwizera-no-ha-recibido-el-transfer-internacional-y-no-podria-batir-el-record-de-europa). Su mejor marca, 58:16, la hizo compitiendo por Burundi.
+
+El récord de Europa lo tiene el sueco Andreas Almgren con [58:06, logrado en Copenhague el 20 de septiembre](https://en.wikipedia.org/wiki/Half_marathon). El de España es de Carlos Mayo, 59:39, conseguido en Valencia en 2023. Si Kwizera cumple su plan de bajar de 58 minutos, sería el primer europeo en hacerlo y, al mismo tiempo, el récord de España quedaría por debajo del de Europa. «Mi objetivo es correr más rápido. Además, me gusta mucho correr en Valencia», [dijo en la presentación de la élite](https://www.valenciaciudaddelrunning.com/peligran-records-espana-medio-maraton-valencia-2/).
+
+## Horario, salida y dónde ver
+
+| | |
+| --- | --- |
+| Día | Domingo 25 de octubre de 2026 |
+| Salida | 8:25, Avinguda dels Tarongers (València) |
+| Meta | Avinguda dels Tarongers |
+| Corredores | Más de 26.500, en la 35.ª edición |
+| Televisión | À Punt, desde las 8:00, también en radio, web y YouTube |
+
+La hora y el recorrido están en la [guía oficial de la carrera](https://www.valenciaciudaddelrunning.com/medio/guia-de-la-carrera/) y la cifra de participantes, en la [presentación de la prueba](https://www.valenciaciudaddelrunning.com/mas-26500-corredores-fiesta-medio-maraton-valencia/). La retransmisión de À Punt la [anunció la cadena](https://valencianews.es/deportes/a-punt-ofrecera-el-domingo-la-media-maraton-por-television-radio-web-y-youtube/), con Ximo Tamarit en la narración. Valencia encadena así dos días de deporte en la calle: el sábado, el [derbi Valencia - Villarreal en Mestalla](/noticias/valencia-villarreal-horario-donde-ver-adios-mestalla-derbis-liga-aguirre).
+
+## Qué récords están en juego y cuánto pagan
+
+| Marca | Tiempo | Quién y cuándo |
+| --- | --- | --- |
+| Récord de la prueba (hombres) | 57:30 | Yomif Kejelcha, 2024, entonces récord del mundo |
+| Récord de la prueba y del mundo (mujeres) | 1:02:52 | Letesenbet Gidey, 2021 |
+| Ganadores de 2025 | 58:02 y 1:03:08 | Kejelcha y Agnes Ngetich |
+| Récord de Europa | 58:06 | Andreas Almgren, 2026 |
+| Récord de España (hombres) | 59:39 | Carlos Mayo, Valencia 2023 |
+| Récord de España (mujeres) | 1:08:30 | Carla Gallardo |
+
+Los tiempos de la prueba están en el [histórico de ediciones](https://www.valenciaciudaddelrunning.com/medio/ediciones-anteriores/). El [reglamento](https://www.valenciaciudaddelrunning.com/medio/reglamento-21k-2026/) fija 70.000 euros por batir el récord del mundo y 6.000 por el de España. El récord del mundo masculino ya no es el de Valencia: lo tiene Kejelcha con 56:51, hecho este año en Buenos Aires.
+
+## Los españoles: Ndikumwenayo, Gallardo y Luengo
+
+Kwizera tiene la mejor marca de todo el cartel masculino. Le acompaña Thierry Ndikumwenayo, que hizo 59:42 en 2024 sin preparación específica y este año sí la ha hecho, según contó en la presentación. En mujeres, Carla Gallardo tiene el récord de España de medio maratón (1:08:30) y el de 10K (31:11) y aspira a correr entre 1:08 y 1:09; Laura Luengo (1:08:50) dice que se subirá a su ritmo todo lo que pueda. El seleccionador de la élite española, José Antonio Redolat, asegura que es el año de más nivel nacional en las dos categorías.
+
+## El cartel internacional
+
+Tadese Worku (58:35) vuelve tras ser cuarto en 2022 y 12.º en 2023. El sudafricano Maxime Chaumeton, con 26:55 en 10K, debuta en la distancia. En mujeres, la etíope Tsigie Gebreselama (1:04:21) llega tras ganar en Lisboa en 2025 y 2026, y la keniana Caroline Gitonga tiene 1:06:16. Marc Roig, seleccionador de la élite internacional, resume el objetivo en volver a colocar a Valencia entre las diez marcas más rápidas de la historia. Una de las grandes de la distancia, Peres Jepchirchir, [está apartada por un control antidopaje](/noticias/peres-jepchirchir-suspendida-epo-record-valencia-campeona-mundo-maraton) desde esta semana.`,
+    category: 'general',
+    kind: 'previa',
+    competition: { name: 'Atletismo', sport: 'atletismo', slug: 'atletismo' },
+    sourceName: 'Valencia Ciudad del Running',
+    sourceUrl: 'https://www.valenciaciudaddelrunning.com/peligran-records-espana-medio-maraton-valencia-2/',
+    sourceLang: 'es',
+    sourcesSecondary: [
+      { name: 'Plaza Deportiva (EFE): Kwizera no ha recibido el transfer', url: 'https://plazadeportiva.valenciaplaza.com/plazadeportiva/polideportivo/kwizera-no-ha-recibido-el-transfer-internacional-y-no-podria-batir-el-record-de-europa' },
+      { name: 'Guía oficial de la carrera', url: 'https://www.valenciaciudaddelrunning.com/medio/guia-de-la-carrera/' },
+      { name: 'Reglamento 21K 2026 (premios)', url: 'https://www.valenciaciudaddelrunning.com/medio/reglamento-21k-2026/' },
+      { name: 'Valencia News: À Punt ofrecerá la Media Maratón', url: 'https://valencianews.es/deportes/a-punt-ofrecera-el-domingo-la-media-maraton-por-television-radio-web-y-youtube/' },
+    ],
+    publishedAt: '2026-10-24T11:38:00+02:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Half_Marathon%2C_Valencia.jpg/1280px-Half_Marathon%2C_Valencia.jpg',
+      alt: 'Corredores de un medio maratón pasan junto al estanque de la Ciudad de las Artes y las Ciencias de Valencia, con el Hemisfèric a la derecha y el Museu de les Ciències al fondo',
+      credit: 'ChiralJon · Wikimedia Commons',
+      license: 'CC BY 2.0',
+    },
+  },
+  {
     slug: 'previa-barcelona-real-madrid-401882832',
     title: "Barcelona - Real Madrid: horario, dónde ver y cómo llegan al partido de LaLiga",
     summary: "Cita de LaLiga este domingo 25 de octubre: Barcelona - Real Madrid, a las 21:00 h en Spotify Camp Nou. Barcelona es 1.º y Real Madrid, 3.º. TV: DAZN LaLiga y DAZN.",
