@@ -154,6 +154,438 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'cronica-aston-villa-man-city-401879256',
+    title: "Nicolas Jackson guía a Aston Villa ante Man City (2-1) y lo deja 6.º en Premier League",
+    summary: "Aston Villa 2-1 Man City en Premier League: Nicolas Jackson marcó 2. Aston Villa 37 % de posesión y 8 remates; Man City 63 % y 15.",
+    body: `## Resumen
+
+Aston Villa ganó 2-1 a Man City en Premier League, con doblete de Nicolas Jackson.
+
+## Los goles
+
+- 6' · Nicolas Jackson (Aston Villa)
+- 52' · Erling Haaland (Man City)
+- 60' · Nicolas Jackson (Aston Villa)
+
+## El dato
+
+Aston Villa 37 % de posesión y 8 remates; Man City 63 % y 15.
+
+## Lo que viene
+
+Lo que viene. Aston Villa: recibe a Fulham el sábado 31 de octubre. Man City: recibe a Brighton el sábado 31 de octubre.
+
+**Lee también:** la [ficha del partido](/futbol/premier-league/partido/401879256) con alineaciones y narración · la [clasificación de Premier League](/futbol/premier-league) · [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Premier League","sport":"futbol","slug":"premier-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401879256",
+    sourceLang: 'en',
+    publishedAt: '2026-10-24T23:42:16.318Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Villaparkfromtopofholte.jpg/1280px-Villaparkfromtopofholte.jpg",
+      alt: "Interior de Villa Park, con las gradas granates y azules y el césped",
+      credit: "Everlast1910 at English Wikipedia · Wikimedia Commons",
+      license: "Public domain",
+    },
+  },
+  {
+    slug: 'cronica-coventry-fulham-401879255',
+    title: "Fulham gana fuera 1-0 a Coventry y es 13.º",
+    summary: "Fulham suma tres puntos ante Coventry (1-0) en Premier League y es 13.º con 8 puntos; Coventry se queda 19.º.",
+    body: `Fulham se impuso 1-0 a Coventry en Premier League, con gol de Oscar Bobb.
+
+## Los goles
+
+En el marcador, Oscar Bobb (80', Fulham).
+
+## La tabla
+
+Tras el partido, Coventry 19.º con 6 puntos y Fulham 13.º con 8 puntos en la [clasificación de Premier League](/futbol/premier-league).
+
+## Lo que viene
+
+Lo que viene. Coventry: recibe a Sunderland el sábado 31 de octubre. Fulham: visita a Aston Villa el sábado 31 de octubre. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/premier-league/partido/401879255).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Premier League","sport":"futbol","slug":"premier-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401879255",
+    sourceLang: 'en',
+    publishedAt: '2026-10-24T23:42:16.318Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Coventry_Building_Society_Arena_november_2025.jpg/1280px-Coventry_Building_Society_Arena_november_2025.jpg",
+      alt: "Interior del estadio del Coventry lleno durante un partido al atardecer",
+      credit: "Asj1977 · Wikimedia Commons",
+      license: "CC0",
+    },
+  },
+  {
+    slug: 'cronica-arsenal-everton-401878768',
+    title: "Arsenal gana 2-0 a Everton y es 2.º",
+    summary: "Arsenal suma tres puntos ante Everton (2-0) en Premier League y es 2.º con 21 puntos; Everton se queda 9.º.",
+    body: `Arsenal se impuso 2-0 a Everton en Premier League.
+
+## Los goles
+
+En el marcador, Ezri Konsa (7', Arsenal) y Gabriel Magalhães (68', Arsenal).
+
+## La tabla
+
+Tras el partido, Arsenal 2.º con 21 puntos y Everton 9.º con 10 puntos en la [clasificación de Premier League](/futbol/premier-league).
+
+## Lo que viene
+
+Lo que viene. Arsenal: visita a Liverpool el domingo 1 de noviembre. Everton: visita a Newcastle el lunes 2 de noviembre. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/premier-league/partido/401878768).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Premier League","sport":"futbol","slug":"premier-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401878768",
+    sourceLang: 'en',
+    publishedAt: '2026-10-24T23:42:16.318Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/London_Emirates_Stadium_arsenal.jpg/1280px-London_Emirates_Stadium_arsenal.jpg",
+      alt: "Vista aérea del Emirates Stadium del Arsenal, en el norte de Londres",
+      credit: "Arne Müseler · Wikimedia Commons",
+      license: "CC BY-SA 3.0 de",
+    },
+  },
+  {
+    slug: 'cronica-chelsea-spurs-401878767',
+    title: "Spurs supera a Chelsea (2-0) y es 12.º en Premier League",
+    summary: "Spurs 2-0 Chelsea en Premier League. Chelsea 32 % de posesión y 7 remates; Spurs 69 % y 15.",
+    body: `## Resumen
+
+Spurs ganó 2-0 a Chelsea en Premier League.
+
+## Los goles
+
+- 77' · Mike Penders (Spurs, p.p.)
+- 87' · Mathys Tel (Spurs)
+
+## El dato
+
+Chelsea 32 % de posesión y 7 remates; Spurs 69 % y 15.
+
+## Lo que viene
+
+Lo que viene. Chelsea: recibe a Man United el sábado 31 de octubre. Spurs: recibe a C Palace el sábado 31 de octubre.
+
+**Lee también:** la [ficha del partido](/futbol/premier-league/partido/401878767) con alineaciones y narración · la [clasificación de Premier League](/futbol/premier-league) · [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Premier League","sport":"futbol","slug":"premier-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401878767",
+    sourceLang: 'en',
+    publishedAt: '2026-10-24T23:42:16.318Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/London_Stamford_Bridge.jpg/1280px-London_Stamford_Bridge.jpg",
+      alt: "Vista aérea de Stamford Bridge, el estadio del Chelsea, entre los edificios de Londres",
+      credit: "Arne Müseler · Wikimedia Commons",
+      license: "CC BY-SA 3.0 de",
+    },
+  },
+  {
+    slug: 'cronica-rayo-elche-401882830',
+    title: "Rayo 0 Elche 3: gol de Germán Valera, Elche 14.º y posesión del 57 % para Rayo",
+    summary: "Germán Valera marcó en el 68' el gol que puso por delante a Elche, que ya no soltó la ventaja: 3-0 final ante Rayo en LaLiga. Claves: gol de Germán Valera, Elche 14.º y posesión del 57 % para Rayo.",
+    body: `Germán Valera marcó en el 68' el gol que puso por delante a Elche, que ya no soltó la ventaja: 3-0 final ante Rayo en LaLiga.
+
+## Germán Valera decidió
+
+Los goles: Germán Valera (68', Elche).
+
+## Rayo tuvo el balón, no el gol
+
+Rayo manejó el balón (57 % por 43 %) y tiró 18 veces, 5 entre los tres palos; Elche se quedó en 16 remates (9 a puerta). Córners: 3 por 3.
+
+## Qué cambia en la tabla
+
+Tras el partido, Rayo 17.º con 9 puntos y Elche 14.º con 10 puntos en la [clasificación de LaLiga](/futbol/laliga).
+
+## Qué viene ahora
+
+Lo que viene. Rayo: recibe a Celta Vigo el sábado 31 de octubre. Elche: recibe a Valencia el domingo 1 de noviembre. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/laliga/partido/401882830).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882830",
+    sourceLang: 'en',
+    publishedAt: '2026-10-24T23:42:16.318Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Estadio_de_Vallecas.jpg/1280px-Estadio_de_Vallecas.jpg",
+      alt: "La grada del estadio de Vallecas, con su pancarta, bajo un cielo de tormenta",
+      credit: "K3T0 · Wikimedia Commons",
+      license: "CC BY 2.5 es",
+    },
+  },
+  {
+    slug: 'cronica-racing-espanyol-401882831',
+    title: "Yassir Zabiri guía a Racing ante Espanyol (2-1) y lo deja 12.º en LaLiga",
+    summary: "Racing 2-1 Espanyol en LaLiga: Yassir Zabiri marcó. Racing 55 % de posesión y 23 remates; Espanyol 45 % y 11.",
+    body: `## Resumen
+
+Racing ganó 2-1 a Espanyol en LaLiga.
+
+## Los goles
+
+- 62' · Edu Expósito (Espanyol)
+- 69' · Jeanuël Belocian (Racing)
+- 84' · Yassir Zabiri (Racing)
+
+## El dato
+
+Racing 55 % de posesión y 23 remates; Espanyol 45 % y 11.
+
+## Lo que viene
+
+Lo que viene. Racing: recibe a Real Madrid el domingo 1 de noviembre. Espanyol: visita a Villarreal el viernes 30 de octubre.
+
+**Lee también:** la [ficha del partido](/futbol/laliga/partido/401882831) con alineaciones y narración · la [clasificación de LaLiga](/futbol/laliga) · [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882831",
+    sourceLang: 'en',
+    publishedAt: '2026-10-24T23:42:16.318Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Fachada_oeste_Campos_de_Sport_de_El_Sardinero.jpg/1280px-Fachada_oeste_Campos_de_Sport_de_El_Sardinero.jpg",
+      alt: "Fachada de los Campos de Sport de El Sardinero, con el nombre del Real Racing Club",
+      credit: "Emilio Gómez Fernández · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'cronica-valencia-villarreal-401882827',
+    title: "Alex Freeman guía a Villarreal ante Valencia (2-1) y lo deja 8.º en LaLiga",
+    summary: "Villarreal 2-1 Valencia en LaLiga: Alex Freeman marcó. Valencia 39 % de posesión y 9 remates; Villarreal 62 % y 19.",
+    body: `## Resumen
+
+Villarreal ganó 2-1 a Valencia en LaLiga.
+
+## Los goles
+
+- 69' · Alex Freeman (Villarreal)
+- 90'+6' · Georges Mikautadze (Villarreal)
+
+## El dato
+
+Valencia 39 % de posesión y 9 remates; Villarreal 62 % y 19.
+
+## Lo que viene
+
+Lo que viene. Valencia: visita a Elche el domingo 1 de noviembre. Villarreal: recibe a Espanyol el viernes 30 de octubre.
+
+**Lee también:** la [ficha del partido](/futbol/laliga/partido/401882827) con alineaciones y narración · la [clasificación de LaLiga](/futbol/laliga) · [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882827",
+    sourceLang: 'en',
+    publishedAt: '2026-10-24T23:42:16.318Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Mestalla_antes_del_partido_Valencia-Barcelona_LaLiga_2023-2024.jpg/1280px-Mestalla_antes_del_partido_Valencia-Barcelona_LaLiga_2023-2024.jpg",
+      alt: "Mestalla de noche antes de un partido, con las gradas naranjas y negras y el nombre del Valencia en la tribuna",
+      credit: "Anidae · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'cronica-atletico-deportivo-401882834',
+    title: "Atlético gana 1-0 a Deportivo y es 2.º",
+    summary: "Atlético suma tres puntos ante Deportivo (1-0) en LaLiga y es 2.º con 25 puntos; Deportivo se queda 10.º.",
+    body: `Atlético se impuso 1-0 a Deportivo en LaLiga, con gol de Julián Álvarez.
+
+## Los goles
+
+En el marcador, Julián Álvarez (48', Atlético).
+
+## La tabla
+
+Tras el partido, Atlético 2.º con 25 puntos y Deportivo 10.º con 11 puntos en la [clasificación de LaLiga](/futbol/laliga).
+
+## Lo que viene
+
+Lo que viene. Atlético: visita a Levante el sábado 31 de octubre. Deportivo: recibe a Osasuna el lunes 2 de noviembre. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/laliga/partido/401882834).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882834",
+    sourceLang: 'en',
+    publishedAt: '2026-10-24T23:42:16.318Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Madrid_-_Estadio_Wanda_Metropolitano_07.jpg/1280px-Madrid_-_Estadio_Wanda_Metropolitano_07.jpg",
+      alt: "Exterior del estadio Metropolitano de Madrid, con la cubierta roja sobre la fachada",
+      credit: "Zarateman · Wikimedia Commons",
+      license: "CC0",
+    },
+  },
+  {
+    slug: 'partidos-baloncesto-hoy-2026-10-25',
+    title: "Partidos de baloncesto hoy, domingo 25 de octubre: horarios y dónde ver NBA",
+    summary: "Agenda de baloncesto de hoy domingo 25 de octubre: 2 partidos con horario en hora española y canal de televisión. Destaca Jazz - Lakers.",
+    body: `2 partidos de baloncesto para domingo 25 de octubre. Repasamos qué se juega, a qué hora y en qué canal, sin más vueltas. El partido que más miradas reúne es el **[Jazz - Lakers](/baloncesto/nba/partido/401909861)** (NBA, 22:00 h).
+
+## 🇺🇸 NBA
+
+- **[Jazz - Lakers](/baloncesto/nba/partido/401909861)** — 22:00 h
+- **[Nets - Pacers](/baloncesto/nba/partido/401909862)** — 23:00 h
+
+Calendario y clasificación en la [página de NBA](/baloncesto/nba).
+
+Hora peninsular en todos los casos. Si un canal cambia a última hora, la ficha del partido lo recoge. Toda la jornada, con marcadores en directo, en [partidos de hoy](/partidos-hoy).`,
+    category: 'tv',
+    kind: 'agenda',
+    competition: {"name":"NBA","sport":"baloncesto","slug":"nba"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/nba/game/_/gameId/401909861",
+    sourceLang: 'en',
+    publishedAt: '2026-10-24T23:42:16.318Z',
+    modifiedAt: '2026-10-24T23:42:16.318Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Delta_Center_2023.jpg/1920px-Delta_Center_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Delta Center, escenario del Jazz - Lakers",
+      credit: "Lomrjyo · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'partidos-futbol-hoy-2026-10-25',
+    title: "Partidos de fútbol hoy, domingo 25 de octubre: horarios y dónde ver LaLiga, Premier League y Eredivisie",
+    summary: "Agenda de fútbol de hoy domingo 25 de octubre: 42 partidos con horario en hora española y canal de televisión. Destaca Athletic - Getafe.",
+    body: `Jornada de fútbol con 42 citas este domingo 25 de octubre. Horarios en hora peninsular y dónde verlas, competición por competición. El partido que más miradas reúne es el **[Athletic - Getafe](/futbol/laliga/partido/401882835)** (LaLiga, 14:00 h).
+
+## 🇳🇱 Eredivisie
+
+- **[Fortuna - Excelsior](/futbol/eredivisie/partido/401875570)** — 12:15 h
+- **[NEC - FC Groningen](/futbol/eredivisie/partido/401875569)** — 14:30 h · 📺 DAZN
+- **[PSV - Feyenoord](/futbol/eredivisie/partido/401875568)** — 14:30 h · 📺 DAZN
+- **[Sparta - Ajax](/futbol/eredivisie/partido/401875567)** — 16:45 h · 📺 DAZN
+- **[AZ Alkmaar - FC Twente](/futbol/eredivisie/partido/401875566)** — 20:00 h · 📺 DAZN
+
+Calendario y clasificación en la [página de Eredivisie](/futbol/eredivisie).
+
+## 🇮🇹 Serie A
+
+- **[Inter Milan - Fiorentina](/futbol/serie-a/partido/401875036)** — 12:30 h · 📺 DAZN / Movistar Plus+
+- **[Atalanta - Frosinone](/futbol/serie-a/partido/401874972)** — 15:00 h · 📺 DAZN
+- **[Genoa - Venezia](/futbol/serie-a/partido/401874952)** — 15:00 h · 📺 DAZN
+- **[Lecce - Juventus](/futbol/serie-a/partido/401874772)** — 18:00 h · 📺 DAZN
+- **[Udinese - Milan](/futbol/serie-a/partido/401874779)** — 20:45 h · 📺 DAZN
+
+Calendario y clasificación en la [página de Serie A](/futbol/serie-a).
+
+## 🇪🇸 Liga F
+
+- **[Deportivo - Alavés](/futbol/liga-f/partido/401882482)** — 12:45 h
+- **[Eibar - Madrid CFF](/futbol/liga-f/partido/401882480)** — 17:00 h
+
+Calendario y clasificación en la [página de Liga F](/futbol/liga-f).
+
+## 🇪🇸 LaLiga
+
+- **[Athletic - Getafe](/futbol/laliga/partido/401882835)** — 14:00 h · 📺 DAZN LaLiga / DAZN
+- **[Celta Vigo - Betis](/futbol/laliga/partido/401882833)** — 16:15 h · 📺 DAZN LaLiga 2 / DAZN
+- **[Real Sociedad - Levante](/futbol/laliga/partido/401882829)** — 18:30 h · 📺 M+ LALIGA
+- **[Barcelona - Real Madrid](/futbol/laliga/partido/401882832)** — 21:00 h · 📺 DAZN LaLiga / DAZN
+
+Calendario y clasificación en la [página de LaLiga](/futbol/laliga).
+
+## 🇪🇸 LaLiga Hypermotion
+
+- **[CD Sabadell - Tenerife](/futbol/laliga-2/partido/401883127)** — 14:00 h · 📺 LALIGA TV Hypermotion / DAZN
+- **[Albacete - Eldense](/futbol/laliga-2/partido/401883132)** — 16:15 h · 📺 LALIGA TV Hypermotion 2 / DAZN
+- **[Cádiz - Ceuta](/futbol/laliga-2/partido/401883130)** — 16:15 h · 📺 LALIGA TV Hypermotion / DAZN
+- **[Castellón - Gijón](/futbol/laliga-2/partido/401883129)** — 18:30 h · 📺 LALIGA TV Hypermotion / DAZN
+
+Calendario y clasificación en la [página de LaLiga 2](/futbol/laliga-2).
+
+## 🇹🇷 Süper Lig
+
+- **[Konyaspor - Genclerbirli](/futbol/super-lig/partido/401888266)** — 14:00 h
+- **[Goztepe - Çorum FK](/futbol/super-lig/partido/401888376)** — 17:00 h
+
+Calendario y clasificación en la [página de Süper Lig](/futbol/super-lig).
+
+## 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Premier League
+
+- **[C Palace - Newcastle](/futbol/premier-league/partido/401879254)** — 15:00 h · 📺 DAZN
+- **[Hull - Brentford](/futbol/premier-league/partido/401878766)** — 15:00 h · 📺 DAZN
+- **[Liverpool - Brighton](/futbol/premier-league/partido/401878765)** — 15:00 h · 📺 DAZN / DAZN 1
+- **[Man United - Bournemouth](/futbol/premier-league/partido/401879252)** — 15:00 h · 📺 DAZN / DAZN 2
+- **[Sunderland - Leeds](/futbol/premier-league/partido/401878764)** — 17:30 h · 📺 DAZN / DAZN 1
+
+Calendario y clasificación en la [página de Premier League](/futbol/premier-league).
+
+## 🇫🇷 Ligue 1
+
+- **[Monaco - Lille](/futbol/ligue-1/partido/401876425)** — 15:00 h · 📺 DAZN
+- **[Auxerre - Le Mans](/futbol/ligue-1/partido/401876429)** — 17:15 h · 📺 DAZN
+- **[Angers - Lorient](/futbol/ligue-1/partido/401876430)** — 17:15 h · 📺 DAZN
+- **[Marseille - Le Havre AC](/futbol/ligue-1/partido/401876426)** — 17:15 h · 📺 DAZN
+- **[Rennes - Strasbourg](/futbol/ligue-1/partido/401876424)** — 17:15 h · 📺 DAZN
+- **[Toulouse - Troyes](/futbol/ligue-1/partido/401876423)** — 17:15 h · 📺 DAZN
+
+Calendario y clasificación en la [página de Ligue 1](/futbol/ligue-1).
+
+## 🇩🇪 Bundesliga
+
+- **[Hoffenheim - Leverkusen](/futbol/bundesliga/partido/401884760)** — 15:30 h · 📺 DAZN
+- **[Freiburg - Bayern](/futbol/bundesliga/partido/401884759)** — 17:30 h · 📺 DAZN
+
+Calendario y clasificación en la [página de Bundesliga](/futbol/bundesliga).
+
+## 🇵🇹 Primeira Liga
+
+- **[Estoril - Moreirense](/futbol/primeira-liga/partido/401885418)** — 16:30 h
+- **[Nacional - Braga](/futbol/primeira-liga/partido/401885416)** — 19:00 h
+- **[Rio Ave - FC Famalicao](/futbol/primeira-liga/partido/401885415)** — 19:00 h
+- **[Sporting - Académico](/futbol/primeira-liga/partido/401885413)** — 21:30 h · 📺 DAZN
+
+Calendario y clasificación en la [página de Primeira Liga](/futbol/primeira-liga).
+
+## 🇦🇷 Liga Profesional Argentina
+
+- **[Aldosivi - Belgrano ](/futbol/liga-argentina/partido/401841629)** — 18:45 h
+- **[Independiente - Boca ](/futbol/liga-argentina/partido/401841636)** — 21:00 h
+- **[River Plate - Racing ](/futbol/liga-argentina/partido/401841634)** — 23:15 h · 📺 M+ Vamos / M+ Liga de Campeones 2
+
+Calendario y clasificación en la [página de Liga Argentina](/futbol/liga-argentina).
+
+Todos los horarios están en hora peninsular. Los marcadores se actualizan en directo en cada ficha de partido. Toda la jornada, con marcadores en directo, en [partidos de hoy](/partidos-hoy).`,
+    category: 'tv',
+    kind: 'agenda',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882835",
+    sourceLang: 'en',
+    publishedAt: '2026-10-24T23:42:16.318Z',
+    modifiedAt: '2026-10-24T23:42:16.318Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Bilbao_-_Nuevo_San_Mam%C3%A9s_12.jpg/1280px-Bilbao_-_Nuevo_San_Mam%C3%A9s_12.jpg",
+      alt: "Exterior de San Mamés, en Bilbao, con su fachada blanca curvada junto a la ría",
+      credit: "Zarateman · Wikimedia Commons",
+      license: "CC0",
+    },
+  },
+  {
     slug: 'athletic-getafe-celta-betis-real-sociedad-levante-horarios-domingo-clasico-cambio-de-hora-donde-ver',
     title: 'Athletic, Celta y Real Sociedad abren el domingo del Clásico: horarios con el cambio de hora y dónde ver',
     summary: 'Athletic - Getafe (14:00), Celta - Betis (16:15) y Real Sociedad - Levante (18:30) juegan antes del Clásico, ya con el horario de invierno. Canales, hora canaria y cómo llegan los seis.',
@@ -2494,8 +2926,8 @@ Marcadores en directo, calendario y clasificación por conferencias en la [pági
 
 - **Libres 1**: viernes 23 de octubre, a las 19:30 (hora peninsular). Mejor tiempo: Charles Leclerc
 - **Libres 2**: viernes 23 de octubre, a las 23:00 (hora peninsular). Mejor tiempo: Charles Leclerc
-- **Libres 3**: sábado 24 de octubre, a las 19:30 (hora peninsular)
-- **Clasificación**: sábado 24 de octubre, a las 23:00 (hora peninsular)
+- **Libres 3**: sábado 24 de octubre, a las 19:30 (hora peninsular). Mejor tiempo: Lewis Hamilton
+- **Clasificación**: sábado 24 de octubre, a las 23:00 (hora peninsular). Mejor tiempo: Kimi Antonelli
 - **Carrera**: domingo 25 de octubre, a las 21:00 (hora peninsular)
 
 ## Así llega el Mundial
@@ -2516,7 +2948,7 @@ Horarios, resultados de cada sesión y clasificación completa del Mundial en la
     sourceUrl: "https://www.espn.com/f1/schedule",
     sourceLang: 'en',
     publishedAt: '2026-10-22T12:20:10.049Z',
-    modifiedAt: '2026-10-24T11:32:33.991Z',
+    modifiedAt: '2026-10-24T23:42:16.318Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/2018_US_Grand_Prix_at_the_Circuit_of_the_Americas.jpg/1920px-2018_US_Grand_Prix_at_the_Circuit_of_the_Americas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
