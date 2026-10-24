@@ -2,30 +2,32 @@
   "_nota": "Campañas de afiliado para los huecos publicitarios. Se alimentan de los correos de Movistar Plus (Awin 114230) y DAZN (Awin 126263); la tarea diaria propone altas. Fechas inclusivas (hora de Madrid). 'ubicaciones': home | noticia | competicion | directo. 'deportes' vacío = todos.",
   "campanas": [
     {
-      "id": "dazn-dubois-wardley-2",
+      "id": "dazn-nfl-paris-semana-7",
       "anunciante": "dazn",
-      "tipo": "ppv",
-      "titulo": "Dubois - Wardley 2, en DAZN",
-      "texto": "Revancha por el título mundial del peso pesado de la WBO. Sábado 17 de octubre, desde el O2 de Londres.",
-      "cta": "Ver en DAZN",
-      "url": "https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fhome",
+      "tipo": "suscripcion",
+      "titulo": "La NFL llega a París: Steelers - Saints",
+      "texto": "Domingo 25 a las 14:30, y todos los partidos de la semana 7 con NFL RedZone en NFL Game Pass.",
+      "cta": "Ver en NFL Game Pass",
+      "url": "https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fnfl-game-pass",
       "imagen": null,
-      "desde": "2026-10-15",
-      "hasta": "2026-10-17",
+      "desde": "2026-10-24",
+      "hasta": "2026-10-25",
       "ubicaciones": [
         "home",
-        "noticia",
         "competicion",
+        "noticia",
         "directo"
       ],
-      "deportes": []
+      "deportes": [
+        "futbol-americano"
+      ]
     },
     {
       "id": "dazn-nfl-game-pass",
       "anunciante": "dazn",
       "tipo": "suscripcion",
       "titulo": "NFL Game Pass en DAZN",
-      "texto": "Todos los partidos de la NFL y NFL RedZone, con un 25 % de descuento el resto de la temporada.",
+      "texto": "Todos los partidos de la NFL y NFL RedZone, con descuento en los planes de temporada.",
       "cta": "Ver la oferta",
       "url": "https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fnfl-game-pass",
       "imagen": null,
@@ -59,32 +61,11 @@
       "deportes": []
     },
     {
-      "id": "dazn-rossi-verstappen",
-      "anunciante": "dazn",
-      "tipo": "gratis",
-      "titulo": "Verstappen contra Rossi, gratis en DAZN",
-      "texto": "GT World Challenge Europe en Portimão: Verstappen debuta en una carrera de resistencia de GT3 frente a Rossi. En directo y gratis.",
-      "cta": "Verlo gratis",
-      "url": "https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome",
-      "imagen": null,
-      "desde": "2026-10-15",
-      "hasta": "2026-10-18",
-      "ubicaciones": [
-        "home",
-        "noticia",
-        "competicion",
-        "directo"
-      ],
-      "deportes": [
-        "motor"
-      ]
-    },
-    {
       "id": "dazn-oferta-clasico",
       "anunciante": "dazn",
       "tipo": "oferta",
-      "titulo": "El Clásico en DAZN: 9,99 €/mes durante 12 meses",
-      "texto": "Oferta de DAZN para el Real Madrid - Barcelona del 25 de octubre. Válida del 19 al 25 de octubre.",
+      "titulo": "El Clásico en DAZN: Plan Fútbol a 9,99 €/mes",
+      "texto": "Barcelona - Real Madrid, domingo 25 a las 21:00. Plan anual fraccionado a 9,99 €/mes o 109,99 € en pago único, solo hasta el domingo.",
       "cta": "Ver la oferta",
       "url": "https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome",
       "imagen": null,
