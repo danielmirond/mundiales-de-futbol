@@ -2,7 +2,7 @@ import type { MetadataRoute } from 'next';
 
 const SITE = (process.env.NEXT_PUBLIC_SITE_URL ?? 'https://mundiales-de-futbol.com').trim();
 
-const SPORTS = ['futbol', 'baloncesto', 'futbol-americano', 'rugby', 'hockey', 'beisbol', 'motor', 'tenis', 'golf', 'combate', 'balonmano'];
+const SPORTS = ['futbol', 'baloncesto', 'futbol-americano', 'rugby', 'hockey', 'beisbol', 'motor', 'tenis', 'golf', 'combate', 'balonmano', 'padel'];
 
 /**
  * Rastreo bloqueado (2026-10-25) solo en patrones que Google no tenía indexados

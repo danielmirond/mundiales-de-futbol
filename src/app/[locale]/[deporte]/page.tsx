@@ -6,6 +6,7 @@ import { getSport, competitionsOf, liveCompetitions, competitionPath, KIND_LABEL
 import { TodayBoard } from '@/components/portal/today-board';
 import { LiveStrip } from '@/components/feed/live-strip';
 import { NewsOpening } from '@/components/home/news-opening';
+import { PadelHub } from '@/components/portal/padel-hub';
 import { AdSlot } from '@/components/affiliate/ad-slot';
 import { RacingHub } from '@/components/portal/racing-hub';
 import { TennisHub } from '@/components/portal/tennis-hub';
@@ -83,6 +84,7 @@ export default async function SportPage({ params }: { params: Promise<{ locale: 
       {/* Deportes sin partido local-visitante: la plantilla propia de su competición principal. */}
       {comps.filter((c) => !c.espn && (c.stats === 'racing' || c.stats === 'tennis' || c.stats === 'combat')).map((c) => c.stats === 'racing' ? <RacingHub key={c.slug} comp={c} /> : c.stats === 'combat' ? <FightHub key={c.slug} comp={c} /> : <TennisHub key={c.slug} comp={c} />)}
       {/* Golf: solo el primer circuito en la página del deporte (evita tres tablas seguidas). */}
+      {s.slug === 'padel' && <PadelHub />}
       {comps.filter((c) => c.stats === 'golf').slice(0, 1).map((c) => <GolfHub key={c.slug} comp={c} />)}
 
       {liveCompetitions(s.slug).length > 0 && <>

@@ -20,7 +20,7 @@ export const TEAM_INDEX_COMPS = new Set(['laliga', 'premier-league', 'serie-a', 
 /** Crónicas automáticas que se mantienen indexables. */
 export const AUTO_NEWS_INDEX_COMPS = new Set(['laliga', 'champions-league', 'nba']);
 
-const SPORTS = /^(futbol|baloncesto|futbol-americano|rugby|hockey|beisbol|motor|tenis|golf|combate|balonmano)$/;
+const SPORTS = /^(futbol|baloncesto|futbol-americano|rugby|hockey|beisbol|motor|tenis|golf|combate|balonmano|padel)$/;
 
 /** ¿Se indexa esta ruta (sin prefijo de idioma)? */
 export function isIndexablePath(path: string): boolean {

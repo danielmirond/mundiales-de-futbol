@@ -5,6 +5,7 @@
  */
 export const ICON_PATHS = {
   // deportes
+  padel: '<ellipse cx="10" cy="9" rx="6" ry="6.5"/><path d="M13.8 14l5.7 6"/><path d="M8 6.5h.01M12 6.5h.01M8 10h.01M12 10h.01M10 8.2h.01"/><circle cx="19.5" cy="5" r="1.6"/>',
   futbol: '<circle cx="12" cy="12" r="9"/><path d="M12 7.6l3.7 2.7-1.4 4.4H9.7l-1.4-4.4z"/><path d="M12 3v4.6M15.7 10.3l4.4-1.5M14.3 14.7l2.7 3.8M9.7 14.7L7 18.5M8.3 10.3L3.9 8.8"/>',
   baloncesto: '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3v18M5.7 5.6c3 2.7 3 10.1 0 12.8M18.3 5.6c-3 2.7-3 10.1 0 12.8"/>',
   rugby: '<ellipse cx="12" cy="12" rx="9.5" ry="5.6" transform="rotate(-38 12 12)"/><path d="M8.6 15.4l6.8-6.8M10 12.6l1.4 1.4M11.5 11.1l1.4 1.4M13 9.6l1.4 1.4"/>',
@@ -89,6 +90,6 @@ export function Icon({ name, size = 16, className, title }: { name: IconName; si
 export const SPORT_ICON: Record<string, IconName> = {
   futbol: 'futbol', baloncesto: 'baloncesto', rugby: 'rugby', balonmano: 'balonmano', tenis: 'tenis',
   motor: 'motor', ciclismo: 'ciclismo', atletismo: 'atletismo', golf: 'golf',
-  'futbol-americano': 'futbol-americano', hockey: 'hockey', beisbol: 'beisbol', combate: 'combate',
+  'futbol-americano': 'futbol-americano', hockey: 'hockey', beisbol: 'beisbol', combate: 'combate', padel: 'padel',
 };
 export const sportIcon = (slug: string): IconName => SPORT_ICON[slug] ?? 'mas';

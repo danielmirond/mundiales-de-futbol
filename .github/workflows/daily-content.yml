@@ -55,6 +55,10 @@ jobs:
         run: npx tsx scripts/footballcharts/snapshot.ts || echo 'Football Charts sin cambios'
       - name: Registro de canales de LaLiga y Champions (calculadora «¿cuánto cuesta ver a tu equipo?»)
         run: npx tsx scripts/tv-rights/snapshot.ts || echo 'Canales sin cambios'
+      - name: Snapshot pádel (Padel API, plan gratuito; ~30 peticiones)
+        env:
+          PADELAPI_TOKEN: ${{ secrets.PADELAPI_TOKEN }}
+        run: '[ -n "$PADELAPI_TOKEN" ] && npx tsx scripts/padel/snapshot.ts || echo "Pádel sin cambios"'
       - name: Snapshot OpenACB (Liga Endesa, estadísticas semanales)
         run: npx tsx scripts/openacb/snapshot.ts || echo 'OpenACB sin cambios'
       - name: Generar piezas
@@ -70,7 +74,7 @@ jobs:
           if git diff --quiet src/lib/news.ts src/data/sportapi-snapshot.json src/data/openacb-snapshot.json src/data/ufc-snapshot.json src/data/f1-pilotos.json src/data/nfl-advanced.json; then echo "Sin cambios."; exit 0; fi
           git config user.name "daily-content-bot"
           git config user.email "daily-content-bot@users.noreply.github.com"
-          git add src/lib/news.ts src/data/sportapi-snapshot.json src/data/openacb-snapshot.json src/data/ufc-snapshot.json src/data/f1-pilotos.json src/data/nfl-advanced.json src/data/footballcharts.json src/data/tv-asignaciones.json
+          git add src/lib/news.ts src/data/sportapi-snapshot.json src/data/openacb-snapshot.json src/data/ufc-snapshot.json src/data/f1-pilotos.json src/data/nfl-advanced.json src/data/footballcharts.json src/data/tv-asignaciones.json src/data/padel.json
           git commit -m "auto(contenidos): piezas del $(date -u +%F)"
           git push origin HEAD:main
       # Vercel no está conectado a Git: sin este paso las piezas no llegan a

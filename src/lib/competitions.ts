@@ -9,7 +9,7 @@
  * Rutas: /[deporte]  y  /[deporte]/[competicion]  (ver src/app/[locale]/[deporte]).
  */
 
-export type SportSlug = 'futbol' | 'baloncesto' | 'rugby' | 'balonmano' | 'motor' | 'tenis' | 'futbol-americano' | 'hockey' | 'beisbol' | 'golf' | 'combate';
+export type SportSlug = 'futbol' | 'baloncesto' | 'rugby' | 'balonmano' | 'motor' | 'tenis' | 'futbol-americano' | 'hockey' | 'beisbol' | 'golf' | 'combate' | 'padel';
 
 export type Sport = {
   slug: SportSlug;
@@ -33,7 +33,7 @@ export type Competition = {
   secondary?: boolean;
   hasStandings: boolean;
   /** Plantilla alternativa cuando no es un partido local-visitante de ESPN: estadísticas OpenACB, tenis o motor. */
-  stats?: 'openacb' | 'tennis' | 'racing' | 'golf' | 'combat' | 'boxing' | 'motogp' | 'federacion';
+  stats?: 'openacb' | 'tennis' | 'racing' | 'golf' | 'combat' | 'boxing' | 'motogp' | 'federacion' | 'padel';
   /** Grupos de football-charts.com para la plantilla `federacion` (Primera y Segunda Federación). */
   fc?: string[];
   /** Ruta ESPN para las plantillas `tennis` y `racing` (no entran en los tableros de partidos). */
@@ -56,6 +56,7 @@ export const SPORTS: Sport[] = [
   { slug: 'hockey', name: 'Hockey hielo', emoji: '🏒', description: 'NHL: marcadores, calendario y clasificación.' },
   { slug: 'beisbol', name: 'Béisbol', emoji: '⚾', description: 'MLB: resultados, calendario y clasificación.' },
   { slug: 'golf', name: 'Golf', emoji: '⛳', description: 'PGA Tour, DP World Tour y LPGA: torneo en juego, tabla por vueltas y calendario.' },
+  { slug: 'padel', name: 'Pádel', emoji: '🎾', description: 'Premier Padel: torneo en juego, cuadros, campeones de la temporada y ranking mundial masculino y femenino.' },
   { slug: 'combate', name: 'Combate', emoji: '🥊', description: 'UFC: cartelera de cada velada, resultados y próximas fechas.' },
 ];
 
@@ -188,6 +189,8 @@ export const COMPETITIONS: Competition[] = [
     description: 'DP World Tour (circuito europeo): torneo en juego, tabla y calendario, con los golfistas españoles.', keywords: ['dp world tour', 'circuito europeo de golf', 'golf europeo'] },
   { slug: 'lpga', name: 'LPGA', sport: 'golf', kind: 'torneo', hasStandings: false, stats: 'golf', feed: { sport: 'golf', league: 'lpga' },
     description: 'LPGA: circuito femenino de golf, torneo en juego y calendario.', keywords: ['lpga', 'golf femenino', 'torneo lpga'] },
+  { slug: 'premier-padel', name: 'Premier Padel', shortName: 'Premier Padel', sport: 'padel', kind: 'torneo', hasStandings: false, stats: 'padel',
+    description: 'Premier Padel 2026: torneo en juego con su cuadro, campeones de cada Major y P1, calendario y ranking FIP masculino y femenino.', keywords: ['premier padel', 'ranking padel', 'resultados padel', 'major padel', 'coello tapia', 'galán', 'gemma triay'] },
   { slug: 'ufc', name: 'UFC', sport: 'combate', kind: 'torneo', hasStandings: false, stats: 'combat', feed: { sport: 'mma', league: 'ufc' },
     description: 'UFC: cartelera completa de cada velada, resultados con el método de victoria y próximas veladas.', keywords: ['ufc', 'resultados ufc', 'cartelera ufc', 'próxima velada ufc'] },
   { slug: 'boxeo', name: 'Boxeo', sport: 'combate', kind: 'torneo', hasStandings: false, stats: 'boxing',
