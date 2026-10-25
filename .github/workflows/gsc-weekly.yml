@@ -6,6 +6,11 @@ on:
   #   # Lunes 06:00 UTC.
   #   - cron: '0 6 * * 1'
   workflow_dispatch:
+    inputs:
+      cobertura:
+        description: 'Inspección de indexación (URL Inspection API) de scripts/gsc/sample-urls.txt'
+        type: boolean
+        default: false
 
 jobs:
   gsc-report:
@@ -34,6 +39,12 @@ jobs:
         run: |
           npx tsx scripts/gsc/report.ts
           npx tsx scripts/gsc/portal.ts
+
+      - name: Cobertura de indexación (muestra)
+        if: ${{ inputs.cobertura }}
+        env:
+          GSC_SA_JSON: ${{ secrets.GSC_SA_JSON }}
+        run: npx tsx scripts/gsc/index-coverage.ts --urls scripts/gsc/sample-urls.txt --no-cache --limit 800
 
       - name: Subir informe como artefacto (no se commitea, contiene datos de tráfico)
         uses: actions/upload-artifact@v4
