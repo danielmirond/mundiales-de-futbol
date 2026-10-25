@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { isIndexablePath } from './index-policy';
 import { routing, type Locale } from '@/i18n/routing';
 
 // Defensive `.trim()`: una env var con whitespace accidental (p.ej. \n)
@@ -117,7 +118,8 @@ export function pageMetadata(opts: PageMetadataOptions): Metadata {
   // real para ese locale en esta página, no queremos que Google la indexe
   // como contenido inglés/francés/etc. (sirve fallback español).
   const localeUntranslated = !availableLocales.includes(opts.locale);
-  const shouldNoIndex = opts.noIndex || localeUntranslated;
+  // Política de indexación por tipo de ruta (src/lib/index-policy.ts).
+  const shouldNoIndex = opts.noIndex || localeUntranslated || !isIndexablePath(opts.path);
 
   const ogImages = opts.image
     ? [

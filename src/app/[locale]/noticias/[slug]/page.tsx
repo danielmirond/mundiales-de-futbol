@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { isIndexableNews } from '@/lib/index-policy';
 import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import { setRequestLocale } from 'next-intl/server';
@@ -86,6 +87,8 @@ export async function generateMetadata({
     publishedTime: item.publishedAt,
     modifiedTime: item.modifiedAt ?? item.publishedAt,
     availableLocales,
+    // Crónicas y agendas del bot fuera de LaLiga, Champions y NBA: noindex (index-policy).
+    noIndex: !isIndexableNews(item),
     keywords: item.competition
       ? [item.competition.name, `noticias ${item.competition.name}`, loc.title.split(':')[0].trim()]
       : [`Mundial 2026 ${CATEGORY_LABELS[item.category]}`, 'noticias Mundial 2026', loc.title.split(':')[0].trim()],

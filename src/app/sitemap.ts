@@ -1,4 +1,5 @@
 import { f1Drivers } from '@/lib/f1-history';
+import { isIndexablePath, isIndexableNews } from '@/lib/index-policy';
 import { hasInjuryReport } from '@/lib/espn-preview';
 import { veladas } from '@/lib/boxeo';
 import { getCompetition as getComp, type Competition as Comp } from '@/lib/competitions';
@@ -242,13 +243,11 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   out.push(entry('/coleccionismo/panini-mundial-2026/digital', now, 'weekly', 0.8, true));
   out.push(entry('/coleccionismo/panini-mundial-2026/tapa-dura', now, 'monthly', 0.75, true));
   out.push(entry('/coleccionismo/panini-mundial-2026/cromos-mas-caros', now, 'weekly', 0.85, true));
-  out.push(entry('/coleccionismo/panini-mundial-2026/figurinhas-copa-2026', now, 'weekly', 0.9, true));
   out.push(entry('/coleccionismo/panini-mundial-2026/cuantos-cromos-tiene', now, 'weekly', 0.9, true));
   out.push(entry('/coleccionismo/panini-mundial-2026/caja-50-sobres', now, 'weekly', 0.85, true));
   out.push(entry('/coleccionismo/panini-mundial-2026/edicion-dorada', now, 'weekly', 0.8, true));
   out.push(entry('/coleccionismo/panini-mundial-2026/check-list-cromos', now, 'weekly', 0.8, true));
   out.push(entry('/coleccionismo/panini-mundial-2026/donde-comprar/mexico', now, 'weekly', 0.85, true));
-  out.push(entry('/coleccionismo/panini-mundial-2026/donde-comprar/brasil', now, 'weekly', 0.85, true));
   out.push(entry('/coleccionismo/panini-mundial-2026/donde-comprar/usa', now, 'weekly', 0.85, true));
   out.push(entry('/coleccionismo/panini-mundial-2026/coca-cola', now, 'weekly', 0.8, true));
   out.push(entry('/coleccionismo/panini-mundial-2026/topps-vs-panini', now, 'monthly', 0.7, true));
@@ -321,12 +320,14 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // Noticias del Mundial 2026 (cobertura editorial diaria)
   out.push(entry('/noticias', now, 'daily', 0.9));
   for (const n of NEWS_ITEMS) {
+    // Crónicas y agendas del bot fuera de LaLiga, Champions y NBA van noindex: fuera del sitemap.
+    if (!isIndexableNews(n) || Date.parse(n.publishedAt) > Date.now()) continue;
     // availableLocales = es siempre + los que tengan i18n rellenado.
     const locales = ['es', ...Object.keys(n.i18n ?? {})];
     out.push(
       entry(
         `/noticias/${n.slug}`,
-        new Date(n.publishedAt),
+        new Date(n.modifiedAt ?? n.publishedAt),
         'weekly',
         0.75,
         false,
@@ -367,5 +368,16 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     out.push(entry(`/estadios/${v.slug}`, now, 'monthly', 0.5));
   }
 
-  return out;
+  // Política de indexación: solo URLs indexables (ninguna con noindex) y sin duplicados.
+  // lastmod real: el archivo del Mundial (cerrado tras la final del 19 de julio) no cambia a diario.
+  const ARCHIVE = /^\/(historial|jugadores|ediciones|selecciones|estadios|records|historias|2026|mundiales|goles-famosos|palmares|coleccionismo|galeria|legal|privacidad|cookies|contacto|aviso-afiliados|sobre-nosotros|politica-editorial|politica-correcciones)(\/|$)/;
+  const ARCHIVE_DATE = new Date('2026-07-20T00:00:00Z');
+  const seen = new Set<string>();
+  return out.filter((e) => {
+    const path = e.url.replace(SITE, '') || '/';
+    if (seen.has(e.url) || !isIndexablePath(path)) return false;
+    seen.add(e.url);
+    if (ARCHIVE.test(path) && e.lastModified instanceof Date && e.lastModified.getTime() >= now.getTime() - 60_000) e.lastModified = ARCHIVE_DATE;
+    return true;
+  });
 }

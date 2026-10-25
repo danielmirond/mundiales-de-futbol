@@ -70,7 +70,8 @@ const AUTHOR = 'Redacción Mundiales de Fútbol';
 const SITE = 'https://mundiales-de-futbol.com';
 const PRIORITY = ['laliga', 'champions-league', 'europa-league', 'premier-league', 'nba'];
 /** Crónicas: solo fútbol prioritario y con tope diario (MC1: nada de series desde feeds). */
-const CRONICA_COMPS = ['laliga', 'champions-league', 'europa-league', 'premier-league'];
+// Desde 2026-10-25 solo LaLiga y Champions: las crónicas automáticas de otras ligas no se indexaban (1 de 33).
+const CRONICA_COMPS = ['laliga', 'champions-league'];
 const MAX_CRONICAS = 8;
 const prio = (slug: string) => { const i = PRIORITY.indexOf(slug); return i === -1 ? 99 : i; };
 const SPORT_NAME: Record<string, string> = { futbol: 'fútbol', baloncesto: 'baloncesto' };

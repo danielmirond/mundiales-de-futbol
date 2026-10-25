@@ -1,4 +1,5 @@
 import { NextResponse } from 'next/server';
+import { isIndexableNews } from '@/lib/index-policy';
 import { HISTORIAS } from '@/lib/historias';
 import { NEWS_ITEMS } from '@/lib/news';
 
@@ -75,6 +76,7 @@ function buildEntries(): ImageEntry[] {
 
   // Noticias con imagen
   for (const n of NEWS_ITEMS) {
+    if (!isIndexableNews(n)) continue;
     if (!n.image?.url) continue;
     entries.push({
       pageUrl: `${SITE}/noticias/${n.slug}`,

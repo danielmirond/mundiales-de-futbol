@@ -1,4 +1,5 @@
 import { NextResponse } from 'next/server';
+import { isIndexableNews } from '@/lib/index-policy';
 import { HISTORIAS } from '@/lib/historias';
 import { NEWS_ITEMS } from '@/lib/news';
 
@@ -59,6 +60,7 @@ export async function GET() {
     const pubMs = new Date(n.publishedAt).getTime();
     if (pubMs < cutoffMs) continue;
     if (pubMs > now.getTime()) continue; // no publicar futuros
+    if (!isIndexableNews(n)) continue; // crónicas/agendas del bot con noindex
 
     entries.push({
       loc: `${SITE}/noticias/${n.slug}`,
