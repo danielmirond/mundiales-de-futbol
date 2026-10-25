@@ -16,7 +16,7 @@ jobs:
   gsc-report:
     name: Search Analytics → informe
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 45
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -47,6 +47,7 @@ jobs:
         run: npx tsx scripts/gsc/index-coverage.ts --urls scripts/gsc/sample-urls.txt --no-cache --limit 800
 
       - name: Subir informe como artefacto (no se commitea, contiene datos de tráfico)
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: gsc-report
