@@ -5807,6 +5807,46 @@ El Gran Premio de Estados Unidos se corre este domingo en Austin, a la misma hor
     },
   },
   {
+    slug: 'paolo-simoncelli-padre-marco-15-anos-sepang-valentino-suena-con-marco',
+    title: 'Paolo Simoncelli, padre del Sic: «Valentino me dice que a veces sueña con Marco»',
+    summary: 'Quince años después de la muerte de Marco Simoncelli en Sepang, su padre cuenta que Valentino Rossi aún sueña con él, que está «cabreado con Cristo» y que en Australia ha visto camisetas del 58 en los escaparates. MotoGP vuelve a Sepang este fin de semana.',
+    body: `El 23 de octubre de 2011, en la segunda vuelta del Gran Premio de Malasia, Marco Simoncelli perdió el control de su Honda en una curva y lo arrollaron Colin Edwards y Valentino Rossi. Tenía 24 años. Quince años después, su padre, Paolo, sigue en el paddock al frente del equipo que lleva su número, el SIC58, y este fin de semana MotoGP vuelve a Sepang.
+
+## «Me dice que a veces lo sueña»
+
+Con Valentino, cuenta, la relación sigue viva. «De vez en cuando hablamos, nos vemos, nos abrazamos, y me dice que a veces lo sueña. A mí también me pasa, es algo normal», dijo en una [entrevista con Fanpage](https://www.fanpage.it/sport/motori/paolo-simoncelli-valentino-rossi-mi-dice-che-sogna-marco-ti-accorgi-che-la-morte-non-e-il-peggio/). «Marco lo consideraba un amigo, le quería. Lo que pasó, y cómo pasó, fue difícil también para él».
+
+Volver a Sepang fue lo único que le removió: «La primera vez que volví después de la muerte de Marco hizo daño. Volvieron muchos recuerdos. Allí hay una placa que pusieron unos fotógrafos y de vez en cuando vamos».
+
+## «Estoy cabreado con Cristo»
+
+La fe es lo que más le ha cambiado. «Estoy cabreado con Cristo. Punto. Se lo dije también al Papa», contó. Le cogió el crucifijo y le dijo que estaba enfadado con su jefe. «Me dijo que tenía razón». Con los años, añade, ha visto a padres de chicos muy enfermos y ha entendido otra cosa: «Te das cuenta de que la muerte no es lo peor». Su fundación ayuda hoy a familias con hijos con discapacidad.
+
+No cambiaría nada de su hijo para recuperarlo. «Arrepentimientos, cero. Su madre y yo hicimos de todo, siempre, para que fuera feliz. Para él correr lo era todo».
+
+## «Lo disfruté 24 años»
+
+Esta semana, desde Australia, le contó a Il Resto del Carlino que el cariño no se ha ido. «Estos días estoy en Australia y veo en los escaparates camisetas y recuerdos de Marco. La gente me para», recogió [Leggo](https://www.leggo.it/sport/motociclismo/23_ottobre_2026_marco_simoncelli_morto_15_anni_fa_intervista_padre-9843654.html). Hay quien le cuenta con detalle qué estaba haciendo aquel domingo, «como si de golpe todo hubiera cambiado».
+
+Y sobre el dolor de un padre: «Viví con él y lo disfruté 24 años, y fue algo precioso. Hoy tengo a Martina, su hermana. Es igual que él, nos ha ayudado a aliviar una herida demasiado profunda... es una injusticia. Los hijos no deberían morir antes que los padres».
+
+MotoGP corre en Sepang del 30 de octubre al 1 de noviembre, con Marc Márquez líder y Jorge Martín lesionado; [así está el Mundial](/noticias/motogp-cancela-gran-premio-australia-helicoptero-medico-marquez-martin-mundial).`,
+    category: 'historica',
+    competition: { name: 'MotoGP', sport: 'motor', slug: 'motogp' },
+    sourceName: 'Fanpage',
+    sourceUrl: 'https://www.fanpage.it/sport/motori/paolo-simoncelli-valentino-rossi-mi-dice-che-sogna-marco-ti-accorgi-che-la-morte-non-e-il-peggio/',
+    sourceLang: 'it',
+    sourcesSecondary: [{ name: 'Leggo (Il Resto del Carlino)', url: 'https://www.leggo.it/sport/motociclismo/23_ottobre_2026_marco_simoncelli_morto_15_anni_fa_intervista_padre-9843654.html' }],
+    publishedAt: '2026-10-25T11:48:00+01:00',
+    author: 'Redacción Mundiales de Fútbol',
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Marco_Simoncelli_2011.jpg/1280px-Marco_Simoncelli_2011.jpg',
+      alt: 'Marco Simoncelli pilota su Honda blanca con el número 58 sobre el asfalto mojado, en 2011',
+      credit: 'Matt Billings · CC BY 2.0 · Wikimedia Commons',
+      license: 'CC BY 2.0',
+    },
+  },
+  {
     slug: 'donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1',
     title: 'Dónde ver el deporte en España en 2026-27: canales y precios de cada competición, una a una',
     summary: 'Guía de la temporada 2026-27: dónde se ve en España LaLiga, la Champions, la Premier, la NBA, la F1, MotoGP, el tenis o la NFL, qué plan hace falta, cuánto cuesta y qué es gratis.',
