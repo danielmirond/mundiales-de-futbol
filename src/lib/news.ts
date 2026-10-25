@@ -154,6 +154,271 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'cronica-gp-estados-unidos-2026',
+    title: "Kimi Antonelli se lleva el Gran Premio de Estados Unidos y amplía su ventaja",
+    summary: "Kimi Antonelli gana el Gran Premio de Estados Unidos por delante de Charles Leclerc y Max Verstappen. Así queda el Mundial de pilotos y constructores.",
+    body: `Kimi Antonelli ganó el Gran Premio de Estados Unidos en Circuit of the Americas, Austin. Charles Leclerc acabó segundo y Max Verstappen completó el podio. La pole había sido para Kimi Antonelli, que convirtió la primera posición en victoria.
+
+## El Mundial tras Estados Unidos
+
+1. Kimi Antonelli, 365 puntos
+2. George Russell, 242 puntos
+3. Lewis Hamilton, 241 puntos
+4. Max Verstappen, 236 puntos
+5. Charles Leclerc, 233 puntos
+
+Kimi Antonelli refuerza el liderato con 123 puntos sobre George Russell. En constructores, Mercedes suma 607.
+
+La próxima cita es el Gran Premio de México, con la carrera el domingo 1 de noviembre.
+
+Resultados de cada sesión y clasificación completa en la [página de la Fórmula 1](/motor/formula-1).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Fórmula 1","sport":"motor","slug":"formula-1"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/f1/results",
+    sourceLang: 'en',
+    publishedAt: '2026-10-25T23:32:45.738Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/2018_US_Grand_Prix_at_the_Circuit_of_the_Americas.jpg/1920px-2018_US_Grand_Prix_at_the_Circuit_of_the_Americas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Circuit of the Americas , escenario del Gran Premio de Estados Unidos",
+      credit: "HoverVan · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'previa-sevilla-osasuna-401882828',
+    title: "Sevilla - Osasuna: horario, dónde ver y cómo llegan al partido de LaLiga",
+    summary: "Cita de LaLiga este lunes 26 de octubre: Sevilla - Osasuna, a las 21:00 h en Ramón Sánchez Pizjuán Stadium. Sevilla es 6.º y Osasuna, 12.º. TV: M+ LALIGA.",
+    body: `Cita de LaLiga este lunes 26 de octubre: Sevilla - Osasuna, a las 21:00 h en Ramón Sánchez Pizjuán Stadium.
+
+## Cómo llegan
+
+Sevilla llega de perder 1-4 ante Real Madrid y ocupa la 6.º plaza con 14 puntos (4G-2E-3P). Osasuna llega de ganar 2-0 a Racing y ocupa la 12.º plaza con 11 puntos (3G-2E-4P). La [clasificación de LaLiga](/futbol/laliga), al día.
+
+## Dónde ver el partido
+
+Se emite en **M+ LALIGA**. Alineaciones en cuanto se confirmen, marcador en directo y narración en la [ficha del Sevilla - Osasuna](/futbol/laliga/partido/401882828). El resto de la jornada, en [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    kind: 'previa',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882828",
+    sourceLang: 'en',
+    publishedAt: '2026-10-25T23:32:45.738Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/b/b2/Seville_Ram%C3%B3n_S%C3%A1nchez_Pizju%C3%A1n_Stadium_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      alt: "Ramón Sánchez Pizjuán Stadium, sede del Sevilla - Osasuna",
+      credit: "Валерий Дед · CC BY 3.0 · Wikimedia Commons",
+      license: "CC BY 3.0",
+    },
+  },
+  {
+    slug: 'cronica-athletic-getafe-401882835',
+    title: "Athletic gana 4-0 a Getafe y es 8.º",
+    summary: "Athletic suma tres puntos ante Getafe (4-0) en LaLiga y es 8.º con 12 puntos; Getafe se queda 17.º.",
+    body: `Athletic se impuso 4-0 a Getafe en LaLiga.
+
+## Los goles
+
+En el marcador, Álex Berenguer (17', Athletic), Iñaki Williams (35', Athletic), Aitor Paredes (70', Athletic) y Yuri Berchiche (88', Athletic). Expulsado: Mario Martín.
+
+## La tabla
+
+Tras el partido, Athletic 8.º con 12 puntos y Getafe 17.º con 9 puntos en la [clasificación de LaLiga](/futbol/laliga).
+
+## Lo que viene
+
+Lo que viene. Athletic: recibe a Real Sociedad el domingo 1 de noviembre. Getafe: recibe a Sevilla el domingo 1 de noviembre. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/laliga/partido/401882835).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882835",
+    sourceLang: 'en',
+    publishedAt: '2026-10-25T23:32:45.738Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Bilbao_-_Nuevo_San_Mam%C3%A9s_12.jpg/1280px-Bilbao_-_Nuevo_San_Mam%C3%A9s_12.jpg",
+      alt: "Exterior de San Mamés, en Bilbao, con su fachada blanca curvada junto a la ría",
+      credit: "Zarateman · Wikimedia Commons",
+      license: "CC0",
+    },
+  },
+  {
+    slug: 'cronica-celta-vigo-betis-401882833',
+    title: "Celta Vigo y Betis empatan 0-0; Celta Vigo sigue 9.º en LaLiga",
+    summary: "Celta Vigo 0-0 Betis en LaLiga. Celta Vigo 44 % de posesión y 12 remates; Betis 57 % y 15.",
+    body: `## Resumen
+
+Celta Vigo y Betis empataron 0-0 en LaLiga.
+
+## Los goles
+
+Sin goles.
+
+## El dato
+
+Celta Vigo 44 % de posesión y 12 remates; Betis 57 % y 15.
+
+## Lo que viene
+
+Lo que viene. Celta Vigo: visita a Rayo el sábado 31 de octubre. Betis: recibe a Málaga el sábado 31 de octubre.
+
+**Lee también:** la [ficha del partido](/futbol/laliga/partido/401882833) con alineaciones y narración · la [clasificación de LaLiga](/futbol/laliga) · [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882833",
+    sourceLang: 'en',
+    publishedAt: '2026-10-25T23:32:45.738Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Estadio_Abanca_Bala%C3%ADdos.jpg/1280px-Estadio_Abanca_Bala%C3%ADdos.jpg",
+      alt: "Un aficionado levanta una bufanda celeste en la grada de Balaídos, iluminado de noche y lleno",
+      credit: "Estevoaei · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'cronica-real-sociedad-levante-401882829',
+    title: "Real Sociedad gana 2-1 a Levante y es 5.º",
+    summary: "Real Sociedad suma tres puntos ante Levante (2-1) en LaLiga y es 5.º con 19 puntos; Levante se queda 14.º.",
+    body: `Real Sociedad se impuso 2-1 a Levante en LaLiga.
+
+## Los goles
+
+Marcaron Orri Óskarsson (6', Real Sociedad), Nacho Pérez (22', Levante) y Beñat Turrientes (27', Real Sociedad).
+
+## La tabla
+
+Tras el partido, Real Sociedad 5.º con 19 puntos y Levante 14.º con 10 puntos en la [clasificación de LaLiga](/futbol/laliga).
+
+## Lo que viene
+
+Lo que viene. Real Sociedad: visita a Athletic el domingo 1 de noviembre. Levante: recibe a Atlético el sábado 31 de octubre. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/laliga/partido/401882829).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882829",
+    sourceLang: 'en',
+    publishedAt: '2026-10-25T23:32:45.738Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Anoeta_00%2C_Donostia%2C_Gipuzkoa%2C_Euskal_Herria.jpg/1280px-Anoeta_00%2C_Donostia%2C_Gipuzkoa%2C_Euskal_Herria.jpg",
+      alt: "Exterior del estadio de Anoeta, con su fachada azul y el nombre Reale Arena",
+      credit: "Bhgh543bgf · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'cronica-barcelona-real-madrid-401882832',
+    title: "Barcelona 1 Real Madrid 2: doblete de Kylian Mbappé, Real Madrid 3.º y posesión del 62 % para Barcelona",
+    summary: "Kylian Mbappé marcó en el 87' el gol que puso por delante a Real Madrid, que ya no soltó la ventaja: 2-1 final ante Barcelona en LaLiga. Claves: doblete de Kylian Mbappé, Real Madrid 3.º y posesión del 62 % para Barcelona.",
+    body: `Kylian Mbappé marcó en el 87' el gol que puso por delante a Real Madrid, que ya no soltó la ventaja: 2-1 final ante Barcelona en LaLiga.
+
+## Kylian Mbappé decidió con 2 goles
+
+Los goles: Kylian Mbappé (41', Real Madrid), Raphinha (61', Barcelona) y Kylian Mbappé (87', Real Madrid).
+
+## Barcelona tuvo el balón, no el gol
+
+La posesión fue 62 %-38 % para Barcelona. En remates, 18 de Barcelona (6 a puerta) por 10 de Real Madrid (5). Córners: 6 por 6.
+
+## Qué cambia en la tabla
+
+Tras el partido, Barcelona 1.º con 27 puntos y Real Madrid 3.º con 24 puntos en la [clasificación de LaLiga](/futbol/laliga).
+
+## Qué viene ahora
+
+Lo que viene. Barcelona: recibe a Alavés el sábado 31 de octubre. Real Madrid: visita a Racing el domingo 1 de noviembre. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/laliga/partido/401882832).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882832",
+    sourceLang: 'en',
+    publishedAt: '2026-10-25T23:32:45.738Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/2014._Camp_Nou._M%C3%A9s_que_un_club._Barcelona_B40.jpg/1280px-2014._Camp_Nou._M%C3%A9s_que_un_club._Barcelona_B40.jpg",
+      alt: "Interior del Camp Nou, con las gradas azulgranas y el lema «Més que un club» en la tribuna",
+      credit: "Luis Miguel Bugallo Sánchez (Lmbuga) · Wikimedia Commons",
+      license: "CC BY-SA 3.0",
+    },
+  },
+  {
+    slug: 'partidos-futbol-hoy-2026-10-26',
+    title: "Partidos de fútbol hoy, lunes 26 de octubre: horarios y dónde ver LaLiga, Süper Lig y Primeira Liga",
+    summary: "Agenda de fútbol de hoy lunes 26 de octubre: 9 partidos con horario en hora española y canal de televisión. Destaca Sevilla - Osasuna.",
+    body: `9 partidos de fútbol para lunes 26 de octubre. Repasamos qué se juega, a qué hora y en qué canal, sin más vueltas. El partido que más miradas reúne es el **[Sevilla - Osasuna](/futbol/laliga/partido/401882828)** (LaLiga, 21:00 h).
+
+## 🇹🇷 Süper Lig
+
+- **[Besiktas - Istanbul BB](/futbol/super-lig/partido/401888264)** — 17:00 h
+- **[Caykur Rizespor - Trabzonspor](/futbol/super-lig/partido/401888267)** — 17:00 h
+- **[Galatasaray - Fenerbahce](/futbol/super-lig/partido/401888265)** — 19:30 h
+
+Calendario y clasificación en la [página de Süper Lig](/futbol/super-lig).
+
+## 🇵🇹 Primeira Liga
+
+- **[Santa Clara - Benfica](/futbol/primeira-liga/partido/401885414)** — 19:45 h · 📺 DAZN
+
+Calendario y clasificación en la [página de Primeira Liga](/futbol/primeira-liga).
+
+## 🇪🇸 LaLiga Hypermotion
+
+- **[FC Andorra - Burgos](/futbol/laliga-2/partido/401883131)** — 20:30 h · 📺 LALIGA TV Hypermotion / DAZN
+
+Calendario y clasificación en la [página de LaLiga 2](/futbol/laliga-2).
+
+## 🇫🇷 Ligue 1
+
+- **[PSG - Lyon](/futbol/ligue-1/partido/401876422)** — 20:30 h · 📺 DAZN
+
+Calendario y clasificación en la [página de Ligue 1](/futbol/ligue-1).
+
+## 🇪🇸 LaLiga
+
+- **[Sevilla - Osasuna](/futbol/laliga/partido/401882828)** — 21:00 h · 📺 M+ LALIGA
+
+Calendario y clasificación en la [página de LaLiga](/futbol/laliga).
+
+## 🇦🇷 Liga Profesional Argentina
+
+- **[Unión (SF) - Estudiantes](/futbol/liga-argentina/partido/401841630)** — 23:00 h
+
+Calendario y clasificación en la [página de Liga Argentina](/futbol/liga-argentina).
+
+## 🇧🇷 Brasileirão
+
+- **[Coritiba - Grêmio](/futbol/brasileirao/partido/401841279)** — 23:30 h
+
+Calendario y clasificación en la [página de Brasileirão](/futbol/brasileirao).
+
+Todos los horarios están en hora peninsular. Los marcadores se actualizan en directo en cada ficha de partido. Toda la jornada, con marcadores en directo, en [partidos de hoy](/partidos-hoy).`,
+    category: 'tv',
+    kind: 'agenda',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882828",
+    sourceLang: 'en',
+    publishedAt: '2026-10-25T23:32:45.738Z',
+    modifiedAt: '2026-10-25T23:32:45.738Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/2022-10-25_1_Estadio_Ram%C3%B3n_S%C3%A1nchez_Pizju%C3%A1n_%28Sevilla_FC%29.jpg/1280px-2022-10-25_1_Estadio_Ram%C3%B3n_S%C3%A1nchez_Pizju%C3%A1n_%28Sevilla_FC%29.jpg",
+      alt: "Interior del Ramón Sánchez-Pizjuán, con las gradas rojas y blancas y el nombre del Sevilla",
+      credit: "Niels98 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
     slug: 'nba-resultados-2026-10-25',
     title: "NBA: resultados de la noche del 25 de octubre",
     summary: "Resultados de los 8 partidos de la noche en la NBA, con el más igualado y el de más puntos.",
