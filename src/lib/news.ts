@@ -5723,6 +5723,58 @@ El de este domingo, a las 21:00 en el Spotify Camp Nou: horario, alineaciones y 
     },
   },
   {
+    slug: 'motogp-cancela-gran-premio-australia-helicoptero-medico-marquez-martin-mundial',
+    title: 'MotoGP cancela Australia porque el helicóptero médico no podía volar: así queda el Mundial',
+    summary: 'La niebla impidió volar al helicóptero médico y MotoGP suspendió la carrera del domingo en Phillip Island. Márquez, que ganó el sprint, sigue 10 puntos por delante de un Jorge Martín lesionado, con cuatro grandes premios por delante.',
+    body: `No hubo carrera de MotoGP en Phillip Island. La organización la canceló este domingo después de horas de retrasos, con el mismo motivo que repitió toda la mañana: la escasa visibilidad impedía operar al helicóptero médico. Sin él no se puede correr, y MotoGP dio por perdida la jornada «debido a la visibilidad limitada que afecta al funcionamiento del helicóptero médico», según [su comunicado](https://www.motogp.com/en/news/2026/10/24/latest-motogp-phillip-island-track-activity-delayed/1180939). También se suspendieron las carreras de Moto3 y Moto2.
+
+En lugar de la carrera, los pilotos dieron una vuelta detrás del coche de seguridad y pararon en la recta de meta para saludar al público. Era la despedida de MotoGP de Phillip Island: desde 2027 el Gran Premio de Australia se corre en un circuito urbano en Adelaida, [según Crash.net](https://www.crash.net/motogp/news/1108385/1/bad-weather-cancels-australian-motogp).
+
+## Así queda el Mundial
+
+Como no hubo carrera larga, solo cuentan los puntos del sprint del sábado, que ganó Marc Márquez. La clasificación de MotoGP queda así:
+
+| Pos. | Piloto | Equipo | Puntos |
+| --- | --- | --- | --- |
+| 1 | Marc Márquez | Ducati Lenovo | 365 |
+| 2 | Jorge Martín | Aprilia Racing | 355 |
+| 3 | Marco Bezzecchi | Aprilia Racing | 315 |
+| 4 | Pedro Acosta | Red Bull KTM | 263 |
+
+## Martín, lesionado
+
+El golpe del fin de semana se lo llevó Jorge Martín: se fracturó el antebrazo derecho en una caída en el sprint y no estaba en condiciones de correr el domingo. Su intención es estar en Sepang. Con la cancelación, al menos no pierde más terreno con Márquez.
+
+## Lo que queda
+
+Quedan cuatro grandes premios, cada uno con sprint y carrera, 37 puntos en juego por fin de semana y 148 en total:
+
+| Fechas | Gran premio |
+| --- | --- |
+| 30 de octubre - 1 de noviembre | Malasia (Sepang) |
+| 6 - 8 de noviembre | Catar (Lusail) |
+| 20 - 22 de noviembre | Portugal (Portimão) |
+| 27 - 29 de noviembre | Comunitat Valenciana (Cheste) |
+
+*Esta pieza incluye un enlace de afiliado. Si contratas desde él, Mundiales recibe una comisión sin coste extra para ti. No cambia lo que contamos.*
+
+MotoGP se ve en España en DAZN, que hasta el 1 de noviembre tiene [el plan Motor a 9,99 €/mes durante 12 meses](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome), justo para el fin de semana de Sepang. Más opciones en [dónde ver la F1 y MotoGP](/noticias/donde-ver-f1-motogp-espana-2026-dazn-precios-carreras-que-quedan), y la clasificación completa y el calendario, en la [sección de MotoGP](/motor/motogp).`,
+    category: 'general',
+    competition: { name: 'MotoGP', sport: 'motor', slug: 'motogp' },
+    sourceName: 'MotoGP',
+    sourceUrl: 'https://www.motogp.com/en/news/2026/10/24/latest-motogp-phillip-island-track-activity-delayed/1180939',
+    sourceLang: 'en',
+    sourcesSecondary: [{ name: 'Crash.net', url: 'https://www.crash.net/motogp/news/1108385/1/bad-weather-cancels-australian-motogp' }],
+    publishedAt: '2026-10-25T11:37:00+01:00',
+    author: 'Redacción Mundiales de Fútbol',
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Phillip_Island_Aerial_View.jpg/1280px-Phillip_Island_Aerial_View.jpg',
+      alt: 'Vista aérea del circuito de Phillip Island, con sus curvas entre prados verdes junto a la costa',
+      credit: 'Tom Reynolds · CC BY 2.0 · Wikimedia Commons',
+      license: 'CC BY 2.0',
+    },
+  },
+  {
     slug: 'donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1',
     title: 'Dónde ver el deporte en España en 2026-27: canales y precios de cada competición, una a una',
     summary: 'Guía de la temporada 2026-27: dónde se ve en España LaLiga, la Champions, la Premier, la NBA, la F1, MotoGP, el tenis o la NFL, qué plan hace falta, cuánto cuesta y qué es gratis.',
