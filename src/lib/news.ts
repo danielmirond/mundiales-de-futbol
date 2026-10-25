@@ -154,6 +154,39 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'nba-resultados-2026-10-25',
+    title: "NBA: resultados de la noche del 25 de octubre",
+    summary: "Resultados de los 8 partidos de la noche en la NBA, con el más igualado y el de más puntos.",
+    body: `8 partidos en la NBA esta noche. El más igualado, Cavaliers 125-121 a Nets. El de más puntos, Nuggets ante Pelicans (141-135).
+
+## Resultados
+
+- [Hornets 115-110 Heat](/baloncesto/nba/partido/401909853)
+- [Cavaliers 125-121 Nets](/baloncesto/nba/partido/401909854)
+- [76ers 127-116 Bucks](/baloncesto/nba/partido/401909855)
+- [Wizards 124-120 Bulls](/baloncesto/nba/partido/401909857)
+- [Spurs 122-106 Mavericks](/baloncesto/nba/partido/401909858)
+- [Rockets 121-114 Hawks](/baloncesto/nba/partido/401909856)
+- [Nuggets 141-135 Pelicans](/baloncesto/nba/partido/401909859)
+- [Suns 131-122 Warriors](/baloncesto/nba/partido/401909860)
+
+Marcadores en directo, calendario y clasificación por conferencias en la [página de la NBA](/baloncesto/nba).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"NBA","sport":"baloncesto","slug":"nba"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/nba/scoreboard",
+    sourceLang: 'en',
+    publishedAt: '2026-10-25T11:59:25.128Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Quicken_Loans_Arena_%2826647193302%29.jpg/1920px-Quicken_Loans_Arena_%2826647193302%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Rocket Arena, sede del Cavaliers - Nets",
+      credit: "Erik Drost · CC BY 2.0 · Wikimedia Commons",
+      license: "CC BY 2.0",
+    },
+  },
+  {
     slug: 'cronica-aston-villa-man-city-401879256',
     title: "Nicolas Jackson guía a Aston Villa ante Man City (2-1) y lo deja 6.º en Premier League",
     summary: "Aston Villa 2-1 Man City en Premier League: Nicolas Jackson marcó 2. Aston Villa 37 % de posesión y 8 remates; Man City 63 % y 15.",
@@ -456,7 +489,7 @@ Hora peninsular en todos los casos. Si un canal cambia a última hora, la ficha 
     sourceUrl: "https://www.espn.com/nba/game/_/gameId/401909861",
     sourceLang: 'en',
     publishedAt: '2026-10-24T23:42:16.318Z',
-    modifiedAt: '2026-10-24T23:42:16.318Z',
+    modifiedAt: '2026-10-25T11:59:25.128Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Delta_Center_2023.jpg/1920px-Delta_Center_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -473,7 +506,7 @@ Hora peninsular en todos los casos. Si un canal cambia a última hora, la ficha 
 
 ## 🇳🇱 Eredivisie
 
-- **[Fortuna - Excelsior](/futbol/eredivisie/partido/401875570)** — 12:15 h
+- **[Fortuna - Excelsior](/futbol/eredivisie/partido/401875570)** — 12:15 h — **en juego, 0-0**
 - **[NEC - FC Groningen](/futbol/eredivisie/partido/401875569)** — 14:30 h · 📺 DAZN
 - **[PSV - Feyenoord](/futbol/eredivisie/partido/401875568)** — 14:30 h · 📺 DAZN
 - **[Sparta - Ajax](/futbol/eredivisie/partido/401875567)** — 16:45 h · 📺 DAZN
@@ -483,7 +516,7 @@ Calendario y clasificación en la [página de Eredivisie](/futbol/eredivisie).
 
 ## 🇮🇹 Serie A
 
-- **[Inter Milan - Fiorentina](/futbol/serie-a/partido/401875036)** — 12:30 h · 📺 DAZN / Movistar Plus+
+- **[Inter Milan - Fiorentina](/futbol/serie-a/partido/401875036)** — 12:30 h · 📺 DAZN / Movistar Plus+ — **en juego, 0-0**
 - **[Atalanta - Frosinone](/futbol/serie-a/partido/401874972)** — 15:00 h · 📺 DAZN
 - **[Genoa - Venezia](/futbol/serie-a/partido/401874952)** — 15:00 h · 📺 DAZN
 - **[Lecce - Juventus](/futbol/serie-a/partido/401874772)** — 18:00 h · 📺 DAZN
@@ -493,7 +526,7 @@ Calendario y clasificación en la [página de Serie A](/futbol/serie-a).
 
 ## 🇪🇸 Liga F
 
-- **[Deportivo - Alavés](/futbol/liga-f/partido/401882482)** — 12:45 h
+- **[Deportivo - Alavés](/futbol/liga-f/partido/401882482)** — 12:45 h — **en juego, 0-0**
 - **[Eibar - Madrid CFF](/futbol/liga-f/partido/401882480)** — 17:00 h
 
 Calendario y clasificación en la [página de Liga F](/futbol/liga-f).
@@ -576,7 +609,7 @@ Todos los horarios están en hora peninsular. Los marcadores se actualizan en di
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882835",
     sourceLang: 'en',
     publishedAt: '2026-10-24T23:42:16.318Z',
-    modifiedAt: '2026-10-24T23:42:16.318Z',
+    modifiedAt: '2026-10-25T11:59:25.128Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Bilbao_-_Nuevo_San_Mam%C3%A9s_12.jpg/1280px-Bilbao_-_Nuevo_San_Mam%C3%A9s_12.jpg",
@@ -2948,7 +2981,7 @@ Horarios, resultados de cada sesión y clasificación completa del Mundial en la
     sourceUrl: "https://www.espn.com/f1/schedule",
     sourceLang: 'en',
     publishedAt: '2026-10-22T12:20:10.049Z',
-    modifiedAt: '2026-10-24T23:42:16.318Z',
+    modifiedAt: '2026-10-25T11:59:25.128Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/2018_US_Grand_Prix_at_the_Circuit_of_the_Americas.jpg/1920px-2018_US_Grand_Prix_at_the_Circuit_of_the_Americas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
