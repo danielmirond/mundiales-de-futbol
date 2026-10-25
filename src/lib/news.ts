@@ -5775,6 +5775,38 @@ MotoGP se ve en España en DAZN, que hasta el 1 de noviembre tiene [el plan Moto
     },
   },
   {
+    slug: 'adrian-newey-fernando-alonso-uno-de-los-grandes-de-todos-los-tiempos-austin',
+    title: 'Adrian Newey, 67 años: «Fernando es, sin duda, uno de los grandes de todos los tiempos»',
+    summary: 'El ingeniero que diseñó coches campeones para Mansell, Prost, Häkkinen, Vettel y Verstappen pone a Fernando Alonso a su altura tras su primera temporada juntos en Aston Martin, y explica qué tienen en común los grandes.',
+    body: `Adrian Newey ha diseñado coches campeones del mundo para Nigel Mansell, Alain Prost, Damon Hill, Mika Häkkinen, Sebastian Vettel y Max Verstappen. Así que cuando le preguntaron en Austin por Fernando Alonso, después de su primera temporada trabajando juntos en Aston Martin, la respuesta tenía con quién compararse. «Fernando es, sin duda, uno de los grandes de todos los tiempos», dijo en la rueda de prensa de jefes de equipo del viernes, según la [transcripción de la FIA](https://www.fia.com/news/f1-2026-united-states-grand-prix-friday-press-conference-transcript).
+
+## Lo que tienen los grandes
+
+La pregunta, de Andrew Benson, de la BBC, era cómo veía a Alonso en comparación con los pilotos con los que ha trabajado y al nivel que sigue rindiendo a los 45 años. Newey contestó con una idea concreta: «Como todos los grandes con los que he tenido la suerte de trabajar, probablemente una de las cosas que los distingue es la capacidad de procesamiento que les sobra».
+
+Y lo explicó: hace falta cabeza para conducir el coche, pero en los pilotos realmente grandes «da la impresión de que todo eso está en el subconsciente», y eso deja la parte consciente libre para entender cómo se comportan los neumáticos, cómo se desarrolla la carrera y cómo adaptar la conducción al equilibrio del coche en cada momento. «Y Fernando, como los otros grandes, está absolutamente en esa categoría».
+
+## Un año difícil
+
+El elogio llega en una temporada en la que el coche no ha acompañado. En la misma rueda de prensa, Newey admitió que «Honda probablemente está un poco decepcionada» con lo que ha podido avanzar este año con su motor, aunque ve «muchos proyectos en marcha» que prometen. Sobre dónde estará el motor al empezar 2027, fue prudente: es pronto para decirlo.
+
+El Gran Premio de Estados Unidos se corre este domingo en Austin, a la misma hora que el Clásico; los horarios y cómo verlo, en [esta pieza](/noticias/fernando-alonso-austin-misma-hora-clasico-horarios-dazn-cambio-de-hora), y la clasificación del Mundial, en la [sección de Fórmula 1](/motor/formula-1).`,
+    category: 'general',
+    competition: { name: 'Fórmula 1', sport: 'motor', slug: 'formula-1' },
+    sourceName: 'FIA',
+    sourceUrl: 'https://www.fia.com/news/f1-2026-united-states-grand-prix-friday-press-conference-transcript',
+    sourceLang: 'en',
+    sourcesSecondary: [{ name: 'SoyMotor', url: 'https://soymotor.com/f1/noticias/adrian-newey-se-rinde-fernando-alonso-es-uno-de-los-grandes-de-todos-los-tiempos' }],
+    publishedAt: '2026-10-25T11:42:00+01:00',
+    author: 'Redacción Mundiales de Fútbol',
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Adrian_Newey_at_the_Melbourne_Walk_during_the_2026_Australian_Grand_Prix_%28028A8660%29.jpg/1280px-Adrian_Newey_at_the_Melbourne_Walk_during_the_2026_Australian_Grand_Prix_%28028A8660%29.jpg',
+      alt: 'Adrian Newey sonríe sentado en el paddock del Gran Premio de Australia 2026, con gorra y polo verdes de Aston Martin',
+      credit: 'Yu Chu Chin · CC BY-SA 4.0 · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
     slug: 'donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1',
     title: 'Dónde ver el deporte en España en 2026-27: canales y precios de cada competición, una a una',
     summary: 'Guía de la temporada 2026-27: dónde se ve en España LaLiga, la Champions, la Premier, la NBA, la F1, MotoGP, el tenis o la NFL, qué plan hace falta, cuánto cuesta y qué es gratis.',
