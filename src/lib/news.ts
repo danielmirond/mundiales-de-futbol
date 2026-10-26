@@ -6714,9 +6714,9 @@ La frase llegó al final de una respuesta sobre el vestuario: «Esta es una gran
 
 ## Dos goles de Mbappé y un Barça que pierde el pleno
 
-Kylian Mbappé adelantó al Madrid en el minuto 41 y Raphinha empató en el 61, a pase de Pedri tras un córner. En el 87, Mbappé firmó el 1-2 en un contragolpe conducido por Camavinga, que había entrado por Bernardo Silva siete minutos antes. No hubo expulsiones. El minuto a minuto está en [la ficha del partido](/futbol/laliga/partido/401882832).
+Kylian Mbappé adelantó al Madrid en el minuto 41 y Raphinha empató en el 61, a pase de Pedri tras un córner. En el 87, Mbappé firmó el 1-2 en un contragolpe conducido por Camavinga, que había entrado por Bernardo Silva siete minutos antes. No hubo expulsiones. El minuto a minuto, en [la ficha del partido](/futbol/laliga/partido/401882832).
 
-El Barcelona llegaba con nueve victorias en nueve jornadas y sigue líder con 27 puntos; el Atlético tiene 25 y el Madrid, 24. Mourinho hizo las cuentas en voz alta: «Este partido era un partido donde podíamos salir a tres, a seis o a nueve puntos. Obviamente, si sales a nueve, desde un punto de vista psicológico, es pesado. Si salíamos a seis, salíamos equilibrados. Salir a tres es diferente y el modo como hemos ganado es también importante porque tú puedes ganar con suerte y defendiendo mucho. Ganamos con tranquilidad y con todos los méritos».
+El Barcelona llegaba con nueve victorias en nueve jornadas y sigue líder con 27 puntos; el Atlético tiene 25 y el Madrid, 24. Mourinho hizo las cuentas: «Este partido era un partido donde podíamos salir a tres, a seis o a nueve puntos. Obviamente, si sales a nueve, desde un punto de vista psicológico, es pesado. Si salíamos a seis, salíamos equilibrados. Salir a tres es diferente y el modo como hemos ganado es también importante porque tú puedes ganar con suerte y defendiendo mucho. Ganamos con tranquilidad y con todos los méritos».
 
 ## El VAR «dormido» y la entrada de Cancelo
 
