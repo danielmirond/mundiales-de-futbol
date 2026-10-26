@@ -154,6 +154,284 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'patri-guijarro-collerense-club-de-barrio-palma-tres-nominadas-balon-de-oro-mariona-cata-coll',
+    title: 'Patri Guijarro y el club de barrio de Palma que esta noche tiene tres nominadas al Balón de Oro',
+    summary: 'Mariona Caldentey, Cata Coll y Patri Guijarro pasaron por el Collerense, que hoy juega en Tercera Federación en un campo de mil plazas. Patri cuenta en un pódcast cómo se quedaba a ver a las mayores.',
+    body: `Esta noche, cuando en el London Palladium lean la lista del Balón de Oro femenino, tres de las treinta nominadas habrán salido del mismo campo: Ca Na Paulina, el municipal del Coll d'en Rabassa, un barrio de Palma. Mariona Caldentey, Cata Coll y Patri Guijarro jugaron en la UD Collerense antes de irse al Barça, y las tres están entre las [seis españolas que publicó la RFEF](https://rfef.es/es/noticias/seis-jugadoras-espanolas-candidatas-al-balon-de-oro). Cata Coll, además, es una de las cinco porteras que optan al Yashin.
+
+Patri Guijarro lo contó hace un mes en el pódcast Café de Finca, una charla de una hora que ha pasado sin ruido. Dice que [el Colle es un equipo de barrio de Palma](https://www.youtube.com/watch?v=NOmz8qH_FHk&t=287s), que llegó de niña porque era el club que tenía equipo femenino y que se quedó hasta los 17 años, jugando con chicos. Y que entonces el Collerense estaba en Primera: [«Cuando salía de mi partido con los chicos me quedaba a ver a las chicas»](https://www.youtube.com/watch?v=NOmz8qH_FHk&t=382s). En Ca Na Paulina veía al Athletic, al Barça o al Atlético, en unos años en los que el fútbol femenino no salía en televisión ni en los periódicos.
+
+La llamada del Barça, cuenta, llegó a través de Virginia Torrecilla, otra mallorquina que entonces jugaba allí y que le pidió el número para el entrenador, Xavi Llorens. Su padre buscó a alguien que supiera de contratos: en casa, con una madre limpiadora y un padre obrero, nadie había firmado uno así.
+
+## El club que estuvo cinco años en Primera
+
+La sección femenina del Collerense nació en 1999 y [subió a la máxima categoría en 2009](https://es.wikipedia.org/wiki/Uni%C3%B3n_Deportiva_Collerense_(femenino)). Aguantó cinco temporadas en lo que hoy es la [Liga F](/futbol/liga-f), de 2011-12 a 2015-16, y bajó como decimosexto. Esa es la época que Patri recuerda desde la grada.
+
+| Temporada | Puesto en Primera |
+| --- | --- |
+| 2011-12 | 12.º |
+| 2012-13 | 14.º |
+| 2013-14 | 10.º |
+| 2014-15 | 12.º |
+| 2015-16 | 16.º, descenso |
+
+Hoy el primer equipo femenino juega en Tercera Federación, el cuarto escalón, en el grupo balear. Hace una semana [goleó 6-1 al Sant Lluís](https://www.futbolbalear.es/2026/10/18/cronica-tercerafederacindefutbolfemenino-collerense6-1ccesantlluis/) en Ca Na Paulina, con dos goles de Laia Cunill y otros dos de Rosa Caldentey. El masculino, que el curso pasado [terminó decimosexto en Tercera Federación](https://es.wikipedia.org/wiki/Uni%C3%B3n_Deportiva_Collerense), compite ahora en Preferente de Mallorca. El campo tiene sitio para mil personas.
+
+## Las tres, una a una
+
+| Jugadora | Nació en | Collerense | Después |
+| --- | --- | --- | --- |
+| Mariona Caldentey | Felanitx, 1996 | Hasta los 18 años (2012-2014) | Barça 2014-2024, Arsenal desde 2024 |
+| Patri Guijarro | Palma, 1998 | 2013-2015, 51 partidos y 7 goles | Barça desde 2015 |
+| Cata Coll | Pòrtol (Marratxí), 2001 | 2016-2019, tres temporadas en Segunda | Barça, con cesión al Sevilla en 2019-20 |
+
+Mariona [se formó en el Collerense hasta los 18](https://es.wikipedia.org/wiki/Mariona_Caldentey) y ha ganado la Champions con el Barça y con el Arsenal. Patri [debutó en el primer equipo en 2014](https://es.wikipedia.org/wiki/Patri_Guijarro) y fichó por el Barça con 17 años. Cata Coll [llegó con quince](https://es.wikipedia.org/wiki/Cata_Coll), ayudó a subir al equipo a la Liga Reto Iberdrola y hoy es campeona del mundo y la portera del Barça.
+
+## Qué pasa esta noche
+
+La gala empieza a las 21:00 y en España [solo se ve en Movistar Plus+](/noticias/gala-balon-de-oro-2026-londres-horario-espana-donde-ver-espanoles-nominados). Aitana Bonmatí, ganadora de los tres últimos, [no está en la lista](/noticias/aitana-bonmati-tres-balones-de-oro-fuera-nominadas-2026-fractura), así que el premio cambia de manos. En el test rápido del pódcast, a Patri le preguntaron Mallorca o Barcelona y [eligió Mallorca para vivir](https://www.youtube.com/watch?v=NOmz8qH_FHk&t=3428s), con su familia y sus amigos. Gane quien gane, en el Coll d'en Rabassa tienen tres de treinta.`,
+    category: 'curiosa',
+    kind: 'noticia',
+    competition: { name: 'Liga F', sport: 'futbol', slug: 'liga-f' },
+    sourceName: 'Café de Finca (YouTube)',
+    sourceUrl: 'https://www.youtube.com/watch?v=NOmz8qH_FHk',
+    sourceLang: 'es',
+    publishedAt: '2026-10-26T12:00:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'RFEF: seis jugadoras españolas, candidatas al Balón de Oro', url: 'https://rfef.es/es/noticias/seis-jugadoras-espanolas-candidatas-al-balon-de-oro' },
+      { name: 'Wikipedia: UD Collerense (femenino)', url: 'https://es.wikipedia.org/wiki/Uni%C3%B3n_Deportiva_Collerense_(femenino)' },
+      { name: 'FutbolBalear: Collerense 6-1 Sant Lluís', url: 'https://www.futbolbalear.es/2026/10/18/cronica-tercerafederacindefutbolfemenino-collerense6-1ccesantlluis/' },
+      { name: 'FutbolBalear: equipos del Collerense 2026-27', url: 'https://www.futbolbalear.es/equipos/collerense/' },
+      { name: 'Wikipedia: Mariona Caldentey', url: 'https://es.wikipedia.org/wiki/Mariona_Caldentey' },
+      { name: 'Wikipedia: Patri Guijarro', url: 'https://es.wikipedia.org/wiki/Patri_Guijarro' },
+      { name: 'Wikipedia: Cata Coll', url: 'https://es.wikipedia.org/wiki/Cata_Coll' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Camp_de_futbol_de_Ca_na_Paulina.jpg/1280px-Camp_de_futbol_de_Ca_na_Paulina.jpg',
+      alt: 'Entrada del campo municipal de Ca Na Paulina, en el Coll d\'en Rabassa (Palma): una verja negra abierta entre dos pilares de piedra, con el cartel rojo del campo y el escudo de la UD Collerense',
+      credit: 'Joan Gené · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'mourinho-vuelve-a-ganar-en-el-camp-nou-primera-vez-desde-2013-balance-18-clasicos-real-madrid',
+    title: 'Mourinho vuelve a ganar en el Camp Nou, donde no vencía desde sus noches con Cristiano Ronaldo',
+    summary: 'Mbappé firmó el 1-2 en el Spotify Camp Nou y el Real Madrid de Mourinho se pone a tres puntos del Barça. Repasamos los 18 Clásicos del portugués como entrenador blanco, con todos los resultados.',
+    body: `José Mourinho solo había ganado dos veces en el Camp Nou como entrenador del Real Madrid, y en las dos marcó Cristiano Ronaldo: el 1-2 de Liga del 21 de abril de 2012 y el 1-3 de Copa del 26 de febrero de 2013. Anoche volvió a hacerlo, trece años y ocho meses después, con dos goles de Kylian Mbappé. El [Barcelona 1-2 Real Madrid](/futbol/laliga/partido/401882832) se jugó ante 62.055 espectadores en el Spotify Camp Nou, [según la ficha de ESPN](https://www.espn.com/soccer/match/_/gameId/401882832).
+
+Mbappé adelantó al Madrid en el minuto 41 con un disparo con la derecha desde el centro del área, Raphinha empató en el 61 y Mbappé decidió en el 87. El Barça perdió a Xavi Espart por lesión en el minuto 30 y el Madrid a Valverde en el 62. Con diez jornadas, [la clasificación](/futbol/laliga) queda así: Barcelona 27 puntos, Atlético 25 y Real Madrid 24.
+
+## Los 18 Clásicos de Mourinho con el Madrid
+
+Mourinho [volvió al banquillo blanco el 11 de junio](https://www.vozpopuli.com/deportes/oficial-el-real-madrid-confirma-el-fichaje-de-jose-mourinho-como-nuevo-entrenador-blanco-hasta-2029.html), con contrato hasta 2029 y en sustitución de Álvaro Arbeloa. En su primera etapa, de 2010 a 2013, dirigió 17 Clásicos, [según el historial completo del partido](https://en.wikipedia.org/wiki/List_of_El_Cl%C3%A1sico_matches):
+
+| Temporada | Competición | Sede | Resultado |
+| --- | --- | --- | --- |
+| 2010-11 | Liga | Camp Nou | Barcelona 5-0 Real Madrid |
+| 2010-11 | Liga | Bernabéu | Real Madrid 1-1 Barcelona |
+| 2010-11 | Final de Copa | Mestalla | Barcelona 0-1 Real Madrid (prórroga) |
+| 2010-11 | Champions, semifinal ida | Bernabéu | Real Madrid 0-2 Barcelona |
+| 2010-11 | Champions, semifinal vuelta | Camp Nou | Barcelona 1-1 Real Madrid |
+| 2011-12 | Supercopa, ida | Bernabéu | Real Madrid 2-2 Barcelona |
+| 2011-12 | Supercopa, vuelta | Camp Nou | Barcelona 3-2 Real Madrid |
+| 2011-12 | Liga | Bernabéu | Real Madrid 1-3 Barcelona |
+| 2011-12 | Copa, cuartos ida | Bernabéu | Real Madrid 1-2 Barcelona |
+| 2011-12 | Copa, cuartos vuelta | Camp Nou | Barcelona 2-2 Real Madrid |
+| 2011-12 | Liga | Camp Nou | Barcelona 1-2 Real Madrid |
+| 2012-13 | Supercopa, ida | Camp Nou | Barcelona 3-2 Real Madrid |
+| 2012-13 | Supercopa, vuelta | Bernabéu | Real Madrid 2-1 Barcelona |
+| 2012-13 | Liga | Camp Nou | Barcelona 2-2 Real Madrid |
+| 2012-13 | Copa, semifinal ida | Bernabéu | Real Madrid 1-1 Barcelona |
+| 2012-13 | Copa, semifinal vuelta | Camp Nou | Barcelona 1-3 Real Madrid |
+| 2012-13 | Liga | Bernabéu | Real Madrid 2-1 Barcelona |
+| 2026-27 | Liga | Spotify Camp Nou | Barcelona 1-2 Real Madrid |
+
+El balance, con el de anoche, es de seis victorias, seis empates y seis derrotas en 18 partidos. En el campo del Barça ha dirigido nueve: tres ganados, tres empatados y tres perdidos, incluido el 5-0 de su primer Clásico, en noviembre de 2010.
+
+## Lo que ganó frente al Barça
+
+De aquellos 17 partidos salieron dos títulos contra el rival directo. La Copa del Rey de 2011, en Mestalla, [con un gol de Cristiano Ronaldo en el minuto 103](https://en.wikipedia.org/wiki/2011_Copa_del_Rey_final), y la Supercopa de 2012, resuelta con un 4-4 global por los goles fuera de casa. Y en la Copa de 2013, en la semifinal, el Madrid ganó 1-3 en el Camp Nou [con dos goles de Ronaldo y uno de Varane](https://en.wikipedia.org/wiki/2012%E2%80%9313_Copa_del_Rey), su última victoria allí hasta anoche.
+
+Para el [Real Madrid](/futbol/laliga/equipo/86) como club, el dato es más corto: no ganaba en Liga en el Camp Nou desde octubre de 2021, cuando Alaba y Lucas Vázquez hicieron el 1-2. El 1-2 de octubre de 2023, con dos goles de Bellingham, fue en Montjuïc, y desde entonces el [Barcelona](/futbol/laliga/equipo/83) había ganado los dos Clásicos de Liga en casa: 4-3 en mayo de 2025 y 2-0 en mayo de 2026.
+
+## Qué cambia en la Liga
+
+Antes de la jornada el Barça tenía seis puntos de ventaja sobre el Madrid; ahora son tres, con el Atlético en medio. Mourinho, que [en su primera etapa ganó una Liga, una Copa y una Supercopa](https://www.vozpopuli.com/deportes/oficial-el-real-madrid-confirma-el-fichaje-de-jose-mourinho-como-nuevo-entrenador-blanco-hasta-2029.html), se lleva de Barcelona su tercera victoria en nueve visitas, y la primera sin Cristiano Ronaldo en el campo.`,
+    category: 'historica',
+    kind: 'noticia',
+    competition: { name: 'LaLiga', sport: 'futbol', slug: 'laliga' },
+    sourceName: 'Wikipedia: List of El Clásico matches',
+    sourceUrl: 'https://en.wikipedia.org/wiki/List_of_El_Cl%C3%A1sico_matches',
+    sourceLang: 'en',
+    publishedAt: '2026-10-26T12:02:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'ESPN: ficha del Barcelona 1-2 Real Madrid', url: 'https://www.espn.com/soccer/match/_/gameId/401882832' },
+      { name: 'Wikipedia: 2011 Copa del Rey final', url: 'https://en.wikipedia.org/wiki/2011_Copa_del_Rey_final' },
+      { name: 'Wikipedia: 2012-13 Copa del Rey', url: 'https://en.wikipedia.org/wiki/2012%E2%80%9313_Copa_del_Rey' },
+      { name: 'Vozpópuli: el Real Madrid confirma a Mourinho hasta 2029', url: 'https://www.vozpopuli.com/deportes/oficial-el-real-madrid-confirma-el-fichaje-de-jose-mourinho-como-nuevo-entrenador-blanco-hasta-2029.html' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Fenerbahce_manager_Jose_Mourinho_and_Ali_Ko%C3%A7%2C_June_2024.jpg/1280px-Fenerbahce_manager_Jose_Mourinho_and_Ali_Ko%C3%A7%2C_June_2024.jpg',
+      alt: 'José Mourinho, sonriente y con camisa oscura, sentado ante un micrófono junto a Ali Koç en la mesa de su presentación con el Fenerbahçe, en junio de 2024',
+      credit: 'Hilmi Hacaloğlu · Wikimedia Commons',
+      license: 'Dominio público',
+    },
+  },
+  {
+    slug: 'nba-semana-27-octubre-aldama-vuelta-rodilla-aday-mara-thunder-hugo-gonzalez-celtics-horarios',
+    title: 'Santi Aldama prepara su vuelta tras ocho meses y Aday Mara ya juega: la semana NBA en España',
+    summary: 'Aldama, sin jugar desde febrero por la rodilla, apunta al Heat-Mavericks de esta madrugada. Aday Mara ha jugado los tres partidos del Thunder y Hugo González apenas ve pista. Horarios de la semana.',
+    body: `Santi Aldama no juega desde el 5 de febrero. Aquel día hizo 12 puntos ante los Kings y en marzo pasó por el quirófano por la rodilla derecha. Ocho meses y medio después, el parte de los Mavericks [lo descartó para el partido del sábado ante los Spurs y señala el Heat-Mavericks del lunes como su siguiente oportunidad](https://www.espn.com/nba/player/_/id/4593125/santi-aldama), aunque lo considera semana a semana hasta que entrene con normalidad. Ese partido es esta madrugada, a las 00:30 en hora peninsular. Dallas ha empezado la temporada con una victoria y dos derrotas.
+
+## Aday Mara, tres partidos y un equipo invicto
+
+El Thunder ha ganado sus tres partidos, ante Spurs, Nuggets y Clippers, y Aday Mara ha jugado en todos: 12, 13 y 14 minutos, con 7, 2 y 2 puntos y 2, 3 y 3 rebotes, [según su registro en ESPN](https://www.espn.com/nba/player/_/id/5174983/aday-mara). En pretemporada había enseñado más, con 22 puntos ante los Bucks el 8 de octubre y 17 ante los Hawks. Su [debut ante Wembanyama y Jokic](/noticias/aday-mara-debut-nba-thunder-wembanyama-jokic-casademont-zaragoza-reclama) llegó con el Zaragoza todavía reclamando por su salida.
+
+## Hugo González, a la espera de minutos
+
+En Boston el panorama es otro. Hugo González jugó 10 minutos en la derrota ante los Pistons del 20 de octubre y 4 en la victoria ante los Knicks del día 23, [sin anotar en ninguno](https://www.espn.com/nba/player/_/id/5175647/hugo-gonzalez). En pretemporada había firmado 21 puntos ante los Sixers el 16 de octubre, con tres triples. Los Celtics, que [recibieron al campeón en su estreno en casa](/noticias/hugo-gonzalez-celtics-knicks-campeon-prime-video-espanoles-nba-madrugada-hora-a-hora), llevan una victoria y una derrota.
+
+## Los horarios de la semana
+
+Hora peninsular; en Canarias, una hora menos. Son los partidos de los tres equipos con españoles, [sacados del calendario](/baloncesto/nba/calendario).
+
+| Día | Hora | Partido |
+| --- | --- | --- |
+| Martes 27 | 00:30 | Celtics - Bulls |
+| Martes 27 | 00:30 | Heat - Mavericks |
+| Martes 27 | 01:00 | Thunder - Suns |
+| Miércoles 28 | 00:30 | Celtics - Nets |
+| Jueves 29 | 02:30 | Mavericks - Thunder |
+| Sábado 31 | 00:30 | Celtics - Bulls |
+| Sábado 31 | 01:00 | Mavericks - Rockets |
+| Domingo 1 | 01:30 | Rockets - Thunder |
+| Domingo 1 | 21:30 | Magic - Celtics |
+
+Solo uno empieza antes de medianoche: el Magic-Celtics del domingo, a las 21:30. El Mavericks-Thunder del jueves puede juntar a Aldama y a Mara si el canario ya está disponible.
+
+## La NBA Cup arranca el viernes
+
+[La fase de grupos de la Emirates NBA Cup empieza el 30 de octubre](https://www.nba.com/news/key-dates) y la final se juega el 11 de diciembre en el Hinkle Fieldhouse de Indianápolis. En España la temporada se reparte entre DAZN y Prime Video, [como explicamos en la guía de la temporada](/noticias/nba-2026-27-donde-ver-espana-dazn-prime-video-estreno-hugo-gonzalez-aldama); el canal de cada partido aparece en el calendario cuando está confirmado. La [clasificación](/baloncesto/nba/clasificacion) se actualiza cada mañana.`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'NBA', sport: 'baloncesto', slug: 'nba' },
+    sourceName: 'ESPN',
+    sourceUrl: 'https://www.espn.com/nba/player/_/id/4593125/santi-aldama',
+    sourceLang: 'en',
+    publishedAt: '2026-10-26T12:04:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'ESPN: Aday Mara', url: 'https://www.espn.com/nba/player/_/id/5174983/aday-mara' },
+      { name: 'ESPN: Hugo González', url: 'https://www.espn.com/nba/player/_/id/5175647/hugo-gonzalez' },
+      { name: 'NBA.com: fechas clave de la temporada 2026-27', url: 'https://www.nba.com/news/key-dates' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/TD_Garden%2C_Celtics_vs_Warriors_%2853229612647%29.jpg/1280px-TD_Garden%2C_Celtics_vs_Warriors_%2853229612647%29.jpg',
+      alt: 'El TD Garden de Boston visto desde la grada alta antes de un Celtics-Warriors, con la pista iluminada, el videomarcador central y las gradas llenándose',
+      credit: 'Ethan Long · Wikimedia Commons',
+      license: 'CC BY-SA 2.0',
+    },
+  },
+  {
+    slug: 'pauline-ferrand-prevot-se-casa-van-baarle-dos-semanas-atropello-muneca-paris-roubaix',
+    title: 'Pauline Ferrand-Prévot se casa con Van Baarle dos semanas después de que un coche lo arrollara',
+    summary: 'La ganadora del Tour y de París-Roubaix 2025 y el vencedor de Roubaix 2022 se casaron el domingo 25 de octubre. Él llegó con la muñeca recién operada tras ser atropellado entrenando el 7 de octubre.',
+    body: `Pauline Ferrand-Prévot y Dylan van Baarle se casaron el domingo 25 de octubre, [rodeados de sus allegados](https://www.cyclismactu.net/news-cyclisme-route-carnet-blanc-deux-vainqueurs-de-paris-roubaix-se-sont-maries-ce-week-end-96593.html). Ella lo contó en Instagram como [«el mejor día de mi vida»](https://www.idlprocycling.com/cycling/pauline-ferrand-prevot-and-dylan-van-baarle-got-married-at-the-weekend-the-best-day-of-my-life) y bromeó con que todo el mundo está contento cuando hay suflés de queso, bitterballen y frikandellen de por medio, un menú a medias entre Francia y Países Bajos. Dos semanas antes, la boda estuvo en el aire.
+
+El 7 de octubre, Van Baarle [fue atropellado por un coche mientras entrenaba en Países Bajos](https://www.cyclingnews.com/pro-cycling/teams-riders/the-helmet-definitely-saved-his-life-says-pauline-ferrand-prevot-as-dylan-van-baarle-has-season-ended-by-traffic-accident-involving-a-car/). Su equipo, Soudal Quick-Step, informó de una fractura de muñeca que necesitaba cirugía y dio por acabada su temporada; el escáner descartó daños en el cráneo y la columna. Ferrand-Prévot escribió que el golpe en la cabeza fue fuerte y que el casco le había salvado la vida. Y añadió, en broma, que dormiría sola unas noches, como manda la tradición antes del gran día.
+
+## Dos ganadores de París-Roubaix
+
+Es un matrimonio con dos adoquines en casa. Van Baarle ganó la [París-Roubaix de 2022](https://www.cyclismactu.net/news-cyclisme-route-carnet-blanc-deux-vainqueurs-de-paris-roubaix-se-sont-maries-ce-week-end-96593.html) en solitario y ha sido segundo en el Tour de Flandes. Ella ganó la edición femenina en 2025, el año en que volvió a la carretera y se llevó también el Tour de Francia, después del oro olímpico de bicicleta de montaña en París 2024.
+
+| | Pauline Ferrand-Prévot | Dylan van Baarle |
+| --- | --- | --- |
+| Nacionalidad | Francia | Países Bajos |
+| París-Roubaix | 2025 | 2022 |
+| Tour de Francia | 2025 (femenino) | — |
+| Juegos Olímpicos | Oro en MTB, París 2024 | — |
+| Equipo en 2026 | Visma-Lease a Bike | Soudal Quick-Step |
+
+La temporada de 2026 ha sido más corta para los dos. Ella fue segunda en Flandes, tercera en Roubaix y [abandonó el Tour tras siete etapas](https://www.idlprocycling.com/cycling/pauline-ferrand-prevot-and-dylan-van-baarle-got-married-at-the-weekend-the-best-day-of-my-life); él cambió el Visma por el Soudal Quick-Step y ha terminado el año sin victorias. Se habían [comprometido en septiembre de 2025](https://www.tuttobiciweb.it/article/2025/09/20/1758370868/pauline-ferrand-prevot-dylan-van-baarle-marriage?lang=en), antes del Mundial de Ruanda, y viven en Mónaco.
+
+## Por qué importa aquí
+
+Ferrand-Prévot es, con el Tour y la Roubaix de 2025, la cara del ciclismo femenino de este momento, y Van Baarle, un ganador de monumento. La noticia de la boda ha salido en Francia y en Países Bajos; en España, hasta esta mañana, no la había contado nadie. Si quieres más ciclismo de temporada, está [lo que Enric Mas escondió bajo el maillot rojo](/noticias/enric-mas-miedo-maillot-rojo-vuelta-2026-psicologo-pogacar-bartolo-vatios-gcn) y, para los de antes, [Indurain y sus ocho Vueltas](/noticias/indurain-ocho-vueltas-espana-unica-septiembre-abandono-lagos-covadonga).`,
+    category: 'curiosa',
+    kind: 'noticia',
+    competition: { name: 'Ciclismo', sport: 'ciclismo', slug: 'ciclismo' },
+    sourceName: 'IDL ProCycling',
+    sourceUrl: 'https://www.idlprocycling.com/cycling/pauline-ferrand-prevot-and-dylan-van-baarle-got-married-at-the-weekend-the-best-day-of-my-life',
+    sourceLang: 'en',
+    publishedAt: '2026-10-26T12:06:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: "Cyclism'Actu: deux vainqueurs de Paris-Roubaix se sont mariés", url: 'https://www.cyclismactu.net/news-cyclisme-route-carnet-blanc-deux-vainqueurs-de-paris-roubaix-se-sont-maries-ce-week-end-96593.html' },
+      { name: 'Le Parisien: Ferrand-Prévot et Van Baarle se sont mariés', url: 'https://www.leparisien.fr/sports/cyclisme/cyclisme-pauline-ferrand-prevot-et-dylan-van-baarle-se-sont-maries-deux-semaines-apres-la-chute-du-neerlandais-25-10-2026-OG5EENIKHBDSJN544IZLK3OZWY.php' },
+      { name: 'Cyclingnews: Van Baarle, temporada acabada tras el accidente', url: 'https://www.cyclingnews.com/pro-cycling/teams-riders/the-helmet-definitely-saved-his-life-says-pauline-ferrand-prevot-as-dylan-van-baarle-has-season-ended-by-traffic-accident-involving-a-car/' },
+      { name: 'Tuttobiciweb: el compromiso, septiembre de 2025', url: 'https://www.tuttobiciweb.it/article/2025/09/20/1758370868/pauline-ferrand-prevot-dylan-van-baarle-marriage?lang=en' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Pauline_Ferrand-Pr%C3%A9vot_N32_-_Paris-Roubaix_Femmes_2025.jpg/1280px-Pauline_Ferrand-Pr%C3%A9vot_N32_-_Paris-Roubaix_Femmes_2025.jpg',
+      alt: 'Pauline Ferrand-Prévot, con el maillot amarillo del Visma, casco amarillo y el dorsal 32, pedalea entre otras dos corredoras en la París-Roubaix Femmes de 2025',
+      credit: 'Renhour48 · Wikimedia Commons',
+      license: 'CC0',
+    },
+  },
+  {
+    slug: 'volkanovski-noquea-evloev-ufc-333-retiene-cinturon-pluma-topuria-abu-dabi',
+    title: 'Volkanovski noquea al invicto Evloev y retiene el cinturón que Topuria le quitó de un puñetazo',
+    summary: 'Alexander Volkanovski, 38 años, tumbó a Movsar Evloev en el segundo asalto de UFC 333 en Abu Dabi y sigue campeón del peso pluma. Es el título que perdió ante Topuria en 2024 y recuperó en 2025.',
+    body: `Alexander Volkanovski, 38 años, sigue siendo el campeón del peso pluma. El sábado, en el Etihad Arena de Abu Dabi, [noqueó a Movsar Evloev a seis segundos del final del segundo asalto](https://www.ufc.com/event/ufc-333) en el combate estelar de UFC 333. Evloev [llegaba invicto, con 20 victorias](https://www.australianmma.com.au/post/volkanovski-to-defend-ufc-title-against-movsar-evloev).
+
+En el otro título de la noche, Petr Yan venció a Merab Dvalishvili por decisión unánime en [el tercer combate entre ambos](https://cagesidepress.com/2026/08/15/ufc-333-lands-volkanovski-vs-evloev-yan-vs-dvalishvili-3/) y se llevó el cinturón del peso gallo. Aaron Pico, en el pluma, necesitó 74 segundos para acabar con Losene Keita.
+
+## El cinturón que pasó por Topuria
+
+Para el aficionado español, el peso pluma de la UFC tiene nombre propio desde 2024. Esta es la cadena, [según el historial del campeón](https://en.wikipedia.org/wiki/Alexander_Volkanovski):
+
+| Fecha | Qué pasó |
+| --- | --- |
+| 14 de diciembre de 2019 | Volkanovski gana el título a Max Holloway en UFC 245 |
+| 2020-2023 | Cinco defensas: Holloway (dos veces), Ortega, Jung y Yair Rodríguez |
+| 17 de febrero de 2024 | Ilia Topuria lo noquea en el segundo asalto en Anaheim (UFC 298) |
+| 12 de abril de 2025 | Recupera el título vacante ante Diego Lopes en Miami (UFC 314) |
+| 1 de febrero de 2026 | Primera defensa del segundo reinado, otra vez ante Lopes (UFC 325) |
+| 24 de octubre de 2026 | Segunda defensa: KO técnico a Evloev en Abu Dabi (UFC 333) |
+
+Aquel cinturón quedó vacante y Volkanovski lo recogió ante Lopes. Su récord queda en 29 victorias y 4 derrotas, con 14 nocauts. Tres de esas cuatro derrotas fueron por KO, y la de Topuria es la única que le costó un título.
+
+## Lo que dijo antes de pelear
+
+Volkanovski había dicho antes del combate que podría retirarse si las cosas salían muy mal, y Evloev [le respondió en Instagram que lo mismo valía para él](https://mmasucka.com/news/movsar-evloev-echoes-volkanovskis-retirement-stipulation-after-ufc-333/). Evloev llevaba diez victorias en la UFC, todas por decisión, y su plan era la lucha; el australiano lo resolvió de pie antes de llegar al tercer asalto.
+
+## Dónde seguir la UFC en España
+
+Las veladas de la [UFC](/combate/ufc) se siguen en España por suscripción; [qué plataforma emite cada velada y cuánto cuesta](/noticias/donde-ver-ufc-boxeo-espana-hbo-max-eurosport-dazn-topuria-canelo) está en nuestra guía de deportes de combate, que incluye el calendario de Topuria. La sección de [combate](/combate) recoge los próximos eventos.`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'UFC', sport: 'combate', slug: 'ufc' },
+    sourceName: 'UFC.com',
+    sourceUrl: 'https://www.ufc.com/event/ufc-333',
+    sourceLang: 'en',
+    publishedAt: '2026-10-26T12:08:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Wikipedia: Alexander Volkanovski', url: 'https://en.wikipedia.org/wiki/Alexander_Volkanovski' },
+      { name: 'Cageside Press: UFC 333 lands Volkanovski vs. Evloev, Yan vs. Dvalishvili 3', url: 'https://cagesidepress.com/2026/08/15/ufc-333-lands-volkanovski-vs-evloev-yan-vs-dvalishvili-3/' },
+      { name: 'Australian MMA: Volkanovski to defend title against Evloev', url: 'https://www.australianmma.com.au/post/volkanovski-to-defend-ufc-title-against-movsar-evloev' },
+      { name: 'MMA Sucka: Evloev echoes Volkanovski retirement stipulation', url: 'https://mmasucka.com/news/movsar-evloev-echoes-volkanovskis-retirement-stipulation-after-ufc-333/' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Ilia_Topuria_at_the_Orbeliani_Palace.jpg/1280px-Ilia_Topuria_at_the_Orbeliani_Palace.jpg',
+      alt: 'Ilia Topuria, con traje marrón y una condecoración en las manos, habla ante un micrófono en el palacio presidencial de Georgia, entre las banderas de la Unión Europea y de Georgia, en marzo de 2024',
+      credit: 'Administración del Presidente de Georgia · Wikimedia Commons',
+      license: 'CC BY 4.0',
+    },
+  },
+  {
     slug: 'cronica-gp-estados-unidos-2026',
     title: "Kimi Antonelli se lleva el Gran Premio de Estados Unidos y amplía su ventaja",
     summary: "Kimi Antonelli gana el Gran Premio de Estados Unidos por delante de Charles Leclerc y Max Verstappen. Así queda el Mundial de pilotos y constructores.",
@@ -6241,7 +6519,6 @@ Los paquetes de Movistar se contratan con fibra y móvil: la tarifa más barata 
 
 **Ofertas vigentes de DAZN:**
 
-- [El Clásico, 9,99 €/mes durante 12 meses](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome), hasta el 25 de octubre.
 - [Motor, 9,99 €/mes durante 12 meses](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome), del 22 de octubre al 1 de noviembre.
 - [NFL Game Pass con un 25 % de descuento](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fnfl-game-pass), hasta el 15 de noviembre.
 
@@ -6261,7 +6538,7 @@ Cada día, el canal de cada partido está en la página de [partidos de hoy](/pa
     sourceUrl: 'https://www.ocu.org/tecnologia/internet-telefonia/noticias/donde-ver-futbol',
     sourceLang: 'es',
     publishedAt: '2026-10-19T19:35:00+02:00',
-    modifiedAt: '2026-10-19T20:00:00+02:00',
+    modifiedAt: '2026-10-26T12:09:00+01:00',
     author: 'Redacción Mundiales',
     image: {
       url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Camp_Nou_aerial_%28cropped%29.jpg/1280px-Camp_Nou_aerial_%28cropped%29.jpg',
@@ -6521,7 +6798,7 @@ Tampoco Villa ni Butragueño ganaron el Balón de Oro en sus años de cinco gole
 
 ## Horario y televisión
 
-La ceremonia empieza a las 20:00 en Londres. España ya habrá vuelto al horario de invierno el domingo 25, así que la diferencia es de una hora.
+La ceremonia empieza a las 20:00 en Londres. España volvió al horario de invierno el domingo 25, así que la diferencia es de una hora.
 
 | Dónde | Hora |
 | --- | --- |
@@ -6530,6 +6807,10 @@ La ceremonia empieza a las 20:00 en Londres. España ya habrá vuelto al horario
 | Londres | 20:00 |
 
 En España la gala es **exclusiva de Movistar Plus+**, que la ofrecerá dentro de El Día Después, [según anunció la plataforma en agosto](https://www.academiatv.es/vuelve-el-dia-despues-a-movistar-plus/). DAZN la emite gratis en 200 países, pero España está entre los territorios excluidos de ese acuerdo, como recoge la [nota de prensa de DAZN del 8 de septiembre](https://dazngroup.com/press-room/dazn-will-broadcast-the-ballon-dor-to-fans-around-the-world/).
+
+## El plan de Movistar Plus+ para esta noche
+
+La cobertura [empieza a las 19:30 con la alfombra roja](https://www.movistarplus.es/comunicacion/blog/balon-de-oro-2026-todos-los-premios-y-donde-ver-la-gala-hoy/), la gala arranca a las 21:00 y el Balón de Oro masculino está previsto hacia las 22:55. A las 23:15 llega una edición especial de El Día Después; [según Neeo](https://www.neeo.es/2026/10/24/movistar-plus-se-vuelca-con-el-balon-de-oro-alfombra-roja-gala-integra-y-analisis-con-el-equipo-de-el-dia-despues/), en el plató estarán Carlos Martínez, Álvaro Benito, Gerard López y Antonio Mateu Lahoz. En Londres presentan la gala Thierry Henry y Kate Scott, [confirmados por France Football y la UEFA](https://www.legit.ng/sports/football/1736946-france-football-uefa-confirm-thierry-henry-kate-scott-2026-ballon-d-hosts/) una semana antes.
 
 ## Los españoles que optan
 
@@ -6548,13 +6829,18 @@ Lamine Yamal fue segundo en 2025, por detrás de Ousmane Dembélé, que defiende
 
 Los premios masculinos cubren del 3 de agosto de 2025 al 19 de julio de 2026, el día de la final del Mundial en Nueva Jersey. Cuenta toda la temporada de clubes y el torneo entero, con el 1-0 a Argentina en la prórroga.
 
-Además del Balón de Oro masculino y femenino se entregan los trofeos Kopa y Yashin en las dos categorías, los de entrenador y club del año, el Gerd Müller al máximo goleador y el premio Sócrates a la labor social. La ficha de la [selección española](/selecciones/ESP) tiene el camino completo de la campeona del mundo.`,
+Además del Balón de Oro masculino y femenino se entregan los trofeos Kopa y Yashin en las dos categorías, los de entrenador y club del año, el Gerd Müller al máximo goleador y el premio Sócrates a la labor social. La ficha de la [selección española](/selecciones/ESP) tiene el camino completo de la campeona del mundo.
+
+## Quién vota y cómo se decide
+
+El premio masculino lo deciden [100 periodistas, uno por cada uno de los 100 primeros países del ranking FIFA](https://www.beinsports.com/en-us/american-football/articles/who-votes-to-decide-the-ballon-d-or-winner-2026-08-24); el femenino, 50. Cada jurado elige diez jugadores de la lista de 30 y los ordena: 15 puntos al primero, 12 al segundo y después 10, 8, 7, 6, 5, 4, 2 y 1. Gana quien suma más puntos y, si hay empate, quien tenga más primeros puestos. Los criterios son el rendimiento individual, los resultados colectivos y el juego limpio. [El plazo de votación se cerró el 28 de septiembre](https://foot-africa.com/en/news/ballon-dor-2026-jurors-have-until-september-28-to-vote-1356842/), así que el resultado lleva un mes decidido. Tres de las treinta nominadas al femenino [salieron del mismo club de barrio de Palma](/noticias/patri-guijarro-collerense-club-de-barrio-palma-tres-nominadas-balon-de-oro-mariona-cata-coll).`,
     category: 'general',
     kind: 'noticia',
     sourceName: 'Academia TV',
     sourceUrl: 'https://www.academiatv.es/vuelve-el-dia-despues-a-movistar-plus/',
     sourceLang: 'es',
     publishedAt: '2026-10-19T19:04:00+02:00',
+    modifiedAt: '2026-10-26T12:09:00+01:00',
     author: 'Redacción Mundiales',
     image: {
       url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Palladium_Theatre_%2816406347227%29.jpg/1280px-Palladium_Theatre_%2816406347227%29.jpg',
@@ -6564,6 +6850,9 @@ Además del Balón de Oro masculino y femenino se entregan los trofeos Kopa y Ya
     },
     sourcesSecondary: [
       { name: 'DAZN Group: nota de prensa', url: 'https://dazngroup.com/press-room/dazn-will-broadcast-the-ballon-dor-to-fans-around-the-world/' },
+      { name: 'Movistar Plus+: dónde ver la gala hoy', url: 'https://www.movistarplus.es/comunicacion/blog/balon-de-oro-2026-todos-los-premios-y-donde-ver-la-gala-hoy/' },
+      { name: 'Neeo: Movistar Plus+ se vuelca con el Balón de Oro', url: 'https://www.neeo.es/2026/10/24/movistar-plus-se-vuelca-con-el-balon-de-oro-alfombra-roja-gala-integra-y-analisis-con-el-equipo-de-el-dia-despues/' },
+      { name: 'beIN Sports: who votes to decide the Ballon d\'Or winner', url: 'https://www.beinsports.com/en-us/american-football/articles/who-votes-to-decide-the-ballon-d-or-winner-2026-08-24' },
       { name: 'Wikipedia: 2026 Ballon d\'Or', url: 'https://en.wikipedia.org/wiki/2026_Ballon_d%27Or' },
       { name: 'Sports Illustrated: lista de nominados', url: 'https://www.si.com/soccer/ballon-dor-2026-full-list-nominees' },
     ],
