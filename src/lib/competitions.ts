@@ -33,7 +33,7 @@ export type Competition = {
   secondary?: boolean;
   hasStandings: boolean;
   /** Plantilla alternativa cuando no es un partido local-visitante de ESPN: estadísticas OpenACB, tenis o motor. */
-  stats?: 'openacb' | 'tennis' | 'racing' | 'golf' | 'combat' | 'boxing' | 'motogp' | 'federacion' | 'padel';
+  stats?: 'openacb' | 'tennis' | 'racing' | 'golf' | 'combat' | 'boxing' | 'motogp' | 'federacion' | 'padel' | 'balonmano';
   /** Grupos de football-charts.com para la plantilla `federacion` (Primera y Segunda Federación). */
   fc?: string[];
   /** Ruta ESPN para las plantillas `tennis` y `racing` (no entran en los tableros de partidos). */
@@ -49,7 +49,7 @@ export const SPORTS: Sport[] = [
   { slug: 'futbol', name: 'Fútbol', emoji: '⚽', description: 'Ligas, copas y torneos de selecciones: resultados, calendario y clasificaciones en directo.' },
   { slug: 'baloncesto', name: 'Baloncesto', emoji: '🏀', description: 'NBA y Euroliga: marcadores, calendario y clasificación.' },
   { slug: 'rugby', name: 'Rugby', emoji: '🏉', description: 'Seis Naciones y Mundial de rugby.' },
-  { slug: 'balonmano', name: 'Balonmano', emoji: '🤾', description: 'Mundial y Europeo de balonmano.' },
+  { slug: 'balonmano', name: 'Balonmano', emoji: '🤾', description: 'Liga Asobal, Liga Guerreras y competiciones europeas: clasificaciones, resultados y próximos partidos.' },
   { slug: 'motor', name: 'Motor', emoji: '🏎️', description: 'Fórmula 1 y MotoGP: calendario y clasificación del mundial.' },
   { slug: 'tenis', name: 'Tenis', emoji: '🎾', description: 'Circuitos ATP y WTA: torneos en juego y partidos del día.' },
   { slug: 'futbol-americano', name: 'Fútbol americano', emoji: '🏈', description: 'NFL: resultados, calendario por semanas y clasificación por conferencias.' },
@@ -115,6 +115,14 @@ export const COMPETITIONS: Competition[] = [
   { slug: 'mundial-de-rugby', name: 'Mundial de Rugby', sport: 'rugby', kind: 'mundial', espn: { sport: 'rugby', league: '164205' }, hasStandings: true,
     description: 'Copa Mundial de Rugby.', keywords: ['mundial de rugby'] },
   // ─── Balonmano ──────────────────────────────────────────────────
+  { slug: 'liga-asobal', name: 'Liga Asobal', shortName: 'Asobal', sport: 'balonmano', kind: 'liga', hasStandings: false, stats: 'balonmano', flag: '🇪🇸',
+    description: 'Liga Asobal de balonmano: clasificación, últimos resultados y próximos partidos de cada jornada.', keywords: ['liga asobal', 'clasificación asobal', 'resultados asobal', 'balonmano españa'] },
+  { slug: 'liga-guerreras', name: 'Liga Guerreras Iberdrola', shortName: 'Liga Guerreras', sport: 'balonmano', kind: 'liga', hasStandings: false, stats: 'balonmano', flag: '🇪🇸',
+    description: 'Liga Guerreras Iberdrola, la primera división femenina de balonmano: clasificación, resultados y próximos partidos.', keywords: ['liga guerreras', 'balonmano femenino', 'clasificación liga guerreras'] },
+  { slug: 'champions-ehf', name: 'Champions League de balonmano (EHF)', shortName: 'Champions EHF', sport: 'balonmano', kind: 'copa', hasStandings: false, stats: 'balonmano',
+    description: 'EHF Champions League masculina: clasificación de los seis grupos, resultados y próximos partidos del Barça y el resto.', keywords: ['champions balonmano', 'ehf champions league', 'barça balonmano champions'] },
+  { slug: 'ehf-european-league', name: 'EHF European League', shortName: 'European League', sport: 'balonmano', kind: 'copa', hasStandings: false, stats: 'balonmano',
+    description: 'EHF European League masculina: clasificación por grupos, resultados y próximos partidos de los equipos españoles.', keywords: ['european league balonmano', 'ehf european league'] },
   { slug: 'mundial-de-balonmano', name: 'Mundial de Balonmano', sport: 'balonmano', kind: 'mundial', hasStandings: false,
     description: 'Campeonato Mundial de Balonmano.', keywords: ['mundial de balonmano'] },
   // ─── Motor ──────────────────────────────────────────────────────

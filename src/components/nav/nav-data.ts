@@ -15,7 +15,6 @@ export const NAV_COMPS: NavComp[] = COMPETITIONS.map((c) => ({
 
 /** Deportes sin fuente todavía (mega-menú «Más deportes»). `href` solo si existe la página. */
 export const MORE_SPORTS: { icon: string; name: string; items: string[]; href?: string; soon?: boolean }[] = [
-  { icon: 'balonmano', name: 'Balonmano', items: ['Liga Asobal', 'Mundial · Europeo'], href: '/balonmano', soon: true },
   { icon: 'ciclismo', name: 'Ciclismo', items: ['Tour · Giro · Vuelta', 'Clásicas · Mundial'], soon: true },
   { icon: 'atletismo', name: 'Atletismo y natación', items: ['Mundiales', 'Diamond League · maratones'], soon: true },
   { icon: 'baloncesto', name: 'Universitario (NCAA)', items: ['Baloncesto masculino y femenino', 'Fútbol americano · ranking AP'], href: '/universitario' },
