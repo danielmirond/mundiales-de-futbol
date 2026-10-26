@@ -6705,6 +6705,56 @@ MotoGP corre en Sepang del 30 de octubre al 1 de noviembre, con Marc Márquez l�
     },
   },
   {
+    slug: 'mourinho-clasico-camp-nou-real-madrid-no-juega-para-ganar-en-el-camp-nou',
+    title: 'José Mourinho, entrenador del Real Madrid: «El Real Madrid no juega para ganar en el Camp Nou»',
+    summary: 'José Mourinho volvió al Camp Nou con el Real Madrid y ganó 1-2 con dos goles de Mbappé. En la rueda de prensa pidió a sus jugadores no quedarse «con la cabeza en la Luna», avisó de que la victoria pierde valor si caen el domingo en El Sardinero y señaló al VAR por una entrada de Cancelo a Diomande.',
+    body: `José Mourinho volvió al Camp Nou como entrenador del Real Madrid y se marchó con una victoria, 1-2, y con una frase para rebajar la euforia. «Si ganamos hoy y perdemos en El Sardinero, la victoria de hoy ya no tiene la misma expresión, porque el Real Madrid no juega para ganar en el Camp Nou. El Real Madrid juega para ganar campeonatos. Tenemos que seguir», dijo en la sala de prensa del estadio, según la [transcripción que publica el club](https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo/ruedas-de-prensa/rueda-de-prensa-mourinho-post-barcelona-rm-j10-liga-25-10-2026). El Sardinero es la siguiente parada: el Madrid visita al Racing de Santander el domingo 1 de noviembre.
+
+La frase llegó al final de una respuesta sobre el vestuario: «Esta es una gran victoria, pero cuando volvemos al trabajo, no voy a dejar a la gente estar con la cabeza en la Luna».
+
+## Dos goles de Mbappé y un Barça que pierde el pleno
+
+Kylian Mbappé adelantó al Madrid en el minuto 41 y Raphinha empató en el 61, a pase de Pedri tras un córner. En el 87, Mbappé firmó el 1-2 en un contragolpe conducido por Camavinga, que había entrado por Bernardo Silva siete minutos antes. No hubo expulsiones. El minuto a minuto está en [la ficha del partido](/futbol/laliga/partido/401882832).
+
+El Barcelona llegaba con nueve victorias en nueve jornadas y sigue líder con 27 puntos; el Atlético tiene 25 y el Madrid, 24. Mourinho hizo las cuentas en voz alta: «Este partido era un partido donde podíamos salir a tres, a seis o a nueve puntos. Obviamente, si sales a nueve, desde un punto de vista psicológico, es pesado. Si salíamos a seis, salíamos equilibrados. Salir a tres es diferente y el modo como hemos ganado es también importante porque tú puedes ganar con suerte y defendiendo mucho. Ganamos con tranquilidad y con todos los méritos».
+
+## El VAR «dormido» y la entrada de Cancelo
+
+Hubo queja arbitral, pero con un matiz: el elogio fue para el árbitro y el reproche, para el VAR. «Un árbitro que me parece que ha hecho un muy buen partido, con un VAR que estuvo dormido en el minuto 60 con una decisión que, seguramente, pudo tener una gran influencia en el partido, que es una clara tarjeta roja de Joao (Cancelo) a Diomande», dijo.
+
+La acción es una entrada de João Cancelo sobre Yan Diomande con el 0-1 en el marcador. Juan Martínez Munuera dejó seguir, no mostró tarjeta y el VAR no le llamó, según [el relato de Goal](https://www.goal.com/en/news/var-fast-asleep-cancelo-incident-in-clasico-infuriates-jose-mourinho/blt862a3ddb7c881717), que recoge también que Guti, como comentarista de DAZN, pidió que la jugada se hubiera revisado por la dureza de la entrada.
+
+## Lunin, Valverde y el banquillo
+
+Con Courtois fuera, Lunin fue titular, y Mourinho reprochó a la prensa que nadie le preguntara por él: «Yo a Lunin lo único que le dije antes del partido fue: 'Tú entrenas para jugar, no entrenas para estar en el banquillo. Ve y juega'». Y sobre la baja de Courtois: «Tenemos el mejor portero del mundo, pero hoy ninguno de nosotros ha llorado antes del partido porque Thibaut no jugaba».
+
+Valverde se retiró en el 62 y el técnico quiso contarlo él mismo: «Se ha lesionado, ha querido seguir e ir hasta sus límites y ha dado todo mientras estuvo en el campo». Sobre el cambio que decidió el partido, el de Camavinga, dejó la frase que más recogió la prensa, [beIN Sports](https://www.beinsports.com/es-us/football/la-liga/articles-video/el-show-de-jos%C3%A9-mourinho-tras-el-cl%C3%A1sico-el-real-madrid-no-juega-ganar-en-camp-nou-lo-hace-por-los-campeonatos-2026-10-25) entre otros: «Hay entrenadores que, cuando quieren hacer cambios, miran al banquillo y no tienen soluciones». Y remató: «Yo tengo un banquillo rico, con jugadores que pueden ser titulares».
+
+También cerró una puerta táctica: el doble pivote con Bernardo Silva y Güler «no lo hago o solo lo hago en situaciones desesperadas».
+
+## Otra vuelta al Camp Nou, otro Mourinho
+
+Su primer Clásico en este estadio como entrenador del Madrid, en noviembre de 2010, acabó 5-0 y con un «Hemos jugado muy mal... Ya acabó». Esta vez, cuando le preguntaron si la victoria era de los jugadores o del entrenador, respondió «Por los jugadores» y se declaró «ultrafeliz de que sea así». [Sus frases de 2010 y 2011](/noticias/frases-historicas-clasico-barcelona-real-madrid-lo-que-paso-despues), del «¿Por qué?» al «Pito Vilanova», están en nuestra pieza sobre las frases del Clásico que se volvieron contra quien las dijo.`,
+    category: 'general',
+    competition: { name: 'LaLiga', sport: 'futbol', slug: 'laliga' },
+    sourceName: 'Real Madrid C.F.',
+    sourceUrl: 'https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo/ruedas-de-prensa/rueda-de-prensa-mourinho-post-barcelona-rm-j10-liga-25-10-2026',
+    sourceLang: 'es',
+    sourcesSecondary: [
+      { name: 'Goal', url: 'https://www.goal.com/en/news/var-fast-asleep-cancelo-incident-in-clasico-infuriates-jose-mourinho/blt862a3ddb7c881717' },
+      { name: 'beIN Sports', url: 'https://www.beinsports.com/es-us/football/la-liga/articles-video/el-show-de-jos%C3%A9-mourinho-tras-el-cl%C3%A1sico-el-real-madrid-no-juega-ganar-en-camp-nou-lo-hace-por-los-campeonatos-2026-10-25' },
+      { name: 'ESPN', url: 'https://www.espn.com/soccer/match/_/gameId/401882832' },
+    ],
+    publishedAt: '2026-10-26T13:02:44+01:00',
+    author: 'Redacción Mundiales de Fútbol',
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Jose_Mourinho_2013.jpg/1280px-Jose_Mourinho_2013.jpg',
+      alt: 'José Mourinho, de perfil y con chaquetón azul, en la banda de un estadio durante un partido en 2013',
+      credit: 'Ronnie Macdonald · CC BY 2.0 · Wikimedia Commons',
+      license: 'CC BY 2.0',
+    },
+  },
+  {
     slug: 'donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1',
     title: 'Dónde ver el deporte en España en 2026-27: canales y precios de cada competición, una a una',
     summary: 'Guía de la temporada 2026-27: dónde se ve en España LaLiga, la Champions, la Premier, la NBA, la F1, MotoGP, el tenis o la NFL, qué plan hace falta, cuánto cuesta y qué es gratis.',
