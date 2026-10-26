@@ -154,6 +154,287 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'gavi-los-palacios-y-villafranca-pueblo-sevillano-campeon-en-cada-titulo-espana-navas-fabian',
+    title: 'Gavi no olvida Los Palacios, el pueblo con un campeón en cada título de España desde 2010',
+    summary: 'Gavi dice que Los Palacios y Villafranca «siempre es mi hogar». El pueblo sevillano de 38.761 vecinos ha tenido a Navas, a Fabián o al propio Gavi en los cinco títulos de la selección desde 2010.',
+    body: `Gavi se fue de Los Palacios y Villafranca con once años, cuando [el Barça lo fichó en 2015](https://es.wikipedia.org/wiki/Gavi_(futbolista)), y sigue hablando del pueblo como de su casa. Lo dijo en una entrevista con la revista ¡HOLA! que [Viajes National Geographic recogió el sábado](https://viajes.nationalgeographic.com.es/lifestyle/gavi-sobre-sus-raices-pueblo-campina-sevillana-aunque-me-fuera-muy-pequeno-barcelona-siempre-es-mi-hogar-siempre-va-ser_26165): «Aunque me fuera muy pequeño a Barcelona, siempre es mi hogar y siempre lo va a ser».
+
+El pueblo no es uno cualquiera para la selección. Los Palacios y Villafranca, en el Bajo Guadalquivir, tiene [38.761 habitantes según el padrón de 2025](https://www.ine.es/jaxiT3/Datos.htm?t=2888), y de allí han salido Jesús Navas, Fabián Ruiz y Gavi. Desde 2010, [España](/selecciones/esp) ha ganado cinco títulos absolutos. En los cinco había al menos un jugador nacido en Los Palacios.
+
+## Tres jugadores, cinco títulos
+
+| Título | Año | Palaciegos en la convocatoria |
+| --- | --- | --- |
+| Mundial | 2010 | Jesús Navas |
+| Eurocopa | 2012 | Jesús Navas |
+| Liga de Naciones | 2023 | Navas, Fabián y Gavi |
+| Eurocopa | 2024 | Navas y Fabián |
+| Mundial | 2026 | Fabián y Gavi |
+
+Gavi se perdió la Eurocopa de 2024 por la rotura de cruzado, pero estuvo en la [final de la Liga de Naciones de 2023](https://en.wikipedia.org/wiki/2023_UEFA_Nations_League_Finals_squads) y en el [Mundial de este verano](/2026), donde llevó el 9 y levantó la copa en la final contra Argentina. Fabián llevó el 8 en esa misma [lista del Mundial](https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads). Navas, que se retiró con el Sevilla, cerró su cuenta con el título de Alemania 2024, catorce años después de Sudáfrica.
+
+## De La Liara al Barça
+
+Gavi, Pablo Páez Gavira, nació el 5 de agosto de 2004, como [consta en su ficha de LaLiga](https://www.laliga.com/jugador/gavi). Empezó en La Liara Balompié, el club del pueblo, y de ahí pasó a la cantera del Betis, donde marcó 96 goles en un año de alevín antes de que el Barça se lo llevara con once. Firmó su primer contrato profesional en septiembre de 2020 y hoy tiene tres Ligas, una Copa y tres Supercopas con el [Barcelona](/futbol/laliga/equipo/83), además de la Liga de Naciones y el Mundial con la selección.
+
+## El Duende de Los Palacios
+
+Jesús Navas nació el 21 de noviembre de 1985 y jugó en la Unión Deportiva Los Palacios, el equipo del pueblo que durante años estuvo en Tercera, antes de entrar en el [Sevilla](/futbol/laliga/equipo/243). Es [el jugador con más partidos y más títulos de la historia del club](https://es.wikipedia.org/wiki/Jes%C3%BAs_Navas): dos Copas de la UEFA, dos Europa League, una Supercopa de Europa y dos Copas del Rey, más una Premier con el Manchester City. El estadio del Sevilla Atlético y un pabellón de Los Palacios llevan su nombre.
+
+## Fabián, el de las dos Champions seguidas
+
+Fabián Ruiz nació el 3 de abril de 1996 y debutó con el Betis B en 2014. En el PSG ha ganado [la Champions de Múnich en 2025 y la de Budapest en 2026](https://es.wikipedia.org/wiki/Fabi%C3%A1n_Ruiz_Pe%C3%B1a), cuatro Ligas francesas y la Copa Intercontinental. Con España tiene la Eurocopa sub-21 de 2019, la Liga de Naciones, la Eurocopa de 2024 y el Mundial de 2026.
+
+Entre los tres suman dos Mundiales, dos Eurocopas y una Liga de Naciones, y los tres salieron del mismo sitio: un pueblo agrícola al sur de Sevilla, conocido fuera por su tomate y por el Pabellón Jesús Navas.`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'Selección española', sport: 'futbol', slug: 'laliga' },
+    sourceName: 'Viajes National Geographic',
+    sourceUrl: 'https://viajes.nationalgeographic.com.es/lifestyle/gavi-sobre-sus-raices-pueblo-campina-sevillana-aunque-me-fuera-muy-pequeno-barcelona-siempre-es-mi-hogar-siempre-va-ser_26165',
+    sourceLang: 'es',
+    publishedAt: '2026-10-26T12:28:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'LaLiga: ficha de Gavi', url: 'https://www.laliga.com/jugador/gavi' },
+      { name: 'Wikipedia: Gavi', url: 'https://es.wikipedia.org/wiki/Gavi_(futbolista)' },
+      { name: 'Wikipedia: Jesús Navas', url: 'https://es.wikipedia.org/wiki/Jes%C3%BAs_Navas' },
+      { name: 'Wikipedia: Fabián Ruiz', url: 'https://es.wikipedia.org/wiki/Fabi%C3%A1n_Ruiz_Pe%C3%B1a' },
+      { name: 'INE: padrón municipal de la provincia de Sevilla', url: 'https://www.ine.es/jaxiT3/Datos.htm?t=2888' },
+      { name: 'Wikipedia: convocatorias del Mundial 2026', url: 'https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads' },
+      { name: 'Wikipedia: convocatorias de la Liga de Naciones 2023', url: 'https://en.wikipedia.org/wiki/2023_UEFA_Nations_League_Finals_squads' },
+      { name: 'Wikipedia: convocatorias de la Eurocopa 2024', url: 'https://en.wikipedia.org/wiki/UEFA_Euro_2024_squads' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Gavi_Argentina_v_Spain_19_July_2026-329.jpg/1280px-Gavi_Argentina_v_Spain_19_July_2026-329.jpg',
+      alt: 'Gavi, con la camiseta roja de España y una bandera de Andalucía sobre los hombros, levanta el trofeo de la Copa del Mundo entre compañeros con medalla tras la final de 2026',
+      credit: 'Bryan Berlin · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ethan-mbappe-gol-monaco-lille-mismo-domingo-doblete-kylian-clasico-sancion-champions-betis',
+    title: 'Ethan Mbappé marca en Mónaco seis horas antes del doblete de Kylian en el Clásico',
+    summary: 'Ethan Mbappé abrió el marcador en Mónaco y, por la noche, Kylian decidió el Clásico. El pequeño, de 19 años, lleva dos goles en la Ligue 1 y cumple una sanción en Champions por el codazo a Natan.',
+    body: `El domingo empezó para los Mbappé a las tres de la tarde en el Louis II. Ethan, el pequeño, [adelantó al Lille en el minuto 24](/futbol/ligue-1/partido/401876425) contra el Mónaco. Seis horas más tarde, en el Camp Nou, Kylian marcó el 0-1 en el 41 y el 1-2 en el 87 que [dieron el Clásico al Real Madrid](/futbol/laliga/partido/401882832). Dos hermanos, dos goles que abrían partido, el mismo día.
+
+El de Ethan no valió una victoria. El Lille se quedó con diez por la expulsión de Nianzou en el 66 y Edan Diop empató en el 74, según [el acta de ESPN](https://www.espn.com/football/match/_/gameId/401876425). El partido enfrentaba a dos entrenadores con pasado en España: Filipe Luís en el Mónaco y Davide Ancelotti en el Lille. [L'Équipe lo leyó como un tropiezo del Mónaco](https://www.espn.com.br/futebol/frances/artigo/_/id/17430525/monaco-filipe-luis-tropeca-contra-time-filho-ancelotti-jornal-destaca-vento-nao-estava-favor-tecnico-brasileiro), que perdió a Ansu Fati por lesión en el minuto 15 y lleva tres jornadas sin ganar.
+
+## Así va la Ligue 1
+
+| Puesto | Equipo | Puntos | Partidos |
+| --- | --- | --- | --- |
+| 1 | Rennes | 16 | 8 |
+| 2 | Lille | 15 | 8 |
+| 3 | Mónaco | 15 | 8 |
+| 4 | Lyon | 14 | 7 |
+| 5 | PSG | 14 | 7 |
+
+PSG y Lyon juegan entre sí este lunes el partido aplazado de la jornada, así que [la clasificación](/futbol/ligue-1) puede cambiar esta noche.
+
+## Los números de Ethan
+
+Ethan Mbappé Lottin nació en Montreuil el 29 de diciembre de 2006, pasó por el Bondy y por la cantera del PSG, con el que jugó tres partidos de liga, y [llegó al Lille en 2024](https://en.wikipedia.org/wiki/Ethan_Mbapp%C3%A9). Esta temporada lleva el 8 y es titular habitual en la banda derecha.
+
+| Rival | Fecha | Resultado | Goles | Tiros |
+| --- | --- | --- | --- | --- |
+| Angers | 23 ago | 2-0 | 0 | 2 |
+| PSG | 28 ago | 2-2 | 0 | 2 |
+| Toulouse | 3 sep | 1-0 | 0 | 1 |
+| Troyes | 13 sep | 2-0 | 1 | 3 |
+| Niza | 20 sep | 1-2 | 0 | 1 |
+| Brest | 17 oct | 1-1 | 0 | 1 |
+| Mónaco | 25 oct | 1-1 | 1 | 1 |
+
+Siete partidos de liga, seis de titular, dos goles y once remates, siete entre los tres palos, según [su registro en ESPN](https://www.espn.com/football/player/_/id/355971/ethan-mbappe). Marcó contra el Troyes el 13 de septiembre y no había vuelto a hacerlo hasta el domingo.
+
+## La sanción que lo tiene fuera de la Champions
+
+Lo que no está en esa tabla es la Champions. En la primera jornada, el 8 de septiembre, el Lille recibió al [Betis](/futbol/champions-league/equipo/244) y perdió 2-3. Ethan asistió a Ueda en el 1-0 y, nada más encajar el tercero, [soltó un codazo a Natan](https://www.marca.com/futbol/champions-league/2026/09/28/ethan-mbappe-sancionado-tres-partidos-codazo-natan.html) que el VAR convirtió en roja. La UEFA lo castigó con tres partidos: se perdió el 3-0 en el Arsenal, el 2-4 contra el Galatasaray y se perderá la visita al Bodø/Glimt. El Lille ha perdido los dos partidos europeos que ha jugado sin él.
+
+## El otro Mbappé
+
+Kylian firmó el doblete que deja al Madrid [a tres puntos del Barça](/noticias/mourinho-vuelve-a-ganar-en-el-camp-nou-primera-vez-desde-2013-balance-18-clasicos-real-madrid). El hermano mayor jugó su partido a las nueve de la noche; el pequeño, a las tres de la tarde.`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'Ligue 1', sport: 'futbol', slug: 'ligue-1' },
+    sourceName: 'ESPN: Mónaco 1-1 Lille',
+    sourceUrl: 'https://www.espn.com/football/match/_/gameId/401876425',
+    sourceLang: 'en',
+    publishedAt: '2026-10-26T12:32:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'ESPN: ficha y estadísticas de Ethan Mbappé', url: 'https://www.espn.com/football/player/_/id/355971/ethan-mbappe' },
+      { name: 'ESPN: clasificación de la Ligue 1', url: 'https://www.espn.com/football/table/_/league/fra.1' },
+      { name: 'MARCA: Ethan Mbappé, sancionado con tres partidos por el codazo a Natan', url: 'https://www.marca.com/futbol/champions-league/2026/09/28/ethan-mbappe-sancionado-tres-partidos-codazo-natan.html' },
+      { name: 'ESPN Brasil: el Mónaco de Filipe Luís tropieza contra el equipo del hijo de Ancelotti', url: 'https://www.espn.com.br/futebol/frances/artigo/_/id/17430525/monaco-filipe-luis-tropeca-contra-time-filho-ancelotti-jornal-destaca-vento-nao-estava-favor-tecnico-brasileiro' },
+      { name: 'Wikipedia: Ethan Mbappé', url: 'https://en.wikipedia.org/wiki/Ethan_Mbapp%C3%A9' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Kylian_Mbappe_France_v_Morocco_9_July_2026-148.jpg/1280px-Kylian_Mbappe_France_v_Morocco_9_July_2026-148.jpg',
+      alt: 'Kylian Mbappé, con la camiseta blanca de Francia, el 10 y el brazalete de capitán, camina sobre el césped durante el partido contra Marruecos del Mundial 2026',
+      credit: 'Bryan Berlin · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'mista-47-anos-verano-2003-valencia-dispuesto-venderlo-sevilla-benitez-liga-copa-uefa',
+    title: 'Mista, 47 años, cuenta el verano en que el Valencia estuvo dispuesto a venderlo al Sevilla y se quedó',
+    summary: 'Mista cuenta en un pódcast que en 2003 el Sevilla lo quiso y el Valencia, con apuros económicos, aceptaba venderlo. Se quedó, hizo 24 goles y marcó en la final de la Copa de la UEFA.',
+    body: `Mista tenía 24 años y una Liga en el verano de 2003, y estuvo a punto de irse del Valencia. Lo ha contado en [El After de Post United](https://www.youtube.com/watch?v=a8M6-WoDxOM&t=3483s), un pódcast de casi dos horas publicado el 19 de octubre que ha pasado sin eco: en aquella pretemporada el Sevilla quiso ficharlo y el club, con la economía apretada, estaba dispuesto a venderlo.
+
+Según su relato, se reunió con Suso García Pitarch, entonces director deportivo, que le expuso la situación. Después habló con Rafa Benítez, y el entrenador le dijo que él no había dado la orden de venderlo y que, si se quedaba, partiría como un delantero más. [Decidió quedarse](https://www.youtube.com/watch?v=a8M6-WoDxOM&t=3558s) y, dice, el tiempo le dio la razón.
+
+## La temporada que vino después
+
+La 2003-04 fue la mejor de su carrera. [Marcó 19 goles en Liga y 24 en total](https://en.wikipedia.org/wiki/2003%E2%80%9304_Valencia_CF_season), máximo goleador de un Valencia que ganó el campeonato y la Copa de la UEFA. El 21 de marzo le hizo tres al Mallorca en un 5-1, y el 19 de mayo, en Gotemburgo, [firmó el 2-0 de la final contra el Marsella](https://en.wikipedia.org/wiki/2004_UEFA_Cup_final) en el minuto 58, después del penalti de Vicente.
+
+| Competición 2003-04 | Partidos | Goles |
+| --- | --- | --- |
+| Liga | 33 | 19 |
+| Copa del Rey | 4 | 0 |
+| Copa de la UEFA | 9 | 5 |
+| Total | 46 | 24 |
+
+El vestuario, cuenta, tenía una espina: el Valencia había perdido dos finales de Champions, en 2000 y 2001, y no tenía título europeo. Esa tarde en el Ullevi la cerró.
+
+## De un equipo de Tercera al Real Madrid
+
+Miguel Ángel Ferrer Martínez nació en [Caravaca de la Cruz el 12 de noviembre de 1978](https://es.wikipedia.org/wiki/Mista). En el pódcast explica que con 15 años lo subieron al equipo de Tercera de su pueblo, que su padre había sido futbolista en esa categoría y que el Real Madrid [lo llevó una semana a probar](https://www.youtube.com/watch?v=a8M6-WoDxOM&t=254s) y al curso siguiente lo incorporó al juvenil de División de Honor. En casa, dice, el abuelo era del Atlético y el padre, del Madrid.
+
+Debutó con el Castilla en Segunda en 1996-97 y en 1998 protagonizó el «caso Mista»: rescindió su contrato de forma unilateral y los tribunales fijaron una indemnización de cuatro millones de pesetas en lugar de los 750 millones de la cláusula. Jugó dos años en el Tenerife antes de fichar por el [Valencia](/futbol/laliga/equipo/94), donde estuvo de 2001 a 2006 con 144 partidos y 40 goles.
+
+## Lo que dice de Benítez
+
+Mista recuerda que, en su primer año en Mestalla, Benítez reunió a los veteranos a falta de once jornadas y les dijo que el equipo [podía ganar la Liga](https://www.youtube.com/watch?v=a8M6-WoDxOM&t=2626s). La ganó. De aquella plantilla destaca a Pablo Aimar como el jugador diferente y a Rubén Baraja en el centro del campo, y dice que es difícil señalar a uno por encima de otro en el Valencia que fue lo que fue entre 2001 y 2005.
+
+Después pasó por el Atlético, el Deportivo y el Toronto FC, y más tarde entrenó al Atlético Ottawa, en Canadá. Su relato llega en el curso en que el [Valencia](/noticias/valencia-villarreal-horario-donde-ver-adios-mestalla-derbis-liga-aguirre) se despide del viejo Mestalla, el campo donde aquel equipo ganó dos Ligas.`,
+    category: 'historica',
+    kind: 'noticia',
+    competition: { name: 'LaLiga', sport: 'futbol', slug: 'laliga' },
+    sourceName: 'El After de Post United (YouTube)',
+    sourceUrl: 'https://www.youtube.com/watch?v=a8M6-WoDxOM',
+    sourceLang: 'es',
+    publishedAt: '2026-10-26T12:36:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Wikipedia: Mista', url: 'https://es.wikipedia.org/wiki/Mista' },
+      { name: 'Wikipedia: temporada 2003-04 del Valencia CF', url: 'https://en.wikipedia.org/wiki/2003%E2%80%9304_Valencia_CF_season' },
+      { name: 'Wikipedia: final de la Copa de la UEFA 2004', url: 'https://en.wikipedia.org/wiki/2004_UEFA_Cup_final' },
+      { name: 'Wikipedia: Mista (ficha en inglés, trayectoria)', url: 'https://en.wikipedia.org/wiki/Mista_(footballer)' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Mestalla_antes_del_partido_Valencia-Barcelona_LaLiga_2023-2024.jpg/1280px-Mestalla_antes_del_partido_Valencia-Barcelona_LaLiga_2023-2024.jpg',
+      alt: 'Mestalla de noche antes de un partido, con las gradas naranjas y negras y el nombre del Valencia en la tribuna',
+      credit: 'Anidae · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'lorenzo-musetti-pide-movil-una-madrugada-partido-lyon-alarma-antidopaje-whereabouts-titulo',
+    title: 'Lorenzo Musetti pide el móvil a la una de la madrugada en pleno partido por culpa del antidopaje',
+    summary: 'En los cuartos de Lyon, pasada la una de la madrugada, Musetti pidió su teléfono al supervisor para apagar la alarma de su franja antidopaje. Dos días después ganó su primer título en cuatro años.',
+    body: `Lorenzo Musetti llevaba más de tres horas en pista contra Luca van Assche, en los cuartos del ATP 250 de Lyon, cuando en un cambio de lado del tercer set pidió al supervisor permiso para usar su teléfono. Era pasada la una de la madrugada del sábado. [Lo cuenta La Gazzetta dello Sport](https://www.gazzetta.it/Tennis/24-10-2026/musetti-sveglia-antidoping-retroscena-perche-cellulare-van-assche.shtml): había programado una alarma a la una porque esa era la hora que había declarado para un posible control antidopaje en el hotel, y necesitaba desactivarla y cambiar la franja.
+
+El partido duró tres horas y 32 minutos y lo ganó él. Nadie contaba con seguir jugando a esa hora, y menos con que el teléfono sonara en mitad de un punto.
+
+## Por qué un tenista pone una alarma a la una
+
+Los cien primeros del ranking individual y los diez primeros de dobles forman parte del grupo registrado de controles de la ITIA, la agencia de integridad del tenis. Tienen que [declarar cada día dónde van a estar](https://www.itia.tennis/anti-doping/whereabouts/) a través de ADAMS, la plataforma de la Agencia Mundial Antidopaje, con una franja horaria en la que un inspector puede presentarse. Tres incumplimientos en doce meses, sea por no estar o por no rellenar el formulario, pueden acabar en sanción. La Gazzetta recuerda el caso reciente del estadounidense Jenson Brooksby, suspendido por ese motivo, y que la exención que hoy existe durante los torneos desaparecerá en 2027.
+
+Musetti no quería que la alarma interrumpiera el partido ni que un inspector se presentara en su habitación sin encontrarlo. Cambió la hora y siguió jugando.
+
+## El título, cuatro años después
+
+Esa misma tarde, en la semifinal, levantó cuatro bolas de partido contra Flavio Cobolli. Y el domingo [ganó la final a Taylor Fritz por 6-3 y 6-4](https://www.atptour.com/es/news/lyon-2026-final-musetti-fritz) en unos 80 minutos, sin conceder una sola bola de rotura. Es su tercer título ATP, después de Hamburgo y Nápoles en 2022, y llega tras siete finales perdidas seguidas.
+
+| Año | Torneo | Final |
+| --- | --- | --- |
+| 2022 | Hamburgo | Título |
+| 2022 | Nápoles | Título |
+| 2022-2026 | Siete finales | Perdidas |
+| 2026 | Lyon | Título |
+
+El 2026 había sido un curso de lesiones para él, según el repaso de la ATP: se retiró del partido con Djokovic en el Abierto de Australia con dos sets a favor por un problema en la pierna, una lesión femoral lo dejó fuera de Roland Garros y de Wimbledon, y un dedo roto lo apartó de Tokio. Llegó a Lyon con un solo partido jugado en Shanghái. «Es un sueño del que no quiero despertar», dijo tras la final.
+
+## Lo que viene, y dónde entra España
+
+La ATP destaca otro dato de esa final: Fritz subió al puesto 12 de la carrera hacia Turín y está a 464 puntos del español Rafael Jódar, que ocupa la última plaza directa para las [ATP Finals](/tenis/atp). Musetti, por su parte, apunta a la Copa Davis: la fase final se juega en Bolonia del 24 al 29 de noviembre, con Italia como anfitriona y campeona, y [España se mide a Austria en cuartos el jueves 26](/noticias/elecciones-29n-partidos-domingo-29-noviembre-horarios-futbol-f1-davis). Cómo verlo desde España está en [la guía del tenis](/noticias/donde-ver-tenis-espana-atp-finals-copa-davis-alcaraz-movistar-hbo-max).`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'ATP Tour', sport: 'tenis', slug: 'atp' },
+    sourceName: 'La Gazzetta dello Sport',
+    sourceUrl: 'https://www.gazzetta.it/Tennis/24-10-2026/musetti-sveglia-antidoping-retroscena-perche-cellulare-van-assche.shtml',
+    sourceLang: 'it',
+    publishedAt: '2026-10-26T12:40:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'ATP Tour: Musetti resurge hasta su tercer título en Lyon', url: 'https://www.atptour.com/es/news/lyon-2026-final-musetti-fritz' },
+      { name: 'ITIA: normas de localización (whereabouts)', url: 'https://www.itia.tennis/anti-doping/whereabouts/' },
+      { name: 'Ubitennis: Musetti e l\'antidoping, Lorenzo prende il telefono in campo a Lione', url: 'https://www.ubitennis.com/blog/2026/10/24/musetti-e-lantidoping-lorenzo-prende-il-telefono-in-campo-a-lione-cosa-e-successo/' },
+      { name: 'Wikipedia: Copa Davis 2026', url: 'https://en.wikipedia.org/wiki/2026_Davis_Cup' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Lorenzo_Musetti_%282025_DC_Open%29_02.jpg/1280px-Lorenzo_Musetti_%282025_DC_Open%29_02.jpg',
+      alt: 'Lorenzo Musetti, con cinta blanca en el pelo y camiseta blanca, mira hacia un lado durante un partido con el público al fondo',
+      credit: 'Hameltion · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'atletico-paso-la-palma-copa-del-rey-cordoba-1600-kilometros-elimino-real-murcia-el-paso-volcan',
+    title: 'Atlético Paso, el club de La Palma que ya tumbó al Murcia y recibe al Córdoba a 1.600 kilómetros',
+    summary: 'El Córdoba vuela el martes a El Paso, municipio de 8.000 vecinos en La Palma, para la primera ronda de Copa. Enfrente, el campeón de Tercera que en 2022 eliminó al Real Murcia en los penaltis.',
+    body: `El sorteo de la primera ronda de la [Copa del Rey](/futbol/copa-del-rey) le ha dado al Córdoba el viaje más largo de todos: el martes 27 juega a las 21:00 peninsulares, 20:00 en Canarias, en el Municipal de El Paso, en la isla de La Palma. Según [la ficha del partido](/futbol/copa-del-rey/partido/401928547), lo emiten Movistar Plus+ (también dentro de DAZN) y Televisión Canaria.
+
+Enfrente estará el CD Atlético Paso, un club de pueblo con 74 años que acaba de subir y que ya sabe lo que es echar de la Copa a un rival de superior categoría.
+
+## Campeón de Liga y de Copa en el mismo año
+
+El Atlético Paso [se fundó el 17 de junio de 1952](https://cordopolis.eldiario.es/deportes/ccf/cd-atletico-paso-campeon-espera-cordoba-cf-1-600-kilometros-arcangel_1_13613846.html) y ha ido subiendo a base de ascensos: la primera Tercera en 1987-88, el salto a Segunda Federación en 2022 y, tras bajar tres años después, el regreso inmediato. La pasada temporada fue campeón del grupo XII de Tercera RFEF y en mayo ganó la Copa Heliodoro Rodríguez López al Añaza, 3-1 en la prórroga.
+
+Hoy juega en el grupo 5 de [Segunda Federación](https://es.wikipedia.org/wiki/Club_Deportivo_Atl%C3%A9tico_Paso), un grupo peninsular en el que es el único equipo canario: cada salida es un avión. Tras ocho jornadas suma nueve puntos, undécimo, sin ganar fuera pero con dos victorias seguidas en casa. El sábado goleó 3-0 al Real Ávila con dos tantos de Fran Rivera y uno de Aythami Perera. En la plantilla de Maxi Barrera hay dos veteranos de 37 años, el central Aridane Hernández y el portero Edu Loscos, que paró un penalti en el empate en Cuenca contra el líder.
+
+## La Copa y el volcán
+
+El club debutó en la Copa del Rey en 2022-23 y lo hizo eliminando al Real Murcia, de Primera Federación, en los penaltis (3-2 tras el 1-1), con tres lanzamientos detenidos por su portero Luis Arellano. En la siguiente ronda cayó con el Espanyol. En 2024-25 volvió y lo apeó el Eldense, de Segunda, con un penalti poco antes del descanso. Tres cruces contra rivales de más categoría, uno ganado.
+
+Aquel primer ascenso a Segunda Federación, en 2022, llegó meses después de la erupción de Cumbre Vieja: el volcán [abrió sus bocas el 19 de septiembre de 2021 en Cabeza de Vaca](https://es.wikipedia.org/wiki/Erupci%C3%B3n_volc%C3%A1nica_de_La_Palma_de_2021), en el paraje de Las Manchas, dentro del municipio de El Paso.
+
+## El campo, las entradas y el viaje
+
+| Dato | Detalle |
+| --- | --- |
+| Estadio | Municipal de El Paso, inaugurado en 1955, más de 3.000 espectadores |
+| Césped | Renovado este verano; la pretemporada empezó en Breña Alta |
+| Entrada general | 20 euros desde el domingo; la preventa a 15 terminó el sábado |
+| Menores de 15 años | Gratis |
+| Distancia desde El Arcángel | Unos 1.600 kilómetros |
+
+Para el [Córdoba](/futbol/laliga-2/equipo/8447), que está en Segunda División, la Copa ha sido un adiós rápido los dos últimos otoños: Olot en 2024, en los penaltis, y Cieza en 2025, 1-0. Llega con dos victorias seguidas sin encajar, la última 2-0 al Eibar, y undécimo con 15 puntos. Iván Ania dijo que quiere pasar la ronda y dar minutos a los que juegan menos. Será su partido 140 en el banquillo cordobesista, con el que se quedaría solo como el segundo entrenador con más partidos del club, por detrás de Pepe Escalante.
+
+El Atlético Paso tiene [venta de entradas en línea](https://atleticopaso.club/) y en su oficina, y el martes vivirá otra noche de Copa. Como en [Ribadesella](/noticias/ribadesella-cf-oreyana-racing-copa-del-rey-grada-900-plazas-no-autorizada-entradas-movistar) o en [Alcázar de San Juan](/noticias/sporting-de-alcazar-preferente-agranda-campo-recibe-malaga-copa-del-rey-delgado-meco), la ronda de los pueblos empieza esta semana.`,
+    category: 'curiosa',
+    kind: 'noticia',
+    competition: { name: 'Copa del Rey', sport: 'futbol', slug: 'copa-del-rey' },
+    sourceName: 'Cordópolis (elDiario.es)',
+    sourceUrl: 'https://cordopolis.eldiario.es/deportes/ccf/cd-atletico-paso-campeon-espera-cordoba-cf-1-600-kilometros-arcangel_1_13613846.html',
+    sourceLang: 'es',
+    publishedAt: '2026-10-26T12:44:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Wikipedia: Club Deportivo Atlético Paso', url: 'https://es.wikipedia.org/wiki/Club_Deportivo_Atl%C3%A9tico_Paso' },
+      { name: 'Wikipedia: erupción volcánica de La Palma de 2021', url: 'https://es.wikipedia.org/wiki/Erupci%C3%B3n_volc%C3%A1nica_de_La_Palma_de_2021' },
+      { name: 'Atlético Paso: web oficial y entradas', url: 'https://atleticopaso.club/' },
+      { name: 'ESPN: Atlético Paso - Córdoba', url: 'https://www.espn.com/football/match/_/gameId/401928547' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/La_Palma_-_El_Paso_-_Calle_Paso_de_Abajo_%2B_Tourist_Information_01_ies.jpg/1280px-La_Palma_-_El_Paso_-_Calle_Paso_de_Abajo_%2B_Tourist_Information_01_ies.jpg',
+      alt: 'Oficina de turismo de El Paso, en La Palma: un edificio bajo de fachada azul y tejado de teja, con las laderas boscosas de la isla al fondo',
+      credit: 'Frank Vincentz · Wikimedia Commons',
+      license: 'CC BY-SA 3.0',
+    },
+  },
+  {
     slug: 'patri-guijarro-collerense-club-de-barrio-palma-tres-nominadas-balon-de-oro-mariona-cata-coll',
     title: 'Patri Guijarro y el club de barrio de Palma que esta noche tiene tres nominadas al Balón de Oro',
     summary: 'Mariona Caldentey, Cata Coll y Patri Guijarro pasaron por el Collerense, que hoy juega en Tercera Federación en un campo de mil plazas. Patri cuenta en un pódcast cómo se quedaba a ver a las mayores.',
