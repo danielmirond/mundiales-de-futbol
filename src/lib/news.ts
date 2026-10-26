@@ -5606,7 +5606,7 @@ Todos los horarios están en hora peninsular. Los marcadores se actualizan en di
 
 ## Cómo verlo
 
-Hace falta el Plan Fútbol de DAZN. Hasta el domingo, [DAZN lo ofrece a 9,99 €/mes durante 12 meses o 109,99 € en un solo pago](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome), con permanencia de un año; el precio normal es 19,99 €/mes o 219,99 € al año, según [Xataka](https://www.xataka.com/seleccion/dazn-tira-precio-su-plan-futbol-tiempo-limitado-para-ver-clasico-partidos-esta-temporada-solo-9-99-euros-al-mes). Las condiciones exactas aparecen al darse de alta.
+Hace falta el Plan Fútbol de DAZN. La oferta de 9,99 €/mes con la que DAZN vendió el Clásico terminó el mismo domingo 25; a 26 de octubre [su web anuncia el plan Fútbol desde 14,99 €/mes](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome), con el precio habitual de 19,99 €/mes tachado. Las condiciones exactas aparecen al darse de alta.
 
 Alineaciones, marcador en directo y narración, en la [ficha del Barcelona - Real Madrid](/futbol/laliga/partido/401882832). Todos los planes y precios, en [dónde ver LaLiga 2026-27](/noticias/donde-ver-laliga-2026-27-movistar-dazn-precios-jornadas-exclusivas-clasico).`,
     category: 'tv',
@@ -5619,6 +5619,7 @@ Alineaciones, marcador en directo y narración, en la [ficha del Barcelona - Rea
       { name: 'Xataka', url: 'https://www.xataka.com/seleccion/dazn-tira-precio-su-plan-futbol-tiempo-limitado-para-ver-clasico-partidos-esta-temporada-solo-9-99-euros-al-mes' },
     ],
     publishedAt: '2026-10-23T18:55:00+02:00',
+    modifiedAt: '2026-10-26T12:55:00+01:00',
     author: 'Redacción Mundiales de Fútbol',
     image: {
       url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/2014._Camp_Nou._M%C3%A9s_que_un_club._Barcelona_B40.jpg/1280px-2014._Camp_Nou._M%C3%A9s_que_un_club._Barcelona_B40.jpg',
@@ -5730,7 +5731,7 @@ Los paquetes de Movistar incluyen los canales de DAZN, por eso con ellos se ven 
 
 ## El Clásico y las tres jornadas de Movistar
 
-El **Barcelona - Real Madrid del domingo 25 de octubre**, a las 21:00 en el Spotify Camp Nou, va en DAZN LaLiga, según la [ficha del partido](/futbol/laliga/partido/401882832). Hasta ese domingo, [DAZN Fútbol está a 9,99 €/mes durante 12 meses o 109,99 € en un solo pago](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) (antes 19,99 €/mes o 219,99 € al año), con permanencia de un año; las condiciones aparecen al darse de alta. La vuelta se juega en el Bernabéu el fin de semana del 8 y 9 de mayo de 2027.
+El **Barcelona - Real Madrid del domingo 25 de octubre**, a las 21:00 en el Spotify Camp Nou, va en DAZN LaLiga, según la [ficha del partido](/futbol/laliga/partido/401882832). La oferta de 9,99 €/mes durante 12 meses con la que DAZN vendió el Clásico terminó ese mismo domingo; a 26 de octubre [su web anuncia DAZN Fútbol desde 14,99 €/mes](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome), con el precio habitual de 19,99 €/mes (o 219,99 € al año) tachado. Las condiciones aparecen al darse de alta. La vuelta se juega en el Bernabéu el fin de semana del 8 y 9 de mayo de 2027.
 
 Tres jornadas son enteras de Movistar, y en ellas no se ve a ningún equipo con DAZN, salvo el partido gratis:
 
@@ -5760,7 +5761,7 @@ Horarios y canal de cada partido, en el [calendario de LaLiga](/futbol/laliga/ca
     sourceUrl: 'https://roams.es/actualidad/telefonia/movistar-plus-laliga-exclusiva-fechas-exactas/',
     sourceLang: 'es',
     publishedAt: '2026-10-19T19:51:00+02:00',
-    modifiedAt: '2026-10-23T18:58:00+02:00',
+    modifiedAt: '2026-10-26T12:55:00+01:00',
     author: 'Redacción Mundiales',
     image: {
       url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/LFP_-_Barcelona_vs_Mallorca_pre-match_-_Oct_3rd_2010.jpg/1280px-LFP_-_Barcelona_vs_Mallorca_pre-match_-_Oct_3rd_2010.jpg',
@@ -6739,7 +6740,7 @@ Es el reparto que más confunde. En 35 de las 38 jornadas, Movistar Plus+ emite 
 - **Movistar Plus+ con el paquete LaLiga** (36 €/mes, más Movistar Plus+ a 14 €/mes) o **Fútbol Total** (50 €/mes). Se contratan con fibra y móvil de Movistar e incluyen los canales de DAZN, así que con ellos se ve la jornada completa. [Ver la oferta de Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol).
 - **[DAZN Fútbol](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome)** cubre solo la mitad de cada jornada. Cuesta 19,99 €/mes con permanencia de un año, 29,99 €/mes sin permanencia o 219,99 € de una vez, [según Kelisto](https://www.kelisto.es/internet/consejos-y-analisis/futbol-dazn).
 
-DAZN da gratis un partido por jornada a quien se registre, y Movistar Plus+ Libre (9,99 €/mes, sin permanencia) y Orange TV Libre (7,99 €/mes) incluyen uno por jornada. El **Clásico del domingo 25 de octubre**, Barcelona - Real Madrid a las 21:00, va en DAZN: la plataforma tiene una oferta de [9,99 €/mes durante 12 meses](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) válida hasta ese mismo día. El horario y el canal de cada partido están en el [calendario de LaLiga](/futbol/laliga/calendario), y todo el detalle, en la [guía de dónde ver LaLiga](/noticias/donde-ver-laliga-2026-27-movistar-dazn-precios-jornadas-exclusivas-clasico).
+DAZN da gratis un partido por jornada a quien se registre, y Movistar Plus+ Libre (9,99 €/mes, sin permanencia) y Orange TV Libre (7,99 €/mes) incluyen uno por jornada. El **Clásico del domingo 25 de octubre**, Barcelona - Real Madrid a las 21:00, fue en DAZN. La oferta de 9,99 €/mes durante 12 meses con la que lo vendió terminó ese mismo día; a 26 de octubre [su web anuncia DAZN Fútbol desde 14,99 €/mes](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome), con el precio habitual de 19,99 €/mes tachado. El horario y el canal de cada partido están en el [calendario de LaLiga](/futbol/laliga/calendario), y todo el detalle, en la [guía de dónde ver LaLiga](/noticias/donde-ver-laliga-2026-27-movistar-dazn-precios-jornadas-exclusivas-clasico).
 
 ### LaLiga Hypermotion
 
@@ -6819,7 +6820,7 @@ Cada día, el canal de cada partido está en la página de [partidos de hoy](/pa
     sourceUrl: 'https://www.ocu.org/tecnologia/internet-telefonia/noticias/donde-ver-futbol',
     sourceLang: 'es',
     publishedAt: '2026-10-19T19:35:00+02:00',
-    modifiedAt: '2026-10-26T12:09:00+01:00',
+    modifiedAt: '2026-10-26T12:55:00+01:00',
     author: 'Redacción Mundiales',
     image: {
       url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Camp_Nou_aerial_%28cropped%29.jpg/1280px-Camp_Nou_aerial_%28cropped%29.jpg',
