@@ -154,6 +154,40 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'nba-resultados-2026-10-27',
+    title: "NBA: todos los resultados de la jornada y el partido más igualado",
+    summary: "Resultados de los 9 partidos de la noche en la NBA, con el más igualado y el de más puntos.",
+    body: `9 partidos en la NBA esta noche. El más igualado, Cavaliers 127-125 a Timberwolves, decidido en la última posesión. El de más puntos, Cavaliers ante Timberwolves (127-125).
+
+## Resultados
+
+- [Hornets 110-103 Wizards](/baloncesto/nba/partido/401909868)
+- [Cavaliers 127-125 Timberwolves](/baloncesto/nba/partido/401909869)
+- [Celtics 134-99 Bulls](/baloncesto/nba/partido/401909870)
+- [Mavericks 113-109 Heat](/baloncesto/nba/partido/401909871)
+- [Bucks 110-102 Pacers](/baloncesto/nba/partido/401909872)
+- [Thunder 125-114 Suns](/baloncesto/nba/partido/401909873)
+- [Rockets 120-110 Hawks](/baloncesto/nba/partido/401909874)
+- [Grizzlies 110-105 Jazz](/baloncesto/nba/partido/401909875)
+- [Warriors 134-114 Nuggets](/baloncesto/nba/partido/401909876)
+
+Marcadores en directo, calendario y clasificación por conferencias en la [página de la NBA](/baloncesto/nba).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"NBA","sport":"baloncesto","slug":"nba"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/nba/scoreboard",
+    sourceLang: 'en',
+    publishedAt: '2026-10-27T12:43:32.972Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Quicken_Loans_Arena_2.jpg/1920px-Quicken_Loans_Arena_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Rocket Arena, sede del Cavaliers - Timberwolves",
+      credit: "Erik Drost · CC BY 2.0 · Wikimedia Commons",
+      license: "CC BY 2.0",
+    },
+  },
+  {
     slug: 'alexia-putellas-balon-de-oro-pierna-me-fallaba-cruzado-2022-london-city-tercer-titulo',
     title: 'Alexia Putellas, 32 años: «Me acuerdo de esos momentos donde la pierna me fallaba»',
     summary: 'Alexia Putellas recogió su tercer Balón de Oro recordando la rodilla rota de 2022, cuando tuvo que aprender a andar otra vez. Entre la lesión y el trofeo pasaron 1.574 días.',
@@ -495,7 +529,7 @@ Calendario y clasificación en la [página de Serie A](/futbol/serie-a).
 - **[Don Benito - Extremadura](/futbol/copa-del-rey/partido/401928553)** — 20:30 h
 - **[Manresa - Sant Andreu](/futbol/copa-del-rey/partido/401928502)** — 20:30 h · 📺 Esport3 (Cataluña)
 - **[Arosa - Pontevedra](/futbol/copa-del-rey/partido/401928488)** — 21:00 h
-- **[Atl Paso - Córdoba](/futbol/copa-del-rey/partido/401928547)** — 21:00 h · 📺 TV Canaria
+- **[Atl Paso - Córdoba](/futbol/copa-del-rey/partido/401928547)** — 21:00 h
 - **[CD Tudelano - Real Zaragoza](/futbol/copa-del-rey/partido/401928503)** — 21:00 h · 📺 Aragón Play / Aragón TV
 - **[Manacor - Villarreal](/futbol/copa-del-rey/partido/401928522)** — 21:00 h · 📺 M+ LALIGA 2 / M+ LALIGA 4
 - **[R Huelva - Rayo](/futbol/copa-del-rey/partido/401928533)** — 21:00 h · 📺 M+ LALIGA / M+ Liga de Campeones
@@ -524,7 +558,7 @@ Horarios en hora de España; los resultados y la narración de cada partido van 
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401841642",
     sourceLang: 'en',
     publishedAt: '2026-10-27T00:48:38.589Z',
-    modifiedAt: '2026-10-27T00:48:38.589Z',
+    modifiedAt: '2026-10-27T12:43:32.972Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Stadio_Diego_Armando_Maradona_2022_%282%29.jpg/1920px-Stadio_Diego_Armando_Maradona_2022_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
