@@ -154,6 +154,234 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'nfl-semana-2026-44',
+    title: "NFL: resultados de la semana y cómo quedan la AFC y la NFC",
+    summary: "Resultados de los 13 partidos de la semana en la NFL, el más ajustado y los mejores balances de la AFC y la NFC.",
+    body: `13 partidos en la última semana de la NFL. El triunfo más ajustado, el de Browns ante Titans (27-24); la mayor diferencia, la de Buccaneers sobre Panthers, por 30 puntos.
+
+## Resultados
+
+- Bears 30-24 Patriots
+- Steelers 16-10 Saints
+- Falcons 29-20 49ers
+- Browns 27-24 Titans
+- Vikings 16-10 Colts
+- Dolphins 28-25 Jets
+- Buccaneers 43-13 Panthers
+- Bengals 35-13 Ravens
+- Giants 27-21 Texans
+- Broncos 30-16 Cardinals
+- Lions 20-17 Packers
+- Rams 35-21 Raiders
+- Seahawks 20-3 Chiefs
+
+## AFC
+
+- Chiefs: 5-1
+- Bills: 5-1
+- Browns: 5-2
+
+## NFC
+
+- Vikings: 6-0
+- 49ers: 6-1
+- Bears: 5-2
+
+Calendario, resultados y clasificación completa en la [página de la NFL](/futbol-americano/nfl).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"NFL","sport":"futbol-americano","slug":"nfl"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/nfl/scoreboard",
+    sourceLang: 'en',
+    publishedAt: '2026-10-27T00:48:38.589Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Bank_of_America_Stadium_in_2025.jpg/1920px-Bank_of_America_Stadium_in_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Bank of America Stadium, sede del Panthers - Buccaneers",
+      credit: "Quintin Soloviev · CC BY 4.0 · Wikimedia Commons",
+      license: "CC BY 4.0",
+    },
+  },
+  {
+    slug: 'clasificacion-premier-league-semana-2026-44',
+    title: "Premier League: así queda la clasificación esta semana, con Man City líder",
+    summary: "Man City sigue arriba en Premier League (21 puntos). Repasamos la clasificación completa. Tabla comentada de Premier League 2026: cabeza, zona baja y enlace a la clasificación completa.",
+    body: `Man City sigue arriba en Premier League (21 puntos). Repasamos la clasificación completa.
+
+## La tabla
+
+1. **Man City** — 21 pts (7G-0E-1P, +11)
+2. **Arsenal** — 21 pts (7G-0E-1P, +8)
+3. **Brighton** — 16 pts (5G-1E-2P, +16)
+4. **Liverpool** — 15 pts (4G-3E-1P, +3)
+5. **Chelsea** — 13 pts (4G-1E-3P, +2)
+6. **Brentford** — 11 pts (2G-5E-1P, +5)
+
+En la zona baja: Nottm Forest (6 pts), Coventry (6 pts) y Sunderland (5 pts).
+
+La clasificación completa, con todos los equipos y los próximos partidos, está en la [página de Premier League](/futbol/premier-league).`,
+    category: 'general',
+    kind: 'clasificacion',
+    competition: {"name":"Premier League","sport":"futbol","slug":"premier-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/standings/_/league/eng.1",
+    sourceLang: 'en',
+    publishedAt: '2026-10-27T00:48:38.589Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Gran_Premio_Ciudad_de_Buenos_Aires_2026%2C_Domingo_-_14.jpg/1920px-Gran_Premio_Ciudad_de_Buenos_Aires_2026%2C_Domingo_-_14.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Estadio de Man City, líder de Premier League",
+      credit: "Just a Man · CC BY 4.0 · Wikimedia Commons",
+      license: "CC BY 4.0",
+    },
+  },
+  {
+    slug: 'clasificacion-laliga-semana-2026-44',
+    title: "LaLiga: así queda la clasificación esta semana, con Barcelona líder",
+    summary: "Barcelona manda en LaLiga con 27 puntos tras la última jornada. Tabla comentada de LaLiga 2026: cabeza, zona baja y enlace a la clasificación completa.",
+    body: `Barcelona manda en LaLiga con 27 puntos tras la última jornada.
+
+## La tabla
+
+1. **Barcelona** — 27 pts (9G-0E-1P, +29)
+2. **Atlético** — 25 pts (8G-1E-1P, +12)
+3. **Real Madrid** — 24 pts (8G-0E-2P, +15)
+4. **Betis** — 20 pts (6G-2E-2P, +2)
+5. **Real Sociedad** — 19 pts (6G-1E-3P, +1)
+6. **Sevilla** — 17 pts (5G-2E-3P, 0)
+
+En la zona baja: Espanyol (8 pts), Valencia (6 pts) y Málaga (5 pts).
+
+La clasificación completa, con todos los equipos y los próximos partidos, está en la [página de LaLiga](/futbol/laliga).`,
+    category: 'general',
+    kind: 'clasificacion',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/standings/_/league/esp.1",
+    sourceLang: 'en',
+    publishedAt: '2026-10-27T00:48:38.589Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Est%C3%A1dio_Camp_Nou%2C_Barcelona_2022_%2891998%29.jpg/1920px-Est%C3%A1dio_Camp_Nou%2C_Barcelona_2022_%2891998%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Estadio de Barcelona, líder de LaLiga",
+      credit: "Boaventuravinicius · CC BY-SA 3.0 · Wikimedia Commons",
+      license: "CC BY-SA 3.0",
+    },
+  },
+  {
+    slug: 'cronica-sevilla-osasuna-401882828',
+    title: "Sevilla gana 2-0 a Osasuna y es 6.º",
+    summary: "Sevilla suma tres puntos ante Osasuna (2-0) en LaLiga y es 6.º con 17 puntos; Osasuna se queda 12.º.",
+    body: `Sevilla se impuso 2-0 a Osasuna en LaLiga.
+
+## Los goles
+
+En el marcador, Isaac Romero (24', Sevilla) y Felix Correia (82', Sevilla).
+
+## La tabla
+
+Tras el partido, Sevilla 6.º con 17 puntos y Osasuna 12.º con 11 puntos en la [clasificación de LaLiga](/futbol/laliga).
+
+## Lo que viene
+
+Lo que viene. Sevilla: visita a Getafe el domingo 1 de noviembre. Osasuna: visita a Deportivo el lunes 2 de noviembre. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/laliga/partido/401882828).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882828",
+    sourceLang: 'en',
+    publishedAt: '2026-10-27T00:48:38.589Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/2022-10-25_1_Estadio_Ram%C3%B3n_S%C3%A1nchez_Pizju%C3%A1n_%28Sevilla_FC%29.jpg/1280px-2022-10-25_1_Estadio_Ram%C3%B3n_S%C3%A1nchez_Pizju%C3%A1n_%28Sevilla_FC%29.jpg",
+      alt: "Interior del Ramón Sánchez-Pizjuán, con las gradas rojas y blancas y el nombre del Sevilla",
+      credit: "Niels98 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'partidos-futbol-hoy-2026-10-27',
+    title: "Partidos de fútbol hoy, martes 27 de octubre: horarios y dónde ver DFB-Pokal, Serie A y Copa del Rey",
+    summary: "Agenda de fútbol de hoy martes 27 de octubre: 32 partidos con horario en hora española y canal de televisión. Destaca Argentinos  - Ind. Rivadavia.",
+    body: `32 partidos de fútbol para martes 27 de octubre. Repasamos qué se juega, a qué hora y en qué canal, sin más vueltas. El partido que más miradas reúne es el **[Argentinos  - Ind. Rivadavia](/futbol/liga-argentina/partido/401841642)** (Liga Profesional Argentina, 23:00 h).
+
+## 🇩🇪 Copa de Alemania
+
+- **[Hamburg - Frankfurt](/futbol/dfb-pokal/partido/401916920)** — 18:00 h
+- **[Rot-Weiss Essen - RB Leipzig](/futbol/dfb-pokal/partido/401917027)** — 18:00 h
+- **[SG Sonnenhof - Augsburg](/futbol/dfb-pokal/partido/401917028)** — 18:00 h
+- **[Bochum - Mainz](/futbol/dfb-pokal/partido/401917029)** — 18:00 h
+- **[Dortmund - Bremen](/futbol/dfb-pokal/partido/401917030)** — 20:45 h
+- **[Gladbach - Karlsruher](/futbol/dfb-pokal/partido/401917031)** — 20:45 h
+- **[Cologne - Union Berlin](/futbol/dfb-pokal/partido/401917026)** — 20:45 h
+- **[Elversberg - Darmstadt](/futbol/dfb-pokal/partido/401916923)** — 20:45 h
+
+Calendario y clasificación en la [página de DFB-Pokal](/futbol/dfb-pokal).
+
+## 🇮🇹 Serie A
+
+- **[Sassuolo - Lazio](/futbol/serie-a/partido/401874980)** — 18:30 h · 📺 DAZN
+- **[AS Roma - Cagliari](/futbol/serie-a/partido/401874780)** — 20:45 h · 📺 DAZN
+- **[Torino - Como](/futbol/serie-a/partido/401874786)** — 20:45 h · 📺 DAZN
+
+Calendario y clasificación en la [página de Serie A](/futbol/serie-a).
+
+## 🇪🇸 Copa del Rey
+
+- **[Cuarte - Girona](/futbol/copa-del-rey/partido/401928493)** — 18:30 h · 📺 Aragón Play / Aragón TV
+- **[Pinatarens - Elche](/futbol/copa-del-rey/partido/401928501)** — 19:00 h · 📺 M+ LALIGA 2
+- **[CF Calamocha - Europa](/futbol/copa-del-rey/partido/401928520)** — 19:00 h · 📺 Aragón Play
+- **[Sestao - Espanyol](/futbol/copa-del-rey/partido/401928495)** — 19:00 h · 📺 M+ LALIGA
+- **[UD Castellonense - Almería](/futbol/copa-del-rey/partido/401928521)** — 19:45 h
+- **[Alcalá - Las Palmas](/futbol/copa-del-rey/partido/401928549)** — 20:00 h · 📺 TV Canaria
+- **[Tordesillas - Mirandés](/futbol/copa-del-rey/partido/401928509)** — 20:00 h
+- **[Lucena - Rayo Majadahonda](/futbol/copa-del-rey/partido/401928534)** — 20:00 h
+- **[Segoviana - Leonesa](/futbol/copa-del-rey/partido/401928508)** — 20:00 h
+- **[Llanera - Ponferradina](/futbol/copa-del-rey/partido/401928510)** — 20:00 h
+- **[Don Benito - Extremadura](/futbol/copa-del-rey/partido/401928553)** — 20:30 h
+- **[Manresa - Sant Andreu](/futbol/copa-del-rey/partido/401928502)** — 20:30 h · 📺 Esport3 (Cataluña)
+- **[Arosa - Pontevedra](/futbol/copa-del-rey/partido/401928488)** — 21:00 h
+- **[Atl Paso - Córdoba](/futbol/copa-del-rey/partido/401928547)** — 21:00 h · 📺 TV Canaria
+- **[CD Tudelano - Real Zaragoza](/futbol/copa-del-rey/partido/401928503)** — 21:00 h · 📺 Aragón Play / Aragón TV
+- **[Manacor - Villarreal](/futbol/copa-del-rey/partido/401928522)** — 21:00 h · 📺 M+ LALIGA 2 / M+ LALIGA 4
+- **[R Huelva - Rayo](/futbol/copa-del-rey/partido/401928533)** — 21:00 h · 📺 M+ LALIGA / M+ Liga de Campeones
+- **[Alcázar - Málaga](/futbol/copa-del-rey/partido/401928499)** — 21:00 h · 📺 M+ LALIGA 3
+
+Calendario y clasificación en la [página de Copa del Rey](/futbol/copa-del-rey).
+
+## 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Carabao Cup
+
+- **[Bradford - Peterborough](/futbol/carabao-cup/partido/401921833)** — 20:45 h
+- **[Fleetwood Town - Arsenal](/futbol/carabao-cup/partido/401921835)** — 21:00 h
+
+Calendario y clasificación en la [página de Carabao Cup](/futbol/carabao-cup).
+
+## 🇦🇷 Liga Profesional Argentina
+
+- **[Argentinos  - Ind. Rivadavia](/futbol/liga-argentina/partido/401841642)** — 23:00 h
+
+Calendario y clasificación en la [página de Liga Argentina](/futbol/liga-argentina).
+
+Horarios en hora de España; los resultados y la narración de cada partido van en su ficha. Toda la jornada, con marcadores en directo, en [partidos de hoy](/partidos-hoy).`,
+    category: 'tv',
+    kind: 'agenda',
+    competition: {"name":"Liga Argentina","sport":"futbol","slug":"liga-argentina"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401841642",
+    sourceLang: 'en',
+    publishedAt: '2026-10-27T00:48:38.589Z',
+    modifiedAt: '2026-10-27T00:48:38.589Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Stadio_Diego_Armando_Maradona_2022_%282%29.jpg/1920px-Stadio_Diego_Armando_Maradona_2022_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Diego Armando Maradona, escenario del Argentinos  - Ind. Rivadavia",
+      credit: "Joris · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
     slug: 'copa-del-rey-martes-27-octubre-villarreal-manacor-rayo-huelva-espanyol-sestao-horarios-donde-ver',
     title: 'Villarreal, Rayo y Espanyol abren la Copa en campos de pueblo: horarios y dónde ver el martes',
     summary: 'La primera ronda de la Copa del Rey arranca este martes con 18 partidos. Villarreal en Manacor, Rayo en Huelva, Espanyol en Sestao y Málaga en Alcázar: horarios en la península y en Canarias, y canal.',
