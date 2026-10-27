@@ -154,6 +154,158 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'alexia-putellas-balon-de-oro-pierna-me-fallaba-cruzado-2022-london-city-tercer-titulo',
+    title: 'Alexia Putellas, 32 años: «Me acuerdo de esos momentos donde la pierna me fallaba»',
+    summary: 'Alexia Putellas recogió su tercer Balón de Oro recordando la rodilla rota de 2022, cuando tuvo que aprender a andar otra vez. Entre la lesión y el trofeo pasaron 1.574 días.',
+    body: `Alexia Putellas subió al escenario del London Palladium con el tercer Balón de Oro en las manos y habló en tres idiomas. En inglés dio las gracias, en catalán se despidió del Barça y en castellano habló de la selección. El final lo guardó para su familia y para una rodilla. «Me acuerdo de esos momentos donde la pierna me fallaba», dijo, en el discurso que [El Larguero emitió en directo](https://www.youtube.com/watch?v=N_AdSLNFASI&t=608s) desde Londres.
+
+Contó que tuvo dolores después de la operación, que tuvo que aprender otra vez a andar, a chutar y a correr, y que los que la sacaron de ahí fueron su madre, su hermana, sus amigas y un equipo de fuera del campo que la acompaña desde hace más de doce años. En la platea estaban su madre, Eli, y su hermana, Alba.
+
+## De la rodilla rota al tercer trofeo
+
+El 5 de julio de 2022, la víspera del arranque de la Eurocopa, Alexia se rompió el ligamento cruzado anterior de la rodilla izquierda en un entrenamiento con España. La operaron el 12 de julio y los médicos calcularon entre diez y doce meses de baja, [según su ficha biográfica](https://en.wikipedia.org/wiki/Alexia_Putellas). Esto es lo que vino después:
+
+| Fecha | Qué pasó |
+| --- | --- |
+| 5 jul 2022 | Rotura del cruzado en la concentración de la Eurocopa |
+| 12 jul 2022 | Operación en Barcelona |
+| 17 oct 2022 | Recoge su segundo Balón de Oro, aún de baja |
+| 30 abr 2023 | Vuelve a jugar: entra en el minuto 73 ante el Sporting de Huelva |
+| 21 may 2023 | Primer gol tras la lesión, también saliendo desde el banquillo |
+| 2025-26 | Última temporada en el Barça: cuádruple corona y mejor jugadora de la Champions |
+| 8 jul 2026 | Firma por tres temporadas con el London City Lionesses |
+| 26 oct 2026 | Tercer Balón de Oro, en Londres |
+
+Entre la rotura y el trofeo de anoche pasaron 1.574 días. Entre el segundo Balón de Oro y el tercero, cuatro años y nueve días. Cuando volvió al campo, en abril de 2023, habían pasado 299 días desde la lesión.
+
+## Lo que dijo y lo que no
+
+El discurso tuvo una parte de equipo. Dijo que cualquiera de las nominadas del Barça habría merecido el premio tanto como ella y que había sido un orgullo ser su capitana, y repasó la Liga de Naciones ganada con España. La parte en catalán fue para los catorce años en el club, la directiva y los trabajadores. Lo de la pierna lo dejó para el final, después de todo lo demás.
+
+Es la primera vez que lo gana siendo jugadora de otro club. Lo recogió como capitana del London City, el equipo de la Women's Super League que la fichó en julio, aunque el premio mide la temporada 2025-26, la última en el Barça. Con este son tres, [el récord que comparte](https://www.nytimes.com/athletic/7710529/2026/10/26/alexia-putellas-ballon-dor-london-city/) con [Aitana Bonmatí, que este año ni siquiera entró en la lista](/noticias/aitana-bonmati-tres-balones-de-oro-fuera-nominadas-2026-fractura). Ewa Pajor fue segunda y [Patri Guijarro, quinta](/noticias/patri-guijarro-collerense-club-de-barrio-palma-tres-nominadas-balon-de-oro-mariona-cata-coll), [según la clasificación final](https://en.wikipedia.org/wiki/2026_Ballon_d%27Or).
+
+## La noche, completa
+
+El resto de premios, con Harry Kane como ganador masculino y siete trofeos para el fútbol español, está en [la crónica de la gala](/noticias/harry-kane-balon-de-oro-2026-londres-siete-premios-espanoles-unai-simon-yashin-putellas-lamine-kopa). La [Liga F](/futbol/liga-f) que dejó Alexia y la [Champions femenina](/futbol/champions-femenina) siguen en sus secciones.`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'Balón de Oro', sport: 'futbol', slug: 'liga-f' },
+    sourceName: 'Cadena SER (El Larguero): el discurso de Alexia Putellas',
+    sourceUrl: 'https://www.youtube.com/watch?v=N_AdSLNFASI&t=608s',
+    sourceLang: 'es',
+    publishedAt: '2026-10-27T08:10:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Wikipedia: Alexia Putellas (lesión, regreso y fichaje)', url: 'https://en.wikipedia.org/wiki/Alexia_Putellas' },
+      { name: 'The Athletic: Putellas iguala el récord de tres Balones de Oro', url: 'https://www.nytimes.com/athletic/7710529/2026/10/26/alexia-putellas-ballon-dor-london-city/' },
+      { name: 'Cadena SER: El Larguero a la 01.00', url: 'https://www.youtube.com/watch?v=hWEwwUzhsmA' },
+      { name: 'Wikipedia: 2026 Ballon d\'Or', url: 'https://en.wikipedia.org/wiki/2026_Ballon_d%27Or' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/UWCL_2025-26_Final_B11.jpg/1280px-UWCL_2025-26_Final_B11.jpg',
+      alt: 'Alexia Putellas, de espaldas con la camiseta azulgrana y el dorsal 11, aplaude mientras camina por el césped en la final de la Champions femenina de 2026',
+      credit: 'MichaelEmilio · Wikimedia Commons',
+      license: 'CC BY 4.0',
+    },
+  },
+  {
+    slug: 'aday-mara-primer-doble-doble-nba-thunder-suns-jalen-williams-wallace-quirofano-hugo-gonzalez',
+    title: 'Aday Mara responde en el peor momento de los Thunder, con dos titulares camino del quirófano',
+    summary: 'Con Jalen Williams y Cason Wallace operados, Holmgren de baja y Caruso lesionado, Aday Mara firmó 11 puntos y 10 rebotes ante los Suns: su primer doble-doble en la NBA.',
+    body: `Los Oklahoma City Thunder perdieron en 24 horas a dos titulares para meses, a un tercero por tendinitis y a un cuarto en mitad del partido. Y en esa enfermería, Aday Mara jugó su mejor noche en la NBA: 11 puntos y 10 rebotes en 20 minutos, su primer doble-doble, en el 125-114 a los Phoenix Suns de la madrugada del martes, [según el acta del partido](https://www.espn.com/nba/boxscore/_/gameId/401909873).
+
+El domingo, ante los Clippers, Jalen Williams se fracturó el peroné y se dislocó el tobillo izquierdo, y Cason Wallace se rompió el labrum del hombro izquierdo. Los dos pasarán por el quirófano, [anunció el lunes el director general Sam Presti](https://www.espn.com/nba/story/_/id/50290179/thunder-jalen-williams-cason-wallace-undergo-surgery), que no dio plazos. Chet Holmgren no jugó por una tendinitis rotuliana y Alex Caruso se retiró al final del segundo cuarto con un esguince de tobillo, [contó la crónica de AP](https://www.espn.com/nba/recap?gameId=401909873).
+
+## Los números de Mara
+
+| | Ante Phoenix | Sus tres partidos anteriores |
+| --- | --- | --- |
+| Minutos | 20 | 12, 13 y 14 |
+| Puntos | 11 | 7, 2 y 2 |
+| Rebotes | 10 | 2, 3 y 3 |
+| Tiros de campo | 4 de 6 | 5 de 10 en total |
+| Tapones | 2 | 1 por partido |
+
+No todo fue limpio: cometió cinco faltas y perdió cuatro balones. Pero con él en pista, el equipo sumó 13 puntos más que el rival. Ajay Mitchell, titular en lugar de Williams, hizo 30, su récord, y Shai Gilgeous-Alexander, 26. Los Thunder, campeones en 2025, siguen invictos con 4-0.
+
+## Quién es
+
+Mara tiene 21 años, mide 2,21 y es de Zaragoza. Su padre, Francisco Javier Mara, jugó en el CB Zaragoza entre 1986 y 1988, y su madre, Geli Gómez, fue internacional con la selección española de voleibol, [según su biografía](https://en.wikipedia.org/wiki/Aday_Mara). Debutó en la ACB con el Casademont Zaragoza en 2022, se fue a UCLA en 2023 y en abril de 2026 ganó el título universitario con Michigan, donde fue el mejor defensor de la Big Ten. Los Thunder lo eligieron con el número 12 del draft de junio.
+
+## Los otros españoles de la noche
+
+Hugo González también tuvo minutos de peso en el 134-99 de los Celtics a los Bulls: 13 puntos con 4 de 6 en tiros, cinco rebotes y +34 en 24 minutos. Sergio de Larrea jugó seis minutos sin anotar en la victoria de los Mavericks en Miami (109-113).
+
+El próximo partido junta a Mara con los españoles de Dallas: Mavericks-Thunder, la madrugada del jueves 29 a las 2:30, hora peninsular, según el [calendario de la NBA con hora española](/baloncesto/nba/calendario). El [plan de la semana de los españoles](/noticias/nba-semana-27-octubre-aldama-vuelta-rodilla-aday-mara-thunder-hugo-gonzalez-celtics-horarios) y [dónde se ve la NBA en España](/noticias/nba-2026-27-donde-ver-espana-dazn-prime-video-estreno-hugo-gonzalez-aldama) están en sus piezas, y la plantilla de Oklahoma, en [la ficha de los Thunder](/baloncesto/nba/equipo/25).`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'NBA', sport: 'baloncesto', slug: 'nba' },
+    sourceName: 'ESPN: acta del Thunder-Suns',
+    sourceUrl: 'https://www.espn.com/nba/boxscore/_/gameId/401909873',
+    sourceLang: 'en',
+    publishedAt: '2026-10-27T08:12:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'ESPN: Jalen Williams y Cason Wallace, a quirófano', url: 'https://www.espn.com/nba/story/_/id/50290179/thunder-jalen-williams-cason-wallace-undergo-surgery' },
+      { name: 'AP vía ESPN: crónica del Thunder-Suns', url: 'https://www.espn.com/nba/recap?gameId=401909873' },
+      { name: 'ESPN: Caruso, otro lesionado', url: 'https://www.espn.com/nba/story/_/id/50293075/suddenly-thin-thunder-lose-alex-caruso-ankle-sprain' },
+      { name: 'Wikipedia: Aday Mara', url: 'https://en.wikipedia.org/wiki/Aday_Mara' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/20260211_Aday_Mara_and_Arrinten_Page.jpg/1280px-20260211_Aday_Mara_and_Arrinten_Page.jpg',
+      alt: 'Aday Mara, con la camiseta azul marino número 15 de Michigan, sujeta el balón con las dos manos mientras Arrinten Page, de Northwestern, le defiende con el brazo en alto',
+      credit: 'TonyTheTiger · Wikimedia Commons',
+      license: 'CC0',
+    },
+  },
+  {
+    slug: 'rafael-jodar-basilea-alcaraz-viena-landaluce-zverev-martes-27-octubre-horario-donde-ver',
+    title: 'Rafael Jódar defiende su plaza de Turín en Basilea el día del estreno de Alcaraz en Viena',
+    summary: 'Martes con tres españoles en los ATP 500 de Basilea y Viena: Jódar ante Tabilo, Alcaraz ante Khachanov y Landaluce, invitado, ante Zverev. Horarios y qué emite Movistar Plus+.',
+    body: `Tres españoles juegan este martes en los dos ATP 500 de la semana. Rafael Jódar abre su torneo en Basilea a las 14:00 ante Alejandro Tabilo, con su plaza para las ATP Finals en juego. Carlos Alcaraz debuta en Viena hacia las 15:00 contra Karen Khachanov, y Martín Landaluce, que entró con invitación, se mide a Alexander Zverev a partir de las 17:30.
+
+*Esta pieza incluye enlaces de afiliado. Si contratas desde ellos, Mundiales recibe una comisión sin coste extra para ti.*
+
+## Horarios del martes
+
+| Partido | Torneo y pista | Península | Canarias | TV |
+| --- | --- | --- | --- | --- |
+| Rafael Jódar - Alejandro Tabilo | Basilea, Center Court | 14:00 | 13:00 | Movistar Plus+ |
+| Carlos Alcaraz - Karen Khachanov | Viena, Centre Court (tras Paul-Rublev, 13:30) | 15:00 aprox. | 14:00 aprox. | Movistar Plus+ |
+| Martín Landaluce - Alexander Zverev | Viena, Centre Court | no antes de 17:30 | no antes de 16:30 | Sin confirmar |
+
+Los horarios salen del [orden de juego del torneo de Viena](https://www.atptour.com/en/scores/current/vienna/337/daily-schedule) y del [calendario del circuito ATP](/tenis/atp). Movistar Plus+ anuncia en su parrilla de tenis [el partido de Jódar a las 14:05](https://www.movistarplus.es/deportes/tenis/torneo-de-basilea-2026/tabilo-jodar/ficha?tipo=E&id=4151569) y [el de Alcaraz a las 15:00](https://www.movistarplus.es/deportes/tenis/torneo-de-viena-2026/khachanov-alcaraz/ficha?tipo=E&id=4151786); el de Landaluce no figura en ella. El plan Libre de [Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ftenis%2Fdonde-ver) da el partido más destacado de cada día de los ATP 500. El de Alcaraz depende de cómo acabe el Paul-Rublev: puede empezar antes o después.
+
+## Por qué mira Jódar a Turín
+
+Jódar es noveno en la carrera a las ATP Finals con 3.159 puntos, [según la clasificación en vivo de la ATP](https://www.atptour.com/en/rankings/singles-race-to-turin). Ese puesto da plaza por la baja de Jannik Sinner, como [contamos tras su final de Shanghái](/noticias/rafael-jodar-ultima-plaza-turin-atp-finals-quien-puede-quitarsela-basilea-viena-paris). Detrás le siguen Alex de Miñaur, con 2.930, y Novak Djokovic, con 2.840. Un ATP 500 da 500 puntos al campeón, así que la distancia de 229 puntos con De Miñaur puede cambiar esta semana. En Basilea, Jódar es el tercer cabeza de serie.
+
+## Landaluce, contra el primero de la carrera
+
+Zverev llega a Viena como primer cabeza de serie y líder de la carrera a Turín, con 9.150 puntos. Landaluce, de 20 años, es el 62.º de esa misma tabla, con 816. Alcaraz es tercero en la carrera y ya tiene su plaza en las Finals.
+
+Después de esta semana llega el Masters 1000 de París, del 31 de octubre al 8 de noviembre. Qué se emite y dónde, torneo a torneo, está en [la guía del tenis en España](/noticias/donde-ver-tenis-espana-atp-finals-copa-davis-alcaraz-movistar-hbo-max), y el resto de deportes, en [qué plataforma emite cada competición y cuánto cuesta](/noticias/donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1).`,
+    category: 'tv',
+    kind: 'noticia',
+    competition: { name: 'ATP 500', sport: 'tenis', slug: 'atp' },
+    sourceName: 'ATP Tour: orden de juego de Viena',
+    sourceUrl: 'https://www.atptour.com/en/scores/current/vienna/337/daily-schedule',
+    sourceLang: 'en',
+    publishedAt: '2026-10-27T08:14:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Movistar Plus+: Tabilo - Jódar', url: 'https://www.movistarplus.es/deportes/tenis/torneo-de-basilea-2026/tabilo-jodar/ficha?tipo=E&id=4151569' },
+      { name: 'Movistar Plus+: Khachanov - Alcaraz', url: 'https://www.movistarplus.es/deportes/tenis/torneo-de-viena-2026/khachanov-alcaraz/ficha?tipo=E&id=4151786' },
+      { name: 'ATP: carrera a Turín en vivo', url: 'https://www.atptour.com/en/rankings/singles-race-to-turin' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Wiener_Stadthalle_bei_Nacht_-_panoramio.jpg/1280px-Wiener_Stadthalle_bei_Nacht_-_panoramio.jpg',
+      alt: 'Fachada de la Wiener Stadthalle de noche, con la galería superior iluminada en tonos de colores y árboles a ambos lados de la entrada',
+      credit: 'spaceman117 · Wikimedia Commons',
+      license: 'CC BY 3.0',
+    },
+  },
+  {
     slug: 'nfl-semana-2026-44',
     title: "NFL: resultados de la semana y cómo quedan la AFC y la NFC",
     summary: "Resultados de los 13 partidos de la semana en la NFL, el más ajustado y los mejores balances de la AFC y la NFC.",
