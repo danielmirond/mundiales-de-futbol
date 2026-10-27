@@ -154,6 +154,281 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'copa-del-rey-martes-27-octubre-villarreal-manacor-rayo-huelva-espanyol-sestao-horarios-donde-ver',
+    title: 'Villarreal, Rayo y Espanyol abren la Copa en campos de pueblo: horarios y dónde ver el martes',
+    summary: 'La primera ronda de la Copa del Rey arranca este martes con 18 partidos. Villarreal en Manacor, Rayo en Huelva, Espanyol en Sestao y Málaga en Alcázar: horarios en la península y en Canarias, y canal.',
+    body: `La Copa del Rey 2026-27 arranca este martes 27 de octubre con 18 de las 56 eliminatorias de la primera ronda, [según el calendario de ESPN](https://www.espn.com/soccer/scoreboard/_/league/esp.copa_del_rey/date/20261027). Los cuatro equipos de la Supercopa (Barcelona, Real Madrid, Atlético y Real Sociedad) [no entran hasta la siguiente ronda](https://www.mallorca.com/en/magazin/news/copa-del-rey-manacor-villarreal), y el sorteo emparejó por cercanía geográfica a los equipos de categorías inferiores con los de arriba.
+
+Cinco equipos de [LaLiga](/futbol/laliga) juegan hoy, todos fuera de casa: el Villarreal en Manacor, el Rayo en Huelva, el Espanyol en Sestao, el Elche en San Pedro del Pinatar y el Málaga en Alcázar de San Juan. A partido único, con prórroga y penaltis si hace falta. Los cruces y, cuando acaben, los resultados están en [la sección de la Copa](/futbol/copa-del-rey).
+
+## Horarios del martes (península y Canarias)
+
+| Península | Canarias | Partido | Campo |
+| --- | --- | --- | --- |
+| 18:30 | 17:30 | [Cuarte - Girona](/futbol/copa-del-rey/partido/401928493) | Juan Guerrero El Lobo, Cuarte de Huerva |
+| 19:00 | 18:00 | [Atlético Pinatarense - Elche](/futbol/copa-del-rey/partido/401928501) | José Antonio Pérez, San Pedro del Pinatar |
+| 19:00 | 18:00 | [Sestao - Espanyol](/futbol/copa-del-rey/partido/401928495) | Las Llanas, Sestao |
+| 19:00 | 18:00 | [Calamocha - Europa](/futbol/copa-del-rey/partido/401928520) | Jumaya, Calamocha |
+| 19:45 | 18:45 | [Castellonense - Almería](/futbol/copa-del-rey/partido/401928521) | Eliseo Pla Ramírez |
+| 20:00 | 19:00 | [Alcalá - Las Palmas](/futbol/copa-del-rey/partido/401928549) | Virgen del Val, Alcalá de Henares |
+| 20:00 | 19:00 | [Atlético Tordesillas - Mirandés](/futbol/copa-del-rey/partido/401928509) | Las Salinas, Tordesillas |
+| 20:00 | 19:00 | [Ciudad de Lucena - Rayo Majadahonda](/futbol/copa-del-rey/partido/401928534) | Nuevo Municipal, Lucena |
+| 20:00 | 19:00 | [Gimnástica Segoviana - Cultural Leonesa](/futbol/copa-del-rey/partido/401928508) | La Albuera, Segovia |
+| 20:00 | 19:00 | [Llanera - Ponferradina](/futbol/copa-del-rey/partido/401928510) | Hermanos Antuña |
+| 20:30 | 19:30 | [Don Benito - Extremadura](/futbol/copa-del-rey/partido/401928553) | Vicente Sanz, Don Benito |
+| 20:30 | 19:30 | [Manresa - Sant Andreu](/futbol/copa-del-rey/partido/401928502) | El Congost, Manresa |
+| 21:00 | 20:00 | [Arosa - Pontevedra](/futbol/copa-del-rey/partido/401928488) | A Lomba, Vilagarcía de Arousa |
+| 21:00 | 20:00 | [Atlético Paso - Córdoba](/futbol/copa-del-rey/partido/401928547) | Municipal de El Paso, La Palma |
+| 21:00 | 20:00 | [Tudelano - Real Zaragoza](/futbol/copa-del-rey/partido/401928503) | Ciudad de Tudela |
+| 21:00 | 20:00 | [Manacor - Villarreal](/futbol/copa-del-rey/partido/401928522) | Na Capellera, Manacor |
+| 21:00 | 20:00 | [Recreativo de Huelva - Rayo Vallecano](/futbol/copa-del-rey/partido/401928533) | Nuevo Colombino, Huelva |
+| 21:00 | 20:00 | [Sporting de Alcázar - Málaga](/futbol/copa-del-rey/partido/401928499) | Manuel Delgado Meco, Alcázar de San Juan |
+
+## Dónde verlos
+
+Las fichas de cada partido en esta web dan Movistar Plus+ como emisor de los 18 encuentros. Dos de ellos van además en abierto en Aragón TV y Aragón Play: el Cuarte - Girona de las 18:30 y el Tudelano - Real Zaragoza de las 21:00. Ningún partido del martes aparece en RTVE en las fichas; la televisión pública emite partidos en abierto en cada ronda, pero para el martes no consta ninguno. Si no sabes qué paquete necesitas, aquí está [qué plataforma emite cada competición y cuánto cuesta](/noticias/donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1).
+
+## Los campos pequeños
+
+El Villarreal, que esta temporada juega la Champions, visita Na Capellera, el campo del Manacor, un equipo de Tercera RFEF con [un aforo de 4.000 espectadores](https://es.wikipedia.org/wiki/Club_Deportivo_Manacor). El Córdoba viaja a La Palma para medirse al [Atlético Paso, que ya eliminó al Real Murcia](/noticias/atletico-paso-la-palma-copa-del-rey-cordoba-1600-kilometros-elimino-real-murcia-el-paso-volcan) y que juega al pie del volcán. El Málaga se presenta en el Manuel Delgado Meco de Alcázar de San Juan, donde [el Sporting de Alcázar, de Preferente, ha agrandado su campo](/noticias/sporting-de-alcazar-preferente-agranda-campo-recibe-malaga-copa-del-rey-delgado-meco) para la ocasión. El escenario más grande del día es el Nuevo Colombino de Huelva, donde el Recreativo recibe al Rayo.
+
+## Lo que queda de la ronda
+
+El miércoles juegan, entre otros, el Betis en Navalcarnero, el Mallorca en Alcoy, el Valencia en [Tavernes de la Valldigna](/noticias/ue-tavernes-local-mestalla-valencia-visitante-copa-del-rey-28-octubre) y el Celta en el [Helmántico de Salamanca](/noticias/salamanca-uds-celta-helmantico-copa-del-rey-revancha-0-7-muniain-palco-sensorial-vuelo-charter). El jueves cierran la ronda el Athletic en El Prat, el Sevilla en [Hortaleza](/noticias/sporting-hortaleza-sevilla-copa-del-rey-el-val-alcala-autobus-apedreado-guimar), el Getafe en Lebrija, el Osasuna en Calatayud y el Racing en [Ribadesella](/noticias/ribadesella-cf-oreyana-racing-copa-del-rey-grada-900-plazas-no-autorizada-entradas-movistar).`,
+    category: 'tv',
+    kind: 'noticia',
+    competition: { name: 'Copa del Rey', sport: 'futbol', slug: 'copa-del-rey' },
+    sourceName: 'ESPN: calendario de la Copa del Rey',
+    sourceUrl: 'https://www.espn.com/soccer/scoreboard/_/league/esp.copa_del_rey/date/20261027',
+    sourceLang: 'en',
+    publishedAt: '2026-10-27T01:09:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Mallorca.com: el sorteo de la primera ronda', url: 'https://www.mallorca.com/en/magazin/news/copa-del-rey-manacor-villarreal' },
+      { name: 'Wikipedia: Club Deportivo Manacor', url: 'https://es.wikipedia.org/wiki/Club_Deportivo_Manacor' },
+      { name: 'Ficha del Recreativo de Huelva - Rayo Vallecano', url: 'https://mundiales-de-futbol.com/futbol/copa-del-rey/partido/401928533' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Nuevo_Colombino_Huelva.jpg/1280px-Nuevo_Colombino_Huelva.jpg',
+      alt: 'Tribuna principal del estadio Nuevo Colombino de Huelva, con asientos azules y blancos, y jugadores calentando sobre el césped antes de un partido',
+      credit: 'Autor desconocido · Wikimedia Commons',
+      license: 'Dominio público',
+    },
+  },
+  {
+    slug: 'harry-kane-balon-de-oro-2026-londres-siete-premios-espanoles-unai-simon-yashin-putellas-lamine-kopa',
+    title: 'Harry Kane gana el Balón de Oro en Londres la noche en que siete premios hablaron español',
+    summary: 'Harry Kane es el primer inglés con el Balón de Oro desde Owen en 2001. Mbappé fue segundo y Lamine Yamal tercero. Putellas, Unai Simón, Vicky López, Cata Coll y De la Fuente también ganaron.',
+    body: `Harry Kane ganó el lunes el Balón de Oro 2026 en el London Palladium, la primera gala celebrada fuera de Francia en setenta ediciones. Kylian Mbappé fue segundo y Lamine Yamal, tercero, [según la clasificación publicada por France Football](https://en.wikipedia.org/wiki/2026_Ballon_d%27Or). Kane es el quinto inglés que lo gana, después de Stanley Matthews, Bobby Charlton, Kevin Keegan y Michael Owen, [el último en 2001](https://www.espn.com/soccer/story/_/id/50259091/2026-ballon-dor-live-updates-winners-results-reaction).
+
+El resto de la noche fue española. De los trofeos individuales, siete fueron para jugadores, jugadoras o entrenadores españoles: Alexia Putellas (Balón de Oro femenino), Lamine Yamal (Kopa), Vicky López (Kopa femenino), Unai Simón (Yashin), Cata Coll (Yashin femenino), Luis de la Fuente (entrenador del año) y Pere Romeu (entrenador del año en fútbol femenino). El Barcelona fue elegido club del año femenino.
+
+## Por qué Kane
+
+Kane, de 33 años, firmó con el Bayern el doblete de Liga y Copa en la temporada 2025-26, con un hat-trick en la final de la DFB-Pokal, y [pasó de los 70 goles entre club y selección](https://en.wikipedia.org/wiki/Harry_Kane) en el curso que votaba el jurado (del 3 de agosto de 2025 al 19 de julio de 2026). Con Inglaterra fue tercero en el [Mundial](/2026), el mejor puesto de su país desde 1966. También recogió su segundo trofeo Gerd Müller al máximo goleador. «Estar aquí en Londres lo ha hecho aún más especial», dijo en inglés al recoger el premio.
+
+## La clasificación masculina
+
+| Puesto | Jugador | Club 2025-26 |
+| --- | --- | --- |
+| 1 | Harry Kane | Bayern |
+| 2 | Kylian Mbappé | Real Madrid |
+| 3 | Lamine Yamal | Barcelona |
+| 4 | Rodri | Manchester City |
+| 5 | Lionel Messi | Inter Miami |
+| 6 | Khvicha Kvaratskhelia | PSG |
+| 7 | Ousmane Dembélé | PSG |
+| 8 | Erling Haaland | Manchester City |
+| 9 | Michael Olise | Bayern |
+| 10 | Fabián Ruiz | PSG |
+
+Seis españoles entre los treinta: Lamine, Rodri, Fabián, Pau Cubarsí (12.º), Ferran Torres (16.º) y Marc Cucurella (18.º). Lamine Yamal, segundo en 2025, bajó un puesto, pero se llevó [su tercer Kopa seguido](/noticias/lamine-yamal-tercer-trofeo-kopa-cubarsi-rival-vicky-lopez-serrajordi-londres) por delante de Cubarsí. Ni [Oyarzabal](/noticias/oyarzabal-cinco-goles-mundial-2026-fuera-balon-de-oro-villa-butragueno) ni [Ferran, autor del gol de la final](/noticias/ferran-torres-gol-final-mundial-balon-de-oro-iniesta-2010-messi), entraron en el top 10 pese al título del verano.
+
+## Los españoles premiados
+
+| Trofeo | Ganador | Qué supone |
+| --- | --- | --- |
+| Balón de Oro femenino | Alexia Putellas | Tercero (2021, 2022 y 2026), iguala a Aitana Bonmatí |
+| Kopa | Lamine Yamal | Tercero consecutivo |
+| Kopa femenino | Vicky López | Segundo consecutivo |
+| Yashin | Unai Simón | Primer portero español que lo gana |
+| Yashin femenino | Cata Coll | Primera española que lo gana |
+| Entrenador del año | Luis de la Fuente | Por el Mundial de 2026 |
+| Entrenador del año (femenino) | Pere Romeu | Por la temporada del Barça femenino |
+
+Unai Simón cierra la cuenta pendiente que [contábamos el viernes](/noticias/unai-simon-joan-garcia-raya-trofeo-yashin-2026-ningun-portero-espanol-lo-ha-ganado): en seis ediciones el Yashin nunca había sido para un español. Esta vez, además, David Raya fue segundo y Joan García, séptimo. De la Fuente se impuso a Arteta, Emery y Luis Enrique, también españoles, y al belga Kompany.
+
+## Putellas, otra vez
+
+Putellas ganó su tercer Balón de Oro cuatro años después del segundo, con Ewa Pajor segunda y [Patri Guijarro](/noticias/patri-guijarro-collerense-club-de-barrio-palma-tres-nominadas-balon-de-oro-mariona-cata-coll) quinta. Iguala los tres de [Aitana Bonmatí, que este año se quedó fuera de la lista](/noticias/aitana-bonmati-tres-balones-de-oro-fuera-nominadas-2026-fractura) por su fractura. Lo hizo tras una temporada en el Barça y [ya como jugadora del London City Lionesses](https://sports.yahoo.com/articles/ballon-dor-2026-live-updates-140001627.html), según recogió la cobertura en directo de la gala, que presentaron Kate Scott y Thierry Henry y que empezó con retraso por el tráfico de Londres.
+
+La organización tuvo que explicar un fallo propio: la web oficial publicó antes de tiempo artículos que daban ganador a Kane, y también perfiles preparados para Mbappé y Lamine. Los retiraron y dijeron que se habían preparado para cualquier resultado. El PSG fue club del año masculino y Bukayo Saka recibió el premio Sócrates.`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'Balón de Oro', sport: 'futbol', slug: 'laliga' },
+    sourceName: 'Wikipedia: 2026 Ballon d\'Or',
+    sourceUrl: 'https://en.wikipedia.org/wiki/2026_Ballon_d%27Or',
+    sourceLang: 'en',
+    publishedAt: '2026-10-27T01:10:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'ESPN: resumen de la gala', url: 'https://www.espn.com/soccer/story/_/id/50259091/2026-ballon-dor-live-updates-winners-results-reaction' },
+      { name: 'Yahoo Sports: la gala en directo y los premios', url: 'https://sports.yahoo.com/articles/ballon-dor-2026-live-updates-140001627.html' },
+      { name: 'Semana: clasificación completa', url: 'https://www.semana.com/deportes/articulo/lista-de-ganadores-y-posiciones-finales-del-balon-de-oro-2026-asi-quedo-cada-categoria/202636/' },
+      { name: 'Wikipedia: Harry Kane', url: 'https://en.wikipedia.org/wiki/Harry_Kane' },
+      { name: 'EITB: Unai Simón gana el Trofeo Yashin', url: 'https://kirolakeitb.eus/es/futbol/equipos/athletic-club/2026/10/26/unai-simon-gana-trofeo-yashin-distingue-mejor-portero-mundo-2026/' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Harry_Kane_England_v_Ghana_23_June_2026-130.jpg/1280px-Harry_Kane_England_v_Ghana_23_June_2026-130.jpg',
+      alt: 'Harry Kane, con la camiseta blanca de Inglaterra y el brazalete de capitán, conduce el balón junto a la banda durante el Inglaterra-Ghana del Mundial 2026',
+      credit: 'Bryan Berlin · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'juan-roig-millon-euros-record-mundo-maraton-valencia-6-diciembre-ultimo-aviso-carrera-dos-dias',
+    title: 'Juan Roig pone fecha de caducidad al millón de euros del récord del Maratón de Valencia',
+    summary: 'Roig avisó tras el Medio Maratón de que, si nadie bate el récord del mundo el 6 de diciembre, retira el millón de euros para 2027. El listón es el 1:59:30 de Sawe. Y descarta correr en dos días.',
+    body: `Juan Roig lleva años poniendo un millón de euros sobre la mesa para quien bata el récord del mundo en el Maratón de Valencia. El domingo, tras el Medio Maratón, le puso plazo. «Esperamos el récord del mundo de maratón este año. Yo le aprieto todos los años. Ya le he dicho que, si este año no se consigue, retiro la esponsorización del millón de euros para el siguiente», [dijo entre bromas](https://www.esdiario.com/comunidad-valenciana/261025/201208/juan-roig-mercadona-record-maraton-valencia.html) el presidente de Mercadona y de la Fundación Trinidad Alfonso.
+
+Lo dijo con dos récords de España recién hechos en su carrera: Rodrigue Kwizera corrió el medio maratón en 58:03 y Laura Luengo en 1:08:28, las dos mejores marcas españolas de la historia, [como anticipábamos el viernes](/noticias/rodrigue-kwizera-medio-maraton-valencia-2026-record-espana-europa-transfer-horario-tv). La de Kwizera, por debajo del récord de Europa, no se homologará como tal por su situación de licencia ante World Athletics.
+
+## Lo que hay que correr el 6 de diciembre
+
+| Marca | Atleta | Dónde y cuándo |
+| --- | --- | --- |
+| Récord del mundo | Sabastian Sawe, 1:59:30 | Londres, 26 de abril de 2026 |
+| Anterior récord | Kelvin Kiptum, 2:00:35 | Chicago, 8 de octubre de 2023 |
+| Mejor marca en Valencia | Sisay Lemma, 2:01:48 | Valencia, 2023 |
+| Ganador de 2025 | John Korir, 2:02:24 | Valencia, 7 de diciembre de 2025 |
+| Récord del mundo femenino | Ruth Chepngetich, 2:09:56 | Chicago, 13 de octubre de 2024 |
+| Mejor marca femenina en Valencia | Amane Beriso, 2:14:57 | Valencia, 2022 |
+
+El salto es grande. Desde abril, [el récord masculino está por debajo de las dos horas](https://en.wikipedia.org/wiki/Marathon_world_record_progression) por primera vez en una carrera homologada, y la mejor marca de la historia de Valencia queda a 2 minutos y 18 segundos. El ganador del año pasado, Korir, se quedó a casi tres minutos. Para la media distancia hay otro premio: [80.000 euros para el ganador y la ganadora que bajen de 2:04](https://www.eldebate.com/espana/comunidad-valenciana/20261025/juan-roig-suena-record-mundo-maraton-valencia-no-logramos-este-ano-retiro-millon-euros_473576.html), que se convierten en el millón si hay récord del mundo, también en categoría femenina si alguien mejora el 2:09:56 de Chepngetich, en una carrera cuyo récord femenino [persiguió Peres Jepchirchir hasta su sanción](/noticias/peres-jepchirchir-suspendida-epo-record-valencia-campeona-mundo-maraton).
+
+## La carrera en dos días, descartada
+
+La otra pregunta del domingo fue si Valencia podría celebrar el maratón en dos jornadas seguidas para dar cabida a más corredores. Roig lo descartó: cerrar la ciudad dos días no es viable y ya se causan bastantes molestias a los vecinos, respondió, [según El Debate](https://www.eldebate.com/espana/comunidad-valenciana/20261025/juan-roig-cierro-valencia-dos-dias-me-matan_473632.html). La demanda existe: los 36.000 dorsales de 2026 se agotaron y [57.572 personas se apuntaron al sorteo](https://www.valenciaciudaddelrunning.com/mas-57500-personas-registran-sorteo-dorsal-maraton-valencia-2026/) para las 20.755 plazas que quedaban tras el periodo de fidelidad.
+
+## Lo que se juega Valencia
+
+Roig insistió en las cualidades del trazado, llano y con la meta en la Ciudad de las Artes, que es lo que atrae a los atletas de élite. El maratón lo organiza la S. D. Correcaminos, con Francisco Borao al frente, y lo impulsa la Fundación Trinidad Alfonso. La carrera figura entre las diez más rápidas del mundo por tiempos, y el 6 de diciembre se juega algo más que una plusmarca: si nadie baja de 1:59:30, el millón desaparece en 2027.`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'Atletismo', sport: 'atletismo', slug: 'atletismo' },
+    sourceName: 'ESdiario: la oferta de Juan Roig por el récord',
+    sourceUrl: 'https://www.esdiario.com/comunidad-valenciana/261025/201208/juan-roig-mercadona-record-maraton-valencia.html',
+    sourceLang: 'es',
+    publishedAt: '2026-10-27T01:11:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'El Debate: «Si no lo logramos este año, retiro el millón de euros»', url: 'https://www.eldebate.com/espana/comunidad-valenciana/20261025/juan-roig-suena-record-mundo-maraton-valencia-no-logramos-este-ano-retiro-millon-euros_473576.html' },
+      { name: 'El Debate: «Si cierro Valencia dos días, me matan»', url: 'https://www.eldebate.com/espana/comunidad-valenciana/20261025/juan-roig-cierro-valencia-dos-dias-me-matan_473632.html' },
+      { name: 'Wikipedia: progresión del récord del mundo de maratón', url: 'https://en.wikipedia.org/wiki/Marathon_world_record_progression' },
+      { name: 'Wikipedia: Maratón de Valencia', url: 'https://es.wikipedia.org/wiki/Marat%C3%B3n_de_Valencia' },
+      { name: 'Valencia Ciudad del Running: el sorteo de dorsales de 2026', url: 'https://www.valenciaciudaddelrunning.com/mas-57500-personas-registran-sorteo-dorsal-maraton-valencia-2026/' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Half_Marathon%2C_Valencia.jpg/1280px-Half_Marathon%2C_Valencia.jpg',
+      alt: 'Corredores del Mundial de medio maratón de 2018 pasan junto al estanque de la Ciudad de las Artes y las Ciencias de Valencia, con el Hemisfèric a la derecha',
+      credit: 'ChiralJon · Wikimedia Commons',
+      license: 'CC BY 2.0',
+    },
+  },
+  {
+    slug: 'del-potro-gana-voto-aficionados-salon-de-la-fama-tenis-2027-nadal-rio-2016-rodilla',
+    title: 'Del Potro gana el voto popular del Salón de la Fama del tenis y sigue a expensas del jurado',
+    summary: 'Juan Martín del Potro fue el más votado por aficionados de 128 países para la clase de 2027 del Salón de la Fama. Suma tres puntos extra, pero necesita el 75 % de un jurado que decide en noviembre.',
+    body: `Juan Martín del Potro ganó la votación popular del Salón Internacional de la Fama del Tenis para la clase de 2027, por delante de Ash Barty y Svetlana Kuznetsova, [según anunció la institución el 23 de octubre](https://www.tennisfame.com/del-potro-wins-2027-fan-vote). Votaron decenas de miles de aficionados de 128 países. En España la noticia ha pasado casi desapercibida, y eso que el argentino fue uno de los rivales que más veces cruzó el camino de Rafa Nadal en los grandes escenarios.
+
+Ganar el voto popular no le mete en el Salón. Le da tres puntos porcentuales extra (dos para Barty y uno para Kuznetsova) que se suman al resultado de un grupo de votación oficial de periodistas, historiadores y miembros del Salón. [Hace falta un 75 % de votos afirmativos](https://www.atptour.com/en/news/del-potro-hall-of-fame-nomination-october-2026) contando esa bonificación. La clase de 2027 se anuncia en noviembre.
+
+## Lo que avala a Del Potro
+
+| Dato | Detalle |
+| --- | --- |
+| Grand Slam | US Open 2009, ganando a Nadal en semifinales y a Federer en la final |
+| Juegos Olímpicos | Bronce en Londres 2012 y plata en Río 2016 |
+| Copa Davis | Campeón con Argentina en 2016, remontando dos sets a Cilic en la final |
+| Títulos | 22 en el circuito ATP |
+| Mejor ranking | Número 3 del mundo, en agosto de 2018 |
+
+Esa semifinal de Nueva York en 2009 fue la primera de sus seis victorias sobre Nadal, [que acabó dominando el duelo por 11-6](https://en.wikipedia.org/wiki/Juan_Mart%C3%ADn_del_Potro). La más recordada para el aficionado español es la de Río 2016: Del Potro ganó en el desempate del tercer set y dejó a Nadal sin la final olímpica. Nadal se vengó en las semifinales del US Open de 2017 y en los cuartos de Wimbledon de 2018, remontando dos sets a uno. En 2018, en Nueva York, el español se retiró lesionado cuando perdía por dos sets y Del Potro jugó su segunda final de Grand Slam.
+
+## La rodilla
+
+La carrera se la quebró la rodilla derecha: cuatro operaciones entre junio de 2019 y marzo de 2021, después de tres en la muñeca izquierda. Su último partido oficial fue en febrero de 2022, en Buenos Aires, ante Federico Delbonis. Se despidió el 1 de diciembre de 2024 con una exhibición contra Novak Djokovic ante 15.000 personas en la misma ciudad. Contra el Big Four su balance fue de 20 victorias y 51 derrotas, pero ganó cuatro de las seis finales que jugó contra Federer.
+
+## Quién está ya en Newport
+
+El Salón de la Fama tiene seis españoles: Manuel Alonso (1977), Manolo Santana (1984), Arantxa Sánchez Vicario (2007), Andrés Gimeno (2009), Manuel Orantes (2012) y Conchita Martínez (2020), [según la lista oficial de miembros](https://en.wikipedia.org/wiki/List_of_members_of_the_International_Tennis_Hall_of_Fame). Argentina tiene dos, Guillermo Vilas (1991) y Gabriela Sabatini (2006). La clase de 2026 fue de uno solo: Roger Federer. Si Del Potro entra, será el tercer argentino, con un único Grand Slam en la vitrina. Mientras tanto, el [circuito ATP](/tenis/atp) encara su último mes del año, y [aquí está dónde se ve el tenis en España](/noticias/donde-ver-tenis-espana-atp-finals-copa-davis-alcaraz-movistar-hbo-max).`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'ATP', sport: 'tenis', slug: 'atp' },
+    sourceName: 'International Tennis Hall of Fame',
+    sourceUrl: 'https://www.tennisfame.com/del-potro-wins-2027-fan-vote',
+    sourceLang: 'en',
+    publishedAt: '2026-10-27T01:12:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'ATP Tour: los nominados a la clase de 2027', url: 'https://www.atptour.com/en/news/del-potro-hall-of-fame-nomination-october-2026' },
+      { name: 'Wikipedia: Juan Martín del Potro', url: 'https://en.wikipedia.org/wiki/Juan_Mart%C3%ADn_del_Potro' },
+      { name: 'Wikipedia: miembros del Salón de la Fama del tenis', url: 'https://en.wikipedia.org/wiki/List_of_members_of_the_International_Tennis_Hall_of_Fame' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Juan_Martin_del_Potro_%288318275533%29.jpg/1280px-Juan_Martin_del_Potro_%288318275533%29.jpg',
+      alt: 'Juan Martín del Potro, con camiseta verde fluorescente, cinta negra en la cabeza y la raqueta en la mano, mira hacia arriba ante una grada llena en una exhibición nocturna en Tigre',
+      credit: 'Tigre Municipio · Wikimedia Commons',
+      license: 'CC BY 2.0',
+    },
+  },
+  {
+    slug: 'salamanca-uds-celta-helmantico-copa-del-rey-revancha-0-7-muniain-palco-sensorial-vuelo-charter',
+    title: 'Salamanca UDS vuelve a recibir al Celta en el Helmántico dos años después de encajar un 0-7',
+    summary: 'El Celta visita el miércoles (21:00) el Helmántico, donde goleó 0-7 al Salamanca UDS en diciembre de 2024. Iker Muniain dirige al equipo charro, que estrena palco sensorial y grada de animación.',
+    body: `El Helmántico vuelve a tener una noche de Copa el miércoles 28 a las 21:00 (20:00 en Canarias) y el invitado es el mismo de la última: el [Celta](/futbol/laliga/equipo/85). El 3 de diciembre de 2024, en la segunda ronda, [los vigueses ganaron allí 0-7](https://www.espn.com/football/match/_/gameId/723904). La Gaceta de Salamanca lo plantea como [una oportunidad de revancha](https://www.lagacetadesalamanca.es/deportes/futbol-local/salamancauds/salamanca-udscelta-vigo-horario-ver-directo-partido-20261026182137-nt.html) y recuerda que el partido va en Movistar Plus+, como confirma [la ficha del encuentro](/futbol/copa-del-rey/partido/401928487).
+
+El equipo charro juega en Segunda Federación, la cuarta categoría, y lo entrena Iker Muniain, el excapitán del Athletic. Llega tras perder en liga con el Talavera. «Contra el Celta no podemos jugar de tú a tú, hay que guardar bazas y hacerles daño», dijo el capitán, Carlos Cristeto, [en el pódcast La Grada](https://www.lagacetadesalamanca.es/deportes/futbol-local/salamancauds/celta-podemos-jugar-guardar-bazas-hacerles-dano-20261026185230-nt.html). El Celta, que [acaba de ganar en Glasgow](/noticias/cronica-celtic-celta-vigo-401915555) en la Europa League, juega el sábado a las 16:15 en Vallecas y hará el viaje en el día: vuelo chárter con aterrizaje en Matacán a las 13:20, hotel hasta las 19:00 y vuelta a Vigo nada más terminar.
+
+## Un estadio de Primera para un club de 2013
+
+| Dato | Detalle |
+| --- | --- |
+| Inauguración | 8 de abril de 1970 |
+| Aforo | 17.341 espectadores |
+| Propietario | Desarrollos Empresariales Deportivos, S. L., desde 2016 |
+| Inquilino | Salamanca CF UDS, fundado el 12 de agosto de 2013 |
+| Selección española | Chipre (1978), Suecia (1988), China (2005) y Lituania (2010) |
+
+El Helmántico fue [la casa de la Unión Deportiva Salamanca](https://es.wikipedia.org/wiki/Estadio_Helm%C3%A1ntico), que jugó doce temporadas en Primera y llegó a semifinales de Copa en 1977. El club desapareció por resolución judicial el 18 de junio de 2013, ahogado por la deuda, y el estadio acabó en subasta. Lo compró en 2016 una sociedad dirigida por capital mexicano, la misma que hoy controla el Salamanca UDS, [el club nacido ese mismo verano](https://es.wikipedia.org/wiki/Salamanca_Club_de_F%C3%BAtbol_UDS) con los derechos federativos de la fundación de la UDS. La Federación lo trató como equipo de nueva creación y lo mandó a la última categoría. Trece años después, su mejor resultado en Copa sigue siendo aquella segunda ronda de 2024-25.
+
+## Lo nuevo para el miércoles
+
+Las peñas del Fondo Sur han preparado [una grada de animación más grande y a pie de campo](https://www.lagacetadesalamanca.es/deportes/futbol-local/salamancauds/novedades-fondo-sur-helmantico-recibir-celta-vigo-20261026140149-nt.html), con un tifo para el recibimiento. El club estrena además un palco sensorial para personas con autismo, con juguetes sensoriales y protectores auditivos, pionero según el mismo diario. Un estadio que acogió a la selección en cuatro ocasiones y que hoy ve fútbol de cuarta categoría espera llenarse para ver a un equipo de Primera. La ronda la completan el jueves [el Racing en Ribadesella](/noticias/ribadesella-cf-oreyana-racing-copa-del-rey-grada-900-plazas-no-autorizada-entradas-movistar) y el resto de cruces de [la Copa del Rey](/futbol/copa-del-rey).`,
+    category: 'curiosa',
+    kind: 'noticia',
+    competition: { name: 'Copa del Rey', sport: 'futbol', slug: 'copa-del-rey' },
+    sourceName: 'La Gaceta de Salamanca',
+    sourceUrl: 'https://www.lagacetadesalamanca.es/deportes/futbol-local/salamancauds/salamanca-udscelta-vigo-horario-ver-directo-partido-20261026182137-nt.html',
+    sourceLang: 'es',
+    publishedAt: '2026-10-27T01:13:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'La Gaceta: Cristeto en el pódcast La Grada', url: 'https://www.lagacetadesalamanca.es/deportes/futbol-local/salamancauds/celta-podemos-jugar-guardar-bazas-hacerles-dano-20261026185230-nt.html' },
+      { name: 'La Gaceta: visita exprés del Celta', url: 'https://www.lagacetadesalamanca.es/deportes/futbol-local/salamancauds/visita-expres-celta-vigo-salamanca-viaje-ida-20261026200216-nt.html' },
+      { name: 'La Gaceta: el palco sensorial', url: 'https://www.lagacetadesalamanca.es/deportes/futbol-local/salamancauds/helmantico-estrenara-celta-palco-sensorial-pionero-personas-20261026220551-nt.html' },
+      { name: 'Wikipedia: Estadio Helmántico', url: 'https://es.wikipedia.org/wiki/Estadio_Helm%C3%A1ntico' },
+      { name: 'Wikipedia: Salamanca CF UDS', url: 'https://es.wikipedia.org/wiki/Salamanca_Club_de_F%C3%BAtbol_UDS' },
+      { name: 'Wikipedia: Unión Deportiva Salamanca', url: 'https://es.wikipedia.org/wiki/Uni%C3%B3n_Deportiva_Salamanca' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Estadio_Helmantico_-_Spain_vs_China_2005.jpg/1280px-Estadio_Helmantico_-_Spain_vs_China_2005.jpg',
+      alt: 'El estadio Helmántico de Salamanca de noche y con las gradas llenas durante el España-China de 2005, visto desde detrás de una portería',
+      credit: 'Autor desconocido · Wikimedia Commons',
+      license: 'Dominio público',
+    },
+  },
+  {
     slug: 'gavi-los-palacios-y-villafranca-pueblo-sevillano-campeon-en-cada-titulo-espana-navas-fabian',
     title: 'Gavi no olvida Los Palacios, el pueblo con un campeón en cada título de España desde 2010',
     summary: 'Gavi dice que Los Palacios y Villafranca «siempre es mi hogar». El pueblo sevillano de 38.761 vecinos ha tenido a Navas, a Fabián o al propio Gavi en los cinco títulos de la selección desde 2010.',
