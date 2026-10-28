@@ -154,6 +154,109 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'partidos-futbol-hoy-2026-10-28',
+    title: "Partidos de fútbol hoy, miércoles 28 de octubre: horarios y dónde ver DFB-Pokal, Serie A y Champions fem.",
+    summary: "Agenda de fútbol de hoy miércoles 28 de octubre: 50 partidos con horario en hora española y canal de televisión. Destaca Santos - Palmeiras.",
+    body: `Jornada de fútbol con 50 citas este miércoles 28 de octubre. Horarios en hora peninsular y dónde verlas, competición por competición. El partido que más miradas reúne es el **[Santos - Palmeiras](/futbol/brasileirao/partido/401841293)** (Brasileirão, 23:30 h).
+
+## 🇩🇪 Copa de Alemania
+
+- **[D Dresden - Schalke](/futbol/dfb-pokal/partido/401916921)** — 18:00 h
+- **[Freiburg - Wolfsburg](/futbol/dfb-pokal/partido/401917036)** — 18:00 h
+- **[Paderborn - Stuttgart](/futbol/dfb-pokal/partido/401917032)** — 18:00 h
+- **[Jeddeloh - Hertha](/futbol/dfb-pokal/partido/401916919)** — 18:00 h
+- **[Leverkusen - 1. FC Nürnberg](/futbol/dfb-pokal/partido/401917033)** — 20:45 h
+- **[Bayern - Magdeburg](/futbol/dfb-pokal/partido/401917035)** — 20:45 h
+- **[Hannover - Kaiserslautern](/futbol/dfb-pokal/partido/401916922)** — 20:45 h
+- **[Holstein Kiel - Hoffenheim](/futbol/dfb-pokal/partido/401917034)** — 20:45 h
+
+Calendario y clasificación en la [página de DFB-Pokal](/futbol/dfb-pokal).
+
+## 🇮🇹 Serie A
+
+- **[Milan - Bologna](/futbol/serie-a/partido/401874993)** — 18:30 h · 📺 DAZN
+- **[Parma - Udinese](/futbol/serie-a/partido/401874965)** — 18:30 h · 📺 DAZN
+- **[Venezia - Inter Milan](/futbol/serie-a/partido/401874773)** — 18:30 h · 📺 DAZN / Movistar Plus+
+- **[Genoa - Juventus](/futbol/serie-a/partido/401874988)** — 20:45 h · 📺 DAZN
+- **[Monza - Napoli](/futbol/serie-a/partido/401874799)** — 20:45 h · 📺 DAZN
+
+Calendario y clasificación en la [página de Serie A](/futbol/serie-a).
+
+## Champions League femenina
+
+- **[Bayern - Real Madrid](/futbol/champions-femenina/partido/401916999)** — 18:45 h
+- **[Chelsea  - Roma](/futbol/champions-femenina/partido/401917000)** — 18:45 h
+- **[Servette - OH Leuven](/futbol/champions-femenina/partido/401916998)** — 18:45 h
+- **[Arsenal - Benfica](/futbol/champions-femenina/partido/401916997)** — 21:00 h
+- **[Lyonnes - Inter Milan](/futbol/champions-femenina/partido/401916996)** — 21:00 h
+
+Calendario y clasificación en la [página de Champions fem.](/futbol/champions-femenina).
+
+## 🇪🇸 Copa del Rey
+
+- **[Anaitasuna - Alavés](/futbol/copa-del-rey/partido/401928514)** — 19:00 h · 📺 M+ LALIGA 3
+- **[CD Pamplona - Eibar](/futbol/copa-del-rey/partido/401928516)** — 19:00 h
+- **[CD Tarancon - Levante](/futbol/copa-del-rey/partido/401928527)** — 19:00 h · 📺 M+ LALIGA 4
+- **[Coruxo - Zamora CF](/futbol/copa-del-rey/partido/401928494)** — 19:00 h
+- **[Peña Sport - Huesca](/futbol/copa-del-rey/partido/401928515)** — 19:00 h · 📺 Aragón Play / Aragón TV
+- **[Poblense - Ceuta](/futbol/copa-del-rey/partido/401928525)** — 19:00 h
+- **[Portugalete - Real Unión](/futbol/copa-del-rey/partido/401928518)** — 19:00 h
+- **[Utebo - CD Sabadell](/futbol/copa-del-rey/partido/401928497)** — 19:00 h · 📺 Aragón Play
+- **[Alcoyano - Mallorca](/futbol/copa-del-rey/partido/401928505)** — 20:00 h · 📺 À Punt (C. Valenciana) / IB3 (Baleares)
+- **[Amorebieta - UD Logroñés](/futbol/copa-del-rey/partido/401928519)** — 20:00 h
+- **[Badajoz - Tenerife](/futbol/copa-del-rey/partido/401928532)** — 20:00 h · 📺 TV Canaria
+- **[Calvo Sotelo - Albacete](/futbol/copa-del-rey/partido/401928506)** — 20:00 h
+- **[Covadonga - Valladolid](/futbol/copa-del-rey/partido/401928511)** — 20:00 h
+- **[ML Lagunas - Real Jaen CF](/futbol/copa-del-rey/partido/401928528)** — 20:00 h
+- **[Numancia - Real Oviedo](/futbol/copa-del-rey/partido/401928490)** — 20:00 h
+- **[Trival Valde - Leganés](/futbol/copa-del-rey/partido/401928550)** — 20:00 h
+- **[Minera - FC Cartagena](/futbol/copa-del-rey/partido/401928524)** — 20:30 h
+- **[Cieza - Granada](/futbol/copa-del-rey/partido/401928530)** — 20:30 h
+- **[Gim. Torrelavega - UD Ourense](/futbol/copa-del-rey/partido/401928517)** — 20:30 h
+- **[Reus FCR - Barakaldo](/futbol/copa-del-rey/partido/401928500)** — 20:30 h
+- **[Navalcarnero - Betis](/futbol/copa-del-rey/partido/401928551)** — 21:00 h · 📺 Movistar Plus+ / M+ Liga de Campeones
+- **[Salamanca UDS - Celta Vigo](/futbol/copa-del-rey/partido/401928487)** — 21:00 h · 📺 M+ LALIGA
+- **[Valldigna - Valencia](/futbol/copa-del-rey/partido/401928504)** — 21:00 h
+- **[Xerez - Cádiz](/futbol/copa-del-rey/partido/401928548)** — 21:00 h
+
+Calendario y clasificación en la [página de Copa del Rey](/futbol/copa-del-rey).
+
+## 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Carabao Cup
+
+- **[Man City - Brighton](/futbol/carabao-cup/partido/401921834)** — 20:30 h
+- **[Bournemouth - Aston Villa](/futbol/carabao-cup/partido/401921840)** — 20:45 h
+- **[Fulham - C Palace](/futbol/carabao-cup/partido/401921841)** — 20:45 h
+- **[Sunderland - Brentford](/futbol/carabao-cup/partido/401921843)** — 20:45 h
+- **[Liverpool - Chelsea](/futbol/carabao-cup/partido/401921842)** — 21:00 h
+
+Calendario y clasificación en la [página de Carabao Cup](/futbol/carabao-cup).
+
+## 🇧🇷 Brasileirão
+
+- **[Fluminense - Internacional](/futbol/brasileirao/partido/401841289)** — 23:30 h
+- **[Bragantino - Chapecoense](/futbol/brasileirao/partido/401841291)** — 23:30 h
+- **[Santos - Palmeiras](/futbol/brasileirao/partido/401841293)** — 23:30 h · 📺 M+ Vamos / M+ Liga de Campeones
+
+Calendario y clasificación en la [página de Brasileirão](/futbol/brasileirao).
+
+Hora peninsular en todos los casos. Si un canal cambia a última hora, la ficha del partido lo recoge. Toda la jornada, con marcadores en directo, en [partidos de hoy](/partidos-hoy).`,
+    category: 'tv',
+    kind: 'agenda',
+    competition: {"name":"Brasileirão","sport":"futbol","slug":"brasileirao"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401841293",
+    sourceLang: 'en',
+    publishedAt: '2026-10-28T00:45:24.347Z',
+    modifiedAt: '2026-10-28T00:45:24.347Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Est%C3%A1dio_Nilton_Santos_2017.jpg/1920px-Est%C3%A1dio_Nilton_Santos_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Estádio Vila Belmiro (Urbano Caldeira), escenario del Santos - Palmeiras",
+      credit: "Phill ad · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
     slug: 'nba-resultados-2026-10-27',
     title: "NBA: todos los resultados de la jornada y el partido más igualado",
     summary: "Resultados de los 9 partidos de la noche en la NBA, con el más igualado y el de más puntos.",
