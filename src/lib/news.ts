@@ -154,6 +154,35 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'nba-resultados-2026-10-28',
+    title: "NBA: todos los resultados de la jornada y el partido más igualado",
+    summary: "Resultados de los 4 partidos de la noche en la NBA, con el más igualado y el de más puntos.",
+    body: `4 partidos en la NBA esta noche. El más igualado, Celtics 125-124 a Nets, decidido en la última posesión. El de más puntos, Trail Blazers ante Lakers (136-129).
+
+## Resultados
+
+- [Celtics 125-124 Nets](/baloncesto/nba/partido/401909877)
+- [Knicks 111-97 Pistons](/baloncesto/nba/partido/401909878)
+- [Spurs 130-103 Kings](/baloncesto/nba/partido/401909879)
+- [Trail Blazers 136-129 Lakers](/baloncesto/nba/partido/401909880)
+
+Marcadores en directo, calendario y clasificación por conferencias en la [página de la NBA](/baloncesto/nba).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"NBA","sport":"baloncesto","slug":"nba"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/nba/scoreboard",
+    sourceLang: 'en',
+    publishedAt: '2026-10-28T13:33:54.129Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/TD_Garden_2013.jpg/1920px-TD_Garden_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "TD Garden, sede del Celtics - Nets",
+      credit: "Kid Clutch from RAIN CITY USA · CC BY 2.0 · Wikimedia Commons",
+      license: "CC BY 2.0",
+    },
+  },
+  {
     slug: 'partidos-futbol-hoy-2026-10-28',
     title: "Partidos de fútbol hoy, miércoles 28 de octubre: horarios y dónde ver DFB-Pokal, Serie A y Champions fem.",
     summary: "Agenda de fútbol de hoy miércoles 28 de octubre: 50 partidos con horario en hora española y canal de televisión. Destaca Santos - Palmeiras.",
@@ -194,17 +223,17 @@ Calendario y clasificación en la [página de Champions fem.](/futbol/champions-
 
 ## 🇪🇸 Copa del Rey
 
-- **[Anaitasuna - Alavés](/futbol/copa-del-rey/partido/401928514)** — 19:00 h · 📺 M+ LALIGA 3
+- **[ANAITASUNA - Alavés](/futbol/copa-del-rey/partido/401928514)** — 19:00 h
 - **[CD Pamplona - Eibar](/futbol/copa-del-rey/partido/401928516)** — 19:00 h
-- **[CD Tarancon - Levante](/futbol/copa-del-rey/partido/401928527)** — 19:00 h · 📺 M+ LALIGA 4
+- **[CD Tarancon - Levante](/futbol/copa-del-rey/partido/401928527)** — 19:00 h
 - **[Coruxo - Zamora CF](/futbol/copa-del-rey/partido/401928494)** — 19:00 h
-- **[Peña Sport - Huesca](/futbol/copa-del-rey/partido/401928515)** — 19:00 h · 📺 Aragón Play / Aragón TV
+- **[Peña Sport - Huesca](/futbol/copa-del-rey/partido/401928515)** — 19:00 h
 - **[Poblense - Ceuta](/futbol/copa-del-rey/partido/401928525)** — 19:00 h
 - **[Portugalete - Real Unión](/futbol/copa-del-rey/partido/401928518)** — 19:00 h
-- **[Utebo - CD Sabadell](/futbol/copa-del-rey/partido/401928497)** — 19:00 h · 📺 Aragón Play
-- **[Alcoyano - Mallorca](/futbol/copa-del-rey/partido/401928505)** — 20:00 h · 📺 À Punt (C. Valenciana) / IB3 (Baleares)
+- **[Utebo - CD Sabadell](/futbol/copa-del-rey/partido/401928497)** — 19:00 h
+- **[Alcoyano - Mallorca](/futbol/copa-del-rey/partido/401928505)** — 20:00 h
 - **[Amorebieta - UD Logroñés](/futbol/copa-del-rey/partido/401928519)** — 20:00 h
-- **[Badajoz - Tenerife](/futbol/copa-del-rey/partido/401928532)** — 20:00 h · 📺 TV Canaria
+- **[Badajoz - Tenerife](/futbol/copa-del-rey/partido/401928532)** — 20:00 h
 - **[Calvo Sotelo - Albacete](/futbol/copa-del-rey/partido/401928506)** — 20:00 h
 - **[Covadonga - Valladolid](/futbol/copa-del-rey/partido/401928511)** — 20:00 h
 - **[ML Lagunas - Real Jaen CF](/futbol/copa-del-rey/partido/401928528)** — 20:00 h
@@ -214,8 +243,8 @@ Calendario y clasificación en la [página de Champions fem.](/futbol/champions-
 - **[Cieza - Granada](/futbol/copa-del-rey/partido/401928530)** — 20:30 h
 - **[Gim. Torrelavega - UD Ourense](/futbol/copa-del-rey/partido/401928517)** — 20:30 h
 - **[Reus FCR - Barakaldo](/futbol/copa-del-rey/partido/401928500)** — 20:30 h
-- **[Navalcarnero - Betis](/futbol/copa-del-rey/partido/401928551)** — 21:00 h · 📺 Movistar Plus+ / M+ Liga de Campeones
-- **[Salamanca UDS - Celta Vigo](/futbol/copa-del-rey/partido/401928487)** — 21:00 h · 📺 M+ LALIGA
+- **[Navalcarnero - Betis](/futbol/copa-del-rey/partido/401928551)** — 21:00 h
+- **[Salamanca UDS - Celta Vigo](/futbol/copa-del-rey/partido/401928487)** — 21:00 h
 - **[Valldigna - Valencia](/futbol/copa-del-rey/partido/401928504)** — 21:00 h
 - **[Xerez - Cádiz](/futbol/copa-del-rey/partido/401928548)** — 21:00 h
 
@@ -247,7 +276,7 @@ Hora peninsular en todos los casos. Si un canal cambia a última hora, la ficha 
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401841293",
     sourceLang: 'en',
     publishedAt: '2026-10-28T00:45:24.347Z',
-    modifiedAt: '2026-10-28T00:45:24.347Z',
+    modifiedAt: '2026-10-28T13:33:54.129Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Est%C3%A1dio_Nilton_Santos_2017.jpg/1920px-Est%C3%A1dio_Nilton_Santos_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
