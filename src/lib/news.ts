@@ -154,6 +154,84 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'nba-resultados-2026-10-29',
+    title: "NBA: todos los resultados de la jornada y el partido más igualado",
+    summary: "Resultados de los 12 partidos de la noche en la NBA, con el más igualado y el de más puntos.",
+    body: `12 partidos en la NBA esta noche. El más igualado, 76ers 114-109 a Pacers. El de más puntos, Knicks ante Bulls (133-127).
+
+## Resultados
+
+- [Heat 129-117 Hawks](/baloncesto/nba/partido/401909881)
+- [Cavaliers 121-111 Wizards](/baloncesto/nba/partido/401909882)
+- [Pistons 97-89 Hornets](/baloncesto/nba/partido/401909883)
+- [76ers 114-109 Pacers](/baloncesto/nba/partido/401909884)
+- [Raptors 129-99 Magic](/baloncesto/nba/partido/401909885)
+- [Knicks 133-127 Bulls](/baloncesto/nba/partido/401909886)
+- [Rockets 132-100 Bucks](/baloncesto/nba/partido/401909887)
+- [Warriors 119-114 Timberwolves](/baloncesto/nba/partido/401909888)
+- [Nuggets 104-91 Pelicans](/baloncesto/nba/partido/401909889)
+- [Spurs 117-111 Jazz](/baloncesto/nba/partido/401909890)
+- [Mavericks 120-96 Thunder](/baloncesto/nba/partido/401909891)
+- [Lakers 103-87 Clippers](/baloncesto/nba/partido/401909892)
+
+Marcadores en directo, calendario y clasificación por conferencias en la [página de la NBA](/baloncesto/nba).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"NBA","sport":"baloncesto","slug":"nba"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/nba/scoreboard",
+    sourceLang: 'en',
+    publishedAt: '2026-10-29T13:42:22.845Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Bankers_Life_Fieldhouse%2C_Indian%C3%A1polis%2C_Estados_Unidos%2C_2012-10-22%2C_DD_01.jpg/1920px-Bankers_Life_Fieldhouse%2C_Indian%C3%A1polis%2C_Estados_Unidos%2C_2012-10-22%2C_DD_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Gainbridge Fieldhouse, sede del Pacers - 76ers",
+      credit: "Diego Delso · CC BY-SA 3.0 · Wikimedia Commons",
+      license: "CC BY-SA 3.0",
+    },
+  },
+  {
+    slug: 'previa-gp-mexico-2026',
+    title: "Gran Premio de México: horarios de libres, clasificación y carrera",
+    summary: "Horarios en hora peninsular de todas las sesiones del Gran Premio de México en Autodromo Hermanos Rodriguez, Mexico city y cómo llega el Mundial, con Kimi Antonelli líder.",
+    body: `Autodromo Hermanos Rodriguez, Mexico city acoge esta semana el Gran Premio de México, con Kimi Antonelli como líder del campeonato y George Russell a 123 puntos.
+
+## Horarios del Gran Premio de México
+
+- **Libres 1**: viernes 30 de octubre, a las 19:30 (hora peninsular)
+- **Libres 2**: viernes 30 de octubre, a las 23:00 (hora peninsular)
+- **Libres 3**: sábado 31 de octubre, a las 18:30 (hora peninsular)
+- **Clasificación**: sábado 31 de octubre, a las 22:00 (hora peninsular)
+- **Carrera**: domingo 1 de noviembre, a las 21:00 (hora peninsular)
+
+## Así llega el Mundial
+
+1. Kimi Antonelli, 365 puntos
+2. George Russell, 242 puntos
+3. Lewis Hamilton, 241 puntos
+4. Max Verstappen, 236 puntos
+5. Charles Leclerc, 233 puntos
+
+En constructores manda Mercedes con 607 puntos, por delante de Ferrari (474).
+
+Horarios, resultados de cada sesión y clasificación completa del Mundial en la [página de la Fórmula 1](/motor/formula-1).`,
+    category: 'general',
+    kind: 'previa',
+    competition: {"name":"Fórmula 1","sport":"motor","slug":"formula-1"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/f1/schedule",
+    sourceLang: 'en',
+    publishedAt: '2026-10-29T13:42:22.845Z',
+    modifiedAt: '2026-10-29T13:42:22.845Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Vista_a%C3%A9rea_del_Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez_01.jpg/1920px-Vista_a%C3%A9rea_del_Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Autodromo Hermanos Rodriguez , escenario del Gran Premio de México",
+      credit: "ProtoplasmaKid · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
     slug: 'previa-villarreal-espanyol-401882817',
     title: "Villarreal - Espanyol: horario, dónde ver y cómo llegan al partido de LaLiga",
     summary: "Villarreal y Espanyol se enfrentan este viernes 30 de octubre a las 21:00 h en Estadio de la Cerámica, en partido de LaLiga. Villarreal es 10.º y Espanyol, 18.º. TV: M+ LALIGA.",
@@ -201,7 +279,7 @@ Todos los horarios están en hora peninsular. Los marcadores se actualizan en di
     sourceUrl: "https://www.espn.com/nba/game/_/gameId/401918310",
     sourceLang: 'en',
     publishedAt: '2026-10-29T01:14:42.233Z',
-    modifiedAt: '2026-10-29T01:14:42.233Z',
+    modifiedAt: '2026-10-29T13:42:22.845Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/State_Farm_%28Philips%29_Arena%2C_Atlanta%2C_GA_%2846558861525%29_-_2019.jpg/1920px-State_Farm_%28Philips%29_Arena%2C_Atlanta%2C_GA_%2846558861525%29_-_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -280,7 +358,7 @@ Todos los horarios están en hora peninsular. Los marcadores se actualizan en di
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401841288",
     sourceLang: 'en',
     publishedAt: '2026-10-29T01:14:42.233Z',
-    modifiedAt: '2026-10-29T01:14:42.233Z',
+    modifiedAt: '2026-10-29T13:42:22.845Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/ARENA_MRV.jpg/1920px-ARENA_MRV.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
