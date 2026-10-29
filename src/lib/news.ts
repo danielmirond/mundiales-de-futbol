@@ -154,6 +154,142 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'previa-villarreal-espanyol-401882817',
+    title: "Villarreal - Espanyol: horario, dónde ver y cómo llegan al partido de LaLiga",
+    summary: "Villarreal y Espanyol se enfrentan este viernes 30 de octubre a las 21:00 h en Estadio de la Cerámica, en partido de LaLiga. Villarreal es 10.º y Espanyol, 18.º. TV: M+ LALIGA.",
+    body: `Villarreal y Espanyol se enfrentan este viernes 30 de octubre a las 21:00 h en Estadio de la Cerámica, en partido de LaLiga.
+
+## Cómo llegan
+
+Villarreal llega de ganar 2-1 a Valencia y ocupa la 10.º plaza con 12 puntos (3G-3E-4P). Espanyol llega de perder 1-2 ante Racing y ocupa la 18.º plaza con 8 puntos (2G-2E-6P). La [clasificación de LaLiga](/futbol/laliga), al día.
+
+## Dónde ver el partido
+
+Se emite en **M+ LALIGA**. Alineaciones en cuanto se confirmen, marcador en directo y narración en la [ficha del Villarreal - Espanyol](/futbol/laliga/partido/401882817). El resto de la jornada, en [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    kind: 'previa',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882817",
+    sourceLang: 'en',
+    publishedAt: '2026-10-29T01:14:42.233Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/ESTADIO3.jpg/1280px-ESTADIO3.jpg",
+      alt: "El estadio de la Cerámica de Villarreal lleno durante un partido nocturno",
+      credit: "Frank94Rock · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'partidos-baloncesto-hoy-2026-10-29',
+    title: "Partidos de baloncesto hoy, jueves 29 de octubre: horarios y dónde ver WNBA",
+    summary: "Agenda de baloncesto de hoy jueves 29 de octubre: 1 partido con horario en hora española y canal de televisión. Destaca Dream - Valkyries.",
+    body: `Jornada de baloncesto con 1 cita este jueves 29 de octubre. Horarios en hora peninsular y dónde verlas, competición por competición. El partido que más miradas reúne es el **[Dream - Valkyries](/baloncesto/wnba/partido/401918310)** (WNBA, 17:30 h).
+
+## 🇺🇸 WNBA
+
+- **[Dream - Valkyries](/baloncesto/wnba/partido/401918310)** — 17:30 h
+
+Calendario y clasificación en la [página de WNBA](/baloncesto/wnba).
+
+Todos los horarios están en hora peninsular. Los marcadores se actualizan en directo en cada ficha de partido. Toda la jornada, con marcadores en directo, en [partidos de hoy](/partidos-hoy).`,
+    category: 'tv',
+    kind: 'agenda',
+    competition: {"name":"WNBA","sport":"baloncesto","slug":"wnba"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/nba/game/_/gameId/401918310",
+    sourceLang: 'en',
+    publishedAt: '2026-10-29T01:14:42.233Z',
+    modifiedAt: '2026-10-29T01:14:42.233Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/State_Farm_%28Philips%29_Arena%2C_Atlanta%2C_GA_%2846558861525%29_-_2019.jpg/1920px-State_Farm_%28Philips%29_Arena%2C_Atlanta%2C_GA_%2846558861525%29_-_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "State Farm Arena, escenario del Dream - Valkyries",
+      credit: "Warren LeMay from Cincinnati, OH, United States · CC0 · Wikimedia Commons",
+      license: "CC0",
+    },
+  },
+  {
+    slug: 'partidos-futbol-hoy-2026-10-29',
+    title: "Partidos de fútbol hoy, jueves 29 de octubre: horarios y dónde ver Copa del Rey, Serie A y Champions fem.",
+    summary: "Agenda de fútbol de hoy jueves 29 de octubre: 31 partidos con horario en hora española y canal de televisión. Destaca Atlético-MG - Cruzeiro.",
+    body: `El fútbol no para: 31 encuentros este jueves 29 de octubre. Esta es la agenda completa con horarios de España y televisión. El partido que más miradas reúne es el **[Atlético-MG - Cruzeiro](/futbol/brasileirao/partido/401841288)** (Brasileirão, 23:30 h).
+
+## 🇪🇸 Copa del Rey
+
+- **[Numancia - Real Oviedo](/futbol/copa-del-rey/partido/401928490)** — 18:00 h
+- **[Peña Sport - Huesca](/futbol/copa-del-rey/partido/401928515)** — 18:00 h
+- **[Baleares - Eldense](/futbol/copa-del-rey/partido/401928529)** — 19:00 h
+- **[Calatayud - Osasuna](/futbol/copa-del-rey/partido/401928496)** — 19:00 h · 📺 M+ LALIGA 2
+- **[Coruxo - Zamora CF](/futbol/copa-del-rey/partido/401928494)** — 19:00 h
+- **[Poblense - Ceuta](/futbol/copa-del-rey/partido/401928525)** — 19:00 h
+- **[San Sebastiá - Coria](/futbol/copa-del-rey/partido/401928535)** — 19:00 h
+- **[Lebrijana - Getafe](/futbol/copa-del-rey/partido/401928526)** — 19:00 h · 📺 M+ LALIGA 3
+- **[Cieza - Granada](/futbol/copa-del-rey/partido/401928530)** — 19:30 h
+- **[Antequera CF - Aguilas](/futbol/copa-del-rey/partido/401928523)** — 20:00 h
+- **[Laredo - Burgos](/futbol/copa-del-rey/partido/401928491)** — 20:00 h
+- **[CD Varea - FC Andorra](/futbol/copa-del-rey/partido/401928498)** — 20:00 h
+- **[Conquense - Castellón](/futbol/copa-del-rey/partido/401928531)** — 20:00 h
+- **[Covadonga - Valladolid](/futbol/copa-del-rey/partido/401928511)** — 20:00 h
+- **[Guijuelo - Gijón](/futbol/copa-del-rey/partido/401928492)** — 20:00 h
+- **[ML Lagunas - Real Jaen CF](/futbol/copa-del-rey/partido/401928528)** — 20:00 h
+- **[Real Ávila - Salamanca](/futbol/copa-del-rey/partido/401928512)** — 20:00 h
+- **[Gim. Torrelavega - UD Ourense](/futbol/copa-del-rey/partido/401928517)** — 20:30 h
+- **[AE Prat - Athletic](/futbol/copa-del-rey/partido/401928513)** — 21:00 h · 📺 Teledeporte / RTVE Play
+- **[Auriense - Deportivo](/futbol/copa-del-rey/partido/401928507)** — 21:00 h · 📺 M+ LALIGA 2 / M+ LALIGA 4
+- **[Ribadesella - Racing](/futbol/copa-del-rey/partido/401928489)** — 21:00 h · 📺 M+ LALIGA 3 / M+ Liga de Campeones
+- **[Hortaleza - Sevilla](/futbol/copa-del-rey/partido/401928552)** — 21:00 h · 📺 M+ LALIGA
+- **[Xerez - Cádiz](/futbol/copa-del-rey/partido/401928548)** — 21:00 h
+
+Calendario y clasificación en la [página de Copa del Rey](/futbol/copa-del-rey).
+
+## 🇮🇹 Serie A
+
+- **[Frosinone - Lecce](/futbol/serie-a/partido/401874976)** — 18:30 h · 📺 DAZN
+- **[Fiorentina - Atalanta](/futbol/serie-a/partido/401874969)** — 20:45 h · 📺 DAZN
+
+Calendario y clasificación en la [página de Serie A](/futbol/serie-a).
+
+## Champions League femenina
+
+- **[Vienna - Juventus](/futbol/champions-femenina/partido/401916995)** — 18:45 h
+- **[Paris FC - BK Häcken](/futbol/champions-femenina/partido/401916994)** — 18:45 h
+- **[HB Køge - Barcelona](/futbol/champions-femenina/partido/401916993)** — 21:00 h
+- **[Man City - PSG](/futbol/champions-femenina/partido/401916992)** — 21:00 h
+
+Calendario y clasificación en la [página de Champions fem.](/futbol/champions-femenina).
+
+## 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Carabao Cup
+
+- **[Everton - Newcastle](/futbol/carabao-cup/partido/401921844)** — 20:45 h
+
+Calendario y clasificación en la [página de Carabao Cup](/futbol/carabao-cup).
+
+## 🇧🇷 Brasileirão
+
+- **[Atlético-MG - Cruzeiro](/futbol/brasileirao/partido/401841288)** — 23:30 h
+
+Calendario y clasificación en la [página de Brasileirão](/futbol/brasileirao).
+
+Todos los horarios están en hora peninsular. Los marcadores se actualizan en directo en cada ficha de partido. Toda la jornada, con marcadores en directo, en [partidos de hoy](/partidos-hoy).`,
+    category: 'tv',
+    kind: 'agenda',
+    competition: {"name":"Brasileirão","sport":"futbol","slug":"brasileirao"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401841288",
+    sourceLang: 'en',
+    publishedAt: '2026-10-29T01:14:42.233Z',
+    modifiedAt: '2026-10-29T01:14:42.233Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/ARENA_MRV.jpg/1920px-ARENA_MRV.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Arena MRV, escenario del Atlético-MG - Cruzeiro",
+      credit: "Heuler.silva · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
     slug: 'nba-resultados-2026-10-28',
     title: "NBA: todos los resultados de la jornada y el partido más igualado",
     summary: "Resultados de los 4 partidos de la noche en la NBA, con el más igualado y el de más puntos.",
