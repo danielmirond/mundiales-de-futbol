@@ -154,6 +154,102 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'previa-man-city-brighton-401879245',
+    title: "Man City - Brighton: horario, dónde ver y cómo llegan al partido de Premier League",
+    summary: "Man City y Brighton se enfrentan este sábado 31 de octubre a las 16:00 h en Etihad Stadium, en partido de Premier League. Man City es 1.º y Brighton, 3.º. TV: DAZN y DAZN 1.",
+    body: `Man City y Brighton se enfrentan este sábado 31 de octubre a las 16:00 h en Etihad Stadium, en partido de Premier League.
+
+## Cómo llegan
+
+Man City llega de perder 1-2 ante Aston Villa y ocupa la 1.º plaza con 21 puntos (7G-0E-1P). Brighton llega de perder 0-2 ante Liverpool y ocupa la 3.º plaza con 16 puntos (5G-1E-2P). La [clasificación de Premier League](/futbol/premier-league), al día.
+
+## Dónde ver el partido
+
+Se emite en **DAZN y DAZN 1**. Alineaciones en cuanto se confirmen, marcador en directo y narración en la [ficha del Man City - Brighton](/futbol/premier-league/partido/401879245). El resto de la jornada, en [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    kind: 'previa',
+    competition: {"name":"Premier League","sport":"futbol","slug":"premier-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401879245",
+    sourceLang: 'en',
+    publishedAt: '2026-10-30T01:22:13.593Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/City_of_Manchester_Stadium_2023_cropped.jpg/1280px-City_of_Manchester_Stadium_2023_cropped.jpg",
+      alt: "Vista aérea del Etihad Stadium del Manchester City",
+      credit: "Arne Müseler, cropped by Blackcat · Wikimedia Commons",
+      license: "CC BY-SA 3.0 de",
+    },
+  },
+  {
+    slug: 'partidos-futbol-hoy-2026-10-30',
+    title: "Partidos de fútbol hoy, viernes 30 de octubre: horarios y dónde ver LaLiga, Süper Lig y Ligue 1",
+    summary: "Agenda de fútbol de hoy viernes 30 de octubre: 10 partidos con horario en hora española y canal de televisión. Destaca Villarreal - Espanyol.",
+    body: `El fútbol no para: 10 encuentros este viernes 30 de octubre. Esta es la agenda completa con horarios de España y televisión. El partido que más miradas reúne es el **[Villarreal - Espanyol](/futbol/laliga/partido/401882817)** (LaLiga, 21:00 h).
+
+## 🇹🇷 Süper Lig
+
+- **[Konyaspor - Galatasaray](/futbol/super-lig/partido/401888259)** — 18:00 h
+
+Calendario y clasificación en la [página de Süper Lig](/futbol/super-lig).
+
+## 🇫🇷 Ligue 1
+
+- **[Le Havre AC - PSG](/futbol/ligue-1/partido/401876421)** — 19:00 h · 📺 DAZN
+- **[Nice - Rennes](/futbol/ligue-1/partido/401876416)** — 19:00 h · 📺 DAZN
+- **[Lille - Lens](/futbol/ligue-1/partido/401876420)** — 21:05 h · 📺 DAZN
+
+Calendario y clasificación en la [página de Ligue 1](/futbol/ligue-1).
+
+## 🇩🇪 Bundesliga
+
+- **[Elversberg - Mainz](/futbol/bundesliga/partido/401884746)** — 20:30 h · 📺 DAZN
+
+Calendario y clasificación en la [página de Bundesliga](/futbol/bundesliga).
+
+## 🇪🇸 LaLiga
+
+- **[Villarreal - Espanyol](/futbol/laliga/partido/401882817)** — 21:00 h · 📺 M+ LALIGA
+
+Calendario y clasificación en la [página de LaLiga](/futbol/laliga).
+
+## 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Championship
+
+- **[Sheffield Utd - Wrexham](/futbol/championship/partido/401880190)** — 21:00 h
+
+Calendario y clasificación en la [página de Championship](/futbol/championship).
+
+## 🇵🇹 Primeira Liga
+
+- **[Casa Pia - Sporting](/futbol/primeira-liga/partido/401885408)** — 21:15 h · 📺 DAZN
+
+Calendario y clasificación en la [página de Primeira Liga](/futbol/primeira-liga).
+
+## 🇦🇷 Liga Profesional Argentina
+
+- **[Estudiantes RC - Gimnasia LP](/futbol/liga-argentina/partido/401841655)** — 23:00 h
+- **[Huracán  - Tigre](/futbol/liga-argentina/partido/401841653)** — 23:00 h
+
+Calendario y clasificación en la [página de Liga Argentina](/futbol/liga-argentina).
+
+Horarios en hora de España; los resultados y la narración de cada partido van en su ficha. Toda la jornada, con marcadores en directo, en [partidos de hoy](/partidos-hoy).`,
+    category: 'tv',
+    kind: 'agenda',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882817",
+    sourceLang: 'en',
+    publishedAt: '2026-10-30T01:22:13.593Z',
+    modifiedAt: '2026-10-30T01:22:13.593Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/ESTADIO3.jpg/1280px-ESTADIO3.jpg",
+      alt: "El estadio de la Cerámica de Villarreal lleno durante un partido nocturno",
+      credit: "Frank94Rock · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
     slug: 'nba-resultados-2026-10-29',
     title: "NBA: todos los resultados de la jornada y el partido más igualado",
     summary: "Resultados de los 12 partidos de la noche en la NBA, con el más igualado y el de más puntos.",
@@ -222,7 +318,7 @@ Horarios, resultados de cada sesión y clasificación completa del Mundial en la
     sourceUrl: "https://www.espn.com/f1/schedule",
     sourceLang: 'en',
     publishedAt: '2026-10-29T13:42:22.845Z',
-    modifiedAt: '2026-10-29T13:42:22.845Z',
+    modifiedAt: '2026-10-30T01:22:13.593Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Vista_a%C3%A9rea_del_Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez_01.jpg/1920px-Vista_a%C3%A9rea_del_Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
