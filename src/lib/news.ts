@@ -154,6 +154,34 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'nba-resultados-2026-10-30',
+    title: "NBA: todos los resultados de la jornada y el partido más igualado",
+    summary: "Resultados de los 3 partidos de la noche en la NBA, con el más igualado y el de más puntos.",
+    body: `3 partidos en la NBA esta noche. El más igualado, Hawks 114-111 a Cavaliers, decidido en la última posesión. El de más puntos, Pelicans ante Kings (132-120).
+
+## Resultados
+
+- [Hawks 114-111 Cavaliers](/baloncesto/nba/partido/401909893)
+- [Pelicans 132-120 Kings](/baloncesto/nba/partido/401909894)
+- [Grizzlies 124-103 Trail Blazers](/baloncesto/nba/partido/401909895)
+
+Marcadores en directo, calendario y clasificación por conferencias en la [página de la NBA](/baloncesto/nba).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"NBA","sport":"baloncesto","slug":"nba"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/nba/scoreboard",
+    sourceLang: 'en',
+    publishedAt: '2026-10-30T13:31:27.074Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/State_Farm_%28Philips%29_Arena%2C_Atlanta%2C_GA_%2846558861525%29_-_2019.jpg/1920px-State_Farm_%28Philips%29_Arena%2C_Atlanta%2C_GA_%2846558861525%29_-_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "State Farm Arena, sede del Hawks - Cavaliers",
+      credit: "Warren LeMay from Cincinnati, OH, United States · CC0 · Wikimedia Commons",
+      license: "CC0",
+    },
+  },
+  {
     slug: 'previa-man-city-brighton-401879245',
     title: "Man City - Brighton: horario, dónde ver y cómo llegan al partido de Premier League",
     summary: "Man City y Brighton se enfrentan este sábado 31 de octubre a las 16:00 h en Etihad Stadium, en partido de Premier League. Man City es 1.º y Brighton, 3.º. TV: DAZN y DAZN 1.",
@@ -240,7 +268,7 @@ Horarios en hora de España; los resultados y la narración de cada partido van 
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882817",
     sourceLang: 'en',
     publishedAt: '2026-10-30T01:22:13.593Z',
-    modifiedAt: '2026-10-30T01:22:13.593Z',
+    modifiedAt: '2026-10-30T13:31:27.074Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/ESTADIO3.jpg/1280px-ESTADIO3.jpg",
@@ -318,7 +346,7 @@ Horarios, resultados de cada sesión y clasificación completa del Mundial en la
     sourceUrl: "https://www.espn.com/f1/schedule",
     sourceLang: 'en',
     publishedAt: '2026-10-29T13:42:22.845Z',
-    modifiedAt: '2026-10-30T01:22:13.593Z',
+    modifiedAt: '2026-10-30T13:31:27.074Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Vista_a%C3%A9rea_del_Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez_01.jpg/1920px-Vista_a%C3%A9rea_del_Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
