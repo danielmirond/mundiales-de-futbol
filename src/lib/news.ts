@@ -271,7 +271,7 @@ Hay una pregunta al final de la charla que interesa en España. Edul le pide una
   {
     slug: 'pau-navarro-villarreal-grada-vacia-minuto-75-la-ceramica-datos-asistencia-vila-real',
     title: 'Pau Navarro y la grada que se vacía en La Cerámica: los datos de un estadio donde cabe media Vila-real',
-    summary: 'Pau Navarro, canterano de 21 años que hace tres estaba en la grada, pidió que La Cerámica no se vacíe en el minuto 75. Los datos dicen que el público va igual que el año pasado; cambian los resultados.',
+    summary: 'Pau Navarro, 21 años, que hace tres estaba en la grada, pidió que La Cerámica no se vacíe en el minuto 75. Los datos dicen que el público va igual que el año pasado; cambian los resultados.',
     body: `El Villarreal perdió el viernes 0-1 con el Espanyol en La Cerámica, [con un gol de Leandro Cabrera en el minuto 60](https://www.espn.com/soccer/match/_/gameId/401882817), y el que habló al acabar fue un central de 21 años. Pau Navarro señaló a la grada: «No puede ser que en el minuto 75 el campo esté vacío», [dijo en zona mixta](https://castellonaldia.elmundo.es/deportes/villarreal-cf/villarreal-pau-navarro-no-puede-ser-que-el-campo-este-vacio-en-el-minuto-75-EL26871674). Pidió a la afición que apriete en los últimos minutos como aprietan en los campos rivales y se exigió a los jugadores lo primero.
 
 El dato que da peso a la queja es quién la hace. Navarro es de La Vilavella, un pueblo de la misma comarca, la Plana Baixa, y recordó que hace tres años él estaba en esa misma grada viendo al equipo. Ha vivido La Cerámica llena desde arriba y ahora la ve vaciarse desde abajo.
@@ -370,7 +370,7 @@ El calendario acaba así porque el Gran Premio de Qatar, previsto para abril, [s
   {
     slug: 'pedro-porro-27-anos-abuelo-final-mundial-medalla-don-benito-el-larguero',
     title: 'Pedro Porro, 27 años, campeón del mundo: «La única espina, no haber llevado al abuelo a la final del Mundial»',
-    summary: 'El lateral de Don Benito contó en El Larguero lo que no salió en titulares: su abuelo no pudo viajar a la final y le exigió la medalla por videollamada. Sus dos goles, la renovación y la madre que se quedó en casa.',
+    summary: 'El lateral de Don Benito contó en El Larguero lo que no salió en titulares: su abuelo no pudo viajar a la final y le exigió la medalla por videollamada. Sus dos goles y la renovación.',
     body: `La entrevista a Pedro Porro en El Larguero del jueves dejó un titular en todas partes: que le encantaría volver a España y que ahí lo dejaba cuando le preguntaron por Madrid o Barça. Lo mejor de la media hora larga de conversación con Manu Carreño llegó al final, cuando ya nadie preguntaba por fichajes. [En el minuto 56 del programa](https://www.youtube.com/watch?v=ex5-M3MvQOE&t=3405s), el lateral del Tottenham repasó quién estuvo con él en Estados Unidos y a quién le faltó: «La única espina que me queda es no haber llevado al abuelo a la final».
 
 Su abuelo tiene problemas respiratorios y no pudo viajar. Lo que sí hizo fue negociar por videollamada: le avisó de que si no traía la medalla no entraba en casa. La trajo.
