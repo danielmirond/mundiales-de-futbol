@@ -154,6 +154,41 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'nba-resultados-2026-10-31',
+    title: "NBA: todos los resultados de la jornada y el partido más igualado",
+    summary: "Resultados de los 10 partidos de la noche en la NBA, con el más igualado y el de más puntos.",
+    body: `10 partidos en la NBA esta noche. El más igualado, 76ers 98-93 a Knicks. El de más puntos, Heat ante Pacers (145-125).
+
+## Resultados
+
+- [Wizards 95-79 Hornets](/baloncesto/nba/partido/401909277)
+- [Celtics 125-111 Bulls](/baloncesto/nba/partido/401909278)
+- [Pistons 110-94 Nets](/baloncesto/nba/partido/401909279)
+- [76ers 98-93 Knicks](/baloncesto/nba/partido/401909280)
+- [Magic 121-114 Raptors](/baloncesto/nba/partido/401909281)
+- [Heat 145-125 Pacers](/baloncesto/nba/partido/401909282)
+- [Mavericks 116-111 Rockets](/baloncesto/nba/partido/401909283)
+- [Timberwolves 127-101 Clippers](/baloncesto/nba/partido/401909284)
+- [Warriors 112-95 Lakers](/baloncesto/nba/partido/401909285)
+- [Nuggets 127-120 Suns](/baloncesto/nba/partido/401909286)
+
+Marcadores en directo, calendario y clasificación por conferencias en la [página de la NBA](/baloncesto/nba).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"NBA","sport":"baloncesto","slug":"nba"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/nba/scoreboard",
+    sourceLang: 'en',
+    publishedAt: '2026-10-31T13:03:35.778Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/76ers_WFC_2016.jpg/1920px-76ers_WFC_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Xfinity Mobile Arena, sede del 76ers - Knicks",
+      credit: "Peetlesnumber1 · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
     slug: 'clasificacion-nba-semana-2026-44',
     title: "NBA: así queda la clasificación esta semana, con Pistons líder",
     summary: "Pistons lidera NBA con 4 victorias y 1 derrotas. Tabla comentada de NBA 2027: cabeza, zona baja y enlace a la clasificación completa.",
@@ -242,7 +277,7 @@ Todos los horarios están en hora peninsular. Los marcadores se actualizan en di
     sourceUrl: "https://www.espn.com/nba/game/_/gameId/401909896",
     sourceLang: 'en',
     publishedAt: '2026-10-31T01:02:54.068Z',
-    modifiedAt: '2026-10-31T01:02:54.068Z',
+    modifiedAt: '2026-10-31T13:03:35.778Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Delta_Center_2023.jpg/1920px-Delta_Center_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -259,16 +294,16 @@ Todos los horarios están en hora peninsular. Los marcadores se actualizan en di
 
 ## 🇹🇷 Süper Lig
 
-- **[Erzurum - Çorum FK](/futbol/super-lig/partido/401888373)** — 11:30 h
-- **[Kocaelispor - Caykur Rizespor](/futbol/super-lig/partido/401888257)** — 14:00 h
+- **[Erzurum - Çorum FK](/futbol/super-lig/partido/401888373)** — 11:30 h — **final 1-3**
+- **[Kocaelispor - Caykur Rizespor](/futbol/super-lig/partido/401888257)** — 14:00 h — **en juego, 0-0**
 - **[Fenerbahce - Goztepe](/futbol/super-lig/partido/401888258)** — 17:00 h
 
 Calendario y clasificación en la [página de Süper Lig](/futbol/super-lig).
 
 ## 🇪🇸 Liga F
 
-- **[Granada - Atlético Madrid](/futbol/liga-f/partido/401882473)** — 12:00 h
-- **[Valencia - Eibar](/futbol/liga-f/partido/401882469)** — 12:00 h
+- **[Granada - Atlético Madrid](/futbol/liga-f/partido/401882473)** — 12:00 h — **final 1-1**
+- **[Valencia - Eibar](/futbol/liga-f/partido/401882469)** — 12:00 h — **en juego, 2-1**
 - **[Espanyol -  Dux Logroño](/futbol/liga-f/partido/401882474)** — 16:00 h
 - **[Madrid CFF - Deportivo](/futbol/liga-f/partido/401882472)** — 18:00 h
 
@@ -276,7 +311,7 @@ Calendario y clasificación en la [página de Liga F](/futbol/liga-f).
 
 ## 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Premier League
 
-- **[Chelsea - Man Utd](/futbol/premier-league/partido/401879248)** — 13:30 h · 📺 DAZN / DAZN 1
+- **[Chelsea - Man Utd](/futbol/premier-league/partido/401879248)** — 13:30 h · 📺 DAZN / DAZN 1 — **en juego, 0-0**
 - **[Bournemouth - Leeds](/futbol/premier-league/partido/401879251)** — 16:00 h · 📺 DAZN / DAZN 1
 - **[Brentford - Nottm Forest](/futbol/premier-league/partido/401879249)** — 16:00 h · 📺 DAZN / DAZN 2
 - **[Coventry - Sunderland](/futbol/premier-league/partido/401879247)** — 16:00 h · 📺 DAZN / DAZN 3
@@ -289,9 +324,9 @@ Calendario y clasificación en la [página de Premier League](/futbol/premier-le
 
 ## 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Championship
 
-- **[Lincoln City - Birmingham](/futbol/championship/partido/401880194)** — 13:30 h
-- **[Norwich City - Watford](/futbol/championship/partido/401880191)** — 13:30 h
-- **[Stoke - Preston](/futbol/championship/partido/401880188)** — 13:30 h
+- **[Lincoln City - Birmingham](/futbol/championship/partido/401880194)** — 13:30 h — **en juego, 0-1**
+- **[Norwich City - Watford](/futbol/championship/partido/401880191)** — 13:30 h — **en juego, 0-2**
+- **[Stoke - Preston](/futbol/championship/partido/401880188)** — 13:30 h — **en juego, 1-0**
 - **[Bolton - Bristol City](/futbol/championship/partido/401880196)** — 16:00 h
 - **[Burnley - Portsmouth](/futbol/championship/partido/401880195)** — 16:00 h
 - **[Boro - Charlton](/futbol/championship/partido/401880193)** — 16:00 h
@@ -305,7 +340,7 @@ Calendario y clasificación en la [página de Championship](/futbol/championship
 
 ## 🇪🇸 LaLiga
 
-- **[Levante - Atlético](/futbol/laliga/partido/401882820)** — 14:00 h · 📺 M+ LALIGA
+- **[Levante - Atlético](/futbol/laliga/partido/401882820)** — 14:00 h · 📺 M+ LALIGA — **en juego, 0-0**
 - **[Rayo - Celta Vigo](/futbol/laliga/partido/401882818)** — 16:15 h · 📺 DAZN LaLiga 2 / DAZN
 - **[Betis - Málaga](/futbol/laliga/partido/401882825)** — 18:30 h · 📺 DAZN LaLiga / DAZN
 - **[Barcelona - Alavés](/futbol/laliga/partido/401882822)** — 21:00 h · 📺 M+ LALIGA / Movistar Plus+
@@ -314,7 +349,7 @@ Calendario y clasificación en la [página de LaLiga](/futbol/laliga).
 
 ## 🇪🇸 LaLiga Hypermotion
 
-- **[Real Sociedad II - Girona](/futbol/laliga-2/partido/401883145)** — 14:00 h
+- **[Real Sociedad II - Girona](/futbol/laliga-2/partido/401883145)** — 14:00 h — **en juego, 0-0**
 - **[Eibar - Almería](/futbol/laliga-2/partido/401883148)** — 16:15 h · 📺 LALIGA TV Hypermotion / DAZN
 - **[Celta Fortuna - Córdoba](/futbol/laliga-2/partido/401883307)** — 18:30 h
 - **[Albacete - CD Sabadell](/futbol/laliga-2/partido/401883126)** — 21:00 h · 📺 LALIGA TV Hypermotion / DAZN
@@ -334,7 +369,7 @@ Calendario y clasificación en la [página de Serie A](/futbol/serie-a).
 - **[Leverkusen - Stuttgart](/futbol/bundesliga/partido/401884753)** — 15:30 h · 📺 DAZN
 - **[Gladbach - Paderborn](/futbol/bundesliga/partido/401884749)** — 15:30 h · 📺 DAZN
 - **[Augsburg - Freiburg](/futbol/bundesliga/partido/401884751)** — 15:30 h · 📺 DAZN
-- **[Schalke - RB Leipzig](/futbol/bundesliga/partido/401884747)** — 15:30 h · 📺 DAZN / Movistar Plus+
+- **[Schalke - RB Leipzig](/futbol/bundesliga/partido/401884747)** — 15:30 h · 📺 DAZN / M+ Vamos 3
 - **[Bremen - Hoffenheim](/futbol/bundesliga/partido/401884748)** — 15:30 h · 📺 DAZN
 - **[Bayern - Dortmund](/futbol/bundesliga/partido/401884754)** — 18:30 h · 📺 DAZN
 
@@ -397,7 +432,7 @@ Hora peninsular en todos los casos. Si un canal cambia a última hora, la ficha 
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401879248",
     sourceLang: 'en',
     publishedAt: '2026-10-31T01:02:54.068Z',
-    modifiedAt: '2026-10-31T01:02:54.068Z',
+    modifiedAt: '2026-10-31T13:03:35.778Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/London_Stamford_Bridge.jpg/1280px-London_Stamford_Bridge.jpg",
@@ -599,7 +634,7 @@ Horarios, resultados de cada sesión y clasificación completa del Mundial en la
     sourceUrl: "https://www.espn.com/f1/schedule",
     sourceLang: 'en',
     publishedAt: '2026-10-29T13:42:22.845Z',
-    modifiedAt: '2026-10-31T01:02:54.068Z',
+    modifiedAt: '2026-10-31T13:03:35.778Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Vista_a%C3%A9rea_del_Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez_01.jpg/1920px-Vista_a%C3%A9rea_del_Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
