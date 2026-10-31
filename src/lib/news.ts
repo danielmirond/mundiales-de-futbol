@@ -189,6 +189,260 @@ Marcadores en directo, calendario y clasificación por conferencias en la [pági
     },
   },
   {
+    slug: 'canelo-mbilli-hora-espana-donde-ver-riad-titulo-cmb-supermediano',
+    title: 'Canelo vuelve 13 meses después de Crawford: hora en España y dónde ver su pelea en Riad',
+    summary: 'Canelo Álvarez pelea esta noche en Riad contra Christian Mbilli por el título supermediano del CMB. La salida al ring está prevista hacia las 21:30, hora peninsular, en DAZN de pago.',
+    body: `Saúl «Canelo» Álvarez vuelve a pelear esta noche, sábado 31 de octubre, en el ANB Arena de Riad. Enfrente tiene a Christian Mbilli, campeón invicto del peso supermediano del Consejo Mundial de Boxeo (CMB), que pone en juego el cinturón por primera vez desde que pasó de campeón interino a titular, [según ESPN](https://www.espn.com.mx/boxeo/nota/_/id/17449300/canelo-vs-mbilli-jaime-munguia-vs-zon-cartelera-completa-titulos). La salida al ring del combate principal está prevista hacia las **21:30, hora peninsular** (20:30 en Canarias).
+
+Es la primera pelea de Canelo desde septiembre de 2025, cuando perdió por decisión unánime contra Terence Crawford. Han pasado 13 meses.
+
+## Horarios en España
+
+DAZN da el horario en la costa este de Estados Unidos y avisa de que puede cambiar: la retransmisión de pago empieza a las 13:00 y la salida al ring de Canelo y Mbilli está calculada para las 16:30, [según su previa](https://www.dazn.com/en-US/news/boxing/canelo-alvarez-vs-christian-mbilli-how-to-watch-fight-time-ringwalks-prediction-undercard-news-odds/19uijwuynxykz1wt8mworc2iqq). Pasado a hora española:
+
+| | Península y Baleares | Canarias | Riad |
+| --- | --- | --- | --- |
+| Empieza la emisión de DAZN | 18:00 | 17:00 | 20:00 |
+| Salida al ring de Canelo-Mbilli (aprox.) | 21:30 | 20:30 | 23:30 |
+
+Ojo si se hace la cuenta a mano: esta semana la diferencia con Nueva York es de cinco horas, no de seis, porque España atrasó el reloj el domingo 25 y Estados Unidos no lo hace hasta mañana, 1 de noviembre.
+
+## Dónde verlo
+
+En España se emite en [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) como pago por evento. DAZN publica el precio de Estados Unidos (79,99 dólares) y el del Reino Unido (24,99 libras), y advierte de que cambia según el país: el importe en euros aparece al comprarlo. Las demás plataformas de boxeo y UFC están en la [guía de dónde ver el combate en España](/noticias/donde-ver-ufc-boxeo-espana-hbo-max-eurosport-dazn-topuria-canelo).
+
+## Cómo llegan
+
+| | Récord | KO |
+| --- | --- | --- |
+| Canelo Álvarez | 63 victorias, 3 derrotas, 2 empates | 39 |
+| Christian Mbilli | 29 victorias, 0 derrotas, 1 empate | 24 |
+
+Canelo busca recuperar un título del CMB en el peso en el que fue campeón indiscutido. Mbilli no ha perdido nunca como profesional.
+
+## La cartelera
+
+La velada tiene tres títulos mundiales en juego y un título Plata, según ESPN:
+
+- **Canelo Álvarez - Christian Mbilli**, título supermediano del CMB.
+- **Jaime Munguía - Nikita Zon**, título supermediano de la AMB de Munguía. Zon sustituye a Bektemir Melikuziev.
+- **Rafael Espinoza - Ricardo Blandón**, título pluma de la OMB de Espinoza. Blandón entra por Lorenzo Parra.
+- **David Picasso - Carl Jammes Martin**, título Plata pluma del CMB.
+- **Raymond Rojas García - Reito Tsutsumi**, superpluma, sin título.
+
+El Lindolfo Delgado - Arthur Biyarslanov por el título superligero vacante de la FIB se suspendió. Las próximas veladas, con su hora en España, están en la sección de [boxeo](/combate/boxeo), y qué plataforma emite cada deporte, en la [guía de canales y precios](/noticias/donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1).`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'Boxeo', sport: 'combate', slug: 'boxeo' },
+    sourceName: 'DAZN: horarios y cartelera de Canelo - Mbilli',
+    sourceUrl: 'https://www.dazn.com/en-US/news/boxing/canelo-alvarez-vs-christian-mbilli-how-to-watch-fight-time-ringwalks-prediction-undercard-news-odds/19uijwuynxykz1wt8mworc2iqq',
+    sourceLang: 'en',
+    publishedAt: '2026-10-31T14:30:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'ESPN: cartelera completa y títulos en juego', url: 'https://www.espn.com.mx/boxeo/nota/_/id/17449300/canelo-vs-mbilli-jaime-munguia-vs-zon-cartelera-completa-titulos' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/a/ad/Canelo_%C3%81lvarez%27s_cross_2017.png',
+      alt: 'Canelo Álvarez, con calzón blanco y rojo, conecta un golpe con la derecha a un rival de calzón negro en un ring de cuerdas rojas y blancas',
+      credit: 'Box Azteca · Wikimedia Commons',
+      license: 'CC BY 3.0',
+    },
+  },
+  {
+    slug: 'kimi-antonelli-infeccion-viral-gp-mexico-puede-ser-campeon-mas-joven',
+    title: 'Kimi Antonelli se perdió los micrófonos por un virus y puede salir de México campeón del mundo',
+    summary: 'Mercedes dejó a Kimi Antonelli fuera del día de medios por una infección viral. El viernes fue segundo y cuarto en los libres, y este fin de semana puede cerrar el Mundial con 20 años.',
+    body: `Kimi Antonelli no pasó por la sala de prensa del Autódromo Hermanos Rodríguez el jueves. Mercedes explicó que el italiano no se encontraba bien después de una infección viral y que no creía que su participación en el Gran Premio de México estuviera en riesgo, [según recogió Speedweek](https://www.speedweek.com/en/a/formula-1/soon-to-be-world-champion-kimi-antonelli-he-ll-be-driving-with-this-start-number-in-2027). El viernes se subió al coche y despejó las dudas: fue segundo en los primeros libres, solo por detrás de Charles Leclerc, y cuarto en los segundos, [según los tiempos de ESPN](https://www.espn.com/f1/schedule).
+
+Llega con 365 puntos, 123 más que su compañero George Russell, y [Sky Sports recuerda](https://www.skysports.com/f1/news/13605468/lewis-hamilton-ferrari-driver-says-he-is-built-differently-amid-defiance-over-extending-his-f1-career-into-2030s) que puede cerrar el título este fin de semana, con cuatro carreras todavía por delante. Tiene 20 años. Sería el campeón más joven de la historia de la Fórmula 1.
+
+## Así está el Mundial
+
+| | Piloto | Equipo | Puntos |
+| --- | --- | --- | --- |
+| 1 | Kimi Antonelli | Mercedes | 365 |
+| 2 | George Russell | Mercedes | 242 |
+| 3 | Lewis Hamilton | Ferrari | 241 |
+| 4 | Max Verstappen | Red Bull | 236 |
+| 5 | Charles Leclerc | Ferrari | 233 |
+
+Fuente: [clasificación de pilotos de ESPN](https://www.espn.com/f1/standings) antes del Gran Premio de México.
+
+## Lo que queda del fin de semana
+
+| Sesión | Hora peninsular | Canarias |
+| --- | --- | --- |
+| Libres 3, sábado 31 | 18:30 | 17:30 |
+| Clasificación, sábado 31 | 22:00 | 21:00 |
+| Carrera, domingo 1 de noviembre | 21:00 | 20:00 |
+
+La semana pasada ganó en Austin, como contamos en [la crónica del Gran Premio de Estados Unidos](/noticias/cronica-gp-estados-unidos-2026). Antes de ese fin de semana ya [había llegado con opciones de cerrar el título](/noticias/kimi-antonelli-campeon-austin-paddock-singapur-san-marino-minardi), y el margen sigue creciendo.
+
+## El 1 o el 12
+
+Si es campeón, el reglamento le permite correr en 2027 con el número 1. Antonelli ha dicho que, si dependiera de él, seguiría con el 12, según Speedweek, que añade que lo que quiera Mercedes es otra cuestión. El dorsal del año que viene, por tanto, todavía no está decidido.
+
+Los horarios de todas las sesiones y los resultados de cada una están en la [página de la Fórmula 1](/motor/formula-1), y cómo ver lo que queda de temporada, en la [guía de la F1 y el MotoGP en España](/noticias/donde-ver-f1-motogp-espana-2026-dazn-precios-carreras-que-quedan).`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'Fórmula 1', sport: 'motor', slug: 'formula-1' },
+    sourceName: 'Speedweek: Antonelli, con una infección viral en México',
+    sourceUrl: 'https://www.speedweek.com/en/a/formula-1/soon-to-be-world-champion-kimi-antonelli-he-ll-be-driving-with-this-start-number-in-2027',
+    sourceLang: 'en',
+    publishedAt: '2026-10-31T14:32:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'ESPN: sesiones del Gran Premio de México', url: 'https://www.espn.com/f1/schedule' },
+      { name: 'ESPN: clasificación de pilotos 2026', url: 'https://www.espn.com/f1/standings' },
+      { name: 'Sky Sports: previa del Gran Premio de México', url: 'https://www.skysports.com/f1/news/13605468/lewis-hamilton-ferrari-driver-says-he-is-built-differently-amid-defiance-over-extending-his-f1-career-into-2030s' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/2026_Chinese_GP_-_Mercedes_-_Kimi_Antonelli_-_Post_Race_Celebration.jpg/1280px-2026_Chinese_GP_-_Mercedes_-_Kimi_Antonelli_-_Post_Race_Celebration.jpg',
+      alt: 'Kimi Antonelli, con el mono negro de Mercedes y el casco puesto, levanta el puño de pie sobre su coche en el parque cerrado del Gran Premio de China',
+      credit: 'Liauzh · Wikimedia Commons',
+      license: 'CC BY 4.0',
+    },
+  },
+  {
+    slug: 'lewis-hamilton-41-anos-hecho-de-otra-forma-2030-ruanda-ferrari',
+    title: 'Lewis Hamilton, 41 años, sobre correr en los 2030: «Siento que estoy hecho de otra forma»',
+    summary: 'Lewis Hamilton no cierra la puerta a seguir en la F1 cuando llegue el Gran Premio de Ruanda, ya en los 2030. Tendría 45 años, los mismos que tiene hoy Fernando Alonso.',
+    body: `A Lewis Hamilton le preguntaron en México por el circuito de Ruanda, que la Fórmula 1 quiere estrenar en la próxima década, y por si se ve corriendo allí. No dijo que no. «Siento que estoy hecho de otra forma», respondió en la rueda de prensa del jueves, [según Sky Sports](https://www.skysports.com/f1/news/13605468/lewis-hamilton-ferrari-driver-says-he-is-built-differently-amid-defiance-over-extending-his-f1-career-into-2030s). Y añadió que el tiempo dirá si sigue en la parrilla en los 2030.
+
+Sky lo tituló como un desafío. Hamilton no prometió nada, pero tampoco se puso fecha de salida: dijo que no puede saber hoy si dentro de cuatro años querrá seguir.
+
+## Las cuentas
+
+Hamilton cumple 42 años en enero. Si llega a la temporada 2030, empezará con 45. Su contrato con Ferrari, según la información de Sky, dura hasta final de 2027, con una opción para un año más.
+
+Esa edad, 45, es la que tiene hoy **Fernando Alonso**, nacido el 29 de julio de 1981 y el piloto más veterano de la parrilla. Es decir, Hamilton se pregunta si podrá hacer dentro de cuatro años lo que Alonso está haciendo ahora.
+
+| | Edad hoy | Edad al empezar 2030 |
+| --- | --- | --- |
+| Fernando Alonso | 45 | 48 |
+| Lewis Hamilton | 41 | 45 |
+
+## Cómo le va en 2026
+
+No es una temporada para despedirse. Hamilton es tercero del Mundial con 241 puntos, a uno de George Russell y por delante de Max Verstappen y de su compañero Charles Leclerc, [según la clasificación de ESPN](https://www.espn.com/f1/standings). El título es cosa de Kimi Antonelli, que [puede cerrarlo este fin de semana](/noticias/kimi-antonelli-infeccion-viral-gp-mexico-puede-ser-campeon-mas-joven), pero el segundo puesto sigue abierto.
+
+| Puesto | Piloto | Puntos |
+| --- | --- | --- |
+| 2 | George Russell | 242 |
+| 3 | Lewis Hamilton | 241 |
+| 4 | Max Verstappen | 236 |
+| 5 | Charles Leclerc | 233 |
+
+## El otro veterano que no se va
+
+Adrian Newey, que ahora diseña los coches de Alonso en Aston Martin, ya dijo antes de Austin que el asturiano es [uno de los grandes de todos los tiempos](/noticias/adrian-newey-fernando-alonso-uno-de-los-grandes-de-todos-los-tiempos-austin). Entre los dos suman 86 años y 9 títulos mundiales.
+
+El Gran Premio de México se corre el domingo a las 21:00, hora peninsular. Horarios y resultados, en la [página de la Fórmula 1](/motor/formula-1).`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'Fórmula 1', sport: 'motor', slug: 'formula-1' },
+    sourceName: 'Sky Sports: Hamilton, sobre seguir en los 2030',
+    sourceUrl: 'https://www.skysports.com/f1/news/13605468/lewis-hamilton-ferrari-driver-says-he-is-built-differently-amid-defiance-over-extending-his-f1-career-into-2030s',
+    sourceLang: 'en',
+    publishedAt: '2026-10-31T14:34:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'ESPN: clasificación de pilotos 2026', url: 'https://www.espn.com/f1/standings' },
+      { name: 'Wikipedia: Fernando Alonso', url: 'https://es.wikipedia.org/wiki/Fernando_Alonso' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Lewis_Hamilton_2025_Italian_Grand_Prix_qualifying.jpg/1280px-Lewis_Hamilton_2025_Italian_Grand_Prix_qualifying.jpg',
+      alt: 'El Ferrari rojo y blanco de Lewis Hamilton rueda junto a un piano con los colores de la bandera italiana en la clasificación del Gran Premio de Italia de 2025',
+      credit: 'Eustace Bagge · Wikimedia Commons',
+      license: 'CC BY 4.0',
+    },
+  },
+  {
+    slug: 'messi-huddy-nino-sindrome-down-beckham-inter-miami-instagram',
+    title: 'Messi saltó al campo con Huddy, el niño de 5 años al que Beckham seguía en Instagram',
+    summary: 'Huddy, un niño de 5 años con síndrome de Down, salió de la mano de Messi antes del Inter Miami - Cincinnati. Beckham le invitó tras seguir su historia en redes; le esperaba con su camiseta.',
+    body: `Antes del Inter Miami - Cincinnati del miércoles, Lionel Messi salió al césped del Nu Stadium de la mano de un niño de cinco años. Se llama Hudson, aunque todo el mundo le conoce como Huddy. Tiene síndrome de Down y una cuenta de Instagram, que lleva su madre, con cerca de un millón de seguidores, [según Hola](https://www.hola.com/us/celebrities/20261029932093/david-beckham-5-year-old-huddys/). Uno de ellos era David Beckham.
+
+El copropietario del Inter Miami le había invitado a Miami a principios de año, después de seguir la historia de la familia en redes. El miércoles le recibió en el vestuario: chocaron las manos, se abrazaron y Huddy se sentó en el sitio de Messi. Luego llegó el paseo hasta el campo, y Messi se agachó para abrazarle y hacerse fotos con él, [contó La Nación](https://www.lanacion.com.ar/deportes/cumplio-el-sueno-de-entrar-a-la-cancha-con-lionel-messi-y-conocer-a-david-beckham-quien-es-huddy-el-nid29102026/).
+
+## El 23 de «Mr. David»
+
+Huddy no llevaba el 10. Llevaba una camiseta del Inter Miami con el 23 y el nombre «Mr. David», como llama él a Beckham. El 23 es el número que Beckham llevó en el Real Madrid y en Los Angeles Galaxy, la etapa que [contamos cuando recibió su estrella en Hollywood](/noticias/beckham-estrella-hollywood-walk-of-fame-mundial-2026).
+
+Después, el exjugador colgó la visita en su Instagram: «Tuvimos un invitado muy especial que nos visitó con la sonrisa más grande y el corazón más cálido». La madre de Huddy compartió el vídeo del vestuario en la cuenta del niño.
+
+## El partido
+
+Lo que vino después fue un empate a dos. Luis Suárez adelantó al Inter Miami en el minuto 61, Cincinnati le dio la vuelta con goles en el 80 y el 86, y el equipo de Messi empató en el 90, [según el acta de ESPN](https://www.espn.com/soccer/match/_/gameId/761908). Messi vio una amarilla en el 44.
+
+La clasificación de la liga estadounidense y los próximos partidos del Inter Miami están en la sección de la [MLS](/futbol/mls).`,
+    category: 'curiosa',
+    kind: 'noticia',
+    competition: { name: 'MLS', sport: 'futbol', slug: 'mls' },
+    sourceName: 'Hola: la visita de Huddy a David Beckham',
+    sourceUrl: 'https://www.hola.com/us/celebrities/20261029932093/david-beckham-5-year-old-huddys/',
+    sourceLang: 'en',
+    publishedAt: '2026-10-31T14:36:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'La Nación: Huddy entra al campo con Messi', url: 'https://www.lanacion.com.ar/deportes/cumplio-el-sueno-de-entrar-a-la-cancha-con-lionel-messi-y-conocer-a-david-beckham-quien-es-huddy-el-nid29102026/' },
+      { name: 'ESPN: Inter Miami 2 - Cincinnati 2', url: 'https://www.espn.com/soccer/match/_/gameId/761908' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Lionel_Messi_NYCFC_Miami_24_Sep_2025-089.jpg/1280px-Lionel_Messi_NYCFC_Miami_24_Sep_2025-089.jpg',
+      alt: 'Lionel Messi, con la camiseta negra del Inter Miami y el dorsal 10, mira hacia la derecha de pie sobre el césped durante un partido',
+      credit: 'Bryan Berlin · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'stephen-curry-38-anos-44-puntos-iguala-lebron-timberwolves-lendeborg',
+    title: 'Stephen Curry, 38 años, iguala a LeBron en lo que casi nadie consigue pasados los 35',
+    summary: 'Stephen Curry hizo 44 puntos en Minnesota sin fallar un tiro libre. Es su 15.º partido de 40 o más desde los 35 años, los mismos que LeBron James: nadie tiene más.',
+    body: `Stephen Curry anotó 44 puntos en la victoria de los Golden State Warriors en el Target Center de Minneapolis (114-119), en la madrugada del jueves en España. Metió los 16 tiros libres que lanzó, 6 de 16 triples y 11 de 27 tiros de campo, con 8 rebotes y 6 asistencias en 32 minutos, [según el acta del partido](https://www.espn.com/nba/boxscore/_/gameId/401909888).
+
+Tiene 38 años. Fue su 15.º partido de 40 o más puntos desde que cumplió los 35, los mismos que LeBron James, que hasta ahora estaba solo en lo más alto de esa lista, [según Basketball Forever](https://basketballforever.com/2026/10/28/steph-curry-matches-lebron-james-with-historic-40-point-night).
+
+## La lista
+
+| Jugador | Partidos de 40 o más puntos con 35 años o más |
+| --- | --- |
+| Stephen Curry | 15 |
+| LeBron James | 15 |
+| Michael Jordan | 12 |
+
+Jordan se retiró por última vez con 40 años.
+
+## Los tiros libres
+
+Los 16 de 16 son su mejor marca sin fallo en un partido, y en lo que va de temporada lleva 39 de 39 desde la línea, [según Basket USA](https://www.basketusa.com/news/952982/stephen-curry-egale-lebron-james-et-defie-aussi-le-temps/). Curry dijo después que lo que más le dice ese partido es lo bien que se encuentra, teniendo en cuenta la edad, los kilómetros y cómo fue el año pasado.
+
+## El novato que le acompañó
+
+Golden State llegó a ganar de 24 y Minnesota se acercó hasta cuatro. El otro nombre de la noche fue Yaxel Lendeborg, novato de los Warriors: 26 puntos y 9 rebotes, aunque con 7 pérdidas. Draymond Green se quedó en 3 puntos, pero sumó 9 rebotes y 6 asistencias.
+
+Todos los resultados de esa noche están en el [resumen de la jornada de la NBA](/noticias/nba-resultados-2026-10-29), la plantilla de Golden State, en la [ficha de los Warriors](/baloncesto/nba/equipo/9), y cómo se ve la liga en España, en la [guía de la NBA 2026-27](/noticias/nba-2026-27-donde-ver-espana-dazn-prime-video-estreno-hugo-gonzalez-aldama).`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'NBA', sport: 'baloncesto', slug: 'nba' },
+    sourceName: 'ESPN: acta del Timberwolves - Warriors',
+    sourceUrl: 'https://www.espn.com/nba/boxscore/_/gameId/401909888',
+    sourceLang: 'en',
+    publishedAt: '2026-10-31T14:38:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Basketball Forever: Curry iguala a LeBron', url: 'https://basketballforever.com/2026/10/28/steph-curry-matches-lebron-james-with-historic-40-point-night' },
+      { name: 'Basket USA: Curry, 16 de 16 en tiros libres', url: 'https://www.basketusa.com/news/952982/stephen-curry-egale-lebron-james-et-defie-aussi-le-temps/' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Stephen_Curry_Shooting.jpg/1280px-Stephen_Curry_Shooting.jpg',
+      alt: 'Stephen Curry, con sudadera azul de los Warriors y pantalón blanco, acaba de lanzar a canasta con los brazos estirados durante el calentamiento en una pista con las gradas casi vacías',
+      credit: 'Cyrus Saatsaz · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
     slug: 'clasificacion-nba-semana-2026-44',
     title: "NBA: así queda la clasificación esta semana, con Pistons líder",
     summary: "Pistons lidera NBA con 4 victorias y 1 derrotas. Tabla comentada de NBA 2027: cabeza, zona baja y enlace a la clasificación completa.",
@@ -7742,7 +7996,7 @@ No hay españoles confirmados en estas carteleras. **Ilia Topuria** perdió cont
 
 ## Boxeo en DAZN
 
-La gran cita del otoño es **Canelo Álvarez contra Christian Mbilli**, el sábado 31 de octubre en Riad, en [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) como pago por evento, [según DAZN](https://www.dazn.com/en-US/news/boxing/canelo-alvarez-vs-christian-mbilli-how-to-watch-fight-time-ringwalks-prediction-undercard-news-odds/19uijwuynxykz1wt8mworc2iqq). El combate principal será ya de madrugada en España; el precio en euros aparece al comprarlo. Las veladas de los próximos meses, con su hora en España, están en la sección de [boxeo](/combate/boxeo).
+La gran cita del otoño es **Canelo Álvarez contra Christian Mbilli**, el sábado 31 de octubre en Riad, en [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) como pago por evento, [según DAZN](https://www.dazn.com/en-US/news/boxing/canelo-alvarez-vs-christian-mbilli-how-to-watch-fight-time-ringwalks-prediction-undercard-news-odds/19uijwuynxykz1wt8mworc2iqq). La salida al ring del combate principal está prevista hacia las 21:30, hora peninsular, con la emisión de DAZN desde las 18:00 ([horarios completos](/noticias/canelo-mbilli-hora-espana-donde-ver-riad-titulo-cmb-supermediano)); el precio en euros aparece al comprarlo. Las veladas de los próximos meses, con su hora en España, están en la sección de [boxeo](/combate/boxeo).
 
 ## Para seguirlo todo
 
@@ -7754,6 +8008,7 @@ Las carteleras y resultados de cada velada están en la sección de la [UFC](/co
     sourceUrl: 'https://www.eurosport.es/mma/ufc/2026/calendario-peleas-veladas-2026-fechas-horarios-donde-como-ver-television-online-topuria_sto23253750/story.shtml',
     sourceLang: 'es',
     publishedAt: '2026-10-19T19:57:00+02:00',
+    modifiedAt: '2026-10-31T14:40:00+01:00',
     author: 'Redacción Mundiales',
     image: {
       url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Ilia_Topuria_at_the_Orbeliani_Palace.jpg/1280px-Ilia_Topuria_at_the_Orbeliani_Palace.jpg',

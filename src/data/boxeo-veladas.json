@@ -15,13 +15,13 @@
     {
       "slug": "canelo-mbilli",
       "fecha": "2026-10-31",
-      "horaEspana": null,
+      "horaEspana": "21:30 aprox.",
       "pelea": { "a": "Saúl «Canelo» Álvarez", "b": "Christian M'Billi" },
-      "titulo": null,
-      "sede": null, "ciudad": null, "pais": null,
+      "titulo": "Título supermediano del CMB",
+      "sede": "ANB Arena", "ciudad": "Riad", "pais": "Arabia Saudí",
       "tv": { "plataforma": "DAZN", "modalidad": "PPV", "precio": null },
       "contexto": "Segundo gran PPV de boxeo del mes en DAZN, dos semanas después de Dubois - Wardley 2.",
-      "fuente": "DAZN Spain vía Awin, 15/10/2026"
+      "fuente": "DAZN Spain vía Awin, 15/10/2026; hora y sede: DAZN y ESPN, 29-30/10/2026"
     }
   ]
 }
