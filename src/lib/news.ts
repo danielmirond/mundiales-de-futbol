@@ -154,6 +154,271 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'alcaraz-medvedev-semifinal-viena-resultado-final-domingo-donde-ver-noche-sabado-barca-alaves-f1',
+    title: 'Alcaraz - Medvedev: resultado de la semifinal de Viena, cuándo es la final y qué más se puede ver esta noche',
+    summary: 'Carlos Alcaraz ganó a Daniil Medvedev en la semifinal de Viena y jugará la final del domingo en Movistar Plus+. Horarios de lo que queda del sábado: Betis, Barça, Premier, Canelo y la clasificación de F1.',
+    body: `Carlos Alcaraz ganó este sábado a Daniil Medvedev por 6-4 y 7-6 (2) en la segunda semifinal del ATP 500 de Viena, [según el marcador de ESPN](https://www.espn.com/tennis/scoreboard). Es su cuarta victoria de la semana en el Wiener Stadthalle sin ceder un set y le mete en la final del domingo, la última antes del Masters 1000 de París.
+
+Su rival saldrá de la otra semifinal, que enfrenta a Alex de Minaur y Alexander Zverev a partir de las 16:50 (hora peninsular). Zverev, primer cabeza de serie, dejó fuera a Martín Landaluce en primera ronda y no ha perdido un set desde entonces; De Minaur llega tras ganar a Matteo Berrettini en cuartos.
+
+## El camino de Alcaraz en Viena
+
+| Ronda | Rival | Resultado |
+| --- | --- | --- |
+| Primera | Karen Khachanov | 6-4, 7-6 |
+| Octavos | Nikoloz Basilashvili | 6-1, 7-6 |
+| Cuartos | Tommy Paul | 6-4, 7-6 |
+| Semifinal | Daniil Medvedev | 6-4, 7-6 (2) |
+
+Alcaraz llegó a Viena [el mismo martes en que Rafael Jódar defendía su plaza de Turín en Basilea](/noticias/rafael-jodar-basilea-alcaraz-viena-landaluce-zverev-martes-27-octubre-horario-donde-ver) y ha ido subiendo de nivel partido a partido: tres tie-breaks seguidos para cerrar el segundo set en las tres primeras rondas y un cuarto encuentro más claro ante Medvedev.
+
+## La final del domingo
+
+La final del Erste Bank Open se juega el domingo 1 de noviembre en la pista central del Wiener Stadthalle. El torneo publica la hora en el orden de juego de la víspera; en España [el partido se ve en Movistar Plus+](https://www.elconfidencial.com/deportes/tenis/2026-10-31/alcaraz-medvedev-horario-donde-ver-partido-semifinales-viena_4456803/), como la semifinal, dentro del paquete de tenis que también incluye el Masters 1000 de París que arranca el lunes. Qué plataforma emite cada torneo y cuánto cuesta, [en la guía de dónde ver el tenis](/noticias/donde-ver-tenis-espana-atp-finals-copa-davis-alcaraz-movistar-hbo-max). Resultados y cuadros, en la [página del circuito ATP](/tenis/atp).
+
+## Lo que queda de la noche del sábado
+
+| Hora peninsular | Canarias | Qué | Dónde |
+| --- | --- | --- | --- |
+| 18:30 | 17:30 | [Betis - Málaga](/futbol/laliga/partido/401882825), La Cartuja | Movistar Plus+ vía DAZN |
+| 18:30 | 17:30 | [Tottenham - Crystal Palace](/futbol/premier-league/partido/401878761) | Movistar Plus+ vía DAZN |
+| 21:00 | 20:00 | [Barcelona - Alavés](/futbol/laliga/partido/401882822), Camp Nou | Movistar Plus+ vía DAZN |
+| 21:00 | 20:00 | [Aston Villa - Fulham](/futbol/premier-league/partido/401879250) | Movistar Plus+ vía DAZN |
+| 21:30 | 20:30 | Canelo Álvarez - Christian Mbilli, Riad | DAZN |
+| 22:00 | 21:00 | Clasificación del GP de México de Fórmula 1 | DAZN |
+
+Los canales de los partidos son los que figuran en las fichas de cada encuentro de esta web. El Barça juega en casa tras [perder el Clásico ante el Real Madrid de Mourinho](/noticias/mourinho-vuelve-a-ganar-en-el-camp-nou-primera-vez-desde-2013-balance-18-clasicos-real-madrid) y el Betis recibe al colista en La Cartuja, su casa mientras se reforma el Villamarín. Horarios y marcadores de toda la jornada, en [la página de LaLiga](/futbol/laliga) y en la de la [Premier League](/futbol/premier-league).
+
+La salida al ring de Canelo está calculada hacia las 21:30, [con el detalle de horarios y emisión en esta pieza](/noticias/canelo-mbilli-hora-espana-donde-ver-riad-titulo-cmb-supermediano). La clasificación de México, en la que [Kimi Antonelli puede dejar casi sentenciado el Mundial](/noticias/kimi-antonelli-infeccion-viral-gp-mexico-puede-ser-campeon-mas-joven), empieza a las 22:00, [según el calendario de ESPN](https://www.espn.com/f1/schedule). Y para saber [qué plataforma emite cada competición y cuánto cuesta](/noticias/donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1), la guía general sigue actualizada.`,
+    category: 'tv',
+    kind: 'noticia',
+    competition: { name: 'ATP', sport: 'tenis', slug: 'atp' },
+    sourceName: 'ESPN: marcador del ATP 500 de Viena',
+    sourceUrl: 'https://www.espn.com/tennis/scoreboard',
+    sourceLang: 'en',
+    publishedAt: '2026-10-31T16:40:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'El Confidencial: horario y dónde ver el Alcaraz - Medvedev', url: 'https://www.elconfidencial.com/deportes/tenis/2026-10-31/alcaraz-medvedev-horario-donde-ver-partido-semifinales-viena_4456803/' },
+      { name: 'ESPN: calendario de la Fórmula 1', url: 'https://www.espn.com/f1/schedule' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Carlos_Alcaraz_serving_while_playing_Jan-Lennard_Struff_%28Wimbledon_2025%29.jpg/1280px-Carlos_Alcaraz_serving_while_playing_Jan-Lennard_Struff_%28Wimbledon_2025%29.jpg',
+      alt: 'Carlos Alcaraz, de blanco, lanza la pelota al aire para sacar sobre la hierba de Wimbledon en 2025, con su sombra proyectada en la pista',
+      credit: '12121343A · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'dibu-martinez-mano-dedo-fracturado-final-mundial-espana-de-por-vida-los-edul-chelsea',
+    title: 'Dibu Martínez enseña la mano con la que jugó la final contra España: «Me va a quedar así de por vida»',
+    summary: 'Emiliano Martínez cuenta en el pódcast de Gastón Edul cómo jugó el Mundial 2026 con el anular derecho roto, hasta la final ante España. El dedo ya no se endereza y hoy se recupera de otra operación.',
+    body: `Emiliano «Dibu» Martínez cierra el puño derecho delante de la cámara y un dedo se queda fuera. Es el anular. «No lo puedo doblar bien. Me quedó después del Mundial y me va a quedar de por vida ya», dice en el tercer episodio de la segunda temporada de *Los Edul*, el pódcast de Gastón Edul [publicado el viernes en YouTube](https://www.youtube.com/watch?v=UoOlJudf7kc&t=274s). Es la primera vez que enseña la mano con la que atajó la final del Mundial 2026 contra España.
+
+La historia se conocía a medias. Que se había roto el dedo antes del torneo [lo contó este medio en junio](/noticias/argentina-lesiones-pre-mundial-2026-messi-dibu-julian-alvarez-alerta-medica), aunque con un dato equivocado: la final de la Europa League no fue contra el Manchester United sino contra el Friburgo, y el Aston Villa [la ganó 3-0 en Estambul el 20 de mayo](https://www.espn.com/soccer/match/_/gameId/401862911). Lo que no se sabía era lo que viene después.
+
+## Del calentamiento en Estambul a un hospital en Birmingham
+
+El dedo se le salió en el calentamiento de esa final. Terminó el partido, celebró el título y volvió a Birmingham con dolor. En el hospital le enseñaron la radiografía: el hueso estaba partido por la mitad. «Empiezo a llorar, no llego al Mundial», [recuerda en el minuto tres de la charla](https://www.youtube.com/watch?v=UoOlJudf7kc&t=194s). Faltaban cuatro semanas para el debut contra Argelia.
+
+Lionel Scaloni le escribió para decirle que viajara llegara o no en condiciones. Con el médico de la selección y con Martín Tocalli, el entrenador de porteros, decidió no operarse: todos los doctores le daban diez semanas de baja, y con ese pronóstico, cuenta él mismo, se le cayó un traspaso a un club italiano que estaba hecho. Jugó con una férula de plástico, la mano vendada y un guante que Adidas le fabricó a medida. El primer día de entrenamiento no pudo meter el dedo en el guante normal y pidió que se lo cortaran.
+
+## Cuatro dedos para un Mundial
+
+Martínez pone un diez cuando Edul le pide medir del uno al diez cuánto le condicionó la lesión. Hasta la víspera del debut se tiraba al suelo con un solo brazo. Entrenó con un balón de voleibol, más blando, hasta la semana de los cuartos contra Suiza. Su hermano le pidió que no jugara contra Argelia. Pasó las noches de la primera fase, dice, llorando de dolor con el dedo hinchado.
+
+Argentina ganó los ocho partidos menos el último, [según las actas de ESPN](https://www.espn.com/soccer/match/_/gameId/760517):
+
+| Fase | Partido | Resultado |
+| --- | --- | --- |
+| Grupo | Argentina - Argelia | 3-0 |
+| Grupo | Argentina - Austria | 2-0 |
+| Grupo | Jordania - Argentina | 1-3 |
+| Dieciseisavos | Argentina - Cabo Verde | 3-2 |
+| Octavos | Argentina - Egipto | 3-2 |
+| Cuartos | Argentina - Suiza | 3-1 |
+| Semifinal | Inglaterra - Argentina | 1-2 |
+| Final | España - Argentina | 1-0 |
+
+Del partido de octavos dice que casi lo pierden. De la final, que España le dio menos respeto previo que la Francia de 2022, porque aquella llegaba como campeona y con más experiencia, y que lo que más le molestó del torneo fue el ruido alrededor del resultado, que despacha como marketing. [El gol de Ferran Torres en el minuto 106](/noticias/ferran-torres-gol-final-mundial-balon-de-oro-iniesta-2010-messi) decidió la final [en el MetLife](/noticias/metlife-stadium-final-mundial-2026-nueva-jersey). Sobre el premio al mejor portero del torneo, que [se llevó Unai Simón](/noticias/unai-simon-guante-de-oro-mundial-trofeo-yashin-ningun-espanol-joan-garcia-raya), lo tiene claro: se lo dan al campeón, y si hubiera ganado a España quizá habría tenido opciones.
+
+## Chelsea, otra operación y una liga pendiente
+
+La entrevista se grabó en plena convalecencia de otra fractura. Martínez [fichó por el Chelsea a finales de agosto](https://www.irishnews.com/sport/soccer/emiliano-martinez-completes-chelsea-move-from-aston-villa-AKU2COCRDFP2HAWYHCK27YBESE/) y el 17 de octubre, en la victoria por 0-2 en el campo del Everton, chocó de cabeza con Jarrad Branthwaite al disputar un centro. Salió en camilla tras ocho minutos de asistencia. El club [confirmó una operación de mandíbula](https://www.irishnews.com/sport/soccer/chelsea-confirm-goalkeeper-emiliano-martinez-has-undergone-successful-surgery-6ASDMCA7JRJCXHDBGTYZVJXLG4/) y él escribió desde el hospital que volvería en unas semanas.
+
+Hay una pregunta al final de la charla que interesa en España. Edul le pide una liga en la que le hubiera gustado jugar y responde sin dudar: la española. Estuvo cerca de varios equipos, dice, y no se dio. Los partidos de Argentina y de España en el Mundial, en las páginas de [la Albiceleste](/selecciones/ARG) y de [la Roja](/selecciones/ESP).`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'Premier League', sport: 'futbol', slug: 'premier-league' },
+    sourceName: 'Los Edul (YouTube): Dibu Martínez, episodio 3 de la segunda temporada',
+    sourceUrl: 'https://www.youtube.com/watch?v=UoOlJudf7kc',
+    sourceLang: 'es',
+    publishedAt: '2026-10-31T16:42:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'ESPN: acta de la final España - Argentina', url: 'https://www.espn.com/soccer/match/_/gameId/760517' },
+      { name: 'ESPN: final de la Europa League Friburgo - Aston Villa', url: 'https://www.espn.com/soccer/match/_/gameId/401862911' },
+      { name: 'PA (Irish News): el Chelsea confirma la operación de mandíbula', url: 'https://www.irishnews.com/sport/soccer/chelsea-confirm-goalkeeper-emiliano-martinez-has-undergone-successful-surgery-6ASDMCA7JRJCXHDBGTYZVJXLG4/' },
+      { name: 'Ámbito: Dibu mostró cómo le quedó el dedo', url: 'https://www.ambito.com/deportes/de-vida-el-dibu-martinez-mostro-como-le-quedo-el-dedo-su-mano-lesionada-luego-la-operacion-n6339784' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Emiliano_Martinez_Argentina_v_Spain_19_July_2026-218.jpg/1280px-Emiliano_Martinez_Argentina_v_Spain_19_July_2026-218.jpg',
+      alt: 'Emiliano Martínez, con la equipación verde de portero y el dorsal 23 de Argentina, se estira con las dos manos enguantadas hacia el balón bajo la portería en la final del Mundial 2026 contra España',
+      credit: 'Bryan Berlin · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'pau-navarro-villarreal-grada-vacia-minuto-75-la-ceramica-datos-asistencia-vila-real',
+    title: 'Pau Navarro y la grada que se vacía en La Cerámica: los datos de un estadio donde cabe media Vila-real',
+    summary: 'Pau Navarro, canterano de 21 años que hace tres veía los partidos desde la grada, pidió que La Cerámica no se vacíe en el minuto 75. Los datos dicen que el público va igual que el año pasado; cambian los resultados.',
+    body: `El Villarreal perdió el viernes 0-1 con el Espanyol en La Cerámica, [con un gol de Leandro Cabrera en el minuto 60](https://www.espn.com/soccer/match/_/gameId/401882817), y el que habló al acabar fue un central de 21 años. Pau Navarro señaló a la grada: «No puede ser que en el minuto 75 el campo esté vacío», [dijo en zona mixta](https://castellonaldia.elmundo.es/deportes/villarreal-cf/villarreal-pau-navarro-no-puede-ser-que-el-campo-este-vacio-en-el-minuto-75-EL26871674). Pidió a la afición que apriete en los últimos minutos como aprietan en los campos rivales y se exigió a los jugadores lo primero.
+
+El dato que da peso a la queja es quién la hace. Navarro es de La Vilavella, un pueblo de la misma comarca, la Plana Baixa, y recordó que hace tres años él estaba en esa misma grada viendo al equipo. Ha vivido La Cerámica llena desde arriba y ahora la ve vaciarse desde abajo.
+
+## Lo que dicen los números
+
+La gente sí va. Los cinco partidos de Liga en casa de esta temporada han tenido una media de 18.011 espectadores, [según los datos de asistencia de ESPN](https://www.espn.com/soccer/team/fixtures/_/id/102), el 77 % de los 23.500 asientos del estadio. La temporada pasada, con 19 partidos de Liga, la media fue de 17.989. Prácticamente la misma cifra.
+
+| Partido | Resultado | Espectadores |
+| --- | --- | --- |
+| Villarreal - Deportivo (5 sep) | 2-3 | 18.302 |
+| Villarreal - Betis (14 sep) | 1-2 | 18.267 |
+| Villarreal - Levante (20 sep) | 3-1 | 18.671 |
+| Villarreal - Elche (17 oct) | 0-0 | 17.329 |
+| Villarreal - Espanyol (30 oct) | 0-1 | 17.486 |
+
+Lo que ha cambiado es el marcador. El Villarreal ha ganado uno de cinco partidos en casa y suma cuatro puntos en La Cerámica por ocho fuera, donde ha ganado en Málaga y en Valencia. Es décimo con 12 puntos tras 11 jornadas, [según la clasificación](/futbol/laliga). Que la grada se vacíe antes del final con el equipo perdiendo es, en parte, consecuencia de lo que pasa en el césped. Navarro lo admitió: al equipo le falta saber jugar contra rivales que se encierran y mover más rápido el balón.
+
+## Media ciudad en el estadio
+
+Hay otro número que explica la grada del Villarreal mejor que cualquier bronca. Vila-real tiene [53.623 habitantes según el padrón de 2025](https://es.wikipedia.org/wiki/Villarreal). El estadio tiene 23.500 asientos: cabe el 44 % de la ciudad. Cada dos semanas entra el equivalente a un tercio del municipio, una proporción sin equivalente en Primera. Llenarlo hasta el minuto 90 en un viernes de octubre contra el Espanyol depende de una base de aficionados que no da para más y de los que vienen de Castellón, Valencia y la comarca.
+
+## El martes, el PSG
+
+La respuesta inmediata llega en la Champions. El Villarreal recibe al Paris Saint-Germain [el martes 3 de noviembre a las 21:00](https://www.espn.com/soccer/match/_/gameId/401915309) en La Cerámica, donde esta temporada europea sí ha ganado su único partido como local, ante el Nápoles. Navarro dijo que van a por todas y que estos partidos se pueden ganar. Cómo ver la Champions en España y a qué precio, [en la guía de la competición](/noticias/donde-ver-champions-league-2026-27-espana-movistar-precios-final-metropolitano); la ficha del club, con plantilla y calendario, en [su página de equipo](/futbol/laliga/equipo/102).`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'LaLiga', sport: 'futbol', slug: 'laliga' },
+    sourceName: 'Castellón al Día (El Mundo): Pau Navarro, «No puede ser que el campo esté vacío en el minuto 75»',
+    sourceUrl: 'https://castellonaldia.elmundo.es/deportes/villarreal-cf/villarreal-pau-navarro-no-puede-ser-que-el-campo-este-vacio-en-el-minuto-75-EL26871674',
+    sourceLang: 'es',
+    publishedAt: '2026-10-31T16:44:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'ESPN: calendario y asistencias del Villarreal', url: 'https://www.espn.com/soccer/team/fixtures/_/id/102' },
+      { name: 'ESPN: acta del Villarreal - Espanyol', url: 'https://www.espn.com/soccer/match/_/gameId/401882817' },
+      { name: 'Wikipedia: Villarreal (población del padrón)', url: 'https://es.wikipedia.org/wiki/Villarreal' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/ESTADIO3.jpg/1280px-ESTADIO3.jpg',
+      alt: 'Las gradas del Estadio de la Cerámica llenas de público una noche de 2017, durante un Villarreal - Barcelona, con el césped iluminado y la tribuna amarilla al fondo',
+      credit: 'Frank94Rock · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'marc-marquez-sepang-sprint-acosta-jorge-martin-baja-cuentas-titulo-motogp-qatar-valencia',
+    title: 'Marc Márquez hace cuentas en Sepang: qué necesita para cerrar el Mundial con Jorge Martín fuera de combate',
+    summary: 'Pedro Acosta ganó el sprint de Malasia, pero el que más ganó fue Marc Márquez: sumó puntos mientras Jorge Martín renunciaba por la muñeca. Así queda el título con una carrera y tres grandes premios por delante.',
+    body: `Pedro Acosta ganó el sprint del Gran Premio de Malasia con medio segundo de ventaja en una carrera a medio mojar, [según la crónica de MotoGP.com](https://www.motogp.com/es/news/2026/10/31/acosta-denies-marc-marquez-and-bezzecchi-in-tense-sprint-showdown-at-sepang/1181622). Álex Márquez se fue al suelo cuando lideraba, en la curva 14 y con la lluvia asomando; Ai Ogura heredó la cabeza y la perdió en el cuerpo a cuerpo final con Acosta y con Marc Márquez, que acabó segundo por delante de Marco Bezzecchi. El resultado que importa para el título, sin embargo, se decidió en el box de Aprilia.
+
+Jorge Martín no corre en Sepang. Se fracturó la muñeca hace seis días en Australia, probó el viernes con doce vueltas por la mañana y algunas más por la tarde, volvió a salir en el segundo libre del sábado y [se retiró del Gran Premio antes de la clasificación](https://www.motogp.com/es/news/2026/10/31/martin-withdraws-the-89-wont-take-part-in-malaysia/1182474). Llegaba a Malasia a diez puntos de Márquez después de [un fin de semana en Phillip Island sin carrera](/noticias/motogp-cancela-gran-premio-australia-helicoptero-medico-marquez-martin-mundial), cancelada por la niebla que impedía volar al helicóptero médico.
+
+## Las cuentas tras el sprint
+
+| Piloto | Puntos antes de Malasia | Tras el sprint |
+| --- | --- | --- |
+| Marc Márquez (Ducati) | 365 | 374 |
+| Jorge Martín (Aprilia) | 355 | 355 |
+| Marco Bezzecchi (Aprilia) | 315 | 322 |
+| Pedro Acosta (KTM) | 263 | 275 |
+
+Los puntos de partida son [los de la clasificación del Mundial](https://en.wikipedia.org/wiki/2026_MotoGP_World_Championship); los del sprint, 12, 9 y 7 para los tres primeros, los suma esta redacción. Quedan en juego la carrera del domingo (25 puntos) y tres grandes premios completos con sprint y carrera (37 cada uno): 136 puntos. Después de Sepang quedarán 111.
+
+Eso deja dos conclusiones. La primera: Márquez no puede ser campeón este domingo. Aunque gane y Martín no puntúe, se iría a 44 puntos de ventaja, y hacen falta más de 111. La segunda: el título puede decidirse en Qatar el 8 de noviembre. Para cerrarlo en Lusail, Márquez necesita salir de allí con más de 74 puntos sobre el segundo, que es lo que repartirán Portugal y Valencia. Si Martín no reaparece en Qatar y Márquez suma 62 de los 62 posibles entre Sepang y Lusail, la ventaja sería de 81. Bezzecchi, a 52, es el único que puede estirar la pelea si Martín sigue fuera.
+
+## Lo que queda
+
+| Gran Premio | Fecha | Circuito |
+| --- | --- | --- |
+| Malasia (carrera) | Domingo 1 de noviembre, 08:00 (hora peninsular) | Sepang |
+| Qatar | 8 de noviembre | Lusail |
+| Portugal | 22 de noviembre | Portimão |
+| Comunidad Valenciana | 29 de noviembre | Cheste |
+
+El calendario acaba así porque el Gran Premio de Qatar, previsto para abril, [se trasladó a noviembre por la guerra de Irán](https://en.wikipedia.org/wiki/2026_MotoGP_World_Championship) y arrastró una semana a Portimão y Cheste. Las carreras se ven en España en DAZN, [como explica la guía de la temporada](/noticias/donde-ver-f1-motogp-espana-2026-dazn-precios-carreras-que-quedan). Horarios, parrilla y clasificación, en la [página de MotoGP](/motor/motogp).`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'MotoGP', sport: 'motor', slug: 'motogp' },
+    sourceName: 'MotoGP.com: Acosta frena a Marc Márquez y Bezzecchi en el sprint de Sepang',
+    sourceUrl: 'https://www.motogp.com/es/news/2026/10/31/acosta-denies-marc-marquez-and-bezzecchi-in-tense-sprint-showdown-at-sepang/1181622',
+    sourceLang: 'es',
+    publishedAt: '2026-10-31T16:46:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'MotoGP.com: Martín se retira del GP de Malasia', url: 'https://www.motogp.com/es/news/2026/10/31/martin-withdraws-the-89-wont-take-part-in-malaysia/1182474' },
+      { name: 'Wikipedia: clasificación del Mundial de MotoGP 2026', url: 'https://en.wikipedia.org/wiki/2026_MotoGP_World_Championship' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/MotoGP_2026_Austria_Nr._93_M%C3%A1rquez_%281%29.jpg/1280px-MotoGP_2026_Austria_Nr._93_M%C3%A1rquez_%281%29.jpg',
+      alt: 'Marc Márquez pilota la Ducati roja del equipo Lenovo, inclinado sobre el piano rojo y blanco de una curva, durante el Gran Premio de Austria de 2026',
+      credit: 'Lukas Raich · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'pedro-porro-27-anos-abuelo-final-mundial-medalla-don-benito-el-larguero',
+    title: 'Pedro Porro, 27 años, campeón del mundo: «La única espina, no haber llevado al abuelo a la final del Mundial»',
+    summary: 'El lateral de Don Benito contó en El Larguero lo que no salió en los titulares: su abuelo no pudo viajar a la final y le exigió la medalla por videollamada. Sus dos goles, la renovación y la madre que se quedó en casa.',
+    body: `La entrevista a Pedro Porro en El Larguero del jueves dejó un titular en todas partes: que le encantaría volver a España y que ahí lo dejaba cuando le preguntaron por Madrid o Barça. Lo mejor de la media hora larga de conversación con Manu Carreño llegó al final, cuando ya nadie preguntaba por fichajes. [En el minuto 56 del programa](https://www.youtube.com/watch?v=ex5-M3MvQOE&t=3405s), el lateral del Tottenham repasó quién estuvo con él en Estados Unidos y a quién le faltó: «La única espina que me queda es no haber llevado al abuelo a la final».
+
+Su abuelo tiene problemas respiratorios y no pudo viajar. Lo que sí hizo fue negociar por videollamada: le avisó de que si no traía la medalla no entraba en casa. La trajo.
+
+## Veinte días de familia en Estados Unidos
+
+Porro contó que sus padres, su mujer y sus hijos pasaron veinte días con él en el Mundial y se definió como un chaval de pueblo y de calle. Su madre, eso sí, se perdió la semifinal contra Francia: se quedó cuidando a su hijo pequeño, que tenía fiebre. El propio Porro corrigió al presentador, que situaba la ausencia en la final.
+
+El pueblo es Don Benito, en Badajoz. Allí, en 2010, un Porro de diez años celebró el primer Mundial de España bañándose en una fuente con sus amigos. Los mismos amigos que este verano la SER tuvo con un micrófono inalámbrico durante los partidos, y de los que dijo que son personas maravillosas de las que no se despega: su abuelo y sus amigos, en ese orden, son los que nombra cuando le preguntan de dónde saca el rendimiento.
+
+## Dos goles y un banquillo
+
+Porro no empezó el Mundial de titular. Según se repasó en el programa, arrastraba molestias físicas en el debut, que jugó Marcos Llorente, y a partir de ahí no soltó el puesto. Marcó dos goles, [según las actas de ESPN](https://www.espn.com/soccer/match/_/gameId/760514): de cabeza ante Austria el 2 de julio, en el 3-0 de dieciseisavos, y ante Francia en la semifinal del 14 de julio, el segundo del 0-2 en Arlington.
+
+| Partido | Fecha | Resultado | Gol de Porro |
+| --- | --- | --- | --- |
+| España - Austria (dieciseisavos) | 2 de julio | 3-0 | 66′, de cabeza |
+| Francia - España (semifinal) | 14 de julio | 0-2 | 58′ |
+| España - Argentina (final) | 19 de julio | 1-0 | — |
+
+Fue el lateral derecho de la final que [decidió Ferran Torres en la prórroga](/noticias/ferran-torres-gol-final-mundial-balon-de-oro-iniesta-2010-messi), la primera de España desde la de Iniesta en 2010.
+
+## Renovó antes para no pensar en ello
+
+Hay un detalle de calendario que explica la calma con la que habla de ofertas. El Tottenham le ofreció renovar antes del Mundial, sin saber si iba a jugar o no, y Porro [firmó el 14 de junio un contrato de larga duración](https://www.beinsports.com/en-us/soccer/premier-league/articles/porro-signs-new-long-term-spurs-contract-2026-06-14), de cinco años con opción a uno más según los medios ingleses. Dice que lo dejó zanjado para estar tranquilo durante el torneo y que, a la vuelta, el club le hizo un homenaje con todos los empleados y los jugadores.
+
+Sobre Madrid y Barça fue claro: hubo rumores, nadie le llamó con una oferta real y tiene contrato y respeto por su club. La frase que se llevó los titulares, que le haría ilusión volver algún día a España, la dijo después, cuando Jordi Martí le insistió. El Tottenham juega esta tarde a las 18:30 contra el Crystal Palace, [ficha del partido aquí](/futbol/premier-league/partido/401878761). Toda la trayectoria de la Roja en el Mundial, en la [página de la selección](/selecciones/ESP).`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'Premier League', sport: 'futbol', slug: 'premier-league' },
+    sourceName: 'El Larguero (Cadena SER, YouTube): entrevista a Pedro Porro, 29 de octubre de 2026',
+    sourceUrl: 'https://www.youtube.com/watch?v=ex5-M3MvQOE&t=1614s',
+    sourceLang: 'es',
+    publishedAt: '2026-10-31T16:48:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'ESPN: acta de la semifinal Francia - España', url: 'https://www.espn.com/soccer/match/_/gameId/760514' },
+      { name: 'ESPN: acta del España - Austria', url: 'https://www.espn.com/soccer/match/_/gameId/760497' },
+      { name: 'beIN Sports: Porro firma un nuevo contrato de larga duración con el Tottenham', url: 'https://www.beinsports.com/en-us/soccer/premier-league/articles/porro-signs-new-long-term-spurs-contract-2026-06-14' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Pedro_Porro_Argentina_v_Spain_19_July_2026-172.jpg/1280px-Pedro_Porro_Argentina_v_Spain_19_July_2026-172.jpg',
+      alt: 'Pedro Porro, con la camiseta roja de España y el dorsal 12, mira hacia un lado durante la final del Mundial 2026 contra Argentina; al fondo, desenfocado, Leo Messi',
+      credit: 'Bryan Berlin · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
     slug: 'nba-resultados-2026-10-31',
     title: "NBA: todos los resultados de la jornada y el partido más igualado",
     summary: "Resultados de los 10 partidos de la noche en la NBA, con el más igualado y el de más puntos.",
