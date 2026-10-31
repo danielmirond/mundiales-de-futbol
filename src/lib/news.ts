@@ -156,7 +156,7 @@ export const NEWS_ITEMS: NewsItem[] = [
   {
     slug: 'alcaraz-medvedev-semifinal-viena-resultado-final-domingo-donde-ver-noche-sabado-barca-alaves-f1',
     title: 'Alcaraz - Medvedev: resultado de la semifinal de Viena, cuándo es la final y qué más se puede ver esta noche',
-    summary: 'Carlos Alcaraz ganó a Daniil Medvedev en la semifinal de Viena y jugará la final del domingo en Movistar Plus+. Horarios de lo que queda del sábado: Betis, Barça, Premier, Canelo y la clasificación de F1.',
+    summary: 'Carlos Alcaraz ganó a Daniil Medvedev en la semifinal de Viena y jugará la final del domingo en Movistar Plus+. Horarios de lo que queda del sábado: Betis, Barça, Premier, Canelo y la F1.',
     body: `Carlos Alcaraz ganó este sábado a Daniil Medvedev por 6-4 y 7-6 (2) en la segunda semifinal del ATP 500 de Viena, [según el marcador de ESPN](https://www.espn.com/tennis/scoreboard). Es su cuarta victoria de la semana en el Wiener Stadthalle sin ceder un set y le mete en la final del domingo, la última antes del Masters 1000 de París.
 
 Su rival saldrá de la otra semifinal, que enfrenta a Alex de Minaur y Alexander Zverev a partir de las 16:50 (hora peninsular). Zverev, primer cabeza de serie, dejó fuera a Martín Landaluce en primera ronda y no ha perdido un set desde entonces; De Minaur llega tras ganar a Matteo Berrettini en cuartos.
@@ -271,7 +271,7 @@ Hay una pregunta al final de la charla que interesa en España. Edul le pide una
   {
     slug: 'pau-navarro-villarreal-grada-vacia-minuto-75-la-ceramica-datos-asistencia-vila-real',
     title: 'Pau Navarro y la grada que se vacía en La Cerámica: los datos de un estadio donde cabe media Vila-real',
-    summary: 'Pau Navarro, canterano de 21 años que hace tres veía los partidos desde la grada, pidió que La Cerámica no se vacíe en el minuto 75. Los datos dicen que el público va igual que el año pasado; cambian los resultados.',
+    summary: 'Pau Navarro, canterano de 21 años que hace tres estaba en la grada, pidió que La Cerámica no se vacíe en el minuto 75. Los datos dicen que el público va igual que el año pasado; cambian los resultados.',
     body: `El Villarreal perdió el viernes 0-1 con el Espanyol en La Cerámica, [con un gol de Leandro Cabrera en el minuto 60](https://www.espn.com/soccer/match/_/gameId/401882817), y el que habló al acabar fue un central de 21 años. Pau Navarro señaló a la grada: «No puede ser que en el minuto 75 el campo esté vacío», [dijo en zona mixta](https://castellonaldia.elmundo.es/deportes/villarreal-cf/villarreal-pau-navarro-no-puede-ser-que-el-campo-este-vacio-en-el-minuto-75-EL26871674). Pidió a la afición que apriete en los últimos minutos como aprietan en los campos rivales y se exigió a los jugadores lo primero.
 
 El dato que da peso a la queja es quién la hace. Navarro es de La Vilavella, un pueblo de la misma comarca, la Plana Baixa, y recordó que hace tres años él estaba en esa misma grada viendo al equipo. Ha vivido La Cerámica llena desde arriba y ahora la ve vaciarse desde abajo.
@@ -320,7 +320,7 @@ La respuesta inmediata llega en la Champions. El Villarreal recibe al Paris Sain
   {
     slug: 'marc-marquez-sepang-sprint-acosta-jorge-martin-baja-cuentas-titulo-motogp-qatar-valencia',
     title: 'Marc Márquez hace cuentas en Sepang: qué necesita para cerrar el Mundial con Jorge Martín fuera de combate',
-    summary: 'Pedro Acosta ganó el sprint de Malasia, pero el que más ganó fue Marc Márquez: sumó puntos mientras Jorge Martín renunciaba por la muñeca. Así queda el título con una carrera y tres grandes premios por delante.',
+    summary: 'Pedro Acosta ganó el sprint de Malasia, pero el que más ganó fue Marc Márquez: sumó puntos mientras Jorge Martín renunciaba por la muñeca. Así queda el título con una carrera y tres grandes premios.',
     body: `Pedro Acosta ganó el sprint del Gran Premio de Malasia con medio segundo de ventaja en una carrera a medio mojar, [según la crónica de MotoGP.com](https://www.motogp.com/es/news/2026/10/31/acosta-denies-marc-marquez-and-bezzecchi-in-tense-sprint-showdown-at-sepang/1181622). Álex Márquez se fue al suelo cuando lideraba, en la curva 14 y con la lluvia asomando; Ai Ogura heredó la cabeza y la perdió en el cuerpo a cuerpo final con Acosta y con Marc Márquez, que acabó segundo por delante de Marco Bezzecchi. El resultado que importa para el título, sin embargo, se decidió en el box de Aprilia.
 
 Jorge Martín no corre en Sepang. Se fracturó la muñeca hace seis días en Australia, probó el viernes con doce vueltas por la mañana y algunas más por la tarde, volvió a salir en el segundo libre del sábado y [se retiró del Gran Premio antes de la clasificación](https://www.motogp.com/es/news/2026/10/31/martin-withdraws-the-89-wont-take-part-in-malaysia/1182474). Llegaba a Malasia a diez puntos de Márquez después de [un fin de semana en Phillip Island sin carrera](/noticias/motogp-cancela-gran-premio-australia-helicoptero-medico-marquez-martin-mundial), cancelada por la niebla que impedía volar al helicóptero médico.
@@ -370,7 +370,7 @@ El calendario acaba así porque el Gran Premio de Qatar, previsto para abril, [s
   {
     slug: 'pedro-porro-27-anos-abuelo-final-mundial-medalla-don-benito-el-larguero',
     title: 'Pedro Porro, 27 años, campeón del mundo: «La única espina, no haber llevado al abuelo a la final del Mundial»',
-    summary: 'El lateral de Don Benito contó en El Larguero lo que no salió en los titulares: su abuelo no pudo viajar a la final y le exigió la medalla por videollamada. Sus dos goles, la renovación y la madre que se quedó en casa.',
+    summary: 'El lateral de Don Benito contó en El Larguero lo que no salió en titulares: su abuelo no pudo viajar a la final y le exigió la medalla por videollamada. Sus dos goles, la renovación y la madre que se quedó en casa.',
     body: `La entrevista a Pedro Porro en El Larguero del jueves dejó un titular en todas partes: que le encantaría volver a España y que ahí lo dejaba cuando le preguntaron por Madrid o Barça. Lo mejor de la media hora larga de conversación con Manu Carreño llegó al final, cuando ya nadie preguntaba por fichajes. [En el minuto 56 del programa](https://www.youtube.com/watch?v=ex5-M3MvQOE&t=3405s), el lateral del Tottenham repasó quién estuvo con él en Estados Unidos y a quién le faltó: «La única espina que me queda es no haber llevado al abuelo a la final».
 
 Su abuelo tiene problemas respiratorios y no pudo viajar. Lo que sí hizo fue negociar por videollamada: le avisó de que si no traía la medalla no entraba en casa. La trajo.
