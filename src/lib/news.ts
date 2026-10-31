@@ -154,6 +154,259 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'clasificacion-nba-semana-2026-44',
+    title: "NBA: así queda la clasificación esta semana, con Pistons líder",
+    summary: "Pistons lidera NBA con 4 victorias y 1 derrotas. Tabla comentada de NBA 2027: cabeza, zona baja y enlace a la clasificación completa.",
+    body: `Pistons lidera NBA con 4 victorias y 1 derrotas.
+
+## Eastern Conference
+
+1. **Pistons** — 4-1
+2. **76ers** — 4-1
+3. **Celtics** — 3-1 (a 0.5)
+4. **Raptors** — 3-1 (a 0.5)
+5. **Hornets** — 3-2 (a 1)
+6. **Cavaliers** — 3-2 (a 1)
+7. **Hawks** — 3-3 (a 1.5)
+8. **Knicks** — 2-3 (a 2)
+
+## Western Conference
+
+1. **Rockets** — 5-0
+2. **Grizzlies** — 5-0
+3. **Thunder** — 4-1 (a 1)
+4. **Lakers** — 4-1 (a 1)
+5. **Trail Blazers** — 3-1 (a 1.5)
+6. **Spurs** — 3-2 (a 2)
+7. **Mavericks** — 3-2 (a 2)
+8. **Timberwolves** — 3-2 (a 2)
+
+La clasificación completa, con todos los equipos y los próximos partidos, está en la [página de NBA](/baloncesto/nba).`,
+    category: 'general',
+    kind: 'clasificacion',
+    competition: {"name":"NBA","sport":"baloncesto","slug":"nba"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/nba/standings",
+    sourceLang: 'en',
+    publishedAt: '2026-10-31T01:02:54.068Z',
+    author: "Redacción Mundiales de Fútbol",
+  },
+  {
+    slug: 'cronica-villarreal-espanyol-401882817',
+    title: "Espanyol se impone a Villarreal (1-0) con gol de Leandro Cabrera en LaLiga",
+    summary: "Leandro Cabrera marcó; Villarreal remató 14 veces (4 a puerta) en el Espanyol 1-0 Villarreal de LaLiga.",
+    body: `Villarreal llegaba de ganar 2-1 a Valencia; Espanyol, de perder 1-2 ante Racing. Acabó ganando Espanyol 1-0, con gol de Leandro Cabrera. Marcaron Leandro Cabrera (60', Espanyol).
+
+## En cifras
+
+Villarreal manejó el balón (63 % por 37 %) y tiró 14 veces, 4 entre los tres palos; Espanyol se quedó en 5 remates (3 a puerta). Córners: 7 por 3.
+
+## La clasificación
+
+Tras el partido, Villarreal 10.º con 12 puntos y Espanyol 12.º con 11 puntos en la [clasificación de LaLiga](/futbol/laliga).
+
+Ficha: 6 amarillas · 10 cambios. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/laliga/partido/401882817).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882817",
+    sourceLang: 'en',
+    publishedAt: '2026-10-31T01:02:54.068Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/ESTADIO3.jpg/1280px-ESTADIO3.jpg",
+      alt: "El estadio de la Cerámica de Villarreal lleno durante un partido nocturno",
+      credit: "Frank94Rock · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'partidos-baloncesto-hoy-2026-10-31',
+    title: "Partidos de baloncesto hoy, sábado 31 de octubre: horarios y dónde ver NBA",
+    summary: "Agenda de baloncesto de hoy sábado 31 de octubre: 2 partidos con horario en hora española y canal de televisión. Destaca Jazz - Trail Blazers.",
+    body: `Jornada de baloncesto con 2 citas este sábado 31 de octubre. Horarios en hora peninsular y dónde verlas, competición por competición. El partido que más miradas reúne es el **[Jazz - Trail Blazers](/baloncesto/nba/partido/401909896)** (NBA, 20:00 h).
+
+## 🇺🇸 NBA
+
+- **[Jazz - Trail Blazers](/baloncesto/nba/partido/401909896)** — 20:00 h
+- **[Hornets - 76ers](/baloncesto/nba/partido/401909897)** — 23:00 h
+
+Calendario y clasificación en la [página de NBA](/baloncesto/nba).
+
+Todos los horarios están en hora peninsular. Los marcadores se actualizan en directo en cada ficha de partido. Toda la jornada, con marcadores en directo, en [partidos de hoy](/partidos-hoy).`,
+    category: 'tv',
+    kind: 'agenda',
+    competition: {"name":"NBA","sport":"baloncesto","slug":"nba"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/nba/game/_/gameId/401909896",
+    sourceLang: 'en',
+    publishedAt: '2026-10-31T01:02:54.068Z',
+    modifiedAt: '2026-10-31T01:02:54.068Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Delta_Center_2023.jpg/1920px-Delta_Center_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Delta Center, escenario del Jazz - Trail Blazers",
+      credit: "Lomrjyo · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'partidos-futbol-hoy-2026-10-31',
+    title: "Partidos de fútbol hoy, sábado 31 de octubre: horarios y dónde ver LaLiga, Premier League y Süper Lig",
+    summary: "Agenda de fútbol de hoy sábado 31 de octubre: 62 partidos con horario en hora española y canal de televisión. Destaca Chelsea - Man Utd.",
+    body: `Sábado 31 de octubre deja 62 partidos de fútbol en las competiciones que seguimos. Aquí van, con la hora en España y el canal donde se ven. El partido que más miradas reúne es el **[Chelsea - Man Utd](/futbol/premier-league/partido/401879248)** (Premier League, 13:30 h).
+
+## 🇹🇷 Süper Lig
+
+- **[Erzurum - Çorum FK](/futbol/super-lig/partido/401888373)** — 11:30 h
+- **[Kocaelispor - Caykur Rizespor](/futbol/super-lig/partido/401888257)** — 14:00 h
+- **[Fenerbahce - Goztepe](/futbol/super-lig/partido/401888258)** — 17:00 h
+
+Calendario y clasificación en la [página de Süper Lig](/futbol/super-lig).
+
+## 🇪🇸 Liga F
+
+- **[Granada - Atlético Madrid](/futbol/liga-f/partido/401882473)** — 12:00 h
+- **[Valencia - Eibar](/futbol/liga-f/partido/401882469)** — 12:00 h
+- **[Espanyol -  Dux Logroño](/futbol/liga-f/partido/401882474)** — 16:00 h
+- **[Madrid CFF - Deportivo](/futbol/liga-f/partido/401882472)** — 18:00 h
+
+Calendario y clasificación en la [página de Liga F](/futbol/liga-f).
+
+## 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Premier League
+
+- **[Chelsea - Man Utd](/futbol/premier-league/partido/401879248)** — 13:30 h · 📺 DAZN / DAZN 1
+- **[Bournemouth - Leeds](/futbol/premier-league/partido/401879251)** — 16:00 h · 📺 DAZN / DAZN 1
+- **[Brentford - Nottm Forest](/futbol/premier-league/partido/401879249)** — 16:00 h · 📺 DAZN / DAZN 2
+- **[Coventry - Sunderland](/futbol/premier-league/partido/401879247)** — 16:00 h · 📺 DAZN / DAZN 3
+- **[Hull - Ipswich](/futbol/premier-league/partido/401878763)** — 16:00 h · 📺 DAZN
+- **[Man City - Brighton](/futbol/premier-league/partido/401879245)** — 16:00 h · 📺 DAZN / DAZN 1
+- **[Spurs - C Palace](/futbol/premier-league/partido/401878761)** — 18:30 h · 📺 DAZN / DAZN 1
+- **[Aston Villa - Fulham](/futbol/premier-league/partido/401879250)** — 21:00 h · 📺 DAZN / DAZN 1
+
+Calendario y clasificación en la [página de Premier League](/futbol/premier-league).
+
+## 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Championship
+
+- **[Lincoln City - Birmingham](/futbol/championship/partido/401880194)** — 13:30 h
+- **[Norwich City - Watford](/futbol/championship/partido/401880191)** — 13:30 h
+- **[Stoke - Preston](/futbol/championship/partido/401880188)** — 13:30 h
+- **[Bolton - Bristol City](/futbol/championship/partido/401880196)** — 16:00 h
+- **[Burnley - Portsmouth](/futbol/championship/partido/401880195)** — 16:00 h
+- **[Boro - Charlton](/futbol/championship/partido/401880193)** — 16:00 h
+- **[Millwall - Derby](/futbol/championship/partido/401880192)** — 16:00 h
+- **[Southampton - QPR](/futbol/championship/partido/401880189)** — 16:00 h
+- **[Swansea - Blackburn](/futbol/championship/partido/401880187)** — 16:00 h
+- **[West Ham - West Brom](/futbol/championship/partido/401880186)** — 16:00 h
+- **[Wolves - Cardiff](/futbol/championship/partido/401880185)** — 16:00 h
+
+Calendario y clasificación en la [página de Championship](/futbol/championship).
+
+## 🇪🇸 LaLiga
+
+- **[Levante - Atlético](/futbol/laliga/partido/401882820)** — 14:00 h · 📺 M+ LALIGA
+- **[Rayo - Celta Vigo](/futbol/laliga/partido/401882818)** — 16:15 h · 📺 DAZN LaLiga 2 / DAZN
+- **[Betis - Málaga](/futbol/laliga/partido/401882825)** — 18:30 h · 📺 DAZN LaLiga / DAZN
+- **[Barcelona - Alavés](/futbol/laliga/partido/401882822)** — 21:00 h · 📺 M+ LALIGA / Movistar Plus+
+
+Calendario y clasificación en la [página de LaLiga](/futbol/laliga).
+
+## 🇪🇸 LaLiga Hypermotion
+
+- **[Real Sociedad II - Girona](/futbol/laliga-2/partido/401883145)** — 14:00 h
+- **[Eibar - Almería](/futbol/laliga-2/partido/401883148)** — 16:15 h · 📺 LALIGA TV Hypermotion / DAZN
+- **[Celta Fortuna - Córdoba](/futbol/laliga-2/partido/401883307)** — 18:30 h
+- **[Albacete - CD Sabadell](/futbol/laliga-2/partido/401883126)** — 21:00 h · 📺 LALIGA TV Hypermotion / DAZN
+
+Calendario y clasificación en la [página de LaLiga 2](/futbol/laliga-2).
+
+## 🇮🇹 Serie A
+
+- **[Bologna - Monza](/futbol/serie-a/partido/401874798)** — 15:00 h · 📺 DAZN
+- **[Udinese - AS Roma](/futbol/serie-a/partido/401874990)** — 18:00 h · 📺 DAZN / Movistar Plus+
+- **[Milan - Inter Milan](/futbol/serie-a/partido/401874795)** — 20:45 h · 📺 DAZN
+
+Calendario y clasificación en la [página de Serie A](/futbol/serie-a).
+
+## 🇩🇪 Bundesliga
+
+- **[Leverkusen - Stuttgart](/futbol/bundesliga/partido/401884753)** — 15:30 h · 📺 DAZN
+- **[Gladbach - Paderborn](/futbol/bundesliga/partido/401884749)** — 15:30 h · 📺 DAZN
+- **[Augsburg - Freiburg](/futbol/bundesliga/partido/401884751)** — 15:30 h · 📺 DAZN
+- **[Schalke - RB Leipzig](/futbol/bundesliga/partido/401884747)** — 15:30 h · 📺 DAZN / Movistar Plus+
+- **[Bremen - Hoffenheim](/futbol/bundesliga/partido/401884748)** — 15:30 h · 📺 DAZN
+- **[Bayern - Dortmund](/futbol/bundesliga/partido/401884754)** — 18:30 h · 📺 DAZN
+
+Calendario y clasificación en la [página de Bundesliga](/futbol/bundesliga).
+
+## 🇳🇱 Eredivisie
+
+- **[Feyenoord - Fortuna](/futbol/eredivisie/partido/401875565)** — 16:30 h · 📺 DAZN
+- **[Heerenveen - NEC](/futbol/eredivisie/partido/401875563)** — 18:45 h · 📺 DAZN
+- **[PSV - Willem II](/futbol/eredivisie/partido/401875564)** — 18:45 h · 📺 DAZN
+- **[Ajax - AZ Alkmaar](/futbol/eredivisie/partido/401875562)** — 21:00 h · 📺 DAZN
+- **[Cambuur - Go Ahead Eagles](/futbol/eredivisie/partido/401875561)** — 21:00 h · 📺 DAZN
+
+Calendario y clasificación en la [página de Eredivisie](/futbol/eredivisie).
+
+## 🇵🇹 Primeira Liga
+
+- **[Moreirense - Estrela](/futbol/primeira-liga/partido/401885405)** — 16:30 h
+- **[FC Porto - Estoril](/futbol/primeira-liga/partido/401885404)** — 21:30 h · 📺 DAZN
+
+Calendario y clasificación en la [página de Primeira Liga](/futbol/primeira-liga).
+
+## 🇺🇸 MLS
+
+- **[Charlotte - Orlando](/futbol/mls/partido/761922)** — 18:00 h
+- **[Columbus - D.C. United](/futbol/mls/partido/761924)** — 19:00 h
+- **[Cincinnati - Philadelphia](/futbol/mls/partido/761919)** — 19:00 h
+- **[NYCFC - CF Montréal](/futbol/mls/partido/761930)** — 19:00 h
+- **[Kansas City - Dallas](/futbol/mls/partido/761928)** — 20:00 h
+- **[St. Louis - San Diego](/futbol/mls/partido/761926)** — 20:00 h
+- **[LA Galaxy - Austin](/futbol/mls/partido/761925)** — 22:00 h
+- **[San Jose - Salt Lake](/futbol/mls/partido/761929)** — 22:00 h
+
+Calendario y clasificación en la [página de MLS](/futbol/mls).
+
+## 🇧🇷 Brasileirão
+
+- **[Coritiba - Vitória](/futbol/brasileirao/partido/401841294)** — 20:00 h
+
+Calendario y clasificación en la [página de Brasileirão](/futbol/brasileirao).
+
+## 🇫🇷 Ligue 1
+
+- **[Troyes - Le Mans](/futbol/ligue-1/partido/401876413)** — 20:45 h · 📺 DAZN
+
+Calendario y clasificación en la [página de Ligue 1](/futbol/ligue-1).
+
+## 🇦🇷 Liga Profesional Argentina
+
+- **[Riestra - Talleres ](/futbol/liga-argentina/partido/401841656)** — 21:00 h
+- **[Vélez  - San Lorenzo ](/futbol/liga-argentina/partido/401841646)** — 23:15 h · 📺 M+ Liga de Campeones
+
+Calendario y clasificación en la [página de Liga Argentina](/futbol/liga-argentina).
+
+Hora peninsular en todos los casos. Si un canal cambia a última hora, la ficha del partido lo recoge. Toda la jornada, con marcadores en directo, en [partidos de hoy](/partidos-hoy).`,
+    category: 'tv',
+    kind: 'agenda',
+    competition: {"name":"Premier League","sport":"futbol","slug":"premier-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401879248",
+    sourceLang: 'en',
+    publishedAt: '2026-10-31T01:02:54.068Z',
+    modifiedAt: '2026-10-31T01:02:54.068Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/London_Stamford_Bridge.jpg/1280px-London_Stamford_Bridge.jpg",
+      alt: "Vista aérea de Stamford Bridge, el estadio del Chelsea, entre los edificios de Londres",
+      credit: "Arne Müseler · Wikimedia Commons",
+      license: "CC BY-SA 3.0 de",
+    },
+  },
+  {
     slug: 'nba-resultados-2026-10-30',
     title: "NBA: todos los resultados de la jornada y el partido más igualado",
     summary: "Resultados de los 3 partidos de la noche en la NBA, con el más igualado y el de más puntos.",
@@ -322,8 +575,8 @@ Marcadores en directo, calendario y clasificación por conferencias en la [pági
 
 ## Horarios del Gran Premio de México
 
-- **Libres 1**: viernes 30 de octubre, a las 19:30 (hora peninsular)
-- **Libres 2**: viernes 30 de octubre, a las 23:00 (hora peninsular)
+- **Libres 1**: viernes 30 de octubre, a las 19:30 (hora peninsular). Mejor tiempo: Charles Leclerc
+- **Libres 2**: viernes 30 de octubre, a las 23:00 (hora peninsular). Mejor tiempo: Charles Leclerc
 - **Libres 3**: sábado 31 de octubre, a las 18:30 (hora peninsular)
 - **Clasificación**: sábado 31 de octubre, a las 22:00 (hora peninsular)
 - **Carrera**: domingo 1 de noviembre, a las 21:00 (hora peninsular)
@@ -346,7 +599,7 @@ Horarios, resultados de cada sesión y clasificación completa del Mundial en la
     sourceUrl: "https://www.espn.com/f1/schedule",
     sourceLang: 'en',
     publishedAt: '2026-10-29T13:42:22.845Z',
-    modifiedAt: '2026-10-30T13:31:27.074Z',
+    modifiedAt: '2026-10-31T01:02:54.068Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Vista_a%C3%A9rea_del_Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez_01.jpg/1920px-Vista_a%C3%A9rea_del_Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
