@@ -154,6 +154,276 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'neymar-caribe-brasileno-tamandare-fiscalia-pernambuco-pide-frenar-obra-projeto-28-due-nr-sports',
+    title: 'Neymar y su «Caribe brasileño»: la Fiscalía de Pernambuco pide frenar una obra ligada a su empresa',
+    summary: 'El Ministerio Público de Pernambuco recomendó parar cinco obras en Tamandaré por falta de estudio ambiental. Una es el Projeto 28, de la ruta de lujo que Due promueve con la empresa de Neymar.',
+    body: `El gran proyecto inmobiliario ligado a Neymar en el nordeste de Brasil tiene un frente abierto con la justicia. El Ministerio Público de Pernambuco recomendó a finales de septiembre paralizar cinco obras en Tamandaré, en el litoral sur del estado, porque no tienen estudio de impacto ambiental, [según publicó Movimento Econômico](https://movimentoeconomico.com.br/economia/justica/2026/09/29/mppe-pede-suspensao-de-5-obras-em-tamandare-incluindo-resort-ligado-a-neymar/). Una de ellas es el Projeto 28, un residencial de tipo *home resort* de Due Incorporadora.
+
+Due desarrolla con NR Sports, la empresa del jugador que gestiona su padre, Neymar da Silva Santos, la llamada Rota Due Caribe Brasileiro, [según CNN Brasil](https://www.tnh1.com.br/noticia/nid/mp-recomenda-paralisacao-de-obras-em-empreendimento-ligado-a-neymar-em-pe/). La historia ha vuelto a circular este domingo en la prensa brasileña, pero no ha llegado a la española.
+
+## Qué pide la Fiscalía
+
+La norma municipal de Tamandaré, la ley 188/2002, exige un estudio de impacto ambiental (EIA/RIMA) a cualquier obra de más de 5.000 metros cuadrados construidos. El Ministerio Público sostiene que las cinco las superan según sus propios documentos, y que la superficie se calcula entera, sin trocearla por bloques o fases. Pide tres cosas:
+
+- Al ayuntamiento, que suspenda de forma cautelar licencias y permisos, embargue las obras y no conceda nuevas licencias ni certificados de habitabilidad hasta que se regularice la situación.
+- A la CPRH, la agencia ambiental del estado, que suspenda las licencias ambientales.
+- A las promotoras, que no vendan unidades nuevas sin avisar de que sus licencias están en revisión.
+
+El argumento es el lugar. Tamandaré tiene arrecifes, manglares y zonas protegidas, y el Ministerio Público defiende que hay que evaluar antes para evitar «danos de difícil reparação», daños difíciles de reparar.
+
+## Lo que responden
+
+Es una recomendación, no una orden judicial. Si no se atiende, la Fiscalía puede acudir a los tribunales. Due asegura que está «técnicamente regular»: cita el permiso de obra 47/2025 del ayuntamiento, válido hasta mayo de 2028, y una licencia de instalación de la CPRH vigente hasta julio de 2028. La CPRH dijo que lo estaba evaluando y el ayuntamiento no contestó a la prensa. El equipo de Neymar respondió a CNN Brasil que no se pronunciaría.
+
+## El tamaño del sueño
+
+La alianza entre NR Sports y Due se anunció en mayo de 2024. La ruta prevé 28 promociones en la costa, desde Porto de Galinhas y Carneiros, en Pernambuco, hasta Maragogi y Japaratinga, en Alagoas, con un valor de ventas estimado de 7.500 millones de reales, [según Movimento Econômico](https://movimentoeconomico.com.br/construcao-civil/2024/05/21/caribe-brasileiro-de-pe-e-al-vale-r-75-bi-para-neymar-e-parceria/). Esa cifra es lo que esperan vender, no lo que ha invertido Neymar: cuánto ha puesto de su bolsillo no consta en ninguna de las fuentes.
+
+Las otras cuatro obras señaladas en Tamandaré no tienen relación con el jugador: el Ecoresort Tamandaré, Tamana Flow, Villa Arcos Residence y Green Sea Essence. Neymar jugó en el Barça entre 2013 y 2017; su paso por el fútbol español y su carrera se pueden seguir en [la sección de fútbol](/futbol) y la liga brasileña, en [la página del Brasileirão](/futbol/brasileirao).`,
+    category: 'curiosa',
+    kind: 'noticia',
+    competition: { name: 'Brasileirão', sport: 'futbol', slug: 'brasileirao' },
+    sourceName: 'Movimento Econômico: el MPPE pide suspender cinco obras en Tamandaré',
+    sourceUrl: 'https://movimentoeconomico.com.br/economia/justica/2026/09/29/mppe-pede-suspensao-de-5-obras-em-tamandare-incluindo-resort-ligado-a-neymar/',
+    sourceLang: 'pt',
+    publishedAt: '2026-11-01T21:04:30+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'CNN Brasil (TNH1): el MP recomienda parar obras ligadas a Neymar', url: 'https://www.tnh1.com.br/noticia/nid/mp-recomenda-paralisacao-de-obras-em-empreendimento-ligado-a-neymar-em-pe/' },
+      { name: 'Movimento Econômico: el «Caribe brasileño» de Neymar (2024)', url: 'https://movimentoeconomico.com.br/construcao-civil/2024/05/21/caribe-brasileiro-de-pe-e-al-vale-r-75-bi-para-neymar-e-parceria/' },
+      { name: 'A Tribuna: Neymar invierte en el «Caribe brasileño»', url: 'https://www.atribuna.com.br/noticias/brasil-e-economia/neymar-investe-no-caribe-brasileiro-mas-projeto-bilionario-com-imoveis-de-luxo-no-litoral-tem-obras-paralisadas-1.535268' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Neymar_%2816245492137%29.jpg/1280px-Neymar_%2816245492137%29.jpg',
+      alt: 'Neymar, con la camiseta azulgrana del Barcelona y el dorsal 11, mira a un lado sobre el césped del Camp Nou, con dos jugadores del Villarreal desenfocados detrás',
+      credit: 'Alex Fau · Wikimedia Commons',
+      license: 'CC BY 2.0',
+    },
+  },
+  {
+    slug: 'deportivo-osasuna-riazor-jodar-tabilo-paris-turin-lunes-2-noviembre-horarios-donde-ver',
+    title: 'Deportivo - Osasuna cierra la jornada y Jódar se juega Turín en París: horarios del lunes',
+    summary: 'El lunes trae el Deportivo - Osasuna en Riazor, el estreno de Rafael Jódar en el Masters de París ante Tabilo, tres partidos de Segunda y el Newcastle - Everton. Horarios y canales.',
+    body: `El lunes 2 de noviembre tiene tenis por la mañana y fútbol por la noche. Rafael Jódar debuta en el Masters 1000 de París contra Alejandro Tabilo, con su plaza en las ATP Finals en juego, y a las 21:00 el Deportivo recibe a Osasuna en Riazor para cerrar la undécima jornada de LaLiga, [como fijó la propia LaLiga](https://www.laliga.com/noticias/horarios-de-la-undecima-jornada-de-laliga-ea-sports-2026-27). A la misma hora se juegan el Newcastle - Everton y el Mallorca - Cádiz de Segunda.
+
+*Esta pieza incluye enlaces de afiliado. Si contratas desde ellos, Mundiales recibe una comisión sin coste extra para ti.*
+
+## Horarios del lunes
+
+| Península | Canarias | Partido | Competición | TV |
+| --- | --- | --- | --- | --- |
+| 11:00 (2.º turno) | 10:00 (2.º turno) | Rafael Jódar - Alejandro Tabilo | Masters 1000 de París, pista central | Movistar Plus+ |
+| 11:00 (3.er turno) | 10:00 (3.er turno) | Daniel Mérida - Alexander Blockx | Masters 1000 de París, pista 2 | Movistar Plus+ |
+| 16:15 | 15:15 | [Real Oviedo - Las Palmas](/futbol/laliga-2/partido/401883146) | LaLiga Hypermotion | LALIGA TV Hypermotion, DAZN, Orange Fútbol 2 |
+| 18:30 | 17:30 | [Real Valladolid - Leganés](/futbol/laliga-2/partido/401883123) | LaLiga Hypermotion | LALIGA TV Hypermotion, DAZN |
+| 18:30 | 17:30 | Sassuolo - Fiorentina | Serie A | DAZN |
+| 20:45 | 19:45 | Atalanta - Parma | Serie A | DAZN |
+| 21:00 | 20:00 | [Deportivo - Osasuna](/futbol/laliga/partido/401882824) | LaLiga | M+ LaLiga y DAZN |
+| 21:00 | 20:00 | [Newcastle - Everton](/futbol/premier-league/partido/401878762) | Premier League | DAZN |
+| 21:00 | 20:00 | [Mallorca - Cádiz](/futbol/laliga-2/partido/401883147) | LaLiga Hypermotion | LALIGA TV Hypermotion, DAZN, Orange Fútbol 2 |
+
+Los canales de fútbol son los de la programación que recoge cada ficha de partido. El tenis de París no tiene hora cerrada para los españoles: el torneo solo fija el inicio de cada pista. Los Masters 1000 los emite [Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ftenis%2Fdonde-ver), como detalla [la guía del tenis en España](/noticias/donde-ver-tenis-espana-atp-finals-copa-davis-alcaraz-movistar-hbo-max).
+
+## Jódar, otra vez contra Tabilo
+
+En la pista central abren Lorenzo Musetti y Hubert Hurkacz a las 11:00, y después salen Tabilo y Jódar, noveno cabeza de serie, [según el orden de juego del torneo](https://www.atptour.com/en/scores/current/paris/352/daily-schedule). Es la quinta vez que se cruzan en 2026. Tabilo ganó en Indian Wells, y Jódar, en Washington, en Cincinnati y el martes pasado en Basilea, por 6-4 y 6-2. Allí cayó en la ronda siguiente ante Valentin Vacherot en tres sets.
+
+Jódar llega noveno a la carrera de las ATP Finals con 3.184 puntos, [según la clasificación en vivo de la ATP](https://www.atptour.com/en/rankings/singles-race-to-turin). Frances Tiafoe es octavo con 3.380 y Alex de Miñaur, que perdió este domingo la final de Viena ante Carlos Alcaraz, está décimo a solo 24 puntos del español. Por qué ese noveno puesto puede valer una plaza lo contamos [tras su final de Shanghái](/noticias/rafael-jodar-ultima-plaza-turin-atp-finals-quien-puede-quitarsela-basilea-viena-paris). Alcaraz, campeón en Viena, se estrena en París el miércoles.
+
+El otro español del lunes es Daniel Mérida, que juega en la pista 2 después de un partido individual y otro de dobles. Mérida perdió en la primera ronda de Viena ante Daniil Medvedev, en dos sets.
+
+## Riazor, entre dos rachas
+
+Deportivo y Osasuna llegan empatados a 11 puntos: el equipo gallego es 13.º y el navarro, 15.º, según la ficha del partido. El Deportivo perdió su último partido de Liga en el Metropolitano (1-0) y pasó la eliminatoria de Copa del jueves con un 0-3 en el campo del Auriense. Osasuna cayó 2-0 en Sevilla y goleó 0-6 al Atlético Calatayud en la Copa.
+
+En la Premier, el Newcastle recibe al Everton cuatro días después de perder 3-1 en el campo del Everton. Los dos andan a mitad de tabla, con 11 y 10 puntos.
+
+## La Segunda, en tres turnos
+
+El Oviedo, noveno con 18 puntos, abre la tarde contra Las Palmas. El Valladolid y el Leganés empatan a 12 puntos y juegan con la zona de descenso a tiro. Por la noche, el Mallorca, octavo con 19, recibe al Cádiz, penúltimo con 10. Un triunfo bermellón lo dejaría a cinco puntos del líder, el Castellón, que suma 27 [en la tabla de la categoría](/futbol/laliga-2). Qué plataforma da cada competición y cuánto cuesta está en [la guía para ver deporte en España](/noticias/donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1) y, para la Segunda, en [la guía de LaLiga Hypermotion](/noticias/donde-ver-laliga-hypermotion-2026-27-dazn-movistar-precios-autonomicas).`,
+    category: 'tv',
+    kind: 'noticia',
+    competition: { name: 'LaLiga', sport: 'futbol', slug: 'laliga' },
+    sourceName: 'LaLiga: horarios de la undécima jornada',
+    sourceUrl: 'https://www.laliga.com/noticias/horarios-de-la-undecima-jornada-de-laliga-ea-sports-2026-27',
+    sourceLang: 'es',
+    publishedAt: '2026-11-01T20:58:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'ATP Tour: orden de juego de París', url: 'https://www.atptour.com/en/scores/current/paris/352/daily-schedule' },
+      { name: 'ATP: carrera a Turín en vivo', url: 'https://www.atptour.com/en/rankings/singles-race-to-turin' },
+      { name: 'ATP: Jódar - Tabilo en Cincinnati', url: 'https://www.atptour.com/en/news/jodar-tabilo-cincinnati-2026-monday' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Estadio_de_Riazor_-_1.jpg/1280px-Estadio_de_Riazor_-_1.jpg',
+      alt: 'Vista de A Coruña desde lo alto con el estadio de Riazor junto al mar',
+      credit: 'Pablo Herrero from LA CORUÑA, Spain · Wikimedia Commons',
+      license: 'CC BY 2.0',
+    },
+  },
+  {
+    slug: 'real-madrid-burgos-90-79-tavares-tapon-739-record-acb-fran-vazquez-homenaje-movistar-arena',
+    title: 'Real Madrid - Burgos: el tapón 739 de Tavares que paró el partido y dejó atrás a Fran Vázquez',
+    summary: 'El Madrid ganó 90-79 al San Pablo Burgos y Edy Tavares se convirtió en el máximo taponador de la historia de la Liga Endesa. Lo logró en 408 partidos; Fran Vázquez necesitó 656.',
+    body: `El Real Madrid ganó 90-79 al Recoletas Salud San Pablo Burgos este domingo en el Movistar Arena, en la sexta jornada de la Liga Endesa. El resultado fue lo de menos. Edy Tavares llegó con 737 tapones en la competición y salió con 739: desde esta tarde es el máximo taponador de la historia de la liga.
+
+Igualó a Fran Vázquez en el primer cuarto, con un tapón a Sekou Doumbouya, y lo superó a los 36 segundos del tercero, al taponar a Balsa Koprivica, [según la crónica de EFE](https://www.mundodeportivo.com/baloncesto/acb/20261101/1004245795/tavares-bate-historico-record-liga-endesa.html). El partido se detuvo ahí mismo.
+
+## La pausa
+
+Su mujer y sus hijos bajaron a la pista con una placa y un trofeo con forma de mano gigante, Sergio Llull le dio el balón del récord y el pabellón se puso en pie. No todo el mundo lo vio con buenos ojos: Pedro Martínez elogió al jugador, pero cuestionó que el homenaje se hiciera con el partido en juego, [según recoge OKDiario](https://okdiario.com/diariomadridista/baloncesto/pausa-casi-inedita-real-madrid-burgos-homenajear-tavares-que-critico-pedro-martinez-674103).
+
+Tavares jugó 13 minutos y 44 segundos: 6 puntos, 6 rebotes, 2 tapones y 15 de valoración. «Cumplir esto en la mejor Liga del mundo es algo muy grande y lo recordaré siempre», dijo después [a la web del club](https://www.realmadrid.com/es-ES/noticias/baloncesto/primer-equipo/actualidad/tavares-maximo-taponador-historico-de-la-acb-01-11-2026).
+
+## 408 partidos contra 656
+
+Lo que separa los dos récords es el tiempo. Fran Vázquez, que se retiró en mayo de 2020 con 37 años, dejó la marca en 738 tapones tras 656 partidos. Tavares la ha batido en el 408.º, el jugador que menos partidos ha necesitado para liderar una de las grandes estadísticas históricas de la liga, [según la propia ACB](https://acb.com/es/liga/noticias/edy-tavares-lider-historico-de-la-liga-endesa-en-tapones-146353).
+
+| | Edy Tavares | Fran Vázquez |
+| --- | --- | --- |
+| Tapones en la Liga Endesa | 739 (y sumando) | 738 |
+| Partidos | 408 | 656 |
+| Reparto | 122 con el Gran Canaria, 617 con el Madrid | Último club: Casademont Zaragoza |
+| Ritmo | Un tapón cada 11 min 47 s | Un tapón cada 16 min 5 s |
+
+Su frecuencia es la tercera mejor de la historia entre los jugadores con al menos 100 partidos. El siguiente en activo de la lista, Pustovyi, tiene 353.
+
+## De Maio a la Castellana
+
+Walter Samuel Tavares da Veiga nació el 22 de marzo de 1992 en Maio, en Cabo Verde, y mide 2,20, según su ficha en el club. Empezó a jugar al baloncesto con 17 años; antes vendía leche y pescado con su madre en la isla, [contaba El Debate](https://www.eldebate.com/deportes/20211021/real-madrid-fenerbahce-duelo-altura-decidira-pintura.html). Pasó por La Palma y el Gran Canaria, jugó en la NBA con los Atlanta Hawks y los Cleveland Cavaliers y debutó con el Madrid en noviembre de 2017, después de debutar en la Liga Endesa en enero de 2013 con el Gran Canaria. Esta es su décima temporada de blanco.
+
+## Cómo queda la liga
+
+En el partido, Luwawu-Cabarrot fue el máximo anotador del Madrid con 17 puntos y Shulga sumó 14 en 15 minutos, con cuatro triples. Por el Burgos, DJ Steward anotó 20. El Madrid es líder invicto con seis victorias, dos por delante de un grupo de siete equipos con 4-2, y el Burgos es 13.º con 2-4. La tabla, al día, está en [la página de la Liga Endesa](/baloncesto/liga-endesa), y lo que emite cada plataforma, en [la guía de la Liga Endesa](/noticias/donde-ver-liga-endesa-2026-27-dazn-movistar-gratis-autonomicas).`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'Liga Endesa', sport: 'baloncesto', slug: 'liga-endesa' },
+    sourceName: 'ACB: Edy Tavares, líder histórico en tapones',
+    sourceUrl: 'https://acb.com/es/liga/noticias/edy-tavares-lider-historico-de-la-liga-endesa-en-tapones-146353',
+    sourceLang: 'es',
+    publishedAt: '2026-11-01T21:00:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'ACB: estadísticas del Real Madrid - San Pablo Burgos', url: 'https://live.acb.com/partidos/real-madrid-vs-recoletas-salud-san-pablo-burgos-105425/estadisticas' },
+      { name: 'Real Madrid: Tavares, máximo taponador histórico', url: 'https://www.realmadrid.com/es-ES/noticias/baloncesto/primer-equipo/actualidad/tavares-maximo-taponador-historico-de-la-acb-01-11-2026' },
+      { name: 'EFE (Mundo Deportivo): Tavares bate el récord', url: 'https://www.mundodeportivo.com/baloncesto/acb/20261101/1004245795/tavares-bate-historico-record-liga-endesa.html' },
+      { name: 'Real Madrid: crónica del Real Madrid - Burgos', url: 'https://www.realmadrid.com/es-ES/noticias/baloncesto/primer-equipo/cronicas/cronica-real-madrid-burgos-01-11-2026' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Edy_Tavares_22_Real_Madrid_Baloncesto_Euroleague_20260409_%285%29.jpg/1280px-Edy_Tavares_22_Real_Madrid_Baloncesto_Euroleague_20260409_%285%29.jpg',
+      alt: 'Edy Tavares, con la camiseta blanca número 22 del Real Madrid, de pie y mirando al frente durante un partido de Euroliga en abril de 2026, con un rival desenfocado a la derecha',
+      credit: 'Zafer · Wikimedia Commons',
+      license: 'CC BY 4.0',
+    },
+  },
+  {
+    slug: 'burgos-castellon-1-1-el-plantio-suero-oier-luengo-roja-orozco-lider-almeria-clasificacion-segunda',
+    title: 'Burgos - Castellón: el 1-1 de El Plantío que deja al líder con un punto de margen sobre el Almería',
+    summary: 'El Castellón empató 1-1 en El Plantío con gol de Suero en el minuto 2 y jugó con diez desde el 60. Sigue líder de Segunda con 27 puntos, uno más que el Almería. El Burgos es séptimo.',
+    body: `El Burgos y el Castellón empataron 1-1 este domingo en El Plantío, en la duodécima jornada de LaLiga Hypermotion, [según el acta de LaLiga](https://www.laliga.com/partido/temporada-2026-2027-laliga-hypermotion-burgos-cf-cd-castellon-12). El líder marcó a los dos minutos, encajó el empate en el descuento de la primera parte y aguantó toda la última media hora con un jugador menos. Suma 27 puntos y mantiene el primer puesto, pero el Almería ya está a uno.
+
+## Los goles y la roja
+
+Israel Suero adelantó al Castellón en el minuto 2. El Burgos no empató hasta el 45+1, con un gol de Oier Luengo justo antes del descanso. En el minuto 60, Matías Orozco vio la roja y dejó a su equipo con diez, [según el registro de ESPN](https://www.espn.com/soccer/match/_/gameId/401883149). Arbitró Rafael Sánchez López.
+
+| Minuto | Qué pasó |
+| --- | --- |
+| 2 | Gol de Israel Suero (Castellón) |
+| 45+1 | Gol de Oier Luengo (Burgos) |
+| 60 | Roja a Matías Orozco (Castellón) |
+
+Los números del partido van contra la lógica de la expulsión. El Castellón terminó con el 60 % de la posesión, pero el Burgos tiró más: 9 remates, 4 a puerta, por 5 y 1 del líder. El partido dejó siete amarillas además de la roja. En la grada hubo 9.022 espectadores, según ESPN.
+
+## Así queda la cabeza
+
+El empate encoge la tabla por arriba. El Castellón suma ocho victorias, tres empates y una derrota en 12 jornadas, con la mejor diferencia de goles de la categoría (+18). El Almería tiene un punto menos, y Eibar y Granada, cuatro.
+
+| Puesto | Equipo | Puntos | Partidos |
+| --- | --- | --- | --- |
+| 1 | Castellón | 27 | 12 |
+| 2 | Almería | 26 | 12 |
+| 3 | Eibar | 23 | 12 |
+| 4 | Granada | 23 | 12 |
+| 5 | Sporting de Gijón | 22 | 12 |
+| 6 | Girona | 21 | 12 |
+| 7 | Burgos | 21 | 12 |
+| 8 | Mallorca | 19 | 11 |
+
+El Burgos es séptimo con 21 puntos, empatado a puntos con el Girona, sexto, que ocupa hoy la última plaza de promoción. El Mallorca, octavo, juega este lunes a las 21:00 contra el Cádiz y puede llegar a 22. Los horarios del lunes están en [la agenda del día](/noticias/deportivo-osasuna-riazor-jodar-tabilo-paris-turin-lunes-2-noviembre-horarios-donde-ver) y la clasificación completa, actualizada tras cada partido, en [la página de LaLiga Hypermotion](/futbol/laliga-2).`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'LaLiga Hypermotion', sport: 'futbol', slug: 'laliga-2' },
+    sourceName: 'LaLiga: acta del Burgos - Castellón',
+    sourceUrl: 'https://www.laliga.com/partido/temporada-2026-2027-laliga-hypermotion-burgos-cf-cd-castellon-12',
+    sourceLang: 'es',
+    publishedAt: '2026-11-01T21:02:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'ESPN: Burgos - Castellón', url: 'https://www.espn.com/soccer/match/_/gameId/401883149' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Estadio_Municipal_de_El_Plant%C3%ADo_01.jpg/1280px-Estadio_Municipal_de_El_Plant%C3%ADo_01.jpg',
+      alt: 'Exterior del estadio de El Plantío, en Burgos, con la grada cubierta blanca, el escudo del club sobre el edificio de oficinas y coches aparcados en la calle bajo un cielo azul',
+      credit: 'Francesc Fort · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ander-herrera-37-anos-juega-gratis-real-zaragoza-primera-federacion-vendido-2011-nominas-cortar-cesped',
+    title: 'Ander Herrera juega gratis en el Zaragoza y recuerda por qué lo vendieron en 2011: las nóminas',
+    summary: 'Ander Herrera, 37 años, campeón de la Europa League, no cobra en el Zaragoza de Primera Federación. En un pódcast cuenta que en 2011 lo vendieron para pagar a sus compañeros.',
+    body: `Ander Herrera tiene 37 años, una Europa League con el Manchester United y dos ligas francesas con el PSG. Esta temporada juega en Primera Federación, la tercera categoría, con el Real Zaragoza, y no cobra por ello. Ha decidido no recibir salario y donar el sueldo mínimo de la categoría a la fundación del club, [según contó Perfil](https://442.perfil.com/noticias/futbol/de-boca-al-ascenso-ander-herrera-lejos-de-su-retiro-volvio-a-sumar-minutos.phtml) tras su debut.
+
+Hace quince años el dinero fue en la otra dirección. Herrera lo ha recordado esta semana en el pódcast de Mario Suárez: cuando el Athletic lo fichó, el Zaragoza arrastraba atrasos importantes con la plantilla y su venta fue la manera de ingresar dinero para pagar las nóminas de los jugadores. Él tenía, dice, un contrato más pequeño que los demás. Su amigo Gabi le regaló aquella Navidad, en el amigo invisible, un cartel de «se vende».
+
+## Lo que dijo en el pódcast
+
+La conversación, [publicada el 27 de octubre en el canal de Mario Suárez](https://www.youtube.com/watch?v=erERq1S12u8&t=295s), dura más de una hora. En ella Herrera define los últimos 15 años del club como una decadencia deportiva e institucional que lo ha llevado a la tercera categoría. Repite que para volver lo suyo no era cuestión de categorías y que le dijo al director deportivo que venía para lo que el club necesitara. Si toca jugar, juega; si no, ayuda desde donde le toque. «Si un día hace falta en la ciudad deportiva cortar el césped, pues ahí estaré», resumió.
+
+Cuenta también que entró en la ciudad deportiva del Zaragoza con 10 años y salió con 21, y que de niño admiraba a Zidane o a Stoichkov, pero quería ser como los jugadores del Zaragoza.
+
+## De Bilbao a Old Trafford, y vuelta
+
+Herrera nació en Bilbao el 14 de agosto de 1989 y se formó en Zaragoza, donde jugaba su padre, Pedro Herrera. El padre jugó también en el Celta y luego fue director general de los dos clubes, [según su biografía](https://en.wikipedia.org/wiki/Ander_Herrera). En el pódcast, Ander recuerda que se tuvo que retirar con 29 o 30 años por una lesión de rodilla.
+
+| Etapa | Club | Qué dejó |
+| --- | --- | --- |
+| 2008-2011 | Real Zaragoza | Debut en Primera y venta al Athletic |
+| 2011-2014 | Athletic Club | Fichaje anunciado en febrero de 2011, efectivo en julio |
+| 2014-2019 | Manchester United | FA Cup 2016 y Europa League 2017 |
+| 2019-2022 | PSG | Dos Ligue 1 |
+| 2022-2025 | Athletic Club | Segunda etapa en San Mamés |
+| 2025-2026 | Boca Juniors | El club del que su padre le traía camisetas |
+| 2026- | Real Zaragoza | Capitán sin sueldo |
+
+El Athletic [anunció su fichaje el 7 de febrero de 2011](https://www.athletic-club.eus/en/news/2011/02/07/el-athletic-club-has-signed-ander-herrera), con contrato de cinco temporadas y efecto desde el 1 de julio de aquel año. Tres años después, el Manchester United pagó su cláusula.
+
+## El Zaragoza al que ha vuelto
+
+El club bajó a Primera Federación la temporada pasada y Herrera firmó por un año, [según la nota de AFP](https://supersport.com/football/news/374ed9a5-6249-4b51-8515-733c0edc6470/former-psg-man-united-midfielder-herrera-returns-to-zaragoza) de su regreso en julio. Debutó como titular y capitán en la primera jornada, una derrota por 2-0 ante el Nàstic, y jugó 82 minutos. La grada sigue llena: el club cerró agosto con 22.218 socios, [según El Gol Digital](https://www.elgoldigital.com/futbol/real-zaragoza/real-zaragoza-22218-socios-abonados-2026-2027/).
+
+Ahora el equipo de Ibai Gómez es segundo, empatado a 21 puntos con el Villarreal B tras [el 2-2 de este sábado en el Ibercaja Estadio](/noticias/real-zaragoza-villarreal-b-2-2-lideres-tobajas-roja-ibai-gomez-sinverguenza-derbi-huesca-primera-federacion), y suma nueve partidos sin perder. La clasificación completa está en [la página de Primera Federación](/futbol/primera-federacion).`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'Primera Federación', sport: 'futbol', slug: 'primera-federacion' },
+    sourceName: 'El Camino de Mario: entrevista a Ander Herrera (YouTube)',
+    sourceUrl: 'https://www.youtube.com/watch?v=erERq1S12u8',
+    sourceLang: 'es',
+    publishedAt: '2026-11-01T21:03:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Perfil: Ander Herrera vuelve a sumar minutos', url: 'https://442.perfil.com/noticias/futbol/de-boca-al-ascenso-ander-herrera-lejos-de-su-retiro-volvio-a-sumar-minutos.phtml' },
+      { name: 'AFP (SuperSport): Herrera vuelve al Zaragoza', url: 'https://supersport.com/football/news/374ed9a5-6249-4b51-8515-733c0edc6470/former-psg-man-united-midfielder-herrera-returns-to-zaragoza' },
+      { name: 'Athletic Club: fichaje de Ander Herrera (2011)', url: 'https://www.athletic-club.eus/en/news/2011/02/07/el-athletic-club-has-signed-ander-herrera' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Lens_-_PSG_%2810-09-2020%29_20.jpg/1280px-Lens_-_PSG_%2810-09-2020%29_20.jpg',
+      alt: 'Ander Herrera, con la camiseta roja del PSG y el dorsal 21, levanta el brazo dando indicaciones sobre el césped del Stade Bollaert-Delelis en 2020',
+      credit: 'Supporterhéninois · Wikimedia Commons',
+      license: 'CC0',
+    },
+  },
+  {
     slug: 'levante-badalona-barcelona-0-4-palamos-doblete-kerolin-pina-roja-lucia-martinez-clasificacion-liga-f',
     title: 'Levante Badalona - Barcelona: el 0-4 de Palamós con doblete de Kerolin y cómo queda la Liga F',
     summary: 'El Barça ganó 0-4 en Palamós al FC Badalona Women, el antiguo Levante Badalona. Kerolin marcó dos, Pina llegó a diez goles y el líder se va a cinco puntos del Real Madrid, que juega esta noche.',
