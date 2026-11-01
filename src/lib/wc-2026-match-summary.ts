@@ -18,6 +18,9 @@ export type SummaryHeader = {
   away: SummarySide;
   date: string;
   venue: string;
+  /** Ciudad y país del estadio (ESPN gameInfo.venue.address), para la dirección del evento. */
+  venueCity?: string;
+  venueCountry?: string;
   competition: string;
 };
 
@@ -203,6 +206,8 @@ export async function fetchEventSummary(
     away: sideInfo.away,
     date: headerComp.date ?? data.header?.date ?? '',
     venue: data.gameInfo?.venue?.fullName ?? '',
+    venueCity: data.gameInfo?.venue?.address?.city || undefined,
+    venueCountry: data.gameInfo?.venue?.address?.country || undefined,
     competition: data.header?.league?.name ?? '',
   };
 

@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { normalizeEvents } from './event-ld';
 import { isIndexablePath } from './index-policy';
 import { routing, type Locale } from '@/i18n/routing';
 
@@ -32,7 +33,8 @@ export function JsonLd({
     <script
       type="application/ld+json"
       dangerouslySetInnerHTML={{
-        __html: JSON.stringify(data).replace(/</g, '\\u003c'),
+        // Eventos completados según las exigencias de Google (src/lib/event-ld.ts).
+        __html: JSON.stringify(normalizeEvents(data)).replace(/</g, '\\u003c'),
       }}
     />
   );

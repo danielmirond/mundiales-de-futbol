@@ -105,7 +105,7 @@ export default async function PartidoPortalPage({ params }: { params: Params }) 
           eventStatus: /POSTPONED|CANCELED/.test(summary.statusName ?? '') ? 'https://schema.org/EventPostponed' : 'https://schema.org/EventScheduled',
           homeTeam: { '@type': 'SportsTeam', name: h.home.name },
           awayTeam: { '@type': 'SportsTeam', name: h.away.name },
-          ...(h.venue ? { location: { '@type': 'Place', name: h.venue } } : {}),
+          ...(h.venue ? { location: { '@type': 'Place', name: h.venue, address: { '@type': 'PostalAddress', addressLocality: h.venueCity ?? h.venue, ...(h.venueCountry ? { addressCountry: h.venueCountry } : {}) } } } : {}),
           competitor: [{ '@type': 'SportsTeam', name: h.home.name }, { '@type': 'SportsTeam', name: h.away.name }],
           superEvent: { '@type': 'SportsEvent', name: c.name },
           url: localeUrl(locale, `/${c.sport}/${c.slug}/partido/${id}`),
