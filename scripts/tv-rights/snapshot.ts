@@ -43,7 +43,8 @@ async function main() {
   for (let i = 0; i < args.length; i++) if (args[i] === '--seed') sources.push(JSON.parse(readFileSync(args[++i], 'utf8')));
   try {
     const res = await fetch(FEED, { headers: { 'User-Agent': 'mundiales-de-futbol' }, signal: AbortSignal.timeout(30000) });
-    if (res.ok) sources.push(await res.json());
+    // El feed de Guía TV devuelve { fuente, count, eventos }; una copia de WOSTI, la lista directa.
+    if (res.ok) { const j: any = await res.json(); sources.push(Array.isArray(j) ? j : j?.eventos ?? []); }
     else console.log(`feed: HTTP ${res.status}`);
   } catch (err) {
     console.log(`feed: ${String(err)}`);
