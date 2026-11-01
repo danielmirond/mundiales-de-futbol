@@ -11,7 +11,7 @@ import {
   CATEGORY_LABELS,
   type HistoriaCategory,
 } from '@/lib/historias';
-import { routing, type Locale } from '@/i18n/routing';
+import { routing, INDEXED_LOCALES, type Locale } from '@/i18n/routing';
 import { JsonLd } from '@/lib/seo';
 import { authorJsonLd } from '@/lib/authors';
 import {
@@ -79,11 +79,11 @@ export async function generateMetadata({
     description,
     // Discover-friendly: max-image-preview:large permite que Google muestre
     // la imagen grande en Discover y SERP enriquecidas.
-    robots: { index: true, follow: true, 'max-image-preview': 'large' },
+    robots: INDEXED_LOCALES.includes(locale as never) ? { index: true, follow: true, 'max-image-preview': 'large' } : { index: false, follow: true },
     alternates: {
       canonical: url,
       languages: Object.fromEntries(
-        routing.locales.map((l) => [
+        INDEXED_LOCALES.map((l) => [
           l,
           l === routing.defaultLocale
             ? `${siteUrl}/historias/${historia.slug}`

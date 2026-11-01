@@ -33,7 +33,9 @@ export type TeamProfile = {
 export type Player = { id?: string; name: string; jersey: string; pos: string; age?: number; nationality?: string };
 
 /** URL slug de nuestro sitio a partir del slug de ESPN ("esp.barcelona" → "barcelona"). */
-export const teamSlug = (espnSlug: string) => String(espnSlug ?? '').replace(/^[a-z]{2,3}\./, '');
+/** Slug de equipo para la URL: sin el prefijo de liga de ESPN y sin puntos (Next.js trata «.algo» como extensión y daba 404: «at._san_luis», «betbrain.paris_fc»). */
+export const teamSlug = (espnSlug: string) =>
+  String(espnSlug ?? '').replace(/^[a-z]{2,3}\./, '').replace(/\.(?=_)/g, '').replace(/\./g, '_');
 
 const path = (c: Competition) => `${API}/${c.espn!.sport}/${c.espn!.league}`;
 

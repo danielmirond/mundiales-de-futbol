@@ -12,6 +12,9 @@ export const routing = defineRouting({
 
 export type Locale = (typeof routing.locales)[number];
 
+/** Ediciones que se indexan (y a las que apuntan hreflang y sitemap). El resto, noindex y sin enlazar. */
+export const INDEXED_LOCALES: readonly Locale[] = ['es'];
+
 export const localeMeta: Record<Locale, { label: string; nativeLabel: string; flag: string; dir: 'ltr' | 'rtl' }> = {
   es: { label: 'Spanish', nativeLabel: 'Español', flag: '🇪🇸', dir: 'ltr' },
   en: { label: 'English', nativeLabel: 'English', flag: '🇬🇧', dir: 'ltr' },

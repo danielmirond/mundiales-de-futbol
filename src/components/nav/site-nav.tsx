@@ -6,7 +6,6 @@ import { useLocale, useTranslations } from 'next-intl';
 import { useState, useEffect, useRef, useSyncExternalStore } from 'react';
 import { createPortal } from 'react-dom';
 import { cn } from '@/lib/utils';
-import { LocaleSwitcher } from './locale-switcher';
 import { BrandLockup } from '@/components/brand/brand-mark';
 import { Icon, sportIcon, type IconName } from '@/components/ui/icon';
 import { routing, localeMeta, type Locale } from '@/i18n/routing';
@@ -118,7 +117,6 @@ export function SiteNav() {
           <Link href={withLocale(locale, '/partidos-hoy')} className="inline-flex h-9 items-center gap-1.5 rounded-full px-2 text-sm font-semibold text-[var(--color-fg)] lg:hidden" aria-label={t('today')}>
             <LiveCount n={live.live} />
           </Link>
-          <LocaleSwitcher />
           <button onClick={() => setOpen(true)} className="grid h-9 w-9 place-items-center rounded-full border border-[var(--color-border)] text-[var(--color-fg-muted)] lg:hidden" aria-label={t('menu')}>
             <Icon name="menu" />
           </button>

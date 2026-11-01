@@ -5,7 +5,7 @@ import { setRequestLocale, getFormatter } from 'next-intl/server';
 import { ArrowLeft, Trophy, Users, Activity, Target, CalendarDays } from 'lucide-react';
 import { TOURNAMENTS } from '@/lib/tournaments';
 import { getTournamentBySlug } from '@/lib/data/tournaments';
-import { routing, type Locale } from '@/i18n/routing';
+import { routing, INDEXED_LOCALES, type Locale } from '@/i18n/routing';
 import { MatchesList } from '@/components/edition/matches-list';
 import { EditionStandings } from '@/components/edition/edition-standings';
 import { EditionBracket } from '@/components/edition/edition-bracket';
@@ -53,7 +53,7 @@ export async function generateMetadata({
     alternates: {
       canonical: url,
       languages: Object.fromEntries(
-        routing.locales.map((l) => [
+        INDEXED_LOCALES.map((l) => [
           l,
           l === routing.defaultLocale
             ? `${siteUrl}/ediciones/${t.slug}`
@@ -61,7 +61,7 @@ export async function generateMetadata({
         ]),
       ),
     },
-    robots: { index: true, follow: true, 'max-image-preview': 'large' },
+    robots: INDEXED_LOCALES.includes(locale as never) ? { index: true, follow: true, 'max-image-preview': 'large' } : { index: false, follow: true },
     openGraph: {
       type: 'article',
       title,

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { normalizeEvents } from './event-ld';
 import { isIndexablePath } from './index-policy';
+import { INDEXED_LOCALES } from '@/i18n/routing';
 import { routing, type Locale } from '@/i18n/routing';
 
 // Defensive `.trim()`: una env var con whitespace accidental (p.ej. \n)
@@ -121,7 +122,7 @@ export function pageMetadata(opts: PageMetadataOptions): Metadata {
   // como contenido inglés/francés/etc. (sirve fallback español).
   const localeUntranslated = !availableLocales.includes(opts.locale);
   // Política de indexación por tipo de ruta (src/lib/index-policy.ts).
-  const shouldNoIndex = opts.noIndex || localeUntranslated || !isIndexablePath(opts.path);
+  const shouldNoIndex = opts.noIndex || localeUntranslated || !isIndexablePath(opts.path) || !INDEXED_LOCALES.includes(opts.locale as never);
 
   const ogImages = opts.image
     ? [
@@ -149,7 +150,10 @@ export function pageMetadata(opts: PageMetadataOptions): Metadata {
       : { index: true, follow: true, 'max-image-preview': 'large' },
     alternates: {
       canonical: canonicalUrl,
-      languages: hreflangAlternates(opts.path, availableLocales),
+      // hreflang solo entre ediciones indexables: con una sola (es) no se emite.
+      ...(availableLocales.filter((l) => INDEXED_LOCALES.includes(l as never)).length > 1
+        ? { languages: hreflangAlternates(opts.path, availableLocales.filter((l) => INDEXED_LOCALES.includes(l as never))) }
+        : {}),
     },
     openGraph: {
       type: opts.type ?? 'website',

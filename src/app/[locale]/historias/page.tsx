@@ -9,7 +9,7 @@ import {
   type HistoriaCategory,
   type Historia,
 } from '@/lib/historias';
-import { routing, type Locale } from '@/i18n/routing';
+import { routing, INDEXED_LOCALES, type Locale } from '@/i18n/routing';
 
 const CATEGORY_COLORS: Record<HistoriaCategory, string> = {
   epica: 'bg-emerald-400',
@@ -67,7 +67,7 @@ export async function generateMetadata({
     alternates: {
       canonical: url,
       languages: Object.fromEntries(
-        routing.locales.map((l) => [
+        INDEXED_LOCALES.map((l) => [
           l,
           l === routing.defaultLocale
             ? `${siteUrl}/historias`

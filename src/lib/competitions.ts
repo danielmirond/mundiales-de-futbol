@@ -163,7 +163,7 @@ export const COMPETITIONS: Competition[] = [
   { slug: 'mls', name: 'MLS', sport: 'futbol', kind: 'liga', espn: SOCCER('usa.1'), hasStandings: true, flag: '🇺🇸',
     description: 'MLS: resultados, calendario, playoffs y clasificación por conferencias.', keywords: ['mls', 'resultados mls', 'clasificación mls', 'inter miami'] },
   { slug: 'liga-mx', name: 'Liga MX', sport: 'futbol', kind: 'liga', espn: SOCCER('mex.1'), hasStandings: true, flag: '🇲🇽',
-    description: 'Liga MX: resultados, calendario y clasificación del fútbol mexicano.', keywords: ['liga mx', 'resultados liga mx', 'tabla liga mx'] },
+    description: 'Liga MX: resultados, calendario y tabla general del Apertura y el Clausura del fútbol mexicano, con la liguilla.', keywords: ['liga mx', 'resultados liga mx', 'tabla liga mx', 'tabla general liga mx', 'apertura 2026', 'liguilla liga mx', 'américa', 'chivas'] },
   { slug: 'brasileirao', name: 'Brasileirão', sport: 'futbol', kind: 'liga', espn: SOCCER('bra.1'), hasStandings: true, flag: '🇧🇷',
     description: 'Brasileirão: resultados, calendario y clasificación de la Serie A de Brasil.', keywords: ['brasileirao', 'liga brasileña', 'clasificación brasileirao'] },
   { slug: 'liga-argentina', name: 'Liga Profesional Argentina', shortName: 'Liga Argentina', sport: 'futbol', kind: 'liga', espn: SOCCER('arg.1'), hasStandings: true, flag: '🇦🇷',

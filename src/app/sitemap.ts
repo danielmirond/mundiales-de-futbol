@@ -1,5 +1,6 @@
 import { f1Drivers } from '@/lib/f1-history';
 import { isIndexablePath, isIndexableNews } from '@/lib/index-policy';
+import { INDEXED_LOCALES } from '@/i18n/routing';
 import { hasInjuryReport } from '@/lib/espn-preview';
 import { veladas } from '@/lib/boxeo';
 import { getCompetition as getComp, type Competition as Comp } from '@/lib/competitions';
@@ -92,7 +93,8 @@ function entry(
    */
   availableLocales: readonly string[] = ['es'],
 ): MetadataRoute.Sitemap[number] {
-  const locales = esOnly ? ['es'] : availableLocales;
+  // Solo ediciones indexables (hoy, es): sin alternates a /en, /pt, /fr, /ar.
+  const locales = (esOnly ? ['es'] : availableLocales).filter((l) => (INDEXED_LOCALES as readonly string[]).includes(l));
   return {
     url: `${SITE}${path}`,
     lastModified: lastMod,

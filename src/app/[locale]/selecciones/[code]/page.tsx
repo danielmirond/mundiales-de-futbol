@@ -5,7 +5,7 @@ import { ArrowLeft, Trophy } from 'lucide-react';
 import { getTeamByCode, getTeamMatches, getTeamTopScorers, teamDisplayName, getPredecessors, combineLineage } from '@/lib/data/teams';
 import { getTournament, TOURNAMENTS } from '@/lib/tournaments';
 import { STAGE_LABEL_ES } from '@/lib/data/matches';
-import { routing, type Locale } from '@/i18n/routing';
+import { routing, INDEXED_LOCALES, type Locale } from '@/i18n/routing';
 import { JsonLd } from '@/lib/seo';
 import { TeamPhotoGallery } from '@/components/team/team-photo-gallery';
 import { AmazonProductGrid } from '@/components/affiliate/amazon-card';
@@ -78,7 +78,7 @@ export async function generateMetadata({
     alternates: {
       canonical: url,
       languages: Object.fromEntries(
-        routing.locales.map((l) => [
+        INDEXED_LOCALES.map((l) => [
           l,
           l === routing.defaultLocale
             ? `${siteUrl}/selecciones/${team.code}`

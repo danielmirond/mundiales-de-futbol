@@ -11,11 +11,11 @@
 /** Competiciones con subpáginas indexables (calendario, resultados, clasificación). */
 export const MAIN_COMPS = new Set([
   'laliga', 'laliga-2', 'premier-league', 'serie-a', 'bundesliga', 'ligue-1', 'champions-league', 'europa-league',
-  'copa-del-rey', 'liga-f', 'nba', 'euroliga', 'nfl', 'formula-1', 'motogp',
+  'copa-del-rey', 'liga-f', 'nba', 'euroliga', 'nfl', 'formula-1', 'motogp', 'liga-mx',
 ]);
 
 /** Ligas cuyas fichas de equipo (solo la principal) se indexan. */
-export const TEAM_INDEX_COMPS = new Set(['laliga', 'premier-league', 'serie-a', 'bundesliga', 'ligue-1', 'nba']);
+export const TEAM_INDEX_COMPS = new Set(['laliga', 'premier-league', 'serie-a', 'bundesliga', 'ligue-1', 'nba', 'liga-mx']);
 
 /** Crónicas automáticas que se mantienen indexables. */
 export const AUTO_NEWS_INDEX_COMPS = new Set(['laliga', 'champions-league', 'nba']);
