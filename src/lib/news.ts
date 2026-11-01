@@ -154,6 +154,186 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'real-madrid-sardinero-derbi-vasco-gp-mexico-hamilton-pole-alcaraz-final-viena-domingo-1-noviembre-horarios-donde-ver',
+    title: 'Real Madrid en El Sardinero y derbi vasco a la hora del GP de México: horarios del domingo y dónde ver',
+    summary: 'Racing-Real Madrid a las 16:15, derbi vasco a las 21:00 a la vez que la carrera de México, Alcaraz-De Minaur a las 14:00 y Juventus-Nápoles: horarios y canales del domingo, con Sepang ya decidido.',
+    body: `El Real Madrid visita El Sardinero a las 16:15, [según el calendario de ESPN](https://www.espn.com/soccer/match/_/gameId/401882819), y el domingo de LaLiga lo cierra el derbi vasco en San Mamés a las 21:00, la misma hora a la que se apaga el semáforo en el Autódromo Hermanos Rodríguez. Entre medias, la final de Viena de Carlos Alcaraz, el Liverpool-Arsenal y el Juventus-Nápoles. Esta es la agenda con hora peninsular y canal; en Canarias, una hora menos.
+
+## La mañana ya ha dejado un ganador
+
+Marc Márquez ganó a las 08:00 la carrera de Sepang de principio a fin, su séptimo triunfo del año, con Pedro Acosta segundo y Álex Márquez tercero, [según la crónica de Motorsport.com](https://es.motorsport.com/motogp/news/marquez-victoria-carrera-motogp-sepang-resultados-clasificacion/10870466/). Con Jorge Martín fuera por la fractura de la muñeca, el de Ducati llega al Gran Premio de Qatar del 8 de noviembre con la primera bola de título. Las cuentas completas están en [la pieza del sábado](/noticias/marc-marquez-sepang-sprint-acosta-jorge-martin-baja-cuentas-titulo-motogp-qatar-valencia).
+
+## Alcaraz, a las 14:00
+
+Carlos Alcaraz juega la final del ATP 500 de Viena contra Alex de Minaur a las 14:00 en la pista central del Wiener Stadthalle. Llega sin ceder un set en cuatro partidos, [como contamos tras ganar a Medvedev](/noticias/alcaraz-medvedev-semifinal-viena-resultado-final-domingo-donde-ver-noche-sabado-barca-alaves-f1). Qué plataforma emite el torneo y cuánto cuesta, en [la guía de dónde ver el tenis](/noticias/donde-ver-tenis-espana-atp-finals-copa-davis-alcaraz-movistar-hbo-max).
+
+## La tarde, hora a hora
+
+| Hora | Partido o carrera | Competición | Canal |
+| --- | --- | --- | --- |
+| 14:00 | Getafe - Sevilla | LaLiga | DAZN LaLiga 2 / DAZN |
+| 16:15 | Racing - Real Madrid | LaLiga | DAZN LaLiga / DAZN |
+| 17:30 | Liverpool - Arsenal | Premier League | DAZN y Movistar Plus+ |
+| 18:30 | Elche - Valencia | LaLiga | M+ LaLiga (Movistar Plus+) |
+| 19:00 | Sevilla - Real Madrid | Liga F | Ver ficha |
+| 20:45 | Juventus - Nápoles | Serie A | DAZN |
+| 21:00 | Athletic - Real Sociedad | LaLiga | DAZN LaLiga / DAZN |
+| 21:00 | Gran Premio de México | Fórmula 1 | DAZN |
+
+Los canales de fútbol son los que recoge [la agenda de partidos de hoy](/noticias/partidos-futbol-hoy-2026-11-01) y cada ficha de partido; la Fórmula 1 se ve en DAZN, [como explica la guía del motor](/noticias/donde-ver-f1-motogp-espana-2026-dazn-precios-carreras-que-quedan). Qué plataforma emite cada competición y cuánto cuesta, en [la guía general de dónde ver deporte](/noticias/donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1).
+
+## LaLiga: El Sardinero a las 16:15 y San Mamés a las 21:00
+
+El Racing es decimoquinto con 11 puntos en diez jornadas y el Real Madrid, tercero con 24, [según la clasificación de ESPN](https://www.espn.com/soccer/standings/_/league/esp.1). Alineaciones, marcador y narración, en la [ficha del Racing - Real Madrid](/futbol/laliga/partido/401882819).
+
+El derbi llega con la Real quinta, con 19 puntos, y el Athletic séptimo, con 12. Es el último partido del domingo en LaLiga y coincide con la carrera de México. Ficha, con las alineaciones en cuanto se confirmen, en [Athletic Club - Real Sociedad](/futbol/laliga/partido/401882826).
+
+## México: Hamilton en la pole a los 41 años
+
+Lewis Hamilton saldrá primero en el Autódromo Hermanos Rodríguez, por delante de George Russell, Charles Leclerc, Max Verstappen y Kimi Antonelli, [según la clasificación de ESPN](https://www.espn.com/f1/race/_/id/600057447). Carlos Sainz saldrá decimoquinto y Fernando Alonso, decimoséptimo. Antonelli, con 365 puntos frente a los 242 de Russell, [puede cerrar el Mundial esta noche](/noticias/kimi-antonelli-infeccion-viral-gp-mexico-puede-ser-campeon-mas-joven). Lo que Hamilton dijo esta semana sobre seguir corriendo en los años treinta, [en esta pieza](/noticias/lewis-hamilton-41-anos-hecho-de-otra-forma-2030-ruanda-ferrari). Resultados y calendario, en la [página de Fórmula 1](/motor/formula-1).`,
+    category: 'tv',
+    kind: 'noticia',
+    competition: { name: 'LaLiga', sport: 'futbol', slug: 'laliga' },
+    sourceName: 'ESPN: calendario y clasificación de LaLiga',
+    sourceUrl: 'https://www.espn.com/soccer/match/_/gameId/401882819',
+    sourceLang: 'en',
+    publishedAt: '2026-11-01T12:02:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Motorsport.com: Márquez gana en Sepang y se fabrica su primera bola de título', url: 'https://es.motorsport.com/motogp/news/marquez-victoria-carrera-motogp-sepang-resultados-clasificacion/10870466/' },
+      { name: 'ESPN: clasificación del Gran Premio de México', url: 'https://www.espn.com/f1/race/_/id/600057447' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Fachada_oeste_Campos_de_Sport_de_El_Sardinero.jpg/1280px-Fachada_oeste_Campos_de_Sport_de_El_Sardinero.jpg',
+      alt: 'Fachada oeste de los Campos de Sport de El Sardinero, en Santander, con el rótulo del Real Racing Club y las banderas sobre la entrada principal',
+      credit: 'Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'robe-guitarra-up-plasencia-sorteo-papeletas-agotadas-deuda-club-tercera-federacion-gordo-navidad',
+    title: 'Robe dejó una guitarra para salvar al club de Plasencia y las papeletas volaron en dos días',
+    summary: 'La UP Plasencia agotó en dos días las 7.000 papeletas online de la guitarra que Robe Iniesta encargó para el club antes de morir. Quedan las de papel, a 2,50 euros, y el Gordo decide el ganador.',
+    body: `La Unión Polideportiva Plasencia pidió ayuda a Robe Iniesta cuando las cuentas no salían. La directiva quería una guitarra firmada para sortearla. El músico fue más allá: encargó a sus luthiers de confianza, Guitarras Francisco Bros, un instrumento hecho a mano para el club de su ciudad y lo firmó antes de morir, [según cuenta el diario Hoy](https://www.hoy.es/plasencia/up-plasencia-agota-horas-7000-papeletas-online-20261030192313-nt.html). Robe falleció el 10 de diciembre de 2025 en Plasencia, a los 63 años, y [la ciudad decretó tres días de luto oficial](https://www.eldiario.es/extremadura/cultura/plasencia-decreta-tres-dias-luto-oficial-muerte-robe-iniesta_1_12833352.html). Diez meses después, la guitarra está expuesta en la librería El Quijote y el club ha agotado en menos de 48 horas las 7.000 papeletas que puso a la venta por internet.
+
+## Lo que pidió Robe: que fuera barato
+
+Cada participación cuesta 2,50 euros. El precio lo fijó el propio Robe, que quiso que cualquier aficionado pudiera optar a la guitarra. El club imprimió 10.000 papeletas: 7.000 se vendían en internet y ya no quedan; las otras 3.000 se reparten en papel en establecimientos de Plasencia, entre ellos la librería El Quijote y el bar Danubio, y de esas el club todavía no ha dicho cuántas se han vendido. Si salen todas, la recaudación bruta será de 25.000 euros; solo con las de internet ya hay 17.500 asegurados.
+
+El ganador se conocerá el 22 de diciembre: la papeleta premiada será la que coincida en sus cuatro últimas cifras con el Gordo de la Lotería de Navidad. El club lo celebró en sus canales oficiales: «En menos de 48 horas se han agotado todas. Ha sido increíble, solo nos queda dar las gracias a todos los que habéis participado y apoyado al club».
+
+## Un club de 1940 que jugó cinco años en Segunda B
+
+La UP Plasencia nació en 1940 de la fusión de la Agrupación Deportiva Placentina y La Constancia, [según su historia en Wikipedia](https://es.wikipedia.org/wiki/Uni%C3%B3n_Polideportiva_Plasencia). Su mejor época fue la segunda mitad de los ochenta: ascendió a Segunda B en 1985, aguantó cinco temporadas y acabó duodécimo en la 1985-86, su mejor puesto. En la Copa del Rey se cruzó con el Espanyol y con el Real Madrid Castilla. Desde entonces ha bajado tres veces a Primera Extremeña, la última en 2023, y arrastra una deuda cuya cifra no ha hecho pública. Hoy juega en el grupo XIV de Tercera Federación, en el estadio Francisco Gil Valle.
+
+Es el mismo otoño en que otros clubes modestos han salido en los papeles por la Copa, como [el Atlético Paso de La Palma](/noticias/atletico-paso-la-palma-copa-del-rey-cordoba-1600-kilometros-elimino-real-murcia-el-paso-volcan) o [el Sporting de Alcázar](/noticias/sporting-de-alcazar-preferente-agranda-campo-recibe-malaga-copa-del-rey-delgado-meco). El de Plasencia no tiene eliminatoria que vender: vende la guitarra de un vecino.
+
+## Lo que Plasencia le debe a Robe, y al revés
+
+Roberto Iniesta nació en Plasencia y fundó allí Extremoduro. La ciudad le despidió en diciembre y [prepara un festival de homenaje con conciertos gratuitos](https://www.laganzua.net/noticias/32096-homenaje-a-robe-iniesta-en-plasencia-el-16-de-mayo-en-el-festival-primeras-flores-amarillas-con-conciertos-gratuitos), Primeras Flores Amarillas, organizado por el Ayuntamiento, Dromedario Records y la familia del músico. La guitarra del sorteo es, de momento, el último objeto que Robe hizo a medida para su ciudad. Quien la gane el 22 de diciembre se llevará una pieza única; el club, con suerte, un respiro en las cuentas. Más historias de clubes pequeños, en [la sección de fútbol](/futbol).`,
+    category: 'curiosa',
+    kind: 'noticia',
+    competition: { name: 'Tercera Federación', sport: 'futbol', slug: 'tercera-federacion' },
+    sourceName: 'Hoy: la UP Plasencia agota en menos de 48 horas las 7.000 papeletas online',
+    sourceUrl: 'https://www.hoy.es/plasencia/up-plasencia-agota-horas-7000-papeletas-online-20261030192313-nt.html',
+    sourceLang: 'es',
+    publishedAt: '2026-11-01T12:04:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'elDiario.es: Plasencia decreta tres días de luto oficial por la muerte de Robe Iniesta', url: 'https://www.eldiario.es/extremadura/cultura/plasencia-decreta-tres-dias-luto-oficial-muerte-robe-iniesta_1_12833352.html' },
+      { name: 'Wikipedia: Unión Polideportiva Plasencia', url: 'https://es.wikipedia.org/wiki/Uni%C3%B3n_Polideportiva_Plasencia' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/20211008_Plasencia_Robe.jpg/1280px-20211008_Plasencia_Robe.jpg',
+      alt: 'Robe Iniesta toca la guitarra en el centro del escenario del Palacio de Congresos de Plasencia, bañado en luz azul y con el bajista a su derecha, en un concierto de 2021',
+      credit: 'Patrickpedia · Wikimedia Commons',
+      license: 'CC0',
+    },
+  },
+  {
+    slug: 'spalletti-juventus-napoles-cuentas-rojas-agroturismo-la-rimessa-bodega-fucecchio-genoa',
+    title: 'Spalletti pierde en la Juve y en casa: su agroturismo y sus vinos toscanos están en números rojos',
+    summary: 'Las dos empresas familiares de Spalletti en Fucecchio cerraron el año en pérdidas, según sus cuentas: la casa rural y la bodega de vinos con nombre futbolero. Hoy recibe al Nápoles con la Juve octava.',
+    body: `Luciano Spalletti recibe esta noche al Nápoles, el club con el que ganó el Scudetto, con la Juventus octava y cuatro días después de perder 2-0 en Génova. Y mientras el equipo no arranca, tampoco lo hacen los negocios que tiene con su mujer en la Toscana: la casa de vacaciones y la empresa agrícola de la familia cerraron su último ejercicio en pérdidas, [según las cuentas que ha publicado el diario italiano Open](https://www.open.online/2026/10/31/luciano-spalletti-conti-rosso-tenuta-rimessa-azienda-agricola-juventus/).
+
+## La Rimessa: seis apartamentos y alpacas
+
+La Rimessa es un agroturismo cerca de Fucecchio, en la provincia de Florencia: seis apartamentos independientes de estilo toscano, campos de deporte y una granja con cisnes, pavos reales, caballos, burros, avestruces, vacas y alpacas. La sociedad que lo explota, administrada por Tamara Angeli, la mujer del entrenador, facturó 333.693 euros en el último ejercicio frente a los 407.830 del anterior. La caja pasó de 137.415 euros a 26.473, y el balance cerró con 41.763 euros de pérdidas, pese a una última ayuda de 1.196 euros por el covid.
+
+## Los vinos con nombre de pizarra
+
+La segunda empresa, Safe società agricola, produce vino. Las etiquetas son de entrenador: un rosado llamado «Tra le linee» (entre líneas) y tintos bautizados «Bordo campo», «Rosso diretto», «Contrasto» y «Rabona». El valor de la producción bajó de 149.421 a 113.604 euros y las pérdidas subieron de 49.394 a 69.238. La sociedad se acogió al concordato preventivo bienal 2024-2025 con la Hacienda italiana, un acuerdo que no da ventajas cuando se pierde dinero.
+
+La ironía la cuenta el propio Open: Spalletti dedicó uno de esos tintos, «Bordo campo», a Daniele De Rossi, por su carácter y su intensidad. De Rossi es hoy el entrenador del Genoa que le ganó el miércoles con goles de Kingsley Ehizibue y Tommaso Baldanzi en la primera media hora, [según el acta de ESPN](https://www.espn.com/soccer/match/_/gameId/401874988).
+
+## La Juve de Spalletti, un año después
+
+Spalletti llegó a la Juventus el 30 de octubre de 2025, tras la destitución de Igor Tudor, [según recoge la Wikipedia italiana](https://it.wikipedia.org/wiki/Luciano_Spalletti). Un año después, el equipo ha ganado cuatro de sus diez partidos de liga, perdió 0-3 con la Lazio en Turín el 18 de octubre y cayó en Génova el miércoles. Enfrente estará el Nápoles, que llega de ganar 4-1 en Monza, y que con Spalletti en el banquillo fue campeón de Italia en 2023 después de 33 años.
+
+El partido se juega a las 20:45, hora peninsular, en el Allianz Stadium y se ve en España en DAZN, según la [ficha del Juventus - Napoli](/futbol/serie-a/partido/401874949). Qué plataforma emite la Serie A y cuánto cuesta, en [la guía de las ligas europeas](/noticias/donde-ver-premier-league-espana-2026-27-dazn-movistar-precios-serie-a-bundesliga). La clasificación, al día, en la [página de la Serie A](/futbol/serie-a).`,
+    category: 'curiosa',
+    kind: 'noticia',
+    competition: { name: 'Serie A', sport: 'futbol', slug: 'serie-a' },
+    sourceName: 'Open: Luciano Spalletti perde con la Juventus ma anche a casa sua',
+    sourceUrl: 'https://www.open.online/2026/10/31/luciano-spalletti-conti-rosso-tenuta-rimessa-azienda-agricola-juventus/',
+    sourceLang: 'it',
+    publishedAt: '2026-11-01T12:06:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'ESPN: acta del Genoa - Juventus', url: 'https://www.espn.com/soccer/match/_/gameId/401874988' },
+      { name: 'Wikipedia (it): Luciano Spalletti', url: 'https://it.wikipedia.org/wiki/Luciano_Spalletti' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Allianz_stadium_in_Italy_hosting_the_Nations_League_2021_finals.jpg/1280px-Allianz_stadium_in_Italy_hosting_the_Nations_League_2021_finals.jpg',
+      alt: 'Exterior del Allianz Stadium de Turín iluminado de noche, con el aparcamiento y los accesos llenos de gente antes de un partido',
+      credit: 'Wackotaku · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'canelo-alvarez-vence-mbilli-decision-unanime-riad-recupera-titulo-cmb-cuatro-cinco-peleas-mas',
+    title: 'Canelo recupera el cinturón ante Mbilli en Riad y ya habla de cuántas peleas le quedan',
+    summary: 'Saúl Álvarez ganó a Christian Mbilli por decisión unánime en Riad y vuelve a ser campeón supermediano del CMB trece meses después de perder con Crawford. Tarjetas, bolsas y lo que dijo de retirarse.',
+    body: `Saúl «Canelo» Álvarez volvió a ser campeón del mundo en la noche de Halloween en Riad. Ganó a Christian Mbilli por decisión unánime, con tarjetas de 115-112, 116-111 y 117-110, y recuperó el título supermediano del Consejo Mundial de Boxeo, [según la crónica de Bad Left Hook](https://www.badlefthook.com/boxing-results/120126/canelo-vs-mbilli-result-another-world-title-for-mexican-superstar-halloween-riyadh-boxing-news-2026). Era su primera pelea desde que Terence Crawford le quitó todos los cinturones en septiembre de 2025; Crawford se retiró después y dejó el título del CMB vacante.
+
+## Cómo fue la pelea
+
+Mbilli, que había sido campeón interino y heredó el cinturón tras la retirada de Crawford, aguantó los primeros asaltos. A partir del sexto, Canelo abrió el repertorio con contragolpes al cuerpo y a la cabeza, y Mbilli dejó de imponer el ritmo, [según el relato asalto a asalto de Bleacher Report](https://bleacherreport.com/articles/25527678-canelo-alvarez-vs-christian-mbilli-judges-scorecards-punch-stats-and-prize-money). En el octavo, el árbitro le descontó un punto a Mbilli por golpear detrás de la cabeza, un castigo que el mexicano ya no necesitaba. Al final, Mbilli parecía tener molestias en un brazo y Canelo nunca estuvo en apuros.
+
+## Las cifras
+
+| Dato | Canelo | Mbilli |
+| --- | --- | --- |
+| Tarjetas | 115-112, 116-111, 117-110 | — |
+| Récord tras la pelea | 64-3-3, 39 KO | primera derrota |
+| Bolsa (según Bleacher Report) | 47 millones de dólares | 9 millones |
+
+## Lo que dijo de retirarse
+
+Canelo tiene 36 años y 70 combates como profesional, con 64 victorias, 3 derrotas y 3 nulos. Preguntado por ESPN por cuánto le queda, respondió: «Creo que cuatro o cinco peleas más serían suficientes. Ya he hecho todo lo que necesitaba hacer en el boxeo». Sobre el ring no nombró rival. Bad Left Hook apunta a Hamzah Sheeraz como favorito de los promotores y a Lester Martínez, campeón interino del CMB, que estaba en Riad; una revancha con Dmitry Bivol, el único que le ha ganado además de Crawford y Mayweather, sigue en el cajón.
+
+## En España
+
+La velada se vendió en España como pago por evento en DAZN, [como explicamos en la previa con los horarios](/noticias/canelo-mbilli-hora-espana-donde-ver-riad-titulo-cmb-supermediano). Qué plataforma emite cada velada y cuánto cuesta, en [la guía de dónde ver boxeo y UFC](/noticias/donde-ver-ufc-boxeo-espana-hbo-max-eurosport-dazn-topuria-canelo). El resto del deporte de este domingo, en [la agenda del día](/noticias/real-madrid-sardinero-derbi-vasco-gp-mexico-hamilton-pole-alcaraz-final-viena-domingo-1-noviembre-horarios-donde-ver).`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'Boxeo', sport: 'combate', slug: 'boxeo' },
+    sourceName: 'Bad Left Hook: Canelo regains WBC title with clear win over Christian Mbilli',
+    sourceUrl: 'https://www.badlefthook.com/boxing-results/120126/canelo-vs-mbilli-result-another-world-title-for-mexican-superstar-halloween-riyadh-boxing-news-2026',
+    sourceLang: 'en',
+    publishedAt: '2026-11-01T12:08:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Bleacher Report: tarjetas, estadísticas y bolsas de Canelo - Mbilli', url: 'https://bleacherreport.com/articles/25527678-canelo-alvarez-vs-christian-mbilli-judges-scorecards-punch-stats-and-prize-money' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Visita_del_boxeador_Sa%C3%BAl_%E2%80%9CCanelo%E2%80%9D_%C3%81lvarez_a_la_Residencia_Oficial_de_Los_Pinos.jpg/1280px-Visita_del_boxeador_Sa%C3%BAl_%E2%80%9CCanelo%E2%80%9D_%C3%81lvarez_a_la_Residencia_Oficial_de_Los_Pinos.jpg',
+      alt: 'Saúl «Canelo» Álvarez, con traje oscuro y sentado en un sillón, conversa junto a una bandera de México en un salón de la residencia de Los Pinos',
+      credit: 'Presidencia de la República Mexicana · Wikimedia Commons',
+      license: 'CC BY 2.0',
+    },
+  },
+  {
     slug: 'previa-liverpool-arsenal-401879246',
     title: "Liverpool - Arsenal: horario, dónde ver y cómo llegan al partido de Premier League",
     summary: "Liverpool y Arsenal se enfrentan este domingo 1 de noviembre a las 17:30 h en Anfield, en partido de Premier League. Liverpool es 5.º y Arsenal, 2.º. TV: DAZN y Movistar Plus+.",
@@ -644,7 +824,9 @@ La respuesta inmediata llega en la Champions. El Villarreal recibe al Paris Sain
     slug: 'marc-marquez-sepang-sprint-acosta-jorge-martin-baja-cuentas-titulo-motogp-qatar-valencia',
     title: 'Marc Márquez hace cuentas en Sepang: qué necesita para cerrar el Mundial con Jorge Martín fuera de combate',
     summary: 'Pedro Acosta ganó el sprint de Malasia, pero el que más ganó fue Marc Márquez: sumó puntos mientras Jorge Martín renunciaba por la muñeca. Así queda el título con una carrera y tres grandes premios.',
-    body: `Pedro Acosta ganó el sprint del Gran Premio de Malasia con medio segundo de ventaja en una carrera a medio mojar, [según la crónica de MotoGP.com](https://www.motogp.com/es/news/2026/10/31/acosta-denies-marc-marquez-and-bezzecchi-in-tense-sprint-showdown-at-sepang/1181622). Álex Márquez se fue al suelo cuando lideraba, en la curva 14 y con la lluvia asomando; Ai Ogura heredó la cabeza y la perdió en el cuerpo a cuerpo final con Acosta y con Marc Márquez, que acabó segundo por delante de Marco Bezzecchi. El resultado que importa para el título, sin embargo, se decidió en el box de Aprilia.
+    body: `**Actualización, domingo 1 de noviembre.** Marc Márquez ganó la carrera de Sepang de principio a fin, su séptimo triunfo del año, con Pedro Acosta segundo y Álex Márquez tercero, [según la crónica de Motorsport.com](https://es.motorsport.com/motogp/news/marquez-victoria-carrera-motogp-sepang-resultados-clasificacion/10870466/). Suma 399 puntos; Jorge Martín, que no corrió, sigue con 355. Con 111 en juego, la ventaja de 44 confirma lo que se explica más abajo: el título puede cerrarse en Qatar el 8 de noviembre si Márquez sale de Lusail con más de 74 puntos sobre el segundo.
+
+Pedro Acosta ganó el sprint del Gran Premio de Malasia con medio segundo de ventaja en una carrera a medio mojar, [según la crónica de MotoGP.com](https://www.motogp.com/es/news/2026/10/31/acosta-denies-marc-marquez-and-bezzecchi-in-tense-sprint-showdown-at-sepang/1181622). Álex Márquez se fue al suelo cuando lideraba, en la curva 14 y con la lluvia asomando; Ai Ogura heredó la cabeza y la perdió en el cuerpo a cuerpo final con Acosta y con Marc Márquez, que acabó segundo por delante de Marco Bezzecchi. El resultado que importa para el título, sin embargo, se decidió en el box de Aprilia.
 
 Jorge Martín no corre en Sepang. Se fracturó la muñeca hace seis días en Australia, probó el viernes con doce vueltas por la mañana y algunas más por la tarde, volvió a salir en el segundo libre del sábado y [se retiró del Gran Premio antes de la clasificación](https://www.motogp.com/es/news/2026/10/31/martin-withdraws-the-89-wont-take-part-in-malaysia/1182474). Llegaba a Malasia a diez puntos de Márquez después de [un fin de semana en Phillip Island sin carrera](/noticias/motogp-cancela-gran-premio-australia-helicoptero-medico-marquez-martin-mundial), cancelada por la niebla que impedía volar al helicóptero médico.
 
@@ -665,7 +847,7 @@ Eso deja dos conclusiones. La primera: Márquez no puede ser campeón este domin
 
 | Gran Premio | Fecha | Circuito |
 | --- | --- | --- |
-| Malasia (carrera) | Domingo 1 de noviembre, 08:00 (hora peninsular) | Sepang |
+| Malasia (carrera) | Domingo 1 de noviembre, 08:00. Ganó Marc Márquez | Sepang |
 | Qatar | 8 de noviembre | Lusail |
 | Portugal | 22 de noviembre | Portimão |
 | Comunidad Valenciana | 29 de noviembre | Cheste |
@@ -678,6 +860,7 @@ El calendario acaba así porque el Gran Premio de Qatar, previsto para abril, [s
     sourceUrl: 'https://www.motogp.com/es/news/2026/10/31/acosta-denies-marc-marquez-and-bezzecchi-in-tense-sprint-showdown-at-sepang/1181622',
     sourceLang: 'es',
     publishedAt: '2026-10-31T16:46:00+01:00',
+    modifiedAt: '2026-11-01T12:00:00+01:00',
     author: 'Redacción Mundiales',
     sourcesSecondary: [
       { name: 'MotoGP.com: Martín se retira del GP de Malasia', url: 'https://www.motogp.com/es/news/2026/10/31/martin-withdraws-the-89-wont-take-part-in-malaysia/1182474' },
