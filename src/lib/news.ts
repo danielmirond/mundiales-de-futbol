@@ -154,6 +154,329 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'previa-liverpool-arsenal-401879246',
+    title: "Liverpool - Arsenal: horario, dónde ver y cómo llegan al partido de Premier League",
+    summary: "Liverpool y Arsenal se enfrentan este domingo 1 de noviembre a las 17:30 h en Anfield, en partido de Premier League. Liverpool es 5.º y Arsenal, 2.º. TV: DAZN y Movistar Plus+.",
+    body: `Liverpool y Arsenal se enfrentan este domingo 1 de noviembre a las 17:30 h en Anfield, en partido de Premier League.
+
+## Cómo llegan
+
+Liverpool llega de ganar 2-0 a Brighton y ocupa la 5.º plaza con 15 puntos (4G-3E-1P). Arsenal llega de ganar 2-0 a Everton y ocupa la 2.º plaza con 21 puntos (7G-0E-1P). La [clasificación de Premier League](/futbol/premier-league), al día.
+
+## Dónde ver el partido
+
+Se emite en **DAZN, Movistar Plus+ y DAZN 1**. Alineaciones en cuanto se confirmen, marcador en directo y narración en la [ficha del Liverpool - Arsenal](/futbol/premier-league/partido/401879246). El resto de la jornada, en [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    kind: 'previa',
+    competition: {"name":"Premier League","sport":"futbol","slug":"premier-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401879246",
+    sourceLang: 'en',
+    publishedAt: '2026-11-01T00:27:27.828Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Liverpool_anfield_road_stadium.jpg/1280px-Liverpool_anfield_road_stadium.jpg",
+      alt: "Vista aérea de Anfield, el estadio del Liverpool, entre las casas de la ciudad",
+      credit: "Arne Müseler · Wikimedia Commons",
+      license: "CC BY-SA 3.0 de",
+    },
+  },
+  {
+    slug: 'cronica-levante-atletico-401882820',
+    title: "Alejandro Grimaldo guía a Atlético ante Levante (2-0) y lo deja 2.º en LaLiga",
+    summary: "Atlético 2-0 Levante en LaLiga: Alejandro Grimaldo marcó. Levante 46 % de posesión y 20 remates; Atlético 54 % y 11.",
+    body: `## Resumen
+
+Atlético ganó 2-0 a Levante en LaLiga.
+
+## Los goles
+
+- 36' · Alejandro Grimaldo (Atlético)
+- 62' · Giuliano Simeone (Atlético)
+
+## El dato
+
+Levante 46 % de posesión y 20 remates; Atlético 54 % y 11.
+
+## Lo que viene
+
+Lo que viene. Levante: visita a Celta Vigo el domingo 8 de noviembre. Atlético: recibe a Barcelona el domingo 8 de noviembre.
+
+**Lee también:** la [ficha del partido](/futbol/laliga/partido/401882820) con alineaciones y narración · la [clasificación de LaLiga](/futbol/laliga) · [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882820",
+    sourceLang: 'en',
+    publishedAt: '2026-11-01T00:27:27.828Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Estadi_Ciutat_de_Val%C3%A8ncia_interior_3.jpg/1280px-Estadi_Ciutat_de_Val%C3%A8ncia_interior_3.jpg",
+      alt: "Interior del Ciutat de València, con la grada en la que se lee «Levante UD 1909»",
+      credit: "Francesc Fort · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'cronica-rayo-celta-vigo-401882818',
+    title: "Rayo gana 3-0 a Celta Vigo y es 11.º",
+    summary: "Rayo suma tres puntos ante Celta Vigo (3-0) en LaLiga y es 11.º con 12 puntos; Celta Vigo se queda 9.º.",
+    body: `Rayo se impuso 3-0 a Celta Vigo en LaLiga, con doblete de Jorge de Frutos.
+
+## Los goles
+
+Marcaron Jorge de Frutos (36', Rayo), Jorge de Frutos (55', Rayo) y Unai López (73', Rayo).
+
+## La tabla
+
+Tras el partido, Rayo 11.º con 12 puntos y Celta Vigo 9.º con 12 puntos en la [clasificación de LaLiga](/futbol/laliga).
+
+## Lo que viene
+
+Lo que viene. Rayo: visita a Real Sociedad el domingo 8 de noviembre. Celta Vigo: recibe a Levante el domingo 8 de noviembre. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/laliga/partido/401882818).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882818",
+    sourceLang: 'en',
+    publishedAt: '2026-11-01T00:27:27.828Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Estadio_de_Vallecas.jpg/1280px-Estadio_de_Vallecas.jpg",
+      alt: "La grada del estadio de Vallecas, con su pancarta, bajo un cielo de tormenta",
+      credit: "K3T0 · Wikimedia Commons",
+      license: "CC BY 2.5 es",
+    },
+  },
+  {
+    slug: 'cronica-betis-malaga-401882825',
+    title: "Betis 2 Málaga 1: goles de Marc Bartra, Pablo Fornals y Adrián Niño, Betis 4.º y posesión del 59 % para Betis",
+    summary: "Marc Bartra marcó en el 38' el gol que puso por delante a Betis, que ya no soltó la ventaja: 2-1 final ante Málaga en LaLiga. Claves: goles de Marc Bartra, Pablo Fornals y Adrián Niño, Betis 4.º y posesión del 59 % para Betis.",
+    body: `Marc Bartra marcó en el 38' el gol que puso por delante a Betis, que ya no soltó la ventaja: 2-1 final ante Málaga en LaLiga.
+
+## Marc Bartra decidió
+
+Marcaron Marc Bartra (38', Betis), Pablo Fornals (45'+2', Betis) y Adrián Niño (68', Málaga).
+
+## Los números del partido
+
+Betis manejó el balón (59 % por 41 %) y tiró 23 veces, 6 entre los tres palos; Málaga se quedó en 10 remates (4 a puerta). Córners: 10 por 3.
+
+## Qué cambia en la tabla
+
+Tras el partido, Betis 4.º con 23 puntos y Málaga 20.º con 5 puntos en la [clasificación de LaLiga](/futbol/laliga).
+
+## Qué viene ahora
+
+Lo que viene. Betis: visita a Elche el domingo 8 de noviembre. Málaga: recibe a Racing el sábado 7 de noviembre. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/laliga/partido/401882825).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882825",
+    sourceLang: 'en',
+    publishedAt: '2026-11-01T00:27:27.828Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Estadio_Benito_Villamar%C3%ADn_2018001.jpg/1280px-Estadio_Benito_Villamar%C3%ADn_2018001.jpg",
+      alt: "Interior del Benito Villamarín de Sevilla, con las gradas verdes y blancas",
+      credit: "Anual · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'cronica-barcelona-alaves-401882822',
+    title: "Barcelona 6 Alavés 1: doblete de Raphinha, Barcelona 1.º y posesión del 77 % para Barcelona",
+    summary: "Raphinha marcó en el 8' el gol que puso por delante a Barcelona, que ya no soltó la ventaja: 6-1 final ante Alavés en LaLiga. Claves: doblete de Raphinha, Barcelona 1.º y posesión del 77 % para Barcelona.",
+    body: `Raphinha marcó en el 8' el gol que puso por delante a Barcelona, que ya no soltó la ventaja: 6-1 final ante Alavés en LaLiga.
+
+## Raphinha decidió con 2 goles
+
+Marcaron Raphinha (8', Barcelona), Fermín López (23', Barcelona), Raphinha (41', Barcelona), Lamine Yamal (45'+1', Barcelona), Lamine Yamal (64', Barcelona), Anthony Gordon (81', Barcelona) y Mariano Díaz (84', Alavés).
+
+## Los números del partido
+
+Barcelona manejó el balón (77 % por 23 %) y tiró 13 veces, 7 entre los tres palos; Alavés se quedó en 7 remates (3 a puerta). Córners: 4 por 3.
+
+## Qué cambia en la tabla
+
+Tras el partido, Barcelona 1.º con 30 puntos y Alavés 10.º con 12 puntos en la [clasificación de LaLiga](/futbol/laliga).
+
+## Qué viene ahora
+
+Lo que viene. Barcelona: visita a Atlético el domingo 8 de noviembre. Alavés: visita a Sevilla el viernes 6 de noviembre. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/laliga/partido/401882822).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882822",
+    sourceLang: 'en',
+    publishedAt: '2026-11-01T00:27:27.828Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/2014._Camp_Nou._M%C3%A9s_que_un_club._Barcelona_B40.jpg/1280px-2014._Camp_Nou._M%C3%A9s_que_un_club._Barcelona_B40.jpg",
+      alt: "Interior del Camp Nou, con las gradas azulgranas y el lema «Més que un club» en la tribuna",
+      credit: "Luis Miguel Bugallo Sánchez (Lmbuga) · Wikimedia Commons",
+      license: "CC BY-SA 3.0",
+    },
+  },
+  {
+    slug: 'partidos-baloncesto-hoy-2026-11-01',
+    title: "Partidos de baloncesto hoy, domingo 1 de noviembre: horarios y dónde ver NBA",
+    summary: "Agenda de baloncesto de hoy domingo 1 de noviembre: 2 partidos con horario en hora española y canal de televisión. Destaca Magic - Celtics.",
+    body: `El baloncesto no para: 2 encuentros este domingo 1 de noviembre. Esta es la agenda completa con horarios de España y televisión. El partido que más miradas reúne es el **[Magic - Celtics](/baloncesto/nba/partido/401909903)** (NBA, 21:30 h).
+
+## 🇺🇸 NBA
+
+- **[Magic - Celtics](/baloncesto/nba/partido/401909903)** — 21:30 h
+- **[Pacers - Nets](/baloncesto/nba/partido/401909904)** — 23:00 h
+
+Calendario y clasificación en la [página de NBA](/baloncesto/nba).
+
+Hora peninsular en todos los casos. Si un canal cambia a última hora, la ficha del partido lo recoge. Toda la jornada, con marcadores en directo, en [partidos de hoy](/partidos-hoy).`,
+    category: 'tv',
+    kind: 'agenda',
+    competition: {"name":"NBA","sport":"baloncesto","slug":"nba"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/nba/game/_/gameId/401909903",
+    sourceLang: 'en',
+    publishedAt: '2026-11-01T00:27:27.828Z',
+    modifiedAt: '2026-11-01T00:27:27.828Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Amway_Center-2.jpg/1920px-Amway_Center-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Kia Center, escenario del Magic - Celtics",
+      credit: "Visitor7 · CC BY-SA 3.0 · Wikimedia Commons",
+      license: "CC BY-SA 3.0",
+    },
+  },
+  {
+    slug: 'partidos-futbol-hoy-2026-11-01',
+    title: "Partidos de fútbol hoy, domingo 1 de noviembre: horarios y dónde ver LaLiga, Premier League y Süper Lig",
+    summary: "Agenda de fútbol de hoy domingo 1 de noviembre: 41 partidos con horario en hora española y canal de televisión. Destaca Getafe - Sevilla.",
+    body: `41 partidos de fútbol para domingo 1 de noviembre. Repasamos qué se juega, a qué hora y en qué canal, sin más vueltas. El partido que más miradas reúne es el **[Getafe - Sevilla](/futbol/laliga/partido/401882821)** (LaLiga, 14:00 h).
+
+## 🇹🇷 Süper Lig
+
+- **[Amed SFK - Eyupspor](/futbol/super-lig/partido/401888374)** — 11:30 h
+- **[Istanbul BB - Samsunspor](/futbol/super-lig/partido/401888261)** — 14:00 h
+- **[Trabzonspor - Gaziantep](/futbol/super-lig/partido/401888263)** — 14:00 h
+- **[Kasimpasa - Besiktas](/futbol/super-lig/partido/401888262)** — 17:00 h
+
+Calendario y clasificación en la [página de Süper Lig](/futbol/super-lig).
+
+## 🇪🇸 Liga F
+
+- **[Alavés - Real Sociedad](/futbol/liga-f/partido/401882476)** — 12:00 h
+- **[Badalona - Barcelona](/futbol/liga-f/partido/401882471)** — 12:30 h
+- **[Sevilla - Real Madrid](/futbol/liga-f/partido/401882470)** — 19:00 h
+
+Calendario y clasificación en la [página de Liga F](/futbol/liga-f).
+
+## 🇳🇱 Eredivisie
+
+- **[PEC Zwolle - ADO Den Haag](/futbol/eredivisie/partido/401875560)** — 12:15 h
+- **[Excelsior - FC Twente](/futbol/eredivisie/partido/401875559)** — 14:30 h
+- **[Telstar - FC Utrecht](/futbol/eredivisie/partido/401875558)** — 14:30 h
+- **[FC Groningen - Sparta](/futbol/eredivisie/partido/401875557)** — 16:45 h
+
+Calendario y clasificación en la [página de Eredivisie](/futbol/eredivisie).
+
+## 🇮🇹 Serie A
+
+- **[Como - Venezia](/futbol/serie-a/partido/401875002)** — 12:30 h · 📺 DAZN
+- **[Frosinone - Torino](/futbol/serie-a/partido/401874782)** — 15:00 h · 📺 DAZN
+- **[Lazio - Cagliari](/futbol/serie-a/partido/401874983)** — 15:00 h · 📺 DAZN
+- **[Lecce - Genoa](/futbol/serie-a/partido/401874968)** — 18:00 h · 📺 DAZN
+- **[Juventus - Napoli](/futbol/serie-a/partido/401874949)** — 20:45 h · 📺 DAZN
+
+Calendario y clasificación en la [página de Serie A](/futbol/serie-a).
+
+## 🇪🇸 LaLiga
+
+- **[Getafe - Sevilla](/futbol/laliga/partido/401882821)** — 14:00 h · 📺 DAZN LaLiga 2 / DAZN
+- **[Racing - Real Madrid](/futbol/laliga/partido/401882819)** — 16:15 h · 📺 DAZN LaLiga / DAZN
+- **[Elche - Valencia](/futbol/laliga/partido/401882823)** — 18:30 h · 📺 M+ LALIGA
+- **[Athletic - Real Sociedad](/futbol/laliga/partido/401882826)** — 21:00 h · 📺 DAZN LaLiga / DAZN
+
+Calendario y clasificación en la [página de LaLiga](/futbol/laliga).
+
+## 🇪🇸 LaLiga Hypermotion
+
+- **[Eldense - Granada](/futbol/laliga-2/partido/401883124)** — 14:00 h · 📺 LALIGA TV Hypermotion / DAZN
+- **[Ceuta - Gijón](/futbol/laliga-2/partido/401883125)** — 16:15 h · 📺 LALIGA TV Hypermotion / DAZN
+- **[Burgos - Castellón](/futbol/laliga-2/partido/401883149)** — 18:30 h · 📺 LALIGA TV Hypermotion / DAZN
+- **[Tenerife - FC Andorra](/futbol/laliga-2/partido/401883144)** — 21:00 h · 📺 LALIGA TV Hypermotion / DAZN
+
+Calendario y clasificación en la [página de LaLiga 2](/futbol/laliga-2).
+
+## 🇫🇷 Ligue 1
+
+- **[Strasbourg - Auxerre](/futbol/ligue-1/partido/401876414)** — 15:00 h · 📺 DAZN
+- **[Lyon - Angers](/futbol/ligue-1/partido/401876418)** — 17:15 h · 📺 DAZN
+- **[Paris FC - Monaco](/futbol/ligue-1/partido/401876415)** — 17:15 h · 📺 DAZN
+- **[Marseille - Toulouse](/futbol/ligue-1/partido/401876417)** — 20:45 h · 📺 DAZN
+
+Calendario y clasificación en la [página de Ligue 1](/futbol/ligue-1).
+
+## 🇩🇪 Bundesliga
+
+- **[Union Berlin - Cologne](/futbol/bundesliga/partido/401884750)** — 15:30 h
+- **[Frankfurt - Hamburg](/futbol/bundesliga/partido/401884752)** — 17:30 h · 📺 DAZN
+
+Calendario y clasificación en la [página de Bundesliga](/futbol/bundesliga).
+
+## 🇵🇹 Primeira Liga
+
+- **[Arouca - Nacional](/futbol/primeira-liga/partido/401885410)** — 16:30 h
+- **[Académico - Rio Ave](/futbol/primeira-liga/partido/401885411)** — 19:00 h
+- **[Maritimo - Santa Clara](/futbol/primeira-liga/partido/401885406)** — 19:00 h
+- **[Braga - FC Famalicao](/futbol/primeira-liga/partido/401885409)** — 21:30 h
+
+Calendario y clasificación en la [página de Primeira Liga](/futbol/primeira-liga).
+
+## 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Premier League
+
+- **[Liverpool - Arsenal](/futbol/premier-league/partido/401879246)** — 17:30 h · 📺 DAZN / Movistar Plus+
+
+Calendario y clasificación en la [página de Premier League](/futbol/premier-league).
+
+## 🇦🇷 Liga Profesional Argentina
+
+- **[Boca  - River Plate](/futbol/liga-argentina/partido/401841658)** — 19:00 h · 📺 M+ Vamos / M+ Liga de Campeones
+- **[Belgrano  - Barracas](/futbol/liga-argentina/partido/401841645)** — 22:30 h
+- **[Newell's - Unión (SF)](/futbol/liga-argentina/partido/401841650)** — 22:30 h
+
+Calendario y clasificación en la [página de Liga Argentina](/futbol/liga-argentina).
+
+## 🇺🇸 MLS
+
+- **[Vancouver - Seattle](/futbol/mls/partido/761927)** — 21:30 h
+- **[Atlanta - Toronto](/futbol/mls/partido/761931)** — 22:30 h
+- **[Nashville - Red Bull NY](/futbol/mls/partido/761920)** — 22:30 h
+
+Calendario y clasificación en la [página de MLS](/futbol/mls).
+
+Hora peninsular en todos los casos. Si un canal cambia a última hora, la ficha del partido lo recoge. Toda la jornada, con marcadores en directo, en [partidos de hoy](/partidos-hoy).`,
+    category: 'tv',
+    kind: 'agenda',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882821",
+    sourceLang: 'en',
+    publishedAt: '2026-11-01T00:27:27.828Z',
+    modifiedAt: '2026-11-01T00:27:27.828Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/The_Coliseum_Alfonso_P%C3%A9rez_in_2018.jpg/1280px-The_Coliseum_Alfonso_P%C3%A9rez_in_2018.jpg",
+      alt: "El Coliseum Alfonso Pérez de Getafe, con las gradas azules y el nombre del club, bajo un cielo nublado",
+      credit: "Vincenzo.togni · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
     slug: 'alcaraz-medvedev-semifinal-viena-resultado-final-domingo-donde-ver-noche-sabado-barca-alaves-f1',
     title: 'Alcaraz - Medvedev: resultado de la semifinal de Viena, cuándo es la final y qué más se puede ver esta noche',
     summary: 'Carlos Alcaraz ganó a Daniil Medvedev en la semifinal de Viena y jugará la final del domingo en Movistar Plus+. Horarios de lo que queda del sábado: Betis, Barça, Premier, Canelo y la F1.',
@@ -1131,8 +1454,8 @@ Marcadores en directo, calendario y clasificación por conferencias en la [pági
 
 - **Libres 1**: viernes 30 de octubre, a las 19:30 (hora peninsular). Mejor tiempo: Charles Leclerc
 - **Libres 2**: viernes 30 de octubre, a las 23:00 (hora peninsular). Mejor tiempo: Charles Leclerc
-- **Libres 3**: sábado 31 de octubre, a las 18:30 (hora peninsular)
-- **Clasificación**: sábado 31 de octubre, a las 22:00 (hora peninsular)
+- **Libres 3**: sábado 31 de octubre, a las 18:30 (hora peninsular). Mejor tiempo: Lando Norris
+- **Clasificación**: sábado 31 de octubre, a las 22:00 (hora peninsular). Mejor tiempo: Lewis Hamilton
 - **Carrera**: domingo 1 de noviembre, a las 21:00 (hora peninsular)
 
 ## Así llega el Mundial
@@ -1153,7 +1476,7 @@ Horarios, resultados de cada sesión y clasificación completa del Mundial en la
     sourceUrl: "https://www.espn.com/f1/schedule",
     sourceLang: 'en',
     publishedAt: '2026-10-29T13:42:22.845Z',
-    modifiedAt: '2026-10-31T13:03:35.778Z',
+    modifiedAt: '2026-11-01T00:27:27.828Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Vista_a%C3%A9rea_del_Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez_01.jpg/1920px-Vista_a%C3%A9rea_del_Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
