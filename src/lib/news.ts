@@ -154,6 +154,249 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'levante-badalona-barcelona-0-4-palamos-doblete-kerolin-pina-roja-lucia-martinez-clasificacion-liga-f',
+    title: 'Levante Badalona - Barcelona: el 0-4 de Palamós con doblete de Kerolin y cómo queda la Liga F',
+    summary: 'El Barça ganó 0-4 en Palamós al FC Badalona Women, el antiguo Levante Badalona. Kerolin marcó dos, Pina llegó a diez goles y el líder se va a cinco puntos del Real Madrid, que juega esta noche.',
+    body: `El Barcelona ganó 0-4 este domingo 1 de noviembre al FC Badalona Women en el Municipal de Palamós, en la novena jornada de la Liga F, [según el acta de ESPN](https://www.espn.com/soccer/match/_/gameId/401882471). El rival es el club que muchos siguen buscando como Levante Badalona: desde la temporada 2025-26 se llama FC Badalona Women y usa la marca ONA, [según anunció la Liga F](https://ligaf.es/noticia/nace-el-fc-badalona-women-una-nueva-era-para-el-club-catalan). El partido se jugó a mediodía y el Barça lo resolvió en la segunda parte, con una jugadora más desde la hora de juego.
+
+## Los goles y la roja
+
+Kerolin abrió el marcador en el minuto 5, con pase de Aitana Bonmatí. Era su primer gol en la Liga F, [según la crónica del propio club](https://www.fcbarcelona.com/en/football/womens-football/news/4602406/badalona-women-0-4-barca-resounding-away-victory). El 0-1 aguantó hasta el descanso y el Badalona, con el 28 % de posesión, llegó a tirar cuatro veces a puerta.
+
+El partido cambió en una jugada revisada. Carla Julià cayó dentro del área cuando la agarraban, el árbitro no lo señaló en directo y el banquillo del Barça pidió la revisión. De ahí salieron el penalti y la expulsión de Lucía Martínez, en el minuto 59 según ESPN. Caroline Graham Hansen transformó la pena máxima en el 61 y Kerolin hizo el 0-3 en el 65.
+
+| Minuto | Gol | Cómo |
+| --- | --- | --- |
+| 5 | Kerolin | Asistencia de Aitana |
+| 61 | Graham Hansen | Penalti tras revisión |
+| 65 | Kerolin | Doblete |
+| 75 | Clàudia Pina | Dos minutos después de entrar |
+
+Pina salió en el 73 por Graham Hansen y marcó desde la frontal dos minutos después. Lleva diez goles en nueve jornadas, siempre según el Barça. El equipo de Pere Romeu terminó con el 71,7 % de posesión, 21 remates (9 a puerta) y 12 córners por 2.
+
+## El once del Barça
+
+Cata Coll; Carla Julià, Van Asten, Torrejón, Martina Fernández; Aitana, Clara Serrajordi, Rosalía; Kerolin, Graham Hansen y Mayssa. Serrajordi se retiró en el minuto 52 y entró Patri Guijarro. En el 62 salieron Aitana y Van Asten por Schertenleib y Aïcha Cámara. La ficha completa, con estadísticas de las dos plantillas, está en [FC Badalona Women - Barcelona](/futbol/liga-f/partido/401882471).
+
+## Así queda la Liga F
+
+El Barça suma 24 puntos de 27, con 36 goles a favor y 4 en contra. El Real Madrid tiene 19 con un partido menos: juega esta noche a las 19:00 en el Estadio Jesús Navas contra el Sevilla, según el calendario de ESPN. Si gana, la distancia se queda en dos puntos.
+
+| Puesto | Equipo | Puntos | Partidos |
+| --- | --- | --- | --- |
+| 1 | Barcelona | 24 | 9 |
+| 2 | Real Madrid | 19 | 8 |
+| 3 | Madrid CFF | 17 | 9 |
+| 4 | Atlético de Madrid | 16 | 9 |
+| 5 | Athletic Club | 15 | 8 |
+| 15 | FC Badalona Women | 8 | 9 |
+| 16 | Valencia | 3 | 9 |
+
+El Badalona es decimoquinto, empatado a 8 puntos con el Alavés, y solo tiene por debajo al Valencia. La tabla completa, actualizada tras cada jornada, está en [la página de la Liga F](/futbol/liga-f).
+
+El siguiente partido del Barça es contra el Madrid CFF, tercero, el domingo 8 de noviembre a las 16:00 en el Estadi Johan Cruyff. Qué plataforma emite la Liga F y qué partidos van en abierto, en [la guía para ver la Liga F y la Champions femenina](/noticias/donde-ver-liga-f-champions-femenina-2026-27-dazn-tve-disney-gratis).`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'Liga F', sport: 'futbol', slug: 'liga-f' },
+    sourceName: 'ESPN: acta del FC Badalona Women - Barcelona',
+    sourceUrl: 'https://www.espn.com/soccer/match/_/gameId/401882471',
+    sourceLang: 'en',
+    publishedAt: '2026-11-01T16:34:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'FC Barcelona: Badalona Women 0-4 Barça', url: 'https://www.fcbarcelona.com/en/football/womens-football/news/4602406/badalona-women-0-4-barca-resounding-away-victory' },
+      { name: 'Liga F: nace el FC Badalona Women', url: 'https://ligaf.es/noticia/nace-el-fc-badalona-women-una-nueva-era-para-el-club-catalan' },
+      { name: 'VAVEL: el Barcelona firma un 0-4 ante un valiente Badalona', url: 'https://www.vavel.com/es/futbol/2026/11/01/futbol-femenino/1277582-liga-f-el-barcelona-firma-un-0-4-ante-un-valiente-badalona.html' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/UWCL_2025-26_Final_C27.jpg/1280px-UWCL_2025-26_Final_C27.jpg',
+      alt: 'Dos jugadoras del Barça, una de ellas con el 14 de Aitana Bonmatí a la espalda, se abrazan con la copa de la Champions femenina sobre el césped tras la final de mayo de 2026',
+      credit: 'MichaelEmilio · Wikimedia Commons',
+      license: 'CC BY 4.0',
+    },
+  },
+  {
+    slug: 'carlos-alcaraz-gana-viena-de-minaur-6-1-6-4-sin-ceder-un-set-titulo-28-supera-ferrer-orantes-paris-turin',
+    title: 'Carlos Alcaraz gana en Viena a De Miñaur sin ceder un set y deja atrás a Ferrer en títulos',
+    summary: 'Alcaraz ganó 6-1 y 6-4 a Álex de Miñaur en la final de Viena, su cuarto título de 2026 y el 28.º de su carrera. Ya es el tercer español con más trofeos, tras Nadal y Orantes.',
+    body: `Carlos Alcaraz ganó este domingo la final del ATP 500 de Viena a Álex de Miñaur por 6-1 y 6-4 en 97 minutos, [según la crónica de la ATP](https://www.atptour.com/en/news/alcaraz-de-minaur-vienna-2026-final). Es su primer título en la capital austriaca y el cuarto de 2026, tras el Open de Australia, Doha y Tokio. No cedió un set en toda la semana: pasó por Khachanov, Basilashvili, Paul y Medvedev, al que [ganó la semifinal del sábado](/noticias/alcaraz-medvedev-semifinal-viena-resultado-final-domingo-donde-ver-noche-sabado-barca-alaves-f1) por 6-4 y 7-6(2), antes de la final.
+
+## La final, en dos tramos
+
+El primer set duró lo que tardó Alcaraz en romper dos veces el saque del australiano. En el segundo, De Miñaur aguantó hasta el 4-4 y el murciano cerró con un último rotura y su servicio. Ganó el 81 % de los puntos con primer saque (29 de 36). «Es muy rápido, así que tienes que ganarte cada punto», dijo Alcaraz en la pista, según recoge la ATP.
+
+El balance entre ambos queda en 7-0 para el español. Entre esas victorias están las finales de Queen's 2023 y Róterdam 2025, [según El Español](https://www.elespanol.com/deportes/tenis/20261101/alcaraz-arrolla-minaur-final-atp-viena-tercer-tenista-espanol-titulos/1003744442786_0.html). La ATP añade otro dato: Alcaraz nunca ha perdido contra un australiano en el circuito, 15-0.
+
+## El escalafón español
+
+Con Viena, Alcaraz suma 28 títulos y supera a David Ferrer, con el que estaba empatado, [según Puntodebreak](https://www.puntodebreak.com/2026/11/01/alcaraz-campeon-atp-viena-victoria-de-minaur). Así queda la lista de españoles con más trofeos en la era Open:
+
+| Jugador | Títulos |
+| --- | --- |
+| Rafa Nadal | 92 |
+| Manuel Orantes | 34 |
+| Carlos Alcaraz | 28 |
+| David Ferrer | 27 |
+
+Alcaraz tiene 23 años. Orantes queda a seis títulos, una distancia que al ritmo de este año (cuatro) se cubre en dos temporadas. Nadal está en otra dimensión.
+
+## Qué viene: París y Turín
+
+Alcaraz es número 3 del ranking y ya tiene plaza en las ATP Finals de Turín, según la ATP. Antes juega el Masters 1000 de París, donde debutará contra Jiri Lehecka o Alex Michelsen. Esta temporada no ha perdido un partido en torneos ATP 500: 16-0, según la ATP. Lo que pasa en el circuito, partido a partido, está en [la sección de la ATP](/tenis/atp), y dónde se ven París y las Finals en España, en [la guía del tenis en televisión](/noticias/donde-ver-tenis-espana-atp-finals-copa-davis-alcaraz-movistar-hbo-max).`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'ATP 500', sport: 'tenis', slug: 'atp' },
+    sourceName: 'ATP: crónica de la final de Viena',
+    sourceUrl: 'https://www.atptour.com/en/news/alcaraz-de-minaur-vienna-2026-final',
+    sourceLang: 'en',
+    publishedAt: '2026-11-01T16:36:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'El Español: Alcaraz arrolla a De Miñaur y ya es el tercer español con más títulos', url: 'https://www.elespanol.com/deportes/tenis/20261101/alcaraz-arrolla-minaur-final-atp-viena-tercer-tenista-espanol-titulos/1003744442786_0.html' },
+      { name: 'Puntodebreak: así ha ganado Alcaraz el título en Viena', url: 'https://www.puntodebreak.com/2026/11/01/alcaraz-campeon-atp-viena-victoria-de-minaur' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Carlos_Alcaraz_%282026_US_Open%29_-_02.jpg/1280px-Carlos_Alcaraz_%282026_US_Open%29_-_02.jpg',
+      alt: 'Carlos Alcaraz, con camiseta sin mangas y pantalón marrones, lanza la bola al aire para sacar en una pista azul del US Open 2026',
+      credit: 'Oleg Yunakov · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'sandra-sanchez-45-anos-karateka-pelicula-libro-vuelve-competir-japon-2027-invisibilidad-kintsugi',
+    title: 'Sandra Sánchez, 45 años: «En el presente sigo sufriendo muchas de las situaciones que salen en la película»',
+    summary: 'La campeona olímpica de kárate estrena película y libro, cuenta que la invisibilidad que vivió no se ha ido y anuncia que volverá a competir en Japón en mayo de 2027.',
+    body: `Sandra Sánchez tiene 45 años, un oro olímpico y una película con su nombre en los cines desde el viernes. Y lo que más le cuesta no es verse en la pantalla. «Lo más duro es ver los momentos tan difíciles que vives, pero sentir que en el presente sigo sufriendo muchas de las situaciones que salen en la película», [dijo a EFE](https://www.infobae.com/espana/agencias/2026/10/27/sandra-sanchez-ninguna-injusticia-podra-quitarme-lo-que-el-karate-significa-para-mi/) la semana del estreno. Habla de la invisibilidad ante las instituciones y de la impotencia de vivir un abuso de poder sin herramientas para combatirlo. Lo dice la karateca más laureada de la historia en kata, cuatro años después de retirarse.
+
+## Lo que cuenta la película
+
+«Karateka», dirigida por Aritz Moreno y protagonizada por Andrea Ros y Patrick Criado, se estrenó el 30 de octubre solo en cines. El libro autobiográfico del mismo título está en librerías desde el 28, [según la segunda entrevista de EFE](https://www.infobae.com/espana/agencias/2026/10/30/sandra-sanchez-el-mundo-de-los-negocios-es-mas-competitivo-que-la-propia-competicion/). La película recorre su vida desde Talavera de la Reina hasta Tokio, y tuvo su primer pase en el Festival de San Sebastián.
+
+El palmarés que está detrás cabe en cuatro líneas: campeona olímpica en Tokio 2020, campeona del mundo en 2018 y 2021, siete veces campeona de Europa entre 2015 y 2022 y número uno del ranking durante seis años seguidos. Se retiró en julio de 2022, después de ganar el oro en los Juegos Mundiales de Birmingham.
+
+## La vuelta al tatami, en Japón
+
+La última página del libro guarda un anuncio: Sánchez volverá a competir en mayo de 2027, en la categoría máster, en Japón. El escenario son los Juegos Mundiales Máster de Kansai, que incluyen el kárate en su programa y [se celebran en mayo de 2027](https://wmg2027.jp/wmg2027/) tras el aplazamiento por la pandemia. Ella preside el Comité de Atletas de los Juegos Mundiales y explica que empujó esa categoría porque hay una generación que se cuida, sigue en forma y no tiene sitio en las competiciones de siempre. Competir en Japón, dice, es para ella como tocar las palmas.
+
+## Lo que ha montado desde que se retiró
+
+Con su pareja y entrenador, Jesús del Moral, dirige Kintsugi Karate, un programa gratuito de kárate adaptado para mujeres que han terminado un tratamiento oncológico. El nombre viene del arte japonés de reparar cerámica rota con oro. Tiene además Chikara Club, una plataforma de entrenamiento online con cuotas de 19 y 29 euros al mes, y Podium Vip, que conecta empresas patrocinadoras con deportistas olímpicos y paralímpicos. Esa última nació, según cuenta, de la misma invisibilidad que sufrió en su carrera.
+
+El interés por su historia tiene un dato medible: la página de Sandra Sánchez en la Wikipedia en español pasó de unas 900 visitas diarias a 9.207 el 27 de octubre, el día de la primera entrevista, [según las estadísticas públicas de Wikimedia](https://pageviews.wmcloud.org/?project=es.wikipedia&pages=Sandra_S%C3%A1nchez&start=2026-10-17&end=2026-10-31). Diez veces más de lo habitual. Otras campeonas han contado sus cicatrices en voz alta, como [Alexia Putellas con su rodilla](/noticias/alexia-putellas-balon-de-oro-pierna-me-fallaba-cruzado-2022-london-city-tercer-titulo). Sánchez lo ha hecho con una película, un libro y una fecha en el calendario. Más historias de deportistas, en [la sección de noticias](/noticias).`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'Kárate', sport: 'karate', slug: 'karate' },
+    sourceName: 'EFE (vía Infobae): entrevista a Sandra Sánchez',
+    sourceUrl: 'https://www.infobae.com/espana/agencias/2026/10/27/sandra-sanchez-ninguna-injusticia-podra-quitarme-lo-que-el-karate-significa-para-mi/',
+    sourceLang: 'es',
+    publishedAt: '2026-11-01T16:38:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'EFE (vía Infobae): el mundo de los negocios es más competitivo que la competición', url: 'https://www.infobae.com/espana/agencias/2026/10/30/sandra-sanchez-el-mundo-de-los-negocios-es-mas-competitivo-que-la-propia-competicion/' },
+      { name: 'World Masters Games 2027 Kansai: web oficial', url: 'https://wmg2027.jp/wmg2027/' },
+      { name: 'Sportlife: Karateka, la película sobre Sandra Sánchez', url: 'https://www.sportlife.es/noticias/karateka-pelicula-sandra-sanchez-estreno-2026_334711_102.html' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/K1PL_Berlin_2018-09-16_Female_Kata_115.jpg/1280px-K1PL_Berlin_2018-09-16_Female_Kata_115.jpg',
+      alt: 'Sandra Sánchez, con karategi blanco y cinturón azul, ejecuta un kata descalza sobre un tatami azul y rojo en la Premier League de Berlín de 2018',
+      credit: 'Martin Rulsch · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'manu-ginobili-49-anos-anillo-boda-goma-ocho-dolares-perdido-zapatilla-otro-dia-perdido',
+    title: 'Manu Ginóbili, 49 años, y la alianza que perdió en una zapatilla: «Es lo que representa, no el material»',
+    summary: 'Ginóbili contó en televisión por qué lleva una alianza de goma de ocho dólares: la original desapareció de la zapatilla donde la escondía en un partido. Lleva 22 años casado y cuatro anillos NBA.',
+    body: `Manu Ginóbili tiene cuatro anillos de campeón de la NBA y el de boda es de goma negra. Lo mostró a cámara, lo dobló y explicó por qué el jueves 29 de octubre en «Otro día perdido», el programa de Mario Pergolini en eltrece, [según recogió La Nación](https://www.lanacion.com.ar/espectaculos/manu-ginobili-desconcerto-a-todos-al-revelar-por-que-su-anillo-de-casado-es-de-goma-y-le-costo-8-nid30102026/). Le preguntaron por los dos anillos que llevaba en la mano. Uno era para dormir. El otro, el de casado, costó ocho dólares.
+
+## El original se quedó en una zapatilla
+
+La historia empieza en un vestuario visitante. Ginóbili contó que, cuando jugaba fuera de casa, no tenía un sitio propio donde dejar las cosas, así que escondía la alianza en el fondo de la zapatilla. Una noche, después de un partido picante, alguien pateó la zapatilla y el anillo desapareció. Al día siguiente ya no estaba. Tuvo que contárselo a su mujer.
+
+Ese anillo tenía grabada la fecha de la boda, el 10 de julio de 2004. La reacción de ella fue pedirle que llevara algo que dejara claro que estaba casado. Él eligió la goma, la misma que usa para ir al gimnasio y jugar al pádel. Se pierde a menudo, explicó, pero se compran diez de golpe. Pergolini le dijo que era lo menos romántico que había oído en su vida. «Es lo que representa, no el material», respondió Ginóbili.
+
+## 22 años de casado, 29 de pareja
+
+Ginóbili se casó con Marianela Oroño en 2004 y llevan juntos desde 1997, cuando él tenía 20 años y ella 16. Tienen tres hijos. En el programa se equivocó al calcular los años de matrimonio, dijo 24 y se corrigió a 22, y admitió que se acuerda de los aniversarios más que ella.
+
+El contraste con su vitrina lo hace gracioso. Ginóbili ganó la NBA con los Spurs en 2003, 2005, 2007 y 2014, el oro olímpico con Argentina en Atenas 2004 y la Euroliga con el Kinder de Bolonia en 2001, [según su ficha en el Salón de la Fama](https://www.hoophall.com/hall-of-famers/manu-ginobili/), donde entró en 2022. San Antonio retiró su número 20 en 2019. Nació en Bahía Blanca el 28 de julio de 1977 y hoy tiene 49 años.
+
+## Por qué vuelve a interesar
+
+No es un personaje del pasado para el público en español. Su página en la Wikipedia en español pasó de unas 180 visitas al día a 6.756 el 30 de octubre, [según las estadísticas de Wikimedia](https://pageviews.wmcloud.org/?project=es.wikipedia&pages=Manu_Gin%C3%B3bili&start=2026-10-17&end=2026-10-31), el día siguiente a la emisión. Es casi 40 veces su media.
+
+La NBA que él dejó en 2018 sigue en marcha: la clasificación y los partidos de esta semana están en [la página de la NBA](/baloncesto/nba), y los dos españoles de la liga, Hugo González y Santi Aldama, en [la guía de la temporada 2026-27](/noticias/nba-2026-27-donde-ver-espana-dazn-prime-video-estreno-hugo-gonzalez-aldama). Hay veteranos que siguen rompiendo marcas pasados los 35, como [Stephen Curry con 38](/noticias/stephen-curry-38-anos-44-puntos-iguala-lebron-timberwolves-lendeborg). Ginóbili, con 49, rompe otra cosa: la idea de que una alianza tiene que valer más que una entrada.`,
+    category: 'curiosa',
+    kind: 'noticia',
+    competition: { name: 'NBA', sport: 'baloncesto', slug: 'nba' },
+    sourceName: 'La Nación: Manu Ginóbili y su anillo de casado de goma',
+    sourceUrl: 'https://www.lanacion.com.ar/espectaculos/manu-ginobili-desconcerto-a-todos-al-revelar-por-que-su-anillo-de-casado-es-de-goma-y-le-costo-8-nid30102026/',
+    sourceLang: 'es',
+    publishedAt: '2026-11-01T16:40:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Naismith Basketball Hall of Fame: Manu Ginóbili', url: 'https://www.hoophall.com/hall-of-famers/manu-ginobili/' },
+      { name: 'Wikimedia: visitas a la página de Manu Ginóbili', url: 'https://pageviews.wmcloud.org/?project=es.wikipedia&pages=Manu_Gin%C3%B3bili&start=2026-10-17&end=2026-10-31' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Manu_Gin%C3%B3bili.jpg/1280px-Manu_Gin%C3%B3bili.jpg',
+      alt: 'Manu Ginóbili, con la camiseta blanca número 20 de los Spurs, camina por la pista durante un partido en Orlando en 2010, con un árbitro de espaldas a la derecha',
+      credit: 'Mike from Orlando, FL · Wikimedia Commons',
+      license: 'CC BY-SA 2.0',
+    },
+  },
+  {
+    slug: 'verstappen-checo-perez-gp-300-mexico-mundial-constructores-un-solo-piloto-2023-sport-bild-cadillac-2029',
+    title: 'Verstappen, en la semana del GP 300 de Checo: «El Mundial de constructores se puede ganar con un solo piloto»',
+    summary: 'Verstappen dijo a Sport Bild que en 2023 demostró que el título de constructores se gana con un solo piloto. Checo Pérez, su compañero aquel año, cumple hoy 300 grandes premios en casa con Cadillac.',
+    body: `Max Verstappen eligió una mala semana para recordar 2023. En una entrevista con Sport Bild, [recogida por Motorsport.com el jueves](https://de.motorsport.com/f1/news/konstrukteurs-wm-mit-nur-einem-fahrer-verstappen-mit-kampfansage-26102909/10869345/), dijo que aquel año demostró que el Mundial de constructores también se puede ganar con un solo piloto. Añadió que a muchos les pareció aburrido, que a él le pareció genial y que le gustaría repetirlo. No nombró a Sergio Pérez. No hacía falta: el mexicano era el otro piloto de Red Bull en 2023 y este domingo corre en México su gran premio número 300.
+
+## Lo que dicen los números de 2023
+
+Verstappen ganó 19 de las 22 carreras y sumó 575 puntos. Pérez fue subcampeón con 285, con dos victorias (Arabia Saudí y Azerbaiyán), nueve podios y dos poles, [según el repaso de F1 Chronicle](https://sports.yahoo.com/articles/max-verstappen-rejects-sergio-perezs-194825237.html). Red Bull cerró el Mundial de constructores con 860 puntos; Mercedes, segundo, con 409.
+
+| Piloto / equipo | Puntos 2023 |
+| --- | --- |
+| Verstappen | 575 |
+| Pérez | 285 |
+| Red Bull | 860 |
+| Mercedes (2.º) | 409 |
+
+Es decir: con los puntos de Verstappen solo, Red Bull habría ganado el título por 166. Con los de Pérez solo, habría sido tercero. La frase es cierta y, a la vez, borra al compañero que firmó el doblete en el Mundial de pilotos.
+
+## La semana de Checo
+
+En México la reacción ha ido más contra el momento que contra las palabras, [según El Universal](https://www.eluniversal.com.mx/deportes/max-verstappen-minimiza-el-aporte-de-checo-perez-en-red-bull-asegura-haber-ganado-solo-en-2023/). Pérez llega a su carrera 300 en el Autódromo Hermanos Rodríguez, en su primer gran premio de casa con Cadillac después de un año fuera de la parrilla. El miércoles rodó por el Paseo de la Reforma con un Fórmula 1 y ese mismo día el equipo [anunció su renovación hasta al menos 2029](https://www.cadillacf1team.com/news/the-cadillac-formula-1-r-team-commit-to-checo-perez-with-multi-year-extension-until-at-least-2029). Con 300 salidas pasa a ser el séptimo piloto de la historia en llegar a esa cifra, por delante de Sebastian Vettel, según la Fórmula 1.
+
+El sábado no acompañó: Pérez sale vigésimo, según la parrilla de ESPN. Lewis Hamilton tiene la pole con Ferrari, con Russell y Leclerc detrás, y Verstappen fue cuarto en la clasificación.
+
+## Red Bull hoy
+
+Verstappen habla desde otra posición. Lleva ocho podios en 2026, con victorias en Baréin y Singapur, y su compañero es Isack Hadjar, del que dice que lo está haciendo bien después de un inicio difícil con un coche complicado. Red Bull está a 252 puntos de Mercedes en constructores, según Motorsport.com, así que la frase sobre 2023 es más nostalgia que amenaza. Esta noche Kimi Antonelli [puede proclamarse campeón](/noticias/kimi-antonelli-infeccion-viral-gp-mexico-puede-ser-campeon-mas-joven) con Mercedes.
+
+La carrera empieza a las 21:00, hora peninsular, y la emite DAZN. Los horarios del domingo, con el resto de la agenda, están en [la previa del día](/noticias/real-madrid-sardinero-derbi-vasco-gp-mexico-hamilton-pole-alcaraz-final-viena-domingo-1-noviembre-horarios-donde-ver); qué queda de temporada y cuánto cuesta verla, en [la guía de F1 y MotoGP en España](/noticias/donde-ver-f1-motogp-espana-2026-dazn-precios-carreras-que-quedan). Clasificación y resultados, en [la sección de Fórmula 1](/motor/formula-1).`,
+    category: 'polemica',
+    kind: 'noticia',
+    competition: { name: 'Fórmula 1', sport: 'motor', slug: 'formula-1' },
+    sourceName: 'Motorsport.com (Alemania): Verstappen, Konstrukteurs-WM mit nur einem Fahrer',
+    sourceUrl: 'https://de.motorsport.com/f1/news/konstrukteurs-wm-mit-nur-einem-fahrer-verstappen-mit-kampfansage-26102909/10869345/',
+    sourceLang: 'de',
+    publishedAt: '2026-11-01T16:42:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'El Universal: Verstappen minimiza el aporte de Checo Pérez en Red Bull', url: 'https://www.eluniversal.com.mx/deportes/max-verstappen-minimiza-el-aporte-de-checo-perez-en-red-bull-asegura-haber-ganado-solo-en-2023/' },
+      { name: 'Cadillac F1 Team: extensión de Checo Pérez hasta al menos 2029', url: 'https://www.cadillacf1team.com/news/the-cadillac-formula-1-r-team-commit-to-checo-perez-with-multi-year-extension-until-at-least-2029' },
+      { name: 'Formula1.com: por qué Pérez significa tanto para México en su GP 300', url: 'https://www.formula1.com/en/latest/article/why-sergio-perez-means-so-much-to-mexico-as-he-celebrates-his-300th-grand-prix.55aJ3d90HUJ8smyvsIZtsr' },
+      { name: 'F1 Chronicle (Yahoo): Verstappen rejects Pérez contribution', url: 'https://sports.yahoo.com/articles/max-verstappen-rejects-sergio-perezs-194825237.html' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/2026_Chinese_GP_-_Cadillac_-_Sergio_Perez_-_FP1.jpg/1280px-2026_Chinese_GP_-_Cadillac_-_Sergio_Perez_-_FP1.jpg',
+      alt: 'El Cadillac blanco y negro con el número 11 de Sergio Pérez rueda sobre el asfalto del circuito de Shanghái durante los libres del GP de China 2026',
+      credit: 'Liauzh · Wikimedia Commons',
+      license: 'CC BY 4.0',
+    },
+  },
+  {
     slug: 'nba-resultados-2026-11-01',
     title: "NBA: resultados de la noche del 1 de noviembre",
     summary: "Resultados de los 7 partidos de la noche en la NBA, con el más igualado y el de más puntos.",
