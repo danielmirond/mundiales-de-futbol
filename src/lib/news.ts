@@ -154,6 +154,38 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'nba-resultados-2026-11-01',
+    title: "NBA: resultados de la noche del 1 de noviembre",
+    summary: "Resultados de los 7 partidos de la noche en la NBA, con el más igualado y el de más puntos.",
+    body: `7 partidos en la NBA esta noche. El más igualado, 76ers 109-104 a Hornets. El de más puntos, Cavaliers ante Bucks (136-111).
+
+## Resultados
+
+- [Trail Blazers 112-90 Jazz](/baloncesto/nba/partido/401909896)
+- [76ers 109-104 Hornets](/baloncesto/nba/partido/401909897)
+- [Pelicans 121-99 Hawks](/baloncesto/nba/partido/401909898)
+- [Grizzlies 136-105 Kings](/baloncesto/nba/partido/401909899)
+- [Cavaliers 136-111 Bucks](/baloncesto/nba/partido/401909900)
+- [Spurs 121-111 Timberwolves](/baloncesto/nba/partido/401909901)
+- [Rockets 119-98 Thunder](/baloncesto/nba/partido/401909902)
+
+Marcadores en directo, calendario y clasificación por conferencias en la [página de la NBA](/baloncesto/nba).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"NBA","sport":"baloncesto","slug":"nba"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/nba/scoreboard",
+    sourceLang: 'en',
+    publishedAt: '2026-11-01T13:50:20.308Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Spectrum_Center%2C_Charlotte%2C_NC.jpg/1920px-Spectrum_Center%2C_Charlotte%2C_NC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Spectrum Center, sede del Hornets - 76ers",
+      credit: "Matthew D. Britt from Glens Falls, NY, U.S.A. · CC BY 2.0 · Wikimedia Commons",
+      license: "CC BY 2.0",
+    },
+  },
+  {
     slug: 'brian-farinas-quien-es-canterano-benicarlo-flick-lateral-6-1-alaves-debut-barca-dorsal-4',
     title: 'Brian Fariñas: quién es el canterano de Benicarló que Flick puso de lateral en el 6-1 al Alavés',
     summary: 'Brian Fariñas, 20 años, centrocampista con ficha del primer equipo y dorsal 4, debutó de lateral derecho y jugó los 90 minutos del 6-1 al Alavés. De dónde viene y qué le espera el martes.',
@@ -768,7 +800,7 @@ Hora peninsular en todos los casos. Si un canal cambia a última hora, la ficha 
     sourceUrl: "https://www.espn.com/nba/game/_/gameId/401909903",
     sourceLang: 'en',
     publishedAt: '2026-11-01T00:27:27.828Z',
-    modifiedAt: '2026-11-01T00:27:27.828Z',
+    modifiedAt: '2026-11-01T13:50:20.308Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Amway_Center-2.jpg/1920px-Amway_Center-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -785,33 +817,33 @@ Hora peninsular en todos los casos. Si un canal cambia a última hora, la ficha 
 
 ## 🇹🇷 Süper Lig
 
-- **[Amed SFK - Eyupspor](/futbol/super-lig/partido/401888374)** — 11:30 h
-- **[Istanbul BB - Samsunspor](/futbol/super-lig/partido/401888261)** — 14:00 h
-- **[Trabzonspor - Gaziantep](/futbol/super-lig/partido/401888263)** — 14:00 h
+- **[Amed SFK - Eyupspor](/futbol/super-lig/partido/401888374)** — 11:30 h — **final 5-1**
+- **[Istanbul BB - Samsunspor](/futbol/super-lig/partido/401888261)** — 14:00 h — **en juego, 3-1**
+- **[Trabzonspor - Gaziantep](/futbol/super-lig/partido/401888263)** — 14:00 h — **en juego, 1-0**
 - **[Kasimpasa - Besiktas](/futbol/super-lig/partido/401888262)** — 17:00 h
 
 Calendario y clasificación en la [página de Süper Lig](/futbol/super-lig).
 
 ## 🇪🇸 Liga F
 
-- **[Alavés - Real Sociedad](/futbol/liga-f/partido/401882476)** — 12:00 h
-- **[Badalona - Barcelona](/futbol/liga-f/partido/401882471)** — 12:30 h
+- **[Alavés - Real Sociedad](/futbol/liga-f/partido/401882476)** — 12:00 h — **final 1-1**
+- **[Badalona - Barcelona](/futbol/liga-f/partido/401882471)** — 12:30 h — **final 0-4**
 - **[Sevilla - Real Madrid](/futbol/liga-f/partido/401882470)** — 19:00 h
 
 Calendario y clasificación en la [página de Liga F](/futbol/liga-f).
 
 ## 🇳🇱 Eredivisie
 
-- **[PEC Zwolle - ADO Den Haag](/futbol/eredivisie/partido/401875560)** — 12:15 h
-- **[Excelsior - FC Twente](/futbol/eredivisie/partido/401875559)** — 14:30 h
-- **[Telstar - FC Utrecht](/futbol/eredivisie/partido/401875558)** — 14:30 h
+- **[PEC Zwolle - ADO Den Haag](/futbol/eredivisie/partido/401875560)** — 12:15 h — **final 1-0**
+- **[Excelsior - FC Twente](/futbol/eredivisie/partido/401875559)** — 14:30 h — **en juego, 0-1**
+- **[Telstar - FC Utrecht](/futbol/eredivisie/partido/401875558)** — 14:30 h — **en juego, 1-0**
 - **[FC Groningen - Sparta](/futbol/eredivisie/partido/401875557)** — 16:45 h
 
 Calendario y clasificación en la [página de Eredivisie](/futbol/eredivisie).
 
 ## 🇮🇹 Serie A
 
-- **[Como - Venezia](/futbol/serie-a/partido/401875002)** — 12:30 h · 📺 DAZN
+- **[Como - Venezia](/futbol/serie-a/partido/401875002)** — 12:30 h · 📺 DAZN — **final 1-0**
 - **[Frosinone - Torino](/futbol/serie-a/partido/401874782)** — 15:00 h · 📺 DAZN
 - **[Lazio - Cagliari](/futbol/serie-a/partido/401874983)** — 15:00 h · 📺 DAZN
 - **[Lecce - Genoa](/futbol/serie-a/partido/401874968)** — 18:00 h · 📺 DAZN
@@ -821,7 +853,7 @@ Calendario y clasificación en la [página de Serie A](/futbol/serie-a).
 
 ## 🇪🇸 LaLiga
 
-- **[Getafe - Sevilla](/futbol/laliga/partido/401882821)** — 14:00 h · 📺 DAZN LaLiga 2 / DAZN
+- **[Getafe - Sevilla](/futbol/laliga/partido/401882821)** — 14:00 h · 📺 DAZN LaLiga 2 / DAZN — **en juego, 0-1**
 - **[Racing - Real Madrid](/futbol/laliga/partido/401882819)** — 16:15 h · 📺 DAZN LaLiga / DAZN
 - **[Elche - Valencia](/futbol/laliga/partido/401882823)** — 18:30 h · 📺 M+ LALIGA
 - **[Athletic - Real Sociedad](/futbol/laliga/partido/401882826)** — 21:00 h · 📺 DAZN LaLiga / DAZN
@@ -830,7 +862,7 @@ Calendario y clasificación en la [página de LaLiga](/futbol/laliga).
 
 ## 🇪🇸 LaLiga Hypermotion
 
-- **[Eldense - Granada](/futbol/laliga-2/partido/401883124)** — 14:00 h · 📺 LALIGA TV Hypermotion / DAZN
+- **[Eldense - Granada](/futbol/laliga-2/partido/401883124)** — 14:00 h · 📺 LALIGA TV Hypermotion / DAZN — **en juego, 0-0**
 - **[Ceuta - Gijón](/futbol/laliga-2/partido/401883125)** — 16:15 h · 📺 LALIGA TV Hypermotion / DAZN
 - **[Burgos - Castellón](/futbol/laliga-2/partido/401883149)** — 18:30 h · 📺 LALIGA TV Hypermotion / DAZN
 - **[Tenerife - FC Andorra](/futbol/laliga-2/partido/401883144)** — 21:00 h · 📺 LALIGA TV Hypermotion / DAZN
@@ -892,7 +924,7 @@ Hora peninsular en todos los casos. Si un canal cambia a última hora, la ficha 
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882821",
     sourceLang: 'en',
     publishedAt: '2026-11-01T00:27:27.828Z',
-    modifiedAt: '2026-11-01T00:27:27.828Z',
+    modifiedAt: '2026-11-01T13:50:20.308Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/The_Coliseum_Alfonso_P%C3%A9rez_in_2018.jpg/1280px-The_Coliseum_Alfonso_P%C3%A9rez_in_2018.jpg",
@@ -1904,7 +1936,7 @@ Horarios, resultados de cada sesión y clasificación completa del Mundial en la
     sourceUrl: "https://www.espn.com/f1/schedule",
     sourceLang: 'en',
     publishedAt: '2026-10-29T13:42:22.845Z',
-    modifiedAt: '2026-11-01T00:27:27.828Z',
+    modifiedAt: '2026-11-01T13:50:20.308Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Vista_a%C3%A9rea_del_Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez_01.jpg/1920px-Vista_a%C3%A9rea_del_Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
