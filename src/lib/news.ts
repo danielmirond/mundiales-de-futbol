@@ -154,6 +154,251 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'brian-farinas-quien-es-canterano-benicarlo-flick-lateral-6-1-alaves-debut-barca-dorsal-4',
+    title: 'Brian Fariñas: quién es el canterano de Benicarló que Flick puso de lateral en el 6-1 al Alavés',
+    summary: 'Brian Fariñas, 20 años, centrocampista con ficha del primer equipo y dorsal 4, debutó de lateral derecho y jugó los 90 minutos del 6-1 al Alavés. De dónde viene y qué le espera el martes.',
+    body: `Brian Fariñas jugó los 90 minutos del Barcelona - Alavés del sábado como lateral derecho, [según el acta de ESPN](https://www.espn.com/soccer/match/_/gameId/401882822), y fue su primer partido oficial con el primer equipo. Tiene 20 años, es centrocampista y nació en Benicarló (Castellón) el 9 de febrero de 2006, [según su ficha oficial](https://www.fcbarcelona.es/es/futbol/primer-equipo/jugadores/140515/brian-farinas). Hansi Flick había avisado en la previa de que tenía cuatro defensas de baja y de que Fariñas era una alternativa para el lateral por su inteligencia y por el trabajo hecho en los entrenamientos, [como recogió Demócrata](https://www.democrata.es/deportes/quien-es-brian-farinas-barcelona-flick-lateral/). El Barça ganó 6-1 y es líder; la crónica del partido [está en esta pieza](/noticias/cronica-barcelona-alaves-401882822).
+
+## De Villarreal a La Masia con 12 años
+
+Fariñas empezó en la cantera del Villarreal en edad prebenjamín y se fue al Barça en 2018, con 12 años, [según Actualidad Castellón](https://actualidadcastellon.com/brian-farinas-de-benicarlo-debuta-con-el-barca-en-primera/). En La Masia hizo todas las categorías: fue pieza clave del triplete del Juvenil A en 2024/25 y subió al Barça Atlètic como uno de sus capitanes. Su debut con el filial fue el 16 de marzo de 2024, en una victoria por 2-4 en el campo del Teruel. La pasada temporada, con Belletti en el banquillo, cerró el curso con 35 partidos, cinco goles y seis asistencias.
+
+En verano hizo la pretemporada con Flick y el club le dio ficha del primer equipo con el dorsal 4, el que dejó Ronald Araujo, [según anunció el Barça](https://www.fcbarcelona.es/es/noticias/4570494/brian-farinas-inscrito-como-jugador-del-primer-equipo-con-el-dorsal-4). Hasta el sábado no había jugado ni un minuto oficial.
+
+## Lo que hizo en el 6-1
+
+Con Cubarsí y De Jong de centrales y Cancelo en la izquierda, Fariñas ocupó el carril derecho desde el inicio. Fue, junto a Cubarsí, el único de la defensa titular que aguantó los 90 minutos: Cancelo salió en el 62 y De Jong en el 82. No vio tarjeta. Así cayeron los goles, según el acta:
+
+| Minuto | Gol | Equipo |
+| --- | --- | --- |
+| 8 | Raphinha | Barcelona |
+| 23 | Fermín López | Barcelona |
+| 41 | Raphinha | Barcelona |
+| 45+1 | Lamine Yamal | Barcelona |
+| 64 | Lamine Yamal | Barcelona |
+| 81 | Anthony Gordon | Barcelona |
+| 84 | Mariano Díaz | Alavés |
+
+Hubo 53.523 espectadores en el Spotify Camp Nou. La ficha completa, con alineaciones y estadísticas, está en [Barcelona - Alavés](/futbol/laliga/partido/401882822).
+
+## El martes, Champions
+
+El siguiente partido es el Barcelona - Aston Villa de Champions, el martes 3 de noviembre a las 21:00, [según el calendario de ESPN](https://www.espn.com/soccer/match/_/gameId/401915387). Fariñas figura en la plantilla registrada por el Barça en la UEFA, [según su ficha en la competición](https://www.uefa.com/uefachampionsleague/clubs/players/250190376--brian-farinas/). Si las bajas en defensa siguen, el de Benicarló tiene opciones de repetir en el lateral. Ficha y alineaciones en cuanto se confirmen, en [Barcelona - Aston Villa](/futbol/champions-league/partido/401915387). Plantilla y calendario azulgrana, en [la ficha del Barcelona](/futbol/laliga/equipo/83).`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'LaLiga', sport: 'futbol', slug: 'laliga' },
+    sourceName: 'FC Barcelona: ficha oficial de Brian Fariñas',
+    sourceUrl: 'https://www.fcbarcelona.es/es/futbol/primer-equipo/jugadores/140515/brian-farinas',
+    sourceLang: 'es',
+    publishedAt: '2026-11-01T12:52:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'ESPN: acta del Barcelona - Alavés', url: 'https://www.espn.com/soccer/match/_/gameId/401882822' },
+      { name: 'FC Barcelona: Fariñas, inscrito con el dorsal 4', url: 'https://www.fcbarcelona.es/es/noticias/4570494/brian-farinas-inscrito-como-jugador-del-primer-equipo-con-el-dorsal-4' },
+      { name: 'Actualidad Castellón: Brian Fariñas, de Benicarló, debuta con el Barça', url: 'https://actualidadcastellon.com/brian-farinas-de-benicarlo-debuta-con-el-barca-en-primera/' },
+      { name: 'Demócrata: quién es Brian Fariñas', url: 'https://www.democrata.es/deportes/quien-es-brian-farinas-barcelona-flick-lateral/' },
+    ],
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Camp_nou_2026.png/1280px-Camp_nou_2026.png',
+      alt: 'Interior del Spotify Camp Nou en obras, con las grúas sobre la grada, los focos encendidos y aficionados con camisetas del Barça en el primer anillo antes de un partido',
+      credit: 'Elad Eisenhammer · Wikimedia Commons',
+      license: 'CC BY 4.0',
+    },
+  },
+  {
+    slug: 'real-zaragoza-villarreal-b-2-2-lideres-tobajas-roja-ibai-gomez-sinverguenza-derbi-huesca-primera-federacion',
+    title: 'Real Zaragoza - Villarreal B: el 2-2 entre líderes y la noche en que Tobajas tiró la puerta abajo',
+    summary: 'El Zaragoza remontó un 0-2 al Villarreal B en el descuento y sigue empatado con el filial en lo alto de Primera Federación. Tobajas, 19 años, cambió el partido, fue expulsado y se pierde el derbi.',
+    body: `El Real Zaragoza empató 2-2 con el Villarreal B el sábado por la noche en el Ibercaja Estadio después de ir perdiendo 0-2 hasta el minuto 85, [según la crónica de Aragón Digital](https://www.aragondigital.es/articulo/real-zaragoza/vibrantes-tablas-lideres/202610312339161019099.html). Era el duelo entre los dos primeros de Primera Federación, empatados a 20 puntos antes de empezar, y siguen igualados: ambos suman 21 con seis victorias, tres empates y una derrota. El filial amarillo se mantiene primero y el Zaragoza, segundo, encadena nueve partidos sin perder.
+
+## Cómo se remontó
+
+Albert y Álvaro García pusieron el 0-2 a falta de 20 minutos y el partido parecía perdido. En el 86, Jaume Jardí falló un penalti y cazó el rebote para el 1-2. En el descuento, Diego González remató de cabeza en el área pequeña el 2-2. Entre medias, el árbitro había anulado un gol al Villarreal B en el 33.
+
+La reacción empezó en el banquillo. En el minuto 59, con el 0-2 ya en el marcador, Ibai Gómez metió a Tobajas, Vadillo y Pau Sans, y el equipo cambió de cara. Así lo contó el propio entrenador tras el partido, [en declaraciones que recoge SportAragón](https://www.sportaragon.com/futbol-aragon/real-zaragoza/ibai-gomez-tobajas-primer-equipo+Real+Zaragoza/20261101094002162219.html).
+
+## Tobajas, 19 años
+
+Jaime Tobajas nació en Zaragoza el 15 de diciembre de 2006 y juega de mediapunta. Ibai lo tuvo en la dinámica del primer equipo desde la pretemporada, y después del sábado lo dejó claro: «Tobajas es un sinvergüenza, en el buen sentido de la palabra». Dijo también que lleva mucho tiempo tirando la puerta abajo, que le da igual jugar en la plaza o en el Bernabéu porque lo demuestra cada día, y que ve difícil que vuelva a bajar al Deportivo Aragón, el filial.
+
+La noche tuvo su cara amarga. En el minuto 97, con el Zaragoza volcado, Tobajas fue expulsado por un golpe con el brazo a un rival. La sanción le dejará fuera del siguiente partido, que es el derbi aragonés.
+
+## Así queda la pelea por el liderato
+
+| Equipo | Puntos | Balance |
+| --- | --- | --- |
+| Villarreal B | 21 | 6 victorias, 3 empates, 1 derrota |
+| Real Zaragoza | 21 | 6 victorias, 3 empates, 1 derrota |
+
+El contexto pesa. El Zaragoza bajó a Primera Federación el 24 de mayo, tras empatar en Las Palmas en la penúltima jornada, y cerró 77 años seguidos en el fútbol profesional, [como contó El Debate](https://www.eldebate.com/deportes/futbol/la-liga/20260524/real-zaragoza-cae-primera-vez-historia-pozo-futbol-no-profesional_421071.html). Es su primera temporada en la categoría y la afición mide cada jornada contra el objetivo de volver a [LaLiga Hypermotion](/futbol/laliga-2). El equipo también sigue vivo en [la Copa del Rey](/futbol/copa-del-rey), donde pasó la primera ronda.
+
+## El derbi, el sábado a las 21:00
+
+El siguiente partido es el Real Zaragoza - SD Huesca del sábado 7 de noviembre a las 21:00 en el Ibercaja Estadio, [según la información de entradas del club](https://www.realzaragoza.com/noticias/prioridad-para-nuestros-socios-en-la-venta-de-entradas-para-el-partido-contra-el-huesca-en-ibercaja-estadio). Es el primer derbi aragonés en Primera Federación, con los dos clubes descendidos el mismo año, y el Zaragoza lo jugará sin su canterano de moda.`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'Primera Federación', sport: 'futbol', slug: 'primera-federacion' },
+    sourceName: 'Aragón Digital: Real Zaragoza y Villarreal B suman unas vibrantes tablas de líderes (2-2)',
+    sourceUrl: 'https://www.aragondigital.es/articulo/real-zaragoza/vibrantes-tablas-lideres/202610312339161019099.html',
+    sourceLang: 'es',
+    publishedAt: '2026-11-01T12:54:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'SportAragón: el canterano de 19 años que ha conquistado a Ibai Gómez', url: 'https://www.sportaragon.com/futbol-aragon/real-zaragoza/ibai-gomez-tobajas-primer-equipo+Real+Zaragoza/20261101094002162219.html' },
+      { name: 'Real Zaragoza: entradas para el partido contra el Huesca', url: 'https://www.realzaragoza.com/noticias/prioridad-para-nuestros-socios-en-la-venta-de-entradas-para-el-partido-contra-el-huesca-en-ibercaja-estadio' },
+      { name: 'El Debate: el Real Zaragoza cae por primera vez en su historia al fútbol no profesional', url: 'https://www.eldebate.com/deportes/futbol/la-liga/20260524/real-zaragoza-cae-primera-vez-historia-pozo-futbol-no-profesional_421071.html' },
+    ],
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Ibercaja_estadio_8.08.2025.jpg/1280px-Ibercaja_estadio_8.08.2025.jpg',
+      alt: 'Exterior del Ibercaja Estadio de Zaragoza, con las torres de focos y las lonas azules sobre las gradas provisionales',
+      credit: 'Campeones 2008 · Wikimedia Commons',
+      license: 'CC0',
+    },
+  },
+  {
+    slug: 'honda-formula-1-que-le-fallo-alonso-mexico-q1-presion-agua-sancion-motor-2026-china-baku-singapur',
+    title: 'Honda en Fórmula 1: qué le falló a Alonso en México y cuántas veces le ha fallado el motor en 2026',
+    summary: 'Alonso se quedó fuera en la Q1 de México por la presión de agua del motor Honda y saldrá desde atrás por cambiar componentes. Repaso, carrera a carrera, de los fallos del motor en 2026.',
+    body: `Fernando Alonso se quedó fuera en la Q1 del Gran Premio de México porque su Aston Martin sufrió un problema de presión de agua relacionado con el sistema de recuperación de energía, y el equipo le ordenó parar el coche en pista para no dañar más la unidad de potencia, [según RacingNews365](https://racingnews365.com/fernando-alonso-frustration-beyond-imagination-after-latest-aston-martin-woe). Honda ya ha confirmado que cambiará componentes del motor, así que hay sanción y saldrá desde el fondo de la parrilla. Honda es el motorista de Aston Martin desde este año, cuando sustituyó a Mercedes.
+
+La carrera es hoy a las 21:00 (hora peninsular) y se ve en DAZN; la agenda completa del domingo [está en esta pieza](/noticias/real-madrid-sardinero-derbi-vasco-gp-mexico-hamilton-pole-alcaraz-final-viena-domingo-1-noviembre-horarios-donde-ver).
+
+## Qué pasó el sábado
+
+Alonso ya había dado señales de pérdida de potencia en los últimos libres. Cuando apareció el fallo en la Q1, se detuvo a pocos metros del garaje. «Estaba a 100 metros del garaje, pero probablemente el problema era mayor que cualquier cosa que se pudiera hacer allí», explicó a los medios. En la hoja de tiempos figura decimoséptimo, con 1:18.908, [según la clasificación oficial](https://www.formula1.com/en/results/2026/races/1298/mexico/qualifying), pero la sanción por los componentes nuevos lo manda al final. Lance Stroll fue decimonoveno. Es la segunda vez en tres carreras que Alonso pierde la clasificación por el motor: en Singapur fue el turbo y en México, la presión de agua.
+
+## Carrera a carrera: cuándo ha fallado Honda en 2026
+
+Este es el repaso de las citas en que el motor ha condicionado a Aston Martin este año, con la fuente de cada una:
+
+| Gran Premio | Qué pasó |
+| --- | --- |
+| China (marzo) | Alonso abandonó en la vuelta 32 por las vibraciones del motor: dejó de sentir las manos y los pies, [según contó a DAZN](https://www.record.com.mx/historia/no-sentia-la-manos-fernando-alonso-compartio-por-que-se-retiro-del-gp-de-china-2026031519231501327) |
+| Japón (marzo) | Vibraciones de nuevo, que Alonso calificó de soportables; terminó decimoctavo, a medio minuto de Checo Pérez, [según Motor.es](https://www.motor.es/formula-1/alonso-cable-honda-terminar-suzuka-vibraciones-soportables-2026113346.html) |
+| España (Madrid) | Stroll, 40 puestos de sanción por un motor nuevo que tuvo una fuga de agua antes de marcar tiempo, [según The Race](https://www.the-race.com/formula-1/f1-2026-spanish-gp-starting-grid-after-two-penalties.md) |
+| Azerbaiyán (septiembre) | Alonso salió desde el fondo por sanciones de componentes y abandonó por problemas de motor antes de la mitad, [según Motor.es](https://www.motor.es/formula-1/alonso-explota-honda-baku-diferencia-2026116663.html) |
+| Singapur (octubre) | Fuera en la Q1 por problemas con el turbo, sanción y decimosexto en carrera; Stroll abandonó, [según Motor.es](https://www.motor.es/formula-1/alonso-vuelve-estallar-honda-motor-ridiculo-singapur-2026116954.html) |
+| México (31 de octubre) | Presión de agua en el sistema de recuperación, fuera en la Q1 y cambio de componentes |
+
+En Bakú, Alonso cifró en 1,1 segundos la diferencia en recta con los rivales; en Singapur llamó ridículo al motor por radio. México es la tercera clasificación del año condicionada por el motor en Aston Martin, tras Madrid y Singapur.
+
+## Qué se puede esperar esta noche
+
+Alonso ha descartado remontar desde atrás en un circuito donde la altitud y la refrigeración han castigado al coche todo el fin de semana, aunque el trazado del Hermanos Rodríguez le había sentado mejor de lo habitual. Hamilton sale desde la pole y Antonelli [puede proclamarse campeón esta noche](/noticias/kimi-antonelli-infeccion-viral-gp-mexico-puede-ser-campeon-mas-joven). Clasificación del Mundial y calendario, en [la página de Fórmula 1](/motor/formula-1); qué plataforma emite cada carrera y cuánto cuesta, en [la guía del motor](/noticias/donde-ver-f1-motogp-espana-2026-dazn-precios-carreras-que-quedan).`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'Fórmula 1', sport: 'motor', slug: 'formula-1' },
+    sourceName: 'RacingNews365: Alonso, frustración más allá de lo imaginable tras el último fallo de Aston Martin',
+    sourceUrl: 'https://racingnews365.com/fernando-alonso-frustration-beyond-imagination-after-latest-aston-martin-woe',
+    sourceLang: 'en',
+    publishedAt: '2026-11-01T12:56:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Formula1.com: clasificación del Gran Premio de México', url: 'https://www.formula1.com/en/results/2026/races/1298/mexico/qualifying' },
+      { name: 'Motor.es: Alonso explota contra Honda en Bakú', url: 'https://www.motor.es/formula-1/alonso-explota-honda-baku-diferencia-2026116663.html' },
+      { name: 'Motor.es: Alonso vuelve a estallar contra Honda en Singapur', url: 'https://www.motor.es/formula-1/alonso-vuelve-estallar-honda-motor-ridiculo-singapur-2026116954.html' },
+      { name: 'Récord: Alonso explica por qué se retiró del GP de China', url: 'https://www.record.com.mx/historia/no-sentia-la-manos-fernando-alonso-compartio-por-que-se-retiro-del-gp-de-china-2026031519231501327' },
+      { name: 'The Race: parrilla del GP de España tras las sanciones', url: 'https://www.the-race.com/formula-1/f1-2026-spanish-gp-starting-grid-after-two-penalties.md' },
+    ],
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/FIA_F1_Austria_2026_Nr._14_Alonso_%281%29.jpg/1280px-FIA_F1_Austria_2026_Nr._14_Alonso_%281%29.jpg',
+      alt: 'El Aston Martin AMR26 de Fernando Alonso, con el número 14 y el logo de Honda en el lateral, en pista durante el Gran Premio de Austria de 2026',
+      credit: 'Lukas Raich · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'kaka-44-anos-llora-san-siro-salon-de-la-fama-milan-derbi-inter-real-madrid-120-partidos-29-goles',
+    title: 'Kaká, 44 años, llora en San Siro: «Es muy difícil poner en palabras lo que siento aquí»',
+    summary: 'El Milan metió a Kaká en su Salón de la Fama antes del derbi y el brasileño rompió a llorar. Fue el ídolo que el Madrid fichó en 2009 y nunca fue el mismo: sus números en las dos casas.',
+    body: `Kaká recibió el sábado por la noche, sobre el césped de San Siro y antes del Milan - Inter, su entrada en el Salón de la Fama del club, y rompió a llorar con la ovación, [según contó Goal](https://www.goal.com/en-us/news/kaka-ac-milan-hall-of-fame-legend-honoured-inter-victory/blte505af500e1c7f74). «Es muy difícil poner en palabras lo que siento aquí, en San Siro, con toda la afición del Milan», dijo a DAZN. Después, el Milan ganó el derbi 3-1, [según el acta de ESPN](https://www.espn.com/soccer/match/_/gameId/401874795): Pulisic en el 4, Rabiot en el 10 y Moreira de falta en el 43, con el gol de Bastoni por medio.
+
+El homenaje no lo decidió el club. Los aficionados del Milan votaron en abril a Ancelotti, Gullit y Kaká como los mejores centrocampistas de su historia, [según anunció el Milan el 23 de abril](https://www.acmilan.com/en/news/articles/club/2026-04-23/hall-of-fame-presented-by-emirates-ancelotti-gullit-and-kaka-voted-best-midfielders), y las ceremonias se reparten en partidos de casa. A Kaká le tocó el derbi.
+
+## Siete temporadas, 104 goles
+
+Kaká llegó al Milan en 2003 desde el São Paulo y en su primera temporada ganó el Scudetto. En 2006/07 marcó 10 goles en la Champions y llevó al equipo a ganar la final de Atenas, con un doblete al Manchester United en semifinales; ese año ganó el Balón de Oro y el premio al mejor jugador de la FIFA. En total, siete temporadas, 307 partidos y 104 goles con el Milan, [según su ficha en el Salón de la Fama](https://www.acmilan.com/en/hall-of-fame/inductees/ricardo-kaka).
+
+## Lo que fue en Madrid
+
+En 2009 fichó por el Real Madrid, en el mismo verano que Cristiano Ronaldo, y formó con él y con Benzema una de las delanteras más vistosas del momento, [según la ficha de leyendas del club](https://www.realmadrid.com/es-ES/el-club/historia/leyendas-futbol/ricardo-izecson-dos-santos-leite). Debutó en el Bernabéu contra el Deportivo y su primer gol llegó en septiembre de 2009, en un 0-2 en Villarreal. Ganó una Copa del Rey, una Liga y una Supercopa de España. Pero los números cuentan otra historia que la de Milán: 120 partidos oficiales y 29 goles en cuatro temporadas.
+
+| Etapa | Temporadas | Partidos | Goles | Goles por partido |
+| --- | --- | --- | --- | --- |
+| Milan (2003-2009) | 6 | 270 | 95 | 0,35 |
+| Real Madrid (2009-2013) | 4 | 120 | 29 | 0,24 |
+| Milan (2013-2014) | 1 | 37 | 9 | 0,24 |
+
+Los datos de Milán salen de la ficha del Salón de la Fama, temporada a temporada; los de Madrid coinciden con los que da el Real Madrid. En Madrid, su mejor curso fue el primero: 33 partidos y 9 goles. El segundo, 2010/11, lo redujo a 20 partidos y 7 goles. Volvió al Milan en 2013 para una última temporada y de allí se fue a Orlando.
+
+## Por qué llora un ídolo con 44 años
+
+Kaká no era un veterano cuando se marchó: tenía 27 años y acababa de ganar el Balón de Oro dos temporadas antes. Diecisiete años después, el regreso a San Siro le devolvió al sitio en el que fue el mejor del mundo, mientras que en Madrid quedó como el fichaje que no fue lo que se esperaba. Preguntado por el presente, dijo que le gustaría volver a ver brasileños en el Milan. La ficha del derbi, con alineaciones y estadísticas, está en [Milan - Inter](/futbol/serie-a/partido/401874795), y la clasificación italiana, en [la página de la Serie A](/futbol/serie-a). Su antiguo club blanco, en [la ficha del Real Madrid](/futbol/laliga/equipo/86).`,
+    category: 'historica',
+    kind: 'noticia',
+    competition: { name: 'Serie A', sport: 'futbol', slug: 'serie-a' },
+    sourceName: 'Goal: Kaká rompe a llorar en su entrada en el Salón de la Fama del Milan',
+    sourceUrl: 'https://www.goal.com/en-us/news/kaka-ac-milan-hall-of-fame-legend-honoured-inter-victory/blte505af500e1c7f74',
+    sourceLang: 'en',
+    publishedAt: '2026-11-01T12:58:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'AC Milan: Ancelotti, Gullit y Kaká, votados mejores centrocampistas del Salón de la Fama', url: 'https://www.acmilan.com/en/news/articles/club/2026-04-23/hall-of-fame-presented-by-emirates-ancelotti-gullit-and-kaka-voted-best-midfielders' },
+      { name: 'AC Milan: ficha de Kaká en el Salón de la Fama', url: 'https://www.acmilan.com/en/hall-of-fame/inductees/ricardo-kaka' },
+      { name: 'Real Madrid: Kaká, jugador de leyenda', url: 'https://www.realmadrid.com/es-ES/el-club/historia/leyendas-futbol/ricardo-izecson-dos-santos-leite' },
+      { name: 'ESPN: acta del Milan - Inter', url: 'https://www.espn.com/soccer/match/_/gameId/401874795' },
+    ],
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Kak%C3%A1_Real_Madrid_Tottenham.jpg/1280px-Kak%C3%A1_Real_Madrid_Tottenham.jpg',
+      alt: 'Kaká, de blanco, conduce el balón entre dos jugadores del Tottenham en el Santiago Bernabéu durante la Champions de 2011',
+      credit: 'Alejandro Ramos · Wikimedia Commons',
+      license: 'CC BY-SA 2.0',
+    },
+  },
+  {
+    slug: 'orihuela-costa-estadio-criquet-campo-maximo-daniel-weston-playa-flamenca-test-match-2028',
+    title: 'Orihuela Costa tendrá un estadio de críquet: un australiano de 43 años lo levanta en Playa Flamenca',
+    summary: 'Daniel Weston construye en Orihuela Costa el Campo Máximo, un estadio de críquet con césped artificial, placas solares y 1.000 plazas que quiere abrir en 2028 y sueña con un test match.',
+    body: `Daniel Weston, empresario australiano de 43 años, está construyendo un estadio de críquet en Playa Flamenca, en Orihuela Costa (Alicante), a 45 minutos en coche de Alicante, [según contó a BBC Sport](https://www.bbc.co.uk/sport/cricket/articles/ckr5ye4g7d9qo). Se llamará Campo Máximo, las obras ya han empezado y el primer partido está previsto para 2028, con el recinto a pleno rendimiento en 2029. Weston quiere que sea la casa del críquet europeo y no se corta con la ambición: «Me encantaría que allí se jugara un test match», dijo en el pódcast Stumped de la BBC.
+
+## Qué se construye
+
+El estadio tendrá un cuadro central de nueve franjas de juego y un aforo inicial de 1.000 espectadores, [según Torrevieja Actual](https://www.torreviejactual.com/post/un-inversor-australiano-elige-la-vega-baja-para-crear-un-centro-europeo-de-cr%C3%ADquet). La segunda parte del proyecto es un complejo hotelero de 83 habitaciones junto al campo de golf Las Ramblas. Las gradas son ampliables y una instalación de esta escala pasa por el Ayuntamiento de Orihuela y por la tramitación urbanística de la Generalitat, [como recuerda Moncloa.com](https://www.moncloa.com/2026/10/25/campo-criquet-orihuela-costa-europa-3455126).
+
+Lo raro está en el suelo. El campo exterior será de hierba artificial de pelo corto, sin relleno granulado, sobre una base elástica y capas de drenaje, un sistema que Weston describe como mejor que el césped natural para el críquet. Habrá focos para jugar de día y de noche, unos 4.600 metros cuadrados de placas solares sobre el aparcamiento para cargar baterías y depósitos bajo el campo para almacenar agua de lluvia. El reglamento de la ICC permite campos híbridos y no prohíbe uno totalmente artificial, según el análisis de la BBC.
+
+## Por qué Orihuela Costa
+
+Weston creció en Perth, jugó con la selección de Alemania de T20 tras mudarse a Múnich en 2007 y es el impulsor de la European Cricket Network. El sitio elegido no es casual. Orihuela tenía 85.674 habitantes en el padrón que el Ayuntamiento difundió en enero de 2025, y la nacionalidad extranjera más numerosa era la británica, con 9.681 personas, por delante de marroquíes y ucranianos, [según Alicante Plaza](https://alicanteplaza.es/alicanteplaza/orihuela1/orihuela-incrementa-su-padron-municipal-un-1-9-hasta-alcanzar-los-85674-habitantes). La mayoría vive en la costa, en urbanizaciones como las que rodean Playa Flamenca. Un test match es un partido de cinco días: el público que lo entiende ya vive allí.
+
+## El críquet en España, con federación desde este verano
+
+El proyecto llega en el año en que el críquet español ha dejado de ser un deporte sin papeles. El Consejo Superior de Deportes aprobó el 18 de junio los estatutos de la Federación Española de Cricket y autorizó su inscripción en el registro estatal, [según publicó el BOE el 18 de julio](https://boe.es/boe/dias/2026/07/18/pdfs/BOE-A-2026-15728.pdf), después de 25 años de trabajo de Cricket España, [como contó Vozpópuli](https://www.vozpopuli.com/deportes/nace-la-federacion-espanola-de-cricket-con-el-aval-del-csd-y-con-la-mirada-puesta-en-los-angeles-2028.html). El deporte vuelve además a los Juegos Olímpicos en Los Ángeles 2028, con seis selecciones y partidos de T20 en Pomona.
+
+España es miembro asociado de la ICC y nada impide que dos selecciones de primer nivel jueguen un test en su territorio si sus federaciones lo aceptan, pero el Campo Máximo tendría que cumplir las guías de la ICC para sedes internacionales. Weston lo sabe. Mientras tanto, el deporte español sigue buscando sedes para grandes citas: [la IndyCar volverá a Montmeló en 2027](/noticias/alex-palou-carrera-en-casa-indycar-barcelona-montmelo-18-julio-2027-europa) y [Valencia paga un millón por un récord del mundo de maratón](/noticias/juan-roig-millon-euros-record-mundo-maraton-valencia-6-diciembre-ultimo-aviso-carrera-dos-dias).`,
+    category: 'curiosa',
+    kind: 'noticia',
+    competition: { name: 'Críquet', sport: 'criquet', slug: 'criquet' },
+    sourceName: 'BBC Sport: el estadio de críquet de España que aspira a un test match',
+    sourceUrl: 'https://www.bbc.co.uk/sport/cricket/articles/ckr5ye4g7d9qo',
+    sourceLang: 'en',
+    publishedAt: '2026-11-01T13:00:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Torrevieja Actual: un inversor australiano elige la Vega Baja para crear un centro europeo de críquet', url: 'https://www.torreviejactual.com/post/un-inversor-australiano-elige-la-vega-baja-para-crear-un-centro-europeo-de-cr%C3%ADquet' },
+      { name: 'Moncloa.com: el campo de críquet de Orihuela Costa', url: 'https://www.moncloa.com/2026/10/25/campo-criquet-orihuela-costa-europa-3455126' },
+      { name: 'BOE: estatutos de la Federación Española de Cricket', url: 'https://boe.es/boe/dias/2026/07/18/pdfs/BOE-A-2026-15728.pdf' },
+      { name: 'Vozpópuli: nace la Federación Española de Cricket', url: 'https://www.vozpopuli.com/deportes/nace-la-federacion-espanola-de-cricket-con-el-aval-del-csd-y-con-la-mirada-puesta-en-los-angeles-2028.html' },
+      { name: 'Alicante Plaza: Orihuela alcanza los 85.674 habitantes', url: 'https://alicanteplaza.es/alicanteplaza/orihuela1/orihuela-incrementa-su-padron-municipal-un-1-9-hasta-alcanzar-los-85674-habitantes' },
+    ],
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/%C2%AE_S.D._ORIHUELA_COSTA-_PLAYA_FLAMENCA_-_VISTAS_-_panoramio.jpg/1280px-%C2%AE_S.D._ORIHUELA_COSTA-_PLAYA_FLAMENCA_-_VISTAS_-_panoramio.jpg',
+      alt: 'La playa de Playa Flamenca, en Orihuela Costa, con la arena peinada, el paseo y las urbanizaciones de casas blancas y palmeras al fondo',
+      credit: 'Concepción Amat Orta · Wikimedia Commons',
+      license: 'CC BY 3.0',
+    },
+  },
+  {
     slug: 'real-madrid-sardinero-derbi-vasco-gp-mexico-hamilton-pole-alcaraz-final-viena-domingo-1-noviembre-horarios-donde-ver',
     title: 'Real Madrid en El Sardinero y derbi vasco a la hora del GP de México: horarios del domingo y dónde ver',
     summary: 'Racing-Real Madrid a las 16:15, derbi vasco a las 21:00 a la vez que la carrera de México, Alcaraz-De Minaur a las 14:00 y Juventus-Nápoles: horarios y canales del domingo, con Sepang ya decidido.',
