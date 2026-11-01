@@ -190,7 +190,7 @@ El siguiente partido es el Barcelona - Aston Villa de Champions, el martes 3 de 
     sourceName: 'FC Barcelona: ficha oficial de Brian Fariñas',
     sourceUrl: 'https://www.fcbarcelona.es/es/futbol/primer-equipo/jugadores/140515/brian-farinas',
     sourceLang: 'es',
-    publishedAt: '2026-11-01T12:52:00+01:00',
+    publishedAt: '2026-11-01T12:40:00+01:00',
     author: 'Redacción Mundiales',
     sourcesSecondary: [
       { name: 'ESPN: acta del Barcelona - Alavés', url: 'https://www.espn.com/soccer/match/_/gameId/401882822' },
@@ -241,7 +241,7 @@ El siguiente partido es el Real Zaragoza - SD Huesca del sábado 7 de noviembre 
     sourceName: 'Aragón Digital: Real Zaragoza y Villarreal B suman unas vibrantes tablas de líderes (2-2)',
     sourceUrl: 'https://www.aragondigital.es/articulo/real-zaragoza/vibrantes-tablas-lideres/202610312339161019099.html',
     sourceLang: 'es',
-    publishedAt: '2026-11-01T12:54:00+01:00',
+    publishedAt: '2026-11-01T12:42:00+01:00',
     author: 'Redacción Mundiales',
     sourcesSecondary: [
       { name: 'SportAragón: el canterano de 19 años que ha conquistado a Ibai Gómez', url: 'https://www.sportaragon.com/futbol-aragon/real-zaragoza/ibai-gomez-tobajas-primer-equipo+Real+Zaragoza/20261101094002162219.html' },
@@ -291,7 +291,7 @@ Alonso ha descartado remontar desde atrás en un circuito donde la altitud y la 
     sourceName: 'RacingNews365: Alonso, frustración más allá de lo imaginable tras el último fallo de Aston Martin',
     sourceUrl: 'https://racingnews365.com/fernando-alonso-frustration-beyond-imagination-after-latest-aston-martin-woe',
     sourceLang: 'en',
-    publishedAt: '2026-11-01T12:56:00+01:00',
+    publishedAt: '2026-11-01T12:44:00+01:00',
     author: 'Redacción Mundiales',
     sourcesSecondary: [
       { name: 'Formula1.com: clasificación del Gran Premio de México', url: 'https://www.formula1.com/en/results/2026/races/1298/mexico/qualifying' },
@@ -340,7 +340,7 @@ Kaká no era un veterano cuando se marchó: tenía 27 años y acababa de ganar e
     sourceName: 'Goal: Kaká rompe a llorar en su entrada en el Salón de la Fama del Milan',
     sourceUrl: 'https://www.goal.com/en-us/news/kaka-ac-milan-hall-of-fame-legend-honoured-inter-victory/blte505af500e1c7f74',
     sourceLang: 'en',
-    publishedAt: '2026-11-01T12:58:00+01:00',
+    publishedAt: '2026-11-01T12:46:00+01:00',
     author: 'Redacción Mundiales',
     sourcesSecondary: [
       { name: 'AC Milan: Ancelotti, Gullit y Kaká, votados mejores centrocampistas del Salón de la Fama', url: 'https://www.acmilan.com/en/news/articles/club/2026-04-23/hall-of-fame-presented-by-emirates-ancelotti-gullit-and-kaka-voted-best-midfielders' },
@@ -382,7 +382,7 @@ España es miembro asociado de la ICC y nada impide que dos selecciones de prime
     sourceName: 'BBC Sport: el estadio de críquet de España que aspira a un test match',
     sourceUrl: 'https://www.bbc.co.uk/sport/cricket/articles/ckr5ye4g7d9qo',
     sourceLang: 'en',
-    publishedAt: '2026-11-01T13:00:00+01:00',
+    publishedAt: '2026-11-01T12:48:00+01:00',
     author: 'Redacción Mundiales',
     sourcesSecondary: [
       { name: 'Torrevieja Actual: un inversor australiano elige la Vega Baja para crear un centro europeo de críquet', url: 'https://www.torreviejactual.com/post/un-inversor-australiano-elige-la-vega-baja-para-crear-un-centro-europeo-de-cr%C3%ADquet' },
