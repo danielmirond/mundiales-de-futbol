@@ -13,12 +13,13 @@
  *  · cintillo  → creative con thumbnail del partido (si hay matchId)
  *  · card      → tarjeta compacta para sidebars
  *  · strip     → franja entre secciones
- *  · sticky    → barra superior fija (layout global), descartable
+ *  · sticky    → franja bajo el menú, dentro de la cabecera fija (layout global), descartable
  *
  * Compliance: rel="sponsored nofollow noopener noreferrer" en todos los links.
  * Tono M+: cercano, tuteo, sencillo, sin gritar.
  */
 
+import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import { X } from 'lucide-react';
 import { getMatchThumbnail } from '@/lib/movistar-match-links';
@@ -66,10 +67,10 @@ function TAndC({ className = '' }: { className?: string }) {
   return (
     <p className={`text-[10px] leading-relaxed ${className}`}>
       Enlace de afiliado · AWIN · Sin coste adicional para ti.{' '}
-      <a href="/aviso-afiliados"
+      <Link href="/aviso-afiliados"
         className="underline underline-offset-2 opacity-60 hover:opacity-100 transition-opacity">
         Más info
-      </a>.
+      </Link>.
     </p>
   );
 }
@@ -244,12 +245,14 @@ function StripBanner({ href, context }: { href: string; context?: string }) {
 
 function StickyBanner({ href }: { href: string }) {
   const [visible, setVisible] = useState(false);
+  // Tras hidratar: localStorage no existe en el servidor.
+  // eslint-disable-next-line react-hooks/set-state-in-effect
   useEffect(() => { if (!isDismissed()) setVisible(true); }, []);
   if (!visible) return null;
 
   return (
     <div role="complementary" aria-label="Fútbol y baloncesto en directo en Movistar Plus+"
-      className="fixed left-0 right-0 top-16 z-30 flex items-center gap-3 border-b border-white/10 bg-black px-4 py-2.5 shadow-2xl md:top-20 md:px-6">
+      className="flex items-center gap-3 border-b border-white/10 bg-black px-4 py-2 md:px-6">
       <div className="hidden shrink-0 gap-1.5 sm:flex">
         <img src={LOGOS.dazn} alt="DAZN" className="h-6 w-auto object-contain" loading="lazy" />
         <img src={LOGOS.mplus} alt="Movistar Plus+" className="h-6 w-auto object-contain" loading="lazy" />

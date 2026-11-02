@@ -116,6 +116,8 @@ export default async function LocaleLayout({
             <div id="site-header" className="fixed inset-x-0 top-0 z-40 pt-[env(safe-area-inset-top)]">
               <SiteNav />
               <SportSubnav />
+              {/* Dentro de la cabecera fija: si va suelta, la tapa el nav. */}
+              <MovistarStickyBar />
             </div>
             <HeaderHeight />
             <main className="site-main flex-1">{children}</main>
@@ -125,7 +127,6 @@ export default async function LocaleLayout({
           <CookieBanner />
           <GatedAnalytics />
           <GoogleAnalytics />
-          <MovistarStickyBar />
         </NextIntlClientProvider>
       </body>
     </html>

@@ -3,6 +3,7 @@ import { padel, padelTournament, padelDraw, LEVEL_LABEL, type PadelMatch, type P
 const region = new Intl.DisplayNames(['es'], { type: 'region' });
 const country = (c: string) => { try { return region.of(c) ?? c; } catch { return c; } };
 const dayFmt = new Intl.DateTimeFormat('es-ES', { day: 'numeric', month: 'short', timeZone: 'UTC' });
+const pts = new Intl.NumberFormat('es-ES', { useGrouping: 'always' } as Intl.NumberFormatOptions);
 const range = (a: string, b: string) => `${dayFmt.format(new Date(a))} – ${dayFmt.format(new Date(b))}`;
 const names = (p: PadelPlayer[]) => p.map((x) => x.name).join(' / ') || 'Por definir';
 const ROUND_ES: Record<string, string> = { Finals: 'Final', Semifinals: 'Semifinales', Quarterfinals: 'Cuartos', 'Round of 16': 'Octavos', 'Round of 32': 'Dieciseisavos', 'Round of 64': 'Treintaidosavos' };
@@ -56,7 +57,7 @@ function Ranking({ title, rows, date }: { title: string; rows: PadelRankRow[]; d
           <li key={r.id} className={`grid grid-cols-[2rem_1fr_auto_3rem] items-center gap-2 px-4 py-2 ${r.country === 'ES' ? 'bg-[var(--color-bg-2)]' : ''}`}>
             <span className="font-display tab-num text-lg text-[var(--color-fg)]">{r.pos}</span>
             <span className="truncate"><b className="font-semibold text-[var(--color-fg)]">{r.name}</b> <span className="text-xs text-[var(--color-fg-subtle)]">{country(r.country)}</span></span>
-            <span className="font-mono tab-num text-xs text-[var(--color-fg-muted)]">{r.points.toLocaleString('es-ES')}</span>
+            <span className="font-mono tab-num text-xs text-[var(--color-fg-muted)]">{pts.format(r.points)}</span>
             <span className={`text-right font-mono text-[11px] ${r.diff > 0 ? 'text-[var(--color-win)]' : r.diff < 0 ? 'text-[var(--color-loss)]' : 'text-[var(--color-fg-subtle)]'}`}>{r.diff > 0 ? `▲${r.diff}` : r.diff < 0 ? `▼${-r.diff}` : '='}</span>
           </li>
         ))}
@@ -122,7 +123,7 @@ export function PadelHub() {
               {d.tournaments.map((t) => (
                 <tr key={t.id} className={`border-b border-[var(--color-border)] last:border-0 ${t.status === 'live' ? 'bg-[var(--color-bg-2)]' : ''}`}>
                   <td className="whitespace-nowrap px-4 py-2 font-mono text-xs text-[var(--color-fg-muted)]">{range(t.start, t.end)}</td>
-                  <td className="px-2 py-2"><b className="font-semibold text-[var(--color-fg)]">{t.name.replace(/ \d{4}$/, '')}</b> <span className="ml-1 rounded border border-[var(--color-border)] px-1 font-mono text-[10px] uppercase">{LEVEL_LABEL[t.level] ?? t.level}</span>{t.status === 'live' && <span className="ml-2 text-xs text-[var(--color-live-ink)]">en juego</span>}</td>
+                  <td className="px-2 py-2"><b className="font-semibold text-[var(--color-fg)]">{t.city ?? t.name}</b> <span className="ml-1 rounded border border-[var(--color-border)] px-1 font-mono text-[10px] uppercase">{LEVEL_LABEL[t.level] ?? t.level}</span>{t.status === 'live' && <span className="ml-2 text-xs text-[var(--color-live-ink)]">en juego</span>}</td>
                   <td className="hidden px-2 py-2 text-[var(--color-fg-muted)] md:table-cell">{t.winners ? names(t.winners.men) : ''}</td>
                   <td className="hidden px-4 py-2 text-[var(--color-fg-muted)] md:table-cell">{t.winners ? names(t.winners.women) : ''}</td>
                 </tr>
