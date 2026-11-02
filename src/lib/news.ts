@@ -10047,7 +10047,7 @@ Este año Mediaset dio en abierto la F1 de Barcelona y Madrid y el MotoGP de Jer
     sourceUrl: 'https://dazngroup.com/press-room/dazn-renova-os-direitos-de-transmissao-da-formula-1-em-portugal-e-espanha-ate-2030/',
     sourceLang: 'es',
     publishedAt: '2026-10-19T19:54:00+02:00',
-    modifiedAt: '2026-11-02T09:49:00+01:00',
+    modifiedAt: '2026-11-02T09:48:00+01:00',
     author: 'Redacción Mundiales',
     image: {
       url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/MotoGP_2026_Austria_Nr._89_Mart%C3%ADn_%281%29.jpg/1280px-MotoGP_2026_Austria_Nr._89_Mart%C3%ADn_%281%29.jpg',
@@ -10221,7 +10221,7 @@ Las carteleras y resultados de cada velada están en la sección de la [UFC](/co
     sourceUrl: 'https://www.eurosport.es/mma/ufc/2026/calendario-peleas-veladas-2026-fechas-horarios-donde-como-ver-television-online-topuria_sto23253750/story.shtml',
     sourceLang: 'es',
     publishedAt: '2026-10-19T19:57:00+02:00',
-    modifiedAt: '2026-11-02T09:49:00+01:00',
+    modifiedAt: '2026-11-02T09:48:00+01:00',
     author: 'Redacción Mundiales',
     image: {
       url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Ilia_Topuria_at_the_Orbeliani_Palace.jpg/1280px-Ilia_Topuria_at_the_Orbeliani_Palace.jpg',
@@ -10784,7 +10784,7 @@ Cada día, el canal de cada partido está en la página de [partidos de hoy](/pa
     sourceUrl: 'https://www.ocu.org/tecnologia/internet-telefonia/noticias/donde-ver-futbol',
     sourceLang: 'es',
     publishedAt: '2026-10-19T19:35:00+02:00',
-    modifiedAt: '2026-11-02T09:49:00+01:00',
+    modifiedAt: '2026-11-02T09:48:00+01:00',
     author: 'Redacción Mundiales',
     image: {
       url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Camp_Nou_aerial_%28cropped%29.jpg/1280px-Camp_Nou_aerial_%28cropped%29.jpg',
