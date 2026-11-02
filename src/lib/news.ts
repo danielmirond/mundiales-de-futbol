@@ -154,6 +154,277 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'valladolid-leganes-4-3-zorrilla-doblete-miguel-rubio-morata-oviedo-las-palmas-2-3-clasificacion-segunda-lunes',
+    title: 'Valladolid - Leganés: doblete de Miguel Rubio en Zorrilla, dos goles de Morata sin premio y así queda Segunda',
+    summary: 'El Valladolid ganó 4-3 al Leganés con dos goles de Miguel Rubio antes del 25 y un final de infarto con doblete de Morata. Las Palmas asaltó el Tartiere (2-3). Cómo queda la tabla tras el lunes.',
+    body: `El Real Valladolid ganó 4-3 al Leganés este lunes en Zorrilla, en el cierre de la duodécima jornada de LaLiga Hypermotion, [según la ficha oficial de LaLiga](https://www.laliga.com/partido/temporada-2026-2027-laliga-hypermotion-real-valladolid-cf-cd-leganes-12). Miguel Rubio marcó dos goles de cabeza antes del minuto 25, los dos a la salida de un córner, y el equipo de casa se fue 3-1 al descanso y 4-1 en el 54. Álvaro Morata, que había salido en el 55, recortó dos veces, la segunda en el 90, y el partido acabó con el Leganés buscando el empate en los cuatro minutos de añadido.
+
+## Siete goles, sin rojas
+
+| Minuto | Qué pasó |
+| --- | --- |
+| 6 | Gol de Miguel Rubio, de cabeza tras un córner botado por Iván Alejo (1-0) |
+| 21 | Gol de Álex Millán (1-1) |
+| 24 | Gol de Miguel Rubio, otra vez de cabeza, tras córner de Víctor Fernández (2-1) |
+| 30 | Gol de Adrián Arnu, asistencia de Julien Ponceau (3-1) |
+| 54 | Gol de Tai Abed (4-1) |
+| 68 | Gol de Álvaro Morata, asistencia de Álex Sancris (4-2) |
+| 90 | Gol de Álvaro Morata tras una falta botada por Unax del Cura (4-3) |
+
+Arbitró Dámaso Arcediano Monescillo, que mostró seis amarillas, cinco al Leganés, y ninguna roja. En Zorrilla hubo 17.558 espectadores, según la ficha de LaLiga. El Valladolid perdió por lesión a Iván Garriel en el minuto 33. Los números cuentan un partido raro: el Leganés tuvo el 60 % de la posesión y remató 18 veces, una más que el Valladolid, [según las estadísticas de ESPN](https://www.espn.com/soccer/match/_/gameId/401883123), pero el Valladolid acertó con 10 de sus 17 remates a puerta y liquidó el partido en cuatro llegadas.
+
+Morata, cedido al Leganés este curso, llevaba un arranque discreto en Segunda. Dos goles en 35 minutos, uno con la izquierda escorado y otro desde el centro del área, son su mejor noticia desde que bajó de categoría, aunque no sirvieran para puntuar.
+
+## Las Palmas asalta el Tartiere
+
+Por la tarde, Las Palmas ganó 2-3 en Oviedo, [según la ficha de LaLiga](https://www.laliga.com/partido/temporada-2026-2027-laliga-hypermotion-real-oviedo-ud-las-palmas-12). Manu Fuster abrió en el 21 y Jesé amplió de penalti en el 26, tras una falta de Carlos Domínguez sobre Valentín Pezzolesi revisada en el VAR. Taisei Miyashiro hizo el 0-3 en el 54. El Oviedo reaccionó con Carlos Domínguez, en el 62, y con un libre directo de Mikel Goti en el 80, pero no llegó al empate. En el Tartiere hubo 22.150 espectadores y arbitró Alejandro Morilla Turrión.
+
+El tercer partido del lunes, el Tenerife - Andorra, quedó suspendido con 2-2 en el tiempo añadido [tras el desplome de Jesús de Miguel](/noticias/jesus-de-miguel-tenerife-uci-choque-owono-parada-cardiorrespiratoria-comunicado-heliodoro-andorra-suspendido), que sigue en la UCI. El Mallorca - Cádiz cierra la jornada a las 21:00.
+
+## Así queda la tabla
+
+| Puesto | Equipo | Puntos | Partidos |
+| --- | --- | --- | --- |
+| 1 | Castellón | 27 | 12 |
+| 2 | Almería | 26 | 12 |
+| 3 | Eibar | 23 | 12 |
+| 4 | Granada | 23 | 12 |
+| 5 | Sporting de Gijón | 22 | 12 |
+| 6 | Girona | 21 | 12 |
+| 7 | Burgos | 21 | 12 |
+| 8 | Mallorca | 19 | 11 |
+| 9 | Real Oviedo | 18 | 12 |
+| 10 | Sabadell | 17 | 12 |
+| 11 | Las Palmas | 17 | 12 |
+| 12 | Córdoba | 16 | 12 |
+| 13 | Real Valladolid | 15 | 12 |
+| 14 | Tenerife | 14 | 11 |
+| 15 | Eldense | 14 | 12 |
+| 16 | Celta Fortuna | 13 | 12 |
+| 17 | Leganés | 12 | 12 |
+| 18 | Real Sociedad B | 11 | 12 |
+| 19 | Cádiz | 10 | 11 |
+| 20 | Andorra | 10 | 11 |
+| 21 | Albacete | 7 | 12 |
+| 22 | Ceuta | 5 | 12 |
+
+Es la [clasificación de LaLiga](https://www.laliga.com/laliga-hypermotion/clasificacion) tras los partidos del lunes. El Valladolid sube al decimotercer puesto con 15 puntos y el Leganés se queda decimoséptimo con 12, a uno del descenso que hoy marca la Real Sociedad B. Las Palmas es undécima con 17 y el Oviedo, noveno, con 18, a tres de la promoción. Arriba no se movió nada: el Castellón sigue líder con un punto sobre el Almería, [como quedó el domingo en El Plantío](/noticias/burgos-castellon-1-1-el-plantio-suero-oier-luengo-roja-orozco-lider-almeria-clasificacion-segunda). La tabla al día, en la página de [LaLiga Hypermotion](/futbol/laliga-2).`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'LaLiga Hypermotion', sport: 'futbol', slug: 'laliga-2' },
+    sourceName: 'LaLiga: ficha del Real Valladolid - Leganés',
+    sourceUrl: 'https://www.laliga.com/partido/temporada-2026-2027-laliga-hypermotion-real-valladolid-cf-cd-leganes-12',
+    sourceLang: 'es',
+    publishedAt: '2026-11-02T20:36:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'LaLiga: ficha del Real Oviedo - Las Palmas', url: 'https://www.laliga.com/partido/temporada-2026-2027-laliga-hypermotion-real-oviedo-ud-las-palmas-12' },
+      { name: 'LaLiga: clasificación de LaLiga Hypermotion', url: 'https://www.laliga.com/laliga-hypermotion/clasificacion' },
+      { name: 'ESPN: Real Valladolid - Leganés', url: 'https://www.espn.com/soccer/match/_/gameId/401883123' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Estadio_Jos%C3%A9_Zorrilla_de_Valladolid_%28noviembre_de_2019%29.jpg/1280px-Estadio_Jos%C3%A9_Zorrilla_de_Valladolid_%28noviembre_de_2019%29.jpg',
+      alt: 'El estadio José Zorrilla de Valladolid de noche, visto desde un córner, con el césped iluminado, las gradas moradas con la palabra Pucela dibujada en los asientos y el videomarcador encendido',
+      credit: 'Rastrojo · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'jesus-de-miguel-tenerife-uci-choque-owono-parada-cardiorrespiratoria-comunicado-heliodoro-andorra-suspendido',
+    title: 'Jesús de Miguel, en la UCI tras chocar con Owono: qué dice el Tenerife y qué pasó en el Heliodoro',
+    summary: 'El delantero del Tenerife está en la UCI de La Candelaria, «estable, dentro de la gravedad», tras chocar con el portero del Andorra en el añadido. El partido quedó suspendido con 2-2.',
+    body: `Jesús de Miguel, delantero del CD Tenerife, está ingresado en la UCI del Hospital Universitario Nuestra Señora de Candelaria, «estable, dentro de la gravedad», [según el comunicado oficial del club](https://www.clubdeportivotenerife.es/noticias/comunicado-oficial-jesus-de-miguel) publicado este lunes por la tarde. El club añade que sus servicios médicos están en el hospital e informarán cuando tengan novedades. Es toda la información oficial que hay a la hora de publicar esta pieza.
+
+El jugador se desplomó en el tiempo añadido del Tenerife - Andorra, en el Heliodoro Rodríguez López, tras un choque con el portero visitante, Jesús Owono. El partido quedó suspendido con 2-2 en el marcador.
+
+## Lo que pasó en el campo
+
+El choque llegó en un contraataque, [según la crónica de EFE que publica elDiario.es](https://www.eldiario.es/canariasahora/Deportes/futbol/suspendido-tenerife-andorra-desplomarse-miguel-choque-owono_1_13632179.html): De Miguel corría desde el centro del campo a por un balón largo y Owono salió de su área casi hasta la línea de medio campo y saltó hacia él. El golpe fue con la pierna en el cuerpo; [El Español lo describe como un rodillazo en el pecho](https://www.elespanol.com/deportes/futbol/20261102/jesus-miguel-delantero-tenerife-evacuado-urgencia-ambulancia-recibir-rodillazo-pecho/1003744443444_0.html). El delantero cayó al césped y los jugadores de los dos equipos pidieron asistencia de inmediato. Owono vio la roja directa.
+
+EFE sitúa la parada cardiorrespiratoria en la ambulancia, durante varios minutos; El Español cuenta que se le practicó una reanimación y que recuperó el pulso. Las dos fuentes coinciden en lo esencial: fue atendido y estabilizado sobre el césped durante cerca de un cuarto de hora, salió en camilla hasta una ambulancia medicalizada y fue trasladado a La Candelaria. En la grada, donde había 13.097 espectadores [según el registro de ESPN](https://www.espn.com/soccer/match/_/gameId/401883144), varias personas tuvieron que ser atendidas por ataques de ansiedad.
+
+El árbitro reunió a capitanes y entrenadores y suspendió el partido en el minuto 108, según EFE. Qué pasa con los minutos que faltan queda, de momento, a expensas de lo que decidan los dos clubes. LaLiga no había publicado ningún comunicado a última hora de la tarde.
+
+## El partido que nadie recordará por el fútbol
+
+El encuentro se había aplazado del domingo al lunes por la alerta de lluvias en Canarias y se jugó a las 13:00. El Tenerife se puso 2-0 con un gol de Christian Gomis en el minuto 3 y un penalti de Enric Gallego en el 39, y el Andorra lo remontó en el tramo final, según el registro de ESPN. De Miguel había saltado al campo en el minuto 59.
+
+| Minuto | Qué pasó |
+| --- | --- |
+| 3 | Gol de Christian Gomis (Tenerife) |
+| 39 | Gol de Enric Gallego, de penalti (Tenerife) |
+| 83 | Gol de Lautaro de León, de penalti, y roja al propio De León (Andorra) |
+| 85 | Roja a Dani Martín (Tenerife) |
+| 88 | Gol de Stefan Golubović (Andorra) |
+| Añadido | Choque de De Miguel con Owono, roja al portero y suspensión |
+
+El Tenerife era decimocuarto antes de la jornada y el Andorra, vigésimo; la clasificación de [LaLiga Hypermotion](/futbol/laliga-2) no contará este partido hasta que se resuelva qué pasa con él.
+
+## Quién es Jesús de Miguel
+
+Jesús de Miguel Alameda nació en Madrid el 21 de septiembre de 1996 y tiene 30 años. Es un delantero centro de 1,89 metros que lleva el dorsal 9 del Tenerife, según su ficha en Wikipedia. Su carrera es la del futbolista que subió peldaño a peldaño: Leganés B, Fuenlabrada, Navalcarnero, dos temporadas en Unionistas de Salamanca (2021-2023), dos en el Castellón (2023-2025) y el fichaje por el Tenerife el 8 de julio de 2025.
+
+Es el segundo susto grave del fútbol español en dos días: el domingo, el entrenador del Almería, Pepe Mel, [fue operado de un ictus en Sevilla](/noticias/pepe-mel-operado-ictus-uci-sevilla-que-se-sabe-estado-entrenador-betis-novelas). En los dos casos, lo único que cuenta ahora es la evolución médica, y en los dos casos la fuente que vale es la oficial.`,
+    category: 'lesiones',
+    kind: 'noticia',
+    competition: { name: 'LaLiga Hypermotion', sport: 'futbol', slug: 'laliga-2' },
+    sourceName: 'CD Tenerife: comunicado oficial sobre Jesús de Miguel',
+    sourceUrl: 'https://www.clubdeportivotenerife.es/noticias/comunicado-oficial-jesus-de-miguel',
+    sourceLang: 'es',
+    publishedAt: '2026-11-02T20:28:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'EFE en elDiario.es: suspendido el Tenerife - Andorra', url: 'https://www.eldiario.es/canariasahora/Deportes/futbol/suspendido-tenerife-andorra-desplomarse-miguel-choque-owono_1_13632179.html' },
+      { name: 'El Español: Jesús de Miguel, evacuado de urgencia', url: 'https://www.elespanol.com/deportes/futbol/20261102/jesus-miguel-delantero-tenerife-evacuado-urgencia-ambulancia-recibir-rodillazo-pecho/1003744443444_0.html' },
+      { name: 'ESPN: Tenerife - Andorra', url: 'https://www.espn.com/soccer/match/_/gameId/401883144' },
+      { name: 'LaLiga: ficha del Tenerife - Andorra', url: 'https://www.laliga.com/partido/temporada-2026-2027-laliga-hypermotion-cd-tenerife-fc-andorra-12' },
+      { name: 'Wikipedia: Jesús de Miguel Alameda', url: 'https://es.wikipedia.org/wiki/Jes%C3%BAs_de_Miguel_Alameda' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Estadio_Heliodoro_Rodr%C3%ADguez_L%C3%B3pez.jpg/1280px-Estadio_Heliodoro_Rodr%C3%ADguez_L%C3%B3pez.jpg',
+      alt: 'Fachada principal del estadio Heliodoro Rodríguez López, en Santa Cruz de Tenerife, con la portada roja de 1925, las gradas de hormigón detrás y un árbol a la derecha bajo un cielo con nubes',
+      credit: 'Mentxuwiki · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'george-russell-mexico-sin-hablar-wolff-momento-catastrofico-antonelli-campeon-multa-fia-cuarto-mundial',
+    title: 'George Russell se fue de México sin hablar y Wolff lo explica: «Para un piloto es un momento catastrófico»',
+    summary: 'Russell salía segundo, cayó a sexto en la primera recta y vio a Antonelli, su compañero de 20 años, proclamarse campeón. Se fue sin hablar con la prensa y Wolff cuenta por qué.',
+    body: `George Russell empezó 2026 como favorito al título en Mercedes y lo vio terminar el domingo en México: abrazó a Kimi Antonelli, su compañero de 20 años, recién proclamado campeón del mundo, y se fue del circuito sin pasar por la zona de prensa. Toto Wolff, jefe del equipo, lo explicó el lunes: «Para un piloto de carreras, es un momento catastrófico», [según recoge Sky Sports](https://www.skysports.com/f1/news/13606691/george-russell-mercedes-boss-toto-wolff-says-british-driver-was-distraught-after-watching-team-mate-kimi-antonelli-seal-2026-f1-title). Wolff contó que lo vio en la báscula de la FIA nada más bajarse del coche, destrozado; que fuera a felicitar a Antonelli le pareció una gran muestra de deportividad, y que se quedara a hablar le habría sorprendido más que lo contrario.
+
+## La carrera que resume su año
+
+Russell salía segundo, al lado de la pole de Lewis Hamilton, y en la recta de salida perdió cuatro posiciones: un problema en la entrega de energía del motor eléctrico, fuera de su control, según explicó Mercedes. En esa misma vuelta fue declarado responsable de un toque con Isack Hadjar y recibió diez segundos de sanción. Acabó sexto. Antonelli terminó tercero y cerró el título con cuatro carreras de margen, [como contamos esta mañana](/noticias/kimi-antonelli-campeon-mundo-f1-20-anos-mexico-record-vettel-alonso-2005-tres-anos-verstappen-gana).
+
+Wolff admitió que la carrera era la imagen de la temporada de Russell: estaba para ganarla, el coche tenía el ritmo y el equipo le falló en la primera recta. Mercedes anunció que el piloto no haría entrevistas y la FIA multó al equipo con 5.000 euros por saltarse las obligaciones con los medios. Russell habló solo a través del comunicado del equipo: felicitó a Antonelli por un campeonato merecido y recordó que queda un Mundial de constructores por ganar. Atenderá a la prensa el jueves en Brasil.
+
+## Del segundo puesto al cuarto en una tarde
+
+| Puesto | Piloto | Puntos |
+| --- | --- | --- |
+| 1 | Kimi Antonelli | 380 |
+| 2 | Max Verstappen | 261 |
+| 3 | Lewis Hamilton | 259 |
+| 4 | George Russell | 250 |
+| 5 | Charles Leclerc | 245 |
+| 6 | Lando Norris | 221 |
+
+Son los puntos de [la clasificación de ESPN](https://www.espn.com/f1/standings) tras México. Russell llegó segundo y se va cuarto: Verstappen, que ganó la carrera, y Hamilton, segundo, lo adelantaron el mismo domingo. Antonelli ha ganado nueve carreras este año; Russell, tres (Australia, Austria y Bakú), según los resultados de ESPN. El subcampeonato se decide ahora entre cuatro pilotos separados por 16 puntos.
+
+Quedan cuatro grandes premios: São Paulo (8 de noviembre), Las Vegas (21), Qatar (29) y Abu Dabi (6 de diciembre), [según el calendario de la Fórmula 1](https://www.formula1.com/en/racing/2026), y ninguno tiene sprint, así que hay 100 puntos en juego por piloto. En constructores, Mercedes manda con 630 puntos por 504 de Ferrari: una ventaja de 126 que no cierra el título todavía, porque un equipo puede sumar hasta 43 por carrera. Si sale de Interlagos con 130 o más de margen, lo tendrá hecho. Horarios y dónde ver lo que queda, en [la guía de la temporada](/noticias/donde-ver-f1-motogp-espana-2026-dazn-precios-carreras-que-quedan) y en la sección de [Fórmula 1](/motor/formula-1).`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'Fórmula 1', sport: 'motor', slug: 'formula-1' },
+    sourceName: 'Sky Sports',
+    sourceUrl: 'https://www.skysports.com/f1/news/13606691/george-russell-mercedes-boss-toto-wolff-says-british-driver-was-distraught-after-watching-team-mate-kimi-antonelli-seal-2026-f1-title',
+    sourceLang: 'en',
+    publishedAt: '2026-11-02T20:30:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'ESPN: clasificación del Mundial de F1', url: 'https://www.espn.com/f1/standings' },
+      { name: 'Formula1.com: calendario 2026', url: 'https://www.formula1.com/en/racing/2026' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/2026_Chinese_GP_-_Mercedes_-_George_Russell_-_Qualifying.jpg/1280px-2026_Chinese_GP_-_Mercedes_-_George_Russell_-_Qualifying.jpg',
+      alt: 'El Mercedes de George Russell, visto de perfil y con neumáticos blandos, rueda por la recta del circuito de Shanghái durante la clasificación del Gran Premio de China de 2026, con una valla publicitaria verde al fondo',
+      credit: 'Liauzh · Wikimedia Commons',
+      license: 'CC BY 4.0',
+    },
+  },
+  {
+    slug: 'yamaha-no-ira-gp-qatar-marc-marquez-match-point-lusail-comunicado-motogp-pilotos-quartararo-rins-razgatlioglu-miller',
+    title: 'Yamaha no irá a Qatar, donde Marc Márquez tiene match point: qué dice MotoGP y qué arriesgan los pilotos',
+    summary: 'Yamaha no participará en el GP de Qatar por sus restricciones de viaje a Oriente Medio. MotoGP mantiene la carrera y avisa de consecuencias. Márquez llega a Lusail con el primer match point.',
+    body: `Yamaha no estará en Lusail. La marca japonesa [comunicó el domingo a MotoGP Group su decisión de no participar en el Gran Premio de Qatar](https://www.motogp.com/es/news/2026/11/01/comunicados-de-yamaha-motor-co-ltd-y-motogp-group/1183172), del 6 al 8 de noviembre, porque tras evaluar la situación en Oriente Medio «no ha encontrado motivos suficientes para modificar las restricciones de viaje» que aplica a toda la compañía. Espera volver en Portugal, dos semanas después. Son cuatro motos menos en la parrilla: las de Fabio Quartararo y Álex Rins en el equipo oficial y las de Toprak Razgatlioglu y Jack Miller en Pramac, según la lista oficial de pilotos.
+
+Es la carrera en la que Marc Márquez puede revalidar el título. Ganó en Sepang de principio a fin y sale de Malasia con 44 puntos sobre Jorge Martín y 67 sobre Marco Bezzecchi, [según la crónica oficial](https://www.motogp.com/es/news/2026/11/01/masterclass-marc-marquez-marches-to-malaysia-victory-to-earn-2026-match-point/1179524).
+
+## Qué dice MotoGP, y qué no dice
+
+El comunicado de MotoGP Group, publicado junto al de Yamaha, lamenta la decisión y la atribuye a la política corporativa de la marca sobre viajes a Oriente Medio. Dice que, tras consultar con el Estado de Qatar, el circuito de Lusail y asesores independientes, no ha recibido ninguna información que justifique cambiar los planes, y valora la confirmación del resto de la parrilla de que competirá. Sobre Yamaha habla de implicaciones contractuales con MotoGP e IRTA y de consecuencias deportivas que gestionará la FIM según el reglamento. No concreta cuáles.
+
+Lo que se cuenta fuera de los comunicados es otra cosa. Motorpasión Moto, citando a Motorsport.com, [publicó el viernes](https://www.motorpasionmoto.com/motogp/alta-tension-motogp-amenazan-a-pilotos-excluirlos-mundial-se-niegan-a-viajar-a-catar) que la organización había advertido a los pilotos de que quien no corra en Qatar sin causa justificada podría quedarse fuera de Portugal y Valencia, y que en Sepang hubo una reunión de pilotos con buena parte de la parrilla reacia a viajar. El domingo el mismo medio señalaba a Márquez y Quartararo como los más combativos. Nada de eso figura en las notas oficiales, y en las de Sepang el líder solo habla de la carrera. Jorge Martín, que no corrió en Malasia por la muñeca, sí dijo que volverá a intentarlo en Qatar, según los puntos clave del fin de semana que publica MotoGP.
+
+## Las cuentas de Lusail
+
+| Gran Premio | Fechas | Puntos en juego |
+| --- | --- | --- |
+| Qatar (Lusail) | 6-8 de noviembre | 37 |
+| Portugal (Portimão) | 20-22 de noviembre | 37 |
+| Valencia (Cheste) | 27-29 de noviembre | 37 |
+
+Las fechas son las del calendario oficial de MotoGP; los 37 puntos por cita salen de los 12 del sprint y los 25 de la carrera. MotoGP calcula que Márquez será campeón en Qatar si suma 30 puntos más que Martín y 8 más que Bezzecchi, [como ya explicamos en las cuentas de Sepang](/noticias/marc-marquez-sepang-sprint-acosta-jorge-martin-baja-cuentas-titulo-motogp-qatar-valencia): con 74 puntos en juego en las dos últimas citas, le basta con salir de Lusail con esa ventaja. Si él no viajara, el match point se iría a Portimão con los mismos números.
+
+El fin de semana dejó además un cruce con Aprilia. Tras el sprint, Márquez sostuvo que las dos motos de la marca corrían con órdenes de equipo, y Massimo Rivola, jefe de Aprilia, respondió que no le importa lo que diga y que los juegos de marca se hacen en casa de los Márquez, en familia, en alusión a la ayuda de Álex a su hermano, [según recoge Motorpasión Moto](https://www.motorpasionmoto.com/motogp/jefe-aprilia-responde-a-marc-marquez-no-me-importa-que-diga-ordenes-marca-hacen-su-casa). Álex Márquez, que hizo la pole en Sepang y acabó tercero en la carrera, no lo esconde: está contento de echar una mano. Horarios y dónde ver Qatar, en [la guía de lo que queda de temporada](/noticias/donde-ver-f1-motogp-espana-2026-dazn-precios-carreras-que-quedan) y en la sección de [MotoGP](/motor/motogp).`,
+    category: 'polemica',
+    kind: 'noticia',
+    competition: { name: 'MotoGP', sport: 'motor', slug: 'motogp' },
+    sourceName: 'MotoGP.com: comunicados de Yamaha Motor Co. y MotoGP Group',
+    sourceUrl: 'https://www.motogp.com/es/news/2026/11/01/comunicados-de-yamaha-motor-co-ltd-y-motogp-group/1183172',
+    sourceLang: 'es',
+    publishedAt: '2026-11-02T20:32:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'MotoGP.com: Márquez gana en Malasia y tendrá match point en Qatar', url: 'https://www.motogp.com/es/news/2026/11/01/masterclass-marc-marquez-marches-to-malaysia-victory-to-earn-2026-match-point/1179524' },
+      { name: 'Motorpasión Moto: Yamaha confirma que no correrá en Qatar', url: 'https://www.motorpasionmoto.com/motogp/terremoto-motogp-yamaha-confirma-que-no-va-a-correr-gran-premio-catar-pilotos-amenazan-plantarse' },
+      { name: 'Motorpasión Moto: el jefe de Aprilia responde a Marc Márquez', url: 'https://www.motorpasionmoto.com/motogp/jefe-aprilia-responde-a-marc-marquez-no-me-importa-que-diga-ordenes-marca-hacen-su-casa' },
+      { name: 'MotoGP.com: puntos clave del GP de Malasia', url: 'https://www.motogp.com/es/news/2026/11/02/malaysiangp-talking-points/1183575' },
+      { name: 'MotoGP.com: pilotos de MotoGP 2026', url: 'https://www.motogp.com/es/riders/motogp' },
+      { name: 'MotoGP.com: calendario 2026', url: 'https://www.motogp.com/es/calendar' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Marc_M%C3%A1rquez_at_Czech_Motorcycle_Grand_Prix_at_Brno_2025.jpg/1280px-Marc_M%C3%A1rquez_at_Czech_Motorcycle_Grand_Prix_at_Brno_2025.jpg',
+      alt: 'Marc Márquez levanta la rueda delantera de su Ducati roja sobre el asfalto mojado del circuito de Brno, con el fondo desenfocado por la velocidad, durante el Gran Premio de la República Checa de 2025',
+      credit: 'Pavel21kriz · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'almudena-cid-salvados-protesis-cadera-pensaba-que-esto-no-me-afectaba-jubilacion-justa-fernandez-ochoa-romay',
+    title: 'Almudena Cid se rompe en Salvados al hablar de su cadera: «Pensaba que esto no me afectaba, pero sí»',
+    summary: 'La exgimnasta contó en laSexta que una lesión de 2001 nunca detectada acabó en una prótesis de cadera, que nadie siguió sus patologías y que sus años de selección no cotizaron.',
+    body: `Almudena Cid pensaba que lo tenía superado. Lo descubrió el domingo en Salvados, en laSexta, cuando Gonzo le preguntó por su cadera y se le quebró la voz: «Pensaba que esto no me afectaba, pero sí», [recoge verTele](https://www.eldiario.es/vertele/noticias/almudena-cid-derrumba-salvados-recordar-secuelas-deporte-pensaba-no-afectaba_1_13630940.html). La entrega se titulaba «Gloria y olvido, más allá del deporte» y ocupó el hueco de la entrevista a Pedro Sánchez, pospuesta tras el accidente ferroviario de Urda, según FormulaTV. Con ella se sentaron Fernando Romay y Lola Fernández Ochoa, y los tres contaron lo mismo con palabras distintas: sus años de dedicación exclusiva al deporte no cotizaron.
+
+## Veinte años con la cadera rota
+
+Cid fue cuatro veces finalista olímpica, de Atlanta 1996 a Pekín 2008, y pasó 14 años en la selección de gimnasia rítmica. La lesión que la ha llevado al quirófano es de 2001 y nadie la detectó entonces. Dio la cara en 2023, a los 43 años, en plena función de teatro: la cadera dijo basta y los médicos le explicaron que aquello estaba roto desde hacía dos décadas, con displasia, labrum roto y cartílago dañado, [según contó a The Objective](https://theobjective.com/gente/2025-12-22/almudena-cid-operacion-cadera-deporte/) en diciembre de 2025, recién operada. El cirujano Nico Fiz le colocó una prótesis de cuatro componentes, [según ¡Hola!](https://www.hola.com/actualidad/20261102932556/almudena-cid-lagrimas-operacion-cadera/). La noche anterior vio Interstellar para visualizar cómo iba a encajar la pieza; 23 días después ya se ataba el zapato izquierdo. Hoy dice que nadie diría que lleva una prótesis.
+
+| Año | Qué pasó |
+| --- | --- |
+| 2001 | Lesión de cadera que nadie detecta |
+| 2008 | Cuarta final olímpica, en Pekín, y retirada |
+| 2023 | Diagnóstico en una función de teatro: roto desde hacía 20 años |
+| Diciembre de 2025 | Prótesis de cadera |
+| Noviembre de 2026 | Lo cuenta en Salvados |
+
+## Falsos autónomos
+
+Lo que la rompió en el plató no fue el dolor, sino el abandono. Tras la retirada, contó, nadie hace un seguimiento de las patologías que deja el deporte de élite, que son de por vida. Y el agujero no es solo médico: sus años en la selección no cotizaron a la Seguridad Social, el mismo caso que Romay y Fernández Ochoa describieron en el programa. Por eso impulsa con Lola Fernández Ochoa la iniciativa Jubilación Justa, que pide que a los deportistas se les reconozcan como cotizados los años de actividad; el proyecto de real decreto entró en audiencia pública en marzo, [según ¡Hola!](https://www.hola.com/actualidad/20261029932152/almudena-cid-habla-como-retirada-iniciativa-cambia-deporte/). En The Objective ya había dicho que el movimiento no lo empezó por ella, sino por sus compañeras.
+
+No es la única que lo cuenta estas semanas. Sandra Sánchez, oro olímpico en kárate, estrenó película diciendo que [sigue sufriendo situaciones que salen en ella](/noticias/sandra-sanchez-45-anos-karateka-pelicula-libro-vuelve-competir-japon-2027-invisibilidad-kintsugi), y Paula Leitón explicó que [la mejor liga de waterpolo del mundo todavía no paga](/noticias/paula-leiton-waterpolo-mejor-liga-mundo-clubes-no-pagan-barceloneta-gasol-foundation-entrevista-ara). Tres deportistas de tres disciplinas, con el mismo fondo: lo que el deporte se queda cuando se apagan los focos.`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'Gimnasia rítmica', sport: 'gimnasia', slug: 'gimnasia' },
+    sourceName: 'verTele (elDiario.es): Almudena Cid en Salvados',
+    sourceUrl: 'https://www.eldiario.es/vertele/noticias/almudena-cid-derrumba-salvados-recordar-secuelas-deporte-pensaba-no-afectaba_1_13630940.html',
+    sourceLang: 'es',
+    publishedAt: '2026-11-02T20:34:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: '¡Hola!: «Tengo secuelas y patologías de por vida»', url: 'https://www.hola.com/actualidad/20261102932556/almudena-cid-lagrimas-operacion-cadera/' },
+      { name: '¡Hola!: la iniciativa Jubilación Justa', url: 'https://www.hola.com/actualidad/20261029932152/almudena-cid-habla-como-retirada-iniciativa-cambia-deporte/' },
+      { name: 'The Objective: la operación de cadera', url: 'https://theobjective.com/gente/2025-12-22/almudena-cid-operacion-cadera-deporte/' },
+      { name: 'FormulaTV: Salvados pospone la entrevista a Pedro Sánchez', url: 'https://www.formulatv.com/noticias/jordi-evole-cancelacion-entrevista-pedro-sanchez-138657/' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Almudena_Cid_2008_Beijing_01.PNG/1280px-Almudena_Cid_2008_Beijing_01.PNG',
+      alt: 'Almudena Cid, con maillot blanco y rosa, ejecuta un ejercicio de cinta en los Juegos Olímpicos de Pekín 2008, con la cinta rosa dibujando espirales en el aire y el fondo azul del pabellón desenfocado',
+      credit: 'Tom Theobald · Wikimedia Commons',
+      license: 'CC BY-SA 3.0',
+    },
+  },
+  {
     slug: 'atletico-bayern-villarreal-psg-barca-aston-villa-martes-3-noviembre-champions-horarios-donde-ver-jodar-ruud',
     title: 'Atlético - Bayern y Villarreal - PSG a la hora del Barça: horarios del martes de Champions y dónde ver',
     summary: 'Tres equipos españoles juegan el martes a las 21:00 en la Champions: Atlético - Bayern, Villarreal - PSG y Barça - Aston Villa. Antes, Jódar - Ruud en París. Horarios, canales y hora de Canarias.',
