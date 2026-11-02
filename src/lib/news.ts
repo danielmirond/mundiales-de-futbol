@@ -154,6 +154,269 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'tomas-jofresa-euroliga-1994-joventut-suplente-llore-muchas-horas-padre-tel-aviv-cafe-con-b',
+    title: 'Tomás Jofresa ganó una Euroliga con el Joventut y aún recuerda las horas que lloró por ser suplente',
+    summary: 'Campeón de Europa en Tel Aviv en 1994, olímpico en Barcelona 92 y doble campeón de la ACB, Tomás Jofresa cuenta en un pódcast que vivió casi toda su carrera desde el banquillo y cuánto le dolió.',
+    body: `Tomás Jofresa tiene en su palmarés una Euroliga, dos Ligas ACB y unos Juegos Olímpicos. Y aun así, cuando le preguntan por la dificultad en el deporte, habla del banquillo. «Toda mi carrera deportiva prácticamente fui suplente y me hizo padecer mucho», dijo [en el episodio 78 de Café con B](https://www.youtube.com/watch?v=LIgPYFkwUfA&t=1668s), el pódcast de baloncesto publicado el 28 de octubre. Añadió que lloró muchas horas y que pasó angustia, porque quería algo que no consiguió, y que eso no le impidió ser un deportista de éxito.
+
+El base barcelonés, que cumplió 56 años en enero, lo contaba para explicar que nadie llega arriba sin sufrir, tampoco los titulares. En su caso, la competencia la tenía en casa.
+
+## Dos hermanos para un mismo puesto
+
+Jofresa jugó nueve temporadas en el primer equipo del Joventut, de 1987 a 1996. Su hermano Rafa ocupaba la misma posición. En la charla recuerda lo que suponía pelear cada día por los minutos con él y lo que significó ganar juntos. Los dos eran hijos de un jugador de baloncesto, Josep Maria Jofresa, y de una jugadora de balonmano, Lita Prats, [según su ficha biográfica](https://es.wikipedia.org/wiki/Tom%C3%A1s_Jofresa).
+
+El título grande llegó el 21 de abril de 1994 en Tel Aviv. El 7up Joventut [ganó la final de la Liga Europea a Olympiacos por 59-57](https://www.eurohoops.net/en/fiba/1080288/rewind-to-the-1994-fiba-european-league-final/), la primera Copa de Europa del club, con Ferran Martínez como máximo anotador. Jofresa cuenta que su madre estaba en la grada y que le quedó una pena: su padre había muerto unos años antes y no pudo verlo.
+
+## Lo que pesa un palmarés desde el banquillo
+
+| Temporada | Club | Lo que ganó o jugó |
+| --- | --- | --- |
+| 1990-91 y 1991-92 | Joventut | Dos Ligas ACB |
+| 1992 | España | Juegos Olímpicos de Barcelona |
+| 1993-94 | Joventut | Liga Europea (Euroliga), final en Tel Aviv |
+| 1998-99 | Benetton Treviso | Copa Saporta, con Željko Obradović |
+| 2003 | Benfica | Última temporada |
+
+La tabla resume la trayectoria que él mismo repasa en el pódcast y su ficha. El dato que la cruza es el que da él: casi todo eso lo vivió saliendo desde el banquillo. Fue internacional absoluto y estuvo también en los Eurobasket de 1993 y 1997.
+
+En Treviso coincidió de nuevo con Obradović, el entrenador que había ganado con el Joventut la final de Tel Aviv. Antes había pasado por Málaga y Granada, y después por Gijón, Girona, el Panellinios griego y el Benfica.
+
+## El hombro y la retirada en Lisboa
+
+El final llegó en Portugal. A dos semanas de terminar la liga con el Benfica se luxó el otro hombro, después de una lesión anterior que ya le había dejado tocado en sus últimos años en Badalona. Otra operación significaba seis o siete meses fuera, y llevaba dos temporadas sin encontrar un equipo que le convenciera. Lo llama un proceso de aceptación, y es el mismo concepto que usa hoy en las charlas que da sobre la adversidad.
+
+Vive en Menorca. Empezó después de la retirada con actividades extraescolares de baloncesto en Alcoy, cuenta, y ahora dedica parte de su tiempo a formación y conferencias.
+
+El Joventut sigue en la [Liga Endesa](/baloncesto/liga-endesa) y la competición que ganaron los Jofresa es hoy la [Euroliga](/baloncesto/euroliga).`,
+    category: 'historica',
+    kind: 'noticia',
+    competition: { name: 'Liga Endesa', sport: 'baloncesto', slug: 'liga-endesa' },
+    sourceName: 'Café con B (YouTube)',
+    sourceUrl: 'https://www.youtube.com/watch?v=LIgPYFkwUfA',
+    sourceLang: 'es',
+    publishedAt: '2026-11-02T12:14:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Eurohoops: la final de la Liga Europea de 1994', url: 'https://www.eurohoops.net/en/fiba/1080288/rewind-to-the-1994-fiba-european-league-final/' },
+      { name: 'Wikipedia: Tomás Jofresa', url: 'https://es.wikipedia.org/wiki/Tom%C3%A1s_Jofresa' },
+      { name: 'Wikipedia: Final Four de 1994', url: 'https://en.wikipedia.org/wiki/1994_FIBA_European_League_Final_Four' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Trobada_internacionals_B%C3%A0squet_Catal%C3%A0_i_mitjans_de_comunicaci%C3%B3_%2852813391407%29.jpg/1280px-Trobada_internacionals_B%C3%A0squet_Catal%C3%A0_i_mitjans_de_comunicaci%C3%B3_%2852813391407%29.jpg',
+      alt: 'Tomás Jofresa, a la izquierda con jersey azul, sonríe mientras sostiene un trofeo junto a otro hombre en un acto de la Federación Catalana de Baloncesto en 2023',
+      credit: 'FCBQ · Wikimedia Commons',
+      license: 'Dominio público',
+    },
+  },
+  {
+    slug: 'jose-rodriguez-canterano-mourinho-7-octubre-israel-hapoel-que-mueran-dos-no-todos-offsiders',
+    title: 'José Rodríguez, el canterano de Mourinho, y el 7 de octubre en Israel: «Que mueran dos, no todos»',
+    summary: 'El centrocampista de La Vila Joiosa que debutó con 17 años en el Real Madrid cuenta en un pódcast lo que le propuso a su mujer cuando no encontraban vuelo para salir de Israel en octubre de 2023.',
+    body: `José Rodríguez dormía la mañana del 7 de octubre de 2023. Tenía partido esa tarde con el Hapoel Tel Aviv contra el Beitar Jerusalén y a las seis su mujer lo despertó: sonaban las alarmas. Tres años después lo ha contado en [una entrevista de más de dos horas en el pódcast Offsiders](https://www.youtube.com/watch?v=Z3VoHqEO-Z0&t=7018s), publicada el 26 de octubre. Los vuelos se cancelaban uno tras otro y encontrar plazas para toda la familia era casi imposible. Entonces le planteó a su mujer que se marcharan ella y los niños. «Si tenemos que morir, que mueran dos, no todos», le dijo. Ella no quiso irse sin él.
+
+Tardaron varios días en salir. De los primeros dos dice que fueron un infierno, encerrados en casa y sin poder cruzar ninguna frontera por tierra. En aquellos días, el centrocampista ya [había contado a la prensa belga](https://www.dhnet.be/sports/football/division-1a/union-saint-gilloise/2023/10/10/jose-rodriguez-lancien-joueur-de-lunion-coince-a-tel-aviv-cest-la-premiere-fois-que-jai-peur-pour-ma-vie-6LNMQTO6WZEEXDZG7IKR5VI4UU/) que vivía a un cuarto de hora de Tel Aviv y que era la primera vez que temía por su vida. Lo que no había explicado era esa conversación.
+
+## El niño de Mourinho
+
+Nacido en La Vila Joiosa (Alicante) el 16 de diciembre de 1994, José Rodríguez llegó a la cantera del Real Madrid con 14 años. En el pódcast recuerda que sus dos primeros meses en Madrid fueron los peores de su vida y que quiso volverse varias veces. Su padre y sus abuelos lo convencieron de quedarse.
+
+José Mourinho lo hizo debutar el 30 de octubre de 2012 en Copa ante el Alcoyano, y marcó. El 4 de diciembre jugó en Champions contra el Ajax con 17 años y 354 días, el más joven del [Real Madrid](/futbol/laliga/equipo/86) en esa competición hasta entonces, [según su ficha](https://en.wikipedia.org/wiki/Jos%C3%A9_Rodr%C3%ADguez_(footballer,_born_1994)). Aquella noche, antes de salir, Mourinho le dijo que lo iba a convertir en el gitano más famoso del mundo. Él, de familia gitana, cuenta que la frase le quitó los nervios de golpe. En el vestuario bromeaban con que el entrenador era su padre.
+
+## Una carrera con la maleta hecha
+
+- **2014-15:** cedido al Deportivo, su primera temporada completa en Primera.
+- **2015-16:** Galatasaray, donde gana la Copa de Turquía.
+- **2016-2019:** Mainz, con cesiones a Málaga, Maccabi Tel Aviv y Fortuna Sittard, el club holandés donde dice que vivió sus mejores años.
+- **2019-20:** vuelta al Málaga y cesión al Fuenlabrada.
+- **2020-2022:** Maccabi Haifa, campeón de liga dos veces.
+- **2022-23:** Union Saint-Gilloise, en Bélgica.
+- **2023:** Hapoel Tel Aviv, hasta la guerra.
+
+Después de salir de Israel le llegó una oferta del Adana Demirspor turco, cuenta, donde coincidió con Mario Balotelli y Nani. Su último equipo fue el Flamurtari albanés, que en la entrevista define como su peor experiencia.
+
+## Lo que dice de los agentes y el dinero
+
+Tiene 31 años, se casó con 19 y en la charla repite una idea: que el representante trabaja para el jugador y no al revés. Asegura que nunca se ha guiado por el dinero y cuenta que llegó a tener de Tailandia la mejor oferta económica de su carrera. De Israel guarda buen recuerdo pese a todo: volvió tres veces a su liga.
+
+Los clubes donde se formó siguen en [LaLiga](/futbol/laliga) y el Galatasaray de su primera aventura, en la [Süper Lig](/futbol/super-lig).`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'LaLiga', sport: 'futbol', slug: 'laliga' },
+    sourceName: 'Offsiders (YouTube)',
+    sourceUrl: 'https://www.youtube.com/watch?v=Z3VoHqEO-Z0',
+    sourceLang: 'es',
+    publishedAt: '2026-11-02T12:16:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'DH: José Rodríguez, atrapado en Tel Aviv (octubre de 2023)', url: 'https://www.dhnet.be/sports/football/division-1a/union-saint-gilloise/2023/10/10/jose-rodriguez-lancien-joueur-de-lunion-coince-a-tel-aviv-cest-la-premiere-fois-que-jai-peur-pour-ma-vie-6LNMQTO6WZEEXDZG7IKR5VI4UU/' },
+      { name: 'Wikipedia: José Rodríguez (futbolista, 1994)', url: 'https://en.wikipedia.org/wiki/Jos%C3%A9_Rodr%C3%ADguez_(footballer,_born_1994)' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Tel_Aviv_Bloomfield_Stadium_1.jpg/1280px-Tel_Aviv_Bloomfield_Stadium_1.jpg',
+      alt: 'Grada con aficionados vestidos de rojo en el estadio Bloomfield de Tel Aviv, casa del Hapoel, con el césped iluminado por los focos de noche',
+      credit: 'Валерий Дед · Wikimedia Commons',
+      license: 'CC BY 3.0',
+    },
+  },
+  {
+    slug: 'pepe-mel-operado-ictus-uci-sevilla-que-se-sabe-estado-entrenador-betis-novelas',
+    title: 'Pepe Mel, operado de un ictus: qué se sabe de su estado y la carrera del entrenador que escribe novelas',
+    summary: 'Pepe Mel, de 63 años, sufrió un ictus el domingo y fue operado con éxito. Sigue en la UCI de un hospital de Sevilla. Lo que han comunicado, los mensajes de sus exclubes y quién es.',
+    body: `Pepe Mel sufrió un ictus el domingo 1 de noviembre y fue operado. La intervención salió bien y el entrenador, de 63 años, permanece en la UCI de un hospital de Sevilla a la espera de ver cómo evoluciona. Lo comunicó el Betis a petición de la familia, [según recoge COPE](https://www.cope.es/programas/tiempo-de-juego/noticias/pepe-mel-recupera-operado-ictus-20261102_3466802.html). No se han difundido más detalles sobre su evolución.
+
+Su nombre es una de las búsquedas de deporte que más suben este lunes en España, con más de 5.000 búsquedas en las últimas horas, según Google Trends.
+
+## Los mensajes de sus exclubes
+
+Varios de los equipos que entrenó le han escrito en redes. El [Tenerife le deseó una pronta y completa recuperación](https://rtvc.es/pepe-mel-accidente-2-noviembre-2026/) y Las Palmas le mandó ánimo, según Radio Televisión Canaria. También lo hicieron el Rayo Vallecano, el Málaga y el Almería, que escribió que espera verle pronto en su estadio.
+
+## Quién es Pepe Mel
+
+José Mel Pérez nació en Madrid el 28 de febrero de 1963 y se formó en la cantera del Real Madrid. Como delantero, su mejor etapa fue en el Betis, de 1989 a 1993: 50 goles en 112 partidos de liga y máximo goleador de [Segunda](/futbol/laliga-2) en la temporada 1989-90, [según su ficha biográfica](https://es.wikipedia.org/wiki/Pepe_Mel). Colgó las botas en el Angers francés en 1998.
+
+En el banquillo lleva un cuarto de siglo y más de una docena de equipos. Estos son los capítulos que más se recuerdan:
+
+| Etapa | Club | Qué dejó |
+| --- | --- | --- |
+| 2006-2010 | Rayo Vallecano | Ascenso a Segunda en 2008 |
+| 2010-2013 | Betis | Ascenso en 2011 y Europa League en 2013 |
+| 2014 | West Bromwich Albion | Salvó al equipo inglés en la última jornada |
+| 2014-2016 | Betis | Segundo ascenso, en 2015 |
+| 2019-2022 | Las Palmas | 128 partidos seguidos en el banquillo |
+| 2025-26 | Ittihad Tanger (Marruecos) | Último equipo, hasta marzo |
+
+Con el Betis tiene un vínculo especial: lo subió dos veces a [Primera](/futbol/laliga/equipo/244) y en su primera etapa debutaron con él 16 canteranos. En Las Palmas solo Pierre Sinibaldi encadenó más partidos seguidos como entrenador. También dirigió al Tenerife (dos veces), Getafe, Alavés, Polideportivo Ejido, Deportivo, Málaga, OFI Creta y Almería.
+
+## El entrenador que escribe novelas
+
+Fuera del fútbol, Mel es escritor. Ha publicado seis novelas desde 2011, la última El despertar del Diablo, en 2024. Una de ellas, La prueba (2016), es para público infantil. Es una faceta poco habitual en un banquillo.
+
+Actualmente estaba sin equipo. Esta redacción actualizará la pieza si la familia o el hospital dan nuevos datos.`,
+    category: 'tecnico',
+    kind: 'noticia',
+    competition: { name: 'LaLiga', sport: 'futbol', slug: 'laliga' },
+    sourceName: 'COPE',
+    sourceUrl: 'https://www.cope.es/programas/tiempo-de-juego/noticias/pepe-mel-recupera-operado-ictus-20261102_3466802.html',
+    sourceLang: 'es',
+    publishedAt: '2026-11-02T12:18:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Radio Televisión Canaria: Pepe Mel, intervenido tras un accidente cerebrovascular', url: 'https://rtvc.es/pepe-mel-accidente-2-noviembre-2026/' },
+      { name: 'La Voz del Sur: Pepe Mel, en la UCI tras un ictus', url: 'https://www.lavozdelsur.es/deportes/el-entrenador-pepe-mel-ingresado-en-la-uci-de-un-hospital-de-sevilla-tras-sufrir-un-ictus.html' },
+      { name: 'Wikipedia: Pepe Mel', url: 'https://es.wikipedia.org/wiki/Pepe_Mel' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Pepe_mel_2.jpg/1280px-Pepe_mel_2.jpg',
+      alt: 'Pepe Mel, con chándal negro del Betis, sigue de pie un entrenamiento mientras varios jugadores con petos azules corren a su alrededor',
+      credit: 'Anual · Wikimedia Commons',
+      license: 'CC BY 3.0',
+    },
+  },
+  {
+    slug: 'boca-river-1-0-di-lollo-bombonera-martinez-quarta-montiel-expulsados-var-otamendi-tabla',
+    title: 'Boca - River: el 1-0 de Di Lollo en la Bombonera, las dos rojas de River y cómo queda la tabla',
+    summary: 'Boca ganó el Superclásico 1-0 con un cabezazo de Lautaro Di Lollo. River se quedó con diez a los diez minutos y acabó con nueve. Las claves, la queja por el VAR y cómo quedan los dos en la tabla.',
+    body: `Boca ganó 1-0 a River el domingo en la Bombonera con un gol de cabeza de Lautaro Di Lollo en el minuto 27. El central remató en el centro del área un centro de Sebastián Villa tras un saque de esquina. River jugó casi todo el partido con uno menos: Lucas Martínez Quarta vio la roja en el minuto 10, y Gonzalo Montiel, exjugador del Sevilla, fue expulsado en el 79, [según el acta de ESPN](https://www.espn.com/soccer/match/_/gameId/401841658).
+
+El partido empezó a las 15:00 de Buenos Aires, las 19:00 en la España peninsular. Boca y River son una de las búsquedas de deporte que más suben en España desde el domingo, con más de 20.000 consultas.
+
+## Las claves del Superclásico
+
+- **Superioridad sin brillo.** Con un hombre más desde el principio, Boca tuvo el 70,8 % de la posesión y remató 16 veces, seis a puerta. River tiró tres veces y ninguna entre los tres palos.
+- **El gol, a balón parado.** Boca sacó diez córneres. Uno de ellos lo convirtió Di Lollo, que siete minutos antes había visto una amarilla.
+- **Mucha tarjeta.** Boca acabó con siete amonestados, entre ellos Leandro Paredes y Enner Valencia. River, con dos amarillas y dos rojas. Hubo además varias pausas en el juego.
+- **Cambio obligado.** Tras la expulsión, River retiró a un delantero, Lucas Beltrán, para meter a un defensa, Lautaro Rivero, en el minuto 13.
+
+## La queja de River por el VAR
+
+En Argentina la discusión es una jugada en el área de Boca. Infobae sostiene que el VAR, Silvio Trucco, [pasó por alto un agarrón de Di Lollo a Nicolás Otamendi](https://www.infobae.com/deportes/2026/11/01/silvio-trucco-el-arbitro-del-var-que-condiciono-el-superclasico-ignoro-un-penal-evidente-para-river-y-aplico-criterios-diferentes-ante-jugadas-similares/) que considera penalti claro, y que no llamó al árbitro, Nicolás Ramírez, para revisarlo en el monitor. Otamendi, exjugador del Valencia, fue titular en el centro de la defensa de River.
+
+## Cómo queda la tabla
+
+La Liga Profesional se juega en dos zonas de 15 equipos. Tras 15 jornadas:
+
+| Equipo | Zona | Puesto | Puntos | Diferencia de goles |
+| --- | --- | --- | --- | --- |
+| Instituto | B | 1.º | 33 | +11 |
+| Boca Juniors | B | 2.º | 30 | +9 |
+| Rosario Central | A | 1.º | 31 | +12 |
+| River Plate | A | 4.º | 23 | +5 |
+
+Boca se queda a tres puntos del líder de su zona, Instituto. River, cuarto en la suya, está a ocho de Rosario Central. Los datos son de la [clasificación de la Liga Argentina](/futbol/liga-argentina) y de la [ficha del partido](/futbol/liga-argentina/partido/401841658), con alineaciones y estadísticas.
+
+River alineó de inicio a cuatro viejos conocidos de LaLiga: Otamendi, que jugó en el Valencia; Montiel y Marcos Acuña, ambos ex del Sevilla, y Ángel Correa, el sexto jugador con más partidos oficiales en la historia del Atlético, [según su ficha](https://es.wikipedia.org/wiki/%C3%81ngel_Correa). Ninguno pudo evitar la derrota.`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'Liga Profesional Argentina', sport: 'futbol', slug: 'liga-argentina' },
+    sourceName: 'ESPN',
+    sourceUrl: 'https://www.espn.com/soccer/match/_/gameId/401841658',
+    sourceLang: 'en',
+    publishedAt: '2026-11-02T12:20:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Infobae: el VAR del Superclásico', url: 'https://www.infobae.com/deportes/2026/11/01/silvio-trucco-el-arbitro-del-var-que-condiciono-el-superclasico-ignoro-un-penal-evidente-para-river-y-aplico-criterios-diferentes-ante-jugadas-similares/' },
+      { name: 'Wikipedia: Ángel Correa', url: 'https://es.wikipedia.org/wiki/%C3%81ngel_Correa' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Vista_a%C3%A9rea_del_Estadio_Alberto_J._Armando_%22La_Bombonera%22_08.jpg/1280px-Vista_a%C3%A9rea_del_Estadio_Alberto_J._Armando_%22La_Bombonera%22_08.jpg',
+      alt: 'Vista aérea de la Bombonera, con sus gradas azules y amarillas alrededor del césped y las casas del barrio de La Boca detrás',
+      credit: 'ProtoplasmaKid · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'europa-sant-andreu-derbi-rcde-stadium-14-noviembre-14000-asientos-can-drago-nou-sardenya-precios',
+    title: 'Europa y Sant Andreu se llevan su derbi de barrio al estadio del Espanyol, con 14.000 asientos',
+    summary: 'El derbi del Pla de Barcelona entre Europa y Sant Andreu se jugará el 14 de noviembre en el RCDE Stadium. Por qué se muda, cuánto cuestan las entradas y qué historia hay detrás de los dos clubes.',
+    body: `El Europa y el Sant Andreu, dos clubes de antiguos pueblos que hoy son barrios de Barcelona, jugarán su derbi en un estadio de Primera. El partido de la jornada 12 de Primera Federación será el sábado 14 de noviembre a las 18:30 en el RCDE Stadium de Cornellà, con el Europa como local. El Espanyol lo [anunció el lunes 2 de noviembre](https://lagrada.org/espanyol-confirma-rcde-stadium-europa-sant-andreu-14-noviembre-entradas/) y abrirá solo el anillo inferior, con capacidad para 14.000 espectadores.
+
+No es una cesión. El Europa [alquila el estadio](https://el1900.com/derbi-entre-ce-europa-ue-sant-andreu-rcde-stadium/) y aprovecha que ese fin de semana LaLiga para por los partidos de selecciones.
+
+## Un club sin su campo
+
+El Europa juega esta temporada en Can Dragó, lejos de su casa, el Nou Sardenya de Gràcia. Tuvo que dejarlo por las exigencias de la categoría. [El Nacional explica](https://www.elnacional.cat/es/deportes/rdce-stadium-acogera-proximo-derbi-europa-sant-andreu_1719103_102.html) que el problema es el césped artificial, que la RFEF no admite en Primera Federación, y que cambiarlo era caro y complicado por el aparcamiento subterráneo del campo; el ayuntamiento no quiso asumir la obra. Can Dragó no tiene la capacidad que el club quería para un partido así.
+
+El Nou Sardenya tiene unas 4.000 localidades. El anillo inferior de Cornellà multiplica por tres y media ese aforo.
+
+## Lo que cuestan las entradas
+
+| Quién | Zona | Precio |
+| --- | --- | --- |
+| Socios del Europa y acompañantes | Gol Cornellà, Lateral y Tribuna | 15 € |
+| Aficionados del Sant Andreu (3.000 plazas) | Gol El Prat | 18 € |
+| Socios del Espanyol (dos entradas) | Lateral | 20 € |
+| Público general | | 25 € |
+
+Los precios son los que recogen el1900 y La Grada. Los seguidores del Sant Andreu solo podrán entrar con sus colores en el Gol El Prat.
+
+## La Vila contra el Poble
+
+El derbi se conoce como el del Pla de Barcelona: el Europa representa a la Vila de Gràcia y el Sant Andreu a Sant Andreu de Palomar, dos municipios que Barcelona se anexionó en 1897. La rivalidad actual se suele fechar en 2007 y hoy se considera la segunda más intensa de Cataluña después del Barça-Espanyol, [según la enciclopedia del derbi](https://en.wikipedia.org/wiki/Pla_de_Barcelona_derby). Los dos se definen como clubes de barrio, con entradas baratas y aficiones de perfil social parecido.
+
+El Europa, fundado en 1907, tiene además un pasado de Primera: fue uno de los diez fundadores de la Liga en 1929, junto al Barcelona y el Espanyol, y jugó en ella tres temporadas. En 1923 perdió la final de Copa contra el Athletic. Casi un siglo después, volverá a jugar en el campo de uno de aquellos compañeros de estreno.
+
+Llega en mal momento: es 19.º y encadena tres derrotas, según El Nacional. El Sant Andreu ya ha cambiado de entrenador esta temporada: Javi Rey sustituyó a Natxo González. La clasificación está en la [página de Primera Federación](/futbol/primera-federacion), la misma categoría en la que [Ander Herrera juega gratis con el Zaragoza](/noticias/ander-herrera-37-anos-juega-gratis-real-zaragoza-primera-federacion-ve). La casa prestada es la del [Espanyol](/futbol/laliga/equipo/88).`,
+    category: 'curiosa',
+    kind: 'noticia',
+    competition: { name: 'Primera Federación', sport: 'futbol', slug: 'primera-federacion' },
+    sourceName: 'La Grada',
+    sourceUrl: 'https://lagrada.org/espanyol-confirma-rcde-stadium-europa-sant-andreu-14-noviembre-entradas/',
+    sourceLang: 'es',
+    publishedAt: '2026-11-02T12:22:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'el1900: el derbi Europa - Sant Andreu, en el RCDE Stadium', url: 'https://el1900.com/derbi-entre-ce-europa-ue-sant-andreu-rcde-stadium/' },
+      { name: 'El Nacional: el RCDE Stadium acogerá el derbi', url: 'https://www.elnacional.cat/es/deportes/rdce-stadium-acogera-proximo-derbi-europa-sant-andreu_1719103_102.html' },
+      { name: 'Wikipedia: CE Europa', url: 'https://en.wikipedia.org/wiki/CE_Europa' },
+    ],
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Stage_Front_Stadium.jpg/1280px-Stage_Front_Stadium.jpg',
+      alt: 'Interior del estadio del Espanyol en Cornellà, con las gradas azules bajo la cubierta',
+      credit: 'RCD Espanyol de Barcelona · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
     slug: 'hugo-gonzalez-titular-celtics-nba-semana-espana-rockets-bucks-partido-mexico-23-horas-aday-mara-aldama-baja',
     title: 'Hugo González, titular en Boston: la semana de la NBA en España, con un partido a las 23:00 desde México',
     summary: 'Hugo González fue titular por primera vez en la victoria de los Celtics en Orlando. Qué noches hay partido en hora española, cuándo juegan los españoles y la cita de Ciudad de México a las 23:00.',
