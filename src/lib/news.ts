@@ -154,6 +154,249 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'hugo-gonzalez-titular-celtics-nba-semana-espana-rockets-bucks-partido-mexico-23-horas-aday-mara-aldama-baja',
+    title: 'Hugo González, titular en Boston: la semana de la NBA en España, con un partido a las 23:00 desde México',
+    summary: 'Hugo González fue titular por primera vez en la victoria de los Celtics en Orlando. Qué noches hay partido en hora española, cuándo juegan los españoles y la cita de Ciudad de México a las 23:00.',
+    body: `Hugo González salió por primera vez en el quinteto inicial de los Boston Celtics el domingo en Orlando. Jugó 14 minutos, anotó 7 puntos con un triple y robó dos balones en el 97-108 con el que su equipo [se llevó el partido](https://www.espn.com/nba/game/_/gameId/401909903), según el acta de ESPN. Dos días antes, contra los Bulls, había jugado 15 minutos sin anotar. La semana llega, además, con el tercer año de su contrato ya garantizado: los Celtics [ejercieron la opción de equipo para 2027-28](https://www.solobasket.com/nba/hugo-gonzalez-celtics-opcion-equipo-2027-28), unos 3,06 millones de dólares, según Solobasket.
+
+Esta es la agenda de la NBA del lunes 2 al domingo 8 de noviembre con hora peninsular (Canarias, una hora menos). En España la temporada se reparte entre DAZN y Prime Video, [como explica nuestra guía de la NBA 2026-27](/noticias/nba-2026-27-donde-ver-espana-dazn-prime-video-estreno-hugo-gonzalez-aldama); el canal de cada partido está en el [calendario de la NBA](/baloncesto/nba/calendario) y [qué plataforma emite cada competición y cuánto cuesta](/noticias/donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1), en la guía general.
+
+## Los españoles, noche a noche
+
+Santi Aldama no está en la lista. ESPN lo da como [baja en los Dallas Mavericks](https://www.espn.com/nba/team/injuries/_/name/dal/dallas-mavericks), igual que Sergio de Larrea, así que los Mavericks juegan esta semana sin sus dos españoles. Sí están Hugo González y Aday Mara, que el sábado firmó 7 puntos, 9 rebotes y 4 tapones en 28 minutos en [la derrota de los Thunder en Houston](https://www.espn.com/nba/game/_/gameId/401909902) y [ya lleva un doble-doble este curso](/noticias/aday-mara-primer-doble-doble-nba-thunder-suns-jalen-williams-wallace-quirofano-hugo-gonzalez).
+
+| Noche (hora peninsular) | Hugo González (Celtics) | Aday Mara (Thunder) |
+| --- | --- | --- |
+| Lunes a martes | [Rockets - Celtics](/baloncesto/nba/partido/401909916), 2:30 | [Cavaliers - Thunder](/baloncesto/nba/partido/401909907), 1:00 |
+| Miércoles a jueves | [Celtics - Bucks](/baloncesto/nba/partido/401909924), 1:30 | [Thunder - Cavaliers](/baloncesto/nba/partido/401909929), 2:00 |
+| Viernes a sábado | [Hornets - Celtics](/baloncesto/nba/partido/401909288), 1:00 | [Grizzlies - Thunder](/baloncesto/nba/partido/401909291), 2:00 |
+| Sábado a domingo | descansa | [Thunder - Wizards](/baloncesto/nba/partido/401909941), 2:00 |
+| Domingo a lunes | [Bucks - Celtics](/baloncesto/nba/partido/401909949), 2:00 | descansa |
+
+La noche del martes al miércoles no hay ningún partido en toda la liga, según el [calendario de ESPN](https://www.espn.com/nba/schedule/_/date/20261103).
+
+## Tres partidos que no obligan a trasnochar
+
+- **Sábado 7, 23:00: Nuggets - Pacers en Ciudad de México.** Es el partido de la liga en la Arena CDMX, en pista neutral, y por eso empieza a una hora europea. [Ficha del partido](/baloncesto/nba/partido/401909938).
+- **Domingo 8, 21:30: Bulls - 76ers.** Los 76ers lideran el Este con seis victorias en siete partidos, [según la clasificación de esta semana](/noticias/clasificacion-nba-semana-2026-45). [Ficha](/baloncesto/nba/partido/401909945).
+- **Domingo 8, 0:00 (ya lunes): Pistons - Lakers.** Los Lakers llegan de ganar 131-125 a los Raptors con 45 puntos, 15 rebotes, 6 asistencias y 5 robos de Luka Dončić, [según el acta de ESPN](https://www.espn.com/nba/game/_/gameId/401909906). [Ficha](/baloncesto/nba/partido/401909946).
+
+## Lo que dejó el fin de semana
+
+Además del partido de Hugo González, los Warriors ganaron 124-112 a los Clippers y los Nets se impusieron 90-98 en Indiana. Los resultados completos, con el partido más igualado de cada noche, están en la [crónica diaria de la NBA](/noticias/nba-resultados-2026-11-02) y la tabla por conferencias, en la [página de la NBA](/baloncesto/nba).`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'NBA', sport: 'baloncesto', slug: 'nba' },
+    sourceName: 'ESPN',
+    sourceUrl: 'https://www.espn.com/nba/game/_/gameId/401909903',
+    sourceLang: 'en',
+    publishedAt: '2026-11-02T09:32:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Solobasket: los Celtics ejercen la opción de Hugo González', url: 'https://www.solobasket.com/nba/hugo-gonzalez-celtics-opcion-equipo-2027-28' },
+      { name: 'ESPN: calendario de la NBA', url: 'https://www.espn.com/nba/schedule' },
+      { name: 'ESPN: lesionados de los Mavericks', url: 'https://www.espn.com/nba/team/injuries/_/name/dal/dallas-mavericks' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Hugo_Gonz%C3%A1lez_9_Real_Madrid_Baloncesto_Euroleague_20250206_%282%29.jpg/1280px-Hugo_Gonz%C3%A1lez_9_Real_Madrid_Baloncesto_Euroleague_20250206_%282%29.jpg',
+      alt: 'Hugo González, con la camiseta blanca del Real Madrid y el dorsal 9, calienta antes de un partido de Euroliga en febrero de 2025',
+      credit: 'Zafer · Wikimedia Commons',
+      license: 'CC BY 4.0',
+    },
+  },
+  {
+    slug: 'kimi-antonelli-campeon-mundo-f1-20-anos-mexico-record-vettel-alonso-2005-tres-anos-verstappen-gana',
+    title: 'Kimi Antonelli, campeón del mundo a los 20 años: el récord que Alonso tuvo tres años y Vettel dieciséis',
+    summary: 'Kimi Antonelli es campeón de Fórmula 1 con 20 años y 68 días tras acabar tercero en México. Quién tuvo el récord antes, cuánto le duró a cada uno y cómo acabó Alonso la carrera que ganó Verstappen.',
+    body: `Kimi Antonelli es campeón del mundo de Fórmula 1 a los 20 años y 68 días. Le bastó el tercer puesto en el Gran Premio de México, que [ganó Max Verstappen por delante de Lewis Hamilton](https://www.formula1.com/en/latest/article/antonelli-crowned-youngest-ever-f1-champion-as-verstappen-wins-eventful-mexico-city-grand-prix.xpMMeef0KmRURs9IDs3LH), según la crónica oficial de la Fórmula 1. Salía cuarto y solo necesitaba ser noveno, hiciera lo que hiciera cualquier rival.
+
+Nacido en Bolonia el 25 de agosto de 2006, Antonelli rebaja en más de tres años la marca de Sebastian Vettel, que era el campeón más joven desde 2010. Fernando Alonso también figura en esa lista, y durante tres años la encabezó.
+
+## Quién tuvo el récord y cuánto le duró
+
+| Piloto | Edad al proclamarse | Temporada | Años como récord |
+| --- | --- | --- | --- |
+| Kimi Antonelli | 20 años y 68 días | 2026 | vigente |
+| Sebastian Vettel | 23 años y 134 días | 2010 | 16 |
+| Lewis Hamilton | 23 años y 300 días | 2008 | 2 |
+| Fernando Alonso | 24 años y 58 días | 2005 | 3 |
+| Max Verstappen | 24 años y 73 días | 2021 | nunca lo tuvo |
+
+Las edades son las de la [lista de campeones de la Fórmula 1 en Wikipedia](https://en.wikipedia.org/wiki/List_of_Formula_One_World_Drivers%27_Champions), medidas en la carrera en que cada uno cerró el título. La duración de cada récord la calcula esta redacción: Alonso superó a Emerson Fittipaldi en Brasil en 2005, Hamilton le quitó la marca en 2008 y Vettel la bajó dos años después. Desde entonces nadie se había acercado: Verstappen, el más precoz de la última década, fue campeón con 24.
+
+## La carrera: bandera roja, coche de seguridad y un abandono español
+
+México tuvo de todo. Hamilton salía desde la pole y Charles Leclerc se fue por la hierba para pasarlo en la primera vuelta, una maniobra que le costó cinco segundos de sanción y que dejó a Verstappen en cabeza. Hubo bandera roja por el accidente de Valtteri Bottas y un coche de seguridad final por el de Arvid Lindblad. Verstappen aguantó a Hamilton hasta el final y sumó su tercera victoria del año; Antonelli acabó a cuatro segundos.
+
+Fernando Alonso no vio la bandera a cuadros. Lance Stroll dejó su Aston Martin en la curva 6 en la séptima vuelta y, mientras salía el coche de seguridad virtual, Alonso se retiró en el garaje, [según el relato de la Fórmula 1](https://www.formula1.com/en/latest/article/antonelli-crowned-youngest-ever-f1-champion-as-verstappen-wins-eventful-mexico-city-grand-prix.xpMMeef0KmRURs9IDs3LH). Es el segundo fin de semana seguido con problemas de motor para el asturiano, [como contamos el domingo](/noticias/honda-formula-1-que-le-fallo-alonso-mexico-q1-presion-agua-sancion-motor-2026-china-baku-singapur). Carlos Sainz fue duodécimo y el japonés Ryo Hirakawa, que sustituyó a Esteban Ocon en Haas a media semana, puntuó en su debut con el décimo puesto. La [clasificación completa](https://www.espn.com/f1/results) está en ESPN.
+
+## Por qué ya no hay cuentas que hacer
+
+Tras México, Antonelli suma 380 puntos y Verstappen, segundo, 261, [según la clasificación recogida en nuestra crónica](/noticias/cronica-gp-mexico-2026). Quedan cuatro grandes premios (Brasil, Las Vegas, Catar y Abu Dabi) y ninguno tiene carrera al sprint, [como recoge la guía de lo que queda de temporada](/noticias/donde-ver-f1-motogp-espana-2026-dazn-precios-carreras-que-quedan): el máximo en juego son 100 puntos, menos que los 119 de ventaja.
+
+El título se veía venir. Antonelli [ganó en Austin](/noticias/kimi-antonelli-campeon-austin-paddock-singapur-san-marino-minardi) una semana antes y llegó a México [con un virus que le hizo saltarse la jornada de prensa](/noticias/kimi-antonelli-infeccion-viral-gp-mexico-puede-ser-campeon-mas-joven). Mercedes vuelve a tener un campeón de pilotos por primera vez desde Hamilton en 2020. Horarios y resultados de lo que queda, en la sección de [Fórmula 1](/motor/formula-1).`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'Fórmula 1', sport: 'motor', slug: 'formula-1' },
+    sourceName: 'Formula1.com',
+    sourceUrl: 'https://www.formula1.com/en/latest/article/antonelli-crowned-youngest-ever-f1-champion-as-verstappen-wins-eventful-mexico-city-grand-prix.xpMMeef0KmRURs9IDs3LH',
+    sourceLang: 'en',
+    publishedAt: '2026-11-02T09:36:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Wikipedia: campeones del mundo de Fórmula 1 (récords de edad)', url: 'https://en.wikipedia.org/wiki/List_of_Formula_One_World_Drivers%27_Champions' },
+      { name: 'ESPN: resultados del GP de México', url: 'https://www.espn.com/f1/results' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/2026_Bahrain_GP_-_Mercedes_-_Kimi_Antonelli_-_Race.jpg/1280px-2026_Bahrain_GP_-_Mercedes_-_Kimi_Antonelli_-_Race.jpg',
+      alt: 'El Mercedes de Kimi Antonelli, visto de perfil, rueda por la recta durante el Gran Premio de Baréin de 2026',
+      credit: 'Liauzh · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'luhay-hamido-presidente-ceuta-cargo-disposicion-amo-familia-junta-ratifica-colista-segunda-diez-anos',
+    title: 'Luhay Hamido, presidente del Ceuta: «También amo a mi familia y me duele mucho verlos sufrir»',
+    summary: 'Luhay Hamido puso su cargo a disposición tras el 0-2 con el Sporting que deja al Ceuta colista y la junta lo ratificó. Diez años, un ascenso esperado 57 años y cinco puntos en doce jornadas.',
+    body: `Luhay Hamido compareció el domingo en el Alfonso Murube después del 0-2 contra el Sporting y anunció que ponía su cargo de presidente de la AD Ceuta a disposición de la junta directiva y de la afición. Dijo que necesita respirar, estar con su familia y sanar heridas, y que asume la situación como máximo responsable del club, [según el comunicado de la propia entidad](https://adceutafc.com/luhay-hamido-pone-su-cargo-a-disposicion-de-la-junta-directiva-y-de-la-aficion-de-la-ad-ceuta-fc/). Horas después, la junta directiva [lo ratificó por unanimidad como presidente](https://elfarodeceuta.es/luhay-no-se-va-junta-directiva-ad-ceuta-ratifica-presidente/), según El Faro de Ceuta, aunque el propio club añadió que Hamido seguirá meditando su decisión.
+
+La frase que resume su comparecencia no es la de la dimisión, sino la de la familia: «Amo al Ceuta con locura. Han sido diez años que no se pueden describir con palabras, pero también amo a mi familia y me duele mucho verlos sufrir o que me vean sufrir a mí».
+
+## Lo que dijo y lo que no va a cambiar
+
+Hamido pidió que aparezca alguien con fuerza para hacerse cargo del club y avisó de que, si no aparece, él seguirá peleando desde la presidencia o desde la grada. También dejó claro que no piensa cambiar al entrenador, José Juan Romero, ni al director deportivo, y que la plantilla es la que hay. Romero, por su parte, pidió al equipo creer en sí mismo e [insistir y resistir](https://adceutafc.com/jose-juan-romero-el-equipo-tiene-que-creer-en-si-mismo-no-queda-otra-que-insistir-y-resistir/), según recogió el club.
+
+Una semana antes, el 27 de octubre, Hamido había recogido la Medalla de Oro de la Cámara de Comercio de Ceuta y había prometido que [el equipo se iba a salvar](https://elfarodeceuta.es/luhay-hamido-medalla-oro-camara-comercio-ceuta-se-va-salvar/), según El Faro de Ceuta. Cuatro derrotas seguidas después, el discurso es otro.
+
+## Colista con cinco puntos
+
+La derrota con el Sporting fue la cuarta consecutiva y deja al Ceuta último de LaLiga Hypermotion con una victoria, dos empates y nueve derrotas en doce jornadas, [según la clasificación de ESPN](https://www.espn.com/soccer/standings/_/league/esp.2).
+
+| Puesto | Equipo | Puntos | Partidos |
+| --- | --- | --- | --- |
+| 19.º | Cádiz | 10 | 11 |
+| 20.º | Andorra | 10 | 11 |
+| 21.º | Albacete | 7 | 12 |
+| 22.º | Ceuta | 5 | 12 |
+
+El siguiente partido es en Córdoba, el sábado 7 de noviembre a las 18:30, según el calendario del club. Después recibe al Almería el 22 y visita Granada el 29.
+
+## Diez años, de Tercera a Segunda
+
+Hamido lleva una década al frente del club, y la cuenta de ascensos explica el peso de su figura en la ciudad. El Ceuta subió de Tercera a Segunda RFEF en los playoffs de 2021, a Primera Federación en 2022 y, el 11 de mayo de 2025, ganó 1-2 en Fuenlabrada para volver a Segunda División 57 años después, [según el historial del club en Wikipedia](https://es.wikipedia.org/wiki/Agrupaci%C3%B3n_Deportiva_Ceuta_F%C3%BAtbol_Club). El Faro de Ceuta lo describió entonces como [el hombre que resucitó al Ceuta](https://elfarodeceuta.es/luhay-hamido-hombre-resucito-ceuta-futbol-profesional/). Es la primera temporada del club en el fútbol profesional desde 1968, y la que amenaza con devolverlo a Primera Federación.
+
+El resto de la jornada de Segunda, con el 1-1 del líder en Burgos, está en [la crónica del domingo](/noticias/burgos-castellon-1-1-el-plantio-suero-oier-luengo-roja-orozco-lider-almeria-clasificacion-segunda) y la clasificación completa, en la [página de LaLiga Hypermotion](/futbol/laliga-2).`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'LaLiga Hypermotion', sport: 'futbol', slug: 'laliga-2' },
+    sourceName: 'AD Ceuta FC',
+    sourceUrl: 'https://adceutafc.com/luhay-hamido-pone-su-cargo-a-disposicion-de-la-junta-directiva-y-de-la-aficion-de-la-ad-ceuta-fc/',
+    sourceLang: 'es',
+    publishedAt: '2026-11-02T09:40:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'El Faro de Ceuta: la junta ratifica a Hamido por unanimidad', url: 'https://elfarodeceuta.es/luhay-no-se-va-junta-directiva-ad-ceuta-ratifica-presidente/' },
+      { name: 'El Faro de Ceuta: Hamido, Medalla de Oro de la Cámara de Comercio', url: 'https://elfarodeceuta.es/luhay-hamido-medalla-oro-camara-comercio-ceuta-se-va-salvar/' },
+      { name: 'ESPN: clasificación de LaLiga Hypermotion', url: 'https://www.espn.com/soccer/standings/_/league/esp.2' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Pontevedra_CF_-_AD_Ceuta_FC%2C_Primeira_Divisi%C3%B3n_RFEF_2022-23_a_05.jpg/1280px-Pontevedra_CF_-_AD_Ceuta_FC%2C_Primeira_Divisi%C3%B3n_RFEF_2022-23_a_05.jpg',
+      alt: 'Jugadores del Ceuta, de amarillo, posan para la foto de equipo junto a los árbitros antes de un partido en Pontevedra en 2023',
+      credit: 'Estevoaei · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'rogerio-ceni-granja-familia-mato-grosso-santa-carmem-soja-maiz-campo-futbol-portero-129-goles-bahia',
+    title: 'Rogério Ceni y la finca de Mato Grosso: el portero goleador que se refugia entre silos, soja y maíz',
+    summary: 'Rogério Ceni, técnico del Bahia y portero con más goles de la historia, pasa sus vacaciones en la finca familiar de Santa Carmem: soja, maíz y un campo de fútbol iluminado junto a los silos.',
+    body: `Rogério Ceni tiene dos vidas. En una es el entrenador del [Bahia](/futbol/brasileirao/equipo/9967), sexto del Brasileirão con 53 puntos a falta de cinco jornadas, [según la clasificación de ESPN](https://www.espn.com/soccer/standings/_/league/bra.1). En la otra es el hijo de una familia de agricultores que, en el norte de Mato Grosso, cultiva más de 3.900 hectáreas de soja y maíz. La prensa brasileña ha vuelto esta semana sobre esa segunda vida, y el retrato que sale no es el de un exfutbolista que invierte, sino el de alguien que vuelve a casa.
+
+## La Fazenda Dona Dozolina
+
+La finca se llama Fazenda Dona Dozolina y está en Santa Carmem, un municipio vecino de Sinop, en Mato Grosso. La familia Ceni, de origen paranaense, compró la tierra en los años ochenta y la convirtió en una explotación de grano. Hoy la administran el padre de Rogério, Eurydes, y su hermano mayor, Rudimar, [según Gazeta de São Paulo](https://www.gazetasp.com.br/cotidiano/aos-53-anos-ex-jogador-investe-no-agronegocio-e-transforma-fazenda-em-refugio-familiar-em-mt/). Alrededor del 70 % de la superficie se dedica al maíz, la finca pertenece a la asociación de productores de soja y maíz del estado y usa control biológico de plagas, [según el portal agrícola Boca](https://boca.com.br/agronegocio/familia-de-rogerio-ceni-administra-fazenda-produtiva-em-mt).
+
+El detalle que explica por qué la historia circula es otro: junto a los silos donde se guarda el grano hay un campo de fútbol de hierba con iluminación de estadio. Ceni pasa allí parte de sus vacaciones, hace barbacoas con su padre y sus hermanos y juega al voleibol.
+
+## Lo que contó en 2011
+
+La fuente original de casi todo lo que se publica ahora es una visita del portal deportivo ge a la finca en 2011, cuando Ceni todavía era portero del São Paulo. Entonces contó que aprendió a conducir tractores de niño y que seguía de cerca la siembra y la cosecha. Su frase de aquella visita, recogida por Gazeta de São Paulo, sigue siendo el titular quince años después: «Para quien vive entre edificios y tráfico, venir aquí es una terapia».
+
+## Por qué importa el nombre
+
+Ceni, nacido el 22 de enero de 1973, es el portero con más goles de la historia del fútbol según la IFFHS: 129, casi todos de falta y de penalti, en una carrera de 25 años con 1.237 partidos con el São Paulo, dos Copas Libertadores, el Mundial de Clubes de 2005 y un puesto en la plantilla de [Brasil](/selecciones/bra) campeona del mundo en 2002, [según su ficha en Wikipedia](https://en.wikipedia.org/wiki/Rog%C3%A9rio_Ceni). Lo que para la prensa del corazón brasileña es una curiosidad de celebridad, para un aficionado al fútbol es la casa de un récord que nadie ha igualado.
+
+La clasificación del Brasileirão y los partidos del Bahia están en la [página de la liga brasileña](/futbol/brasileirao).`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'Brasileirão', sport: 'futbol', slug: 'brasileirao' },
+    sourceName: 'Gazeta de São Paulo',
+    sourceUrl: 'https://www.gazetasp.com.br/cotidiano/aos-53-anos-ex-jogador-investe-no-agronegocio-e-transforma-fazenda-em-refugio-familiar-em-mt/',
+    sourceLang: 'pt',
+    publishedAt: '2026-11-02T09:44:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Boca: la familia de Rogério Ceni administra una finca productiva en MT', url: 'https://boca.com.br/agronegocio/familia-de-rogerio-ceni-administra-fazenda-produtiva-em-mt' },
+      { name: 'Wikipedia: Rogério Ceni', url: 'https://en.wikipedia.org/wiki/Rog%C3%A9rio_Ceni' },
+      { name: 'ESPN: clasificación del Brasileirão', url: 'https://www.espn.com/soccer/standings/_/league/bra.1' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Rogerio-Ceni-Sao-Paulo-Juventude-jun-2022.jpg/1280px-Rogerio-Ceni-Sao-Paulo-Juventude-jun-2022.jpg',
+      alt: 'Rogério Ceni, con chaqueta negra y camiseta del São Paulo, levanta el pulgar hacia la grada del Morumbi en junio de 2022',
+      credit: 'Soccer Digital · Wikimedia Commons',
+      license: 'Dominio público',
+    },
+  },
+  {
+    slug: 'martin-fiz-63-anos-ultimo-maraton-nueva-york-hijo-alex-mano-3-01-11-primera-vez-1996-gotemburgo-42-maratones',
+    title: 'Martín Fiz, 63 años, cruza su última meta de maratón de la mano de su hijo donde empezó hace 30 años',
+    summary: 'Martín Fiz corrió en Nueva York su maratón número 42 y el último, en 3:01:11 y de la mano de su hijo Álex, que debutaba. Lo que deja: Helsinki 1994, Gotemburgo 1995 y la mejor marca española allí.',
+    body: `Martín Fiz terminó el domingo el Maratón de Nueva York en 3 horas, 1 minuto y 11 segundos. No es un tiempo para su palmarés, y él es el primero en decirlo: «lo importante no era la lucha contra el crono, sino llegar juntos de la mano», [declaró a EFE nada más cruzar la meta](https://www.infobae.com/america/agencias/2026/11/01/martin-fiz-dice-adios-al-maraton-en-nueva-york-de-la-mano-de-su-hijo-tras-30-anos/). La mano era la de su hijo Álex, que debutaba en la distancia. Era el maratón número 42 de la vida de Fiz, y el último.
+
+## Por qué Nueva York
+
+El atleta vitoriano disputó en Nueva York su primer gran maratón comercial el 3 de noviembre de 1996, y en esa ciudad sigue teniendo la mejor marca española de la historia, 2:12:31, según EFE. Volver allí para despedirse, treinta años después y con la familia, era la forma de cerrar el círculo. Su mujer, Ana, viajó con ellos, y padre e hijo salieron con la idea de bajar de tres horas, [según contaba Gasteiz Hoy la víspera](https://www.gasteizhoy.com/ultima-maraton-martin-fiz/). Se les fue en las paradas para hacerse fotos con la familia. Les dio igual.
+
+Fiz explicó que han sido treinta años de matrimonio con el maratón y que, con la exigencia que se pone a sí mismo, ya no puede afrontar la prueba ni muscular ni mentalmente. No deja de correr: descarta el maratón, pero anuncia un nuevo reto en media maratón y 10 kilómetros, y bromea con volver a los 42 kilómetros a los 80 años.
+
+## La carrera que se cierra
+
+| Año | Qué pasó |
+| --- | --- |
+| 1994 | Campeón de Europa de maratón en Helsinki |
+| 1995 | Campeón del mundo en Gotemburgo |
+| 1996 | Cuarto en los Juegos de Atlanta y primer Nueva York, el 3 de noviembre |
+| 2001 | Deja la élite tras el maratón de Madrid |
+| 2015-2018 | Gana los seis grandes maratones del mundo en la categoría de 50 a 55 años, el primero en lograrlo |
+| 2026 | Maratón número 42 en Nueva York, 3:01:11, de la mano de su hijo |
+
+Los datos de la tabla salen de [EFE](https://www.infobae.com/america/agencias/2026/11/01/martin-fiz-dice-adios-al-maraton-en-nueva-york-de-la-mano-de-su-hijo-tras-30-anos/), de [Naiz](https://www.naiz.eus/en/info/noticia/20261101/martin-fiz-cierra-en-nueva-york-junto-a-su-hijo-un-circulo-de-enorme-carga-simbolica) y de [Gasteiz Hoy](https://www.gasteizhoy.com/ultima-maraton-martin-fiz/). Entre su mejor Nueva York y el último hay 48 minutos y 40 segundos, una cuenta que hace esta redacción y que resume treinta años en una sola cifra.
+
+## El día de Almgren
+
+La carrera la ganó el sueco Andreas Almgren, que debutaba en la distancia, con 2:06:01, y en mujeres la keniana Sheila Chepkirui recuperó la corona de Central Park con 2:23:36, según EFE. Fiz contó que las calles estaban abarrotadas y que había muchos españoles animando. Su hijo lo llamó indescriptible; él, mágico.
+
+Más relatos como este, en la sección de [historias](/historias), y el resto de la actualidad del deporte, en [noticias](/noticias).`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'Atletismo', sport: 'atletismo', slug: 'atletismo' },
+    sourceName: 'EFE (vía Infobae)',
+    sourceUrl: 'https://www.infobae.com/america/agencias/2026/11/01/martin-fiz-dice-adios-al-maraton-en-nueva-york-de-la-mano-de-su-hijo-tras-30-anos/',
+    sourceLang: 'es',
+    publishedAt: '2026-11-02T09:47:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Naiz: Fiz cierra en Nueva York un círculo de enorme carga simbólica', url: 'https://www.naiz.eus/en/info/noticia/20261101/martin-fiz-cierra-en-nueva-york-junto-a-su-hijo-un-circulo-de-enorme-carga-simbolica' },
+      { name: 'Gasteiz Hoy: el último baile maratoniano de Martín Fiz', url: 'https://www.gasteizhoy.com/ultima-maraton-martin-fiz/' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/R%C3%A9cord_del_mundo_de_Mart%C3%ADn_Fiz_ayudado_por_liebres_del_equipo_de_C%C3%A1rnicas_Serrano.jpg/1280px-R%C3%A9cord_del_mundo_de_Mart%C3%ADn_Fiz_ayudado_por_liebres_del_equipo_de_C%C3%A1rnicas_Serrano.jpg',
+      alt: 'Martín Fiz, con camiseta negra y el dorsal con su nombre, posa abrazado a tres corredores tras una carrera en Valencia en enero de 2019',
+      credit: 'Cárnicas Serrano · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
     slug: 'nba-resultados-2026-11-02',
     title: "NBA: resultados de la noche del 2 de noviembre",
     summary: "Resultados de los 2 partidos de la noche en la NBA, con el más igualado y el de más puntos.",
@@ -9763,18 +10006,16 @@ Cuatro de ellos juegan también la [Euroliga](/noticias/donde-ver-euroliga-2026-
 | [Movistar Plus+ con paquete Motor](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes) | Canales DAZN F1 y DAZN MotoGP | 20 €/mes, más el básico (14 €) y una tarifa miMovistar |
 | [Movistar Plus+ con Deportes Total](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes) | El motor, más NBA, ACB, Euroliga, NFL y Premier | 29 €/mes, con los mismos requisitos |
 
-Del 22 de octubre al 1 de noviembre, [DAZN tiene el plan Motor a 9,99 €/mes durante 12 meses](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome), justo para los grandes premios de Estados Unidos y México de F1 y los de Australia y Malasia de MotoGP. Las condiciones aparecen en el alta. Los paquetes de Movistar, con sus requisitos, están en la [página de motor de Movistar](https://www.movistar.es/tv/agenda-deportiva/calendario-formula-1-y-motogp).
+## MotoGP: Márquez tiene el primer «match point» en Catar
 
-## MotoGP: el título, a dos puntos
-
-El Mundial de MotoGP llega a sus cinco últimas carreras con dos españoles separados por dos puntos: **Jorge Martín** (Aprilia) lidera con 355 y **Marc Márquez** (Ducati) suma 353, según la [clasificación de DAZN](https://www.dazn.com/es-ES/news/motor/mundial-motogp-clasificacion-pilotos-campeonato-mundo/sfzeimhd9iv312z131kzc9u3d) tras Indonesia. Pedro Acosta es quinto y Raúl Fernández, séptimo. Lo contamos en [la pieza del duelo](/noticias/jorge-martin-lidera-mundial-motogp-una-victoria-marquez-seis).
+Marc Márquez (Ducati) ganó en Sepang el 1 de noviembre, con Pedro Acosta segundo y Álex Márquez tercero, y llega a Catar con 44 puntos de ventaja sobre Jorge Martín (Aprilia), que no corrió en Malasia por su fractura de muñeca, y 67 sobre Marco Bezzecchi, [según MotoGP.com](https://www.motogp.com/es/news/2026/11/01/masterclass-marc-marquez-marches-to-malaysia-victory-to-earn-2026-match-point/1179524). Después de Catar quedan dos grandes premios con 74 puntos en juego: si sale de Lusail con más de esa ventaja, es campeón allí. [Las cuentas, aquí](/noticias/marc-marquez-sepang-sprint-acosta-jorge-martin-baja-cuentas-titulo-motogp-qatar-valencia).
 
 Todos los grandes premios tienen carrera al sprint el sábado. Horas en España, ya con el horario de invierno:
 
 | Gran premio | Sprint (sábado) | Carrera (domingo) |
 | --- | --- | --- |
-| Australia, 23-25 de octubre | 24, 6:00 | 25, 4:00 |
-| Malasia, 30 de octubre-1 de noviembre | 31, 8:00 | 1, 8:00 |
+| Australia, 23-25 de octubre | Ganó Marc Márquez | Suspendida por la niebla ([por qué](/noticias/motogp-cancela-gran-premio-australia-helicoptero-medico-marquez-martin-mundial)) |
+| Malasia, 30 de octubre-1 de noviembre | Ganó Pedro Acosta | Ganó Marc Márquez |
 | Catar, 6-8 de noviembre | 7, 18:00 | 8, 18:00 |
 | Portugal, 20-22 de noviembre | 21, 16:00 | 22, 14:00 |
 | Valencia, 27-29 de noviembre | 28, 15:00 | 29, 14:00 |
@@ -9783,12 +10024,12 @@ Catar se aplazó de abril a noviembre y Portugal y Valencia se retrasaron una se
 
 ## Fórmula 1: lo que queda
 
-Quedan seis grandes premios, sin ninguna carrera al sprint. Kimi Antonelli (Mercedes) lidera con 340 puntos; Fernando Alonso (Aston Martin) es 17.º y Carlos Sainz (Williams), 18.º, con 7 puntos cada uno, según la [clasificación oficial](https://www.formula1.com/en/results/2026/drivers).
+Quedan cuatro grandes premios, sin ninguna carrera al sprint, y el título ya tiene dueño: Kimi Antonelli (Mercedes) [lo cerró en México con 20 años](/noticias/kimi-antonelli-campeon-mundo-f1-20-anos-mexico-record-vettel-alonso-2005-tres-anos-verstappen-gana). Fernando Alonso (Aston Martin) es 17.º y Carlos Sainz (Williams), 18.º, según la [clasificación de ESPN](https://www.espn.com/f1/standings).
 
 | Gran premio | Carrera, hora en España |
 | --- | --- |
-| Estados Unidos (Austin) | Domingo 25 de octubre, 21:00 |
-| México | Domingo 1 de noviembre, 21:00 |
+| Estados Unidos (Austin) | Disputado el 25 de octubre: ganó Antonelli |
+| México | Disputado el 1 de noviembre: ganó Verstappen y Antonelli se proclamó campeón |
 | Brasil | Domingo 8 de noviembre, 18:00 |
 | Las Vegas | Domingo 22 de noviembre, 5:00 |
 | Catar | Domingo 29 de noviembre, 17:00 |
@@ -9806,6 +10047,7 @@ Este año Mediaset dio en abierto la F1 de Barcelona y Madrid y el MotoGP de Jer
     sourceUrl: 'https://dazngroup.com/press-room/dazn-renova-os-direitos-de-transmissao-da-formula-1-em-portugal-e-espanha-ate-2030/',
     sourceLang: 'es',
     publishedAt: '2026-10-19T19:54:00+02:00',
+    modifiedAt: '2026-11-02T09:49:00+01:00',
     author: 'Redacción Mundiales',
     image: {
       url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/MotoGP_2026_Austria_Nr._89_Mart%C3%ADn_%281%29.jpg/1280px-MotoGP_2026_Austria_Nr._89_Mart%C3%ADn_%281%29.jpg',
@@ -9959,8 +10201,6 @@ Lo que cuenta HBO Max está en su [página de deportes](https://www.hbomax.com/e
 
 | Fecha | Velada |
 | --- | --- |
-| Sábado 24 de octubre | UFC 333, Volkanovski - Evloev, en Abu Dabi |
-| Sábado 31 de octubre | Fight Night en Las Vegas |
 | Sábado 7 de noviembre | Bonfim - Brady |
 | Sábado 14 de noviembre | UFC 334, en Nueva York |
 | Sábado 12 de diciembre | UFC 335, Oliveira - Lopes y Pavlovich - Pereira |
@@ -9969,7 +10209,7 @@ No hay españoles confirmados en estas carteleras. **Ilia Topuria** perdió cont
 
 ## Boxeo en DAZN
 
-La gran cita del otoño es **Canelo Álvarez contra Christian Mbilli**, el sábado 31 de octubre en Riad, en [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) como pago por evento, [según DAZN](https://www.dazn.com/en-US/news/boxing/canelo-alvarez-vs-christian-mbilli-how-to-watch-fight-time-ringwalks-prediction-undercard-news-odds/19uijwuynxykz1wt8mworc2iqq). La salida al ring del combate principal está prevista hacia las 21:30, hora peninsular, con la emisión de DAZN desde las 18:00 ([horarios completos](/noticias/canelo-mbilli-hora-espana-donde-ver-riad-titulo-cmb-supermediano)); el precio en euros aparece al comprarlo. Las veladas de los próximos meses, con su hora en España, están en la sección de [boxeo](/combate/boxeo).
+La gran cita del otoño ya se ha celebrado: **Canelo Álvarez venció a Christian Mbilli** por decisión unánime el sábado 31 de octubre en Riad y [recuperó el título supermediano del CMB](/noticias/canelo-alvarez-vence-mbilli-decision-unanime-riad-recupera-titulo-cmb-cuatro-cinco-peleas-mas). La velada se emitió en [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) como pago por evento, [según DAZN](https://www.dazn.com/en-US/news/boxing/canelo-alvarez-vs-christian-mbilli-how-to-watch-fight-time-ringwalks-prediction-undercard-news-odds/19uijwuynxykz1wt8mworc2iqq). La salida al ring del combate principal está prevista hacia las 21:30, hora peninsular, con la emisión de DAZN desde las 18:00 ([horarios completos](/noticias/canelo-mbilli-hora-espana-donde-ver-riad-titulo-cmb-supermediano)); el precio en euros aparece al comprarlo. Las veladas de los próximos meses, con su hora en España, están en la sección de [boxeo](/combate/boxeo).
 
 ## Para seguirlo todo
 
@@ -9981,7 +10221,7 @@ Las carteleras y resultados de cada velada están en la sección de la [UFC](/co
     sourceUrl: 'https://www.eurosport.es/mma/ufc/2026/calendario-peleas-veladas-2026-fechas-horarios-donde-como-ver-television-online-topuria_sto23253750/story.shtml',
     sourceLang: 'es',
     publishedAt: '2026-10-19T19:57:00+02:00',
-    modifiedAt: '2026-10-31T14:40:00+01:00',
+    modifiedAt: '2026-11-02T09:49:00+01:00',
     author: 'Redacción Mundiales',
     image: {
       url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Ilia_Topuria_at_the_Orbeliani_Palace.jpg/1280px-Ilia_Topuria_at_the_Orbeliani_Palace.jpg',
@@ -10526,7 +10766,6 @@ Los paquetes de Movistar se contratan con fibra y móvil: la tarifa más barata 
 
 **Ofertas vigentes de DAZN:**
 
-- [Motor, 9,99 €/mes durante 12 meses](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome), del 22 de octubre al 1 de noviembre.
 - [NFL Game Pass con un 25 % de descuento](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fnfl-game-pass), hasta el 15 de noviembre.
 
 ## Lo que se puede ver gratis
@@ -10545,7 +10784,7 @@ Cada día, el canal de cada partido está en la página de [partidos de hoy](/pa
     sourceUrl: 'https://www.ocu.org/tecnologia/internet-telefonia/noticias/donde-ver-futbol',
     sourceLang: 'es',
     publishedAt: '2026-10-19T19:35:00+02:00',
-    modifiedAt: '2026-10-26T12:55:00+01:00',
+    modifiedAt: '2026-11-02T09:49:00+01:00',
     author: 'Redacción Mundiales',
     image: {
       url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Camp_Nou_aerial_%28cropped%29.jpg/1280px-Camp_Nou_aerial_%28cropped%29.jpg',
