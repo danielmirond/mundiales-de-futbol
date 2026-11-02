@@ -65,7 +65,7 @@ export default async function SportPage({ params }: { params: Promise<{ locale: 
       <section className="mx-auto w-full max-w-[1400px] px-6 py-10 md:px-10">
         {kinds.map((k) => (
           <div key={k} className="mb-6">
-            <div className="mb-3 font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-fg-muted)]">{s.slug === 'tenis' || s.slug === 'golf' ? 'Circuitos' : s.slug === 'motor' ? 'Campeonatos' : s.slug === 'combate' ? 'Organizaciones' : KIND_LABEL[k]}</div>
+            <div className="mb-3 font-mono text-xs uppercase tracking-[0.3em] text-[var(--color-fg-muted)]">{s.slug === 'tenis' || s.slug === 'golf' || s.slug === 'padel' ? 'Circuitos' : s.slug === 'motor' ? 'Campeonatos' : s.slug === 'combate' ? 'Organizaciones' : KIND_LABEL[k]}</div>
             <div className="flex flex-wrap gap-2">
               {comps.filter((c) => c.kind === k).map((c) => {
                 const soon = !c.espn && !c.href && !c.stats;

@@ -260,7 +260,7 @@ function StickyBanner({ href }: { href: string }) {
       <div className="flex min-w-0 flex-1 flex-col gap-0 sm:flex-row sm:items-center sm:gap-3">
         <span className="truncate text-sm font-bold text-white">Fútbol y baloncesto en directo</span>
         <span className="hidden text-white/30 sm:inline">·</span>
-        <span className="truncate text-xs text-white/55">{COPY.matches} · {COPY.via}</span>
+        <span className="hidden truncate text-xs text-white/55 sm:inline">{COPY.matches} · {COPY.via}</span>
       </div>
       <a href={href} target="_blank" rel="sponsored nofollow noopener noreferrer" onClick={() => dismiss()}
         className="shrink-0 whitespace-nowrap rounded-full bg-white px-4 py-1.5 text-xs font-bold text-black transition-all hover:bg-white/90 active:scale-95">
