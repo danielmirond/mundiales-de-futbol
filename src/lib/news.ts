@@ -154,6 +154,272 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'atletico-bayern-villarreal-psg-barca-aston-villa-martes-3-noviembre-champions-horarios-donde-ver-jodar-ruud',
+    title: 'Atlético - Bayern y Villarreal - PSG a la hora del Barça: horarios del martes de Champions y dónde ver',
+    summary: 'Tres equipos españoles juegan el martes a las 21:00 en la Champions: Atlético - Bayern, Villarreal - PSG y Barça - Aston Villa. Antes, Jódar - Ruud en París. Horarios, canales y hora de Canarias.',
+    body: `El martes 3 de noviembre la Champions junta a tres equipos españoles a la misma hora. A las 21:00 (20:00 en Canarias) se juegan el Atlético - Bayern en el Metropolitano, el Villarreal - PSG en La Cerámica y el Barça - Aston Villa en el Camp Nou, [según el calendario de la cuarta jornada de la fase liga](https://www.uefa.com/uefachampionsleague/fixtures-results/). Antes, a las 18:45, abren el Galatasaray - Stuttgart y el Shakhtar - Sporting. Todos van por Movistar Plus+; el dial de cada partido está en su ficha y en la tabla de abajo.
+
+Por la tarde hay tenis con español. Rafael Jódar juega la segunda ronda del Masters 1000 de París contra Casper Ruud a partir de las 18:30, [según el orden de juego del torneo](https://www.atptour.com/en/scores/current/paris/352/daily-schedule), después de [ganar el lunes a Tabilo](/noticias/rafael-jodar-gana-tabilo-paris-masters-ruud-segunda-ronda-martes-carrera-turin-tiafoe-de-minaur). Más temprano, Alejandro Davidovich Fokina debuta ante el francés Moïse Kouamé.
+
+## Horarios del martes y dónde ver
+
+| Peninsular | Canarias | Partido | Sede | Canal |
+| --- | --- | --- | --- | --- |
+| 12:30 (aprox.) | 11:30 | Kouamé - Davidovich Fokina (París, 1.ª ronda) | La Défense Arena | Movistar Plus+ |
+| 18:30 | 17:30 | Jódar - Ruud (París, 2.ª ronda) | La Défense Arena | Movistar Plus+ |
+| 18:45 | 17:45 | [Galatasaray - Stuttgart](/futbol/champions-league/partido/401915311) | RAMS Park, Estambul | M+ Liga de Campeones 3 |
+| 18:45 | 17:45 | [Shakhtar - Sporting](/futbol/champions-league/partido/401915310) | Stamford Bridge | M+ Liga de Campeones 2 |
+| 21:00 | 20:00 | [Atlético - Bayern](/futbol/champions-league/partido/401915386) | Metropolitano, Madrid | M+ Liga de Campeones |
+| 21:00 | 20:00 | [Villarreal - PSG](/futbol/champions-league/partido/401915309) | La Cerámica, Villarreal | Movistar Plus+ (dial por confirmar) |
+| 21:00 | 20:00 | [Barça - Aston Villa](/futbol/champions-league/partido/401915387) | Camp Nou, Barcelona | M+ Liga de Campeones 2 |
+| 21:00 | 20:00 | [Manchester United - Roma](/futbol/champions-league/partido/401915308) | Old Trafford | M+ Liga de Campeones 8 |
+| 21:00 | 20:00 | [LASK - Slovan Bratislava](/futbol/champions-league/partido/401915385) | Raiffeisen Arena, Linz | M+ Liga de Campeones 7 |
+| 21:00 | 20:00 | [Feyenoord - Inter](/futbol/champions-league/partido/401915307) | De Kuip, Róterdam | Movistar Plus+ (dial por confirmar) |
+| 21:00 | 20:00 | [Bodø/Glimt - Lille](/futbol/champions-league/partido/401915384) | Aspmyra, Bodø | Movistar Plus+ (dial por confirmar) |
+
+Las horas del tenis son orientativas. Para saber [qué plataforma emite cada competición y cuánto cuesta](/noticias/donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1), y en concreto [cómo se ve la Champions esta temporada](/noticias/donde-ver-champions-league-2026-27-espana-movistar-precios-final-metropolitano), tenemos las dos guías al día. El tenis va por [la guía de Movistar Plus+ y HBO Max](/noticias/donde-ver-tenis-espana-atp-finals-copa-davis-alcaraz-movistar-hbo-max).
+
+## Cómo llegan los tres españoles
+
+Tras tres jornadas, [la clasificación de la fase liga](https://www.espn.com/soccer/standings/_/league/uefa.champions) deja al PSG primero con nueve puntos y al Aston Villa segundo, también con pleno. El Barça es octavo con seis, en el último puesto que da acceso directo a octavos. El Bayern llega decimocuarto con cinco (una victoria y dos empates), el Atlético decimosexto con cuatro (una victoria, un empate y una derrota) y el Villarreal decimonoveno con tres, después de una victoria y dos derrotas.
+
+| Equipo | Puesto | Puntos | Balance |
+| --- | --- | --- | --- |
+| PSG | 1.º | 9 | 3-0-0 |
+| Aston Villa | 2.º | 9 | 3-0-0 |
+| Barcelona | 8.º | 6 | 2-0-1 |
+| Bayern | 14.º | 5 | 1-2-0 |
+| Atlético | 16.º | 4 | 1-1-1 |
+| Villarreal | 19.º | 3 | 1-0-2 |
+
+Lo que se juega cada uno: el Atlético, ganar al Bayern para entrar entre los ocho primeros; el Villarreal, sumar ante el líder para no descolgarse de la repesca; el Barça, defender su plaza directa ante el segundo. La previa del partido del Camp Nou, con onces y antecedentes, está en [Barcelona - Aston Villa: horario, dónde ver y cómo llegan](/noticias/previa-barcelona-aston-villa-401915387), y toda la competición, en [la sección de la Champions](/futbol/champions-league).
+
+## Y el miércoles
+
+La jornada sigue el miércoles 4 con el [AEK - Real Madrid](/futbol/champions-league/partido/401915383) en Atenas a las 18:45 (17:45 en Canarias) y el [Borussia Dortmund - Betis](/futbol/champions-league/partido/401915304) a las 21:00 en el Signal Iduna Park, los dos en Movistar Plus+. En París debutan ese día Carlos Alcaraz, Alex de Miñaur, Frances Tiafoe y Alexander Zverev, los cabezas de serie que no juegan primera ronda.`,
+    category: 'tv',
+    kind: 'noticia',
+    competition: { name: 'Champions League', sport: 'futbol', slug: 'champions-league' },
+    sourceName: 'UEFA',
+    sourceUrl: 'https://www.uefa.com/uefachampionsleague/fixtures-results/',
+    sourceLang: 'en',
+    publishedAt: '2026-11-02T16:20:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'ESPN: clasificación de la Champions', url: 'https://www.espn.com/soccer/standings/_/league/uefa.champions' },
+      { name: 'ATP: orden de juego del Masters de París', url: 'https://www.atptour.com/en/scores/current/paris/352/daily-schedule' },
+    ],
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Madrid_-_Estadio_Wanda_Metropolitano_07.jpg/1280px-Madrid_-_Estadio_Wanda_Metropolitano_07.jpg',
+      alt: 'Exterior del estadio Metropolitano de Madrid, con la cubierta roja sobre la fachada',
+      credit: 'Zarateman · Wikimedia Commons',
+      license: 'CC0',
+    },
+  },
+  {
+    slug: 'rafael-jodar-gana-tabilo-paris-masters-ruud-segunda-ronda-martes-carrera-turin-tiafoe-de-minaur',
+    title: 'Rafael Jódar vence a Tabilo en París y se cita con Ruud el martes con la plaza de Turín en juego',
+    summary: 'Rafael Jódar superó a Tabilo por 6-2 y 6-3 en la primera ronda del Masters 1000 de París y jugará contra Casper Ruud el martes a partir de las 18:30. Qué se juega en la carrera a las ATP Finals.',
+    body: `Rafael Jódar ya está en la segunda ronda del Masters 1000 de París. Ganó el lunes a Alejandro Tabilo por 6-2 y 6-3, según el acta del partido, en el segundo turno de la pista central, y el martes se mide a Casper Ruud, que [eliminó a Juan Manuel Cerúndolo por 6-3 y 6-2](https://www.atptour.com/en/scores/current/paris/352/results).
+
+Es la quinta vez que el español y el chileno se cruzan este año y la cuarta que gana Jódar. Tabilo se llevó el primero, en Indian Wells; después cayeron de su lado Washington, Cincinnati, Basilea hace una semana (6-4 y 6-2) y ahora París, como [contábamos en la previa del lunes](/noticias/deportivo-osasuna-riazor-jodar-tabilo-paris-turin-lunes-2-noviembre-horarios-donde-ver).
+
+| Torneo (2026) | Ganador | Resultado |
+| --- | --- | --- |
+| Indian Wells | Tabilo | — |
+| Washington | Jódar | — |
+| Cincinnati | Jódar | — |
+| Basilea | Jódar | 6-4, 6-2 |
+| París | Jódar | 6-2, 6-3 |
+
+## Ruud, el martes a partir de las 18:30
+
+El Jódar - Ruud está programado el martes 3 de noviembre a partir de las 18:30 (17:30 en Canarias), [según el orden de juego publicado por el torneo](https://www.atptour.com/en/scores/current/paris/352/daily-schedule). En España se ve en Movistar Plus+, como el resto del cuadro; las opciones para seguir el tenis esta temporada están en [la guía de dónde ver tenis](/noticias/donde-ver-tenis-espana-atp-finals-copa-davis-alcaraz-movistar-hbo-max) y el resto del circuito, en [la sección de la ATP](/tenis/atp).
+
+## Lo que se juega: la carrera a Turín
+
+Jódar llegó a París noveno en la [carrera a las ATP Finals](https://www.atptour.com/en/rankings/singles-race-to-turin), con Frances Tiafoe octavo por delante y Alex de Miñaur décimo, a unos pocos puntos, justo detrás. El noveno puesto importa porque Jannik Sinner, clasificado, [anunció en octubre que no volverá a jugar hasta 2027](https://www.emol.com/noticias/Deportes/2026/10/12/1213922/alexander-zverev-numero-uno-2026.html) por problemas físicos: si no viaja a Turín, entra el siguiente. Por qué ese noveno puesto puede valer una plaza lo explicamos [tras la final de Shanghái](/noticias/rafael-jodar-ultima-plaza-turin-atp-finals-quien-puede-quitarsela-basilea-viena-paris).
+
+La victoria ante Tabilo suma los puntos de primera ronda, y cada ronda más en París pesa en esa cuenta. Tiafoe y De Miñaur, cabezas de serie, están exentos de la primera ronda y no debutan hasta el miércoles, el mismo día que Carlos Alcaraz. Es decir: el martes por la noche Jódar sabrá si ha ampliado la ventaja sobre el australiano antes de que este juegue un solo punto.
+
+## Quién es Jódar
+
+Es la segunda raqueta española. Alcanzó el puesto 11 del ranking el 10 de agosto, su mejor clasificación, y lidera la carrera de los jóvenes de la ATP con una de las temporadas más consistentes que se recuerdan en esa clasificación. En París es el noveno cabeza de serie, con lo que ha jugado primera ronda; los ocho primeros empezaron exentos.
+
+Este curso ha sido cuartofinalista en Roland Garros, donde le frenó Alexander Zverev, y finalista en Shanghái. En Basilea, la semana pasada, cayó en la ronda siguiente ante Valentin Vacherot después de ganar a Tabilo. La de París contra Ruud decide si la semana acaba el martes o sigue hacia los octavos.`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'ATP', sport: 'tenis', slug: 'atp' },
+    sourceName: 'ATP Tour',
+    sourceUrl: 'https://www.atptour.com/en/scores/current/paris/352/results',
+    sourceLang: 'en',
+    publishedAt: '2026-11-02T16:22:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'ESPN: marcador del Masters de París', url: 'https://www.espn.com/tennis/scoreboard' },
+      { name: 'ATP: carrera a Turín', url: 'https://www.atptour.com/en/rankings/singles-race-to-turin' },
+      { name: 'Wikipedia: Rafael Jódar', url: 'https://en.wikipedia.org/wiki/Rafael_J%C3%B3dar' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Rafael_J%C3%B3dar_at_the_Swiss_Indoors_Basel_2026_media_conference._DSC00031.jpg/1280px-Rafael_J%C3%B3dar_at_the_Swiss_Indoors_Basel_2026_media_conference._DSC00031.jpg',
+      alt: 'Rafael Jódar, con chaqueta blanca, atiende a los medios ante un micrófono de la ATP en la rueda de prensa del torneo de Basilea de 2026',
+      credit: 'Skyscraper2010 · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'iribar-kortabarria-ikurrina-atotxa-san-mames-derbi-1976-ventana-vestuario-bolsa-esponjas-cincuenta-anos',
+    title: 'Iribar y Kortabarria devuelven a San Mamés la ikurriña que entró en Atotxa por la ventana del vestuario',
+    summary: 'Los capitanes del derbi de 1976 repitieron el domingo en San Mamés el gesto de Atotxa con la misma ikurriña. Cómo llegó al campo una bandera aún prohibida, escondida en una bolsa de esponjas.',
+    body: `El domingo, antes del Athletic - Real Sociedad, dos hombres de 83 y 76 años cruzaron un pasillo de futbolistas en San Mamés con una ikurriña entre las manos. Eran José Ángel Iribar e Inaxio Kortabarria. Sobre el césped, en un soporte y enmarcada, esperaba la bandera original que los dos llevaron en Atotxa el 5 de diciembre de 1976, [según contó Bilbaohiria](https://bilbaohiria.com/deportes/iribar-kortabarria-ikurrina-derbi-athletic-real-sociedad-san-mames/). Las dos aficiones respondieron con una ovación cerrada y los jugadores de ambos equipos posaron con ellos antes del saque inicial.
+
+El acto lo habían anunciado los dos clubes el 30 de octubre, [en una nota conjunta](https://www.realsociedad.eus/es/noticias/detalle/la-ikurrina-de-atotxa-en-san-mames) que pedía a la gente entrar pronto al estadio para no perdérselo. Después, [el Athletic ganó 2-1](/noticias/cronica-athletic-real-sociedad-401882826). Pero lo que se recordará de la tarde pasó antes del partido.
+
+## Lo que pasó en Atotxa
+
+Franco llevaba poco más de un año muerto y la ikurriña seguía prohibida. La idea nació en el vestuario de la Real Sociedad, [según la historia que publica el propio Athletic](https://sanmames.athletic-club.eus/en/blog/ikurrina-derby-1976-san-mames/): Josean de la Hoz Uranga, jugador txuri-urdin, se la encargó a su hermana, que la cosió en casa, en Getaria. El día del partido De la Hoz sorteó un control de la Guardia Civil en la carretera y, ya en Atotxa, metió la bandera por una ventana que daba a los vestuarios.
+
+Hasta el momento de saltar al campo estuvo guardada en la bolsa de los masajistas, entre las esponjas y el agua. Los dos equipos salieron del túnel en una sola fila, algo que no se hacía, y De la Hoz bajó desde la grada a entregar la bandera a los dos capitanes. Iribar, el portero del Athletic, y Kortabarria, el defensa de la Real, la desplegaron, la cogieron cada uno por un extremo y la llevaron juntos hasta el círculo central. La ikurriña fue legalizada en enero de 1977, unas semanas después.
+
+## Medio siglo en seis fechas
+
+| Fecha | Qué pasó |
+| --- | --- |
+| 5 de diciembre de 1976 | Real Sociedad - Athletic en Atotxa. Iribar y Kortabarria sacan la ikurriña, todavía prohibida |
+| Enero de 1977 | Legalización de la bandera |
+| Junio de 2026 | Los dos vuelven a levantarla en San Mamés, sobre el escenario del concierto de Zetak (Mitoaroa III) |
+| 30 de octubre de 2026 | Athletic y Real Sociedad anuncian que recrearán la imagen en el derbi |
+| 1 de noviembre de 2026 | San Mamés: pasillo de jugadores, bandera enmarcada y ovación. Gana el Athletic 2-1 |
+| 5 de diciembre de 2026 | Cincuenta años exactos del gesto |
+
+El homenaje se adelantó 34 días a la fecha redonda: el derbi de San Mamés caía antes y los clubes lo ligaron al partido, con las dos aficiones en la grada. Jon Uriarte, presidente del Athletic, lo resumió en DAZN con una frase [que recogió Deia](https://www.deia.eus/athletic/2026/11/01/ikurrina-iribar-kortabarria-medio-siglo-11713487.html): «Queríamos hacer un guiño a algo que nos une a todos».
+
+## Dos capitanes que ya no juegan
+
+Iribar, de Zarautz, fue el portero del Athletic durante casi dos décadas y sigue ligado al club; su estatua está a la puerta de San Mamés. Kortabarria fue el capitán de la Real que cerraba la defensa en aquellos años. En la foto de 1976 son dos futbolistas en activo con el riesgo de una sanción encima. En la de 2026 son dos hombres mayores que vuelven a coger la misma tela por los mismos extremos, con la bandera de entonces convertida en pieza de museo detrás de ellos.
+
+Quien estuvo en Atotxa aquel día tiene hoy más de sesenta años. Para los que no habían nacido, la imagen llegó en blanco y negro, en el libro de historia del club o en casa. Lo de este domingo era para los dos. Athletic y Real Sociedad siguen en [LaLiga](/futbol/laliga); la ficha de cada uno está en [la del Athletic](/futbol/laliga/equipo/93) y [la de la Real](/futbol/laliga/equipo/89).`,
+    category: 'historica',
+    kind: 'noticia',
+    competition: { name: 'LaLiga', sport: 'futbol', slug: 'laliga' },
+    sourceName: 'Real Sociedad (nota conjunta con el Athletic)',
+    sourceUrl: 'https://www.realsociedad.eus/es/noticias/detalle/la-ikurrina-de-atotxa-en-san-mames',
+    sourceLang: 'es',
+    publishedAt: '2026-11-02T16:24:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Athletic Club: la ikurriña del derbi de 1976 (blog de San Mamés)', url: 'https://sanmames.athletic-club.eus/en/blog/ikurrina-derby-1976-san-mames/' },
+      { name: 'Bilbaohiria: Iribar y Kortabarria devuelven la ikurriña de Atotxa al derbi', url: 'https://bilbaohiria.com/deportes/iribar-kortabarria-ikurrina-derbi-athletic-real-sociedad-san-mames/' },
+      { name: 'Deia: la ikurriña de Iribar y Kortabarria, medio siglo de Atotxa a San Mamés', url: 'https://www.deia.eus/athletic/2026/11/01/ikurrina-iribar-kortabarria-medio-siglo-11713487.html' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Jos%C3%A9_%C3%81ngel_Iribar_en_agosto_de_2009.jpg/1280px-Jos%C3%A9_%C3%81ngel_Iribar_en_agosto_de_2009.jpg',
+      alt: 'José Ángel Iribar, con polo negro y el pelo cano, entre el público de un acto al aire libre en agosto de 2009',
+      credit: 'UKBERRI.NET · Wikimedia Commons',
+      license: 'CC BY 2.0',
+    },
+  },
+  {
+    slug: 'pauline-ferrand-prevot-perdi-alegria-vivir-tour-2026-abandono-boda-van-baarle-atropello-vuelve-entrenar',
+    title: 'Pauline Ferrand-Prévot vuelve a la bici y explica por qué dejó de disfrutar después de ganar el Tour',
+    summary: 'La ganadora del Tour de 2025 abandonó el de 2026 por enfermedad y paró tres meses. Una semana después de casarse con Van Baarle anuncia que vuelve a entrenar y cuenta por qué perdió la alegría.',
+    body: `Pauline Ferrand-Prévot ha vuelto a hablar tres meses después de bajarse del Tour de Francia. Lo hizo en una publicación en sus redes el 31 de octubre, con fotos de su boda, en la que da por terminada lo que llama su «larga intertemporada» y explica qué le pasó este año, [según recogió Ouest-France](https://www.ouest-france.fr/sport/cyclisme/jai-perdu-la-joie-de-vivre-au-quotidien-pauline-ferrand-prevot-se-livre-sur-son-annee-2026-complexe-2deb2d28-d5cd-11f1-84f3-5611f158a658). La frase que resume el mensaje: «Estaba tan concentrada en volver a ganar el Tour que perdí la alegría de vivir el día a día».
+
+La francesa, campeona olímpica de bicicleta de montaña en París 2024 y ganadora de la París-Roubaix y del Tour en 2025, llegó a la edición de 2026 como defensora del título y la dejó antes de la octava etapa por enfermedad, [según el relato de la carrera](https://en.wikipedia.org/wiki/2026_Tour_de_France_Femmes), cuando ya estaba a más de diez minutos del liderato. No volvió a competir.
+
+## Un año que no era el que esperaba
+
+El curso había empezado bien, con el segundo puesto en el Tour de Flandes y el tercero en la Roubaix, y se torció en las grandes vueltas: 35.ª en la Vuelta Femenina y abandono en el Tour, [como repasa Cycling Weekly](https://www.cyclingweekly.com/racing/im-sure-i-will-come-back-stronger-pauline-ferrand-prevot-searching-for-joy-on-bike-after-nothing-at-tour-de-france-femmes). Ella misma lo explica: había pasado por malos momentos en su carrera, pero nunca por el de hacerlo todo bien y acabar sin nada. Dice que esa es una de las razones de los meses de «no entender» que vinieron después.
+
+| Temporada | Lo que ganó o lo que pasó |
+| --- | --- |
+| 2024 | Oro olímpico en bicicleta de montaña en París |
+| 2025 | Vuelve a la carretera a tiempo completo: gana la París-Roubaix y el Tour de Francia |
+| 2026 | 2.ª en Flandes, 3.ª en Roubaix, 35.ª en la Vuelta y abandono en el Tour antes de la octava etapa |
+| Octubre de 2026 | Atropello de Dylan van Baarle el día 7, boda el 25 y anuncio de la vuelta a los entrenamientos el 31 |
+
+## Lo que cambió el accidente de Dylan
+
+El 7 de octubre, a pocos días de la boda, su pareja, el neerlandés Dylan van Baarle, fue atropellado por un coche mientras entrenaba en Tiel y acabó la temporada con la muñeca operada, [según el parte de su equipo que publicó Cyclingnews](https://www.cyclingnews.com/pro-cycling/teams-riders/the-helmet-definitely-saved-his-life-says-pauline-ferrand-prevot-as-dylan-van-baarle-has-season-ended-by-traffic-accident-involving-a-car/). Se casaron el 25 de octubre, [como contamos entonces](/noticias/pauline-ferrand-prevot-se-casa-van-baarle-dos-semanas-atropello-muneca-paris-roubaix).
+
+Lo nuevo es lo que dice ahora de aquellas semanas. Ver a la persona que más quiere pasar por algo tan doloroso le sirvió, escribe, para poner las cosas en perspectiva: la vida no se reduce a ganar carreras. Y cuenta que había sido feliz ganando los Juegos, el Tour o la Roubaix, pero que casarse con la gente que más quiere delante fue otro nivel de alegría. Firma la publicación como Pauline van Baarle.
+
+## Cómo quiere volver
+
+Avisa de que está «completamente fuera de forma» y de que el camino hasta recuperar el nivel será largo. Lo que se marca primero no es un resultado, sino volver a disfrutar encima de la bici. No pone fecha ni objetivo de carrera.
+
+Para el aficionado español el nombre no es lejano: en 2026 la lista de favoritas al Tour la encabezaban ella, Demi Vollering y la española Paula Blasi, [según la previa de la carrera](https://en.wikipedia.org/wiki/2026_Tour_de_France_Femmes). De la misma temporada, y también sobre lo que pesa un maillot, está [lo que Enric Mas escondió bajo el rojo de la Vuelta](/noticias/enric-mas-miedo-maillot-rojo-vuelta-2026-psicologo-pogacar-bartolo-vatios-gcn).`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'Ciclismo', sport: 'ciclismo', slug: 'ciclismo' },
+    sourceName: 'Ouest-France',
+    sourceUrl: 'https://www.ouest-france.fr/sport/cyclisme/jai-perdu-la-joie-de-vivre-au-quotidien-pauline-ferrand-prevot-se-livre-sur-son-annee-2026-complexe-2deb2d28-d5cd-11f1-84f3-5611f158a658',
+    sourceLang: 'fr',
+    publishedAt: '2026-11-02T16:26:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Cycling Weekly: Ferrand-Prévot busca la alegría en la bici', url: 'https://www.cyclingweekly.com/racing/im-sure-i-will-come-back-stronger-pauline-ferrand-prevot-searching-for-joy-on-bike-after-nothing-at-tour-de-france-femmes' },
+      { name: 'Cyclingnews: el atropello de Dylan van Baarle', url: 'https://www.cyclingnews.com/pro-cycling/teams-riders/the-helmet-definitely-saved-his-life-says-pauline-ferrand-prevot-as-dylan-van-baarle-has-season-ended-by-traffic-accident-involving-a-car/' },
+      { name: 'Wikipedia: Tour de France Femmes 2026', url: 'https://en.wikipedia.org/wiki/2026_Tour_de_France_Femmes' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/8e_%C3%A9tape_Tour_de_France_Femmes_2025_-_Pr%C3%A9sentations_-_Pauline_Ferrand-Pr%C3%A9vot_2.JPG/1280px-8e_%C3%A9tape_Tour_de_France_Femmes_2025_-_Pr%C3%A9sentations_-_Pauline_Ferrand-Pr%C3%A9vot_2.JPG',
+      alt: 'Pauline Ferrand-Prévot sonríe con casco y gafas amarillas en la presentación de equipos de la octava etapa del Tour de Francia Femenino de 2025 en Chambéry',
+      credit: 'Florian Pépellin · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'paula-leiton-waterpolo-mejor-liga-mundo-clubes-no-pagan-barceloneta-gasol-foundation-entrevista-ara',
+    title: 'Paula Leitón debutó en Primera con doce años y cuenta lo que la mejor liga del mundo todavía no paga',
+    summary: 'La campeona olímpica repasa en Ara su debut con doce años, la camiseta de Mickey Mouse de su primera convocatoria y por qué muchas jugadoras de la mejor liga del mundo cobran poco o nada.',
+    body: `Paula Leitón pasea por la mañana por el CN Atlètic-Barceloneta y los socios jubilados la saludan por su nombre. Así arranca [la entrevista que publica el diario Ara](https://www.ara.cat/esports/jocs-olimpics/hi-gent-gran-em-diu-ara-pot-posar-nom-patiment_128_5893746.html), en la que la campeona olímpica de waterpolo habla menos de su cuerpo, el tema que la hizo conocida fuera de la piscina en 2024, y más de lo que sostiene su deporte: dinero, horarios y una liga que presume de ser la mejor.
+
+Su frase sobre la Liga española, traducida del catalán: «Somos la mejor liga del mundo, todas las grandes jugadoras quieren venir aquí a jugar, pero todavía nos queda tanto por hacer». Lo que queda, según ella, es básico. Muchos clubes no pueden ofrecer doble sesión de entrenamiento, pagan poco o directamente no pagan, y el suyo no es un deporte profesional ni se emite por televisión. Desde pequeña vio a todas sus compañeras entrenar muchas horas, viajar con la selección y, a la vez, estudiar una carrera, porque todas le avisaban de que al acabar no tendría casi nada.
+
+## Debut a los doce, selección a los catorce
+
+Leitón (Terrassa, 2000) debutó en Primera con el CN Terrassa a los doce años. Su cuerpo estaba listo, cuenta, porque siempre fue grande, pero no estaba preparada para la presión ni para la frustración de jugar contra las mejores y no entender por qué a ellas les salía y a ella no. En 2012 vio por televisión a la selección ganar una medalla en los Juegos; dos años después entrenaba con ellas. Llegó a su primera convocatoria con catorce años, 1,83 metros y una camiseta de Mickey Mouse, y las veteranas la adoptaron como a un bebé. Todavía se lo recuerdan.
+
+| Año | Qué pasó |
+| --- | --- |
+| 2012-13 | Debut en Primera con el CN Terrassa a los doce años |
+| 2014 | Primera convocatoria con la selección absoluta, con catorce |
+| 2016 | Juegos de Río, con dieciséis |
+| 2021 | Plata olímpica en Tokio |
+| 2024 | Oro olímpico en París |
+| 2025 | Ficha por el CN Atlètic-Barceloneta |
+
+Los tres Juegos y las dos medallas constan en [su ficha de Olympedia](https://www.olympedia.org/athletes/130013). El cambio de club lo contó el propio Ara en septiembre: el Barceloneta, que lleva más de dos décadas mandando en la liga masculina, [quiere hacer lo mismo en la femenina](https://es.ara.cat/deportes/juegos-olimpicos/ambicioso-plan-barceloneta-reinar-europa_1_5864154.html) y fichó a Leitón y a las hermanas Elena y Ariadna Ruiz, las tres con una Champions en el palmarés. El equipo fue finalista de la EuroCup y este curso vuelve a jugarla; si la gana, entra en la Champions por primera vez.
+
+## Las charlas, la fundación y la familia
+
+Leitón cuenta que acaba de convertirse en embajadora de la fundación de los hermanos Gasol. La relación nació en un torneo benéfico de golf en La Línea al que la invitaron, donde habló con Pau por primera vez con calma, en junio de este año. Desde agosto de 2025 es también [embajadora de Iberdrola](https://www.iberdrolaespana.com/press-room/news/paula-leiton-embajadora-iberdrola). Da charlas en colegios y en empresas sobre hábitos, salud mental y alimentación, y dice que lo que más le llena son los niños, porque preguntan sin filtro.
+
+De su familia habla como de lo más importante que tiene: la llevaban de un partido a otro con el albornoz y el bañador puestos en el coche porque no había tiempo de cambiarse, y hoy todavía les pide que vayan a verla. Cuando levanta la cabeza en la piscina y no están, se enfada un poco. El libro en el que contó su infancia sin adolescencia se titula «XXL».
+
+La entrevista está publicada en catalán. Otra deportista española que ha hablado este fin de semana de lo que no se ve de su deporte es [Sandra Sánchez, en kárate](/noticias/sandra-sanchez-45-anos-karateka-pelicula-libro-vuelve-competir-japon-2027-invisibilidad-kintsugi); el resto de piezas de la redacción está en [la portada de noticias](/noticias).`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'Waterpolo', sport: 'waterpolo', slug: 'waterpolo' },
+    sourceName: 'Ara',
+    sourceUrl: 'https://www.ara.cat/esports/jocs-olimpics/hi-gent-gran-em-diu-ara-pot-posar-nom-patiment_128_5893746.html',
+    sourceLang: 'es',
+    publishedAt: '2026-11-02T16:27:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Olympedia: Paula Leitón', url: 'https://www.olympedia.org/athletes/130013' },
+      { name: 'Ara: el plan del Barceloneta para reinar en Europa', url: 'https://es.ara.cat/deportes/juegos-olimpicos/ambicioso-plan-barceloneta-reinar-europa_1_5864154.html' },
+      { name: 'Iberdrola: Paula Leitón, embajadora', url: 'https://www.iberdrolaespana.com/press-room/news/paula-leiton-embajadora-iberdrola' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Spain_vs_Australia_Summer_Olympics_women%27s_water_polo_gold_medal_match%2C_2024-08-10_-_5.jpg/1280px-Spain_vs_Australia_Summer_Olympics_women%27s_water_polo_gold_medal_match%2C_2024-08-10_-_5.jpg',
+      alt: 'Vista desde la grada del Paris La Défense Arena durante la ceremonia de medallas del waterpolo femenino de París 2024, con las selecciones alineadas junto a la piscina',
+      credit: 'DarDarCH · Wikimedia Commons',
+      license: 'CC0',
+    },
+  },
+  {
     slug: 'tomas-jofresa-euroliga-1994-joventut-suplente-llore-muchas-horas-padre-tel-aviv-cafe-con-b',
     title: 'Tomás Jofresa ganó una Euroliga con el Joventut y aún recuerda las horas que lloró por ser suplente',
     summary: 'Campeón de Europa en Tel Aviv en 1994, olímpico en Barcelona 92 y doble campeón de la ACB, Tomás Jofresa cuenta en un pódcast que vivió casi toda su carrera desde el banquillo y cuánto le dolió.',
