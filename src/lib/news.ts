@@ -10531,7 +10531,7 @@ Quedan cuatro grandes premios, cada uno con sprint y carrera, 37 puntos en juego
 
 *Esta pieza incluye un enlace de afiliado. Si contratas desde él, Mundiales recibe una comisión sin coste extra para ti. No cambia lo que contamos.*
 
-MotoGP se ve en España en DAZN, que hasta el 1 de noviembre tiene [el plan Motor a 9,99 €/mes durante 12 meses](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome), justo para el fin de semana de Sepang. Más opciones en [dónde ver la F1 y MotoGP](/noticias/donde-ver-f1-motogp-espana-2026-dazn-precios-carreras-que-quedan), y la clasificación completa y el calendario, en la [sección de MotoGP](/motor/motogp).`,
+MotoGP se ve en España en DAZN, que a 2 de noviembre [anuncia el plan Motor desde 19,99 €/mes](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome). Más opciones en [dónde ver la F1 y MotoGP](/noticias/donde-ver-f1-motogp-espana-2026-dazn-precios-carreras-que-quedan), y la clasificación completa y el calendario, en la [sección de MotoGP](/motor/motogp).`,
     category: 'general',
     competition: { name: 'MotoGP', sport: 'motor', slug: 'motogp' },
     sourceName: 'MotoGP',
@@ -10539,6 +10539,7 @@ MotoGP se ve en España en DAZN, que hasta el 1 de noviembre tiene [el plan Moto
     sourceLang: 'en',
     sourcesSecondary: [{ name: 'Crash.net', url: 'https://www.crash.net/motogp/news/1108385/1/bad-weather-cancels-australian-motogp' }],
     publishedAt: '2026-10-25T11:37:00+01:00',
+    modifiedAt: '2026-11-02T11:09:00+01:00',
     author: 'Redacción Mundiales de Fútbol',
     image: {
       url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Phillip_Island_Aerial_View.jpg/1280px-Phillip_Island_Aerial_View.jpg',
@@ -10739,7 +10740,7 @@ La Euroliga es exclusiva de [Movistar Plus+](https://www.awin1.com/cread.php?awi
 
 ### Fórmula 1 y MotoGP
 
-Las dos están en [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) y, para clientes de Movistar, en los canales DAZN F1 y DAZN MotoGP del paquete Motor o de Deportes Total. DAZN tiene una oferta relámpago de su plan Motor a 9,99 €/mes durante 12 meses del 22 de octubre al 1 de noviembre, con los grandes premios de Estados Unidos y México de F1 y los de Australia y Malasia de MotoGP. Horarios de las carreras que quedan, en la [guía de dónde ver la F1 y MotoGP](/noticias/donde-ver-f1-motogp-espana-2026-dazn-precios-carreras-que-quedan).
+Las dos están en [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) y, para clientes de Movistar, en los canales DAZN F1 y DAZN MotoGP del paquete Motor o de Deportes Total. La oferta del plan Motor a 9,99 €/mes con la que DAZN vendió los grandes premios de Estados Unidos y México de F1 y los de Australia y Malasia de MotoGP terminó el 1 de noviembre; a 2 de noviembre su web anuncia el plan Motor desde 19,99 €/mes. Horarios de las carreras que quedan, en la [guía de dónde ver la F1 y MotoGP](/noticias/donde-ver-f1-motogp-espana-2026-dazn-precios-carreras-que-quedan).
 
 ### Tenis
 
@@ -10784,7 +10785,7 @@ Cada día, el canal de cada partido está en la página de [partidos de hoy](/pa
     sourceUrl: 'https://www.ocu.org/tecnologia/internet-telefonia/noticias/donde-ver-futbol',
     sourceLang: 'es',
     publishedAt: '2026-10-19T19:35:00+02:00',
-    modifiedAt: '2026-11-02T09:48:00+01:00',
+    modifiedAt: '2026-11-02T11:09:00+01:00',
     author: 'Redacción Mundiales',
     image: {
       url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Camp_Nou_aerial_%28cropped%29.jpg/1280px-Camp_Nou_aerial_%28cropped%29.jpg',
@@ -14591,7 +14592,7 @@ Entre los nombres a seguir, además de los dos protagonistas:
 
 ## Y después, la Fórmula 1
 
-Verstappen vuelve a la Fórmula 1 la semana siguiente con el Gran Premio de Estados Unidos, en Austin, del 23 al 25 de octubre. DAZN, que emite la F1 y MotoGP en España, tiene una oferta de DAZN Motor a 9,99 euros al mes durante 12 meses entre el 22 de octubre y el 1 de noviembre. El calendario y los horarios de cada gran premio están en la [página de la Fórmula 1](/motor/formula-1).`,
+Verstappen vuelve a la Fórmula 1 la semana siguiente con el Gran Premio de Estados Unidos, en Austin, del 23 al 25 de octubre. DAZN, que emite la F1 y MotoGP en España, [anuncia su plan Motor desde 19,99 €/mes](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome). El calendario y los horarios de cada gran premio están en la [página de la Fórmula 1](/motor/formula-1).`,
     category: 'general',
     kind: 'noticia',
     competition: { name: 'GT World Challenge', sport: 'motor', slug: 'gt-world-challenge' },
@@ -14599,7 +14600,7 @@ Verstappen vuelve a la Fórmula 1 la semana siguiente con el Gran Premio de Esta
     sourceUrl: 'https://www.dazn.com/en-US/news/motorsport/max-verstappen-portimao-rivals-valentino-rossi-arthur-leclerc-gt-world-challenge-2026-t3r/1exylyt0b0ohk1itkv74f6m6yo',
     sourceLang: 'en',
     publishedAt: '2026-10-15T16:30:00+02:00',
-    modifiedAt: '2026-10-15T17:20:00+02:00',
+    modifiedAt: '2026-11-02T11:09:00+01:00',
     author: 'Redacción Mundiales',
     sourcesSecondary: [
       { name: 'Crash.net', url: 'https://www.crash.net/f1/news/1107565/1/how-watch-max-verstappen-and-valentino-rossi-race-gt-world-challenge-free' },
