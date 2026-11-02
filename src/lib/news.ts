@@ -154,6 +154,418 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'nba-resultados-2026-11-02',
+    title: "NBA: resultados de la noche del 2 de noviembre",
+    summary: "Resultados de los 2 partidos de la noche en la NBA, con el más igualado y el de más puntos.",
+    body: `2 partidos en la NBA esta noche. El más igualado, Nets 98-90 a Pacers. El de más puntos, Celtics ante Magic (108-97).
+
+## Resultados
+
+- [Celtics 108-97 Magic](/baloncesto/nba/partido/401909903)
+- [Nets 98-90 Pacers](/baloncesto/nba/partido/401909904)
+
+Marcadores en directo, calendario y clasificación por conferencias en la [página de la NBA](/baloncesto/nba).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"NBA","sport":"baloncesto","slug":"nba"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/nba/scoreboard",
+    sourceLang: 'en',
+    publishedAt: '2026-11-02T01:03:16.988Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Bankers_Life_Fieldhouse%2C_Indian%C3%A1polis%2C_Estados_Unidos%2C_2012-10-22%2C_DD_01.jpg/1920px-Bankers_Life_Fieldhouse%2C_Indian%C3%A1polis%2C_Estados_Unidos%2C_2012-10-22%2C_DD_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Gainbridge Fieldhouse, sede del Pacers - Nets",
+      credit: "Diego Delso · CC BY-SA 3.0 · Wikimedia Commons",
+      license: "CC BY-SA 3.0",
+    },
+  },
+  {
+    slug: 'cronica-gp-mexico-2026',
+    title: "Max Verstappen se lleva el Gran Premio de México",
+    summary: "Max Verstappen gana el Gran Premio de México por delante de Lewis Hamilton y Kimi Antonelli. Así queda el Mundial de pilotos y constructores.",
+    body: `Max Verstappen ganó el Gran Premio de México en Autodromo Hermanos Rodriguez, Mexico city. Lewis Hamilton acabó segundo y Kimi Antonelli completó el podio. La pole había sido para Lewis Hamilton.
+
+## El Mundial tras México
+
+1. Kimi Antonelli, 380 puntos
+2. Max Verstappen, 261 puntos
+3. Lewis Hamilton, 259 puntos
+4. George Russell, 250 puntos
+5. Charles Leclerc, 245 puntos
+
+Kimi Antonelli sigue líder con 119 puntos sobre Max Verstappen. En constructores, Mercedes suma 630.
+
+La próxima cita es el Gran Premio de Brasil, con la carrera el domingo 8 de noviembre.
+
+Resultados de cada sesión y clasificación completa en la [página de la Fórmula 1](/motor/formula-1).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Fórmula 1","sport":"motor","slug":"formula-1"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/f1/results",
+    sourceLang: 'en',
+    publishedAt: '2026-11-02T01:03:16.988Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Vista_a%C3%A9rea_del_Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez_01.jpg/1920px-Vista_a%C3%A9rea_del_Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Autodromo Hermanos Rodriguez , escenario del Gran Premio de México",
+      credit: "ProtoplasmaKid · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'clasificacion-nba-semana-2026-45',
+    title: "NBA: así queda la clasificación esta semana, con 76ers líder",
+    summary: "76ers lidera NBA con 6 victorias y 1 derrotas. Tabla comentada de NBA 2027: cabeza, zona baja y enlace a la clasificación completa.",
+    body: `76ers lidera NBA con 6 victorias y 1 derrotas.
+
+## Eastern Conference
+
+1. **76ers** — 6-1
+2. **Pistons** — 5-1 (a 0.5)
+3. **Celtics** — 5-1 (a 0.5)
+4. **Cavaliers** — 4-2 (a 1.5)
+5. **Raptors** — 3-2 (a 2)
+6. **Wizards** — 3-3 (a 2.5)
+7. **Hawks** — 3-4 (a 3)
+8. **Hornets** — 3-4 (a 3)
+
+## Western Conference
+
+1. **Grizzlies** — 6-0
+2. **Rockets** — 6-1 (a 0.5)
+3. **Trail Blazers** — 4-1 (a 1.5)
+4. **Lakers** — 4-2 (a 2)
+5. **Thunder** — 4-2 (a 2)
+6. **Spurs** — 4-2 (a 2)
+7. **Mavericks** — 4-2 (a 2)
+8. **Nuggets** — 3-2 (a 2.5)
+
+La clasificación completa, con todos los equipos y los próximos partidos, está en la [página de NBA](/baloncesto/nba).`,
+    category: 'general',
+    kind: 'clasificacion',
+    competition: {"name":"NBA","sport":"baloncesto","slug":"nba"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/nba/standings",
+    sourceLang: 'en',
+    publishedAt: '2026-11-02T01:03:16.988Z',
+    author: "Redacción Mundiales de Fútbol",
+  },
+  {
+    slug: 'clasificacion-premier-league-semana-2026-45',
+    title: "Premier League: así queda la clasificación esta semana, con Arsenal líder",
+    summary: "Arsenal manda en Premier League con 24 puntos tras la última jornada. Tabla comentada de Premier League 2026: cabeza, zona baja y enlace a la clasificación completa.",
+    body: `Arsenal manda en Premier League con 24 puntos tras la última jornada.
+
+## La tabla
+
+1. **Arsenal** — 24 pts (8G-0E-1P, +9)
+2. **Man City** — 21 pts (7G-0E-2P, +10)
+3. **Brighton** — 19 pts (6G-1E-2P, +17)
+4. **Chelsea** — 16 pts (5G-1E-3P, +4)
+5. **Liverpool** — 15 pts (4G-3E-2P, +2)
+6. **Brentford** — 14 pts (3G-5E-1P, +7)
+
+En la zona baja: C Palace (7 pts), Nottm Forest (6 pts) y Sunderland (5 pts).
+
+La clasificación completa, con todos los equipos y los próximos partidos, está en la [página de Premier League](/futbol/premier-league).`,
+    category: 'general',
+    kind: 'clasificacion',
+    competition: {"name":"Premier League","sport":"futbol","slug":"premier-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/standings/_/league/eng.1",
+    sourceLang: 'en',
+    publishedAt: '2026-11-02T01:03:16.988Z',
+    author: "Redacción Mundiales de Fútbol",
+  },
+  {
+    slug: 'clasificacion-laliga-semana-2026-45',
+    title: "LaLiga: así queda la clasificación esta semana, con Barcelona líder",
+    summary: "Barcelona sigue arriba en LaLiga (30 puntos). Repasamos la clasificación completa. Tabla comentada de LaLiga 2026: cabeza, zona baja y enlace a la clasificación completa.",
+    body: `Barcelona sigue arriba en LaLiga (30 puntos). Repasamos la clasificación completa.
+
+## La tabla
+
+1. **Barcelona** — 30 pts (10G-0E-1P, +34)
+2. **Atlético** — 28 pts (9G-1E-1P, +14)
+3. **Real Madrid** — 27 pts (9G-0E-2P, +18)
+4. **Betis** — 23 pts (7G-2E-2P, +3)
+5. **Real Sociedad** — 19 pts (6G-1E-4P, 0)
+6. **Sevilla** — 17 pts (5G-2E-4P, -2)
+
+En la zona baja: Levante (10 pts), Valencia (9 pts) y Málaga (5 pts).
+
+La clasificación completa, con todos los equipos y los próximos partidos, está en la [página de LaLiga](/futbol/laliga).`,
+    category: 'general',
+    kind: 'clasificacion',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/standings/_/league/esp.1",
+    sourceLang: 'en',
+    publishedAt: '2026-11-02T01:03:16.988Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Est%C3%A1dio_Camp_Nou%2C_Barcelona_2022_%2891998%29.jpg/1920px-Est%C3%A1dio_Camp_Nou%2C_Barcelona_2022_%2891998%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Estadio de Barcelona, líder de LaLiga",
+      credit: "Boaventuravinicius · CC BY-SA 3.0 · Wikimedia Commons",
+      license: "CC BY-SA 3.0",
+    },
+  },
+  {
+    slug: 'previa-barcelona-aston-villa-401915387',
+    title: "Barcelona - Aston Villa: horario, dónde ver y cómo llegan al partido de Champions",
+    summary: "Barcelona recibe a Aston Villa este martes 3 de noviembre (21:00 h, Spotify Camp Nou) en Champions League. Barcelona es 8.º y Aston Villa, 2.º. TV: M+ Liga de Campeones 2.",
+    body: `Barcelona recibe a Aston Villa este martes 3 de noviembre (21:00 h, Spotify Camp Nou) en Champions League.
+
+## Cómo llegan
+
+Barcelona llega y ocupa la 8.º plaza con 6 puntos (2G-0E-1P). Aston Villa llega y ocupa la 2.º plaza con 9 puntos (3G-0E-0P). La [clasificación de Champions](/futbol/champions-league), al día.
+
+## Dónde ver el partido
+
+Se emite en **M+ Liga de Campeones 2**. Alineaciones en cuanto se confirmen, marcador en directo y narración en la [ficha del Barcelona - Aston Villa](/futbol/champions-league/partido/401915387). El resto de la jornada, en [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    kind: 'previa',
+    competition: {"name":"Champions","sport":"futbol","slug":"champions-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915387",
+    sourceLang: 'en',
+    publishedAt: '2026-11-02T01:03:16.988Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/2014._Camp_Nou._M%C3%A9s_que_un_club._Barcelona_B40.jpg/1280px-2014._Camp_Nou._M%C3%A9s_que_un_club._Barcelona_B40.jpg",
+      alt: "Interior del Camp Nou, con las gradas azulgranas y el lema «Més que un club» en la tribuna",
+      credit: "Luis Miguel Bugallo Sánchez (Lmbuga) · Wikimedia Commons",
+      license: "CC BY-SA 3.0",
+    },
+  },
+  {
+    slug: 'cronica-getafe-sevilla-401882821',
+    title: "Getafe 3 Sevilla 1: 4 goles, Getafe 12.º y posesión del 47 % para Getafe",
+    summary: "Martín Satriano marcó en el 73' el gol que puso por delante a Getafe, que ya no soltó la ventaja: 3-1 final ante Sevilla en LaLiga. Claves: 4 goles, Getafe 12.º y posesión del 47 % para Getafe.",
+    body: `Martín Satriano marcó en el 73' el gol que puso por delante a Getafe, que ya no soltó la ventaja: 3-1 final ante Sevilla en LaLiga.
+
+## Enrique Salas decidió
+
+Los goles: Enrique Salas (19', Sevilla), Enes Ünal (68', Getafe), Martín Satriano (73', Getafe) y Orel Mangala (90'+4', Getafe). Expulsados: Manu Bueno.
+
+## Sevilla tuvo el balón, no el gol
+
+Getafe manejó el balón (47 % por 53 %) y tiró 11 veces, 5 entre los tres palos; Sevilla se quedó en 12 remates (4 a puerta). Córners: 2 por 2.
+
+## Qué cambia en la tabla
+
+Tras el partido, Getafe 12.º con 12 puntos y Sevilla 6.º con 17 puntos en la [clasificación de LaLiga](/futbol/laliga).
+
+## Qué viene ahora
+
+Lo que viene. Getafe: visita a Villarreal el domingo 8 de noviembre. Sevilla: recibe a Alavés el viernes 6 de noviembre. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/laliga/partido/401882821).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882821",
+    sourceLang: 'en',
+    publishedAt: '2026-11-02T01:03:16.988Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/The_Coliseum_Alfonso_P%C3%A9rez_in_2018.jpg/1280px-The_Coliseum_Alfonso_P%C3%A9rez_in_2018.jpg",
+      alt: "El Coliseum Alfonso Pérez de Getafe, con las gradas azules y el nombre del club, bajo un cielo nublado",
+      credit: "Vincenzo.togni · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'cronica-racing-real-madrid-401882819',
+    title: "Jude Bellingham guía a Real Madrid ante Racing (3-0) y lo deja 3.º en LaLiga",
+    summary: "Real Madrid 3-0 Racing en LaLiga: Jude Bellingham marcó. Racing 46 % de posesión y 10 remates; Real Madrid 54 % y 22.",
+    body: `## Resumen
+
+Real Madrid ganó 3-0 a Racing en LaLiga.
+
+## Los goles
+
+- 21' · Jude Bellingham (Real Madrid)
+- 36' · Yan Diomande (Real Madrid)
+
+## El dato
+
+Racing 46 % de posesión y 10 remates; Real Madrid 54 % y 22.
+
+## Lo que viene
+
+Lo que viene. Racing: visita a Málaga el sábado 7 de noviembre. Real Madrid: visita a Valencia el sábado 7 de noviembre.
+
+**Lee también:** la [ficha del partido](/futbol/laliga/partido/401882819) con alineaciones y narración · la [clasificación de LaLiga](/futbol/laliga) · [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882819",
+    sourceLang: 'en',
+    publishedAt: '2026-11-02T01:03:16.988Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Fachada_oeste_Campos_de_Sport_de_El_Sardinero.jpg/1280px-Fachada_oeste_Campos_de_Sport_de_El_Sardinero.jpg",
+      alt: "Fachada de los Campos de Sport de El Sardinero, con el nombre del Real Racing Club",
+      credit: "Emilio Gómez Fernández · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'cronica-elche-valencia-401882823',
+    title: "Valencia gana fuera 1-0 a Elche y es 19.º",
+    summary: "Valencia suma tres puntos ante Elche (1-0) en LaLiga y es 19.º con 9 puntos; Elche se queda 17.º.",
+    body: `Valencia se impuso 1-0 a Elche en LaLiga, con gol de Umar Sadiq.
+
+## Los goles
+
+Marcaron Umar Sadiq (69', Valencia).
+
+## La tabla
+
+Tras el partido, Elche 17.º con 10 puntos y Valencia 19.º con 9 puntos en la [clasificación de LaLiga](/futbol/laliga).
+
+## Lo que viene
+
+Lo que viene. Elche: recibe a Betis el domingo 8 de noviembre. Valencia: recibe a Real Madrid el sábado 7 de noviembre. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/laliga/partido/401882823).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882823",
+    sourceLang: 'en',
+    publishedAt: '2026-11-02T01:03:16.988Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Mart%C3%ADnez_Valero_desde_un_fondo.JPG/1280px-Mart%C3%ADnez_Valero_desde_un_fondo.JPG",
+      alt: "El estadio Martínez Valero de Elche visto desde la boca de un vomitorio",
+      credit: "Raquel López Cuartero · Wikimedia Commons",
+      license: "CC BY 3.0",
+    },
+  },
+  {
+    slug: 'cronica-athletic-real-sociedad-401882826',
+    title: "Athletic supera a Real Sociedad (2-1) y es 7.º en LaLiga",
+    summary: "Athletic 2-1 Real Sociedad en LaLiga. Athletic 38 % de posesión y 13 remates; Real Sociedad 62 % y 14.",
+    body: `## Resumen
+
+Athletic ganó 2-1 a Real Sociedad en LaLiga.
+
+## Los goles
+
+- 14' · Iñaki Williams (Athletic)
+- 30' · Luka Sucic (Real Sociedad)
+
+## El dato
+
+Athletic 38 % de posesión y 13 remates; Real Sociedad 62 % y 14.
+
+## Lo que viene
+
+Lo que viene. Athletic: visita a Osasuna el sábado 7 de noviembre. Real Sociedad: recibe a Rayo el domingo 8 de noviembre.
+
+**Lee también:** la [ficha del partido](/futbol/laliga/partido/401882826) con alineaciones y narración · la [clasificación de LaLiga](/futbol/laliga) · [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882826",
+    sourceLang: 'en',
+    publishedAt: '2026-11-02T01:03:16.988Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Bilbao_-_Nuevo_San_Mam%C3%A9s_12.jpg/1280px-Bilbao_-_Nuevo_San_Mam%C3%A9s_12.jpg",
+      alt: "Exterior de San Mamés, en Bilbao, con su fachada blanca curvada junto a la ría",
+      credit: "Zarateman · Wikimedia Commons",
+      license: "CC0",
+    },
+  },
+  {
+    slug: 'partidos-futbol-hoy-2026-11-02',
+    title: "Partidos de fútbol hoy, lunes 2 de noviembre: horarios y dónde ver LaLiga, Premier League y LaLiga 2",
+    summary: "Agenda de fútbol de hoy lunes 2 de noviembre: 15 partidos con horario en hora española y canal de televisión. Destaca Deportivo - Osasuna.",
+    body: `15 partidos de fútbol para lunes 2 de noviembre. Repasamos qué se juega, a qué hora y en qué canal, sin más vueltas. El partido que más miradas reúne es el **[Deportivo - Osasuna](/futbol/laliga/partido/401882824)** (LaLiga, 21:00 h).
+
+## 🇪🇸 LaLiga Hypermotion
+
+- **[Tenerife - FC Andorra](/futbol/laliga-2/partido/401883144)** — 14:00 h
+- **[Real Oviedo - Las Palmas](/futbol/laliga-2/partido/401883146)** — 16:15 h · 📺 LALIGA TV Hypermotion / DAZN
+- **[Valladolid - Leganés](/futbol/laliga-2/partido/401883123)** — 18:30 h · 📺 LALIGA TV Hypermotion / DAZN
+- **[Mallorca - Cádiz](/futbol/laliga-2/partido/401883147)** — 21:00 h · 📺 LALIGA TV Hypermotion / DAZN
+
+Calendario y clasificación en la [página de LaLiga 2](/futbol/laliga-2).
+
+## 🇹🇷 Süper Lig
+
+- **[Genclerbirli - Alanyaspor](/futbol/super-lig/partido/401888260)** — 18:00 h
+
+Calendario y clasificación en la [página de Süper Lig](/futbol/super-lig).
+
+## 🇮🇹 Serie A
+
+- **[Sassuolo - Fiorentina](/futbol/serie-a/partido/401874963)** — 18:30 h · 📺 DAZN
+- **[Atalanta - Parma](/futbol/serie-a/partido/401874971)** — 20:45 h · 📺 DAZN
+
+Calendario y clasificación en la [página de Serie A](/futbol/serie-a).
+
+## 🇪🇸 Liga F
+
+- **[Tenerife - Athletic ](/futbol/liga-f/partido/401882475)** — 20:00 h
+
+Calendario y clasificación en la [página de Liga F](/futbol/liga-f).
+
+## 🇫🇷 Ligue 1
+
+- **[Lorient - Brest](/futbol/ligue-1/partido/401876419)** — 20:45 h · 📺 DAZN
+
+Calendario y clasificación en la [página de Ligue 1](/futbol/ligue-1).
+
+## 🇪🇸 LaLiga
+
+- **[Deportivo - Osasuna](/futbol/laliga/partido/401882824)** — 21:00 h · 📺 M+ LALIGA / DAZN
+
+Calendario y clasificación en la [página de LaLiga](/futbol/laliga).
+
+## 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Premier League
+
+- **[Newcastle - Everton](/futbol/premier-league/partido/401878762)** — 21:00 h · 📺 DAZN
+
+Calendario y clasificación en la [página de Premier League](/futbol/premier-league).
+
+## 🇵🇹 Primeira Liga
+
+- **[Benfica - Alverca](/futbol/primeira-liga/partido/401885403)** — 21:15 h · 📺 DAZN
+- **[Gil Vicente - Vitória ](/futbol/primeira-liga/partido/401885407)** — 21:15 h
+
+Calendario y clasificación en la [página de Primeira Liga](/futbol/primeira-liga).
+
+## 🇦🇷 Liga Profesional Argentina
+
+- **[Def. y Jus. - Independiente](/futbol/liga-argentina/partido/401841657)** — 23:00 h
+- **[Platense - C. Córdoba (SE)](/futbol/liga-argentina/partido/401841649)** — 23:00 h
+
+Calendario y clasificación en la [página de Liga Argentina](/futbol/liga-argentina).
+
+Todos los horarios están en hora peninsular. Los marcadores se actualizan en directo en cada ficha de partido. Toda la jornada, con marcadores en directo, en [partidos de hoy](/partidos-hoy).`,
+    category: 'tv',
+    kind: 'agenda',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882824",
+    sourceLang: 'en',
+    publishedAt: '2026-11-02T01:03:16.988Z',
+    modifiedAt: '2026-11-02T01:03:16.988Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Estadio_de_Riazor_-_1.jpg/1280px-Estadio_de_Riazor_-_1.jpg",
+      alt: "Vista de A Coruña desde lo alto con el estadio de Riazor junto al mar",
+      credit: "Pablo Herrero from LA CORUÑA, Spain · Wikimedia Commons",
+      license: "CC BY 2.0",
+    },
+  },
+  {
     slug: 'neymar-caribe-brasileno-tamandare-fiscalia-pernambuco-pide-frenar-obra-projeto-28-due-nr-sports',
     title: 'Neymar y su «Caribe brasileño»: la Fiscalía de Pernambuco pide frenar una obra ligada a su empresa',
     summary: 'El Ministerio Público de Pernambuco recomendó parar cinco obras en Tamandaré por falta de estudio ambiental. Una es el Projeto 28, de la ruta de lujo que Due promueve con la empresa de Neymar.',
