@@ -154,6 +154,219 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'aek-real-madrid-dortmund-betis-miercoles-4-noviembre-champions-horario-donde-ver-alcaraz-paris-davidovich-baja',
+    title: 'AEK - Real Madrid y Dortmund - Betis: horario del miércoles de Champions y dónde ver en España',
+    summary: 'El Real Madrid juega en Atenas a las 18:45 y el Betis en Dortmund a las 21:00, los dos con nueve puntos de nueve. Alcaraz debuta en París sin Davidovich. Canales y hora de Canarias.',
+    body: `El miércoles 4 de noviembre cierra la cuarta jornada de la fase liga de la Champions con dos equipos españoles fuera de casa y sin un punto perdido. El [AEK - Real Madrid](/futbol/champions-league/partido/401915383) empieza a las 18:45 (17:45 en Canarias) en el OPAP Arena de Atenas, y el [Borussia Dortmund - Betis](/futbol/champions-league/partido/401915304), a las 21:00 (20:00 en Canarias) en el Signal Iduna Park, [según el calendario de la UEFA](https://www.uefa.com/uefachampionsleague/fixtures-results/). Los dos van por Movistar Plus+.
+
+El Real Madrid y el Betis llegan con tres victorias en tres partidos, como el Liverpool, que juega a la misma hora que los blancos en Estambul. En el tenis, Carlos Alcaraz se estrena en el Masters 1000 de París, y lo hace sin Alejandro Davidovich en el cuadro: el malagueño [se dio de baja el martes por molestias en la espalda](https://www.puntodebreak.com/2026/11/03/davidovich-baja-paris-pone-miras-copa-davis).
+
+## Horarios del miércoles y dónde ver
+
+| Peninsular | Canarias | Partido | Sede | Canal |
+| --- | --- | --- | --- | --- |
+| 18:45 | 17:45 | [AEK - Real Madrid](/futbol/champions-league/partido/401915383) | OPAP Arena, Atenas | Movistar Plus+ (dial por confirmar) |
+| 18:45 | 17:45 | [Fenerbahçe - Liverpool](/futbol/champions-league/partido/401915382) | Şükrü Saracoğlu, Estambul | M+ Liga de Campeones 3 |
+| 21:00 | 20:00 | [Borussia Dortmund - Betis](/futbol/champions-league/partido/401915304) | Signal Iduna Park, Dortmund | M+ Liga de Campeones 2 y 4 |
+| 21:00 | 20:00 | [RB Leipzig - Manchester City](/futbol/champions-league/partido/401915306) | Red Bull Arena, Leipzig | M+ Liga de Campeones 4 y 5 |
+| 21:00 | 20:00 | [Oporto - Nápoles](/futbol/champions-league/partido/401915301) | Estádio do Dragão, Oporto | M+ Liga de Campeones 3 y 4 |
+| 21:00 | 20:00 | [Lens - Como](/futbol/champions-league/partido/401915305) | Bollaert-Delelis, Lens | M+ Liga de Campeones 4 y 7 |
+| 21:00 | 20:00 | [Slavia Praga - Arsenal](/futbol/champions-league/partido/401915381) | Fortuna Arena, Praga | Movistar Plus+ (dial por confirmar) |
+| 21:00 | 20:00 | [PSV - Brujas](/futbol/champions-league/partido/401915303) | Philips Stadion, Eindhoven | Movistar Plus+ (dial por confirmar) |
+| 21:00 | 20:00 | [Viking - Sabah](/futbol/champions-league/partido/401915302) | Viking Stadion, Stavanger | M+ Liga de Campeones 4 y 9 |
+| Por confirmar | - | Alcaraz - rival por decidir (París, 2.ª ronda) | La Défense Arena | Movistar Plus+ |
+
+Los diales salen de la ficha de cada partido; donde la ficha da dos, figuran los dos, y el del Real Madrid todavía no aparece. Para saber [qué plataforma emite cada competición y cuánto cuesta](/noticias/donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1) está la guía general, y para la Champions, [la guía de Movistar Plus+ y sus precios](/noticias/donde-ver-champions-league-2026-27-espana-movistar-precios-final-metropolitano).
+
+## Cómo llegan los dos españoles
+
+Con la clasificación previa a los partidos del martes, [la tabla de la fase liga](https://www.espn.com/soccer/standings/_/league/uefa.champions) tiene al Liverpool, al Real Madrid y al Betis en los puestos tercero, cuarto y quinto, los tres con pleno. Sus rivales del miércoles van muy por detrás: el Dortmund es decimotercero y el AEK, vigésimo noveno.
+
+| Equipo | Puesto | Puntos | Balance (G-E-P) |
+| --- | --- | --- | --- |
+| Liverpool | 3.º | 9 | 3-0-0 |
+| Real Madrid | 4.º | 9 | 3-0-0 |
+| Betis | 5.º | 9 | 3-0-0 |
+| Borussia Dortmund | 13.º | 6 | 2-0-1 |
+| AEK | 29.º | 3 | 1-0-2 |
+| Fenerbahçe | 31.º | 2 | 0-2-1 |
+
+Los ocho primeros pasan directos a octavos. Toda la competición, con resultados y fichas, está en [la sección de la Champions](/futbol/champions-league).
+
+## El tenis: Alcaraz se estrena y Davidovich se va
+
+Alcaraz es el segundo cabeza de serie, no jugó la primera ronda y debuta en la segunda. Su rival sale de los partidos del martes y la hora, del orden de juego que el torneo publica la víspera, así que la tabla la deja pendiente.
+
+Davidovich, decimotercer cabeza de serie, iba a jugar el martes su primer partido. En su lugar entró el portugués Nuno Borges como perdedor afortunado de la previa, [según Tennis Majors](https://www.tennismajors.com/atp/rolex-paris-masters-1000-atp/davidovich-fokina-and-tsitsipas-withdraw-from-the-paris-masters-kouame-now-faces-lucky-loser-borges-865224.html), y ganó 6-3 y 6-1. Rafael Jódar juega esta noche contra Casper Ruud, no antes de las 20:30, [con la plaza de Turín en juego](/noticias/rafael-jodar-gana-tabilo-paris-masters-ruud-segunda-ronda-martes-carrera-turin-tiafoe-de-minaur). El tenis va por [la guía de Movistar Plus+ y HBO Max](/noticias/donde-ver-tenis-espana-atp-finals-copa-davis-alcaraz-movistar-hbo-max).`,
+    category: 'tv',
+    kind: 'noticia',
+    competition: { name: 'Champions League', sport: 'futbol', slug: 'champions-league' },
+    sourceName: 'UEFA',
+    sourceUrl: 'https://www.uefa.com/uefachampionsleague/fixtures-results/',
+    sourceLang: 'en',
+    publishedAt: '2026-11-03T19:08:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'ESPN: clasificación de la Champions', url: 'https://www.espn.com/soccer/standings/_/league/uefa.champions' },
+      { name: 'Punto de Break: Davidovich se baja de París', url: 'https://www.puntodebreak.com/2026/11/03/davidovich-baja-paris-pone-miras-copa-davis' },
+      { name: 'Tennis Majors: bajas de Davidovich y Tsitsipas', url: 'https://www.tennismajors.com/atp/rolex-paris-masters-1000-atp/davidovich-fokina-and-tsitsipas-withdraw-from-the-paris-masters-kouame-now-faces-lucky-loser-borges-865224.html' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/AEK_fans_during_the_first_match_played_in_Agia_Sophia_Stadium.jpg/1280px-AEK_fans_during_the_first_match_played_in_Agia_Sophia_Stadium.jpg',
+      alt: 'Grada del estadio del AEK en Atenas cubierta de humo amarillo y rojo de bengalas, con los jugadores sobre el césped iluminado de noche',
+      credit: 'Demian vi · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'unai-simon-balcon-piso-lezama-maleta-elche-padre-debajo-amorrortu-llamada-medianoche-athletic-talks',
+    title: 'Unai Simón entró por el balcón a por la maleta de Elche mientras su padre esperaba debajo',
+    summary: 'En el pódcast del Athletic, Unai Simón cuenta cómo se fue cedido al Elche en 2018 sin las llaves de su piso y cómo una llamada a medianoche lo devolvió a Bilbao 19 días después.',
+    body: `Unai Simón tenía 21 años y no había salido nunca de Lezama cuando el Athletic lo cedió al Elche, en el verano de 2018. El aviso le llegó cuando iba a Murgia, a casa de sus padres: su representante le dijo que al día siguiente lo esperaban en Elche para entrenar. Las llaves del piso de Lezama, donde tenía sus cosas, se habían quedado en Murgia.
+
+Lo cuenta en el tercer episodio de [#AthleticTalks, el pódcast del club](https://www.youtube.com/watch?v=-BN40o8Yvew&t=2285s), grabado a la vuelta de Londres con el Trofeo Yashin. La ventana del piso estaba abierta. Llamaron a un vecino para que les abriera el portal y Unai entró saltando al balcón, de un segundo o un tercer piso, no lo recuerda bien. Abajo se quedó su padre: «mi padre se ponía debajo, que se quería poner por si me caía». Hizo una maleta con lo imprescindible y se fueron juntos a Elche. El padre pasó allí una semana en un hotel, lo que tardó el hijo en encontrar piso.
+
+## Diecinueve días de ilicitano
+
+La cesión se firmó [el 27 de julio de 2018, después de renovar hasta 2023](https://es.wikipedia.org/wiki/Unai_Sim%C3%B3n), y duró diecinueve días: el 15 de agosto el Athletic la canceló. En ese tiempo jugó tres amistosos, contra el Alcoyano, el Granada y el Almería, y ganó con el Elche el trofeo de la Dama de Elche, según recuerda él.
+
+La vuelta se la anunciaron de noche. Estaba en una azotea viendo los fuegos artificiales de las fiestas de Elche con sus compañeros cuando le sonó el teléfono a las doce: José Mari Amorrortu, entonces director deportivo del Athletic. Pensó que se había equivocado de número. Amorrortu volvió a llamar para decirle que preparara la vuelta a casa. Al día siguiente le explicaron por qué: Kepa se había ido al Chelsea y Herrerín se había lesionado. Antes de irse, le pidió a Pacheta, su entrenador en Elche, que no fichara a otro portero en invierno, porque pensaba volver.
+
+## Del tercer portero al Camp Nou
+
+Unai creía que regresaba para ser suplente. Llegó a Bilbao un jueves y el lunes debutó en Primera: el 20 de agosto de 2018, [Athletic 2, Leganés 1 en San Mamés](https://www.espn.com/soccer/match/_/gameId/521916). Lo que vino después cabe en una tabla.
+
+| Fecha | Qué pasó |
+| --- | --- |
+| 27-jul-2018 | Renueva hasta 2023 y sale cedido al Elche |
+| 15-ago-2018 | El Athletic cancela la cesión |
+| 20-ago-2018 | Debut en Primera: Athletic 2 - Leganés 1 |
+| 15-sep-2018 | Empate 1-1 ante el Real Madrid en su tercer partido |
+| 29-sep-2018 | Empate 1-1 en el Camp Nou |
+| 19-jul-2026 | Campeón del mundo con España ante Argentina |
+| 26-oct-2026 | Trofeo Yashin al mejor portero, en Londres |
+
+El empate del Camp Nou cortó una racha de catorce derrotas seguidas del Athletic en Liga en ese campo. Cuando Herrerín se recuperó, en octubre, Unai volvió al banquillo hasta final de temporada; al año siguiente ya fue titular. Ocho años después de aquel balcón, [ganó el Mundial](/noticias/ferran-torres-gol-final-mundial-balon-de-oro-iniesta-2010-messi) y [el Yashin en la gala de Londres](/noticias/harry-kane-balon-de-oro-2026-londres-siete-premios-espanoles-unai-simon-yashin-putellas-lamine-kopa).
+
+## Murgia
+
+En el mismo pódcast cuenta que empezó a disfrutar de la portería con nueve años en el campo de hierba de Murgia, que en invierno era un barrizal, y que le encantaba tirarse en el barro. Murgia, donde nació, es también el pueblo de Mikel Landa, que [vuelve a tener en el Giro de 2027 las dos cimas donde ganó en 2015](/noticias/giro-italia-2027-recorrido-aprica-madonna-di-campiglio-zoncolan-landa-anton-espanoles).`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'LaLiga', sport: 'futbol', slug: 'laliga' },
+    sourceName: 'Athletic Club (#AthleticTalks)',
+    sourceUrl: 'https://www.youtube.com/watch?v=-BN40o8Yvew',
+    sourceLang: 'es',
+    publishedAt: '2026-11-03T19:10:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Wikipedia: Unai Simón', url: 'https://es.wikipedia.org/wiki/Unai_Sim%C3%B3n' },
+      { name: 'ESPN: Athletic 2 - Leganés 1 (20-ago-2018)', url: 'https://www.espn.com/soccer/match/_/gameId/521916' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Unai_Simon_Argentina_v_Spain_19_July_2026-104.jpg/1280px-Unai_Simon_Argentina_v_Spain_19_July_2026-104.jpg',
+      alt: 'Unai Simón, con la camiseta azul celeste de portero de España y el dorsal 23, saca el balón con la mano sobre el césped',
+      credit: 'Bryan Berlin · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'tony-hawk-expulsado-pershing-square-los-angeles-pro-skater-3-25-anos-seguridad',
+    title: 'A Tony Hawk lo echaron del parque de Los Ángeles que él mismo hizo famoso en el Pro Skater 3',
+    summary: 'Tony Hawk fue a grabar un vídeo por los 25 años del Pro Skater 3 a Pershing Square, la plaza de Los Ángeles que inspiró un nivel del juego, y la seguridad lo echó antes de acabar.',
+    body: `Tony Hawk tiene 58 años, fue el primero en completar un 900 documentado sobre un monopatín y le dio nombre a una saga de videojuegos que marcó a una generación de jugadores de PlayStation. Nada de eso le sirvió con la vigilante de Pershing Square. El viernes 30 de octubre, el día en que el juego cumplía 25 años, Hawk fue a esa plaza del centro de Los Ángeles a grabar un vídeo de aniversario de Tony Hawk's Pro Skater 3, y [la seguridad lo echó antes de terminar](https://kotaku.com/tony-hawk-kicked-out-of-park-while-trying-to-recreate-pro-skater-3-2000752094). Lo contó él mismo en Instagram, [con una línea al final de la publicación](https://enstarz.com/articles/246397/20261102/tony-hawk-kicked-out-pershing-square-pro-skater-3.htm): «Dato curioso: nos echaron de Pershing Square mientras grabábamos esto hoy».
+
+## Por qué esa plaza
+
+Pershing Square no es un skatepark. Es una plaza pública del centro de la ciudad, diseñada por el arquitecto mexicano Ricardo Legorreta, con bancos de piedra en media luna y grandes esferas rojas. Es el modelo del nivel de Los Ángeles del Pro Skater 3. Hawk volvió para recrearlo: rodó por la plaza con Blitzkrieg Bop, de los Ramones, de fondo e imitó la postura de espera de su personaje en el juego, según la crónica de Kotaku. La vigilante, contó después, simplemente los mandó fuera. No le dio tiempo a mucho más.
+
+## El juego que cumple 25 años
+
+Tony Hawk's Pro Skater 3 salió para PlayStation y PlayStation 2 [el 30 de octubre de 2001 en Norteamérica y el 30 de noviembre en Europa](https://en.wikipedia.org/wiki/Tony_Hawk%27s_Pro_Skater_3). El vídeo de Hawk se grabó en los días del aniversario.
+
+| Dato | Pro Skater 3 |
+| --- | --- |
+| Lanzamiento en Norteamérica | 30 de octubre de 2001 |
+| Lanzamiento en Europa (PS y PS2) | 30 de noviembre de 2001 |
+| Nota en Metacritic | Empatado con GTA III como el juego de PS2 mejor valorado |
+| Copias vendidas en EE. UU. | Más de 2,1 millones hasta julio de 2006 |
+| Primera vez | Primer juego de PS2 con partidas en línea |
+| Remake | Tony Hawk's Pro Skater 3 + 4, en 2025 |
+
+Hawk se retiró de la competición en 2003. Desde entonces su nombre está más ligado a la saga y a The Skatepark Project, la fundación con la que construye pistas de skate en barrios con pocos recursos.
+
+## Los Ángeles y el skate olímpico
+
+El skate fue olímpico por primera vez en Tokio 2020 y [el COI lo incluyó en el programa de Los Ángeles 2028](https://olympics.com/ioc/news/twenty-eight-sports-included-in-youth-focused-la28-initial-sports-programme), la ciudad donde ahora no lo dejan grabar en una plaza. Los Ángeles ya acogió este verano partidos del Mundial en [el SoFi Stadium de Inglewood](/noticias/sofi-stadium-mas-caro-mundo-debut-eeuu-mundial-2026-inglewood-los-angeles), y en sus Juegos volverá también [el críquet, con selecciones de seis países](/noticias/orihuela-costa-estadio-criquet-campo-maximo-daniel-weston-playa-flamenca-test-match-2028).`,
+    category: 'curiosa',
+    kind: 'noticia',
+    competition: { name: 'Skate', sport: 'skate', slug: 'skate' },
+    sourceName: 'Kotaku',
+    sourceUrl: 'https://kotaku.com/tony-hawk-kicked-out-of-park-while-trying-to-recreate-pro-skater-3-2000752094',
+    sourceLang: 'en',
+    publishedAt: '2026-11-03T19:11:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Enstarz: la publicación de Hawk en Instagram', url: 'https://enstarz.com/articles/246397/20261102/tony-hawk-kicked-out-pershing-square-pro-skater-3.htm' },
+      { name: 'Wikipedia: Tony Hawk', url: 'https://en.wikipedia.org/wiki/Tony_Hawk' },
+      { name: 'Wikipedia: Tony Hawk\'s Pro Skater 3', url: 'https://en.wikipedia.org/wiki/Tony_Hawk%27s_Pro_Skater_3' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Pershing_Square_in_Downtown_Los_Angeles_%28DTLA%29_01.jpg/1280px-Pershing_Square_in_Downtown_Los_Angeles_%28DTLA%29_01.jpg',
+      alt: 'Pershing Square, en el centro de Los Ángeles: escalinatas, palmeras, un muro morado y una esfera naranja al pie de los rascacielos',
+      credit: 'Levi Clancy · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'giro-italia-2027-recorrido-aprica-madonna-di-campiglio-zoncolan-landa-anton-espanoles',
+    title: 'El Giro 2027 vuelve a Campiglio, Aprica y Zoncolan, las tres cimas donde ganaron Landa y Antón',
+    summary: 'El Giro de Italia 2027, presentado en Roma, acaba su última semana en Aprica, Madonna di Campiglio y el Zoncolan. Mikel Landa ganó en las dos primeras en 2015 e Igor Antón, en la tercera en 2011.',
+    body: `El Giro de Italia 2027 se presentó este martes en Roma y su última semana pasa por tres llegadas en alto con memoria española. La etapa 16 acaba en Aprica después de dos subidas al Mortirolo y una al Gavia; la 18 termina en Madonna di Campiglio y la 20, la víspera de Roma, en el Monte Zoncolan, [según el recorrido oficial](https://www.giroditalia.it/en/the-route/). En las dos primeras ganó Mikel Landa en 2015, en días seguidos de carrera. En la tercera, Igor Antón en 2011.
+
+## El recorrido
+
+La 110.ª edición sale de Trieste el sábado 8 de mayo y acaba en Roma el domingo 30, con 3.418,9 kilómetros, 50.250 metros de desnivel y dos contrarrelojes: la 7.ª, de 19,6 kilómetros entre Sulmona y Campo di Giove, y la 15.ª, de 37,3 entre Monza y Milán. La segunda etapa cruza a Eslovenia, de Liubliana a Koper. [Esciclismo cuenta siete llegadas en alto](https://www.esciclismo.com/actualidad/carretera/93732.html) y seis días para velocistas.
+
+| Etapa 2027 | Fecha | Kilómetros | Victoria española en esa meta |
+| --- | --- | --- | --- |
+| 16.ª Sondrio - Aprica | 25 de mayo | 192 | Mikel Landa, 2015 |
+| 18.ª Rovereto - Madonna di Campiglio | 27 de mayo | 154 | Mikel Landa, 2015 |
+| 20.ª Pordenone - Monte Zoncolan | 29 de mayo | 180 | Igor Antón, 2011 |
+
+## Landa, dos veces en tres días
+
+Landa tenía 25 años y corría en el Astana como gregario de Fabio Aru. El 24 de mayo de 2015 ganó en Madonna di Campiglio por delante de Yuri Trofímov, Alberto Contador y el propio Aru. Tras la jornada de descanso, el 26 de mayo, llegó la etapa de Pinzolo a Aprica con el Mortirolo: Contador pinchó al pie del puerto y llegó a ir casi un minuto por detrás, alcanzó a los dos Astana y atacó. Landa le siguió y [ganó en Aprica con 38 segundos sobre Contador](https://en.wikipedia.org/wiki/2015_Giro_d%27Italia). Contador ganó aquel Giro, Aru fue segundo y Landa, tercero.
+
+Landa nació en Murgia (Álava), como Unai Simón, que acaba de contar [cómo se fue de casa cedido al Elche](/noticias/unai-simon-balcon-piso-lezama-maleta-elche-padre-debajo-amorrortu-llamada-medianoche-athletic-talks).
+
+## Antón en el Zoncolan
+
+El 21 de mayo de 2011, en la 14.ª etapa, que salía de Lienz (Austria), Igor Antón [ganó en lo alto del Zoncolan](https://www.cyclingweekly.com/news/racing/giro-ditalia/anton-conquers-zoncolan-in-shortened-giro-stage-51859) con 33 segundos sobre Contador, que más tarde fue desclasificado de aquel Giro por el caso Contador. Era una etapa recortada. Al día siguiente Antón tuvo un desfallecimiento y se descolgó de la general.
+
+El Zoncolan vuelve en 2027 como penúltima etapa, la última de montaña antes del final en Roma. Esciclismo recuerda que el vigente campeón es Jonas Vingegaard y que la presencia de Tadej Pogačar no está confirmada. De los españoles de la general, Enric Mas llevó este año el maillot rojo de la Vuelta y [contó después el miedo que pasó con él](/noticias/enric-mas-miedo-maillot-rojo-vuelta-2026-psicologo-pogacar-bartolo-vatios-gcn).`,
+    category: 'historica',
+    kind: 'noticia',
+    competition: { name: 'Giro de Italia', sport: 'ciclismo', slug: 'giro-de-italia' },
+    sourceName: 'Giro d\'Italia',
+    sourceUrl: 'https://www.giroditalia.it/en/the-route/',
+    sourceLang: 'en',
+    publishedAt: '2026-11-03T19:12:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Esciclismo: el Giro 2027 saldrá de Trieste', url: 'https://www.esciclismo.com/actualidad/carretera/93732.html' },
+      { name: 'Wikipedia: Giro de Italia 2015', url: 'https://en.wikipedia.org/wiki/2015_Giro_d%27Italia' },
+      { name: 'Wikipedia: Igor Antón', url: 'https://es.wikipedia.org/wiki/Igor_Ant%C3%B3n' },
+      { name: 'Cycling Weekly: Antón gana en el Zoncolan (2011)', url: 'https://www.cyclingweekly.com/news/racing/giro-ditalia/anton-conquers-zoncolan-in-shortened-giro-stage-51859' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/0/0c/Giro_d%27Italia_2015%2C_kopgroep_aru_landa_kruiswijk_%2818125953940%29.jpg',
+      alt: 'Mikel Landa, con el maillot celeste del Astana, sube en cabeza junto a Fabio Aru, de blanco, y Steven Kruijswijk, de amarillo y negro, en el Giro de 2015',
+      credit: 'Filip Bossuyt · Wikimedia Commons',
+      license: 'CC BY 2.0',
+    },
+  },
+  {
     slug: 'copa-del-rey-hoy-aplazada-rfef-muerte-jesus-de-miguel-anaitasuna-alaves-pamplona-eibar-segunda-vez-sin-fecha-nueva',
     title: 'Copa del Rey: la RFEF aplaza los dos partidos de hoy por la muerte de Jesús de Miguel y no da fecha nueva',
     summary: 'Anaitasuna - Alavés y CD Pamplona - Eibar, recolocados hoy tras el accidente de Urda, vuelven a quedar sin jugar. La RFEF suspende la Copa del Rey y la Copa de la Reina de hoy y no da fecha nueva.',
@@ -551,7 +764,7 @@ La Copa del Rey, en cambio, no vuelve esta tarde. La RFEF [ha aplazado los parti
 
 | Peninsular | Canarias | Partido | Sede | Canal |
 | --- | --- | --- | --- | --- |
-| 12:30 (aprox.) | 11:30 | Kouamé - Davidovich Fokina (París, 1.ª ronda) | La Défense Arena | Movistar Plus+ |
+| Baja | - | Davidovich Fokina no juega en París: se retiró antes de su debut y entró Nuno Borges | La Défense Arena | - |
 | Aplazado | - | [Anaitasuna - Alavés](/futbol/copa-del-rey/partido/401928514) (Copa, 1.ª ronda) | Txerloia, Azkoitia | Sin fecha |
 | Aplazado | - | [CD Pamplona - Eibar](/futbol/copa-del-rey/partido/401928516) (Copa, 1.ª ronda) | Polideportivo Valle de Aranguren, Mutilva | Sin fecha |
 | No antes de las 20:30 | 19:30 | Jódar - Ruud (París, 2.ª ronda) | La Défense Arena | Movistar Plus+ |
@@ -589,7 +802,7 @@ Toda la competición, con fichas y resultados, está en [la sección de la Copa 
     sourceUrl: 'https://www.sport.es/es/noticias/tenis/jodar-ruud-horario-donde-ver-partido-masters-1000-paris-tv-directo-136003780',
     sourceLang: 'es',
     publishedAt: '2026-11-03T08:44:00+01:00',
-    modifiedAt: '2026-11-03T12:29:00+01:00',
+    modifiedAt: '2026-11-03T19:13:00+01:00',
     author: 'Redacción Mundiales',
     sourcesSecondary: [
       { name: 'ESPN: marcador del Masters de París', url: 'https://www.espn.com/tennis/scoreboard' },
@@ -1109,13 +1322,13 @@ No es la única que lo cuenta estas semanas. Sandra Sánchez, oro olímpico en k
     summary: 'Tres equipos españoles juegan el martes a las 21:00 en la Champions: Atlético - Bayern, Villarreal - PSG y Barça - Aston Villa. Antes, Jódar - Ruud en París. Horarios, canales y hora de Canarias.',
     body: `El martes 3 de noviembre la Champions junta a tres equipos españoles a la misma hora. A las 21:00 (20:00 en Canarias) se juegan el Atlético - Bayern en el Metropolitano, el Villarreal - PSG en La Cerámica y el Barça - Aston Villa en el Camp Nou, [según el calendario de la cuarta jornada de la fase liga](https://www.uefa.com/uefachampionsleague/fixtures-results/). Antes, a las 18:45, abren el Galatasaray - Stuttgart y el Shakhtar - Sporting. Todos van por Movistar Plus+; el dial de cada partido está en su ficha y en la tabla de abajo.
 
-Por la tarde hay tenis con español. Rafael Jódar juega la segunda ronda del Masters 1000 de París contra Casper Ruud en el último turno de la pista central, no antes de las 20:30 [según el horario que publica SPORT](https://www.sport.es/es/noticias/tenis/jodar-ruud-horario-donde-ver-partido-masters-1000-paris-tv-directo-136003780), después de [ganar el lunes a Tabilo](/noticias/rafael-jodar-gana-tabilo-paris-masters-ruud-segunda-ronda-martes-carrera-turin-tiafoe-de-minaur). Más temprano, Alejandro Davidovich Fokina debuta ante el francés Moïse Kouamé.
+Por la tarde hay tenis con español. Rafael Jódar juega la segunda ronda del Masters 1000 de París contra Casper Ruud en el último turno de la pista central, no antes de las 20:30 [según el horario que publica SPORT](https://www.sport.es/es/noticias/tenis/jodar-ruud-horario-donde-ver-partido-masters-1000-paris-tv-directo-136003780), después de [ganar el lunes a Tabilo](/noticias/rafael-jodar-gana-tabilo-paris-masters-ruud-segunda-ronda-martes-carrera-turin-tiafoe-de-minaur). Alejandro Davidovich Fokina, que debía debutar a mediodía, [se dio de baja por molestias en la espalda](https://www.puntodebreak.com/2026/11/03/davidovich-baja-paris-pone-miras-copa-davis) y su sitio fue para Nuno Borges.
 
 ## Horarios del martes y dónde ver
 
 | Peninsular | Canarias | Partido | Sede | Canal |
 | --- | --- | --- | --- | --- |
-| 12:30 (aprox.) | 11:30 | Kouamé - Davidovich Fokina (París, 1.ª ronda) | La Défense Arena | Movistar Plus+ |
+| Baja | - | Davidovich Fokina no juega en París: se retiró antes de su debut y entró Nuno Borges | La Défense Arena | - |
 | No antes de las 20:30 | 19:30 | Jódar - Ruud (París, 2.ª ronda) | La Défense Arena | Movistar Plus+ |
 | 18:45 | 17:45 | [Galatasaray - Stuttgart](/futbol/champions-league/partido/401915311) | RAMS Park, Estambul | M+ Liga de Campeones 3 |
 | 18:45 | 17:45 | [Shakhtar - Sporting](/futbol/champions-league/partido/401915310) | Stamford Bridge | M+ Liga de Campeones 2 |
@@ -1154,7 +1367,7 @@ La jornada sigue el miércoles 4 con el [AEK - Real Madrid](/futbol/champions-le
     sourceUrl: 'https://www.uefa.com/uefachampionsleague/fixtures-results/',
     sourceLang: 'en',
     publishedAt: '2026-11-02T16:20:00+01:00',
-    modifiedAt: '2026-11-03T08:58:00+01:00',
+    modifiedAt: '2026-11-03T19:13:00+01:00',
     author: 'Redacción Mundiales',
     sourcesSecondary: [
       { name: 'ESPN: clasificación de la Champions', url: 'https://www.espn.com/soccer/standings/_/league/uefa.champions' },
