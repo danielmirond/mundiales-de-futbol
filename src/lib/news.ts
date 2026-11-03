@@ -486,19 +486,19 @@ Ficha: 4 amarillas · 9 cambios. Alineaciones, momentos clave, estadísticas com
 - **[Galatasaray - Stuttgart](/futbol/champions-league/partido/401915311)** — 18:45 h · 📺 M+ Liga de Campeones 3
 - **[Shakhtar - Sporting](/futbol/champions-league/partido/401915310)** — 18:45 h · 📺 M+ Liga de Campeones 2
 - **[Atlético - Bayern](/futbol/champions-league/partido/401915386)** — 21:00 h · 📺 M+ Vamos / M+ Liga de Campeones 2
-- **[Barcelona - Aston Villa](/futbol/champions-league/partido/401915387)** — 21:00 h · 📺 M+ Liga de Campeones 2
+- **[Barcelona - Aston Villa](/futbol/champions-league/partido/401915387)** — 21:00 h · 📺 M+ Liga de Campeones
 - **[Bodo/Glimt - Lille](/futbol/champions-league/partido/401915384)** — 21:00 h
-- **[Feyenoord - Inter Milan](/futbol/champions-league/partido/401915307)** — 21:00 h · 📺 M+ Liga de Campeones 5
-- **[LASK Linz - S Bratislava](/futbol/champions-league/partido/401915385)** — 21:00 h · 📺 M+ Liga de Campeones 7
-- **[Man Utd - AS Roma](/futbol/champions-league/partido/401915308)** — 21:00 h · 📺 M+ Liga de Campeones 8
-- **[Villarreal - PSG](/futbol/champions-league/partido/401915309)** — 21:00 h · 📺 M+ Liga de Campeones 3
+- **[Feyenoord - Inter Milan](/futbol/champions-league/partido/401915307)** — 21:00 h · 📺 M+ Liga de Campeones 4 / M+ Liga de Campeones 5
+- **[LASK Linz - S Bratislava](/futbol/champions-league/partido/401915385)** — 21:00 h · 📺 M+ Liga de Campeones 4 / M+ Liga de Campeones 7
+- **[Man Utd - AS Roma](/futbol/champions-league/partido/401915308)** — 21:00 h · 📺 M+ Liga de Campeones 4 / M+ Liga de Campeones 8
+- **[Villarreal - PSG](/futbol/champions-league/partido/401915309)** — 21:00 h · 📺 M+ Liga de Campeones
 
 Calendario y clasificación en la [página de Champions](/futbol/champions-league).
 
 ## 🇪🇸 Copa del Rey
 
-- **[Anaitasuna - Alavés](/futbol/copa-del-rey/partido/401928514)** — 19:00 h · Aplazado por la RFEF
-- **[CD Pamplona - Eibar](/futbol/copa-del-rey/partido/401928516)** — 19:00 h · Aplazado por la RFEF
+- **[Anaitasuna - Alavés](/futbol/copa-del-rey/partido/401928514)** — 19:00 h
+- **[CD Pamplona - Eibar](/futbol/copa-del-rey/partido/401928516)** — 19:00 h
 
 Calendario y clasificación en la [página de Copa del Rey](/futbol/copa-del-rey).
 
@@ -530,7 +530,7 @@ Todos los horarios están en hora peninsular. Los marcadores se actualizan en di
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915311",
     sourceLang: 'en',
     publishedAt: '2026-11-03T03:05:16.432Z',
-    modifiedAt: '2026-11-03T03:05:16.432Z',
+    modifiedAt: '2026-11-03T14:40:52.912Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Ali_Sami_Yen_Spor_Kompleksi_Aslanl%C4%B1_Yol_Y%C3%BCzevler_Restaurant.JPG/1920px-Ali_Sami_Yen_Spor_Kompleksi_Aslanl%C4%B1_Yol_Y%C3%BCzevler_Restaurant.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
