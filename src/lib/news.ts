@@ -154,6 +154,218 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'copa-del-rey-hoy-aplazada-rfef-muerte-jesus-de-miguel-anaitasuna-alaves-pamplona-eibar-segunda-vez-sin-fecha-nueva',
+    title: 'Copa del Rey: la RFEF aplaza los dos partidos de hoy por la muerte de Jesús de Miguel y no da fecha nueva',
+    summary: 'Anaitasuna - Alavés y CD Pamplona - Eibar, recolocados hoy tras el accidente de Urda, vuelven a quedar sin jugar. La RFEF suspende la Copa del Rey y la Copa de la Reina de hoy y no da fecha nueva.',
+    body: `La Real Federación Española de Fútbol ha suspendido los partidos de sus competiciones previstos para este martes 3 de noviembre tras la muerte de Jesús de Miguel, delantero del CD Tenerife. La decisión, [publicada a las 10:19 en la web de la RFEF](https://rfef.es/es/noticias/la-rfef-suspende-la-jornada-de-futbol-de-este-3-de-noviembre-tras-el-fallecimiento-de), afecta a la primera eliminatoria de la Copa del Rey y a la tercera de la Copa de la Reina, y también a la presentación en Almendralejo del partido de la selección sub-21 contra Japón. La Federación lo explica «como muestra de respeto y solidaridad» y no da fechas nuevas: informará «en las próximas fechas» de la nueva planificación y de los horarios definitivos.
+
+En la práctica, los dos partidos de Copa del Rey que quedaban por jugar hoy, el Anaitasuna - Alavés de Azkoitia y el CD Pamplona - Eibar de Mutilva, se aplazan por segunda vez en una semana. Ya se quedaron sin jugar el miércoles 28 de octubre, cuando la RFEF suspendió los 24 encuentros de aquella noche por el accidente ferroviario de Urda, y [habían sido recolocados en este martes](/noticias/masters-de-paris-jodar-ruud-hoy-no-antes-20-30-donde-ver-copa-aplazada-anaitasuna-alaves-pamplona-eibar-martes-3-noviembre) a las 19:00.
+
+## Lo que se aplaza y lo que no
+
+| Partido | Primera fecha | Segunda fecha | Situación |
+| --- | --- | --- | --- |
+| [Anaitasuna - Alavés](/futbol/copa-del-rey/partido/401928514) | Mié. 28-oct (suspendido por Urda) | Mar. 3-nov, 19:00 | Aplazado, sin fecha |
+| [CD Pamplona - Eibar](/futbol/copa-del-rey/partido/401928516) | Mié. 28-oct (suspendido por Urda) | Mar. 3-nov, 19:00 | Aplazado, sin fecha |
+| Tercera eliminatoria de la Copa de la Reina (partidos de hoy) | Mar. 3-nov | - | Aplazada, sin fecha |
+| Presentación del España - Japón sub-21 en Almendralejo | Mar. 3-nov | - | Suspendida |
+
+El Eibar lo confirmó [en su nota oficial](https://www.sdeibar.com/noticias/aplazada-la-eliminatoria-entre-cd-pamplona-y-la-sd-eibar) explica que, ante el fallecimiento «sucedido esta mañana», la Federación ha decidido aplazar la jornada de hoy y que el partido contra el CD Pamplona queda aplazado, y traslada su pésame a la familia y al Tenerife. Las fichas de ESPN de los dos partidos seguían marcándolos como programados a mediodía: hasta que la RFEF publique la nueva fecha, los calendarios automáticos no lo reflejarán.
+
+La Champions League de esta noche no depende de la Federación y se mantiene: Atlético - Bayern, Villarreal - PSG y Barça - Aston Villa [siguen a las 21:00](/noticias/atletico-bayern-villarreal-psg-barca-aston-villa-martes-3-noviembre-champions-horarios-donde-ver-jodar-ruud), igual que el Jódar - Ruud del Masters de París. Qué plataforma emite cada competición está en [la guía de dónde ver el deporte esta temporada](/noticias/donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1).
+
+## Qué pasa con el resto de la primera ronda
+
+La nota de la RFEF solo habla del martes. Para el miércoles 4 siguen programados en el calendario Portugalete - Real Unión, Amorebieta - Logroñés, Utebo - Sabadell, Reus - Barakaldo, Minera - Cartagena, Calvo Sotelo - Albacete y, a las 21:00, el Badajoz - Tenerife; el jueves 5, Tarancón - Levante y Alcoyano - Mallorca. Ni la Federación ni el Tenerife han dicho a la hora de publicar esta pieza qué pasa con el partido del Nuevo Vivero, el primero que tendría que jugar el club tinerfeño después de la muerte de su delantero. El [comunicado del club](https://www.clubdeportivotenerife.es/noticias/comunicado-oficial-fallecimiento-de-jesus-de-miguel) se limita a anunciar el fallecimiento, «este martes, día 3 de noviembre de 2026, a las 8:00 horas», y a pedir respeto a la privacidad de la familia. Toda la ronda, con fichas y resultados, está en [la sección de la Copa del Rey](/futbol/copa-del-rey).
+
+## Dos clubes de pueblo con la Copa en el aire
+
+Para el Anaitasuna, club de Azkoitia que juega en División de Honor Regional, la sexta categoría, el partido contra el Alavés es su cuarta Copa del Rey en toda su historia. Para el CD Pamplona, de Tercera Federación, recibir al Eibar en el polideportivo de Mutilva era el partido del año. Los dos vivieron el 28 de octubre la suspensión de última hora por la tragedia de Urda y hoy la del fallecimiento de un futbolista. Quiénes son y cómo llegaron a esta ronda lo contamos [en la previa de esta mañana](/noticias/masters-de-paris-jodar-ruud-hoy-no-antes-20-30-donde-ver-copa-aplazada-anaitasuna-alaves-pamplona-eibar-martes-3-noviembre).
+
+## El fútbol español, parado
+
+El Tenerife - Andorra de [LaLiga Hypermotion](/futbol/laliga-2) quedó suspendido el lunes con 2-2 en el añadido tras el choque de De Miguel con el portero Owono; el FC Andorra lo mantiene como «abandonado» en su calendario y ha publicado [una despedida titulada «Descansa en pau, Jesús de Miguel»](https://www.fcandorra.com/noticies/jdm). El Espanyol ha aplazado al miércoles la presentación de su nuevo entrenador, Eder Sarabia, y Javier Tebas, presidente de LaLiga, ha expresado su pésame en X, [según recoge ESPN](https://www.espn.com/soccer/story/_/id/50366968/tenerife-forward-jesus-de-miguel-dies-game-cardiac-arrest). Lo que se sabe de lo ocurrido en el Heliodoro y de las últimas horas del jugador está en [la pieza que actualizamos desde el lunes](/noticias/jesus-de-miguel-tenerife-uci-choque-owono-parada-cardiorrespiratoria-comunicado-heliodoro-andorra-suspendido).`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'Copa del Rey', sport: 'futbol', slug: 'copa-del-rey' },
+    sourceName: 'RFEF: la RFEF suspende la jornada de fútbol de este 3 de noviembre',
+    sourceUrl: 'https://rfef.es/es/noticias/la-rfef-suspende-la-jornada-de-futbol-de-este-3-de-noviembre-tras-el-fallecimiento-de',
+    sourceLang: 'es',
+    publishedAt: '2026-11-03T12:31:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'CD Tenerife: comunicado oficial del fallecimiento de Jesús de Miguel', url: 'https://www.clubdeportivotenerife.es/noticias/comunicado-oficial-fallecimiento-de-jesus-de-miguel' },
+      { name: 'SD Eibar: aplazada la eliminatoria entre CD Pamplona y la SD Eibar', url: 'https://www.sdeibar.com/noticias/aplazada-la-eliminatoria-entre-cd-pamplona-y-la-sd-eibar' },
+      { name: 'ESPN: Tenerife forward Jesús de Miguel dies aged 30', url: 'https://www.espn.com/soccer/story/_/id/50366968/tenerife-forward-jesus-de-miguel-dies-game-cardiac-arrest' },
+      { name: 'ESPN: ficha del Anaitasuna - Alavés', url: 'https://www.espn.com/soccer/match/_/gameId/401928514' },
+      { name: 'FC Andorra: Descansa en pau, Jesús de Miguel', url: 'https://www.fcandorra.com/noticies/jdm' },
+    ],
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Alav%C3%A9s2-2Lega2018.jpg/1280px-Alav%C3%A9s2-2Lega2018.jpg',
+      alt: 'El estadio de Mendizorroza de Vitoria con la grada llena durante un partido del Alavés',
+      credit: 'Miguelazo84 · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'sergio-canales-vuelta-casa-santander-perros-sardinero-ninos-cole-valdano-real-madrid-era-un-nino-entrevista',
+    title: 'Sergio Canales y la vuelta a casa: «Iba al campo con mi padre, era el sueño que tenía, jugar en el Racing»',
+    summary: 'Canales cuenta en una entrevista reciente cómo es su día en Santander, por qué se fue a México, el día que se dio cuenta de que era un niño en el Real Madrid y qué le pasó con su tercer cruzado.',
+    body: `Sergio Canales se levanta a las seis o seis y media, bebe agua, coge a los perros y se va a pasear por la playa del Sardinero si no llueve. Vuelve a casa, prepara café para su mujer y para él, ponen música, despiertan a los niños y los llevan al colegio antes de ir a entrenar. Lo cuenta él mismo en [una entrevista publicada el 30 de octubre por Brands & Players](https://www.youtube.com/watch?v=7osMm08UeYM&t=503s), dos días antes de ser titular contra el Real Madrid en el campo al que iba de niño: «Desde pequeño iba al campo con mi padre, era el sueño que tenía, jugar en el Racing». Lo está viviendo, dice a los 35 años, en una etapa mucho más alejada de lo que pensaba, y eso le ayuda a ser más consciente y a agradecerlo.
+
+La entrevista es corta, catorce minutos, y no tiene titulares de mercado. Tiene algo más raro: a un futbolista contando su vida sin que le pregunten por el partido del domingo. Lo hemos cruzado con su trayectoria y con lo que pasó el domingo en el Sardinero.
+
+## El niño que se dio cuenta de que era un niño
+
+Canales llegó a la cantera del Racing con diez años y [subió al primer equipo en 2008](https://es.wikipedia.org/wiki/Sergio_Canales). El traspaso al Real Madrid se cerró en febrero de 2010, por una cantidad cercana a los cinco millones de euros. En la entrevista recuerda que sus padres habían ido antes a ver a varios clubes y que Jorge Valdano viajó a Santander y comió con la familia varias veces antes de firmar. La decisión, dice, fue familiar.
+
+El primer día en Madrid es la escena que mejor explica lo que vino después. Llegaba del Europeo sub-19, la pretemporada ya había empezado y todo el equipo le esperaba en el autobús, con el entrenador: subió el último y fue saludando uno por uno. Lo que le sorprendió no fue eso, sino el nivel de los entrenamientos y la exigencia diaria. Ahí, cuenta, se dio cuenta de que era un niño y de que le tocaba dar un paso adelante. Aquella temporada acabó casi en el ostracismo de Mourinho y en agosto de 2011 salió cedido al Valencia, donde se rompió el cruzado de la rodilla derecha en octubre de 2011 y recayó en abril de 2012.
+
+| Etapa | Años | Lo que cuenta Canales |
+| --- | --- | --- |
+| Racing (cantera y primer equipo) | 2001-2010 | Iba al campo con su padre; jugar en el Racing era su sueño |
+| Real Madrid | 2010-2012 | Valdano en Santander; el autobús; dice que colapsó y que todo le pasó por encima |
+| Valencia | 2011-2014 | Primer cruzado, operado al día siguiente; la recuperación más sencilla |
+| Real Sociedad | 2014-2018 | Tercer cruzado; psicólogo deportivo; año y medio sin encontrarse |
+| Betis | 2018-2023 | Lo siente como su casa; se fue por temas familiares |
+| Monterrey | 2023-2026 | Guardado y Héctor Moreno le hablaron bien del club y de la ciudad |
+| Racing | 2026- | Los niños ya van al cole en Santander |
+
+## El tercer cruzado y el psicólogo
+
+De las tres roturas de ligamento, la que describe como la recuperación más difícil es la de la Real Sociedad. Ahí empezó a trabajar con un psicólogo deportivo y a conocer a gente del entorno de la recuperación; fueron, dice, entre un año y medio y dos años sin el premio de encontrarse bien. El cambio llegó en los últimos seis meses en San Sebastián, con la ayuda de la nutrición, y entonces se sintió preparado para el Betis. El primer cruzado, en Valencia, lo vivió de otra manera: se operó casi al día siguiente, en cuatro o cinco meses estaba con el equipo y no guarda recuerdo de bajones porque no sabía ni lo que era esa lesión.
+
+## Por qué se fue de Sevilla y qué cambió en México
+
+Del Betis habla como de su casa y recuerda la celebración de la afición tras la Copa como uno de los mejores momentos de su carrera. El último año, dice, fue complicado por temas familiares y decidieron irse todos juntos a una aventura lejos. Apareció Monterrey, consultó a Andrés Guardado y a Héctor Moreno, y agradece a su familia que fuera valiente: sin ellos no habría ido. De México se trae otra manera de vivir y de socializar, y un vínculo entre los cinco que, cuenta, les ayudó a estar muy juntos.
+
+La vuelta a Santander todavía la está asimilando: lleva más años viviendo fuera que en casa y, como venían cada verano de vacaciones, dice que hasta que los niños han empezado el colegio no han sido del todo conscientes de que han vuelto. Las tardes las dedica a recuperar: sauna, agua fría, luz roja, fisio si toca y una cámara hiperbárica que aún no le ha llegado. Cena pronto. Antes de los partidos escucha a Eminem o a Drake, salvo cuando se nota con exceso de energía y busca algo más tranquilo; en casa, solo y leyendo, pone jazz.
+
+## El domingo, en el Sardinero
+
+Canales fue titular el domingo contra el Real Madrid, [según el acta de ESPN](https://www.espn.com/soccer/match/_/gameId/401882819), en la derrota por 0-3 que [contamos en la crónica](/noticias/cronica-racing-real-madrid-401882819). El [Racing](/futbol/laliga/equipo/87) es decimosexto en [LaLiga](/futbol/laliga) con 11 puntos tras once jornadas, a un punto de los puestos de descenso. Ese partido disparó las consultas sobre él: su artículo en la Wikipedia en español tuvo 9.670 visitas el 1 de noviembre, diez veces su media de las dos semanas anteriores, según el contador público de Wikimedia.
+
+A quien quiera saber qué le dice el futbolista de 35 años al que empieza: que disfrute, que tenga paciencia, que aprenda de la gente que tiene alrededor y, sobre todo, de los fracasos y de cuando se caiga. Es la misma lección que [Ander Herrera contaba hace dos días](/noticias/ander-herrera-37-anos-juega-gratis-real-zaragoza-primera-federacion-vendido-2011-nominas-cortar-cesped) desde Zaragoza: los hijos pródigos del fútbol español vuelven con menos velocidad y más cosas que contar.`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'LaLiga', sport: 'futbol', slug: 'laliga' },
+    sourceName: 'Brands & Players: entrevista con Sergio Canales (B&P Magazine 57)',
+    sourceUrl: 'https://www.youtube.com/watch?v=7osMm08UeYM',
+    sourceLang: 'es',
+    publishedAt: '2026-11-03T12:34:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Wikipedia: Sergio Canales (trayectoria)', url: 'https://es.wikipedia.org/wiki/Sergio_Canales' },
+      { name: 'ESPN: Racing - Real Madrid, 1 de noviembre de 2026', url: 'https://www.espn.com/soccer/match/_/gameId/401882819' },
+      { name: 'Wikimedia: visitas diarias al artículo Sergio Canales', url: 'https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia/all-access/user/Sergio_Canales/daily/20261019/20261101' },
+    ],
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Sergio_Canales_scores_at_friendly_match_against_Club_Am%C3%A9rica_2010-08-04.JPG/1280px-Sergio_Canales_scores_at_friendly_match_against_Club_Am%C3%A9rica_2010-08-04.JPG',
+      alt: 'Jugadores del Real Madrid, de blanco, se abrazan a la izquierda tras el gol de Sergio Canales en el amistoso contra el Club América en Candlestick Park (San Francisco), el 4 de agosto de 2010, mientras el portero y un defensa del América recogen el balón en la portería',
+      credit: 'BrokenSphere · Wikimedia Commons',
+      license: 'CC BY 3.0',
+    },
+  },
+  {
+    slug: 'patrick-stewart-huddersfield-town-aficionado-desde-siete-anos-presidente-academia-league-one-lider-messi-foto-the-best',
+    title: 'Patrick Stewart, el Picard que nunca dejó al Huddersfield: «Es el equipo que apoyo desde los siete años»',
+    summary: 'El actor de Star Trek y X-Men, muerto a los 86 años, presidía la academia del Huddersfield Town y miraba sus resultados desde los festivales. El club que lo despide como «Terrier» es hoy líder de League One.',
+    body: `Patrick Stewart murió el 28 de octubre en su casa de Los Ángeles, a los 86 años, y su muerte [se anunció al día siguiente](https://en.wikipedia.org/wiki/Patrick_Stewart); la familia explicó que había pasado por un breve recorrido con alzhéimer y demencia de cuerpos de Lewy. En España la noticia se contó como lo que era, la despedida del capitán Picard de Star Trek y del profesor Xavier de X-Men. En Yorkshire se contó también otra cosa: se moría el aficionado más famoso del Huddersfield Town, el club de tercera división al que siguió toda la vida y del que presidía la academia.
+
+Stewart nació en 1940 en Mirfield, un pueblo de West Yorkshire a pocos kilómetros de Huddersfield. En septiembre de 2015, con 75 años, el periodista Norman Wilner lo encontró en el festival de Toronto mirando en el móvil el marcador del Cardiff - Huddersfield, soltando un taco cuando marcó el Cardiff y explicándole al reportero que era [el equipo que apoyaba desde los siete años](https://nowtoronto.com/movies/tiff-2015/tiff-2015-patrick-stewart-is-worried-about-football). El mismo artículo lo presenta como presidente de la academia del club, la que busca y forma a los jugadores jóvenes.
+
+## El club de los tres títulos seguidos
+
+El Huddersfield Town no es un club cualquiera de la Inglaterra profunda, aunque hoy lo parezca. Fundado en 1908, [fue el primer equipo inglés en ganar tres ligas consecutivas](https://en.wikipedia.org/wiki/Huddersfield_Town_A.F.C.), de 1924 a 1926, una marca que nadie superó hasta el Manchester City de 2024. Luego vinieron décadas de descensos y ascensos y dos temporadas en la [Premier League](/futbol/premier-league), de 2017 a 2019. Después bajó al Championship y de ahí a League One, la tercera categoría, donde juega ahora.
+
+| Dato | Huddersfield Town |
+| --- | --- |
+| Fundación | 1908 |
+| Apodo | The Terriers |
+| Ligas inglesas | 3, consecutivas (1924, 1925 y 1926) |
+| Última vez en Premier League | 2017-2019 |
+| Hoy | Líder de League One: 28 puntos en 13 partidos |
+
+Ese último dato es el que convierte la semana en algo más que un obituario. En el momento de su muerte, el club de Stewart es [líder de League One con 28 puntos en 13 jornadas](https://www.espn.com/soccer/standings/_/league/eng.3), según la clasificación de ESPN. El club lo despidió con la frase que usa para los suyos, «una vez Terrier, siempre Terrier», [recogida por Récord](https://www.record.com.mx/historia/asi-fue-el-divertido-y-entranable-encuentro-entre-patrick-stewart-y-lionel-messi-2026103015205890978).
+
+## La foto con Messi que pidió en español
+
+La anécdota futbolística más repetida estos días la contó él mismo en una charla con el sindicato de actores SAG-AFTRA. En la gala de los premios The Best de 2017, su mujer, que nunca se había interesado por el fútbol hasta que vio jugar a Messi, le convenció para acercarse al argentino. Stewart se abrió paso entre la seguridad presentándose a gritos, se colocó detrás del entonces jugador del Barça y le pidió la foto en español. Messi se dio la vuelta, lo reconoció, posó, y después fue Antonela Roccuzzo quien pidió una foto con él. Lo cuenta Récord a partir de esa charla.
+
+## Por qué importa fuera de Yorkshire
+
+Stewart fue durante décadas el ejemplo que los ingleses usaban para explicar que el fútbol no entiende de categorías: una estrella de Hollywood que, entre rodajes, seguía los partidos de un club que desde los años cincuenta ha sumado más descensos que títulos. Su caso se parece al de otros actores británicos con club modesto, pero con una diferencia: él aceptó un cargo, el de presidente de la academia, y lo ejerció. En España, donde esta semana se ha hablado de Picard y de Xavier, casi nadie ha contado que llevaba el nombre de Huddersfield a cada entrevista en la que le dejaban.
+
+El [Championship](/futbol/championship) y las categorías inferiores inglesas se siguen en el sitio con fichas de partido; la de League One, de momento, solo por los resultados que publica ESPN.`,
+    category: 'curiosa',
+    kind: 'noticia',
+    competition: { name: 'League One', sport: 'futbol', slug: 'championship' },
+    sourceName: 'NOW Toronto: Patrick Stewart is worried about football (2015)',
+    sourceUrl: 'https://nowtoronto.com/movies/tiff-2015/tiff-2015-patrick-stewart-is-worried-about-football',
+    sourceLang: 'en',
+    publishedAt: '2026-11-03T12:37:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Récord: el encuentro entre Patrick Stewart y Lionel Messi', url: 'https://www.record.com.mx/historia/asi-fue-el-divertido-y-entranable-encuentro-entre-patrick-stewart-y-lionel-messi-2026103015205890978' },
+      { name: 'Wikipedia: Patrick Stewart', url: 'https://en.wikipedia.org/wiki/Patrick_Stewart' },
+      { name: 'Wikipedia: Huddersfield Town A.F.C.', url: 'https://en.wikipedia.org/wiki/Huddersfield_Town_A.F.C.' },
+      { name: 'ESPN: clasificación de League One', url: 'https://www.espn.com/soccer/standings/_/league/eng.3' },
+    ],
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Patrick_Stewart_%287268527206%29.jpg/1280px-Patrick_Stewart_%287268527206%29.jpg',
+      alt: 'Patrick Stewart, con traje gris, corbata y barba blanca, habla ante un atril con micrófonos delante del gran medallón dorado de los premios Peabody, en Nueva York, en mayo de 2012',
+      credit: 'Anders Krusberg / Peabody Awards · Wikimedia Commons',
+      license: 'CC BY 2.0',
+    },
+  },
+  {
+    slug: 'gianni-infantino-miami-fifa-paga-impuestos-estados-unidos-comite-remuneracion-bangkok-chiomento-sin-publicar-nyt',
+    title: 'Gianni Infantino se mudó a Miami y la FIFA le paga los impuestos de allí: «Se han cumplido todos los procesos»',
+    summary: 'Un comité de tres personas aprobó en Bangkok en 2024 que la FIFA cubriera los impuestos de Infantino en Estados Unidos. No figuró en los documentos oficiales; lo revelan papeles internos vistos por The New York Times.',
+    body: `Gianni Infantino se mudó de Suiza a Miami antes del Mundial 2026 y la FIFA decidió pagar íntegramente los impuestos que esa mudanza le genera en Estados Unidos. La decisión la tomó en mayo de 2024, en Bangkok, el comité de remuneración de tres miembros que fija el sueldo de los altos cargos, y nunca apareció en los documentos oficiales de la organización, [según los papeles internos que ha revisado The New York Times y reproduce Folha de S.Paulo](https://www1.folha.uol.com.br/esporte/2026/11/fifa-assume-que-pagou-cerca-de-r-22-milhoes-de-impostos-de-infantino-nos-eua.shtml). Cuando acabe la estancia de tres años del presidente en Estados Unidos, la FIFA habrá pagado unos cuatro millones de dólares de impuestos suyos.
+
+La FIFA no niega el acuerdo. En su respuesta al periódico asegura que «todos los reglamentos y procesos internos de la FIFA, así como todas las leyes aplicables, se han cumplido» y que cualquier pago a la alta dirección pasa por una auditoría independiente. Se negó a dar detalles del acuerdo fiscal.
+
+## Cómo se aprobó
+
+Quien planteó el asunto, según los documentos, fue Bruno Chiomento, contable suizo, expresidente de Ernst & Young en Suiza, responsable de gobernanza, cumplimiento y auditoría de la FIFA y, a la vez, presidente del comité de remuneración. Su argumento: Infantino iba a pagar más impuestos sobre la renta en Miami que en Suiza, y la FIFA ya había aceptado cubrir el sobrecoste fiscal de una docena de empleados trasladados a Estados Unidos para preparar el Mundial, así que debía hacer lo mismo con su presidente. Los otros dos miembros aceptaron sin discusión.
+
+| Quién | Papel en la decisión |
+| --- | --- |
+| Bruno Chiomento | Preside el comité de remuneración y la auditoría interna; planteó la compensación |
+| David Zollinger | Abogado personal de Infantino; asesoró a la FIFA sobre el asunto fiscal de su cliente |
+| Gianni Infantino | Beneficiario; cobra unos seis millones de dólares al año según el informe anual |
+
+El detalle que más ruido hace dentro de la FIFA, siempre según el Times, es que entre los expertos externos consultados estaba David Zollinger, abogado personal de Infantino. La propia administración de la FIFA tenía dudas sobre el conflicto de interés y aun así recurrió a él en varios asuntos que afectaban a su cliente. Zollinger se acogió al secreto profesional y no respondió; Chiomento tampoco.
+
+## La segunda investigación en tres semanas
+
+No es la primera noticia sobre el dinero de Infantino este otoño. El 13 de octubre, The Times de Londres [publicó que la entidad organizadora del Mundial en Estados Unidos](https://www.emol.com/noticias/Deportes/2026/10/13/1213955/infantino-sueldo-fifa-escandalo.html), FWC2026 US Inc., había declarado al fisco estadounidense 1,6 millones de euros adicionales pagados al presidente en 2024, una cifra que la FIFA no había hecho pública, y que más de 500.000 euros de esa cantidad se clasificaron como «otras compensaciones» y habrían servido para pagar el alquiler de una mansión frente al mar en Sunset Islands, en Miami.
+
+Las dos historias encajan en el mismo molde: desde 2016, tras el escándalo de corrupción que casi acaba con la FIFA y que llevó a Infantino a la presidencia, la organización se obligó a publicar cada año lo que cobran su presidente y su secretario general. Lo que revelan ahora los documentos son pagos que no figuraban en esa cifra.
+
+## Por qué importa a España
+
+Infantino [se presenta a la reelección en marzo](https://www1.folha.uol.com.br/esporte/2026/11/fifa-assume-que-pagou-cerca-de-r-22-milhoes-de-impostos-de-infantino-nos-eua.shtml) y llega a esa cita después de la peor crisis de su mandato: en julio se supo que había negociado en secreto vender una participación en los derechos del Mundial a una empresa del hermano de Jared Kushner, yerno de Donald Trump. España es, con Portugal y Marruecos, sede del Mundial 2030, el primer gran torneo del siguiente mandato. Lo que la FIFA decida sobre ese Mundial y sobre su calendario lo decidirá el presidente que [entregó el trofeo en Nueva Jersey](/2026) el pasado julio a [la selección española](/selecciones/esp), el mismo cuyos impuestos en Miami paga la organización que preside.`,
+    category: 'polemica',
+    kind: 'noticia',
+    competition: { name: 'FIFA', sport: 'futbol', slug: 'mundial' },
+    sourceName: 'Folha de S.Paulo / The New York Times: Fifa assume que pagou cerca de R$ 22 milhões de impostos de Infantino nos EUA',
+    sourceUrl: 'https://www1.folha.uol.com.br/esporte/2026/11/fifa-assume-que-pagou-cerca-de-r-22-milhoes-de-impostos-de-infantino-nos-eua.shtml',
+    sourceLang: 'pt',
+    publishedAt: '2026-11-03T12:40:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Emol / EFE: The Times destapa un sueldo no declarado de Infantino', url: 'https://www.emol.com/noticias/Deportes/2026/10/13/1213955/infantino-sueldo-fifa-escandalo.html' },
+    ],
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Gianni_Infantino_Argentina_v_Spain_19_July_2026-278.jpg/1280px-Gianni_Infantino_Argentina_v_Spain_19_July_2026-278.jpg',
+      alt: 'Gianni Infantino, con traje azul oscuro, corbata y el logo de la FIFA bordado en el bolsillo, sobre el césped antes de la final del Mundial 2026 entre Argentina y España, con la grada desenfocada detrás',
+      credit: 'Bryan Berlin · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
     slug: 'nba-resultados-2026-11-03',
     title: "NBA: todos los resultados de la jornada y el partido más igualado",
     summary: "Resultados de los 5 partidos de la noche en la NBA, con el más igualado y el de más puntos.",
@@ -285,8 +497,8 @@ Calendario y clasificación en la [página de Champions](/futbol/champions-leagu
 
 ## 🇪🇸 Copa del Rey
 
-- **[Anaitasuna - Alavés](/futbol/copa-del-rey/partido/401928514)** — 19:00 h
-- **[CD Pamplona - Eibar](/futbol/copa-del-rey/partido/401928516)** — 19:00 h
+- **[Anaitasuna - Alavés](/futbol/copa-del-rey/partido/401928514)** — 19:00 h · Aplazado por la RFEF
+- **[CD Pamplona - Eibar](/futbol/copa-del-rey/partido/401928516)** — 19:00 h · Aplazado por la RFEF
 
 Calendario y clasificación en la [página de Copa del Rey](/futbol/copa-del-rey).
 
@@ -329,23 +541,23 @@ Todos los horarios están en hora peninsular. Los marcadores se actualizan en di
   },
   {
     slug: 'masters-de-paris-jodar-ruud-hoy-no-antes-20-30-donde-ver-copa-aplazada-anaitasuna-alaves-pamplona-eibar-martes-3-noviembre',
-    title: 'Masters de París: Jódar - Ruud hoy no antes de las 20:30, dónde ver y la Copa aplazada de Alavés y Eibar',
-    summary: 'Jódar juega contra Ruud en el último turno de la central de París, no antes de las 20:30, con Turín en juego. A las 19:00, Anaitasuna - Alavés y Pamplona - Eibar recuperan la Copa aplazada.',
+    title: 'Jódar - Ruud hoy no antes de las 20:30 y dónde ver: la Copa de Alavés y Eibar vuelve a aplazarse',
+    summary: 'Jódar juega contra Ruud en el último turno de la central de París, no antes de las 20:30, con Turín en juego. Los dos partidos de Copa de las 19:00 se aplazan por la muerte de Jesús de Miguel.',
     body: `Rafael Jódar juega este martes la segunda ronda del Masters 1000 de París contra Casper Ruud en el último turno de la pista central, [no antes de las 20:30 según el horario que publica SPORT](https://www.sport.es/es/noticias/tenis/jodar-ruud-horario-donde-ver-partido-masters-1000-paris-tv-directo-136003780) (19:30 en Canarias). Es el último turno de esa pista, así que la hora exacta depende de lo que duren los partidos anteriores. Jódar [ganó el lunes a Tabilo por 6-2 y 6-3](/noticias/rafael-jodar-gana-tabilo-paris-masters-ruud-segunda-ronda-martes-carrera-turin-tiafoe-de-minaur) y Ruud eliminó a Juan Manuel Cerúndolo por 6-3 y 6-2.
 
-A la misma tarde vuelve la Copa del Rey que se quedó sin jugar el 28 de octubre. A las 19:00, el Anaitasuna recibe al Alavés en Txerloia (Azkoitia) y el CD Pamplona al Eibar en Mutilva: son los dos partidos que [la RFEF recolocó en este martes](https://www.comuniate.com/noticias/38737/fechas-y-horarios-para-los-partidos-aplazados-de-la-copa-del-rey) después de suspender los 24 encuentros de aquel miércoles por el accidente ferroviario de Urda, en la provincia de Toledo.
+La Copa del Rey, en cambio, no vuelve esta tarde. La RFEF [ha aplazado los partidos de hoy](/noticias/copa-del-rey-hoy-aplazada-rfef-muerte-jesus-de-miguel-anaitasuna-alaves-pamplona-eibar-segunda-vez-sin-fecha-nueva) tras la muerte de Jesús de Miguel, el delantero del Tenerife, así que el Anaitasuna - Alavés de Txerloia (Azkoitia) y el CD Pamplona - Eibar de Mutilva, los dos partidos que [la RFEF había recolocado en este martes](https://www.comuniate.com/noticias/38737/fechas-y-horarios-para-los-partidos-aplazados-de-la-copa-del-rey) después de suspender los 24 encuentros del 28 de octubre por el accidente ferroviario de Urda, se quedan sin fecha por segunda vez.
 
 ## Horarios del martes y dónde ver
 
 | Peninsular | Canarias | Partido | Sede | Canal |
 | --- | --- | --- | --- | --- |
 | 12:30 (aprox.) | 11:30 | Kouamé - Davidovich Fokina (París, 1.ª ronda) | La Défense Arena | Movistar Plus+ |
-| 19:00 | 18:00 | [Anaitasuna - Alavés](/futbol/copa-del-rey/partido/401928514) (Copa, 1.ª ronda) | Txerloia, Azkoitia | Por confirmar |
-| 19:00 | 18:00 | [CD Pamplona - Eibar](/futbol/copa-del-rey/partido/401928516) (Copa, 1.ª ronda) | Polideportivo Valle de Aranguren, Mutilva | Por confirmar |
+| Aplazado | - | [Anaitasuna - Alavés](/futbol/copa-del-rey/partido/401928514) (Copa, 1.ª ronda) | Txerloia, Azkoitia | Sin fecha |
+| Aplazado | - | [CD Pamplona - Eibar](/futbol/copa-del-rey/partido/401928516) (Copa, 1.ª ronda) | Polideportivo Valle de Aranguren, Mutilva | Sin fecha |
 | No antes de las 20:30 | 19:30 | Jódar - Ruud (París, 2.ª ronda) | La Défense Arena | Movistar Plus+ |
 | 21:00 | 20:00 | Atlético - Bayern, Villarreal - PSG y Barça - Aston Villa (Champions) | Metropolitano, La Cerámica y Camp Nou | Movistar Plus+ |
 
-Las fichas de los dos partidos de Copa no tenían canal confirmado a primera hora de este martes; se actualizan en cuanto lo haya. Qué plataforma emite cada competición y [cuánto cuesta ver el deporte esta temporada](/noticias/donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1) está en la guía general, y el tenis, en [la de Movistar Plus+ y HBO Max](/noticias/donde-ver-tenis-espana-atp-finals-copa-davis-alcaraz-movistar-hbo-max). La Champions de esta noche, con los tres españoles a las 21:00, tiene [su propia pieza con diales y clasificación](/noticias/atletico-bayern-villarreal-psg-barca-aston-villa-martes-3-noviembre-champions-horarios-donde-ver-jodar-ruud).
+Las fichas de los dos partidos de Copa pueden seguir mostrando la hora original hasta que la Federación publique la nueva fecha. Qué plataforma emite cada competición y [cuánto cuesta ver el deporte esta temporada](/noticias/donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1) está en la guía general, y el tenis, en [la de Movistar Plus+ y HBO Max](/noticias/donde-ver-tenis-espana-atp-finals-copa-davis-alcaraz-movistar-hbo-max). La Champions de esta noche, con los tres españoles a las 21:00, tiene [su propia pieza con diales y clasificación](/noticias/atletico-bayern-villarreal-psg-barca-aston-villa-martes-3-noviembre-champions-horarios-donde-ver-jodar-ruud).
 
 ## Lo que se juega Jódar en la central
 
@@ -353,11 +565,13 @@ Jódar llegó a París noveno en la carrera a las ATP Finals, con Frances Tiafoe
 
 ## La Copa de los campos de pueblo
 
-El Anaitasuna es un club de Azkoitia (Gipuzkoa) que juega en División de Honor Regional, la sexta categoría. Llegó a esta ronda tras eliminar al Tedeón riojano (5-0 y 2-5) y es su cuarta Copa del Rey en toda su historia; la anterior, en 2020, la jugó a puerta cerrada contra el Getafe, que [no se puso por delante hasta el descuento](https://www.ondavasca.com/txerloia-se-prepara-para-recibir-a-un-primera-division/). El Alavés llega con el recuerdo de la pasada edición: empezó con un 0-7 en Getxo y acabó en cuartos, [eliminado 2-3 por la Real Sociedad en Mendizorroza](https://www.gasteizhoy.com/alaves-fecha-copa-partido-aplazado/). La eliminatoria es a partido único y sin VAR.
+Cuando se juegue, será así. El Anaitasuna es un club de Azkoitia (Gipuzkoa) que juega en División de Honor Regional, la sexta categoría. Llegó a esta ronda tras eliminar al Tedeón riojano (5-0 y 2-5) y es su cuarta Copa del Rey en toda su historia; la anterior, en 2020, la jugó a puerta cerrada contra el Getafe, que [no se puso por delante hasta el descuento](https://www.ondavasca.com/txerloia-se-prepara-para-recibir-a-un-primera-division/). El Alavés llega con el recuerdo de la pasada edición: empezó con un 0-7 en Getxo y acabó en cuartos, [eliminado 2-3 por la Real Sociedad en Mendizorroza](https://www.gasteizhoy.com/alaves-fecha-copa-partido-aplazado/). La eliminatoria es a partido único y sin VAR.
 
 En Mutilva, el CD Pamplona es un equipo de Tercera Federación que fue segundo el curso pasado y ahora es decimoquinto con una sola victoria. El Eibar, tercero en [LaLiga 2](/futbol/laliga-2) con 23 puntos, viaja con tres jugadores del filial (Zubiria, Ortuzar y Korta) en la lista de Jokin Aranbarri, [según la previa del club](https://www.sdeibar.com/noticias/previa-or-el-eibar-abre-su-camino-copero). El año pasado pasó Náxara y Pontevedra y cayó ante el Elche en Ipurua.
 
 ## Lo que queda de la primera ronda
+
+Calendario previsto antes de la suspensión de hoy; la RFEF ha dicho que informará de la nueva planificación.
 
 | Día | Partidos (hora peninsular) |
 | --- | --- |
@@ -375,6 +589,7 @@ Toda la competición, con fichas y resultados, está en [la sección de la Copa 
     sourceUrl: 'https://www.sport.es/es/noticias/tenis/jodar-ruud-horario-donde-ver-partido-masters-1000-paris-tv-directo-136003780',
     sourceLang: 'es',
     publishedAt: '2026-11-03T08:44:00+01:00',
+    modifiedAt: '2026-11-03T12:29:00+01:00',
     author: 'Redacción Mundiales',
     sourcesSecondary: [
       { name: 'ESPN: marcador del Masters de París', url: 'https://www.espn.com/tennis/scoreboard' },
@@ -635,7 +850,7 @@ Morata, cedido al Leganés este curso, llevaba un arranque discreto en Segunda. 
 
 Por la tarde, Las Palmas ganó 2-3 en Oviedo, [según la ficha de LaLiga](https://www.laliga.com/partido/temporada-2026-2027-laliga-hypermotion-real-oviedo-ud-las-palmas-12). Manu Fuster abrió en el 21 y Jesé amplió de penalti en el 26, tras una falta de Carlos Domínguez sobre Valentín Pezzolesi revisada en el VAR. Taisei Miyashiro hizo el 0-3 en el 54. El Oviedo reaccionó con Carlos Domínguez, en el 62, y con un libre directo de Mikel Goti en el 80, pero no llegó al empate. En el Tartiere hubo 22.150 espectadores y arbitró Alejandro Morilla Turrión.
 
-El tercer partido del lunes, el Tenerife - Andorra, quedó suspendido con 2-2 en el tiempo añadido [tras el desplome de Jesús de Miguel](/noticias/jesus-de-miguel-tenerife-uci-choque-owono-parada-cardiorrespiratoria-comunicado-heliodoro-andorra-suspendido), que sigue en la UCI. El Mallorca - Cádiz cierra la jornada a las 21:00.
+El tercer partido del lunes, el Tenerife - Andorra, quedó suspendido con 2-2 en el tiempo añadido [tras el desplome de Jesús de Miguel](/noticias/jesus-de-miguel-tenerife-uci-choque-owono-parada-cardiorrespiratoria-comunicado-heliodoro-andorra-suspendido), que murió este martes. El Mallorca - Cádiz cerró la jornada a las 21:00.
 
 ## Así queda la tabla
 
@@ -687,11 +902,15 @@ Es la [clasificación de LaLiga](https://www.laliga.com/laliga-hypermotion/clasi
   },
   {
     slug: 'jesus-de-miguel-tenerife-uci-choque-owono-parada-cardiorrespiratoria-comunicado-heliodoro-andorra-suspendido',
-    title: 'Jesús de Miguel, en la UCI tras chocar con Owono: qué dice el Tenerife y qué pasó en el Heliodoro',
-    summary: 'El delantero del Tenerife está en la UCI de La Candelaria, «estable, dentro de la gravedad», tras chocar con el portero del Andorra en el añadido. El partido quedó suspendido con 2-2.',
-    body: `Jesús de Miguel, delantero del CD Tenerife, está ingresado en la UCI del Hospital Universitario Nuestra Señora de Candelaria, «estable, dentro de la gravedad», [según el comunicado oficial del club](https://www.clubdeportivotenerife.es/noticias/comunicado-oficial-jesus-de-miguel) publicado este lunes por la tarde. El club añade que sus servicios médicos están en el hospital e informarán cuando tengan novedades. Es toda la información oficial que hay a la hora de publicar esta pieza.
+    title: 'Jesús de Miguel muere tras el choque con Owono: qué dice el Tenerife y qué pasó en el Heliodoro',
+    summary: 'El delantero del Tenerife murió este martes a las 8:00, según el comunicado del club, un día después de chocar con el portero del Andorra en el añadido del partido suspendido. La RFEF aplaza la Copa de hoy.',
+    body: `Jesús de Miguel, delantero del CD Tenerife, murió este martes 3 de noviembre a las 8:00, [según el comunicado oficial del club](https://www.clubdeportivotenerife.es/noticias/comunicado-oficial-fallecimiento-de-jesus-de-miguel), un día después de desplomarse en el Heliodoro Rodríguez López tras un choque con el portero del Andorra, Jesús Owono. Tenía 30 años. El Tenerife, «rotos de dolor, con un nudo en la garganta y sin poder creer que esto sea verdad», pide máximo respeto a la privacidad de la familia y no da más detalles. Es la única información oficial sobre su muerte; el club no ha comunicado la causa.
 
-El jugador se desplomó en el tiempo añadido del Tenerife - Andorra, en el Heliodoro Rodríguez López, tras un choque con el portero visitante, Jesús Owono. El partido quedó suspendido con 2-2 en el marcador.
+El lunes por la tarde el club había informado de que estaba en la UCI del Hospital Universitario Nuestra Señora de Candelaria, estable dentro de la gravedad, [en un primer comunicado](https://www.clubdeportivotenerife.es/noticias/comunicado-oficial-jesus-de-miguel). Por la noche, [según recoge ESPN](https://www.espn.com/soccer/story/_/id/50366968/tenerife-forward-jesus-de-miguel-dies-game-cardiac-arrest), el último parte hablaba de un empeoramiento neurológico. El jugador se había desplomado en el tiempo añadido del Tenerife - Andorra, con 2-2 en el marcador, y el partido quedó suspendido.
+
+## Lo que ha pasado este martes
+
+La RFEF [ha suspendido los partidos de hoy de sus competiciones](/noticias/copa-del-rey-hoy-aplazada-rfef-muerte-jesus-de-miguel-anaitasuna-alaves-pamplona-eibar-segunda-vez-sin-fecha-nueva), la primera eliminatoria de la Copa del Rey y la tercera de la Copa de la Reina, «como muestra de respeto y solidaridad», y ha publicado [su propio comunicado de condolencia](https://www.rfef.es/es/noticias/comunicado-oficial-fallecimiento-de-jesus-de-miguel). El FC Andorra ha despedido al jugador con [una nota titulada «Descansa en pau, Jesús de Miguel»](https://www.fcandorra.com/noticies/jdm) y mantiene el partido del lunes como «abandonado» en su calendario. Javier Tebas, presidente de LaLiga, ha expresado su pésame en X, y el Barça y el Castellón, su anterior club, han publicado mensajes de condolencia, según recoge ESPN. El Espanyol ha aplazado al miércoles la presentación de su nuevo entrenador, Eder Sarabia.
 
 ## Lo que pasó en el campo
 
@@ -699,7 +918,7 @@ El choque llegó en un contraataque, [según la crónica de EFE que publica elDi
 
 EFE sitúa la parada cardiorrespiratoria en la ambulancia, durante varios minutos; El Español cuenta que se le practicó una reanimación y que recuperó el pulso. Las dos fuentes coinciden en lo esencial: fue atendido y estabilizado sobre el césped durante cerca de un cuarto de hora, salió en camilla hasta una ambulancia medicalizada y fue trasladado a La Candelaria. En la grada, donde había 13.097 espectadores [según el registro de ESPN](https://www.espn.com/soccer/match/_/gameId/401883144), varias personas tuvieron que ser atendidas por ataques de ansiedad.
 
-El árbitro reunió a capitanes y entrenadores y suspendió el partido en el minuto 108, según EFE. Qué pasa con los minutos que faltan queda, de momento, a expensas de lo que decidan los dos clubes. LaLiga no había publicado ningún comunicado a última hora de la tarde.
+El árbitro reunió a capitanes y entrenadores y suspendió el partido en el minuto 108, según EFE. Qué pasa con los minutos que faltan queda a expensas de lo que decidan LaLiga y los dos clubes; a mediodía del martes LaLiga no había publicado ningún comunicado sobre el partido.
 
 ## El partido que nadie recordará por el fútbol
 
@@ -716,20 +935,24 @@ El encuentro se había aplazado del domingo al lunes por la alerta de lluvias en
 
 El Tenerife era decimocuarto antes de la jornada y el Andorra, vigésimo; la clasificación de [LaLiga Hypermotion](/futbol/laliga-2) no contará este partido hasta que se resuelva qué pasa con él.
 
-## Quién es Jesús de Miguel
+## Quién era Jesús de Miguel
 
-Jesús de Miguel Alameda nació en Madrid el 21 de septiembre de 1996 y tiene 30 años. Es un delantero centro de 1,89 metros que lleva el dorsal 9 del Tenerife, según su ficha en Wikipedia. Su carrera es la del futbolista que subió peldaño a peldaño: Leganés B, Fuenlabrada, Navalcarnero, dos temporadas en Unionistas de Salamanca (2021-2023), dos en el Castellón (2023-2025) y el fichaje por el Tenerife el 8 de julio de 2025.
+Jesús de Miguel Alameda nació en Madrid el 21 de septiembre de 1996 y tenía 30 años. Era un delantero centro de 1,89 metros que llevaba el dorsal 9 del Tenerife, según su ficha en Wikipedia. Su carrera es la del futbolista que subió peldaño a peldaño: Leganés B, Fuenlabrada, Navalcarnero, dos temporadas en Unionistas de Salamanca (2021-2023), dos en el Castellón (2023-2025) y el fichaje por el Tenerife el 8 de julio de 2025.
 
-Es el segundo susto grave del fútbol español en dos días: el domingo, el entrenador del Almería, Pepe Mel, [fue operado de un ictus en Sevilla](/noticias/pepe-mel-operado-ictus-uci-sevilla-que-se-sabe-estado-entrenador-betis-novelas). En los dos casos, lo único que cuenta ahora es la evolución médica, y en los dos casos la fuente que vale es la oficial.`,
+Es la segunda noticia grave del fútbol español en tres días: el domingo, el entrenador del Almería, Pepe Mel, [fue operado de un ictus en Sevilla](/noticias/pepe-mel-operado-ictus-uci-sevilla-que-se-sabe-estado-entrenador-betis-novelas). En los dos casos, la fuente que vale es la oficial: esta pieza se actualiza con lo que publiquen el Tenerife, LaLiga y la RFEF.`,
     category: 'lesiones',
     kind: 'noticia',
     competition: { name: 'LaLiga Hypermotion', sport: 'futbol', slug: 'laliga-2' },
-    sourceName: 'CD Tenerife: comunicado oficial sobre Jesús de Miguel',
-    sourceUrl: 'https://www.clubdeportivotenerife.es/noticias/comunicado-oficial-jesus-de-miguel',
+    sourceName: 'CD Tenerife: comunicado oficial del fallecimiento de Jesús de Miguel',
+    sourceUrl: 'https://www.clubdeportivotenerife.es/noticias/comunicado-oficial-fallecimiento-de-jesus-de-miguel',
     sourceLang: 'es',
     publishedAt: '2026-11-02T20:28:00+01:00',
+    modifiedAt: '2026-11-03T12:28:00+01:00',
     author: 'Redacción Mundiales',
     sourcesSecondary: [
+      { name: 'CD Tenerife: primer comunicado (UCI)', url: 'https://www.clubdeportivotenerife.es/noticias/comunicado-oficial-jesus-de-miguel' },
+      { name: 'RFEF: suspensión de la jornada del 3 de noviembre', url: 'https://rfef.es/es/noticias/la-rfef-suspende-la-jornada-de-futbol-de-este-3-de-noviembre-tras-el-fallecimiento-de' },
+      { name: 'ESPN: Tenerife forward Jesús de Miguel dies aged 30', url: 'https://www.espn.com/soccer/story/_/id/50366968/tenerife-forward-jesus-de-miguel-dies-game-cardiac-arrest' },
       { name: 'EFE en elDiario.es: suspendido el Tenerife - Andorra', url: 'https://www.eldiario.es/canariasahora/Deportes/futbol/suspendido-tenerife-andorra-desplomarse-miguel-choque-owono_1_13632179.html' },
       { name: 'El Español: Jesús de Miguel, evacuado de urgencia', url: 'https://www.elespanol.com/deportes/futbol/20261102/jesus-miguel-delantero-tenerife-evacuado-urgencia-ambulancia-recibir-rodillazo-pecho/1003744443444_0.html' },
       { name: 'ESPN: Tenerife - Andorra', url: 'https://www.espn.com/soccer/match/_/gameId/401883144' },
