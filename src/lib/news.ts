@@ -328,6 +328,288 @@ Todos los horarios están en hora peninsular. Los marcadores se actualizan en di
     },
   },
   {
+    slug: 'masters-de-paris-jodar-ruud-hoy-no-antes-20-30-donde-ver-copa-aplazada-anaitasuna-alaves-pamplona-eibar-martes-3-noviembre',
+    title: 'Masters de París: Jódar - Ruud hoy no antes de las 20:30, dónde ver y la Copa aplazada de Alavés y Eibar',
+    summary: 'Jódar juega contra Ruud en el último turno de la central de París, no antes de las 20:30, con Turín en juego. A las 19:00, Anaitasuna - Alavés y Pamplona - Eibar recuperan la Copa aplazada.',
+    body: `Rafael Jódar juega este martes la segunda ronda del Masters 1000 de París contra Casper Ruud en el último turno de la pista central, [no antes de las 20:30 según el horario que publica SPORT](https://www.sport.es/es/noticias/tenis/jodar-ruud-horario-donde-ver-partido-masters-1000-paris-tv-directo-136003780) (19:30 en Canarias). Es el último turno de esa pista, así que la hora exacta depende de lo que duren los partidos anteriores. Jódar [ganó el lunes a Tabilo por 6-2 y 6-3](/noticias/rafael-jodar-gana-tabilo-paris-masters-ruud-segunda-ronda-martes-carrera-turin-tiafoe-de-minaur) y Ruud eliminó a Juan Manuel Cerúndolo por 6-3 y 6-2.
+
+A la misma tarde vuelve la Copa del Rey que se quedó sin jugar el 28 de octubre. A las 19:00, el Anaitasuna recibe al Alavés en Txerloia (Azkoitia) y el CD Pamplona al Eibar en Mutilva: son los dos partidos que [la RFEF recolocó en este martes](https://www.comuniate.com/noticias/38737/fechas-y-horarios-para-los-partidos-aplazados-de-la-copa-del-rey) después de suspender los 24 encuentros de aquel miércoles por el accidente ferroviario de Urda, en la provincia de Toledo.
+
+## Horarios del martes y dónde ver
+
+| Peninsular | Canarias | Partido | Sede | Canal |
+| --- | --- | --- | --- | --- |
+| 12:30 (aprox.) | 11:30 | Kouamé - Davidovich Fokina (París, 1.ª ronda) | La Défense Arena | Movistar Plus+ |
+| 19:00 | 18:00 | [Anaitasuna - Alavés](/futbol/copa-del-rey/partido/401928514) (Copa, 1.ª ronda) | Txerloia, Azkoitia | Por confirmar |
+| 19:00 | 18:00 | [CD Pamplona - Eibar](/futbol/copa-del-rey/partido/401928516) (Copa, 1.ª ronda) | Polideportivo Valle de Aranguren, Mutilva | Por confirmar |
+| No antes de las 20:30 | 19:30 | Jódar - Ruud (París, 2.ª ronda) | La Défense Arena | Movistar Plus+ |
+| 21:00 | 20:00 | Atlético - Bayern, Villarreal - PSG y Barça - Aston Villa (Champions) | Metropolitano, La Cerámica y Camp Nou | Movistar Plus+ |
+
+Las fichas de los dos partidos de Copa no tenían canal confirmado a primera hora de este martes; se actualizan en cuanto lo haya. Qué plataforma emite cada competición y [cuánto cuesta ver el deporte esta temporada](/noticias/donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1) está en la guía general, y el tenis, en [la de Movistar Plus+ y HBO Max](/noticias/donde-ver-tenis-espana-atp-finals-copa-davis-alcaraz-movistar-hbo-max). La Champions de esta noche, con los tres españoles a las 21:00, tiene [su propia pieza con diales y clasificación](/noticias/atletico-bayern-villarreal-psg-barca-aston-villa-martes-3-noviembre-champions-horarios-donde-ver-jodar-ruud).
+
+## Lo que se juega Jódar en la central
+
+Jódar llegó a París noveno en la carrera a las ATP Finals, con Frances Tiafoe octavo y Alex de Miñaur décimo. Ese noveno puesto puede valer una plaza porque Jannik Sinner no volverá a jugar hasta 2027, como [explicamos tras su victoria del lunes](/noticias/rafael-jodar-gana-tabilo-paris-masters-ruud-segunda-ronda-martes-carrera-turin-tiafoe-de-minaur). Tiafoe y De Miñaur, cabezas de serie, no debutan hasta el miércoles: si Jódar gana esta noche, amplía la ventaja antes de que el australiano juegue un solo punto. El resto del cuadro está en [la sección de la ATP](/tenis/atp).
+
+## La Copa de los campos de pueblo
+
+El Anaitasuna es un club de Azkoitia (Gipuzkoa) que juega en División de Honor Regional, la sexta categoría. Llegó a esta ronda tras eliminar al Tedeón riojano (5-0 y 2-5) y es su cuarta Copa del Rey en toda su historia; la anterior, en 2020, la jugó a puerta cerrada contra el Getafe, que [no se puso por delante hasta el descuento](https://www.ondavasca.com/txerloia-se-prepara-para-recibir-a-un-primera-division/). El Alavés llega con el recuerdo de la pasada edición: empezó con un 0-7 en Getxo y acabó en cuartos, [eliminado 2-3 por la Real Sociedad en Mendizorroza](https://www.gasteizhoy.com/alaves-fecha-copa-partido-aplazado/). La eliminatoria es a partido único y sin VAR.
+
+En Mutilva, el CD Pamplona es un equipo de Tercera Federación que fue segundo el curso pasado y ahora es decimoquinto con una sola victoria. El Eibar, tercero en [LaLiga 2](/futbol/laliga-2) con 23 puntos, viaja con tres jugadores del filial (Zubiria, Ortuzar y Korta) en la lista de Jokin Aranbarri, [según la previa del club](https://www.sdeibar.com/noticias/previa-or-el-eibar-abre-su-camino-copero). El año pasado pasó Náxara y Pontevedra y cayó ante el Elche en Ipurua.
+
+## Lo que queda de la primera ronda
+
+| Día | Partidos (hora peninsular) |
+| --- | --- |
+| Miércoles 4 | Portugalete - Real Unión (19:00), Amorebieta - Logroñés (20:00), Utebo - Sabadell (20:30), Reus - Barakaldo (20:30), Minera - Cartagena (20:30), Puertollano - Albacete (20:45), Badajoz - Tenerife (21:00) |
+| Jueves 5 | Tarancón - Levante (19:00), Alcoyano - Mallorca (21:00) |
+| Martes 10 | Trival Valderas - Leganés (20:00), Tavernes de la Valldigna - Valencia (21:00) |
+| Jueves 12 | Navalcarnero - Betis (19:00) |
+| Viernes 13 | [Salamanca UDS - Celta](/noticias/salamanca-uds-celta-helmantico-copa-del-rey-revancha-0-7-muniain-palco-sensorial-vuelo-charter) (21:00) |
+
+Toda la competición, con fichas y resultados, está en [la sección de la Copa del Rey](/futbol/copa-del-rey).`,
+    category: 'tv',
+    kind: 'noticia',
+    competition: { name: 'ATP', sport: 'tenis', slug: 'atp' },
+    sourceName: 'SPORT',
+    sourceUrl: 'https://www.sport.es/es/noticias/tenis/jodar-ruud-horario-donde-ver-partido-masters-1000-paris-tv-directo-136003780',
+    sourceLang: 'es',
+    publishedAt: '2026-11-03T08:44:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'ESPN: marcador del Masters de París', url: 'https://www.espn.com/tennis/scoreboard' },
+      { name: 'RFEF: nuevas fechas de los partidos aplazados (vía Comuniate)', url: 'https://www.comuniate.com/noticias/38737/fechas-y-horarios-para-los-partidos-aplazados-de-la-copa-del-rey' },
+      { name: 'Gasteiz Hoy: la Federación suspende el partido del Alavés', url: 'https://www.gasteizhoy.com/copa-alaves-anaitasuna-suspendido/' },
+      { name: 'SD Eibar: previa del CD Pamplona - Eibar', url: 'https://www.sdeibar.com/noticias/previa-or-el-eibar-abre-su-camino-copero' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Rafael_J%C3%B3dar_at_the_Swiss_Indoors_Basel_2026_media_conference._DSC00115.jpg/1280px-Rafael_J%C3%B3dar_at_the_Swiss_Indoors_Basel_2026_media_conference._DSC00115.jpg',
+      alt: 'Rafael Jódar, con chaqueta blanca y ante un micrófono, en la sala de prensa del torneo de Basilea en octubre de 2026',
+      credit: 'Skyscraper2010 · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'mallorca-cadiz-2-1-son-moix-remontada-adrian-fuentes-89-pablo-torre-antonito-clasificacion-segunda-borja-jimenez',
+    title: 'Mallorca remonta al Cádiz en el 89 con un gol de Adrián Fuentes: así queda Segunda tras la jornada 12',
+    summary: 'El Cádiz se adelantó con Antoñito, Pablo Torre empató y Adrián Fuentes marcó el 2-1 en el 89 en Son Moix. El Mallorca es quinto y el Cádiz, vigésimo, pierde la racha de Borja Jiménez. La tabla.',
+    body: `El Mallorca ganó 2-1 al Cádiz este lunes en Son Moix, en el partido que cerraba la duodécima jornada de LaLiga Hypermotion, [según la crónica del club bermellón](https://www.rcdmallorca.es/noticias/el-mallorca-culmina-la-remontada-ante-el-cadiz-2-1). El Cádiz se adelantó en el minuto 50 con un gol de Antoñito (Antonio Cordero) a la espalda de la defensa, Pablo Torre empató de cabeza en el 63 a centro de Luvumbo y Adrián Fuentes marcó el 2-1 en el 89, con 12.177 espectadores en la grada [según el acta de ESPN](https://www.espn.com/soccer/match/_/gameId/401883147).
+
+## Así fue el partido
+
+| Minuto | Qué pasó |
+| --- | --- |
+| 19 | Contra de Pablo Torre y disparo de Liso que para Ezkieta |
+| 41 | Liso pone un balón al segundo palo y Luvumbo falla con la portería casi vacía |
+| 50 | Gol de Antoñito, que gana la espalda a la defensa y supera a Arnau Tenas (0-1) |
+| 63 | Gol de Pablo Torre, de cabeza, a centro de Luvumbo desde la derecha (1-1) |
+| 89 | Gol de Adrián Fuentes (2-1) |
+
+Los números cuentan un partido de un solo equipo con el balón: el Mallorca tuvo el 64 % de la posesión y remató 23 veces, seis a puerta, por 10 remates y tres a puerta del Cádiz, según las estadísticas de ESPN. Liso estrelló un balón en el palo poco después del 0-1. Arbitró Gonzalo Romero Freixas, con Carlos del Cerro Grande en el VAR, y mostró dos amarillas a cada equipo, sin rojas.
+
+## La racha de Borja Jiménez se corta
+
+El Cádiz llegaba con dos victorias seguidas desde que Borja Jiménez cogió el banquillo, ante el Ceuta en liga y ante el Xerez en la Copa, y [el club reconoce en su crónica](https://www.cadizcf.com/noticias/el-cadiz-cf-cae-por-la-minima-en-son-moix-2-1) que la derrota pone fin a esa racha. Jokin Ezkieta, en la portería, sostuvo al equipo con varias paradas hasta el empate. El equipo de Luis García, en cambio, se instala en la zona de promoción de ascenso.
+
+## Cómo queda Segunda
+
+| Puesto | Equipo | PJ | Puntos |
+| --- | --- | --- | --- |
+| 1.º | Castellón | 12 | 27 |
+| 2.º | Almería | 12 | 26 |
+| 3.º | Eibar | 12 | 23 |
+| 4.º | Granada | 12 | 23 |
+| 5.º | Mallorca | 12 | 22 |
+| 6.º | Sporting | 12 | 22 |
+| 7.º | Girona | 12 | 21 |
+| 8.º | Burgos | 12 | 21 |
+| ... | | | |
+| 19.º | Real Sociedad B | 12 | 11 |
+| 20.º | Cádiz | 12 | 10 |
+| 21.º | Albacete | 12 | 7 |
+| 22.º | Ceuta | 12 | 5 |
+
+Con la jornada cerrada, [la clasificación de ESPN](https://www.espn.com/soccer/standings/_/league/esp.2) deja al Castellón líder con un punto sobre el Almería, como [contábamos tras el 1-1 de El Plantío](/noticias/burgos-castellon-1-1-el-plantio-suero-oier-luengo-roja-orozco-lider-almeria-clasificacion-segunda), y al Mallorca quinto, a cinco del liderato y dentro del grupo que jugaría la promoción. El Cádiz es vigésimo, en puestos de descenso, con un punto menos que la Real Sociedad B y tres más que el Albacete. Los otros resultados del lunes, el 4-3 del Valladolid al Leganés y el 2-3 de Las Palmas en Oviedo, [están contados aquí](/noticias/valladolid-leganes-4-3-zorrilla-doblete-miguel-rubio-morata-oviedo-las-palmas-2-3-clasificacion-segunda-lunes).
+
+Los dos equipos cambian de competición esta semana: el Mallorca visita al Alcoyano el jueves 5 a las 21:00 en la primera ronda de la Copa, aplazada por el accidente de tren de Urda, mientras el Cádiz ya la jugó en Xerez. Toda la categoría, en [la sección de LaLiga 2](/futbol/laliga-2).`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'LaLiga 2', sport: 'futbol', slug: 'laliga-2' },
+    sourceName: 'RCD Mallorca',
+    sourceUrl: 'https://www.rcdmallorca.es/noticias/el-mallorca-culmina-la-remontada-ante-el-cadiz-2-1',
+    sourceLang: 'es',
+    publishedAt: '2026-11-03T08:47:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Cádiz CF: crónica y ficha del partido', url: 'https://www.cadizcf.com/noticias/el-cadiz-cf-cae-por-la-minima-en-son-moix-2-1' },
+      { name: 'ESPN: acta y estadísticas del Mallorca - Cádiz', url: 'https://www.espn.com/soccer/match/_/gameId/401883147' },
+      { name: 'ESPN: clasificación de LaLiga Hypermotion', url: 'https://www.espn.com/soccer/standings/_/league/esp.2' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Estadi_Mallorca_Son_Moix_-_High_angle_view.jpg/1280px-Estadi_Mallorca_Son_Moix_-_High_angle_view.jpg',
+      alt: 'Tribuna y césped del Estadi Mallorca Son Moix vacío, con el nombre del club escrito en los asientos rojos de la grada principal',
+      credit: 'Arieleisenhammer · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ezequiel-garay-40-anos-me-fui-al-pozo-al-dejar-el-futbol-chales-betera-17-pistas-padel-madrid-el-cafelito-valencia-real-madrid',
+    title: 'Ezequiel Garay, 40 años: «Me fui al pozo al dejar el fútbol», los chalés de Bétera y las 17 pistas de pádel',
+    summary: 'Garay dejó el fútbol con 34 años y cuenta que cayó en un pozo. Salió con una promotora que vendió 15 chalés en Bétera y un club de pádel en Madrid con 17 pistas. De Rosario a Maracaná.',
+    body: `Ezequiel Garay tiene 40 años y lleva más de cinco sin jugar al fútbol. Fue titular en la final del Mundial de 2014 con Argentina, pasó por el Real Madrid, el Benfica, el Zenit y el Valencia, y cuando lo dejó, en 2020, no supo qué hacer con los días. Lo contó en El Cafelito, el pódcast de Josep Pedrerol, en una entrevista de noviembre de 2025 [recogida por Redgol](https://redgol.cl/internacional/argentino-que-jugo-en-el-real-madrid-de-pellegrini-aun-padece-su-retiro-cai-al-pozo-sali-gracias-al): «Me fui al pozo al dejar el fútbol. Literalmente al pozo».
+
+Su explicación es la de muchos futbolistas que no la cuentan: durante catorce o quince años vivió en aviones y hoteles, en casa estaba dos o tres días como mucho, y ese ritmo se cortó de golpe sin que él estuviera preparado. En la entrevista hace una pausa y bebe de una taza antes de abordar el tema. Hoy tiene dos cifras que resumen por dónde salió, y el domingo [Superdeporte las ponía en su titular](https://www.superdeporte.es/valencia-cf/2026/11/01/exjugador-valencia-cf-ezequiel-garay-tengo-15-viviendas-lujo-recinto-deportivo-17-pistas-padel-124563829.html): quince viviendas y diecisiete pistas de pádel.
+
+## De Rosario a Maracaná
+
+| Año | Qué pasó |
+| --- | --- |
+| 2004 | Debuta con 18 años en un Newell's que gana el Apertura |
+| 2005 | Campeón del Mundial sub-20 con Messi y Agüero; ficha por el Racing de Santander |
+| 2007-08 | Diez goles en una temporada como central, siete de penalti |
+| 2008 | Ficha por el Real Madrid y gana el oro olímpico en Pekín |
+| 2011-2016 | Benfica y Zenit; en 2014 juega la final del Mundial en Maracaná |
+| 2016-2020 | Cuatro temporadas en el Valencia |
+| 2021 | Anuncia la retirada |
+
+Del Madrid cuenta en El Cafelito que no se lo pensó, que jugó más con Pellegrini que con Mourinho y que en el vestuario de Alcorcón, tras la eliminación de Copa de 2009, se cortaba el aire. Su carrera completa, con los 437 partidos de club, está en [su ficha de Wikipedia](https://es.wikipedia.org/wiki/Ezequiel_Garay). La retirada la hizo oficial en julio de 2021 por una lesión crónica de cadera, después de que acabara su contrato con el [Valencia](/futbol/laliga).
+
+## Las quince casas de Bétera
+
+Dos meses después de retirarse presentó Gargor Luxury State, una promotora de viviendas de lujo. Su primera promoción fueron 15 chalés unifamiliares en Torre en Conill, una urbanización de Bétera (Valencia), y en el anuncio [aseguraba tenerlo todo vendido](https://www.esdiario.com/comunidad-valenciana/valencia/210922/79420/garay-se-mete-a-agente-inmobiliario.html). Entre los comentarios de sus antiguos compañeros se coló uno de un aficionado: a ver si aprovechaba y acababa el Nuevo Mestalla.
+
+## Las diecisiete pistas de Madrid
+
+El otro negocio es un club de pádel. Padel G24 tiene 17 pistas cubiertas, gimnasio, servicio de fisioterapia, restaurante y una academia dirigida por Carlos Pozzoni, [según la propia web del club](https://www.padelg24.com/). Abrió a principios de 2025 y, en una entrevista con DSports [recogida por el diario portugués Record](https://www.record.pt/modalidades/padel/amp/garay-o-padel-tirou-me-do-poco-em-que-estava), Garay decía que el pádel fue lo que le sacó de ese pozo y que lo que hace ahora con el club es devolverle un poco de lo que le dio.
+
+Es la parte que no suele aparecer cuando se habla de un exfutbolista con patrimonio: el dinero estaba antes de la retirada, el problema fue el vacío. Otro exvalencianista, Mista, [contaba hace unos días el verano en que el club estuvo a punto de venderlo](/noticias/mista-47-anos-verano-2003-valencia-dispuesto-venderlo-sevilla-benitez-liga-copa-uefa). Garay, nacido en Rosario y nacionalizado español, sigue vinculado a la [selección argentina](/selecciones/arg) por aquella final de 2014 que Alemania decidió en la prórroga.`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'LaLiga', sport: 'futbol', slug: 'laliga' },
+    sourceName: 'El Cafelito (vía Redgol)',
+    sourceUrl: 'https://redgol.cl/internacional/argentino-que-jugo-en-el-real-madrid-de-pellegrini-aun-padece-su-retiro-cai-al-pozo-sali-gracias-al',
+    sourceLang: 'es',
+    publishedAt: '2026-11-03T08:50:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'ESdiario: Garay presenta su promotora (2021)', url: 'https://www.esdiario.com/comunidad-valenciana/valencia/210922/79420/garay-se-mete-a-agente-inmobiliario.html' },
+      { name: 'Padel G24: web del club', url: 'https://www.padelg24.com/' },
+      { name: 'Record: Garay, sobre el pádel y la retirada (DSports)', url: 'https://www.record.pt/modalidades/padel/amp/garay-o-padel-tirou-me-do-poco-em-que-estava' },
+      { name: 'Wikipedia: Ezequiel Garay', url: 'https://es.wikipedia.org/wiki/Ezequiel_Garay' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Ezequiel_Garay_%28L%29%2C_Granit_Xhaka_%28R%29_-_Switzerland_vs._Argentina%2C_29th_February_2012.jpg/1280px-Ezequiel_Garay_%28L%29%2C_Granit_Xhaka_%28R%29_-_Switzerland_vs._Argentina%2C_29th_February_2012.jpg',
+      alt: 'Ezequiel Garay, con la camiseta azul de Argentina, conduce el balón perseguido por Granit Xhaka, de blanco, en el amistoso Suiza - Argentina de 2012',
+      credit: 'Fanny Schertzer · Wikimedia Commons',
+      license: 'CC BY 3.0',
+    },
+  },
+  {
+    slug: 'mick-schumacher-libro-weinzierl-michael-no-fuiste-bastante-bueno-sarno-barein-karting-steiner-haas-indycar-2027',
+    title: 'Mick Schumacher cuenta en un libro el día que Michael le negó Baréin: «No fuiste lo bastante bueno en Sarno»',
+    summary: 'En el libro de Alfred Weinzierl sobre la era alemana de la F1, Mick Schumacher recuerda la lección de su padre en el karting, su relación con Steiner en Haas y el no a Ferrari de 2019.',
+    body: `Mick Schumacher corría todavía en karts cuando su padre le dio una lección que no ha olvidado. La cuenta en un libro recién publicado en Alemania, «Über Michael Schumacher und die deutsche Ära in der Formel 1», del periodista Alfred Weinzierl, antiguo subdirector de Der Spiegel, [editado por Edel Sports el 7 de octubre](https://www.lovelybooks.de/isbn/9783985881840). Focus Online [publicó el lunes los pasajes en los que habla Mick](https://www.focus.de/sport/formel1/mick-schumacher-spricht-ueber-die-andere-seite-von-vater-michael-du-kriegst-mal-nicht-was-du-willst_727704ab-1b26-425b-ab26-0cc229ff218e.html).
+
+La escena ocurre en Sarno, cerca de Nápoles, en una cita mundial del karting júnior en la que también corrían Lando Norris y Lance Stroll. Mick hizo una clasificación floja, tuvo varios accidentes en las mangas y salió muy atrás en la final. El plan era correr unas semanas después la final mundial en Baréin. Su padre lo canceló con una frase: «No vamos a Baréin, no fuiste lo bastante bueno en Sarno».
+
+## Lo que le explicó su madre
+
+Mick cuenta que se sintió herido y triste, y que fue su madre, Corinna, quien le explicó la intención de Michael: quería ver cómo reaccionaba cuando alguien era un poco más duro con él, que entendiera que no siempre iba a conseguir lo que quería y que a veces hay que pelear por las cosas. Él lo interpreta hoy como una preparación para un jefe de equipo complicado que tomara decisiones que no le gustaran. En el mismo libro dice que nunca vio en su padre a un dios de las carreras, sino a un padre, y que solo quería ser tan guay como él.
+
+Michael Schumacher, siete veces campeón del mundo y el rival al que [Fernando Alonso destronó en 2005](/noticias/kimi-antonelli-campeon-mundo-f1-20-anos-mexico-record-vettel-alonso-2005-tres-anos-verstappen-gana), no aparece en público desde su accidente de esquí en Méribel, en diciembre de 2013. La familia no da información sobre su estado, y el libro no la da. Weinzierl construye el retrato con conversaciones con Sebastian Vettel, Nico Rosberg, Nico Hülkenberg y Ralf Schumacher, además de Mick.
+
+## El jefe complicado llegó en 2021
+
+Ese jefe fue Günther Steiner, en Haas. Mick llegó allí en 2021 como piloto de la academia de Ferrari, casi impuesto al equipo por su condición de cliente de motores, con un coche que no competía. Dice que desde el principio salieron mal tantas cosas que la relación quedó tensa hasta el final, y que muchas no fueron correctas. Lo entendió, según cuenta, cuando fue probador de Mercedes y vio cómo se trabajaba allí con el piloto: está convencido de que en otro equipo habría rendido de otra manera. Su primera opción era Alfa Romeo, con Kimi Räikkönen de compañero, pero no pudo elegir. Y añade un detalle nuevo: Ferrari le ofreció en 2019 un puesto de probador, lo rechazó para centrarse en la Fórmula 2 y hoy piensa que quizá fue un error.
+
+| Etapa | Qué hizo |
+| --- | --- |
+| 2021-2022 | Haas, 43 salidas y 12 puntos en Fórmula 1 |
+| 2023 | Piloto reserva de Mercedes |
+| 2024-2025 | Resistencia (WEC) con Alpine, con podios en Fuji, Imola y Spa |
+| 2026 | IndyCar con Rahal Letterman Lanigan, coche 47; mejor resultado, un octavo puesto |
+| 2027 | Correrá para Meyer Shank Racing |
+
+## Dónde está Mick ahora
+
+Desde este año vive en Estados Unidos y compite en la IndyCar, [según su ficha](https://en.wikipedia.org/wiki/Mick_Schumacher), donde ya tiene contrato con Meyer Shank Racing para 2027. Él mismo resume la temporada como el año de aprender los circuitos para poder atacar en el futuro. Tiene 27 años. El resto de la actualidad del campeonato, con [Antonelli ya campeón y el Mundial de constructores en juego](/motor/formula-1), está en la sección de la Fórmula 1.`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'Fórmula 1', sport: 'motor', slug: 'formula-1' },
+    sourceName: 'Focus Online',
+    sourceUrl: 'https://www.focus.de/sport/formel1/mick-schumacher-spricht-ueber-die-andere-seite-von-vater-michael-du-kriegst-mal-nicht-was-du-willst_727704ab-1b26-425b-ab26-0cc229ff218e.html',
+    sourceLang: 'de',
+    publishedAt: '2026-11-03T08:53:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Ficha del libro de Alfred Weinzierl (Edel Sports)', url: 'https://www.lovelybooks.de/isbn/9783985881840' },
+      { name: 'Wikipedia: Mick Schumacher', url: 'https://en.wikipedia.org/wiki/Mick_Schumacher' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Mick_Schumacher_-_2022236182025_2022-08-24_Champions_for_Charity_-_Sven_-_1D_X_MK_II_-_2016_-_B70I4026.jpg/1280px-Mick_Schumacher_-_2022236182025_2022-08-24_Champions_for_Charity_-_Sven_-_1D_X_MK_II_-_2016_-_B70I4026.jpg',
+      alt: 'Mick Schumacher, con camiseta blanca y pantalón azul, conduce el balón sobre el césped en el partido benéfico Champions for Charity de 2022',
+      credit: 'Sven Mandel · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ryo-hirakawa-32-anos-debut-f1-mexico-haas-ocon-punto-sanciones-alpine-piastri-carta-akio-toyoda-17-anos',
+    title: 'Ryo Hirakawa llegó a México para una sesión de libres y se fue con un punto en su debut y una carta de Toyota',
+    summary: 'Hirakawa, 32 años, iba a rodar solo en los primeros libres. Haas apartó a Ocon, él acabó decimotercero y las sanciones a Piastri y a los dos Alpine le dieron un punto. Akio Toyoda le escribió.',
+    body: `Ryo Hirakawa viajó al Gran Premio de México como piloto reserva de Haas para rodar en los primeros libres del viernes, como ya había hecho otras veces este año. El sábado por la mañana el equipo anunció que [sustituiría a Esteban Ocon en el resto del fin de semana](https://www.sfchronicle.com/sports/article/haas-hands-hirakawa-f1-debut-in-mexico-in-place-22504110.php): tercera sesión de libres, clasificación y carrera. El domingo acabó decimotercero en pista y, de madrugada, las sanciones de los comisarios le subieron al décimo puesto. Un punto en su primera carrera de Fórmula 1 a los 32 años.
+
+## Por qué corría él y no Ocon
+
+Haas no explicó el cambio. Su director, Ayao Komatsu, solo dijo a Sky Sports que Ocon no estaba enfermo. El francés publicó un comunicado en el que reconoce que la noche del viernes una diferencia de puntos de vista derivó en una discusión, y rechaza de plano los rumores que hablaban de violencia física, según recogió Associated Press. Haas tiene firmado a Rafael Câmara para 2027, y en el equipo no aclaran si Hirakawa repetirá la semana que viene en São Paulo.
+
+## La cascada de sanciones
+
+| Sanción | Motivo | Efecto en Hirakawa |
+| --- | --- | --- |
+| Piastri, 10 segundos | Colisión con Lindblad | Hirakawa pasa de 13.º a 12.º |
+| Colapinto, 10 segundos | No reducir en una bandera amarilla | Alpine pierde sus puntos |
+| Gasly, stop and go convertido en 30 segundos | No reducir en doble bandera amarilla | Con las dos de Alpine, Hirakawa es 10.º y suma un punto |
+
+Alpine perdió los cinco puntos que había sumado y se queda sexto en el Mundial de constructores con 69, [según el desglose de Crash.net](https://www.crash.net/f1/news/1109264/1/ryo-hirakawa-scores-point-f1-debut-mexico-gp-after-double-alpine-penalty). Hirakawa contó que en la salida tomó demasiado margen porque su prioridad era acabar y aprender, y que con el blando, tras el coche de seguridad, se atrevió a adelantar a dos coches.
+
+## La carta del presidente de Toyota
+
+El lunes, Akio Toyoda, presidente de Toyota, le escribió una carta que [publicó RacingNews365](https://racingnews365.com/toyota-issues-incredibly-emotional-letter-after-unforgettable-hirakawa-f1-debut). Toyota dejó la Fórmula 1 a finales de 2009 y Toyoda explica que desde entonces quería volver a ver a un piloto de la marca en una parrilla: «Era un sueño que había guardado en silencio en mi corazón durante 17 años», escribe. El camino fue el acuerdo técnico entre Toyota y Haas, que dio a sus pilotos test y sesiones de libres.
+
+## Quién es Hirakawa
+
+| Año | Qué hizo |
+| --- | --- |
+| 2012 | Campeón de la Fórmula 3 japonesa |
+| 2013-2021 | Nueve temporadas en la Super Fórmula, con cuatro victorias |
+| 2017 | Campeón del Super GT (GT500) |
+| 2022 y 2023 | Campeón del Mundial de Resistencia con Toyota y ganador de Le Mans los dos años, junto a Buemi y Hartley |
+| 2024 | Primeros libres con McLaren en Abu Dabi |
+| 2025 | Reserva de Alpine (libres en Japón) y, desde abril, de Haas |
+| 2026 | Debut en carrera en México |
+
+Su trayectoria completa está en [el perfil que le dedicó la Fórmula 1](https://www.formula1.com/en/latest/article/who-is-ryo-hirakawa-everything-to-know-about-f1s-latest-debutant-for-haas.mynwoTwej1Oueu2NpAU3k). Es un piloto hecho en la resistencia, no en las categorías de promoción europeas, y lleva desde 2013 en el programa de jóvenes de Toyota. Ese mismo domingo en México, [a Alonso le falló el motor Honda en la Q1](/noticias/honda-formula-1-que-le-fallo-alonso-mexico-q1-presion-agua-sancion-motor-2026-china-baku-singapur) y [Antonelli se proclamó campeón](/noticias/kimi-antonelli-campeon-mundo-f1-20-anos-mexico-record-vettel-alonso-2005-tres-anos-verstappen-gana). El calendario y las clasificaciones están en [la sección de la Fórmula 1](/motor/formula-1).`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'Fórmula 1', sport: 'motor', slug: 'formula-1' },
+    sourceName: 'Crash.net',
+    sourceUrl: 'https://www.crash.net/f1/news/1109264/1/ryo-hirakawa-scores-point-f1-debut-mexico-gp-after-double-alpine-penalty',
+    sourceLang: 'en',
+    publishedAt: '2026-11-03T08:56:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'AP (San Francisco Chronicle): Haas da el debut a Hirakawa en lugar de Ocon', url: 'https://www.sfchronicle.com/sports/article/haas-hands-hirakawa-f1-debut-in-mexico-in-place-22504110.php' },
+      { name: 'RacingNews365: la carta de Akio Toyoda', url: 'https://racingnews365.com/toyota-issues-incredibly-emotional-letter-after-unforgettable-hirakawa-f1-debut' },
+      { name: 'Formula1.com: quién es Ryo Hirakawa', url: 'https://www.formula1.com/en/latest/article/who-is-ryo-hirakawa-everything-to-know-about-f1s-latest-debutant-for-haas.mynwoTwej1Oueu2NpAU3k' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/The_2nd_placed_Toyota_GR010_Hybrid_-_Ryo_Hirakawa%2C_Brendon_Hartley_%26_Sebastien_Buemi_with_their_trophies_on_the_podium_at_the_2023_Le_Mans_%2853468267618%29.jpg/1280px-The_2nd_placed_Toyota_GR010_Hybrid_-_Ryo_Hirakawa%2C_Brendon_Hartley_%26_Sebastien_Buemi_with_their_trophies_on_the_podium_at_the_2023_Le_Mans_%2853468267618%29.jpg',
+      alt: 'Ryo Hirakawa, a la izquierda, con Brendon Hartley y Sébastien Buemi, coronas de laurel y trofeos en el podio de las 24 Horas de Le Mans de 2023',
+      credit: 'Martin Lee · Wikimedia Commons',
+      license: 'CC BY-SA 2.0',
+    },
+  },
+  {
     slug: 'valladolid-leganes-4-3-zorrilla-doblete-miguel-rubio-morata-oviedo-las-palmas-2-3-clasificacion-segunda-lunes',
     title: 'Valladolid - Leganés: doblete de Miguel Rubio en Zorrilla, dos goles de Morata sin premio y así queda Segunda',
     summary: 'El Valladolid ganó 4-3 al Leganés con dos goles de Miguel Rubio antes del 25 y un final de infarto con doblete de Morata. Las Palmas asaltó el Tartiere (2-3). Cómo queda la tabla tras el lunes.',
@@ -604,14 +886,14 @@ No es la única que lo cuenta estas semanas. Sandra Sánchez, oro olímpico en k
     summary: 'Tres equipos españoles juegan el martes a las 21:00 en la Champions: Atlético - Bayern, Villarreal - PSG y Barça - Aston Villa. Antes, Jódar - Ruud en París. Horarios, canales y hora de Canarias.',
     body: `El martes 3 de noviembre la Champions junta a tres equipos españoles a la misma hora. A las 21:00 (20:00 en Canarias) se juegan el Atlético - Bayern en el Metropolitano, el Villarreal - PSG en La Cerámica y el Barça - Aston Villa en el Camp Nou, [según el calendario de la cuarta jornada de la fase liga](https://www.uefa.com/uefachampionsleague/fixtures-results/). Antes, a las 18:45, abren el Galatasaray - Stuttgart y el Shakhtar - Sporting. Todos van por Movistar Plus+; el dial de cada partido está en su ficha y en la tabla de abajo.
 
-Por la tarde hay tenis con español. Rafael Jódar juega la segunda ronda del Masters 1000 de París contra Casper Ruud a partir de las 18:30, [según el orden de juego del torneo](https://www.atptour.com/en/scores/current/paris/352/daily-schedule), después de [ganar el lunes a Tabilo](/noticias/rafael-jodar-gana-tabilo-paris-masters-ruud-segunda-ronda-martes-carrera-turin-tiafoe-de-minaur). Más temprano, Alejandro Davidovich Fokina debuta ante el francés Moïse Kouamé.
+Por la tarde hay tenis con español. Rafael Jódar juega la segunda ronda del Masters 1000 de París contra Casper Ruud en el último turno de la pista central, no antes de las 20:30 [según el horario que publica SPORT](https://www.sport.es/es/noticias/tenis/jodar-ruud-horario-donde-ver-partido-masters-1000-paris-tv-directo-136003780), después de [ganar el lunes a Tabilo](/noticias/rafael-jodar-gana-tabilo-paris-masters-ruud-segunda-ronda-martes-carrera-turin-tiafoe-de-minaur). Más temprano, Alejandro Davidovich Fokina debuta ante el francés Moïse Kouamé.
 
 ## Horarios del martes y dónde ver
 
 | Peninsular | Canarias | Partido | Sede | Canal |
 | --- | --- | --- | --- | --- |
 | 12:30 (aprox.) | 11:30 | Kouamé - Davidovich Fokina (París, 1.ª ronda) | La Défense Arena | Movistar Plus+ |
-| 18:30 | 17:30 | Jódar - Ruud (París, 2.ª ronda) | La Défense Arena | Movistar Plus+ |
+| No antes de las 20:30 | 19:30 | Jódar - Ruud (París, 2.ª ronda) | La Défense Arena | Movistar Plus+ |
 | 18:45 | 17:45 | [Galatasaray - Stuttgart](/futbol/champions-league/partido/401915311) | RAMS Park, Estambul | M+ Liga de Campeones 3 |
 | 18:45 | 17:45 | [Shakhtar - Sporting](/futbol/champions-league/partido/401915310) | Stamford Bridge | M+ Liga de Campeones 2 |
 | 21:00 | 20:00 | [Atlético - Bayern](/futbol/champions-league/partido/401915386) | Metropolitano, Madrid | M+ Liga de Campeones |
@@ -649,6 +931,7 @@ La jornada sigue el miércoles 4 con el [AEK - Real Madrid](/futbol/champions-le
     sourceUrl: 'https://www.uefa.com/uefachampionsleague/fixtures-results/',
     sourceLang: 'en',
     publishedAt: '2026-11-02T16:20:00+01:00',
+    modifiedAt: '2026-11-03T08:58:00+01:00',
     author: 'Redacción Mundiales',
     sourcesSecondary: [
       { name: 'ESPN: clasificación de la Champions', url: 'https://www.espn.com/soccer/standings/_/league/uefa.champions' },
@@ -677,9 +960,9 @@ Es la quinta vez que el español y el chileno se cruzan este año y la cuarta qu
 | Basilea | Jódar | 6-4, 6-2 |
 | París | Jódar | 6-2, 6-3 |
 
-## Ruud, el martes a partir de las 18:30
+## Ruud, el martes no antes de las 20:30
 
-El Jódar - Ruud está programado el martes 3 de noviembre a partir de las 18:30 (17:30 en Canarias), [según el orden de juego publicado por el torneo](https://www.atptour.com/en/scores/current/paris/352/daily-schedule). En España se ve en Movistar Plus+, como el resto del cuadro; las opciones para seguir el tenis esta temporada están en [la guía de dónde ver tenis](/noticias/donde-ver-tenis-espana-atp-finals-copa-davis-alcaraz-movistar-hbo-max) y el resto del circuito, en [la sección de la ATP](/tenis/atp).
+El Jódar - Ruud está programado el martes 3 de noviembre en el último turno de la pista central, no antes de las 20:30 (19:30 en Canarias), [según el horario que publica SPORT](https://www.sport.es/es/noticias/tenis/jodar-ruud-horario-donde-ver-partido-masters-1000-paris-tv-directo-136003780). En España se ve en Movistar Plus+, como el resto del cuadro; las opciones para seguir el tenis esta temporada están en [la guía de dónde ver tenis](/noticias/donde-ver-tenis-espana-atp-finals-copa-davis-alcaraz-movistar-hbo-max) y el resto del circuito, en [la sección de la ATP](/tenis/atp).
 
 ## Lo que se juega: la carrera a Turín
 
@@ -699,6 +982,7 @@ Este curso ha sido cuartofinalista en Roland Garros, donde le frenó Alexander Z
     sourceUrl: 'https://www.atptour.com/en/scores/current/paris/352/results',
     sourceLang: 'en',
     publishedAt: '2026-11-02T16:22:00+01:00',
+    modifiedAt: '2026-11-03T08:58:00+01:00',
     author: 'Redacción Mundiales',
     sourcesSecondary: [
       { name: 'ESPN: marcador del Masters de París', url: 'https://www.espn.com/tennis/scoreboard' },
