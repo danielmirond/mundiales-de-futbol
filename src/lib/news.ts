@@ -154,6 +154,180 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'nba-resultados-2026-11-03',
+    title: "NBA: todos los resultados de la jornada y el partido más igualado",
+    summary: "Resultados de los 5 partidos de la noche en la NBA, con el más igualado y el de más puntos.",
+    body: `5 partidos en la NBA esta noche. El más igualado, Hawks 108-104 a Pacers. El de más puntos, 76ers ante Bulls (126-107).
+
+## Resultados
+
+- [Thunder 117-112 Cavaliers](/baloncesto/nba/partido/401909907)
+- [Pistons 124-91 Hornets](/baloncesto/nba/partido/401909908)
+- [Hawks 108-104 Pacers](/baloncesto/nba/partido/401909909)
+- [Wizards 103-94 Magic](/baloncesto/nba/partido/401909911)
+- [76ers 126-107 Bulls](/baloncesto/nba/partido/401909912)
+
+Marcadores en directo, calendario y clasificación por conferencias en la [página de la NBA](/baloncesto/nba).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"NBA","sport":"baloncesto","slug":"nba"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/nba/scoreboard",
+    sourceLang: 'en',
+    publishedAt: '2026-11-03T03:05:16.432Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Bankers_Life_Fieldhouse%2C_Indian%C3%A1polis%2C_Estados_Unidos%2C_2012-10-22%2C_DD_01.jpg/1920px-Bankers_Life_Fieldhouse%2C_Indian%C3%A1polis%2C_Estados_Unidos%2C_2012-10-22%2C_DD_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Gainbridge Fieldhouse, sede del Pacers - Hawks",
+      credit: "Diego Delso · CC BY-SA 3.0 · Wikimedia Commons",
+      license: "CC BY-SA 3.0",
+    },
+  },
+  {
+    slug: 'nfl-semana-2026-45',
+    title: "NFL: resultados de la semana y cómo quedan la AFC y la NFC",
+    summary: "Resultados de los 13 partidos de la semana en la NFL, el más ajustado y los mejores balances de la AFC y la NFC.",
+    body: `13 partidos en la última semana de la NFL. El triunfo más ajustado, el de Cardinals ante Cowboys (33-30); la mayor diferencia, la de Jaguars sobre Colts, por 35 puntos.
+
+## Resultados
+
+- Packers 27-19 Panthers
+- Bills 36-10 Ravens
+- Bengals 43-36 Titans
+- Cardinals 33-30 Cowboys
+- Lions 19-15 Vikings
+- Raiders 38-33 Jets
+- Steelers 27-6 Browns
+- Buccaneers 16-0 Falcons
+- Jaguars 42-7 Colts
+- Rams 24-9 Chargers
+- Broncos 28-24 Chiefs
+- Patriots 24-19 Dolphins
+- Commanders 27-10 Eagles
+
+## AFC
+
+- Bills: 6-1
+- Broncos: 6-2
+- Steelers: 6-2
+
+## NFC
+
+- 49ers: 6-1
+- Vikings: 6-1
+- Lions: 5-2
+
+Calendario, resultados y clasificación completa en la [página de la NFL](/futbol-americano/nfl).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"NFL","sport":"futbol-americano","slug":"nfl"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/nfl/scoreboard",
+    sourceLang: 'en',
+    publishedAt: '2026-11-03T03:05:16.432Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/EverBank_Stadium_aerial_view.jpg/1920px-EverBank_Stadium_aerial_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "EverBank Stadium, sede del Jaguars - Colts",
+      credit: "Quintin Soloviev · CC BY 4.0 · Wikimedia Commons",
+      license: "CC BY 4.0",
+    },
+  },
+  {
+    slug: 'cronica-deportivo-osasuna-401882824',
+    title: "Deportivo se impone a Osasuna (2-1) en LaLiga",
+    summary: "Ante Budimir marcó; Osasuna remató 11 veces (2 a puerta) en el Deportivo 2-1 Osasuna de LaLiga.",
+    body: `Osasuna, de perder 0-2 ante Sevilla. Acabó ganando Deportivo 2-1. En el marcador, Ante Budimir (32', Osasuna), Mario Soriano Carreno (64', Deportivo) y Bil Nsongo (87', Deportivo).
+
+## En cifras
+
+Deportivo tuvo el 62 % de la posesión por el 38 % de Osasuna; remató 18 veces (7 a puerta) frente a 11 (2) del rival. Córners: 8 por 2.
+
+## La clasificación
+
+Tras el partido, Deportivo 8.º con 14 puntos y Osasuna 15.º con 11 puntos en la [clasificación de LaLiga](/futbol/laliga).
+
+Ficha: 4 amarillas · 9 cambios. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/laliga/partido/401882824).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882824",
+    sourceLang: 'en',
+    publishedAt: '2026-11-03T03:05:16.432Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Estadio_de_Riazor_-_1.jpg/1280px-Estadio_de_Riazor_-_1.jpg",
+      alt: "Vista de A Coruña desde lo alto con el estadio de Riazor junto al mar",
+      credit: "Pablo Herrero from LA CORUÑA, Spain · Wikimedia Commons",
+      license: "CC BY 2.0",
+    },
+  },
+  {
+    slug: 'partidos-futbol-hoy-2026-11-03',
+    title: "Partidos de fútbol hoy, martes 3 de noviembre: horarios y dónde ver Champions, Copa del Rey y Championship",
+    summary: "Agenda de fútbol de hoy martes 3 de noviembre: 21 partidos con horario en hora española y canal de televisión. Destaca Galatasaray - Stuttgart.",
+    body: `21 partidos de fútbol para martes 3 de noviembre. Repasamos qué se juega, a qué hora y en qué canal, sin más vueltas. El partido que más miradas reúne es el **[Galatasaray - Stuttgart](/futbol/champions-league/partido/401915311)** (Champions League, 18:45 h).
+
+## Champions League
+
+- **[Galatasaray - Stuttgart](/futbol/champions-league/partido/401915311)** — 18:45 h · 📺 M+ Liga de Campeones 3
+- **[Shakhtar - Sporting](/futbol/champions-league/partido/401915310)** — 18:45 h · 📺 M+ Liga de Campeones 2
+- **[Atlético - Bayern](/futbol/champions-league/partido/401915386)** — 21:00 h · 📺 M+ Vamos / M+ Liga de Campeones 2
+- **[Barcelona - Aston Villa](/futbol/champions-league/partido/401915387)** — 21:00 h · 📺 M+ Liga de Campeones 2
+- **[Bodo/Glimt - Lille](/futbol/champions-league/partido/401915384)** — 21:00 h
+- **[Feyenoord - Inter Milan](/futbol/champions-league/partido/401915307)** — 21:00 h · 📺 M+ Liga de Campeones 5
+- **[LASK Linz - S Bratislava](/futbol/champions-league/partido/401915385)** — 21:00 h · 📺 M+ Liga de Campeones 7
+- **[Man Utd - AS Roma](/futbol/champions-league/partido/401915308)** — 21:00 h · 📺 M+ Liga de Campeones 8
+- **[Villarreal - PSG](/futbol/champions-league/partido/401915309)** — 21:00 h · 📺 M+ Liga de Campeones 3
+
+Calendario y clasificación en la [página de Champions](/futbol/champions-league).
+
+## 🇪🇸 Copa del Rey
+
+- **[Anaitasuna - Alavés](/futbol/copa-del-rey/partido/401928514)** — 19:00 h
+- **[CD Pamplona - Eibar](/futbol/copa-del-rey/partido/401928516)** — 19:00 h
+
+Calendario y clasificación en la [página de Copa del Rey](/futbol/copa-del-rey).
+
+## 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Championship
+
+- **[Blackburn - Stoke](/futbol/championship/partido/401880183)** — 20:45 h
+- **[Charlton - Bolton](/futbol/championship/partido/401880174)** — 20:45 h
+- **[Derby - Norwich City](/futbol/championship/partido/401880182)** — 20:45 h
+- **[Portsmouth - Swansea](/futbol/championship/partido/401880181)** — 20:45 h
+- **[Preston - Sheffield Utd](/futbol/championship/partido/401880180)** — 20:45 h
+- **[QPR - Burnley](/futbol/championship/partido/401880179)** — 20:45 h
+- **[Watford - Lincoln City](/futbol/championship/partido/401880178)** — 20:45 h
+- **[Birmingham - Millwall](/futbol/championship/partido/401880184)** — 21:00 h
+- **[West Brom - Southampton](/futbol/championship/partido/401880177)** — 21:00 h
+
+Calendario y clasificación en la [página de Championship](/futbol/championship).
+
+## 🇧🇷 Brasileirão
+
+- **[Chapecoense - Mirassol](/futbol/brasileirao/partido/401841304)** — 23:30 h
+
+Calendario y clasificación en la [página de Brasileirão](/futbol/brasileirao).
+
+Todos los horarios están en hora peninsular. Los marcadores se actualizan en directo en cada ficha de partido. Toda la jornada, con marcadores en directo, en [partidos de hoy](/partidos-hoy).`,
+    category: 'tv',
+    kind: 'agenda',
+    competition: {"name":"Champions","sport":"futbol","slug":"champions-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401915311",
+    sourceLang: 'en',
+    publishedAt: '2026-11-03T03:05:16.432Z',
+    modifiedAt: '2026-11-03T03:05:16.432Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Ali_Sami_Yen_Spor_Kompleksi_Aslanl%C4%B1_Yol_Y%C3%BCzevler_Restaurant.JPG/1920px-Ali_Sami_Yen_Spor_Kompleksi_Aslanl%C4%B1_Yol_Y%C3%BCzevler_Restaurant.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "RAMS Park, escenario del Galatasaray - Stuttgart",
+      credit: "LardoBalsamico · CC BY-SA 3.0 · Wikimedia Commons",
+      license: "CC BY-SA 3.0",
+    },
+  },
+  {
     slug: 'valladolid-leganes-4-3-zorrilla-doblete-miguel-rubio-morata-oviedo-las-palmas-2-3-clasificacion-segunda-lunes',
     title: 'Valladolid - Leganés: doblete de Miguel Rubio en Zorrilla, dos goles de Morata sin premio y así queda Segunda',
     summary: 'El Valladolid ganó 4-3 al Leganés con dos goles de Miguel Rubio antes del 25 y un final de infarto con doblete de Morata. Las Palmas asaltó el Tartiere (2-3). Cómo queda la tabla tras el lunes.',
