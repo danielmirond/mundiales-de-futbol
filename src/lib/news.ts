@@ -191,7 +191,7 @@ El Tenerife - Andorra de [LaLiga Hypermotion](/futbol/laliga-2) quedó suspendid
     sourceName: 'RFEF: la RFEF suspende la jornada de fútbol de este 3 de noviembre',
     sourceUrl: 'https://rfef.es/es/noticias/la-rfef-suspende-la-jornada-de-futbol-de-este-3-de-noviembre-tras-el-fallecimiento-de',
     sourceLang: 'es',
-    publishedAt: '2026-11-03T12:31:00+01:00',
+    publishedAt: '2026-11-03T12:20:00+01:00',
     author: 'Redacción Mundiales',
     sourcesSecondary: [
       { name: 'CD Tenerife: comunicado oficial del fallecimiento de Jesús de Miguel', url: 'https://www.clubdeportivotenerife.es/noticias/comunicado-oficial-fallecimiento-de-jesus-de-miguel' },
@@ -252,7 +252,7 @@ A quien quiera saber qué le dice el futbolista de 35 años al que empieza: que 
     sourceName: 'Brands & Players: entrevista con Sergio Canales (B&P Magazine 57)',
     sourceUrl: 'https://www.youtube.com/watch?v=7osMm08UeYM',
     sourceLang: 'es',
-    publishedAt: '2026-11-03T12:34:00+01:00',
+    publishedAt: '2026-11-03T12:23:00+01:00',
     author: 'Redacción Mundiales',
     sourcesSecondary: [
       { name: 'Wikipedia: Sergio Canales (trayectoria)', url: 'https://es.wikipedia.org/wiki/Sergio_Canales' },
@@ -303,7 +303,7 @@ El [Championship](/futbol/championship) y las categorías inferiores inglesas se
     sourceName: 'NOW Toronto: Patrick Stewart is worried about football (2015)',
     sourceUrl: 'https://nowtoronto.com/movies/tiff-2015/tiff-2015-patrick-stewart-is-worried-about-football',
     sourceLang: 'en',
-    publishedAt: '2026-11-03T12:37:00+01:00',
+    publishedAt: '2026-11-03T12:26:00+01:00',
     author: 'Redacción Mundiales',
     sourcesSecondary: [
       { name: 'Récord: el encuentro entre Patrick Stewart y Lionel Messi', url: 'https://www.record.com.mx/historia/asi-fue-el-divertido-y-entranable-encuentro-entre-patrick-stewart-y-lionel-messi-2026103015205890978' },
@@ -353,7 +353,7 @@ Infantino [se presenta a la reelección en marzo](https://www1.folha.uol.com.br/
     sourceName: 'Folha de S.Paulo / The New York Times: Fifa assume que pagou cerca de R$ 22 milhões de impostos de Infantino nos EUA',
     sourceUrl: 'https://www1.folha.uol.com.br/esporte/2026/11/fifa-assume-que-pagou-cerca-de-r-22-milhoes-de-impostos-de-infantino-nos-eua.shtml',
     sourceLang: 'pt',
-    publishedAt: '2026-11-03T12:40:00+01:00',
+    publishedAt: '2026-11-03T12:28:00+01:00',
     author: 'Redacción Mundiales',
     sourcesSecondary: [
       { name: 'Emol / EFE: The Times destapa un sueldo no declarado de Infantino', url: 'https://www.emol.com/noticias/Deportes/2026/10/13/1213955/infantino-sueldo-fifa-escandalo.html' },
