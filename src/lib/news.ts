@@ -154,6 +154,163 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'lautaro-spatz-andorra-defiende-owono-acciones-fortuitas-carta-instagram-jesus-de-miguel-funeral-navahermosa',
+    title: 'Lautaro Spatz, el compañero que defiende a Owono: «En el fútbol existen acciones fortuitas»',
+    summary: 'El central argentino del Andorra publicó una carta tras la muerte de Jesús de Miguel para pedir que no se culpe a su portero, que cerró sus redes. Qué dice y quién es Spatz.',
+    body: `Lautaro Spatz es central del FC Andorra y compañero de Jesús Owono, el portero que chocó con Jesús de Miguel en el Heliodoro Rodríguez López. Su nombre se dispara en las búsquedas desde que publicó en sus historias de Instagram una carta en defensa de Owono, [que recoge ElDesmarque](https://www.eldesmarque.com/futbol/liga-2a-division/20261104/lautaro-spatz-carta-owono-muerte-jesus-miguel_18_020614499.html). La idea central: la jugada fue un accidente y el portero no quiso hacer daño a nadie. «En el fútbol existen acciones fortuitas», escribe.
+
+De Miguel, delantero del Tenerife, se desplomó en el tiempo añadido del partido del lunes y [murió el martes por la mañana](/noticias/jesus-de-miguel-tenerife-uci-choque-owono-parada-cardiorrespiratoria-comunicado-heliodoro-andorra-suspendido). Tenía 30 años.
+
+## Qué dice la carta
+
+Spatz empieza por el vestuario: la plantilla del Andorra está conmocionada, hundida y afectada por lo sucedido. Después da el pésame a la familia, los amigos y la afición de De Miguel, y se despide de él con un descansa en paz.
+
+El resto es para Owono, al que presenta como su portero y su amigo. Dice que quienes lo conocen saben qué clase de persona es y cuánto está sufriendo. Hugo Solozábal, también del Andorra, compartió la publicación.
+
+## Por qué hacía falta
+
+Owono, de 25 años, desactivó el martes su cuenta de Instagram después de recibir insultos racistas, [según ESPN](https://www.espn.com/soccer/story/_/id/50377166/goalkeeper-involved-incident-deeply-affected-death). En la misma línea que Spatz se pronunció Mina Bonino, esposa de Fede Valverde, que pidió a sus seguidores que dejaran de señalar al portero.
+
+ESPN añade dos datos más. La policía ha abierto una investigación, el trámite que la ley española prevé para cualquier muerte por causa no natural, también los accidentes. Y Rayco García, accionista mayoritario del Tenerife, contó en El Larguero que toda la plantilla irá al funeral del jueves en Navahermosa (Toledo) y que el sábado habrá un homenaje en el Heliodoro.
+
+## Quién es Lautaro Spatz
+
+Es argentino y llegó al Andorra este verano. El club lo presentó el 11 de agosto, antes del estreno liguero contra el Ceuta, con un contrato de dos temporadas y opción a una tercera, [según Alto Andorra](https://www.alto.ad/sports/2026/08/lautaro-spatz-fc-andorra-villarreal-pique). Venía del filial del Villarreal, donde jugó 31 partidos la temporada pasada, como recoge [su ficha en la web del club amarillo](https://villarrealcf.es/player/lautaro/).
+
+En aquella presentación explicó que lo convenció una llamada de Gerard Piqué, dueño del Andorra: que tu ídolo, un central como tú, te llame para ficharte, dijo, fue lo que inclinó la balanza.
+
+| Lautaro Spatz | |
+| --- | --- |
+| Club | FC Andorra (LaLiga Hypermotion) |
+| Posición | Defensa central |
+| Llegada | Agosto de 2026, contrato de 2+1 temporadas |
+| Club anterior | Villarreal B (31 partidos en 2025-26) |
+
+El Tenerife - Andorra del lunes sigue sin resolverse: el partido quedó suspendido con 2-2 y el Andorra lo mantiene como abandonado en su calendario. Toda la información del Andorra está en [su ficha de equipo](/futbol/laliga-2/equipo/20179) y la de la categoría, en [la sección de LaLiga Hypermotion](/futbol/laliga-2).`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'LaLiga Hypermotion', sport: 'futbol', slug: 'laliga-2' },
+    sourceName: 'ElDesmarque',
+    sourceUrl: 'https://www.eldesmarque.com/futbol/liga-2a-division/20261104/lautaro-spatz-carta-owono-muerte-jesus-miguel_18_020614499.html',
+    sourceLang: 'es',
+    publishedAt: '2026-11-04T13:40:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'ESPN: Owono, las redes y el funeral de Jesús de Miguel', url: 'https://www.espn.com/soccer/story/_/id/50377166/goalkeeper-involved-incident-deeply-affected-death' },
+      { name: 'Alto Andorra: presentación de Lautaro Spatz', url: 'https://www.alto.ad/sports/2026/08/lautaro-spatz-fc-andorra-villarreal-pique' },
+      { name: 'Villarreal CF: ficha de Lautaro', url: 'https://villarrealcf.es/player/lautaro/' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Estadioheliodoro3.jpg/1280px-Estadioheliodoro3.jpg',
+      alt: 'Tribuna principal del estadio Heliodoro Rodríguez López, en Santa Cruz de Tenerife, con los aspersores regando el césped antes de un partido',
+      credit: 'Magical Blas · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'teddy-riner-ferrari-rolls-royce-hacienda-francia-cour-appel-versailles-no-podia-ignorarlo-alquiler-coches-lujo',
+    title: 'Teddy Riner, la Ferrari y el Rolls-Royce: el tribunal dice que «no podía ignorarlo»',
+    summary: 'La justicia francesa confirma la sanción de Hacienda al judoka por usar en privado dos coches de lujo de su empresa de alquiler. Su defensa culpó a los atentados.',
+    body: `Teddy Riner, el judoka con más títulos mundiales de la historia, ha perdido otra vez contra Hacienda. La cour administrative d'appel de Versailles confirmó el 15 de octubre la regularización fiscal que le impuso el fisco francés por dos coches de lujo, una Ferrari y un Rolls-Royce, que figuraban en una empresa de alquiler de su propiedad. Lo adelantó L'Équipe y lo ha confirmado la AFP, [que publica La Dépêche](https://www.ladepeche.fr/2026/11/03/teddy-riner-il-ne-pouvait-lignorer-la-justice-valide-le-redressement-fiscal-du-judoka-au-sujet-de-deux-voitures-de-luxe-il-avait-deliberement-minore-13634374.php).
+
+## Qué le reprocha Hacienda
+
+La inspección es de 2019 y mira atrás, a 2016 y 2017. Según la Administración, Riner era el conductor exclusivo de esos dos coches. Por eso consideró que lo que la empresa gastaba en ellos no era un gasto del negocio de alquiler, sino un pago encubierto al propio judoka, una retribución oculta en la terminología del fisco.
+
+El tribunal va más allá y habla de una intención deliberada de pagar menos impuestos. La frase que resume el fallo es que el deportista «no podía ignorar» que esos gastos no respondían al objeto de la sociedad y que él figuraba como único conductor de algunos de los vehículos.
+
+## La defensa: los atentados
+
+Los abogados de la empresa intentaron explicar por qué esos coches apenas generaron ingresos. Su argumento, según L'Équipe: en 2017 se alquilaron poco por el contexto del año anterior, marcado por los atentados que alejaron a la clientela extranjera. No convenció a los jueces.
+
+Es la segunda derrota. A finales de 2025, el medio de investigación L'Informé ya había contado que el [tribunal administrativo de Cergy-Pontoise](https://rci.fm/infos/Teddy-Riner) le había dado la razón a Hacienda en primera instancia.
+
+| Fase | Tribunal | Resultado |
+| --- | --- | --- |
+| Inspección (2019) | Administración fiscal | Regularización por 2016 y 2017 |
+| Primera instancia (2025) | Tribunal administrativo de Cergy-Pontoise | Gana Hacienda |
+| Apelación (15-oct-2026) | Cour administrative d'appel de Versailles | Gana Hacienda |
+
+## Lo que no se sabe
+
+La cifra. Ni L'Équipe ni la AFP la publican, y la AFP explica que la sentencia que consultó está anonimizada: no aparecen nombres de personas ni de sociedades. El entorno de Riner no respondió el martes a la agencia.
+
+El contraste con su palmarés es lo que lo convierte en noticia en Francia. Riner suma, [según el recuento de la Wikipedia](https://en.wikipedia.org/wiki/Teddy_Riner), tres oros olímpicos individuales en más de 100 kilos (Londres 2012, Río 2016 y París 2024), dos más por equipos y doce títulos mundiales, más que ningún otro judoka.
+
+No es el primer deportista con un pleito fiscal por cómo se paga a sí mismo. Aquí contamos hace poco [cómo la FIFA le paga los impuestos a Gianni Infantino en Miami](/noticias/gianni-infantino-miami-fifa-paga-impuestos-estados-unidos-comite-remuneracion-bangkok-chiomento-sin-publicar-nyt), y el de un retirado que cuenta abiertamente en qué invirtió: [Ezequiel Garay y sus chalés de Bétera](/noticias/ezequiel-garay-40-anos-me-fui-al-pozo-al-dejar-el-futbol-chales-betera-17-pistas-padel-madrid-el-cafelito-valencia-real-madrid).`,
+    category: 'polemica',
+    kind: 'noticia',
+    competition: { name: 'Judo', sport: 'combate', slug: 'judo' },
+    sourceName: 'La Dépêche (AFP)',
+    sourceUrl: 'https://www.ladepeche.fr/2026/11/03/teddy-riner-il-ne-pouvait-lignorer-la-justice-valide-le-redressement-fiscal-du-judoka-au-sujet-de-deux-voitures-de-luxe-il-avait-deliberement-minore-13634374.php',
+    sourceLang: 'fr',
+    publishedAt: '2026-11-04T13:38:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'RCI: la primera sentencia, en Cergy-Pontoise', url: 'https://rci.fm/infos/Teddy-Riner' },
+      { name: 'Wikipedia: palmarés de Teddy Riner', url: 'https://en.wikipedia.org/wiki/Teddy_Riner' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Teddy_Riner_%2826082139536%29.jpg/1280px-Teddy_Riner_%2826082139536%29.jpg',
+      alt: 'Teddy Riner, con judogui blanco, lanza por encima de su cuerpo a un rival de azul ante el árbitro en el tatami amarillo de los Juegos de Londres 2012',
+      credit: 'Martin Hesketh · Wikimedia Commons',
+      license: 'CC BY 2.0',
+    },
+  },
+  {
+    slug: 'stefan-kretzschmar-53-anos-casa-mallorca-golf-canyamel-dos-semanas-espana-alemania-leyenda-balonmano-dyn',
+    title: 'Stefan Kretzschmar, el punk del balonmano alemán, se compra casa junto al golf de Canyamel',
+    summary: 'La leyenda alemana, plata olímpica en 2004 y hoy comentarista, ha comprado una casa en Mallorca y vivirá a caballo entre la isla y Berlín: dos semanas aquí, dos allí.',
+    body: `Stefan Kretzschmar ha comprado una casa en Mallorca. La leyenda del balonmano alemán, de 53 años, lo ha contado [en una entrevista con Sport Bild](https://sportbild.bild.de/sportmix/handball/immobilie-gekauft-handball-legende-wandert-halb-nach-mallorca-aus-6ae99597e54274d5b379d3ec): la vivienda está en el norte de la isla, cerca de su campo de golf favorito, el de Canyamel. «Nos hemos cumplido un sueño», dice.
+
+No es una mudanza completa. Su plan, de momento, es pasar dos semanas en España y dos en Alemania, donde vive con su pareja, Dorle, a orillas de un lago al norte de Berlín.
+
+## Comentarista desde la terraza
+
+Los seguidores alemanes ya lo habían notado. Su Instagram se llenó de fotos de Mallorca y, en los últimos programas de balonmano de la plataforma Dyn, donde es comentarista, aparecía sentado al sol en una terraza. Así seguirá: según Sport Bild, la media emigración no cambia nada en su trabajo, porque se puede trabajar desde cualquier sitio.
+
+Está en Dyn desde agosto de 2023, cuando dejó Sky, y antes fue director deportivo de los Füchse Berlin, el club al que [llegará en 2027 el danés Simon Pytlick](/noticias/simon-pytlick-libre-directo-flensburg-fuchse-berlin-krickau-gidsel).
+
+## Por qué en Alemania es una noticia
+
+Kretzschmar es probablemente el jugador de balonmano más conocido de Alemania fuera de la pista. La Federación Europea le dedicó un perfil titulado [el punk del balonmano](https://history.eurohandball.com/article/047819/%e2%80%9cThe+Handball+Punk%e2%80%9d%3a+an+insight+into+the+life+of+Stefan+Kretzschmar), y en junio de 2023 [lo metió en su Hall of Fame](https://www.eurohandball.com/en/news/en/legendary-players-enter-the-hall-of-fame-of-european-handball/).
+
+Lo que ganó en la pista, [según su biografía en la Wikipedia alemana](https://de.wikipedia.org/wiki/Stefan_Kretzschmar):
+
+| Año | Logro |
+| --- | --- |
+| 2001 | Liga alemana y Copa EHF con el Magdeburgo |
+| 2002 | Champions League con el Magdeburgo, el primer equipo alemán en ganarla |
+| 2002 | Plata en el Europeo de Suecia |
+| 2003 | Plata en el Mundial de Portugal |
+| 2004 | Plata olímpica en Atenas, tras perder la final con Croacia |
+
+Le viene de familia. Su madre, Waltraud Kretzschmar, fue tres veces campeona del mundo con la RDA (1971, 1975 y 1978), y su padre, Peter, fue internacional y seleccionador del equipo femenino de la RDA.
+
+## Lo que no ha contado
+
+Kretzschmar no ha dicho cuánto le ha costado la casa ni dónde está exactamente. Lo que sí ha dejado claro es el reparto: la mitad del mes, sol y golf; la otra mitad, el lago de Berlín. Toda la actualidad del balonmano está en [nuestra sección](/balonmano).`,
+    category: 'curiosa',
+    kind: 'noticia',
+    competition: { name: 'Balonmano', sport: 'balonmano', slug: 'balonmano' },
+    sourceName: 'Sport Bild',
+    sourceUrl: 'https://sportbild.bild.de/sportmix/handball/immobilie-gekauft-handball-legende-wandert-halb-nach-mallorca-aus-6ae99597e54274d5b379d3ec',
+    sourceLang: 'de',
+    publishedAt: '2026-11-04T13:36:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'EHF: Kretzschmar entra en el Hall of Fame (2023)', url: 'https://www.eurohandball.com/en/news/en/legendary-players-enter-the-hall-of-fame-of-european-handball/' },
+      { name: 'EHF: «The Handball Punk»', url: 'https://history.eurohandball.com/article/047819/%e2%80%9cThe+Handball+Punk%e2%80%9d%3a+an+insight+into+the+life+of+Stefan+Kretzschmar' },
+      { name: 'Wikipedia (de): Stefan Kretzschmar', url: 'https://de.wikipedia.org/wiki/Stefan_Kretzschmar' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Stefan_Kretzschmar_%282010-12-10%29_a.JPG/1280px-Stefan_Kretzschmar_%282010-12-10%29_a.JPG',
+      alt: 'Stefan Kretzschmar, con el pelo rubio platino y camiseta blanca, gesticula durante un partido de homenaje en un pabellón con público detrás',
+      credit: 'Klugschnacker · Wikimedia Commons',
+      license: 'CC BY-SA 3.0',
+    },
+  },
+  {
     slug: 'jackson-martinez-40-anos-vuelve-seis-retirado-gol-medellin-alianza-valderrama-vuelva-que-usted-puede-atletico',
     title: 'Jackson Martínez, 40 años, vuelve tras seis retirado: «Vuelva, que usted puede», dijo el Pibe',
     summary: 'El delantero que el Atlético vendió a China por 42 millones salió del banquillo y marcó el 2-1 del Medellín en el 87, con su equipo en diez. Volvió empujado por Valderrama.',
