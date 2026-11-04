@@ -24,6 +24,7 @@ export type Piece = {
   modifiedAt?: string;
   author: string;
   image?: { url: string; alt: string; credit?: string; license?: string };
+  sourcesSecondary?: { name: string; url: string }[];
 };
 
 const esc = (s: string) => s.replace(/\\/g, '\\\\').replace(/`/g, '\\`').replace(/\$\{/g, '\\${');
@@ -45,7 +46,7 @@ ${p.kind ? `    kind: '${p.kind}',\n` : ''}${p.competition ? `    competition: $
     sourceLang: '${p.sourceLang}',
     publishedAt: '${p.publishedAt}',
 ${p.modifiedAt ? `    modifiedAt: '${p.modifiedAt}',\n` : ''}    author: ${JSON.stringify(p.author)},
-${img}  },\n`;
+${img}${p.sourcesSecondary?.length ? `    sourcesSecondary: [\n${p.sourcesSecondary.map((x) => `      { name: ${JSON.stringify(x.name)}, url: ${JSON.stringify(x.url)} },\n`).join('')}    ],\n` : ''}  },\n`;
 }
 
 const blockRe = (slug: string) => new RegExp(`  \\{\\n    slug: '${slug}',[\\s\\S]*?\\n  \\},\\n`);

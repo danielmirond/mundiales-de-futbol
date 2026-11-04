@@ -8,6 +8,7 @@ import { LiveStrip } from '@/components/feed/live-strip';
 import { NewsOpening } from '@/components/home/news-opening';
 import { PadelHub } from '@/components/portal/padel-hub';
 import { AdSlot } from '@/components/affiliate/ad-slot';
+import { WatchGuideLink } from '@/components/affiliate/watch-guide-link';
 import { RacingHub } from '@/components/portal/racing-hub';
 import { TennisHub } from '@/components/portal/tennis-hub';
 import { GolfHub, FightHub } from '@/components/portal/individual-hubs';
@@ -57,6 +58,8 @@ export default async function SportPage({ params }: { params: Promise<{ locale: 
           <Link href={withLocale(L, '/universitario')} className="mt-4 inline-flex rounded-full border border-[var(--color-border-strong)] px-4 py-2 text-sm font-semibold hover:border-[var(--accent)] hover:text-[var(--accent-ink)]">Deporte universitario (NCAA) →</Link>
         )}
       </header>
+
+      <WatchGuideLink sport={s.slug} locale={L} className="mt-6" />
 
       <NewsOpening locale={L} scope={{ sport: s.slug }} />
 

@@ -1,7 +1,11 @@
+import generated from '../data/watch-guides.json';
+
 /**
- * Guías de «dónde ver» por competición (piezas de /noticias con enlaces de afiliado).
- * Las fichas de partido y las páginas de competición enlazan a la suya; si una
- * competición no tiene guía propia, enlazan a la general.
+ * Guías de «dónde ver» por competición y por deporte (piezas de /noticias con
+ * enlaces de afiliado). Las fichas de partido, las páginas de competición y las
+ * de deporte enlazan a la suya. Las guías nuevas se registran en
+ * src/data/watch-guides.json (clave = slug de competición o «sport:<slug>»);
+ * la general solo queda como último recurso.
  */
 export const WATCH_GUIDE_GENERAL = 'donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1';
 
@@ -28,7 +32,23 @@ const BY_COMPETITION: Record<string, { slug: string; label: string }> = {
   boxeo: { slug: 'donde-ver-ufc-boxeo-espana-hbo-max-eurosport-dazn-topuria-canelo', label: 'el boxeo' },
 };
 
-/** Guía de la competición, o la general con el nombre de la competición. */
+const GEN = generated as Record<string, { slug: string; label: string }>;
+
+/** Deportes cuya guía es la de una competición ya publicada. */
+const SPORT_FALLBACK: Record<string, { slug: string; label: string }> = {
+  futbol: { slug: WATCH_GUIDE_GENERAL, label: 'el fútbol' },
+  tenis: BY_COMPETITION.atp,
+  combate: { slug: BY_COMPETITION.ufc.slug, label: 'la UFC y el boxeo' },
+};
+/** Deportes de una sola competición: su guía es la de esa competición. */
+const SPORT_SINGLE: Record<string, string> = { padel: 'padel', hockey: 'nhl', beisbol: 'mlb' };
+
+/** Guía de la competición (la nueva manda sobre la compartida), o la general. */
 export function watchGuideFor(compSlug: string, compName: string) {
-  return BY_COMPETITION[compSlug] ?? { slug: WATCH_GUIDE_GENERAL, label: compName };
+  return GEN[compSlug] ?? BY_COMPETITION[compSlug] ?? { slug: WATCH_GUIDE_GENERAL, label: compName };
+}
+
+/** Guía de un deporte, o null si aún no tiene. */
+export function watchGuideForSport(sport: string): { slug: string; label: string } | null {
+  return GEN[`sport:${sport}`] ?? SPORT_FALLBACK[sport] ?? (SPORT_SINGLE[sport] ? GEN[SPORT_SINGLE[sport]] ?? null : null);
 }

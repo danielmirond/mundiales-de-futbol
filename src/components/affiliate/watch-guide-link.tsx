@@ -1,10 +1,11 @@
 import Link from 'next/link';
-import { watchGuideFor } from '@/lib/watch-guides';
+import { watchGuideFor, watchGuideForSport } from '@/lib/watch-guides';
 import { routing, type Locale } from '@/i18n/routing';
 
-/** Franja «Dónde ver»: enlaza la guía de la competición (plataformas, precios y lo gratis). */
-export function WatchGuideLink({ compSlug, compName, locale, className = '' }: { compSlug: string; compName: string; locale: Locale; className?: string }) {
-  const g = watchGuideFor(compSlug, compName);
+/** Franja «Dónde ver»: enlaza la guía de la competición, o la del deporte con `sport` (plataformas, precios y lo gratis). */
+export function WatchGuideLink({ compSlug, compName, sport, locale, className = '' }: { compSlug?: string; compName?: string; sport?: string; locale: Locale; className?: string }) {
+  const g = sport ? watchGuideForSport(sport) : watchGuideFor(compSlug ?? '', compName ?? '');
+  if (!g) return null;
   const href = `${locale === routing.defaultLocale ? '' : `/${locale}`}/noticias/${g.slug}`;
   return (
     <section className={`mx-auto w-full max-w-[1000px] px-6 md:px-10 ${className}`}>
