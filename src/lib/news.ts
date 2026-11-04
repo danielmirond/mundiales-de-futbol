@@ -154,6 +154,156 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'alexander-zverev-eliminado-paris-musetti-estreno-medvedev-buse-tiafoe-de-minaur-alcaraz-michelsen',
+    title: 'Alexander Zverev cae en su estreno en París ante Musetti y el cuadro se queda sin su número 1',
+    summary: 'Alexander Zverev, primer cabeza de serie, perdió 7-6 y 6-2 ante Lorenzo Musetti en su primer partido del Masters 1000 de París. Medvedev, Tiafoe y De Miñaur también cayeron el miércoles.',
+    body: `Alexander Zverev no pasó de su primer partido en el Masters 1000 de París. El alemán, número 1 del mundo y primer cabeza de serie, perdió este miércoles ante Lorenzo Musetti por 7-6 (5) y 6-2 en la pista central, [según los resultados de la ATP](https://www.atptour.com/en/scores/current/paris/352/results). Había estado exento de la primera ronda, así que se va de París sin ganar un partido.
+
+No fue el único favorito que cayó. El miércoles se llevó por delante a cuatro de los ocho primeros cabezas de serie: además de Zverev, perdieron Daniil Medvedev (4), Frances Tiafoe (7) y Alex de Miñaur (8). Flavio Cobolli, el quinto, [se había retirado del torneo antes de empezar](https://en.wikipedia.org/wiki/2026_Rolex_Paris_Masters_%E2%80%93_Singles). De los ocho primeros solo siguen Carlos Alcaraz (2), Ben Shelton (3) y Arthur Fils (6).
+
+## Los resultados del miércoles
+
+| Partido | Resultado |
+| --- | --- |
+| Lorenzo Musetti - Alexander Zverev (1) | 7-6 (5), 6-2 |
+| Ignacio Buse - Daniil Medvedev (4) | 6-4, 6-4 |
+| Quentin Halys - Frances Tiafoe (7) | 6-3, 1-6, 7-6 (9) |
+| Tomás Martín Etcheverry - Alex de Miñaur (8) | 7-6 (2), 6-3 |
+| Luca Van Assche - Learner Tien (15) | 7-6 (4), 6-4 |
+
+La sorpresa más grande la firmó el peruano Ignacio Buse, que despachó a Medvedev en dos sets. Musetti, que había ganado a Hubert Hurkacz en primera ronda, se mide ahora a Van Assche en octavos.
+
+## Por qué el número 1 era Zverev
+
+El campeón defensor no está. Jannik Sinner, que ganó en París en 2025, [dio por terminada su temporada el 6 de octubre](https://www.atptour.com/en/news/sinner-2026-injury-announcement-october) por una lesión de rodilla. Sin él, Zverev llegó como primer cabeza de serie y Alcaraz como segundo, con lo que el murciano es desde esta tarde el jugador mejor situado del cuadro.
+
+## Alcaraz, esta noche
+
+Alcaraz debuta hoy contra el estadounidense Alex Michelsen, en el turno de las 19:00 (18:00 en Canarias). El horario y el resto de la jornada están en [la pieza de servicio del miércoles](/noticias/aek-real-madrid-dortmund-betis-miercoles-4-noviembre-champions-horario-donde-ver-alcaraz-paris-davidovich-baja), y las plataformas que emiten el circuito, en [la guía de dónde ver tenis](/noticias/donde-ver-tenis-espana-atp-finals-copa-davis-alcaraz-movistar-hbo-max).
+
+## Jódar y Mérida, ya fuera
+
+Alcaraz es el último español en el cuadro individual. Daniel Mérida perdió este miércoles ante Tommy Paul por 6-1 y 6-1, y Rafael Jódar cayó el martes ante Casper Ruud por 6-3 y 6-4. Tiafoe y De Miñaur, los dos rivales que tenía más cerca en la carrera a las ATP Finals de Turín, como [contábamos tras su estreno](/noticias/rafael-jodar-gana-tabilo-paris-masters-ruud-segunda-ronda-martes-carrera-turin-tiafoe-de-minaur), tampoco ganaron su primer partido. El cuadro completo y la clasificación, en [la sección de la ATP](/tenis/atp).`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'ATP', sport: 'tenis', slug: 'atp' },
+    sourceName: 'ATP Tour',
+    sourceUrl: 'https://www.atptour.com/en/scores/current/paris/352/results',
+    sourceLang: 'en',
+    publishedAt: '2026-11-04T16:58:00+01:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Alexander_Zverev_Wimbledon_2026.jpg/1280px-Alexander_Zverev_Wimbledon_2026.jpg',
+      alt: 'Alexander Zverev habla al micrófono sobre la hierba de la pista central de Wimbledon en la ceremonia de la final de 2026, con Jannik Sinner y el trofeo a la izquierda',
+      credit: 'Daniel Cooper · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+    sourcesSecondary: [
+      { name: 'Wikipedia: cuadro individual de París 2026', url: 'https://en.wikipedia.org/wiki/2026_Rolex_Paris_Masters_%E2%80%93_Singles' },
+      { name: 'ATP: Sinner da por terminada la temporada', url: 'https://www.atptour.com/en/news/sinner-2026-injury-announcement-october' },
+    ],
+  },
+  {
+    slug: 'rafa-nadal-junta-directiva-real-madrid-asamblea-extraordinaria-21-noviembre-socios-presidencia',
+    title: 'Rafa Nadal, a la junta del Real Madrid: los socios lo votan dos años después de su adiós',
+    summary: 'El Real Madrid propone a Rafa Nadal como directivo y los compromisarios lo votan el 21 de noviembre, dos años y dos días después de su último partido. Qué se vota y qué pide la presidencia.',
+    body: `El Real Madrid quiere a Rafa Nadal en su Junta Directiva. La junta lo acordó por unanimidad este miércoles y [lo anunció en un comunicado oficial](https://www.realmadrid.com/es-ES/noticias/club/comunicados/comunicado-oficial-rafael-nadal-04-11-2026). No es firme todavía: el nombramiento lo tienen que ratificar los socios compromisarios en una Asamblea General Extraordinaria el sábado 21 de noviembre, con ese único punto en el orden del día, [según la convocatoria del club](https://www.realmadrid.com/es-ES/noticias/club/actualidad/el-sabado-21-de-noviembre-tendran-lugar-las-asambleas-generales-ordinaria-y-extraordinaria-de-socios-representantes-04-11-2026).
+
+Nadal ha aceptado la propuesta «con mucha ilusión, ganas de aprender y aportar todo lo que pueda», [recoge Infobae](https://www.infobae.com/espana/cultura/2026/11/04/el-real-madrid-ficha-a-rafa-nadal-el-legendario-tenista-formara-parte-de-la-junta-directiva-blanca/). El club no ha dicho qué cargo tendrá dentro de la junta.
+
+## Cómo se vota
+
+| Asamblea | Cuándo | Qué se decide |
+| --- | --- | --- |
+| Ordinaria | Sábado 21, a las 9:00 en primera convocatoria y a las 10:00 en segunda | Cuentas de 2025/26, presupuesto de 2026/27 y cuotas de 2027/28 |
+| Extraordinaria | A continuación | Ratificar a Rafael Nadal Parera como miembro de la Junta Directiva |
+
+Las dos se celebran en el pabellón de baloncesto de la Ciudad Real Madrid, con asistencia presencial y telemática, y votan los socios compromisarios elegidos para el periodo 2024-2028. La propuesta se hace por la vía del artículo 46 de los estatutos. Nadal es el socio número 67.778 y tiene la distinción de socio de honor.
+
+## Dos años después del último partido
+
+La fecha tiene su simetría. Nadal jugó su último partido el 19 de noviembre de 2024 en las Finales de la Copa Davis de Málaga, [una derrota ante Botic van de Zandschulp](https://www.theguardian.com/sport/2024/nov/19/rafael-nadal-davis-cup-finals-tennis-spain-netherlands-farewell) que dejó a España fuera en cuartos. La asamblea que puede hacerlo directivo llega dos años y dos días después. Entre medias, en diciembre de 2025, [se operó la mano derecha](https://espndeportes.espn.com/tenis/nota/_/id/16074927/rafael-nadal-se-sometio-a-una-intervencion-quirurgica-en-barcelona-cirugia-en-la-mano-derecha-artrosis-severa) por una artrosis.
+
+## ¿Y la presidencia?
+
+Es la pregunta que vuelve cada vez que Nadal y el Madrid aparecen en la misma frase. En mayo, cuando Florentino Pérez convocó elecciones, el tenista [dijo ante los medios que no formaba parte de ninguna candidatura](https://www.elespanol.com/deportes/futbol/20260514/rafa-nadal-desmarca-elecciones-presidencia-real-madrid-no-momento-situacion/1003744246192_0.amp.html) y que no se veía en ese momento ni en esa situación.
+
+Ser directivo y ser presidente no piden lo mismo. Para encabezar una candidatura, los estatutos exigen ser español, veinte años seguidos como socio y un aval bancario del 15 % del presupuesto del club, [según el resumen de requisitos de El Gol Digital](https://www.elgoldigital.com/futbol/real-madrid-cf/requisitos-presidencia-real-madrid-aval-180-millones-20-anos-antiguedad/). Ni el comunicado ni la convocatoria dicen desde cuándo es socio Nadal, así que no se puede saber si hoy cumpliría la antigüedad.
+
+Mientras, el [primer equipo](/futbol/laliga/equipo/86) juega esta noche en Atenas ante el AEK, en la [Champions](/futbol/champions-league).`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'LaLiga', sport: 'futbol', slug: 'laliga' },
+    sourceName: 'Real Madrid CF',
+    sourceUrl: 'https://www.realmadrid.com/es-ES/noticias/club/comunicados/comunicado-oficial-rafael-nadal-04-11-2026',
+    sourceLang: 'es',
+    publishedAt: '2026-11-04T16:56:00+01:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/e/e4/Rafa_Nadal_en_el_Bernabeu.jpg',
+      alt: 'Rafa Nadal, con traje oscuro, saluda con la mano levantada desde el césped del Santiago Bernabéu ante la grada llena en un partido de Champions de 2010',
+      credit: 'Alejandro Ramos · Wikimedia Commons',
+      license: 'CC BY-SA 2.0',
+    },
+    sourcesSecondary: [
+      { name: 'Real Madrid: convocatoria de las asambleas del 21 de noviembre', url: 'https://www.realmadrid.com/es-ES/noticias/club/actualidad/el-sabado-21-de-noviembre-tendran-lugar-las-asambleas-generales-ordinaria-y-extraordinaria-de-socios-representantes-04-11-2026' },
+      { name: 'Infobae', url: 'https://www.infobae.com/espana/cultura/2026/11/04/el-real-madrid-ficha-a-rafa-nadal-el-legendario-tenista-formara-parte-de-la-junta-directiva-blanca/' },
+      { name: 'Madridiario', url: 'https://www.madridiario.es/rafa-nadal-propuesto-incorporarse-junta-directiva-real-madrid' },
+    ],
+  },
+  {
+    slug: 'fernando-morientes-50-anos-liverpool-fallo-mio-corazon-cabeza-benitez-casillas-bajo-los-palos',
+    title: 'Fernando Morientes, sobre el Liverpool que no le salió en 2005: «Fue un fallo mío»',
+    summary: 'Fernando Morientes explica en el pódcast de Iker Casillas por qué no rindió en el Liverpool: eligió el club por su historia, sin preguntar a Benítez cómo jugaba. Lo que dicen sus números.',
+    body: `A Fernando Morientes le siguen preguntando por el Liverpool, y él ya tiene la respuesta. La dio en [el pódcast de Iker Casillas, Bajo los Palos](https://www.youtube.com/watch?v=atYehePnWv8&t=6152s), publicado el 3 de noviembre: «Fue un fallo mío». El exdelantero, que tiene 50 años, no culpa al club ni al entrenador. Se culpa a sí mismo por cómo eligió.
+
+Cuenta que en el invierno de 2005 estaba deseando salir del Real Madrid, enfadado con todo el mundo, y que escogió con el corazón. El Liverpool era la historia del fútbol, lo más parecido al Madrid que conocía. Lo que no hizo fue lo básico: llamar a Rafa Benítez y preguntarle cómo jugaba su equipo. Hoy se lo reprocha.
+
+## El fútbol que no era el suyo
+
+Morientes era un rematador de área. Se crio con extremos a pierna natural que llegaban a línea de fondo y centraban: en el pódcast pone el ejemplo de Vicente en el Valencia, y en el Madrid el de Roberto Carlos y Figo. En Anfield se encontró lo contrario. Riise cerraba hacia dentro para chutar, Luis García también buscaba el centro y los balones le llegaban por dentro, de Gerrard o de Xabi Alonso. Centros, muy pocos.
+
+Cuando salió hacia Valencia en 2006, dice, lo hizo con la cabeza: habló con el entrenador y sabía a qué jugaba el equipo.
+
+## Lo que dicen los números
+
+| Club | Temporadas | Partidos de liga | Goles |
+| --- | --- | --- | --- |
+| Real Madrid | 1997-2005 | 183 | 72 |
+| Mónaco (cedido) | 2003-2004 | 28 | 10 |
+| Liverpool | 2005-2006 | 41 | 8 |
+| Valencia | 2006-2009 | 66 | 19 |
+
+Datos de [su ficha en Wikipedia](https://en.wikipedia.org/wiki/Fernando_Morientes), que suma 12 goles en 61 partidos con el Liverpool en todas las competiciones.
+
+El momento tampoco ayudó. Debutó el 15 de enero de 2005 en [una derrota en casa ante el Manchester United](https://news.bbc.co.uk/sport2/hi/football/eng_prem/4150631.stm) y no pudo jugar la Champions de aquel curso porque ya la había disputado con el Madrid, [como recordaba The Guardian en abril de 2005](https://www.theguardian.com/football/2005/apr/03/newsstory.europeanfootball1). El Liverpool la ganó en Estambul con él fuera de la lista. Su título en Inglaterra fue la FA Cup de 2006: [entró en la segunda parte de la final](https://news.bbc.co.uk/sport2/hi/football/fa_cup/4756045.stm) ante el West Ham en lugar de Harry Kewell.
+
+## La revancha de Mónaco
+
+En el mismo pódcast, Morientes repasa la otra cara de aquella salida: el año de cesión en el Mónaco, cuando eliminó al Madrid en los cuartos de la Champions de 2004. Cuenta que tras marcar [miró al palco](https://www.youtube.com/watch?v=atYehePnWv8&t=4900s) y vio a Florentino Pérez disgustado y al príncipe Alberto celebrando el gol. Ese Mónaco llegó a la final.
+
+Hoy el [Liverpool](/futbol/premier-league/equipo/364) es otro y el [Madrid](/futbol/laliga/equipo/86) también, pero Morientes no ha cambiado de idea sobre aquel enero: el error fue suyo.`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'Premier League', sport: 'futbol', slug: 'premier-league' },
+    sourceName: 'Bajo los Palos (Iker Casillas)',
+    sourceUrl: 'https://www.youtube.com/watch?v=atYehePnWv8&t=6152s',
+    sourceLang: 'es',
+    publishedAt: '2026-11-04T16:54:00+01:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Liverpool_anfield_road_stadium.jpg/1280px-Liverpool_anfield_road_stadium.jpg',
+      alt: 'Vista aérea de Anfield, el estadio del Liverpool, entre las casas de la ciudad',
+      credit: 'Arne Müseler · Wikimedia Commons',
+      license: 'CC BY-SA 3.0 de',
+    },
+    sourcesSecondary: [
+      { name: 'Wikipedia: Fernando Morientes', url: 'https://en.wikipedia.org/wiki/Fernando_Morientes' },
+      { name: 'BBC: final de la FA Cup 2006', url: 'https://news.bbc.co.uk/sport2/hi/football/fa_cup/4756045.stm' },
+      { name: 'The Guardian (abril de 2005)', url: 'https://www.theguardian.com/football/2005/apr/03/newsstory.europeanfootball1' },
+    ],
+  },
+  {
     slug: 'donde-ver-boxeo-espana-dazn-netflix-pago-por-evento-fury-joshua-kabayel',
     title: "El boxeo en televisión en España: veladas, pago por evento y el Fury - Joshua de Cardiff",
     summary: "Dónde se ve el boxeo en España: qué veladas van en los planes de DAZN y cuáles se pagan aparte, el Fury - Joshua del 11 de diciembre, el calendario de noviembre a enero y a qué hora acaban las peleas en España.",
