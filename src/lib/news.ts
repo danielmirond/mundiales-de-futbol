@@ -154,9 +154,66 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'jackson-martinez-40-anos-vuelve-seis-retirado-gol-medellin-alianza-valderrama-vuelva-que-usted-puede-atletico',
+    title: 'Jackson Martínez, 40 años, vuelve tras seis retirado: «Vuelva, que usted puede», dijo el Pibe',
+    summary: 'El delantero que el Atlético vendió a China por 42 millones salió del banquillo y marcó el 2-1 del Medellín en el 87, con su equipo en diez. Volvió empujado por Valderrama.',
+    body: `Jackson Martínez llevaba seis años sin jugar un partido oficial. El último fue a mediados de 2020 con el Portimonense portugués, [según El País de Cali](https://www.elpais.com.co/deportes/jackson-martinez-y-su-regreso-sonado-al-futbol-tras-seis-anos-del-retiro-le-dio-la-victoria-al-medellin-y-se-desahogo-0231.html). El domingo 1 de noviembre, a los 40 años, entró en el minuto 56 del Independiente Medellín - Alianza y, en el 87, marcó el gol que ganó el partido.
+
+Detrás de la vuelta hay una conversación con Carlos Valderrama. Lo contó él mismo en [la rueda de prensa del club que publicó la Dimayor](https://www.youtube.com/watch?v=iVXIGsMyd9c&t=412s): el Pibe le habló en tono de regañina y le dijo que, si no pudiera, lo entendería, pero que volviera. La frase que repitió Jackson fue esta: «Vuelva, que usted puede».
+
+## El partido, minuto a minuto
+
+[El acta de ESPN](https://www.espn.com/soccer/match/_/gameId/401878061) cuenta un partido que se le torcía al Medellín. Alianza se adelantó con un gol en propia puerta de Anderson Murillo en el 37, Daniel Cataño empató antes del descanso y el equipo se quedó con diez en el 70 por la roja a Diego Moreno.
+
+| Minuto | Qué pasó |
+| --- | --- |
+| 37 | 0-1: gol en propia puerta de Anderson Murillo |
+| 45 | 1-1: Daniel Cataño, a pase de Frank Fabra |
+| 56 | Entra Jackson Martínez por Yony González |
+| 70 | Roja directa a Diego Moreno: el Medellín, con diez |
+| 87 | 2-1: Jackson, de zurda, gol validado tras revisión del VAR |
+| 90+1 | Amarilla para Jackson por una falta |
+
+Con la victoria, de la fecha 17 de la Liga BetPlay, el Medellín subió al séptimo puesto con 26 puntos.
+
+## Seis meses en el Atlético
+
+En España se le recuerda por medio año en el Atlético. Llegó del Oporto en el verano de 2015 y su primer gol rojiblanco [llegó el 30 de agosto en el Sánchez Pizjuán](https://www.atleticodemadrid.com/noticias/jackson-martinez-se-estreno-como-goleador): también salió desde el banquillo, en el 78 y por Fernando Torres, y marcó el 0-3 ante el Sevilla.
+
+No hubo muchos más. [La FIFA hizo el balance](https://inside.fifa.com/de/news/jackson-martinez-nach-china-2763729) el día de su venta, el 3 de febrero de 2016: dos goles en quince partidos de Liga y uno en la Champions, en el 4-0 al Astana. El Guangzhou Evergrande pagó por él 42 millones de euros, el traspaso más caro del fútbol chino hasta entonces.
+
+En China empezaron las lesiones de tobillo. Pasó cerca de dos años sin jugar y el club [le rescindió el contrato](https://www.goal.com/es/noticias/guangzhou-evergrande-le-rescindio-el-contrato-a-jackson-martinez/66nnyb7ezhwf1jpw5nlareav5). Después vinieron dos temporadas en el Portimonense y la retirada.
+
+## Por qué volvió
+
+El Medellín anunció su regreso en septiembre con un contrato [hasta diciembre](https://www.winsports.co/futbol-colombiano/noticias/independiente-medellin-hace-oficial-el-regreso-de-jackson-martinez-461988), ampliable según su rendimiento. Es el club donde debutó. En la misma rueda de prensa explicó que habló con el presidente y con el cuerpo técnico antes de firmar, porque, como hincha, no quería volver para perjudicar al equipo. Se acordó también de su familia y sus amigos en la grada del Atanasio Girardot.
+
+El Atlético de hoy tiene su ficha en [la página del equipo](/futbol/laliga/equipo/1068), y la Colombia con la que jugó el Mundial de 2014 tiene la suya en [la sección de selecciones](/selecciones/col).`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'Liga BetPlay', sport: 'futbol', slug: 'liga-betplay' },
+    sourceName: 'Dimayor',
+    sourceUrl: 'https://www.youtube.com/watch?v=iVXIGsMyd9c',
+    sourceLang: 'es',
+    publishedAt: '2026-11-04T13:25:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'ESPN: acta del Independiente Medellín - Alianza', url: 'https://www.espn.com/soccer/match/_/gameId/401878061' },
+      { name: 'El País (Cali): el regreso de Jackson Martínez', url: 'https://www.elpais.com.co/deportes/jackson-martinez-y-su-regreso-sonado-al-futbol-tras-seis-anos-del-retiro-le-dio-la-victoria-al-medellin-y-se-desahogo-0231.html' },
+      { name: 'FIFA: traspaso al Guangzhou Evergrande (2016)', url: 'https://inside.fifa.com/de/news/jackson-martinez-nach-china-2763729' },
+      { name: 'Atlético de Madrid: su primer gol rojiblanco', url: 'https://www.atleticodemadrid.com/noticias/jackson-martinez-se-estreno-como-goleador' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Valais_Cup_2013_-_OM-FC_Porto_13-07-2013_-_Jackson%2C_Morgan_Amalfitano_et_Marat_Izmaylov.jpg/1280px-Valais_Cup_2013_-_OM-FC_Porto_13-07-2013_-_Jackson%2C_Morgan_Amalfitano_et_Marat_Izmaylov.jpg',
+      alt: 'Jackson Martínez, con la camiseta del Oporto, conduce el balón junto a Morgan Amalfitano, caído en el césped, en un amistoso de 2013 en Suiza',
+      credit: 'Clément Bucco-Lechat · Wikimedia Commons',
+      license: 'CC BY-SA 3.0',
+    },
+  },
+  {
     slug: 'aek-real-madrid-dortmund-betis-miercoles-4-noviembre-champions-horario-donde-ver-alcaraz-paris-davidovich-baja',
     title: 'AEK - Real Madrid y Dortmund - Betis: horario del miércoles de Champions y dónde ver en España',
-    summary: 'El Real Madrid juega en Atenas a las 18:45 y el Betis en Dortmund a las 21:00, los dos con nueve puntos de nueve. Alcaraz debuta en París sin Davidovich. Canales y hora de Canarias.',
+    summary: 'El Real Madrid juega en Atenas a las 18:45 y el Betis en Dortmund a las 21:00, los dos con pleno. Alcaraz debuta en París ante Michelsen no antes de las 19:00. Canales y hora de Canarias.',
     body: `El miércoles 4 de noviembre cierra la cuarta jornada de la fase liga de la Champions con dos equipos españoles fuera de casa y sin un punto perdido. El [AEK - Real Madrid](/futbol/champions-league/partido/401915383) empieza a las 18:45 (17:45 en Canarias) en el OPAP Arena de Atenas, y el [Borussia Dortmund - Betis](/futbol/champions-league/partido/401915304), a las 21:00 (20:00 en Canarias) en el Signal Iduna Park, [según el calendario de la UEFA](https://www.uefa.com/uefachampionsleague/fixtures-results/). Los dos van por Movistar Plus+.
 
 El Real Madrid y el Betis llegan con tres victorias en tres partidos, como el Liverpool, que juega a la misma hora que los blancos en Estambul. En el tenis, Carlos Alcaraz se estrena en el Masters 1000 de París, y lo hace sin Alejandro Davidovich en el cuadro: el malagueño [se dio de baja el martes por molestias en la espalda](https://www.puntodebreak.com/2026/11/03/davidovich-baja-paris-pone-miras-copa-davis).
@@ -174,7 +231,7 @@ El Real Madrid y el Betis llegan con tres victorias en tres partidos, como el Li
 | 21:00 | 20:00 | [Slavia Praga - Arsenal](/futbol/champions-league/partido/401915381) | Fortuna Arena, Praga | Movistar Plus+ (dial por confirmar) |
 | 21:00 | 20:00 | [PSV - Brujas](/futbol/champions-league/partido/401915303) | Philips Stadion, Eindhoven | Movistar Plus+ (dial por confirmar) |
 | 21:00 | 20:00 | [Viking - Sabah](/futbol/champions-league/partido/401915302) | Viking Stadion, Stavanger | M+ Liga de Campeones 4 y 9 |
-| Por confirmar | - | Alcaraz - rival por decidir (París, 2.ª ronda) | La Défense Arena | Movistar Plus+ |
+| No antes de las 19:00 | No antes de las 18:00 | Carlos Alcaraz - Alex Michelsen (París, 2.ª ronda) | La Défense Arena, pista central | Movistar Plus+ |
 
 Los diales salen de la ficha de cada partido; donde la ficha da dos, figuran los dos, y el del Real Madrid todavía no aparece. Para saber [qué plataforma emite cada competición y cuánto cuesta](/noticias/donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1) está la guía general, y para la Champions, [la guía de Movistar Plus+ y sus precios](/noticias/donde-ver-champions-league-2026-27-espana-movistar-precios-final-metropolitano).
 
@@ -195,9 +252,9 @@ Los ocho primeros pasan directos a octavos. Toda la competición, con resultados
 
 ## El tenis: Alcaraz se estrena y Davidovich se va
 
-Alcaraz es el segundo cabeza de serie, no jugó la primera ronda y debuta en la segunda. Su rival sale de los partidos del martes y la hora, del orden de juego que el torneo publica la víspera, así que la tabla la deja pendiente.
+Alcaraz es el segundo cabeza de serie, no jugó la primera ronda y debuta en la segunda contra el estadounidense Alex Michelsen, que el martes remontó a Jiri Lehecka en tres sets. Es el cuarto partido de la pista central y [el orden de juego del torneo](https://www.atptour.com/en/scores/current/paris/352/daily-schedule) lo fija no antes de las 19:00 (18:00 en Canarias); si los tres primeros se alargan, empezará más tarde.
 
-Davidovich, decimotercer cabeza de serie, iba a jugar el martes su primer partido. En su lugar entró el portugués Nuno Borges como perdedor afortunado de la previa, [según Tennis Majors](https://www.tennismajors.com/atp/rolex-paris-masters-1000-atp/davidovich-fokina-and-tsitsipas-withdraw-from-the-paris-masters-kouame-now-faces-lucky-loser-borges-865224.html), y ganó 6-3 y 6-1. Rafael Jódar juega esta noche contra Casper Ruud, no antes de las 20:30, [con la plaza de Turín en juego](/noticias/rafael-jodar-gana-tabilo-paris-masters-ruud-segunda-ronda-martes-carrera-turin-tiafoe-de-minaur). El tenis va por [la guía de Movistar Plus+ y HBO Max](/noticias/donde-ver-tenis-espana-atp-finals-copa-davis-alcaraz-movistar-hbo-max).`,
+Davidovich, decimotercer cabeza de serie, iba a jugar el martes su primer partido. En su lugar entró el portugués Nuno Borges como perdedor afortunado de la previa, [según Tennis Majors](https://www.tennismajors.com/atp/rolex-paris-masters-1000-atp/davidovich-fokina-and-tsitsipas-withdraw-from-the-paris-masters-kouame-now-faces-lucky-loser-borges-865224.html), y ganó 6-3 y 6-1. Rafael Jódar, que [llegaba con la plaza de Turín en juego](/noticias/rafael-jodar-gana-tabilo-paris-masters-ruud-segunda-ronda-martes-carrera-turin-tiafoe-de-minaur), cayó el martes por la noche ante Casper Ruud por 6-3 y 6-4, [según los resultados de la ATP](https://www.atptour.com/en/scores/current/paris/352/results). El tenis va por [la guía de Movistar Plus+ y HBO Max](/noticias/donde-ver-tenis-espana-atp-finals-copa-davis-alcaraz-movistar-hbo-max).`,
     category: 'tv',
     kind: 'noticia',
     competition: { name: 'Champions League', sport: 'futbol', slug: 'champions-league' },
@@ -205,8 +262,10 @@ Davidovich, decimotercer cabeza de serie, iba a jugar el martes su primer partid
     sourceUrl: 'https://www.uefa.com/uefachampionsleague/fixtures-results/',
     sourceLang: 'en',
     publishedAt: '2026-11-03T19:08:00+01:00',
+    modifiedAt: '2026-11-04T13:26:00+01:00',
     author: 'Redacción Mundiales',
     sourcesSecondary: [
+      { name: 'ATP: orden de juego del Masters de París', url: 'https://www.atptour.com/en/scores/current/paris/352/daily-schedule' },
       { name: 'ESPN: clasificación de la Champions', url: 'https://www.espn.com/soccer/standings/_/league/uefa.champions' },
       { name: 'Punto de Break: Davidovich se baja de París', url: 'https://www.puntodebreak.com/2026/11/03/davidovich-baja-paris-pone-miras-copa-davis' },
       { name: 'Tennis Majors: bajas de Davidovich y Tsitsipas', url: 'https://www.tennismajors.com/atp/rolex-paris-masters-1000-atp/davidovich-fokina-and-tsitsipas-withdraw-from-the-paris-masters-kouame-now-faces-lucky-loser-borges-865224.html' },
