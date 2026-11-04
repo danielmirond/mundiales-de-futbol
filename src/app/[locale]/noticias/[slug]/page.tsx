@@ -27,6 +27,8 @@ import { JsonLd, pageMetadata, breadcrumbLd, localeUrl, SEO } from '@/lib/seo';
 import { authorJsonLd } from '@/lib/authors';
 import { sameAsForEntity, getEntity } from '@/lib/entities-wikidata';
 import { MovistarCintillo } from '@/components/affiliate/movistar-banner';
+import { WatchGuideLink } from '@/components/affiliate/watch-guide-link';
+import { watchGuideFor } from '@/lib/watch-guides';
 import { ReadingProgress } from '@/components/news/reading-progress';
 import { AdSlot } from '@/components/affiliate/ad-slot';
 import { DaznBanner } from '@/components/affiliate/dazn-banner';
@@ -363,6 +365,11 @@ export default async function NoticiaDetail({
           }}
         />
       </section>
+
+      {/* Guía «Dónde ver» de la competición de la pieza (salvo en la propia guía). */}
+      {item.competition && watchGuideFor(item.competition.slug, item.competition.name).slug !== item.slug && (
+        <WatchGuideLink compSlug={item.competition.slug} compName={item.competition.name} locale={locale as Locale} className="mt-8 max-w-[900px]" />
+      )}
 
       <AdSlot placement="noticia" sport={item.competition?.sport} className="mt-10 max-w-[900px]" />
 
