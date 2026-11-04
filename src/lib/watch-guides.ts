@@ -41,7 +41,7 @@ const SPORT_FALLBACK: Record<string, { slug: string; label: string }> = {
   combate: { slug: BY_COMPETITION.ufc.slug, label: 'la UFC y el boxeo' },
 };
 /** Deportes de una sola competición: su guía es la de esa competición. */
-const SPORT_SINGLE: Record<string, string> = { padel: 'padel', hockey: 'nhl', beisbol: 'mlb' };
+const SPORT_SINGLE: Record<string, string> = { padel: 'premier-padel', hockey: 'nhl', beisbol: 'mlb' };
 
 /** Guía de la competición (la nueva manda sobre la compartida), o la general. */
 export function watchGuideFor(compSlug: string, compName: string) {

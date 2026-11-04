@@ -154,6 +154,1082 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'donde-ver-boxeo-espana-dazn-netflix-pago-por-evento-fury-joshua-kabayel',
+    title: "El boxeo en televisión en España: veladas, pago por evento y el Fury - Joshua de Cardiff",
+    summary: "Dónde se ve el boxeo en España: qué veladas van en los planes de DAZN y cuáles se pagan aparte, el Fury - Joshua del 11 de diciembre, el calendario de noviembre a enero y a qué hora acaban las peleas en España.",
+    body: `Casi todo el boxeo internacional se ve en España en [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome), que lo incluye en sus planes Motor y Premium, desde 19,99 €/mes con permanencia. Las peleas más grandes se venden aparte como pago por evento: así fue el Canelo - Mbilli del 31 de octubre. La gran excepción del invierno es el Tyson Fury - Anthony Joshua del 11 de diciembre en Cardiff, que emite Netflix. No hay boxeo en abierto.
+
+*Esta guía incluye enlaces de afiliado a plataformas de televisión. Si contratas desde ellos, Mundiales recibe una comisión sin coste extra para ti. No cambia lo que contamos.*
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| [DAZN Motor](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) | Las veladas de boxeo de DAZN, más el motor | 19,99 €/mes con permanencia, 29,99 €/mes sin ella o 219,99 € al año |
+| [DAZN Premium](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) | El boxeo y todo el resto de DAZN | 25,99 €/mes en promoción (31,99 € con permanencia) |
+| Pago por evento en DAZN | Las grandes peleas, una a una | El precio aparece al comprarla |
+| Netflix | Fury - Joshua | Con la suscripción de Netflix |
+
+La [ayuda de DAZN](https://www.dazn.com/es-ES/help/articles/17544204660765) cuenta «grandes veladas de boxeo y MMA» dentro del plan Motor, y el Premium reúne todo su deporte. Un pago por evento solo se ve en un dispositivo a la vez, según sus condiciones. Las tarifas son las de [su página de planes](https://www.dazn.com/es-ES/help/articles/16184063399709-DAZN-plans-and-pricing) a 4 de noviembre.
+
+## Las próximas veladas
+
+| Fecha | Velada | Qué se juega |
+| --- | --- | --- |
+| Sábado 7 de noviembre | Joshua Buatsi - Willy Hutchinson, en Mánchester | Título interino semipesado del CMB |
+| Sábado 28 de noviembre | Agit Kabayel - Nelson Hysa, en Düsseldorf | Título pesado del CMB de Kabayel |
+| Sábado 5 de diciembre | David Benavidez - Michal Cieslak, en Glendale (Arizona) | Unificación del crucero (AMB, OMB y CMB) |
+| 11 de diciembre | Tyson Fury - Anthony Joshua, en Cardiff | Título pesado AMB (supercampeón), vacante |
+| Sábado 19 de diciembre | Anthony Cacace - Nick Ball, en Belfast | Título superpluma AMB de Cacace |
+| Sábado 9 de enero | Amanda Serrano - Skye Falzon, en San Juan (Puerto Rico) | Títulos pluma AMB y OMB de Serrano |
+
+Todas salvo la de Cardiff figuran en DAZN en el [calendario de ESPN](https://www.espn.com/boxing/story/_/id/12508267/boxing-schedule), actualizado el 31 de octubre. En Estados Unidos, el Benavidez - Cieslak va como pago por evento; en España, la modalidad se conoce cuando DAZN abre la venta.
+
+**Fury - Joshua** es el combate más esperado del invierno. Se celebra en el Principality Stadium de Cardiff y Netflix lo emite desde que lo anunció Turki Al-Sheikh en abril, según la [biografía de Fury](https://en.wikipedia.org/wiki/Tyson_Fury). El ganador será campeón del mundo del peso pesado por tercera vez.
+
+## A qué hora acaban las peleas
+
+Las veladas en Reino Unido y Alemania se emiten por la noche y el combate principal suele empezar entre las 22:00 y la medianoche, hora peninsular. En las de Estados Unidos, la pelea estelar llega de madrugada, entre las 4:00 y las 6:00. Las de Arabia Saudí, como la de Canelo en Riad, caen en horario de tarde-noche: allí la salida al ring fue hacia las 21:30.
+
+## Boxeo español
+
+Las veladas que se organizan en España no tienen una plataforma fija: cada promotora anuncia dónde se emiten, y algunas acaban en carteleras de DAZN. Conviene mirar el cartel de cada una. La agenda con hora española, y los resultados del [Canelo - Mbilli](/noticias/canelo-alvarez-vence-mbilli-decision-unanime-riad-recupera-titulo-cmb-cuatro-cinco-peleas-mas), están en la sección de [boxeo](/combate/boxeo).
+
+Las MMA se ven en otro sitio: la UFC tiene su propia [guía con HBO Max y Eurosport](/noticias/donde-ver-ufc-boxeo-espana-hbo-max-eurosport-dazn-topuria-canelo).`,
+    category: 'general',
+    competition: {"name":"Boxeo","sport":"combate","slug":"boxeo"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/boxing/story/_/id/12508267/boxing-schedule",
+    sourceLang: 'en',
+    publishedAt: '2026-11-04T16:02:38+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/A_boxer_in_the_ring_in_Tanzania.jpg/1280px-A_boxer_in_the_ring_in_Tanzania.jpg",
+      alt: "Un boxeador con bata de satén y pañuelo rojos grita con los brazos abiertos junto a las cuerdas del ring",
+      credit: "Thukuk · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+    sourcesSecondary: [
+      { name: "DAZN: el plan Motor", url: "https://www.dazn.com/es-ES/help/articles/17544204660765" },
+      { name: "DAZN: planes y precios", url: "https://www.dazn.com/es-ES/help/articles/16184063399709-DAZN-plans-and-pricing" },
+      { name: "Wikipedia: Tyson Fury", url: "https://en.wikipedia.org/wiki/Tyson_Fury" },
+    ],
+  },
+  {
+    slug: 'donde-ver-premier-padel-espana-dubai-mexico-major-finals-barcelona-gratis',
+    title: "Dónde ver el Premier Padel en España: Dubái, el Major de México y las Finals de Barcelona",
+    summary: "El Premier Padel se puede ver gratis en España desde cuartos y, con más cobertura, en el plan Libre de Movistar Plus+. Qué ofrece cada opción, el calendario hasta las Finals de Barcelona, las horas en España y los españoles del ranking.",
+    body: `El Premier Padel se puede ver gratis en España: Red Bull TV emite en abierto, con narración en español, los cuartos, las semifinales y las finales de todos los torneos, y las primeras rondas van en el canal de YouTube del circuito, [según Red Bull](https://www.redbull.com/es-es/events/premier-padel-barcelona-finals/premier-padel-donde-verlo). En televisión de pago, [Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Fpadel) da el circuito desde su plan Libre, de 9,99 €/mes y sin permanencia.
+
+*Esta guía incluye enlaces de afiliado a plataformas de televisión. Si contratas desde ellos, Mundiales recibe una comisión sin coste extra para ti. No cambia lo que contamos.*
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| Red Bull TV (web y aplicación) | Cuartos, semifinales y finales de cada torneo, masculino y femenino | Gratis |
+| YouTube de Premier Padel | Rondas previas | Gratis |
+| [Movistar Plus+ Libre](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Fpadel) | Cuartos, semifinales y finales en sus canales, más el Mundial por selecciones | 9,99 €/mes, sin permanencia |
+
+Movistar anuncia [en su página de pádel](https://www.movistarplus.es/deportes/padel) la temporada completa, con los Major, los P1, los P2 y la Final del Tour. En sus fichas, cada partido aparece como «incluido en el Plan Libre». A principios de año daba los cuartos en Vamos por M+ (dial 8) y las semifinales y finales en Vamos 2 por M+ (dial 51).
+
+## Lo que queda de temporada
+
+| Torneo | Fechas | Cómo verlo |
+| --- | --- | --- |
+| Mundial por selecciones de la FIP, en Catar | Cuartos el jueves 5, semifinales el viernes 6 y finales el sábado 7 de noviembre | Movistar Plus+ |
+| Dubái P1 | Hasta el 15 de noviembre | Red Bull TV desde cuartos; Movistar Plus+ |
+| México Major, en Ciudad de México | 23 al 29 de noviembre | Red Bull TV desde cuartos; Movistar Plus+ |
+| Finals, en Barcelona | Acaban el 13 de diciembre | Red Bull TV; Movistar Plus+ |
+
+En Dubái, Movistar programa los cuartos el viernes 13, las semifinales el sábado 14 y las finales el domingo 15: la femenina a las 15:00 y la masculina a las 17:00, hora peninsular. Dubái va tres horas por delante de España. El Major de México se juega siete horas por detrás, así que las rondas finales caen por la tarde y la noche en España. Las Finals reúnen a las ocho mejores parejas masculinas y femeninas de la temporada.
+
+## Los españoles, arriba del ranking
+
+Arturo Coello y el argentino Agustín Tapia comparten el número 1 del ranking masculino del 26 de octubre y ganaron los tres últimos torneos: Düsseldorf, Milán y el Major de Kuwait. Alejandro Galán es tercero con Federico Chingotto. Entre los diez primeros hay otros cuatro españoles: Juan Lebrón (5.º), Francisco Navarro (8.º), Jon Sanz (9.º) y Miguel Yanguas (10.º).
+
+En el femenino, Gemma Triay comparte el número 1 con la argentina Delfina Brea, con la que ganó en Kuwait. Siete de las ocho primeras son españolas: además de Triay, Bea González (3.ª), Ariana Sánchez (4.ª), Paula Josemaría (5.ª), Claudia Fernández (6.ª), Andrea Ustero (7.ª) y Martina Calvo (8.ª). Sánchez y Ustero ganaron en Milán; Fernández y Calvo, en Düsseldorf.
+
+## Cómo verlo en el móvil o la tele
+
+Red Bull TV tiene aplicación gratuita para móvil, tableta y televisores conectados; la señal en español se activa sola desde España y se puede elegir a mano en el reproductor. Las repeticiones de cuartos, semifinales y finales quedan disponibles al acabar cada torneo. Movistar Plus+ funciona con su aplicación, con cualquier operador de internet.
+
+El cuadro del torneo en juego, los campeones de cada prueba y el ranking completo están en la sección de [Premier Padel](/padel/premier-padel). Lo que se juega cada día, en [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    competition: {"name":"Premier Padel","sport":"padel","slug":"premier-padel"},
+    sourceName: "Red Bull",
+    sourceUrl: "https://www.redbull.com/es-es/events/premier-padel-barcelona-finals/premier-padel-donde-verlo",
+    sourceLang: 'es',
+    publishedAt: '2026-11-04T16:03:38+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Court_Chatrier_Paris_Major_2024_toit_ferm%C3%A9.jpg/1280px-Court_Chatrier_Paris_Major_2024_toit_ferm%C3%A9.jpg",
+      alt: "Una pista de pádel azul en el centro de la Philippe-Chatrier de Roland Garros, con el techo cerrado y las gradas casi llenas",
+      credit: "Hombrey · Wikimedia Commons",
+      license: "CC0",
+    },
+    sourcesSecondary: [
+      { name: "Movistar Plus+: pádel", url: "https://www.movistarplus.es/deportes/padel" },
+      { name: "Movistar Plus+: la temporada 2026", url: "https://www.movistarplus.es/comunicacion/notas-de-prensa/una-historica-temporada-de-qatar-airways-premier-padel-tour-llega-a-movistar-plus/" },
+      { name: "Red Bull: calendario de Premier Padel", url: "https://www.redbull.com/int-en/premier-padel-calendar" },
+      { name: "Movistar Plus+: final de Dubái", url: "https://www.movistarplus.es/deportes/padel/premier-padel-dubai-2026/final-masculina-evento-1/ficha?tipo=E&id=4209009" },
+    ],
+  },
+  {
+    slug: 'donde-ver-wta-espana-finals-indian-wells-grand-slam-2027-bucsa',
+    title: "La WTA en televisión en España: las Finals de Indian Wells y los Grand Slam de 2027",
+    summary: "Cómo ver el tenis femenino en España: dónde van los cuatro Grand Slam y el Mutua Madrid Open, qué se sabe de las WTA Finals de Indian Wells del 8 al 15 de noviembre, con Cristina Bucsa en dobles, y a qué hora se juegan.",
+    body: `El tenis femenino no tiene en España una plataforma única: depende del torneo. [Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ftenis%2Fdonde-ver) emite Wimbledon, emitió el US Open de 2026 y da el cuadro femenino del Mutua Madrid Open; el Open de Australia y Roland Garros van en Eurosport, dentro de HBO Max. Para las WTA Finals, que se juegan del 8 al 15 de noviembre en Indian Wells, no hemos podido confirmar ninguna emisión en España. No hay nada en abierto anunciado.
+
+*Esta guía incluye enlaces de afiliado a plataformas de televisión. Si contratas desde ellos, Mundiales recibe una comisión sin coste extra para ti. No cambia lo que contamos.*
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| [Movistar Plus+ Libre](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ftenis%2Fdonde-ver) | El mejor partido de cada día de los cuatro Grand Slam, también los de Eurosport | 9,99 €/mes, sin permanencia |
+| [Movistar Plus+ en una tarifa miMovistar](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ftenis%2Fdonde-ver) | Wimbledon y el Mutua Madrid Open con todas las pistas | Movistar Plus+ (14 €/mes) dentro de una tarifa con fibra y móvil |
+| HBO Max con el complemento Deportes | Open de Australia y Roland Garros (Eurosport) | 5 €/mes sobre un plan de HBO Max |
+| WTA Finals 2026 | Sin emisión confirmada en España | — |
+
+La [página de tenis de Movistar](https://www.movistarplus.es/deportes/tenis/donde-ver) explica que el plan Libre incluye el mejor partido diario de los Grand Slam, final incluida, y el contenido de Eurosport 1 y Eurosport 2. Esos dos canales van también dentro de los planes de DAZN.
+
+## Las WTA Finals, en Indian Wells
+
+El torneo de maestras cambia de sede: después de Riad en 2024 y 2025, se juega en el Indian Wells Tennis Garden de California, [según la WTA](https://www.wtatennis.com/tournaments/wta-finals). Son dos grupos de cuatro; las dos primeras de cada uno pasan a semifinales. Están clasificadas Elena Rybakina, Aryna Sabalenka, Mirra Andreeva, Coco Gauff, Jessica Pegula, Elina Svitolina, Karolína Muchová y Linda Nosková.
+
+No hay ninguna española en individuales. En dobles juega **Cristina Bucsa**, con la estadounidense Nicole Melichar-Martinez.
+
+Indian Wells va nueve horas por detrás de la España peninsular. Una sesión que empiece allí a mediodía arranca aquí a las 21:00, y las nocturnas acaban de madrugada.
+
+## Las españolas y la Billie Jean King Cup
+
+La Billie Jean King Cup de 2026 ya se jugó: la fase final fue en septiembre en Shenzhen y la ganó la República Checa ante Ucrania. Movistar Plus+ emitió en exclusiva la edición de 2025, [según su nota](https://www.movistarplus.es/comunicacion/notas-de-prensa/arranca-la-billie-jean-king-cup-el-mejor-torneo-de-tenis-internacional-femenino-en-exclusiva-en-movistar-plus/). En individuales, Paula Badosa ha subido hasta el puesto 57 del ranking.
+
+## Los Grand Slam de 2027
+
+| Torneo | Cuándo | Dónde |
+| --- | --- | --- |
+| Open de Australia | Enero | Eurosport (HBO Max); mejor partido diario en Movistar Plus+ Libre |
+| Roland Garros | Mayo y junio | Eurosport (HBO Max); mejor partido diario en Movistar Plus+ Libre |
+| Wimbledon | Junio y julio | Movistar Plus+ |
+| US Open | Agosto y septiembre | Movistar emitió el de 2026; 2027, por confirmar |
+
+El Mutua Madrid Open, el primer WTA 1000 de tierra, va en Movistar: su canal de referencia en 2026 fue Deportes 2 por M+.
+
+El ranking y el calendario del circuito están en la sección de la [WTA](/tenis/wta). El tenis masculino, con las ATP Finals de Turín y la Copa Davis, tiene su [propia guía](/noticias/donde-ver-tenis-espana-atp-finals-copa-davis-alcaraz-movistar-hbo-max).`,
+    category: 'general',
+    competition: {"name":"WTA","sport":"tenis","slug":"wta"},
+    sourceName: "WTA",
+    sourceUrl: "https://www.wtatennis.com/tournaments/wta-finals",
+    sourceLang: 'en',
+    publishedAt: '2026-11-04T16:04:38+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Elena_Rybakina_%282025_DC_Open%29_06.jpg/1280px-Elena_Rybakina_%282025_DC_Open%29_06.jpg",
+      alt: "Elena Rybakina, de camiseta azul celeste, termina el movimiento del saque sobre una pista dura azul y verde",
+      credit: "Hameltion · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+    sourcesSecondary: [
+      { name: "Movistar Plus+: dónde ver tenis", url: "https://www.movistarplus.es/deportes/tenis/donde-ver" },
+      { name: "Movistar Plus+: Billie Jean King Cup", url: "https://www.movistarplus.es/comunicacion/notas-de-prensa/arranca-la-billie-jean-king-cup-el-mejor-torneo-de-tenis-internacional-femenino-en-exclusiva-en-movistar-plus/" },
+      { name: "Movistar Plus+: Mutua Madrid Open", url: "https://www.movistarplus.es/comunicacion/notas-de-prensa/la-mejor-cobertura-del-mutua-madrid-open-se-vive-en-movistar-plus-enviado/" },
+      { name: "Wikipedia: Billie Jean King Cup 2026", url: "https://en.wikipedia.org/wiki/2026_Billie_Jean_King_Cup" },
+    ],
+  },
+  {
+    slug: 'donde-ver-indycar-espana-2027-movistar-palou-barcelona-montmelo',
+    title: "La IndyCar en España en 2027: dónde ver a Palou, el calendario y la carrera de Montmeló",
+    summary: "La temporada 2026 de la IndyCar terminó con el quinto título de Álex Palou. Quién la emitió en España, qué hay anunciado para 2027, el calendario de 17 carreras con las 500 Millas y el Gran Premio de Barcelona, y a qué horas suele correrse.",
+    body: `La IndyCar se vio en España en 2026 en [Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Fmotor), que emitió en exclusiva las 18 carreras en su canal Vamos por M+ (dial 8), [según su nota de prensa](https://www.movistarplus.es/comunicacion/notas-de-prensa/persigue-a-palou-la-indycar-2026-arranca-motores-en-exclusiva-en-movistar-plus/). Para 2027, Movistar aún no ha anunciado la renovación, aunque su sección de motor sigue presentando «la temporada completa de IndyCar». No hay carreras en abierto. La temporada vuelve el 7 de marzo.
+
+*Esta guía incluye enlaces de afiliado a plataformas de televisión. Si contratas desde ellos, Mundiales recibe una comisión sin coste extra para ti. No cambia lo que contamos.*
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| [Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Fmotor) | Todas las carreras de 2026 en Vamos por M+; 2027, por confirmar | Depende del plan: el Libre cuesta 9,99 €/mes sin permanencia |
+| En abierto | Nada | — |
+
+Movistar presentó la temporada de 2026 para «los clientes de la plataforma», sin decir qué plan hacía falta. Antes de contratar en marzo conviene comprobar que el canal Vamos entra en el plan elegido.
+
+## Palou, cinco veces campeón
+
+Álex Palou (Chip Ganassi) ganó en 2026 su quinto título, el cuarto seguido, tras los de 2021, 2023, 2024 y 2025. Solo A. J. Foyt (siete) y Scott Dixon (seis) tienen más. Lo repasamos al anunciarse [su carrera en casa](/noticias/alex-palou-carrera-en-casa-indycar-barcelona-montmelo-18-julio-2027-europa).
+
+## El calendario de 2027
+
+La IndyCar ha publicado las 17 carreras, [según su calendario](https://www.indycar.com/schedule). Las horas, aún sin anunciar:
+
+| Fecha | Carrera |
+| --- | --- |
+| 7 de marzo | San Petersburgo (Florida), primera del año |
+| 13 de marzo | Phoenix |
+| 21 de marzo | Calles de Arlington (Texas) |
+| 4 de abril | Barber (Alabama) |
+| 18 de abril | Long Beach |
+| 15 de mayo | Circuito mixto de Indianápolis |
+| 30 de mayo | 500 Millas de Indianápolis, 111.ª edición |
+| 6 de junio | Detroit |
+| 13 de junio | World Wide Technology Raceway (Illinois) |
+| 27 de junio | Road America |
+| 4 de julio | Mid-Ohio |
+| **18 de julio** | **Barcelona-Catalunya (Montmeló)** |
+| 1 de agosto | Portland |
+| 15 de agosto | Markham (Canadá) |
+| 28 y 29 de agosto | Milwaukee, dos carreras |
+| 5 de septiembre | Laguna Seca, final de temporada |
+
+## Montmeló, la primera en Europa desde 2007
+
+El 18 de julio la IndyCar corre en el Circuit de Barcelona-Catalunya, a unos 16 kilómetros del pueblo de Palou. Es su primera carrera en Europa desde Assen en 2007 y llega el año en que Montmeló no tiene Fórmula 1. Las entradas y la hora se anunciarán más adelante, según la serie.
+
+## A qué hora se ve
+
+La mayoría de las carreras son en la costa este de Estados Unidos y empiezan por la tarde o la noche en España. Las de la costa oeste, como Long Beach, Portland o Laguna Seca, acaban ya de madrugada. Barcelona será la única con hora europea.
+
+La clasificación del campeonato y los resultados de cada carrera están en la sección de [IndyCar](/motor/indycar). El resto de campeonatos, de la F1 al Mundial de Resistencia, en la [guía del motor en España](/noticias/donde-ver-motor-espana-2026-27-f1-motogp-indycar-wec-formula-e-dakar).`,
+    category: 'general',
+    competition: {"name":"IndyCar","sport":"motor","slug":"indycar"},
+    sourceName: "Movistar Plus+",
+    sourceUrl: "https://www.movistarplus.es/comunicacion/notas-de-prensa/persigue-a-palou-la-indycar-2026-arranca-motores-en-exclusiva-en-movistar-plus/",
+    sourceLang: 'es',
+    publishedAt: '2026-11-04T16:05:38+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Alex_Palou_%2854686833932%29.jpg/1280px-Alex_Palou_%2854686833932%29.jpg",
+      alt: "El coche rojo y amarillo de Álex Palou, con el número 10, baja por el sacacorchos de Laguna Seca pegado al piano",
+      credit: "Ben Goyette · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+    sourcesSecondary: [
+      { name: "IndyCar: calendario 2027", url: "https://www.indycar.com/schedule" },
+      { name: "IndyCar: Gran Premio de Barcelona", url: "https://www.indycar.com/news/2026/10/10-23-barcelona-2027" },
+      { name: "Movistar Plus+: motor", url: "https://www.movistarplus.es/deportes/motor" },
+    ],
+  },
+  {
+    slug: 'donde-ver-motogp-espana-2026-27-dazn-valencia-abierto-test-calendario-2027',
+    title: "MotoGP en España: cómo ver el cierre de 2026, el test de Valencia y el calendario de 2027",
+    summary: "Cómo ver MotoGP en España: qué plan hace falta, cuánto cuesta, a qué hora son Catar, Portugal y Valencia, qué carrera va en abierto, cuándo se estrenan las motos de 850 cc y las cuatro citas españolas del calendario de 2027.",
+    body: `MotoGP se ve en España en [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome), que tiene el Mundial hasta 2030 [según el propio campeonato](https://www.motogp.com/en/news/2026/07/16/dazn-to-broadcast-motogp-in-spain-until-2030-portugal-until-2031/1078683) y emite todas las sesiones de MotoGP, Moto2 y Moto3. Lo más barato es su plan Motor, a 19,99 €/mes con un año de permanencia. Los clientes de Movistar lo tienen en el canal DAZN MotoGP. El Gran Premio de Valencia, el último del año, también irá en abierto.
+
+*Esta guía incluye enlaces de afiliado a plataformas de televisión. Si contratas desde ellos, Mundiales recibe una comisión sin coste extra para ti. No cambia lo que contamos.*
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| [DAZN Motor](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) | MotoGP, Moto2, Moto3 y MotoE, más F1, Superbikes y NASCAR | 19,99 €/mes con permanencia, 29,99 €/mes sin ella o 219,99 € al año |
+| [DAZN Premium](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) | Todo el motor y el fútbol y el baloncesto de DAZN | 25,99 €/mes en promoción (31,99 € con permanencia, 44,99 € sin ella) |
+| [Movistar Plus+ con el paquete Motor](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Fmotor%2Fmoto-gp) | Canal DAZN MotoGP, más DAZN F1 | 20 €/mes, más Movistar Plus+ (14 €) y una tarifa miMovistar |
+| Mediaset | El Gran Premio de Valencia | Gratis |
+
+Las tarifas de DAZN son las de [su página de planes](https://www.dazn.com/es-ES/help/articles/16184063399709-DAZN-plans-and-pricing) a 4 de noviembre. Los abonados al plan Motor reciben además todo el contenido de Premium entre el 8 de diciembre y el 15 de febrero, cuando no hay carreras.
+
+## Las tres carreras que quedan
+
+Todos los grandes premios tienen sprint el sábado. Horas peninsulares, según el horario oficial del campeonato:
+
+| Gran premio | Sprint | Carrera |
+| --- | --- | --- |
+| Catar (Lusail) | Sábado 7 de noviembre, 17:00 | Domingo 8, 17:00 |
+| Portugal (Portimão) | Sábado 21, 16:00 | Domingo 22, 14:00 |
+| Valencia (Cheste) | Sábado 28, 15:00 | Domingo 29, 14:00 |
+
+Marc Márquez (Ducati) lidera con 399 puntos. Jorge Martín (Aprilia), baja en Malasia por una fractura de muñeca, tiene 355; Marco Bezzecchi, 332, y Pedro Acosta, 295. Quedan 111 puntos en juego: si Márquez sale de Catar con más de 74 de ventaja, es campeón allí. [Las cuentas, aquí](/noticias/marc-marquez-sepang-sprint-acosta-jorge-martin-baja-cuentas-titulo-motogp-qatar-valencia).
+
+En Moto2 la pelea es española y está en el aire: Manu González suma 276,5 puntos e Izan Guevara, 273. Iván Ortolá es tercero, con 199,5. En Moto3 ya hay campeón, Máximo Quiles, que cerró el título en Indonesia con cinco carreras por delante. David Almansa, Brian Uriarte y Álvaro Carpe, también españoles, se juegan el subcampeonato.
+
+## Valencia, en abierto
+
+Mediaset cerró en marzo un acuerdo con DAZN para dar gratis tres grandes premios de 2026, [según MotoGP](https://www.motogp.com/es/news/2026/03/12/mediaset-espana-emitira-los-grandes-premios-de-motogp-de-jerez-barcelona-y-valencia/1005166): Jerez, Cataluña y Valencia. Ya ha emitido los dos primeros. Falta Valencia, que entonces estaba prevista para el 22 de noviembre y se corre el 29. Ni la cadena ni el horario de la emisión están anunciados todavía.
+
+## Del test de Valencia a la temporada 2027
+
+El martes 1 de diciembre, en Cheste, los pilotos de 2027 se suben por primera vez a las motos de 850 cc con neumáticos Pirelli, la primera generación tras el fin de las 1.000 cc. La pretemporada sigue en Sepang (prueba para probadores y novatos el 29 y 30 de enero; test oficial el 31 de enero y el 1 de febrero) y en Buriram (6 y 7 de febrero), [según Crash.net](https://www.crash.net/motogp/news/1103396/1/2027-motogp-pre-season-test-dates-revealed-sepang-shortened). No consta si DAZN emitirá en directo los test.
+
+El calendario provisional de 2027 tiene 22 grandes premios. Empieza en Tailandia el 7 de marzo y vuelve a acabar en Valencia, el 28 de noviembre. Entran Buenos Aires (11 de abril) y Adelaida (14 de noviembre), que releva a Phillip Island. España tendrá cuatro citas:
+
+| Gran premio | Fecha |
+| --- | --- |
+| España (Jerez) | 9 de mayo |
+| Cataluña (Montmeló) | 13 de junio |
+| Aragón (MotorLand) | 19 de septiembre |
+| Comunitat Valenciana (Cheste) | 28 de noviembre |
+
+Las cuatro irán en DAZN, que tiene los derechos hasta 2030. Qué carreras irán en abierto en 2027 no está anunciado.
+
+## Desde el móvil o fuera de España
+
+DAZN y Movistar Plus+ funcionan en su aplicación para móvil, tableta y televisor. La suscripción española de DAZN no sirve para ver MotoGP desde otro país: en cada mercado el Mundial lo emite quien tenga los derechos allí.
+
+La clasificación de las tres categorías, con los horarios de cada sesión, está en la sección de [MotoGP](/motor/motogp). Para el resto del motor, de la F1 a la Fórmula E, está la [guía del motor en España](/noticias/donde-ver-motor-espana-2026-27-f1-motogp-indycar-wec-formula-e-dakar).`,
+    category: 'general',
+    competition: {"name":"MotoGP","sport":"motor","slug":"motogp"},
+    sourceName: "MotoGP",
+    sourceUrl: "https://www.motogp.com/en/news/2026/07/16/dazn-to-broadcast-motogp-in-spain-until-2030-portugal-until-2031/1078683",
+    sourceLang: 'en',
+    publishedAt: '2026-11-04T16:06:38+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/MotoGP_2026_Austria_Nr._37_Acosta_%282%29.jpg/1280px-MotoGP_2026_Austria_Nr._37_Acosta_%282%29.jpg",
+      alt: "Pedro Acosta, inclinado sobre su KTM naranja y azul, rueda por la pista del Red Bull Ring durante el Gran Premio de Austria de 2026",
+      credit: "Lukas Raich · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+    sourcesSecondary: [
+      { name: "MotoGP: Mediaset en abierto", url: "https://www.motogp.com/es/news/2026/03/12/mediaset-espana-emitira-los-grandes-premios-de-motogp-de-jerez-barcelona-y-valencia/1005166" },
+      { name: "MotoGP: calendario 2027", url: "https://www.motogp.com/es/news/2026/05/10/2027-motogp-calendar-revealed/1092589" },
+      { name: "Crash.net: test de pretemporada 2027", url: "https://www.crash.net/motogp/news/1103396/1/2027-motogp-pre-season-test-dates-revealed-sepang-shortened" },
+      { name: "DAZN: planes y precios", url: "https://www.dazn.com/es-ES/help/articles/16184063399709-DAZN-plans-and-pricing" },
+    ],
+  },
+  {
+    slug: 'donde-ver-motor-espana-2026-27-f1-motogp-indycar-wec-formula-e-dakar',
+    title: "El motor en televisión en España: F1, MotoGP, IndyCar, WEC, Fórmula E y el Dakar 2027",
+    summary: "Qué plataforma emite cada campeonato de motor en España: la F1, MotoGP, Superbikes y NASCAR, la IndyCar de Palou, el Mundial de Resistencia, la Fórmula E y el Dakar 2027, con precios, lo poco que va en abierto y las fechas del invierno.",
+    body: `El grueso del motor está en [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome): la Fórmula 1 y MotoGP, con Moto2 y Moto3, más Superbikes (WSBK), NASCAR, F2, F3 y DTM. Su plan Motor cuesta 19,99 €/mes con un año de permanencia. Movistar Plus+ tiene otras dos series: la IndyCar de Álex Palou y el Mundial de Resistencia (WEC), este último dentro de su plan Libre de 9,99 €/mes. La Fórmula E se vio en 2025-26 en abierto, en RTVE entre otros. Lo único gratis que queda en 2026 es el Gran Premio de Valencia de MotoGP.
+
+*Esta guía incluye enlaces de afiliado a plataformas de televisión. Si contratas desde ellos, Mundiales recibe una comisión sin coste extra para ti. No cambia lo que contamos.*
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| [DAZN Motor](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) | F1, MotoGP, Moto2, Moto3, WSBK, NASCAR, F2, F3 y DTM, más los canales Eurosport y Red Bull TV | 19,99 €/mes con permanencia, 29,99 €/mes sin ella o 219,99 € al año |
+| [Movistar Plus+ con el paquete Motor](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Fmotor) | Los canales DAZN F1 y DAZN MotoGP | 20 €/mes, más Movistar Plus+ (14 €) y una tarifa miMovistar |
+| [Movistar Plus+ Libre](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Fmotor) | Mundial de Resistencia (WEC) y una selección de motor | 9,99 €/mes, sin permanencia |
+| Movistar Plus+ (Vamos por M+) | IndyCar | Según el plan; el canal Vamos está en la oferta de Movistar Plus+ |
+| RTVE | Fórmula E (temporada 2025-26) | Gratis |
+
+Los precios de DAZN son los de [su página de planes](https://www.dazn.com/es-ES/help/articles/16184063399709-DAZN-plans-and-pricing), consultada el 4 de noviembre; el paquete Motor de Movistar subió a 20 € en marzo, [según Roams](https://roams.es/companias-telefonicas/movistar/guias/television/motor/).
+
+## Serie a serie
+
+- **Fórmula 1 y MotoGP.** DAZN tiene las dos en España hasta 2030 y emite todas las sesiones. Precios y carreras, en la [guía de la F1 y MotoGP](/noticias/donde-ver-f1-motogp-espana-2026-dazn-precios-carreras-que-quedan); el Mundial de motos tiene además [su propia guía](/noticias/donde-ver-motogp-espana-2026-27-dazn-valencia-abierto-test-calendario-2027).
+- **Superbikes y NASCAR.** También en DAZN: el plan Motor las incluye, y NASCAR entra además en el plan Made in USA (desde 4,99 €/mes). El WSBK cerró 2026 en Jerez el 18 de octubre y vuelve a rodar en enero con los test de Jerez (20-21), Valencia (25-26) y Portimão (28-29), [según el campeonato](https://www.worldsbk.com/en/calendar).
+- **IndyCar.** Movistar emitió en exclusiva las 18 carreras de 2026 en Vamos por M+. Para 2027 aún no ha anunciado nada. Lo contamos en la [guía de la IndyCar](/noticias/donde-ver-indycar-espana-2027-movistar-palou-barcelona-montmelo).
+- **Mundial de Resistencia (WEC).** Movistar Plus+ lo emite dentro del plan Libre. La última prueba, las 6 Horas de Monza, se corre el domingo 8 de noviembre desde las 10:30, [según su ficha](https://www.movistarplus.es/deportes/automovilismo/6-horas-de-monza-mundial-de-resistencia-de-la-fia-2026/carrera/ficha?tipo=E&id=4441453).
+- **Fórmula E.** El campeonato da como emisoras en España, para la temporada 2025-26, a RTVE, Marca, DMAX y SoyMotor, [según su web](https://www.fiaformulae.com/en/ways-to-watch). Las de la temporada 13 no están anunciadas.
+- **WRC y Dakar.** No hemos encontrado confirmada la emisión en España de ninguno de los dos para 2027.
+
+## Lo que queda de 2026 y el invierno
+
+| Fecha | Cita | Dónde |
+| --- | --- | --- |
+| 8 de noviembre | F1 en Brasil, MotoGP en Catar y 6 Horas de Monza (WEC) | DAZN; Monza en Movistar Plus+ |
+| 22 de noviembre | F1 en Las Vegas (de madrugada en España) y MotoGP en Portugal | DAZN |
+| 29 de noviembre | F1 en Catar y MotoGP en Valencia | DAZN; Valencia también en abierto |
+| 1 de diciembre | Primer test de MotoGP con las motos de 850 cc, en Valencia | Por confirmar |
+| 6 de diciembre | F1 en Abu Dabi, última carrera del año | DAZN |
+| 18 y 19 de diciembre | Fórmula E, arranque de la temporada 13 en Yeda | Por confirmar |
+| 9 al 23 de enero | Dakar 2027 | Por confirmar |
+
+Las fechas de la F1 son las del [calendario oficial](https://www.formula1.com/en/racing/2026). El Dakar 2027 no se corre en Arabia Saudí: la organización lo trasladó de forma excepcional a Portugal y Marruecos, con salida en Loulé y llegada a Marrakech, y prevé volver al país saudí en 2028. La Fórmula E tendrá doble cita en Madrid el 26 y el 27 de junio de 2027.
+
+Un detalle del invierno: DAZN da todo el contenido del plan Premium, fútbol y baloncesto incluidos, a los clientes del plan Motor sin coste extra entre el 8 de diciembre y el 15 de febrero, según su web.
+
+## Qué se ve gratis
+
+Mediaset llegó a un acuerdo con DAZN para dar en abierto tres grandes premios de MotoGP en 2026: Jerez, Cataluña y Valencia. Queda el último, el domingo 29 de noviembre; la cadena y el horario de la emisión no están anunciados. No queda F1 en abierto este año y para 2027 no hay nada confirmado. La Fórmula E fue en abierto en RTVE en la temporada 2025-26.
+
+## Si te interesa más de un campeonato
+
+- **Solo F1 y MotoGP, sin fibra de Movistar:** DAZN Motor, que trae además WSBK y NASCAR.
+- **Ya eres cliente de Movistar con fibra:** el paquete Motor suma los canales de DAZN a tu televisión, y Movistar Plus+ añade la IndyCar y el WEC.
+- **Te basta el WEC y algo de motor:** Movistar Plus+ Libre, a 9,99 €/mes y sin permanencia.
+
+Clasificaciones y calendario, en las secciones de [Fórmula 1](/motor/formula-1), [MotoGP](/motor/motogp) e [IndyCar](/motor/indycar). Lo que se emite cada día, en [partidos de hoy](/partidos-hoy), y el resto de deportes, en la [guía de dónde ver el deporte en España](/noticias/donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1).`,
+    category: 'general',
+    competition: {"name":"Fórmula 1","sport":"motor","slug":"formula-1"},
+    sourceName: "DAZN",
+    sourceUrl: "https://www.dazn.com/es-ES/help/articles/16184063399709-DAZN-plans-and-pricing",
+    sourceLang: 'es',
+    publishedAt: '2026-11-04T16:07:38+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/2025_Japan_GP_-_Aston_Martin_-_Fernando_Alonso_-_FP1.jpg/1280px-2025_Japan_GP_-_Aston_Martin_-_Fernando_Alonso_-_FP1.jpg",
+      alt: "El Aston Martin verde de Fernando Alonso, con el número 14, rueda por la pista de Suzuka con la hierba seca de fondo",
+      credit: "Liauzh · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+    sourcesSecondary: [
+      { name: "DAZN: cómo ver el motor", url: "https://www.dazn.com/es-ES/help/articles/17544204660765" },
+      { name: "Movistar Plus+: la IndyCar 2026", url: "https://www.movistarplus.es/comunicacion/notas-de-prensa/persigue-a-palou-la-indycar-2026-arranca-motores-en-exclusiva-en-movistar-plus/" },
+      { name: "Formula E: dónde verla", url: "https://www.fiaformulae.com/en/ways-to-watch" },
+      { name: "MotoGP: Mediaset en abierto", url: "https://www.motogp.com/es/news/2026/03/12/mediaset-espana-emitira-los-grandes-premios-de-motogp-de-jerez-barcelona-y-valencia/1005166" },
+      { name: "Roams: paquete Motor de Movistar", url: "https://roams.es/companias-telefonicas/movistar/guias/television/motor/" },
+    ],
+  },
+  {
+    slug: 'donde-ver-wnba-espana-2027-prime-video-league-pass-rtve-awa-fam',
+    title: "Dónde ver la WNBA en España: lo que dejó la temporada 2026 y qué se sabe de la de 2027",
+    summary: "La WNBA 2026 acabó con el primer título de las Valkyries en un séptimo partido. Cómo se vio en España (Prime Video, League Pass y los playoffs gratis de RTVE), qué se sabe de la temporada 2027 y las seis españolas que jugaron este año.",
+    body: `La WNBA se ve en España sobre todo en Prime Video, que tiene 30 partidos exclusivos de temporada regular cada año desde 2026 y los incluye en Amazon Prime (4,99 €/mes). Para no perderse nada está el WNBA League Pass, y en 2026 RTVE emitió gratis los playoffs en Teledeporte y RTVE Play. Ahora mismo no hay nada que ver: la temporada 2026 terminó el sábado 31 de octubre y la de 2027 todavía no tiene fecha de inicio.
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| Prime Video | 30 partidos exclusivos de temporada regular por año, final de la Commissioner's Cup incluida, y algunas series de playoffs | Incluido en Amazon Prime: 4,99 €/mes o 49,90 €/año |
+| WNBA League Pass | Todos los partidos, en directo y a la carta | 39,99 dólares al año en la web de la WNBA; sin precio publicado en euros |
+| RTVE (Teledeporte y RTVE Play) | En 2026, los playoffs: seis partidos de primera ronda, las semifinales y la final. Para 2027, sin anunciar | Gratis |
+
+El acuerdo de Prime Video es de 11 temporadas y empezó en 2026, [según Amazon](https://www.aboutamazon.es/noticias/entretenimiento/nba-llega-a-prime-video-en-espana). Además de los 30 partidos anuales, le corresponden una serie de primera ronda cada año, siete series de semifinales y tres finales a lo largo del contrato. El League Pass se puede contratar también como canal dentro de Prime Video; avisa de restricciones regionales, así que conviene comprobar qué partidos da en España antes de pagar.
+
+## Cómo se vio la temporada 2026
+
+Prime Video estrenó su cobertura el 15 de mayo con dos partidos de madrugada, a las 2:00 y a las 4:00, [según ADSLZone](https://www.adslzone.net/noticias/streaming-tv/prime-video-mas-baloncesto-15-mayo-exclusiva-wnba-2026/). RTVE entró a final de septiembre con los playoffs, comentados por Jesús Cebrián y Ernest Riveras, [según Gigantes](https://www.gigantes.com/wnba/wnba-rtve-acuerdo-emision/).
+
+La final fue la primera de la historia de la liga que llegó al séptimo partido. Las Golden State Valkyries ganaron 68-63 a las Atlanta Dream en San Francisco, a la 1:00 de la madrugada del domingo 1 de noviembre en España, y se llevaron el título en solo su segunda temporada. Gabby Williams fue la MVP de la final.
+
+## Las españolas
+
+Nunca había habido tantas. Seis jugadoras con pasaporte español jugaron en la WNBA en 2026:
+
+- **Awa Fam**, número 3 del draft, en las Seattle Storm.
+- **Raquel Carrera**, en las New York Liberty.
+- **Alicia Flórez**, en las Washington Mystics, que la pasaron de contrato de desarrollo a contrato estándar.
+- **María Conde**, en las Toronto Tempo, uno de los dos equipos nuevos.
+- **Marta Suárez**, número 16 del draft, que pasó por las Valkyries en pretemporada y jugó con las Phoenix Mercury.
+- **Megan Gustafson**, estadounidense nacionalizada española, en las Portland Fire, el otro equipo de expansión.
+
+Hay una séptima en camino: Iyana Martín fue elegida con el número 7 por Portland, pero no se incorporó en 2026.
+
+## Lo que viene
+
+- **Lotería del draft:** domingo 15 de noviembre en Estados Unidos, a la 1:30 de la madrugada del lunes 16 en España. Entran seis equipos, entre ellos Seattle, el de Awa Fam.
+- **Draft de 2027:** 12 de abril.
+- **Inicio de la temporada 2027:** sin fecha. La de 2026 empezó el 8 de mayo, después de que jugadoras y liga cerraran su nuevo convenio en marzo.
+
+## Horarios
+
+La WNBA se juega casi siempre de noche en Estados Unidos, así que en España los partidos caen entre la 1:00 y las 4:00 de la madrugada. Los de fin de semana por la tarde en la costa este se adelantan a las 20:00 o las 22:00 en España: así fueron, por ejemplo, los primeros partidos de playoffs que dio RTVE.
+
+Resultados, calendario y clasificación, en la sección de la [WNBA](/baloncesto/wnba). Muchas de las futuras jugadoras salen de la universidad: lo contamos en la [guía de la NCAA femenina](/noticias/donde-ver-ncaa-femenina-espana-2026-27-march-madness-ucla-okafor). El resto del baloncesto, en la [guía del baloncesto en España](/noticias/donde-ver-baloncesto-espana-2026-27-nba-euroliga-liga-endesa-seleccion-wnba).`,
+    category: 'general',
+    competition: {"name":"WNBA","sport":"baloncesto","slug":"wnba"},
+    sourceName: "Amazon",
+    sourceUrl: "https://www.aboutamazon.es/noticias/entretenimiento/nba-llega-a-prime-video-en-espana",
+    sourceLang: 'es',
+    publishedAt: '2026-11-04T16:21:38+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/2024_WNBA_Finals_Game_1_NYL_vs._MIN_10.10.2024_01.jpg/1280px-2024_WNBA_Finals_Game_1_NYL_vs._MIN_10.10.2024_01.jpg",
+      alt: "Jugadoras de las New York Liberty y las Minnesota Lynx se saludan en la pista del Barclays Center antes del primer partido de la final de la WNBA de 2024, con la grada llena",
+      credit: "Kew Gardens 613 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+    sourcesSecondary: [
+      { name: "ADSLZone: la WNBA 2026 en Prime Video", url: "https://www.adslzone.net/noticias/streaming-tv/prime-video-mas-baloncesto-15-mayo-exclusiva-wnba-2026/" },
+      { name: "Gigantes: la WNBA en RTVE", url: "https://www.gigantes.com/wnba/wnba-rtve-acuerdo-emision/" },
+      { name: "Solobasket: las españolas en la WNBA", url: "https://www.solobasket.com/internacional/wnba-se-rinde-al-talento-espanol-record-historico-y-una-generacion-que-va-a-por-todas" },
+      { name: "Wikipedia: final de la WNBA 2026", url: "https://en.wikipedia.org/wiki/2026_WNBA_Finals" },
+      { name: "WNBA League Pass", url: "https://www.wnba.com/leaguepass" },
+    ],
+  },
+  {
+    slug: 'donde-ver-ncaa-femenina-espana-2026-27-march-madness-ucla-okafor',
+    title: "NCAA femenina 2026-27 en España: cómo seguir el March Madness y a la campeona UCLA",
+    summary: "El March Madness femenino se vio entero en España en 2026, en Disney+, pero el de 2027 aún no tiene emisor. Fechas del torneo, que se decide en Columbus en abril, horarios en España y Somto Okafor, la española que llega a UCLA.",
+    body: `El baloncesto universitario femenino de Estados Unidos solo ha tenido en España una ventana clara: el March Madness. En 2026, Disney+ lo emitió entero dentro de su suscripción, a la vez que el masculino, y desde 6,99 €/mes se pudo ver cómo UCLA ganaba su primer título al arrollar a South Carolina en la final (79-51). Para el torneo de 2027 no hay anuncio todavía, y la temporada regular, que acaba de empezar, no tiene emisor en España.
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| Disney+ | En 2026, el March Madness femenino y el masculino completos. Para 2027, por confirmar | Desde 6,99 €/mes con anuncios; 10,99 €/mes el plan Estándar |
+| Esta web | Resultados, calendario y clasificación por conferencias de la División I | Gratis |
+
+Disney+ anunció el torneo de 2026 a pocos días de empezar, [según ADSLZone](https://www.adslzone.net/noticias/streaming-tv/disney-plus-emitira-baloncesto-directo-marzo/): 134 partidos entre los dos cuadros, sin pagar nada aparte. Si repite, lo normal es que lo confirme otra vez en marzo. Los precios son los de la web de Disney+ a 4 de noviembre.
+
+## La temporada que empieza
+
+South Carolina, la finalista de abril, es la número uno del primer ranking AP y del de entrenadores. UCLA defiende el título que ganó en Phoenix, donde Lauren Betts fue elegida mejor jugadora de la Final Four. La temporada regular termina el 14 de marzo y ese mismo domingo se conoce el cuadro.
+
+El torneo cambia en 2027: pasa de 68 a 76 equipos, [como recoge la ficha del torneo](https://en.wikipedia.org/wiki/2027_NCAA_Division_I_women%27s_basketball_tournament).
+
+| Fecha | Qué pasa |
+| --- | --- |
+| Domingo 14 de marzo de 2027 | Selection Sunday: se publica el cuadro |
+| 17 y 18 de marzo | Ronda previa |
+| Del 19 al 22 de marzo | Primera y segunda ronda |
+| Del 26 al 29 de marzo | Sweet Sixteen y Elite Eight, en Filadelfia y Las Vegas |
+| Viernes 2 de abril | Semifinales, en el Nationwide Arena de Columbus (Ohio) |
+| Domingo 4 de abril | Final |
+
+## A qué hora se juega
+
+Muchos partidos de la temporada regular empiezan por la tarde o la noche en Estados Unidos, entre la 1:00 y las 4:00 en España. Los de fin de semana a mediodía de la costa este son la excepción: caen hacia las 18:00, hora peninsular. En marzo hay que tener en cuenta el cambio de hora: Estados Unidos adelanta el reloj el 14 de marzo y España el 28, así que durante dos semanas la diferencia baja a cinco horas.
+
+## Las españolas
+
+La que más foco tiene este curso es Somto Okafor, que eligió UCLA, la campeona. Llega con un palmarés de formación poco común: oro en el Europeo sub-18, donde fue MVP, oro en el sub-20 y bronce en el Mundial sub-19, [como contó Gigantes](https://www.gigantes.com/selecciones/entrevista-somto-okafor-seleccion-espanola-ucla/). Antes de decidirse por UCLA había tenido a South Carolina como primera opción.
+
+La NCAA también es camino hacia la WNBA. Marta Suárez salió de TCU, fue elegida con el número 16 del draft de 2026 y en su primera temporada profesional jugó con las Phoenix Mercury. Lo que hacen las españolas en la liga profesional está en la [guía de la WNBA](/noticias/donde-ver-wnba-espana-2027-prime-video-league-pass-rtve-awa-fam).
+
+Resultados, calendario y clasificación por conferencias, en la sección de la [NCAA femenina](/baloncesto/ncaa-femenina). El cuadro masculino tiene su propia [guía de la NCAA masculina](/noticias/donde-ver-ncaa-baloncesto-espana-2026-27-march-madness-disney-espanoles), y lo que se juega cada día, en [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    competition: {"name":"NCAA femenina","sport":"baloncesto","slug":"ncaa-femenina"},
+    sourceName: "ADSLZone",
+    sourceUrl: "https://www.adslzone.net/noticias/streaming-tv/disney-plus-emitira-baloncesto-directo-marzo/",
+    sourceLang: 'es',
+    publishedAt: '2026-11-04T16:22:38+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Paige_Bueckers_vs_St._Johns.jpg/1280px-Paige_Bueckers_vs_St._Johns.jpg",
+      alt: "Una jugadora de UConn con el número 5 en la pista durante un partido de baloncesto universitario femenino en Hartford, con la grada al fondo",
+      credit: "Ian Bethune / The UConn Blog · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+    sourcesSecondary: [
+      { name: "Gigantes: entrevista a Somto Okafor", url: "https://www.gigantes.com/selecciones/entrevista-somto-okafor-seleccion-espanola-ucla/" },
+      { name: "Wikipedia: torneo NCAA femenino de 2027", url: "https://en.wikipedia.org/wiki/2027_NCAA_Division_I_women%27s_basketball_tournament" },
+      { name: "Wikipedia: torneo NCAA femenino de 2026", url: "https://en.wikipedia.org/wiki/2026_NCAA_Division_I_women%27s_basketball_tournament" },
+      { name: "Disney+ España: planes y precios", url: "https://www.disneyplus.com/es-es" },
+    ],
+  },
+  {
+    slug: 'donde-ver-ncaa-baloncesto-espana-2026-27-march-madness-disney-espanoles',
+    title: "La NCAA masculina 2026-27 desde España: dónde ver el March Madness y a los españoles",
+    summary: "La NCAA masculina 2026-27 no tiene emisor anunciado en España; en 2026, Disney+ dio el March Madness completo. Calendario del torneo de 2027, que pasa a 76 equipos, horarios en hora peninsular y los españoles a seguir, con Izan Almansa en Gonzaga.",
+    body: `La NCAA masculina no tiene emisor anunciado en España para la temporada 2026-27, que arrancó a primeros de noviembre. La referencia es la edición anterior: Disney+ emitió el March Madness de 2026 completo, sin coste extra sobre su suscripción (desde 6,99 €/mes), y Movistar Plus+ anunció algunos partidos en español, Final Four incluida, [según Gigantes](https://www.gigantes.com/ncaa/march-madness-ncaa-guia-rapida-espanoles-bracket-donde-verlo/). Ninguna de las dos ha confirmado el torneo de 2027, y para la temporada regular no hay oferta oficial en España.
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| Disney+ | En 2026, los 134 partidos del March Madness masculino y femenino. Para 2027, sin anunciar | Desde 6,99 €/mes con anuncios; 10,99 €/mes el plan Estándar |
+| Movistar Plus+ | En 2026, una selección de partidos del torneo con comentarios en español. Para 2027, sin anunciar | Según el plan contratado |
+| Esta web | Resultados, calendario, clasificación por conferencias y cuadro | Gratis |
+
+El anuncio de Disney+ llegó una semana antes del torneo, [según ADSLZone](https://www.adslzone.net/noticias/streaming-tv/disney-plus-emitira-baloncesto-directo-marzo/), y lo enmarcó en su relación con ESPN. Los precios de Disney+ son los de su web a 4 de noviembre.
+
+## Lo que queda de temporada
+
+Florida empezó la temporada como número uno del ranking AP. La temporada regular dura hasta el 14 de marzo y el torneo cambia de tamaño: pasa de 68 a 76 equipos, así que la ronda previa crece y se juega en dos sedes, Dayton y Wichita.
+
+| Fecha | Qué pasa |
+| --- | --- |
+| Hasta el 14 de marzo de 2027 | Temporada regular y torneos de conferencia |
+| 16 y 17 de marzo | Ronda previa, en Dayton y Wichita |
+| Del 18 al 21 de marzo | Primera y segunda ronda |
+| Del 25 al 28 de marzo | Sweet Sixteen y Elite Eight |
+| Sábado 3 de abril | Semifinales de la Final Four, en el Ford Field de Detroit |
+| Lunes 5 de abril | Final |
+
+## Horarios en España
+
+Casi todo se juega de madrugada. Los partidos de noche en la costa este de Estados Unidos empiezan entre la 1:00 y las 3:00, hora peninsular. Las primeras rondas del March Madness tienen la ventaja de los partidos de mediodía estadounidense, que en España caen por la tarde. La Final Four es nocturna: en 2026, la final estaba programada a las 2:30 de la madrugada del martes, [según Blog de Basket](https://www.blogdebasket.com/2026/04/03/seguir-television-online-historica-final-four-ncaa-2026).
+
+## Los españoles
+
+La temporada pasada acabó con un español campeón: Aday Mara ganó el título con Michigan, que derrotó a UConn en la final de Indianápolis, y fue el primer español en jugar una Final Four. Ahora está en la NBA, con los Thunder.
+
+Este curso, la novedad es Izan Almansa. Gonzaga confirmó en octubre que el pívot, que la temporada pasada jugaba en el Real Madrid, se une a su equipo. En Gonzaga estaba también Mario Saint-Supéry, que en abril decidió no entrar en el portal de transferencias. La [lista de Gigantes](https://www.gigantes.com/ncaa/situacion-espanoles-ncaa-transfer-portal-draft-fechas-clave/) recoge otros cambios de universidad:
+
+- Álvaro Folgueiras, de Iowa a Louisville.
+- Rubén Domínguez, de Texas A&M a Xavier.
+- Victory Onuetu, de Hofstra a Wisconsin.
+- Jordi Rodríguez, de Cincinnati a Charlotte.
+- David Gómez, de Charlotte a Colorado.
+
+Siguen donde estaban, entre otros, Lucas Langarita (Utah), Conrad Martínez (High Point) y Guillermo del Pino (Maryland). A ellos se suma una veintena de canteranos de clubes de la Liga Endesa que han cruzado el Atlántico este verano, no todos españoles.
+
+## Cómo seguirla sin emisión
+
+Mientras no haya partidos en televisión, los resultados de cada noche, el cuadro y la clasificación por conferencias están en la sección de la [NCAA masculina](/baloncesto/ncaa). La versión femenina tiene su propia [guía de la NCAA femenina](/noticias/donde-ver-ncaa-femenina-espana-2026-27-march-madness-ucla-okafor), y el resto del baloncesto, en la [guía del baloncesto en España](/noticias/donde-ver-baloncesto-espana-2026-27-nba-euroliga-liga-endesa-seleccion-wnba).`,
+    category: 'general',
+    competition: {"name":"NCAA masculina","sport":"baloncesto","slug":"ncaa"},
+    sourceName: "ADSLZone",
+    sourceUrl: "https://www.adslzone.net/noticias/streaming-tv/disney-plus-emitira-baloncesto-directo-marzo/",
+    sourceLang: 'es',
+    publishedAt: '2026-11-04T16:23:38+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Islanders_Tigers_First_Four_2022.jpg/1280px-Islanders_Tigers_First_Four_2022.jpg",
+      alt: "Partido de la ronda previa del torneo de la NCAA en el UD Arena de Dayton, visto desde lo alto de la grada, con el marcador colgado sobre la pista",
+      credit: "Blervis · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+    sourcesSecondary: [
+      { name: "Gigantes: guía del March Madness 2026", url: "https://www.gigantes.com/ncaa/march-madness-ncaa-guia-rapida-espanoles-bracket-donde-verlo/" },
+      { name: "Gigantes: los españoles en la NCAA", url: "https://www.gigantes.com/ncaa/situacion-espanoles-ncaa-transfer-portal-draft-fechas-clave/" },
+      { name: "Gigantes: Izan Almansa, a Gonzaga", url: "https://www.gigantes.com/ncaa/izan-almansa-oficial-gonzaga-ncaa/" },
+      { name: "Blog de Basket: la Final Four de 2026", url: "https://www.blogdebasket.com/2026/04/03/seguir-television-online-historica-final-four-ncaa-2026" },
+      { name: "Wikipedia: torneo NCAA de 2027", url: "https://en.wikipedia.org/wiki/2027_NCAA_Division_I_men%27s_basketball_tournament" },
+    ],
+  },
+  {
+    slug: 'donde-ver-mundial-baloncesto-2027-qatar-espana-ventanas-fiba-rtve',
+    title: "Mundial de baloncesto 2027 en Qatar: dónde se verá en España y lo que le falta a la selección",
+    summary: "El Mundial de baloncesto se juega en Doha del 27 de agosto al 12 de septiembre de 2027 y se verá en abierto en España. La selección aún tiene que clasificarse: cuatro partidos, rivales, fechas, cómo está el grupo y cómo es el torneo.",
+    body: `El Mundial de baloncesto de 2027 se juega en Doha (Qatar) del viernes 27 de agosto al domingo 12 de septiembre, y en España se verá gratis en RTVE: compró a la FIBA los partidos de la selección hasta 2029, con el Mundial de Qatar incluido. No hace falta ninguna suscripción. La incógnita es otra: España todavía no está clasificada. Le quedan cuatro partidos, dos a finales de este mes y dos entre febrero y marzo, y llega con 5 victorias y 3 derrotas.
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| RTVE (las ventanas anteriores fueron en Teledeporte y RTVE Play) | Los cuatro partidos de clasificación que le quedan a España | Gratis |
+| RTVE | El Mundial de Qatar, con los partidos de España si se clasifica | Gratis |
+| Esta web | Calendario, resultados y grupos del torneo | Gratis |
+
+El acuerdo de RTVE con la FIBA cubre de 2025 a 2029 y nombra expresamente el Mundial de Doha, [según Vertele](https://www.eldiario.es/vertele/noticias/tve-sigue-apostando-baloncesto-compra-derechos-seleccion-masculina-femenina-2029_1_11555828.html). Además, el contrato marco entre la FIBA y la UER obliga a las televisiones públicas a dar en abierto todos los partidos de su selección. RTVE no ha detallado aún en qué canales irá cada partido del torneo ni cuántos emitirá además de los de España.
+
+## Lo que le falta a España
+
+España juega la segunda fase de la clasificación europea en el grupo I, con Ucrania, Georgia, Grecia, Portugal y Montenegro. Se arrastran los resultados de la primera fase y van al Mundial los tres primeros. Así está el grupo antes de la ventana de noviembre, [según Gigantes](https://www.gigantes.com/selecciones/que-supone-para-espana-la-derrota-frente-a-grecia-en-las-ventanas-fiba/):
+
+| Selección | Balance |
+| --- | --- |
+| Ucrania | 6-2 |
+| España | 5-3 |
+| Georgia | 5-3 |
+| Montenegro | 4-4 |
+| Portugal | 4-4 |
+| Grecia | 4-4 |
+
+España empezó con cinco victorias y encadenó tres derrotas: 91-89 en la prórroga en Tiflis ante Georgia en julio, y en agosto contra Portugal en Zaragoza y contra Grecia en Atenas (108-106, también en la prórroga). Gigantes calcula que con tres victorias más estaría dentro sin depender de nadie; con dos, entraría en desempates.
+
+| Fecha | Partido | Dónde verlo |
+| --- | --- | --- |
+| Jueves 26 de noviembre | Montenegro - España | RTVE, en abierto |
+| Domingo 29 de noviembre | España - Grecia | RTVE, en abierto |
+| Viernes 26 de febrero de 2027 | Portugal - España | RTVE, en abierto |
+| Lunes 1 de marzo de 2027 | España - Montenegro | RTVE, en abierto |
+
+Los horarios y la sede del partido contra Grecia no están publicados. Chus Mateo no tendrá a los jugadores de la NBA, como Hugo González o Aday Mara, porque las ventanas coinciden con su temporada, y normalmente tampoco a los de la Euroliga.
+
+## Cómo es el torneo
+
+Son 32 selecciones repartidas en ocho grupos de cuatro. Los dos primeros de cada grupo pasan a una segunda fase de cuatro grupos, y de ahí salen los cuartos de final. Todo se juega en cuatro pabellones de la zona de Doha: el Lusail Arena (15.227 espectadores), el Al Attiyah Arena, el Duhail Arena y el estadio de fútbol Al Janoub, adaptado para la ocasión. La FIBA ha prometido que estarán a menos de media hora entre sí.
+
+Hay más en juego que el título. Las dos mejores selecciones europeas del Mundial se clasifican directamente para los Juegos de Los Ángeles 2028; el resto tendrá que pasar por los preolímpicos. Alemania defiende el título que ganó en Manila en 2023. España ha sido campeona dos veces, en 2006 y 2019.
+
+## Horarios y sede
+
+Qatar va una hora por delante de la España peninsular a finales de agosto, así que los partidos de tarde y noche en Doha caen en horario cómodo en España. El calendario por días no está publicado, ni la fecha del sorteo de grupos. Las fechas son las que da [la FIBA](https://about.fiba.basketball/es/news/fiba-basketball-world-cup-2027-tickets-go-on-sale-as-one-year-to-go-milestone-arrives).
+
+La sede tuvo un momento de duda en primavera por la guerra en Irán. En junio, el secretario general de la FIBA, Andreas Zagklis, dijo que el torneo seguía previsto en Qatar y que solo buscarían otra solución si fuera necesario, [según AP](https://wtop.com/news/2026/06/fiba-still-planning-for-basketball-world-cup-in-qatar-in-2027-as-scheduled/). En agosto, la FIBA sacó las entradas a la venta con Doha como sede.
+
+El calendario y los resultados, en la página del [Mundial de baloncesto](/baloncesto/mundial-de-baloncesto). Dónde ver la Euroliga, la NBA o la Liga Endesa mientras tanto, en la [guía del baloncesto en España](/noticias/donde-ver-baloncesto-espana-2026-27-nba-euroliga-liga-endesa-seleccion-wnba).`,
+    category: 'general',
+    competition: {"name":"Mundial de Baloncesto","sport":"baloncesto","slug":"mundial-de-baloncesto"},
+    sourceName: "Vertele (elDiario.es)",
+    sourceUrl: "https://www.eldiario.es/vertele/noticias/tve-sigue-apostando-baloncesto-compra-derechos-seleccion-masculina-femenina-2029_1_11555828.html",
+    sourceLang: 'es',
+    publishedAt: '2026-11-04T16:24:38+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Time_out_in_the_2019_FIBA_Basketball_World_Cup_Final.jpg/1280px-Time_out_in_the_2019_FIBA_Basketball_World_Cup_Final.jpg",
+      alt: "Jugadores y cuerpo técnico de la selección española, de rojo, reunidos en el banquillo durante un tiempo muerto de la final del Mundial de 2019",
+      credit: "Luiyo from Madrid, Spain · Wikimedia Commons",
+      license: "CC BY-SA 2.0",
+    },
+    sourcesSecondary: [
+      { name: "2Playbook: acuerdo FIBA-UER con RTVE", url: "https://www.2playbook.com/media/rtve-emitira-partidos-seleccion-baloncesto-en-acuerdo-macro-entre-fiba-ebu_16839_102.html" },
+      { name: "Gigantes: España tras perder con Grecia", url: "https://www.gigantes.com/selecciones/que-supone-para-espana-la-derrota-frente-a-grecia-en-las-ventanas-fiba/" },
+      { name: "Eurohoops: partidos que le quedan a España", url: "https://www.eurohoops.net/es/fiba-world-cup-es/2003661/los-partidos-que-le-quedan-a-espana-para-clasificarse-para-el-mundial-2027/" },
+      { name: "FIBA: entradas del Mundial 2027", url: "https://about.fiba.basketball/es/news/fiba-basketball-world-cup-2027-tickets-go-on-sale-as-one-year-to-go-milestone-arrives" },
+      { name: "AP: la FIBA mantiene el Mundial en Qatar", url: "https://wtop.com/news/2026/06/fiba-still-planning-for-basketball-world-cup-in-qatar-in-2027-as-scheduled/" },
+    ],
+  },
+  {
+    slug: 'donde-ver-baloncesto-espana-2026-27-nba-euroliga-liga-endesa-seleccion-wnba',
+    title: "El baloncesto en España en 2026-27: qué plataforma tiene cada liga y qué combinación conviene",
+    summary: "Dónde se ve en España cada competición de baloncesto en 2026-27: NBA, Euroliga, Liga Endesa, Eurocup, Liga Femenina, la selección, la WNBA y la NCAA. Qué plan conviene según a quién sigas, cuánto cuesta cada opción y qué partidos son gratis.",
+    body: `Ninguna plataforma tiene todo el baloncesto en España en la temporada 2026-27. La NBA se reparte entre DAZN y Prime Video, la Euroliga es exclusiva de Movistar Plus+, la Liga Endesa está entera en DAZN y la selección española juega en abierto en RTVE. Hay baloncesto gratis cada semana: un partido de la Liga Endesa por jornada para quien se registre en DAZN, el partido estrella de la Liga Femenina en Teledeporte y las ventanas FIBA de España. Para tenerlo casi todo hacen falta dos suscripciones.
+
+*Esta guía incluye enlaces de afiliado a DAZN y Movistar Plus+. Si contratas desde ellos, Mundiales recibe una comisión sin coste extra para ti. No cambia lo que contamos.*
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| [Registro gratis en DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) | Un partido de la Liga Endesa por jornada | Gratis |
+| [DAZN Baloncesto](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) | Liga Endesa, Copa del Rey, Supercopa y NBA | Desde 9,99 €/mes; 14,99 €/mes sin permanencia |
+| [DAZN Made in USA](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) | La NBA de DAZN, sin la ACB | Desde 4,99 €/mes |
+| Prime Video | Partidos de la NBA (sobre todo la madrugada del viernes al sábado) y de la WNBA | Incluido en Amazon Prime, 4,99 €/mes |
+| [Movistar Plus+ Libre](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Fbaloncesto%2Feuroliga) | Los 2 mejores partidos de cada jornada de Euroliga | 9,99 €/mes, sin permanencia |
+| [Movistar Plus+ con paquete Baloncesto](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Fbaloncesto) | Toda la Euroliga, la Eurocup, la Liga Endesa y una selección de la NBA | 14 €/mes (base) + 10 €/mes, con tarifa miMovistar |
+| RTVE (Teledeporte y RTVE Play) | La selección española y un partido de la Liga Femenina por jornada | Gratis |
+
+El precio de DAZN depende de cómo se pague: la [ayuda de DAZN](https://www.dazn.com/es-ES/help/articles/30194060137373-el-baloncesto-acb-en-dazn) da 14,99 €/mes mes a mes, 5,99 €/mes en el plan anual fraccionado y 65,89 € en un solo pago. El paquete Baloncesto de Movistar se quita y se pone sin permanencia, [según Roams](https://roams.es/companias-telefonicas/movistar/guias/television/baloncesto/), pero exige tener fibra y móvil de Movistar.
+
+## Qué combinación te conviene
+
+- **Sigues la Liga Endesa y la NBA.** DAZN Baloncesto lo cubre: la ACB entera y unos 180 partidos de la NBA. Si además quieres los de Prime Video, suma Amazon Prime.
+- **Sigues a un equipo de Euroliga.** Necesitas Movistar. El plan Libre solo da dos partidos por jornada, así que el de tu equipo puede no estar; el paquete Baloncesto los da todos.
+- **Eres cliente de Movistar y lo quieres casi todo.** El paquete Baloncesto incluye los canales DAZN Baloncesto (diales 74 a 76), con la Liga Endesa completa y parte de la NBA. Con Prime Video al lado no te falta casi nada.
+- **No tienes fibra de Movistar.** Movistar Plus+ Libre (9,99 €) para los grandes partidos de Euroliga y DAZN Baloncesto para la ACB y la NBA. Son dos cuotas, pero sin permanencia en ninguna.
+- **Solo ves la NBA de vez en cuando.** Prime Video, incluido en Amazon Prime, o DAZN Made in USA.
+
+El detalle de cada competición está en sus guías: la [NBA](/noticias/nba-2026-27-donde-ver-espana-dazn-prime-video-estreno-hugo-gonzalez-aldama), la [Euroliga](/noticias/donde-ver-euroliga-2026-27-espana-movistar-precios-real-madrid-barca) y la [Liga Endesa](/noticias/donde-ver-liga-endesa-2026-27-dazn-movistar-gratis-autonomicas).
+
+## Eurocup, Champions League y Liga Femenina
+
+Los equipos españoles de la Eurocup están en el paquete Baloncesto de Movistar, que también programa partidos de la Basketball Champions League. La Euroliga femenina va en los canales Baloncesto por M+ (diales 66 y 67).
+
+La Liga Femenina Endesa es la que más se ha abierto este curso. Movistar Plus+ la emite entera, Teledeporte da en abierto el partido estrella de cada jornada y Siroko TV también la ofrece. Cinco autonómicas la emiten con regularidad: TVG, Aragón TV, TV3, IB3 y EITB, [según la FEB](https://www.feb.es/lfendesa/2026/9/23/baloncesto/liga-femenina-endesa-aumenta-exponencialmente-difusion-podra-verse-esta-temporada-plataformas-distintas/106290.aspx).
+
+## La selección, en abierto
+
+RTVE tiene los partidos de las selecciones masculina y femenina hasta 2029, [como contó Vertele](https://www.eldiario.es/vertele/noticias/tve-sigue-apostando-baloncesto-compra-derechos-seleccion-masculina-femenina-2029_1_11555828.html), y las ventanas de clasificación van en Teledeporte y RTVE Play. A España le quedan cuatro partidos para entrar en el Mundial de Qatar 2027:
+
+| Fecha | Partido |
+| --- | --- |
+| Jueves 26 de noviembre | Montenegro - España |
+| Domingo 29 de noviembre | España - Grecia |
+| Viernes 26 de febrero de 2027 | Portugal - España |
+| Lunes 1 de marzo de 2027 | España - Montenegro |
+
+Llega con 5 victorias y 3 derrotas, y se clasifican los tres primeros de un grupo de seis. Las cuentas y las fechas del torneo, en la [guía del Mundial de baloncesto](/noticias/donde-ver-mundial-baloncesto-2027-qatar-espana-ventanas-fiba-rtve).
+
+## El baloncesto de Estados Unidos que no es la NBA
+
+La WNBA tiene una vía fija en España: Prime Video emite 30 partidos exclusivos de temporada regular cada año, y RTVE dio en abierto los playoffs de 2026. Con la NCAA no hay nada asegurado: Disney+ emitió el March Madness completo en 2026, pero no ha anunciado el de 2027. Lo contamos en las guías de la [WNBA](/noticias/donde-ver-wnba-espana-2027-prime-video-league-pass-rtve-awa-fam), la [NCAA masculina](/noticias/donde-ver-ncaa-baloncesto-espana-2026-27-march-madness-disney-espanoles) y la [NCAA femenina](/noticias/donde-ver-ncaa-femenina-espana-2026-27-march-madness-ucla-okafor).
+
+## Lo que se ve sin pagar
+
+- Un partido de la Liga Endesa por jornada en DAZN, con registro.
+- Partidos de la Liga Endesa en TV3, TVG, Aragón TV y EITB.
+- El partido estrella de la Liga Femenina en Teledeporte, y más en cinco autonómicas.
+- Todos los partidos de la selección española en RTVE.
+
+Resultados, clasificaciones y horarios de cada liga, en la sección de [baloncesto](/baloncesto); lo que se juega cada día, en [partidos de hoy](/partidos-hoy). El resto del deporte está en la [guía de dónde ver el deporte en España](/noticias/donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1).`,
+    category: 'general',
+    competition: {"name":"Liga Endesa","sport":"baloncesto","slug":"liga-endesa"},
+    sourceName: "Roams",
+    sourceUrl: "https://roams.es/companias-telefonicas/movistar/guias/television/baloncesto/",
+    sourceLang: 'es',
+    publishedAt: '2026-11-04T16:25:38+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Spain_FIBA_EuroBasket_Women_2025_20250625_%2813%29.jpg/1280px-Spain_FIBA_EuroBasket_Women_2025_20250625_%2813%29.jpg",
+      alt: "Cuatro jugadoras de la selección española, con la camiseta blanca, hablan en la pista durante un partido del EuroBasket femenino de 2025; en primer plano, de espaldas, una rival de rojo",
+      credit: "Zafer · Wikimedia Commons",
+      license: "CC BY 4.0",
+    },
+    sourcesSecondary: [
+      { name: "DAZN: el baloncesto ACB en DAZN", url: "https://www.dazn.com/es-ES/help/articles/30194060137373-el-baloncesto-acb-en-dazn" },
+      { name: "FEB: la LF Endesa, en 8 plataformas", url: "https://www.feb.es/lfendesa/2026/9/23/baloncesto/liga-femenina-endesa-aumenta-exponencialmente-difusion-podra-verse-esta-temporada-plataformas-distintas/106290.aspx" },
+      { name: "Vertele: TVE compra la selección hasta 2029", url: "https://www.eldiario.es/vertele/noticias/tve-sigue-apostando-baloncesto-compra-derechos-seleccion-masculina-femenina-2029_1_11555828.html" },
+      { name: "Amazon: la NBA y la WNBA en Prime Video", url: "https://www.aboutamazon.es/noticias/entretenimiento/nba-llega-a-prime-video-en-espana" },
+    ],
+  },
+  {
+    slug: 'donde-ver-mundial-de-clubes-2029-espana-derechos-copa-intercontinental-2026',
+    title: "Mundial de Clubes 2029 e Intercontinental: cómo se verán en España y qué falta por decidir",
+    summary: "El Mundial de Clubes de 2025 se vio gratis entero en DAZN y con un partido diario en Mediaset. El de 2029 aún no tiene sede ni televisión en España. Antes llega la Copa Intercontinental de diciembre en Catar, con el PSG esperando en la final.",
+    body: `Nadie tiene todavía los derechos del próximo Mundial de Clubes, el de 2029, en España: la FIFA ni siquiera ha elegido sede. El de 2025, en Estados Unidos, se vio gratis y entero en DAZN, que compró los derechos para todo el mundo, y Mediaset dio un partido al día en abierto. Antes de 2029 hay otro torneo de clubes de la FIFA, la Copa Intercontinental de diciembre, sin canal confirmado en España.
+
+## La respuesta corta
+
+| Torneo | Dónde se vio o se verá en España | Precio |
+| --- | --- | --- |
+| Mundial de Clubes 2025 | DAZN, los 63 partidos; Mediaset, uno al día | Gratis |
+| Copa Intercontinental 2026 (9-16 de diciembre) | Canal por confirmar | — |
+| Mundial de Clubes 2029 | Sin adjudicar | — |
+
+## Cómo se vio el Mundial de Clubes 2025
+
+DAZN compró a la FIFA los derechos mundiales del primer Mundial de Clubes de 32 equipos y lo dio gratis: hacía falta registrarse, no pagar. En España, además, [cerró una sublicencia con Mediaset](https://dazngroup.com/press-room/dazn-y-mediaset-cierran-un-acuerdo-de-sublicencia-en-espana-e-italia-para-el-mundial-de-clubes-fifa-2025/) para emitir en abierto un partido destacado de cada día. El torneo se jugó del 14 de junio al 13 de julio de 2025. El Real Madrid llegó a semifinales y el Chelsea ganó la final al PSG por 3-0 en Nueva Jersey.
+
+Ese acuerdo de DAZN era para la edición de 2025. No hay ningún contrato anunciado para la siguiente.
+
+## El Mundial de Clubes 2029: lo confirmado y lo pendiente
+
+- **Fechas:** verano de 2029, según confirmó la FIFA en agosto de 2025, [como publicó The Guardian](https://www.theguardian.com/football/2025/aug/24/fifas-club-world-cup-to-take-place-in-summer-2029-and-not-in-qatar).
+- **Sede:** sin elegir. Han mostrado interés Brasil, Estados Unidos, Alemania, Inglaterra y México, entre otros. El presidente de la federación marroquí habló de organizarlo entre España, Portugal y Marruecos como ensayo del Mundial 2030.
+- **Formato:** la FIFA estudia pasar de 32 a 48 equipos, sin decisión oficial.
+- **Derechos en España:** sin adjudicar.
+
+## La Copa Intercontinental de diciembre
+
+Es el torneo anual de la FIFA que enfrenta a los campeones continentales. La fase final se juega en Al Rayyan, en Catar:
+
+- **Miércoles 9 de diciembre:** Derby de las Américas, entre el campeón de la Libertadores (Palmeiras o Estudiantes) y el Toluca mexicano.
+- **Sábado 12 de diciembre:** Challenger Cup, entre el ganador del anterior y el Mamelodi Sundowns sudafricano.
+- **Miércoles 16 de diciembre:** final contra el PSG, campeón de la Champions.
+
+El PSG defiende el título que ganó en 2025. Las rondas previas ya se jugaron: el Al Ahli - Auckland FC del 26 de agosto se vio en DAZN, también gratis en su aplicación. Para los partidos de diciembre, [Fútbol en la TV](https://www.futbolenlatv.es/competicion/copa-intercontinental) marca a 4 de noviembre «canal por confirmar», y la FIFA no ha publicado los horarios. Cuando se anuncien, los tendremos en la [sección del Mundial de Clubes](/futbol/mundial-de-clubes).
+
+El rival que saldrá de la Libertadores se decide el 28 de noviembre: cómo ver esa final, en [la guía de la Copa Libertadores](/noticias/donde-ver-copa-libertadores-espana-final-2026-palmeiras-estudiantes-edicion-2027). La temporada del PSG y del resto de grandes de Europa, en [la guía de dónde ver la Champions](/noticias/donde-ver-champions-league-2026-27-espana-movistar-precios-final-metropolitano).`,
+    category: 'general',
+    competition: {"name":"Mundial de Clubes","sport":"futbol","slug":"mundial-de-clubes"},
+    sourceName: "DAZN",
+    sourceUrl: "https://dazngroup.com/press-room/dazn-y-mediaset-cierran-un-acuerdo-de-sublicencia-en-espana-e-italia-para-el-mundial-de-clubes-fifa-2025/",
+    sourceLang: 'es',
+    publishedAt: '2026-11-04T16:26:38+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/2025_FIFA_Club_World_Cup_-_Seattle_Sounders_FC_vs._PSG_-_02.jpg/1280px-2025_FIFA_Club_World_Cup_-_Seattle_Sounders_FC_vs._PSG_-_02.jpg",
+      alt: "Jugadores del Seattle Sounders, de verde, y del PSG, de blanco, en una jugada del Mundial de Clubes 2025 con la grada llena al fondo",
+      credit: "SounderBruce · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+    sourcesSecondary: [
+      { name: "The Guardian: el Mundial de Clubes 2029, en verano", url: "https://www.theguardian.com/football/2025/aug/24/fifas-club-world-cup-to-take-place-in-summer-2029-and-not-in-qatar" },
+      { name: "Fútbol en la TV: Copa Intercontinental", url: "https://www.futbolenlatv.es/competicion/copa-intercontinental" },
+      { name: "Wikipedia: Mundial de Clubes 2029", url: "https://en.wikipedia.org/wiki/2029_FIFA_Club_World_Cup" },
+      { name: "Wikipedia: Copa Intercontinental 2026", url: "https://en.wikipedia.org/wiki/2026_FIFA_Intercontinental_Cup" },
+    ],
+  },
+  {
+    slug: 'donde-ver-copa-america-espana-2028-derechos-sede-como-se-vio-2024',
+    title: "Copa América 2028 en televisión: sin sede ni derechos en España, y cómo se vio la última",
+    summary: "La próxima Copa América es la de 2028 y la CONMEBOL aún no ha elegido sede ni fechas. Nadie tiene todavía sus derechos en España. La de 2024, en Estados Unidos, se vio entera en Movistar Plus+, con partidos en abierto en TV3 en Cataluña.",
+    body: `Ninguna cadena tiene todavía los derechos de la próxima Copa América en España, la de 2028, porque la CONMEBOL aún no ha elegido sede ni fechas. La última edición, la de 2024 en Estados Unidos, se vio entera en Movistar Plus+, y en Cataluña algunos partidos fueron en abierto en TV3. Hasta que se adjudique la de 2028, no hay nada que contratar.
+
+## La respuesta corta
+
+| Edición | Dónde se vio o se verá en España | Precio |
+| --- | --- | --- |
+| Copa América 2024 | Movistar Plus+, los 32 partidos; en Cataluña, una selección en TV3 | Suscripción a Movistar Plus+; TV3, gratis |
+| Copa América 2028 | Sin adjudicar | — |
+
+## Lo que se sabe de la Copa América 2028
+
+Será la 49.ª edición. Lo demás está en el aire a 4 de noviembre:
+
+- **Sede:** sin decidir. Por el turno de rotación le tocaría a Ecuador, que propuso ocho ciudades. The Athletic publicó en diciembre de 2025 que la CONMEBOL y la CONCACAF negociaban celebrarla en Estados Unidos. Uruguay, Argentina y Paraguay también han sonado.
+- **Fechas:** sin anunciar. Los Juegos Olímpicos de Los Ángeles, en julio de 2028, condicionan el calendario si el torneo va a Estados Unidos.
+- **Selecciones:** las diez de la CONMEBOL. Las invitadas, si las hay, no se conocen.
+- **Derechos en España:** nadie los ha anunciado.
+
+Así lo recoge el [seguimiento de Wikipedia sobre la edición de 2028](https://en.wikipedia.org/wiki/2028_Copa_Am%C3%A9rica), que cita prensa brasileña de junio de 2026 sobre las dudas de la candidatura ecuatoriana.
+
+## Cómo se vio la Copa América 2024
+
+Movistar Plus+ anunció en mayo de 2024 que [emitiría el torneo completo](https://www.mundoplus.tv/tv-digital/la-copa-america-y-la-soccer-champions-tour-se-juegan-al-completo-en-movistar-plus/) para todos sus clientes, con un canal propio, M+ Copa América. TV3 dio en abierto en Cataluña partidos de la fase final, entre ellos las semifinales y la final, según el [historial de Fútbol en la TV](https://www.futbolenlatv.es/competicion/copa-america).
+
+Los horarios fueron los de cualquier torneo en Estados Unidos: casi todos los partidos, entre la medianoche y las 3:00 de la madrugada. La final, Argentina - Colombia, se retrasó más de una hora por los incidentes en los accesos al estadio de Miami y empezó a las 3:20 del lunes 15 de julio. Argentina ganó 1-0 en la prórroga y sumó su título número 16.
+
+## Y mientras tanto
+
+Las selecciones sudamericanas juegan amistosos y, en 2030, tres de ellas abrirán el Mundial en casa: Argentina, Uruguay y Paraguay tienen la plaza asegurada como anfitrionas del centenario. Lo que se sabe de los derechos de ese torneo está en [la guía del Mundial 2030](/noticias/donde-ver-mundial-2030-espana-derechos-tv-partidos-seleccion-nations-league).
+
+En clubes, el fútbol sudamericano sí tiene plataforma en España: la final de la Libertadores se juega el 28 de noviembre y la contamos en [la guía de la Copa Libertadores](/noticias/donde-ver-copa-libertadores-espana-final-2026-palmeiras-estudiantes-edicion-2027). Resultados e historia del torneo de selecciones, en la [sección de la Copa América](/futbol/copa-america).`,
+    category: 'general',
+    competition: {"name":"Copa América","sport":"futbol","slug":"copa-america"},
+    sourceName: "Mundoplus",
+    sourceUrl: "https://www.mundoplus.tv/tv-digital/la-copa-america-y-la-soccer-champions-tour-se-juegan-al-completo-en-movistar-plus/",
+    sourceLang: 'es',
+    publishedAt: '2026-11-04T16:27:38+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Peru_-_Chile_en_Arlington%2C_Texas.jpg/1280px-Peru_-_Chile_en_Arlington%2C_Texas.jpg",
+      alt: "Vista desde la grada del Perú - Chile de la Copa América 2024 en el estadio de Arlington, Texas, con el videomarcador gigante colgado sobre el césped",
+      credit: "Paul Lowry · Wikimedia Commons",
+      license: "CC BY 2.0",
+    },
+    sourcesSecondary: [
+      { name: "Fútbol en la TV: Copa América", url: "https://www.futbolenlatv.es/competicion/copa-america" },
+      { name: "Wikipedia: Copa América 2028", url: "https://en.wikipedia.org/wiki/2028_Copa_Am%C3%A9rica" },
+      { name: "Wikipedia: Copa América 2024", url: "https://en.wikipedia.org/wiki/2024_Copa_Am%C3%A9rica" },
+    ],
+  },
+  {
+    slug: 'donde-ver-eurocopa-2028-espana-rtve-clasificacion-fechas-derechos',
+    title: "La Eurocopa 2028 en España: fechas, clasificación y quién tiene los derechos de televisión",
+    summary: "La Eurocopa 2028 se juega del 9 de junio al 9 de julio en Reino Unido e Irlanda, y la clasificación arranca en marzo de 2027 tras el sorteo del 6 de diciembre en Belfast. RTVE tiene los derechos en España; DAZN, los partidos del resto de selecciones.",
+    body: `La Eurocopa 2028 se verá en abierto en RTVE, que compró en 2025 los derechos del torneo y de los partidos de España entre 2026 y 2028. La clasificación de la selección también irá en La 1. Los partidos de clasificación del resto de equipos están en [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome), de pago, con algunos gratis con registro. Lo que no está cerrado es si RTVE compartirá parte de los 51 partidos del torneo con una plataforma de pago.
+
+*Esta guía incluye enlaces de afiliado a plataformas de televisión. Si contratas desde ellos, Mundiales recibe una comisión sin coste extra para ti. No cambia lo que contamos.*
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| La 1 y RTVE Play | La Eurocopa 2028 y los partidos de España en la clasificación | Gratis |
+| [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) | La clasificación del resto de selecciones, en directo; los de España, en diferido | Suscripción; una selección de partidos, gratis con registro |
+
+## Qué compró RTVE y qué queda pendiente
+
+El acuerdo con la UEFA se anunció el 30 de enero de 2025 en el Congreso. Según [la nota de RTVE](https://www.rtve.es/rtve/20250130/rtve-emitira-eurocopa-2028/16429095.shtml), incluye la Eurocopa 2028, la Nations League 2026-27, la clasificación para la Eurocopa y 20 partidos de otras selecciones europeas: 40 partidos además del torneo.
+
+La nota no dice si los 51 partidos de la Eurocopa irán en abierto. El Español contó entonces que RTVE buscaba un socio para [repartir los derechos](https://www.elespanol.com/invertia/medios/20250130/rtve-hace-derechos-eurocopa-seleccion-espanola/920408306_0.html) y negociaba con Mediapro: La 1 elegiría primero los partidos de España y tres cuartos de final. No hemos encontrado ningún anuncio de que ese acuerdo se cerrara. Hasta que lo haya, lo seguro es que la selección irá en abierto.
+
+## Fechas clave
+
+- **6 de diciembre de 2026:** sorteo de la clasificación, en Belfast.
+- **Marzo a noviembre de 2027:** fase de grupos de la clasificación.
+- **Marzo de 2028:** repesca.
+- **9 de junio de 2028:** partido inaugural, en Cardiff.
+- **9 de julio de 2028:** final, en Wembley, que también acoge las semifinales.
+
+Las fechas son las de [la UEFA](https://es.uefa.com/euro2028/news/028f-1b59a5572c15-2ee7f0068eef-1000--euro-2028-todo-lo-que-necesitas-saber/), que celebrará el sorteo de la fase final en 2027, sin día fijado. El torneo tiene 24 selecciones y nueve estadios en Inglaterra, Gales, Escocia e Irlanda.
+
+## Cómo se clasifica España
+
+España defiende el título que ganó en Berlín en 2024 y tiene que clasificarse como el resto. Hay doce grupos de cuatro o cinco equipos, a ida y vuelta. Pasan los doce primeros y los ocho mejores segundos. Los anfitriones juegan la clasificación en grupos distintos y tienen hasta dos plazas reservadas si no entran por su cuenta. Las últimas plazas se reparten en la repesca, con equipos llegados de la Nations League.
+
+Todos los partidos de España irán en La 1. [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) tiene en directo el resto, con Inglaterra, Francia, Italia, Alemania o Países Bajos, y emite los de España en diferido, según [contó Roams](https://roams.es/actualidad/telefonia/dazn-500-partidos-nations-league-euro-2028-gratis/) al anunciarse el acuerdo en julio.
+
+## Lo que juega España antes
+
+Antes de la clasificación queda la Nations League. España cierra su grupo el 12 de noviembre en Praga ante la República Checa y el 15 contra Inglaterra en el Metropolitano, los dos a las 20:45 y en La 1. Si sigue adelante, juega los cuartos del 25 al 30 de marzo y la fase final del 9 al 13 de junio de 2027.
+
+## Cómo se vio la última Eurocopa
+
+La Eurocopa 2024 de Alemania fue de RTVE. La final, el 2-1 a Inglaterra del 14 de julio, la vieron casi 14 millones de personas en La 1, según la corporación. Si el esquema de 2028 se mantiene, la diferencia estará en cuántos del resto de partidos acaben en una plataforma de pago.
+
+Grupos y resultados, en la [sección de la Eurocopa](/futbol/eurocopa). Los partidos de la selección, en [la página de España](/selecciones/esp), y lo que se juega cada día, en [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    competition: {"name":"Eurocopa","sport":"futbol","slug":"eurocopa"},
+    sourceName: "RTVE",
+    sourceUrl: "https://www.rtve.es/rtve/20250130/rtve-emitira-eurocopa-2028/16429095.shtml",
+    sourceLang: 'es',
+    publishedAt: '2026-11-04T16:28:38+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Wembley_stadium%2C_filling_up_before_a_game_-_geograph.org.uk_-_6440762.jpg/1280px-Wembley_stadium%2C_filling_up_before_a_game_-_geograph.org.uk_-_6440762.jpg",
+      alt: "Interior del estadio de Wembley con las gradas rojas casi vacías y la cubierta abierta, poco antes de un partido",
+      credit: "Christopher Hilton · Wikimedia Commons",
+      license: "CC BY-SA 2.0",
+    },
+    sourcesSecondary: [
+      { name: "UEFA: EURO 2028, todo lo que necesitas saber", url: "https://es.uefa.com/euro2028/news/028f-1b59a5572c15-2ee7f0068eef-1000--euro-2028-todo-lo-que-necesitas-saber/" },
+      { name: "El Español: RTVE se hace con la Eurocopa 2028", url: "https://www.elespanol.com/invertia/medios/20250130/rtve-hace-derechos-eurocopa-seleccion-espanola/920408306_0.html" },
+      { name: "Roams: DAZN, Nations League y clasificación", url: "https://roams.es/actualidad/telefonia/dazn-500-partidos-nations-league-euro-2028-gratis/" },
+      { name: "Vertele: RTVE emitirá en abierto la Eurocopa 2028", url: "https://www.eldiario.es/vertele/noticias/rtve-emitira-abierto-eurocopa-2028-partidos-seleccion-espanola-masculina-tres-anos_1_12007418.html" },
+    ],
+  },
+  {
+    slug: 'donde-ver-mundial-2030-espana-derechos-tv-partidos-seleccion-nations-league',
+    title: "El Mundial 2030 en televisión: qué se sabe de los derechos en España y cómo ver a la selección",
+    summary: "Los derechos del Mundial 2030 en España ya tienen dueño: los 104 partidos irán en una plataforma de pago, con los de España, las semifinales y la final también en una cadena en abierto aún sin nombre. Mientras, la selección campeona se ve en La 1 y DAZN.",
+    body: `El Mundial 2030 se verá en España en Netflix, que compró en octubre los derechos de los 104 partidos para España y Andorra. Un partido de cada jornada será gratis en la propia plataforma. Todos los de España, las dos semifinales y la final irán además en una cadena nacional en abierto que todavía no se ha anunciado. Hasta entonces, la selección se ve en La 1, y la Nations League y las clasificaciones del resto de Europa, en [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome).
+
+*Esta guía incluye enlaces de afiliado a plataformas de televisión. Si contratas desde ellos, Mundiales recibe una comisión sin coste extra para ti. No cambia lo que contamos.*
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| La 1 y RTVE Play | Los partidos de España de la Nations League y de la clasificación para la Eurocopa 2028 | Gratis |
+| [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) | El resto de la Nations League y de la clasificación europea, y la fase final de la Nations League en junio | Suscripción; una selección de partidos, gratis con registro |
+| Netflix (Mundial 2030) | Los 104 partidos del torneo | Suscripción; un partido por jornada, gratis |
+| Cadena en abierto por anunciar (Mundial 2030) | España, semifinales y final | Gratis |
+
+## Qué compró Netflix y qué falta por saber
+
+[El comunicado de Netflix](https://about.netflix.com/es_es/news/netflix-secures-exclusive-rights-in-spain-and-andorra-to-the-fifa-world-cup-2030-tm), del 13 de octubre, confirma tres cosas. Emitirá en directo los 104 partidos, con previa, descanso y posterior, y un resumen diario. En España podrá verse gratis un partido de cada jornada. Y ofrecerá a una televisión nacional en abierto un paquete con todos los partidos de España, las dos semifinales y la final.
+
+Lo que no dice: qué cadena será esa, en qué plan de Netflix entra el Mundial ni cuánto ha pagado. Vertele recoge que los detalles de la cadena en abierto [se conocerán más adelante](https://www.eldiario.es/vertele/noticias/netflix-da-gran-golpe-espana-compra-derechos-mundial-2030-futbol-emitirlo-completo-exclusiva_1_13581740.html).
+
+## Cómo se vio el Mundial 2026
+
+España ganó su segundo Mundial el 19 de julio en Nueva Jersey: 1-0 a Argentina. Ese Mundial se vio entero en DAZN, también dentro de Movistar Plus+ con el canal DAZN Mundial. RTVE dio en abierto en La 1 y RTVE Play todos los partidos de España, uno por jornada en la fase de grupos y una selección de eliminatorias hasta la final. En 2030 el esquema se parece, con otra plataforma de pago al frente.
+
+## España ya está clasificada
+
+La FIFA decidió que los seis anfitriones juegan el Mundial sin pasar por la clasificación: España, Portugal y Marruecos, y Argentina, Uruguay y Paraguay, que acogen un partido cada una por el centenario del primer Mundial. Netflix habla de 104 partidos, el formato de 48 selecciones de 2026. La CONMEBOL ha pedido 64 selecciones, una ampliación que la FIFA no ha confirmado. Tampoco hay calendario oficial ni sede de la final.
+
+La clasificación europea para 2030 no empieza en 2027. Según el formato que presentó la UEFA en mayo, se ordenará con la Nations League 2028-29, y la UEFA no ha detallado aún las fechas.
+
+## Dónde ver a España hasta el Mundial
+
+Lo que juega la selección en los próximos meses es la Nations League y, desde marzo, la clasificación para la Eurocopa 2028. [RTVE tiene los partidos de España](https://www.rtve.es/rtve/20250130/rtve-emitira-eurocopa-2028/16429095.shtml) de 2026 a 2028: Nations League, clasificación para la Eurocopa y la propia Eurocopa. DAZN emite el resto de selecciones. Con España solo tiene la fase final de la Nations League en directo; los partidos anteriores los da en diferido.
+
+España lleva cuatro victorias en cuatro partidos de su grupo. Le quedan dos, los dos en La 1 a las 20:45:
+
+- **Jueves 12 de noviembre:** República Checa - España, en Praga.
+- **Domingo 15 de noviembre:** España - Inglaterra, en el Metropolitano.
+
+Los cuartos de final son del 25 al 30 de marzo de 2027, también en La 1 si juega España. La fase final, del 9 al 13 de junio, irá en La 1 y en [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome), que la emite entera. Todo el calendario de la selección está en [la página de España](/selecciones/esp), y el archivo del último Mundial, en [la sección del Mundial 2026](/2026). Lo que se juega cada día, en [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    competition: {"name":"Mundial","sport":"futbol","slug":"mundial"},
+    sourceName: "Netflix",
+    sourceUrl: "https://about.netflix.com/es_es/news/netflix-secures-exclusive-rights-in-spain-and-andorra-to-the-fifa-world-cup-2030-tm",
+    sourceLang: 'es',
+    publishedAt: '2026-11-04T16:29:38+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Spain_World_Cup_Winners_Argentina_v_Spain_19_July_2026-344.jpg/1280px-Spain_World_Cup_Winners_Argentina_v_Spain_19_July_2026-344.jpg",
+      alt: "Los jugadores de España celebran en el podio la victoria en la final del Mundial 2026, entre confeti dorado y junto a una gran réplica de la copa",
+      credit: "Bryan Berlin · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+    sourcesSecondary: [
+      { name: "Vertele: Netflix compra el Mundial 2030", url: "https://www.eldiario.es/vertele/noticias/netflix-da-gran-golpe-espana-compra-derechos-mundial-2030-futbol-emitirlo-completo-exclusiva_1_13581740.html" },
+      { name: "RTVE: derechos de la selección 2026-2028", url: "https://www.rtve.es/rtve/20250130/rtve-emitira-eurocopa-2028/16429095.shtml" },
+      { name: "Roams: DAZN y la Nations League", url: "https://roams.es/actualidad/telefonia/dazn-500-partidos-nations-league-euro-2028-gratis/" },
+      { name: "Movistar Plus+: el Mundial vía DAZN", url: "https://www.movistarplus.es/deportes/futbol/mundial" },
+    ],
+  },
+  {
+    slug: 'donde-ver-copa-libertadores-espana-final-2026-palmeiras-estudiantes-edicion-2027',
+    title: "Dónde ver la Copa Libertadores en España: la final de Montevideo y lo que se sabe de 2027",
+    summary: "Palmeiras y Estudiantes juegan la final de la Libertadores el 28 de noviembre en el Centenario. En España la competición es exclusiva de Movistar Plus+ desde agosto. Qué plan hace falta, cuánto cuesta, a qué hora se juega y qué pasa con los derechos de 2027.",
+    body: `La Copa Libertadores se ve en España en [Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol), que la emite en exclusiva desde agosto. El plan más barato que la incluye es Movistar Plus+ Libre, a 9,99 €/mes sin permanencia. No hay partidos en abierto. La final, Palmeiras - Estudiantes, se juega el sábado 28 de noviembre en el Estadio Centenario de Montevideo.
+
+*Esta guía incluye enlaces de afiliado a plataformas de televisión. Si contratas desde ellos, Mundiales recibe una comisión sin coste extra para ti. No cambia lo que contamos.*
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| [Movistar Plus+ Libre](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol) | La Libertadores en los canales Vamos por M+ y Liga de Campeones por M+, con el resto del plan | 9,99 €/mes, sin permanencia |
+| Movistar Plus+ con fibra | Los mismos canales, dentro de los paquetes de televisión de Movistar | Según el paquete |
+| Gratis | No hay emisión en abierto en España | — |
+
+El precio del plan Libre es el que muestra la [página de fútbol internacional de Movistar](https://www.movistarplus.es/deportes/futbol/internacional), consultada el 4 de noviembre.
+
+## Del cambio de plataforma a la exclusiva de Movistar
+
+Hasta 2025, la Libertadores era de LALIGA+, la plataforma de LaLiga, que la vendía en un plan propio de fútbol sudamericano. En 2026 pasó a Movistar Plus+, que [la ofrece en exclusiva desde agosto](https://roams.es/actualidad/telefonia/movistar-plus-agosto-2026-competiciones-sudamericanas-brasileirao-libertadores/), según Roams, junto al Brasileirão, la liga argentina y la Copa Sudamericana. Las cuatro van en Vamos por M+ (dial 8) y Liga de Campeones por M+ (dial 60).
+
+Las semifinales siguieron ese reparto. Los cuatro partidos fueron en Liga de Campeones por M+ y tres de ellos también en Vamos, según el [historial de Fútbol en la TV](https://www.futbolenlatv.es/competicion/copa-libertadores). A 4 de noviembre, Movistar todavía no ha publicado en su parrilla el canal de la final.
+
+## La final: Palmeiras - Estudiantes en el Centenario
+
+Las dos semifinales se resolvieron en los penaltis. Estudiantes eliminó al Flamengo tras dos empates sin goles, el segundo en Maracaná. Palmeiras dejó fuera al Fluminense después de un 2-2 global.
+
+La final es a partido único, con prórroga y penaltis si hace falta. Repite el cruce de la final de 1968, que ganó Estudiantes y que se decidió en el mismo estadio de Montevideo.
+
+La CONMEBOL no ha fijado la hora a 4 de noviembre. Montevideo va cuatro horas por detrás de la España peninsular en esta época: cada hora de la tarde allí es noche aquí. Cuando se confirme, estará en la [ficha de la Copa Libertadores](/futbol/libertadores).
+
+## Horarios: la Libertadores se ve de madrugada
+
+Por la diferencia horaria, los partidos entre semana caen en España a medianoche o a las 2:30 de la madrugada: esos fueron los horarios de las eliminatorias de agosto, [según Mundoplus](https://www.mundoplus.tv/deportes/el-mejor-futbol-sudamericano-vuelve-a-movistar-plus-con-el-brasileirao-la-liga-argentina-y-la-copa-sudamericana/). Las cuatro semifinales de octubre arrancaron a las 2:30. La final, en sábado y a partido único, es la excepción.
+
+## Qué viene después de la final
+
+El campeón no se va de vacaciones. Juega en diciembre la Copa Intercontinental de la FIFA en Catar. Su primer cruce es el Derby de las Américas, el 9 de diciembre, contra el Toluca mexicano. Si gana, se mide el 12 al Mamelodi Sundowns y, si vuelve a ganar, el 16 de diciembre al PSG en la final. Nadie ha anunciado aún en qué cadena se verá ese torneo en España.
+
+## La Libertadores de 2027: qué está confirmado
+
+- **Los derechos en Sudamérica, sí.** La CONMEBOL [adjudicó en diciembre de 2025](https://www.conmebol.com/noticias/conmebol-anuncia-los-adjudicatarios-de-los-derechos-de-transmision-de-sus-competiciones-de-clubes-para-el-ciclo-20272030/) los derechos de 2027 a 2030 para Brasil, el resto de Sudamérica y México, Centroamérica y el Caribe.
+- **Los de España, no.** Esa adjudicación no incluye Europa. Movistar no ha hecho público hasta cuándo dura su acuerdo, y ni la CONMEBOL ni ninguna plataforma han anunciado quién tendrá la edición de 2027 en España.
+- **El calendario, tampoco.** La CONMEBOL no ha publicado aún las fechas de la próxima edición.
+
+Si sigues también las ligas de esos clubes, el Brasileirão y la liga argentina van en las mismas plataformas: el detalle, en la [guía de dónde ver el deporte en España](/noticias/donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1). Lo que se juega cada día, en [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    competition: {"name":"Copa Libertadores","sport":"futbol","slug":"libertadores"},
+    sourceName: "Roams",
+    sourceUrl: "https://roams.es/actualidad/telefonia/movistar-plus-agosto-2026-competiciones-sudamericanas-brasileirao-libertadores/",
+    sourceLang: 'es',
+    publishedAt: '2026-11-04T16:30:38+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Estadio_Centenario_%28vista_a%C3%A9rea%29.jpg/1280px-Estadio_Centenario_%28vista_a%C3%A9rea%29.jpg",
+      alt: "Vista aérea del Estadio Centenario de Montevideo, con sus gradas de hormigón alrededor del césped y la ciudad al fondo",
+      credit: "Marcelo Campi · Wikimedia Commons",
+      license: "CC BY-SA 2.0",
+    },
+    sourcesSecondary: [
+      { name: "Mundoplus: el fútbol sudamericano vuelve a Movistar Plus+", url: "https://www.mundoplus.tv/deportes/el-mejor-futbol-sudamericano-vuelve-a-movistar-plus-con-el-brasileirao-la-liga-argentina-y-la-copa-sudamericana/" },
+      { name: "Fútbol en la TV: Copa Libertadores", url: "https://www.futbolenlatv.es/competicion/copa-libertadores" },
+      { name: "CONMEBOL: derechos 2027-2030", url: "https://www.conmebol.com/noticias/conmebol-anuncia-los-adjudicatarios-de-los-derechos-de-transmision-de-sus-competiciones-de-clubes-para-el-ciclo-20272030/" },
+      { name: "Movistar Plus+: fútbol internacional", url: "https://www.movistarplus.es/deportes/futbol/internacional" },
+      { name: "LaLiga: la Libertadores en LALIGA+ (2025)", url: "https://www.laliga.com/noticias/la-fase-final-de-la-copa-conmebol-libertadores-solo-se-podra-ver-en-laliga" },
+    ],
+  },
+  {
     slug: 'donde-ver-mlb-espana-2027-movistar-mlb-tv-horarios-cierre-patronal',
     title: "La MLB en España: cómo ver la temporada 2027 de béisbol y qué supone el cierre patronal",
     summary: "Con los Brewers recién campeones, el béisbol de Grandes Ligas se toma un descanso que puede alargarse. Qué plan hace falta para verlo en España, cuánto cuesta, qué ofrece MLB.TV, el calendario de 2027 y qué pasa si llega el cierre patronal del 2 de diciembre.",
@@ -14560,7 +15636,7 @@ Todos los grandes premios tienen carrera al sprint el sábado. Horas en España,
 | --- | --- | --- |
 | Australia, 23-25 de octubre | Ganó Marc Márquez | Suspendida por la niebla ([por qué](/noticias/motogp-cancela-gran-premio-australia-helicoptero-medico-marquez-martin-mundial)) |
 | Malasia, 30 de octubre-1 de noviembre | Ganó Pedro Acosta | Ganó Marc Márquez |
-| Catar, 6-8 de noviembre | 7, 18:00 | 8, 18:00 |
+| Catar, 6-8 de noviembre | 7, 17:00 | 8, 17:00 |
 | Portugal, 20-22 de noviembre | 21, 16:00 | 22, 14:00 |
 | Valencia, 27-29 de noviembre | 28, 15:00 | 29, 14:00 |
 
@@ -14591,7 +15667,7 @@ Este año Mediaset dio en abierto la F1 de Barcelona y Madrid y el MotoGP de Jer
     sourceUrl: 'https://dazngroup.com/press-room/dazn-renova-os-direitos-de-transmissao-da-formula-1-em-portugal-e-espanha-ate-2030/',
     sourceLang: 'es',
     publishedAt: '2026-10-19T19:54:00+02:00',
-    modifiedAt: '2026-11-02T09:48:00+01:00',
+    modifiedAt: '2026-11-04T16:53:00+01:00',
     author: 'Redacción Mundiales',
     image: {
       url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/MotoGP_2026_Austria_Nr._89_Mart%C3%ADn_%281%29.jpg/1280px-MotoGP_2026_Austria_Nr._89_Mart%C3%ADn_%281%29.jpg',

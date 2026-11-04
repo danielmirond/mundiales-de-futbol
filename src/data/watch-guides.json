@@ -1,4 +1,8 @@
 {
+  "boxeo": {
+    "slug": "donde-ver-boxeo-espana-dazn-netflix-pago-por-evento-fury-joshua-kabayel",
+    "label": "el boxeo"
+  },
   "brasileirao": {
     "slug": "donde-ver-brasileirao-espana-2026-movistar-fanatiz-recta-final",
     "label": "el Brasileirão"
@@ -22,6 +26,10 @@
   "conference-league": {
     "slug": "donde-ver-conference-league-2026-27-espana-movistar-precios-getafe",
     "label": "la Conference League"
+  },
+  "copa-america": {
+    "slug": "donde-ver-copa-america-espana-2028-derechos-sede-como-se-vio-2024",
+    "label": "la Copa América"
   },
   "copa-de-francia": {
     "slug": "donde-ver-copa-de-francia-espana-2026-27-derechos-calendario-treintaidosavos",
@@ -47,6 +55,10 @@
     "slug": "donde-ver-ehf-european-league-2026-27-espana-granollers-bidasoa-logrono",
     "label": "la EHF European League"
   },
+  "eurocopa": {
+    "slug": "donde-ver-eurocopa-2028-espana-rtve-clasificacion-fechas-derechos",
+    "label": "la Eurocopa"
+  },
   "europa-league": {
     "slug": "donde-ver-europa-league-2026-27-espana-movistar-precios-real-sociedad-celta",
     "label": "la Europa League"
@@ -54,6 +66,14 @@
   "fa-cup": {
     "slug": "donde-ver-fa-cup-2026-27-espana-movistar-plus-rondas-final-wembley",
     "label": "la FA Cup"
+  },
+  "indycar": {
+    "slug": "donde-ver-indycar-espana-2027-movistar-palou-barcelona-montmelo",
+    "label": "la IndyCar"
+  },
+  "libertadores": {
+    "slug": "donde-ver-copa-libertadores-espana-final-2026-palmeiras-estudiantes-edicion-2027",
+    "label": "la Copa Libertadores"
   },
   "liga-argentina": {
     "slug": "donde-ver-liga-argentina-espana-2026-clausura-movistar-fanatiz-afa-play",
@@ -83,9 +103,25 @@
     "slug": "donde-ver-mls-espana-2026-apple-tv-playoffs-mls-cup-precio-horarios",
     "label": "la MLS"
   },
+  "motogp": {
+    "slug": "donde-ver-motogp-espana-2026-27-dazn-valencia-abierto-test-calendario-2027",
+    "label": "MotoGP"
+  },
+  "mundial": {
+    "slug": "donde-ver-mundial-2030-espana-derechos-tv-partidos-seleccion-nations-league",
+    "label": "el Mundial"
+  },
+  "mundial-de-baloncesto": {
+    "slug": "donde-ver-mundial-baloncesto-2027-qatar-espana-ventanas-fiba-rtve",
+    "label": "el Mundial de baloncesto"
+  },
   "mundial-de-balonmano": {
     "slug": "donde-ver-mundial-balonmano-2027-espana-hispanos-alemania-calendario",
     "label": "el Mundial de balonmano"
+  },
+  "mundial-de-clubes": {
+    "slug": "donde-ver-mundial-de-clubes-2029-espana-derechos-copa-intercontinental-2026",
+    "label": "el Mundial de Clubes"
   },
   "mundial-de-rugby": {
     "slug": "donde-ver-mundial-rugby-2027-australia-espana-grupo-horarios-television",
@@ -94,6 +130,14 @@
   "nations-league": {
     "slug": "donde-ver-nations-league-2026-27-espana-la-1-dazn-chequia-inglaterra",
     "label": "la UEFA Nations League"
+  },
+  "ncaa": {
+    "slug": "donde-ver-ncaa-baloncesto-espana-2026-27-march-madness-disney-espanoles",
+    "label": "la NCAA masculina"
+  },
+  "ncaa-femenina": {
+    "slug": "donde-ver-ncaa-femenina-espana-2026-27-march-madness-ucla-okafor",
+    "label": "la NCAA femenina"
   },
   "ncaa-football": {
     "slug": "donde-ver-ncaa-futbol-americano-espana-2026-27-college-football-playoff-bowls",
@@ -106,6 +150,10 @@
   "pga-tour": {
     "slug": "donde-ver-pga-tour-espana-2026-27-movistar-hbo-max-precios-rahm",
     "label": "el PGA Tour"
+  },
+  "premier-padel": {
+    "slug": "donde-ver-premier-padel-espana-dubai-mexico-major-finals-barcelona-gratis",
+    "label": "el Premier Padel"
   },
   "premiership-rugby": {
     "slug": "donde-ver-premiership-rugby-espana-2026-27-canales-precios-calendario",
@@ -127,6 +175,10 @@
     "slug": "donde-ver-seis-naciones-2027-espana-television-calendario-horarios",
     "label": "el Seis Naciones"
   },
+  "sport:baloncesto": {
+    "slug": "donde-ver-baloncesto-espana-2026-27-nba-euroliga-liga-endesa-seleccion-wnba",
+    "label": "el baloncesto"
+  },
   "sport:balonmano": {
     "slug": "donde-ver-balonmano-espana-2026-27-asobal-guerreras-champions-mundial",
     "label": "el balonmano"
@@ -138,6 +190,10 @@
   "sport:golf": {
     "slug": "donde-ver-golf-espana-2026-27-movistar-majors-ryder-cup-liv-precios",
     "label": "el golf"
+  },
+  "sport:motor": {
+    "slug": "donde-ver-motor-espana-2026-27-f1-motogp-indycar-wec-formula-e-dakar",
+    "label": "el motor"
   },
   "sport:rugby": {
     "slug": "donde-ver-rugby-espana-2026-27-seis-naciones-mundial-champions-cup-ligas",
@@ -154,5 +210,13 @@
   "urc": {
     "slug": "donde-ver-urc-united-rugby-championship-espana-2026-27-precios-calendario",
     "label": "la United Rugby Championship"
+  },
+  "wnba": {
+    "slug": "donde-ver-wnba-espana-2027-prime-video-league-pass-rtve-awa-fam",
+    "label": "la WNBA"
+  },
+  "wta": {
+    "slug": "donde-ver-wta-espana-finals-indian-wells-grand-slam-2027-bucsa",
+    "label": "la WTA"
   }
 }
