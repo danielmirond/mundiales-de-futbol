@@ -154,6 +154,2640 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'donde-ver-mlb-espana-2027-movistar-mlb-tv-horarios-cierre-patronal',
+    title: "La MLB en España: cómo ver la temporada 2027 de béisbol y qué supone el cierre patronal",
+    summary: "Con los Brewers recién campeones, el béisbol de Grandes Ligas se toma un descanso que puede alargarse. Qué plan hace falta para verlo en España, cuánto cuesta, qué ofrece MLB.TV, el calendario de 2027 y qué pasa si llega el cierre patronal del 2 de diciembre.",
+    body: `La MLB se ve en España en [Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Fbeisbol%2Fmlb-2026%2Fficha%3Ftipo%3DE%26id%3D4269796), que emite los mejores partidos de cada jornada y la Serie Mundial dentro de su plan Libre, de 9,99 €/mes y sin permanencia. Para ver todos los partidos hace falta MLB.TV, el servicio de la propia liga, que se contrata en MLB.com. La temporada 2026 ya ha terminado, y la de 2027 depende de una negociación laboral que vence el 1 de diciembre.
+
+*Esta guía incluye enlaces de afiliado a plataformas de televisión. Si contratas desde ellos, Mundiales recibe una comisión sin coste extra para ti. No cambia lo que contamos.*
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| [Movistar Plus+ Libre](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Fbeisbol%2Fmlb-2026%2Fficha%3Ftipo%3DE%26id%3D4269796) | Los mejores partidos de cada jornada y la Serie Mundial, más cine, series y otros deportes | 9,99 €/mes, sin permanencia |
+| [Movistar Plus+ en una tarifa miMovistar](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes) | Lo mismo, en la televisión de Movistar | Dentro de una tarifa con fibra y móvil |
+| MLB.TV | Todos los partidos de la temporada, en directo y a la carta | Se contrata en MLB.com; el precio en euros aparece en el alta |
+
+La [ficha de la MLB en Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Fbeisbol%2Fmlb-2026%2Fficha%3Ftipo%3DE%26id%3D4269796) describe su oferta y marcaba los partidos de la Serie Mundial como incluidos en el plan Libre. No consta béisbol de Grandes Ligas en abierto ni en DAZN.
+
+## Cómo acabó 2026
+
+Los Milwaukee Brewers ganaron la Serie Mundial a los Tampa Bay Rays por cuatro partidos a uno. La cerraron el 28 de octubre en el Tropicana Field con un 4-1. Es el primer título de su historia: solo habían jugado otra final, la de 1982, que perdieron, [según Infobae](https://www.infobae.com/estados-unidos/2026/10/29/los-brewers-conquistaron-la-serie-mundial-tras-vencer-a-los-rays-y-pusieron-fin-a-57-anos-de-sequia/). Movistar emitió la serie y mantiene repeticiones de los partidos.
+
+## 2027: el calendario y el cierre patronal
+
+La MLB publicó en julio el calendario de 2027, el que empieza antes de su historia, [según MLB.com](https://www.mlb.com/news/mlb-2027-schedule-released):
+
+| Fecha | Qué pasa |
+| --- | --- |
+| Martes 1 de diciembre | Vence el convenio colectivo entre la liga y el sindicato de jugadores |
+| Viernes 19 de febrero | Primeros partidos de pretemporada previstos |
+| Miércoles 24 de marzo | Primer partido de la temporada, con equipos por decidir |
+| Jueves 25 de marzo | Jornada inaugural, con 14 partidos |
+| 12 y 13 de julio | Home Run Derby y All-Star en Wrigley Field, Chicago |
+| Domingo 26 de septiembre | Última jornada de la fase regular |
+
+Todo eso puede moverse. Si no hay acuerdo, los dueños cerrarán previsiblemente las puertas a los jugadores el 2 de diciembre, [según AP](https://www.news4jax.com/sports/2026/10/29/mlbs-2027-season-threatened-with-lockout-looming-when-labor-deal-expires-dec-1/). El último cierre patronal duró del 2 de diciembre de 2021 al 10 de marzo de 2022 y retrasó una semana el inicio de la temporada.
+
+Sin convenio tampoco hay partidos internacionales programados para 2027. La MLB canceló la serie de Londres prevista para junio de 2026 y no ha anunciado partidos en Europa para el año que viene.
+
+## MLB.TV desde España
+
+MLB.TV da todos los partidos de la fase regular. En Estados Unidos lo vende ahora ESPN, con un precio de lista de 149,99 dólares la temporada; fuera de allí la liga lo sigue vendiendo directamente, según sus [preguntas frecuentes](https://www.mlb.com/news/opening-day-2026-mlb-tv-espn-faq). Las restricciones por mercado local no afectan a España, porque ningún equipo juega aquí. La app funciona en móvil, ordenador y televisores inteligentes.
+
+## Horarios en hora peninsular
+
+- **Noches de diario:** la mayoría de partidos empiezan entre la 1:00 y la 1:10 de la madrugada; los de la costa oeste, hacia las 4:00.
+- **Sábados y domingos:** hay partidos de tarde en Estados Unidos que en España empiezan hacia las 19:00.
+- **Cambio de hora:** a finales de marzo y de octubre, Estados Unidos y Europa cambian el reloj en semanas distintas, y los partidos empiezan una hora antes en España. La jornada inaugural del 25 de marzo cae en una de esas semanas.
+
+## Más béisbol
+
+Resultados, calendario y clasificación de la Liga Americana y la Nacional, en la sección de la [MLB](/beisbol/mlb). Lo que se juega cada día, en [partidos de hoy](/partidos-hoy), y qué plataforma tiene cada competición, en la [guía de dónde ver el deporte en España](/noticias/donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1).`,
+    category: 'general',
+    competition: {"name":"MLB","sport":"beisbol","slug":"mlb"},
+    sourceName: "Movistar Plus+",
+    sourceUrl: "https://www.movistarplus.es/deportes/beisbol/mlb-2026/ficha?tipo=E&id=4269796",
+    sourceLang: 'es',
+    publishedAt: '2026-11-04T16:05:32+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Cleveland_Guardians_vs._Milwaukee_Brewers_August_2024_02_%28American_Family_Field%29.jpg/1280px-Cleveland_Guardians_vs._Milwaukee_Brewers_August_2024_02_%28American_Family_Field%29.jpg",
+      alt: "El American Family Field de Milwaukee con el techo cerrado, el campo de béisbol iluminado y las gradas llenándose antes de un partido",
+      credit: "Michael Barera · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+    sourcesSecondary: [
+      { name: "MLB.com: calendario de 2027", url: "https://www.mlb.com/news/mlb-2027-schedule-released" },
+      { name: "AP: la temporada 2027, amenazada por el cierre patronal", url: "https://www.news4jax.com/sports/2026/10/29/mlbs-2027-season-threatened-with-lockout-looming-when-labor-deal-expires-dec-1/" },
+      { name: "MLB.com: MLB.TV fuera de EE. UU.", url: "https://www.mlb.com/news/opening-day-2026-mlb-tv-espn-faq" },
+      { name: "Infobae: los Brewers, campeones", url: "https://www.infobae.com/estados-unidos/2026/10/29/los-brewers-conquistaron-la-serie-mundial-tras-vencer-a-los-rays-y-pusieron-fin-a-57-anos-de-sequia/" },
+    ],
+  },
+  {
+    slug: 'donde-ver-nhl-espana-2026-27-disney-espn-movistar-horarios-global-series',
+    title: "La NHL 2026-27 en España: qué plan hace falta, cuánto cuesta y a qué hora se juega",
+    summary: "La NHL cambia de casa en España esta temporada y el servicio de la liga ya no se vende aquí. Qué plataforma emite casi todos los partidos, qué ofrece la otra, cuánto cuesta cada opción, los horarios en España y los partidos de la Global Series en Helsinki y Düsseldorf.",
+    body: `La NHL 2026-27 se ve en España sobre todo en Disney+, que emite a través de ESPN más de 1.300 partidos, con los playoffs y la final de la Stanley Cup, incluidos en cualquier plan desde 6,99 €/mes. [Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Fhockey-hielo%2Fnhl-26-27%2Fficha%3Ftipo%3DE%26id%3D4402401) mantiene dos partidos por semana para sus clientes de fibra y móvil. NHL.TV, el servicio de la liga que vendía DAZN, ya no se ofrece en España.
+
+*Esta guía incluye enlaces de afiliado a plataformas de televisión. Si contratas desde ellos, Mundiales recibe una comisión sin coste extra para ti. No cambia lo que contamos.*
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| Disney+ Estándar con anuncios | La mayoría de los partidos, en directo y a la carta, playoffs y Stanley Cup | 6,99 €/mes |
+| Disney+ Estándar | Lo mismo, sin anuncios en series y películas | 10,99 €/mes o 109,90 € al año |
+| Disney+ Prémium | Lo mismo, con 4K y cuatro pantallas | 15,99 €/mes o 159,90 € al año |
+| [Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Fhockey-hielo%2Fnhl-26-27%2Fficha%3Ftipo%3DE%26id%3D4402401) | Dos partidos por semana | Incluido en el paquete de televisión de una tarifa miMovistar |
+
+Los precios de Disney+ son los de [su web](https://www.disneyplus.com/es-es) a 2 de noviembre. La NHL en Movistar no entra en el plan Libre de 9,99 €: su ficha la marca como incluida en el pack miMovistar.
+
+## Qué ha cambiado este curso
+
+La propia liga lo resumió al empezar la temporada: [Disney+ ofrecerá la mayoría de los partidos](https://www.nhl.com/es/news/asi-se-veran-las-transmisiones-de-la-nhl-en-espanol-en-2026-27) y Telefónica, dos por semana. El curso pasado la vía para verla entera era NHL.TV dentro de DAZN. Para 2026-27, España ya no figura en la [lista de países donde se vende NHL.TV](https://www.nhl.com/info/how-to-watch-and-stream-nhl-games).
+
+Disney+ empezó con la pretemporada y deja todos los partidos a la carta, con resúmenes. Movistar los programa al día siguiente, por la tarde: su primer partido, el Panthers - Hurricanes del 29 de septiembre, lo emitió el 30 a las 18:00, [según Mundoplus](https://www.mundoplus.tv/deportes/la-nhl-2026-27-se-vera-en-movistar-plus-y-tambien-en-disney/). Si quieres el directo, la opción es Disney+.
+
+## Horarios en España
+
+- **Entre semana:** los partidos empiezan a la 1:00 o la 1:30 de la madrugada. Los de la costa oeste, hacia las 4:00.
+- **Fines de semana:** hay partidos de tarde en Estados Unidos que en España caen entre las 18:00 y las 21:00.
+- **Lunes:** novedad de este curso. La liga ha metido partidos de lunes a mediodía en Estados Unidos para que se vean en horario de máxima audiencia en Europa, según el [anuncio del calendario](https://media.nhl.com/site/vasset/public/attachments/2026/07/19975/2026-27%20Regular-Season%20Schedule%20News%20Release_FINAL.pdf).
+
+## Las fechas que quedan
+
+| Fecha | Qué pasa | Hora en España |
+| --- | --- | --- |
+| Jueves 12 de noviembre | Hurricanes - Kraken en Helsinki (Global Series) | 18:00 |
+| Sábado 14 de noviembre | Hurricanes - Kraken en Helsinki | 19:00 |
+| Viernes 18 de diciembre | Senators - Blackhawks en Düsseldorf (Global Series) | Por confirmar |
+| Domingo 20 de diciembre | Senators - Blackhawks en Düsseldorf | Por confirmar |
+| Jueves 31 de diciembre | Winter Classic al aire libre: Mammoth - Avalanche en Salt Lake City | Madrugada del 1 de enero |
+| 5 y 6 de febrero | All-Star en Long Island, con equipos de Canadá, Finlandia, Suecia, EE. UU. y el resto del mundo | De madrugada |
+| Sábado 20 de febrero | Stadium Series: Stars - Golden Knights en el AT&T Stadium de Arlington | Madrugada del domingo |
+| Sábado 10 de abril | Última jornada de la fase regular | — |
+
+Los dos partidos de Helsinki enfrentan al campeón, Carolina, que ganó la Stanley Cup en junio por 4-2 a Vegas, con Seattle. Son los más cómodos del curso para verlos desde España. Los playoffs empiezan después del 10 de abril y la final se juega en junio; la liga aún no ha dado las fechas.
+
+## Desde el móvil y en viaje
+
+Disney+ funciona con la misma cuenta en móvil, tableta, ordenador y televisor. Por la normativa europea de portabilidad, la suscripción española sigue funcionando en viajes temporales a otros países de la UE. Movistar Plus+ también tiene app para sus clientes.
+
+## Más hockey
+
+Marcadores, calendario y clasificación por conferencias, en la sección de la [NHL](/hockey/nhl). Lo que se juega cada día, en [partidos de hoy](/partidos-hoy), y qué plataforma emite cada deporte, en la [guía de dónde ver el deporte en España](/noticias/donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1).`,
+    category: 'general',
+    competition: {"name":"NHL","sport":"hockey","slug":"nhl"},
+    sourceName: "NHL.com",
+    sourceUrl: "https://www.nhl.com/es/news/asi-se-veran-las-transmisiones-de-la-nhl-en-espanol-en-2026-27",
+    sourceLang: 'es',
+    publishedAt: '2026-11-04T16:06:32+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Drew_Miller_and_Brian_Lashoff%2C_Faceoff%2C_Detroit_Red_Wings_vs._Pittsburgh_Penguins%2C_Joe_Louis_Arena%2C_Detroit%2C_Michigan_%2821516337719%29.jpg/1280px-Drew_Miller_and_Brian_Lashoff%2C_Faceoff%2C_Detroit_Red_Wings_vs._Pittsburgh_Penguins%2C_Joe_Louis_Arena%2C_Detroit%2C_Michigan_%2821516337719%29.jpg",
+      alt: "Jugadores de los Red Wings, de rojo, y de los Penguins, de blanco, esperan un saque neutral junto al árbitro sobre el hielo",
+      credit: "Ken Lund · Wikimedia Commons",
+      license: "CC BY-SA 2.0",
+    },
+    sourcesSecondary: [
+      { name: "Mundoplus: la NHL en Movistar Plus+ y Disney+", url: "https://www.mundoplus.tv/deportes/la-nhl-2026-27-se-vera-en-movistar-plus-y-tambien-en-disney/" },
+      { name: "Neeo: la NHL aterriza en Disney+", url: "https://www.neeo.es/2026/09/28/la-nhl-aterriza-en-disney-con-mas-de-1-300-partidos-por-temporada/" },
+      { name: "NHL: calendario 2026-27", url: "https://media.nhl.com/site/vasset/public/attachments/2026/07/19975/2026-27%20Regular-Season%20Schedule%20News%20Release_FINAL.pdf" },
+      { name: "NHL: Global Series en Finlandia", url: "https://www.nhl.com/news/carolina-seattle-to-play-in-2026-global-series-finland" },
+    ],
+  },
+  {
+    slug: 'donde-ver-ncaa-futbol-americano-espana-2026-27-college-football-playoff-bowls',
+    title: "La NCAA de fútbol americano en España: cómo ver el College Football Playoff y los bowls",
+    summary: "El fútbol americano universitario llegó este año a la televisión española dentro de una suscripción de streaming. Qué plan hace falta, cuánto cuesta, qué partidos entran y cuáles pueden quedarse fuera, y las fechas y horas en España del College Football Playoff 2026-27.",
+    body: `El fútbol americano universitario se ve en España en Disney+. Desde 2026, la plataforma incluye la oferta de ESPN en todos sus planes, sin coste extra: partidos de la temporada regular de la NCAA y el College Football Playoff. El plan más barato, Estándar con anuncios, cuesta 6,99 €/mes. No hay partidos en abierto ni en DAZN o Movistar Plus+.
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| Disney+ Estándar con anuncios | Los partidos de ESPN: temporada regular y College Football Playoff | 6,99 €/mes |
+| Disney+ Estándar | Lo mismo, sin anuncios en series y películas | 10,99 €/mes o 109,90 € al año |
+| Disney+ Prémium | Lo mismo, con 4K y cuatro pantallas a la vez | 15,99 €/mes o 159,90 € al año |
+
+Los precios son los de la [web de Disney+ España](https://www.disneyplus.com/es-es) a 2 de noviembre. El plan Estándar con anuncios no tiene opción anual. Los planes Estándar y Prémium bajan a 8,99 € y 11,99 €/mes con un plan de ahorro de seis meses.
+
+## Qué partidos entran y cuáles no
+
+Disney+ emite lo que produce ESPN, [según Roams](https://roams.es/actualidad/telefonia/disney-plus-espn-catalogo-espana-nba-nhl-march-madness-sin-subir-precio/): temporada regular, College Football Playoff y otros eventos universitarios. En Estados Unidos, sin embargo, la NCAA no es solo de ESPN. Fox, CBS y NBC emiten buena parte de la Big Ten, y dos partidos de la primera ronda del Playoff van en TNT. Nada confirma que esos partidos lleguen a España. Si sigues a un equipo concreto, comprueba antes en la app de Disney+ si su partido está programado.
+
+Los bowls que no forman parte del Playoff siguen la misma regla: entran los que tienen la señal de ESPN.
+
+## El College Football Playoff 2026-27
+
+Doce equipos se juegan el título. Los cuatro primeros de la clasificación final descansan en la primera ronda. El cuadro sale del ranking del comité, que se publica cada semana desde noviembre, y de las finales de conferencia de principios de diciembre.
+
+| Ronda | Fecha | Sede | Hora en España |
+| --- | --- | --- | --- |
+| Primera ronda (4 partidos) | Viernes 18 y sábado 19 de diciembre | Estadio del mejor clasificado | 2:00 del sábado; el sábado, 18:00, 21:30 y 1:30 |
+| Cuarto de final, Fiesta Bowl | Miércoles 30 de diciembre | Glendale (Arizona) | 1:30 del jueves 31 |
+| Cuartos de final, Peach, Rose y Cotton Bowl | Viernes 1 de enero | Atlanta, Pasadena y Arlington | 18:00, 22:00 y 2:00 |
+| Semifinales, Orange y Sugar Bowl | 14 y 15 de enero | Miami y Nueva Orleans | De madrugada; horas por anunciar |
+| Final | Lunes 25 de enero | Allegiant Stadium, Las Vegas | Madrugada del martes 26 |
+
+Las fechas y sedes son las del [calendario del Playoff publicado por CBS Sports](https://www.cbssports.com/college-football/news/college-football-playoff-schedule-dates-2026-2027/). El Rose Bowl mantiene su franja tradicional de la tarde del 1 de enero. La final de 2026, en la que Indiana ganó 27-21 a Miami su primer título, empezó a la 1:30 hora española.
+
+La temporada de bowls va del 12 de diciembre al 25 de enero, con 47 partidos de la División I.
+
+## Cuándo se juega en hora peninsular
+
+- **Sábados:** el grueso de la jornada. Hay partidos hacia las 18:00, las 21:30 y la 1:30 de la madrugada del domingo; algunos de la costa oeste empiezan pasadas las 4:00.
+- **Entre semana:** algún partido los jueves y viernes por la noche en Estados Unidos, ya de madrugada en España.
+
+Disney+ funciona en móvil, tableta, ordenador y televisor con la misma cuenta. El plan con anuncios permite dos pantallas a la vez.
+
+## Resultados y más fútbol americano
+
+La clasificación por conferencias, el ranking y los resultados de cada semana están en la sección del [fútbol americano universitario](/futbol-americano/ncaa-football). Cómo ver la NFL, la NCAA y la liga española de un vistazo, en la [guía del fútbol americano en España](/noticias/donde-ver-futbol-americano-espana-2026-27-nfl-ncaa-super-bowl-bernabeu), y lo que se juega cada día, en [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    competition: {"name":"NCAA (fútbol americano universitario)","sport":"futbol-americano","slug":"ncaa-football"},
+    sourceName: "Roams",
+    sourceUrl: "https://roams.es/actualidad/telefonia/disney-plus-espn-catalogo-espana-nba-nhl-march-madness-sin-subir-precio/",
+    sourceLang: 'es',
+    publishedAt: '2026-11-04T16:07:32+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Michigan_Getting_Ready_to_Score_a_Touchdown%2C_BYU_Cougars_vs._Michigan_Wolverines%2C_Michigan_Stadium%2C_University_of_Michigan%2C_Ann_Arbor%2C_Michigan_%2821557817880%29.jpg/1280px-thumbnail.jpg",
+      alt: "Jugadores de Michigan, de amarillo y azul, y de BYU, de blanco, alineados cerca de la zona de anotación ante una grada llena",
+      credit: "Ken Lund · Wikimedia Commons",
+      license: "CC BY-SA 2.0",
+    },
+    sourcesSecondary: [
+      { name: "Disney+ España: planes y precios", url: "https://www.disneyplus.com/es-es" },
+      { name: "CBS Sports: calendario del College Football Playoff", url: "https://www.cbssports.com/college-football/news/college-football-playoff-schedule-dates-2026-2027/" },
+      { name: "Wikipedia: bowls 2026-27", url: "https://en.wikipedia.org/wiki/2026%E2%80%9327_NCAA_football_bowl_games" },
+    ],
+  },
+  {
+    slug: 'donde-ver-futbol-americano-espana-2026-27-nfl-ncaa-super-bowl-bernabeu',
+    title: "El fútbol americano en España en 2026-27: dónde ver la NFL, la NCAA y la Super Bowl",
+    summary: "El fútbol americano en España, de un vistazo: qué plan hace falta para la NFL y cuánto cuesta, dónde se ve el universitario desde este año, el partido gratis de cada semana, las fechas hasta la Super Bowl LXI y cómo seguir la liga española.",
+    body: `El fútbol americano se reparte en España entre dos plataformas. La NFL es de [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome): con registrarse se ve gratis un partido a la semana, el plan Made in USA da cinco por semana desde 4,99 €/mes y NFL Game Pass los tiene todos. El universitario, la NCAA, llegó este año a Disney+ a través de ESPN, sin pagar más que la suscripción, desde 6,99 €/mes.
+
+*Esta guía incluye enlaces de afiliado a plataformas de televisión. Si contratas desde ellos, Mundiales recibe una comisión sin coste extra para ti. No cambia lo que contamos.*
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| [DAZN en abierto](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) | Un partido de la NFL a la semana | Gratis, con registro |
+| [DAZN Made in USA](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) | Cinco partidos de la NFL por semana, playoffs y Super Bowl en español, RedZone en inglés; también NBA y NASCAR | Desde 4,99 €/mes |
+| [NFL Game Pass](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fl%2Fnfl-game-pass) | Todos los partidos de la NFL, en directo y a la carta | Season Pro, 199,99 € la temporada en la web de DAZN |
+| Disney+ (ESPN) | NCAA: temporada regular y College Football Playoff | Desde 6,99 €/mes |
+| [Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes) | Partidos de la NFL por los canales DAZN 1 a DAZN 4 | Con el paquete Deportes Total de una tarifa miMovistar |
+
+Los planes y lo que incluye cada uno están en la [página de DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome). Lo que ofrece ESPN dentro de Disney+ lo detalló [Roams cuando se anunció](https://roams.es/actualidad/telefonia/disney-plus-espn-catalogo-espana-nba-nhl-march-madness-sin-subir-precio/): NBA, NHL, fútbol americano universitario y el College Football Playoff, en todos los planes.
+
+## Qué te conviene según lo que sigas
+
+- **Curiosidad por la NFL:** el registro gratuito de DAZN. Un partido semanal basta para engancharse sin pagar.
+- **Un poco de todo cada domingo:** Made in USA. Es el plan más barato con NFL todas las semanas.
+- **Tu equipo, todas las semanas:** Game Pass. Los cinco partidos de los planes normales los elige DAZN, y pueden no incluir el tuyo. Precios, descuentos y pantallas, en la [guía de dónde ver la NFL](/noticias/donde-ver-nfl-espana-2026-dazn-game-pass-precios-horarios-bernabeu).
+- **El universitario:** Disney+. Si ya pagas la suscripción por series o películas, no cuesta nada más.
+
+## Fechas clave hasta la Super Bowl
+
+| Fecha | Qué pasa | Hora en España |
+| --- | --- | --- |
+| Domingo 8 de noviembre | Falcons - Bengals en el Santiago Bernabéu | 15:30 |
+| Domingo 15 de noviembre | Patriots - Lions en el Allianz Arena de Múnich | 15:30 |
+| 18 y 19 de diciembre | Primera ronda del College Football Playoff | Desde las 18:00 hasta la madrugada |
+| 16 al 18 de enero | Ronda de comodines de la NFL | Tarde y madrugada |
+| Lunes 25 de enero | Final universitaria en el Allegiant Stadium de Las Vegas | Madrugada del 26 |
+| Domingo 31 de enero | Finales de conferencia de la NFL | Tarde y madrugada |
+| Domingo 14 de febrero | Super Bowl LXI en el SoFi Stadium de Inglewood | Madrugada del lunes 15 |
+
+El calendario de la NFL es el de las [fechas oficiales de la liga](https://www.nfl.com/news/2026-27-national-football-league-important-dates). El partido de Madrid es el segundo seguido en el Bernabéu, y el acuerdo de la NFL con el Real Madrid incluye otro en 2027. La Super Bowl entra en los planes de DAZN. La de 2026 se dio además en abierto en Cuatro; para la de 2027 no hay nada anunciado.
+
+## Horarios: domingos de tarde, sábados de noche
+
+La NFL juega los domingos a las 19:00 y a las 22:25 en hora peninsular. El partido de la noche del domingo empieza hacia las 2:20 del lunes, y los de lunes y jueves, también de madrugada.
+
+El universitario se juega sobre todo los sábados, en tres franjas: hacia las 18:00, las 21:30 y la 1:30 de la madrugada del domingo. La fase final va de mediados de diciembre a finales de enero. El 1 de enero hay tres cuartos de final seguidos, a las 18:00, las 22:00 y las 2:00, según el [calendario del College Football Playoff](https://www.cbssports.com/college-football/news/college-football-playoff-schedule-dates-2026-2027/).
+
+## Y el fútbol americano español
+
+La Liga Nacional de Fútbol Americano (LNFA) empieza el sábado 16 de enero de 2027. Abren Osos Rivas - Alcobendas Cavaliers, L'Hospitalet Pioners - Badalona Dracs, Camioneros Coslada - Mallorca Voltors y Zaragoza Hurricanes - Valencia Firebats. La [Federación Española](https://www.fefa.es/) publica en su web el calendario y un apartado con el streaming de cada jornada. La LNFA femenina arranca el 23 de enero.
+
+## Más fútbol americano
+
+Resultados, calendario por semanas y clasificación, en la sección de la [NFL](/futbol-americano/nfl) y en la del [fútbol universitario](/futbol-americano/ncaa-football). Lo que se juega cada día, en [partidos de hoy](/partidos-hoy), y el resto del deporte, en la [guía de dónde ver el deporte en España](/noticias/donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1).`,
+    category: 'general',
+    competition: {"name":"NFL","sport":"futbol-americano","slug":"nfl"},
+    sourceName: "DAZN",
+    sourceUrl: "https://www.dazn.com/es-ES/welcome",
+    sourceLang: 'es',
+    publishedAt: '2026-11-04T16:08:32+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/49ers_vs_Jags_2013.jpg/1280px-49ers_vs_Jags_2013.jpg",
+      alt: "Colin Kaepernick lanza un pase rodeado de jugadores de los 49ers y los Jaguars en Wembley, con la grada llena al fondo",
+      credit: "U.S. Air Force 2nd Lt. Keenan Kunst · Wikimedia Commons",
+      license: "Public domain",
+    },
+    sourcesSecondary: [
+      { name: "Roams: ESPN llega a Disney+", url: "https://roams.es/actualidad/telefonia/disney-plus-espn-catalogo-espana-nba-nhl-march-madness-sin-subir-precio/" },
+      { name: "NFL: fechas clave 2026-27", url: "https://www.nfl.com/news/2026-27-national-football-league-important-dates" },
+      { name: "CBS Sports: calendario del College Football Playoff", url: "https://www.cbssports.com/college-football/news/college-football-playoff-schedule-dates-2026-2027/" },
+      { name: "FEFA: calendario de la LNFA", url: "https://www.fefa.es/" },
+    ],
+  },
+  {
+    slug: 'donde-ver-lpga-espana-cme-group-tour-championship-movistar-ciganda',
+    title: "La LPGA en España por televisión: el CME Group Tour Championship, precios y las españolas",
+    summary: "Dónde se ve en España el circuito femenino estadounidense, qué paquete hace falta y cuánto cuesta, los tres torneos que quedan hasta el CME Group Tour Championship de Naples y cómo llegan Carlota Ciganda y Julia López Ramírez.",
+    body: `La LPGA se ve en España en [Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Fgolf), en los canales Golf por M+ y Golf 2, junto a los cinco majors femeninos y el circuito europeo femenino. Hace falta el paquete Deportes Total (29 €/mes) sobre Movistar Plus+ (14 €/mes) y una tarifa miMovistar. No hay opción gratis ni plan suelto más barato con la LPGA. La temporada acaba con el CME Group Tour Championship, del 19 al 22 de noviembre en Florida.
+
+*Esta guía incluye enlaces de afiliado a plataformas de televisión. Si contratas desde ellos, Mundiales recibe una comisión sin coste extra para ti. No cambia lo que contamos.*
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| [Movistar Plus+ con Deportes Total](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Fgolf) | LPGA, los cinco majors femeninos, el Ladies European Tour y el resto del golf | 14 + 29 €/mes, dentro de una tarifa miMovistar |
+| [Movistar Plus+ Libre](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Fgolf) | No anuncia la LPGA; su golf se limita a los majors masculinos y la Ryder Cup | 9,99 €/mes |
+
+Movistar tiene la LPGA, el Ladies European Tour y los cinco grandes femeninos, [según Sportcal](https://www.sportcal.com/news/movistar-secures-pga-tour-rights-in-spain-after-wbd-sub-licensing-blackout/); su propia [sección de golf](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Fgolf) programa estos días el BMW Ladies Championship de Corea. Los canales están en los diales 67 y 68.
+
+## Lo que queda de 2026
+
+| Torneo | Fechas | Campo |
+| --- | --- | --- |
+| Toto Japan Classic | 5 al 8 de noviembre | Taiheiyo Club Minori, Omitama (Japón) |
+| The Annika | 12 al 15 de noviembre | Pelican Golf Club, Belleair (Florida) |
+| CME Group Tour Championship | 19 al 22 de noviembre | Tiburón Golf Club, Naples (Florida) |
+
+Al **CME Group Tour Championship** solo llegan las 60 primeras de la Race to the CME Globe tras The Annika. Reparte 11 millones de dólares y da 4 millones a la ganadora, el mayor premio del golf femenino, [según Golf Channel](https://www.golfchannel.com/lpga/news/lpga-tour-asian-swing-2026-buick-lpga-shanghai-kickstarts-end-of-season-schedule). Nelly Korda, con dos majors este año, llega primera con casi 900 puntos de ventaja sobre Jeeno Thitikul.
+
+## Las españolas
+
+**Carlota Ciganda** ha firmado en otoño sus mejores resultados del año. Fue quinta en Shanghái y sexta en el BMW Ladies Championship en octubre, y 27.ª en Malasia el domingo, [según ESPN](https://www.espn.com/golf/player/results/_/id/7424). En abril firmó un 12.º puesto en el Chevron, el primer major. Su último título en la LPGA es el Meijer Classic de 2025.
+
+**Julia López Ramírez** juega su segunda temporada en el circuito. Las dos estuvieron en el equipo europeo que ganó la **Solheim Cup** en septiembre por 15-13 en Bernardus, en Países Bajos, [según el resumen del torneo](https://en.wikipedia.org/wiki/2026_Solheim_Cup). La siguiente edición es en 2028.
+
+## Cómo encaja con el resto del golf femenino
+
+El Ladies European Tour, donde también juegan Ciganda y otras españolas, va en los mismos canales de Movistar. Con Deportes Total se ven los dos circuitos y los cinco majors: Chevron, US Women's Open, KPMG Women's PGA, Evian y el Open Británico femenino. El calendario de 2027 de la LPGA todavía no está en nuestras fuentes; lo sumaremos a la sección cuando se publique.
+
+## Horarios
+
+En Japón, el Toto Japan Classic se juega con ocho horas de adelanto: en España, de madrugada. The Annika y el CME, en Florida, van seis horas por detrás, así que se ven de media tarde a la noche. Las rondas finales del domingo suelen terminar entre las once y la medianoche, hora peninsular.
+
+Torneo en juego, tabla y calendario, en la sección de la [LPGA](/golf/lpga). Los majors masculinos, la Ryder y el resto de circuitos, en la [guía de dónde ver el golf](/noticias/donde-ver-golf-espana-2026-27-movistar-majors-ryder-cup-liv-precios).`,
+    category: 'general',
+    competition: {"name":"LPGA","sport":"golf","slug":"lpga"},
+    sourceName: "Sportcal",
+    sourceUrl: "https://www.sportcal.com/news/movistar-secures-pga-tour-rights-in-spain-after-wbd-sub-licensing-blackout/",
+    sourceLang: 'en',
+    publishedAt: '2026-11-04T16:09:32+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/2023_Dana_Open_LPGA_Tournament_-_Golfer_%2853317003446%29.jpg/1280px-2023_Dana_Open_LPGA_Tournament_-_Golfer_%2853317003446%29.jpg",
+      alt: "Una golfista con falda gris y gorra blanca termina el swing en un tee del Dana Open de la LPGA, en Ohio, con una calle bordeada de árboles al fondo",
+      credit: "David Wilson · Wikimedia Commons",
+      license: "CC BY 2.0",
+    },
+    sourcesSecondary: [
+      { name: "Movistar Plus+: golf", url: "https://www.movistarplus.es/deportes/golf" },
+      { name: "Golf Channel: el final de temporada de la LPGA", url: "https://www.golfchannel.com/lpga/news/lpga-tour-asian-swing-2026-buick-lpga-shanghai-kickstarts-end-of-season-schedule" },
+      { name: "ESPN: resultados de Carlota Ciganda", url: "https://www.espn.com/golf/player/results/_/id/7424" },
+      { name: "Wikipedia: Solheim Cup 2026", url: "https://en.wikipedia.org/wiki/2026_Solheim_Cup" },
+    ],
+  },
+  {
+    slug: 'donde-ver-dp-world-tour-espana-race-to-dubai-movistar-chacarra-rahm',
+    title: "Dónde ver el DP World Tour en España: la final de Dubái, la Race to Dubai y la temporada 2027",
+    summary: "Quién emite el circuito europeo en España hasta 2031, cuánto cuesta, las fechas de los playoffs de Abu Dabi y Dubái con Chacarra líder de la Race to Dubai, los diez españoles en liza y los torneos de 2027 en Girona y Madrid.",
+    body: `El DP World Tour se ve en España en exclusiva en [Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Fgolf), que acaba de renovar los derechos hasta 2031 con la Ryder Cup incluida. Todos los torneos van en los canales Golf por M+ y Golf 2, dentro del paquete Deportes Total: 29 €/mes sobre Movistar Plus+ (14 €/mes) y una tarifa miMovistar. El plan Libre de 9,99 € no trae el circuito europeo. La final de la Race to Dubai, del 12 al 15 de noviembre, llega con un español al frente: Eugenio Chacarra.
+
+*Esta guía incluye enlaces de afiliado a plataformas de televisión. Si contratas desde ellos, Mundiales recibe una comisión sin coste extra para ti. No cambia lo que contamos.*
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| [Movistar Plus+ con Deportes Total](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Fgolf) | Todo el DP World Tour, los playoffs de Abu Dabi y Dubái, el Open de España y la Ryder Cup | 14 + 29 €/mes, dentro de una tarifa miMovistar |
+| [Movistar Plus+ Libre](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Fgolf) | Ningún torneo del circuito europeo; solo dos horas diarias de los majors y la Ryder Cup | 9,99 €/mes |
+| Gratis | Resúmenes en la web y las redes del circuito | 0 € |
+
+El circuito anunció el 10 de junio [la renovación con Movistar](https://www.europeantour.com/dpworld-tour/news/articles/detail/movistar-plus-renews-broadcast-agreement-with-the-dp-world-tour-and-ryder-cup-in-spain-until-2031/), con «cobertura exclusiva del calendario completo», los Open nacionales, las Rolex Series y las tres próximas Ryder Cup. La última, la de 2031, se juega en Camiral, en la Costa Brava.
+
+## Los playoffs: Abu Dabi y Dubái
+
+| Torneo | Fechas | Campo | Jugadores |
+| --- | --- | --- | --- |
+| Abu Dhabi Aldar Championship | 5 al 8 de noviembre | Yas Links | Los 70 primeros |
+| DP World Tour Championship | 12 al 15 de noviembre | Earth Course, Jumeirah Golf Estates | Los 50 primeros |
+
+Son 72 hoyos sin corte en ambos, con 19 millones de dólares en premios. El ganador de Abu Dabi suma 1.500 puntos y el de Dubái, 2.000, así que la clasificación todavía se puede dar la vuelta, [según el circuito](https://www.europeantour.com/dpworld-tour/news/articles/detail/2026-dp-world-tour-play-offs-all-you-need-to-know/).
+
+**Chacarra** llega líder. Ha ganado tres torneos esta temporada, más que nadie: el KLM Open y el Open de Italia en junio y el India Championship el 18 de octubre, [según ESPN](https://www.espn.com/golf/story/_/id/50209113/eugenio-chacarra-wins-dp-world-india-championship). Por detrás, Patrick Reed y Rory McIlroy, que busca su octavo título. Si gana, Chacarra será el tercer español campeón del circuito tras Seve Ballesteros y Jon Rahm.
+
+## Los españoles en Abu Dabi
+
+En la lista de Abu Dabi hay diez españoles: Chacarra, Rahm, Nacho Elvira, Manuel Elvira, Ángel Hidalgo, Ángel Ayora, Jorge Campillo, Adrián Otaegui, David Puig y Alejandro del Rey. Nacho Elvira ganó el Dubai Invitational en enero, y Puig abrió la temporada con el Australian PGA de noviembre de 2025. Hidalgo fue tercero en la India.
+
+**Rahm** vuelve tras dejar la LIV, igual que Tyrrell Hatton, su compañero en Legion XIII. El circuito ha avisado de que quien juegue la nueva LIV no podrá ser miembro en 2027, y sin esa condición no se puede jugar la Ryder Cup. Lo contamos en [la salida de Hatton](/noticias/tyrrell-hatton-deja-liv-jon-rahm-legion-xiii-sergio-garcia-puig-dp-world-tour).
+
+## La temporada 2027
+
+La nueva temporada arranca antes de acabar el año, con cuatro torneos en Australia, Sudáfrica y Mauricio. Tiene 42 torneos en 24 países, según el [calendario 2027](https://thegolfnewsnet.com/golfnewsnetteam/2026/09/17/2027-dp-world-tour-schedule-tournaments-dates-purses-and-venues-144833/).
+
+| Torneo | Fechas |
+| --- | --- |
+| Australian PGA Championship (Sídney) | 26 al 29 de noviembre de 2026 |
+| Australian Open y Nedbank Golf Challenge | 3 al 6 de diciembre de 2026 |
+| Mauritius Open | 10 al 13 de diciembre de 2026 |
+| Hero Dubai Desert Classic | 21 al 24 de enero |
+| Estrella Damm Catalunya Championship (Empordà Golf, Girona) | 6 al 9 de mayo |
+| Ryder Cup (Adare Manor, Irlanda) | 17 al 19 de septiembre |
+| BMW PGA Championship | 23 al 26 de septiembre |
+| Open de España (Club de Campo Villa de Madrid) | 7 al 10 de octubre |
+| Playoffs en Abu Dabi y Dubái | 4 al 7 y 11 al 14 de noviembre |
+
+España tendrá dos torneos, Girona y Madrid. El Open de España de 2026 lo ganó el escocés Grant Forrest el 11 de octubre.
+
+## Horarios
+
+Abu Dabi y Dubái van tres horas por delante de España. Las salidas empiezan sobre las cuatro y media de la madrugada en hora peninsular, y los domingos el torneo se decide entre las once y la una. En los torneos de Australia, el directo cae de noche.
+
+Tabla del torneo en juego y calendario, en la sección del [DP World Tour](/golf/dp-world-tour). Los majors, la Ryder y el resto de circuitos, en la [guía de dónde ver el golf](/noticias/donde-ver-golf-espana-2026-27-movistar-majors-ryder-cup-liv-precios); lo que se juega cada día, en [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    competition: {"name":"DP World Tour","sport":"golf","slug":"dp-world-tour"},
+    sourceName: "DP World Tour",
+    sourceUrl: "https://www.europeantour.com/dpworld-tour/news/articles/detail/movistar-plus-renews-broadcast-agreement-with-the-dp-world-tour-and-ryder-cup-in-spain-until-2031/",
+    sourceLang: 'en',
+    publishedAt: '2026-11-04T16:10:32+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Miguel_%C3%81ngel_Jim%C3%A9nez_in_2008.jpg/1280px-Miguel_%C3%81ngel_Jim%C3%A9nez_in_2008.jpg",
+      alt: "Miguel Ángel Jiménez, con jersey naranja, gorra blanca y coleta, termina un golpe en el campo de prácticas de Valderrama, con los carteles de distancia al fondo",
+      credit: "Pablo Herrero · Wikimedia Commons",
+      license: "CC BY 2.0",
+    },
+    sourcesSecondary: [
+      { name: "DP World Tour: los playoffs de 2026", url: "https://www.europeantour.com/dpworld-tour/news/articles/detail/2026-dp-world-tour-play-offs-all-you-need-to-know/" },
+      { name: "ESPN: Chacarra gana en la India y lidera la Race to Dubai", url: "https://www.espn.com/golf/story/_/id/50209113/eugenio-chacarra-wins-dp-world-india-championship" },
+      { name: "Golf News Net: calendario 2027 del DP World Tour", url: "https://thegolfnewsnet.com/golfnewsnetteam/2026/09/17/2027-dp-world-tour-schedule-tournaments-dates-purses-and-venues-144833/" },
+      { name: "Roams: Movistar Golf, precio y programación", url: "https://roams.es/companias-telefonicas/movistar/guias/television/golf/" },
+    ],
+  },
+  {
+    slug: 'donde-ver-pga-tour-espana-2026-27-movistar-hbo-max-precios-rahm',
+    title: "El PGA Tour en televisión en España: lo que queda de 2026, la temporada 2027 y precios",
+    summary: "El circuito estadounidense cambia otra vez de casa en España. Qué plataforma emite el PGA Tour en lo que queda de 2026 y en 2027, cuánto cuesta, el calendario del otoño y de 2027 y qué pasa con Jon Rahm tras dejar la LIV.",
+    body: `El PGA Tour vuelve a estar en [Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Fgolf): la plataforma recuperó en junio los derechos para lo que queda de 2026 y para toda la temporada 2027, con The Players, los torneos Signature y los playoffs de la FedEx Cup. Se ve en el canal Golf por M+, que va en el paquete Deportes Total (29 €/mes sobre Movistar Plus+, 14 €/mes). HBO Max sigue ofreciendo los torneos de 2026 en su complemento Deportes, desde 11,99 €/mes. No hay torneos gratis.
+
+*Esta guía incluye enlaces de afiliado a plataformas de televisión. Si contratas desde ellos, Mundiales recibe una comisión sin coste extra para ti. No cambia lo que contamos.*
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| [Movistar Plus+ con Deportes Total](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Fgolf) | PGA Tour 2026 y 2027, los cuatro majors y el resto del golf | 14 + 29 €/mes, dentro de una tarifa miMovistar |
+| HBO Max con el complemento Deportes | Los torneos del PGA Tour de 2026 | 6,99 €/mes del plan básico con anuncios más 5 €/mes del complemento |
+| [Movistar Plus+ Libre](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Fgolf) | No incluye el PGA Tour; sí dos horas diarias de los majors | 9,99 €/mes |
+
+El regreso a Movistar lo contaron [2Playbook](https://www.2playbook.com/media/movistar-plus-recupera-derechos-pga-tour-dos-proximas-temporadas_22812_102.html) y Sportcal el 30 de junio. Pone fin a año y medio en el que el circuito solo estuvo en HBO Max, después de que Warner Bros. Discovery, dueña de los derechos en España desde 2019, dejara de sublicenciarlo. HBO Max mantiene en su [página del PGA Tour](https://www.hbomax.com/es/es/sports/pga-tour) la oferta de «cada torneo de la temporada 2026»; para 2027 no dice nada.
+
+## Lo que queda de 2026
+
+La temporada regular terminó en agosto. Ahora se juega la FedEx Cup Fall, que reparte 500 puntos por torneo y decide quién conserva la tarjeta para 2027, [según el PGA Tour](https://www.pgatour.com/article/news/latest/2026/01/09/pga-tour-unveils-2026-fedexcup-fall-schedule-two-new-events-asheville-austin).
+
+| Torneo | Fechas | Campo |
+| --- | --- | --- |
+| World Wide Technology Championship | 5 al 8 de noviembre | El Cardonal at Diamante, Los Cabos (México) |
+| Good Good Championship | 12 al 15 de noviembre | Omni Barton Creek, Austin (Texas) |
+| The RSM Classic | 19 al 22 de noviembre | Sea Island (Georgia) |
+
+El RSM Classic cierra la clasificación del otoño. Estos torneos no llevan a las grandes figuras, que descansan hasta enero.
+
+## La temporada 2027
+
+El calendario tiene 36 torneos, ocho de ellos Signature, y por primera vez en 56 años no empieza en Hawái. Estas son las fechas clave, de jueves a domingo:
+
+| Torneo | Fechas |
+| --- | --- |
+| The American Express (La Quinta), apertura | 21 al 24 de enero |
+| The Players (TPC Sawgrass) | 11 al 14 de marzo |
+| Masters | 8 al 11 de abril |
+| PGA Championship (PGA Frisco) | 20 al 23 de mayo |
+| US Open (Pebble Beach) | 17 al 20 de junio |
+| The Open (St Andrews) | 15 al 18 de julio |
+| FedEx St. Jude Championship | 13 al 16 de agosto |
+| BMW Championship | 19 al 22 de agosto |
+| Tour Championship (East Lake) | 26 al 29 de agosto |
+
+Las fechas son las del [anuncio del PGA Tour](https://www.pgatour.com/article/news/latest/2026/08/26/pga-tour-announces-2027-schedule-through-tour-championship). El otoño de 2027 se anunciará más adelante. Los majors los organizan otras entidades, pero puntúan para la FedEx Cup y también van en Movistar.
+
+## Los españoles
+
+**Jon Rahm** deja la LIV, pero eso no le devuelve al PGA Tour. Su acuerdo de salida, que el juzgado del concurso de la liga debe aprobar el 5 de noviembre, no incluye su regreso automático, y el comisionado Brian Rolapp dijo en agosto que no piensa reabrir el programa que permitió volver a otros jugadores de la LIV, [según Golf Magic](https://www.golfmagic.com/tour/pga-tour/when-will-jon-rahm-return-pga-tour-after-liv-golf-exit). Rahm sí juega los cuatro grandes: tiene plaza como campeón del Masters de 2023 y del US Open de 2021. Su vía inmediata es el circuito europeo: esta semana juega en Abu Dabi.
+
+David Puig y Ángel Ayora disputaron el PGA Championship de 2026. Puig también deja la LIV. La otra puerta es Europa: los mejores de la Race to Dubai, que lidera Eugenio Chacarra, reciben tarjeta del PGA Tour para el año siguiente.
+
+## Horarios
+
+Los torneos en la costa este de Estados Unidos se emiten en España de media tarde a medianoche, y los domingos el desenlace llega hacia la medianoche o la una. Los de México y la costa oeste se van más tarde. Si te pierdes un final, los circuitos publican los resúmenes en su web y sus redes.
+
+Torneo en juego, tabla por vueltas y calendario, en la sección del [PGA Tour](/golf/pga-tour). El mapa de todo el golf, majors y Ryder Cup incluidos, en la [guía de dónde ver el golf](/noticias/donde-ver-golf-espana-2026-27-movistar-majors-ryder-cup-liv-precios).`,
+    category: 'general',
+    competition: {"name":"PGA Tour","sport":"golf","slug":"pga-tour"},
+    sourceName: "2Playbook",
+    sourceUrl: "https://www.2playbook.com/media/movistar-plus-recupera-derechos-pga-tour-dos-proximas-temporadas_22812_102.html",
+    sourceLang: 'es',
+    publishedAt: '2026-11-04T16:11:32+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Rory_McIlroy_TOUR_Championship.jpg/1280px-Rory_McIlroy_TOUR_Championship.jpg",
+      alt: "Rory McIlroy, vestido de negro, sigue con la mirada la bola tras un golpe de hierro desde la calle de East Lake, con un lago y árboles al fondo",
+      credit: "Cem0030 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+    sourcesSecondary: [
+      { name: "Sportcal: Movistar recupera el PGA Tour", url: "https://www.sportcal.com/news/movistar-secures-pga-tour-rights-in-spain-after-wbd-sub-licensing-blackout/" },
+      { name: "HBO Max: PGA Tour", url: "https://www.hbomax.com/es/es/sports/pga-tour" },
+      { name: "PGA Tour: calendario 2027", url: "https://www.pgatour.com/article/news/latest/2026/08/26/pga-tour-announces-2027-schedule-through-tour-championship" },
+      { name: "PGA Tour: FedEx Cup Fall 2026", url: "https://www.pgatour.com/article/news/latest/2026/01/09/pga-tour-unveils-2026-fedexcup-fall-schedule-two-new-events-asheville-austin" },
+      { name: "Golf Magic: cuándo puede volver Rahm al PGA Tour", url: "https://www.golfmagic.com/tour/pga-tour/when-will-jon-rahm-return-pga-tour-after-liv-golf-exit" },
+    ],
+  },
+  {
+    slug: 'donde-ver-golf-espana-2026-27-movistar-majors-ryder-cup-liv-precios',
+    title: "Dónde ver el golf en España: circuitos, majors de 2027 y la Ryder Cup de Adare Manor",
+    summary: "Qué plataforma emite en España cada circuito de golf, del PGA Tour y el DP World Tour a la LPGA y la LIV, cuánto cuesta verlo entero o solo los majors y las fechas de los grandes y la Ryder Cup de 2027.",
+    body: `El golf profesional se ve en España casi entero en [Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Fgolf): sus canales Golf por M+ y Golf 2 emiten los cuatro grandes masculinos, el DP World Tour, la Ryder Cup, la LIV, el circuito femenino LPGA y, desde este verano, otra vez el PGA Tour. Verlo todo exige el paquete Deportes Total dentro de una tarifa de Movistar. Lo más barato es Movistar Plus+ Libre (9,99 €/mes), que da dos horas diarias de los majors y la Ryder Cup. En abierto no hay torneos.
+
+*Esta guía incluye enlaces de afiliado a plataformas de televisión. Si contratas desde ellos, Mundiales recibe una comisión sin coste extra para ti. No cambia lo que contamos.*
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| [Movistar Plus+ con Deportes Total](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Fgolf) | Los dos canales de golf completos: majors, PGA Tour, DP World Tour, LIV, LPGA, Ryder y Solheim | 14 €/mes de Movistar Plus+ más 29 €/mes de Deportes Total, sobre una tarifa miMovistar de fibra y móvil |
+| [Movistar Plus+ Libre](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Fgolf) | Dos horas de directo por jornada de los cuatro majors y la Ryder Cup | 9,99 €/mes, sin permanencia |
+| HBO Max con el complemento Deportes | Los torneos del PGA Tour de 2026 | 5 €/mes sobre un plan de HBO Max, desde 6,99 €/mes |
+
+Los canales de golf están en los diales 67 y 68 de Movistar, y la cuenta completa de fibra, móvil y paquetes no baja de unos 96 €/mes, [según Roams](https://roams.es/companias-telefonicas/movistar/guias/television/golf/). El alcance del plan Libre es el que anuncia la propia [sección de golf de Movistar](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Fgolf).
+
+## Qué tiene cada plataforma
+
+Movistar cerró en junio dos acuerdos que fijan el mapa. Renovó el **DP World Tour** en exclusiva hasta 2031, con las tres próximas Ryder Cup, y recuperó el **PGA Tour** para lo que queda de 2026 y toda la temporada 2027, [según Sportcal](https://www.sportcal.com/news/movistar-secures-pga-tour-rights-in-spain-after-wbd-sub-licensing-blackout/). Entre 2025 y junio de 2026, el circuito estadounidense solo se pudo ver en HBO Max. La misma fuente sitúa en Movistar los cuatro grandes masculinos, la LIV, el Asian Tour, la LPGA, el Ladies European Tour y los cinco majors femeninos.
+
+HBO Max mantiene en su web el PGA Tour de 2026 dentro del complemento Deportes. Para 2027 no anuncia nada. Si solo sigues el circuito americano, es la opción más barata hasta final de año.
+
+## Qué opción te conviene
+
+- **Si solo ves los grandes y la Ryder:** Movistar Plus+ Libre. Son dos horas al día, normalmente las del final de cada jornada, no el torneo completo.
+- **Si sigues a los españoles en Europa:** hace falta Deportes Total. El plan Libre no incluye el DP World Tour.
+- **Si solo te interesa el PGA Tour de este otoño:** HBO Max con el complemento Deportes, por 11,99 €/mes en el plan básico con anuncios.
+- **Si quieres todo el golf:** Movistar con Deportes Total, que en el mismo paquete suma los canales Deportes por M+ y los de DAZN.
+
+## Las grandes citas de 2027
+
+| Torneo | Fechas | Sede |
+| --- | --- | --- |
+| Masters | 8 al 11 de abril | Augusta National |
+| PGA Championship | 20 al 23 de mayo | PGA Frisco (Texas) |
+| US Open | 17 al 20 de junio | Pebble Beach |
+| The Open | 15 al 18 de julio | St Andrews |
+| Ryder Cup | 17 al 19 de septiembre | Adare Manor (Irlanda) |
+
+Las fechas de los majors salen del [calendario 2027 del PGA Tour](https://www.pgatour.com/article/news/latest/2026/08/26/pga-tour-announces-2027-schedule-through-tour-championship). La **Ryder Cup** de Adare Manor, en el condado de Limerick, va en Movistar, que tiene también la de 2029 y la de 2031 en Camiral, en la Costa Brava. Será la primera en España desde Valderrama 1997. La **Solheim Cup** femenina, que Europa ganó en septiembre en Países Bajos por 15-13 con Carlota Ciganda y Julia López Ramírez en el equipo, no vuelve hasta 2028.
+
+## LIV, en el aire
+
+La LIV ha ido en Movistar Golf, pero su 2027 está por decidir. La liga está en concurso de acreedores en Estados Unidos y prepara un relanzamiento con nuevos inversores. Jon Rahm, Sergio García y David Puig ya no estarán, como contamos en [la salida de Tyrrell Hatton](/noticias/tyrrell-hatton-deja-liv-jon-rahm-legion-xiii-sergio-garcia-puig-dp-world-tour). La liga anuncia en su web torneos en Hong Kong y Adelaida para febrero y marzo, pero no ha publicado un calendario cerrado ni se conoce acuerdo de televisión en España para 2027.
+
+## Horarios en España
+
+Los torneos del PGA Tour y la LPGA en Estados Unidos se juegan por la tarde y la noche en hora peninsular, y los domingos acaban hacia la medianoche. Los del circuito europeo en Oriente Medio y Asia empiezan de madrugada y terminan antes de comer. Para ver golf sin pagar quedan los resúmenes que los circuitos cuelgan en sus webs y redes.
+
+Cada circuito tiene su guía: [el PGA Tour](/noticias/donde-ver-pga-tour-espana-2026-27-movistar-hbo-max-precios-rahm), [el DP World Tour](/noticias/donde-ver-dp-world-tour-espana-race-to-dubai-movistar-chacarra-rahm) y [la LPGA](/noticias/donde-ver-lpga-espana-cme-group-tour-championship-movistar-ciganda). Torneos en juego y clasificaciones, en la sección de [golf](/golf) y en la del [PGA Tour](/golf/pga-tour).`,
+    category: 'general',
+    competition: {"name":"PGA Tour","sport":"golf","slug":"pga-tour"},
+    sourceName: "Sportcal",
+    sourceUrl: "https://www.sportcal.com/news/movistar-secures-pga-tour-rights-in-spain-after-wbd-sub-licensing-blackout/",
+    sourceLang: 'en',
+    publishedAt: '2026-11-04T16:12:32+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Ryder_Cup_2025-161.jpg/1280px-Ryder_Cup_2025-161.jpg",
+      alt: "El hoyo 1 de Bethpage Black durante la Ryder Cup de 2025, con la gran grada roja llena al fondo y el público tras las cuerdas a ambos lados de la calle",
+      credit: "Bryan Berlin · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+    sourcesSecondary: [
+      { name: "Movistar Plus+: golf", url: "https://www.movistarplus.es/deportes/golf" },
+      { name: "Roams: Movistar Golf, precio y programación", url: "https://roams.es/companias-telefonicas/movistar/guias/television/golf/" },
+      { name: "DP World Tour: renovación con Movistar Plus+ hasta 2031", url: "https://www.europeantour.com/dpworld-tour/news/articles/detail/movistar-plus-renews-broadcast-agreement-with-the-dp-world-tour-and-ryder-cup-in-spain-until-2031/" },
+      { name: "PGA Tour: calendario 2027", url: "https://www.pgatour.com/article/news/latest/2026/08/26/pga-tour-announces-2027-schedule-through-tour-championship" },
+    ],
+  },
+  {
+    slug: 'donde-ver-mundial-balonmano-2027-espana-hispanos-alemania-calendario',
+    title: "El Mundial de balonmano 2027 en televisión: calendario de España y qué se sabe de la emisión",
+    summary: "El Mundial masculino de balonmano se juega en Alemania del 13 al 31 de enero de 2027. Rivales y fechas de España en Múnich, cómo sigue el torneo hasta la final de Colonia y en qué punto están los derechos de televisión en España.",
+    body: `El Mundial masculino de balonmano se juega en Alemania del 13 al 31 de enero de 2027, y a 2 de noviembre ninguna cadena ha anunciado que lo emitirá en España. Ni RTVE ni ninguna plataforma de pago han comunicado los derechos. España juega en Múnich ante Turquía el jueves 14 de enero, Chile el sábado 16 y Croacia el lunes 18.
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| Televisión en España | Sin cadena anunciada a 2 de noviembre | Por confirmar |
+| Sección del Mundial en Mundiales | Calendario, grupos y resultados | Gratis |
+
+Conviene no confundir torneos. En enero de 2027 toca el Mundial: el Europeo masculino se juega en años pares y el siguiente, en enero de 2028, será en España, Portugal y Suiza. El Europeo femenino, en cambio, se juega este diciembre.
+
+## El grupo de España
+
+El sorteo se celebró en Múnich el 10 de junio y dejó a España en el grupo C, con Croacia, Chile y Turquía, [según la RFEBM](https://www.rfebm.com/desvelados-los-rivales-de-los-hispanos-en-la-fase-de-grupos-del-campeonato-del-mundo-2027/). El grupo se juega en el SAP Garden de Múnich.
+
+| Día | Partido |
+| --- | --- |
+| Jueves 14 de enero | España - Turquía |
+| Sábado 16 de enero | España - Chile |
+| Lunes 18 de enero | Croacia - España |
+
+Las horas de los partidos de España están por confirmar en la web del torneo.
+
+## Cómo sigue el torneo
+
+Juegan 32 selecciones en ocho grupos. Pasan los tres primeros de cada uno, y los del grupo C se cruzan en la segunda fase, en Colonia, con los del grupo D: Francia, Argentina, Brasil y Kuwait, [según COPE](https://www.cope.es/programas/tiempo-de-juego/noticias/croacia-chile-turquia-seran-rivales-espana-mundial-2027-20260610_3381682.html). Los dos primeros de cada grupo de esa fase van a cuartos.
+
+Las eliminatorias empiezan el 26 de enero y se juegan todas en el Lanxess Arena de Colonia. Las semifinales son el viernes 29 y la final, el domingo 31 de enero, [según la organización](https://www.handball2027.com/de/wm-spielplan-modus). Las sedes de la primera fase son Múnich, Stuttgart, Kiel y Magdeburgo, y Hannover acoge la otra mitad de la segunda fase.
+
+## Cómo llegan los Hispanos
+
+España se quedó en la segunda fase del Europeo de enero de 2026, tras perder 27-35 con Portugal. Sin billete directo, tuvo que ganar una eliminatoria de clasificación en mayo. El seleccionador, Jordi Ribera, recordó tras el sorteo que el Mundial da plazas para los preolímpicos de Los Ángeles 2028.
+
+## Qué hacer mientras tanto
+
+Hasta que haya cadena, lo más seguro es esperar al anuncio antes de contratar nada por el Mundial. Cuando se conozca, lo añadiremos aquí. Las selecciones también tienen el Europeo femenino del 3 al 20 de diciembre, con España en el grupo de Dinamarca, Turquía y Grecia.
+
+Calendario y grupos completos, en la sección del [Mundial de balonmano](/balonmano/mundial-de-balonmano). El resto del balonmano de la temporada, en la [guía de dónde ver el balonmano](/noticias/donde-ver-balonmano-espana-2026-27-asobal-guerreras-champions-mundial).`,
+    category: 'general',
+    competition: {"name":"Mundial de Balonmano","sport":"balonmano","slug":"mundial-de-balonmano"},
+    sourceName: "RFEBM",
+    sourceUrl: "https://www.rfebm.com/desvelados-los-rivales-de-los-hispanos-en-la-fase-de-grupos-del-campeonato-del-mundo-2027/",
+    sourceLang: 'es',
+    publishedAt: '2026-11-04T16:13:32+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Mannschaft_Spanien_K%C3%B6ln_Arena_Handball_WM_2019_%2840909513093%29.jpg/1280px-Mannschaft_Spanien_K%C3%B6ln_Arena_Handball_WM_2019_%2840909513093%29.jpg",
+      alt: "Los jugadores de la selección española de balonmano, de rojo, hacen una piña sobre la pista del pabellón de Colonia antes de un partido",
+      credit: "dronepicr · Wikimedia Commons",
+      license: "CC BY 2.0",
+    },
+    sourcesSecondary: [
+      { name: "COPE: rivales de España en el Mundial 2027", url: "https://www.cope.es/programas/tiempo-de-juego/noticias/croacia-chile-turquia-seran-rivales-espana-mundial-2027-20260610_3381682.html" },
+      { name: "Handball WM 2027: calendario y formato", url: "https://www.handball2027.com/de/wm-spielplan-modus" },
+      { name: "elDiario.es: la hoja de ruta de España", url: "https://www.eldiario.es/spin/deportes/espana-hoja-ruta-clasificacion-mundial-2027-europeo-olvidar-pm_1_12961982.html" },
+    ],
+  },
+  {
+    slug: 'donde-ver-ehf-european-league-2026-27-espana-granollers-bidasoa-logrono',
+    title: "La EHF European League en España: cómo ver a Granollers, Bidasoa, Torrelavega y Logroño",
+    summary: "Ninguna cadena nacional emite la European League de balonmano en 2026-27. Qué autonómica da los partidos de cada equipo español, cuánto cuesta la plataforma de la EHF, los grupos de los cuatro españoles y las fechas hasta las Finals de Hamburgo.",
+    body: `La EHF European League no se emite en ninguna televisión nacional esta temporada. Los partidos de los cuatro españoles se ven en EHFTV, la plataforma de pago de la federación europea, por 7,99 euros al mes o 45,99 al año, [según mibalonmano](https://www.mibalonmano.com/donde-ver-ehf-european-league-26-27-de-balonmano-retransmisiones-tv-y-online). Tres de ellos tienen además una autonómica que da sus partidos gratis: TV3 al Granollers, EiTB al Bidasoa y La 7 de La Rioja al Logroño.
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| EHFTV | Toda la European League, masculina y femenina, más la Champions | 7,99 €/mes o 45,99 €/año |
+| TV3 | Los partidos del Fraikin Granollers | Gratis, en Cataluña |
+| EiTB | Los partidos del IRUDEK Bidasoa Irun | Gratis, en Euskadi y en su plataforma |
+| La 7 de La Rioja | Los partidos del Dicorpebal Logroño | Gratis, en La Rioja |
+
+El Bathco Torrelavega es el único de los cuatro sin televisión: sus aficionados solo tienen EHFTV.
+
+## Los cuatro españoles y sus grupos
+
+Este año la competición arranca con 32 equipos en ocho grupos de cuatro, [según el sorteo que publicó la RFEBM](https://www.rfebm.com/sorteada-la-fase-de-grupos-de-la-ehf-european-league-masculina-2026-27/). Pasan los dos primeros de cada grupo.
+
+| Equipo | Grupo | Rivales |
+| --- | --- | --- |
+| IRUDEK Bidasoa Irun | B | Limoges, FH Hafnarfjordur y Marítimo de Madeira |
+| Fraikin Granollers | E | Flensburg-Handewitt, Buzau y Águas Santas |
+| Bathco Torrelavega | F | Benfica, Karviná y Holstebro |
+| Dicorpebal Logroño La Rioja | G | Eurofarm Pelister, Gummersbach y Wybrzeze Gdansk |
+
+## Lo que queda de temporada
+
+- **Fase de grupos:** seis jornadas, hasta el 2 de diciembre.
+- **Play-offs:** ida el 9 y el 16 de febrero de 2027, vuelta el 23 de febrero y el 2 de marzo. A los clasificados se suman los terceros y cuartos de la primera fase de la Champions.
+- **Octavos de final:** 23 y 30 de marzo. Entran los quintos de la Main Round de la Champions.
+- **EHF Finals:** sábado 22 y domingo 23 de mayo de 2027 en el Barclays Arena de Hamburgo (Alemania), [según la EHF](https://ehfel.eurohandball.com/men/2026-27/ehf-finals-men-2027/about-the-event/general-information/).
+
+Los partidos de grupos se juegan los martes, con horarios como las 18:45 o las 20:45, hora peninsular. El cambio de formato de la Champions trae a la European League rivales de más nivel desde febrero: el Nantes, entre otros, bajó tras la fase de grupos.
+
+## Qué opción te conviene
+
+- **Si vives en la comunidad de tu equipo:** la autonómica te basta para sus partidos.
+- **Si sigues a tu equipo desde fuera, o al Torrelavega:** EHFTV. Con el plan mensual se paga solo cuando hay partidos, por ejemplo durante la fase de grupos y los play-offs de febrero.
+- **Si también sigues al Barça en la Champions:** la misma suscripción sirve para las dos competiciones. Más detalle en la [guía de la Champions de balonmano](/noticias/donde-ver-champions-ehf-balonmano-2026-27-espana-ehftv-barca-final4).
+
+La European League femenina empieza su fase de grupos en enero y también se ve en EHFTV.
+
+Grupos, resultados y próximos partidos, en la sección de la [European League](/balonmano/ehf-european-league). Las ligas españolas, en la [guía de la Liga Asobal](/noticias/donde-ver-liga-asobal-2026-27-asobal-tv-eurosport-teledeporte-precios).`,
+    category: 'general',
+    competition: {"name":"EHF European League","sport":"balonmano","slug":"ehf-european-league"},
+    sourceName: "mibalonmano",
+    sourceUrl: "https://www.mibalonmano.com/donde-ver-ehf-european-league-26-27-de-balonmano-retransmisiones-tv-y-online",
+    sourceLang: 'es',
+    publishedAt: '2026-11-04T16:14:32+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/2023-02-12_Handball%2C_EHF_European_League_Women%2C_Th%C3%BCringer_HC_-_Praktiker-Vac_1DX_5209_by_Stepro.jpg/1280px-2023-02-12_Handball%2C_EHF_European_League_Women%2C_Th%C3%BCringer_HC_-_Praktiker-Vac_1DX_5209_by_Stepro.jpg",
+      alt: "Una jugadora de rojo y negro, con el balón en la mano, encara a una defensora de blanco en un partido de la European League femenina",
+      credit: "Steffen Prößdorf · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+    sourcesSecondary: [
+      { name: "RFEBM: sorteo de la fase de grupos", url: "https://www.rfebm.com/sorteada-la-fase-de-grupos-de-la-ehf-european-league-masculina-2026-27/" },
+      { name: "EHF: EHF Finals Men 2027", url: "https://ehfel.eurohandball.com/men/2026-27/ehf-finals-men-2027/about-the-event/general-information/" },
+      { name: "mibalonmano: dónde ver la Champions EHF 26/27", url: "https://www.mibalonmano.com/donde-ver-ehf-champions-league-26-27-balonmano-retransmisiones-tv-y-online" },
+    ],
+  },
+  {
+    slug: 'donde-ver-champions-ehf-balonmano-2026-27-espana-ehftv-barca-final4',
+    title: "Dónde ver la Champions de balonmano en España en 2026-27: el Barça, la Final4 y el precio",
+    summary: "La Champions de balonmano no tiene televisión nacional en España esta temporada. Dónde ver al Barça, cuánto cuesta la plataforma de la EHF, cómo funciona el nuevo formato de 24 equipos y cuándo se juegan las Final4 de Colonia y Budapest.",
+    body: `La Champions League de balonmano no tiene cadena en España esta temporada. Ninguna televisión ni plataforma nacional ha comprado los derechos, así que la competición entera, masculina y femenina, solo se ve en EHFTV, el servicio de pago de la federación europea: 7,99 euros al mes o 45,99 al año, [según mibalonmano](https://www.mibalonmano.com/donde-ver-ehf-champions-league-26-27-balonmano-retransmisiones-tv-y-online). En Cataluña, Esport3 emite gratis los partidos del Barça.
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| EHFTV | Todos los partidos de la Champions masculina y femenina, y también la European League | 7,99 €/mes o 45,99 €/año |
+| Esport3 | Los partidos del Barça | Gratis, en Cataluña |
+
+La temporada pasada era distinta: DAZN emitía la Champions y daba gratis los partidos del Barça, [como anunciaba la propia DAZN](https://www.dazn.com/es-ES/news/balonmano/fc-barcelona-hoy-donde-ver-gratis-online-proximo-partido-ehf-champions-league/1ly52rlmzrhmw1sg5i5e0fgqd8). Para 2026-27 no ha renovado.
+
+## El Barça, único español
+
+El Barça es el único equipo español en la Champions masculina. Superó la nueva primera fase en un grupo con Montpellier, Dinamo de Bucarest y Aarhus, y selló el pase a mediados de octubre con un 22-36 en Bucarest, [según el club](https://www.fcbarcelona.es/es/balonmano/primer-equipo/noticias/4592939/dinamo--barca-clasificados-para-la-main-round-22-36). En la Champions femenina no hay ningún equipo español esta temporada.
+
+## Un formato nuevo
+
+La Champions masculina pasa de 16 a 24 equipos, [según la EHF](https://ehfec.eurohandball.com/men/2026-27/news/en/more-teams-changed-system-understanding-the-new-format-for-the-ehf-champions-league-men/). Así queda el calendario:
+
+- **Fase de grupos (9 de septiembre - 29 de octubre):** seis grupos de cuatro. Los dos primeros pasaron a la Main Round; el tercero y el cuarto bajaron a la European League.
+- **Main Round (18 de noviembre - 4 de marzo):** dos grupos de seis. El Barça va al grupo II, con los clasificados de los grupos D, E y F. Pasan los cuatro primeros.
+- **Cuartos de final:** ida el 24 y 25 de marzo y vuelta el 31 de marzo y el 1 de abril de 2027.
+- **Final4:** sábado 12 y domingo 13 de junio de 2027 en el Lanxess Arena de Colonia (Alemania).
+
+La Final4 femenina se juega antes, el sábado 29 y el domingo 30 de mayo de 2027, en el MVM Dome de Budapest, [según la EHF](https://ehfcl.eurohandball.com/women/2026-27/ehf-final4-women-2027/about-the-event/general-information/).
+
+## Qué opción te conviene
+
+- **Si sigues al Barça desde Cataluña:** Esport3 te basta para sus partidos.
+- **Si sigues al Barça desde el resto de España:** EHFTV es la única vía. El plan mensual permite pagar solo los meses que interesen, por ejemplo de la Main Round a la Final4.
+- **Si quieres ver también a los españoles de la European League:** la misma suscripción a EHFTV incluye esa competición. Lo contamos en la [guía de la European League](/noticias/donde-ver-ehf-european-league-2026-27-espana-granollers-bidasoa-logrono).
+
+Conviene comprobar el precio en la web de EHFTV antes de pagar: la cifra de esta guía es la que publicó mibalonmano al arrancar la temporada.
+
+Clasificaciones, resultados y horarios en hora peninsular, en la sección de la [Champions de balonmano](/balonmano/champions-ehf). El resto del balonmano, en la [guía de dónde ver el balonmano](/noticias/donde-ver-balonmano-espana-2026-27-asobal-guerreras-champions-mundial).`,
+    category: 'general',
+    competition: {"name":"Champions League de balonmano (EHF)","sport":"balonmano","slug":"champions-ehf"},
+    sourceName: "mibalonmano",
+    sourceUrl: "https://www.mibalonmano.com/donde-ver-ehf-champions-league-26-27-balonmano-retransmisiones-tv-y-online",
+    sourceLang: 'es',
+    publishedAt: '2026-11-04T16:15:32+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/THW_Kiel_Final_Four_2012.JPG/1280px-THW_Kiel_Final_Four_2012.JPG",
+      alt: "Los jugadores del THW Kiel celebran con medallas en el podio de la Final Four de la Champions de balonmano, entre confeti y fotógrafos",
+      credit: "Kenny Krüger · Wikimedia Commons",
+      license: "CC BY 3.0",
+    },
+    sourcesSecondary: [
+      { name: "EHF: el nuevo formato de la Champions masculina", url: "https://ehfec.eurohandball.com/men/2026-27/news/en/more-teams-changed-system-understanding-the-new-format-for-the-ehf-champions-league-men/" },
+      { name: "FC Barcelona: clasificados para la Main Round", url: "https://www.fcbarcelona.es/es/balonmano/primer-equipo/noticias/4592939/dinamo--barca-clasificados-para-la-main-round-22-36" },
+      { name: "EHF: Final4 femenina 2027", url: "https://ehfcl.eurohandball.com/women/2026-27/ehf-final4-women-2027/about-the-event/general-information/" },
+      { name: "DAZN: el Barça en la Champions 2025-26", url: "https://www.dazn.com/es-ES/news/balonmano/fc-barcelona-hoy-donde-ver-gratis-online-proximo-partido-ehf-champions-league/1ly52rlmzrhmw1sg5i5e0fgqd8" },
+    ],
+  },
+  {
+    slug: 'donde-ver-liga-guerreras-iberdrola-2026-27-teledeporte-youtube-gratis',
+    title: "La Liga Guerreras Iberdrola en televisión: qué partidos van gratis y dónde ver el resto",
+    summary: "La primera división femenina de balonmano se ve sin pagar en 2026-27. Qué partido emite Teledeporte cada jornada, los próximos Partidos Estrella, dónde se ven los demás y qué pasa con los equipos españoles en Europa.",
+    body: `La Liga Guerreras Iberdrola se puede seguir entera sin pagar. Teledeporte emite en abierto el Partido Estrella de casi todas las jornadas, que también va en directo en RTVE Play. El resto de partidos los publica completos la Real Federación Española de Balonmano (RFEBM) en [su canal de YouTube](https://www.youtube.com/@RFEBM).
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| Teledeporte | El Partido Estrella de cada jornada, salvo alguna excepción | Gratis |
+| RTVE Play | El mismo partido, en directo por internet | Gratis |
+| YouTube de la RFEBM | Partidos completos del resto de la jornada | Gratis |
+| EHFTV | Los partidos europeos de los equipos españoles | 7,99 €/mes o 45,99 €/año |
+
+## Los próximos partidos en Teledeporte
+
+La federación anuncia los Partidos Estrella por bloques de jornadas. Estos son los que quedan del bloque que [publicó el 30 de octubre](https://www.rfebm.com/desvelados-los-partidos-estrella-de-teledeporte-de-las-jornadas-7-a-10-de-la-liga-guerreras-iberdrola/):
+
+| Jornada | Día y hora | Partido |
+| --- | --- | --- |
+| 8 | Sábado 7 de noviembre, 13:00 | Replasa Beti-Onak - Grafometal Sporting La Rioja |
+| 9 | Jueves 12 de noviembre, 20:45 | Atlético Guardés - Rocasa Gran Canaria |
+| 10 | Miércoles 18 de noviembre, 19:00 | Conservas Orbe Zendal Porriño - Atlético Guardés |
+
+La jornada 9 se adelanta al jueves por los partidos de la European League de ese fin de semana. No todas las jornadas tienen televisión: la sexta se quedó sin partido en Teledeporte por el calendario. Los horarios no siguen una franja fija. Hay partidos el domingo a las 11:00, entre semana a las 19:00 o por la noche.
+
+## Cómo ver el resto de partidos
+
+El canal de YouTube de la RFEBM sube los partidos completos de la competición. De la jornada 6, por ejemplo, colgó el Elche-Sporting La Rioja, el Bera Bera-Porriño, el Zonzamas-Oviedo y el Morvedre-Pozuelo. Se ve desde el móvil, el ordenador o la tele con la aplicación de YouTube, sin registrarse. La web de la federación enlaza además a isquad.tv, una plataforma con registro gratuito que emite partidos de balonmano.
+
+## La temporada
+
+Juegan 14 equipos a doble vuelta. El Rocasa Gran Canaria defiende el título, y Lobas Alimerka Oviedo y Soliss Pozuelo de Calatrava son los recién ascendidos, [según la RFEBM](https://www.rfebm.com/definidos-los-partidos-televisados-de-las-tres-primeras-jornadas-de-la-liga-guerreras-iberdrola/). La Copa de la Reina arrancó su primera fase el 27 de octubre.
+
+En diciembre, la atención pasa a la selección. Las Guerreras juegan el Europeo del 3 al 20 de diciembre, en el grupo C con Dinamarca, Turquía y Grecia. A 2 de noviembre no hay cadena confirmada en España para el torneo. Lo seguimos en la [guía del balonmano en televisión](/noticias/donde-ver-balonmano-espana-2026-27-asobal-guerreras-champions-mundial).
+
+## Los equipos españoles en Europa
+
+Varios equipos de la liga juegan la European League femenina, cuya fase de grupos empieza en enero, y la European Cup. Ninguna televisión española tiene esos derechos: los partidos se ven en EHFTV, la plataforma de pago de la federación europea, [según mibalonmano](https://www.mibalonmano.com/donde-ver-ehf-european-league-26-27-de-balonmano-retransmisiones-tv-y-online). La Champions femenina no tiene equipos españoles esta temporada.
+
+Resultados, clasificación y próximos partidos, en la sección de la [Liga Guerreras](/balonmano/liga-guerreras). Lo que se juega cada día, en [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    competition: {"name":"Liga Guerreras Iberdrola","sport":"balonmano","slug":"liga-guerreras"},
+    sourceName: "RFEBM",
+    sourceUrl: "https://www.rfebm.com/desvelados-los-partidos-estrella-de-teledeporte-de-las-jornadas-7-a-10-de-la-liga-guerreras-iberdrola/",
+    sourceLang: 'es',
+    publishedAt: '2026-11-04T16:16:32+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Esperanza_L%C3%B3pez_tira_a_puerta.jpg/1280px-Esperanza_L%C3%B3pez_tira_a_puerta.jpg",
+      alt: "Una jugadora de rosa y negro se eleva para lanzar entre tres defensoras de azul en un partido de la Liga Guerreras Iberdrola",
+      credit: "Joaquín Corrales · Wikimedia Commons",
+      license: "CC BY-SA 3.0",
+    },
+    sourcesSecondary: [
+      { name: "RFEBM: televisados de las jornadas 1 a 3", url: "https://www.rfebm.com/definidos-los-partidos-televisados-de-las-tres-primeras-jornadas-de-la-liga-guerreras-iberdrola/" },
+      { name: "Canal de YouTube de la RFEBM", url: "https://www.youtube.com/@RFEBM" },
+      { name: "mibalonmano: dónde ver la European League 26/27", url: "https://www.mibalonmano.com/donde-ver-ehf-european-league-26-27-de-balonmano-retransmisiones-tv-y-online" },
+    ],
+  },
+  {
+    slug: 'donde-ver-liga-asobal-2026-27-asobal-tv-eurosport-teledeporte-precios',
+    title: "Dónde ver la Liga Asobal en 2026-27: los ocho partidos de cada jornada, canal a canal",
+    summary: "La Liga Asobal 2026-27 se reparte entre la plataforma de la liga, Eurosport 2 y Teledeporte. Qué partidos emite cada uno, cuánto cuesta verlos todos, cuál va gratis cada jornada y cuándo para la liga por el Mundial.",
+    body: `Todos los partidos de la Liga Asobal 2026-27 se ven en ASOBAL TV, la plataforma de pago de la propia liga: 5,99 euros al mes o 49,99 al año. En televisión hay tres por jornada. Eurosport 2 emite dos, también en HBO Max y dentro de [Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Feurosport), y Teledeporte da gratis el Partido de la Jornada, que también se ve en RTVE Play.
+
+*Esta guía incluye enlaces de afiliado a plataformas de televisión. Si contratas desde ellos, Mundiales recibe una comisión sin coste extra para ti. No cambia lo que contamos.*
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| ASOBAL TV | Los ocho partidos de las 30 jornadas | 5,99 €/mes o 49,99 €/año |
+| [Movistar Plus+ Libre](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Feurosport) | Los dos partidos de Eurosport 2 por jornada | 9,99 €/mes, sin permanencia |
+| HBO Max con el extra Deportes | Los mismos dos partidos de Eurosport 2 | 10,99 € del plan Estándar más 5 €/mes del extra |
+| Teledeporte y RTVE Play | El Partido de la Jornada | Gratis |
+| TV3 y Esport3 | Algunos partidos de los equipos catalanes | Gratis, en Cataluña |
+
+ASOBAL TV funciona dentro de StreamWay+ y está disponible en España y Andorra. Los precios son los de [la nota de ASOBAL](https://asobal.es/noticias/descubre-c-mo-ver-los-todos-partidos-de-la-liga-nexus-energ-a-asobal-26-27-por-asobal-tv/8701/); la oferta de lanzamiento de 29,99 € al año terminó el 10 de septiembre. Los abonados de los 16 clubes tienen el plan anual por 23,99 € con un código de su club.
+
+## Qué opción te conviene
+
+- **Si sigues a un equipo concreto:** ASOBAL TV. Cinco de los ocho partidos de cada jornada solo se ven ahí. En la jornada 8, el Sevilla-Puerto Sagunto, el Nava-Cuenca o el Morrazo-Alicante no tuvieron televisión.
+- **Si quieres los partidos grandes:** Teledeporte, gratis, más Eurosport 2. El canal va en el plan Libre de [Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Feurosport), de 9,99 €/mes, [según la web de Movistar](https://www.movistarplus.es/deportes/eurosport); el plan de 4,99 € no lo incluye. En HBO Max, el extra Deportes solo se añade a los planes Estándar y Premium.
+- **Si sigues al Barça o al Granollers:** buena parte de sus partidos pasa por Eurosport 2, y TV3 o Esport3 emiten algunos en abierto, como el derbi del 1 de noviembre.
+
+## Cómo se reparte cada jornada
+
+La liga anuncia los canales unos días antes de cada jornada. Eurosport elige dos de los partidos más destacados de cada una de las 30 jornadas, [según 2Playbook](https://www.2playbook.com/media/asobal-tambien-se-vera-traves-eurosport-en-temporada-2026-2027_23548_102.html). Teledeporte ofrece el llamado Partido de la Jornada. Todos se ven también en ASOBAL TV.
+
+La jornada 8 sirve de ejemplo, [con los horarios de ASOBAL](https://asobal.es/noticias/del-duelo-directo-del--partido-de-la-jornada--del-quijote-arena-al-espect-culo-del--gran-derbi--de-granollers/8785/). Teledeporte emitió el Caserío Ciudad Real-Logroño del viernes a las 19:00. Eurosport 2 dio el Valladolid-Torrelavega del viernes y el Granollers-Barça del domingo, que el Barça ganó 25-36 ante 5.350 espectadores. Los ocho partidos se jugaron entre el viernes a las 19:00 y el domingo a la misma hora. Alguno sale además en Siroko TV, la plataforma de vídeo de la marca deportiva.
+
+## Por qué ya no está en LaLiga+
+
+LaLiga+, la plataforma de LaLiga, emitía la Asobal hasta la temporada pasada y dejó de operar al acabarla. La liga montó entonces su propio modelo con Eurosport, Teledeporte, TV3, un operador de cable y ASOBAL TV, [según Roams](https://roams.es/actualidad/telefonia/donde-ver-liga-asobal-2026-27-tv-plataformas-canales-partidos/). En 2025-26, el Partido de la Jornada de RTVE reunió 6,58 de los 8,3 millones de espectadores acumulados de la temporada.
+
+## Calendario de lo que queda
+
+La 37.ª edición empezó el 11 de septiembre y tiene 16 equipos y 30 jornadas. La liga juega hasta el 23 de diciembre y para hasta el 13 de febrero, por el Mundial de enero. La última jornada está fijada para el 5 de junio de 2027. Las fechas y los partidos de cada jornada, con hora peninsular, están en la sección de la [Liga Asobal](/balonmano/liga-asobal).
+
+El resto del balonmano, incluidas la Champions del Barça y la Liga Guerreras, está en la [guía de dónde ver el balonmano](/noticias/donde-ver-balonmano-espana-2026-27-asobal-guerreras-champions-mundial). Lo que se juega cada día, en [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    competition: {"name":"Liga Asobal","sport":"balonmano","slug":"liga-asobal"},
+    sourceName: "ASOBAL",
+    sourceUrl: "https://asobal.es/noticias/descubre-c-mo-ver-los-todos-partidos-de-la-liga-nexus-energ-a-asobal-26-27-por-asobal-tv/8701/",
+    sourceLang: 'es',
+    publishedAt: '2026-11-04T16:17:32+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Condes_de_Albarei_Teucro_%E2%80%93_FC_Barcelona_Lassa_%28_Asobal_%29_13.jpg/1280px-Condes_de_Albarei_Teucro_%E2%80%93_FC_Barcelona_Lassa_%28_Asobal_%29_13.jpg",
+      alt: "Un jugador del Barça, de celeste, lanza en suspensión entre dos defensores del Teucro, de azul y amarillo, en un partido de Liga Asobal con la grada llena",
+      credit: "Harpagornis · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+    sourcesSecondary: [
+      { name: "Roams: dónde ver la Liga Asobal 2026/27", url: "https://roams.es/actualidad/telefonia/donde-ver-liga-asobal-2026-27-tv-plataformas-canales-partidos/" },
+      { name: "2Playbook: la Asobal, en Eurosport", url: "https://www.2playbook.com/media/asobal-tambien-se-vera-traves-eurosport-en-temporada-2026-2027_23548_102.html" },
+      { name: "ASOBAL: jornada 8", url: "https://asobal.es/noticias/del-duelo-directo-del--partido-de-la-jornada--del-quijote-arena-al-espect-culo-del--gran-derbi--de-granollers/8785/" },
+      { name: "Movistar Plus+: Eurosport", url: "https://www.movistarplus.es/deportes/eurosport" },
+      { name: "HBO Max: planes", url: "https://www.hbomax.com/es/es" },
+    ],
+  },
+  {
+    slug: 'donde-ver-balonmano-espana-2026-27-asobal-guerreras-champions-mundial',
+    title: "El balonmano en España en 2026-27: dónde ver la Asobal, la Champions y a los Hispanos",
+    summary: "Guía del balonmano en televisión esta temporada: qué cuesta ver toda la Liga Asobal, qué partidos van gratis, cómo se sigue la Liga Guerreras, dónde están la Champions y la European League y qué se sabe del Europeo femenino y del Mundial de enero.",
+    body: `Ninguna plataforma tiene todo el balonmano que se juega esta temporada. La Liga Asobal completa está en ASOBAL TV, la plataforma de la propia liga, por 5,99 euros al mes; Eurosport 2 emite dos partidos por jornada y Teledeporte, uno en abierto. La Liga Guerreras se ve gratis, entre Teledeporte y el canal de YouTube de la federación. La Champions y la European League solo se ven enteras en EHFTV, desde 7,99 euros al mes. Para el Europeo de las Guerreras y el Mundial de los Hispanos no hay cadena anunciada a 2 de noviembre.
+
+*Esta guía incluye enlaces de afiliado a plataformas de televisión. Si contratas desde ellos, Mundiales recibe una comisión sin coste extra para ti. No cambia lo que contamos.*
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| ASOBAL TV | Los ocho partidos de cada jornada de la Liga Asobal | 5,99 €/mes o 49,99 €/año |
+| Eurosport 2, en [Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Feurosport) o en HBO Max | Dos partidos de Asobal por jornada | 9,99 €/mes con Movistar Plus+; desde 15,99 €/mes con HBO Max y su extra Deportes |
+| Teledeporte y RTVE Play | Un partido de Asobal y otro de la Liga Guerreras por jornada | Gratis |
+| Canal de YouTube de la RFEBM | Partidos completos de la Liga Guerreras | Gratis |
+| EHFTV | Champions y European League, masculinas y femeninas | 7,99 €/mes o 45,99 €/año |
+
+## Qué opción te conviene
+
+- **Si sigues a un equipo de Asobal:** ASOBAL TV. Es la única opción con todos los partidos y la más barata. La televisión solo da tres de los ocho de cada jornada.
+- **Si te basta con los partidos grandes:** Teledeporte, gratis, más Eurosport 2. Eurosport 2 va incluido en el plan Libre de [Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Feurosport), de 9,99 €/mes.
+- **Si sigues la Liga Guerreras:** no hace falta pagar. Teledeporte emite el Partido Estrella de casi todas las jornadas y la federación cuelga el resto en YouTube.
+- **Si sigues al Barça o a los españoles en Europa:** EHFTV. En Cataluña, Esport3 da gratis los partidos del Barça en la Champions.
+
+## La Liga Asobal y la Liga Guerreras
+
+La Asobal cambió de modelo este verano. LaLiga+ dejó de emitir al acabar la temporada 2025-26 y la liga reparte ahora sus partidos entre ASOBAL TV, Eurosport, Teledeporte y TV3, [según Roams](https://roams.es/actualidad/telefonia/donde-ver-liga-asobal-2026-27-tv-plataformas-canales-partidos/). La temporada tiene 30 jornadas y 16 equipos, para del 23 de diciembre al 13 de febrero por el Mundial y termina a principios de junio. Detalle de canales y precios, en la [guía de la Liga Asobal](/noticias/donde-ver-liga-asobal-2026-27-asobal-tv-eurosport-teledeporte-precios).
+
+La Liga Guerreras Iberdrola reúne a 14 equipos a doble vuelta, con el Rocasa Gran Canaria como campeón. Teledeporte ya ha fijado sus partidos hasta la jornada 10, el 18 de noviembre. Lo contamos en la [guía de la Liga Guerreras](/noticias/donde-ver-liga-guerreras-iberdrola-2026-27-teledeporte-youtube-gratis).
+
+## Champions y European League
+
+La temporada pasada, DAZN emitía la Champions. En 2026-27 ninguna cadena ni plataforma nacional ha comprado las copas europeas, [según mibalonmano](https://www.mibalonmano.com/donde-ver-ehf-champions-league-26-27-balonmano-retransmisiones-tv-y-online), así que queda EHFTV, el servicio de pago de la federación europea. Algunas autonómicas cubren a sus equipos: Esport3 al Barça, EiTB al Bidasoa y La 7 de La Rioja al Logroño en la European League.
+
+El Barça es el único español en la Champions masculina, que estrena formato de 24 equipos. Ya está en la Main Round, que empieza el 18 de noviembre, y la Final4 se juega en Colonia el 12 y 13 de junio. En la European League compiten Fraikin Granollers, Bidasoa Irun, Bathco Torrelavega y Dicorpebal Logroño. Más en las guías de la [Champions](/noticias/donde-ver-champions-ehf-balonmano-2026-27-espana-ehftv-barca-final4) y de la [European League](/noticias/donde-ver-ehf-european-league-2026-27-espana-granollers-bidasoa-logrono).
+
+## Selecciones: el Europeo de diciembre y el Mundial de enero
+
+Las Guerreras juegan el Europeo del 3 al 20 de diciembre, repartido entre cinco países. Comparten el grupo C con Dinamarca, Turquía y Grecia, y la campeona gana la plaza directa para los Juegos de Los Ángeles 2028, [según la RFEBM](https://www.rfebm.com/japon-nueva-prueba-para-las-guerreras-antes-del-euro-2026/).
+
+Los Hispanos van al Mundial de Alemania, del 13 al 31 de enero de 2027. Juegan en Múnich ante Turquía (14 de enero), Chile (16) y Croacia (18). El Europeo masculino no vuelve hasta enero de 2028, y será en España, Portugal y Suiza. Ni para el Europeo femenino ni para el Mundial hay emisión confirmada en España: lo seguimos en la [guía del Mundial](/noticias/donde-ver-mundial-balonmano-2027-espana-hispanos-alemania-calendario).
+
+Resultados y clasificaciones, en la sección de [balonmano](/balonmano). Lo que se juega cada día, en [partidos de hoy](/partidos-hoy), y el resto de deportes, en la [guía de dónde ver el deporte en España](/noticias/donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1).`,
+    category: 'general',
+    competition: {"name":"Liga Asobal","sport":"balonmano","slug":"liga-asobal"},
+    sourceName: "Roams",
+    sourceUrl: "https://roams.es/actualidad/telefonia/donde-ver-liga-asobal-2026-27-tv-plataformas-canales-partidos/",
+    sourceLang: 'es',
+    publishedAt: '2026-11-04T16:18:32+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/XLIII_Torneo_Internacional_de_Espa%C3%B1a_-_10.jpg/1280px-XLIII_Torneo_Internacional_de_Espa%C3%B1a_-_10.jpg",
+      alt: "Un jugador de blanco se eleva en suspensión para lanzar ante la defensa de dos jugadores de la selección española, de rojo, en un pabellón lleno",
+      credit: "Harpagornis · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+    sourcesSecondary: [
+      { name: "ASOBAL: ASOBAL TV", url: "https://asobal.es/noticias/descubre-c-mo-ver-los-todos-partidos-de-la-liga-nexus-energ-a-asobal-26-27-por-asobal-tv/8701/" },
+      { name: "mibalonmano: dónde ver la Champions EHF 26/27", url: "https://www.mibalonmano.com/donde-ver-ehf-champions-league-26-27-balonmano-retransmisiones-tv-y-online" },
+      { name: "Movistar Plus+: Eurosport", url: "https://www.movistarplus.es/deportes/eurosport" },
+      { name: "RFEBM: rivales de los Hispanos en el Mundial 2027", url: "https://www.rfebm.com/desvelados-los-rivales-de-los-hispanos-en-la-fase-de-grupos-del-campeonato-del-mundo-2027/" },
+    ],
+  },
+  {
+    slug: 'donde-ver-rugby-championship-2027-espana-nations-championship-calendario',
+    title: "The Rugby Championship en 2027: por qué no se jugó en 2026 y cómo seguirlo en España",
+    summary: "El torneo de Nueva Zelanda, Sudáfrica, Australia y Argentina no se disputó en 2026: el Nations Championship ocupa ahora los años pares. Qué ha cambiado, cuándo vuelve, dónde ver hoy a esas selecciones en España y quién ganó la última edición.",
+    body: `The Rugby Championship no se jugó en 2026 y vuelve en julio y agosto de 2027, antes del Mundial de Australia. Todavía no hay calendario ni cadena anunciada en España para esa edición. [Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Frugby%2Fdonde-ver) lo mantiene en su lista de competiciones de rugby y emite en exclusiva el Nations Championship, donde juegan ahora Nueva Zelanda, Sudáfrica, Australia y Argentina. Su plan Libre cuesta 9,99 €/mes, sin permanencia.
+
+*Esta guía lleva enlaces de afiliado a Movistar Plus+. Si contratas desde ellos, Mundiales cobra una comisión sin coste extra para ti. No cambia lo que contamos.*
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| [Movistar Plus+ Plan Libre](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Frugby%2Fdonde-ver) | Los partidos destacados del Nations Championship de noviembre, con las cuatro selecciones del sur | 9,99 €/mes, sin permanencia |
+| [Movistar Plus+ con Deportes Total](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Frugby%2Fdonde-ver) | Todo el rugby de Movistar | 29 €/mes sobre el básico de 14 €/mes de miMovistar |
+| The Rugby Championship 2027 | Calendario y cadena en España, por anunciar | — |
+
+Movistar incluye el Rugby Championship en la oferta de [su nota de julio](https://www.movistarplus.es/comunicacion/notas-de-prensa/las-mejores-selecciones-del-rugby-mundial-inauguran-el-nations-championship-en-exclusiva-en-movistar-plus/), la misma en la que presentó el Nations Championship.
+
+## Por qué no hubo torneo en 2026
+
+Hubo dos motivos, [según ABC](https://www.abc.net.au/news/2025-10-16/rugby-championship-scrapped-for-2026-test-season/105901714):
+
+- **El Nations Championship.** World Rugby lo estrenó en 2026 y ocupa las ventanas de julio y noviembre de los años pares.
+- **La gira de los All Blacks por Sudáfrica.** Del 7 de agosto al 12 de septiembre, con cuatro test: Sudáfrica ganó la serie 3-1, y el último se jugó en Baltimore, en Estados Unidos, [según la ficha de la gira](https://en.wikipedia.org/wiki/2026_New_Zealand_rugby_union_tour_of_South_Africa).
+
+No quedaba hueco para un torneo de seis semanas.
+
+## Qué es el Nations Championship
+
+Enfrenta a las seis selecciones del Seis Naciones con las cuatro del Rugby Championship y dos invitadas, Fiyi y Japón. Cada equipo juega contra los seis del otro hemisferio, tres veces en casa y tres fuera. En julio, Sudáfrica y Nueva Zelanda ganaron sus tres partidos; Argentina y Australia, uno cada una, [según la clasificación](https://en.wikipedia.org/wiki/2026_Nations_Championship).
+
+En noviembre las cuatro del sur visitan Europa. Argentina juega en Dublín el viernes 6 (21:00 en Movistar), Sudáfrica en París el viernes 13 (21:00) y Nueva Zelanda en Twickenham el sábado 21 (15:00). La final, entre el primero de cada hemisferio, es el domingo 29 en Twickenham.
+
+## El calendario a partir de ahora
+
+| Año | Qué se juega |
+| --- | --- |
+| 2026 | Nations Championship y gira de Nueva Zelanda por Sudáfrica |
+| 2027 | Rugby Championship en julio y agosto, y Mundial de Australia |
+| 2028 | Nations Championship, sin Rugby Championship |
+| 2029 | Rugby Championship |
+| 2030 | Nations Championship y gira de Sudáfrica por Nueva Zelanda |
+
+Así lo explica [Ruck](https://www.ruck.co.uk/explained-why-there-wont-be-a-rugby-championship-in-2026-2028-or-2030/): los años pares son del Nations Championship y el Rugby Championship queda para los impares. Para 2028 hubo informaciones contradictorias en 2025; las más recientes lo dejan fuera.
+
+## La última edición
+
+Se jugó del 16 de agosto al 4 de octubre de 2025 y la ganó Sudáfrica, campeona por segundo año seguido. Cerró ante Argentina en Twickenham, fuera de su hemisferio. Aquella edición dejó la primera victoria de los Pumas sobre los All Blacks en Argentina: 29-23 en Buenos Aires el 23 de agosto.
+
+Resultados y clasificación, en la [página del Rugby Championship](/rugby/rugby-championship). La cita grande de 2027 es el Mundial: los partidos de España y cómo verlos, en la [guía del Mundial de rugby](/noticias/donde-ver-mundial-rugby-2027-australia-espana-grupo-horarios-television).`,
+    category: 'general',
+    competition: {"name":"The Rugby Championship","sport":"rugby","slug":"rugby-championship"},
+    sourceName: "ABC News",
+    sourceUrl: "https://www.abc.net.au/news/2025-10-16/rugby-championship-scrapped-for-2026-test-season/105901714",
+    sourceLang: 'en',
+    publishedAt: '2026-11-04T16:19:32+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/All_Blacks_vs_Argentina_-_10_August_2024.jpg/1280px-All_Blacks_vs_Argentina_-_10_August_2024.jpg",
+      alt: "Panorámica de un Nueva Zelanda-Argentina del Rugby Championship de 2024 de noche, con las gradas llenas y los jugadores repartidos por el campo",
+      credit: "JaumeBG · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+    sourcesSecondary: [
+      { name: "Ruck: por qué no hay Rugby Championship en años pares", url: "https://www.ruck.co.uk/explained-why-there-wont-be-a-rugby-championship-in-2026-2028-or-2030/" },
+      { name: "Wikipedia: Nations Championship 2026", url: "https://en.wikipedia.org/wiki/2026_Nations_Championship" },
+      { name: "Wikipedia: gira de Nueva Zelanda por Sudáfrica 2026", url: "https://en.wikipedia.org/wiki/2026_New_Zealand_rugby_union_tour_of_South_Africa" },
+      { name: "Movistar Plus+: Nations Championship", url: "https://www.movistarplus.es/comunicacion/notas-de-prensa/las-mejores-selecciones-del-rugby-mundial-inauguran-el-nations-championship-en-exclusiva-en-movistar-plus/" },
+    ],
+  },
+  {
+    slug: 'donde-ver-urc-united-rugby-championship-espana-2026-27-precios-calendario',
+    title: "La United Rugby Championship 2026-27 desde España: opciones, precio y calendario",
+    summary: "La URC reúne a dieciséis clubes de Irlanda, Escocia, Gales, Italia y Sudáfrica. Ninguna televisión española la emite en 2026-27: qué alternativa hay, cuánto cuesta, dónde ver a sus equipos en Europa y las fechas clave hasta la final de junio.",
+    body: `La United Rugby Championship no tiene cadena en España en 2026-27. Movistar Plus+, que tiene casi todo el rugby, no la incluye en su oferta, y no hemos encontrado otro operador que la emita. La vía es URC TV, la plataforma de la propia liga, que vende un pase de temporada de 59,99 € en los países sin acuerdo de televisión. Conviene comprobar en su web que está disponible desde España antes de pagar.
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| URC TV | Los partidos de la liga, con comentarios en inglés | Pase de temporada de 59,99 € |
+| Televisión española | Nada | — |
+| Champions Cup | A los mejores equipos de la URC, en la competición europea | Movistar Plus+, paquete Deportes Total |
+
+El precio y el reparto por países son los de [la guía de Rugby World](https://www.rugbyworld.com/how-to-watch/urc-rugby-2026-27-185707): Premier Sports en Reino Unido e Irlanda, SuperSport en Sudáfrica, FloRugby en Estados Unidos y URC TV para el resto. España no aparece citada por su nombre. La [lista de competiciones de Movistar](https://www.movistarplus.es/comunicacion/notas-de-prensa/las-mejores-selecciones-del-rugby-mundial-inauguran-el-nations-championship-en-exclusiva-en-movistar-plus/) incluye el Top 14, la Premiership y la Champions Cup, pero no la URC.
+
+## Quién juega
+
+Son dieciséis clubes de cinco países, en una sola tabla:
+
+- **Irlanda:** Leinster, Munster, Ulster y Connacht.
+- **Escocia:** Glasgow Warriors y Edinburgh.
+- **Gales:** Cardiff, Ospreys, Scarlets y Dragons.
+- **Italia:** Benetton y Zebre.
+- **Sudáfrica:** Bulls, Lions, Sharks y Stormers.
+
+Leinster ganó las dos últimas ediciones y suma diez títulos. El líder a 23 de octubre era Glasgow, con 23 puntos y sin derrotas en cinco jornadas, [según la tabla](https://en.wikipedia.org/wiki/2026%E2%80%9327_United_Rugby_Championship).
+
+## Fechas clave
+
+La liga arrancó el 19 de septiembre y tiene 18 jornadas de fase regular. A diferencia de la Premiership, aquí hay cuartos:
+
+- Los ocho primeros pasan a cuartos de final; los cuatro primeros juegan en casa.
+- Semifinales y final, también en el campo del mejor clasificado. No hay sede neutral.
+- La final es el sábado 19 de junio de 2027.
+
+Las jornadas se reparten entre Europa y Sudáfrica. Sudáfrica va una hora por delante de la España peninsular en invierno y lleva la misma hora en verano; Irlanda, Escocia y Gales van una hora por detrás. Los horarios de cada jornada, en la [página de la URC](/rugby/urc).
+
+## Ver a sus equipos sin URC TV
+
+Los mejores clubes de la URC juegan también la Champions Cup, que en España emite Movistar en sus canales de deportes. En la primera jornada, en octubre, Movistar dio el Munster-Racing 92. La fase de grupos vuelve el 11 de diciembre y sigue en enero. Leinster fue finalista de la última edición.
+
+Sus internacionales irlandeses, escoceses, galeses, italianos y sudafricanos están ahora en el Nations Championship, y en febrero en el Seis Naciones. Cómo ver todo eso, en la [guía del rugby en España](/noticias/donde-ver-rugby-espana-2026-27-seis-naciones-mundial-champions-cup-ligas). Lo que se juega cada día, en [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    competition: {"name":"United Rugby Championship","sport":"rugby","slug":"urc"},
+    sourceName: "Rugby World",
+    sourceUrl: "https://www.rugbyworld.com/how-to-watch/urc-rugby-2026-27-185707",
+    sourceLang: 'en',
+    publishedAt: '2026-11-04T16:20:32+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Thomond_Park_by_night_%28cropped%29.jpg/1280px-Thomond_Park_by_night_%28cropped%29.jpg",
+      alt: "El estadio Thomond Park de Limerick, casa del Munster, iluminado de noche, con los palos en primer plano y aficionados junto a la banda",
+      credit: "Mrgoggins90, cropped by Blackcat · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+    sourcesSecondary: [
+      { name: "Wikipedia: URC 2026-27", url: "https://en.wikipedia.org/wiki/2026%E2%80%9327_United_Rugby_Championship" },
+      { name: "Movistar Plus+: oferta de rugby", url: "https://www.movistarplus.es/comunicacion/notas-de-prensa/las-mejores-selecciones-del-rugby-mundial-inauguran-el-nations-championship-en-exclusiva-en-movistar-plus/" },
+      { name: "Roams: rugby en Movistar", url: "https://roams.es/companias-telefonicas/movistar/guias/television/rugby/" },
+    ],
+  },
+  {
+    slug: 'donde-ver-premiership-rugby-espana-2026-27-canales-precios-calendario',
+    title: "La Premiership Rugby 2026-27 en España: dónde verla, qué cuesta y su calendario",
+    summary: "La liga inglesa de rugby estrena formato cerrado, sin descensos, y se juega hasta la final del 19 de junio en Twickenham. Qué plataforma la emite en España, con qué paquete, a qué hora y cómo encaja con la Champions Cup.",
+    body: `La Premiership inglesa de rugby está en la oferta de [Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Frugby%2Fdonde-ver) para España, dentro del paquete Deportes Total. Ese paquete cuesta 29 €/mes y se suma al básico de 14 €/mes de una tarifa miMovistar con fibra y móvil. El plan Libre de 9,99 €/mes, sin permanencia, se queda en una selección de partidos destacados de todo el rugby. No hay partidos de la liga inglesa en abierto en España.
+
+*Esta guía lleva enlaces de afiliado a Movistar Plus+. Si contratas desde ellos, Mundiales cobra una comisión sin coste extra para ti. No cambia lo que contamos.*
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| [Movistar Plus+ con Deportes Total](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Frugby%2Fdonde-ver) | Los partidos de Premiership que programa Movistar, en sus canales de deportes | 29 €/mes + 14 €/mes del básico, con fibra y móvil de Movistar |
+| [Movistar Plus+ Plan Libre](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Frugby%2Fdonde-ver) | Partidos destacados de varios torneos; Movistar no detalla cuántos de Premiership | 9,99 €/mes, sin permanencia |
+
+La liga aparece como «Gallagher Premiership» en la lista de competiciones de [la nota de Movistar](https://www.movistarplus.es/comunicacion/notas-de-prensa/las-mejores-selecciones-del-rugby-mundial-inauguran-el-nations-championship-en-exclusiva-en-movistar-plus/) de julio y dentro de Deportes Total en [la guía de Roams](https://roams.es/companias-telefonicas/movistar/guias/television/rugby/). En el Reino Unido la emite TNT Sports, con siete partidos en abierto en ITV que no se pueden ver desde España.
+
+## Una liga sin descensos
+
+La temporada 2026-27 es la primera con modelo de franquicia: diez clubes y sin descenso automático a la segunda categoría, [según la ficha de la temporada](https://en.wikipedia.org/wiki/2026%E2%80%9327_Premiership_Rugby). Empezó el 25 de septiembre.
+
+- **Campeón:** Northampton Saints, que ganó en junio su tercera liga al Exeter Chiefs.
+- **Líder:** Leicester Tigers, con 21 puntos tras cinco jornadas, a 31 de octubre.
+- **Fase regular:** 18 jornadas, la última del 4 al 6 de junio de 2027.
+- **Semifinales:** el 11 y 12 de junio, primero contra cuarto y segundo contra tercero, en casa del mejor clasificado.
+- **Final:** sábado 19 de junio en Twickenham.
+
+## A qué hora se juega
+
+Inglaterra va una hora por detrás de la España peninsular. Un partido a las 15:00 en Inglaterra se ve aquí a las 16:00, y uno de viernes por la noche a las 19:45 empieza aquí a las 20:45. La jornada suele empezar el viernes y acabar el domingo. Las horas de cada jornada, ya en hora española, están en la página de la [Premiership Rugby](/rugby/premiership-rugby).
+
+## Calendario apretado en invierno
+
+La liga convive con dos torneos que se llevan a sus internacionales ingleses:
+
+- **Nations Championship:** Inglaterra juega contra Australia, Japón y Nueva Zelanda en noviembre y puede llegar a la final del 29 en Twickenham.
+- **Seis Naciones:** del 5 de febrero al 13 de marzo.
+
+Ocho clubes ingleses disputan además la Champions Cup, que también está en Movistar. La fase vuelve el 11 de diciembre y la final es el 22 de mayo en Lyon.
+
+## Si sigues más rugby
+
+Si te interesa también el Top 14, el mismo paquete lo incluye: su guía está en [dónde ver el Top 14](/noticias/donde-ver-top-14-rugby-espana-2026-27-canales-precios-espanoles). Todas las competiciones juntas, con la selección española y el Mundial de 2027, en la [guía del rugby en España](/noticias/donde-ver-rugby-espana-2026-27-seis-naciones-mundial-champions-cup-ligas).`,
+    category: 'general',
+    competition: {"name":"Premiership Rugby","sport":"rugby","slug":"premiership-rugby"},
+    sourceName: "Movistar Plus+",
+    sourceUrl: "https://www.movistarplus.es/comunicacion/notas-de-prensa/las-mejores-selecciones-del-rugby-mundial-inauguran-el-nations-championship-en-exclusiva-en-movistar-plus/",
+    sourceLang: 'es',
+    publishedAt: '2026-11-04T16:21:32+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/20261023_2026-27_English_Premiership_Gloucester_vs_Bath_10.jpg/1280px-20261023_2026-27_English_Premiership_Gloucester_vs_Bath_10.jpg",
+      alt: "Jugadores de Gloucester y Bath en el campo de Kingsholm, de noche, con un palo en primer plano y la tribuna principal iluminada",
+      credit: "Bearas · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+    sourcesSecondary: [
+      { name: "Roams: rugby en Movistar", url: "https://roams.es/companias-telefonicas/movistar/guias/television/rugby/" },
+      { name: "Wikipedia: Premiership Rugby 2026-27", url: "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premiership_Rugby" },
+      { name: "Rugby World: calendario de la Champions Cup", url: "https://www.rugbyworld.com/rugby-fixtures/champions-cup-fixtures" },
+    ],
+  },
+  {
+    slug: 'donde-ver-top-14-rugby-espana-2026-27-canales-precios-espanoles',
+    title: "Dónde ver el Top 14 de rugby en España en 2026-27: canales, precios y españoles",
+    summary: "El Top 14 francés 2026-27 dura hasta la final del 26 de junio en el Stade de France. Qué plataforma lo emite en España, qué paquete hace falta, a qué hora suelen jugarse los partidos y qué internacionales españoles seguir.",
+    body: `El Top 14 francés se ve en España en [Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Frugby%2Fdonde-ver), en los canales Deportes por M+. Para tenerlos hace falta una tarifa miMovistar con el paquete Deportes Total, que cuesta 29 €/mes sobre el básico de 14 €/mes. El plan Libre de 9,99 €/mes solo trae una selección de partidos destacados de cada torneo, y Movistar no detalla cuántos son del Top 14. No hay partidos en abierto en España.
+
+*Esta guía lleva enlaces de afiliado a Movistar Plus+. Si contratas desde ellos, Mundiales cobra una comisión sin coste extra para ti. No cambia lo que contamos.*
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| [Movistar Plus+ con Deportes Total](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Frugby%2Fdonde-ver) | Los partidos del Top 14 que emite Movistar, en Deportes por M+ | 29 €/mes del paquete, sobre 14 €/mes del básico, con fibra y móvil de Movistar |
+| [Movistar Plus+ Plan Libre](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Frugby%2Fdonde-ver) | Una selección de partidos destacados de todo el rugby, sin garantía de Top 14 | 9,99 €/mes, sin permanencia |
+
+El Top 14 figura en la oferta de rugby de Movistar en [su nota de julio](https://www.movistarplus.es/comunicacion/notas-de-prensa/las-mejores-selecciones-del-rugby-mundial-inauguran-el-nations-championship-en-exclusiva-en-movistar-plus/) y en la ficha de la [temporada regular](https://www.movistarplus.es/deportes/rugby/temporada-regular/ficha?tipo=E&id=4389419) de su web. [Roams](https://roams.es/companias-telefonicas/movistar/guias/television/rugby/) lo sitúa dentro de Deportes Total.
+
+## Cómo va la temporada
+
+La liga empezó el 5 de septiembre y tiene catorce equipos. Vannes y Perpiñán son los dos que llegaron por la vía del ascenso, Perpiñán tras ganar la promoción a Provence Rugby. El Toulouse es el campeón: ganó en junio su cuarta liga seguida y la número 25 de su historia, ante Montpellier. A finales de octubre volvía a ser líder, con el Pau entre sus perseguidores, [según la tabla](https://en.wikipedia.org/wiki/2026%E2%80%9327_Top_14_season).
+
+El formato premia quedar entre los dos primeros:
+
+- Pasan seis equipos a la fase final. El tercero recibe al sexto y el cuarto al quinto.
+- El primero y el segundo esperan en semifinales, que se juegan en el estadio Atlantique de Burdeos.
+- La final es el sábado 26 de junio de 2027 en el Stade de France.
+- El decimotercero juega la promoción ante el segundo de la Pro D2; el último baja.
+
+## Los españoles a seguir
+
+Jon Zabala, capitán de la selección, juega en el Pau, uno de los equipos de arriba. Oriol Marsinyac, tres cuartos, es del Toulouse. Los dos están en la convocatoria de Pablo Bouza para la Nations Cup de noviembre, [según Infobae](https://www.infobae.com/espana/agencias/2026/11/02/el-seleccionador-bouza-llama-a-8-jugadores-de-clubes-de-francia-para-el-choque-con-uruguay/). Otros convocados, como los del Biarritz o el Carcassonne, juegan fuera del Top 14.
+
+## A qué hora se juega
+
+Francia comparte huso horario con la España peninsular: la hora del partido es la misma aquí. La jornada se reparte entre el sábado y el domingo, y el partido de más cartel suele ir el domingo a las 21:05, como el Pau-Toulouse del 1 de noviembre. Los horarios de cada jornada, en la [página del Top 14](/rugby/top-14).
+
+## Si también ves la Champions Cup
+
+Con Deportes Total entra también la Champions Cup, donde juegan ocho clubes franceses. Su fase de grupos sigue el 11 de diciembre y la final es el 22 de mayo en Lyon. El resto del rugby, con la Premiership y el Mundial de 2027, en la [guía del rugby en España](/noticias/donde-ver-rugby-espana-2026-27-seis-naciones-mundial-champions-cup-ligas).`,
+    category: 'general',
+    competition: {"name":"Top 14","sport":"rugby","slug":"top-14"},
+    sourceName: "Movistar Plus+",
+    sourceUrl: "https://www.movistarplus.es/comunicacion/notas-de-prensa/las-mejores-selecciones-del-rugby-mundial-inauguran-el-nations-championship-en-exclusiva-en-movistar-plus/",
+    sourceLang: 'es',
+    publishedAt: '2026-11-04T16:22:32+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/2024-25_Top_14_Stade_fran%C3%A7ais_vs_RC_Toulon_%2810%29.jpg/1280px-2024-25_Top_14_Stade_fran%C3%A7ais_vs_RC_Toulon_%2810%29.jpg",
+      alt: "Vista general desde la grada del Stade Jean-Bouin de París, de noche, con los jugadores del Stade Français de rosa y los del Toulon de blanco sobre el césped",
+      credit: "Like tears in rain · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+    sourcesSecondary: [
+      { name: "Roams: rugby en Movistar", url: "https://roams.es/companias-telefonicas/movistar/guias/television/rugby/" },
+      { name: "Movistar Plus+: Top 14, temporada regular", url: "https://www.movistarplus.es/deportes/rugby/temporada-regular/ficha?tipo=E&id=4389419" },
+      { name: "Wikipedia: Top 14 2026-27", url: "https://en.wikipedia.org/wiki/2026%E2%80%9327_Top_14_season" },
+      { name: "Infobae: convocatoria de España", url: "https://www.infobae.com/espana/agencias/2026/11/02/el-seleccionador-bouza-llama-a-8-jugadores-de-clubes-de-francia-para-el-choque-con-uruguay/" },
+    ],
+  },
+  {
+    slug: 'donde-ver-mundial-rugby-2027-australia-espana-grupo-horarios-television',
+    title: "El Mundial de rugby 2027 en televisión: los partidos de España, horarios y lo que falta saber",
+    summary: "España vuelve a un Mundial de rugby 28 años después. Quién tiene los derechos de Australia 2027 en España, las fechas y horas peninsulares de sus partidos contra Fiyi, Argentina y Canadá, cómo funciona el nuevo formato y qué queda por anunciar.",
+    body: `El Mundial de rugby de Australia, del 1 de octubre al 13 de noviembre de 2027, lo emitirá [Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Frugby%2Fdonde-ver) en España: World Rugby lo pone a su nombre en su [lista oficial de cadenas](https://www.rugbyworldcup.com/2027/en/where-to-watch) para España y Andorra. Movistar todavía no ha detallado su oferta: ni en qué canales irá ni si entrará en el plan Libre de 9,99 €/mes. Tampoco hay partidos en abierto anunciados. España juega en el grupo C contra Fiyi, Argentina y Canadá, con partidos a primera hora de la mañana o a mediodía.
+
+*Esta guía incluye enlaces de afiliado a plataformas de televisión. Si contratas desde ellos, Mundiales recibe una comisión sin coste extra para ti. No cambia lo que contamos.*
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| [Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Frugby%2Fdonde-ver) | El Mundial, según World Rugby; reparto por planes sin anunciar | Plan Libre, 9,99 €/mes; Deportes Total, 29 €/mes sobre el básico de 14 €/mes de miMovistar |
+| Televisión en abierto | Nada anunciado, tampoco los partidos de España | — |
+
+Movistar ya emitió en exclusiva el Mundial de Japón 2019; su canal Vamos, abierto a todos sus clientes, batió entonces su récord de audiencia con la final, [según la plataforma](https://www.movistarplus.es/comunicacion/email/gran-exito-del-mundial-de-rugby-en-movistar/).
+
+## Los partidos de España
+
+| Partido | Fecha | Estadio | Hora local | Hora peninsular |
+| --- | --- | --- | --- | --- |
+| Fiyi-España | Lunes 4 de octubre | Newcastle Stadium, Newcastle | 14:15 | 05:15 |
+| Argentina-España | Domingo 10 de octubre | Docklands Stadium, Melbourne | 15:15 | 06:15 |
+| España-Canadá | Sábado 16 de octubre | North Queensland Stadium, Townsville | 20:15 | 12:15 |
+
+Fechas, estadios y horas locales son las que publicó [la federación española](https://ferugby.es/fechas-y-estadios-confirmados-para-los-leones-en-el-mundial-de-australia-2027/). La hora peninsular es cálculo de Mundiales: Newcastle y Melbourne estarán ya en horario de verano australiano, nueve horas por delante; Townsville, en Queensland, no cambia la hora y va ocho por delante.
+
+Es el segundo Mundial de España, que solo había jugado el de 1999. El seleccionador es el argentino Pablo Bouza, que este mes prepara a los Leones con tres partidos de la Nations Cup en Madrid, Leganés y Málaga, también en Movistar.
+
+## Cómo funciona el torneo
+
+El de 2027 es el primer Mundial con 24 selecciones, cuatro más que en 2023. Se reparten en seis grupos de cuatro, y pasan a octavos los dos primeros de cada grupo y los cuatro mejores terceros, [según la federación](https://ferugby.es/dos-anos-para-el-mundial-de-australia-2027-fecha-del-sorteo-y-formato-del-torneo/).
+
+- Si España gana el grupo, se mide en octavos a uno de los mejores terceros.
+- Si queda segunda, su rival sale de los segundos de los grupos E y F.
+- Si es tercera, depende de que esté entre los cuatro mejores.
+
+El torneo arranca el 1 de octubre en el Perth Stadium. La final es el sábado 13 de noviembre en el Stadium Australia de Sídney, el de la foto.
+
+## Los horarios del torneo
+
+Australia va entre seis y diez horas por delante de la España peninsular, según la ciudad y la semana: Perth es la sede más cercana en horario, y el 31 de octubre España atrasa la hora. Los partidos de tarde allí caen de madrugada aquí, y los de noche australiana, a la hora del desayuno o a mediodía. El calendario completo con horas está en la sección del [Mundial de rugby](/rugby/mundial-de-rugby).
+
+## Lo que falta por saber
+
+- En qué canales de Movistar irá cada partido y cuáles entran en el plan Libre.
+- Si algún partido de España se ofrecerá en abierto: no hay anuncio de Movistar ni de RTVE.
+- La hora de inicio de la final y de las eliminatorias.
+
+Actualizaremos esta guía cuando Movistar presente su cobertura. Mientras, el Seis Naciones de febrero es el último gran torneo antes del Mundial: fechas y horarios en la [guía del Seis Naciones 2027](/noticias/donde-ver-seis-naciones-2027-espana-television-calendario-horarios).`,
+    category: 'general',
+    competition: {"name":"Mundial de Rugby","sport":"rugby","slug":"mundial-de-rugby"},
+    sourceName: "World Rugby",
+    sourceUrl: "https://www.rugbyworldcup.com/2027/en/where-to-watch",
+    sourceLang: 'en',
+    publishedAt: '2026-11-04T16:23:32+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Stadium_Australia_07-04-23.jpg/1280px-Stadium_Australia_07-04-23.jpg",
+      alt: "La grada norte del Stadium Australia de Sídney, llena, con los palos de rugby sobre el césped y el marcador al fondo",
+      credit: "Jason L · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+    sourcesSecondary: [
+      { name: "FERugby: fechas y estadios de España", url: "https://ferugby.es/fechas-y-estadios-confirmados-para-los-leones-en-el-mundial-de-australia-2027/" },
+      { name: "FERugby: formato del Mundial 2027", url: "https://ferugby.es/dos-anos-para-el-mundial-de-australia-2027-fecha-del-sorteo-y-formato-del-torneo/" },
+      { name: "Movistar+: el Mundial de 2019", url: "https://www.movistarplus.es/comunicacion/email/gran-exito-del-mundial-de-rugby-en-movistar/" },
+      { name: "Mundoplus: Movistar y el Nations Championship", url: "https://www.mundoplus.tv/deportes/las-mejores-selecciones-del-rugby-mundial-inauguran-el-nations-championship-en-exclusiva-en-movistar-plus/" },
+    ],
+  },
+  {
+    slug: 'donde-ver-seis-naciones-2027-espana-television-calendario-horarios',
+    title: "El Seis Naciones 2027 en televisión: calendario, horarios en España y qué plan hace falta",
+    summary: "El Seis Naciones 2027 se juega del 5 de febrero al 13 de marzo. Dónde se vio la última edición en España, qué incluye cada plan, las quince fechas con su hora peninsular y cuándo juega España su propio torneo europeo.",
+    body: `El Seis Naciones de 2026 se vio entero y en exclusiva en [Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Frugby%2Fdonde-ver), que mantiene el torneo en su oferta de rugby. La edición de 2027, del viernes 5 de febrero al sábado 13 de marzo, aún no tiene un anuncio de emisión propio. Lo más barato con aquel reparto es el plan Libre, 9,99 €/mes, que da los partidos de los canales Movistar Plus+ y Vamos. Para tenerlos todos hace falta el paquete Deportes Total. No hay partidos en abierto.
+
+*Esta guía lleva enlaces de afiliado a Movistar Plus+. Si contratas desde ellos, Mundiales cobra una comisión sin coste extra para ti. No cambia lo que contamos.*
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| [Movistar Plus+ Plan Libre](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Frugby%2Fdonde-ver) | Los partidos que Movistar emite en sus canales Movistar Plus+ y Vamos | 9,99 €/mes, sin permanencia |
+| [Movistar Plus+ con Deportes Total](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Frugby%2Fdonde-ver) | Los quince partidos, también los que van por Deportes por M+ | 29 €/mes, sobre el básico de 14 €/mes de una tarifa miMovistar |
+| Televisión en abierto | Nada | — |
+
+En 2026 Movistar repartió el torneo entre Movistar Plus+ (dial 7), Vamos (dial 8) y Deportes por M+ (dial 63), y lo ofreció a todos sus clientes, [según Mundoplus](https://www.mundoplus.tv/deportes/arranca-el-seis-naciones-de-rugby-2026-disponible-para-todos-los-clientes-de-movistar-plus/). La primera jornada fue entera por Vamos. El precio de Deportes Total es el que recoge [Roams](https://roams.es/actualidad/telefonia/movistar-castiga-a-sus-clientes-sube-el-precio-del-pack-deportes-total-para-pagar-los-derechos-que-perdio-ante-dazn/) desde marzo.
+
+## Las cinco jornadas, en hora peninsular
+
+| Jornada | Fecha | Partido | Hora |
+| --- | --- | --- | --- |
+| 1 | Viernes 5 de febrero | Irlanda-Inglaterra | 21:10 |
+| 1 | Sábado 6 de febrero | Escocia-Italia | 15:10 |
+| 1 | Sábado 6 de febrero | Francia-Gales | 17:40 |
+| 2 | Sábado 13 de febrero | Italia-Irlanda | 15:10 |
+| 2 | Sábado 13 de febrero | Escocia-Gales | 17:40 |
+| 2 | Domingo 14 de febrero | Inglaterra-Francia | 16:10 |
+| 3 | Sábado 20 de febrero | Gales-Irlanda | 15:10 |
+| 3 | Sábado 20 de febrero | Inglaterra-Italia | 17:40 |
+| 3 | Domingo 21 de febrero | Francia-Escocia | 16:10 |
+| 4 | Viernes 5 de marzo | Escocia-Irlanda | 21:10 |
+| 4 | Sábado 6 de marzo | Italia-Francia | 15:10 |
+| 4 | Sábado 6 de marzo | Gales-Inglaterra | 17:40 |
+| 5 | Sábado 13 de marzo | Italia-Gales | 15:10 |
+| 5 | Sábado 13 de marzo | Inglaterra-Escocia | 17:40 |
+| 5 | Sábado 13 de marzo | Irlanda-Francia | 21:10 |
+
+Las horas salen de [los horarios confirmados](https://www.ruck.co.uk/rugby-news/2027-six-nations-fixtures-and-kick-off-times-confirmed-with-100-days-to-go) a cien días del torneo, una hora más que en Reino Unido e Irlanda. Solo hay un fin de semana de descanso, el 27 y 28 de febrero, tras la tercera jornada. El calendario completo con sedes está en [la ficha del torneo](https://en.wikipedia.org/wiki/2027_Six_Nations_Championship).
+
+## Qué plan te conviene
+
+- **Si sigues a una selección:** con el plan Libre puedes quedarte sin su partido si Movistar lo programa en Deportes por M+. Ese canal solo llega con Deportes Total.
+- **Si solo quieres los partidos destacados:** el plan Libre. Movistar decide en cada jornada qué partido va por cada canal, así que conviene mirar su programación la semana del partido.
+- **Si ya pagas Deportes Total:** tienes además la Champions Cup, el Top 14 y la Premiership, que siguen durante el torneo.
+
+El plan Libre es una suscripción en streaming: funciona con cualquier compañía de internet, admite dos reproducciones a la vez y se ve en la app de Movistar Plus+ en el móvil, la tableta o la tele. De viaje por la Unión Europea, la normativa de portabilidad permite usar la suscripción española.
+
+## Francia defiende el título
+
+Francia ganó en 2026 su segundo Seis Naciones seguido, con 21 puntos, dos más que Irlanda. Lo cerró el 14 de marzo con un 48-46 a Inglaterra en París, decidido con un golpe de castigo de Thomas Ramos en la última jugada. Escocia fue tercera e Italia, cuarta. Gales acabó última por tercer año seguido.
+
+La edición de 2027 tiene un añadido: es el último torneo antes del Mundial de Australia, que empieza el 1 de octubre.
+
+## España juega su propio torneo
+
+España no está en el Seis Naciones. A la vez juega el Rugby Europe Championship, el torneo del segundo nivel europeo, en el grupo B con Portugal, Países Bajos y Suiza. Debuta en Ámsterdam ante Países Bajos el sábado 6 de febrero a las 12:30. Recibe a Suiza en Madrid el domingo 14 a las 12:30 y visita a Portugal el domingo 21 a las 18:30, [según Rugby Europe](https://www.rugbyeurope.eu/news/2027-men-s-championship-fixtures-announced). Las semifinales son el 6 y 7 de marzo y la final, el 14 de marzo en Bucarest. No hay emisión anunciada.
+
+Clasificación y resultados, en la [página del Seis Naciones](/rugby/seis-naciones). El resto del calendario de selecciones y clubes, en la [guía del rugby en España](/noticias/donde-ver-rugby-espana-2026-27-seis-naciones-mundial-champions-cup-ligas).`,
+    category: 'general',
+    competition: {"name":"Seis Naciones","sport":"rugby","slug":"seis-naciones"},
+    sourceName: "Mundoplus",
+    sourceUrl: "https://www.mundoplus.tv/deportes/arranca-el-seis-naciones-de-rugby-2026-disponible-para-todos-los-clientes-de-movistar-plus/",
+    sourceLang: 'es',
+    publishedAt: '2026-11-04T16:24:32+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/2026_Six_Nations_Wales_vs_France_20260215_163243.jpg/1280px-2026_Six_Nations_Wales_vs_France_20260215_163243.jpg",
+      alt: "Un ruck junto a los palos en el Principality Stadium de Cardiff durante el Gales-Francia del Seis Naciones 2026, con fotógrafos a pie de campo y la grada llena",
+      credit: "Bearas · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+    sourcesSecondary: [
+      { name: "Ruck: horarios del Seis Naciones 2027", url: "https://www.ruck.co.uk/rugby-news/2027-six-nations-fixtures-and-kick-off-times-confirmed-with-100-days-to-go" },
+      { name: "Wikipedia: Seis Naciones 2027", url: "https://en.wikipedia.org/wiki/2027_Six_Nations_Championship" },
+      { name: "Rugby Europe: calendario 2027", url: "https://www.rugbyeurope.eu/news/2027-men-s-championship-fixtures-announced" },
+      { name: "Movistar Plus+: oferta de rugby", url: "https://www.movistarplus.es/comunicacion/notas-de-prensa/las-mejores-selecciones-del-rugby-mundial-inauguran-el-nations-championship-en-exclusiva-en-movistar-plus/" },
+    ],
+  },
+  {
+    slug: 'donde-ver-rugby-espana-2026-27-seis-naciones-mundial-champions-cup-ligas',
+    title: "El rugby en España en 2026-27: dónde ver el Mundial, el Seis Naciones y las ligas",
+    summary: "Qué rugby se puede ver en España esta temporada y cuánto cuesta: el Seis Naciones, la Champions Cup, el Top 14, la Premiership, las ventanas de noviembre, la selección y el Mundial de Australia 2027, más la única gran liga que no tiene cadena.",
+    body: `Casi todo el rugby que se emite en España está en [Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Frugby%2Fdonde-ver): el Seis Naciones, la Champions Cup, el Top 14, la Premiership, el Nations Championship de noviembre, los partidos de la selección y la liga española. También tiene el Mundial de Australia 2027. Su plan Libre, de 9,99 €/mes y sin permanencia, da los partidos destacados; para verlo todo hace falta una tarifa miMovistar con el paquete Deportes Total. La United Rugby Championship no tiene cadena en España, y no hay rugby en abierto anunciado.
+
+*Esta guía incluye enlaces de afiliado a plataformas de televisión. Si contratas desde ellos, Mundiales recibe una comisión sin coste extra para ti. No cambia lo que contamos.*
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| [Movistar Plus+ Plan Libre](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Frugby%2Fdonde-ver) | Los partidos destacados de cada torneo en los canales Movistar Plus+ y Vamos: la selección, el Nations Championship y un partido de División de Honor por jornada | 9,99 €/mes, sin permanencia |
+| [Movistar Plus+ con Deportes Total](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Frugby%2Fdonde-ver) | Todo el rugby de Movistar, también lo que va en los canales Deportes por M+: Champions Cup, Top 14, Premiership | 29 €/mes del paquete, sobre el básico de 14 €/mes de una tarifa miMovistar con fibra y móvil |
+| URC TV | La United Rugby Championship | Pase de temporada de 59,99 €; comprueba que está disponible en España |
+
+La lista de competiciones sale de [la nota de Movistar de julio](https://www.movistarplus.es/comunicacion/notas-de-prensa/las-mejores-selecciones-del-rugby-mundial-inauguran-el-nations-championship-en-exclusiva-en-movistar-plus/) y de [la guía de Roams](https://roams.es/companias-telefonicas/movistar/guias/television/rugby/), actualizada en septiembre. El paquete Deportes Total pasó de 24 a 29 €/mes el 9 de marzo.
+
+## Noviembre: el primer Nations Championship
+
+Las ventanas de test de otoño han cambiado de nombre y de formato. World Rugby estrena el Nations Championship: las seis selecciones del Seis Naciones contra Nueva Zelanda, Sudáfrica, Australia, Argentina, Fiyi y Japón. Se jugaron tres jornadas en julio y quedan tres en noviembre, los fines de semana del 6, el 13 y el 21. El cierre es en Twickenham del 27 al 29, con una final entre el primero de cada hemisferio el domingo 29.
+
+Movistar lo emite en exclusiva. En su [calendario de rugby](https://www.movistarplus.es/deportes/rugby/donde-ver) del plan Libre figuran Irlanda-Argentina (viernes 6, 21:00), Francia-Sudáfrica (viernes 13, 21:00), Inglaterra-Nueva Zelanda (sábado 21, 15:00) y la final (domingo 29, 17:30). Son horas de inicio de la emisión.
+
+España no está en ese grupo. Juega la Nations Cup, la competición del segundo escalón, con tres partidos en casa:
+
+| Partido | Fecha y hora | Estadio |
+| --- | --- | --- |
+| España-Uruguay | Sábado 7 de noviembre, 16:00 | Estadio Nacional Complutense, Madrid |
+| España-Chile | Sábado 14 de noviembre, 17:00 | Butarque, Leganés |
+| España-Samoa | Sábado 21 de noviembre, 17:00 | Ciudad de Málaga |
+
+Las sedes y horas son las que da [la federación](https://ferugby.es/a-la-venta-las-entradas-para-ver-a-los-leones-en-la-nations-cup-en-madrid-y-malaga/). Los tres van en el plan Libre de Movistar.
+
+## Lo que viene en 2027
+
+| Competición | Fechas | Dónde |
+| --- | --- | --- |
+| Champions Cup | Del 11 de diciembre al 22 de mayo, final en Lyon | Movistar Plus+ |
+| Seis Naciones | Del 5 de febrero al 13 de marzo | Movistar Plus+ lo emitió en 2026; 2027, sin anunciar |
+| Rugby Europe Championship, con España | Del 6 de febrero al 14 de marzo | Sin emisión anunciada |
+| Finales de Premiership y URC | 19 de junio | Movistar (Premiership); URC TV (URC) |
+| Final del Top 14 | 26 de junio, Stade de France | Movistar Plus+ |
+| The Rugby Championship | Julio y agosto, fechas sin publicar | Por confirmar |
+| Mundial de Australia | Del 1 de octubre al 13 de noviembre | Movistar Plus+ |
+
+La **Champions Cup** arrancó en octubre con dos partidos de la primera jornada en los canales Deportes por M+, [según la cuenta de rugby de Movistar](https://x.com/MovistarRugby/status/2111783069979934778). Vuelve el fin de semana del 11 de diciembre. El **Mundial** figura a nombre de Movistar en la [lista oficial de cadenas](https://www.rugbyworldcup.com/2027/en/where-to-watch) de World Rugby, para España y Andorra. España está en el grupo C con Fiyi, Argentina y Canadá; sus partidos se juegan de madrugada o a mediodía en hora peninsular. Los detalles, en la [guía del Mundial de rugby](/noticias/donde-ver-mundial-rugby-2027-australia-espana-grupo-horarios-television).
+
+## Las ligas de clubes
+
+El **Top 14** francés y la **Premiership** inglesa están en la oferta de Movistar, dentro de Deportes Total. Toulouse, campeón de las cuatro últimas ligas francesas, vuelve a liderar el Top 14; en Inglaterra manda Leicester tras cinco jornadas. En el Top 14 juegan dos internacionales españoles: Jon Zabala, capitán de la selección, en el Pau, y Oriol Marsinyac en el Toulouse.
+
+La **URC**, con los equipos de Irlanda, Escocia, Gales, Italia y Sudáfrica, es la excepción. Movistar no la incluye y no hemos encontrado otra cadena española. Su plataforma, URC TV, vende pases para los países sin cadena. A sus equipos se les ve en la Champions Cup.
+
+## El rugby español
+
+La federación firmó con Movistar hasta 2027-28: un partido por jornada de la División de Honor y otro de la Liga Iberdrola, las eliminatorias por el título y la semifinal y la final de la Copa del Rey. Este domingo 8 el elegido es CRC Pozuelo-Alcobendas, a las 11:55, en el plan Libre.
+
+Resultados y calendarios, en la [sección de rugby](/rugby) y en las páginas del [Seis Naciones](/rugby/seis-naciones) y el [Top 14](/rugby/top-14). El resto de deportes, en la [guía de dónde ver el deporte en España](/noticias/donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1), y lo que se juega cada día, en [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    competition: {"name":"Seis Naciones","sport":"rugby","slug":"seis-naciones"},
+    sourceName: "Movistar Plus+",
+    sourceUrl: "https://www.movistarplus.es/comunicacion/notas-de-prensa/las-mejores-selecciones-del-rugby-mundial-inauguran-el-nations-championship-en-exclusiva-en-movistar-plus/",
+    sourceLang: 'es',
+    publishedAt: '2026-11-04T16:25:32+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Spain_vs_Portugal_rugby_union_match_in_Santiago_de_Compostela.jpg/1280px-Spain_vs_Portugal_rugby_union_match_in_Santiago_de_Compostela.jpg",
+      alt: "Jugadores de España y Portugal agrupados en el centro del campo del estadio San Lázaro de Santiago de Compostela, en una tarde nublada",
+      credit: "JonnyJonny · Wikimedia Commons",
+      license: "CC BY-SA 3.0",
+    },
+    sourcesSecondary: [
+      { name: "Roams: rugby en Movistar", url: "https://roams.es/companias-telefonicas/movistar/guias/television/rugby/" },
+      { name: "FERugby: partidos de la Nations Cup", url: "https://ferugby.es/a-la-venta-las-entradas-para-ver-a-los-leones-en-la-nations-cup-en-madrid-y-malaga/" },
+      { name: "World Rugby: dónde ver el Mundial 2027", url: "https://www.rugbyworldcup.com/2027/en/where-to-watch" },
+      { name: "FERugby: acuerdo con Movistar Plus+", url: "https://ferugby.es/el-rugby-espanol-celebra-un-acuerdo-historico-movistar-plus-emitira-las-maximas-competiciones-nacionales-durante-las-proximas-3-temporadas/" },
+    ],
+  },
+  {
+    slug: 'donde-ver-liga-argentina-espana-2026-clausura-movistar-fanatiz-afa-play',
+    title: "Dónde ver la Liga Argentina en España: el Clausura 2026, planes, precios y horarios",
+    summary: "Cómo seguir el fútbol argentino desde España en el tramo final del Clausura 2026: la plataforma oficial de la liga, la opción con un partido por jornada, cuánto cuesta cada una, el formato de la fase final y los horarios en hora peninsular.",
+    body: `Toda la Liga Profesional Argentina se puede ver en España con AFA Play, la plataforma oficial de la liga, por 7,99 €/mes a través de Fanatiz. Quien se conforme con el partido grande tiene [Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fliga-argentina): su plan Libre, de 9,99 €/mes sin permanencia, emite un partido por jornada del Clausura 2026. No hay partidos gratis.
+
+*Esta guía incluye enlaces de afiliado a plataformas de televisión. Si contratas desde ellos, Mundiales recibe una comisión sin coste extra para ti. No cambia lo que contamos.*
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| AFA Play (en Fanatiz) | Todos los partidos del Clausura en directo y a la carta, con narración argentina, en inglés o con el sonido del estadio | 7,99 €/mes |
+| Fanatiz, plan Front Row | AFA Play completo más el Brasileirão, salvo el Flamengo como local | 9,99 €/mes |
+| [Movistar Plus+ Libre](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fliga-argentina) | Un partido por jornada, con el resto del fútbol del plan | 9,99 €/mes, sin permanencia |
+
+Los precios de Fanatiz son los que muestra su web en euros desde España. La plataforma ofrece AFA Play y el canal TyC Sports Internacional fuera de América, [según su lista de contenidos por país](https://fanatiz.com/es/blog/contents-available-in-your-country). La oferta de Movistar es la de su [página de la Liga Argentina](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fliga-argentina). AFA Play no incluye la Copa Argentina ni los partidos de la selección.
+
+## Qué opción te conviene
+
+- **Si eres de un club concreto:** AFA Play. Es la única forma de ver cada jornada entera desde España, y guarda los partidos para verlos después, algo útil con estos horarios.
+- **Si también sigues el fútbol brasileño:** el plan Front Row de Fanatiz suma las dos ligas por dos euros más.
+- **Si solo quieres los clásicos:** Movistar Plus+ Libre. Elige el partido de más tirón de cada jornada; el Boca - River de la jornada 15 fue uno de ellos. El plan trae también el Brasileirão, la Libertadores y un partido de LaLiga y otro de Champions por jornada.
+
+Movistar recuperó la liga argentina este verano, con el arranque del Clausura, [según contó Roams](https://roams.es/actualidad/telefonia/movistar-plus-agosto-2026-competiciones-sudamericanas-brasileirao-libertadores/).
+
+## Cómo va el Clausura
+
+El torneo empezó el 23 de julio con 30 equipos repartidos en dos zonas de 15. Al final de la fase regular, los ocho primeros de cada zona pasan a octavos de final. Desde ahí todo es a partido único, hasta la final de diciembre. Instituto lidera la Zona A y Rosario Central, la B, a falta de las últimas fechas.
+
+El campeón gana una plaza en la Libertadores de 2027 y jugará el Trofeo de Campeones contra Belgrano, campeón del Apertura 2026. La liga todavía no ha fijado las fechas ni las sedes de la fase final.
+
+Qué partidos de cada fecha van en Fanatiz y cuál entra en Movistar lo recoge [la agenda de Fútbol en la TV](https://www.futbolenlatv.es/competicion/liga-argentina), que se actualiza jornada a jornada.
+
+## Horarios en hora peninsular
+
+Argentina va cuatro horas por detrás de la España peninsular desde que aquí se atrasó el reloj el 25 de octubre. Los partidos de la tarde argentina, a las 15:00 o a las 17:00, se ven a las 19:00 o a las 21:00 en España. Los nocturnos, a las 19:00 o a las 21:15 allí, empiezan a las 23:00 o a la 1:15 aquí. En Canarias, una hora menos.
+
+## Para seguirla de cerca
+
+Clasificación de las dos zonas, resultados y calendario, en la sección de la [Liga Argentina](/futbol/liga-argentina). El Brasileirão comparte plataformas en España: lo contamos en la [guía de dónde ver el Brasileirão](/noticias/donde-ver-brasileirao-espana-2026-movistar-fanatiz-recta-final), y la Libertadores tiene su propia sección en [Copa Libertadores](/futbol/libertadores).`,
+    category: 'general',
+    competition: {"name":"Liga Profesional Argentina","sport":"futbol","slug":"liga-argentina"},
+    sourceName: "Fanatiz",
+    sourceUrl: "https://fanatiz.com/es/blog/contents-available-in-your-country",
+    sourceLang: 'es',
+    publishedAt: '2026-11-04T16:26:32+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Estadio_Tom%C3%A1s_Adolfo_Duc%C3%B3.jpg/1280px-Estadio_Tom%C3%A1s_Adolfo_Duc%C3%B3.jpg",
+      alt: "El estadio Tomás Adolfo Ducó de Buenos Aires, con una tribuna llena de aficionados y otra de gradas rojas y blancas vacía, antes de un partido",
+      credit: "Furnarius · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+    sourcesSecondary: [
+      { name: "Movistar Plus+: Liga Argentina", url: "https://www.movistarplus.es/deportes/futbol/liga-argentina" },
+      { name: "Roams: Movistar Plus y el fútbol sudamericano", url: "https://roams.es/actualidad/telefonia/movistar-plus-agosto-2026-competiciones-sudamericanas-brasileirao-libertadores/" },
+      { name: "Fútbol en la TV: Liga Argentina", url: "https://www.futbolenlatv.es/competicion/liga-argentina" },
+      { name: "Wikipedia: Torneo Clausura 2026", url: "https://es.wikipedia.org/wiki/Anexo:Torneo_Clausura_2026_(Argentina)" },
+    ],
+  },
+  {
+    slug: 'donde-ver-brasileirao-espana-2026-movistar-fanatiz-recta-final',
+    title: "El Brasileirão 2026 en España: dónde ver la recta final, partidos por jornada y precios",
+    summary: "Cómo ver el Brasileirão en España en el cierre de la temporada 2026: qué plataformas lo emiten, cuántos partidos da cada una, qué se ve gratis, la pelea entre Flamengo y Palmeiras y a qué hora se juega en España.",
+    body: `El Brasileirão 2026 se ve en España en dos sitios. [Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fbrasileirao) emite dos partidos por jornada en su plan Libre, de 9,99 €/mes sin permanencia. Fanatiz, una plataforma de fútbol sudamericano, ofrece casi todo el campeonato por 9,99 €/mes. Los partidos del Flamengo como local se emiten gratis en su canal de YouTube.
+
+*Esta guía incluye enlaces de afiliado a plataformas de televisión. Si contratas desde ellos, Mundiales recibe una comisión sin coste extra para ti. No cambia lo que contamos.*
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| [Movistar Plus+ Libre](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fbrasileirao) | Dos partidos por jornada, en los canales Vamos y Liga de Campeones por M+ | 9,99 €/mes, sin permanencia |
+| Fanatiz, plan Front Row | Todo el Brasileirão salvo el Flamengo en casa, más la liga argentina completa | 9,99 €/mes |
+| Flamengo TV (YouTube) | Los partidos del Flamengo como local | Gratis |
+
+La [página del Brasileirão en Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fbrasileirao) anuncia dos partidos por jornada, y [Mundoplus detalló](https://www.mundoplus.tv/deportes/el-mejor-futbol-sudamericano-vuelve-a-movistar-plus-con-el-brasileirao-la-liga-argentina-y-la-copa-sudamericana/) en julio los canales en que se emiten. La oferta de Fanatiz aparece en euros en su web desde España. [Su centro de ayuda](https://helpcenter.fanatiz.com/es/articles/6702993-puedo-ver-la-liga-de-brasil-en-fanatiz) aclara que el campeonato se ofrece en todo el mundo salvo en Brasil y sin los partidos del Flamengo como local.
+
+## Qué opción te conviene
+
+- **Si quieres lo más destacado, en español y en la tele:** Movistar Plus+ Libre. Elige los dos partidos de más tirón de cada jornada. El mismo plan trae la liga argentina, la Libertadores, la Champions y un partido de LaLiga por jornada.
+- **Si sigues a un equipo:** Fanatiz, que emite casi toda la jornada. Su plan Front Row incluye también toda la liga argentina; la narración suele ser en portugués o inglés.
+- **Si eres del Flamengo:** sus partidos en casa no están en Fanatiz. Van en Flamengo TV, el canal del club en YouTube; los de fuera, en Fanatiz o, si Movistar los elige, en Movistar Plus+.
+
+## La recta final: Flamengo contra Palmeiras
+
+Quedan cinco jornadas y el campeonato termina el 2 de diciembre. Tras la 33.ª, el Flamengo es líder con 73 puntos, tres más que el Palmeiras. El Cruzeiro, tercero, tiene 57. Los cinco primeros van directos a la Libertadores de 2027 y los cuatro últimos bajan a la Serie B. Ahora ocupan esos puestos el Corinthians, con 36 puntos, el Internacional, con 35, el Remo y el Chapecoense.
+
+Este es el arranque de la jornada 34, en hora peninsular, según [la agenda de Fútbol en la TV](https://www.futbolenlatv.es/competicion/brasileirao):
+
+| Día | Hora | Partido | Dónde |
+| --- | --- | --- | --- |
+| Miércoles 4 | 23:30 | Athletico Paranaense - Vasco da Gama | Movistar Plus+ y Fanatiz |
+| Miércoles 4 | 23:30 | Flamengo - Grêmio | Flamengo TV (YouTube) |
+| Jueves 5 | 1:30 | São Paulo - Corinthians | Fanatiz |
+| Jueves 5 | 23:30 | Palmeiras - Remo | Movistar Plus+ y Fanatiz |
+
+## Españoles en Brasil
+
+Saúl Ñíguez juega en el Flamengo, el líder, y Aitor Cantalapiedra, en el Vitória. Los dos aparecen en las plantillas de esta temporada.
+
+## Horarios: noche y madrugada
+
+Brasilia va cuatro horas por detrás de la España peninsular desde el 25 de octubre. Los partidos entre semana empiezan a las 19:30 o a las 21:30 allí, es decir, a las 23:30 o a la 1:30 aquí. Los fines de semana hay partidos desde las 16:00 de Brasil, que en España son las 20:00, y otros que acaban pasada la medianoche.
+
+## Más fútbol brasileño
+
+La clasificación completa, los resultados y el calendario están en la sección del [Brasileirão](/futbol/brasileirao). La liga argentina comparte plataformas con la brasileña en España: lo explicamos en la [guía de dónde ver la Liga Argentina](/noticias/donde-ver-liga-argentina-espana-2026-clausura-movistar-fanatiz-afa-play). Y para todo lo que se juega cada día, [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    competition: {"name":"Brasileirão","sport":"futbol","slug":"brasileirao"},
+    sourceName: "Movistar Plus+",
+    sourceUrl: "https://www.movistarplus.es/deportes/futbol/brasileirao",
+    sourceLang: 'es',
+    publishedAt: '2026-11-04T16:27:32+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Torcida_alvinegra_na_partida_Botafogo_4_x_1_Coritiba_-_Brasileir%C3%A3o_2023.jpg/1280px-Torcida_alvinegra_na_partida_Botafogo_4_x_1_Coritiba_-_Brasileir%C3%A3o_2023.jpg",
+      alt: "Aficionados del Botafogo agitan banderas blancas y grises entre bengalas en la grada del estadio Nilton Santos de Río de Janeiro",
+      credit: "Phill ad · Wikimedia Commons",
+      license: "CC BY 4.0",
+    },
+    sourcesSecondary: [
+      { name: "Mundoplus: el fútbol sudamericano vuelve a Movistar Plus", url: "https://www.mundoplus.tv/deportes/el-mejor-futbol-sudamericano-vuelve-a-movistar-plus-con-el-brasileirao-la-liga-argentina-y-la-copa-sudamericana/" },
+      { name: "Fanatiz: la liga de Brasil", url: "https://helpcenter.fanatiz.com/es/articles/6702993-puedo-ver-la-liga-de-brasil-en-fanatiz" },
+      { name: "Fútbol en la TV: Brasileirão", url: "https://www.futbolenlatv.es/competicion/brasileirao" },
+      { name: "Roams: Movistar Plus y el fútbol sudamericano", url: "https://roams.es/actualidad/telefonia/movistar-plus-agosto-2026-competiciones-sudamericanas-brasileirao-libertadores/" },
+    ],
+  },
+  {
+    slug: 'donde-ver-liga-mx-espana-apertura-2026-liguilla-derechos-horarios',
+    title: "La Liga MX desde España: qué opciones hay para seguir el Apertura 2026 y la liguilla",
+    summary: "Seguir la Liga MX en España en el Apertura 2026 es complicado: los derechos están troceados en México y aquí nadie los ha comprado. Qué opciones quedan, cómo va la tabla, cómo funciona la liguilla y a qué hora se juega.",
+    body: `Ninguna televisión ni plataforma tiene en España los derechos de la Liga MX para el Apertura 2026. ViX, el servicio de TelevisaUnivision que emite buena parte del torneo en México, no funciona desde España. Las guías de programación solo recogen algún partido suelto en pago por evento: el Chivas - Cruz Azul de la última jornada, en OneFootball. No hay nada gratis.
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| Plataformas de pago en España | Nada: ninguna ha comprado la Liga MX | — |
+| OneFootball, pago por evento | Partidos sueltos; anunciado el Chivas - Cruz Azul del 22 de noviembre | Precio por partido, en la app |
+| ViX | No disponible en España | — |
+| Televisión en abierto | Nada | — |
+
+[La agenda de Fútbol en la TV](https://www.futbolenlatv.es/competicion/liga-mexico) solo tiene un partido de la Liga MX programado para España: el Chivas - Cruz Azul, el lunes 23 de noviembre a las 0:07, en OneFootball. Si se entra en ViX desde España, la web redirige a un aviso de que el servicio no está disponible en el país.
+
+## Por qué es tan difícil verla
+
+En México la Liga MX no se vende en bloque. Cada club negocia sus derechos. El torneo se reparte entre TUDN y ViX, TV Azteca, FOX, ESPN y Disney+, Claro Sports y Prime Video, que tiene en exclusiva los partidos de Chivas como local. [Excélsior lo resume](https://www.excelsior.com.mx/deportes/liga-mx-donde-ver-partidos-apertura-2026) para el Apertura 2026. Con tantos dueños, nadie ha reunido un paquete para venderlo en España.
+
+Desde aquí, lo más realista es seguir los resúmenes que publican los clubes y los canales mexicanos en sus redes. Y estar atento a los partidos sueltos de pago.
+
+## Lo que queda del Apertura 2026
+
+El torneo empezó el 16 de julio y tiene 17 jornadas. Tras la 15.ª, jugada del 30 de octubre al 1 de noviembre, la tabla está así, [según la ficha del torneo](https://es.wikipedia.org/wiki/Torneo_Apertura_2026_(M%C3%A9xico)):
+
+| Puesto | Equipo | Puntos |
+| --- | --- | --- |
+| 1 | América | 29 |
+| 2 | Guadalajara | 29 |
+| 3 | Cruz Azul | 29 |
+| 4 | Atlas | 27 |
+| 5 | Toluca | 24 |
+| 6 | Tijuana | 22 |
+| 7 | León | 22 |
+| 8 | Santos Laguna | 22 |
+
+Quedan dos jornadas: la 16.ª, del 6 al 8 de noviembre, y la 17.ª, del 20 al 22, tras el parón de selecciones. Este torneo ya no tiene play-in: los ocho primeros pasan directamente a la liguilla.
+
+## Cómo funciona la liguilla
+
+Los cuartos enfrentan al 1.º con el 8.º, al 2.º con el 7.º, al 3.º con el 6.º y al 4.º con el 5.º, a ida y vuelta. Si hay empate en el global, pasa el mejor clasificado. Las semifinales siguen el mismo sistema, y la final, también a doble partido, se juega en diciembre. Solo en la final hay prórroga y penaltis. La liga aún no ha publicado las fechas exactas de cada ronda.
+
+## Horarios: la Liga MX, de madrugada
+
+Ciudad de México va siete horas por detrás de la España peninsular desde el cambio de hora del 25 de octubre. Un partido a las 19:00 allí empieza a las 2:00 aquí; uno a las 21:00, a las 4:00. La mejor franja para España es el domingo a mediodía, la preferida de clubes como Pumas. Un partido a las 12:00 en México se ve a las 19:00 aquí.
+
+Entre los futbolistas españoles del torneo está Óliver Torres, centrocampista del Monterrey y uno de los máximos asistentes del Apertura.
+
+## Seguir la Liga MX desde aquí
+
+La clasificación, los resultados y el calendario con hora española están en la sección de la [Liga MX](/futbol/liga-mx). La MLS, en cambio, sí tiene una vía sencilla para verse en España: lo contamos en la [guía de dónde ver la MLS](/noticias/donde-ver-mls-espana-2026-apple-tv-playoffs-mls-cup-precio-horarios).`,
+    category: 'general',
+    competition: {"name":"Liga MX","sport":"futbol","slug":"liga-mx"},
+    sourceName: "Fútbol en la TV",
+    sourceUrl: "https://www.futbolenlatv.es/competicion/liga-mexico",
+    sourceLang: 'es',
+    publishedAt: '2026-11-04T16:28:32+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Puebla_FC_vs_Le%C3%B3n_FC.jpg/1280px-Puebla_FC_vs_Le%C3%B3n_FC.jpg",
+      alt: "El estadio Cuauhtémoc de Puebla, con la grada llena bajo una gran visera, durante un partido de la liga mexicana a pleno sol",
+      credit: "Irosasr · Wikimedia Commons",
+      license: "CC BY 3.0",
+    },
+    sourcesSecondary: [
+      { name: "Excélsior: dónde ver el Apertura 2026", url: "https://www.excelsior.com.mx/deportes/liga-mx-donde-ver-partidos-apertura-2026" },
+      { name: "Wikipedia: Torneo Apertura 2026", url: "https://es.wikipedia.org/wiki/Torneo_Apertura_2026_(M%C3%A9xico)" },
+      { name: "ViX: aviso de no disponibilidad en España", url: "https://assets.vix.com/geo_spain.html" },
+    ],
+  },
+  {
+    slug: 'donde-ver-mls-espana-2026-apple-tv-playoffs-mls-cup-precio-horarios',
+    title: "Cómo ver la MLS en España: playoffs de 2026, MLS Cup, precio y horarios de madrugada",
+    summary: "La MLS cambió en 2026 su forma de verse fuera de Estados Unidos: ya no hay pase de temporada aparte. Qué hace falta en España, cuánto cuesta, el calendario de los playoffs hasta la MLS Cup del 18 de diciembre y a qué hora se juega.",
+    body: `La MLS se ve entera en España con una suscripción a Apple TV: 9,99 €/mes después de siete días de prueba. Desde 2026 no hace falta el MLS Season Pass, el complemento que se pagaba aparte hasta 2025. Entran la fase regular, los playoffs y la MLS Cup del 18 de diciembre. No hay partidos en abierto en la televisión española.
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| Apple TV | Todos los partidos de la MLS, playoffs y MLS Cup incluidos, más las series y películas de Apple | 9,99 €/mes, con 7 días de prueba |
+| Apple One Individual | Apple TV junto a Apple Music, Apple Arcade y 50 GB de iCloud+ | 19,95 €/mes |
+| Televisión en abierto o de pago tradicional | Nada | — |
+
+El precio de Apple TV es el que muestra [la página de la MLS en Apple TV](https://tv.apple.com/es/channel/mls/tvs.sbd.7000) para España. En Estados Unidos Apple lo ha vuelto a subir, pero en España sigue en 9,99 euros, [según Roams](https://roams.es/actualidad/telefonia/apple-sube-precio-cuarta-vez-cuatro-anos-eeuu-espana-fecha/), que no ve fecha para una subida aquí.
+
+## Qué cambió en 2026
+
+Apple y la MLS firmaron en 2022 un contrato para emitir la liga en todo el mundo a través de su plataforma. Hasta 2025, ver la MLS exigía pagar Apple TV y, encima, el Season Pass. [La nota conjunta de la liga y Apple](https://www.mlssoccer.com/news/todos-los-partidos-de-la-major-league-soccer-se-transmitiran-en-apple-tv-a-partir-de-2026) del 13 de noviembre de 2025 eliminó ese peaje. Todos los partidos pasaron a la suscripción normal, en más de 100 países y regiones.
+
+Para quien ya pagaba Apple TV por sus series, la MLS es ahora gratis. Para quien solo quiere el fútbol, ver la liga sale más barato que el año pasado. Los partidos se ofrecen con narración en inglés y en español.
+
+## Calendario de los playoffs
+
+La fase regular termina el sábado 7 de noviembre con el Decision Day: todos los partidos de cada conferencia a la vez, los del Este a las 22:00 y los del Oeste a la 1:00 de la madrugada del domingo, hora peninsular. Después llegan los playoffs, [según el calendario oficial](https://www.mlssoccer.com/news/major-league-soccer-announces-audi-2026-mls-cup-playoffs-schedule):
+
+| Ronda | Fechas (en Estados Unidos) |
+| --- | --- |
+| Wild card, a partido único | Miércoles 18 de noviembre |
+| Primera ronda, al mejor de tres | 20-24 de noviembre, 27-28 de noviembre y, si hace falta, 1-2 de diciembre |
+| Semifinales de conferencia | 5 y 6 de diciembre |
+| Finales de conferencia | 11 y 12 de diciembre |
+| MLS Cup | Viernes 18 de diciembre |
+
+La MLS Cup se juega en horario de máxima audiencia estadounidense, así que en España cae en la madrugada del viernes al sábado 19. La hora exacta aún no está fijada. Todo va en Apple TV.
+
+## Quién llega y a quién seguir
+
+El Nashville SC llega a la última jornada como líder del Este, con 15 puntos de ventaja sobre el Inter Miami de Leo Messi, campeón vigente. En el Oeste manda el Vancouver Whitecaps. Ambos tienen plaza en los playoffs, igual que el New England Revolution de Carles Gil, su capitán. Otro español, Ilie Sánchez, lleva el brazalete del Austin FC.
+
+## Horarios: casi todo de madrugada
+
+Desde el 1 de noviembre, la costa este de Estados Unidos va seis horas por detrás de la España peninsular, y la oeste, nueve. La MLS suele empezar sus partidos a las 19:30 hora local. En España eso es la 1:30 de la madrugada para los equipos del Este y las 4:30 para los de la costa del Pacífico. Los partidos de tarde del fin de semana, más escasos, caen entre las 22:00 y la medianoche. Como todos quedan grabados en la app, lo más práctico es verlos a la mañana siguiente.
+
+## Cómo verla
+
+La app de Apple TV funciona en iPhone, iPad y Mac. También en televisores Samsung, LG y otros con Google TV, en consolas PlayStation y Xbox, en Fire TV y en el navegador (tv.apple.com). No hace falta tener un dispositivo de Apple, solo una cuenta.
+
+Clasificación por conferencias, resultados y calendario, en la sección de la [MLS](/futbol/mls). Lo que se juega hoy, con hora y canal, está en [partidos de hoy](/partidos-hoy). El reparto del resto del deporte, en la [guía de dónde ver el deporte en España](/noticias/donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1).`,
+    category: 'general',
+    competition: {"name":"MLS","sport":"futbol","slug":"mls"},
+    sourceName: "Major League Soccer",
+    sourceUrl: "https://www.mlssoccer.com/news/todos-los-partidos-de-la-major-league-soccer-se-transmitiran-en-apple-tv-a-partir-de-2026",
+    sourceLang: 'es',
+    publishedAt: '2026-11-04T16:29:32+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Seattle_Sounders_FC_vs._Real_Salt_Lake_-_2021_MLS_Cup_Playoffs_at_Lumen_Field.jpg/1280px-Seattle_Sounders_FC_vs._Real_Salt_Lake_-_2021_MLS_Cup_Playoffs_at_Lumen_Field.jpg",
+      alt: "Vista nocturna desde la grada del Lumen Field de Seattle, lleno de aficionados abrigados, durante un partido de playoffs de la MLS",
+      credit: "SounderBruce · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+    sourcesSecondary: [
+      { name: "Apple TV: MLS en España", url: "https://tv.apple.com/es/channel/mls/tvs.sbd.7000" },
+      { name: "MLS: calendario de playoffs 2026", url: "https://www.mlssoccer.com/news/major-league-soccer-announces-audi-2026-mls-cup-playoffs-schedule" },
+      { name: "Roams: precio de Apple TV en España", url: "https://roams.es/actualidad/telefonia/apple-sube-precio-cuarta-vez-cuatro-anos-eeuu-espana-fecha/" },
+      { name: "ESPN: fin del Season Pass", url: "https://www.espn.com/soccer/story/_/id/46954801/mls-apple-tv-scrapping-season-pass-26-season-sources" },
+    ],
+  },
+  {
+    slug: 'donde-ver-copa-de-francia-espana-2026-27-derechos-calendario-treintaidosavos',
+    title: "Copa de Francia 2026-27: dónde verla en España, derechos, calendario y lo que se sabe",
+    summary: "La Coupe de France 2026-27 sigue sin emisor en España a principios de noviembre. Qué se sabe de sus derechos, quién la emite en Francia, cuándo entran el PSG y el resto de la Ligue 1 y el calendario hasta la final del 15 de mayo.",
+    body: `La Copa de Francia 2026-27 no tiene televisión en España a 2 de noviembre. Ninguna plataforma española ha anunciado sus derechos, y ni Movistar Plus+ ni DAZN la incluyen en su oferta de fútbol. En Francia la emite beIN Sports, que no opera en España. Los grandes de la Ligue 1 entran en el torneo el fin de semana del 19 y 20 de diciembre.
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| Plataformas de pago en España | Nada anunciado para 2026-27 | — |
+| Televisión en abierto en España | Nada anunciado | — |
+| beIN Sports (solo en Francia) | Todos los partidos desde los treintaidosavos | Solo se contrata en Francia |
+
+[La oferta de beIN para 2026-27](https://beinregie.beinsports.com/offres/coupe-de-france-2026-2027/) dice que emite íntegros los partidos desde los treintaidosavos de final. France Télévisions, que daba partidos en abierto, se quedó sin acuerdo para esta temporada. [Le Petit Lillois contaba en junio](https://lepetitlillois.com/2026/06/08/droits-tv-coupe-france-sans-diffuseur/) que no podía pasar de 4,5 millones de euros, frente a los 8 que pagaba antes.
+
+## Por qué todavía no hay nada
+
+La Copa de Francia es un torneo abierto: empieza en verano con miles de clubes aficionados y los profesionales se suman tarde. Hasta diciembre solo juegan equipos de Ligue 2 y de categorías inferiores. El interés fuera de Francia llega con la entrada del PSG, el Marsella o el Lens. Por eso conviene volver a comprobarlo a mediados de diciembre, antes de los treintaidosavos.
+
+En las guías de programación españolas, como la de Fútbol en la TV, no figura ningún partido de la Copa francesa programado. La Ligue 1, en cambio, sí se ve en España: DAZN la ofrece completa, según su oferta de esta temporada.
+
+## Calendario de lo que queda
+
+| Ronda | Fechas |
+| --- | --- |
+| Séptima ronda | 14 y 15 de noviembre de 2026 |
+| Octava ronda | 28 y 29 de noviembre de 2026 |
+| Treintaidosavos, con los equipos de Ligue 1 | 19 y 20 de diciembre de 2026 |
+| Dieciseisavos | 9 y 10 de enero de 2027 |
+| Octavos | 3 de febrero de 2027 |
+| Cuartos | 3 de marzo de 2027 |
+| Semifinales | 21 de abril de 2027 |
+| Final | 15 de mayo de 2027 |
+
+El vigente campeón es el Lens, que ganó su primera Copa el 22 de mayo de 2026: 3-1 al Niza en el Stade de France.
+
+## Horarios y formato
+
+Francia y la España peninsular tienen la misma hora. Los partidos de fin de semana suelen ir por la tarde y los de entre semana, de cuartos en adelante, a las 21:00. Todas las rondas son a partido único, y el club que está dos o más categorías por debajo de su rival juega en casa. Así salen los cruces de un club aficionado contra un grande en un campo de pueblo, la seña de identidad del torneo.
+
+## Seguir la Copa francesa
+
+Los resultados de cada ronda y los cruces están en la sección de la [Copa de Francia](/futbol/copa-de-francia), y la liga, en la de la [Ligue 1](/futbol/ligue-1). Actualizaremos esta guía si alguna plataforma anuncia los derechos en España. Mientras, el resto del fútbol del día, con su canal, está en [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    competition: {"name":"Copa de Francia","sport":"futbol","slug":"copa-de-francia"},
+    sourceName: "beIN Sports",
+    sourceUrl: "https://beinregie.beinsports.com/offres/coupe-de-france-2026-2027/",
+    sourceLang: 'es',
+    publishedAt: '2026-11-04T16:30:32+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Match_Football_Paris_FC_x_Olympique_Lyonnais_-_Stade_Charl%C3%A9ty_-_Paris_XIII_%28FR75%29_-_2021-12-17_-_10.jpg/1280px-Match_Football_Paris_FC_x_Olympique_Lyonnais_-_Stade_Charl%C3%A9ty_-_Paris_XIII_%28FR75%29_-_2021-12-17_-_10.jpg",
+      alt: "Un cámara de televisión graba desde la pista de atletismo un partido nocturno de Copa en el estadio Charléty de París, con la grada al fondo",
+      credit: "Chabe01 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+    sourcesSecondary: [
+      { name: "Le Petit Lillois: derechos de la Copa de Francia", url: "https://lepetitlillois.com/2026/06/08/droits-tv-coupe-france-sans-diffuseur/" },
+      { name: "Wikipedia: Coupe de France 2026-27", url: "https://en.wikipedia.org/wiki/2026%E2%80%9327_Coupe_de_France" },
+      { name: "Fútbol por la tele: el fútbol en DAZN", url: "https://futbolporlatele.com/donde-ver-futbol-dazn/" },
+      { name: "Movistar Plus+: fútbol", url: "https://www.movistarplus.es/deportes/futbol" },
+    ],
+  },
+  {
+    slug: 'donde-ver-copa-alemania-dfb-pokal-espana-2026-27-movistar-dfb-play-octavos',
+    title: "La Copa de Alemania 2026-27 en España: qué partidos se emiten y cómo ver los octavos",
+    summary: "Cómo ver la DFB-Pokal en España: qué partidos emite el plan más barato de una plataforma de pago, qué ofrece gratis la app de la federación alemana, los cruces de octavos del 1 y 2 de diciembre y el calendario hasta la final de Berlín.",
+    body: `La Copa de Alemania 2026-27 se ve en España por dos vías. [Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol-internacional%2Fcopa-de-alemania-26-27%2Fficha%3Ftipo%3DE%26id%3D4383387) la incluye en su plan Libre, de 9,99 €/mes sin permanencia, aunque solo con una selección de partidos: de la segunda ronda emitió cuatro. La otra es DFB Play, la plataforma de la federación alemana, que cuelga partidos completos y resúmenes en una app gratuita con registro.
+
+*Esta guía incluye enlaces de afiliado a plataformas de televisión. Si contratas desde ellos, Mundiales recibe una comisión sin coste extra para ti. No cambia lo que contamos.*
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| [Movistar Plus+ Libre](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol-internacional%2Fcopa-de-alemania-26-27%2Fficha%3Ftipo%3DE%26id%3D4383387) | Una selección de partidos por ronda; en la segunda, Bayern - Magdeburgo, Dortmund - Werder Bremen, Hamburgo - Eintracht y Friburgo - Wolfsburgo | 9,99 €/mes, sin permanencia |
+| DFB Play | Partidos completos de la Copa, resúmenes de cada ronda y la Copa femenina, en alemán o inglés | App gratuita; pide iniciar sesión para ver los vídeos |
+
+La [ficha de la Copa de Alemania en Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol-internacional%2Fcopa-de-alemania-26-27%2Fficha%3Ftipo%3DE%26id%3D4383387) recoge los cuatro partidos de la segunda ronda y los da como incluidos en el plan Libre. A 2 de noviembre, DFB Play ofrece desde España el Bayern - Magdeburgo íntegro y los resúmenes de la ronda. [La guía de 365Scores](https://www.365scores.com/es/news/transmision-bayern-vs-magdeburg-mirar/) ya lo señalaba como la vía de streaming en España para ese partido.
+
+## Qué opción te conviene
+
+- **Si quieres el partido grande con narración en español:** Movistar Plus+ Libre. Elige los cruces con más tirón, normalmente los de Bayern y Dortmund. El mismo plan trae un partido de Champions, otro de Europa League y otro de LaLiga por jornada.
+- **Si sigues a un equipo concreto:** DFB Play es la opción que más partidos cuelga. No hay garantía de que cada encuentro esté disponible en España. Los derechos de la app cambian según el país.
+- **Si solo quieres los goles:** el resumen oficial de cada ronda está en DFB Play sin pagar nada.
+
+Ninguna cadena en abierto de España emite la Copa alemana. DAZN tiene la Bundesliga entera, pero la Copa no forma parte de su oferta.
+
+## Octavos de final: los ocho cruces
+
+El sorteo se hizo el domingo 1 de noviembre en el Museo del Fútbol Alemán de Dortmund. Los octavos se juegan el martes 1 y el miércoles 2 de diciembre, a partido único, [según Sportschau](https://www.sportschau.de/fussball/dfbpokal/jetzt-live-die-auslosung-der-achtelfinals,auslosung-achtelfinale-120.html):
+
+| Partido | Nota |
+| --- | --- |
+| Eintracht Frankfurt - Borussia Dortmund | El cruce entre dos equipos de Bundesliga más llamativo |
+| VfB Stuttgart - Dynamo Dresde | El finalista de 2026 recibe a un histórico del Este |
+| Bayer Leverkusen - RB Leipzig | Duelo de Bundesliga |
+| Bayern Múnich - Hertha BSC | El campeón ante el líder de la 2. Bundesliga |
+| Borussia Mönchengladbach - Darmstadt 98 | |
+| Kaiserslautern - Friburgo | |
+| Holstein Kiel - Colonia | |
+| Bochum - Augsburgo | |
+
+La federación fija el día y la hora de cada partido unas semanas antes. Movistar Plus+ no ha anunciado todavía qué cruces de octavos emitirá.
+
+## Calendario hasta la final de Berlín
+
+| Ronda | Fechas |
+| --- | --- |
+| Octavos | 1 y 2 de diciembre de 2026 |
+| Cuartos | 2-3 y 9-10 de febrero de 2027 |
+| Semifinales | 20 y 21 de abril de 2027 |
+| Final | 29 de mayo de 2027, Estadio Olímpico de Berlín |
+
+El Bayern defiende el título. Ganó la final de 2026 al Stuttgart por 3-0, con tres goles de Harry Kane.
+
+## Horarios en hora peninsular
+
+Alemania comparte huso horario con la España peninsular, así que no hay que hacer cuentas. Entre semana, la Copa suele repartir sus partidos en dos franjas: hacia las 18:00 y a las 20:45. El Bayern - Magdeburgo de la segunda ronda empezó a las 20:45. En Canarias, una hora menos.
+
+## Más fútbol alemán
+
+Resultados y cruces de cada ronda, en la sección de la [Copa de Alemania](/futbol/dfb-pokal); la liga, en la de la [Bundesliga](/futbol/bundesliga). Dónde se ven la Bundesliga, la Premier y la Serie A, en la [guía de dónde ver la Premier League](/noticias/donde-ver-premier-league-espana-2026-27-dazn-movistar-precios-serie-a-bundesliga). Lo que se juega cada día está en [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    competition: {"name":"Copa de Alemania","sport":"futbol","slug":"dfb-pokal"},
+    sourceName: "Movistar Plus+",
+    sourceUrl: "https://www.movistarplus.es/deportes/futbol-internacional/copa-de-alemania-26-27/ficha?tipo=E&id=4383387",
+    sourceLang: 'es',
+    publishedAt: '2026-11-04T16:31:32+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/DFB_Pokal_VfB-BVB_09.02.2016_%2824933244785%29.jpg/1280px-DFB_Pokal_VfB-BVB_09.02.2016_%2824933244785%29.jpg",
+      alt: "Una reportera de televisión habla a cámara junto al césped, rodeada de operadores y fotógrafos, antes de un partido de Copa en el estadio de Stuttgart",
+      credit: "Eric C. Späte · Wikimedia Commons",
+      license: "CC BY 2.0",
+    },
+    sourcesSecondary: [
+      { name: "365Scores: Bayern - Magdeburgo en España", url: "https://www.365scores.com/es/news/transmision-bayern-vs-magdeburg-mirar/" },
+      { name: "Sportschau: sorteo de octavos", url: "https://www.sportschau.de/fussball/dfbpokal/jetzt-live-die-auslosung-der-achtelfinals,auslosung-achtelfinale-120.html" },
+      { name: "DFB Play", url: "https://www.dfbplay.tv/" },
+      { name: "Wikipedia: DFB-Pokal 2026-27", url: "https://en.wikipedia.org/wiki/2026%E2%80%9327_DFB-Pokal" },
+    ],
+  },
+  {
+    slug: 'donde-ver-coppa-italia-2026-27-espana-dazn-octavos-final-roma',
+    title: "Cómo ver la Coppa Italia 2026-27 en España: octavos, fechas, plan necesario y precio",
+    summary: "La Coppa Italia va en España con la Serie A, en la misma plataforma y con contrato hasta 2029. Qué plan hace falta, cuánto cuesta hoy, el calendario de octavos con el Como de Fàbregas y la final del 19 de mayo en el Olímpico.",
+    body: `La Coppa Italia 2026-27 se ve en España en [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome), que tiene sus derechos junto a los de la Serie A y la Supercoppa hasta la temporada 2028-29. Hace falta el plan Fútbol, que su web anuncia a 2 de noviembre por 14,99 €/mes, rebajado desde los 19,99 € habituales. No hay partidos en abierto.
+
+*Esta guía incluye enlaces de afiliado a plataformas de televisión. Si contratas desde ellos, Mundiales recibe una comisión sin coste extra para ti. No cambia lo que contamos.*
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| [DAZN Fútbol](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) | Coppa Italia, Serie A completa, Premier, Bundesliga, media LaLiga y LaLiga Hypermotion | 14,99 €/mes en su web a 4 de noviembre (19,99 € el precio habitual) |
+| [DAZN Premium](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) | Todo lo anterior, más el motor y el baloncesto | 25,99 €/mes en su web a 4 de noviembre (31,99 € el habitual) |
+| Gratis | Ningún partido | — |
+
+DAZN amplió en agosto su contrato de la Serie A en España dos temporadas más, hasta 2028-29, y el acuerdo incluye la Coppa Italia y la Supercoppa, [según Roams](https://roams.es/actualidad/telefonia/dazn-incorpora-eredivisie-extiende-serie-a/). Ya emitió las primeras rondas de esta edición, en agosto y septiembre, como el Lazio - Mantova o el Fiorentina - Pisa, según [Fútbol en la TV](https://www.futbolenlatv.es/competicion/copa-de-italia).
+
+## Qué opción te conviene
+
+- **Si solo quieres el fútbol italiano:** DAZN Fútbol. La Coppa no se vende por separado y no hay un plan más barato que la incluya.
+- **Si también ves la Premier o LaLiga:** el mismo plan cubre la Premier entera y cinco partidos por jornada de LaLiga. El reparto, en la [guía de la Premier y la Serie A](/noticias/donde-ver-premier-league-espana-2026-27-dazn-movistar-precios-serie-a-bundesliga).
+- **Si solo te interesa la final:** la del 19 de mayo de 2027 tampoco va en abierto en España.
+
+## Calendario: octavos, cuartos, semifinales y final
+
+Los clubes de Serie A que acabaron entre los ocho primeros entran en octavos, que se juegan a partido único:
+
+| Partido | Fecha |
+| --- | --- |
+| Inter - Genoa | Martes 1 de diciembre |
+| Como - Cremonese | Miércoles 2 de diciembre |
+| Juventus - Sassuolo | Jueves 3 de diciembre |
+| Bolonia - Palermo | Martes 15 de diciembre |
+| Nápoles - Fiorentina | Miércoles 16 de diciembre |
+| Roma - Hellas Verona | Martes 12 de enero de 2027 |
+| Milan - Monza | Miércoles 13 de enero |
+| Atalanta - Udinese | Martes 26 de enero |
+
+Los cuartos, también a un partido, se juegan entre el 3 y el 10 de febrero. Las semifinales son a ida y vuelta, el 2-3 de marzo y el 20-21 de abril. La final es el miércoles 19 de mayo de 2027, a las 21:00, en el Estadio Olímpico de Roma. El Inter defiende el título: ganó la última final al Lazio por 2-0.
+
+## El español a seguir
+
+Cesc Fàbregas entrena al Como, que recibe al Cremonese el 2 de diciembre en el estadio Sinigaglia, a orillas del lago. Si gana, se mete en unos cuartos que pueden cruzarle con los grandes.
+
+## Horarios
+
+Italia tiene la misma hora que la España peninsular, así que el horario oficial vale tal cual. Los partidos de esta edición han empezado a las 18:00, a las 21:00 o a las 21:15. El horario de cada eliminatoria, en la sección de la [Coppa Italia](/futbol/coppa-italia), y la liga, en la de la [Serie A](/futbol/serie-a).`,
+    category: 'general',
+    competition: {"name":"Coppa Italia","sport":"futbol","slug":"coppa-italia"},
+    sourceName: "Roams",
+    sourceUrl: "https://roams.es/actualidad/telefonia/dazn-incorpora-eredivisie-extiende-serie-a/",
+    sourceLang: 'es',
+    publishedAt: '2026-11-04T16:32:32+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Interno_stadio_Sinigaglia_Como_10_settembre_2022.jpg/1280px-Interno_stadio_Sinigaglia_Como_10_settembre_2022.jpg",
+      alt: "El estadio Giuseppe Sinigaglia de Como visto desde la grada visitante, con los jugadores calentando y las montañas detrás bajo un cielo azul",
+      credit: "Vale93b · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+    sourcesSecondary: [
+      { name: "Fútbol en la TV: Coppa Italia", url: "https://www.futbolenlatv.es/competicion/copa-de-italia" },
+      { name: "DAZN: planes y precios", url: "https://www.dazn.com/es-ES/welcome" },
+      { name: "Wikipedia: 2026-27 Coppa Italia", url: "https://en.wikipedia.org/wiki/2026%E2%80%9327_Coppa_Italia" },
+    ],
+  },
+  {
+    slug: 'donde-ver-carabao-cup-2026-27-espana-sin-emision-cuartos-final',
+    title: "Carabao Cup 2026-27 en España: televisión, cuartos de final y la final de Wembley",
+    summary: "La Copa de la Liga inglesa no tiene emisión en España en 2026-27 y ningún partido se ha televisado aquí. Qué queda de torneo, con el Fleetwood de cuarta división en cuartos, quién la emite en Reino Unido y cuándo es la final de Wembley.",
+    body: `La Carabao Cup 2026-27, la Copa de la Liga inglesa, no tiene emisión en España. Ninguna plataforma ha anunciado sus derechos y ninguno de los partidos jugados hasta ahora, de la primera ronda de agosto a los octavos de final del 27 y el 28 de octubre, se ha televisado aquí, según la agenda de [Fútbol en la TV](https://www.futbolenlatv.es/competicion/football-league-cup). DAZN, que la tuvo, emitió por última vez la final de febrero de 2024. Quedan los cuartos, las semifinales y la final del 21 de marzo de 2027 en Wembley.
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| Televisión en España | Ningún partido anunciado | — |
+| Sky Sports (Reino Unido) | Todos los partidos | Solo con suscripción británica, dentro de Reino Unido |
+| ITV (Reino Unido) | Diez partidos en abierto, final incluida | Gratis, solo dentro de Reino Unido |
+
+La EFL vende juntos los derechos de la Championship y de la Carabao Cup fuera de Reino Unido, y España no figura en [su lista de emisoras](https://www.efl.com/how-to-watch/broadcast-partners/) de esta temporada. En Reino Unido, Sky Sports emite cada partido y ITV ofrece diez en abierto, [según Sky](https://www.skysports.com/football/news/13585806/carabao-cup-2026-27-watch-liverpool-spurs-arsenal-man-utd-and-man-city-with-every-game-live-on-sky-sports).
+
+## Lo que queda: cuartos, semifinales y final
+
+El sorteo de cuartos se hizo el 28 de octubre. Los partidos son a uno y se juegan la semana del 14 de diciembre:
+
+| Partido | Fecha prevista |
+| --- | --- |
+| Manchester City - Bradford City | 15 o 16 de diciembre |
+| Fleetwood Town - Everton | 16 de diciembre |
+| Liverpool - Bournemouth | 16 de diciembre |
+| Crystal Palace - Sunderland | 16 o 17 de diciembre |
+
+Las semifinales son a ida y vuelta: la ida, la semana del 11 de enero de 2027, y la vuelta, la del 1 de febrero. La final se juega el domingo 21 de marzo en Wembley. El campeón gana una plaza en la previa de la Conference League 2027-28.
+
+## La sorpresa del Fleetwood
+
+El Fleetwood Town, de League Two, la cuarta categoría, es el equipo más modesto que sigue vivo. En octavos eliminó en los penaltis al Arsenal, campeón de la Premier, en su estadio de Highbury, que comparte nombre con el antiguo campo del Arsenal. Es el primer equipo de cuarta división que llega a cuartos desde 2019. El Bradford City, de League One, es el otro invitado. El Manchester City defiende el título: ganó la final de marzo de 2026 al Arsenal.
+
+## Horarios en España
+
+Las eliminatorias se juegan entre semana, de martes a jueves. En España suelen empezar a las 20:30, a las 20:45 o a las 21:00, hora peninsular. Si alguna plataforma compra los derechos para el tramo final, lo verás en la sección de la [Carabao Cup](/futbol/carabao-cup), junto a los resultados y el cuadro.
+
+La otra copa inglesa sí se ve en España: lo contamos en [dónde ver la FA Cup](/noticias/donde-ver-fa-cup-2026-27-espana-movistar-plus-rondas-final-wembley). Y la Premier League, en la [guía de la Premier](/noticias/donde-ver-premier-league-espana-2026-27-dazn-movistar-precios-serie-a-bundesliga).`,
+    category: 'general',
+    competition: {"name":"Carabao Cup","sport":"futbol","slug":"carabao-cup"},
+    sourceName: "Fútbol en la TV",
+    sourceUrl: "https://www.futbolenlatv.es/competicion/football-league-cup",
+    sourceLang: 'es',
+    publishedAt: '2026-11-04T16:33:32+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Pre-_match_warm_up_-_geograph.org.uk_-_7629536.jpg/1280px-Pre-_match_warm_up_-_geograph.org.uk_-_7629536.jpg",
+      alt: "Jugadores calentando antes de un partido en Valley Parade, el estadio del Bradford City, con las gradas de asientos amarillos y granates al fondo",
+      credit: "Gordon Hatton · Wikimedia Commons",
+      license: "CC BY-SA 2.0",
+    },
+    sourcesSecondary: [
+      { name: "EFL: emisoras internacionales", url: "https://www.efl.com/how-to-watch/broadcast-partners/" },
+      { name: "Sky Sports: Carabao Cup 2026-27", url: "https://www.skysports.com/football/news/13585806/carabao-cup-2026-27-watch-liverpool-spurs-arsenal-man-utd-and-man-city-with-every-game-live-on-sky-sports" },
+      { name: "Sports Illustrated: sorteo de cuartos", url: "https://www.si.com/soccer/2026-27-carabao-cup-quarterfinal-draw-liverpool-man-city-fates/app/" },
+      { name: "Wikipedia: 2026-27 EFL Cup", url: "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_Cup" },
+    ],
+  },
+  {
+    slug: 'donde-ver-fa-cup-2026-27-espana-movistar-plus-rondas-final-wembley',
+    title: "Dónde ver la FA Cup 2026-27 en España: rondas, fechas, canales y lo que cuesta",
+    summary: "La FA Cup tiene una sola casa en España hasta 2028 y entra en el plan más barato de esa plataforma. Qué incluye el acuerdo, cuánto cuesta, en qué diales va y el calendario completo de rondas hasta la final del 22 de mayo en Wembley.",
+    body: `La FA Cup 2026-27 se ve en España en [Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol), que tiene sus derechos en exclusiva hasta la temporada 2027-28. Entra en su plan básico, Movistar Plus+ Libre, por 9,99 €/mes sin permanencia y con cualquier operador de internet, y también la ven los clientes de los paquetes de fútbol de Movistar. No hay partidos en abierto.
+
+*Esta guía incluye enlaces de afiliado a plataformas de televisión. Si contratas desde ellos, Mundiales recibe una comisión sin coste extra para ti. No cambia lo que contamos.*
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| [Movistar Plus+ Libre](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol) | La FA Cup en los canales Movistar Plus+ (dial 7), Vamos (dial 8) y Liga de Campeones (dial 60), además de un partido de LaLiga, Champions y Premier por jornada | 9,99 €/mes, sin permanencia |
+| Paquetes de fútbol de Movistar (Fútbol Total y otros) | La FA Cup incluida, junto al resto del fútbol de Movistar | Según el paquete |
+| Gratis | Ningún partido | — |
+
+## Qué incluye el acuerdo
+
+Movistar Plus+ compró la competición en marzo de 2026 a mitad de temporada. [Su nota de prensa](https://www.movistarplus.es/comunicacion/notas-de-prensa/173050/) fija el alcance: el final de la edición 2025-26 y las dos siguientes, 2026-27 y 2027-28, también con la Community Shield, la Supercopa inglesa de agosto. La FA Cup femenina solo entró en el lote de la temporada pasada. Antes, la FA Cup era de DAZN.
+
+La plataforma la ofrece «para todos los clientes», también a quien solo paga el plan Libre. La final de mayo, Chelsea - Manchester City, se emitió en Movistar Plus+ y en Liga de Campeones por M+, según [Fútbol en la TV](https://www.futbolenlatv.es/competicion/fa-cup). El City ganó y defiende el título.
+
+## Calendario de la FA Cup 2026-27
+
+| Ronda | Fecha principal |
+| --- | --- |
+| Primera ronda | Sábado 7 de noviembre (con partidos desde el viernes 6) |
+| Segunda ronda | Sábado 5 de diciembre |
+| Tercera ronda (entran la Premier y la Championship) | Sábado 9 de enero de 2027 |
+| Cuarta ronda | Sábado 13 de febrero |
+| Quinta ronda | Sábado 6 de marzo |
+| Cuartos de final | Sábado 3 de abril |
+| Semifinales, en Wembley | Sábado 24 de abril |
+| Final, en Wembley | Sábado 22 de mayo de 2027 |
+
+Las fechas son las de la federación inglesa; cada ronda se reparte entre el viernes y el lunes. Movistar no ha detallado qué partidos de las dos primeras rondas emitirá, en las que todavía no juegan los equipos de Premier ni de Championship. El interés crece en la tercera ronda, el fin de semana del 9 y el 10 de enero, cuando entran los grandes.
+
+## Horarios en España
+
+Inglaterra va una hora por detrás de la España peninsular. Un partido a las 15:00 británicas empieza a las 16:00 en España, y uno a las 17:45 británicas, a las 18:45. La final de 2026 arrancó a las 16:00, hora peninsular. El horario y el canal de cada partido aparecen en la sección de la [FA Cup](/futbol/fa-cup) cuando Movistar los confirma.
+
+## Cómo verla en el móvil o fuera de casa
+
+Movistar Plus+ Libre se ve en la aplicación de Movistar Plus+, en el móvil, la tableta, el ordenador o la Smart TV, con dos reproducciones a la vez. No hace falta tener fibra de Movistar.
+
+La otra copa inglesa, la de la Liga, no tiene emisión en España: lo contamos en [dónde ver la Carabao Cup](/noticias/donde-ver-carabao-cup-2026-27-espana-sin-emision-cuartos-final). La Premier League, en la [guía de la Premier](/noticias/donde-ver-premier-league-espana-2026-27-dazn-movistar-precios-serie-a-bundesliga), y lo que se juega cada día, en [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    competition: {"name":"FA Cup","sport":"futbol","slug":"fa-cup"},
+    sourceName: "Movistar Plus+",
+    sourceUrl: "https://www.movistarplus.es/comunicacion/notas-de-prensa/173050/",
+    sourceLang: 'es',
+    publishedAt: '2026-11-04T16:34:32+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Kettering_Town_v_Boston_United.jpg/1280px-Kettering_Town_v_Boston_United.jpg",
+      alt: "Dos jugadores del Kettering Town, de rojo y negro, celebran un gol tirados en el césped mientras los aficionados aplauden detrás de la valla",
+      credit: "Divine comedian · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+    sourcesSecondary: [
+      { name: "Roams: dónde ver la FA Cup en España", url: "https://roams.es/actualidad/telefonia/donde-ver-fa-cup-espana-tv-plataformas-canales-precios/" },
+      { name: "Xataka Móvil: FA Cup en Movistar Plus+", url: "https://www.xatakamovil.com/movistar/tienes-movistar-plus-ahora-podras-ver-futbol-gratis-10-euros-al-mes-seas-operador-que-seas" },
+      { name: "Fútbol en la TV: FA Cup", url: "https://www.futbolenlatv.es/competicion/fa-cup" },
+      { name: "Wikipedia: 2026-27 FA Cup", url: "https://en.wikipedia.org/wiki/2026%E2%80%9327_FA_Cup" },
+    ],
+  },
+  {
+    slug: 'donde-ver-championship-inglesa-espana-2026-27-sin-tv-pases-clubes',
+    title: "La Championship inglesa en España en 2026-27: qué opciones hay para ver la segunda división",
+    summary: "Ninguna plataforma emite la Championship en España esta temporada y la EFL no incluye a España entre sus mercados. Qué alternativas oficiales quedan, cuánto cuestan los pases de los clubes y qué equipos y españoles seguir en la segunda inglesa.",
+    body: `La Championship inglesa no tiene televisión en España en la temporada 2026-27: ninguna plataforma, ni DAZN ni Movistar Plus+, ha comprado sus derechos. La EFL, que organiza la competición, no incluye a España en [su lista de emisoras internacionales](https://www.efl.com/how-to-watch/broadcast-partners/) de esta temporada. La única vía oficial que queda son los pases de vídeo que algunos clubes venden a aficionados de fuera de Reino Unido.
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| Televisión en España | Ningún partido | — |
+| Pase de vídeo del club | Los partidos de ese equipo que el club considera disponibles, para aficionados fuera de Reino Unido | Lo fija cada club; el del Swansea, 180 £ la temporada o 25 £ al mes |
+| Sky Sports (Reino Unido) | La mayoría de los partidos televisados | Solo con suscripción británica, dentro de Reino Unido |
+
+## Qué dice la EFL
+
+La EFL publica en su web la lista de emisoras de la temporada 2026-27 fuera de Reino Unido y avisa de que irá sumando mercados según se cierren. Portugal (Sport TV), Alemania y Suiza (Sky), los países nórdicos (Viaplay) o Francia (beIN Sports) tienen la Championship. España no aparece. En Reino Unido los derechos son de Sky Sports hasta 2028-29.
+
+La última vez que se vio en España fue en DAZN, en mayo de 2024: emitió el playoff de ascenso, con la final entre Leeds y Southampton en Wembley, según el historial de [Fútbol en la TV](https://www.futbolenlatv.es/competicion/championship). Desde entonces no ha vuelto a ninguna plataforma española.
+
+## Los pases de los clubes
+
+Varios clubes venden en su web pases de vídeo para seguir a su equipo desde el extranjero. El Swansea City, por ejemplo, ofrece [un pase de temporada](https://www.swanseacity.com/swans-tv) de 180 libras y uno mensual de 25 libras para aficionados de fuera de Reino Unido, válidos para sus «partidos elegibles». El club no detalla en esa página qué encuentros quedan fuera ni en qué países se puede usar. Antes de pagar, revisa las condiciones de tu equipo: cada uno fija precio, cobertura y restricciones.
+
+Estos pases solo dan los partidos de un equipo. No hay ninguna forma de ver toda la jornada desde España.
+
+## Por qué mirar la Championship este año
+
+Son 24 equipos y 46 jornadas, y la liga regular termina a primeros de mayo de 2027. Los dos primeros suben directos a la Premier y del tercero al sexto juegan un playoff con final en Wembley. Esta temporada están West Ham, Burnley y Wolverhampton, los tres descendidos de la Premier. A 31 de octubre mandaba el Middlesbrough, con 28 puntos en 13 partidos, por delante del Swansea y del Wolverhampton.
+
+El español a seguir es Fer López, centrocampista del Wolverhampton, con seis goles en la liga a esa fecha.
+
+## Horarios
+
+Inglaterra va una hora por detrás de la España peninsular. El partido clásico del sábado a las 15:00 británicas empieza a las 16:00 en España, y las jornadas entre semana, sobre las 20:45 o las 21:00.
+
+Resultados, calendario y clasificación, en la sección de la [Championship](/futbol/championship). La Premier sí se ve en España: todas las opciones, en la [guía de dónde ver la Premier League](/noticias/donde-ver-premier-league-espana-2026-27-dazn-movistar-precios-serie-a-bundesliga).`,
+    category: 'general',
+    competition: {"name":"Championship","sport":"futbol","slug":"championship"},
+    sourceName: "EFL",
+    sourceUrl: "https://www.efl.com/how-to-watch/broadcast-partners/",
+    sourceLang: 'en',
+    publishedAt: '2026-11-04T16:35:32+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Middlesbrough_FC_vs_Nottingham_Forest_Dec_2021.jpg/1280px-Middlesbrough_FC_vs_Nottingham_Forest_Dec_2021.jpg",
+      alt: "Partido de la Championship en el Riverside Stadium de Middlesbrough, visto desde la grada alta, con la tribuna de enfrente llena y los focos encendidos",
+      credit: "Paul Hudson · Wikimedia Commons",
+      license: "CC BY 2.0",
+    },
+    sourcesSecondary: [
+      { name: "Fútbol en la TV: Championship", url: "https://www.futbolenlatv.es/competicion/championship" },
+      { name: "Swansea City: Swans TV", url: "https://www.swanseacity.com/swans-tv" },
+      { name: "Wikipedia: 2026-27 EFL Championship", url: "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_Championship" },
+    ],
+  },
+  {
+    slug: 'donde-ver-segunda-federacion-2026-27-plataformas-clubes-autonomicas',
+    title: "Dónde ver la Segunda Federación 2026-27: cómo seguir a tu equipo partido a partido",
+    summary: "La Segunda Federación no tiene una plataforma con todos los partidos ni está en los grandes operadores. Cada club decide su emisión: FootballClub, autonómicas, locales o su propio canal. Cómo funciona cada opción y qué pasó con Footters.",
+    body: `En la Segunda Federación 2026-27 no hay una plataforma que emita todos los partidos. La RFEF no ha anunciado para esta categoría un reparto televisivo como el de la Primera Federación, y ni Movistar Plus+ ni DAZN ni los demás grandes operadores la incluyen en su oferta. Cada club busca su propia emisión: la plataforma de pago FootballClub, televisiones autonómicas y locales o su canal en internet. Para ver a tu equipo, la referencia es su web o sus redes.
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| FootballClub | Los partidos de los clubes que emiten allí; la suscripción va por equipo | Lo fija cada club |
+| Autonómicas y locales | Partidos de equipos de su zona, sobre todo en Cataluña, Galicia y Aragón | Gratis |
+| Canal del propio club | Algunos clubes emiten sus partidos en YouTube o en su web | Gratis o de pago, según el club |
+| Movistar Plus+, DAZN y otros operadores | No la emiten | — |
+
+## Cómo funciona FootballClub
+
+FootballClub es la plataforma que más clubes de la categoría usan desde que heredó la antigua Tercera División. Su modelo es distinto al de una televisión: cada club decide qué emite y a qué precio. Hay pases de temporada, partidos sueltos y, en algunos clubes, también la cantera. La suscripción es por equipo: pagar la de un club no da acceso a los partidos de los demás, [según El Grupo Informático](https://www.elgrupoinformatico.com/noticias/footters-que-como-funciona-t79980.html). Antes de pagar, comprueba en la página de tu club si emite allí sus partidos como local y si incluye los de fuera.
+
+La misma empresa tiene esta temporada la Primera Federación completa, con un pase de 69,99 euros. Ese abono es para la categoría de arriba y no incluye la Segunda Federación.
+
+## ¿Qué pasó con Footters?
+
+Footters fue la plataforma con la que la RFEF emitió la antigua Segunda B y la Tercera desde 2021, [según Inside World Football](https://insideworldfootball.com/?p=108905). Duró poco: tras su cierre, la Primera pasó a otras plataformas y la Segunda Federación, a FootballClub. Hoy Footters no existe y su antiguo dominio ya no pertenece a la plataforma, así que no merece la pena buscarla.
+
+## Cómo saber si televisan el partido de tu equipo
+
+1. **La web y las redes del club.** Es donde se anuncia cada semana si hay emisión, dónde y a qué precio.
+2. **La autonómica o la local.** Esport3, TVG2 y Aragón TV dan partidos de equipos de su comunidad, y algunas cadenas locales emiten los de su ciudad.
+3. **FootballClub.** Busca a tu club en la plataforma y mira qué pases ofrece.
+
+## Calendario y equipos
+
+Son 90 equipos en cinco grupos de 18, con 34 jornadas. La liga empezó el 5 de septiembre y la fase regular acaba en mayo de 2027. El campeón de cada grupo sube a Primera Federación, y del segundo al quinto juegan una eliminatoria por otra plaza en cada grupo: diez ascensos en total. Entre los históricos de este año están el Numancia, el Salamanca CF UDS, el Recreativo de Huelva, el Xerez CD y el Badajoz, junto a filiales como el Barça Atlètic, el Sevilla Atlético, el Betis Deportivo y el Real Madrid C.
+
+Resultados y clasificaciones de los cinco grupos, en la sección de la [Segunda Federación](/futbol/segunda-federacion). La categoría de arriba, con todas sus opciones y precios, en [dónde ver la Primera Federación](/noticias/donde-ver-primera-federacion-2026-27-footballclub-fanplay-movistar-dazn-autonomicas), y lo que se juega cada día, en [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    competition: {"name":"Segunda Federación","sport":"futbol","slug":"segunda-federacion"},
+    sourceName: "El Grupo Informático",
+    sourceUrl: "https://www.elgrupoinformatico.com/noticias/footters-que-como-funciona-t79980.html",
+    sourceLang: 'es',
+    publishedAt: '2026-11-04T16:36:32+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Chap%C3%ADn_-_Jerez_-_IMG_20180728_213731_326.jpg/1280px-Chap%C3%ADn_-_Jerez_-_IMG_20180728_213731_326.jpg",
+      alt: "Partido al atardecer en el estadio de Chapín, en Jerez, con la tribuna llena y la pista de atletismo en primer plano",
+      credit: "El Pantera · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+    sourcesSecondary: [
+      { name: "Inside World Football: acuerdo RFEF-Footters", url: "https://insideworldfootball.com/?p=108905" },
+      { name: "RFEF: calendarios de la Segunda Federación 2026-27", url: "https://rfef.es/es/noticias/calendarios-completos-segunda-federacion-temporada-202627" },
+      { name: "Wikipedia: Segunda Federación 2026-27", url: "https://es.wikipedia.org/wiki/Segunda_Federaci%C3%B3n_2026-27" },
+    ],
+  },
+  {
+    slug: 'donde-ver-primera-federacion-2026-27-footballclub-fanplay-movistar-dazn-autonomicas',
+    title: "Primera Federación 2026-27 en televisión: partidos completos, selección semanal y gratis",
+    summary: "La Primera Federación se reparte esta temporada entre dos plataformas con todos los partidos, cinco operadores que emiten diez por jornada y cinco cadenas autonómicas en abierto. Qué ofrece cada opción, cuánto cuesta y cómo funcionan FootballClub y FANPLAY TV.",
+    body: `La Primera Federación 2026-27 se ve entera en dos plataformas de pago por internet, FootballClub y FANPLAY TV, desde 9,99 € al mes. [Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fprimera-federacion) y [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) emiten diez partidos en directo por jornada dentro de sus planes de fútbol; el de Movistar cuesta 9,99 €/mes sin permanencia. Gratis solo se ven los partidos que dan cinco televisiones autonómicas y locales en su territorio.
+
+*Esta guía incluye enlaces de afiliado a plataformas de televisión. Si contratas desde ellos, Mundiales recibe una comisión sin coste extra para ti. No cambia lo que contamos.*
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| FootballClub (FC Play) | Los 20 partidos de cada jornada y la promoción de ascenso | 69,99 € la temporada al lanzarse; 9,99 €/mes |
+| FANPLAY TV | Los 20 partidos de cada jornada y la promoción, más canales de televisión | 14,95 €/mes o 99,95 € la temporada, sin descuentos |
+| [Movistar Plus+ Libre](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fprimera-federacion) | Diez partidos por jornada en directo; el resto, en diferido | 9,99 €/mes, sin permanencia |
+| [DAZN Fútbol](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) | Diez partidos por jornada en directo y la promoción de ascenso | 14,99 €/mes en su web a 4 de noviembre (19,99 € el precio habitual) |
+| Orange, +Media, ZapiTV, Euskaltel, Telecable y R | Los mismos diez partidos por jornada | Según el paquete de cada operador |
+| TVG, Esport3, La 7, Aragón TV y Betevé | Partidos de los equipos de su zona | Gratis |
+
+El reparto sale de un concurso de la RFEF con cinco lotes no exclusivos y para una sola temporada, [según Roams](https://roams.es/actualidad/telefonia/ver-primera-federacion-2026-27-varias-plataformas-derechos-rfef/). Por eso la misma jornada está a la vez en varios sitios. LaLiga+, que completaba la oferta, cerró el 30 de junio, y Digi se ha quedado fuera este año.
+
+## FootballClub y FANPLAY TV: cómo funcionan
+
+**FootballClub** vende la competición en su servicio FC Play. Al darte de alta eliges un equipo, y una parte de lo que pagas va a ese club. En junio anunció un pase de temporada de 69,99 euros con la promoción incluida; en agosto ofrecía la cuota mensual a 9,99 euros, con hasta tres dispositivos a la vez. Entonces no tenía aplicación para Smart TV: se ve en el navegador o enviando la imagen desde el móvil a la tele, [según ADSLZone](https://www.adslzone.net/noticias/streaming-tv/ofertas-fanplay-tv-footballclub-primera-federacion/). Una promoción a 8,95 €/mes para nuevos abonados terminó el 2 de noviembre. Fútbol por la tele recoge ahora el pase de temporada a 74,99 euros, así que conviene mirar el precio final antes de pagar.
+
+**FANPLAY TV** es una plataforma de televisión por internet que suma la Primera Federación a casi 200 canales. Sin descuentos cuesta 14,95 €/mes o 99,95 euros por temporada, admite cuatro pantallas a la vez y tiene aplicación para Smart TV, Android TV, Apple TV y Chromecast. Sus ofertas cambian a menudo: la última, a 9,95 €/mes o 89,95 euros la temporada, acabó el 1 de noviembre, [según Fútbol por la tele](https://futbolporlatele.com/donde-ver-primera-federacion-2026-2027/).
+
+La tercera vía con todos los partidos, LALIGA TV BAR, es solo para bares y locales.
+
+## Qué opción te conviene
+
+- **Si sigues a un equipo y no quieres perderte nada:** FootballClub o FANPLAY TV. La selección de diez partidos de Movistar y DAZN cambia cada semana y no garantiza que salga el tuyo.
+- **Si ya pagas Movistar Plus+:** el Plan Libre de 9,99 € trae los diez partidos destacados y, además, toda LaLiga Hypermotion.
+- **Si ya pagas DAZN Fútbol:** tienes los diez partidos y la promoción de ascenso sin coste extra, junto a la Premier, la Serie A, la Bundesliga y media LaLiga. [DAZN lo anunció en julio](https://dazngroup.com/press-room/dazn-amplia-su-oferta-de-futbol-con-la-llegada-de-la-primera-federacion/) para esta temporada.
+- **Si vives en Galicia, Cataluña, Murcia o Aragón:** mira primero la programación de tu autonómica.
+
+## Los partidos gratis en las autonómicas
+
+Cinco cadenas emiten partidos en abierto desde la primera jornada. TVG da los de los equipos gallegos; Esport3, los de los catalanes; La 7, los del Real Murcia y el Cartagena; Betevé, los del Europa y el Sant Andreu. Aragón TV elige cada semana un partido entre Zaragoza, Huesca y Teruel, que también se ve en Aragón Play. Telemadrid, Canal Sur, Canal Extremadura y EITB no emiten la categoría, así que el Real Madrid Castilla se queda sin cadena autonómica.
+
+## ¿Y Footters o una plataforma de la RFEF?
+
+Footters emitió la antigua Segunda B y la Tercera entre 2021 y 2022, y hoy no existe: su antiguo dominio ya no pertenece a la plataforma, así que no la busques. La RFEF tampoco vende la Primera Federación en una plataforma propia; en junio no había anunciado ninguna.
+
+## Lo que queda de temporada
+
+Son 40 equipos en dos grupos de 20 y 38 jornadas, que se juegan de viernes a lunes. Este año la categoría tiene a cuatro descendidos de Segunda: Real Zaragoza, Huesca, Cultural Leonesa y Mirandés. La liga regular acaba a finales de mayo de 2027. El campeón de cada grupo sube directo y del segundo al quinto juegan la promoción por las otras dos plazas, que termina el 20 de junio. DAZN, FootballClub y FANPLAY TV emiten también esa promoción.
+
+Resultados y calendario, en la sección de la [Primera Federación](/futbol/primera-federacion). Si buscas la categoría de arriba, la [guía de LaLiga Hypermotion](/noticias/donde-ver-laliga-hypermotion-2026-27-dazn-movistar-precios-autonomicas); la de abajo, en [dónde ver la Segunda Federación](/noticias/donde-ver-segunda-federacion-2026-27-plataformas-clubes-autonomicas).`,
+    category: 'general',
+    competition: {"name":"Primera Federación","sport":"futbol","slug":"primera-federacion"},
+    sourceName: "Roams",
+    sourceUrl: "https://roams.es/actualidad/telefonia/donde-ver-partidos-primera-rfef-26-27-canales-autonomicos/",
+    sourceLang: 'es',
+    publishedAt: '2026-11-04T16:37:32+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Anxo_Carro_file_17_18.jpg/1280px-Anxo_Carro_file_17_18.jpg",
+      alt: "Panorámica del estadio Anxo Carro de Lugo, con las gradas rojas y azules casi vacías y los jugadores calentando sobre el césped",
+      credit: "Alejblanco · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+    sourcesSecondary: [
+      { name: "Roams: derechos de la Primera Federación 2026-27", url: "https://roams.es/actualidad/telefonia/ver-primera-federacion-2026-27-varias-plataformas-derechos-rfef/" },
+      { name: "DAZN: nota de prensa sobre la Primera Federación", url: "https://dazngroup.com/press-room/dazn-amplia-su-oferta-de-futbol-con-la-llegada-de-la-primera-federacion/" },
+      { name: "Movistar Plus+: Primera Federación", url: "https://www.movistarplus.es/deportes/futbol/primera-federacion" },
+      { name: "Fútbol por la tele: dónde ver la Primera Federación", url: "https://futbolporlatele.com/donde-ver-primera-federacion-2026-2027/" },
+      { name: "2Playbook: operadores de la Primera Federación", url: "https://www.2playbook.com/media/dazn-fanplay-tv-beteve-donde-ver-primera-federacion-en-2026-2027_23378_102.html" },
+    ],
+  },
+  {
+    slug: 'donde-ver-copa-del-rey-2026-27-rtve-movistar-gratis-calendario-final',
+    title: "La Copa del Rey 2026-27 en televisión: qué va gratis, qué va en pago y las próximas rondas",
+    summary: "La Copa del Rey 2026-27 se reparte entre la televisión pública, que tiene los derechos, una plataforma de pago con más de 55 partidos y algunas autonómicas. Qué se ve gratis, cuánto cuesta el resto, las fechas hasta la final de La Cartuja y quién emite la final.",
+    body: `La Copa del Rey tiene esta temporada un dueño en abierto y un socio de pago. RTVE posee los derechos y emite gratis en La 1, Teledeporte y RTVE Play los partidos más destacados de cada ronda. [Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fcopa-rey) tiene al menos 55 partidos en exclusiva. Su plan Libre (9,99 €/mes) da uno destacado por ronda, y la Copa completa va en los paquetes LaLiga y Fútbol Total. Las semifinales se ven en los dos.
+
+*Esta guía incluye enlaces de afiliado a plataformas de televisión. Si contratas desde ellos, Mundiales recibe una comisión sin coste extra para ti. No cambia lo que contamos.*
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| RTVE: La 1, Teledeporte y RTVE Play | Los partidos más destacados de cada ronda y las cuatro semifinales | Gratis |
+| Televisiones autonómicas | Algunos partidos de las primeras rondas | Gratis |
+| [Movistar Plus+ Libre](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fplanes%2Flibre) | Un partido destacado de Copa por ronda, sin fibra de Movistar | 9,99 €/mes, sin permanencia |
+| [Movistar Plus+ con el paquete LaLiga](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol) | Al menos 55 partidos de Copa en exclusiva, semifinales y final, además de LaLiga y la Supercopa | 36 €/mes sobre la tarifa miMovistar: desde 89 €/mes en total |
+| [Movistar Plus+ con Fútbol Total](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol) | Lo anterior más la Champions, la Europa League y la Conference | 50 €/mes sobre la tarifa: desde 103 €/mes en total |
+
+Los precios de los paquetes y la tarifa base (Movistar Base, 53 €/mes) son los de [Roams](https://roams.es/companias-telefonicas/movistar/guias/television/partidos-futbol/) a 1 de noviembre.
+
+## Quién tiene qué
+
+RTVE se adjudicó la Copa para 2025-26 y 2026-27: hasta 116 partidos en directo y en exclusiva, sin la fase previa ni la final, [según Xataka](https://www.xatakamovil.com/tv-movil/futbol-gratis-para-tdt-copa-rey-tiene-dueno). Se queda los más atractivos y cede el resto. Movistar firmó con RTVE una sublicencia para las dos temporadas, con un mínimo de 55 partidos en exclusiva por edición y las semifinales en simultáneo con la cadena pública, [según Xataka](https://www.xatakahome.com/servicios-de-smart-tv/movistar-plus-vuelve-a-hacer-emitira-50-partidos-copa-rey-su-nuevo-acuerdo-rtve).
+
+La primera ronda, del 27 al 29 de octubre, sirvió de muestra. Movistar dio 15 de los 56 partidos, cinco por día, a las 19:00 o a las 21:00, [según Roams](https://roams.es/actualidad/telefonia/copa-rey-movistar-plus-15-partidos-primera-ronda-canal-dial-hora/). Teledeporte emitió el Prat-Athletic, y la TPA asturiana, el Guijuelo-Sporting. Televisión Canaria dio el Atlético Paso-Córdoba. Algún partido, como el Ávila-Unionistas, no tuvo cadena anunciada.
+
+## Qué opción te conviene
+
+Para seguir a un equipo de LaLiga hasta cuartos, lo gratis puede bastar o no: depende de que RTVE elija su partido. En la primera ronda, Movistar emitió 15 partidos y RTVE, uno. Si quieres la garantía de verlo todo, el paquete LaLiga es la opción con menos gasto, y además incluye la Liga y la Supercopa. El plan Libre sirve a quien se conforma con un partido grande por ronda.
+
+## Las próximas fechas
+
+| Ronda | Fecha | Formato |
+| --- | --- | --- |
+| Segunda eliminatoria | Miércoles 2 de diciembre de 2026 | Partido único |
+| Dieciseisavos | 16 de diciembre | Partido único; entran Barcelona, Real Madrid, Atlético y Real Sociedad |
+| Octavos | 6 de enero de 2027 | Partido único |
+| Cuartos | 13 de enero | Partido único |
+| Semifinales | 10 de febrero y 3 de marzo | Ida y vuelta |
+| Final | Sábado 24 de abril, La Cartuja (Sevilla) | Partido único |
+
+Las fechas son las del calendario de la temporada que recoge [Futboltotal](https://futboltotal.futbol/league/copa-del-rey/noticias/guia-copa-del-rey-2026-27); cada ronda puede repartirse entre martes, miércoles y jueves. Hasta cuartos se juega a partido único en el campo del equipo de menor categoría. La Real Sociedad defiende el título: ganó al Atlético en los penaltis en la final de abril.
+
+## La final, en abierto
+
+La final no entra en el lote de RTVE y se comercializa aparte. La ley obliga a emitirla en abierto, recuerda Xataka. La de 2026 se vio en La 1 y RTVE Play y también en Movistar Plus+. Para la del 24 de abril no hay anuncio todavía. Movistar promete en su oferta de esta temporada una cobertura propia de las semifinales y la final.
+
+Los cruces y resultados de cada ronda, en la sección de la [Copa del Rey](/futbol/copa-del-rey). La Supercopa de febrero tiene [su guía](/noticias/donde-ver-supercopa-espana-2027-estambul-fechas-horarios-television), y los partidos de cada día están en [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    competition: {"name":"Copa del Rey","sport":"futbol","slug":"copa-del-rey"},
+    sourceName: "Roams",
+    sourceUrl: "https://roams.es/actualidad/telefonia/copa-rey-movistar-plus-15-partidos-primera-ronda-canal-dial-hora/",
+    sourceLang: 'es',
+    publishedAt: '2026-11-04T16:38:32+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Estadio_Ol%C3%ADmpico_de_La_Cartuja%2C_Sevilla.jpg/1280px-Estadio_Ol%C3%ADmpico_de_La_Cartuja%2C_Sevilla.jpg",
+      alt: "Gradas vacías, césped y pista de atletismo del estadio de La Cartuja, en Sevilla, vistos desde la tribuna",
+      credit: "Granadino anti-andaluz · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+    sourcesSecondary: [
+      { name: "Xataka: RTVE se queda la Copa del Rey", url: "https://www.xatakamovil.com/tv-movil/futbol-gratis-para-tdt-copa-rey-tiene-dueno" },
+      { name: "Xataka: el acuerdo de Movistar y RTVE", url: "https://www.xatakahome.com/servicios-de-smart-tv/movistar-plus-vuelve-a-hacer-emitira-50-partidos-copa-rey-su-nuevo-acuerdo-rtve" },
+      { name: "El Gol Digital: televisión de la primera ronda", url: "https://www.elgoldigital.com/futbol/copa-del-rey/horarios-tv-primera-ronda-copa-del-rey-2026-27/" },
+      { name: "Futboltotal: guía de la Copa del Rey 2026-27", url: "https://futboltotal.futbol/league/copa-del-rey/noticias/guia-copa-del-rey-2026-27" },
+    ],
+  },
+  {
+    slug: 'donde-ver-supercopa-espana-2027-estambul-fechas-horarios-television',
+    title: "La Supercopa de España 2027 en televisión: Estambul, fechas, horarios y lo que falta por saber",
+    summary: "La Supercopa de España 2027 deja Arabia Saudí y enero: se juega en Estambul del 2 al 6 de febrero. Cruces, horarios en hora peninsular, estadios, qué plan la incluye hoy y por qué la emisión de esta edición aún no está anunciada.",
+    body: `La Supercopa de España 2027 no se juega en enero ni en Arabia Saudí: será en Estambul, del martes 2 al sábado 6 de febrero, con los tres partidos a las 20:00, hora peninsular. Quién la emitirá en España no está anunciado todavía. [Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol) ha sido su casa en las últimas ediciones y su oferta actual la incluye en los paquetes LaLiga (36 €/mes) y Fútbol Total (50 €/mes), ambos sobre una tarifa miMovistar. No hay emisión en abierto confirmada.
+
+*Los enlaces a Movistar Plus+ de esta guía son de afiliado: si contratas desde ellos, Mundiales cobra una comisión y tú pagas lo mismo. No cambia lo que contamos.*
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| [Movistar Plus+ con el paquete LaLiga](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol) | LaLiga, Segunda, Copa del Rey y Supercopa de España | 36 €/mes sobre la tarifa miMovistar: desde 89 €/mes en total |
+| [Movistar Plus+ con Fútbol Total](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol) | Lo anterior más la Champions, la Europa League y la Conference | 50 €/mes sobre la tarifa: desde 103 €/mes en total |
+| [Movistar Plus+ Libre](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fplanes%2Flibre) | Si incluye la Supercopa de 2027, por confirmar | 9,99 €/mes, sin permanencia |
+| Televisión en abierto | Ningún partido anunciado | — |
+
+Los paquetes y lo que incluye cada uno son los que detalla [Roams](https://roams.es/companias-telefonicas/movistar/guias/television/partidos-futbol/) a 1 de noviembre; los totales parten de Movistar Base, de 53 €/mes. Que esos paquetes digan «Supercopa de España» no equivale a un anuncio de emisión de la edición turca: conviene esperar a la confirmación antes de contratar solo por estos partidos.
+
+## Los cruces y los horarios
+
+| Partido | Fecha y hora peninsular | Estadio |
+| --- | --- | --- |
+| Semifinal: Barcelona - Atlético de Madrid | Martes 2 de febrero, 20:00 | Chobani Stadium Fenerbahçe Şükrü Saracoğlu |
+| Semifinal: Real Sociedad - Real Madrid | Miércoles 3 de febrero, 20:00 | Tüpraş Stadium (Beşiktaş) |
+| Final | Sábado 6 de febrero, 20:00 | Ali Sami Yen - RAMS Park (Galatasaray) |
+
+Los horarios y las sedes son los que confirmó [el Barcelona](https://www.fcbarcelona.es/es/noticias/4577816/confirmados-los-horarios-y-las-sedes-de-la-supercopa) en septiembre. En Estambul serán las 22:00. El Barça defiende el título que ganó en Yeda al Real Madrid (3-2). La Real Sociedad y el Atlético juegan como finalistas de la última Copa del Rey.
+
+## Por qué Estambul y no Arabia Saudí
+
+Arabia Saudí organiza en esas fechas la Copa de Asia 2027 y sus grandes estadios están ocupados. La RFEF trasladó el torneo a Turquía para esta edición y amplió una temporada el contrato saudí, hasta 2029-30. La Supercopa vuelve allí en 2028, [según Sportcal](https://www.sportcal.com/?p=152888). El salto de enero a febrero también mueve el calendario: los cuatro equipos llegan con la Copa del Rey ya en marcha, porque entran en los dieciseisavos del 16 de diciembre.
+
+## Lo que falta por saber
+
+Falta el canal. Para la edición turca no hay comunicado de la RFEF sobre la televisión en España, ni de Movistar ni de RTVE. Tampoco está confirmado si el plan Libre de Movistar, el de 9,99 € sin fibra, incluirá algún partido. Actualizaremos esta guía cuando se anuncie.
+
+## Verla desde el móvil
+
+Si la emite Movistar, como en las últimas ediciones, los partidos estarán también en su aplicación para móvil, tableta y ordenador, incluida en los paquetes. Dentro de la Unión Europea, la normativa de portabilidad permite usar la suscripción en viajes temporales.
+
+Los cruces y resultados, en la sección de la [Supercopa](/futbol/supercopa). La Copa del Rey, con sus rondas y lo que va en abierto, tiene [su propia guía](/noticias/donde-ver-copa-del-rey-2026-27-rtve-movistar-gratis-calendario-final), y LaLiga, [la suya](/noticias/donde-ver-laliga-2026-27-movistar-dazn-precios-jornadas-exclusivas-clasico).`,
+    category: 'general',
+    competition: {"name":"Supercopa de España","sport":"futbol","slug":"supercopa"},
+    sourceName: "FC Barcelona",
+    sourceUrl: "https://www.fcbarcelona.es/es/noticias/4577816/confirmados-los-horarios-y-las-sedes-de-la-supercopa",
+    sourceLang: 'es',
+    publishedAt: '2026-11-04T16:39:32+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Galatasaray_Nef_Stadium_before_match_2022.jpg/1280px-Galatasaray_Nef_Stadium_before_match_2022.jpg",
+      alt: "Aficionados agitando bufandas en la grada del estadio del Galatasaray en Estambul, con el sol poniéndose bajo la cubierta antes de un partido",
+      credit: "Antoloji · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+    sourcesSecondary: [
+      { name: "RFEF: la Supercopa 2027 se celebrará en Estambul", url: "https://rfef.es/es/noticias/la-supercopa-de-espana-2027-se-celebrara-en-estambul" },
+      { name: "Sportcal: Estambul y el contrato saudí", url: "https://www.sportcal.com/?p=152888" },
+      { name: "Roams: precios de Movistar Fútbol", url: "https://roams.es/companias-telefonicas/movistar/guias/television/partidos-futbol/" },
+    ],
+  },
+  {
+    slug: 'donde-ver-nations-league-2026-27-espana-la-1-dazn-chequia-inglaterra',
+    title: "La Nations League 2026-27 en televisión: España ante Chequia e Inglaterra y la fase final",
+    summary: "Los partidos de España en la Nations League 2026-27 se ven gratis en televisión, y el resto de selecciones, en una plataforma de pago. Dónde ver el Chequia-España del 12 de noviembre y el España-Inglaterra del 15, los cuartos de marzo y la fase final de junio.",
+    body: `España juega la Nations League en abierto: La 1 y RTVE Play emiten en exclusiva sus partidos de la fase de grupos y de los cuartos de final. El resto de la competición está en [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome), dentro de sus planes Fútbol y Premium, que dan los partidos de España solo en diferido hasta la fase final. Si la selección llega a esa fase final, en junio, la emitirán a la vez La 1 y DAZN.
+
+*Esta guía lleva enlaces de afiliado a DAZN. Si contratas desde ellos, Mundiales recibe una comisión sin coste extra para ti. No cambia lo que contamos.*
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| La 1 y RTVE Play | Todos los partidos de España en directo: grupo, cuartos y fase final | Gratis |
+| [DAZN Fútbol](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) | El resto de la Nations League en directo, España en diferido y la fase final completa | Desde 14,99 €/mes en oferta (precio habitual, desde 19,99 €) |
+| [DAZN Premium](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) | Lo mismo, más el resto del catálogo deportivo de DAZN | Desde 25,99 €/mes en oferta (habitual, desde 31,99 €) |
+| DAZN gratis, con registro | Una selección de partidos y los resúmenes | 0 € |
+
+El reparto lo explican [Flashscore](https://www.flashscore.es/noticias/futbol-uefa-nations-league-espana-en-la-nations-league-2026-27-calendario-y-horario-de-partidos/K6AjdaVQ/) y [Xataka](https://www.xatakamovil.com/tv-movil/exito-mundial-dazn-se-asegura-uefa-nations-league-clasificacion-euro-2028): DAZN compró a la UEFA 504 partidos de selecciones entre septiembre de 2026 y junio de 2028, Nations League y clasificación para la Eurocopa 2028 incluidas, pero los de España son de RTVE. Los precios de DAZN son los de su web a 4 de noviembre.
+
+## Los dos partidos de noviembre
+
+| Partido | Fecha y hora | Estadio | Dónde |
+| --- | --- | --- | --- |
+| Chequia - España | Jueves 12 de noviembre, 20:45 | Epet Arena (Praga) | La 1 y RTVE Play |
+| España - Inglaterra | Domingo 15 de noviembre, 20:45 | Metropolitano (Madrid) | La 1 y RTVE Play |
+
+España ya tiene plaza en cuartos. Suma 12 puntos de 12, tres más que Inglaterra, [según Betbrothers](https://betbrothers.es/noticias/que-necesita-espana-clasificarse-cuartos-nations-league/), tras ganar 2-3 en Wembley en el estreno. En noviembre se juega el primer puesto del grupo A3, que completan Croacia y Chequia. Los dos primeros de cada grupo de la Liga A pasan a cuartos.
+
+## Lo que viene después
+
+| Fase | Fechas | Dónde la ve España |
+| --- | --- | --- |
+| Cuartos de final, ida y vuelta | Entre el 25 y el 30 de marzo de 2027 | La 1 y RTVE Play |
+| Fase final (semifinales, tercer puesto y final) | Del 9 al 13 de junio de 2027 | La 1, RTVE Play y DAZN |
+
+La sede de la fase final no está decidida, [según la UEFA](https://www.uefa.com/uefanationsleague/news/029a-1de725e2fa99-7e2d95e76233-1000--uefa-nations-league-2026-27-todo-lo-que-necesitas-saber/), que tampoco da aún por cerradas las fechas. Los cuartos enfrentan a los ganadores y los segundos de los cuatro grupos de la Liga A.
+
+## Por qué la selección sigue en abierto
+
+RTVE se hizo con los partidos de la selección masculina de 2026 a 2028 por unos 60 millones de euros, [según Advanced Television](https://advanced-television.com/2025/01/31/spain-rtve-scores-euro-2028-rights). El contrato cubre la Nations League 2026-27, la clasificación para la Eurocopa 2028 y la propia Eurocopa. La audiencia acompaña: el Inglaterra-España de Wembley lo vieron 4.356.000 espectadores en La 1, un 43 % de cuota de pantalla, [según FórmulaTV](https://www.formulatv.com/audiencias/2026-09-26/).
+
+## Cuándo pagar DAZN
+
+Solo si quieres ver al resto de selecciones: Inglaterra, Francia, Alemania, Italia o Países Bajos se emiten en directo en DAZN, y el primer partido elegido de cada jornada va a la vez en un canal en abierto. Para ver a España no hace falta pagar nada, ni siquiera en la fase final.
+
+Clasificación y resultados de todos los grupos, en la sección de la [Nations League](/futbol/nations-league). El calendario completo de la selección está en [cuándo juega España](/cuando-juega-espana), y el resto de competiciones, en la [guía de dónde ver el deporte en España](/noticias/donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1).`,
+    category: 'general',
+    competition: {"name":"Nations League","sport":"futbol","slug":"nations-league"},
+    sourceName: "Flashscore",
+    sourceUrl: "https://www.flashscore.es/noticias/futbol-uefa-nations-league-espana-en-la-nations-league-2026-27-calendario-y-horario-de-partidos/K6AjdaVQ/",
+    sourceLang: 'es',
+    publishedAt: '2026-11-04T16:40:32+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Interior_del_estadio_Carlos_Tartiere.jpg/1280px-Interior_del_estadio_Carlos_Tartiere.jpg",
+      alt: "Césped y gradas vacías del estadio Carlos Tartiere de Oviedo, visto desde detrás de una portería bajo la cubierta metálica",
+      credit: "Sergio M. Alonso · Wikimedia Commons",
+      license: "CC BY-SA 3.0",
+    },
+    sourcesSecondary: [
+      { name: "Xataka: DAZN se asegura la Nations League", url: "https://www.xatakamovil.com/tv-movil/exito-mundial-dazn-se-asegura-uefa-nations-league-clasificacion-euro-2028" },
+      { name: "UEFA: Nations League 2026-27, todo lo que necesitas saber", url: "https://www.uefa.com/uefanationsleague/news/029a-1de725e2fa99-7e2d95e76233-1000--uefa-nations-league-2026-27-todo-lo-que-necesitas-saber/" },
+      { name: "FórmulaTV: audiencias del 26 de septiembre", url: "https://www.formulatv.com/audiencias/2026-09-26/" },
+      { name: "Advanced Television: RTVE y la selección 2026-2028", url: "https://advanced-television.com/2025/01/31/spain-rtve-scores-euro-2028-rights" },
+    ],
+  },
+  {
+    slug: 'donde-ver-champions-femenina-2026-27-espana-disney-precios-barca-real-madrid',
+    title: "La Champions femenina 2026-27 en España: dónde ver al Barça y al Madrid y qué cuesta",
+    summary: "Los 75 partidos de la Champions femenina 2026-27 se emiten en España dentro de una sola plataforma de streaming, sin pagar extra. Qué plan basta, cuánto cuesta, por qué ya no hay partidos gratis en YouTube y el calendario hasta la final de Varsovia.",
+    body: `La Champions femenina se ve en España en Disney+, que emite los 75 partidos de la temporada en directo y sin coste añadido sobre la suscripción. El plan más barato, Estándar con anuncios, cuesta 6,99 €/mes. No hay partidos en abierto ni en otras plataformas: DAZN no tiene la competición, y TVE solo da fútbol femenino de clubes en la Liga F.
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| Disney+ Estándar con anuncios | Los 75 partidos, en directo y a la carta | 6,99 €/mes |
+| Disney+ Estándar | Lo mismo, sin anuncios | 10,99 €/mes o 109,90 €/año |
+| Disney+ Prémium | Lo mismo, con más calidad de imagen y más pantallas | 15,99 €/mes o 159,90 €/año |
+| Televisión en abierto, DAZN, Movistar Plus+ | Nada | — |
+
+Los precios son los de la [web de Disney+](https://www.disneyplus.com/es-es), que ofrece además un plan de ahorro con seis meses de permanencia: 5,99 €, 8,99 € y 11,99 €/mes. Que los partidos van incluidos sin pagar más lo dice [la nota de Disney](https://prensa.disney.es/noticias/la-uefa-women%27s-champions-league-regresa-a-disney+-con-todos-los-partidos-en-directo-a-partir-de-hoy-22-de-septiembre) del 22 de septiembre.
+
+## De YouTube gratis a la suscripción
+
+Quien siguió la competición hace unos años recuerda otra cosa. Entre 2021 y 2025, DAZN emitía la Champions femenina y la colgaba gratis en YouTube. Desde 2025-26 los derechos son de Disney, con un acuerdo hasta 2029-30. El cambio tiene una consecuencia práctica: ya no hay forma legal de ver los partidos en España sin una suscripción de pago.
+
+Disney+ los emite en su sección de deportes, con la marca ESPN. Los días de partido, durante la fase liga y los cuartos, programa además *The Hangout*, un espacio de 18:00 a 23:30 que salta de un estadio a otro.
+
+## El Barça y el Madrid
+
+El Barcelona llega como vigente campeón y el Real Madrid es el otro español de la fase liga. La fase liga reúne a 18 equipos, que juegan seis partidos cada uno. Los cuatro primeros pasan directos a cuartos y del quinto al duodécimo se juegan una eliminatoria previa en febrero.
+
+## Lo que queda
+
+| Ronda | Fechas |
+| --- | --- |
+| Jornada 4 | 10 y 11 de noviembre de 2026 |
+| Jornada 5 | 18 y 19 de noviembre |
+| Jornada 6 | 16 de diciembre |
+| Eliminatoria previa | 3-4 y 10-11 de febrero de 2027 |
+| Cuartos | 23-24 de marzo y 31 de marzo-1 de abril |
+| Semifinales | 1-2 y 8-9 de mayo |
+| Final | Finales de mayo, Estadio Nacional de Varsovia |
+
+La UEFA aún no ha fijado el día exacto de la final. Los partidos entre semana suelen jugarse a las 18:45 o a las 21:00, hora peninsular, y la jornada 6 se juega toda el mismo día, el 16 de diciembre.
+
+## En el móvil y fuera de España
+
+Disney+ funciona en su aplicación para móvil, tableta, ordenador, televisor y consolas. Dentro de la Unión Europea, la suscripción española sigue funcionando en viajes temporales.
+
+La tabla, los resultados y las eliminatorias, en la sección de la [Champions femenina](/futbol/champions-femenina). La Liga F, que sí tiene partidos gratis en TVE y TV3, tiene [su propia guía](/noticias/donde-ver-liga-f-champions-femenina-2026-27-dazn-tve-disney-gratis), y su clasificación está en la [Liga F](/futbol/liga-f).`,
+    category: 'general',
+    competition: {"name":"Champions League femenina","sport":"futbol","slug":"champions-femenina"},
+    sourceName: "Disney España",
+    sourceUrl: "https://prensa.disney.es/noticias/la-uefa-women's-champions-league-regresa-a-disney+-con-todos-los-partidos-en-directo-a-partir-de-hoy-22-de-septiembre",
+    sourceLang: 'es',
+    publishedAt: '2026-11-04T16:41:32+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Real_Madrid_vs_Barcelona_22_03_2022.jpg/1280px-Real_Madrid_vs_Barcelona_22_03_2022.jpg",
+      alt: "Jugadoras del Barcelona, de amarillo, y del Real Madrid, de negro, disputan el balón en un partido nocturno de Champions en el estadio Alfredo Di Stéfano",
+      credit: "Alonso Hernández 1903 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+    sourcesSecondary: [
+      { name: "Disney+: planes y precios", url: "https://www.disneyplus.com/es-es" },
+      { name: "Wikipedia: calendario de la Champions femenina 2026-27", url: "https://en.wikipedia.org/wiki/2026%E2%80%9327_UEFA_Women%27s_Champions_League" },
+    ],
+  },
+  {
+    slug: 'donde-ver-conference-league-2026-27-espana-movistar-precios-getafe',
+    title: "La Conference League 2026-27 en televisión: dónde seguir al Getafe y cuánto cuesta",
+    summary: "La Conference League 2026-27 es de Movistar Plus+ en exclusiva, y su plan barato no concreta qué partidos da. Cuánto cuesta ver al Getafe, único español en la fase liga, sus seis rivales, las fechas que quedan y la final de Estambul.",
+    body: `El Getafe es este año el único equipo español en la Conference League, y para verlo jugar cada jueves hay que pagar el paquete grande de [Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fconference-league), que tiene la competición en exclusiva. Ese paquete, el de Champions, cuesta 24 €/mes y solo se vende sobre una tarifa miMovistar con fibra y móvil. El plan Libre de 9,99 €/mes no especifica qué partidos de Conference incluye. Nada se emite en abierto.
+
+*Los enlaces a Movistar Plus+ de esta guía son de afiliado: si contratas desde ellos, Mundiales cobra una comisión y tú pagas lo mismo. No cambia lo que contamos.*
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| [Movistar Plus+ con el paquete Champions](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fchampions-league) | Toda la Conference, la Champions, la Europa League y la Supercopa de Europa | 24 €/mes sobre la tarifa miMovistar: desde 77 €/mes en total |
+| [Movistar Plus+ con Fútbol Total](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol) | Lo anterior más LaLiga entera, la Copa del Rey y la Supercopa de España | 50 €/mes sobre la tarifa: desde 103 €/mes en total |
+| [Movistar Plus+ Libre](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fplanes%2Flibre) | Un partido por jornada de Champions y otro de Europa League; de la Conference, Movistar no concreta | 9,99 €/mes, sin permanencia |
+| DAZN y televisión en abierto | Nada | — |
+
+Los precios de los paquetes son los que recoge [Roams](https://roams.es/companias-telefonicas/movistar/guias/television/partidos-futbol/) a 1 de noviembre, con Movistar Base (53 €/mes) como tarifa más barata. En su [página de la Conference](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fconference-league), Movistar habla de «los partidos más destacados» y avisa de que la oferta concreta depende del paquete contratado.
+
+## El plan Libre y la Conference: el matiz
+
+Es la diferencia con la Europa League. Para esa competición, Movistar promete en su plan Libre un partido por jornada. Para la Conference no hay compromiso escrito. Si lo que quieres es seguir al Getafe, el plan Libre es una apuesta: puede que su partido entre y puede que no. Con el paquete Champions o con Fútbol Total están todos.
+
+## El Getafe y sus seis rivales
+
+En la Conference nadie entra directo: los 36 equipos de la fase liga llegan desde las rondas previas de la propia Conference o rebotados de la Europa League. El sorteo del 28 de agosto en Mónaco le dio al Getafe estos rivales, [según El Gol Digital](https://www.elgoldigital.com/futbol/conference-league/getafe-rivales-conference-league-fase-liga-2026-27/):
+
+| En el Coliseum | Fuera de casa |
+| --- | --- |
+| Brighton & Hove Albion (Inglaterra) | Ajax (Países Bajos) |
+| FC Lugano (Suiza) | Universitatea Craiova (Rumanía) |
+| Inter Club d'Escaldes (Andorra) | Iberia 1999 (Georgia) |
+
+Son seis partidos, tres en casa y tres fuera. Los ocho primeros de la tabla de 36 pasan directos a octavos; del noveno al vigésimo cuarto juegan una eliminatoria previa en febrero. El club busca el primer título europeo de su historia. La temporada pasada el Rayo Vallecano llegó a la final y la perdió por 1-0 ante el Crystal Palace. El campeón gana plaza en la fase liga de la Europa League siguiente.
+
+## Lo que queda de temporada
+
+| Ronda | Fechas |
+| --- | --- |
+| Jornada 3 | Jueves 5 de noviembre de 2026 |
+| Jornada 4 | 26 de noviembre |
+| Jornada 5 | 10 de diciembre |
+| Jornada 6 | 17 de diciembre |
+| Sorteo de la eliminatoria previa | 15 de enero de 2027 |
+| Eliminatoria previa | 18 y 25 de febrero |
+| Octavos | 11 y 18 de marzo |
+| Cuartos | 8 y 15 de abril |
+| Semifinales | 29 de abril y 6 de mayo |
+| Final | Miércoles 2 de junio, estadio del Beşiktaş (Estambul) |
+
+El calendario es el que publica [Flashscore](https://www.flashscore.com.mx/noticias/futbol-conference-league-todo-lo-que-necesitas-saber-sobre-la-conference-league-26-27-sorteos-fechas-y-mas/rJQSmaLh/) a partir de las fechas de la UEFA. La fase liga termina antes de Navidad, más de un mes antes que la de la Europa League. Los partidos se juegan en jueves, por lo general a las 18:45 o a las 21:00, hora peninsular.
+
+## Desde el móvil o desde fuera
+
+Los partidos de Movistar se ven también en su aplicación para móvil, tableta y ordenador. Dentro de la Unión Europea, la normativa de portabilidad permite usar la suscripción española en viajes temporales.
+
+## Y a partir de 2027-28
+
+Esta temporada es la última del contrato actual. Telefónica se quedó en noviembre de 2025 con la Conference, la Champions y la Europa League de 2027-28 a 2030-31, en una adjudicación provisional pendiente de contrato con la UEFA, [según eldiario.es](https://www.eldiario.es/vertele/noticias/telefonica-adquiere-derechos-champions-league-2031-1464-millones-euros_1_12785352.html).
+
+Resultados y clasificación, en la sección de la [Conference League](/futbol/conference-league). La Real Sociedad y el Celta tienen su [guía de la Europa League](/noticias/donde-ver-europa-league-2026-27-espana-movistar-precios-real-sociedad-celta), y la [Champions](/futbol/champions-league), la [suya](/noticias/donde-ver-champions-league-2026-27-espana-movistar-precios-final-metropolitano).`,
+    category: 'general',
+    competition: {"name":"Conference League","sport":"futbol","slug":"conference-league"},
+    sourceName: "Movistar Plus+",
+    sourceUrl: "https://www.movistarplus.es/deportes/futbol/conference-league",
+    sourceLang: 'es',
+    publishedAt: '2026-11-04T16:42:32+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Be%C5%9Fikta%C5%9F_J.K._vs_Bursaspor_11_April_2016_%283%29.jpg/1280px-Be%C5%9Fikta%C5%9F_J.K._vs_Bursaspor_11_April_2016_%283%29.jpg",
+      alt: "Estadio del Beşiktaş en Estambul, iluminado de noche y con las gradas llenas, durante un partido de liga",
+      credit: "Sakhalinio · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+    sourcesSecondary: [
+      { name: "Flashscore: fechas de la Conference 2026-27", url: "https://www.flashscore.com.mx/noticias/futbol-conference-league-todo-lo-que-necesitas-saber-sobre-la-conference-league-26-27-sorteos-fechas-y-mas/rJQSmaLh/" },
+      { name: "El Gol Digital: rivales del Getafe", url: "https://www.elgoldigital.com/futbol/conference-league/getafe-rivales-conference-league-fase-liga-2026-27/" },
+      { name: "Roams: precios de Movistar Fútbol", url: "https://roams.es/companias-telefonicas/movistar/guias/television/partidos-futbol/" },
+      { name: "eldiario.es: los derechos UEFA hasta 2031", url: "https://www.eldiario.es/vertele/noticias/telefonica-adquiere-derechos-champions-league-2031-1464-millones-euros_1_12785352.html" },
+    ],
+  },
+  {
+    slug: 'donde-ver-europa-league-2026-27-espana-movistar-precios-real-sociedad-celta',
+    title: "Cómo ver la Europa League 2026-27 en España: planes, precios y los jueves de la Real y el Celta",
+    summary: "La Europa League 2026-27 se emite en España solo en Movistar Plus+. Qué plan da un partido por jornada y cuál la competición entera, cuánto cuesta cada uno, el calendario de la Real Sociedad y el Celta y qué cambia con los derechos desde 2027-28.",
+    body: `La Europa League se ve en España solo en [Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Feuropa-league), que tiene los derechos en exclusiva hasta el final de esta temporada. La puerta más barata es su plan Libre: 9,99 €/mes, sin permanencia y con cualquier operador, a cambio de un solo partido por jornada. La competición entera exige el paquete Champions, 24 €/mes sobre una tarifa miMovistar con fibra y móvil. No hay ningún partido anunciado en abierto.
+
+*Esta guía incluye enlaces de afiliado a plataformas de televisión. Si contratas desde ellos, Mundiales recibe una comisión sin coste extra para ti. No cambia lo que contamos.*
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| [Movistar Plus+ Libre](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fplanes%2Flibre) | Un partido de Europa League por jornada o ronda, el mejor de cada jornada de Champions, LaLiga Hypermotion entera y un partido de LaLiga y otro de Premier por jornada | 9,99 €/mes, sin permanencia |
+| [Movistar Plus+ con el paquete Champions](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fchampions-league) | Toda la Europa League, la Champions, la Conference League y la Supercopa de Europa | 24 €/mes sobre la tarifa miMovistar: desde 77 €/mes en total |
+| [Movistar Plus+ con Fútbol Total](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol) | Lo anterior más LaLiga, la Copa del Rey y la Supercopa de España | 50 €/mes sobre la tarifa: desde 103 €/mes en total |
+| DAZN y televisión en abierto | Nada: no tienen derechos | — |
+
+Los totales parten de Movistar Base, la tarifa miMovistar más barata (53 €/mes), [según el comparador Roams](https://roams.es/companias-telefonicas/movistar/guias/television/partidos-futbol/), con precios actualizados el 1 de noviembre. El paquete Champions y Fútbol Total solo se venden con fibra y móvil de Movistar; el plan Libre funciona sobre la conexión de cualquier compañía.
+
+## Qué plan te conviene
+
+Si eres de la Real Sociedad o del Celta, el plan Libre se queda corto. Movistar elige un partido por jornada entre los 18 que se juegan, y con dos equipos españoles en liza no hay garantía de que sea el tuyo. Para no perderte ningún jueves de tu equipo hace falta el paquete Champions.
+
+El plan Libre encaja en otro perfil: quien quiere un partido europeo a la semana y aprovecha el resto del lote, con la Segunda División completa, la FA Cup y el mejor partido de cada jornada de Champions. Fútbol Total solo compensa si además quieres LaLiga entera, porque incluye los partidos de DAZN.
+
+## La Real Sociedad y el Celta
+
+España tiene dos equipos en la fase liga, [según la UEFA](https://www.uefa.com/uefaeuropaleague/news/02a8-21736915629b-4a55f92ef98a-1000--europa-league-2026-27-conoce-a-los-equipos-de-la-fase-liga/). La Real Sociedad entró como campeona de la Copa del Rey. El Celta, por su sexto puesto en LaLiga, después de llegar a cuartos de final la temporada pasada.
+
+Cada club juega ocho partidos contra ocho rivales distintos, cuatro en casa y cuatro fuera. Los ocho primeros de la tabla pasan directos a octavos. Del noveno al vigésimo cuarto juegan una eliminatoria previa en febrero, y del 25.º en adelante quedan fuera. El próximo partido de la Real es este jueves 5 de noviembre, en casa ante el Olympique de Lyon.
+
+## El calendario que queda
+
+| Ronda | Fechas |
+| --- | --- |
+| Jornada 4 | Jueves 5 de noviembre de 2026 |
+| Jornada 5 | 26 de noviembre |
+| Jornada 6 | 10 de diciembre |
+| Jornada 7 | 21 de enero de 2027 |
+| Jornada 8 | 28 de enero |
+| Eliminatoria previa | 18 y 25 de febrero |
+| Octavos | 11 y 18 de marzo |
+| Cuartos | 8 y 15 de abril |
+| Semifinales | 29 de abril y 6 de mayo |
+| Final | Miércoles 26 de mayo, Stadion Frankfurt (Fráncfort) |
+
+Las fechas son las del [calendario oficial de la UEFA](https://www.uefa.com/uefaeuropaleague/news/02a6-20d57f6cc460-c1e86a0e41a8-1000--europa-league-2026-27-equipos-fechas-sorteos-formato-final/), que avisa de que pueden cambiar. La Europa League se juega en jueves, con partidos a las 18:45 y a las 21:00, hora peninsular. El campeón se lleva una plaza en la fase liga de la Champions 2027-28 y juega la Supercopa de Europa contra el ganador de la Champions.
+
+## En el móvil y de viaje
+
+La suscripción de Movistar Plus+ funciona en su aplicación para móvil, tableta, ordenador y televisor. El plan Libre permite dos reproducciones a la vez. Si viajas por la Unión Europea, la normativa de portabilidad te deja usar la cuenta durante estancias temporales; fuera de la UE, los partidos no están disponibles.
+
+## Lo que cambia desde 2027-28
+
+Nada para esta temporada. Para las cuatro siguientes, Telefónica se adjudicó en noviembre de 2025 la Champions, la Europa League y la Conference de 2027-28 a 2030-31 por 1.464 millones de euros, [según eldiario.es](https://www.eldiario.es/vertele/noticias/telefonica-adquiere-derechos-champions-league-2031-1464-millones-euros_1_12785352.html). La adjudicación era provisional, pendiente de firmar el contrato con la UEFA.
+
+Clasificación, resultados y cruces, en la sección de la [Europa League](/futbol/europa-league). La Champions tiene su [guía propia](/noticias/donde-ver-champions-league-2026-27-espana-movistar-precios-final-metropolitano), y la Conference, la del Getafe, [la suya](/noticias/donde-ver-conference-league-2026-27-espana-movistar-precios-getafe). Los partidos de cada día, en [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    competition: {"name":"Europa League","sport":"futbol","slug":"europa-league"},
+    sourceName: "UEFA",
+    sourceUrl: "https://www.uefa.com/uefaeuropaleague/news/02a6-20d57f6cc460-c1e86a0e41a8-1000--europa-league-2026-27-equipos-fechas-sorteos-formato-final/",
+    sourceLang: 'es',
+    publishedAt: '2026-11-04T16:43:32+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Match_Frankfurt_-_Marseille_in_November_2018.jpg/1280px-Match_Frankfurt_-_Marseille_in_November_2018.jpg",
+      alt: "Gradas llenas y bengalas en el estadio de Fráncfort antes de un partido de Europa League, con los equipos formados junto al círculo central",
+      credit: "Msgarak · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+    sourcesSecondary: [
+      { name: "Movistar Plus+: la Europa League", url: "https://www.movistarplus.es/deportes/futbol/europa-league" },
+      { name: "Roams: precios de Movistar Fútbol", url: "https://roams.es/companias-telefonicas/movistar/guias/television/partidos-futbol/" },
+      { name: "UEFA: equipos de la fase liga", url: "https://www.uefa.com/uefaeuropaleague/news/02a8-21736915629b-4a55f92ef98a-1000--europa-league-2026-27-conoce-a-los-equipos-de-la-fase-liga/" },
+      { name: "eldiario.es: los derechos UEFA hasta 2031", url: "https://www.eldiario.es/vertele/noticias/telefonica-adquiere-derechos-champions-league-2031-1464-millones-euros_1_12785352.html" },
+    ],
+  },
+  {
     slug: 'lautaro-spatz-andorra-defiende-owono-acciones-fortuitas-carta-instagram-jesus-de-miguel-funeral-navahermosa',
     title: 'Lautaro Spatz, el compañero que defiende a Owono: «En el fútbol existen acciones fortuitas»',
     summary: 'El central argentino del Andorra publicó una carta tras la muerte de Jesús de Miguel para pedir que no se culpe a su portero, que cerró sus redes. Qué dice y quién es Spatz.',

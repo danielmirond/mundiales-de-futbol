@@ -1,1 +1,158 @@
-{}
+{
+  "brasileirao": {
+    "slug": "donde-ver-brasileirao-espana-2026-movistar-fanatiz-recta-final",
+    "label": "el Brasileirão"
+  },
+  "carabao-cup": {
+    "slug": "donde-ver-carabao-cup-2026-27-espana-sin-emision-cuartos-final",
+    "label": "la Carabao Cup"
+  },
+  "champions-ehf": {
+    "slug": "donde-ver-champions-ehf-balonmano-2026-27-espana-ehftv-barca-final4",
+    "label": "la Champions League de balonmano"
+  },
+  "champions-femenina": {
+    "slug": "donde-ver-champions-femenina-2026-27-espana-disney-precios-barca-real-madrid",
+    "label": "la Champions League femenina"
+  },
+  "championship": {
+    "slug": "donde-ver-championship-inglesa-espana-2026-27-sin-tv-pases-clubes",
+    "label": "la Championship"
+  },
+  "conference-league": {
+    "slug": "donde-ver-conference-league-2026-27-espana-movistar-precios-getafe",
+    "label": "la Conference League"
+  },
+  "copa-de-francia": {
+    "slug": "donde-ver-copa-de-francia-espana-2026-27-derechos-calendario-treintaidosavos",
+    "label": "la Copa de Francia"
+  },
+  "copa-del-rey": {
+    "slug": "donde-ver-copa-del-rey-2026-27-rtve-movistar-gratis-calendario-final",
+    "label": "la Copa del Rey"
+  },
+  "coppa-italia": {
+    "slug": "donde-ver-coppa-italia-2026-27-espana-dazn-octavos-final-roma",
+    "label": "la Coppa Italia"
+  },
+  "dfb-pokal": {
+    "slug": "donde-ver-copa-alemania-dfb-pokal-espana-2026-27-movistar-dfb-play-octavos",
+    "label": "la Copa de Alemania"
+  },
+  "dp-world-tour": {
+    "slug": "donde-ver-dp-world-tour-espana-race-to-dubai-movistar-chacarra-rahm",
+    "label": "el DP World Tour"
+  },
+  "ehf-european-league": {
+    "slug": "donde-ver-ehf-european-league-2026-27-espana-granollers-bidasoa-logrono",
+    "label": "la EHF European League"
+  },
+  "europa-league": {
+    "slug": "donde-ver-europa-league-2026-27-espana-movistar-precios-real-sociedad-celta",
+    "label": "la Europa League"
+  },
+  "fa-cup": {
+    "slug": "donde-ver-fa-cup-2026-27-espana-movistar-plus-rondas-final-wembley",
+    "label": "la FA Cup"
+  },
+  "liga-argentina": {
+    "slug": "donde-ver-liga-argentina-espana-2026-clausura-movistar-fanatiz-afa-play",
+    "label": "la Liga Argentina"
+  },
+  "liga-asobal": {
+    "slug": "donde-ver-liga-asobal-2026-27-asobal-tv-eurosport-teledeporte-precios",
+    "label": "la Liga Asobal"
+  },
+  "liga-guerreras": {
+    "slug": "donde-ver-liga-guerreras-iberdrola-2026-27-teledeporte-youtube-gratis",
+    "label": "la Liga Guerreras Iberdrola"
+  },
+  "liga-mx": {
+    "slug": "donde-ver-liga-mx-espana-apertura-2026-liguilla-derechos-horarios",
+    "label": "la Liga MX"
+  },
+  "lpga": {
+    "slug": "donde-ver-lpga-espana-cme-group-tour-championship-movistar-ciganda",
+    "label": "la LPGA"
+  },
+  "mlb": {
+    "slug": "donde-ver-mlb-espana-2027-movistar-mlb-tv-horarios-cierre-patronal",
+    "label": "la MLB"
+  },
+  "mls": {
+    "slug": "donde-ver-mls-espana-2026-apple-tv-playoffs-mls-cup-precio-horarios",
+    "label": "la MLS"
+  },
+  "mundial-de-balonmano": {
+    "slug": "donde-ver-mundial-balonmano-2027-espana-hispanos-alemania-calendario",
+    "label": "el Mundial de balonmano"
+  },
+  "mundial-de-rugby": {
+    "slug": "donde-ver-mundial-rugby-2027-australia-espana-grupo-horarios-television",
+    "label": "el Mundial de rugby"
+  },
+  "nations-league": {
+    "slug": "donde-ver-nations-league-2026-27-espana-la-1-dazn-chequia-inglaterra",
+    "label": "la UEFA Nations League"
+  },
+  "ncaa-football": {
+    "slug": "donde-ver-ncaa-futbol-americano-espana-2026-27-college-football-playoff-bowls",
+    "label": "la NCAA de fútbol americano"
+  },
+  "nhl": {
+    "slug": "donde-ver-nhl-espana-2026-27-disney-espn-movistar-horarios-global-series",
+    "label": "la NHL"
+  },
+  "pga-tour": {
+    "slug": "donde-ver-pga-tour-espana-2026-27-movistar-hbo-max-precios-rahm",
+    "label": "el PGA Tour"
+  },
+  "premiership-rugby": {
+    "slug": "donde-ver-premiership-rugby-espana-2026-27-canales-precios-calendario",
+    "label": "la Premiership Rugby"
+  },
+  "primera-federacion": {
+    "slug": "donde-ver-primera-federacion-2026-27-footballclub-fanplay-movistar-dazn-autonomicas",
+    "label": "la Primera Federación"
+  },
+  "rugby-championship": {
+    "slug": "donde-ver-rugby-championship-2027-espana-nations-championship-calendario",
+    "label": "The Rugby Championship"
+  },
+  "segunda-federacion": {
+    "slug": "donde-ver-segunda-federacion-2026-27-plataformas-clubes-autonomicas",
+    "label": "la Segunda Federación"
+  },
+  "seis-naciones": {
+    "slug": "donde-ver-seis-naciones-2027-espana-television-calendario-horarios",
+    "label": "el Seis Naciones"
+  },
+  "sport:balonmano": {
+    "slug": "donde-ver-balonmano-espana-2026-27-asobal-guerreras-champions-mundial",
+    "label": "el balonmano"
+  },
+  "sport:futbol-americano": {
+    "slug": "donde-ver-futbol-americano-espana-2026-27-nfl-ncaa-super-bowl-bernabeu",
+    "label": "el fútbol americano"
+  },
+  "sport:golf": {
+    "slug": "donde-ver-golf-espana-2026-27-movistar-majors-ryder-cup-liv-precios",
+    "label": "el golf"
+  },
+  "sport:rugby": {
+    "slug": "donde-ver-rugby-espana-2026-27-seis-naciones-mundial-champions-cup-ligas",
+    "label": "el rugby"
+  },
+  "supercopa": {
+    "slug": "donde-ver-supercopa-espana-2027-estambul-fechas-horarios-television",
+    "label": "la Supercopa de España"
+  },
+  "top-14": {
+    "slug": "donde-ver-top-14-rugby-espana-2026-27-canales-precios-espanoles",
+    "label": "el Top 14"
+  },
+  "urc": {
+    "slug": "donde-ver-urc-united-rugby-championship-espana-2026-27-precios-calendario",
+    "label": "la United Rugby Championship"
+  }
+}
