@@ -154,6 +154,389 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'donde-ver-superliga-turca-espana-2026-27-derechos-bein-galatasaray',
+    title: "La Süper Lig turca en España en 2026-27: quién la emite y qué partidos se pueden ver",
+    summary: "La liga turca no tiene televisión en España esta temporada. Por qué ninguna plataforma la ofrece, quién tiene los derechos hasta 2027, qué partidos de Galatasaray o Fenerbahçe sí se ven y cuándo son los derbis de Estambul.",
+    body: `No hemos encontrado ninguna plataforma que emita la Süper Lig turca en España en la temporada 2026-27. DAZN y Movistar Plus+, que reúnen casi todo el fútbol extranjero, no la incluyen en su oferta, y tampoco hay partidos en abierto. Los derechos de todo el mundo son de beIN Media Group hasta final de temporada, y, a 4 de noviembre, ningún operador español la ofrece. Lo único que se ve son los partidos europeos de los clubes turcos.
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| DAZN | Nada de Süper Lig | — |
+| Movistar Plus+ | Solo los partidos de los clubes turcos en Champions, Europa League y Conference League | Según el paquete |
+| Abierto (TDT, plataformas gratuitas) | Nada | — |
+
+## Por qué no se ve
+
+La federación turca adjudicó en 2024 la Süper Lig y la segunda división a Digiturk, la filial de beIN, por tres temporadas. Ese contrato incluye los derechos internacionales: beIN Sports emite la liga en todo el mundo hasta el final de la 2026-27, [según Fanatik](https://www.fanatik.com.tr/futbol/futbolun-kalbi-uc-yil-daha-bein-sportsta-atacak-2554141). En Turquía, la liga sigue en beIN Sports esta temporada, [como recoge CNBC-e](https://www.cnbce.com/spor-ekonomisi/2026-2027-futbol-sezonu-yayin-rehberi-hangi-lig-hangi-kanalda-h33883). Ni los planes de DAZN ni las secciones de fútbol de Movistar Plus+ la incluyen.
+
+A partir de 2027-28 habrá un nuevo contrato. La fecha del concurso y si cambiará algo para España están aún por conocer.
+
+## Lo que sí puedes ver
+
+Movistar Plus+ tiene en exclusiva la Champions, la Europa League y la Conference League, así que los partidos europeos de los clubes turcos se ven en España con la competición correspondiente. El reparto y los precios están en la [guía de la Champions](/noticias/donde-ver-champions-league-2026-27-espana-movistar-precios-final-metropolitano).
+
+Para la liga, la sección de la [Süper Lig](/futbol/super-lig) recoge resultados, clasificación y calendario con hora española.
+
+## Fechas y horarios
+
+Turquía está dos horas por delante de la España peninsular en invierno (una hora en verano). Un partido a las 20:00 en Estambul empieza a las 18:00 en Madrid. Las próximas citas destacadas, en hora peninsular:
+
+- **Sábado 7 de noviembre:** Galatasaray - Amed (17:00).
+- **Domingo 8 de noviembre:** Çorum - Fenerbahçe (14:00) y Beşiktaş - Gençlerbirliği (19:00).
+- **Lunes 30 de noviembre:** Beşiktaş - Galatasaray (19:00).
+- **Domingo 13 de diciembre:** Fenerbahçe - Trabzonspor (17:00).
+
+La temporada, con 18 equipos, empezó el 14 de agosto y termina el 23 de mayo de 2027.
+
+## Cuidado con las webs piratas
+
+Las webs que prometen la liga turca gratis desde España no tienen derechos. Si buscas otra liga extranjera, consulta la [guía de dónde ver el deporte en España](/noticias/donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1) o lo que se juega hoy en [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    competition: {"name":"Süper Lig","sport":"futbol","slug":"super-lig"},
+    sourceName: "Fanatik",
+    sourceUrl: "https://www.fanatik.com.tr/futbol/futbolun-kalbi-uc-yil-daha-bein-sportsta-atacak-2554141",
+    sourceLang: 'es',
+    publishedAt: '2026-11-04T17:00:59+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Fenerbah%C3%A7e_vs_Be%C5%9Fikta%C5%9F%2C_%C3%9Clker_Stadyumu_Fenerbah%C3%A7e_%C5%9E%C3%BCkr%C3%BC_Saraco%C4%9Flu_Spor_Kompleksi_20211219.jpg/1280px-Fenerbah%C3%A7e_vs_Be%C5%9Fikta%C5%9F%2C_%C3%9Clker_Stadyumu_Fenerbah%C3%A7e_%C5%9E%C3%BCkr%C3%BC_Saraco%C4%9Flu_Spor_Kompleksi_20211219.jpg",
+      alt: "El estadio Şükrü Saracoğlu de Estambul de noche, con las gradas iluminadas y el césped preparado antes de un Fenerbahçe - Beşiktaş",
+      credit: "Sureta · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+    sourcesSecondary: [
+      { name: "CNBC-e: guía de emisiones 2026-27", url: "https://www.cnbce.com/spor-ekonomisi/2026-2027-futbol-sezonu-yayin-rehberi-hangi-lig-hangi-kanalda-h33883" },
+      { name: "Fútbol por la tele: ligas en DAZN", url: "https://futbolporlatele.com/donde-ver-futbol-dazn/" },
+      { name: "Movistar Plus+: fútbol", url: "https://www.movistarplus.es/deportes/futbol" },
+    ],
+  },
+  {
+    slug: 'donde-ver-liga-portuguesa-espana-2026-27-dazn-sport-tv-precios',
+    title: "La liga portuguesa en televisión en 2026-27: qué partidos se ven en España y cuánto cuestan",
+    summary: "Ver la Primeira Liga desde España ya no es gratis. Quién emite los partidos de Benfica, Oporto y Sporting, cuántos por jornada, en qué idioma, qué cuesta cada opción y qué españoles juegan en Portugal.",
+    body: `La liga portuguesa se ve en España por dos vías de pago. [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) emite tres partidos por jornada, con narración en inglés, dentro de su plan Fútbol (19,99 €/mes con permanencia, ahora anunciado desde 14,99 €). Sport TV, la cadena portuguesa, vende en España una suscripción propia de 34,99 €/mes con toda su oferta de la Liga Portugal. RTP Internacional, que la emitió las dos temporadas y media anteriores, ya no la tiene.
+
+*Esta guía incluye enlaces de afiliado a plataformas de televisión. Si contratas desde ellos, Mundiales recibe una comisión sin coste extra para ti. No cambia lo que contamos.*
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| [DAZN Fútbol](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) | Tres partidos por jornada, en inglés | Desde 14,99 €/mes en oferta; 19,99 € con permanencia, 29,99 € sin ella |
+| DAZN GO | Un partido por jornada | Desde 4,99 €/mes |
+| Sport TV (app) | Sus contenidos de Primera y Segunda portuguesa | 34,99 €/mes |
+
+## Qué cambió este verano
+
+Durante dos temporadas y media la Primeira Liga llegó a España por RTP Internacional. DAZN ocupó su lugar en agosto gracias a un acuerdo con Sportfive, la agencia que vende los derechos internacionales de la liga, [según Inside World Football](https://www.insideworldfootball.com/2026/08/10/dazn-adds-portugals-primeira-liga-to-its-spanish-output/). El contrato cubre 2026-27 y 2027-28, y los partidos se ven en directo y a la carta, con comentarios en inglés, [según Señal News](https://senalnews.com/en/content/dazn-get-the-rights-of-three-liga-portugal-matches-for-spain). DAZN no tiene la exclusiva en España: por eso Sport TV puede vender su propia suscripción. A partir de 2028-29 los clubes portugueses venderán sus derechos de forma centralizada, así que el reparto puede volver a cambiar.
+
+## DAZN o Sport TV
+
+- **DAZN** compensa si ya lo pagas por LaLiga o por las otras grandes ligas: los tres partidos de Portugal entran sin coste extra. El inconveniente es que DAZN elige los partidos y que la narración es en inglés.
+- **Sport TV** lanzó en agosto un plan solo para particulares residentes en España, de 34,99 €/mes, que se contrata desde las tiendas de aplicaciones, [según el diario portugués ECO](https://eco.sapo.pt/2026/08/18/sport-tv-cria-plano-em-espanha-para-liga-portugal-betclic/). Incluye la Liga Portugal Betclic y la Segunda División. Ni ECO ni Sport TV detallan cuántos partidos por jornada incluye. Antes de pagar, comprueba en la app si están los del equipo que te interesa.
+
+## Horarios: una hora más que en Portugal
+
+Portugal va una hora por detrás de la España peninsular, y los horarios en España ya lo tienen en cuenta. Los grandes suelen jugar el sábado y el domingo entre las 19:00 y las 21:30. Las próximas citas:
+
+- **Sábado 7 de noviembre:** Sporting - Moreirense (21:30).
+- **Domingo 8 de noviembre:** Vitória de Guimarães - Oporto (19:00) y Estrela da Amadora - Benfica (21:30).
+- **Domingo 29 de noviembre:** Oporto - Sporting, el clásico (21:30).
+- **Domingo 13 de diciembre:** Benfica - Braga (21:00).
+
+La liga tiene 18 equipos y 34 jornadas. Clasificación y resultados, en la sección de la [Primeira Liga](/futbol/primeira-liga).
+
+## La colonia española
+
+Una treintena de españoles juegan en la Primeira Liga, [según Inside World Football](https://www.insideworldfootball.com/2026/08/10/dazn-adds-portugals-primeira-liga-to-its-spanish-output/).
+
+## Si eres de un equipo pequeño
+
+Ninguna de las dos opciones garantiza todos sus partidos. Para el resto del fútbol europeo, consulta la [guía de dónde ver el deporte en España](/noticias/donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1); para la jornada de hoy, [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    competition: {"name":"Primeira Liga","sport":"futbol","slug":"primeira-liga"},
+    sourceName: "Inside World Football",
+    sourceUrl: "https://www.insideworldfootball.com/2026/08/10/dazn-adds-portugals-primeira-liga-to-its-spanish-output/",
+    sourceLang: 'en',
+    publishedAt: '2026-11-04T17:01:59+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Est%C3%A1dio_Municipal_de_Braga_2021_%281%29.jpg/1280px-Est%C3%A1dio_Municipal_de_Braga_2021_%281%29.jpg",
+      alt: "La estructura de hormigón de una de las tribunas del Estádio Municipal de Braga, vista desde fuera bajo un cielo azul",
+      credit: "Joseolgon · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+    sourcesSecondary: [
+      { name: "Señal News: DAZN y la Liga Portugal", url: "https://senalnews.com/en/content/dazn-get-the-rights-of-three-liga-portugal-matches-for-spain" },
+      { name: "ECO: Sport TV lanza plan en España", url: "https://eco.sapo.pt/2026/08/18/sport-tv-cria-plano-em-espanha-para-liga-portugal-betclic/" },
+      { name: "Fútbol por la tele: planes de DAZN", url: "https://futbolporlatele.com/donde-ver-futbol-dazn/" },
+      { name: "Roams: DAZN GO", url: "https://roams.es/actualidad/telefonia/que-ver-dazn-go-4-99-euros-laliga-f1-motogp-nba-nfl-con-limites/" },
+    ],
+  },
+  {
+    slug: 'donde-ver-eredivisie-espana-2026-27-dazn-ajax-psv-feyenoord',
+    title: "La Eredivisie en España en 2026-27: cómo ver al Ajax, el PSV y el Feyenoord",
+    summary: "La liga neerlandesa se puede seguir en España desde este verano. Qué partidos se emiten en directo cada jornada, qué pasa con los equipos pequeños, cuánto cuesta, cuándo es el Klassieker y qué futbolistas españoles juegan allí.",
+    body: `La Eredivisie se ve este curso en [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome), que la incorporó en agosto: emite en directo al menos cuatro partidos por jornada, siempre los del Ajax, el PSV y el Feyenoord. Está dentro del plan Fútbol, que cuesta 19,99 €/mes con permanencia y que DAZN anuncia ahora desde 14,99 €. Con DAZN GO (desde 4,99 €) entra un partido por jornada. No hay alternativa en Movistar Plus+ ni en abierto.
+
+*Algunos enlaces de esta guía son de afiliado: si contratas desde ellos, Mundiales cobra una comisión y tú pagas lo mismo. No cambia lo que contamos.*
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| [DAZN Fútbol](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) | Cuatro partidos en directo por jornada, la Copa (KNVB Beker) y la Supercopa | Desde 14,99 €/mes en oferta; 19,99 € con permanencia, 29,99 € sin ella |
+| DAZN GO | Un partido por jornada | Desde 4,99 €/mes |
+
+## Qué entra en el paquete
+
+El acuerdo, [según Roams](https://roams.es/actualidad/telefonia/dazn-incorpora-eredivisie-extiende-serie-a/), incluye además de la liga:
+
+- La Supercopa neerlandesa y doce partidos de la KNVB Beker, la Copa.
+- Los seis partidos de los play-offs por la plaza de Conference League.
+- Veintidós partidos de la Eredivisie femenina y amistosos de la selección femenina neerlandesa.
+
+DAZN no ha dicho cuántas temporadas dura el contrato. La cobertura arrancó el 2 de agosto con la Supercopa; la liga empezó el 7.
+
+## El Klassieker y las fechas clave
+
+Los Países Bajos tienen la misma hora que la península. Los grandes suelen jugar el domingo a mediodía o a primera hora de la tarde (12:15, 14:30 o 16:45), y hay partidos el viernes y el sábado por la noche. Lo que viene:
+
+- **Domingo 8 de noviembre:** Heerenveen - Feyenoord (12:15), Twente - Ajax (14:30) y Cambuur - PSV (16:45).
+- **Domingo 29 de noviembre:** Feyenoord - Ajax, el Klassieker, en De Kuip (14:30).
+- **Sábado 5 de diciembre:** AZ - PSV (20:00).
+- **23 de mayo de 2027:** última jornada.
+
+Si el partido de tu equipo no está entre los elegidos esa semana, puede que no tengas dónde verlo en España. La lista de cada jornada aparece en la aplicación de DAZN unos días antes. Resultados y clasificación, en la sección de la [Eredivisie](/futbol/eredivisie).
+
+## Los españoles de la liga neerlandesa
+
+DAZN tiene un argumento propio para vender esta liga: varios españoles juegan en los grandes. Yarek Gasiorowski está en el PSV, y Mika Mármol y Nacho Ferri, en el Feyenoord, [según Inside World Football](https://www.insideworldfootball.com/2026/08/06/dazn-adds-dutch-football-to-spanish-broadcast-portfolio/).
+
+## ¿Merece la pena pagar solo por esto?
+
+Para un seguidor del Ajax, el PSV o el Feyenoord, sí: tiene todos sus partidos de liga. Para el resto, la cobertura es parcial. El plan Fútbol tiene sentido si además ves LaLiga o alguna otra de las cinco grandes ligas, que van incluidas; los precios completos de cada plan están en la [guía de dónde ver el deporte en España](/noticias/donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1). La agenda diaria, en [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    competition: {"name":"Eredivisie","sport":"futbol","slug":"eredivisie"},
+    sourceName: "Roams",
+    sourceUrl: "https://roams.es/actualidad/telefonia/dazn-incorpora-eredivisie-extiende-serie-a/",
+    sourceLang: 'es',
+    publishedAt: '2026-11-04T17:02:59+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Ajax_Werder_2007_%283199386177%29.jpg/1280px-Ajax_Werder_2007_%283199386177%29.jpg",
+      alt: "Las gradas multicolores del estadio del Ajax en Ámsterdam, vacías al terminar un partido, con el césped iluminado bajo la cubierta cerrada",
+      credit: "Bjørn Giesenbauer from Randers, Denmark · Wikimedia Commons",
+      license: "CC BY-SA 2.0",
+    },
+    sourcesSecondary: [
+      { name: "Inside World Football: DAZN y la Eredivisie", url: "https://www.insideworldfootball.com/2026/08/06/dazn-adds-dutch-football-to-spanish-broadcast-portfolio/" },
+      { name: "Fútbol por la tele: planes de DAZN", url: "https://futbolporlatele.com/donde-ver-futbol-dazn/" },
+      { name: "Roams: DAZN GO", url: "https://roams.es/actualidad/telefonia/que-ver-dazn-go-4-99-euros-laliga-f1-motogp-nba-nfl-con-limites/" },
+    ],
+  },
+  {
+    slug: 'donde-ver-ligue-1-espana-2026-27-dazn-precios-psg-luis-enrique',
+    title: "Dónde ver la Ligue 1 en España en 2026-27: el PSG de Luis Enrique, partido a partido",
+    summary: "La Ligue 1 vuelve a verse entera en España: qué plataforma tiene los nueve partidos de cada jornada, cuántos van narrados en castellano, cuánto cuesta y qué opción da un partido por semana por menos de cinco euros.",
+    body: `La Ligue 1 ha vuelto a la televisión española de la mano de [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome), que emite los nueve partidos de cada jornada, al menos dos con narración en castellano. Va incluida en el plan Fútbol: 19,99 €/mes con un año de permanencia, anunciado estos días desde 14,99 €. El plan DAZN GO, desde 4,99 €, da un partido por jornada. Ni Movistar Plus+ ni ningún canal en abierto la ofrecen.
+
+*Esta guía incluye enlaces de afiliado a plataformas de televisión. Si contratas desde ellos, Mundiales recibe una comisión sin coste extra para ti. No cambia lo que contamos.*
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| [DAZN Fútbol](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) | Toda la Ligue 1, nueve partidos por jornada | Desde 14,99 €/mes en oferta; 19,99 € con permanencia, 29,99 € sin ella |
+| DAZN GO | Un partido por jornada | 4,99 €/mes con permanencia, 7,99 € sin ella |
+| Movistar Plus+, Orange, abierto | Nada de Ligue 1 | — |
+
+## Cómo llegó a DAZN
+
+La liga francesa llevaba años sin una casa fija en España. DAZN cerró en mayo un acuerdo plurianual con LFP Media y empezó a emitirla el 13 de mayo, con el Lens - PSG en abierto para quien se registrara, [según Roams](https://roams.es/actualidad/telefonia/dazn-emitira-ligue-1-vuelve-espana-arranca-partido-gratis/). Es la primera vez desde 2017-18 que se puede ver la jornada completa en España, [recuerda Advanced Television](https://www.advanced-television.com/2026/05/07/dazn-to-broadcast-ligue-1-in-spain/). Ninguna de las dos partes ha hecho pública la duración del contrato.
+
+Quien ya paga el plan Fútbol o el Premium la tiene sin coste extra. En el mismo plan están LaLiga (cinco partidos por jornada), la Premier, la Serie A y la Bundesliga.
+
+## Narración en castellano o en francés
+
+DAZN garantiza al menos dos partidos por jornada con comentarios en castellano; el resto puede ir con el sonido internacional. Si te interesa un partido concreto, revisa la ficha del evento en la aplicación antes de que empiece.
+
+## El PSG de Luis Enrique
+
+Luis Enrique sigue al frente del PSG, que esta temporada vuelve a jugar la Champions, [según la RFEF](https://rfef.es/es/noticias/el-entrenador-espanol-brilla-con-luz-propia-en-la-uefa-champions-league-2026-2027). La Champions del PSG no está en DAZN: va en Movistar Plus+, como toda la competición europea.
+
+## Partidos y horarios de lo que queda
+
+Francia tiene la hora peninsular. Los horarios fijos son el viernes a las 20:45; el sábado a las 17:15 y 20:45, y el domingo a las 15:00, 17:15 y 20:45, con el gran partido del domingo por la noche. Lo más destacado de las próximas semanas:
+
+- **Sábado 7 de noviembre:** PSG - Troyes (20:45).
+- **Domingo 8 de noviembre:** Lens - Olympique de Marsella (20:45).
+- **Sábado 21 de noviembre:** Niza - PSG y Lille - Lyon.
+- **Domingo 13 de diciembre:** Lyon - Olympique de Marsella.
+
+La temporada, con 18 equipos y 34 jornadas, termina el 29 de mayo de 2027. Los horarios de diciembre pueden cambiar: el calendario actualizado está en la sección de la [Ligue 1](/futbol/ligue-1).
+
+## Lo que conviene saber
+
+Ninguna televisión ni plataforma española da partidos de la Ligue 1 en abierto esta temporada. Si quieres comparar con el resto del fútbol europeo, la [guía de la Premier League](/noticias/donde-ver-premier-league-espana-2026-27-dazn-movistar-precios-serie-a-bundesliga) explica qué se ve con cada plan, y [partidos de hoy](/partidos-hoy) reúne todo lo que se juega en el día.`,
+    category: 'general',
+    competition: {"name":"Ligue 1","sport":"futbol","slug":"ligue-1"},
+    sourceName: "Roams",
+    sourceUrl: "https://roams.es/actualidad/telefonia/dazn-emitira-ligue-1-vuelve-espana-arranca-partido-gratis/",
+    sourceLang: 'es',
+    publishedAt: '2026-11-04T17:03:59+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Marseille_Montpellier_Septembre_2009.jpg/1280px-Marseille_Montpellier_Septembre_2009.jpg",
+      alt: "El estadio Vélodrome de Marsella de noche, con el césped iluminado y los jugadores formados en el centro del campo antes de un partido",
+      credit: "sophie roques · Wikimedia Commons",
+      license: "CC BY 2.0",
+    },
+    sourcesSecondary: [
+      { name: "Advanced Television: DAZN y la Ligue 1", url: "https://www.advanced-television.com/2026/05/07/dazn-to-broadcast-ligue-1-in-spain/" },
+      { name: "Fútbol por la tele: planes de DAZN", url: "https://futbolporlatele.com/donde-ver-futbol-dazn/" },
+      { name: "RFEF: entrenadores españoles en la Champions", url: "https://rfef.es/es/noticias/el-entrenador-espanol-brilla-con-luz-propia-en-la-uefa-champions-league-2026-2027" },
+      { name: "Roams: DAZN GO", url: "https://roams.es/actualidad/telefonia/que-ver-dazn-go-4-99-euros-laliga-f1-motogp-nba-nfl-con-limites/" },
+    ],
+  },
+  {
+    slug: 'donde-ver-bundesliga-espana-2026-27-dazn-movistar-precios-horarios',
+    title: "La Bundesliga 2026-27 en España: dónde se ve, qué cuesta y a qué hora juegan",
+    summary: "Guía para ver la Bundesliga en España esta temporada: el plan que da los nueve partidos de cada jornada, las opciones de un partido por semana desde 4,99 €, los horarios fijos de cada franja y las fechas que quedan.",
+    body: `Toda la Bundesliga 2026-27 está en el plan Fútbol de [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome), con los nueve partidos de cada jornada y derechos en España hasta 2028-29. Ese plan cuesta 19,99 €/mes con permanencia de un año y DAZN lo anuncia ahora desde 14,99 €. Por menos dinero se ve un partido por jornada: DAZN GO (4,99 €), Orange TV Libre (7,99 €) o [Movistar Plus+ Libre](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fbundesliga) (9,99 €). Gratis no se emite ninguno.
+
+*Algunos enlaces de esta guía son de afiliado: si contratas desde ellos, Mundiales cobra una comisión y tú pagas lo mismo. No cambia lo que contamos.*
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| [DAZN Fútbol](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) | Los 306 partidos de la temporada | 19,99 €/mes con un año de permanencia (ahora desde 14,99 €), 29,99 € sin ella |
+| [DAZN Premium](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) | Lo mismo, más motor, NBA y ACB | 31,99 €/mes con permanencia (ahora desde 25,99 €) |
+| [Movistar Plus+ Libre](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fbundesliga) | Un partido por jornada | 9,99 €/mes, sin permanencia |
+| Orange TV Libre | Un partido por jornada | 7,99 €/mes |
+| DAZN GO | Un partido por jornada | Desde 4,99 €/mes |
+
+## Cuál te conviene
+
+- **Sigues a un equipo concreto, sea el Bayern o el Elversberg:** solo DAZN Fútbol garantiza todos sus partidos. Con el pago único de 219,99 € al año sale a unos 18,30 € al mes, [según los precios que recoge Fútbol por la tele](https://futbolporlatele.com/donde-ver-futbol-dazn/).
+- **Tienes entre 18 y 30 años:** la tarifa joven de DAZN deja el plan Fútbol en 13,99 €/mes con permanencia.
+- **Te vale el partido destacado:** Movistar Plus+ Libre emite uno por jornada y [lo anuncia en su página de la Bundesliga](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fbundesliga). Este sábado 7 de noviembre es el Stuttgart - Werder Bremen (18:30). El mismo plan trae un partido de LaLiga, otro de Champions y otro de Serie A.
+- **Quieres gastar lo mínimo:** DAZN GO cuesta 4,99 €/mes con pago anual fraccionado, 7,99 € mes a mes o 54,99 € al año, y da un partido por jornada de la Bundesliga y de otras cinco ligas, [según Roams](https://roams.es/actualidad/telefonia/que-ver-dazn-go-4-99-euros-laliga-f1-motogp-nba-nfl-con-limites/).
+
+DAZN renovó la Bundesliga en 2024 y la amplió luego hasta 2028-29, la misma fecha que la Serie A, [como contó Roams](https://roams.es/actualidad/telefonia/dazn-incorpora-eredivisie-extiende-serie-a/).
+
+## Horarios en España
+
+Alemania tiene la misma hora que la península. El reparto es casi fijo: un partido el viernes a las 20:30, cinco el sábado a las 15:30 y el grande del sábado a las 18:30; el domingo, a las 15:30, 17:30 y 19:30. La jornada de esta semana lo sigue al pie de la letra:
+
+- **Viernes 6:** Hamburgo - Mönchengladbach (20:30).
+- **Sábado 7:** Mainz - Bayern y Dortmund - Elversberg (15:30); Stuttgart - Werder Bremen (18:30).
+- **Domingo 8:** Colonia - Leverkusen (15:30) y Hoffenheim - Schalke (19:30).
+
+## Fechas que conviene apuntar
+
+- **Domingo 29 de noviembre:** Borussia Dortmund - Bayer Leverkusen (19:30).
+- **Sábado 28 de noviembre:** Stuttgart - Eintracht Frankfurt (18:30).
+- **Fin de semana del 19 de diciembre:** última jornada antes del parón de invierno, con el Leipzig - Dortmund y el Bayern - Werder Bremen.
+- **22 de mayo de 2027:** última jornada. La promoción de permanencia se juega el 27 y el 31 de mayo.
+
+Los horarios de diciembre aún pueden moverse. El calendario actualizado está en la sección de la [Bundesliga](/futbol/bundesliga).
+
+## Si ya tienes DAZN
+
+La Bundesliga va incluida en el plan Fútbol que muchos pagan por LaLiga. Ahí también están la Serie A, la Premier y la Ligue 1, y el detalle de las cinco grandes ligas está en la [guía de dónde ver el deporte en España](/noticias/donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1). Para saber qué se juega hoy, [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    competition: {"name":"Bundesliga","sport":"futbol","slug":"bundesliga"},
+    sourceName: "Fútbol por la tele",
+    sourceUrl: "https://futbolporlatele.com/donde-ver-futbol-dazn/",
+    sourceLang: 'es',
+    publishedAt: '2026-11-04T17:04:59+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/2012-02-26_Dortmund01_%286791756854%29.jpg/1280px-2012-02-26_Dortmund01_%286791756854%29.jpg",
+      alt: "La tribuna sur del estadio del Borussia Dortmund, abarrotada de aficionados con banderas amarillas y negras antes de un partido",
+      credit: "Markus Unger from Vienna, Austria · Wikimedia Commons",
+      license: "CC BY 2.0",
+    },
+    sourcesSecondary: [
+      { name: "Roams: DAZN amplía Bundesliga y Serie A", url: "https://roams.es/actualidad/telefonia/dazn-incorpora-eredivisie-extiende-serie-a/" },
+      { name: "Movistar Plus+: Bundesliga", url: "https://www.movistarplus.es/deportes/futbol/bundesliga" },
+      { name: "Roams: DAZN GO", url: "https://roams.es/actualidad/telefonia/que-ver-dazn-go-4-99-euros-laliga-f1-motogp-nba-nfl-con-limites/" },
+      { name: "OCU: dónde ver el fútbol", url: "https://www.ocu.org/tecnologia/internet-telefonia/noticias/donde-ver-futbol" },
+    ],
+  },
+  {
+    slug: 'donde-ver-serie-a-espana-2026-27-dazn-movistar-precios-como-fabregas',
+    title: "Dónde ver la Serie A en España en 2026-27: planes, precios y el partido de cada jornada",
+    summary: "La Serie A 2026-27 en España: qué plan da los diez partidos de cada jornada, cuánto cuesta, qué opciones más baratas ofrecen un partido por semana y cuándo juegan el Como de Fàbregas y los demás españoles.",
+    body: `La Serie A 2026-27 se ve entera en [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome): los diez partidos de cada jornada, con derechos en España hasta 2028-29. El plan Fútbol cuesta 19,99 €/mes con un año de permanencia, aunque su web lo anuncia ahora desde 14,99 €. Si te basta con un partido por jornada, hay tres caminos más baratos: DAZN GO (desde 4,99 €), Orange TV Libre (7,99 €) y [Movistar Plus+ Libre](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fserie-a) (9,99 €). No hay Serie A en abierto.
+
+*Esta guía incluye enlaces de afiliado a plataformas de televisión. Si contratas desde ellos, Mundiales recibe una comisión sin coste extra para ti. No cambia lo que contamos.*
+
+## La respuesta corta
+
+| Opción | Qué ves | Precio |
+| --- | --- | --- |
+| [DAZN Fútbol](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome) | Los 380 partidos, más Coppa Italia y Supercoppa | Desde 14,99 €/mes en oferta; 19,99 €/mes con permanencia, 29,99 € sin ella |
+| DAZN GO | Un partido por jornada | 4,99 €/mes con permanencia, 7,99 € sin ella |
+| Orange TV Libre | Un partido por jornada | 7,99 €/mes |
+| [Movistar Plus+ Libre](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fserie-a) | Un partido por jornada | 9,99 €/mes, sin permanencia |
+
+## Qué incluye cada plan
+
+DAZN amplió en agosto su contrato con la liga italiana dos temporadas, hasta 2028-29. El acuerdo suma la Coppa Italia, la Supercoppa y los partidos de Italia en la Nations League y en la clasificación para la Eurocopa 2028, [según Roams](https://roams.es/actualidad/telefonia/dazn-incorpora-eredivisie-extiende-serie-a/). El plan Fútbol trae además cinco partidos por jornada de LaLiga, la Premier, la Bundesliga y la Ligue 1.
+
+Las tarifas completas del plan Fútbol, [según Fútbol por la tele](https://futbolporlatele.com/donde-ver-futbol-dazn/): 19,99 €/mes con compromiso de un año, 29,99 €/mes mes a mes o 219,99 € en un solo pago. Entre 18 y 30 años baja a 13,99 €/mes con permanencia o 20,99 € sin ella. A 4 de noviembre, la web de DAZN muestra el plan Fútbol desde 14,99 €/mes, con los 19,99 € tachados; conviene leer las condiciones de la oferta antes de contratar.
+
+DAZN GO salió el 26 de octubre. Da un partido por jornada de la Serie A y de las otras grandes ligas por 4,99 €/mes con pago anual fraccionado, 7,99 € mes a mes o 54,99 € al año, [como detalla Xataka](https://www.xatakamovil.com/multimedia/nuevo-plan-dazn-go-futbol-motor-baloncesto-5-euros-al-mes).
+
+## Si solo quieres el partido grande
+
+Movistar Plus+ elige un partido de cada jornada. Este fin de semana es el Fiorentina - Juventus del domingo 8 de noviembre (20:45), que [anuncia en su página de la Serie A](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ffutbol%2Fserie-a) dentro del plan Libre de 9,99 €/mes sin permanencia. Ese plan suma un partido por jornada de LaLiga, Champions y Bundesliga.
+
+Orange TV Libre (7,99 €/mes, sin ser cliente de Orange) incluye también un partido de Serie A por jornada, según la [guía de la OCU](https://www.ocu.org/tecnologia/internet-telefonia/noticias/donde-ver-futbol). No eliges cuál: lo decide cada operador.
+
+## Horarios y partidos que vienen
+
+Italia comparte hora con la España peninsular, así que no hay que convertir nada. Las franjas habituales son 12:30, 15:00, 18:00 y 20:45, con partidos sueltos el viernes y el lunes. La jornada de este fin de semana:
+
+- **Domingo 8 de noviembre:** Napoli - Lazio (12:30), Inter - Como (18:00) y Fiorentina - Juventus (20:45).
+- **Domingo 22 de noviembre:** Atalanta - Inter (20:45).
+- **Diciembre:** el derbi de Roma y el Napoli - Milan están en la jornada del 13 de diciembre, y el Roma - Juventus, en la del 19. La Lega Serie A fija los horarios definitivos pocas semanas antes.
+
+El campeonato termina el 30 de mayo de 2027. Clasificación y calendario, en la sección de la [Serie A](/futbol/serie-a).
+
+## El Como de Fàbregas
+
+El Como lo entrena Cesc Fàbregas, que esta temporada lo dirige también en la Champions, [según la RFEF](https://rfef.es/es/noticias/el-entrenador-espanol-brilla-con-luz-propia-en-la-uefa-champions-league-2026-2027).
+
+## Antes de contratar
+
+Si ya pagas DAZN por LaLiga, la Serie A está incluida y no necesitas nada más. Quien quiera también la Premier encontrará el reparto en la [guía de la Premier League](/noticias/donde-ver-premier-league-espana-2026-27-dazn-movistar-precios-serie-a-bundesliga). Y lo que se juega cada día, con su canal, está en [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    competition: {"name":"Serie A","sport":"futbol","slug":"serie-a"},
+    sourceName: "Roams",
+    sourceUrl: "https://roams.es/actualidad/telefonia/dazn-incorpora-eredivisie-extiende-serie-a/",
+    sourceLang: 'es',
+    publishedAt: '2026-11-04T17:05:59+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Stadio_Maradona_Serie_A.jpg/1280px-Stadio_Maradona_Serie_A.jpg",
+      alt: "Vista general del estadio Diego Armando Maradona de Nápoles, con las gradas azules llenas y el césped vacío durante el descanso de un partido",
+      credit: "Gaetano Capaldo · Wikimedia Commons",
+      license: "CC BY 4.0",
+    },
+    sourcesSecondary: [
+      { name: "Fútbol por la tele: planes de DAZN", url: "https://futbolporlatele.com/donde-ver-futbol-dazn/" },
+      { name: "Movistar Plus+: Serie A", url: "https://www.movistarplus.es/deportes/futbol/serie-a" },
+      { name: "Xataka: DAZN GO", url: "https://www.xatakamovil.com/multimedia/nuevo-plan-dazn-go-futbol-motor-baloncesto-5-euros-al-mes" },
+      { name: "OCU: dónde ver el fútbol", url: "https://www.ocu.org/tecnologia/internet-telefonia/noticias/donde-ver-futbol" },
+    ],
+  },
+  {
     slug: 'alexander-zverev-eliminado-paris-musetti-estreno-medvedev-buse-tiafoe-de-minaur-alcaraz-michelsen',
     title: 'Alexander Zverev cae en su estreno en París ante Musetti y el cuadro se queda sin su número 1',
     summary: 'Alexander Zverev, primer cabeza de serie, perdió 7-6 y 6-2 ante Lorenzo Musetti en su primer partido del Masters 1000 de París. Medvedev, Tiafoe y De Miñaur también cayeron el miércoles.',

@@ -7,6 +7,10 @@
     "slug": "donde-ver-brasileirao-espana-2026-movistar-fanatiz-recta-final",
     "label": "el Brasileirão"
   },
+  "bundesliga": {
+    "slug": "donde-ver-bundesliga-espana-2026-27-dazn-movistar-precios-horarios",
+    "label": "la Bundesliga"
+  },
   "carabao-cup": {
     "slug": "donde-ver-carabao-cup-2026-27-espana-sin-emision-cuartos-final",
     "label": "la Carabao Cup"
@@ -55,6 +59,10 @@
     "slug": "donde-ver-ehf-european-league-2026-27-espana-granollers-bidasoa-logrono",
     "label": "la EHF European League"
   },
+  "eredivisie": {
+    "slug": "donde-ver-eredivisie-espana-2026-27-dazn-ajax-psv-feyenoord",
+    "label": "la Eredivisie"
+  },
   "eurocopa": {
     "slug": "donde-ver-eurocopa-2028-espana-rtve-clasificacion-fechas-derechos",
     "label": "la Eurocopa"
@@ -90,6 +98,10 @@
   "liga-mx": {
     "slug": "donde-ver-liga-mx-espana-apertura-2026-liguilla-derechos-horarios",
     "label": "la Liga MX"
+  },
+  "ligue-1": {
+    "slug": "donde-ver-ligue-1-espana-2026-27-dazn-precios-psg-luis-enrique",
+    "label": "la Ligue 1"
   },
   "lpga": {
     "slug": "donde-ver-lpga-espana-cme-group-tour-championship-movistar-ciganda",
@@ -159,6 +171,10 @@
     "slug": "donde-ver-premiership-rugby-espana-2026-27-canales-precios-calendario",
     "label": "la Premiership Rugby"
   },
+  "primeira-liga": {
+    "slug": "donde-ver-liga-portuguesa-espana-2026-27-dazn-sport-tv-precios",
+    "label": "la Primeira Liga"
+  },
   "primera-federacion": {
     "slug": "donde-ver-primera-federacion-2026-27-footballclub-fanplay-movistar-dazn-autonomicas",
     "label": "la Primera Federación"
@@ -174,6 +190,10 @@
   "seis-naciones": {
     "slug": "donde-ver-seis-naciones-2027-espana-television-calendario-horarios",
     "label": "el Seis Naciones"
+  },
+  "serie-a": {
+    "slug": "donde-ver-serie-a-espana-2026-27-dazn-movistar-precios-como-fabregas",
+    "label": "la Serie A"
   },
   "sport:baloncesto": {
     "slug": "donde-ver-baloncesto-espana-2026-27-nba-euroliga-liga-endesa-seleccion-wnba",
@@ -198,6 +218,10 @@
   "sport:rugby": {
     "slug": "donde-ver-rugby-espana-2026-27-seis-naciones-mundial-champions-cup-ligas",
     "label": "el rugby"
+  },
+  "super-lig": {
+    "slug": "donde-ver-superliga-turca-espana-2026-27-derechos-bein-galatasaray",
+    "label": "la Süper Lig"
   },
   "supercopa": {
     "slug": "donde-ver-supercopa-espana-2027-estambul-fechas-horarios-television",
