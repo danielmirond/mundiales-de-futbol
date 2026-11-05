@@ -154,6 +154,246 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'real-sociedad-lyon-celta-getafe-jueves-5-noviembre-horario-donde-ver-alcaraz-berrettini-paris',
+    title: 'Real Sociedad - Lyon, Celta y Getafe: horarios del jueves europeo y a qué hora juega Alcaraz',
+    summary: 'La Real recibe al Lyon a las 18:45, casi a la vez que Alcaraz y Berrettini en París; Celta y Getafe juegan a las 21:00. Canales de Movistar Plus+ y hora de Canarias.',
+    body: `Tres equipos españoles juegan en Europa este jueves 5 de noviembre, y el primero coincide con el tenis. La [Real Sociedad - Lyon](/futbol/europa-league/partido/401915537) empieza a las 18:45 (17:45 en Canarias) en el Reale Arena, y Carlos Alcaraz sale contra Matteo Berrettini en los octavos del Masters 1000 de París no antes de las 19:00, [según el orden de juego del torneo](https://www.atptour.com/en/scores/current/paris/352/daily-schedule). A las 21:00 llegan el [Celta - Union Saint-Gilloise](/futbol/europa-league/partido/401915531) en Balaídos y el [Getafe - Brighton](/futbol/conference-league/partido/401915821) de la Conference en el Coliseum.
+
+Todo va por Movistar Plus+. Los horarios y los diales salen de la ficha de cada partido.
+
+## Horarios del jueves y dónde ver
+
+| Peninsular | Canarias | Partido | Competición | Canal |
+| --- | --- | --- | --- | --- |
+| 18:45 | 17:45 | [Real Sociedad - Lyon](/futbol/europa-league/partido/401915537) | Europa League | M+ Liga de Campeones y M+ Liga de Campeones 3 |
+| No antes de las 19:00 | No antes de las 18:00 | Carlos Alcaraz - Matteo Berrettini | Masters 1000 de París | Movistar Plus+ |
+| 21:00 | 20:00 | [Celta - Union Saint-Gilloise](/futbol/europa-league/partido/401915531) | Europa League | Movistar Plus+ (dial por confirmar) |
+| 21:00 | 20:00 | [Getafe - Brighton](/futbol/conference-league/partido/401915821) | Conference League | M+ Liga de Campeones 2 y M+ Liga de Campeones 3 |
+
+La ficha del Celta todavía no tiene dial asignado. Para saber [qué plataforma emite cada competición y cuánto cuesta](/noticias/donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1) está la guía general; para estos torneos, [la guía de la Europa League](/noticias/donde-ver-europa-league-2026-27-espana-movistar-precios-real-sociedad-celta) y [la de la Conference](/noticias/donde-ver-conference-league-2026-27-espana-movistar-precios-getafe).
+
+## Cómo llegan la Real y el Celta
+
+La Europa League va por su cuarta jornada y la tabla aprieta a los dos. Los ocho primeros pasan directos a octavos y del noveno al vigésimo cuarto juegan una eliminatoria previa; del 25.º para abajo, fuera. El Celta está justo en esa raya.
+
+| Equipo | Puesto | Puntos | Balance (G-E-P) |
+| --- | --- | --- | --- |
+| Union Saint-Gilloise | 6.º | 7 | 2-1-0 |
+| Lyon | 13.º | 6 | 2-0-1 |
+| Real Sociedad | 14.º | 4 | 1-1-1 |
+| Celta | 25.º | 3 | 1-0-2 |
+
+Datos de [la clasificación de ESPN](https://www.espn.com/soccer/standings/_/league/uefa.europa) antes de la jornada. La Real llega de golear 0-6 en Lillestrøm en la tercera; el Celta ganó 1-2 en Celtic Park ese mismo día, pero el sábado perdió 3-0 en Vallecas en Liga. Los tres equipos vuelven a LaLiga el domingo 8: la Real recibe al Rayo, el Celta al Levante y el Getafe visita al Villarreal. Resultados y fichas, en [la sección de la Europa League](/futbol/europa-league).
+
+## París: Alcaraz, cuarto en la central
+
+Alcaraz es el segundo cabeza de serie y el miércoles ganó a Alex Michelsen por 7-6 y 6-3 en su estreno. Berrettini viene de dos partidos ajustados: 6-4, 3-6 y 7-6 a Brandon Nakashima en primera ronda y 7-6 y 7-5 a Ugo Humbert en segunda. Su partido es el cuarto de la pista central; si los tres anteriores se alargan, empezará más tarde, de modo que el arranque de Anoeta y el del tenis pueden solaparse.
+
+El cuadro ya no tiene a Alexander Zverev, que [cayó en su estreno ante Lorenzo Musetti](/noticias/alexander-zverev-eliminado-paris-musetti-estreno-medvedev-buse-tiafoe-de-minaur-alcaraz-michelsen), ni a Novak Djokovic, eliminado el miércoles por Rinky Hijikata. Detrás de Alcaraz, en la misma pista, cierran Arthur Fils y Taylor Fritz, no antes de las 20:30. El tenis va por [la guía de Movistar Plus+ y HBO Max](/noticias/donde-ver-tenis-espana-atp-finals-copa-davis-alcaraz-movistar-hbo-max).`,
+    category: 'tv',
+    kind: 'noticia',
+    competition: { name: 'Europa League', sport: 'futbol', slug: 'europa-league' },
+    sourceName: 'ESPN',
+    sourceUrl: 'https://www.espn.com/soccer/schedule/_/league/uefa.europa',
+    sourceLang: 'en',
+    publishedAt: '2026-11-05T10:16:00+01:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Anoeta_00%2C_Donostia%2C_Gipuzkoa%2C_Euskal_Herria.jpg/1280px-Anoeta_00%2C_Donostia%2C_Gipuzkoa%2C_Euskal_Herria.jpg',
+      alt: 'Exterior del estadio de Anoeta, con su fachada azul y el nombre Reale Arena',
+      credit: 'Bhgh543bgf · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+    sourcesSecondary: [
+      { name: 'ATP: orden de juego del Masters de París', url: 'https://www.atptour.com/en/scores/current/paris/352/daily-schedule' },
+      { name: 'ESPN: clasificación de la Europa League', url: 'https://www.espn.com/soccer/standings/_/league/uefa.europa' },
+    ],
+  },
+  {
+    slug: 'aek-real-madrid-2-3-valverde-descuento-mbappe-bellingham-jovic-clasificacion-champions',
+    title: 'AEK - Real Madrid (2-3): Valverde lo gana en el 92 y así queda la clasificación de la Champions',
+    summary: 'El Real Madrid remontó dos veces en Atenas: Bellingham y Mbappé igualaron los goles de Koita y Pilios, y Valverde decidió en el descuento. Sigue con pleno, segundo tras el PSG.',
+    body: `El [Real Madrid ganó 2-3 al AEK](/futbol/champions-league/partido/401915383) el miércoles en Atenas con un gol de Federico Valverde en el minuto 92, un disparo desde fuera del área a la escuadra tras pase de Brahim Díaz. El equipo blanco fue dos veces por detrás en el marcador y suma cuatro victorias en cuatro jornadas: 12 puntos, los mismos que el PSG, que es primero por diferencia de goles.
+
+El partido se jugó ante 30.368 espectadores en el OPAP Arena, [según el acta de ESPN](https://www.espn.com/soccer/match/_/gameId/401915383). El Madrid tuvo el 69,6 % de la posesión y tiró 24 veces, ocho a puerta; el AEK disparó nueve veces y acertó cinco.
+
+## Los goles, uno a uno
+
+| Minuto | Gol | Marcador | Pase |
+| --- | --- | --- | --- |
+| 12' | Aboubakary Koita (AEK) | 1-0 | Luka Jović |
+| 32' | Jude Bellingham | 1-1 | Marc Cucurella |
+| 75' | Stavros Pilios (AEK) | 2-1 | Aboubakary Koita |
+| 78' | Kylian Mbappé | 2-2 | Denzel Dumfries |
+| 90+2' | Federico Valverde | 2-3 | Brahim Díaz |
+
+El primer gol griego lo preparó un viejo conocido: Luka Jović, que fue jugador del Madrid de 2019 a 2022, [según su ficha en la Wikipedia](https://es.wikipedia.org/wiki/Luka_Jovi%C4%87), dio el pase a Koita. El mismo Koita asistió a Pilios en el 75, y el Madrid tardó tres minutos en empatar con Mbappé a la salida de un pase de Dumfries.
+
+## Los cambios que decidieron
+
+Valverde no salió de inicio. Entró en el minuto 67 por Yan Diomande, a la vez que Endrick por Bernardo Silva, y Brahim Díaz lo hizo en el 81 por Cucurella. Los dos suplentes firmaron el 2-3. Koita, autor del primer gol y del pase del segundo, vio la roja en el último instante del partido. Antes, en el minuto 59, el juego se detuvo por golpes de Lazaros Rota y Eduardo Camavinga; los dos siguieron.
+
+El resultado lo confirman también [las crónicas de La República](https://larepublica.pe/deportes/2026/11/03/real-madrid-vs-aek-athens-en-vivo-a-que-hora-y-donde-ver-partido-de-hoy-uefa-champions-league-202627-269349), con los mismos goleadores y minutos.
+
+## La clasificación, con los españoles
+
+Tras la cuarta jornada, la [tabla de la fase liga](https://www.espn.com/soccer/standings/_/league/uefa.champions) queda así para los equipos españoles. Los ocho primeros van directos a octavos; del noveno al vigésimo cuarto juegan una eliminatoria previa.
+
+| Puesto | Equipo | Puntos | Diferencia | Último resultado |
+| --- | --- | --- | --- | --- |
+| 2.º | Real Madrid | 12 | +6 | AEK 2-3 Real Madrid |
+| 5.º | Barcelona | 9 | +8 | Barcelona 3-0 Aston Villa |
+| 11.º | Betis | 9 | +2 | Dortmund 2-1 Betis |
+| 23.º | Atlético | 4 | -1 | Atlético 0-2 Bayern |
+| 28.º | Villarreal | 3 | -6 | Villarreal 0-6 PSG |
+
+El Betis perdió su pleno en Dortmund y el Atlético y el Villarreal están ya en zona de eliminatoria o fuera de ella: el Villarreal, 28.º, tendría que remontar cuatro puestos para colarse entre los 24. Antes de la próxima jornada de Champions, el Madrid juega en Liga en Mestalla: el [Valencia - Real Madrid](/futbol/laliga/partido/401882808) es el sábado 7 a las 21:00. Toda la competición, en [la sección de la Champions](/futbol/champions-league).`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'Champions League', sport: 'futbol', slug: 'champions-league' },
+    sourceName: 'ESPN',
+    sourceUrl: 'https://www.espn.com/soccer/match/_/gameId/401915383',
+    sourceLang: 'en',
+    publishedAt: '2026-11-05T10:17:00+01:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/8/89/Federico_Valverde_2021.jpg',
+      alt: 'Federico Valverde sonríe durante una entrevista, con camiseta blanca y un fondo verde desenfocado',
+      credit: 'Real Madrid · Wikimedia Commons',
+      license: 'CC BY 3.0',
+    },
+    sourcesSecondary: [
+      { name: 'ESPN: clasificación de la Champions', url: 'https://www.espn.com/soccer/standings/_/league/uefa.champions' },
+      { name: 'La República: crónica del AEK - Real Madrid', url: 'https://larepublica.pe/deportes/2026/11/03/real-madrid-vs-aek-athens-en-vivo-a-que-hora-y-donde-ver-partido-de-hoy-uefa-champions-league-202627-269349' },
+    ],
+  },
+  {
+    slug: 'brian-farinas-20-anos-benicarlo-lateral-barca-dorsal-4-sueno-de-cualquier-nino',
+    title: 'Brian Fariñas (20 años), de Benicarló al lateral del Barça: «Es el sueño de cualquier niño»',
+    summary: 'El canterano de Benicarló debutó con el Barça el 31 de octubre y repitió de titular ante el Aston Villa en Champions. Lleva el 4 que dejó Araujo y juega donde le pide Flick.',
+    body: `Brian Fariñas nació en Benicarló el 9 de febrero de 2006 y en cuatro días ha pasado de no haber jugado nunca un partido oficial con el primer equipo del Barça a ser titular en dos. El 31 de octubre debutó en el [Barcelona 6-1 Alavés](/futbol/laliga/partido/401882822) de Liga, de lateral derecho, los 90 minutos. El martes repitió en la Champions ante el Aston Villa, otra vez en el lateral, y se fue sustituido por Alejandro Balde en el minuto 82 con el 3-0 ya en el marcador, [según el acta de ESPN](https://www.espn.com/soccer/match/_/gameId/401915387).
+
+«Es el sueño de cualquier niño», dijo tras el estreno [en la web del club](https://www.fcbarcelona.es/es/futbol/primer-equipo/noticias/4602437/brian-farinas-es-el-sueno-de-cualquier-nino), donde contó que al principio estaba nervioso y que juega donde le ponga Hansi Flick. Es centrocampista de formación; el lateral derecho es un puesto poco habitual para él, según el club.
+
+## Del pueblo a La Masia
+
+Fariñas empezó en una escuela de fútbol de Benicarló, donde pasó un año, y después estuvo cinco en el Villarreal, [contaba el Diari del Maestrat](https://diaridelmaestrat.com/el-benicarlando-brian-farinas-perez-ficha-por-el-cf-barcelona/) en julio de 2022, cuando firmó su primer contrato con el Barça. Había llegado a la cantera azulgrana en 2018, como infantil.
+
+| Fecha | Paso |
+| --- | --- |
+| 2018 | Llega del Villarreal a la cantera del Barça, como infantil |
+| Julio de 2022 | Firma su primer contrato con el club |
+| 16 de marzo de 2024 | Debuta con el filial, 2-4 en Teruel |
+| 2025-26 | 35 partidos, cinco goles y seis asistencias con el Barça Atlètic |
+| Septiembre de 2026 | Inscrito en el primer equipo con el dorsal 4 |
+| 31 de octubre de 2026 | Debut oficial, titular ante el Alavés |
+| 3 de noviembre de 2026 | Titular en la Champions ante el Aston Villa |
+
+Los datos del filial y del dorsal salen de [la ficha de su inscripción en el primer equipo](https://www.fcbarcelona.com/en/football/first-team/news/4570494/brian-farinas-registered-as-first-team-player-in-number-4-jersey) que publicó el club.
+
+## El 4 de Rakitić y Araujo
+
+El número que lleva no es cualquiera. Lo dejó libre Ronald Araujo, y antes lo vistieron Ivan Rakitić, Cesc Fàbregas, Rafa Márquez, Patrik Andersson y Sergi Barjuán, según el propio club. Fariñas lo recibió este verano sin haber jugado aún un minuto oficial con el primer equipo; en la pretemporada se había estrenado con Flick en un amistoso en Inglaterra ante el Birmingham City.
+
+En su primer partido contó con ayuda cerca: en esa banda derecha estaban Pau Cubarsí, Rodri, Fermín López y Lamine Yamal, y él mismo dijo que le dieron confianza.
+
+## Lo que se ha buscado su nombre
+
+El salto se ha notado fuera del campo. Su artículo en la Wikipedia en español no pasaba de unos cientos de visitas al día en la segunda quincena de octubre; el día del debut tuvo 27.282 y el del Aston Villa, 18.324, [según las estadísticas de Wikimedia](https://pageviews.wmcloud.org/?project=es.wikipedia.org&pages=Brian_Fari%C3%B1as_P%C3%A9rez&range=latest-20).
+
+La próxima prueba es mayor. El Barça visita al Atlético en el Metropolitano el domingo 8 a las 21:00, en [la jornada de LaLiga](/futbol/laliga), y Flick tendrá que decidir si el chico de Benicarló sigue en el lateral. Toda la actualidad del club, en [la ficha del Barcelona](/futbol/laliga/equipo/83).`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'LaLiga', sport: 'futbol', slug: 'laliga' },
+    sourceName: 'FC Barcelona',
+    sourceUrl: 'https://www.fcbarcelona.es/es/futbol/primer-equipo/noticias/4602437/brian-farinas-es-el-sueno-de-cualquier-nino',
+    sourceLang: 'es',
+    publishedAt: '2026-11-05T10:18:00+01:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/La_Masia_-_Centre_de_Formaci%C3%B3_Oriol_Tort_01.jpg/1280px-La_Masia_-_Centre_de_Formaci%C3%B3_Oriol_Tort_01.jpg',
+      alt: 'El edificio de La Masia en la Ciudad Deportiva Joan Gamper, con fachada de cristal y un bloque granate con el nombre',
+      credit: 'Electro07 · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+    sourcesSecondary: [
+      { name: 'FC Barcelona: debut de Brian Fariñas', url: 'https://www.fcbarcelona.es/es/futbol/primer-equipo/noticias/4602134/brian-farinas-debuta-amb-el-primer-equip-del-fc-barcelona' },
+      { name: 'FC Barcelona: inscrito con el dorsal 4', url: 'https://www.fcbarcelona.com/en/football/first-team/news/4570494/brian-farinas-registered-as-first-team-player-in-number-4-jersey' },
+      { name: 'Diari del Maestrat (julio de 2022)', url: 'https://diaridelmaestrat.com/el-benicarlando-brian-farinas-perez-ficha-por-el-cf-barcelona/' },
+      { name: 'ESPN: Barcelona - Aston Villa', url: 'https://www.espn.com/soccer/match/_/gameId/401915387' },
+    ],
+  },
+  {
+    slug: 'real-madrid-panathinaikos-112-115-prorroga-euroliga-nunn-feliz-abalde-clasificacion',
+    title: 'Real Madrid - Panathinaikos (112-115): la prórroga, los 33 de Nunn y cómo queda la Euroliga',
+    summary: 'El Panathinaikos de Obradović ganó en el Movistar Arena tras una prórroga. Los 27 puntos de Feliz y los 23 de Abalde no bastaron ante los 33 de Kendrick Nunn. El Madrid cae al noveno puesto.',
+    body: `El Real Madrid perdió 112-115 con el Panathinaikos el miércoles en el Movistar Arena, en [la décima jornada de la Euroliga 2026-27](https://en.wikipedia.org/wiki/2026%E2%80%9327_EuroLeague) y después de una prórroga. El partido acabó 101-101 en el tiempo reglamentario y el equipo griego, que entrena Željko Obradović, ganó los cinco minutos extra por 11-14, [según el acta oficial de la Euroliga](https://www.euroleaguebasketball.net/en/euroleague/game-center/2026-27/real-madrid-panathinaikos-aktor-athens/E2026/91/).
+
+Kendrick Nunn fue el que lo decidió: 33 puntos en 23 minutos y 42 segundos. Por el Madrid de Pedro Martínez, Andrés Feliz anotó 27 y Alberto Abalde, 23.
+
+## El marcador, cuarto a cuarto
+
+| Periodo | Real Madrid | Panathinaikos | Acumulado |
+| --- | --- | --- | --- |
+| 1.º cuarto | 18 | 24 | 18-24 |
+| 2.º cuarto | 30 | 27 | 48-51 |
+| 3.er cuarto | 25 | 23 | 73-74 |
+| 4.º cuarto | 28 | 27 | 101-101 |
+| Prórroga | 11 | 14 | 112-115 |
+
+El Madrid cerró por detrás los tres primeros cuartos: de seis al final del primero, de tres al descanso y de uno antes del último. Lo igualó en el cuarto final y la prórroga fue griega.
+
+## Dónde se perdió
+
+El rebote. El Panathinaikos cogió 37 por 25 del Madrid, y Mathias Lessort se fue a 20 puntos y 9 rebotes, con 30 de valoración, la más alta del partido. Los griegos metieron además 16 triples de 38 intentos, cuatro más que el Madrid (12 de 32).
+
+El Madrid compensó con menos pérdidas (12 por 19) y más tiros libres anotados (22 de 27 frente a 17 de 20), y no bastó.
+
+| Jugador | Equipo | Puntos | Minutos |
+| --- | --- | --- | --- |
+| Kendrick Nunn | Panathinaikos | 33 | 23:42 |
+| Andrés Feliz | Real Madrid | 27 | 33:54 |
+| Alberto Abalde | Real Madrid | 23 | 25:43 |
+| Mathias Lessort | Panathinaikos | 20 | 31:02 |
+| Sylvain Francisco | Panathinaikos | 19 | 28:27 |
+| Damian Jones | Real Madrid | 15 | 20:04 |
+| Walter Tavares | Real Madrid | 13 | 22:28 |
+
+Abalde anotó cuatro triples de siete. Sergio Llull sumó 8 puntos en casi 19 minutos.
+
+## Cómo queda la Euroliga
+
+La derrota corta una buena semana: el Madrid venía de ganar 86-104 en Vitoria al Baskonia y 95-76 al Fenerbahçe. Con la jornada aún sin cerrar (varios equipos tienen un partido menos), [la clasificación oficial](https://www.euroleaguebasketball.net/en/euroleague/standings/) queda así en la zona que afecta a los españoles:
+
+| Puesto | Equipo | Balance |
+| --- | --- | --- |
+| 1.º | Panathinaikos | 8-2 |
+| 4.º | Valencia Basket | 6-3 |
+| 7.º | Barça | 6-3 |
+| 9.º | Real Madrid | 6-4 |
+| 20.º | Baskonia | 1-8 |
+
+El Madrid vuelve a la Euroliga el jueves 12 contra el Estrella Roja, otra vez en casa. La competición se sigue en [la sección de la Euroliga](/baloncesto/euroliga), y los canales y precios, en [la guía de la Euroliga en España](/noticias/donde-ver-euroliga-2026-27-espana-movistar-precios-real-madrid-barca).`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'Euroliga', sport: 'baloncesto', slug: 'euroliga' },
+    sourceName: 'Euroliga',
+    sourceUrl: 'https://www.euroleaguebasketball.net/en/euroleague/game-center/2026-27/real-madrid-panathinaikos-aktor-athens/E2026/91/',
+    sourceLang: 'en',
+    publishedAt: '2026-11-05T10:19:00+01:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Andr%C3%A9s_Feliz_24_Real_Madrid_Baloncesto_Euroleague_20260929_%282%29.JPG/1280px-Andr%C3%A9s_Feliz_24_Real_Madrid_Baloncesto_Euroleague_20260929_%282%29.JPG',
+      alt: 'Andrés Feliz, con la camiseta blanca número 24 del Real Madrid, de pie en la pista con las manos en la cintura',
+      credit: 'Zafer · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+    sourcesSecondary: [
+      { name: 'Euroliga: clasificación', url: 'https://www.euroleaguebasketball.net/en/euroleague/standings/' },
+      { name: 'Wikipedia: Euroliga 2026-27', url: 'https://en.wikipedia.org/wiki/2026%E2%80%9327_EuroLeague' },
+    ],
+  },
+  {
     slug: 'donde-ver-superliga-turca-espana-2026-27-derechos-bein-galatasaray',
     title: "La Süper Lig turca en España en 2026-27: quién la emite y qué partidos se pueden ver",
     summary: "La liga turca no tiene televisión en España esta temporada. Por qué ninguna plataforma la ofrece, quién tiene los derechos hasta 2027, qué partidos de Galatasaray o Fenerbahçe sí se ven y cuándo son los derbis de Estambul.",
