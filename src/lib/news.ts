@@ -154,6 +154,212 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'sevilla-alaves-alcaraz-cuartos-paris-gp-sao-paulo-libres-camara-viernes-6-noviembre-horarios-donde-ver',
+    title: 'Sevilla - Alavés, Alcaraz en cuartos de París y los libres de Interlagos: horarios del viernes 6',
+    summary: 'El viernes trae Sevilla - Alavés a las 21:00 en DAZN, los cuartos de Alcaraz en París y los libres del GP de São Paulo, con el debut de Rafael Câmara. Horas y canales.',
+    body: `El viernes 6 de noviembre tiene fútbol, tenis y Fórmula 1 casi a la misma hora. El plato fuerte de la noche es el [Sevilla - Alavés](/futbol/laliga/partido/401882809) que abre la jornada de LaLiga a las 21:00 (20:00 en Canarias) en el Sánchez-Pizjuán, por DAZN LaLiga, según la ficha del partido. Antes, Carlos Alcaraz juega los cuartos del Masters 1000 de París y Interlagos estrena el fin de semana del Gran Premio de São Paulo con dos sesiones de libres.
+
+## Horarios del viernes y dónde ver
+
+| Peninsular | Canarias | Evento | Competición | Canal |
+| --- | --- | --- | --- | --- |
+| 16:30 | 15:30 | Libres 1 del GP de São Paulo | Fórmula 1 | DAZN |
+| Desde las 19:00 (provisional) | Desde las 18:00 | Carlos Alcaraz - ganador del Fils - Fritz | Masters 1000 de París | Movistar Plus+ |
+| 20:00 | 19:00 | Libres 2 del GP de São Paulo | Fórmula 1 | DAZN |
+| 20:30 | 19:30 | [Castellón - Eibar](/futbol/laliga-2/partido/401883120) | LaLiga Hypermotion | Por confirmar |
+| 21:00 | 20:00 | [Sevilla - Alavés](/futbol/laliga/partido/401882809) | LaLiga | DAZN LaLiga |
+| 21:00 | 20:00 | [Everton - Coventry](/futbol/premier-league/partido/401879242) | Premier League | DAZN 1 |
+
+Las horas de la F1 salen del [calendario oficial del Gran Premio](https://www.formula1.com/en/racing/2026/brazil) y las de los partidos, de sus fichas. La ficha del Castellón - Eibar todavía no tiene canal asignado. Para saber [qué plataforma emite cada competición y cuánto cuesta](/noticias/donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1) está la guía general, y para el fútbol de los viernes, [la guía de LaLiga](/noticias/donde-ver-laliga-2026-27-movistar-dazn-precios-jornadas-exclusivas-clasico).
+
+## Alcaraz, sin jugar desde el miércoles
+
+Alcaraz llega a cuartos con un día de descanso que no esperaba. Matteo Berrettini se retiró el jueves por una lesión en el codo y el murciano pasó sin jugar, [informó la ATP](https://www.atptour.com/es/news/paris-2026-jueves-segunda-ronda-alcaraz-berrettini). Su rival saldrá del Arthur Fils - Taylor Fritz que se juega esta noche en la pista central.
+
+La hora del partido es la que da como provisional la programación de ESPN, las 19:00 peninsulares. El torneo publica el orden de juego definitivo la noche anterior en [su página de programación](https://www.atptour.com/en/scores/current/paris/352/daily-schedule), y puede cambiar. Con estos cuartos, Alcaraz iguala su mejor resultado en París: en 2022 también llegó a esta ronda y se retiró ante Holger Rune. Llega con 39 victorias y 5 derrotas en la temporada y seis triunfos seguidos, con el título de Viena incluido. El tenis va por [la guía de Movistar Plus+ y HBO Max](/noticias/donde-ver-tenis-espana-atp-finals-copa-davis-alcaraz-movistar-hbo-max).
+
+## Interlagos: un debutante y un coche prestado
+
+El fin de semana de São Paulo no tiene sprint: libres el viernes, tercera sesión y clasificación el sábado (15:30 y 19:00 peninsulares) y carrera el domingo 8 a las 18:00. Llega con caras nuevas. Rafael Câmara, al que Ferrari tenía previsto para esos libres, sustituye a Esteban Ocon en Haas para el resto de la temporada; en su lugar, en la primera sesión Dino Beganovic se sube al Ferrari de Charles Leclerc, que acaba de ser padre, [cuenta GrandPrix.com](https://www.grandprix.com/news/leclerc-welcomes-daughter-as-beganovic-takes-so-paulo-fp1.html). Leclerc conserva su asiento para el resto del fin de semana. Quedan cuatro grandes premios y [la clasificación del Mundial](/motor/formula-1) ya tiene campeón, Kimi Antonelli.`,
+    category: 'tv',
+    kind: 'noticia',
+    competition: { name: 'LaLiga', sport: 'futbol', slug: 'laliga' },
+    sourceName: 'ESPN',
+    sourceUrl: 'https://www.espn.com/soccer/schedule/_/league/esp.1',
+    sourceLang: 'en',
+    publishedAt: '2026-11-05T19:22:00+01:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/2022-10-25_1_Estadio_Ram%C3%B3n_S%C3%A1nchez_Pizju%C3%A1n_%28Sevilla_FC%29.jpg/1280px-2022-10-25_1_Estadio_Ram%C3%B3n_S%C3%A1nchez_Pizju%C3%A1n_%28Sevilla_FC%29.jpg',
+      alt: 'Interior del Ramón Sánchez-Pizjuán, con las gradas rojas y blancas y el nombre del Sevilla',
+      credit: 'Niels98 · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+    sourcesSecondary: [
+      { name: 'Fórmula 1: horarios del GP de São Paulo', url: 'https://www.formula1.com/en/racing/2026/brazil' },
+      { name: 'ATP: Alcaraz pasa a cuartos', url: 'https://www.atptour.com/es/news/paris-2026-jueves-segunda-ronda-alcaraz-berrettini' },
+      { name: 'GrandPrix.com: Beganovic en los libres 1', url: 'https://www.grandprix.com/news/leclerc-welcomes-daughter-as-beganovic-takes-so-paulo-fp1.html' },
+    ],
+  },
+  {
+    slug: 'joel-robles-36-anos-padre-escayolista-atletico-real-madrid-colegio-getafe-estoril-podcast',
+    title: 'Joel Robles (36 años), hijo de escayolista: por qué su padre eligió el Atlético y no el Madrid',
+    summary: 'El portero del Estoril contó en un pódcast que a los 11 años le quisieron el Real Madrid y el Rayo, y que su padre se decidió por el Atlético porque le pagaba el colegio.',
+    body: `Joel Robles tenía 11 años y jugaba en los alevines del Getafe cuando su familia tuvo que elegir. Le querían el Real Madrid, el Rayo y el Atlético. Decidió su padre, y no por el escudo: el Atlético le ofrecía pagar los estudios en un colegio privado de Getafe, y para él eso era lo principal. Lo contó el portero, hoy en el Estoril, en [el pódcast De Todo Un Poco](https://www.youtube.com/watch?v=qw49nFiVkY4&t=400s), una entrevista de hora y media grabada a distancia desde Portugal.
+
+Su padre, explicó, era escayolista. Salía de casa a las seis de la mañana y volvía a las cinco o las seis de la tarde. Joel lo resumió así: [ha sido «una persona humilde, trabajadora, escayolista»](https://www.youtube.com/watch?v=qw49nFiVkY4&t=575s).
+
+## Los partidos que su padre no pudo ver
+
+El horario del taller marcaba el del niño. Cuando el entrenamiento acababa tarde, su padre lo recogía a la salida del trabajo. Cuando las convocatorias con la selección de Madrid o con las categorías inferiores de España caían a las tres, las cuatro o las cinco de la tarde, no podía ir. Entonces lo llevaba un tío, una tía, los padres de algún compañero de Getafe o el autobús.
+
+Las jornadas, según su relato, iban de las ocho de la mañana a las ocho o las nueve de la noche, con entrenamientos en Orcasitas y después en Majadahonda, y los deberes al llegar a casa. Admite que nunca fue fuerte en los estudios y que los fue dejando cuando el fútbol apretó.
+
+Tampoco quería ser portero. Hasta los 10 u 11 años jugaba la primera parte bajo palos y la segunda de campo. Le empujó a la portería un tío suyo, ya fallecido, que le repetía que allí era mejor.
+
+## Lo que vino después
+
+La apuesta de aquel padre salió bien. Estos son los hitos de su carrera que recoge [su ficha en la Wikipedia](https://es.wikipedia.org/wiki/Joel_Robles):
+
+| Año | Hito |
+| --- | --- |
+| 2002 | Llega a la cantera del Atlético, en categoría infantil |
+| 2010 | Debuta en Primera en El Molinón, al lesionarse Sergio Asenjo |
+| 2013 | Gana la FA Cup con el Wigan, titular en la final ante el City |
+| 2013 | Campeón de Europa sub-21 con España |
+| 2018-2022 | Cuatro temporadas en el Betis; gana la Copa del Rey de 2022 |
+| 2022-23 | Una temporada en el Leeds United |
+| Julio de 2024 | Firma por el Estoril |
+
+Del debut en Gijón recuerda el camino desde el banquillo hasta la portería: dice que iba como flotando. Pero añade que lo difícil no es debutar, sino quedarse, y más en un puesto en el que, según él, muy pocos entrenadores rotan.
+
+## En Estoril, con la familia
+
+Hoy vive en Estoril con su familia y es el dorsal 1 del equipo, con nueve partidos esta temporada según [la plantilla del Estoril en ESPN](https://www.espn.com/soccer/team/squad/_/id/12216/por.estoril). Sus resultados se siguen en [la ficha del Estoril](/futbol/primeira-liga/equipo/12216) y en [la sección de la Primeira Liga](/futbol/primeira-liga). Del [Atlético](/futbol/laliga/equipo/1068) salió cedido en 2013, rumbo a Inglaterra; en el [Betis](/futbol/laliga/equipo/244) levantó su último título en España.`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'Primeira Liga', sport: 'futbol', slug: 'primeira-liga' },
+    sourceName: 'De Todo Un Poco (pódcast)',
+    sourceUrl: 'https://www.youtube.com/watch?v=qw49nFiVkY4',
+    sourceLang: 'es',
+    publishedAt: '2026-11-05T19:19:00+01:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/2022_04_28_Recepci%C3%B3n_oficial_Del_Real_Betis_Balompi%C3%A9_por_la_consecuci%C3%B3n_de_la_Copa_del_Rey._%2852037368378%29.jpg/1280px-2022_04_28_Recepci%C3%B3n_oficial_Del_Real_Betis_Balompi%C3%A9_por_la_consecuci%C3%B3n_de_la_Copa_del_Rey._%2852037368378%29.jpg',
+      alt: 'La plantilla del Betis, con camisetas blancas y verdes, posa con la Copa del Rey ante el palacio de San Telmo en Sevilla en abril de 2022',
+      credit: 'Junta de Andalucía · Wikimedia Commons',
+      license: 'CC BY-SA 2.0',
+    },
+    sourcesSecondary: [
+      { name: 'Wikipedia: Joel Robles', url: 'https://es.wikipedia.org/wiki/Joel_Robles' },
+      { name: 'ESPN: plantilla del Estoril', url: 'https://www.espn.com/soccer/team/squad/_/id/12216/por.estoril' },
+    ],
+  },
+  {
+    slug: 'enric-casacuberta-moia-ruta-66-corriendo-ela-amigo-pastorets-unzue-tulsa-santa-monica',
+    title: 'Enric Casacuberta, funcionario de Moià, cruza EE. UU. corriendo por un amigo que murió de ELA',
+    summary: 'Nunca había sido corredor. Salió de Chicago a finales de agosto para recorrer los 3.940 km de la Ruta 66 hasta Santa Mónica y en octubre ya pasó por Tulsa. Lo recaudado irá a la ELA.',
+    body: `Enric Casacuberta trabaja en el Ayuntamiento de Moià y nunca había sido corredor. Ahora está en mitad de Estados Unidos, corriendo la Ruta 66 entera, de Chicago a Santa Mónica. Lo hace por un amigo con el que había actuado en Els Pastorets del pueblo y al que vio morir de ELA, [según contó al diario Ara](https://es.ara.cat/deportes/atletismo/93-maratones-150-dias-imagino-forrest-gump_1_5721515.html) antes de salir. La televisión de Tulsa habla de [dos amigos perdidos por la enfermedad](https://ktul.com/news/local/man-running-entirety-of-route-66-to-raise-money-awareness-for-als-passes-through-tulsa-10-17-2026).
+
+Hubo un segundo empujón, y llegó del fútbol. «También me impactó la lucha de Juan Carlos Unzué, su discurso en el Congreso», explicó a Ara. Fue entonces cuando decidió que todo lo que reuniera iría a la lucha contra la enfermedad.
+
+## La ruta, en números
+
+La carretera histórica mide 3.940 kilómetros (2.448 millas) entre el Navy Pier de Chicago y el muelle de Santa Mónica, en Los Ángeles. Casacuberta hará algo más por los desvíos. El plan:
+
+| Dato | Cifra |
+| --- | --- |
+| Salida | Chicago, finales de agosto de 2026 |
+| Llegada prevista | Santa Mónica, enero de 2027 |
+| Duración | Unos 150 días |
+| Distancia oficial | 3.940 km |
+| Equivalencia | Unos 93 maratones |
+| Estados | Ocho, de Illinois a California |
+
+Hecha la cuenta, son unos 26 kilómetros diarios de media durante cinco meses, todos los días. No va solo: su hermano y varios amigos se turnan al volante de una furgoneta que le sigue para que pueda descansar. El viernes 16 de octubre pasó por Tulsa, en Oklahoma, según la misma cadena, ya más allá de Illinois, Misuri y Kansas.
+
+## El único proyecto oficial de fuera de EE. UU.
+
+La Ruta 66 cumple cien años en 2026 y la comisión del centenario, creada por el Congreso estadounidense, incluyó la carrera en su programa. La asociación de la Ruta 66 de Oklahoma subraya que es [el único proyecto oficial del centenario organizado fuera de Estados Unidos](https://oklahomaroute66.com/news/route-66-run-for-als), y cita también a Unzué como inspiración.
+
+El dinero se reparte en dos: lo que se recauda en Cataluña va a la Fundació Miquel Valls y lo de Estados Unidos, a una asociación americana que financia investigación. En la web del reto se puede patrocinar un kilómetro por 10 euros.
+
+## La huella de Unzué
+
+Juan Carlos Unzué fue portero, sobre todo del [Sevilla](/futbol/laliga/equipo/243), y después entrenador del Celta y técnico en el cuerpo del [Barça](/futbol/laliga/equipo/83). El 18 de junio de 2020 anunció que dejaba los banquillos porque le habían diagnosticado ELA, [recoge su biografía](https://es.wikipedia.org/wiki/Juan_Carlos_Unz%C3%A9), y desde entonces se ha convertido en activista de los enfermos. Su pelea ha cruzado el Atlántico a la carrera, en las piernas de un funcionario de Moià.`,
+    category: 'curiosa',
+    kind: 'noticia',
+    competition: { name: 'Atletismo', sport: 'atletismo', slug: 'atletismo' },
+    sourceName: 'Ara',
+    sourceUrl: 'https://es.ara.cat/deportes/atletismo/93-maratones-150-dias-imagino-forrest-gump_1_5721515.html',
+    sourceLang: 'es',
+    publishedAt: '2026-11-05T19:20:00+01:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Bridge_over_Pryor_Creek_Rt-66_Chelsea_OK_2026-05-25_10-47-24.jpg/1280px-Bridge_over_Pryor_Creek_Rt-66_Chelsea_OK_2026-05-25_10-47-24.jpg',
+      alt: 'Puente metálico de 1926 sobre el arroyo Pryor, en el trazado original de la Ruta 66 junto a Chelsea (Oklahoma), rodeado de árboles',
+      credit: 'G. Edward Johnson · Wikimedia Commons',
+      license: 'CC BY 4.0',
+    },
+    sourcesSecondary: [
+      { name: 'KTUL: paso por Tulsa', url: 'https://ktul.com/news/local/man-running-entirety-of-route-66-to-raise-money-awareness-for-als-passes-through-tulsa-10-17-2026' },
+      { name: 'Oklahoma Route 66 Association', url: 'https://oklahomaroute66.com/news/route-66-run-for-als' },
+      { name: 'Run Route 66 for ALS', url: 'https://runroute66forals.org' },
+    ],
+  },
+  {
+    slug: 'ana-barbosu-20-anos-bronce-paris-chiles-tas-dos-anos-sancion-localizacion-los-angeles-2028',
+    title: 'Ana Bărbosu (20 años), del bronce de París que le devolvió el TAS a dos años sin poder competir',
+    summary: 'El TAS confirmó el 4 de noviembre la sanción de dos años a la gimnasta rumana por tres fallos de localización. Volverá en mayo de 2028, dos meses antes de Los Ángeles.',
+    body: `Ana Bărbosu recuperó en el TAS el bronce de suelo de París 2024 que le había quitado una reclamación, y ahora el mismo tribunal le cierra la puerta durante dos años. El Tribunal de Arbitraje Deportivo (TAS) confirmó el miércoles 4 de noviembre la sanción de dos años a la gimnasta rumana por tres fallos en el sistema de localización antidopaje, [según ESPN y AP](https://www.espn.com/olympics/story/_/id/50381648/cas-upholds-2-year-ban-olympic-gymnast-ana-barbosu). No hay ninguna sustancia de por medio: el caso trata de dónde estaba cuando la buscaron.
+
+La Agencia Internacional de Controles (ITA) registró los tres fallos entre septiembre y diciembre de 2025. La norma dice que tres, en cualquier combinación de controles fallidos o datos mal comunicados dentro de 12 meses, son una infracción. Se le descuenta la suspensión provisional que cumple desde el 5 de mayo, así que podrá volver el 4 de mayo de 2028, [detalla Gymnastics Now](https://gymnastics-now.com/ana-barbosu-suspended-two-years-for-whereabouts-violation/). Puede recurrir.
+
+## Lo que sí ganó
+
+El TAS le dio la razón en un punto: sus resultados desde diciembre de 2025 no se anulan. Y fueron muchos. Bărbosu se mudó a Estados Unidos en verano de 2025 para competir con la Universidad de Stanford. En su debut, el 10 de enero, ganó el concurso completo; después fue campeona de suelo de la ACC y subcampeona de barra en el campeonato de la NCAA. En mayo explicó en Instagram que el caso no tenía nada que ver con sustancias prohibidas y que el cambio de país y el inicio de la universidad habían sido una transición grande. Stanford dice que revisa el asunto internamente.
+
+Dos años es el máximo para esta infracción, que va de uno a dos. El estadounidense Yul Moldauer, por lo mismo, recibió 16 meses.
+
+## La medalla que sigue en el aire
+
+| Fecha | Qué pasó |
+| --- | --- |
+| 5-ago-2024 | Final de suelo en París: Bărbosu, tercera con 13,700 |
+| 5-ago-2024 | Una reclamación sube la nota de Jordan Chiles a 13,766 y la pasa al bronce |
+| Agosto de 2024 | El TAS anula esa reclamación por presentarse tarde |
+| 16-ago-2024 | Bărbosu recibe el bronce en Focșani, su ciudad |
+| Febrero de 2026 | El Tribunal Federal suizo devuelve el caso al TAS por pruebas nuevas |
+| 5-may-2026 | Suspensión provisional por localización |
+| 4-nov-2026 | El TAS confirma los dos años |
+
+La cronología sale de [su biografía en la Wikipedia](https://en.wikipedia.org/wiki/Ana_B%C4%83rbosu). El pleito del bronce va por otro carril: las partes pidieron que no haya vista antes de mayo de 2027.
+
+## El calendario de Los Ángeles
+
+Los Juegos de Los Ángeles se disputan [del 14 al 30 de julio de 2028](https://en.wikipedia.org/wiki/2028_Summer_Olympics). Bărbosu, nacida en julio de 2006, recuperará el derecho a competir algo más de dos meses antes, con 21 años.
+
+El sistema de localización obliga a los deportistas de élite a decir cada día dónde estarán durante una hora concreta. Pesa en todos los deportes: a finales de octubre, en Lyon, [Lorenzo Musetti tuvo que pedir el móvil en pleno partido](/noticias/lorenzo-musetti-pide-movil-una-madrugada-partido-lyon-alarma-antidopaje-whereabouts-titulo) para apagar la alarma de su franja antidopaje. Y la factura de la élite en la gimnasia también la contó [Almudena Cid en Salvados](/noticias/almudena-cid-salvados-protesis-cadera-pensaba-que-esto-no-me-afectaba-jubilacion-justa-fernandez-ochoa-romay).`,
+    category: 'polemica',
+    kind: 'noticia',
+    competition: { name: 'Gimnasia artística', sport: 'gimnasia', slug: 'gimnasia' },
+    sourceName: 'ESPN (AP)',
+    sourceUrl: 'https://www.espn.com/olympics/story/_/id/50381648/cas-upholds-2-year-ban-olympic-gymnast-ana-barbosu',
+    sourceLang: 'en',
+    publishedAt: '2026-11-05T19:21:00+01:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/2022-08-14_European_Championships_2022_%E2%80%93_Artistic_Gymnastics_Women%27s_Apparatus_Final_Balance_Beam_by_Sandro_Halank%E2%80%93005.jpg/1280px-2022-08-14_European_Championships_2022_%E2%80%93_Artistic_Gymnastics_Women%27s_Apparatus_Final_Balance_Beam_by_Sandro_Halank%E2%80%93005.jpg',
+      alt: 'Ana Bărbosu, con maillot blanco y negro, levanta los dos brazos y sonríe tras su ejercicio de barra en el Europeo de Múnich de 2022',
+      credit: 'Sandro Halank · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+    sourcesSecondary: [
+      { name: 'Gymnastics Now', url: 'https://gymnastics-now.com/ana-barbosu-suspended-two-years-for-whereabouts-violation/' },
+      { name: 'Wikipedia: Ana Bărbosu', url: 'https://en.wikipedia.org/wiki/Ana_B%C4%83rbosu' },
+    ],
+  },
+  {
     slug: 'real-sociedad-lyon-celta-getafe-jueves-5-noviembre-horario-donde-ver-alcaraz-berrettini-paris',
     title: 'Real Sociedad - Lyon, Celta y Getafe: horarios del jueves europeo y a qué hora juega Alcaraz',
     summary: 'La Real recibe al Lyon a las 18:45, casi a la vez que Alcaraz y Berrettini en París; Celta y Getafe juegan a las 21:00. Canales de Movistar Plus+ y hora de Canarias.',
@@ -187,7 +393,7 @@ Datos de [la clasificación de ESPN](https://www.espn.com/soccer/standings/_/lea
 
 ## París: Alcaraz, cuarto en la central
 
-Alcaraz es el segundo cabeza de serie y el miércoles ganó a Alex Michelsen por 7-6 y 6-3 en su estreno. Berrettini viene de dos partidos ajustados: 6-4, 3-6 y 7-6 a Brandon Nakashima en primera ronda y 7-6 y 7-5 a Ugo Humbert en segunda. Su partido es el cuarto de la pista central; si los tres anteriores se alargan, empezará más tarde, de modo que el arranque de Anoeta y el del tenis pueden solaparse.
+Alcaraz es el segundo cabeza de serie y el miércoles ganó a Alex Michelsen por 7-6 y 6-3 en su estreno. Berrettini viene de dos partidos ajustados: 6-4, 3-6 y 7-6 a Brandon Nakashima en primera ronda y 7-6 y 7-5 a Ugo Humbert en segunda. **Actualización:** Berrettini no llegó a jugar. Una lesión en el codo le obligó a retirarse antes del partido y Alcaraz pasó a cuartos sin saltar a la pista, [informó la ATP](https://www.atptour.com/es/news/paris-2026-jueves-segunda-ronda-alcaraz-berrettini). Su rival saldrá del Fils - Fritz.
 
 El cuadro ya no tiene a Alexander Zverev, que [cayó en su estreno ante Lorenzo Musetti](/noticias/alexander-zverev-eliminado-paris-musetti-estreno-medvedev-buse-tiafoe-de-minaur-alcaraz-michelsen), ni a Novak Djokovic, eliminado el miércoles por Rinky Hijikata. Detrás de Alcaraz, en la misma pista, cierran Arthur Fils y Taylor Fritz, no antes de las 20:30. El tenis va por [la guía de Movistar Plus+ y HBO Max](/noticias/donde-ver-tenis-espana-atp-finals-copa-davis-alcaraz-movistar-hbo-max).`,
     category: 'tv',
@@ -197,6 +403,7 @@ El cuadro ya no tiene a Alexander Zverev, que [cayó en su estreno ante Lorenzo 
     sourceUrl: 'https://www.espn.com/soccer/schedule/_/league/uefa.europa',
     sourceLang: 'en',
     publishedAt: '2026-11-05T10:16:00+01:00',
+    modifiedAt: '2026-11-05T19:22:00+01:00',
     author: 'Redacción Mundiales',
     image: {
       url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Anoeta_00%2C_Donostia%2C_Gipuzkoa%2C_Euskal_Herria.jpg/1280px-Anoeta_00%2C_Donostia%2C_Gipuzkoa%2C_Euskal_Herria.jpg',
