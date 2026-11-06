@@ -154,6 +154,269 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'convocatoria-espana-chequia-inglaterra-27-jugadores-ocho-no-campeones-mundo-jacobo-ramon-valles-barrios',
+    title: 'Convocatoria de España: 27 para Chequia e Inglaterra y ocho que no fueron campeones del mundo',
+    summary: 'De la Fuente llama a 27 para Praga y el Metropolitano. Repiten 19 campeones del mundo, faltan siete y entran ocho que no estuvieron en el Mundial, con Jacobo Ramón, Valles y Barrios.',
+    body: `Luis de la Fuente anunció este viernes [la lista de 27 jugadores](https://www.si.com/es-us/la-lista-de-convocados-de-la-seleccion-espanola-para-los-partidos-frente-a-la-republica-checa-e-inglaterra) con la que España cierra la fase de grupos de la [Nations League](/futbol/nations-league): Chequia en Praga el jueves 12 de noviembre e Inglaterra en el Metropolitano el domingo 15, los dos a las 20:45. Diecinueve de los 27 fueron campeones del mundo en julio. Los otros ocho no estaban en aquella lista, y entre ellos están el central del Como Jacobo Ramón, el portero del Betis Álvaro Valles y el centrocampista del Atlético Pablo Barrios.
+
+La federación dedicó el anuncio a las víctimas del accidente ferroviario de Urda y a Jesús de Miguel, el futbolista fallecido esta semana.
+
+## La lista completa
+
+| Línea | Convocados |
+| --- | --- |
+| Porteros | Unai Simón (Athletic), David Raya (Arsenal), Joan García (Barcelona), Álvaro Valles (Betis) |
+| Defensas | Aymeric Laporte (Athletic), Pau Cubarsí (Barcelona), Marc Pubill (Atlético), Dean Huijsen (Real Madrid), Pedro Porro (Tottenham), Jacobo Ramón (Como), Marc Cucurella (Chelsea), Álex Grimaldo (Bayer Leverkusen) |
+| Centrocampistas | Fabián Ruiz (PSG), Pedri (Barcelona), Mikel Merino (Arsenal), Martín Zubimendi (Arsenal), Álex Baena (Atlético), Fermín López (Barcelona), Pablo Barrios (Atlético), Marc Roca (Betis) |
+| Delanteros | Mikel Oyarzabal (Real Sociedad), Ferran Torres (Barcelona), Roberto Fernández (Espanyol), Lamine Yamal (Barcelona), Nico Williams (Athletic), Yeremy Pino (Crystal Palace), Ander Barrenetxea (Real Sociedad) |
+
+## Los ocho que no estuvieron en el Mundial
+
+Cruzada con [los 26 que ganaron el Mundial](https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads#Spain), la lista deja ocho nombres nuevos: Álvaro Valles, Dean Huijsen, Jacobo Ramón, Fermín López, Pablo Barrios, Marc Roca, Roberto Fernández y Ander Barrenetxea.
+
+Huijsen es el caso más llamativo. Se quedó fuera de la [convocatoria mundialista](/2026/convocatorias), la primera de España en una Copa del Mundo sin un solo jugador del Real Madrid, y hoy es el único madridista de los 27. Jacobo Ramón, canterano blanco de 21 años, llega dos días después de dar una asistencia en [el 1-9 del Como en Lens](/noticias/espanoles-como-fabregas-lens-1-9-jacobo-ramon-alex-valle-luis-milla).
+
+Respecto a la lista anterior entran Barrios, Jacobo Ramón y Valles, [según Sport Aragón](https://www.sportaragon.com/futbol-aragon/convocatoria-espana-lista-luis-fuente-republica-checa-inglaterra/20261106113451162547.html), que sitúa fuera a Isco y Samu, dos nombres que habían sonado estos días.
+
+## Los siete campeones que faltan
+
+Eric García, Marcos Llorente, Gavi, Dani Olmo, Rodri, Víctor Muñoz y Borja Iglesias levantaron la copa en julio y no están ahora. El anuncio no detalla los motivos de cada ausencia. Sport Aragón atribuye las de Rodri y Olmo a problemas físicos.
+
+## De qué clubes salen
+
+| Club | Convocados |
+| --- | --- |
+| Barcelona | 6 |
+| Athletic, Arsenal y Atlético | 3 cada uno |
+| Betis y Real Sociedad | 2 cada uno |
+| Real Madrid, Tottenham, Chelsea, Como, Bayer Leverkusen, PSG, Espanyol y Crystal Palace | 1 cada uno |
+
+Dieciocho de los 27 juegan en LaLiga y nueve, fuera.
+
+## Cuándo juega España y dónde se ve
+
+| Partido | Día | Península | Canarias | Estadio |
+| --- | --- | --- | --- | --- |
+| Chequia - España | Jueves 12 de noviembre | 20:45 | 19:45 | Epet Arena (Praga) |
+| España - Inglaterra | Domingo 15 de noviembre | 20:45 | 19:45 | Metropolitano (Madrid) |
+
+La [ficha del España - Inglaterra](/futbol/nations-league/partido/401861175) da el partido en La 1 y RTVE Play. La del encuentro de Praga todavía no fija canal, aunque RTVE tiene los derechos de la selección: lo explicamos en [la guía de la Nations League en televisión](/noticias/donde-ver-nations-league-2026-27-espana-la-1-dazn-chequia-inglaterra).
+
+La [selección](/selecciones/esp) llega con pleno: 12 puntos de 12 en el grupo A3 tras ganar 2-3 en Wembley, 4-1 y 1-2 a Croacia y 3-1 a Chequia, [según los resultados de ESPN](https://www.espn.com/soccer/team/results/_/id/164). Inglaterra tiene 9, Croacia 3 y Chequia ninguno.`,
+    category: 'convocatorias',
+    kind: 'noticia',
+    competition: { name: 'Nations League', sport: 'futbol', slug: 'nations-league' },
+    sourceName: 'Sports Illustrated',
+    sourceUrl: 'https://www.si.com/es-us/la-lista-de-convocados-de-la-seleccion-espanola-para-los-partidos-frente-a-la-republica-checa-e-inglaterra',
+    sourceLang: 'es',
+    publishedAt: '2026-11-06T12:23:00+01:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Spain_Starting_XI_France_v_Spain_7.24.26-029.jpg/1280px-Spain_Starting_XI_France_v_Spain_7.24.26-029.jpg',
+      alt: 'Los once titulares de España posan en dos filas sobre el césped antes del Francia-España del Mundial 2026, con camiseta crema y pantalón granate y el portero de amarillo',
+      credit: 'Bryan Berlin · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+    sourcesSecondary: [
+      { name: 'Sport Aragón: la lista con clubes, entradas y ausencias', url: 'https://www.sportaragon.com/futbol-aragon/convocatoria-espana-lista-luis-fuente-republica-checa-inglaterra/20261106113451162547.html' },
+      { name: 'Wikipedia: 2026 FIFA World Cup squads (España)', url: 'https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads#Spain' },
+      { name: 'ESPN (calendario y horarios de la Nations League)', url: 'https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261112' },
+      { name: 'ESPN (resultados de España)', url: 'https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/teams/164/schedule' },
+    ],
+  },
+  {
+    slug: 'adrian-san-miguel-39-anos-hijo-del-frutero-3000-viviendas-padre-fruteria-liverpool-silla-de-enea',
+    title: 'Adrián San Miguel, 39 años, y la frutería de las 3.000 Viviendas: «Yo era el hijo del frutero»',
+    summary: 'El exportero del Betis y el Liverpool cuenta que su padre, Manolo, no cerró la frutería del Polígono Sur hasta 2019 o 2020, cuando él ya jugaba en Anfield.',
+    body: `En el Polígono Sur de Sevilla, durante años, pocos lo llamaban por su nombre. [«Yo era el hijo del frutero»](https://www.youtube.com/watch?v=TX-asNvpWqo&t=682s), cuenta Adrián San Miguel, 39 años, en una charla de hora y media con el periodista José Manuel Peña para el programa «Silla de Enea», publicada el 5 de noviembre. Su padre, Manolo, tenía una frutería en las 3.000 Viviendas. Y no la cerró cuando su hijo llegó a la élite: la mantuvo hasta 2019 o 2020, según la cuenta del propio Adrián. Son los años en que él ganaba la Supercopa de Europa y la Premier League con el Liverpool.
+
+La conversación se grabó en el colegio Altair, donde se puso los guantes por primera vez con ocho o nueve años porque su equipo se quedó sin portero. Hasta entonces jugaba de extremo.
+
+## El padre que dejaba la tienda para llevarlo a entrenar
+
+Adrián se crio en Su Eminencia, un barrio obrero cercano al colegio. Entró en la cantera del [Betis](/futbol/laliga/equipo/244) con 10 años y su padre perdía horas de trabajo para recogerlo y llevarlo a la ciudad deportiva. Su abuelo veía los partidos pegado a la portería.
+
+Los sábados echaba una mano en la frutería y en el mercado. Allí lo reconocían, ya en juveniles y en el filial, como el chico que ayudaba a Manolo. Con su primer dinero y algo que puso su padre se compró una moto para ir solo a entrenar.
+
+## Un cartón de fresas con las tallas apuntadas
+
+Cuando debutó en Primera, los clientes empezaron a pedirle camisetas al frutero. Manolo preguntaba la talla y hacía como que la apuntaba en el cartón de las cajas de fresas o de melocotones. La lista estuvo colgada en la tienda mucho tiempo. Regalaron muchas, pero era imposible dar todas.
+
+En la pared, el padre montó un mural con fotos del hijo que fue creciendo: de niño, con el West Ham, con el Liverpool. La madre trabajaba con él en la tienda y por las tardes Manolo hacía chapuzas. Cerró después de un problema de corazón, ya resuelto.
+
+## Medias zurcidas y el último cuarto de hora del Villamarín
+
+La charla deja detalles que no están en su biografía:
+
+- En la cantera entrenaba sobre albero con camisetas heredadas de los porteros del primer equipo, las de Pedro Jaro o Toni Prats, lavadas una y otra vez.
+- Su madre le zurcía las medias y los pantalones de entrenamiento.
+- Hubo temporadas en que su padre no pudo sacarse el carné de socio. Entraban al estadio en los últimos 15 minutos, cuando se abrían las puertas.
+- Un año antes de debutar se rompió el ligamento cruzado en el filial y pensó que quizá no llegaría. Estudiaba Ciencias de la Actividad Física y del Deporte como plan B.
+
+## De las 3.000 a Anfield, con fechas
+
+Puesta junto a [su trayectoria](https://es.wikipedia.org/wiki/Adri%C3%A1n_San_Miguel), la historia de la frutería queda así:
+
+| Año | Qué pasó |
+| --- | --- |
+| 1997 | Entra en la cantera del Betis con 10 años |
+| 2012 | Debuta con el primer equipo |
+| 2013 | Ficha por el West Ham, donde juega seis temporadas |
+| 2019 | Llega libre al Liverpool en agosto y días después para el penalti que decide la Supercopa de Europa |
+| 2019-2020 | Su padre cierra la frutería |
+| 2024 | Vuelve al Betis |
+| 2026 | Se retira en mayo |
+
+Once temporadas en la [Premier League](/futbol/premier-league), y la tienda del barrio abierta durante más de la mitad de ellas. Adrián trabaja ahora en la [dirección deportiva del Betis](https://www.flashscore.es/noticias/futbol-laliga-ea-sports-adrian-san-miguel-seguira-betis-direccion-deportiva/SQnrAfGr/), con funciones de coordinación deportiva e institucional.`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'LaLiga', sport: 'futbol', slug: 'laliga' },
+    sourceName: 'Silla de Enea (YouTube)',
+    sourceUrl: 'https://www.youtube.com/watch?v=TX-asNvpWqo',
+    sourceLang: 'es',
+    publishedAt: '2026-11-06T12:22:00+01:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Adri%C3%A1n_West_Ham_Vs_Birkrikara_%2819934092832%29.jpg/1280px-Adri%C3%A1n_West_Ham_Vs_Birkrikara_%2819934092832%29.jpg',
+      alt: 'Adrián San Miguel, con la equipación verde de portero del West Ham y el dorsal 13, grita con los brazos abiertos sobre el césped en un partido contra el Birkirkara en julio de 2015',
+      credit: 'joshjdss · Wikimedia Commons',
+      license: 'CC BY 2.0',
+    },
+    sourcesSecondary: [
+      { name: 'Flashscore: Adrián se incorpora a la dirección deportiva del Betis', url: 'https://www.flashscore.es/noticias/futbol-laliga-ea-sports-adrian-san-miguel-seguira-betis-direccion-deportiva/SQnrAfGr/' },
+      { name: 'Wikipedia: Adrián San Miguel', url: 'https://es.wikipedia.org/wiki/Adri%C3%A1n_San_Miguel' },
+      { name: 'Wikimedia Commons: Liverpool - Chelsea, Supercopa de Europa, 14 de agosto de 2019', url: 'https://commons.wikimedia.org/wiki/File:Adrian_UEFA_Super_Cup_2019.jpg' },
+    ],
+  },
+  {
+    slug: 'lincoln-red-imps-hajduk-split-1-0-sin-tirar-a-puerta-conference-mas-puntos-que-getafe-espanoles',
+    title: 'Lincoln Red Imps gana al Hajduk sin tirar a puerta y suma más puntos que el Getafe en Europa',
+    summary: 'El equipo de Gibraltar, con nueve españoles sobre el césped, venció 1-0 al Hajduk Split con un gol en propia meta en el 89 y cero remates a puerta. Lleva tres puntos; el Getafe, uno.',
+    body: `El Lincoln Red Imps de Gibraltar ganó el jueves 1-0 al Hajduk Split en la [Conference League](/futbol/conference-league) sin registrar un solo remate a puerta. El gol, en el minuto 89, fue en propia meta del central Dennis Hadžikadunić. Con esos tres puntos, el equipo que entrena el español Juanma Pavón suma más que el [Getafe](/futbol/laliga/equipo/2922), que lleva uno en tres jornadas.
+
+## El gol llegó de rebote
+
+En el minuto 84 ninguno de los dos equipos había tirado entre los tres palos, [según la crónica del Gibraltar Chronicle](https://www.chronicle.gi/lincoln-red-imps-silence-hajduk-split-to-claim-another-european-scalp/). Poco después el portero Jaylan Hankins sacó sobre la línea un remate tras un córner, la única parada del partido. Y en el 89 llegó la falta lateral: Nano la colgó, Christian Rutjens la peinó, el balón dio en el poste y rebotó en Hadžikadunić antes de entrar.
+
+Las cifras [del acta de ESPN](https://www.espn.com/soccer/match/_/gameId/401915742):
+
+| | Lincoln Red Imps | Hajduk Split |
+| --- | --- | --- |
+| Posesión | 34 % | 66 % |
+| Remates | 5 | 15 |
+| Remates a puerta | 0 | 1 |
+| Saques de esquina | 0 | 8 |
+| Pases | 230 | 445 |
+
+## Nueve españoles y un lateral de 42 años
+
+Pavón usó 16 futbolistas. Nueve figuran como españoles en la plantilla que recoge [Wikipedia](https://en.wikipedia.org/wiki/Lincoln_Red_Imps_F.C.):
+
+- Titulares: Christian Rutjens, Nano, Mandi, Toni García y Manu Toledano.
+- Desde el banquillo: Álex Mula, Álvaro Romero, Yussef Flalhi y Joe.
+
+Nano es Mariano González, malagueño, exjugador del Cádiz. Cumplió 42 años el 27 de octubre y el Chronicle lo presenta como el goleador más veterano de la historia de la Conference League. Suyo fue el centro del gol.
+
+## Más puntos que el Getafe
+
+Así están los dos tras tres jornadas, con datos de ESPN:
+
+| Equipo | Puesto | Puntos | Balance | Goles |
+| --- | --- | --- | --- | --- |
+| Lincoln Red Imps | 22.º | 3 | 1 victoria, 2 derrotas | 3-6 |
+| Getafe | 31.º | 1 | 1 empate, 2 derrotas | 3-7 |
+
+El Getafe perdió esa misma noche 0-1 en casa contra el Brighton. La fase de liga tiene 36 equipos: los ocho primeros pasan a octavos, del noveno al 24.º juegan una eliminatoria previa y el resto queda fuera. Hoy el Lincoln estaría dentro y el Getafe no. Los gibraltareños habían perdido 2-1 en el campo del Brann y 1-4 contra el Twente.
+
+## Un club que ya sabe de sorpresas
+
+- En julio de 2016 ganó al Celtic en la ida de una previa de Champions, en el estreno de Brendan Rodgers en el banquillo escocés. El autor de aquel gol, Lee Casciaro, [policía militar según The Guardian](https://www.theguardian.com/football/2016/jul/12/lincoln-red-imps-gibraltar-celtic), estuvo el jueves entre los suplentes.
+- El 23 de octubre de 2025 venció 2-1 al Lech Poznań, la primera victoria de un equipo de Gibraltar en una fase de liga europea.
+
+El partido estaba declarado de alto riesgo. Solo se dieron 500 entradas a la afición croata y, aunque el estadio de Europa Point figuraba como lleno, hubo gradas vacías para separar a las dos hinchadas.`,
+    category: 'curiosa',
+    kind: 'noticia',
+    competition: { name: 'Conference League', sport: 'futbol', slug: 'conference-league' },
+    sourceName: 'Gibraltar Chronicle',
+    sourceUrl: 'https://www.chronicle.gi/lincoln-red-imps-silence-hajduk-split-to-claim-another-european-scalp/',
+    sourceLang: 'en',
+    publishedAt: '2026-11-06T12:21:00+01:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/St_Josephs_away.jpg/1280px-St_Josephs_away.jpg',
+      alt: 'Aficionados de pie, muchos con camiseta roja, en la grada cubierta del Europa Sports Park de Gibraltar, con los jugadores sobre el césped al fondo, en un partido europeo de 2024',
+      credit: 'Riverside Regular · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+    sourcesSecondary: [
+      { name: 'ESPN (acta y estadísticas del partido)', url: 'https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/summary?event=401915742' },
+      { name: 'ESPN (clasificación de la Conference League)', url: 'https://site.api.espn.com/apis/v2/sports/soccer/uefa.europa.conf/standings' },
+      { name: 'The Athletic: una victoria sin remates a puerta', url: 'https://www.nytimes.com/athletic/7757423/2026/11/05/football-game-win-shot-on-target-conference-league/' },
+      { name: 'Wikipedia: Lincoln Red Imps F.C.', url: 'https://en.wikipedia.org/wiki/Lincoln_Red_Imps_F.C.' },
+      { name: 'Wikipedia: Nano (footballer, born 1984)', url: 'https://en.wikipedia.org/wiki/Nano_(footballer,_born_1984)' },
+      { name: 'The Guardian: el Lincoln que ganó al Celtic en 2016', url: 'https://www.theguardian.com/football/2016/jul/12/lincoln-red-imps-gibraltar-celtic' },
+    ],
+  },
+  {
+    slug: 'pedro-diniz-98-carreras-f1-sin-podio-huevos-ecologicos-fazenda-da-toca-2300-hectareas-vettel',
+    title: 'Pedro Diniz, 98 carreras de F1 sin un podio, produce hoy huevos ecológicos en 2.300 hectáreas',
+    summary: 'El brasileño que llegó a la Fórmula 1 con el dinero de los supermercados de su padre dirige una finca a 200 km de Interlagos, considerada la mayor productora de huevos ecológicos de Brasil.',
+    body: `Pedro Diniz disputó 98 grandes premios de [Fórmula 1](/motor/formula-1) entre 1995 y 2000 y nunca subió a un podio. Hoy tiene 56 años y es agricultor: su finca, la Fazenda da Toca, ocupa 2.300 hectáreas en Itirapina, a unos 200 kilómetros de São Paulo, y [está considerada la mayor productora de huevos ecológicos de Brasil](https://www.formel1.de/news/boulevard-sonstiges/2026-11-05/er-fuhr-98-formel-1-rennen-heute-produziert-er-bio-eier-im-grossen-stil). El circuito de Interlagos, donde este fin de semana se corre el [Gran Premio de Brasil](/noticias/previa-gp-brasil-2026), está en esa misma São Paulo.
+
+## El piloto que pagaba por correr
+
+Diniz nació en São Paulo en 1970. Su padre, Abílio Diniz, era el dueño de Pão de Açúcar, una de las grandes cadenas de supermercados del país, y el dinero familiar le abrió las puertas del campeonato. En Arrows, su aportación en patrocinios se estimó en unos 13 millones de dólares. En 2000 la familia llegó a comprar el 40 % de la escudería Prost, que cerró un año después.
+
+Su carrera, en cifras:
+
+| Dato | Cifra |
+| --- | --- |
+| Temporadas | 6 (1995-2000) |
+| Equipos | Forti, Ligier, Arrows y Sauber |
+| Grandes premios disputados | 98 |
+| Puntos | 10 |
+| Mejor resultado | 5.º (Luxemburgo 1997 y Bélgica 1998) |
+| Primera y última carrera | Brasil 1995 y Malasia 2000 |
+
+Compartió garaje con Damon Hill y con Jean Alesi. Y dejó un hueco con acento español: se marchó de Arrows a Sauber en 1999, el año en que Pedro de la Rosa debutó en la Fórmula 1 precisamente con Arrows.
+
+## El fuego de Buenos Aires
+
+La imagen que quedó de él no fue un adelantamiento. En el Gran Premio de Argentina de 1996, una válvula del depósito no cerró bien tras el repostaje y su Ligier ardió en marcha. Salió ileso. El diario británico The Sun tituló con un juego de palabras, «Diniz in the Oven». Tres años después volcó en Nürburgring.
+
+De aquello habló en 2021 en el pódcast oficial de la F1, Beyond the Grid. [«El mayor reto era, en realidad, el de mi mente»](https://www.formula1.com/en/latest/article.beyond-the-grid-90s-racer-pedro-diniz-talks-fear-fiery-escapes-and.5FzeCuq6Wsxgsd3ifl9L8e.html), dijo sobre el miedo, y habló de cómo la meditación y el yoga ayudan a un piloto.
+
+## 2.300 hectáreas en vez de una parrilla
+
+Al dejar el volante volvió a Brasil, entró en la empresa familiar y organizó la Fórmula Renault brasileña entre 2002 y 2006. Después se volcó en la finca. La Fazenda da Toca produce huevos, leche y cereales ecológicos, y cultiva con agroforestería: árboles y cosechas mezclados en el mismo terreno en lugar de monocultivo. Sus 2.300 hectáreas son 23 kilómetros cuadrados, más de 3.200 campos de fútbol. Diniz fundó además el Instituto Toca, dedicado a la investigación en sostenibilidad.
+
+## La visita de Vettel
+
+En noviembre de 2021, entre las carreras de México y Brasil, Sebastian Vettel fue a conocerlo. No se habían visto nunca. El alemán había dado con su nombre por su proyecto agrícola, no por las carreras, [según contó a The Race](https://www.the-race.com/formula-1/why-vettel-took-a-trip-to-pedro-dinizs-farm-this-week). De la visita destacó la idea de devolver nutrientes al suelo en lugar de agotarlo.
+
+El tetracampeón también había pasado por la granja ecológica de Jody Scheckter, campeón del mundo en 1979. Dos pilotos de épocas distintas con el mismo oficio después de la Fórmula 1.`,
+    category: 'curiosa',
+    kind: 'noticia',
+    competition: { name: 'Fórmula 1', sport: 'motor', slug: 'formula-1' },
+    sourceName: 'Formel1.de',
+    sourceUrl: 'https://www.formel1.de/news/boulevard-sonstiges/2026-11-05/er-fuhr-98-formel-1-rennen-heute-produziert-er-bio-eier-im-grossen-stil',
+    sourceLang: 'de',
+    publishedAt: '2026-11-06T12:20:00+01:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Fazenda_da_Toca_foto_kiko_ferrite_02295_-_Pedro_Paulo_Diniz.jpg/1280px-Fazenda_da_Toca_foto_kiko_ferrite_02295_-_Pedro_Paulo_Diniz.jpg',
+      alt: 'Pedro Paulo Diniz, con el pelo canoso y un polo azul, sonríe a la cámara delante de unas plataneras en su finca, la Fazenda da Toca, en 2016',
+      credit: 'Kiko Ferrite · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+    sourcesSecondary: [
+      { name: 'Formula1.com: Pedro Diniz en Beyond the Grid', url: 'https://www.formula1.com/en/latest/article.beyond-the-grid-90s-racer-pedro-diniz-talks-fear-fiery-escapes-and.5FzeCuq6Wsxgsd3ifl9L8e.html' },
+      { name: 'The Race: por qué Vettel visitó la granja de Diniz', url: 'https://www.the-race.com/formula-1/why-vettel-took-a-trip-to-pedro-dinizs-farm-this-week' },
+      { name: 'Wikipedia: Pedro Diniz', url: 'https://en.wikipedia.org/wiki/Pedro_Diniz' },
+      { name: 'Wikipedia: Pedro de la Rosa', url: 'https://es.wikipedia.org/wiki/Pedro_de_la_Rosa' },
+    ],
+  },
+  {
     slug: 'balon-de-oro-2026-polymarket-12-cuentas-top-5-kane-france-football-policia',
     title: 'Balón de Oro: France Football lleva a la policía 12 cuentas que apostaron por el top 5 de Kane',
     summary: 'Doce cuentas de Polymarket abiertas en octubre movieron unos 264.000 dólares sobre la clasificación que ganó Harry Kane. El dueño del premio prepara una denuncia. No hay acusados.',
