@@ -154,6 +154,180 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'previa-gp-brasil-2026',
+    title: "Gran Premio de Brasil: horarios de libres, clasificación y carrera",
+    summary: "Horarios en hora peninsular de todas las sesiones del Gran Premio de Brasil en Autodromo Jose Carlos Pace, Sao paulo y cómo llega el Mundial, con Kimi Antonelli líder.",
+    body: `El Mundial de Fórmula 1 llega a Autodromo Jose Carlos Pace, Sao paulo con Kimi Antonelli al frente de la general, 119 puntos por delante de Max Verstappen.
+
+## Horarios del Gran Premio de Brasil
+
+- **Libres 1**: viernes 6 de noviembre, a las 16:30 (hora peninsular)
+- **Libres 2**: viernes 6 de noviembre, a las 20:00 (hora peninsular)
+- **Libres 3**: sábado 7 de noviembre, a las 15:30 (hora peninsular)
+- **Clasificación**: sábado 7 de noviembre, a las 19:00 (hora peninsular)
+- **Carrera**: domingo 8 de noviembre, a las 18:00 (hora peninsular)
+
+## Así llega el Mundial
+
+1. Kimi Antonelli, 380 puntos
+2. Max Verstappen, 261 puntos
+3. Lewis Hamilton, 259 puntos
+4. George Russell, 250 puntos
+5. Charles Leclerc, 245 puntos
+
+En constructores manda Mercedes con 630 puntos, por delante de Ferrari (504).
+
+Horarios, resultados de cada sesión y clasificación completa del Mundial en la [página de la Fórmula 1](/motor/formula-1).`,
+    category: 'general',
+    kind: 'previa',
+    competition: {"name":"Fórmula 1","sport":"motor","slug":"formula-1"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/f1/schedule",
+    sourceLang: 'en',
+    publishedAt: '2026-11-06T01:50:18.388Z',
+    modifiedAt: '2026-11-06T01:50:18.388Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Vista_a%C3%A9rea_del_Aut%C3%B3dromo_Jos%C3%A9_Carlos_Pace_05.jpg/1920px-Vista_a%C3%A9rea_del_Aut%C3%B3dromo_Jos%C3%A9_Carlos_Pace_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Autodromo Jose Carlos Pace , escenario del Gran Premio de Brasil",
+      credit: "ProtoplasmaKid · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'previa-arsenal-hull-401878760',
+    title: "Arsenal - Hull: horario, dónde ver y cómo llegan al partido de Premier League",
+    summary: "Arsenal recibe a Hull este sábado 7 de noviembre (16:00 h, Emirates Stadium) en Premier League. Arsenal es 1.º y Hull, 11.º. TV: DAZN y DAZN 1.",
+    body: `Arsenal recibe a Hull este sábado 7 de noviembre (16:00 h, Emirates Stadium) en Premier League.
+
+## Cómo llegan
+
+Arsenal llega de ganar 1-0 a Liverpool y ocupa la 1.º plaza con 24 puntos (8G-0E-1P). Hull llega de empatar 2-2 con Ipswich y ocupa la 11.º plaza con 11 puntos (2G-5E-2P). La [clasificación de Premier League](/futbol/premier-league), al día.
+
+## Dónde ver el partido
+
+Se emite en **DAZN y DAZN 1**. Alineaciones en cuanto se confirmen, marcador en directo y narración en la [ficha del Arsenal - Hull](/futbol/premier-league/partido/401878760). El resto de la jornada, en [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    kind: 'previa',
+    competition: {"name":"Premier League","sport":"futbol","slug":"premier-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401878760",
+    sourceLang: 'en',
+    publishedAt: '2026-11-06T01:50:18.388Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/London_Emirates_Stadium_arsenal.jpg/1280px-London_Emirates_Stadium_arsenal.jpg",
+      alt: "Vista aérea del Emirates Stadium del Arsenal, en el norte de Londres",
+      credit: "Arne Müseler · Wikimedia Commons",
+      license: "CC BY-SA 3.0 de",
+    },
+  },
+  {
+    slug: 'partidos-futbol-hoy-2026-11-06',
+    title: "Partidos de fútbol hoy, viernes 6 de noviembre: horarios y dónde ver LaLiga, Premier League y Süper Lig",
+    summary: "Agenda de fútbol de hoy viernes 6 de noviembre: 17 partidos con horario en hora española y canal de televisión. Destaca Sevilla - Alavés.",
+    body: `Viernes 6 de noviembre deja 17 partidos de fútbol en las competiciones que seguimos. Aquí van, con la hora en España y el canal donde se ven. El partido que más miradas reúne es el **[Sevilla - Alavés](/futbol/laliga/partido/401882809)** (LaLiga, 21:00 h).
+
+## 🇹🇷 Süper Lig
+
+- **[Gaziantep - Kasimpasa](/futbol/super-lig/partido/401888256)** — 18:00 h
+
+Calendario y clasificación en la [página de Süper Lig](/futbol/super-lig).
+
+## 🇦🇷 Liga Profesional Argentina
+
+- **[Barracas - Racing ](/futbol/liga-argentina/partido/401841670)** — 19:00 h
+- **[Independiente - Riestra](/futbol/liga-argentina/partido/401841665)** — 23:15 h
+- **[San Lorenzo  - Platense](/futbol/liga-argentina/partido/401841662)** — 23:15 h · 📺 M+ Liga de Campeones
+- **[Unión (SF) - Vélez ](/futbol/liga-argentina/partido/401841660)** — 23:15 h
+
+Calendario y clasificación en la [página de Liga Argentina](/futbol/liga-argentina).
+
+## 🇫🇷 Copa de Francia
+
+- **[Oly Cayenne - Etoile Matoury](/futbol/copa-de-francia/partido/401933097)** — 20:00 h
+
+Calendario y clasificación en la [página de Copa de Francia](/futbol/copa-de-francia).
+
+## 🇳🇱 Eredivisie
+
+- **[Willem II - PEC Zwolle](/futbol/eredivisie/partido/401875556)** — 20:00 h
+
+Calendario y clasificación en la [página de Eredivisie](/futbol/eredivisie).
+
+## 🇪🇸 LaLiga Hypermotion
+
+- **[Castellón - Eibar](/futbol/laliga-2/partido/401883120)** — 20:30 h
+
+Calendario y clasificación en la [página de LaLiga 2](/futbol/laliga-2).
+
+## 🇩🇪 Bundesliga
+
+- **[Hamburg - Gladbach](/futbol/bundesliga/partido/401884739)** — 20:30 h · 📺 DAZN
+
+Calendario y clasificación en la [página de Bundesliga](/futbol/bundesliga).
+
+## 🏴󠁧󠁢󠁥󠁮󠁧󠁿 FA Cup
+
+- **[Bristol Rovers - Cambridge](/futbol/fa-cup/partido/401931085)** — 20:30 h
+- **[Oxford City - Leicester](/futbol/fa-cup/partido/401931109)** — 20:45 h
+
+Calendario y clasificación en la [página de FA Cup](/futbol/fa-cup).
+
+## 🇮🇹 Serie A
+
+- **[Venezia - Udinese](/futbol/serie-a/partido/401874815)** — 20:45 h · 📺 DAZN
+
+Calendario y clasificación en la [página de Serie A](/futbol/serie-a).
+
+## 🇫🇷 Ligue 1
+
+- **[Toulouse - Strasbourg](/futbol/ligue-1/partido/401876405)** — 20:45 h · 📺 DAZN
+
+Calendario y clasificación en la [página de Ligue 1](/futbol/ligue-1).
+
+## 🇪🇸 LaLiga
+
+- **[Sevilla - Alavés](/futbol/laliga/partido/401882809)** — 21:00 h · 📺 DAZN LaLiga / DAZN
+
+Calendario y clasificación en la [página de LaLiga](/futbol/laliga).
+
+## 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Premier League
+
+- **[Everton - Coventry](/futbol/premier-league/partido/401879242)** — 21:00 h · 📺 DAZN / DAZN 1
+
+Calendario y clasificación en la [página de Premier League](/futbol/premier-league).
+
+## 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Championship
+
+- **[Derby - Bolton](/futbol/championship/partido/401880167)** — 21:00 h
+
+Calendario y clasificación en la [página de Championship](/futbol/championship).
+
+## 🇵🇹 Primeira Liga
+
+- **[FC Famalicao - Arouca](/futbol/primeira-liga/partido/401885399)** — 21:45 h
+
+Calendario y clasificación en la [página de Primeira Liga](/futbol/primeira-liga).
+
+Horarios en hora de España; los resultados y la narración de cada partido van en su ficha. Toda la jornada, con marcadores en directo, en [partidos de hoy](/partidos-hoy).`,
+    category: 'tv',
+    kind: 'agenda',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882809",
+    sourceLang: 'en',
+    publishedAt: '2026-11-06T01:50:18.388Z',
+    modifiedAt: '2026-11-06T01:50:18.388Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/2022-10-25_1_Estadio_Ram%C3%B3n_S%C3%A1nchez_Pizju%C3%A1n_%28Sevilla_FC%29.jpg/1280px-2022-10-25_1_Estadio_Ram%C3%B3n_S%C3%A1nchez_Pizju%C3%A1n_%28Sevilla_FC%29.jpg",
+      alt: "Interior del Ramón Sánchez-Pizjuán, con las gradas rojas y blancas y el nombre del Sevilla",
+      credit: "Niels98 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
     slug: 'sevilla-alaves-alcaraz-cuartos-paris-gp-sao-paulo-libres-camara-viernes-6-noviembre-horarios-donde-ver',
     title: 'Sevilla - Alavés, Alcaraz en cuartos de París y los libres de Interlagos: horarios del viernes 6',
     summary: 'El viernes trae Sevilla - Alavés a las 21:00 en DAZN, los cuartos de Alcaraz en París y los libres del GP de São Paulo, con el debut de Rafael Câmara. Horas y canales.',
