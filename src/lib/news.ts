@@ -154,6 +154,292 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'real-madrid-mestalla-valencia-pole-interlagos-semifinales-paris-sabado-7-noviembre-horarios-donde-ver',
+    title: 'Real Madrid en Mestalla a las 21:00 y pole de Interlagos a las 19:00: horarios y canales del sábado 7',
+    summary: 'El sábado 7 de noviembre trae el Valencia - Real Madrid a las 21:00 en DAZN, la clasificación del GP de São Paulo a las 19:00 y las semifinales de París. Horas y canales.',
+    body: `El sábado 7 de noviembre se cierra con el [Valencia - Real Madrid](/futbol/laliga/partido/401882808) a las 21:00 (20:00 en Canarias) en Mestalla, por DAZN LaLiga según la ficha del partido. Dos horas antes, a las 19:00, Interlagos decide la parrilla del Gran Premio de São Paulo. Entre medias hay tres partidos más de LaLiga, cuatro de la Premier League y las semifinales del Masters 1000 de París, que tendrán a Carlos Alcaraz si gana esta noche a Taylor Fritz.
+
+## Horarios del sábado y dónde ver
+
+| Peninsular | Canarias | Evento | Competición | Canal |
+| --- | --- | --- | --- | --- |
+| 13:30 | 12:30 | [Leeds - Tottenham](/futbol/premier-league/partido/401878758) | Premier League | DAZN 1 |
+| 14:00 | 13:00 | [Málaga - Racing](/futbol/laliga/partido/401882812) | LaLiga | M+ LALIGA (Movistar Plus+) |
+| 15:30 | 14:30 | Libres 3 del GP de São Paulo | Fórmula 1 | DAZN |
+| 16:00 | 15:00 | [Arsenal - Hull](/futbol/premier-league/partido/401878760) | Premier League | DAZN 1 |
+| 16:00 | 15:00 | [Fulham - Newcastle](/futbol/premier-league/partido/401879241) | Premier League | DAZN |
+| 16:15 | 15:15 | [Espanyol - Deportivo](/futbol/laliga/partido/401882813) | LaLiga | Por confirmar |
+| 18:30 | 17:30 | [Osasuna - Athletic](/futbol/laliga/partido/401882811) | LaLiga | M+ LALIGA (Movistar Plus+) |
+| 18:30 | 17:30 | [Nottingham Forest - Manchester City](/futbol/premier-league/partido/401878757) | Premier League | DAZN 1 |
+| 19:00 | 18:00 | Clasificación del GP de São Paulo | Fórmula 1 | DAZN |
+| 21:00 | 20:00 | [Valencia - Real Madrid](/futbol/laliga/partido/401882808) | LaLiga | DAZN LaLiga |
+| Por confirmar | Por confirmar | Semifinales del Masters 1000 de París | Tenis | Movistar Plus+ |
+
+Las horas y los canales de los partidos salen de sus fichas; las de la Fórmula 1, del [calendario oficial del Gran Premio](https://www.formula1.com/en/racing/2026/brazil). La ficha del Espanyol - Deportivo todavía no tiene canal asignado. Para saber [qué plataforma emite cada competición y cuánto cuesta](/noticias/donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1) está la guía general; LaLiga tiene [la suya](/noticias/donde-ver-laliga-2026-27-movistar-dazn-precios-jornadas-exclusivas-clasico) y la Premier, [otra](/noticias/donde-ver-premier-league-espana-2026-27-dazn-movistar-precios-serie-a-bundesliga).
+
+## Mestalla: el tercero visita al penúltimo
+
+El Real Madrid empezó la jornada tercero, con 27 puntos en once partidos, a uno del Atlético y a tres del Barcelona, [según la clasificación](https://www.espn.com/soccer/standings/_/league/esp.1). El Valencia es penúltimo con 9 y solo tiene por debajo al Málaga, que suma 5 y abre el día en La Rosaleda contra el Racing. Los blancos vienen de [ganar 2-3 al AEK en Atenas](/noticias/aek-real-madrid-2-3-valverde-descuento-mbappe-bellingham-jovic-clasificacion-champions) el miércoles, con un gol de Valverde en el 92.
+
+A las 18:30, Osasuna recibe al Athletic. Al empezar la jornada, los navarros eran decimoquintos con 11 puntos y los bilbaínos, séptimos con 15 y un partido menos. El portero rojiblanco, Unai Simón, ha contado esta semana [su primera noche en Lezama, con 14 años](/noticias/unai-simon-primera-noche-caserio-lezama-14-anos-companero-tarazona-padres-50-kilometros-athletic-talks).
+
+## Interlagos: la parrilla de la carrera 400 de Hamilton
+
+El fin de semana de São Paulo no tiene sprint. El sábado hay terceros libres a las 15:30 y clasificación a las 19:00; la carrera es el domingo 8 a las 18:00. Todo va por DAZN, como explica [la guía del motor](/noticias/donde-ver-f1-motogp-espana-2026-dazn-precios-carreras-que-quedan). La parrilla que salga de la clasificación será la del [gran premio número 400 de Lewis Hamilton](/noticias/fernando-alonso-hamilton-400-grandes-premios-interlagos-club-444-salidas-contrato-2027-cuando-le-alcanza), una cifra a la que solo había llegado Fernando Alonso. El título ya tiene dueño, Kimi Antonelli, y quedan cuatro carreras con esta.
+
+## París: Alcaraz, pendiente de esta noche
+
+Ben Shelton fue el primero en meterse en semifinales, al ganar el viernes a Tommy Paul. Alcaraz juega su cuarto contra Taylor Fritz este viernes en la pista central, con inicio previsto a las 19:00. Si gana, vuelve a jugar el sábado. El torneo publica el orden de juego de las semifinales la noche anterior en [su página de programación](https://www.atptour.com/en/scores/current/paris/352/daily-schedule), así que la hora no se sabrá hasta que acaben los cuartos. El tenis se ve en Movistar Plus+; los detalles están en [la guía del tenis](/noticias/donde-ver-tenis-espana-atp-finals-copa-davis-alcaraz-movistar-hbo-max).`,
+    category: 'tv',
+    kind: 'noticia',
+    competition: { name: 'LaLiga', sport: 'futbol', slug: 'laliga' },
+    sourceName: 'ESPN',
+    sourceUrl: 'https://www.espn.com/soccer/schedule/_/league/esp.1',
+    sourceLang: 'en',
+    publishedAt: '2026-11-06T17:03:00+01:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Mestalla_antes_del_partido_Valencia-Barcelona_LaLiga_2023-2024.jpg/1280px-Mestalla_antes_del_partido_Valencia-Barcelona_LaLiga_2023-2024.jpg',
+      alt: 'Mestalla de noche antes de un partido, con las gradas naranjas y negras y el nombre del Valencia en la tribuna',
+      credit: 'Anidae · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+    sourcesSecondary: [
+      { name: 'Fórmula 1: horarios del GP de São Paulo', url: 'https://www.formula1.com/en/racing/2026/brazil' },
+      { name: 'ESPN: clasificación de LaLiga', url: 'https://www.espn.com/soccer/standings/_/league/esp.1' },
+      { name: 'ESPN: resultados del Masters de París', url: 'https://www.espn.com/tennis/scoreboard' },
+    ],
+  },
+  {
+    slug: 'jobe-bellingham-primera-convocatoria-inglaterra-jude-tuchel-sin-palmer-espana-metropolitano-lista',
+    title: 'Jobe Bellingham (21 años) se une a su hermano Jude en la Inglaterra que viene al Metropolitano sin Palmer',
+    summary: 'Tuchel llama por primera vez a Jobe Bellingham y deja fuera a Palmer, Foden, Rashford y Mainoo. Inglaterra visita a España el día 15 a tres puntos del liderato del grupo.',
+    body: `Thomas Tuchel anunció este viernes [la lista de 25 jugadores de Inglaterra](https://ca.sports.yahoo.com/news/cole-palmer-left-england-squad-104502248.html) para cerrar la fase de grupos de la [Nations League](/futbol/nations-league): Croacia en Wembley el jueves 12 de noviembre y España en el Metropolitano el domingo 15, a las 20:45. La novedad es Jobe Bellingham, centrocampista del Borussia Dortmund de 21 años, que se estrena con la absoluta y coincide con su hermano Jude, del Real Madrid. Cole Palmer [se queda fuera otra vez](https://www.goal.com/en/news/jobe-bellingham-jude-england-squad-thomas-tuchel-cole-palmer-phil-foden/blt49103037ad46dd20).
+
+Es el rival contra el que [los 27 de Luis de la Fuente](/noticias/convocatoria-espana-chequia-inglaterra-27-jugadores-ocho-no-campeones-mundo-jacobo-ramon-valles-barrios) se juegan el primer puesto.
+
+## Los 25 de Tuchel
+
+| Línea | Convocados |
+| --- | --- |
+| Porteros | Jordan Pickford (Everton), Jason Steele (Brighton), James Trafford (Leeds) |
+| Defensas | Trent Alexander-Arnold (Real Madrid), Jarrad Branthwaite (Everton), Marc Guéhi (Manchester City), Lewis Hall (Newcastle), Ezri Konsa (Arsenal), Jarell Quansah (Bayer Leverkusen), Djed Spence (Inter), Ben White (Arsenal) |
+| Centrocampistas | Elliot Anderson (Manchester City), Jobe Bellingham (Borussia Dortmund), Jude Bellingham (Real Madrid), James Garner (Everton), Josh King (Fulham), Myles Lewis-Skelly (Arsenal), Declan Rice (Arsenal) |
+| Delanteros | Dominic Calvert-Lewin (Leeds), Eberechi Eze (Arsenal), Morgan Gibbs-White (Nottingham Forest), Anthony Gordon (Barcelona), Harry Kane (Bayern), Rio Ngumoha (Liverpool), Morgan Rogers (Chelsea) |
+
+Jobe Bellingham ha pasado por todas las categorías inferiores inglesas, de la sub-16 a la sub-21. Con él debuta en una lista Josh King, del Fulham.
+
+## Tres juegan en LaLiga y siete fuera de Inglaterra
+
+Alexander-Arnold y Jude Bellingham son del [Real Madrid](/futbol/laliga/equipo/86) y Anthony Gordon, del [Barcelona](/futbol/laliga/equipo/83). Con Quansah, Spence, Kane y el propio Jobe, son siete los convocados que no juegan en la Premier. El club que más aporta es el Arsenal, con cinco: Konsa, White, Lewis-Skelly, Rice y Eze.
+
+## Palmer y el resto de ausentes
+
+Palmer no fue al Mundial, volvió a la lista en octubre y se retiró de aquella concentración con molestias. Esta temporada ha sido titular en todos los partidos de liga del Chelsea y lleva cinco goles. Tuchel explicó que ha mantenido a los que estuvieron en esa concentración, que duró dos semanas y media, y que la decisión no es personal: «La puerta siempre está abierta».
+
+Tampoco están Marcus Rashford y Kobbie Mainoo, del Manchester United, ni Phil Foden, que ya se quedó sin Mundial.
+
+## Cómo llega el grupo al Metropolitano
+
+| Selección | PJ | G | E | P | Goles | Puntos |
+| --- | --- | --- | --- | --- | --- | --- |
+| España | 4 | 4 | 0 | 0 | 12-5 | 12 |
+| Inglaterra | 4 | 3 | 0 | 1 | 14-3 | 9 |
+| Croacia | 4 | 1 | 0 | 3 | 4-14 | 3 |
+| Chequia | 4 | 0 | 0 | 4 | 2-10 | 0 |
+
+La única derrota de [Inglaterra](/selecciones/eng) en [la clasificación](https://www.espn.com/soccer/standings/_/league/uefa.nations) es la de la ida: España ganó 2-3 en Wembley el 26 de septiembre. Desde entonces los ingleses han ganado sus tres partidos sin encajar, con un 0-7 en Croacia incluido.
+
+Las cuentas son cortas. Si España gana el jueves en Praga y los ingleses no vencen a Croacia, será primera sin esperar al domingo. Si ganan las dos, llegarán al Metropolitano con 15 y 12 puntos y a España le bastará el empate.`,
+    category: 'convocatorias',
+    kind: 'noticia',
+    competition: { name: 'Nations League', sport: 'futbol', slug: 'nations-league' },
+    sourceName: 'Associated Press (Yahoo Sports)',
+    sourceUrl: 'https://ca.sports.yahoo.com/news/cole-palmer-left-england-squad-104502248.html',
+    sourceLang: 'en',
+    publishedAt: '2026-11-06T17:04:00+01:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Jude_Bellingham_England_v_Ghana_23_June_2026-182.jpg/1280px-Jude_Bellingham_England_v_Ghana_23_June_2026-182.jpg',
+      alt: 'Jude Bellingham, con la camiseta blanca número 10 de Inglaterra, golpea el balón ante un jugador de Ghana vestido de amarillo',
+      credit: 'Bryan Berlin · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+    sourcesSecondary: [
+      { name: 'Goal: Palmer, fuera; Jobe Bellingham, dentro', url: 'https://www.goal.com/en/news/jobe-bellingham-jude-england-squad-thomas-tuchel-cole-palmer-phil-foden/blt49103037ad46dd20' },
+      { name: 'ESPN: clasificación de la Nations League', url: 'https://www.espn.com/soccer/standings/_/league/uefa.nations' },
+      { name: 'ESPN: Inglaterra 2-3 España (26-sep-2026)', url: 'https://www.espn.com/soccer/match/_/gameId/401861066' },
+    ],
+  },
+  {
+    slug: 'unai-simon-primera-noche-caserio-lezama-14-anos-companero-tarazona-padres-50-kilometros-athletic-talks',
+    title: 'Unai Simón y su primera noche en el caserío de Lezama, con 14 años: «Tengo a mis padres a 50 kilómetros»',
+    summary: 'El portero del Athletic cuenta en el pódcast del club algo que no había contado: la noche de 2011 en que su compañero de cuarto lloraba en el caserío donde vivían los cadetes.',
+    body: `Unai Simón llegó a Lezama en 2011, con 14 años, y no fue a una residencia. El Athletic lo alojó en un caserío, con Eguzkiñe y Eduardo, que acogían a varios chavales de la cantera. Compartía habitación con Andrés, un chico de Tarazona de su misma edad que entraba con él en el cadete B. De la primera noche habla en [el tercer episodio de #AthleticTalks](https://www.youtube.com/watch?v=-BN40o8Yvew&t=1516s), el pódcast del club, y antes de empezar avisa de que es una historia que no había contado nunca.
+
+Se describe como un crío muy apegado a su madre que esa noche intentaba hacerse el duro. Entonces oyó llorar a su compañero. Le dijo que estuviera tranquilo, que sus padres seguían en casa y que irían a verlos. Andrés no lloraba por eso. Había perdido a su padre poco tiempo antes, y su madre se había quedado en Tarazona con dos hermanos más pequeños. «Me estoy preocupando de que tengo a mis padres a 50 kilómetros», recuerda que pensó. Es la distancia que él pone entre Lezama y Murgia, el pueblo alavés donde creció.
+
+## Un hermano que no lo era
+
+De aquella noche salió una amistad. Los dos se apoyaron en el colegio y en los días malos; Simón dice que con Andrés aprendió mucho y que encontró en él algo parecido a un hermano. De Eguzkiñe cuenta que no era su madre, pero que era quien daba cariño a los chavales cuando lo necesitaban. Y de Koldo Asúa, que les ayudaba con los estudios, que a los 14 años les repetía que lo normal era no llegar al primer equipo.
+
+Por eso defiende aquel sistema. Según explica, entonces nadie entraba en la residencia del club antes de los 16 años: los más pequeños vivían en caseríos, en un ambiente de familia. Había niños y niñas de 12 años llegados de Logroño o de Pamplona.
+
+## Por qué llegó con 14 años y no con 11
+
+El Athletic lo quiso antes. Simón empezó en el Zuia, el equipo de Murgia, donde su familia se instaló en 2002, cuando él tenía cinco o seis años. Allí lo vio Javi Barbero, hoy entrenador de porteros del Alavés, que pidió a sus padres entrenarlo y se lo llevó al Aurrera de Vitoria. En infantiles ya iba un día a la semana a Lezama y el club le propuso quedarse.
+
+Sus padres dijeron que no. Les parecía pronto para sacar de casa a un niño de 11 o 12 años y les preocupaban los estudios. El trato fue esperar: si el Athletic seguía interesado cuando fuera cadete, iría. Pasó dos años más en el Aurrera y el Athletic volvió a llamar.
+
+| Año | Qué pasó |
+| --- | --- |
+| 2002 | La familia se instala en Murgia; empieza a jugar en el Zuia |
+| Infantil | Dos años en el Aurrera de Vitoria y un entrenamiento semanal en Lezama |
+| 2011 | Entra en el cadete del Athletic y se muda al caserío |
+| 2018 | Diecinueve días cedido en el Elche y debut en Primera |
+| 2026 | Campeón del mundo con España y Trofeo Yashin |
+
+## Quince años después
+
+Simón, [nacido en Vitoria en 1997](https://es.wikipedia.org/wiki/Unai_Sim%C3%B3n), tiene 29 años y [contrato hasta 2029](https://www.athletic-club.eus/en/news/2024/05/24/unai-simon-extends-his-contract-with-athletic-club-until-2029/). En el mismo episodio dice que, mientras el Athletic lo quiera, no piensa moverse. El 26 de octubre recogió en Londres [el Trofeo Yashin](/noticias/harry-kane-balon-de-oro-2026-londres-siete-premios-espanoles-unai-simon-yashin-putellas-lamine-kopa), el primero para un portero español, y este viernes ha entrado en [la lista de España](/noticias/convocatoria-espana-chequia-inglaterra-27-jugadores-ocho-no-campeones-mundo-jacobo-ramon-valles-barrios) para Chequia e Inglaterra.
+
+El sábado el [Athletic](/futbol/laliga/equipo/93) visita a Osasuna a las 18:30. Del mismo pódcast salió otra historia suya: la del día que [entró por un balcón a por la maleta](/noticias/unai-simon-balcon-piso-lezama-maleta-elche-padre-debajo-amorrortu-llamada-medianoche-athletic-talks) para irse cedido a Elche.`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'LaLiga', sport: 'futbol', slug: 'laliga' },
+    sourceName: 'Athletic Club (#AthleticTalks)',
+    sourceUrl: 'https://www.youtube.com/watch?v=-BN40o8Yvew&t=1516s',
+    sourceLang: 'es',
+    publishedAt: '2026-11-06T17:05:00+01:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Unai_Simon_France_v_Spain_7.24.26-044.jpg/1280px-Unai_Simon_France_v_Spain_7.24.26-044.jpg',
+      alt: 'Unai Simón, con la equipación amarilla de portero de España y el dorsal 23, golpea el balón con la pierna derecha durante un partido contra Francia en el Mundial 2026',
+      credit: 'Bryan Berlin · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+    sourcesSecondary: [
+      { name: 'Athletic Club: Unai Simón renueva hasta 2029', url: 'https://www.athletic-club.eus/en/news/2024/05/24/unai-simon-extends-his-contract-with-athletic-club-until-2029/' },
+      { name: 'Wikipedia: Unai Simón', url: 'https://es.wikipedia.org/wiki/Unai_Sim%C3%B3n' },
+    ],
+  },
+  {
+    slug: 'fernando-alonso-hamilton-400-grandes-premios-interlagos-club-444-salidas-contrato-2027-cuando-le-alcanza',
+    title: 'Fernando Alonso recibe a Hamilton en el club de los 400 grandes premios: le saca 45 y aún tiene contrato',
+    summary: 'Lewis Hamilton disputa en Interlagos su gran premio número 400. Solo Fernando Alonso había llegado ahí: suma 444 salidas, 45 más que el británico, y corre hasta 2027.',
+    body: `Lewis Hamilton tomará el domingo en Interlagos la salida de su gran premio número 400. Hasta ahora ese club tenía un solo socio, Fernando Alonso, que llega a Brasil con 444 salidas en 447 inscripciones. Al asturiano le preguntaron si le daba la bienvenida y [contestó que sí](https://www.crash.net/f1/news/1109337/1/fernando-alonso-reacts-lewis-hamilton-joins-his-exclusive-f1-club): «Es un número grande». Felicitó a Hamilton por haber corrido todas esas carreras con coches competitivos y avisó de que el club va a crecer: con calendarios tan largos, dijo, quien pase diez años en la Fórmula 1 superará las 250.
+
+## Los que más grandes premios han disputado
+
+| Piloto | Temporadas | Inscripciones antes de Brasil |
+| --- | --- | --- |
+| Fernando Alonso | 2001, 2003-2018, 2021-2026 | 447 |
+| Lewis Hamilton | 2007-2026 | 399 |
+| Kimi Räikkönen | 2001-2009, 2012-2021 | 353 |
+| Rubens Barrichello | 1993-2011 | 326 |
+| Jenson Button | 2000-2017 | 309 |
+| Michael Schumacher | 1991-2006, 2010-2012 | 308 |
+
+La base es [la lista histórica de participaciones](https://gpracingstats.com/records/most-race-entries-by-an-f1-driver/), cerrada a finales de 2025, a la que se suman las 19 carreras disputadas este año. Alonso llegó a las 400 [en el Gran Premio de México de 2024](https://www.motor.es/formula-1/400-gp-fernando-alonso-f1-datos-logros-definen-carrera-2024104852.html). La diferencia entre sus dos cifras viene de tres fines de semana en los que estuvo inscrito y no tomó la salida. Hamilton ha salido en los 399 que ha disputado, con 106 victorias, 105 poles y 209 podios; la última pole, en México hace una semana, fue la primera que logra con Ferrari.
+
+## Cuándo podría alcanzarlo
+
+Con las cifras de salidas, que son las que cuentan para el 400 de Hamilton, la ventaja de Alonso es de 45 carreras. Después de Interlagos quedan tres este año: Las Vegas, Catar y Abu Dabi. Si los dos salen en todas, acabarán 2026 con 448 y 403.
+
+Alonso tiene 45 años y contrato con Aston Martin hasta final de 2027. Hamilton tiene 41 y seguirá en Ferrari el año que viene. Si las temporadas se mantienen en torno a las 24 carreras y Alonso se retirara al acabar ese contrato, lo haría con unas 472 salidas. Hamilton necesitaría correr 2027, 2028 y casi todo 2029 para superarlas, ya con 44 años. Él no lo descarta: en México [dijo que se ve compitiendo en la próxima década](/noticias/lewis-hamilton-41-anos-hecho-de-otra-forma-2030-ruanda-ferrari).
+
+## Empezaron juntos en 2007
+
+Los dos únicos pilotos con 400 grandes premios compartieron equipo el año que debutó uno de ellos. Hamilton se estrenó en Australia en 2007 como compañero de Alonso en McLaren. El español había debutado en 2001 con Minardi y llegaba con cinco temporadas y dos títulos. Acabaron el campeonato empatados a 109 puntos, a uno del campeón, Kimi Räikkönen.
+
+Diecinueve años después, ninguno de los dos pelea por el título, que ya es de [Kimi Antonelli](/noticias/kimi-antonelli-campeon-mundo-f1-20-anos-mexico-record-vettel-alonso-2005-tres-anos-verstappen-gana). La carrera de Interlagos es el domingo a las 18:00 (17:00 en Canarias), según [el horario oficial](https://www.formula1.com/en/racing/2026/brazil), y se ve en DAZN. La tabla del campeonato está en [la sección de Fórmula 1](/motor/formula-1) y las opciones para verla, en [la guía del motor](/noticias/donde-ver-f1-motogp-espana-2026-dazn-precios-carreras-que-quedan).`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'Fórmula 1', sport: 'motor', slug: 'formula-1' },
+    sourceName: 'Crash.net',
+    sourceUrl: 'https://www.crash.net/f1/news/1109337/1/fernando-alonso-reacts-lewis-hamilton-joins-his-exclusive-f1-club',
+    sourceLang: 'en',
+    publishedAt: '2026-11-06T17:06:00+01:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Fernando_Alonso_and_Lewis_Hamilton_%287455544662%29.jpg/1280px-Fernando_Alonso_and_Lewis_Hamilton_%287455544662%29.jpg',
+      alt: 'El Ferrari rojo de Fernando Alonso rueda por delante del McLaren plateado de Lewis Hamilton en una curva del circuito Gilles Villeneuve, con público en la grada, en el Gran Premio de Canadá de 2012',
+      credit: 'Nic Redhead · Wikimedia Commons',
+      license: 'CC BY-SA 2.0',
+    },
+    sourcesSecondary: [
+      { name: 'GP Racing Stats: pilotos con más participaciones', url: 'https://gpracingstats.com/records/most-race-entries-by-an-f1-driver/' },
+      { name: 'Wikipedia: récords de pilotos de Fórmula 1', url: 'https://en.wikipedia.org/wiki/List_of_Formula_One_driver_records' },
+      { name: 'Motor.es: los 400 grandes premios de Alonso', url: 'https://www.motor.es/formula-1/400-gp-fernando-alonso-f1-datos-logros-definen-carrera-2024104852.html' },
+      { name: 'Fórmula 1: horarios del GP de São Paulo', url: 'https://www.formula1.com/en/racing/2026/brazil' },
+    ],
+  },
+  {
+    slug: 'paco-fernandez-ochoa-20-anos-muerte-oro-sapporo-1972-54-anos-unico-oriol-cardona-cercedilla-estatua',
+    title: 'Paco Fernández Ochoa, 20 años de su muerte: el oro de Sapporo que pasó 54 inviernos sin compañía',
+    summary: 'Francisco Fernández Ochoa murió el 6 de noviembre de 2006 en Cercedilla, a los 56 años. Su oro en el eslalon de Sapporo 1972 fue el único de España en unos Juegos de Invierno hasta 2026.',
+    body: `Francisco Fernández Ochoa, Paquito, murió el 6 de noviembre de 2006 en Cercedilla, a los 56 años, [tras una larga enfermedad](https://skiracing.com/spanish-gold-medalist-fernandez-ochoa-dies-56/): un cáncer linfático. Este viernes se cumplen veinte años. Unos días antes había visto cómo su pueblo le levantaba una estatua, con los brazos en alto y el dorsal de Sapporo; la descubrieron las infantas Elena y Cristina y fue [su última aparición en público](https://www.skiinghistory.org/lives/paquito-ochoa).
+
+Murió siendo el único campeón olímpico de invierno que había tenido España. Lo siguió siendo casi veinte años más.
+
+## Sapporo, 13 de febrero de 1972
+
+Tenía 21 años y nunca había subido a un podio de la Copa del Mundo: su mejor resultado era un sexto puesto. En el eslalon olímpico sacó más de un segundo a Gustavo Thoeni en la primera manga y le bastó con la segunda, en la que el italiano fue más rápido. Así quedaron [los cinco primeros](https://en.wikipedia.org/wiki/Alpine_skiing_at_the_1972_Winter_Olympics_%E2%80%93_Men%27s_slalom):
+
+| Puesto | Esquiador | País | 1.ª manga | 2.ª manga | Total |
+| --- | --- | --- | --- | --- | --- |
+| Oro | Francisco Fernández Ochoa | España | 55,36 | 53,91 | 1:49,27 |
+| Plata | Gustavo Thoeni | Italia | 56,69 | 53,59 | 1:50,28 |
+| Bronce | Rolando Thoeni | Italia | 56,14 | 54,16 | 1:50,30 |
+| 4.º | Henri Duvillard | Francia | 55,92 | 54,53 | 1:50,45 |
+| 5.º | Jean-Noël Augert | Francia | 55,77 | 54,74 | 1:50,51 |
+
+Un segundo y una centésima sobre el esquiador que dominaba las pruebas técnicas en aquellos años. El bronce fue para Rolando, primo de Gustavo, el mismo Thoeni que en 2026 [llevó la antorcha de Milán-Cortina](/noticias/sofia-goggia-chikungunya-parvovirus-ushuaia-solden). Fernández Ochoa volvió a ganarle una vez más, en la única victoria que logró en la Copa del Mundo, en Zakopane en 1974, el año en que fue bronce en el Mundial. Se retiró en 1980, con 30 años, cuatro Juegos y cuatro podios en la Copa del Mundo.
+
+## 54 años y seis días
+
+El siguiente oro llegó el 19 de febrero de 2026, cuando [Oriol Cardona ganó el esprint de esquí de montaña](https://www.rtve.es/deportes/20260219/oriol-cardona-hace-historia-con-su-oro-esqui-montana/16945318.shtml) en Bormio. Entre uno y otro, España sumó cuatro medallas de invierno y ninguna de oro.
+
+| Juegos | Deportista | Prueba | Medalla |
+| --- | --- | --- | --- |
+| Sapporo 1972 | Francisco Fernández Ochoa | Esquí alpino, eslalon | Oro |
+| Albertville 1992 | Blanca Fernández Ochoa | Esquí alpino, eslalon | Bronce |
+| Pyeongchang 2018 | Regino Hernández | Snowboard cross | Bronce |
+| Pyeongchang 2018 | Javier Fernández | Patinaje artístico | Bronce |
+| Pekín 2022 | Queralt Castellet | Snowboard, halfpipe | Plata |
+| Milán-Cortina 2026 | Oriol Cardona | Esquí de montaña, esprint | Oro |
+| Milán-Cortina 2026 | Ana Alonso | Esquí de montaña, esprint | Bronce |
+| Milán-Cortina 2026 | Ana Alonso y Oriol Cardona | Esquí de montaña, relevo mixto | Bronce |
+
+Son ocho en total: dos oros, una plata y cinco bronces. Tres llegaron en tres días del pasado febrero. Los tres oros que Johann Mühlegg ganó para España en Salt Lake City 2002 no figuran porque se los retiraron por dopaje. Las sanciones siguen moviendo el medallero olímpico, como muestra esta semana [el caso de la gimnasta Ana Bărbosu](/noticias/ana-barbosu-20-anos-bronce-paris-chiles-tas-dos-anos-sancion-localizacion-los-angeles-2028).
+
+## Cinco hermanos en los Juegos
+
+Paco era el mayor de ocho hermanos, hijos del director de una escuela de esquí. Cinco fueron olímpicos: él, Juan Manuel, Luis, Dolores y Blanca. La segunda medalla de invierno de España fue de la familia: Blanca ganó el bronce en Albertville 1992, veinte años después que su hermano y en la misma prueba, el eslalon.
+
+La estatua sigue en Cercedilla. El pedestal recuerda a «la gente de la nieve» del pueblo, a sus 29 campeones de España y a su campeón olímpico.`,
+    category: 'historica',
+    kind: 'noticia',
+    competition: { name: 'Esquí alpino', sport: 'esqui', slug: 'esqui-alpino' },
+    sourceName: 'Ski Racing (AP)',
+    sourceUrl: 'https://skiracing.com/spanish-gold-medalist-fernandez-ochoa-dies-56/',
+    sourceLang: 'en',
+    publishedAt: '2026-11-06T17:07:00+01:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Cercedilla_monumento_Francisco_Fernandez_Ochoa.JPG/1280px-Cercedilla_monumento_Francisco_Fernandez_Ochoa.JPG',
+      alt: 'Estatua de bronce de Paco Fernández Ochoa con los brazos en alto y el dorsal de Sapporo 72, sobre un pedestal de granito en una calle de Cercedilla',
+      credit: 'Cruccone · Wikimedia Commons',
+      license: 'CC BY 3.0',
+    },
+    sourcesSecondary: [
+      { name: 'International Skiing History Association: Paquito Ochoa', url: 'https://www.skiinghistory.org/lives/paquito-ochoa' },
+      { name: 'RTVE: el oro de Oriol Cardona', url: 'https://www.rtve.es/deportes/20260219/oriol-cardona-hace-historia-con-su-oro-esqui-montana/16945318.shtml' },
+      { name: 'Wikipedia: eslalon masculino de Sapporo 1972', url: 'https://en.wikipedia.org/wiki/Alpine_skiing_at_the_1972_Winter_Olympics_%E2%80%93_Men%27s_slalom' },
+      { name: 'Wikipedia: España en los Juegos Olímpicos', url: 'https://es.wikipedia.org/wiki/Espa%C3%B1a_en_los_Juegos_Ol%C3%ADmpicos' },
+    ],
+  },
+  {
     slug: 'nba-resultados-2026-11-06',
     title: "NBA: todos los resultados de la jornada y el partido más igualado",
     summary: "Resultados de los 2 partidos de la noche en la NBA, con el más igualado y el de más puntos.",
@@ -5884,7 +6170,7 @@ El empate del Camp Nou cortó una racha de catorce derrotas seguidas del Athleti
 
 ## Murgia
 
-En el mismo pódcast cuenta que empezó a disfrutar de la portería con nueve años en el campo de hierba de Murgia, que en invierno era un barrizal, y que le encantaba tirarse en el barro. Murgia, donde nació, es también el pueblo de Mikel Landa, que [vuelve a tener en el Giro de 2027 las dos cimas donde ganó en 2015](/noticias/giro-italia-2027-recorrido-aprica-madonna-di-campiglio-zoncolan-landa-anton-espanoles).`,
+En el mismo pódcast cuenta que empezó a disfrutar de la portería con nueve años en el campo de hierba de Murgia, que en invierno era un barrizal, y que le encantaba tirarse en el barro. Murgia, donde creció, es también el pueblo de Mikel Landa, que [vuelve a tener en el Giro de 2027 las dos cimas donde ganó en 2015](/noticias/giro-italia-2027-recorrido-aprica-madonna-di-campiglio-zoncolan-landa-anton-espanoles).`,
     category: 'jugadores',
     kind: 'noticia',
     competition: { name: 'LaLiga', sport: 'futbol', slug: 'laliga' },
@@ -5892,6 +6178,7 @@ En el mismo pódcast cuenta que empezó a disfrutar de la portería con nueve a�
     sourceUrl: 'https://www.youtube.com/watch?v=-BN40o8Yvew',
     sourceLang: 'es',
     publishedAt: '2026-11-03T19:10:00+01:00',
+    modifiedAt: '2026-11-06T17:08:00+01:00',
     author: 'Redacción Mundiales',
     sourcesSecondary: [
       { name: 'Wikipedia: Unai Simón', url: 'https://es.wikipedia.org/wiki/Unai_Sim%C3%B3n' },
