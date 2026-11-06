@@ -154,6 +154,33 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'nba-resultados-2026-11-06',
+    title: "NBA: todos los resultados de la jornada y el partido más igualado",
+    summary: "Resultados de los 2 partidos de la noche en la NBA, con el más igualado y el de más puntos.",
+    body: `2 partidos en la NBA esta noche. El más igualado, Suns 117-104 a Magic. El de más puntos, Suns ante Magic (117-104).
+
+## Resultados
+
+- [Suns 117-104 Magic](/baloncesto/nba/partido/401909936)
+- [Warriors 120-100 Heat](/baloncesto/nba/partido/401909937)
+
+Marcadores en directo, calendario y clasificación por conferencias en la [página de la NBA](/baloncesto/nba).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"NBA","sport":"baloncesto","slug":"nba"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/nba/scoreboard",
+    sourceLang: 'en',
+    publishedAt: '2026-11-06T14:38:34.845Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/US_Airways_Center-3.jpg/1920px-US_Airways_Center-3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Mortgage Matchup Center, sede del Suns - Magic",
+      credit: "Visitor7 · CC BY-SA 3.0 · Wikimedia Commons",
+      license: "CC BY-SA 3.0",
+    },
+  },
+  {
     slug: 'convocatoria-espana-chequia-inglaterra-27-jugadores-ocho-no-campeones-mundo-jacobo-ramon-valles-barrios',
     title: 'Convocatoria de España: 27 para Chequia e Inglaterra y ocho que no fueron campeones del mundo',
     summary: 'De la Fuente llama a 27 para Praga y el Metropolitano. Repiten 19 campeones del mundo, faltan siete y entran ocho que no estuvieron en el Mundial, con Jacobo Ramón, Valles y Barrios.',
@@ -712,7 +739,7 @@ Horarios, resultados de cada sesión y clasificación completa del Mundial en la
     sourceUrl: "https://www.espn.com/f1/schedule",
     sourceLang: 'en',
     publishedAt: '2026-11-06T01:50:18.388Z',
-    modifiedAt: '2026-11-06T01:50:18.388Z',
+    modifiedAt: '2026-11-06T14:38:34.845Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Vista_a%C3%A9rea_del_Aut%C3%B3dromo_Jos%C3%A9_Carlos_Pace_05.jpg/1920px-Vista_a%C3%A9rea_del_Aut%C3%B3dromo_Jos%C3%A9_Carlos_Pace_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -845,7 +872,7 @@ Horarios en hora de España; los resultados y la narración de cada partido van 
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882809",
     sourceLang: 'en',
     publishedAt: '2026-11-06T01:50:18.388Z',
-    modifiedAt: '2026-11-06T01:50:18.388Z',
+    modifiedAt: '2026-11-06T14:38:34.845Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/2022-10-25_1_Estadio_Ram%C3%B3n_S%C3%A1nchez_Pizju%C3%A1n_%28Sevilla_FC%29.jpg/1280px-2022-10-25_1_Estadio_Ram%C3%B3n_S%C3%A1nchez_Pizju%C3%A1n_%28Sevilla_FC%29.jpg",
