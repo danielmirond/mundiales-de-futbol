@@ -154,6 +154,270 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'balon-de-oro-2026-polymarket-12-cuentas-top-5-kane-france-football-policia',
+    title: 'Balón de Oro: France Football lleva a la policía 12 cuentas que apostaron por el top 5 de Kane',
+    summary: 'Doce cuentas de Polymarket abiertas en octubre movieron unos 264.000 dólares sobre la clasificación que ganó Harry Kane. El dueño del premio prepara una denuncia. No hay acusados.',
+    body: `Harry Kane ganó el Balón de Oro el 26 de octubre en Londres, pero el orden de los cinco primeros ya estaba en las apuestas de doce cuentas de Polymarket abiertas ese mismo mes. Entre todas [movieron unos 264.000 dólares](https://foot-africa.com/actualites/ballon-dor-2026-france-football-saisit-la-police-apres-des-paris-suspects-sur-polymarket-1405064/) sobre la clasificación y habrían ganado cerca de 200.000. Los cinco puestos coincidieron con el resultado: Kane, Kylian Mbappé, Lamine Yamal, Rodri y Lionel Messi.
+
+France Football abrió una investigación interna y contactó con la policía francesa. El grupo Amaury, propietario de la revista y del trofeo, dijo que se toma en serio la posible filtración y que [«la presentación de una denuncia está en curso»](https://www.primicias.ec/deportes/futbol/balon-oro-organizadores-investigan-filtraciones-apuestas-sospechosas-136247/). Por ahora no hay ningún acusado: nadie ha sido identificado y ninguna fuente ha demostrado que se filtrara el voto.
+
+## Lo que encontró Upside
+
+El aviso lo dio Upside, un medio financiero francés, el 23 de octubre, tres días antes de la gala, [según recoge Casino.org](https://www.casino.org/news/ballon-dor-organizers-plan-police-complaint-over-suspicious-200k-betting-profits/). Los datos que publicó:
+
+- Las doce cuentas se crearon entre el 1 y el 20 de octubre.
+- Siete no habían apostado nunca en ningún otro mercado.
+- Seis hicieron su primera apuesta en los quince minutos siguientes a abrirse.
+- Solo una apostó a los cinco puestos exactos; las demás, a distintas combinaciones que acabaron coincidiendo con el resultado.
+- Una transacción pasó por Deblock, una plataforma financiera francesa, lo que podría permitir a las autoridades llegar a la identidad de uno de los apostantes.
+
+Upside enlazó varias cuentas entre sí, pero no pudo demostrar que las doce sean de la misma persona.
+
+## Por qué las fechas pesan
+
+El jurado de cien periodistas tenía de plazo [hasta el 28 de septiembre para votar](https://foot-africa.com/en/news/ballon-dor-2026-jurors-have-until-september-28-to-vote-1356842/). Todas las cuentas se abrieron después: cuando apostaron, el resultado ya estaba decidido. Pascal Ferré, exdirector de France Football, explicó que con el nuevo protocolo contra filtraciones solo cinco personas conocían el nombre del ganador antes de la gala.
+
+## El top 5 que se apostó y dónde quedaron los españoles
+
+Dos de los cinco puestos de la apuesta eran internacionales de la [selección española](/selecciones/esp). Así quedó la clasificación oficial, con los seis españoles nominados:
+
+| Puesto | Jugador | Puntos | En el top 5 apostado |
+| --- | --- | --- | --- |
+| 1 | Harry Kane | 1.055 | Sí |
+| 2 | Kylian Mbappé | 1.027 | Sí |
+| 3 | Lamine Yamal | 881 | Sí |
+| 4 | Rodri | 726 | Sí |
+| 5 | Lionel Messi | 612 | Sí |
+| 10 | Fabián Ruiz | 201 | No |
+| 12 | Pau Cubarsí | 101 | No |
+| 16 | Ferran Torres | 44 | No |
+| 18 | Marc Cucurella | 16 | No |
+
+Kane ganó a Mbappé por solo 28 puntos, [según la clasificación final](https://en.wikipedia.org/wiki/2026_Ballon_d%27Or). Acertar ese orden, con Lamine tercero y Rodri cuarto, era la parte difícil. El resto de premios, siete de ellos españoles, está en [la crónica de la noche de Kane](/noticias/harry-kane-balon-de-oro-2026-londres-siete-premios-espanoles-unai-simon-yashin-putellas-lamine-kopa), y el formato de votación, en [la guía de la gala](/noticias/gala-balon-de-oro-2026-londres-horario-espana-donde-ver-espanoles-nominados).
+
+## Qué es Polymarket y qué no está probado
+
+Polymarket es un mercado de predicción: se compran participaciones sobre si algo va a ocurrir y el precio cambia en tiempo real. Funciona con criptomonedas. En España, la DGOJ [ordenó en mayo su bloqueo cautelar](https://igamingbusiness.com/legal-compliance/dgoj-blocks-polymarket-kalshi-unauthorised-operations/) y abrió un expediente sancionador por operar sin licencia de juego.
+
+Que las apuestas acertaran no prueba un delito. El abogado William O'Rorke explicó a [Cryptoast](https://cryptoast.fr/polymarket-ballon-or-delit-initie-paris-suspects/) que la figura del uso de información privilegiada no encaja, porque una clasificación votada por un jurado no es un instrumento financiero. Si hubo fuga, quien la diera podría responder por abuso de confianza. Esa es la pregunta que la investigación tiene que contestar.`,
+    category: 'polemica',
+    kind: 'noticia',
+    competition: { name: 'Balón de Oro', sport: 'futbol', slug: 'laliga' },
+    sourceName: 'Foot Africa',
+    sourceUrl: 'https://foot-africa.com/actualites/ballon-dor-2026-france-football-saisit-la-police-apres-des-paris-suspects-sur-polymarket-1405064/',
+    sourceLang: 'fr',
+    publishedAt: '2026-11-06T11:13:00+01:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Harry_Kane_England_v_Panama_27_June_26-145.jpg/1280px-Harry_Kane_England_v_Panama_27_June_26-145.jpg',
+      alt: 'Harry Kane, de espaldas con la camiseta roja de Inglaterra con su nombre y el 9 y el brazalete de capitán, abre los brazos ante la grada durante el Inglaterra-Panamá del Mundial 2026',
+      credit: 'Bryan Berlin · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+    sourcesSecondary: [
+      { name: 'Casino.org: el dueño del Balón de Oro prepara una denuncia', url: 'https://www.casino.org/news/ballon-dor-organizers-plan-police-complaint-over-suspicious-200k-betting-profits/' },
+      { name: 'Primicias (EFE): los organizadores investigan posibles filtraciones', url: 'https://www.primicias.ec/deportes/futbol/balon-oro-organizadores-investigan-filtraciones-apuestas-sospechosas-136247/' },
+      { name: 'Cryptoast: por qué no aplica el delito de iniciado', url: 'https://cryptoast.fr/polymarket-ballon-or-delit-initie-paris-suspects/' },
+      { name: 'Sud Radio: las apuestas ganadoras en Polymarket', url: 'https://www.sudradio.fr/sud-radio/ballon-dor-des-paris-gagnants-sur-polymarket-qui-interrogent' },
+      { name: 'Wikipedia: 2026 Ballon d\'Or', url: 'https://en.wikipedia.org/wiki/2026_Ballon_d%27Or' },
+      { name: 'iGaming Business: la DGOJ bloquea Polymarket y Kalshi', url: 'https://igamingbusiness.com/legal-compliance/dgoj-blocks-polymarket-kalshi-unauthorised-operations/' },
+      { name: 'Euronews: Consumo bloquea cautelarmente a Polymarket', url: 'https://es.euronews.com/2026/05/26/consumo-bloquea-cautelarmente-a-polymarket-en-espana-por-incumplimento-de-la-normativa' },
+    ],
+  },
+  {
+    slug: 'charles-leclerc-hija-bianca-libres-1-interlagos-beganovic-ferrari',
+    title: 'Charles Leclerc (29 años) cede su Ferrari en Interlagos por el nacimiento de su hija Bianca',
+    summary: 'Leclerc y Alexandra Saint Mleux anunciaron el nacimiento de su primera hija, Bianca. El piloto de Ferrari llega tarde a Brasil y cede los Libres 1 a Dino Beganovic.',
+    body: `Charles Leclerc no estará en los primeros Libres del Gran Premio de São Paulo. El piloto monegasco de Ferrari, de 29 años, y su esposa, Alexandra Saint Mleux, anunciaron el miércoles 4 de noviembre en Instagram el nacimiento de su primera hija, Bianca, nacida el martes 3. El mensaje fue breve: «Bianca. 3.11.26».
+
+Leclerc dejó Brasil para volver a Europa con su familia. La consecuencia en pista: su SF-26 lo conducirá este viernes en los Libres 1 de Interlagos Dino Beganovic, piloto de la academia de la Scuderia, como recogen [el diario argentino TN](https://tn.com.ar/deportes/formula-1/2026/11/04/charles-leclerc-fue-papa-por-primera-vez-antes-del-gp-de-brasil-el-tierno-posteo-con-el-que-hizo-el-anuncio/) y [el brasileño Grande Prêmio](https://grandepremio.com/br/f1/stroll-passa-mal-e-perde-dia-de-midia-em-interlagos-leclerc-chega-na-sexta-feira/).
+
+## Boda en febrero, bebé en noviembre
+
+Leclerc y Saint Mleux se casaron el 28 de febrero de 2026 en Mónaco. Habían anunciado el compromiso en noviembre de 2025. Los rumores de embarazo arrancaron en el Gran Premio de Hungría, en verano, y la pareja los confirmó semanas después con una serie de fotos.
+
+Con su primera hija, Leclerc se suma, como apunta [Crash.net](https://www.crash.net/f1/news/1109315/1/charles-and-alexandra-leclerc-share-heartwarming-news-brazil-gp), a Max Verstappen, Fernando Alonso, Sergio Pérez y Nico Hülkenberg en la lista de padres de la parrilla actual.
+
+## Qué se pierde y cuándo vuelve
+
+Ferrari confirmó que Leclerc llegaría tarde a Brasil y que no haría el día de medios del jueves. Según Grande Prêmio, tiene la llegada prevista a tiempo para subirse al coche en los Libres 2. El fin de semana no tiene sprint. Este es el calendario en horario peninsular español, con datos de [la API de ESPN](https://site.api.espn.com/apis/site/v2/sports/racing/f1/scoreboard):
+
+| Sesión | Día | Hora (España) | Ferrari n.º 16 |
+|---|---|---|---|
+| Libres 1 | Viernes 6 | 16:30 | Dino Beganovic |
+| Libres 2 | Viernes 6 | 20:00 | Leclerc (previsto) |
+| Libres 3 | Sábado 7 | 15:30 | Leclerc (previsto) |
+| Clasificación | Sábado 7 | 19:00 | Leclerc (previsto) |
+| Carrera | Domingo 8 | 18:00 | Leclerc (previsto) |
+
+## Quién es Dino Beganovic
+
+Sueco de origen bosnio, nacido en Linköping en enero de 2004, tiene 22 años. Está en la Ferrari Driver Academy desde 2020, fue campeón de la Fórmula Regional Europea en 2022 y corre en Fórmula 2. No es su estreno: debutó en unos Libres 1 en Baréin 2025, también en el coche de Leclerc, y repitió ese año en Austria, según [F1Technical](https://www.f1technical.net/news/27151).
+
+## Lo que hay en juego en Brasil
+
+Kimi Antonelli cerró el título de pilotos en México con un tercer puesto. Leclerc llega a Interlagos quinto del Mundial con 245 puntos, tras un cuarto puesto en el Autódromo Hermanos Rodríguez. La pelea por el subcampeonato está apretada: Verstappen suma 261, Hamilton 259 y Russell 250. A Leclerc le separan 16 puntos de la segunda plaza con cuatro grandes premios por disputar, Brasil incluido.
+
+En constructores, Ferrari es la única que puede impedir que Mercedes sea campeona el domingo. Mercedes le saca 126 puntos y le basta con superarla por tres en Brasil. Cada vuelta del viernes cuenta para preparar ese domingo, y la primera hora la hará Beganovic.
+
+Toda la actualidad del campeonato está en nuestra sección de [Fórmula 1](/motor/formula-1). Si quieres saber cómo llega cada equipo, lee la [previa del GP de Brasil](/noticias/previa-gp-brasil-2026), y para verlo en directo, [dónde ver la F1 en España](/noticias/donde-ver-f1-motogp-espana-2026-dazn-precios-carreras-que-quedan).`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'Fórmula 1', sport: 'motor', slug: 'formula-1' },
+    sourceName: 'TN',
+    sourceUrl: 'https://tn.com.ar/deportes/formula-1/2026/11/04/charles-leclerc-fue-papa-por-primera-vez-antes-del-gp-de-brasil-el-tierno-posteo-con-el-que-hizo-el-anuncio/',
+    sourceLang: 'es',
+    publishedAt: '2026-11-06T11:12:00+01:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Charles_Leclerc_at_the_Melbourne_Walk_during_the_2026_Australian_Grand_Prix_%28028A8642%29.jpg/1280px-Charles_Leclerc_at_the_Melbourne_Walk_during_the_2026_Australian_Grand_Prix_%28028A8642%29.jpg',
+      alt: 'Charles Leclerc sonríe con la mirada baja, vestido con una sudadera roja de Ferrari, junto a un coche negro en el Gran Premio de Australia 2026',
+      credit: 'Yu Chu Chin · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+    sourcesSecondary: [
+      { name: 'Grande Prêmio', url: 'https://grandepremio.com/br/f1/stroll-passa-mal-e-perde-dia-de-midia-em-interlagos-leclerc-chega-na-sexta-feira/' },
+      { name: 'Crash.net', url: 'https://www.crash.net/f1/news/1109315/1/charles-and-alexandra-leclerc-share-heartwarming-news-brazil-gp' },
+      { name: 'Crash.net (constructores)', url: 'https://www.crash.net/f1/news/1109346/1/what-mercedes-needs-be-crowned-f1-champions-again-brazil' },
+      { name: 'ESPN (calendario)', url: 'https://site.api.espn.com/apis/site/v2/sports/racing/f1/scoreboard' },
+      { name: 'ESPN (clasificación)', url: 'https://site.api.espn.com/apis/v2/sports/racing/f1/standings?season=2026' },
+      { name: 'F1Technical', url: 'https://www.f1technical.net/news/27151' },
+      { name: 'Wikipedia (Dino Beganovic)', url: 'https://en.wikipedia.org/wiki/Dino_Beganovic' },
+    ],
+  },
+  {
+    slug: 'cristiano-ronaldo-retirada-portugal-11-partidos-contra-espana-sochi-arlington',
+    title: 'Cristiano Ronaldo se despide de Portugal: sus 11 noches contra España, de Lisboa 2004 a Arlington',
+    summary: 'De la Eurocopa 2004 a los octavos de Arlington: todos los partidos de Cristiano contra España, con resultado y goles, y por qué aquel 0-1 del Mundial no fue su último con Portugal.',
+    body: `Cristiano Ronaldo cerró el jueves su etapa en la selección de Portugal con una carta leída en vídeo. «Ha llegado el día de devolver la camiseta número 7 de nuestra selección nacional», dijo en [su mensaje de despedida](https://cnnespanol.cnn.com/2026/11/05/deportes/cristiano-ronaldo-se-retira-del-futbol-trax). Se va con 234 partidos y 146 goles con su selección.
+
+En esos 23 años, España fue el rival de las noches grandes. Cristiano jugó 11 partidos contra la [selección española](/selecciones/esp), de la Eurocopa 2004 a los octavos del [Mundial 2026](/2026). Ganó dos, perdió tres y empató seis, dos de ellos decididos en los penaltis. Le marcó cuatro goles, todos en dos noches.
+
+## Los 11 partidos de Cristiano contra España
+
+| Fecha | Competición y sede | Resultado | Goles de Cristiano |
+|---|---|---|---|
+| 20-6-2004 | Eurocopa, grupos (Lisboa) | España 0-1 Portugal | 0 |
+| 29-6-2010 | Mundial, octavos (Ciudad del Cabo) | España 1-0 Portugal | 0 |
+| 17-11-2010 | Amistoso (Lisboa) | Portugal 4-0 España | 0 |
+| 27-6-2012 | Eurocopa, semifinal (Donetsk) | Portugal 0-0 España (2-4 en penaltis) | 0 |
+| 15-6-2018 | Mundial, grupos (Sochi) | Portugal 3-3 España | 3 |
+| 7-10-2020 | Amistoso (Lisboa) | Portugal 0-0 España | 0 |
+| 4-6-2021 | Amistoso (Madrid) | España 0-0 Portugal | 0 |
+| 2-6-2022 | Liga de Naciones (Sevilla) | España 1-1 Portugal | 0 (entró en el 62) |
+| 27-9-2022 | Liga de Naciones (Braga) | Portugal 0-1 España | 0 |
+| 8-6-2025 | Liga de Naciones, final (Múnich) | Portugal 2-2 España (5-3 en penaltis) | 1 |
+| 6-7-2026 | Mundial, octavos (Arlington) | Portugal 0-1 España | 0 |
+
+La lista sale de cruzar las actas de ESPN con las alineaciones de National Football Teams. Fue titular en diez y suplente en el de Sevilla. No jugó el amistoso de Guimarães de septiembre de 2003 (0-3), semanas después de su debut.
+
+## Sochi, la noche del 3-3
+
+El mejor partido de Cristiano contra España llegó en el estreno del Mundial de Rusia. Marcó de penalti en el minuto 4, con un disparo desde fuera del área en el 44 y de falta en el 88 para el 3-3 final. Diego Costa, dos veces, y Nacho habían remontado para España. Fue su primer hat-trick en un Mundial, según [el historial del derbi ibérico](https://en.wikipedia.org/wiki/Portugal%E2%80%93Spain_football_rivalry).
+
+Con esos tres goles y el de Múnich suma cuatro, lo que le deja cuarto en la lista de goleadores del duelo, detrás de Isidro Lángara (9), Fernando Peyroteo (7) y Telmo Zarra (6).
+
+## Tres eliminaciones y una revancha
+
+España le cerró el paso en tres torneos. En 2010, con el gol de Villa en el 63. En 2012, en la tanda de penaltis de Donetsk. Y en 2026, con el 0-1 de Mikel Merino en el minuto 91, a pase de Ferran Torres.
+
+La revancha fue la final de la Liga de Naciones de 2025. Cristiano empató 2-2 en el minuto 61, se retiró lesionado en el 88 y vio desde fuera cómo [Portugal](/selecciones/por) ganaba 5-3 en los penaltis. Fue la segunda Liga de Naciones de su carrera, tras la de 2019. En 2004, en su primera Eurocopa, Portugal ya había ganado 1-0 a España y la había dejado fuera en la fase de grupos.
+
+## Arlington no fue el último
+
+El 0-1 de Arlington fue su último partido contra España, pero no con Portugal. Tras el Mundial, que iba a ser [su sexto y último](/noticias/cristiano-ronaldo-record-historico-mundiales-portugal-2026), siguió con el nuevo seleccionador, Jorge Jesus. El 24 de septiembre fue titular en el 1-0 a Gales en Lisboa y se marchó en el minuto 67, [según la crónica de EFE](https://lapatilla.com/2026/09/24/portugal-comenzo-con-el-pie-derecho-la-defensa-de-su-titulo-de-la-liga-de-naciones-ante-gales/). Fue su último partido.
+
+En Oslo se quedó en el banquillo sin jugar. Al saber que tampoco sería titular ante Dinamarca, abandonó la concentración. La federación le impuso 30 días de suspensión, [como recuerda Infobae](https://www.infobae.com/deportes/2026/11/05/cristiano-ronaldo-anuncio-su-retiro-de-la-seleccion-de-portugal/), y el jueves llegó la carta.`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'Mundial', sport: 'futbol', slug: 'mundial' },
+    sourceName: 'CNN en Español',
+    sourceUrl: 'https://cnnespanol.cnn.com/2026/11/05/deportes/cristiano-ronaldo-se-retira-del-futbol-trax',
+    sourceLang: 'es',
+    publishedAt: '2026-11-06T11:11:00+01:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Cristiano_Ronaldo_2275.jpg/1280px-Cristiano_Ronaldo_2275.jpg',
+      alt: 'Cristiano Ronaldo, con la camiseta blanca número 7 de Portugal y el brazalete de capitán, sobre el césped del partido Armenia-Portugal en Ereván en septiembre de 2025',
+      credit: 'YantsImages · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+    sourcesSecondary: [
+      { name: 'Infobae: Cristiano Ronaldo anunció su retiro de la selección de Portugal', url: 'https://www.infobae.com/deportes/2026/11/05/cristiano-ronaldo-anuncio-su-retiro-de-la-seleccion-de-portugal/' },
+      { name: 'El Independiente: Cristiano Ronaldo anuncia su retirada de Portugal', url: 'https://www.elindependiente.com/deportes/2026/11/05/cristiano-ronaldo-anuncia-retirada-seleccion-portugal/' },
+      { name: 'Wikipedia: Portugal–Spain football rivalry', url: 'https://en.wikipedia.org/wiki/Portugal%E2%80%93Spain_football_rivalry' },
+      { name: 'ESPN: Portugal 0-1 España, octavos del Mundial 2026', url: 'https://www.espn.com/soccer/match/_/gameId/760506' },
+      { name: 'National Football Teams: partidos de Portugal', url: 'https://www.national-football-teams.com/country/148/2026/Portugal.html' },
+      { name: 'La Patilla (EFE): Portugal 1-0 Gales', url: 'https://lapatilla.com/2026/09/24/portugal-comenzo-con-el-pie-derecho-la-defensa-de-su-titulo-de-la-liga-de-naciones-ante-gales/' },
+    ],
+  },
+  {
+    slug: 'espanoles-como-fabregas-lens-1-9-jacobo-ramon-alex-valle-luis-milla',
+    title: 'El Como de Fàbregas y el 1-9 en Lens: tres asistencias de españoles que LaLiga dejó ir',
+    summary: 'Jacobo Ramón, Álex Valle y Luis Milla, salidos de Real Madrid, Barça y Getafe, dieron tres pases de gol en la mayor victoria a domicilio de la historia de la Champions.',
+    body: `El 1-9 del Como en Lens tiene acento español. Jacobo Ramón, Álex Valle y Luis Milla fueron titulares el miércoles en el Stade Bollaert-Delelis y cada uno dio una asistencia. Los tres llegaron al Como desde LaLiga: uno de la cantera del Real Madrid, otro de la del Barça y el tercero del Getafe.
+
+En el banquillo estaba Cesc Fàbregas, que dirige al Como desde julio de 2024. Y en el once, Nico Paz, tinerfeño formado en el Real Madrid: marcó un gol y dio dos pases decisivos.
+
+## Un récord que comparte el Real Madrid
+
+La goleada [iguala la mayor victoria de la Champions](https://www.uefa.com/uefachampionsleague/news/0240-0e935cdfe0e3-72b3c5cde380-1000--biggest-champions-league-wins-liverpool-8-0-besiktas-rea/): ocho goles de diferencia, como el Liverpool 8-0 Beşiktaş de 2007 y el Real Madrid 8-0 Malmö de 2015. UEFA la registra además como la mayor victoria a domicilio de la competición, y el Como es el segundo equipo, tras el Bayern, que marca nueve goles en un partido.
+
+Es decir, dos canteranos del Madrid ayudaron a igualar un récord que tenía el propio Madrid.
+
+## De dónde salió cada uno
+
+| Jugador | Origen | Cómo llegó al Como | Qué hizo en Lens |
+|---|---|---|---|
+| Jacobo Ramón | Cantera del Real Madrid (desde 2013) | Traspaso, 31 de julio de 2025 | Asistencia del 0-7 a Liberali |
+| Álex Valle | Cantera del Barça (desde 2014-15) | Cedido en enero de 2025; el Como pagó su cláusula de 6 millones | Asistencia del 0-2 a Douvikas |
+| Luis Milla | Getafe (2022-2026) | Traspaso, julio de 2026 | Asistencia del 0-5 a Kempf |
+| Nico Paz | Cantera del Real Madrid | Traspaso en agosto de 2024 | Gol del 0-3 y asistencias del 0-4 y del 0-6 |
+
+**Jacobo Ramón** (Madrid, 21 años) entró en el [Real Madrid](/futbol/laliga/equipo/86) con 8 años, en 2013, y debutó con el primer equipo en 2025. El club blanco lo traspasó el 31 de julio de ese año. La operación fue de 2,5 millones de euros: el Madrid se quedó el 50 % de una futura venta y una opción de recompra.
+
+**Álex Valle** (Badalona, 22 años) se formó en el [Barcelona](/futbol/laliga/equipo/83), que lo cedió al Andorra, al Levante y al Celtic. En enero de 2025 el Barça lo prestó al Como sin opción de compra. En junio, el Como [abonó su cláusula de rescisión](https://www.fcbarcelona.es/es/futbol/primer-equipo/noticias/4277463/el-como-1907-hace-efectiva-la-clausula-de-rescision-de-alex-valle) de 6 millones.
+
+**Luis Milla** (Majadahonda, 32 años) es el veterano del grupo. Hijo del exinternacional del mismo nombre, pasó cuatro temporadas en el [Getafe](/futbol/laliga/equipo/2922): 134 partidos, 3 goles y 20 asistencias, según el [comunicado de su traspaso](https://www.getafecf.com/noticias/luis-milla-traspasado-al-como-1907). En Lens jugó 58 minutos.
+
+## Nico Paz, el caso aparte
+
+Nico Paz (22 años) nació en Santa Cruz de Tenerife, hijo de madre española y del exfutbolista argentino Pablo Paz, y juega con la selección argentina. Llegó al Como desde el Madrid en agosto de 2024. En junio, el club blanco [confirmó que seguiría en Italia](https://www.realmadrid.com/es-ES/noticias/club/comunicados/comunicado-oficial-nico-paz-29-06-2026) esta temporada a petición del jugador, con una opción de recompra para 2027-28.
+
+## Seis de los nueve goles
+
+El cruce de datos del [acta del partido](/futbol/champions-league/partido/401915305) da una cifra: futbolistas salidos de clubes de LaLiga intervinieron en seis de los nueve goles. Firmaron, con gol o asistencia, todos los tantos del 0-2 al 0-7. Jacobo Ramón y Valle jugaron los 90 minutos; Milla y Paz se fueron en el 58, con 0-6.
+
+Cuatro de los once titulares del Como en Lens habían pasado antes por clubes españoles. Su camino en la [Champions League](/futbol/champions-league) y en la [Serie A](/futbol/serie-a) se sigue en las secciones del sitio.`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'Champions League', sport: 'futbol', slug: 'champions-league' },
+    sourceName: 'UEFA.com',
+    sourceUrl: 'https://www.uefa.com/uefachampionsleague/news/0240-0e935cdfe0e3-72b3c5cde380-1000--biggest-champions-league-wins-liverpool-8-0-besiktas-rea/',
+    sourceLang: 'en',
+    publishedAt: '2026-11-06T11:10:00+01:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/2023_-_Centre_Stage_SAM_9641_%2853332428744%29.jpg/1280px-2023_-_Centre_Stage_SAM_9641_%2853332428744%29.jpg',
+      alt: 'Cesc Fàbregas, sentado en un sillón blanco con jersey gris y micrófono de diadema, habla en un escenario del Web Summit de Lisboa en 2023',
+      credit: 'Web Summit · Wikimedia Commons',
+      license: 'CC BY 2.0',
+    },
+    sourcesSecondary: [
+      { name: 'ESPN (acta Lens-Como)', url: 'https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/summary?event=401915305' },
+      { name: 'Real Madrid (comunicado Jacobo Ramón)', url: 'https://www.realmadrid.com/es-ES/noticias/club/comunicados/comunicado-oficial-jacobo-ramon-31-07-2025' },
+      { name: 'Calciomercato.com', url: 'https://www.calciomercato.com/liste/como-ufficiale-ramon-dal-real-madrid-formula-e-cifre/bltecff12f8ef5d6a6f' },
+      { name: 'Goal Italia', url: 'https://www.goal.com/it/liste/como-jacobo-ramon-annuncio-ufficiale-costo-operazione/bltb3d51a8e5bde1043' },
+      { name: 'FC Barcelona (cesión de Valle al Como)', url: 'https://www.fcbarcelona.es/es/futbol/primer-equipo/noticias/4208194/alex-valle-cedido-al-como-1907' },
+      { name: 'ESdiario', url: 'https://www.esdiario.com/deportes/260629/191907/real-madrid-confirma-venta-nico-paz-peticion-propio-jugador.html' },
+      { name: 'Wikipedia (Jacobo Ramón)', url: 'https://es.wikipedia.org/wiki/Jacobo_Ram%C3%B3n' },
+      { name: 'Wikipedia (Álex Valle)', url: 'https://es.wikipedia.org/wiki/%C3%81lex_Valle' },
+      { name: 'Wikipedia (Luis Milla Manzanares)', url: 'https://es.wikipedia.org/wiki/Luis_Milla_Manzanares' },
+      { name: 'Wikipedia (Nico Paz)', url: 'https://es.wikipedia.org/wiki/Nico_Paz' },
+      { name: 'Wikipedia (Cesc Fàbregas)', url: 'https://es.wikipedia.org/wiki/Cesc_F%C3%A0bregas' },
+    ],
+  },
+  {
     slug: 'previa-gp-brasil-2026',
     title: "Gran Premio de Brasil: horarios de libres, clasificación y carrera",
     summary: "Horarios en hora peninsular de todas las sesiones del Gran Premio de Brasil en Autodromo Jose Carlos Pace, Sao paulo y cómo llega el Mundial, con Kimi Antonelli líder.",
