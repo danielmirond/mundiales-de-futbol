@@ -154,6 +154,242 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'fran-sol-34-anos-hercules-gofundme-familia-jesus-de-miguel-112000-euros-1370-donantes-morata-baena-septien',
+    title: 'Fran Sol, 34 años, delantero del Hércules: «Queríamos ayudar de verdad y no solo reposteando»',
+    summary: 'La recaudación que Fran Sol abrió en GoFundMe para la familia de Jesús de Miguel pasa de 112.000 euros con 1.370 donantes en cuatro días. Quién ha dado, cuánto y qué otros gestos se han sumado.',
+    body: `Fran Sol, 34 años, delantero del Hércules y exjugador del Tenerife, abrió el 3 de noviembre [una recaudación en GoFundMe](https://www.gofundme.com/f/familia-jesus-de-miguel) para la familia de Jesús de Miguel, el mismo día en que el club confirmó la muerte del delantero. Este sábado a mediodía el contador marcaba 112.038 euros de 1.370 donantes y el objetivo había subido a 130.000. No se conocían personalmente, según Diario de Avisos.
+
+«Yo y mi familia queríamos ayudar de verdad y no solo reposteando cosas en Instagram», escribe en la presentación de la campaña. Todo lo recaudado irá a la mujer, la hija y los padres del jugador, y Sol ha explicado que entregará el dinero cuando cierre la campaña.
+
+## Quién ha donado y cuánto
+
+La lista de aportaciones con nombre la ha ido recogiendo [Diario de Avisos](https://diariodeavisos.elespanol.com/2026/11/familia-jesus-de-miguel-donaciones-futbol/): Álvaro Morata, Álex Baena, Marc Bartra, Pedro Porro, Álex Remiro, Carles Aleñá, Álvaro Fidalgo y Borja Iglesias entre los futbolistas; Christian Septién, presidente del Cádiz, con 15.000 euros a título personal, y Gabriel Solares, presidente del Valladolid, con 2.000. Javier Tebas ha respaldado públicamente la iniciativa.
+
+El grueso, sin embargo, es anónimo o de aficionados: con 1.370 donaciones, la media sale a unos 82 euros. El objetivo de la campaña se ha movido con el dinero: el viernes estaba en 110.000 euros y el sábado ya en 130.000.
+
+## Los otros gestos
+
+| Gesto | Quién | Qué supone |
+| --- | --- | --- |
+| Recaudación en GoFundMe | Fran Sol | 112.038 € con 1.370 donantes (sábado a mediodía) |
+| Taquilla del Almería - Tenerife de la jornada 34 | UD Almería, por decisión de su presidente, Mohammed Al Khereiji | Toda la recaudación de entradas, y la familia, invitada al partido |
+| Aplazamiento de la Copa del Rey | RFEF | Los partidos del 3 de noviembre, sin fecha nueva |
+
+El gesto del Almería lo [recoge A Bola](https://www.abola.pt/noticias/almeria-de-ronaldo-toma-iniciativa-para-ajudar-familia-de-jesus-de-miguel-2026110418293615667): el club entregará a la familia toda la taquilla de su partido en casa contra el Tenerife, el de la jornada 34 de [LaLiga Hypermotion](/futbol/laliga-2). La RFEF, por su parte, [aplazó la Copa del Rey del 3 de noviembre](/noticias/copa-del-rey-hoy-aplazada-rfef-muerte-jesus-de-miguel-anaitasuna-alaves-pamplona-eibar-segunda-vez-sin-fecha-nueva) y el funeral se celebró el jueves en Navahermosa, el pueblo toledano de la familia, como contó [la pieza sobre la carta de Lautaro Spatz](/noticias/lautaro-spatz-andorra-defiende-owono-acciones-fortuitas-carta-instagram-jesus-de-miguel-funeral-navahermosa).
+
+## Quién es Fran Sol
+
+Madrileño, formado en el Real Madrid y con un debut en Primera con el Villarreal en 2015, Sol hizo carrera fuera: máximo goleador del Willem II en la Eredivisie 2016-17 y fichaje del Dinamo de Kiev en 2019. De allí llegó cedido al Tenerife en la temporada 2020-21, su único curso de blanquiazul, y pasó después por Eibar, Málaga y el AEK Larnaca chipriota antes de firmar por el Hércules. De Miguel, en cambio, se hizo goleador en Primera RFEF: fue máximo goleador de su grupo con el Castellón en 2023-24 y marcó 11 goles en el ascenso del Tenerife en 2025-26, [como se contó al morir](/noticias/jesus-de-miguel-tenerife-uci-choque-owono-parada-cardiorrespiratoria-comunicado-heliodoro-andorra-suspendido).
+
+La campaña sigue abierta. GoFundMe la lista bajo el nombre «Familia Jesús de Miguel», con Fran Sol Ortiz como organizador y Alicante como lugar de origen.`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'LaLiga Hypermotion', sport: 'futbol', slug: 'laliga-2' },
+    sourceName: 'GoFundMe',
+    sourceUrl: 'https://www.gofundme.com/f/familia-jesus-de-miguel',
+    sourceLang: 'es',
+    publishedAt: '2026-11-07T12:40:00+01:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Deportivo_da_Coru%C3%B1a_-_CD_Castell%C3%B3n%2C_ida_da_final_da_Primeira_RFEF_2023-24_-_13.jpg/1280px-Deportivo_da_Coru%C3%B1a_-_CD_Castell%C3%B3n%2C_ida_da_final_da_Primeira_RFEF_2023-24_-_13.jpg',
+      alt: 'Jesús de Miguel, a la izquierda, con la camiseta negra del Castellón y las manos en la cintura, junto a un compañero sobre el césped de Riazor en la final de Primera RFEF de 2024',
+      credit: 'Estevoaei · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+    sourcesSecondary: [
+      { name: 'Diario de Avisos: la campaña de Fran Sol supera los 100.000 euros', url: 'https://diariodeavisos.elespanol.com/2026/11/familia-jesus-de-miguel-donaciones-futbol/' },
+      { name: 'A Bola: el Almería entregará la taquilla del partido ante el Tenerife', url: 'https://www.abola.pt/noticias/almeria-de-ronaldo-toma-iniciativa-para-ajudar-familia-de-jesus-de-miguel-2026110418293615667' },
+    ],
+  },
+  {
+    slug: 'ilia-topuria-29-anos-dos-orbitas-rotas-nariz-pies-hermano-aleksandre-paro-combate-gaethje-casa-blanca-vuelta-enero',
+    title: 'Ilia Topuria, 29 años: dos órbitas rotas, la nariz, los pies y el hermano que paró el combate',
+    summary: 'Topuria detalla por primera vez el parte de la Casa Blanca: cuatro huesos rotos, un ojo lleno de sangre y la decisión de su hermano de parar. Cuándo vuelve a entrenar y qué pide a Gaethje.',
+    body: `Ilia Topuria, 29 años, ha puesto cifras a lo que le pasó el 14 de junio en el jardín sur de la Casa Blanca. En [una entrevista de veinte minutos publicada este viernes](https://www.youtube.com/watch?v=M929tSTWWsw&t=430s), en inglés, cuenta que salió del octágono con cuatro huesos rotos: las dos órbitas, la nariz y los pies. Es el primer repaso largo que hace de aquella noche, cinco meses después de perder el cinturón del peso ligero y el invicto ante Justin Gaethje.
+
+Lo que describe a partir del tercer asalto explica la decisión que entonces se discutió: dice que no podía abrir los ojos, que el médico entró a preguntarle si veía y que tenía un ojo lleno de sangre. Su hermano Aleksandre, que trabaja en su esquina, pidió al árbitro que parara al acabar el cuarto asalto, [según la crónica de EFE que publicó RTVC](https://rtvc.es/espanol-topuria-cae-derrotado-combate-casa-blanca-15-junio-2026/), mientras él pedía seguir. En la entrevista le da la razón: cree que esa decisión le salvó la vista y que, de haber seguido, probablemente no habría vuelto a pelear.
+
+## Lo que pasó aquella noche
+
+Gaethje, con 28 victorias y 5 derrotas, se quedó con el cinturón que tenía de forma interina, en un combate con Donald Trump en primera fila. Topuria llegaba invicto y como campeón. La pelea se paró entre el cuarto y el quinto asalto por decisión de su esquina, con recomendación médica.
+
+| Fecha | Qué pasó |
+| --- | --- |
+| 14 de junio de 2026 | Derrota ante Gaethje en la Casa Blanca: primera de su carrera, pierde el cinturón del peso ligero |
+| Junio-noviembre | Recuperación: todavía no entrena al cien por cien, según cuenta él mismo |
+| 6 de noviembre | Primera entrevista larga sobre el combate |
+| Enero de 2027 | Fecha que da para volver a entrenar a pleno rendimiento |
+
+## Enero, y después la revancha
+
+Topuria sitúa su vuelta a los entrenamientos completos [en enero](https://www.youtube.com/watch?v=M929tSTWWsw&t=1113s) y dice que decidirá entonces, según cómo se encuentre. Lo que pide es [la revancha](https://www.youtube.com/watch?v=M929tSTWWsw&t=1038s): asegura que llegará en algún momento y no cree que Gaethje, que habla de retirarse, se vaya sin concedérsela.
+
+Con ese calendario, un regreso antes de la primavera de 2027 parece difícil: a enero hay que sumarle un campamento completo, que en su caso han sido siempre de varios meses. Mientras, el peso pluma que dejó vacante ya tiene dueño: Alexander Volkanovski [lo retuvo en octubre ante Evloev](/noticias/volkanovski-noquea-evloev-ufc-333-retiene-cinturon-pluma-topuria-abu-dabi).
+
+## Lo que no dice
+
+No da el nombre de su próximo rival ni habla de volver al peso pluma. Tampoco detalla si las fracturas necesitaron cirugía. Lo que sí deja claro es que el que decidió no fue el árbitro ni el médico, sino su hermano, y que él lo agradece. Para seguir sus combates en España, [la guía de la UFC y el boxeo](/noticias/donde-ver-ufc-boxeo-espana-hbo-max-eurosport-dazn-topuria-canelo) explica qué plataforma emite cada velada.`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'UFC', sport: 'combate', slug: 'ufc' },
+    sourceName: 'One On One MMA (YouTube)',
+    sourceUrl: 'https://www.youtube.com/watch?v=M929tSTWWsw',
+    sourceLang: 'en',
+    publishedAt: '2026-11-07T12:41:00+01:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Ilia_Topuria_at_the_Orbeliani_Palace.jpg/1280px-Ilia_Topuria_at_the_Orbeliani_Palace.jpg',
+      alt: 'Ilia Topuria, con traje marrón y una condecoración en las manos, ante un micrófono y entre las banderas de Georgia y de la Unión Europea en el palacio Orbeliani de Tiflis',
+      credit: 'Administración del Presidente de Georgia · Wikimedia Commons',
+      license: 'CC BY 4.0',
+    },
+    sourcesSecondary: [
+      { name: 'RTVC (EFE): Topuria cae derrotado en la Casa Blanca', url: 'https://rtvc.es/espanol-topuria-cae-derrotado-combate-casa-blanca-15-junio-2026/' },
+    ],
+  },
+  {
+    slug: 'romario-60-anos-senador-embargo-20-por-ciento-sueldo-mansion-brasilia-lago-sul-honorarios-abogado-barca',
+    title: 'Romário, 60 años, senador: le descuentan el sueldo por la mansión de Brasilia que dejó de pagar',
+    summary: 'Un juzgado de Brasilia ordena retener cada mes parte del sueldo de senador de Romário para pagar al abogado de la dueña de una mansión que alquiló en 2012. Las cifras, en reales y en euros.',
+    body: `Romário, 60 años, senador por Río de Janeiro y Pichichi de LaLiga con el Barça en 1994, verá recortado su sueldo del Senado a partir de ahora. Un juzgado del Distrito Federal ha ordenado retener el 20 % de sus ingresos como parlamentario hasta saldar 178.854,91 reales de honorarios de abogado, [según adelantó A Tarde](https://atarde.com.br/brasil/justica-penhora-20-do-salario-de-romario-por-divida-de-r-179-mil-1408274). La decisión está firmada el 29 de octubre.
+
+El descuento ronda los 5.800 reales al mes, [según Metrópoles](https://www.metropoles.com/celebridades/romario-tera-20-do-salario-penhorado-para-pagamento-de-divida-a-advogado), que cita el Portal de Transparencia del Senado: el último sueldo bruto de Romário fue de 46.366,19 reales, 29.048,49 netos. Su defensa ha dicho que no se pronunciará.
+
+## Las cifras, en euros
+
+Al cambio oficial del Banco Central Europeo del 6 de noviembre, [6,1449 reales por euro](https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-brl.en.html), la deuda y el descuento quedan así:
+
+| Concepto | Reales | Euros (aprox.) |
+| --- | --- | --- |
+| Deuda por honorarios | 178.854,91 | 29.100 |
+| Retención mensual (20 %) | 5.800 | 944 |
+| Sueldo bruto de senador | 46.366,19 | 7.545 |
+| Sueldo neto | 29.048,49 | 4.727 |
+
+A ese ritmo, la deuda tardaría unos 31 meses en quedar saldada.
+
+## La mansión del Lago Paranoá
+
+El origen es un alquiler de 2012: Romário se instaló en una mansión a orillas del Lago Paranoá, en el Lago Sul de Brasilia, y dejó de pagar las mensualidades en noviembre de 2015. La propietaria lo llevó a juicio y el exjugador fue condenado a pagar los atrasos y a demoler un embarcadero y un campo de fútbol que había levantado en el terreno sin permiso. Lo que ahora se cobra no es el alquiler, sino los honorarios del abogado que llevó la causa de la dueña.
+
+La defensa alegó que ese abogado solo actuó en una parte del proceso y que las cantidades ya se estaban ejecutando en la causa principal. La jueza Luciana Torres de Oliveira lo rechazó y escribió que la medida no afectará a la dignidad del ejecutado ni a la supervivencia de su familia.
+
+## No es el primer descuento
+
+En agosto, la Justicia de São Paulo mantuvo una retención del 30 % de ese mismo sueldo por una condena por daños morales a Marco Polo Del Nero, expresidente de la CBF, [una deuda de unos 34.400 reales](https://diariodonordeste.verdesmares.com.br/ultima-hora/pais/romario-tem-parte-do-salario-do-senado-retido-para-pagar-divida-impacto-material-irreversivel-1.3781779). Romário recurrió alegando un «impacto material irreversible» y los jueces le recordaron que, durante el [Mundial 2026](/2026), había anunciado que renunciaría al sueldo del Senado mientras trabajara en las retransmisiones de CazéTV.
+
+Para el lector español, Romário es el delantero que marcó 30 goles en 33 partidos de [Liga](/futbol/laliga) en la 1993-94, el del Dream Team de Cruyff, Balón de Oro del Mundial de 1994 y mejor jugador del mundo de la FIFA ese año. Senador desde 2015, hoy preside además el America de Río. Cumplió 60 años el 29 de enero.`,
+    category: 'curiosa',
+    kind: 'noticia',
+    competition: { name: 'LaLiga', sport: 'futbol', slug: 'laliga' },
+    sourceName: 'Metrópoles',
+    sourceUrl: 'https://www.metropoles.com/celebridades/romario-tera-20-do-salario-penhorado-para-pagamento-de-divida-a-advogado',
+    sourceLang: 'pt',
+    publishedAt: '2026-11-07T12:42:00+01:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Rom%C3%A1rio_Brazil_V_Morocco_13_June_2026-28.jpg/1280px-Rom%C3%A1rio_Brazil_V_Morocco_13_June_2026-28.jpg',
+      alt: 'Romário, con una camiseta amarilla de Brasil y unas gafas colgadas del cuello, sonríe y hace el signo de la victoria con la mano en la grada durante el Brasil - Marruecos del Mundial 2026',
+      credit: 'Berlination · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+    sourcesSecondary: [
+      { name: 'A Tarde: la Justicia embarga el 20 % del sueldo de Romário', url: 'https://atarde.com.br/brasil/justica-penhora-20-do-salario-de-romario-por-divida-de-r-179-mil-1408274' },
+      { name: 'Diário do Nordeste: la retención del 30 % por la deuda con Del Nero', url: 'https://diariodonordeste.verdesmares.com.br/ultima-hora/pais/romario-tem-parte-do-salario-do-senado-retido-para-pagar-divida-impacto-material-irreversivel-1.3781779' },
+      { name: 'BCE: tipo de cambio euro-real', url: 'https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-brl.en.html' },
+    ],
+  },
+  {
+    slug: 'berta-abellan-27-anos-bicampeona-mundo-trial-80-por-ciento-gano-invierto-premi-talent-change-congress-scorpa',
+    title: 'Berta Abellán, 27 años, bicampeona del mundo de trial: «El 80 % de lo que gano lo invierto en el trial»',
+    summary: 'Berta Abellán recogió el jueves el Premi Talent de The Change Congress con dos títulos mundiales seguidos. Antes del primero contaba que casi todo lo que ganaba se iba en gasolina y mecánicos.',
+    body: `Berta Abellán, 27 años, subió el jueves al escenario del CosmoCaixa de Barcelona a recoger el Premi Talent de la segunda edición de The Change Congress, [según contó Línia](https://liniaxarxa.cat/valles/el-canvi-de-mentalitat-de-berta-abellan-doble-campiona-del-mon-de-trial-i-amb-passat-al-club-bellaterra/). Se lo entregó Elena Fort, vicepresidenta del Barça. Llegaba con dos títulos seguidos del Mundial femenino de trial, el de 2025 y el de 2026, que [cerró en septiembre en Pobladura de las Regueras](https://www.totalmotorcycle.com/abellan-farre-and-montserrat-junque-clinch-crowns-at-trialgp-of-spain/) con Scorpa.
+
+Lo que no se ve desde el escenario lo explicaba ella misma en abril de 2025, antes del primer título, [en una entrevista en el Ara](https://es.ara.cat/deportes/humilde-culpa-veces-rivales-han-jodido_130_5344957.html): «El 80 % de lo que gano lo invierto en el trial». Gasolina y mecánicos, sobre todo. Las primas por ganar, decía, dan para cubrir una temporada, no para una carrera larga, y las marcas solo ayudan a quien queda primera o segunda. Para completar ingresos daba clases de trial, estudiaba un grado sanitario como plan B y se planteaba opositar a bombera.
+
+## Seis veces segunda antes de la primera
+
+Abellán fue subcampeona del mundo seis veces seguidas antes de ganar. En 2022, en una entrevista en La Vanguardia que recuerda Línia, lo decía sin rodeos: hasta que no fuera campeona, no la reconocería nadie. El primer título llegó en 2025, con 25 años, y el segundo en 2026. Entre medias ganó también el primer trofeo mundial de X-Trial femenino, el de 2025.
+
+| Palmarés | Años |
+| --- | --- |
+| Mundial de TrialGP Women | 2025 y 2026 |
+| X-Trial femenino | 2025 |
+| Campeonato de España | 2016, 2017, 2018, 2020 y 2021 |
+| Trial de las Naciones con España | 2017, 2019, 2021, 2022 y 2025 |
+| Campeonato de Europa | 2018 |
+
+Desde 2022 compite además en el Campeonato de España en TR3, una categoría masculina, como piloto oficial de Scorpa. Ese fichaje fue, según contaba a L'Esportiu y recoge Línia, lo que le hizo ver viable ser profesional: hasta entonces entrenar y competir costaba dinero y llegaba un punto en que una se cansaba de pagar.
+
+## De la Mecatecno a la psicóloga
+
+Empezó a los cuatro años con una Mecatecno que le regaló su padre y a los seis ya corría un campeonato de Cataluña. A los dieciséis entró en el CAR de Sant Cugat, donde dice que cambió de mentalidad al ver el ambiente. Hoy visita a la psicóloga dos veces al mes para gestionar lo que llama un deporte caótico: cambios de ubicación a última hora, motos que fallan, una rutina que nunca es la misma.
+
+Sus referentes son los de cualquier aficionado catalán al trial: Toni Bou y Laia Sanz, catorce veces campeona del mundo. Abellán entrena en el Moto Club Cent Peus de Sant Fost de Campsentelles y ha sido preparadora física y monitora del desaparecido Club Bellaterra. En Cataluña el trial se practica mucho, pero sigue sin televisión generalista: para seguir [el motor en España](/motor) hay que mirar [qué plataforma emite cada campeonato](/noticias/donde-ver-motor-espana-2026-27-f1-motogp-indycar-wec-formula-e-dakar), y el trial no aparece en ninguna de las grandes.`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'Mundial de Trial', sport: 'motor', slug: 'trial' },
+    sourceName: 'Ara',
+    sourceUrl: 'https://es.ara.cat/deportes/humilde-culpa-veces-rivales-han-jodido_130_5344957.html',
+    sourceLang: 'es',
+    publishedAt: '2026-11-07T12:43:00+01:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/107_Berta_Abellan_SPA.jpg/1280px-107_Berta_Abellan_SPA.jpg',
+      alt: 'Berta Abellán, con casco blanco y mono rosa, rojo y amarillo, pilota su moto de trial entre troncos y rocas en un tramo de bosque, en una imagen de 2016',
+      credit: 'Dowson20 · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+    sourcesSecondary: [
+      { name: 'Línia: Berta Abellán recibe el Premi Talent de The Change Congress', url: 'https://liniaxarxa.cat/valles/el-canvi-de-mentalitat-de-berta-abellan-doble-campiona-del-mon-de-trial-i-amb-passat-al-club-bellaterra/' },
+      { name: 'Total Motorcycle: Abellán retiene el título en el TrialGP de España', url: 'https://www.totalmotorcycle.com/abellan-farre-and-montserrat-junque-clinch-crowns-at-trialgp-of-spain/' },
+    ],
+  },
+  {
+    slug: 'sestao-river-verdugo-espanyol-copa-primera-final-historia-copa-federacion-recreativo-huelva-las-llanas-14-noviembre',
+    title: 'Sestao River, verdugo del Espanyol, juega la primera final de su historia: el Decano en Las Llanas',
+    summary: 'El Sestao River, que eliminó al Espanyol en la Copa del Rey, recibe al Recreativo de Huelva el sábado 14 a las 19:00 en la final de la Copa Federación. Cómo llegaron, qué se juegan y dónde verlo.',
+    body: `El Sestao River juega el sábado 14 de noviembre la primera final oficial de su historia. Recibe al Recreativo de Huelva a las 19:00 (18:00 en Canarias) en Las Llanas, [según la convocatoria de la RFEF](https://rfef.es/es/noticias/la-copa-federacion-coronara-su-nuevo-campeon-el-proximo-14-de-noviembre), en la final de la Copa Federación, el torneo del fútbol modesto. El partido se emite en los canales oficiales de la federación, a partido único, con prórroga y penaltis si hace falta.
+
+Los dos llegan con la Copa del Rey reciente en las piernas. El 27 de octubre, [el Sestao eliminó al Espanyol en Las Llanas](/futbol/copa-del-rey/partido/401928495) por 4-3 en la prórroga, un equipo de Segunda Federación contra uno de Primera. Esa misma noche [el Recre cayó 2-3 con el Rayo](/futbol/copa-del-rey/partido/401928533), también en la prórroga. Las dos eliminatorias estaban en [la agenda de aquel martes](/noticias/copa-del-rey-martes-27-octubre-villarreal-manacor-rayo-huelva-espanyol-sestao-horarios-donde-ver).
+
+## Cómo llegaron a la final
+
+| Equipo | Semifinal | Resultado |
+| --- | --- | --- |
+| Sestao River | Salamanca CF UDS, en Las Llanas | 3-1 (Zorrilla, Castañeda de penalti y Bengoetxea) |
+| Recreativo de Huelva | Navalcarnero, en el Nuevo Colombino | 2-2 y 5-3 en los penaltis |
+
+[La crónica de la RFEF](https://rfef.es/es/noticias/sestao-river-club-y-rc-recreativo-de-huelva-protagonizaran-la-gran-final-de-la-copa) cuenta que el Salamanca jugó con uno menos desde el minuto 5 y que el Recre lanzó los cinco penaltis sin fallar mientras el Navalcarnero erró dos. El factor campo se sorteó el 23 de septiembre y le tocó al Sestao. Para ninguno de los dos es un título menor: ninguno ha ganado nunca la Copa Federación, y los cuatro semifinalistas ya tenían plaza en la Copa del Rey, así que lo que queda es el trofeo.
+
+## Qué es la Copa Federación
+
+La juegan los clubes de Primera, Segunda y Tercera Federación que no entran en la Copa del Rey por clasificación. Se disputa desde 1993-94 en su formato actual: una fase autonómica y otra nacional con 32 equipos en cuatro grupos. El campeón vigente es el Ourense, que ganó 3-0 al Orihuela en O Couto el 8 de noviembre de 2025. El Puertollano es el club con más títulos, tres.
+
+## Un campo con más de un siglo
+
+Las Llanas es el campo donde nació el Sestao Sport en 1916, el club de la camiseta verdinegra que jugó diecisiete temporadas en Segunda División y desapareció en 1996. El Sestao River se fundó el 4 de septiembre de ese año como sucesor, con los mismos colores y el mismo campo. Enfrente estará el club más antiguo de España en activo: el Recreativo, fundado en 1889, que llegó a una final de Copa del Rey en 2003 y ahora, tras el descenso de 2024-25, también compite en Segunda Federación. Lo que se cruza en Las Llanas es una final de [Copa del Rey](/futbol/copa-del-rey) en pequeño: dos nombres con historia y un trofeo que ninguno tiene.`,
+    category: 'curiosa',
+    kind: 'noticia',
+    competition: { name: 'Copa Federación', sport: 'futbol', slug: 'copa-federacion' },
+    sourceName: 'RFEF',
+    sourceUrl: 'https://rfef.es/es/noticias/la-copa-federacion-coronara-su-nuevo-campeon-el-proximo-14-de-noviembre',
+    sourceLang: 'es',
+    publishedAt: '2026-11-07T12:44:00+01:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/2013_11_01_Sestao_Las_Llanas.jpg/1280px-2013_11_01_Sestao_Las_Llanas.jpg',
+      alt: 'Un partido en el campo municipal de Las Llanas de Sestao, con la tribuna cubierta de color verde al fondo y las casas del pueblo detrás',
+      credit: 'Javier Mediavilla Ezquibela · Wikimedia Commons',
+      license: 'CC BY 3.0',
+    },
+    sourcesSecondary: [
+      { name: 'RFEF: Sestao River y Recreativo, finalistas de la Copa Federación', url: 'https://rfef.es/es/noticias/sestao-river-club-y-rc-recreativo-de-huelva-protagonizaran-la-gran-final-de-la-copa' },
+      { name: 'ESPN: Sestao 4-3 Espanyol (Copa del Rey)', url: 'https://www.espn.com/soccer/match/_/gameId/401928495' },
+      { name: 'ESPN: Recreativo 2-3 Rayo Vallecano (Copa del Rey)', url: 'https://www.espn.com/soccer/match/_/gameId/401928533' },
+    ],
+  },
+  {
     slug: 'previa-atletico-barcelona-401882816',
     title: "Atlético - Barcelona: horario, dónde ver y cómo llegan al partido de LaLiga",
     summary: "Cita de LaLiga este domingo 8 de noviembre: Atlético - Barcelona, a las 21:00 h en Riyadh Air Metropolitano. Atlético es 2.º y Barcelona, 1.º. TV: M+ LALIGA.",
