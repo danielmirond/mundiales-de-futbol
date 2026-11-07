@@ -154,6 +154,286 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'previa-atletico-barcelona-401882816',
+    title: "Atlético - Barcelona: horario, dónde ver y cómo llegan al partido de LaLiga",
+    summary: "Cita de LaLiga este domingo 8 de noviembre: Atlético - Barcelona, a las 21:00 h en Riyadh Air Metropolitano. Atlético es 2.º y Barcelona, 1.º. TV: M+ LALIGA.",
+    body: `Cita de LaLiga este domingo 8 de noviembre: Atlético - Barcelona, a las 21:00 h en Riyadh Air Metropolitano.
+
+## Cómo llegan
+
+Atlético llega de ganar 2-0 a Levante y ocupa la 2.º plaza con 28 puntos (9G-1E-1P). Barcelona llega de ganar 6-1 a Alavés y ocupa la 1.º plaza con 30 puntos (10G-0E-1P). La [clasificación de LaLiga](/futbol/laliga), al día.
+
+## Dónde ver el partido
+
+Se emite en **M+ LALIGA**. Alineaciones en cuanto se confirmen, marcador en directo y narración en la [ficha del Atlético - Barcelona](/futbol/laliga/partido/401882816). El resto de la jornada, en [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    kind: 'previa',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882816",
+    sourceLang: 'en',
+    publishedAt: '2026-11-07T01:12:31.600Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Madrid_-_Estadio_Wanda_Metropolitano_07.jpg/1280px-Madrid_-_Estadio_Wanda_Metropolitano_07.jpg",
+      alt: "Exterior del estadio Metropolitano de Madrid, con la cubierta roja sobre la fachada",
+      credit: "Zarateman · Wikimedia Commons",
+      license: "CC0",
+    },
+  },
+  {
+    slug: 'cronica-sevilla-alaves-401882809',
+    title: "Sevilla 0 Alavés 0: Sevilla 6.º y posesión del 60 % para Sevilla",
+    summary: "Sevilla y Alavés empataron 0-0 en LaLiga. Claves: Sevilla 6.º y posesión del 60 % para Sevilla.",
+    body: `Sevilla y Alavés empataron 0-0 en LaLiga.
+
+## Cómo se decidió
+
+Sin goles en el marcador.
+
+## Los números del partido
+
+Sevilla manejó el balón (60 % por 40 %) y tiró 13 veces, 3 entre los tres palos; Alavés se quedó en 9 remates (2 a puerta). Córners: 5 por 4.
+
+## Qué cambia en la tabla
+
+Tras el partido, Sevilla 6.º con 18 puntos y Alavés 9.º con 13 puntos en la [clasificación de LaLiga](/futbol/laliga).
+
+## Qué viene ahora
+
+Próximos partidos en la página de la competición. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/laliga/partido/401882809).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882809",
+    sourceLang: 'en',
+    publishedAt: '2026-11-07T01:12:31.600Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/2022-10-25_1_Estadio_Ram%C3%B3n_S%C3%A1nchez_Pizju%C3%A1n_%28Sevilla_FC%29.jpg/1280px-2022-10-25_1_Estadio_Ram%C3%B3n_S%C3%A1nchez_Pizju%C3%A1n_%28Sevilla_FC%29.jpg",
+      alt: "Interior del Ramón Sánchez-Pizjuán, con las gradas rojas y blancas y el nombre del Sevilla",
+      credit: "Niels98 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'partidos-baloncesto-hoy-2026-11-07',
+    title: "Partidos de baloncesto hoy, sábado 7 de noviembre: horarios y dónde ver NBA",
+    summary: "Agenda de baloncesto de hoy sábado 7 de noviembre: 1 partido con horario en hora española y canal de televisión. Destaca Pacers - Nuggets.",
+    body: `1 partido de baloncesto para sábado 7 de noviembre. Repasamos qué se juega, a qué hora y en qué canal, sin más vueltas. El partido que más miradas reúne es el **[Pacers - Nuggets](/baloncesto/nba/partido/401909938)** (NBA, 23:00 h).
+
+## 🇺🇸 NBA
+
+- **[Pacers - Nuggets](/baloncesto/nba/partido/401909938)** — 23:00 h
+
+Calendario y clasificación en la [página de NBA](/baloncesto/nba).
+
+Horarios en hora de España; los resultados y la narración de cada partido van en su ficha. Toda la jornada, con marcadores en directo, en [partidos de hoy](/partidos-hoy).`,
+    category: 'tv',
+    kind: 'agenda',
+    competition: {"name":"NBA","sport":"baloncesto","slug":"nba"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/nba/game/_/gameId/401909938",
+    sourceLang: 'en',
+    publishedAt: '2026-11-07T01:12:31.600Z',
+    modifiedAt: '2026-11-07T01:12:31.600Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Indianapolis_Pacers_Stadium_and_Tracks.jpg/1920px-Indianapolis_Pacers_Stadium_and_Tracks.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Arena CDMX, escenario del Pacers - Nuggets",
+      credit: "Paul Sableman · CC BY 2.0 · Wikimedia Commons",
+      license: "CC BY 2.0",
+    },
+  },
+  {
+    slug: 'partidos-futbol-hoy-2026-11-07',
+    title: "Partidos de fútbol hoy, sábado 7 de noviembre: horarios y dónde ver LaLiga, Premier League y Süper Lig",
+    summary: "Agenda de fútbol de hoy sábado 7 de noviembre: 94 partidos con horario en hora española y canal de televisión. Destaca Leeds - Spurs.",
+    body: `Sábado 7 de noviembre deja 94 partidos de fútbol en las competiciones que seguimos. Aquí van, con la hora en España y el canal donde se ven. El partido que más miradas reúne es el **[Leeds - Spurs](/futbol/premier-league/partido/401878758)** (Premier League, 13:30 h).
+
+## 🇹🇷 Süper Lig
+
+- **[Eyupspor - Kocaelispor](/futbol/super-lig/partido/401888255)** — 11:30 h
+- **[Samsunspor - Konyaspor](/futbol/super-lig/partido/401888250)** — 14:00 h
+- **[Galatasaray - Amed SFK](/futbol/super-lig/partido/401888371)** — 17:00 h
+- **[Goztepe - Istanbul BB](/futbol/super-lig/partido/401888252)** — 17:00 h
+
+Calendario y clasificación en la [página de Süper Lig](/futbol/super-lig).
+
+## 🇪🇸 Liga F
+
+- **[Granada - Espanyol](/futbol/liga-f/partido/401882461)** — 12:00 h
+- **[Athletic  - Real Madrid](/futbol/liga-f/partido/401882468)** — 16:00 h
+- **[Eibar - Real Sociedad](/futbol/liga-f/partido/401882463)** — 17:00 h
+
+Calendario y clasificación en la [página de Liga F](/futbol/liga-f).
+
+## 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Premier League
+
+- **[Leeds - Spurs](/futbol/premier-league/partido/401878758)** — 13:30 h · 📺 DAZN / DAZN 1
+- **[Arsenal - Hull](/futbol/premier-league/partido/401878760)** — 16:00 h · 📺 DAZN / DAZN 1
+- **[Fulham - Newcastle](/futbol/premier-league/partido/401879241)** — 16:00 h · 📺 DAZN
+- **[Nottm Forest - Man City](/futbol/premier-league/partido/401878757)** — 18:30 h · 📺 DAZN / DAZN 1
+
+Calendario y clasificación en la [página de Premier League](/futbol/premier-league).
+
+## 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Championship
+
+- **[Bristol City - Norwich City](/futbol/championship/partido/401880170)** — 13:30 h
+- **[Portsmouth - Stoke](/futbol/championship/partido/401880166)** — 13:30 h
+- **[Wrexham - Wolves](/futbol/championship/partido/401880161)** — 13:30 h
+- **[Birmingham - Swansea](/futbol/championship/partido/401880172)** — 16:00 h
+- **[Blackburn - West Ham](/futbol/championship/partido/401880171)** — 16:00 h
+- **[Cardiff - Burnley](/futbol/championship/partido/401880169)** — 16:00 h
+- **[Charlton - Sheffield Utd](/futbol/championship/partido/401880168)** — 16:00 h
+- **[Preston - Southampton](/futbol/championship/partido/401880165)** — 16:00 h
+- **[QPR - Lincoln City](/futbol/championship/partido/401880164)** — 16:00 h
+- **[Watford - Boro](/futbol/championship/partido/401880163)** — 16:00 h
+- **[West Brom - Millwall](/futbol/championship/partido/401880162)** — 16:00 h
+
+Calendario y clasificación en la [página de Championship](/futbol/championship).
+
+## 🇪🇸 LaLiga
+
+- **[Málaga - Racing](/futbol/laliga/partido/401882812)** — 14:00 h · 📺 M+ LALIGA
+- **[Espanyol - Deportivo](/futbol/laliga/partido/401882813)** — 16:15 h · 📺 DAZN LaLiga / DAZN
+- **[Osasuna - Athletic](/futbol/laliga/partido/401882811)** — 18:30 h · 📺 M+ LALIGA / Movistar Plus+
+- **[Valencia - Real Madrid](/futbol/laliga/partido/401882808)** — 21:00 h · 📺 DAZN LaLiga / DAZN
+
+Calendario y clasificación en la [página de LaLiga](/futbol/laliga).
+
+## 🇪🇸 LaLiga Hypermotion
+
+- **[Burgos - Celta Fortuna](/futbol/laliga-2/partido/401883306)** — 14:00 h
+- **[Cádiz - Real Oviedo](/futbol/laliga-2/partido/401883121)** — 16:15 h · 📺 LALIGA TV Hypermotion / DAZN
+- **[Córdoba - Ceuta](/futbol/laliga-2/partido/401883143)** — 18:30 h · 📺 LALIGA TV Hypermotion 2 / DAZN
+- **[Leganés - Albacete](/futbol/laliga-2/partido/401883141)** — 18:30 h · 📺 LALIGA TV Hypermotion / DAZN
+- **[Granada - Tenerife](/futbol/laliga-2/partido/401883142)** — 21:00 h
+
+Calendario y clasificación en la [página de LaLiga 2](/futbol/laliga-2).
+
+## 🇮🇹 Serie A
+
+- **[Cagliari - Frosinone](/futbol/serie-a/partido/401874791)** — 15:00 h · 📺 DAZN
+- **[Torino - Lecce](/futbol/serie-a/partido/401874811)** — 15:00 h · 📺 DAZN
+- **[Parma - Bologna](/futbol/serie-a/partido/401874974)** — 18:00 h · 📺 DAZN
+- **[AS Roma - Sassuolo](/futbol/serie-a/partido/401874803)** — 20:45 h · 📺 DAZN
+
+Calendario y clasificación en la [página de Serie A](/futbol/serie-a).
+
+## 🇩🇪 Bundesliga
+
+- **[Dortmund - Elversberg](/futbol/bundesliga/partido/401884745)** — 15:30 h · 📺 DAZN
+- **[Mainz - Bayern](/futbol/bundesliga/partido/401884740)** — 15:30 h · 📺 DAZN
+- **[RB Leipzig - Augsburg](/futbol/bundesliga/partido/401884744)** — 15:30 h · 📺 DAZN
+- **[Paderborn - Frankfurt](/futbol/bundesliga/partido/401884737)** — 15:30 h · 📺 DAZN
+- **[Stuttgart - Bremen](/futbol/bundesliga/partido/401884743)** — 18:30 h · 📺 DAZN / M+ Vamos
+
+Calendario y clasificación en la [página de Bundesliga](/futbol/bundesliga).
+
+## 🏴󠁧󠁢󠁥󠁮󠁧󠁿 FA Cup
+
+- **[Accrington - Wycombe](/futbol/fa-cup/partido/401931119)** — 16:00 h
+- **[Hornchurh - Blackpool](/futbol/fa-cup/partido/401931116)** — 16:00 h
+- **[Barnet - Tranmere](/futbol/fa-cup/partido/401931103)** — 16:00 h
+- **[Barnsley - Aldershot](/futbol/fa-cup/partido/401931089)** — 16:00 h
+- **[Boreham Wood - Wigan](/futbol/fa-cup/partido/401931083)** — 16:00 h
+- **[Bradford - Marine](/futbol/fa-cup/partido/401931118)** — 16:00 h
+- **[Bromley - Rotherham](/futbol/fa-cup/partido/401931091)** — 16:00 h
+- **[Burton Albion - AFC Rushden](/futbol/fa-cup/partido/401931082)** — 16:00 h
+- **[Carlisle - Salford City](/futbol/fa-cup/partido/401931090)** — 16:00 h
+- **[Cheltenham - Halifax](/futbol/fa-cup/partido/401931088)** — 16:00 h
+- **[Chesterfield - Yeovil](/futbol/fa-cup/partido/401931081)** — 16:00 h
+- **[Colchester - Worcester Ci](/futbol/fa-cup/partido/401931102)** — 16:00 h
+- **[Crewe - Wimbledon](/futbol/fa-cup/partido/401931120)** — 16:00 h
+- **[Dover - Wealdstone](/futbol/fa-cup/partido/401931107)** — 16:00 h
+- **[Eastleigh - Shrewsbury](/futbol/fa-cup/partido/401931099)** — 16:00 h
+- **[Fleetwood Town - Rochdale](/futbol/fa-cup/partido/401931105)** — 16:00 h
+- **[Gillingham - Barrow](/futbol/fa-cup/partido/401931101)** — 16:00 h
+- **[Guiseley - Sutton Utd](/futbol/fa-cup/partido/401931092)** — 16:00 h
+- **[Harrogate - AFC Fylde](/futbol/fa-cup/partido/401931096)** — 16:00 h
+- **[Huddersfield - Exeter](/futbol/fa-cup/partido/401931094)** — 16:00 h
+- **[Kid'minster - Doncaster](/futbol/fa-cup/partido/401931106)** — 16:00 h
+- **[Leyton Orient - Harborough](/futbol/fa-cup/partido/401931110)** — 16:00 h
+- **[Luton - Forest Green](/futbol/fa-cup/partido/401931100)** — 16:00 h
+- **[Mansfield - Macclesfield](/futbol/fa-cup/partido/401931095)** — 16:00 h
+- **[MK Dons - Swindon](/futbol/fa-cup/partido/401931122)** — 16:00 h
+- **[Newport - Walsall](/futbol/fa-cup/partido/401931117)** — 16:00 h
+- **[Oxford Utd - Stevenage](/futbol/fa-cup/partido/401931121)** — 16:00 h
+- **[Plymouth - Alvechurch](/futbol/fa-cup/partido/401931275)** — 16:00 h
+- **[Port Vale - Scunthorpe](/futbol/fa-cup/partido/401931086)** — 16:00 h
+- **[Salisbury - Sholing](/futbol/fa-cup/partido/401931087)** — 16:00 h
+- **[York City - Northampton](/futbol/fa-cup/partido/401931084)** — 16:00 h
+- **[Altrincham - Notts County](/futbol/fa-cup/partido/401931097)** — 18:30 h
+- **[Peterborough - Reading](/futbol/fa-cup/partido/401931104)** — 21:00 h
+
+Calendario y clasificación en la [página de FA Cup](/futbol/fa-cup).
+
+## 🇳🇱 Eredivisie
+
+- **[Fortuna - Telstar](/futbol/eredivisie/partido/401875555)** — 16:30 h
+- **[ADO Den Haag - Sparta](/futbol/eredivisie/partido/401875552)** — 18:45 h
+- **[Excelsior - Go Ahead Eagles](/futbol/eredivisie/partido/401875554)** — 21:00 h
+
+Calendario y clasificación en la [página de Eredivisie](/futbol/eredivisie).
+
+## 🇵🇹 Primeira Liga
+
+- **[Nacional - Académico](/futbol/primeira-liga/partido/401885398)** — 16:30 h
+- **[Alverca - Casa Pia](/futbol/primeira-liga/partido/401885402)** — 19:00 h
+- **[Sporting - Moreirense](/futbol/primeira-liga/partido/401885395)** — 21:30 h · 📺 DAZN
+
+Calendario y clasificación en la [página de Primeira Liga](/futbol/primeira-liga).
+
+## 🇫🇷 Ligue 1
+
+- **[Auxerre - Paris FC](/futbol/ligue-1/partido/401876411)** — 19:00 h · 📺 DAZN
+- **[PSG - Troyes](/futbol/ligue-1/partido/401876407)** — 21:05 h · 📺 DAZN
+
+Calendario y clasificación en la [página de Ligue 1](/futbol/ligue-1).
+
+## 🇦🇷 Liga Profesional Argentina
+
+- **[Gimnasia (M) - Ind. Rivadavia](/futbol/liga-argentina/partido/401841666)** — 19:00 h
+- **[Talleres  - Estudiantes](/futbol/liga-argentina/partido/401841661)** — 19:00 h
+- **[Argentinos  - Huracán ](/futbol/liga-argentina/partido/401841672)** — 21:30 h
+- **[Boca  - Def. y Jus.](/futbol/liga-argentina/partido/401841669)** — 21:30 h · 📺 M+ Vamos 3 / M+ Liga de Campeones
+- **[Rosario Central - Estudiantes RC](/futbol/liga-argentina/partido/401841663)** — 21:30 h
+
+Calendario y clasificación en la [página de Liga Argentina](/futbol/liga-argentina).
+
+## 🇺🇸 MLS
+
+- **[CF Montréal - Vancouver](/futbol/mls/partido/761934)** — 22:00 h
+- **[Chicago - Columbus](/futbol/mls/partido/761935)** — 22:00 h
+- **[D.C. United - NYCFC](/futbol/mls/partido/761936)** — 22:00 h
+- **[Cincinnati - Nashville](/futbol/mls/partido/761937)** — 22:00 h
+- **[Miami - Charlotte](/futbol/mls/partido/761938)** — 22:00 h
+- **[Orlando - New England](/futbol/mls/partido/761940)** — 22:00 h
+- **[Philadelphia - Toronto](/futbol/mls/partido/761941)** — 22:00 h
+- **[Red Bull NY - Atlanta](/futbol/mls/partido/761939)** — 22:00 h
+
+Calendario y clasificación en la [página de MLS](/futbol/mls).
+
+Hora peninsular en todos los casos. Si un canal cambia a última hora, la ficha del partido lo recoge. Toda la jornada, con marcadores en directo, en [partidos de hoy](/partidos-hoy).`,
+    category: 'tv',
+    kind: 'agenda',
+    competition: {"name":"Premier League","sport":"futbol","slug":"premier-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401878758",
+    sourceLang: 'en',
+    publishedAt: '2026-11-07T01:12:31.600Z',
+    modifiedAt: '2026-11-07T01:12:31.600Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Elland_Road_2023_cropped.jpg/1280px-Elland_Road_2023_cropped.jpg",
+      alt: "Vista aérea de Elland Road, el estadio del Leeds United, con las gradas azules",
+      credit: "Arne Müseler, cropped by Blackcat · Wikimedia Commons",
+      license: "CC BY-SA 3.0 de",
+    },
+  },
+  {
     slug: 'real-madrid-mestalla-valencia-pole-interlagos-semifinales-paris-sabado-7-noviembre-horarios-donde-ver',
     title: 'Real Madrid en Mestalla a las 21:00 y pole de Interlagos a las 19:00: horarios y canales del sábado 7',
     summary: 'El sábado 7 de noviembre trae el Valencia - Real Madrid a las 21:00 en DAZN, la clasificación del GP de São Paulo a las 19:00 y las semifinales de París. Horas y canales.',
@@ -1001,8 +1281,8 @@ Cuatro de los once titulares del Como en Lens habían pasado antes por clubes es
 
 ## Horarios del Gran Premio de Brasil
 
-- **Libres 1**: viernes 6 de noviembre, a las 16:30 (hora peninsular)
-- **Libres 2**: viernes 6 de noviembre, a las 20:00 (hora peninsular)
+- **Libres 1**: viernes 6 de noviembre, a las 16:30 (hora peninsular). Mejor tiempo: Lando Norris
+- **Libres 2**: viernes 6 de noviembre, a las 20:00 (hora peninsular). Mejor tiempo: Kimi Antonelli
 - **Libres 3**: sábado 7 de noviembre, a las 15:30 (hora peninsular)
 - **Clasificación**: sábado 7 de noviembre, a las 19:00 (hora peninsular)
 - **Carrera**: domingo 8 de noviembre, a las 18:00 (hora peninsular)
@@ -1025,7 +1305,7 @@ Horarios, resultados de cada sesión y clasificación completa del Mundial en la
     sourceUrl: "https://www.espn.com/f1/schedule",
     sourceLang: 'en',
     publishedAt: '2026-11-06T01:50:18.388Z',
-    modifiedAt: '2026-11-06T14:38:34.845Z',
+    modifiedAt: '2026-11-07T01:12:31.600Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Vista_a%C3%A9rea_del_Aut%C3%B3dromo_Jos%C3%A9_Carlos_Pace_05.jpg/1920px-Vista_a%C3%A9rea_del_Aut%C3%B3dromo_Jos%C3%A9_Carlos_Pace_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
