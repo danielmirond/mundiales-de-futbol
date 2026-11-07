@@ -154,6 +154,40 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'nba-resultados-2026-11-07',
+    title: "NBA: resultados de la noche del sábado 7 de noviembre",
+    summary: "Resultados de los 9 partidos de la noche en la NBA, con el más igualado y el de más puntos.",
+    body: `9 partidos en la NBA esta noche. El más igualado, Timberwolves 115-109 a Pelicans. El de más puntos, Hawks ante Wizards (139-132).
+
+## Resultados
+
+- [Hawks 139-132 Wizards](/baloncesto/nba/partido/401909287)
+- [Celtics 119-80 Hornets](/baloncesto/nba/partido/401909288)
+- [Cavaliers 119-95 76ers](/baloncesto/nba/partido/401909289)
+- [Mavericks 112-100 Jazz](/baloncesto/nba/partido/401909290)
+- [Thunder 128-97 Grizzlies](/baloncesto/nba/partido/401909291)
+- [Raptors 121-107 Bucks](/baloncesto/nba/partido/401909292)
+- [Timberwolves 115-109 Pelicans](/baloncesto/nba/partido/401909293)
+- [Lakers 124-118 Trail Blazers](/baloncesto/nba/partido/401909294)
+- [Spurs 124-109 Kings](/baloncesto/nba/partido/401909295)
+
+Marcadores en directo, calendario y clasificación por conferencias en la [página de la NBA](/baloncesto/nba).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"NBA","sport":"baloncesto","slug":"nba"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/nba/scoreboard",
+    sourceLang: 'en',
+    publishedAt: '2026-11-07T13:32:32.479Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Smoothie_King_Center_New_Orleans_27_Oct_2020_02.jpg/1920px-Smoothie_King_Center_New_Orleans_27_Oct_2020_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Smoothie King Center, sede del Pelicans - Timberwolves",
+      credit: "Infrogmation of New Orleans · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
     slug: 'fran-sol-34-anos-hercules-gofundme-familia-jesus-de-miguel-112000-euros-1370-donantes-morata-baena-septien',
     title: 'Fran Sol, 34 años, delantero del Hércules: «Queríamos ayudar de verdad y no solo reposteando»',
     summary: 'La recaudación que Fran Sol abrió en GoFundMe para la familia de Jesús de Miguel pasa de 112.000 euros con 1.370 donantes en cuatro días. Quién ha dado, cuánto y qué otros gestos se han sumado.',
@@ -473,7 +507,7 @@ Horarios en hora de España; los resultados y la narración de cada partido van 
     sourceUrl: "https://www.espn.com/nba/game/_/gameId/401909938",
     sourceLang: 'en',
     publishedAt: '2026-11-07T01:12:31.600Z',
-    modifiedAt: '2026-11-07T01:12:31.600Z',
+    modifiedAt: '2026-11-07T13:32:32.479Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Indianapolis_Pacers_Stadium_and_Tracks.jpg/1920px-Indianapolis_Pacers_Stadium_and_Tracks.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -490,8 +524,8 @@ Horarios en hora de España; los resultados y la narración de cada partido van 
 
 ## 🇹🇷 Süper Lig
 
-- **[Eyupspor - Kocaelispor](/futbol/super-lig/partido/401888255)** — 11:30 h
-- **[Samsunspor - Konyaspor](/futbol/super-lig/partido/401888250)** — 14:00 h
+- **[Eyupspor - Kocaelispor](/futbol/super-lig/partido/401888255)** — 11:30 h — **final 0-2**
+- **[Samsunspor - Konyaspor](/futbol/super-lig/partido/401888250)** — 14:00 h — **en juego, 0-0**
 - **[Galatasaray - Amed SFK](/futbol/super-lig/partido/401888371)** — 17:00 h
 - **[Goztepe - Istanbul BB](/futbol/super-lig/partido/401888252)** — 17:00 h
 
@@ -499,7 +533,7 @@ Calendario y clasificación en la [página de Süper Lig](/futbol/super-lig).
 
 ## 🇪🇸 Liga F
 
-- **[Granada - Espanyol](/futbol/liga-f/partido/401882461)** — 12:00 h
+- **[Granada - Espanyol](/futbol/liga-f/partido/401882461)** — 12:00 h — **final 0-1**
 - **[Athletic  - Real Madrid](/futbol/liga-f/partido/401882468)** — 16:00 h
 - **[Eibar - Real Sociedad](/futbol/liga-f/partido/401882463)** — 17:00 h
 
@@ -507,7 +541,7 @@ Calendario y clasificación en la [página de Liga F](/futbol/liga-f).
 
 ## 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Premier League
 
-- **[Leeds - Spurs](/futbol/premier-league/partido/401878758)** — 13:30 h · 📺 DAZN / DAZN 1
+- **[Leeds - Spurs](/futbol/premier-league/partido/401878758)** — 13:30 h · 📺 DAZN / DAZN 1 — **en juego, 0-0**
 - **[Arsenal - Hull](/futbol/premier-league/partido/401878760)** — 16:00 h · 📺 DAZN / DAZN 1
 - **[Fulham - Newcastle](/futbol/premier-league/partido/401879241)** — 16:00 h · 📺 DAZN
 - **[Nottm Forest - Man City](/futbol/premier-league/partido/401878757)** — 18:30 h · 📺 DAZN / DAZN 1
@@ -516,9 +550,9 @@ Calendario y clasificación en la [página de Premier League](/futbol/premier-le
 
 ## 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Championship
 
-- **[Bristol City - Norwich City](/futbol/championship/partido/401880170)** — 13:30 h
-- **[Portsmouth - Stoke](/futbol/championship/partido/401880166)** — 13:30 h
-- **[Wrexham - Wolves](/futbol/championship/partido/401880161)** — 13:30 h
+- **[Bristol City - Norwich City](/futbol/championship/partido/401880170)** — 13:30 h — **en juego, 0-1**
+- **[Portsmouth - Stoke](/futbol/championship/partido/401880166)** — 13:30 h — **en juego, 1-0**
+- **[Wrexham - Wolves](/futbol/championship/partido/401880161)** — 13:30 h — **en juego, 1-1**
 - **[Birmingham - Swansea](/futbol/championship/partido/401880172)** — 16:00 h
 - **[Blackburn - West Ham](/futbol/championship/partido/401880171)** — 16:00 h
 - **[Cardiff - Burnley](/futbol/championship/partido/401880169)** — 16:00 h
@@ -532,7 +566,7 @@ Calendario y clasificación en la [página de Championship](/futbol/championship
 
 ## 🇪🇸 LaLiga
 
-- **[Málaga - Racing](/futbol/laliga/partido/401882812)** — 14:00 h · 📺 M+ LALIGA
+- **[Málaga - Racing](/futbol/laliga/partido/401882812)** — 14:00 h · 📺 M+ LALIGA — **en juego, 1-0**
 - **[Espanyol - Deportivo](/futbol/laliga/partido/401882813)** — 16:15 h · 📺 DAZN LaLiga / DAZN
 - **[Osasuna - Athletic](/futbol/laliga/partido/401882811)** — 18:30 h · 📺 M+ LALIGA / Movistar Plus+
 - **[Valencia - Real Madrid](/futbol/laliga/partido/401882808)** — 21:00 h · 📺 DAZN LaLiga / DAZN
@@ -541,7 +575,7 @@ Calendario y clasificación en la [página de LaLiga](/futbol/laliga).
 
 ## 🇪🇸 LaLiga Hypermotion
 
-- **[Burgos - Celta Fortuna](/futbol/laliga-2/partido/401883306)** — 14:00 h
+- **[Burgos - Celta Fortuna](/futbol/laliga-2/partido/401883306)** — 14:00 h — **en juego, 0-1**
 - **[Cádiz - Real Oviedo](/futbol/laliga-2/partido/401883121)** — 16:15 h · 📺 LALIGA TV Hypermotion / DAZN
 - **[Córdoba - Ceuta](/futbol/laliga-2/partido/401883143)** — 18:30 h · 📺 LALIGA TV Hypermotion 2 / DAZN
 - **[Leganés - Albacete](/futbol/laliga-2/partido/401883141)** — 18:30 h · 📺 LALIGA TV Hypermotion / DAZN
@@ -660,7 +694,7 @@ Hora peninsular en todos los casos. Si un canal cambia a última hora, la ficha 
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401878758",
     sourceLang: 'en',
     publishedAt: '2026-11-07T01:12:31.600Z',
-    modifiedAt: '2026-11-07T01:12:31.600Z',
+    modifiedAt: '2026-11-07T13:32:32.479Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Elland_Road_2023_cropped.jpg/1280px-Elland_Road_2023_cropped.jpg",
@@ -1512,8 +1546,8 @@ Cuatro de los once titulares del Como en Lens habían pasado antes por clubes es
   {
     slug: 'previa-gp-brasil-2026',
     title: "Gran Premio de Brasil: horarios de libres, clasificación y carrera",
-    summary: "Horarios en hora peninsular de todas las sesiones del Gran Premio de Brasil en Autodromo Jose Carlos Pace, Sao paulo y cómo llega el Mundial, con Kimi Antonelli líder.",
-    body: `El Mundial de Fórmula 1 llega a Autodromo Jose Carlos Pace, Sao paulo con Kimi Antonelli al frente de la general, 119 puntos por delante de Max Verstappen.
+    summary: "Horarios en hora peninsular de todas las sesiones del Gran Premio de Brasil en Autodromo Jose Carlos Pace, Sao Paulo y cómo llega el Mundial, con Kimi Antonelli líder.",
+    body: `El Mundial de Fórmula 1 llega a Autodromo Jose Carlos Pace, Sao Paulo con Kimi Antonelli al frente de la general, 119 puntos por delante de Max Verstappen.
 
 ## Horarios del Gran Premio de Brasil
 
@@ -1541,10 +1575,10 @@ Horarios, resultados de cada sesión y clasificación completa del Mundial en la
     sourceUrl: "https://www.espn.com/f1/schedule",
     sourceLang: 'en',
     publishedAt: '2026-11-06T01:50:18.388Z',
-    modifiedAt: '2026-11-07T01:12:31.600Z',
+    modifiedAt: '2026-11-07T13:32:32.479Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
-      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Vista_a%C3%A9rea_del_Aut%C3%B3dromo_Jos%C3%A9_Carlos_Pace_05.jpg/1920px-Vista_a%C3%A9rea_del_Aut%C3%B3dromo_Jos%C3%A9_Carlos_Pace_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Vista_a%C3%A9rea_del_Aut%C3%B3dromo_Jos%C3%A9_Carlos_Pace_02.jpg/1920px-Vista_a%C3%A9rea_del_Aut%C3%B3dromo_Jos%C3%A9_Carlos_Pace_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       alt: "Autodromo Jose Carlos Pace , escenario del Gran Premio de Brasil",
       credit: "ProtoplasmaKid · CC BY-SA 4.0 · Wikimedia Commons",
       license: "CC BY-SA 4.0",
