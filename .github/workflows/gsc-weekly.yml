@@ -15,6 +15,10 @@ on:
         description: 'Indexación de /en /pt /fr /ar (antes de bloquearlas en robots)'
         type: boolean
         default: false
+      bloqueo:
+        description: 'Informe para decidir bloqueos (patrones, sitemaps, muestra de indexación)'
+        type: boolean
+        default: false
 
 jobs:
   gsc-report:
@@ -55,6 +59,12 @@ jobs:
         env:
           GSC_SA_JSON: ${{ secrets.GSC_SA_JSON }}
         run: npx tsx scripts/gsc/ediciones.ts --limit 400
+
+      - name: Informe de bloqueos
+        if: ${{ inputs.bloqueo }}
+        env:
+          GSC_SA_JSON: ${{ secrets.GSC_SA_JSON }}
+        run: npx tsx scripts/gsc/bloqueo.ts --per 6 --limit 450
 
       - name: Subir informe como artefacto (no se commitea, contiene datos de tráfico)
         if: always()
