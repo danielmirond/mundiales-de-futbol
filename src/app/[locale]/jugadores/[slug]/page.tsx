@@ -9,7 +9,7 @@ import {
   displayPlayerName,
 } from '@/lib/data/players';
 import { getTournament } from '@/lib/tournaments';
-import { routing, type Locale } from '@/i18n/routing';
+import { routing, INDEXED_LOCALES, type Locale } from '@/i18n/routing';
 import { JsonLd } from '@/lib/seo';
 import { STAGE_LABEL_ES } from '@/lib/data/matches';
 import { countryName } from '@/lib/country-names';
@@ -79,7 +79,7 @@ export async function generateMetadata({
     alternates: {
       canonical: url,
       languages: Object.fromEntries(
-        routing.locales.map((l) => [
+        INDEXED_LOCALES.map((l) => [
           l,
           l === routing.defaultLocale
             ? `${siteUrl}/jugadores/${player.slug}`
