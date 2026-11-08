@@ -154,6 +154,93 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'garbine-muguruza-33-anos-madre-directora-wta-finals-indian-wells-no-fui-muy-capaz-de-disfrutar',
+    title: 'Garbiñe Muguruza (33 años), madre y directora de las Finals: «No fui muy capaz de disfrutar»',
+    summary: 'La campeona de Roland Garros y Wimbledon dirige desde hoy las WTA Finals de Indian Wells. En una entrevista habla de la identidad perdida al retirarse y de la maternidad.',
+    body: `Garbiñe Muguruza dejó el tenis en 2024, con 30 años, y desde entonces se ha hecho una pregunta que contó en voz alta esta semana: si toda su vida había sido jugadora de tenis, qué era cuando dejara de serlo. Lo explicó en una [entrevista con el programa Hablen Claro](https://www.youtube.com/watch?v=zO2QWbJFgtY&t=83s), publicada el 4 de noviembre, a pocos días de las WTA Finals que dirige.
+
+## Un año para pensar qué venía después
+
+Muguruza cuenta que empezó a jugar con 4 años y que el tenis era su identidad. Tras anunciar la retirada se tomó un año de reflexión para digerir lo que sentía y decidir qué hacer. Su conclusión: el tenis sigue en su ADN, pero ya no en la pista, sino en otros papeles. La WTA le ofreció entrar en la parte de negocio del deporte como directora del torneo de maestras.
+
+Según ella, nunca había existido esa figura en las Finals, y cree que tener a una exjugadora conocida en ese puesto ayuda a entenderse entre las tenistas y la organización.
+
+## La montaña rusa de la jugadora
+
+La parte más personal llega cuando el entrevistador le pregunta si ahora disfruta más del presente. Muguruza responde que en activo siempre estaba pensando en el siguiente partido, la siguiente competición o el ranking, y resume así su carrera: «No fui muy capaz de disfrutar».
+
+Describe aquella vida como una montaña rusa en la que ganar significaba sentirse bien y perder, sentirse lo peor, porque la identidad del deportista va atada a sus resultados. Hoy dice tener estabilidad emocional, aunque reconoce que se pone muy nerviosa cuando ve partidos.
+
+## Un antes y un después
+
+Muguruza [anunció en enero el nacimiento de su hijo Marcos](https://www.wtatennis.com/news/4439768/muguruza-welcomes-son-marcos-our-little-miracle) junto a su marido, Arthur Borges. En la entrevista habla de la maternidad como un antes y un después en sus prioridades, y cuenta que vive un momento muy bonito tras haber pasado página de su carrera de forma positiva, algo que, apunta, a otros deportistas les cuesta.
+
+## Las Finals que ella ganó
+
+Nacida en Caracas el 8 de octubre de 1993, Muguruza ganó Roland Garros en 2016, Wimbledon en 2017 y el torneo de maestras en 2021, [según su ficha en Wikipedia](https://es.wikipedia.org/wiki/Garbi%C3%B1e_Muguruza). En la charla recuerda que el día que lo ganó perdió el primer partido y aun así siguió adelante gracias al formato de liguilla, y que eso es lo que les dice ahora a las jugadoras.
+
+Las WTA Finals se disputan del 8 al 15 de noviembre en el Indian Wells Tennis Garden. El [orden de juego del lunes](https://wtafiles.wtatennis.com/pdf/draws/2026/808/OP.pdf), que la recoge como directora del torneo, abre con Aryna Sabalenka contra Karolina Muchova. Cómo seguir el tenis en España, en [nuestra guía](/noticias/donde-ver-tenis-espana-atp-finals-copa-davis-alcaraz-movistar-hbo-max), y la final de París de Alcaraz, en la [agenda del domingo](/noticias/alcaraz-shelton-final-paris-marquez-lusail-interlagos-atletico-barcelona-domingo-8-noviembre-horarios-donde-ver).`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'WTA Finals', sport: 'tenis', slug: 'atp' },
+    sourceName: 'Hablen Claro (YouTube)',
+    sourceUrl: 'https://www.youtube.com/watch?v=zO2QWbJFgtY',
+    sourceLang: 'es',
+    publishedAt: '2026-11-08T11:55:00+01:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Muguruza_%2826948565272%29.jpg/1280px-Muguruza_%2826948565272%29.jpg',
+      alt: 'Garbiñe Muguruza, con camiseta amarilla y gorra blanca, preparada para restar en el torneo de Roma de 2016',
+      credit: 'JC · Wikimedia Commons',
+      license: 'CC BY-SA 2.0',
+    },
+    sourcesSecondary: [
+      { name: 'WTA', url: 'https://www.wtatennis.com/news/4439768/muguruza-welcomes-son-marcos-our-little-miracle' },
+      { name: 'WTA Finals · orden de juego', url: 'https://wtafiles.wtatennis.com/pdf/draws/2026/808/OP.pdf' },
+      { name: 'Wikipedia', url: 'https://es.wikipedia.org/wiki/Garbi%C3%B1e_Muguruza' },
+    ],
+  },
+  {
+    slug: 'carlos-sainz-32-anos-padre-ford-dakar-susto-estas-loco-abuelo-estrella-galicia-coruna',
+    title: 'Carlos Sainz (32 años) se bajó sudando del coche del Dakar de su padre: «Estás loco»',
+    summary: 'El piloto de Williams contó en un pódcast brasileño el susto que le dio su padre en el Ford del Dakar y la historia de su abuelo con la primera fábrica de Estrella Galicia.',
+    body: `Carlos Sainz se gana la vida pilotando en la Fórmula 1, pero dice que pocas veces ha pasado tanto miedo como de copiloto de su padre. Lo contó en el [pódcast brasileño Pelas Pistas](https://www.youtube.com/watch?v=u7CxZe7asaU&t=597s), grabado en inglés en la semana del Gran Premio de São Paulo, en el que hoy sale 13.º.
+
+## Cinco minutos de copiloto
+
+Según Sainz, su padre le propuso hace algo más de un año probar con él el Ford con el que corre el Dakar. Ya en el camino hacia la zona de pruebas, por pistas de tierra llenas de baches, se agarraba al asiento mientras su padre pasaba a fondo por una compresión a 160 o 170 km/h y el coche iba de lado por todas partes. Tras cinco o diez minutos se bajó sudando, muy estresado y, admite, asustado: una de las primeras veces que alguien le ha dado miedo en un coche.
+
+Su reacción fue decirle: «Estás loco». Sainz cuenta que su padre le contestó preguntándole si se imaginaba lo loco que estaba él con 20 años. Después se puso al volante y descubrió una suspensión que, frente a la de un Fórmula 1, se lo traga todo. Lo disfrutó, dice, muchísimo.
+
+## El abuelo y la fábrica de A Coruña
+
+En el mismo programa, en un tramo patrocinado por la marca, contó por qué le une un vínculo especial con Estrella Galicia, que le acompaña desde los 17 años. En una comida familiar de domingo, su abuelo recordó que, como constructor, había levantado con su empresa la primera fábrica de la cervecera en A Coruña. Organizaron un viaje para verla los tres, abuelo, padre e hijo, cuando el abuelo tenía ya 90 años. Murió hace tres años y, según Sainz, cada vez que vuelve a la ciudad piensa mucho en él.
+
+## Lo que aprendió en casa
+
+Sainz decidió ser piloto de Fórmula 1 tras ir al Gran Premio de España de 2006 en Barcelona y conocer a Michael Schumacher, Fernando Alonso y Kimi Räikkönen. De su padre dice haber heredado una receta: atención al detalle, trabajar más que nadie y controlar lo que se puede controlar. También recuerda la despedida que les dio Ferrari en Fiorano, con su padre al volante del coche con el que él ganó por primera vez, en Silverstone en 2022.
+
+Carlos Sainz nació el 1 de septiembre de 1994, [según su ficha en Wikipedia](https://es.wikipedia.org/wiki/Carlos_Sainz_Jr.), y su padre, dos veces campeón del mundo de rallies y cuatro veces ganador del Dakar, el 12 de abril de 1962, [según la suya](https://es.wikipedia.org/wiki/Carlos_Sainz). Hoy sale 13.º en Interlagos, [según la parrilla oficial](https://www.formula1.com/en/results/2026/races/1299/brazil/starting-grid). Los horarios del domingo, en la [agenda del día](/noticias/alcaraz-shelton-final-paris-marquez-lusail-interlagos-atletico-barcelona-domingo-8-noviembre-horarios-donde-ver), y resultados y clasificación, en la [página de Fórmula 1](/motor/formula-1).`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'Fórmula 1', sport: 'motor', slug: 'formula-1' },
+    sourceName: 'Pelas Pistas (YouTube)',
+    sourceUrl: 'https://www.youtube.com/watch?v=u7CxZe7asaU',
+    sourceLang: 'en',
+    publishedAt: '2026-11-08T11:56:00+01:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/2022_Spanish_Grand_Prix%2C_Sainz_%284%29_%28cropped%29.jpg/1280px-2022_Spanish_Grand_Prix%2C_Sainz_%284%29_%28cropped%29.jpg',
+      alt: 'Carlos Sainz pilota el Ferrari rojo con el número 55 en el Gran Premio de España de 2022 en Montmeló',
+      credit: 'Anyul Rivas · Wikimedia Commons',
+      license: 'CC BY-SA 2.0',
+    },
+    sourcesSecondary: [
+      { name: 'Fórmula 1 · parrilla', url: 'https://www.formula1.com/en/results/2026/races/1299/brazil/starting-grid' },
+      { name: 'Wikipedia', url: 'https://es.wikipedia.org/wiki/Carlos_Sainz_Jr.' },
+    ],
+  },
+  {
     slug: 'alcaraz-shelton-final-paris-marquez-lusail-interlagos-atletico-barcelona-domingo-8-noviembre-horarios-donde-ver',
     title: 'Alcaraz - Shelton, Márquez en Lusail y Atlético - Barça: horarios y canales del domingo 8',
     summary: 'El domingo 8 trae la final de París entre Alcaraz y Shelton, el match point de Márquez en Lusail, el GP de São Paulo, la NFL en el Bernabéu y el Atlético - Barça. Horas y canales.',
