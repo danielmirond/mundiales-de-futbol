@@ -10,7 +10,7 @@ import { createClient } from '@supabase/supabase-js';
 import { TOURNAMENTS } from '@/lib/tournaments';
 import { HISTORIAS } from '@/lib/historias';
 import { SEDES_2026 } from '@/lib/wc-2026-sedes';
-import { GROUPS_2026, FIXTURES_2026, matchSlug } from '@/lib/wc-2026';
+import { GROUPS_2026, FIXTURES_2026, TEAMS_2026, matchSlug } from '@/lib/wc-2026';
 import { allHeadToHeadSlugs } from '@/lib/wc-head-to-head';
 import { NEWS_ITEMS } from '@/lib/news';
 import { SQUADS_2026 } from '@/lib/wc-2026-squads';
@@ -301,12 +301,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   // Camisetas por selección (cluster editorial)
   for (const h of JERSEY_HISTORIES) {
+    if (!TEAMS_2026[h.teamCode]) continue; // la página exige selección del Mundial 2026
     out.push(entry(`/selecciones/${h.teamCode}/camisetas`, now, 'monthly', 0.8));
   }
 
   // Grupos 2026 (A-L)
   for (const g of GROUPS_2026) {
-    out.push(entry(`/2026/grupo/${g.letter}`, now, 'weekly', 0.8));
+    out.push(entry(`/2026/grupo/${g.letter.toLowerCase()}`, now, 'weekly', 0.8));
   }
 
   // Records detallados
@@ -357,9 +358,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   }
 
   // Teams (use code as slug)
+  // Solo las que tienen ficha: la página lee team_stats; 'teams' trae códigos
+  // sin ficha (debutantes de 2026, códigos parciales) que dan 404.
   const teams = await fetchRows('teams');
+  const withPage = new Set((await fetchRows('team_stats')).map((r) => String(r.code ?? '').toUpperCase()));
   for (const team of teams) {
     if (!team.code) continue;
+    if (withPage.size && !withPage.has(String(team.code).toUpperCase())) continue;
     out.push(entry(`/selecciones/${team.code}`, now, 'monthly', 0.6));
   }
 
