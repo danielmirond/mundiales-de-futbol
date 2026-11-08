@@ -154,6 +154,216 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'pedro-porro-mama-estoy-bien-europeo-sub21-2019-eurocopa-2024-cucurella-silla-juan-perez',
+    title: '«Mamá, estoy bien»: Pedro Porro y los dos Europeos que se perdió antes de ser campeón del mundo',
+    summary: 'El lateral del Tottenham contó a Juan Pérez cómo se lesionó la víspera del Europeo sub-21 de 2019, qué hizo cuando se quedó sin Eurocopa y la foto que le mandó Cucurella.',
+    body: `Pedro Porro tiene 27 años, una medalla de campeón del mundo y una costumbre que dice haber dejado atrás: contestar que estaba bien cuando no lo estaba. Lo contó en [un vídeo de casi 50 minutos con el youtuber Juan Pérez](https://www.youtube.com/watch?v=GMx_McvP1Jw&t=1610s), grabado en la ciudad deportiva del Tottenham y en su casa de Londres, publicado el 5 de noviembre y con más de 150.000 visualizaciones en tres días.
+
+A su madre, a su padre y a su abuelo les repetía la misma frase, «Mamá, estoy bien», y que no se preocuparan. Por dentro, explica, estaba roto por haberse perdido un campeonato de Europa. Y no fue uno, fueron dos.
+
+## La víspera del viaje a Italia
+
+En junio de 2019 Porro jugaba en el Girona y estaba en la lista de Luis de la Fuente para el Europeo sub-21. En el vídeo cuenta que se lesionó en el último entrenamiento, el día antes de viajar, y que durante dos o tres meses no vio nada del torneo. La RFEF [comunicó su baja el 11 de junio de 2019](https://rfef.es/es/oficial-pedro-porro-baja-europeo-sub-21): una resonancia le encontró una microrrotura en el psoas del muslo derecho. Había debutado con la sub-21 ese mismo marzo, en Granada, contra Rumanía. España ganó aquel Europeo sin él.
+
+## La silla vacía de la Eurocopa
+
+Cinco años después le volvió a pasar, esta vez sin lesión. De la Fuente [eligió a Dani Carvajal y Jesús Navas](https://www.clarosports.com/futbol-internacional/eurocopa/luis-de-la-fuente-anuncia-lista-definitiva-de-espana-para-la-eurocopa-2024/) como laterales derechos para la Eurocopa de 2024. Porro dice que lo entendió, que delante tenía a dos leyendas y que le tocaba respetar y apoyar desde fuera. Tenía 24 años.
+
+El detalle que más le cuesta contar es otro. El día de la lista, Marc Cucurella le mandó una foto de la mesa de la selección con una silla que no estaba: la suya. España ganó esa Eurocopa en Berlín y él la vio desde casa.
+
+| Torneo | Qué pasó | Quién lo ganó |
+| --- | --- | --- |
+| Europeo sub-21 2019 | Baja por microrrotura en el psoas | España |
+| Eurocopa 2024 | Fuera de la lista: Carvajal y Navas | España |
+| Mundial 2026 | Titular en la final contra Argentina | España |
+
+## Lo que cambió
+
+Al Mundial sí fue, y acabó siendo el lateral derecho de la final, con dos goles en el torneo, [como contó él mismo en El Larguero](/noticias/pedro-porro-27-anos-abuelo-final-mundial-medalla-don-benito-el-larguero). Lo que dice haber cambiado no es el nivel sino la forma de llevarlo. Antes se lo tragaba todo solo y acababa explotando. Ahora, con su mujer y sus hijos en casa, se obliga a no llegar frustrado: cuenta que tenían una escapada de dos días a París después de un partido y que la familia se quedó con él mientras hacía la recuperación con su fisio.
+
+El vídeo llega en otro momento de espera. Porro se lesionó en septiembre ante el Aston Villa, [a los 16 minutos del partido](https://www.abola.pt/noticias/estreia-a-vista-no-campeao-do-mundo-porro-lesiona-se-e-fresneda-esta-na-pole-position-2026091916280802434), y en la grabación dice que todavía está cogiendo sensaciones sin haber hecho pretemporada. Aun así, De la Fuente lo ha incluido en la [convocatoria para Chequia e Inglaterra](/selecciones/esp).`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'Selección española', sport: 'futbol', slug: 'premier-league' },
+    sourceName: 'Juan Pérez (YouTube): 24 horas con Pedro Porro, 5 de noviembre de 2026',
+    sourceUrl: 'https://www.youtube.com/watch?v=GMx_McvP1Jw',
+    sourceLang: 'es',
+    publishedAt: '2026-11-08T13:20:00+01:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Pedro_Porro_France_v_Spain_7.24.26-073.jpg/1280px-Pedro_Porro_France_v_Spain_7.24.26-073.jpg',
+      alt: 'Pedro Porro, de espaldas, con la camiseta blanca y el dorsal 12 de España, durante la semifinal del Mundial contra Francia',
+      credit: 'Bryan Berlin · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+    sourcesSecondary: [
+      { name: 'RFEF: Pedro Porro, baja para el Europeo sub-21 (2019)', url: 'https://rfef.es/es/oficial-pedro-porro-baja-europeo-sub-21' },
+      { name: 'Claro Sports: lista de España para la Eurocopa 2024', url: 'https://www.clarosports.com/futbol-internacional/eurocopa/luis-de-la-fuente-anuncia-lista-definitiva-de-espana-para-la-eurocopa-2024/' },
+      { name: 'A Bola: lesión de Porro ante el Aston Villa', url: 'https://www.abola.pt/noticias/estreia-a-vista-no-campeao-do-mundo-porro-lesiona-se-e-fresneda-esta-na-pole-position-2026091916280802434' },
+    ],
+  },
+  {
+    slug: 'diego-marino-para-penalti-morata-butarque-leganes-albacete-1-3-var-gol-anulado-millan',
+    title: 'Diego Mariño le para un penalti a Morata en Butarque y deja al Leganés a un punto del descenso',
+    summary: 'El Albacete ganó 1-3 en Butarque con un penalti detenido a Morata en el 86 y un gol del Leganés anulado por el VAR. Lo que dicen el acta, los audios de la RFEF y la tabla.',
+    body: `Álvaro Morata, 34 años y campeón de Europa en 2024, tuvo el 2-3 en sus botas en el minuto 86 del Leganés - Albacete del sábado. El penalti se lo había hecho el propio portero, Diego Mariño, que vio la amarilla en el 84. Mariño lo paró. El Albacete se llevó el partido por 1-3 y el Leganés se quedó a un punto de la zona de descenso de [LaLiga Hypermotion](/futbol/laliga-2).
+
+Morata había marcado el 1-3 de cabeza en el 68, tras un centro de Álex Sancris, [según la crónica de El Gol Digital](https://www.elgoldigital.com/futbol/leganes/leganes-albacete-cronica-morata-penalti-fallado-jornada-13). Fue su gol y su fallo en 18 minutos, ante 11.321 espectadores.
+
+## Lo que recoge el acta
+
+| Minuto | Jugada |
+| --- | --- |
+| 20 | 0-1, Antonio Pacheco |
+| 40 | Gol de Álex Millán anulado por el VAR |
+| 45+3 | 0-2, Álex Rubio |
+| 59 | 0-3, Higinio Marín, de penalti |
+| 68 | 1-3, Álvaro Morata |
+| 84 | Amarilla a Mariño por el penalti sobre Morata |
+| 86 | Mariño para el penalti a Morata |
+| 90+9 | Roja a Francisco Montero (Leganés) |
+
+Los minutos salen del [acta del partido en ESPN](/futbol/laliga-2/partido/401883141), que también recoge 11 amarillas, seis de ellas para el Albacete.
+
+## El VAR, dos veces
+
+El partido se torció pronto para el Leganés. En el 40 creyó haber empatado con un gol de Álex Millán, y el VAR lo anuló. La RFEF ha publicado [los audios de las revisiones de la jornada 13](https://rfef.es/es/noticias/audios-de-las-revisiones-var-de-la-13a-jornada-en-segunda-division-de-la-temporada-202627), como hace este curso con cada jornada de Primera y Segunda: del Leganés - Albacete hay dos, la del minuto 40 y otra en el 90+5. La nota de la federación no explica qué se revisó en el añadido.
+
+## San Mariño
+
+En Albacete el portero ya tiene apodo. «Otra vez San Mariño», tituló El Digital de Albacete, que [recoge lo que dijo Joseba Etxeberria](https://www.eldigitaldealbacete.com/2026/11/07/otra-vez-san-marino-el-albacete-tiene-un-seguro-bajo-palos-y-el-leganes-lo-sufrio-desde-los-once-metros/) después: que Mariño les da seguridad y que tienen dos grandes porteros, con Carlos Marín. Era la primera victoria a domicilio del Albacete esta temporada y la tercera seguida.
+
+## Cómo queda la tabla
+
+| Puesto | Equipo | PJ | Puntos |
+| --- | --- | --- | --- |
+| 17 | Leganés | 13 | 12 |
+| 18 | FC Andorra | 12 | 11 |
+| 19 | Real Sociedad B | 12 | 11 |
+| 20 | Cádiz | 13 | 10 |
+| 21 | Albacete | 13 | 10 |
+| 22 | Ceuta | 13 | 5 |
+
+El Andorra tiene un partido menos: el de este domingo contra el Mallorca está aplazado, como el Granada - Tenerife, por la muerte de Jesús de Miguel. El próximo compromiso del [Leganés](/futbol/laliga-2/equipo/17534) es de Copa: el martes 10 a las 20:00 contra el Trival Valderas de Alcorcón, de Tercera Federación, en la [nueva fecha que fijó la RFEF](https://rfef.es/es/noticias/actualizado-el-calendario-de-los-partidos-aplazados-de-la-copa-del-rey-mapfre-y-de-la-copa). Según El Gol Digital, el Trival juega de local en Butarque porque su campo, La Canaleja, no cumple los requisitos.`,
+    category: 'polemica',
+    kind: 'noticia',
+    competition: { name: 'LaLiga Hypermotion', sport: 'futbol', slug: 'laliga-2' },
+    sourceName: 'ESPN: acta del Leganés - Albacete, 7 de noviembre de 2026',
+    sourceUrl: 'https://www.espn.com/soccer/match/_/gameId/401883141',
+    sourceLang: 'es',
+    publishedAt: '2026-11-08T13:21:00+01:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/MorataLeganes.jpg/1280px-MorataLeganes.jpg',
+      alt: 'Álvaro Morata, con la camiseta blanquiazul del Leganés, sobre el césped en su debut con el club, con la grada amarilla y azul al fondo',
+      credit: 'Miguelazo84 · Wikimedia Commons',
+      license: 'CC BY 4.0',
+    },
+    sourcesSecondary: [
+      { name: 'El Gol Digital: crónica del Leganés - Albacete', url: 'https://www.elgoldigital.com/futbol/leganes/leganes-albacete-cronica-morata-penalti-fallado-jornada-13' },
+      { name: 'El Digital de Albacete: Otra vez San Mariño', url: 'https://www.eldigitaldealbacete.com/2026/11/07/otra-vez-san-marino-el-albacete-tiene-un-seguro-bajo-palos-y-el-leganes-lo-sufrio-desde-los-once-metros/' },
+      { name: 'RFEF: audios VAR de la jornada 13 de Segunda', url: 'https://rfef.es/es/noticias/audios-de-las-revisiones-var-de-la-13a-jornada-en-segunda-division-de-la-temporada-202627' },
+    ],
+  },
+  {
+    slug: 'alberto-edjogo-comentarista-mazarron-12-euros-cuenta-impagos-guinea-ecuatorial-offsiders',
+    title: 'Alberto Edjogo, comentarista de televisión: el Mazarrón que le dejó con 12 euros en la cuenta',
+    summary: 'El exdelantero, internacional con Guinea Ecuatorial, contó en Offsiders cómo dejó el Mazarrón sin cobrar, los espaguetis que tenían que durar hasta el jueves y cómo llegó a la tele.',
+    body: `Alberto Edjogo, 42 años, es hoy una voz conocida de las retransmisiones de fútbol. En 2009 era un delantero de Tercera al que su club no pagaba. Lo contó en [el pódcast Offsiders](https://www.youtube.com/watch?v=SMglSHWSEec&t=3322s), en un episodio de casi dos horas publicado el 2 de noviembre sobre su paso por el fútbol modesto.
+
+## Cuatro días a la semana sin cobrar
+
+La temporada 2009-10 la jugó en el Mazarrón, en el grupo murciano de Tercera. Vivía en Murcia y compartía coche con un compañero madrileño, Dani Marín, para hacer los 45 o 50 minutos hasta el campo. Un día, cuenta, su compañero le preguntó qué hacían dos chicos de Barcelona y de Madrid entrenando en Mazarrón sin que les pagaran. Le dio la razón.
+
+El club estiraba los pagos: cuando estaba a punto de cumplirse el plazo de impago que permitía al jugador irse, pagaba algo y volvía a empezar. Hubo un momento en que tenía 12 euros en la cuenta. Compraba paquetes de espaguetis de dos kilos y, cuando su compañero de piso, que jugaba en el UCAM, le preguntaba para qué, contestaba: «Tío, esto me tiene que durar hasta el jueves». En casa no decía nada, porque sabía lo que le iba a decir su padre. En diciembre pidió la baja y renunció a la deuda. Lo resume con la crisis del ladrillo: el fútbol murciano de Tercera llenaba campos con dinero de la construcción y, cuando cayó la industria, se fue.
+
+## Los hijos de guineanos
+
+Edjogo nació en Sabadell en 1984, hijo de un profesor guineano y de una enfermera. Debutó con [Guinea Ecuatorial](https://en.wikipedia.org/wiki/Alberto_Edjogo-Owono) en 2004, en un partido de clasificación para la Copa de África contra Marruecos en Bata, y sumó cinco internacionalidades hasta 2012. En Offsiders explica cómo llegó: un enviado de la federación guineana fue a verle a un partido juvenil y le dijo que estaban reclutando a hijos de guineanos nacidos en España porque el país no tenía estructura para formar jugadores. Su padre, de la generación que salió tras la independencia y la dictadura, no lo veía claro.
+
+| Temporada | Club |
+| --- | --- |
+| 2002-2004 | CE Sabadell |
+| 2006-2007 | UE Sant Andreu |
+| 2007-2008 | Pinatar CF |
+| 2008-2009 | Olímpic de Xàtiva |
+| 2009-2010 | Mazarrón CF |
+| 2010-2011 | CD Blanes |
+| 2011-2014 | UD Vista Alegre |
+| 2014-2015 | UA Horta |
+
+## De la Primera Catalana a la tele
+
+Después de Mazarrón volvió a Cataluña, acabó la carrera y encadenó Blanes, Vilafranca, Vista Alegre y Horta mientras trabajaba por las mañanas e iba a la universidad por la tarde. Empezó en televisión hacia 2014, en Gol Televisión, cuando todavía jugaba en el Horta y entrenaba a las nueve de la noche. Se retiró con 31 años, el día que oyó desde la grada lo que no quería oír: decidió acabar los tres partidos que quedaban y dejarlo. Su primer club, el Sabadell, sigue vivo en la [Copa del Rey](/futbol/copa-del-rey) y juega el 18 de noviembre en Utebo, la misma semana que otro modesto de aquella Murcia, [la Deportiva Minera, recibe al Cartagena](/noticias/deportiva-minera-llano-del-beal-fc-cartagena-copa-del-rey-18-noviembre-angel-celdran).`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'Fútbol español', sport: 'futbol', slug: 'copa-del-rey' },
+    sourceName: 'Offsiders (YouTube): entrevista a Alberto Edjogo, 2 de noviembre de 2026',
+    sourceUrl: 'https://www.youtube.com/watch?v=SMglSHWSEec',
+    sourceLang: 'es',
+    publishedAt: '2026-11-08T13:22:00+01:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Estadio_Municipal_de_Mazarr%C3%B3n.jpg/1280px-Estadio_Municipal_de_Mazarr%C3%B3n.jpg',
+      alt: 'Entrada del Estadio Municipal de Mazarrón, con un arco azul con el nombre del campo, portones rojos y azules y cuatro banderas sobre el dintel',
+      credit: 'Yolanda95 · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+    sourcesSecondary: [
+      { name: 'Wikipedia: Alberto Edjogo-Owono', url: 'https://en.wikipedia.org/wiki/Alberto_Edjogo-Owono' },
+      { name: 'RFEF: calendario de los partidos aplazados de la Copa del Rey', url: 'https://rfef.es/es/noticias/actualizado-el-calendario-de-los-partidos-aplazados-de-la-copa-del-rey-mapfre-y-de-la-copa' },
+    ],
+  },
+  {
+    slug: 'deportiva-minera-llano-del-beal-fc-cartagena-copa-del-rey-18-noviembre-angel-celdran',
+    title: 'La Deportiva Minera, de un pueblo de 1.337 vecinos, recibe en Copa al Cartagena de su propio municipio',
+    summary: 'El club del Llano del Beal, que tumbó al Alavés en 2024 y jugó contra el Madrid, recibe al FC Cartagena el 18 de noviembre: un derbi de Copa dentro del mismo término municipal.',
+    body: `La Deportiva Minera ya sabe cuándo juega el partido de Copa que se aplazó por la muerte de Jesús de Miguel: el miércoles 18 de noviembre a las 20:30, contra el FC Cartagena. Lo fijó la RFEF [en el calendario de aplazados publicado el 5 de noviembre](https://rfef.es/es/noticias/actualizado-el-calendario-de-los-partidos-aplazados-de-la-copa-del-rey-mapfre-y-de-la-copa). Y tiene algo de derbi doméstico: el Llano del Beal, el pueblo de la Minera, [es una población del municipio de Cartagena](https://es.wikipedia.org/wiki/Llano_del_Beal).
+
+## Un pueblo minero de 1.337 habitantes
+
+El Llano del Beal está en la sierra minera, a 22,5 kilómetros del centro de Cartagena, y tenía 1.337 habitantes cuando el club se cruzó con el Real Madrid, [según contó El Debate](https://www.eldebate.com/deportes/futbol/20250106/policia-local-estudiante-asi-deportiva-minera-club-humilde-mide-madrid-copa_258077.html). Entonces el presupuesto rondaba los 800.000 euros, el entrenador era policía local y uno de sus laterales preparaba el acceso a la universidad.
+
+El club se fundó en 1927 y juega en el Estadio Municipal Ángel Celdrán, de unas 2.000 plazas. La ficha del partido en ESPN sitúa allí el cruce con el Cartagena; la nota de la RFEF no da sede.
+
+## La Copa que ya conoce
+
+No es su primera noche grande. El 5 de diciembre de 2024 eliminó al Alavés, entonces en Primera, tras empatar 2-2 y ganar 4-2 en los penaltis. En dieciseisavos le tocó el Real Madrid, y el 6 de enero de 2025 perdió 0-5 [en el Cartagonova](https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo/cronicas/deportiva-minera-real-madrid-06-01-2025), el estadio de su rival de ahora, porque el Ángel Celdrán no cumplía los requisitos de la federación para ese partido. Marcaron Valverde, Camavinga, Arda Güler dos veces y Modric.
+
+| | Deportiva Minera | FC Cartagena |
+| --- | --- | --- |
+| Fundación | 1927 | 1995 |
+| Categoría 2026-27 | Segunda Federación | Primera Federación |
+| Estadio | Ángel Celdrán (unas 2.000 plazas) | Cartagonova (14.460) |
+| Localidad | Llano del Beal (Cartagena) | Cartagena |
+
+## Un Cartagena que bajó
+
+El Cartagena llega una categoría por encima, pero lejos de donde estuvo. Bajó de Segunda en 2024-25 como colista y el curso pasado terminó sexto en Primera Federación. La Minera estrena entrenador, Alejandro Sandroni, anunciado en julio, con José Blaya en la presidencia.
+
+Es uno de los 16 partidos de Copa del Rey que se aplazaron aquella semana; el Badajoz - Tenerife es el único que sigue sin fecha. La ficha del [Minera - Cartagena](/futbol/copa-del-rey/partido/401928524) tendrá el canal en cuanto se confirme; el resto de la ronda está en la [sección de la Copa del Rey](/futbol/copa-del-rey), y lo que pasó aquella semana, en [la pieza del aplazamiento](/noticias/copa-del-rey-hoy-aplazada-rfef-muerte-jesus-de-miguel-anaitasuna-alaves-pamplona-eibar-segunda-vez-sin-fecha-nueva).`,
+    category: 'curiosa',
+    kind: 'noticia',
+    competition: { name: 'Copa del Rey', sport: 'futbol', slug: 'copa-del-rey' },
+    sourceName: 'RFEF: calendario de los partidos aplazados de la Copa del Rey',
+    sourceUrl: 'https://rfef.es/es/noticias/actualizado-el-calendario-de-los-partidos-aplazados-de-la-copa-del-rey-mapfre-y-de-la-copa',
+    sourceLang: 'es',
+    publishedAt: '2026-11-08T13:23:00+01:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Estadio_%C3%81ngel_Celdr%C3%A1n_%2820220107_093525%29.jpg/1280px-Estadio_%C3%81ngel_Celdr%C3%A1n_%2820220107_093525%29.jpg',
+      alt: 'Puerta del Estadio Ángel Celdrán en el Llano del Beal, un arco blanco con las palabras Deportiva y Minera en vertical y el escudo arriba',
+      credit: 'P4K1T0 · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+    sourcesSecondary: [
+      { name: 'El Debate: así es la Deportiva Minera', url: 'https://www.eldebate.com/deportes/futbol/20250106/policia-local-estudiante-asi-deportiva-minera-club-humilde-mide-madrid-copa_258077.html' },
+      { name: 'Real Madrid: crónica del Deportiva Minera - Real Madrid', url: 'https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo/cronicas/deportiva-minera-real-madrid-06-01-2025' },
+      { name: 'Wikipedia: CD Minera', url: 'https://en.wikipedia.org/wiki/CD_Minera' },
+      { name: 'Wikipedia: FC Cartagena', url: 'https://es.wikipedia.org/wiki/F%C3%BAtbol_Club_Cartagena' },
+    ],
+  },
+  {
     slug: 'garbine-muguruza-33-anos-madre-directora-wta-finals-indian-wells-no-fui-muy-capaz-de-disfrutar',
     title: 'Garbiñe Muguruza (33 años), madre y directora de las Finals: «No fui muy capaz de disfrutar»',
     summary: 'La campeona de Roland Garros y Wimbledon dirige desde hoy las WTA Finals de Indian Wells. En una entrevista habla de la identidad perdida al retirarse y de la maternidad.',
