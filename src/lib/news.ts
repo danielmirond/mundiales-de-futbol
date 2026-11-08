@@ -163,7 +163,7 @@ export const NEWS_ITEMS: NewsItem[] = [
 
 Norris no perdió el mando en las 71 vueltas. Detrás, la carrera la hicieron los errores de los demás. Kimi Antonelli, que ya es campeón del mundo y salía segundo, se fue de pista en la vuelta de reconocimiento y trompeó dos veces durante la carrera; acabó quinto. George Russell trompeó a la salida de su primera parada y perdió posiciones, aunque remontó hasta la cuarta plaza, [según la crónica de la Fórmula 1](https://www.formula1.com/en/latest/article/norris-beats-verstappen-in-wet-sao-paulo-gp-thriller-as-mercedes-win-constructors-championship.7JN7MXLZf5lk5l0C3gfKGI).
 
-Verstappen aprovechó cada cambio de agarre para avanzar. Pasó de la 21.ª posición a la segunda sin necesidad de abandonos por delante: solo se retiró Lance Stroll, en la vuelta 30, y Valtteri Bottas no llegó a tomar la salida por un problema en su Cadillac.
+Verstappen aprovechó cada cambio de agarre para avanzar. Ganó diecinueve puestos en una tarde con pocos abandonos: solo se retiró Lance Stroll, en la vuelta 30, y Valtteri Bottas no llegó a tomar la salida por un problema en su Cadillac.
 
 La lluvia volvió hacia la vuelta 57. Russell y Alonso fueron los primeros en montar neumáticos intermedios, en la vuelta 61. Norris lo resumió así al bajarse del coche: «Ir con lisos en mojado siempre es difícil».
 
@@ -173,7 +173,7 @@ El cuarto puesto de Russell y el quinto de Antonelli le dieron a Mercedes el tí
 
 ## Alonso y Sainz, fuera de los puntos
 
-Alonso pasó buena parte de la tarde peleando por la undécima plaza con Alexander Albon, al que adelantó en la curva 7. Terminó a una vuelta del ganador, detrás de Arvid Lindblad y por delante de los dos Alpine de Franco Colapinto y Pierre Gasly. Su compañero, Stroll, fue el único abandono de la carrera.
+Alonso pasó buena parte de la tarde peleando por la undécima plaza con Alexander Albon, al que adelantó en la curva 7. Terminó a una vuelta del ganador, detrás de Arvid Lindblad y por delante de los dos Alpine de Franco Colapinto y Pierre Gasly.
 
 Sainz salía 13.º y acabó 19.º, con dos vueltas perdidas, entre el Cadillac de Sergio Pérez y el Haas de Rafael Câmara. En los puntos entraron también Charles Leclerc (7.º), Liam Lawson (8.º), Lewis Hamilton (9.º) y Nico Hülkenberg (10.º).
 
