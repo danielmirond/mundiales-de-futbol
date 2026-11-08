@@ -154,6 +154,78 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'raul-fernandez-podio-qatar-o-acabo-en-el-podio-o-me-quedo-sin-gasolina-mapa-motor-ogura-marquez',
+    title: "Raúl Fernández, tercero en Lusail: «O acabo en el podio o me quedo sin gasolina»",
+    summary: "El piloto madrileño de Trackhouse cuenta cómo salvó el tercer puesto del GP de Qatar: con Ogura a menos de un segundo, cambió el mapa del motor en la última vuelta y se jugó el depósito.",
+    body: `A Raúl Fernández le quedaba una vuelta en Lusail y su ventaja sobre Ai Ogura había bajado de 1,5 a 0,8 segundos. Entonces cambió el mapa del motor y se jugó la gasolina. «Me dije: o acabo en el podio o me quedo seco, ¡a ver qué pasa!», contó a Sky Sport MotoGP, [según recoge Motorionline](https://motograndprix.motorionline.com/motogp-2026-gp-qatar-fernandez-o-podio-o-senza-benzina-ho-rischiato-tutto/). Acabó tercero en el Gran Premio de Qatar, 1,27 segundos por delante de Ogura, su compañero en Trackhouse, [según la clasificación oficial](https://www.motogp.com/en/gp-results/2026/qat/motogp/rac/classification).
+
+## Las tres últimas vueltas
+
+Marc Márquez le pasó a falta de tres vueltas. «Completamos esa vuelta y miré la pizarra: todavía le sacaba 1,5 segundos a Ogura. Me dije: hago dos vueltas a tope y lo doy todo», explicó. Al pasar por meta para la última, la pizarra marcaba +0,8. Ahí llegó el cambio de mapa.
+
+La carrera no fue cómoda en ningún momento. «He sufrido mucho. Si miras mi carrera, el ritmo ha sido muy irregular: a veces hacía dos vueltas muy rápidas en 1:52 o 1:53 bajo y luego volvía a 1:53 medio o alto», dijo. Además, tuvo que dosificar el acelerador porque la Aprilia se le iba abierta al acelerar.
+
+## El guante y el calor
+
+También explicó por qué se quitó un guante: «Me lo quité sobre todo por el calor. Había una humedad increíble, casi no se podía respirar, y eso también me ayudaba a refrescar un poco la mano».
+
+Su último podio en una carrera de domingo había sido el segundo puesto de Indonesia. «Creo que vamos en una dirección muy positiva. Quiero dar las gracias al equipo, a Aprilia y a toda mi familia. No hay mucho más que decir, salvo que estoy felicísimo», terminó.
+
+Por delante, Marco Bezzecchi ganó y Márquez fue segundo: el título se aplaza a Portimão. Las cuentas, en [la pieza del campeonato](/noticias/marc-marquez-lusail-match-point-octavo-titulo-agostini-qatar-cuentas-martin-bezzecchi), y la clasificación, en la sección de [MotoGP](/motor/motogp). Las carreras van por [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome).`,
+    category: 'general',
+    competition: {"name":"MotoGP","sport":"motor","slug":"motogp"},
+    sourceName: "Motorionline (Sky Sport MotoGP)",
+    sourceUrl: "https://motograndprix.motorionline.com/motogp-2026-gp-qatar-fernandez-o-podio-o-senza-benzina-ho-rischiato-tutto/",
+    sourceLang: 'en',
+    publishedAt: '2026-11-08T23:31:00+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/MotoGP_2026_Austria_Nr._25_Fern%C3%A1ndez_%281%29.jpg/1280px-MotoGP_2026_Austria_Nr._25_Fern%C3%A1ndez_%281%29.jpg",
+      alt: "Raúl Fernández inclinado en una curva con la Aprilia número 25 de Trackhouse en el circuito de Austria",
+      credit: "Lukas Raich · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+    sourcesSecondary: [
+      { name: "MotoGP · clasificación", url: "https://www.motogp.com/en/gp-results/2026/qat/motogp/rac/classification" },
+    ],
+  },
+  {
+    slug: 'verstappen-radio-interlagos-que-desastre-conducir-85-por-ciento-carrera-coche-roto-segundo-desde-21',
+    title: "Verstappen sube 19 puestos en Interlagos y estalla por radio: «Qué desastre conducir esto»",
+    summary: "Max Verstappen salió 21.º en São Paulo y acabó segundo. Al cruzar la meta no celebró: protestó por haber corrido casi toda la carrera con un coche que, según él, se rompió en el primer cambio de neumáticos.",
+    body: `Max Verstappen cruzó la meta de Interlagos en segunda posición después de salir 21.º, y lo primero que hizo fue quejarse. «Dios mío. Hacer el 85 % de la carrera con este coche…», dijo por radio, con un insulto de por medio, [según recoge Crash.net](https://www.crash.net/f1/news/1110024/1/max-verstappen-makes-foul-mouthed-red-bull-complaint-despite-brazil-gp-p2). Y siguió: «Claro que el segundo puesto está bien, pero no así. Lo siento, pero qué desastre conducir esto. Increíble. Nunca había vivido algo así, ni en mojado ni en seco. Es muy, muy malo».
+
+Salía desde el fondo de la parrilla porque Red Bull le montó un motor nuevo. Acabó a 14,6 segundos del ganador, Lando Norris, y por delante de su compañero Isack Hadjar, tercero, [según la clasificación oficial](https://www.formula1.com/en/results/2026/races/1299/brazil/race-result).
+
+## Qué le pasó al coche
+
+En la rueda de prensa de la FIA lo explicó con más calma. El primer tramo, con neumáticos de lluvia, le fue «muy, muy bien»: en pocas vueltas ya estaba entre los diez primeros. El problema llegó al poner los lisos. «Tenía un sobreviraje extremo en las curvas rápidas, y eso lo hacía muy difícil de conducir. Tenemos que entender si se rompió algo, si hubo una pérdida aerodinámica o lo que sea, porque esto no era normal», dijo.
+
+La prueba, para él, llegó al final, cuando la lluvia volvió y montó otra vez intermedios: «El coche era como la noche y el día respecto a mi primer tramo. Eso demuestra que hay algo mal».
+
+## Contento, pero no del todo
+
+«Estoy muy contento con el segundo puesto, pero sé que había más si el coche hubiera estado bien. Hice casi toda la carrera con un coche que no estaba en buenas condiciones», resumió. Y dejó una petición para 2027: «Me encantaría empezar un poco más adelante en vez de salir desde el fondo o desde el pit lane».
+
+La remontada no cambia el campeonato, que ya es de Kimi Antonelli; Mercedes cerró en Interlagos también el de constructores. Lo que pasó en la carrera, con Alonso 12.º y Sainz 19.º, está en [la crónica del Gran Premio](/noticias/verstappen-21-a-segundo-interlagos-norris-gana-lluvia-mercedes-constructores-alonso-sainz). La Fórmula 1 se ve en [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome); la clasificación, en la sección de [Fórmula 1](/motor/formula-1).`,
+    category: 'general',
+    competition: {"name":"Fórmula 1","sport":"motor","slug":"formula-1"},
+    sourceName: "Crash.net",
+    sourceUrl: "https://www.crash.net/f1/news/1110024/1/max-verstappen-makes-foul-mouthed-red-bull-complaint-despite-brazil-gp-p2",
+    sourceLang: 'en',
+    publishedAt: '2026-11-08T23:30:00+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/2025_Japan_GP_-_Red_Bull_-_Max_Verstappen_-_Race.jpg/1280px-2025_Japan_GP_-_Red_Bull_-_Max_Verstappen_-_Race.jpg",
+      alt: "El Red Bull azul oscuro de Max Verstappen en plena carrera en el circuito de Suzuka",
+      credit: "Liauzh · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+    sourcesSecondary: [
+      { name: "Formula 1 · clasificación", url: "https://www.formula1.com/en/results/2026/races/1299/brazil/race-result" },
+    ],
+  },
+  {
     slug: 'verstappen-21-a-segundo-interlagos-norris-gana-lluvia-mercedes-constructores-alonso-sainz',
     title: "Verstappen sale 21.º en Interlagos y acaba segundo: Norris gana bajo la lluvia en São Paulo",
     summary: "Lando Norris ganó desde la pole el Gran Premio de São Paulo, Verstappen remontó diecinueve puestos y Mercedes cerró el título de constructores con Russell y Antonelli. Alonso fue 12.º y Sainz, 19.º.",
