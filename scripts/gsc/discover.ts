@@ -44,7 +44,7 @@ const table = (title: string, m: Map<string, Agg>, label: string) => [
 
 (async () => {
   const token = await getToken(loadSA());
-  const range = { startDate: day(DAYS + 2), endDate: day(2) };
+  const range = { startDate: day(DAYS + 1), endDate: day(1) };
   const [pages, dates] = await Promise.all([
     query(token, { ...range, type: 'discover', dimensions: ['page'], rowLimit: 5000 }),
     query(token, { ...range, type: 'discover', dimensions: ['date'], rowLimit: 500 }),
@@ -79,6 +79,11 @@ const table = (title: string, m: Map<string, Agg>, label: string) => [
     `${rows.length} URLs con impresiones · ${tot.c} clics · ${tot.i} impresiones · CTR ${pct(tot.c, tot.i)}`, '',
     '## Evolución (quincenas)', '', '| Periodo | Clics | Impresiones | CTR |', '| --- | --- | --- | --- |',
     ...[...weeks.entries()].sort().map(([w, x]) => `| ${w} | ${x.c} | ${x.i} | ${pct(x.c, x.i)} |`), '',
+    '## Últimos 21 días', '', '| Día | Clics | Impresiones | URLs publicadas ese día |', '| --- | --- | --- | --- |',
+    ...dates.map((d) => d.keys[0]).sort().slice(-21).map((k) => { const d = dates.find((x) => x.keys[0] === k)!; return `| ${k} | ${d.clicks} | ${d.impressions} | ${NEWS_ITEMS.filter((n) => n.publishedAt.slice(0, 10) === k).length} |`; }), '',
+    '## Piezas de los últimos 7 días en Discover', '', '| Publicada | Titular | Clics | Impr. |', '| --- | --- | --- | --- |',
+    ...rows.filter((r) => r.publishedAt && r.publishedAt >= day(8)).sort((a, b) => b.impressions - a.impressions).slice(0, 40).map((r) => `| ${r.publishedAt!.slice(5, 16)} | ${r.title} | ${r.clicks} | ${r.impressions} |`), '',
+    `Piezas publicadas en los últimos 7 días: ${NEWS_ITEMS.filter((n) => n.publishedAt >= day(8)).length} · con alguna impresión en Discover: ${rows.filter((r) => r.publishedAt && r.publishedAt >= day(8)).length}`, '',
     ...table('Por sección', bySection, 'Sección'),
     ...table('Noticias por tipo', byKind, 'Tipo'),
     ...table('Noticias por competición', byComp, 'Competición'),

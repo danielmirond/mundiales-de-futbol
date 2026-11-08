@@ -15,6 +15,10 @@ on:
         description: 'Indexación de /en /pt /fr /ar (antes de bloquearlas en robots)'
         type: boolean
         default: false
+      discover:
+        description: 'Informe de Google Discover (28 días)'
+        type: boolean
+        default: false
       bloqueo:
         description: 'Informe para decidir bloqueos (patrones, sitemaps, muestra de indexación)'
         type: boolean
@@ -59,6 +63,12 @@ jobs:
         env:
           GSC_SA_JSON: ${{ secrets.GSC_SA_JSON }}
         run: npx tsx scripts/gsc/ediciones.ts --limit 400
+
+      - name: Informe de Discover
+        if: ${{ inputs.discover }}
+        env:
+          GSC_SA_JSON: ${{ secrets.GSC_SA_JSON }}
+        run: npx tsx scripts/gsc/discover.ts --days 28
 
       - name: Informe de bloqueos
         if: ${{ inputs.bloqueo }}
