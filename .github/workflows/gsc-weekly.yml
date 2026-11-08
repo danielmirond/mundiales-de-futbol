@@ -15,6 +15,10 @@ on:
         description: 'Indexación de /en /pt /fr /ar (antes de bloquearlas en robots)'
         type: boolean
         default: false
+      noticias:
+        description: 'Indexación de las noticias de la última semana (scripts/gsc/news-recent-urls.txt)'
+        type: boolean
+        default: false
       discover:
         description: 'Informe de Google Discover (28 días)'
         type: boolean
@@ -63,6 +67,12 @@ jobs:
         env:
           GSC_SA_JSON: ${{ secrets.GSC_SA_JSON }}
         run: npx tsx scripts/gsc/ediciones.ts --limit 400
+
+      - name: Indexación de noticias recientes
+        if: ${{ inputs.noticias }}
+        env:
+          GSC_SA_JSON: ${{ secrets.GSC_SA_JSON }}
+        run: npx tsx scripts/gsc/index-coverage.ts --urls scripts/gsc/news-recent-urls.txt --no-cache --all --limit 400
 
       - name: Informe de Discover
         if: ${{ inputs.discover }}
