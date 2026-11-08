@@ -154,6 +154,59 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'final-masters-paris-2026-alcaraz-shelton-horario-donde-ver',
+    title: "Final del Masters 1000 de París entre Alcaraz y Shelton: horario y dónde verla en España",
+    summary: "Carlos Alcaraz y Ben Shelton se juegan este domingo el último Masters 1000 del año en la Paris La Défense Arena. Hora peninsular y canaria, plataforma que la emite, qué plan hace falta y cómo llegan los dos a la final.",
+    body: `Carlos Alcaraz y Ben Shelton juegan la final del Masters 1000 de París este domingo 8 de noviembre a las 15:00 (14:00 en Canarias), en la pista central de la Paris La Défense Arena. En España la emite en exclusiva [Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ftenis%2Ftorneo-de-paris-2026%2Fshelton-alcaraz%2Fficha%3Ftipo%3DE%26id%3D4152645), que la incluye en su Plan Libre de 9,99 € al mes, [según la ficha del partido](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ftenis%2Ftorneo-de-paris-2026%2Fshelton-alcaraz%2Fficha%3Ftipo%3DE%26id%3D4152645). No hay emisión en abierto.
+
+*Esta pieza incluye un enlace de afiliado a Movistar Plus+. Si contratas desde él, Mundiales recibe una comisión sin coste extra para ti. No cambia lo que contamos.*
+
+## La respuesta corta
+
+| | |
+| --- | --- |
+| **Partido** | Ben Shelton - Carlos Alcaraz, final del Masters 1000 de París |
+| **Día y hora** | Domingo 8 de noviembre, 15:00 (14:00 en Canarias) |
+| **Dónde** | Paris La Défense Arena, pista central |
+| **Televisión** | [Movistar Plus+](https://www.awin1.com/cread.php?awinmid=114230&awinaffid=2898755&ued=https%3A%2F%2Fwww.movistarplus.es%2Fdeportes%2Ftenis%2Ftorneo-de-paris-2026%2Fshelton-alcaraz%2Fficha%3Ftipo%3DE%26id%3D4152645) |
+| **Por internet** | App de Movistar Plus+ para clientes; Tennis TV, la plataforma de pago del circuito ATP |
+| **Gratis** | No hay emisión en abierto |
+
+## Cómo verla sin ser cliente de Movistar
+
+La final entra en el Plan Libre de Movistar Plus+ (9,99 € al mes, sin permanencia), que se contrata sin tener fibra ni móvil con Telefónica y se ve desde la app en el móvil, la tablet o una tele conectada. Quien ya tiene un paquete con Deportes la verá en los canales de deportes y en la app. La otra vía legal es Tennis TV, el servicio de pago de la ATP, [como recoge Punto de Break](https://www.puntodebreak.com/2026/11/07/hora-ver-alcaraz-shelton-masters-1000-paris).
+
+Las guías de los medios no coinciden en el dial concreto del canal, así que lo más fiable es buscar el partido en la guía de la app o en el calendario deportivo de Movistar Plus+ un rato antes de las 15:00.
+
+## Cómo han llegado a la final
+
+Alcaraz se metió en la final tras ganar en dos sets a Casper Ruud en la semifinal del sábado, un día después de remontar a Taylor Fritz en cuartos. Shelton, zurdo de saque potente y campeón en Canadá, superó en la otra semifinal a Luca Van Assche, que jugaba en casa.
+
+Alcaraz va por delante en los cruces entre ambos, pero el último fue para Shelton, en el US Open de este año, [según El Debate](https://www.eldebate.com/deportes/tenis/20261107/carlos-alcaraz-ben-shelton-horario-donde-ver-tv-final-masters-1000-paris_478534.html). París es el último Masters 1000 de la temporada; después solo quedan las ATP Finals de Turín.
+
+## Resultados y cuadro
+
+Los resultados y el cuadro del torneo están en la sección de la [ATP](/tenis/atp), y todo lo que se juega hoy, con su canal, en [partidos de hoy](/partidos-hoy). El resto del tenis que queda este año, de Turín a la Copa Davis, está en la [guía de dónde ver el tenis](/noticias/donde-ver-tenis-espana-atp-finals-copa-davis-alcaraz-movistar-hbo-max).`,
+    category: 'general',
+    kind: 'previa',
+    competition: {"name":"ATP","sport":"tenis","slug":"atp"},
+    sourceName: "Movistar Plus+",
+    sourceUrl: "https://www.movistarplus.es/deportes/tenis/torneo-de-paris-2026/shelton-alcaraz/ficha?tipo=E&id=4152645",
+    sourceLang: 'es',
+    publishedAt: '2026-11-08T10:25:00+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Ben_Shelton%2C_Aufschlag%2C_Swiss_Indoors_Basel_2024.jpg/1280px-Ben_Shelton%2C_Aufschlag%2C_Swiss_Indoors_Basel_2024.jpg",
+      alt: "Ben Shelton estira el brazo para sacar en una pista cubierta del torneo de Basilea",
+      credit: "Peter Arnold · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+    sourcesSecondary: [
+      { name: "Punto de Break", url: "https://www.puntodebreak.com/2026/11/07/hora-ver-alcaraz-shelton-masters-1000-paris" },
+      { name: "El Debate", url: "https://www.eldebate.com/deportes/tenis/20261107/carlos-alcaraz-ben-shelton-horario-donde-ver-tv-final-masters-1000-paris_478534.html" },
+    ],
+  },
+  {
     slug: 'cronica-malaga-racing-401882812',
     title: "Yassir Zabiri guía a Racing ante Málaga (2-1) y lo deja 9.º en LaLiga",
     summary: "Racing 2-1 Málaga en LaLiga: Yassir Zabiri marcó. Málaga 46 % de posesión y 16 remates; Racing 54 % y 21.",
