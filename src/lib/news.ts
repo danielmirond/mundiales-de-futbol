@@ -154,6 +154,305 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'cronica-malaga-racing-401882812',
+    title: "Yassir Zabiri guía a Racing ante Málaga (2-1) y lo deja 9.º en LaLiga",
+    summary: "Racing 2-1 Málaga en LaLiga: Yassir Zabiri marcó. Málaga 46 % de posesión y 16 remates; Racing 54 % y 21.",
+    body: `## Resumen
+
+Racing ganó 2-1 a Málaga en LaLiga.
+
+## Los goles
+
+- 28' · Carlos Dotor (Málaga)
+- 50' · Iker Luque (Racing)
+- 60' · Yassir Zabiri (Racing)
+
+## El dato
+
+Málaga 46 % de posesión y 16 remates; Racing 54 % y 21.
+
+## Lo que viene
+
+Tras el partido, Málaga 20.º con 5 puntos y Racing 9.º con 14 puntos en la [clasificación de LaLiga](/futbol/laliga).
+
+**Lee también:** la [ficha del partido](/futbol/laliga/partido/401882812) con alineaciones y narración · la [clasificación de LaLiga](/futbol/laliga) · [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882812",
+    sourceLang: 'en',
+    publishedAt: '2026-11-08T00:56:10.013Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Estadio_La_Rosaleda_at_dusk_%28M%C3%A1laga%2C_Mar_2026%29.jpg/1280px-Estadio_La_Rosaleda_at_dusk_%28M%C3%A1laga%2C_Mar_2026%29.jpg",
+      alt: "Exterior de La Rosaleda de Málaga al atardecer, con la fachada iluminada",
+      credit: "Alan Grant · Wikimedia Commons",
+      license: "CC BY 4.0",
+    },
+  },
+  {
+    slug: 'cronica-espanyol-deportivo-401882813',
+    title: "Espanyol y Deportivo empatan 0-0 en LaLiga",
+    summary: "Espanyol y Deportivo reparten puntos (0-0) en LaLiga. Espanyol es 13.º y Deportivo, 8.º.",
+    body: `Espanyol y Deportivo empataron 0-0 en LaLiga.
+
+## Los goles
+
+El partido acabó sin goles.
+
+## La tabla
+
+Tras el partido, Espanyol 13.º con 12 puntos y Deportivo 8.º con 15 puntos en la [clasificación de LaLiga](/futbol/laliga).
+
+## Lo que viene
+
+El calendario completo está en la página de la competición. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/laliga/partido/401882813).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882813",
+    sourceLang: 'en',
+    publishedAt: '2026-11-08T00:56:10.013Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Stage_Front_Stadium.jpg/1280px-Stage_Front_Stadium.jpg",
+      alt: "Interior del estadio del Espanyol en Cornellà, con las gradas azules bajo la cubierta",
+      credit: "RCD Espanyol de Barcelona · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'cronica-osasuna-athletic-401882811',
+    title: "Osasuna 1 Athletic 1: goles de Nico Williams y Alejandro Catena, Osasuna 16.º y posesión del 39 % para Osasuna",
+    summary: "Osasuna y Athletic empataron 1-1 en LaLiga; el último gol fue de Alejandro Catena en el 90'. Claves: goles de Nico Williams y Alejandro Catena, Osasuna 16.º y posesión del 39 % para Osasuna.",
+    body: `Osasuna y Athletic empataron 1-1 en LaLiga; el último gol fue de Alejandro Catena en el 90'.
+
+## Nico Williams decidió
+
+En el marcador, Nico Williams (84', Athletic) y Alejandro Catena (90', Osasuna).
+
+## Los números del partido
+
+Osasuna manejó el balón (39 % por 61 %) y tiró 17 veces, 5 entre los tres palos; Athletic se quedó en 16 remates (4 a puerta). Córners: 6 por 4.
+
+## Qué cambia en la tabla
+
+Tras el partido, Osasuna 16.º con 12 puntos y Athletic 7.º con 16 puntos en la [clasificación de LaLiga](/futbol/laliga).
+
+## Qué viene ahora
+
+Próximos partidos en la página de la competición. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/laliga/partido/401882811).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882811",
+    sourceLang: 'en',
+    publishedAt: '2026-11-08T00:56:10.013Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Estadio_El_Sadar.jpg/1280px-Estadio_El_Sadar.jpg",
+      alt: "Interior de El Sadar de Pamplona, con las gradas rojas bajo la cubierta",
+      credit: "Visma17 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'cronica-valencia-real-madrid-401882808',
+    title: "Real Madrid se impone a Valencia (3-0) en LaLiga",
+    summary: "Federico Valverde marcó; Valencia remató 4 veces (2 a puerta) en el Real Madrid 3-0 Valencia de LaLiga.",
+    body: `Valencia llegaba de ganar 1-0 a Elche; Real Madrid, de ganar 3-0 a Racing. Acabó ganando Real Madrid 3-0. En el marcador, Federico Valverde (28', Real Madrid), Arda Güler (36', Real Madrid) y Kylian Mbappé (75', Real Madrid).
+
+## En cifras
+
+Valencia manejó el balón (32 % por 68 %) y tiró 4 veces, 2 entre los tres palos; Real Madrid se quedó en 19 remates (11 a puerta). Córners: 2 por 5.
+
+## La clasificación
+
+Tras el partido, Valencia 19.º con 9 puntos y Real Madrid 2.º con 30 puntos en la [clasificación de LaLiga](/futbol/laliga).
+
+Ficha: 7 amarillas · expulsado: José Gayà · 10 cambios. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/laliga/partido/401882808).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882808",
+    sourceLang: 'en',
+    publishedAt: '2026-11-08T00:56:10.013Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Mestalla_antes_del_partido_Valencia-Barcelona_LaLiga_2023-2024.jpg/1280px-Mestalla_antes_del_partido_Valencia-Barcelona_LaLiga_2023-2024.jpg",
+      alt: "Mestalla de noche antes de un partido, con las gradas naranjas y negras y el nombre del Valencia en la tribuna",
+      credit: "Anidae · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'partidos-baloncesto-hoy-2026-11-08',
+    title: "Partidos de baloncesto hoy, domingo 8 de noviembre: horarios y dónde ver NBA",
+    summary: "Agenda de baloncesto de hoy domingo 8 de noviembre: 1 partido con horario en hora española y canal de televisión. Destaca Bulls - 76ers.",
+    body: `Domingo 8 de noviembre deja 1 partido de baloncesto en las competiciones que seguimos. Aquí van, con la hora en España y el canal donde se ven. El partido que más miradas reúne es el **[Bulls - 76ers](/baloncesto/nba/partido/401909945)** (NBA, 21:30 h).
+
+## 🇺🇸 NBA
+
+- **[Bulls - 76ers](/baloncesto/nba/partido/401909945)** — 21:30 h
+
+Calendario y clasificación en la [página de NBA](/baloncesto/nba).
+
+Todos los horarios están en hora peninsular. Los marcadores se actualizan en directo en cada ficha de partido. Toda la jornada, con marcadores en directo, en [partidos de hoy](/partidos-hoy).`,
+    category: 'tv',
+    kind: 'agenda',
+    competition: {"name":"NBA","sport":"baloncesto","slug":"nba"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/nba/game/_/gameId/401909945",
+    sourceLang: 'en',
+    publishedAt: '2026-11-08T00:56:10.013Z',
+    modifiedAt: '2026-11-08T00:56:10.013Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/United_Center_1.jpg/1920px-United_Center_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "United Center, escenario del Bulls - 76ers",
+      credit: "Alacoolwiki · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'partidos-futbol-hoy-2026-11-08',
+    title: "Partidos de fútbol hoy, domingo 8 de noviembre: horarios y dónde ver LaLiga, Premier League y Süper Lig",
+    summary: "Agenda de fútbol de hoy domingo 8 de noviembre: 51 partidos con horario en hora española y canal de televisión. Destaca Elche - Betis.",
+    body: `51 partidos de fútbol para domingo 8 de noviembre. Repasamos qué se juega, a qué hora y en qué canal, sin más vueltas. El partido que más miradas reúne es el **[Elche - Betis](/futbol/laliga/partido/401882814)** (LaLiga, 14:00 h).
+
+## 🇹🇷 Süper Lig
+
+- **[Caykur Rizespor - Erzurum](/futbol/super-lig/partido/401888253)** — 11:30 h
+- **[Çorum FK - Fenerbahce](/futbol/super-lig/partido/401888372)** — 14:00 h
+- **[Alanyaspor - Trabzonspor](/futbol/super-lig/partido/401888254)** — 16:30 h
+- **[Besiktas - Genclerbirli](/futbol/super-lig/partido/401888251)** — 19:00 h
+
+Calendario y clasificación en la [página de Süper Lig](/futbol/super-lig).
+
+## 🇪🇸 Liga F
+
+- **[ Dux Logroño - Sevilla](/futbol/liga-f/partido/401882464)** — 12:00 h
+- **[Tenerife - Alavés](/futbol/liga-f/partido/401882466)** — 13:00 h
+- **[Barcelona - Madrid CFF](/futbol/liga-f/partido/401882462)** — 16:00 h
+
+Calendario y clasificación en la [página de Liga F](/futbol/liga-f).
+
+## 🇳🇱 Eredivisie
+
+- **[Heerenveen - Feyenoord](/futbol/eredivisie/partido/401875551)** — 12:15 h · 📺 DAZN
+- **[FC Twente - Ajax](/futbol/eredivisie/partido/401875550)** — 14:30 h · 📺 DAZN
+- **[AZ Alkmaar - FC Groningen](/futbol/eredivisie/partido/401875548)** — 16:45 h · 📺 DAZN
+- **[Cambuur - PSV](/futbol/eredivisie/partido/401875553)** — 16:45 h · 📺 DAZN
+- **[FC Utrecht - NEC](/futbol/eredivisie/partido/401875549)** — 20:00 h
+
+Calendario y clasificación en la [página de Eredivisie](/futbol/eredivisie).
+
+## 🇮🇹 Serie A
+
+- **[Napoli - Lazio](/futbol/serie-a/partido/401874810)** — 12:30 h · 📺 DAZN
+- **[Genoa - Milan](/futbol/serie-a/partido/401875018)** — 15:00 h · 📺 DAZN
+- **[Monza - Atalanta](/futbol/serie-a/partido/401874800)** — 15:00 h · 📺 DAZN
+- **[Inter Milan - Como](/futbol/serie-a/partido/401874808)** — 18:00 h · 📺 DAZN
+- **[Fiorentina - Juventus](/futbol/serie-a/partido/401875003)** — 20:45 h · 📺 DAZN / M+ Vamos
+
+Calendario y clasificación en la [página de Serie A](/futbol/serie-a).
+
+## 🏴󠁧󠁢󠁥󠁮󠁧󠁿 FA Cup
+
+- **[Stafford - Grimsby](/futbol/fa-cup/partido/401931079)** — 13:00 h
+- **[Cray - Stockport](/futbol/fa-cup/partido/401931080)** — 15:15 h
+- **[Wimborne - Crawley](/futbol/fa-cup/partido/401931093)** — 16:00 h
+- **[Oldham - Sheffield Wed](/futbol/fa-cup/partido/401931108)** — 18:15 h
+
+Calendario y clasificación en la [página de FA Cup](/futbol/fa-cup).
+
+## 🇪🇸 LaLiga
+
+- **[Elche - Betis](/futbol/laliga/partido/401882814)** — 14:00 h · 📺 DAZN LaLiga / DAZN
+- **[Real Sociedad - Rayo](/futbol/laliga/partido/401882810)** — 16:15 h · 📺 M+ LALIGA
+- **[Celta Vigo - Levante](/futbol/laliga/partido/401882815)** — 18:30 h · 📺 M+ LALIGA / M+ LALIGA 2
+- **[Villarreal - Getafe](/futbol/laliga/partido/401882807)** — 18:30 h · 📺 DAZN LaLiga / DAZN
+- **[Atlético - Barcelona](/futbol/laliga/partido/401882816)** — 21:00 h · 📺 M+ LALIGA
+
+Calendario y clasificación en la [página de LaLiga](/futbol/laliga).
+
+## 🇪🇸 LaLiga Hypermotion
+
+- **[FC Andorra - Mallorca](/futbol/laliga-2/partido/401883122)** — 14:00 h
+- **[Girona - Almería](/futbol/laliga-2/partido/401883119)** — 16:15 h · 📺 LALIGA TV Hypermotion / DAZN
+- **[Las Palmas - Eldense](/futbol/laliga-2/partido/401883140)** — 18:30 h · 📺 LALIGA TV Hypermotion 2 / DAZN
+- **[Gijón - Valladolid](/futbol/laliga-2/partido/401883138)** — 18:30 h · 📺 LALIGA TV Hypermotion / DAZN
+
+Calendario y clasificación en la [página de LaLiga 2](/futbol/laliga-2).
+
+## 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Premier League
+
+- **[Brighton - Brentford](/futbol/premier-league/partido/401879244)** — 15:00 h · 📺 DAZN
+- **[C Palace - Liverpool](/futbol/premier-league/partido/401879243)** — 15:00 h · 📺 DAZN
+- **[Ipswich - Bournemouth](/futbol/premier-league/partido/401878759)** — 15:00 h · 📺 DAZN
+- **[Sunderland - Chelsea](/futbol/premier-league/partido/401879239)** — 15:00 h · 📺 DAZN / DAZN 2
+- **[Man Utd - Aston Villa](/futbol/premier-league/partido/401879240)** — 17:30 h · 📺 DAZN / DAZN 2
+
+Calendario y clasificación en la [página de Premier League](/futbol/premier-league).
+
+## 🇫🇷 Ligue 1
+
+- **[Rennes - Lille](/futbol/ligue-1/partido/401876406)** — 15:00 h · 📺 DAZN
+- **[Angers - Nice](/futbol/ligue-1/partido/401876412)** — 17:15 h · 📺 DAZN
+- **[Brest - Lyon](/futbol/ligue-1/partido/401876410)** — 17:15 h · 📺 DAZN
+- **[Le Havre AC - Lorient](/futbol/ligue-1/partido/401876409)** — 17:15 h · 📺 DAZN
+- **[Le Mans - Monaco](/futbol/ligue-1/partido/401876408)** — 17:15 h · 📺 DAZN
+- **[Lens - Marseille](/futbol/ligue-1/partido/401876404)** — 20:45 h · 📺 DAZN
+
+Calendario y clasificación en la [página de Ligue 1](/futbol/ligue-1).
+
+## 🇩🇪 Bundesliga
+
+- **[Cologne - Leverkusen](/futbol/bundesliga/partido/401884738)** — 15:30 h
+- **[Freiburg - Union Berlin](/futbol/bundesliga/partido/401884741)** — 17:30 h · 📺 DAZN
+- **[Hoffenheim - Schalke](/futbol/bundesliga/partido/401884742)** — 19:30 h · 📺 DAZN
+
+Calendario y clasificación en la [página de Bundesliga](/futbol/bundesliga).
+
+## 🇵🇹 Primeira Liga
+
+- **[Nacional - Académico](/futbol/primeira-liga/partido/401885398)** — 16:30 h
+- **[Estoril - Maritimo](/futbol/primeira-liga/partido/401885400)** — 16:30 h
+- **[Santa Clara - Gil Vicente](/futbol/primeira-liga/partido/401885396)** — 16:30 h
+- **[Vitória  - FC Porto](/futbol/primeira-liga/partido/401885394)** — 19:00 h · 📺 DAZN
+- **[Estrela - Benfica](/futbol/primeira-liga/partido/401885401)** — 21:30 h · 📺 DAZN
+- **[Rio Ave - Braga](/futbol/primeira-liga/partido/401885397)** — 21:30 h
+
+Calendario y clasificación en la [página de Primeira Liga](/futbol/primeira-liga).
+
+## 🇦🇷 Liga Profesional Argentina
+
+- **[C. Córdoba (SE) - Lanús ](/futbol/liga-argentina/partido/401841668)** — 23:30 h
+
+Calendario y clasificación en la [página de Liga Argentina](/futbol/liga-argentina).
+
+Hora peninsular en todos los casos. Si un canal cambia a última hora, la ficha del partido lo recoge. Toda la jornada, con marcadores en directo, en [partidos de hoy](/partidos-hoy).`,
+    category: 'tv',
+    kind: 'agenda',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882814",
+    sourceLang: 'en',
+    publishedAt: '2026-11-08T00:56:10.013Z',
+    modifiedAt: '2026-11-08T00:56:10.013Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Mart%C3%ADnez_Valero_desde_un_fondo.JPG/1280px-Mart%C3%ADnez_Valero_desde_un_fondo.JPG",
+      alt: "El estadio Martínez Valero de Elche visto desde la boca de un vomitorio",
+      credit: "Raquel López Cuartero · Wikimedia Commons",
+      license: "CC BY 3.0",
+    },
+  },
+  {
     slug: 'nba-resultados-2026-11-07',
     title: "NBA: resultados de la noche del sábado 7 de noviembre",
     summary: "Resultados de los 9 partidos de la noche en la NBA, con el más igualado y el de más puntos.",
@@ -1553,8 +1852,8 @@ Cuatro de los once titulares del Como en Lens habían pasado antes por clubes es
 
 - **Libres 1**: viernes 6 de noviembre, a las 16:30 (hora peninsular). Mejor tiempo: Lando Norris
 - **Libres 2**: viernes 6 de noviembre, a las 20:00 (hora peninsular). Mejor tiempo: Kimi Antonelli
-- **Libres 3**: sábado 7 de noviembre, a las 15:30 (hora peninsular)
-- **Clasificación**: sábado 7 de noviembre, a las 19:00 (hora peninsular)
+- **Libres 3**: sábado 7 de noviembre, a las 15:30 (hora peninsular). Mejor tiempo: Max Verstappen
+- **Clasificación**: sábado 7 de noviembre, a las 19:00 (hora peninsular). Mejor tiempo: Lando Norris
 - **Carrera**: domingo 8 de noviembre, a las 18:00 (hora peninsular)
 
 ## Así llega el Mundial
@@ -1575,7 +1874,7 @@ Horarios, resultados de cada sesión y clasificación completa del Mundial en la
     sourceUrl: "https://www.espn.com/f1/schedule",
     sourceLang: 'en',
     publishedAt: '2026-11-06T01:50:18.388Z',
-    modifiedAt: '2026-11-07T13:32:32.479Z',
+    modifiedAt: '2026-11-08T00:56:10.013Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Vista_a%C3%A9rea_del_Aut%C3%B3dromo_Jos%C3%A9_Carlos_Pace_02.jpg/1920px-Vista_a%C3%A9rea_del_Aut%C3%B3dromo_Jos%C3%A9_Carlos_Pace_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
