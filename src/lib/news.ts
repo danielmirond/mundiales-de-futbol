@@ -154,6 +154,268 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'alcaraz-shelton-final-paris-marquez-lusail-interlagos-atletico-barcelona-domingo-8-noviembre-horarios-donde-ver',
+    title: 'Alcaraz - Shelton, Márquez en Lusail y Atlético - Barça: horarios y canales del domingo 8',
+    summary: 'El domingo 8 trae la final de París entre Alcaraz y Shelton, el match point de Márquez en Lusail, el GP de São Paulo, la NFL en el Bernabéu y el Atlético - Barça. Horas y canales.',
+    body: `El domingo 8 de noviembre empieza a las 15:00 en París y termina a las 21:00 en el Metropolitano. Carlos Alcaraz juega la final del Masters 1000 contra Ben Shelton, Marc Márquez puede ser campeón de MotoGP en Lusail a las 17:00, la Fórmula 1 corre en Interlagos a las 18:00 y el [Atlético - Barcelona](/futbol/laliga/partido/401882816) cierra la jornada de LaLiga a las 21:00 por M+ LALIGA. A las 15:30, además, el Bernabéu recibe su segundo partido de la NFL.
+
+## Horarios del domingo y dónde ver
+
+| Peninsular | Canarias | Evento | Competición | Canal |
+| --- | --- | --- | --- | --- |
+| 14:00 | 13:00 | [Elche - Betis](/futbol/laliga/partido/401882814) | LaLiga | DAZN LaLiga |
+| 14:00 | 13:00 | Carrera de Moto3 | GP de Qatar | DAZN |
+| 15:00 | 14:00 | Alcaraz - Shelton (no antes de esa hora) | Masters 1000 de París | Movistar Plus+ |
+| 15:00 | 14:00 | [Crystal Palace - Liverpool](/futbol/premier-league/partido/401879243) | Premier League | DAZN |
+| 15:15 | 14:15 | Carrera de Moto2 | GP de Qatar | DAZN |
+| 15:30 | 14:30 | [Falcons - Bengals](/futbol-americano/nfl/partido/401873038) | NFL, en el Bernabéu | DAZN |
+| 16:15 | 15:15 | [Real Sociedad - Rayo](/futbol/laliga/partido/401882810) | LaLiga | M+ LALIGA |
+| 17:00 | 16:00 | Carrera de MotoGP | GP de Qatar | DAZN |
+| 17:30 | 16:30 | [Manchester United - Aston Villa](/futbol/premier-league/partido/401879240) | Premier League | DAZN |
+| 18:00 | 17:00 | Gran Premio de São Paulo | Fórmula 1 | DAZN |
+| 18:30 | 17:30 | [Celta - Levante](/futbol/laliga/partido/401882815) | LaLiga | M+ LALIGA |
+| 18:30 | 17:30 | [Villarreal - Getafe](/futbol/laliga/partido/401882807) | LaLiga | DAZN LaLiga |
+| 21:00 | 20:00 | [Atlético - Barcelona](/futbol/laliga/partido/401882816) | LaLiga | M+ LALIGA |
+
+Los canales del fútbol salen de las fichas de cada partido. Los horarios de Lusail son los del [programa oficial del GP de Qatar](https://www.motogp.com/es/news/2026/11/04/time-schedule-qatar-airways-grand-prix-of-qatar/1183614), que ya da la hora española. La NFL, la Fórmula 1 y MotoGP van por DAZN, que tiene los derechos de las tres en España; la ficha del partido del Bernabéu todavía no detalla el canal. Para saber [qué plataforma emite cada competición y cuánto cuesta](/noticias/donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1) está la guía general.
+
+## París: Alcaraz contra Shelton
+
+La final individual está programada en la pista central [no antes de las 15:00](https://www.atptour.com/en/scores/current/paris/352/daily-schedule), después de la final de dobles de las 12:30. Alcaraz llegó ganando 6-4 y 6-4 a Casper Ruud en semifinales; Shelton necesitó tres sets contra el francés Luca Van Assche (5-7, 6-3, 6-4), según el cuadro del torneo. El tenis va por Movistar Plus+, como explica [la guía del tenis](/noticias/donde-ver-tenis-espana-atp-finals-copa-davis-alcaraz-movistar-hbo-max).
+
+## Lusail e Interlagos, una hora de diferencia
+
+Márquez sale de la sprint del sábado con 49 puntos de ventaja sobre Jorge Martín. Las cuentas del título, en [la pieza de Lusail](/noticias/marc-marquez-lusail-match-point-octavo-titulo-agostini-qatar-cuentas-martin-bezzecchi). Una hora después arranca en Interlagos la carrera de Fórmula 1, con Lando Norris en la pole y Fernando Alonso octavo en la [parrilla oficial](https://www.formula1.com/en/results/2026/races/1299/brazil/starting-grid). Carlos Sainz sale 13.º y Lewis Hamilton, en su [gran premio número 400](/noticias/fernando-alonso-hamilton-400-grandes-premios-interlagos-club-444-salidas-contrato-2027-cuando-le-alcanza), desde el puesto 20 por cambiar piezas del motor, igual que Max Verstappen, que sale 21.º.
+
+## Metropolitano: el líder visita al tercero
+
+El Barcelona llega líder con 30 puntos en 11 partidos. El Real Madrid lo igualó el sábado tras ganar en Mestalla, con un partido más, y el Atlético es tercero con 28, según [la clasificación de ESPN](https://www.espn.com/soccer/standings/_/league/esp.1). Si gana el Atlético, se pone líder; si gana el Barça, se escapa a tres del Madrid. La previa del partido está en [su ficha](/futbol/laliga/partido/401882816) y LaLiga tiene [su guía de canales](/noticias/donde-ver-laliga-2026-27-movistar-dazn-precios-jornadas-exclusivas-clasico).`,
+    category: 'tv',
+    kind: 'noticia',
+    competition: { name: 'LaLiga', sport: 'futbol', slug: 'laliga' },
+    sourceName: 'ESPN',
+    sourceUrl: 'https://www.espn.com/soccer/schedule/_/league/esp.1',
+    sourceLang: 'en',
+    publishedAt: '2026-11-08T10:30:00+01:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Madrid_-_Estadio_Wanda_Metropolitano_07.jpg/1280px-Madrid_-_Estadio_Wanda_Metropolitano_07.jpg',
+      alt: 'Exterior del estadio Metropolitano de Madrid, con la cubierta roja sobre la fachada',
+      credit: 'Zarateman · Wikimedia Commons',
+      license: 'CC0',
+    },
+    sourcesSecondary: [
+      { name: 'ATP: orden de juego del Masters de París', url: 'https://www.atptour.com/en/scores/current/paris/352/daily-schedule' },
+      { name: 'MotoGP: horarios del GP de Qatar', url: 'https://www.motogp.com/es/news/2026/11/04/time-schedule-qatar-airways-grand-prix-of-qatar/1183614' },
+      { name: 'Fórmula 1: parrilla del GP de São Paulo', url: 'https://www.formula1.com/en/results/2026/races/1299/brazil/starting-grid' },
+    ],
+  },
+  {
+    slug: 'alvaro-valles-29-anos-ano-en-blanco-las-palmas-betis-convocatoria-espana-aqui-esta-la-respuesta',
+    title: 'Álvaro Valles (29 años), del año en blanco a la selección: «Creo que aquí está la respuesta»',
+    summary: 'Álvaro Valles pasó la temporada 2024-25 sin jugar en Las Palmas por no renovar. Ahora el portero del Betis está en la lista de España y responde a quienes le preguntaban si mereció la pena.',
+    body: `Álvaro Valles tiene 29 años y su primera convocatoria con España llega año y medio después de una temporada entera sin jugar. Lo contó el viernes en [el vídeo del Betis](https://www.youtube.com/watch?v=KQh1Pvx8p0c&t=131s) grabado al saber que Luis de la Fuente le había llamado: siempre le habían preguntado si merecía la pena aquel año en blanco para volver a casa. «Creo que aquí está la respuesta», dijo.
+
+La casa es el Betis, el club en el que se formó. El año en blanco fue el último que pasó en Las Palmas.
+
+## Seis temporadas en Las Palmas y una en la grada
+
+Valles, de La Rinconada (Sevilla), debutó en el Betis B en 2016 y en 2018 se fue a Las Palmas, primero al filial. En la 2022-23 fue clave en el ascenso a Primera: 23 goles encajados en 34 partidos y un récord del club de 597 minutos seguidos sin recibir gol, según [su ficha en Wikipedia](https://es.wikipedia.org/wiki/%C3%81lvaro_Valles). En su primera temporada en Primera llegó a liderar el Zamora en la primera vuelta.
+
+En verano de 2024 le quedaba un año de contrato. Rechazó ofertas del Olympique de Marsella y del Villarreal, y Las Palmas le avisó de que si no renovaba se quedaría fuera del equipo, [según Football España](https://www.football-espana.net/2025/02/12/las-palmas-confirm-alvaro-valles-contract-termination). No renovó y no volvió a jugar. En febrero de 2025 el club anunció la rescisión «tras seis temporadas», y el portero tuvo que esperar al verano para firmar: el Betis le hizo [un contrato de cinco temporadas, hasta 2030](https://es.soccerway.com/noticias/futbol-laliga-ea-sports-alvaro-valles-firma-su-contrato-con-el-betis/YkOf7gBC).
+
+## La cuenta del parón
+
+| Fecha | Qué pasó |
+| --- | --- |
+| Mayo de 2024 | Último partido oficial con Las Palmas |
+| Verano de 2024 | Rechaza al Marsella y al Villarreal; el club le aparta por no renovar |
+| Temporada 2024-25 | Ni un minuto oficial |
+| Febrero de 2025 | Rescisión del contrato con Las Palmas |
+| Verano de 2025 | Llega al Betis hasta 2030 |
+| 6 de noviembre de 2026 | Primera convocatoria con la selección absoluta |
+
+Entre mayo de 2024 y el arranque de la temporada 2025-26, en agosto, pasaron más de catorce meses sin un partido oficial. En el vídeo lo resume como un año parado y otro, el pasado, de transición, y atribuye el salto de este curso al trabajo diario con sus compañeros. El Betis es cuarto en [LaLiga](/futbol/laliga) con 23 puntos.
+
+## El único de los cuatro que no fue al Mundial
+
+La lista de De la Fuente para [Chequia e Inglaterra](/noticias/convocatoria-espana-chequia-inglaterra-27-jugadores-ocho-no-campeones-mundo-jacobo-ramon-valles-barrios) lleva cuatro porteros: Unai Simón, David Raya, Joan García y Valles. Los otros tres fueron campeones del mundo en julio; para él es la primera lista con la absoluta. España juega en Praga el jueves 12 y recibe a Inglaterra en el Metropolitano el domingo 15, los dos a las 20:45, en la fase de grupos de la [Nations League](/futbol/nations-league).
+
+En el mismo vídeo cuenta que su mujer estaba convencida de que le iban a llamar desde que supieron que estaba en la prelista, y que él tenía más dudas. Lo que más le importa, dice, es que sus hijos vean disfrutar a su padre. El otro portero de la lista que ha contado estos días su camino, Unai Simón, habló de [su primera noche en Lezama con 14 años](/noticias/unai-simon-primera-noche-caserio-lezama-14-anos-companero-tarazona-padres-50-kilometros-athletic-talks).`,
+    category: 'convocatorias',
+    kind: 'noticia',
+    competition: { name: 'Nations League', sport: 'futbol', slug: 'nations-league' },
+    sourceName: 'Real Betis (vídeo oficial)',
+    sourceUrl: 'https://www.youtube.com/watch?v=KQh1Pvx8p0c',
+    sourceLang: 'es',
+    publishedAt: '2026-11-08T10:31:00+01:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Betis_Girona_23_nov_2025.jpg/1280px-Betis_Girona_23_nov_2025.jpg',
+      alt: 'Álvaro Valles, con guantes y equipación oscura, conduce el balón cerca del centro del campo en un Betis - Girona, con jugadores verdiblancos y rivales de amarillo alrededor',
+      credit: 'Anual · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+    sourcesSecondary: [
+      { name: 'Football España: Las Palmas confirma la rescisión de Valles', url: 'https://www.football-espana.net/2025/02/12/las-palmas-confirm-alvaro-valles-contract-termination' },
+      { name: 'Soccerway: Valles firma con el Betis hasta 2030', url: 'https://es.soccerway.com/noticias/futbol-laliga-ea-sports-alvaro-valles-firma-su-contrato-con-el-betis/YkOf7gBC' },
+      { name: 'Wikipedia: Álvaro Valles', url: 'https://es.wikipedia.org/wiki/%C3%81lvaro_Valles' },
+    ],
+  },
+  {
+    slug: 'marc-marquez-lusail-match-point-octavo-titulo-agostini-qatar-cuentas-martin-bezzecchi',
+    title: 'Marc Márquez, a una carrera de los ocho títulos de Agostini: lo que tiene que pasar hoy en Lusail',
+    summary: 'Marc Márquez ganó la sprint de Qatar y llega a la carrera con 49 puntos sobre Martín. Si gana y Martín no puntúa, suma su octavo título de la categoría reina, los mismos que Agostini.',
+    body: `Marc Márquez puede cerrar hoy el Mundial de MotoGP en Lusail. Ganó la sprint del sábado y sale a la carrera, a las 17:00 hora peninsular, con 49 puntos de ventaja sobre Jorge Martín. La combinación que da [la crónica oficial de MotoGP](https://www.motogp.com/es/news/2026/11/07/match-point-sunday-marquez-wins-dramatic-qatar-sprint-martin-heroic-for-p3-bezzecchi-crashes/1184253) es una sola: que Márquez gane y Martín se quede sin puntos.
+
+Si pasa, sería su octavo título en la categoría reina. Es la cifra de Giacomo Agostini, que ganó siete seguidos en 500 cc entre 1966 y 1972 y un octavo en 1975, [según su biografía](https://en.wikipedia.org/wiki/Giacomo_Agostini). Nadie tiene más.
+
+## Por qué solo vale ganar
+
+Después de Qatar quedan dos fines de semana, Portugal y Valencia. Cada uno reparte 37 puntos al ganador, 12 en la sprint y 25 en la carrera, así que en juego quedan 74. Con 49 de ventaja, Márquez necesita sumar 25 más que Martín esta tarde para llegar a esos 74, y eso solo ocurre con la victoria y un cero del de Aprilia. Es la única cuenta que MotoGP da por buena para cerrar el Mundial hoy.
+
+Cualquier otra combinación aplaza el título a Portimão. El sábado se acercó mucho: Martín salió undécimo y acabó tercero en la sprint, con Fabio Di Giannantonio segundo.
+
+## Bezzecchi, fuera de la pelea
+
+Marco Bezzecchi hizo la pole con récord de la pista, pero en la cuarta vuelta de la sprint se tocó con Márquez cuando este volvía a la trazada para defender la primera posición, y se fue al suelo. Los comisarios lo revisaron y lo dejaron en lance de carrera. Según MotoGP, la caída le saca de la lucha por el título.
+
+La parrilla tiene más bajas. Francesco Bagnaia no corre por [dos fracturas en el pie derecho](https://www.motogp.com/es/news/2026/11/07/bagnaia-out-of-qatar-gp-with-right-foot-fractures/1184688) de una caída en la sprint, Joan Mir está en casa recuperándose y le sustituye Jake Dixon, y Yamaha [no viajó a Qatar](/noticias/yamaha-no-ira-gp-qatar-marc-marquez-match-point-lusail-comunicado-motogp-pilotos-quartararo-rins-razgatlioglu-miller) por sus restricciones de viaje a Oriente Medio.
+
+## Los títulos de Márquez
+
+| Año | Categoría |
+| --- | --- |
+| 2010 | 125 cc |
+| 2012 | Moto2 |
+| 2013, 2014, 2016, 2017, 2018, 2019 | MotoGP |
+| 2025 | MotoGP |
+| 2026 | En juego hoy |
+
+Son nueve mundiales en total y siete en MotoGP, según [su ficha](https://en.wikipedia.org/wiki/Marc_M%C3%A1rquez). Con un octavo superaría los siete de Valentino Rossi en la categoría reina. Entre el sexto y el séptimo pasaron seis años: el húmero roto en Jerez en 2020 le dejó sin el resto de aquella temporada.
+
+La carrera es a 22 vueltas. Antes corren Moto3, a las 14:00, y Moto2, a las 15:15. Todo va por DAZN; los horarios del resto del domingo están en [la agenda del día](/noticias/alcaraz-shelton-final-paris-marquez-lusail-interlagos-atletico-barcelona-domingo-8-noviembre-horarios-donde-ver) y lo que cuesta verlo, en [la guía del motor](/noticias/donde-ver-f1-motogp-espana-2026-dazn-precios-carreras-que-quedan).`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'MotoGP', sport: 'motor', slug: 'motogp' },
+    sourceName: 'MotoGP',
+    sourceUrl: 'https://www.motogp.com/es/news/2026/11/07/match-point-sunday-marquez-wins-dramatic-qatar-sprint-martin-heroic-for-p3-bezzecchi-crashes/1184253',
+    sourceLang: 'es',
+    publishedAt: '2026-11-08T10:32:00+01:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Marc_M%C3%A1rquez_at_Czech_Motorcycle_Grand_Prix_at_Brno_2025.jpg/1280px-Marc_M%C3%A1rquez_at_Czech_Motorcycle_Grand_Prix_at_Brno_2025.jpg',
+      alt: 'Marc Márquez inclinado sobre la Ducati roja del equipo oficial en una curva de Brno, con el asfalto mojado y el fondo desenfocado',
+      credit: 'Pavel21kriz · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+    sourcesSecondary: [
+      { name: 'MotoGP: Bagnaia, baja en Qatar', url: 'https://www.motogp.com/es/news/2026/11/07/bagnaia-out-of-qatar-gp-with-right-foot-fractures/1184688' },
+      { name: 'MotoGP: horarios del GP de Qatar', url: 'https://www.motogp.com/es/news/2026/11/04/time-schedule-qatar-airways-grand-prix-of-qatar/1183614' },
+      { name: 'Wikipedia: Giacomo Agostini', url: 'https://en.wikipedia.org/wiki/Giacomo_Agostini' },
+    ],
+  },
+  {
+    slug: 'fernando-romay-67-anos-plata-los-angeles-1984-no-cotizaron-real-madrid-1993-pension-jubilacion',
+    title: 'Fernando Romay, 67 años y plata en Los Ángeles: cuenta que nadie cotizó por él hasta 1993',
+    summary: 'Fernando Romay contó en la TVG que no cotizaron por él en sus años de Real Madrid, hasta que fichó por el Ferrol en 1993. Qué exige la Seguridad Social para cobrar la pensión entera.',
+    body: `Fernando Romay jugó 17 temporadas en el Real Madrid, ganó dos Copas de Europa y una plata olímpica, y a los 67 años dice que todavía no puede jubilarse. Lo explicó a finales de octubre en [una entrevista en la Televisión de Galicia](https://www.youtube.com/watch?v=N1ZQd4dKURk&t=934s): mientras jugó en Madrid se pagaba a Hacienda por lo que ganaba, pero no se cotizaba por él a la Seguridad Social. Eso cambió, según su relato, cuando volvió a jugar en Galicia, en 1993.
+
+No es la primera vez que circula. [Maldita.es la registró en su buloteca](https://maldita.es/buloteca/claim/fernando-romay-no-cotizo-a-la-seguridad-social-cuando-estuvo-en-el-real-madrid) el 1 de agosto de 2025, a partir de una imagen de un impreso de jubilación, y la mantiene como caso abierto, sin investigar. La vida laboral de Romay no es pública.
+
+## Diecisiete temporadas sin cotizar
+
+Romay nació en A Coruña el 23 de septiembre de 1959. Llegó al Real Madrid en 1976 y estuvo hasta 1993, con ocho Ligas, cinco Copas del Rey y dos Copas de Europa, según su biografía en Wikipedia. Después jugó en el OAR Ferrol (1993-94) y en el Zaragoza (1994-95). Con la selección fue a Moscú 1980 y ganó la plata en Los Ángeles 1984.
+
+| Etapa | Años | Cotización, según Romay |
+| --- | --- | --- |
+| Real Madrid | 1976-1993 | No |
+| OAR Ferrol | 1993-1994 | Sí |
+| Zaragoza y después | Desde 1994 | Sí |
+
+## Lo que pide la Seguridad Social
+
+La edad ordinaria de jubilación en 2026 es de 66 años y 10 meses para quien tenga menos de 38 años y 3 meses cotizados, [según la Seguridad Social](https://www.seg-social.es/wps/portal/wss/internet/Trabajadores/PrestacionesPensionesTrabajadores/10963/28393/28396/28472). Romay la superó en septiembre. Para cobrar pensión hacen falta al menos 15 años cotizados, que dan el 50 % de la base reguladora; para el 100 %, este año, 36 años y 6 meses, y desde 2027, 37, según la escala de la [Ley General de la Seguridad Social](https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724).
+
+Con esa escala, la cuenta es sencilla. Si hubiera cotizado sin interrupción desde 1993, que no consta, sumaría unos 33 años: cada mes por encima de los 15 años añade un 0,21 % durante los primeros 49 meses y un 0,19 % después, lo que deja algo más del 92 % de la base. Los 17 años del Real Madrid, de haber cotizado, le habrían llevado de sobra al 100 %. Sin ellos, aunque ya tiene la edad, no hay forma de llegar a la pensión completa: desde 1993 no le salen los años.
+
+## El otro Romay de 1996
+
+Su carrera tiene una rareza: en junio de 1996 ganó la liga española de fútbol americano con los Panteras de Madrid, aunque no jugó un minuto en la final, y se convirtió en el primer deportista español de élite con ligas en dos deportes de equipo distintos. Desde 2007 forma parte de StarDreams, una empresa de conferencias de exdeportistas en la que también están Almudena Cid, Martín Fiz o Amaya Valdemoro, según su biografía.
+
+La competición en la que ganó sus ocho Ligas se sigue hoy en [la sección de la Liga Endesa](/baloncesto/liga-endesa), y la Euroliga que levantó dos veces como Copa de Europa, en [la de la Euroliga](/baloncesto/euroliga).`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'Liga Endesa', sport: 'baloncesto', slug: 'liga-endesa' },
+    sourceName: 'Televisión de Galicia',
+    sourceUrl: 'https://www.youtube.com/watch?v=N1ZQd4dKURk',
+    sourceLang: 'es',
+    publishedAt: '2026-11-08T10:33:00+01:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Fernando_Romay_2015.JPG/1280px-Fernando_Romay_2015.JPG',
+      alt: 'Fernando Romay, de pie con americana azul oscuro y pantalón beis, sonríe junto a un atril en un acto en el Coliseum de A Coruña',
+      credit: 'Davisuke · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+    sourcesSecondary: [
+      { name: 'Seguridad Social: jubilación ordinaria', url: 'https://www.seg-social.es/wps/portal/wss/internet/Trabajadores/PrestacionesPensionesTrabajadores/10963/28393/28396/28472' },
+      { name: 'BOE: Ley General de la Seguridad Social', url: 'https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724' },
+      { name: 'Maldita.es: la afirmación de Romay en la buloteca', url: 'https://maldita.es/buloteca/claim/fernando-romay-no-cotizo-a-la-seguridad-social-cuando-estuvo-en-el-real-madrid' },
+      { name: 'Wikipedia: Fernando Romay', url: 'https://es.wikipedia.org/wiki/Fernando_Romay' },
+    ],
+  },
+  {
+    slug: 'ronaldinho-46-anos-ravenna-forli-15-noviembre-abonados-pagan-entrada-precios-tribuna-r10',
+    title: 'Ronaldinho vuelve a jugar a los 46 años y los abonados del Ravenna tendrán que pagar para verle',
+    summary: 'El Ravenna confirma que Ronaldinho jugará el derbi con el Forlì del 15 de noviembre en la Serie C. El partido no entra en el abono y las entradas cuestan hasta cuatro veces más de lo normal.',
+    body: `Ronaldinho jugará un partido oficial el domingo 15 de noviembre, a los 46 años. Lo anunció el Ravenna en [su web el 23 de octubre](https://www.ravennafc.it/2026/10/23/il-ritorno-e-reale-la-magia-di-ronaldinho-il-15-novembre-al-benelli/): el brasileño vestirá la camiseta del club en el derbi contra el Forlì, a las 17:30, en el estadio Bruno Benelli, en la Serie C italiana. Días después el club añadió el detalle que más afecta a sus aficionados: ese partido no entra en el abono de temporada.
+
+## Una «jornada giallorossa» que se paga aparte
+
+El Ravenna lo llamó [«Giornata giallorossa»](https://www.ravennafc.it/2026/11/04/ravenna-fc-forli-informazioni-sui-biglietti-6/) en el comunicado de entradas del 4 de noviembre. Los abonados tuvieron prioridad del jueves 5 al sábado 7 para confirmar su asiento, pero pagando. La venta libre abre este lunes 9 a las 15:00, con precios que duplican o cuadruplican los de un partido normal.
+
+Para comparar está el último partido en casa, el Ravenna - Pineto del 1 de noviembre, con [precios de anticipada](https://www.ravennafc.it/2026/10/27/ravenna-fc-pineto-informazioni-sui-biglietti-2/) publicados por el propio club:
+
+| Sector | Ravenna - Pineto | Derbi, abonados | Derbi, venta libre |
+| --- | --- | --- | --- |
+| Curva Mero | 13 € | 15 € | 30 € |
+| Tribuna inferior cubierta | 21 € | 30 € | 60 € |
+| Tribuna lateral cubierta | 30 € | 40 € | 120 € |
+| Tribuna Corvetta | 40 € | 50 € | No se vende |
+
+En la tribuna lateral, la entrada general pasa de 30 a 120 euros, cuatro veces más. Un abonado de curva paga 15 euros, dos más que cualquier aficionado sin abono en un partido normal. El club tampoco dará invitaciones de cortesía a clubes, agentes o árbitros: solo a personas con discapacidad del 100 % y a la prensa acreditada.
+
+## La Tribuna R10
+
+Para que quepa más gente, el Ravenna monta una grada temporal en la zona de Distinti, bautizada Tribuna R10. Tendrá 500 asientos a 75 euros y 40 con servicio de hospitalidad a 150 en una primera fase; el club anunciará otras dos fases de precio creciente en sus redes.
+
+## De Miami a la playa de Marina di Ravenna
+
+El fichaje se anunció en junio en Miami, y el 20 de agosto el jugador fue recibido por los aficionados en la playa de Marina di Ravenna. La idea fue del presidente del club, Ignazio Cipriani, amigo suyo. Según [la información de ANSA que recoge Virgilio](https://www.virgilio.it/sport/ronaldinho-gol-standing-ovation-contro-del-piero-alex-si-fa-male-brasiliano-pronto-ravenna-mandorlini-lo-snobba-979076/amp/), Ronaldinho también entró en el accionariado y quiere llegar a los 300 goles en su carrera. En un partido de exjugadores en Zúrich contra el equipo de Del Piero, contado el 6 de noviembre, marcó de penalti. El Ravenna va segundo en su grupo, y su entrenador, Andrea Mandorlini, ha dicho que en el vestuario no hablan de Ronaldinho, al contrario que en la ciudad.
+
+Ronaldinho jugó en el [Barcelona](/futbol/laliga/equipo/83) de 2003 a 2008 y ganó allí el Balón de Oro de 2005. Su último club antes de la retirada fue el Fluminense, en 2015. El calcio de primera está en [la sección de la Serie A](/futbol/serie-a).`,
+    category: 'entradas',
+    kind: 'noticia',
+    competition: { name: 'Serie A', sport: 'futbol', slug: 'serie-a' },
+    sourceName: 'Ravenna FC',
+    sourceUrl: 'https://www.ravennafc.it/2026/11/04/ravenna-fc-forli-informazioni-sui-biglietti-6/',
+    sourceLang: 'it',
+    publishedAt: '2026-11-08T10:34:00+01:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Stadio_Benelli_Ravenna_1.JPG/1280px-Stadio_Benelli_Ravenna_1.JPG',
+      alt: 'Accesos con tornos del estadio Bruno Benelli de Ravenna, con la tribuna cubierta de hormigón al fondo y un foco a la izquierda bajo el cielo azul',
+      credit: 'Incola · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+    sourcesSecondary: [
+      { name: 'Ravenna FC: Ronaldinho jugará el 15 de noviembre', url: 'https://www.ravennafc.it/2026/10/23/il-ritorno-e-reale-la-magia-di-ronaldinho-il-15-novembre-al-benelli/' },
+      { name: 'Ravenna FC: entradas del Ravenna - Pineto', url: 'https://www.ravennafc.it/2026/10/27/ravenna-fc-pineto-informazioni-sui-biglietti-2/' },
+      { name: 'Virgilio (ANSA): Ronaldinho, gol en Zúrich', url: 'https://www.virgilio.it/sport/ronaldinho-gol-standing-ovation-contro-del-piero-alex-si-fa-male-brasiliano-pronto-ravenna-mandorlini-lo-snobba-979076/amp/' },
+    ],
+  },
+  {
     slug: 'final-masters-paris-2026-alcaraz-shelton-horario-donde-ver',
     title: "Final del Masters 1000 de París entre Alcaraz y Shelton: horario y dónde verla en España",
     summary: "Carlos Alcaraz y Ben Shelton se juegan este domingo el último Masters 1000 del año en la Paris La Défense Arena. Hora peninsular y canaria, plataforma que la emite, qué plan hace falta y cómo llegan los dos a la final.",
