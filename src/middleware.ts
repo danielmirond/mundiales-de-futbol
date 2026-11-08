@@ -6,6 +6,14 @@ import { updateSession } from './lib/supabase/middleware';
 const intlMiddleware = createMiddleware(routing);
 
 export default async function middleware(request: NextRequest) {
+  // Las noticias solo existen en español: las copias /en|pt|fr|ar/noticias/…
+  // (texto en español con la interfaz traducida) redirigen a la original.
+  const news = request.nextUrl.pathname.match(/^\/(?:en|pt|fr|ar)(\/noticias(?:\/.*)?)$/);
+  if (news) {
+    const url = request.nextUrl.clone();
+    url.pathname = news[1];
+    return NextResponse.redirect(url, 301);
+  }
   const response = intlMiddleware(request) ?? NextResponse.next();
   // Solo se indexa la edición en español (2026-11-01): /en, /pt, /fr y /ar siguen
   // accesibles, pero fuera del índice y sin enlaces ni hreflang que apunten a ellas.
