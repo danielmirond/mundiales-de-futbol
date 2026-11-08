@@ -154,6 +154,38 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'nba-resultados-2026-11-08',
+    title: "NBA: todos los resultados de la jornada y el partido más igualado",
+    summary: "Resultados de los 7 partidos de la noche en la NBA, con el más igualado y el de más puntos.",
+    body: `7 partidos en la NBA esta noche. El más igualado, Hawks 124-121 a Nets, decidido en la última posesión. El de más puntos, Hawks ante Nets (124-121).
+
+## Resultados
+
+- [Nuggets 114-102 Pacers](/baloncesto/nba/partido/401909938)
+- [Hawks 124-121 Nets](/baloncesto/nba/partido/401909939)
+- [Knicks 109-97 Cavaliers](/baloncesto/nba/partido/401909940)
+- [Thunder 114-75 Wizards](/baloncesto/nba/partido/401909941)
+- [Warriors 126-119 Magic](/baloncesto/nba/partido/401909942)
+- [Suns 102-99 Rockets](/baloncesto/nba/partido/401909943)
+- [Spurs 125-103 Trail Blazers](/baloncesto/nba/partido/401909944)
+
+Marcadores en directo, calendario y clasificación por conferencias en la [página de la NBA](/baloncesto/nba).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"NBA","sport":"baloncesto","slug":"nba"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/nba/scoreboard",
+    sourceLang: 'en',
+    publishedAt: '2026-11-08T13:54:16.806Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/State_Farm_%28Philips%29_Arena%2C_Atlanta%2C_GA_%2846558861525%29_-_2019.jpg/1920px-State_Farm_%28Philips%29_Arena%2C_Atlanta%2C_GA_%2846558861525%29_-_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "State Farm Arena, sede del Hawks - Nets",
+      credit: "Warren LeMay from Cincinnati, OH, United States · CC0 · Wikimedia Commons",
+      license: "CC0",
+    },
+  },
+  {
     slug: 'enner-valencia-37-anos-gol-95-boca-campeon-tabla-anual-rosario-central-festejo-arroyito-di-maria-pubalgia',
     title: 'Enner Valencia, 37 años, le quita en el 95 a Rosario Central el título que ya celebraba en Arroyito',
     summary: 'Boca ganó la tabla anual argentina con un gol de Enner Valencia en el 95. En Rosario creyeron que el VAR lo anulaba y los hinchas saltaron al césped. Las tres actas, la tabla y qué pierde Central.',
@@ -987,7 +1019,7 @@ Todos los horarios están en hora peninsular. Los marcadores se actualizan en di
     sourceUrl: "https://www.espn.com/nba/game/_/gameId/401909945",
     sourceLang: 'en',
     publishedAt: '2026-11-08T00:56:10.013Z',
-    modifiedAt: '2026-11-08T00:56:10.013Z',
+    modifiedAt: '2026-11-08T13:54:16.806Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/United_Center_1.jpg/1920px-United_Center_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -1004,8 +1036,8 @@ Todos los horarios están en hora peninsular. Los marcadores se actualizan en di
 
 ## 🇹🇷 Süper Lig
 
-- **[Caykur Rizespor - Erzurum](/futbol/super-lig/partido/401888253)** — 11:30 h
-- **[Çorum FK - Fenerbahce](/futbol/super-lig/partido/401888372)** — 14:00 h
+- **[Caykur Rizespor - Erzurum](/futbol/super-lig/partido/401888253)** — 11:30 h — **final 2-1**
+- **[Çorum FK - Fenerbahce](/futbol/super-lig/partido/401888372)** — 14:00 h — **en juego, 0-2**
 - **[Alanyaspor - Trabzonspor](/futbol/super-lig/partido/401888254)** — 16:30 h
 - **[Besiktas - Genclerbirli](/futbol/super-lig/partido/401888251)** — 19:00 h
 
@@ -1013,7 +1045,7 @@ Calendario y clasificación en la [página de Süper Lig](/futbol/super-lig).
 
 ## 🇪🇸 Liga F
 
-- **[ Dux Logroño - Sevilla](/futbol/liga-f/partido/401882464)** — 12:00 h
+- **[ Dux Logroño - Sevilla](/futbol/liga-f/partido/401882464)** — 12:00 h — **final 2-2**
 - **[Tenerife - Alavés](/futbol/liga-f/partido/401882466)** — 13:00 h
 - **[Barcelona - Madrid CFF](/futbol/liga-f/partido/401882462)** — 16:00 h
 
@@ -1021,8 +1053,8 @@ Calendario y clasificación en la [página de Liga F](/futbol/liga-f).
 
 ## 🇳🇱 Eredivisie
 
-- **[Heerenveen - Feyenoord](/futbol/eredivisie/partido/401875551)** — 12:15 h · 📺 DAZN
-- **[FC Twente - Ajax](/futbol/eredivisie/partido/401875550)** — 14:30 h · 📺 DAZN
+- **[Heerenveen - Feyenoord](/futbol/eredivisie/partido/401875551)** — 12:15 h · 📺 DAZN — **final 5-3**
+- **[FC Twente - Ajax](/futbol/eredivisie/partido/401875550)** — 14:30 h · 📺 DAZN — **en juego, 0-1**
 - **[AZ Alkmaar - FC Groningen](/futbol/eredivisie/partido/401875548)** — 16:45 h · 📺 DAZN
 - **[Cambuur - PSV](/futbol/eredivisie/partido/401875553)** — 16:45 h · 📺 DAZN
 - **[FC Utrecht - NEC](/futbol/eredivisie/partido/401875549)** — 20:00 h
@@ -1031,7 +1063,7 @@ Calendario y clasificación en la [página de Eredivisie](/futbol/eredivisie).
 
 ## 🇮🇹 Serie A
 
-- **[Napoli - Lazio](/futbol/serie-a/partido/401874810)** — 12:30 h · 📺 DAZN
+- **[Napoli - Lazio](/futbol/serie-a/partido/401874810)** — 12:30 h · 📺 DAZN — **final 1-1**
 - **[Genoa - Milan](/futbol/serie-a/partido/401875018)** — 15:00 h · 📺 DAZN
 - **[Monza - Atalanta](/futbol/serie-a/partido/401874800)** — 15:00 h · 📺 DAZN
 - **[Inter Milan - Como](/futbol/serie-a/partido/401874808)** — 18:00 h · 📺 DAZN
@@ -1041,7 +1073,7 @@ Calendario y clasificación en la [página de Serie A](/futbol/serie-a).
 
 ## 🏴󠁧󠁢󠁥󠁮󠁧󠁿 FA Cup
 
-- **[Stafford - Grimsby](/futbol/fa-cup/partido/401931079)** — 13:00 h
+- **[Stafford - Grimsby](/futbol/fa-cup/partido/401931079)** — 13:00 h — **en juego, 2-2**
 - **[Cray - Stockport](/futbol/fa-cup/partido/401931080)** — 15:15 h
 - **[Wimborne - Crawley](/futbol/fa-cup/partido/401931093)** — 16:00 h
 - **[Oldham - Sheffield Wed](/futbol/fa-cup/partido/401931108)** — 18:15 h
@@ -1050,7 +1082,7 @@ Calendario y clasificación en la [página de FA Cup](/futbol/fa-cup).
 
 ## 🇪🇸 LaLiga
 
-- **[Elche - Betis](/futbol/laliga/partido/401882814)** — 14:00 h · 📺 DAZN LaLiga / DAZN
+- **[Elche - Betis](/futbol/laliga/partido/401882814)** — 14:00 h · 📺 DAZN LaLiga / DAZN — **en juego, 0-0**
 - **[Real Sociedad - Rayo](/futbol/laliga/partido/401882810)** — 16:15 h · 📺 M+ LALIGA
 - **[Celta Vigo - Levante](/futbol/laliga/partido/401882815)** — 18:30 h · 📺 M+ LALIGA / M+ LALIGA 2
 - **[Villarreal - Getafe](/futbol/laliga/partido/401882807)** — 18:30 h · 📺 DAZN LaLiga / DAZN
@@ -1062,7 +1094,7 @@ Calendario y clasificación en la [página de LaLiga](/futbol/laliga).
 
 - **[FC Andorra - Mallorca](/futbol/laliga-2/partido/401883122)** — 14:00 h
 - **[Girona - Almería](/futbol/laliga-2/partido/401883119)** — 16:15 h · 📺 LALIGA TV Hypermotion / DAZN
-- **[Las Palmas - Eldense](/futbol/laliga-2/partido/401883140)** — 18:30 h · 📺 LALIGA TV Hypermotion 2 / DAZN
+- **[Las Palmas - Eldense](/futbol/laliga-2/partido/401883140)** — 18:30 h
 - **[Gijón - Valladolid](/futbol/laliga-2/partido/401883138)** — 18:30 h · 📺 LALIGA TV Hypermotion / DAZN
 
 Calendario y clasificación en la [página de LaLiga 2](/futbol/laliga-2).
@@ -1121,7 +1153,7 @@ Hora peninsular en todos los casos. Si un canal cambia a última hora, la ficha 
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882814",
     sourceLang: 'en',
     publishedAt: '2026-11-08T00:56:10.013Z',
-    modifiedAt: '2026-11-08T00:56:10.013Z',
+    modifiedAt: '2026-11-08T13:54:16.806Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Mart%C3%ADnez_Valero_desde_un_fondo.JPG/1280px-Mart%C3%ADnez_Valero_desde_un_fondo.JPG",
@@ -2552,10 +2584,10 @@ Horarios, resultados de cada sesión y clasificación completa del Mundial en la
     sourceUrl: "https://www.espn.com/f1/schedule",
     sourceLang: 'en',
     publishedAt: '2026-11-06T01:50:18.388Z',
-    modifiedAt: '2026-11-08T00:56:10.013Z',
+    modifiedAt: '2026-11-08T13:54:16.806Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
-      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Vista_a%C3%A9rea_del_Aut%C3%B3dromo_Jos%C3%A9_Carlos_Pace_02.jpg/1920px-Vista_a%C3%A9rea_del_Aut%C3%B3dromo_Jos%C3%A9_Carlos_Pace_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Vista_a%C3%A9rea_del_Aut%C3%B3dromo_Jos%C3%A9_Carlos_Pace_05.jpg/1920px-Vista_a%C3%A9rea_del_Aut%C3%B3dromo_Jos%C3%A9_Carlos_Pace_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       alt: "Autodromo Jose Carlos Pace , escenario del Gran Premio de Brasil",
       credit: "ProtoplasmaKid · CC BY-SA 4.0 · Wikimedia Commons",
       license: "CC BY-SA 4.0",
