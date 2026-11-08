@@ -11,15 +11,16 @@ const SPORTS = ['futbol', 'baloncesto', 'futbol-americano', 'rugby', 'hockey', '
  * Las fichas de equipo de ligas menores y las crónicas automáticas siguen solo con
  * noindex (robots.txt no distingue liga menor de grande). Los patrones de
  * partidos-hoy y alineaciones van por deporte para no tocar /2026/… del archivo.
+ *
+ * 2026-11-08: fuera los Disallow de las subpáginas de equipo (calendario, resultados, plantilla) y
+ * /jugador/. GSC mostraba 87 de esas URLs con impresiones «indexadas aunque
+ * bloqueadas»: con el rastreo cerrado Google no ve su noindex. Se reabren para
+ * que lo lea y las saque.
  */
 const DISALLOW = [
   '/api/',
-  '/*/equipo/*/calendario',
-  '/*/equipo/*/resultados',
-  '/*/equipo/*/plantilla',
   '/*/goleadores',
   '/*/lesionados',
-  '/*/jugador/',
   '/*/resultados/jornada-',
   '/futbol/*/alineaciones',
   ...SPORTS.map((s) => `/${s}/*/partidos-hoy`),
