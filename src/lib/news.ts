@@ -154,6 +154,72 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'enner-valencia-37-anos-gol-95-boca-campeon-tabla-anual-rosario-central-festejo-arroyito-di-maria-pubalgia',
+    title: 'Enner Valencia, 37 años, le quita en el 95 a Rosario Central el título que ya celebraba en Arroyito',
+    summary: 'Boca ganó la tabla anual argentina con un gol de Enner Valencia en el 95. En Rosario creyeron que el VAR lo anulaba y los hinchas saltaron al césped. Las tres actas, la tabla y qué pierde Central.',
+    body: `Enner Valencia cumplió 37 años el miércoles. El sábado, a las 21:30 hora peninsular, llevaba veinte minutos en el campo cuando un centro de Lautaro Blanco desde la izquierda, una salida en falso del portero Matías Borgogno y un toque de cabeza de Lautaro Di Lollo le dejaron el balón en el área. Marcó el 1-0 del [Boca - Defensa y Justicia](/futbol/liga-argentina/partido/401841669) en el minuto 90+6, el único gol de un partido en el que Boca remató 22 veces. Con él, Boca es el campeón de la tabla anual de 2026 de la [liga argentina](/futbol/liga-argentina).
+
+A 300 kilómetros, en el Gigante de Arroyito, Rosario Central llevaba alrededor de una hora siendo campeón. Su partido contra Estudiantes de Río Cuarto ya había terminado, 2-0, y los hinchas estaban en el césped. Nadie en el estadio supo bien lo que pasaba en la Bombonera hasta que fue definitivo.
+
+## Tres partidos a la vez y un título que cambió de manos dos veces
+
+La última jornada de la fase regular del Clausura se jugó con los tres candidatos en el campo al mismo tiempo. Boca y Argentinos Juniors llegaban con 60 puntos y Central con 59, [según la cuenta de 442](https://442.perfil.com/noticias/futbol/tabla-anual-2026-que-necesitan-boca-rosario-central-y-argentinos-para-salir-campeones.phtml): a Boca le bastaba ganar; Central necesitaba ganar y que ninguno de los otros dos lo hiciera.
+
+| Hora (partido) | Qué pasó | Campeón virtual |
+| --- | --- | --- |
+| 8' y 31' | Huracán gana 0-2 en el campo de Argentinos, con diez desde el 25 | Boca (0-0 en la Bombonera) |
+| 44' | Julián Fernández marca el 1-0 de Central | Rosario Central |
+| 85' | Coronel hace el 2-0 en Arroyito | Rosario Central |
+| 90+6' | Gol de Enner Valencia en la Bombonera | Boca |
+
+Los minutos salen de las actas de ESPN de los partidos de [Central](/futbol/liga-argentina/partido/401841663), [Argentinos](/futbol/liga-argentina/partido/401841672) y Boca. Central acabó con diez por la expulsión de Gastón Ávila en el 72.
+
+## «Lo anuló, lo anuló»
+
+El gol de Valencia pasó por una revisión del VAR por una posible falta de Di Lollo sobre Borgogno. En Rosario, donde el partido ya había acabado, esa pausa se convirtió en un rumor: que el gol se había anulado. [La Capital describe](https://www.lacapital.com.ar/ovacion/central-se-quedo-titulo-los-segundos-finales-pero-no-el-reconocimiento-mas-que-merecido-n10291065.html) a los jugadores subidos al alambrado y a los hinchas entrando al césped para celebrar un título que ya no era suyo.
+
+Jorge Almirón, el técnico de Central, lo reconoció en la sala de prensa: «Nos confundimos. Festejamos antes porque nos dejamos llevar por la gente», [según recoge La Opinión](https://laopinion.com/2026/11/07/el-festejo-fallido-del-rosario-central-de-di-maria-una-confusion-provoco-la-locura-en-el-campeonato-de-argentina/).
+
+Ángel Di María lo vio desde fuera. El excapitán del Real Madrid y campeón del mundo no jugó por una pubalgia que arrastra [desde el partido contra Sarmiento del 30 de octubre](https://www.cadena3.com/noticia/deportes/rosario-central-se-prepara-para-la-definicion-del-campeonato-sin-su-estrella-angel-di-maria_610646), cuando pidió el cambio al inicio del segundo tiempo. El club no quiso forzarlo.
+
+## El título que la AFA inventó para Central
+
+El título de «Campeón de Liga» para el líder de la tabla anual no existía hasta hace un año: la AFA lo creó el 20 de noviembre de 2025 y [se lo concedió a Rosario Central](https://www.losandes.com.ar/deportes/rosario-central-campeon-que-pasa-la-clasificacion-las-copas-el-nuevo-titulo-del-canalla-n5970785) por haber sumado más puntos entre el Apertura y el Clausura. Tres días después, Estudiantes le hizo a Central el pasillo de campeón de espaldas, y la AFA [castigó a Verón con seis meses de suspensión](https://elgrafico.com.ar/articulo/1038/95405/durisima-sancion-a-estudiantes-por-el-pasillo-de-espaldas-a-rosario-central) y a los jugadores con dos partidos.
+
+Un año después, el mismo título se ha decidido en el último suspiro de la última jornada, y se lo lleva Boca. Es el primero del club desde la Supercopa Argentina de 2022, que se jugó en marzo de 2023 contra Patronato, [recuerda Infobae](https://www.infobae.com/deportes/2026/11/07/boca-argentinos-juniors-y-rosario-central-buscaran-el-titulo-de-la-tabla-anual-hora-y-todo-lo-que-hay-que-saber/): más de tres años y medio sin levantar nada, con Leandro Paredes de capitán. Boca ya había dado el primer paso [ganando el superclásico al River de Otamendi](/noticias/boca-river-1-0-di-lollo-bombonera-martinez-quarta-montiel-expulsados-var-otamendi-tabla) una semana antes.
+
+## Así queda la tabla anual
+
+| Puesto | Equipo | Puntos | Qué obtiene |
+| --- | --- | --- | --- |
+| 1 | Boca Juniors | 63 | Campeón de Liga 2026 y Libertadores 2027 |
+| 2 | Rosario Central | 62 | Fase de grupos de la Libertadores 2027 |
+| 3 | Argentinos Juniors | 60 | Repesca de la Libertadores 2027 |
+
+Central no se va con las manos vacías: entra directo en la fase de grupos de la Libertadores, el objetivo por el que Di María volvió a Rosario. Le queda el Clausura, que se decide por eliminatorias desde la semana que viene. Lo que no recuperará es la noche del sábado, cuando fue campeón durante alrededor de una hora y lo supo todo el mundo menos la Bombonera.`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'Liga Profesional Argentina', sport: 'futbol', slug: 'liga-argentina' },
+    sourceName: 'ESPN: actas de Boca - Defensa y Justicia, Rosario Central - Estudiantes de Río Cuarto y Argentinos - Huracán (7 de noviembre de 2026)',
+    sourceUrl: 'https://www.espn.com/soccer/match/_/gameId/401841669',
+    sourceLang: 'en',
+    publishedAt: '2026-11-08T14:20:00+01:00',
+    author: 'Redacción Mundiales',
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Aleksandar_Pavlovi%C4%87_5%2C_Enner_Valencia_13_Ecuador_v_Germany_at_2026_Fifa_World_Cup_by_YantsImages_01.jpg/1280px-Aleksandar_Pavlovi%C4%87_5%2C_Enner_Valencia_13_Ecuador_v_Germany_at_2026_Fifa_World_Cup_by_YantsImages_01.jpg',
+      alt: 'Enner Valencia, con la camiseta amarilla y el dorsal 13 de Ecuador, protege el balón ante el alemán Aleksandar Pavlović en el Mundial 2026',
+      credit: 'YantsImages · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+    sourcesSecondary: [
+      { name: 'La Capital: Central se quedó sin título en los segundos finales', url: 'https://www.lacapital.com.ar/ovacion/central-se-quedo-titulo-los-segundos-finales-pero-no-el-reconocimiento-mas-que-merecido-n10291065.html' },
+      { name: 'Infobae: Boca, campeón de la tabla anual con gol de Enner Valencia', url: 'https://www.infobae.com/deportes/2026/11/07/boca-argentinos-juniors-y-rosario-central-buscaran-el-titulo-de-la-tabla-anual-hora-y-todo-lo-que-hay-que-saber/' },
+      { name: '442: qué necesitaba cada uno antes de la última fecha', url: 'https://442.perfil.com/noticias/futbol/tabla-anual-2026-que-necesitan-boca-rosario-central-y-argentinos-para-salir-campeones.phtml' },
+      { name: 'Cadena 3: Central se prepara para la definición sin Di María', url: 'https://www.cadena3.com/noticia/deportes/rosario-central-se-prepara-para-la-definicion-del-campeonato-sin-su-estrella-angel-di-maria_610646' },
+      { name: 'Los Andes: la AFA otorga a Central el título de Campeón de Liga 2025', url: 'https://www.losandes.com.ar/deportes/rosario-central-campeon-que-pasa-la-clasificacion-las-copas-el-nuevo-titulo-del-canalla-n5970785' },
+    ],
+  },
+  {
     slug: 'pedro-porro-mama-estoy-bien-europeo-sub21-2019-eurocopa-2024-cucurella-silla-juan-perez',
     title: '«Mamá, estoy bien»: Pedro Porro y los dos Europeos que se perdió antes de ser campeón del mundo',
     summary: 'El lateral del Tottenham contó a Juan Pérez cómo se lesionó la víspera del Europeo sub-21 de 2019, qué hizo cuando se quedó sin Eurocopa y la foto que le mandó Cucurella.',
