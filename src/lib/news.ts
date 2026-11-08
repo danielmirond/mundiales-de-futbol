@@ -154,6 +154,63 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'verstappen-21-a-segundo-interlagos-norris-gana-lluvia-mercedes-constructores-alonso-sainz',
+    title: "Verstappen sale 21.º en Interlagos y acaba segundo: Norris gana bajo la lluvia en São Paulo",
+    summary: "Lando Norris ganó desde la pole el Gran Premio de São Paulo, Verstappen remontó diecinueve puestos y Mercedes cerró el título de constructores con Russell y Antonelli. Alonso fue 12.º y Sainz, 19.º.",
+    body: `Max Verstappen salió 21.º en Interlagos y terminó segundo, a 14,6 segundos de Lando Norris, que ganó el Gran Premio de São Paulo desde la pole en una carrera que empezó con el asfalto mojado, se secó y volvió a mojarse en las últimas vueltas. Isack Hadjar completó el podio con el otro Red Bull, [según la clasificación oficial](https://www.formula1.com/en/results/2026/races/1299/brazil/race-result). Fernando Alonso acabó 12.º y Carlos Sainz, 19.º, los dos sin puntos.
+
+## Lo que pasó en la pista
+
+Norris no perdió el mando en las 71 vueltas. Detrás, la carrera la hicieron los errores de los demás. Kimi Antonelli, que ya es campeón del mundo y salía segundo, se fue de pista en la vuelta de reconocimiento y trompeó dos veces durante la carrera; acabó quinto. George Russell trompeó a la salida de su primera parada y perdió posiciones, aunque remontó hasta la cuarta plaza, [según la crónica de la Fórmula 1](https://www.formula1.com/en/latest/article/norris-beats-verstappen-in-wet-sao-paulo-gp-thriller-as-mercedes-win-constructors-championship.7JN7MXLZf5lk5l0C3gfKGI).
+
+Verstappen aprovechó cada cambio de agarre para avanzar. Pasó de la 21.ª posición a la segunda sin necesidad de abandonos por delante: solo se retiró Lance Stroll, en la vuelta 30, y Valtteri Bottas no llegó a tomar la salida por un problema en su Cadillac.
+
+La lluvia volvió hacia la vuelta 57. Russell y Alonso fueron los primeros en montar neumáticos intermedios, en la vuelta 61. Norris lo resumió así al bajarse del coche: «Ir con lisos en mojado siempre es difícil».
+
+## Mercedes, campeón de constructores
+
+El cuarto puesto de Russell y el quinto de Antonelli le dieron a Mercedes el título de constructores de 2026, que se suma al de pilotos que Antonelli [cerró en México](/noticias/kimi-antonelli-campeon-mundo-f1-20-anos-mexico-record-vettel-alonso-2005-tres-anos-verstappen-gana). McLaren tuvo a Norris primero y a Oscar Piastri sexto.
+
+## Alonso y Sainz, fuera de los puntos
+
+Alonso pasó buena parte de la tarde peleando por la undécima plaza con Alexander Albon, al que adelantó en la curva 7. Terminó a una vuelta del ganador, detrás de Arvid Lindblad y por delante de los dos Alpine de Franco Colapinto y Pierre Gasly. Su compañero, Stroll, fue el único abandono de la carrera.
+
+Sainz salía 13.º y acabó 19.º, con dos vueltas perdidas, entre el Cadillac de Sergio Pérez y el Haas de Rafael Câmara. En los puntos entraron también Charles Leclerc (7.º), Liam Lawson (8.º), Lewis Hamilton (9.º) y Nico Hülkenberg (10.º).
+
+## El podio de Interlagos
+
+| Pos. | Piloto | Equipo | Diferencia |
+| --- | --- | --- | --- |
+| 1 | Lando Norris | McLaren | 1:35:23.504 |
+| 2 | Max Verstappen | Red Bull | +14,602 s |
+| 3 | Isack Hadjar | Red Bull | +24,485 s |
+| 4 | George Russell | Mercedes | +33,991 s |
+| 5 | Kimi Antonelli | Mercedes | +36,017 s |
+| 12 | Fernando Alonso | Aston Martin | +1 vuelta |
+| 19 | Carlos Sainz | Williams | +2 vueltas |
+
+La clasificación provisional puede cambiar: los comisarios investigaban a Antonelli tras la carrera por salir de su box en la trayectoria de un Alpine.
+
+La clasificación del campeonato y el calendario que queda están en la sección de [Fórmula 1](/motor/formula-1). Las carreras van por [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome), y lo que cuesta verlas, en [la guía del motor](/noticias/donde-ver-f1-motogp-espana-2026-dazn-precios-carreras-que-quedan).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Fórmula 1","sport":"motor","slug":"formula-1"},
+    sourceName: "Formula 1",
+    sourceUrl: "https://www.formula1.com/en/results/2026/races/1299/brazil/race-result",
+    sourceLang: 'en',
+    publishedAt: '2026-11-08T22:24:00+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/2025_Singapore_GP_-_McLaren_-_Lando_Norris_-_FP2.jpg/1280px-2025_Singapore_GP_-_McLaren_-_Lando_Norris_-_FP2.jpg",
+      alt: "El McLaren naranja de Lando Norris rueda de noche por el circuito urbano de Singapur",
+      credit: "Liauzh · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+    sourcesSecondary: [
+      { name: "Formula 1 · crónica", url: "https://www.formula1.com/en/latest/article/norris-beats-verstappen-in-wet-sao-paulo-gp-thriller-as-mercedes-win-constructors-championship.7JN7MXLZf5lk5l0C3gfKGI" },
+    ],
+  },
+  {
     slug: 'carlos-alcaraz-23-anos-campeon-paris-primera-vez-shelton-dos-masters-1000-que-le-faltan-canada-shanghai-turin-jodar',
     title: 'Carlos Alcaraz (23 años) gana por fin en París: los dos Masters 1000 que todavía se le resisten',
     summary: 'Alcaraz venció a Shelton 7-6(5) y 7-5 y ganó por primera vez el Masters 1000 de París, en su sexta visita. Tiene siete de los nueve de la categoría, le faltan dos y en Turín habrá dos españoles.',
