@@ -154,6 +154,75 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'carlos-alcaraz-23-anos-campeon-paris-primera-vez-shelton-dos-masters-1000-que-le-faltan-canada-shanghai-turin-jodar',
+    title: 'Carlos Alcaraz (23 años) gana por fin en París: los dos Masters 1000 que todavía se le resisten',
+    summary: 'Alcaraz venció a Shelton 7-6(5) y 7-5 y ganó por primera vez el Masters 1000 de París, en su sexta visita. Tiene siete de los nueve de la categoría, le faltan dos y en Turín habrá dos españoles.',
+    body: `Carlos Alcaraz ya tiene París. Venció este domingo a Ben Shelton por 7-6(5) y 7-5 en una hora y 57 minutos y levantó su noveno Masters 1000, el primero en la capital francesa, [según la crónica de la ATP](https://www.atptour.com/en/news/alcaraz-shelton-paris-2026-final-sunday). Era el torneo de la categoría que peor se le daba: en cinco visitas anteriores nunca había pasado de cuartos.
+
+«Es algo que llevaba persiguiendo mucho tiempo», dijo en la pista. Levantó un break en contra en el segundo set y encadena nueve victorias seguidas, 42 en la temporada. Shelton, que buscaba su tercer Masters 1000, se queda con un balance de 1-19 contra jugadores del top 3.
+
+## Seis visitas a París
+
+| Año | Hasta dónde llegó |
+| --- | --- |
+| 2021 | Tercera ronda |
+| 2022 | Cuartos de final |
+| 2023 | Segunda ronda |
+| 2024 | Tercera ronda |
+| 2025 | Segunda ronda |
+| 2026 | Campeón |
+
+Las rondas salen de [su historial en los Masters 1000](https://en.wikipedia.org/wiki/Carlos_Alcaraz_career_statistics). En 2023 y en 2025 se fue en su primer partido. Esta semana el camino fue Michelsen (7-6(4) y 6-3), Berrettini (sin jugar, por la retirada del italiano), Fritz (6-7(10), 7-5 y 6-3, casi tres horas), Ruud (6-4 y 6-4) y Shelton. Cómo se podía ver la final en España lo contamos en [la previa del partido](/noticias/final-masters-paris-2026-alcaraz-shelton-horario-donde-ver).
+
+## Los dos que faltan
+
+Con París, Alcaraz ha ganado siete de los nueve Masters 1000 del calendario: Indian Wells (2023 y 2024), Miami (2022), Montecarlo (2025), Madrid (2022 y 2023), Roma (2025), Cincinnati (2025) y París (2026). Le quedan dos, Canadá y Shanghái, y en ninguno ha pisado todavía una semifinal.
+
+En Canadá solo ha jugado dos veces: segunda ronda en 2022 y cuartos en 2023. En Shanghái su techo son los cuartos de 2024, y este octubre cayó en tercera ronda. Los dos se juegan seguidos en verano y otoño, en la parte del calendario que más ha recortado en los últimos años.
+
+La cuenta grande también se mueve. La ATP le suma 16 títulos grandes, siete Grand Slam y nueve Masters 1000, [uno menos que Sinner](https://www.atptour.com/en/news/alcaraz-paris-2026-big-titles), que tiene 17 y [no volverá a competir este año](https://www.puntodebreak.com/2026/10/06/race-atp-baja-sinner-propicia-lucha-djokovic-jodar) por lesión.
+
+## Turín, con dos españoles
+
+Las Nitto ATP Finals se juegan en Turín del 15 al 22 de noviembre. El cuadro, según la ATP, lo forman Zverev, Alcaraz, Shelton, Medvedev, Cobolli, Fils, Tiafoe y Rafael Jódar. Jódar, madrileño de 20 años que empezó el año en la universidad de Virginia, ocupa la plaza que deja libre Sinner.
+
+En la [Race](https://www.atptour.com/en/rankings/singles-race-to-turin) Zverev manda con 9.350 puntos, Sinner tiene 7.950 y Alcaraz es tercero con 6.100. Las Finals reparten como máximo 1.500 puntos a un campeón invicto, así que el número 1 del año ya está fuera de su alcance: aunque gane los cinco partidos en Turín, se quedaría a 1.750 del alemán. Lo que sí está en juego es el título que le falta en su palmarés grande, el de maestro.
+
+Dónde ver Turín en España, en [la guía de tenis](/noticias/donde-ver-tenis-espana-atp-finals-copa-davis-alcaraz-movistar-hbo-max); los resultados, en [la sección de la ATP](/tenis/atp).`,
+    category: 'general',
+    kind: 'noticia',
+    competition: {
+      name: 'ATP',
+      sport: 'tenis',
+      slug: 'atp',
+    },
+    sourceName: 'ATP Tour',
+    sourceUrl: 'https://www.atptour.com/en/news/alcaraz-shelton-paris-2026-final-sunday',
+    sourceLang: 'en',
+    publishedAt: '2026-11-08T20:10:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      {
+        name: 'ATP: Alcaraz se acerca a Sinner en títulos grandes',
+        url: 'https://www.atptour.com/en/news/alcaraz-paris-2026-big-titles',
+      },
+      {
+        name: 'ATP: PIF Race to Turin',
+        url: 'https://www.atptour.com/en/rankings/singles-race-to-turin',
+      },
+      {
+        name: 'Wikipedia: estadísticas de Carlos Alcaraz',
+        url: 'https://en.wikipedia.org/wiki/Carlos_Alcaraz_career_statistics',
+      },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Carlos_Alcaraz_vs._Wu_Yibing_%282026_US_Open%29_-_04.jpg/1280px-Carlos_Alcaraz_vs._Wu_Yibing_%282026_US_Open%29_-_04.jpg',
+      alt: 'Carlos Alcaraz, con camiseta marrón sin mangas y raqueta en la mano, de pie junto a la red de una pista dura azul, con el juez de silla a la derecha y su rival de espaldas en primer plano',
+      credit: 'Oleg Yunakov · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
     slug: 'sabadell-real-sociedad-b-sabalenka-indian-wells-nba-aldama-lunes-9-noviembre-horarios-donde-ver',
     title: 'Sabadell - Real Sociedad B, Sabalenka y la NBA de Aldama: horarios y canales del lunes 9',
     summary: 'El Sabadell recibe al filial realista a las 20:30, Sabalenka abre las WTA Finals del lunes a las 21:00 y Aldama juega de madrugada en Dallas. Horarios y qué canal hay confirmado.',
@@ -915,23 +984,56 @@ En el mismo vídeo cuenta que su mujer estaba convencida de que le iban a llamar
   },
   {
     slug: 'marc-marquez-lusail-match-point-octavo-titulo-agostini-qatar-cuentas-martin-bezzecchi',
-    title: 'Marc Márquez, a una carrera de los ocho títulos de Agostini: lo que tiene que pasar hoy en Lusail',
-    summary: 'Marc Márquez ganó la sprint de Qatar y llega a la carrera con 49 puntos sobre Martín. Si gana y Martín no puntúa, suma su octavo título de la categoría reina, los mismos que Agostini.',
-    body: `Marc Márquez puede cerrar hoy el Mundial de MotoGP en Lusail. Ganó la sprint del sábado y sale a la carrera, a las 17:00 hora peninsular, con 49 puntos de ventaja sobre Jorge Martín. La combinación que da [la crónica oficial de MotoGP](https://www.motogp.com/es/news/2026/11/07/match-point-sunday-marquez-wins-dramatic-qatar-sprint-martin-heroic-for-p3-bezzecchi-crashes/1184253) es una sola: que Márquez gane y Martín se quede sin puntos.
+    title: 'Marc Márquez, a una carrera de los ocho títulos de Agostini: lo que tiene que pasar en Portimão',
+    summary: 'Bezzecchi ganó en Lusail y Márquez fue segundo: sale de Qatar con 60 puntos sobre Martín y 74 en juego. En Portimão, el 21 de noviembre, le basta con ganar la sprint, pero hay más combinaciones.',
+    body: `Marc Márquez no cerró el Mundial de MotoGP en Lusail, pero salió de Qatar con el título más cerca. Marco Bezzecchi ganó la carrera desde la pole y Márquez fue segundo tras quitarle la plaza a Raúl Fernández en las últimas vueltas, [según la crónica oficial](https://www.motogp.com/en/news/2026/11/08/bezzecchi-bounces-back-with-qatar-victory-as-marquez-extends-championship-lead/1184256). Jorge Martín acabó séptimo, dos semanas después de romperse la muñeca, y la ventaja pasa de 49 a 60 puntos con 74 por repartir.
 
-Si pasa, sería su octavo título en la categoría reina. Es la cifra de Giacomo Agostini, que ganó siete seguidos en 500 cc entre 1966 y 1972 y un octavo en 1975, [según su biografía](https://en.wikipedia.org/wiki/Giacomo_Agostini). Nadie tiene más.
+Para ser campeón esta tarde necesitaba ganar y que Martín no puntuara. No pasó ninguna de las dos cosas. La siguiente oportunidad es Portimão, con la sprint del sábado 21 de noviembre y la carrera del domingo 22.
 
-## Por qué solo vale ganar
+## Lo que pasó en Lusail
 
-Después de Qatar quedan dos fines de semana, Portugal y Valencia. Cada uno reparte 37 puntos al ganador, 12 en la sprint y 25 en la carrera, así que en juego quedan 74. Con 49 de ventaja, Márquez necesita sumar 25 más que Martín esta tarde para llegar a esos 74, y eso solo ocurre con la victoria y un cero del de Aprilia. Es la única cuenta que MotoGP da por buena para cerrar el Mundial hoy.
+| Puesto | Piloto | Moto |
+| --- | --- | --- |
+| 1 | Marco Bezzecchi | Aprilia |
+| 2 | Marc Márquez | Ducati |
+| 3 | Raúl Fernández | Aprilia (Trackhouse) |
+| 4 | Ai Ogura | Aprilia (Trackhouse) |
+| 5 | Enea Bastianini | KTM (Tech3) |
+| 6 | Pedro Acosta | KTM |
+| 7 | Jorge Martín | Aprilia |
+| 8 | Fabio Di Giannantonio | Ducati (VR46) |
+| 9 | Johann Zarco | Honda (LCR) |
+| 10 | Iker Lecuona | Ducati (Gresini) |
 
-Cualquier otra combinación aplaza el título a Portimão. El sábado se acercó mucho: Martín salió undécimo y acabó tercero en la sprint, con Fabio Di Giannantonio segundo.
+Bezzecchi, que se había ido al suelo en la sprint, se fue a 3,6 segundos en la última vuelta y suma su 12.ª victoria en MotoGP. Márquez hizo la vuelta rápida (1:52.558) y recortó medio segundo a Fernández, que corrió con dos dedos rotos. Lecuona puntuó como sustituto de Álex Márquez y Jake Dixon, sustituto de Mir, sumó sus primeros puntos en MotoGP con el 14.º puesto. Moreira y Binder se retiraron.
 
-## Bezzecchi, fuera de la pelea
+Así queda el Mundial, [según la clasificación oficial](https://grandepremio.com/es/motogp/clasificacion-mundial-motogp-2026-tras-gp-qatar-pilotos-equipos-constructores/): Márquez 431, Martín 371 y Bezzecchi 357.
 
-Marco Bezzecchi hizo la pole con récord de la pista, pero en la cuarta vuelta de la sprint se tocó con Márquez cuando este volvía a la trazada para defender la primera posición, y se fue al suelo. Los comisarios lo revisaron y lo dejaron en lance de carrera. Según MotoGP, la caída le saca de la lucha por el título.
+## Las cuentas para Portimão
 
-La parrilla tiene más bajas. Francesco Bagnaia no corre por [dos fracturas en el pie derecho](https://www.motogp.com/es/news/2026/11/07/bagnaia-out-of-qatar-gp-with-right-foot-fractures/1184688) de una caída en la sprint, Joan Mir está en casa recuperándose y le sustituye Jake Dixon, y Yamaha [no viajó a Qatar](/noticias/yamaha-no-ira-gp-qatar-marc-marquez-match-point-lusail-comunicado-motogp-pilotos-quartararo-rins-razgatlioglu-miller) por sus restricciones de viaje a Oriente Medio.
+Quedan dos fines de semana, Portugal y Valencia, con 37 puntos cada uno: 12 por ganar la sprint y 25 por ganar la carrera. Después de la sprint de Portimão quedarán 62 en juego, así que Márquez será campeón el sábado si sale de ella con 63 o más de ventaja. Hoy tiene 60: necesita sacarle tres puntos a Martín en esa sprint. La crónica de MotoGP lo resume en una frase, si gana la sprint es campeón, pero no es la única combinación.
+
+| Si Márquez acaba la sprint… | Martín tiene que acabar… |
+| --- | --- |
+| 1.º (12 puntos) | En cualquier puesto |
+| 2.º (9) | 4.º o peor |
+| 3.º (7) | 6.º o peor |
+| 4.º (6) | 7.º o peor |
+| 5.º (5) | 8.º o peor |
+| 6.º (4) | 9.º o peor |
+| 7.º (3) | Fuera de los puntos |
+
+Si el sábado no se cierra, el domingo en Portimão bastará con llegar a la meta con 38 puntos o más de ventaja, porque solo quedarían los 37 de Valencia. Bezzecchi, a 74, solo sigue vivo matemáticamente si gana la sprint y Márquez se queda sin puntuar en ella.
+
+## Por qué era tan difícil hoy
+
+Antes de la carrera la combinación era una sola: ganar y que Martín se quedara sin puntos. Con 49 de ventaja, Márquez necesitaba sumar 25 más que Martín para superar los 74 en juego, y eso solo ocurría con la victoria y un cero del de Aprilia.
+
+El sábado se acercó mucho: Martín salió undécimo y acabó tercero en la sprint, con Fabio Di Giannantonio segundo.
+
+## Las bajas de Qatar
+
+La parrilla tenía más bajas. Francesco Bagnaia no corrió por [dos fracturas en el pie derecho](https://www.motogp.com/es/news/2026/11/07/bagnaia-out-of-qatar-gp-with-right-foot-fractures/1184688) de una caída en la sprint, Joan Mir está en casa recuperándose y le sustituye Jake Dixon, y Yamaha [no viajó a Qatar](/noticias/yamaha-no-ira-gp-qatar-marc-marquez-match-point-lusail-comunicado-motogp-pilotos-quartararo-rins-razgatlioglu-miller) por sus restricciones de viaje a Oriente Medio.
 
 ## Los títulos de Márquez
 
@@ -941,18 +1043,19 @@ La parrilla tiene más bajas. Francesco Bagnaia no corre por [dos fracturas en e
 | 2012 | Moto2 |
 | 2013, 2014, 2016, 2017, 2018, 2019 | MotoGP |
 | 2025 | MotoGP |
-| 2026 | En juego hoy |
+| 2026 | En juego en Portimão |
 
 Son nueve mundiales en total y siete en MotoGP, según [su ficha](https://en.wikipedia.org/wiki/Marc_M%C3%A1rquez). Con un octavo superaría los siete de Valentino Rossi en la categoría reina. Entre el sexto y el séptimo pasaron seis años: el húmero roto en Jerez en 2020 le dejó sin el resto de aquella temporada.
 
-La carrera es a 22 vueltas. Antes corren Moto3, a las 14:00, y Moto2, a las 15:15. Todo va por DAZN; los horarios del resto del domingo están en [la agenda del día](/noticias/alcaraz-shelton-final-paris-marquez-lusail-interlagos-atletico-barcelona-domingo-8-noviembre-horarios-donde-ver) y lo que cuesta verlo, en [la guía del motor](/noticias/donde-ver-f1-motogp-espana-2026-dazn-precios-carreras-que-quedan).`,
+Portimão se corre el fin de semana del 21 y 22 de noviembre y Valencia cierra el año en Cheste el 28 y el 29. Todo va por DAZN; lo que cuesta verlo, en [la guía del motor](/noticias/donde-ver-f1-motogp-espana-2026-dazn-precios-carreras-que-quedan).`,
     category: 'general',
     kind: 'noticia',
     competition: { name: 'MotoGP', sport: 'motor', slug: 'motogp' },
     sourceName: 'MotoGP',
-    sourceUrl: 'https://www.motogp.com/es/news/2026/11/07/match-point-sunday-marquez-wins-dramatic-qatar-sprint-martin-heroic-for-p3-bezzecchi-crashes/1184253',
-    sourceLang: 'es',
+    sourceUrl: 'https://www.motogp.com/en/news/2026/11/08/bezzecchi-bounces-back-with-qatar-victory-as-marquez-extends-championship-lead/1184256',
+    sourceLang: 'en',
     publishedAt: '2026-11-08T10:32:00+01:00',
+    modifiedAt: '2026-11-08T20:12:00+01:00',
     author: 'Redacción Mundiales',
     image: {
       url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Marc_M%C3%A1rquez_at_Czech_Motorcycle_Grand_Prix_at_Brno_2025.jpg/1280px-Marc_M%C3%A1rquez_at_Czech_Motorcycle_Grand_Prix_at_Brno_2025.jpg',
@@ -961,6 +1064,8 @@ La carrera es a 22 vueltas. Antes corren Moto3, a las 14:00, y Moto2, a las 15:1
       license: 'CC BY-SA 4.0',
     },
     sourcesSecondary: [
+      { name: 'MotoGP: crónica de la sprint de Qatar', url: 'https://www.motogp.com/es/news/2026/11/07/match-point-sunday-marquez-wins-dramatic-qatar-sprint-martin-heroic-for-p3-bezzecchi-crashes/1184253' },
+      { name: 'Grande Prêmio: clasificación del Mundial tras Qatar', url: 'https://grandepremio.com/es/motogp/clasificacion-mundial-motogp-2026-tras-gp-qatar-pilotos-equipos-constructores/' },
       { name: 'MotoGP: Bagnaia, baja en Qatar', url: 'https://www.motogp.com/es/news/2026/11/07/bagnaia-out-of-qatar-gp-with-right-foot-fractures/1184688' },
       { name: 'MotoGP: horarios del GP de Qatar', url: 'https://www.motogp.com/es/news/2026/11/04/time-schedule-qatar-airways-grand-prix-of-qatar/1183614' },
       { name: 'Wikipedia: Giacomo Agostini', url: 'https://en.wikipedia.org/wiki/Giacomo_Agostini' },
