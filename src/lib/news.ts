@@ -154,6 +154,262 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'sabadell-real-sociedad-b-sabalenka-indian-wells-nba-aldama-lunes-9-noviembre-horarios-donde-ver',
+    title: 'Sabadell - Real Sociedad B, Sabalenka y la NBA de Aldama: horarios y canales del lunes 9',
+    summary: 'El Sabadell recibe al filial realista a las 20:30, Sabalenka abre las WTA Finals del lunes a las 21:00 y Aldama juega de madrugada en Dallas. Horarios y qué canal hay confirmado.',
+    body: `El lunes 9 de noviembre deja un solo partido de LaLiga Hypermotion, una noche de WTA Finals en California y ocho partidos de NBA que ocupan la madrugada del martes. El primero en empezar es el [Sabadell - Real Sociedad B](/futbol/laliga-2/partido/401883139), a las 20:30 en la Nova Creu Alta. Media hora después, Aryna Sabalenka y Karolina Muchova abren la sesión de Indian Wells.
+
+| Hora peninsular | Canarias | Partido | Competición |
+|---|---|---|---|
+| 20:30 | 19:30 | Sabadell - Real Sociedad B | LaLiga Hypermotion |
+| 21:00 | 20:00 | Sabalenka - Muchova | WTA Finals |
+| Después | Después | Andreeva - Svitolina | WTA Finals |
+| 01:00 (martes) | 00:00 | Hawks - Lakers | NBA |
+| 01:00 (martes) | 00:00 | Hornets - Cavaliers | NBA |
+| 01:00 (martes) | 00:00 | Pistons - Wizards | NBA |
+| 01:30 (martes) | 00:30 | Raptors - Grizzlies | NBA |
+| 02:00 (martes) | 01:00 | Mavericks - Pacers | NBA |
+| 02:30 (martes) | 01:30 | Rockets - Nuggets | NBA |
+| 03:00 (martes) | 02:00 | Suns - Spurs | NBA |
+| 04:00 (martes) | 03:00 | Warriors - Pelicans | NBA |
+
+## El Sabadell, frente a un filial en descenso
+
+El Sabadell llega undécimo, con 17 puntos, y la Real Sociedad B es decimonovena, con 11, de 22 equipos, según [la ficha del partido](/futbol/laliga-2/partido/401883139). El filial suma una victoria y cuatro derrotas en sus cinco últimas jornadas. El equipo arlequinado no gana desde Ceuta, el 10 de octubre.
+
+A esta hora la ficha marca el canal como por confirmar. Las opciones para ver la categoría están en la [guía de LaLiga Hypermotion](/noticias/donde-ver-laliga-hypermotion-2026-27-dazn-movistar-precios-autonomicas), y si dudas con otra competición, aquí explicamos [qué plataforma emite cada una y cuánto cuesta](/noticias/donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1).
+
+## Indian Wells, sin emisión confirmada en España
+
+La [orden de juego oficial](https://wtafiles.wtatennis.com/pdf/draws/2026/808/OP.pdf) arranca a las 12:00 locales, las 21:00 en la Península, con la segunda cabeza de serie contra la séptima. Después juegan Mirra Andreeva (3) y Elina Svitolina (6), y la sesión sigue con dos partidos de dobles.
+
+No hemos podido confirmar qué plataforma las emite en España, como recoge nuestra [guía de la WTA en televisión](/noticias/donde-ver-wta-espana-finals-indian-wells-grand-slam-2027-bucsa). El torneo, por cierto, lo dirige [una española, Garbiñe Muguruza](/noticias/garbine-muguruza-33-anos-madre-directora-wta-finals-indian-wells-no-fui-muy-capaz-de-disfrutar).
+
+## Aldama, a las 02:00 ante los Pacers
+
+De los españoles de la NBA, solo los Mavericks tienen partido esta noche: ni los Celtics de Hugo González ni los Thunder de Aday Mara aparecen en [el calendario de ESPN del lunes](https://www.espn.com/nba/schedule/_/date/20261109). Santi Aldama no figura en el [parte de bajas del partido](/baloncesto/nba/partido/401909956), donde sí está Sergio de Larrea, también de los Mavericks, por una lesión de rodilla. Los Pacers llegan sin Tyrese Haliburton.
+
+La ficha no da un canal concreto para este partido. DAZN tiene la selección principal de la temporada y Prime Video se reserva la madrugada del viernes al sábado, según explica [la guía de la NBA en España](/noticias/nba-2026-27-donde-ver-espana-dazn-prime-video-estreno-hugo-gonzalez-aldama). El resto de la jornada, con hora española, está en [el calendario](/baloncesto/nba/calendario).`,
+    category: 'tv',
+    kind: 'noticia',
+    competition: { name: 'LaLiga Hypermotion', sport: 'futbol', slug: 'laliga-2' },
+    sourceName: 'ESPN',
+    sourceUrl: 'https://www.espn.com/soccer/schedule/_/league/esp.2',
+    sourceLang: 'en',
+    publishedAt: '2026-11-08T16:15:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'WTA: orden de juego del lunes en las WTA Finals', url: 'https://wtafiles.wtatennis.com/pdf/draws/2026/808/OP.pdf' },
+      { name: 'ESPN: calendario NBA del lunes', url: 'https://www.espn.com/nba/schedule/_/date/20261109' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Estadi_Municipal_de_la_Nova_Creu_Alta.jpg/1280px-Estadi_Municipal_de_la_Nova_Creu_Alta.jpg',
+      alt: 'Vista aérea del estadio de la Nova Creu Alta de Sabadell al atardecer, con el césped rayado, las gradas azules vacías y edificios detrás',
+      credit: 'Aleix.salaCES1903 · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'hugo-gonzalez-20-anos-solo-boston-20-minutos-coche-familia-derrick-white-podcast',
+    title: 'Hugo González, 20 años, solo en Boston: «Tengo 20 minutos en el coche» para hablar con casa',
+    summary: 'El español de los Celtics vive solo y su madre se marchó en marzo por un asunto de visado. En el pódcast de Derrick White cuenta cómo reparte a su familia por semanas.',
+    body: `Hugo González tiene 20 años, juega en los Boston Celtics y habla con los suyos cuando el reloj le deja. «Tengo 20 minutos en el coche», contó en [el pódcast de su compañero Derrick White](https://www.youtube.com/watch?v=YLQevGZ8gc0&t=781s), publicado el 2 de noviembre. Se refería al rato de la mañana. Es el hueco en el que puede ponerse al día con su familia antes de que la diferencia horaria se lo coma todo.
+
+La conversación llegó ahí porque uno de los presentadores contó sus años jugando fuera de Estados Unidos y lo solo que se puede sentir uno con el cambio de hora. Hugo le dio la razón con un detalle doméstico: cuando él termina de entrenar, en España ya están cenando.
+
+## La invitación que rechazó
+
+La entrevista empieza con un reproche en broma. La temporada pasada, en una cena en San Antonio, el propio Hugo reclamó que le invitaran. Cuando este curso llegó la llamada, dijo que no. Vive solo en Boston y aquella semana venía su familia. En el programa lo aceptaron como la única excusa válida y le volvieron a llamar a la semana siguiente.
+
+Lleva el dorsal 28 en los Celtics y explica en el mismo vídeo cómo lo eligió: le enviaron la lista de números disponibles y el 28 era el más bajo. Sobre su nombre también hay historia: aclara que es Hugo González Peña, con el apellido de su madre detrás, después de un rato de bromas sobre cómo se pronuncia en Estados Unidos.
+
+## La madre que se fue en marzo
+
+En su primer año en Boston vivió con su madre. Volvía del entrenamiento y la comida ya estaba hecha, cuenta. Ella se marchó en marzo por un asunto de visado y él se quedó en tierra de nadie: faltaban solo dos meses para el verano y no le compensaba organizar otra cosa. Desde entonces, pide la comida al salir del entrenamiento para que esté en casa cuando llegue, come y se echa la siesta.
+
+Esta temporada reparte las visitas. Su padre, su madre, su novia y los amigos vienen por turnos, una semana alguien y otra no, para tener casi siempre a alguien cerca durante el curso. Hace poco estuvieron su padre y su abuela, que pisaba Estados Unidos por primera vez. Él le había avisado de que en Boston haría frío. Ella, con 70 años, se pasó la visita quejándose de calor.
+
+Hay otra consecuencia que no se ve en los partidos: días enteros en los que solo habla inglés, y momentos en los que, delante de los suyos, se le cruza el idioma y le miran raro.
+
+## Lo que el reloj le hace a su familia
+
+Boston va seis horas por detrás de la Península, y eso no acaba en el coche. Según [su registro de partidos en ESPN](https://www.espn.com/nba/player/gamelog/_/id/5175647/hugo-gonzalez), tres de sus cuatro partidos de noviembre empezaron a la 1:00 o más tarde, hora peninsular: Charlotte a la 1:00, Milwaukee a la 1:30 y Houston a las 2:30. Solo el de Orlando, un domingo, fue a las 21:30.
+
+Quien quiera verle desde España tiene que trasnochar para un papel que aún se está haciendo. Ha jugado nueve partidos de temporada regular con 13,1 minutos y 4,2 puntos de media, muy lejos de los 20 minutos y 14,5 puntos que promedió en los cuatro de pretemporada. Sus próximos partidos, con hora española, están en [el calendario de la NBA](/baloncesto/nba/calendario), y el reparto entre plataformas, en [la guía de esta temporada](/noticias/nba-2026-27-donde-ver-espana-dazn-prime-video-estreno-hugo-gonzalez-aldama).
+
+Un ejemplo de esas madrugadas fue [el Celtics - Knicks de Prime Video](/noticias/hugo-gonzalez-celtics-knicks-campeon-prime-video-espanoles-nba-madrugada-sabado). Y en el pódcast compara también su camino con el de su hermano, que entrena en Estados Unidos: le dice que tiene suerte, porque allí colegio, entrenamiento y gimnasio se organizan alrededor del jugador y en Europa cada cosa va por su lado.`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'NBA', sport: 'baloncesto', slug: 'nba' },
+    sourceName: 'White Noise, el pódcast de Derrick White',
+    sourceUrl: 'https://www.youtube.com/watch?v=YLQevGZ8gc0',
+    sourceLang: 'en',
+    publishedAt: '2026-11-08T16:16:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'ESPN: registro de partidos de Hugo González', url: 'https://www.espn.com/nba/player/gamelog/_/id/5175647/hugo-gonzalez' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Celtics_game_versus_the_Timberwolves%2C_February%2C_1_2009.jpg/1280px-Celtics_game_versus_the_Timberwolves%2C_February%2C_1_2009.jpg',
+      alt: 'El TD Garden de Boston lleno durante un partido de los Celtics en 2009, con la pista de parqué y el videomarcador central vistos desde lo alto de la grada',
+      credit: 'Ktr101 · Wikimedia Commons',
+      license: 'CC BY 3.0',
+    },
+  },
+  {
+    slug: 'cf-talavera-el-prado-diego-mateo-zarra-rfef-absoluta-desidia-conquense-aplazado-juez',
+    title: 'CF Talavera, sin El Prado ni campo alternativo: la RFEF ve «absoluta desidia» y avisa al juez',
+    summary: 'La RFEF aplazó el Talavera - Conquense porque ninguno de los dos campos del club sirve, pero en su resolución le reprocha la inacción y traslada el caso a instancia disciplinaria.',
+    body: `El CF Talavera de la Reina pidió aplazar su partido del domingo contra la UB Conquense porque su césped no se había recuperado. La RFEF se lo concedió, pero la resolución del 6 de noviembre, [publicada por la Federación](https://rfef.es/sites/default/files/sanciones/Resolucion_Talavera.pdf), le dice otra cosa: que no tenía un segundo campo apto y que eso solo se explica por inacción o por una «negligencia por absoluta desidia». El caso pasa ahora al juez disciplinario.
+
+El partido, de la décima jornada del grupo 5 de [Segunda Federación](/futbol/segunda-federacion), estaba señalado por el propio club para las 17:00 de este 8 de noviembre en el Estadio Municipal El Prado. No se jugó.
+
+## La semana, hora a hora
+
+| Fecha | Qué pasó, según la resolución |
+|---|---|
+| Semanas antes | El club pide jugar en casa del rival para resembrar El Prado. La RFEF contesta que el reglamento no lo contempla y que, sin campo principal, se juega en el alternativo |
+| 26 de octubre | El Ayuntamiento empieza la resiembra, de Bermuda a una semilla de invierno, según El Deporte Conquense |
+| 4 de noviembre, 20:38 | El Talavera solicita el aplazamiento: gran parte del campo sigue con tierra al descubierto |
+| 5 de noviembre, 08:57 | La RFEF le ordena jugar en el Diego Mateo Zarra, su campo alternativo |
+| 5 de noviembre, 21:00 | El club responde que ese campo tampoco reúne condiciones |
+| 6 de noviembre | Resolución: se suspende y se aplaza el partido |
+
+Antes de resolver, la Federación pidió al club que acreditara el problema y propusiera un tercer campo. El Ayuntamiento detalló entonces que el césped artificial del Diego Mateo Zarra tiene un desgaste muy acusado y un deterioro avanzado, con peligro para los jugadores, y que está previsto cambiarlo, sin fecha. El Talavera llamó al Toledo, al Illescas y al Torrijos, pero los tres jugaban ese mismo domingo, a las 12:00, las 16:00 y las 16:30.
+
+## Lo que la RFEF no se cree
+
+La resolución acepta el aplazamiento por falta material de tiempo y deja escrito el reproche. Dice que el club sabía desde hacía semanas, incluso meses, que al resembrar tendría que irse al campo alternativo, y que el estado de ese campo encaja con una falta de conservación sostenida, no con un imprevisto.
+
+El párrafo que más le compromete mira hacia adelante. Sin obra licitada ni fecha para cambiar el césped, la conclusión de la Federación es que el Talavera carece de campo alternativo para este partido y para cualquiera que venga después.
+
+## Qué tiene que hacer ahora
+
+El club y la Conquense disponen de dos días hábiles para proponer una fecha. [El Deporte Conquense apunta al 16 de diciembre](https://eldeporteconquense.com/noticias/futbol-noticias/noticias-futbol-segunda-division-b/el-mal-estado-del-cesped-de-el-prado-aplaza-el-derbi-entre-el-cf-talavera-y-la-ub-conquense/), condicionado al acuerdo, y la fecha definitiva la pone la RFEF. El Talavera tiene además cinco días hábiles para designar otro campo para toda la temporada 2026-27: contados desde la resolución, del viernes 6, el plazo acaba el viernes 13.
+
+El traslado al juez disciplinario no es una sanción, como [subraya Iusport](https://iusport.com/art/152173/la-rfef-aplaza-el-duelo-ante-el-conquense-y-da-5-dias-al-talavera-para-designar-otro-campo), pero abre esa vía. El club, por su parte, [busca una solución para quienes ya tenían entrada](https://www.covertalavera.com/talavera-conquense-aplazado-estadio-alternativo/).
+
+La propia resolución recuerda que el recurso del tercer campo existe y se usó: el 27 de octubre sirvió para el Intercity - Elche Ilicitano, del grupo 3. Este mismo domingo contábamos otro ajuste de calendario de la RFEF, por un motivo muy distinto: el de [la Deportiva Minera y el Cartagena en Copa](/noticias/deportiva-minera-llano-del-beal-fc-cartagena-copa-del-rey-18-noviembre-angel-celdran).`,
+    category: 'curiosa',
+    kind: 'noticia',
+    competition: { name: 'Segunda Federación', sport: 'futbol', slug: 'segunda-federacion' },
+    sourceName: 'RFEF: resolución del Juez Único de Competiciones No Profesionales',
+    sourceUrl: 'https://rfef.es/sites/default/files/sanciones/Resolucion_Talavera.pdf',
+    sourceLang: 'es',
+    publishedAt: '2026-11-08T16:17:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Iusport', url: 'https://iusport.com/art/152173/la-rfef-aplaza-el-duelo-ante-el-conquense-y-da-5-dias-al-talavera-para-designar-otro-campo' },
+      { name: 'El Deporte Conquense', url: 'https://eldeporteconquense.com/noticias/futbol-noticias/noticias-futbol-segunda-division-b/el-mal-estado-del-cesped-de-el-prado-aplaza-el-derbi-entre-el-cf-talavera-y-la-ub-conquense/' },
+      { name: 'Cover Talavera', url: 'https://www.covertalavera.com/talavera-conquense-aplazado-estadio-alternativo/' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Lleno_hasta_la_bandera.jpg/1280px-Lleno_hasta_la_bandera.jpg',
+      alt: 'Partido en el Estadio Municipal El Prado de Talavera en 2007, con la tribuna llena, el césped verde y edificios de viviendas detrás',
+      credit: 'Betiferico · Wikimedia Commons',
+      license: 'Dominio público',
+    },
+  },
+  {
+    slug: 'niclas-fullkrug-33-anos-klopp-zdf-nee-danke-ciao-sportstudio-werder-post-wembley',
+    title: 'Niclas Füllkrug, 33 años y de vuelta con Klopp, deja plantado al ZDF: «Nee, danke, ciao»',
+    summary: 'El máximo goleador de la Bundesliga cortó una entrevista en televisión cuando le preguntaron por su regreso a Alemania. Es el delantero que estrelló un balón en el poste de Wembley ante el Madrid.',
+    body: `Niclas Füllkrug perdió el sábado 1-0 en Stuttgart y no marcó, algo que no le pasaba desde hacía siete jornadas. Esa noche, en *Das aktuelle Sportstudio*, le preguntaron qué significaba volver a una convocatoria de Alemania más de un año después. Contestó que no era el momento. Le insistieron. «Nee, danke, ciao» (no, gracias, adiós), [le dijo al reportero del ZDF](https://www.focus.de/sport/fussball/nee-danke-ciao-fuellkrug-bricht-zdf-interview-ab_aec5bf5d-9a3b-404a-8f6e-9c07f56be15b.html), Florian Zschiedrich. Dejó el micrófono sobre la mesa y le dio la mano para despedirse.
+
+La escena sería una anécdota si el protagonista no fuera el máximo goleador de la Bundesliga, con 33 años y la selección esperándole esta misma semana.
+
+## Por qué la pregunta le quemaba
+
+Füllkrug se quejó de falta de respeto por hablarle de la selección recién perdido un partido en el que su equipo, dijo, había jugado bien. Pero el tema venía de antes. A finales de octubre, Jürgen Klopp [había dicho en DAZN](https://www.volksstimme.de/panorama/klopps-er-ist-33-ansage-das-sagt-fullkrug-zu-dfb-chancen-4344545) que el delantero del Werder Bremen marca un gol detrás de otro, pero que tiene 33 años y que eso no es culpa suya. En ese mismo programa del ZDF, entonces, Füllkrug había respondido con calma: entendería quedarse fuera de una selección pensada para los jóvenes.
+
+Poco después, Klopp le convocó. Y la entrevista saltó por los aires cuando le pidieron valorar esa convocatoria.
+
+## Los números que forzaron la vuelta
+
+| Dato | Cifra |
+|---|---|
+| Goles esta temporada con el Werder | 12 en 10 partidos oficiales |
+| Partidos seguidos marcando en Bundesliga, hasta Stuttgart | 7 |
+| Último partido con Alemania | Junio de 2025, 0-2 ante Francia |
+| Último gol con Alemania | Septiembre de 2024, 5-0 a Hungría |
+| Próximos partidos | Serbia y Países Bajos, en Nations League |
+
+Son diecisiete meses sin vestir la camiseta y veintiséis sin marcar con ella, un cálculo propio con las fechas de esa misma crónica. [El acta de ESPN](https://www.espn.com/soccer/match/_/gameId/401884743) deja el 1-0 de Stuttgart como su primer partido sin marcar tras siete seguidos en la [Bundesliga](/futbol/bundesliga), una competición que en España [se reparte entre plataformas](/noticias/donde-ver-bundesliga-espana-2026-27-dazn-movistar-precios-horarios).
+
+## El poste de Wembley
+
+Al aficionado español le suena por otra noche. El 1 de junio de 2024, en la final de la Champions, Füllkrug remató a quemarropa con el Dortmund y [el balón se estrelló en el poste de Courtois](https://www.football-espana.net/2024/06/01/watch-dortmund-miss-two-champions-league-final-chances-real-madrid), con el partido aún sin goles. El Madrid ganó 2-0. La jugada, además, estaba en duda por un posible fuera de juego.
+
+Dos años y medio después, ese delantero vuelve a la selección. Mientras Alemania prepara el viaje a Serbia, España tiene sus propios deberes en este parón, con [ocho convocados que no fueron campeones del mundo](/noticias/convocatoria-espana-chequia-inglaterra-27-jugadores-ocho-no-campeones-mundo-jacobo-ramon-valles-barrios).`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'Bundesliga', sport: 'futbol', slug: 'bundesliga' },
+    sourceName: 'Focus Online',
+    sourceUrl: 'https://www.focus.de/sport/fussball/nee-danke-ciao-fuellkrug-bricht-zdf-interview-ab_aec5bf5d-9a3b-404a-8f6e-9c07f56be15b.html',
+    sourceLang: 'de',
+    publishedAt: '2026-11-08T16:18:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Bild', url: 'https://www.bild.de/sport/fussball/werder-bremen-fuellkrug-bricht-zdf-interview-ab-6af01bb2a389bc337cfc9a7e' },
+      { name: 'Volksstimme (dpa)', url: 'https://www.volksstimme.de/panorama/klopps-er-ist-33-ansage-das-sagt-fullkrug-zu-dfb-chancen-4344545' },
+      { name: 'ESPN: Stuttgart - Werder', url: 'https://www.espn.com/soccer/match/_/gameId/401884743' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/NiclasF%C3%BCllkrug.jpg/1280px-NiclasF%C3%BCllkrug.jpg',
+      alt: 'Niclas Füllkrug, con la camiseta oscura del Werder Bremen, el dorsal 11 y el brazalete de capitán, camina sobre el césped durante un partido',
+      credit: 'Silesia711 · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'stephanie-rice-38-anos-tres-oros-pekin-ocho-meses-buscando-trabajo-han-elegido-a-otra-persona',
+    title: 'Stephanie Rice, tres oros en Pekín y ocho meses buscando empleo: «Han elegido a otra persona»',
+    summary: 'La nadadora australiana, triple campeona olímpica en 2008, contó en redes que pidió más de 130 trabajos y llegó a cinco entrevistas finales. Ahora lanza un tablero de oración.',
+    body: `Stephanie Rice ganó tres oros y batió tres récords del mundo en Pekín 2008, con 20 años. Con 38, según [lo publicado por PerthNow y The Nightly](https://thenightly.com.au/culture/stephanie-rice-three-time-olympic-gold-medallist-breaks-down-in-tears-over-8-month-job-search-130-rejections-c-23108679), compartió en Instagram una imagen suya llorando y un balance: ocho meses buscando trabajo, más de 130 solicitudes y unos cinco procesos en los que llegó a la entrevista final. «Han elegido a otra persona», escribió sobre todos ellos.
+
+Las cifras son suyas, sacadas de sus propias publicaciones, y no hay forma de contrastar empresa por empresa. Lo que sí está documentado es la distancia entre un palmarés y una oficina.
+
+## Lo que hay detrás del podio
+
+[Su ficha en Olympedia](https://www.olympedia.org/athletes/112288) resume aquella carrera: oro en 200 y 400 metros estilos y en el relevo 4x200 libre en 2008, y cuarta y sexta en los estilos en Londres 2012. Rice nació en Brisbane en junio de 1988. Hoy vive en Dubái con su marido, el pastor Mark Lassey, y usa también su apellido.
+
+Antes de esta búsqueda, según el mismo reportaje, había ocupado dos puestos comerciales de nivel directivo en año y medio. En octubre [había contado que renunció a uno de esos cargos](https://thenightly.com.au/sport/stephanie-rice-starts-over-again-after-message-from-god-telling-her-to-resign-c-23002917), con una oferta para ser consejera delegada sobre la mesa, porque creía que Dios se lo pedía. Dijo que eso la dejaba de nuevo en cero, y que había pasado por escrutinio público, comentarios de odio, pleitos y negocios fallidos.
+
+Un trabajo la devolvió a Australia hace unas semanas, a la espera de más entrevistas. Tampoco salió. Se lo tomó como una señal.
+
+## El dato incómodo
+
+Más de 130 solicitudes en ocho meses son, redondeando, una cada dos días durante todo ese tiempo. Cinco finales sobre 130 supone que llegó a la última ronda en menos del 4 % de los intentos, por debajo de una de cada veinticinco. Ninguna de las dos cuentas aparece en su mensaje: están hechas con sus propios números.
+
+No da para concluir si la rechazaron por ser quien es, porque ella no lo afirma. Lo que describe es otra cosa: alguien con un currículo que todo el mundo reconoce y que no le abrió ninguna puerta cuando la puerta era un puesto de empresa.
+
+## Lo que hará ahora
+
+Su plan para el resto de 2026 es un negocio propio. Se llama *Prayer board pack*, un kit de tablero de oración que ella insiste en separar de los tableros de visión o de manifestación: un lugar para escribir las peticiones por las que reza.
+
+## La misma pregunta, en otro idioma
+
+La historia de Rice no es exclusiva de Australia. Esta semana contábamos que [Fernando Romay, plata en Los Ángeles 84, tiene problemas con su pensión](/noticias/fernando-romay-67-anos-plata-los-angeles-1984-no-cotizaron-real-madrid-1993-pension-jubilacion) porque nadie cotizó por él durante años, y que [Garbiñe Muguruza se preguntó qué era ella al dejar de ser tenista](/noticias/garbine-muguruza-33-anos-madre-directora-wta-finals-indian-wells-no-fui-muy-capaz-de-disfrutar). Son carreras y países distintos, con el mismo punto de partida: el día siguiente a la última competición.`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'Natación', sport: 'natacion', slug: 'natacion' },
+    sourceName: 'The Nightly (PerthNow)',
+    sourceUrl: 'https://thenightly.com.au/culture/stephanie-rice-three-time-olympic-gold-medallist-breaks-down-in-tears-over-8-month-job-search-130-rejections-c-23108679',
+    sourceLang: 'en',
+    publishedAt: '2026-11-08T16:19:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Olympedia', url: 'https://www.olympedia.org/athletes/112288' },
+      { name: 'The Nightly: la renuncia de octubre', url: 'https://thenightly.com.au/sport/stephanie-rice-starts-over-again-after-message-from-god-telling-her-to-resign-c-23002917' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Stephanie_Rice_%26_Bronte_Barratt_%286095241978%29.jpg/1280px-Stephanie_Rice_%26_Bronte_Barratt_%286095241978%29.jpg',
+      alt: 'Stephanie Rice, a la izquierda con moño y bañador de rayas naranjas, sonríe junto a la nadadora Bronte Barratt bajo una carpa azul',
+      credit: 'JD Lasica · Wikimedia Commons',
+      license: 'CC BY 2.0',
+    },
+  },
+  {
     slug: 'nba-resultados-2026-11-08',
     title: "NBA: todos los resultados de la jornada y el partido más igualado",
     summary: "Resultados de los 7 partidos de la noche en la NBA, con el más igualado y el de más puntos.",
