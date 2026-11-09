@@ -154,6 +154,273 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'celtics-76ers-hugo-gonzalez-brown-tatum-aday-mara-portland-gauff-indian-wells-martes-10-noviembre-horarios',
+    title: 'Celtics - 76ers con Hugo González, Aday Mara y las WTA Finals: horarios y canales del martes 10',
+    summary: 'Los dos mejores del Este se miden a las 02:00 con Hugo González en la rotación de Boston, Aday Mara juega a las 05:00 en Portland y las WTA Finals siguen desde las 21:00. Qué canal hay confirmado.',
+    body: `El martes 10 de noviembre no tiene fútbol de LaLiga ni de Segunda por el parón de selecciones, así que la noche se la reparten la NBA y las WTA Finals. El plato fuerte llega a las 02:00 de la madrugada del miércoles: los [76ers reciben a los Celtics](/baloncesto/nba/partido/401909961) en Filadelfia, primero contra segundo del Este, con Hugo González en la rotación de Boston. Tres horas después, Aday Mara y los Thunder visitan Portland.
+
+| Hora peninsular | Canarias | Partido | Competición |
+|---|---|---|---|
+| 21:00 | 20:00 | Pegula - Kostyuk | WTA Finals |
+| 22:30 | 21:30 | Noskova - Gauff | WTA Finals |
+| 01:30 (miércoles) | 00:30 | Knicks - Bucks | NBA |
+| 02:00 (miércoles) | 01:00 | 76ers - Celtics | NBA |
+| 03:00 (miércoles) | 02:00 | Suns - Clippers | NBA |
+| 03:00 (miércoles) | 02:00 | Jazz - Heat | NBA |
+| 04:00 (miércoles) | 03:00 | Kings - Magic | NBA |
+| 05:00 (miércoles) | 04:00 | Trail Blazers - Thunder | NBA |
+
+## Filadelfia y Boston, los dos mejores del Este
+
+Los 76ers llegan con 9-2 y los Celtics con 8-2 y tres victorias seguidas, [según la clasificación de ESPN](https://www.espn.com/nba/standings). Es el primer cruce de la temporada regular entre los dos equipos desde que Jaylen Brown cambió Boston por Filadelfia en verano: [la plantilla de los 76ers](https://www.espn.com/nba/team/roster/_/name/phi) junta a Brown con LeBron James, Joel Embiid y Tyrese Maxey, y enfrente estará Jayson Tatum, su pareja durante años en los Celtics.
+
+Hugo González ha jugado entre 10 y 16 minutos en los cinco últimos partidos de Boston, con 8 puntos ante los Hornets como mejor marca y 2 rebotes y 1 asistencia en los 10 minutos del triunfo de este lunes de madrugada ante los Bucks, [según su registro en ESPN](https://www.espn.com/nba/player/gamelog/_/id/5175647/hugo-gonzalez). La [ficha del partido](/baloncesto/nba/partido/401909961) no recoge bajas en los Celtics; en los 76ers faltan Adem Bona, Ariel Hukporti y Dominick Barlow. El alero madrileño contó hace unos días [cómo vive solo en Boston a los 20 años](/noticias/hugo-gonzalez-20-anos-solo-boston-20-minutos-coche-familia-derrick-white-podcast).
+
+La ficha no da un canal concreto para este partido. DAZN tiene la selección principal de la temporada y Prime Video se reserva la madrugada del viernes al sábado, como explica [la guía de la NBA en España](/noticias/nba-2026-27-donde-ver-espana-dazn-prime-video-estreno-hugo-gonzalez-aldama); el resto de plataformas y precios están en [qué plataforma emite cada competición y cuánto cuesta](/noticias/donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1).
+
+## Aday Mara, a las 05:00 en Portland
+
+Los Thunder también van 8-2, con cuatro victorias seguidas, y los Trail Blazers 6-3. Aday Mara viene de firmar 18 puntos y 8 rebotes en 27 minutos ante Washington el domingo, tras 9 puntos y 7 rebotes ante Memphis y 9 y 5 ante Cleveland, [según ESPN](https://www.espn.com/nba/player/gamelog/_/id/5174983/aday-mara). Es la continuación de [la semana en la que irrumpió con los Thunder](/noticias/aday-mara-18-puntos-thunder-semana-nba-espana-dallas-boston-medianoche-aldama-hugo-gonzalez). El [Trail Blazers - Thunder](/baloncesto/nba/partido/401909965) empieza a las 05:00, las 04:00 en Canarias. Los Mavericks de Santi Aldama descansan. La jornada completa, con hora española, está en [el calendario](/baloncesto/nba/calendario).
+
+## Indian Wells: Pegula y Kostyuk se juegan seguir vivas
+
+En el grupo que juega el martes, Linda Noskova ganó el domingo 6-2 y 6-4 a Marta Kostyuk y Coco Gauff remontó a Jessica Pegula por 6-4, 6-7 y 6-2, [según el marcador de ESPN](https://www.espn.com/tennis/scoreboard). Las dos perdedoras abren la sesión a las 21:00 peninsulares; quien caiga queda casi fuera. A las 22:30 se miden las dos ganadoras, Noskova y Gauff. El otro grupo, con Sabalenka, Muchova, Andreeva y Svitolina, juega este lunes.
+
+Seguimos sin poder confirmar qué plataforma emite el torneo en España, como recoge [nuestra guía de la WTA en televisión](/noticias/donde-ver-wta-espana-finals-indian-wells-grand-slam-2027-bucsa). El torneo lo dirige [Garbiñe Muguruza](/noticias/garbine-muguruza-33-anos-madre-directora-wta-finals-indian-wells-no-fui-muy-capaz-de-disfrutar). Las semifinales son el sábado 14 y la final, el domingo 15.`,
+    category: 'tv',
+    kind: 'noticia',
+    competition: { name: 'NBA', sport: 'baloncesto', slug: 'nba' },
+    sourceName: 'ESPN',
+    sourceUrl: 'https://www.espn.com/nba/schedule/_/date/20261110',
+    sourceLang: 'en',
+    publishedAt: '2026-11-09T16:38:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'ESPN: clasificación de la NBA', url: 'https://www.espn.com/nba/standings' },
+      { name: 'ESPN: registro de partidos de Hugo González', url: 'https://www.espn.com/nba/player/gamelog/_/id/5175647/hugo-gonzalez' },
+      { name: 'ESPN: registro de partidos de Aday Mara', url: 'https://www.espn.com/nba/player/gamelog/_/id/5174983/aday-mara' },
+      { name: 'ESPN: marcador de las WTA Finals', url: 'https://www.espn.com/tennis/scoreboard' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Wells_Fargo_Center_2019.jpg/1280px-Wells_Fargo_Center_2019.jpg',
+      alt: 'Vista desde la grada alta del pabellón de Filadelfia durante un partido de baloncesto universitario de Villanova, con el videomarcador central encendido y los banderines colgados del techo',
+      credit: 'Wildcat7176 · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'raul-49-anos-real-oviedo-un-punto-playoff-calero-destituido-dos-dias-despues-ganar-cadiz-castilla-quinto-entrenador',
+    title: 'Raúl, 49 años, coge un Oviedo a un punto del playoff: Calero cae dos días después de ganar en Cádiz',
+    summary: 'El Oviedo destituye a Julián Calero con el equipo noveno en Segunda, a un punto del playoff, y ficha a Raúl hasta 2028: su primer banquillo de un primer equipo tras seis años en el Castilla.',
+    body: `El Real Oviedo [comunicó este lunes](https://www.realoviedo.es/noticias/comunicado-oficial-julian-calero) la destitución de Julián Calero y, minutos después, [anunció a Raúl González Blanco](https://www.realoviedo.es/noticias/raul-gonzalez-nuevo-entrenador-del-real-oviedo) como nuevo entrenador hasta junio de 2028. El equipo es noveno en [LaLiga Hypermotion](/futbol/laliga-2) con 21 puntos, uno menos que el Mallorca, que cierra el playoff, y ocho menos que el líder, el Almería, [según la clasificación](/futbol/laliga-2/clasificacion). Calero se va dos días después de ganar en Cádiz.
+
+Raúl, de 49 años, debutará el sábado 14 a las 21:00 en el Carlos Tartiere [ante el Girona](/futbol/laliga-2/partido/401883115). El club avisa de que no hará declaraciones hasta su presentación. Es su primer banquillo de un primer equipo profesional: hasta ahora solo había dirigido en la cantera del Real Madrid.
+
+## El quinto técnico desde el ascenso
+
+| Entrenador | Etapa | Qué pasó |
+| --- | --- | --- |
+| Veljko Paunović | 2024-25 y arranque de 2025-26 | Ascenso a Primera en el playoff ante el Mirandés, junio de 2025 |
+| Luis Carrión | Otoño de 2025 | Segunda etapa en el club; cesado en diciembre |
+| Guillermo Almada | Diciembre de 2025 a junio de 2026 | Descenso: vigésimo con 31 puntos, confirmado el 11 de mayo |
+| Julián Calero | Julio a noviembre de 2026 | 13 jornadas: 6 victorias, 3 empates y 4 derrotas; noveno |
+| Raúl González | Desde el 9 de noviembre de 2026 | Contrato hasta junio de 2028 |
+
+La lista sale de [los entrenadores que recoge la Wikipedia](https://en.wikipedia.org/wiki/Real_Oviedo) y de la temporada 2025-26 del club: el Oviedo volvió a Primera 24 años después y la perdió a las 38 jornadas. Almada [había llegado el 16 de diciembre de 2025](https://www.ultimahora.es/deportes/futbol/2025/12/16/2532949/guillermo-almada-nuevo-entrenador-del-real-oviedo.html) para intentar la salvación.
+
+## Calero: trece jornadas y un adiós tras ganar
+
+El Oviedo perdió 2-3 en casa ante Las Palmas [el lunes 2](/noticias/valladolid-leganes-4-3-zorrilla-doblete-miguel-rubio-morata-oviedo-las-palmas-2-3-clasificacion-segunda-lunes) y ganó 1-2 en Cádiz el sábado 7. El balance de Calero es de 6 victorias, 3 empates y 4 derrotas, con 19 goles a favor y 16 en contra. Tenía contrato hasta junio de 2027 y había firmado en julio, siete meses después de que el Levante lo destituyera en Primera. La [ficha del Oviedo](/futbol/laliga-2/equipo/92) recoge resultados y plantilla.
+
+## Seis años en el Castilla sin ascender
+
+| Temporada | Categoría | Puesto | Partidos de liga (G-E-P) |
+| --- | --- | --- | --- |
+| 2019-20 | Segunda B | 7.º | 28 (10-10-8) |
+| 2020-21 | Segunda B | 3.º | 24 (11-7-6) |
+| 2021-22 | Primera RFEF | 10.º | 38 (16-8-14) |
+| 2022-23 | Primera RFEF | 3.º | 38 (19-12-7) |
+| 2023-24 | Primera RFEF | 10.º | 38 (13-12-13) |
+| 2024-25 | Primera RFEF | 6.º | 38 (12-18-8) |
+
+Son 204 partidos de liga con 81 victorias, 67 empates y 56 derrotas, [según su ficha en la Wikipedia](https://es.wikipedia.org/wiki/Ra%C3%BAl_Gonz%C3%A1lez_Blanco). Antes del Castilla entrenó al Cadete B y al Juvenil B desde 2018 y ganó la Liga Juvenil de la UEFA de 2020 con el Juvenil A, con cuatro victorias en cuatro partidos. Dejó el Real Madrid por decisión propia el 27 de mayo de 2025 y llevaba año y medio sin equipo.
+
+Como jugador ganó tres Copas de Europa y seis Ligas con el Real Madrid, pasó por el Schalke 04 y el Al-Sadd y se retiró en 2015 en el New York Cosmos. Su primer rival como técnico de un primer equipo será el Girona, octavo con los mismos 21 puntos que el Oviedo.`,
+    category: 'tecnico',
+    kind: 'noticia',
+    competition: { name: 'LaLiga Hypermotion', sport: 'futbol', slug: 'laliga-2' },
+    sourceName: 'Real Oviedo',
+    sourceUrl: 'https://www.realoviedo.es/noticias/raul-gonzalez-nuevo-entrenador-del-real-oviedo',
+    sourceLang: 'es',
+    publishedAt: '2026-11-09T16:36:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Real Oviedo: comunicado oficial sobre Julián Calero', url: 'https://www.realoviedo.es/noticias/comunicado-oficial-julian-calero' },
+      { name: 'ESPN: clasificación de LaLiga Hypermotion', url: 'https://www.espn.com/soccer/standings/_/league/esp.2' },
+      { name: 'Wikipedia: Raúl González Blanco, trayectoria como entrenador', url: 'https://es.wikipedia.org/wiki/Ra%C3%BAl_Gonz%C3%A1lez_Blanco' },
+      { name: 'Wikipedia: entrenadores del Real Oviedo', url: 'https://en.wikipedia.org/wiki/Real_Oviedo' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/25th_Laureus_World_Sports_Awards_-_Ra%C3%BAl_-_240422_132002.jpg/1280px-25th_Laureus_World_Sports_Awards_-_Ra%C3%BAl_-_240422_132002.jpg',
+      alt: 'Raúl González Blanco sonríe durante una rueda de prensa de los Premios Laureus de 2024 en Madrid, con un jersey claro de cuello alto, un micrófono y una botella de agua delante',
+      credit: 'Barcex · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'paquito-navarro-37-anos-adios-seleccion-mundial-padel-doha-oro-privilegiado-calgary-2008-lebron-goni-coello',
+    title: 'Paquito Navarro, 37 años, se va de la selección campeón: «He sido y sigo siendo un privilegiado»',
+    summary: 'El sevillano cierra 18 años con España en el Mundial de Doha con su cuarto oro. Lo avisó antes de la final ante Argentina, perdió su punto ante Tapia y Chingotto y defendió al seleccionador.',
+    body: `Paquito Navarro no quiso esperar al resultado para decirlo. El viernes, en la víspera de la final del Mundial de Doha, [contó a la Federación Internacional](https://www.padelfip.com/es/2026/11/espana-y-argentina-por-la-conquista-del-mundo-la-ultima-de-paquito-soy-un-privilegiado-el-respeto-de-chingotto-galan-ellos-tienen-tres-equipos/) que su primera convocatoria fue en Calgary, en 2008, y que, pasara lo que pasara, «he sido y sigo siendo un privilegiado por haber vestido esta camiseta». El sábado España ganó 2-1 a Argentina y el sevillano, de 37 años, cerró 18 años de selección con su cuarto oro.
+
+Tras el título confirmó que había sido su última participación con España y pidió a quienes habían criticado al seleccionador, Juanjo Gutiérrez, que tuvieran el valor de disculparse, según las declaraciones que recogió la FIP en la sala de prensa.
+
+## Cómo se ganó la final
+
+La eliminatoria se jugó el sábado 7 a las 16:00 hora española en el Khalifa International Tennis & Squash Complex de Doha. Gutiérrez abrió con Juan Lebrón y Aimar Goñi, un debutante nacido en 2005, y acertó: remontaron a Di Nenno y Augsburger por 5-7, 7-5 y 6-2, [según la crónica de la FIP](https://www.padelfip.com/es/2026/11/la-noche-de-doha-se-tine-de-rojo-espana-es-campeona-del-mundo-tras-derrotar-a-argentina-gracias-a-la-brillante-actuacion-de-lebron-goni-coello-y-la-maestria-tactica-de-juanjo/). El segundo punto lo perdieron Paquito y Jon Sanz ante Tapia y Chingotto, la pareja más fuerte del torneo. El tercero lo cerraron Arturo Coello y Coki Nieto.
+
+Coello reconoció después que no estaba convencido de jugar el tercer punto y que el mérito era del seleccionador. España llegó a la final sin Ale Galán, lesionado, y Gutiérrez dijo que, aun así, era la selección más fuerte que había entrenado.
+
+## Diez Mundiales, cuatro oros y cuatro platas
+
+| Mundial | Resultado de España con Paquito |
+| --- | --- |
+| 2008 · Calgary | Oro, en su debut |
+| 2010 · Riviera Maya | Oro |
+| 2012 · Riviera Maya | Sin podio |
+| 2014 · Palma | Plata ante Argentina |
+| 2016 · Cascais | Plata ante Argentina |
+| 2018 · Asunción | La final no se disputó |
+| 2021 · Doha | Oro, con Lebrón |
+| 2022 · Dubái | Plata |
+| 2024 · Doha | Plata |
+| 2026 · Doha | Oro, en su despedida |
+
+El repaso es de [Padel Addict](https://www.padeladdict.com/paquito-navarro-adios-mundial-padel-campeon/). Cruzado con [el palmarés del torneo](https://es.wikipedia.org/wiki/Campeonato_Mundial_de_P%C3%A1del), deja un dato: España ha ganado cinco Mundiales masculinos, por doce de Argentina, y Paquito ha estado en cuatro de los cinco. Solo falta en el de 1998, cuando tenía nueve años.
+
+Nacido en Sevilla el 10 de febrero de 1989, fue número uno del mundo en 2019 junto a Lebrón, los primeros españoles en conseguirlo. Hoy es octavo del ranking FIP, como se ve en [nuestra sección de pádel](/padel). No se retira: sigue en el circuito, cuyo calendario y emisión explicamos en [la guía del Premier Padel](/noticias/donde-ver-premier-padel-espana-dubai-mexico-major-finals-barcelona-gratis).
+
+## Ellas, siete seguidos
+
+El mismo sábado, la selección femenina ganó 2-0 a Argentina: Ari Sánchez y Andrea Ustero se impusieron por un doble 6-3 a Fassio y Osoro, y Gemma Triay y Paula Josemaría ganaron a Brea y Jensen por 6-2, 6-7 y 6-3 tras 2 horas y 38 minutos, [según la FIP](https://www.padelfip.com/es/2026/11/espana-otra-vez-tu-septimo-titulo-consecutivo-y-vaya-duelo-con-argentina-triay-es-increible-formar-parte-de-este-equipo/). Es su séptimo título consecutivo y el décimo de su historia. Ustero, debutante, rompió a llorar al cerrar el primer punto.`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'Pádel', sport: 'padel', slug: 'premier-padel' },
+    sourceName: 'International Padel Federation',
+    sourceUrl: 'https://www.padelfip.com/es/2026/11/espana-y-argentina-por-la-conquista-del-mundo-la-ultima-de-paquito-soy-un-privilegiado-el-respeto-de-chingotto-galan-ellos-tienen-tres-equipos/',
+    sourceLang: 'es',
+    publishedAt: '2026-11-09T16:34:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'FIP: crónica de la final masculina España - Argentina', url: 'https://www.padelfip.com/es/2026/11/la-noche-de-doha-se-tine-de-rojo-espana-es-campeona-del-mundo-tras-derrotar-a-argentina-gracias-a-la-brillante-actuacion-de-lebron-goni-coello-y-la-maestria-tactica-de-juanjo/' },
+      { name: 'FIP: declaraciones de los campeones', url: 'https://www.padelfip.com/es/2026/11/espana-campeona-del-mundo-al-unisono-todo-es-gracias-a-juanjo-gutierrez-sus-decisiones-marcaron-el-rumbo-de-la-final-y-nosotros-hicimos-el-resto-en-la-pista/' },
+      { name: 'Padel Addict: de Calgary 2008 a Doha 2026, los Mundiales de Paquito Navarro', url: 'https://www.padeladdict.com/paquito-navarro-adios-mundial-padel-campeon/' },
+      { name: 'Wikipedia: palmarés del Campeonato Mundial de Pádel', url: 'https://es.wikipedia.org/wiki/Campeonato_Mundial_de_P%C3%A1del' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Vigo_Open_2019_de_World_Padel_Tour_-_34.jpg/1280px-Vigo_Open_2019_de_World_Padel_Tour_-_34.jpg',
+      alt: 'Paquito Navarro, con camiseta azul celeste y pala en la mano, choca el puño con Juan Lebrón, de negro, durante un partido del Vigo Open 2019 del World Padel Tour, con el marcador y la grada al fondo',
+      credit: 'Harpagornis · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'alessandro-matri-42-anos-pensaba-que-tenia-ela-depresion-hipocondria-milan-2013-ballando-con-le-stelle-juventus',
+    title: 'Alessandro Matri, 42 años: «Pensaba que tenía ELA», el calvario que empezó al volver al Milan',
+    summary: 'El exdelantero de Juventus y Milan cuenta en la televisión italiana que su fracaso en el Milan de 2013-14 derivó en depresión e hipocondría: creyó tener ELA y aún se hace pruebas cada seis meses.',
+    body: `Alessandro Matri eligió un plató de baile para contar lo que nunca dijo en un vestuario. En la sexta gala de Ballando con le Stelle, el concurso de Rai 1, el exdelantero de 42 años explicó en un vídeo previo a su actuación que su vuelta al Milan en 2013 derivó en una depresión alimentada por la hipocondría: «Pensaba que tenía ELA, pensaba que tenía esclerosis múltiple», [recogió Adnkronos](https://www.adnkronos.com/spettacoli/matri-ballando-con-le-stelle-juve-milan_1Il2skahtgYA289Wyiq320) en la madrugada del sábado al domingo.
+
+Matri dice que vivió el fracaso en el Milan como un duelo, que se sentía un peso para el equipo, que perdió autoestima y que se volvió vulnerable. Se lo contó a su mujer, Federica Nargi, y a sus padres, empezó terapia en la temporada 2014-15 y hoy convive con pequeños miedos y se hace revisiones cada seis meses, [según MilanoToday](https://www.milanotoday.it/cronaca/alessandro-matri-depressione-sla-milan.html).
+
+## Lo que había detrás: 15 partidos y un gol
+
+El club de su infancia lo había fichado de la Juventus en el verano de 2013, después de que en Turín le dijeran que ya no había sitio para él, [según Tuttosport](https://www.tuttosport.com/news/calcio/serie-a/2026/11/08-152466517/matri_a_nudo_dopo_la_juve_sono_crollato_depressione_e_ipocondria_cosa_facevo_e_come_sono_guarito). En dos temporadas de bianconero había ganado dos Ligas y dos Supercopas y había marcado 27 goles en 69 partidos de Serie A.
+
+| Etapa | Partidos de liga | Goles |
+| --- | --- | --- |
+| Cagliari (2007-11) | 125 | 36 |
+| Juventus (2011-13) | 69 | 27 |
+| Milan (2013-enero de 2014) | 15 | 1 |
+| Fiorentina, Genoa y Juventus, cedido (2014-15) | 36 | 11 |
+| Lazio, cedido (2015-16) | 19 | 4 |
+| Sassuolo (2016-19) | 73 | 13 |
+
+Las cifras son de [su ficha en la Wikipedia italiana](https://it.wikipedia.org/wiki/Alessandro_Matri). En el Milan jugó 15 partidos de [Serie A](/futbol/serie-a) con un gol, más tres de Champions, y en enero de 2014 salió cedido a la Fiorentina, donde marcó dos goles en su debut. Volvió a la Juventus en 2015 para medio año y decidió la final de la Copa de Italia ante la Lazio. Se retiró en mayo de 2020 tras pasar por el Brescia.
+
+## El tabú del superhéroe
+
+Su explicación de por qué calló tantos años es la parte que más ha circulado en Italia: un futbolista se cree un superhéroe y tiene miedo de hablar de estas cosas con el entrenador, los compañeros o el presidente, así que se guarda los miedos. Lo cuenta un jugador que fue internacional con [Italia](/selecciones/ita) en siete ocasiones y que, en 2024, [volvió a jugar en categoría amateur](https://www.ilgiorno.it/lodi/sport/alessandro-matri-graffignana-ogw7zpmm) con el Graffignana, el club de su pueblo en la provincia de Lodi.
+
+Nargi, exvelina de Striscia la Notizia y tercera clasificada en la edición de 2024 del mismo concurso, es quien lo animó a participar este año. La pareja tiene dos hijas. El relato lo han recogido Corriere della Sera, Gazzetta y Tuttosport, pero no había llegado a la prensa española.`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'Serie A', sport: 'futbol', slug: 'serie-a' },
+    sourceName: 'Adnkronos',
+    sourceUrl: 'https://www.adnkronos.com/spettacoli/matri-ballando-con-le-stelle-juve-milan_1Il2skahtgYA289Wyiq320',
+    sourceLang: 'it',
+    publishedAt: '2026-11-09T16:32:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'MilanoToday: Matri, depresión e hipocondría tras el Milan', url: 'https://www.milanotoday.it/cronaca/alessandro-matri-depressione-sla-milan.html' },
+      { name: 'Tuttosport: Matri a nudo, dopo la Juve sono crollato', url: 'https://www.tuttosport.com/news/calcio/serie-a/2026/11/08-152466517/matri_a_nudo_dopo_la_juve_sono_crollato_depressione_e_ipocondria_cosa_facevo_e_come_sono_guarito' },
+      { name: 'Wikipedia (it): Alessandro Matri', url: 'https://it.wikipedia.org/wiki/Alessandro_Matri' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/20150616_-_Portugal_-_Italie_-_Gen%C3%A8ve_-_Alessandro_Matri_1.jpg/1280px-20150616_-_Portugal_-_Italie_-_Gen%C3%A8ve_-_Alessandro_Matri_1.jpg',
+      alt: 'Alessandro Matri, con la camiseta azul de Italia y el dorsal 25, corre tras el balón perseguido por un defensa de Portugal en el amistoso de Ginebra de junio de 2015, con la grada llena al fondo',
+      credit: 'Clément Bucco-Lechat · Wikimedia Commons',
+      license: 'CC BY-SA 3.0',
+    },
+  },
+  {
+    slug: 'james-trafford-portero-tres-goles-espana-wembley-pickford-tuchel-reparto-metropolitano-nations-league',
+    title: 'James Trafford, tres goles de España en Wembley: Tuchel sopesa repetir el reparto con Pickford',
+    summary: 'Tuchel mantiene a Pickford como titular, pero admite que puede repartir otra vez los minutos con Trafford ante Croacia y España. En septiembre, el del Leeds encajó tres goles de España en Wembley.',
+    body: `Thomas Tuchel confirmó este lunes que Jordan Pickford sigue siendo el portero titular de Inglaterra, pero dejó abierta la puerta a repetir el reparto de octubre con James Trafford en los dos partidos de la semana, el jueves ante Croacia en Wembley y el domingo ante España en el Metropolitano, [según recogió ESPN](https://www.espn.com/soccer/story/_/id/50432778/jordan-pickford-james-trafford-england-goalkeeper). «Hay una oportunidad de que quizá lo hagamos otra vez», dijo, antes de añadir que debía hablarlo con su entrenador de porteros.
+
+Para el lector español, el nombre no es nuevo: Trafford fue el portero al que [España le marcó tres goles en Wembley](/futbol/nations-league/partido/401861066) el 26 de septiembre, en el 2-3 con el que la campeona del mundo abrió la Nations League.
+
+## Quién jugó cada partido en otoño
+
+| Fecha | Partido | Portero de Inglaterra |
+| --- | --- | --- |
+| 26 de septiembre | Inglaterra 2-3 España (Wembley) | James Trafford |
+| 29 de septiembre | Chequia 0-2 Inglaterra | James Trafford |
+| 3 de octubre | Croacia 0-7 Inglaterra | Jordan Pickford |
+| 6 de octubre | Inglaterra 3-0 Chequia | Jordan Pickford |
+
+Las alineaciones son las de [las actas de ESPN](https://www.espn.com/soccer/match/_/gameId/401861066). Ante España, Trafford recibió el gol de Lamine Yamal a los dos minutos, el de Álex Baena en el 60 y el de Mikel Oyarzabal en el 74; Gordon y Kane habían dado la vuelta al marcador antes del descanso. Pickford, en cambio, dejó dos porterías a cero en los dos partidos que jugó.
+
+## El razonamiento de Tuchel
+
+El seleccionador explicó que la Nations League es el único escenario en el que puede ver a otro portero en partidos de presión, que llegó a preguntarse si era justo lanzar a Trafford directamente contra España y que lo hizo porque necesita saber qué pasa si Pickford se lesiona o no está disponible. Dijo también que le sorprendió la reacción del titular, que aceptó el reparto y animó a su compañero.
+
+Pickford, de 32 años, suma 93 partidos con Inglaterra y es titular desde el Mundial de 2018 con Southgate. Trafford, de 24, juega en el Leeds United con continuidad esta temporada, que era lo que el cuerpo técnico quería. El tercer portero de la [convocatoria](https://www.englandfootball.com/articles/2026/Nov/06/england-senior-mens-squad-announcement-for-croatia-spain-games-20261106) es Jason Steele, del Brighton, sin debutar. Dan Burn ha entrado en la lista por el lesionado Marc Guéhi.
+
+## Lo que viene para España
+
+La selección de Luis de la Fuente, con las novedades de [Marc Roca y Álvaro Valles](/noticias/marc-roca-29-anos-primera-convocatoria-espana-bayern-leeds-betis-europeo-sub-21-2019-de-la-fuente), visita a Chequia el jueves 12 a las 20:45 y recibe a [Inglaterra el domingo 15 a las 20:45](/futbol/nations-league/partido/401861175) en el Riyadh Air Metropolitano; la ficha del partido recoge La 1 y RTVE Play. Inglaterra llega con [Jobe Bellingham en su primera lista](/noticias/jobe-bellingham-primera-convocatoria-inglaterra-jude-tuchel-sin-palmer-espana-metropolitano-lista) y sin Cole Palmer. La clasificación del grupo está en la sección de la [Nations League](/futbol/nations-league) y los datos de ambas selecciones, en las fichas de [España](/selecciones/esp) e [Inglaterra](/selecciones/eng).`,
+    category: 'convocatorias',
+    kind: 'noticia',
+    competition: { name: 'Nations League', sport: 'futbol', slug: 'nations-league' },
+    sourceName: 'ESPN',
+    sourceUrl: 'https://www.espn.com/soccer/story/_/id/50432778/jordan-pickford-james-trafford-england-goalkeeper',
+    sourceLang: 'en',
+    publishedAt: '2026-11-09T16:30:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'England Football: convocatoria para Croacia y España', url: 'https://www.englandfootball.com/articles/2026/Nov/06/england-senior-mens-squad-announcement-for-croatia-spain-games-20261106' },
+      { name: 'ESPN: acta del Inglaterra - España de septiembre', url: 'https://www.espn.com/soccer/match/_/gameId/401861066' },
+      { name: 'ESPN: acta del Croacia - Inglaterra', url: 'https://www.espn.com/soccer/match/_/gameId/401861113' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/James_Trafford_26042025_%285%29.jpg/1280px-James_Trafford_26042025_%285%29.jpg',
+      alt: 'James Trafford, con equipación amarilla de portero, camina por el césped de Loftus Road delante de la grada Stanley Bowles llena de aficionados del Queens Park Rangers, en abril de 2025',
+      credit: 'Timmy96 · Wikimedia Commons',
+      license: 'CC0',
+    },
+  },
+  {
     slug: 'marc-roca-29-anos-primera-convocatoria-espana-bayern-leeds-betis-europeo-sub-21-2019-de-la-fuente',
     title: 'Marc Roca, 29 años: «Sé que Luis siempre ha confiado en mí», siete años después del Europeo sub-21',
     summary: 'El mediocentro del Betis viaja a Las Rozas con su primera convocatoria absoluta a los 29 años, siete después del Europeo sub-21 que ganó con De la Fuente y tras pasar por el Bayern y el Leeds.',
