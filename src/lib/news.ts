@@ -154,6 +154,357 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'cronica-gp-brasil-2026',
+    title: "Lando Norris gana el Gran Premio de Brasil por delante de Max Verstappen",
+    summary: "Lando Norris gana el Gran Premio de Brasil por delante de Max Verstappen y Isack Hadjar. Así queda el Mundial de pilotos y constructores.",
+    body: `Lando Norris ganó el Gran Premio de Brasil en Autodromo Jose Carlos Pace, Sao Paulo. Max Verstappen acabó segundo y Isack Hadjar completó el podio. La pole había sido para Lando Norris, que convirtió la primera posición en victoria.
+
+## El Mundial tras Brasil
+
+1. Kimi Antonelli, 390 puntos
+2. Max Verstappen, 279 puntos
+3. George Russell, 262 puntos
+4. Lewis Hamilton, 261 puntos
+5. Charles Leclerc, 249 puntos
+
+Kimi Antonelli sigue líder con 111 puntos sobre Max Verstappen. En constructores, Mercedes suma 652.
+
+La próxima cita es el Gran Premio de Las Vegas, con la carrera el sábado 21 de noviembre.
+
+Resultados de cada sesión y clasificación completa en la [página de la Fórmula 1](/motor/formula-1).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"Fórmula 1","sport":"motor","slug":"formula-1"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/f1/results",
+    sourceLang: 'en',
+    publishedAt: '2026-11-09T01:14:37.900Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Vista_a%C3%A9rea_del_Aut%C3%B3dromo_Jos%C3%A9_Carlos_Pace_02.jpg/1920px-Vista_a%C3%A9rea_del_Aut%C3%B3dromo_Jos%C3%A9_Carlos_Pace_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Autodromo Jose Carlos Pace , escenario del Gran Premio de Brasil",
+      credit: "ProtoplasmaKid · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'clasificacion-nba-semana-2026-46',
+    title: "NBA: así queda la clasificación esta semana, con 76ers líder",
+    summary: "76ers lidera NBA con 9 victorias y 2 derrotas. Tabla comentada de NBA 2027: cabeza, zona baja y enlace a la clasificación completa.",
+    body: `76ers lidera NBA con 9 victorias y 2 derrotas.
+
+## Eastern Conference
+
+1. **76ers** — 9-2
+2. **Celtics** — 7-2 (a 1)
+3. **Pistons** — 6-2 (a 1.5)
+4. **Hawks** — 7-4 (a 2)
+5. **Knicks** — 5-4 (a 3)
+6. **Raptors** — 5-4 (a 3)
+7. **Cavaliers** — 5-5 (a 3.5)
+8. **Wizards** — 4-6 (a 4.5)
+
+## Western Conference
+
+1. **Thunder** — 8-2
+2. **Spurs** — 8-2
+3. **Lakers** — 8-2
+4. **Warriors** — 7-3 (a 1)
+5. **Timberwolves** — 7-3 (a 1)
+6. **Rockets** — 7-3 (a 1)
+7. **Grizzlies** — 6-3 (a 1.5)
+8. **Trail Blazers** — 6-3 (a 1.5)
+
+La clasificación completa, con todos los equipos y los próximos partidos, está en la [página de NBA](/baloncesto/nba).`,
+    category: 'general',
+    kind: 'clasificacion',
+    competition: {"name":"NBA","sport":"baloncesto","slug":"nba"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/nba/standings",
+    sourceLang: 'en',
+    publishedAt: '2026-11-09T01:14:37.900Z',
+    author: "Redacción Mundiales de Fútbol",
+  },
+  {
+    slug: 'clasificacion-premier-league-semana-2026-46',
+    title: "Premier League: así queda la clasificación esta semana, con Arsenal líder",
+    summary: "Arsenal manda en Premier League con 27 puntos tras la última jornada. Tabla comentada de Premier League 2026: cabeza, zona baja y enlace a la clasificación completa.",
+    body: `Arsenal manda en Premier League con 27 puntos tras la última jornada.
+
+## La tabla
+
+1. **Arsenal** — 27 pts (9G-0E-1P, +10)
+2. **Brighton** — 22 pts (7G-1E-2P, +19)
+3. **Man City** — 21 pts (7G-0E-3P, +8)
+4. **Liverpool** — 18 pts (5G-3E-2P, +4)
+5. **Chelsea** — 16 pts (5G-1E-4P, +3)
+6. **Everton** — 16 pts (4G-4E-2P, +2)
+
+En la zona baja: Man Utd (8 pts), Sunderland (8 pts) y C Palace (7 pts).
+
+La clasificación completa, con todos los equipos y los próximos partidos, está en la [página de Premier League](/futbol/premier-league).`,
+    category: 'general',
+    kind: 'clasificacion',
+    competition: {"name":"Premier League","sport":"futbol","slug":"premier-league"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/standings/_/league/eng.1",
+    sourceLang: 'en',
+    publishedAt: '2026-11-09T01:14:37.900Z',
+    author: "Redacción Mundiales de Fútbol",
+  },
+  {
+    slug: 'clasificacion-laliga-semana-2026-46',
+    title: "LaLiga: así queda la clasificación esta semana, con Barcelona líder",
+    summary: "Barcelona sigue arriba en LaLiga (33 puntos). Repasamos la clasificación completa. Tabla comentada de LaLiga 2026: cabeza, zona baja y enlace a la clasificación completa.",
+    body: `Barcelona sigue arriba en LaLiga (33 puntos). Repasamos la clasificación completa.
+
+## La tabla
+
+1. **Barcelona** — 33 pts (11G-0E-1P, +35)
+2. **Real Madrid** — 30 pts (10G-0E-2P, +21)
+3. **Atlético** — 28 pts (9G-1E-2P, +13)
+4. **Betis** — 26 pts (8G-2E-2P, +5)
+5. **Real Sociedad** — 22 pts (7G-1E-4P, +1)
+6. **Sevilla** — 18 pts (5G-3E-4P, -2)
+
+En la zona baja: Elche (10 pts), Valencia (9 pts) y Málaga (5 pts).
+
+La clasificación completa, con todos los equipos y los próximos partidos, está en la [página de LaLiga](/futbol/laliga).`,
+    category: 'general',
+    kind: 'clasificacion',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/standings/_/league/esp.1",
+    sourceLang: 'en',
+    publishedAt: '2026-11-09T01:14:37.900Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Est%C3%A1dio_Camp_Nou%2C_Barcelona_2022_%2891998%29.jpg/1920px-Est%C3%A1dio_Camp_Nou%2C_Barcelona_2022_%2891998%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Estadio de Barcelona, líder de LaLiga",
+      credit: "Boaventuravinicius · CC BY-SA 3.0 · Wikimedia Commons",
+      license: "CC BY-SA 3.0",
+    },
+  },
+  {
+    slug: 'cronica-elche-betis-401882814',
+    title: "Betis gana fuera 2-0 a Elche y es 4.º",
+    summary: "Betis suma tres puntos ante Elche (2-0) en LaLiga y es 4.º con 26 puntos; Elche se queda 18.º.",
+    body: `Betis se impuso 2-0 a Elche en LaLiga. Se emitió en DAZN LaLiga y DAZN.
+
+## Los goles
+
+Marcaron Rodrigo Riquelme (81', Betis) y Marc Bartra (89', Betis).
+
+## La tabla
+
+Tras el partido, Elche 18.º con 10 puntos y Betis 4.º con 26 puntos en la [clasificación de LaLiga](/futbol/laliga).
+
+## Lo que viene
+
+El calendario completo está en la página de la competición. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/laliga/partido/401882814).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882814",
+    sourceLang: 'en',
+    publishedAt: '2026-11-09T01:14:37.900Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Mart%C3%ADnez_Valero_desde_un_fondo.JPG/1280px-Mart%C3%ADnez_Valero_desde_un_fondo.JPG",
+      alt: "El estadio Martínez Valero de Elche visto desde la boca de un vomitorio",
+      credit: "Raquel López Cuartero · Wikimedia Commons",
+      license: "CC BY 3.0",
+    },
+  },
+  {
+    slug: 'cronica-real-sociedad-rayo-401882810',
+    title: "Real Sociedad 1 Rayo 0: gol de Orri Óskarsson, Real Sociedad 5.º y posesión del 51 % para Real Sociedad",
+    summary: "Orri Óskarsson marcó en el 67' el gol que puso por delante a Real Sociedad, que ya no soltó la ventaja: 1-0 final ante Rayo en LaLiga. Claves: gol de Orri Óskarsson, Real Sociedad 5.º y posesión del 51 % para Real Sociedad.",
+    body: `Orri Óskarsson marcó en el 67' el gol que puso por delante a Real Sociedad, que ya no soltó la ventaja: 1-0 final ante Rayo en LaLiga.
+
+## Orri Óskarsson decidió
+
+Los goles: Orri Óskarsson (67', Real Sociedad).
+
+## Los números del partido
+
+Real Sociedad manejó el balón (51 % por 49 %) y tiró 17 veces, 3 entre los tres palos; Rayo se quedó en 11 remates (3 a puerta). Córners: 7 por 6. Se emitió en M+ LALIGA.
+
+## Qué cambia en la tabla
+
+Tras el partido, Real Sociedad 5.º con 22 puntos y Rayo 14.º con 12 puntos en la [clasificación de LaLiga](/futbol/laliga).
+
+## Qué viene ahora
+
+Próximos partidos en la página de la competición. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/laliga/partido/401882810).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882810",
+    sourceLang: 'en',
+    publishedAt: '2026-11-09T01:14:37.900Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Anoeta_00%2C_Donostia%2C_Gipuzkoa%2C_Euskal_Herria.jpg/1280px-Anoeta_00%2C_Donostia%2C_Gipuzkoa%2C_Euskal_Herria.jpg",
+      alt: "Exterior del estadio de Anoeta, con su fachada azul y el nombre Reale Arena",
+      credit: "Bhgh543bgf · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'cronica-villarreal-getafe-401882807',
+    title: "Villarreal 2 Getafe 0: goles de Tajon Buchanan y Carlos Romero y Villarreal 8.º",
+    summary: "Tajon Buchanan marcó en el 80' el gol que puso por delante a Villarreal, que ya no soltó la ventaja: 2-0 final ante Getafe en LaLiga. Claves: goles de Tajon Buchanan y Carlos Romero, Villarreal 8.º y posesión del 72 % para Villarreal.",
+    body: `Tajon Buchanan marcó en el 80' el gol que puso por delante a Villarreal, que ya no soltó la ventaja: 2-0 final ante Getafe en LaLiga.
+
+## Tajon Buchanan decidió
+
+Marcaron Tajon Buchanan (80', Villarreal) y Carlos Romero (90'+1', Villarreal).
+
+## Los números del partido
+
+Villarreal manejó el balón (72 % por 28 %) y tiró 22 veces, 7 entre los tres palos; Getafe se quedó en 9 remates (1 a puerta). Córners: 9 por 4. Se emitió en DAZN LaLiga y DAZN.
+
+## Qué cambia en la tabla
+
+Tras el partido, Villarreal 8.º con 15 puntos y Getafe 15.º con 12 puntos en la [clasificación de LaLiga](/futbol/laliga).
+
+## Qué viene ahora
+
+Próximos partidos en la página de la competición. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/laliga/partido/401882807).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882807",
+    sourceLang: 'en',
+    publishedAt: '2026-11-09T01:14:37.900Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/ESTADIO3.jpg/1280px-ESTADIO3.jpg",
+      alt: "El estadio de la Cerámica de Villarreal lleno durante un partido nocturno",
+      credit: "Frank94Rock · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'cronica-celta-vigo-levante-401882815',
+    title: "Celta Vigo y Levante empatan 0-0; Celta Vigo sigue 11.º en LaLiga",
+    summary: "Celta Vigo 0-0 Levante en LaLiga. Celta Vigo 59 % de posesión y 23 remates; Levante 41 % y 6.",
+    body: `## Resumen
+
+Celta Vigo y Levante empataron 0-0 en LaLiga. Se emitió en M+ LALIGA y M+ LALIGA 2.
+
+## Los goles
+
+Sin goles.
+
+## El dato
+
+Celta Vigo 59 % de posesión y 23 remates; Levante 41 % y 6.
+
+## Lo que viene
+
+Tras el partido, Celta Vigo 11.º con 13 puntos y Levante 17.º con 11 puntos en la [clasificación de LaLiga](/futbol/laliga).
+
+**Lee también:** la [ficha del partido](/futbol/laliga/partido/401882815) con alineaciones y narración · la [clasificación de LaLiga](/futbol/laliga) · [partidos de hoy](/partidos-hoy).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882815",
+    sourceLang: 'en',
+    publishedAt: '2026-11-09T01:14:37.900Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Estadio_Abanca_Bala%C3%ADdos.jpg/1280px-Estadio_Abanca_Bala%C3%ADdos.jpg",
+      alt: "Un aficionado levanta una bufanda celeste en la grada de Balaídos, iluminado de noche y lleno",
+      credit: "Estevoaei · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'cronica-atletico-barcelona-401882816',
+    title: "Atlético 1 Barcelona 2: doblete de Fermín López, Barcelona 1.º y posesión del 37 % para Atlético",
+    summary: "Fermín López marcó en el 66' el gol que puso por delante a Barcelona, que ya no soltó la ventaja: 2-1 final ante Atlético en LaLiga. Claves: doblete de Fermín López, Barcelona 1.º y posesión del 37 % para Atlético.",
+    body: `Fermín López marcó en el 66' el gol que puso por delante a Barcelona, que ya no soltó la ventaja: 2-1 final ante Atlético en LaLiga.
+
+## Fermín López decidió con 2 goles
+
+Marcaron Giuliano Simeone (10', Atlético), Fermín López (45', Barcelona) y Fermín López (66', Barcelona).
+
+## Los números del partido
+
+La posesión fue 37 %-63 % para Atlético. En remates, 9 de Atlético (4 a puerta) por 19 de Barcelona (4). Córners: 4 por 2. Se emitió en M+ LALIGA.
+
+## Qué cambia en la tabla
+
+Tras el partido, Atlético 3.º con 28 puntos y Barcelona 1.º con 33 puntos en la [clasificación de LaLiga](/futbol/laliga).
+
+## Qué viene ahora
+
+Próximos partidos en la página de la competición. Alineaciones, momentos clave, estadísticas completas y la narración minuto a minuto, en la [ficha del partido](/futbol/laliga/partido/401882816).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882816",
+    sourceLang: 'en',
+    publishedAt: '2026-11-09T01:14:37.900Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Madrid_-_Estadio_Wanda_Metropolitano_07.jpg/1280px-Madrid_-_Estadio_Wanda_Metropolitano_07.jpg",
+      alt: "Exterior del estadio Metropolitano de Madrid, con la cubierta roja sobre la fachada",
+      credit: "Zarateman · Wikimedia Commons",
+      license: "CC0",
+    },
+  },
+  {
+    slug: 'partidos-futbol-hoy-2026-11-09',
+    title: "Partidos de fútbol hoy, lunes 9 de noviembre: horarios y dónde ver Liga F, LaLiga 2 y FA Cup",
+    summary: "Agenda de fútbol de hoy lunes 9 de noviembre: 5 partidos con horario en hora española y canal de televisión. Destaca Deportivo - Valencia.",
+    body: `5 partidos de fútbol para lunes 9 de noviembre. Repasamos qué se juega, a qué hora y en qué canal, sin más vueltas. El partido que más miradas reúne es el **[Deportivo - Valencia](/futbol/liga-f/partido/401882465)** (Liga F, 21:00 h).
+
+## 🇪🇸 Liga F
+
+- **[Atlético Madrid - Badalona](/futbol/liga-f/partido/401882467)** — 19:00 h
+- **[Deportivo - Valencia](/futbol/liga-f/partido/401882465)** — 21:00 h
+
+Calendario y clasificación en la [página de Liga F](/futbol/liga-f).
+
+## 🇪🇸 LaLiga Hypermotion
+
+- **[CD Sabadell - Real Sociedad II](/futbol/laliga-2/partido/401883139)** — 20:30 h
+- **[Las Palmas - Eldense](/futbol/laliga-2/partido/401883140)** — 20:30 h
+
+Calendario y clasificación en la [página de LaLiga 2](/futbol/laliga-2).
+
+## 🏴󠁧󠁢󠁥󠁮󠁧󠁿 FA Cup
+
+- **[Plymouth - Berkhamsted](/futbol/fa-cup/partido/401931098)** — 20:30 h
+
+Calendario y clasificación en la [página de FA Cup](/futbol/fa-cup).
+
+Todos los horarios están en hora peninsular. Los marcadores se actualizan en directo en cada ficha de partido. Toda la jornada, con marcadores en directo, en [partidos de hoy](/partidos-hoy).`,
+    category: 'tv',
+    kind: 'agenda',
+    competition: {"name":"Liga F","sport":"futbol","slug":"liga-f"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401882465",
+    sourceLang: 'en',
+    publishedAt: '2026-11-09T01:14:37.900Z',
+    modifiedAt: '2026-11-09T01:14:37.900Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Estadio_de_Riazor_-_2.jpg/1920px-Estadio_de_Riazor_-_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Riazor, escenario del Deportivo - Valencia",
+      credit: "HausOf_Diegoo from Caracas, Venezuela · CC BY 2.0 · Wikimedia Commons",
+      license: "CC BY 2.0",
+    },
+  },
+  {
     slug: 'raul-fernandez-podio-qatar-o-acabo-en-el-podio-o-me-quedo-sin-gasolina-mapa-motor-ogura-marquez',
     title: "Raúl Fernández, tercero en Lusail: «O acabo en el podio o me quedo sin gasolina»",
     summary: "El piloto madrileño de Trackhouse cuenta cómo salvó el tercer puesto del GP de Qatar: con Ogura a menos de un segundo, cambió el mapa del motor en la última vuelta y se jugó el depósito.",
