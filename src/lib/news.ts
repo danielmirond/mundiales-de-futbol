@@ -154,6 +154,73 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'amaia-gorostiza-presidenta-eibar-desde-2016-deja-cargo-cordon-umbilical-sin-retribucion-ulazia-cadiz-15-noviembre',
+    title: 'Amaia Gorostiza, presidenta del Eibar desde 2016: «Estoy cortando un cordón umbilical»',
+    summary: 'Amaia Gorostiza deja la presidencia del Eibar tras diez años sin cobrar. Su último partido en el palco es ante el Cádiz el domingo 15 y Jon Ander Ulazia, vicepresidente de LaLiga, la releva.',
+    body: `Amaia Gorostiza compareció este lunes en Ipurua para [anunciar que deja la presidencia](https://www.sdeibar.com/noticias/amaia-gorostiza-pone-fin-a-una-decada-de-presidencia-al-frente-de-la-sd-eibar) de la SD Eibar y también su puesto de consejera. Presidirá su último partido el domingo 15 de noviembre, [ante el Cádiz en Ipurua](/futbol/laliga-2/partido/401883117), y el lunes 16 presentará formalmente la dimisión ante el Consejo de Administración. En la rueda de prensa admitió que le costaba muchísimo pronunciar esas palabras y [resumió así el paso](https://www.youtube.com/watch?v=7gBcwtD9aB8&t=471s): «Siento que hoy estoy cortando un cordón umbilical».
+
+La decisión, dijo, es personal, firme y no responde a los resultados: el Eibar es cuarto en [LaLiga Hypermotion](/futbol/laliga-2) con 23 puntos en 12 partidos, en puesto de playoff. Entró en el consejo en noviembre de 2014, asumió la presidencia el 23 de mayo de 2016 y ha ejercido el cargo de forma ejecutiva y sin retribución, con una dedicación que, según contó, no entendía de horarios ni de festivos.
+
+## Diez años, una tabla
+
+La presidencia de Gorostiza abarca diez temporadas completas y el arranque de la undécima. La clasificación de cada curso sale de la [tabla temporada a temporada del club](https://en.wikipedia.org/wiki/SD_Eibar) y de los cuadros de playoff de la Segunda División.
+
+| Temporada | Categoría | Puesto | Qué pasó |
+| --- | --- | --- | --- |
+| 2016-17 | Primera | 10.º | Cuartos de Copa por primera vez en la historia |
+| 2017-18 | Primera | 9.º | Mejor clasificación histórica, 51 puntos |
+| 2018-19 | Primera | 12.º | Quinta temporada seguida en Primera |
+| 2019-20 | Primera | 14.º | Liga de la pandemia, a puerta cerrada |
+| 2020-21 | Primera | 20.º | Descenso tras siete años en la élite |
+| 2021-22 | Segunda | 3.º | Eliminado en semifinales del playoff por el Girona |
+| 2022-23 | Segunda | 5.º | Eliminado en semifinales por el Alavés |
+| 2023-24 | Segunda | 3.º | Eliminado en semifinales por el Oviedo |
+| 2024-25 | Segunda | 9.º | Fuera del playoff |
+| 2025-26 | Segunda | 8.º | Fuera del playoff |
+| 2026-27 | Segunda | 4.º (jornada 12) | En puesto de playoff al dejar el cargo |
+
+Tres playoffs seguidos y tres eliminaciones en semifinales, [las de 2022 ante el Girona](https://es.wikipedia.org/wiki/Segunda_Divisi%C3%B3n_de_Espa%C3%B1a_2021-22), la de 2023 ante el Alavés y la de 2024 ante el Oviedo. Ella misma lo reconoció sin esconderse: habló de ascensos que se escaparon cuando parecían al alcance de la mano y admitió que le habría gustado celebrar alguno.
+
+## Elegida dos veces por 11.000 accionistas
+
+El Eibar es un club de accionistas pequeños. Desde la ampliación de capital de 2014, que reunió los 1,9 millones de euros que exigía la ley para seguir en el fútbol profesional, [cuenta con más de 11.130 accionistas en 65 países](https://www.sdeibar.com/accionistas). Gorostiza fue la primera mujer en presidir el club y ganó las primeras elecciones de su historia, en 2017, con renovación en 2022. El mandato actual termina en 2027 y el consejo seguirá en funciones hasta entonces.
+
+Su legado material es la ciudad deportiva de Areitio, que el club describe como su primer gran patrimonio propio. Gorostiza insistió en que no es el proyecto en sí, sino una parte de algo más amplio: la cantera, el fútbol femenino, la fundación y el equipo Genuine.
+
+## Ulazia, el relevo con silla en LaLiga
+
+La presidencia pasa a Jon Ander Ulazia, consejero delegado del club y, desde octubre de 2024, vicepresidente segundo de LaLiga, cargo en el que [fue reelegido el 16 de octubre](https://www.sdeibar.com/noticias/jon-ander-ulazia-reelegido-como-vicepresidente-segundo-de-laliga) junto a Miguel Ángel Gil Marín, vicepresidente primero. El Eibar mantiene así una voz en los órganos del fútbol profesional mientras compite en Segunda.
+
+Lo que viene para el nuevo presidente:
+
+- **Martes 10, 19:00**: [CD Pamplona - Eibar](/futbol/copa-del-rey/partido/401928516) en Mutilva, la eliminatoria de Copa [aplazada dos veces](/noticias/copa-del-rey-hoy-aplazada-rfef-muerte-jesus-de-miguel-anaitasuna-alaves-pamplona-eibar-segunda-vez-sin-fecha-nueva) por el accidente de Urda y por la muerte de Jesús de Miguel. Canal por confirmar en la ficha.
+- **Domingo 15, 18:30**: Eibar - Cádiz en Ipurua, el último partido de Gorostiza en el palco. Lo emiten LALIGA TV Hypermotion, DAZN y Orange Fútbol 2.
+- **Lunes 16**: dimisión formal y nombramiento de Ulazia en el Consejo de Administración.
+
+Gorostiza cerró con un mensaje para la grada: dejará de ser presidenta, pero seguirá siendo armera y vivirá Ipurua desde otro asiento. La [ficha del equipo](/futbol/laliga-2/equipo/3752) recoge plantilla, resultados y calendario.`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'LaLiga Hypermotion', sport: 'futbol', slug: 'laliga-2' },
+    sourceName: 'SD Eibar',
+    sourceUrl: 'https://www.sdeibar.com/noticias/amaia-gorostiza-pone-fin-a-una-decada-de-presidencia-al-frente-de-la-sd-eibar',
+    sourceLang: 'es',
+    publishedAt: '2026-11-09T20:20:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'SD Eibar: rueda de prensa de Amaia Gorostiza (vídeo, 9 de noviembre de 2026)', url: 'https://www.youtube.com/watch?v=7gBcwtD9aB8' },
+      { name: 'SD Eibar: accionistas del club', url: 'https://www.sdeibar.com/accionistas' },
+      { name: 'SD Eibar: Jon Ander Ulazia, reelegido vicepresidente segundo de LaLiga', url: 'https://www.sdeibar.com/noticias/jon-ander-ulazia-reelegido-como-vicepresidente-segundo-de-laliga' },
+      { name: 'Wikipedia: SD Eibar, temporada a temporada', url: 'https://en.wikipedia.org/wiki/SD_Eibar' },
+      { name: 'ESPN: clasificación de LaLiga Hypermotion', url: 'https://www.espn.com/soccer/standings/_/league/esp.2' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Eibar1-0Lega2018.jpg/1280px-Eibar1-0Lega2018.jpg',
+      alt: 'Ipurua a pleno sol durante un partido del Eibar en 2018, con los jugadores sobre el césped, la tribuna llena y dos torres de viviendas de ladrillo asomando detrás de la grada',
+      credit: 'Miguelazo84 · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
     slug: 'celtics-76ers-hugo-gonzalez-brown-tatum-aday-mara-portland-gauff-indian-wells-martes-10-noviembre-horarios',
     title: 'Celtics - 76ers con Hugo González, Aday Mara y las WTA Finals: horarios y canales del martes 10',
     summary: 'Los dos mejores del Este se miden a las 02:00 con Hugo González en la rotación de Boston, Aday Mara juega a las 05:00 en Portland y las WTA Finals siguen desde las 21:00. Qué canal hay confirmado.',
