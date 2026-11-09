@@ -8,7 +8,7 @@ import { createPortal } from 'react-dom';
 import { cn } from '@/lib/utils';
 import { BrandLockup } from '@/components/brand/brand-mark';
 import { Icon, sportIcon, type IconName } from '@/components/ui/icon';
-import { routing, localeMeta, type Locale } from '@/i18n/routing';
+import { routing, type Locale } from '@/i18n/routing';
 import { NAV_SPORTS, NAV_COMPS, MORE_SPORTS } from './nav-data';
 import { useLiveToday } from './use-live-today';
 import { OPEN_MENU_EVENT } from './bottom-nav';
@@ -205,13 +205,6 @@ export function SiteNav() {
             </Link>
           ))}
         </nav>
-        <div className="mt-2 flex flex-wrap gap-2">
-          {routing.locales.map((l) => (
-            // Botón y no enlace: las ediciones /en /pt /fr /ar no se indexan y no
-            // deben recibir enlaces rastreables desde ninguna página.
-            <button key={l} type="button" onClick={() => { window.location.href = withLocale(l as Locale, '/'); }} className={cn('rounded-full border px-3 py-2 font-mono text-[11px] uppercase tracking-[0.1em]', l === locale ? 'border-[var(--color-fg)] text-[var(--color-fg)]' : 'border-[var(--color-border)] text-[var(--color-fg-muted)]')}>{localeMeta[l as Locale]?.nativeLabel ?? l}</button>
-          ))}
-        </div>
       </div>, document.body)}
     </header>
   );

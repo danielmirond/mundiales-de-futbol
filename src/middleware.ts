@@ -6,18 +6,16 @@ import { updateSession } from './lib/supabase/middleware';
 const intlMiddleware = createMiddleware(routing);
 
 export default async function middleware(request: NextRequest) {
-  // Las noticias solo existen en español: las copias /en|pt|fr|ar/noticias/…
-  // (texto en español con la interfaz traducida) redirigen a la original.
-  const news = request.nextUrl.pathname.match(/^\/(?:en|pt|fr|ar)(\/noticias(?:\/.*)?)$/);
-  if (news) {
+  // Solo existe la edición en español (2026-11-09): toda URL /en|pt|fr|ar/…
+  // redirige con 301 a su equivalente sin prefijo. Google sustituye las copias
+  // por la URL española en vez de esperar a leer el noindex de cada una.
+  const loc = request.nextUrl.pathname.match(/^\/(?:en|pt|fr|ar)(\/.*)?$/);
+  if (loc) {
     const url = request.nextUrl.clone();
-    url.pathname = news[1];
+    url.pathname = loc[1] || '/';
     return NextResponse.redirect(url, 301);
   }
   const response = intlMiddleware(request) ?? NextResponse.next();
-  // Solo se indexa la edición en español (2026-11-01): /en, /pt, /fr y /ar siguen
-  // accesibles, pero fuera del índice y sin enlaces ni hreflang que apunten a ellas.
-  if (/^\/(en|pt|fr|ar)(\/|$)/.test(request.nextUrl.pathname)) response.headers.set('X-Robots-Tag', 'noindex, follow');
   return updateSession(request, response);
 }
 
