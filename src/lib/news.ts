@@ -204,7 +204,7 @@ Gorostiza cerró con un mensaje para la grada: dejará de ser presidenta, pero s
     sourceName: 'SD Eibar',
     sourceUrl: 'https://www.sdeibar.com/noticias/amaia-gorostiza-pone-fin-a-una-decada-de-presidencia-al-frente-de-la-sd-eibar',
     sourceLang: 'es',
-    publishedAt: '2026-11-09T20:20:00+01:00',
+    publishedAt: '2026-11-09T20:15:00+01:00',
     author: 'Redacción Mundiales',
     sourcesSecondary: [
       { name: 'SD Eibar: rueda de prensa de Amaia Gorostiza (vídeo, 9 de noviembre de 2026)', url: 'https://www.youtube.com/watch?v=7gBcwtD9aB8' },
