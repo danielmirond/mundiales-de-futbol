@@ -154,6 +154,252 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'marc-roca-29-anos-primera-convocatoria-espana-bayern-leeds-betis-europeo-sub-21-2019-de-la-fuente',
+    title: 'Marc Roca, 29 años: «Sé que Luis siempre ha confiado en mí», siete años después del Europeo sub-21',
+    summary: 'El mediocentro del Betis viaja a Las Rozas con su primera convocatoria absoluta a los 29 años, siete después del Europeo sub-21 que ganó con De la Fuente y tras pasar por el Bayern y el Leeds.',
+    body: `Marc Roca atendió este lunes a [Estadio Deportivo en el aeropuerto de Sevilla](https://www.estadiodeportivo.com/futbol/betis/luis-fuente-salda-deuda-con-marc-roca-que-luis-siempre-confiado-ahora-quiero-agradecerselo-expresa-futbolista-del-betis-20261109-550309.html) antes de volar a Madrid con Álvaro Valles. Es su primera convocatoria con la selección absoluta y le llega a los 29 años, diecisiete días antes de cumplir 30. «Sé que Luis siempre ha confiado en mí», dijo del seleccionador, y añadió que quiere devolverle esa confianza.
+
+La última vez que entró en una lista de Luis de la Fuente fue en el verano de 2019: ganó el Europeo sub-21 de Italia y marcó en la semifinal ante Francia (4-1). De aquel vestuario, Unai Simón, Mikel Oyarzabal, Fabián Ruiz y Dani Olmo llevan años en la absoluta. Él tardó siete años, cuatro meses y una semana en volver.
+
+## Siete años, tres países y dos descensos
+
+| Etapa | Qué pasó |
+| --- | --- |
+| 2016-2020 · Espanyol | 121 partidos oficiales; 44 en la 2019-20, la del descenso a Segunda |
+| Octubre 2020 · Bayern | Contrato de cinco años; 11 partidos el primer curso y expulsión en su debut en Champions ante el Salzburgo |
+| 2021-22 · Bayern | Campeón de la Bundesliga como jugador de rotación |
+| Junio 2022 · Leeds | Traspaso cifrado en unos 12 millones; descenso a la Championship en 2022-23 |
+| 2023-24 · Betis | Cesión con 4 goles en 37 partidos; traspaso en 2024 con contrato hasta 2029 |
+
+La trayectoria está en [su ficha de la Wikipedia en inglés](https://en.wikipedia.org/wiki/Marc_Roca). En cuatro años pasó de ser titular en un Espanyol que bajaba a mirar desde el banquillo del Bayern y a descender otra vez en Inglaterra. El [Betis](/futbol/laliga/equipo/244) lo recuperó cedido en 2023 y lo compró un año después.
+
+## Por qué ahora
+
+De la Fuente explicó el viernes que Roca ya conoce los «automatismos» de su fútbol, [según recogió Estadio Deportivo](https://www.estadiodeportivo.com/futbol/betis/luis-fuente-explica-convocatoria-beticos-alvaro-valles-marc-roca-20261106-550137.html), y que la lista premia el momento del Betis, cuarto en LaLiga. El club [anunció las dos llamadas](https://www.realbetisbalompie.es/noticias/noticias/alvaro-valles-y-marc-roca-convocados-por-la-seleccion-espanola-32819) el mismo 6 de noviembre.
+
+Los números de esta temporada, según [su registro en ESPN](https://www.espn.com/soccer/player/_/id/242008/marc-roca), son nueve titularidades y una asistencia en LaLiga, más dos partidos de inicio en la Champions. No es un centrocampista de cifras: su argumento es el equilibrio en un equipo que compite en dos frentes.
+
+## Qué se juega la campeona del mundo
+
+España visita a Chequia el jueves 12 a las 20:45 (19:45 en Canarias) en el [Generali Arena de Praga](/futbol/nations-league/partido/401861148) y recibe a Inglaterra el domingo 15 a la misma hora en el [Metropolitano](/futbol/nations-league/partido/401861175), dentro de la [Nations League](/futbol/nations-league). La convocatoria completa está en la [ficha de la selección](/selecciones/esp).
+
+Roca aún no había hablado con el seleccionador cuando cogió el avión. «Ir a la selección es un sueño de cualquier niño», resumió. Con 29 años, el niño de La Granada que se formó en el Espanyol vuelve al lugar donde fue campeón.`,
+    category: 'convocatorias',
+    kind: 'noticia',
+    competition: { name: 'Nations League', sport: 'futbol', slug: 'nations-league' },
+    sourceName: 'Estadio Deportivo',
+    sourceUrl: 'https://www.estadiodeportivo.com/futbol/betis/luis-fuente-salda-deuda-con-marc-roca-que-luis-siempre-confiado-ahora-quiero-agradecerselo-expresa-futbolista-del-betis-20261109-550309.html',
+    sourceLang: 'es',
+    publishedAt: '2026-11-09T13:20:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Real Betis: Álvaro Valles y Marc Roca, convocados por la selección española', url: 'https://www.realbetisbalompie.es/noticias/noticias/alvaro-valles-y-marc-roca-convocados-por-la-seleccion-espanola-32819' },
+      { name: 'Estadio Deportivo: Luis de la Fuente explica la convocatoria de los béticos', url: 'https://www.estadiodeportivo.com/futbol/betis/luis-fuente-explica-convocatoria-beticos-alvaro-valles-marc-roca-20261106-550137.html' },
+      { name: 'ESPN: ficha de Marc Roca', url: 'https://www.espn.com/soccer/player/_/id/242008/marc-roca' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Betis_Girona_23_nov_2025.jpg/1280px-Betis_Girona_23_nov_2025.jpg',
+      alt: 'Marc Roca, con el dorsal 21 del Betis, corre por la banda izquierda mientras el portero del Girona conduce el balón en el centro del campo durante el partido de noviembre de 2025',
+      credit: 'Anual · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'messi-busca-edificio-centro-alicante-espacio-tematico-antiguo-cine-ideal-eldense-princesa-asturias',
+    title: 'Messi busca edificio en el centro de Alicante: un cine cerrado hace 25 años encabeza la lista',
+    summary: 'El entorno de Messi rastrea el mercado inmobiliario de Alicante para abrir un espacio con restaurante, tienda y experiencia multimedia. El antiguo cine Ideal es el favorito; el Eldense pide prudencia.',
+    body: `El entorno de Lionel Messi busca un edificio en el centro de Alicante para abrir un «espacio temático» con tres ambientes: un restaurante, una tienda ligada al futbolista y una experiencia multimedia sobre su figura, [según adelantó Información el sábado](https://www.informacion.es/alicante/2026/11/07/messi-busca-edificio-centro-alicante-136195871.html). El diario cita tres inmuebles marcados en rojo y uno por encima de los demás: el antiguo cine Ideal, en la avenida de la Constitución.
+
+El edificio es centenario, lleva casi un cuarto de siglo sin uso y pertenece al grupo murciano Baraka desde hace casi cinco años, que pagó unos seis millones de euros por él. Hace medio año el Ayuntamiento le denegó la licencia para un hotel de cuatro estrellas: el informe técnico concluía que las obras no eran compatibles con la protección del inmueble. El concejal de Urbanismo, Antonio Peral, aclaró entonces que la negativa se limitaba a ese proyecto y que el edificio «puede destinarse a usos compatibles con su protección».
+
+## Elda primero
+
+El Eldense, propiedad de Messi desde octubre, reconoce los contactos pero marca distancias. «Los únicos proyectos que están ahora mismo sobre la mesa son en la ciudad de Elda», [dijo a Información su director general, Mario Rosas](https://www.informacion.es/alicante/2026/11/08/alicante-abraza-proyecto-messi-figura-136216403.html), que admite «consultas» y «mucha expectación» de otros municipios de la provincia. El club azulgrana juega en [Segunda División](/futbol/laliga-2): es decimoquinto con 14 puntos en 12 jornadas, y el proyecto principal del argentino allí es una ciudad deportiva.
+
+El consejo de administración del Eldense aún se está cerrando. El abogado sevillano Pablo García, ejecutivo de Andbank, [se perfila como presidente](https://alicanteplaza.es/alicanteplaza/deportesalicante/leo-messi-ultima-la-composicion-del-nuevo-consejo-del-cd-eldense-con-pablo-garcia-perfilandose-como-presidente), según Alicante Plaza, con Messi como titular del cien por cien del capital.
+
+## Lo que se debate en Alicante
+
+La idea ha gustado al Ayuntamiento y a los empresarios turísticos, mientras la oposición y colectivos ciudadanos [reclaman garantías para el patrimonio](https://dsalicante.com/noticias/alicante/messi-alicante-museo-cine-ideal/), según DSAlicante. El cine Ideal es el centro de esa discusión: su protección impidió el hotel y condicionaría cualquier reforma.
+
+| Dato | Detalle |
+| --- | --- |
+| Qué se busca | Local con restaurante, tienda y experiencia multimedia |
+| Favorito | Antiguo cine Ideal, avenida de la Constitución |
+| Propietario | Grupo Baraka, que pagó unos 6 millones hace casi cinco años |
+| Obstáculo | Edificio protegido; licencia de hotel denegada hace medio año |
+| Quién lo confirma | El Eldense admite los contactos y prioriza Elda |
+
+## Un año de Messi en España
+
+El jugador del Inter Miami, de la [MLS](/futbol/mls), es [Premio Princesa de Asturias de los Deportes 2026](https://www.fpa.es/es/premios-princesa-de-asturias/premiados/2026-leo-messi/) y cerró la compra del Eldense en octubre. La búsqueda en Alicante sería su tercer paso en la provincia, después del club y de la ciudad deportiva, y el primero que no pasa por un campo de fútbol.`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'Fútbol', sport: 'futbol', slug: 'futbol' },
+    sourceName: 'Información',
+    sourceUrl: 'https://www.informacion.es/alicante/2026/11/07/messi-busca-edificio-centro-alicante-136195871.html',
+    sourceLang: 'es',
+    publishedAt: '2026-11-09T13:22:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Información: Alicante abraza el proyecto de Messi', url: 'https://www.informacion.es/alicante/2026/11/08/alicante-abraza-proyecto-messi-figura-136216403.html' },
+      { name: 'DSAlicante: Messi proyecta un espacio temático en Alicante', url: 'https://dsalicante.com/noticias/alicante/messi-alicante-museo-cine-ideal/' },
+      { name: 'Alicante Plaza: Messi ultima el consejo del CD Eldense', url: 'https://alicanteplaza.es/alicanteplaza/deportesalicante/leo-messi-ultima-la-composicion-del-nuevo-consejo-del-cd-eldense-con-pablo-garcia-perfilandose-como-presidente' },
+      { name: 'Fundación Princesa de Asturias: Leo Messi, Premio de los Deportes 2026', url: 'https://www.fpa.es/es/premios-princesa-de-asturias/premiados/2026-leo-messi/' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Lionel_Messi_Argentina_v_Spain_19_July_2026-046.jpg/1280px-Lionel_Messi_Argentina_v_Spain_19_July_2026-046.jpg',
+      alt: 'Lionel Messi, con el chubasquero blanco y celeste de Argentina, mira hacia arriba antes de la final del Mundial contra España, con Cucurella y Laporte desenfocados detrás',
+      credit: 'Berlination · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'nuevo-colombino-25-anos-recreativo-huelva-3-0-newcastle-pavon-canterla-reforma-segunda-federacion',
+    title: 'Nuevo Colombino, 25 años: del 3-0 al Newcastle de Pavón a la reforma que pide Huelva',
+    summary: 'El estadio del Recreativo se inauguró el 8 de noviembre de 2001 con un 3-0 al Newcastle. Veinticinco años después, el Decano lidera su grupo de Segunda Federación y pide una reforma integral.',
+    body: `El Nuevo Colombino cumplió ayer 25 años. Se inauguró el 8 de noviembre de 2001 con un amistoso que el Recreativo de Huelva ganó 3-0 al Newcastle, con dos goles de Juanma Pavón y uno de Canterla, [según la ficha del estadio en la Wikipedia](https://es.wikipedia.org/wiki/Estadio_Nuevo_Colombino). Es la tercera casa del Decano, después del Velódromo y del viejo Colombino de Isla Chica, y [Huelva24 recordó la efeméride](https://www.huelva24.com/albiazules/08112026-el-nuevo-colombino-cumple-25-anos-como-el-hogar-del-recreativo-de-huelva/) con una reivindicación: el campo necesita una reforma integral.
+
+## Lo que costó y lo que cabe
+
+El proyecto es del arquitecto onubense Joaquín Aramburu y el estadio es de propiedad municipal. Huelva24 cifra el coste en 2.900 millones de pesetas, unos 17,4 millones de euros al cambio; la Wikipedia habla de un presupuesto de 14 millones. Caben 21.670 espectadores y el césped mide 105 por 68 metros.
+
+| Fecha | Qué pasó |
+| --- | --- |
+| 8 de noviembre de 2001 | Inauguración: Recreativo 3-0 Newcastle (Pavón 2, Canterla) |
+| Noviembre de 2001 | España 1-0 México, gol de Raúl, en el primer partido de la selección en el campo |
+| 6 de enero de 2002 | Primer partido oficial: 0-0 ante el Sporting de David Villa |
+| 12 de enero de 2002 | Primeros goles ligueros, de Benítez y Antoñito, en el 2-0 al Badajoz |
+| 2008 y 2014 | España vuelve: amistoso ante Perú y partido oficial ante Bielorrusia, camino de la Eurocopa 2016 |
+
+El campo acogió además una veintena de ediciones del Trofeo Colombino, el Torneo de la Paz, un partido de la sub-21 ante Hungría en 2023 y una goleada de la selección femenina a Australia.
+
+## El Recre de hoy
+
+Veinticinco años después, el Recreativo juega en [Segunda Federación](/futbol/segunda-federacion), cuarta categoría. Lidera el grupo 4 con 21 puntos en diez jornadas, seis victorias, tres empates y una derrota, dos puntos por delante del Ciudad de Lucena. El sábado 14 disputa la [final de la Copa Federación en Las Llanas contra el Sestao River](/noticias/sestao-river-verdugo-espanyol-copa-primera-final-historia-copa-federacion-recreativo-huelva-las-llanas-14-noviembre).
+
+## Pavón, 25 años después
+
+El autor de los dos primeros goles del estadio también hizo historia esta semana. Juanma Pavón entrena al Lincoln Red Imps de Gibraltar y el jueves logró [la primera victoria del club en la Conference League](/noticias/lincoln-red-imps-hajduk-split-1-0-sin-tirar-a-puerta-conference-mas-puntos-que-getafe-espanoles), un 1-0 al Hajduk Split. Huelva24 lo señala como [el primer técnico onubense que gana un partido](https://www.huelva24.com/albiazules/08112026-un-ex-del-recreativo-pone-a-huelva-en-el-mapa-del-futbol-europeo/) en la fase final de una competición europea de clubes.
+
+La reforma que pide la ciudad no tiene fecha. El estadio sigue en pie junto a la ría, en los mismos terrenos donde se empezó a jugar al fútbol en Huelva en el siglo XIX.`,
+    category: 'historica',
+    kind: 'noticia',
+    competition: { name: 'Segunda Federación', sport: 'futbol', slug: 'segunda-federacion' },
+    sourceName: 'Huelva24',
+    sourceUrl: 'https://www.huelva24.com/albiazules/08112026-el-nuevo-colombino-cumple-25-anos-como-el-hogar-del-recreativo-de-huelva/',
+    sourceLang: 'es',
+    publishedAt: '2026-11-09T13:24:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Wikipedia: Estadio Nuevo Colombino', url: 'https://es.wikipedia.org/wiki/Estadio_Nuevo_Colombino' },
+      { name: 'Huelva24: un ex del Recreativo pone a Huelva en el mapa del fútbol europeo', url: 'https://www.huelva24.com/albiazules/08112026-un-ex-del-recreativo-pone-a-huelva-en-el-mapa-del-futbol-europeo/' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Nuevo_Colombino.JPG/1280px-Nuevo_Colombino.JPG',
+      alt: 'Fachada exterior del Nuevo Colombino al atardecer, con la cubierta metálica curva de la tribuna iluminada y aficionados llegando a las taquillas',
+      credit: 'Calapito · Wikimedia Commons',
+      license: 'CC BY 3.0',
+    },
+  },
+  {
+    slug: 'cultural-leonesa-cesa-jandro-castro-derbi-ponferradina-1-1-portillo-interino-amenazas-penas-primera-federacion',
+    title: 'Cultural Leonesa cesa a Jandro Castro tras el 1-1 del derbi y denuncia amenazas: «quemaros vivos»',
+    summary: 'El club leonés comunica la salida del técnico tras el empate con la Ponferradina y deja a José Antonio Portillo de interino. Una semana de protestas, comunicado de las peñas y amenazas denunciadas.',
+    body: `La Cultural y Deportiva Leonesa [anunció este lunes](https://www.cydleonesa.com/noticias/comunicado-oficial-or-jandro-castro) que Jandro Castro «finaliza su etapa como entrenador del primer equipo». José Antonio Portillo, técnico del Júpiter Leonés, dirige el primer entrenamiento de la semana como interino hasta que el club contrate a un sustituto.
+
+La decisión llega un día después del derbi. La Cultural [empató 1-1 con la Ponferradina](https://www.cydleonesa.com/noticias/cultural-1-1-sd-ponferradina) en el Reino de León tras encajar el gol visitante y quedarse con diez por la expulsión de Antón Escobar en la primera parte; Róber Pier igualó en la segunda. Según [Leonoticias](https://www.leonoticias.com/deportes/cultural/debacle-cultural-lleva-delante-jandro-castro-cesado-20261101224410-nt.html), el asturiano cierra su etapa con tres victorias, cuatro empates y cuatro derrotas en once jornadas de [Primera Federación](/futbol/primera-federacion), más un triunfo en la [Copa del Rey](/futbol/copa-del-rey).
+
+## La semana que lo precipitó
+
+| Día | Qué pasó |
+| --- | --- |
+| Domingo 1 | Derrota en el descuento en O Couto ante el Ourense, penúltimo; Jandro: «a mí las críticas no me llegan ahora, me llegan cuando ficho aquí» |
+| Lunes 2 | La Federación de Peñas Culturalistas denuncia «la incapacidad de encontrar soluciones»: 12 puntos de 30 y un punto sobre el descenso |
+| Martes 3 | El club confirma a Jandro para el derbi y publica un comunicado contra los insultos y amenazas en redes |
+| Domingo 8 | 1-1 con la Ponferradina con diez; un grupo de aficionados corea «Jandro vete ya» y «Directiva dimisión» a las puertas del estadio |
+| Lunes 9 | Comunicado oficial: Jandro Castro deja el cargo; Portillo, interino |
+
+La cronología sale de las crónicas de Leonoticias y de los comunicados del club. El entrenador se había defendido tras Ourense: «El fútbol no está siendo justo con nosotros», [dijo en O Couto](https://www.leonoticias.com/deportes/cultural/jandro-aferra-puesto-estalla-criticas-critica-llegue-20261101191209-nt.html), y aseguró que las críticas le acompañaban «desde pretemporada».
+
+## Las amenazas
+
+El club publicó la semana pasada un [comunicado](https://www.cydleonesa.com/noticias/comunicado_oficial_) en el que reconoce «el malestar, la preocupación y la frustración» de la afición, pero denuncia mensajes concretos en redes sociales. Uno de ellos decía que si no echaban al entrenador era «para quemaros a todos vivos dentro del autobús». La Cultural anuncia que denunciará esos mensajes ante las autoridades y que, si los autores son abonados, les aplicará el régimen interno.
+
+Las protestas del domingo fueron de un grupo reducido que se quedó junto al estadio mientras el entrenador daba la rueda de prensa, [según relató Leonoticias](https://www.leonoticias.com/deportes/cultural/directiva-dimision-jandro-vete-escuchan-puertas-reino-20261108213618-nt.html). Cantaban que no iban a parar «hasta que la Cultu juegue en regional». La lluvia disolvió la concentración hacia las 21:15.
+
+## Lo que viene
+
+El interino debuta el sábado a las 16:30 en Irún, ante el Real Unión. El club, fundado en 1923, recién descendido de Segunda y con un estadio de 13.451 localidades, lleva una semana en la que las críticas de los aficionados apuntaban también al director deportivo, Asier Goiría, y a la propiedad. El cambio de entrenador es la primera respuesta.`,
+    category: 'tecnico',
+    kind: 'noticia',
+    competition: { name: 'Primera Federación', sport: 'futbol', slug: 'primera-federacion' },
+    sourceName: 'Cultural y Deportiva Leonesa',
+    sourceUrl: 'https://www.cydleonesa.com/noticias/comunicado-oficial-or-jandro-castro',
+    sourceLang: 'es',
+    publishedAt: '2026-11-09T13:26:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Leonoticias: la debacle de la Cultural se lleva por delante a Jandro Castro', url: 'https://www.leonoticias.com/deportes/cultural/debacle-cultural-lleva-delante-jandro-castro-cesado-20261101224410-nt.html' },
+      { name: 'Leonoticias: «Directiva dimisión» y «Jandro vete ya» a las puertas del Reino de León', url: 'https://www.leonoticias.com/deportes/cultural/directiva-dimision-jandro-vete-escuchan-puertas-reino-20261108213618-nt.html' },
+      { name: 'Cultural Leonesa: comunicado oficial sobre insultos y amenazas', url: 'https://www.cydleonesa.com/noticias/comunicado_oficial_' },
+      { name: 'Leonoticias: la Federación de Peñas Culturalistas carga contra el rumbo deportivo', url: 'https://www.leonoticias.com/deportes/cultural/federacion-penas-culturalistas-carga-rumbo-deportivo-club-20261102122858-nt.html' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/EstadioReinodeLe%C3%B3n2.jpg/1280px-EstadioReinodeLe%C3%B3n2.jpg',
+      alt: 'Tribuna del estadio Reino de León al anochecer, con los asientos azules y blancos formando la palabra León y jugadores de blanco y granate sobre el césped',
+      credit: 'Pablox · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'greuther-furth-recupera-nombre-spvgg-furth-88-por-ciento-socios-1996-vestenbergsgreuth-kissinger-bundesliga',
+    title: 'Greuther Fürth recupera el nombre de 1903: el 88,3 % de los socios vota volver a ser SpVgg Fürth',
+    summary: 'Los socios del club de la Segunda Bundesliga aprueban quitar «Greuther», añadido en 1996 por una fusión, y recuperar desde la próxima temporada el nombre con el que ganó tres ligas alemanas.',
+    body: `El SpVgg Greuther Fürth volverá a llamarse SpVgg Fürth. Sus socios lo decidieron el domingo en una asamblea extraordinaria en el Sportpark Ronhof: el 88,3 % de los votos válidos apoyó la propuesta, por encima de los tres cuartos que exigen los estatutos, [según el comunicado del club que recoge 90min](https://www.90min.de/offiziell-deutscher-zweitligist-andert-vereinsnamen). El cambio entra en vigor con la temporada 2027-28.
+
+El presidente, Volker Heißmann, reconoció que la decisión divide: «Para muchos es un momento especial; para otros, la pérdida de un nombre que les significaba algo». Prometió honrar hasta final de curso la era «Greuther» y mantener viva la aportación del TSV Vestenbergsgreuth.
+
+## De dónde sale el «Greuther»
+
+El club nació como sección de fútbol del TV Fürth 1860 el 23 de septiembre de 1903 y, como SpVgg Fürth, ganó tres ligas alemanas: 1914, 1926 y 1929, [según su historia en la Wikipedia alemana](https://de.wikipedia.org/wiki/SpVgg_Greuther_F%C3%BCrth). En los años noventa, ahogado por las deudas, aceptó que la sección de fútbol de élite del TSV Vestenbergsgreuth, un pueblo de la comarca, se integrara en el club. Fue el 1 de julio de 1996 y desde entonces el nombre lleva el añadido que ahora desaparece.
+
+| Fecha | Hito |
+| --- | --- |
+| 1903 | Fundación como SpVgg Fürth |
+| 1914, 1926, 1929 | Tres títulos de campeón de Alemania |
+| 1 de julio de 1996 | Integración del TSV Vestenbergsgreuth: nace el SpVgg Greuther Fürth |
+| 2012-13 y 2021-22 | Dos temporadas en la [Bundesliga](/futbol/bundesliga), ambas con descenso |
+| 8 de noviembre de 2026 | El 88,3 % de los socios aprueba volver al nombre original |
+
+El Vestenbergsgreuth volvió hace tiempo a tener equipo propio en competición, y un grupo de aficionados llevaba años pidiendo el regreso al nombre histórico. Fürth, además, encabeza la clasificación histórica de la Segunda Bundesliga, la categoría en la que lleva casi toda su vida desde 1997.
+
+## El socio más famoso
+
+Henry Kissinger, nacido en Fürth en 1923, fue socio de honor del club y seguidor desde niño. Seguía los resultados cada semana y en septiembre de 2012 se sentó en la grada del Ronhof en un partido ante el Schalke, el año del primer ascenso a la Bundesliga. Murió en 2023 sin ver el nombre de su infancia en la camiseta; su club lo recuperará dentro de una temporada.
+
+## Por qué importa fuera de Alemania
+
+Es raro que un club profesional dé marcha atrás en su nombre por votación de los socios, y no hay un caso parecido en las grandes ligas que seguimos en la [sección de fútbol](/futbol). La decisión no afecta al estadio, que mantiene el patrocinio de Thomas Sommer, ni a las secciones. El fútbol alemán funciona con la regla del 50+1, que deja la última palabra en los socios: por eso un nombre de hace treinta años puede caer en una tarde de domingo.`,
+    category: 'curiosa',
+    kind: 'noticia',
+    competition: { name: 'Bundesliga', sport: 'futbol', slug: 'bundesliga' },
+    sourceName: '90min',
+    sourceUrl: 'https://www.90min.de/offiziell-deutscher-zweitligist-andert-vereinsnamen',
+    sourceLang: 'de',
+    publishedAt: '2026-11-09T13:28:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Wikipedia (alemán): SpVgg Greuther Fürth', url: 'https://de.wikipedia.org/wiki/SpVgg_Greuther_F%C3%BCrth' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Sportpark_Ronhof_Thomas_Sommer.jpg/1280px-Sportpark_Ronhof_Thomas_Sommer.jpg',
+      alt: 'Fachada de la tribuna del Sportpark Ronhof Thomas Sommer de Fürth, con el nombre del estadio en letras grandes, pilares metálicos inclinados y un árbol delante',
+      credit: 'Ludvic33 · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
     slug: 'aday-mara-18-puntos-thunder-semana-nba-espana-dallas-boston-medianoche-aldama-hugo-gonzalez',
     title: 'Aday Mara firma 18 puntos con los Thunder y la NBA cita a Aldama y Hugo González a medianoche',
     summary: 'Aday Mara, titular, hizo su mejor marca de la temporada ante los Wizards. Qué noches juegan los cuatro españoles de la NBA esta semana y el Mavericks - Celtics del domingo a las 0:00.',
