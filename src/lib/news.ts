@@ -193,7 +193,7 @@ Seguimos sin poder confirmar qué plataforma emite el torneo en España, como re
     sourceName: 'ESPN',
     sourceUrl: 'https://www.espn.com/nba/schedule/_/date/20261110',
     sourceLang: 'en',
-    publishedAt: '2026-11-09T16:38:00+01:00',
+    publishedAt: '2026-11-09T16:35:00+01:00',
     author: 'Redacción Mundiales',
     sourcesSecondary: [
       { name: 'ESPN: clasificación de la NBA', url: 'https://www.espn.com/nba/standings' },
@@ -252,7 +252,7 @@ Como jugador ganó tres Copas de Europa y seis Ligas con el Real Madrid, pasó p
     sourceName: 'Real Oviedo',
     sourceUrl: 'https://www.realoviedo.es/noticias/raul-gonzalez-nuevo-entrenador-del-real-oviedo',
     sourceLang: 'es',
-    publishedAt: '2026-11-09T16:36:00+01:00',
+    publishedAt: '2026-11-09T16:33:00+01:00',
     author: 'Redacción Mundiales',
     sourcesSecondary: [
       { name: 'Real Oviedo: comunicado oficial sobre Julián Calero', url: 'https://www.realoviedo.es/noticias/comunicado-oficial-julian-calero' },
@@ -309,7 +309,7 @@ El mismo sábado, la selección femenina ganó 2-0 a Argentina: Ari Sánchez y A
     sourceName: 'International Padel Federation',
     sourceUrl: 'https://www.padelfip.com/es/2026/11/espana-y-argentina-por-la-conquista-del-mundo-la-ultima-de-paquito-soy-un-privilegiado-el-respeto-de-chingotto-galan-ellos-tienen-tres-equipos/',
     sourceLang: 'es',
-    publishedAt: '2026-11-09T16:34:00+01:00',
+    publishedAt: '2026-11-09T16:31:00+01:00',
     author: 'Redacción Mundiales',
     sourcesSecondary: [
       { name: 'FIP: crónica de la final masculina España - Argentina', url: 'https://www.padelfip.com/es/2026/11/la-noche-de-doha-se-tine-de-rojo-espana-es-campeona-del-mundo-tras-derrotar-a-argentina-gracias-a-la-brillante-actuacion-de-lebron-goni-coello-y-la-maestria-tactica-de-juanjo/' },
@@ -358,7 +358,7 @@ Nargi, exvelina de Striscia la Notizia y tercera clasificada en la edición de 2
     sourceName: 'Adnkronos',
     sourceUrl: 'https://www.adnkronos.com/spettacoli/matri-ballando-con-le-stelle-juve-milan_1Il2skahtgYA289Wyiq320',
     sourceLang: 'it',
-    publishedAt: '2026-11-09T16:32:00+01:00',
+    publishedAt: '2026-11-09T16:29:00+01:00',
     author: 'Redacción Mundiales',
     sourcesSecondary: [
       { name: 'MilanoToday: Matri, depresión e hipocondría tras el Milan', url: 'https://www.milanotoday.it/cronaca/alessandro-matri-depressione-sla-milan.html' },
@@ -406,7 +406,7 @@ La selección de Luis de la Fuente, con las novedades de [Marc Roca y Álvaro Va
     sourceName: 'ESPN',
     sourceUrl: 'https://www.espn.com/soccer/story/_/id/50432778/jordan-pickford-james-trafford-england-goalkeeper',
     sourceLang: 'en',
-    publishedAt: '2026-11-09T16:30:00+01:00',
+    publishedAt: '2026-11-09T16:27:00+01:00',
     author: 'Redacción Mundiales',
     sourcesSecondary: [
       { name: 'England Football: convocatoria para Croacia y España', url: 'https://www.englandfootball.com/articles/2026/Nov/06/england-senior-mens-squad-announcement-for-croatia-spain-games-20261106' },
