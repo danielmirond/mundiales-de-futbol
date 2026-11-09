@@ -154,6 +154,214 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'aday-mara-18-puntos-thunder-semana-nba-espana-dallas-boston-medianoche-aldama-hugo-gonzalez',
+    title: 'Aday Mara firma 18 puntos con los Thunder y la NBA cita a Aldama y Hugo González a medianoche',
+    summary: 'Aday Mara, titular, hizo su mejor marca de la temporada ante los Wizards. Qué noches juegan los cuatro españoles de la NBA esta semana y el Mavericks - Celtics del domingo a las 0:00.',
+    body: `Aday Mara salió en el quinteto de los Oklahoma City Thunder en la noche del sábado y firmó 18 puntos con 8 de 10 en tiros de campo, 8 rebotes y 3 tapones en 27 minutos. Fue en el 114-75 a los Washington Wizards, [según el acta de ESPN](https://www.espn.com/nba/game/_/gameId/401909941). Es su mejor anotación de la temporada regular: hasta entonces su tope eran los 11 puntos ante los Suns del 27 de octubre, [según su registro de partidos](https://www.espn.com/nba/player/gamelog/_/id/5174983/aday-mara).
+
+Esta es la semana de la NBA del lunes 9 al domingo 15 de noviembre en hora peninsular (Canarias, una hora menos). En España la temporada se reparte entre DAZN y Prime Video, como explica [nuestra guía de la NBA 2026-27](/noticias/nba-2026-27-donde-ver-espana-dazn-prime-video-estreno-hugo-gonzalez-aldama); el canal de cada noche está en el [calendario de la NBA](/baloncesto/nba/calendario), y [qué plataforma emite cada competición y cuánto cuesta](/noticias/donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1), en la guía general.
+
+## Cómo llegan los españoles
+
+La noche del domingo dejó dos dobles cifras españolas. Santi Aldama anotó 12 puntos en 15 minutos, con 5 de 7 en tiros, en el 130-93 de los Mavericks a los Nets, [según ESPN](https://www.espn.com/nba/game/_/gameId/401909948). Baba Miller sumó 12 puntos, 5 rebotes, 4 asistencias y 2 tapones en el 139-123 de los Clippers a los Pelicans. Hugo González jugó 10 minutos sin anotar en la victoria de Boston en Milwaukee (97-117). Sergio de Larrea sigue de baja en Dallas por una lesión de rodilla, según el parte de ese mismo partido.
+
+## Los españoles, noche a noche
+
+| Noche (hora peninsular) | Partido | Español | Hora |
+| --- | --- | --- | --- |
+| Lunes a martes | [Mavericks - Pacers](/baloncesto/nba/partido/401909956) | Aldama | 2:00 |
+| Martes a miércoles | [76ers - Celtics](/baloncesto/nba/partido/401909961) | Hugo González | 2:00 |
+| Martes a miércoles | [Suns - Clippers](/baloncesto/nba/partido/401909962) | Baba Miller | 3:00 |
+| Martes a miércoles | [Trail Blazers - Thunder](/baloncesto/nba/partido/401909965) | Aday Mara | 5:00 |
+| Miércoles a jueves | [Raptors - Celtics](/baloncesto/nba/partido/401909968) | Hugo González | 1:00 |
+| Miércoles a jueves | [Trail Blazers - Thunder](/baloncesto/nba/partido/401909975) | Aday Mara | 4:00 |
+| Jueves a viernes | [Timberwolves - Mavericks](/baloncesto/nba/partido/401909978) | Aldama | 2:00 |
+| Viernes a sábado | [Clippers - Thunder](/baloncesto/nba/partido/401909304) | Baba Miller y Aday Mara | 4:30 |
+| Sábado a domingo | [Cavaliers - Mavericks](/baloncesto/nba/partido/401909981) | Aldama | 1:30 |
+| Domingo | [Clippers - Hornets](/baloncesto/nba/partido/401909987) | Baba Miller | 22:30 |
+| Domingo a lunes | [Celtics - Mavericks](/baloncesto/nba/partido/401909989) | Hugo González y Aldama | 0:00 |
+| Domingo a lunes | [Kings - Thunder](/baloncesto/nba/partido/401909993) | Aday Mara | 3:00 |
+
+Los horarios salen del [calendario de ESPN](https://www.espn.com/nba/schedule/_/date/20261115), pasados a hora peninsular.
+
+## El domingo, sin trasnochar
+
+El último día de la semana es el más cómodo para seguir la liga desde España. A las 19:00 empieza el [Pacers - 76ers](/baloncesto/nba/partido/401909985), a las 22:00 el [Suns - Lakers](/baloncesto/nba/partido/401909986) y a las 22:30 el partido de Baba Miller ante los Hornets. A medianoche llega el cruce con más acento español de la semana: Celtics - Mavericks en Boston, con Hugo González en un lado y Aldama en el otro.
+
+Los dos duelos españoles de la semana caen en fin de semana. El del viernes, Clippers - Thunder, enfrenta a Baba Miller y Aday Mara, pero empieza a las 4:30. El del domingo es el único a una hora razonable.
+
+## Lo que dejó el fin de semana
+
+Los Warriors encadenan siete victorias, la última en la prórroga ante los Magic (126-119), con 23 puntos del novato Yaxel Lendeborg, compañero de Aday Mara en Michigan la temporada pasada. Los resultados completos están en la [crónica diaria de la NBA](/noticias/nba-resultados-2026-11-08) y la tabla por conferencias, en la [clasificación de esta semana](/noticias/clasificacion-nba-semana-2026-46).`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'NBA', sport: 'baloncesto', slug: 'nba' },
+    sourceName: 'ESPN',
+    sourceUrl: 'https://www.espn.com/nba/game/_/gameId/401909941',
+    sourceLang: 'en',
+    publishedAt: '2026-11-09T09:00:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'ESPN: registro de partidos de Aday Mara', url: 'https://www.espn.com/nba/player/gamelog/_/id/5174983/aday-mara' },
+      { name: 'ESPN: Mavericks - Nets', url: 'https://www.espn.com/nba/game/_/gameId/401909948' },
+      { name: 'ESPN: calendario de la NBA', url: 'https://www.espn.com/nba/schedule/_/date/20261115' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/20260211_Aday_Mara_and_Arrinten_Page.jpg/1280px-20260211_Aday_Mara_and_Arrinten_Page.jpg',
+      alt: 'Aday Mara, con la camiseta azul de Michigan y el dorsal 15, sujeta el balón mientras le defiende un jugador de Northwestern con los brazos abiertos',
+      credit: 'TonyTheTiger · Wikimedia Commons',
+      license: 'CC0',
+    },
+  },
+  {
+    slug: 'braulio-vazquez-acta-mestalla-policia-sujetar-director-deportivo-valencia-real-madrid-competicion',
+    title: 'Braulio Vázquez, en el acta de Mestalla: la Policía tuvo que sujetar al director del Valencia',
+    summary: 'El árbitro Hernández Maeso recoge en el acta que el director deportivo del Valencia se encaró con su asistente en el túnel. Qué protestaba, qué no dice el acta y qué decide Competición esta semana.',
+    body: `El acta del Valencia - Real Madrid (0-3) tiene un único señalado por lo que pasó en el túnel en el descanso: Braulio Vázquez, director deportivo del Valencia. El árbitro, Hernández Maeso, escribe que «protagonizó un altercado» y se encaró con su asistente número 1, y que hicieron falta agentes del Cuerpo Nacional de Policía para identificarle, sujetarle y apartarle, [según el texto que publicó COPE](https://www.cope.es/programas/tiempo-de-juego/noticias/director-deportivo-valencia-braulio-vazquez-senalado-acta-partido-real-madrid-necesaria-intervencion-agentes-cuerpo-nacional-policia-20261108_3470923.html). Las palabras que recoge el acta son «¡No es falta, no es falta! ¡Vaya tela!».
+
+## Qué protestaba
+
+La jugada que se discutía en el túnel está en el acta de ESPN. En el minuto 26 el árbitro amonestó a Pablo Maffeo por una falta y, en la jugada a balón parado que siguió, Fede Valverde marcó el 0-1 en el 28, [según el minuto a minuto de ESPN](https://www.espn.com/soccer/match/_/gameId/401882808). Arda Güler hizo el 0-2 en el 36 y el Valencia se fue al descanso con dos goles en contra. Mbappé cerró el 0-3 en el 75 y José Gayà vio la roja directa en el 79.
+
+## Lo que el acta no cuenta
+
+El acta no nombra a ningún jugador del Real Madrid. ElDesmarque, que cita a testigos presenciales sin identificar, [cuenta otra versión del túnel](https://www.eldesmarque.com/futbol/liga-1a-division/20261107/braulio-vazquez-jugadores-real-madrid_18_020651159.html): que Bellingham tiró del traje de Braulio, que Rüdiger se soltó de un vigilante de seguridad y que hubo jugadores de los dos equipos implicados. Esa versión no aparece en el documento arbitral, que es el que estudia el Comité de Competición. Guido Rodríguez, centrocampista del Valencia, quitó hierro tras el partido: dijo que hubo palabras y que lo del campo se queda en el campo.
+
+## Qué pasa ahora
+
+Competición suele publicar sus decisiones de LaLiga a mitad de semana. Las de la octava jornada, por ejemplo, [salieron el miércoles 14 de octubre](https://rfef.es/sites/default/files/sanciones/20261014_Primera_Division_J8.pdf). En el mismo paquete irá la sanción a Gayà por su expulsión. El Valencia no vuelve a jugar hasta el 21 de noviembre, en Vallecas, tras el parón de selecciones.
+
+| Dato | Valencia |
+| --- | --- |
+| Puesto en LaLiga | 19.º, en descenso |
+| Puntos | 9 en 12 jornadas |
+| Próximo partido | Rayo - Valencia, 21 de noviembre |
+| Pendiente en Competición | Acta de Braulio y roja de Gayà |
+
+La tabla completa está en [la página de LaLiga](/futbol/laliga) y la crónica del partido, en [Valencia - Real Madrid](/noticias/cronica-valencia-real-madrid-401882808). La ficha del club, con sus resultados de la temporada, en [Valencia](/futbol/laliga/equipo/94).`,
+    category: 'polemica',
+    kind: 'noticia',
+    competition: { name: 'LaLiga', sport: 'futbol', slug: 'laliga' },
+    sourceName: 'COPE',
+    sourceUrl: 'https://www.cope.es/programas/tiempo-de-juego/noticias/director-deportivo-valencia-braulio-vazquez-senalado-acta-partido-real-madrid-necesaria-intervencion-agentes-cuerpo-nacional-policia-20261108_3470923.html',
+    sourceLang: 'es',
+    publishedAt: '2026-11-09T09:02:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'ESPN: Valencia - Real Madrid', url: 'https://www.espn.com/soccer/match/_/gameId/401882808' },
+      { name: 'ElDesmarque: lo que pasó en el túnel', url: 'https://www.eldesmarque.com/futbol/liga-1a-division/20261107/braulio-vazquez-jugadores-real-madrid_18_020651159.html' },
+      { name: 'Noticias de Navarra: Braulio, identificado por la Policía', url: 'https://www.noticiasdenavarra.com/osasuna/2026/11/08/braulio-identificado-policia-altercado-tunel-11735631.html' },
+    ],
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Mestalla_antes_del_partido_Valencia-Barcelona_LaLiga_2023-2024.jpg/1280px-Mestalla_antes_del_partido_Valencia-Barcelona_LaLiga_2023-2024.jpg',
+      alt: 'Mestalla de noche antes de un partido, con las gradas naranjas y negras y el nombre del Valencia en la tribuna',
+      credit: 'Anidae · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'unai-emery-2-4-old-trafford-manchester-united-descenso-empate-descuento-aston-villa-pau-torres',
+    title: 'Unai Emery se deja un 2-4 en Old Trafford: el United, en descenso, le empata en el descuento',
+    summary: 'El Aston Villa de Emery ganaba 2-4 en el minuto 90 y el United, 18.º, empató con goles de Zirkzee y Dorgu. Nueve jornadas sin ganar para los de Old Trafford y lo que deja la tabla.',
+    body: `El Aston Villa de Unai Emery tenía ganado el partido en Old Trafford al llegar el minuto 90. Ganaba 2-4 y el Manchester United, que no gana en la Premier desde agosto, empató con dos goles en el descuento: Joshua Zirkzee en el 92 y Patrick Dorgu, de cabeza y a pase de Bruno Fernandes, en el 96. El 4-4 final está [en el acta de ESPN](https://www.espn.com/soccer/match/_/gameId/401879240), con 74.149 espectadores en la grada.
+
+## Ocho goles en cuatro tramos
+
+| Minuto | Gol | Marcador |
+| --- | --- | --- |
+| 1 | Alysson (Villa), a pase de McGinn | 0-1 |
+| 4 | Nicolas Jackson (Villa), tras balón parado | 0-2 |
+| 16 | Bruno Fernandes (United), de penalti | 1-2 |
+| 44 | Youri Tielemans (United) | 2-2 |
+| 48 | John McGinn (Villa), de penalti | 2-3 |
+| 53 | Leon Goretzka (Villa), a pase de Jackson | 2-4 |
+| 90+2 | Joshua Zirkzee (United) | 3-4 |
+| 90+6 | Patrick Dorgu (United), de cabeza | 4-4 |
+
+Pau Torres fue titular en el Villa. El equipo de Emery marcó dos goles antes del minuto 5 y otros dos en los ocho primeros minutos de la segunda parte. Entre el 53 y el 92 no pasó nada en el marcador.
+
+## Un United en descenso
+
+El empate deja al Manchester United 18.º, en puestos de descenso, con 8 puntos en 10 partidos: una victoria, cinco empates y cuatro derrotas, [según la clasificación de ESPN](https://www.espn.com/soccer/standings/_/league/eng.1). La única victoria fue el 5-2 al Ipswich del 30 de agosto. Desde entonces lleva nueve jornadas sin ganar: cinco empates (Everton, Fulham, Tottenham, Leeds y Villa) y cuatro derrotas (Hull, Manchester City, Bournemouth y Chelsea). El recuento lo hace esta redacción con el calendario de resultados del club en ESPN.
+
+La prensa inglesa ya mira al fondo de la tabla: The Athletic dedicaba este lunes un análisis a [la amenaza del descenso en Old Trafford](https://www.nytimes.com/athletic/7765127/2026/11/09/manchester-united-relegation-carrick/).
+
+## Lo que pierde el Villa
+
+Para Emery, el punto sabe a poco. El Villa es décimo con 13 puntos, a dos de la séptima plaza que ocupa el Bournemouth, y ha dejado escapar en seis minutos una victoria que le habría dado 16 puntos, los mismos que Chelsea y Everton, quinto y sexto. The Athletic también [analizó la tarde del técnico vasco](https://www.nytimes.com/athletic/7765029/2026/11/09/unai-emery-aston-villa-old-trafford/) en Manchester.
+
+Los dos equipos se van al parón de selecciones con la tabla así. Toda la jornada está en la [clasificación de la Premier de esta semana](/noticias/clasificacion-premier-league-semana-2026-46), y las fichas de los dos clubes, en [Manchester United](/futbol/premier-league/equipo/360) y [Aston Villa](/futbol/premier-league/equipo/362).`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'Premier League', sport: 'futbol', slug: 'premier-league' },
+    sourceName: 'ESPN',
+    sourceUrl: 'https://www.espn.com/soccer/match/_/gameId/401879240',
+    sourceLang: 'en',
+    publishedAt: '2026-11-09T09:04:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'ESPN: clasificación de la Premier League', url: 'https://www.espn.com/soccer/standings/_/league/eng.1' },
+      { name: 'The Athletic: Emery en Old Trafford', url: 'https://www.nytimes.com/athletic/7765029/2026/11/09/unai-emery-aston-villa-old-trafford/' },
+      { name: 'The Athletic: el United y el descenso', url: 'https://www.nytimes.com/athletic/7765127/2026/11/09/manchester-united-relegation-carrick/' },
+    ],
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Manchester_United_Old_Trafford.jpg/1280px-Manchester_United_Old_Trafford.jpg',
+      alt: 'Vista aérea de Old Trafford, el estadio del Manchester United',
+      credit: 'Arne Müseler · Wikimedia Commons',
+      license: 'CC BY-SA 3.0 de',
+    },
+  },
+  {
+    slug: 'yaxel-lendeborg-novato-warriors-casa-madre-yissel-raposo-cancer-michigan-almacen',
+    title: 'Yaxel Lendeborg, novato de los Warriors, le regala una casa a la madre que le ocultó su cáncer',
+    summary: 'Yaxel Lendeborg, 24 años, anunció la casa para su madre, Yissel Raposo, enferma de cáncer. Del almacén a la NBA, y los números con que ha empezado en Golden State.',
+    body: `Yaxel Lendeborg ha comprado una casa a su madre. El novato de los Golden State Warriors, de 24 años, lo enseñó en un vídeo titulado «This one's for Mama Yax» que [compartió en su cuenta de X](https://x.com/Yaxel_Lendeborg/status/2118965269506970087). Conseguirla le llevó entre dos y tres meses, y lo describe como el objetivo de toda su vida, [según contó Yahoo Sports](https://sports.yahoo.com/nba/article/warriors-rookie-yaxel-lendeborg-buys-house-for-his-mother-who-saved-his-basketball-career-235024826.html). En el vídeo resume el motivo en una frase: «Se lo merece todo».
+
+## La madre que salvó su carrera
+
+Su madre se llama Yissel Raposo y fue jugadora de baloncesto. Al terminar el instituto, Lendeborg trabajaba en un almacén, [según ESPN Deportes](https://espndeportes.espn.com/basquetbol/nba/nota/_/id/16693488/yaxel-lendeborg-madre-yissel-raposo-cancer-baloncesto-colegial-michigan). Antes, había quedado sin poder jugar en su instituto por las notas. Su madre le empujó a sacar adelante un curso intensivo en un centro de formación local, que le devolvió la elegibilidad para su último año, y después le consiguió sin decirle nada un hueco en una exhibición para jugadores dominicanos. De ahí salió la oferta del Arizona Western College, que ella le obligó a aceptar, según Yahoo.
+
+A finales del año pasado, Raposo le ocultó que tenía cáncer para que él se centrara en su última temporada universitaria, según ESPN Deportes. Yahoo Sports precisa que es un cáncer de apéndice en estadio 4.
+
+## Del almacén al título
+
+| Etapa | Qué pasó |
+| --- | --- |
+| Instituto | Sin poder jugar por las notas |
+| Después | Trabajo en un almacén |
+| Arizona Western | Universidad de dos años en Yuma |
+| UAB | Destaca y da el salto |
+| Michigan | Campeón universitario y jugador del año del Big Ten |
+| Warriors | Elegido en la primera ronda del draft de 2026 |
+
+En aquel Michigan campeón jugaba también Aday Mara, que hoy está en los Thunder y [acaba de firmar su mejor anotación de la temporada](/noticias/aday-mara-18-puntos-thunder-semana-nba-espana-dallas-boston-medianoche-aldama-hugo-gonzalez).
+
+## Cómo ha empezado
+
+Los números acompañan. En sus diez primeros partidos lleva 212 puntos, 21,2 por noche, con un máximo de 37 ante los Clippers el 1 de noviembre, [según su registro en ESPN](https://www.espn.com/nba/player/gamelog/_/id/5175737/yaxel-lendeborg). Los Warriors perdieron los tres primeros partidos de la temporada y han ganado los siete siguientes, el último en la prórroga ante los Magic (126-119), con 23 puntos suyos. La media y la racha las calcula esta redacción con esos datos.
+
+Su próximo partido y el resto de la liga están en el [calendario de la NBA](/baloncesto/nba/calendario) y en la [ficha de los Warriors](/baloncesto/nba/equipo/9).`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'NBA', sport: 'baloncesto', slug: 'nba' },
+    sourceName: 'Yahoo Sports',
+    sourceUrl: 'https://sports.yahoo.com/nba/article/warriors-rookie-yaxel-lendeborg-buys-house-for-his-mother-who-saved-his-basketball-career-235024826.html',
+    sourceLang: 'en',
+    publishedAt: '2026-11-09T09:06:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'ESPN Deportes: Lendeborg y su madre, Yissel Raposo', url: 'https://espndeportes.espn.com/basquetbol/nba/nota/_/id/16693488/yaxel-lendeborg-madre-yissel-raposo-cancer-baloncesto-colegial-michigan' },
+      { name: 'Yaxel Lendeborg en X', url: 'https://x.com/Yaxel_Lendeborg/status/2118965269506970087' },
+      { name: 'ESPN: registro de partidos de Lendeborg', url: 'https://www.espn.com/nba/player/gamelog/_/id/5175737/yaxel-lendeborg' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/20260211_Yaxel_Lendeborg_01.jpg/1280px-20260211_Yaxel_Lendeborg_01.jpg',
+      alt: 'Yaxel Lendeborg, con camiseta sin mangas azul de Michigan y cascos en el cuello, de pie en la pista antes de un partido',
+      credit: 'TonyTheTiger · Wikimedia Commons',
+      license: 'CC0',
+    },
+  },
+  {
     slug: 'cronica-gp-brasil-2026',
     title: "Lando Norris gana el Gran Premio de Brasil por delante de Max Verstappen",
     summary: "Lando Norris gana el Gran Premio de Brasil por delante de Max Verstappen y Isack Hadjar. Así queda el Mundial de pilotos y constructores.",
