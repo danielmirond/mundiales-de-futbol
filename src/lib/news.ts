@@ -154,6 +154,219 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'ander-herrera-boca-campeon-desde-zaragoza-madrugada-me-muero-de-ganas-bombonera-hincha-medalla',
+    title: "Ander Herrera vio a Boca campeón desde Zaragoza a la una de la madrugada: «Me muero de ganas»",
+    summary: "Ander Herrera, que dejó Boca en junio y juega en el Zaragoza, celebró el título argentino en un directo de madrugada. Ya es campeón en los cuatro países en los que ha jugado.",
+    body: `Ander Herrera no pudo jugar el sábado el derbi aragonés. Unas molestias de última hora lo [sacaron de la convocatoria del Real Zaragoza](https://www.sportaragon.com/futbol-aragon/real-zaragoza/ander-herrera-pierde-real-zaragoza-sd-huesca-lesion/20261107202927162601.html) contra el Huesca, y su equipo ganó igual, 2-0, en el Ibercaja Estadio. Media hora después del final de aquel partido, en Buenos Aires, Boca se proclamaba campeón de la tabla anual con [el gol de Enner Valencia en el minuto 96](/noticias/enner-valencia-37-anos-gol-95-boca-campeon-tabla-anual-rosario-central-festejo-arroyito-di-maria-pubalgia). Herrera, que se fue del club en junio, también es campeón de ese título.
+
+Lo celebró pasada la una de la madrugada, hora española, conectado por videollamada al [directo de Davoo Xeneize](https://www.youtube.com/watch?v=fbX7Mvy4FFM&t=1394s), un canal de hinchas de Boca en YouTube. La charla dura 25 minutos y acumula más de 350.000 reproducciones. Al final le preguntaron qué quería decirle a la gente de Boca. Habló de agradecimiento y de una cuenta pendiente: vivir un día de partido en la Bombonera como hincha, no como jugador. «Me muero de ganas de hacerlo», dijo.
+
+## Despierto hasta las cinco y media
+
+Herrera contó que sigue a Boca a deshoras y que no siempre puede. Si se acuesta a las cinco y media de la mañana, explicó, al día siguiente no hay forma de levantarse para entrenar. Aun así vio algunos partidos de la recta final, como el de Rosario ante Newell's y el Boca - Racing de la Copa Argentina. Dijo también que, por los compromisos con su club actual, no puede viajar ahora, pero que irá a celebrarlo en cuanto pueda. La medalla, añadió, se la guardan.
+
+Del formato del campeonato habló con menos entusiasmo. Le parece muy mejorable un torneo en el que no te enfrentas a todos los equipos de Primera, aunque reconoció que este año le ha dado un título.
+
+## Campeón en cuatro países
+
+En la charla soltó un dato: puede decir que ha salido campeón en todos los países en los que ha jugado. La cuenta sale, según [su palmarés](https://en.wikipedia.org/wiki/Ander_Herrera):
+
+| País | Club | Títulos |
+| --- | --- | --- |
+| España | Athletic | Copa del Rey 2023-24 |
+| Inglaterra | Manchester United | FA Cup 2015-16, Copa de la Liga y Europa League 2016-17, Community Shield 2016 |
+| Francia | PSG | Ligue 1 2019-20 y 2021-22, Copa de Francia 2019-20 y 2020-21, Copa de la Liga 2019-20, Supercopa 2019 y 2020 |
+| Argentina | Boca Juniors | Liga 2026 |
+
+En su caso, el de Argentina llega sin estar ya en la plantilla: rescindió su contrato con Boca en junio y el 14 de julio volvió al Zaragoza, el club en el que se formó desde los 11 años y con el que debutó en el primer equipo el 1 de febrero de 2009, ante el Levante.
+
+## La medalla que sí le espera en casa
+
+Con el Zaragoza juega esta temporada en [Primera Federación](/futbol/primera-federacion), la tercera categoría, con un contrato de un año y [sin cobrar sueldo](/noticias/ander-herrera-37-anos-juega-gratis-real-zaragoza-primera-federacion-vendido-2011-nominas-cortar-cesped). El 2 de noviembre el Ayuntamiento anunció que le concederá [la Medalla al Mérito Deportivo de la ciudad](https://www.sportaragon.com/futbol-aragon/real-zaragoza/ander-herrera-recibira-medalla-merito-deportivo-zaragoza/20261102112832162248.html), la máxima distinción deportiva municipal, por su carrera y su vínculo con Zaragoza. Se la entregará la alcaldesa, Natalia Chueca, en la Gala del Deporte, que aún no tiene fecha. Antes la recibieron, entre otros, Javier Fernández, Carlos Sainz, Alberto Contador, Pau Gasol y Teresa Perales.
+
+Nació en Bilbao, pero creció en Zaragoza: empezó en la UD Amistad y su padre, Pedro Herrera, fue jugador y director deportivo del club durante más de dos décadas. La tabla de Boca y el resto de la temporada argentina están en la [liga argentina](/futbol/liga-argentina).`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'Primera Federación', sport: 'futbol', slug: 'primera-federacion' },
+    sourceName: 'Davoo Xeneize (YouTube)',
+    sourceUrl: 'https://www.youtube.com/watch?v=fbX7Mvy4FFM',
+    sourceLang: 'es',
+    publishedAt: '2026-11-10T18:54:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Sportaragon: Ander Herrera se pierde el derbi por molestias', url: 'https://www.sportaragon.com/futbol-aragon/real-zaragoza/ander-herrera-pierde-real-zaragoza-sd-huesca-lesion/20261107202927162601.html' },
+      { name: 'Sportaragon: Medalla al Mérito Deportivo de Zaragoza', url: 'https://www.sportaragon.com/futbol-aragon/real-zaragoza/ander-herrera-recibira-medalla-merito-deportivo-zaragoza/20261102112832162248.html' },
+      { name: 'Wikipedia: Ander Herrera', url: 'https://en.wikipedia.org/wiki/Ander_Herrera' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Manchester_United_v_Arsenal%2C_November_2016_%2811%29.JPG/1280px-Manchester_United_v_Arsenal%2C_November_2016_%2811%29.JPG',
+      alt: 'Ander Herrera, con la camiseta roja del Manchester United y el dorsal 21, camina junto al árbitro sobre el césped de Old Trafford en un partido contra el Arsenal de 2016',
+      credit: 'Ardfern · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'peter-lim-prestamo-acciones-valencia-junta-9-diciembre-116-euros-pequeno-accionista-pitchwise',
+    title: "Peter Lim cobra en acciones su préstamo al Valencia: lo que le toca pagar al pequeño accionista",
+    summary: "La junta del Valencia del 9 de diciembre convierte en acciones 42 millones que Meriton prestó al club, a 116,08 euros cada una. El minoritario que no quiera perder peso pagará lo mismo.",
+    body: `El Valencia ha convocado su junta general de accionistas para el [9 de diciembre en Feria Valencia](https://juntaaccionistas2026.valenciacf.com/docs/anuncio_convocatoria_jga2026es.pdf), y el punto 5 del orden del día es el que toca el bolsillo. Meriton Holdings, la sociedad de Peter Lim, convertirá en acciones dinero que le debe el club: 364.775 acciones nuevas a 116,08 euros cada una, 1 euro de valor nominal y 115,08 de prima. En total, 42,3 millones.
+
+Ese dinero corresponde al préstamo de Meriton, 35 millones de principal y 7 de intereses, según [Valencia Plaza](https://valenciaplaza.com/valenciaplaza/empresas1/peter-lim-valora-el-valencia-cf-en-835-millones-al-capitalizar-su-prestamo-y-en-1250-millones-al-vender-el-42-a-pitchwise), que ha publicado los detalles de la propuesta.
+
+## Lo que le cuesta al minoritario
+
+Hay un segundo tramo de 33.666 acciones, al mismo precio, reservado a los accionistas minoritarios para que su participación «permanezca inalterada», dice la convocatoria. Si se suscribiera entero, serían 3,9 millones de euros.
+
+Le corresponde una acción nueva por cada 17,14 que ya tenga, con posibilidad de agruparse con otros. Un ejemplo con esa proporción: quien tenga 100 acciones necesita 5,8 nuevas; redondeando a seis, son 696 euros para no perder peso. El plazo, si la junta lo aprueba, iría del 14 de diciembre al 12 de febrero. La convocatoria prevé la suscripción incompleta: lo que nadie compre se queda sin emitir.
+
+Meriton tiene hoy el 91,55 % del club y, si los pequeños accionistas no acuden, subiría hasta casi el 92 %. No sería raro: en las tres ampliaciones anteriores para capitalizar préstamos de Meriton, en 2015, 2021 y 2022, los minoritarios pusieron en total 748.000 euros, según el mismo diario.
+
+## Dos cifras que no se comparan
+
+Con 116,08 euros por acción, el consejo valora el capital del club en 792,7 millones antes de la ampliación y en 835 después del primer tramo. Es una cuenta propia a partir de la numeración de las acciones de la convocatoria, que empieza en la 6.828.804. El auditor, EY, solo certifica que el precio lo fijó el consejo por entender que es el valor razonable.
+
+La otra cifra que circula es la de Pitchwise Holdings, el fondo estadounidense que [entró en octubre](/noticias/peter-lim-socio-valencia-pitchwise-doce-anos-compra-bankia-villarreal-mestalla) con el objetivo de llegar al 42 %. El [comunicado del club](https://www.valenciacf.com/kiat-lim-y-pitchwise-holdings-conforman-una-nueva-alianza-accionarial-en-el-valencia-cf) habla de 1.250 millones, pero de valor de empresa: incluye la deuda y todos los activos, del primer equipo al proyecto del Nou Mestalla. Los 835 millones son solo el valor de las acciones. La diferencia entre las dos no dice, por sí sola, que el fondo pague más.
+
+## Lo que no está en el orden del día
+
+- Pitchwise no aparece en la convocatoria, ni los 100 millones de capital nuevo que el club anunció que aportaría.
+- Sí aparecen la reelección como consejeros de Kim Huat Koh y de Wee Kiat Lim, el hijo de Peter Lim que preside el club, y el nombramiento de Mark Kong Jie Chiang y Ren Zhu Pang.
+- La junta se celebra el 9 a las 10:00 en primera convocatoria y el 10 a la misma hora en segunda. La delegación de voto se cierra el 4 de diciembre.
+
+Mientras, el equipo sigue en el campo: esta noche juega en Mestalla [la eliminatoria de Copa ante el UE Tavernes](/noticias/ue-tavernes-valencia-mestalla-horario-donde-ver-copa-del-rey-martes-10-noviembre). La temporada del club, en la [página del Valencia](/futbol/laliga/equipo/94).`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'LaLiga', sport: 'futbol', slug: 'laliga' },
+    sourceName: 'Valencia CF (convocatoria de la junta)',
+    sourceUrl: 'https://juntaaccionistas2026.valenciacf.com/docs/anuncio_convocatoria_jga2026es.pdf',
+    sourceLang: 'es',
+    publishedAt: '2026-11-10T18:52:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Valencia Plaza: Peter Lim valora el Valencia CF en 835 millones', url: 'https://valenciaplaza.com/valenciaplaza/empresas1/peter-lim-valora-el-valencia-cf-en-835-millones-al-capitalizar-su-prestamo-y-en-1250-millones-al-vender-el-42-a-pitchwise' },
+      { name: 'Valencia CF: comunicado de la entrada de Pitchwise', url: 'https://www.valenciacf.com/kiat-lim-y-pitchwise-holdings-conforman-una-nueva-alianza-accionarial-en-el-valencia-cf' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Fachada_exterior_del_Mestalla_antes_del_partido_Valencia-Barcelona_LaLiga_2023-2024.jpg/1280px-Fachada_exterior_del_Mestalla_antes_del_partido_Valencia-Barcelona_LaLiga_2023-2024.jpg',
+      alt: 'Fachada de Mestalla de noche, con los focos encendidos, lonas con trofeos del club y aficionados caminando por la acera antes de un partido',
+      credit: 'Anidae · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'tom-brady-deja-birmingham-city-lider-championship-3-3-por-ciento-sin-explicacion-knighthead',
+    title: "Tom Brady deja el Birmingham con el equipo líder: el club no explica qué pasa con su 3,3 %",
+    summary: "Birmingham City anuncia la salida de Tom Brady, accionista minoritario desde 2023, justo cuando lidera la Championship. No da motivos ni dice quién se queda su participación.",
+    body: `Tom Brady ya no es accionista del Birmingham City. El club de la [Championship](/futbol/championship), la segunda categoría inglesa, [lo comunicó este lunes](https://www.theguardian.com/football/2026/nov/09/tom-brady-birmingham-city-investor-sale-exit) con una nota de agradecimiento por su «apoyo inquebrantable» durante tres años. No explicó por qué se va ni qué pasará con su participación, un 3,3 % del club, [según ESPN](https://www.espn.com/soccer/story/_/id/50435605/tom-brady-birmingham-city-nfl-championship).
+
+La salida llega en el mejor momento deportivo de su etapa. El Birmingham es líder con 29 puntos en 15 jornadas tras ganar 2-1 al Swansea el sábado, empatado con el Middlesbrough y el Stoke y por delante de los dos por diferencia de goles, según la [clasificación de la Championship](/futbol/championship/clasificacion).
+
+## Tres años en el Birmingham
+
+Brady, de 49 años y siete veces campeón de la Super Bowl con los Patriots y los Buccaneers, entró en agosto de 2023 de la mano de Knighthead Capital Management, el fondo de su amigo y socio Tom Wagner. No compró la mayoría: fue accionista minoritario y presidente de un consejo asesor creado para él. Lo que vino después, según [la historia del club](https://en.wikipedia.org/wiki/Birmingham_City_F.C.) y ESPN:
+
+| Fecha | Qué pasó |
+| --- | --- |
+| Julio de 2023 | Knighthead compra el control del club y del estadio |
+| Agosto de 2023 | Entra Brady |
+| Octubre de 2023 | Despiden a John Eustace con el equipo en puestos de playoff y llega Wayne Rooney |
+| Enero de 2024 | Rooney sale a los 83 días, con dos victorias en 15 partidos |
+| Mayo de 2024 | Descenso a League One, tercera categoría, tras 29 años más arriba |
+| 2024-25 | Campeón de League One con Chris Davies y regreso inmediato |
+| Noviembre de 2025 | Knighthead compra el 51 % que aún tenía ZO Future Group |
+| Noviembre de 2026 | Brady se va con el equipo primero |
+
+## Lo que no se sabe
+
+El comunicado no trae palabras de Brady ni dice si ha vendido su parte, a quién o por cuánto. El club se limita a decir que seguirá construyendo sobre lo hecho, desde la ciudad deportiva hasta su trabajo en la ciudad.
+
+Brady mantiene otras participaciones en el deporte: es accionista minoritario de los Las Vegas Raiders de la NFL y de las Las Vegas Aces de la WNBA, y comenta partidos en Fox Sports. Wagner, en cambio, sigue al frente con la vista en la Premier League y en el proyecto de un estadio nuevo de 62.000 asientos. El actual, St Andrew's, se rebautizó en 2024 como St. Andrew's @ Knighthead Park.
+
+Si el Birmingham sube, sería su regreso a la Premier League por primera vez desde 2011, el año en que también ganó su último título, la Copa de la Liga.`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'Championship', sport: 'futbol', slug: 'championship' },
+    sourceName: 'The Guardian',
+    sourceUrl: 'https://www.theguardian.com/football/2026/nov/09/tom-brady-birmingham-city-investor-sale-exit',
+    sourceLang: 'en',
+    publishedAt: '2026-11-10T18:56:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'ESPN: Tom Brady leaves Birmingham City', url: 'https://www.espn.com/soccer/story/_/id/50435605/tom-brady-birmingham-city-nfl-championship' },
+      { name: 'Wikipedia: Birmingham City F.C.', url: 'https://en.wikipedia.org/wiki/Birmingham_City_F.C.' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/StAndrew%27s_Main_Stand_and_Clock.JPG/1280px-StAndrew%27s_Main_Stand_and_Clock.JPG',
+      alt: 'Tribuna principal de St Andrew\'s, el estadio del Birmingham City, con los asientos azules casi vacíos y operarios con chaleco naranja junto al césped',
+      credit: 'Struway · Wikimedia Commons',
+      license: 'CC BY-SA 3.0',
+    },
+  },
+  {
+    slug: 'sabalenka-andreeva-indian-wells-hugo-gonzalez-toronto-aday-mara-champions-femenina-miercoles-11-noviembre-horarios',
+    title: "Sabalenka y Andreeva, invictas en Indian Wells, y Hugo González en Toronto: horarios del miércoles",
+    summary: "Sabalenka y Andreeva se juegan el primer puesto de su grupo de las WTA Finals a las 22:30, Hugo González visita Toronto a la 1:00 y Aday Mara repite en Portland. Horarios y canales.",
+    body: `El miércoles 11 de noviembre tampoco hay LaLiga ni Segunda por el parón de selecciones. España no juega hasta el jueves, a las 20:45, en [Chequia](/futbol/nations-league/partido/401861148). La noche se reparte entre las WTA Finals de Indian Wells, la [Champions femenina](/futbol/champions-femenina) y, de madrugada, la NBA, con Hugo González y Aday Mara.
+
+| Hora peninsular | Canarias | Partido | Competición |
+|---|---|---|---|
+| 18:45 | 17:45 | OH Leuven - HB Køge | Champions femenina |
+| 21:00 | 20:00 | Benfica - Austria de Viena | Champions femenina |
+| 21:00 | 20:00 | Juventus - OL Lyonnes | Champions femenina |
+| 21:00 | 20:00 | Muchova - Svitolina | WTA Finals |
+| 22:30 | 21:30 | Andreeva - Sabalenka | WTA Finals |
+| 01:00 (jueves) | 00:00 | Pacers - Wizards | NBA |
+| 01:00 (jueves) | 00:00 | Knicks - Cavaliers | NBA |
+| 01:00 (jueves) | 00:00 | Raptors - Celtics | NBA |
+| 02:00 (jueves) | 01:00 | Bulls - Spurs | NBA |
+| 02:00 (jueves) | 01:00 | Grizzlies - Nuggets | NBA |
+| 02:00 (jueves) | 01:00 | Bucks - Lakers | NBA |
+| 02:00 (jueves) | 01:00 | Pelicans - Nets | NBA |
+| 03:00 (jueves) | 02:00 | Jazz - Magic | NBA |
+| 03:30 (jueves) | 02:30 | Rockets - Warriors | NBA |
+| 04:00 (jueves) | 03:00 | Trail Blazers - Thunder | NBA |
+
+Las horas del tenis son las previstas por [el marcador de ESPN](https://www.espn.com/tennis/scoreboard); el segundo partido empieza cuando acaba el primero.
+
+## Indian Wells: el duelo de las dos que ganaron
+
+En el grupo que juega el miércoles, Aryna Sabalenka ganó el lunes a Karolina Muchova por 7-6 y 7-5, y Mirra Andreeva arrolló a Elina Svitolina por 6-4 y 6-0. Las dos ganadoras se miden a partir de las 22:30: quien gane tendrá medio pie en semifinales. Antes, a las 21:00, Muchova y Svitolina se juegan no quedarse casi fuera. Las semifinales son el sábado 14 y la final, el domingo 15.
+
+Seguimos sin poder confirmar qué plataforma emite el torneo en España, como recoge [nuestra guía de la WTA en televisión](/noticias/donde-ver-wta-espana-finals-indian-wells-grand-slam-2027-bucsa). El torneo lo dirige [Garbiñe Muguruza](/noticias/garbine-muguruza-33-anos-madre-directora-wta-finals-indian-wells-no-fui-muy-capaz-de-disfrutar).
+
+## Hugo González, a la 1:00 en Toronto
+
+Los Celtics llegan con 8-2 antes de su visita de esta madrugada a Filadelfia, que contamos en [la agenda del martes](/noticias/celtics-76ers-hugo-gonzalez-brown-tatum-aday-mara-portland-gauff-indian-wells-martes-10-noviembre-horarios). Los Raptors van 5-5 y perdieron en casa ante Memphis por 102-118 en la madrugada del martes, según la [ficha del partido](/baloncesto/nba/partido/401909968). Abre la noche junto al Pacers - Wizards y el Knicks - Cavaliers, según [el calendario de ESPN](https://www.espn.com/nba/schedule/_/date/20261111).
+
+La ficha no da un canal concreto. DAZN tiene la selección principal de la temporada y Prime Video, la madrugada del viernes al sábado, como explica [la guía de la NBA en España](/noticias/nba-2026-27-donde-ver-espana-dazn-prime-video-estreno-hugo-gonzalez-aldama); el resto, en [qué plataforma emite cada competición y cuánto cuesta](/noticias/donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1).
+
+## Aday Mara repite en Portland
+
+Los Thunder juegan dos veces seguidas en el Moda Center: la madrugada del miércoles a las 05:00 y la del jueves a las 04:00, en [el segundo Trail Blazers - Thunder](/baloncesto/nba/partido/401909975). Aday Mara viene de firmar 18 puntos y 8 rebotes ante Washington, [según su registro en ESPN](https://www.espn.com/nba/player/gamelog/_/id/5174983/aday-mara). Los Mavericks de Santi Aldama y Sergio de Larrea y los Clippers de Baba Miller no juegan.
+
+## Champions femenina, sin españoles
+
+Ninguno de los tres partidos del miércoles tiene equipo español. El más grande es el Juventus - OL Lyonnes de Turín: el Lyon es segundo con 7 puntos y la Juventus, quinta con 6, según la [ficha](/futbol/champions-femenina/partido/401916984). Las fichas no confirman canal; el reparto de la competición está en [la guía del fútbol femenino](/noticias/donde-ver-liga-f-champions-femenina-2026-27-dazn-tve-disney-gratis).`,
+    category: 'tv',
+    kind: 'noticia',
+    competition: { name: 'WTA', sport: 'tenis', slug: 'wta' },
+    sourceName: 'ESPN',
+    sourceUrl: 'https://www.espn.com/tennis/scoreboard',
+    sourceLang: 'en',
+    publishedAt: '2026-11-10T18:50:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'ESPN: calendario de la NBA del 11 de noviembre', url: 'https://www.espn.com/nba/schedule/_/date/20261111' },
+      { name: 'ESPN: registro de partidos de Aday Mara', url: 'https://www.espn.com/nba/player/gamelog/_/id/5174983/aday-mara' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Indian_Wells_Tennis_Garden_2023_%28cropped%29.jpg/1280px-Indian_Wells_Tennis_Garden_2023_%28cropped%29.jpg',
+      alt: 'Vista aérea del Indian Wells Tennis Garden en el desierto de California, con la pista central, las pistas exteriores y carpas blancas junto al aparcamiento',
+      credit: 'Vision360media · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
     slug: "nino-46-anos-pintadas-elche-silencio-hasta-el-jueves-record-partidos-segunda",
     title: "Nino, 46 años, leyenda del Elche: las pintadas del lunes y el silencio hasta el jueves",
     summary: "Nino, el jugador con más partidos en Segunda, recuerda en un pódcast las pintadas que aparecían tras las derrotas y por qué no hablaba con nadie hasta el jueves.",
