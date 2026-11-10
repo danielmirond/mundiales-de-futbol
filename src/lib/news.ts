@@ -154,6 +154,190 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: "nino-46-anos-pintadas-elche-silencio-hasta-el-jueves-record-partidos-segunda",
+    title: "Nino, 46 años, leyenda del Elche: las pintadas del lunes y el silencio hasta el jueves",
+    summary: "Nino, el jugador con más partidos en Segunda, recuerda en un pódcast las pintadas que aparecían tras las derrotas y por qué no hablaba con nadie hasta el jueves.",
+    body: `El Elche anunció en 2021 que [la puerta 7 del Martínez Valero](https://alicanteplaza.es/nino-cuelga-las-botas) llevaría el nombre de Nino. Veinte años antes, en ese mismo estadio, lo que aparecía con su nombre eran pintadas. Lo ha contado en [el pódcast Los Fulanos](https://www.youtube.com/watch?v=D9-HEw3iIiY&t=1931s): había días en que el Elche perdía el domingo y el lunes por la mañana amanecían pintadas contra él por no marcar. Tenía 20 o 21 años y llevaba dos o tres temporadas en el primer equipo.
+
+«Para un chaval de 20, 21 años, ostras, era muy duro», dice. Hoy tiene 46 y, desde que se retiró, sigue trabajando en el Elche, ahora como entrenador de un equipo juvenil.
+
+## Hasta el jueves, con nadie
+
+La derrota le duraba más en casa que en el campo. Si el Elche perdía, cuenta, no hablaba con nadie hasta el jueves. Su cuñado lo tenía medido: si ganaba, al día siguiente se le podía ver comiendo o cenando en cualquier sitio; si perdía, no aparecía por ningún lado hasta el jueves.
+
+Lo explica por el tamaño del sitio. Elche, dice, es una ciudad grande y pequeña a la vez, muy futbolera, y se sentía señalado en cualquier lado, para bien o para mal. Años después, ya de vuelta en el club, alguien se le acercó a saludarle y le recordó aquellas pintadas. La respuesta, entre risas, fue que le había hecho sufrir como un perro.
+
+## El niño de Vera que aguantó una semana en Madrid
+
+La presión era nueva; irse de casa, no. Con 14 años, tras un partido en Madrid con chavales de su zona, el Real Madrid llamó para que empezara la pretemporada. Su padre le llevó desde Vera, en Almería, y le dejó allí. Aguantó una semana, llorando. Quería irse. El padre llamó a Vicente del Bosque, al que Nino recuerda al frente de las categorías inferiores, y la respuesta fue que se volvieran tranquilos a casa y regresaran al año siguiente. Regresó, y esa vez se quedó dos años.
+
+## Lo que vino después
+
+| Registro | Cifra |
+| --- | --- |
+| Partidos en Segunda División | 571 |
+| Goles en Segunda División | 194 |
+| Partidos oficiales con el Elche | 475 |
+| Goles con el Elche | 135 |
+| Edad al retirarse (2021) | casi 41 años |
+
+Las cifras son las que recogió Alicante Plaza el día de su retirada; [El Español](https://www.elespanol.com/alacant/esport/elx-cf/20210608/nino-goleador-eterno-elche-cumplido-objetivos-imagine/587441457_0.html) le atribuía entonces el récord de partidos de la historia de [Segunda](/futbol/laliga-2). El [Elche](/futbol/laliga/equipo/3751) en el que empezaron aquellas pintadas juega hoy en LaLiga.`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'LaLiga Hypermotion', sport: 'futbol', slug: 'laliga-2' },
+    sourceName: "Los Fulanos (YouTube)",
+    sourceUrl: "https://www.youtube.com/watch?v=D9-HEw3iIiY",
+    sourceLang: 'es',
+    publishedAt: '2026-11-10T12:24:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: "Alicante Plaza: Nino cuelga las botas", url: "https://alicanteplaza.es/nino-cuelga-las-botas" },
+      { name: "El Español: Nino, goleador eterno del Elche", url: "https://www.elespanol.com/alacant/esport/elx-cf/20210608/nino-goleador-eterno-elche-cumplido-objetivos-imagine/587441457_0.html" },
+      { name: "Wikipedia: Nino (futbolista)", url: "https://es.wikipedia.org/wiki/Nino_(futbolista)" },
+    ],
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Estadio_Martinez_Valero.jpg/1280px-Estadio_Martinez_Valero.jpg",
+      alt: "Estadio Martínez Valero de noche visto desde un banderín de córner, con la grada iluminada y jugadores al fondo durante un partido",
+      credit: "Ruben Ortega · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: "portillo-36-anos-cinco-ascensos-mayor-miedo-descenso-huesca-offsiders",
+    title: "Portillo, 36 años y cinco ascensos a Primera: «Era mi mayor miedo», y se cumplió en Huesca",
+    summary: "Portillo subió a Primera con cinco clubes distintos y firmó por el Huesca en agosto de 2025 con un temor que confiesa ahora: bajar por primera vez. El equipo acabó 20.º.",
+    body: `Francisco Portillo ha subido a Primera con cinco clubes distintos. Cuando en agosto de 2025 fichó por el Huesca, sabía qué era lo único que no le había pasado nunca. Lo ha confesado en [el pódcast Offsiders](https://www.youtube.com/watch?v=9TRQ4STbxj4&t=6719s): tenía la carrera limpia y lo que temía, y así lo sabían su mujer y su familia, era un descenso. «Era mi mayor miedo», dice. El Huesca [acabó 20.º de 22](https://en.wikipedia.org/wiki/SD_Huesca) en [Segunda](/futbol/laliga-2) y bajó a Primera Federación.
+
+Dudó todo aquel agosto. Llevaba semanas hablando con el club y, según cuenta, algo le decía que después de ascender con el Oviedo cualquier proyecto le iba a saber a menos. Temía también volver a quedarse como agente libre. Firmó a final de mes.
+
+## El año que no quiere repetir
+
+Portillo no habla solo de la clasificación. Dice que fue un año durísimo, que pasaron cosas fuera del campo que no tienen que pasar y que en cierto momento faltaron compañerismo y valores. Lo resume con un dato: tuvieron tres entrenadores. El Huesca [destituyó a Sergi Guilló](https://www.elgoldigital.com/futbol/huesca/el-huesca-destituye-a-sergi-guillo-tras-sumar-solo-2-puntos-de-los-ultimos-15-posibles/) y, ya en la jornada 30, a Jon Pérez Bolo. Él mismo dice que le ha quedado esa espina.
+
+## Cinco subidas y una bajada
+
+| Temporada | Club | Resultado |
+| --- | --- | --- |
+| 2014-15 | Betis | Ascenso a Primera |
+| 2016-17 | Getafe | Ascenso a Primera |
+| 2021-22 | Almería | Ascenso a Primera |
+| 2023-24 | [Leganés](/futbol/laliga-2/equipo/17534) | Ascenso a Primera |
+| 2024-25 | [Oviedo](/futbol/laliga-2/equipo/92) | Ascenso a Primera |
+| 2025-26 | Huesca | Descenso a Primera Federación |
+
+La lista de ascensos es la de [su ficha biográfica](https://es.wikipedia.org/wiki/Francisco_Portillo_Soler). Ha subido desde cinco ciudades distintas y ha bajado una vez.
+
+## El chaval que miraba a Cristiano
+
+La entrevista empieza mucho antes. Portillo, de El Palo, debutó con el Málaga el 24 de enero de 2010 en el Bernabéu, en los últimos 17 minutos de una derrota por 2-0. Era el equipo de su tierra y un estadio que define como el más mítico del mundo. En el mismo programa recuerda el calentamiento: se quedó mirando a Cristiano Ronaldo mientras se preparaba para lanzar una falta, y pensó que dos meses antes le estaba viendo en vídeos de YouTube.`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'LaLiga Hypermotion', sport: 'futbol', slug: 'laliga-2' },
+    sourceName: "Offsiders (YouTube)",
+    sourceUrl: "https://www.youtube.com/watch?v=9TRQ4STbxj4",
+    sourceLang: 'es',
+    publishedAt: '2026-11-10T12:26:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: "Wikipedia: Francisco Portillo", url: "https://es.wikipedia.org/wiki/Francisco_Portillo_Soler" },
+      { name: "Wikipedia: SD Huesca", url: "https://en.wikipedia.org/wiki/SD_Huesca" },
+      { name: "El Gol Digital: destitución de Sergi Guilló", url: "https://www.elgoldigital.com/futbol/huesca/el-huesca-destituye-a-sergi-guillo-tras-sumar-solo-2-puntos-de-los-ultimos-15-posibles/" },
+      { name: "El Gol Digital: destitución de Jon Pérez Bolo", url: "https://www.elgoldigital.com/futbol/huesca/jon-perez-bolo-destituido-en-el-huesca/" },
+    ],
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/El_Alcoraz%2C_Uesca.jpg/1280px-El_Alcoraz%2C_Uesca.jpg",
+      alt: "Exterior del estadio de El Alcoraz, en Huesca, visto desde una carretera con un talud de tierra y una torre de focos al fondo",
+      credit: "Willtron · Wikimedia Commons",
+      license: "CC BY-SA 3.0",
+    },
+  },
+  {
+    slug: "alba-torrens-37-anos-mejor-de-europa-entrenamiento-futbol-binissalem-azulmarino",
+    title: "Alba Torrens, 37 años y dos veces la mejor de Europa: un entrenamiento la sacó del fútbol",
+    summary: "De niña, en Binissalem, Alba Torrens iba para futbolista. Un entrenamiento de baloncesto y una frase del entrenador lo cambiaron todo: lo cuenta a Amaya Valdemoro desde casa de sus padres.",
+    body: `A los siete u ocho años, Alba Torrens no quería jugar al baloncesto. Su padre había jugado al fútbol en Tercera División, ella iba con la pelota a todas partes y entrenaba con el equipo de su pueblo, Binissalem. Cuando un profesor de educación física le propuso probar en el Basket Inca, dijo que no: «yo quería jugar a fútbol, lo tenía clarísimo», [le ha contado a Amaya Valdemoro](https://www.youtube.com/watch?v=ZzGrh_bvMDs&t=218s).
+
+Fue por insistencia de sus padres, a un solo entrenamiento. Al acabar, el entrenador avisó de que el miércoles había partido. En el fútbol ella no jugaba partidos, y eso lo cambió todo. Sus padres, que se acuerdan mejor que ella, dicen que ahí mismo anunció que quería jugar a baloncesto. En su primer partido metió una canasta en el aro contrario.
+
+## De aquel error a lo más alto de Europa
+
+- **14 años.** Se va a Barcelona, [al Segle XXI](https://es.wikipedia.org/wiki/Alba_Torrens), y deja Mallorca. Dice que ella lo tenía clarísimo y que sus padres, quizá no tanto.
+- **17 años.** Sale sin terminar los cuatro años previstos y da el salto a la Liga Femenina con el Celta.
+- **2011 y 2014.** La FIBA la elige mejor jugadora de Europa, los dos años en que también fue MVP de la [Euroliga](/baloncesto/euroliga) con Avenida y Galatasaray.
+- **2017.** Oro y MVP del Eurobasket con España.
+- **2014-2021.** Siete temporadas en Ekaterimburgo, en Rusia, de las que también habla en la conversación.
+
+En el palmarés de la selección tiene además una plata olímpica en Río 2016 y plata en el Mundial de 2014.
+
+## Lo que no se salta
+
+Ahora tiene 37 años y juega en casa. El Azulmarino Mallorca [fue campeón de la Liga Femenina Challenge](https://www.w2m.travel/en-en/noticias/ascenso-azulmarino-mallorca-consolida-compromiso-world2meet-baloncesto-femenino) en 2025-26, con ella incorporada a mitad de temporada, y [renovó](https://www.mallorcadiario.com/alba-torrens-se-queda-en-el-azulmarino) para jugar esta temporada en la máxima categoría, que se puede seguir [en estas plataformas](/noticias/donde-ver-baloncesto-espana-2026-27-nba-euroliga-liga-endesa-seleccion-wnba).
+
+La grabación tiene una escena que lo resume sin pretenderlo. Valdemoro le pregunta dónde está, porque el fondo de la videollamada es blanco. Ella responde que esa mañana ha entrenado y que está en casa de sus padres porque va a comer allí. Son, dice, cosas pequeñas que estuvieron fuera de su alcance muchos años y que ahora no se salta.`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'Liga Femenina Endesa', sport: 'baloncesto', slug: 'liga-endesa' },
+    sourceName: "Baloncesto España · Conversaciones con Amaya",
+    sourceUrl: "https://www.youtube.com/watch?v=ZzGrh_bvMDs",
+    sourceLang: 'es',
+    publishedAt: '2026-11-10T12:28:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: "Wikipedia: Alba Torrens", url: "https://es.wikipedia.org/wiki/Alba_Torrens" },
+      { name: "Mallorca Diario: Alba Torrens se queda en el Azulmarino", url: "https://www.mallorcadiario.com/alba-torrens-se-queda-en-el-azulmarino" },
+      { name: "World2Meet: ascenso del Azulmarino Mallorca", url: "https://www.w2m.travel/en-en/noticias/ascenso-azulmarino-mallorca-consolida-compromiso-world2meet-baloncesto-femenino" },
+    ],
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Alba_Torrens_7_Spain_20250629_%281%29.jpg/1280px-Alba_Torrens_7_Spain_20250629_%281%29.jpg",
+      alt: "Alba Torrens, con la camiseta blanca de calentamiento de España y moño, camina por la pista junto a una mujer vestida de negro con el polo del equipo",
+      credit: "Zafer · Wikimedia Commons",
+      license: "CC BY 4.0",
+    },
+  },
+  {
+    slug: "trival-valderas-club-barrio-alcorcon-local-butarque-leganes-copa-del-rey",
+    title: "Trival Valderas, el club de barrio de Alcorcón que hoy hace de local en casa del Leganés",
+    summary: "El Trival Valderas, de Tercera Federación, recibe esta noche al Leganés en Butarque, el estadio de su rival: su campo tiene 2.000 plazas y el partido llega con dos semanas de retraso.",
+    body: `El Leganés juega esta noche en Butarque y será el visitante. El local, [según el propio club pepinero](https://www.cdleganes.com/estreno-en-copa-ante-el-trival-valderas), es el Trival Valderas, un club de Tercera Federación del barrio de San José de Valderas, en Alcorcón. Es el [Trival Valderas - Leganés](/futbol/copa-del-rey/partido/401928550) de la primera eliminatoria de la Copa, a las 20:00 (19:00 en Canarias), con Abraham Domínguez Cervantes como árbitro.
+
+El Leganés lo explica en una línea: el partido, aplazado hace dos semanas por el accidente de tren de Urda, no podía disputarse en las instalaciones del Trival. El escenario pasó a ser el del rival.
+
+## Seis veces más grande que su campo
+
+El Trival [juega en La Canaleja, con 2.000 plazas](https://es.wikipedia.org/wiki/Club_de_F%C3%BAtbol_Trival_Valderas_Alcorc%C3%B3n). Butarque, [según LaLiga](https://www.laliga.com/noticias/historia-estadio-municipal-butarque-cd-leganes), tiene 12.454. Son unas seis veces las plazas de su campo.
+
+Nació en 2004 de la unión de dos entidades del barrio, una de 1971 y otra de 1972, con la idea de centrarse en el fútbol base. Su mejor recuerdo reciente es de 2013-14, cuando ganó su grupo de Tercera y subió a Segunda B. Ahora es octavo del Grupo 7, con una sola derrota, y llega del 1-1 del domingo ante el Rayo Ciudad Alcobendas.
+
+## La lluvia decide quién se moja
+
+El Leganés publicó ayer la logística de un partido que juega como invitado en su propio estadio. Por [la previsión de lluvia](https://www.cdleganes.com/el-acceso-al-partido-de-copa-por-las-puertas-3-4), la afición del Trival irá a la zona de tribuna, por las puertas 1-2. La del Leganés, incluida la grada de animación, entrará por las 3-4. Según la historia del estadio que publica LaLiga, la Tribuna, de más de 3.500 asientos, es la única parte cubierta de Butarque.
+
+## No es el único local sin casa
+
+La misma noche, el [UE Tavernes recibe al Valencia en Mestalla](/noticias/ue-tavernes-valencia-mestalla-horario-donde-ver-copa-del-rey-martes-10-noviembre) también lejos de su campo. La [Copa del Rey](/futbol/copa-del-rey) da el campo al modesto, y dos de los modestos del martes no juegan en el suyo.`,
+    category: 'curiosa',
+    kind: 'noticia',
+    competition: { name: 'Copa del Rey', sport: 'futbol', slug: 'copa-del-rey' },
+    sourceName: "CD Leganés",
+    sourceUrl: "https://www.cdleganes.com/estreno-en-copa-ante-el-trival-valderas",
+    sourceLang: 'es',
+    publishedAt: '2026-11-10T12:30:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: "CD Leganés: accesos para el partido de Copa", url: "https://www.cdleganes.com/el-acceso-al-partido-de-copa-por-las-puertas-3-4" },
+      { name: "ESPN: Trival Valderas - Leganés", url: "https://www.espn.com/soccer/match/_/gameId/401928550" },
+      { name: "LaLiga: historia de Butarque", url: "https://www.laliga.com/noticias/historia-estadio-municipal-butarque-cd-leganes" },
+      { name: "Wikipedia: CF Trival Valderas", url: "https://es.wikipedia.org/wiki/Club_de_F%C3%BAtbol_Trival_Valderas_Alcorc%C3%B3n" },
+      { name: "RFEF: calendario de aplazados de la Copa", url: "https://rfef.es/es/noticias/actualizado-el-calendario-de-los-partidos-aplazados-de-la-copa-del-rey-mapfre-y-de-la-copa" },
+    ],
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/6/61/TribunaButarque.jpg",
+      alt: "Tribuna cubierta del estadio de Butarque con los asientos blancos y azules vacíos, vista desde el césped en un día soleado",
+      credit: "Miguelazo84 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
     slug: 'ue-tavernes-valencia-mestalla-horario-donde-ver-copa-del-rey-martes-10-noviembre',
     title: 'UE Tavernes - Valencia en Mestalla: horario y dónde ver hoy el partido de Copa aplazado',
     summary: 'El UE Tavernes, de sexta categoría, recibe al Valencia a las 21:00 en Mestalla, en el partido que se aplazó por el accidente de Toledo. Horario, canal y el resto de la Copa de este martes.',
