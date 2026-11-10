@@ -154,6 +154,131 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'nba-resultados-2026-11-10',
+    title: "NBA: todos los resultados de la jornada y el partido más igualado",
+    summary: "Resultados de los 5 partidos de la noche en la NBA, con el más igualado y el de más puntos.",
+    body: `5 partidos en la NBA esta noche. El más igualado, Mavericks 125-122 a Pacers, decidido en la última posesión. El de más puntos, Mavericks ante Pacers (125-122).
+
+## Resultados
+
+- [Lakers 124-114 Hawks](/baloncesto/nba/partido/401909952)
+- [Hornets 124-112 Cavaliers](/baloncesto/nba/partido/401909953)
+- [Pistons 122-111 Wizards](/baloncesto/nba/partido/401909954)
+- [Grizzlies 118-102 Raptors](/baloncesto/nba/partido/401909955)
+- [Mavericks 125-122 Pacers](/baloncesto/nba/partido/401909956)
+
+Marcadores en directo, calendario y clasificación por conferencias en la [página de la NBA](/baloncesto/nba).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"NBA","sport":"baloncesto","slug":"nba"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/nba/scoreboard",
+    sourceLang: 'en',
+    publishedAt: '2026-11-10T03:49:50.314Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/American_Airlines_Center_August_2015.jpg/1920px-American_Airlines_Center_August_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "American Airlines Center, sede del Mavericks - Pacers",
+      credit: "Michael Barera · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
+    slug: 'nfl-semana-2026-46',
+    title: "NFL: resultados de la semana y cómo quedan la AFC y la NFC",
+    summary: "Resultados de los 14 partidos de la semana en la NFL, el más ajustado y los mejores balances de la AFC y la NFC.",
+    body: `14 partidos en la última semana de la NFL. El triunfo más ajustado, el de Saints ante Browns (23-22); la mayor diferencia, la de Jaguars sobre Ravens, por 23 puntos.
+
+## Resultados
+
+- Jaguars 33-10 Ravens
+- Bengals 34-17 Falcons
+- Cowboys 27-23 Colts
+- Chiefs 35-12 Jets
+- Lions 19-9 Dolphins
+- Saints 23-22 Browns
+- Giants 19-11 Eagles
+- Rams 20-13 Commanders
+- Broncos 26-21 Panthers
+- Texans 44-22 Chargers
+- Packers 45-27 Patriots
+- 49ers 38-17 Raiders
+- Seahawks 17-3 Cardinals
+- Bears 27-24 Buccaneers
+
+## AFC
+
+- Bills: 6-1
+- Broncos: 7-2
+- Jaguars: 6-2
+
+## NFC
+
+- 49ers: 7-1
+- Vikings: 6-1
+- Bears: 7-2
+
+Calendario, resultados y clasificación completa en la [página de la NFL](/futbol-americano/nfl).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"NFL","sport":"futbol-americano","slug":"nfl"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/nfl/scoreboard",
+    sourceLang: 'en',
+    publishedAt: '2026-11-10T03:49:50.314Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/M%26T_Bank_Stadium_20220706.jpg/1920px-M%26T_Bank_Stadium_20220706.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "M&T Bank Stadium, sede del Ravens - Jaguars",
+      credit: "Jstuby · CC0 · Wikimedia Commons",
+      license: "CC0",
+    },
+  },
+  {
+    slug: 'partidos-futbol-hoy-2026-11-10',
+    title: "Partidos de fútbol hoy, martes 10 de noviembre: horarios y dónde ver Champions fem. y Copa del Rey",
+    summary: "Agenda de fútbol de hoy martes 10 de noviembre: 11 partidos con horario en hora española y canal de televisión. Destaca Roma - Servette.",
+    body: `Jornada de fútbol con 11 citas este martes 10 de noviembre. Horarios en hora peninsular y dónde verlas, competición por competición. El partido que más miradas reúne es el **[Roma - Servette](/futbol/champions-femenina/partido/401916989)** (Champions League femenina, 21:00 h).
+
+## Champions League femenina
+
+- **[BK Häcken - Chelsea ](/futbol/champions-femenina/partido/401916991)** — 18:45 h
+- **[Real Madrid - Paris FC](/futbol/champions-femenina/partido/401916990)** — 18:45 h
+- **[Inter Milan - Man City](/futbol/champions-femenina/partido/401916988)** — 21:00 h
+- **[PSG - Bayern](/futbol/champions-femenina/partido/401916987)** — 21:00 h
+- **[Roma - Servette](/futbol/champions-femenina/partido/401916989)** — 21:00 h
+
+Calendario y clasificación en la [página de Champions fem.](/futbol/champions-femenina).
+
+## 🇪🇸 Copa del Rey
+
+- **[Anaitasuna - Alavés](/futbol/copa-del-rey/partido/401928514)** — 19:00 h · 📺 M+ LALIGA
+- **[CD Pamplona - Eibar](/futbol/copa-del-rey/partido/401928516)** — 19:00 h
+- **[Amorebieta - UD Logroñés](/futbol/copa-del-rey/partido/401928519)** — 20:00 h
+- **[ML Lagunas - Real Jaen CF](/futbol/copa-del-rey/partido/401928528)** — 20:00 h
+- **[Trival Valde - Leganés](/futbol/copa-del-rey/partido/401928550)** — 20:00 h
+- **[UE Tavernes - Valencia](/futbol/copa-del-rey/partido/401928504)** — 21:00 h · 📺 M+ LALIGA
+
+Calendario y clasificación en la [página de Copa del Rey](/futbol/copa-del-rey).
+
+Hora peninsular en todos los casos. Si un canal cambia a última hora, la ficha del partido lo recoge. Toda la jornada, con marcadores en directo, en [partidos de hoy](/partidos-hoy).`,
+    category: 'tv',
+    kind: 'agenda',
+    competition: {"name":"Champions fem.","sport":"futbol","slug":"champions-femenina"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401916989",
+    sourceLang: 'en',
+    publishedAt: '2026-11-10T03:49:50.314Z',
+    modifiedAt: '2026-11-10T03:49:50.314Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Stadio_Olimpico_%28Rome%29_-_2014_-_AS_Roma_v_Juventus_FC.jpg/1920px-Stadio_Olimpico_%28Rome%29_-_2014_-_AS_Roma_v_Juventus_FC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Stadio Tre Fontane, escenario del Roma - Servette",
+      credit: "romazone · CC BY 2.0 · Wikimedia Commons",
+      license: "CC BY 2.0",
+    },
+  },
+  {
     slug: 'amaia-gorostiza-presidenta-eibar-desde-2016-deja-cargo-cordon-umbilical-sin-retribucion-ulazia-cadiz-15-noviembre',
     title: 'Amaia Gorostiza, presidenta del Eibar desde 2016: «Estoy cortando un cordón umbilical»',
     summary: 'Amaia Gorostiza deja la presidencia del Eibar tras diez años sin cobrar. Su último partido en el palco es ante el Cádiz el domingo 15 y Jon Ander Ulazia, vicepresidente de LaLiga, la releva.',
