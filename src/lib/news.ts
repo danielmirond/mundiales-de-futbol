@@ -154,6 +154,107 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'cannavaro-balon-de-oro-zidane-cabezazo-materazzi-quien-sabe-francia-98-uzbekistan-italia-francia-san-siro',
+    title: "Cannavaro y su Balón de Oro: «Si Zidane no le hubiera dado el cabezazo a Materazzi, quién sabe»",
+    summary: "Fabio Cannavaro, hoy seleccionador de Uzbekistán, admite en el Corriere que su Balón de Oro de 2006 tuvo algo de suerte y cuenta que el partido que le hizo hombre fue el Italia-Francia de 1998.",
+    body: `Fabio Cannavaro ganó el Balón de Oro de 2006 con 173 puntos, por delante de Buffon, Henry, Ronaldinho y Zinedine Zidane. Veinte años después, en [una entrevista con el Corriere della Sera](https://www.corriere.it/sport/calcio/26_novembre_10/fabio-cannavaro-intervista-italia-francia-98-5695fd2c-012a-4a05-9bc7-839434e04xlk_amp.shtml), lo recuerda como una noche de sueño en la que la fortuna hizo su parte. Y pone nombre a esa fortuna: «Si Zidane no le hubiera dado el cabezazo a Materazzi, quién sabe».
+
+Lo dice el defensa que levantó la Copa del Mundo en Berlín, el año en que fichó por el [Real Madrid](/futbol/laliga/equipo/86). Tiene 53 años y desde octubre de 2025 es el seleccionador de Uzbekistán, con el que dirigió el primer Mundial de la historia del país.
+
+## Cómo quedó aquella votación
+
+El premio se entregó el 27 de noviembre de 2006, cuando Cannavaro ya jugaba en el Madrid. Zidane, el hombre del cabezazo, también estaba entre los votados. Según [el recuento de France Football recogido en Wikipedia](https://en.wikipedia.org/wiki/2006_Ballon_d%27Or):
+
+| Puesto | Jugador | Puntos |
+| --- | --- | --- |
+| 1 | Fabio Cannavaro | 173 |
+| 2 | Gianluigi Buffon | 124 |
+| 3 | Thierry Henry | 121 |
+| 4 | Ronaldinho | 73 |
+| 5 | Zinedine Zidane | 71 |
+
+Cannavaro sacó 20 primeros puestos de los votantes; Buffon, 14; Henry y Zidane, 6 cada uno. Henry y Zidane jugaron aquella final de Berlín con Francia. Zidane fue expulsado en la prórroga por el cabezazo a Materazzi e Italia ganó en los penaltis.
+
+## El partido que le cambió, en 1998
+
+Pero la entrevista no va de 2006. Cannavaro elige otro partido como el de su vida: los cuartos de final del Mundial de Francia, el 3 de julio de 1998 en el Stade de France, contra los anfitriones. Tenía 24 años y era titular con Cesare Maldini, que le había visto crecer en la sub-21.
+
+Jugó casi todo el partido con una herida en la cara, por un codazo fortuito del delantero francés Stéphane Guivarc'h, y con la cara vendada. Acabó 0-0 tras la prórroga e Italia cayó 4-3 en los penaltis. Francia ganó después aquel Mundial. Cannavaro cuenta al Corriere que esa noche, pese a la decepción, sintió que había pasado a estar entre los grandes y que su carrera empezaba de verdad.
+
+De ahí saca una idea que hoy aplica como entrenador: un chico bueno de 17 años debe jugar ya en el primer equipo, y hablar de jóvenes como si fuera una excepción no tiene sentido. También defiende a Roberto Mancini como seleccionador de Italia, aunque le dolió cómo se trató a Andrea Pirlo.
+
+## Italia y Francia, otra vez
+
+La entrevista sale dos días antes de otro Italia - Francia. Se juega este jueves 12 de noviembre a las 20:45, hora peninsular, en San Siro, dentro de la [Nations League](/futbol/nations-league), según la [ficha del partido](/futbol/nations-league/partido/401861151). El [Corriere dello Sport](https://www.corrieredellosport.it/news/calcio/uefa-nations-league/2026/11/10-152504110/la_francia_tre_ricorrenze) repasa estos días los cruces históricos entre las dos selecciones.`,
+    category: 'historica',
+    kind: 'noticia',
+    competition: { name: 'Nations League', sport: 'futbol', slug: 'nations-league' },
+    sourceName: 'Corriere della Sera',
+    sourceUrl: 'https://www.corriere.it/sport/calcio/26_novembre_10/fabio-cannavaro-intervista-italia-francia-98-5695fd2c-012a-4a05-9bc7-839434e04xlk_amp.shtml',
+    sourceLang: 'it',
+    publishedAt: '2026-11-10T19:19:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Wikipedia: Balón de Oro 2006', url: 'https://en.wikipedia.org/wiki/2006_Ballon_d%27Or' },
+      { name: 'Wikipedia: Fabio Cannavaro', url: 'https://en.wikipedia.org/wiki/Fabio_Cannavaro' },
+      { name: 'Corriere dello Sport: la Francia, tre ricorrenze', url: 'https://www.corrieredellosport.it/news/calcio/uefa-nations-league/2026/11/10-152504110/la_francia_tre_ricorrenze' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Fabio_Cannavaro_-_2024.jpg/1280px-Fabio_Cannavaro_-_2024.jpg',
+      alt: 'Fabio Cannavaro sonríe con el pelo rapado y un chándal gris de entrenador del Udinese durante una rueda de prensa en 2024',
+      credit: 'Mech867 · Wikimedia Commons',
+      license: 'CC BY 4.0',
+    },
+  },
+  {
+    slug: 'padre-de-neymar-demanda-mansion-tambore-sao-paulo-58-9-millones-reales-casa-alphaville-dacion-en-pago',
+    title: "El padre de Neymar, demandado por la mansión de São Paulo: le reclaman 58,9 millones de reales",
+    summary: "La inmobiliaria que vendió al padre de Neymar una mansión de 94,5 millones de reales le reclama 58,9 millones porque no acepta la casa que entregó como parte del pago. La jueza ha frenado su petición urgente.",
+    body: `Neymar da Silva Santos, padre y agente de Neymar, compró en mayo de 2025 una mansión en el Residencial Tamboré 3, en Santana de Parnaíba, a las afueras de São Paulo. Ahora la empresa que se la vendió, D.Y.T.T. Administradora de Imóveis, le reclama 58,9 millones de reales en los tribunales, [según Times Brasil](https://timesbrasil.com.br/brasil/neymar-pai-acao-mansao-tambore-alphaville-casa-32-milhoes/), que cita al portal g1.
+
+La casa tiene 2.757 metros cuadrados construidos, piscina, dos ascensores y una pista de bolos, según [Folha de Alphaville](https://folhadealphaville.com.br/cidades/2026/11/07/pai-de-neymar-e-alvo-de-acao-judicial-de-r-589-milhoes-envolvendo-mansao-e-imovel-em-alphaville.html). El precio pactado fue de 95 millones de reales, rebajado después a 94,5.
+
+## Una casa como parte del pago
+
+El problema no es el dinero que puso, sino la casa que dio. El padre de Neymar pagó 17,5 millones al firmar y entregó como parte del precio otra vivienda suya, en el Residencial Alphaville 2 de Barueri, tasada en 32 millones: un tercio de la operación. En Brasil se llama dação em pagamento, saldar una deuda con un bien en lugar de con dinero. El resto se pagaría en efectivo.
+
+Esa casa arrastra un pleito desde 2021. La asociación de vecinos de Alphaville 2 denunció obras contrarias a las normas de la urbanización, y una pericia le midió 10,90 metros de altura, por encima del límite de 10, además de más ocupación de la permitida, una pérgola en zona de retranqueo y una segunda planta sin autorización. En 2023 la justicia ordenó adecuarla; el Tribunal de Justicia de São Paulo lo confirmó y hay recurso pendiente en el Superior Tribunal de Justicia. La sentencia reconoce que las irregularidades vienen del dueño anterior, pero obliga al actual a corregirlas.
+
+## Qué le piden
+
+| Concepto | Millones de reales |
+| --- | --- |
+| La casa de Alphaville, pagada en dinero | 32 |
+| Cláusula penal del 20 % del contrato | 18,9 |
+| Cantidades retenidas para obras en la mansión | 1,8 |
+| Total de la demanda, con actualización | 58,9 |
+
+Al cambio del Banco Central Europeo del 9 de noviembre, 0,16195 euros por real según [los datos del BCE](https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-brl.en.html), los 58,9 millones son unos 9,5 millones de euros y la mansión, unos 15,3.
+
+## La primera decisión
+
+La jueza Bruna Lyrio Martins, de la 5.ª Vara Cível de Barueri, rechazó la medida urgente que pedía la vendedora para bloquear la escritura definitiva de la mansión: no vio elementos suficientes para cambiar el acuerdo en este momento. El pleito sigue. La defensa sostiene que la vendedora conocía el litigio de la casa antes de firmar y la aceptó sin condiciones; su abogado califica de «pretensión absurda, despropositada y desproporcionada» que ahora se exijan los 32 millones en efectivo.
+
+No es el único frente inmobiliario de la familia: el padre también gestiona con NR Sports [el proyecto turístico de Pernambuco que la Fiscalía quiere frenar](/noticias/neymar-caribe-brasileno-tamandare-fiscalia-pernambuco-pide-frenar-obra-projeto-28-due-nr-sports). La actualidad del fútbol brasileño, en el [Brasileirão](/futbol/brasileirao).`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'Brasileirão', sport: 'futbol', slug: 'brasileirao' },
+    sourceName: 'Times Brasil',
+    sourceUrl: 'https://timesbrasil.com.br/brasil/neymar-pai-acao-mansao-tambore-alphaville-casa-32-milhoes/',
+    sourceLang: 'pt',
+    publishedAt: '2026-11-10T19:17:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Folha de Alphaville: la demanda de 58,9 millones', url: 'https://folhadealphaville.com.br/cidades/2026/11/07/pai-de-neymar-e-alvo-de-acao-judicial-de-r-589-milhoes-envolvendo-mansao-e-imovel-em-alphaville.html' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Neymar_-_Copa_Libertadores_de_America_2011_-_Pe%C3%B1arol_-_Santos_-_110616-6925-jikatu.jpg/1280px-Neymar_-_Copa_Libertadores_de_America_2011_-_Pe%C3%B1arol_-_Santos_-_110616-6925-jikatu.jpg',
+      alt: 'Neymar, de 19 años, con el chándal gris del Santos, calienta sobre el césped del Centenario de Montevideo ante una grada llena antes de la final de la Libertadores de 2011',
+      credit: 'Jimmy Baikovicius · Wikimedia Commons',
+      license: 'CC BY-SA 2.0',
+    },
+  },
+  {
     slug: 'ander-herrera-boca-campeon-desde-zaragoza-madrugada-me-muero-de-ganas-bombonera-hincha-medalla',
     title: "Ander Herrera vio a Boca campeón desde Zaragoza a la una de la madrugada: «Me muero de ganas»",
     summary: "Ander Herrera, que dejó Boca en junio y juega en el Zaragoza, celebró el título argentino en un directo de madrugada. Ya es campeón en los cuatro países en los que ha jugado.",
