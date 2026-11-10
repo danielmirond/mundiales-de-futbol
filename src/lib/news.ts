@@ -154,6 +154,278 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'ue-tavernes-valencia-mestalla-horario-donde-ver-copa-del-rey-martes-10-noviembre',
+    title: 'UE Tavernes - Valencia en Mestalla: horario y dónde ver hoy el partido de Copa aplazado',
+    summary: 'El UE Tavernes, de sexta categoría, recibe al Valencia a las 21:00 en Mestalla, en el partido que se aplazó por el accidente de Toledo. Horario, canal y el resto de la Copa de este martes.',
+    body: `El UE Tavernes, un club de la sexta categoría del fútbol español, ejerce esta noche de local en Mestalla ante el Valencia. El partido de la primera ronda de la [Copa del Rey](/futbol/copa-del-rey) se juega este martes 10 de noviembre a las 21:00 hora peninsular (20:00 en Canarias) y se puede ver en [M+ LALIGA](https://www.futbolenlatv.es/competicion/copa-del-rey), el canal de Movistar Plus+.
+
+Tenía que haberse jugado el 28 de octubre. La RFEF suspendió aquella jornada completa [tras el accidente ferroviario de Toledo](https://insideworldfootball.com/2026/10/29/rfef-postpones-copa-del-rey-fixtures-following-toledo-train-disaster), y el partido del Valencia [quedó fijado para hoy](https://officialpress.es/copa-del-rey-la-rfef-confirma-las-nuevas-fechas-y-horarios-del-valencia-cf-y-levante-ud-tras-el-aplazamiento/) a las 21:00. La [ficha del partido](/futbol/copa-del-rey/partido/401928504) mostrará las alineaciones cuando se conozcan.
+
+## Los seis partidos de Copa de este martes
+
+| Hora peninsular | Canarias | Partido | Dónde verlo |
+| --- | --- | --- | --- |
+| 19:00 | 18:00 | CD Pamplona - Eibar | Por confirmar |
+| 19:00 | 18:00 | Anaitasuna - Alavés | M+ LALIGA |
+| 20:00 | 19:00 | Amorebieta - UD Logroñés | Por confirmar |
+| 20:00 | 19:00 | Trival Valderas - Leganés | Por confirmar |
+| 20:00 | 19:00 | Mijas Las Lagunas - Real Jaén | Fanplay TV |
+| 21:00 | 20:00 | UE Tavernes - Valencia | M+ LALIGA |
+
+Los canales son los que publica [la guía de Fútbol en la TV](https://www.futbolenlatv.es/competicion/copa-del-rey); donde pone «por confirmar», la guía no recoge ninguna emisión. Anaitasuna - Alavés y CD Pamplona - Eibar acumulan dos aplazamientos: [el del 3 de noviembre](/noticias/copa-del-rey-hoy-aplazada-rfef-muerte-jesus-de-miguel-anaitasuna-alaves-pamplona-eibar-segunda-vez-sin-fecha-nueva) fue por la muerte de Jesús de Miguel, delantero del Tenerife. Para saber [qué plataforma emite cada competición y cuánto cuesta](/noticias/donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1), está la guía general de la temporada, y la de [la Copa del Rey en televisión](/noticias/donde-ver-copa-del-rey-2026-27-rtve-movistar-gratis-calendario-final).
+
+## Por qué el local viaja 55 kilómetros
+
+El Tavernes es local porque el reglamento de esta ronda da ventaja de campo al equipo de menor categoría. Pero su campo municipal no pasó el examen de la federación: [ya contamos](/noticias/ue-tavernes-local-mestalla-valencia-visitante-copa-del-rey-28-octubre) que la iluminación no cumplía lo exigido y que ni Alzira ni Gandia daban mucho más aforo. Los clubes acordaron Mestalla.
+
+La consecuencia es rara: el Valencia es visitante en su propio estadio, y sus abonados han tenido que pagar la entrada. Es solo la segunda vez en la historia del club, según recordó la propia entidad valencianista; la primera fue contra el CD Mestalla en 1964.
+
+## Cómo llega el Valencia
+
+Mal. El equipo de Javier Aguirre, que [llegó el 23 de septiembre](https://www.elgoldigital.com/futbol/copa-del-rey/tavernes-valencia-copa-del-rey-aguirre-mestalla/) para sustituir a Carlos Corberán, es 19.º en [LaLiga](/futbol/laliga) con 9 puntos en 12 jornadas y viene de perder 0-3 con el Real Madrid en Mestalla. El partido es a eliminatoria única: si acaba en empate, hay prórroga y penaltis. Quien pase jugará la siguiente ronda, prevista para el 2 de diciembre.
+
+Para Tavernes es otra cosa. Vienen de ganar la Nostra Copa y de pasar la ronda previa por penaltis ante la UD Maracena. Este martes, trece días después de la fecha prevista, juegan en Mestalla en el campo del club grande de su provincia.`,
+    category: 'tv',
+    kind: 'noticia',
+    competition: { name: 'Copa del Rey', sport: 'futbol', slug: 'copa-del-rey' },
+    sourceName: 'Official Press',
+    sourceUrl: 'https://officialpress.es/copa-del-rey-la-rfef-confirma-las-nuevas-fechas-y-horarios-del-valencia-cf-y-levante-ud-tras-el-aplazamiento/',
+    sourceLang: 'es',
+    publishedAt: '2026-11-10T09:20:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Fútbol en la TV: Copa del Rey', url: 'https://www.futbolenlatv.es/competicion/copa-del-rey' },
+      { name: 'El Gol Digital: Tavernes - Valencia', url: 'https://www.elgoldigital.com/futbol/copa-del-rey/tavernes-valencia-copa-del-rey-aguirre-mestalla/' },
+      { name: 'Inside World Football: aplazamiento de la Copa', url: 'https://insideworldfootball.com/2026/10/29/rfef-postpones-copa-del-rey-fixtures-following-toledo-train-disaster' },
+      { name: 'ESPN: Tavernes - Valencia', url: 'https://www.espn.com/soccer/match/_/gameId/401928504' },
+      { name: 'ESPN: clasificación de LaLiga', url: 'https://www.espn.com/soccer/standings/_/league/esp.1' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Mestalla_antes_del_partido_Valencia-Barcelona_LaLiga_2023-2024.jpg/1280px-Mestalla_antes_del_partido_Valencia-Barcelona_LaLiga_2023-2024.jpg',
+      alt: 'Mestalla de noche antes de un partido, con las gradas naranjas y negras y el nombre del Valencia en la tribuna',
+      credit: 'Anidae · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'luis-rubiales-siete-dias-fin-veto-espana-tad-17-noviembre-que-podra-hacer-causas-abiertas',
+    title: 'Luis Rubiales, a siete días del fin de su veto en España: lo que podrá hacer el día 17',
+    summary: 'La inhabilitación del TAD a Luis Rubiales acaba el 17 de noviembre, 83 días después de la de la FIFA. Qué podrá hacer, quién queda de los suyos en la federación y qué causas siguen abiertas.',
+    body: `A Luis Rubiales le quedan siete días de inhabilitación en España. El próximo martes, 17 de noviembre, se cumplen tres años de [la sanción del Tribunal Administrativo del Deporte](https://en.wikipedia.org/wiki/Rubiales_case), la que le impide trabajar en el fútbol español. Otra cosa es que alguien quiera contratarlo.
+
+Su castigo tenía dos relojes. El de la FIFA empezó antes, con la suspensión provisional de agosto de 2023, y [terminó el 26 de agosto de este año](https://www.que.es/2026/08/28/rubiales-inhabilitacion-fifa-vuelve-futbol/). Desde entonces puede trabajar en el fútbol fuera de España. El español arrancó casi tres meses después, así que entre el final de uno y del otro hay 83 días. Esos son los que se agotan ahora.
+
+## Las fechas de un caso que dura más de tres años
+
+| Fecha | Qué ocurrió |
+| --- | --- |
+| 26 de agosto de 2023 | La FIFA le suspende de forma provisional |
+| 30 de octubre de 2023 | La FIFA le inhabilita tres años por el beso a Jenni Hermoso |
+| 17 de noviembre de 2023 | El TAD le impone otros tres años, solo para España |
+| 20 de febrero de 2025 | La Audiencia Nacional le condena por agresión sexual y le absuelve de coacciones |
+| 25 de junio de 2025 | Se rechaza su recurso |
+| 26 de agosto de 2026 | Termina el castigo de la FIFA |
+| 17 de noviembre de 2026 | Termina el castigo del TAD |
+
+La condena fue una [multa de 10.800 euros](https://en.wikipedia.org/wiki/Rubiales_case), 3.000 euros de indemnización a Hermoso y una orden de alejamiento de 200 metros durante un año, [ya expirada](https://www.que.es/2026/08/28/rubiales-inhabilitacion-fifa-vuelve-futbol/).
+
+## Quién le queda dentro
+
+Poca gente. [The Athletic publicó este martes](https://sports.yahoo.com/articles/luis-rubiales-suspension-expire-return-053106836.html) que podría volver a trabajar en el fútbol español la semana que viene, si encuentra quién lo contrate, pero que ningún club, federación ni empresa se ha señalado. Según ese mismo reportaje, quedan muy pocos antiguos aliados en la federación y Javier Tebas, presidente de [LaLiga](/futbol/laliga) y rival histórico suyo, es vicepresidente de la federación, la de la [selección](/selecciones/ESP). El mismo texto ve muy improbable un cargo de primer nivel.
+
+No es lo que sostiene todo el mundo. Una [columna de opinión en Iusport](https://iusport.com/art/151922/el-road-trip-de-rubiales-o-la-vuelta-de-la-oscuridad-al-futbol-espanol) describe un viaje por España con parte de su antiguo equipo en busca de apoyos entre presidentes territoriales. La columna no aporta confirmación oficial, y ninguna candidatura ni moción se ha presentado.
+
+## Lo que sigue abierto
+
+La inhabilitación se acaba, pero la investigación judicial por presunta corrupción no. Rubiales fue detenido en el aeropuerto de Barajas en abril de 2024, y el caso incluye el acuerdo de 40 millones de euros al año por llevar la Supercopa a Arabia Saudí, firmado en 2019 con Gerard Piqué. Ambos niegan irregularidades.
+
+Su libro, *Matar a Rubiales*, salió en noviembre de 2025 y en la presentación en Madrid su tío le lanzó huevos, según recuerda The Athletic. Rubiales sigue sosteniendo, según ese reportaje, que le pidió permiso a Hermoso para el beso. Ella lo niega, y la Audiencia Nacional le condenó por aquel beso.`,
+    category: 'polemica',
+    kind: 'noticia',
+    competition: { name: 'LaLiga', sport: 'futbol', slug: 'laliga' },
+    sourceName: 'The Athletic (vía Yahoo Sports)',
+    sourceUrl: 'https://sports.yahoo.com/articles/luis-rubiales-suspension-expire-return-053106836.html',
+    sourceLang: 'en',
+    publishedAt: '2026-11-10T09:22:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Qué.es: fin de la inhabilitación de la FIFA', url: 'https://www.que.es/2026/08/28/rubiales-inhabilitacion-fifa-vuelve-futbol/' },
+      { name: 'Wikipedia: caso Rubiales', url: 'https://en.wikipedia.org/wiki/Rubiales_case' },
+      { name: 'Iusport: columna de opinión', url: 'https://iusport.com/art/151922/el-road-trip-de-rubiales-o-la-vuelta-de-la-oscuridad-al-futbol-espanol' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/2023_05_06_Final_de_la_Copa_del_Rey_-_52879312518.jpg/1280px-2023_05_06_Final_de_la_Copa_del_Rey_-_52879312518.jpg',
+      alt: 'Luis Rubiales, con traje oscuro y corbata azul, posa junto a Juanma Moreno ante la entrada al palco de la final de la Copa del Rey de 2023',
+      credit: 'Junta de Andalucía · Wikimedia Commons',
+      license: 'CC BY-SA 2.0',
+    },
+  },
+  {
+    slug: 'rafael-jodar-168-enero-atp-finals-record-mariano-puerta-debutante-turin-espanoles',
+    title: 'Rafael Jódar, 168.º en enero y en las ATP Finals en noviembre: adiós al récord de Puerta',
+    summary: 'Rafael Jódar jugará las ATP Finals tras empezar el año fuera del top 150. Es el primero que lo logra el mismo año de su debut en el circuito y el decimoséptimo español en Turín o sus antecesoras.',
+    body: `Rafael Jódar empezó 2026 en el puesto 168 de la clasificación mundial. Desde el domingo 15 jugará en Turín las [Nitto ATP Finals](/tenis/atp), el torneo de los ocho mejores del año. Ningún tenista había llegado desde tan abajo: [el récord lo tenía Mariano Puerta](https://www.tennismajors.com/atp/rolex-paris-masters-1000-atp/race-to-turin-jodar-completes-the-turin-line-up-as-fritz-falls-to-alcaraz-866130.html), que en 2005 arrancó el año como número 133.
+
+Hay un segundo récord pegado al primero. Es el primer hombre que se clasifica el mismo año en que debuta en el circuito ATP. Punto de Break da otro dato de partida, el puesto 165, pero en cualquiera de los dos casos la marca de Puerta queda muy atrás.
+
+## Una plaza que se decidió sin él
+
+Jódar se clasificó sin jugar. El viernes 6 de noviembre, en el Masters 1000 de París, [Taylor Fritz necesitaba llegar a semifinales](https://www.tennismajors.com/atp/rolex-paris-masters-1000-atp/race-to-turin-jodar-completes-the-turin-line-up-as-fritz-falls-to-alcaraz-866130.html) para quitarle el último puesto. Fritz perdió 6-7 (10), 7-5 y 6-3 ante Carlos Alcaraz, después de tener dos puntos de partido. Jódar, que había perdido en [su cruce de segunda ronda con Casper Ruud](/noticias/rafael-jodar-gana-tabilo-paris-masters-ruud-segunda-ronda-martes-carrera-turin-tiafoe-de-minaur), se quedó con la plaza con 3.234 puntos. Fue Alcaraz, el otro español de Turín, quien le dio el último empujón.
+
+## Lo que hay detrás del salto
+
+Las cifras del año, según [el repaso de Punto de Break](https://www.puntodebreak.com/2026/11/06/rafael-jodar-sera-17o-tenista-espanol-historia-juegue-atp-finals):
+
+- 45 victorias en 64 partidos.
+- Un título, en Marrakech, y dos finales perdidas, Washington y Shanghái.
+- Al menos cuartos de final en cuatro de los ocho Masters 1000 disputados.
+- Antepenúltima ronda en Roland Garros.
+
+Cumplió 20 años el 17 de septiembre y [llegó al top 10 el 2 de noviembre](https://en.wikipedia.org/wiki/Rafael_J%C3%B3dar), en el menor tiempo entre debut en el circuito y entrada entre los diez primeros de la historia del ránking.
+
+## Los españoles en la Copa de Maestros
+
+Será el decimoséptimo español en jugar el torneo. El cuadro recoge cuántas veces lo han hecho los que más, con los datos de Punto de Break:
+
+| Tenista | Participaciones |
+| --- | --- |
+| Rafael Nadal | 11 |
+| David Ferrer | 7 |
+| Manuel Orantes | 6 |
+| Carlos Moyà | 5 |
+| Sergi Bruguera | 3 |
+| Juan Carlos Ferrero | 3 |
+| José Higueras | 3 |
+| Carlos Alcaraz | 3 |
+| Rafael Jódar | Debut |
+
+España tendrá a dos jugadores en el cuadro individual: será la edición número 18 con más de uno. El único español que ha ganado el torneo es Àlex Corretja, en 1998. Jódar compartirá condición de debutante con Flavio Cobolli, Arthur Fils y Frances Tiafoe.
+
+El sorteo es este jueves 12 de noviembre y el torneo, del 15 al 22 en la Inalpi Arena. [Cómo verlo desde España](/noticias/donde-ver-tenis-espana-atp-finals-copa-davis-alcaraz-movistar-hbo-max) está en la guía del tenis. Y lo que se jugaba hasta la última semana, en [la pieza que publicamos cuando aún podían quitarle la plaza](/noticias/rafael-jodar-ultima-plaza-turin-atp-finals-quien-puede-quitarsela-basilea-viena-paris).`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'ATP', sport: 'tenis', slug: 'atp' },
+    sourceName: 'Tennis Majors',
+    sourceUrl: 'https://www.tennismajors.com/atp/rolex-paris-masters-1000-atp/race-to-turin-jodar-completes-the-turin-line-up-as-fritz-falls-to-alcaraz-866130.html',
+    sourceLang: 'en',
+    publishedAt: '2026-11-10T09:24:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Punto de Break: Jódar, 17.º español', url: 'https://www.puntodebreak.com/2026/11/06/rafael-jodar-sera-17o-tenista-espanol-historia-juegue-atp-finals' },
+      { name: 'Emol: los ocho clasificados', url: 'https://www.emol.com/noticias/Deportes/2026/11/06/1216391/rafael-jodar-clasificados-atp-finals.html' },
+      { name: 'Wikipedia: Rafael Jódar', url: 'https://en.wikipedia.org/wiki/Rafael_J%C3%B3dar' },
+      { name: 'Wikipedia: ATP Finals 2026', url: 'https://en.wikipedia.org/wiki/2026_ATP_Finals' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Rafael_J%C3%B3dar_at_the_Swiss_Indoors_Basel_2026_media_conference._DSC00490.jpg/1280px-Rafael_J%C3%B3dar_at_the_Swiss_Indoors_Basel_2026_media_conference._DSC00490.jpg',
+      alt: 'Rafael Jódar, con chaqueta blanca, responde sentado ante un micrófono en la rueda de prensa del torneo de Basilea de 2026',
+      credit: 'Skyscraper2010 · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'behobia-san-sebastian-853-corredores-medalla-sin-clasificacion-cajon-salida-2026',
+    title: 'Behobia-San Sebastián: 853 corredores llegaron a meta con medalla y sin clasificación',
+    summary: 'La Behobia dejó fuera de la clasificación a 853 corredores por salir antes de su cajón. Cruzaron la meta y se llevaron la medalla, pero su tiempo no cuenta. Son 5.290 en cinco ediciones.',
+    body: `Corrieron los 20 kilómetros, cruzaron la meta en San Sebastián y se llevaron la medalla de finisher. Pero en la clasificación oficial de la Behobia no aparecen. Este domingo fueron 853 los corredores [que se quedaron fuera](https://www.labolsadelcorredor.com/853-descalificados-behobia-san-sebastian-2026/) de la edición número 61, por hacer algo tan sencillo como arrancar antes de lo que les tocaba.
+
+Algunos medios franceses y un titular de Diario del Triatlón hablan de 856. La cifra que se repite, incluida la del cuerpo de ese mismo texto, es 853.
+
+## La regla, en una frase
+
+La Behobia ordena la salida en 19 grupos. El dorsal lleva impresos el grupo y la hora en la que puedes salir. El reglamento dice que un corredor «puede tomar la salida en un grupo posterior» al asignado, pero nunca en uno anterior. La [web oficial](https://www.behobia-sansebastian.com/es/carrera/salida) lo advierte sin matices: quien adelante su salida queda descalificado.
+
+No hace falta ningún juez en el arcén. Los [lectores de chip detectan las salidas anticipadas](https://www.diariodeltriatlon.es/articulo/runningendurance/behobia-san-sebastian-da-medalla-finisher-elimina-856-corredores-clasificacion-ir-aire-carrera/20261109094742102970.html) y la penalización se aplica de forma automática, aunque el corredor termine la carrera. Y recibe la medalla de todas formas. La organización, a cargo del Club Deportivo Fortuna, lo justifica por la fluidez y la seguridad en una carretera por la que este año pasaron 27.172 personas.
+
+## Cinco años de corredores sin tiempo
+
+Son muchos, pero cada vez menos. Con los datos que recoge La Bolsa del Corredor:
+
+| Edición | Descalificados |
+| --- | --- |
+| 2022 | 1.234 |
+| 2023 | 1.327 |
+| 2024 | 958 |
+| 2025 | 918 |
+| 2026 | 853 |
+| **Total** | **5.290** |
+
+Otros medios dan cifras diferentes para 2023, entre 1.200 y 1.800, lo que indica que no todas las ediciones se han contado igual.
+
+Sobre los 26.947 corredores que llegaron a meta este año, los descalificados suponen el 3,2 %: aproximadamente uno de cada 32. Desde 2023, la cifra ha bajado un 36 %, lo que sugiere que el mensaje va calando. El número sigue siendo alto.
+
+## Por qué importa en una carrera popular
+
+En una prueba de élite, adelantarse es hacer trampa contra un rival. En una popular es otra cosa, porque casi nadie compite por un puesto. Lo que busca quien se adelanta, en teoría, es no quedar atrapado entre miles de corredores más lentos. Lo que pierde es lo que tantos van a buscar: un tiempo oficial con su nombre al lado.
+
+El próximo gran fondo popular en España es el [Maratón de Valencia](/noticias/juan-roig-millon-euros-record-mundo-maraton-valencia-6-diciembre-ultimo-aviso-carrera-dos-dias), el 6 de diciembre. Y hay quien prefiere correr sin mirar el crono, como [Martín Fiz en su último Nueva York](/noticias/martin-fiz-63-anos-ultimo-maraton-nueva-york-hijo-alex-mano-3-01-11-primera-vez-1996-gotemburgo-42-maratones), de la mano de su hijo.`,
+    category: 'curiosa',
+    kind: 'noticia',
+    competition: { name: 'Atletismo', sport: 'atletismo', slug: 'atletismo' },
+    sourceName: 'La Bolsa del Corredor',
+    sourceUrl: 'https://www.labolsadelcorredor.com/853-descalificados-behobia-san-sebastian-2026/',
+    sourceLang: 'es',
+    publishedAt: '2026-11-10T09:26:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Behobia-San Sebastián: salida', url: 'https://www.behobia-sansebastian.com/es/carrera/salida' },
+      { name: 'Diario del Triatlón', url: 'https://www.diariodeltriatlon.es/articulo/runningendurance/behobia-san-sebastian-da-medalla-finisher-elimina-856-corredores-clasificacion-ir-aire-carrera/20261109094742102970.html' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Behobia-Donostia_lasterketa%2C_2026_1.jpg/1280px-Behobia-Donostia_lasterketa%2C_2026_1.jpg',
+      alt: 'Corredores con dorsal, entre ellos varios con la camiseta de la 61 Behobia, pasan por una calle urbana con edificios de viviendas y montes con árboles de otoño al fondo',
+      credit: 'Iñaki LL · Wikimedia Commons',
+      license: 'CC BY-SA 3.0',
+    },
+  },
+  {
+    slug: 'celtic-park-corta-13-segundos-minuto-silencio-dia-del-recuerdo-abucheos-kilmarnock-beaton',
+    title: 'Celtic Park corta a los 13 segundos su minuto de silencio: abucheos en el Día del Recuerdo',
+    summary: 'El árbitro John Beaton cortó a los 13 segundos el silencio por el Día del Recuerdo en Celtic Park entre abucheos. No es la primera vez: el conflicto viene de 2010 y tiene raíz irlandesa.',
+    body: `El minuto de silencio duró 13 segundos. El domingo 8 de noviembre, antes del [Celtic 1-0 Kilmarnock](https://www.espn.com/soccer/scoreboard/_/league/sco.1/date/20261108), el árbitro John Beaton tuvo que [pitar antes de tiempo](https://sports.yahoo.com/articles/remembrance-silence-cancelled-13-seconds-203045723.html) por los abucheos que bajaban de parte de la grada de Celtic Park. El homenaje era por el Día del Recuerdo (Remembrance Sunday), la jornada en la que el Reino Unido honra a los muertos de sus guerras. El Telegraph lo contó el mismo día.
+
+El gesto apenas ha cruzado la frontera británica, pero en Glasgow no es nuevo.
+
+## Por qué un minuto de silencio divide a un estadio
+
+El Celtic nació en 1887 de la comunidad irlandesa del este de Glasgow. Una parte de su afición se niega desde hace años a participar en el Remembrance, un homenaje que incluye al ejército británico, y suele citar las raíces irlandesas del club. El Telegraph la describe como una minoría y destaca el papel del grupo de animación Green Brigade.
+
+La cronología de ese choque, [con datos de su historial público](https://en.wikipedia.org/wiki/Green_Brigade):
+
+- **Noviembre de 2010.** Pancartas contra la amapola del Remembrance, que el club había puesto en la camiseta. El Celtic critica las protestas y promete castigar a los responsables.
+- **2011.** UEFA multa al club con 12.700 libras por cánticos a favor del IRA.
+- **Noviembre de 2025.** Abucheos, aficionados de espaldas y gestos durante el silencio, según [el Telegraph](https://sports.yahoo.com/articles/remembrance-silence-cancelled-13-seconds-203045723.html).
+- **Noviembre de 2026.** El silencio se corta a los 13 segundos.
+
+## Lo que ya vio el Atlético de Madrid
+
+El otro gran conflicto de ese fondo con su directiva tuvo a un equipo español de testigo. El 25 de octubre de 2023, en un partido de [Champions League](/futbol/champions-league) ante el [Atlético de Madrid](/futbol/laliga/equipo/1068), miles de aficionados ondearon banderas palestinas. Seis días después, el Celtic suspendió los abonos de unos 250 miembros del grupo. La disputa se cerró con un acuerdo en diciembre de ese año.
+
+La escena del domingo vuelve a poner al club en el mismo sitio. Al cierre de esta información no hemos encontrado ninguna reacción oficial del Celtic ni de la Federación Escocesa.
+
+## El partido
+
+El Celtic ganó 1-0 con un gol de Liam Scales en la primera parte. El Telegraph atribuye la protesta a esa minoría de la grada, la misma que en otras ocasiones ha rechazado sumarse al homenaje.`,
+    category: 'polemica',
+    kind: 'noticia',
+    competition: { name: 'Fútbol', sport: 'futbol', slug: 'futbol' },
+    sourceName: 'The Telegraph (vía Yahoo Sports)',
+    sourceUrl: 'https://sports.yahoo.com/articles/remembrance-silence-cancelled-13-seconds-203045723.html',
+    sourceLang: 'en',
+    publishedAt: '2026-11-10T09:28:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'ESPN: Celtic 1-0 Kilmarnock', url: 'https://www.espn.com/soccer/scoreboard/_/league/sco.1/date/20261108' },
+      { name: 'Wikipedia: Green Brigade', url: 'https://en.wikipedia.org/wiki/Green_Brigade' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Celtic_Park_from_whitevale.jpg/1280px-Celtic_Park_from_whitevale.jpg',
+      alt: 'Vista aérea lejana de Celtic Park, con su cubierta metálica y su fachada verde, rodeado de viviendas del este de Glasgow',
+      credit: 'Graeme Maclean · Wikimedia Commons',
+      license: 'CC BY 2.0',
+    },
+  },
+  {
     slug: 'nba-resultados-2026-11-10',
     title: "NBA: todos los resultados de la jornada y el partido más igualado",
     summary: "Resultados de los 5 partidos de la noche en la NBA, con el más igualado y el de más puntos.",
@@ -24050,24 +24322,29 @@ La carrera de Austin empieza a las 21:00 en la península y a las 20:00 en Canar
   {
     slug: 'elecciones-29n-partidos-domingo-29-noviembre-horarios-futbol-f1-davis',
     title: 'Elecciones del 29N: Arsenal - City, F1 en Catar y quizá la final de la Davis el mismo domingo',
-    summary: 'El domingo 29 de noviembre se vota en las elecciones generales y no para el deporte: Premier, Bundesliga, Serie A, el Gran Premio de Catar de F1, la NFL y, si España llega, la final de la Copa Davis. LaLiga aún no ha fijado los horarios de su jornada. Qué se juega, a qué hora y qué choca con la jornada electoral.',
+    summary: 'El domingo 29 de noviembre se vota en las elecciones generales y no para el deporte: Premier, Bundesliga, Serie A, el Gran Premio de Catar de F1, la NFL y, si España llega, la final de la Copa Davis. LaLiga ya tiene horarios: Deportivo - Barcelona, a las 16:15. Qué se juega, a qué hora y qué choca con la jornada electoral.',
     body: `El domingo 29 de noviembre hay [elecciones generales](https://www.guiaelecciones.com/elecciones/generales/2026-noviembre/). Los colegios abren a las 9:00 y cierran a las 20:00, y [la campaña va del 13 al 27 de noviembre](https://es.euronews.com/2026/10/06/calendario-elecciones-generales-29n-fechas-clave-voto-correo-campana), con el sábado 28 como jornada de reflexión. El calendario deportivo no se detiene: ese domingo hay fútbol desde el mediodía, Fórmula 1 por la tarde, NFL y NBA por la noche y, si España sigue viva, una final de Copa Davis.
 
 Todas las horas son peninsulares. En Canarias, una hora menos, también en los colegios electorales.
 
-## LaLiga: la jornada, sin horarios
+## LaLiga: Barça en Riazor a las 16:15, la Real y el Sevilla, a las 21:00
 
-LaLiga todavía no ha repartido los partidos de ese fin de semana entre viernes, sábado, domingo y lunes. ESPN los coloca de momento todos el domingo, [sin hora confirmada](https://www.espn.com/soccer/scoreboard/_/league/esp.1/date/20261129). Estos son los cruces:
+ESPN ya da hora a [toda la jornada](https://www.espn.com/soccer/scoreboard/_/league/esp.1/date/20261129). El domingo electoral se juegan cuatro partidos, y ninguno de los tres grandes cae después de cerrar los colegios: el Real Madrid juega el sábado por la noche y el Atlético, el sábado por la tarde.
 
-- [Real Madrid - Alavés](/futbol/laliga/partido/401882789)
-- [Deportivo - Barcelona](/futbol/laliga/partido/401882794)
-- [Elche - Atlético](/futbol/laliga/partido/401882793)
-- [Real Betis - Rayo Vallecano](/futbol/laliga/partido/401882796)
-- [Real Sociedad - Sevilla](/futbol/laliga/partido/401882788)
-- [Valencia - Osasuna](/futbol/laliga/partido/401882787)
-- Celta - Villarreal, Espanyol - Getafe, Levante - Racing y Málaga - Athletic
+| Día | Hora | Partido |
+| --- | --- | --- |
+| Viernes 27 | 21:00 | Levante - Racing |
+| Sábado 28 | 14:00 | [Real Betis - Rayo Vallecano](/futbol/laliga/partido/401882796) |
+| Sábado 28 | 16:15 | Málaga - Athletic |
+| Sábado 28 | 18:30 | [Elche - Atlético](/futbol/laliga/partido/401882793) |
+| Sábado 28 | 21:00 | [Real Madrid - Alavés](/futbol/laliga/partido/401882789) |
+| Domingo 29 | 14:00 | [Valencia - Osasuna](/futbol/laliga/partido/401882787) |
+| Domingo 29 | 16:15 | [Deportivo - Barcelona](/futbol/laliga/partido/401882794) |
+| Domingo 29 | 18:30 | Celta - Villarreal |
+| Domingo 29 | 21:00 | [Real Sociedad - Sevilla](/futbol/laliga/partido/401882788) |
+| Lunes 30 | 21:00 | Espanyol - Getafe |
 
-Cuando LaLiga publique los horarios, los verás en [el calendario de LaLiga](/futbol/laliga) y en las fichas de cada partido, con el canal.
+Los canales de cada partido aparecen en [las fichas de LaLiga](/futbol/laliga) a medida que se confirman.
 
 ## Lo que ya tiene hora
 
@@ -24075,15 +24352,19 @@ Cuando LaLiga publique los horarios, los verás en [el calendario de LaLiga](/fu
 | --- | --- | --- |
 | 12:30 | Serie A | Udinese - Fiorentina |
 | 13:00 | Premier League | [Everton - Liverpool](/futbol/premier-league/partido/401879229) |
+| 14:00 | LaLiga | [Valencia - Osasuna](/futbol/laliga/partido/401882787) |
 | 15:00 | Copa Davis | Final en Bolonia, si se llega |
 | 15:05 | Premier League | Brighton - Newcastle, Fulham - Bournemouth, Crystal Palace - Hull y Sunderland - Tottenham |
 | 15:30 | Bundesliga | Friburgo - Leipzig |
+| 16:15 | LaLiga | [Deportivo - Barcelona](/futbol/laliga/partido/401882794) |
 | 17:00 | Fórmula 1 | Gran Premio de Catar |
 | 17:30 | Premier League | [Arsenal - Manchester City](/futbol/premier-league/partido/401878753) |
+| 18:30 | LaLiga | Celta - Villarreal |
 | 19:00 | NFL | Seis partidos, entre ellos Bengals - Saints y Dolphins - Jets |
 | 19:30 | Bundesliga | [Dortmund - Leverkusen](/futbol/bundesliga/partido/401884727) |
 | 20:45 | Serie A | [Como - Juventus](/futbol/serie-a/partido/401874994) |
 | 20:45 | Ligue 1 | [Lyon - Mónaco](/futbol/ligue-1/partido/401876389) |
+| 21:00 | LaLiga | [Real Sociedad - Sevilla](/futbol/laliga/partido/401882788) |
 | 22:00 | NBA | Grizzlies - Lakers y Spurs - Celtics |
 
 ## Lo que coincide con votar
@@ -24096,7 +24377,7 @@ La Copa Davis es el caso abierto. [La Final 8 se juega en Bolonia del 24 al 29 d
 
 ## Y a las 20:00, el recuento
 
-Cuando cierran los colegios peninsulares empiezan el Dortmund - Leverkusen (ya en marcha desde las 19:30), el Como - Juventus y el Lyon - Mónaco, además de la tanda de las 19:00 de la NFL. Si LaLiga coloca un partido grande el domingo por la noche, coincidirá con el escrutinio. Los resultados por provincia y [dónde te toca votar](https://www.guiaelecciones.com/donde-voto/) están en [Guía Elecciones](https://www.guiaelecciones.com/), que sigue la noche [en directo](https://www.guiaelecciones.com/directo/).
+Cuando cierran los colegios peninsulares empiezan el Dortmund - Leverkusen (ya en marcha desde las 19:30), el Como - Juventus y el Lyon - Mónaco, además de la tanda de las 19:00 de la NFL. El Real Sociedad - Sevilla, a las 21:00, coincidirá con el escrutinio. Los resultados por provincia y [dónde te toca votar](https://www.guiaelecciones.com/donde-voto/) están en [Guía Elecciones](https://www.guiaelecciones.com/), que sigue la noche [en directo](https://www.guiaelecciones.com/directo/).
 
 Si vas a estar fuera ese fin de semana por un partido o un viaje, el voto por correo tiene plazos propios: están explicados en [cómo votar](https://www.guiaelecciones.com/como-votar/).`,
     category: 'tv',
@@ -24106,6 +24387,7 @@ Si vas a estar fuera ese fin de semana por un partido o un viaje, el voto por co
     sourceUrl: 'https://www.espn.com/soccer/scoreboard/_/league/esp.1/date/20261129',
     sourceLang: 'en',
     publishedAt: '2026-10-17T12:45:00+02:00',
+    modifiedAt: '2026-11-10T09:37:00+01:00',
     author: 'Redacción Mundiales',
     image: {
       url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Elecciones_generales_2023_Valladolid_01.jpg/1280px-Elecciones_generales_2023_Valladolid_01.jpg',
