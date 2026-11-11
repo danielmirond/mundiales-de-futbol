@@ -154,6 +154,212 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'inglaterra-croacia-italia-francia-turquia-belgica-horario-donde-ver-nations-league-jueves-12',
+    title: 'Inglaterra - Croacia, Italia - Francia y Turquía - Bélgica: horario y dónde ver el jueves 12',
+    summary: 'Wembley y San Siro abren el jueves 12 a las 20:45 la penúltima jornada de la Nations League, a la misma hora que Chequia - España. Horarios, canales y qué se juega cada grupo.',
+    body: `Inglaterra - Croacia e Italia - Francia se juegan este jueves 12 de noviembre a las 20:45, hora peninsular, a la vez que [Chequia - España en Praga](/noticias/chequia-espana-horario-donde-ver-nations-league-praga-letna-sin-lamine-yamal-oyarzabal). Antes, a las 18:00, Turquía recibe a Bélgica en Esmirna. Los tres van en DAZN, que también se puede ver dentro de Movistar Plus+, según las fichas de [Inglaterra - Croacia](/futbol/nations-league/partido/401861150) y de [Italia - Francia](/futbol/nations-league/partido/401861151). España, como en toda la fase de grupos, va en abierto en La 1.
+
+## Horarios y canales del jueves
+
+| Partido | Estadio | Península | Canarias | Dónde verlo |
+| --- | --- | --- | --- | --- |
+| [Turquía - Bélgica](/futbol/nations-league/partido/401861145) | Gürsel Aksel (Esmirna) | 18:00 | 17:00 | DAZN |
+| Chequia - España | Generali Arena (Praga) | 20:45 | 19:45 | La 1 y RTVE Play |
+| Inglaterra - Croacia | Wembley (Londres) | 20:45 | 19:45 | DAZN |
+| Italia - Francia | San Siro (Milán) | 20:45 | 19:45 | DAZN |
+
+Los horarios son los del [calendario de ESPN](https://www.espn.com/soccer/scoreboard/_/league/uefa.nations/date/20261112) pasados a hora española. Esa misma noche hay más Liga de las Naciones: Armenia - Chipre a las 18:00 y, a las 20:45, Albania - Finlandia, Montenegro - Letonia y San Marino - Bielorrusia. El reparto completo de derechos, con La 1 para España y DAZN para el resto, está en la [guía de la Nations League en España](/noticias/donde-ver-nations-league-2026-27-espana-la-1-dazn-chequia-inglaterra), y [qué plataforma emite cada competición y cuánto cuesta](/noticias/donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1), en la guía general.
+
+## Wembley mira a Praga
+
+Inglaterra - Croacia es, para el aficionado español, el partido que más importa después del propio. Son los otros dos equipos del grupo de España, que llega a la quinta jornada con pleno de victorias. Así está la [clasificación del grupo A3](https://www.espn.com/soccer/standings/_/league/uefa.nations) tras cuatro partidos:
+
+| Grupo A3 | PJ | Puntos |
+| --- | --- | --- |
+| España | 4 | 12 |
+| Inglaterra | 4 | 9 |
+| Croacia | 4 | 3 |
+| Chequia | 4 | 0 |
+
+Inglaterra solo perdió con España: [el 2-3 de Wembley](/futbol/nations-league/partido/401861066) del 26 de septiembre. Si gana a Croacia, mantiene la distancia en tres puntos antes de la última jornada, el domingo 15 a las 20:45, cuando visita a España en el Metropolitano. Thomas Tuchel ya avisó de que podía repartir la portería entre Pickford y Trafford en estos dos partidos, como [contamos el lunes](/noticias/james-trafford-portero-tres-goles-espana-wembley-pickford-tuchel-reparto-metropolitano-nations-league). En Londres se esperan 3 °C a la hora del partido, según la previsión que recoge la ficha.
+
+## San Siro decide el grupo de Francia
+
+En el grupo A1 las cuentas están más apretadas. Francia lidera con 10 puntos, Italia tiene 7 y Bélgica 6, según la tabla de ESPN. Turquía, con cero, ya no cuenta. Si Italia gana en San Siro, se pone a uno de Francia con una jornada por delante; si gana Francia, se queda muy cerca de los cuartos. Bélgica juega antes, a las 18:00, y llegará a la noche sabiendo si les mete presión a los dos.
+
+Italia llega con tres victorias, un empate y una derrota en sus últimos cinco partidos. Francia no ha perdido ninguno de sus cuatro en la Liga de las Naciones.
+
+## El orden de la tarde
+
+Quien quiera verlo todo tiene una tarde de dos tramos. A las 18:00, Turquía - Bélgica. A las 20:45 coinciden los tres grandes, y aquí no hay donde elegir sin perderse algo: España en La 1, Inglaterra y el duelo de San Siro en DAZN. Los resultados y las alineaciones se actualizan en directo en la [página de la Nations League](/futbol/nations-league).`,
+    category: 'tv',
+    kind: 'noticia',
+    competition: { name: 'Nations League', sport: 'futbol', slug: 'nations-league' },
+    sourceName: 'ESPN',
+    sourceUrl: 'https://www.espn.com/soccer/scoreboard/_/league/uefa.nations/date/20261112',
+    sourceLang: 'en',
+    publishedAt: '2026-11-11T18:52:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'ESPN: clasificación de la Nations League', url: 'https://www.espn.com/soccer/standings/_/league/uefa.nations' },
+      { name: 'Mundiales: ficha de Inglaterra - Croacia', url: 'https://mundiales-de-futbol.com/futbol/nations-league/partido/401861150' },
+      { name: 'Mundiales: ficha de Italia - Francia', url: 'https://mundiales-de-futbol.com/futbol/nations-league/partido/401861151' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/London_Wembley.jpg/1280px-London_Wembley.jpg',
+      alt: 'Vista aérea del estadio de Wembley, con su arco blanco sobre la cubierta y las gradas rojas, rodeado de edificios del norte de Londres',
+      credit: 'Arne Müseler · Wikimedia Commons',
+      license: 'CC BY-SA 3.0 DE',
+    },
+  },
+  {
+    slug: 'marc-cucurella-claudia-rodriguez-administradora-campus-mataro-holding-marc-capital-investments-borme',
+    title: 'Marc Cucurella pone a Claudia al frente de su sociedad de Mataró: el campus ya es un holding',
+    summary: 'El Registro Mercantil publicó el martes que Campus Marc Cucurella pasa a llamarse Marc Capital Investments, cambia de actividad y tiene nueva administradora: Claudia Rodríguez, su mujer.',
+    body: `Marc Cucurella ha dejado de administrar la sociedad que montó para organizar campus de fútbol en Mataró. Desde ahora la lleva su mujer, Claudia Rodríguez, y la empresa ya no se dedica a los campus: será la sociedad desde la que el lateral participe en otras empresas. Lo recoge el [Boletín Oficial del Registro Mercantil del martes 10](https://www.boe.es/borme/dias/2026/11/10/pdfs/BORME-A-2026-215-08.pdf), en la sección de Barcelona, y lo adelantó [El Nacional](https://www.elnacional.cat/oneconomia/es/empresas/esposa-marc-cucurella-crea-empresa-administra-nuevo-holding-futbolista_1723691_102.html).
+
+## Lo que dice el registro
+
+La anotación ocupa cuatro líneas y trae cuatro cambios de una vez en Campus Marc Cucurella S.L.:
+
+| Cambio | Antes | Ahora |
+| --- | --- | --- |
+| Nombre | Campus Marc Cucurella S.L. | Marc Capital Investments S.L. |
+| Administración | Marc Cucurella Saseta, administrador único | Claudia Rodríguez Ramos, administradora única |
+| Actividad | Estancias y actividades deportivas | Constituir o participar como socio o accionista en otras sociedades |
+| Sede | Mataró | Mataró, sin cambios |
+
+La inscripción es la segunda de la hoja B-604320 del Registro Mercantil de Barcelona y está fechada el 2 de noviembre. El BORME solo da fe del acto inscrito: no publica cuánto dinero hay dentro ni en qué empresas va a entrar. Ese es, precisamente, el papel de una sociedad de cartera: agrupar participaciones.
+
+## Claudia, la que hizo las cinco mudanzas
+
+Claudia Rodríguez, barcelonesa de 26 años, es su pareja desde que él jugaba en el Barça B. Desde entonces le ha seguido por el Barcelona, el Eibar, el Getafe, el Brighton, el Chelsea y, desde este verano, el [Real Madrid](/futbol/laliga/equipo/86). Son padres de tres hijos. Ella tiene formación en ballet, moda y comunicación, y en julio ya figuraba como administradora de otra empresa, Lunara Studio, dedicada al pilates y el bienestar, junto a Andrea Freijomil, mujer de Óscar Mingueza, según el mismo diario catalán.
+
+El cambio coincide con la primera temporada de Cucurella en el Bernabéu, y la sede sigue donde nació la empresa hace tres años: en Mataró, a unos kilómetros de Alella, su pueblo.
+
+## Una semana de selección
+
+El papeleo le llega en plena concentración. Cucurella está en la [lista de Luis de la Fuente](/noticias/convocatoria-espana-chequia-inglaterra-27-jugadores-ocho-no-campeones-mundo-jacobo-ramon-valles-barrios) para cerrar la fase de grupos de la Nations League: Chequia en Praga este jueves y [Inglaterra en el Metropolitano](/futbol/nations-league/partido/401861175) el domingo. Llega como campeón del mundo: fue titular en la final del Mundial ante Argentina, el 19 de julio. La sociedad que nació para organizar campus deportivos cambia de función mientras él sigue con la suya en [la selección](/selecciones/ESP).`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'LaLiga', sport: 'futbol', slug: 'laliga' },
+    sourceName: 'BORME',
+    sourceUrl: 'https://www.boe.es/borme/dias/2026/11/10/pdfs/BORME-A-2026-215-08.pdf',
+    sourceLang: 'es',
+    publishedAt: '2026-11-11T18:54:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'El Nacional: la esposa de Marc Cucurella administra el nuevo holding', url: 'https://www.elnacional.cat/oneconomia/es/empresas/esposa-marc-cucurella-crea-empresa-administra-nuevo-holding-futbolista_1723691_102.html' },
+      { name: 'ESPN: plantilla del Real Madrid', url: 'https://www.espn.com/soccer/team/squad/_/id/86/real-madrid' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Marc_Cucurella_Argentina_v_Spain_19_July_2026-064.jpg/1280px-Marc_Cucurella_Argentina_v_Spain_19_July_2026-064.jpg',
+      alt: 'Marc Cucurella, con la camiseta roja número 24 de España y el pelo rizado recogido con una cinta, camina por el césped durante la final del Mundial 2026',
+      credit: 'Bryan Berlin · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'kimi-antonelli-campeon-sueldo-decima-parte-russell-mercedes-bonus-autosprint-renovacion',
+    title: 'Kimi Antonelli, campeón del mundo con el sueldo de un novato: cobra la décima parte que Russell',
+    summary: 'Antonelli ganó el Mundial de F1 con un contrato de 2025 de unos 3,4 millones por temporada. Russell firmó 34. Los bonus por victorias y la renovación pendiente, según Autosprint.',
+    body: `Kimi Antonelli es campeón del mundo de Fórmula 1 desde el [Gran Premio de México](/noticias/kimi-antonelli-campeon-mundo-f1-20-anos-mexico-record-vettel-alonso-2005-tres-anos-verstappen-gana) y, en la nómina de Mercedes, sigue cobrando como el chico que llegó en 2025. Su sueldo fijo ronda los 3,4 millones por temporada, la décima parte que su compañero George Russell, según publica el semanario italiano Autosprint y recogen [Formulapassion](https://www.formulapassion.it/f1/f1-news/12-milioni-bonus-antonelli-mercedes-aumento-stipendio-obbligo-guadagna-decimo-russell) y [Virgilio Sport](https://www.virgilio.it/sport/antonelli-ingaggio-bonus-mercedes-russell-barrichello-ferrari-979709/amp/). Los dos medios no coinciden en la moneda: el primero habla de dólares; el segundo, de euros.
+
+## El contrato de su estreno
+
+Antonelli entró en la Fórmula 1 con un contrato de tres temporadas, de 2025 a 2027. Según Formulapassion, el acuerdo permitía a Mercedes prescindir de él en cualquier momento. Era el seguro de un equipo que apostaba por un piloto sin experiencia en la categoría.
+
+Russell, en cambio, renovó hace un año por unos 34 millones de dólares por temporada, siempre según esas mismas informaciones. Los sueldos de la Fórmula 1 no son públicos: estas cifras son las que publica la prensa especializada, no las de Mercedes.
+
+## Los bonus maquillan la diferencia
+
+La parte variable cambia el cuadro. Formulapassion cifra en 12 millones los bonus que Antonelli se ha asegurado este año por sus victorias, lo que lleva su temporada por encima de 15. Virgilio habla de un maxibonus de 15 millones previsto en el contrato. En los dos casos, la conclusión es la misma: Mercedes tendrá que subirle el fijo, y probablemente sin esperar a que acabe 2027.
+
+## El precio de cada punto
+
+La comparación más cruda sale de cruzar esos sueldos con [la clasificación del Mundial](https://www.espn.com/f1/standings) a falta de Las Vegas, Catar y Abu Dabi:
+
+| Piloto | Puntos | Sueldo fijo publicado | Fijo por punto |
+| --- | --- | --- | --- |
+| Kimi Antonelli | 390 | 3,4 millones de dólares | unos 8.700 dólares |
+| George Russell | 262 | 34 millones de dólares | unos 129.800 dólares |
+
+Antonelli ha sumado 128 puntos más que Russell con un sueldo diez veces menor. Cada punto del campeón le ha costado a Mercedes, en salario fijo, unas quince veces menos que cada punto de Russell. El cálculo no incluye los bonus, que no se conocen con exactitud.
+
+## Lo que viene
+
+Mercedes ya tiene los dos títulos: el de pilotos llegó en México y el de constructores, una semana después en Interlagos, según Virgilio. Queda la negociación. El estudio de la consultora StageUp que cita Autosprint calcula que el valor económico de Antonelli llegará a 73 millones de dólares en 2030, y a 105 si repite título en 2027. En Italia ya se habla de Ferrari: Rubens Barrichello lo ve vestido de rojo algún día.
+
+Toda la temporada de la [Fórmula 1](/motor/formula-1), con los horarios de las tres carreras que quedan, está en nuestra sección de motor.`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'Fórmula 1', sport: 'motor', slug: 'formula-1' },
+    sourceName: 'Formulapassion',
+    sourceUrl: 'https://www.formulapassion.it/f1/f1-news/12-milioni-bonus-antonelli-mercedes-aumento-stipendio-obbligo-guadagna-decimo-russell',
+    sourceLang: 'it',
+    publishedAt: '2026-11-11T18:56:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Virgilio Sport: Antonelli, ingaggio, bonus y Russell', url: 'https://www.virgilio.it/sport/antonelli-ingaggio-bonus-mercedes-russell-barrichello-ferrari-979709/amp/' },
+      { name: 'ESPN: clasificación del Mundial de F1', url: 'https://www.espn.com/f1/standings' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Kimi_Antonelli_at_the_Melbourne_Walk_during_the_2026_Australian_Grand_Prix_%28028A7922%29.jpg/1280px-Kimi_Antonelli_at_the_Melbourne_Walk_during_the_2026_Australian_Grand_Prix_%28028A7922%29.jpg',
+      alt: 'Kimi Antonelli, con gorra blanca y la mirada baja, firma autógrafos rodeado de aficionados en el paseo de Albert Park, en Melbourne',
+      credit: 'Yu Chu Chin · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'bada-huesca-agustinos-alicante-comite-competicion-gol-de-mas-marcador-empate-34-arbitros-sancionados',
+    title: 'Bada Huesca perdió por un gol que nunca existió: el Comité lo borra y castiga a los árbitros',
+    summary: 'El marcador del Bada Huesca - Agustinos Alicante sumó un gol de más a los visitantes. El club reclamó con vídeo y el Comité de Competición deja el 34-35 en empate a 34.',
+    body: `El Bada Huesca perdió su imbatibilidad en el Palacio de los Deportes por un gol que nadie marcó. El 34-35 ante Agustinos Alicante, a finales de octubre, se ha quedado en 34-34: el Comité de Competición ha aceptado la reclamación del club oscense, ha rectificado el resultado y le ha devuelto el punto del empate, según ha publicado este miércoles el [Diario del Alto Aragón](https://www.diariodelaltoaragon.es/noticias/deportes/2026/11/11/comite-competicion-da-razon-bada-huesca-cambia-un-empate-resultado-contra-agustinos-alicante-2067768.html).
+
+## El gol del minuto 18:20
+
+El error estaba en el marcador. En el minuto 18:20 se apuntó a Agustinos un tanto que se atribuyó a su dorsal 14, y ese tanto no había existido. Nadie lo detectó en la pista. Al final del partido, la tabla decía que los alicantinos habían ganado por uno.
+
+El Bada Huesca revisó el vídeo, encontró el desajuste y presentó la reclamación con las imágenes. Agustinos alegó en contra. El Comité ha desestimado sus alegaciones y ha considerado que la reclamación oscense llegó en forma y en plazo.
+
+## Cronología
+
+| Fecha | Qué pasa |
+| --- | --- |
+| Finales de octubre | Bada Huesca 34 - Agustinos Alicante 35 en el Palacio |
+| 4 de noviembre | El club anuncia que reclama ante Competición por un gol de más |
+| 11 de noviembre | El Comité rectifica: empate a 34 y sanción a la pareja arbitral |
+
+## Dos partidos para los árbitros
+
+La resolución no se queda en el marcador. El Comité sanciona a los dos árbitros con dos partidos de suspensión y una multa de 125 euros a cada uno por no haber detectado el error, según el mismo diario. La corrección se apoya en el vídeo que aportó el club, no en lo que reflejaba el acta del partido.
+
+El club lo celebró con un comunicado en el que habla de que «se hace justicia con lo sucedido sobre la pista», recoge [El Diario de Huesca](https://www.eldiariodehuesca.com/deportes/comite-competicion-da-razon-bada-huesa-suma-punto-agustinos_48948_102.html). También agradeció al Comité que valorara las pruebas.
+
+## Vuelve a estar invicto
+
+El punto cambia la temporada del equipo oscense en la División de Honor Plata, la segunda categoría del balonmano masculino. Con el empate recuperado, el Bada Huesca vuelve a figurar como invicto y refuerza su liderato, la condición con la que encara unas semanas que en el propio vestuario ven como decisivas para su objetivo de ascenso a la [Liga Asobal](/balonmano/liga-asobal).
+
+Para seguir la temporada, en la [sección de balonmano](/balonmano) y en la [guía de dónde ver el balonmano en España](/noticias/donde-ver-balonmano-espana-2026-27-asobal-guerreras-champions-mundial).`,
+    category: 'polemica',
+    kind: 'noticia',
+    competition: { name: 'Balonmano', sport: 'balonmano', slug: 'balonmano' },
+    sourceName: 'Diario del Alto Aragón',
+    sourceUrl: 'https://www.diariodelaltoaragon.es/noticias/deportes/2026/11/11/comite-competicion-da-razon-bada-huesca-cambia-un-empate-resultado-contra-agustinos-alicante-2067768.html',
+    sourceLang: 'es',
+    publishedAt: '2026-11-11T18:58:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'El Diario de Huesca: el Comité da la razón al Bada Huesca', url: 'https://www.eldiariodehuesca.com/deportes/comite-competicion-da-razon-bada-huesa-suma-punto-agustinos_48948_102.html' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Palacio_de_los_Deportes_Huesca.jpg/1280px-Palacio_de_los_Deportes_Huesca.jpg',
+      alt: 'Fachada de hormigón y cristal del Palacio de los Deportes de Huesca, con árboles de hojas amarillas en primer plano y cielo despejado',
+      credit: 'Cebes · Wikimedia Commons',
+      license: 'Dominio público',
+    },
+  },
+  {
     slug: 'nba-resultados-2026-11-11',
     title: "NBA: resultados de la noche del miércoles 11 de noviembre",
     summary: "Resultados de los 6 partidos de la noche en la NBA, con el más igualado y el de más puntos.",
