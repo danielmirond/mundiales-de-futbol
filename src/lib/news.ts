@@ -154,6 +154,37 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'partidos-futbol-hoy-2026-11-11',
+    title: "Partidos de fútbol hoy, miércoles 11 de noviembre: horarios y dónde ver Champions fem.",
+    summary: "Agenda de fútbol de hoy miércoles 11 de noviembre: 3 partidos con horario en hora española y canal de televisión. Destaca Juventus - Lyonnes.",
+    body: `Jornada de fútbol con 3 citas este miércoles 11 de noviembre. Horarios en hora peninsular y dónde verlas, competición por competición. El partido que más miradas reúne es el **[Juventus - Lyonnes](/futbol/champions-femenina/partido/401916984)** (Champions League femenina, 21:00 h).
+
+## Champions League femenina
+
+- **[OH Leuven - HB Køge](/futbol/champions-femenina/partido/401916985)** — 18:45 h
+- **[Benfica - Vienna](/futbol/champions-femenina/partido/401916983)** — 21:00 h
+- **[Juventus - Lyonnes](/futbol/champions-femenina/partido/401916984)** — 21:00 h
+
+Calendario y clasificación en la [página de Champions fem.](/futbol/champions-femenina).
+
+Todos los horarios están en hora peninsular. Los marcadores se actualizan en directo en cada ficha de partido. Toda la jornada, con marcadores en directo, en [partidos de hoy](/partidos-hoy).`,
+    category: 'tv',
+    kind: 'agenda',
+    competition: {"name":"Champions fem.","sport":"futbol","slug":"champions-femenina"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401916984",
+    sourceLang: 'en',
+    publishedAt: '2026-11-11T01:30:47.089Z',
+    modifiedAt: '2026-11-11T01:30:47.089Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Vista_dello_Stadio_Olimpico_Grande_Torino.jpg/1920px-Vista_dello_Stadio_Olimpico_Grande_Torino.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Stadio Olimpico Grande Torino, escenario del Juventus - Lyonnes",
+      credit: "Lisa16031977 · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
     slug: 'cannavaro-balon-de-oro-zidane-cabezazo-materazzi-quien-sabe-francia-98-uzbekistan-italia-francia-san-siro',
     title: "Cannavaro y su Balón de Oro: «Si Zidane no le hubiera dado el cabezazo a Materazzi, quién sabe»",
     summary: "Fabio Cannavaro, hoy seleccionador de Uzbekistán, admite en el Corriere que su Balón de Oro de 2006 tuvo algo de suerte y cuenta que el partido que le hizo hombre fue el Italia-Francia de 1998.",
