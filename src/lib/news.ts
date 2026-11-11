@@ -154,6 +154,37 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'nba-resultados-2026-11-11',
+    title: "NBA: resultados de la noche del miércoles 11 de noviembre",
+    summary: "Resultados de los 6 partidos de la noche en la NBA, con el más igualado y el de más puntos.",
+    body: `6 partidos en la NBA esta noche. El más igualado, Heat 115-109 a Jazz. El de más puntos, Suns ante Clippers (133-110).
+
+## Resultados
+
+- [Knicks 117-85 Bucks](/baloncesto/nba/partido/401909960)
+- [Celtics 123-101 76ers](/baloncesto/nba/partido/401909961)
+- [Suns 133-110 Clippers](/baloncesto/nba/partido/401909962)
+- [Heat 115-109 Jazz](/baloncesto/nba/partido/401909963)
+- [Magic 107-100 Kings](/baloncesto/nba/partido/401909964)
+- [Trail Blazers 123-103 Thunder](/baloncesto/nba/partido/401909965)
+
+Marcadores en directo, calendario y clasificación por conferencias en la [página de la NBA](/baloncesto/nba).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"NBA","sport":"baloncesto","slug":"nba"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/nba/scoreboard",
+    sourceLang: 'en',
+    publishedAt: '2026-11-11T14:49:43.365Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Delta_Center_2023.jpg/1920px-Delta_Center_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Delta Center, sede del Jazz - Heat",
+      credit: "Lomrjyo · CC BY-SA 4.0 · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+  },
+  {
     slug: 'scott-mctominay-descarga-corazon-dos-dias-antes-mundial-haiti-escocia-ablacion-manchester',
     title: 'Scott McTominay jugó el Mundial a 48 horas de una descarga en el corazón: Escocia dijo estómago',
     summary: 'Scott McTominay ha contado en Hampden que le dieron una descarga en el corazón dos días antes del Escocia - Haití del Mundial. Entonces se dijo que era un problema de estómago.',
@@ -652,13 +683,12 @@ Los Celtics juegan esta noche en Toronto, a la 1:00 de la madrugada del jueves e
   {
     slug: 'partidos-futbol-hoy-2026-11-11',
     title: "Partidos de fútbol hoy, miércoles 11 de noviembre: horarios y dónde ver Champions fem.",
-    summary: "Agenda de fútbol de hoy miércoles 11 de noviembre: 3 partidos con horario en hora española y canal de televisión. Destaca Juventus - Lyonnes.",
-    body: `Jornada de fútbol con 3 citas este miércoles 11 de noviembre. Horarios en hora peninsular y dónde verlas, competición por competición. El partido que más miradas reúne es el **[Juventus - Lyonnes](/futbol/champions-femenina/partido/401916984)** (Champions League femenina, 21:00 h).
+    summary: "Agenda de fútbol de hoy miércoles 11 de noviembre: 2 partidos con horario en hora española y canal de televisión. Destaca Juventus - Lyonnes.",
+    body: `Jornada de fútbol con 2 citas este miércoles 11 de noviembre. Horarios en hora peninsular y dónde verlas, competición por competición. El partido que más miradas reúne es el **[Juventus - Lyonnes](/futbol/champions-femenina/partido/401916984)** (Champions League femenina, 21:00 h).
 
 ## Champions League femenina
 
 - **[OH Leuven - HB Køge](/futbol/champions-femenina/partido/401916985)** — 18:45 h
-- **[Benfica - Vienna](/futbol/champions-femenina/partido/401916983)** — 21:00 h
 - **[Juventus - Lyonnes](/futbol/champions-femenina/partido/401916984)** — 21:00 h
 
 Calendario y clasificación en la [página de Champions fem.](/futbol/champions-femenina).
@@ -671,7 +701,7 @@ Todos los horarios están en hora peninsular. Los marcadores se actualizan en di
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401916984",
     sourceLang: 'en',
     publishedAt: '2026-11-11T01:30:47.089Z',
-    modifiedAt: '2026-11-11T01:30:47.089Z',
+    modifiedAt: '2026-11-11T14:49:43.365Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Vista_dello_Stadio_Olimpico_Grande_Torino.jpg/1920px-Vista_dello_Stadio_Olimpico_Grande_Torino.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
