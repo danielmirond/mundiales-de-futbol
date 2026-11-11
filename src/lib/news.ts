@@ -154,6 +154,218 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'chequia-espana-horario-donde-ver-nations-league-praga-letna-sin-lamine-yamal-oyarzabal',
+    title: 'Chequia - España: horario y dónde ver el jueves en Praga, sin Lamine Yamal ni Oyarzabal',
+    summary: 'Chequia - España se juega el jueves 12 de noviembre a las 20:45 en Letná y se ve en La 1 y RTVE Play. La selección llega sin Lamine Yamal ni Oyarzabal y con cuartos ya asegurados.',
+    body: `España juega en Praga el jueves 12 de noviembre a las 20:45, hora peninsular (19:45 en Canarias), el quinto partido de su grupo de la [Nations League](/futbol/nations-league). Se ve en abierto en La 1 y RTVE Play, que tienen [en exclusiva los partidos de la selección en esta fase](/noticias/donde-ver-nations-league-2026-27-espana-la-1-dazn-chequia-inglaterra). Lo que más ha cambiado desde que se dio la lista son dos ausencias: Lamine Yamal y Mikel Oyarzabal [se quedan en casa](https://theobjective.com/deportes/futbol/2026-11-09/lamine-yamal-mikel-oyarzabal-seleccion/).
+
+## Horario por zona
+
+| Dónde | Hora del partido |
+| --- | --- |
+| España peninsular y Baleares | 20:45 |
+| Canarias | 19:45 |
+| Chequia (hora local) | 20:45 |
+
+El partido es en el estadio de Letná, la casa del Sparta de Praga, que en la [ficha del partido](/futbol/nations-league/partido/401861148) figura como Generali Arena. La previsión para la hora del partido es de cielo nublado y unos 5 grados, sin lluvia.
+
+## Las bajas y quién entra
+
+Lamine Yamal arrastra molestias en la rodilla derecha desde el Atlético - Barcelona del domingo y se queda recuperándose en Barcelona; la idea es que llegue al partido del domingo contra Inglaterra. Oyarzabal tiene un proceso gripal, el mismo que ya le dejó fuera del Real Sociedad - Rayo, y se queda unos días en San Sebastián. Ninguna de las dos bajas es por sanción.
+
+Antes ya había habido un cambio en la [lista de 27](/noticias/convocatoria-espana-chequia-inglaterra-27-jugadores-ocho-no-campeones-mundo-jacobo-ramon-valles-barrios): Jorge de Frutos entró por Ander Barrenetxea, lesionado en ese mismo partido de la Real Sociedad. Víctor Muñoz se ha unido a la concentración.
+
+## Cómo llegan
+
+España llega con pleno y con el billete para los cuartos de final ya en el bolsillo. Chequia no ha sumado ni un punto. La tabla del grupo, según los [datos de ESPN](https://www.espn.com/soccer/standings/_/league/uefa.nations):
+
+| Selección | Partidos | Puntos | Diferencia de goles |
+| --- | --- | --- | --- |
+| España | 4 | 12 | +7 |
+| Inglaterra | 4 | 9 | +11 |
+| Croacia | 4 | 3 | -10 |
+| Chequia | 4 | 0 | -8 |
+
+El primer duelo de este grupo fue hace cinco semanas: España ganó 3-1 en el Carlos Tartiere de Oviedo el 3 de octubre. En los últimos cinco enfrentamientos, Chequia no le gana a España: cuatro victorias españolas y un 2-2 en Praga en junio de 2022.
+
+## La víspera
+
+La selección aterrizó en Praga el martes por la noche, según [la previa de la Federación](https://rfef.es/es/noticias/praga-ultima-escala-de-un-ano-inolvidable). Este miércoles Luis de la Fuente da la rueda de prensa a las 18:45 y el equipo hace el entrenamiento oficial en Letná a las 19:00. Tres días después, el domingo 15 a las 20:45, cierra el año contra [Inglaterra en el Metropolitano](/futbol/nations-league/partido/401861175), también en La 1.
+
+Si quieres ver qué emite cada plataforma el resto de la temporada, está todo en [la guía de canales y precios](/noticias/donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1).`,
+    category: 'tv',
+    kind: 'noticia',
+    competition: { name: 'Nations League', sport: 'futbol', slug: 'nations-league' },
+    sourceName: 'RFEF',
+    sourceUrl: 'https://rfef.es/es/noticias/praga-ultima-escala-de-un-ano-inolvidable',
+    sourceLang: 'es',
+    publishedAt: '2026-11-11T09:44:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'The Objective: Lamine Yamal y Oyarzabal, baja ante Chequia', url: 'https://theobjective.com/deportes/futbol/2026-11-09/lamine-yamal-mikel-oyarzabal-seleccion/' },
+      { name: 'ESPN: Chequia - España', url: 'https://www.espn.com/soccer/match/_/gameId/401861148' },
+      { name: 'ESPN: clasificación de la Nations League', url: 'https://www.espn.com/soccer/standings/_/league/uefa.nations' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Generali_Arena-AC_Sparta_Praha.jpg/1280px-Generali_Arena-AC_Sparta_Praha.jpg',
+      alt: 'El estadio de Letná, en Praga, de noche y con los focos encendidos durante un partido del Sparta, con la grada llena al fondo y el marcador en 0-1',
+      credit: 'Gjaylen5 · Wikimedia Commons',
+      license: 'CC BY-SA 3.0',
+    },
+  },
+  {
+    slug: 'rayo-vallecano-concesion-estadio-vallecas-dictamen-comision-juridica-butarque-4280-espectadores-27-marzo',
+    title: 'Rayo Vallecano y la concesión de Vallecas: tres partidos en Butarque y un dictamen en contra',
+    summary: 'La Comisión Jurídica Asesora avala que la Comunidad de Madrid quite al Rayo la concesión de su estadio. El club jugó este curso tres partidos de local en Leganés, ante la mitad de público.',
+    body: `El Rayo Vallecano vuelve a jugar en Vallecas desde septiembre, pero el estadio sigue sin ser del todo suyo. La Comisión Jurídica Asesora de la Comunidad de Madrid ha dado por unanimidad un dictamen que ve procedente extinguir la concesión que el club tiene sobre el recinto desde 2019, [según informó el martes Europa Press](https://www.eldiario.es/madrid/somos/via-libre-juridica-comunidad-extinga-concesion-disfruta-rayo-estadio-vallecas_1_13653528.html). Era el último informe que le faltaba al Gobierno regional antes de decidir.
+
+## Qué dice el dictamen
+
+El texto habla de incumplimientos de las condiciones de la concesión, sobre todo en mantenimiento, conservación, inspecciones obligatorias y seguridad. Reconoce que el estado del estadio ha mejorado desde que se abrió el expediente, pero lee esa mejora en contra del club: según el dictamen, confirma que los incumplimientos existían cuando empezó el procedimiento. El Rayo sostiene que acabó acreditando que cumplía la normativa y discute la primera auditoría.
+
+No es todavía la decisión final. Falta la orden de la Comunidad, que tiene [hasta el 27 de marzo de 2027](https://www.eldebate.com/deportes/futbol/20261110/comision-juridica-comunidad-madrid-avala-extinguir-concesion-estadio-vallecas_479419.html) para resolver, ocho meses después de abrir el expediente. Es decir, antes de que acabe la Liga.
+
+## Cuatro meses de expediente
+
+- **27 de julio.** La Comunidad abre el expediente de extinción y suspende la concesión de forma cautelar tras una auditoría que habla de graves deficiencias.
+- **Agosto y septiembre.** El Rayo no puede jugar en casa y se va a Butarque, el campo del Leganés.
+- **14 de septiembre.** Una segunda auditoría da las instalaciones por operativas y se levanta la suspensión, pero el expediente sigue abierto.
+- **10 de noviembre.** Se conoce el dictamen favorable a extinguir la concesión.
+
+## Lo que costó jugar fuera
+
+Los números del exilio están en las actas que recoge [ESPN](https://www.espn.com/soccer/team/schedule/_/id/101/rayo-vallecano). El Rayo jugó en Butarque tres partidos como local: 1-1 con el Alavés el 20 de agosto, ante 4.280 espectadores; 3-2 al Racing el 5 de septiembre, ante 4.529, y 2-1 al Espanyol el 15 de septiembre, un día después de que se levantara la suspensión. Sacó siete de nueve puntos.
+
+De vuelta en casa, la entrada se duplicó: 8.405 personas ante el Elche el 24 de octubre y 11.714 ante el Celta el 31. Jugar en Leganés le costó al Rayo más de la mitad de su gente en la grada.
+
+## Y ahora qué
+
+El consejero de Cultura y Deportes, Mariano de Paco, ya había dicho que habría un «periodo transitorio» para que el Rayo siga jugando en Vallecas hasta que haya un nuevo concesionario. El estadio es de titularidad pública y nadie ha planteado que el [Rayo Vallecano](/futbol/laliga/equipo/101) deje de jugar en él. Lo que se juega es quién lo gestiona, y si el club seguirá teniendo la llave de su casa. La [crónica de COPE](https://www.cope.es/programas/tiempo-de-juego/noticias/comision-juridica-asesora-comunidad-madrid-avala-extincion-concesion-estadio-vallecas-rayo-20261110_3472502.html) sitúa la votación de la Comisión en su sesión del 28 de octubre. Butarque, que este curso hizo de casa para el Rayo, también ha acogido esta semana a otro vecino sin campo: [el Trival Valderas de Alcorcón en la Copa](/noticias/trival-valderas-club-barrio-alcorcon-local-butarque-leganes-copa-del-rey).`,
+    category: 'polemica',
+    kind: 'noticia',
+    competition: { name: 'LaLiga', sport: 'futbol', slug: 'laliga' },
+    sourceName: 'Europa Press (elDiario.es)',
+    sourceUrl: 'https://www.eldiario.es/madrid/somos/via-libre-juridica-comunidad-extinga-concesion-disfruta-rayo-estadio-vallecas_1_13653528.html',
+    sourceLang: 'es',
+    publishedAt: '2026-11-11T09:46:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'El Debate (EFE): la Comisión Jurídica avala extinguir la concesión', url: 'https://www.eldebate.com/deportes/futbol/20261110/comision-juridica-comunidad-madrid-avala-extinguir-concesion-estadio-vallecas_479419.html' },
+      { name: 'COPE: el dictamen sobre el estadio de Vallecas', url: 'https://www.cope.es/programas/tiempo-de-juego/noticias/comision-juridica-asesora-comunidad-madrid-avala-extincion-concesion-estadio-vallecas-rayo-20261110_3472502.html' },
+      { name: 'The Objective: luz verde para retirar la concesión', url: 'https://theobjective.com/deportes/futbol/2026-11-10/comunidad-madrid-luz-verde-retirar-rayo-concesion-vallecas/' },
+      { name: 'ESPN: calendario y resultados del Rayo Vallecano', url: 'https://www.espn.com/soccer/team/schedule/_/id/101/rayo-vallecano' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Estadio_de_Vallecas_18_de_febrero_de_2025.jpg/1280px-Estadio_de_Vallecas_18_de_febrero_de_2025.jpg',
+      alt: 'La tribuna cubierta del estadio de Vallecas llena durante un partido del Rayo, con bufandas del club alzadas en primer plano y un bloque de viviendas de ladrillo junto al campo',
+      credit: '4theliberty · Wikimedia Commons',
+      license: 'CC0',
+    },
+  },
+  {
+    slug: 'media-maraton-santa-barbara-30-corredores-atendidos-calor-policia-investiga-avituallamiento',
+    title: 'Media maratón de Santa Bárbara: 30 corredores atendidos y una policía que sigue investigando',
+    summary: 'Treinta corredores de la media maratón de Santa Bárbara (California) necesitaron atención médica. Sanidad lo atribuye al calor; la policía aún investiga y circulan rumores sobre el avituallamiento.',
+    body: `La media maratón de Santa Bárbara, en California, terminó el domingo 8 de noviembre con 30 corredores atendidos por los servicios médicos y una investigación policial abierta. El departamento de Sanidad del condado [cree que fue el calor](https://www.noozhawk.com/hospital-santa-barbara-half-marathon-runners-unusual-symptoms/). La policía habló de «síntomas inusuales» y todavía no ha dado una causa.
+
+## Tres recuentos distintos
+
+Las cifras han bailado desde el domingo, y no por error de nadie: cada institución contaba algo diferente.
+
+| Quién lo cuenta | Qué cuenta | Cifra |
+| --- | --- | --- |
+| Bomberos y hospital Cottage, el domingo | Trasladados a urgencias por la mañana | 19 |
+| Hospital Cottage, el lunes | Corredores tratados en sus urgencias | 27 |
+| Sanidad del condado, el lunes | Corredores con atención médica | 30 |
+
+Según el condado, 26 fueron enviados al hospital por el equipo médico de la carrera (19 al Cottage de Santa Bárbara y 7 al de Goleta Valley) y cuatro fueron atendidos y dados de alta allí mismo. El lunes por la tarde [seguían ingresados tres](https://www.independent.com/2026/11/09/county-health-department-issues-update-after-26-runners-in-santa-barbara-half-marathon-5k-hospitalized-under-suspicious-circumstances/), en situación estable. Había unos 7.500 inscritos entre la media y el 5K.
+
+## El calor de un 8 de noviembre
+
+La media salió a las 7:00 desde Cabrillo Boulevard, el paseo marítimo junto al muelle Stearns, y acababa en State Street, [según la guía de la organización](https://www.independent.com/2026/11/05/santa-barbara-half-marathon-road-closures-and-race-day-guide-what-residents-and-visitors-need-to-know-for-sunday-november-8/). La primera llamada de auxilio llegó a las 8:41: un corredor mareado y a punto de desmayarse. Para entonces todos llevaban más de una hora corriendo.
+
+El día fue unos 10 grados Fahrenheit más caluroso que la media de un 8 de noviembre, según los datos de la agencia meteorológica estadounidense que cita el Independent, y se llegó a meta con alrededor de 80 °F, unos 27 °C. [Canadian Running](https://runningmagazine.ca/the-scene/poisoning-or-heat-illness-what-happened-at-the-santa-barbara-half-marathon/) da 23 °C a las 9:00 y 26 °C al final de la prueba. El director de la prueba, David Monico, dijo que no tenían motivos para pensar en nada más que el calor y el agotamiento.
+
+## El rumor del avituallamiento
+
+En redes corrió que habían manipulado un puesto de agua. Sanidad recuerda que sus inspectores revisaron el viernes y el sábado el lugar donde se preparaba la bebida isotónica y no encontraron nada: el agua y el material estaban limpios, envasados y sin abrir. Lo que no ha detallado es quién tuvo acceso a los puestos el día de la carrera.
+
+## Por qué importa aquí
+
+El mismo domingo se corrió la [Behobia-San Sebastián](/noticias/behobia-san-sebastian-853-corredores-medalla-sin-clasificacion-cajon-salida-2026), con otro tipo de problema: 853 corredores fuera de la clasificación por salir antes de su cajón. Son dos recordatorios de que una carrera popular se decide también fuera del asfalto, en la planificación. La próxima gran cita en España es el [Maratón de Valencia del 6 de diciembre](/noticias/juan-roig-millon-euros-record-mundo-maraton-valencia-6-diciembre-ultimo-aviso-carrera-dos-dias). En Santa Bárbara, de momento, la última palabra la tiene la policía.`,
+    category: 'curiosa',
+    kind: 'noticia',
+    competition: { name: 'Atletismo', sport: 'atletismo', slug: 'atletismo' },
+    sourceName: 'Noozhawk',
+    sourceUrl: 'https://www.noozhawk.com/hospital-santa-barbara-half-marathon-runners-unusual-symptoms/',
+    sourceLang: 'en',
+    publishedAt: '2026-11-11T09:48:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Santa Barbara Independent: actualización de Sanidad del condado', url: 'https://www.independent.com/2026/11/09/county-health-department-issues-update-after-26-runners-in-santa-barbara-half-marathon-5k-hospitalized-under-suspicious-circumstances/' },
+      { name: 'Canadian Running: Poisoning or heat illness?', url: 'https://runningmagazine.ca/the-scene/poisoning-or-heat-illness-what-happened-at-the-santa-barbara-half-marathon/' },
+      { name: 'Santa Barbara Independent: guía de la carrera', url: 'https://www.independent.com/2026/11/05/santa-barbara-half-marathon-road-closures-and-race-day-guide-what-residents-and-visitors-need-to-know-for-sunday-november-8/' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Beach_and_Stearns_Wharf.jpg/1280px-Beach_and_Stearns_Wharf.jpg',
+      alt: 'La playa de Santa Bárbara con el muelle de madera Stearns Wharf entrando en el mar bajo un cielo azul sin nubes y paseantes en la arena',
+      credit: 'Mike Peel · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'hugo-gonzalez-20-anos-diez-puntos-tres-robos-filadelfia-celtics-76ers-aday-mara-doble-doble-portland',
+    title: 'Hugo González, 20 años: tres robos y diez puntos en la pista de los 76ers, que llegaban líderes',
+    summary: 'Hugo González firmó 10 puntos, 3 robos y un +17 en el 101-123 de los Celtics en casa de los 76ers. Aday Mara, con 10 puntos y 10 rebotes, logró su segundo doble-doble en Portland.',
+    body: `Hugo González salió del banquillo en Filadelfia y dejó 10 puntos, 3 robos y un +17 en 19 minutos en la victoria de los Boston Celtics por 101-123 ante los 76ers. Volvía a la doble cifra por primera vez desde el 26 de octubre, cuando hizo 13 ante Chicago, según su [registro de partidos en ESPN](https://www.espn.com/nba/player/gamelog/_/id/5175647/hugo-gonzalez).
+
+## La línea del madrileño
+
+| Minutos | Puntos | Tiros | Triples | Rebotes | Asistencias | Robos | Tapones | +/- |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 19 | 10 | 4/6 | 2/4 | 2 | 2 | 3 | 1 | +17 |
+
+En los diez partidos anteriores de liga regular había sumado 38 puntos, con cinco noches a cero. Los tres robos son su máximo de la temporada e igualan su mejor marca en la NBA, la del 3 de marzo, cuando firmó 18 puntos y 16 rebotes en su curso de novato. Y fue el partido en el que más eficaz estuvo en el tiro: 4 de 6, con 2 de 4 en triples. Cómo vive este arranque lejos de casa lo contó él mismo [hace unos días](/noticias/hugo-gonzalez-20-anos-solo-boston-20-minutos-coche-familia-derrick-white-podcast).
+
+## Un partido que no era cualquiera
+
+Los 76ers llegaban como líderes de la liga en la [clasificación del domingo](/noticias/clasificacion-nba-semana-2026-46). Boston les ganó por 22 en su pista, con 36 puntos de Paul George y 21 de Jayson Tatum, según [el acta del partido](https://www.espn.com/nba/game/_/gameId/401909961). Los Celtics se ponen 9-2 y los 76ers se quedan en 9-3.
+
+## Aday Mara, segundo doble-doble
+
+La otra noticia española de la madrugada llegó desde Portland, aunque con derrota. Aday Mara jugó 26 minutos con los Oklahoma City Thunder y acabó con 10 puntos y 10 rebotes, el máximo reboteador de su equipo, en el 123-103 de los Trail Blazers. Metió 5 de sus 9 tiros y puso un tapón. Es su segundo doble-doble en la NBA tras el del 27 de octubre ante Phoenix (11 y 10), del que [ya contamos aquí cómo fue](/noticias/aday-mara-primer-doble-doble-nba-thunder-suns-jalen-williams-wallace-quirofano-hugo-gonzalez). Viene de 18 puntos el domingo ante Washington.
+
+| Jugador | Equipo | Rival | Min | Pts | Reb | Resultado |
+| --- | --- | --- | --- | --- | --- | --- |
+| Hugo González | [Celtics](/baloncesto/nba/equipo/2) | en Filadelfia | 19 | 10 | 2 | Ganó 101-123 |
+| Aday Mara | [Thunder](/baloncesto/nba/equipo/25) | en Portland | 26 | 10 | 10 | Perdió 123-103 |
+
+Santi Aldama no jugaba: los Mavericks descansaban.
+
+## Cuándo vuelven
+
+Los Celtics juegan esta noche en Toronto, a la 1:00 de la madrugada del jueves en España, y los Thunder también repiten en Portland a las 4:00. Los horarios de la semana, con canal, están en el [calendario de la NBA en hora española](/baloncesto/nba/calendario) y en [la guía de dónde ver la NBA esta temporada](/noticias/nba-2026-27-donde-ver-espana-dazn-prime-video-estreno-hugo-gonzalez-aldama).`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'NBA', sport: 'baloncesto', slug: 'nba' },
+    sourceName: 'ESPN',
+    sourceUrl: 'https://www.espn.com/nba/game/_/gameId/401909961',
+    sourceLang: 'en',
+    publishedAt: '2026-11-11T09:50:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'ESPN: Celtics - 76ers, estadísticas', url: 'https://www.espn.com/nba/boxscore/_/gameId/401909961' },
+      { name: 'ESPN: Thunder - Trail Blazers, estadísticas', url: 'https://www.espn.com/nba/boxscore/_/gameId/401909965' },
+      { name: 'ESPN: registro de partidos de Aday Mara', url: 'https://www.espn.com/nba/player/gamelog/_/id/5174983/aday-mara' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/76ers_WFC_2016.jpg/1280px-76ers_WFC_2016.jpg',
+      alt: 'Vista desde lo alto de la grada del pabellón de los Philadelphia 76ers lleno durante un partido, con la pista iluminada y el videomarcador colgando en el centro',
+      credit: 'Peetlesnumber1 · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
     slug: 'partidos-futbol-hoy-2026-11-11',
     title: "Partidos de fútbol hoy, miércoles 11 de noviembre: horarios y dónde ver Champions fem.",
     summary: "Agenda de fútbol de hoy miércoles 11 de noviembre: 3 partidos con horario en hora española y canal de televisión. Destaca Juventus - Lyonnes.",
