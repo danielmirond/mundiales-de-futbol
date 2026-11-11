@@ -154,6 +154,290 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'scott-mctominay-descarga-corazon-dos-dias-antes-mundial-haiti-escocia-ablacion-manchester',
+    title: 'Scott McTominay jugó el Mundial a 48 horas de una descarga en el corazón: Escocia dijo estómago',
+    summary: 'Scott McTominay ha contado en Hampden que le dieron una descarga en el corazón dos días antes del Escocia - Haití del Mundial. Entonces se dijo que era un problema de estómago.',
+    body: `Scott McTominay jugó los tres partidos de Escocia en el Mundial 2026. Lo que no se sabía es cómo llegó al primero. El centrocampista del Nápoles, de 29 años, lo contó este martes en una rueda de prensa en Hampden Park: «Tuve que ir a que me dieran la descarga en el corazón dos días antes del partido contra Haití», según recoge [la crónica de ESPN](https://www.espn.com/soccer/story/_/id/50444096/scott-mctominay-scotland-2026-world-cup-heart-shock).
+
+En junio, la versión oficial fue otra. La concentración escocesa explicó su ausencia en los entrenamientos previos por una molestia estomacal, [recuerda Sky Sports](https://www.skysports.com/football/news/13610728/scott-mctominay-scotland-midfielder-had-heart-shocked-two-days-before-world-cup-opener-against-haiti). Cinco meses después, el propio jugador ha puesto el nombre real: una arritmia.
+
+## Qué pasó en junio
+
+El latido irregular apareció por primera vez cuando la selección llegó a Estados Unidos, a principios de junio. Dos días antes del debut estaba en una cama de hospital. McTominay sostiene que, aun así, se encontraba al cien por cien.
+
+Jugó igual. Fue titular en los tres partidos de [la fase de grupos](/2026/grupos), y los resultados, según las actas de ESPN, fueron estos:
+
+| Partido | Fecha (hora española) | Resultado |
+| --- | --- | --- |
+| Haití - Escocia, en Foxborough | 14 de junio, 03:00 | 0-1 |
+| Escocia - Marruecos | 20 de junio, 00:00 | 0-1 |
+| Escocia - Brasil | 25 de junio, 00:00 | 0-3 |
+
+Escocia ganó el primero y perdió los otros dos. Se fue a casa en la fase de grupos, como en todas sus participaciones. El centrocampista dice ahora que aquel final fue probablemente la mayor decepción de su carrera.
+
+## La arritmia volvió en agosto
+
+El problema no se quedó en Estados Unidos. Reapareció en agosto, ya de vuelta en Italia. McTominay jugó las dos primeras jornadas de la [Serie A](/futbol/serie-a) con el Nápoles y después pasó por el quirófano en Mánchester: una ablación cardiaca para corregir una arritmia que los médicos describieron como leve y benigna. Según su relato, fue una intervención sencilla y salió muy bien.
+
+Le costó todo septiembre. También los cuatro primeros partidos de Escocia con su nuevo seleccionador, Sebastien Pocognoli. Desde el último parón ha jugado los nueve encuentros de su club.
+
+## Lo que cambia la confesión
+
+Con las fechas en la mano, el orden es este: arritmia a principios de junio, descarga dos días antes del debut, tres partidos como titular en once días, recaída en agosto y operación en septiembre. Entre la descarga y la ablación pasaron unos tres meses en los que siguió compitiendo.
+
+La explicación del estómago aguantó todo ese tiempo. No trascendió que una de las figuras de Escocia había pasado por un hospital 48 horas antes de volver a un Mundial que su país esperaba desde 1998.
+
+## Vuelve esta semana
+
+McTominay regresa ahora a la selección para los dos partidos de la [Nations League](/futbol/nations-league): Escocia recibe a Macedonia del Norte el viernes 13 a las 20:45, hora peninsular española, y visita a Suiza el lunes 16 a la misma hora.`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'Mundial 2026', sport: 'futbol', slug: 'mundial' },
+    sourceName: 'ESPN',
+    sourceUrl: 'https://www.espn.com/soccer/story/_/id/50444096/scott-mctominay-scotland-2026-world-cup-heart-shock',
+    sourceLang: 'en',
+    publishedAt: '2026-11-11T11:37:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Sky Sports: McTominay had heart shocked two days before World Cup opener', url: 'https://www.skysports.com/football/news/13610728/scott-mctominay-scotland-midfielder-had-heart-shocked-two-days-before-world-cup-opener-against-haiti' },
+      { name: 'ESPN: acta del Haití - Escocia', url: 'https://www.espn.com/soccer/match/_/gameId/760418' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Scotland_Starting_XI_Scotland_v_Bolivia_6_June_2026-15.jpg/1280px-Scotland_Starting_XI_Scotland_v_Bolivia_6_June_2026-15.jpg',
+      alt: 'El once de Escocia posa con camiseta roja antes de un amistoso contra Bolivia el 6 de junio de 2026; Scott McTominay, con el número 4, en el centro de la fila de atrás',
+      credit: 'Bryan Berlin · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'atletico-baleares-acta-patrick-messow-50-metros-arbitro-la-nucia-tres-senalados-estadi-balear',
+    title: 'Atlético Baleares: el acta recoge los 50 metros que cruzó su director para encarar al árbitro',
+    summary: 'El acta del Atlético Baleares - La Nucía (1-2) señala al director general Patrick Messow, a un ayudante y al delegado. En mayo, Messow se quejaba de un acta que no decía nada.',
+    body: `El Atlético Baleares perdió el domingo 1-2 contra La Nucía en el Estadi Balear y salió del partido con un problema mayor que la derrota. El acta del árbitro, Oriol Cartiel Arasa, señala a tres personas del club que no estaban jugando: el director general, un ayudante del cuerpo técnico y el delegado. Lo han contado [Última Hora](https://www.ultimahora.es/deportes/atletico-baleares/2026/11/08/2745727/arbitraje-irrita-messow-tienes-puta-idea-nos-jugamos.html) y [COPE Mallorca](https://www.cope.es/emisoras/illes-balears/baleares/mallorca/deportes-mallorca/noticias/atletico-baleares-crispa-arbitraje-partido-nucia-no-tienes-puta-idea-jugamos-20261109_3471156.html), que reproducen su contenido.
+
+## Lo que pone el acta
+
+El pasaje más llamativo es el del final. Según el colegiado, cuando pitó la conclusión, Patrick Messow, al que el acta identifica como director deportivo, entró al terreno de juego y recorrió unos 50 metros hasta donde él estaba para protestarle. La frase que le atribuye: «¡No tienes ni puta idea de lo que nos jugamos!». Después, siempre según el acta, se le quedó mirando fijamente y le preguntó en voz alta qué estaba mirando.
+
+Antes ya había dos expulsados en el banquillo:
+
+- **Minuto 82.** Juan Torrens, ayudante técnico, por abandonar el banquillo y dirigirse al árbitro a gritos. El acta añade insultos graves suyos a la terna, ya en la zona de vestuarios.
+- **Minuto 89.** Jerónimo Tegla, delegado, por acercarse al asistente con los brazos en alto y repetirle que aquello era una vergüenza.
+
+Y uno sobre el césped: el delantero Florin Andone vio la segunda amarilla en el minuto 53.
+
+## La versión del club
+
+En el Atlético Baleares hablan de indefensión. El club discute la segunda amarilla de Andone, en la que no ve nada punible, y recuerda que el acta goza de presunción de veracidad: lo que escribe el árbitro vale mientras no se pruebe lo contrario. El entrenador, Óscar Troya, habló tras el partido de una diferencia de criterios y de un arbitraje que les condicionó en jugadas clave, entre ellas el segundo gol visitante.
+
+## En mayo el problema era el contrario
+
+Aquí hay una ironía que el propio Messow dejó escrita. A finales de mayo, en plena eliminatoria de ascenso contra el Jaén, el director general se quejó en [una entrevista con Última Hora](https://www.ultimahora.es/deportes/atletico-baleares/2026/05/28/2638381/patrick-messow-temporada-buena-puede-ser-excepcional.html) de que el árbitro de la ida no había reflejado en el acta los incidentes con aficionados que, según él, se vivieron allí. No esperaba respuesta de la Federación.
+
+Seis meses después, el acta sí lo cuenta todo, y lo que cuenta le señala a él. Aquel equipo acabó segundo de su grupo, empatado a puntos con el Sant Andreu, y venía de eliminar al Espanyol en la [Copa del Rey](/futbol/copa-del-rey). Este sigue en Segunda Federación y, según el diario mallorquín, vive con tensión cada partido que no gana.
+
+## Lo que viene
+
+Las sanciones las decide el juez único de la categoría, que resuelve con el acta delante. Andone tiene asegurado un partido por la doble amarilla. Para Torrens, Tegla y Messow, la redacción del árbitro es el punto de partida.
+
+No es el único directivo que estos días aparece en un acta. La del Valencia - Real Madrid recogió que [la Policía tuvo que sujetar al director deportivo valencianista](/noticias/braulio-vazquez-acta-mestalla-policia-sujetar-director-deportivo-valencia-real-madrid-competicion). Y en el fútbol modesto hay otro expediente reciente con la Federación de por medio: [el del CF Talavera y su campo](/noticias/cf-talavera-el-prado-diego-mateo-zarra-rfef-absoluta-desidia-conquense-aplazado-juez).`,
+    category: 'polemica',
+    kind: 'noticia',
+    competition: { name: 'Segunda Federación', sport: 'futbol', slug: 'segunda-federacion' },
+    sourceName: 'Última Hora',
+    sourceUrl: 'https://www.ultimahora.es/deportes/atletico-baleares/2026/11/08/2745727/arbitraje-irrita-messow-tienes-puta-idea-nos-jugamos.html',
+    sourceLang: 'es',
+    publishedAt: '2026-11-11T11:39:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'COPE Mallorca: el Atlético Baleares se crispa por el arbitraje ante La Nucía', url: 'https://www.cope.es/emisoras/illes-balears/baleares/mallorca/deportes-mallorca/noticias/atletico-baleares-crispa-arbitraje-partido-nucia-no-tienes-puta-idea-jugamos-20261109_3471156.html' },
+      { name: 'Última Hora: entrevista a Patrick Messow (28 de mayo de 2026)', url: 'https://www.ultimahora.es/deportes/atletico-baleares/2026/05/28/2638381/patrick-messow-temporada-buena-puede-ser-excepcional.html' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Baleares_-_Celta_2022_%281%29.jpg/1280px-Baleares_-_Celta_2022_%281%29.jpg',
+      alt: 'El Estadi Balear de noche durante un partido del Atlético Baleares en 2022, visto desde la grada: los banquillos en primer término y los jugadores repartidos por el césped',
+      credit: 'Joan Gené · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'vero-boquete-39-anos-como-1907-serie-b-cesc-fabregas-entrenadora-maximo-nivel-berenjenal',
+    title: 'Vero Boquete, 39 años, bajó a Segunda en Italia con un plan: «Yo me veo en el berenjenal»',
+    summary: 'Vero Boquete, 39 años, cuenta en Panenka por qué aceptó bajar a la Serie B con el Como 1907 y qué quiere ser después: entrenadora al máximo nivel, y no solo de mujeres.',
+    body: `Vero Boquete tiene 39 años, cumple 40 en abril y juega en el Como 1907, un recién ascendido a la Serie A femenina. Hace algo más de un año aceptó bajar una categoría para fichar por él. Lo ha explicado esta semana en [una entrevista con Panenka](https://www.youtube.com/watch?v=wrGMivVtMBQ), y la razón tiene poco que ver con seguir jugando.
+
+Cuando le preguntan si se ve comentando partidos o metida en la vida de entrenadora, que su interlocutor describe como un berenjenal familiar, responde sin pensarlo: «[Yo me veo en el berenjenal](https://www.youtube.com/watch?v=wrGMivVtMBQ&t=682s)».
+
+## Por qué firmó por un equipo de Segunda
+
+Boquete llegó al Como el 14 de julio de 2025, libre. El club acababa de comprar la plaza del ChievoVerona en la Serie B para saltarse dos escalones de golpe, según [la ficha del equipo](https://it.wikipedia.org/wiki/Como_1907_(femminile)). Ella admite que tuvo dudas por tener que bajar. Se le pasaron al ver, cuenta, la capacidad del club para crecer deprisa.
+
+Pero una de las razones para firmar fue otra: el acceso al primer equipo masculino, el que entrena Cesc Fàbregas. Dice que va a verlo trabajar siempre que puede cuadrarlo con sus entrenamientos. Y describe lo que ve como una ruptura total con la tradición italiana, dentro y fuera del campo, que en el país está costando aceptar y genera roces.
+
+El plan deportivo salió a la primera. Con Selena Mazzantini en el banquillo, el Como ganó la Serie B 2025-26 y subió. Boquete cuenta que ahora van terceras y que quieren acelerar el proceso, igual que hicieron los chicos, aunque se quitan presión porque hay equipos con más plantilla y más experiencia.
+
+## Entrenadora, y no solo de mujeres
+
+La parte más ambiciosa llega después. Asegura que decidió ser entrenadora al mismo tiempo que decidió ser futbolista, y que toda su carrera ha intentado entender el juego más allá de su posición. Su intención es entrenar al máximo nivel. Y aclara que cuando dice máximo nivel no habla solo de fútbol femenino, también del masculino.
+
+En la mesa de Panenka fantasean con que un día sustituya a Fàbregas en el Como. Recuerdan que sería la primera española en entrenar a un equipo masculino y que en Alemania ya ha pasado. Ella sigue la broma.
+
+## El currículum que hay detrás
+
+No es una ocurrencia de alguien sin recorrido. Los datos de [su biografía](https://en.wikipedia.org/wiki/Ver%C3%B3nica_Boquete):
+
+| Dato | Detalle |
+| --- | --- |
+| Clubes | Quince, en ocho países |
+| Champions | Primera española en ganarla, en 2015 con el Frankfurt |
+| Premios | Primera española nominada al premio FIFA a la mejor del mundo, en 2014 |
+| Selección | Capitana de España entre 2013 y 2017 |
+
+Ha jugado en España, Estados Unidos, Rusia, Suecia, Francia, Alemania, China e Italia. Pocos futbolistas, hombres o mujeres, han visto tantos vestuarios y tantos métodos distintos. Es el argumento que ella misma usa: de cada entrenador y de cada país se ha quedado con algo.
+
+En Santiago de Compostela el estadio de San Lázaro lleva su nombre. Allí juega el Compostela, [rival reciente del Atlético Astorga](/noticias/atletico-astorga-unico-castellano-grupo-1-segunda-federacion-compostela) en Segunda Federación.
+
+## Lo que le queda como jugadora
+
+De momento sigue de corto. El Como 1907 perdió en la última jornada y, según contó, su siguiente partido es un derbi peculiar contra el Como Women, el otro club femenino de la ciudad, que lleva años en la máxima categoría. La [Serie A](/futbol/serie-a) masculina ya tiene a un español rompiendo moldes en ese banquillo. Boquete ha ido allí a tomar apuntes, y no lo esconde.`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'Serie A', sport: 'futbol', slug: 'serie-a' },
+    sourceName: 'Panenka',
+    sourceUrl: 'https://www.youtube.com/watch?v=wrGMivVtMBQ',
+    sourceLang: 'es',
+    publishedAt: '2026-11-11T11:41:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Wikipedia: Verónica Boquete', url: 'https://en.wikipedia.org/wiki/Ver%C3%B3nica_Boquete' },
+      { name: 'Wikipedia (it): Como 1907 femminile', url: 'https://it.wikipedia.org/wiki/Como_1907_(femminile)' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Caroline_Seger_and_Ver%C3%B3nica_Boquete.jpg/1280px-Caroline_Seger_and_Ver%C3%B3nica_Boquete.jpg',
+      alt: 'Vero Boquete, de gris y con el dorsal 21, disputa un balón con la sueca Caroline Seger, de rojo, en un partido de la liga profesional de Estados Unidos en agosto de 2011',
+      credit: 'kkimphotos · Wikimedia Commons',
+      license: 'CC BY 2.0',
+    },
+  },
+  {
+    slug: 'carlos-sainz-miedo-copiloto-coche-dakar-padre-64-anos-abuelo-fabrica-estrella-galicia-pelas-pistas',
+    title: 'Carlos Sainz pasó miedo de copiloto en el coche del Dakar de su padre: la réplica a los 64 años',
+    summary: 'Carlos Sainz cuenta en un pódcast brasileño que salió sudando del coche del Dakar de su padre tras diez minutos de copiloto, y la historia de su abuelo y una fábrica de A Coruña.',
+    body: `Carlos Sainz conduce un Fórmula 1 a más de 300 por hora y dice que casi nadie le ha asustado nunca dentro de un coche. Su padre lo consiguió en diez minutos. El piloto de Williams lo ha contado en [el pódcast brasileño Pelas Pistas](https://www.youtube.com/watch?v=u7CxZe7asaU), grabado en São Paulo durante la semana del Gran Premio de Brasil. Conviene saber que el programa lo patrocina Estrella Galicia 0,0, que también le patrocina a él.
+
+## Diez minutos de copiloto
+
+La escena, según su relato, fue hace algo más de un año; cree recordar que en septiembre. Su padre le propuso acompañarle a una prueba con el Ford del Dakar. Ya en el camino hasta la zona de ensayos, por pistas de tierra, el hijo iba agarrado al asiento. Cuenta que vio venir una compresión enorme y que su padre la pasó a fondo, a 160 o 170 por hora, con el coche de lado en todas partes.
+
+Fueron entre diez y quince minutos. Se bajó sudando, muy estresado y, admite, asustado. Le dijo que estaba loco y le recordó que en carrera hace eso durante cuatro horas, sin saber qué hay detrás de cada duna.
+
+Carlos Sainz padre tiene 64 años. Su contestación: «[¿Te imaginas lo loco que estaba con 20 años?](https://www.youtube.com/watch?v=u7CxZe7asaU&t=696s)». La frase está traducida del inglés, el idioma en que se grabó la entrevista.
+
+## Y después, al revés
+
+La historia tiene segunda parte. Cuando el que conducía era el hijo, el padre le pedía más. Que apretara, que el coche lo aguantaba. Sainz dudó, pasó un bache a fondo y comprobó que tenía razón. A partir de ahí empezó a tirar tanto que en Ford dijeron que ya estaba bien.
+
+El piloto explica lo que le sorprendió: un Fórmula 1 apenas tiene recorrido de suspensión y aquel coche se lo tragaba todo. Dice que pocas veces ha disfrutado tanto.
+
+No es un padre cualquiera el que da esas lecciones. Sainz padre ha ganado el Dakar cuatro veces, en 2010, 2018, 2020 y 2024, según [su ficha](https://es.wikipedia.org/wiki/Carlos_Sainz). La última, con 61 años.
+
+## El abuelo y la fábrica
+
+La otra historia que cuenta es más tranquila. Cuando Estrella Galicia empezó a patrocinarle, lo comentó en una comida de domingo con la familia. Su abuelo paterno, que había sido constructor, levantó la mano: creía recordar que la fábrica de la cervecera en A Coruña la había hecho su empresa.
+
+Era verdad. La familia organizó una visita con las tres generaciones. El abuelo tenía ya unos 90 años. Sainz dice que murió hace tres y que cada vez que vuelve a A Coruña se acuerda de él. [La nota que difundió la marca](https://www.prnewswire.com/br/comunicados-para-a-imprensa/carlos-sainz-revela-susto-ao-andar-com-o-pai-em-carro-de-rali-foi-uma-das-primeiras-vezes-que-alguem-me-assustou-dentro-de-um-carro-302935500.html) sitúa el patrocinio desde 2013.
+
+## Por qué no fue piloto de rallies
+
+En el pódcast le hacen la pregunta evidente. Su respuesta: cuando él era niño, su padre ya se había retirado de los rallies y lo que salía en la tele era Fernando Alonso. Recuerda despertar a su padre a las cuatro de la mañana para ver el Gran Premio de Australia. Una visita de niño al Gran Premio de España, donde conoció a Schumacher, Alonso y Räikkönen, terminó de decidirlo.
+
+Probó un coche de rallies con 14 o 15 años, ya con el objetivo elegido. Lo recuerda como uno de los mejores días de su vida, y como una de las pocas veces que logró impresionar a un padre que, dice, siempre ha sido muy duro con él.
+
+También le atribuye su fama de piloto técnico: con 11 años, en el karting, le preguntaba qué presión llevaba en las ruedas, y si no lo sabía, le mandaba aprenderlo.
+
+## Dónde está ahora
+
+Sainz corre su segunda temporada en Williams. El Mundial de [Fórmula 1](/motor/formula-1) viene de Interlagos, donde [Lando Norris ganó bajo la lluvia](/noticias/verstappen-21-a-segundo-interlagos-norris-gana-lluvia-mercedes-constructores-alonso-sainz) y Mercedes cerró el título de constructores. Lo que queda de calendario y dónde verlo está en [la guía de la F1 y MotoGP](/noticias/donde-ver-f1-motogp-espana-2026-dazn-precios-carreras-que-quedan).`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'Fórmula 1', sport: 'motor', slug: 'formula-1' },
+    sourceName: 'Pelas Pistas Podcast',
+    sourceUrl: 'https://www.youtube.com/watch?v=u7CxZe7asaU',
+    sourceLang: 'en',
+    publishedAt: '2026-11-11T11:43:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'F1Mania: Sainz revela susto ao andar com o pai em carro do Dakar', url: 'https://www.f1mania.net/f1/f1-sainz-revela-susto-ao-andar-com-o-pai-em-carro-do-dakar/' },
+      { name: 'PR Newswire: nota de Estrella Galicia sobre la entrevista', url: 'https://www.prnewswire.com/br/comunicados-para-a-imprensa/carlos-sainz-revela-susto-ao-andar-com-o-pai-em-carro-de-rali-foi-uma-das-primeiras-vezes-que-alguem-me-assustou-dentro-de-um-carro-302935500.html' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Carlos_Sainz_Jr._at_the_Melbourne_Walk_during_the_2026_Australian_Grand_Prix_%28028A8567%29.jpg/1280px-Carlos_Sainz_Jr._at_the_Melbourne_Walk_during_the_2026_Australian_Grand_Prix_%28028A8567%29.jpg',
+      alt: 'Carlos Sainz, con gorra y chaqueta azul marino de Williams, sonríe mientras avanza entre aficionados que le graban con el móvil en el Gran Premio de Australia de 2026',
+      credit: 'Yu Chu Chin · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'hermanos-pou-cambian-de-marca-20-anos-antartida-bajamos-por-los-pelos-bonus-track-ranrapalca',
+    title: 'Los hermanos Pou cambian de marca tras 20 años y evocan la Antártida: «Bajamos por los pelos»',
+    summary: 'Iker y Eneko Pou explican por qué dejaron a su patrocinador de 20 años, cómo abrieron en Perú la vía más dura de su carrera y el día que casi no bajan de una pared antártica.',
+    body: `Iker y Eneko Pou llevan casi 30 años de carrera en la montaña, y veinte de ellos con el mismo patrocinador. Este año lo han cambiado. Los dos hermanos de Vitoria lo explican en [una entrevista con Runnea](https://www.youtube.com/watch?v=cIqgovamL5c) publicada el martes, en la que también repasan la expedición de este verano a Perú y los momentos en que han estado más cerca de no volver.
+
+## El vértigo de cambiar
+
+Reconocen que da un poco de vértigo. Después de dos décadas con la misma marca, cuentan que daban esa etapa por terminada y necesitaban estímulos nuevos. Querían, sobre todo, participar: opinar sobre el producto, aportar su experiencia al desarrollo, ver que su trabajo servía para algo más que para la foto.
+
+El cambio es oficial desde el 1 de marzo, cuando pasaron a vestir por completo de La Sportiva, la casa italiana con la que ya colaboraban en calzado, según [la nota que recogió 4Actionsport](https://en.4actionsport.it/iker-and-eneko-pou-switch-to-the-total-la-sportiva-look/). En la entrevista hablan también de Ferrino, otra firma italiana.
+
+Dan un ejemplo de lo que buscaban. Este verano, mientras atacaban una montaña de 6.000 metros en Perú, les entró cobertura en el móvil. Era uno de los dueños de la marca, que quería saber si les estaban gustando los detalles de la bota nueva.
+
+## La vía más dura, casi sin buscarla
+
+La gran actividad de ese viaje fue el Ranrapalca, de 6.162 metros, en la Cordillera Blanca. Allí abrieron junto al peruano Micher Quito una vía de 1.060 metros que han llamado Bonus Track. Los datos, según [la crónica de Lacrux](https://www.lacrux.com/es/?p=68506):
+
+| Dato | Bonus Track |
+| --- | --- |
+| Montaña | Ranrapalca (6.162 m), Perú |
+| Longitud | 1.060 metros |
+| Dificultad | WI7 / M6 / 6c |
+| Duración | Cinco días, en estilo alpino |
+| Cordada | Eneko Pou, Iker Pou y Micher Quito |
+
+Es la vía alpina más difícil que han hecho. Y dicen que no la iban buscando: tenían la línea vista desde hace tiempo, pero no esperaban encontrarse algo así. Estuvieron a punto de bajarse varias veces. Arriba les esperaba una niebla que no dejaba ver a metro y medio, en una cima sin trazas de GPS que seguir.
+
+El nombre tiene dos explicaciones. Es el de un pub de Huaraz donde los alpinistas celebran las ascensiones. Y es la canción de regalo de los discos: para ellos, la vía fue eso.
+
+## El día de la Antártida
+
+Les preguntan por el momento en que más cerca han estado de quedarse. Hay varios, admiten, en la Patagonia y en otros sitios. Pero eligen la Antártida, al final de su proyecto de siete paredes en siete continentes: «[Bajamos por los pelos](https://www.youtube.com/watch?v=cIqgovamL5c&t=1255s)».
+
+La roca estaba muy fragmentada y tuvieron que montar ellos mismos los rápeles, de fortuna, colgados a 700 metros sobre el mar. Lo cuentan sin épica. Insisten en que tienen fama de ser gente segura, y en que no llevarían tres décadas arriba si no lo fueran.
+
+## Lo que les dicen a los que corren
+
+La entrevista es para un medio de corredores y el consejo final va para ellos. Los Pou corrían por el monte antes de que aquello se llamara trail. Reconocen que quien llega del deporte aeróbico tiene una capacidad física muy por encima de la del montañero medio. Lo que le falta es lo otro: saber qué hacer cuando cambia el tiempo o cuando se mete en una situación por la que no ha pasado antes.
+
+Piden ir escalón a escalón. Este mes, dos carreras populares han sido noticia por lo que salió mal, de los [853 corredores sin clasificación de la Behobia](/noticias/behobia-san-sebastian-853-corredores-medalla-sin-clasificacion-cajon-salida-2026) a los [30 atendidos en la media maratón de Santa Bárbara](/noticias/media-maraton-santa-barbara-30-corredores-atendidos-calor-policia-investiga-avituallamiento). En el monte, avisan, es muy fácil liarla.`,
+    category: 'curiosa',
+    kind: 'noticia',
+    competition: { name: 'Alpinismo', sport: 'alpinismo', slug: 'alpinismo' },
+    sourceName: 'Runnea',
+    sourceUrl: 'https://www.youtube.com/watch?v=cIqgovamL5c',
+    sourceLang: 'es',
+    publishedAt: '2026-11-11T11:45:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Lacrux: los hermanos Pou y Micher Quito abren Bonus Track en Perú', url: 'https://www.lacrux.com/es/?p=68506' },
+      { name: '4Actionsport: Iker and Eneko Pou switch to the total La Sportiva look', url: 'https://en.4actionsport.it/iker-and-eneko-pou-switch-to-the-total-la-sportiva-look/' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Hermanos_Pou_en_la_Cima_del_Urus.jpg/1280px-Hermanos_Pou_en_la_Cima_del_Urus.jpg',
+      alt: 'Dos alpinistas diminutos, vestidos de rojo, saludan con los brazos en alto desde la cima nevada del Urus, en la Cordillera Blanca de Perú, sobre un gran espolón de roca',
+      credit: 'NanuZombie · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
     slug: 'chequia-espana-horario-donde-ver-nations-league-praga-letna-sin-lamine-yamal-oyarzabal',
     title: 'Chequia - España: horario y dónde ver el jueves en Praga, sin Lamine Yamal ni Oyarzabal',
     summary: 'Chequia - España se juega el jueves 12 de noviembre a las 20:45 en Letná y se ve en La 1 y RTVE Play. La selección llega sin Lamine Yamal ni Oyarzabal y con cuartos ya asegurados.',
