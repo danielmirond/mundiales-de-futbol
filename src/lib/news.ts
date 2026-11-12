@@ -154,6 +154,277 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'roger-federer-45-anos-joao-fonseca-pacaembu-gratis-5-diciembre-una-semana-antes-alcaraz-sao-paulo',
+    title: 'Roger Federer vuelve a jugar a los 45 años: gratis, en São Paulo y una semana antes que Alcaraz',
+    summary: 'Federer se medirá a João Fonseca el 5 de diciembre en el gimnasio del Pacaembu, con entradas gratuitas desde el día 23. Siete días después, el brasileño recibe a Alcaraz en la misma ciudad.',
+    body: `Roger Federer tiene fecha para volver a una pista con público: el sábado 5 de diciembre, en São Paulo, frente a João Fonseca. La marca suiza On, que organiza la noche, [lo confirmó este miércoles](https://www.uol.com.br/esporte/ultimas-noticias/2026/11/11/fonseca-federer-evento-em-sao-paulo-o-que-se-sabe.ghtm) con tres datos que no suelen ir juntos en una exhibición de este tamaño: será en un gimnasio, no en un estadio; las entradas serán gratuitas, y el formato no será el de un partido al uso.
+
+Federer cumplió 45 años en agosto y está retirado desde 2022. En España la cita interesa por lo que viene detrás: siete días después, el 12 de diciembre, Fonseca juega otra exhibición en la misma ciudad contra Carlos Alcaraz.
+
+## Los datos de la noche
+
+| | |
+| --- | --- |
+| Fecha | Sábado 5 de diciembre de 2026 |
+| Lugar | Gimnasio polideportivo del complejo del Pacaembu, São Paulo |
+| Apertura de puertas | 18:00 hora local |
+| Comienzo | 20:00 hora local (medianoche en la España peninsular; 23:00 en Canarias) |
+| Entradas | Gratuitas y limitadas, desde el 23 de noviembre en la plataforma de eventos de On |
+| Formato | «Dinámica alternativa»; las reglas no se han publicado |
+
+La hora española es un cálculo propio a partir del horario de Brasilia, tres horas por detrás del UTC. Ningún canal ha anunciado la emisión en España.
+
+## Un gimnasio de 1940 para 2.500 personas
+
+El detalle que cambia la escala es el recinto. El gimnasio del Pacaembu se inauguró el 27 de abril de 1940 y tiene sitio para unos 2.500 espectadores, [según recoge TenisBrasil](https://tenisbrasil.uol.com.br/duelo-entre-fonseca-em-federer-acontecera-em-sao-paulo-e-ja-tem-local-definido.html) con datos de la Secretaría Municipal de Deportes. El cruce con Alcaraz, en cambio, está programado en el Nubank Parque, el estadio del Palmeiras.
+
+La velada se llama On Clubhouse Nights y es la primera edición en Brasil de un formato que la marca ya llevó a Nueva York, Miami y París, con música además de tenis. Federer es accionista de On y Fonseca viste la marca desde 2023.
+
+## Catorce años sin pisar Brasil
+
+El suizo no juega en Brasil desde diciembre de 2012. Aquella gira también fue de exhibición: perdió con Thomaz Bellucci en tres sets y ganó a Tommy Haas y a Jo-Wilfried Tsonga, [recuerda el Diário do Grande ABC](https://www.dgabc.com.br/Noticia/4365760/federer-vira-ao-brasil-apos-14-anos-para-evento-com-joao-fonseca-em-sao-paulo). La vuelta se anunció el 29 de octubre con un vídeo en el que Fonseca le preguntaba por teléfono si era verdad que iba, y Federer contestaba que el secreto ya estaba desvelado.
+
+Fonseca tiene 20 años. Ya se ha medido a Novak Djokovic, a Jannik Sinner y a Alcaraz; le faltaba el que se retiró cuando él tenía 16.
+
+## Lo que le toca a Alcaraz
+
+El murciano cierra el año en las ATP Finals de Turín, a las que llega después de [ganar por primera vez en París](/noticias/carlos-alcaraz-23-anos-campeon-paris-primera-vez-shelton-dos-masters-1000-que-le-faltan-canada-shanghai-turin-jodar). Su rival en aquella final, Ben Shelton, aparece también en esta historia por la ropa: es uno de los tenistas de On, pero dejará la marca al acabar 2026 para vestir New Balance, según la misma información de UOL.
+
+El calendario del circuito y los resultados de los españoles están en la [sección de tenis](/tenis/atp).`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'ATP', sport: 'tenis', slug: 'atp' },
+    sourceName: 'UOL Esporte',
+    sourceUrl: 'https://www.uol.com.br/esporte/ultimas-noticias/2026/11/11/fonseca-federer-evento-em-sao-paulo-o-que-se-sabe.ghtm',
+    sourceLang: 'pt',
+    publishedAt: '2026-11-12T10:57:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'TenisBrasil: el duelo entre Fonseca y Federer ya tiene sede', url: 'https://tenisbrasil.uol.com.br/duelo-entre-fonseca-em-federer-acontecera-em-sao-paulo-e-ja-tem-local-definido.html' },
+      { name: 'Diário do Grande ABC: Federer vuelve a Brasil 14 años después', url: 'https://www.dgabc.com.br/Noticia/4365760/federer-vira-ao-brasil-apos-14-anos-para-evento-com-joao-fonseca-em-sao-paulo' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Roger_Federer_2012_Indian_Wells.jpg/1280px-Roger_Federer_2012_Indian_Wells.jpg',
+      alt: 'Roger Federer, con polo azul y cinta en el pelo, prepara un revés a una mano en Indian Wells en 2012',
+      credit: 'Mike McCune · Wikimedia Commons',
+      license: 'CC BY 2.0',
+    },
+  },
+  {
+    slug: 'marc-crosas-generacion-messi-barca-nunca-me-senti-futbolista-primer-equipo-mexico-retirada-29-anos',
+    title: 'Marc Crosas, de la generación de Messi en el Barça: «Nunca me sentí futbolista del primer equipo»',
+    summary: 'El excanterano del Barça, hoy comentarista en México, cuenta que entrenó año y medio con Ronaldinho, Xavi y Messi sin sentirse uno más, y cómo una rodilla rota lo sacó del fútbol a los 29.',
+    body: `Marc Crosas entrenó casi año y medio con el Barça de Ronaldinho, Xavi, Iniesta y un Messi de su misma generación. Debutó en la Copa y en la Champions. Y dice que aquello nunca fue suyo: «[Nunca me sentí futbolista del primer equipo del Barça](https://www.youtube.com/watch?v=_fxn7XKbm74&t=385s)». Se veía, explica, como un chaval del filial con la suerte de entrenar, viajar y convivir con ellos.
+
+Lo cuenta en el pódcast mexicano Sabor a Fútbol, publicado el 9 de noviembre. Tiene 38 años, vive en Ciudad de México y allí es una cara conocida de la televisión deportiva. En España su nombre se quedó en 2008.
+
+## Dieciocho años y un vestuario de ídolos
+
+La razón que da es sencilla. Tenía 18 años y al entrar al vestuario se encontraba con Puyol, Víctor Valdés, Rafa Márquez, Deco o Eto'o, además de los ya citados. Eran sus compañeros, pero seguían siendo sus ídolos, y admite que nunca dio el paso de dejar de mirarlos así.
+
+Los datos de aquella etapa caben en tres líneas. Entró en La Masia a los 13 años y llegó al filial en 2006. Se estrenó con el primer equipo el 8 de diciembre de 2006, en Copa del Rey, al sustituir a Iniesta en el minuto 76, y jugó en la Liga de Campeones el 12 de diciembre de 2007 contra el Stuttgart en el Camp Nou, [según su ficha](https://es.wikipedia.org/wiki/Marc_Crosas). Un mes después salió cedido al Lyon. Ya no volvió: en agosto de 2008 el [Barcelona](/futbol/laliga/equipo/83) lo traspasó al Celtic por medio millón de euros más variables.
+
+## La condición de su madre
+
+Crosas nació en Sant Feliu de Guíxols y jugaba en el equipo de su pueblo cuando lo llamó el Barça. En casa eran culés y no hubo debate, pero su madre puso una cláusula: los estudios no se dejaban, y a la primera nota que bajara se volvía a casa, con Masia o sin ella. Él sostiene que esa exigencia lo formó tanto como el fútbol.
+
+Fue campeón de Europa sub-19 con España en 2007. Con la absoluta no llegó a debutar.
+
+## Siete partidos en Cruz Azul
+
+Después del Celtic pasó por el Volga ruso y en enero de 2012 firmó por el Santos Laguna mexicano. Jugó también en Leones Negros y en 2015 llegó a Cruz Azul. Ahí se acabó casi todo: relata que a los siete partidos se rompió la rodilla y prácticamente no volvió a jugar. Al año siguiente, dice, ningún club mexicano lo quiso.
+
+Tenía ofertas de Australia, Turquía e Israel. También se estaba separando y no quería alejarse de sus hijos. Entonces apareció la televisión, con una propuesta de Univisión para trabajar en Miami, y la describe como un salvavidas. Se retiró en 2017, a los 29 años, tras un último torneo con el Tampico Madero, y una semana después ya estaba comentando un Chivas - León. Asegura que nunca ha echado de menos jugar.
+
+## Mexicano, y catalán en casa
+
+Lleva, dice, 15 años en México; sus hijos nacieron allí y se define como mexicano, sin matices, aunque con su familia sigue hablando catalán. Este verano cubrió el [Mundial de 2026](/2026) desde Nueva York para Televisa y el primer partido que vio como aficionado fue el último: la final del 19 de julio, España contra Argentina. A un lado, el compañero con el que se crio; al otro, el fútbol que aprendió en La Masia. Dice que ese día ganaba pasara lo que pasara.`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'LaLiga', sport: 'futbol', slug: 'laliga' },
+    sourceName: 'Sabor a Fútbol (pódcast de Daniella Durán)',
+    sourceUrl: 'https://www.youtube.com/watch?v=_fxn7XKbm74',
+    sourceLang: 'es',
+    publishedAt: '2026-11-12T10:59:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Wikipedia: Marc Crosas, trayectoria y fechas', url: 'https://es.wikipedia.org/wiki/Marc_Crosas' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Mini_Estadi_FCB.jpg/1280px-Mini_Estadi_FCB.jpg',
+      alt: 'Partido en el Mini Estadi de Barcelona visto desde la grada, con jugadores de azulgrana y de blanco sobre el césped',
+      credit: 'Romancompan2 · Wikimedia Commons',
+      license: 'Dominio público',
+    },
+  },
+  {
+    slug: 'constante-ivars-calpe-20-anos-equipo-de-su-pueblo-dijo-no-torrelavega-camiseta-colgada-esteban-batista-nba',
+    title: 'Constante Ivars dijo no a irse de Calpe y jugó 20 años en su pueblo: su camiseta cuelga del pabellón',
+    summary: 'El excapitán del baloncesto de Calpe rechazó una oferta de Torrelavega a mediados de los noventa, vio a un compañero saltar a la NBA en un verano y acabó de presidente del club.',
+    body: `En el pabellón de Calpe cuelga una camiseta con el número 7. Los niños que entrenan debajo no siempre saben de quién es. Es de Constante Ivars, que jugó unos veinte años en el equipo de su pueblo, tuvo una oferta para marcharse y la rechazó. «[No me arrepiento de no haber salido](https://www.youtube.com/watch?v=d0CSK64PTuo&t=1137s)», dice ahora en el pódcast Detrás de la Cancha, publicado el 11 de noviembre.
+
+Su historia es la de un baloncesto que casi ha desaparecido: el de los pueblos que competían en categorías nacionales con un único jugador de casa en la plantilla.
+
+## El único de Calpe
+
+Ivars empezó en el fútbol y se pasó al baloncesto a los 14 años, detrás de su hermano mayor. El deporte le venía de familia: su padre, Constante Ivars Such, fue fundador y presidente del club, y murió en diciembre de 2020 a los 76 años, [según la federación valenciana](https://www.fbcv.es/noticias/fallece-constante-ivars-such-13-12-20/).
+
+Subió al primer equipo como el chaval que se quedaba en la banda por si faltaba alguien. Cuenta que a partir de su tercer o cuarto año ya no quedaba nadie más del pueblo: era él y ocho o diez fichados de fuera, distintos cada temporada. Lo que recuerda de los viajes a San Sebastián o A Coruña es mirar la camiseta y leer el nombre de Calpe.
+
+## La llamada de Torrelavega
+
+La oferta llegó a mediados de los noventa, después de una fase de ascenso contra equipos de Bilbao, Gijón y Torrelavega. Un representante le propuso irse al club cántabro. Dijo que no. Estaba a dos años de casarse y, según explica, lo que tenía en su equipo, con su gente, colmaba sus aspiraciones.
+
+No era un baloncesto de ricos, pero se vivía de él. Ivars calcula que un jugador que destacaba en la LEB-2 cobraba unos 2.000 euros, y además le ponían piso y coche. Los extranjeros se fichaban a ciegas: llamadas a representantes, cintas de VHS y universitarios estadounidenses que nunca habían jugado en Europa.
+
+## Un compañero en la NBA en un verano
+
+El caso que más le sorprendió fue el del uruguayo Esteban Batista. Jugó ocho partidos con el Aguas de Calpe en 2005, con 10,6 puntos y 5,5 rebotes de media, y el 12 de septiembre de ese año firmó por los Atlanta Hawks. Debutó el 2 de noviembre y fue [el primer uruguayo en la NBA](https://es.wikipedia.org/wiki/Esteban_Batista). Ivars lo resume con la pregunta que se hizo todo el vestuario: cómo era posible.
+
+Visto desde un pabellón de la Marina Alta, el salto a la [NBA](/baloncesto/nba) parecía cosa de otro deporte.
+
+## Del parqué al despacho
+
+Tras retirarse fue presidente siete años. Dice que cogió el club en categoría autonómica y lo dejó en Liga EBA. En 2017, ya en el cargo, [explicaba a la federación](https://www.fbcv.es/noticias/constante-ivars-17-02-07/) que la plantilla que iba a jugar la Copa en casa estaba formada entera por jugadores de Calpe, justo lo contrario de lo que él había vivido.
+
+El día del homenaje se juntaron cerca de treinta excompañeros llegados de toda España. Cuando izaron la camiseta al techo, cuenta, lloró, con sus dos hijos al lado vestidos con la misma camiseta. Los dos juegan al baloncesto en el club. La actualidad de la élite española está en la [sección de la Liga Endesa](/baloncesto/liga-endesa).`,
+    category: 'curiosa',
+    kind: 'noticia',
+    competition: { name: 'Baloncesto', sport: 'baloncesto', slug: 'liga-endesa' },
+    sourceName: 'Detrás de la Cancha Podcast',
+    sourceUrl: 'https://www.youtube.com/watch?v=d0CSK64PTuo',
+    sourceLang: 'es',
+    publishedAt: '2026-11-12T11:01:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'FBCV: fallece Constante Ivars Such, fundador del CB Calpe', url: 'https://www.fbcv.es/noticias/fallece-constante-ivars-such-13-12-20/' },
+      { name: 'FBCV: entrevista a Constante Ivars como presidente (2017)', url: 'https://www.fbcv.es/noticias/constante-ivars-17-02-07/' },
+      { name: 'Wikipedia: Esteban Batista', url: 'https://es.wikipedia.org/wiki/Esteban_Batista' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Playa_El_Fosa_de_Calpe.jpg/1280px-Playa_El_Fosa_de_Calpe.jpg',
+      alt: 'Vista aérea de Calpe desde el Peñón de Ifach: la playa de la Fossa, los edificios de la primera línea y las urbanizaciones al fondo',
+      credit: 'Rodriguillo · Wikimedia Commons',
+      license: 'CC BY-SA 3.0',
+    },
+  },
+  {
+    slug: 'raul-debut-banquillo-real-oviedo-girona-horario-donde-ver-sabado-14-noviembre-tartiere-21-puntos',
+    title: 'Raúl debuta en el banquillo del Oviedo ante el Girona: horario, canal y dos equipos con 21 puntos',
+    summary: 'Raúl dirige su primer partido con el Real Oviedo el sábado 14 a las 21:00 en el Tartiere, por DAZN y LALIGA TV Hypermotion. Llega sin su capitán, Dani Calvo, que pasará por el quirófano.',
+    body: `Raúl González se sienta por primera vez en el banquillo del Real Oviedo el sábado 14 de noviembre a las 21:00, en el Carlos Tartiere, contra el Girona. En Canarias, a las 20:00. El partido, de la jornada 14 de LaLiga Hypermotion, se ve por LALIGA TV Hypermotion, DAZN y Orange, [según la ficha del encuentro](/futbol/laliga-2/partido/401883115).
+
+Es el único partido de la jornada entre dos equipos con los mismos puntos: 21 cada uno, con idéntico balance de victorias, empates y derrotas.
+
+| | Girona (8.º) | Real Oviedo (9.º) |
+| --- | --- | --- |
+| Puntos | 21 | 21 |
+| Balance | 6 victorias, 3 empates, 4 derrotas | 6 victorias, 3 empates, 4 derrotas |
+| Goles a favor | 22 | 19 |
+| Goles en contra | 12 | 16 |
+
+El Mallorca, sexto y último en puestos de playoff, tiene 22. El líder, el Almería, 29. Los datos son de la [clasificación](/futbol/laliga-2/clasificacion) tras 13 jornadas.
+
+## Lo que dijo en su presentación
+
+El club lo presentó el martes 10 al mediodía en la sala de prensa del estadio, junto al director deportivo, David Fernández. Raúl no se escondió con la meta: «[El objetivo no tiene que ser otro, estando en el Real Oviedo, que estar en Primera División](https://www.realoviedo.es/noticias/presentacion-oficial-de-raul-gonzalez)». Habló de una plantilla con equilibrio entre veteranos y jóvenes y de un equipo con identidad, que transmita a la grada y busque el gol.
+
+Fernández añadió que al club le gustaría tenerlo muchos años. El contrato firmado llega hasta junio de 2028.
+
+## Tres ayudantes y cuatro entrenamientos
+
+Raúl dirigió su primera sesión ese mismo martes en el campo número 4 de El Requexón. Tendrá cuatro entrenamientos en total antes del estreno. El club también ha confirmado quién le acompaña: Raúl Valbuena y Marcos Jiménez como asistentes y Fabio Nevado como preparador físico.
+
+## Sin el capitán
+
+La primera baja ya la conoce. Dani Calvo, capitán del equipo, se retiró lesionado en la victoria en Cádiz y las pruebas han confirmado una afectación del complejo posteromedial de la rodilla izquierda. [Será operado en los próximos días](https://www.realoviedo.es/noticias/alcance-de-la-lesion-de-dani-calvo), según el parte del club, que no da plazo de vuelta.
+
+## El resto del sábado en Segunda
+
+| Hora | Partido |
+| --- | --- |
+| 14:00 | Real Valladolid - Castellón |
+| 16:15 | Real Sociedad B - Sporting de Gijón |
+| 18:30 | Almería - Andorra |
+| 18:30 | Mallorca - Córdoba |
+| 21:00 | Real Oviedo - Girona |
+
+Los horarios son los del [calendario de ESPN](https://www.espn.com/soccer/match/_/gameId/401883115), pasados a hora peninsular. Cómo llegó Raúl al cargo, dos días después de que Julián Calero ganara en Cádiz, está contado en [la pieza de su fichaje](/noticias/raul-49-anos-real-oviedo-un-punto-playoff-calero-destituido-dos-dias-despues-ganar-cadiz-castilla-quinto-entrenador), y la [ficha del Oviedo](/futbol/laliga-2/equipo/92) recoge plantilla y resultados.
+
+Para quien no tenga claro con qué abono se ve la categoría, está la guía de [dónde ver LaLiga Hypermotion](/noticias/donde-ver-laliga-hypermotion-2026-27-dazn-movistar-precios-autonomicas) y la general con [qué plataforma emite cada competición y cuánto cuesta](/noticias/donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1).`,
+    category: 'tv',
+    kind: 'noticia',
+    competition: { name: 'LaLiga Hypermotion', sport: 'futbol', slug: 'laliga-2' },
+    sourceName: 'Real Oviedo',
+    sourceUrl: 'https://www.realoviedo.es/noticias/presentacion-oficial-de-raul-gonzalez',
+    sourceLang: 'es',
+    publishedAt: '2026-11-12T11:03:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Real Oviedo: segunda sesión con la mente puesta en el Girona', url: 'https://www.realoviedo.es/noticias/segunda-sesion-de-la-semana-con-la-mente-puesta-en-el-girona-fc' },
+      { name: 'Real Oviedo: alcance de la lesión de Dani Calvo', url: 'https://www.realoviedo.es/noticias/alcance-de-la-lesion-de-dani-calvo' },
+      { name: 'Real Oviedo: el cuerpo técnico de Raúl González', url: 'https://www.realoviedo.es/noticias/raul-valbuena-marcos-jimenez-y-fabio-nevado-acompanaran-a-raul-gonzalez-en-el-banquillo-azul' },
+      { name: 'ESPN: Real Oviedo - Girona, ficha del partido', url: 'https://www.espn.com/soccer/match/_/gameId/401883115' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/22._Estadio_Carlos_Tartiere_%2836104132936%29.jpg/1280px-22._Estadio_Carlos_Tartiere_%2836104132936%29.jpg',
+      alt: 'El estadio Carlos Tartiere de Oviedo visto desde unas escaleras exteriores, con la cubierta azul y el monte Naranco al fondo',
+      credit: 'vicenmiranda · Wikimedia Commons',
+      license: 'CC BY 2.0',
+    },
+  },
+  {
+    slug: 'pello-ruiz-cabestany-seis-dias-madrid-1986-lider-tienes-que-pagar-pijnen-hermann-liechtenstein',
+    title: 'Pello Ruiz Cabestany iba líder en los Seis Días de Madrid de 1986 hasta que oyó «tienes que pagar»',
+    summary: 'El exciclista donostiarra, de 64 años, cuenta que la última noche de los Seis Días de Madrid le exigieron repartir su fijo para ganar. El palmarés dice que acabó segundo.',
+    body: `La última noche de los Seis Días de Madrid, con la carrera en el bolsillo, a Pello Ruiz Cabestany lo llamaron a una reunión. Iba líder junto al holandés René Pijnen. En la habitación, sentados en sillas, estaban los demás corredores. Le preguntaron si quería ganar. Contestó que para eso había ido. La respuesta, según su relato: «[Pues tienes que pagar](https://www.youtube.com/watch?v=QV2tDR1s96o&t=721s)».
+
+Lo cuenta él mismo, a los 64 años, en una conversación publicada el 9 de noviembre en el canal Historias que dejan huella. La anécdota forma parte de su autobiografía, Mi bicicleta y otros animales, que salió este año.
+
+## El fijo, a repartir
+
+Lo que le pedían, explica, era el dinero fijo que cobraba por participar: tenía que entregarlo para que se lo repartieran los otros. Miró a su compañero, quince años mayor que él, buscando una explicación. Lo que oyó en aquella habitación, cuenta, fue que los Seis Días de Madrid no los iba a ganar.
+
+Ruiz Cabestany relata lo que vino después en la pista: cuando tocaba atacar, su pareja se quedaba. Los periodistas, añade, ya tenían escrita la crónica del triunfo y tuvieron que rehacerla. Ganaron, en sus palabras, dos corredores de Liechtenstein a los que no conocían ni en su casa.
+
+## Qué dice el palmarés
+
+El resultado oficial encaja con el relato. La segunda edición de 1986 de los Seis Días de Madrid la ganaron Roman Hermann y Sigmund Hermann, de Liechtenstein, y la pareja Pijnen - Ruiz Cabestany fue segunda, [según el palmarés de la prueba](https://en.wikipedia.org/wiki/Six_Days_of_Madrid). Fue la última vez que se corrió: catorce ediciones entre 1960 y 1986, en el Palacio de los Deportes.
+
+La versión es la del ciclista español. Pijnen no interviene en la conversación. El holandés, campeón olímpico en 1968, es uno de los grandes nombres de la especialidad: ganó 72 carreras de seis días de las 233 que disputó.
+
+## Dormir en una caravana
+
+El donostiarra aprovecha para explicar un mundo que en España ya no existe. Las carreras de seis días nacieron como pruebas individuales sin descanso y acabaron por parejas, con sesiones nocturnas. En su época se competía, más o menos, de ocho de la tarde a dos de la madrugada, pero los corredores seguían obligados a no salir del recinto. En París había habitaciones bajo el velódromo. En Madrid, dice, dormían en caravanas.
+
+Él mismo se pregunta por qué desapareció la prueba madrileña y se responde: quizá por cosas así.
+
+## Quién es Ruiz Cabestany
+
+Tenía veintipocos años aquella noche, según recuerda, y llegaba de la pista: había sido campeón de España de persecución en 1980 y 1982. En carretera fue profesional de 1984 a 1994, sumó 23 victorias y acabó cuarto la Vuelta a España en 1985 y en 1990, [según su ficha](https://es.wikipedia.org/wiki/Peio_Ruiz_Cabestany). Corrió en Orbea, Kas, ONCE, CLAS, Gatorade y Euskadi.
+
+En la misma charla habla de un veto periodístico que sufrió por no correr una prueba vasca y de lo que quiso retratar con ello: el abuso de poder. Otra confesión reciente de un ciclista español, la de [Enric Mas sobre el miedo que pasó vestido de rojo](/noticias/enric-mas-miedo-maillot-rojo-vuelta-2026-psicologo-pogacar-bartolo-vatios-gcn), y una historia de su misma época, la de la [Vuelta de septiembre que Induráin no terminó](/noticias/indurain-ocho-vueltas-espana-unica-septiembre-abandono-lagos-covadonga), siguen en la hemeroteca del sitio.`,
+    category: 'historica',
+    kind: 'noticia',
+    competition: { name: 'Ciclismo', sport: 'ciclismo', slug: 'ciclismo' },
+    sourceName: 'Historias que dejan huella (YouTube)',
+    sourceUrl: 'https://www.youtube.com/watch?v=QV2tDR1s96o',
+    sourceLang: 'es',
+    publishedAt: '2026-11-12T11:05:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Wikipedia: Six Days of Madrid, palmarés', url: 'https://en.wikipedia.org/wiki/Six_Days_of_Madrid' },
+      { name: 'Wikipedia: Peio Ruiz Cabestany', url: 'https://es.wikipedia.org/wiki/Peio_Ruiz_Cabestany' },
+      { name: 'Wikipedia: René Pijnen', url: 'https://en.wikipedia.org/wiki/Ren%C3%A9_Pijnen' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Zesdaagse_in_Rotterdam_%28wielrennen%29_overzicht_Danny_Clarke_en_Ren%C3%A9_Pijnen_in_A%2C_Bestanddeelnr_929-5473.jpg/1280px-Zesdaagse_in_Rotterdam_%28wielrennen%29_overzicht_Danny_Clarke_en_Ren%C3%A9_Pijnen_in_A%2C_Bestanddeelnr_929-5473.jpg',
+      alt: 'Fotografía en blanco y negro de un grupo de ciclistas rodando por la pista durante los Seis Días de Róterdam de 1978, con las gradas llenas',
+      credit: 'Hans Peters (Anefo) · Wikimedia Commons',
+      license: 'CC0',
+    },
+  },
+  {
     slug: 'sevilla-camara-arbitro-apelacion-no-la-mira-amarilla-felix-correia-agoume-huijsen-oviedo-si-gana',
     title: 'Sevilla llevó la cámara del árbitro a Apelación y no se la miraron: la amarilla de Félix sigue',
     summary: 'Apelación desestima el recurso del Sevilla por la amarilla de Félix Correia en el Bernabéu y ni valora la cámara arbitral, aportada tarde. El mismo día, el Oviedo sí gana el suyo.',
