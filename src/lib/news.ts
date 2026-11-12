@@ -154,6 +154,119 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'sevilla-camara-arbitro-apelacion-no-la-mira-amarilla-felix-correia-agoume-huijsen-oviedo-si-gana',
+    title: 'Sevilla llevó la cámara del árbitro a Apelación y no se la miraron: la amarilla de Félix sigue',
+    summary: 'Apelación desestima el recurso del Sevilla por la amarilla de Félix Correia en el Bernabéu y ni valora la cámara arbitral, aportada tarde. El mismo día, el Oviedo sí gana el suyo.',
+    body: `El Sevilla ha perdido también en segunda instancia la pelea por la tarjeta amarilla de Félix Correia en el Santiago Bernabéu. El Comité de Apelación de la RFEF [desestimó el recurso el martes 10 de noviembre](https://rfef.es/sites/default/files/sanciones/Comite_de_Apelacion_20261110.pdf) y, antes de entrar en el fondo, dejó fuera la prueba que el club presentaba como definitiva: la grabación de la cámara que llevaba el árbitro, difundida por DAZN.
+
+No la miró. El motivo no fue lo que se ve en ella, sino cuándo llegó.
+
+## Qué pasó en el minuto 23
+
+El 18 de octubre, en la novena jornada, el [Real Madrid ganó 4-1 al Sevilla](/futbol/laliga/partido/401882839). En el minuto 23, con Peque Fernández en el suelo, hubo un tumulto y el árbitro mostró dos amarillas casi a la vez: a Félix Correia y a Dean Huijsen, [según el registro del partido en ESPN](https://www.espn.com/soccer/match/_/gameId/401882839). El acta dice que Félix, dorsal 20, fue amonestado «por discutir con un adversario sin llegar a insultos ni a la amenaza».
+
+El Sevilla sostiene que el árbitro se equivocó de jugador. Según su versión, quien se encaró con Huijsen fue Lucien Agoumé, el dorsal 6, no Félix.
+
+## Dos comités, el mismo no
+
+El club presentó alegaciones en plazo con dos vídeos. El [Comité de Disciplina las rechazó el 21 de octubre](https://rfef.es/sites/default/files/sanciones/Primera_Division_J9.pdf): computó la amarilla como la segunda del ciclo de Félix y multó al club con 180 euros.
+
+En la apelación, el Sevilla añadió un tercer vídeo, el de la cámara arbitral, y pidió que, si hacía falta, el comité comprobara con DAZN y LaLiga su autenticidad y cuándo estuvo disponible. Apelación responde que esa carga es del club: no explicó cuándo conoció la grabación ni por qué no la aportó antes del plazo, que para un partido de domingo termina a las 14:00 del segundo día hábil. Para el 18 de octubre, el martes 20. El vídeo queda inadmitido y no se valora.
+
+Sobre los otros dos, el comité concluye que no prueban un error «categórico, patente e inequívoco». Que Agoumé participara en el lío, razona, no impide que Félix también discutiera con un rival, y el acta no le reprocha ningún empujón.
+
+## El Oviedo, en la misma hoja
+
+La misma resolución de Apelación incluye otro recurso, y ese sí prospera. En el Ceuta - Real Oviedo de Segunda, también del 18 de octubre, el acta amonestó a David Jiménez por «sujetar a un adversario», pero Disciplina le aplicó el artículo de las protestas al árbitro. El [Real Oviedo](/futbol/laliga-2/equipo/92) no discutió los hechos, solo el artículo, y ganó: Apelación anula la tercera amarilla del jugador y los 90 euros de multa. No corrige el error de oficio; lo da por bueno a favor del club.
+
+| Recurso | Qué alegaba | Resultado |
+| --- | --- | --- |
+| Sevilla (Félix Correia) | Error de identidad, con vídeo | Desestimado; vídeo nuevo inadmitido |
+| Real Oviedo (David Jiménez) | Artículo mal aplicado | Estimado; amarilla y multa anuladas |
+
+## Qué le queda al Sevilla
+
+La amarilla no le cuesta un partido de sanción ahora: es la segunda del ciclo de cinco. Al [Sevilla](/futbol/laliga/equipo/243) le queda el Tribunal Administrativo del Deporte, al que ya acudió otras veces por tarjetas, pero la propia resolución cita doctrina del TAD que avala inadmitir pruebas que no se justificaron a tiempo. La lección es de calendario: el vídeo que puede salvar una tarjeta hay que pedirlo el lunes, no tres semanas después.`,
+    category: 'polemica',
+    kind: 'noticia',
+    competition: { name: 'LaLiga', sport: 'futbol', slug: 'laliga' },
+    sourceName: 'RFEF · Comité de Apelación',
+    sourceUrl: 'https://rfef.es/sites/default/files/sanciones/Comite_de_Apelacion_20261110.pdf',
+    sourceLang: 'es',
+    publishedAt: '2026-11-12T09:00:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'RFEF: acuerdos del Comité de Disciplina, 21 de octubre (Primera, jornada 9)', url: 'https://rfef.es/sites/default/files/sanciones/Primera_Division_J9.pdf' },
+      { name: 'ESPN: Real Madrid 4-1 Sevilla, incidencias del partido', url: 'https://www.espn.com/soccer/match/_/gameId/401882839' },
+    ],
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Santiagobernabeupanoramav45.JPG/1280px-Santiagobernabeupanoramav45.JPG',
+      alt: 'Interior del Santiago Bernabéu vacío, con las gradas azules y el césped',
+      credit: 'لا روسا · Wikimedia Commons',
+      license: 'CC BY-SA 3.0',
+    },
+  },
+  {
+    slug: 'maria-perez-fuera-finalistas-mejor-atleta-mundo-2026-novena-record-mundial-marcha-premio-fuera-del-estadio',
+    title: 'María Pérez, fuera de las finalistas a mejor atleta del mundo: su premio de 2025 ya no existe',
+    summary: 'World Athletics deja a María Pérez novena de diez nominadas en 2026, pese al primer récord mundial de medio maratón de marcha. El galardón de fuera del estadio que ganó en 2025 desaparece.',
+    body: `María Pérez no estará entre las tres finalistas al premio de Atleta Mundial del Año. World Athletics [anunció las finalistas el 11 de noviembre](https://worldathletics.org/awards/news/womens-world-athlete-of-the-year-2026-finalists) y publicó también el orden del resto: la marchadora granadina terminó novena de las diez nominadas. Solo la canadiense Camryn Rogers quedó detrás.
+
+En España se contó como que María Pérez está «entre las diez mejores atletas del mundo». Es cierto, pero estaba entre las diez desde el 6 de octubre, cuando se conocieron las nominadas. Lo nuevo es que la votación la ha dejado casi al final.
+
+## El año que World Athletics premia
+
+Las finalistas son tres atletas de pista: Melissa Jefferson-Wooden (doblete de 100 y 200 en el Ultimate Championship, con 10.62 y 21.47), Masai Russell (récord del mundo de 100 metros vallas, 12.09) y Audrey Werro (800 metros, 1:53.70). Las tres ganaron el nuevo Ultimate Championship, la gran cita de este año sin Mundial.
+
+| Puesto | Atleta | País |
+| --- | --- | --- |
+| Finalista | Melissa Jefferson-Wooden | EE. UU. |
+| Finalista | Masai Russell | EE. UU. |
+| Finalista | Audrey Werro | Suiza |
+| 4.º | Tigst Assefa | Etiopía |
+| 5.º | Marileidy Paulino | R. Dominicana |
+| 6.º | Agnes Ngetich | Kenia |
+| 7.º | Chase Jackson | EE. UU. |
+| 8.º | Yan Ziyi | China |
+| 9.º | María Pérez | España |
+| 10.º | Camryn Rogers | Canadá |
+
+La votación tiene cuatro patas con el mismo peso: aficionados, atletas, periodistas y la propia familia de World Athletics, [según explicó la federación al presentar a las nominadas](https://worldathletics.org/news/press-releases/nominees-announced-world-athlete-of-the-year-2026). En ese reparto, una marchadora compite por atención con las velocistas y las fondistas de maratón.
+
+## Lo que hizo en 2026
+
+El mérito que World Athletics le reconoce es uno: el 15 de agosto, en el Europeo de Birmingham, ganó el oro en medio maratón de marcha con 1:30:06, el primer récord del mundo de una distancia que es oficial desde enero. Sacó 58 segundos a la segunda.
+
+## El premio que ganó y ya no está
+
+Hace un año, María Pérez subió al escenario de Mónaco por otra puerta. Fue [elegida Atleta del Año fuera del estadio en 2025](https://worldathletics.org/awards/news/maria-perez-in-her-words), tras ganar el 20 y el 35 kilómetros marcha en el Mundial de Tokio. Su rival en la final de aquella categoría era la keniana Peres Jepchirchir, campeona del mundo de maratón, [hoy suspendida por EPO](/noticias/peres-jepchirchir-suspendida-epo-record-valencia-campeona-mundo-maraton).
+
+En la lista de premios de 2026 esa categoría no aparece. En Mónaco, el 29 de noviembre, se entregarán el de Atleta del Año, las estrellas emergentes, el de mejor entrenador, el Premio del Presidente y, por primera vez, el Momento del Año. La marcha y el asfalto vuelven a competir en la misma urna que la pista, y el resultado de este año dice cómo les va.
+
+## Un otoño de despedidas en el asfalto
+
+El ranking de World Athletics llega en la misma semana en que el atletismo español de ruta ha cerrado otra historia: la de [Martín Fiz, que corrió su último maratón en Nueva York](/noticias/martin-fiz-63-anos-ultimo-maraton-nueva-york-hijo-alex-mano-3-01-11-primera-vez-1996-gotemburgo-42-maratones). María Pérez, que no se despide de nada, termina 2026 con un récord del mundo a su nombre y sin sitio en la gala.`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'Atletismo', sport: 'atletismo', slug: 'atletismo' },
+    sourceName: 'World Athletics',
+    sourceUrl: 'https://worldathletics.org/awards/news/womens-world-athlete-of-the-year-2026-finalists',
+    sourceLang: 'en',
+    publishedAt: '2026-11-12T09:02:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'World Athletics: nominados a Atleta Mundial del Año 2026', url: 'https://worldathletics.org/news/press-releases/nominees-announced-world-athlete-of-the-year-2026' },
+      { name: 'World Athletics: María Pérez, Atleta del Año fuera del estadio 2025', url: 'https://worldathletics.org/awards/news/maria-perez-in-her-words' },
+      { name: 'NBC Sports: finalistas femeninas 2026', url: 'https://www.nbcsports.com/olympics/news/world-athletics-female-athlete-of-the-year-finalists-2026' },
+    ],
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/20260815_2026_European_Athletics_Championships_%E2%80%93_Race_walking_100.jpg/1280px-20260815_2026_European_Athletics_Championships_%E2%80%93_Race_walking_100.jpg',
+      alt: 'Grupo de marchadoras por una calle del centro de Birmingham, entre edificios de piedra y vallas con público, en la prueba de marcha del Europeo de 2026',
+      credit: 'Bearas · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
     slug: 'inglaterra-croacia-italia-francia-turquia-belgica-horario-donde-ver-nations-league-jueves-12',
     title: 'Inglaterra - Croacia, Italia - Francia y Turquía - Bélgica: horario y dónde ver el jueves 12',
     summary: 'Wembley y San Siro abren el jueves 12 a las 20:45 la penúltima jornada de la Nations League, a la misma hora que Chequia - España. Horarios, canales y qué se juega cada grupo.',
