@@ -154,6 +154,229 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'alemania-serbia-belgrado-cuartos-nations-league-leganes-burgos-horario-donde-ver-viernes-13',
+    title: 'Alemania se juega los cuartos en Belgrado y el Leganés recibe al Burgos: horarios del viernes',
+    summary: 'Alemania, tercera de su grupo, puede quedarse esta noche sin cuartos de la Nations League si pierde en Serbia. Horarios peninsulares, canales y el Leganés - Burgos de LaLiga Hypermotion en Butarque.',
+    body: `El viernes 13 de noviembre tiene una noche de selecciones con un nombre grande en apuros: Alemania. Va tercera del grupo A2 de la [Nations League](/futbol/nations-league) con 5 puntos, tres menos que Países Bajos y Grecia, y juega a las 20:45 en Belgrado contra una Serbia que no ha sumado ninguno. En España, además, hay LaLiga Hypermotion: Leganés - Burgos, a las 20:30 en Butarque.
+
+Todas las horas son peninsulares. En Canarias, una hora menos.
+
+## La cuenta de Alemania
+
+La clasificación, [según ESPN](https://www.espn.com/soccer/standings/_/league/uefa.nations), tras cuatro jornadas:
+
+| Equipo | Puntos | Goles |
+| --- | --- | --- |
+| Países Bajos | 8 | 7-5 |
+| Grecia | 8 | 5-3 |
+| Alemania | 5 | 3-2 |
+| Serbia | 0 | 3-8 |
+
+Los dos primeros pasan a cuartos. Países Bajos y Grecia se enfrentan a la misma hora en Ámsterdam, y ese cruce decide cuánto margen le queda a Alemania. La cuenta, hecha con la tabla de arriba: si Alemania pierde y en Ámsterdam hay empate, los dos líderes se van a 9 puntos y los alemanes, con un partido por jugar, ya no podrían pasar de 8. Quedaría fuera de cuartos esta misma noche. Con una victoria en Belgrado, en cambio, todo se decide en la última jornada.
+
+España ya no depende de nadie para los cuartos: [ganó en Praga el jueves](/noticias/marc-pubill-96-chequia-espana-pleno-cinco-victorias-nations-league-inglaterra-metropolitano) y juega el domingo contra Inglaterra.
+
+## Los partidos del viernes
+
+| Hora | Competición | Partido |
+| --- | --- | --- |
+| 18:00 | Nations League | Moldavia - Kazajistán |
+| 20:30 | LaLiga Hypermotion | [Leganés - Burgos](/futbol/laliga-2/partido/401883136) |
+| 20:45 | Nations League | [Serbia - Alemania](/futbol/nations-league/partido/401861158) |
+| 20:45 | Nations League | [Países Bajos - Grecia](/futbol/nations-league/partido/401861159) |
+| 20:45 | Nations League | [Escocia - Macedonia del Norte](/futbol/nations-league/partido/401861161) |
+| 20:45 | Nations League | Eslovenia - Suiza |
+| 20:45 | Nations League | Eslovaquia - Islas Feroe, Bulgaria - Islandia y Luxemburgo - Estonia |
+
+Horarios del [calendario de ESPN](https://www.espn.com/soccer/schedule/_/date/20261113/league/uefa.nations) pasados a hora peninsular.
+
+## Dónde verlo
+
+La Nations League que no juega España va en DAZN, dentro de sus planes de fútbol, según el reparto de derechos que recoge [nuestra guía de la competición](/noticias/donde-ver-nations-league-2026-27-espana-la-1-dazn-chequia-inglaterra). Las fichas de Serbia - Alemania y del resto de partidos enlazan a la emisión.
+
+El Leganés - Burgos se ve en LALIGA TV Hypermotion y en DAZN, como figura en la ficha del partido. [Qué plataforma emite cada competición y cuánto cuesta](/noticias/donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1) está en la guía general.
+
+## Butarque: el tercero visita al último que se salva
+
+El partido de Leganés junta a dos equipos en extremos opuestos. El Burgos es tercero con 24 puntos en 13 jornadas y el Leganés, 18.º con 12, es el primero que hoy está por encima del descenso, [según la clasificación de ESPN](https://www.espn.com/soccer/standings/_/league/esp.2). Por debajo, Andorra, Cádiz, Albacete y Ceuta. La tabla completa está en la sección de [LaLiga Hypermotion](/futbol/laliga-2).
+
+La madrugada del sábado, a las 00:00, juegan además Argentina y Uruguay un amistoso; ningún canal lo ha anunciado en España.`,
+    category: 'tv',
+    kind: 'noticia',
+    competition: { name: 'Nations League', sport: 'futbol', slug: 'nations-league' },
+    sourceName: 'ESPN',
+    sourceUrl: 'https://www.espn.com/soccer/standings/_/league/uefa.nations',
+    sourceLang: 'en',
+    publishedAt: '2026-11-13T10:30:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'ESPN: calendario de la Nations League del 13 de noviembre', url: 'https://www.espn.com/soccer/schedule/_/date/20261113/league/uefa.nations' },
+      { name: 'ESPN: clasificación de LaLiga Hypermotion', url: 'https://www.espn.com/soccer/standings/_/league/esp.2' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Beograd_7652.jpg/1280px-Beograd_7652.jpg',
+      alt: 'Las gradas rojas vacías del estadio del Estrella Roja de Belgrado, con la pista de atletismo y el césped al fondo',
+      credit: 'Darwinek · Wikimedia Commons',
+      license: 'CC BY-SA 3.0',
+    },
+  },
+  {
+    slug: 'marc-pubill-96-chequia-espana-pleno-cinco-victorias-nations-league-inglaterra-metropolitano',
+    title: 'Marc Pubill cierra en el 96 el pleno que España nunca había hecho en la Nations League',
+    summary: 'España ganó 0-2 en Praga con un penalti de Baena y un gol de Pubill en el 96. Son cinco victorias en cinco partidos, algo que no había logrado en ninguna edición. El domingo, Inglaterra.',
+    body: `España ganó 0-2 a Chequia el jueves en el estadio de Letná, en Praga, y suma 15 puntos de 15 en el grupo A3 de la [Nations League](/futbol/nations-league). Álex Baena abrió el marcador de penalti en el minuto 39 y Marc Pubill marcó el segundo en el sexto minuto de descuento, con Chequia ya en inferioridad.
+
+Es la primera vez que España gana sus cinco primeros partidos de una fase de grupos de esta competición. La Federación habla de [una fase «perfecta» a falta de un partido](https://rfef.es/es/noticias/15-puntos-y-una-ultima-batalla-por-el-liderato): el domingo, contra Inglaterra en el Metropolitano.
+
+## Cuatro ediciones, ningún pleno
+
+El dato sale de repasar los resultados de cada edición en el archivo de ESPN. España siempre había tropezado pronto:
+
+| Edición | Primer tropiezo |
+| --- | --- |
+| 2018-19 | Perdió 2-3 en casa con Inglaterra (grupo de cuatro partidos) |
+| 2020-21 | Empató 1-1 en Alemania en la primera jornada |
+| 2022-23 | Empató 1-1 con Portugal en la primera jornada |
+| 2024-25 | Empató 0-0 en Serbia en la primera jornada |
+| 2026-27 | Cinco victorias en cinco partidos |
+
+## Cómo se ganó en Praga
+
+El partido se torció para Chequia por dos decisiones del VAR, [según el minuto a minuto de ESPN](https://www.espn.com/soccer/commentary/_/gameId/401861148). En el 36, el videoarbitraje señaló una mano de Lukáš Ambros en el área, y Baena transformó el penalti tres minutos después, raso, junto al palo izquierdo. En el 69, una falta de Ladislav Krejčí que se había quedado en amarilla pasó a roja tras la revisión.
+
+Krejčí había sido el peligro checo: cuatro remates de cabeza entre el minuto 51 y el 62, ninguno entre los tres palos. Sin él, Chequia no volvió a acercarse. Pubill, que entró en el 76 por Pedro Porro, cerró el partido con un disparo desde el centro del área. Es su segundo gol con la selección; el primero lo marcó [ante Croacia en el Sánchez-Pizjuán](https://rfef.es/es/noticias/marc-pubill-se-estrena-como-goleador-con-espa%C3%B1a), en la segunda jornada.
+
+El once de Luis de la Fuente: Unai Simón; Pedro Porro, Huijsen, Cubarsí, Cucurella; Zubimendi, Fabián Ruiz, Fermín López; Yéremy Pino, Ferran Torres y Baena. Sin Lamine Yamal ni Oyarzabal, como se sabía [desde la previa](/noticias/chequia-espana-horario-donde-ver-nations-league-praga-letna-sin-lamine-yamal-oyarzabal).
+
+## Lo que pide el domingo
+
+España e Inglaterra ya están en cuartos. El primer puesto se decide el domingo 15 a las 20:45 en el Metropolitano, con La 1 y RTVE Play como emisores, según [nuestra guía de la Nations League](/noticias/donde-ver-nations-league-2026-27-espana-la-1-dazn-chequia-inglaterra). Ganar o empatar le basta a España. Si pierde, cuentan primero los dos partidos entre ambos: con el 2-3 de Wembley, una derrota por dos goles deja el grupo para Inglaterra, y una por la mínima lo lleva a los desempates. Ahí la diferencia general favorece hoy a los ingleses, +12 frente a +9, [según la clasificación de ESPN](https://www.espn.com/soccer/standings/_/league/uefa.nations).
+
+Para ese partido vuelven Lamine Yamal y Oyarzabal, que se incorporan este viernes a la concentración, dijo De la Fuente tras el partido. El árbitro será el francés Clément Turpin, que dirigirá a España por cuarta vez. Inglaterra llegará con la duda de la portería: Tuchel ya avisó de que [podría repartir los minutos entre Pickford y Trafford](/noticias/james-trafford-portero-tres-goles-espana-wembley-pickford-tuchel-reparto-metropolitano-nations-league).`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'Nations League', sport: 'futbol', slug: 'nations-league' },
+    sourceName: 'ESPN',
+    sourceUrl: 'https://www.espn.com/soccer/match/_/gameId/401861148',
+    sourceLang: 'en',
+    publishedAt: '2026-11-13T10:31:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'RFEF: 15 puntos y una última batalla por el liderato', url: 'https://rfef.es/es/noticias/15-puntos-y-una-ultima-batalla-por-el-liderato' },
+      { name: 'RFEF: Clément Turpin dirigirá el España - Inglaterra', url: 'https://rfef.es/es/noticias/clement-turpin-dirigira-el-espana-inglaterra' },
+      { name: 'RFEF: declaraciones de Luis de la Fuente tras el partido de Praga', url: 'https://rfef.es/es/noticias/hemos-jugado-el-partido-que-preveiamos' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Alex_Baena_Argentina_v_Spain_19_July_2026-126.jpg/1280px-Alex_Baena_Argentina_v_Spain_19_July_2026-126.jpg',
+      alt: 'Álex Baena, con la camiseta roja y el dorsal 15 de España, golpea el balón durante la final del Mundial 2026 contra Argentina',
+      credit: 'Bryan Berlin · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'jannik-sinner-25-anos-operado-amigdalas-perdio-peso-atp-finals-turin-sin-bicampeon-alcaraz-jodar',
+    title: 'Jannik Sinner, 25 años, se operó de las amígdalas en su parón: Turín arranca sin el bicampeón',
+    summary: 'Sinner contó en su serie de YouTube que se operó de las amígdalas hace unas semanas y perdió mucho peso. Lleva parado desde Wimbledon por la rodilla y las ATP Finals empiezan el domingo sin él.',
+    body: `Jannik Sinner no juega desde el 12 de julio, el día que ganó Wimbledon. Lo que no se sabía es que en ese tiempo también ha pasado por el quirófano por algo que no tiene que ver con la rodilla: [en el tercer capítulo de su serie de YouTube](https://www.youtube.com/watch?v=XZ1HEpFKe6g&t=286s), publicado el 11 de noviembre, cuenta que hace unas semanas se operó de las amígdalas y que perdió mucho peso. Dice que se le nota en la cara y que ahora entrena cada día para recuperar músculo.
+
+El vídeo llega tres días antes de que empiecen en Turín, en su país, las ATP Finals que ganó en 2024 y 2025. Esta vez las verá desde fuera.
+
+## Cuatro meses parado
+
+La baja es por la cintilla iliotibial de la rodilla derecha, [según Il Fatto Quotidiano](https://www.ilfattoquotidiano.it/2026/11/12/sinner-operazione-tonsille-ho-perso-molto-peso-speriamo-sia-stata-la-decisione-giusta/8569272/). En el vídeo, grabado en parte en Lyon, donde fue a revisarse, Sinner explica que ha tenido días sin notar nada y días en los que no podía ni moverse. Lo peor, añade, es no poder competir y ver jugar a los demás después de la temporada que llevaba hasta el verano.
+
+Su equipo médico habla en el mismo vídeo de no forzar: el objetivo inmediato es volver a cargar peso del todo sobre la rodilla en unas semanas y llegar preparado al Open de Australia, en enero. El enlace de cada frase lleva al minuto exacto del vídeo; las citas aquí van resumidas porque los subtítulos en español son automáticos.
+
+## Lo que deja vacío en Turín
+
+Sinner era el segundo de la carrera a Turín con 7.950 puntos y [está fuera el resto de la temporada](https://www.tennismajors.com/atp/rolex-paris-masters-1000-atp/race-to-turin-jodar-completes-the-turin-line-up-as-fritz-falls-to-alcaraz-866130.html). Su baja abrió el hueco que acabó ocupando Rafael Jódar, noveno de la carrera. El cuadro final, sorteado el jueves:
+
+| Grupo John McEnroe | Grupo Ivan Lendl |
+| --- | --- |
+| Alexander Zverev | Carlos Alcaraz |
+| Ben Shelton | Daniil Medvedev |
+| Arthur Fils | Flavio Cobolli |
+| Rafael Jódar | Frances Tiafoe |
+
+En 2025 ganó la final [a Carlos Alcaraz por 7-6 y 7-5](https://en.wikipedia.org/wiki/2025_ATP_Finals), en la misma Inalpi Arena. Sin él, el único italiano del torneo es Flavio Cobolli, en el grupo de Alcaraz.
+
+## Por qué importa en España
+
+La ausencia cambia el torneo para los dos españoles. Alcaraz, segundo cabeza de serie, no puede cruzarse con su gran rival de los dos últimos años, y Jódar debuta el domingo contra el número 1, Zverev: horarios y rivales, en [la pieza de los españoles en Turín](/noticias/rafael-jodar-debuta-turin-zverev-numero-1-horarios-alcaraz-atp-finals). Cómo verlo, en [la guía del tenis](/noticias/donde-ver-tenis-espana-atp-finals-copa-davis-alcaraz-movistar-hbo-max).
+
+El último partido oficial de Sinner fue aquella final de Wimbledon contra Zverev. El italiano no ha dado fecha de regreso; el calendario del circuito está en la [sección de tenis](/tenis/atp).`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'ATP', sport: 'tenis', slug: 'atp' },
+    sourceName: 'Jannik Sinner (YouTube)',
+    sourceUrl: 'https://www.youtube.com/watch?v=XZ1HEpFKe6g',
+    sourceLang: 'en',
+    publishedAt: '2026-11-13T10:32:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Il Fatto Quotidiano: Sinner y la operación de amígdalas', url: 'https://www.ilfattoquotidiano.it/2026/11/12/sinner-operazione-tonsille-ho-perso-molto-peso-speriamo-sia-stata-la-decisione-giusta/8569272/' },
+      { name: 'Tennis Majors: el cuadro de las ATP Finals 2026', url: 'https://www.tennismajors.com/atp/nitto-atp-finals-atp/atp-finals-draw-zverev-gets-us-open-final-rematch-with-shelton-alcaraz-drawn-with-medvedev-866813.html' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Jannik_Sinner_vs_Richard_Gasquet%2C_2025_Roland_Garros%2C_2025-05-29_%28564%29.jpg/1280px-Jannik_Sinner_vs_Richard_Gasquet%2C_2025_Roland_Garros%2C_2025-05-29_%28564%29.jpg',
+      alt: 'Jannik Sinner, con camiseta verde y gorra azul, sobre la tierra batida de Roland Garros durante su partido contra Richard Gasquet en 2025',
+      credit: 'Like tears in rain · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'rafael-jodar-debuta-turin-zverev-numero-1-horarios-alcaraz-atp-finals',
+    title: 'Rafael Jódar debuta en Turín ante el número 1, Zverev: cuándo juegan él y Alcaraz',
+    summary: 'Jódar abre las ATP Finals el domingo a partir de las 14:00 contra Alexander Zverev, campeón este año de Roland Garros y del US Open. Alcaraz se estrena el lunes ante Tiafoe: grupos y horarios.',
+    body: `Rafael Jódar jugará su primer partido en las ATP Finals contra el número 1 del mundo. El sorteo del jueves en Turín le colocó en el grupo John McEnroe, y [el orden de juego](https://www.tennismajors.com/atp/nitto-atp-finals-atp/atp-finals-draw-zverev-gets-us-open-final-rematch-with-shelton-alcaraz-drawn-with-medvedev-866813.html) le cita el domingo 15, no antes de las 14:00, con Alexander Zverev. Es el partido que abre el torneo.
+
+Carlos Alcaraz, segundo cabeza de serie, debuta el lunes 16 a la misma hora contra Frances Tiafoe.
+
+## Los horarios de los dos primeros días
+
+Turín y la España peninsular comparten hora. En Canarias, una hora menos.
+
+| Día | Hora | Partido | Grupo |
+| --- | --- | --- | --- |
+| Domingo 15 | No antes de las 14:00 | Zverev - Jódar | McEnroe |
+| Domingo 15 | No antes de las 20:30 | Shelton - Fils | McEnroe |
+| Lunes 16 | No antes de las 14:00 | Alcaraz - Tiafoe | Lendl |
+| Lunes 16 | No antes de las 20:30 | Medvedev - Cobolli | Lendl |
+
+Pasan a semifinales los dos primeros de cada grupo. Las semifinales son el sábado 21 y la final, el domingo 22. El torneo se ve en Movistar Plus+, como recoge [la guía del tenis en España](/noticias/donde-ver-tenis-espana-atp-finals-copa-davis-alcaraz-movistar-hbo-max).
+
+## El rival: Zverev, en su mejor año
+
+Zverev llega a Turín como número 1 y como campeón de Roland Garros y del Abierto de Estados Unidos. Ganó las ATP Finals en 2018 y 2021. En su grupo está también Ben Shelton, al que derrotó en la final de Nueva York en septiembre y al que ha ganado las seis veces que se han enfrentado, según el repaso de Tennis Majors. El cuarto es el francés Arthur Fils, que como Jódar debuta en el torneo.
+
+Jódar [empezó el año en el puesto 168](/noticias/rafael-jodar-168-enero-atp-finals-record-mariano-puerta-debutante-turin-espanoles) y cierra su primera temporada completa en el circuito. Su plaza llegó sin jugar: la cerró la derrota de Taylor Fritz contra Alcaraz en los cuartos de París, [el 6 de noviembre](https://www.tennismajors.com/atp/rolex-paris-masters-1000-atp/race-to-turin-jodar-completes-the-turin-line-up-as-fritz-falls-to-alcaraz-866130.html).
+
+## El grupo de Alcaraz
+
+El murciano comparte el grupo Ivan Lendl con Daniil Medvedev, Flavio Cobolli y Tiafoe. Cobolli es el único italiano del cuadro: Jannik Sinner, ganador de las dos últimas ediciones, [está de baja desde Wimbledon](/noticias/jannik-sinner-25-anos-operado-amigdalas-perdio-peso-atp-finals-turin-sin-bicampeon-alcaraz-jodar). Cobolli no llegó a jugar en París, donde se retiró con una molestia en la pierna izquierda; De Minaur y Fritz viajan a Turín como suplentes por si alguien se baja.
+
+Alcaraz llega después de [ganar por primera vez el Masters de París](/noticias/carlos-alcaraz-23-anos-campeon-paris-primera-vez-shelton-dos-masters-1000-que-le-faltan-canada-shanghai-turin-jodar). Si los dos españoles pasan de grupo, no podrían cruzarse hasta la final, porque las semifinales enfrentan al primero de un grupo con el segundo del otro.
+
+Los resultados de cada jornada estarán en la [sección de tenis](/tenis/atp).`,
+    category: 'tv',
+    kind: 'noticia',
+    competition: { name: 'ATP Finals', sport: 'tenis', slug: 'atp' },
+    sourceName: 'Tennis Majors',
+    sourceUrl: 'https://www.tennismajors.com/atp/nitto-atp-finals-atp/atp-finals-draw-zverev-gets-us-open-final-rematch-with-shelton-alcaraz-drawn-with-medvedev-866813.html',
+    sourceLang: 'en',
+    publishedAt: '2026-11-13T10:33:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Tennis Majors: Jódar completa el cuadro de Turín', url: 'https://www.tennismajors.com/atp/rolex-paris-masters-1000-atp/race-to-turin-jodar-completes-the-turin-line-up-as-fritz-falls-to-alcaraz-866130.html' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Rafa-jodar-roland-garros-2026-profile.jpg/1280px-Rafa-jodar-roland-garros-2026-profile.jpg',
+      alt: 'Rafael Jódar, con camiseta blanca y gorra azul, prepara un golpe de derecha en una pista de Roland Garros en 2026',
+      credit: 'Crosscourt View · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
     slug: 'roger-federer-45-anos-joao-fonseca-pacaembu-gratis-5-diciembre-una-semana-antes-alcaraz-sao-paulo',
     title: 'Roger Federer vuelve a jugar a los 45 años: gratis, en São Paulo y una semana antes que Alcaraz',
     summary: 'Federer se medirá a João Fonseca el 5 de diciembre en el gimnasio del Pacaembu, con entradas gratuitas desde el día 23. Siete días después, el brasileño recibe a Alcaraz en la misma ciudad.',
