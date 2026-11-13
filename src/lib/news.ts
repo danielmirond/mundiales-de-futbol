@@ -154,6 +154,135 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'silvia-rey-hija-julio-rey-descalificada-cursa-bombers-barcelona-licencia-catalana-reglamento',
+    title: 'Silvia Rey, hija de Julio Rey: segunda en la meta de la Cursa de Bombers y borrada de la lista',
+    summary: 'La corredora toledana bajó de la mejor marca española sub-23 en la Cursa de Bombers y acabó descalificada por no tener licencia catalana. El reglamento de la carrera no recoge esa causa.',
+    body: `Silvia Rey cruzó la meta de la Cursa de Bombers de Barcelona el domingo 8 de noviembre en segunda posición. Su tiempo, 32:10, mejoraba la mejor marca española sub-23 femenina de 10 kilómetros. Horas después su nombre ya no estaba en la clasificación: la organización la descalificó [por no tener la licencia federativa en Cataluña](https://www.3cat.cat/esport3/cursa-de-bombers-2026-la-polemica-desqualificacio-de-silvia-rey/noticia/3438958/), según contó Esport3.
+
+La corredora es de Toledo y lleva el atletismo en casa. Es hija de Julio Rey, atleta de fondo, y de [Vanessa Veiga](https://es.wikipedia.org/wiki/Vanessa_Veiga), que corrió el maratón de los Juegos de Londres 2012 y ganó el de Madrid en 2013.
+
+## Lo que pasó en la meta
+
+La ganadora fue Meritxell Soler, con 31:54, su quinta victoria en la prueba. Rey entró 16 segundos después. Tras la descalificación, el podio quedó así: Soler, Marta Galimany y Jessica Martín.
+
+La carrera tenía doble función. Además de la prueba popular, con unos 16.000 inscritos [según u-Trail](https://www2.u-trail.com/elle-finit-deuxieme-dun-10-km-et-se-fait-donc-disqualifier/), era el Campeonato de Cataluña absoluto y máster de 10 km. Rey no tenía licencia catalana, así que no podía optar a ese título. El problema es que también desapareció de la clasificación general.
+
+En la prueba masculina, Bakr El Asri, de 19 años, ganó con 28:50, récord de España sub-20, también según Esport3.
+
+## Lo que dice el reglamento
+
+Hemos leído el [reglamento oficial de la Cursa de Bombers 2026](https://cursadebombers.barcelona/en/la-cursa/regulation/). Estos son los puntos que afectan al caso:
+
+| Artículo | Qué dice |
+| --- | --- |
+| 2 | La carrera es también el Campeonato de Cataluña de 10 km, organizado con la Federació Catalana d'Atletisme, que aplica su propia normativa |
+| 6.2 | Los corredores no federados pueden sacar una licencia de un día por 1 euro |
+| 6.3 | Para el campeonato hace falta una inscripción aparte, en Callroom |
+| 12 | Trofeos para los tres primeros de la clasificación general; los premios del campeonato los fija la federación catalana por separado |
+| 13 | Causas de descalificación: no completar el recorrido, usar el dorsal de otro, no llevarlo visible, recibir ayuda externa, conducta antideportiva o desobedecer a la organización |
+| 19 | Las reclamaciones se presentan ante el director de carrera en los 30 minutos siguientes a los resultados provisionales, con una tasa de 20 euros |
+
+La falta de licencia catalana no figura entre las causas del artículo 13. El reglamento separa la clasificación general, con sus trofeos, del campeonato autonómico. Y prevé que un corredor sin licencia participe con una licencia de un día.
+
+## La marca que no cuenta
+
+Hay una segunda pérdida. Aunque la hubieran mantenido en la clasificación, sus 32:10 no habrían valido como mejor marca española sub-23. La Federación Española solo reconoce marcas de pruebas de su calendario, y la Cursa de Bombers figura únicamente en el de la federación catalana, explica Esport3.
+
+Su entorno ha confirmado que presentará alegaciones, según Mundo Deportivo. No ha trascendido ante qué organismo ni con qué plazo.
+
+## Por qué importa
+
+No es el primer caso de este otoño en el que una clasificación se decide fuera del asfalto. En la [Behobia-San Sebastián](/noticias/behobia-san-sebastian-853-corredores-medalla-sin-clasificacion-cajon-salida-2026) se quedaron sin puesto 853 corredores por salir antes de su cajón. Y el atletismo español ya ha visto este año cómo un récord no basta para un premio, como le pasó a [María Pérez](/noticias/maria-perez-fuera-finalistas-mejor-atleta-mundo-2026-novena-record-mundial-marcha-premio-fuera-del-estadio) con las finalistas a mejor atleta del mundo.`,
+    category: 'curiosa',
+    kind: 'noticia',
+    competition: { name: 'Atletismo', sport: 'atletismo', slug: 'atletismo' },
+    sourceName: 'Esport3 (3Cat)',
+    sourceUrl: 'https://www.3cat.cat/esport3/cursa-de-bombers-2026-la-polemica-desqualificacio-de-silvia-rey/noticia/3438958/',
+    sourceLang: 'es',
+    publishedAt: '2026-11-13T23:11:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Reglamento de la Cursa de Bombers 2026', url: 'https://cursadebombers.barcelona/en/la-cursa/regulation/' },
+      { name: 'u-Trail: la descalificación de Silvia Rey', url: 'https://www2.u-trail.com/elle-finit-deuxieme-dun-10-km-et-se-fait-donc-disqualifier/' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Cursa_Bombers_2023_sortida.jpg/1280px-Cursa_Bombers_2023_sortida.jpg',
+      alt: 'Salida de la Cursa de Bombers de Barcelona de 2023: decenas de corredores arrancan bajo el arco de meta en una avenida con plátanos y público tras las vallas',
+      credit: 'Joandrés · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'portugal-dinamarca-braga-primer-partido-sin-cristiano-almeria-andorra-horario-donde-ver-sabado-14',
+    title: 'Portugal estrena en Braga la vida sin Cristiano: horarios y dónde ver el fútbol del sábado 14',
+    summary: 'Portugal recibe a Dinamarca en Braga en su primer partido desde la despedida de Cristiano. Horarios peninsulares y canales de la Nations League, LaLiga Hypermotion y Liga F del sábado.',
+    body: `Portugal juega este sábado su primer partido desde que Cristiano Ronaldo [anunció su adiós a la selección](/noticias/cristiano-ronaldo-retirada-portugal-11-partidos-contra-espana-sochi-arlington) el 5 de noviembre. Recibe a Dinamarca a las 20:45 en el Estádio Municipal de Braga, en la quinta jornada de la [Nations League](/futbol/nations-league). En España, la jornada de LaLiga Hypermotion trae al líder, el Almería, contra el Andorra, y la Liga F, al Real Madrid frente al Badalona.
+
+Todas las horas son peninsulares. En Canarias, una hora menos.
+
+## Portugal ya está en cuartos
+
+Portugal ha ganado sus cuatro partidos del grupo, [según la clasificación de ESPN](https://www.espn.com/soccer/standings/_/league/uefa.nations):
+
+| Equipo | Puntos | Partidos |
+| --- | --- | --- |
+| Portugal | 12 | 4 |
+| Dinamarca | 6 | 4 |
+| Gales | 3 | 4 |
+| Noruega | 3 | 4 |
+
+Pasan los dos primeros. La cuenta sale de la tabla: Gales y Noruega pueden llegar como mucho a 9 puntos y solo Dinamarca puede alcanzar los 12, así que Portugal tiene el billete asegurado. Lo que se juega Dinamarca es otra cosa. Gales y Noruega se enfrentan a las 18:00 en Oslo, y el que gane se pondrá a 6. Una derrota danesa en Braga dejaría el segundo puesto para la última jornada.
+
+El 1 de octubre, Portugal ya le ganó 4-2 a Dinamarca. Los 11 partidos de Cristiano ante España, con resultado y goles, están en [nuestro repaso de su carrera con Portugal](/noticias/cristiano-ronaldo-retirada-portugal-11-partidos-contra-espana-sochi-arlington).
+
+## Los partidos del sábado
+
+| Hora | Competición | Partido |
+| --- | --- | --- |
+| 12:00 | Liga F | Espanyol - Tenerife |
+| 14:00 | LaLiga Hypermotion | [Real Valladolid - Castellón](/futbol/laliga-2/partido/401883114) |
+| 15:00 | Nations League | Kosovo - Israel |
+| 16:15 | LaLiga Hypermotion | Real Sociedad B - Sporting |
+| 18:00 | Nations League | Noruega - Gales y Georgia - Hungría |
+| 18:00 | Liga F | Alavés - Eibar |
+| 18:30 | LaLiga Hypermotion | [Almería - Andorra](/futbol/laliga-2/partido/401883118) |
+| 18:30 | LaLiga Hypermotion | [Mallorca - Córdoba](/futbol/laliga-2/partido/401883135) |
+| 20:30 | Liga F | [Real Madrid - Badalona](/futbol/liga-f/partido/401882456) |
+| 20:45 | Nations League | [Portugal - Dinamarca](/futbol/nations-league/partido/401861167) |
+| 20:45 | Nations League | Austria - Irlanda, Irlanda del Norte - Ucrania, Rumanía - Polonia y Suecia - Bosnia |
+| 21:00 | LaLiga Hypermotion | [Real Oviedo - Girona](/futbol/laliga-2/partido/401883115) |
+
+Horarios del [calendario de ESPN](https://www.espn.com/soccer/schedule/_/date/20261114/league/uefa.nations) pasados a hora peninsular.
+
+## Dónde verlo
+
+La Nations League que no juega España va en DAZN, como recoge [nuestra guía de la competición](/noticias/donde-ver-nations-league-2026-27-espana-la-1-dazn-chequia-inglaterra) y figura en la ficha de Portugal - Dinamarca. Los partidos de LaLiga Hypermotion se ven en LALIGA TV Hypermotion y en DAZN, según sus fichas. El Real Madrid - Badalona de Liga F aún no tiene canal confirmado. [Qué plataforma emite cada competición y cuánto cuesta](/noticias/donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1) está en la guía general.
+
+## La zona alta de Segunda
+
+El sábado juegan los dos primeros de [LaLiga Hypermotion](/futbol/laliga-2). El Almería lidera con 29 puntos y recibe a un Andorra que es 19.º con 11. El Castellón, segundo con 27 y un partido menos, visita Zorrilla, donde el Valladolid es 12.º con 18, [según la clasificación de ESPN](https://www.espn.com/soccer/standings/_/league/esp.2). En Son Moix, el Mallorca, sexto con 22, recibe al Córdoba, 11.º con 19.
+
+Por la noche, Raúl se estrena en el banquillo del Tartiere ante el Girona: el partido tiene [su propia previa](/noticias/raul-debut-banquillo-real-oviedo-girona-horario-donde-ver-sabado-14-noviembre-tartiere-21-puntos).`,
+    category: 'tv',
+    kind: 'noticia',
+    competition: { name: 'Nations League', sport: 'futbol', slug: 'nations-league' },
+    sourceName: 'ESPN',
+    sourceUrl: 'https://www.espn.com/soccer/standings/_/league/uefa.nations',
+    sourceLang: 'en',
+    publishedAt: '2026-11-13T23:10:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'ESPN: calendario de la Nations League del 14 de noviembre', url: 'https://www.espn.com/soccer/schedule/_/date/20261114/league/uefa.nations' },
+      { name: 'ESPN: clasificación de LaLiga Hypermotion', url: 'https://www.espn.com/soccer/standings/_/league/esp.2' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Est%C3%A1dio_Municipal_de_Braga_2021_%284%29.jpg/1280px-Est%C3%A1dio_Municipal_de_Braga_2021_%284%29.jpg',
+      alt: 'Tribuna cubierta del Estádio Municipal de Braga, con su techo sostenido por cables, gradas vacías y la pared de roca de la antigua cantera a la derecha',
+      credit: 'Joseolgon · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
     slug: 'alemania-serbia-belgrado-cuartos-nations-league-leganes-burgos-horario-donde-ver-viernes-13',
     title: 'Alemania se juega los cuartos en Belgrado y el Leganés recibe al Burgos: horarios del viernes',
     summary: 'Alemania, tercera de su grupo, puede quedarse esta noche sin cuartos de la Nations League si pierde en Serbia. Horarios peninsulares, canales y el Leganés - Burgos de LaLiga Hypermotion en Butarque.',
