@@ -154,6 +154,238 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'thibaut-courtois-34-anos-oferta-100-reggiana-nxtplay-duenos-no-vinculante-extremadura-genk-le-mans',
+    title: 'Courtois, 34 años, quiere toda la Reggiana y los dueños contestan: «No ha llegado ninguna oferta vinculante»',
+    summary: 'El fondo del portero del Real Madrid anunció una oferta por el 100 % de la Reggiana, de la Serie C italiana. Los socios del club responden que falta la oferta irrevocable y la fianza.',
+    body: `Thibaut Courtois ya es socio de tres clubes y ahora quiere uno entero. NXTPLAY Capital, la plataforma de inversión con sede en Madrid que el portero del [Real Madrid](/futbol/laliga/equipo/86) fundó con Gonzalo Vila, ha comunicado que el 12 de noviembre presentó una oferta por el 100 % de la AC Reggiana 1919. Es el club de Reggio Emilia, compite en la Serie C, la tercera categoría de Italia, y jugó en la [Serie A](/futbol/serie-a) en los años noventa.
+
+La réplica llegó enseguida y enfría el anuncio. Los socios de la Reggiana hicieron público que «por ahora no ha llegado ninguna oferta vinculante», [según recoge Stampa Reggiana](https://www.stampareggiana.it/2026/11/14/nxtplay-punta-al-100-della-reggiana-i-soci-attendiamo-lofferta-vincolante/). Lo que esperan es otra cosa: una oferta irrevocable de compra, acompañada de la fianza que prevé el proceso de venta del club.
+
+## Dos versiones de la misma oferta
+
+| | NXTPLAY Capital | Socios de la Reggiana |
+|---|---|---|
+| Qué hay sobre la mesa | Una oferta por el 100 % del capital, presentada el 12 de noviembre | Ninguna oferta vinculante recibida |
+| Qué falta | Concluir el proceso con los actuales socios | Oferta irrevocable y fianza |
+| Precio | No lo ha hecho público | No lo han hecho público |
+
+Las dos cosas pueden ser ciertas a la vez. Una propuesta puede estar presentada y no obligar todavía a quien la firma. La diferencia es de dinero depositado, no de intenciones.
+
+El fondo asegura que lleva meses estudiando el club, que ha viajado varias veces a Reggio Emilia y que se ha reunido con empresarios, patrocinadores y socios de la entidad, de acuerdo con [la Gazzetta di Reggio](https://www.gazzettadireggio.it/sport/2026/11/13/news/reggiana-courtois-rompe-gli-indugi-nxtplay-capital-offre-per-il-100-del-club-1.100942189). Su plan habla de cantera, instalaciones y arraigo en la ciudad. Courtois dice que quiere levantar algo de lo que la gente de Reggio Emilia pueda sentirse orgullosa, y Vila, consejero delegado, que la oferta es seria y que están listos para avanzar sin perder tiempo.
+
+Los dueños actuales son Amadei, Salerno y Fico, según el diario local. Ninguna de las fuentes consultadas publica cifras.
+
+## Tres clubes como socio y un cuarto que sería suyo
+
+Esto es lo que NXTPLAY tiene hoy en el fútbol, según los medios de Reggio Emilia y los propios clubes:
+
+- **KRC Genk** (Bélgica), en la primera división belga.
+- **Le Mans FC** (Francia), que la temporada pasada ascendió a la Ligue 1.
+- **CD Extremadura** (España), donde entró [como copropietario en mayo](https://cdextremadura.es/thibaut-courtois-y-nxtplay-se-convierten-en-copropietarios-del-cd-extremadura/), junto al presidente Daniel Tafur, tras el cuarto ascenso consecutivo del club de Almendralejo. Hoy juega en [Primera Federación](/futbol/primera-federacion).
+
+En los tres figura como socio o copropietario. En Reggio Emilia pide el 100 %.
+
+El club español de la cartera no ha tenido su mejor semana. El mismo 12 de noviembre en que NXTPLAY presentaba su oferta en Italia, el juez disciplinario de la RFEF rechazaba las alegaciones del Extremadura por las tres expulsiones de Avilés, incluida [la queja por la presencia del presidente rival junto al monitor del árbitro](/noticias/cd-extremadura-alegaciones-presidente-aviles-monitor-fvs-juez-rfef-tres-expulsiones-callejon).
+
+## Lo que queda por pasar
+
+La operación está condicionada a que termine el proceso con los actuales socios, y nadie ha dado plazos. El siguiente movimiento le toca al fondo: convertir el anuncio en una oferta irrevocable y depositar la fianza. Mientras eso no ocurra, la Reggiana sigue en venta y Courtois sigue siendo, en Reggio Emilia, un interesado.`,
+    category: 'general',
+    kind: 'noticia',
+    competition: { name: 'Serie A', sport: 'futbol', slug: 'serie-a' },
+    sourceName: 'Stampa Reggiana',
+    sourceUrl: 'https://www.stampareggiana.it/2026/11/14/nxtplay-punta-al-100-della-reggiana-i-soci-attendiamo-lofferta-vincolante/',
+    sourceLang: 'it',
+    publishedAt: '2026-11-14T14:23:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Gazzetta di Reggio: Nxtplay Capital ofrece por el 100 % del club', url: 'https://www.gazzettadireggio.it/sport/2026/11/13/news/reggiana-courtois-rompe-gli-indugi-nxtplay-capital-offre-per-il-100-del-club-1.100942189' },
+      { name: 'CD Extremadura: Courtois y NXTPLAY, copropietarios del club', url: 'https://cdextremadura.es/thibaut-courtois-y-nxtplay-se-convierten-en-copropietarios-del-cd-extremadura/' },
+      { name: 'Football Italia: la oferta de Courtois por la Reggiana', url: 'https://football-italia.net/courtois-offers-to-buy-serie-c-side-reggiana/' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Thibaut_Courtois_Belgium_v_USA_6_July_2026-076.jpg/1280px-Thibaut_Courtois_Belgium_v_USA_6_July_2026-076.jpg',
+      alt: 'Thibaut Courtois, con la equipación verde de portero de Bélgica y los guantes puestos, camina por el área durante el Bélgica - Estados Unidos del Mundial 2026',
+      credit: 'Bryan Berlin · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'cd-extremadura-alegaciones-presidente-aviles-monitor-fvs-juez-rfef-tres-expulsiones-callejon',
+    title: 'CD Extremadura sitúa al presidente del Avilés junto al monitor del árbitro: el juez mantiene las tres rojas',
+    summary: 'El club de Almendralejo alegó ante la RFEF que el presidente del Real Avilés habló con el árbitro durante las revisiones de vídeo. El juez lo despacha como «mera deducción».',
+    body: `El CD Extremadura perdió 5-2 en Avilés el viernes 6 de noviembre y volvió a casa con un jugador y dos técnicos expulsados. Cuatro días después, su presidente, Daniel Tafur, firmó un escrito ante la RFEF que va más allá de las tarjetas. Sostiene que el presidente del Real Avilés Industrial, Diego Baeza, estuvo durante el partido en la boca del túnel de vestuarios, entre los banquillos y junto al monitor de revisión, y que habló con el árbitro mientras este revisaba jugadas.
+
+Todo consta en [la resolución del juez disciplinario](https://rfef.es/sites/default/files/sanciones/Primera_Federacion_-_J11.pdf) del 12 de noviembre, que desestima las alegaciones y mantiene las tres expulsiones.
+
+## Lo que denunció el Extremadura, minuto a minuto
+
+**Minuto 4.** El equipo visitante pide revisión de vídeo por un empujón por la espalda a su dorsal 8 dentro del área. El árbitro revisa la jugada y no ve infracción.
+
+**Minuto 55.** Roja a Diego Espejo por sujetar a un rival y evitar una ocasión manifiesta de gol fuera del área. El club admite un agarrón de camiseta, lo llama mínimo y dice que el atacante se dejó caer. [La crónica de RTPA](https://www.rtpa.es/noticias-deportes/2026-11-07/El-Real-Aviles-Industrial-arrolla-al-Extremadura-para-mirar-alto-(5-2)_111794056002.html) cuenta que la expulsión llegó tras la revisión y que de esa falta salió el 2-1.
+
+**Minuto 55, otra vez.** Roja a Juan Miguel Callejón por salir de su área técnica y acercarse a la del rival «generando una confrontación», según el acta. El Extremadura da otra versión: Callejón solo pedía a los árbitros que sacaran a Baeza del túnel, y quienes protestaron fueron los del banquillo local. Callejón es Juanmi, exfutbolista y [hermano gemelo de José Callejón](https://es.wikipedia.org/wiki/Juanmi_Callej%C3%B3n).
+
+**Minuto 90+13.** Roja a David Mateos por protestar una decisión de forma reiterada y aplaudir en señal de desaprobación. El club dice que aplaudía a sus jugadores para animarlos, con el marcador en contra.
+
+Sobre Baeza, el escrito afirma que no tenía licencia ni autorización federativa para estar en esa zona, y que sus conversaciones con el colegiado pudieron influir en las decisiones. El escrito se apoya en diez documentos, entre ellos vídeos de las jugadas, tres fotografías y un fragmento de una revisión en el que, según el club, el árbitro deja el monitor para hablar con él. Para identificar a Baeza remite a publicaciones de prensa.
+
+## La respuesta del juez
+
+Es corta. Que la presencia del presidente rival en el túnel pudiera incidir en las decisiones arbitrales es, escribe, una mera deducción que no se sostiene más que en el relato del club y que no merece más comentarios. De las imágenes del árbitro mirando hacia el túnel añade que no permiten deducir que estuviera recibiendo instrucciones.
+
+Hay algo que la resolución no hace: no entra en si Baeza tenía o no autorización para estar allí. Se limita a decir que no está probado que influyera.
+
+En lo demás aplica la regla de siempre. El acta se presume cierta y solo cae ante un error material manifiesto. El vídeo de la roja a Espejo dura cinco segundos y, según el juez, confirma el agarrón. El de Mateos dura nueve y en él el técnico «parece aplaudir» mirando al árbitro. Un partido de suspensión para cada uno de los tres.
+
+## El partido que había debajo
+
+Fue un 5-2 más apretado de lo que dice el marcador. Osky adelantó al Avilés, Diego Díaz empató antes del descanso, Berto Cayarga hizo el 2-1 en la falta que siguió a la expulsión e Iker Burgos volvió a igualar a balón parado. Con diez, el Extremadura se cayó al final: Natalio, Santi Franco y Daniel Lidueña marcaron en el tramo último, el quinto pasado el minuto 100. Había unos 3.000 espectadores en el Suárez Puerta, y el Avilés se colocó provisionalmente tercero de su grupo de [Primera Federación](/futbol/primera-federacion).
+
+## Un club con dueño conocido
+
+El Extremadura es desde mayo [el club español de Thibaut Courtois](https://cdextremadura.es/thibaut-courtois-y-nxtplay-se-convierten-en-copropietarios-del-cd-extremadura/), copropietario a través de su fondo. El mismo día de la resolución, ese fondo [presentaba una oferta por la Reggiana italiana](/noticias/thibaut-courtois-34-anos-oferta-100-reggiana-nxtplay-duenos-no-vinculante-extremadura-genk-le-mans).
+
+Tampoco fue el único directivo que pasó por el juez ese día. Patrick Messow, del Atlético Baleares, recibió tres partidos por actitudes de menosprecio reiteradas: es el director general que, según el acta, [cruzó 50 metros de campo para encararse con el colegiado](/noticias/atletico-baleares-acta-patrick-messow-50-metros-arbitro-la-nucia-tres-senalados-estadi-balear).`,
+    category: 'polemica',
+    kind: 'noticia',
+    competition: { name: 'Primera Federación', sport: 'futbol', slug: 'primera-federacion' },
+    sourceName: 'RFEF',
+    sourceUrl: 'https://rfef.es/sites/default/files/sanciones/Primera_Federacion_-_J11.pdf',
+    sourceLang: 'es',
+    publishedAt: '2026-11-14T14:25:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'RTPA: el Real Avilés Industrial arrolla al Extremadura (5-2)', url: 'https://www.rtpa.es/noticias-deportes/2026-11-07/El-Real-Aviles-Industrial-arrolla-al-Extremadura-para-mirar-alto-(5-2)_111794056002.html' },
+      { name: 'RFEF: acuerdos del juez disciplinario en Segunda Federación, jornada 10', url: 'https://rfef.es/sites/default/files/sanciones/Segunda_Federacion_-_J10.pdf' },
+      { name: 'CD Extremadura: Courtois y NXTPLAY, copropietarios del club', url: 'https://cdextremadura.es/thibaut-courtois-y-nxtplay-se-convierten-en-copropietarios-del-cd-extremadura/' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Estadio_Rom%C3%A1n_Su%C3%A1rez_Puerta%2C_Avil%C3%A9s.jpg/1280px-Estadio_Rom%C3%A1n_Su%C3%A1rez_Puerta%2C_Avil%C3%A9s.jpg',
+      alt: 'Estadio Román Suárez Puerta de Avilés visto desde la grada durante un partido: césped, tribuna cubierta de asientos azules y edificios de viviendas al fondo',
+      credit: 'Asturkian · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
+    slug: 'ronaldinho-vuelve-ravenna-forli-horario-espana-donde-ver-gratis-onefootball-4068-dias-despues',
+    title: 'Ronaldinho vuelve a jugar 4.068 días después: horario en España y cómo ver gratis el Ravenna - Forlì',
+    summary: 'El brasileño, de 46 años, debuta con el Ravenna este domingo a las 17:30 en la Serie C italiana. En España se ve gratis en OneFootball. Su último partido oficial fue en 2015.',
+    body: `Ronaldinho jugó su último partido oficial el 26 de septiembre de 2015: un Fluminense 2-0 Goiás en Maracaná. Este domingo, 4.068 días después y con 46 años, vuelve a vestirse de corto. Será en el Ravenna - Forlì, el derbi de la Romaña en la Serie C, la tercera categoría de Italia. Y en España se puede ver sin pagar.
+
+## Horario y dónde verlo
+
+| | |
+|---|---|
+| Partido | Ravenna - Forlì (Serie C) |
+| Día | Domingo 15 de noviembre |
+| Hora peninsular | 17:30 |
+| Hora en Canarias | 16:30 |
+| Estadio | Bruno Benelli, Rávena |
+| Dónde verlo en España | OneFootball, gratis |
+
+[OneFootball lo emite en directo y sin coste](https://onefootball.com/en/news/the-return-is-real-watch-ronaldinhos-comeback-for-free-on-onefootball-43770730) en todos los países salvo Italia, San Marino y el Vaticano, donde los derechos son de Sky. Para el resto del fin de semana, aquí está [qué plataforma emite cada competición y cuánto cuesta](/noticias/donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1).
+
+## Cuánto va a jugar
+
+No está claro, y la duda la ha sembrado su propio entrenador. Andrea Mandorlini dijo a [Sky Sport](https://sport.sky.it/calcio/serie-c/2026/11/13/ronaldinho-italia-ravenna-forli-news-diretta) que Ronaldinho jugará una media hora, arriba y con libertad para colocarse donde quiera. La cadena da por probable que sea titular. El [Corriere dello Sport](https://www.corrieredellosport.it/news/calcio/serie-c/2026/11/13-152564638/ronaldinho_in_italia_domenica_il_ritorno_in_campo_nel_derby_ravenna-forl) recoge al mismo técnico diciendo que entrará en la segunda parte.
+
+En lo que no hay discusión es en el dorsal: llevará el 10.
+
+Llega con un solo entrenamiento con sus compañeros en la agenda. El viernes hizo una sesión individual y para este sábado, a las 11:00, tenía previsto el primero con el grupo, en el Benelli.
+
+## Llegó desde Barcelona
+
+Aterrizó el viernes en el aeropuerto de Forlì, hacia las 14:40, en un vuelo procedente de Barcelona, la ciudad en la que jugó de 2003 a 2008 con el [Barça](/futbol/laliga/equipo/83). Le esperaba el presidente del Ravenna, Ignazio Cipriani, que compró el club hace dos años y es quien tuvo la idea de ficharle: era uno de sus ídolos de infancia.
+
+El propio jugador admite lo raro del asunto, en palabras que recoge Sky: «Hasta hoy casi nadie se lo creía».
+
+## Once años, en cinco fechas
+
+- **18 de diciembre de 2010.** Su último partido en Italia: un Milan 0-1 Roma.
+- **26 de septiembre de 2015.** Su último partido oficial, con el Fluminense.
+- **19 de junio de 2026.** Se conoce la noticia del fichaje.
+- **23 de junio de 2026.** Anuncio oficial en Miami, con la camiseta roja y amarilla del club.
+- **15 de noviembre de 2026.** El derbi.
+
+## Un estadio camino del lleno
+
+El Benelli va hacia el cartel de no hay billetes pese a los precios: 30 euros la curva, 120 la tribuna cubierta y 75 la nueva tribuna R10. El partido no entra en el abono de temporada, así que [los socios del Ravenna también han tenido que pagar](/noticias/ronaldinho-46-anos-ravenna-forli-15-noviembre-abonados-pagan-entrada-precios-tribuna-r10).
+
+Quien quiera verle sin ese gasto solo necesita estar fuera de Italia a las cinco y media.`,
+    category: 'tv',
+    kind: 'noticia',
+    competition: { name: 'Serie A', sport: 'futbol', slug: 'serie-a' },
+    sourceName: 'Sky Sport',
+    sourceUrl: 'https://sport.sky.it/calcio/serie-c/2026/11/13/ronaldinho-italia-ravenna-forli-news-diretta',
+    sourceLang: 'it',
+    publishedAt: '2026-11-14T14:27:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'OneFootball: el regreso de Ronaldinho, gratis en directo', url: 'https://onefootball.com/en/news/the-return-is-real-watch-ronaldinhos-comeback-for-free-on-onefootball-43770730' },
+      { name: 'Corriere dello Sport: Ronaldinho ya está en Italia', url: 'https://www.corrieredellosport.it/news/calcio/serie-c/2026/11/13-152564638/ronaldinho_in_italia_domenica_il_ritorno_in_campo_nel_derby_ravenna-forl' },
+      { name: 'ESPN Deportes: Ronaldinho llega a Italia', url: 'https://espndeportes.espn.com/futbol/italia/nota/_/id/17512292/ronaldinho-italia-ravenna-llegada-regreso' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Ronaldinho_bored.jpg/1280px-Ronaldinho_bored.jpg',
+      alt: 'Ronaldinho en noviembre de 2007, con una cinta negra en el pelo y el polo azul de la selección de Brasil, sentado con la mano en la barbilla',
+      credit: 'Filipe Fortes · Wikimedia Commons',
+      license: 'CC BY-SA 2.0',
+    },
+  },
+  {
+    slug: 'arenas-club-getxo-sin-medico-fabril-rfef-apercibe-poblense-puente-genil-multa-primera-federacion',
+    title: 'Arenas Club, campeón de Copa en 1919, jugó sin médico con licencia: el del rival quedó a cargo de los dos',
+    summary: 'El acta del Arenas - Deportivo Fabril recoge que el club de Getxo no presentó licencia de médico. La RFEF le apercibe y, el mismo día, multa a otro club por reincidir.',
+    body: `El Arenas Club ganó 2-1 al Deportivo Fabril en la jornada 11 de [Primera Federación](/futbol/primera-federacion) y encadenó su tercera victoria. El acta de ese partido cuenta otra cosa. El equipo de Getxo no presentó licencia de médico. El Fabril sí llevaba el suyo, y el árbitro dejó escrito que ese médico se haría responsable de los dos equipos si hacía falta.
+
+Lo recoge [la resolución del juez disciplinario de la RFEF](https://rfef.es/sites/default/files/sanciones/Primera_Federacion_-_J11.pdf) del 12 de noviembre.
+
+## Qué exige la norma
+
+En Primera Federación es obligatorio que cada club tenga un médico adscrito, con su licencia, presente durante todos los partidos oficiales. Lo fijan el artículo 21 de las bases de la competición y el 39.h) del Reglamento de Competiciones.
+
+Al Arenas no le cae sanción. El juez le insta a extremar su diligencia y le advierte de las consecuencias del artículo 133 del Código Disciplinario si se repite.
+
+## Lo que pasa la segunda vez
+
+Ese mismo día el juez resolvió dos casos parecidos en [Segunda Federación](https://rfef.es/sites/default/files/sanciones/Segunda_Federacion_-_J10.pdf), y entre los dos se ve el recorrido completo:
+
+1. **UD Poblense.** Tampoco presentó licencia de médico. Tenía a un médico colegiado en la grada, que se identificó ante el árbitro en el vestuario antes de empezar. Mismo aviso que al Arenas.
+2. **Salerm Cosmetics Puente Genil.** Multa por no presentar licencia de médico «habiendo sido previamente apercibido». La comunicación pública no detalla el importe.
+
+Tres clubes en la misma tanda de resoluciones, dos avisados y uno multado.
+
+## Un histórico que empieza a ganar
+
+El Arenas no es un club cualquiera de la categoría. Fundado en 1909, ganó el Campeonato de España de 1919, la actual [Copa del Rey](/futbol/copa-del-rey), y fue uno de los diez equipos de la primera Liga, en 1929. Jugó siete temporadas en Primera, [hasta que descendió en 1935](https://es.wikipedia.org/wiki/Arenas_Club).
+
+Este curso empezó mal. Tras ocho jornadas tenía dos puntos y ninguna victoria. Desde entonces ha ganado a la UD Ourense (2-0), al Deportivo Fabril (2-1) y al Coria (0-1), y es el único equipo de Primera Federación que llega a esta jornada con tres triunfos seguidos, [según la RFEF](https://rfef.es/es/noticias/una-reaccion-para-creer). Está a dos puntos de la zona tranquila. Al Fabril le ganó en Fadura, y este domingo le toca la UD Logroñés.
+
+Lo entrena Jon Erice.
+
+Las actas de esta semana han dado más trabajo al juez. La del Avilés - Extremadura acabó en [una queja por la presencia de un presidente junto al monitor del árbitro](/noticias/cd-extremadura-alegaciones-presidente-aviles-monitor-fvs-juez-rfef-tres-expulsiones-callejon).`,
+    category: 'curiosa',
+    kind: 'noticia',
+    competition: { name: 'Primera Federación', sport: 'futbol', slug: 'primera-federacion' },
+    sourceName: 'RFEF',
+    sourceUrl: 'https://rfef.es/sites/default/files/sanciones/Primera_Federacion_-_J11.pdf',
+    sourceLang: 'es',
+    publishedAt: '2026-11-14T14:29:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'RFEF: acuerdos del juez disciplinario en Segunda Federación, jornada 10', url: 'https://rfef.es/sites/default/files/sanciones/Segunda_Federacion_-_J10.pdf' },
+      { name: 'RFEF: una reacción para creer', url: 'https://rfef.es/es/noticias/una-reaccion-para-creer' },
+      { name: 'Wikipedia: Arenas Club', url: 'https://es.wikipedia.org/wiki/Arenas_Club' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/6/63/Gobela.jpg',
+      alt: 'Partido nocturno en el campo de Gobela, en Getxo: jugadores colocados para una falta sobre césped artificial y, al fondo, una lona roja del Arenas Club con los años 1909 y 1919',
+      credit: 'Andersanti · Wikimedia Commons',
+      license: 'CC0',
+    },
+  },
+  {
     slug: 'partidos-futbol-hoy-2026-11-14',
     title: "Partidos de fútbol hoy, sábado 14 de noviembre: horarios y dónde ver Liga F, LaLiga 2 y Copa de Francia",
     summary: "Agenda de fútbol de hoy sábado 14 de noviembre: 69 partidos con horario en hora española y canal de televisión. Destaca Mirassol - Atlético-MG.",
