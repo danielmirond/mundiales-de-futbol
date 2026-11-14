@@ -154,6 +154,75 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'marc-bernal-19-anos-retirar-padres-mejor-sensacion-como-hijo-el-partidazo-cope',
+    title: "Marc Bernal, 19 años, sobre sus padres: «Es la mejor sensación que puedes sentir como hijo»",
+    summary: "El mediocentro del Barça contó en El Partidazo de COPE que ha podido retirar a sus padres. Su madre tiene 50 años y su padre, 57. Lo decidieron poco a poco, después de que firmara su contrato estando lesionado.",
+    body: `Marc Bernal tiene 19 años y ya ha retirado a sus padres. Lo contó el martes en El Partidazo de COPE, ante Juanma Castaño: «Es la mejor sensación que puedes sentir como hijo», [según recoge la emisora](https://www.cope.es/programas/el-partidazo-de-cope/noticias/marc-bernal-cumple-sueno-hijo-jubila-padres-19-anos-mejor-sensacion-puedes-sentir-20261111_3472983.amp.html).
+
+Castaño le preguntó si eran jóvenes. «Mi madre tiene 50 años y es de informática, números y tal, y mi padre, que tiene 57, antes trabajaba en un banco», respondió, [según El Español](https://www.elespanol.com/deportes/futbol/20261111/marc-bernal-madre-informatica-padre-trabajaba-banco-bonito-haberles-retirado-dt/1003744453521_0.html). «No son jóvenes, pero tampoco son viejos».
+
+## El contrato que firmó lesionado
+
+No fue de un día para otro. Bernal se rompió la rodilla en Vallecas al poco de debutar con el primer equipo, y fue entonces cuando el club le renovó. «Poco a poco se lo iban viendo, que iban saliendo bien las cosas. Firmé el contrato cuando estaba lesionado y, a partir de ahí, se lo iban pensando. Luego también bajaron: en vez de trabajar tanto, bajaron un poco», explicó.
+
+«Para mí es lo más bonito. De lo primero que digas tú que es algo grande, para mí es retirar a tus padres», añadió.
+
+## El café, cada uno el suyo
+
+Dice que el dinero no le ha cambiado. «Llevo dos años desde que me tocó ese contrato que me cambió un poco, pero lo gestiono bien. Mi familia también me ayuda». Con los amigos de Berga, su pueblo, tiene una regla: «Si los llevo a cenar a un restaurante al que quiero ir, pues sí pago, pero si vamos a tomar el café, cada uno se paga lo suyo».
+
+Ahora está concentrado con la sub-21. «El objetivo es ganar eso. Luego ir a las Olimpiadas y, después, si tiene que llegar, pues ya llegará», dijo sobre la absoluta. El Barça y su calendario, en la sección de [LaLiga](/futbol/laliga).`,
+    category: 'general',
+    competition: {"name":"LaLiga","sport":"futbol","slug":"laliga"},
+    sourceName: "COPE (El Partidazo)",
+    sourceUrl: "https://www.cope.es/programas/el-partidazo-de-cope/noticias/marc-bernal-cumple-sueno-hijo-jubila-padres-19-anos-mejor-sensacion-puedes-sentir-20261111_3472983.amp.html",
+    sourceLang: 'es',
+    publishedAt: '2026-11-14T14:42:00+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/027_La_Masia%2C_centre_de_formaci%C3%B3_Oriol_Tort%2C_ciutat_esportiva_Joan_Gamper_%28Sant_Joan_Desp%C3%AD%29.jpg/1280px-027_La_Masia%2C_centre_de_formaci%C3%B3_Oriol_Tort%2C_ciutat_esportiva_Joan_Gamper_%28Sant_Joan_Desp%C3%AD%29.jpg",
+      alt: "Edificio de La Masia, centro de formación Oriol Tort, en la Ciutat Esportiva Joan Gamper de Sant Joan Despí",
+      credit: "Enric · Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+    },
+    sourcesSecondary: [
+      { name: "El Español", url: "https://www.elespanol.com/deportes/futbol/20261111/marc-bernal-madre-informatica-padre-trabajaba-banco-bonito-haberles-retirado-dt/1003744453521_0.html" },
+    ],
+  },
+  {
+    slug: 'veronica-pomaro-madre-kimi-antonelli-paga-cada-mes-campeon-f1-mi-topo',
+    title: "Veronica Pomaro, madre de Antonelli: «Le doy la paga cada mes y tiene que bastarle»",
+    summary: "El campeón del mundo de Fórmula 1 tiene 20 años y sigue cobrando una paga mensual de su madre. Veronica Pomaro, exempleada de Correos italianos, cuenta cómo criaron a Kimi entre circuitos, camiones y un simulador.",
+    body: `Andrea Kimi Antonelli es campeón del mundo de Fórmula 1 y todavía recibe una paga. «Se la ingreso cada mes y tiene que bastarle», contó su madre, Veronica Pomaro, de 53 años, en una entrevista con La Repubblica [que recoge Open](https://www.open.online/2026/11/02/kimi-antonelli-f1-campione-mondo-paghetta/). Pomaro trabajó en Poste Italiane, el servicio de correos, y viene de una familia de agricultores del Véneto que se mudó a Emilia-Romaña.
+
+Para ella, el piloto de Mercedes sigue siendo Andrea, su primer nombre. «Yo ni siquiera lo veo como un piloto de F1. Para mí es solo mi ratón», dijo.
+
+## Un bebé en el paddock
+
+Los padres se conocieron en un gimnasio de Casalecchio di Reno en 1997 y nunca se casaron. Montaron un equipo de carreras y la familia creció dentro de él. «Cuando empezamos a ir de circuito en circuito, yo hacía la compra y cocinaba para el equipo. Marco conducía el camión y tenía que mantenerlo despierto en la carretera», recordó Pomaro. «Empujaba a Kimi en el carrito detrás de los coches y me tomaban por una madre desnaturalizada. Y aun así se dormía».
+
+Marco Antonelli, de 62 años, expiloto, añade un detalle: el niño dormía en una sillita colgada del gancho de la grúa de los motores. «De vez en cuando pasaba y lo mecía con un empujón. En algún sitio teníamos que dejarlo», contó. Él mismo había corrido sin dinero: para una carrera en Pergusa pidió un préstamo al banco para pagar el billete de avión, un casco y el equipo. «He trabajado tres vidas», dijo.
+
+## El simulador a los tres años
+
+El talento lo vio pronto, con un simulador que llevaron a casa tras el Motor Show de 2009. «Yo aceleraba y frenaba, Kimi llevaba el volante y cambiaba de marcha. Ya sabía por dónde tenía que pasar el coche. En un momento me quedaba dormido y él me daba codazos: papá, despierta».
+
+Antonelli ganó el título en México con 20 años. Los récords de precocidad están en [la pieza del campeonato](/noticias/kimi-antonelli-campeon-mundo-f1-20-anos-mexico-record-vettel-alonso-2005-tres-anos-verstappen-gana), y el calendario y la clasificación, en la sección de [Fórmula 1](/motor/formula-1). Las carreras se ven en [DAZN](https://www.awin1.com/cread.php?awinmid=126263&awinaffid=2898755&ued=https%3A%2F%2Fwww.dazn.com%2Fes-ES%2Fwelcome).`,
+    category: 'general',
+    competition: {"name":"Fórmula 1","sport":"motor","slug":"formula-1"},
+    sourceName: "Open (La Repubblica)",
+    sourceUrl: "https://www.open.online/2026/11/02/kimi-antonelli-f1-campione-mondo-paghetta/",
+    sourceLang: 'en',
+    publishedAt: '2026-11-14T14:42:00+01:00',
+    author: "Redacción Mundiales",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Andrea_Kimi_Antonelli_2025_Italian_Grand_Prix_qualifying3.jpg/1280px-Andrea_Kimi_Antonelli_2025_Italian_Grand_Prix_qualifying3.jpg",
+      alt: "Kimi Antonelli al volante del Mercedes W16 durante la clasificación del Gran Premio de Italia 2025 en Monza",
+      credit: "Eustace Bagge · Wikimedia Commons",
+      license: "CC BY 4.0",
+    },
+  },
+  {
     slug: 'thibaut-courtois-34-anos-oferta-100-reggiana-nxtplay-duenos-no-vinculante-extremadura-genk-le-mans',
     title: 'Courtois, 34 años, quiere toda la Reggiana y los dueños contestan: «No ha llegado ninguna oferta vinculante»',
     summary: 'El fondo del portero del Real Madrid anunció una oferta por el 100 % de la Reggiana, de la Serie C italiana. Los socios del club responden que falta la oferta irrevocable y la fianza.',
