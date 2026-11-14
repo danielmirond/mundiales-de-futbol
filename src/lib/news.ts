@@ -154,6 +154,40 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'nba-resultados-2026-11-14',
+    title: "NBA: todos los resultados de la jornada y el partido más igualado",
+    summary: "Resultados de los 9 partidos de la noche en la NBA, con el más igualado y el de más puntos.",
+    body: `9 partidos en la NBA esta noche. El más igualado, Clippers 113-112 a Thunder, decidido en la última posesión. El de más puntos, Heat ante Cavaliers (133-121).
+
+## Resultados
+
+- [Pacers 106-104 Knicks](/baloncesto/nba/partido/401909296)
+- [Magic 107-99 Bucks](/baloncesto/nba/partido/401909297)
+- [Heat 133-121 Cavaliers](/baloncesto/nba/partido/401909298)
+- [Bulls 125-117 Hawks](/baloncesto/nba/partido/401909299)
+- [Grizzlies 142-111 Pelicans](/baloncesto/nba/partido/401909300)
+- [Rockets 125-118 Jazz](/baloncesto/nba/partido/401909301)
+- [Spurs 123-85 Warriors](/baloncesto/nba/partido/401909302)
+- [Trail Blazers 120-107 Kings](/baloncesto/nba/partido/401909303)
+- [Clippers 113-112 Thunder](/baloncesto/nba/partido/401909304)
+
+Marcadores en directo, calendario y clasificación por conferencias en la [página de la NBA](/baloncesto/nba).`,
+    category: 'general',
+    kind: 'cronica',
+    competition: {"name":"NBA","sport":"baloncesto","slug":"nba"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/nba/scoreboard",
+    sourceLang: 'en',
+    publishedAt: '2026-11-14T13:54:18.924Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Intuit_Dome_under_construction_October_2023_from_the_west.jpg/1920px-Intuit_Dome_under_construction_October_2023_from_the_west.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Intuit Dome, sede del Clippers - Thunder",
+      credit: "Dialh · CC0 · Wikimedia Commons",
+      license: "CC0",
+    },
+  },
+  {
     slug: 'marc-bernal-19-anos-retirar-padres-mejor-sensacion-como-hijo-el-partidazo-cope',
     title: "Marc Bernal, 19 años, sobre sus padres: «Es la mejor sensación que puedes sentir como hijo»",
     summary: "El mediocentro del Barça contó en El Partidazo de COPE que ha podido retirar a sus padres. Su madre tiene 50 años y su padre, 57. Lo decidieron poco a poco, después de que firmara su contrato estando lesionado.",
@@ -462,7 +496,7 @@ Las actas de esta semana han dado más trabajo al juez. La del Avilés - Extrema
 
 ## 🇪🇸 Liga F
 
-- **[Espanyol - Tenerife](/futbol/liga-f/partido/401882458)** — 12:00 h
+- **[Espanyol - Tenerife](/futbol/liga-f/partido/401882458)** — 12:00 h — **final 1-3**
 - **[Alavés - Eibar](/futbol/liga-f/partido/401882460)** — 18:00 h
 - **[Real Madrid - Badalona](/futbol/liga-f/partido/401882456)** — 20:30 h
 
@@ -470,7 +504,7 @@ Calendario y clasificación en la [página de Liga F](/futbol/liga-f).
 
 ## 🇪🇸 LaLiga Hypermotion
 
-- **[Valladolid - Castellón](/futbol/laliga-2/partido/401883114)** — 14:00 h · 📺 LALIGA TV Hypermotion / DAZN
+- **[Valladolid - Castellón](/futbol/laliga-2/partido/401883114)** — 14:00 h · 📺 LALIGA TV Hypermotion / DAZN — **en juego, 0-0**
 - **[Real Sociedad II - Gijón](/futbol/laliga-2/partido/401883134)** — 16:15 h
 - **[Almería - FC Andorra](/futbol/laliga-2/partido/401883118)** — 18:30 h · 📺 LALIGA TV Hypermotion / DAZN
 - **[Mallorca - Córdoba](/futbol/laliga-2/partido/401883135)** — 18:30 h · 📺 LALIGA TV Hypermotion / DAZN
@@ -562,7 +596,7 @@ Horarios en hora de España; los resultados y la narración de cada partido van 
     sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401841311",
     sourceLang: 'en',
     publishedAt: '2026-11-14T01:51:03.358Z',
-    modifiedAt: '2026-11-14T01:51:03.358Z',
+    modifiedAt: '2026-11-14T13:54:18.924Z',
     author: "Redacción Mundiales de Fútbol",
     image: {
       url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Mirassol_%2873674261%29.jpeg/1920px-Mirassol_%2873674261%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
