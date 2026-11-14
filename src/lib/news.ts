@@ -154,6 +154,270 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'espana-inglaterra-horario-donde-ver-nations-league-metropolitano-domingo-15-primer-puesto-jodar-zverev',
+    title: 'España - Inglaterra: horario y dónde ver el domingo el partido que decide el primer puesto del grupo',
+    summary: 'España recibe a Inglaterra el domingo 15 a las 20:45 en el Metropolitano, en abierto por La 1. Le vale el empate para ser primera. Antes, Jódar debuta en Turín contra Zverev.',
+    body: `España e Inglaterra cierran la fase de grupos de la [Nations League](/futbol/nations-league) este domingo 15 de noviembre a las 20:45 en el Riyadh Air Metropolitano. Se ve en abierto: [la ficha del partido](/futbol/nations-league/partido/401861175) recoge La 1 y RTVE Play. Las dos selecciones ya están en cuartos y lo único que se juega es quién acaba primera.
+
+Todas las horas son peninsulares. En Canarias, una hora menos.
+
+## Horario y canal
+
+| | |
+|---|---|
+| Partido | España - Inglaterra (grupo A3, sexta jornada) |
+| Día | Domingo 15 de noviembre |
+| Hora peninsular | 20:45 |
+| Hora en Canarias | 19:45 |
+| Estadio | Riyadh Air Metropolitano (Madrid) |
+| Dónde verlo | La 1 y RTVE Play |
+| Árbitro | Clément Turpin (Francia) |
+
+La designación de Turpin la [anunció la Federación](https://rfef.es/es/noticias/clement-turpin-dirigira-el-espana-inglaterra). El resto de plataformas y precios de la competición están en [la guía de la Nations League](/noticias/donde-ver-nations-league-2026-27-espana-la-1-dazn-chequia-inglaterra) y en la que explica [qué plataforma emite cada competición y cuánto cuesta](/noticias/donde-ver-deporte-espana-2026-27-canales-precios-laliga-champions-nba-f1).
+
+## Cómo llega el grupo
+
+| Selección | PJ | G | E | P | Goles | Puntos |
+|---|---|---|---|---|---|---|
+| España | 5 | 5 | 0 | 0 | 14-5 | 15 |
+| Inglaterra | 5 | 4 | 0 | 1 | 16-4 | 12 |
+| Croacia | 5 | 1 | 0 | 4 | 5-16 | 3 |
+| Chequia | 5 | 0 | 0 | 5 | 2-12 | 0 |
+
+Son los números de [la clasificación de ESPN](https://www.espn.com/soccer/standings/_/league/uefa.nations) tras la quinta jornada. España [ganó 0-2 en Praga el jueves](/noticias/marc-pubill-96-chequia-espana-pleno-cinco-victorias-nations-league-inglaterra-metropolitano) y la Federación habla de [una última batalla por el liderato](https://rfef.es/es/noticias/15-puntos-y-una-ultima-batalla-por-el-liderato). Inglaterra venció 2-1 a Croacia esa misma noche en Wembley.
+
+## Qué necesita cada una
+
+- **A España le basta el empate.** Con un punto se va a 16 y es inalcanzable.
+- **Si gana Inglaterra, empatan a 15.** Cuenta primero lo que pasó entre las dos. En septiembre España ganó 2-3 en Wembley, así que una derrota por dos o más goles le da el grupo a Inglaterra.
+- **Si Inglaterra gana por un gol,** el cruce directo queda igualado y se mira la diferencia de goles general. Hoy es de +12 para los ingleses y de +9 para España.
+
+La cuenta sale sola: a España no le vale perder por poco.
+
+Luis de la Fuente contaba con incorporar para este partido a Lamine Yamal y a Mikel Oyarzabal, que no jugaron en Praga. En Inglaterra la duda está en la portería, donde Tuchel ha dejado abierta la opción de [repartir minutos entre Pickford y Trafford](/noticias/james-trafford-portero-tres-goles-espana-wembley-pickford-tuchel-reparto-metropolitano-nations-league).
+
+## El resto del domingo
+
+A la misma hora, las 20:45, se juegan el Bélgica - Italia, el Francia - Turquía y el Croacia - Chequia, [según el calendario de ESPN](https://www.espn.com/soccer/scoreboard/_/league/uefa.nations/date/20261115). Antes hay tenis y fútbol español:
+
+| Hora | Cita |
+|---|---|
+| 12:00 | Liga F: Real Sociedad - Athletic Club y Madrid CFF - Dux Logroño |
+| No antes de las 14:00 | ATP Finals: Zverev - Jódar (Movistar Plus+) |
+| 14:00 | LaLiga Hypermotion: Tenerife - Ceuta |
+| 16:00 | Liga F: Sevilla - Atlético de Madrid |
+| 16:15 | LaLiga Hypermotion: Granada - Las Palmas |
+| 17:30 | Serie C: Ravenna - Forlì, con el regreso anunciado de Ronaldinho |
+| 18:00 | Liga F: Deportivo - Barcelona |
+| 18:15 | Liga F: Valencia - Granada |
+| 18:30 | LaLiga Hypermotion: Eibar - Cádiz y Eldense - Sabadell |
+| 20:45 | Nations League: España - Inglaterra (La 1) |
+| 00:00 | NBA: Boston Celtics - Dallas Mavericks |
+
+Rafael Jódar abre el torneo de maestros contra el número 1, como contamos en [la previa de su debut](/noticias/rafael-jodar-debuta-turin-zverev-numero-1-horarios-alcaraz-atp-finals). El regreso de Ronaldinho se puede ver gratis y lo explicamos [aquí](/noticias/ronaldinho-vuelve-ravenna-forli-horario-espana-donde-ver-gratis-onefootball-4068-dias-despues). Y ya de madrugada, el partido de Boston cruza a los Celtics de Hugo González con los Mavericks de Santi Aldama; el canal de cada partido de la [NBA](/baloncesto/nba) está en el calendario de la sección.
+
+Los canales de LaLiga Hypermotion y de la Liga F figuran en la ficha de cada partido, dentro de [LaLiga Hypermotion](/futbol/laliga-2) y de la [Liga F](/futbol/liga-f).`,
+    category: 'tv',
+    kind: 'noticia',
+    competition: { name: 'Nations League', sport: 'futbol', slug: 'nations-league' },
+    sourceName: 'ESPN',
+    sourceUrl: 'https://www.espn.com/soccer/match/_/gameId/401861175',
+    sourceLang: 'en',
+    publishedAt: '2026-11-14T21:33:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'ESPN: clasificación de la Nations League', url: 'https://www.espn.com/soccer/standings/_/league/uefa.nations' },
+      { name: 'RFEF: 15 puntos y una última batalla por el liderato', url: 'https://rfef.es/es/noticias/15-puntos-y-una-ultima-batalla-por-el-liderato' },
+      { name: 'RFEF: Clément Turpin dirigirá el España - Inglaterra', url: 'https://rfef.es/es/noticias/clement-turpin-dirigira-el-espana-inglaterra' },
+      { name: 'ESPN: partidos de la Nations League del 15 de noviembre', url: 'https://www.espn.com/soccer/scoreboard/_/league/uefa.nations/date/20261115' },
+    ],
+    image: {
+      url: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Madrid_-_Estadio_Wanda_Metropolitano_07.jpg/1280px-Madrid_-_Estadio_Wanda_Metropolitano_07.jpg',
+      alt: 'Exterior del estadio Metropolitano de Madrid, con la cubierta roja sobre la fachada',
+      credit: 'Zarateman · Wikimedia Commons',
+      license: 'CC0',
+    },
+  },
+  {
+    slug: 'eddy-merckx-81-anos-nueve-operaciones-cadera-bici-de-ciudad-volver-carreras-la-cannibale-van-himst',
+    title: 'Eddy Merckx, 81 años: «Ya monto en una bici de ciudad, pero espero volver pronto a una de carreras»',
+    summary: 'El belga ha pasado nueve veces por el quirófano desde que se rompió la cadera en diciembre de 2024. El viernes reapareció en un centro de rehabilitación y contó cómo está.',
+    body: `Eddy Merckx ha pasado nueve veces por el quirófano desde que se cayó de la bicicleta en diciembre de 2024. El viernes reapareció en público, en el centro de rehabilitación To Walk Again, y contó cómo está a la cadena flamenca VTM, en unas declaraciones que recoge [el diario belga L'Avenir](https://www.lavenir.net/sports/football/2026/11/13/eddy-merckx-evoque-son-etat-de-santee-et-adresse-une-pensee-a-paul-van-himst-jespere-que-nous-pourrons-bientot-retourner-voir-anderlecht-ensemble-TU7OKV73TBBFRCUS7A66WO624A/). «Ya monto en una bici de ciudad, pero espero volver pronto a una de carreras», dijo.
+
+Tiene 81 años. Dice que no puede quejarse, que sigue en rehabilitación y que la cosa va bastante bien.
+
+## Tres sesiones a la semana
+
+La rutina que describió es la de un paciente aplicado: dos sesiones semanales de rehabilitación en Amberes y una tercera en casa. La bici de paseo ya la usa. La de carretera, todavía no.
+
+Estaba en el centro por un motivo concreto. Allí se presentaba la nueva edición de La Cannibale, una marcha que sube el Mont Ventoux juntando a ciclistas con y sin discapacidad. Merckx defendió esa mezcla y dijo que le parece muy importante reunir a todo el mundo.
+
+## Casi dos años de quirófanos
+
+Ninguna de las fuentes consultadas publica la lista completa de las nueve operaciones. Esto es lo que se puede reconstruir con lo que se ha ido contando:
+
+| Fecha | Qué pasó |
+|---|---|
+| 9 de diciembre de 2024 | Se cae en un entrenamiento en Hombeek, cerca de Malinas, y se rompe el cuello del fémur. Le ponen una prótesis de cadera en Herentals. Tenía 79 años |
+| Agosto de 2025 | Sufre un ictus, según recuerda L'Avenir |
+| 9 de abril de 2026 | Lleva una semana ingresado por una infección en esa cadera. Ya había sido operado seis veces |
+| 17 de abril de 2026 | Su hijo Axel habla de la octava intervención en la misma cadera: un lavado, porque cambiar la prótesis no era posible |
+| 13 de noviembre de 2026 | Reaparece en To Walk Again. Son ya nueve operaciones |
+
+La caída la contó entonces [la revista alemana Tour](https://www.tour-magazin.de/en/professional-cycling/latest-news/eddy-merckx-suffers-fractured-neck-of-femur-cycling-legend-undergoes-hip-surgery/). El ingreso de abril lo recogió en España [El Español](https://www.elespanol.com/deportes/ciclismo/20260409/eddy-merckx-leyenda-ciclismo-hospitalizado-infeccion-cadera/1003744200322_0.html), y ocho días después Axel Merckx reconoció a Het Nieuwsblad que los dos últimos años habían sido muy duros para su padre, en palabras que tradujo [IDL Pro Cycling](https://www.idlprocycling.com/cycling/eddy-merckx-undergoes-eighth-hip-operation-as-son-axel-shares-positive-update). Por entonces la duda era si el lavado bastaría para acabar con la infección.
+
+Siete meses más tarde, Merckx pedalea. En bici de paseo, pero pedalea.
+
+## El amigo que le falta en la grada
+
+La otra noticia de su comparecencia fue para su amigo Paul Van Himst, leyenda del Anderlecht y del fútbol belga. Merckx contó que está en el hospital con algunos problemas de salud, que está en buenas manos y que debería recuperarse pronto. Espera que los dos puedan volver pronto a ver juntos al Anderlecht.
+
+## Por qué importa tanto una bici de carreras
+
+Para el aficionado español, Merckx es el hombre que ganó cinco Tours antes de que [Miguel Induráin](/noticias/indurain-ocho-vueltas-espana-unica-septiembre-abandono-lagos-covadonga) igualara la cifra. Ganó también cinco Giros, tres Mundiales y la Vuelta a España de 1973, la única que corrió, como recoge [su biografía en Wikipedia](https://es.wikipedia.org/wiki/Eddy_Merckx). Se retiró en 1978. La caída de 2024 fue entrenando, con 79 años.
+
+Por eso mide su recuperación en volver a una bicicleta de carretera. Hay precedentes de longevidad sobre ruedas, como el de Walter Fowler, que [volvió a ser campeón del mundo máster a los 92 años](/noticias/walter-fowler-92-anos-campeon-mundial-master-pista-500-metros-londres).`,
+    category: 'jugadores',
+    kind: 'noticia',
+    competition: { name: 'Ciclismo', sport: 'ciclismo', slug: 'ciclismo' },
+    sourceName: "L'Avenir",
+    sourceUrl: 'https://www.lavenir.net/sports/football/2026/11/13/eddy-merckx-evoque-son-etat-de-santee-et-adresse-une-pensee-a-paul-van-himst-jespere-que-nous-pourrons-bientot-retourner-voir-anderlecht-ensemble-TU7OKV73TBBFRCUS7A66WO624A/',
+    sourceLang: 'fr',
+    publishedAt: '2026-11-14T21:34:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Tour Magazin: Merckx se rompe el cuello del fémur (diciembre de 2024)', url: 'https://www.tour-magazin.de/en/professional-cycling/latest-news/eddy-merckx-suffers-fractured-neck-of-femur-cycling-legend-undergoes-hip-surgery/' },
+      { name: 'El Español: Merckx, hospitalizado por una infección en la cadera (abril de 2026)', url: 'https://www.elespanol.com/deportes/ciclismo/20260409/eddy-merckx-leyenda-ciclismo-hospitalizado-infeccion-cadera/1003744200322_0.html' },
+      { name: 'IDL Pro Cycling: octava operación de cadera de Merckx', url: 'https://www.idlprocycling.com/cycling/eddy-merckx-undergoes-eighth-hip-operation-as-son-axel-shares-positive-update' },
+      { name: 'Wikipedia: Eddy Merckx', url: 'https://es.wikipedia.org/wiki/Eddy_Merckx' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Eddy_Merckx%2C_Amstel_Gold_Race_1975_finish.jpg/1280px-Eddy_Merckx%2C_Amstel_Gold_Race_1975_finish.jpg',
+      alt: 'Fotografía en blanco y negro de Eddy Merckx cruzando la meta de la Amstel Gold Race de 1975 con los brazos en alto y el maillot arcoíris de campeón del mundo, entre vallas llenas de público',
+      credit: 'Hans Peters (Anefo) · Wikimedia Commons',
+      license: 'CC0',
+    },
+  },
+  {
+    slug: 'carlo-ancelotti-raphinha-expulsados-japon-brasil-3-2-singapur-arbitro-controlar-banquillo-kubo-vinicius',
+    title: 'Carlo Ancelotti, expulsado con Raphinha tras el 3-2 de Japón: lo que el árbitro le dijo para echarle',
+    summary: 'Brasil perdió 3-2 con Japón en Singapur con un gol en el minuto 91. Ancelotti y Raphinha, ya sustituido, vieron la roja en la banda. Marcaron Kubo y dos veces Vinícius.',
+    body: `Carlo Ancelotti acabó expulsado este sábado en Singapur, en la derrota de Brasil ante Japón por 3-2 en un amistoso. La roja le llegó en el descuento, después del gol japonés del minuto 91. Según explicó el propio seleccionador, el árbitro le dijo que le echaba porque no era capaz de controlar a su banquillo y porque todos los jugadores estaban dentro del campo.
+
+Con él se fue Raphinha, capitán del Barcelona y este sábado también de Brasil. Llevaba veinte minutos sustituido.
+
+## Cuatro nombres de LaLiga
+
+Kubo, Vinícius, Endrick y Raphinha aparecen en el relato del partido. Así fue, [según el minuto a minuto de ESPN](https://www.espn.com/soccer/match/_/gameId/401916337):
+
+- **Minuto 15.** Takefusa Kubo, de la Real Sociedad, abre el marcador con la zurda tras un pase de Doan.
+- **Minuto 19.** Keito Nakamura hace el 2-0.
+- **Minuto 33.** Vinícius recorta distancias con un disparo desde fuera del área a la escuadra.
+- **Minuto 71.** Endrick entra por Raphinha.
+- **Minuto 75.** Vinícius empata, otra vez desde fuera del área y otra vez a pase de Bruno Guimarães.
+- **Minuto 91.** Tatsuhiro Sakamoto marca el 3-2. El gol se revisa en el VAR y sube al marcador.
+- **Minuto 92.** Roja a Raphinha, en el banquillo.
+
+La expulsión de Ancelotti no figura en esa relación, que solo recoge tarjetas a futbolistas, pero la cuentan [la BBC](https://sports.yahoo.com/articles/ancelotti-raphinha-sent-off-japan-132515222.html) y la prensa brasileña.
+
+## Qué protestaba Brasil
+
+La jugada del tercer gol nace de una pérdida de João Gomes. Brasil pidió falta de Takumi Minamino en esa acción, el árbitro dejó seguir y Japón marcó. Según el relato de [RTI Esporte](https://onefootball.com/en/news/carlo-ancelotti-explains-sending-off-after-brazils-defeat-to-japan-43776184), Ancelotti entró al campo a protestar y el colegiado entendió que la reacción de los suplentes se había pasado de la raya.
+
+«Me sacó la roja porque dijo que yo no era capaz de controlar el banquillo y que todos los jugadores estaban en el campo», explicó después.
+
+No se quedó ahí. Sostuvo que el resultado estuvo condicionado por el arbitraje y que al colegiado le faltaba experiencia para un partido así. El árbitro era Jansen Foo, de Singapur. La BBC añade que Brasil ya había reclamado un penalti sobre Raphinha en la primera parte y que, tras el pitido final, el personal de seguridad tuvo que separar a jugadores y árbitros.
+
+## Japón ya no es una sorpresa
+
+Es la segunda vez en año y medio que Japón gana 3-2 a Brasil en un amistoso, recuerda la BBC. Entre medias se cruzaron donde contaba: en los dieciseisavos del [Mundial de 2026](/2026), en Houston, Brasil pasó con un 2-1.
+
+Ancelotti salió en Singapur con Pedro Luccas, Gabriel Magalhães, Jair Cunha, Carlos Augusto, Wesley, Andrey Santos, André, Bruno Guimarães, Raphinha, Vinícius y Estêvão. Endrick, que entró desde el banquillo, estrelló un balón en el larguero.
+
+## Lo que viene
+
+Brasil juega el martes contra Singapur, el segundo amistoso de la gira. Ancelotti es seleccionador desde 2025 y este año amplió su contrato hasta el Mundial de 2030.
+
+Vinícius y Endrick son jugadores del [Real Madrid](/futbol/laliga/equipo/86) y Raphinha, del [Barcelona](/futbol/laliga/equipo/83). Los datos de la selección están en la ficha de [Brasil](/selecciones/bra).`,
+    category: 'amistosos',
+    kind: 'noticia',
+    competition: { name: 'Fútbol', sport: 'futbol', slug: 'futbol' },
+    sourceName: 'BBC Sport',
+    sourceUrl: 'https://sports.yahoo.com/articles/ancelotti-raphinha-sent-off-japan-132515222.html',
+    sourceLang: 'en',
+    publishedAt: '2026-11-14T21:35:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'ESPN: acta y minuto a minuto del Japón 3-2 Brasil', url: 'https://www.espn.com/soccer/match/_/gameId/401916337' },
+      { name: 'RTI Esporte (vía OneFootball): Ancelotti explica su expulsión', url: 'https://onefootball.com/en/news/carlo-ancelotti-explains-sending-off-after-brazils-defeat-to-japan-43776184' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Carlo_Ancelotti_2012-12-29.jpg/1280px-Carlo_Ancelotti_2012-12-29.jpg',
+      alt: 'Carlo Ancelotti en una rueda de prensa de 2012, cuando entrenaba al Paris Saint-Germain, con chaqueta oscura ante un micrófono y el escudo del club al fondo',
+      credit: 'Doha Stadium Plus Qatar · Wikimedia Commons',
+      license: 'CC BY 2.0',
+    },
+  },
+  {
+    slug: 'atletico-baleares-16-partidos-sancion-una-acta-juan-torrens-diez-messow-tres-juez-rfef-la-nucia',
+    title: 'Atlético Baleares suma 16 partidos de sanción por una sola acta: diez son para un ayudante técnico',
+    summary: 'El juez de la RFEF castiga con diez partidos al ayudante Juan Torrens, tres al director general Patrick Messow, dos al delegado y uno a Andone por el Atlético Baleares - La Nucía.',
+    body: `El Atlético Baleares - La Nucía del domingo pasado le ha costado al club mallorquín 16 partidos de sanción repartidos entre cuatro personas. Diez son para una sola: Juan Torrens, ayudante del cuerpo técnico. Lo fija [la resolución del juez disciplinario de la RFEF](https://rfef.es/sites/default/files/sanciones/Segunda_Federacion_-_J10.pdf) del 12 de noviembre, que resuelve con el acta del árbitro delante.
+
+Solo uno de los cuatro sancionados estaba jugando.
+
+## El reparto
+
+| Sancionado | Cargo | Partidos | Motivo que da el juez |
+|---|---|---|---|
+| Juan Torrens | Ayudante técnico | 8 | Insultos, ofensas verbales y actitudes injuriosas «insistentes y reiteradas» a los árbitros (artículo 99) |
+| Juan Torrens | Ayudante técnico | 2 | Menosprecio o desconsideración hacia los árbitros (artículo 124) |
+| Patrick Messow | Director general (dirigente) | 3 | Menosprecio o desconsideración reiterados (artículo 124) |
+| Jerónimo Tegla | Delegado | 2 | Menosprecio o desconsideración (artículo 124) |
+| Florin Andone | Jugador | 1 | Doble amonestación (artículo 120) |
+
+Todas llevan multa accesoria. La comunicación pública no da los importes.
+
+## Por qué ocho y no menos
+
+En la sanción más larga el juez explica el cálculo, cosa que no hace con las demás. Dice que impone el castigo «en la franja superior de su grado medio» por la especial intensidad y persistencia de la conducta. Es decir, que dentro de lo que el Código Disciplinario permite para los insultos a un árbitro, eligió la parte alta.
+
+El acta, que en su día reprodujeron [Última Hora](https://www.ultimahora.es/deportes/atletico-baleares/2026/11/08/2745727/arbitraje-irrita-messow-tienes-puta-idea-nos-jugamos.html) y [COPE Mallorca](https://www.cope.es/emisoras/illes-balears/baleares/mallorca/deportes-mallorca/noticias/atletico-baleares-crispa-arbitraje-partido-nucia-no-tienes-puta-idea-jugamos-20261109_3471156.html), situaba a Torrens en dos momentos: expulsado en el minuto 82 por salir del banquillo y dirigirse al árbitro a gritos, y después con insultos graves a la terna en la zona de vestuarios. De ahí salen las dos sanciones. La de Messow corresponde al pasaje más comentado, el de [los 50 metros que cruzó para encararse con el colegiado](/noticias/atletico-baleares-acta-patrick-messow-50-metros-arbitro-la-nucia-tres-senalados-estadi-balear).
+
+## La más alta de toda la jornada
+
+El documento de la RFEF reúne los acuerdos de los cinco grupos de [Segunda Federación](/futbol/segunda-federacion) en esa jornada, la décima. Repasado entero, fuera de este partido ninguna suspensión pasa de dos encuentros. Los ocho de Torrens por una sola infracción cuadruplican esa cifra.
+
+Tampoco hay nada parecido en [la resolución de Primera Federación](https://rfef.es/sites/default/files/sanciones/Primera_Federacion_-_J11.pdf) de ese mismo día, donde el juez tuvo que responder a las quejas del Extremadura por [quién estaba junto al monitor del árbitro](/noticias/cd-extremadura-alegaciones-presidente-aviles-monitor-fvs-juez-rfef-tres-expulsiones-callejon).
+
+El calendario da la medida. Los grupos de Segunda Federación tienen 18 equipos y 34 jornadas. Tras la décima quedaban 24. Diez partidos sin sentarse en el banquillo son cuatro de cada diez de los que restaban de liga regular.
+
+## Lo que no aparece
+
+En el apartado de resoluciones especiales del grupo 3, que es donde el juez contesta a las alegaciones de los clubes, no figura ninguna del Atlético Baleares. El club había hablado de indefensión y discutía la segunda amarilla de Andone, que se queda en el partido de rigor.
+
+Queda la vía del Comité de Apelación, que esta misma semana ya dejó sin tocar otra tarjeta protestada con imágenes, [la del Sevilla](/noticias/sevilla-camara-arbitro-apelacion-no-la-mira-amarilla-felix-correia-agoume-huijsen-oviedo-si-gana).`,
+    category: 'polemica',
+    kind: 'noticia',
+    competition: { name: 'Segunda Federación', sport: 'futbol', slug: 'segunda-federacion' },
+    sourceName: 'RFEF',
+    sourceUrl: 'https://rfef.es/sites/default/files/sanciones/Segunda_Federacion_-_J10.pdf',
+    sourceLang: 'es',
+    publishedAt: '2026-11-14T21:36:00+01:00',
+    author: 'Redacción Mundiales',
+    sourcesSecondary: [
+      { name: 'Última Hora: el arbitraje irrita a Messow', url: 'https://www.ultimahora.es/deportes/atletico-baleares/2026/11/08/2745727/arbitraje-irrita-messow-tienes-puta-idea-nos-jugamos.html' },
+      { name: 'COPE Mallorca: el Atlético Baleares se crispa con el arbitraje', url: 'https://www.cope.es/emisoras/illes-balears/baleares/mallorca/deportes-mallorca/noticias/atletico-baleares-crispa-arbitraje-partido-nucia-no-tienes-puta-idea-jugamos-20261109_3471156.html' },
+      { name: 'RFEF: acuerdos del juez disciplinario en Primera Federación, jornada 11', url: 'https://rfef.es/sites/default/files/sanciones/Primera_Federacion_-_J11.pdf' },
+    ],
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Baleares_-_Celta_2022_%282%29.jpg/1280px-Baleares_-_Celta_2022_%282%29.jpg',
+      alt: 'El Estadi Balear de noche, visto desde la grada: los dos banquillos acristalados en primer término y jugadores y técnicos sobre el césped al acabar un partido de 2022',
+      credit: 'Joan Gené · Wikimedia Commons',
+      license: 'CC BY-SA 4.0',
+    },
+  },
+  {
     slug: 'nba-resultados-2026-11-14',
     title: "NBA: todos los resultados de la jornada y el partido más igualado",
     summary: "Resultados de los 9 partidos de la noche en la NBA, con el más igualado y el de más puntos.",
