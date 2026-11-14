@@ -154,6 +154,123 @@ export function newsImageAlt(item: NewsItem): string {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    slug: 'partidos-futbol-hoy-2026-11-14',
+    title: "Partidos de fútbol hoy, sábado 14 de noviembre: horarios y dónde ver Liga F, LaLiga 2 y Copa de Francia",
+    summary: "Agenda de fútbol de hoy sábado 14 de noviembre: 69 partidos con horario en hora española y canal de televisión. Destaca Mirassol - Atlético-MG.",
+    body: `El fútbol no para: 69 encuentros este sábado 14 de noviembre. Esta es la agenda completa con horarios de España y televisión. El partido que más miradas reúne es el **[Mirassol - Atlético-MG](/futbol/brasileirao/partido/401841311)** (Brasileirão, 22:30 h).
+
+## 🇪🇸 Liga F
+
+- **[Espanyol - Tenerife](/futbol/liga-f/partido/401882458)** — 12:00 h
+- **[Alavés - Eibar](/futbol/liga-f/partido/401882460)** — 18:00 h
+- **[Real Madrid - Badalona](/futbol/liga-f/partido/401882456)** — 20:30 h
+
+Calendario y clasificación en la [página de Liga F](/futbol/liga-f).
+
+## 🇪🇸 LaLiga Hypermotion
+
+- **[Valladolid - Castellón](/futbol/laliga-2/partido/401883114)** — 14:00 h · 📺 LALIGA TV Hypermotion / DAZN
+- **[Real Sociedad II - Gijón](/futbol/laliga-2/partido/401883134)** — 16:15 h
+- **[Almería - FC Andorra](/futbol/laliga-2/partido/401883118)** — 18:30 h · 📺 LALIGA TV Hypermotion / DAZN
+- **[Mallorca - Córdoba](/futbol/laliga-2/partido/401883135)** — 18:30 h · 📺 LALIGA TV Hypermotion / DAZN
+- **[Real Oviedo - Girona](/futbol/laliga-2/partido/401883115)** — 21:00 h · 📺 LALIGA TV Hypermotion / DAZN
+
+Calendario y clasificación en la [página de LaLiga 2](/futbol/laliga-2).
+
+## 🇫🇷 Copa de Francia
+
+- **[Balagne - Montpellier](/futbol/copa-de-francia/partido/401932858)** — 14:00 h
+- **[Le Puy - Diables Noirs](/futbol/copa-de-francia/partido/401932857)** — 14:00 h
+- **[Pauloise - La Tamponnaise](/futbol/copa-de-francia/partido/401933096)** — 14:00 h
+- **[Tourcoing - Reims](/futbol/copa-de-francia/partido/401932840)** — 14:00 h
+- **[Versailles - Rodez Aveyron](/futbol/copa-de-francia/partido/401932856)** — 14:00 h
+- **[Boulay - Sochaux](/futbol/copa-de-francia/partido/401932843)** — 14:30 h
+- **[CRUSSOL - Frejus](/futbol/copa-de-francia/partido/401932776)** — 15:00 h
+- **[Chalon-sur-Saone - Hauts Lyonnais](/futbol/copa-de-francia/partido/401932836)** — 16:00 h
+- **[Choisy - Caen](/futbol/copa-de-francia/partido/401932777)** — 16:00 h
+- **[Fontenay Foot - Clermont Foot](/futbol/copa-de-francia/partido/401932833)** — 16:00 h
+- **[Firminy - Annecy](/futbol/copa-de-francia/partido/401932778)** — 17:00 h
+- **[IC Croix - Thaon](/futbol/copa-de-francia/partido/401932832)** — 17:00 h
+- **[Le Poire SV - Vertou](/futbol/copa-de-francia/partido/401932803)** — 17:00 h
+- **[Pont-de-Cheruy - Bourg-Peronnas](/futbol/copa-de-francia/partido/401932834)** — 17:00 h
+- **[Sebastien - Pouliguen](/futbol/copa-de-francia/partido/401932758)** — 17:00 h
+- **[Tinteniac - Concarneau](/futbol/copa-de-francia/partido/401932844)** — 17:00 h
+- **[Koetzingue - Biesheim](/futbol/copa-de-francia/partido/401932757)** — 17:30 h
+- **[Amneville - Sundhoffen](/futbol/copa-de-francia/partido/401932802)** — 18:00 h
+- **[Asptt - Selongey](/futbol/copa-de-francia/partido/401932822)** — 18:00 h
+- **[Caen - FC Chambly](/futbol/copa-de-francia/partido/401932768)** — 18:00 h
+- **[Chateaubrian - Patho](/futbol/copa-de-francia/partido/401933060)** — 18:00 h
+- **[Contres - Linas-Montlhery](/futbol/copa-de-francia/partido/401932808)** — 18:00 h
+- **[Cournon - Chassieu](/futbol/copa-de-francia/partido/401932738)** — 18:00 h
+- **[Dunkerque - US Quevilly](/futbol/copa-de-francia/partido/401932839)** — 18:00 h
+- **[GrauduRoi - Riviera](/futbol/copa-de-francia/partido/401932737)** — 18:00 h
+- **[GSI Pontivy - Rennes TA](/futbol/copa-de-francia/partido/401932835)** — 18:00 h
+- **[Touquet - Avranches](/futbol/copa-de-francia/partido/401932829)** — 18:00 h
+- **[Lyon-la-Duchere - Feurs](/futbol/copa-de-francia/partido/401932740)** — 18:00 h
+- **[Saint-Omer - AF Virois](/futbol/copa-de-francia/partido/401932812)** — 18:00 h
+- **[Racing Besan - Am. du Perso](/futbol/copa-de-francia/partido/401932814)** — 18:00 h
+- **[Cestas - Bayonne](/futbol/copa-de-francia/partido/401932818)** — 18:00 h
+- **[Saint-Brieuc - Rouen](/futbol/copa-de-francia/partido/401932831)** — 18:00 h
+- **[St-Ouen L'Au - Boulogne](/futbol/copa-de-francia/partido/401932830)** — 18:00 h
+- **[Béthunois - Nancy](/futbol/copa-de-francia/partido/401932813)** — 18:00 h
+- **[S Koenigshoffen - Oberlauterbach](/futbol/copa-de-francia/partido/401932801)** — 18:00 h
+- **[Cheminots - Villefranche](/futbol/copa-de-francia/partido/401932811)** — 18:00 h
+- **[Vesoul - FC Fleury 91](/futbol/copa-de-francia/partido/401932842)** — 18:00 h
+- **[Vitre - St-Pierre](/futbol/copa-de-francia/partido/401932765)** — 18:00 h
+- **[Balma - Castanet](/futbol/copa-de-francia/partido/401932806)** — 18:30 h
+- **[Avenir Foot  - Entente](/futbol/copa-de-francia/partido/401932760)** — 19:00 h
+- **[Boulazac - Anglet Genet](/futbol/copa-de-francia/partido/401932809)** — 19:00 h
+- **[Bressuire - Challans](/futbol/copa-de-francia/partido/401932804)** — 19:00 h
+- **[Brive - Angouleme](/futbol/copa-de-francia/partido/401932817)** — 19:00 h
+- **[Cercle - Montlucon](/futbol/copa-de-francia/partido/401932825)** — 19:00 h
+- **[Chauny - Valois](/futbol/copa-de-francia/partido/401932827)** — 19:00 h
+- **[Claira - Puissalicon](/futbol/copa-de-francia/partido/401932810)** — 19:00 h
+- **[Buxerolles - Sablé FC](/futbol/copa-de-francia/partido/401932815)** — 19:00 h
+- **[FC Lourdes - Pau](/futbol/copa-de-francia/partido/401932837)** — 19:00 h
+- **[Lannion - Guingamp](/futbol/copa-de-francia/partido/401932828)** — 19:00 h
+- **[Macaire - Nueillaubiers](/futbol/copa-de-francia/partido/401932826)** — 19:00 h
+- **[Stade Bordelais - Rontignon](/futbol/copa-de-francia/partido/401932816)** — 19:00 h
+- **[Cambrai - SC Amiens](/futbol/copa-de-francia/partido/401932824)** — 20:00 h
+
+Calendario y clasificación en la [página de Copa de Francia](/futbol/copa-de-francia).
+
+## Nations League
+
+- **[Kosovo - Israel](/futbol/nations-league/partido/401861163)** — 15:00 h · 📺 DAZN
+- **[Georgia - Hungary](/futbol/nations-league/partido/401861164)** — 18:00 h
+- **[Norway - Wales](/futbol/nations-league/partido/401861165)** — 18:00 h
+- **[Austria - Rep Ireland](/futbol/nations-league/partido/401861170)** — 20:45 h
+- **[N Ireland - Ukraine](/futbol/nations-league/partido/401861169)** — 20:45 h
+- **[Portugal - Denmark](/futbol/nations-league/partido/401861167)** — 20:45 h
+- **[Romania - Poland](/futbol/nations-league/partido/401861168)** — 20:45 h
+- **[Sweden - Bosnia-Herz](/futbol/nations-league/partido/401861166)** — 20:45 h
+
+Calendario y clasificación en la [página de Nations League](/futbol/nations-league).
+
+## 🇧🇷 Brasileirão
+
+- **[Mirassol - Atlético-MG](/futbol/brasileirao/partido/401841311)** — 22:30 h
+
+Calendario y clasificación en la [página de Brasileirão](/futbol/brasileirao).
+
+Horarios en hora de España; los resultados y la narración de cada partido van en su ficha. Toda la jornada, con marcadores en directo, en [partidos de hoy](/partidos-hoy).`,
+    category: 'tv',
+    kind: 'agenda',
+    competition: {"name":"Brasileirão","sport":"futbol","slug":"brasileirao"},
+    sourceName: "ESPN",
+    sourceUrl: "https://www.espn.com/soccer/match/_/gameId/401841311",
+    sourceLang: 'en',
+    publishedAt: '2026-11-14T01:51:03.358Z',
+    modifiedAt: '2026-11-14T01:51:03.358Z',
+    author: "Redacción Mundiales de Fútbol",
+    image: {
+      url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Mirassol_%2873674261%29.jpeg/1920px-Mirassol_%2873674261%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      alt: "Estadio Municipal José Maria de Campos Maia, escenario del Mirassol - Atlético-MG",
+      credit: "Eduardo Lollato Antonio · CC BY 3.0 · Wikimedia Commons",
+      license: "CC BY 3.0",
+    },
+  },
+  {
     slug: 'silvia-rey-hija-julio-rey-descalificada-cursa-bombers-barcelona-licencia-catalana-reglamento',
     title: 'Silvia Rey, hija de Julio Rey: segunda en la meta de la Cursa de Bombers y borrada de la lista',
     summary: 'La corredora toledana bajó de la mejor marca española sub-23 en la Cursa de Bombers y acabó descalificada por no tener licencia catalana. El reglamento de la carrera no recoge esa causa.',
